@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":159,"Salesforce":34,"YC":16,"智能体":380,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":161,"Salesforce":34,"YC":16,"智能体":382,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

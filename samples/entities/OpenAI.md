@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>147</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>149</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -76,6 +76,7 @@ unlisted: true
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(12:53起):本集说他们的智能体全部通过 OpenAI API 跑在 OpenAI 模型上,选它主要因性价比(也是他们的第一个投资人);并详细讲了其提示词缓存路由与 responses API 的取舍。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(05:13起):本集提到 OpenAI 作为 Datadog 的最大客户（虽没人公开说），以及其薪酬和二次出售对人才市场的信号效应
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(40:27起):本集在讨论智能体解聚合风险时提到用户可能在 ChatGPT 里发起查询，也提到 Uber 选择与 OpenAI 等大公司参与合作
+- **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(01:03起):本集把它说成处于前沿的实验室之一，正在百倍规模重演 Dropbox 的故事：先向消费者卖订阅但不够，最终转向广告和企业市场。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 OpenAI 没有像亚马逊那样多的内部使用数据可以挖
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(04:12起):本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体破坏收容的近期案例之一
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(29:51起):本集提到瑞典后起之秀 Gabriel Peterson 成为 OpenAI 最年轻的研究员之一
@@ -153,6 +154,7 @@ unlisted: true
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说 OpenAI 与 Anthropic 合并年化收入攀升到惊人程度,新增收入已超过有史以来最好的软件公司;Sam Altman 的大规模算力承诺曾被批鲁莽、如今被视为极具远见,甚至因需求太猛暂停 Pro 套餐新订阅
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(12:56起):本集主角公司：Sam 介绍 Dev Day 发布的 22 项新东西，自称要走「平台赋能构建者、公司数量文艺复兴」路线，而非一家独大。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):本集讨论它是否会扣住最强模型、往上游做企业业务；Klein 表示第三方智能体（包括 OpenAI 的）可经 SAP 的智能体网关访问 SAP 系统。
+- **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(05:02起):本集说 OpenAI 用三名工程师让智能体从空仓库写出约一百万行代码,声称『人类可以审查 pull request 但不是必须的』;2024 年还训练了评审模型 Critic GPT。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(19:13起):本集顺带谈到 OpenAI：VC 已无法判断护城河会不会被 OpenAI 一个新模型碾平；还开玩笑说若 OpenAI 生在 Web 2.0 时代就永远不会上广告。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一（和 Anthropic 一起），用模型能力给自己产品加超能力
 
@@ -208,7 +210,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*147 集*
+*149 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -275,6 +277,7 @@ unlisted: true
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
@@ -354,6 +357,7 @@ unlisted: true
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
@@ -362,9 +366,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"Anthropic":159,"ChatGPT":87,"推理":65,"Google":53,"Cursor":74,"NVIDIA":49,"Codex":69,"Stripe":41,"Claude":77}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"Anthropic":161,"推理":67,"ChatGPT":87,"Google":54,"Cursor":75,"NVIDIA":50,"Codex":69,"Stripe":41,"Claude":77}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":49,"AMD":4,"GPU":18,"Parallel":6,"深度学习":3,"第一性原理":6,"五层蛋糕":1,"模拟":6,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":50,"AMD":4,"GPU":18,"Parallel":6,"深度学习":3,"第一性原理":6,"五层蛋糕":1,"模拟":6,"CPU":4}</script>
 
 <script>
 (function(){

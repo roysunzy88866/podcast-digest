@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":380,"多智能体":3,"记忆":19,"RAG":22,"自动研究":1,"智能体协议":1,"场景":1,"护栏":69}</script>
+<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":382,"多智能体":3,"记忆":20,"RAG":22,"自动研究":1,"智能体协议":1,"场景":1,"护栏":69}</script>
 
 <script>
 (function(){

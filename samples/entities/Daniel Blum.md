@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":4,"Claude Code":90,"Codex":69,"ChatGPT":87,"Notion":14,"Slack":29,"Whisper":2,"Cursor":74,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":4,"Claude Code":90,"Codex":69,"ChatGPT":87,"Notion":14,"Slack":29,"Whisper":2,"Cursor":75,"Optimizely":2}</script>
 
 <script>
 (function(){

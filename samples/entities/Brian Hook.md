@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]]
+[[Vlad Kyle]] [[Seema Amble]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":39,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":380,"测试":2,"TDD":3,"开发者生产力":1}</script>
+<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":40,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":382,"测试":2,"TDD":3,"开发者生产力":1}</script>
 
 <script>
 (function(){

@@ -171,8 +171,8 @@ Neil 职业生涯的底色来自 NVIDIA。大学时他进了那个为机器学�
 **换个口味**
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:NVIDIA · 同概念:GPU、token、推理 (inference)、Anthropic、OpenAI、智能体 (agent)</span>
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同嘉宾:Patrick O'Shaughnessy · 同公司:NVIDIA、TSMC · 同概念:推理 (inference)、Anthropic、OpenAI</span>
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌]]<span class="pd-rz">同公司:Cerebrus、NVIDIA、TSMC、AMD · 同概念:推理 (inference)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:AMD、NVIDIA · 同概念:GPU、Anthropic、Cursor、OpenAI</span>
 
 </div>
 </div>

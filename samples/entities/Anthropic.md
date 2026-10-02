@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>159</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>161</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -90,6 +90,7 @@ unlisted: true
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(53:39起):本集说如果智能体里跑 GPT,就必须用 Anthropic 的模型来做裁判,以避免分布重叠导致群体思维。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(00:35起):本集多次提到 Anthropic 作为前沿模型提供商，Canva 之前用的是它们的模型导致成本激增；Anthropic 工程师的薪酬信号波及整个招聘生态
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(19:58起):作为 Claude 的制造商被提及（赞助商），以及 Flo 说自己关于中国模型的立场和 Anthropic 基本一样
+- **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(06:16起):本集把它说成与 OpenAI 同处前沿的实验室，像全押的福音派，并在企业市场步步紧逼 OpenAI，其算力现由 Amazon 的 Trainium 支撑。
 - **[[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]]**(18:41起):本集提到它在大规模增长,是 Upwork 需要与之打交道的大型 AI 玩家之一
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(65:00起):本集说 Anthropic 的模型（特别是 3.5）在更具创造性的写作工作上特别有用，但目前不能用于高度延迟敏感的情况。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 Anthropic 没有像亚马逊那样多的内部使用数据可以挖，更多依赖早期从公有或开源发现的数据
@@ -164,6 +165,7 @@ unlisted: true
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(00:03起):本集嘉宾 Thariq 所在的公司,因 Claude Code 而加入;本集后半段以其 Pacing the Frontier 提案和多层安全防线(探针、auto 模式、身份权限)为主线。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说它与 OpenAI 的合并收入图是团队每月都得更新、过时得极快的最爱图表,也是私募市场估值前六、合计约 2.4 万亿美元的巨头之一
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):与 OpenAI 并列被讨论的前沿实验室；Klein 称不担心其扣住模型，市场上有足够多健康竞争，且其智能体也走 SAP 网关接入。
+- **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(02:44起):本集提到 Anthropic 的 Nicholas Carlini 让 16 个智能体无人在环写出 C 编译器,其自动化安全审查器在 readme 里承认未针对提示词注入加固。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(01:56起):本集说 Anthropic 已筹集约 3500 亿美元、拥有巨大规模优势，是与 OpenAI 并列的前沿实验室双雄之一。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一
 
@@ -217,7 +219,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*159 集*
+*161 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -300,6 +302,7 @@ unlisted: true
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
 - [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]] — 作为被讨论公司(提及)
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为被讨论公司(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
@@ -376,6 +379,7 @@ unlisted: true
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 
@@ -385,7 +389,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[推理]] · [[NVIDIA]] · [[Google]] · [[沙箱]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"OpenAI":147,"Claude Code":90,"Cursor":74,"Claude":77,"推理":65,"NVIDIA":49,"Google":53,"沙箱":68,"ChatGPT":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"OpenAI":149,"Claude Code":90,"Cursor":75,"Claude":77,"推理":67,"NVIDIA":50,"Google":54,"沙箱":68,"ChatGPT":87}</script>
 
 <script>
 (function(){

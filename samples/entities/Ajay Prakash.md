@@ -33,7 +33,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 

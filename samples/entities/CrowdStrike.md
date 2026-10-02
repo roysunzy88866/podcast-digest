@@ -27,7 +27,7 @@ unlisted: true
 
 [[Damien Lewke]] · [[David George]] · [[Nebulock]] · [[Sarah Wang]] · [[客户发现]] · [[Santiago Rodriguez]] · [[The Mom Test]] · [[Alex Imerman]] · [[九十进九十]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Damien Lewke":1,"David George":5,"Nebulock":1,"Sarah Wang":4,"客户发现":1,"Santiago Rodriguez":1,"The Mom Test":1,"Alex Imerman":1,"九十进九十":1,"OpenAI":147}</script>
+<script type="application/json" class="pd-epn">{"Damien Lewke":1,"David George":5,"Nebulock":1,"Sarah Wang":4,"客户发现":1,"Santiago Rodriguez":1,"The Mom Test":1,"Alex Imerman":1,"九十进九十":1,"OpenAI":149}</script>
 
 <script>
 (function(){

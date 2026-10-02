@@ -37,7 +37,7 @@ unlisted: true
 
 [[Codex]] · [[浏览器使用]] · [[计算机使用]] · [[MCP]] · [[ChatPRD]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[GPT-6]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Codex":69,"浏览器使用":9,"计算机使用":16,"MCP":68,"ChatPRD":6,"ChatGPT":87,"OpenAI":147,"Claude":77,"GPT-6":1,"智能体":380}</script>
+<script type="application/json" class="pd-epn">{"Codex":69,"浏览器使用":9,"计算机使用":16,"MCP":68,"ChatPRD":6,"ChatGPT":87,"OpenAI":149,"Claude":77,"GPT-6":1,"智能体":382}</script>
 
 <script>
 (function(){

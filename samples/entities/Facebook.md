@@ -65,7 +65,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[Google]] · [[TikTok]] · [[Apple]] · [[Amazon]] · [[网络效应]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":380,"OpenAI":147,"ChatGPT":87,"Cursor":74,"Google":53,"TikTok":6,"Apple":19,"Amazon":24,"网络效应":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":382,"OpenAI":149,"ChatGPT":87,"Cursor":75,"Google":54,"TikTok":6,"Apple":20,"Amazon":25,"网络效应":13}</script>
 
 <script>
 (function(){

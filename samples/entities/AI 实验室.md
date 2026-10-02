@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Cliff Weitzman]] · [[Speechify]] · [[Eleven Labs]] · [[Sierra]] · [[NVIDIA]] · [[Dell]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Cliff Weitzman":1,"Speechify":1,"Eleven Labs":8,"Sierra":6,"NVIDIA":49,"Dell":1,"Anthropic":159,"OpenAI":147,"Claude Code":90}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Cliff Weitzman":1,"Speechify":1,"Eleven Labs":8,"Sierra":6,"NVIDIA":50,"Dell":1,"Anthropic":161,"OpenAI":149,"Claude Code":90}</script>
 
 <script>
 (function(){

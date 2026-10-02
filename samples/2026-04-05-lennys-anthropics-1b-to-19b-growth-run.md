@@ -123,9 +123,9 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI</span>
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
 
 </div>
 <div class="pd-ex">

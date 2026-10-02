@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jonathan]] [[Mali]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]]
+[[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":4,"智能体":380,"沙箱":68,"运行时":1,"harness":51,"MCP":68,"MicroVM":1,"基于意图的访问":1,"SPX":1,"Codex":69}</script>
+<script type="application/json" class="pd-epn">{"Docker":4,"智能体":382,"沙箱":68,"运行时":1,"harness":51,"MCP":68,"MicroVM":1,"基于意图的访问":1,"SPX":1,"Codex":69}</script>
 
 <script>
 (function(){

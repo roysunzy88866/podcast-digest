@@ -1,0 +1,464 @@
+{
+  "episode_id": "2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "本地 AI",
+    "AI 记忆",
+    "向量搜索",
+    "数据主权",
+    "开源模型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dylan-couzon",
+      "type": "person",
+      "role": "guest",
+      "name": "Dylan Couzon",
+      "file": "Dylan Couzon",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "quadrants",
+      "type": "company",
+      "role": "company",
+      "name": "Quadrants",
+      "file": "Quadrants",
+      "primary": true,
+      "how_described": "演讲者 Dylan Cousin 所在的公司;他在那里做一款直接嵌入应用、在进程内打开本地存储、可离线毫秒级查询的向量搜索引擎,与云端 Quadrant 共用同一 REST 核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            20.905,
+            23.988
+          ],
+          "quote": "I am a Developer Relations Engineer at Quadrants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            568.635,
+            576.299
+          ],
+          "quote": "And you can see that the entire memory and quadrants engine footprints is only 15 megabytes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集把记忆定义为「写入、检索、遗忘」三个动词构成的系统,而非更大的提示词;拥有记忆才给连续性,并引用 Carpathy 的比喻「模型是 CPU,上下文窗口是 RAM,记忆是磁盘」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            99.983,
+            103.485
+          ],
+          "quote": "They're just geniuses with no long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            104.705,
+            109.087
+          ],
+          "quote": "This talk is about fixing that, not with a bigger prompt, with actual memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            284.317,
+            286.237
+          ],
+          "quote": "But owning memory gives you continuity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            294.036,
+            301.123
+          ],
+          "quote": "Every Frontier Lab shipped a memory feature, not because the models got smarter, but because they don't carry anything between sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            319.265,
+            321.706
+          ],
+          "quote": "So what actually is memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            340.353,
+            345.115
+          ],
+          "quote": "And because retrieving the right memory beats dumping everything and praying the model finds it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            355.833,
+            360.719
+          ],
+          "quote": "You can let relevance shift over time, the way human memory actually works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            376.786,
+            380.487
+          ],
+          "quote": "The memory side of superintelligence was never the hard part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            385.266,
+            389.031
+          ],
+          "quote": "So today, the memory that actually knows you lands in one of two places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            406.63,
+            412.213
+          ],
+          "quote": "The model is the CPU, the context window is the RAM, and the memory is the disk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            429.273,
+            435.56
+          ],
+          "quote": "So today I'm not going to argue which memory architecture wins or is the best one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            477.29,
+            480.452
+          ],
+          "quote": "Close the app, come back a year later, the memory is intact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            525.404,
+            536.108
+          ],
+          "quote": "Then we take that picture, we take that label, and we turn that into embeddings to create a live, real-time memory for that drone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            568.635,
+            576.299
+          ],
+          "quote": "And you can see that the entire memory and quadrants engine footprints is only 15 megabytes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            578.447,
+            581.411
+          ],
+          "quote": "And then what we can do on those memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            709.015,
+            711.096
+          ],
+          "quote": "Point the same memory at your whole day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            750.972,
+            757.256
+          ],
+          "quote": "And right now, none of those devices share a memory that you actually own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            781.173,
+            786.517
+          ],
+          "quote": "And one last idea, because owning memory doesn't mean keeping it to yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            825.455,
+            829.738
+          ],
+          "quote": "A memory can be shared with Consent, or it can be extracted without it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            869.992,
+            872.254
+          ],
+          "quote": "Take the stranger home and give it memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            872.914,
+            887.903
+          ],
+          "quote": "Then picture that memory five years from now, not a chatbot, a private mind that never forgets you, that nobody can switch off, and that knows you better than any system ever has, because you were the only one who ever trained it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集说演讲者做的是一款直接嵌入你应用的向量搜索引擎,把图片和标签转成嵌入写入本地向量库,支撑对记忆的语义搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            451.21,
+            454.35
+          ],
+          "quote": "I work on a vector search engine that embeds directly into your app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "embeddings",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embeddings)",
+      "file": "嵌入",
+      "primary": true,
+      "how_described": "本集说嵌入自 2019 年起就能在本地运行,演示中把无人机检测到的图片和标签转成嵌入,只要保留同一个嵌入模型,记忆文件夹就成永久资产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            365.262,
+            375.646
+          ],
+          "quote": "HNSW in 2016, embeddings have been running locally since 2019, long before any model could really use them at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            458.632,
+            463.193
+          ],
+          "quote": "You write embeddings with payloads, then query offline in some millisecond time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            525.404,
+            536.108
+          ],
+          "quote": "Then we take that picture, we take that label, and we turn that into embeddings to create a live, real-time memory for that drone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openweight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (OpenWeight)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说开放权重模型正在快速逼近闭源前沿,差距每个季度都在缩小;已经坐在你桌面上的权重没人能伸手进机器关掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            132.492,
+            135.534
+          ],
+          "quote": "And OpenWeight's models are closing on fast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集核心命题:几年内会出现比所有人都聪明的超级智能,「何时」是无聊的问题,真正问题是它归属于谁——租在别人数据中心,还是属于你自己的私人心智。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.892,
+            53.513
+          ],
+          "quote": "In one, superintelligence lives in someone else's data center, and you pay by the token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            376.786,
+            380.487
+          ],
+          "quote": "The memory side of superintelligence was never the hard part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            888.891,
+            892.174
+          ],
+          "quote": "That's not a smaller superintelligence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说「拥有推理给你的是自主性——没人能把模型夺走」,但那只解决问题的一半;换推理模型、换硬件都不影响可移植的记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            279.996,
+            281.736
+          ],
+          "quote": "Owning inference gives you autonomy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集提到人们不再写提示词,而是在智能体循环里跑好几个小时,一个任务烧的 token 可能是聊天消息的数千倍;无人机记忆同样适用于聊天机器人、智能体和代码助手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            250.753,
+            253.254
+          ],
+          "quote": "They're in agents or loops for hours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yolo",
+      "type": "concept",
+      "role": "concept",
+      "name": "YOLO",
+      "file": "YOLO",
+      "primary": false,
+      "how_described": "本集现场演示中使用的目标检测模型,检测无人机画面里的物体并为每个物品创建标签。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            514.34,
+            518.241
+          ],
+          "quote": "And I'm using YOLO, which is an object detection model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hnsw",
+      "type": "concept",
+      "role": "concept",
+      "name": "HNSW",
+      "file": "HNSW",
+      "primary": false,
+      "how_described": "本集说记忆基础设施多年前就备好了——2016 年就有了 HNSW 这种高效的近邻搜索索引结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            365.262,
+            375.646
+          ],
+          "quote": "HNSW in 2016, embeddings have been running locally since 2019, long before any model could really use them at scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

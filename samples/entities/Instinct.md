@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[主动性]] · [[Muse]] · [[ChatGPT]] · [[iMessage]] · [[Harry Stebbings]] · [[Noah Shinn]] · [[Anish Acharya]] · [[NVIDIA]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"主动性":2,"Muse":3,"ChatGPT":87,"iMessage":2,"Harry Stebbings":19,"Noah Shinn":1,"Anish Acharya":4,"NVIDIA":49,"算力":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"主动性":2,"Muse":3,"ChatGPT":87,"iMessage":2,"Harry Stebbings":19,"Noah Shinn":1,"Anish Acharya":4,"NVIDIA":50,"算力":6}</script>
 
 <script>
 (function(){

@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":18,"Salesforce":34,"智能体":380,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":19,"Vercel":18,"Cursor":74,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":18,"Salesforce":34,"智能体":382,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":19,"Vercel":18,"Cursor":75,"Artisan":1}</script>
 
 <script>
 (function(){

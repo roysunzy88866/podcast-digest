@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":147,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":149,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
 
 <script>
 (function(){

@@ -166,8 +166,8 @@ Josh 看产品的整个漏斗:①价值能否一句话讲清、让人扬眉;②�
 **换个口味**
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT、Apple、Facebook、Google · 同概念:智能体 (agent)</span>
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Apple、Amazon、Google · 同概念:推理 (inference)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple、ChatGPT · 同概念:智能体 (agent)</span>
-- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Google · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

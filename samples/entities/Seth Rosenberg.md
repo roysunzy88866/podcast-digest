@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":11,"Inflection AI":1,"Microsoft":27,"Pi":2,"Copilot":11,"OpenAI":147,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":11,"Inflection AI":1,"Microsoft":28,"Pi":2,"Copilot":11,"OpenAI":149,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

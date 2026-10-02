@@ -148,7 +148,7 @@ Harry 问：手里有 Anthropic、Lovable、Legora、OpenRouter,你本可以募�
 
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、Lovable、OpenAI</span>
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Anthropic · 同概念:可观测性 (observability)、股权占比 (ownership)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic、OpenAI、Benchmark、Cursor</span>
 
 </div>
 </div>

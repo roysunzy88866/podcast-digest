@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":87,"智能体":380,"信任建立":6,"微短剧":1,"推理":65,"网络效应":13,"语音":2,"Discord":6}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":87,"智能体":382,"信任建立":6,"微短剧":1,"推理":67,"网络效应":13,"语音":2,"Discord":6}</script>
 
 <script>
 (function(){

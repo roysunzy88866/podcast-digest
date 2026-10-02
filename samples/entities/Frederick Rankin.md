@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":380,"人在回路":18,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":41}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":382,"人在回路":18,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":41}</script>
 
 <script>
 (function(){

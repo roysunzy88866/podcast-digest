@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":69,"智能体":380,"Intercom":6,"Ryan Carson":1,"Muse":3,"ChatPRD":6,"Devon":4,"Meta":39,"Vercel":18,"Cognition":22}</script>
+<script type="application/json" class="pd-epn">{"Codex":69,"智能体":382,"Intercom":6,"Ryan Carson":1,"Muse":3,"ChatPRD":6,"Devon":4,"Meta":40,"Vercel":18,"Cognition":23}</script>
 
 <script>
 (function(){

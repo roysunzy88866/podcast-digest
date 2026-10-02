@@ -25,7 +25,7 @@ unlisted: true
 
 [[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"智能体":380}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"智能体":382}</script>
 
 <script>
 (function(){

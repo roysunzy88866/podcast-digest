@@ -120,9 +120,9 @@ a16z 跟这类人建立关系的方式很具体：帮他们重新激活人脉（
 
 **换个口味**
 
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Cognition、OpenAI</span>
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同公司:Cognition</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:Cognition</span>
-- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场]]<span class="pd-rz">同嘉宾:Elena Berger</span>
 
 </div>
 </div>

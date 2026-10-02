@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":159,"Claude":77,"Claude Code":90,"tag":1,"Instagram":6,"Claude Design":1,"Fable":10,"Cowork":6,"智能体":380,"代码审查":21}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":161,"Claude":77,"Claude Code":90,"tag":1,"Instagram":6,"Claude Design":1,"Fable":10,"Cowork":6,"智能体":382,"代码审查":22}</script>
 
 <script>
 (function(){

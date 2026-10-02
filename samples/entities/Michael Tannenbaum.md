@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":5,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":39}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":5,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":40}</script>
 
 <script>
 (function(){

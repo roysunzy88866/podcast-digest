@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Ultrafast]] · [[Decisions API]] · [[SPACE]] · [[活文档]] · [[推理]] · [[Astra]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":147,"智能体":380,"ChatGPT":87,"Codex":69,"Ultrafast":1,"Decisions API":1,"SPACE":2,"活文档":1,"推理":65,"Astra":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":149,"智能体":382,"ChatGPT":87,"Codex":69,"Ultrafast":1,"Decisions API":1,"SPACE":2,"活文档":1,"推理":67,"Astra":5}</script>
 
 <script>
 (function(){

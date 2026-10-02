@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":49,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
+<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":50,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
 
 <script>
 (function(){

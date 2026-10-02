@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":24,"Boeing":2,"FAA":2,"Uber":16,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":25,"Boeing":2,"FAA":2,"Uber":16,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
 
 <script>
 (function(){

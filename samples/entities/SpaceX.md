@@ -69,7 +69,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[Cursor]] · [[Stripe]] · [[智能体]] · [[Microsoft]] · [[Meta]] · [[Harry Stebbings]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":147,"Anthropic":159,"NVIDIA":49,"Cursor":74,"Stripe":41,"智能体":380,"Microsoft":27,"Meta":39,"Harry Stebbings":19,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":161,"NVIDIA":50,"Cursor":75,"Stripe":41,"智能体":382,"Microsoft":28,"Meta":40,"Harry Stebbings":19,"Palantir":20}</script>
 
 <script>
 (function(){

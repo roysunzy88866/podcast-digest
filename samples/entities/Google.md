@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>53</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>54</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(02:04起):本集说 Google 收购了 Looker，收购后 Looker 的产品和客户群没有得到照顾
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(00:30起):本集说 Google 的努力是 B+、A-，不是 A+；在向 Anthropic 出售云计算方面做得好，但在编码方面没有任何影响力
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:17起):本集说 Google Ads 是 Whisper 最大的获客渠道，有丰富度评分（enrichment score），在非品牌搜索、PMAX、YouTube 广告上都能盈利，且比 Meta 有更精细的控制
+- **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(06:23起):本集把 Google 搜索说成史上最完美、零边际成本的聚合器生意，而 AI 焚烧现金但 TAM 是所有白领工作；Google 发行股权、靠买暗光纤起家，像伯克希尔从喜诗糖果转向 BNSF。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(03:35起):本集提到 Google 手头现金加流动投资有 1870 亿，与 Meta 一样通过表外承诺方式为 AI 基础设施融资
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集说 Google 拥有所有数据和智能，但其模型被 OpenAI 和 Anthropic 击溃——这不是工程问题，而是文化问题。此外，Google 内部在配给 token，内部产品面临「AI 饥饿」，而其竞争对手不受此限制。
 - **[[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]]**(00:55起):嘉宾在 Google 工作 11 年、是 Google Brain 早期成员，担任 Vertex 调优、评估、智能体引擎等云 AI 产品的工程负责人；本集还以她在 Gemini 团队的内部视角说明模型开发团队对企业需求接触非常有限。
@@ -137,7 +138,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*53 集*
+*54 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -168,6 +169,7 @@ unlisted: true
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
 - [[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]] — 作为被讨论公司
@@ -197,9 +199,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Amazon]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Amazon]] · [[Meta]] · [[Lenny]] · [[Apple]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"OpenAI":147,"Anthropic":159,"ChatGPT":87,"Claude":77,"Amazon":24,"Lenny":68,"Meta":39,"Apple":19,"Microsoft":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"OpenAI":149,"Anthropic":161,"ChatGPT":87,"Claude":77,"Amazon":25,"Meta":40,"Lenny":68,"Apple":20,"Microsoft":28}</script>
 
 <script>
 (function(){

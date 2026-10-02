@@ -132,8 +132,8 @@ Martin 反复强调一个观点：如果你只看资产负债表——利润率�
 **换个口味**
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor、OpenAI、Anthropic</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Cursor、OpenAI、Anthropic</span>
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同嘉宾:Theo Jaffe · 同公司:OpenAI</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source)</span>
 
 </div>
 </div>

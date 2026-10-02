@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":24,"AI":26,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
+<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":25,"AI":26,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":159,"Claude":77,"Claude Code":90,"MCP":68,"harness":51,"开源模型":24,"多模型世界":1,"token":30,"OpenRouter":12}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":161,"Claude":77,"Claude Code":90,"MCP":68,"harness":51,"开源模型":24,"多模型世界":1,"token":30,"OpenRouter":12}</script>
 
 <script>
 (function(){

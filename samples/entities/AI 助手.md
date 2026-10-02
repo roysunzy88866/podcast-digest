@@ -8,12 +8,18 @@ aliases: ["AI assistant", "AI assistants"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 助手 (AI assistant)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistant)</h1><div class="byl">概念 · 又名 AI assistant / AI assistants</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistant)</h1><div class="byl">概念 · 又名 AI assistant / AI assistants</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:57起):本集说 Bumble 的 AI 约会助手叫 Bee,用户愿意花大量时间与它聊天好让系统真正「被了解」,将在 Q4 到 2027 年作为高级产品推出
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(01:20起):本集称其为硅谷当下最火热的品类(消费级与企业级),整集围绕这个市场的竞争格局、商业模式和终局展开。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q10]]
 
 ## ② 出现在这些集
 
@@ -28,7 +34,7 @@ aliases: ["AI assistant", "AI assistants"]
 
 [[Apple]] · [[Whitney Wolfe Herd]] · [[Harry Stebbings]] · [[Bumble]] · [[JD]] · [[滑动]] · [[Town]] · [[AI]] · [[Plaid]] · [[推荐引擎]]
 
-<script type="application/json" class="pd-epn">{"Apple":19,"Whitney Wolfe Herd":1,"Harry Stebbings":19,"Bumble":1,"JD":1,"滑动":1,"Town":4,"AI":26,"Plaid":2,"推荐引擎":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":20,"Whitney Wolfe Herd":1,"Harry Stebbings":19,"Bumble":1,"JD":1,"滑动":1,"Town":4,"AI":26,"Plaid":2,"推荐引擎":2}</script>
 
 <script>
 (function(){

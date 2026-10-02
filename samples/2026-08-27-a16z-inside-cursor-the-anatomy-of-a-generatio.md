@@ -132,8 +132,8 @@ Cursor 的产品经历了剧烈的演变：先做 IDE 编辑器，然后转向�
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Anthropic、Cursor、Microsoft、Claude Code、OpenAI、SpaceX</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI、Cognition、GitHub</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI</span>
-- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor、SpaceX</span>
 
 </div>
 <div class="pd-ex">

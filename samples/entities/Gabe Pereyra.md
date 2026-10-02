@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harvey":16,"后训练":1,"基准测试":15,"合成数据":8,"开源模型":24,"智能体":380,"RL 环境":7,"模型路由":9,"DeepMind":11}</script>
+<script type="application/json" class="pd-epn">{"Harvey":16,"后训练":1,"基准测试":16,"合成数据":8,"开源模型":24,"智能体":382,"RL 环境":7,"模型路由":9,"DeepMind":11}</script>
 
 <script>
 (function(){

@@ -67,7 +67,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Amazon]] · [[Cursor]] · [[Revolut]] · [[Waymo]] · [[AI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"OpenAI":147,"ChatGPT":87,"Anthropic":159,"Amazon":24,"Cursor":74,"Revolut":5,"Waymo":15,"AI":26,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"OpenAI":149,"ChatGPT":87,"Anthropic":161,"Amazon":25,"Cursor":75,"Revolut":5,"Waymo":15,"AI":26,"Palantir":20}</script>
 
 <script>
 (function(){

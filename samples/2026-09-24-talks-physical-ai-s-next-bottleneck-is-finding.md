@@ -117,7 +117,7 @@ Rafael 的核心质问是：所有东西都能在网上找到时，为什么要�
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同概念:世界模型 (world models)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Meta、NVIDIA</span>
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]]<span class="pd-rz">同公司:NVIDIA</span>
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Meta、NVIDIA</span>
 
 </div>
 </div>

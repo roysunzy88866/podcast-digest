@@ -184,8 +184,8 @@ Google 搜索为什么至今 resilient?因为最高变现的广告词(买保险�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、Meta、Microsoft、OpenAI · 同概念:CapEx、SaaS</span>
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、Meta、Microsoft、OpenAI · 同概念:推理 (inference)</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、Microsoft、OpenAI · 同概念:CapEx</span>
-- [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:微调 (fine tuning)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

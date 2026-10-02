@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":380,"临床决策支持":1,"评估":3,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":23,"临床记录":1}</script>
+<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":382,"临床决策支持":1,"评估":3,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":23,"临床记录":1}</script>
 
 <script>
 (function(){

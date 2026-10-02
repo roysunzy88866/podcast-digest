@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jonathan]] [[Mali]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]]
+[[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":147,"Anthropic":159,"Hugging Face":26,"对齐":12,"奖励黑客":6,"智能体":380,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":5}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":149,"Anthropic":161,"Hugging Face":26,"对齐":12,"奖励黑客":6,"智能体":382,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":5}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":10,"智能体":380,"智能体编码":3,"PR":6,"CI-CD":16,"可观测性":34,"护栏":69,"token":30}</script>
+<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":10,"智能体":382,"智能体编码":3,"PR":6,"CI-CD":16,"可观测性":34,"护栏":69,"token":30}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":380,"RAG":22,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":68}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":382,"RAG":22,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":68}</script>
 
 <script>
 (function(){

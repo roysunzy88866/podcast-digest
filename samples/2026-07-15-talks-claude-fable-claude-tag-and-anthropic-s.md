@@ -150,8 +150,8 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
 **顺着「AI 编程」挖下去**
 
 - [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Bun、Claude Code、提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)、评估 (eval)</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic · 同概念:Bun、GitHub、代码审查 (code review)、提示词注入 (prompt injection)、智能体 (agent)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同嘉宾:Thariq Shihipar · 同公司:Anthropic · 同概念:提示词 (prompt)、智能体 (agent)、沙箱 (sandbox)、自动模式 (auto mode)</span>
-- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Anthropic · 同概念:代码审查 (code review)、智能体 (agent)、系统提示词 (system prompt)、Claude、GitHub</span>
 
 </div>
 <div class="pd-ex">

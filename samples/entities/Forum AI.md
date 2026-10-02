@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex]] · [[Campbell Brown]] · [[OpenAI]] · [[Anthropic]] · [[Meta]] · [[ChatGPT]] · [[LLM]] · [[幻觉]] · [[诱导性提示]] · [[互动率]]
 
-<script type="application/json" class="pd-epn">{"Alex":5,"Campbell Brown":1,"OpenAI":147,"Anthropic":159,"Meta":39,"ChatGPT":87,"LLM":52,"幻觉":11,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":5,"Campbell Brown":1,"OpenAI":149,"Anthropic":161,"Meta":40,"ChatGPT":87,"LLM":52,"幻觉":11,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

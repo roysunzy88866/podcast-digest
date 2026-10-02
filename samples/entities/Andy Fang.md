@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":10,"Dot":1,"Waymo":15,"智能体商务":1,"智能体":380,"自主性":10,"分发":7,"无人机":2,"harness":51,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":10,"Dot":1,"Waymo":15,"智能体商务":1,"智能体":382,"自主性":10,"分发":7,"无人机":2,"harness":51,"开放权重模型":1}</script>
 
 <script>
 (function(){

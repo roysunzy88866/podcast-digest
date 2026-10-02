@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":1,"a16z":18,"基准测试":15,"Salesforce":34,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":1,"a16z":18,"基准测试":16,"Salesforce":34,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
 
 <script>
 (function(){

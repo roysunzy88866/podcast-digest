@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":25,"循环":10,"Factory":5,"Tesla 智能体":1,"代码审查":21,"验证器":6,"上下文":25}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":25,"循环":10,"Factory":5,"Tesla 智能体":1,"代码审查":22,"验证器":6,"上下文":25}</script>
 
 <script>
 (function(){

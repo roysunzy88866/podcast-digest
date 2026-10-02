@@ -1,0 +1,1506 @@
+[
+ {
+  "seg": 0,
+  "start": 12.677,
+  "end": 13.378,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.598,
+  "end": 15.34,
+  "speaker": "Unknown",
+  "en": "Thank you for joining me today.",
+  "zh": "感谢大家今天来参加我的分享。"
+ },
+ {
+  "seg": 2,
+  "start": 15.72,
+  "end": 19.183,
+  "speaker": "Unknown",
+  "en": "I hope everyone is having a great conference so far.",
+  "zh": "希望到目前为止,大家在这次大会上过得愉快。"
+ },
+ {
+  "seg": 3,
+  "start": 19.343,
+  "end": 20.605,
+  "speaker": "Unknown",
+  "en": "So my name is Dylan Cousin.",
+  "zh": "我叫 Dylan Cousin。"
+ },
+ {
+  "seg": 4,
+  "start": 20.905,
+  "end": 23.988,
+  "speaker": "Unknown",
+  "en": "I am a Developer Relations Engineer at Quadrants.",
+  "zh": "我是 Quadrants 的一名开发者关系工程师。"
+ },
+ {
+  "seg": 5,
+  "start": 24.428,
+  "end": 27.912,
+  "speaker": "Unknown",
+  "en": "And the title of my talk today is The Frontier is Coming Home.",
+  "zh": "我今天演讲的标题是《前沿正在回家》。"
+ },
+ {
+  "seg": 6,
+  "start": 29.173,
+  "end": 30.594,
+  "speaker": "Unknown",
+  "en": "So what do I mean by that?",
+  "zh": "那么这是什么意思呢?"
+ },
+ {
+  "seg": 7,
+  "start": 31.035,
+  "end": 35.859,
+  "speaker": "Unknown",
+  "en": "And somewhere in the next few years, something smarter than all of us is going to exist.",
+  "zh": "在未来几年的某个时候,某个比我们所有人都更聪明的东西将会存在。"
+ },
+ {
+  "seg": 8,
+  "start": 36.69,
+  "end": 41.431,
+  "speaker": "Unknown",
+  "en": "We've spent years asking when, but I think when is kind of the boring question.",
+  "zh": "我们花了多年时间追问\"何时\",但我觉得\"何时\"是个挺无聊的问题。"
+ },
+ {
+  "seg": 9,
+  "start": 41.611,
+  "end": 47.272,
+  "speaker": "Unknown",
+  "en": "I think the real one is who it belongs to, because there are two versions of this.",
+  "zh": "我认为真正的问题是它归属于谁,因为这存在两个版本。"
+ },
+ {
+  "seg": 10,
+  "start": 47.892,
+  "end": 53.513,
+  "speaker": "Unknown",
+  "en": "In one, superintelligence lives in someone else's data center, and you pay by the token.",
+  "zh": "在一个版本里,超级智能存在于别人的数据中心,你按 token 付费。"
+ },
+ {
+  "seg": 11,
+  "start": 54.633,
+  "end": 56.014,
+  "speaker": "Unknown",
+  "en": "In the other, it's yours.",
+  "zh": "在另一个版本里,它是你的。"
+ },
+ {
+  "seg": 12,
+  "start": 56.314,
+  "end": 63.055,
+  "speaker": "Unknown",
+  "en": "It learns from your life, your context stays private, and nobody can switch it off, throttle it, or take it away from you.",
+  "zh": "它从你的生活中学习,你的上下文保持私密,没有人能把它关掉、限速,或者从你手里夺走。"
+ },
+ {
+  "seg": 13,
+  "start": 64.328,
+  "end": 66.99,
+  "speaker": "Unknown",
+  "en": "That second version is what I want to talk about today.",
+  "zh": "第二个版本就是我今天想谈的。"
+ },
+ {
+  "seg": 14,
+  "start": 67.43,
+  "end": 68.651,
+  "speaker": "Unknown",
+  "en": "That's the front you're coming home.",
+  "zh": "那就是前沿正在回家。"
+ },
+ {
+  "seg": 15,
+  "start": 71.013,
+  "end": 72.293,
+  "speaker": "Unknown",
+  "en": "Quick thought experiments.",
+  "zh": "先做个快速的思想实验。"
+ },
+ {
+  "seg": 16,
+  "start": 72.834,
+  "end": 77.337,
+  "speaker": "Unknown",
+  "en": "What would you build if your assistants actually remembered everything you ever taught it?",
+  "zh": "如果你的助手真的记得你曾经教过它的所有东西,你会用它来构建什么?"
+ },
+ {
+  "seg": 17,
+  "start": 78.097,
+  "end": 82.08,
+  "speaker": "Unknown",
+  "en": "Every preference, every correction, every dead end for years.",
+  "zh": "每一条偏好、每一次纠正、每一个走过的死胡同,持续多年。"
+ },
+ {
+  "seg": 18,
+  "start": 83.061,
+  "end": 84.762,
+  "speaker": "Unknown",
+  "en": "That's not a chatbot anymore.",
+  "zh": "那就不再是一个聊天机器人了。"
+ },
+ {
+  "seg": 19,
+  "start": 84.902,
+  "end": 85.802,
+  "speaker": "Unknown",
+  "en": "That's a second mind.",
+  "zh": "那是第二个心智。"
+ },
+ {
+  "seg": 20,
+  "start": 86.778,
+  "end": 93.061,
+  "speaker": "Unknown",
+  "en": "But the assistant you're using right now forgets almost all of it the second the conversation ends.",
+  "zh": "但你现在正在使用的这个助手,几乎在对话结束的那一刻就忘掉这一切。"
+ },
+ {
+  "seg": 21,
+  "start": 94.081,
+  "end": 95.602,
+  "speaker": "Unknown",
+  "en": "Every session starts from zero.",
+  "zh": "每一次会话都从零开始。"
+ },
+ {
+  "seg": 22,
+  "start": 96.262,
+  "end": 99.423,
+  "speaker": "Unknown",
+  "en": "We call these things intelligence, and they are.",
+  "zh": "我们把这些东西称为智能,它们确实是。"
+ },
+ {
+  "seg": 23,
+  "start": 99.983,
+  "end": 103.485,
+  "speaker": "Unknown",
+  "en": "They're just geniuses with no long-term memory.",
+  "zh": "它们只是没有长期记忆的天才。"
+ },
+ {
+  "seg": 24,
+  "start": 104.705,
+  "end": 109.087,
+  "speaker": "Unknown",
+  "en": "This talk is about fixing that, not with a bigger prompt, with actual memory.",
+  "zh": "这次演讲就是关于解决这个问题的,不是靠更大的提示词,而是靠真正的记忆。"
+ },
+ {
+  "seg": 25,
+  "start": 111.041,
+  "end": 114.163,
+  "speaker": "Unknown",
+  "en": "That genius used to only exist behind someone's API.",
+  "zh": "这个天才过去只存在于某人的 API 背后。"
+ },
+ {
+  "seg": 26,
+  "start": 114.503,
+  "end": 119.425,
+  "speaker": "Unknown",
+  "en": "In a data center you'll never see, now it runs on hardware that most of us own.",
+  "zh": "在一个你永远不会看到的数据中心里,现在它跑在我们大多数人拥有的硬件上。"
+ },
+ {
+  "seg": 27,
+  "start": 120.426,
+  "end": 124.128,
+  "speaker": "Unknown",
+  "en": "Not the absolute frontier, I'm going to be honest, but shockingly close.",
+  "zh": "不是绝对的前沿,说实话,但近得惊人。"
+ },
+ {
+  "seg": 28,
+  "start": 124.888,
+  "end": 131.552,
+  "speaker": "Unknown",
+  "en": "A machine under $2,500 today can run what was basically last year's frontier.",
+  "zh": "今天一台 2500 美元以下的机器就能运行基本上是去年的前沿模型。"
+ },
+ {
+  "seg": 29,
+  "start": 132.492,
+  "end": 135.534,
+  "speaker": "Unknown",
+  "en": "And OpenWeight's models are closing on fast.",
+  "zh": "而 OpenWeight 的模型正在快速逼近。"
+ },
+ {
+  "seg": 30,
+  "start": 135.734,
+  "end": 137.475,
+  "speaker": "Unknown",
+  "en": "The gap is shrinking every quarter.",
+  "zh": "差距每个季度都在缩小。"
+ },
+ {
+  "seg": 31,
+  "start": 139.512,
+  "end": 147.779,
+  "speaker": "Unknown",
+  "en": "You'd expect this to feel like a landmark, the frontier on your desk for the price of a laptop, and yet it doesn't quite land.",
+  "zh": "你会以为这会像一座里程碑,前沿模型以一台笔记本电脑的价格摆上你的桌面,然而它并没有真正落地。"
+ },
+ {
+  "seg": 32,
+  "start": 149.001,
+  "end": 152.163,
+  "speaker": "Unknown",
+  "en": "Because a model on its own is just a brilliant stranger.",
+  "zh": "因为一个模型本身只是一个聪明的陌生人。"
+ },
+ {
+  "seg": 33,
+  "start": 152.744,
+  "end": 155.647,
+  "speaker": "Unknown",
+  "en": "It's powerful, but it isn't yours.",
+  "zh": "它很强大,但它不是你的。"
+ },
+ {
+  "seg": 34,
+  "start": 156.768,
+  "end": 162.513,
+  "speaker": "Unknown",
+  "en": "What makes it yours is everything it knows about you, and that part hasn't come home yet.",
+  "zh": "让它成为\"你的\"的,是它所知道的关于你的一切,而这一部分还没有回家。"
+ },
+ {
+  "seg": 35,
+  "start": 164.544,
+  "end": 172.131,
+  "speaker": "Unknown",
+  "en": "So you can run a frontier class model on your own hardware today, and yet look at the AI stack that most of us are using today.",
+  "zh": "所以你今天就能在自己的硬件上运行前沿级别的模型,但看看我们大多数人今天正在使用的 AI 技术栈。"
+ },
+ {
+  "seg": 36,
+  "start": 172.991,
+  "end": 174.032,
+  "speaker": "Unknown",
+  "en": "The compute is rented.",
+  "zh": "算力是租的。"
+ },
+ {
+  "seg": 37,
+  "start": 174.252,
+  "end": 175.253,
+  "speaker": "Unknown",
+  "en": "The model is rented.",
+  "zh": "模型是租的。"
+ },
+ {
+  "seg": 38,
+  "start": 175.433,
+  "end": 176.534,
+  "speaker": "Unknown",
+  "en": "The harness is rented.",
+  "zh": "运行框架是租的。"
+ },
+ {
+  "seg": 39,
+  "start": 177.395,
+  "end": 182.82,
+  "speaker": "Unknown",
+  "en": "And the part that's supposed to become you, the thing that should compound over the years, also rented.",
+  "zh": "而那个本应成为\"你\"的部分,那个本应随岁月复利的部分,也是租的。"
+ },
+ {
+  "seg": 40,
+  "start": 184.18,
+  "end": 196.086,
+  "speaker": "Unknown",
+  "en": "If we don't fix that, the most powerful technology any of us will ever touch ends up owned by whoever holds the lease, not the people it was built for.",
+  "zh": "如果我们不解决这个问题,我们任何人在有生之年能触及的最强大的技术,最终将归属于持有租约的人,而不是它本为之而建的人们。"
+ },
+ {
+  "seg": 41,
+  "start": 197.427,
+  "end": 202.17,
+  "speaker": "Unknown",
+  "en": "So let's look at what renting actually costs today.",
+  "zh": "那么让我们看看租用实际上在今天是花了什么代价。"
+ },
+ {
+  "seg": 42,
+  "start": 203.37,
+  "end": 208.813,
+  "speaker": "Unknown",
+  "en": "Starts with where the model leads, because when you rent it, you don't really control it.",
+  "zh": "从模型所受的钳制说起,因为当你租用它时,你其实并不能真正控制它。"
+ },
+ {
+  "seg": 43,
+  "start": 209.594,
+  "end": 211.315,
+  "speaker": "Unknown",
+  "en": "This shows up in three different ways.",
+  "zh": "这体现在三种不同的方式上。"
+ },
+ {
+  "seg": 44,
+  "start": 212.429,
+  "end": 219.535,
+  "speaker": "Unknown",
+  "en": "Last month, a government order pulled access to two flagship models, Fable and Mythos 5, for every single customer.",
+  "zh": "上个月,一道政府命令切断了两个旗舰模型 Fable 和 Mythos 5 的访问,面向所有客户。"
+ },
+ {
+  "seg": 45,
+  "start": 220.575,
+  "end": 225.019,
+  "speaker": "Unknown",
+  "en": "Now compare that to weights that are already sitting on your desk.",
+  "zh": "对比一下那些已经坐在你桌面上的权重。"
+ },
+ {
+  "seg": 46,
+  "start": 225.519,
+  "end": 228.001,
+  "speaker": "Unknown",
+  "en": "Nobody can reach into your machine and flip those off.",
+  "zh": "没有人能伸手进入你的机器把它们关掉。"
+ },
+ {
+  "seg": 47,
+  "start": 229.663,
+  "end": 232.865,
+  "speaker": "Unknown",
+  "en": "Even when the model stays up, it doesn't stay put.",
+  "zh": "即使模型保持在线,它也不会保持原样。"
+ },
+ {
+  "seg": 48,
+  "start": 233.526,
+  "end": 238.289,
+  "speaker": "Unknown",
+  "en": "Providers retire versions, and they throttle what's left when the economics get tight.",
+  "zh": "提供商会淘汰旧版本,并且当经济形势吃紧时对剩下的版本进行限速。"
+ },
+ {
+  "seg": 49,
+  "start": 239.608,
+  "end": 243.11,
+  "speaker": "Unknown",
+  "en": "The model you rely on can quietly get worse or vanish.",
+  "zh": "你所依赖的模型可能会悄悄变差,或者直接消失。"
+ },
+ {
+  "seg": 50,
+  "start": 244.01,
+  "end": 246.711,
+  "speaker": "Unknown",
+  "en": "Weights your own never change unless you change them.",
+  "zh": "权重本身永远不会改变，除非你去改变它们。"
+ },
+ {
+  "seg": 51,
+  "start": 248.272,
+  "end": 250.433,
+  "speaker": "Unknown",
+  "en": "People also don't write prompts anymore.",
+  "zh": "人们也不再写提示词了。"
+ },
+ {
+  "seg": 52,
+  "start": 250.753,
+  "end": 253.254,
+  "speaker": "Unknown",
+  "en": "They're in agents or loops for hours.",
+  "zh": "他们在智能体或循环里运行好几个小时。"
+ },
+ {
+  "seg": 53,
+  "start": 254.054,
+  "end": 257.896,
+  "speaker": "Unknown",
+  "en": "And one task can burn thousands of times more tokens than a chat message.",
+  "zh": "而且一个任务消耗的 token 可能是一条聊天消息的数千倍。"
+ },
+ {
+  "seg": 54,
+  "start": 258.836,
+  "end": 264.439,
+  "speaker": "Unknown",
+  "en": "Some developers burn through over $5,000 a month of computes on a $200 plan.",
+  "zh": "有些开发者在 200 美元的套餐上每月烧掉超过 5000 美元的算力。"
+ },
+ {
+  "seg": 55,
+  "start": 265.139,
+  "end": 265.98,
+  "speaker": "Unknown",
+  "en": "That's a subsidy.",
+  "zh": "那是补贴。"
+ },
+ {
+  "seg": 56,
+  "start": 266.52,
+  "end": 268.781,
+  "speaker": "Unknown",
+  "en": "And those subsidies will ultimately disappear.",
+  "zh": "而这些补贴最终会消失。"
+ },
+ {
+  "seg": 57,
+  "start": 271.053,
+  "end": 273.914,
+  "speaker": "Unknown",
+  "en": "If you own the compute and the weights, the control comes back to you.",
+  "zh": "如果你拥有算力和权重，控制权就回到了你手中。"
+ },
+ {
+  "seg": 58,
+  "start": 274.234,
+  "end": 276.094,
+  "speaker": "Unknown",
+  "en": "But that's still only half the problem.",
+  "zh": "但这仍然只是问题的一半。"
+ },
+ {
+  "seg": 59,
+  "start": 277.855,
+  "end": 278.895,
+  "speaker": "Unknown",
+  "en": "Here's the deeper issue.",
+  "zh": "更深层的问题在这里。"
+ },
+ {
+  "seg": 60,
+  "start": 279.996,
+  "end": 281.736,
+  "speaker": "Unknown",
+  "en": "Owning inference gives you autonomy.",
+  "zh": "拥有推理给你的是自主性。"
+ },
+ {
+  "seg": 61,
+  "start": 282.336,
+  "end": 283.717,
+  "speaker": "Unknown",
+  "en": "Nobody can take the model away.",
+  "zh": "没有人能把模型夺走。"
+ },
+ {
+  "seg": 62,
+  "start": 284.317,
+  "end": 286.237,
+  "speaker": "Unknown",
+  "en": "But owning memory gives you continuity.",
+  "zh": "但拥有记忆给你的是连续性。"
+ },
+ {
+  "seg": 63,
+  "start": 286.998,
+  "end": 291.719,
+  "speaker": "Unknown",
+  "en": "And continuity is exactly what every major lab is trying to package up and sell back to you.",
+  "zh": "而连续性正是每家大厂都在试图打包起来再卖回给你的东西。"
+ },
+ {
+  "seg": 64,
+  "start": 293.055,
+  "end": 293.756,
+  "speaker": "Unknown",
+  "en": "Look at last year.",
+  "zh": "看看去年。"
+ },
+ {
+  "seg": 65,
+  "start": 294.036,
+  "end": 301.123,
+  "speaker": "Unknown",
+  "en": "Every Frontier Lab shipped a memory feature, not because the models got smarter, but because they don't carry anything between sessions.",
+  "zh": "每家前沿实验室都发布了记忆功能，不是因为模型变聪明了，而是因为它们在会话之间不携带任何东西。"
+ },
+ {
+  "seg": 66,
+  "start": 301.763,
+  "end": 303.405,
+  "speaker": "Unknown",
+  "en": "That gap is the actual product.",
+  "zh": "那个空缺才是真正的产品。"
+ },
+ {
+  "seg": 67,
+  "start": 304.926,
+  "end": 313.294,
+  "speaker": "Unknown",
+  "en": "A system that starts simple and keeps learning you will always feel smarter than one that starts brilliant but forget everything about you.",
+  "zh": "一个起点简单但持续学习你的系统，永远会比一个起点惊艳却把你忘得一干二净的系统感觉更聪明。"
+ },
+ {
+  "seg": 68,
+  "start": 314.235,
+  "end": 316.998,
+  "speaker": "Unknown",
+  "en": "That compounding is where intelligence starts to feel personal.",
+  "zh": "那种复利效应就是智能开始变得有个性的地方。"
+ },
+ {
+  "seg": 69,
+  "start": 319.265,
+  "end": 321.706,
+  "speaker": "Unknown",
+  "en": "So what actually is memory?",
+  "zh": "那么记忆到底是什么？"
+ },
+ {
+  "seg": 70,
+  "start": 322.446,
+  "end": 323.527,
+  "speaker": "Unknown",
+  "en": "It's not a bigger prompt.",
+  "zh": "它不是更大的提示词。"
+ },
+ {
+  "seg": 71,
+  "start": 323.947,
+  "end": 328.529,
+  "speaker": "Unknown",
+  "en": "It's a system with three verbs, write, retrieve, and forget.",
+  "zh": "它是一个有三个动词的系统：写入、检索、遗忘。"
+ },
+ {
+  "seg": 72,
+  "start": 329.749,
+  "end": 332.27,
+  "speaker": "Unknown",
+  "en": "Same three things your brain actually does.",
+  "zh": "和你大脑实际做的三件事一样。"
+ },
+ {
+  "seg": 73,
+  "start": 333.45,
+  "end": 335.511,
+  "speaker": "Unknown",
+  "en": "And there's an obvious pushback.",
+  "zh": "而且有一个显而易见的反驳。"
+ },
+ {
+  "seg": 74,
+  "start": 335.791,
+  "end": 339.273,
+  "speaker": "Unknown",
+  "en": "Why not just throw everything in a big folder of marked-on files?",
+  "zh": "为什么不直接把所有东西扔进一个标记文件的大文件夹里？"
+ },
+ {
+  "seg": 75,
+  "start": 340.353,
+  "end": 345.115,
+  "speaker": "Unknown",
+  "en": "And because retrieving the right memory beats dumping everything and praying the model finds it.",
+  "zh": "因为检索到正确的记忆胜过倾倒所有东西然后祈祷模型自己找到它。"
+ },
+ {
+  "seg": 76,
+  "start": 346.143,
+  "end": 348.986,
+  "speaker": "Unknown",
+  "en": "Retrieval gives you something a prompt cannot.",
+  "zh": "检索能给你一些提示词给不了的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 349.306,
+  "end": 350.007,
+  "speaker": "Unknown",
+  "en": "It is control.",
+  "zh": "那就是控制。"
+ },
+ {
+  "seg": 78,
+  "start": 350.808,
+  "end": 352.169,
+  "speaker": "Unknown",
+  "en": "You can filter by topic.",
+  "zh": "你可以按主题过滤。"
+ },
+ {
+  "seg": 79,
+  "start": 352.75,
+  "end": 355.113,
+  "speaker": "Unknown",
+  "en": "You can decay by recency and frequency.",
+  "zh": "你可以按新近度和频率衰减。"
+ },
+ {
+  "seg": 80,
+  "start": 355.833,
+  "end": 360.719,
+  "speaker": "Unknown",
+  "en": "You can let relevance shift over time, the way human memory actually works.",
+  "zh": "你可以让相关性随时间变化，就像人类记忆实际运作的那样。"
+ },
+ {
+  "seg": 81,
+  "start": 362.261,
+  "end": 364.522,
+  "speaker": "Unknown",
+  "en": "And the infrastructure has been ready for years.",
+  "zh": "而且基础设施多年前就已经准备好了。"
+ },
+ {
+  "seg": 82,
+  "start": 365.262,
+  "end": 375.646,
+  "speaker": "Unknown",
+  "en": "HNSW in 2016, embeddings have been running locally since 2019, long before any model could really use them at scale.",
+  "zh": "2016 年的 HNSW，嵌入自 2019 年以来就在本地运行，远在任何模型真正能大规模使用它们之前。"
+ },
+ {
+  "seg": 83,
+  "start": 376.786,
+  "end": 380.487,
+  "speaker": "Unknown",
+  "en": "The memory side of superintelligence was never the hard part.",
+  "zh": "超级智能的记忆这一面从来都不是难的部分。"
+ },
+ {
+  "seg": 84,
+  "start": 380.687,
+  "end": 382.628,
+  "speaker": "Unknown",
+  "en": "We were just pointing it at ourselves.",
+  "zh": "我们只是把它指向了我们自己。"
+ },
+ {
+  "seg": 85,
+  "start": 385.266,
+  "end": 389.031,
+  "speaker": "Unknown",
+  "en": "So today, the memory that actually knows you lands in one of two places.",
+  "zh": "所以今天，真正了解你的记忆会落在两个地方之一。"
+ },
+ {
+  "seg": 86,
+  "start": 389.912,
+  "end": 396.901,
+  "speaker": "Unknown",
+  "en": "Either it's stuck in an unindexed file you can't really query, or it's in someone else's cloud.",
+  "zh": "要么它卡在一个你无法真正查询的未索引文件里，要么它在别人的云上。"
+ },
+ {
+  "seg": 87,
+  "start": 397.242,
+  "end": 401.507,
+  "speaker": "Unknown",
+  "en": "One terms of service change away from being reshaped or moved.",
+  "zh": "距离被重塑或搬走，只差一次服务条款的更改。"
+ },
+ {
+  "seg": 88,
+  "start": 402.627,
+  "end": 405.749,
+  "speaker": "Unknown",
+  "en": "Carpathy framed it in a way that really stuck with me.",
+  "zh": "Carpathy 用一种让我印象很深的方式表述过它。"
+ },
+ {
+  "seg": 89,
+  "start": 406.63,
+  "end": 412.213,
+  "speaker": "Unknown",
+  "en": "The model is the CPU, the context window is the RAM, and the memory is the disk.",
+  "zh": "模型是 CPU，上下文窗口是内存（RAM），而记忆是磁盘。"
+ },
+ {
+  "seg": 90,
+  "start": 413.114,
+  "end": 416.816,
+  "speaker": "Unknown",
+  "en": "RAM is fast, but forgets the moment the session ends.",
+  "zh": "RAM 很快，但会话一结束就遗忘。"
+ },
+ {
+  "seg": 91,
+  "start": 417.496,
+  "end": 420.358,
+  "speaker": "Unknown",
+  "en": "The disk is what remembers you across every conversation.",
+  "zh": "磁盘才是跨越每一次对话都记得你的东西。"
+ },
+ {
+  "seg": 92,
+  "start": 421.259,
+  "end": 427.843,
+  "speaker": "Unknown",
+  "en": "And right now, for almost every AI assistant on Earth, the disk is in someone else's data center.",
+  "zh": "而现在，对于地球上几乎每一个 AI 助手来说，磁盘都在别人的数据中心里。"
+ },
+ {
+  "seg": 93,
+  "start": 429.273,
+  "end": 435.56,
+  "speaker": "Unknown",
+  "en": "So today I'm not going to argue which memory architecture wins or is the best one.",
+  "zh": "所以今天我不打算争论哪种记忆架构会赢、或者哪一种是最好的。"
+ },
+ {
+  "seg": 94,
+  "start": 435.6,
+  "end": 437.462,
+  "speaker": "Unknown",
+  "en": "That's definitely a different talk.",
+  "zh": "那肯定是另一场演讲了。"
+ },
+ {
+  "seg": 95,
+  "start": 438.163,
+  "end": 443.249,
+  "speaker": "Unknown",
+  "en": "But the disk, the parts that holds the actual record of you, should be yours fully and forever.",
+  "zh": "但磁盘——那个保存着你真实记录的部分——应该完全地、永远地属于你。"
+ },
+ {
+  "seg": 96,
+  "start": 445.408,
+  "end": 450.329,
+  "speaker": "Unknown",
+  "en": "So this is the piece that I work on, and it's just one way to do it.",
+  "zh": "所以这就是我所做的工作，而它只是做到这一点的一种方式。"
+ },
+ {
+  "seg": 97,
+  "start": 451.21,
+  "end": 454.35,
+  "speaker": "Unknown",
+  "en": "I work on a vector search engine that embeds directly into your app.",
+  "zh": "我在做的是一个直接嵌入到你应用里的向量搜索引擎。"
+ },
+ {
+  "seg": 98,
+  "start": 455.031,
+  "end": 457.911,
+  "speaker": "Unknown",
+  "en": "It opens a local store inside your process.",
+  "zh": "它在你的进程内部打开一个本地存储。"
+ },
+ {
+  "seg": 99,
+  "start": 458.632,
+  "end": 463.193,
+  "speaker": "Unknown",
+  "en": "You write embeddings with payloads, then query offline in some millisecond time.",
+  "zh": "你带着载荷写入嵌入，然后在若干毫秒内离线查询。"
+ },
+ {
+  "seg": 100,
+  "start": 464.703,
+  "end": 467.845,
+  "speaker": "Unknown",
+  "en": "Same REST core as Quadrant in the cloud, just running where you are.",
+  "zh": "与云端 Quadrant 相同的 REST 核心，只是运行在你所在的地方。"
+ },
+ {
+  "seg": 101,
+  "start": 468.445,
+  "end": 476.009,
+  "speaker": "Unknown",
+  "en": "With quantization, a million memories can fit in less than a gigabyte, small enough to live on a phone or even a Raspberry Pi.",
+  "zh": "通过量化，一百万条记忆可以装进不到一个 GB,小到足以放在一部手机甚至一个树莓派上。"
+ },
+ {
+  "seg": 102,
+  "start": 477.29,
+  "end": 480.452,
+  "speaker": "Unknown",
+  "en": "Close the app, come back a year later, the memory is intact.",
+  "zh": "关掉应用，一年后再回来，记忆完好无损。"
+ },
+ {
+  "seg": 103,
+  "start": 481.373,
+  "end": 487.276,
+  "speaker": "Unknown",
+  "en": "Every app gets its own isolated store, and that folder is the thing that actually follows you.",
+  "zh": "每个应用都有自己隔离的存储，而那个文件夹才是真正跟着你走的东西。"
+ },
+ {
+  "seg": 104,
+  "start": 488.96,
+  "end": 491.724,
+  "speaker": "Unknown",
+  "en": "So I'm going to do a quick live demo here.",
+  "zh": "所以我要在这里做一个快速的现场演示。"
+ },
+ {
+  "seg": 105,
+  "start": 493.005,
+  "end": 499.073,
+  "speaker": "Unknown",
+  "en": "So right now, I have a video recording of a drone going over a house.",
+  "zh": "现在手里，我有一段无人机飞过一座房子的视频录像。"
+ },
+ {
+  "seg": 106,
+  "start": 500.274,
+  "end": 503.298,
+  "speaker": "Unknown",
+  "en": "So basically, that drone, it's first time starting.",
+  "zh": "基本上，那架无人机，是第一次启动。"
+ },
+ {
+  "seg": 107,
+  "start": 503.418,
+  "end": 505.401,
+  "speaker": "Unknown",
+  "en": "It's first time out in the world.",
+  "zh": "是第一次出门到外面的世界。"
+ },
+ {
+  "seg": 108,
+  "start": 505.581,
+  "end": 506.622,
+  "speaker": "Unknown",
+  "en": "It doesn't know anything.",
+  "zh": "换掉推理模型，更换硬件，这些都不重要。"
+ },
+ {
+  "seg": 109,
+  "start": 507.677,
+  "end": 513.279,
+  "speaker": "Unknown",
+  "en": "And so this is actually running live right now, fully offline on my laptop.",
+  "zh": "而这现在就是在实时运行的，完全离线，在我的笔记本电脑上。"
+ },
+ {
+  "seg": 110,
+  "start": 514.34,
+  "end": 518.241,
+  "speaker": "Unknown",
+  "en": "And I'm using YOLO, which is an object detection model.",
+  "zh": "我用的是 YOLO,它是一个目标检测模型。"
+ },
+ {
+  "seg": 111,
+  "start": 518.441,
+  "end": 524.763,
+  "speaker": "Unknown",
+  "en": "So it detects the objects and creates a label for every items it sees here.",
+  "zh": "它检测物体，并为它在这里看到的每个物品创建一个标签。"
+ },
+ {
+  "seg": 112,
+  "start": 525.404,
+  "end": 536.108,
+  "speaker": "Unknown",
+  "en": "Then we take that picture, we take that label, and we turn that into embeddings to create a live, real-time memory for that drone.",
+  "zh": "然后我们拿那张图片，拿那个标签，把它转化成嵌入向量，为那架无人机构建一个实时的、实时的记忆。"
+ },
+ {
+  "seg": 113,
+  "start": 537.709,
+  "end": 542.033,
+  "speaker": "Unknown",
+  "en": "And that way the drone can remember everything it has ever seen before.",
+  "zh": "这样一来，无人机就能记住它曾经见过的所有东西。"
+ },
+ {
+  "seg": 114,
+  "start": 542.853,
+  "end": 548.859,
+  "speaker": "Unknown",
+  "en": "And so here you can see a 2D representation of the vector space with all the memories inside.",
+  "zh": "在这里你可以看到向量空间的一个 2D 表示，里面包含所有记忆。"
+ },
+ {
+  "seg": 115,
+  "start": 549.719,
+  "end": 554.564,
+  "speaker": "Unknown",
+  "en": "And memories that are the most similar will be the closest to each other.",
+  "zh": "而最相似的记忆会彼此靠得最近。"
+ },
+ {
+  "seg": 116,
+  "start": 556.068,
+  "end": 563.352,
+  "speaker": "Unknown",
+  "en": "So here you can see that we've already recognized 92 different objects and we have over 300 vectors.",
+  "zh": "在这里你可以看到，我们已经识别了 92 个不同的物体，我们有超过 300 个向量。"
+ },
+ {
+  "seg": 117,
+  "start": 563.752,
+  "end": 567.454,
+  "speaker": "Unknown",
+  "en": "So that's 300 different representations of those 90 objects.",
+  "zh": "也就是那 90 个物体的 300 个不同表示。"
+ },
+ {
+  "seg": 118,
+  "start": 568.635,
+  "end": 576.299,
+  "speaker": "Unknown",
+  "en": "And you can see that the entire memory and quadrants engine footprints is only 15 megabytes.",
+  "zh": "你可以看到，整个记忆和 quadrants 引擎的占用空间只有 15 MB。"
+ },
+ {
+  "seg": 119,
+  "start": 578.447,
+  "end": 581.411,
+  "speaker": "Unknown",
+  "en": "And then what we can do on those memory?",
+  "zh": "那么我们能对这些记忆做什么？"
+ },
+ {
+  "seg": 120,
+  "start": 581.511,
+  "end": 585.736,
+  "speaker": "Unknown",
+  "en": "Well, we enable semantic search over those memories.",
+  "zh": "我们可以在这些记忆之上启用语义搜索。"
+ },
+ {
+  "seg": 121,
+  "start": 586.477,
+  "end": 595.368,
+  "speaker": "Unknown",
+  "en": "So if I click here on the coffee table, you can see that in less than one millisecond I was able to pull up",
+  "zh": "所以如果我在这里点击咖啡桌，你可以看到，在不到一毫秒之内我就能够调出"
+ },
+ {
+  "seg": 122,
+  "start": 596.81,
+  "end": 600.153,
+  "speaker": "Unknown",
+  "en": "Every single coffee table that this drone has seen before.",
+  "zh": "这架无人机以前见过的每一张咖啡桌。"
+ },
+ {
+  "seg": 123,
+  "start": 600.934,
+  "end": 602.995,
+  "speaker": "Unknown",
+  "en": "And so we have the image here.",
+  "zh": "这里我们有图像。"
+ },
+ {
+  "seg": 124,
+  "start": 603.095,
+  "end": 605.577,
+  "speaker": "Unknown",
+  "en": "We have the first scene timestamp.",
+  "zh": "我们有首次出现场景的时间戳。"
+ },
+ {
+  "seg": 125,
+  "start": 605.697,
+  "end": 607.739,
+  "speaker": "Unknown",
+  "en": "We have the last scene timestamp.",
+  "zh": "我们有最后一次出现场景的时间戳。"
+ },
+ {
+  "seg": 126,
+  "start": 607.759,
+  "end": 609.621,
+  "speaker": "Unknown",
+  "en": "We have a definition of that coffee table.",
+  "zh": "我们有那张咖啡桌的定义。"
+ },
+ {
+  "seg": 127,
+  "start": 610.762,
+  "end": 614.685,
+  "speaker": "Unknown",
+  "en": "And also, we can see how many times that table has been seen.",
+  "zh": "还有，我们可以看到那张桌子被见过多少次。"
+ },
+ {
+  "seg": 128,
+  "start": 616.271,
+  "end": 620.153,
+  "speaker": "Unknown",
+  "en": "So this is all being run and processed locally.",
+  "zh": "所以这一切都是在本地运行和处理的。"
+ },
+ {
+  "seg": 129,
+  "start": 620.293,
+  "end": 622.154,
+  "speaker": "Unknown",
+  "en": "There's no network attachment at all.",
+  "zh": "完全没有任何网络连接。"
+ },
+ {
+  "seg": 130,
+  "start": 623.354,
+  "end": 627.116,
+  "speaker": "Unknown",
+  "en": "But we also have a capability of cloud sync.",
+  "zh": "但我们也有云同步的能力。"
+ },
+ {
+  "seg": 131,
+  "start": 627.997,
+  "end": 641.363,
+  "speaker": "Unknown",
+  "en": "So for example, if you have a swarm of drones or robots navigating the world, they can have a hive mind in the cloud where one system learns something and they can all learn about it.",
+  "zh": "比如，如果你有一群无人机或机器人在世界中导航，它们可以在云端拥有一个蜂群思维，一个系统学到了什么，它们就都能学到。"
+ },
+ {
+  "seg": 132,
+  "start": 646.257,
+  "end": 657.723,
+  "speaker": "Unknown",
+  "en": "And, you know, this was like an example for a drone, but you can apply that to everything, just a chatbot, an agent that you call to, a code assistant.",
+  "zh": "而且你知道，这只是用无人机举的一个例子，但你可以把它应用到一切东西上，一个聊天机器人、一个你打电话咨询的智能体、一个代码助手。"
+ },
+ {
+  "seg": 133,
+  "start": 658.263,
+  "end": 664.766,
+  "speaker": "Unknown",
+  "en": "And, you know, if you create those memories for just a few weeks, the stranger just disappears.",
+  "zh": "而且，你知道，如果你只是创建这些记忆几周，那种陌生感就消失了。"
+ },
+ {
+  "seg": 134,
+  "start": 665.366,
+  "end": 671.109,
+  "speaker": "Unknown",
+  "en": "It remembers your corrections, your preferences, the dead ends you had to only hit once.",
+  "zh": "它记得你的纠正、你的偏好、那些你只需要碰一次的死胡同。"
+ },
+ {
+  "seg": 135,
+  "start": 672.93,
+  "end": 680.355,
+  "speaker": "Unknown",
+  "en": "A model that's merely good but never forgets you and keeps compounding over the years starts to feel superhuman in practice.",
+  "zh": "一个仅仅还算不错但永远不会忘记你、并在多年间不断复利的模型，在实践中开始显得超人。"
+ },
+ {
+  "seg": 136,
+  "start": 681.756,
+  "end": 684.998,
+  "speaker": "Unknown",
+  "en": "Not because the model changed, but because it never stops learning you.",
+  "zh": "不是因为模型变了，而是因为它从未停止学习你。"
+ },
+ {
+  "seg": 137,
+  "start": 686.098,
+  "end": 686.819,
+  "speaker": "Unknown",
+  "en": "And it's portable.",
+  "zh": "而且它是可移植的。"
+ },
+ {
+  "seg": 138,
+  "start": 687.519,
+  "end": 690.861,
+  "speaker": "Unknown",
+  "en": "Swap the reasoning model, change the hardware, none of it matters.",
+  "zh": "换推理模型，换硬件，这些都不重要。"
+ },
+ {
+  "seg": 139,
+  "start": 691.582,
+  "end": 697.285,
+  "speaker": "Unknown",
+  "en": "It all comes with you if you keep the same embedding model and that folder becomes permanent.",
+  "zh": "只要你保留同一个嵌入模型，这一切都会跟着你，而那个文件夹就成了永久性的。"
+ },
+ {
+  "seg": 140,
+  "start": 698.026,
+  "end": 701.488,
+  "speaker": "Unknown",
+  "en": "A lifetime of context, fully yours, moving from device to device.",
+  "zh": "一辈子的上下文，完全属于你，从一台设备移动到另一台设备。"
+ },
+ {
+  "seg": 141,
+  "start": 703.05,
+  "end": 704.791,
+  "speaker": "Unknown",
+  "en": "But we can go even further than that.",
+  "zh": "但我们可以走得比这更远。"
+ },
+ {
+  "seg": 142,
+  "start": 704.851,
+  "end": 708.174,
+  "speaker": "Unknown",
+  "en": "You know, this can go way past a laptop or a drone.",
+  "zh": "你知道，这可以远远超出笔记本电脑或无人机。"
+ },
+ {
+  "seg": 143,
+  "start": 709.015,
+  "end": 711.096,
+  "speaker": "Unknown",
+  "en": "Point the same memory at your whole day.",
+  "zh": "把同样的记忆对准你的一整天。"
+ },
+ {
+  "seg": 144,
+  "start": 711.837,
+  "end": 713.038,
+  "speaker": "Unknown",
+  "en": "Where did I leave my badge?",
+  "zh": "我的工牌放哪儿了？"
+ },
+ {
+  "seg": 145,
+  "start": 713.819,
+  "end": 715.36,
+  "speaker": "Unknown",
+  "en": "What was her daughter's name again?",
+  "zh": "她女儿叫什么名字来着？"
+ },
+ {
+  "seg": 146,
+  "start": 716.421,
+  "end": 717.581,
+  "speaker": "Unknown",
+  "en": "What was on that whiteboard?",
+  "zh": "那块白板上写了什么？"
+ },
+ {
+  "seg": 147,
+  "start": 718.302,
+  "end": 721.525,
+  "speaker": "Unknown",
+  "en": "And what was the song that was playing when we met?",
+  "zh": "还有我们见面时放的那首歌是什么？"
+ },
+ {
+  "seg": 148,
+  "start": 722.78,
+  "end": 725.903,
+  "speaker": "Unknown",
+  "en": "Every one of those is just a retrieval query.",
+  "zh": "每一个都只是一次检索查询。"
+ },
+ {
+  "seg": 149,
+  "start": 726.924,
+  "end": 730.487,
+  "speaker": "Unknown",
+  "en": "And, you know, you just watched a drawn remember object.",
+  "zh": "而且，你知道，你刚刚看到的是一个 drawn 记住物体。"
+ },
+ {
+  "seg": 150,
+  "start": 731.047,
+  "end": 734.31,
+  "speaker": "Unknown",
+  "en": "Now, extend that to everything you see and everything you hear.",
+  "zh": "现在，把这个扩展到你看到的一切和你听到的一切。"
+ },
+ {
+  "seg": 151,
+  "start": 735.331,
+  "end": 737.333,
+  "speaker": "Unknown",
+  "en": "And, you know, that's not science fiction.",
+  "zh": "而且，你知道，这不是科幻。"
+ },
+ {
+  "seg": 152,
+  "start": 737.653,
+  "end": 744.679,
+  "speaker": "Unknown",
+  "en": "Those are the smart glasses that are already shipping today and that we have seen today in this room.",
+  "zh": "那些就是今天已经在出货的智能眼镜，就是我们今天在这个房间里看到过的。"
+ },
+ {
+  "seg": 153,
+  "start": 745.62,
+  "end": 746.921,
+  "speaker": "Unknown",
+  "en": "It's not a smarter you.",
+  "zh": "那不是一个更聪明的你。"
+ },
+ {
+  "seg": 154,
+  "start": 747.461,
+  "end": 749.143,
+  "speaker": "Unknown",
+  "en": "It's a you that doesn't forget.",
+  "zh": "那是一个不会遗忘的你。"
+ },
+ {
+  "seg": 155,
+  "start": 750.972,
+  "end": 757.256,
+  "speaker": "Unknown",
+  "en": "And right now, none of those devices share a memory that you actually own.",
+  "zh": "而现在，这些设备没有一个共享一份你真正拥有的记忆。"
+ },
+ {
+  "seg": 156,
+  "start": 757.997,
+  "end": 759.418,
+  "speaker": "Unknown",
+  "en": "They could on your own terms.",
+  "zh": "它们本可以按照你自己的条件共享。"
+ },
+ {
+  "seg": 157,
+  "start": 759.898,
+  "end": 763.641,
+  "speaker": "Unknown",
+  "en": "Because Frontier models are already building an index of you today.",
+  "zh": "因为 Frontier 模型今天已经在构建关于你的索引。"
+ },
+ {
+  "seg": 158,
+  "start": 764.401,
+  "end": 765.722,
+  "speaker": "Unknown",
+  "en": "They have your relationships.",
+  "zh": "它们有你的各种关系。"
+ },
+ {
+  "seg": 159,
+  "start": 765.942,
+  "end": 766.963,
+  "speaker": "Unknown",
+  "en": "They have your habits.",
+  "zh": "它们有你的习惯。"
+ },
+ {
+  "seg": 160,
+  "start": 767.363,
+  "end": 769.224,
+  "speaker": "Unknown",
+  "en": "They have your whole inner life.",
+  "zh": "它们有你的全部内心生活。"
+ },
+ {
+  "seg": 161,
+  "start": 770.085,
+  "end": 773.087,
+  "speaker": "Unknown",
+  "en": "That index is common whether you opt in or not.",
+  "zh": "无论你是否选择加入，那个索引都在生成。"
+ },
+ {
+  "seg": 162,
+  "start": 774.088,
+  "end": 778.891,
+  "speaker": "Unknown",
+  "en": "The only question is whether you own it or if you're renting access to yourself.",
+  "zh": "唯一的问题是你是拥有它，还是在租用通向你自身的访问权。"
+ },
+ {
+  "seg": 163,
+  "start": 781.173,
+  "end": 786.517,
+  "speaker": "Unknown",
+  "en": "And one last idea, because owning memory doesn't mean keeping it to yourself.",
+  "zh": "还有最后一个想法，因为拥有记忆并不意味着把它据为己有。"
+ },
+ {
+  "seg": 164,
+  "start": 787.678,
+  "end": 792.642,
+  "speaker": "Unknown",
+  "en": "Edge can seek parts of your store to the quadrant cloud out of the box when you choose to.",
+  "zh": "Edge 可以在你选择的情况下，开箱即用地把你存储的一部分共享到象限云(Quadrant Cloud)。"
+ },
+ {
+  "seg": 165,
+  "start": 793.803,
+  "end": 797.566,
+  "speaker": "Unknown",
+  "en": "Picture a family, each wearing glasses that record their own day.",
+  "zh": "想象一个家庭，每个人都戴着记录自己一天的眼镜。"
+ },
+ {
+  "seg": 166,
+  "start": 798.547,
+  "end": 802.551,
+  "speaker": "Unknown",
+  "en": "Separate memories, but they can pull into a hive mind the whole family owns.",
+  "zh": "彼此独立的记忆，但可以汇入一个整个家庭共同拥有的蜂群思维。"
+ },
+ {
+  "seg": 167,
+  "start": 803.812,
+  "end": 807.234,
+  "speaker": "Unknown",
+  "en": "Mom's day, Dad's day, your day, searchable together.",
+  "zh": "妈妈的一天、爸爸的一天、你的一天，可以被一起搜索。"
+ },
+ {
+  "seg": 168,
+  "start": 808.302,
+  "end": 808.963,
+  "speaker": "Unknown",
+  "en": "Now scale that up.",
+  "zh": "现在把这件事放大。"
+ },
+ {
+  "seg": 169,
+  "start": 809.683,
+  "end": 821.011,
+  "speaker": "Unknown",
+  "en": "Instead of one company's super intelligence serving billions of identical people, you get thousands of small private ones, each shaped by a life, a family, a team.",
+  "zh": "与其让一家公司的超级智能服务数十亿个一模一样的人，你会得到数千个小型的私人超级智能，每一个都由一段人生、一个家庭、一个团队塑造而成。"
+ },
+ {
+  "seg": 170,
+  "start": 822.472,
+  "end": 824.514,
+  "speaker": "Unknown",
+  "en": "But that same mechanism cuts both ways.",
+  "zh": "但同一个机制是把双刃剑。"
+ },
+ {
+  "seg": 171,
+  "start": 825.455,
+  "end": 829.738,
+  "speaker": "Unknown",
+  "en": "A memory can be shared with Consent, or it can be extracted without it.",
+  "zh": "一份记忆可以在有同意的情况下被共享，也可以在没有同意的情况下被提取。"
+ },
+ {
+  "seg": 172,
+  "start": 832.852,
+  "end": 839.277,
+  "speaker": "Unknown",
+  "en": "That's exactly why it has to start local and why sharing should always be opt-in, never the default.",
+  "zh": "这正是为什么它必须从本地开始，以及为什么共享应该始终是自愿加入的，绝不能是默认的。"
+ },
+ {
+  "seg": 173,
+  "start": 840.498,
+  "end": 844.441,
+  "speaker": "Unknown",
+  "en": "You should really decide who gets your continuity and your memories.",
+  "zh": "你应该真正地决定谁能得到你的连续性和你的记忆。"
+ },
+ {
+  "seg": 174,
+  "start": 846.483,
+  "end": 848.384,
+  "speaker": "Unknown",
+  "en": "And this is where I'm going to leave you.",
+  "zh": "而这就是我要留给你们的地方。"
+ },
+ {
+  "seg": 175,
+  "start": 848.625,
+  "end": 853.428,
+  "speaker": "Unknown",
+  "en": "Everyone here is going to watch super intelligence show up over the next few years.",
+  "zh": "在座的每个人都会在未来几年里目睹超级智能的出现。"
+ },
+ {
+  "seg": 176,
+  "start": 854.209,
+  "end": 856.131,
+  "speaker": "Unknown",
+  "en": "That part is basically settled.",
+  "zh": "那一部分基本上已成定局。"
+ },
+ {
+  "seg": 177,
+  "start": 856.771,
+  "end": 859.053,
+  "speaker": "Unknown",
+  "en": "What's not settled is who it belongs to.",
+  "zh": "未成定局的是它属于谁。"
+ },
+ {
+  "seg": 178,
+  "start": 859.413,
+  "end": 861.355,
+  "speaker": "Unknown",
+  "en": "And that's the fight worth having right now.",
+  "zh": "而那才是现在值得去打的仗。"
+ },
+ {
+  "seg": 179,
+  "start": 862.428,
+  "end": 865.03,
+  "speaker": "Unknown",
+  "en": "While the architecture is still up for grabs.",
+  "zh": "趁架构仍未尘埃落定的时候。"
+ },
+ {
+  "seg": 180,
+  "start": 866.23,
+  "end": 869.852,
+  "speaker": "Unknown",
+  "en": "So tonight, don't go home and just try a tool.",
+  "zh": "所以今晚，回家不要只是试用一个工具。"
+ },
+ {
+  "seg": 181,
+  "start": 869.992,
+  "end": 872.254,
+  "speaker": "Unknown",
+  "en": "Take the stranger home and give it memory.",
+  "zh": "把那个陌生人带回家，给它记忆。"
+ },
+ {
+  "seg": 182,
+  "start": 872.914,
+  "end": 887.903,
+  "speaker": "Unknown",
+  "en": "Then picture that memory five years from now, not a chatbot, a private mind that never forgets you, that nobody can switch off, and that knows you better than any system ever has, because you were the only one who ever trained it.",
+  "zh": "然后想象五年后的那份记忆——不是一个聊天机器人，而是一个永远不会遗忘你的私人心智，没有任何人能把它关掉，而且它对你的了解超过以往任何系统，因为你是唯一一个训练过它的人。"
+ },
+ {
+  "seg": 183,
+  "start": 888.891,
+  "end": 892.174,
+  "speaker": "Unknown",
+  "en": "That's not a smaller superintelligence.",
+  "zh": "那不是一个缩小的超级智能。"
+ },
+ {
+  "seg": 184,
+  "start": 892.615,
+  "end": 894.516,
+  "speaker": "Unknown",
+  "en": "That's the only one worth wanting.",
+  "zh": "那是唯一值得想要的那一个。"
+ },
+ {
+  "seg": 185,
+  "start": 894.536,
+  "end": 896.478,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 186,
+  "start": 897.239,
+  "end": 898.04,
+  "speaker": "Unknown",
+  "en": "That's all for me.",
+  "zh": "我要讲的就这些。"
+ },
+ {
+  "seg": 187,
+  "start": 898.18,
+  "end": 898.88,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

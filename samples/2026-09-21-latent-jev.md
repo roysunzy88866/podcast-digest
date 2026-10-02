@@ -144,8 +144,8 @@ Jev 的三个原语是有意的新概念,不对应已有类型:「choice 映射�
 **换个口味**
 
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:编码智能体 (coding agent)</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:基准测试 (benchmark)</span>
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI、Anthropic</span>
 
 </div>
 </div>

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":16,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":49}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":16,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":7,"NVIDIA":50}</script>
 
 <script>
 (function(){

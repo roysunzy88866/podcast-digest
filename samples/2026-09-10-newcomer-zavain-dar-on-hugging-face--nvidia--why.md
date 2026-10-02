@@ -187,8 +187,8 @@ AI 制药公司在做什么？他举了两类：
 **换个口味**
 
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cognition、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA、Hugging Face · 同概念:推理 (inference)、智能体 (agent)、微调 (fine-tune)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

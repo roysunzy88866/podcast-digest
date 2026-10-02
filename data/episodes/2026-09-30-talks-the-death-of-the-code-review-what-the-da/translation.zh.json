@@ -1,0 +1,2026 @@
+[
+ {
+  "seg": 0,
+  "start": 13.014,
+  "end": 13.814,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.854,
+  "end": 18.815,
+  "speaker": "Unknown",
+  "en": "Thank you for following on a session about the death of the code review with a session about the death of the code review.",
+  "zh": "感谢大家参加这个关于代码评审之死的环节,一个关于代码评审之死的环节。"
+ },
+ {
+  "seg": 2,
+  "start": 21.236,
+  "end": 26.797,
+  "speaker": "Unknown",
+  "en": "Who knows how scheduling decisions get made, but SWIX decided it would be funny for those two to be back-to-back.",
+  "zh": "谁知道日程安排的决策是怎么做出的,但 SWIX 觉得把这两个环节背靠背排在一起会很有趣。"
+ },
+ {
+  "seg": 3,
+  "start": 27.557,
+  "end": 28.437,
+  "speaker": "Unknown",
+  "en": "Hi.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 4,
+  "start": 29.338,
+  "end": 29.858,
+  "speaker": "Unknown",
+  "en": "I'm Laurie.",
+  "zh": "我是 Laurie。"
+ },
+ {
+  "seg": 5,
+  "start": 29.938,
+  "end": 32.098,
+  "speaker": "Unknown",
+  "en": "I'm Head of Developer Relations at Arise AI.",
+  "zh": "我是 Arise AI 的开发者关系负责人。"
+ },
+ {
+  "seg": 6,
+  "start": 32.738,
+  "end": 35.379,
+  "speaker": "Unknown",
+  "en": "Some of you may remember me from when I used to co-found NPM Inc.",
+  "zh": "你们有些人可能还记得我,我曾是 NPM Inc. 的联合创始人。"
+ },
+ {
+  "seg": 7,
+  "start": 35.459,
+  "end": 38.52,
+  "speaker": "Unknown",
+  "en": "These days, I think about AI and how to test it.",
+  "zh": "如今,我在思考 AI 以及如何测试它。"
+ },
+ {
+  "seg": 8,
+  "start": 40.54,
+  "end": 42.842,
+  "speaker": "Unknown",
+  "en": "I'm here to talk about a problem that everyone is seeing right now.",
+  "zh": "我在这里要谈的是现在每个人都在面临的一个问题。"
+ },
+ {
+  "seg": 9,
+  "start": 42.902,
+  "end": 55.293,
+  "speaker": "Unknown",
+  "en": "The rise of AI agents has dramatically increased how fast developers can produce code, but the speed at which humans can review code... Yeah, I am having a talk right now.",
+  "zh": "AI 智能体的崛起极大地提高了开发者产出代码的速度,但人类评审代码的速度……是的,我现在正在做一个演讲。"
+ },
+ {
+  "seg": 10,
+  "start": 55.373,
+  "end": 56.194,
+  "speaker": "Unknown",
+  "en": "Thank you, Notion.",
+  "zh": "谢谢你,Notion。"
+ },
+ {
+  "seg": 11,
+  "start": 56.334,
+  "end": 57.335,
+  "speaker": "Unknown",
+  "en": "Very good reminder.",
+  "zh": "提醒得很好。"
+ },
+ {
+  "seg": 12,
+  "start": 60.091,
+  "end": 63.655,
+  "speaker": "Unknown",
+  "en": "The speed at which humans can review code has stayed exactly the same.",
+  "zh": "人类评审代码的速度完全没有变化。"
+ },
+ {
+  "seg": 13,
+  "start": 65.297,
+  "end": 67.879,
+  "speaker": "Unknown",
+  "en": "And that is creating a new bottleneck that everybody is feeling.",
+  "zh": "而这正在造成一个新的瓶颈,每个人都能感觉到。"
+ },
+ {
+  "seg": 14,
+  "start": 68.3,
+  "end": 71.043,
+  "speaker": "Unknown",
+  "en": "Engineering teams across the industry are feeling it.",
+  "zh": "全行业的工程团队都感受到了。"
+ },
+ {
+  "seg": 15,
+  "start": 71.143,
+  "end": 72.284,
+  "speaker": "Unknown",
+  "en": "So what can we do about it?",
+  "zh": "那我们能做些什么呢?"
+ },
+ {
+  "seg": 16,
+  "start": 72.724,
+  "end": 75.928,
+  "speaker": "Unknown",
+  "en": "Some options are we could skip human review entirely.",
+  "zh": "一个选项是我们可以完全跳过人工评审。"
+ },
+ {
+  "seg": 17,
+  "start": 76.869,
+  "end": 77.85,
+  "speaker": "Unknown",
+  "en": "Some folks are trying that.",
+  "zh": "有些人在尝试这么做。"
+ },
+ {
+  "seg": 18,
+  "start": 77.97,
+  "end": 79.772,
+  "speaker": "Unknown",
+  "en": "Can we automate reviews reliably?",
+  "zh": "我们能可靠地自动化评审吗?"
+ },
+ {
+  "seg": 19,
+  "start": 80.052,
+  "end": 81.193,
+  "speaker": "Unknown",
+  "en": "Some folks are trying that too.",
+  "zh": "也有人在尝试这么做。"
+ },
+ {
+  "seg": 20,
+  "start": 83.47,
+  "end": 93.14,
+  "speaker": "Unknown",
+  "en": "What we're going to do today, what I'm going to do for you is I'm going to look at what the industry is really doing right now and try to figure out what you can do today when you leave the room.",
+  "zh": "今天我们要做的,我要为你们做的是,我会看看行业现在真正在做什么,并试着弄清楚你们离开这个房间后今天就能做什么。"
+ },
+ {
+  "seg": 21,
+  "start": 94.338,
+  "end": 95.659,
+  "speaker": "Unknown",
+  "en": "So let's start with two numbers.",
+  "zh": "那么让我们从两个数字开始。"
+ },
+ {
+  "seg": 22,
+  "start": 96.36,
+  "end": 105.887,
+  "speaker": "Unknown",
+  "en": "Recently, three economists tracked more than 100,000 GitHub developers, matched them against telemetry that showed exactly when each one started using AI.",
+  "zh": "最近,三位经济学家追踪了超过 10 万名 GitHub 开发者,并将他们与遥测数据进行匹配,这些数据显示了每个人确切开始使用 AI 的时间。"
+ },
+ {
+  "seg": 23,
+  "start": 107.829,
+  "end": 112.432,
+  "speaker": "Unknown",
+  "en": "The developers who turned on autonomous agents wrote 741% more code, but only 30% more software shipped.",
+  "zh": "启用自主智能体的开发者多写了 741% 的代码,但实际发布的软件只多了 30%。"
+ },
+ {
+  "seg": 24,
+  "start": 117.223,
+  "end": 118.884,
+  "speaker": "Unknown",
+  "en": "That is the scale of the problem right there.",
+  "zh": "这就是问题所在的规模。"
+ },
+ {
+  "seg": 25,
+  "start": 118.904,
+  "end": 128.826,
+  "speaker": "Unknown",
+  "en": "They were writing code nearly eight times faster, but their actual shift software only rose by a third, and the authors of the study are blunt that review was the bottleneck.",
+  "zh": "他们写代码的速度快了近八倍,但他们实际发布的软件只增加了三分之一,而且这项研究的作者直言不讳地说评审就是瓶颈。"
+ },
+ {
+  "seg": 26,
+  "start": 129.306,
+  "end": 138.208,
+  "speaker": "Unknown",
+  "en": "The problem is that the route to production still runs through humans, and the human steps, in particular code review, choke everything downstream.",
+  "zh": "问题在于,通往生产环境的路径仍然要经过人类,而人类的环节,尤其是代码评审,会卡住下游的一切。"
+ },
+ {
+  "seg": 27,
+  "start": 140.108,
+  "end": 141.869,
+  "speaker": "Unknown",
+  "en": "Producing code is suddenly a whole lot cheaper.",
+  "zh": "产出代码突然变得便宜得多。"
+ },
+ {
+  "seg": 28,
+  "start": 141.929,
+  "end": 148.415,
+  "speaker": "Unknown",
+  "en": "Knowing whether to trust it is still very expensive, especially if you have sensitive code with a blast radius.",
+  "zh": "而判断是否信任它仍然非常昂贵,尤其是当你有影响范围很大的敏感代码时。"
+ },
+ {
+  "seg": 29,
+  "start": 150.017,
+  "end": 156.723,
+  "speaker": "Unknown",
+  "en": "How can we bring that second number down and thus bring the amount of software that we ship back into line with the amount that we can code?",
+  "zh": "我们怎样才能把第二个数字降下来,从而让我们发布的软件数量重新与我们的编码数量相匹配?"
+ },
+ {
+  "seg": 30,
+  "start": 158.044,
+  "end": 158.965,
+  "speaker": "Unknown",
+  "en": "Let's zoom out first.",
+  "zh": "让我们先拉远视角。"
+ },
+ {
+  "seg": 31,
+  "start": 160.046,
+  "end": 161.587,
+  "speaker": "Unknown",
+  "en": "Let's be clear that the problem is real.",
+  "zh": "让我们明确一点,这个问题是真实存在的。"
+ },
+ {
+  "seg": 32,
+  "start": 161.647,
+  "end": 163.908,
+  "speaker": "Unknown",
+  "en": "Generation is no longer the bottleneck.",
+  "zh": "生成不再是瓶颈。"
+ },
+ {
+  "seg": 33,
+  "start": 164.068,
+  "end": 175.755,
+  "speaker": "Unknown",
+  "en": "Stripe, in Anthropic's launch materials for Fable this year, reported migrating a 50 million line Ruby codebase in a single day, which is work that they'd estimated would take over two months for a team.",
+  "zh": "Stripe,在 Anthropic 今年 Fable 的发布材料中,报告在一天内迁移了一个 5000 万行的 Ruby 代码库,而他们估计这项工作对团队来说需要两个多月。"
+ },
+ {
+  "seg": 34,
+  "start": 176.955,
+  "end": 183.379,
+  "speaker": "Unknown",
+  "en": "Bun, which is now part of Anthropic, reported that they migrated over a million lines of Zig to Rust in six days.",
+  "zh": "Bun,它现在是 Anthropic 的一部分,报告他们在六天内迁移了超过一百万行 Zig 到 Rust。"
+ },
+ {
+  "seg": 35,
+  "start": 184.459,
+  "end": 188.162,
+  "speaker": "Unknown",
+  "en": "And of course, all of us in this room are feeling this on a smaller scale.",
+  "zh": "当然,我们在座的所有人都在更小的规模上感受到这一点。"
+ },
+ {
+  "seg": 36,
+  "start": 188.883,
+  "end": 196.929,
+  "speaker": "Unknown",
+  "en": "Our agents are generating whole apps and we're just sort of hitting the merge button and feeling guilty about the fact that we haven't read these code diffs and we're just sort of hoping that it works.",
+  "zh": "我们的智能体正在生成整个应用,而我们只是按下合并按钮,并为没有读过这些代码 diff 而感到内疚,我们只是祈祷它能正常工作。"
+ },
+ {
+  "seg": 37,
+  "start": 198.27,
+  "end": 200.412,
+  "speaker": "Unknown",
+  "en": "We can't possibly keep on going like that.",
+  "zh": "我们不可能一直这样下去。"
+ },
+ {
+  "seg": 38,
+  "start": 201.873,
+  "end": 205.556,
+  "speaker": "Unknown",
+  "en": "So the obvious answer and the answer some people are trying is you just review more.",
+  "zh": "所以显而易见的答案,也是一些人在尝试的答案是,你就是多评审。"
+ },
+ {
+  "seg": 39,
+  "start": 205.737,
+  "end": 213.244,
+  "speaker": "Unknown",
+  "en": "You take people whose job was previously to review code as well as write code and just say, review code all the time, this is your job now.",
+  "zh": "你把那些以前既评审代码又写代码的人变成只说,一直评审代码,这就是你现在的工作。"
+ },
+ {
+  "seg": 40,
+  "start": 214.305,
+  "end": 221.572,
+  "speaker": "Unknown",
+  "en": "And that doesn't work, partly because that's really boring and those people burn out really fast, but also the numbers say that we can't.",
+  "zh": "而这行不通,部分原因是这真的很无聊,那些人很快就burnout了,而且数字也表明我们做不到。"
+ },
+ {
+  "seg": 41,
+  "start": 222.673,
+  "end": 228.838,
+  "speaker": "Unknown",
+  "en": "The best study we have on this was done two decades ago at Cisco over 10 months.",
+  "zh": "我们已有的最好的研究是二十年前在 Cisco 做的,历时 10 个月。"
+ },
+ {
+  "seg": 42,
+  "start": 228.878,
+  "end": 230.739,
+  "speaker": "Unknown",
+  "en": "They took two and a half thousand reviews.",
+  "zh": "他们进行了两千五百次评审。"
+ },
+ {
+  "seg": 43,
+  "start": 230.799,
+  "end": 233.041,
+  "speaker": "Unknown",
+  "en": "They took 3.2 million lines of code.",
+  "zh": "他们研究了 320 万行代码。"
+ },
+ {
+  "seg": 44,
+  "start": 234.702,
+  "end": 247.831,
+  "speaker": "Unknown",
+  "en": "And the study says that reviewers stop finding defects effectively if they try to read more than 400 lines of code in one sitting and their effectiveness completely falls off a cliff if they try to review more than 450 lines of code in an hour.",
+  "zh": "该研究指出,如果评审者试图一次阅读超过 400 行代码,他们发现缺陷的有效性就会实质性地下降;如果他们试图在一小时内评审超过 450 行代码,他们的有效性就会完全断崖式下跌。"
+ },
+ {
+  "seg": 45,
+  "start": 251.114,
+  "end": 258.96,
+  "speaker": "Unknown",
+  "en": "If you do the math on that, that means that a 10,000 line agent pull request at that pace would take three or four working days to get a real human review.",
+  "zh": "如果你算一下这笔账,这意味着一个 1 万行的智能体 pull request 按这个速度需要三到四个工作日才能得到真正的人工评审。"
+ },
+ {
+  "seg": 46,
+  "start": 259.36,
+  "end": 271.969,
+  "speaker": "Unknown",
+  "en": "That is one pull request from one agent, 10,000 lines is absolutely, you know, absolutely an expectable number of lines of code for an agent that is doing a lot of work for you.",
+  "zh": "那只是一个智能体的一个 pull request,1 万行对于一个为你做大量工作的智能体来说绝对是一个可以预期的代码行数。"
+ },
+ {
+  "seg": 47,
+  "start": 272.93,
+  "end": 278.774,
+  "speaker": "Unknown",
+  "en": "And a developer can now run a dozen agents at once, although I tend to be suspicious of the people who do.",
+  "zh": "而一个开发者现在可以同时运行十几个智能体,尽管我对那些这么做的人往往持怀疑态度。"
+ },
+ {
+  "seg": 48,
+  "start": 280.697,
+  "end": 283.542,
+  "speaker": "Unknown",
+  "en": "So we can't just review harder, and we're all feeling that too.",
+  "zh": "所以我们不能只是更用力地评审,我们也都感受到了这一点。"
+ },
+ {
+  "seg": 49,
+  "start": 283.562,
+  "end": 286.286,
+  "speaker": "Unknown",
+  "en": "The people who are trying to review harder are burning themselves out.",
+  "zh": "那些试图更用力评审的人正在把自己burnout掉。"
+ },
+ {
+  "seg": 50,
+  "start": 286.747,
+  "end": 288.009,
+  "speaker": "Unknown",
+  "en": "So what is the alternative?",
+  "zh": "那么替代方案是什么?"
+ },
+ {
+  "seg": 51,
+  "start": 289.408,
+  "end": 292.371,
+  "speaker": "Unknown",
+  "en": "Some people have decided to just stop reading the code entirely.",
+  "zh": "有些人已经决定完全不再读代码了。"
+ },
+ {
+  "seg": 52,
+  "start": 293.532,
+  "end": 301.18,
+  "speaker": "Unknown",
+  "en": "Peter Steinberger, who is the creator of OpenClaw, says that you shouldn't be prompting coding agents anymore, you should be designing the loops that prompt your agents.",
+  "zh": "OpenClaw 的创造者 Peter Steinberger 说,你不应该再去提示编码智能体了,你应该去设计那些提示你的智能体的循环。"
+ },
+ {
+  "seg": 53,
+  "start": 302.12,
+  "end": 310.949,
+  "speaker": "Unknown",
+  "en": "Andre Karpathy, who is one of OpenAI's founding engineers, has made the same argument about taking yourself out of the loop because the human in the loop is holding the system back.",
+  "zh": "OpenAI 的创始工程师之一 Andre Karpathy 也提出了同样的论点,主张把你自己从循环中拿出来,因为人在循环中正在拖累这个系统。"
+ },
+ {
+  "seg": 54,
+  "start": 313.348,
+  "end": 315.33,
+  "speaker": "Unknown",
+  "en": "But this goes beyond bold claims on Twitter.",
+  "zh": "但这已经超出了 Twitter 上的大胆言论。"
+ },
+ {
+  "seg": 55,
+  "start": 317.09,
+  "end": 324.394,
+  "speaker": "Unknown",
+  "en": "In February this year, OpenAI published an account of building an internal product with, in their words, no manually written code.",
+  "zh": "今年 2 月,OpenAI 发布了一份报告,讲述他们如何用一个内部产品,用他们的话说,没有任何人工编写的代码。"
+ },
+ {
+  "seg": 56,
+  "start": 324.614,
+  "end": 328.917,
+  "speaker": "Unknown",
+  "en": "They started with a completely empty repository, and agents wrote everything.",
+  "zh": "他们从一个完全空的仓库开始,智能体写了一切。"
+ },
+ {
+  "seg": 57,
+  "start": 329.077,
+  "end": 338.382,
+  "speaker": "Unknown",
+  "en": "Five months later, they had about a million lines of code, about 1,500 merged pull requests, and they had used three engineers to do this.",
+  "zh": "五个月后,他们有了大约一百万行代码,大约 1,500 个已合并的 pull request,而且他们只用了三名工程师来做这件事。"
+ },
+ {
+  "seg": 58,
+  "start": 339.703,
+  "end": 344.027,
+  "speaker": "Unknown",
+  "en": "Even the scaffolding of the agent to review the agent and stuff like that was also written by agents.",
+  "zh": "连用于审查智能体的智能体之类的脚手架代码,也是由智能体写的。"
+ },
+ {
+  "seg": 59,
+  "start": 344.528,
+  "end": 349.332,
+  "speaker": "Unknown",
+  "en": "What they said was, humans may review pull requests but they are not required to.",
+  "zh": "他们说的是,人类可以审查 pull request,但这不是必须的。"
+ },
+ {
+  "seg": 60,
+  "start": 350.774,
+  "end": 354.017,
+  "speaker": "Unknown",
+  "en": "We've pushed almost all review effort towards being handled agent to agent.",
+  "zh": "我们已经把几乎所有的审查工作推向了由智能体对智能体来处理。"
+ },
+ {
+  "seg": 61,
+  "start": 356.609,
+  "end": 369.104,
+  "speaker": "Unknown",
+  "en": "I think the interesting thing about the OpenAI experiment is that they did not tell us what the product did and they did not release an open source product saying, and this is how we did it and this is how you should do it, which suggests to me that there are still holes in that strategy.",
+  "zh": "我觉得 OpenAI 这个实验有趣的地方在于,他们没有告诉我们这个产品是做什么的,也没有发布开源产品来说明他们是怎么做到的、你应该怎么做,这向我暗示这个策略仍然存在漏洞。"
+ },
+ {
+  "seg": 62,
+  "start": 370.686,
+  "end": 371.967,
+  "speaker": "Unknown",
+  "en": "But it is one possibility.",
+  "zh": "但这是一种可能性。"
+ },
+ {
+  "seg": 63,
+  "start": 372.007,
+  "end": 374.81,
+  "speaker": "Unknown",
+  "en": "If OpenAI says that you can do it, maybe you can do it.",
+  "zh": "如果 OpenAI 说你能做到,也许你能做到。"
+ },
+ {
+  "seg": 64,
+  "start": 377.844,
+  "end": 381.086,
+  "speaker": "Unknown",
+  "en": "OpenAI says that's one thing you can do.",
+  "zh": "OpenAI 说这是你能做的事情之一。"
+ },
+ {
+  "seg": 65,
+  "start": 381.106,
+  "end": 384.188,
+  "speaker": "Unknown",
+  "en": "The bet there is that loop design substitutes for inspection.",
+  "zh": "这里的赌注是,循环设计可以替代检查。"
+ },
+ {
+  "seg": 66,
+  "start": 384.969,
+  "end": 392.233,
+  "speaker": "Unknown",
+  "en": "Whether you can build a loop that is good enough to review all of your code for you depends entirely on what the loop can see.",
+  "zh": "你能否构建一个足够好的循环来替你审查所有代码,完全取决于这个循环能看到什么。"
+ },
+ {
+  "seg": 67,
+  "start": 393.214,
+  "end": 394.655,
+  "speaker": "Unknown",
+  "en": "But that is an enormous caveat.",
+  "zh": "但这是一个巨大的限制条件。"
+ },
+ {
+  "seg": 68,
+  "start": 394.775,
+  "end": 399.698,
+  "speaker": "Unknown",
+  "en": "What exactly can the loop see and is it reliable enough to do code reviews?",
+  "zh": "循环究竟能看到什么,它是否足够可靠到可以做代码审查?"
+ },
+ {
+  "seg": 69,
+  "start": 400.638,
+  "end": 409.642,
+  "speaker": "Unknown",
+  "en": "For years, the industry's proxy for quality has been whether the tests passed because that is what the benchmarks measured.",
+  "zh": "多年来,业界对质量的代理指标一直是测试是否通过,因为那是基准测试所测量的东西。"
+ },
+ {
+  "seg": 70,
+  "start": 409.702,
+  "end": 416.605,
+  "speaker": "Unknown",
+  "en": "In March this year, a research group called Meter, who you've probably heard about before, tested that proxy directly.",
+  "zh": "今年 3 月,一个叫 Meter 的研究团队——你可能以前听说过他们——直接测试了那个代理指标。"
+ },
+ {
+  "seg": 71,
+  "start": 416.645,
+  "end": 425.729,
+  "speaker": "Unknown",
+  "en": "They hired four active maintainers of open source projects from the same open source projects that Sweebench tests against",
+  "zh": "他们雇了四名开源项目的活跃维护者,来自 Sweebench 测试所用的同样的开源项目"
+ },
+ {
+  "seg": 72,
+  "start": 426.389,
+  "end": 432.735,
+  "speaker": "Unknown",
+  "en": "And they got them to look at PRs that had already passed Sweebench's grader.",
+  "zh": "然后让他们去看那些已经通过了 Sweebench 评分器的 PR。"
+ },
+ {
+  "seg": 73,
+  "start": 433.175,
+  "end": 436.658,
+  "speaker": "Unknown",
+  "en": "So Sweebench said, this pull request is good enough to merge.",
+  "zh": "也就是说,Sweebench 说,这个 pull request 足够好,可以合并。"
+ },
+ {
+  "seg": 74,
+  "start": 436.938,
+  "end": 441.622,
+  "speaker": "Unknown",
+  "en": "And they got the open source reviewers to look at exactly the same PR and say, is it really good enough to merge?",
+  "zh": "然后他们让这些开源审查者去看完全相同的 PR,并问,它真的足够好可以合并吗?"
+ },
+ {
+  "seg": 75,
+  "start": 441.943,
+  "end": 445.186,
+  "speaker": "Unknown",
+  "en": "And it was only good enough to merge about half of the time.",
+  "zh": "结果只有大约一半的时候它才足够好可以合并。"
+ },
+ {
+  "seg": 76,
+  "start": 447.368,
+  "end": 451.43,
+  "speaker": "Unknown",
+  "en": "And the failures weren't about correctness because obviously the PRs were passing all of the tests.",
+  "zh": "而失败的原因不是正确性,因为显然这些 PR 都通过了所有测试。"
+ },
+ {
+  "seg": 77,
+  "start": 451.73,
+  "end": 457.934,
+  "speaker": "Unknown",
+  "en": "They were about code quality and they were about changes that quietly broke other code, things external to the test suite.",
+  "zh": "失败在于代码质量,在于那些悄悄破坏了其他代码的改动,那些测试套件之外的东西。"
+ },
+ {
+  "seg": 78,
+  "start": 459.715,
+  "end": 464.058,
+  "speaker": "Unknown",
+  "en": "One caveat that Meter mentions is that the agents got no chance to iterate on feedback.",
+  "zh": "Meter 提到的一个限制条件是,这些智能体没有得到根据反馈进行迭代的机会。"
+ },
+ {
+  "seg": 79,
+  "start": 464.298,
+  "end": 471.223,
+  "speaker": "Unknown",
+  "en": "So a human contributor obviously being told that their PR isn't going to get merged, get another go at it, they can take another swing.",
+  "zh": "而人类贡献者显然在被告知他们的 PR 不会被合并之后,还有另一次机会,他们可以再试一次。"
+ },
+ {
+  "seg": 80,
+  "start": 473.544,
+  "end": 481.927,
+  "speaker": "Unknown",
+  "en": "That caveat isn't really relevant to our purposes because that's just putting a human in the loop, and what we're trying to see is whether or not we can take the human out of the loop entirely.",
+  "zh": "这个限制条件对我们的目的来说其实并不相关,因为那只是在循环中放入一个人,而我们想看的是能否把人完全从循环中拿出来。"
+ },
+ {
+  "seg": 81,
+  "start": 483.828,
+  "end": 490.09,
+  "speaker": "Unknown",
+  "en": "Cognition, the makers of Devon, built a benchmark around the maintainer's actual question, which is would you merge this?",
+  "zh": "Devon 的开发商 Cognition 围绕维护者真正的问题构建了一个基准,也就是,你会合并这个吗?"
+ },
+ {
+  "seg": 82,
+  "start": 490.85,
+  "end": 493.111,
+  "speaker": "Unknown",
+  "en": "They called it Frontier Code and they launched it in June.",
+  "zh": "他们把它叫做 Frontier Code,并在 6 月发布了它。"
+ },
+ {
+  "seg": 83,
+  "start": 495.317,
+  "end": 501.68,
+  "speaker": "Unknown",
+  "en": "More than 20 maintainers built 150 tasks from their own repositories, each one over 40 hours of expert work.",
+  "zh": "超过 20 名维护者从他们自己的仓库中构建了 150 个任务,每一个都超过 40 小时的专家工作量。"
+ },
+ {
+  "seg": 84,
+  "start": 502.481,
+  "end": 508.144,
+  "speaker": "Unknown",
+  "en": "FrontierBench grades behavioral correctness, regression safety, scope discipline, test quality, and maintainability.",
+  "zh": "FrontierBench 评分的维度是行为正确性、回归安全性、范围纪律、测试质量和可维护性。"
+ },
+ {
+  "seg": 85,
+  "start": 508.444,
+  "end": 511.906,
+  "speaker": "Unknown",
+  "en": "This is a human review rubric made machine checkable.",
+  "zh": "这是一套被变成机器可检查的人类审查评分标准。"
+ },
+ {
+  "seg": 86,
+  "start": 513.247,
+  "end": 524.137,
+  "speaker": "Unknown",
+  "en": "And what they found was that Fable 5, before it got pulled and then un-pulled, scores 88% on SweeBench Pro, but only 29% on the hardest slice of Frontier Code.",
+  "zh": "他们发现,Fable 5——在被下架然后又重新上架之前——在 SweeBench Pro 上得分 88%,但在 Frontier Code 最难的那部分上只有 29%。"
+ },
+ {
+  "seg": 87,
+  "start": 524.618,
+  "end": 536.889,
+  "speaker": "Unknown",
+  "en": "So the same model on the same surface with the same job does 51 points less well if you're asking not does it pass the tests, but whether or not you would actually merge the result.",
+  "zh": "所以同一个模型、在同一个表面上、做同样的工作,如果你问的不是它是否通过测试,而是你是否真的会合并这个结果,它就差了 51 分。"
+ },
+ {
+  "seg": 88,
+  "start": 538.508,
+  "end": 540.209,
+  "speaker": "Unknown",
+  "en": "And this isn't one model having a bad day.",
+  "zh": "而且这不是某一个模型发挥失常。"
+ },
+ {
+  "seg": 89,
+  "start": 540.269,
+  "end": 544.432,
+  "speaker": "Unknown",
+  "en": "On the same set of tests, GPT 5.5 scores under 6%.",
+  "zh": "在同一组测试上,GPT 5.5 的得分低于 6%。"
+ },
+ {
+  "seg": 90,
+  "start": 544.512,
+  "end": 549.995,
+  "speaker": "Unknown",
+  "en": "So the strongest models we have are nowhere near passing human review reliably.",
+  "zh": "所以我们拥有的最强模型离可靠地通过人类审查还差得很远。"
+ },
+ {
+  "seg": 91,
+  "start": 551.255,
+  "end": 555.758,
+  "speaker": "Unknown",
+  "en": "So somebody has to write down what mergeable actually means.",
+  "zh": "所以必须有人写下「可合并」到底意味着什么。"
+ },
+ {
+  "seg": 92,
+  "start": 556.038,
+  "end": 558.339,
+  "speaker": "Unknown",
+  "en": "It's clear that we haven't done that yet.",
+  "zh": "很明显我们还没有做到这一点。"
+ },
+ {
+  "seg": 93,
+  "start": 560.425,
+  "end": 562.226,
+  "speaker": "Unknown",
+  "en": "The moment they do, something will happen.",
+  "zh": "一旦做到了,某些事情就会发生。"
+ },
+ {
+  "seg": 94,
+  "start": 562.326,
+  "end": 575.272,
+  "speaker": "Unknown",
+  "en": "Sarah Guo, who is a prominent investor in AI, wrote about it and said that solving for that benchmark, a benchmark of genuine mergeability, will be a critical turning point in the development of coding models",
+  "zh": "Sarah Guo,一位知名的 AI 投资人,写过相关文章并说,解决那个基准——一个真正的可合并性的基准——将是编码模型发展中的一个关键转折点"
+ },
+ {
+  "seg": 95,
+  "start": 576.392,
+  "end": 586.377,
+  "speaker": "Unknown",
+  "en": "In the essay where she was talking about this, she made clear why models got so good so fast at generating code, and that is because a compiler is a free verifier.",
+  "zh": "在她谈论这件事的文章里,她清楚地说明了为什么模型在生成代码上进步得这么快,那就是因为编译器是一个免费的验证器。"
+ },
+ {
+  "seg": 96,
+  "start": 586.457,
+  "end": 593.18,
+  "speaker": "Unknown",
+  "en": "A test suite is a free verifier, and anything that you can verify cheaply, you can train against until you beat it.",
+  "zh": "一个测试套件是一个免费的验证器,而任何你能廉价验证的东西,你都可以针对它进行训练,直到你超越它。"
+ },
+ {
+  "seg": 97,
+  "start": 593.601,
+  "end": 597.542,
+  "speaker": "Unknown",
+  "en": "And that is what has been happening at the major model trainers.",
+  "zh": "这就是各大模型训练方一直在发生的事情。"
+ },
+ {
+  "seg": 98,
+  "start": 599.582,
+  "end": 612.95,
+  "speaker": "Unknown",
+  "en": "So a benchmark of mergeability, if we could make one, wouldn't only be a measurement, it would immediately become a training signal for the frontier models, which means maintainability, scope, discipline, regression safety.",
+  "zh": "所以一个可合并性的基准,如果我们能做出来的话,不仅仅是一种度量,它会立刻成为前沿模型的训练信号,也就是说可维护性、范围纪律、回归安全性这些。"
+ },
+ {
+  "seg": 99,
+  "start": 613.21,
+  "end": 617.532,
+  "speaker": "Unknown",
+  "en": "The moment somebody comes up with reliable tests for those, the big models will be trained on them.",
+  "zh": "一旦有人为这些提出可靠的测试,大模型就会基于它们来训练。"
+ },
+ {
+  "seg": 100,
+  "start": 618.313,
+  "end": 623.456,
+  "speaker": "Unknown",
+  "en": "And whoever writes today's review standard is writing next year's default model behavior.",
+  "zh": "谁写下了今天的评审标准，谁就是在书写明年的默认模型行为。"
+ },
+ {
+  "seg": 101,
+  "start": 624.576,
+  "end": 625.977,
+  "speaker": "Unknown",
+  "en": "We have some prior art here.",
+  "zh": "我们在这里有一些先例。"
+ },
+ {
+  "seg": 102,
+  "start": 626.537,
+  "end": 634.741,
+  "speaker": "Unknown",
+  "en": "We have seen this happen already, which is that in 2024, OpenAI trained a model called Critic GPT to catch bugs in model-written code.",
+  "zh": "我们已经见过这种情况发生了，那就是在 2024 年，OpenAI 训练了一个叫 Critic GPT 的模型，用来捕捉模型所写代码中的 bug。"
+ },
+ {
+  "seg": 103,
+  "start": 635.661,
+  "end": 640.043,
+  "speaker": "Unknown",
+  "en": "Human reviewers working on it beat the model alone and the human alone.",
+  "zh": "参与其中的人类评审员打败了单独的模型，也打败了单独的人类。"
+ },
+ {
+  "seg": 104,
+  "start": 641.364,
+  "end": 647.827,
+  "speaker": "Unknown",
+  "en": "So OpenAI built a model to review the models in order to clean the training, and it created a training signal that's now built into the models.",
+  "zh": "所以 OpenAI 构建了一个模型来评审模型，以便净化训练，它创造了一个如今已内置于模型之中的训练信号。"
+ },
+ {
+  "seg": 105,
+  "start": 648.167,
+  "end": 650.188,
+  "speaker": "Unknown",
+  "en": "It made the models better almost instantly.",
+  "zh": "它几乎立刻就让模型变得更好了。"
+ },
+ {
+  "seg": 106,
+  "start": 651.533,
+  "end": 654.975,
+  "speaker": "Unknown",
+  "en": "But mergeability standards are still in the future right now.",
+  "zh": "但可合并性标准目前仍处于未来。"
+ },
+ {
+  "seg": 107,
+  "start": 654.995,
+  "end": 664.981,
+  "speaker": "Unknown",
+  "en": "We do not have a good rubric that captures everything that a human decides to consider when they're deciding whether something is mergeable.",
+  "zh": "我们还没有一个好的评分细则，能够完整捕捉人类在决定某样东西是否可合并时所考虑的所有事情。"
+ },
+ {
+  "seg": 108,
+  "start": 665.381,
+  "end": 667.303,
+  "speaker": "Unknown",
+  "en": "And I promised you something that you can do today.",
+  "zh": "而我答应过要给你们一些今天就能做到的事情。"
+ },
+ {
+  "seg": 109,
+  "start": 669.201,
+  "end": 672.725,
+  "speaker": "Unknown",
+  "en": "So who is actually running automated review right now?",
+  "zh": "那么现在究竟是谁在真正运行自动化评审？"
+ },
+ {
+  "seg": 110,
+  "start": 673.986,
+  "end": 675.027,
+  "speaker": "Unknown",
+  "en": "One company is GitHub.",
+  "zh": "其中一家公司是 GitHub。"
+ },
+ {
+  "seg": 111,
+  "start": 675.147,
+  "end": 683.656,
+  "speaker": "Unknown",
+  "en": "GitHub is Copilot's reviewer has done 60 million reviews and now accounts for more than one in five code reviews on all of GitHub.",
+  "zh": "GitHub 的 Copilot 评审员已经完成了 6000 万次评审，如今占 GitHub 全部代码评审的五分之一以上。"
+ },
+ {
+  "seg": 112,
+  "start": 684.236,
+  "end": 689.4,
+  "speaker": "Unknown",
+  "en": "So machine review of pull requests is the mainstream default on the world's largest code host.",
+  "zh": "所以对拉取请求的机器评审，已经是全球最大代码托管平台上的主流默认做法。"
+ },
+ {
+  "seg": 113,
+  "start": 689.44,
+  "end": 690.64,
+  "speaker": "Unknown",
+  "en": "That is more than an experiment.",
+  "zh": "这已经不只是一个实验。"
+ },
+ {
+  "seg": 114,
+  "start": 690.66,
+  "end": 694.683,
+  "speaker": "Unknown",
+  "en": "That is a large production deployment.",
+  "zh": "那是一次大规模的生产部署。"
+ },
+ {
+  "seg": 115,
+  "start": 695.564,
+  "end": 698.005,
+  "speaker": "Unknown",
+  "en": "Cursor is also doing an enormous amount of code review.",
+  "zh": "Cursor 也在做大量的代码评审。"
+ },
+ {
+  "seg": 116,
+  "start": 698.066,
+  "end": 702.989,
+  "speaker": "Unknown",
+  "en": "Cursor has published its reviewers' architecture, so we know how they're doing this.",
+  "zh": "Cursor 已公开发布了其评审员的架构，所以我们知道他们是怎么做的。"
+ },
+ {
+  "seg": 117,
+  "start": 704.83,
+  "end": 706.69,
+  "speaker": "Unknown",
+  "en": "And the details tell you what the job really is.",
+  "zh": "而这些细节告诉你这份工作到底是什么。"
+ },
+ {
+  "seg": 118,
+  "start": 706.71,
+  "end": 722.674,
+  "speaker": "Unknown",
+  "en": "The first version of their reviewer would run eight review passes over each diff and then shuffle the order of the reviewers to review the code again and again because the order in which it did those reviews changed the outcome of those reviews.",
+  "zh": "他们评审员的第一版会对每个 diff 跑八轮评审，然后打乱评审员的顺序来一遍又一遍地评审代码，因为执行这些评审的顺序会改变这些评审的结果。"
+ },
+ {
+  "seg": 119,
+  "start": 723.074,
+  "end": 734.117,
+  "speaker": "Unknown",
+  "en": "What they were doing was filtering for false positives because an automated reviewer that flags something as bad when it's actually good is going to get ignored.",
+  "zh": "他们所做的其实是在过滤误报，因为一个把实际正确的东西标记为错误的自动化评审员会被无视。"
+ },
+ {
+  "seg": 120,
+  "start": 735.438,
+  "end": 738.62,
+  "speaker": "Unknown",
+  "en": "And it's not just Cursor who's doing this, there's research about it.",
+  "zh": "而且不只在 Cursor 这么做，还有关于它的研究。"
+ },
+ {
+  "seg": 121,
+  "start": 739.22,
+  "end": 742.323,
+  "speaker": "Unknown",
+  "en": "A team at Peking University tested the same idea independently.",
+  "zh": "北京大学的一个团队独立测试了同样的想法。"
+ },
+ {
+  "seg": 122,
+  "start": 742.403,
+  "end": 749.868,
+  "speaker": "Unknown",
+  "en": "Run several review passes, keep what they agree on, and they found that it raised review quality by up to 44%.",
+  "zh": "跑多轮评审，保留它们一致同意的部分，他们发现这把评审质量提升了最多 44%。"
+ },
+ {
+  "seg": 123,
+  "start": 750.949,
+  "end": 757.594,
+  "speaker": "Unknown",
+  "en": "The multi-pass trick keeps getting rediscovered because false positives are the thing that kill a reviewer, and it actually works.",
+  "zh": "多轮这一招不断被重新发现，因为误报正是杀死一个评审员的东西，而且它确实有效。"
+ },
+ {
+  "seg": 124,
+  "start": 758.727,
+  "end": 766.473,
+  "speaker": "Unknown",
+  "en": "So then Cursor rebuilt their code reviewer so that the model reasons over the diff, calls tools, and decides where to dig.",
+  "zh": "于是 Cursor 重建了他们的代码评审员，让模型对 diff 进行推理、调用工具，并决定在哪里深挖。"
+ },
+ {
+  "seg": 125,
+  "start": 767.033,
+  "end": 773.158,
+  "speaker": "Unknown",
+  "en": "And my favorite detail from their rebuild was that they had to tell the model to be more suspicious of the code.",
+  "zh": "而他们重建中我最喜欢的细节是，他们不得不告诉模型要对代码更加怀疑。"
+ },
+ {
+  "seg": 126,
+  "start": 774.078,
+  "end": 779.502,
+  "speaker": "Unknown",
+  "en": "The model tended to look at the code and say, well, that looks good to me, so ship it, which is exactly what a human would do in that situation.",
+  "zh": "模型倾向于看着代码说，嗯，这在我看来不错，所以就发布吧，而这恰恰是人类在那种情况下会做的事。"
+ },
+ {
+  "seg": 127,
+  "start": 780.723,
+  "end": 783.025,
+  "speaker": "Unknown",
+  "en": "They had to tell it, don't trust the code by default.",
+  "zh": "他们不得不告诉它，不要默认信任代码。"
+ },
+ {
+  "seg": 128,
+  "start": 783.045,
+  "end": 784.486,
+  "speaker": "Unknown",
+  "en": "Assume there is something wrong with it.",
+  "zh": "要假设它有问题。"
+ },
+ {
+  "seg": 129,
+  "start": 786.127,
+  "end": 790.331,
+  "speaker": "Unknown",
+  "en": "And somewhere in that sentence is a whole talk about what a good review actually is.",
+  "zh": "而在那句话的某处，藏着关于什么是好的评审的整场演讲。"
+ },
+ {
+  "seg": 130,
+  "start": 791.572,
+  "end": 793.614,
+  "speaker": "Unknown",
+  "en": "It is about being suspicious by default.",
+  "zh": "它就是关于默认保持怀疑。"
+ },
+ {
+  "seg": 131,
+  "start": 795.615,
+  "end": 799.759,
+  "speaker": "Unknown",
+  "en": "The next thing that's happening is that review is starting to fuse with repair.",
+  "zh": "接下来正在发生的事情是，评审开始与修复融合。"
+ },
+ {
+  "seg": 132,
+  "start": 799.999,
+  "end": 804.363,
+  "speaker": "Unknown",
+  "en": "Cursor's reviewer now spawns a fix agent from its own findings, so it doesn't just flag the bug.",
+  "zh": "Cursor 的评审员现在会从它自己的发现中生成一个修复智能体，所以它不只是标记 bug。"
+ },
+ {
+  "seg": 133,
+  "start": 805.083,
+  "end": 809.167,
+  "speaker": "Unknown",
+  "en": "It writes a patch and it hands you back a diff to approve.",
+  "zh": "它会写一个补丁，然后交还给你一个 diff 供你批准。"
+ },
+ {
+  "seg": 134,
+  "start": 810.788,
+  "end": 816.554,
+  "speaker": "Unknown",
+  "en": "You approving that diff is obviously another human in the loop where we don't want humans in the loop.",
+  "zh": "你批准那个 diff 显然又是一个人在回路中，而我们并不想让人在回路中。"
+ },
+ {
+  "seg": 135,
+  "start": 817.215,
+  "end": 821.74,
+  "speaker": "Unknown",
+  "en": "The next thing Cursor wants to do is the reviewer running the code to prove its own bug report is real.",
+  "zh": "Cursor 接下来想做的，是让评审员运行代码来证明自己的 bug 报告是真实的。"
+ },
+ {
+  "seg": 136,
+  "start": 822.901,
+  "end": 826.345,
+  "speaker": "Unknown",
+  "en": "The line between reviewing and rewriting is getting very thin indeed.",
+  "zh": "评审与重写之间的界线确实变得非常模糊了。"
+ },
+ {
+  "seg": 137,
+  "start": 828.69,
+  "end": 831.691,
+  "speaker": "Unknown",
+  "en": "And GitHub and Cursor are by no means the only vendors getting into this game.",
+  "zh": "而 GitHub 和 Cursor 绝不是唯一进入这场游戏的厂商。"
+ },
+ {
+  "seg": 138,
+  "start": 831.711,
+  "end": 833.691,
+  "speaker": "Unknown",
+  "en": "It is getting very crowded in there.",
+  "zh": "这里面已经变得非常拥挤了。"
+ },
+ {
+  "seg": 139,
+  "start": 833.731,
+  "end": 835.992,
+  "speaker": "Unknown",
+  "en": "There's a ton of companies in the field.",
+  "zh": "这个领域有大量的公司。"
+ },
+ {
+  "seg": 140,
+  "start": 836.852,
+  "end": 842.534,
+  "speaker": "Unknown",
+  "en": "CodeRabbit is the largest dedicated reviewer, has now reviewed over 13 million pull requests.",
+  "zh": "CodeRabbit 是最大的专职评审员，如今已经评审了超过 1300 万个拉取请求。"
+ },
+ {
+  "seg": 141,
+  "start": 842.694,
+  "end": 849.535,
+  "speaker": "Unknown",
+  "en": "Greptile builds a graph of your whole repository so that the reviewer can see how a change lands in distant code.",
+  "zh": "Greptile 为你的整个仓库构建一张图，让评审员能看到一个变更如何波及远处的代码。"
+ },
+ {
+  "seg": 142,
+  "start": 850.356,
+  "end": 856.057,
+  "speaker": "Unknown",
+  "en": "Graphite builds its evaluation set from which of its own suggestions developers accept or reject.",
+  "zh": "Graphite 用开发者接受或拒绝了它自己的哪些建议来构建它的评估集。"
+ },
+ {
+  "seg": 143,
+  "start": 857.097,
+  "end": 866.504,
+  "speaker": "Unknown",
+  "en": "But the thing to notice about what every one of them is doing is that all of them are using the same metric as their definition of success, which is, is a human accepting my answer?",
+  "zh": "但关于他们每个人正在做的事，需要注意的一点是，他们全都在用同一个指标作为自己对成功的定义，那就是：有没有人类接受了我的答案？"
+ },
+ {
+  "seg": 144,
+  "start": 868.186,
+  "end": 871.408,
+  "speaker": "Unknown",
+  "en": "Cursor calls it the resolution rate, and it has driven it from 52% to over 70%.",
+  "zh": "Cursor 把它叫作解决率，并已经把它从 52% 推到了 70% 以上。"
+ },
+ {
+  "seg": 145,
+  "start": 875.316,
+  "end": 879.399,
+  "speaker": "Unknown",
+  "en": "The reviewers are trained on human acceptance judgment every day at scale.",
+  "zh": "这些评审员每天都在大规模地基于人类的接受判断进行训练。"
+ },
+ {
+  "seg": 146,
+  "start": 879.419,
+  "end": 885.323,
+  "speaker": "Unknown",
+  "en": "They are training their harnesses to get better at the definition of good as defined by human acceptance.",
+  "zh": "他们在训练自己的工具框架，以便在“由人类接受所定义的好”这一定义上变得更好。"
+ },
+ {
+  "seg": 147,
+  "start": 885.744,
+  "end": 889.787,
+  "speaker": "Unknown",
+  "en": "That is a preview of what the models are going to do except these companies have already shipped it.",
+  "zh": "那是模型将要做什么的一个预览，只不过这些公司已经把它发布上线了。"
+ },
+ {
+  "seg": 148,
+  "start": 890.939,
+  "end": 898.543,
+  "speaker": "Unknown",
+  "en": "So the status quo is you can generate code automatically, you can review the code automatically, but humans still need to review the reviews.",
+  "zh": "所以现状是：你可以自动生成代码，你可以自动评审代码，但人类仍然需要评审这些评审。"
+ },
+ {
+  "seg": 149,
+  "start": 899.024,
+  "end": 900.985,
+  "speaker": "Unknown",
+  "en": "Can you skip that part entirely?",
+  "zh": "你能完全跳过那一步吗？"
+ },
+ {
+  "seg": 150,
+  "start": 901.045,
+  "end": 903.326,
+  "speaker": "Unknown",
+  "en": "Can you get the human entirely out of the loop?",
+  "zh": "你能把人类完全从循环中移除吗?"
+ },
+ {
+  "seg": 151,
+  "start": 904.307,
+  "end": 907.769,
+  "speaker": "Unknown",
+  "en": "There are two prominent projects that have tried so far that I've heard of.",
+  "zh": "据我所知，迄今为止有两个著名的项目尝试过。"
+ },
+ {
+  "seg": 152,
+  "start": 908.949,
+  "end": 914.893,
+  "speaker": "Unknown",
+  "en": "In February this year, Anthropic's Nicholas Carlini had 16 agents build a C compiler from scratch in Rust.",
+  "zh": "今年二月，Anthropic 的 Nicholas Carlini 让 16 个智能体用 Rust 从零构建了一个 C 编译器。"
+ },
+ {
+  "seg": 153,
+  "start": 915.653,
+  "end": 930.885,
+  "speaker": "Unknown",
+  "en": "It was able to compile the Linux kernel across about 2,000 sessions with no human in the loop, but if you read that experiment closely, it's true that there was no human in the loop, no human approving the code as it was written, but there was absolutely a human on the loop.",
+  "zh": "它在大约 2000 个会话中成功编译了 Linux 内核，全程没有人类参与循环，但如果你仔细读那个实验，确实循环里没有人类，没有人类在代码编写过程中审批代码，但绝对有一个人类在循环之上。"
+ },
+ {
+  "seg": 154,
+  "start": 930.905,
+  "end": 939.332,
+  "speaker": "Unknown",
+  "en": "The system that reviewed the code, the system that checked whether the code was doing what it was supposed to do, all of that was written by a human.",
+  "zh": "审查代码的系统、检查代码是否在做它应该做的事情的系统，所有这些都是由人类编写的。"
+ },
+ {
+  "seg": 155,
+  "start": 940.452,
+  "end": 943.254,
+  "speaker": "Unknown",
+  "en": "The test harness, the feedback systems, all of that stuff.",
+  "zh": "测试框架、反馈系统，所有这些东西。"
+ },
+ {
+  "seg": 156,
+  "start": 944.215,
+  "end": 947.537,
+  "speaker": "Unknown",
+  "en": "It was automated testing with tests that took a human to write them.",
+  "zh": "那是自动化测试，但测试需要人类来编写。"
+ },
+ {
+  "seg": 157,
+  "start": 948.938,
+  "end": 955.922,
+  "speaker": "Unknown",
+  "en": "Carlini's own warning when he wrote about it was that it is easy to watch the tests pass and assume that the job is done and that it rarely is.",
+  "zh": "Carlini 本人在写下这个实验时的警告是，人们很容易看到测试通过就认为工作完成了，而实际上很少是这样。"
+ },
+ {
+  "seg": 158,
+  "start": 957.922,
+  "end": 965.771,
+  "speaker": "Unknown",
+  "en": "Another very widely publicized experiment which I already mentioned briefly in passing was when Bunn ported its entire runtime from Zig to Rust.",
+  "zh": "另一个被广泛报道的实验，我刚才顺带简要提过，就是 Bunn 把它的整个运行时从 Zig 移植到了 Rust。"
+ },
+ {
+  "seg": 159,
+  "start": 965.831,
+  "end": 968.714,
+  "speaker": "Unknown",
+  "en": "That was about a million lines of code by agents in six days.",
+  "zh": "那是智能体在六天内完成的大约一百万行代码。"
+ },
+ {
+  "seg": 160,
+  "start": 969.395,
+  "end": 970.917,
+  "speaker": "Unknown",
+  "en": "Obviously no human read that diff.",
+  "zh": "显然没有人类读过那个 diff。"
+ },
+ {
+  "seg": 161,
+  "start": 972.258,
+  "end": 975.482,
+  "speaker": "Unknown",
+  "en": "The gate for that experiment was the existing test suite.",
+  "zh": "那个实验的闸门是现有的测试套件。"
+ },
+ {
+  "seg": 162,
+  "start": 975.562,
+  "end": 976.823,
+  "speaker": "Unknown",
+  "en": "99.8% of the test suite passed.",
+  "zh": "测试套件 99.8% 通过了。"
+ },
+ {
+  "seg": 163,
+  "start": 979.486,
+  "end": 981.348,
+  "speaker": "Unknown",
+  "en": "So the test did real work.",
+  "zh": "所以测试确实发挥了实际作用。"
+ },
+ {
+  "seg": 164,
+  "start": 981.789,
+  "end": 996.726,
+  "speaker": "Unknown",
+  "en": "A fun fact about that experiment is that the PR where the agents decided that they were done with all of the Zig code and they deleted all of the Zig code in one giant PR was flagged by another robot as this is AI slop, you can't possibly delete all of your code.",
+  "zh": "关于那个实验的一个有趣的花絮是，智能体决定它们完成了所有 Zig 代码的处理、在一个巨型 PR 中删除了所有 Zig 代码的那个 PR，被另一个机器人标记为：这是 AI 垃圾，你不可能删除你所有的代码。"
+ },
+ {
+  "seg": 165,
+  "start": 997.967,
+  "end": 999.508,
+  "speaker": "Unknown",
+  "en": "Which I thought was a fun aside.",
+  "zh": "我觉得这是个有趣的小插曲。"
+ },
+ {
+  "seg": 166,
+  "start": 1000.389,
+  "end": 1003.111,
+  "speaker": "Unknown",
+  "en": "But there are some big caveats on that BUN experiment.",
+  "zh": "但那个 BUN 实验有一些重大警告。"
+ },
+ {
+  "seg": 167,
+  "start": 1003.631,
+  "end": 1011.256,
+  "speaker": "Unknown",
+  "en": "Somebody looked carefully at the ported code and it has 13,044 unsafe blocks in a comparable human-written",
+  "zh": "有人仔细检查了移植后的代码，发现其中有 13,044 个 unsafe 块，而一个规模相当的人类编写的"
+ },
+ {
+  "seg": 168,
+  "start": 1013.418,
+  "end": 1017.38,
+  "speaker": "Unknown",
+  "en": "Rushed codebase of that size, you would see about 74.",
+  "zh": "Rust 代码库中，你只会看到大约 74 个。"
+ },
+ {
+  "seg": 169,
+  "start": 1017.961,
+  "end": 1022.383,
+  "speaker": "Unknown",
+  "en": "So three orders of magnitude more memory unsafe blocks.",
+  "zh": "所以多了三个数量级的内存不安全块。"
+ },
+ {
+  "seg": 170,
+  "start": 1022.744,
+  "end": 1028.547,
+  "speaker": "Unknown",
+  "en": "An unsafe block is a place where the author asserts rather than proves that memory is being handled correctly.",
+  "zh": "unsafe 块是作者断言而非证明内存被正确处理的地方。"
+ },
+ {
+  "seg": 171,
+  "start": 1029.068,
+  "end": 1032.17,
+  "speaker": "Unknown",
+  "en": "So the test suite can certify behavior at the public interface.",
+  "zh": "所以测试套件可以认证公共接口层面的行为。"
+ },
+ {
+  "seg": 172,
+  "start": 1033.451,
+  "end": 1037.995,
+  "speaker": "Unknown",
+  "en": "It cannot certify 13,000 assertions that the test suite was never designed to look for.",
+  "zh": "它无法认证那 13,000 个测试套件从未被设计去查找的断言。"
+ },
+ {
+  "seg": 173,
+  "start": 1038.595,
+  "end": 1046.322,
+  "speaker": "Unknown",
+  "en": "So they took humans out of the loop for sure, but there is now no knowing what is lurking under the surface of their rust as a result.",
+  "zh": "所以他们确实把人类从循环中移除了，但结果是，现在没有人知道他们的 Rust 表面之下潜伏着什么。"
+ },
+ {
+  "seg": 174,
+  "start": 1048.811,
+  "end": 1054.396,
+  "speaker": "Unknown",
+  "en": "So let's go back to OpenAI who have pushed this the first list because they show what skipping human review costs.",
+  "zh": "所以让我们回到 OpenAI，他们把这件事推到了最前列，因为他们展示了跳过人类审查的代价。"
+ },
+ {
+  "seg": 175,
+  "start": 1054.476,
+  "end": 1056.378,
+  "speaker": "Unknown",
+  "en": "They didn't delete review, they moved it.",
+  "zh": "他们没有删除审查，他们移动了审查。"
+ },
+ {
+  "seg": 176,
+  "start": 1057.219,
+  "end": 1066.587,
+  "speaker": "Unknown",
+  "en": "Codex reviews its own changes, then calls in more agents to review those reviews in a loop until every agent reviewer is satisfied.",
+  "zh": "Codex 审查自己的更改，然后调用更多智能体在一个循环中审查那些审查，直到每个智能体审查者都满意为止。"
+ },
+ {
+  "seg": 177,
+  "start": 1066.727,
+  "end": 1072.652,
+  "speaker": "Unknown",
+  "en": "OpenAI made Codex bootable at every single change so that Codex can actually run a copy of Codex",
+  "zh": "OpenAI 让 Codex 在每一次更改时都可启动，这样 Codex 就能真正运行一个 Codex 副本"
+ },
+ {
+  "seg": 178,
+  "start": 1073.651,
+  "end": 1074.031,
+  "speaker": "Unknown",
+  "en": "Look at it.",
+  "zh": "看看它。"
+ },
+ {
+  "seg": 179,
+  "start": 1074.431,
+  "end": 1075.152,
+  "speaker": "Unknown",
+  "en": "Look at the UI.",
+  "zh": "看看 UI。"
+ },
+ {
+  "seg": 180,
+  "start": 1075.212,
+  "end": 1076.352,
+  "speaker": "Unknown",
+  "en": "See if the bug is being fixed.",
+  "zh": "看看 bug 是否被修复了。"
+ },
+ {
+  "seg": 181,
+  "start": 1077.113,
+  "end": 1080.034,
+  "speaker": "Unknown",
+  "en": "And they expose the whole logging stack to the agent.",
+  "zh": "而且他们把整个日志栈都暴露给了智能体。"
+ },
+ {
+  "seg": 182,
+  "start": 1080.695,
+  "end": 1088.258,
+  "speaker": "Unknown",
+  "en": "And a line from their write-up says exactly what the Cisco study said, which is that when something failed, the fix was almost never to try harder.",
+  "zh": "他们文章中的一句话恰好说明了 Cisco 研究所说的，即当某些东西失败时，修复方法几乎从来不是更努力地尝试。"
+ },
+ {
+  "seg": 183,
+  "start": 1088.718,
+  "end": 1089.979,
+  "speaker": "Unknown",
+  "en": "It didn't work sometimes.",
+  "zh": "有时它就是不管用。"
+ },
+ {
+  "seg": 184,
+  "start": 1090.86,
+  "end": 1100.304,
+  "speaker": "Unknown",
+  "en": "And one detail that you'll recognize from your own week is that for a while on this project, they had to spend every Friday cleaning up AI slop by hand as humans.",
+  "zh": "还有一个你会从自己这一周的工作中认出来的细节：在这个项目的一段时间里，他们不得不每周五花时间以人类身份手动清理 AI 垃圾。"
+ },
+ {
+  "seg": 185,
+  "start": 1102.342,
+  "end": 1107.986,
+  "speaker": "Unknown",
+  "en": "So that eventually didn't scale and so they trained agents to look for AI sloth and get rid of the AI sloth.",
+  "zh": "后来这不可扩展了，于是他们训练智能体去寻找 AI 垃圾并清除 AI 垃圾。"
+ },
+ {
+  "seg": 186,
+  "start": 1111.048,
+  "end": 1114.93,
+  "speaker": "Unknown",
+  "en": "Review didn't disappear is the lesson of this experiment.",
+  "zh": "这个实验的教训是：审查并没有消失。"
+ },
+ {
+  "seg": 187,
+  "start": 1115.651,
+  "end": 1118.893,
+  "speaker": "Unknown",
+  "en": "It got rebuilt as a system and that system is built by humans.",
+  "zh": "它被重建成一个系统，而那个系统是由人类构建的。"
+ },
+ {
+  "seg": 188,
+  "start": 1120.476,
+  "end": 1122.398,
+  "speaker": "Unknown",
+  "en": "So can you skip the human entirely?",
+  "zh": "那么你能完全跳过人类吗？"
+ },
+ {
+  "seg": 189,
+  "start": 1124.179,
+  "end": 1127.081,
+  "speaker": "Unknown",
+  "en": "Someone who tried it for real and then changed his mind is Dexter Horthy.",
+  "zh": "有一个真正尝试过、然后改变主意的人，是 Dexter Horthy。"
+ },
+ {
+  "seg": 190,
+  "start": 1127.722,
+  "end": 1130.124,
+  "speaker": "Unknown",
+  "en": "He spent six months telling people not to review the code.",
+  "zh": "他花了六个月告诉人们不要审查代码。"
+ },
+ {
+  "seg": 191,
+  "start": 1130.164,
+  "end": 1132.146,
+  "speaker": "Unknown",
+  "en": "He famously did that at AIE last year.",
+  "zh": "他去年在 AIE 上出名地这么做过。"
+ },
+ {
+  "seg": 192,
+  "start": 1133.427,
+  "end": 1135.949,
+  "speaker": "Unknown",
+  "en": "He told people, just ship, let the agent do its thing.",
+  "zh": "他告诉人们，尽管发布，让智能体做它的事。"
+ },
+ {
+  "seg": 193,
+  "start": 1136.569,
+  "end": 1139.552,
+  "speaker": "Unknown",
+  "en": "And in March this year, on stage, he took that back.",
+  "zh": "而在今年三月，他在舞台上收回了那句话。"
+ },
+ {
+  "seg": 194,
+  "start": 1141.413,
+  "end": 1142.334,
+  "speaker": "Unknown",
+  "en": "He said, I was wrong.",
+  "zh": "他说，我错了。"
+ },
+ {
+  "seg": 195,
+  "start": 1142.414,
+  "end": 1143.575,
+  "speaker": "Unknown",
+  "en": "Please, please read the code.",
+  "zh": "请，请去读代码。"
+ },
+ {
+  "seg": 196,
+  "start": 1143.615,
+  "end": 1145.476,
+  "speaker": "Unknown",
+  "en": "We tried not reading the code for like six months.",
+  "zh": "我们有大约六个月的时间尝试不读代码。"
+ },
+ {
+  "seg": 197,
+  "start": 1145.516,
+  "end": 1146.657,
+  "speaker": "Unknown",
+  "en": "It did not end well.",
+  "zh": "结局并不好。"
+ },
+ {
+  "seg": 198,
+  "start": 1146.918,
+  "end": 1149.339,
+  "speaker": "Unknown",
+  "en": "We had to rip out and replace large parts of that system.",
+  "zh": "我们不得不把那个系统的大部分拆掉重做。"
+ },
+ {
+  "seg": 199,
+  "start": 1149.88,
+  "end": 1150.821,
+  "speaker": "Unknown",
+  "en": "That is not a benchmark.",
+  "zh": "那不是一个基准测试。"
+ },
+ {
+  "seg": 200,
+  "start": 1150.841,
+  "end": 1158.767,
+  "speaker": "Unknown",
+  "en": "That is somebody who ran this experiment for real, tried it with real code on a real system, and retracted his remarks.",
+  "zh": "那是一个真正跑过这个实验的人，用真实代码在真实系统上试过，然后收回了他的言论。"
+ },
+ {
+  "seg": 201,
+  "start": 1159.408,
+  "end": 1162.15,
+  "speaker": "Unknown",
+  "en": "OpenAI is running, lived with the results.",
+  "zh": "OpenAI 正在运行，与结果共同生活过。"
+ },
+ {
+  "seg": 202,
+  "start": 1163.891,
+  "end": 1164.832,
+  "speaker": "Unknown",
+  "en": "And reversed in public.",
+  "zh": "并且在公开场合改变了立场。"
+ },
+ {
+  "seg": 203,
+  "start": 1166.513,
+  "end": 1170.796,
+  "speaker": "Unknown",
+  "en": "So Sarah Guo, in the same write-up that I mentioned earlier, talked about why that happens.",
+  "zh": "所以 Sarah Guo，在我之前提到的同一篇文章里，谈到了为什么会发生这种情况。"
+ },
+ {
+  "seg": 204,
+  "start": 1170.896,
+  "end": 1175.199,
+  "speaker": "Unknown",
+  "en": "Passing the test never told you that the change was the right change.",
+  "zh": "通过测试从来没有告诉你这个改动就是正确的改动。"
+ },
+ {
+  "seg": 205,
+  "start": 1175.539,
+  "end": 1180.863,
+  "speaker": "Unknown",
+  "en": "It never told you that this module exists because there are three external users of this module.",
+  "zh": "它从来没有告诉你这个模块之所以存在，是因为有三个外部用户在使用这个模块。"
+ },
+ {
+  "seg": 206,
+  "start": 1181.504,
+  "end": 1186.247,
+  "speaker": "Unknown",
+  "en": "It never told you that there's this cron job that nobody will admit to writing that relies on that module existing.",
+  "zh": "它从来没有告诉你有这么一个没人承认是自己写的定时任务，依赖着那个模块的存在。"
+ },
+ {
+  "seg": 207,
+  "start": 1187.528,
+  "end": 1193.012,
+  "speaker": "Unknown",
+  "en": "There is context outside of the test suite that the tests can't find.",
+  "zh": "存在测试套件找不到的、测试套件之外的环境信息。"
+ },
+ {
+  "seg": 208,
+  "start": 1193.672,
+  "end": 1200.876,
+  "speaker": "Unknown",
+  "en": "So, in everything that we've looked at so far, the human checkpoint is continuing to survive.",
+  "zh": "所以，在我们到目前为止看到的一切中，人类检查点仍在继续存活。"
+ },
+ {
+  "seg": 209,
+  "start": 1201.016,
+  "end": 1204.597,
+  "speaker": "Unknown",
+  "en": "It is moving around, but it is surviving in predictable places.",
+  "zh": "它在移动位置，但它在可预测的地方存活了下来。"
+ },
+ {
+  "seg": 210,
+  "start": 1204.838,
+  "end": 1206.979,
+  "speaker": "Unknown",
+  "en": "One is where correctness isn't cheaply checkable.",
+  "zh": "一个是正确性无法廉价检验的地方。"
+ },
+ {
+  "seg": 211,
+  "start": 1207.539,
+  "end": 1210.981,
+  "speaker": "Unknown",
+  "en": "Another is where the blast radius is large.",
+  "zh": "另一个是爆炸半径很大的地方。"
+ },
+ {
+  "seg": 212,
+  "start": 1211.041,
+  "end": 1216.523,
+  "speaker": "Unknown",
+  "en": "In security-conscious environments, every time you tell people, oh, we can just get rid of human review, you would get an immediate no.",
+  "zh": "在安全敏感的环境中，每次你告诉别人“哦，我们可以直接取消人工审查”，你会立刻得到一个“不”。"
+ },
+ {
+  "seg": 213,
+  "start": 1218.462,
+  "end": 1220.643,
+  "speaker": "Unknown",
+  "en": "Wherever someone has to put their name on the results.",
+  "zh": "无论何地，只要有人必须把自己的名字签在结果上。"
+ },
+ {
+  "seg": 214,
+  "start": 1221.844,
+  "end": 1234.43,
+  "speaker": "Unknown",
+  "en": "But what's happening is the human role isn't disappearing, it is moving up the stack, possibly several levels of the stack, from inspecting the code directly to designing and tuning the systems that inspect the code and designing the definition of good.",
+  "zh": "但正在发生的是，人类的角色并没有消失，它正在向栈的上层移动，可能移动了栈的好几层，从直接检查代码，转到设计和调优那些检查代码的系统，以及设计“好”的定义。"
+ },
+ {
+  "seg": 215,
+  "start": 1235.35,
+  "end": 1238.811,
+  "speaker": "Unknown",
+  "en": "Which raises the obvious question, who reviews those systems?",
+  "zh": "这就引出一个显而易见的问题：谁来审查那些系统？"
+ },
+ {
+  "seg": 216,
+  "start": 1238.831,
+  "end": 1243.412,
+  "speaker": "Unknown",
+  "en": "If you've built a system that does your reviews for you, how do you do the meta review of your reviewer?",
+  "zh": "如果你已经建立了一个替你做审查的系统，你如何对你的审查者做元审查？"
+ },
+ {
+  "seg": 217,
+  "start": 1244.273,
+  "end": 1246.853,
+  "speaker": "Unknown",
+  "en": "And the answer won't surprise you, it is humans.",
+  "zh": "答案不会让你意外，是人类。"
+ },
+ {
+  "seg": 218,
+  "start": 1247.113,
+  "end": 1255.456,
+  "speaker": "Unknown",
+  "en": "Anthropic ships an automated security reviewer, and in its readme it has a huge caveat, which is this action is not hardened against prompt injection attacks.",
+  "zh": "Anthropic 发布了一个自动化安全审查器，在它的 readme 里有一个巨大的警示，即此操作没有针对提示词注入攻击做加固。"
+ },
+ {
+  "seg": 219,
+  "start": 1256.196,
+  "end": 1259.339,
+  "speaker": "Unknown",
+  "en": "And should only be used to review trusted PRs.",
+  "zh": "并且只应用于审查可信的 PR。"
+ },
+ {
+  "seg": 220,
+  "start": 1259.539,
+  "end": 1265.605,
+  "speaker": "Unknown",
+  "en": "So Anthropic's code reviewer can be talked out of its findings by the very thing that it is reviewing.",
+  "zh": "所以 Anthropic 的代码审查器可以被它正在审查的东西本身说服而放弃它的结论。"
+ },
+ {
+  "seg": 221,
+  "start": 1266.846,
+  "end": 1269.148,
+  "speaker": "Unknown",
+  "en": "And that is a finding that has been reproduced.",
+  "zh": "而且这是一个已被复现的发现。"
+ },
+ {
+  "seg": 222,
+  "start": 1269.228,
+  "end": 1277.997,
+  "speaker": "Unknown",
+  "en": "A study in March this year reinforced that vulnerable code dressed up in an innocent commit message fooled an autonomous review agent in 88% of attempts.",
+  "zh": "今年三月的一项研究进一步证实，披着无害提交信息外衣的漏洞代码，在 88% 的尝试中骗过了自主审查智能体。"
+ },
+ {
+  "seg": 223,
+  "start": 1280.178,
+  "end": 1286.103,
+  "speaker": "Unknown",
+  "en": "The same attempts sent to a human reviewer passed only 35% of the time.",
+  "zh": "同样的尝试发给人类审查者时，只有 35% 的概率能通过。"
+ },
+ {
+  "seg": 224,
+  "start": 1286.223,
+  "end": 1292.668,
+  "speaker": "Unknown",
+  "en": "So you take the human out of the loop, you don't just lose a reviewer, you lose the thing that was hard to fool.",
+  "zh": "所以你把人类从环中拿掉，你不只是失去了一个审查者，你失去了那个难以被欺骗的东西。"
+ },
+ {
+  "seg": 225,
+  "start": 1293.268,
+  "end": 1301.874,
+  "speaker": "Unknown",
+  "en": "So automated reviews fall for confidently framed bad code, and confidently framed bad code is exactly the kind of code that agents are very good at producing.",
+  "zh": "所以自动化审查会栽在那些以自信姿态包装的坏代码上，而以自信姿态包装的坏代码恰恰是智能体非常擅长生产的那种代码。"
+ },
+ {
+  "seg": 226,
+  "start": 1302.155,
+  "end": 1304.336,
+  "speaker": "Unknown",
+  "en": "They're very like, this is good, and I am ready.",
+  "zh": "它们非常像是，“这是好的，我准备好了。”"
+ },
+ {
+  "seg": 227,
+  "start": 1305.317,
+  "end": 1307.759,
+  "speaker": "Unknown",
+  "en": "And they are wrong sometimes.",
+  "zh": "而它们有时是错的。"
+ },
+ {
+  "seg": 228,
+  "start": 1309.719,
+  "end": 1313.262,
+  "speaker": "Unknown",
+  "en": "And the other problem is the field doesn't even agree yet on how to grade these graders.",
+  "zh": "另一个问题是，这个领域甚至还没有就如何给这些评分者评分达成一致。"
+ },
+ {
+  "seg": 229,
+  "start": 1313.922,
+  "end": 1316.224,
+  "speaker": "Unknown",
+  "en": "Benchmark scaffolds have been caught leaking answers.",
+  "zh": "基准测试的脚手架被发现在泄漏答案。"
+ },
+ {
+  "seg": 230,
+  "start": 1316.544,
+  "end": 1326.792,
+  "speaker": "Unknown",
+  "en": "Researchers disagree on how to review quality at all, which leaves one reviewer that you can't automate and you can't skip, which is production.",
+  "zh": "研究者们对到底该如何衡量审查质量意见不一，这就留下了一个你无法自动化也无法跳过的审查者，那就是生产环境。"
+ },
+ {
+  "seg": 231,
+  "start": 1327.292,
+  "end": 1333.978,
+  "speaker": "Unknown",
+  "en": "Once the pre-merge review is all machines, watching what the code actually does becomes the last reviewer standing.",
+  "zh": "一旦合并前的审查全部由机器完成，观察代码实际做了什么就成了最后一个屹立不倒的审查者。"
+ },
+ {
+  "seg": 232,
+  "start": 1336.534,
+  "end": 1345.56,
+  "speaker": "Unknown",
+  "en": "Once the code ships, the test result stops being the interesting thing the trajectory does, what the system actually did step by step when it ran against the real world.",
+  "zh": "一旦代码发布了，测试结果就不再是轨迹中最有趣的东西，而是系统在真实世界运行时实际一步步做了什么。"
+ },
+ {
+  "seg": 233,
+  "start": 1346.321,
+  "end": 1348.122,
+  "speaker": "Unknown",
+  "en": "I'm not going to give a pitch for a rise here.",
+  "zh": "我不打算在这里为 Rise 做推销。"
+ },
+ {
+  "seg": 234,
+  "start": 1348.142,
+  "end": 1350.024,
+  "speaker": "Unknown",
+  "en": "There are enough pitches for a rise at this conference.",
+  "zh": "这个会议上为 Rise 做的推销已经够多了。"
+ },
+ {
+  "seg": 235,
+  "start": 1351.064,
+  "end": 1359.09,
+  "speaker": "Unknown",
+  "en": "But if you're shipping automatically reviewed code, then systems in production that review what it actually does in the wild become indispensable.",
+  "zh": "但如果你在发布经过自动审查的代码，那么在生产环境中审查代码在真实世界里实际表现的系统就变得不可或缺。"
+ },
+ {
+  "seg": 236,
+  "start": 1362.332,
+  "end": 1372.616,
+  "speaker": "Unknown",
+  "en": "So after all that evidence, after all of that review of what the world is doing about automated code reviews, where I land is that code review isn't completely dead, but it is changing an enormous amount.",
+  "zh": "所以在所有这些证据之后，在对世界正在为自动化代码审查做些什么的所有审视之后，我的结论是：代码审查并没有完全死去，但它正在发生巨大的变化。"
+ },
+ {
+  "seg": 237,
+  "start": 1373.096,
+  "end": 1375.337,
+  "speaker": "Unknown",
+  "en": "It is being rebuilt as an engineered system.",
+  "zh": "它正在被重构为一个工程化的系统。"
+ },
+ {
+  "seg": 238,
+  "start": 1375.517,
+  "end": 1382.94,
+  "speaker": "Unknown",
+  "en": "Humans are moving from being the engine that drives a code review, reading code line by line, to its pilots.",
+  "zh": "人类正在从驱动代码审查的引擎——逐行阅读代码——转变为它的飞行员。"
+ },
+ {
+  "seg": 239,
+  "start": 1383.88,
+  "end": 1386.783,
+  "speaker": "Unknown",
+  "en": "And given the numbers that we opened with, that is probably the right trade.",
+  "zh": "而且鉴于我们开场时给出的那些数字，这大概是正确的交易。"
+ },
+ {
+  "seg": 240,
+  "start": 1386.923,
+  "end": 1394.631,
+  "speaker": "Unknown",
+  "en": "Every layer of that system, the benchmark, the classifier, the rubric, the test suite, the evals, is itself unreviewed until somebody decides that that is their job.",
+  "zh": "那个系统的每一层——基准测试、分类器、评分规则、测试套件、评测——在有人决定那是他们的工作之前，本身就是未经审查的。"
+ },
+ {
+  "seg": 241,
+  "start": 1395.873,
+  "end": 1404.021,
+  "speaker": "Unknown",
+  "en": "And the teams that win the next few years won't be the ones that generate the most code, they'll be the ones who can say with evidence why they trust what they shipped.",
+  "zh": "而未来几年胜出的团队，不会是生成最多代码的团队，而是那些能够拿出证据说明他们为什么信任自己所发布内容的团队。"
+ },
+ {
+  "seg": 242,
+  "start": 1406.516,
+  "end": 1411.559,
+  "speaker": "Unknown",
+  "en": "And I opened by promising you that I would give you something practical that you could walk away with, something that you can do today.",
+  "zh": "我在开场时向你们承诺过，我会给你们一些实用的、可以带走的东西，一些你们今天就能做到的事。"
+ },
+ {
+  "seg": 243,
+  "start": 1412.199,
+  "end": 1415.121,
+  "speaker": "Unknown",
+  "en": "And that is to stop reviewing PRs.",
+  "zh": "那就是：停止审查 PR。"
+ },
+ {
+  "seg": 244,
+  "start": 1415.521,
+  "end": 1417.922,
+  "speaker": "Unknown",
+  "en": "It is the wrong level of abstraction for 2026.",
+  "zh": "对于 2026 年来说，它是错误的抽象层级。"
+ },
+ {
+  "seg": 245,
+  "start": 1418.042,
+  "end": 1424.025,
+  "speaker": "Unknown",
+  "en": "Your human judgment is extremely valuable, but it can be made to scale much further than it is scaling right now.",
+  "zh": "你的人类判断极其宝贵，但它可以被扩展得比它现在所扩展的范围远得多。"
+ },
+ {
+  "seg": 246,
+  "start": 1425.226,
+  "end": 1428.107,
+  "speaker": "Unknown",
+  "en": "Pour your precious time into building...",
+  "zh": "把你宝贵的时间投入到构建……"
+ },
+ {
+  "seg": 247,
+  "start": 1429.908,
+  "end": 1431.329,
+  "speaker": "Unknown",
+  "en": "A reliable review harness.",
+  "zh": "一个可靠的审查线束。"
+ },
+ {
+  "seg": 248,
+  "start": 1431.449,
+  "end": 1438.834,
+  "speaker": "Unknown",
+  "en": "Codify your definitions of good, your company context, your domain knowledge, and then crank up the agents to work with that.",
+  "zh": "把你对“好”的定义、你的公司环境、你的领域知识编纂成代码，然后把智能体的运转功率拉满，让它们在这个基础上工作。"
+ },
+ {
+  "seg": 249,
+  "start": 1438.934,
+  "end": 1441.596,
+  "speaker": "Unknown",
+  "en": "You can go much faster than one-third faster.",
+  "zh": "你可以做到远比快三分之一快得多。"
+ },
+ {
+  "seg": 250,
+  "start": 1442.457,
+  "end": 1446.9,
+  "speaker": "Unknown",
+  "en": "If you concentrate your efforts, higher up the stack of reviewers, rules, and eviles.",
+  "zh": "如果你把精力集中在更高层的审查者、规则和 eviles 上。"
+ },
+ {
+  "seg": 251,
+  "start": 1449.093,
+  "end": 1456.737,
+  "speaker": "Unknown",
+  "en": "I hope this look at what the industry is doing today has helped you decide what you should do and what to expect next.",
+  "zh": "我希望这次对当今行业正在做什么的梳理,能帮助你决定你应该做什么以及接下来可以期待什么。"
+ },
+ {
+  "seg": 252,
+  "start": 1456.757,
+  "end": 1459.578,
+  "speaker": "Unknown",
+  "en": "And thank you so much for your time and attention.",
+  "zh": "非常感谢你的时间和关注。"
+ }
+]

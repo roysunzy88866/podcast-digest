@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":24,"机器人":10,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":25,"机器人":10,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

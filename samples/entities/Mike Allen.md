@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":49,"OpenAI":147,"Anthropic":159,"TSMC":6,"Microsoft":27,"Palantir":20,"开源模型":24,"封闭模型":2,"沙箱":68}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":50,"OpenAI":149,"Anthropic":161,"TSMC":7,"Microsoft":28,"Palantir":20,"开源模型":24,"封闭模型":2,"沙箱":68}</script>
 
 <script>
 (function(){

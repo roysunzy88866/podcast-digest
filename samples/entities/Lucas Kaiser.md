@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":52,"GPU":18,"OpenAI":147,"开源运动":1,"编码智能体":24,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":52,"GPU":18,"OpenAI":149,"开源运动":1,"编码智能体":24,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

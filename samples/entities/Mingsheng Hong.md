@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":30,"代码审查":21,"CI-CD":16,"不稳定的测试":1,"智能体循环":5,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
+<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":30,"代码审查":22,"CI-CD":16,"不稳定的测试":1,"智能体循环":5,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
 
 <script>
 (function(){

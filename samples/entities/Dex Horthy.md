@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":380,"上下文工程":16,"代码审查":21,"Claude":77,"Simon Mayfor":1,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"上下文工程":16,"代码审查":22,"Claude":77,"Simon Mayfor":1,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
 
 <script>
 (function(){

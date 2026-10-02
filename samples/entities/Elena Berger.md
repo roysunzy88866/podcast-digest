@@ -24,7 +24,7 @@ unlisted: true
 
 [[智能体]] · [[Harvey]] · [[a16z]] · [[Cursor]] · [[Decagon]] · [[OpenAI]] · [[Salesforce]] · [[Simon Mo]] · [[Joe Schmidt]] · [[Gabriel Vasquez]]
 
-<script type="application/json" class="pd-epn">{"智能体":380,"Harvey":16,"a16z":18,"Cursor":74,"Decagon":9,"OpenAI":147,"Salesforce":34,"Simon Mo":1,"Joe Schmidt":2,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":382,"Harvey":16,"a16z":18,"Cursor":75,"Decagon":9,"OpenAI":149,"Salesforce":34,"Simon Mo":1,"Joe Schmidt":2,"Gabriel Vasquez":1}</script>
 
 <script>
 (function(){

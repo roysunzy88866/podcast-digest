@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Francois":1,"Ham":1,"Vincent":1,"Jay":1,"Waddle Labs":1,"RoboCurve":1,"智能体":380,"LLM":52,"VLA":2,"RT2":1}</script>
+<script type="application/json" class="pd-epn">{"Francois":1,"Ham":1,"Vincent":1,"Jay":1,"Waddle Labs":1,"RoboCurve":1,"智能体":382,"LLM":52,"VLA":2,"RT2":1}</script>
 
 <script>
 (function(){

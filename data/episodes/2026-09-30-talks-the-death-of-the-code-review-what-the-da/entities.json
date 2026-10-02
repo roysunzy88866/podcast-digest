@@ -1,0 +1,686 @@
+{
+  "episode_id": "2026-09-30-talks-the-death-of-the-code-review-what-the-da",
+  "podcast": "精选演讲",
+  "date": "2026-09-30",
+  "tags": [
+    "AI 编程",
+    "代码评审",
+    "智能体",
+    "AI 安全",
+    "基准测试"
+  ],
+  "categories": [
+    "AI 编程",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "laurie-voss",
+      "type": "person",
+      "role": "guest",
+      "name": "Laurie Voss",
+      "file": "Laurie Voss",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集主线:AI 智能体让代码产出暴涨但人类评审速度不变,评审成为新瓶颈,正被重构为工程化系统,人类从逐行读代码的『引擎』变为『飞行员』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.854,
+            18.815
+          ],
+          "quote": "Thank you for following on a session about the death of the code review with a session about the death of the code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            129.306,
+            138.208
+          ],
+          "quote": "The problem is that the route to production still runs through humans, and the human steps, in particular code review, choke everything downstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            695.564,
+            698.005
+          ],
+          "quote": "Cursor is also doing an enormous amount of code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1362.332,
+            1372.616
+          ],
+          "quote": "So after all that evidence, after all of that review of what the world is doing about automated code reviews, where I land is that code review isn't completely dead, but it is changing an enormous amount.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1375.517,
+            1382.94
+          ],
+          "quote": "Humans are moving from being the engine that drives a code review, reading code line by line, to its pilots.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体让开发者多写 741% 的代码但发布只多 30%,现在连评审工作也在被推给『智能体审智能体』的循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            251.114,
+            258.96
+          ],
+          "quote": "If you do the math on that, that means that a 10,000 line agent pull request at that pace would take three or four working days to get a real human review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            259.36,
+            271.969
+          ],
+          "quote": "That is one pull request from one agent, 10,000 lines is absolutely, you know, absolutely an expectable number of lines of code for an agent that is doing a lot of work for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            339.703,
+            344.027
+          ],
+          "quote": "Even the scaffolding of the agent to review the agent and stuff like that was also written by agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            350.774,
+            354.017
+          ],
+          "quote": "We've pushed almost all review effort towards being handled agent to agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            799.999,
+            804.363
+          ],
+          "quote": "Cursor's reviewer now spawns a fix agent from its own findings, so it doesn't just flag the bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1057.219,
+            1066.587
+          ],
+          "quote": "Codex reviews its own changes, then calls in more agents to review those reviews in a loop until every agent reviewer is satisfied.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1077.113,
+            1080.034
+          ],
+          "quote": "And they expose the whole logging stack to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1133.427,
+            1135.949
+          ],
+          "quote": "He told people, just ship, let the agent do its thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1269.228,
+            1277.997
+          ],
+          "quote": "A study in March this year reinforced that vulnerable code dressed up in an innocent commit message fooled an autonomous review agent in 88% of attempts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集指出 Anthropic 的自动安全审查器明写『未针对提示词注入攻击加固』,研究显示漏洞代码骗过自动审查智能体的成功率 88%,骗过人类只有 35%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1247.113,
+            1255.456
+          ],
+          "quote": "Anthropic ships an automated security reviewer, and in its readme it has a huge caveat, which is this action is not hardened against prompt injection attacks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            483.828,
+            490.09
+          ],
+          "quote": "Cognition, the makers of Devon, built a benchmark around the maintainer's actual question, which is would you merge this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            562.326,
+            575.272
+          ],
+          "quote": "Sarah Guo, who is a prominent investor in AI, wrote about it and said that solving for that benchmark, a benchmark of genuine mergeability, will be a critical turning point in the development of coding models",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            599.582,
+            612.95
+          ],
+          "quote": "So a benchmark of mergeability, if we could make one, wouldn't only be a measurement, it would immediately become a training signal for the frontier models, which means maintainability, scope, discipline, regression safety.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1149.88,
+            1150.821
+          ],
+          "quote": "That is not a benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1313.922,
+            1316.224
+          ],
+          "quote": "Benchmark scaffolds have been caught leaking answers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1386.923,
+            1394.631
+          ],
+          "quote": "Every layer of that system, the benchmark, the classifier, the rubric, the test suite, the evals, is itself unreviewed until somebody decides that that is their job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "false-positives",
+      "type": "concept",
+      "role": "concept",
+      "name": "误报 (false positives)",
+      "file": "误报",
+      "primary": true,
+      "how_described": "本集说误报是自动化评审员的头号杀手,Cursor 靠八轮评审加打乱顺序过滤误报,北大团队验证多轮保留一致结论可提升质量最多 44%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            723.074,
+            734.117
+          ],
+          "quote": "What they were doing was filtering for false positives because an automated reviewer that flags something as bad when it's actually good is going to get ignored.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            750.949,
+            757.594
+          ],
+          "quote": "The multi-pass trick keeps getting rediscovered because false positives are the thing that kill a reviewer, and it actually works.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集说 GitHub 的 Copilot 评审员已完成 6000 万次评审,占 GitHub 全部代码评审的五分之一以上,机器评审已是主流默认。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            96.36,
+            105.887
+          ],
+          "quote": "Recently, three economists tracked more than 100,000 GitHub developers, matched them against telemetry that showed exactly when each one started using AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            673.986,
+            675.027
+          ],
+          "quote": "One company is GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            675.147,
+            683.656
+          ],
+          "quote": "GitHub is Copilot's reviewer has done 60 million reviews and now accounts for more than one in five code reviews on all of GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            828.69,
+            831.691
+          ],
+          "quote": "And GitHub and Cursor are by no means the only vendors getting into this game.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集详细介绍 Cursor 公开的评审员架构:八轮评审过滤误报、告诉模型『不要默认信任代码』、评审员还会生成修复智能体写补丁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            695.564,
+            698.005
+          ],
+          "quote": "Cursor is also doing an enormous amount of code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            698.066,
+            702.989
+          ],
+          "quote": "Cursor has published its reviewers' architecture, so we know how they're doing this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            735.438,
+            738.62
+          ],
+          "quote": "And it's not just Cursor who's doing this, there's research about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            758.727,
+            766.473
+          ],
+          "quote": "So then Cursor rebuilt their code reviewer so that the model reasons over the diff, calls tools, and decides where to dig.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            799.999,
+            804.363
+          ],
+          "quote": "Cursor's reviewer now spawns a fix agent from its own findings, so it doesn't just flag the bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            817.215,
+            821.74
+          ],
+          "quote": "The next thing Cursor wants to do is the reviewer running the code to prove its own bug report is real.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            828.69,
+            831.691
+          ],
+          "quote": "And GitHub and Cursor are by no means the only vendors getting into this game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            868.186,
+            871.408
+          ],
+          "quote": "Cursor calls it the resolution rate, and it has driven it from 52% to over 70%.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 用三名工程师让智能体从空仓库写出约一百万行代码,声称『人类可以审查 pull request 但不是必须的』;2024 年还训练了评审模型 Critic GPT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            302.12,
+            310.949
+          ],
+          "quote": "Andre Karpathy, who is one of OpenAI's founding engineers, has made the same argument about taking yourself out of the loop because the human in the loop is holding the system back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            317.09,
+            324.394
+          ],
+          "quote": "In February this year, OpenAI published an account of building an internal product with, in their words, no manually written code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            356.609,
+            369.104
+          ],
+          "quote": "I think the interesting thing about the OpenAI experiment is that they did not tell us what the product did and they did not release an open source product saying, and this is how we did it and this is how you should do it, which suggests to me that there are still holes in that strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            372.007,
+            374.81
+          ],
+          "quote": "If OpenAI says that you can do it, maybe you can do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            377.844,
+            381.086
+          ],
+          "quote": "OpenAI says that's one thing you can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            626.537,
+            634.741
+          ],
+          "quote": "We have seen this happen already, which is that in 2024, OpenAI trained a model called Critic GPT to catch bugs in model-written code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            641.364,
+            647.827
+          ],
+          "quote": "So OpenAI built a model to review the models in order to clean the training, and it created a training signal that's now built into the models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1048.811,
+            1054.396
+          ],
+          "quote": "So let's go back to OpenAI who have pushed this the first list because they show what skipping human review costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1066.727,
+            1072.652
+          ],
+          "quote": "OpenAI made Codex bootable at every single change so that Codex can actually run a copy of Codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1159.408,
+            1162.15
+          ],
+          "quote": "OpenAI is running, lived with the results.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集提到 Anthropic 的 Nicholas Carlini 让 16 个智能体无人在环写出 C 编译器,其自动化安全审查器在 readme 里承认未针对提示词注入加固。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            164.068,
+            175.755
+          ],
+          "quote": "Stripe, in Anthropic's launch materials for Fable this year, reported migrating a 50 million line Ruby codebase in a single day, which is work that they'd estimated would take over two months for a team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            176.955,
+            183.379
+          ],
+          "quote": "Bun, which is now part of Anthropic, reported that they migrated over a million lines of Zig to Rust in six days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            908.949,
+            914.893
+          ],
+          "quote": "In February this year, Anthropic's Nicholas Carlini had 16 agents build a C compiler from scratch in Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1247.113,
+            1255.456
+          ],
+          "quote": "Anthropic ships an automated security reviewer, and in its readme it has a huge caveat, which is this action is not hardened against prompt injection attacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1259.539,
+            1265.605
+          ],
+          "quote": "So Anthropic's code reviewer can be talked out of its findings by the very thing that it is reviewing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            483.828,
+            490.09
+          ],
+          "quote": "Cognition, the makers of Devon, built a benchmark around the maintainer's actual question, which is would you merge this?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bun",
+      "type": "company",
+      "role": "company",
+      "name": "Bun",
+      "file": "Bun",
+      "primary": true,
+      "how_described": "本集说 Bun(现属 Anthropic)六天把上百万行代码从 Zig 移植到 Rust,测试通过 99.8%,但移植代码里藏着 13,044 个 unsafe 块,比同等人类代码多三个数量级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            176.955,
+            183.379
+          ],
+          "quote": "Bun, which is now part of Anthropic, reported that they migrated over a million lines of Zig to Rust in six days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1000.389,
+            1003.111
+          ],
+          "quote": "But there are some big caveats on that BUN experiment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产环境 (production)",
+      "file": "生产环境",
+      "primary": true,
+      "how_described": "本集说一旦合并前评审全是机器,观察代码上线后实际做了什么的生产环境就成了最后一个屹立不倒的审查者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            129.306,
+            138.208
+          ],
+          "quote": "The problem is that the route to production still runs through humans, and the human steps, in particular code review, choke everything downstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            690.66,
+            694.683
+          ],
+          "quote": "That is a large production deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1316.544,
+            1326.792
+          ],
+          "quote": "Researchers disagree on how to review quality at all, which leaves one reviewer that you can't automate and you can't skip, which is production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1351.064,
+            1359.09
+          ],
+          "quote": "But if you're shipping automatically reviewed code, then systems in production that review what it actually does in the wild become indispensable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Simon Boudrien":1,"Datadog":7,"智能体":380,"评估":3,"上下文":25,"Cursor":74,"开源权重模型":2,"代码审查":21,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Simon Boudrien":1,"Datadog":7,"智能体":382,"评估":3,"上下文":25,"Cursor":75,"开源权重模型":2,"代码审查":22,"上下文腐烂":4}</script>
 
 <script>
 (function(){

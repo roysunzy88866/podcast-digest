@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Patrick O&#39;Shaughnessy</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Patrick O&#39;Shaughnessy">PA</div><div class="pi"><h1 class="pt">Patrick O&#39;Shaughnessy</h1><div class="byl">Invest Like the Best 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Patrick O&#39;Shaughnessy">PA</div><div class="pi"><h1 class="pt">Patrick O&#39;Shaughnessy</h1><div class="byl">Invest Like the Best 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为联合主持
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Neil Movva]] · [[SAIL Research]] · [[NVIDIA]] · [[AMD]] · [[Cerebrus]] · [[TSMC]] · [[智能体]] · [[推理]] · [[GPU]] · [[KVCache]]
+[[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[NVIDIA]] · [[推理]] · [[Ben Thompson]] · [[Neil Movva]] · [[聚合理论]] · [[SAIL Research]] · [[Google]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":49,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":380,"推理":65,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":161,"TSMC":7,"NVIDIA":50,"推理":67,"Ben Thompson":1,"Neil Movva":1,"聚合理论":1,"SAIL Research":1,"Google":54}</script>
 
 <script>
 (function(){

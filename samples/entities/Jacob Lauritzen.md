@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
+[[Vlad Kyle]] [[Seema Amble]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":4,"智能体":380,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":5,"智能体":382,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
 
 <script>
 (function(){

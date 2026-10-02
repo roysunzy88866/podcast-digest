@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":10,"智能体":380,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":69}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":10,"智能体":382,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":69}</script>
 
 <script>
 (function(){

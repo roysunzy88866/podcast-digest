@@ -145,7 +145,7 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Claude</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:后训练 (post training)</span>
+- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic · 同概念:基准测试 (benchmark)</span>
 
 </div>
 </div>

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":53,"Shopify":16,"Autobot":1,"Anthropic":159,"Claude":77,"代码审查":21,"股权占比":2,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":54,"Shopify":16,"Autobot":1,"Anthropic":161,"Claude":77,"代码审查":22,"股权占比":2,"可观测性":34}</script>
 
 <script>
 (function(){

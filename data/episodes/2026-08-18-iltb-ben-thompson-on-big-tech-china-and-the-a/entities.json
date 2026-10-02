@@ -1,0 +1,2668 @@
+{
+  "episode_id": "2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a",
+  "podcast": "Invest Like the Best",
+  "date": "2026-08-18",
+  "tags": [
+    "AI 行业格局",
+    "资本与泡沫",
+    "大宗商品市场",
+    "商业模式",
+    "广告变现"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "ben-thompson",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Thompson",
+      "file": "Ben Thompson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "patrick-o-shaughnessy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Patrick O'Shaughnessy",
+      "file": "Patrick O'Shaughnessy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.766,
+            93.848
+          ],
+          "quote": "I'm Patrick O'Shaughnessy, and this is Invest Like the Best.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.75,
+            117.411
+          ],
+          "quote": "Patrick O'Shaughnessy is the CEO of Positive Sum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aggregation-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "聚合理论 (aggregation theory)",
+      "file": "聚合理论",
+      "primary": true,
+      "how_described": "本集说它是 Ben Thompson 定义上一个技术时代赢家输家的理论：零边际成本、聚合器靠控制需求(发现)主导市场，Google 搜索是最纯粹的聚合器；并讨论 AI 推理成本打破零边际成本后它还剩多少适用性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            147.457,
+            149.278
+          ],
+          "quote": "We talked about aggregation theory mostly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1225.882,
+            1232.126
+          ],
+          "quote": "If I go back to the early 2010s, maybe the aggregation theory was stewing in your brain and then you published it in 2015.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1250.67,
+            1254.793
+          ],
+          "quote": "I go back and forth even just on the question of aggregation theory itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1258.155,
+            1264.44
+          ],
+          "quote": "Yeah, because like a pushback that people have is one of the key components of aggregation theory is zero marginal costs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1293.364,
+            1296.948
+          ],
+          "quote": "They get a virtuous feedback loop, that sort of aggregation theory in a nutshell.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成处于前沿的实验室之一，正在百倍规模重演 Dropbox 的故事：先向消费者卖订阅但不够，最终转向广告和企业市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.614,
+            67.016
+          ],
+          "quote": "OpenAI, Cursor, Anthric, and Vercel all have something in common.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            376.862,
+            382.948
+          ],
+          "quote": "The way I think about it right now is I think OpenAI and Anthropic are clearly on the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.434,
+            437.237
+          ],
+          "quote": "I think you see a real acceleration from both OpenAI and Anthropic recently, which was sort of theorized and it seems to be coming true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1722.161,
+            1732.405
+          ],
+          "quote": "And so you literally had OpenAI replaying the Dropbox story, but at like a hundred exercise being like, no, we're going to sell subscriptions to consumers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1809.788,
+            1813.831
+          ],
+          "quote": "And it's very frustrating that OpenAI did not pursue this sooner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2951.887,
+            2962.381
+          ],
+          "quote": "Or is there a bit where, particularly in the home, this is where OpenAI's efforts here are very interesting, where you want sort of an ambient AI, where you just talk to the AI and it tells you what you need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3074.209,
+            3085.357
+          ],
+          "quote": "Of the five potential frontier AI winners, so OpenAI, Anthropic, Gemini, SpaceX AI, Grok, and Meta, which of those firms do you think has the most interesting setup?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3085.84,
+            3089.365
+          ],
+          "quote": "OpenAI and Anthropic obviously are the riskiest, but also have the biggest upside.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3102.623,
+            3103.804
+          ],
+          "quote": "OpenAI is kind of like mainline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3546.598,
+            3549.741
+          ],
+          "quote": "We saw OpenAI tried the Sora thing, didn't really take off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3720.695,
+            3724.895
+          ],
+          "quote": "The biggest impact of the models, the biggest monetization right now is probably not Anthropic, OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            4613.688,
+            4620.391
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise ready overnight, not in months.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成与 OpenAI 同处前沿的实验室，像全押的福音派，并在企业市场步步紧逼 OpenAI，其算力现由 Amazon 的 Trainium 支撑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            376.862,
+            382.948
+          ],
+          "quote": "The way I think about it right now is I think OpenAI and Anthropic are clearly on the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.434,
+            437.237
+          ],
+          "quote": "I think you see a real acceleration from both OpenAI and Anthropic recently, which was sort of theorized and it seems to be coming true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1746.032,
+            1749.913
+          ],
+          "quote": "They're like, oh, crap, we need to go for the enterprise because Anthropic is kicking over in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2811.042,
+            2813.764
+          ],
+          "quote": "And now Tranium is obviously running Anthropic and AI products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3074.209,
+            3085.357
+          ],
+          "quote": "Of the five potential frontier AI winners, so OpenAI, Anthropic, Gemini, SpaceX AI, Grok, and Meta, which of those firms do you think has the most interesting setup?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3085.84,
+            3089.365
+          ],
+          "quote": "OpenAI and Anthropic obviously are the riskiest, but also have the biggest upside.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3107.587,
+            3108.308
+          ],
+          "quote": "That's Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3163.119,
+            3174.841
+          ],
+          "quote": "Then again, if we actually run out, whether through political opposition or power or whatever it might be, if we run out of data centers on earth, they can run whatever model they want, as we're seeing with selling their capacity to Anthropic right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3720.695,
+            3724.895
+          ],
+          "quote": "The biggest impact of the models, the biggest monetization right now is probably not Anthropic, OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            4205.694,
+            4208.577
+          ],
+          "quote": "Google already made a deal to sell like 20% of their TPUs to Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集把 Google 搜索说成史上最完美、零边际成本的聚合器生意，而 AI 焚烧现金但 TAM 是所有白领工作；Google 发行股权、靠买暗光纤起家，像伯克希尔从喜诗糖果转向 BNSF。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            383.629,
+            388.114
+          ],
+          "quote": "Who knows what's happening with Google and then Grok and Meta are chasing them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            588.052,
+            589.693
+          ],
+          "quote": "And now Google is issuing equity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            692.809,
+            696.192
+          ],
+          "quote": "Railroad money is what's going into Google right now for Berkshire Hathaway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            702.736,
+            709.56
+          ],
+          "quote": "To me, this NVIDIA deal is very much paired with the Google equity issuance, which I thought was shocking when it happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            710.96,
+            711.981
+          ],
+          "quote": "Because it's Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            779.078,
+            787.285
+          ],
+          "quote": "And the reason why I thought that was so interesting, that story, is it seems to capture where Google itself might be going.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            787.585,
+            789.987
+          ],
+          "quote": "And so there is very symbolic for them to invest in Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            790.288,
+            792.349
+          ],
+          "quote": "Google has this unbelievable high margin business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            817.802,
+            832.176
+          ],
+          "quote": "And eventually with robotics, everything, potentially, the absolute profits available here, even if the margins are lower, is so much larger that, will we look back in Google search with seized candies?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            863.051,
+            868.574
+          ],
+          "quote": "In that, are they actually not just an investor in Google, but a model for Google and where they're going?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1270.964,
+            1271.645
+          ],
+          "quote": "I have to pay Google for ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1300.292,
+            1305.519
+          ],
+          "quote": "Google can scale to the whole world and they can scale to the whole world, not just on the user side, but also on the monetization side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1306.099,
+            1310.905
+          ],
+          "quote": "The vast, vast, vast majority of advertisers on Google or Meta never talk to someone at Google or Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1336.152,
+            1343.917
+          ],
+          "quote": "So you have people, I think the vast majority of people who are using ad today are using it as basically a Google substitute or like a recipe maker or whatever it might be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1555.764,
+            1558.766
+          ],
+          "quote": "Google and Facebook are sort of business perfected in this prior era.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1774.423,
+            1776.504
+          ],
+          "quote": "I think that Google would be in much bigger trouble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2917.456,
+            2923.338
+          ],
+          "quote": "There's a reason they're using Google Cloud and NVIDIA chips, but you can certainly imagine a future where that's the case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3117.275,
+            3119.757
+          ],
+          "quote": "Google just needs search to not die too quickly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3136.409,
+            3138.77
+          ],
+          "quote": "Google, there's a bit where they had Google Cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3241.82,
+            3245.201
+          ],
+          "quote": "Everyone talks about Google, Google like following Microsoft, but Microsoft follows IBM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3724.936,
+            3728.656
+          ],
+          "quote": "It's the incremental gain that is happening for Google and Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            4040.726,
+            4046.628
+          ],
+          "quote": "Apple's never going to serve the whole world by selling a device, whereas a Google can because it's free.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1061,
+          "t": [
+            4193.546,
+            4199.61
+          ],
+          "quote": "Now, in the long run, I think the challenge is their ultimate competitors are the hyperscalers, particularly Google and Amazon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            4199.93,
+            4205.654
+          ],
+          "quote": "So Google and Amazon aren't just building their own chips, but they're also looking to sell those chips externally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            4205.694,
+            4208.577
+          ],
+          "quote": "Google already made a deal to sell like 20% of their TPUs to Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            4381.994,
+            4383.175
+          ],
+          "quote": "That's why it goes with the Google deal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            4383.655,
+            4384.896
+          ],
+          "quote": "Google can just issue equity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1131,
+          "t": [
+            4448.405,
+            4449.966
+          ],
+          "quote": "And by the way, Google's played this game before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1132,
+          "t": [
+            4450.206,
+            4453.008
+          ],
+          "quote": "Google built its business by buying up dark fiber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1137,
+          "t": [
+            4466.517,
+            4475.322
+          ],
+          "quote": "The railroads, BNSF is throwing off money that's going to Google from Northern Pacific and Jay Cook selling bonds to retail investors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4525.896,
+            4536.058
+          ],
+          "quote": "It turns out that the longer we have enough power, the more time Amazon has to make Trinium better, the more time Google has to make TPUs competitive from an efficiency standpoint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 拥有全球规模的 A/B 测试验证机器，模型对广告匹配提升几个百分点就值回投资；Instagram 为内容支付 0 美元，但 Zuckerberg 二十年来羞于谈广告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            383.629,
+            388.114
+          ],
+          "quote": "Who knows what's happening with Google and then Grok and Meta are chasing them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            419.727,
+            424.012
+          ],
+          "quote": "It's going to be instructive how Meta and Grok do in terms of actually catching up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1306.099,
+            1310.905
+          ],
+          "quote": "The vast, vast, vast majority of advertisers on Google or Meta never talk to someone at Google or Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1776.544,
+            1785.446
+          ],
+          "quote": "I think Meta would be in much bigger trouble because if you have this flywheel, the thing about advertising with consumers is your ability to monetize the consumer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3074.209,
+            3085.357
+          ],
+          "quote": "Of the five potential frontier AI winners, so OpenAI, Anthropic, Gemini, SpaceX AI, Grok, and Meta, which of those firms do you think has the most interesting setup?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3120.178,
+            3122.48
+          ],
+          "quote": "Meta has the huge advertising business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3123.06,
+            3127.844
+          ],
+          "quote": "In a world where Meta was run by anyone other than Mark Zuckerberg, they would not be on the leading edge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3144.993,
+            3147.934
+          ],
+          "quote": "Meta being like, actually, we're going to hire a completely new team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3204.562,
+            3205.823
+          ],
+          "quote": "Meta is probably the most interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3216.169,
+            3217.751
+          ],
+          "quote": "The counter to Meta is actually Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3529.73,
+            3535.831
+          ],
+          "quote": "Meta is not threatened immediately, but this is where my bullish view of AI comes in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3539.412,
+            3540.413
+          ],
+          "quote": "And Meta is a digital company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3544.376,
+            3546.258
+          ],
+          "quote": "Time ultimately is Meta's currency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 899,
+          "t": [
+            3583.979,
+            3585.94
+          ],
+          "quote": "Or Meta, they pay nothing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 903,
+          "t": [
+            3603.909,
+            3613.133
+          ],
+          "quote": "For Meta, AI-generated content to the extent they're the ones generating it is actually a worse margin profile than what they have today because what they have today is free.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 905,
+          "t": [
+            3614.514,
+            3623.781
+          ],
+          "quote": "There is a bullish world where Meta is actually very well placed because in a world where we interact with the AI all the time, the desire for a human connection becomes greater.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            3624.261,
+            3626.143
+          ],
+          "quote": "And it's sort of like a Meta going back to their roots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3626.223,
+            3629.906
+          ],
+          "quote": "Meta, one of their biggest mistakes, actually, Meta was always a social network company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 922,
+          "t": [
+            3684.743,
+            3686.485
+          ],
+          "quote": "Then Meta is like, we're a social network.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 923,
+          "t": [
+            3687.085,
+            3693.507
+          ],
+          "quote": "Meta's serving you content from your network of people you know, and TikTok's serving you the best content from around the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3695.888,
+            3697.068
+          ],
+          "quote": "Meta had to shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3724.936,
+            3728.656
+          ],
+          "quote": "It's the incremental gain that is happening for Google and Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3789.25,
+            3797.814
+          ],
+          "quote": "We're gonna move to this world where Meta's gonna look at people and say, this person probably wants to see this next, and they're gonna go find that thing and show it to them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3814.783,
+            3817.845
+          ],
+          "quote": "I think a big problem Meta has is they don't tell this story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3870.263,
+            3873.585
+          ],
+          "quote": "And Meta made a bunch of money for themselves and their shareholders, which is basically everywhere in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3873.925,
+            3877.787
+          ],
+          "quote": "This is why advertising is great and Meta's advertising in particular is awesome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 976,
+          "t": [
+            3880.769,
+            3882.13
+          ],
+          "quote": "Meta doesn't talk about that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 992,
+          "t": [
+            3940.085,
+            3942.066
+          ],
+          "quote": "Meta was not prepared to respond.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说微软不站前沿是理性的，重演 90 年代 IBM 的中间件打法：提供平台让企业在模型之上构建；但 Codex、Claude 这些工具像一支箭直指微软所拥有东西的心脏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1401.383,
+            1405.284
+          ],
+          "quote": "Microsoft recently, they are shifting their enterprise plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1416.486,
+            1420.807
+          ],
+          "quote": "I think this is a kind of a fraught position for Microsoft to an extent because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1421.707,
+            1428.034
+          ],
+          "quote": "The positive way to think about Microsoft is they do everything you need as a business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1453.088,
+            1461.793
+          ],
+          "quote": "Microsoft got the benefit is when you were hiring a new employee, you would think about the cost of that employee and baked in the cost of that employee is $100 a month or $50 a month for their license.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1465.035,
+            1466.496
+          ],
+          "quote": "Revenue stream from Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1506.118,
+            1510.681
+          ],
+          "quote": "The final thing is if you're every month looking at your Microsoft bill and how much did I use,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1518.465,
+            1528.45
+          ],
+          "quote": "And I think they had to do it because that extreme of user who uses a ton of tokens and is actually leveraging AI costs way more to Microsoft than $100 a month.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2974.455,
+            2976.277
+          ],
+          "quote": "Or is it like a Microsoft situation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2976.637,
+            2978.419
+          ],
+          "quote": "Microsoft didn't miss mobile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2993.013,
+            2997.937
+          ],
+          "quote": "The iPod helped them realize that and going with Windows and all that, but will they fall into a Microsoft-like trap?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3216.169,
+            3217.751
+          ],
+          "quote": "The counter to Meta is actually Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3218.171,
+            3219.552
+          ],
+          "quote": "Microsoft is not on the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3220.072,
+            3225.617
+          ],
+          "quote": "The reason why Microsoft has $40 million of free cash flow last quarter, Microsoft paid a $10 billion dividend last quarter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3241.82,
+            3245.201
+          ],
+          "quote": "Everyone talks about Google, Google like following Microsoft, but Microsoft follows IBM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3269.315,
+            3270.836
+          ],
+          "quote": "It's kind of like when I talked about Microsoft before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3368.612,
+            3369.673
+          ],
+          "quote": "That's Microsoft's Playbook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3369.973,
+            3372.015
+          ],
+          "quote": "Microsoft will help you figure out AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3440.379,
+            3441.28
+          ],
+          "quote": "That's Microsoft's playbook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3464.367,
+            3469.133
+          ],
+          "quote": "The reason why that's concerning though is at the end of the day, why are we using Microsoft products again?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3481.786,
+            3495.93
+          ],
+          "quote": "There's a real threat here where to Microsoft's software business, the whole systems of record thing is funny because one reason why systems of records are so powerful is it's so hard to move them to somewhere else because it's a very tedious, repetitive job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3500.812,
+            3502.213
+          ],
+          "quote": "Microsoft isn't so much systems of record.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 878,
+          "t": [
+            3507.658,
+            3516.667
+          ],
+          "quote": "That's the part when you see Codex, Claude, Co-Work, or whatever, it is aimed like an arrow to the heart of what Microsoft has.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3517.207,
+            3521.648
+          ],
+          "quote": "In the long run, all digital companies are, but Microsoft is very much, their strategy is sound.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": true,
+      "how_described": "本集说台积电把产能过剩的风险转嫁给了大科技公司：极度保守、2023-2025 年增速反而下降，导致大厂因算力不足错失收入；也是美国赢得 AI 竞赛时中国博弈论最优回应的打击目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            183.633,
+            184.734
+          ],
+          "quote": "To blow up TSMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            208.278,
+            212.303
+          ],
+          "quote": "But in that state, how much does it extend beyond TSMC being blown up?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1859.045,
+            1866.65
+          ],
+          "quote": "And by the way, if there's not enough compute, TSMC decreased their rate of growth in 2023 and 2024 and 2025.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2131.882,
+            2135.525
+          ],
+          "quote": "Can you zoom in on TSMC and the component makers where fabs are involved?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2316.469,
+            2318.411
+          ],
+          "quote": "TSMC is arguably worse because there's only one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2330.365,
+            2340.335
+          ],
+          "quote": "What I think a lot of the tech companies didn't fully appreciate is the extent to which TSMC has offloaded risk onto the big tech companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2340.835,
+            2345.138
+          ],
+          "quote": "And the way they've done that is the risk that TSMC is worried about is overcapacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2366.964,
+            2373.711
+          ],
+          "quote": "One of the most interesting TSMC stories, it's kind of analogous, that Samsung story, was Morris Chang retired in like the late 2000s.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2420.184,
+            2424.167
+          ],
+          "quote": "TSMC, they were pretty conservative, to be totally honest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2426.849,
+            2428.29
+          ],
+          "quote": "TSMC's like, we don't want to take the risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2442.843,
+            2450.57
+          ],
+          "quote": "So there's lots of foregone revenue and foregone profits that is the manifestation of the risk that TSMC handed off to them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2539.113,
+            2544.497
+          ],
+          "quote": "I've been writing about the problem of this dependency on TSMC for years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2569.635,
+            2575.519
+          ],
+          "quote": "We don't have a customer service mindset or culture organization or all the IP building blocks and all these things that TSMC has.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2613.345,
+            2614.605
+          ],
+          "quote": "We could just go to TSMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2625.99,
+            2629.312
+          ],
+          "quote": "In an unchanging world, TSMC would just win forever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2629.752,
+            2635.417
+          ],
+          "quote": "But this is where TSMC, in some respects, made the same mistake as the money makers, made the same mistakes as I ran, if I can continue the analogy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2663.196,
+            2665.818
+          ],
+          "quote": "But ultimately, TSMC brought it on themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2680.81,
+            2693.863
+          ],
+          "quote": "The way to solve the geopolitical problem of dependence on TSMC is to come up with a compute use case that is so massive that everyone is economically incentivized to bring other people up to speed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 的利润率绝对是不自然的：循环融资、兜底担保其实是一种没体现在利润率上的变相降价；其最终对手是资本成本更低的超大规模云厂商，CUDA 护城河已大幅减弱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            590.073,
+            591.834
+          ],
+          "quote": "NVIDIA is putting together these $500 billion",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            702.736,
+            709.56
+          ],
+          "quote": "To me, this NVIDIA deal is very much paired with the Google equity issuance, which I thought was shocking when it happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2917.456,
+            2923.338
+          ],
+          "quote": "There's a reason they're using Google Cloud and NVIDIA chips, but you can certainly imagine a future where that's the case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            3988.932,
+            3992.853
+          ],
+          "quote": "The one major player and company that we haven't talked about much is Jensen and NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            4065.219,
+            4067.923
+          ],
+          "quote": "Curious for your thoughts on Jensen and NVIDIA specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            4068.123,
+            4071.647
+          ],
+          "quote": "NVIDIA's position is, I think, definitely unnatural.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            4072.088,
+            4074.451
+          ],
+          "quote": "You look at NVIDIA, they've maintained all their margins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1031,
+          "t": [
+            4087.766,
+            4090.669
+          ],
+          "quote": "And, you know, this whole deal and NVIDIA is providing a 25% backstop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1032,
+          "t": [
+            4091.049,
+            4095.514
+          ],
+          "quote": "But if you actually ascribe a value to that, to NVIDIA's",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4113.78,
+            4117.003
+          ],
+          "quote": "They get a lower cost of capital because NVIDIA assumed risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            4124.571,
+            4131.778
+          ],
+          "quote": "There is a world where AI takes off, it never stops, and everything is fine, and NVIDIA captured all the upside of their risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            4140.263,
+            4141.724
+          ],
+          "quote": "NVIDIA is paying for a compute that no one wants.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            4153.368,
+            4157.37
+          ],
+          "quote": "But that is a diminution of NVIDIA's profitability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            4161.632,
+            4175.977
+          ],
+          "quote": "Now, the price cut didn't show up in margins, it didn't show up in what they're offering, but a lot of what NVIDIA is doing is how can we maintain our margins even if the wide view, sort of discounted cash flow, expected value, holistic view of our company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            4230.793,
+            4232.134
+          ],
+          "quote": "NVIDIA is the one selling differentiation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1074,
+          "t": [
+            4240.46,
+            4246.924
+          ],
+          "quote": "So they're NVIDIA's biggest problem because what's the number one advantage that the hyperscalers have?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            4253.331,
+            4256.395
+          ],
+          "quote": "The NeoClouds are, they'll buy NVIDIA left, right, and center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            4256.715,
+            4261.861
+          ],
+          "quote": "And by the way, it also makes total sense that why SpaceX, like Elon's out there, we will always buy NVIDIA because they're the best.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            4262.322,
+            4263.884
+          ],
+          "quote": "No, you'll buy NVIDIA because they're the most fungible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            4264.304,
+            4265.144
+          ],
+          "quote": "NVIDIA is true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4276.71,
+            4285.654
+          ],
+          "quote": "If you want to play the game SpaceX is doing, where we're going to build a lot and rent it out, but reserve the right to pull it back, of course you're going to be on NVIDIA because the easiest way to rent it out is to be on NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            4287.415,
+            4291.636
+          ],
+          "quote": "You go back to 2024, 2023, NVIDIA starts talking about all these sovereign clouds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            4303.12,
+            4307.462
+          ],
+          "quote": "The old ones used to be NVIDIA demonstrating like 50 gazillion things as they're throwing stuff at the wall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            4317.045,
+            4321.626
+          ],
+          "quote": "They're like these modules, basically, that, of course, they were free, but they only ran on NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1109,
+          "t": [
+            4355.858,
+            4358.24
+          ],
+          "quote": "That's why NVIDIA talks about selling to sovereign clouds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            4366.445,
+            4370.387
+          ],
+          "quote": "The hyperscalers have always been the threat to NVIDIA for that reason.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1114,
+          "t": [
+            4374.55,
+            4378.412
+          ],
+          "quote": "The hyperscalers have a better cost of capital than the other companies NVIDIA wants to buy them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4385.377,
+            4391.263
+          ],
+          "quote": "Shareholders don't love it, but their monetization capacity is much higher than NVIDIA or NVIDIA's customers are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4391.684,
+            4400.893
+          ],
+          "quote": "I think what NVIDIA is hoping for, maybe they wouldn't say this in so many words, but if we get to a world where we actually run out of power,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1121,
+          "t": [
+            4401.634,
+            4411.663
+          ],
+          "quote": "That's probably good for NVIDIA because in a world where we're totally constrained on power, we have to get the best efficiency, the best token efficiency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            4412.164,
+            4414.586
+          ],
+          "quote": "And I think NVIDIA is still the most token efficient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            4416.548,
+            4424.195
+          ],
+          "quote": "Probably the biggest problem for NVIDIA over the last couple of years is I think the U.S. has actually brought a lot more power online than expected.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1153,
+          "t": [
+            4523.315,
+            4525.496
+          ],
+          "quote": "NVIDIA's moat sooner than it happened.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说 Amazon 的答案永远是它：自己当自己的第一个最佳客户，把糟糕的早期芯片塞进自托管服务换迭代量，Graviton 和 Trainium 因此变好，现在 Trainium 在跑 Anthropic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 649,
+          "t": [
+            2705.146,
+            2706.167
+          ],
+          "quote": "The answer is always Amazon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2706.667,
+            2710.988
+          ],
+          "quote": "The reason Amazon is so compelling is the extent to which they build for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2720.59,
+            2725.291
+          ],
+          "quote": "AWS, contrary to sort of popular thought, was not spare Amazon capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2725.631,
+            2728.572
+          ],
+          "quote": "Actually, it took a long time to get Amazon.com onto AWS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2781.745,
+            2790.569
+          ],
+          "quote": "But if you're on Amazon and you're using some of their managed services, like, say, the Redshift database service, they don't tell you what the processor is underneath that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1061,
+          "t": [
+            4193.546,
+            4199.61
+          ],
+          "quote": "Now, in the long run, I think the challenge is their ultimate competitors are the hyperscalers, particularly Google and Amazon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            4199.93,
+            4205.654
+          ],
+          "quote": "So Google and Amazon aren't just building their own chips, but they're also looking to sell those chips externally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1072,
+          "t": [
+            4232.414,
+            4235.316
+          ],
+          "quote": "People aren't going to Amazon to use Tranium.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4525.896,
+            4536.058
+          ],
+          "quote": "It turns out that the longer we have enough power, the more time Amazon has to make Trinium better, the more time Google has to make TPUs competitive from an efficiency standpoint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说 Apple 不擅长 AI 没关系——AI 是概率性事业，Apple 是确定性产品之王(从没有过 iPhone 召回)；它掌握客户触达，真正的风险是重蹈微软假设手机永远是中心的覆辙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            265.826,
+            270.129
+          ],
+          "quote": "You can browbeat Apple to move some of their iPhone manufacturing to India, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            270.169,
+            274.672
+          ],
+          "quote": "But even that is a good example because Apple is not truly moving out of China.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1615.889,
+            1619.732
+          ],
+          "quote": "Apple was interested in acquiring Dropbox and they're like, oh, we want to build a company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1626.378,
+            1628.659
+          ],
+          "quote": "Apple did make a feature as far as like sort of iCloud Drive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1939.019,
+            1940.802
+          ],
+          "quote": "So the classic example is like Apple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1949.212,
+            1951.613
+          ],
+          "quote": "Everyone looks at Apple as like the ideal business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2265.7,
+            2269.361
+          ],
+          "quote": "The other risk they run is Apple's lobbying to get Chinese memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2870.864,
+            2871.464
+          ],
+          "quote": "What about Apple?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2878.025,
+            2879.826
+          ],
+          "quote": "Apple has their whole ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2962.962,
+            2967.948
+          ],
+          "quote": "Apple is the best position to provide that, but can they provide that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2987.708,
+            2989.329
+          ],
+          "quote": "Apple realized, no, we need to reset.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3021.133,
+            3026.595
+          ],
+          "quote": "I also think it's totally valid for Apple to double down on what they do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3027.355,
+            3031.997
+          ],
+          "quote": "The other thing about the AI stuff is on what basis should we expect Apple to be good at this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3037.039,
+            3040.86
+          ],
+          "quote": "Apple is the king of deterministic products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3050.647,
+            3052.349
+          ],
+          "quote": "Apple's never had an iPhone recall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3070.146,
+            3072.668
+          ],
+          "quote": "So from my perspective, I'm fine with Apple not doing AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3906.646,
+            3910.188
+          ],
+          "quote": "But you saw this when Apple passed ATT, app tracking transparency was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3910.728,
+            3922.195
+          ],
+          "quote": "One of the worst antitrust violations in the history of technology, Apple unilaterally obliterating all these business models while they're simultaneously building their own as far as advertising goes and doing all this tracking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3969.979,
+            3971.8
+          ],
+          "quote": "They would have been in a better place relative to Apple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            4040.726,
+            4046.628
+          ],
+          "quote": "Apple's never going to serve the whole world by selling a device, whereas a Google can because it's free.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "type": "company",
+      "role": "company",
+      "name": "Intel",
+      "file": "Intel",
+      "primary": true,
+      "how_described": "本集说找 Intel 代工本来从不理性，但算力稀缺最终拯救了 Intel——短缺本身就是把 Intel、三星拉回牌桌的经济动力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2320.695,
+            2322.657
+          ],
+          "quote": "Obviously, Intel and Samsung are trying to get there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2534.432,
+            2538.335
+          ],
+          "quote": "The interesting thing is what this means for Intel and Samsung's sort of logic business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2544.918,
+            2548.22
+          ],
+          "quote": "One of my first articles in 2013 was exhorting Intel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2597.854,
+            2601.797
+          ],
+          "quote": "For a big tech company to go to Intel and say, Intel, you make our chip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2619.347,
+            2623.969
+          ],
+          "quote": "It just never made rational sense for anyone to go work with Intel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2648.449,
+            2653.572
+          ],
+          "quote": "We will go through the pain of getting Intel up to speed, of getting Samsung's logic up to speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2654.012,
+            2656.773
+          ],
+          "quote": "The scarcity is what ultimately save Intel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            4325.367,
+            4326.927
+          ],
+          "quote": "Intel is a good example here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            4330.048,
+            4334.149
+          ],
+          "quote": "Because the hyperscalers were put in the effort to get stuff working on AMD versus Intel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1105,
+          "t": [
+            4344.193,
+            4348.635
+          ],
+          "quote": "The part of Intel's business that never floundered was selling to government and selling to enterprises.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集反复强调推理成本是真实存在的，是 AI 打破零边际成本的关键；且边际成本分布悬殊——免费 ChatGPT 用户和做测试时扩展的用户不在同一个宇宙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            463.289,
+            467.071
+          ],
+          "quote": "You still have to run inference like GLM or Kimi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            479.179,
+            485.402
+          ],
+          "quote": "You're not paying necessarily the R&D to create the AI, but you're definitely paying the inference to sort of run it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1321.237,
+            1322.519
+          ],
+          "quote": "Inference costs are real.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1375.682,
+            1396.122
+          ],
+          "quote": "Every second longer you're thinking is costing more money, which speaks to, like, we think about AI and inference as this one question, that's why I was pushing back on you, but actually the marginal cost question for the different user, the user using free ChatGPT and the user trying to solve a math theorem, they're not even remotely in the same universe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2907.733,
+            2915.936
+          ],
+          "quote": "But you can see a future where this absolutely can work on device and they actually don't even need to pay for inference costs either because they're using the customer's electricity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3446.68,
+            3449.601
+          ],
+          "quote": "They are building massive data centers, but they're building data centers for inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3456.082,
+            3461.343
+          ],
+          "quote": "They're not having to tell a fungibility story where we're building big data centers for training that will be used for inference down the road maybe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 902,
+          "t": [
+            3593.744,
+            3603.328
+          ],
+          "quote": "It's funny because you could see a world where for YouTube, AI-generated content could theoretically be a positive because the inference cost of generating content could be less than what they're sharing with creators.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "marginal-cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "边际成本 (marginal cost)",
+      "file": "边际成本",
+      "primary": true,
+      "how_described": "本集用它串起全篇：聚合理论靠零边际成本，AI 让边际成本回归；大宗商品市场价格由边际供应商决定，航运把运价压到只覆盖边际成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            801.893,
+            803.134
+          ],
+          "quote": "Everything's zero marginal cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1372.139,
+            1375.542
+          ],
+          "quote": "For days or weeks or months, that is directly marginal cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1375.682,
+            1396.122
+          ],
+          "quote": "Every second longer you're thinking is costing more money, which speaks to, like, we think about AI and inference as this one question, that's why I was pushing back on you, but actually the marginal cost question for the different user, the user using free ChatGPT and the user trying to solve a math theorem, they're not even remotely in the same universe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1970.461,
+            1972.142
+          ],
+          "quote": "Your marginal cost is actually quite low.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2007.499,
+            2009.76
+          ],
+          "quote": "The cost of the market is going to be the marginal cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            4018.479,
+            4025.582
+          ],
+          "quote": "The fact that I can pull out my phone right now and connect to any information source in the world for free, free on a marginal cost basis, is because it's a commodity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "commodity",
+      "type": "concept",
+      "role": "concept",
+      "name": "大宗商品 (commodity)",
+      "file": "大宗商品",
+      "primary": true,
+      "how_described": "本集说科技行业整体不理解大宗商品市场：价格由边际供应商决定、服务成本是唯一重要的东西；并预言算力乃至智能最终都会变成大宗商品并改变世界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            1915.056,
+            1919.057
+          ],
+          "quote": "If you invested a fixed cost, and this is the whole logic of commodity markets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1919.097,
+            1921.158
+          ],
+          "quote": "I think tech in general doesn't understand commodity markets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1953.094,
+            1956.976
+          ],
+          "quote": "But in a commodity market, the price is set by the marginal supplier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2003.135,
+            2007.218
+          ],
+          "quote": "At whatever the market will bear in the container, the beauty of the container, it is a pure commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            3993.353,
+            4000.415
+          ],
+          "quote": "And I'm curious how you would tie this back to the notion of not understanding commodity markets in Silicon Valley, whether or not you think compute ultimately is a commodity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            4000.595,
+            4003.375
+          ],
+          "quote": "I'm curious whether or not you think intelligence will ultimately be a commodity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            4017.019,
+            4018.199
+          ],
+          "quote": "Bandwidth is a commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            4018.479,
+            4025.582
+          ],
+          "quote": "The fact that I can pull out my phone right now and connect to any information source in the world for free, free on a marginal cost basis, is because it's a commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            4047.849,
+            4053.63
+          ],
+          "quote": "You're paying for a commodity, but to the extent it is available to everyone is the extent it is impactful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            4053.81,
+            4054.831
+          ],
+          "quote": "The internet is a commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            4055.871,
+            4059.352
+          ],
+          "quote": "So I don't think it'd be weird that intelligence ends up a commodity and changes the world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "type": "concept",
+      "role": "concept",
+      "name": "广告 (advertising)",
+      "file": "广告",
+      "primary": true,
+      "how_described": "本集说广告永远是面向消费者的商业模式：向消费者变现的能力无限、涨价由广告主承担；消费者不想付钱也不要生产力，OpenAI 转向广告是重演 Dropbox 的必经之路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 348,
+          "t": [
+            1563.628,
+            1566.43
+          ],
+          "quote": "This is obviously a market that should be supported by advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1566.91,
+            1570.133
+          ],
+          "quote": "That is why advertising is always the consumer business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1679.187,
+            1683.311
+          ],
+          "quote": "And you also have this overarching skepticism of advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1683.871,
+            1687.755
+          ],
+          "quote": "I've gotten so much traction on Chatechery by being an advertising appreciator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1688.415,
+            1698.144
+          ],
+          "quote": "And I go back and read my early articles about advertising that were kind of directionally correct, but also like were not very good at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1698.684,
+            1705.39
+          ],
+          "quote": "But I got so much traction doing it because I was the only person writing about advertising in a world of everyone want to have a blog and Twitter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1705.45,
+            1706.451
+          ],
+          "quote": "No one wants to talk about advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1713.557,
+            1714.658
+          ],
+          "quote": "Monetized by advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1737.087,
+            1740.249
+          ],
+          "quote": "If you're going to be in the consumer market, you have to be doing advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1740.649,
+            1741.87
+          ],
+          "quote": "They're doing advertising now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1743.29,
+            1746.012
+          ],
+          "quote": "They finally pivoted to doing advertising at the same time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1766.781,
+            1773.983
+          ],
+          "quote": "Had they leaned into advertising immediately as soon as ChatGPT was a hit, I think they would have a killer ad product right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1776.544,
+            1785.446
+          ],
+          "quote": "I think Meta would be in much bigger trouble because if you have this flywheel, the thing about advertising with consumers is your ability to monetize the consumer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3120.178,
+            3122.48
+          ],
+          "quote": "Meta has the huge advertising business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3716.954,
+            3720.514
+          ],
+          "quote": "But the other thing with the models is they're so impactful on advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3729.036,
+            3736.138
+          ],
+          "quote": "Most of the stuff is pre-LLM, but we're getting to LLMs, whether it be generating advertising content, what do we want?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 967,
+          "t": [
+            3848.631,
+            3850.472
+          ],
+          "quote": "Facebook advertising, that's what it does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3873.925,
+            3877.787
+          ],
+          "quote": "This is why advertising is great and Meta's advertising in particular is awesome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3882.41,
+            3888.394
+          ],
+          "quote": "Mark Zuckerberg has never really talked about the societal benefits of advertising, except in passing, in 20 years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 978,
+          "t": [
+            3888.854,
+            3898.06
+          ],
+          "quote": "He's handed it off to other people to take care of it, and maybe there's a bit where him not paying attention is why there is a certain grit and grind that goes into building an advertising business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3910.728,
+            3922.195
+          ],
+          "quote": "One of the worst antitrust violations in the history of technology, Apple unilaterally obliterating all these business models while they're simultaneously building their own as far as advertising goes and doing all this tracking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3929.159,
+            3932.601
+          ],
+          "quote": "That was such a dishonest representation of how advertising works on the internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 994,
+          "t": [
+            3944.487,
+            3950.929
+          ],
+          "quote": "She, in every call, would talk about advertising, how great it is and have a bunch of case studies, people who are benefiting from advertising and these new entrepreneurs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "test-time-scaling",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试时扩展 (test time scaling)",
+      "file": "测试时扩展",
+      "primary": false,
+      "how_described": "本集把它说成让模型思考更久来换更强答案的扩展方式——每多思考一秒都在花钱，是推理边际成本两极分化的极端一端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1358.148,
+            1362.552
+          ],
+          "quote": "Then you have on the other extreme people who are actually leveraging test time scaling.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distilling",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distilling)",
+      "file": "蒸馏",
+      "primary": false,
+      "how_described": "本集说中国人通过蒸馏(用大模型的输出训练小模型)保持落后六到九个月，维持对美有利的均衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            388.695,
+            398.245
+          ],
+          "quote": "Meanwhile, the Chinese are very capable, very smart, and also definitely distilling these models to sort of stay about six to nine months behind.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "风险转移 (risk)",
+      "file": "风险转移",
+      "primary": true,
+      "how_described": "本集反复强调风险不会消失、只会被转手：台积电的保守把错失收入的风险转给大厂，NVIDIA 的兜底担保把降价藏进资产负债表之外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 527,
+          "t": [
+            2265.7,
+            2269.361
+          ],
+          "quote": "The other risk they run is Apple's lobbying to get Chinese memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2325,
+            2326.421
+          ],
+          "quote": "All markets carry risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2326.842,
+            2329.864
+          ],
+          "quote": "And a lot of the question is, who ends up holding the risk?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2330.365,
+            2340.335
+          ],
+          "quote": "What I think a lot of the tech companies didn't fully appreciate is the extent to which TSMC has offloaded risk onto the big tech companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2340.835,
+            2345.138
+          ],
+          "quote": "And the way they've done that is the risk that TSMC is worried about is overcapacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2425.568,
+            2426.328
+          ],
+          "quote": "Where'd the risk go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2426.849,
+            2428.29
+          ],
+          "quote": "TSMC's like, we don't want to take the risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2429.07,
+            2430.211
+          ],
+          "quote": "Risk doesn't disappear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2432.053,
+            2442.382
+          ],
+          "quote": "The risk is right now where you have every single big tech company realizes if we had more compute, we could be making more money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2442.843,
+            2450.57
+          ],
+          "quote": "So there's lots of foregone revenue and foregone profits that is the manifestation of the risk that TSMC handed off to them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2451.15,
+            2451.991
+          ],
+          "quote": "Risk doesn't disappear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2453.211,
+            2455.852
+          ],
+          "quote": "And sometimes that risk doesn't manifest in losing money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4113.78,
+            4117.003
+          ],
+          "quote": "They get a lower cost of capital because NVIDIA assumed risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            4117.504,
+            4121.027
+          ],
+          "quote": "This is my point before, risk never disappears, it just appears somewhere else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1039,
+          "t": [
+            4121.628,
+            4123.99
+          ],
+          "quote": "Taking on risk has a price.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            4124.571,
+            4131.778
+          ],
+          "quote": "There is a world where AI takes off, it never stops, and everything is fine, and NVIDIA captured all the upside of their risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            4604.904,
+            4610.807
+          ],
+          "quote": "As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

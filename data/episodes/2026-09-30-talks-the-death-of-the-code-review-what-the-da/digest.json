@@ -1,0 +1,220 @@
+{
+  "title_zh": "代码评审未死：人类从引擎变飞行员",
+  "tldr": "NPM 联合创始人、Arise AI 开发者关系负责人 Laurie 梳理行业如何应对 AI 时代的代码评审瓶颈：评审正从人工逐行阅读变成系统工程。",
+  "digest_md": "AI 智能体让写代码的速度暴涨，但人类读代码的速度一分没变——这一集是 Arise AI 开发者关系负责人 Laurie(此前是 NPM Inc. 的联合创始人)在一次技术大会上，讲代码评审怎么被 AI 重构。她甩出的第一个数字就很扎眼：三位经济学家追踪了超过 10 万名 GitHub 开发者，开启自主智能体的开发者多写了 **741%** 的代码，但实际发布的软件只多了 **30%**——写代码快了近八倍，上线只多了三分之一，而研究者直言：评审就是瓶颈 [01:47 Laurie]。\n\n## 「多评审」行不通，数字早就说了\n\n一个自然的答案是让一部分人专职评审。但这行不通：二十年前 Cisco 的一项研究(10 个月、2500 次评审、320 万行代码)发现，评审者一次读超过 400 行代码就基本发现不了缺陷，一小时超过 450 行效率就断崖式下跌。算一下账：一个智能体提交的 1 万行 pull request(代码合并申请)，按这个速度要三四个工作日才能获得一次真正的人工评审——而这只是十几个并行智能体中的一个的产出 [03:54 Laurie]。\n\n那跳过人类呢？OpenAI 今年 2 月公布了一个内部项目：从空仓库开始，三名工程师、五个月、约一百万行代码、1500 个合并的 pull request,全部由智能体编写，连「审查智能体的智能体」也是智能体写的。他们的原话是：人类可以审查 pull request,但这不是必须的 [05:50 Laurie]。但 Laurie 指出一个耐人寻味的细节：他们既没说这个产品是干什么的，也没开源方法论——说明这套策略仍有漏洞。\n\n## 「测试通过」不等于「可合并」\n\n问题出在：业界多年用「测试通过」当质量代理指标，而它不准。研究团队 Meter 今年 3 月请来四名开源项目维护者，审查那些已通过 Sweebench(一种代码能力基准测试)评分器的 PR——结果只有约一半真的够格合并，失败不在正确性，而在代码质量和悄悄破坏其他代码的改动 [07:21 Laurie]。Cognition(Devon 的开发商)今年 6 月发布了围绕「你会合并这个吗」构建的 Frontier Code 基准：同一模型，在 SweeBench Pro 上 88 分，在 Frontier Code 最难的部分只有 29 分，差了 51 分；GPT 5.5 在同一组测试上不到 6% [08:44 Laurie]。\n\n投资人 Sarah Guo 点破了背后机制：编译器和测试套件是「免费的验证器」，凡是能廉价验证的东西，模型都能靠训练刷到超越为止。所以一旦有人写出可靠的「可合并性」标准，它会立刻变成前沿模型的训练信号——**谁写下了今天的评审标准，谁就是在书写明年的默认模型行为** [10:18 Laurie]。2024 年 OpenAI 用 Critic GPT(专挑模型所写代码 bug 的评审模型)已经验证过这条路：人机组合既胜过模型也胜过单独的人类，模型几乎立刻变好。\n\n## 已经上线的自动化评审，长什么样\n\n这不是纸上谈兵：GitHub 的 Copilot 评审员已完成 6000 万次评审，占 GitHub 全部代码评审的五分之一以上——已是全球最大代码托管平台上的主流默认 [11:24 Laurie]。Cursor 公开了架构细节，里面全是实战经验：\n\n- 第一版评审员对每个 diff 跑八轮评审、还打乱顺序反复跑，为的是过滤误报——一个把好代码标成坏代码的评审员会被直接无视。北京大学团队独立验证了这招：多轮评审、保留一致结论，质量最多提升 44% [12:22 Laurie]。\n- 重建后他们最有趣的发现：模型倾向看着代码说「看起来不错，发布吧」——跟人类一个德行。他们不得不明说：**不要默认信任代码，要假设它有问题** [12:54 Laurie]。\n- 评审正与修复融合：Cursor 的评审员现在会自己生成修复智能体、写好补丁交回 diff 供人批准。\n\n但所有这些厂商的成功指标都是同一个：有没有人类接受了我的答案？也就是说，**人还是要评审这些评审**。那能彻底去掉吗？\n\n## 跳过人类的两次实验，代价都摆在台面上了\n\nAnthropic 的 Nicholas Carlini 让 16 个智能体用 Rust 从零写了能编译 Linux 内核的 C 编译器，约 2000 个会话、全程无人审批——但审查代码、验证代码的系统全是他手工写的。用他自己的警告说：很容易看到测试通过就以为完事了，而很少真的完事 [15:48 Laurie]。\n\nBun(现为 Anthropic 一部分)六天把上百万行代码从 Zig 移植到 Rust,测试套件 99.8% 通过——但有人细查后发现移植代码里有 13,044 个 unsafe 块(Rust 中作者「断言」而非「证明」内存安全的地方)，同等规模的人类代码只有约 74 个，多了三个数量级。测试能验证公共接口行为，验证不了这 1.3 万个它从没设计过要找的隐患 [16:43 Laurie]。\n\n最有分量的反悔来自 Dexter Horthy:他花了六个月到处讲「别评审代码，直接发布」，去年还在大会上公开这么宣传；今年 3 月他在台上收回：「我错了。请、请去读代码。我们不读代码试了大约六个月，结局不好，不得不把系统的大部分拆掉重做。」[19:01 Laurie]\n\n## 人的角色没消失，是在往栈的上层走\n\nLaurie 的结论：代码评审没死，但正在被重构为工程化系统，人类从逐行读代码的「引擎」变成「飞行员」。人类检查点存活在可预测的地方：正确性无法廉价检验处、爆炸半径大处、以及必须有人签字担责处 [20:04 Laurie]。\n\n而且去掉人还有安全代价：Anthropic 自家的自动化安全审查器，readme 里明写着「未针对提示词注入攻击加固」——审查器能被它正在审查的代码说服而放弃结论。今年 3 月的研究复现了这一点：披着无害提交信息的漏洞代码骗过自动审查智能体的成功率是 88%,骗过人类的只有 35%。**把人拿出去，你不只是失去一个审查者，是失去了那个难以被欺骗的东西** [21:26 Laurie]。更糟的是，领域连「怎么给评分者打分」都没共识——于是一旦合并前全是机器，生产环境就成了最后一个屹立不倒的审查者：观察代码上线后实际做了什么 [22:07 Laurie]。\n\n## 本集带走\n\n- **停止逐个审查 PR**:对 2026 年来说它是错误的抽象层级。把你的判断力投入更高层——审查系统、规则、评测集——把「好」的定义、公司上下文、领域知识编纂成代码，再让智能体在上面全力运转。\n- **别把「测试通过」当「可合并」**：测试套件之外存在测试找不到的上下文(谁在依赖这个模块、没人承认的定时任务)，这些恰恰是评审的真正价值所在。\n- **自动化评审的头号敌人是误报**：多轮评审、只保留一致结论是被反复验证有效的做法；并明确告诉模型「默认怀疑代码」。\n- **跳过人类评审的实验，代价是已知的**：Carlini 的编译器靠的是人写的验证系统，Bun 的 Rust 里藏着 1.3 万个 unsafe 块，Dexter Horthy 公开收回了自己的主张。\n- **机器评审有安全软肋**：自动审查器可被提示词注入骗过(88% vs 人类的 35%),安全敏感场景的人工关卡短期去不掉；上线后的生产行为观测，是合并前全机器化之后最后的人工检查点。",
+  "quotes": [
+    {
+      "en": "The developers who turned on autonomous agents wrote 741% more code, but only 30% more software shipped.",
+      "zh": "开启自主智能体的开发者多写了 741% 的代码，但实际发布的软件只多了 30%。",
+      "timestamp": "01:47",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "And the study says that reviewers stop finding defects effectively if they try to read more than 400 lines of code in one sitting and their effectiveness completely falls off a cliff if they try to review more than 450 lines of code in an hour.",
+      "zh": "该研究指出，评审者一次读超过 400 行代码就基本发现不了缺陷，一小时超过 450 行效率就完全断崖式下跌。",
+      "timestamp": "03:54",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "Peter Steinberger, who is the creator of OpenClaw, says that you shouldn't be prompting coding agents anymore, you should be designing the loops that prompt your agents.",
+      "zh": "OpenClaw 的创造者 Peter Steinberger 说，你不应该再去提示编码智能体了，你应该去设计那些提示你的智能体的循环。",
+      "timestamp": "04:53",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "The bet there is that loop design substitutes for inspection.",
+      "zh": "这里的赌注是，循环设计可以替代检查。",
+      "timestamp": "06:21",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "In the essay where she was talking about this, she made clear why models got so good so fast at generating code, and that is because a compiler is a free verifier.",
+      "zh": "在她谈论这件事的文章里，她讲清楚了模型为什么在生成代码上进步得这么快——因为编译器是一个免费的验证器。",
+      "timestamp": "09:36",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "So a benchmark of mergeability, if we could make one, wouldn't only be a measurement, it would immediately become a training signal for the frontier models, which means maintainability, scope, discipline, regression safety.",
+      "zh": "所以一个可合并性的基准，如果我们能做出来的话，不仅仅是一种度量，它会立刻成为前沿模型的训练信号——也就是可维护性、范围纪律、回归安全性这些。",
+      "timestamp": "09:59",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "And whoever writes today's review standard is writing next year's default model behavior.",
+      "zh": "谁写下了今天的评审标准，谁就是在书写明年的默认模型行为。",
+      "timestamp": "10:18",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "So machine review of pull requests is the mainstream default on the world's largest code host.",
+      "zh": "所以对拉取请求的机器评审，已经是全球最大代码托管平台上的主流默认做法。",
+      "timestamp": "11:24",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "The multi-pass trick keeps getting rediscovered because false positives are the thing that kill a reviewer, and it actually works.",
+      "zh": "多轮这一招不断被重新发现，因为误报正是杀死一个评审员的东西，而且它确实有效。",
+      "timestamp": "12:30",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "The model tended to look at the code and say, well, that looks good to me, so ship it, which is exactly what a human would do in that situation.",
+      "zh": "模型倾向于看着代码说，嗯，这在我看来不错，所以就发布吧——而这恰恰是人类在那种情况下会做的事。",
+      "timestamp": "12:54",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "Review didn't disappear is the lesson of this experiment. It got rebuilt as a system and that system is built by humans.",
+      "zh": "这个实验的教训是：审查并没有消失。它被重建成一个系统，而那个系统是由人类构建的。",
+      "timestamp": "18:31",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "He said, I was wrong. Please, please read the code. We tried not reading the code for like six months. It did not end well. We had to rip out and replace large parts of that system.",
+      "zh": "他说，我错了。请、请去读代码。我们有大约六个月的时间尝试不读代码。结局并不好。我们不得不把那个系统的大部分拆掉重做。",
+      "timestamp": "19:01",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "But what's happening is the human role isn't disappearing, it is moving up the stack, possibly several levels of the stack, from inspecting the code directly to designing and tuning the systems that inspect the code and designing the definition of good.",
+      "zh": "但正在发生的是，人类的角色并没有消失，它正在向栈的上层移动，可能移动了栈的好几层——从直接检查代码，转到设计和调优那些检查代码的系统，以及设计「好」的定义。",
+      "timestamp": "20:21",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "So you take the human out of the loop, you don't just lose a reviewer, you lose the thing that was hard to fool.",
+      "zh": "所以你把人类从环中拿掉，你不只是失去了一个审查者，你失去了那个难以被欺骗的东西。",
+      "timestamp": "21:26",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "So automated reviews fall for confidently framed bad code, and confidently framed bad code is exactly the kind of code that agents are very good at producing.",
+      "zh": "所以自动化审查会栽在那些以自信姿态包装的坏代码上，而以自信姿态包装的坏代码恰恰是智能体非常擅长生产的那种代码。",
+      "timestamp": "21:33",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "Once the pre-merge review is all machines, watching what the code actually does becomes the last reviewer standing.",
+      "zh": "一旦合并前的审查全部由机器完成，观察代码实际做了什么就成了最后一个屹立不倒的审查者。",
+      "timestamp": "22:07",
+      "speaker": "Laurie Voss"
+    },
+    {
+      "en": "And the teams that win the next few years won't be the ones that generate the most code, they'll be the ones who can say with evidence why they trust what they shipped.",
+      "zh": "而未来几年胜出的团队，不会是生成最多代码的团队，而是那些能够拿出证据说明他们为什么信任自己所发布内容的团队。",
+      "timestamp": "23:15",
+      "speaker": "Laurie Voss"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:47",
+      "speaker": "Laurie",
+      "en": "The developers who turned on autonomous agents wrote 741% more code, but only 30% more software shipped.",
+      "zh": "开启自主智能体的开发者多写了 741% 的代码，但实际发布的软件只多了 30%。"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Laurie",
+      "en": "And the study says that reviewers stop finding defects effectively if they try to read more than 400 lines of code in one sitting and their effectiveness completely falls off a cliff if they try to review more than 450 lines of code in an hour.",
+      "zh": "该研究指出，评审者一次读超过 400 行代码就基本发现不了缺陷，一小时超过 450 行效率就完全断崖式下跌。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Laurie",
+      "en": "Peter Steinberger, who is the creator of OpenClaw, says that you shouldn't be prompting coding agents anymore, you should be designing the loops that prompt your agents.",
+      "zh": "OpenClaw 的创造者 Peter Steinberger 说，你不应该再去提示编码智能体了，你应该去设计那些提示你的智能体的循环。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Laurie",
+      "en": "What they said was, humans may review pull requests but they are not required to.",
+      "zh": "他们说的是：人类可以审查 pull request,但这不是必须的。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Laurie",
+      "en": "The bet there is that loop design substitutes for inspection.",
+      "zh": "这里的赌注是，循环设计可以替代检查。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Laurie",
+      "en": "In the essay where she was talking about this, she made clear why models got so good so fast at generating code, and that is because a compiler is a free verifier.",
+      "zh": "在她谈论这件事的文章里，她讲清楚了模型为什么在生成代码上进步得这么快——因为编译器是一个免费的验证器。"
+    },
+    {
+      "timestamp": "09:59",
+      "speaker": "Laurie",
+      "en": "So a benchmark of mergeability, if we could make one, wouldn't only be a measurement, it would immediately become a training signal for the frontier models, which means maintainability, scope, discipline, regression safety.",
+      "zh": "所以一个可合并性的基准，如果我们能做出来的话，不仅仅是一种度量，它会立刻成为前沿模型的训练信号——也就是可维护性、范围纪律、回归安全性这些。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Laurie",
+      "en": "And whoever writes today's review standard is writing next year's default model behavior.",
+      "zh": "谁写下了今天的评审标准，谁就是在书写明年的默认模型行为。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Laurie",
+      "en": "So machine review of pull requests is the mainstream default on the world's largest code host.",
+      "zh": "所以对拉取请求的机器评审，已经是全球最大代码托管平台上的主流默认做法。"
+    },
+    {
+      "timestamp": "12:30",
+      "speaker": "Laurie",
+      "en": "The multi-pass trick keeps getting rediscovered because false positives are the thing that kill a reviewer, and it actually works.",
+      "zh": "多轮这一招不断被重新发现，因为误报正是杀死一个评审员的东西，而且它确实有效。"
+    },
+    {
+      "timestamp": "12:54",
+      "speaker": "Laurie",
+      "en": "The model tended to look at the code and say, well, that looks good to me, so ship it, which is exactly what a human would do in that situation.",
+      "zh": "模型倾向于看着代码说，嗯，这在我看来不错，所以就发布吧——而这恰恰是人类在那种情况下会做的事。"
+    },
+    {
+      "timestamp": "18:31",
+      "speaker": "Laurie",
+      "en": "Review didn't disappear is the lesson of this experiment. It got rebuilt as a system and that system is built by humans.",
+      "zh": "这个实验的教训是：审查并没有消失。它被重建成一个系统，而那个系统是由人类构建的。"
+    },
+    {
+      "timestamp": "19:01",
+      "speaker": "Laurie",
+      "en": "He said, I was wrong. Please, please read the code. We tried not reading the code for like six months. It did not end well. We had to rip out and replace large parts of that system.",
+      "zh": "他说，我错了。请、请去读代码。我们有大约六个月的时间尝试不读代码。结局并不好。我们不得不把那个系统的大部分拆掉重做。"
+    },
+    {
+      "timestamp": "20:21",
+      "speaker": "Laurie",
+      "en": "But what's happening is the human role isn't disappearing, it is moving up the stack, possibly several levels of the stack, from inspecting the code directly to designing and tuning the systems that inspect the code and designing the definition of good.",
+      "zh": "但正在发生的是，人类的角色并没有消失，它正在向栈的上层移动，可能移动了栈的好几层——从直接检查代码，转到设计和调优那些检查代码的系统，以及设计「好」的定义。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Laurie",
+      "en": "So you take the human out of the loop, you don't just lose a reviewer, you lose the thing that was hard to fool.",
+      "zh": "所以你把人类从环中拿掉，你不只是失去了一个审查者，你失去了那个难以被欺骗的东西。"
+    },
+    {
+      "timestamp": "21:33",
+      "speaker": "Laurie",
+      "en": "So automated reviews fall for confidently framed bad code, and confidently framed bad code is exactly the kind of code that agents are very good at producing.",
+      "zh": "所以自动化审查会栽在那些以自信姿态包装的坏代码上，而以自信姿态包装的坏代码恰恰是智能体非常擅长生产的那种代码。"
+    },
+    {
+      "timestamp": "22:07",
+      "speaker": "Laurie",
+      "en": "Once the pre-merge review is all machines, watching what the code actually does becomes the last reviewer standing.",
+      "zh": "一旦合并前的审查全部由机器完成，观察代码实际做了什么就成了最后一个屹立不倒的审查者。"
+    },
+    {
+      "timestamp": "23:15",
+      "speaker": "Laurie",
+      "en": "And the teams that win the next few years won't be the ones that generate the most code, they'll be the ones who can say with evidence why they trust what they shipped.",
+      "zh": "而未来几年胜出的团队，不会是生成最多代码的团队，而是那些能够拿出证据说明他们为什么信任自己所发布内容的团队。"
+    }
+  ],
+  "voice_script": "今天这一集,咱们聊一个每个写代码的人现在都躲不开的话题:AI 写代码越来越快,可代码评审,也就是别人帮你把关、看代码能不能合并的这道工序,跟不上了。主讲人是 Laurie,Arise AI 的开发者关系负责人,再往前,她是 NPM 这家公司——就是那个几乎所有开发者都用过的包管理平台——的联合创始人。这个资历,讲代码评审的变迁,分量是够的。\n\n先把这个问题的来龙去脉交代清楚。AI 智能体,就是那种你给它一个任务、它自己跑起来写代码的工具,让写代码的速度暴涨。可问题来了:机器写快了,人读代码的速度一分没变。Laurie 甩出的第一个数字就很扎眼:有三位经济学家追踪了超过十万名 GitHub 开发者,发现开启自主智能体的开发者,写出来的代码多了百分之七百四十一,接近八倍;但实际发布的软件,只多了百分之三十。写快了八倍,上线只多了三分之一,中间的差距去哪了?研究者的原话很直接:评审就是瓶颈。\n\n那一个自然的答案是,让一部分人专职去评审,行不行?数字早就说了,不行。二十年前 Cisco 做过一项研究,十个月、两千五百次评审、三百二十万行代码,结论是:评审的人一次读超过四百行代码,就基本发现不了缺陷了;一小时超过四百五十行,效率断崖式下跌。你算算这笔账:一个智能体提交一万行的代码合并申请,按这个速度,要三四个工作日才能换来一次真正的人工评审——而这只是十几个并行智能体里其中一个的产出。人根本读不过来。\n\n那干脆跳过人类呢?OpenAI 今年二月公布过一个内部项目:从空仓库开始,三名工程师,五个月,大约一百万行代码,一千五百个合并的代码变更,全部由智能体编写,连用来审查智能体的智能体,也是智能体写的。原话是:人类可以审查,但这不是必须的。不过 Laurie 点出一个耐人寻味的细节:这个产品是干什么的,没说;方法论,没开源。说明这套策略自己心里也没底。\n\n那为什么不能全交给机器?问题出在,业界很多年一直拿\"测试通过\"当作代码质量的代理指标,而它不准。有个研究团队今年三月请来四名开源项目的维护者,去审查那些已经通过了 Sweebench 这个知名基准评分的代码,结果只有约一半真的够格合并。失败的原因不在正确性,而在代码质量,还有那些悄悄破坏其他代码的改动。Cognition,就是做 Devon 的那家公司,六月发布了围绕\"你会不会合并这段代码\"这个标准建的基准:同一个模型,在旧基准上能拿八十八分,在新基准最难的部分只有二十九分。编译器和测试套件是\"免费的验证器\"——投资人 Sarah Guo 点破了这句话背后的机制:凡是能廉价验证的东西,模型都能靠训练刷到超越为止。所以这里有个很重的判断:一旦有人写下可靠的\"可合并性\"标准,它立刻会变成前沿模型的训练信号。换句话说,谁写下了今天的评审标准,谁就是在书写明年的默认模型行为。\n\n说完道理,看现实。自动化评审已经不是纸上谈兵了。GitHub 的 Copilot 评审员已经完成了六千万次评审,占 GitHub 全部代码评审的五分之一以上,已经是全球最大代码托管平台上的主流默认。Cursor 公开了架构细节,里面全是实战经验。第一版评审员对每份代码改动跑八轮评审,还打乱顺序反复跑,就为了过滤误报——因为一个老把好代码标成坏代码的评审员,会被大家直接无视。北京大学团队独立验证过这招:多轮评审、只保留一致的结论,质量最多提升百分之四十四。重建之后他们还有个有趣的发现:模型倾向于看着代码说\"看起来不错,发布吧\"——跟人类一个德行。所以他们不得不明说:不要默认信任代码,要假设它有问题。而且评审正在跟修复融合,评审员现在会自己生成修复智能体,写好补丁交回来等人批准。但注意,所有这些厂商的成功指标都是同一个:有没有人类接受了我的答案。也就是说,人还是要评审这些评审。\n\n那能彻底去掉吗?有两次实验,代价都摆在台面上。Anthropic 的 Nicholas Carlini 让十六个智能体用 Rust 从零写了一个能编译 Linux 内核的 C 编译器,两千个会话,全程无人审批——但别忘了,负责审查代码、验证代码的那些系统,全是他手工写的。用他自己的警告说:很容易看到测试通过就以为完事了,而很少真的完事。还有 Bun,现在归了 Anthropic,六天把上百万行代码从 Zig 移植到 Rust,测试套件百分之九十九点八通过,看着很漂亮。可有人细查发现,移植出来的代码里有一万三千多个 unsafe 块——这是 Rust 里作者\"断言\"内存安全、而不是\"证明\"内存安全的地方——同等规模的人类代码只有约七十四个,多了三个数量级。测试能验证公共接口的行为,可验证不了这一万三千个它从没设计过要找的隐患。最有分量的反悔,来自 Dexter Horthy。他花了六个月到处讲\"别评审代码,直接发布\",去年还在大会上公开这么宣传;今年三月,他在台上收回了:\"我错了。请、请去读代码。我们不读代码试了大约六个月,结局不好,不得不把系统的大部分拆掉重做。\"\n\n所以 Laurie 的结论是:代码评审没死,但正在被重构为工程化的系统,人类从逐行读代码的\"引擎\",变成了\"飞行员\"。人类检查点还活着,而且存活在可预测的地方:正确性没法廉价检验的地方,爆炸半径大的地方,以及必须有人签字担责的地方。而且把人拿出去,还有安全代价。Anthropic 自家的自动化安全审查器,说明文档里明写着\"未针对提示词注入攻击加固\"——意思是这个审查器,能被它正在审查的代码说服而放弃结论。今年三月的研究复现了这一点:披着无害提交信息的漏洞代码,骗过自动审查智能体的成功率是百分之八十八,骗过人类的只有百分之三十五。把人拿出去,你不只是失去一个审查者,是失去了那个难以被欺骗的东西。更糟的是,这个领域连\"怎么给评分者打分\"都还没共识——于是一旦合并之前全是机器,生产环境就成了最后一个屹立不倒的审查者:看代码上线之后,实际做了什么。\n\n给今天画一个落点。对 2026 年来说,逐个审查代码变更是错误的抽象层级;该做的,是把你的判断力投到更高的地方——审查系统、规则、评测集,把\"什么是好代码\"的定义、公司的上下文、领域的知识,编纂成代码,再让智能体在上面全力运转。用 Peter Steinberger 那句话收尾就是:你不应该再去提示编码智能体了,你应该去设计那些提示你的智能体的循环。这,就是代码评审的未来。"
+}

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":69,"ChatGPT":87,"Stripe":41,"GitHub":26,"Vercel":18,"Superhuman":5,"智能体":380,"计算机使用":16}</script>
+<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":69,"ChatGPT":87,"Stripe":41,"GitHub":27,"Vercel":18,"Superhuman":5,"智能体":382,"计算机使用":16}</script>
 
 <script>
 (function(){
