@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":18,"智能体":384,"vibe coding":43,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":42,"真实性":3,"机器学习":4,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":18,"智能体":385,"vibe coding":43,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":42,"真实性":3,"机器学习":4,"Magic School":1}</script>
 
 <script>
 (function(){

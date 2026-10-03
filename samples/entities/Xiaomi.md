@@ -27,7 +27,7 @@ unlisted: true
 
 [[Bob Safian]] · [[Harry Stabbings]] · [[Jim Farley]] · [[Matteo Franceschetti]] · [[Ford]] · [[Eight Sleep]] · [[BYD]] · [[Anthropic]] · [[Tesla]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Harry Stabbings":2,"Jim Farley":1,"Matteo Franceschetti":1,"Ford":1,"Eight Sleep":1,"BYD":1,"Anthropic":161,"Tesla":10,"Claude":79}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Harry Stabbings":2,"Jim Farley":1,"Matteo Franceschetti":1,"Ford":1,"Eight Sleep":1,"BYD":1,"Anthropic":162,"Tesla":10,"Claude":80}</script>
 
 <script>
 (function(){

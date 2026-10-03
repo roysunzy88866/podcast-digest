@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":23,"Neon":3,"Parallel":6,"Devin":4,"智能体":384,"沙箱":68,"突发负载":1,"裸金属":2,"计算机使用":16}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":23,"Neon":3,"Parallel":6,"Devin":4,"智能体":385,"沙箱":69,"突发负载":1,"裸金属":2,"计算机使用":16}</script>
 
 <script>
 (function(){

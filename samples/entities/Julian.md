@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":67,"专用推理":1,"开源模型":24,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":75,"Decagon":9}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":67,"专用推理":1,"开源模型":24,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":76,"Decagon":9}</script>
 
 <script>
 (function(){

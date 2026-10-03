@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"算力":6,"记忆":20,"数据中心":17,"token 流":1,"协同设计":2,"智能体":384,"机器人":10,"推理":67,"Broadcom":4,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"算力":6,"记忆":20,"数据中心":17,"token 流":1,"协同设计":2,"智能体":385,"机器人":10,"推理":67,"Broadcom":4,"Palantir":20}</script>
 
 <script>
 (function(){

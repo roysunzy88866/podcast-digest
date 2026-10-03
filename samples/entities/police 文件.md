@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kitsa]] · [[智能体]] · [[编排器]] · [[护栏]] · [[循环]] · [[规则]] · [[vibe coding]] · [[vibe engineering]] · [[技能文件]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Kitsa":1,"智能体":384,"编排器":4,"护栏":70,"循环":10,"规则":2,"vibe coding":43,"vibe engineering":1,"技能文件":4,"Codex":70}</script>
+<script type="application/json" class="pd-epn">{"Kitsa":1,"智能体":385,"编排器":4,"护栏":70,"循环":10,"规则":2,"vibe coding":43,"vibe engineering":1,"技能文件":4,"Codex":72}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":75,"智能体":384,"云端智能体":1,"重构":1,"计划模式":5,"MCP":69,"PR":6,"测试覆盖率":1,"自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":76,"智能体":385,"云端智能体":1,"重构":1,"计划模式":5,"MCP":69,"PR":6,"测试覆盖率":1,"自动化":1}</script>
 
 <script>
 (function(){

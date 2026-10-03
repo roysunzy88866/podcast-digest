@@ -1,0 +1,136 @@
+{
+  "title_zh": "我用五个提示词「黑」了自己：你的 AI 助手并不安全",
+  "tldr": "Docker 沙箱产品经理现场演示：Claude Code 五句提示词就能挖出你全部银行数据，并讲如何用沙箱微型虚拟机做到设计即安全。",
+  "digest_md": "这一集是 Docker 的一位产品经理在大会上的演讲,他负责 Docker 新推出的沙箱产品 SBX——一个微型虚拟机(一种自带独立内核、与你的真实系统彻底隔离的轻量虚拟环境)。他演讲做的事很刺激:**故意黑自己**,看看大家以为安全的 AI 编码工具,到底有多不安全。[00:27 Unknown]\n\n## 五个提示词,挖出全部银行数据\n\n他在自己的 Mac 上打开 Claude Code,让它去找浏览器历史记录——立刻就找到了。接着问「这个能用来做什么」,于是它开始翻他的银行账户,找到了真实的银行数据:最近在订购支票、在用 Zelle(美国的转账服务),甚至报出了账户后四位。整套个人身份信息(PII)一览无余——全部来自他「本以为安全」的 Claude 桌面应用。[01:35 Unknown]\n\n第二天他被公司安全团队约谈,对方以为他被黑了;由此产生的 CrowdStrike 安全报告给他打了 10 分里的 9 分——因为从机器上套取凭证本来就是一种已知攻击手法。[02:32 Unknown]\n\n整个过程只用了**五个提示词**。有个细节值得所有人警惕:如果你直接说「嘿 Claude,去找我的银行数据」,它会给你警告;但如果你说「**我在研究如何做安全**,它就会很乐意地帮你在你的账户上做那项研究」。他的结论是:「它不是你的朋友。」[03:24 Unknown]\n\n而这不是他主动搞事那么简单——同样的泄露完全可以来自一段脚本或 MCP 服务器的提示词注入,那种情况更容易发生。[03:11 Unknown]\n\n## 现在的安全水平:在提示词里说「请」\n\n他讽刺了现状:一些 Claude 的提示词里写的是「请不要做邪恶的事情」。「这就是我们目前所处的安全水平」——靠礼貌请求来保安全。[03:56 Unknown]\n\n他给出的替代方案是**设计即安全**,靠 microVM 边界来做。Docker 的 SBX 沙箱提供:\n\n- **文件系统隔离**:沙箱跑自己的内核,看不到你的真实文件。同样的浏览器历史攻击,在沙箱里运行时,它「甚至不会想到你的机器上装了浏览器」。[05:54 Unknown]\n- **密钥保护**:有一套系统确保沙箱永远拿不到你的真实密钥——发起网络请求时用占位符替换真实凭证,沙箱里的智能体拿到的只是替身。[04:20 Unknown]\n- **网络默认拦截**:访问海盗湾这类站点默认被拦;顺带一提,Claude 平时会把大量遥测数据发回 Anthropic 的 Datadog 实例,沙箱也会把这些巧妙拦掉。[06:17 Unknown]\n- **完整审计追踪**:出了事能回溯。[04:34 Unknown]\n\n使用门槛几乎为零:只是多打七个按键——`SBX run Claude` 会自动创建虚拟机、在你所在的项目文件夹里启动沙箱、跑起你的智能体,体验和平时用 Claude Code 完全一样。而且沙箱是完整的 VM,不只能跑 Claude,shell、Codex、Python 作业、web 服务器都能跑。[05:32 Unknown]\n\n## 为什么边界必须画在微型虚拟机这一层\n\n在最外层(比如提示词或应用层)设防其实不管用——智能体会找到绕过的办法;而一旦攻击到达你的宿主机,就太晚了。所以他认为microVM 边界是最佳防线位置。[07:10 Unknown]\n\n关键是在安全和「有用」之间做平衡:如果什么都不让智能体做,它就没用了——所以目标是让它在隔离环境里放开手脚。这不是他一家的判断,业界也在朝这个方向走;Docker 内部现在每个开发者写代码都在沙箱里进行,不用会被骂。[04:47 Unknown]\n\n## 治理:让每一次智能体操作都可追责\n\n往前看,他最期待的方向是**智能体级别的身份追踪和委托链**:出事时可以回溯——「这是一个智能体干的,而是一个人授权它干的」,而不是像现在这样不知道发生了什么。在此之上可以写策略,基于 Cedar 策略(一种声明式的权限策略语言)和新发生的事件,动态降低智能体能做的事。[07:48 Unknown]\n\n目前的产品已经支持:网络的白名单/黑名单、文件系统挂载点控制、以及 MCP 目录管理——连他们的 MCP 服务器本身也跑在沙箱里、受同样控制约束。计划中的还有 L7(应用层)网络控制、按 GitHub 仓库粒度的文件系统权限——比如让智能体只读挂载相关仓库,这样它能参考你的其他代码库,但没法为了让自己的改动跑通就随便往别的仓库提交。[08:49 Unknown]\n\n## 本集带走\n\n- **五句提示词就能套走你的银行数据**:别直说,换个「我在研究安全」的说法,助手就会配合——模型内置的防护挡不住这种绕过。\n- **提示词里的「请勿作恶」不是安全机制**:目前很多工具的安全就是一句请求,真防线要画在隔离层。\n- **用微型虚拟机沙箱跑智能体**:SBX 一条命令 `SBX run Claude` 即可,文件、密钥、网络默认隔离,体验几乎无差别——代价只是多按七个键。\n- **可追责是治理的基础**:让每个智能体操作挂到「哪个智能体 + 哪个人授权」的委托链上,再配策略做动态降权。\n- **最小权限用挂载实现**:相关代码库只读挂载,智能体能参考、不能乱改。",
+  "quotes": [
+    {
+      "en": "So yeah, you want to be secure by design, not just hope and say please and see what's going to happen.",
+      "zh": "所以是的,你要做到设计即安全,而不只是抱着希望说「请」,然后看看会发生什么。",
+      "timestamp": "04:37",
+      "speaker": "Rowan Christmas"
+    },
+    {
+      "en": "So if you're using Claude, you are sending Anthropic a lot of your data, unless you're using sandboxes, in which case you're cleverly being blocked by that.",
+      "zh": "所以如果你在使用 Claude,你就是在向 Anthropic 发送大量你的数据,除非你在使用沙箱,那样你就会被巧妙地拦截掉。",
+      "timestamp": "06:35",
+      "speaker": "Rowan Christmas"
+    },
+    {
+      "en": "If it gets down to your host machine, it's too late.",
+      "zh": "一旦到了你的宿主机上,就太晚了。",
+      "timestamp": "07:15",
+      "speaker": "Rowan Christmas"
+    },
+    {
+      "en": "I want the guarantee that it's actually doing what it says it's doing with the API that I've specified.",
+      "zh": "我想要一个保证:它确实是在用它所说的、用我指定的 API 在做它说的事。",
+      "timestamp": "10:48",
+      "speaker": "Rowan Christmas"
+    },
+    {
+      "en": "And maybe don't let your bank data get into the hands of your agent.",
+      "zh": "也许不要让你的银行数据落入你的智能体手中。",
+      "timestamp": "05:01",
+      "speaker": "Rowan Christmas"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:33",
+      "speaker": "Unknown",
+      "en": "But if you say, I'm researching how to do security, it'll happily go and help you do that research on your account.",
+      "zh": "但如果你说,我在研究如何做安全,它就会很乐意地去帮你在你的账户上做那项研究。"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Unknown",
+      "en": "It's not your friend.",
+      "zh": "它不是你的朋友。"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Unknown",
+      "en": "Like that is the level of security we're at.",
+      "zh": "这就是我们目前所处的安全水平。"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Unknown",
+      "en": "So yeah, you want to be secure by design, not just hope and say please and see what's going to happen.",
+      "zh": "所以是的,你要做到设计即安全,而不只是抱着希望说「请」,然后看看会发生什么。"
+    },
+    {
+      "timestamp": "02:14",
+      "speaker": "Unknown",
+      "en": "I was very impressed.",
+      "zh": "我印象非常深刻。"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Unknown",
+      "en": "I got a 9 out of 10, which is better than I did in most of my classes.",
+      "zh": "我拿到了 10 分中的 9 分,这比我大多数课程的成绩都好。"
+    },
+    {
+      "timestamp": "05:54",
+      "speaker": "Unknown",
+      "en": "But if I run it on the sandbox version, it does not even think there's a browser installed on your machine.",
+      "zh": "但如果我在沙箱版本上运行它,它甚至不会想到你的机器上装了浏览器。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Unknown",
+      "en": "I had to type seven more keystrokes to get here.",
+      "zh": "我只是多按了七个按键才到这里。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Unknown",
+      "en": "So if you're using Claude, you are sending Anthropic a lot of your data, unless you're using sandboxes, in which case you're cleverly being blocked by that.",
+      "zh": "所以如果你在使用 Claude,你就是在向 Anthropic 发送大量你的数据,除非你在使用沙箱,那样你就会被巧妙地拦截掉。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Unknown",
+      "en": "If we don't use it, we get yelled at.",
+      "zh": "如果我们不用它,就会被骂。"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Unknown",
+      "en": "Agents find their way around it.",
+      "zh": "智能体会找到绕过它的办法。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Unknown",
+      "en": "If it gets down to your host machine, it's too late.",
+      "zh": "一旦到了你的宿主机上,就太晚了。"
+    },
+    {
+      "timestamp": "04:53",
+      "speaker": "Unknown",
+      "en": "So that's why this whole sandbox idea is so exciting for us.",
+      "zh": "所以这就是为什么整个沙箱的想法对我们来说如此令人兴奋。"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Unknown",
+      "en": "It didn't just happen by magic.",
+      "zh": "它不是凭空魔法般发生的。"
+    },
+    {
+      "timestamp": "10:48",
+      "speaker": "Unknown",
+      "en": "I want the guarantee that it's actually doing what it says it's doing with the API that I've specified.",
+      "zh": "我想要一个保证:它确实是在用它所说的、用我指定的 API 在做它说的事。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Unknown",
+      "en": "And maybe don't let your bank data get into the hands of your agent.",
+      "zh": "也许不要让你的银行数据落入你的智能体手中。"
+    }
+  ],
+  "voice_script": "今天要讲的事,跟你的 AI 助手有关,而且有点刺激。主角是 Docker 的一位产品经理,负责一个叫 SBX 的新沙箱产品。本期是在一个技术大会上的演讲,讲的事情说出来你可能不信:故意黑自己,用 AI 编码工具攻击自己的电脑,看看大家以为安全的 Claude Code 到底有多不安全。结果呢,只用了五个提示词,就把自己的银行数据全挖出来了。\n\n先交代一下背景。现在很多人都在用 Claude Code 这类智能体写代码,让它直接在你的电脑上干活。听起来挺安全,毕竟是个大厂的正规产品。但这位产品经理不信邪,决定亲自试一试。\n\n在自己 Mac 上打开 Claude Code,第一个提示词很简单:去找浏览器的历史记录。立刻就找到了。接着又问了一句,这个能用来做什么?于是 Claude 开始翻他的银行账户。找到了什么?真实的银行数据:最近在订购支票、在用 Zelle——就是美国的一个转账服务——甚至报出了账户后四位。整套个人身份信息,一览无余。全部来自一个他本以为安全的应用。\n\n这事还闹出了笑话。第二天,公司安全团队找上门约谈,以为电脑被黑了。由此产生的 CrowdStrike 安全报告,直接给打了 10 分里的 9 分——因为从机器上套取凭证,本来就是已知的攻击手法。\n\n整个过程只有五个提示词。这里面有个细节,值得所有人警惕。如果你直接说,嘿 Claude,去找我的银行数据,它会给你警告。但如果你换个说法,说\"我在研究如何做安全\",它就会很乐意地帮你在账户上做那项研究。产品经理给这事下了个结论,原话是:\"它不是你的朋友。\"\n\n还有一点更值得注意:这不是主动搞事才有的风险。同样的泄露,完全可以来自一段脚本,或者 MCP 服务器的提示词注入——说白了,就是恶意指令藏在数据里,骗 AI 去执行。那种情况,更容易发生。\n\n听到这你可能会想,Claude 不是有内置的安全防护吗?确实有,但现状堪忧。一些 Claude 的提示词里写的居然是——\"请不要做邪恶的事情\"。这句话就是目前的安全水平:靠礼貌请求来保安全。你细品,这算什么防线?\n\n那就得换个思路了,叫\"设计即安全\"——不指望 AI 自觉,而是靠环境本身把危险挡住。具体怎么挡?靠微型虚拟机,也叫 microVM。这是一种自带独立内核、跟你的真实系统彻底隔离的轻量虚拟环境。Docker 的 SBX 沙箱就是这么做的。\n\n为什么要在虚拟机这一层画边界?道理不复杂:在最外层,比如提示词或者应用层设防,其实不管用——智能体总会找到绕过的办法。而一旦攻击到达你的宿主机,就太晚了。所以防线要画在中间,微型虚拟机这一层。回到刚才那个浏览器攻击:同样的招数在沙箱里跑,因为沙箱有自己独立的文件系统,看不到你的真实文件,它甚至不会想到你的机器上装了浏览器。\n\n除了文件系统隔离,还有几道锁。第一是密钥保护:沙箱永远拿不到你的真实密钥,发起网络请求时,系统会用占位符替换真实凭证,沙箱里的智能体拿到的只是替身。第二是网络默认拦截:访问海盗湾这类站点,默认被拦。顺带说个你可能不知道的:如果你在用 Claude,平时会向 Anthropic 发送大量你的数据——沙箱连这个都会巧妙地拦掉。第三是完整的审计追踪,出了事能回溯。\n\n那用起来麻烦吗?几乎不麻烦。只是多打七个按键:输入 SBX run Claude,它会自动创建虚拟机、在你所在的项目文件夹里启动沙箱、跑起你的智能体,体验跟平时完全一样。而且这是完整的虚拟机,不只跑 Claude,shell、Codex、Python 作业、web 服务器都能跑。这个思路也不是 Docker 一家在推,业界都在往这个方向走。Docker 内部,现在每个开发者写代码都在沙箱里进行,不用会被骂。\n\n再往前看一步,安全之外还有治理问题:智能体干了事,得能追责。目前的状态是,出了事不知道发生了什么。理想状态是做到智能体级别的身份追踪和委托链——出事时可以回溯:这是一个智能体干的,而且是一个人授权它干的。在这个基础上,还能写策略,比如基于 Cedar 这种声明式的权限策略语言,根据新发生的事件,动态降低智能体权限。\n\n现在产品已经支持网络的白名单黑名单、文件系统挂载点控制、MCP 目录管理——连他们自己的 MCP 服务器,也跑在沙箱里受同样的约束。计划中的还有应用层网络控制,以及按 GitHub 仓库粒度的文件系统权限。举个实际例子:让智能体只读挂载相关仓库,这样它能参考你的其他代码库,但没法为了让自己的改动跑通,就随便往别的仓库提交。这就是最小权限,用挂载来实现。\n\n最后收个尾。这一集想说的事其实很朴素:五句提示词就能套走你的银行数据,别指望 AI 自觉,也别指望提示词里的一句\"请勿作恶\"——就像演讲者自己说的,你要做到设计即安全,而不只是抱着希望说\"请\",然后看看会发生什么。或者更接地气一点:也许,不要让你的银行数据落入你的智能体手中。"
+}

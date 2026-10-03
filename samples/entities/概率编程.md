@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ben Horowitz]] · [[Martin Casado]] · [[Diogo Almeida]] · [[TypeSafe]] · [[Jev]] · [[自动化]] · [[编码智能体]] · [[智能软件]] · [[可靠性]] · [[RLHF]]
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":6,"Martin Casado":5,"Diogo Almeida":2,"TypeSafe":3,"Jev":4,"自动化":1,"编码智能体":24,"智能软件":1,"可靠性":2,"RLHF":4}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":6,"Martin Casado":5,"Diogo Almeida":2,"TypeSafe":3,"Jev":4,"自动化":1,"编码智能体":25,"智能软件":1,"可靠性":2,"RLHF":4}</script>
 
 <script>
 (function(){

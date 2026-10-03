@@ -1,0 +1,384 @@
+{
+  "episode_id": "2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "AI 编程",
+    "代码验证",
+    "自动化测试",
+    "软件工程",
+    "产品演示"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "gabriel-spencer-harper",
+      "type": "person",
+      "role": "guest",
+      "name": "Gabriel Spencer-Harper",
+      "file": "Gabriel Spencer-Harper",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "meticulous",
+      "type": "company",
+      "role": "company",
+      "name": "Meticulous",
+      "file": "Meticulous",
+      "primary": true,
+      "how_described": "本集介绍它是一个以零开发者投入对前端代码库做穷尽式验证的工具：注入一行 JavaScript 录制用户工作流，在 PR 上回放并逐时刻截图、做 diff，展示合并前应用会有什么不同，部署于 Discord、Wiz、Dropbox、Notion 等公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.818,
+            18.9
+          ],
+          "quote": "I'm one of the co-founders and CEO of Meticulous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            31.47,
+            42.278
+          ],
+          "quote": "I'll spend one minute introducing Meticulous, and then one minute giving some background context on the company, and then sort of eight minutes giving a demo and technical overview.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            72.758,
+            75.961
+          ],
+          "quote": "So I'll give super quick context on Meticulous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            75.981,
+            83.707
+          ],
+          "quote": "So Meticulous gives you exhaustive or near exhaustive verification of your front-end codebase with zero developer effort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            97.516,
+            102.462
+          ],
+          "quote": "So if an engineer touches front-end code at one of these companies, they use Meticulous every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            254.225,
+            259.59
+          ],
+          "quote": "So I'll now give you a demo of how Meticulous works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            297.527,
+            310.415
+          ],
+          "quote": "And then when you open a pull request on your CI runner, you spin up your web application on localhost 3000, and meticulous takes a subset of those recorded workflows and it replays them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            352.857,
+            357.841
+          ],
+          "quote": "And so when you open a pull request, Meticulous posts a comment typically within a few minutes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            363.345,
+            369.03
+          ],
+          "quote": "But when a developer clicks into this comment, Meticulous will not tell you whether or not there's a bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            413.132,
+            421.956
+          ],
+          "quote": "In Meticulous, we just show you what's different and you exercise your judgment at review time or an agent does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            476.909,
+            487.1
+          ],
+          "quote": "The second key technology is that you get radically less or orders of magnitude less flakes with Meticulous than any other tool, including Cypress or Playwright.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            566.359,
+            574.264
+          ],
+          "quote": "Typically, I would say that code coverage in our opinionated view is a terrible metric for every tool in the world apart from meticulous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            588.933,
+            599.447
+          ],
+          "quote": "But with meticulous, it actually is approximately the same because we do this really unusual and radical thing, which is we're taking a screenshot at every possible moment throughout a flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            600.008,
+            606.476
+          ],
+          "quote": "So if there's a 412-step flow and there's a single pixel diff, meticulous will flag it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集主线概念：AI 写代码比人类审查快，验证成了新瓶颈；有穷尽式验证就能以智能体写码速度发布，没有就被迫在速度与 bug 之间取舍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.445,
+            31.309
+          ],
+          "quote": "So in today's demo or talk, I'll talk about verification of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            44.588,
+            52.811
+          ],
+          "quote": "So, if you have exhaustive verification, then you can ship code at the speed that your agents write it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            75.981,
+            83.707
+          ],
+          "quote": "So Meticulous gives you exhaustive or near exhaustive verification of your front-end codebase with zero developer effort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            103.843,
+            110.811
+          ],
+          "quote": "However, before we get into the product and talk more about verification, let's just cover the current sort of state of the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            117.999,
+            122.124
+          ],
+          "quote": "And review and verification is now the new bottleneck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            218.754,
+            232.964
+          ],
+          "quote": "And then the third problem or downstream consequence of the state of the world is that if you can get exhaustive verification, then you can program in a new and different way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            247.618,
+            250.201
+          ],
+          "quote": "How do you get exhaustive verification?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            611.359,
+            616.061
+          ],
+          "quote": "You only get exhaustive verification because of this code coverage algorithm.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "assertion-based-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于断言的测试 (assertion-based testing)",
+      "file": "基于断言的测试",
+      "primary": true,
+      "how_described": "本集说它要求预先用业务判断把软件正确行为固化进断言，但可能的回归空间太庞大，无法穷尽覆盖，所以仅靠它不够。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            124.46,
+            129.263
+          ],
+          "quote": "The other state of the world is that assertion-based testing alone isn't enough.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-coverage",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码覆盖率 (code coverage)",
+      "file": "代码覆盖率",
+      "primary": true,
+      "how_described": "本集说按带立场的观点，覆盖率对除 Meticulous 外的所有工具都是糟糕指标（覆盖 100% 代码库但只做一次断言）；而 Meticulous 因每个时刻都截图，覆盖率近似等于被测代码，并靠覆盖率最大化算法挑选工作流子集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            551.931,
+            562.357
+          ],
+          "quote": "And then we build a map or an index that maps each individual workflow to lines of code executed and choose a subset of workflows that maximizes code coverage across your application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            566.359,
+            574.264
+          ],
+          "quote": "Typically, I would say that code coverage in our opinionated view is a terrible metric for every tool in the world apart from meticulous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            584.49,
+            588.133
+          ],
+          "quote": "And so code coverage is not the same as code tested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            611.359,
+            616.061
+          ],
+          "quote": "You only get exhaustive verification because of this code coverage algorithm.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "determinism",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (determinism)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "本集说浏览器设计之初没把确定性当目标（动画 spinner 依赖 CPU 时钟、setTimeout/setInterval 交错等随机来源），Meticulous 从调度引擎层增强浏览器使其完全确定性，这是规模化的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            494.386,
+            498.35
+          ],
+          "quote": "So when browsers were first designed, determinism was not a design goal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "pull request",
+      "file": "pull request",
+      "primary": true,
+      "how_described": "本集以「AI 生成的 PR 你敢直接合并并发布吗」作为自查问题，并演示 Meticulous 在 PR 评论中几分钟内列出各处 diff。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            148.892,
+            161.128
+          ],
+          "quote": "And so a good clarifying question is if an engineer in your organization AI generated this pull request, would you feel comfortable hitting the merge and ship button?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            297.527,
+            310.415
+          ],
+          "quote": "And then when you open a pull request on your CI runner, you spin up your web application on localhost 3000, and meticulous takes a subset of those recorded workflows and it replays them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            352.857,
+            357.841
+          ],
+          "quote": "And so when you open a pull request, Meticulous posts a comment typically within a few minutes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "flake",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

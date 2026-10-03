@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-talks-the-5-levels-of-self-driving-production",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/y-OVWZD4j6U.m4a",
+  "duration_sec": 1094.045,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 168,
+  "asr": true,
+  "title_en": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "added": "2026-10-03",
+  "added_at": "2026-10-03T11:38:10.105Z",
+  "speaker_map": {
+    "SPEAKER_00": "Eric Schwartz"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Eric Schwartz"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障",
+  "guest_name": "Eric Schwartz",
+  "guest_title": "Traversal 产品经理",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

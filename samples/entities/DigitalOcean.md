@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DigitalOcean</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DigitalOcean">DI</div><div class="pi"><h1 class="pt">DigitalOcean</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DigitalOcean">DI</div><div class="pi"><h1 class="pt">DigitalOcean</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(11:55起):Jason 第三选（约 100-200 亿美元、溢价后 250 亿）：面向开发者的云托管公司，苹果没有任何自己的托管/云业务，买下它对标 AWS/Azure，有望长出 500 亿到 1000 亿美元收入线。
+- **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(08:47起):本集在列举 Traversal 服务的公司时提到（American Express、Pepsi、DigitalOcean、Capital One），未展开讨论。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
+- [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jacob]] · [[Lon]] · [[Jason]] · [[Apple]] · [[Disney]] · [[Boston Dynamics]] · [[Lucid]] · [[GoAI]] · [[Eleven Labs]] · [[Sony]]
+[[Jacob]] · [[Eric Schwartz]] · [[Lon]] · [[Traversal]] · [[Jason]] · [[ServiceNow]] · [[Apple]] · [[American Express]] · [[Disney]] · [[Pepsi]]
 
-<script type="application/json" class="pd-epn">{"Jacob":1,"Lon":1,"Jason":4,"Apple":20,"Disney":1,"Boston Dynamics":3,"Lucid":1,"GoAI":1,"Eleven Labs":8,"Sony":1}</script>
+<script type="application/json" class="pd-epn">{"Jacob":1,"Eric Schwartz":1,"Lon":1,"Traversal":2,"Jason":4,"ServiceNow":4,"Apple":20,"American Express":1,"Disney":1,"Pepsi":1}</script>
 
 <script>
 (function(){

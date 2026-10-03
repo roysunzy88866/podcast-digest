@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[VLM]] · [[Max Junestrand]] · [[Hiral Shah]] · [[Adit Abraham]] · [[Legora]] · [[Sean Sodha]] · [[Reducto]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"智能体":384,"评估":3,"VLM":4,"Max Junestrand":1,"Hiral Shah":1,"Adit Abraham":1,"Legora":3,"Sean Sodha":1,"Reducto":1,"微调":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":385,"评估":3,"VLM":4,"Max Junestrand":1,"Hiral Shah":1,"Adit Abraham":1,"Legora":3,"Sean Sodha":1,"Reducto":1,"微调":28}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>79</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>80</b> 集 · <b>43</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -89,10 +89,11 @@ unlisted: true
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(20:14起):本集多处提到用 Claude：维护节目 docket 的 Claude 技能、非技术朋友用 Claude 给自己做小应用、把 Analytics 丢给 Claude 问该发什么内容。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(03:13起):在位者叠加大模型的例子里被点名：把 Claude 和 Salesforce 捏在一起
 - **[[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]]**(14:57起):本集说:与 ChatGPT 一样,Claude 能给出相当不错的医疗建议,富人把验血报告放进 ChatGPT、Claude 与智能体聊两个小时问细节——「医生没时间做这个,AI 有全世界所有的时间」。
+- **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(01:35起):本集批评其安全性靠提示词里写「请不要做邪恶的事情」,并提到它会把大量遥测数据发回 Anthropic 的 Datadog 实例。
 
 ## ① 提到它的金句
 
-*41 条*
+*43 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -176,9 +177,13 @@ unlisted: true
 
 ![[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb#^q3]]
 
+![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q2]]
+
+![[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a#^q2]]
+
 ## ② 出现在这些集
 
-*79 集*
+*80 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -259,14 +264,15 @@ unlisted: true
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]] — 作为被讨论公司
+- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
+[[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":384,"ChatGPT":88,"Anthropic":161,"OpenAI":149,"Codex":70,"MCP":69,"Lenny":68,"Google":54,"沙箱":68,"Claude Code":90}</script>
+<script type="application/json" class="pd-epn">{"智能体":385,"ChatGPT":88,"Anthropic":162,"Codex":72,"OpenAI":149,"MCP":69,"Lenny":68,"Google":54,"沙箱":69,"Claude Code":92}</script>
 
 <script>
 (function(){

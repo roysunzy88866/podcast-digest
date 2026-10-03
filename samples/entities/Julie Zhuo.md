@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":384,"构建者":4,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":88,"Cursor":75,"OpenAI":149}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":385,"构建者":4,"可观测性":35,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":88,"Cursor":76,"OpenAI":149}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":384,"pull request":3,"代码审查":22,"沙箱":68,"Codex":70,"Devin":4,"Claude":79,"Cursor":75,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":385,"pull request":4,"代码审查":22,"沙箱":69,"Codex":72,"Devin":4,"Claude":80,"Cursor":76,"vibe coding":43}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]]
+[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":26,"NEO":1,"Cotool":1,"智能体":384,"护栏":70,"签名":1,"行为检测":1,"推理":67}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":26,"NEO":1,"Cotool":1,"智能体":385,"护栏":70,"签名":1,"行为检测":1,"推理":67}</script>
 
 <script>
 (function(){

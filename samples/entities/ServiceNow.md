@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ServiceNow</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ServiceNow">SE</div><div class="pi"><h1 class="pt">ServiceNow</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ServiceNow">SE</div><div class="pi"><h1 class="pt">ServiceNow</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(26:11起):本集提到同日 ServiceNow 股价下跌 8%，作为企业软件公司受预算转移冲击的例子
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(28:20起):本集提到与 ServiceNow CEO 的对话，讨论上市公司在市场压力下如何在未来赌注与维持核心业务之间分配资源
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(24:47起):本集把它当作现有大公司在 AI 变现上的好例子:报告了超过 10 亿美元的 AI ACV,智能体部署增长 9 倍
+- **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(03:12起):本集说 Eric 在加入 Traversal 前在 ServiceNow 做可观测性产品好几年，并从客户那里反复听到「你告诉我什么坏了，却没告诉我为什么、该怎么办」；Traversal 也能往 ServiceNow 工单发更新。
 
 ## ① 提到它的金句
 
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为被讨论公司(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
+- [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[SaaS]] · [[微调]] · [[Anthropic]] · [[OpenAI]] · [[Chris Benson]] · [[Elaina O'Mahoney]] · [[David George]] · [[Daniel Whitenack]] · [[Mural]]
+[[智能体]] · [[Anthropic]] · [[SaaS]] · [[微调]] · [[OpenAI]] · [[Claude Code]] · [[Chris Benson]] · [[Elaina O'Mahoney]] · [[David George]] · [[Eric Schwartz]]
 
-<script type="application/json" class="pd-epn">{"智能体":384,"SaaS":20,"微调":28,"Anthropic":161,"OpenAI":149,"Chris Benson":10,"Elaina O'Mahoney":1,"David George":5,"Daniel Whitenack":9,"Mural":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":385,"Anthropic":162,"SaaS":20,"微调":28,"OpenAI":149,"Claude Code":92,"Chris Benson":10,"Elaina O'Mahoney":1,"David George":5,"Eric Schwartz":1}</script>
 
 <script>
 (function(){

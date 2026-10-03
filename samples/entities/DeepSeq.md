@@ -27,7 +27,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Theo Jaffe]] · [[Thomas Sohmers]] · [[Ben Horowitz]] · [[Harry Stebbings]] · [[Sofia Puccini]] · [[Positron]] · [[Andreessen Horowitz]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":50,"Anthropic":161,"OpenAI":149,"Theo Jaffe":7,"Thomas Sohmers":1,"Ben Horowitz":6,"Harry Stebbings":19,"Sofia Puccini":4,"Positron":1,"Andreessen Horowitz":2}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":50,"Anthropic":162,"OpenAI":149,"Theo Jaffe":7,"Thomas Sohmers":1,"Ben Horowitz":6,"Harry Stebbings":19,"Sofia Puccini":4,"Positron":1,"Andreessen Horowitz":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1378 @@
+[
+ {
+  "seg": 0,
+  "start": 12.646,
+  "end": 13.186,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.167,
+  "end": 15.027,
+  "speaker": "Unknown",
+  "en": "I hope you had a good lunch.",
+  "zh": "希望大家午餐吃得不错。"
+ },
+ {
+  "seg": 2,
+  "start": 15.727,
+  "end": 18.188,
+  "speaker": "Unknown",
+  "en": "I know it's one of the last talks of the entire conference.",
+  "zh": "我知道这是整个大会最后几场演讲之一了。"
+ },
+ {
+  "seg": 3,
+  "start": 18.868,
+  "end": 21.429,
+  "speaker": "Unknown",
+  "en": "I tried to make it somewhat engaging and amusing.",
+  "zh": "我尽量让它有点趣味性和娱乐性。"
+ },
+ {
+  "seg": 4,
+  "start": 21.449,
+  "end": 26.531,
+  "speaker": "Unknown",
+  "en": "So, you know, audience participation is encouraged.",
+  "zh": "所以，你们知道的，欢迎观众参与互动。"
+ },
+ {
+  "seg": 5,
+  "start": 26.811,
+  "end": 27.371,
+  "speaker": "Unknown",
+  "en": "We'll see how it goes.",
+  "zh": "我们走着瞧吧。"
+ },
+ {
+  "seg": 6,
+  "start": 27.811,
+  "end": 29.312,
+  "speaker": "Unknown",
+  "en": "So, I'm here with Docker.",
+  "zh": "我来自 Docker。"
+ },
+ {
+  "seg": 7,
+  "start": 29.932,
+  "end": 33.053,
+  "speaker": "Unknown",
+  "en": "I'm one of our product managers that works on our new sandbox product.",
+  "zh": "我是负责我们新沙箱产品的产品经理之一。"
+ },
+ {
+  "seg": 8,
+  "start": 33.373,
+  "end": 34.293,
+  "speaker": "Unknown",
+  "en": "I don't know if you've seen it.",
+  "zh": "不知道你们有没有见过它。"
+ },
+ {
+  "seg": 9,
+  "start": 34.713,
+  "end": 36.274,
+  "speaker": "Unknown",
+  "en": "It's a new binary for Docker.",
+  "zh": "它是 Docker 的一个新二进制程序。"
+ },
+ {
+  "seg": 10,
+  "start": 36.314,
+  "end": 37.214,
+  "speaker": "Unknown",
+  "en": "It's called SBX.",
+  "zh": "它叫 SBX。"
+ },
+ {
+  "seg": 11,
+  "start": 37.875,
+  "end": 38.835,
+  "speaker": "Unknown",
+  "en": "It's a micro VM.",
+  "zh": "它是一个微型虚拟机。"
+ },
+ {
+  "seg": 12,
+  "start": 39.475,
+  "end": 40.175,
+  "speaker": "Unknown",
+  "en": "It's really cool.",
+  "zh": "它真的很酷。"
+ },
+ {
+  "seg": 13,
+  "start": 40.355,
+  "end": 41.276,
+  "speaker": "Unknown",
+  "en": "You should come check it out.",
+  "zh": "你们应该来看看。"
+ },
+ {
+  "seg": 14,
+  "start": 41.736,
+  "end": 51.559,
+  "speaker": "Unknown",
+  "en": "But I'm going to tell you why you might want to use it in context of agents doing governance and being safe in general for your agentic platforming needs.",
+  "zh": "但我要告诉你们的是，在智能体做治理以及保障你的智能体平台需求安全的大背景下，你为什么可能想用它。"
+ },
+ {
+  "seg": 15,
+  "start": 54.027,
+  "end": 59.455,
+  "speaker": "Unknown",
+  "en": "So right now all of you are doing way more AI than you ever thought you would five years ago.",
+  "zh": "所以现在，你们所有人做的 AI 的事，比五年前你们能想到的要多得多。"
+ },
+ {
+  "seg": 16,
+  "start": 59.475,
+  "end": 60.236,
+  "speaker": "Unknown",
+  "en": "At least I am.",
+  "zh": "至少我是这样。"
+ },
+ {
+  "seg": 17,
+  "start": 60.977,
+  "end": 68.669,
+  "speaker": "Unknown",
+  "en": "And we generally think that we're being protected by our coding harnesses because if we try to do something bad, they will sometimes stop us.",
+  "zh": "而我们通常认为我们受到了编码工具的保护，因为如果我们想做坏事，它们有时会阻止我们。"
+ },
+ {
+  "seg": 18,
+  "start": 69.89,
+  "end": 76.694,
+  "speaker": "Unknown",
+  "en": "And when we see stories, we think, oh my gosh, I would never make this mistake to have my AI drop my prod database.",
+  "zh": "当我们看到那些故事时，我们会想，天哪，我绝不会犯这种错，让我的 AI 删掉我的生产数据库。"
+ },
+ {
+  "seg": 19,
+  "start": 77.194,
+  "end": 79.215,
+  "speaker": "Unknown",
+  "en": "You know, I've been doing coding for 30 years.",
+  "zh": "你知道，我写代码已经 30 年了。"
+ },
+ {
+  "seg": 20,
+  "start": 79.235,
+  "end": 80.816,
+  "speaker": "Unknown",
+  "en": "There's no way I would possibly do that.",
+  "zh": "我不可能做出那种事。"
+ },
+ {
+  "seg": 21,
+  "start": 81.656,
+  "end": 87.939,
+  "speaker": "Unknown",
+  "en": "So what I decided to find out was, well, what happens if I actually try to hack myself?",
+  "zh": "所以我决定去弄清楚的是，如果我真的试着黑掉我自己，会发生什么？"
+ },
+ {
+  "seg": 22,
+  "start": 88.76,
+  "end": 94.243,
+  "speaker": "Unknown",
+  "en": "And how far can I get with, you know, our tools and what we've been told is a safe environment?",
+  "zh": "用我们的工具、用我们被告知是安全的环境，我能走多远？"
+ },
+ {
+  "seg": 23,
+  "start": 95.183,
+  "end": 104.628,
+  "speaker": "Unknown",
+  "en": "So I opened up my Claude code on desktop on my Mac, and I had it look for my browser history, and it found it right away, which I was very impressed about.",
+  "zh": "于是我在我的 Mac 桌面上打开了我的 Claude code，让它去找我的浏览器历史记录，它立刻就找到了，这让我印象非常深刻。"
+ },
+ {
+  "seg": 24,
+  "start": 105.668,
+  "end": 108.61,
+  "speaker": "Unknown",
+  "en": "And I asked it, what can I do with this?",
+  "zh": "我问它，这个能用来做什么？"
+ },
+ {
+  "seg": 25,
+  "start": 109.41,
+  "end": 114.253,
+  "speaker": "Unknown",
+  "en": "And so we started looking at my bank accounts, which I was surprised about.",
+  "zh": "于是我们开始查看我的银行账户，这让我很吃惊。"
+ },
+ {
+  "seg": 26,
+  "start": 115.553,
+  "end": 118.916,
+  "speaker": "Unknown",
+  "en": "And it found them, which I was very unhappy about.",
+  "zh": "它找到了，这让我非常不爽。"
+ },
+ {
+  "seg": 27,
+  "start": 118.956,
+  "end": 120.517,
+  "speaker": "Unknown",
+  "en": "I made fake bank names.",
+  "zh": "我用了假的银行名称。"
+ },
+ {
+  "seg": 28,
+  "start": 120.557,
+  "end": 121.978,
+  "speaker": "Unknown",
+  "en": "This is not my real data, just so you know.",
+  "zh": "提醒一下，这不是我的真实数据。"
+ },
+ {
+  "seg": 29,
+  "start": 121.998,
+  "end": 125.56,
+  "speaker": "Unknown",
+  "en": "But it did find all of my real bank data on there.",
+  "zh": "但它确实在上面找到了我所有真实的银行数据。"
+ },
+ {
+  "seg": 30,
+  "start": 125.58,
+  "end": 127.522,
+  "speaker": "Unknown",
+  "en": "And it went even further.",
+  "zh": "而且它走得更远。"
+ },
+ {
+  "seg": 31,
+  "start": 127.882,
+  "end": 131.324,
+  "speaker": "Unknown",
+  "en": "It found that I've been ordering checks recently, that I've been using Zelle.",
+  "zh": "它发现我最近一直在订购支票，还一直在用 Zelle。"
+ },
+ {
+  "seg": 32,
+  "start": 131.344,
+  "end": 134.387,
+  "speaker": "Unknown",
+  "en": "It told me the last four digits of the account I was using.",
+  "zh": "它告诉了我所用账户的后四位数字。"
+ },
+ {
+  "seg": 33,
+  "start": 134.407,
+  "end": 138.229,
+  "speaker": "Unknown",
+  "en": "I was very impressed.",
+  "zh": "我印象非常深刻。"
+ },
+ {
+  "seg": 34,
+  "start": 138.67,
+  "end": 141.431,
+  "speaker": "Unknown",
+  "en": "And here's kind of an idea of all the PII that it found.",
+  "zh": "这里大致展示了它找到的所有 PII(个人身份信息)。"
+ },
+ {
+  "seg": 35,
+  "start": 142.712,
+  "end": 148.114,
+  "speaker": "Unknown",
+  "en": "This is from, again, the Claude desktop app that we thought was safe.",
+  "zh": "再说一遍，这是来自我们本以为安全的 Claude 桌面应用。"
+ },
+ {
+  "seg": 36,
+  "start": 148.495,
+  "end": 151.136,
+  "speaker": "Unknown",
+  "en": "Anyways, maybe there's a better solution.",
+  "zh": "总之，也许有更好的解决方案。"
+ },
+ {
+  "seg": 37,
+  "start": 151.156,
+  "end": 151.496,
+  "speaker": "Unknown",
+  "en": "Who knows?",
+  "zh": "谁知道呢？"
+ },
+ {
+  "seg": 38,
+  "start": 152.596,
+  "end": 158.439,
+  "speaker": "Unknown",
+  "en": "So the next day I came in and I got from my security team a nice little notice that they thought I'd been hacked.",
+  "zh": "所以第二天我来到公司，收到了安全团队的一个小小的通知，他们以为我被黑了。"
+ },
+ {
+  "seg": 39,
+  "start": 159.159,
+  "end": 163.741,
+  "speaker": "Unknown",
+  "en": "And so I had to explain to them that, no, no, no, I'm just putting together a talk for this conference.",
+  "zh": "于是我不得不向他们解释，不不不，我只是在为这次大会准备一个演讲。"
+ },
+ {
+  "seg": 40,
+  "start": 164.401,
+  "end": 168.223,
+  "speaker": "Unknown",
+  "en": "And please, please don't flag me as a compromised computer.",
+  "zh": "拜托拜托，千万别把我标记为被入侵的电脑。"
+ },
+ {
+  "seg": 41,
+  "start": 169.403,
+  "end": 173.667,
+  "speaker": "Unknown",
+  "en": "And then they sent me the CrowdStrike report from this, which I asked them to do.",
+  "zh": "然后他们给我发来了由此产生的 CrowdStrike 报告，这是我让他们做的。"
+ },
+ {
+  "seg": 42,
+  "start": 174.708,
+  "end": 176.289,
+  "speaker": "Unknown",
+  "en": "And I was quite impressed with it.",
+  "zh": "我对它印象相当深刻。"
+ },
+ {
+  "seg": 43,
+  "start": 176.309,
+  "end": 180.233,
+  "speaker": "Unknown",
+  "en": "Apparently this is a known way to get credentials from a machine.",
+  "zh": "显然这是一种已知的从机器上获取凭证的方法。"
+ },
+ {
+  "seg": 44,
+  "start": 180.633,
+  "end": 181.334,
+  "speaker": "Unknown",
+  "en": "Didn't realize that.",
+  "zh": "我之前没意识到这点。"
+ },
+ {
+  "seg": 45,
+  "start": 182.095,
+  "end": 183.796,
+  "speaker": "Unknown",
+  "en": "And I had scored very well on this.",
+  "zh": "而我在这个报告里得分很高。"
+ },
+ {
+  "seg": 46,
+  "start": 183.816,
+  "end": 187.619,
+  "speaker": "Unknown",
+  "en": "I got a 9 out of 10, which is better than I did in most of my classes.",
+  "zh": "我拿到了 10 分中的 9 分，这比我大多数课程的成绩都好。"
+ },
+ {
+  "seg": 47,
+  "start": 187.82,
+  "end": 189.701,
+  "speaker": "Unknown",
+  "en": "So that was really good.",
+  "zh": "所以那真的很棒。"
+ },
+ {
+  "seg": 48,
+  "start": 191.176,
+  "end": 193.219,
+  "speaker": "Unknown",
+  "en": "But fortunately, this was just me internally.",
+  "zh": "不过幸运的是，这只是我自己内部的行为。"
+ },
+ {
+  "seg": 49,
+  "start": 193.259,
+  "end": 199.748,
+  "speaker": "Unknown",
+  "en": "It was not some sort of injection from a script or MCP server or anything that could easily happen.",
+  "zh": "它不是来自某个脚本或 MCP 服务器或任何类似东西的注入，而那种情况是很容易发生的。"
+ },
+ {
+  "seg": 50,
+  "start": 201.582,
+  "end": 203.824,
+  "speaker": "Unknown",
+  "en": "So five prompts is what it took.",
+  "zh": "所以只需要五个提示词。"
+ },
+ {
+  "seg": 51,
+  "start": 204.444,
+  "end": 205.565,
+  "speaker": "Unknown",
+  "en": "I had to be a little clever.",
+  "zh": "我得稍微动点脑筋。"
+ },
+ {
+  "seg": 52,
+  "start": 205.585,
+  "end": 213.011,
+  "speaker": "Unknown",
+  "en": "If you just ask straight up, like, hey, Claude, go find my bank data, it will give you a warning.",
+  "zh": "如果你直接问，比如，嘿，Claude，去找我的银行数据，它会给你一个警告。"
+ },
+ {
+  "seg": 53,
+  "start": 213.552,
+  "end": 221.238,
+  "speaker": "Unknown",
+  "en": "But if you say, I'm researching how to do security, it'll happily go and help you do that research on your account.",
+  "zh": "但如果你说，我在研究如何做安全，它就会很乐意地去帮你在你的账户上做那项研究。"
+ },
+ {
+  "seg": 54,
+  "start": 221.878,
+  "end": 222.919,
+  "speaker": "Unknown",
+  "en": "It's not your friend.",
+  "zh": "它不是你的朋友。"
+ },
+ {
+  "seg": 55,
+  "start": 225.308,
+  "end": 235.497,
+  "speaker": "Unknown",
+  "en": "So if only there was a better way to do this using a sandbox MicroVM technology that Docker and others have released recently.",
+  "zh": "所以，要是有一种更好的方法来做这件事就好了，使用 Docker 和其他公司最近发布的沙箱 MicroVM 技术。"
+ },
+ {
+  "seg": 56,
+  "start": 236.078,
+  "end": 243.244,
+  "speaker": "Unknown",
+  "en": "So rather than just saying please, which if you look in some of these Claude prompts you'll see, please don't do nefarious things, right?",
+  "zh": "所以与其只是说“请”，如果你看看这些 Claude 提示词中的某些部分，你会看到，“请不要做邪恶的事情”，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 243.284,
+  "end": 244.866,
+  "speaker": "Unknown",
+  "en": "Like that is the level of security we're at.",
+  "zh": "这就是我们目前所处的安全水平。"
+ },
+ {
+  "seg": 58,
+  "start": 245.546,
+  "end": 247.527,
+  "speaker": "Unknown",
+  "en": "So now we've got microVMs.",
+  "zh": "所以现在我们有了 microVM。"
+ },
+ {
+  "seg": 59,
+  "start": 247.567,
+  "end": 252.089,
+  "speaker": "Unknown",
+  "en": "If you're not aware of them compared to you, I know you're probably all aware of Docker, been using it for years.",
+  "zh": "如果你不了解它们，相比——我知道你们可能都知道 Docker，已经用了很多年了。"
+ },
+ {
+  "seg": 60,
+  "start": 253.47,
+  "end": 257.112,
+  "speaker": "Unknown",
+  "en": "The new thing now that we and others are doing is with microVMs.",
+  "zh": "现在我们和其他人正在做的新东西就是 microVM。"
+ },
+ {
+  "seg": 61,
+  "start": 257.132,
+  "end": 258.052,
+  "speaker": "Unknown",
+  "en": "They run their own kernel.",
+  "zh": "它们运行自己的内核。"
+ },
+ {
+  "seg": 62,
+  "start": 258.592,
+  "end": 260.153,
+  "speaker": "Unknown",
+  "en": "They isolate your file system.",
+  "zh": "它们隔离你的文件系统。"
+ },
+ {
+  "seg": 63,
+  "start": 260.734,
+  "end": 265.496,
+  "speaker": "Unknown",
+  "en": "We have a system that will go and make sure that the sandbox never actually sees your secrets.",
+  "zh": "我们有一套系统，会去确保沙箱永远不会真正看到你的密钥。"
+ },
+ {
+  "seg": 64,
+  "start": 266.096,
+  "end": 273.46,
+  "speaker": "Unknown",
+  "en": "When you try to go and do a network request, it takes a placeholder, replaces it so that your sandbox and your agent can't do bad things.",
+  "zh": "当你尝试发起网络请求时，它会取一个占位符并替换掉它，这样你的沙箱和你的智能体就不能做坏事。"
+ },
+ {
+  "seg": 65,
+  "start": 274.2,
+  "end": 276.941,
+  "speaker": "Unknown",
+  "en": "We've got a full audit trail for it.",
+  "zh": "我们为此有完整的审计追踪。"
+ },
+ {
+  "seg": 66,
+  "start": 277.202,
+  "end": 284.005,
+  "speaker": "Unknown",
+  "en": "So yeah, you want to be secure by design, not just hope and say please and see what's going to happen.",
+  "zh": "所以是的，你要做到设计即安全，而不只是抱着希望说“请”，然后看看会发生什么。"
+ },
+ {
+  "seg": 67,
+  "start": 287.263,
+  "end": 288.965,
+  "speaker": "Unknown",
+  "en": "We're trying to do this balancing act.",
+  "zh": "我们在尝试做这种平衡。"
+ },
+ {
+  "seg": 68,
+  "start": 289.225,
+  "end": 292.809,
+  "speaker": "Unknown",
+  "en": "If we can't actually do these things, the agent's not useful.",
+  "zh": "如果我们实际上不能做这些事情，智能体就没用了。"
+ },
+ {
+  "seg": 69,
+  "start": 293.67,
+  "end": 297.734,
+  "speaker": "Unknown",
+  "en": "So that's why this whole sandbox idea is so exciting for us.",
+  "zh": "所以这就是为什么整个沙箱的想法对我们来说如此令人兴奋。"
+ },
+ {
+  "seg": 70,
+  "start": 298.736,
+  "end": 299.817,
+  "speaker": "Unknown",
+  "en": "We encourage you to use it.",
+  "zh": "我们鼓励你们使用它。"
+ },
+ {
+  "seg": 71,
+  "start": 301.138,
+  "end": 304.902,
+  "speaker": "Unknown",
+  "en": "And maybe don't let your bank data get into the hands of your agent.",
+  "zh": "也许不要让你的银行数据落入你的智能体手中。"
+ },
+ {
+  "seg": 72,
+  "start": 305.903,
+  "end": 306.885,
+  "speaker": "Unknown",
+  "en": "That's not what you want.",
+  "zh": "那不是你想要的。"
+ },
+ {
+  "seg": 73,
+  "start": 308.718,
+  "end": 312.34,
+  "speaker": "Unknown",
+  "en": "So this is what it looks like in practice when you're running a sandbox.",
+  "zh": "这就是你在实际运行沙箱时看到的样子。"
+ },
+ {
+  "seg": 74,
+  "start": 312.5,
+  "end": 316.103,
+  "speaker": "Unknown",
+  "en": "On the left side is when I run Claude.",
+  "zh": "左边是我直接运行 Claude 的时候。"
+ },
+ {
+  "seg": 75,
+  "start": 316.963,
+  "end": 320.465,
+  "speaker": "Unknown",
+  "en": "And on the right side is when I do SBX run Claude.",
+  "zh": "右边是我运行 SBX run Claude 的时候。"
+ },
+ {
+  "seg": 76,
+  "start": 321.286,
+  "end": 324.248,
+  "speaker": "Unknown",
+  "en": "And you can see that there's a lot of differences.",
+  "zh": "你可以看到有很多差异。"
+ },
+ {
+  "seg": 77,
+  "start": 325.028,
+  "end": 325.569,
+  "speaker": "Unknown",
+  "en": "That's a joke.",
+  "zh": "那是个玩笑。"
+ },
+ {
+  "seg": 78,
+  "start": 325.589,
+  "end": 326.009,
+  "speaker": "Unknown",
+  "en": "Sorry, they're not.",
+  "zh": "抱歉，并没有。"
+ },
+ {
+  "seg": 79,
+  "start": 326.149,
+  "end": 328.691,
+  "speaker": "Unknown",
+  "en": "It's just the bypass permissions are on.",
+  "zh": "只是 bypass permissions 开着而已。"
+ },
+ {
+  "seg": 80,
+  "start": 329.191,
+  "end": 332.193,
+  "speaker": "Unknown",
+  "en": "But nothing else was hard to do, right?",
+  "zh": "但没有其他什么难做的事，对吧？"
+ },
+ {
+  "seg": 81,
+  "start": 332.773,
+  "end": 335.695,
+  "speaker": "Unknown",
+  "en": "Running that command on the right automatically creates a new VM.",
+  "zh": "在右边运行那个命令会自动创建一个新的 VM。 [[62→]] 它在那个文件夹里把它启动起来，并为你创建一个新沙箱。"
+ },
+ {
+  "seg": 82,
+  "start": 336.115,
+  "end": 340.318,
+  "speaker": "Unknown",
+  "en": "It spins it up in that folder, and it makes a new sandbox for you.",
+  "zh": "它在那个文件夹里把它启动起来，并为你创建一个新的沙箱。"
+ },
+ {
+  "seg": 83,
+  "start": 340.418,
+  "end": 341.678,
+  "speaker": "Unknown",
+  "en": "It runs your agent.",
+  "zh": "它运行你的智能体。"
+ },
+ {
+  "seg": 84,
+  "start": 342.259,
+  "end": 343.099,
+  "speaker": "Unknown",
+  "en": "Now you're up and running.",
+  "zh": "现在你已经启动并运行了。"
+ },
+ {
+  "seg": 85,
+  "start": 343.159,
+  "end": 343.96,
+  "speaker": "Unknown",
+  "en": "It can't see anything.",
+  "zh": "它什么都看不到。"
+ },
+ {
+  "seg": 86,
+  "start": 345.221,
+  "end": 352.305,
+  "speaker": "Unknown",
+  "en": "So if we try to do our browser history attack on regular Claude, it happily goes and finds your browser history.",
+  "zh": "所以，如果我们尝试在普通 Claude 上做我们的浏览器历史攻击，它会很乐意地去找到你的浏览器历史。"
+ },
+ {
+  "seg": 87,
+  "start": 354.736,
+  "end": 361.103,
+  "speaker": "Unknown",
+  "en": "But if I run it on the sandbox version, it does not even think there's a browser installed on your machine.",
+  "zh": "但如果我在沙箱版本上运行它，它甚至不会想到你的机器上装了浏览器。"
+ },
+ {
+  "seg": 88,
+  "start": 361.883,
+  "end": 363.105,
+  "speaker": "Unknown",
+  "en": "So pretty cool.",
+  "zh": "所以挺酷的。"
+ },
+ {
+  "seg": 89,
+  "start": 364.006,
+  "end": 364.706,
+  "speaker": "Unknown",
+  "en": "No difference.",
+  "zh": "没有区别。"
+ },
+ {
+  "seg": 90,
+  "start": 364.827,
+  "end": 368.37,
+  "speaker": "Unknown",
+  "en": "I had to type seven more keystrokes to get here.",
+  "zh": "我只是多按了七个按键才到这里。"
+ },
+ {
+  "seg": 91,
+  "start": 368.911,
+  "end": 371.934,
+  "speaker": "Unknown",
+  "en": "But I think it's well worth the price to pay.",
+  "zh": "但我认为这个代价是完全值得的。"
+ },
+ {
+  "seg": 92,
+  "start": 374.402,
+  "end": 377.183,
+  "speaker": "Unknown",
+  "en": "Same thing is true for network egress and ingress.",
+  "zh": "网络出站和入站也是同样的道理。"
+ },
+ {
+  "seg": 93,
+  "start": 377.823,
+  "end": 383.125,
+  "speaker": "Unknown",
+  "en": "So right here, I tried to get it to go and look up the pirate bay, because I knew that would be blocked.",
+  "zh": "就在这里，我试着让它去查找海盗湾，因为我知道那会被拦截。"
+ },
+ {
+  "seg": 94,
+  "start": 383.705,
+  "end": 386.326,
+  "speaker": "Unknown",
+  "en": "And sure enough, blocked by default.",
+  "zh": "果不其然，默认就被拦截了。"
+ },
+ {
+  "seg": 95,
+  "start": 386.746,
+  "end": 389.267,
+  "speaker": "Unknown",
+  "en": "The other thing you kind of see, it's hard, maybe it's hard to see, but like the",
+  "zh": "你还会注意到的另一件事，可能很难看清，但是那个——"
+ },
+ {
+  "seg": 96,
+  "start": 390.95,
+  "end": 395.272,
+  "speaker": "Unknown",
+  "en": "Claude likes to really send back a lot of telemetry data to their data dog instance.",
+  "zh": "Claude 非常喜欢向他们的 data dog 实例发回大量遥测数据。"
+ },
+ {
+  "seg": 97,
+  "start": 395.913,
+  "end": 404.637,
+  "speaker": "Unknown",
+  "en": "So if you're using Claude, you are sending Anthropic a lot of your data, unless you're using sandboxes, in which case you're cleverly being blocked by that.",
+  "zh": "所以如果你在使用 Claude，你就是在向 Anthropic 发送大量你的数据，除非你在使用沙箱，那样你就会被巧妙地拦截掉。"
+ },
+ {
+  "seg": 98,
+  "start": 405.818,
+  "end": 408.92,
+  "speaker": "Unknown",
+  "en": "The other thing I'll say about sandboxes, they're so easy to use.",
+  "zh": "关于沙箱我还要说的另一点是，它们非常容易使用。"
+ },
+ {
+  "seg": 99,
+  "start": 409.54,
+  "end": 413.066,
+  "speaker": "Unknown",
+  "en": "Every developer at Docker now writes all of their code in sandboxes.",
+  "zh": "现在 Docker 的每个开发者都在沙箱里写他们所有的代码。"
+ },
+ {
+  "seg": 100,
+  "start": 413.627,
+  "end": 415.049,
+  "speaker": "Unknown",
+  "en": "So we are using this every day.",
+  "zh": "所以我们每天都在用它。"
+ },
+ {
+  "seg": 101,
+  "start": 415.109,
+  "end": 416.351,
+  "speaker": "Unknown",
+  "en": "We're writing all of our code in it.",
+  "zh": "我们所有的代码都是在里面写的。"
+ },
+ {
+  "seg": 102,
+  "start": 416.832,
+  "end": 419.255,
+  "speaker": "Unknown",
+  "en": "If we don't use it, we get yelled at.",
+  "zh": "如果我们不用它，就会被骂。"
+ },
+ {
+  "seg": 103,
+  "start": 419.376,
+  "end": 421.539,
+  "speaker": "Unknown",
+  "en": "So it's worth our time to go and do that.",
+  "zh": "所以花时间去这么做是值得的。"
+ },
+ {
+  "seg": 104,
+  "start": 423.819,
+  "end": 424.859,
+  "speaker": "Unknown",
+  "en": "Little defaults on this.",
+  "zh": "这方面有一些小的默认设置。"
+ },
+ {
+  "seg": 105,
+  "start": 425.279,
+  "end": 427.22,
+  "speaker": "Unknown",
+  "en": "All of this is configurable.",
+  "zh": "所有这些都是可配置的。"
+ },
+ {
+  "seg": 106,
+  "start": 427.88,
+  "end": 430.4,
+  "speaker": "Unknown",
+  "en": "And so now that we've talked about why this matters, right?",
+  "zh": "那么既然我们已经谈过为什么这很重要了，对吧？"
+ },
+ {
+  "seg": 107,
+  "start": 430.961,
+  "end": 433.501,
+  "speaker": "Unknown",
+  "en": "So doing this at the hardest level doesn't really work.",
+  "zh": "在最外层做这件事其实不管用。"
+ },
+ {
+  "seg": 108,
+  "start": 433.701,
+  "end": 434.921,
+  "speaker": "Unknown",
+  "en": "Agents find their way around it.",
+  "zh": "智能体会找到绕过它的办法。"
+ },
+ {
+  "seg": 109,
+  "start": 435.421,
+  "end": 438.042,
+  "speaker": "Unknown",
+  "en": "If it gets down to your host machine, it's too late.",
+  "zh": "一旦到了你的宿主机上，就太晚了。"
+ },
+ {
+  "seg": 110,
+  "start": 438.582,
+  "end": 441.063,
+  "speaker": "Unknown",
+  "en": "So you want to be at that micro VM boundary.",
+  "zh": "所以你要在 micro VM 边界上做这件事。"
+ },
+ {
+  "seg": 111,
+  "start": 441.823,
+  "end": 442.923,
+  "speaker": "Unknown",
+  "en": "We think it's the best way.",
+  "zh": "我们认为这是最好的方式。"
+ },
+ {
+  "seg": 112,
+  "start": 443.763,
+  "end": 444.703,
+  "speaker": "Unknown",
+  "en": "Other people do, too.",
+  "zh": "其他人也这么认为。"
+ },
+ {
+  "seg": 113,
+  "start": 446.564,
+  "end": 447.244,
+  "speaker": "Unknown",
+  "en": "And it's easy to use.",
+  "zh": "而且它易于使用。"
+ },
+ {
+  "seg": 114,
+  "start": 449.877,
+  "end": 460.06,
+  "speaker": "Unknown",
+  "en": "If you're working in consulting, if you've got a chief security officer, if you do client work, whatever it might be, you're probably dealing with this on a day to day basis.",
+  "zh": "如果你在做咨询，如果你有一位首席安全官，如果你做客户项目，不管是什么情况，你可能每天都在处理这类问题。"
+ },
+ {
+  "seg": 115,
+  "start": 460.74,
+  "end": 468.142,
+  "speaker": "Unknown",
+  "en": "So not only do you want this to be useful, but also you want to do things and enable your agents to do different things, right?",
+  "zh": "所以你不仅希望这个东西有用，还希望用它做事，并让你的智能体去做各种不同的事情，对吧？"
+ },
+ {
+  "seg": 116,
+  "start": 468.782,
+  "end": 474.245,
+  "speaker": "Unknown",
+  "en": "So one of the things we're really excited about is doing agent-level identity tracking and delegation chains.",
+  "zh": "所以我们非常期待的事情之一就是做智能体级别的身份追踪和委托链。"
+ },
+ {
+  "seg": 117,
+  "start": 474.825,
+  "end": 478.447,
+  "speaker": "Unknown",
+  "en": "So when you can start saying, hey, how come this thing happened?",
+  "zh": "这样当你开始问，嘿，这件事是怎么发生的？"
+ },
+ {
+  "seg": 118,
+  "start": 478.547,
+  "end": 483.81,
+  "speaker": "Unknown",
+  "en": "And you can go back and say, oh, that's because an agent did it and a human actually authorized that agent to do it.",
+  "zh": "你可以回溯并说，哦，那是因为一个智能体做的，而实际上是一个人授权那个智能体去做这件事的。"
+ },
+ {
+  "seg": 119,
+  "start": 484.35,
+  "end": 486.291,
+  "speaker": "Unknown",
+  "en": "It didn't just happen by magic.",
+  "zh": "它不是凭空魔法般发生的。"
+ },
+ {
+  "seg": 120,
+  "start": 486.311,
+  "end": 488.171,
+  "speaker": "Unknown",
+  "en": "It's like we don't know what happened.",
+  "zh": "而不是像我们现在这样，不知道发生了什么。"
+ },
+ {
+  "seg": 121,
+  "start": 488.672,
+  "end": 503.777,
+  "speaker": "Unknown",
+  "en": "Now we're going to start tracing that, tell you about it, and let you write policy that actually goes and does degradation of what you can do based on cedar policies, based on new things happening.",
+  "zh": "现在我们要开始追踪这些，告诉你相关情况，并让你编写策略，基于 cedar 策略、基于新发生的事情，实际去执行对你所能做之事的降级。"
+ },
+ {
+  "seg": 122,
+  "start": 504.617,
+  "end": 506.901,
+  "speaker": "Unknown",
+  "en": "And you might say to yourself, oh my gosh, this is so good.",
+  "zh": "你可能会对自己说，哦天哪，这太棒了。"
+ },
+ {
+  "seg": 123,
+  "start": 507.321,
+  "end": 510.626,
+  "speaker": "Unknown",
+  "en": "I would like to buy it now.",
+  "zh": "我现在就想买。"
+ },
+ {
+  "seg": 124,
+  "start": 510.766,
+  "end": 512.048,
+  "speaker": "Unknown",
+  "en": "How do I buy this from you guys?",
+  "zh": "我该怎么从你们这里买这个？"
+ },
+ {
+  "seg": 125,
+  "start": 512.589,
+  "end": 520.179,
+  "speaker": "Unknown",
+  "en": "And so I have my marketing slide that my marketing team is really mad at me that I made this, but I think it's funny and cute for AI governance.",
+  "zh": "这里有我的营销幻灯片，我的营销团队对我做了这个非常生气，但我觉得对 AI 治理来说它挺有趣挺可爱的。"
+ },
+ {
+  "seg": 126,
+  "start": 520.68,
+  "end": 522.22,
+  "speaker": "Unknown",
+  "en": "So definitely talk about that.",
+  "zh": "所以一定要来聊聊这个。"
+ },
+ {
+  "seg": 127,
+  "start": 523.161,
+  "end": 525.701,
+  "speaker": "Unknown",
+  "en": "OK, what does AI governance look like?",
+  "zh": "好，AI 治理是什么样的？"
+ },
+ {
+  "seg": 128,
+  "start": 525.721,
+  "end": 529.042,
+  "speaker": "Unknown",
+  "en": "This is what it looks like in kind of a mock-up.",
+  "zh": "这大概就是一个原型的样子。"
+ },
+ {
+  "seg": 129,
+  "start": 529.522,
+  "end": 531.362,
+  "speaker": "Unknown",
+  "en": "So right now, we do network.",
+  "zh": "目前，我们做的是网络。"
+ },
+ {
+  "seg": 130,
+  "start": 531.382,
+  "end": 532.923,
+  "speaker": "Unknown",
+  "en": "You can set allow, deny.",
+  "zh": "你可以设置允许、拒绝。"
+ },
+ {
+  "seg": 131,
+  "start": 533.323,
+  "end": 536.223,
+  "speaker": "Unknown",
+  "en": "You can do file system points.",
+  "zh": "你可以做文件系统挂载点。"
+ },
+ {
+  "seg": 132,
+  "start": 536.643,
+  "end": 539.604,
+  "speaker": "Unknown",
+  "en": "And you can also decide what your MCP catalog looks like.",
+  "zh": "你还可以决定你的 MCP 目录是什么样的。"
+ },
+ {
+  "seg": 133,
+  "start": 540.804,
+  "end": 546.505,
+  "speaker": "Unknown",
+  "en": "Also, if you're running our MCP server, our MCP servers themselves run on a sandbox.",
+  "zh": "另外，如果你在运行我们的 MCP 服务器，我们的 MCP 服务器本身就是运行在一个沙箱里的。"
+ },
+ {
+  "seg": 134,
+  "start": 546.965,
+  "end": 549.646,
+  "speaker": "Unknown",
+  "en": "So they are also governed by all of these different controls.",
+  "zh": "所以它们同样受所有这些不同控制的约束。"
+ },
+ {
+  "seg": 135,
+  "start": 551.333,
+  "end": 553.273,
+  "speaker": "Unknown",
+  "en": "In the future, we're going to be adding more stuff.",
+  "zh": "将来，我们会增加更多东西。"
+ },
+ {
+  "seg": 136,
+  "start": 553.934,
+  "end": 560.075,
+  "speaker": "Unknown",
+  "en": "One of the things we've heard from a lot of people at this conference is that they want to do L7 networking controls.",
+  "zh": "在这次大会上我们从很多人那里听到的需求之一，就是他们想做 L7 网络控制。"
+ },
+ {
+  "seg": 137,
+  "start": 560.095,
+  "end": 567.717,
+  "speaker": "Unknown",
+  "en": "They want to do per GitHub repo file system level controls.",
+  "zh": "他们想做按 GitHub 仓库的文件系统级控制。"
+ },
+ {
+  "seg": 138,
+  "start": 567.757,
+  "end": 573.438,
+  "speaker": "Unknown",
+  "en": "You want your agent to be able to read and write to some repos and some areas of some repos, but not others.",
+  "zh": "你希望你的智能体能够读写某些仓库和某些仓库的某些区域，但不能读写其他的。"
+ },
+ {
+  "seg": 139,
+  "start": 574.319,
+  "end": 583.358,
+  "speaker": "Unknown",
+  "en": "So all of this is going to be coming down the line, but everything that I've showed you today is working, and you should come by our booth and see that.",
+  "zh": "所以所有这些都会陆续推出，但我今天展示的所有东西都是可以运行的，你应该到我们的展位来看看。"
+ },
+ {
+  "seg": 140,
+  "start": 586.43,
+  "end": 587.33,
+  "speaker": "Unknown",
+  "en": "It's easy to install.",
+  "zh": "它安装很简单。"
+ },
+ {
+  "seg": 141,
+  "start": 587.791,
+  "end": 593.153,
+  "speaker": "Unknown",
+  "en": "We run on Mac, Windows, and Linux based on your package manager of choice.",
+  "zh": "我们可以运行在 Mac、Windows 和 Linux 上，基于你选择的包管理器。"
+ },
+ {
+  "seg": 142,
+  "start": 594.714,
+  "end": 598.695,
+  "speaker": "Unknown",
+  "en": "And you can see at the end, it's just SBX run Claude.",
+  "zh": "你可以在最后看到，就是 SBX run Claude。"
+ },
+ {
+  "seg": 143,
+  "start": 598.715,
+  "end": 599.796,
+  "speaker": "Unknown",
+  "en": "It's not just Claude, by the way.",
+  "zh": "顺便说一句，它不只是 Claude。"
+ },
+ {
+  "seg": 144,
+  "start": 600.496,
+  "end": 602.617,
+  "speaker": "Unknown",
+  "en": "The sandboxes are a full VM.",
+  "zh": "这些沙箱是完整的 VM。"
+ },
+ {
+  "seg": 145,
+  "start": 602.817,
+  "end": 604.518,
+  "speaker": "Unknown",
+  "en": "So you can run a shell.",
+  "zh": "所以你可以运行一个 shell。"
+ },
+ {
+  "seg": 146,
+  "start": 604.718,
+  "end": 605.658,
+  "speaker": "Unknown",
+  "en": "You can run codex.",
+  "zh": "你可以运行 codex。"
+ },
+ {
+  "seg": 147,
+  "start": 605.678,
+  "end": 607.019,
+  "speaker": "Unknown",
+  "en": "You can run whatever.",
+  "zh": "你可以运行任何东西。"
+ },
+ {
+  "seg": 148,
+  "start": 607.079,
+  "end": 608.26,
+  "speaker": "Unknown",
+  "en": "You can run a Python job.",
+  "zh": "你可以运行一个 Python 作业。"
+ },
+ {
+  "seg": 149,
+  "start": 608.28,
+  "end": 608.86,
+  "speaker": "Unknown",
+  "en": "You can run...",
+  "zh": "你可以运行……"
+ },
+ {
+  "seg": 150,
+  "start": 609.44,
+  "end": 611.101,
+  "speaker": "Unknown",
+  "en": "A web server, anything you want to do.",
+  "zh": "一个 web 服务器,任何你想做的事。"
+ },
+ {
+  "seg": 151,
+  "start": 611.641,
+  "end": 614.303,
+  "speaker": "Unknown",
+  "en": "But we want to make it easy for you to get in and up and running.",
+  "zh": "但我们想让你能轻松上手并快速跑起来。"
+ },
+ {
+  "seg": 152,
+  "start": 614.703,
+  "end": 615.944,
+  "speaker": "Unknown",
+  "en": "So this is kind of our default.",
+  "zh": "所以这算是我们的默认设置。"
+ },
+ {
+  "seg": 153,
+  "start": 615.964,
+  "end": 616.765,
+  "speaker": "Unknown",
+  "en": "So you can just get in.",
+  "zh": "这样你就可以直接进入。"
+ },
+ {
+  "seg": 154,
+  "start": 616.785,
+  "end": 621.067,
+  "speaker": "Unknown",
+  "en": "You can get that Claude Code or Codex instance going.",
+  "zh": "你可以让那个 Claude Code 或 Codex 实例跑起来。"
+ },
+ {
+  "seg": 155,
+  "start": 621.348,
+  "end": 622.288,
+  "speaker": "Unknown",
+  "en": "It feels native.",
+  "zh": "它感觉很原生。"
+ },
+ {
+  "seg": 156,
+  "start": 622.909,
+  "end": 625.57,
+  "speaker": "Unknown",
+  "en": "It works just the same way as your one did today.",
+  "zh": "它的工作方式和你今天用的那个完全一样。"
+ },
+ {
+  "seg": 157,
+  "start": 626.171,
+  "end": 627.992,
+  "speaker": "Unknown",
+  "en": "But you've got all these projections in store.",
+  "zh": "但你还有所有这些投影等着去看。"
+ },
+ {
+  "seg": 158,
+  "start": 629.032,
+  "end": 631.373,
+  "speaker": "Unknown",
+  "en": "Additionally, you can mount other file systems.",
+  "zh": "此外,你还可以挂载其他文件系统。"
+ },
+ {
+  "seg": 159,
+  "start": 631.393,
+  "end": 639.077,
+  "speaker": "Unknown",
+  "en": "So what I do is when I'm working on a piece of code with related repositories, I'll mount those read-only.",
+  "zh": "所以我做的事是,当我在处理一段代码并涉及相关代码仓库时,我会把它们以只读方式挂载。"
+ },
+ {
+  "seg": 160,
+  "start": 639.497,
+  "end": 641.238,
+  "speaker": "Unknown",
+  "en": "That way, my agent can see what I'm doing.",
+  "zh": "这样,我的智能体就能看到我在做什么。"
+ },
+ {
+  "seg": 161,
+  "start": 641.658,
+  "end": 642.918,
+  "speaker": "Unknown",
+  "en": "It can see my other code base.",
+  "zh": "它能看到我其他的代码库。"
+ },
+ {
+  "seg": 162,
+  "start": 642.958,
+  "end": 648.481,
+  "speaker": "Unknown",
+  "en": "But I know it's not going to make random commits to other repos just to make my thing work.",
+  "zh": "但我知道它不会为了让自己的东西跑通就对其他代码仓库做随意的提交。"
+ },
+ {
+  "seg": 163,
+  "start": 648.841,
+  "end": 653.403,
+  "speaker": "Unknown",
+  "en": "I want the guarantee that it's actually doing what it says it's doing with the API that I've specified.",
+  "zh": "我想要一个保证:它确实是在用它所说的、用我指定的 API 在做它说的事。"
+ },
+ {
+  "seg": 164,
+  "start": 657.352,
+  "end": 657.732,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就这样。"
+ },
+ {
+  "seg": 165,
+  "start": 658.033,
+  "end": 658.633,
+  "speaker": "Unknown",
+  "en": "Pretty short.",
+  "zh": "相当简短。"
+ },
+ {
+  "seg": 166,
+  "start": 659.314,
+  "end": 659.995,
+  "speaker": "Unknown",
+  "en": "We have a booth.",
+  "zh": "我们有一个展位。"
+ },
+ {
+  "seg": 167,
+  "start": 660.576,
+  "end": 663.639,
+  "speaker": "Unknown",
+  "en": "We have a few sunglasses left and some power banks to give away.",
+  "zh": "我们还剩几副太阳镜和一些充电宝要送出去。"
+ },
+ {
+  "seg": 168,
+  "start": 664.22,
+  "end": 673.57,
+  "speaker": "Unknown",
+  "en": "You should come by our booth and I'll walk over there afterwards and give you the demo and then you can look as good as Macho Man Randy Savage with those glasses.",
+  "zh": "你应该来我们展位,之后我会走过去给你做演示,然后你戴上那些眼镜就能看起来和 Macho Man Randy Savage 一样酷。"
+ },
+ {
+  "seg": 169,
+  "start": 674.311,
+  "end": 675.412,
+  "speaker": "Unknown",
+  "en": "So there you go.",
+  "zh": "就是这些。"
+ },
+ {
+  "seg": 170,
+  "start": 675.492,
+  "end": 675.793,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 171,
+  "start": 685.038,
+  "end": 685.379,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

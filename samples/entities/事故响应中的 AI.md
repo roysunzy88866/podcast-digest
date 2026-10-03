@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>事故响应中的 AI (root cause analysis)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="事故响应中的 AI">事故</div><div class="pi"><h1 class="pt">事故响应中的 AI (root cause analysis)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="事故响应中的 AI">事故</div><div class="pi"><h1 class="pt">事故响应中的 AI (root cause analysis)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(27:11起):本集讨论 AI 智能体在事故中自动根因分析、提出并审查修复方案能走多远：当且仅当有可用的自动回滚、特性开关、可观测性；且人类必须亲自检查查询输出、内化故障怎么发生。
+- **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(05:52起):本集核心概念：根因分析不是一个可观测性问题，而是一个因果问题——结账 API 挂了，根因可能在五到十跳之外、埋在几十个服务和 PB 级数据里。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q3]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
+- [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[Liz Fong-Jones]] · [[Honeycomb]] · [[Google]] · [[Shopify]] · [[Autobot]] · [[Anthropic]] · [[Claude]] · [[代码审查]] · [[股权占比]]
+[[Anthropic]] · [[可观测性]] · [[SRE]] · [[Simon Maple]] · [[Eric Schwartz]] · [[Liz Fong-Jones]] · [[Traversal]] · [[Honeycomb]] · [[ServiceNow]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Liz Fong-Jones":1,"Honeycomb":2,"Google":54,"Shopify":16,"Autobot":1,"Anthropic":161,"Claude":79,"代码审查":22,"股权占比":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":162,"可观测性":35,"SRE":3,"Simon Maple":10,"Eric Schwartz":1,"Liz Fong-Jones":1,"Traversal":2,"Honeycomb":2,"ServiceNow":4,"Google":54}</script>
 
 <script>
 (function(){

@@ -22,7 +22,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[NVIDIA]] · [[推理]] · [[Ben Thompson]] · [[Neil Movva]] · [[聚合理论]] · [[SAIL Research]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":161,"TSMC":7,"NVIDIA":50,"推理":67,"Ben Thompson":1,"Neil Movva":1,"聚合理论":1,"SAIL Research":1,"Google":54}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":162,"TSMC":7,"NVIDIA":50,"推理":67,"Ben Thompson":1,"Neil Movva":1,"聚合理论":1,"SAIL Research":1,"Google":54}</script>
 
 <script>
 (function(){

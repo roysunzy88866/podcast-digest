@@ -1,0 +1,1346 @@
+[
+ {
+  "seg": 0,
+  "start": 12.609,
+  "end": 13.269,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.43,
+  "end": 15.151,
+  "speaker": "Unknown",
+  "en": "My name's Eric.",
+  "zh": "我叫 Eric。"
+ },
+ {
+  "seg": 2,
+  "start": 15.371,
+  "end": 17.012,
+  "speaker": "Unknown",
+  "en": "I'm a product manager at Traversal.",
+  "zh": "我是 Traversal 的产品经理。"
+ },
+ {
+  "seg": 3,
+  "start": 17.872,
+  "end": 20.534,
+  "speaker": "Unknown",
+  "en": "And today we're going to talk about self-driving production.",
+  "zh": "今天我们要聊的是自动驾驶式生产(self-driving production)。"
+ },
+ {
+  "seg": 4,
+  "start": 21.174,
+  "end": 23.676,
+  "speaker": "Unknown",
+  "en": "So just a quick primer on what I'll cover.",
+  "zh": "简单预告一下我要讲的内容。"
+ },
+ {
+  "seg": 5,
+  "start": 24.436,
+  "end": 29.66,
+  "speaker": "Unknown",
+  "en": "I'm going to talk a little bit about how AI agents are changing the software development lifecycle.",
+  "zh": "我会先讲一点 AI 智能体如何改变软件开发生命周期。"
+ },
+ {
+  "seg": 6,
+  "start": 31,
+  "end": 40.127,
+  "speaker": "Unknown",
+  "en": "The problems that that introduces for engineers and how AI for site reliability engineering fits in, which is where Traversal comes into play.",
+  "zh": "这给工程师带来的问题，以及 AI 在站点可靠性工程(SRE)中的定位，这正是 Traversal 发挥作用的地方。"
+ },
+ {
+  "seg": 7,
+  "start": 40.687,
+  "end": 56.299,
+  "speaker": "Unknown",
+  "en": "And then I'll talk about a few examples of what this looks like in practice for enterprises that we work with at Traversal and a bit about how we built our AISRE to deliver the results that we're seeing with Fortune 500 companies.",
+  "zh": "然后我会讲几个例子，说明这对我们在 Traversal 合作的企业来说在实践中是什么样子，再讲一点我们如何构建我们的 AI SRE,以便在我们服务的财富 500 强公司身上交付我们所看到的结果。"
+ },
+ {
+  "seg": 8,
+  "start": 58.259,
+  "end": 65.827,
+  "speaker": "Unknown",
+  "en": "So I guess to start, some quick context on kind of the different phases of software engineering.",
+  "zh": "那么，先从软件工程不同阶段的一些背景讲起。"
+ },
+ {
+  "seg": 9,
+  "start": 66.728,
+  "end": 71.954,
+  "speaker": "Unknown",
+  "en": "So I'm sure you're all familiar, but at a high level, you could think about software engineering as kind of three buckets.",
+  "zh": "我相信大家都很熟悉，但从高层面来看，你可以把软件工程分成三个部分。"
+ },
+ {
+  "seg": 10,
+  "start": 72.495,
+  "end": 75.238,
+  "speaker": "Unknown",
+  "en": "There's system design, like what is it that I want to build?",
+  "zh": "一是系统设计，比如我想构建什么？"
+ },
+ {
+  "seg": 11,
+  "start": 75.278,
+  "end": 76.799,
+  "speaker": "Unknown",
+  "en": "What's the architecture that I want to build?",
+  "zh": "我想构建什么样的架构？"
+ },
+ {
+  "seg": 12,
+  "start": 77.5,
+  "end": 80.947,
+  "speaker": "Unknown",
+  "en": "There's development, which is actually writing the code, building the thing.",
+  "zh": "二是开发，也就是真正写代码，把东西构建出来。"
+ },
+ {
+  "seg": 13,
+  "start": 81.568,
+  "end": 82.59,
+  "speaker": "Unknown",
+  "en": "And then there's troubleshooting.",
+  "zh": "然后是故障排查(troubleshooting)。"
+ },
+ {
+  "seg": 14,
+  "start": 82.79,
+  "end": 88.501,
+  "speaker": "Unknown",
+  "en": "So once you build something and it's interacting with the real world, it starts to break and you need to fix it.",
+  "zh": "一旦你构建了某个东西，它开始与真实世界交互，它就会开始出问题，你需要修复它。"
+ },
+ {
+  "seg": 15,
+  "start": 89.41,
+  "end": 94.671,
+  "speaker": "Unknown",
+  "en": "And so with the advent of coding agents, the development portion has shrunk.",
+  "zh": "随着编码智能体的出现，开发部分被压缩了。"
+ },
+ {
+  "seg": 16,
+  "start": 94.811,
+  "end": 96.072,
+  "speaker": "Unknown",
+  "en": "Development is a lot faster.",
+  "zh": "开发快了很多。"
+ },
+ {
+  "seg": 17,
+  "start": 96.592,
+  "end": 102.213,
+  "speaker": "Unknown",
+  "en": "Folks like me without any formal computer science training can now contribute production code.",
+  "zh": "像我这样没有任何正规计算机科学训练的人，现在也能贡献生产代码。"
+ },
+ {
+  "seg": 18,
+  "start": 102.793,
+  "end": 103.654,
+  "speaker": "Unknown",
+  "en": "And so this is great.",
+  "zh": "这很棒。"
+ },
+ {
+  "seg": 19,
+  "start": 103.974,
+  "end": 105.134,
+  "speaker": "Unknown",
+  "en": "Development's a lot faster.",
+  "zh": "开发快了很多。"
+ },
+ {
+  "seg": 20,
+  "start": 105.594,
+  "end": 107.134,
+  "speaker": "Unknown",
+  "en": "Teams can do 10x more.",
+  "zh": "团队能做的事多了 10 倍。"
+ },
+ {
+  "seg": 21,
+  "start": 107.755,
+  "end": 109.855,
+  "speaker": "Unknown",
+  "en": "But then what happens to either end of the spectrum?",
+  "zh": "但频谱的两端会发生什么？"
+ },
+ {
+  "seg": 22,
+  "start": 109.915,
+  "end": 113.096,
+  "speaker": "Unknown",
+  "en": "What happens to system design and what happens to troubleshooting?",
+  "zh": "系统设计会怎样，故障排查又会怎样？"
+ },
+ {
+  "seg": 23,
+  "start": 114.065,
+  "end": 119.934,
+  "speaker": "Unknown",
+  "en": "The hope is that you spend more time on the design part thinking creatively about what it is that you want to build.",
+  "zh": "理想情况是，你把更多时间花在设计上，创造性地思考你想构建什么。"
+ },
+ {
+  "seg": 24,
+  "start": 120.795,
+  "end": 127.865,
+  "speaker": "Unknown",
+  "en": "But what we actually see with the enterprises that we work with is that more and more time is being spent on troubleshooting.",
+  "zh": "但我们在合作企业中实际看到的是，越来越多时间花在了故障排查上。"
+ },
+ {
+  "seg": 25,
+  "start": 129.487,
+  "end": 130.807,
+  "speaker": "Unknown",
+  "en": "Much more code is being written.",
+  "zh": "写出的代码多得多。"
+ },
+ {
+  "seg": 26,
+  "start": 131.108,
+  "end": 134.009,
+  "speaker": "Unknown",
+  "en": "People have less understanding of the code that's being pushed into production.",
+  "zh": "人们对被推入生产的代码的理解却更少了。"
+ },
+ {
+  "seg": 27,
+  "start": 134.489,
+  "end": 139.69,
+  "speaker": "Unknown",
+  "en": "And so what you end up with is more issues, more complex environments.",
+  "zh": "于是你最终得到的是更多的问题、更复杂的环境。"
+ },
+ {
+  "seg": 28,
+  "start": 140.511,
+  "end": 147.573,
+  "speaker": "Unknown",
+  "en": "And instead of spending all your time on the creative architecture and design, your teams are bogged down on troubleshooting.",
+  "zh": "团队没有把所有时间花在创造性的架构和设计上，而是被故障排查拖住了。"
+ },
+ {
+  "seg": 29,
+  "start": 149.768,
+  "end": 152.409,
+  "speaker": "Unknown",
+  "en": "And the data kind of bears this out.",
+  "zh": "数据也大致印证了这一点。"
+ },
+ {
+  "seg": 30,
+  "start": 152.449,
+  "end": 153.43,
+  "speaker": "Unknown",
+  "en": "This is a big problem.",
+  "zh": "这是一个大问题。"
+ },
+ {
+  "seg": 31,
+  "start": 154.51,
+  "end": 158.312,
+  "speaker": "Unknown",
+  "en": "By some accounts, enterprises are spending upwards of $400 billion a year.",
+  "zh": "据某些统计，企业每年为此花费高达 4000 亿美元。"
+ },
+ {
+  "seg": 32,
+  "start": 159.372,
+  "end": 162.514,
+  "speaker": "Unknown",
+  "en": "40% of executives say that this is a problem that their teams face.",
+  "zh": "40% 的高管表示，这是他们的团队面临的问题。"
+ },
+ {
+  "seg": 33,
+  "start": 163.154,
+  "end": 169.317,
+  "speaker": "Unknown",
+  "en": "And on average, engineers are losing seven plus hours each week, just troubleshooting when they're on call.",
+  "zh": "平均而言，工程师每周在值守(on-call)时仅故障排查就要损失 7 个以上小时。"
+ },
+ {
+  "seg": 34,
+  "start": 171.27,
+  "end": 187.339,
+  "speaker": "Unknown",
+  "en": "And this is going to become an increasing issue that we'll all hear more about, that we'll all experience more over time, as tools like Claude Code and Codex and Cursor, which are fantastic, they are fantastic, but they result in more code and more complexity.",
+  "zh": "随着像 Claude Code、Codex 和 Cursor 这样的工具——它们非常出色，真的很出色——但它们会带来更多代码和更多复杂性，这个问题会越来越严重，我们都会更多地听到它，也会随时间推移更多地经历它。"
+ },
+ {
+  "seg": 35,
+  "start": 188.54,
+  "end": 189.901,
+  "speaker": "Unknown",
+  "en": "And so what are we supposed to do about it?",
+  "zh": "那么我们该怎么办？"
+ },
+ {
+  "seg": 36,
+  "start": 192.038,
+  "end": 200.365,
+  "speaker": "Unknown",
+  "en": "There are all kinds of great observability tools, tools like Datadog, Elastic, Splunk, ServiceNow, where I worked for several years before joining Traversal.",
+  "zh": "有各种出色的可观测性工具，比如 Datadog、Elastic、Splunk、ServiceNow——我在加入 Traversal 之前在 ServiceNow 工作了好几年。"
+ },
+ {
+  "seg": 37,
+  "start": 201.806,
+  "end": 205.449,
+  "speaker": "Unknown",
+  "en": "These are great, but there's only so much that they can do.",
+  "zh": "这些工具很棒，但它们能做的也就这么多。"
+ },
+ {
+  "seg": 38,
+  "start": 206.109,
+  "end": 207.951,
+  "speaker": "Unknown",
+  "en": "These tools will tell you that something is broken.",
+  "zh": "这些工具会告诉你某个东西坏了。"
+ },
+ {
+  "seg": 39,
+  "start": 208.011,
+  "end": 209.652,
+  "speaker": "Unknown",
+  "en": "They'll point out all the things that are broken.",
+  "zh": "它们会指出所有坏掉的东西。"
+ },
+ {
+  "seg": 40,
+  "start": 210.753,
+  "end": 214.897,
+  "speaker": "Unknown",
+  "en": "They'll point out things that are maybe correlated, but they won't tell you the root cause of the issue.",
+  "zh": "它们会指出可能相关的东西，但它们不会告诉你问题的根本原因。"
+ },
+ {
+  "seg": 41,
+  "start": 215.617,
+  "end": 226.442,
+  "speaker": "Unknown",
+  "en": "And when I worked on observability products at ServiceNow, this was something I heard time and again from the customers that I served, which was like, you're telling me what's broken, you're not telling me why, and you're not telling me what to do about it.",
+  "zh": "当我在 ServiceNow 做可观测性产品时，这是我一次又一次从我服务的客户那里听到的，他们说：你在告诉我什么坏了，但你没告诉我为什么，也没告诉我该怎么处理。"
+ },
+ {
+  "seg": 42,
+  "start": 227.103,
+  "end": 237.428,
+  "speaker": "Unknown",
+  "en": "And so no matter how many dashboards you create in these tools, it's not really helping teams keep up with the pace of innovation and complexity that's being added to their environments.",
+  "zh": "所以无论你在这些工具里创建多少仪表盘，都无济于事，无法真正帮助团队跟上被加入其环境的创新和复杂性的步伐。"
+ },
+ {
+  "seg": 43,
+  "start": 239.937,
+  "end": 242.479,
+  "speaker": "Unknown",
+  "en": "And this is not just something we believe at Traversal.",
+  "zh": "这不只是我们 Traversal 的看法。"
+ },
+ {
+  "seg": 44,
+  "start": 242.499,
+  "end": 243.919,
+  "speaker": "Unknown",
+  "en": "This is kind of a widely held view.",
+  "zh": "这差不多是一个被普遍持有的观点。"
+ },
+ {
+  "seg": 45,
+  "start": 245.58,
+  "end": 253.505,
+  "speaker": "Unknown",
+  "en": "Google, who kind of wrote the SRE handbook, like the Bible of site reliability engineering, has commented on this directly.",
+  "zh": "编写了 SRE 手册——即站点可靠性工程的“圣经”——的 Google，曾直接评论过这一点。"
+ },
+ {
+  "seg": 46,
+  "start": 253.645,
+  "end": 261.79,
+  "speaker": "Unknown",
+  "en": "And we also heard recently from Anthropic quotes where they described in their own words that LLMs are not great at this problem.",
+  "zh": "我们最近也听到了来自 Anthropic 的引述，他们用自己的话描述说，LLM 并不擅长这个问题。"
+ },
+ {
+  "seg": 47,
+  "start": 261.85,
+  "end": 265.212,
+  "speaker": "Unknown",
+  "en": "They're not great at pointing out what is the root cause of an issue.",
+  "zh": "它们不擅长指出问题的根本原因是什么。"
+ },
+ {
+  "seg": 48,
+  "start": 267.968,
+  "end": 269.589,
+  "speaker": "Unknown",
+  "en": "Now, why is this so hard?",
+  "zh": "那么，为什么这如此困难？"
+ },
+ {
+  "seg": 49,
+  "start": 269.809,
+  "end": 271.01,
+  "speaker": "Unknown",
+  "en": "What makes this so challenging?",
+  "zh": "是什么让这件事如此具有挑战性？"
+ },
+ {
+  "seg": 50,
+  "start": 272.591,
+  "end": 284.678,
+  "speaker": "Unknown",
+  "en": "In this particular example that we have on the screen, which was based on something we saw with one of our customers, if a checkout API is failing, you might need to make five to 10 hops across",
+  "zh": "在我们屏幕上展示的这个特定例子中,它基于我们在一个客户那里看到的情况,如果一个结账 API 出现故障,你可能需要跨越"
+ },
+ {
+  "seg": 51,
+  "start": 285.558,
+  "end": 289.483,
+  "speaker": "Unknown",
+  "en": "Like dozens of services and petabytes of data to actually get to the root cause.",
+  "zh": "几十个服务和 PB 级的数据,经过五到十跳,才能真正找到根本原因。"
+ },
+ {
+  "seg": 52,
+  "start": 290.123,
+  "end": 302.157,
+  "speaker": "Unknown",
+  "en": "And so in a very small contained environment, perhaps there's a single seasoned SRE at your company that knows the full stack and can debug everything and has all the tribal knowledge to sift through all your data.",
+  "zh": "所以在一个非常小的、封闭的环境里,也许你们公司有一位经验丰富的 SRE,他了解整个技术栈,能调试一切问题,并拥有筛选所有数据所需的全部隐性知识。"
+ },
+ {
+  "seg": 53,
+  "start": 302.818,
+  "end": 309.665,
+  "speaker": "Unknown",
+  "en": "But if you're a Fortune 50 enterprise or a Fortune 100 enterprise, there's no single engineer that has all of that context.",
+  "zh": "但如果你是一家财富 50 强或财富 100 强企业,就没有任何一位工程师拥有全部这些上下文。"
+ },
+ {
+  "seg": 54,
+  "start": 309.805,
+  "end": 322.419,
+  "speaker": "Unknown",
+  "en": "And so what you end up with is a war room with 50 engineers pulled in and many, many hours trying to debug this issue because everyone has their own particular slice of context.",
+  "zh": "于是最终的结果就是,一个作战室里拉进来 50 个工程师,花上无数个小时去调试这个问题,因为每个人只掌握自己那一小块上下文。"
+ },
+ {
+  "seg": 55,
+  "start": 322.939,
+  "end": 325.061,
+  "speaker": "Unknown",
+  "en": "No one has kind of the full scope and breadth of this.",
+  "zh": "没有人真正掌握这件事的全貌和广度。"
+ },
+ {
+  "seg": 56,
+  "start": 325.762,
+  "end": 342.752,
+  "speaker": "Unknown",
+  "en": "And so it's really challenging for a human or a human paired with Claude Code to get kind of the full spectrum of context needed to jump from a checkout API is failing over here, five hops away to the expired TLS certificate that maybe caused the issue.",
+  "zh": "因此,对于一个人、或者一个与 Claude Code 搭配的人来说,要获得完整的上下文光谱非常具有挑战性——从「这边的结账 API 挂了」跳到五跳之外那个可能引发问题的过期 TLS 证书。"
+ },
+ {
+  "seg": 57,
+  "start": 346.512,
+  "end": 352.077,
+  "speaker": "Unknown",
+  "en": "And so that's kind of what motivated our founders to launch Traversal.",
+  "zh": "而这正是促使我们的创始人创立 Traversal 的原因。"
+ },
+ {
+  "seg": 58,
+  "start": 352.598,
+  "end": 360.665,
+  "speaker": "Unknown",
+  "en": "Fundamentally, the belief that we have at Traversal is that root cause analysis is not an observability problem.",
+  "zh": "从根本上说,我们在 Traversal 的信念是:根因分析不是一个可观测性问题。"
+ },
+ {
+  "seg": 59,
+  "start": 360.745,
+  "end": 362.066,
+  "speaker": "Unknown",
+  "en": "It's a causal problem.",
+  "zh": "它是一个因果问题。"
+ },
+ {
+  "seg": 60,
+  "start": 362.667,
+  "end": 382.812,
+  "speaker": "Unknown",
+  "en": "And so that's why our four founders, three of them come from academia, one comes from QuantFinance, and they've dedicated decades of their lives towards causal machine learning, which is how do you find cause and effect, and have applied it to this problem, because it's a massive one that enterprises are really struggling with.",
+  "zh": "所以我们的四位创始人,其中三位来自学术界,一位来自量化金融(QuantFinance),他们把数十年的生命奉献给了因果机器学习——也就是如何发现因果关系——并将其应用到了这个问题上,因为这是一个企业界非常头疼的巨大问题。"
+ },
+ {
+  "seg": 61,
+  "start": 385.783,
+  "end": 390.249,
+  "speaker": "Unknown",
+  "en": "And so that kind of brings us to the topic of this talk, which is self-driving production.",
+  "zh": "这就引出了本次演讲的主题:自动驾驶的生产环境(self-driving production)。"
+ },
+ {
+  "seg": 62,
+  "start": 391.711,
+  "end": 399.34,
+  "speaker": "Unknown",
+  "en": "What we're building at Traversal is the ability for an enterprise to basically have a self-driving production environment.",
+  "zh": "我们在 Traversal 构建的,是让企业基本拥有一个自动驾驶的生产环境的能力。"
+ },
+ {
+  "seg": 63,
+  "start": 399.801,
+  "end": 402.164,
+  "speaker": "Unknown",
+  "en": "What that means is a closed-loop system where",
+  "zh": "这意味着一个闭环系统,其中"
+ },
+ {
+  "seg": 64,
+  "start": 404.31,
+  "end": 424.809,
+  "speaker": "Unknown",
+  "en": "As issues break, the AI system finds the issue or the incident or the alert, finds the root cause of what caused that issue in the first place, puts up a fix, verifies that it's been fixed, and the loop is closed, hopefully without ever having to page or disrupt any of your team members so that they can keep focusing on building.",
+  "zh": "当故障发生时,AI 系统发现问题、事件或告警,找到最初导致该问题的根本原因,提交修复方案,验证问题已被修复,然后闭环完成——希望全程无需呼叫或打扰你的任何团队成员,让他们能继续专注于构建。"
+ },
+ {
+  "seg": 65,
+  "start": 425.63,
+  "end": 427.671,
+  "speaker": "Unknown",
+  "en": "And this is a spectrum.",
+  "zh": "而这是一个光谱。"
+ },
+ {
+  "seg": 66,
+  "start": 428.151,
+  "end": 430.511,
+  "speaker": "Unknown",
+  "en": "A lot of companies are not fully there yet.",
+  "zh": "很多公司还没有完全做到这一点。"
+ },
+ {
+  "seg": 67,
+  "start": 430.551,
+  "end": 436.173,
+  "speaker": "Unknown",
+  "en": "We like to think of it in terms of levels, almost like self-driving cars or autonomous driving.",
+  "zh": "我们喜欢用等级来思考它,有点像自动驾驶汽车或无人驾驶。"
+ },
+ {
+  "seg": 68,
+  "start": 436.213,
+  "end": 437.753,
+  "speaker": "Unknown",
+  "en": "We think about it in the same frame.",
+  "zh": "我们用同样的框架来思考。"
+ },
+ {
+  "seg": 69,
+  "start": 438.553,
+  "end": 443.134,
+  "speaker": "Unknown",
+  "en": "So level zero is where most companies are today, where everything is fully manual.",
+  "zh": "零级是今天大多数公司所处的状态,一切完全靠手动。"
+ },
+ {
+  "seg": 70,
+  "start": 443.655,
+  "end": 446.935,
+  "speaker": "Unknown",
+  "en": "You're pulling a bunch of people into a Slack war room or onto a Zoom call.",
+  "zh": "你把一堆人拉进一个 Slack 作战室或一个 Zoom 会议上。"
+ },
+ {
+  "seg": 71,
+  "start": 447.216,
+  "end": 448.856,
+  "speaker": "Unknown",
+  "en": "You're spending hours debugging things.",
+  "zh": "你花好几个小时调试问题。"
+ },
+ {
+  "seg": 72,
+  "start": 450.117,
+  "end": 453.818,
+  "speaker": "Unknown",
+  "en": "Level one might be where you have some rules and automations.",
+  "zh": "一级可能是你有一些规则和自动化。"
+ },
+ {
+  "seg": 73,
+  "start": 454.578,
+  "end": 460.06,
+  "speaker": "Unknown",
+  "en": "We're hearing a lot about loops that teams are building now with tools like Claude Code or Cursor or Codex.",
+  "zh": "我们经常听到团队现在用 Claude Code、Cursor 或 Codex 这类工具构建循环(loop)。"
+ },
+ {
+  "seg": 74,
+  "start": 461.22,
+  "end": 468.623,
+  "speaker": "Unknown",
+  "en": "And so these might be rule-based automations where you can build out a very structured, specific workflow in response to an alert.",
+  "zh": "这些可能是基于规则的自动化,你可以针对某个告警构建一个非常结构化、非常具体的响应工作流。"
+ },
+ {
+  "seg": 75,
+  "start": 469.643,
+  "end": 473.564,
+  "speaker": "Unknown",
+  "en": "Those rule-based automations kind of break down when it's a novel situation.",
+  "zh": "但当遇到新情况时,这些基于规则的自动化就会失效。"
+ },
+ {
+  "seg": 76,
+  "start": 473.624,
+  "end": 475.985,
+  "speaker": "Unknown",
+  "en": "And usually a sub one is something you haven't seen before.",
+  "zh": "而一级以下的情况通常是你从未见过的。"
+ },
+ {
+  "seg": 77,
+  "start": 476.365,
+  "end": 477.786,
+  "speaker": "Unknown",
+  "en": "There's not really a runbook for it.",
+  "zh": "没有现成的 runbook 可以参考。"
+ },
+ {
+  "seg": 78,
+  "start": 477.906,
+  "end": 480.647,
+  "speaker": "Unknown",
+  "en": "And so the rule-based automation breaks down there.",
+  "zh": "所以基于规则的自动化在那里就失效了。"
+ },
+ {
+  "seg": 79,
+  "start": 481.547,
+  "end": 486.489,
+  "speaker": "Unknown",
+  "en": "And level two and level three is kind of where you start to get a little more automation built in.",
+  "zh": "二级和三级则是你开始内建更多自动化的阶段。"
+ },
+ {
+  "seg": 80,
+  "start": 486.989,
+  "end": 496.472,
+  "speaker": "Unknown",
+  "en": "In level three, perhaps you have like a homegrown agent that is really good at debugging issues for a specific service or a specific set of alerts.",
+  "zh": "在三级,也许你有一个自研的智能体,它非常擅长调试某个特定服务或特定一组告警的问题。"
+ },
+ {
+  "seg": 81,
+  "start": 497.252,
+  "end": 504.076,
+  "speaker": "Unknown",
+  "en": "But really where we see the leap is going from level three to level four, which is cutting across an entire environment.",
+  "zh": "但我们真正看到的跨越,是从三级到四级,也就是横跨整个环境。"
+ },
+ {
+  "seg": 82,
+  "start": 504.556,
+  "end": 510.199,
+  "speaker": "Unknown",
+  "en": "So hundreds of services, like hundreds of repos, thousands of log indexes.",
+  "zh": "也就是数百个服务、数百个仓库、数千个日志索引。"
+ },
+ {
+  "seg": 83,
+  "start": 510.68,
+  "end": 514.362,
+  "speaker": "Unknown",
+  "en": "It's quite challenging to home grow a solution that can handle that.",
+  "zh": "自研一个能应对这种规模的解决方案是相当困难的。"
+ },
+ {
+  "seg": 84,
+  "start": 515.062,
+  "end": 525.188,
+  "speaker": "Unknown",
+  "en": "And level five is kind of the holy grail, which is not only can we diagnose issues across a full production environment for a large enterprise, but also put up the fixes and verify the fixes as well.",
+  "zh": "五级可以说是终极目标(holy grail),也就是不仅能诊断大型企业整个生产环境中的问题,还能提交修复并验证修复。"
+ },
+ {
+  "seg": 85,
+  "start": 527.955,
+  "end": 543.74,
+  "speaker": "Unknown",
+  "en": "And so we're really proud that at Traversal we get to work with and serve some of the biggest companies in the world, companies like American Express, who I spend a lot of time with personally, Pepsi, DigitalOcean, Capital One.",
+  "zh": "我们非常自豪,在 Traversal 我们能够与世界最大的一些公司合作并为其服务,比如 American Express——我个人在他们身上花了很多时间——还有 Pepsi、DigitalOcean、Capital One。"
+ },
+ {
+  "seg": 86,
+  "start": 544.421,
+  "end": 549.863,
+  "speaker": "Unknown",
+  "en": "And it's really cool to see the volume and scale of data that Traversal is able to handle.",
+  "zh": "看到 Traversal 能够处理的数据量和规模,真的很酷。"
+ },
+ {
+  "seg": 87,
+  "start": 551.063,
+  "end": 556.709,
+  "speaker": "Unknown",
+  "en": "You know, trillions of logs that are generated, trillions of spans, tens of billions of metrics and events.",
+  "zh": "你知道,数万亿条日志、数万亿个 span、数百亿个指标和事件。"
+ },
+ {
+  "seg": 88,
+  "start": 558.07,
+  "end": 565.158,
+  "speaker": "Unknown",
+  "en": "And hitting 80% plus root cause for these high severity incidents at this scale is a technical feat that we're pretty proud of.",
+  "zh": "在这种规模下,对这类高严重性事件达到 80% 以上的根因命中率,是一项我们相当自豪的技术壮举。"
+ },
+ {
+  "seg": 89,
+  "start": 566.679,
+  "end": 569.943,
+  "speaker": "Unknown",
+  "en": "And so beyond just these kind of results at a high level,",
+  "zh": "所以,除了这些高层次的结果之外,"
+ },
+ {
+  "seg": 90,
+  "start": 572.322,
+  "end": 576.084,
+  "speaker": "Unknown",
+  "en": "As a product manager, I like to think about the use cases that we build for our customers.",
+  "zh": "作为一名产品经理,我喜欢思考我们为客户构建的使用场景。"
+ },
+ {
+  "seg": 91,
+  "start": 576.624,
+  "end": 582.147,
+  "speaker": "Unknown",
+  "en": "And so there's a few different types of scenarios and use cases that we found that can deliver a lot of value.",
+  "zh": "我们发现了好几种不同类型的场景和用例,它们能带来很大的价值。"
+ },
+ {
+  "seg": 92,
+  "start": 582.587,
+  "end": 584.248,
+  "speaker": "Unknown",
+  "en": "I'll dig into a few in more detail.",
+  "zh": "我会深入讲其中几个。"
+ },
+ {
+  "seg": 93,
+  "start": 584.428,
+  "end": 598.755,
+  "speaker": "Unknown",
+  "en": "But at a high level, there's Alert Intelligence, a product that I spend a lot of time on, which is helping on-call teams triage and prioritize hundreds or thousands of alerts that they may be receiving in a single day, helping you deal with alert fatigue.",
+  "zh": "在高层面上,有 Alert Intelligence(告警智能),这是我花很多时间投入的一个产品,它帮助 on-call 团队对一天内可能收到的成百上千条告警进行分类和排定优先级,帮你应对告警疲劳。"
+ },
+ {
+  "seg": 94,
+  "start": 599.595,
+  "end": 602.819,
+  "speaker": "Unknown",
+  "en": "There is incident root cause analysis, which is where we got started.",
+  "zh": "有事件根因分析,这是我们起家的地方。"
+ },
+ {
+  "seg": 95,
+  "start": 603.459,
+  "end": 610.747,
+  "speaker": "Unknown",
+  "en": "How do we help you find the root cause, pinpoint the root cause of an incident in minutes when it otherwise would have taken hours and dozens of engineers?",
+  "zh": "我们如何帮你在几分钟内找到并定位一个事件的根本原因,而原本这需要好几个小时和几十个工程师?"
+ },
+ {
+  "seg": 96,
+  "start": 611.768,
+  "end": 618.316,
+  "speaker": "Unknown",
+  "en": "There is self-healing, which is not only telling you what the root cause was, but putting up the fix to address and mitigate that issue.",
+  "zh": "有自愈(self-healing),它不仅告诉你根本原因是什么,还会提交修复方案来处理和缓解那个问题。"
+ },
+ {
+  "seg": 97,
+  "start": 619.498,
+  "end": 637.013,
+  "speaker": "Unknown",
+  "en": "There's production support, which is the variety of questions and issues that your team might be dealing with in any given day, wanting to chat with their production environment, get specific data points that maybe aren't part of a broader incident, but are still taking up a lot of time and toil for your teams.",
+  "zh": "有生产支持(production support),即你的团队在任何一天可能面对的各类问题和疑问,想与他们的生产环境对话、获取特定的数据点——这些也许不属于某个更大的事件,但仍然占用你团队大量时间和琐碎劳动。"
+ },
+ {
+  "seg": 98,
+  "start": 638.134,
+  "end": 646.482,
+  "speaker": "Unknown",
+  "en": "And then pre-production, there is code resilience, like when you're putting up changes, how do you make sure that this code is making your system more resilient and reliable over time?",
+  "zh": "然后在生产前(pre-production),有代码韧性(code resilience),比如当你提交变更时,如何确保这些代码让你的系统随着时间推移变得更有韧性、更可靠?"
+ },
+ {
+  "seg": 99,
+  "start": 647.717,
+  "end": 651.2,
+  "speaker": "Unknown",
+  "en": "And so at Traversal, we cover kind of the whole gamut of use cases.",
+  "zh": "所以在 Traversal,我们覆盖了几乎全部范围的用例。"
+ },
+ {
+  "seg": 100,
+  "start": 652.601,
+  "end": 660.649,
+  "speaker": "Unknown",
+  "en": "But I'll dig into alert intelligence and incident root cause just to give you a bit of a more detailed sense of what that might look like, what that looks like.",
+  "zh": "但我会深入讲讲告警智能和事故根因，只是为了让你更详细地了解这可能是什么样子，它是什么样子。"
+ },
+ {
+  "seg": 101,
+  "start": 661.289,
+  "end": 664.172,
+  "speaker": "Unknown",
+  "en": "And I'm happy to answer any questions after about the others.",
+  "zh": "之后我也很乐意回答关于其他方面的任何问题。"
+ },
+ {
+  "seg": 102,
+  "start": 666.505,
+  "end": 673.474,
+  "speaker": "Unknown",
+  "en": "So for alert intelligence, the example that I have here is based on our engagement with Pepsi.",
+  "zh": "对于告警智能，我在这里的例子是基于我们与 Pepsi 的合作。"
+ },
+ {
+  "seg": 103,
+  "start": 673.994,
+  "end": 681.163,
+  "speaker": "Unknown",
+  "en": "And so Pepsi uses traversal across a bunch of their different applications, but a very core one is for their supply chain.",
+  "zh": "Pepsi 在他们的许多不同应用中使用 traversal，但一个非常核心的用于他们的供应链。"
+ },
+ {
+  "seg": 104,
+  "start": 681.684,
+  "end": 684.327,
+  "speaker": "Unknown",
+  "en": "They have a lot of internal tooling and software to make sure that",
+  "zh": "他们有大量的内部工具和软件来确保"
+ },
+ {
+  "seg": 105,
+  "start": 686.327,
+  "end": 689.97,
+  "speaker": "Unknown",
+  "en": "The raw materials and the finished product can move through their supply chain.",
+  "zh": "原材料和成品能够在他们的供应链中流转。"
+ },
+ {
+  "seg": 106,
+  "start": 690.611,
+  "end": 698.918,
+  "speaker": "Unknown",
+  "en": "And a very critical piece of that is making sure that finished product gets from their warehouse to their trucks to their retailers at the end.",
+  "zh": "其中一个非常关键的环节是确保成品从他们的仓库运到他们的卡车，再运到最终的零售商。"
+ },
+ {
+  "seg": 107,
+  "start": 699.859,
+  "end": 706.485,
+  "speaker": "Unknown",
+  "en": "And before traversal, their team would get thousands or tens of thousands of alerts every single week.",
+  "zh": "在 traversal 之前，他们的团队每周会收到成千上万条警报。"
+ },
+ {
+  "seg": 108,
+  "start": 707.526,
+  "end": 710.909,
+  "speaker": "Unknown",
+  "en": "And at any given time, a single engineer might have a backlog of 700 alerts.",
+  "zh": "在任何给定时间，单个工程师可能积压了 700 条警报。"
+ },
+ {
+  "seg": 109,
+  "start": 712.27,
+  "end": 715.011,
+  "speaker": "Unknown",
+  "en": "This is kind of a crippling state to be in.",
+  "zh": "如果你熟悉的话，你可能听说过这个领域里的很多公司，或者说他们声称正在解决这些问题的公司。"
+ },
+ {
+  "seg": 110,
+  "start": 715.111,
+  "end": 722.294,
+  "speaker": "Unknown",
+  "en": "Like, you have so much noise that you don't know where to look, you don't know what's broken, and things slip through the cracks.",
+  "zh": "就像是，你有太多的噪音，不知道该看哪里，不知道什么坏了，事情从缝隙中溜走。"
+ },
+ {
+  "seg": 111,
+  "start": 722.735,
+  "end": 724.715,
+  "speaker": "Unknown",
+  "en": "Or you just try to keep up and burn out.",
+  "zh": "或者你只是试图跟上节奏然后精疲力竭。"
+ },
+ {
+  "seg": 112,
+  "start": 724.996,
+  "end": 728.037,
+  "speaker": "Unknown",
+  "en": "And so this was a big problem that Pepsi was facing.",
+  "zh": "所以这是 Pepsi 面临的一个大问题。"
+ },
+ {
+  "seg": 113,
+  "start": 728.877,
+  "end": 735.664,
+  "speaker": "Unknown",
+  "en": "And they use traversal to help parse the signal from the noise of these tens of thousands of alerts.",
+  "zh": "他们使用 traversal 来帮助从这数万条警报的噪音中解析出信号。"
+ },
+ {
+  "seg": 114,
+  "start": 735.744,
+  "end": 744.773,
+  "speaker": "Unknown",
+  "en": "And so now, instead of each engineer having a backlog of 700 alerts, they get a very prioritized and filtered set of",
+  "zh": "所以现在，不再是每个工程师积压 700 条警报，他们会得到一个非常按优先级排序且经过过滤的"
+ },
+ {
+  "seg": 115,
+  "start": 745.353,
+  "end": 747.194,
+  "speaker": "Unknown",
+  "en": "Alerts that have already been pre-investigated.",
+  "zh": "已经被预先调查过的警报集合。"
+ },
+ {
+  "seg": 116,
+  "start": 747.394,
+  "end": 750.476,
+  "speaker": "Unknown",
+  "en": "We flag to them the alerts that are actually worth digging into.",
+  "zh": "我们向他们标记出真正值得深入挖掘的警报。"
+ },
+ {
+  "seg": 117,
+  "start": 751.076,
+  "end": 769.505,
+  "speaker": "Unknown",
+  "en": "We flag to them opportunities to reduce alert noise, whether that's updating the underlying alert rules in their code, dismissing alerts that don't need to be addressed right now, or creating tickets for alerts that are maybe technical debt that can be handled later on, but aren't super important to deal with at this moment.",
+  "zh": "我们向他们标记出减少警报噪音的机会，无论是更新代码中的底层警报规则、忽略那些现在不需要处理的警报，还是为那些可能是技术债务、以后可以处理但目前不是特别重要需要处理的警报创建工单。"
+ },
+ {
+  "seg": 118,
+  "start": 770.185,
+  "end": 775.994,
+  "speaker": "Unknown",
+  "en": "And so we've seen a lot of great results with Pepsi on this alert use case and many of our other customers as well.",
+  "zh": "所以我们在 Pepsi 这个告警用例以及我们的许多其他客户身上看到了很多很好的成果。"
+ },
+ {
+  "seg": 119,
+  "start": 778.898,
+  "end": 781.479,
+  "speaker": "Unknown",
+  "en": "The next example is around incident root cause analysis.",
+  "zh": "下一个例子是关于事故根因分析。"
+ },
+ {
+  "seg": 120,
+  "start": 781.839,
+  "end": 787.802,
+  "speaker": "Unknown",
+  "en": "And this is a case study from our engagement with Annex where I've personally spent a lot of time myself.",
+  "zh": "这是一个来自我们与 Annex 合作的案例研究，我个人也花了很多时间在上面。"
+ },
+ {
+  "seg": 121,
+  "start": 789.022,
+  "end": 801.567,
+  "speaker": "Unknown",
+  "en": "So before working with traversal, what an incident looked like at American Express is anywhere from five to 10 teams get paged, anywhere from 20 to 50 engineers.",
+  "zh": "在与 traversal 合作之前，American Express 的一次事故是什么样子呢：五到十个团队被呼叫， anywhere 从 20 到 50 名工程师。"
+ },
+ {
+  "seg": 122,
+  "start": 802.127,
+  "end": 806.869,
+  "speaker": "Unknown",
+  "en": "And it could take, in this particular example, 60 minutes, but it could take hours or days.",
+  "zh": "而解决事故可能需要——在这个特定例子中是 60 分钟，但也可能需要几个小时或几天"
+ },
+ {
+  "seg": 123,
+  "start": 807.489,
+  "end": 809.731,
+  "speaker": "Unknown",
+  "en": "to get resolution to an incident.",
+  "zh": "才能解决一起事故。"
+ },
+ {
+  "seg": 124,
+  "start": 810.271,
+  "end": 814.055,
+  "speaker": "Unknown",
+  "en": "You can imagine if customers aren't able to pay their credit card bill, like that's a big problem.",
+  "zh": "你可以想象，如果客户无法支付他们的信用卡账单，那就是个大问题。"
+ },
+ {
+  "seg": 125,
+  "start": 814.475,
+  "end": 817.218,
+  "speaker": "Unknown",
+  "en": "Or if they're not able to log into their mobile app, that's a big problem.",
+  "zh": "或者如果他们无法登录他们的移动应用，那也是个大问题。"
+ },
+ {
+  "seg": 126,
+  "start": 818.742,
+  "end": 825.905,
+  "speaker": "Unknown",
+  "en": "And so now Traversal is the first responder to every single incident that's created at American Express.",
+  "zh": "所以现在 Traversal 是 American Express 每一起被创建的事故的第一响应者。"
+ },
+ {
+  "seg": 127,
+  "start": 825.965,
+  "end": 834.888,
+  "speaker": "Unknown",
+  "en": "And so what that looks like is the second the bridge is declared, that's the term they use internally, the second the incident is declared, Traversal is dispatched.",
+  "zh": "具体来说，在 bridge 被宣布的那一刻——这是他们内部使用的术语——事故被宣布的那一刻，Traversal 就被派出。"
+ },
+ {
+  "seg": 128,
+  "start": 835.388,
+  "end": 841.89,
+  "speaker": "Unknown",
+  "en": "Within three minutes, we'll post a very detailed root cause analysis in the Slack channel where that incident is being managed.",
+  "zh": "在三分钟内，我们会在管理该事故的 Slack 频道中发布一份非常详细的根因分析。"
+ },
+ {
+  "seg": 129,
+  "start": 842.431,
+  "end": 845.332,
+  "speaker": "Unknown",
+  "en": "We can post updates to ServiceNow tickets if they want to as well.",
+  "zh": "如果他们愿意，我们也可以向 ServiceNow 工单发布更新。"
+ },
+ {
+  "seg": 130,
+  "start": 846.252,
+  "end": 852.857,
+  "speaker": "Unknown",
+  "en": "And rather than paging five teams and 58 engineers, because you have that initial analysis, it's a lot less chaotic.",
+  "zh": "而不是呼叫五个团队和 58 名工程师，因为你有了那个初步分析，混乱程度大大降低。"
+ },
+ {
+  "seg": 131,
+  "start": 853.278,
+  "end": 854.839,
+  "speaker": "Unknown",
+  "en": "You have a sense of what actually broke.",
+  "zh": "你对到底是什么坏了有了概念。"
+ },
+ {
+  "seg": 132,
+  "start": 855.619,
+  "end": 862.905,
+  "speaker": "Unknown",
+  "en": "And either no teams get paged or maybe you page the one or two teams just to verify the findings that Traversal posted.",
+  "zh": "要么没有团队被呼叫，要么你只呼叫一两个团队来验证 Traversal 发布的发现。"
+ },
+ {
+  "seg": 133,
+  "start": 863.866,
+  "end": 871.692,
+  "speaker": "Unknown",
+  "en": "And so we save, in this case, like 50-plus engineers from the time and headache of being paged into this incident.",
+  "zh": "所以在这个案例中，我们为 50 多名工程师节省了被呼叫进这起事故的时间和头痛。"
+ },
+ {
+  "seg": 134,
+  "start": 873.034,
+  "end": 876.322,
+  "speaker": "Unknown",
+  "en": "And that's especially appreciated when these incidents are happening in the middle of the night.",
+  "zh": "当这些事故发生在半夜时，这一点尤其受到感激。"
+ },
+ {
+  "seg": 135,
+  "start": 876.422,
+  "end": 879.991,
+  "speaker": "Unknown",
+  "en": "Like this is a good night of sleep that 53 engineers can have now.",
+  "zh": "就像是，现在 53 名工程师可以睡个好觉了。"
+ },
+ {
+  "seg": 136,
+  "start": 882.667,
+  "end": 886.408,
+  "speaker": "Unknown",
+  "en": "And so those are two of the use cases that we're especially proud of at Traversal.",
+  "zh": "这些就是我们在 Traversal 特别引以为傲的两个用例。"
+ },
+ {
+  "seg": 137,
+  "start": 886.468,
+  "end": 888.009,
+  "speaker": "Unknown",
+  "en": "But like I mentioned, there's a bunch of others.",
+  "zh": "但就像我提到的，还有很多其他的。"
+ },
+ {
+  "seg": 138,
+  "start": 888.769,
+  "end": 896.532,
+  "speaker": "Unknown",
+  "en": "Maybe in the last couple of minutes, I'll just highlight AI site reliability engineering is a very hot space.",
+  "zh": "在最后的几分钟里，我只想强调一下 AI 站点可靠性工程是一个非常热门的领域。"
+ },
+ {
+  "seg": 139,
+  "start": 896.893,
+  "end": 902.595,
+  "speaker": "Unknown",
+  "en": "If you're familiar, you've probably heard of a lot of companies in the space or claiming that they're solving these problems.",
+  "zh": "如果你熟悉这个领域，你可能听说过这个领域的很多公司，或者声称他们正在解决这些问题的公司。"
+ },
+ {
+  "seg": 140,
+  "start": 904.123,
+  "end": 909.546,
+  "speaker": "Unknown",
+  "en": "We think that there's a few really key questions you should be asking that are critical to getting this right.",
+  "zh": "我们认为，有几个非常关键的问题你应该问，这些问题对于把这件事做对至关重要。"
+ },
+ {
+  "seg": 141,
+  "start": 910.107,
+  "end": 916.031,
+  "speaker": "Unknown",
+  "en": "So the first is, can your AI SRE see all of your production data?",
+  "zh": "第一个是，你的 AI SRE 能看到你所有的生产数据吗？"
+ },
+ {
+  "seg": 142,
+  "start": 916.731,
+  "end": 923.256,
+  "speaker": "Unknown",
+  "en": "If you're only giving it a slice or if it has gaps in its understanding, it's going to be very hard to get to a very detailed root cause.",
+  "zh": "如果你只给它一个切片，或者它的理解中存在空白，那么要得到非常详细的根因将会非常困难。"
+ },
+ {
+  "seg": 143,
+  "start": 924.227,
+  "end": 926.969,
+  "speaker": "Unknown",
+  "en": "The second is, can it search through this data?",
+  "zh": "第二个是，它能搜索这些数据吗？"
+ },
+ {
+  "seg": 144,
+  "start": 927.23,
+  "end": 936.517,
+  "speaker": "Unknown",
+  "en": "It's often petabytes of data, hundreds of billions of logs, without blowing up costs or taking down your observability infrastructure.",
+  "zh": "这通常是 PB 级的数据、数千亿条日志，而且不能让成本爆炸或搞垮你的可观测性基础设施。"
+ },
+ {
+  "seg": 145,
+  "start": 937.658,
+  "end": 943.083,
+  "speaker": "Unknown",
+  "en": "This is really not trivial to do at scale for a Fortune 100 enterprise.",
+  "zh": "对于一家财富 100 强企业来说，在规模上做到这一点真的不是小事。"
+ },
+ {
+  "seg": 146,
+  "start": 944.41,
+  "end": 950.151,
+  "speaker": "Unknown",
+  "en": "The third is, can it map out the relationships between all of these entities and your data?",
+  "zh": "第三个是，它能在你的数据中梳理出所有这些实体之间的关系吗？"
+ },
+ {
+  "seg": 147,
+  "start": 950.791,
+  "end": 956.372,
+  "speaker": "Unknown",
+  "en": "Even if you're able to ingest and read through all this data, if you don't know what to do with it and if you're lost, it's kind of worthless.",
+  "zh": "即使你能够摄取并读完所有这些数据，如果你不知道用它做什么、迷失其中，那也基本没什么价值。"
+ },
+ {
+  "seg": 148,
+  "start": 957.492,
+  "end": 973.575,
+  "speaker": "Unknown",
+  "en": "And then four, does it get better and smarter over time autonomously without having to dedicate engineering resources to maintaining a bunch of markdown files or having a bunch of forward deployed engineers taking up your team's time to maintain the system knowledge?",
+  "zh": "然后第四个是，它是否能随时间自主变得更好、更聪明，而不必专门投入工程资源去维护一大堆 markdown 文件，也不必让一大批前置部署工程师占用你团队的时间来维护系统知识？"
+ },
+ {
+  "seg": 149,
+  "start": 974.375,
+  "end": 977.157,
+  "speaker": "Unknown",
+  "en": "And finally, can it make multiple hops?",
+  "zh": "最后，它能进行多跳吗？"
+ },
+ {
+  "seg": 150,
+  "start": 977.257,
+  "end": 984.201,
+  "speaker": "Unknown",
+  "en": "Can it find the non-trivial, non-obvious root cause that's far away from the initial symptom in a matter of minutes?",
+  "zh": "它能在几分钟内找到远离初始症状的非平凡、非显而易见的根本原因吗?"
+ },
+ {
+  "seg": 151,
+  "start": 984.521,
+  "end": 989.585,
+  "speaker": "Unknown",
+  "en": "What we've seen is like anything more than five minutes and you've kind of lost the plot.",
+  "zh": "我们观察到的是,只要超过五分钟,你就基本上迷失了方向。"
+ },
+ {
+  "seg": 152,
+  "start": 989.605,
+  "end": 994.148,
+  "speaker": "Unknown",
+  "en": "You've lost the patience of the on-call team and people will fall back onto their own habits.",
+  "zh": "你耗尽了值班团队的耐心,人们就会退回到自己的习惯做法上。"
+ },
+ {
+  "seg": 153,
+  "start": 994.228,
+  "end": 995.869,
+  "speaker": "Unknown",
+  "en": "So it needs to be really good.",
+  "zh": "所以它必须非常出色。"
+ },
+ {
+  "seg": 154,
+  "start": 995.889,
+  "end": 997.109,
+  "speaker": "Unknown",
+  "en": "It needs to be really fast.",
+  "zh": "它必须非常快。"
+ },
+ {
+  "seg": 155,
+  "start": 1000.269,
+  "end": 1006.312,
+  "speaker": "Unknown",
+  "en": "I won't go into this in too much detail, but this is kind of how we think about these five questions at traversal.",
+  "zh": "我不会展开讲太多细节,但这基本上就是我们在 Traversal 对这五个问题的思考方式。"
+ },
+ {
+  "seg": 156,
+  "start": 1007.052,
+  "end": 1016.557,
+  "speaker": "Unknown",
+  "en": "So at the bottom of the stack is how we think about kind of analyzing all your data without increasing costs.",
+  "zh": "所以在技术栈的底层,是我们如何在不过度增加成本的情况下分析你所有数据的思路。"
+ },
+ {
+  "seg": 157,
+  "start": 1016.617,
+  "end": 1023.04,
+  "speaker": "Unknown",
+  "en": "So basically, how do we ingest and map all of the data that we're connected to and integrate with all of that data?",
+  "zh": "基本上,就是我们如何摄取并映射所有我们连接和集成的数据,并与所有这些数据进行整合。"
+ },
+ {
+  "seg": 158,
+  "start": 1024.02,
+  "end": 1026.462,
+  "speaker": "Unknown",
+  "en": "In the middle of the stack is how we make sense of that data.",
+  "zh": "在技术栈的中间,是我们如何理解这些数据。"
+ },
+ {
+  "seg": 159,
+  "start": 1026.662,
+  "end": 1029.204,
+  "speaker": "Unknown",
+  "en": "And so we call that our production world model.",
+  "zh": "我们把它称为我们的生产世界模型。"
+ },
+ {
+  "seg": 160,
+  "start": 1029.604,
+  "end": 1034.047,
+  "speaker": "Unknown",
+  "en": "How do we map out all the relationships between all the data that we're ingesting?",
+  "zh": "我们如何映射出所有摄取的数据之间的关系?"
+ },
+ {
+  "seg": 161,
+  "start": 1034.948,
+  "end": 1042.913,
+  "speaker": "Unknown",
+  "en": "And then finally, how do we surface that and package that up in either use cases or user experiences that are valuable to your team?",
+  "zh": "最后,我们如何把这些呈现出来,打包成对你的团队有价值的用例或用户体验?"
+ },
+ {
+  "seg": 162,
+  "start": 1044.174,
+  "end": 1049.478,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of components to getting this right, especially at Fortune 500 scale.",
+  "zh": "要把这件事做对,涉及很多组件,尤其是在财富 500 强的规模上。"
+ },
+ {
+  "seg": 163,
+  "start": 1052.45,
+  "end": 1057.755,
+  "speaker": "Unknown",
+  "en": "And so that's a bit about what we've been building at Traversal, what we're delivering at Traversal.",
+  "zh": "这就是我们在 Traversal 构建的东西、我们在 Traversal 交付的东西的大致情况。"
+ },
+ {
+  "seg": 164,
+  "start": 1058.115,
+  "end": 1075.772,
+  "speaker": "Unknown",
+  "en": "The core pieces, like I mentioned, are the production world model, so how we map and make sense of all the data that we integrate with, and then what we refer to as our causal search engine, basically the harness and mechanism that we give our agents to search through all of that data that we've mapped out.",
+  "zh": "正如我提到的,核心部分是生产世界模型,即我们如何映射并理解所有我们集成的数据,然后是我们所说的因果搜索引擎,基本上就是我们给智能体用来搜索所有已映射数据的框架和机制。"
+ },
+ {
+  "seg": 165,
+  "start": 1077.652,
+  "end": 1090.202,
+  "speaker": "Unknown",
+  "en": "And so the production world model and the causal search engine are how we believe we are going to help Fortune 500 enterprises get to the level five of autonomy, fully self-driving production.",
+  "zh": "我们相信,生产世界模型和因果搜索引擎就是我们将帮助财富 500 强企业达到五级自主性、完全自动驾驶的生产环境的方式。"
+ },
+ {
+  "seg": 166,
+  "start": 1092.704,
+  "end": 1092.884,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 167,
+  "start": 1093.124,
+  "end": 1094.045,
+  "speaker": "Unknown",
+  "en": "Thank you for your time.",
+  "zh": "感谢大家的时间。"
+ }
+]

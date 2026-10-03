@@ -1,0 +1,656 @@
+{
+  "episode_id": "2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 安全",
+    "沙箱",
+    "智能体",
+    "AI 编程",
+    "提示词注入"
+  ],
+  "categories": [
+    "AI 安全",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "rowan-christmas",
+      "type": "person",
+      "role": "guest",
+      "name": "Rowan Christmas",
+      "file": "Rowan Christmas",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "docker",
+      "type": "company",
+      "role": "company",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司,推出了新的沙箱产品 SBX(一个微型虚拟机二进制程序),且公司内部每个开发者现在都强制在沙箱里写代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            27.811,
+            29.312
+          ],
+          "quote": "So, I'm here with Docker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            34.713,
+            36.274
+          ],
+          "quote": "It's a new binary for Docker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            225.308,
+            235.497
+          ],
+          "quote": "So if only there was a better way to do this using a sandbox MicroVM technology that Docker and others have released recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            247.567,
+            252.089
+          ],
+          "quote": "If you're not aware of them compared to you, I know you're probably all aware of Docker, been using it for years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            409.54,
+            413.066
+          ],
+          "quote": "Every developer at Docker now writes all of their code in sandboxes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sbx",
+      "type": "company",
+      "role": "company",
+      "name": "SBX",
+      "file": "SBX",
+      "primary": true,
+      "how_described": "本集主线产品:Docker 新推出的沙箱工具,一条 `SBX run Claude` 命令即可创建微型虚拟机、隔离文件系统、保护密钥、默认拦截网络,体验与直接跑 Claude Code 几乎无差别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            36.314,
+            37.214
+          ],
+          "quote": "It's called SBX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            316.963,
+            320.465
+          ],
+          "quote": "And on the right side is when I do SBX run Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            594.714,
+            598.695
+          ],
+          "quote": "And you can see at the end, it's just SBX run Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集用它做了黑自己的演示:五个提示词就让它找出浏览器历史、银行数据等 PII,以此说明在提示词层设防不管用、需要沙箱隔离。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            95.183,
+            104.628
+          ],
+          "quote": "So I opened up my Claude code on desktop on my Mac, and I had it look for my browser history, and it found it right away, which I was very impressed about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            616.785,
+            621.067
+          ],
+          "quote": "You can get that Claude Code or Codex instance going.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集批评其安全性靠提示词里写「请不要做邪恶的事情」,并提到它会把大量遥测数据发回 Anthropic 的 Datadog 实例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            95.183,
+            104.628
+          ],
+          "quote": "So I opened up my Claude code on desktop on my Mac, and I had it look for my browser history, and it found it right away, which I was very impressed about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            142.712,
+            148.114
+          ],
+          "quote": "This is from, again, the Claude desktop app that we thought was safe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            205.585,
+            213.011
+          ],
+          "quote": "If you just ask straight up, like, hey, Claude, go find my bank data, it will give you a warning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            236.078,
+            243.244
+          ],
+          "quote": "So rather than just saying please, which if you look in some of these Claude prompts you'll see, please don't do nefarious things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            312.5,
+            316.103
+          ],
+          "quote": "On the left side is when I run Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            316.963,
+            320.465
+          ],
+          "quote": "And on the right side is when I do SBX run Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            345.221,
+            352.305
+          ],
+          "quote": "So if we try to do our browser history attack on regular Claude, it happily goes and finds your browser history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            390.95,
+            395.272
+          ],
+          "quote": "Claude likes to really send back a lot of telemetry data to their data dog instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            395.913,
+            404.637
+          ],
+          "quote": "So if you're using Claude, you are sending Anthropic a lot of your data, unless you're using sandboxes, in which case you're cleverly being blocked by that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            594.714,
+            598.695
+          ],
+          "quote": "And you can see at the end, it's just SBX run Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            598.715,
+            599.796
+          ],
+          "quote": "It's not just Claude, by the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            616.785,
+            621.067
+          ],
+          "quote": "You can get that Claude Code or Codex instance going.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成跑不受信代码时画在 microVM 层的最佳安全边界:隔离文件系统、拿不到真实密钥、网络默认拦截,是「设计即安全」的实现方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            29.932,
+            33.053
+          ],
+          "quote": "I'm one of our product managers that works on our new sandbox product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            225.308,
+            235.497
+          ],
+          "quote": "So if only there was a better way to do this using a sandbox MicroVM technology that Docker and others have released recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            260.734,
+            265.496
+          ],
+          "quote": "We have a system that will go and make sure that the sandbox never actually sees your secrets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            266.096,
+            273.46
+          ],
+          "quote": "When you try to go and do a network request, it takes a placeholder, replaces it so that your sandbox and your agent can't do bad things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            293.67,
+            297.734
+          ],
+          "quote": "So that's why this whole sandbox idea is so exciting for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            308.718,
+            312.34
+          ],
+          "quote": "So this is what it looks like in practice when you're running a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            336.115,
+            340.318
+          ],
+          "quote": "It spins it up in that folder, and it makes a new sandbox for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            354.736,
+            361.103
+          ],
+          "quote": "But if I run it on the sandbox version, it does not even think there's a browser installed on your machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            540.804,
+            546.505
+          ],
+          "quote": "Also, if you're running our MCP server, our MCP servers themselves run on a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体会找到绕过最外层防护的办法,且「如果什么都不让它做它就没用了」——所以要在隔离环境里放开手脚,并做智能体级别的身份追踪与委托链治理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            266.096,
+            273.46
+          ],
+          "quote": "When you try to go and do a network request, it takes a placeholder, replaces it so that your sandbox and your agent can't do bad things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            289.225,
+            292.809
+          ],
+          "quote": "If we can't actually do these things, the agent's not useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            301.138,
+            304.902
+          ],
+          "quote": "And maybe don't let your bank data get into the hands of your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            340.418,
+            341.678
+          ],
+          "quote": "It runs your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            468.782,
+            474.245
+          ],
+          "quote": "So one of the things we're really excited about is doing agent-level identity tracking and delegation chains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            478.547,
+            483.81
+          ],
+          "quote": "And you can go back and say, oh, that's because an agent did it and a human actually authorized that agent to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            567.757,
+            573.438
+          ],
+          "quote": "You want your agent to be able to read and write to some repos and some areas of some repos, but not others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            639.497,
+            641.238
+          ],
+          "quote": "That way, my agent can see what I'm doing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microvm",
+      "type": "concept",
+      "role": "concept",
+      "name": "微型虚拟机 (microVM)",
+      "file": "微型虚拟机",
+      "primary": true,
+      "how_described": "本集把它说成自带独立内核、隔离文件系统的轻量虚拟环境,并认为在 microVM 边界设防是安全与可用性之间的最佳平衡点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            225.308,
+            235.497
+          ],
+          "quote": "So if only there was a better way to do this using a sandbox MicroVM technology that Docker and others have released recently.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集警告同样的数据泄露更容易来自脚本或 MCP 服务器的提示词注入,而不只是用户主动黑自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            193.259,
+            199.748
+          ],
+          "quote": "It was not some sort of injection from a script or MCP server or anything that could easily happen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompts)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集用「只需五个提示词」套出全部银行数据,并讽刺现状:很多工具的安全只是提示词里一句礼貌的「请」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            201.582,
+            203.824
+          ],
+          "quote": "So five prompts is what it took.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            236.078,
+            243.244
+          ],
+          "quote": "So rather than just saying please, which if you look in some of these Claude prompts you'll see, please don't do nefarious things, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": true,
+      "how_described": "本集说它是提示词注入的潜在来源之一,同时介绍 Docker 的 MCP 目录管理和自家 MCP 服务器本身也跑在沙箱里受同等控制约束。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            193.259,
+            199.748
+          ],
+          "quote": "It was not some sort of injection from a script or MCP server or anything that could easily happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            540.804,
+            546.505
+          ],
+          "quote": "Also, if you're running our MCP server, our MCP servers themselves run on a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 治理 (AI governance)",
+      "file": "AI 治理",
+      "primary": true,
+      "how_described": "本集把它说成让每次智能体操作可追责:智能体级身份追踪、委托链、基于 Cedar 策略做动态降权,配合网络白/黑名单与文件系统挂载点控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            512.589,
+            520.179
+          ],
+          "quote": "And so I have my marketing slide that my marketing team is really mad at me that I made this, but I think it's funny and cute for AI governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            523.161,
+            525.701
+          ],
+          "quote": "OK, what does AI governance look like?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "secure-by-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计即安全 (secure by design)",
+      "file": "设计即安全",
+      "primary": true,
+      "how_described": "本集提出的替代方案:与其在提示词里说「请」,不如靠 microVM 边界在架构层面做到安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            277.202,
+            284.005
+          ],
+          "quote": "So yeah, you want to be secure by design, not just hope and say please and see what's going to happen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "codex",
+      "file": "codex",
+      "primary": false,
+      "how_described": "本集顺带提到沙箱是完整 VM,除 Claude 外也能跑 Codex、shell、Python 作业、web 服务器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            604.718,
+            605.658
+          ],
+          "quote": "You can run codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            616.785,
+            621.067
+          ],
+          "quote": "You can get that Claude Code or Codex instance going.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": false,
+      "how_described": "本集提到公司安全团队因此事发来的 CrowdStrike 报告给嘉宾打了 10 分里的 9 分,因为套取凭证是已知攻击手法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            169.403,
+            173.667
+          ],
+          "quote": "And then they sent me the CrowdStrike report from this, which I asked them to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

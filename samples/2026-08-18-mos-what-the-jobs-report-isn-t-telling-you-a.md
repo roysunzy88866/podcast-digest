@@ -192,9 +192,9 @@ Brown 自己的用法:Upwork 内部搭了一个叫 [[Crystal Ball|Crystal Ball]]
 
 **换个口味**
 
+- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同公司:Claude · 同概念:MCP server、智能体 (agent)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
-- [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 </div>

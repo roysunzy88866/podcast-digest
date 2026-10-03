@@ -1,0 +1,770 @@
+[
+ {
+  "seg": 0,
+  "start": 12.555,
+  "end": 13.135,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.356,
+  "end": 14.436,
+  "speaker": "Unknown",
+  "en": "Hi.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.717,
+  "end": 15.537,
+  "speaker": "Unknown",
+  "en": "My name is Gabe.",
+  "zh": "我叫 Gabe。"
+ },
+ {
+  "seg": 3,
+  "start": 15.818,
+  "end": 18.9,
+  "speaker": "Unknown",
+  "en": "I'm one of the co-founders and CEO of Meticulous.",
+  "zh": "我是 Meticulous 的联合创始人之一兼 CEO。"
+ },
+ {
+  "seg": 4,
+  "start": 19.801,
+  "end": 23.583,
+  "speaker": "Unknown",
+  "en": "I'll just wait one more minute for people to come in, and then we can get started.",
+  "zh": "我再等一分钟让大家进来，然后我们就开始。"
+ },
+ {
+  "seg": 5,
+  "start": 25.445,
+  "end": 31.309,
+  "speaker": "Unknown",
+  "en": "So in today's demo or talk, I'll talk about verification of code.",
+  "zh": "那么在今天的演示或演讲中，我会讲代码的验证。"
+ },
+ {
+  "seg": 6,
+  "start": 31.47,
+  "end": 42.278,
+  "speaker": "Unknown",
+  "en": "I'll spend one minute introducing Meticulous, and then one minute giving some background context on the company, and then sort of eight minutes giving a demo and technical overview.",
+  "zh": "我会用一分钟介绍 Meticulous，然后用一分钟讲一些公司的背景，然后再用大概八分钟做演示和技术概览。"
+ },
+ {
+  "seg": 7,
+  "start": 44.588,
+  "end": 52.811,
+  "speaker": "Unknown",
+  "en": "So, if you have exhaustive verification, then you can ship code at the speed that your agents write it.",
+  "zh": "所以，如果你有穷尽式的验证，你就能以你的智能体写代码的速度发布代码。"
+ },
+ {
+  "seg": 8,
+  "start": 53.751,
+  "end": 69.198,
+  "speaker": "Unknown",
+  "en": "If you don't, then someone somewhere at your organization is spending time verifying code, and that is now your new bottleneck, and you're forced into a position where you're trading off velocity against bugs and user experience.",
+  "zh": "如果你没有，那么你组织中某个地方的人就要花时间验证代码，这就成了你的新瓶颈，你被迫陷入在速度与 bug 和用户体验之间做取舍的境地。"
+ },
+ {
+  "seg": 9,
+  "start": 72.758,
+  "end": 75.961,
+  "speaker": "Unknown",
+  "en": "So I'll give super quick context on Meticulous.",
+  "zh": "那么我先非常快速地介绍一下 Meticulous 的背景。"
+ },
+ {
+  "seg": 10,
+  "start": 75.981,
+  "end": 83.707,
+  "speaker": "Unknown",
+  "en": "So Meticulous gives you exhaustive or near exhaustive verification of your front-end codebase with zero developer effort.",
+  "zh": "Meticulous 让你以零开发者投入的方式，对你的前端代码库进行穷尽式或近乎穷尽式的验证。"
+ },
+ {
+  "seg": 11,
+  "start": 84.961,
+  "end": 97.075,
+  "speaker": "Unknown",
+  "en": "It's deployed across the entire engine organization at all of these companies like Discord, Wiz, Dropbox, Notion, Eleven Labs, LaunchDarkly, and many, many other great companies.",
+  "zh": "它被部署在 Discord、Wiz、Dropbox、Notion、Eleven Labs、LaunchDarkly 等这些公司的整个工程组织中，还有很多很多其他优秀的公司。"
+ },
+ {
+  "seg": 12,
+  "start": 97.516,
+  "end": 102.462,
+  "speaker": "Unknown",
+  "en": "So if an engineer touches front-end code at one of these companies, they use Meticulous every day.",
+  "zh": "所以如果一名工程师在这些公司里碰前端代码，他们每天都会用 Meticulous。"
+ },
+ {
+  "seg": 13,
+  "start": 103.843,
+  "end": 110.811,
+  "speaker": "Unknown",
+  "en": "However, before we get into the product and talk more about verification, let's just cover the current sort of state of the world.",
+  "zh": "不过，在我们进入产品并更多地谈验证之前，先讲讲当前的世界现状。"
+ },
+ {
+  "seg": 14,
+  "start": 111.692,
+  "end": 116.818,
+  "speaker": "Unknown",
+  "en": "So AI writes code faster than humans can review it.",
+  "zh": "AI 写代码的速度比人类审查的速度快。"
+ },
+ {
+  "seg": 15,
+  "start": 117.999,
+  "end": 122.124,
+  "speaker": "Unknown",
+  "en": "And review and verification is now the new bottleneck.",
+  "zh": "审查和验证现在成了新的瓶颈。"
+ },
+ {
+  "seg": 16,
+  "start": 124.46,
+  "end": 129.263,
+  "speaker": "Unknown",
+  "en": "The other state of the world is that assertion-based testing alone isn't enough.",
+  "zh": "另一个世界现状是，仅靠基于断言的测试是不够的。"
+ },
+ {
+  "seg": 17,
+  "start": 129.923,
+  "end": 146.472,
+  "speaker": "Unknown",
+  "en": "So no matter how hard a human or an agent tries to define the correct behavior of software a priori upfront in assertions, the space of possible regressions is too vast to exhaustively cover.",
+  "zh": "所以无论人类或智能体多么努力地事先在断言里预先定义软件的正确行为，可能的回归空间都太庞大，无法穷尽覆盖。"
+ },
+ {
+  "seg": 18,
+  "start": 148.892,
+  "end": 161.128,
+  "speaker": "Unknown",
+  "en": "And so a good clarifying question is if an engineer in your organization AI generated this pull request, would you feel comfortable hitting the merge and ship button?",
+  "zh": "于是有一个很好的澄清问题：如果你组织里的一名工程师用 AI 生成了这个 pull request，你会放心地点击合并并发布按钮吗？"
+ },
+ {
+  "seg": 19,
+  "start": 161.769,
+  "end": 164.352,
+  "speaker": "Unknown",
+  "en": "And in most organizations, the answer is no.",
+  "zh": "在大多数组织中，答案是不会。"
+ },
+ {
+  "seg": 20,
+  "start": 164.993,
+  "end": 182.26,
+  "speaker": "Unknown",
+  "en": "You would want to go and do the hard work of checking out all the different feature flags, all the different roles, permissions, settings, configurations, and the various different edge cases in order to understand the exhaustive impact of this change and see if you can spot any issues.",
+  "zh": "你会想去做那件费劲的工作：检查所有不同的 feature flag、所有不同的角色、权限、设置、配置，以及各种不同的边缘情况，以便理解这次变更的穷尽影响，看看你能不能发现任何问题。"
+ },
+ {
+  "seg": 21,
+  "start": 184.515,
+  "end": 188.019,
+  "speaker": "Unknown",
+  "en": "So there are three downstream consequences of that current state.",
+  "zh": "所以当前这种现状有三个下游后果。"
+ },
+ {
+  "seg": 22,
+  "start": 188.76,
+  "end": 193.785,
+  "speaker": "Unknown",
+  "en": "The first one is bugs or regressions, which have a business impact.",
+  "zh": "第一个是 bug 或回归，它们会产生业务影响。"
+ },
+ {
+  "seg": 23,
+  "start": 194.706,
+  "end": 204.957,
+  "speaker": "Unknown",
+  "en": "The second one is engine organizations will spend double-digit percentages of their time maintaining end-to-end test suites.",
+  "zh": "第二个是工程组织会花两位数百分比的时间维护端到端测试套件。"
+ },
+ {
+  "seg": 24,
+  "start": 205.638,
+  "end": 216.285,
+  "speaker": "Unknown",
+  "en": "So across manual validation, review, debugging flakes, or updating or maintaining the test suite, all spend a lot of time maintaining tests.",
+  "zh": "无论是手动验证、审查、调试 flake，还是更新或维护测试套件，都在维护测试上花大量时间。"
+ },
+ {
+  "seg": 25,
+  "start": 218.754,
+  "end": 232.964,
+  "speaker": "Unknown",
+  "en": "And then the third problem or downstream consequence of the state of the world is that if you can get exhaustive verification, then you can program in a new and different way.",
+  "zh": "然后这个现状的第三个问题或下游后果是，如果你能得到穷尽式的验证，你就能以一种新的、不同的方式进行编程。"
+ },
+ {
+  "seg": 26,
+  "start": 233.544,
+  "end": 236.527,
+  "speaker": "Unknown",
+  "en": "So all of a sudden, you can bump all of your dependencies.",
+  "zh": "突然之间，你可以升级你所有的依赖。"
+ },
+ {
+  "seg": 27,
+  "start": 236.927,
+  "end": 238.788,
+  "speaker": "Unknown",
+  "en": "You can do sweeping refactors.",
+  "zh": "你可以做大规模的重构。"
+ },
+ {
+  "seg": 28,
+  "start": 239.228,
+  "end": 243.011,
+  "speaker": "Unknown",
+  "en": "You can make any AI-generated change with complete confidence.",
+  "zh": "你可以满怀信心地做出任何 AI 生成的变更。"
+ },
+ {
+  "seg": 29,
+  "start": 244.515,
+  "end": 247.318,
+  "speaker": "Unknown",
+  "en": "So then the question becomes, that sounds great.",
+  "zh": "那么问题就变成：这听起来很棒。"
+ },
+ {
+  "seg": 30,
+  "start": 247.618,
+  "end": 250.201,
+  "speaker": "Unknown",
+  "en": "How do you get exhaustive verification?",
+  "zh": "你怎么得到穷尽式的验证？"
+ },
+ {
+  "seg": 31,
+  "start": 250.461,
+  "end": 251.382,
+  "speaker": "Unknown",
+  "en": "What does it look like?",
+  "zh": "它长什么样？"
+ },
+ {
+  "seg": 32,
+  "start": 251.482,
+  "end": 254.045,
+  "speaker": "Unknown",
+  "en": "And how do you get there?",
+  "zh": "你怎么做到？"
+ },
+ {
+  "seg": 33,
+  "start": 254.225,
+  "end": 259.59,
+  "speaker": "Unknown",
+  "en": "So I'll now give you a demo of how Meticulous works.",
+  "zh": "那么我现在给你演示一下 Meticulous 是怎么工作的。"
+ },
+ {
+  "seg": 34,
+  "start": 259.61,
+  "end": 265.456,
+  "speaker": "Unknown",
+  "en": "So we give you, give me one second to set this up.",
+  "zh": "我们给你，等我一秒钟设置一下。"
+ },
+ {
+  "seg": 35,
+  "start": 274.158,
+  "end": 276.08,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 36,
+  "start": 277.321,
+  "end": 282.005,
+  "speaker": "Unknown",
+  "en": "So we give you one line of JavaScript to inject onto non-production environments.",
+  "zh": "我们给你一行 JavaScript 代码，注入到非生产环境上。"
+ },
+ {
+  "seg": 37,
+  "start": 282.446,
+  "end": 284.587,
+  "speaker": "Unknown",
+  "en": "So that's local host QA dev staging.",
+  "zh": "也就是本地主机、QA、dev、staging。"
+ },
+ {
+  "seg": 38,
+  "start": 285.408,
+  "end": 292.455,
+  "speaker": "Unknown",
+  "en": "That JavaScript instruments the web browser and records thousands or tens of thousands of flows or workflows.",
+  "zh": "那段 JavaScript 会对网页浏览器进行插桩，记录成千上万条流程或工作流。"
+ },
+ {
+  "seg": 39,
+  "start": 292.475,
+  "end": 296.038,
+  "speaker": "Unknown",
+  "en": "So someone clicking the Login button, clicking the Settings panel, clicking the Analytics panel.",
+  "zh": "比如有人点击 Login 按钮、点击 Settings 面板、点击 Analytics 面板。"
+ },
+ {
+  "seg": 40,
+  "start": 297.527,
+  "end": 310.415,
+  "speaker": "Unknown",
+  "en": "And then when you open a pull request on your CI runner, you spin up your web application on localhost 3000, and meticulous takes a subset of those recorded workflows and it replays them.",
+  "zh": "然后当你在 CI runner 上打开一个 pull request 时，你在 localhost 3000 上启动你的 web 应用，Meticulous 会取这些记录下来的工作流的一个子集并回放它们。"
+ },
+ {
+  "seg": 41,
+  "start": 310.895,
+  "end": 313.137,
+  "speaker": "Unknown",
+  "en": "So it dispatches each event one by one.",
+  "zh": "它会一条一条地分发每个事件。"
+ },
+ {
+  "seg": 42,
+  "start": 314.047,
+  "end": 323.17,
+  "speaker": "Unknown",
+  "en": "And as it dispatches those events, so click the Login button, click the Senis panel, click the Analytics panel, it takes a screenshot at each atomic moment throughout time.",
+  "zh": "在分发这些事件的过程中——比如点击 Login 按钮、点击 Senis 面板、点击 Analytics 面板——它会在整个时间线的每个原子时刻截图。"
+ },
+ {
+  "seg": 43,
+  "start": 323.871,
+  "end": 330.333,
+  "speaker": "Unknown",
+  "en": "And so it generates a sequence of screenshots for every workflow, one before your code change and one after your code change.",
+  "zh": "于是它为每个工作流生成一个截图序列，一个在你的代码变更之前，一个在你的代码变更之后。"
+ },
+ {
+  "seg": 44,
+  "start": 330.913,
+  "end": 340.677,
+  "speaker": "Unknown",
+  "en": "It then diffs those two sequences together to show you what would be different about your application if you were to merge that code in before you do.",
+  "zh": "然后它把这两个序列做 diff，在你合并代码之前向你展示如果你合并了那段代码，你的应用会有什么不同。"
+ },
+ {
+  "seg": 45,
+  "start": 341.417,
+  "end": 342.518,
+  "speaker": "Unknown",
+  "en": "So in this example,",
+  "zh": "所以在这个例子里，"
+ },
+ {
+  "seg": 46,
+  "start": 343.91,
+  "end": 345.291,
+  "speaker": "Unknown",
+  "en": "There's two changes here.",
+  "zh": "这里有两个变更。"
+ },
+ {
+  "seg": 47,
+  "start": 346.072,
+  "end": 351.916,
+  "speaker": "Unknown",
+  "en": "One is someone's changed the name, and the second is they've introduced an error to a dropdown.",
+  "zh": "一个是有人改了名字，第二个是他们在某个下拉菜单里引入了一个错误。"
+ },
+ {
+  "seg": 48,
+  "start": 352.857,
+  "end": 357.841,
+  "speaker": "Unknown",
+  "en": "And so when you open a pull request, Meticulous posts a comment typically within a few minutes.",
+  "zh": "于是当你打开一个 pull request 时，Meticulous 通常会在几分钟内发一条评论。"
+ },
+ {
+  "seg": 49,
+  "start": 358.621,
+  "end": 362.845,
+  "speaker": "Unknown",
+  "en": "And when the developer clicks into this comment, the Wi-Fi is slow, so I'm just going to switch tabs.",
+  "zh": "当开发者点进这条评论时——Wi-Fi 很慢，所以我换个标签页。"
+ },
+ {
+  "seg": 50,
+  "start": 363.345,
+  "end": 369.03,
+  "speaker": "Unknown",
+  "en": "But when a developer clicks into this comment, Meticulous will not tell you whether or not there's a bug.",
+  "zh": "但是当开发者点进这条评论时，Meticulous 不会告诉你有没有 bug。"
+ },
+ {
+  "seg": 51,
+  "start": 369.903,
+  "end": 377.167,
+  "speaker": "Unknown",
+  "en": "What it will show you is a set of diffs that show you what's different about the application if you were to merge that code in.",
+  "zh": "它会展示给你的是一组 diff,显示如果你把那段代码合并进去，应用会有什么不同。"
+ },
+ {
+  "seg": 52,
+  "start": 377.847,
+  "end": 381.83,
+  "speaker": "Unknown",
+  "en": "And so each diff has a before state and an after state.",
+  "zh": "所以每个 diff 都有一个 before 状态和一个 after 状态。"
+ },
+ {
+  "seg": 53,
+  "start": 382.816,
+  "end": 387.919,
+  "speaker": "Unknown",
+  "en": "And so by reviewing the diff, you can determine whether that change is expected or unexpected.",
+  "zh": "通过审查这个 diff,你就能判断那个变更是预期的还是非预期的。"
+ },
+ {
+  "seg": 54,
+  "start": 388.419,
+  "end": 390.18,
+  "speaker": "Unknown",
+  "en": "So here's the name change on light mode.",
+  "zh": "比如，这是浅色模式下的名称变更。"
+ },
+ {
+  "seg": 55,
+  "start": 390.721,
+  "end": 392.242,
+  "speaker": "Unknown",
+  "en": "Here's the name change on dark mode.",
+  "zh": "这是深色模式下的名称变更。"
+ },
+ {
+  "seg": 56,
+  "start": 392.802,
+  "end": 396.164,
+  "speaker": "Unknown",
+  "en": "And then this is a manifestation of that logical error.",
+  "zh": "而这就是那个逻辑错误的一种表现。"
+ },
+ {
+  "seg": 57,
+  "start": 396.864,
+  "end": 399.466,
+  "speaker": "Unknown",
+  "en": "So typically, when you write an assertion-based test,",
+  "zh": "通常，当你写基于断言的测试时，"
+ },
+ {
+  "seg": 58,
+  "start": 402.967,
+  "end": 412.611,
+  "speaker": "Unknown",
+  "en": "Use your business context and judgment to encapsulate the correct behavior of software up front and encapsulate that into your assertion-based test.",
+  "zh": "你会用你的业务上下文和判断力预先固化软件的正确行为，并把它封装进你的基于断言的测试里。"
+ },
+ {
+  "seg": 59,
+  "start": 413.132,
+  "end": 421.956,
+  "speaker": "Unknown",
+  "en": "In Meticulous, we just show you what's different and you exercise your judgment at review time or an agent does.",
+  "zh": "而在 Meticulous,我们只是展示有什么不同，你在审查时运用你的判断，或者由一个智能体来判断。"
+ },
+ {
+  "seg": 60,
+  "start": 422.556,
+  "end": 425.597,
+  "speaker": "Unknown",
+  "en": "Give me one second to switch this back.",
+  "zh": "给我一秒钟把它切回去。"
+ },
+ {
+  "seg": 61,
+  "start": 430.399,
+  "end": 430.62,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 62,
+  "start": 433.7,
+  "end": 442.189,
+  "speaker": "Unknown",
+  "en": "So there are sort of three technologies that are really important for helping build a mental model of the tool and how it works, how it works and why it works.",
+  "zh": "有三类技术对于建立对这个工具的心智模型非常重要——它如何工作、如何工作以及为什么能工作。"
+ },
+ {
+  "seg": 63,
+  "start": 442.849,
+  "end": 445.332,
+  "speaker": "Unknown",
+  "en": "So the first one is that everything is mocked out.",
+  "zh": "第一个是所有东西都被 mock 掉了。"
+ },
+ {
+  "seg": 64,
+  "start": 446.16,
+  "end": 451.965,
+  "speaker": "Unknown",
+  "en": "So at record time, we record all the network requests and responses.",
+  "zh": "在录制时，我们记录所有的网络请求和响应。"
+ },
+ {
+  "seg": 65,
+  "start": 452.146,
+  "end": 454.007,
+  "speaker": "Unknown",
+  "en": "And then at replay time, we stub those in.",
+  "zh": "然后在回放时，我们把这些 stub 进去。"
+ },
+ {
+  "seg": 66,
+  "start": 454.688,
+  "end": 456.63,
+  "speaker": "Unknown",
+  "en": "And we perform that mocking for two reasons.",
+  "zh": "我们做这个 mocking 有两个原因。"
+ },
+ {
+  "seg": 67,
+  "start": 457.29,
+  "end": 463.736,
+  "speaker": "Unknown",
+  "en": "One is to make the test idempotent so you can run them 1,000 times in a row and get the same results each and every time.",
+  "zh": "一是让测试具有幂等性，这样你可以连续运行 1,000 次，每次都得到相同的结果。"
+ },
+ {
+  "seg": 68,
+  "start": 464.477,
+  "end": 475.988,
+  "speaker": "Unknown",
+  "en": "And the second reason is it means that every test is isolated from every other test, which eliminates the risk of race conditions and allows you to paralyze the test horizontally and get the results in a few minutes.",
+  "zh": "第二个原因是它意味着每个测试都与其他测试隔离，这消除了竞态条件的风险，并让你能水平并行(paralyze)测试，在几分钟内拿到结果。"
+ },
+ {
+  "seg": 69,
+  "start": 476.909,
+  "end": 487.1,
+  "speaker": "Unknown",
+  "en": "The second key technology is that you get radically less or orders of magnitude less flakes with Meticulous than any other tool, including Cypress or Playwright.",
+  "zh": "第二项关键技术是，用 Meticulous 得到的 flake 比任何其他工具(包括 Cypress 或 Playwright)都要少得多，少几个数量级。"
+ },
+ {
+  "seg": 70,
+  "start": 487.6,
+  "end": 493.826,
+  "speaker": "Unknown",
+  "en": "And the reason why is we augment the browser from the scheduling engine layer up to be fully deterministic.",
+  "zh": "原因是我们从调度引擎层开始增强浏览器，使其完全确定性。"
+ },
+ {
+  "seg": 71,
+  "start": 494.386,
+  "end": 498.35,
+  "speaker": "Unknown",
+  "en": "So when browsers were first designed, determinism was not a design goal.",
+  "zh": "因为浏览器最初被设计时，确定性并不是设计目标。"
+ },
+ {
+  "seg": 72,
+  "start": 498.69,
+  "end": 500.893,
+  "speaker": "Unknown",
+  "en": "And so there's many different sources of randomness.",
+  "zh": "所以存在很多随机性的来源。"
+ },
+ {
+  "seg": 73,
+  "start": 501.113,
+  "end": 510.522,
+  "speaker": "Unknown",
+  "en": "For instance, an animation spinner depends upon the clock speeds of the CPU or the machine rendering the browser or the interleaving between set timeout and set interval.",
+  "zh": "比如，一个动画 spinner 依赖于渲染浏览器的机器的 CPU 时钟速度，或者 set timeout 和 set interval 之间的交错。"
+ },
+ {
+  "seg": 74,
+  "start": 510.982,
+  "end": 519.008,
+  "speaker": "Unknown",
+  "en": "And so we handle all of that randomness and make the browser deterministic or near deterministic so that you have radically, radically less flakes.",
+  "zh": "我们处理所有这些随机性，让浏览器确定性或接近确定性，这样你的 flake 就会少得多、少得多。"
+ },
+ {
+  "seg": 75,
+  "start": 520.51,
+  "end": 538.184,
+  "speaker": "Unknown",
+  "en": "And then the third technology, which is the most important one for grokking, like why this works, is if you want this to be exhaustive, it has to cover every feature-flang combination, every permission, every role, every config, every possible branching through the application.",
+  "zh": "然后是第三项技术，对于彻底理解(为什么这能行得通)最重要的一项：如果你想让这件事是穷尽的，它就必须覆盖每一个 feature-flang 组合、每一个权限、每一个角色、每一个配置、应用中每一条可能的分支路径。"
+ },
+ {
+  "seg": 76,
+  "start": 538.744,
+  "end": 540.105,
+  "speaker": "Unknown",
+  "en": "So how do you do that?",
+  "zh": "那么你怎么做到呢？"
+ },
+ {
+  "seg": 77,
+  "start": 540.685,
+  "end": 551.391,
+  "speaker": "Unknown",
+  "en": "So one technique that we use is that for every session or flow that we record, we replay it once against main branch or master branch and we monitor what lines of code get executed.",
+  "zh": "我们使用的一种技术是，对我们录制的每一个会话或流程，我们针对 main 分支或 master 分支回放一次，并监控哪些代码行被执行了。"
+ },
+ {
+  "seg": 78,
+  "start": 551.931,
+  "end": 562.357,
+  "speaker": "Unknown",
+  "en": "And then we build a map or an index that maps each individual workflow to lines of code executed and choose a subset of workflows that maximizes code coverage across your application.",
+  "zh": "然后我们构建一个映射或索引，把每条工作流映射到被执行的代码行，并选出一个在你整个应用上最大化代码覆盖率的工 作流子集。"
+ },
+ {
+  "seg": 79,
+  "start": 563.017,
+  "end": 565.779,
+  "speaker": "Unknown",
+  "en": "And typically, give me one second.",
+  "zh": "通常，给我一秒钟。"
+ },
+ {
+  "seg": 80,
+  "start": 566.359,
+  "end": 574.264,
+  "speaker": "Unknown",
+  "en": "Typically, I would say that code coverage in our opinionated view is a terrible metric for every tool in the world apart from meticulous.",
+  "zh": "通常，按我们带立场的观点来说，代码覆盖率对世界上除 Meticulous 之外的每一个工具来说都是一个糟糕的指标。"
+ },
+ {
+  "seg": 81,
+  "start": 574.904,
+  "end": 583.87,
+  "speaker": "Unknown",
+  "en": "And the reason why is you could write a Cypress test or Playwright test that covers 100% of your code base but only makes a single assertion.",
+  "zh": "原因是你可以写一个覆盖了 100% 代码库的 Cypress 测试或 Playwright 测试，但只做了一次断言。"
+ },
+ {
+  "seg": 82,
+  "start": 584.49,
+  "end": 588.133,
+  "speaker": "Unknown",
+  "en": "And so code coverage is not the same as code tested.",
+  "zh": "所以代码覆盖率不等于被测试过的代码。"
+ },
+ {
+  "seg": 83,
+  "start": 588.933,
+  "end": 599.447,
+  "speaker": "Unknown",
+  "en": "But with meticulous, it actually is approximately the same because we do this really unusual and radical thing, which is we're taking a screenshot at every possible moment throughout a flow.",
+  "zh": "但在 Meticulous,它实际上近似相等，因为我们做了一件非常不寻常、非常激进的事：我们在整个流程中每一个可能的时刻都截取一张截图。"
+ },
+ {
+  "seg": 84,
+  "start": 600.008,
+  "end": 606.476,
+  "speaker": "Unknown",
+  "en": "So if there's a 412-step flow and there's a single pixel diff, meticulous will flag it.",
+  "zh": "所以如果一个流程有 412 步，而出现了单个像素的 diff,Meticulous 会把它标记出来。"
+ },
+ {
+  "seg": 85,
+  "start": 607.297,
+  "end": 610.439,
+  "speaker": "Unknown",
+  "en": "And so you can start to see how all these technologies layer together.",
+  "zh": "于是你开始能看到所有这些技术是如何层层叠加的。"
+ },
+ {
+  "seg": 86,
+  "start": 611.359,
+  "end": 616.061,
+  "speaker": "Unknown",
+  "en": "You only get exhaustive verification because of this code coverage algorithm.",
+  "zh": "你之所以能获得穷尽的验证，是因为这个代码覆盖率算法。"
+ },
+ {
+  "seg": 87,
+  "start": 616.642,
+  "end": 621.044,
+  "speaker": "Unknown",
+  "en": "That algorithm only really works because you take a screenshot at every possible moment.",
+  "zh": "而那个算法之所以真正有效，是因为你在每一个可能的时刻都截取截图。"
+ },
+ {
+  "seg": 88,
+  "start": 621.484,
+  "end": 626.206,
+  "speaker": "Unknown",
+  "en": "If you take a screenshot at every possible moment, you're taking on the order of tens, hundreds of millions of screenshots.",
+  "zh": "如果你在每一个可能的时刻都截取截图，你截取的截图数量级是几千万、上亿张。"
+ },
+ {
+  "seg": 89,
+  "start": 626.566,
+  "end": 629.868,
+  "speaker": "Unknown",
+  "en": "And so traditionally, you would just drown in noise or drown in flakiness.",
+  "zh": "按传统方式，你会被噪声淹没，或被 flakiness 淹没。"
+ },
+ {
+  "seg": 90,
+  "start": 630.348,
+  "end": 638.371,
+  "speaker": "Unknown",
+  "en": "And so you have to solve flakiness at the root level, which is what we do by augmenting the browser.",
+  "zh": "所以你必须从根源上解决 flakiness,这正是我们通过增强浏览器所做的。"
+ },
+ {
+  "seg": 91,
+  "start": 641.772,
+  "end": 644.393,
+  "speaker": "Unknown",
+  "en": "These are some nice things that our customers have said about us.",
+  "zh": "这些是我们客户对我们的好评。"
+ },
+ {
+  "seg": 92,
+  "start": 646.174,
+  "end": 648.134,
+  "speaker": "Unknown",
+  "en": "And that concludes today's talk.",
+  "zh": "今天的分享到此结束。"
+ },
+ {
+  "seg": 93,
+  "start": 648.614,
+  "end": 653.876,
+  "speaker": "Unknown",
+  "en": "If you're interested in finding out more, then come to boothlg6.",
+  "zh": "如果你有兴趣了解更多，请来 boothlg6 展位。"
+ },
+ {
+  "seg": 94,
+  "start": 654.276,
+  "end": 655.517,
+  "speaker": "Unknown",
+  "en": "And thank you so much for listening.",
+  "zh": "非常感谢大家的聆听。"
+ },
+ {
+  "seg": 95,
+  "start": 665.264,
+  "end": 666.626,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

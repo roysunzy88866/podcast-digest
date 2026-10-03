@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":16,"Cowork":6,"智能体":384,"MCP":69,"变革管理":3,"语义视图":1,"技能":25,"反馈回路":2,"护栏":70}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":16,"Cowork":6,"智能体":385,"MCP":69,"变革管理":3,"语义视图":1,"技能":25,"反馈回路":2,"护栏":70}</script>
 
 <script>
 (function(){

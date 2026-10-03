@@ -139,7 +139,7 @@ Varun 认为它们是同一个循环：智能体只有被用了才会变好，�
 
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)、编码智能体 (coding agent)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同概念:后训练 (post-training)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

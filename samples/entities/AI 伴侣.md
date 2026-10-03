@@ -33,7 +33,7 @@ unlisted: true
 
 [[Portola]] · [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[评审器]] · [[即兴演员]] · [[设定种子]] · [[响应时间]] · [[能力过剩]]
 
-<script type="application/json" class="pd-epn">{"Portola":2,"Tolan":3,"LLM":52,"提示词":19,"记忆":20,"评审器":3,"即兴演员":1,"设定种子":1,"响应时间":2,"能力过剩":3}</script>
+<script type="application/json" class="pd-epn">{"Portola":2,"Tolan":3,"LLM":52,"提示词":20,"记忆":20,"评审器":3,"即兴演员":1,"设定种子":1,"响应时间":2,"能力过剩":3}</script>
 
 <script>
 (function(){

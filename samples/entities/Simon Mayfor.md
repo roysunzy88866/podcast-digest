@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dex Horthy":2,"软件工厂":1,"智能体":384,"上下文工程":16,"规范":2,"计划":1,"代码审查":22,"垃圾话":8,"Human Layer":1,"技能":25}</script>
+<script type="application/json" class="pd-epn">{"Dex Horthy":2,"软件工厂":1,"智能体":385,"上下文工程":16,"规范":2,"计划":1,"代码审查":22,"垃圾话":8,"Human Layer":1,"技能":25}</script>
 
 <script>
 (function(){

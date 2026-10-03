@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":22,"智能体化的 SDLC":1,"智能体":384,"可观测性":34,"护栏":70,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":22,"智能体化的 SDLC":1,"智能体":385,"可观测性":35,"护栏":70,"内环与外环":1}</script>
 
 <script>
 (function(){
