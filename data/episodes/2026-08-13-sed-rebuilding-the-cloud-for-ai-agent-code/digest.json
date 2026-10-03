@@ -1,0 +1,196 @@
+{
+  "title_zh": "当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建",
+  "tldr": "Render 创始人兼 CEO Anurag Gohl 对谈 Sean Falconer，讲为什么 Kubernetes 逼每家公司自建内部平台，以及智能体成为一等用户后云该怎么变。",
+  "digest_md": "这一集聊的是一件正在悄悄发生的事：云是被人类开发者的习惯塑造的，但现在越来越多的代码由 LLM 生成、越来越多的服务由 AI 智能体启动和关闭——云是否需要为机器操作者重建？主角是 Anurag Gohl，Render 的创始人兼 CEO，Render 是一个帮应用开发者托管部署的云平台。他是 Stripe 的第八号员工，亲眼看着顶级工程团队把 15% 到 20% 的工程师耗在「只是让 AWS 上的虚拟机能跑起来」上，这段经历直接催生了 Render。而他最反直觉的判断是：**AI 智能体不会拯救 AWS，反而会抛弃它**——因为智能体永远倾向于用最省 token、步骤最少的方式达成结果，而在 AWS 上做同一件事要多配几千个变量、多几十倍出错机会。\n\n## Stripe 都逃不掉的云复杂性问题\n\nAnurag 在 Stripe 期间，工程团队始终有 15% 到 20% 在管理 AWS 上的虚拟机、存储、网络和负载均衡——而且随着规模增长，这件事从不变简单，只会不断招人。他的推理是：Stripe 是世界上最好的工程组织之一，连它都解决不了这个问题，那这个问题必然影响所有人。\n\n到了 2016、2017 年容器化兴起，大家以为能解脱，结果只是换了个更复杂的依赖：Kubernetes(一套编排容器的系统，管着你的应用怎么部署、扩容、联网)。他列出的清单很具体：应用一变大，你就要配服务间通信规则、CI/CD(持续集成/持续部署，代码推送后自动测试上线)要按特定方式运作、某些环境要保护、某些服务不能暴露到公网、全套可观测性要跟上。而且出事时你必须理解 Kubernetes 底层才能定位——「是这个网络策略变更导致了这个 DNS 错误」。即使在所谓「托管 Kubernetes」上，你还是要手写大量 YAML(一种描述配置的文本格式)来描述 Kubernetes 的内部概念本身。应用增长后还会撞上从没见过的瓶颈：突然内部 DNS 流量爆炸，CoreDNS(集群内部域名解析服务)不工作了，谁来管？只能你自己去研究怎么配。再往下一层还有虚拟机打补丁、节点池配置、为 Kubernetes 喜欢的冗余容量买单——很多公司最终在大量闲置的 Kubernetes 容量上花掉远超必要的钱。\n\n他还有一个尖锐观察：**每一家跑在 Kubernetes 上的公司，最终都会自建某种版本的内部 PaaS(平台即服务)，而且长得都差不多**。为什么坚持自己造？一半是「我们以前就这么干」的惯性，一半是代际因素——很多人就是用 AWS 的工具学会云的，Kubernetes 只是我们最终陷入的状态。就像早期的 Auth(登录鉴权)，每家公司每个工程师都写了八遍，直到有服务把它接走。\n\n## 为什么现在是拐点：DevOps 团队被压垮了\n\n这个多年不变的局面正在快速崩塌，动力是 AI。「有这么多更多的人在用 AI 构建更多的应用程序，以至于用 DevOps 团队静态管理集群这整个理念正在崩塌」——DevOps 团队在各处被拉扯到超出负荷，光是核心应用都跟不过来，其他所有人还在排队等「我还有个应用想搭起来」。主持人 Sean 补了一个很好的结构解释：传统开发流程里「写代码」是最慢的环节，其他环节可以跟着慢；现在代码生成被压缩了，慢下来变成瓶颈的恰恰是平台运维。\n\n这也解释了 Render 的增长数据：过去两年的增长超过了之前六年的总和，而且现在来的客户很多**已经有现成的 DevOps 团队**——两年前不是这样的。\n\n## PaaS 的天花板问题与「复杂度渐进式披露」\n\n对 PaaS 最经典的批评是「公司总会长大到超出它，最后还是得自己去拧旋钮」。Anurag 的回应分两层。第一，对市面上大多数应用，你真的不需要 Kubernetes；Render 的打法是持续抬高平台上限，「确保你永远不会超出这个平台」。证据是 OpenAI 和 Stripe 都是 Render 的客户，还有 Base44——世界上最大的 vibe coding 平台之一，web 应用的全部计算都跑在 Render 上，被 Wix 收购、能用 Wix 内部可访问 AWS 的庞大 DevOps 团队之后，仍然选择留在 Render。反例是 Heroku:内存拿不到超过 14 GB、应用每 24 小时强制重启、自助版没有私有网络、数据不能存磁盘——太多原因让你很快就得搬走。\n\n第二层是产品方法论，他称之为**复杂度的渐进式披露**——像电子游戏一样，第一关只给你有限操作，熟练了再解锁。具体做法：有个复杂客户想要「像用 AWS 那样起一台虚拟机装东西」，Render 用一次 API 调用就能做到，但因为大多数用户不需要，这个控制项只放在 REST API 里、不上仪表盘。核心原则是：想清楚谁需要某个东西、他们使用的表面积有多大，把功能以完全产品化、完全受支持的方式暴露出来，但不必让每个人都时刻面对它。\n\n他还划了一条清晰的边界：Render 是为**应用工程师**构建的，不是为 DevOps 人员；如果你在造数据库这类要深入底层的基础设施公司，「那你就不应该用 Render」。但如果你在做标准的 AI 原生公司或 SaaS,「有 95% 的概率你不需要去用 AWS」。\n\n## 让智能体成为一等用户：MCP、护栏与撤销机制\n\n现在很多人在用 Claude 或 Codex 管理 Render 部署，Render 为此提供了 skills 和 MCP server(MCP 是让 AI 模型调用外部工具的标准协议)，复杂性被隐藏得更远——智能体甚至可以自己生成 Render 的基础设施即代码格式 blueprints,用户不需要知道 blueprint 长什么样。MCP server 暴露的关键能力是拉取日志、部署数据和指标来排查失败的部署，很多用户在「快速推代码、看结果」的开发循环里靠它调试，Claude 能把部署和生产环境发生的事关联起来。主持人也印证了这个趋势：在 Confluent,MCP server 的头号用途除了探索数据就是调试，甚至有客户把「对智能体调试的支持」写进采购合同。\n\n但智能体操作基础设施需要全新的安全设计。Anurag 给了两个具体机制：\n\n- **延迟删除做撤销**：智能体要删一个没人用的数据库，可以告诉它「已删除」，但实际把数据库保留 30 分钟到 24 小时，期间任何人都可下恢复命令。\n- **基础设施即代码当回滚手段**：智能体删了挂自定义域名的 web 服务、流量瞬间归零怎么办？Render 的 blueprints 让你几行代码定义所有服务，把服务原样加回来——和「代码改动引发 bug 就回滚改动」是同一个逻辑。\n\n进一步的护栏正在构建：识别出用户是智能体后，可以设规则——达到某个严重程度或成本水平，就必须有人类在环里批准。成本护栏尤其重要，「你不会想要不小心启动了什么东西，结果突然收到一笔巨额账单，只因为某个智能体做了一个不一定正确的决定」。\n\n至于仪表盘会不会被智能体接口取代？他的答案是不会，两边都在加大投入：为特定工作流设计的、信息密集的可视化视图，往往比通过 Claude 或文本化的 MCP 更高效；开发者只是多了一个界面，写代码时用 MCP,出了事还是会进仪表盘看全量指标和日志。\n\n## 下注 bare metal:为了控制，不只是成本\n\n一处时间线更正：客户工作负载迁到 bare metal(裸金属，直接跑在物理机而非虚拟机上)是大约一个月前才开始的，此前一直在准备。驱动力是安全而非省钱：云端越来越多代码是不受信任的，必须跑在 micro VM(微型虚拟机，极轻量的隔离环境)里，而像 Firecracker 这类 micro VM 配 KVM hypervisor(虚拟机监控器)时，直接跑在裸金属上比嵌套在虚拟机里性能好得多。自有机 metal 换来的是深度控制：自己调整 hypervisor、按 Render 自己的工作负载特性控制机器的各个元素；长远看甚至想做机架级放置——把应用和数据库放同一机架，而这是 AWS 给不了的。而且 AWS 的 metal 机器只有一种规格，没法更大也没法更小。\n\n## Render Workflows:AI 时代逼出来的持久化执行\n\n应用的本质变了。过去异步任务简单到「发一封邮件、处理一笔支付」，现在一个智能体应用，第一个请求拉 10 条记录、下一个拉 400 条；任务可能是网页抓取、无头浏览器，或者要 128 GB 内存的数据处理——异步任务变得极度多样和异构，用传统后台 worker 加队列来搭已经非常吃力。这就是持久化执行(把一串任务的状态保住、失败可重试、跨任务延续)在过去一年终于火起来的原因。\n\nRender Workflows 的做法：用代码定义任务(Render SDK 触发)，Render 替你处理全部执行——不用搭 worker、不用搭队列，按任务执行时间收费，内存可以定义到任务级别。他直接对比 Temporal(最流行的持久化执行框架)：Temporal 学习曲线非常陡，你必须改造应用去匹配它的工作方式，可你需要的可能只是重试、可观测性和一个任务序列；而且 Temporal 不帮你管算力，你还是得自己设计 worker 池——「你的 worker 池应该多大？一直运行着但有没有被利用？」——和 Kubernetes 是同一类问题。Workflows 是端到端自研，没 fork 任何东西，底层状态管理主要靠 Postgres,部分用了 Redis。他判断持久化执行会变成像 Postgres 一样的云基础原语：「无论你用哪家云，你都必须有这么一个原语，因为这是人们构建应用的一种全新模式」。\n\n## 为什么智能体会抛弃低层云\n\n这集的核心论点收束在这里。有人说「智能体会让 AWS 变得好用」，Anurag 不担心：「我认为智能体会倾向于以最省 token 的方式达成某个结果。它们是结果驱动的」。在 Render 上启动一个 web 服务是一次调用、确定性强；在 AWS 上同一个目标，智能体要决定起什么 VM、选什么套餐、接一堆线，每一步都要等资源起来，甚至可能要先拉起一整个 Kubernetes 集群——步骤越多，任何一步出错的概率越大，和用户的来回确认也越多。token 经济在加速这个判断：「token 的免费午餐时代已经结束了」，公司在新闻里一个月烧光全年 token 预算还说不清 ROI,必然会寻找不那么贪婪吞 token 的替代方案。\n\n往前看三到五年，他的愿景是：云端运行大量即时生成、无人审阅的代码，因此一切都要跑在沙箱里，治理需求全面上升——而今天的云因为「人类信任人类」根本不存在全面治理；新的内核漏洞每周都在出现，「除非你自己拥有 AI 驱动的防护，否则你真的无法防范 AI 驱动的漏洞利用」；供应链攻击之后，还会有尚未被发明的、攻击基础设施栈另一部分的动态网络攻击。他的结语很坦率：「云会变得更加可怕，但我只是希望这一切最终还能正常运转。」\n\n最后一个值得记住的数据点：Render 截至 6 月每周有超过 40 万开发者注册，平台上运行着接近 1000 万个活跃服务，正经历史上最快的营收增长。新用户的构成在变：一大批「能看懂伪代码、能看懂 Claude 在干什么」的准技术人员涌进来，还有人在用 Claude 和 Codex 自学编程——产品经理是典型：有技术底子、读过计算机科学、但没以写代码为职业，现在他们在构建以前不可能构建的应用。「软件开发者的定义正在扩展」，而这些新开发者是在一种新的云上被训练出来的，不是当年的 AWS。\n\n## 本集带走\n\n- **手写 YAML 管理基础设施的模式正在瓦解**：Stripe 这样的顶级团队曾把 15-20% 的工程师耗在管 AWS 上，而 AI 让应用生成速度快过 DevOps 团队的承载极限——这正推动团队从自建 Kubernetes 迁向高层平台。\n- **判断要不要低层控制，看你在造什么**：应用公司(SaaS、AI 原生)大概率不需要碰 VM 和 Kubernetes;造数据库等基础设施的公司才需要深入到底层。\n- **产品上用「复杂度渐进式披露」**：简单需求给默认体验，复杂控制放进 API 层按需暴露——不逼所有人面对全部复杂度，也不设死天花板把客户赶走。\n- **给智能体设计基础设施要三件事**：可回滚(延迟删除、基础设施即代码快速重建)、成本护栏(超阈值要求人类批准)、快(构建部署越快，智能体越偏好你)。\n- **智能体选工具的标准是省 token、步骤少、确定性强**：一次 API 调用比在低层云上配几千个变量、几十步操作更有竞争力——这是高层平台的结构性机会。\n- **持久化执行正在成为云的基础原语**：AI 应用的异步任务高度异构(抓取、浏览器、大内存计算)，传统 worker+队列已不够用，按任务定义资源和重试的模式会像 Postgres 一样普及。",
+  "quotes": [
+    {
+      "en": "Yeah, so at all times when I was at Stripe, around 15 to 20% of the engineering team was simply managing VMs on AWS and all the complexity around that, storage and networking.",
+      "zh": "是的，我在 Stripe 期间，工程团队一直有大约 15% 到 20% 仅仅是在管理 AWS 上的 VM 以及围绕它的所有复杂性，存储和网络。",
+      "timestamp": "02:18",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "You could give application developers the same powers that they would get from the most accomplished world-class internal DevOps team, and you could do it in a way that was entirely self-serve for them.",
+      "zh": "你可以赋予应用开发者与世界上最有成就的世界级内部 DevOps 团队同等的能力，而且可以以一种对他们来说完全自助的方式做到。",
+      "timestamp": "03:57",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "You can't really build your Kubernetes YAMLs using AI because AI makes mistakes and you have to understand when it does make a mistake because something will stop working at 2 a.m. at night and then AI won't really be able to tell you",
+      "zh": "你不能真正用 AI 来构建你的 Kubernetes YAML,因为 AI 会犯错，而当它犯错时你必须能够理解，因为某个东西会在凌晨 2 点停止工作，然后 AI 其实没办法告诉你",
+      "timestamp": "08:36",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "Because you just wrote it with AI, you have no idea how the thing works, and then you don't really want to be vibe coding your infrastructure when something's down.",
+      "zh": "因为那东西就是你用 AI 写的，你完全不知道它是怎么工作的，而在有东西宕机的时候，你肯定不想用 vibe coding 的方式来搞你的基础设施。",
+      "timestamp": "08:51",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "Partly because, and I'm sorry to bring up AI again, but so many more people are building so many more applications with AI that this whole notion of statically managing your cluster using a DevOps team is breaking down.",
+      "zh": "部分原因是——很抱歉我又要提到 AI——有这么多更多的人在用 AI 构建更多的应用程序，以至于用 DevOps 团队静态管理你的集群这整个理念正在崩塌。",
+      "timestamp": "10:50",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "Yeah, I mean, a lot of people talk about guardrails around these things, but I think from infrastructure, guardrails around the cost as well, because you don't want to accidentally spin up something that suddenly you have a huge bill for because some agent made a decision that was not necessarily the right decision.",
+      "zh": "是的，很多人都在谈论围绕这些东西的护栏，但我认为从基础设施角度，成本方面也需要护栏，因为你不会想要不小心启动了什么东西，结果突然收到一笔巨额账单，只因为某个智能体做了一个不一定正确的决定。",
+      "timestamp": "22:56",
+      "speaker": "Sean Falconer"
+    },
+    {
+      "en": "Agents will always prefer higher level systems like Render to spin up a web service or spin up a workflow because trying to do that on AWS will take much longer because you have to wire up a bunch of things together and each thing takes a while to come up.",
+      "zh": "智能体也总会更倾向于 Render 这样的更高层系统来启动一个 web 服务或启动一个工作流，因为试图在 AWS 上做这件事会花更长时间，因为你必须把一堆东西接线到一起，而每个东西都要花一段时间才能起来。",
+      "timestamp": "40:40",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "issues because again we're seeing that today a new kernel exploit is coming out every week and you really can't protect yourselves against AI-driven exploits unless you have AI-driven protections yourself.",
+      "zh": "问题，因为我们今天已经看到每周都有一个新内核漏洞被披露，而除非你自己拥有 AI 驱动的防护，否则你真的无法防范 AI 驱动的漏洞利用。",
+      "timestamp": "44:37",
+      "speaker": "Anurag Gohl"
+    },
+    {
+      "en": "So many new developers are really being trained on a new kind of cloud as opposed to AWS back in the day.",
+      "zh": "所以很多新开发者实际上是在一种新的云上被训练出来的，而不是像当年的 AWS。",
+      "timestamp": "48:06",
+      "speaker": "Anurag Gohl"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:18",
+      "speaker": "Anurag Gohl",
+      "en": "Yeah, so at all times when I was at Stripe, around 15 to 20% of the engineering team was simply managing VMs on AWS and all the complexity around that, storage and networking.",
+      "zh": "是的，我在 Stripe 期间，工程团队一直有大约 15% 到 20% 仅仅是在管理 AWS 上的 VM 以及围绕它的所有复杂性，存储和网络。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Anurag Gohl",
+      "en": "And if they're running into this problem, clearly it's a problem that's going to essentially impact everyone if they can't figure this thing out.",
+      "zh": "而如果连它们都遇到这个问题，很明显，如果它们都解决不了，这基本上就是一个会影响到所有人的问题。"
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Anurag Gohl",
+      "en": "You could give application developers the same powers that they would get from the most accomplished world-class internal DevOps team, and you could do it in a way that was entirely self-serve for them.",
+      "zh": "你可以赋予应用开发者与世界上最有成就的世界级内部 DevOps 团队同等的能力，而且可以以一种对他们来说完全自助的方式做到。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Anurag Gohl",
+      "en": "You can't really build your Kubernetes YAMLs using AI because AI makes mistakes and you have to understand when it does make a mistake because something will stop working at 2 a.m. at night and then AI won't really be able to tell you",
+      "zh": "你不能真正用 AI 来构建你的 Kubernetes YAML,因为 AI 会犯错，而当它犯错时你必须能够理解，因为某个东西会在凌晨 2 点停止工作，然后 AI 其实没办法告诉你"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Anurag Gohl",
+      "en": "Because you just wrote it with AI, you have no idea how the thing works, and then you don't really want to be vibe coding your infrastructure when something's down.",
+      "zh": "因为那东西就是你用 AI 写的，你完全不知道它是怎么工作的，而在有东西宕机的时候，你肯定不想用 vibe coding 的方式来搞你的基础设施。"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Anurag Gohl",
+      "en": "Partly because, and I'm sorry to bring up AI again, but so many more people are building so many more applications with AI that this whole notion of statically managing your cluster using a DevOps team is breaking down.",
+      "zh": "部分原因是——很抱歉我又要提到 AI——有这么多更多的人在用 AI 构建更多的应用程序，以至于用 DevOps 团队静态管理你的集群这整个理念正在崩塌。"
+    },
+    {
+      "timestamp": "11:55",
+      "speaker": "Anurag Gohl",
+      "en": "Yeah, and that's exactly what we're seeing and it's why Render has grown more in the last two years than in the previous six.",
+      "zh": "是的，这正是我们看到的情况，也是 Render 在过去两年里的增长超过之前六年的原因。"
+    },
+    {
+      "timestamp": "20:30",
+      "speaker": "Anurag Gohl",
+      "en": "But if you're building a standard AI native company or a SaaS or whatever it is, there's a 95% chance",
+      "zh": "但如果你在构建一家标准的 AI 原生公司，或者一个 SaaS,或者其他什么，有 95% 的概率"
+    },
+    {
+      "timestamp": "20:38",
+      "speaker": "Anurag Gohl",
+      "en": "That you don't need to go to AWS.",
+      "zh": "你不需要去用 AWS。"
+    },
+    {
+      "timestamp": "22:56",
+      "speaker": "Sean Falconer",
+      "en": "Yeah, I mean, a lot of people talk about guardrails around these things, but I think from infrastructure, guardrails around the cost as well, because you don't want to accidentally spin up something that suddenly you have a huge bill for because some agent made a decision that was not necessarily the right decision.",
+      "zh": "是的，很多人都在谈论围绕这些东西的护栏，但我认为从基础设施角度，成本方面也需要护栏，因为你不会想要不小心启动了什么东西，结果突然收到一笔巨额账单，只因为某个智能体做了一个不一定正确的决定。"
+    },
+    {
+      "timestamp": "24:44",
+      "speaker": "Anurag Gohl",
+      "en": "Like, why leave the tool that you're in all day to go and log in some dashboard?",
+      "zh": "毕竟，为什么要离开你整天待着的工具，跑去登录某个仪表盘呢？"
+    },
+    {
+      "timestamp": "36:53",
+      "speaker": "Anurag Gohl",
+      "en": "In many ways it becomes like a Postgres database.",
+      "zh": "从很多方面看，它会变得像一个 Postgres 数据库。"
+    },
+    {
+      "timestamp": "36:57",
+      "speaker": "Anurag Gohl",
+      "en": "So you just have to have a primitive in whatever cloud you're using to do this kind of work because it is becoming so common now and it's a completely new pattern of how people are building applications, which is why we invested in it so early.",
+      "zh": "所以无论你用哪家云，你都必须有这么一个原语来做这类工作，因为它现在变得太常见了，而且它是人们构建应用程序的一种全新模式，这也是我们这么早投入其中的原因。"
+    },
+    {
+      "timestamp": "40:40",
+      "speaker": "Anurag Gohl",
+      "en": "Agents will always prefer higher level systems like Render to spin up a web service or spin up a workflow because trying to do that on AWS will take much longer because you have to wire up a bunch of things together and each thing takes a while to come up.",
+      "zh": "智能体也总会更倾向于 Render 这样的更高层系统来启动一个 web 服务或启动一个工作流，因为试图在 AWS 上做这件事会花更长时间，因为你必须把一堆东西接线到一起，而每个东西都要花一段时间才能起来。"
+    },
+    {
+      "timestamp": "41:09",
+      "speaker": "Anurag Gohl",
+      "en": "I think agents are going to prefer the most token efficient way to get to a certain outcome.",
+      "zh": "我认为智能体会倾向于以最省 token 的方式达成某个结果。"
+    },
+    {
+      "timestamp": "41:15",
+      "speaker": "Anurag Gohl",
+      "en": "They're outcome driven.",
+      "zh": "它们是结果驱动的。"
+    },
+    {
+      "timestamp": "42:36",
+      "speaker": "Anurag Gohl",
+      "en": "Yeah, I think token economy combined with correctness makes the case for much higher level interfaces, which is why I think Render is seeing the growth that it is.",
+      "zh": "是的，我认为 token 经济加上正确性，让更高层接口的论据更充分了，这也是为什么我认为 Render 正在看到它现在的增长。"
+    },
+    {
+      "timestamp": "44:37",
+      "speaker": "Anurag Gohl",
+      "en": "issues because again we're seeing that today a new kernel exploit is coming out every week and you really can't protect yourselves against AI-driven exploits unless you have AI-driven protections yourself.",
+      "zh": "问题，因为我们今天已经看到每周都有一个新内核漏洞被披露，而除非你自己拥有 AI 驱动的防护，否则你真的无法防范 AI 驱动的漏洞利用。"
+    },
+    {
+      "timestamp": "45:11",
+      "speaker": "Anurag Gohl",
+      "en": "So the cloud is going to become more scary, but there will be good actors as well.",
+      "zh": "所以云会变得更加可怕，但也会有好的一方存在。"
+    },
+    {
+      "timestamp": "47:07",
+      "speaker": "Anurag Gohl",
+      "en": "So in many ways, I think the definition of a software developer is expanding.",
+      "zh": "所以在很多方面，我认为软件开发者的定义正在扩展。"
+    },
+    {
+      "timestamp": "48:02",
+      "speaker": "Anurag Gohl",
+      "en": "to use AWS to deploy their applications.",
+      "zh": "用 AWS 来部署他们的应用。"
+    },
+    {
+      "timestamp": "48:06",
+      "speaker": "Anurag Gohl",
+      "en": "So many new developers are really being trained on a new kind of cloud as opposed to AWS back in the day.",
+      "zh": "所以很多新开发者实际上是在一种新的云上被训练出来的，而不是像当年的 AWS。"
+    }
+  ],
+  "voice_script": "今天这期,聊一件正在悄悄发生、但可能会把整个云行业重排一遍的事。\n\n先说今天的主角。Anurag Gohl,Render 的创始人兼 CEO。Render 是一个帮应用开发者托管部署的云平台。Anurag 是 Stripe 的第八号员工,在 Stripe 期间亲眼看着这么一支顶级工程团队,始终有百分之十五到二十的工程师,耗在\"只是让 AWS 上的虚拟机能跑起来\"这件事上。这段经历直接催生了 Render。这期访谈里,他抛出一个很反直觉的判断:AI 智能体不会拯救 AWS,反而会抛弃它。为什么这么说,咱们一条线讲下来。\n\n先看这个问题的来龙去脉。云这个东西,是被人类开发者的习惯塑造出来的。但现在,越来越多的代码由大模型生成,越来越多的服务由 AI 智能体启动和关闭。操作者变了,云是不是该为机器重建一遍?\n\n在讲智能体之前,得先交代一个老问题,就是云的复杂性。Anurag 在 Stripe 那几年,不管团队多强,那百分之十五到二十的工程师就是省不下来,而且随着规模增长,这事只会不断招人。他的推理很简单:Stripe 是世界上最好的工程组织之一,连它都解决不了这个问题,那这个问题必然影响所有人。\n\n到了二零一六、一七年,容器化兴起,大家以为能解脱了,结果只是换了个更复杂的依赖——Kubernetes。说白了,这是一套编排容器的系统,管着你的应用怎么部署、扩容、联网。应用一变大,你就得配服务间通信规则,CI/CD、也就是代码推送后自动测试上线的流程,得按特定方式运作;某些环境要保护,某些服务不能暴露到公网,可观测性全套要跟上。出了事,你必须理解 Kubernetes 底层才能定位,比如\"是这个网络策略变更导致了这个 DNS 错误\"。就算是所谓的托管 Kubernetes,你还是要手写大量 YAML——一种描述配置的文本格式——去描述 Kubernetes 的内部概念本身。再往下,还有虚拟机打补丁、节点池配置,很多公司最终在大量闲置的容量上花掉远超必要的钱。\n\n那为什么明明这么麻烦,大家还坚持自己搞?Anurag 有个尖锐的观察:每一家跑在 Kubernetes 上的公司,最终都会自建某种版本的内部平台即服务,而且长得都差不多。原因一半是\"我们以前就这么干\"的惯性,一半是代际因素——很多人就是用 AWS 的工具学会云的。这就像早期的登录鉴权,每家公司都自己写,直到有服务把它接走。\n\n那这个多年不变的局面,为什么现在开始崩塌了?动力是 AI。用原话说,有太多更多的人在用 AI 构建更多的应用程序,以至于用 DevOps 团队静态管理集群这整个理念,正在崩塌——DevOps 团队在各处被拉扯到超负荷,光是核心应用都跟不过来,后面还排着队。主持人补了一个很好的结构解释:传统开发流程里,写代码是最慢的环节,其他环节可以跟着慢;现在代码生成被压缩了,慢下来变成瓶颈的,恰恰是平台运维。这也解释了 Render 的增长数据:过去两年的增长,超过了之前六年的总和,而且现在来的客户,很多已经有现成的 DevOps 团队——两年前不是这样的。\n\n这就引出一个对 Render 这类平台的老批评:公司总会长大到超出平台的天花板,最后还是得自己去拧旋钮。Anurag 的回应分两层。第一,对市面上大多数应用,你真的不需要 Kubernetes。证据是 OpenAI 和 Stripe 都是 Render 的客户;还有 Base44,世界上最大的 vibe coding 平台之一,被 Wix 收购之后,明明可以用 Wix 内部庞大的 DevOps 团队,仍然选择留在 Render。反例是 Heroku,内存拿不到超过十四 GB、应用每二十四小时强制重启,太多原因让你很快就得搬走。Render 的打法是持续抬高平台上限,让你永远不超出它。第二层是产品方法论,叫复杂度的渐进式披露——像电子游戏,第一关只给你有限操作,熟练了再解锁。有复杂客户想像 AWS 那样起一台虚拟机?一次 API 调用就能做到,但因为大多数用户不需要,这个控制项就放在 API 层,不上仪表盘。\n\n好,背景垫完了,现在回到这期真正的主线:智能体来了,云该怎么变。现在很多人在用 Claude 或 Codex 管理 Render 的部署,Render 提供了 MCP server——MCP 是让 AI 模型调用外部工具的标准协议。智能体甚至可以自己生成 Render 的基础设施描述文件,用户不需要知道它长什么样。这个 MCP server 暴露的关键能力,是拉取日志、部署数据和指标来排查失败的部署。主持人也印证了这个趋势:在 Confluent,MCP server 的头号用途之一就是调试,甚至有客户把\"对智能体调试的支持\"写进了采购合同。\n\n但让机器操作基础设施,安全设计得重做。Render 给了两个具体机制。一个是延迟删除:智能体要删一个没人用的数据库,可以告诉它\"已删除\",但实际保留三十分钟到二十四小时,期间任何人都能下恢复命令。另一个是用基础设施即代码当回滚手段:智能体删了挂自定义域名的服务、流量瞬间归零怎么办?几行代码把服务原样加回来,跟代码出了 bug 就回滚改动是同一个逻辑。再往上还有成本护栏——原话说得很好:你不会想不小心启动了什么东西,结果突然收到一笔巨额账单,只因为某个智能体做了一个不一定正确的决定。达到某个严重程度或成本水平,就必须有人类批准。\n\n那智能体到底会怎么选云?这就是开头那个反直觉判断的论证了。有人说智能体会让 AWS 变得好用,Anurag 不这么看:智能体是结果驱动的,永远倾向于用最省 token、步骤最少的方式达成结果。在 Render 上启动一个 web 服务,是一次调用、确定性强;在 AWS 上同一个目标,智能体要决定起什么虚拟机、选什么套餐、接一堆线,甚至可能要先拉起一整个 Kubernetes 集群——步骤越多,任何一步出错的概率就越大。而 token 的免费午餐时代已经结束了,公司开始算这笔账了。\n\n这条线再往前推几年,他的愿景是:云端跑着大量即时生成、无人审阅的代码,一切都要在沙箱里,治理需求全面上升——而今天的云因为\"人类信任人类\",根本不存在全面治理。新的内核漏洞每周都在出现,除非你自己拥有 AI 驱动的防护,否则你真的防不住 AI 驱动的漏洞利用。这期的结语也很坦率:云会变得更加可怕,但我只是希望这一切最终还能正常运转。\n\n最后留一个值得记住的事实。Render 截至六月,每周有超过四十万开发者注册,平台上跑着接近一千万个活跃服务,正经历史上最快的营收增长。而且新用户的构成在变:一大批能看懂伪代码、能看懂 Claude 在干什么的准技术人员涌进来,产品经理就是典型。软件开发者的定义正在扩展,而这些新开发者,是在一种新的云上被训练出来的——不是当年的 AWS。"
+}

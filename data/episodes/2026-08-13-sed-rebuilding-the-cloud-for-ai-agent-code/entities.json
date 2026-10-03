@@ -1,0 +1,2118 @@
+{
+  "episode_id": "2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-08-13",
+  "tags": [
+    "云基础设施",
+    "AI 智能体",
+    "平台即服务",
+    "持久化执行",
+    "开发者生态"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "anurag-gohl",
+      "type": "person",
+      "role": "host",
+      "name": "Anurag Gohl",
+      "file": "Anurag Gohl",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            54.242,
+            57.484
+          ],
+          "quote": "Anurag Gohl is the founder and CEO of Render.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sean-falconer",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sean Falconer",
+      "file": "Sean Falconer",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.064,
+            82.075
+          ],
+          "quote": "In this episode, Anurag joins Sean Falconer to discuss why so many teams end up rebuilding the same infrastructure on top of Kubernetes, what changes when AI agents become first-class users of infrastructures and the guardrails that shift demands, and why the economics of AI are pushing developers towards higher-level platforms that trade fine-grained control for speed and safety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            83.135,
+            85.376
+          ],
+          "quote": "This episode is hosted by Sean Falconer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "type": "company",
+      "role": "company",
+      "name": "Render",
+      "file": "Render",
+      "primary": true,
+      "how_described": "本集主角：Anurag 创立的为应用部署设计的云平台，处理扩缩容、自愈和安全，让应用开发者无需自管基础设施；过去两年增长超过之前六年总和，每周超 40 万开发者注册、近 1000 万活跃服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            35.176,
+            43.859
+          ],
+          "quote": "Render is a cloud platform designed for application deployment by handling scaling, self-healing, and security to reduce operations work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            44.399,
+            53.662
+          ],
+          "quote": "Render has been adapting to the AI era by building tools that let agents deploy and debug applications directly with added guardrails and security.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            54.242,
+            57.484
+          ],
+          "quote": "Anurag Gohl is the founder and CEO of Render.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            108.117,
+            119.708
+          ],
+          "quote": "So I wanted to go back a little bit in time and ask you a little bit about your history and maybe how some of those experiences led you to the founding, render, and everything that you're doing there today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            226.281,
+            236.906
+          ],
+          "quote": "It became clear to me that you could give app developers, and specifically app developers, not DevOps engineers, because Render has always focused on application developers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            272.685,
+            274.145
+          ],
+          "quote": "And that's what Render ended up becoming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            275.448,
+            280.552
+          ],
+          "quote": "Yeah, I guess like before kind of getting into specifics on render, what kind of breaks down?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            632.165,
+            646.973
+          ],
+          "quote": "But I also now see from Render's perspective, we actually see teams moving from large Kubernetes clusters to Render because they get all the functionality that they're looking for without having to deal with the complexity of Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            715.768,
+            722.374
+          ],
+          "quote": "Yeah, and that's exactly what we're seeing and it's why Render has grown more in the last two years than in the previous six.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            780.18,
+            791.089
+          ],
+          "quote": "And Render, especially as we continue to add more functionality, more customization, more flexibility, more power to Render, we continue to raise the ceiling on what's possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            827.026,
+            833.531
+          ],
+          "quote": "And Render's always built for people who are building complex, ambitious applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            843.458,
+            849.643
+          ],
+          "quote": "And we've been able to do that with a lot of our customers and some of our, I mean, OpenAI and Stripe are amongst Render's customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            858.971,
+            864.216
+          ],
+          "quote": "They're running a lot of their compute, all of their compute for their web apps on Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            864.596,
+            866.598
+          ],
+          "quote": "And they're able to scale with Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            869.82,
+            880.111
+          ],
+          "quote": "Some infrastructure on AWS, but Base44 runs really well on Render and they want to stay on the platform, even though now they have access to this massive DevOps team inside Wix that has access to AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            933.904,
+            941.931
+          ],
+          "quote": "And they want to use Render just like they would use AWS where they would spin up a VM and install things on it and spin up an application there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            941.971,
+            948.978
+          ],
+          "quote": "With Render you can do all of that in a single API call, but most of our users don't need that specific thing that they want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            955.283,
+            968.408
+          ],
+          "quote": "Who needs something and what's the surface area of how they're using render and how do you expose that feature in a way that is fully productized, fully supported, but it may not be something that everyone has to think about all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1146.376,
+            1155.344
+          ],
+          "quote": "And the other thing that is changing is a lot of people are now using Claude or Codex to manage their render deploys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1180.461,
+            1185.743
+          ],
+          "quote": "But the main thing is that Render operates at a much higher level than say AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1197.428,
+            1206.695
+          ],
+          "quote": "You really need to focus on how really your application runs on Render, which is a very small surface area, typically, depending on the complexity of your app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1210.798,
+            1218.263
+          ],
+          "quote": "And these days, again, because of the tools we've built for AI agents to debug Render, people are able to do a lot more themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1241.863,
+            1260.838
+          ],
+          "quote": "And there's a smaller number of companies, like if you're building an infrastructure company yourself, if you're building, say, a database company that needs to really go down to the metal and figure out exactly how the database clusters are going to work together and use some esoteric AWS incantation, then you should not be using Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1261.839,
+            1267.083
+          ],
+          "quote": "But if you're an application developer, you can really use Render and continue to use Render as your application grows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1299.872,
+            1302.613
+          ],
+          "quote": "So has that been something that you've thought about at Render?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1366.068,
+            1375.753
+          ],
+          "quote": "So those are some things that I think not just render, but everyone will have to build as agents start using these applications more and more using their API or CLI or MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1390.773,
+            1398.877
+          ],
+          "quote": "So for MCP, was there specific things that you had to do design-wise that was above and beyond what the render APIs were capable of?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1441.949,
+            1453.117
+          ],
+          "quote": "And so it makes it really fast for them to develop on render because all of that stuff is available as tools in Claude and Claude can correlate deploys with what happened in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1524.342,
+            1546.657
+          ],
+          "quote": "If the world is kind of largely going towards some sort of unified experience from the terminal, from the CLI, interacting through these agents, does that mean that you put less time and effort behind the user interface, your web-based interface into Render to put more time behind your MCP and your APIs, which are gonna be more of the native experience that agents are interacting with you?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1746.965,
+            1757.511
+          ],
+          "quote": "The hypervisor, we're able to control the different elements of the machine in a way that is very specific to the kind of workloads that Render runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1825.711,
+            1832.055
+          ],
+          "quote": "I think you also recently launched Render Workflows, which is durable execution for long-running stateful processes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1920.231,
+            1926.093
+          ],
+          "quote": "And with Render Workflows, all you need to do is define your task in code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1926.653,
+            1934.176
+          ],
+          "quote": "And so any task that you want to run, you can define it in code, and then you can trigger it in code as well using Render's SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1934.636,
+            1940.718
+          ],
+          "quote": "And Render just takes care of the execution without you having to provision any compute yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1967.357,
+            1971.878
+          ],
+          "quote": "And with durable execution on render using workflows, you don't need to worry about any of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2085.003,
+            2089.924
+          ],
+          "quote": "And with Render, it's different because Render is executing your tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2090.264,
+            2096.686
+          ],
+          "quote": "And behind the scenes, Render is making sure that we only charge you for the task execution time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2179.318,
+            2190.192
+          ],
+          "quote": "I think it's going to be really interesting to see when we launch workflows in GA in a couple of weeks, by the time this comes out, maybe it's already in GA, what people use Temporal for versus render workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2234.119,
+            2241.925
+          ],
+          "quote": "And we think that it's really important to offer it as a platform primitive, as opposed to you trying to glue together open source things to run them on render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2367.409,
+            2378.034
+          ],
+          "quote": "And so Render's infrastructure as code format lets you define all your services in just a few lines of code and the agent will then be able to simply add the service back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2440.089,
+            2454.699
+          ],
+          "quote": "Agents will always prefer higher level systems like Render to spin up a web service or spin up a workflow because trying to do that on AWS will take much longer because you have to wire up a bunch of things together and each thing takes a while to come up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2455.279,
+            2459.342
+          ],
+          "quote": "And you might even need to spin up a whole Kubernetes cluster to do what you're trying to do on Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2476.805,
+            2502.741
+          ],
+          "quote": "And if Render can serve that outcome in a way that is much faster, it's a single call, it's much more deterministic for the agent because it doesn't have to configure 5,000 variables, then that's what they're going to prefer over something that operates at a really low level, at the level of a VM where the agent might need to decide what kind of VM it needs to spin up and then what kind of plan on the VM and then what kind of, you know, just like there's a lot of stuff that the agent would have to do on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2556.704,
+            2567.255
+          ],
+          "quote": "Yeah, I think token economy combined with correctness makes the case for much higher level interfaces, which is why I think Render is seeing the growth that it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2733.591,
+            2735.674
+          ],
+          "quote": "Well, I can talk a little bit about Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2760.865,
+            2763.829
+          ],
+          "quote": "And I hope that if you've never tried Render, that you will.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2764.269,
+            2765.491
+          ],
+          "quote": "It's just render.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2867.514,
+            2882.5
+          ],
+          "quote": "And I think Render's actually kind of fortunate because we're in the right place at the right time to take advantage of this wave of people who just want an easy place and a fast way to deploy these applications and bring them to the people who want to use them because none of these people are actually going to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2917.137,
+            2929.692
+          ],
+          "quote": "That I could have had someone within the company build in Tableau or something like that at some point, but I can just spin that up easily using something like Claude Code, run it on render and have that thing ready to go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2947.872,
+            2954.021
+          ],
+          "quote": "And Render's obviously great for that because you only pay for when the application is live, you don't have to worry about...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Anurag 是 Stripe 第八号员工，期间 15-20% 的工程师耗在管理 AWS 上的虚拟机、存储和网络——这段经历直接催生了 Render;Stripe 也是 Render 的客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            119.768,
+            123.651
+          ],
+          "quote": "So you were roughly, I think, around like the eighth employee at Stripe?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            138.497,
+            155.122
+          ],
+          "quote": "Yeah, so at all times when I was at Stripe, around 15 to 20% of the engineering team was simply managing VMs on AWS and all the complexity around that, storage and networking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            155.822,
+            170.385
+          ],
+          "quote": "load balancing and it didn't really get easier and obviously as Stripe's scale grew the complexity increased and you needed to continue to hire people to continue to help you scale and it just never stopped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            171.234,
+            180.924
+          ],
+          "quote": "I also think if you think about Stripe or even other examples of great engineering organizations like that, they're probably one of the best engineering organizations in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            189.567,
+            201.179
+          ],
+          "quote": "Yeah, and just to be clear, I do think that Stripe did the best they could at that time because that was really the only way for them to run in the cloud reliably and scalably.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            843.458,
+            849.643
+          ],
+          "quote": "And we've been able to do that with a lot of our customers and some of our, I mean, OpenAI and Stripe are amongst Render's customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集把它描述为低层、复杂的云:操作步骤多、要配几千个变量、出错机会多，token 消耗大——核心论点是智能体会因为追求省 token、步骤少而抛弃它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            125.834,
+            129.798
+          ],
+          "quote": "So by the time you left, how many engineers were managing AWS?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            138.497,
+            155.122
+          ],
+          "quote": "Yeah, so at all times when I was at Stripe, around 15 to 20% of the engineering team was simply managing VMs on AWS and all the complexity around that, storage and networking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            612.416,
+            622.069
+          ],
+          "quote": "A lot of people learned to build cloud infrastructure using the tools that AWS gave them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            869.82,
+            880.111
+          ],
+          "quote": "Some infrastructure on AWS, but Base44 runs really well on Render and they want to stay on the platform, even though now they have access to this massive DevOps team inside Wix that has access to AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            933.904,
+            941.931
+          ],
+          "quote": "And they want to use Render just like they would use AWS where they would spin up a VM and install things on it and spin up an application there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1180.461,
+            1185.743
+          ],
+          "quote": "But the main thing is that Render operates at a much higher level than say AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1238.92,
+            1241.362
+          ],
+          "quote": "That you don't need to go to AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1241.863,
+            1260.838
+          ],
+          "quote": "And there's a smaller number of companies, like if you're building an infrastructure company yourself, if you're building, say, a database company that needs to really go down to the metal and figure out exactly how the database clusters are going to work together and use some esoteric AWS incantation, then you should not be using Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1758.352,
+            1764.716
+          ],
+          "quote": "And you could get metal machines in the cloud from AWS or others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1779.847,
+            1784.11
+          ],
+          "quote": "Now you don't get rack level placement controls, as far as I know, on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1802.548,
+            1807.253
+          ],
+          "quote": "And with AWS Metal, you also, I think you get some, but it's just, it's the metal",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1812.957,
+            1815.319
+          ],
+          "quote": "AWS machines are all the same size.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1997.157,
+            2016.518
+          ],
+          "quote": "Would this be something that's directly competitive with the durable execution framework set out there, like a temporal, restate, orcs, or is it more aligned with both like GCP, AWS have now like stateful functions, for example, where I can call a function and it can control the state and recover from failures and so forth?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2440.089,
+            2454.699
+          ],
+          "quote": "Agents will always prefer higher level systems like Render to spin up a web service or spin up a workflow because trying to do that on AWS will take much longer because you have to wire up a bunch of things together and each thing takes a while to come up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2462.586,
+            2468.434
+          ],
+          "quote": "And so I'm not worried about agents when people say, oh, agents are just going to make AWS easier to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2476.805,
+            2502.741
+          ],
+          "quote": "And if Render can serve that outcome in a way that is much faster, it's a single call, it's much more deterministic for the agent because it doesn't have to configure 5,000 variables, then that's what they're going to prefer over something that operates at a really low level, at the level of a VM where the agent might need to decide what kind of VM it needs to spin up and then what kind of plan on the VM and then what kind of, you know, just like there's a lot of stuff that the agent would have to do on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2568.544,
+            2577.835
+          ],
+          "quote": "Yeah, so if you're right about a lot of this and the next version of the cloud doesn't necessarily look like AWS, agents really change our interface to infrastructure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2882.5,
+            2884.562
+          ],
+          "quote": "to use AWS to deploy their applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2886.424,
+            2891.669
+          ],
+          "quote": "So many new developers are really being trained on a new kind of cloud as opposed to AWS back in the day.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集说它是容器化后陷入的更复杂状态:要手写大量 YAML、理解底层机制排查 DNS/网络问题、为闲置容量买单,且每家跑在它上面的公司最终都会自建内部 PaaS。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.064,
+            82.075
+          ],
+          "quote": "In this episode, Anurag joins Sean Falconer to discuss why so many teams end up rebuilding the same infrastructure on top of Kubernetes, what changes when AI agents become first-class users of infrastructures and the guardrails that shift demands, and why the economics of AI are pushing developers towards higher-level platforms that trade fine-grained control for speed and safety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            207.565,
+            225.581
+          ],
+          "quote": "It became clearer to me, and I'm talking about the 2017, 2016 era when a lot of people were containerizing their apps, but then they had to deal with Kubernetes complexity to actually run these containers in production in a way that was scalable or secure or reliable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            280.712,
+            296.005
+          ],
+          "quote": "Like you have people using containers, using containerized orchestration platforms that are well sort of established in the industry like Kubernetes, but at the same time, it seems like at scale, that's a very hard thing to just manage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 36,
+          "t": [
+            296.245,
+            303.912
+          ],
+          "quote": "So given that there's all this industry investment into Kubernetes, like what is it that specifically kind of breaks down as teams start to try to scale the management of that?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            304.688,
+            310.073
+          ],
+          "quote": "Yeah, so we do manage a lot of Kubernetes clusters ourselves, and we see this firsthand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            319.481,
+            325.626
+          ],
+          "quote": "It can run on Kubernetes, it can run on Heroku, it can run on other cloud providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            351.805,
+            374.097
+          ],
+          "quote": "And then you need to be aware of when something goes down, you need to get alerted, and then you need to go solve that problem yourself because you have to then understand, well, you stood up on Kubernetes and you need to understand sometimes exactly how Kubernetes works under the hood to know, well, this network policy change is what caused this DNS error.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            374.617,
+            377.078
+          ],
+          "quote": "And with Kubernetes, you have to manage all of these things yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            378.639,
+            387.668
+          ],
+          "quote": "Even on quote-unquote managed Kubernetes clusters, you have to write a lot of YAML by hand that describes how to deploy your applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            387.968,
+            396.997
+          ],
+          "quote": "But really what that YAML is doing is describing a lot of the internals of the Kubernetes architecture and the Kubernetes concepts themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            421.891,
+            439.76
+          ],
+          "quote": "So it's every layer of the infrastructure stack within Kubernetes and even below it because you also have to figure out how to keep your VMs patched when things happen and you have to deal with node pools and you have to configure different nodes for different things and you have to make sure that your nodes are also well utilized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            439.92,
+            451.066
+          ],
+          "quote": "You have to pay for a lot of extra capacity because that's what Kubernetes likes to do and you end up spending way more on just managing lots of unused Kubernetes capacity",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            512.105,
+            516.487
+          ],
+          "quote": "And even understanding Kubernetes is not something you can sort of just do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            516.627,
+            529.675
+          ],
+          "quote": "You can't really build your Kubernetes YAMLs using AI because AI makes mistakes and you have to understand when it does make a mistake because something will stop working at 2 a.m. at night and then AI won't really be able to tell you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            571.299,
+            581.954
+          ],
+          "quote": "So I've heard you mention that you've observed that every company that runs on Kubernetes ends up building some version of an internal pass that all kind of look roughly the same.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            622.089,
+            625.714
+          ],
+          "quote": "And then Kubernetes was sort of this state that we ended up in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            632.165,
+            646.973
+          ],
+          "quote": "But I also now see from Render's perspective, we actually see teams moving from large Kubernetes clusters to Render because they get all the functionality that they're looking for without having to deal with the complexity of Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            770.151,
+            779.639
+          ],
+          "quote": "Yeah, for the majority of applications out there, you really don't need something like Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2072.899,
+            2077.28
+          ],
+          "quote": "And so it's the same problem that you run into with Kubernetes where you just have these things running all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2079.701,
+            2084.983
+          ],
+          "quote": "So there's fundamentally some of the same issues with Temporal that you see in some ways with Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2455.279,
+            2459.342
+          ],
+          "quote": "And you might even need to spin up a whole Kubernetes cluster to do what you're trying to do on Render.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的核心论点:智能体正成为基础设施的一等用户,它们结果驱动、倾向最省 token、步骤最少的方式,需要延迟删除、回滚、成本护栏等全新安全设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            996.894,
+            1004.577
+          ],
+          "quote": "Workers are Notion-hosted sandboxes where you run custom code, database syncs, agent tools, webhook triggers, without spinning up your own infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1010.76,
+            1020.052
+          ],
+          "quote": "And with the external agent API, you can bring agents like Claude or Codex into Notion as workspace participants with real permissions and triggers, not just a sidecar tab you're copying from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1020.452,
+            1028.022
+          ],
+          "quote": "Pulling in research sources tracked externally, syncing them into Notion, and having an agent help triage what is worth covering, all in the same place the team already works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1338.21,
+            1351.9
+          ],
+          "quote": "But we're also now thinking about how you can build systems that can be reverted if your agent makes a mistake without losing data or without causing some sort of massive disruption to your infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1352.3,
+            1365.807
+          ],
+          "quote": "We're also thinking about how if we can identify that it's an agent user, then you can say, well, if it reaches this level of severity or this level of cost, then I need a human in the loop to approve it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1376.545,
+            1390.152
+          ],
+          "quote": "Yeah, I mean, a lot of people talk about guardrails around these things, but I think from infrastructure, guardrails around the cost as well, because you don't want to accidentally spin up something that suddenly you have a huge bill for because some agent made a decision that was not necessarily the right decision.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1466.344,
+            1480.753
+          ],
+          "quote": "And I've even seen recently some clients out there putting into their contracts with vendors that they're considering purchasing from within the contract essentially need to know what is their support for agent debugging.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1855.576,
+            1866.682
+          ],
+          "quote": "So when you build an agent, for example, and your user asks the agent a question, the first question might pull up 10 records, the next one might pull up 400.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2309.435,
+            2315.977
+          ],
+          "quote": "Yeah, that's an interesting one because let's say that an agent wants to delete a database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2316.777,
+            2332.082
+          ],
+          "quote": "If the database isn't around, no one's using it, you could show the agent that the database has been deleted, but then you keep the database around for 30 minutes or maybe 24 hours so that if someone decides that the agent makes a mistake,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2332.522,
+            2335.725
+          ],
+          "quote": "Then the agent can recover and issue a recover command on the database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2341.07,
+            2352.782
+          ],
+          "quote": "There are other patterns like, okay, well, what if the agent decides to delete your web service and this web service has a custom domain on it and suddenly your traffic is gone?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2367.409,
+            2378.034
+          ],
+          "quote": "And so Render's infrastructure as code format lets you define all your services in just a few lines of code and the agent will then be able to simply add the service back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2476.805,
+            2502.741
+          ],
+          "quote": "And if Render can serve that outcome in a way that is much faster, it's a single call, it's much more deterministic for the agent because it doesn't have to configure 5,000 variables, then that's what they're going to prefer over something that operates at a really low level, at the level of a VM where the agent might need to decide what kind of VM it needs to spin up and then what kind of plan on the VM and then what kind of, you know, just like there's a lot of stuff that the agent would have to do on AWS.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是让 AI 模型调用外部工具的标准协议,Render 提供 MCP server 让智能体拉日志、部署数据和指标来调试失败的部署,是其头号用途之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1099.286,
+            1105.889
+          ],
+          "quote": "It plugs directly into your editor via MCP, catching vulnerabilities, blocking malicious packages, and flagging exposed secrets in real time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1156.284,
+            1160.088
+          ],
+          "quote": "And we have skills and MCP servers that allow them to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1327.443,
+            1337.87
+          ],
+          "quote": "So we've made it so that our MCP server can give you all the information that you need, that we expose the right kind of tools that allow you to spin up new applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1366.068,
+            1375.753
+          ],
+          "quote": "So those are some things that I think not just render, but everyone will have to build as agents start using these applications more and more using their API or CLI or MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1390.773,
+            1398.877
+          ],
+          "quote": "So for MCP, was there specific things that you had to do design-wise that was above and beyond what the render APIs were capable of?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1399.663,
+            1408.668
+          ],
+          "quote": "Yeah, so when we first launched our MCP, there were certainly some things that we did not put into the MCP that you could use our API for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1409.308,
+            1416.853
+          ],
+          "quote": "But in general, our MCP is able to do a lot that Claude and others wanted to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1426.738,
+            1430.161
+          ],
+          "quote": "And you can get metrics from the MCP as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1430.521,
+            1441.529
+          ],
+          "quote": "And so what we find is that a lot of people use our MCP to debug what's going on, especially when they're developing the application and they're in this loop of quickly pushing code and seeing what happens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1454.136,
+            1465.943
+          ],
+          "quote": "Yeah, I mean, that's a common pattern that we see at Confluent, which is, you know, where I work my day job as well as I think the number one use of our MCP server is probably outside of exploring the data that you have would be around debugging.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1497.86,
+            1516.154
+          ],
+          "quote": "And you want to understand the different concepts, but once you have a good sense of what's going on, and maybe these days you don't even need that because you can build the exploration into your API or your MCP server, just like any MCP server can expose the tools that are available to the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1524.342,
+            1546.657
+          ],
+          "quote": "If the world is kind of largely going towards some sort of unified experience from the terminal, from the CLI, interacting through these agents, does that mean that you put less time and effort behind the user interface, your web-based interface into Render to put more time behind your MCP and your APIs, which are gonna be more of the native experience that agents are interacting with you?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1567.656,
+            1580.13
+          ],
+          "quote": "Often very purpose-built info-dense views that are designed with that workflow in mind might be more efficient than using Claude or an MCP and might be faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1603.981,
+            1608.762
+          ],
+          "quote": "If they're coding and pushing code, then sure, they need that MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1663.613,
+            1671.436
+          ],
+          "quote": "And that's a lot easier to do, and it makes the user more productive than giving people a generic MCP server to do whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "本集说它因 AI 应用异步任务极度多样异构而在过去一年终于火起来,会变成像 Postgres 一样的云基础原语——Render Workflows 就是为此打造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 284,
+          "t": [
+            1825.711,
+            1832.055
+          ],
+          "quote": "I think you also recently launched Render Workflows, which is durable execution for long-running stateful processes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1834.036,
+            1837.898
+          ],
+          "quote": "I feel like durable execution probably in the last year is finally having its moment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1838.759,
+            1847.344
+          ],
+          "quote": "Is that being driven in part by the investment companies are making around AI or is this something else that's sort of driving this interest in durable execution?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1904.704,
+            1910.527
+          ],
+          "quote": "And that, I think, is why durable execution is becoming really popular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1967.357,
+            1971.878
+          ],
+          "quote": "And with durable execution on render using workflows, you don't need to worry about any of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1997.157,
+            2016.518
+          ],
+          "quote": "Would this be something that's directly competitive with the durable execution framework set out there, like a temporal, restate, orcs, or is it more aligned with both like GCP, AWS have now like stateful functions, for example, where I can call a function and it can control the state and recover from failures and so forth?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2147.016,
+            2158.799
+          ],
+          "quote": "So we've tried to build something that is incredibly accessible, but still gives you what you want out of durable execution, which is this notion of maintaining state across a sequence of tasks that could",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2191.934,
+            2211.98
+          ],
+          "quote": "Do you think as you support this and even the hyperscalers are supporting some version of durable execution, at least like a lightweight version, is this something that just becomes kind of like the default experience for developers building any of these types of applications where regardless of where they're building, there's some form of durable execution available for them out of the box?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "company",
+      "role": "company",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": true,
+      "how_described": "本集把它说成最流行的持久化执行框架,但学习曲线陡峭、要改造应用匹配它、且不帮你管算力,worker 池问题和 Kubernetes 是同一类;已有用户从它迁到 Render。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            1997.157,
+            2016.518
+          ],
+          "quote": "Would this be something that's directly competitive with the durable execution framework set out there, like a temporal, restate, orcs, or is it more aligned with both like GCP, AWS have now like stateful functions, for example, where I can call a function and it can control the state and recover from failures and so forth?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2017.275,
+            2032.819
+          ],
+          "quote": "In some ways, I think it's the best parts of both because for Temporal, for example, yes, you have the control plane, but the biggest issue that we hear about from people who have used Temporal is, at first, it's really hard to get into.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2032.839,
+            2035.18
+          ],
+          "quote": "That's a very steep learning curve for Temporal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2035.64,
+            2050.471
+          ],
+          "quote": "You have to change your application to match exactly how temporal works when really all you need is retries or you need a certain level of observability and you need to make sure something runs and then you just need to be able to define a sequence of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2050.811,
+            2053.113
+          ],
+          "quote": "Temporal can also just really become overkill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2053.573,
+            2056.534
+          ],
+          "quote": "And then Temporal doesn't actually manage the compute for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2079.701,
+            2084.983
+          ],
+          "quote": "So there's fundamentally some of the same issues with Temporal that you see in some ways with Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2176.735,
+            2179.278
+          ],
+          "quote": "And we already have people moving to us from Temporal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2179.318,
+            2190.192
+          ],
+          "quote": "I think it's going to be really interesting to see when we launch workflows in GA in a couple of weeks, by the time this comes out, maybe it's already in GA, what people use Temporal for versus render workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2250.816,
+            2254.017
+          ],
+          "quote": "We're not even using like a temporal or anything underneath.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "heroku",
+      "type": "company",
+      "role": "company",
+      "name": "Heroku",
+      "file": "Heroku",
+      "primary": true,
+      "how_described": "本集举它作 PaaS 天花板的反例:内存不能超 14 GB、应用每 24 小时强制重启、自助版无私有网络、数据不能存磁盘——太多原因让你很快就得搬走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            319.481,
+            325.626
+          ],
+          "quote": "It can run on Kubernetes, it can run on Heroku, it can run on other cloud providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            799.702,
+            812.233
+          ],
+          "quote": "For example, with Heroku, you can't get more than 14 gigs of RAM if you wanted to build an application that did that, or your application was restarted every 24 hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            822.422,
+            826.485
+          ],
+          "quote": "So there were so many reasons for why you grew out of Heroku really quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "base44",
+      "type": "company",
+      "role": "company",
+      "name": "Base44",
+      "file": "Base44",
+      "primary": true,
+      "how_described": "本集说它是世界最大的 vibe coding 平台之一,web 应用的全部计算跑在 Render 上,即使被 Wix 收购、能用 Wix 庞大 DevOps 团队后仍选择留在 Render。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            849.984,
+            858.591
+          ],
+          "quote": "Obviously they use other cloud providers, but we also have companies like Base44, which is one of the largest bytecoding platforms in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            869.82,
+            880.111
+          ],
+          "quote": "Some infrastructure on AWS, but Base44 runs really well on Render and they want to stay on the platform, even though now they have access to this massive DevOps team inside Wix that has access to AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2835.53,
+            2838.853
+          ],
+          "quote": "want to buy code on places like Lovable or Base44.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bare-metal",
+      "type": "concept",
+      "role": "concept",
+      "name": "bare metal",
+      "file": "bare metal",
+      "primary": true,
+      "how_described": "本集说 Render 约一个月前把客户工作负载迁到裸金属,驱动力是控制和安全而非省钱:micro VM 跑在裸金属上性能好得多,还能自调 hypervisor、做机架级放置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1673.279,
+            1678.063
+          ],
+          "quote": "You started moving workloads to bare metal, I think in mid 2025.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1691.188,
+            1697.975
+          ],
+          "quote": "So we didn't actually move customer workloads to bare metal until just a month or so ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1733.857,
+            1741.882
+          ],
+          "quote": "In the case of like Firecracker with a KBM hypervisor, it's a lot easier to do that on bare metal than on some like nested burt situation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说智能体操作基础设施需要护栏:识别智能体用户后设规则,达到某个严重程度或成本水平就必须有人在环里批准,成本护栏尤其重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            44.399,
+            53.662
+          ],
+          "quote": "Render has been adapting to the AI era by building tools that let agents deploy and debug applications directly with added guardrails and security.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            58.064,
+            82.075
+          ],
+          "quote": "In this episode, Anurag joins Sean Falconer to discuss why so many teams end up rebuilding the same infrastructure on top of Kubernetes, what changes when AI agents become first-class users of infrastructures and the guardrails that shift demands, and why the economics of AI are pushing developers towards higher-level platforms that trade fine-grained control for speed and safety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1376.545,
+            1390.152
+          ],
+          "quote": "Yeah, I mean, a lot of people talk about guardrails around these things, but I think from infrastructure, guardrails around the cost as well, because you don't want to accidentally spin up something that suddenly you have a huge bill for because some agent made a decision that was not necessarily the right decision.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2286.336,
+            2294.963
+          ],
+          "quote": "So we touched on this earlier, but the idea of as agents start to use infrastructure, you need guardrails, you need these cost controls.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-as-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础设施即代码 (infrastructure as code)",
+      "file": "基础设施即代码",
+      "primary": true,
+      "how_described": "本集说它是智能体犯错的回滚手段:Render 的 blueprints 让你几行代码定义所有服务,智能体删了服务可以原样加回来——和回滚代码改动是同一逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            1169.756,
+            1177.219
+          ],
+          "quote": "And make the right calls and they could create our infrastructure as code format called blueprints and they can describe the application of blueprints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2364.107,
+            2367.069
+          ],
+          "quote": "So that's where infrastructure as code becomes really useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2367.409,
+            2378.034
+          ],
+          "quote": "And so Render's infrastructure as code format lets you define all your services in just a few lines of code and the agent will then be able to simply add the service back.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevOps",
+      "file": "DevOps",
+      "primary": true,
+      "how_described": "本集说用 DevOps 团队静态管理集群的理念正因 AI 快速崩塌:DevOps 团队被拉扯到超出负荷,代码生成被压缩后平台运维成为瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            226.281,
+            236.906
+          ],
+          "quote": "It became clear to me that you could give app developers, and specifically app developers, not DevOps engineers, because Render has always focused on application developers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            237.306,
+            250.932
+          ],
+          "quote": "You could give application developers the same powers that they would get from the most accomplished world-class internal DevOps team, and you could do it in a way that was entirely self-serve for them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            265.981,
+            272.364
+          ],
+          "quote": "And they would get, you know, effectively one of the best DevOps teams in the world productized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            650.895,
+            662.998
+          ],
+          "quote": "Partly because, and I'm sorry to bring up AI again, but so many more people are building so many more applications with AI that this whole notion of statically managing your cluster using a DevOps team is breaking down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            663.078,
+            674.16
+          ],
+          "quote": "It's breaking down very quickly because the DevOps teams are stretched thin beyond capacity everywhere, and they're just trying to keep up with the core application, but then everyone else is like, well, I have this other application I want to stand up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            674.56,
+            679.341
+          ],
+          "quote": "Well, good luck because you can only do so much with a small DevOps team or even a large DevOps team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            710.063,
+            715.087
+          ],
+          "quote": "How can slow down the company suddenly becomes the DevOps team and how do you actually run the platform?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            722.874,
+            730.04
+          ],
+          "quote": "So it's actually really interesting to see so many more companies come to us now that already have existing DevOps teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            869.82,
+            880.111
+          ],
+          "quote": "Some infrastructure on AWS, but Base44 runs really well on Render and they want to stay on the platform, even though now they have access to this massive DevOps team inside Wix that has access to AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1223.307,
+            1224.869
+          ],
+          "quote": "We're not building for DevOps people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1225.149,
+            1229.973
+          ],
+          "quote": "So the kind of tools that DevOps engineers might want, we don't worry too much about not having them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "concept",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": false,
+      "how_described": "本集提到 Render Workflows 的底层状态管理主要靠 Postgres,并把持久化执行的未来比作「像 Postgres 一样的云基础原语」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            1045.365,
+            1051.249
+          ],
+          "quote": "If you're running Postgres in production, you've probably felt the moment analytical queries start fighting your transactional workload.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1059.054,
+            1064.857
+          ],
+          "quote": "We extend Postgres with hybrid row and columnar storage so one table handles both writes and analytical scans.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1080.151,
+            1083.235
+          ],
+          "quote": "No stale data, no second system to operate, just Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2213.123,
+            2217.286
+          ],
+          "quote": "In many ways it becomes like a Postgres database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2260.31,
+            2272.634
+          ],
+          "quote": "We are using, in some cases we're using Postgres and I think so far Postgres has actually been relatively good for what we need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2279.896,
+            2285.018
+          ],
+          "quote": "And then, yeah, there are places where we use Redis as well, but really I think Postgres is the bulk of it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集多次提到用户用 Claude 管理部署、调试生产环境,甚至用它自学编程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            1010.76,
+            1020.052
+          ],
+          "quote": "And with the external agent API, you can bring agents like Claude or Codex into Notion as workspace participants with real permissions and triggers, not just a sidecar tab you're copying from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1146.376,
+            1155.344
+          ],
+          "quote": "And the other thing that is changing is a lot of people are now using Claude or Codex to manage their render deploys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1160.808,
+            1168.915
+          ],
+          "quote": "And the complexity is hidden away a little bit further from them, even though Claude and Codex can actually look at all the different things in our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1188.804,
+            1196.868
+          ],
+          "quote": "So you don't need to, even if you're using Claude and Codex, you don't really need to understand a lot of complex infrastructure concepts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1283.048,
+            1299.852
+          ],
+          "quote": "As people leverage tools like Claude Code, Cursor, Antigravity, whatever it is, more and more, I think the tools that are going to be really successful in this agentic engineering era are the ones that are easy to use as a default experience from the agentic engineering experience itself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1309.735,
+            1316.118
+          ],
+          "quote": "Yeah, we think about it a lot because our users are already using us with Claude and Codex and Antigravity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1409.308,
+            1416.853
+          ],
+          "quote": "But in general, our MCP is able to do a lot that Claude and others wanted to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1441.949,
+            1453.117
+          ],
+          "quote": "And so it makes it really fast for them to develop on render because all of that stuff is available as tools in Claude and Claude can correlate deploys with what happened in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1567.656,
+            1580.13
+          ],
+          "quote": "Often very purpose-built info-dense views that are designed with that workflow in mind might be more efficient than using Claude or an MCP and might be faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1619.926,
+            1629.951
+          ],
+          "quote": "And there's an element of discovery that I'd say is still a lot easier to do visually than through Claude or through tools that are fundamentally text only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2801.269,
+            2808.913
+          ],
+          "quote": "The people who are technical and who can kind of understand pseudocode, which means they can kind of understand what's happening with Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2809.233,
+            2815.896
+          ],
+          "quote": "But then we're also seeing people using Claude and Codex to teach themselves coding because it's now become a lot easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2815.916,
+            2818.878
+          ],
+          "quote": "You can just ask Claude, hey, you did this, explain this to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2819.298,
+            2826.784
+          ],
+          "quote": "And I think Codex also has, or maybe Claude too, they have like a learning mode in them, where instead of just coding it, it will actually teach you along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2917.137,
+            2929.692
+          ],
+          "quote": "That I could have had someone within the company build in Tableau or something like that at some point, but I can just spin that up easily using something like Claude Code, run it on render and have that thing ready to go.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到很多人用 Codex 管理 Render 部署和自学编程,它与 Claude 一起被作为智能体编码工具的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            1010.76,
+            1020.052
+          ],
+          "quote": "And with the external agent API, you can bring agents like Claude or Codex into Notion as workspace participants with real permissions and triggers, not just a sidecar tab you're copying from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1146.376,
+            1155.344
+          ],
+          "quote": "And the other thing that is changing is a lot of people are now using Claude or Codex to manage their render deploys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1160.808,
+            1168.915
+          ],
+          "quote": "And the complexity is hidden away a little bit further from them, even though Claude and Codex can actually look at all the different things in our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1188.804,
+            1196.868
+          ],
+          "quote": "So you don't need to, even if you're using Claude and Codex, you don't really need to understand a lot of complex infrastructure concepts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1309.735,
+            1316.118
+          ],
+          "quote": "Yeah, we think about it a lot because our users are already using us with Claude and Codex and Antigravity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2809.233,
+            2815.896
+          ],
+          "quote": "But then we're also seeing people using Claude and Codex to teach themselves coding because it's now become a lot easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2819.298,
+            2826.784
+          ],
+          "quote": "And I think Codex also has, or maybe Claude too, they have like a learning mode in them, where instead of just coding it, it will actually teach you along the way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Firecracker",
+      "file": "Firecracker",
+      "primary": false,
+      "how_described": "本集举例说 Firecracker 这类 micro VM 配 KVM hypervisor 时,直接跑在裸金属上比嵌套在虚拟机里容易得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1733.857,
+            1741.882
+          ],
+          "quote": "In the case of like Firecracker with a KBM hypervisor, it's a lot easier to do that on bare metal than on some like nested burt situation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wix",
+      "type": "company",
+      "role": "company",
+      "name": "Wix",
+      "file": "Wix",
+      "primary": false,
+      "how_described": "本集提到 Base44 被 Wix 收购,但即使能用 Wix 内部庞大的 DevOps 团队,Base44 仍留在 Render 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            867.038,
+            869.28
+          ],
+          "quote": "They're now part of Wix and Wix has",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            869.82,
+            880.111
+          ],
+          "quote": "Some infrastructure on AWS, but Base44 runs really well on Render and they want to stay on the platform, even though now they have access to this massive DevOps team inside Wix that has access to AWS.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "PaaS",
+      "reason": "专名「PaaS」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "micro VM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

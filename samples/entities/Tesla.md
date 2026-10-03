@@ -55,7 +55,7 @@ unlisted: true
 
 [[Waymo]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Google]] · [[物理 AI]] · [[Meta]] · [[NVIDIA]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"Waymo":15,"智能体":382,"OpenAI":149,"ChatGPT":87,"Anthropic":161,"Google":54,"物理 AI":9,"Meta":40,"NVIDIA":50,"Uber":16}</script>
+<script type="application/json" class="pd-epn">{"Waymo":15,"智能体":384,"OpenAI":149,"ChatGPT":88,"Anthropic":161,"Google":54,"物理 AI":9,"Meta":40,"NVIDIA":50,"Uber":16}</script>
 
 <script>
 (function(){

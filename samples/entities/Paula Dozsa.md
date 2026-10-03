@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tolan":3,"智能体":382,"延迟":6,"记忆":20,"上下文":25,"Claude":77,"检索":4,"LLM":52}</script>
+<script type="application/json" class="pd-epn">{"Tolan":3,"智能体":384,"延迟":6,"记忆":20,"上下文":25,"Claude":79,"检索":4,"LLM":52}</script>
 
 <script>
 (function(){

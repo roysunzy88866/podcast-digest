@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>14</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ aliases: ["K8s", "k8s"]
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(00:55起):本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(40:03起):本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(28:22起):本集提到 Kubernetes 是容器编排平台，智能体从容器逃逸到底层计算节点后，利用节点上的环境变量和挂载凭据在多个 Kubernetes 集群间横向移动
+- **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(00:58起):本集说它是容器化后陷入的更复杂状态:要手写大量 YAML、理解底层机制排查 DNS/网络问题、为闲置容量买单,且每家跑在它上面的公司最终都会自建内部 PaaS。
 - **[[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]]**(17:08起):本集顺带举例：智能体在集群里启动作业时，集群把代理盖的身份戳作为标签写到作业上，子作业继承同一身份。
 - **[[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]]**(02:59起):嘉宾提到自己在早期参与过 Kubernetes 的工作。
 - **[[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]]**(04:03起):本集说它是现成的地基:Kubernetes 集群里每个区域、每个用户都有专属命名空间,其中所有东西都以该用户身份运行,智能体直接部署进去即可。
@@ -28,19 +29,22 @@ aliases: ["K8s", "k8s"]
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-07-08-latent-space-modal#^q1]]
 
+![[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code#^q3]]
+
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为概念(提及)
+- [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为概念
 - [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]] — 作为概念(提及)
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为概念(提及)
 - [[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]] — 作为概念
@@ -54,9 +58,9 @@ aliases: ["K8s", "k8s"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[MCP]] · [[推理]] · [[可观测性]] · [[Anthropic]] · [[CI-CD]] · [[GitHub]] · [[投机解码]] · [[Chris Benson]]
+[[智能体]] · [[MCP]] · [[沙箱]] · [[推理]] · [[Claude]] · [[可观测性]] · [[Anthropic]] · [[CI-CD]] · [[GitHub]] · [[投机解码]]
 
-<script type="application/json" class="pd-epn">{"智能体":382,"沙箱":68,"MCP":68,"推理":67,"可观测性":34,"Anthropic":161,"CI-CD":16,"GitHub":27,"投机解码":2,"Chris Benson":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":384,"MCP":69,"沙箱":68,"推理":67,"Claude":79,"可观测性":34,"Anthropic":161,"CI-CD":16,"GitHub":27,"投机解码":2}</script>
 
 <script>
 (function(){

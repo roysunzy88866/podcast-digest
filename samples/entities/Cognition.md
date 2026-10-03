@@ -77,7 +77,7 @@ aliases: ["cognition"]
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Claude Code]] · [[推理]] · [[NVIDIA]] · [[Salesforce]] · [[Stripe]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":382,"Anthropic":161,"OpenAI":149,"Cursor":75,"Claude Code":90,"推理":67,"NVIDIA":50,"Salesforce":34,"Stripe":41,"harness":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":384,"Anthropic":161,"OpenAI":149,"Cursor":75,"Claude Code":90,"推理":67,"NVIDIA":50,"Salesforce":34,"Stripe":42,"harness":51}</script>
 
 <script>
 (function(){

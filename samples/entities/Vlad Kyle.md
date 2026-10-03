@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
+[[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":4,"Seema Amble":1,"Leo":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":77,"OpenAI":149,"Anthropic":161}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":4,"Seema Amble":1,"Leo":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":79,"OpenAI":149,"Anthropic":161}</script>
 
 <script>
 (function(){

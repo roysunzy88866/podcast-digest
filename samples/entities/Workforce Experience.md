@@ -25,7 +25,7 @@ unlisted: true
 
 [[Faisal Masud]] · [[HP]] · [[AI Command Center]] · [[智能体]] · [[基于结果的付费]] · [[垃圾话]] · [[人类判断]] · [[中期管理]] · [[ROI]] · [[内部试用]]
 
-<script type="application/json" class="pd-epn">{"Faisal Masud":1,"HP":1,"AI Command Center":1,"智能体":382,"基于结果的付费":4,"垃圾话":8,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":2}</script>
+<script type="application/json" class="pd-epn">{"Faisal Masud":1,"HP":1,"AI Command Center":1,"智能体":384,"基于结果的付费":4,"垃圾话":8,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":2}</script>
 
 <script>
 (function(){

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":382,"基于结果的定价":4,"应用 AI":1,"前沿模型":23,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":68}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":384,"基于结果的定价":4,"应用 AI":1,"前沿模型":23,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":69}</script>
 
 <script>
 (function(){

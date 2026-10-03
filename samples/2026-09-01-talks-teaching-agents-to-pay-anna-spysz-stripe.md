@@ -103,9 +103,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同公司:Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|机器人流量已超人类：当 AI 智能体开始自己付钱]]<span class="pd-rz">同公司:Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Stripe、Google、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

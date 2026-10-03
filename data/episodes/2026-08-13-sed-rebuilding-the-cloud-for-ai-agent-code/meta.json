@@ -1,0 +1,27 @@
+{
+  "id": "2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code",
+  "audio_mp3": "https://media.transistor.fm/1b7d1025/1dc73aaa.mp3",
+  "duration_sec": 2980.036,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 462,
+  "asr": true,
+  "title_en": "Rebuilding the Cloud for AI Agent Code",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-08-13",
+  "added": "2026-10-03",
+  "added_at": "2026-10-03T00:34:15.573Z",
+  "speaker_map": {
+    "SPEAKER_00": "Anurag Gohl",
+    "SPEAKER_03": "Sean Falconer"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Anurag Gohl",
+  "cohosts": [
+    "Sean Falconer"
+  ],
+  "title_zh": "当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建",
+  "guest_name": "Anurag Gohl",
+  "guest_title": "Render 创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

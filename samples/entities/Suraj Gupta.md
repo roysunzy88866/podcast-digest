@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":4,"智能体":382,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":9,"分诊智能体":1,"Claude Code":90,"Codex":69}</script>
+<script type="application/json" class="pd-epn">{"Warp":4,"智能体":384,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":9,"分诊智能体":1,"Claude Code":90,"Codex":70}</script>
 
 <script>
 (function(){

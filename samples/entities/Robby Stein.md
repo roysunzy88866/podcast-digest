@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Google":54,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":87,"Gemini":12,"Perplexity":8,"Instagram":6,"Stories":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Google":54,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":88,"Gemini":12,"Perplexity":8,"Instagram":6,"Stories":2}</script>
 
 <script>
 (function(){

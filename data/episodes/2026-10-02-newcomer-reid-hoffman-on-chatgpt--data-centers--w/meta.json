@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w",
+  "audio_mp3": "https://anchor.fm/s/ffef15f0/podcast/play/126698024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433184311-44100-2-362fd9666e6f1.mp3",
+  "duration_sec": 3152.662,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 716,
+  "asr": true,
+  "title_en": "Reid Hoffman on ChatGPT, Data Centers & Why America Needs AI",
+  "podcast": "Newcomer Pod",
+  "date": "2026-10-02",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42838588/42838588-1790959018738-6e35958d059f.jpg",
+  "added": "2026-10-03",
+  "added_at": "2026-10-02T22:16:06.666Z",
+  "speaker_map": {
+    "SPEAKER_00": "Reid Hoffman",
+    "SPEAKER_01": "Reid Hoffman"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Reid Hoffman"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "Reid Hoffman：聪明的加速主义——继续开发、放慢部署",
+  "guest_name": "Reid Hoffman",
+  "guest_title": "LinkedIn 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42838588/42838588-1790959018738-6e35958d059f.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-03T00:42:08.546Z"
+  }
+}

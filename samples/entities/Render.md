@@ -8,25 +8,33 @@ aliases: ["renders"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Render</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Render">RE</div><div class="pi"><h1 class="pt">Render</h1><div class="byl">公司 · 又名 renders</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Render">RE</div><div class="pi"><h1 class="pt">Render</h1><div class="byl">公司 · 又名 renders</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(25:08起):本集说它是 Builder Pack 里用来部署应用的工具,新手复刻 MVP 时用 Render 的额度上线
+- **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(00:35起):本集主角：Anurag 创立的为应用部署设计的云平台，处理扩缩容、自愈和安全，让应用开发者无需自管基础设施；过去两年增长超过之前六年总和，每周超 40 万开发者注册、近 1000 万活跃服务。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code#^q7]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
+- [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Yash]] · [[Builder Pack]] · [[All Access]] · [[智能体]] · [[compound engineering]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]]
+[[智能体]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Yash]] · [[Anurag Gohl]] · [[Builder Pack]] · [[Sean Falconer]] · [[All Access]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":382,"compound engineering":2,"MCP":68,"Codex":69,"Claude":77,"Anthropic":161,"OpenAI":149}</script>
+<script type="application/json" class="pd-epn">{"智能体":384,"MCP":69,"Codex":70,"Claude":79,"Yash":1,"Anurag Gohl":1,"Builder Pack":1,"Sean Falconer":1,"All Access":1,"Stripe":42}</script>
 
 <script>
 (function(){

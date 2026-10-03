@@ -33,7 +33,7 @@ unlisted: true
 
 [[Tara Seshan]] · [[Lenny]] · [[OpenAI]] · [[Codex]] · [[Work]] · [[ChatGPT]] · [[智能体]] · [[知识工作]] · [[Stripe]] · [[写作即思考]]
 
-<script type="application/json" class="pd-epn">{"Tara Seshan":1,"Lenny":68,"OpenAI":149,"Codex":69,"Work":1,"ChatGPT":87,"智能体":382,"知识工作":2,"Stripe":41,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Tara Seshan":1,"Lenny":68,"OpenAI":149,"Codex":70,"Work":1,"ChatGPT":88,"智能体":384,"知识工作":2,"Stripe":42,"写作即思考":1}</script>
 
 <script>
 (function(){

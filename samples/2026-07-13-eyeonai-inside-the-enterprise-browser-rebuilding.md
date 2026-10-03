@@ -107,9 +107,9 @@ Island 的判断是，企业必然是多 AI 供应商组织：法务用一个、
 
 **换个口味**
 
+- [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
-- [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、vibe coding</span>
 
 </div>
 </div>

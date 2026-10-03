@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Annie Lamont]] [[Justin Kan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":12,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":382,"多智能体工作流":2,"go-to-market":12,"MCP":68,"可观测性":34,"LLM":52}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":12,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":384,"多智能体工作流":2,"go-to-market":12,"MCP":69,"可观测性":34,"LLM":52}</script>
 
 <script>
 (function(){

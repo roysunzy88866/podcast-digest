@@ -68,7 +68,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude Code]] · [[智能体]] · [[Codex]] · [[Every]] · [[SaaS]] · [[Cora]] · [[前向部署工程师]] · [[ChatGPT]] · [[PM]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Claude Code":90,"智能体":382,"Codex":69,"Every":4,"SaaS":20,"Cora":2,"前向部署工程师":2,"ChatGPT":87,"PM":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Claude Code":90,"智能体":384,"Codex":70,"Every":4,"SaaS":20,"Cora":2,"前向部署工程师":2,"ChatGPT":88,"PM":3}</script>
 
 <script>
 (function(){

@@ -60,7 +60,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Tesla]] · [[Lenny]] · [[物理 AI]] · [[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[Uber]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":382,"ChatGPT":87,"Tesla":10,"Lenny":68,"物理 AI":9,"OpenAI":149,"NVIDIA":50,"Anthropic":161,"Uber":16,"推理":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":384,"ChatGPT":88,"Tesla":10,"Lenny":68,"物理 AI":9,"OpenAI":149,"NVIDIA":50,"Anthropic":161,"Uber":16,"推理":67}</script>
 
 <script>
 (function(){

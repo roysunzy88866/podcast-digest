@@ -116,7 +116,7 @@ Turbo Puffer 的解法是把不同司法辖区做成不同命名空间：欧盟�
 
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆]]<span class="pd-rz">同概念:向量搜索 (vector search)、智能体 (agent)、RAG</span>
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|Legora：三个非律师如何造出法律AI操作系统]]<span class="pd-rz">同公司:Legora · 同概念:智能体 (agent)</span>
-- [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力]]<span class="pd-rz">同概念:智能体 (agent)、RAG</span>
+- [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同概念:智能体 (agent)、Postgres</span>
 
 </div>
 <div class="pd-ex">
