@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>50</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(40:16起):本集说 NVIDIA 股价涨了 1000 倍，是公开市场上 AI 的纯代理标的之一
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(11:00起):本集提到充满 NVIDIA 芯片的数据中心根本经不起 25 年折旧的推敲，因为 GPU 可能三年就得淘汰，且芯片占数据中心建设成本的 50%。
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(03:46起):本集说 NVIDIA 是 AI 世代的大赢家（「会做得好」），并回忆 2016 年它市值约 400 亿而非 4 万亿；GPU 给 AI 负载带来并行性收益，但没解决核心间通信问题，这正是专用芯片的机会。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(21:41起):本集把它说成:在早期介入并伸出援手的捐赠公司,他们主动询问需求并派人接手了项目大部分的安全研究工作。
 - **[[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]]**(13:14起):本集在谈数据定价时顺带举例:NVIDIA 这样的公司可能愿意花 10 亿美元拥有一个前沿开源模型。
 - **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(09:50起):本集说 NVIDIA 的利润率绝对是不自然的：循环融资、兜底担保其实是一种没体现在利润率上的变相降价；其最终对手是资本成本更低的超大规模云厂商，CUDA 护城河已大幅减弱。
@@ -90,7 +91,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*50 集*
+*51 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -111,6 +112,7 @@ unlisted: true
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]] — 作为概念(提及)
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
@@ -149,7 +151,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[推理]] · [[Cursor]] · [[GPU]] · [[Meta]] · [[开源]] · [[Microsoft]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":162,"OpenAI":149,"智能体":387,"推理":67,"Cursor":76,"GPU":18,"Meta":40,"开源":31,"Microsoft":28,"Google":55}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":163,"OpenAI":149,"智能体":387,"推理":68,"Cursor":77,"GPU":18,"Meta":40,"开源":31,"Microsoft":28,"Google":55}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Maor Shlomo]] · [[Base44]] · [[Wix]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Vercel]] · [[Cursor]] · [[Render.com]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Maor Shlomo":1,"Base44":4,"Wix":4,"Lovable":19,"Bolt":3,"Replit":19,"Vercel":18,"Cursor":76,"Render.com":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Maor Shlomo":1,"Base44":4,"Wix":4,"Lovable":19,"Bolt":3,"Replit":19,"Vercel":18,"Cursor":77,"Render.com":1}</script>
 
 <script>
 (function(){

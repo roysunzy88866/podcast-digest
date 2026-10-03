@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Srini Raghavan]] · [[Freshworks]] · [[Cursor]] · [[Figma]] · [[Databricks]] · [[Atlassian]] · [[智能体]] · [[MCP]] · [[AI PDLC]]
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Srini Raghavan":1,"Freshworks":1,"Cursor":76,"Figma":22,"Databricks":19,"Atlassian":5,"智能体":387,"MCP":69,"AI PDLC":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"Srini Raghavan":1,"Freshworks":1,"Cursor":77,"Figma":22,"Databricks":20,"Atlassian":5,"智能体":387,"MCP":69,"AI PDLC":1}</script>
 
 <script>
 (function(){

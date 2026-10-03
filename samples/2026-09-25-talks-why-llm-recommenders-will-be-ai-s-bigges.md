@@ -145,9 +145,9 @@ LLM 这波浪潮的起点是 2020 年那篇里程碑式的扩展曲线论文(当
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)、预训练 (pre-training)</span>
 - [[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|LLM 重造 DoorDash 搜索与推荐:四个基础组件]]<span class="pd-rz">同公司:DoorDash · 同概念:LLM、Semantic ID(语义 ID) (semantic ID)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Meta · 同概念:微调 (fine-tuning)、推理 (inference)</span>
-- [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同公司:Meta · 同概念:后训练 (post-training)、预训练 (pre-training)</span>
 
 </div>
 <div class="pd-ex">

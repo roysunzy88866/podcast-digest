@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[vibe coding]] · [[沙箱]] · [[Codex]] · [[Claude]] · [[Cursor]] · [[Kitsa]] · [[Tobi Lütke]] · [[Daksh Gupta]] · [[Gabriel Spencer-Harper]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"vibe coding":43,"沙箱":70,"Codex":72,"Claude":80,"Cursor":76,"Kitsa":1,"Tobi Lütke":1,"Daksh Gupta":1,"Gabriel Spencer-Harper":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"vibe coding":43,"沙箱":70,"Codex":72,"Claude":80,"Cursor":77,"Kitsa":1,"Tobi Lütke":1,"Daksh Gupta":1,"Gabriel Spencer-Harper":1}</script>
 
 <script>
 (function(){

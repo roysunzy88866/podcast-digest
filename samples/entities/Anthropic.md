@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>162</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>163</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -84,6 +84,7 @@ unlisted: true
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(00:59起):本集提到它推出了 Claude 认证架构师考试,并且知道人们如何使用他们的系统以及会遇到什么问题。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(05:38起):本集提到它在当前极度激烈的招聘市场里是 Cursor 竞争对手,会给候选人开出天价薪资 offer,且传闻不让候选人谈判薪酬。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(04:39起):本集两次提到:一次说员工在那不会为 3000 美元采购被纠缠;一次说它有 GPU 内核优化这种抗 AI 作业
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(08:18起):本集说「Anthropic 会做所有事」的说法与当年「AWS 要吃掉一切」如出一辙，这种一家公司包揽一切的观点不成立。
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(00:19起):本集把它说成：应用 AI 团队打造 Claude Managed Agents、负责底层托管基础设施的公司。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(08:49起):本集把它说成:要求 OpenClaw 改名的公司,也是因为提前 24 小时通知禁用所有人的模型订阅,导致过度依赖其 Opus 模型的 OpenClaw 受到重创的平台方。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:24起):本集把它说成：另一家典型前沿模型公司，与 OpenAI 一样部署了前沿工程师并向上游市场进发，在卖 token 与吃掉垂直应用市场之间面临悖论。
@@ -222,7 +223,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*162 集*
+*163 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -299,6 +300,7 @@ unlisted: true
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为被讨论公司
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司(提及)
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司(提及)
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为被讨论公司
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
@@ -391,9 +393,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[推理]] · [[NVIDIA]] · [[Google]] · [[沙箱]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Google]] · [[沙箱]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"OpenAI":149,"Claude Code":92,"Cursor":76,"Claude":80,"推理":67,"NVIDIA":50,"Google":55,"沙箱":70,"ChatGPT":88}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"OpenAI":149,"Claude Code":92,"Cursor":77,"推理":68,"NVIDIA":51,"Claude":80,"Google":55,"沙箱":70,"ChatGPT":88}</script>
 
 <script>
 (function(){

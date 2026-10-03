@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Builder Pack":1,"All Access":1,"智能体":387,"compound engineering":2,"MCP":69,"Codex":72,"Claude":80,"Anthropic":162,"OpenAI":149,"Cursor":76}</script>
+<script type="application/json" class="pd-epn">{"Builder Pack":1,"All Access":1,"智能体":387,"compound engineering":2,"MCP":69,"Codex":72,"Claude":80,"Anthropic":163,"OpenAI":149,"Cursor":77}</script>
 
 <script>
 (function(){

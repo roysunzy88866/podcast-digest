@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Tesla</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Tesla">TE</div><div class="pi"><h1 class="pt">Tesla</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Tesla">TE</div><div class="pi"><h1 class="pt">Tesla</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(00:06起):本集探讨了其与 SpaceX 合并是否具有可行性，主持人认为两者本质上都是对埃隆·马斯克的押注，合并几乎不可避免。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(37:59起):本集提到它在自动驾驶领域与 NVIDIA 合作，称以前 NVIDIA 在它们的车里，现在主要在它们的数据中心。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(04:49起):本集提到:作为涉足物理 AI 领域的公司代表被顺带提及。
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(42:34起):本集说 Tesla 与 Waymo 一样垂直整合：用车主车队收集数据，用于训练驾驶模型。
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(25:17起):本集将 Tesla 与 Waymo 并列讨论，认为两者最终都会是赢家，但世界不会只收敛到两个玩家
 - **[[2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t|《福特 CEO Jim Farley:中国车企是生存威胁,平价电动车是反击》]]**(08:15起):本集说福特电动车曾连续三四年仅次于 Tesla 排第二;UEV 团队多为 Tesla 背景;Farley 认为更大威胁是 BYD,因为 Tesla 一直没有更新车型。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(24:56起):本集把 Tesla 与 Waymo 并列为目前能做到自动驾驶的公司，主持人还分享了自己买 Tesla 后「上车输入目的地」的体验。
@@ -36,7 +37,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -45,6 +46,7 @@ unlisted: true
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 - [[2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t|《福特 CEO Jim Farley:中国车企是生存威胁,平价电动车是反击》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
@@ -53,9 +55,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Waymo]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Google]] · [[物理 AI]] · [[Meta]] · [[NVIDIA]] · [[Uber]]
+[[Waymo]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[NVIDIA]] · [[Google]] · [[物理 AI]] · [[Meta]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Waymo":16,"智能体":387,"OpenAI":149,"ChatGPT":88,"Anthropic":162,"Google":55,"物理 AI":9,"Meta":40,"NVIDIA":50,"Uber":16}</script>
+<script type="application/json" class="pd-epn">{"Waymo":17,"智能体":387,"Anthropic":163,"OpenAI":149,"ChatGPT":88,"NVIDIA":51,"Google":55,"物理 AI":10,"Meta":40,"Cursor":77}</script>
 
 <script>
 (function(){

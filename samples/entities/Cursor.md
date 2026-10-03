@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>76</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>77</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,6 +41,7 @@ unlisted: true
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(01:41起):本集嘉宾 Adam Ward 现任该公司的负责人才高管,节目中详细分享了 Cursor 如何用「把每次招聘当高管招」的方式组建极高人才密度的团队。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(14:31起):本集把它说成:一款 AI 代码编辑器,在他们的代码库实测对比中表现出又快又好且更便宜的特点。
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(02:35起):本集提到的一种 AI 编程工具，嘉宾所在公司最初小心翼翼地试水，发了 50 个许可证看大家用不用，结果一下子在全公司铺开了。
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(01:03起):本集说 Cursor 从 IDE 到 tab 自动补全再到智能体化不断演进、淘汰自己六个月前的工作（「沙堡」），且占了这些云平台约 30%，就像当年 Snapchat 占 GCP 的 40%。
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(06:48起):本集提到 Cursor 是日常软件开发工具之一，在 Cursor 里让模型对照 API 文档构建界面时模型会做一半就停下来
 - **[[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]]**(10:05起):本集引用 Andrew 的说法:Cursor 是应用层公司构建行业领先模型的首个好例子,并预言未来 12 个月会出现几十个类似案例。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(32:01起):本集顺带提及，作为 A16Z 投资的组合公司中，PLG（产品驱动增长）模式的代表案例。
@@ -121,7 +122,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*76 集*
+*77 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
@@ -153,6 +154,7 @@ unlisted: true
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为被讨论公司(提及)
 - [[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]] — 作为概念(提及)
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
@@ -204,9 +206,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[Lenny]] · [[推理]] · [[ChatGPT]] · [[Lovable]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":162,"OpenAI":149,"Codex":72,"Claude Code":92,"vibe coding":43,"Lenny":68,"推理":67,"ChatGPT":88,"Lovable":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"OpenAI":149,"Codex":72,"Claude Code":92,"vibe coding":43,"推理":68,"Lenny":68,"ChatGPT":88,"NVIDIA":51}</script>
 
 <script>
 (function(){

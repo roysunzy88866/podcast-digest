@@ -1,0 +1,1312 @@
+{
+  "episode_id": "2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi",
+  "podcast": "Invest Like the Best",
+  "date": "2026-08-11",
+  "tags": [
+    "AI 投资逻辑",
+    "模型推理",
+    "硬件与芯片",
+    "机器人",
+    "SaaS 与竞争前沿"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "patrick-o-shaughnessy",
+      "type": "person",
+      "role": "host",
+      "name": "Patrick O'Shaughnessy",
+      "file": "Patrick O'Shaughnessy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.766,
+            93.848
+          ],
+          "quote": "I'm Patrick O'Shaughnessy, and this is Invest Like the Best.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.75,
+            117.412
+          ],
+          "quote": "Patrick O'Shaughnessy is the CEO of Positive Sum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eric-vishria",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eric Vishria",
+      "file": "Eric Vishria",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集说 Fireworks 是 AI 推理基础设施公司：同样的开源模型与 NVIDIA 硬件，它比云服务商性能高 5 倍、吞吐量高出好几倍，在支付云厂商利润率之上还能赚钱——说明推理是需要特定专业知识的手艺而非大宗商品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            150.357,
+            153.538
+          ],
+          "quote": "And then the ones that go on to work so far, Sierra and Fireworks certainly are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            157.921,
+            160.802
+          ],
+          "quote": "So I'd actually love to do both of those, maybe starting with fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            161.503,
+            170.308
+          ],
+          "quote": "What do you know, or what have you learned about the world and how it's reordering itself based on watching the world through the lens of fireworks that would maybe be surprising or interesting?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.942,
+            216.552
+          ],
+          "quote": "The performance difference for a fireworks versus a cloud provider is like 5x.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            703.009,
+            706.932
+          ],
+          "quote": "It's really interesting contrast to Fireworks where Fireworks is the sort of infrastructure provider.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            717.858,
+            719.339
+          ],
+          "quote": "Again, same question as for fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1362.6,
+            1369.349
+          ],
+          "quote": "But if we look at Brendan from McCore or Lynn from Fireworks or Max or Brett, any of these people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 922,
+          "t": [
+            3683.378,
+            3685.079
+          ],
+          "quote": "Will the fireworks of the world do well?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": true,
+      "how_described": "本集说 Sierra 表面是应用公司（从客户服务开始），实际在做真正的 AI 工作：贴着模型底层、构建智能体、理解 AI 能力的锯齿状边缘并围绕它做产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            150.357,
+            153.538
+          ],
+          "quote": "And then the ones that go on to work so far, Sierra and Fireworks certainly are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            698.647,
+            702.729
+          ],
+          "quote": "What is Sierra teaching you about the adoption of this stuff?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            707.272,
+            717.538
+          ],
+          "quote": "Sierra is feeling its way through what are really cool things that we can do for end consumers, enable companies to do for end consumers, starting with customer service, but I know with Horizon now going beyond that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sunday-robotics",
+      "type": "company",
+      "role": "company",
+      "name": "Sunday Robotics",
+      "file": "Sunday Robotics",
+      "primary": true,
+      "how_described": "本集说 Sunday Robotics 是被投的家庭机器人公司，走高价值数据→预训练→少量后训练的流水线；机器人手与采集数据的手套协同设计，数据可迁移性极好，地下室里十几台机器人在叠衣服。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 603,
+          "t": [
+            2523.991,
+            2527.872
+          ],
+          "quote": "We're investors in Sunday Robotics, which is going out for this exact pipeline.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集用 AWS 讲历史课：2006 年推出 S3 和 EC2，2007 年投资者不看好，2014 年「AWS 要吃掉一切」的叙事错得离谱——市场大到单一厂商吃不完，最大错误是低估市场，与今天「Anthropic 会做所有事」的说法押韵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            187.249,
+            200.192
+          ],
+          "quote": "The way to see this, and everybody can see this, which is everybody from AWS to Azure to GCP to the NeoClouds to the Firework Space 10 togethers of the world, like all of them,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            258.741,
+            267.846
+          ],
+          "quote": "And it is the kind of thing that when you look at it as an investor from the outside, and we should talk about early days of AWS, but when you look at it from the outside, it's like, this is a commodity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            297.942,
+            299.843
+          ],
+          "quote": "I think the AWS example is so good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            304.247,
+            307.79
+          ],
+          "quote": "Their compute platform and their storage platform is the first two AWS offerings in 2006.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            311.033,
+            318.775
+          ],
+          "quote": "2006, 2007, I think the 2007 annual letter, Bezos talks a lot about AWS and why it's important, why it's interesting and everything else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            327.178,
+            337.741
+          ],
+          "quote": "And ask them, what's the probability that this AWS business is a good business with durable long-term margins and like super interesting and everything not commodity?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            352.645,
+            354.667
+          ],
+          "quote": "Oh my God, AWS is going to eat everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            373.944,
+            375.546
+          ],
+          "quote": "And so it was just like, oh my God, AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            424.585,
+            432.75
+          ],
+          "quote": "But even then, in 2014, the thesis was the view that AWS was going to eat everything was massively wrong, not because of all the examples I just mentioned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            441.634,
+            442.514
+          ],
+          "quote": "Is AWS the biggest?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            552.022,
+            558.287
+          ],
+          "quote": "So if you go back to like 2010, 2011, now you're like three, four years into AWS being an offering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3342.973,
+            3346.756
+          ],
+          "quote": "Aside from like building on AWS or whatever, you pretty much own your whole stack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Cursor 从 IDE 到 tab 自动补全再到智能体化不断演进、淘汰自己六个月前的工作（「沙堡」），且占了这些云平台约 30%，就像当年 Snapchat 占 GCP 的 40%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.614,
+            67.016
+          ],
+          "quote": "OpenAI, Cursor, Anthric, and Vercel all have something in common.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            581.6,
+            584.002
+          ],
+          "quote": "That's like Cursor being 30% of all these things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            611.563,
+            628.966
+          ],
+          "quote": "So the difference now feels profound to me because while it is 100% the case that blue chip enterprise AI is not well absorbed and well adopted and not the same thing as going to cursor and walking the halls of cursor versus walking the halls of...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            787.629,
+            794.393
+          ],
+          "quote": "You saw the evolution of cursor from the IDE to like tab autocomplete to agentic work over and over and over again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            881.166,
+            885.15
+          ],
+          "quote": "I think that's one of the things that Michael and team at Cursor did so well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 994,
+          "t": [
+            3991.103,
+            3997.806
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise-ready overnight, not in months.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 是 AI 世代的大赢家（「会做得好」），并回忆 2016 年它市值约 400 亿而非 4 万亿；GPU 给 AI 负载带来并行性收益，但没解决核心间通信问题，这正是专用芯片的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            226.941,
+            233.866
+          ],
+          "quote": "And you're like, wait a minute, this is the same open source model with the same NVIDIA hardware.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1853.779,
+            1856.261
+          ],
+          "quote": "NVIDIA was worth like 40 billion, not 4 trillion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2118.609,
+            2127.314
+          ],
+          "quote": "And in each prior generation, we got Intel, we got NVIDIA, we got Broadcom and Vago, we got Qualcomm and ARM in each of these generations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 924,
+          "t": [
+            3686.48,
+            3687.44
+          ],
+          "quote": "Will NVIDIA do well?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把推理说成一门有真实专业壁垒的生意：同样的模型与硬件性能差 5 倍，跑 2-4 万亿参数模型非常难、高效地跑更是超级难；还提到把推理跑起来是可控因素之一、边缘推理会存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 386,
+          "t": [
+            1669.196,
+            1674.957
+          ],
+          "quote": "In these things when it seems like we could consume like any amount of money to build any amount of stuff and serve any amount of inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3328.103,
+            3333.707
+          ],
+          "quote": "For a bunch of things that were honestly outside of our control, there were some things that were in our control, getting inference running and everything else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            3693.043,
+            3695.004
+          ],
+          "quote": "Are we going to have edge inference on our phones?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 931,
+          "t": [
+            3696.224,
+            3698.565
+          ],
+          "quote": "Are we going to have near edge inference on POPs?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jagged-edge",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 能力的锯齿状边缘 (jagged edge)",
+      "file": "AI 能力的锯齿状边缘",
+      "primary": true,
+      "how_described": "本集说 AI 能力不是人类那种平滑弧线，而是有的地方极强、有的地方掉进低谷，且每四周就有新能力涌现；赢家的做法是理解这条锯齿边、围绕它构建产品、随边界移动不断迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            772.04,
+            777.142
+          ],
+          "quote": "And they're understanding the jagged edge of AI capabilities",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            783.366,
+            787.448
+          ],
+          "quote": "They understand that jagged edge of capability and they build around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            825.316,
+            826.797
+          ],
+          "quote": "They understand that jagged edge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            826.877,
+            831.561
+          ],
+          "quote": "They understand that application of that jagged edge or that valley to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            916.718,
+            928.387
+          ],
+          "quote": "And I think what there really are, are people who understand customer problems, people who have taste, and people who understand the jagged edge of AI capabilities and are curious about it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            933.911,
+            945.6
+          ],
+          "quote": "And it doesn't really matter if you are an engineer or a product manager or a designer, but if you have taste and understanding of customer problems and understanding the jagged edge, you're going to do well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1610.067,
+            1613.73
+          ],
+          "quote": "And what they're doing is bridging the jagged edge to what the customer's capability is.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source model)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说各家云厂商和 Fireworks 都在运行同样的开源模型，性能却差 5 倍——开源模型看起来像转手转卖，实则是需要大量特定专业知识的生意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            226.941,
+            233.866
+          ],
+          "quote": "And you're like, wait a minute, this is the same open source model with the same NVIDIA hardware.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集说 SaaS 公司真正的风险不是被 vibe coding 取代，而是竞争前沿完全转移：过去赖以取胜的不再是将来的胜负手；还给 SaaS 公司狠话「转向 AI，或者只值三倍收入」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            362.034,
+            367.498
+          ],
+          "quote": "And we all have these like amazing SaaS and software businesses that we were involved with or investors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1037.581,
+            1040.762
+          ],
+          "quote": "It'd be fun to revisit some of the ideas that we talked about the first time with SaaS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1058.47,
+            1069.195
+          ],
+          "quote": "Amongst the people that are becoming competitive winners, are the traits different for winners now, personality-wise or business strategy-wise or business model-wise versus what you learned in the SaaS era?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1074.558,
+            1076.119
+          ],
+          "quote": "That isn't the issue at all with SaaS companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1076.639,
+            1079.761
+          ],
+          "quote": "The issue with SaaS companies is the competitive frontier completely shifted.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1231.019,
+            1233.12
+          ],
+          "quote": "And I think one of the big messages to these SaaS companies",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1245.368,
+            1250.591
+          ],
+          "quote": "We say three times revenue now because a lot of these public SaaS companies are trading at six times or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2860.325,
+            2868.393
+          ],
+          "quote": "If I take Sagi and Benchling, Benchling is life sciences, SaaS, companies absolutely crushed, done really, really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2875.659,
+            2887.964
+          ],
+          "quote": "The company had never had any churn for the longest time, such that even on their reports for every SaaS company, you have this like, okay, gross ARR added, churn line, net ARR added, like everybody does the same thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3553.297,
+            3562.139
+          ],
+          "quote": "The SaaS companies that went public in 2021, a whole boat of them have struggled and it's been tough in the public markets because their stocks ripped to this multiple compression issue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3572.822,
+            3580.03
+          ],
+          "quote": "500-something, probably SaaS companies that are between 100 million and 500 million that are private.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 904,
+          "t": [
+            3634.613,
+            3641.839
+          ],
+          "quote": "I think one of the things people don't understand about why SaaS did so well versus traditional software was it wasn't just",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据库 (database)",
+      "file": "数据库",
+      "primary": true,
+      "how_described": "本集以数据库为例讲竞争前沿漂移：接口规定清晰、AI 最擅长规定清晰的事、智能体不厌倦翻译规格，迁移从「千万别碰」变得近乎小事一桩；数据库没死，但胜出标准变成从零到无穷的扩展性、成本、可迁移性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1094.399,
+            1099.522
+          ],
+          "quote": "You had app developers that would build against these specific database interfaces that existed for that database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1102.403,
+            1109.446
+          ],
+          "quote": "Migrating an app from one database to another database was a giant project that was very, very difficult to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1123.51,
+            1126.793
+          ],
+          "quote": "Now, you don't have a developer building against a database interface.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1127.034,
+            1130.277
+          ],
+          "quote": "You have Claude or Codex building against a database interface, one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1130.678,
+            1135.303
+          ],
+          "quote": "Two, the beauty of database interfaces is they're very, very well specified.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1145.603,
+            1155.357
+          ],
+          "quote": "So it turns out that now, all of a sudden, database migration, which used to be the number one thing you would not do in software, is like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1161.781,
+            1168.105
+          ],
+          "quote": "Well, what changes is the criteria to be an amazing database company changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1168.645,
+            1171.747
+          ],
+          "quote": "It isn't that we don't need databases or that everyone's going to build their own database or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1201.065,
+            1204.006
+          ],
+          "quote": "So the iteration speed goes up and what you need on database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1218.395,
+            1225.137
+          ],
+          "quote": "Hey, I spec'd this database for our user thing and I procured a license and I ran it on this kind of hardware and everything else.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "本集说 LLM 的魔法是有巨大的预训练基座再加少量后训练就能教新东西；机器人领域正在复现这条路径（Sunday Robotics），Waymo 和 Tesla 也是先收集高质量数据做预训练再泛化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            2492.078,
+            2503.963
+          ],
+          "quote": "Now, once you do that, then can you, through the pre-training process, get to a place where you can have very small auxiliary examples of data",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2509.325,
+            2520.87
+          ],
+          "quote": "That's the magic we have with LLMs is you have this giant pre-trained base and then you add a little magic on it in RL and post training and you teach it a new thing that it wasn't in the pre-training set and you kind of go from there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2576.193,
+            2578.796
+          ],
+          "quote": "They did their pre-training and then they worked off of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2618.615,
+            2629.029
+          ],
+          "quote": "You do this pre-training and you have a great pre-training dataset, you have a good model, and then you start adding these examples in URL and post-training on top and you get cool emergent behavior.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2746.419,
+            2755.202
+          ],
+          "quote": "What I think is much more important is are you pre-training an amazing model than being able to post-train on top of it and get that flywheel going?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说预训练出好基座后，用极少量的后训练样本（加 RL）教会新任务，让飞轮转起来——飞轮转起来，任务能力会自己不断翻倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 600,
+          "t": [
+            2504.783,
+            2508.785
+          ],
+          "quote": "That you add in post training and all of a sudden it works for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2509.325,
+            2520.87
+          ],
+          "quote": "That's the magic we have with LLMs is you have this giant pre-trained base and then you add a little magic on it in RL and post training and you teach it a new thing that it wasn't in the pre-training set and you kind of go from there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2618.615,
+            2629.029
+          ],
+          "quote": "You do this pre-training and you have a great pre-training dataset, you have a good model, and then you start adding these examples in URL and post-training on top and you get cool emergent behavior.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPU",
+      "file": "CPU",
+      "primary": true,
+      "how_described": "本集说第六代计算正在到来：LLM 在加速器上生成代码、代码跑在 CPU 上，而经典 CPU 拖着一堆可能不再需要的包袱，新的 CPU 路线有了空间（他们做了一笔未公布的投资）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 485,
+          "t": [
+            2041.002,
+            2043.543
+          ],
+          "quote": "So you had multipurpose compute and it led to the CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2150.363,
+            2154.107
+          ],
+          "quote": "In a long time, there's actually room for a new CPU approach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2266.489,
+            2271.693
+          ],
+          "quote": "I do like those kinds of things, joking aside, and we do have a robotics company, and then this CPU",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度学习 (deep learning)",
+      "file": "深度学习",
+      "primary": true,
+      "how_described": "本集说硬件上加速深度学习只有三条路——加核心数量、加核心间通信、把内存搬到算力旁边，Cerebras 把三条全部推到逻辑极限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1840.209,
+            1844.152
+          ],
+          "quote": "And then the kind of first slide was just like, GPUs actually suck for deep learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1866.672,
+            1878.358
+          ],
+          "quote": "I had spent the last 18 months trying to figure out applications of deep learning and looking at the security thing, looking at this medical imaging thing and like all this other stuff, thinking like, hey, there must be something here that's gonna be really transformed by this stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1895.928,
+            1901.335
+          ],
+          "quote": "But basically there are three things that we know how to do to speed up deep learning in hardware, still till this day.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "type": "concept",
+      "role": "concept",
+      "name": "能源 (energy)",
+      "file": "能源",
+      "primary": true,
+      "how_described": "本集说他担心的不是宏观而是能源：模型把算力高效转化为智能、对智能的需求无限，算力就需要大量能源，而中国明年新增能源可能是美国的十倍；解法是太阳能、核能、天然气全都去做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            519.139,
+            530.746
+          ],
+          "quote": "Scaling in this case requires a ton of infrastructure buildup from energy, power, shell, chips, memory, obviously the algorithms and everything else on top.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1676.938,
+            1677.878
+          ],
+          "quote": "I am worried about energy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1700.463,
+            1702.924
+          ],
+          "quote": "We need energy, a lot of energy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1708.127,
+            1716.551
+          ],
+          "quote": "But the bigger thing to me is that I think China's bringing on 10 times as much energy next year as we are in the US.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1717.112,
+            1726.677
+          ],
+          "quote": "If energy is what you need for compute and is the bottleneck, and there's unlimited demand for intelligence, then it stands to reason that if we have a lot less energy,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1741.491,
+            1744.133
+          ],
+          "quote": "To me, I think the energy bottleneck",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1767.959,
+            1770.981
+          ],
+          "quote": "All energy, solar, nuclear, gas, like whatever, do it all.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "quota-capacity-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "配额容量模型 (quota capacity model)",
+      "file": "配额容量模型",
+      "primary": false,
+      "how_described": "本集说上一代销售领导者带来的配额容量模型不知不觉全是「推动需求」，在卖魔法的 AI 公司里彻底失灵——旧 playbook 是负资产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1491.253,
+            1503.76
+          ],
+          "quote": "And I saw it really abruptly with a particular sales leader who we hired, who's like, hey, we can't hit any of these things because the way that software sales has been taught forever is a quota capacity model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1504.2,
+            1505.441
+          ],
+          "quote": "You have a quota capacity model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1552.249,
+            1561.475
+          ],
+          "quote": "The whole notion of a quota capacity model and that being working, it's not that it doesn't matter, it matters kind of, but it's definitely not the first order thing or constraint.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "teleoperation",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥操作 (teleoperation)",
+      "file": "遥操作",
+      "primary": false,
+      "how_described": "本集提到机器人为解决没有「互联网」的问题，各家在尝试视频、模拟和遥操作等不同方式获取数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 585,
+          "t": [
+            2434.213,
+            2437.675
+          ],
+          "quote": "Videos and simulations and teleoperation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集以 Snowflake 为 AWS「吃掉一切」叙事失败的证据：Amazon Redshift 的直接竞争对手，跑在 Amazon 上面比 Amazon 还 Amazon。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            384.034,
+            395.905
+          ],
+          "quote": "And think about from like 2014 to now, in enterprise, of course, you have Snowflake, direct competitor to Amazon Redshift, ran on Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            399.833,
+            400.713
+          ],
+          "quote": "But it's not just Snowflake.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            962.955,
+            971.582
+          ],
+          "quote": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集列举 Databricks 是 2014 年后 AWS 大叙事下仍然崛起的企业级基础设施公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            400.973,
+            406.296
+          ],
+          "quote": "You had Confluent and Elastic and Mongo, Databricks, all of these companies, amazing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集说三大云之外还长出了 Cloudflare——另一种意义上的云提供商，又一家 1000 亿美元公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            447.156,
+            450.958
+          ],
+          "quote": "And even outside of those big three, you have Cloudflare.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说「Anthropic 会做所有事」的说法与当年「AWS 要吃掉一切」如出一辙，这种一家公司包揽一切的观点不成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            498.806,
+            500.127
+          ],
+          "quote": "Anthropic's going to do everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2704.135,
+            2712.283
+          ],
+          "quote": "And obviously, you know, the Anthropic team had this perspective that you could get to RSI if you've got code generation going and automating AI research and whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3702.567,
+            3716.432
+          ],
+          "quote": "There's so much zero-sum thinking, which is just like, okay, how do we cut up this pie, and they're gonna eat this much, and like, oh no, no, no, no, no, Anthropic, or whomever, is gonna eat 98% of the value, and they're gonna do all the drug discovery, and I was like, come on, no, that's not what's gonna happen.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集以 Waymo 为机器人/AI 历史参照：垂直整合地收集高质量数据、预训练、再泛化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 612,
+          "t": [
+            2554.843,
+            2556.804
+          ],
+          "quote": "You look at Waymo and you look at Tesla.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2570.749,
+            2571.67
+          ],
+          "quote": "The same thing with Waymo.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集说 Tesla 与 Waymo 一样垂直整合：用车主车队收集数据，用于训练驾驶模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 612,
+          "t": [
+            2554.843,
+            2556.804
+          ],
+          "quote": "You look at Waymo and you look at Tesla.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2561.566,
+            2564.987
+          ],
+          "quote": "You have a Tesla, you have a fleet of Teslas that everybody owned.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Cerebras",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Jevons Paradox",
+      "reason": "专名「Jevons Paradox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

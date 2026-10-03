@@ -154,7 +154,7 @@ Travis 说他对高管的要求有两件事：能在规模上组织和管理，�
 
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:Atoms、Pronto · 同概念:工业AI (industrial AI)、自主化 (autonomy)</span>
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:工业AI (industrial AI)、物理AI (physical AI)</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+- [[2026-08-12-twist-these-robots-could-cut-delivery-costs-by|机器人接管仓库、90秒配眼镜：自动化的两次硬核落地]]<span class="pd-rz">同概念:物理AI (physical AI)、自动化 (automation)</span>
 
 </div>
 </div>

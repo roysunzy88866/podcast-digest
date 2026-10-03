@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":387,"Claude Code":92,"Codex":72,"Cursor":76,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":387,"Claude Code":92,"Codex":72,"Cursor":77,"vibe coding":43}</script>
 
 <script>
 (function(){

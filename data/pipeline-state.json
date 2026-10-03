@@ -222,7 +222,8 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
-    "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1
+    "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
+    "2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n": 1
   },
   "cutoffs": {
     "lennys": "2026-09-30T14:45:15.000Z",
@@ -1974,6 +1975,36 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
       "pubDate": "2026-10-03T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-01-mad-ai-models-are-now-hiding-their-cheating",
+      "reason": "题材不对味:拿不准:模型隐藏作弊属可解释性/安全研究方向,偏档案 ❌ 的'AI安全/思辨'面,但涉及创始人访谈角度,深度拿不准",
+      "title": "AI Models Are Now Hiding Their Cheating | Eric Ho (Goodfire)",
+      "pubDate": "2026-10-01T11:30:00.000Z"
+    },
+    {
+      "id": "2026-08-17-twist-bittensor-creator-const-on-affine-dtao-m",
+      "reason": "题材不对味:主题是 Bittensor/dTAO 加密协议与推理挖矿,属加密 CS/技术深水且非档案收录题材;访谈体裁虽常青,但内容本身偏思辨技术而非创始人建公司/产业实操",
+      "title": "Bittensor creator Const on Affine, dTAO, \"mining reasoning,\" and more | E2326",
+      "pubDate": "2026-08-17T19:37:00.000Z"
+    },
+    {
+      "id": "2026-08-15-twist-what-we-ll-learn-from-anthropic-s-2-3t-i",
+      "reason": "题材不对味:过时:Anthropic IPO 事件/估值类内容距今 50 天,已超出 14 天时效窗口",
+      "title": "What we'll learn from Anthropic's $2-$3T IPO | E2325",
+      "pubDate": "2026-08-15T00:33:00.000Z"
+    },
+    {
+      "id": "2026-08-11-sourcery-neros-raises-250m-series-c-at-2-5b-to-bu",
+      "reason": "题材不对味:过时:融资快讯类时效内容距今 54 天已过时,且主题为无人机硬件制造而非 AI 商业/产业格局",
+      "title": "Neros Raises $250M Series C at $2.5B to Build 1 Million Drones a Year",
+      "pubDate": "2026-08-11T17:00:00.000Z"
+    },
+    {
+      "id": "2026-08-11-sed-sed-news-the-kimi-moment-runaway-ai-and",
+      "reason": "题材不对味:过时:新闻聚合/速览体裁(SED News 多主题简报)且距今 54 天,超出 14 天时效",
+      "title": "SED News: The Kimi Moment, Runaway AI, and Tokenmaxxing",
+      "pubDate": "2026-08-11T09:00:00.000Z"
     }
   ]
 }

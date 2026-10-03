@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloudflare</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]]**(00:00起):本集三位对话者均来自 Cloudflare，讨论了在 Cloudflare Worker 上运行编码智能体、通过 Cloudflare 保护家庭设备连接等实践
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(10:43起):本集说 Cloudflare 的 Just Bash 被 AIE 网站用来做任意代码执行，是 code mode 的 Python 形式实现
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(09:18起):本集把它说成:Idan 部署个人网站的平台,支持预览部署,让智能体能直观验证代码升级后网站没有发生破坏。
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(07:27起):本集说三大云之外还长出了 Cloudflare——另一种意义上的云提供商，又一家 1000 亿美元公司。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(21:57起):本集提到 Cloudflare 作为基础设施供应商之一，和 Datadog、JFrog 一样，赶上历史上最大的基础设施繁荣
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(47:25起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel；也提到Cloudflare预测五年后智能体流量是人类流量的1000倍
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(34:01起):本集顺带提到 Cloudflare 说在其网络流量监控中，AI 流量在页面阅读方面大约与人类流量相同
@@ -38,12 +39,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为被讨论公司
 - [[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]] — 作为被讨论公司
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
@@ -57,9 +59,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[推理]] · [[Google]] · [[可观测性]] · [[Claude]] · [[code mode]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[推理]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[Google]] · [[可观测性]] · [[Claude]] · [[code mode]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":162,"OpenAI":149,"沙箱":70,"推理":67,"Google":55,"可观测性":35,"Claude":80,"code mode":2,"Cursor":76}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"推理":68,"OpenAI":149,"沙箱":70,"Cursor":77,"Google":55,"可观测性":35,"Claude":80,"code mode":2}</script>
 
 <script>
 (function(){

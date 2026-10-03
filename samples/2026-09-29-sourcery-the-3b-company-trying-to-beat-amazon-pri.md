@@ -134,8 +134,8 @@ Stored 押注机器人的底气是数据：他们每年处理约 **80 亿个[[�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon · 同概念:机器人 (robotics)</span>
+- [[2026-08-12-twist-these-robots-could-cut-delivery-costs-by|机器人接管仓库、90秒配眼镜：自动化的两次硬核落地]]<span class="pd-rz">同公司:Amazon · 同概念:机器人 (robotics)</span>
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同概念:机器人 (robotics)</span>
-- [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|不做 LLM，做世界模型：Alex 的 12 亿美元豪赌]]<span class="pd-rz">同概念:机器人 (robotics)</span>
 
 </div>
 <div class="pd-ex">

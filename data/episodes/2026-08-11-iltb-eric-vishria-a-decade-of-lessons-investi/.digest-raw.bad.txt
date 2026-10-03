@@ -1,0 +1,127 @@
+===标题===
+从 5 倍性能差距到沙堡软件:顶级投资人 Eric 看懂 AI 的方式
+===导语===
+风险投资人 Eric 讲述他投出 Cerebras、Fireworks、Sierra 等公司后对 AI 时代的判断:运行模型极难、市场远比想象的大、旧经验必须推倒重来。
+===正文===
+这一集的主角是 Eric,一位投出了 Cerebras、Fireworks、Sierra、Sunday Robotics 等公司的风险投资人,他每年只投一两家公司,12 年总共投了 18 家。主持人请他逐一复盘这些公司教会他的事。第一个反直觉的事实就够震撼:Fireworks 和云服务商跑的是**同一个开源模型、同样的 NVIDIA 硬件**,前者的推理速度快 5 倍、吞吐量还高出好几倍 [03:28 Eric]。Fireworks 这样的公司付着云厂商的利润率、还能在其上赚钱 [04:03 Eric]——结论只有一个:把大模型(2 万亿到 4 万亿参数)跑得高效,是一门极其需要专业知识的生意,远不是外人以为的「大宗商品转卖」。
+
+## AWS 的教训:市场永远比你以为的大
+
+有人担心一两家规模赢家通吃,像大宗商品市场那样。Eric 用 AWS 的历史反驳:2006 年 AWS 推出 S3 和 EC2 时,当时最聪明的 30 个投资人,恐怕没有一个人会认为这是一门好生意;2014 年流行的叙事是「AWS 要吃掉一切、企业市场没机会了」——结果 Snowflake 在 Amazon 云上跑着、直接打 Amazon Redshift 的脸,Confluent、Elastic、Mongo、Databricks 都长起来了,应用层的 Datadog 今天是 1000 亿美元的公司,三大云之外还冒出 Cloudflare 这样又一家 1000 亿美元公司。「如果这一切都成了呢?」——一切都成了 [07:49 Eric]。他犯的最大错误从来不是押错谁,而是**低估了市场**:市场太大,单一厂商根本吞不完 [07:59 Eric]。今天的 AI 版本——「Anthropic 会包揽一切」——在他听来就是历史在押韵,而且 AI 需要的基建扩张(能源、电力、机壳、芯片、内存)远比当年云计算难,他判断最终会是一个寡头格局,外加一批 1000 亿美元量级的「疯狂的小赢家」[08:50 Eric]。需求侧也一样:当年企业对云的怀疑,和 Snapchat 一度占 GCP 40% 的今天版 Cursor 一模一样;不同的是,这次蓝筹企业不再不屑一顾——他们在做实验、在花钱、把 AI 更多视为威胁也是机会,他建议创业公司去做这些企业的「AI 向导」(横跨硅谷和企业两个世界的那座桥)[11:25 Eric]。
+
+## 沙堡与锯齿边缘:产品开发被彻底倒转
+
+Sierra 的启发是:表面上是应用公司,实际上贴着模型的金属飞行。他们理解「AI 能力的锯齿状边缘」——AI 能力的分布不是人类那种平滑的弧线,而是某些事超强、某些事突然失败——并围绕它构建产品 [12:57 Eric]。Brett Taylor 的说法是「沙堡」:过去我们建城堡,现在我们建沙堡,每四周模型出一次新能力,你就在不断淘汰自己六个月前的工作,像 Cursor 从 IDE 到自动补全再到智能体那样 [13:19 Eric]。这直接倒转了传统产品管理——「产品经理只管理解客户、把问题翻译给工程师」的老做法现在行不通了,你必须真的懂模型擅长什么、在哪里失败,再和客户问题对上 [14:27 Eric]。所以真正重要的只有三种人:理解客户问题的人、有品味的人、对锯齿状边缘充满好奇的人——是工程师还是产品经理根本不重要 [15:16 Eric]。
+
+## 竞争前沿转移:SaaS 的生死题
+
+他对「人人都能 vibe coding(用自然语言让 AI 写代码)出自己的软件、所以 SaaS 要完」的想法非常不屑——问题根本不在那,在于**竞争前沿完全转移了** [17:49 Eric]。拿数据库举例:它过去黏性极强,因为开发者基于专用接口构建、迁移是巨大的工程;现在写代码的是 Claude 或 Codex,数据库接口规格又极其清晰(而 AI 恰恰擅长规格清晰的事),智能体还不厌倦这种单调翻译工作——数据库迁移从「软件业最不该做的事」变成砸钱就能干的事 [19:00 Eric]。数据库没消失,但赢的标准变了:从零到无穷的扩展性、可迁移性、成本成了裁判 [20:07 Eric]。对 SaaS 公司的警告更扎心:「转向 AI,或者只值三倍收入」;更残酷的是——你每达成一天的计划,就在摧毁股权价值 [21:11 Eric],因为旧世界的「定计划、狠执行、建价值」逻辑整体失效了,数亿美元业务的 CEO 们从早 8 点到下午 5 点经营旧业务、晚上 5 到 8 点搞 AI,而他们需要的恰恰是反过来 [22:02 Eric]。
+
+## 旧经验会害死你:销售的例子
+
+上一代最优秀的领导者进入 AI 公司后大量「彻底失败」,一个具体原因是:传统软件销售建立在配额容量模型上(每个销售代表扛固定配额,早期 120 万、150 万,逐步爬升),但大家没意识到这套模型建立在「推动需求」上;而在 AI 公司,你卖的是魔法——很多公司里单个销售做到 1000 万、2000 万、3000 万,最近他见过 5000 万 [26:32 Eric]。所以面试这些高管时他的原则是:把学到的一切都留在门外,从第一性原理重新学。而这些公司里最好的销售永远是最懂锯齿边缘的那个人——创始人 [26:46 Eric]。
+
+## 能源是真正的瓶颈
+
+需求端对智能的需求似乎无限——东西越聪明、需求越大,瓶颈可能只剩资本。Eric 不担心资本,担心**能源**:模型就是把算力翻译成智能的机器,而中国明年新增的能源产能大约是美国的 10 倍 [28:28 Eric]。如果能源是算力的瓶颈而智能需求无限,能源少就意味着智能更少或 token 更贵,这在他看来非常糟糕;解法是所有能源(太阳能、核能、天然气)全都要上。
+
+## Cerebras:硬件投资的一切教训
+
+2016 年 Cerebras 找上门时只有五个创始人和一份 BP,第一张幻灯片写着「GPU 对深度学习其实很糟糕,它们只是碰巧比 CPU 好一百倍」[30:44 Eric]——那是 Transformer 之前、NVIDIA 市值 400 亿的时代。他当时理解的全部投资逻辑就三条:硬件上加速深度学习只有三个维度——增加核心数量、增加核心间通信、把内存挪近算力——而 Cerebras 把三条都推到逻辑极限(晶圆级芯片、45 万核心、约 20G 片上 SRAM)。真正的教训是:软件公司有了正确的逻辑框图就完成了 80%,硬件只完成了 2%,剩下的是物理、供应链、30 多家供应商 [32:20 Eric];2019 年董事会上面前那块芯片正在熔化、融了的 5 亿美元眼看要全亏,是那个「天生与众不同」的团队把它救回来的。他依然认为这是值得风投做的事:尝试构建人们试了 50 年没做成的东西 [37:29 Eric]。另一个心得:专家的「别做、太难了、基础成功率太低」在 19/20 的情况下是对的——但如果它成功,恰恰是因为那些原因不起作用 [38:53 Eric]。他还预告了一个未公布的第六代方向:LLM 生成的代码跑在 CPU 上,而经典 CPU 拖着一堆也许不再需要的包袱,新 CPU 路线有空间了 [35:50 Eric]。
+
+## 机器人:先解决数据,再谈用例
+
+机器人卡在没有「互联网规模数据」来启动模型。Eric 的框架来自 LLM 的 playbook:模型公司当年给数据分价值等级(Wikipedia、GitHub 比 forum 高),AI 机器人公司应该直接去追高价值数据——Sunday Robotics 用和机器手一同设计的专用手套采集完美匹配的遥操作数据,先做出预训练基座,再用少量样本做后训练、让飞轮转起来,Waymo 和 Tesla 的垂直整合也是同一逻辑 [42:56 Eric]。至于「叠衣服是不是找错了用例」,他不怕:任务本身不重要,重要的是飞轮能不能转 [45:46 Eric]。最直观的一刻:投资前看的是 Stanford 地下室里简陋的纸板手套,如今十几台机器人在办公室地下室随意叠衣,还有专人测量折叠质量、建立严格的评估基线——「天哪,这正在成真」[44:27 Eric]。
+
+## 投资心法与本集带走
+
+他做董事会伙伴的方式:投资人是第二身份,伙伴是第一;拿到「投资级但没化学反应」的机会会直接放弃。投前的自问清单:①我能否说服自己在乎的人去这家公司、把它当成毕生事业?做不到就不投 [50:01 Eric];②周六晚 9 点来电我接不接(绿色按钮测试);③如果我们是对的,这件事重要吗——很多对的事没人在乎,做不出股权价值 [50:46 Eric]。20 到 100 倍回报的公式:和真正特别的人共事、努力工作、聪明地工作、走运,而运气可以主动增加——像高尔夫那样不断把球打到离洞很近,总有一杆会进 [57:07 Eric]。
+
+- **运行大模型是极难的专业活**:同样的模型、同样的硬件,最好和最差差 5 倍速度、好几倍吞吐量——外行看着像转卖,内行全是知识。
+- **别低估市场**:AWS 时代「一家吃掉一切」的恐惧落空了,AI 时代「Anthropic 包揽一切」同样不会发生;赢的格局是寡头 + 一批千亿美元的小赢家。
+- **赢家的标准变了**:黏性来自旧接口的时代结束,AI 擅长规格清晰的事、不厌倦迁移,成本、扩展性、可迁移性成了新裁判。
+- **每天达成旧计划就在摧毁价值**:旧世界的成功模式整体失效,要么彻底反转精力分配,要么被自己的肌肉记忆拖死。
+- **硬件 = 软件 2% 的难度**:逻辑对了才完成 2%,剩下是物理和供应链;专家的反对意见 19/20 是对的,成功恰恰发生在那 1/20。
+- **机器人复刻 LLM playbook**:先垂直整合拿高价值数据做预训练,再用后训练让飞轮转起来,任务本身反而不重要。
+- **增加运气的方法**:把很多球打到离洞很近,总有一杆会进。
+
+> 【背景】Eric 指访谈嘉宾 Eric,节目《Invest Like the Best》主持人 Patrick O'Shaughnessy 称其为合伙人型投资人;本集转写稿仅以单名出现,未给出完整姓氏。
+
+===金句===
+03:28 | Eric
+EN | The performance difference for a fireworks versus a cloud provider is like 5x.
+ZH | Fireworks 和一家云服务商之间的性能差距大概是 5 倍。
+
+08:10 | Eric
+EN | It's different now and like all these things, but just that whole notion right now with what you and I are seeing in AI sure feels like it rhymes.
+ZH | 现在情况不同了,就像所有这些事情一样,但眼下你我在 AI 领域看到的整个情形,确实感觉很像是在押韵(历史重演)。
+
+13:21 | Eric
+EN | We used to be building castles. Now we're building sandcastles.
+ZH | 我们过去是在建造城堡。现在我们在建造沙堡。
+
+15:16 | Eric
+EN | And I think what there really are, are people who understand customer problems, people who have taste, and people who understand the jagged edge of AI capabilities and are curious about it.
+ZH | 而我认为真正存在的是:理解客户问题的人、有品味的人,以及理解 AI 能力的锯齿状边界并对此充满好奇的人。
+
+17:49 | Eric
+EN | I'm very dismissive of this idea that people are going to vibe code their own shit and whatever.
+ZH | 我对那种“人们会用 vibe coding 写自己的破玩意儿”之类的想法非常不屑。
+
+19:21 | Eric
+EN | Well, what changes is the criteria to be an amazing database company changed.
+ZH | 变的是成为一家出色数据库公司的标准变了。
+
+21:11 | Eric
+EN | But I think that even it became really visceral to me where you're in these meetings and you're like, hey, every single day that you are hitting your plan, you are destroying equity value.
+ZH | 但我认为甚至这件事对我来说变得非常切身的体会是,当你在这些会议里,你会说:嘿,你每达成一天的计划,你就在摧毁股权价值。
+
+21:48 | Eric
+EN | And the point of saying that to them was to set them free.
+ZH | 对他们说这些的目的就是解放他们。
+
+26:46 | Eric
+EN | Honestly, the best salesperson in any of these companies is a founder.
+ZH | 说实话,这些公司里任何一家的最佳销售人员都是创始人。
+
+26:59 | Eric
+EN | Just like we were talking about with cloud, I think the biggest mistake everybody made was they just undersized the market.
+ZH | 就像我们之前谈云计算时说的,我认为所有人犯的最大错误就是他们只是低估了市场。
+
+28:37 | Eric
+EN | If energy is what you need for compute and is the bottleneck, and there's unlimited demand for intelligence, then it stands to reason that if we have a lot less energy,
+ZH | 如果能源是你获得算力所需的东西,而且是瓶颈,而对智能的需求是无限的,那么理所当然地,如果我们拥有的能源少得多,
+
+30:44 | Eric
+EN | They just happen to be a hundred times better than CPUs.
+ZH | 它们只是碰巧比 CPU 好一百倍。
+
+32:20 | Eric
+EN | And it turns out that in software, if you have that logical block diagram of like why it works and everything else, you're kind of 80% of the way there. And it's a matter of go to market execution. In hardware, you're like 2% of the way there.
+ZH | 结果发现,在软件领域,如果你有了那个逻辑框图,比如它为什么能工作之类的,你基本上已经完成了 80%。剩下的就是进入市场的执行问题。而在硬件领域,你才完成了大概 2%。
+
+37:29 | Eric
+EN | I said this well before 2018 or whatever, is whether Cerebus worked or didn't, I think it was an effort that was worth venture capital.
+ZH | 而且我在 2018 年或更早之前就说过,无论 Cerebras 成功还是不成功,我认为这是一项值得风险投资的努力。
+
+38:35 | Eric
+EN | They're correct 19 times out of 20, maybe 99 times out of 100.
+ZH | 它们二十次里有十九次是对的,也许一百次里有九十九次。
+
+38:53 | Eric
+EN | All of that stuff is actually totally right, except when it isn't.
+ZH | 所有这些东西实际上完全是对的,除非它不对的时候。
+
+45:46 | Eric
+EN | What I think is much more important is are you pre-training an amazing model than being able to post-train on top of it and get that flywheel going?
+ZH | 我认为更重要的是,你是否在预训练一个出色的模型,然后能在其基础上进行后训练,并让这个飞轮转起来?
+
+57:07 | Eric
+EN | And the way to increase your luck is get a lot of balls close to the pin. Eventually one will drop.
+ZH | 增加运气的方法就是让很多球靠近球洞。最终总有一个会进。
+
+63:01 | Eric
+EN | Jeff Hinton's three orders of magnitude smarter than I am. Could not have been more wrong.
+ZH | Jeff Hinton 比我聪明三个数量级。但他错得不能再错了。
+
+===END===

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(23:49起):本集提到 StarCloud 正在与其合作推出 Outpost 硬件，以运行 VC2 的本地实例，供军事客户使用。
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:37起):本集将 AWS 作为超大规模厂商（hyperscaler）的代表之一，提供垂直集成的智能体核心功能
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(03:07起):本集用 AWS 讲历史课：2006 年推出 S3 和 EC2，2007 年投资者不看好，2014 年「AWS 要吃掉一切」的叙事错得离谱——市场大到单一厂商吃不完，最大错误是低估市场，与今天「Anthropic 会做所有事」的说法押韵。
 - **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(02:05起):本集把它描述为低层、复杂的云:操作步骤多、要配几千个变量、出错机会多，token 消耗大——核心论点是智能体会因为追求省 token、步骤少而抛弃它。
 - **[[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|《AI 时代，工程师的判断力与品味如何修炼》]]**(09:46起):本集以2017年 AWS S3 大规模故障作为案例教学法的经典案例，用于从多角度拆解技术决策与组织决策
 - **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(47:41起):本集说 Facebook 没有利用 AWS 而是自己建数据中心，因为当 Facebook 加入时 AWS 和公有云还相当初级，不是真正的选择
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
@@ -50,6 +51,7 @@ unlisted: true
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司(提及)
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为被讨论公司
 - [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|《AI 时代，工程师的判断力与品味如何修炼》]] — 作为被讨论公司(提及)
 - [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司(提及)
@@ -65,9 +67,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[护栏]] · [[Stripe]] · [[McKinsey]] · [[NVIDIA]] · [[Claude]] · [[Databricks]]
+[[智能体]] · [[Anthropic]] · [[Databricks]] · [[Microsoft]] · [[NVIDIA]] · [[护栏]] · [[OpenAI]] · [[Stripe]] · [[McKinsey]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":162,"OpenAI":149,"Microsoft":28,"护栏":71,"Stripe":43,"McKinsey":6,"NVIDIA":50,"Claude":80,"Databricks":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"Databricks":20,"Microsoft":28,"NVIDIA":51,"护栏":71,"OpenAI":149,"Stripe":43,"McKinsey":6,"推理":68}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(16:34起):本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半
 - **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(23:40起):本集说 SaaS 的美妙之处在于你希望客户在未来 20 年里成为客户，他们买的不仅是今天的产品，更是信任
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(06:02起):本集说 SaaS 公司真正的风险不是被 vibe coding 取代，而是竞争前沿完全转移：过去赖以取胜的不再是将来的胜负手；还给 SaaS 公司狠话「转向 AI，或者只值三倍收入」。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(01:29起):本集说 SaaS 没死，只是使用者变了——智能体擅长按按钮，所以软件回来了但变成智能体在用
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(42:40起):本集说很多 SaaS 公司只是在给猪涂口红撒点 AI 粉尘加个副驾驶，协同工作时代的自主智能体对没有记录系统和 AI 战略的 SaaS 公司是真正的威胁
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(05:27起):本集说 Mural 的定价模式反映了传统 SaaS 按座位收费的方式
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*13 条*
+*14 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -45,6 +46,8 @@ unlisted: true
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q2]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q8]]
+
+![[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi#^q5]]
 
 ![[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#^q5]]
 
@@ -64,7 +67,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -79,6 +82,7 @@ unlisted: true
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为概念(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为概念
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为概念(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
@@ -91,9 +95,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Google]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Microsoft]] · [[微调]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[NVIDIA]] · [[Google]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":162,"OpenAI":149,"Cursor":76,"Google":55,"Stripe":43,"Salesforce":34,"Claude Code":92,"Microsoft":28,"微调":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"OpenAI":149,"Cursor":77,"NVIDIA":51,"Google":55,"Stripe":43,"Salesforce":34,"Claude Code":92,"Microsoft":28}</script>
 
 <script>
 (function(){

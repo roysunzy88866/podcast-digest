@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[智能体]] · [[Harvey]] · [[Decagon]] · [[护城河]] · [[微调]] · [[Anish Acharya]] · [[Christian Klein]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":162,"Salesforce":34,"智能体":387,"Harvey":16,"Decagon":9,"护城河":13,"微调":29,"Anish Acharya":4,"Christian Klein":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":149,"Anthropic":163,"Salesforce":34,"智能体":387,"Harvey":16,"Decagon":9,"护城河":13,"微调":29,"Anish Acharya":4,"Christian Klein":1}</script>
 
 <script>
 (function(){

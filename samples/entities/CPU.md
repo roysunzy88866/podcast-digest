@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CPU">CP</div><div class="pi"><h1 class="pt">CPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CPU">CP</div><div class="pi"><h1 class="pt">CPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(17:45起):本集把它说成：过去 64 年里主导计算机产业的通用中央处理器；在 PC 革命时代，整个硅谷都围着它和摩尔定律转。
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(34:01起):本集说第六代计算正在到来：LLM 在加速器上生成代码、代码跑在 CPU 上，而经典 CPU 拖着一堆可能不再需要的包袱，新的 CPU 路线有了空间（他们做了一笔未公布的投资）。
 - **[[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]]**(06:11起):本集说了解 CPU 的缓存层级、执行单元调度等是理解性能的基础，懂汇编后能直接读懂 CPU 架构图
 - **[[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]]**(60:48起):本集说在智能体工作负载中，CPU 成为整个系统的协调机制，关键不是兼容遗留代码，而是确保每个 CPU 核心不会被其他智能体占满而瓶颈化。
 - **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(01:40起):全集核心论点:『从来没有一个计算问题不利用微处理器,它是一切的心脏』——训练转向推理后,CPU 负责编排、仲裁、调度 token 的『卡车』,且边缘设备离不开高能效 CPU。
@@ -26,9 +27,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为概念
 - [[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]] — 作为概念(提及)
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]] — 作为概念(提及)
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为概念
@@ -37,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[Arm]] · [[GPU]] · [[推理]] · [[Condi Rice]] · [[Casey Moratori]] · [[Nathan]] · [[Elad]] · [[Jensen Huang]] · [[性能优化]]
+[[NVIDIA]] · [[推理]] · [[GPU]] · [[后训练]] · [[Arm]] · [[深度学习]] · [[Condi Rice]] · [[Patrick O'Shaughnessy]] · [[Casey Moratori]] · [[Nathan]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":50,"Arm":2,"GPU":18,"推理":67,"Condi Rice":1,"Casey Moratori":1,"Nathan":4,"Elad":1,"Jensen Huang":3,"性能优化":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":51,"推理":68,"GPU":18,"后训练":1,"Arm":2,"深度学习":4,"Condi Rice":1,"Patrick O'Shaughnessy":3,"Casey Moratori":1,"Nathan":4}</script>
 
 <script>
 (function(){

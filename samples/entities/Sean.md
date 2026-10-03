@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":25,"机器人":10,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":26,"机器人":11,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1000 @@
+{
+  "episode_id": "2026-08-12-twist-these-robots-could-cut-delivery-costs-by",
+  "podcast": "This Week in Startups",
+  "date": "2026-08-12",
+  "tags": [
+    "机器人",
+    "物流履约",
+    "物理 AI",
+    "医疗自动化",
+    "硬件创业"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "host",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.932,
+            2.732
+          ],
+          "quote": "My name is Alex.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "kevin-gibbon",
+      "type": "person",
+      "role": "cohost",
+      "name": "Kevin Gibbon",
+      "file": "Kevin Gibbon",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            36.851,
+            39.734
+          ],
+          "quote": "It's Kevin Gibbon, the co-founder and CEO of Cytronic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 487,
+          "t": [
+            1783.594,
+            1785.255
+          ],
+          "quote": "I'm Kevin Gibbon also on Twitter.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cytronic",
+      "type": "company",
+      "role": "company",
+      "name": "Cytronic",
+      "file": "Cytronic",
+      "primary": true,
+      "how_described": "本集说它是做「面向电商的物理 AI」的机器人履约公司，用约 3 万平方英尺的微型履约中心，把拣货成本从每单约 2.5 美元降到几美分，收客户每单 0.5 美元、每拣 0.1 美元，每仓 120 万美元 CapEx、回本期不到一年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            36.851,
+            39.734
+          ],
+          "quote": "It's Kevin Gibbon, the co-founder and CEO of Cytronic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 40,
+          "t": [
+            97.774,
+            99.195
+          ],
+          "quote": "And here we are with Cytronic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 66,
+          "t": [
+            185.208,
+            189.391
+          ],
+          "quote": "And that's what I kind of like figured out at, when we started at Cytronic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1766.823,
+            1771.626
+          ],
+          "quote": "The website is cytronic.ai, C-Y-T-R-O-N-I-C.ai.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ibot",
+      "type": "company",
+      "role": "company",
+      "name": "iBot",
+      "file": "iBot",
+      "primary": true,
+      "how_described": "本集说它是放在 Walmart、Sam's Club 等零售商眼镜区的自助验光亭，90 秒完成一组视力检测，数据上云后由自持执照的远程医生审核开出眼镜处方，费用 0 到 25 美元，重配率大幅优于行业平均、相当于全美前 10% 的医生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 491,
+          "t": [
+            1803.788,
+            1812.39
+          ],
+          "quote": "Now, I learned about a company called iBot, and what they are doing is putting kiosks into places around the world where you can go walk up and get a new glasses prescription in 90 seconds.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 494,
+          "t": [
+            1821.471,
+            1828.893
+          ],
+          "quote": "So please join me in welcoming Matthias Hoffman, CEO and co-founder of iBot to the show to tell us all about how he's going to make everyone see that much better.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1896.993,
+            1902.057
+          ],
+          "quote": "And I kind of think of iBot as a company that could help a lot more folks have more accurate and regular prescriptions.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1917.37,
+            1920.311
+          ],
+          "quote": "Yeah, so iBot is a vision testing technology.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2149.733,
+            2152.074
+          ],
+          "quote": "And that's really where iBot today comes in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2169.6,
+            2177.685
+          ],
+          "quote": "You just have essentially our iBot technologies and our units are in eyeglass stores and some of the biggest, most prominent retailers like Walmart and Sam's Club.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2378.036,
+            2380.098
+          ],
+          "quote": "iBot is here to really level the playing field.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2470.111,
+            2479.036
+          ],
+          "quote": "So that's sort of the ramp up speed and time for doctors to work with iBot is very quick because they, you know, it looks like it's the same kind of layout.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2638.57,
+            2641.633
+          ],
+          "quote": "And so iBot is simply here to fill the gap.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3015.047,
+            3020.329
+          ],
+          "quote": "And iBot is here to help unlock that bottleneck is the prescription, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3053.336,
+            3063.242
+          ],
+          "quote": "But if I was a normal person and I wanted to get a pair of those and I wore a normal prescription, I would just go to the Apple store, stand in front of the iBot kiosk for 90 seconds, have that inputted into my order.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3102.359,
+            3112.965
+          ],
+          "quote": "So this is the stuff that gives me goosebumps is like, and this is why the entire iBot team is, if you ask anyone on our team, like, why are you working on this?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3140.558,
+            3144.219
+          ],
+          "quote": "We have Amish people getting eyeglass prescriptions from iBot.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3169.013,
+            3175.857
+          ],
+          "quote": "Now, the other thing, of course, that we always track is how happy are people with the glasses that they're using iBot prescriptions?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3250.305,
+            3262.193
+          ],
+          "quote": "But are there any major charitable groups or programs that you could maybe supply a handful of iBot kiosks to, to allow them to bring them on the back of a truck or whatever?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3555.375,
+            3562.181
+          ],
+          "quote": "And so, yeah, as far as IBOT goes, we're going to have doctors.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3567.747,
+            3570.73
+          ],
+          "quote": "I think there's a common misunderstanding out there about how IBOT does it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 893,
+          "t": [
+            3612.997,
+            3617.782
+          ],
+          "quote": "And we can really change the world, but it'll come down to how big iBot can get.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3809.444,
+            3815.972
+          ],
+          "quote": "Yeah, our website, yeah, it's ibot.co, so E-Y-E-B-O-T.co.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集说亚马逊虽是行业标杆，但用的是一套 20 年前的 Kiva 系统思路——把整条货架通道搬到拣货员面前，像把加油站开到汽车跟前；且它只做自营、不在公开市场竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            189.85,
+            210.068
+          ],
+          "quote": "Yeah, okay, but also, yes, you can make a good business out of it, but there are some benefits to, I would say, the broader economy at the same time, because if you can help the smaller seller, the smaller GTC brand, dare I say, even the mom and pop, have a fulfillment system that is competitive with what Amazon has built for itself, then they can better compete with the incumbents, yeah?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 157,
+          "t": [
+            546.949,
+            550.893
+          ],
+          "quote": "I mean, how many generations of robots has Amazon built to move around its racks inside of its warehouses?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 160,
+          "t": [
+            552.375,
+            557.537
+          ],
+          "quote": "The problem actually with Amazon is interesting is that they just have too much historical stuff on there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            557.557,
+            562.059
+          ],
+          "quote": "So, like, everybody points out that Amazon is the leader, and I would, it's hard to argue with that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 194,
+          "t": [
+            673.824,
+            679.307
+          ],
+          "quote": "Amazon warehouses are not places that are, based on everything that I've read, a lovely place to spend your time.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 257,
+          "t": [
+            913.929,
+            920.011
+          ],
+          "quote": "Now, I don't think we should have humans walking 47 miles in an Amazon warehouse putting toothbrushes into little carts.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 268,
+          "t": [
+            959.957,
+            962.559
+          ],
+          "quote": "Amazon's a great example, but that's because they do their own products, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1406.037,
+            1408.377
+          ],
+          "quote": "You're competing with some degree to Amazon and their fulfillment network.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "3pl",
+      "type": "concept",
+      "role": "concept",
+      "name": "3PL",
+      "file": "3PL",
+      "primary": true,
+      "how_described": "本集把 3PL 说成帮小商家做仓储发货的第三方物流外包商，传统每单收 3 到 3.5 美元，行业完全没有自动化，且因人员管理会崩而呈「规模越大单位成本越贵」、十亿美元级玩家众多却无人一家独大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            151.649,
+            153.409
+          ],
+          "quote": "So we would work with the 3PL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            538.419,
+            541.102
+          ],
+          "quote": "3PL industry is not automated at all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            707.119,
+            722.663
+          ],
+          "quote": "So 3PL typically will charge you like $3, maybe $3.50 for fulfillment, depending on how many, like average number of SKUs per order, let's call it two.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 267,
+          "t": [
+            957.015,
+            959.637
+          ],
+          "quote": "The single 3PL really owning everything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            981.912,
+            983.233
+          ],
+          "quote": "Arguably, that was a 3PL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1054.001,
+            1061.507
+          ],
+          "quote": "It feels kind of win-win-win in that case, except for if you are an existing 3PL who are going to get the rug ripped out from underneath them.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1510.566,
+            1515.809
+          ],
+          "quote": "We don't have the per-unit costs that a labor-heavy 3PL would be.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fulfillment",
+      "type": "concept",
+      "role": "concept",
+      "name": "履约 (fulfillment)",
+      "file": "履约",
+      "primary": true,
+      "how_described": "本集说履约是极少数随着规模扩大、单位成本反而变贵的事情之一，崩点在人员管理；Cytronic 用机器人路线直接砍掉这个「人的问题」，并把履约当作切入更大生态的楔子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.056,
+            20.28
+          ],
+          "quote": "Now, today we hear more about how e-commerce giants are adding automation to their fulfillment systems and really getting a lot of benefits from that, cost control, speed, efficiency.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 67,
+          "t": [
+            189.85,
+            210.068
+          ],
+          "quote": "Yeah, okay, but also, yes, you can make a good business out of it, but there are some benefits to, I would say, the broader economy at the same time, because if you can help the smaller seller, the smaller GTC brand, dare I say, even the mom and pop, have a fulfillment system that is competitive with what Amazon has built for itself, then they can better compete with the incumbents, yeah?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 89,
+          "t": [
+            268.416,
+            272.739
+          ],
+          "quote": "And it's really looking at a use case that I'm very familiar with, which is e-commerce fulfillment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            335.345,
+            338.128
+          ],
+          "quote": "So we actually operate micro-fulfillment centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            436.167,
+            445.414
+          ],
+          "quote": "So some off-the-shelf robots, some stuff you're working on in-house, and these robots, the idea is essentially robotic automation inside of warehouses and fulfillment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 203,
+          "t": [
+            707.119,
+            722.663
+          ],
+          "quote": "So 3PL typically will charge you like $3, maybe $3.50 for fulfillment, depending on how many, like average number of SKUs per order, let's call it two.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            780.338,
+            785.401
+          ],
+          "quote": "I know a lot of people really understand fulfillment, but just think of robotics in like a simplest terms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1028.34,
+            1035.366
+          ],
+          "quote": "And that's why fulfillment is one of the only things that as you scale, it actually gets more expensive on a per unit cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1155.211,
+            1159.274
+          ],
+          "quote": "The fulfillment is really our wedge into the broader ecosystem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1164.699,
+            1172.306
+          ],
+          "quote": "The highest cost of an actual e-commerce transaction outside of the marketing and the product, it is shipping and fulfillment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1172.446,
+            1179.252
+          ],
+          "quote": "Shipping is actually more expensive than fulfillment, so we're taking off the fulfillment piece, which really is just like an extra tax.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1406.037,
+            1408.377
+          ],
+          "quote": "You're competing with some degree to Amazon and their fulfillment network.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1551.744,
+            1561.111
+          ],
+          "quote": "Then you're not only like changing the fulfillment curve on the cost, but you're now moving the shipping needle.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1638.99,
+            1645.036
+          ],
+          "quote": "So you can tell people like, look, not only will we cut all your fulfillment costs, but we also have, if your delivery is nearby, we can just do it for you too.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1679.56,
+            1683.402
+          ],
+          "quote": "When you're ready to really want you want cheap and fast fulfillment operations, you come see us.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人技术 (robotics)",
+      "file": "机器人技术",
+      "primary": true,
+      "how_described": "本集说机器人本来就该是成本或速度的阶跃式变化，而不是复制人的动作；单点机器人方案竞争多、防御性差、大多会被商品化，价值会聚集在整合各方案的服务层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            283.15,
+            284.131
+          ],
+          "quote": "And it really is the robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            308.111,
+            311.432
+          ],
+          "quote": "So we have a robotics team and we do some of this stuff and we have to work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            311.732,
+            315.373
+          ],
+          "quote": "We are like a hardware robotics company at the end of the day.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            352.359,
+            358.302
+          ],
+          "quote": "But it really enables us to get close to the customer, have a really tight space, and then use a lot of these different robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 114,
+          "t": [
+            364.484,
+            371.287
+          ],
+          "quote": "But again, I think it's a really important, and especially for any robotics founder, whoever, you can't do everything with these today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            372.808,
+            378.069
+          ],
+          "quote": "I kind of stumbled across a use case that is very, very great for robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            427.661,
+            432.264
+          ],
+          "quote": "And we're able to take it down to sense with doing the actual robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            565.301,
+            569.743
+          ],
+          "quote": "Like, Kiva Robotics is not the ideal for e-commerce picking.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            746.002,
+            748.304
+          ],
+          "quote": "Robotics is not famous for its low costs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 218,
+          "t": [
+            780.338,
+            785.401
+          ],
+          "quote": "I know a lot of people really understand fulfillment, but just think of robotics in like a simplest terms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 220,
+          "t": [
+            787.443,
+            793.207
+          ],
+          "quote": "Like robotics was supposed to like be a step change in like cost or speed or whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1418.18,
+            1422.423
+          ],
+          "quote": "So I think that what gets everybody's attention is the robotics, obviously.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1619.909,
+            1623.193
+          ],
+          "quote": "I was just trying to Google and try to remember the name of the company, Serve Robotics.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1685.983,
+            1696.129
+          ],
+          "quote": "And I think that is the only way that that that's going to be the start of like where you see robotics companies actually chip off at the incumbents are these very focused use cases.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 905,
+          "t": [
+            3677.208,
+            3681.369
+          ],
+          "quote": "So overall, Boston is a fantastic place for robotics for hardware engineers.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集说 Cytronic 真正在做的是「面向商业的物理 AI」——把机器人和智能软件带进仓库，把电商履约里最适合机器人的那一环自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            262.711,
+            268.275
+          ],
+          "quote": "So it really is, it's physical AI for commerce is what we're building.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集说自动化消灭的是最糟糕的工作（如人力仓库里每天走好几英里的拣货员）；医生不够、需求在涨，满足需求的唯一出路是自动化医疗，iBot 做的就是自动化眼科护理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.056,
+            20.28
+          ],
+          "quote": "Now, today we hear more about how e-commerce giants are adding automation to their fulfillment systems and really getting a lot of benefits from that, cost control, speed, efficiency.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 6,
+          "t": [
+            22.181,
+            24.622
+          ],
+          "quote": "Are they reaping the same rewards from automation?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 122,
+          "t": [
+            403.319,
+            415.67
+          ],
+          "quote": "So it requires like if it's not completely non-automated warehouse, you have people walking miles per day and these warehouses and it is still the majority of the market doesn't have any automation at all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            436.167,
+            445.414
+          ],
+          "quote": "So some off-the-shelf robots, some stuff you're working on in-house, and these robots, the idea is essentially robotic automation inside of warehouses and fulfillment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 156,
+          "t": [
+            544.386,
+            546.929
+          ],
+          "quote": "But this is the place where we've seen so much progress in automation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 193,
+          "t": [
+            668.68,
+            673.204
+          ],
+          "quote": "And if anyone listening is concerned about automation killing off human labor, we're automating the worst jobs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 195,
+          "t": [
+            679.587,
+            684.67
+          ],
+          "quote": "So I think this is a great example of where automation does help a lot.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1040.33,
+            1049.598
+          ],
+          "quote": "So it really makes the idea of having your smaller facilities with automation make a lot of sense because you don't have the same problem.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "teledoctor",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程医生 (teledoctor)",
+      "file": "远程医生",
+      "primary": false,
+      "how_described": "本集说 iBot 自建持证远程医生网络，检测数据上云后由医生审核、开具处方，形成电子采集加人工后端的混合方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 627,
+          "t": [
+            2439.375,
+            2442.617
+          ],
+          "quote": "Oh yeah, I guess I didn't answer your previous question on the Teledoctor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2442.657,
+            2445.378
+          ],
+          "quote": "So yeah, so it's our own Teledoctor network, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "eyeglass-prescription",
+      "type": "concept",
+      "role": "concept",
+      "name": "眼镜处方 (eyeglass prescription)",
+      "file": "眼镜处方",
+      "primary": true,
+      "how_described": "本集说拿到一张眼镜处方是难以置信地困难和令人沮丧的过程，有时要数周甚至数月；全球约 15 亿人看不清、需要的只是一副眼镜——瓶颈从来不是制造，是拿到处方的通道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 519,
+          "t": [
+            1947.371,
+            1950.475
+          ],
+          "quote": "So you can essentially get an eyeglass prescription within minutes.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2107.608,
+            2120.722
+          ],
+          "quote": "Now, what we identified, and I think that resonates in general when I talk to people about this, is that getting an eyeglass prescription just to get a new pair of glasses is unbelievably hard and frustrating for people.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2143.15,
+            2148.892
+          ],
+          "quote": "Actually, all you need is a pair of new glasses or contact lenses, which for that, you only need an eyeglass prescription.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2156.093,
+            2169.52
+          ],
+          "quote": "And it allows people to get to that eyeglass prescription very quickly and to the point where it's a matter of minutes where you don't need to do any scheduling or planning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2178.498,
+            2184.467
+          ],
+          "quote": "And so it allows you to just walk in, take a test, get an eyeglass prescription, and buy a pair of glasses.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2242.856,
+            2257.663
+          ],
+          "quote": "So we want to not only make it unbelievably easy for people to get their eyes checked and to get an eyeglass prescription, but also we want to lower the cost so much that you really have no reason to not do this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2479.916,
+            2488.081
+          ],
+          "quote": "And they use their clinical judgment and training and schooling to write and craft eyeglass prescription the same way they would with patients in their own clinic.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vision-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "视力检测 (vision testing)",
+      "file": "视力检测",
+      "primary": false,
+      "how_described": "本集刻意区分全面眼科检查与视力检测：iBot 只做后者这一段——测试视力清晰度、量身定制处方，不做散瞳查眼健康那一整套。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 514,
+          "t": [
+            1917.37,
+            1920.311
+          ],
+          "quote": "Yeah, so iBot is a vision testing technology.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1991.416,
+            1993.157
+          ],
+          "quote": "is the vision testing portion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2942.158,
+            2948.943
+          ],
+          "quote": "We're in here to help do vision testing and getting people to the solution they need.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

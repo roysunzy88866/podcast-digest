@@ -55,7 +55,7 @@ unlisted: true
 
 [[Astro Teller]] · [[Amjad Masad]] · [[Alphabet]] · [[Replit]] · [[Waymo]] · [[公开构建]] · [[Google Brain]] · [[智能体]] · [[Wing]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"Amjad Masad":4,"Alphabet":1,"Replit":19,"Waymo":16,"公开构建":2,"Google Brain":1,"智能体":387,"Wing":1,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"Amjad Masad":4,"Alphabet":1,"Replit":19,"Waymo":17,"公开构建":2,"Google Brain":1,"智能体":387,"Wing":1,"vibe coding":43}</script>
 
 <script>
 (function(){

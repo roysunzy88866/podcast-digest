@@ -150,7 +150,7 @@ jsonLd: |
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同嘉宾:Jensen Huang · 同公司:NVIDIA · 同概念:深度学习 (deep learning)</span>
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:NVIDIA、AMD · 同概念:GPU</span>
-- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:NVIDIA、AMD · 同概念:GPU</span>
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人]]<span class="pd-rz">同公司:NVIDIA · 同概念:深度学习 (deep learning)、CPU</span>
 
 </div>
 <div class="pd-ex">

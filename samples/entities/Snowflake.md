@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snowflake</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(00:27起):本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(52:44起):本集中被作为竞争对手提及。起步时走专有封闭路线，试图锁定高价值数据做极速查询；相比 Databricks 从数据上游做大规模式处理起步，Snowflake 当初认为管理好高价值数据即可。
 - **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(33:20起):本集提到 Snowflake 作为巨型技术合作伙伴之一，在 Omni 早期阶段并不会带来业务
+- **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(06:24起):本集以 Snowflake 为 AWS「吃掉一切」叙事失败的证据：Amazon Redshift 的直接竞争对手，跑在 Amazon 上面比 Amazon 还 Amazon。
 - **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(03:56起):本集说它是他们的数据仓库,摄取 GTM 技术栈所有供应商数据、跑每日转换,产出一小组建模带版本的实体,是计算「真相」的地方。
 - **[[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]]**(00:39起):嘉宾所在公司，近万名员工、近半为销售；他的团队是 Snowflake 产品的零号客户，在自家平台上为销售团队构建内部 go-to-market 智能体助手。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(07:50起):本集提离线侧用 DBT 和 Snowflake 做批处理，结果回灌到同一数据层
@@ -36,7 +37,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -44,6 +45,7 @@ unlisted: true
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为被讨论公司(提及)
+- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]] — 作为被讨论公司(提及)
 - [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为被讨论公司
 - [[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]] — 作为被讨论公司
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
@@ -59,9 +61,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Databricks]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[沙箱]] · [[Codex]] · [[Stripe]] · [[Lenny]]
+[[智能体]] · [[Databricks]] · [[Anthropic]] · [[护栏]] · [[SaaS]] · [[MCP]] · [[沙箱]] · [[OpenAI]] · [[Codex]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Databricks":19,"Anthropic":162,"护栏":71,"OpenAI":149,"MCP":69,"沙箱":70,"Codex":72,"Stripe":43,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"Databricks":20,"Anthropic":163,"护栏":71,"SaaS":21,"MCP":69,"沙箱":70,"OpenAI":149,"Codex":72,"Stripe":43}</script>
 
 <script>
 (function(){
