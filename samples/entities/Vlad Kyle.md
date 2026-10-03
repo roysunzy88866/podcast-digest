@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]] [[Justin Kan]]
+[[Alex Atallah]] [[Amjad Masad]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 

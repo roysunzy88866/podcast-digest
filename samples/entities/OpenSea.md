@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anjney Midha]] · [[Alex Atallah]] · [[OpenRouter]] · [[Stripe]] · [[Anthropic]] · [[Discord]] · [[OpenAI]] · [[MidJourney]] · [[Mistral]] · [[开放权重]]
 
-<script type="application/json" class="pd-epn">{"Anjney Midha":1,"Alex Atallah":1,"OpenRouter":12,"Stripe":42,"Anthropic":162,"Discord":6,"OpenAI":149,"MidJourney":3,"Mistral":7,"开放权重":8}</script>
+<script type="application/json" class="pd-epn">{"Anjney Midha":1,"Alex Atallah":2,"OpenRouter":13,"Stripe":43,"Anthropic":162,"Discord":6,"OpenAI":149,"MidJourney":3,"Mistral":7,"开放权重":8}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":40,"推理":67,"智能体":385,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":35}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":40,"推理":67,"智能体":387,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":35}</script>
 
 <script>
 (function(){

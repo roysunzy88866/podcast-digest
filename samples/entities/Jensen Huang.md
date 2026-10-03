@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":50,"深度学习":3,"智能体":385,"沙箱":69,"Condi Rice":1,"harness":51,"Jerry":1,"AMD":4,"前沿模型":23,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":50,"深度学习":3,"智能体":387,"沙箱":70,"Condi Rice":1,"harness":51,"Jerry":1,"AMD":4,"前沿模型":23,"Sega":1}</script>
 
 <script>
 (function(){

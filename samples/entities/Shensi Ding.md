@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":385,"MCP":69,"沙箱":69,"连接器":3,"智能 LLM 路由器":1,"可观测性":35,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":387,"MCP":69,"沙箱":70,"连接器":3,"智能 LLM 路由器":1,"可观测性":35,"后训练":1}</script>
 
 <script>
 (function(){

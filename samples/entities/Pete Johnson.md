@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":162,"Eleven Labs":8,"Uber":16,"智能体":385,"智能体记忆":1,"RAG":22,"嵌入模型":4}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":162,"Eleven Labs":8,"Uber":16,"智能体":387,"智能体记忆":1,"RAG":22,"嵌入模型":4}</script>
 
 <script>
 (function(){

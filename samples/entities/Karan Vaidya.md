@@ -39,17 +39,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Composio]] · [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[治理]] · [[可逆性]] · [[中心化]]
+[[Composio]] · [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[governance]] · [[可逆性]] · [[中心化]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Composio":1,"智能体":385,"沙箱":69,"上下文":25,"验证":1,"治理":5,"可逆性":1,"中心化":1}</script>
+<script type="application/json" class="pd-epn">{"Composio":1,"智能体":387,"沙箱":70,"上下文":25,"验证":1,"governance":6,"可逆性":1,"中心化":1}</script>
 
 <script>
 (function(){

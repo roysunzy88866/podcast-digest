@@ -124,9 +124,9 @@ Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底�
 
 **换个口味**
 
+- [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|AI 的下一阶段：不是一个超级模型，而是一群专业化模型]]<span class="pd-rz">同嘉宾:Amjad Masad · 同公司:Replit、Stripe · 同概念:智能体 (agent)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

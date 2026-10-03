@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":69,"FastMCP":1,"Prefab":1,"智能体":385,"沙箱":69,"生成式 UI":4,"Claude":80}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":69,"FastMCP":1,"Prefab":1,"智能体":387,"沙箱":70,"生成式 UI":4,"Claude":80}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Jonathan]] · [[Mali]] · [[智能体]] · [[RL 环境]] · [[RLVR]] · [[涌现行为]] · [[泛化]] · [[开放权重模型]] · [[蒸馏]] · [[学习循环]]
 
-<script type="application/json" class="pd-epn">{"Jonathan":1,"Mali":1,"智能体":385,"RL 环境":7,"RLVR":2,"涌现行为":2,"泛化":2,"开放权重模型":1,"蒸馏":1,"学习循环":2}</script>
+<script type="application/json" class="pd-epn">{"Jonathan":1,"Mali":1,"智能体":387,"RL 环境":7,"RLVR":2,"涌现行为":2,"泛化":2,"开放权重模型":1,"蒸馏":1,"学习循环":2}</script>
 
 <script>
 (function(){

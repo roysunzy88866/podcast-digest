@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
+[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":8,"Cursor":76,"GitHub":27,"Bloomberg":3,"智能体":385,"沙箱":69,"泄露的凭证":3,"权限":1,"数据仓库":3}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":8,"Cursor":76,"GitHub":27,"Bloomberg":3,"智能体":387,"沙箱":70,"泄露的凭证":3,"权限":1,"数据仓库":3}</script>
 
 <script>
 (function(){

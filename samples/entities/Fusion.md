@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Fusion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Fusion">FU</div><div class="pi"><h1 class="pt">Fusion</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Fusion">FU</div><div class="pi"><h1 class="pt">Fusion</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(03:17起):本集提到的路由产品名称,分别由 Cognition(用于大小模型委派) 和 OpenRouter(用于编排多个模型给出融合结果) 各自发布。
+- **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(01:32起):本集说 OpenRouter 发布了融合模型，把多个在不同数据上训练的模型的能力混合，首次发布聚焦 deep research，以低 2 倍成本做到旗舰级质量，另有复现以 40%–50% 成本达到前沿水平。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
+- [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tane]] · [[Carter]] · [[Walden]] · [[模型路由]] · [[智能体]] · [[上下文压缩]] · [[RL]] · [[蒸馏]] · [[KV 缓存]] · [[Cognition]]
+[[智能体]] · [[OpenRouter]] · [[Tane]] · [[Alex Atallah]] · [[Carter]] · [[Amjad Masad]] · [[Walden]] · [[Replit]] · [[模型路由]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"Walden":1,"模型路由":9,"智能体":385,"上下文压缩":1,"RL":9,"蒸馏":1,"KV 缓存":3,"Cognition":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"OpenRouter":13,"Tane":1,"Alex Atallah":2,"Carter":1,"Amjad Masad":4,"Walden":1,"Replit":19,"模型路由":9,"Stripe":43}</script>
 
 <script>
 (function(){

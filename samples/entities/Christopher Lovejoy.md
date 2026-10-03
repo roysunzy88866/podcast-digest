@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":162,"智能体":385,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":162,"智能体":387,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

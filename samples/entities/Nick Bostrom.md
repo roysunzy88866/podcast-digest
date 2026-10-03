@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
+[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":5,"OpenAI":149,"Anthropic":162,"Hugging Face":26,"NVIDIA":50,"智能体":385,"对齐":13,"AI 安全":2,"护栏":70,"开源模型":24}</script>
+<script type="application/json" class="pd-epn">{"Alex":5,"OpenAI":149,"Anthropic":162,"Hugging Face":26,"NVIDIA":50,"智能体":387,"对齐":14,"AI 安全":2,"护栏":71,"开源模型":24}</script>
 
 <script>
 (function(){

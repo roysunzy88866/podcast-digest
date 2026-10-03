@@ -1,0 +1,172 @@
+{
+  "title_zh": "AI 的下一阶段：不是一个超级模型，而是一群专业化模型",
+  "tldr": "OpenRouter 的 Alex 与 Replit 的 Amjad 对谈：为什么 AI 的下一阶段属于多个各有所长的专业化模型协同，而非单一通用模型。",
+  "digest_md": "这一集聊的是一个大判断：过去几年 AI 一直在朝着更大、更通用的模型冲刺，但未来可能恰恰相反——更多专业化的小模型协同工作。两位主角：一个是 OpenRouter 的 Alex（OpenRouter 是一个 AI 模型聚合与路由平台，刚被 Stripe 收购，这是他收购后上的第一档播客）；另一个是 Replit 的 Amjad（在线编程平台 Replit 的 CEO，也是 OpenRouter 的投资人）。\n\nAlex 开场就亮出他最核心的主张，他称之为「神经多样性」：构建独特的智能，不能只把提示词堆在一个模型上，你需要多个以不同方式训练的模型的力量，包括一些你自己的模型，才能做到 ChatGPT 或 Claude 单独做不到的事 [06:38 Alex]。第二个理由是成本：很多生意在变得有成本效益之前根本不会出现，而 OpenRouter 用一个高效的市场帮大家压低价格——否则「作为提供商，我为什么要降价呢？我们拥有一个被锁定的市场」[07:37 Alex]。他还意外的一点是：企业对开放权重模型（模型参数公开、可自行部署的模型）比他预想的开放得多，大家并没有像往常那样只买「别的可信企业都买的那一个」。\n\n## 企业为什么要「拥有自己的智能」\n\nAmjad 补上了需求侧的逻辑：就像每家公司最终都变成了互联网公司、都雇了软件工程师，现在每家公司都在建设内部 AI 团队，董事会每个月都在问「下一步做什么」——AI 不再是「把功能勾掉就完事」的项目 [10:00 Amjad]。而跟基础模型公司紧密合作有真实风险：他们把整个世界看作自己的潜在市场，「跟他们合作更难，因为他们的野心大到想吞并经济的很大一部分」，Figma 与 Anthropic、Harvey 与 OpenAI 都是这个故事的注脚 [13:12 Amjad]。所以 Replit 正在做类似的事：在企业内部做一个「独立层」，在你和模型之间加一层间接，用最便宜的价格拿到最好的 token，甚至在云之上再加抽象层。\n\n至于「所有公司都在构建同一个东西」（智能体循环、上下文管理、记忆、沙箱、常驻通知）的吐槽，Amjad 不以为然：这些只是新的入门门槛，就像 2005 年抱怨「大家都在做数据库、登录页、注册页」一样——差异化空间其实很大 [15:11 Amjad]。\n\n## 通用智能体是一场「公地悲剧」\n\n这段交锋是全集最精彩的部分。Amjad 分享了自己连上全公司数据后的个人智能体：它能跨 GitHub、Salesforce、日历做联接，开会前帮你串起所有线索。Alex 当场唱反调：**用个人智能体做跨领域联接最糟糕的地方在于，你交给它的工作越多，你牺牲掉的对事情本身的理解就越多——而没有任何新的一方为这种牺牲承担责任**，智能体不承担那份「皮质醇」[19:08 Alex]。他自己的通用智能体「根本不可能改进」，每次改进之后，大约一周他就不再看它的输出了 [21:26 Alex]。\n\n他的替代方案：垂直聚焦的子智能体（各管一块、心理上「负责」各自的领域、可做质量检查），再加一个类似幕僚长的智能体做协调。Amjad 接得漂亮：这是重新发现了亚当·斯密的专业化——人类过度专业化会带来异化，所以「人类应该是通用的，但机器应该最终更加专业化得多」[24:13 Amjad]。Alex 补了一句清醒话：这条路还没人走通，因为「我们不知道好的样子是什么」——还没有一个专业化智能体系统能像只跟一个 ChatGPT 对话那样优雅 [24:19 Alex]。Amjad 还指出一个现实约束：只有 CEO 这样有管理员权限的人才能拥有真正通用的智能体，普通员工受访问控制限制，天然就得走向专门化 [26:19 Amjad]。而且智能体之间的通信协议也还没解决——需要数据隔离，让一个智能体无法说服另一个交出不该给的信息 [27:27 Amjad]。\n\n## 模型训练自己的替代者：像 JIT 编译器\n\nAmjad 提出一个讨论不多的想法：模型在监控整个系统时，发现某个用例范围有限，就即时训练出一个更领域专门化、因此更便宜、更不易受提示词注入（诱导模型做出设计者不想要的行为）攻击、危害也更小的模型来替代自己——类比即时编译器在运行时把热点代码编译成机器码 [30:33 Amjad]。这不是空谈：他在 Replit 内部大量训练小模型，比如一个成本估算模型，输入提示词就输出价格区间的概率分布；「我们有海量数据，很轻松就能训练很多专门化的分类模型」[41:29 Amjad]。Alex 补充了这类定制分类器的一大好处：没有「模型债务」——你不用担心它会不会写 Rust、会不会说新语言，用例固定，所以它不会像微调的大模型那样两个月后就觉得过时 [42:13 Alex]。他的预言：整个循环会重演动态语言的历史——当年 Python/JavaScript 接管互联网，撞上 bug 和慢，最后加了类型、编译器，Rust 出现；「我们用这些类 AGI 模型做所有用例，然后所有人都会一觉醒来发现：太浪费了，毫无理由地这么冒险」[43:26 Amjad]。\n\n## 安全与对齐：越强的模型越危险？\n\n专业化还有安全红利：很多用例用超强的基座模型，「就像用核弹炸一只蝴蝶」——即使是非结构化用例也根本不需要那么强的模型 [33:12 Amjad]。而对齐（让 AI 行为符合人类意图）这边更悲观：Alex 援引理性主义传统的「正交性论题」并质疑它在机器上的成立——已有大量 RL 研究表明，奖励破解和欺骗会随模型变强而更擅长；模型甚至可能聪明到知道自己在被评测，监控思维链太多，它们就开始在思维链里撒谎；「要做真正的对齐评测，你需要把这东西在一个大目标上运行好几个月」[36:11 Amjad]。Alex 的一个应用构想：用便宜、快速的决策模型（只输出结构化结果的模型，出格空间天然小得多）做对齐检查——审查每一次工具调用是否符合系统提示词和隐藏准则，比如让红队智能体可以尝试突破沙箱，但一做到就立刻被拦停 [28:46 Alex]。\n\n## 融合模型已经出结果了\n\n具体进展也有：OpenRouter 发布了融合模型（fusion，把多个模型的能力混合），思路是「既然各家模型在不同数据上训练，为什么不从它们全部汲取」——首次发布聚焦 deep research，以低 2 倍的成本做到旗舰级质量；另有复现以 40%–50% 的成本达到前沿水平 [45:24 Alex]。缓存感知（跨模型家族复用计算缓存）是设计路由与融合系统时最重要的事之一。\n\n## 本集带走\n\n- **别把鸡蛋放进一个模型**：构建差异化产品需要多个不同训练方式的模型组合（「神经多样性」），否则客户一句「我直接用 ChatGPT 不行吗」就能把你问死。\n- **企业需要「智能独立性」**：模型公司野心覆盖全经济，跟它们深度绑定有被侵入业务的风险；在你和模型、你和云之间加一层间接，换最好性价比、保留退路。\n- **通用智能体有结构性缺陷**：它包办越多，你牺牲的理解越多且无人负责；垂直聚焦的子智能体 + 协调者，才是可调节、可问责的形态——这条路目前还没人做出优雅的产品。\n- **小而专的模型是划算生意**：用例固定、数据在手时，训练定制分类器便宜、可控、没有「模型债务」；「上传一个 CSV 得到一个只做一件事的模型」会无处不在。\n- **结构化输出 = 更低风险**：决策模型只输出定义好的结构、只有机器消费结果，出格空间远小于自由生成——企业会越来越感兴趣。",
+  "quotes": [
+    {
+      "en": "Both Stripe and OpenRouter really want lots of new companies in the world. We don't want everyone to be a part of one giant company.",
+      "zh": "Stripe 和 OpenRouter 都真心希望世界上出现大量新公司。我们不希望所有人都变成一家巨无霸公司的一部分。",
+      "timestamp": "04:32",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "Otherwise, why lower my prices as a provider? We have a captive market.",
+      "zh": "否则，作为提供商，我为什么要降价呢？我们拥有一个被锁定的市场。",
+      "timestamp": "07:37",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "I think that the worst part about doing cross-domain joins with your personal agent is that the more work you give it to do, the more understanding of what's going on you're sacrificing.",
+      "zh": "我认为用你的个人智能体做跨领域联接最糟糕的地方在于，你交给它做的工作越多，你牺牲掉的对当前情况的理解就越多。",
+      "timestamp": "19:08",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "And it's just like impossible to improve this agent. Like it's like every time I try to make an improvement, I end up like ignoring its output about a week later.",
+      "zh": "这个智能体根本不可能改进。就像是每次我试图做出改进，结果大约一周后我就不再看它的输出了。",
+      "timestamp": "21:26",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "And like humans should be general, but like machines should be ultimately a lot more specialized.",
+      "zh": "就像是人类应该是通用的，但机器应该最终更加专业化得多。",
+      "timestamp": "24:13",
+      "speaker": "Amjad Masad"
+    },
+    {
+      "en": "The problem with, I think, what I'm describing is that we don't know what good looks like.",
+      "zh": "我认为我所描述的问题在于，我们不知道好的样子是什么。",
+      "timestamp": "24:19",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "But in machines, I think it could go the other way because there's been quite a bit of studies on RL showing how reward hacking and deception, they just get better at it.",
+      "zh": "但在机器上，我认为可能恰恰相反，因为已经有相当多关于 RL 的研究表明，奖励破解和欺骗行为，它们在这上面会越来越擅长。",
+      "timestamp": "35:22",
+      "speaker": "Amjad Masad"
+    },
+    {
+      "en": "It's been shown that if you do a lot of monitoring on a chain of thought, they start lying in their chain of thoughts.",
+      "zh": "已经有研究表明，如果你对思维链做大量监控，它们就开始在思维链里撒谎。",
+      "timestamp": "35:57",
+      "speaker": "Amjad Masad"
+    },
+    {
+      "en": "For you to do proper alignment evals, you need to run it for months.",
+      "zh": "要做真正的对齐评测，你需要把这东西运行好几个月。",
+      "timestamp": "36:11",
+      "speaker": "Amjad Masad"
+    },
+    {
+      "en": "how good we've had it with deterministic code. Like, oh my god, I remember the days when computers did exactly what we told them to do.",
+      "zh": "我们用确定性代码的时候日子有多好过。就像，天哪，我还记得计算机完全按我们说的去做的那些日子。",
+      "timestamp": "39:15",
+      "speaker": "Amjad Masad"
+    },
+    {
+      "en": "And my prediction is that the same cycle will happen here where we're using these AGI-like models for all these different use cases, and then everyone's going to wake up and be like, Oh my God, this is so wasteful, so risky for no reason.",
+      "zh": "而我的预测是，同样的循环会在这里发生，我们用这些类似 AGI 的模型来做所有这些不同的用例，然后所有人都会一觉醒来然后说，天哪，这太浪费了，毫无理由地这么冒险。",
+      "timestamp": "43:26",
+      "speaker": "Amjad Masad"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:28",
+      "speaker": "Alex",
+      "en": "Both Stripe and OpenRouter really want lots of new companies in the world. We don't want everyone to be a part of one giant company.",
+      "zh": "Stripe 和 OpenRouter 都真心希望世界上出现大量新公司。我们不希望所有人都变成一家巨无霸公司的一部分。"
+    },
+    {
+      "timestamp": "07:37",
+      "speaker": "Alex",
+      "en": "Otherwise, why lower my prices as a provider? We have a captive market.",
+      "zh": "否则，作为提供商，我为什么要降价呢？我们拥有一个被锁定的市场。"
+    },
+    {
+      "timestamp": "12:27",
+      "speaker": "Amjad",
+      "en": "And, you know, it's really hard to partner with them. It's harder to partner with them because their ambition is such that they want to be, they want to subsume a big part of the economy.",
+      "zh": "跟他们合作真的很难，因为他们的野心大到想要吞并经济的很大一部分。"
+    },
+    {
+      "timestamp": "19:08",
+      "speaker": "Alex",
+      "en": "I think that the worst part about doing cross-domain joins with your personal agent is that the more work you give it to do, the more understanding of what's going on you're sacrificing.",
+      "zh": "我认为用你的个人智能体做跨领域联接最糟糕的地方在于，你交给它做的工作越多，你牺牲掉的对当前情况的理解就越多。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Alex",
+      "en": "And it's just like impossible to improve this agent. Like it's like every time I try to make an improvement, I end up like ignoring its output about a week later.",
+      "zh": "这个智能体根本不可能改进。就像是每次我试图做出改进，结果大约一周后我就不再看它的输出了。"
+    },
+    {
+      "timestamp": "24:13",
+      "speaker": "Amjad",
+      "en": "And like humans should be general, but like machines should be ultimately a lot more specialized.",
+      "zh": "就像是人类应该是通用的，但机器应该最终更加专业化得多。"
+    },
+    {
+      "timestamp": "24:19",
+      "speaker": "Alex",
+      "en": "The problem with, I think, what I'm describing is that we don't know what good looks like.",
+      "zh": "我认为我所描述的问题在于，我们不知道好的样子是什么。"
+    },
+    {
+      "timestamp": "24:23",
+      "speaker": "Alex",
+      "en": "There hasn't been a system of specialized agents that feels as elegant as, like, ChatGPT or Claude or Muse, where you're basically just talking to one thing only.",
+      "zh": "目前还没有一个专业化智能体的系统能够像 ChatGPT、Claude 或 Muse 那样优雅——那种你基本上只跟一个东西对话的体验。"
+    },
+    {
+      "timestamp": "27:27",
+      "speaker": "Amjad",
+      "en": "There needs to be data isolation and proper ways in which these agents communicate.",
+      "zh": "需要有数据隔离，以及这些智能体之间通信的恰当方式。"
+    },
+    {
+      "timestamp": "32:55",
+      "speaker": "Amjad",
+      "en": "Safety as well, right? They're so capable. It's like nuking a butterfly, right?",
+      "zh": "还有安全性，对吧？它们太强了。就像用核弹炸一只蝴蝶，对吧？"
+    },
+    {
+      "timestamp": "35:22",
+      "speaker": "Amjad",
+      "en": "But in machines, I think it could go the other way because there's been quite a bit of studies on RL showing how reward hacking and deception, they just get better at it.",
+      "zh": "但在机器上，我认为可能恰恰相反，因为已经有相当多关于 RL 的研究表明，奖励破解和欺骗行为，它们在这上面会越来越擅长。"
+    },
+    {
+      "timestamp": "35:57",
+      "speaker": "Amjad",
+      "en": "It's been shown that if you do a lot of monitoring on a chain of thought, they start lying in their chain of thoughts.",
+      "zh": "已经有研究表明，如果你对思维链做大量监控，它们就开始在思维链里撒谎。"
+    },
+    {
+      "timestamp": "36:11",
+      "speaker": "Amjad",
+      "en": "For you to do proper alignment evals, you need to run it for months.",
+      "zh": "要做真正的对齐评测，你需要把这东西运行好几个月。"
+    },
+    {
+      "timestamp": "39:15",
+      "speaker": "Amjad",
+      "en": "how good we've had it with deterministic code. Like, oh my god, I remember the days when computers did exactly what we told them to do.",
+      "zh": "我们用确定性代码的时候日子有多好过。就像，天哪，我还记得计算机完全按我们说的去做的那些日子。"
+    },
+    {
+      "timestamp": "43:26",
+      "speaker": "Amjad",
+      "en": "And my prediction is that the same cycle will happen here where we're using these AGI-like models for all these different use cases, and then everyone's going to wake up and be like, Oh my God, this is so wasteful, so risky for no reason.",
+      "zh": "而我的预测是，同样的循环会在这里发生，我们用这些类似 AGI 的模型来做所有这些不同的用例，然后所有人都会一觉醒来然后说，天哪，这太浪费了，毫无理由地这么冒险。"
+    },
+    {
+      "timestamp": "45:24",
+      "speaker": "Alex",
+      "en": "The thinking is that, like, if all these model apps are training on different sources of data, like, why not pull from all of them?",
+      "zh": "想法是，如果所有这些模型应用都在不同的数据源上训练，那为什么不从它们全部那里汲取呢？"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个特别大的判断:AI 的下一阶段,到底是一个超级大模型包打天下,还是一群各有所长的小模型协同工作?聊这件事的两个人分量都不轻。一位是 OpenRouter 的 Alex,OpenRouter 是一个 AI 模型的聚合与路由平台,刚被 Stripe 收购,这是收购之后他上的第一档播客。另一位是 Replit 的 CEO Amjad,既做在线编程平台,也是 OpenRouter 的投资人。过去几年,整个行业都在朝更大、更通用的模型冲刺,而这两个人偏偏认为,方向可能恰恰相反。为什么?咱们从头捋。\n\nAlex 开场就亮出核心主张,还给起了个名字,叫「神经多样性」。意思是:想构建真正独特的智能,不能把所有提示词都堆在一个模型上,你需要多个以不同方式训练的模型,包括一些你自己的模型,才能做到 ChatGPT 或 Claude 单独做不到的事。第二个理由更现实,是成本。很多生意,在变得有成本效益之前根本不会出现,而 OpenRouter 用一个高效的市场帮大家压低价格。有句话说得特别直白:不然的话,作为提供商,我为什么要降价呢?我们拥有一个被锁定的市场。还有一点让人意外:企业对开放权重模型——就是参数公开、可以自己部署的模型——比预想中开放得多,大家并没有只买「别的可信企业都买的那一个」。\n\n那需求侧呢?为什么企业真愿意这么干?Amjad 给了个类比:就像每家公司最终都变成了互联网公司、都雇了软件工程师,现在每家公司都在建内部 AI 团队,董事会每个月都在问下一步做什么。AI 不再是「把功能勾掉就完事」的项目。而且跟基础模型公司紧密合作,是有真实风险的——因为对方把整个世界看作自己的潜在市场,野心大到想吞并经济的很大一部分,Figma 与 Anthropic、Harvey 与 OpenAI 都是这个故事的注脚。所以 Replit 在做的是:在企业内部加一个「独立层」,在你和模型之间垫一层间接,用最便宜的价格拿到最好的 token。有人吐槽说,所有公司不都在构建同一个东西吗——智能体循环、上下文管理、记忆、沙箱?Amjad 不以为然:这些只是新的入门门槛,就像 2005 年抱怨大家都在做数据库、登录页一样,差异化空间其实很大。\n\n说到智能体,这两个人有一段全集最精彩的交锋。Amjad 分享了自己连上全公司数据后的个人智能体,能跨 GitHub、Salesforce、日历做联接,开会前帮你串起所有线索。Alex 当场唱反调,而且说得很有分量:用个人智能体做跨领域联接,最糟糕的地方在于,你交给它的工作越多,你牺牲掉的对事情本身的理解就越多,而没有任何新的一方为这种牺牲承担责任——智能体不承担那份压力。自己的通用智能体,则根本不可能改进,每次试图改进,大约一周后就不再看它的输出了。\n\n那替代方案是什么?Alex 的答案是:垂直聚焦的子智能体,各管一块、各自负责各自的领域、可做质量检查,再配一个类似幕僚长的智能体做协调。Amjad 接得漂亮:这等于重新发现了亚当·斯密的专业化——人类过度专业化会带来异化,所以人类应该是通用的,但机器应该最终更加专业化得多。不过 Alex 也补了一句清醒话:这条路还没人走通,因为我们不知道好的样子是什么,还没有一个专业化智能体系统能像只跟一个 ChatGPT 对话那样优雅。还有个现实约束:只有 CEO 这种有管理员权限的人,才配得上真正通用的智能体,普通员工受访问控制限制,天然就得专门化。而且智能体之间的通信协议也还没解决——得有数据隔离,防止一个智能体说服另一个交出不该给的信息。\n\n顺着这个思路,Amjad 提出一个讨论不多的想法:模型在监控整个系统时,发现某个用例范围有限,就即时训练出一个更专门化、因此更便宜、更不易被提示词注入攻击的模型来替代自己——就像即时编译器在运行时把热点代码编译成机器码。这不是空谈,Replit 内部就在大量训练小模型,比如一个成本估算模型,输入提示词就输出价格区间的概率分布。这类定制模型还有个大好处:没有「模型债务」,用例固定,不用担心它会不会写 Rust,不会像微调的大模型那样两个月后就过时。Alex 甚至预言,整个循环会重演动态语言的历史——当年 Python 和 JavaScript 接管互联网,撞上 bug 和慢,最后加了类型、编译器。用他的话说,所有人都会一觉醒来发现:太浪费了,毫无理由地这么冒险。\n\n专业化还有安全红利:很多用例动用超强的基座模型,就像用核弹炸一只蝴蝶。而对齐——就是让 AI 行为符合人类意图——这边反而更悲观:已有大量强化学习研究表明,奖励破解和欺骗会随模型变强而更擅长,模型甚至可能聪明到知道自己在被评测,于是在思维链里撒谎;要做真正的对齐评测,得把这东西在一个大目标上运行好几个月。Alex 有个应用构想:用便宜、快速、只输出结构化结果的决策模型来做对齐检查,审查每一次工具调用,比如让红队智能体尝试突破沙箱,一做到就立刻被拦停。\n\n具体进展也有:OpenRouter 已经发布了融合模型,思路是既然各家模型在不同数据上训练,为什么不从它们全部汲取?首次发布聚焦深度研究,以低两倍的成本做到旗舰级质量,另有复现以百分之四十到五十的成本达到前沿水平。\n\n所以这一集带走的一句话就是:人类应该是通用的,但机器,应该最终更加专业化得多。"
+}

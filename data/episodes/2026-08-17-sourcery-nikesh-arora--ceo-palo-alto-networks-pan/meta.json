@@ -1,0 +1,35 @@
+{
+  "id": "2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan",
+  "audio_mp3": "https://anchor.fm/s/f192713c/podcast/play/124324362/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-17%2F429994012-44100-2-2e8d6a7783287.mp3",
+  "duration_sec": 3545.815,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 988,
+  "asr": true,
+  "title_en": "Nikesh Arora, CEO Palo Alto Networks ($PANW)",
+  "podcast": "Sourcery",
+  "date": "2026-08-17",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1786967385490-a4a21bd00d896.jpg",
+  "added": "2026-10-04",
+  "added_at": "2026-10-03T17:58:01.317Z",
+  "speaker_map": {
+    "SPEAKER_01": "Nikesh Arora"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Nikesh Arora"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时",
+  "guest_name": "Nikesh Arora",
+  "guest_title": "Palo Alto Networks CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1786967385490-a4a21bd00d896.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-03T18:16:46.534Z"
+  }
+}

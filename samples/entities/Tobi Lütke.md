@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":16,"River":2,"智能体":385,"Sydney":1,"沙箱":69,"LLM":52,"pull request":4,"超级智能":6,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":16,"River":2,"智能体":387,"Sydney":1,"沙箱":70,"LLM":52,"pull request":4,"超级智能":6,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

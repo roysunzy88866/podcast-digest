@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":2,"上下文工程":16,"上下文引擎":4,"智能体":385,"MCP":69,"RAG":22,"Anthropic":162,"OpenAI":149,"GitHub":27}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":2,"上下文工程":16,"上下文引擎":4,"智能体":387,"MCP":69,"RAG":22,"Anthropic":162,"OpenAI":149,"GitHub":27}</script>
 
 <script>
 (function(){

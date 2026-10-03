@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
+[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":26,"NPM":2,"前沿模型":23,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":26,"NPM":2,"前沿模型":23,"软件供应链":2,"零日漏洞":2,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

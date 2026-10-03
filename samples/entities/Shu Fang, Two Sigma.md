@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":385,"Claude Code":92,"Kubernetes":14,"提示词注入":1,"可观测性":35,"MCP":69,"推理":67}</script>
+<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":387,"Claude Code":92,"Kubernetes":14,"提示词注入":1,"可观测性":35,"MCP":69,"推理":67}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenRouter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,18 +23,21 @@ unlisted: true
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(28:41起):本集称其被 Stripe 以 80 亿美元收购，路由技术本身并无太大差异化，价值在于提供模型使用信息
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(19:42起):本集把它作为整合碎片化模型与服务商的例子:开发者去一个地方就能接入众多模型并统一付费,是「策展」机遇的代表。
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(00:18起):本集主角:开发者一站式调用各家大模型的 API 路由与市场平台,把供应商向 SKU 发布、消费者订阅的市场结构套在模型上,后被 Stripe 收购。
+- **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说它是 AI 模型聚合与路由平台、一个高效的市场，帮企业避免模型锁定、压低成本；刚被 Stripe 收购，Alex 称未来支付和推理会融合。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-09-25-latent-openrouter#^q2]]
 
 ![[2026-09-25-latent-openrouter#^q6]]
 
+![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q1]]
+
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
@@ -48,14 +51,15 @@ unlisted: true
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为被讨论公司
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
+- [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[推理]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[token]] · [[NVIDIA]] · [[GPU]] · [[Harry Stebbings]] · [[开源模型]]
+[[Anthropic]] · [[推理]] · [[OpenAI]] · [[智能体]] · [[Cursor]] · [[token]] · [[NVIDIA]] · [[Stripe]] · [[GPU]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":162,"推理":67,"OpenAI":149,"Cursor":76,"智能体":385,"token":30,"NVIDIA":50,"GPU":18,"Harry Stebbings":19,"开源模型":24}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":162,"推理":67,"OpenAI":149,"智能体":387,"Cursor":76,"token":30,"NVIDIA":50,"Stripe":43,"GPU":18,"Harry Stebbings":19}</script>
 
 <script>
 (function(){

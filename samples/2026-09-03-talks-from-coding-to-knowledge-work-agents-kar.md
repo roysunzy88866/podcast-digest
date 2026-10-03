@@ -9,14 +9,14 @@ cover: "#64748b"
 description: Composio 联合创始人兼 CTO Karan Vedya 拆解编程智能体成功的六个基础设施原语，主张瓶颈已从模型转移到没人建的知识工作基础设施。
 guests: ["[[Karan Vaidya]]"]
 companies: ["[[Composio]]"]
-concepts: ["[[智能体]]", "[[沙箱]]", "[[上下文]]", "[[验证]]", "[[治理]]", "[[可逆性]]", "[[中心化]]"]
+concepts: ["[[智能体]]", "[[沙箱]]", "[[上下文]]", "[[验证]]", "[[governance]]", "[[可逆性]]", "[[中心化]]"]
 category: 智能体
 tags:
   - 智能体
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar#post","headline":"模型已经够好了，为什么智能体还只能写代码？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar","description":"Composio 联合创始人兼 CTO Karan Vedya 拆解编程智能体成功的六个基础设施原语，主张瓶颈已从模型转移到没人建的知识工作基础设施。","datePublished":"2026-09-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Karan Vaidya"},{"@type":"Organization","name":"Composio"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"治理 (governance)"},{"@type":"Thing","name":"可逆性 (reversibility)"},{"@type":"Thing","name":"中心化 (centralization)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"模型已经够好了，为什么智能体还只能写代码？","item":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar#post","headline":"模型已经够好了，为什么智能体还只能写代码？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar","description":"Composio 联合创始人兼 CTO Karan Vedya 拆解编程智能体成功的六个基础设施原语，主张瓶颈已从模型转移到没人建的知识工作基础设施。","datePublished":"2026-09-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Karan Vaidya"},{"@type":"Organization","name":"Composio"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"governance"},{"@type":"Thing","name":"可逆性 (reversibility)"},{"@type":"Thing","name":"中心化 (centralization)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"模型已经够好了，为什么智能体还只能写代码？","item":"https://talk.solomind.cc/2026-09-03-talks-from-coding-to-knowledge-work-agents-kar"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>模型已经够好了，为什么智能体还只能写代码？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Composio]]
 >
-> **概念** [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[治理]] · [[可逆性]] · [[中心化]]
+> **概念** [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[governance]] · [[可逆性]] · [[中心化]]
 
 如今绝大多数[[智能体|智能体]]的工具调用都发生在同一个领域——软件工程。其他所有工作都远远落后。说这话的人是 [[Composio|Composio]] 联合创始人兼 CTO Karan Vedya，他要回答的是一个万亿美元级的问题：如果模型在不断变好，为什么我们仍然只有智能体编程？
 
@@ -62,7 +62,7 @@ jsonLd: |
 
 世界上没有任何测试能质疑真正重要的问题：这事根本就不该发吗？在代码里是测试告诉你错了，在这里是互联网告诉他错了。修复方法是在它成为现实之前拦截：一是发送前对照你以前的邮件草稿检查风格；二是给智能体[[沙箱|沙箱]]——模拟真实工具的环境，破坏性操作先在沙箱里做，你审查后才执行真事。
 
-**五、[[治理|治理]]。** 代码领域这是多道闸门：智能体只能在自己的分支上为所欲为，合并到 main 前有人类审查，关键文件有 code owners，只发预览部署不碰生产。
+**五、[[governance|治理]]。** 代码领域这是多道闸门：智能体只能在自己的分支上为所欲为，合并到 main 前有人类审查，关键文件有 code owners，只发预览部署不碰生产。
 
 他讲了那个著名的案例：Meta 超级智能实验室的对齐负责人把智能体接到邮箱上，它开始大量删邮件，叫停也不停，最后她跑到物理机器前才停住——200 封邮件已消失。她事先在提示词里写了要确认，但那只是提示词，很可能在上下文压缩中被压掉了。
 

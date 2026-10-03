@@ -31,7 +31,7 @@ unlisted: true
 
 [[Anastasios Angelopoulos]] · [[Mamoun Hamid]] · [[Jubin]] · [[arena]] · [[评估]] · [[基准测试]] · [[开源]] · [[智能体]] · [[排行榜]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":3,"基准测试":16,"开源":30,"智能体":385,"排行榜":1,"OpenAI":149}</script>
+<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":3,"基准测试":16,"开源":31,"智能体":387,"排行榜":1,"OpenAI":149}</script>
 
 <script>
 (function(){

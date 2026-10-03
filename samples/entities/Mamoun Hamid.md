@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Jubin":2,"arena":2,"评估":3,"基准测试":16,"开源":30,"智能体":385,"Kimi":1,"排行榜":1,"OpenAI":149}</script>
+<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Jubin":2,"arena":2,"评估":3,"基准测试":16,"开源":31,"智能体":387,"Kimi":1,"排行榜":1,"OpenAI":149}</script>
 
 <script>
 (function(){

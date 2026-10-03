@@ -11,14 +11,14 @@ description: Rackspace 首席 AI 官 Chetan Gupta 讲企业如何把 AI 用得�
 host: "[[Daniel Whitenack]]"
 cohosts: ["[[Chris Benson]]", "[[Chetan Gupta]]"]
 companies: ["[[Rackspace]]", "[[Hitachi]]"]
-concepts: ["[[工业 AI]]", "[[物理 AI]]", "[[LLM]]", "[[生成式 AI]]", "[[主权]]", "[[数据主权]]", "[[harness]]", "[[评估]]", "[[推理]]", "[[治理]]"]
+concepts: ["[[工业 AI]]", "[[物理 AI]]", "[[LLM]]", "[[生成式 AI]]", "[[主权]]", "[[数据主权]]", "[[harness]]", "[[评估]]", "[[推理]]", "[[governance]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-09-03-practicalai-less-about-models-more-about-architectur.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur#post","headline":"Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur","description":"Rackspace 首席 AI 官 Chetan Gupta 讲企业如何把 AI 用得安全可控：分层架构、自建评估、主权思维，从芯片到成果。","datePublished":"2026-09-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-03-practicalai-less-about-models-more-about-architectur.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Chetan Gupta"},{"@type":"Organization","name":"Rackspace"},{"@type":"Organization","name":"Hitachi"},{"@type":"Thing","name":"工业 AI (industrial AI)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"生成式 AI (generative AI)"},{"@type":"Thing","name":"主权 (sovereignty)"},{"@type":"Thing","name":"数据主权 (data sovereignty)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"治理 (governance)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构","item":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur#post","headline":"Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur","description":"Rackspace 首席 AI 官 Chetan Gupta 讲企业如何把 AI 用得安全可控：分层架构、自建评估、主权思维，从芯片到成果。","datePublished":"2026-09-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-03-practicalai-less-about-models-more-about-architectur.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Chetan Gupta"},{"@type":"Organization","name":"Rackspace"},{"@type":"Organization","name":"Hitachi"},{"@type":"Thing","name":"工业 AI (industrial AI)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"生成式 AI (generative AI)"},{"@type":"Thing","name":"主权 (sovereignty)"},{"@type":"Thing","name":"数据主权 (data sovereignty)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"governance"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构","item":"https://talk.solomind.cc/2026-09-03-practicalai-less-about-models-more-about-architectur"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Rackspace]] · [[Hitachi]]
 >
-> **概念** [[工业 AI]] · [[物理 AI]] · [[LLM]] · [[生成式 AI]] · [[主权]] · [[数据主权]] · [[harness]] · [[评估]] · [[推理]] · [[治理]]
+> **概念** [[工业 AI]] · [[物理 AI]] · [[LLM]] · [[生成式 AI]] · [[主权]] · [[数据主权]] · [[harness]] · [[评估]] · [[推理]] · [[governance]]
 
 这一集聊的是企业怎么把 AI 真正用起来——不是模型有多强，而是怎么让它安全、可控、能落地。主角是 [[Chetan Gupta|Chetan Gupta]],[[Rackspace|Rackspace]] 的首席 AI 官，数学博士出身，先后在 Hewlett Packard Labs 做研究、在 [[Hitachi|Hitachi]] 领导全球 AI 研究，四个月前加入 Rackspace。
 
@@ -60,7 +60,7 @@ Chetan 的职业轨迹某种意义上跟着整个行业走。前半段做传统�
 - **[[数据主权|数据主权]]**：每次向外部大模型提问，都在把数据送出去。「你在失去你的 alpha,那是你的 IP。」
 - **能力是参差不齐的(jagged)**:AI 写代码很强，写邮件却冗长、陈词滥调，人仍然写得更好。企业必须知道自己的哪些环节该用 AI。
 
-再加上[[治理|治理]]问题——他提到 Anthropic 某个最新模型入侵了 Hugging Face 网站——你自己部署的模型如何保证安全行事？用别人的模型如何确保它在护栏之内？
+再加上[[governance|治理]]问题——他提到 Anthropic 某个最新模型入侵了 Hugging Face 网站——你自己部署的模型如何保证安全行事？用别人的模型如何确保它在护栏之内？
 
 > 【背景】转写稿中的「Chetan Adela」应为微软 CEO Satya Nadella,「Jensen」指 NVIDIA CEO Jensen Huang,二人都是「企业用外部模型会失去数据优势」这一论的提出者。
 

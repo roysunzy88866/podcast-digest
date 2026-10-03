@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]] [[Justin Kan]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Hook":1,"Meta":40,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":385,"测试":2,"TDD":3,"开发者生产力":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Hook":1,"Meta":40,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":387,"测试":2,"TDD":3,"开发者生产力":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,986 @@
+{
+  "episode_id": "2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad",
+  "podcast": "The a16z Show",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "模型专业化",
+    "AI 安全",
+    "模型路由与融合"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "alex-atallah",
+      "type": "person",
+      "role": "host",
+      "name": "Alex Atallah",
+      "file": "Alex Atallah",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "amjad-masad",
+      "type": "person",
+      "role": "guest",
+      "name": "Amjad Masad",
+      "file": "Amjad Masad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说它是 AI 模型聚合与路由平台、一个高效的市场，帮企业避免模型锁定、压低成本；刚被 Stripe 收购，Alex 称未来支付和推理会融合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.093,
+            11.834
+          ],
+          "quote": "Both Stripe and OpenRouter really want lots of new companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            65.679,
+            75.422
+          ],
+          "quote": "In this episode, I sit down with OpenRouter's Alex Sattala and Replit's Amjad Massad to discuss why the next phase of AI may be built around many different models working together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            109.217,
+            112.06
+          ],
+          "quote": "We're here with Amjad of Replit and Alex of OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            234.821,
+            248.871
+          ],
+          "quote": "And keeping OpenRouter doing what it's already doing just much faster with like a much more serious go to market plan and then some better together stories between the two products and the two companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            268.443,
+            277.41
+          ],
+          "quote": "That alignment was there and there was a bigger picture kind of alignment too where both Stripe and OpenRouter really want lots of new companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            329.787,
+            335.773
+          ],
+          "quote": "I understand the kind of moral argument and why you would want that, but why is that good for OpenRouter?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            335.893,
+            339.416
+          ],
+          "quote": "Is your model for OpenRouter is that it's a network effects business?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            343,
+            347.664
+          ],
+          "quote": "Well, for us, I think there's a couple different problems OpenRouter solves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            853.093,
+            858.117
+          ],
+          "quote": "It seems like what OpenRouter did for their segment, you're doing for other areas of the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1717.117,
+            1722.47
+          ],
+          "quote": "At OpenRouter, but I kind of think a good, I think it could be an interesting alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2639.142,
+            2646.669
+          ],
+          "quote": "That goes back to your thesis about OpenRouter, this neurodiversity, which I really fundamentally believe in a lot more.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集说 Amjad 正把 Replit 变成企业内部的「独立层」：在你和模型之间加间接层、以最便宜价格拿最好的 token，并在云之上加抽象层；内部大量训练专门化小模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            65.679,
+            75.422
+          ],
+          "quote": "In this episode, I sit down with OpenRouter's Alex Sattala and Replit's Amjad Massad to discuss why the next phase of AI may be built around many different models working together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            109.217,
+            112.06
+          ],
+          "quote": "We're here with Amjad of Replit and Alex of OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            662.497,
+            666.581
+          ],
+          "quote": "And I think Amjad's been doing that a lot at Replit, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            803.968,
+            827.231
+          ],
+          "quote": "And increasingly, what we're thinking about at Replit is kind of in a similar vein to what Alex has sort of innovated is Replit is becoming more of an independence layer inside enterprises where we create a layer of indirection between you and the models and we get you the best token at the cheapest price.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            980.917,
+            990.179
+          ],
+          "quote": "You know, you're almost working on making Replit deployable on your own cloud, basically on-prem, like bring your own cloud.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1050.712,
+            1054.275
+          ],
+          "quote": "Yeah, I built something on Replit a long time ago.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1068.039,
+            1075.222
+          ],
+          "quote": "The more I connected Replit to all my stuff, it started answering all the things for me.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2425.899,
+            2435.105
+          ],
+          "quote": "For example, I trained a cost estimator model internally so that when you put it in a prompt in Replit, we know exactly how much it will cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2489.326,
+            2497.289
+          ],
+          "quote": "But if you have a data, if you work at a place where you have the data, you have so much data at Replit, like I ended up training a lot of specialized classification models pretty easily.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2625.989,
+            2629.213
+          ],
+          "quote": "We're actually adding that capability on Replit, but I think it's going to be everywhere.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 收购了 OpenRouter，过程高效、对创始人友好；两家都希望世界上出现大量新公司，并希望 OpenRouter 保持品牌与产品自主权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.093,
+            11.834
+          ],
+          "quote": "Both Stripe and OpenRouter really want lots of new companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            144.874,
+            153.016
+          ],
+          "quote": "I had talked to Will Gabrick, the Stripe president, a long time ago, a couple of years ago when we were doing our series A.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            155.116,
+            160.638
+          ],
+          "quote": "We had like a lot of Stripe work streams going on with various teams at Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            161.618,
+            165.499
+          ],
+          "quote": "So there were always sort of like things that we were doing with Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            166.259,
+            168.259
+          ],
+          "quote": "We presented at Stripe sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            268.443,
+            277.41
+          ],
+          "quote": "That alignment was there and there was a bigger picture kind of alignment too where both Stripe and OpenRouter really want lots of new companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            307.881,
+            313.544
+          ],
+          "quote": "And Stripe demonstrated that they've been wanting it and building towards it for many, many, many years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            320.568,
+            323.45
+          ],
+          "quote": "I'm curious, I understand why Stripe's incentive",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2572.694,
+            2576.957
+          ],
+          "quote": "This is, and you built Stripe, a financial organization on Ruby.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "neurodiversity",
+      "type": "concept",
+      "role": "concept",
+      "name": "神经多样性 (neurodiversity)",
+      "file": "神经多样性",
+      "primary": true,
+      "how_described": "本集 Alex 的核心主张：构建独特智能不能只把提示词堆在一个模型上，需要多个以不同方式训练的模型（包括自己的模型）的力量，才能做到 ChatGPT 或 Claude 单独做不到的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            76.182,
+            83.146
+          ],
+          "quote": "Alex makes the case for what he calls neurodiversity, combining models with different strengths rather than locking into a single provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            395.541,
+            397.883
+          ],
+          "quote": "And I think a big component of that is neurodiversity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            428.154,
+            434.557
+          ],
+          "quote": "And I think a lot of it will involve neurodiversity and blending powers and good data from multiple models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2639.142,
+            2646.669
+          ],
+          "quote": "That goes back to your thesis about OpenRouter, this neurodiversity, which I really fundamentally believe in a lot more.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一：从「所有公司都在构建同一个东西」（智能体循环、上下文、记忆、沙箱）的吐槽，到 Alex 批评通用智能体是一场公地悲剧、主张垂直聚焦的子智能体加幕僚长式协调者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            870.066,
+            885.975
+          ],
+          "quote": "Everybody's building an agent loop with like notifications and context, like third-party connectors and context management and memory and... Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            887.256,
+            900.059
+          ],
+          "quote": "Sandboxes, you know, web, you know, agentic web search, and an always-on agent on top of it, notifications, and it's like, this product is showing up everywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1039.752,
+            1049.641
+          ],
+          "quote": "Amjad, are you doing any, like, do you have like a custom personal agent other than Muse or Instinct that you use for like work stuff that you've been building?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1054.295,
+            1057.739
+          ],
+          "quote": "I started as a CRM agent initially.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1148.779,
+            1166.708
+          ],
+          "quote": "I think that the worst part about doing cross-domain joins with your personal agent is that the more work you give it to do, the more understanding of what's going on you're sacrificing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1201.903,
+            1205.546
+          ],
+          "quote": "The agent doesn't take on any of that responsibility.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1206.727,
+            1209.769
+          ],
+          "quote": "A universal agent that's doing all things",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1227.469,
+            1231.91
+          ],
+          "quote": "Maybe we have like a chief of staff type agent that, you know, coordinates between them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1239.172,
+            1245.475
+          ],
+          "quote": "Like this agent is more responsible psychologically for these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1274.016,
+            1285.263
+          ],
+          "quote": "Like I have a general agent that every day looks for things that need me and tries to figure out what to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1286.204,
+            1292.148
+          ],
+          "quote": "And it's just like impossible to improve this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1340.283,
+            1364.439
+          ],
+          "quote": "Like the latter I feel like gives you a way of tuning how much understanding you sacrifice compared to the gain you get from, like basically I can like lean in more to the areas where the agent is failing for some areas and then have agents with very good competency like take over my understanding of other parts of my life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1444.024,
+            1448.247
+          ],
+          "quote": "And I think with our agents, we're like, oh, there should be like one God, God agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1602.852,
+            1607.115
+          ],
+          "quote": "Ultimately, I also think we need to figure out what does agent-to-agent communication look like?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1617.563,
+            1634.99
+          ],
+          "quote": "I think we've seen, it seems like the next generation of OpenAI models are trained to do agent collaboration because we've seen it in the Hugging Face hack where they started helping each other instead of emerged naturally.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1638.892,
+            1646.955
+          ],
+          "quote": "Some way in which an agent can't convince another agent to give it information that it shouldn't give it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1673.835,
+            1685.706
+          ],
+          "quote": "You know, checking to see if a tool call or like an agent to agent, you know, communication is aligned because there's just so many tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1692.781,
+            1709.551
+          ],
+          "quote": "Then like a really, really fast decision model that just classifies and gives feedback on rejections might be like a really good way to bridge the gap between agents and from agent to infrastructure too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1726.735,
+            1743.046
+          ],
+          "quote": "Yeah, like imagine looking at the system prompt and the current tool call being made and be like, you know, is this aligned with the system prompt of the original agent and with these like extra guidelines that maybe we didn't tell the agent about?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1803.733,
+            1816.88
+          ],
+          "quote": "And then having kind of like structural safeguards too, which is what I think NVIDIA just launched with their like open agent safety, I think it was called OpenShell.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1871.265,
+            1881.93
+          ],
+          "quote": "And they realize that the use case is limited or you prompt them some way or some other agent observing and realizes that use case is limited.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2029.398,
+            2036.763
+          ],
+          "quote": "Hacking on their own as they get smarter and better at alignment, especially when it comes to agent-to-agent coordination.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2697.672,
+            2702.394
+          ],
+          "quote": "And, I mean, now we see, like, a bunch of AI agent labs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "type": "concept",
+      "role": "concept",
+      "name": "专业化 (specialization)",
+      "file": "专业化",
+      "primary": true,
+      "how_described": "本集反复论证未来更多是专业化的小模型/子智能体协同，Amjad 称这是重新发现亚当·斯密的专业化——人类应该通用，但机器应该最终更加专业化得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1371.667,
+            1372.488
+          ],
+          "quote": "Specialization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1384.317,
+            1393.024
+          ],
+          "quote": "That was a huge realization for humanity that specialization is actually good.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1398.468,
+            1400.029
+          ],
+          "quote": "And I think over-specialization",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1448.287,
+            1451.889
+          ],
+          "quote": "But in fact, specialization is actually like really good for machines.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1598.269,
+            1602.132
+          ],
+          "quote": "So you'll have to kind of work on something like specialization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1822.463,
+            1831.007
+          ],
+          "quote": "I wonder another thing about specialization and instead of what you're talking about, there's a lot of talk of recursive self-improvement.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集 Alex 说最让他意外的是企业对开放权重模型（参数公开、可自行部署）比预想开放得多，没有像往常那样只买「别的可信企业都在买的那个」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            478.643,
+            498.417
+          ],
+          "quote": "I'm not saying that we did all the work, of course not, but like helping people like choose new models and explore new models and learn like what makes a closed source or open weight model like actually good at your task involves like seeing what the whole ecosystem is doing and learning automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            523.104,
+            531.226
+          ],
+          "quote": "People have been more open-minded than I thought they would be towards open weight models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decision-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "决策模型 (decision model)",
+      "file": "决策模型",
+      "primary": true,
+      "how_described": "本集说决策模型只输出受控的结构化结果、出格空间低得多，可用于对齐检查（审查每次工具调用），Amjad 在 Replit 内部训练的成本估算模型就是一例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1692.781,
+            1709.551
+          ],
+          "quote": "Then like a really, really fast decision model that just classifies and gives feedback on rejections might be like a really good way to bridge the gap between agents and from agent to infrastructure too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1930.351,
+            1938.756
+          ],
+          "quote": "Would that specific use case involve unstructured text generation or a very structured decision model?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型债务 (model debt)",
+      "file": "模型债务",
+      "primary": true,
+      "how_described": "本集 Alex 说定制分类器的一大好处是没有模型债务：用例固定，不用像微调的大模型那样担心两个月后就过时、要重新再做一遍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            2499.07,
+            2502.231
+          ],
+          "quote": "It also feels like less model debt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2514.398,
+            2517.762
+          ],
+          "quote": "And everybody just feels the model, the weight of the model debt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集 Amjad 对对齐悲观：RL 研究显示奖励破解和欺骗随模型变强而更擅长，模型可能聪明到知道自己在被评测并在思维链里撒谎；真正的对齐评测需要运行好几个月。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            268.443,
+            277.41
+          ],
+          "quote": "That alignment was there and there was a bigger picture kind of alignment too where both Stripe and OpenRouter really want lots of new companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1665.468,
+            1673.295
+          ],
+          "quote": "I really, I think one of the cool potential applications of GEV and other decision models like it is going to be alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1717.117,
+            1722.47
+          ],
+          "quote": "At OpenRouter, but I kind of think a good, I think it could be an interesting alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2008.245,
+            2028.418
+          ],
+          "quote": "See whether like when the models get more intelligent the risk actually will like continue to get higher because I think there's also an argument to be made that alignment will get better and the models will like start to avoid going off and you know",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2029.398,
+            2036.763
+          ],
+          "quote": "Hacking on their own as they get smarter and better at alignment, especially when it comes to agent-to-agent coordination.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2171.988,
+            2178.529
+          ],
+          "quote": "For you to do proper alignment evals, you need to run it for months.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2192.752,
+            2195.453
+          ],
+          "quote": "I always struggle with this word alignment.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "融合模型 (fusion)",
+      "file": "融合模型",
+      "primary": true,
+      "how_described": "本集说 OpenRouter 发布了融合模型，把多个在不同数据上训练的模型的能力混合，首次发布聚焦 deep research，以低 2 倍成本做到旗舰级质量，另有复现以 40%–50% 成本达到前沿水平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            92.952,
+            105.06
+          ],
+          "quote": "We also get into specialized agents, model routing and fusion, the trade-offs between capability, cost, and safety, and what happens when AI systems start training smaller models to handle specific tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2674.242,
+            2689.468
+          ],
+          "quote": "These fusion models, the research has been kind of slow for years on doing mixture of models and composite models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2703.594,
+            2709.916
+          ],
+          "quote": "Like, we launched a Fusion tool, a Fusion model, and Technician launched one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2744.632,
+            2764.336
+          ],
+          "quote": "We showed a DeepSwee replication through combination of different things, including the harness, but also you might think of it as a fusion-type thing, where it's frontier level at 40% to 50% of the cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2820.569,
+            2830.655
+          ],
+          "quote": "Because cache is like one of the big, like being cache aware is like one of the biggest things when you're designing fusion models, routers, sort of simulation models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集提到公司担心为非结构化输出微调模型，因为总是要在两个月后重新再做一遍，感受着模型债务的重量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            2502.251,
+            2513.097
+          ],
+          "quote": "Something that I still hear from companies is that they're worried about fine-tuning models for unstructured outputs because you're just always redo it again in two months.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集在「所有公司都在构建同一个东西」的清单里提到沙箱，并以红队智能体尝试突破沙箱、被决策模型立刻拦停作为对齐检查的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            870.066,
+            885.975
+          ],
+          "quote": "Everybody's building an agent loop with like notifications and context, like third-party connectors and context management and memory and... Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1769.554,
+            1775.517
+          ],
+          "quote": "You might want them to try to, like, break out of the sandbox and act like bad actors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1777.058,
+            1780.679
+          ],
+          "quote": "It wouldn't be like, break out of the sandbox, you know, try to, like, break into this company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cache-aware",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存感知 (cache aware)",
+      "file": "缓存感知",
+      "primary": false,
+      "how_described": "本集说缓存感知（跨模型家族复用计算缓存）是设计融合模型与路由系统时最重要的事情之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2820.569,
+            2830.655
+          ],
+          "quote": "Because cache is like one of the big, like being cache aware is like one of the biggest things when you're designing fusion models, routers, sort of simulation models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

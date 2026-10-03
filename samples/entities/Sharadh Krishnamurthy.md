@@ -37,17 +37,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire Vaux]] · [[Stripe]] · [[Kai]] · [[智能体]] · [[治理]] · [[项目]] · [[工具策略]] · [[人在回路]] · [[技能]] · [[沙箱]]
+[[Claire Vaux]] · [[Stripe]] · [[Kai]] · [[智能体]] · [[governance]] · [[项目]] · [[工具策略]] · [[人在回路]] · [[技能]] · [[沙箱]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":42,"Kai":1,"智能体":385,"治理":5,"项目":1,"工具策略":1,"人在回路":18,"技能":25,"沙箱":69}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":43,"Kai":1,"智能体":387,"governance":6,"项目":1,"工具策略":1,"人在回路":18,"技能":25,"沙箱":70}</script>
 
 <script>
 (function(){

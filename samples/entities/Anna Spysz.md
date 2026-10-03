@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":385,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":70,"商家能力清单":1,"大语言模型":8,"Stripe":42,"Google":54}</script>
+<script type="application/json" class="pd-epn">{"智能体":387,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":71,"商家能力清单":1,"大语言模型":8,"Stripe":43,"Google":55}</script>
 
 <script>
 (function(){

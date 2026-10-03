@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Karan Vaidya]] · [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[治理]] · [[可逆性]] · [[中心化]]
+[[Karan Vaidya]] · [[智能体]] · [[沙箱]] · [[上下文]] · [[验证]] · [[governance]] · [[可逆性]] · [[中心化]]
 
-<script type="application/json" class="pd-epn">{"Karan Vaidya":1,"智能体":385,"沙箱":69,"上下文":25,"验证":1,"治理":5,"可逆性":1,"中心化":1}</script>
+<script type="application/json" class="pd-epn">{"Karan Vaidya":1,"智能体":387,"沙箱":70,"上下文":25,"验证":1,"governance":6,"可逆性":1,"中心化":1}</script>
 
 <script>
 (function(){

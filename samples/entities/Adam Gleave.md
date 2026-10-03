@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
+[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":6,"护栏":70,"探针":3,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":6,"护栏":71,"探针":3,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
 
 <script>
 (function(){

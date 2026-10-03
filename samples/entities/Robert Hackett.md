@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":30,"JP Morgan":3,"Coinbase":7,"Stripe":42}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":31,"JP Morgan":3,"Coinbase":7,"Stripe":43}</script>
 
 <script>
 (function(){

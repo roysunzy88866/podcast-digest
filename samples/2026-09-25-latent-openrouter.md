@@ -200,9 +200,9 @@ Anjney 早在 MidJourney 时代就领教过：一夜涌入大量免费试用用�
 
 **换个口味**
 
+- [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|AI 的下一阶段：不是一个超级模型，而是一群专业化模型]]<span class="pd-rz">同嘉宾:Alex Atallah · 同公司:OpenRouter、Stripe · 同概念:智能体 (agent)、微调 (fine-tuning)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、规模定律 (scaling laws)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:智能体 (agent)</span>
-- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 </div>

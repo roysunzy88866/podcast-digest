@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":5,"Stripe":42,"Stripe Minions":1,"智能体":385,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"David George":5,"Stripe":43,"Stripe Minions":1,"智能体":387,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
 
 <script>
 (function(){

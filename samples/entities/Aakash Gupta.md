@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":80,"Claude Code":92,"智能体":385,"对抗性智能体":1,"MCP":69,"知识库":2,"技能":25,"vibe coding":43,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":80,"Claude Code":92,"智能体":387,"对抗性智能体":1,"MCP":69,"知识库":2,"技能":25,"vibe coding":43,"红队测试":4}</script>
 
 <script>
 (function(){

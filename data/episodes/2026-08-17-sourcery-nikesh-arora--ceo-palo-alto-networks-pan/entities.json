@@ -1,0 +1,669 @@
+{
+  "episode_id": "2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan",
+  "podcast": "Sourcery",
+  "date": "2026-08-17",
+  "tags": [
+    "网络安全",
+    "AI 安全",
+    "智能体",
+    "软件行业重写",
+    "领导力与收购"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "nikesh-arora",
+      "type": "person",
+      "role": "guest",
+      "name": "Nikesh Arora",
+      "file": "Nikesh Arora",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            52.097,
+            54.298
+          ],
+          "quote": "Nikesh Arora, welcome to Sorcery.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palo-alto-networks",
+      "type": "company",
+      "role": "company",
+      "name": "Palo Alto Networks",
+      "file": "Palo Alto Networks",
+      "primary": true,
+      "how_described": "本集访谈地与嘉宾掌舵的网络安全公司:市值从 180 亿涨到约 3000 亿美元,在 Black Hat 发布四小时交付并全量部署补丁的能力(对比行业 55 天),八年收购 40 多家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            55.898,
+            58.359
+          ],
+          "quote": "Thank you for having us here at Palo Alto Networks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cyberark",
+      "type": "company",
+      "role": "company",
+      "name": "CyberArk",
+      "file": "CyberArk",
+      "primary": true,
+      "how_described": "本集说他们顶着市场反对以 280 亿美元收购的公司,随后用短期业绩让市场转口——被他用作「有时不同意市场」的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1036.738,
+            1039
+          ],
+          "quote": "We went and bought a $28 billion company called CyberArk.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集把它当作 AI 获得真正主观能动性(不靠人介入就能做生死攸关决定)的最直观例子:投入足够的钱、护栏和训练,人就敢坐进去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            572.414,
+            573.274
+          ],
+          "quote": "I have taken a Waymo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            579.899,
+            588.665
+          ],
+          "quote": "Well, the reason I ask you the question is a lot had to get done right for you and I to feel comfortable walking into a Waymo and having it drive us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            603.09,
+            618.155
+          ],
+          "quote": "It's not going to happen overnight, but I think the ingredients are in place for that to happen, and cybersecurity is one of those things that needs to get gotten right for people to be comfortable that no bad actor is going to take over my Waymo and drive me faster down the rolling hills or, God forbid, take me away.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            690.54,
+            695.241
+          ],
+          "quote": "I think billions of dollars were spent to train my favorite example of Waymo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            703.083,
+            704.223
+          ],
+          "quote": "Why do you like Waymo so much?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            706.3,
+            707.861
+          ],
+          "quote": "It's not really like Waymo so much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            735.605,
+            736.886
+          ],
+          "quote": "But you did put yourself in a Waymo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 痴迷产品,Larry Page 坚信伟大的产品会赢——Gmail、Chrome 不直接赚钱,先做伟大产品、变现以后再说,这条哲学大体奏效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            148.233,
+            151.234
+          ],
+          "quote": "People had written Google off and they were not going to be able to compete.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2310.508,
+            2312.249
+          ],
+          "quote": "I started at Google in 2004.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2313.209,
+            2315.63
+          ],
+          "quote": "And when you work at Google, you build this sort of...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2317.447,
+            2320.551
+          ],
+          "quote": "Thing where you don't meet someone before you Google them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2320.571,
+            2326.838
+          ],
+          "quote": "Like, obviously I can find out a lot more information about this person, this product, this cable because I work at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2327.458,
+            2331.863
+          ],
+          "quote": "Not that you can't because there's no special Google version for Google people, but, you know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2336.168,
+            2337.469
+          ],
+          "quote": "The way you do things, you Google people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2829.779,
+            2834.242
+          ],
+          "quote": "What was the day-to-day like at Google and at SoftBank?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 797,
+          "t": [
+            2840.427,
+            2842.888
+          ],
+          "quote": "Google's a great place, still is, was a great place when I was there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            2843.168,
+            2857.231
+          ],
+          "quote": "Because remember, Google had this interesting business, right, where we all kind of spent time on search, and Google had built the best commercial model around search in terms of how to monetize it in terms of search advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2859.352,
+            2862.092
+          ],
+          "quote": "So for the most part, Google was a scale problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 807,
+          "t": [
+            2890.453,
+            2896.239
+          ],
+          "quote": "Larry Page had this firm belief that great products win, and Google is product obsessed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 811,
+          "t": [
+            2904.847,
+            2906.248
+          ],
+          "quote": "Google Maps doesn't make as much money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            2909.418,
+            2911.178
+          ],
+          "quote": "Google Chrome doesn't make money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2911.678,
+            2918.04
+          ],
+          "quote": "There's so many products that Google built over the years which are great products which they didn't think about a monetization model because that was the philosophy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集判断企业还没到放心放行智能体的阶段,人们仍在摸索智能体将如何运作、如何赋予真正的主观能动性;未来大量 UI 和手工操作会被智能体加 MCP server 吃掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 502,
+          "t": [
+            1837.34,
+            1842.225
+          ],
+          "quote": "If AI is going to be so good at being an agent and using an MCP server, it's going to fix all that stuff, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2112.174,
+            2114.294
+          ],
+          "quote": "Well, how am I going to know you understand what an agent is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2765.737,
+            2767.318
+          ],
+          "quote": "We all have a little bit of agent in us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2779.844,
+            2781.825
+          ],
+          "quote": "Otherwise, your agent is going to do shit you don't want to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集贯穿的概念:AI 获得主观能动性(如 Waymo 例子)需要足够的钱、护栏和训练;管理上同理——给团队主观能动性,但要配上正确的护栏和培训,否则「你的智能体会去做你不想让它做的破事」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            268.081,
+            271.303
+          ],
+          "quote": "How do you give agents what we call true agency?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            589.265,
+            595.747
+          ],
+          "quote": "We effectively gave agency to AI to act and not be threatened by it or not feel unsafe around it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            708.001,
+            720.826
+          ],
+          "quote": "I think it's the most obvious relatable example of AI getting agency where a human does not get involved and AI is allowed to make decisions which could mean life or death for human beings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            737.966,
+            749.971
+          ],
+          "quote": "My example is if you spend enough amount of money, enough guardrails, enough training, you can get comfortable in a scenario where AI can be used instead of a human who has agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            2763.957,
+            2764.437
+          ],
+          "quote": "Agency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            2765.377,
+            2765.717
+          ],
+          "quote": "I give agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 769,
+          "t": [
+            2767.338,
+            2768.259
+          ],
+          "quote": "I have to give the agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 770,
+          "t": [
+            2768.539,
+            2770.86
+          ],
+          "quote": "If I don't give agency to people, then they feel constrained.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 771,
+          "t": [
+            2770.88,
+            2773.641
+          ],
+          "quote": "So yes, we all have to have a little bit of agency from people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2773.681,
+            2774.802
+          ],
+          "quote": "My board gives me agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            2775.222,
+            2776.382
+          ],
+          "quote": "I give my team agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2776.783,
+            2779.344
+          ],
+          "quote": "But you only give agency with the right guardrails and training, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zero-day",
+      "type": "concept",
+      "role": "concept",
+      "name": "zero-day",
+      "file": "zero-day",
+      "primary": true,
+      "how_described": "本集的核心数据:零日漏洞行业平均 55 天才修好,而 AI 找到并发起攻击只要几分钟——攻防时间差被压缩到分钟级是新的核心指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            18.482,
+            22.525
+          ],
+          "quote": "If you found a vulnerability, a zero-day vulnerability, the average time to fix those 55 days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            468.414,
+            474.737
+          ],
+          "quote": "You know, if you found a vulnerability, a zero-day vulnerability, the average time to fix it was 55 days in the industry.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说某模型因没有适当地加上护栏而被叫停;Waymo 的安心来自足够多的护栏;给智能体主观能动性也必须配以正确的护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            737.966,
+            749.971
+          ],
+          "quote": "My example is if you spend enough amount of money, enough guardrails, enough training, you can get comfortable in a scenario where AI can be used instead of a human who has agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2776.783,
+            2779.344
+          ],
+          "quote": "But you only give agency with the right guardrails and training, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "governance",
+      "file": "governance",
+      "primary": true,
+      "how_described": "本集认为 AI 实验室主动要求放缓、建立治理框架,看起来不像但可能是对的——先有治理免得日后被叫停;模型做错事到底谁负责也是没答案的棘手问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            359.326,
+            368.435
+          ],
+          "quote": "I think a lot of the AI labs want to get ahead of it, make sure there is some governance framework around it to ensure that they can keep developing the technology at the pace at which they'd like to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            371.936,
+            378.197
+          ],
+          "quote": "It doesn't seem like it, but I think they are doing the right thing and trying to get some governance around it so they don't get hauled back.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "open source",
+      "file": "open source",
+      "primary": true,
+      "how_described": "本集说开源与开放权重、封闭权重都是让创新不受约束的拼图重要部分:开源能以合适价格在全球提供,开放权重允许大量微调以适配特定用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            167.839,
+            171.32
+          ],
+          "quote": "You've gone agents to open weighted models, open source, closed source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            479.039,
+            485.542
+          ],
+          "quote": "So now you got to go get ahead of it, test all your software, test all your open source, understand the vulnerabilities and patch them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            639.896,
+            649.081
+          ],
+          "quote": "And having open source, open weight, having close weight, all these things are important parts of the puzzle to make sure that people can deploy them in different circumstances.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            650.481,
+            655.544
+          ],
+          "quote": "It's necessarily bad to hold back the development in open source or open weight for that matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            655.925,
+            663.069
+          ],
+          "quote": "Open source will allow people to make these things available globally at the right price point for various people to be able to use.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "coding",
+      "file": "coding",
+      "primary": true,
+      "how_described": "本集认为从实际效果看最大的 AI 用例就是编程:每个人都在用 AI 编程,某些情况下已超越人类,用例和生产力论证都已确立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            229.768,
+            234.492
+          ],
+          "quote": "I think for all practical purposes, the biggest use case you've seen is coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            242.598,
+            246.542
+          ],
+          "quote": "It's fair to say they have surpassed humans in certain cases from a coding perspective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP server",
+      "file": "MCP server",
+      "primary": false,
+      "how_described": "本集一笔带过:如果 AI 做智能体和使用 MCP server 会这么厉害,手机应用里的大量 UI 和手工操作都会被它修好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 502,
+          "t": [
+            1837.34,
+            1842.225
+          ],
+          "quote": "If AI is going to be so good at being an agent and using an MCP server, it's going to fix all that stuff, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

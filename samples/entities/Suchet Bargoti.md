@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":385,"自主性":10,"强化学习":1,"世界模型":11,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":387,"自主性":10,"强化学习":1,"世界模型":11,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
 
 <script>
 (function(){

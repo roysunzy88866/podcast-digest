@@ -39,7 +39,7 @@ unlisted: true
 
 [[GitHub]] · [[智能体]] · [[微调]] · [[ChatGPT]] · [[Lenny]] · [[点图]] · [[Max Junestrand]] · [[Devansh Tandon]] · [[Justin Reock]] · [[Nesrine Changuel]]
 
-<script type="application/json" class="pd-epn">{"GitHub":27,"智能体":385,"微调":28,"ChatGPT":88,"Lenny":68,"点图":1,"Max Junestrand":1,"Devansh Tandon":1,"Justin Reock":1,"Nesrine Changuel":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":27,"智能体":387,"微调":29,"ChatGPT":88,"Lenny":68,"点图":1,"Max Junestrand":1,"Devansh Tandon":1,"Justin Reock":1,"Nesrine Changuel":1}</script>
 
 <script>
 (function(){

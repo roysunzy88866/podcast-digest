@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":23,"开源模型":24,"沙箱":69,"智能体":385,"推理":67,"Docker":5,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":23,"开源模型":24,"沙箱":70,"智能体":387,"推理":67,"Docker":5,"GPU":18}</script>
 
 <script>
 (function(){

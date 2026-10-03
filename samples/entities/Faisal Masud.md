@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":385,"基于结果的付费":4,"垃圾话":8,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":2}</script>
+<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":387,"基于结果的付费":4,"垃圾话":8,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":2}</script>
 
 <script>
 (function(){

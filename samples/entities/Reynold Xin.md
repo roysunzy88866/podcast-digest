@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":385}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":387}</script>
 
 <script>
 (function(){

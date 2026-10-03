@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]] [[Annie Lamont]]
+[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":8,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":8,"智能体":385,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":8,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":8,"智能体":387,"强化学习":1}</script>
 
 <script>
 (function(){

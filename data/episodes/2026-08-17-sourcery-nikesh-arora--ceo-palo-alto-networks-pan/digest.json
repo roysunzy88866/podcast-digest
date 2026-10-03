@@ -1,0 +1,220 @@
+{
+  "title_zh": "Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时",
+  "tldr": "Palo Alto Networks CEO Nikesh Arora 谈 AI 如何把网络攻防时间差压到分钟级、软件为何带上了「观点」并将被整体重写,以及他的偏执经营哲学。",
+  "digest_md": "把一个零日漏洞(刚被发现、还没人防的漏洞)修好,行业平均要 55 天;而 AI 找到它并发起攻击,只要几分钟。这就是 Palo Alto Networks 的 CEO Nikesh Arora 在这集访谈里反复强调的时间差——这家市值约 3000 亿美元的网络安全公司掌门人,在 Black Hat 大会当天宣布:他们把补丁交付和部署压缩到了四小时,而且能推给每一位客户。他的开场判断很直白:AI 实验室们最近在炫肌肉,展示模型能多快找出基础设施漏洞——这只是开始,不是一时风潮,而且**攻击永远比防守容易**。\n\n## AI 把攻防时间差压到分钟级\n\n过去八年,Arora 一直试图说服 CEO 们重视网络安全,「什么方法都试过」,对方通常把他打发去找技术人员。真正让 CEO 们主动坐到桌前的是这次 AI 攻击浪潮。他给行业算了一笔账:从发现漏洞到被攻击的时间正在被大幅压缩,这意味着客户修复漏洞、排查坏分子的时间少了很多,只能两个办法——把基础设施现代化,以及在防御里用上 AI。所以他认为对所有网络安全公司来说这是好消息:要让全世界的基础设施扛得住这波 AI 攻击潮,你需要整个网络安全行业。\n\n具体到防御侧,他们发布的这项能力就是 AI 的好处开始显现的例子:四小时交付补丁并部署给全部客户,对比过去的 55 天。\n\n## 大模型真的很强,但责任归谁?\n\nArora 承认模型已经强大到能解决独特问题、串联漏洞发起攻击,编程这个用例已经确立——在某些情况下 AI 编程已超过人类。但他更关心一个还没答案的问题:模型做错了事,是模型的错,还是使用模型的人的错?把责任归到人身上很容易,归到模型上很难。他认为 AI 实验室主动呼吁放缓、要求治理框架,看起来不像,其实可能是对的——先建立治理,免得日后被叫停,他自己就见证过某模型因护栏不足被拦回的先例。\n\n他对「智能体怎么用」的判断是:企业还没到放心放行的阶段。他的参照物是 Waymo——AI 获得真正主观能动性(不靠人介入就能做生死攸关的决定)的最直观例子。你敢让 AI 不征求第二意见就给你开药吗?可能不敢;但投入足够的钱、足够的护栏、足够的训练后,你就敢坐进一辆 Waymo。他的结论:现在整个行业**过度关注模型本身**了,下一场大变革是把模型打包上所有上下文、知识和训练,交付成完整解决方案——而且要在成千上万种用例里各自做到。\n\n## 「软件会带上观点」:整个软件业将被重写\n\n这是全集最核心的判断。他说,过去 20 年的软件没有观点——你买来它,执行确定性的任务。而未来软件会把智能构建进去,于是带上观点:你的 AI 医生会真的有主见,但前提是有人训练它、给它上下文、让它学习。由此推论:**整个软件行业将在未来 10 年内被重写**,每一个消费级应用、每一款手机上的软件都跑不掉——大量 UI 和手工操作会被智能体加 MCP server 这类东西吃掉。\n\n对市场上「AI 吞噬软件、SaaS 归零」的恐慌，他的回应很具体：当初市场不加区分地把整个 SaaS 板块打了五折，他不服——AI 擅长搞定 80% 的主流用例，而网络安全活在那 0.1% 里，是在干草堆里找每一根针，AI 并不擅长这件事。所以他们当时就宣告市场针对网络安全板块的恐慌结束了，六个月后市场果然回来了。他也承认，某些品类里市场宣判公司死刑可能判对了，每家公司要自己掂量能不能活过向 AI 的转型。\n\n## 市值是世界预期的总和:他的经营法\n\n从他 180 亿到 3000 亿美元的市值变化聊开,他给出的框架是:市值等于世界对你战略、执行力和潜力的全部预期之和;市场要的不只是增长,是增长的**持久性**。所以他只把少部分时间花在下个季度,大部分花在两年后——两年之外能见度变薄的地方,就是他要提前布局的地方,「这是我与之共存的偏执」。在这份偏执里,他们八年收购了 40 多家公司,也曾顶着市场反对买下 280 亿美元的 CyberArk,用短期业绩让市场转口。\n\n关于收购,他的最大忌讳是**低估被收购公司创始人的智慧**——「我买下了你,所以你为我工作」是帝国主义态度。他们的做法相反:你把我们打得落花流水,没要我们的钱和规模都能做得这么好,说明你悟出了什么;所以我们花时间理解你悟出了什么,然后让你继续管。北极星始终一条:尽快把能力交付给客户,买或自建只是手段。\n\n招领导时他有个「盖房子」框架:建筑师负责设计、施工方负责建造、维护人员负责运营,谁也不该身兼三职;但职场上我们常指望一个人设计、建造、运营全包。他找的是建筑师加施工方的组合,过于偏设计的人就配最强的构建者。另外两条用人原则:招错一个管 500 人的高管,等于 500 人朝错误方向走,所以他宁可自己顶上也不将就;以及作为领导者要传达「为什么」而不是只下「做什么」的命令——解释了为什么,人们会做得好得多。\n\n## 怎么把 AI 原生的人「注进」组织\n\n他没有用测试去甄别谁「AI 原生」,而是两个动作:一是每两周两次的 AIIO 会议——把 24 位顶级技术人员拉到电话会上,每人两小时讲自己在做什么、怎么想,让另外 23 个人现场提问学习;二是从九个月前开始往黑客马拉松里招人——他的逻辑是,如果一个人下班回家不自己琢磨最新的模型和工具,「你不好奇也不学习,我去哪找这些人?」然后把 AI 原生的新人成批注进团队,直到他们在团队里比老人还多。当行为开始改变、功能发布变快、老员工也开始玩 AI 之后,不适应的人会自我选择离开。他明确不认同「裁掉三分之一学不会的人」那种做法。\n\n他的信息输入方式也很有个人风格:在偏执发作的时刻刷 X 和 LinkedIn,看到竞对或某人的帖子,四点半到六点半之间就会转发给团队问「我们该怎么处理」。总法律顾问就是他从 LinkedIn 上读着帖子招来的——「读一个人四年来写的东西,我不用问就知道他是什么人。」\n\n## 从 Larry Page 和孙正义身上学到的\n\n他总结:公司会长成领导者的样子。Google 痴迷产品,Larry Page 坚信伟大的产品会赢——Gmail、Chrome 都不直接赚钱,但先做伟大产品、变现以后再说,这条哲学大体奏效了。孙正义则相反:他是我认识的最年长、风险胃口却像青少年的人,越老胃口越大。他给 Arora 上过一课:Arora 焦虑地每周约谈一家比预期低 50% 的被投公司 CEO 想辅导纠偏,孙正义说——你把这么多精力放在翻倍的公司上,它可能会翻四倍;在那家翻四倍的公司上赚的钱,可能比修好那家出问题的多。**给赢家加倍下注**,这是运营者最难学会的投资课。\n\n至于未来:他说过去「五年才成的事,现在两年就会成」,必须换掉思考的视野;目前市场在为每家公司的完美执行定价,但两三年后市场会变得更有鉴别力,中途少不了磕磕绊绊——这不改变 AI 需求巨大、软件将被全面重写的基本盘。\n\n## 本集带走\n\n- **攻防时间差是新的核心指标**:零日漏洞行业平均 55 天才修,AI 几分钟就能找到并攻击;防御方必须把发现—修复—部署的链条压到小时级(Palo Alto 做到了四小时全量部署)。\n- **软件会带观点**:过去 20 年的软件执行确定性任务、没有主见;把智能构建进产品后软件会带观点,这意味着未来 10 年整个软件业被重写——每家公司都要回答自己能否活过这场转型。\n- **别过度关注模型**:AI 时代的胜负手是把模型打包上领域上下文、知识和训练,交付成完整解决方案;网络安全这种 0.1% 边缘用例恰恰是 AI 不擅长的干草堆找针。\n- **收购的心法是谦卑**:最大错误是低估被收购方创始人的智慧;他们没你的资源都能赢你,说明悟出了你不懂的东西——理解它、吸收它、让对方继续管。\n- **用密度而不是测试来造 AI 原生组织**:往黑客马拉松招回家还会自己折腾新工具的人,成批注入团队直到新人多过老人,行为转变会自己发生。\n- **运营者要学投资课**:别把精力全花在修复出问题的业务上,给正在翻倍的赢家加倍下注,回报可能大得多。",
+  "quotes": [
+    {
+      "en": "And it's a lot easier to attack. As an AI lab, it's much harder to defend.",
+      "zh": "而且攻击要容易得多。作为 AI 实验室,防守要难得多。",
+      "timestamp": "01:44",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "It's fair to say they have surpassed humans in certain cases from a coding perspective.",
+      "zh": "可以公平地说,从编程角度来看,它们在某些情况下已经超越了人类。",
+      "timestamp": "04:02",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "I think a lot of the AI labs want to get ahead of it, make sure there is some governance framework around it to ensure that they can keep developing the technology at the pace at which they'd like to.",
+      "zh": "我认为很多 AI 实验室想要抢在前面,确保围绕它有某种治理框架,以便他们能以自己想要的速度继续开发这项技术。",
+      "timestamp": "05:59",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "if you found a vulnerability, a zero-day vulnerability, the average time to fix it was 55 days in the industry.",
+      "zh": "如果你发现一个漏洞,一个零日漏洞,行业里修复它的平均时间是 55 天。",
+      "timestamp": "07:49",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "The market cap is the sum total of the expectations of the world about the strategy, execution, and the potential for your business, right?",
+      "zh": "市值是世界对贵公司战略、执行力以及业务潜力的所有预期的总和,对吧?",
+      "timestamp": "14:54",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "The biggest mistake that people make during acquisitions is underestimate the intelligence of the people who built the business that you acquired.",
+      "zh": "人们在收购过程中犯的最大错误是低估了被收购业务的打造者的智慧。",
+      "timestamp": "20:52",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "Our attitude is, you kicked our ass, come tell us what you did wrong, come run this for us because you did well without our money, our resources, our scale, so you must have figured something out.",
+      "zh": "我们的态度是,你把我们打得落花流水,来告诉我们你做对了什么,来替我们运营这个业务,因为在没有我们的资金、我们的资源、我们的规模的情况下你都做得这么好,所以你一定悟出了什么。",
+      "timestamp": "21:04",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "We live in the 0.1% use case.",
+      "zh": "而我们生活在 0.1% 的用例里。",
+      "timestamp": "25:45",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "None of the software in the last 20 years came with an opinion.",
+      "zh": "过去 20 年里没有任何软件带有观点。",
+      "timestamp": "27:48",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "So the entire software industry will get rewritten in the next 10 years.",
+      "zh": "所以整个软件行业将在未来 10 年被重写。",
+      "timestamp": "27:51",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "We're going to need more AI-ready people, so I don't buy the jobs argument.",
+      "zh": "我们将需要更多 AI 就绪的人才,所以我不认同那种关于就业岗位的论调。",
+      "timestamp": "32:38",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "If you're not curious and not learning, where am I going to find these people?",
+      "zh": "如果你不好奇也不学习,我去哪里找这些人呢?",
+      "timestamp": "35:29",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "He's the oldest man I know with the risk appetite of a teenager.",
+      "zh": "他是我认识的最年长的人,却有着一个青少年的风险偏好。",
+      "timestamp": "48:53",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "So you just have to believe that what you thought was going to take five is going to take two.",
+      "zh": "所以你只需要相信,你原以为要五年才能实现的事,两年就会实现。",
+      "timestamp": "51:21",
+      "speaker": "Nikesh Arora"
+    },
+    {
+      "en": "At the present, the market is pricing in perfect execution for every company.",
+      "zh": "目前,市场在为每家公司的完美执行定价。",
+      "timestamp": "52:03",
+      "speaker": "Nikesh Arora"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:44",
+      "speaker": "Unknown",
+      "en": "And it's a lot easier to attack. As an AI lab, it's much harder to defend.",
+      "zh": "而且攻击要容易得多。作为 AI 实验室,防守要难得多。"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Unknown",
+      "en": "It's fair to say they have surpassed humans in certain cases from a coding perspective.",
+      "zh": "可以公平地说,从编程角度来看,它们在某些情况下已经超越了人类。"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Unknown",
+      "en": "I think a lot of the AI labs want to get ahead of it, make sure there is some governance framework around it to ensure that they can keep developing the technology at the pace at which they'd like to.",
+      "zh": "我认为很多 AI 实验室想要抢在前面,确保围绕它有某种治理框架,以便他们能以自己想要的速度继续开发这项技术。"
+    },
+    {
+      "timestamp": "06:52",
+      "speaker": "Unknown",
+      "en": "Every CEO wants to talk about Mythos.",
+      "zh": "每个 CEO 都想谈 Mythos。"
+    },
+    {
+      "timestamp": "07:48",
+      "speaker": "Unknown",
+      "en": "if you found a vulnerability, a zero-day vulnerability, the average time to fix it was 55 days in the industry.",
+      "zh": "如果你发现一个漏洞,一个零日漏洞,行业里修复它的平均时间是 55 天。"
+    },
+    {
+      "timestamp": "07:55",
+      "speaker": "Unknown",
+      "en": "The average time missiles will find it and try and attack you is in minutes.",
+      "zh": "而 missiles 发现它并尝试攻击你的平均时间是以分钟计的。"
+    },
+    {
+      "timestamp": "11:18",
+      "speaker": "Unknown",
+      "en": "I think there's an over-indexing on the model part of it.",
+      "zh": "我认为对模型这部分有些过度关注了。"
+    },
+    {
+      "timestamp": "12:17",
+      "speaker": "Unknown",
+      "en": "My example is if you spend enough amount of money, enough guardrails, enough training, you can get comfortable in a scenario where AI can be used instead of a human who has agency.",
+      "zh": "我的例子是,如果你投入足够多的钱、足够多的护栏、足够多的训练,你就可以在 AI 被用来代替一个拥有主观能动性的人类的场景中感到安心。"
+    },
+    {
+      "timestamp": "14:54",
+      "speaker": "Unknown",
+      "en": "The market cap is the sum total of the expectations of the world about the strategy, execution, and the potential for your business, right?",
+      "zh": "市值是世界对贵公司战略、执行力以及业务潜力的所有预期的总和,对吧?"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "That's kind of the paranoia I live with.",
+      "zh": "这基本上就是我一直与之共存的偏执。"
+    },
+    {
+      "timestamp": "20:52",
+      "speaker": "Unknown",
+      "en": "The biggest mistake that people make during acquisitions is underestimate the intelligence of the people who built the business that you acquired.",
+      "zh": "人们在收购过程中犯的最大错误是低估了被收购业务的打造者的智慧。"
+    },
+    {
+      "timestamp": "21:04",
+      "speaker": "Unknown",
+      "en": "Our attitude is, you kicked our ass, come tell us what you did wrong, come run this for us because you did well without our money, our resources, our scale, so you must have figured something out.",
+      "zh": "我们的态度是,你把我们打得落花流水,来告诉我们你做对了什么,来替我们运营这个业务,因为在没有我们的资金、我们的资源、我们的规模的情况下你都做得这么好,所以你一定悟出了什么。"
+    },
+    {
+      "timestamp": "25:45",
+      "speaker": "Unknown",
+      "en": "We live in the 0.1% use case.",
+      "zh": "而我们生活在 0.1% 的用例里。"
+    },
+    {
+      "timestamp": "27:48",
+      "speaker": "Unknown",
+      "en": "None of the software in the last 20 years came with an opinion.",
+      "zh": "过去 20 年里没有任何软件带有观点。"
+    },
+    {
+      "timestamp": "27:51",
+      "speaker": "Unknown",
+      "en": "So the entire software industry will get rewritten in the next 10 years.",
+      "zh": "所以整个软件行业将在未来 10 年被重写。"
+    },
+    {
+      "timestamp": "32:38",
+      "speaker": "Unknown",
+      "en": "We're going to need more AI-ready people, so I don't buy the jobs argument.",
+      "zh": "我们将需要更多 AI 就绪的人才,所以我不认同那种关于就业岗位的论调。"
+    },
+    {
+      "timestamp": "35:29",
+      "speaker": "Unknown",
+      "en": "If you're not curious and not learning, where am I going to find these people?",
+      "zh": "如果你不好奇也不学习,我去哪里找这些人呢?"
+    },
+    {
+      "timestamp": "48:53",
+      "speaker": "Unknown",
+      "en": "He's the oldest man I know with the risk appetite of a teenager.",
+      "zh": "他是我认识的最年长的人,却有着一个青少年的风险偏好。"
+    },
+    {
+      "timestamp": "51:21",
+      "speaker": "Unknown",
+      "en": "So you just have to believe that what you thought was going to take five is going to take two.",
+      "zh": "所以你只需要相信,你原以为要五年才能实现的事,两年就会实现。"
+    },
+    {
+      "timestamp": "52:03",
+      "speaker": "Unknown",
+      "en": "At the present, the market is pricing in perfect execution for every company.",
+      "zh": "目前,市场在为每家公司的完美执行定价。"
+    }
+  ],
+  "voice_script": "今天这期,来听听 Nikesh Arora 怎么讲 AI 时代的网络攻防。这位是网络安全公司 Palo Alto Networks 的 CEO,公司市值大约三千亿美元,这期访谈正好赶在 Black Hat 大会当天。开场就抛出一个扎眼的数字:一个零日漏洞——就是刚被发现、还没人防住的漏洞——行业里从发现到修好,平均要五十五天;而 AI 找到它并发起攻击,只要几分钟。这五十五天对几分钟的时间差,就是整期访谈的起点。\n\n先说说这个话题为什么现在这么热。过去八年,Arora 一直想说服各公司的 CEO 重视网络安全,什么办法都试过,对方通常把他打发去找技术人员。真正让 CEO 们主动坐到桌前的,是这波 AI 攻击浪潮。AI 实验室最近在炫肌肉,展示模型能多快找出基础设施的漏洞——Arora 的判断很直白:这只是开始,不是一时风潮,而且攻击永远比防守容易。发现漏洞到被攻击的时间被大幅压缩,留给客户修复和排查的时间就少了,只剩两条路:把基础设施现代化,以及在防御里用上 AI。所以对所有网络安全公司来说,这反而是好消息——要让全世界的基础设施扛住这波攻击,你需要整个行业。Palo Alto 自己就是例子:他们把补丁从发现到部署给每一位客户,压缩到了四小时,对比过去的五十五天。\n\n模型确实强,Arora 也承认,编程这个用例已经确立,某些情况下 AI 编程已经超过人类。但真正让他操心的是另一个问题:模型做错了事,算模型的错,还是用模型的人的错?把责任归到人身上容易,归到模型上很难。有意思的是,很多 AI 实验室主动呼吁放缓、要求治理框架,表面看是在踩刹车,其实可能是对的——先建立治理,免得日后被叫停。至于企业该怎么用智能体,Arora 拿 Waymo 当参照物:你敢让 AI 不征求第二意见就给你开药吗?可能不敢;但投入足够的钱、护栏和训练,你就敢坐进一辆 Waymo。所以结论是:整个行业现在过度关注模型本身了,下一场大变革,是把模型打包上所有上下文、知识和训练,交付成完整解决方案,而且要在成千上万种用例里各自做到。\n\n这就引出全集最核心的一个判断:软件会带上观点。过去二十年的软件没有观点,你买来它,执行确定性的任务。而未来的软件会把智能构建进去,于是有了主见——你的 AI 医生会真的有主见,前提是有人训练它、给它上下文。顺着推下去,整个软件行业将在未来十年内被重写,每个消费级应用都跑不掉,大量界面和手工操作会被智能体加 MCP server 这类东西吃掉。那市场上\"AI 吞噬软件、SaaS 归零\"的恐慌呢?Arora 的回应很具体:当初市场不加区分地把整个 SaaS 板块打了五折,人家不服——AI 擅长搞定八成的主流用例,而网络安全活在那百分之零点一里,是在干草堆里找每一根针,AI 恰恰不擅长这个。所以当时就宣告针对网络安全板块的恐慌结束了,六个月后市场果然回来。当然也承认,有些品类市场宣判死刑可能判对了,每家公司得自己掂量能不能活过这场转型。\n\n再往深处走,就到了经营哲学这一层。市值从一百八十亿涨到三千亿美元,Arora 给出的框架是:市值等于世界对这家公司战略、执行力和潜力的全部预期之和,市场要的不只是增长,是增长的持久性。所以只把少部分时间花在下个季度,大部分花在两年后——能见度变薄的地方,就是提前布局的地方,用原话说,这是与之共存的偏执。八年收购四十多家公司,也顶着市场反对买下两百八十亿美元的 CyberArk,再用短期业绩让市场转口。收购上最大的忌讳是什么?是低估被收购公司创始人的智慧。\"我买下了你,所以你为我工作\"——这是帝国主义态度。做法恰恰相反:人家没要你的钱和规模都能把你打得落花流水,说明悟出了你不懂的东西,所以要花时间理解,然后让对方继续管。北极星始终一条:尽快把能力交付给客户,买还是自建,只是手段。\n\n那怎么把 AI 原生的人注进组织呢?不用测试去甄别,靠两个动作。一是每两周两次的内部会议,把二十四位顶级技术人员拉到电话会上,每人两小时讲自己在做什么、怎么想,让另外二十三个人现场提问学习;二是从黑客马拉松里招人,逻辑很朴素——如果一个人下班回家不自己琢磨最新的模型和工具,那就是不好奇也不学习。然后把 AI 原生的新人成批注入团队,直到比老人还多,行为开始改变、功能发布变快,不适应的人会自我选择离开。至于输入,在偏执发作的时刻刷 X 和 LinkedIn,看到竞对的帖子,四点半到六点半之间就转发给团队问\"我们该怎么处理\"。\n\n聊到从别人身上学到的东西,Arora 总结说,公司会长成领导者的样子。Google 痴迷产品,Larry Page 坚信伟大的产品会赢,Gmail 和 Chrome 都不直接赚钱,但先做伟大产品、变现以后再说,这条哲学大体奏效。孙正义则相反——最年长、风险胃口却像青少年的人。有一课特别值得记:当年每周约谈一家业绩比预期低一半的被投公司 CEO,想辅导纠偏,孙正义说,你把这么多精力放在翻倍的公司上,它可能会翻四倍;在那家翻四倍的公司上赚的钱,可能比修好那家出问题的多。给赢家加倍下注,这是运营者最难学会的投资课。\n\n最后是展望:过去五年才成的事,现在两年就会成,必须换掉思考的视野。市场眼下在为每家公司的完美执行定价,但两三年后会变得更有鉴别力,中途少不了磕磕绊绊——这不改变基本盘:AI 需求巨大,软件将被全面重写。攻击只要几分钟,防守曾经要五十五天,现在 Palo Alto 把它压到了四小时——在这个时间差里,谁先把链条压到小时级,谁才谈得上安全。"
+}

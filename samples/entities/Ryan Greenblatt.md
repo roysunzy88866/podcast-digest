@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]]
+[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":149,"Anthropic":162,"Hugging Face":26,"对齐":13,"奖励黑客":6,"智能体":385,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":5}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":149,"Anthropic":162,"Hugging Face":26,"对齐":14,"奖励黑客":6,"智能体":387,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":5}</script>
 
 <script>
 (function(){
