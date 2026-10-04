@@ -188,8 +188,10 @@ describe("C41 · 编辑通读(用户 2026-10-04:整体写得晦涩,比喻看不�
   });
   it("★★★ 不收:改了原话 / 丢了时间戳 / 动了数字 / 新加了专名 / 篇幅暴涨", () => {
     expect(acceptEdit(orig, orig.replace("巧克力蛋糕那边。", "巧克力那边。"))).toBe(false);
-    expect(acceptEdit(orig, orig.replace("[12:03 Jennifer Ferro]", ""))).toBe(false);
-    expect(acceptEdit(orig, orig.replace("5%", "6%"))).toBe(false);
+    expect(acceptEdit(orig, orig.replace("[12:03 Jennifer Ferro]", ""))).toBe(false); // 2 个标注只剩 1 个 < 80%
+    expect(acceptEdit(orig, orig.replace("[12:03 Jennifer Ferro]", "[12:09 Jennifer Ferro]"))).toBe(false); // 新标注不许
+    expect(acceptEdit(orig, orig.replace("5%", "6%"))).toBe(false); // 新加数字 6
+    expect(acceptEdit(orig, orig.replace("5% 的", "很少的"))).toBe(true); // 删个别数字可以(不是编造)
     expect(acceptEdit(orig, orig + "Netflix 也这样。")).toBe(false);
     expect(acceptEdit(orig, orig + "补".repeat(100))).toBe(false);
   });

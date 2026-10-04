@@ -228,17 +228,31 @@ function glmEdit(text, ctx) {
 }
 
 /** 一节改写收不收:受保护片段(双链/时间戳/整句原话/加粗)原样在、数字一个不多不少、英文专名一个不多、篇幅在 0.85–1.8 倍之间。 */
-export function acceptEdit(orig, patch) {
-  if (typeof patch !== "string" || !patch.trim()) return false;
-  const keep = [...(String(orig).match(MASK) ?? []), ...(String(orig).match(/「[^」\n]*[,，。!！?？][^」\n]*」|\*\*[^*\n]+\*\*/g) ?? [])];
-  for (const k of keep) if (!patch.includes(k)) return false;
-  const bag = (s, re) => (String(s).replace(MASK, " ").match(re) ?? []).sort().join(",");
-  if (bag(orig, /\d+(?:\.\d+)?/g) !== bag(patch, /\d+(?:\.\d+)?/g)) return false;
-  const caps = (s) => new Set(String(s).replace(MASK, " ").match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? []);
-  const oc = caps(orig);
-  for (const c of caps(patch)) if (!oc.has(c)) return false;
+export function acceptEdit(orig, patch) { return editVerdict(orig, patch) === "ok"; }
+
+/** 守门理由(诊断用):"ok" 或第一条没过的原因。
+ *  底线是「不许新增」:数字/英文专名/整句原话/双链/时间戳都不许出现原稿没有的;
+ *  允许删掉个别细节(样张实证模型常省掉「80 个电台」这类数字),但时间戳+双链至少留 80%(回原文溯源别被砍光)。 */
+export function editVerdict(orig, patch) {
+  if (typeof patch !== "string" || !patch.trim()) return "空稿";
+  const list = (s, re) => String(s).match(re) ?? [];
+  const sub = (a, b) => { const m = new Map(); for (const x of b) m.set(x, (m.get(x) ?? 0) + 1); for (const x of a) { if (!m.get(x)) return x; m.set(x, m.get(x) - 1); } return null; };
+  const anchors = (s) => list(s, MASK);
+  const extra = sub(anchors(patch), anchors(orig));
+  if (extra) return `新加了标注:${extra.slice(0, 30)}`;
+  if (anchors(patch).length < anchors(orig).length * 0.8) return `回原文标注/双链只剩 ${anchors(patch).length}/${anchors(orig).length}`;
+  const quotes = (s) => list(s, /「[^」\n]*[,，。!！?？][^」\n]*」/g);
+  const q = sub(quotes(patch), quotes(orig));
+  if (q) return `改了或新加了原话:${q.slice(0, 30)}`;
+  const nums = (s) => list(String(s).replace(MASK, " "), /\d+(?:\.\d+)?/g);
+  const n = sub(nums(patch), nums(orig));
+  if (n) return `新加了数字:${n}`;
+  const caps = (s) => list(String(s).replace(MASK, " "), /\b[A-Z][A-Za-z0-9'-]*\b/g);
+  const oc = new Set(caps(orig));
+  for (const c of caps(patch)) if (!oc.has(c)) return `新加了专名:${c}`;
   const h0 = visibleHanCount(orig), h1 = visibleHanCount(patch);
-  return h1 >= h0 * 0.85 && h1 <= h0 * 1.8;
+  if (h1 < h0 * 0.85 || h1 > h0 * 1.8) return `篇幅 ${h0} → ${h1}`;
+  return "ok";
 }
 
 /** 逐节编辑通读;每节改完复检事实层,冒新失败就退回该节。返回 {md, edited}。 */
@@ -251,7 +265,8 @@ export function plainEdit(md, { dir, ctx = "", gate = gateFacts, edit = glmEdit,
     if (visibleHanCount(orig) < 20) continue;
     let patch;
     try { patch = edit(orig.trim(), ctx); } catch (e) { log(`  ✗ 编辑通读第 ${sec.i} 节调 GLM 失败:${e.message}`); continue; }
-    if (!acceptEdit(orig, patch)) { log(`  ✗ 编辑通读第 ${sec.i} 节没过守门(改了原话/数字/专名或篇幅异常)→ 保留原文`); continue; }
+    const why = editVerdict(orig, patch);
+    if (why !== "ok") { log(`  ✗ 编辑通读第 ${sec.i} 节没过守门(${why})→ 保留原文`); continue; }
     const lead = orig.match(/^\s*/)[0], tail = orig.match(/\s*$/)[0];
     const cand = out.slice(0, sec.start) + lead + patch + tail + out.slice(sec.end);
     write(cand);
