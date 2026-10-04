@@ -159,7 +159,7 @@ MTV 早期因为不播放黑人音乐挨过批评,后来成为最早把嘻哈带
 
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同概念:创新者的窘境 (innovator's dilemma)</span>
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同概念:创新者的窘境 (innovator's dilemma)</span>
-- [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|Whatnot：直播电商如何让购物重新变有趣]]<span class="pd-rz">同公司:YouTube</span>
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？]]<span class="pd-rz">同公司:YouTube</span>
 
 </div>
 <div class="pd-ex">

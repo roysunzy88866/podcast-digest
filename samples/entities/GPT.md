@@ -68,7 +68,7 @@ unlisted: true
 
 [[Claude]] · [[ChatGPT]] · [[MCP]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Gus Iwanaga]] · [[Vincent Wendy]] · [[Lenny]] · [[Figure]] · [[Commerce Tools]]
 
-<script type="application/json" class="pd-epn">{"Claude":80,"ChatGPT":88,"MCP":69,"Hilary Gridley":1,"Michael Tannenbaum":1,"Gus Iwanaga":1,"Vincent Wendy":1,"Lenny":68,"Figure":2,"Commerce Tools":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":81,"ChatGPT":89,"MCP":69,"Hilary Gridley":1,"Michael Tannenbaum":1,"Gus Iwanaga":1,"Vincent Wendy":1,"Lenny":68,"Figure":2,"Commerce Tools":1}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jonathan":1,"Turing":1,"智能体":387,"RL 环境":7,"RLVR":2,"涌现行为":2,"泛化":2,"开放权重模型":1,"蒸馏":1,"学习循环":2}</script>
+<script type="application/json" class="pd-epn">{"Jonathan":1,"Turing":1,"智能体":388,"RL 环境":7,"RLVR":2,"涌现行为":2,"泛化":2,"开放权重模型":1,"蒸馏":1,"学习循环":2}</script>
 
 <script>
 (function(){

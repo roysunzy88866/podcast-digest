@@ -43,7 +43,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[数据中心]] · [[推理]] · [[Microsoft]] · [[Patrick O'Shaughnessy]] · [[AMD]] · [[供应链]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":51,"OpenAI":149,"Anthropic":163,"数据中心":17,"推理":68,"Microsoft":28,"Patrick O'Shaughnessy":3,"AMD":4,"供应链":4,"智能体":387}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":51,"OpenAI":150,"Anthropic":163,"数据中心":18,"推理":68,"Microsoft":28,"Patrick O'Shaughnessy":3,"AMD":4,"供应链":4,"智能体":388}</script>
 
 <script>
 (function(){

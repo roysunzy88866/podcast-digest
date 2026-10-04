@@ -152,8 +152,8 @@ Moritz 还警告了 AI 时代的新风险：因为重做太容易，「同一件
 **顺着「智能体」挖下去**
 
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
 - [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量]]<span class="pd-rz">同概念:TDD、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

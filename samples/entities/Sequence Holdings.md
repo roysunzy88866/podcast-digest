@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael Lee]] · [[Baldwin]] · [[Bank South]] · [[Atlas]] · [[智能体]] · [[控股公司]] · [[组织物理学]] · [[Palantir]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Michael Lee":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":387,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":163,"OpenAI":149}</script>
+<script type="application/json" class="pd-epn">{"Michael Lee":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":388,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":163,"OpenAI":150}</script>
 
 <script>
 (function(){

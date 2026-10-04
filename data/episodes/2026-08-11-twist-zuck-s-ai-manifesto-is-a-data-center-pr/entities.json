@@ -1,0 +1,1621 @@
+{
+  "episode_id": "2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr",
+  "podcast": "This Week in Startups",
+  "date": "2026-08-11",
+  "tags": [
+    "Meta",
+    "开源模型",
+    "智能体",
+    "数据中心",
+    "播客与平台"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集围绕扎克伯格 6500 字 AI 宣言展开:Meta 承诺继续发布开源模型,预告个人 AI 智能体、视频编辑器、WhatsApp 创业包等产品;两位主持人认为宣言实质是为建数据中心做的公关战,同时称这是『职业生涯中见过的最好的扎克伯格版本』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            6.437
+          ],
+          "quote": "There is a PR group for Meta that says, how can we turn the narrative on data centers around?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 43,
+          "t": [
+            146.63,
+            150.693
+          ],
+          "quote": "He also says, here's what Meta's building to sort of be part of this AI future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            178.691,
+            181.012
+          ],
+          "quote": "Meta will continue releasing open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            205.847,
+            209.11
+          ],
+          "quote": "Is this advertising for the next wave of meta AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1636.592,
+            1638.595
+          ],
+          "quote": "And Meta's always wanted to build a search engine.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1905.41,
+            1913.412
+          ],
+          "quote": "The hydroponic farm funded by Meta, the parent hydroponic farm, Instagram, and one of the country's biggest AI hyperscalers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1969.215,
+            1973.997
+          ],
+          "quote": "This felt like a commercial for Meta for me, like with the background music and everything.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2030.497,
+            2036.221
+          ],
+          "quote": "They even have in this little love letter to Meta that they started a soda pop store",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2052.788,
+            2060.832
+          ],
+          "quote": "There is a PR group for Meta that says, how do we, how can we turn the narrative on data centers around?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2177.252,
+            2180.475
+          ],
+          "quote": "Well done to the PR marketing team at Meta.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2226.244,
+            2232.647
+          ],
+          "quote": "Yeah, I think that's the most cynical take is that this is really like a large scale advertisement for like Meta's agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2245.813,
+            2251.458
+          ],
+          "quote": "But he's really just promoting the new agent coming to your phone via Meta.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2341.619,
+            2350.825
+          ],
+          "quote": "It takes a techno-optimist sort of view, which I don't think, you couldn't really say a lot of meta releases in the past felt that way.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "宣言核心产品是『给每个人的个人 AI 智能体』——24 小时代你工作、了解你目标与生活一切的助手;Jason 预测它会以 Facebook/Instagram 助手形式、不打 AI 旗号地内置进信息流推出。本集还谈了 AI 智能体帮大学生大规模作弊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            13.103,
+            17.247
+          ],
+          "quote": "I'm in your corner, and we're going to be the company that gives you an agent, a tutor,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 44,
+          "t": [
+            150.953,
+            167.105
+          ],
+          "quote": "That includes a personal AI agent for everyone, powerful coding, video design, and more tools for everyone, ways to launch businesses without teams or funding, a PH level tutor or coach for any subject, contributions to science, and so forth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            602.88,
+            610.965
+          ],
+          "quote": "And if you're just getting started, they'll handle your Delaware C-Corp and getting yourself a registered agent, all with no legal fees and no delays.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            991.717,
+            994.679
+          ],
+          "quote": "The first one, a personal AI agent for everyone.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            996.18,
+            1002.383
+          ],
+          "quote": "Everyone will have an exceptionally capable personal agent that understands you, your goals, and everything you care about.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1002.624,
+            1009.948
+          ],
+          "quote": "Your agent will work 24-7 on your behalf to improve your relationships, health, career, finances, home management, hobbies, and more.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1017.333,
+            1019.954
+          ],
+          "quote": "Hermes agent, Claude Co-Work competitor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1099.699,
+            1113.103
+          ],
+          "quote": "I mean, I'm sort of very divided here, because on one hand, it does sound very useful, like an agent that's built into so many of the apps you've already got running on your phone, that's intelligent about all that, that you don't need to connect to any of them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1170.433,
+            1177.755
+          ],
+          "quote": "It could very easily close that gap for me and do intelligent, agent-like things without me asking.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1184.857,
+            1188.222
+          ],
+          "quote": "Hey, I'm your Instagram agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1755.346,
+            1763.07
+          ],
+          "quote": "I'm in your corner and we're going to be the company that gives you an agent, a tutor, free design tools and makes your life better.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2245.813,
+            2251.458
+          ],
+          "quote": "But he's really just promoting the new agent coming to your phone via Meta.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 913,
+          "t": [
+            3538.79,
+            3545.394
+          ],
+          "quote": "Once your token is resold by someone other than you or your agent, it stops counting as a security for that transaction.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说 Meta 承诺继续发布开源模型,当天放出了开放权重模型 Muse Glimmer;Jason 点出『当你落后你就走开放路线,当你领先你就走封闭路线』,并说发布开源本身就是宣言诚意的最好证明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            178.691,
+            181.012
+          ],
+          "quote": "Meta will continue releasing open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            511.904,
+            518.551
+          ],
+          "quote": "You're not going to stop access to open source models coming out of China or other countries or America or people making their own now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2256.716,
+            2258.777
+          ],
+          "quote": "And they're dropping open source models today.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "宣言的底层主张:超级智能最大的风险是中心化而非技术本身;在网络安全上,一旦超级智能能让世界大部分代码被验证为安全,黑客攻击会大幅下降;正确长期答案是让超级智能被广泛分布而非扣留能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            126.859,
+            132.362
+          ],
+          "quote": "Basically, superintelligence's biggest risk is centralization, not the tech itself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            771.623,
+            777.946
+          ],
+          "quote": "This will be definitively true once superintelligence enables most of the world's code to be verifiably secure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 192,
+          "t": [
+            778.206,
+            785.73
+          ],
+          "quote": "The long-term answer isn't to withhold capabilities, but to establish a balance of power where superintelligence is broadly distributed.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data centers)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "Jason 的核心解读:数据中心不受欢迎(吸走水电、创造不了就业、钱流向亿万富翁),宣言方方面面讲『丰裕』,唯一的要求是『让我们建数据中心』;Morning Joe 同日播出 Meta 资助犹他州高中水培农场的软性报道,被指是 Meta 广告片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            6.437
+          ],
+          "quote": "There is a PR group for Meta that says, how can we turn the narrative on data centers around?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1,
+          "t": [
+            6.737,
+            8.258
+          ],
+          "quote": "Because we need to build more data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 8,
+          "t": [
+            20.668,
+            24.73
+          ],
+          "quote": "The only thing we ask is that you let us build some data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1726.077,
+            1729.758
+          ],
+          "quote": "I think there's something very pragmatic going on here, which is data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1730.658,
+            1734.3
+          ],
+          "quote": "And data centers are really unpopular.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1979.32,
+            1980.801
+          ],
+          "quote": "They're not against data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2009.465,
+            2014.548
+          ],
+          "quote": "Now you've got mainstream media saying, hey, you got it all wrong on data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2014.668,
+            2022.453
+          ],
+          "quote": "The same day his manifesto drops, this is a full-on, full-court press, let us build data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2022.853,
+            2024.094
+          ],
+          "quote": "We need to build data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2052.788,
+            2060.832
+          ],
+          "quote": "There is a PR group for Meta that says, how do we, how can we turn the narrative on data centers around?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2061.152,
+            2062.632
+          ],
+          "quote": "Because we need to build more data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2089.873,
+            2093.355
+          ],
+          "quote": "All we ask is that you let us just build some data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2093.459,
+            2104.324
+          ],
+          "quote": "Yeah, it's a direct response to the big criticism, which is always like, well, these data centers are coming in, they're sucking up all the water, they're using up all the power, and then what do we get out of it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2155.255,
+            2156.897
+          ],
+          "quote": "And of course you don't want data centers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2157.017,
+            2164.262
+          ],
+          "quote": "The data centers are going to wind up in hacking and nuclear bombs and dirty bombs and bio weapons.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2217.02,
+            2223.783
+          ],
+          "quote": "And I think the most cynical thing I can say is he wants to install data centers and he just wants to explain to people what they're going to get out of it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "本集说 Facebook 网络和 Instagram 是黑箱、不给 API 和社交图谱——领先时握着摇钱树就锁死;两人还预测 Instagram 会像当年加滤镜一样推出一个以 CapCut 为范本的 AI 视频编辑器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            388.925,
+            391.767
+          ],
+          "quote": "The Facebook network, Instagram, those are black boxes.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 195,
+          "t": [
+            796.581,
+            810.972
+          ],
+          "quote": "This would have been amazing before he launched Instagram, made it super addicting and caused young girls on the platform to experience body dysphoria and self-harm and anorexia and any number of diseases.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 233,
+          "t": [
+            969.209,
+            972.671
+          ],
+          "quote": "Then he just put all Snapchat's features into Instagram.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1020.734,
+            1028.316
+          ],
+          "quote": "It's going to be, you know, Facebook, you know, assistant or Instagram assistant, whatever he brands it as.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1091.397,
+            1096.218
+          ],
+          "quote": "They could do that for your auntie, for your cousin who's addicted to Instagram or whatever it is.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1159.17,
+            1162.671
+          ],
+          "quote": "As an example, I do use a lot of bookmarks in Instagram.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1184.857,
+            1188.222
+          ],
+          "quote": "Hey, I'm your Instagram agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1311.203,
+            1324.47
+          ],
+          "quote": "Okay, so my next prediction is Instagram will launch a video editor similar, an AI-based video editor, similar to the way they added filters and swiping through filters.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1602.414,
+            1611.299
+          ],
+          "quote": "So an ad version of Facebook GPT, Instagram GPT, and WhatsApp GPT, they should literally just put GPT at the end if they wouldn't get.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1616.712,
+            1622.394
+          ],
+          "quote": "But they could just put Facebook AI, Instagram AI, WhatsApp AI, and allow you to do searches there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1622.414,
+            1630.617
+          ],
+          "quote": "And when you do Instagram now, it does default when you do a search there to a little AI clip at the top, just like the shortcuts there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1905.41,
+            1913.412
+          ],
+          "quote": "The hydroponic farm funded by Meta, the parent hydroponic farm, Instagram, and one of the country's biggest AI hyperscalers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2356.589,
+            2360.451
+          ],
+          "quote": "Like, that's what the Instagram sort of pitch is in a weird way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2373.31,
+            2376.411
+          ],
+          "quote": "I don't think anybody feels particularly empowered by Instagram.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4215.983,
+            4218.505
+          ],
+          "quote": "Clip it and put it in TikTok, Instagram, LinkedIn.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "type": "company",
+      "role": "company",
+      "name": "WhatsApp",
+      "file": "WhatsApp",
+      "primary": true,
+      "how_described": "『不用团队和资金就能创业』的落点:在欧洲和日本一切交易都发生在 WhatsApp 上;扎克伯格的路数是围绕核心资产做相邻业务,让 WhatsApp Business 内置 AI 客服和小商业页面,三到六个月做出落地页生成器、CRM 的 80% 功能版。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1395.956,
+            1398.86
+          ],
+          "quote": "Zuckerberg is kind of teeing off of WhatsApp.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1399.04,
+            1402.264
+          ],
+          "quote": "So this is, WhatsApp has business accounts.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1409.032,
+            1414.378
+          ],
+          "quote": "If you go overseas, WhatsApp is how all transactions occur.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1416.12,
+            1430.616
+          ],
+          "quote": "When I go to Asia, if you're talking to your driver, or you're talking to your cab company, if you're talking to your hotel, if you're talking to a tourist guide, you're taking a guided tour somewhere, or you're talking to a restaurant, it all winds up on WhatsApp.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1432.608,
+            1434.409
+          ],
+          "quote": "I never had to have WhatsApp.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1436.69,
+            1443.114
+          ],
+          "quote": "The moment, the day I got to Japan, I had to join because everybody, everything in Japan is happening on WhatsApp.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1454.34,
+            1467.204
+          ],
+          "quote": "If you had a tour guide business, as an example, or you're a driver and you provide livery services, either of those, you build a landing page, you have a Google Local, and then you use WhatsApp for your operating system.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1468.428,
+            1480.018
+          ],
+          "quote": "Why not make it so WhatsApp has, in their WhatsApp business, the ability to make a small business page to handle customer support and do all that with AI?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1480.438,
+            1484.601
+          ],
+          "quote": "In other words, just take WhatsApp and build adjacencies to it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1521.021,
+            1527.426
+          ],
+          "quote": "There's no reason that Zuck can't build an 80% version of that into WhatsApp in three to six months.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1532.969,
+            1536.592
+          ],
+          "quote": "And I think it's pretty clear that WhatsApp is the home for the one he just mentioned there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1602.414,
+            1611.299
+          ],
+          "quote": "So an ad version of Facebook GPT, Instagram GPT, and WhatsApp GPT, they should literally just put GPT at the end if they wouldn't get.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1616.712,
+            1622.394
+          ],
+          "quote": "But they could just put Facebook AI, Instagram AI, WhatsApp AI, and allow you to do searches there.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "type": "company",
+      "role": "company",
+      "name": "X",
+      "file": "X",
+      "primary": true,
+      "how_described": "本集快讯:X 的收入分成计划 9 月 7 日退役,换成『原创内容奖励』,只对亲自创作的内容付费,打击搬运剪辑号;新门槛是订阅 X、500 个认证粉丝、90 天 50 万次主页曝光,Jason 自己失去资格但赞成新规。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            105.394,
+            107.557
+          ],
+          "quote": "Pretty active on X, which he never did.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2379.053,
+            2383.235
+          ],
+          "quote": "So X has discontinued their revenue sharing program.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2434.127,
+            2443.309
+          ],
+          "quote": "To be eligible for the original content rewards, you must subscribe to X, you've got to be at least 18, you have to have at least 500 verified followers, and",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2460.203,
+            2469.767
+          ],
+          "quote": "But I did notice there are a lot of people like me who were eligible, got grandfathered in under the old X where it was easier to get to 500,000 timeline impressions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2486.534,
+            2497.644
+          ],
+          "quote": "So I guess the big question would be how do you think this is going to reshape X content and what are the kinds of things on X you'd like to see less of in your timeline that you're hoping this cuts down on?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2569.903,
+            2577.91
+          ],
+          "quote": "Now, that was good for the platform in one way because that content found its way onto X in video.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2664.053,
+            2669.397
+          ],
+          "quote": "So I got through somehow in the old X because I just had enough followers or whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2677.482,
+            2679.083
+          ],
+          "quote": "I'm not on X to make money.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2719.961,
+            2729.683
+          ],
+          "quote": "That's over 150K so far in revenue share on X. Yeah, the last two cycles, I guess they do it in two-week cycles, were 8,000.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2757.536,
+            2762.459
+          ],
+          "quote": "You want people to be upwardly mobile on X. I think that's the idea.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2858.67,
+            2866.792
+          ],
+          "quote": "So whether it's Nick Shirley or like, there's a guy I gave a hundred bucks to today with X money, this guy, JJ, who just reports.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3027.395,
+            3030.775
+          ],
+          "quote": "So I've been doing this thing on my X money is out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3030.795,
+            3031.455
+          ],
+          "quote": "Did you get X money?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3038.277,
+            3040.199
+          ],
+          "quote": "But also X gives you like 15 bucks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3045.923,
+            3046.364
+          ],
+          "quote": "I am on X.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1254,
+          "t": [
+            4608.415,
+            4612.076
+          ],
+          "quote": "Why doesn't X support RSS feed slash podcast?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            4786.954,
+            4795.837
+          ],
+          "quote": "Because we don't feel love from Spotify, I tend to share the YouTube or- X or Apple or yeah.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": true,
+      "how_described": "本集说 Spotify 正测试让高级订阅用户跳过播客任何段落(含出版方卖的广告,但豁免自家广告)的按钮,遭 Crooked Media 等激烈反弹;Jason 炮轰它靠 RSS 开放标准起家却不支持标准、不给播客主数据控制权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1197,
+          "t": [
+            4380.563,
+            4383.704
+          ],
+          "quote": "So the last thing, Spotify, did you hear about this?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1199,
+          "t": [
+            4388.587,
+            4400.153
+          ],
+          "quote": "The button will controversially allow premium users to skip through sections of their favorite podcasts, including the ads, the publisher sold ads, but Spotify is exempting their own ads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1200,
+          "t": [
+            4400.453,
+            4412.324
+          ],
+          "quote": "So you can't use it to skip through an ad that Spotify sold, but you could use it to skip through like all of the ads that we're putting on our podcast that we're not selling through Spotify because we have our old ad team.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            4412.364,
+            4421.452
+          ],
+          "quote": "So Spotify saying this is just an expansion of the 15 second skip ahead button, which already exists and which people can already use to bypass their ads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1205,
+          "t": [
+            4437.706,
+            4442.73
+          ],
+          "quote": "Tommy Vitor of Crooked Media said, very cool of Spotify to try and destroy the podcast industry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1222,
+          "t": [
+            4496.51,
+            4502.072
+          ],
+          "quote": "There's two features in Podcasting 2.0 that Spotify absolutely and Apple must respect and use.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1230,
+          "t": [
+            4529.996,
+            4537.785
+          ],
+          "quote": "Now, if Spotify doesn't want to keep losing to YouTube, which is where people are starting to watch podcasts and where podcasts are spending more time, don't do things like this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            4538.446,
+            4544.591
+          ],
+          "quote": "Spotify should be in the corner of podcasters and for open standards because YouTube is a black box.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1234,
+          "t": [
+            4550.495,
+            4559.762
+          ],
+          "quote": "And, you know, where are we going to spend our time is what they need to ask themselves, because the difference between using Spotify and YouTube and putting it in your pocket and listening to the background.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1243,
+          "t": [
+            4580.05,
+            4581.611
+          ],
+          "quote": "You could listen on Spotify, wherever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            4581.891,
+            4586.151
+          ],
+          "quote": "And now it feels like YouTube, Spotify, and maybe Netflix.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1251,
+          "t": [
+            4602.514,
+            4605.735
+          ],
+          "quote": "Like Spotify is not threatened by small independent platforms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            4637.713,
+            4641.214
+          ],
+          "quote": "And I told this to Spotify when I met with them during South By.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            4647.645,
+            4652.889
+          ],
+          "quote": "The reason Spotify has so much extra traffic is because of the podcasting standard.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4659.834,
+            4664.558
+          ],
+          "quote": "And like, it really makes me feel bad about my relationship with Spotify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1272,
+          "t": [
+            4664.598,
+            4670.122
+          ],
+          "quote": "And a lot of podcasters don't like Spotify a lot because they don't give us the controls we want.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1274,
+          "t": [
+            4674.446,
+            4676.948
+          ],
+          "quote": "Spotify needs to listen to podcasters more.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1280,
+          "t": [
+            4701.516,
+            4705.758
+          ],
+          "quote": "And so, you know, take from that what you will, Spotify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1285,
+          "t": [
+            4715.881,
+            4720.883
+          ],
+          "quote": "It's also Spotify makes it very difficult to do your distribution unless you use their tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1287,
+          "t": [
+            4725.325,
+            4729.426
+          ],
+          "quote": "And many of you in the audience wrote to us and said it broke things all over Spotify.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1294,
+          "t": [
+            4744.357,
+            4745.838
+          ],
+          "quote": "That's how we sell our ads, Spotify.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1301,
+          "t": [
+            4763.013,
+            4765.577
+          ],
+          "quote": "Nobody has gained more from podcasting than Spotify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1304,
+          "t": [
+            4770.244,
+            4775.131
+          ],
+          "quote": "There is no Spotify without people making amazing things to listen to in Spotify.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4776.01,
+            4779.451
+          ],
+          "quote": "I appreciate Spotify is out there, but I don't feel appreciated by Spotify.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1306,
+          "t": [
+            4779.471,
+            4786.073
+          ],
+          "quote": "Sometimes if Dylan comes out with like a new single or something, I'll send it to my brother, the Spotify link, but that's- No, no, I'm saying like, I don't share our podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            4786.954,
+            4795.837
+          ],
+          "quote": "Because we don't feel love from Spotify, I tend to share the YouTube or- X or Apple or yeah.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1310,
+          "t": [
+            4798.123,
+            4801.586
+          ],
+          "quote": "I would like to be more, I would have a better feeling about Spotify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1312,
+          "t": [
+            4802.566,
+            4804.908
+          ],
+          "quote": "I don't, I don't want to just get to invited to Spotify parties.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            4804.948,
+            4808.891
+          ],
+          "quote": "That's nice, but I am not like, Spotify party's nice.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "capcut",
+      "type": "company",
+      "role": "company",
+      "name": "CapCut",
+      "file": "CapCut",
+      "primary": true,
+      "how_described": "两人讨论 Instagram 预告的 AI 视频编辑器时,一致认为 CapCut 就是范本——『CapCut 就是那个模型』,Meta 会做一个自己的 CapCut 竞品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 322,
+          "t": [
+            1335.138,
+            1338.161
+          ],
+          "quote": "And there's no reason that can't be like CapCut.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1338.181,
+            1341.465
+          ],
+          "quote": "I was going to say, CapCut's the model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1341.485,
+            1342.146
+          ],
+          "quote": "CapCut's the model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1342.166,
+            1344.789
+          ],
+          "quote": "We're already three quarters of the way there with CapCut, I think.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1347.951,
+            1351.013
+          ],
+          "quote": "I'm convinced they will just have their own CapCut competitor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1354.056,
+            1358.499
+          ],
+          "quote": "AI-based software that can make images and video sounds exactly like CapCut.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "clarity-act",
+      "type": "concept",
+      "role": "concept",
+      "name": "《Clarity 法案》 (Clarity Act)",
+      "file": "《Clarity 法案》",
+      "primary": true,
+      "how_described": "本集说这部加密监管法案在八月休会前受挫,最早九月辩论、撞上中期选举;框架是去中心化数字社区归 CFTC、融资和投资合约归 SEC,症结是民主党要加涉加密政府官员的道德条款;Jason 判断中期选举后会通过,因为加密行业是两党大金主。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 819,
+          "t": [
+            3121.001,
+            3122.441
+          ],
+          "quote": "We got to talk about the Clarity Act.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "Jason 就加密代币监管现场问 Claude:团队仍控制升级、金库和大半供应量的代币是投资合约,SEC 规则照用;但代币被第三方转售就不再算证券——连 Claude 都回答含糊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1017.333,
+            1019.954
+          ],
+          "quote": "Hermes agent, Claude Co-Work competitor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1373.15,
+            1384.733
+          ],
+          "quote": "I mean, we already have Codex, Claude Code, or excuse me, ChatGPT, Work, and Claude Code, and to me, those are already the like, hey, you're not really a coder, but here's like a coding style or lovable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 904,
+          "t": [
+            3502.409,
+            3503.77
+          ],
+          "quote": "Claude gave me a little bit of a tip.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 919,
+          "t": [
+            3563.162,
+            3566.963
+          ],
+          "quote": "Claude even says real uncertainty remains.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 920,
+          "t": [
+            3567.003,
+            3569.444
+          ],
+          "quote": "Claude's like, I don't want to touch this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 921,
+          "t": [
+            3569.484,
+            3570.045
+          ],
+          "quote": "Claude's like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 923,
+          "t": [
+            3572.001,
+            3573.282
+          ],
+          "quote": "My name's Claude.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 929,
+          "t": [
+            3579.029,
+            3580.41
+          ],
+          "quote": "Even Claude, I've never seen that before.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3580.43,
+            3582.152
+          ],
+          "quote": "Even Claude is like, listen, don't, don't.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3584.955,
+            3585.616
+          ],
+          "quote": "Claude went like this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3588.099,
+            3589.14
+          ],
+          "quote": "So good job, Claude.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 964,
+          "t": [
+            3642.066,
+            3643.326
+          ],
+          "quote": "That was just what Claude did.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 965,
+          "t": [
+            3644.067,
+            3645.147
+          ],
+          "quote": "Claude's like, you're on your own.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 975,
+          "t": [
+            3654.906,
+            3655.347
+          ],
+          "quote": "Sorry, Claude.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3656.668,
+            3657.448
+          ],
+          "quote": "We're calling Claude out.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "Jason 说扎克伯格支持开放模型的立场『简直就是 OpenAI 的宣言』——『这项技术太强大,不能让一个人控制它』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            371.392,
+            373.274
+          ],
+          "quote": "It's literally the manifesto of OpenAI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 86,
+          "t": [
+            373.874,
+            375.135
+          ],
+          "quote": "OpenAI's manifesto was...",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": false,
+      "how_described": "本集说 Spotify 若不想继续输给 YouTube 这个『黑箱』——人们正开始在 YouTube 上看播客——就应站在播客主和开放标准这一边。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 446,
+          "t": [
+            1848.045,
+            1855.909
+          ],
+          "quote": "And I'll just zip through a couple of these things just to see what they're talking about, because there's a really cool feature on YouTube, the quad, where it gives you all four.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2792.531,
+            2796.612
+          ],
+          "quote": "This is a more YouTube creator program-like program.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            3807.437,
+            3809.78
+          ],
+          "quote": "You're just basically going to YouTube and taking a course?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1229,
+          "t": [
+            4529.195,
+            4529.976
+          ],
+          "quote": "YouTube does that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1230,
+          "t": [
+            4529.996,
+            4537.785
+          ],
+          "quote": "Now, if Spotify doesn't want to keep losing to YouTube, which is where people are starting to watch podcasts and where podcasts are spending more time, don't do things like this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            4538.446,
+            4544.591
+          ],
+          "quote": "Spotify should be in the corner of podcasters and for open standards because YouTube is a black box.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1232,
+          "t": [
+            4544.691,
+            4547.152
+          ],
+          "quote": "YouTube doesn't do any of the standards.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1234,
+          "t": [
+            4550.495,
+            4559.762
+          ],
+          "quote": "And, you know, where are we going to spend our time is what they need to ask themselves, because the difference between using Spotify and YouTube and putting it in your pocket and listening to the background.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            4581.891,
+            4586.151
+          ],
+          "quote": "And now it feels like YouTube, Spotify, and maybe Netflix.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            4706.338,
+            4712.42
+          ],
+          "quote": "YouTube, Apple, you got to kind of, you know, be in the podcaster's corner.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            4786.954,
+            4795.837
+          ],
+          "quote": "Because we don't feel love from Spotify, I tend to share the YouTube or- X or Apple or yeah.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "Jason 建议 Meta 若想建搜索引擎,『他们应该收购 Perplexity,或者干脆自己构建一个』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 393,
+          "t": [
+            1642.119,
+            1645.404
+          ],
+          "quote": "They should buy Perplexity or they should just build their own search engine.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

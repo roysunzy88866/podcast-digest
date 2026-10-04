@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bob Safian]] · [[Hayden Brown]] · [[Upwork]] · [[智能体]] · [[MCP 服务器]] · [[开源模型]] · [[自由职业]] · [[ChatGPT]] · [[Claude]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Hayden Brown":1,"Upwork":1,"智能体":387,"MCP 服务器":2,"开源模型":4,"自由职业":1,"ChatGPT":88,"Claude":80,"Anthropic":163}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Hayden Brown":1,"Upwork":1,"智能体":388,"MCP 服务器":2,"开源模型":4,"自由职业":1,"ChatGPT":89,"Claude":81,"Anthropic":163}</script>
 
 <script>
 (function(){

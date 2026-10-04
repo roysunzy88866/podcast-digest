@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>40</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>41</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(17:40起):本集指出其因 AI 成本飙升股价下跌 10%，并讨论了它试图将多余算力租出去的算力战略，但面临核心社交媒体业务被颠覆的极大风险。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(13:38起):本集把它说成:靠天价薪酬收购人才和公司的雇佣军打法,但面临组织内部文化撕裂和顶尖年轻人才流失的问题
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(13:09起):本集提到：在发布开源模型时，首创了基于活跃用户或年收入门槛的商业许可条款，为开源模型的资金激励开了先例。
+- **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(00:00起):本集围绕扎克伯格 6500 字 AI 宣言展开:Meta 承诺继续发布开源模型,预告个人 AI 智能体、视频编辑器、WhatsApp 创业包等产品;两位主持人认为宣言实质是为建数据中心做的公关战,同时称这是『职业生涯中见过的最好的扎克伯格版本』。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(07:24起):本集把它说成：一家投了 1000 亿美元在数据中心的大型科技公司，每季度利润约三四百亿；同时也在推出成本极低的专有新模型。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:17起):本集说 Meta 经过 Andromeda 更新后「创意就是定向」，算法根据创意素材找人，有匹配率（match rate）概念，需要大量创意素材才能避免平台期
 - **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(06:23起):本集说 Meta 拥有全球规模的 A/B 测试验证机器，模型对广告匹配提升几个百分点就值回投资；Instagram 为内容支付 0 美元，但 Zuckerberg 二十年来羞于谈广告。
@@ -71,7 +72,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*40 集*
+*41 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -91,6 +92,7 @@ unlisted: true
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
@@ -118,9 +120,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[Cursor]] · [[Microsoft]] · [[Claude]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Cursor]] · [[Microsoft]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"OpenAI":149,"Google":55,"推理":68,"NVIDIA":51,"Cursor":77,"Microsoft":28,"Claude":80,"Claude Code":92}</script>
+<script type="application/json" class="pd-epn">{"智能体":388,"Anthropic":163,"OpenAI":150,"Google":55,"推理":68,"NVIDIA":51,"Claude":81,"Cursor":77,"Microsoft":28,"Claude Code":92}</script>
 
 <script>
 (function(){

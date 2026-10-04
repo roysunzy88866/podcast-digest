@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[Shopify]]
+[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[WhatsApp]] · [[OpenAI]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":43,"Atlas":3,"精益创业":2,"智能体":387,"YC":16,"Google":55,"Claude":80,"OpenAI":149,"Shopify":16}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":43,"Atlas":3,"精益创业":2,"智能体":388,"YC":16,"Google":55,"Claude":81,"WhatsApp":3,"OpenAI":150}</script>
 
 <script>
 (function(){

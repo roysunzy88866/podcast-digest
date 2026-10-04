@@ -203,7 +203,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Amazon]] · [[Meta]] · [[Lenny]] · [[Apple]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"OpenAI":149,"Anthropic":163,"ChatGPT":88,"Claude":80,"Amazon":26,"Meta":40,"Lenny":68,"Apple":20,"Microsoft":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":388,"OpenAI":150,"Anthropic":163,"ChatGPT":89,"Claude":81,"Amazon":26,"Meta":41,"Lenny":68,"Apple":20,"Microsoft":28}</script>
 
 <script>
 (function(){

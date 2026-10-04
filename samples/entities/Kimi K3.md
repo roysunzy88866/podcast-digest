@@ -29,7 +29,7 @@ unlisted: true
 
 [[蒸馏]] · [[Anthropic]] · [[OpenAI]] · [[Theo Jaffe]] · [[Sofia Puccini]] · [[智能体]] · [[Sriram Krishnan]] · [[Lon Harris]] · [[Aaron Levie]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"蒸馏":1,"Anthropic":163,"OpenAI":149,"Theo Jaffe":7,"Sofia Puccini":4,"智能体":387,"Sriram Krishnan":1,"Lon Harris":2,"Aaron Levie":2,"开源权重":9}</script>
+<script type="application/json" class="pd-epn">{"蒸馏":1,"Anthropic":163,"OpenAI":150,"Theo Jaffe":7,"Sofia Puccini":4,"智能体":388,"Sriram Krishnan":1,"Lon Harris":2,"Aaron Levie":2,"开源权重":9}</script>
 
 <script>
 (function(){

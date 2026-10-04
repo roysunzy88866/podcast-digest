@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"聚合理论":1,"OpenAI":149,"Anthropic":163,"Google":55,"Meta":40,"Microsoft":28,"TSMC":7,"NVIDIA":51,"Amazon":26}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"聚合理论":1,"OpenAI":150,"Anthropic":163,"Google":55,"Meta":41,"Microsoft":28,"TSMC":7,"NVIDIA":51,"Amazon":26}</script>
 
 <script>
 (function(){

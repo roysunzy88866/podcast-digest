@@ -49,7 +49,7 @@ unlisted: true
 
 [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Tesla]] · [[推理]] · [[工业 AI]] · [[苦涩的教训]] · [[NVIDIA]] · [[护栏]] · [[世界模型]]
 
-<script type="application/json" class="pd-epn">{"Waymo":17,"智能体":387,"ChatGPT":88,"Tesla":11,"推理":68,"工业 AI":3,"苦涩的教训":10,"NVIDIA":51,"护栏":71,"世界模型":11}</script>
+<script type="application/json" class="pd-epn">{"Waymo":17,"智能体":388,"ChatGPT":89,"Tesla":11,"推理":68,"工业 AI":3,"苦涩的教训":10,"NVIDIA":51,"护栏":71,"世界模型":11}</script>
 
 <script>
 (function(){

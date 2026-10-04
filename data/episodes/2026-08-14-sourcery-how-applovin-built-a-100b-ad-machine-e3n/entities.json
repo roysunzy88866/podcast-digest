@@ -1,0 +1,1345 @@
+{
+  "episode_id": "2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n",
+  "podcast": "Sourcery",
+  "date": "2026-08-14",
+  "tags": [
+    "广告技术",
+    "推荐系统",
+    "AI 与工程文化",
+    "公司翻盘",
+    "组织管理"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "adam",
+      "type": "person",
+      "role": "host",
+      "name": "Adam",
+      "file": "Adam",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.875,
+            54.577
+          ],
+          "quote": "Adam and Gio, welcome to Sorcery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            67.411,
+            68.693
+          ],
+          "quote": "Adam, you're the CEO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            135.81,
+            143.422
+          ],
+          "quote": "Both Adam and CTO Basil at that time, they were deeply involved into the day-to-day decisions and executions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            634.92,
+            646.663
+          ],
+          "quote": "Actually, when I joined Abloving, that was a change for me as well because the moment I saw how Adam and Basil worked, it just gave me a new definition of what does it mean to be hands-on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            659.586,
+            662.347
+          ],
+          "quote": "And Basil and Adam were trying to convince me to join first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1049.338,
+            1051.4
+          ],
+          "quote": "So Adam, can you translate what he just said?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2886.373,
+            2894.618
+          ],
+          "quote": "I've listened to many of, Adam, your interviews where you're talking about you build for the next, you know, three, four or five years along ahead of you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 978,
+          "t": [
+            4803.217,
+            4803.777
+          ],
+          "quote": "For you, Adam,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            4909.431,
+            4914.635
+          ],
+          "quote": "So whenever people around me, you know, my leaders, Adam, has some expectations on me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            4942.943,
+            4945.266
+          ],
+          "quote": "Like, I don't know if Adam feels the same thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            5088.615,
+            5098.377
+          ],
+          "quote": "I know I said I already asked a difficult question, and I almost left out without asking this one, but Adam, okay, you built out a gaming advertising company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            5158.553,
+            5166.003
+          ],
+          "quote": "Well, Gio, Adam, this was such an interesting and different and thoughtful conversation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gio",
+      "type": "person",
+      "role": "cohost",
+      "name": "Gio",
+      "file": "Gio",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.875,
+            54.577
+          ],
+          "quote": "Adam and Gio, welcome to Sorcery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            64.128,
+            66.811
+          ],
+          "quote": "So, Gio, you're the CTO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            103.816,
+            105.616
+          ],
+          "quote": "And Gio, you were that person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            218.346,
+            231.99
+          ],
+          "quote": "So going back to Gio's hiring and the interview process, because the old CTO and myself both interviewed him, we were at that point somewhere around a five and a half billion dollar company when we started talking to Gio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            267.173,
+            269.395
+          ],
+          "quote": "And I'm like, damn, we might not get Gio in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            505.228,
+            514.098
+          ],
+          "quote": "The other, I think, interesting thing for Gio when he joined was he came in and we created the Slack Room when it was Basel, Gio, and myself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            566.785,
+            573.027
+          ],
+          "quote": "I think it was different for Gio to see because he was used to much bigger processes around what engineers could and couldn't do with companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1354.748,
+            1370.611
+          ],
+          "quote": "Yeah, I mean, I think when Gio built an architect at Axon 2, he knew that this was going to function for any vertical, but we always got the pushback from anyone who's covering the business, whether analysts, investors, someone scrutinizing the business of, well, you only have gaming data, so how could it work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3290.809,
+            3295.093
+          ],
+          "quote": "I'm curious, Gio, what are the tools they use today and how have they changed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3875.327,
+            3886.785
+          ],
+          "quote": "And so I think it's Gio my job as partners in the business to go, what are those other things that we're also going to do on top of just executing on our core for the next five tenors?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 880,
+          "t": [
+            4397.188,
+            4403.031
+          ],
+          "quote": "We couldn't do, as Gio said a couple of minutes ago, what we're doing today with the team that we have if we were not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            5158.553,
+            5166.003
+          ],
+          "quote": "Well, Gio, Adam, this was such an interesting and different and thoughtful conversation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "applovin",
+      "type": "company",
+      "role": "company",
+      "name": "AppLovin",
+      "file": "AppLovin",
+      "primary": true,
+      "how_described": "本集的舞台公司:上市后 18 个月股价跌 92%,靠约 100 人的工程团队重建 Axon 2 广告引擎,三年后成为 1000 亿美元、年化 EBITDA 超 70 亿美元的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.419,
+            59.603
+          ],
+          "quote": "Well, thank you for having me at AppLovin's HQ.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            86.651,
+            94.293
+          ],
+          "quote": "The guts and the machine, the engine of what started to propel AppLovin to become one of the most efficient, well-performing companies out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            109.357,
+            111.998
+          ],
+          "quote": "What was it like when you first joined AppLovin?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            838.353,
+            848.334
+          ],
+          "quote": "And then in terms of re-architecting the actual algorithm and building out this algorithm, because it was a huge, major inflection point for AppLovin, what was that like for you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            5111.06,
+            5113.461
+          ],
+          "quote": "What comes after AppLovin for you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            5166.023,
+            5172.172
+          ],
+          "quote": "Thank you so much for giving a deep dive inside the engineering side of AppLovin and the growth that you guys have achieved.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "axon-2",
+      "type": "concept",
+      "role": "concept",
+      "name": "Axon 2",
+      "file": "Axon 2",
+      "primary": true,
+      "how_described": "本集说它是 Gio 架构、让公司翻盘的新一代广告模型:用语义嵌入 + 深度神经网络替代老的树模型,预测更准、GPU 推理更便宜,后来还被证明足够通用,支撑了走出游戏、进入电商的扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            240.793,
+            250.32
+          ],
+          "quote": "And so we were looking for a researcher to come in and help us architect the Axon 2 model, which we released, I don't know, probably five, six months after Geo joined, and he was the architect behind it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            607.372,
+            610.877
+          ],
+          "quote": "What was the process like for architecting Axon 2?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            612.43,
+            619.413
+          ],
+          "quote": "So, when Axon 2 was being architected, the team at that time was very different to today, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            849.16,
+            853.661
+          ],
+          "quote": "So let me go a little bit deep about what Axon 2.0 actually is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            923.48,
+            930.483
+          ],
+          "quote": "The Axon 2 user approach that use this concept nowadays people are very familiar with this thanks to the language model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1354.748,
+            1370.611
+          ],
+          "quote": "Yeah, I mean, I think when Gio built an architect at Axon 2, he knew that this was going to function for any vertical, but we always got the pushback from anyone who's covering the business, whether analysts, investors, someone scrutinizing the business of, well, you only have gaming data, so how could it work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3949.336,
+            3955.162
+          ],
+          "quote": "That dream seemed very, very far away, but post-Axon 2, we recovered and now our $100 billion company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "recommendation-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "推荐系统 (recommendation system)",
+      "file": "推荐系统",
+      "primary": true,
+      "how_described": "本集说推荐系统的本质是在海量「用户 × 物品」组合里学习关系,并以此解释了为什么老一代树模型(几十万个 if-else 分支)无法建模随时间、天气、节假日动态变化的关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            855.682,
+            863.725
+          ],
+          "quote": "The problem that a recommendation system is trying to solve is actually you have many, many, many users and you have many, many items.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            869.026,
+            873.628
+          ],
+          "quote": "And the recommendation system has to study the relationship of each combination.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 951,
+          "t": [
+            4673.224,
+            4677.825
+          ],
+          "quote": "I knew how a recommendation system looks like in many big companies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semantic-embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义嵌入 (semantic embedding)",
+      "file": "语义嵌入",
+      "primary": true,
+      "how_described": "本集说 Axon 2 用可学习的嵌入表把本来无含义的用户 ID、物品 ID 编码成携带统计信息的语义向量,再传入深度神经网络学习复杂交互。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            931.384,
+            933.645
+          ],
+          "quote": "It's called the semantic embedding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deep-neural-network",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度神经网络 (deep neural network)",
+      "file": "深度神经网络",
+      "primary": true,
+      "how_described": "本集说 Axon 2 把嵌入向量传入深度神经网络以学习用户和物品之间的复杂交互,既识别模式也能外推到没见过的用户-物品对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            954.058,
+            963.885
+          ],
+          "quote": "And then we pass those information through deep neural network that allows us to study the complicated interactions between user and items.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说神经网络由大量标准矩阵乘法(GEMM)构成,正是 GPU 高度优化的操作,因此新模型推理更便宜;而老的选择树在 GPU 上几乎没法优化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1010.947,
+            1013.168
+          ],
+          "quote": "Which is famous, the GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1013.729,
+            1017.051
+          ],
+          "quote": "GPU is highly optimized for this kind of operation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1017.731,
+            1026.376
+          ],
+          "quote": "But the selection tree, the old generation select trees has the structure that is very hard to optimize on a GPU machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1026.857,
+            1031.98
+          ],
+          "quote": "So the new generation model is very, very powerful and efficient with a modern GPU architecture.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集主线之一:Gio 说「我不想让工程师坐在 AI 旁边,我想让他们坐在 AI 之上」——AI 负责写代码、补全整个 PR,人专注长周期规划;但也警告 99% 的人只把 AI 当搜索引擎,坏决策会抵消 AI 的赋能,且人类要对 AI 做出的每个决策负责。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.957,
+            25.298
+          ],
+          "quote": "I don't want our engineers to sit next to AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            25.498,
+            27.838
+          ],
+          "quote": "I want our engineers to sit on top of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            27.998,
+            34.86
+          ],
+          "quote": "Our team was elevated by AI, so we were able to manage the same size of the team while we're solving more challenging problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1662.736,
+            1669.781
+          ],
+          "quote": "AI agents that handle expenses automatically, enforce policy before spend happens, and close your books in minutes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1688.988,
+            1695.013
+          ],
+          "quote": "Turing is training the next generation of AI with tasks that require real expertise and real-world judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1950.542,
+            1965.693
+          ],
+          "quote": "So if we went to a really high IQ graduate out of one of the top universities and said, you're gonna build ads, it's probably not easy to go get them excited about this opportunity versus all the other opportunities they have in front of them, especially in the field of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2041.988,
+            2044.489
+          ],
+          "quote": "And now in the world of AI, it's even more powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2044.509,
+            2052.312
+          ],
+          "quote": "If someone can come in and say, look, there's no training manual, but I'm going to sort of build my own training manual and prompt AI and start asking the questions they need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2077.909,
+            2085.431
+          ],
+          "quote": "You've been really hardcore on making sure that your team is AI active or AI enabled and AI first, whatever you want to call it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2094.154,
+            2100.776
+          ],
+          "quote": "So for people, of course, I think, you know, the AI works differently in the business team, comparing to the engineering team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2104.297,
+            2113.505
+          ],
+          "quote": "So AI has been evolving very rapidly in the last few years, but there's still a boundary of what AI is good at and what AI is not yet good at.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2113.665,
+            2118.369
+          ],
+          "quote": "For example, even today, AI is extremely good at answering questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2127.771,
+            2131.052
+          ],
+          "quote": "But still AI is not good at doing long horizon planning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2138.333,
+            2140.854
+          ],
+          "quote": "Maybe one day AI will be better at that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2141.174,
+            2148.175
+          ],
+          "quote": "So the way I see the relationship between AI and our employee, our engineer is I don't want our engineer to sit next to AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2148.675,
+            2151.337
+          ],
+          "quote": "I want our engineers to sit on top of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2151.858,
+            2158.283
+          ],
+          "quote": "So as AI is improving, there's a boundary between AI and a human is also moving, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2158.383,
+            2162.927
+          ],
+          "quote": "Previously, AI was only useful for correcting the syntax errors when they are coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2163.687,
+            2170.933
+          ],
+          "quote": "And then AI became better, AI can complete the whole phrase, the whole paragraph for your coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2170.973,
+            2175.978
+          ],
+          "quote": "And nowadays, AI, you can just give him an idea, AI can write an entire PR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2176.598,
+            2181.341
+          ],
+          "quote": "But as AI is improving, humans just sits on top of it and focus on what AI is not good at.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2190.608,
+            2197.353
+          ],
+          "quote": "And as AI is advancing, I believe the output efficiency of our engineers will just keep growing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2221.697,
+            2227.463
+          ],
+          "quote": "At this moment, I think AI still may very often still make bad decisions or coding decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2272.969,
+            2274.77
+          ],
+          "quote": "You can use AI however you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2275.211,
+            2282.557
+          ],
+          "quote": "But at the end of the day, you as a human is held accountable for every decision that your AI made for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2283.318,
+            2292.904
+          ],
+          "quote": "So it is absolutely not acceptable when I come to an engineer and say, hey, why you implement this system this way if the engineers tell me, oh, I don't know, AI did this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2295.946,
+            2302.87
+          ],
+          "quote": "I think the other thing, I mean, AI allows everyone to write code, obviously, and it commoditizes a lot of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2307.262,
+            2312.027
+          ],
+          "quote": "And your smart engineers can't just go to AI and just say, like, give it to me out of the box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2317.234,
+            2320.098
+          ],
+          "quote": "Like if the AI starts writing all the ad creative,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2325.421,
+            2331.825
+          ],
+          "quote": "Well, you have to have really smart people that understand systems, understand what they're asking from the AI to output for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2332.286,
+            2345.414
+          ],
+          "quote": "And they need to create variants on that and not just the simple prompt to get an output that anyone could deliver, but something that understands the product, runs their own product management, has to direct the AI a specific way to create that alpha.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2490.303,
+            2501.591
+          ],
+          "quote": "The advertisers that invest in creative and are good at it, whether they're using AI tools to develop them or they're using people to develop them, can create lifts in an advertising system where everything else is automated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2678.086,
+            2681.009
+          ],
+          "quote": "How has AI changed the making of ads?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2737.566,
+            2743.888
+          ],
+          "quote": "From our product, we saw a lot of AI-assisted content on the platform by advertisers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2764.148,
+            2769.05
+          ],
+          "quote": "But, so there are two different types in terms of the AI generated as content.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2789.258,
+            2798.568
+          ],
+          "quote": "The other choice is you just create a tool that allows advertisers to interact with, to allow them to collaborate with the AI tool to create their own content.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2882.63,
+            2886.232
+          ],
+          "quote": "So a lot of people are trying to rebuild right now for the AI era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2915.354,
+            2919.717
+          ],
+          "quote": "AI is powerful, but I don't think that's a reason for us to rebuild.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2920.998,
+            2925.802
+          ],
+          "quote": "What AI really helps us to do is to build on top of what we have today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2926.902,
+            2931.866
+          ],
+          "quote": "With the empowerment of AI, we were able to achieve much more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2965.9,
+            2975.207
+          ],
+          "quote": "But luckily, you know, I feel our growth just was perfectly in sync with the advancement of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2975.947,
+            2987.695
+          ],
+          "quote": "So as the problem we are solving becomes more complicated and our team was elevated by AI, so we were able to manage the same size of the team while we're solving more challenging problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2994.039,
+            3001.343
+          ],
+          "quote": "Now with the assistance of AI, the team was able to tackle and work on a new generation model that would be even more powerful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3030.058,
+            3040.691
+          ],
+          "quote": "And they actually understood how to use AI or they go to, we have central folks and a team that actually can create tools, dashboards and automation for them, can go take that process and then automate it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3049.319,
+            3058.144
+          ],
+          "quote": "You're not going to be able to replace sitting down with the customer at a QBR and understanding their business because our AI as an enterprise can understand our business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3067.692,
+            3072.438
+          ],
+          "quote": "And so there's a lot of the interpersonal relationship skills there that the AI can't replace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3107.025,
+            3115.949
+          ],
+          "quote": "The AI is helping us to improve the productivity of every engineer, every business person tremendously.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3116.749,
+            3126.373
+          ],
+          "quote": "But it's also kind of interesting to see that not every company, not every organization has been able to multiply their output as a result of the AI empowerment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3127.4,
+            3134.508
+          ],
+          "quote": "I think a big, big mistake that people are making is that because of the AI, building things become easier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3134.968,
+            3143.778
+          ],
+          "quote": "People are making a lot of bad decisions, bad tastes, wasteful ideas that actually offset the empowerment of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3154.495,
+            3158.756
+          ],
+          "quote": "And this is also why I don't think we just have to rebuild everything simply because of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3163.117,
+            3168.459
+          ],
+          "quote": "AI really helps us to solve the problem, but actually doesn't change the problem we have to solve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3169.5,
+            3175.167
+          ],
+          "quote": "I think the fact is probably 99% of people that use AI today just use it as a search engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3189.703,
+            3193.887
+          ],
+          "quote": "And you've got AI native companies, they were started in this era, okay, that's easy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3201.134,
+            3204.358
+          ],
+          "quote": "So most of our people should technically be AI native and figure it out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3208.301,
+            3216.986
+          ],
+          "quote": "And then you've got other companies that are not really using it appropriately today because their people aren't AI native and they're not built as an AI native company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3223.87,
+            3227.592
+          ],
+          "quote": "And so how do you turn those organizations into AI native?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3349.279,
+            3358.444
+          ],
+          "quote": "Some of you may not have heard this yet, but our sponsor Public just launched something called Generated Assets, and it brings AI into investing in a way I've honestly never seen before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3359.464,
+            3362.666
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3369.033,
+            3376.521
+          ],
+          "quote": "Publix AI then dispatches a swarm of agents that scan every single US stock, evaluates them, and instantly builds a custom index around your thesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4317.659,
+            4328.183
+          ],
+          "quote": "Are there any certain parts about what's accelerating in AI or at least turbulence in the market or anything macro that is concerning you or keeping you up at night?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4403.991,
+            4406.773
+          ],
+          "quote": "Now in partnership with AI, enabled by AI to go faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4463.609,
+            4465.79
+          ],
+          "quote": "AI is advancing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4472.572,
+            4478.114
+          ],
+          "quote": "Our structure allows us to benefit from the improvement of AI much more than our competitors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 908,
+          "t": [
+            4479.175,
+            4485.317
+          ],
+          "quote": "So overall, if AI is just improving the current speed, I feel it's a positive thing for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4555.687,
+            4560.81
+          ],
+          "quote": "I think just in this era, you know, AI allows everyone to build almost everything you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 940,
+          "t": [
+            4642.969,
+            4644.49
+          ],
+          "quote": "People say, oh, that's AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4644.53,
+            4646.872
+          ],
+          "quote": "Let's do some AI in the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4647.052,
+            4651.715
+          ],
+          "quote": "Let's see how AI can help our business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 943,
+          "t": [
+            4652.135,
+            4655.477
+          ],
+          "quote": "And then they will start hiring a big team working on AI without asking how.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 944,
+          "t": [
+            4655.937,
+            4658.139
+          ],
+          "quote": "As AI, how do you apply AI in your product?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 947,
+          "t": [
+            4662.161,
+            4662.861
+          ],
+          "quote": "This applies to AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 955,
+          "t": [
+            4698.362,
+            4706.345
+          ],
+          "quote": "My hot take, I guess, going back to marketing, is there's a lot of animosity towards AI in the world right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 956,
+          "t": [
+            4706.365,
+            4710.006
+          ],
+          "quote": "And people, again, on the Twitterverse talk about AI is just so amazing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 958,
+          "t": [
+            4719.059,
+            4721.22
+          ],
+          "quote": "Why would you be a proponent of AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            4777.196,
+            4788.919
+          ],
+          "quote": "And to tie back to the AI narrative, until people start understanding what the average person can have as positive use cases that are incremental to search, they're not going to be proponents of AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集把成功归结为品味:伟大公司与否的差异不在构建能力,而在「知道该构建什么、不该构建什么」;Gio 说 Axon 的成功很大程度归因于决定不做什么——小公司照搬巨头的全套动作必输,要过滤噪音、押注那 1% 最重要的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 651,
+          "t": [
+            3284.203,
+            3284.783
+          ],
+          "quote": "It's the taste.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3285.484,
+            3287.846
+          ],
+          "quote": "It's a taste to know what to build and what not to build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4561.511,
+            4564.693
+          ],
+          "quote": "Taste is a very important thing and I think has been underestimated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            4578.648,
+            4580.149
+          ],
+          "quote": "It's also engineering taste.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "first-principle",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principle)",
+      "file": "第一性原理",
+      "primary": false,
+      "how_described": "本集 Gio 说灵感的来源是第一性原理:别只问「是什么」,要问「怎么做」和「为什么」——你的产品真的需要它吗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 937,
+          "t": [
+            4631.394,
+            4631.994
+          ],
+          "quote": "First principle.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集顺带提到:Gio 加入时正值 ChatGPT 3.0 刚发布但还不足以替人写代码;如今他文本任务改用 ChatGPT,因为它经常挑战他、提供好视角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            690.76,
+            693.361
+          ],
+          "quote": "It was the moment that ChatGPT 3.0 just came out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3307.042,
+            3311.666
+          ],
+          "quote": "But for text tasks, I like to use ChatGPT these days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3312.266,
+            3315.528
+          ],
+          "quote": "I used to be a Gemini person, but recently I switched to ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3426.08,
+            3434.708
+          ],
+          "quote": "Yeah, I was on a big ChatGPT for tech space because for all these episodes, I'll take the transcript, I'll be like, okay, give me a summary.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "inference",
+      "reason": "专名「inference」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

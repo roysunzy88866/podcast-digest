@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>444</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>452</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]]**(18:10起):本集称 AI 是终极的共识错觉，客户说'加点 AI'跟说'用电脑做点什么'一样空泛，必须被塑造成具体的好东西
 - **[[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|《Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法》]]**(15:38起):本集说 AI 大幅降低了软件开发成本,让小团队拥有过去负担不起的定制工程工具、让每个使用者都能成为工具构建者;但物理世界 AI 仍缺位,CNC 编程依旧极其手动。
 - **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(04:49起):本集说 AI 在回答问题时需要做新事情所以不能限制它，Omni 接入 Claude 的 AI 功能后，团队在同一周就停止了使用 UI
+- **[[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n|《AppLovin 双人谈：百人工程团队如何撑起千亿公司》]]**(00:22起):本集主线之一:Gio 说「我不想让工程师坐在 AI 旁边,我想让他们坐在 AI 之上」——AI 负责写代码、补全整个 PR,人专注长周期规划;但也警告 99% 的人只把 AI 当搜索引擎,坏决策会抵消 AI 的赋能,且人类要对 AI 做出的每个决策负责。
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(30:07起):本集提到两方面的 AI 应用：一是内部用 AI 检查平台上每个人的年龄、开源语音安全过滤器；二是让「你制作游戏」的口号通过 AI 变得比以往任何时候都更真实——通过说话就能做出游戏。
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(01:15起):本集说 AI 有一种有趣的二分法——它非常民主化，将能力分配到世界任何地方，但同时又把发展最快的震中集中到了湾区，这加速了无国界创始人战略的演变
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(07:51起):本集说 AI 对金融科技的真实冲击不在承销而在获客——当用户直接问 Claude 或 GPT 去哪借钱时，AI 可能只给一个答案，赢家通吃，Credit Karma、Lending Tree 等线索聚合网站的长尾流量会被挤压。
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*444 条*
+*452 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -400,6 +401,14 @@ unlisted: true
 
 ![[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp#^q6]]
 
+![[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr#^q2]]
+
+![[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr#^q3]]
+
+![[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr#^q5]]
+
+![[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr#^q7]]
+
 ![[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir#^q2]]
 
 ![[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code#^q3]]
@@ -417,6 +426,14 @@ unlisted: true
 ![[2026-08-13-talks-when-to-build-your-own-agent-harness-har#^q5]]
 
 ![[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay#^q7]]
+
+![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q2]]
+
+![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q8]]
+
+![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q9]]
+
+![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q10]]
 
 ![[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#^q3]]
 
@@ -932,7 +949,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -943,6 +960,7 @@ unlisted: true
 - [[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]] — 作为概念
 - [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|《Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法》]] — 作为概念
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为概念
+- [[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n|《AppLovin 双人谈：百人工程团队如何撑起千亿公司》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为概念(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为概念(提及)
@@ -965,9 +983,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude]] · [[智能体]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[OpenAI]] · [[ChatGPT]] · [[Amazon]] · [[Databricks]] · [[a16z]]
+[[Claude]] · [[智能体]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[OpenAI]] · [[品味]] · [[a16z]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Claude":80,"智能体":387,"Lenny":68,"Google":55,"Stripe":43,"OpenAI":149,"ChatGPT":88,"Amazon":26,"Databricks":20,"a16z":18}</script>
+<script type="application/json" class="pd-epn">{"Claude":81,"智能体":388,"Lenny":68,"Google":55,"Stripe":43,"ChatGPT":89,"OpenAI":150,"品味":15,"a16z":18,"Amazon":26}</script>
 
 <script>
 (function(){

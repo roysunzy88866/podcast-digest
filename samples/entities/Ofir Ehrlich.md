@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":387,"数据基础":2,"ETL":2,"token":30,"后训练":1,"PLG":12,"Google":55,"AWS":18}</script>
+<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":388,"数据基础":2,"ETL":2,"token":30,"后训练":1,"PLG":12,"Google":55,"AWS":18}</script>
 
 <script>
 (function(){

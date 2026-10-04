@@ -142,9 +142,9 @@ jsonLd: |
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？]]<span class="pd-rz">同公司:Meta · 同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

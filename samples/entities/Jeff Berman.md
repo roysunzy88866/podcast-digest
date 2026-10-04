@@ -31,7 +31,7 @@ unlisted: true
 
 [[Tom Freston]] · [[Andrew Anagnost]] · [[Jennifer Ferro]] · [[MTV]] · [[Autodesk]] · [[Jamie Batmer]] · [[Viacom]] · [[AI]] · [[KCRW]] · [[The Facebook]]
 
-<script type="application/json" class="pd-epn">{"Tom Freston":1,"Andrew Anagnost":1,"Jennifer Ferro":1,"MTV":1,"Autodesk":1,"Jamie Batmer":1,"Viacom":1,"AI":26,"KCRW":1,"The Facebook":1}</script>
+<script type="application/json" class="pd-epn">{"Tom Freston":1,"Andrew Anagnost":1,"Jennifer Ferro":1,"MTV":1,"Autodesk":1,"Jamie Batmer":1,"Viacom":1,"AI":27,"KCRW":1,"The Facebook":1}</script>
 
 <script>
 (function(){

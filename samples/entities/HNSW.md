@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Oracle]] · [[Dylan Couzon]] · [[Ignacio Martinez]] · [[Quadrants]] · [[智能体控制框架]] · [[记忆]] · [[智能体记忆]] · [[向量搜索]] · [[上下文窗口]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Oracle":9,"Dylan Couzon":1,"Ignacio Martinez":1,"Quadrants":1,"智能体控制框架":2,"记忆":20,"智能体记忆":1,"向量搜索":5,"上下文窗口":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":388,"Oracle":9,"Dylan Couzon":1,"Ignacio Martinez":1,"Quadrants":1,"智能体控制框架":2,"记忆":20,"智能体记忆":1,"向量搜索":5,"上下文窗口":12}</script>
 
 <script>
 (function(){

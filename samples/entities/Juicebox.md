@@ -25,7 +25,7 @@ unlisted: true
 
 [[Diana]] · [[Jared]] · [[YC]] · [[硬科技]] · [[智能体]] · [[机器人]] · [[SaaS]] · [[国防科技]] · [[RL 环境]] · [[单人创始人]]
 
-<script type="application/json" class="pd-epn">{"Diana":1,"Jared":1,"YC":16,"硬科技":1,"智能体":387,"机器人":11,"SaaS":21,"国防科技":1,"RL 环境":7,"单人创始人":1}</script>
+<script type="application/json" class="pd-epn">{"Diana":1,"Jared":1,"YC":16,"硬科技":1,"智能体":388,"机器人":11,"SaaS":21,"国防科技":1,"RL 环境":7,"单人创始人":1}</script>
 
 <script>
 (function(){

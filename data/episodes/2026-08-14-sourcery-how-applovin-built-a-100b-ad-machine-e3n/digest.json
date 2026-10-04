@@ -1,0 +1,220 @@
+{
+  "title_zh": "AppLovin 双人谈：百人工程团队如何撑起千亿公司",
+  "tldr": "AppLovin CEO Adam 与 CTO Gio 讲解 Axon 2 模型重建、零产品管理的精简工程文化，以及工程师要「坐在 AI 之上」的团队法则。",
+  "digest_md": "一家上市后 18 个月内股价跌掉 92% 的公司，三年后成了一家 1000 亿美元的公司——靠的是同一个约 100 人的工程团队。这一集的对话发生在 AppLovin 的帕罗奥图总部，主角是 CEO Adam 和 CTO Gio:Gio 在 2022 年 11 月加入时是公司的转折点，他主导架构了让公司翻盘的 Axon 2 广告模型 [01:46 Adam]。Adam 说，面试时两人都大力游说他加入，结果入职前几天的财报电话会上股价一天跌了 30%,「我心想，糟了，我们可能招不到 Gio 了」——而 Gio 的反应是「跌了 30%,所以我拿到更多股权，应该更快加入」[04:24 Adam]。\n\n## 先修基础设施，再重建引擎\n\nGio 从大厂过来，第一印象是团队精简、没有层层流程——他和当时的 CTO Basil 想约每周一对一，对方根本不知道那是什么，很快会议也取消了，「因为我们主要用代码来沟通」[05:42 Gio]。他加入的第一周就直接写代码，搭建 Axon 2 的训练基础设施；那一周干完，他决定不取消圣诞去欧洲的假期，而是整个假期都在写代码——包括在飞意大利的 12 小时无网航班上，只能深挖所用库的源代码来查资料 [11:19 Gio]。等假期结束，基础设施已经就绪，回来当天就开始训练第一代模型。\n\n那台旧引擎是什么？推荐系统的本质是在海量「用户 × 物品」组合里学习关系。上一代 Axon One 用的是基于树的模型——相当于几十万个 if-else 分支，把组合聚类到分支末端；但真实世界的关系随时间、天气、促销、节假日动态变化，树模型没法准确建模 [15:12 Gio]。Axon 2 换成了语义嵌入(把本来无含义的用户 ID、物品 ID 编码成携带统计信息的向量)，再过深度神经网络学习复杂交互，既能识别模式，也能外推到没见过的用户-物品对 [16:04 Gio]。副产品是推理更便宜：神经网络由大量标准矩阵乘法(GEMM)构成，正是 GPU 高度优化的操作；老的选择树在 GPU 上几乎没法优化 [17:06 Gio]。预测更准 → 广告主回报更好 → 业务增长，这就是整台增长飞轮 [16:28 Gio]。\n\n## 一张餐巾纸开出电商业务\n\nAxon 2 规模化约一年后，团队判断模型架构足够通用，可以走出游戏。质疑者说「你们只有游戏数据」，Adam 的反驳是：那是十亿个真实的人，不是十亿个只玩游戏的人；理解了人，就能在游戏之外交付价值 [22:58 Adam]。他们还照 Facebook 的路数给网站装像素代码拿数据，发现重度休闲游戏玩家很多是 30-50 岁的家庭户主 [23:44 Adam]。\n\n验证方式不是论证，是原型：几个月内和少量测试广告主上线第一个电商模型，数据有限、模型很不成熟，但已经能看到购买、ROI(投入产出比)像样，「我们就想，好吧，这会成功的」[26:14 Gio]。而那个数据流引擎的设计，是 CTO Basil 等人在拉斯维加斯一个 Google 大会的早餐桌上，没有纸、画在餐巾纸上定下来的，等餐上桌时设计已完成，一行李还没回旧金山，原型就写出来了 [25:42 Gio]。Adam 点出背后的文化：这家公司几乎不做产品管理，产品经理「可能不到一小撮」，其余全是工程师——自己理解业务问题、自己写架构、自己写产品 [26:19 Adam]。商务团队负责与广告主沟通，但工程师靠清晰的收入/ROAS(广告支出回报)指标就知道做得好不好，「和广告主之间就没太多可争论的」[29:31 Adam]。\n\n## 工程师要「坐在 AI 之上」\n\n用人上，Gio 最反感的错误有两个：给新人只派细碎任务、不给他们业务全景；以及反过来，对做得好的初级骨干只给鼓励、不给持续挑战，「然后他们的自我会膨胀，失去谦逊，停止质疑自己」[31:51 Gio]。Adam 那边的做法是：新人在入职第一周就能推送代码上线——「那一刻是一种相当强烈的多巴胺刺激」，真实反馈循环比任何培训手册都管用 [33:28 Adam]。\n\nGio 对 AI 与工程师关系的表述是全集最广为流传的一句：「我不想让我们的工程师坐在 AI 旁边，我想让我们的工程师坐在 AI 之上」——AI 负责它擅长的(回答问题、写代码、补全整个 PR),人专注于 AI 不擅长的长周期规划，边界随 AI 进步不断移动 [35:48 Gio]。但核心系统的规矩极硬：「你作为人类，要对你的 AI 为你做出的每一个决策承担责任」——问工程师为什么这么实现，答「AI 做的」是不可接受的 [37:55 Gio]。\n\n## 为什么他们不重构\n\n对「AI 时代是不是该推倒重来」，Gio 的答案是否定的：「我不认为我们需要重建什么，但我们确实是在今天已有的东西之上进行构建」[50:03 Gio]。他给出一个刺耳的观察：今天用 AI 的人里，大概 99% 只是把它当搜索引擎 [52:49 Gio];而很多组织的问题在于，构建变快了，但「人们做出了很多糟糕的决策、糟糕的品味、浪费的想法，这些实际上抵消了 AI 带来的赋能」[52:14 Gio]。Adam 补了组织层面的残酷现实：非 AI 原生的公司想转型「真的、真的很难」，你既不能乱裁人，也不能发笔预算让大家「去把 token 用到上限」，否则就是业务人员和工程师各自造重复的仪表盘、给 Anthropic 和 OpenAI 付双份钱；真要彻底转型，几乎得换掉所有人重建文化，「但这对大多数公司来说并不现实」[53:49 Adam]。\n\n## 跌 92% 之后：不做投资者关系，做自己最好的投资者\n\n回看谷底，Adam 的打法很反直觉。股价跌 90% 时，股权激励占总成本的比例会飙升——别人每年发 2-3% 股权，你难道要发 30% 稀释？他们始终按固定美元额度给报酬、保持团队精简，所以成本始终可控 [66:59 Adam]。谷底时他们一年多完全不做投资者关系，「股价便宜得像土一样，但没人会买便宜得像土一样的东西，他们想看到的是愿景」——于是干脆把赚到的每一美元都拿去回购，「我们要成为自己最好的投资者」[68:06 Adam]。能这么做的前提是对正在构建的东西有信念。\n\n至于万亿美元：Adam 算了笔账，公司目前 EBITDA(息税折旧摊销前利润)年化运行率超过 70 亿美元，每一美元 EBITDA 转出约 75% 的现金；要到一万亿美元市值，得相信能做到每年 300 亿美元以上的现金流 [62:47 Adam]。移动游戏品类不够大，电商是第一步，下一步看的是「漏斗顶部」的发现型场景——联网电视、开放网络视频，而非聊天机器人里的搜索式广告(他判断聊天机器人广告会像搜索广告，而那是漏斗底部生意，不是他们的主场)[60:07 Adam]。\n\n## 品味：成功归因于「不做什么」\n\nGio 最锋利的总结：「我会把 Axon 的成功很大程度上归因于我们决定不做什么，而不是我们实际做了什么」[76:20 Gio]。小公司挑战巨头，最常见的死法是照搬巨头在做的一切；你团队更小、资源更少，做一样的事必输。所以要过滤噪音，找到那 1% 最重要的事，把团队的全部火力押上去 [77:04 Gio]。很多人问怎么获得灵感，他的答案是第一性原理：别只问「是什么」(「我们在公司里搞点 AI 吧」)，要问「怎么做」和「为什么」——你的产品真的需要它吗？[77:19 Gio]\n\n## 本集带走\n\n- **换问法重建模型**：老一代广告模型靠几十万个 if-else 分支聚类，无法建模动态变化；换成语义嵌入 + 深度神经网络，预测更准、GPU 推理还更便宜——预测精度直接兑现为广告主回报和业务增长。\n- **用原型代替争论**：架构是否通用到能出游戏圈？不辩论，几个月内搭原型、找少量广告主上线，ROI 不错就全力投入。\n- **砍掉产品管理层**：让工程师直接理解业务全景、自己决定做什么，而不是「产品写规格 → 工程师照规格写代码」；新人第一周上线代码，靠真实反馈快速成长。\n- **「坐在 AI 之上」+ 人类问责**：AI 的边界持续移动，人专注长周期规划；但核心系统里，AI 替你做的每个决策你都要能亲自解释和负责。\n- **构建变快不等于变好**：99% 的人只把 AI 当搜索引擎；坏决策和坏品味会抵消 AI 的全部增益，先想清楚要解决什么问题。\n- **谷底靠现金流和信念**：不做 IR、按固定美元控制股权稀释、拿现金回购自己的股票——「做自己最好的投资者」。\n- **小团队赢巨头靠「不做什么」**：别复制巨头的全套动作，过滤噪音，把全部资源押在那 1% 最重要的事上。",
+  "quotes": [
+    {
+      "en": "We dropped 92% in the first 18 months of being public.",
+      "zh": "上市后的头 18 个月,我们跌了 92%。",
+      "timestamp": "00:09",
+      "speaker": "Adam"
+    },
+    {
+      "en": "I want our engineers to sit on top of AI.",
+      "zh": "我想让我们的工程师坐在 AI 之上。",
+      "timestamp": "00:25",
+      "speaker": "Gio"
+    },
+    {
+      "en": "Basel probably wrote, I don't know, 60% of the code of the company himself.",
+      "zh": "Basil 可能亲自写了公司大概 60% 的代码。",
+      "timestamp": "06:53",
+      "speaker": "Adam"
+    },
+    {
+      "en": "Technology moves really fast, and you've got to be humble about what you have and know that if technology goes faster than what you've developed, you've got to throw away what you have and re-architect it, rebuild it, and it's probably going to happen every couple years or even faster in the future.",
+      "zh": "技术迭代非常快，你必须对你已有的东西保持谦逊，并且要明白，如果技术跑得比你开发的还快，你就得扔掉手上的东西，重新做架构、重建，而且这种情况大概每几年就会发生一次，未来甚至更快。",
+      "timestamp": "09:38",
+      "speaker": "Adam"
+    },
+    {
+      "en": "So therefore, they want to put money in and we're delivering so much value that they're really desperate to work with us, not the other way around.",
+      "zh": "因此，他们想投钱进来，而我们交付了如此多的价值，以至于他们非常迫切地想和我们合作，而不是反过来。",
+      "timestamp": "21:25",
+      "speaker": "Adam"
+    },
+    {
+      "en": "You have engineers that didn't even talk to a business person sitting down together at breakfast on a napkin, writing out a solution to a problem that we never even discussed, and then something that could become a big business.",
+      "zh": "你看到的是工程师——甚至都没和业务人员沟通过的工程师——坐在早餐桌前，在一张餐巾纸上，为一个我们从未讨论过的问题写出一个解决方案，然后这东西可能会变成一门大生意。",
+      "timestamp": "26:46",
+      "speaker": "Adam"
+    },
+    {
+      "en": "And then sometimes their ego will grow and then they will lose their humility and stop questioning themselves.",
+      "zh": "然后有时候他们的自我会膨胀，然后他们会失去谦逊，停止质疑自己。",
+      "timestamp": "31:51",
+      "speaker": "Gio"
+    },
+    {
+      "en": "But at the end of the day, you as a human is held accountable for every decision that your AI made for you.",
+      "zh": "但归根结底，你作为人类，要对你的 AI 为你做出的每一个决策承担责任。",
+      "timestamp": "37:55",
+      "speaker": "Gio"
+    },
+    {
+      "en": "People are making a lot of bad decisions, bad tastes, wasteful ideas that actually offset the empowerment of AI.",
+      "zh": "人们做出了很多糟糕的决策、糟糕的品味、浪费的想法，这些实际上抵消了 AI 带来的赋能。",
+      "timestamp": "52:14",
+      "speaker": "Gio"
+    },
+    {
+      "en": "I think the fact is probably 99% of people that use AI today just use it as a search engine.",
+      "zh": "我想事实可能是，今天使用 AI 的人里 99% 只是把它当作一个搜索引擎。",
+      "timestamp": "52:49",
+      "speaker": "Adam"
+    },
+    {
+      "en": "You can't just cut people out and say, okay, the rest are going to figure it out because how do you know who to cut and who not to cut?",
+      "zh": "你不能直接裁掉一批人然后说，好吧，剩下的人会自己搞明白的，因为你怎么知道该裁谁、不该裁谁？",
+      "timestamp": "53:49",
+      "speaker": "Adam"
+    },
+    {
+      "en": "We dropped 92% in the first 18 months of being public.",
+      "zh": "我们在上市后的前 18 个月里跌了 92%。",
+      "timestamp": "65:45",
+      "speaker": "Adam"
+    },
+    {
+      "en": "We're going to become our best investor.",
+      "zh": "我们要成为自己最好的投资者。",
+      "timestamp": "68:06",
+      "speaker": "Adam"
+    },
+    {
+      "en": "We're trying to build something that hopefully lasts years after we're both gone.",
+      "zh": "我们在努力打造一个希望在我们两人都不在了之后还能延续多年的东西。",
+      "timestamp": "71:27",
+      "speaker": "Adam"
+    },
+    {
+      "en": "I, you know, just from personal experience, I would attribute the success of Axon, you know, largely to what we decide not to do, not actually what we did.",
+      "zh": "我，你知道，就个人经验而言，我会把 Axon 的成功很大程度上归因于我们决定不做什么，而不是我们实际做了什么。",
+      "timestamp": "76:20",
+      "speaker": "Gio"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Adam",
+      "en": "We dropped 92% in the first 18 months of being public.",
+      "zh": "上市后的头 18 个月,我们跌了 92%。"
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "Gio",
+      "en": "I want our engineers to sit on top of AI.",
+      "zh": "我想让我们的工程师坐在 AI 之上。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Adam",
+      "en": "If you can't make money, then you probably shouldn't be in business.",
+      "zh": "如果你赚不到钱，那你可能就不应该做这门生意。"
+    },
+    {
+      "timestamp": "06:53",
+      "speaker": "Adam",
+      "en": "Basel probably wrote, I don't know, 60% of the code of the company himself.",
+      "zh": "Basil 可能亲自写了公司大概 60% 的代码。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Adam",
+      "en": "Technology moves really fast, and you've got to be humble about what you have and know that if technology goes faster than what you've developed, you've got to throw away what you have and re-architect it, rebuild it, and it's probably going to happen every couple years or even faster in the future.",
+      "zh": "技术迭代非常快，你必须对你已有的东西保持谦逊，并且要明白，如果技术跑得比你开发的还快，你就得扔掉手上的东西，重新做架构、重建，而且这种情况大概每几年就会发生一次，未来甚至更快。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Gio",
+      "en": "So once we're able to make prediction more accurate, advertisers see better returns and our business grow.",
+      "zh": "所以一旦我们能够把预测做得更准确，广告主就能看到更好的回报，我们的业务就增长了。"
+    },
+    {
+      "timestamp": "21:25",
+      "speaker": "Adam",
+      "en": "So therefore, they want to put money in and we're delivering so much value that they're really desperate to work with us, not the other way around.",
+      "zh": "因此，他们想投钱进来，而我们交付了如此多的价值，以至于他们非常迫切地想和我们合作，而不是反过来。"
+    },
+    {
+      "timestamp": "26:46",
+      "speaker": "Adam",
+      "en": "You have engineers that didn't even talk to a business person sitting down together at breakfast on a napkin, writing out a solution to a problem that we never even discussed, and then something that could become a big business.",
+      "zh": "你看到的是工程师——甚至都没和业务人员沟通过的工程师——坐在早餐桌前，在一张餐巾纸上，为一个我们从未讨论过的问题写出一个解决方案，然后这东西可能会变成一门大生意。"
+    },
+    {
+      "timestamp": "31:51",
+      "speaker": "Gio",
+      "en": "And then sometimes their ego will grow and then they will lose their humility and stop questioning themselves.",
+      "zh": "然后有时候他们的自我会膨胀，然后他们会失去谦逊，停止质疑自己。"
+    },
+    {
+      "timestamp": "33:28",
+      "speaker": "Adam",
+      "en": "That moment is a pretty substantial dopamine hit.",
+      "zh": "那一刻是一种相当强烈的多巴胺刺激。"
+    },
+    {
+      "timestamp": "37:55",
+      "speaker": "Gio",
+      "en": "But at the end of the day, you as a human is held accountable for every decision that your AI made for you.",
+      "zh": "但归根结底，你作为人类，要对你的 AI 为你做出的每一个决策承担责任。"
+    },
+    {
+      "timestamp": "38:32",
+      "speaker": "Adam",
+      "en": "If that was the case, then everyone would have technology that'll look identical to each other.",
+      "zh": "如果情况是那样，那么每家公司拥有的技术看起来都会彼此一模一样。"
+    },
+    {
+      "timestamp": "50:03",
+      "speaker": "Gio",
+      "en": "I don't think we need to rebuild anything, but we are definitely building on top of what we have today.",
+      "zh": "我不认为我们需要重建什么，但我们确实是在今天已有的东西之上进行构建。"
+    },
+    {
+      "timestamp": "52:14",
+      "speaker": "Gio",
+      "en": "People are making a lot of bad decisions, bad tastes, wasteful ideas that actually offset the empowerment of AI.",
+      "zh": "人们做出了很多糟糕的决策、糟糕的品味、浪费的想法，这些实际上抵消了 AI 带来的赋能。"
+    },
+    {
+      "timestamp": "52:49",
+      "speaker": "Gio",
+      "en": "I think the fact is probably 99% of people that use AI today just use it as a search engine.",
+      "zh": "我想事实可能是，今天使用 AI 的人里 99% 只是把它当作一个搜索引擎。"
+    },
+    {
+      "timestamp": "53:49",
+      "speaker": "Adam",
+      "en": "You can't just cut people out and say, okay, the rest are going to figure it out because how do you know who to cut and who not to cut?",
+      "zh": "你不能直接裁掉一批人然后说，好吧，剩下的人会自己搞明白的，因为你怎么知道该裁谁、不该裁谁？"
+    },
+    {
+      "timestamp": "65:45",
+      "speaker": "Adam",
+      "en": "We dropped 92% in the first 18 months of being public.",
+      "zh": "我们在上市后的前 18 个月里跌了 92%。"
+    },
+    {
+      "timestamp": "68:06",
+      "speaker": "Adam",
+      "en": "We're going to become our best investor.",
+      "zh": "我们要成为自己最好的投资者。"
+    },
+    {
+      "timestamp": "71:27",
+      "speaker": "Adam",
+      "en": "We're trying to build something that hopefully lasts years after we're both gone.",
+      "zh": "我们在努力打造一个希望在我们两人都不在了之后还能延续多年的东西。"
+    },
+    {
+      "timestamp": "76:20",
+      "speaker": "Gio",
+      "en": "I, you know, just from personal experience, I would attribute the success of Axon, you know, largely to what we decide not to do, not actually what we did.",
+      "zh": "我，你知道，就个人经验而言，我会把 Axon 的成功很大程度上归因于我们决定不做什么，而不是我们实际做了什么。"
+    }
+  ],
+  "voice_script": "今天这一集，信息量非常大，我先把背景给你垫清楚，不然后面听得懵。\n\n主角是一家叫 AppLovin 的公司，做广告技术的。这家公司有一段特别戏剧化的经历：上市之后头 18 个月，股价跌掉了 92%,眼看着就要完。但三年之后，它变成了一家市值 1000 亿美元的公司。更要命的是，撑起这个翻盘的，是一个大约只有 100 人的工程团队。你没听错，一百人，撑起一家千亿公司。\n\n这一期的对话，就发生在这家公司的总部，对话的两个人，一个是 CEO Adam,一个是 CTO Gio。Gio 是 2022 年 11 月加入的，而他的加入时间点特别有意思——面试的时候两人聊得火热，都使劲劝他快来，结果就在他入职前几天的一次财报电话会上，股价一天跌了 30%。Adam 心想，完了，这人可能招不来了。结果 Gio 的反应是什么？跌了 30%,说明我拿到的股权更值了，那我应该更快加入。就冲这个反应，你就大概知道这是个什么样的人。\n\nGio 加入之后干的第一件事，不是开会、不是写方案，而是先修基础设施。这里得先交代一下这家公司的画风有多不一样。Gio 是从大厂过来的，第一天就觉得不对劲：这里没有层层流程，没有各种会议。他和当时的 CTO Basil 约每周一对一，对方根本不知道那是什么东西，会议很快也取消了，因为公司主要靠代码来沟通。Gio 入职第一周就开始写代码，搭新一代广告模型的训练基础设施。那一周干完，他没取消去欧洲的圣诞假期，而是整个假期都在写代码——包括在飞意大利的十二个小时没网的航班上，查不了资料，就只能深挖所用代码库的源代码。假期结束，基础设施就绪，回来当天就开始训练第一代模型。\n\n那为什么要这么折腾？旧的那台引擎到底有什么问题？这就要说到推荐系统的本质了。说白了，推荐系统就是在海量“用户对物品”的组合里学习关系：什么人会对什么东西感兴趣。旧一代模型用的是基于树的模型——你可以理解成几十万个 if-else 分支，把各种组合归到分支末端。问题在于，真实世界的关系是动态的，会随时间、天气、促销、节假日不停变化，这种树状结构没法准确建模。所以新一代模型换了个思路：先把本来没有含义的用户 ID、物品 ID,编码成携带统计信息的向量，业内管这个叫语义嵌入，然后再用一个深度神经网络去学习这些向量之间复杂的交互。这样不但能识别见过的模式，还能外推到没见过的用户和物品的组合。而且还有个副产品：推理更便宜了。因为神经网络的计算大量是标准矩阵乘法，这恰恰是 GPU 优化得最狠的操作，而老的树模型在 GPU 上几乎没法优化。预测更准，广告主回报就更好，业务就增长——这就是整台增长飞轮。\n\n好，飞轮转起来了，那下一步呢？模型跑了一年多之后，团队判断这个架构足够通用，可以走出游戏领域，去做电商。质疑的人说，你们只有游戏的数据啊。Adam 的反驳很漂亮：那不是十亿个只玩游戏的人，那是十亿个真实的人。理解了人，就能在游戏之外交付价值。那怎么验证这个判断？他们的方式不是写论证报告，而是直接做原型。几个月之内，就和少量测试广告主上线了第一个电商模型，数据有限、模型很不成熟，但已经能看到像样的购买数据和投入产出比。用 Gio 的话说，看到那个数据，我们就想，好吧，这会成功的。\n\n而这个电商数据流引擎的设计过程，更是离谱。是 CTO Basil 等人在拉斯维加斯一个大会的早餐桌上，没纸，画在一张餐巾纸上定下来的。等餐上桌的时候设计已经完成，一行李还没回到旧金山，原型就写出来了。Adam 点出了背后的文化：这家公司几乎不做产品管理，产品经理可能不到一小撮，其余全是工程师。工程师自己理解业务问题，自己写架构，自己写产品。那怎么知道做得好不好？靠清晰的收入和广告支出回报这些指标，数字摆在那，和广告主之间没太多可争论的东西。\n\n这种文化是怎么用人、怎么培养人的？Gio 最反感两个错误：一个是给新人只派细碎任务，不给他们业务全景；另一个是反过来，对做得好的初级骨干只给鼓励、不给持续挑战，时间一长，人自我膨胀，失去谦逊，停止质疑自己。Adam 那边的做法是，新人入职第一周就要推送代码上线，那一刻是一种相当强烈的多巴胺刺激——真实的反馈循环，比任何培训手册都管用。\n\n那 AI 在这个团队里是什么位置？Gio 有一句话，是全集流传最广的：我不想让我们的工程师坐在 AI 旁边，我想让我们的工程师坐在 AI 之上。意思是，AI 负责它擅长的——回答问题、写代码、补全整个 PR,人专注于 AI 不擅长的长周期规划，而且这条边界随着 AI 的进步不断移动。但别以为这就放手了，核心系统的规矩极硬：作为人类，你要对你的 AI 为你做出的每一个决策承担责任。问工程师为什么这么实现，答一句“AI 做的”，在这家公司是不可接受的。\n\n顺带说一句，有人问 AI 时代是不是该推倒重来，Gio 的答案是否定的：不觉得需要重建什么，但确实是在今天已有的东西之上进行构建。技术迭代太快了，你得对已有的东西保持谦逊——如果技术跑得比你开发的还快，就得扔掉手上的东西重新做架构，这种情况大概每几年发生一次。而今天很多组织的问题在于，构建变快了，但人们做出了很多糟糕的决策、糟糕的品味、浪费的想法，这些恰恰抵消了 AI 带来的赋能。按 Gio 的观察，今天用 AI 的人里，大概 99% 只是把它当搜索引擎。\n\n再说回谷底那一段，Adam 的打法也很反直觉。股价跌 90% 的时候，股权激励占总成本的比例会飙升——别人一年发 2 到 3 个百分点的股权，你难道要发 30% 去稀释自己？他们始终按固定的美元额度给报酬，团队保持精简，所以成本始终可控。而且谷底那一年多，他们完全不做投资者关系。Adam 的逻辑是，股价便宜得像土一样，但没人会买便宜得像土一样的东西，人家想看的是愿景——那干脆把赚到的每一美元都拿去回购股票，我们要做自己最好的投资者。能这么做的前提只有一个：对正在构建的东西有信念。\n\n那万亿美元的目标怎么算？Adam 算过一笔账：公司目前年化利润运行率超过 70 亿美元，每一美元能转出约 75% 的现金；要到一万亿市值，得相信能做到每年 300 亿美元以上的现金流。路径上，移动游戏品类不够大，电商是第一步，再往下看的是漏斗顶部的发现型场景，比如联网电视和开放网络视频——而不是聊天机器人里的搜索式广告，因为那是漏斗底部的生意，不是他们的主场。\n\n最后，我想把 Gio 的一句话留给你，我觉得这是整集最锋利的总结：我会把 Axon 的成功，很大程度上归因于我们决定不做什么，而不是我们实际做了什么。小公司挑战巨头，最常见的死法就是照搬巨头在做的一切——你团队更小、资源更少，做一样的事必输。所以过滤掉噪音，找到那 1% 最重要的事，把全部火力押上去，这才是小团队赢巨头的路。"
+}

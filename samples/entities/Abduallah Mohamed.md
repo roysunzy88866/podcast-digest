@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":14,"智能体":387,"人在回路":18,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":14,"智能体":388,"人在回路":18,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

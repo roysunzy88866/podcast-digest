@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"对齐":14,"递归自我改进":5,"智能体":387,"AI 原生公司":1,"数据中心":17,"UBI":2,"生存风险":4,"开放权重":8,"ChatGPT":88,"Claude":80}</script>
+<script type="application/json" class="pd-epn">{"对齐":14,"递归自我改进":5,"智能体":388,"AI 原生公司":1,"数据中心":18,"UBI":2,"生存风险":4,"开放权重":8,"ChatGPT":89,"Claude":81}</script>
 
 <script>
 (function(){

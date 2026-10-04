@@ -21,7 +21,7 @@ unlisted: true
 
 [[Jeff Berman]] · [[Tom Freston]] · [[MTV]] · [[Viacom]] · [[YouTube]] · [[创新者的窘境]] · [[DEI]] · [[股东至上]] · [[零经验招聘]]
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":3,"Tom Freston":1,"MTV":1,"Viacom":1,"YouTube":7,"创新者的窘境":4,"DEI":1,"股东至上":1,"零经验招聘":1}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":3,"Tom Freston":1,"MTV":1,"Viacom":1,"YouTube":8,"创新者的窘境":4,"DEI":1,"股东至上":1,"零经验招聘":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>149</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>150</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -71,6 +71,7 @@ unlisted: true
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:21起):本集将 OpenAI 作为垂直集成栈的厂商代表之一，在封闭模型 API 领域仍然领先
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(10:32起):本集说 OpenAI 是需要巨额资本训练模型的万亿美元级公司之一，其规模让年收入千亿的模型公司连小订单的电话都不接
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(04:22起):本集将其描述为靠押注大型语言模型(LLM)来尽快盈利的 AI 双寡头之一；拿着融来的巨资回投到云巨头上，撑大了云收入的繁荣；Amazon 在 2026 年大举投入 500 亿美元全额结清了投资额度。
+- **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(06:11起):Jason 说扎克伯格支持开放模型的立场『简直就是 OpenAI 的宣言』——『这项技术太强大,不能让一个人控制它』。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(02:11起):本集把它说成:嘉宾选择合作的大模型实验室。他们为嘉宾的项目提供了 Token 支持,且嘉宾自己也在此工作(拥有与开源项目不同的代码审查风险管理标准)。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:24起):本集把它说成：典型的前沿模型公司，被迫向高端市场移动找新回报；但同时如果它真强到能吃掉经济，就不会辛苦卖 token。
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(12:53起):本集说他们的智能体全部通过 OpenAI API 跑在 OpenAI 模型上,选它主要因性价比(也是他们的第一个投资人);并详细讲了其提示词缓存路由与 responses API 的取舍。
@@ -210,7 +211,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*149 集*
+*150 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -272,6 +273,7 @@ unlisted: true
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司(提及)
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司
@@ -366,9 +368,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":387,"Anthropic":163,"推理":68,"ChatGPT":88,"Google":55,"Cursor":77,"NVIDIA":51,"Codex":72,"Stripe":43,"Claude":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":388,"Anthropic":163,"推理":68,"ChatGPT":89,"Google":55,"Cursor":77,"NVIDIA":51,"Codex":72,"Claude":81,"Stripe":43}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(43:52起):本集说 GPU 和 AI 加速器已经存在但连接它们是巨大瓶颈，铜线无法超过一米，需要光通信连接；模型公司大部分资金花在 GPU 上
 - **[[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]]**(21:38起):本集反复讨论消费级 GPU——QVAC 让推理和微调能跑在 Snapdragon GPU、Adreno GPU、Apple GPU 等所有消费级 GPU 上，Apple 每年出新 GPU 跑 Llama 速度翻倍
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(14:39起):本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。
+- **[[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n|《AppLovin 双人谈：百人工程团队如何撑起千亿公司》]]**(16:50起):本集说神经网络由大量标准矩阵乘法(GEMM)构成,正是 GPU 高度优化的操作,因此新模型推理更便宜;而老的选择树在 GPU 上几乎没法优化。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(14:40起):本集说现在工程很多归结为能否筹集资本来购买 GPU 以做想做的事；也提到用 AI 创建更快的 GPU 内核作为自催化效应的例子
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(28:23起):本集说做大量模型专业化不需要 GPU，太贵了，可以用 ASIC 芯片替代
 - **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(02:50起):本集说 GPU 本质是吞吐量机器，在大批量工作时最高效，与聊天机器人要的低延迟存在根本性权衡；还谈了 GPU 大量闲置在私有池里的浪费。
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -50,6 +51,7 @@ unlisted: true
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]] — 作为概念
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
+- [[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n|《AppLovin 双人谈：百人工程团队如何撑起千亿公司》]] — 作为概念
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为概念
@@ -67,7 +69,7 @@ unlisted: true
 
 [[推理]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Cursor]] · [[OpenRouter]] · [[token]] · [[Meta]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"推理":68,"NVIDIA":51,"OpenAI":149,"Anthropic":163,"智能体":387,"Cursor":77,"OpenRouter":13,"token":30,"Meta":40,"开源":31}</script>
+<script type="application/json" class="pd-epn">{"推理":68,"NVIDIA":51,"OpenAI":150,"Anthropic":163,"智能体":388,"Cursor":77,"OpenRouter":13,"token":30,"Meta":41,"开源":31}</script>
 
 <script>
 (function(){

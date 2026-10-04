@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>X</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="X">X</div><div class="pi"><h1 class="pt">X</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="X">X</div><div class="pi"><h1 class="pt">X</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]]**(01:52起):本集说它是 Alphabet 旗下十六年前成立的「登月工厂」,定位类似二十一世纪贝尔实验室,每十年尝试一千到一千五百个想法,产出 Google Brain、Waymo、Wing,核心是用流程最大化「每美元的学习」
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(00:09起):本集说它适合触达硅谷科技圈和早期采用者，是新闻发源的地方，能产生不成比例的影响力，但算法不透明存在被限流的风险。
+- **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(01:45起):本集快讯:X 的收入分成计划 9 月 7 日退役,换成『原创内容奖励』,只对亲自创作的内容付费,打击搬运剪辑号;新门槛是订阅 X、500 个认证粉丝、90 天 50 万次主页曝光,Jason 自己失去资格但赞成新规。
 
 ## ① 提到它的金句
 
@@ -44,18 +45,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]] — 作为被讨论公司
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为被讨论公司(提及)
+- [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Astro Teller]] · [[Amjad Masad]] · [[Alphabet]] · [[Replit]] · [[Waymo]] · [[公开构建]] · [[Google Brain]] · [[智能体]] · [[Wing]] · [[vibe coding]]
+[[智能体]] · [[Claude]] · [[Meta]] · [[Astro Teller]] · [[Amjad Masad]] · [[开源模型]] · [[Alphabet]] · [[Replit]] · [[超级智能]] · [[Waymo]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"Amjad Masad":4,"Alphabet":1,"Replit":19,"Waymo":17,"公开构建":2,"Google Brain":1,"智能体":387,"Wing":1,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":388,"Claude":81,"Meta":41,"Astro Teller":1,"Amjad Masad":4,"开源模型":4,"Alphabet":1,"Replit":19,"超级智能":7,"Waymo":17}</script>
 
 <script>
 (function(){

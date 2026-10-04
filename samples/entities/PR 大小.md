@@ -25,7 +25,7 @@ unlisted: true
 
 [[Justin Reock]] · [[DX]] · [[智能体]] · [[开发者体验]] · [[DORA]] · [[METR]] · [[代码生成]] · [[Morgan Stanley]] · [[Zapier]] · [[Spotify]]
 
-<script type="application/json" class="pd-epn">{"Justin Reock":1,"DX":4,"智能体":387,"开发者体验":1,"DORA":3,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":4,"Spotify":5}</script>
+<script type="application/json" class="pd-epn">{"Justin Reock":1,"DX":4,"智能体":388,"开发者体验":1,"DORA":3,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":4,"Spotify":6}</script>
 
 <script>
 (function(){

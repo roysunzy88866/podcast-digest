@@ -29,7 +29,7 @@ unlisted: true
 
 [[Jamie Siminoff]] · [[Amazon]] · [[AI]] · [[构建者]] · [[零基预算]] · [[第一性原理]] · [[智能视频描述]] · [[虚拟保安]] · [[电视广告]] · [[AI 原生公司]]
 
-<script type="application/json" class="pd-epn">{"Jamie Siminoff":1,"Amazon":26,"AI":26,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
+<script type="application/json" class="pd-epn">{"Jamie Siminoff":1,"Amazon":26,"AI":27,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
 
 <script>
 (function(){
