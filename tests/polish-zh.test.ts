@@ -241,7 +241,9 @@ describe("C41 · 补小标题(用户 2026-10-05:「小标题太少了,阅读没�
   });
   it("★★★ 不收:第 0 段前切 / 切出来太碎 / 标题带新数字或新专名 / 标题太长", () => {
     expect(addHeadings(md, { propose: () => [{ k: 0, title: "开头" }] }).added).toBe(0);
-    expect(addHeadings(md, { propose: () => [{ k: 3, title: "最后一段" }, { k: 1, title: "第二段" }] }).added).toBe(0); // 每段约 114 字:第 1 段前切 → 前面不足 120;第 3 段前切 → 后面不足 120,都太碎
+    expect(addHeadings(md, { propose: () => [{ k: 3, title: "第四段" }, { k: 1, title: "第二段" }, { k: 2, title: "第三段" }] }).added).toBe(3); // 每段约 114 字 ≥100,都收
+    const md2 = md.replace(P(5, "二段"), "短短一句。\n\n" + P(5, "二段"));
+    expect(addHeadings(md2, { propose: () => [{ k: 1, title: "短句前" }, { k: 2, title: "短句后" }] }).added).toBe(1); // 第二刀切出的小节只有 4 个字,太碎不收
     expect(headingOk("砍了 30% 预算", body)).toBe(false);
     expect(headingOk("Netflix 也这样", body)).toBe(false);
     expect(headingOk("这是一个非常非常非常非常非常长的小标题啊", body)).toBe(false);
