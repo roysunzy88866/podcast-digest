@@ -89,3 +89,47 @@ describe("segmentBody · C19 正文按句分段", () => {
     expect(out.replace(/\n+/g, "")).toBe(p1 + p2);
   });
 });
+
+// C41 · 精华可读性 v2(ADR 0027,2026-10-04 用户「需求通过」):新集按长度切(每段 ≤50 汉字),存量照旧
+import { visibleHanCount, READABLE_V2_AFTER, PARA_MAX_HAN, renderEpisode } from "../scripts/render.mjs";
+import { readdirSync, readFileSync as rf, existsSync as ex } from "node:fs";
+describe("C41 · 新集每段 ≤50 汉字", () => {
+  const LONG = "这一集是主持人在洛杉矶对话嘉宾——她执掌着一家洛杉矶传奇公共广播电台，约一百四十名员工，不久前还兼任了全国公共广播董事会主席。聊的是一件事：当受众迁移、联邦资金被砍、算法被寡头控制，一家公共媒体靠什么活下去，还活得有影响力。转折靠热爱加一点运气。她是忠实听众。";
+  it("★★★ 长度模式:每段可见汉字 ≤50;一字不增不减(只重排段落边界)", () => {
+    const out = segmentBody(LONG, { maxChars: PARA_MAX_HAN });
+    const paras = out.split("\n\n");
+    expect(paras.length).toBeGreaterThan(1);
+    for (const p of paras) expect(visibleHanCount(p)).toBeLessThanOrEqual(50);
+    expect(paras.join("")).toBe(LONG);
+  });
+  it("★★ 单句超 50 字在 ;:—— 处再切;切不开就单句成段(不在逗号处硬切)", () => {
+    const s = "甲".repeat(30) + "——" + "乙".repeat(30) + "。";
+    expect(segmentBody(s, { maxChars: 50 }).split("\n\n")).toEqual(["甲".repeat(30) + "——", "乙".repeat(30) + "。"]);
+    const noCut = "丙".repeat(40) + "，" + "丁".repeat(40) + "。";
+    expect(segmentBody(noCut, { maxChars: 50 })).toBe(noCut);
+  });
+  it("★★ 回原文按钮里的英文、双链的目标名不计入字数", () => {
+    expect(visibleHanCount('他说了一句话。<button class="pd-ts" data-en="中文不该在这里">↩</button>')).toBe(6);
+    expect(visibleHanCount("提到[[英伟达公司|英伟达]]。")).toBe(5);
+  });
+  it("★★★ 按入库日分流:added ≤ 2026-10-04 走旧切法(存量不动),之后走长度切", () => {
+    expect(READABLE_V2_AFTER).toBe("2026-10-04");
+    const meta = (added: string) => ({ id: "x", title_en: "t", podcast: "p", added, date: "2026-10-01", duration_sec: 60, guests: [], source_url: "u" });
+    const digest = { tldr: "t", digest_md: LONG, quotes: [] };
+    const oldPage = renderEpisode(meta("2026-10-04") as any, digest as any);
+    const newPage = renderEpisode(meta("2026-10-05") as any, digest as any);
+    expect(oldPage).toContain(segmentBody(LONG));
+    expect(newPage).toContain(segmentBody(LONG, { maxChars: 50 }));
+    expect(oldPage).not.toBe(newPage);
+  });
+  it("★★★ 真存量:samples 里 2026-10-04 及以前入库的集,重渲染分段与改动前一致(抽 20 集比对正文段)", () => {
+    const root = decodeURIComponent(new URL("..", import.meta.url).pathname);
+    const ids = readdirSync(root + "data/episodes").filter((id) => ex(`${root}data/episodes/${id}/digest.json`) && ex(`${root}samples/${id}.md`)).slice(-20);
+    for (const id of ids) {
+      const meta = JSON.parse(rf(`${root}data/episodes/${id}/meta.json`, "utf8"));
+      if (String(meta.added ?? "") > READABLE_V2_AFTER) continue;
+      const md = JSON.parse(rf(`${root}data/episodes/${id}/digest.json`, "utf8")).digest_md;
+      expect(segmentBody(md, String(meta.added ?? "") > READABLE_V2_AFTER ? { maxChars: 50 } : {})).toBe(segmentBody(md));
+    }
+  });
+});

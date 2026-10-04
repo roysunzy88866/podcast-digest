@@ -835,7 +835,7 @@ function renderFrontmatter(meta, digest, entities) {
  * 标题 / 引用块(callout)/ 列表 / 表格 / HTML 块 / 代码围栏整段不动。
  * 只重排段落边界、逐字不动 —— 防失真闸门对的是内容,分段不改一个字。
  */
-export function segmentBody(md) {
+export function segmentBody(md, { maxChars = 0 } = {}) {
   return String(md)
     .split(/\n{2,}/)
     .map((blk) => {
@@ -843,6 +843,7 @@ export function segmentBody(md) {
       // 非正文段(结构块:标题/引用/列表/有序列表/表格/HTML块/图片/代码围栏)原样返回
       if (!t || /^(#{1,6}\s|>|[-*+]\s|\d+\.\s|\||<|!\[|```|~~~)/.test(t)) return blk;
       const sents = splitSentences(blk);
+      if (maxChars > 0) return packByLength(sents, maxChars).join("\n\n"); // C41:按长度切(新集)
       if (sents.length <= 3) return blk; // 短段不动
       return groupSentences(sents)
         .map((g) => g.join(""))
@@ -851,11 +852,41 @@ export function segmentBody(md) {
     .join("\n\n");
 }
 
+// ══ C41 · 精华可读性 v2(ADR 0027,2026-10-04 用户「需求通过」)══
+// 手机上每段约 3 行、≤50 个汉字。C19 按句数切(每 2–3 句)切不动长句(实测每段中位 2 句、91 字)→ 新集改按长度切。
+// **只对 2026-10-04 之后入库的新集**(用户选「存量都不动」;build-pages 每次重渲染全库,所以必须按入库日分流)。
+export const READABLE_V2_AFTER = "2026-10-04"; // meta.added 严格大于它才走新分段
+export const PARA_MAX_HAN = 50;
+
+/** 读者实际看到的汉字数:去掉回原文按钮(里面是英文原话)与 HTML 标签,双链取显示文本。 */
+export function visibleHanCount(text) {
+  const v = String(text)
+    .replace(/<button[\s\S]*?<\/button>/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, "$2");
+  return (v.match(/[\u4e00-\u9fff]/g) ?? []).length;
+}
+
+/** 句子贪心装段:装下这句就超 max → 另起一段;单句超 max → 在 ;:—— 处再切,切不开单句成段。 */
+function packByLength(sents, max) {
+  const pieces = sents.flatMap((s) => (visibleHanCount(s) > max ? splitSentences(s, CLAUSE_END) : [s]));
+  const out = [];
+  let cur = "";
+  for (const p of pieces) {
+    if (cur && visibleHanCount(cur) + visibleHanCount(p) > max) { out.push(cur.trimEnd()); cur = ""; }
+    cur += cur ? p : p.trimStart();
+  }
+  if (cur.trim()) out.push(cur.trimEnd());
+  return out;
+}
+
 // 全角句末 + 半角 !? ;半角句号 . 不算(英文缩写/小数/网址会误切)
 const SENT_END = "。！？…!?";
+// C41:长句再切的分句点(全角分号/冒号 + 破折号「——」;半角冒号不算,英文里太常见)
+const CLAUSE_END = "；：—";
 
 /** 按句末标点切句,跳过 [[双链]]/`代码`/<标签>;句末紧跟的 pd-ts 按钮吸附进前一句。 */
-function splitSentences(text) {
+function splitSentences(text, ends = SENT_END) {
   const out = [];
   let cur = "";
   let i = 0;
@@ -881,7 +912,13 @@ function splitSentences(text) {
       if (e >= 0) { cur += text.slice(i, e + 1); i = e + 1; continue; }
     }
     cur += ch;
-    if (SENT_END.includes(ch)) {
+    // 破折号要成对「——」才算分句点,单个「—」不切
+    if (ch === "—" && ends.includes("—")) {
+      if (text[i + 1] !== "—") { i++; continue; }
+      cur += text[i + 1];
+      i++;
+    }
+    if (ends.includes(ch)) {
       i++;
       // 句末标点后紧跟的空白 + <button pd-ts>(回原文按钮)吸附进当前句,不落到下一段开头
       while (i < n) {
@@ -943,7 +980,8 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
   digestMd = renderOrigRefs(digestMd, transcript, meta);
   const bodyMd = entities ? linkPrimaryEntities(digestMd, entities) : digestMd;
   // C19:正文按句分段(长段拆成每 2-3 句更适合手机读;保护 pd-ts/双链/代码,逐字不动)
-  const bodySeg = segmentBody(bodyMd);
+  // C41:2026-10-04 之后入库的新集按长度切(每段 ≤50 汉字);存量照旧(用户「存量都不动」)
+  const bodySeg = segmentBody(bodyMd, String(meta.added ?? "") > READABLE_V2_AFTER ? { maxChars: PARA_MAX_HAN } : {});
 
   const quoteBlocks = (digest.quotes || [])
     .map(
