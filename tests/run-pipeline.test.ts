@@ -1200,3 +1200,37 @@ describe("C40 · 音频下载失败等中转站 12 班,停车理由写真实原�
     expect((src.match(/const tp = transientPolicy\(e\.message, \{ relayable: Boolean\(item\.enclosureUrl\) && !source\.seedDir \}\);/g) ?? []).length).toBe(3);
   });
 });
+
+import { redoCandidates } from "../scripts/run-pipeline.mjs";
+describe("C40 · 被旧口径误挡的近期集补回(redo 队列)", () => {
+  const T = "2026-10-04";
+  it("★★★ 只留:没做完、没处理过、非人工 skip、发布日在 60 天窗口内;最新优先", () => {
+    const ids = ["2026-09-18-twist-a", "2026-10-01-a16z-b", "2026-08-01-old-c", "2026-09-20-done-d", "2026-09-25-manual-e", "2026-09-22-redone-f", "坏id"];
+    const out = redoCandidates(ids, {
+      completed: new Set(["2026-09-20-done-d"]),
+      done: { "2026-09-22-redone-f": "2026-10-04" },
+      manualSkip: new Set(["2026-09-25-manual-e"]),
+      todayISO: T,
+    });
+    expect(out).toEqual(["2026-10-01-a16z-b", "2026-09-18-twist-a"]);
+  });
+  it("★★★ 恰好 60 天留、61 天出队(时效维持现状,与补历史窗口同口径)", () => {
+    expect(redoCandidates(["2026-08-05-x-a", "2026-08-04-x-b"], { todayISO: T })).toEqual(["2026-08-05-x-a"]);
+  });
+  it("★★ 空/坏名单不炸", () => {
+    expect(redoCandidates(undefined as any, { todayISO: T })).toEqual([]);
+  });
+  it("★★★ 源码锚:补回在补活之后、每日顶量之前;复用 processBackfillPicks 且判官留痕 path=redo;先移出旧拦截再重判", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const main = src.slice(src.indexOf("const sourceRun = await runAllSources"));
+    expect(main.indexOf("revivePass(state")).toBeLessThan(main.indexOf("await redoPass(state"));
+    expect(main.indexOf("await redoPass(state")).toBeLessThan(main.indexOf("await backfillTopUpPass(state"));
+    const rp = src.slice(src.indexOf("async function redoPass("), src.indexOf("async function backfillTopUpPass("));
+    const rm = rp.indexOf("state.skipped = (state.skipped ?? []).filter((e) => !picked.has(e.id) && !oldIds.has(e.id));");
+    expect(rm).toBeGreaterThan(0);
+    expect(rm).toBeLessThan(rp.indexOf('processBackfillPicks('));
+    expect(rp).toContain("normalizeTitle(it.title) === t0"); // 节目方改日期/标题导致 id 变 → 按旧标题兜底
+    expect(rp).toContain('{ path: "redo" }');
+    expect(src).toContain("appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path, result: taste }))");
+  });
+});

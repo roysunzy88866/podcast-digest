@@ -1254,6 +1254,13 @@ async function main() {
     totalSkipped += r.skipped;
   }
 
+  // C40 补回(ADR 0026):新集与补活之后、每日顶量之前,用剩余预算重审被旧口径误挡的近期集。守卫同顶量(只 cron 班)。
+  if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
+    const r = await redoPass(state, { dryRun });
+    totalClean += r.clean;
+    totalSkipped += r.skipped;
+  }
+
   // C23 每日顶量(ADR 0021):当天(UTC)入库不足 → 倒序补历史到 ~DAILY_TARGET。
   // **只在 cron 班触发**(pipeline.yml 对 schedule 事件一律传 --daily-topup,2026-08-18 起四班全开):判当天(UTC)入库够不够目标,不够就补;
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
@@ -1471,7 +1478,7 @@ function libraryTitlesFromCompleted(completed) {
 /** 逐集处理顶量选中的集:与 processSource 同口径(失真隔离 / [1301] 放弃 / 转瞬留半成品),但无 cutoff。 */
 /** 处理一批补历史候选。C33 起吃 [{item, source}] 对 —— 因为一批里可以混多个源
  *  (跨源统一按最新排序后挑出来的,见 selectBackfillGlobal)。 */
-function processBackfillPicks(pairs, state) {
+function processBackfillPicks(pairs, state, { path = "topup" } = {}) {
   // C32:补历史同受时间预算约束(它和新集抢的是同一个 6h 作业)
   let clean = 0;
   let skipped = 0;
@@ -1497,7 +1504,7 @@ function processBackfillPicks(pairs, state) {
     processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
-    appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path: "topup", result: taste })); // W2 留痕
+    appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path, result: taste })); // W2 留痕(C40:补回走 path="redo")
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
       appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });
@@ -1560,6 +1567,74 @@ function processBackfillPicks(pairs, state) {
 }
 
 /** 每日顶量一轮:当天入库 <target 时,从带 archiveFile 的源倒序补历史(比库内该源最旧一期更旧)。返回 {clean, skipped}。 */
+// ══ C40 · 被旧口径误挡的近期集补回(ADR 0026,2026-10-04 用户「需求通过」)══
+// 名单放 data/ledger-overrides.json 的 redo(人工维护,CI 回仓冲不掉);进度记 state.redoDone(CI 自己写)。
+// 每班新集/补活之后用剩余预算「最新优先」重审:先从账本移除旧拦截,交 processBackfillPicks(判官按新口径重判 → 处理或再拦)。
+// 再拦或做完即记 redoDone;转瞬失败/预算见底的留在队列下班接着做;发布日超出 60 天窗口的自然出队(时效维持现状,drift #78)。
+export function redoCandidates(redoIds, { completed = new Set(), done = {}, manualSkip = new Set(), todayISO, maxAgeDays = BACKFILL_MAX_AGE_DAYS } = {}) {
+  const floorDay = backfillFloorISO(todayISO, { maxAgeDays }).slice(0, 10);
+  return [...new Set(Array.isArray(redoIds) ? redoIds : [])]
+    .filter((id) => typeof id === "string" && /^\d{4}-\d{2}-\d{2}-/.test(id))
+    .filter((id) => !completed.has(id) && !done[id] && !manualSkip.has(id) && id.slice(0, 10) >= floorDay)
+    .sort((a, b) => b.localeCompare(a));
+}
+
+async function redoPass(state, { dryRun }) {
+  const ov = readLedgerOverrides();
+  const ids = redoCandidates(ov?.redo, {
+    completed: new Set(completedIds()),
+    done: state.redoDone ?? {},
+    manualSkip: new Set((ov?.skip ?? []).map((e) => e?.id)),
+    todayISO: bjDay(),
+  });
+  if (!ids.length) return { clean: 0, skipped: 0 };
+  console.log(`\n══ C40 补回:被旧口径误挡的近期集 ${ids.length} 条待重审(最新优先,用剩余预算)`);
+  state.redoDone = state.redoDone ?? {};
+  const mark = (id, v) => { if (!dryRun) state.redoDone[id] = v; }; // 试运行不改状态(GLM 20261004-007[6])
+  const manualSkip = new Set((ov?.skip ?? []).map((e) => e?.id));
+  // 节目方改过发布日/标题时 deriveId 会变(实证 twist Chesky 集 09-30 → 10-01)→ 按旧账本标题再找一次,用新 id 处理
+  const oldTitle = new Map((state.skipped ?? []).map((e) => [e.id, e.title]));
+  const doneOrSkipped = new Set([...completedIds(), ...(state.skipped ?? []).map((e) => e.id)]);
+  const feeds = new Map();
+  const pairs = [];
+  for (const id of ids) {
+    const source = sourceForId(id);
+    // 演讲集按种子走 talks 通道,不在这里补(种子与 videoId 账本另有口径)
+    if (!source || source.seedDir) { mark(id, source ? "演讲集不走补回" : "源已不在"); continue; }
+    if (!feeds.has(source.key)) {
+      try { feeds.set(source.key, parseFeed(await fetchFeed(source.feedUrl))); }
+      catch (e) { console.error(`   ⚠️ 补回:${source.key} feed 抓取失败,下班再试:${e.message}`); feeds.set(source.key, null); }
+    }
+    const items = feeds.get(source.key);
+    if (!items) continue;
+    const t0 = normalizeTitle(oldTitle.get(id) ?? "");
+    const item = items.find((it) => deriveId(it, source) === id) ?? (t0 ? items.find((it) => normalizeTitle(it.title) === t0) : undefined);
+    if (!item) { mark(id, "feed 里已找不到"); console.log(`   ⏭ 补回:${id} 在 feed 里已找不到,出队`); continue; }
+    const newId = deriveId(item, source);
+    if (newId !== id && doneOrSkipped.has(newId)) { mark(id, `已由新 id ${newId} 处理`); continue; }
+    if (manualSkip.has(newId)) { mark(id, "新 id 在人工 skip 名单"); continue; } // GLM 007[3]
+    if (pairs.some((p) => p.id === newId)) { mark(id, `与 ${newId} 是同一集`); continue; } // GLM 007[2]:两个旧 id 指向同一集不重复处理
+    pairs.push({ item, source, id: newId, oldId: id });
+  }
+  if (dryRun) {
+    pairs.forEach((p) => console.log(`   → 补回候选 ${p.id}`));
+    return { clean: 0, skipped: 0 };
+  }
+  // 移出旧拦截 → 新口径重判;再拦会由 processBackfillPicks 重新记账(理由按新口径写)
+  const picked = new Set(pairs.map((p) => p.id));
+  const oldIds = new Set(pairs.map((p) => p.oldId));
+  state.skipped = (state.skipped ?? []).filter((e) => !picked.has(e.id) && !oldIds.has(e.id));
+  for (const id of [...picked, ...oldIds]) { clearBlocked(state, id); clearTransient(state, id); } // GLM 007[4]:旧 id 的残账一并清
+  writeState(state);
+  const r = processBackfillPicks(pairs.map(({ item, source }) => ({ item, source })), state, { path: "redo" });
+  const skippedNow = new Set((state.skipped ?? []).map((e) => e.id));
+  const doneNow = new Set(completedIds());
+  for (const { id, oldId } of pairs) if (skippedNow.has(id) || doneNow.has(id)) state.redoDone[oldId] = bjDay();
+  writeState(state);
+  console.log(`   补回本班:上站 ${r.clean} / 再拦 ${pairs.filter((p) => skippedNow.has(p.id)).length} / 留队 ${pairs.filter((p) => !state.redoDone[p.oldId]).length}`);
+  return r;
+}
+
 async function backfillTopUpPass(state, { target, dryRun, todayISO, excludeIds = new Set() }) {
   const have = countAddedToday(todayISO, excludeIds);
   const need = Math.max(0, target - have);
