@@ -54,7 +54,7 @@ aliases: ["AI coding"]
 
 [[LLM]] · [[AGI]] · [[OpenAI]] · [[护栏]] · [[Waymo]] · [[ChatGPT]] · [[Anthropic]] · [[开源]] · [[Replit]] · [[a16z]]
 
-<script type="application/json" class="pd-epn">{"LLM":52,"AGI":26,"OpenAI":150,"护栏":71,"Waymo":17,"ChatGPT":89,"Anthropic":163,"开源":31,"Replit":19,"a16z":18}</script>
+<script type="application/json" class="pd-epn">{"LLM":53,"AGI":26,"OpenAI":151,"护栏":71,"Waymo":17,"ChatGPT":89,"Anthropic":165,"开源":32,"Replit":19,"a16z":18}</script>
 
 <script>
 (function(){

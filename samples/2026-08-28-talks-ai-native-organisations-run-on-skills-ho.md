@@ -154,7 +154,7 @@ Toil 在 [[Clearview|Clearview]] 里做了一个组织模拟：15 个团队、�
 
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:harness（智能体承载框架） (harness)、MCP、子智能体 (sub-agent)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic · 同概念:harness（智能体承载框架） (harness)、沙箱 (sandbox)</span>
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:Skills（技能） (skills)、MCP</span>
+- [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:harness（智能体承载框架） (harness)、沙箱 (sandbox)</span>
 
 </div>
 </div>

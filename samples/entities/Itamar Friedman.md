@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":22,"上下文":25,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":388,"代码治理":1,"语义规则":1,"Claude Code":92}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":23,"上下文":25,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":391,"代码治理":1,"语义规则":1,"Claude Code":93}</script>
 
 <script>
 (function(){

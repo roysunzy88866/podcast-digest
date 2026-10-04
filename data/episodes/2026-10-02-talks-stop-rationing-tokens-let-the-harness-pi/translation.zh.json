@@ -1,0 +1,1834 @@
+[
+ {
+  "seg": 0,
+  "start": 13.352,
+  "end": 13.932,
+  "speaker": "Unknown",
+  "en": "All right, guys.",
+  "zh": "好了,各位。"
+ },
+ {
+  "seg": 1,
+  "start": 14.573,
+  "end": 15.994,
+  "speaker": "Unknown",
+  "en": "Very nice to meet you all.",
+  "zh": "很高兴见到大家。"
+ },
+ {
+  "seg": 2,
+  "start": 16.074,
+  "end": 16.774,
+  "speaker": "Unknown",
+  "en": "My name is Laurent.",
+  "zh": "我叫 Laurent。"
+ },
+ {
+  "seg": 3,
+  "start": 16.794,
+  "end": 23.599,
+  "speaker": "Unknown",
+  "en": "I'm the co-founder and president of Cast.AI, who is the inventor of Kimchi, which I'm going to show you in a few seconds.",
+  "zh": "我是 Cast.AI 的联合创始人兼总裁,Cast.AI 是 Kimchi 的发明者,几秒钟后我会向大家展示它。"
+ },
+ {
+  "seg": 4,
+  "start": 24.659,
+  "end": 29.883,
+  "speaker": "Unknown",
+  "en": "The talk is going to be about proprietary models for Edge case, but use OpenSource for the rest.",
+  "zh": "这个演讲将围绕在边缘情况(Edge case)上使用专有模型,其余部分使用开源。"
+ },
+ {
+  "seg": 5,
+  "start": 30.023,
+  "end": 34.746,
+  "speaker": "Unknown",
+  "en": "And you're going to see some great result we have with that, with the coding agent called Kimchi.",
+  "zh": "你们将会看到我们用它取得的一些非常好的成果,用的是一个叫 Kimchi 的编码智能体。"
+ },
+ {
+  "seg": 6,
+  "start": 35.186,
+  "end": 37.708,
+  "speaker": "Unknown",
+  "en": "I have the pleasure to be here with Zilvinas.",
+  "zh": "我很荣幸和 Zilvinas 一起来到这里。"
+ },
+ {
+  "seg": 7,
+  "start": 38.228,
+  "end": 38.609,
+  "speaker": "Unknown",
+  "en": "Hey, guys.",
+  "zh": "嘿,大家好。"
+ },
+ {
+  "seg": 8,
+  "start": 38.729,
+  "end": 39.289,
+  "speaker": "Unknown",
+  "en": "I'm Zilvinas.",
+  "zh": "我是 Zilvinas。"
+ },
+ {
+  "seg": 9,
+  "start": 39.429,
+  "end": 41.871,
+  "speaker": "Unknown",
+  "en": "I am leading engineering for a Kimchi coding platform.",
+  "zh": "我负责 Kimchi 编码平台的工程。"
+ },
+ {
+  "seg": 10,
+  "start": 42.407,
+  "end": 45.748,
+  "speaker": "Unknown",
+  "en": "So you have to run the entire engineering team for Kimshi.",
+  "zh": "所以你要为 Kimshi 运营整个工程团队。"
+ },
+ {
+  "seg": 11,
+  "start": 45.788,
+  "end": 47.769,
+  "speaker": "Unknown",
+  "en": "I'm so excited to be here with you.",
+  "zh": "我非常兴奋能和你们在一起。"
+ },
+ {
+  "seg": 12,
+  "start": 48.189,
+  "end": 48.81,
+  "speaker": "Unknown",
+  "en": "All right, let's go.",
+  "zh": "好,我们开始吧。"
+ },
+ {
+  "seg": 13,
+  "start": 48.97,
+  "end": 56.553,
+  "speaker": "Unknown",
+  "en": "So you may have seen this in the news, two pieces of information that came up in the last few weeks.",
+  "zh": "大家可能在新闻里见过这两条信息,它们是最近几周出现的。"
+ },
+ {
+  "seg": 14,
+  "start": 56.933,
+  "end": 63.276,
+  "speaker": "Unknown",
+  "en": "The first one is there's a company in India that spent $500 million on Anthropic alone in one month.",
+  "zh": "第一条是,印度有一家公司仅在一个月内就在 Anthropic 上花了 5 亿美元。"
+ },
+ {
+  "seg": 15,
+  "start": 64.296,
+  "end": 68.157,
+  "speaker": "Unknown",
+  "en": "Which is, again, a good example of tokens that are completely out of control.",
+  "zh": "这再次是一个很好的例子,说明 token 完全失控了。"
+ },
+ {
+  "seg": 16,
+  "start": 68.597,
+  "end": 80.02,
+  "speaker": "Unknown",
+  "en": "The other example is a famous tweet from Uber, the CTO of Uber, who said that in the last four months he actually used the entire budget of Anthropic for the entire year.",
+  "zh": "另一个例子是 Uber 的一条著名推文,Uber 的 CTO 说,在过去四个月里,他实际上用掉了 Anthropic 一整年的全部预算。"
+ },
+ {
+  "seg": 17,
+  "start": 80.64,
+  "end": 87.682,
+  "speaker": "Unknown",
+  "en": "And this is how much the token maxing or the token cost is a thing for the enterprises.",
+  "zh": "这就是 token 消耗最大化或 token 成本对企业来说是多么现实的问题。"
+ },
+ {
+  "seg": 18,
+  "start": 88.282,
+  "end": 89.783,
+  "speaker": "Unknown",
+  "en": "And you're going to see how we fix this.",
+  "zh": "你们将会看到我们是如何解决这个问题的。"
+ },
+ {
+  "seg": 19,
+  "start": 90.953,
+  "end": 94.875,
+  "speaker": "Unknown",
+  "en": "Companies responded to this by limiting the use of token.",
+  "zh": "各公司对此的应对方式是限制 token 的使用。"
+ },
+ {
+  "seg": 20,
+  "start": 94.895,
+  "end": 99.257,
+  "speaker": "Unknown",
+  "en": "You may have heard this many, many times with our friends, developers.",
+  "zh": "你们可能从我们的朋友、开发者那里听过很多很多次了。"
+ },
+ {
+  "seg": 21,
+  "start": 99.937,
+  "end": 104.679,
+  "speaker": "Unknown",
+  "en": "And as a developer, when you limit the amount of token, it feels like this.",
+  "zh": "而作为开发者,当你限制 token 的用量时,感觉就像这样。"
+ },
+ {
+  "seg": 22,
+  "start": 104.699,
+  "end": 107.441,
+  "speaker": "Unknown",
+  "en": "It's like, hey, you can use your laptop.",
+  "zh": "就好比,嘿,你可以用你的笔记本。"
+ },
+ {
+  "seg": 23,
+  "start": 108.921,
+  "end": 110.102,
+  "speaker": "Unknown",
+  "en": "You have an hour battery.",
+  "zh": "你的电池能撑一个小时。"
+ },
+ {
+  "seg": 24,
+  "start": 111.277,
+  "end": 113.839,
+  "speaker": "Unknown",
+  "en": "And you can only charge once a day.",
+  "zh": "而且你一天只能充一次电。"
+ },
+ {
+  "seg": 25,
+  "start": 114.72,
+  "end": 119.484,
+  "speaker": "Unknown",
+  "en": "That's how it feels to limit the amount of token for a developer.",
+  "zh": "限制开发者的 token 用量就是这种感觉。"
+ },
+ {
+  "seg": 26,
+  "start": 120.304,
+  "end": 122.366,
+  "speaker": "Unknown",
+  "en": "We at Kimchi think this is wrong.",
+  "zh": "我们 Kimchi 认为这是错的。"
+ },
+ {
+  "seg": 27,
+  "start": 124.988,
+  "end": 135.457,
+  "speaker": "Unknown",
+  "en": "Our jobs as manager is to do the opposite, is to ensure that we want to make the tokens unlimited.",
+  "zh": "我们作为管理者的工作恰恰相反,是要确保我们想让 token 无限量供应。"
+ },
+ {
+  "seg": 28,
+  "start": 136.92,
+  "end": 137.781,
+  "speaker": "Unknown",
+  "en": "And inexpensive.",
+  "zh": "而且价格低廉。"
+ },
+ {
+  "seg": 29,
+  "start": 137.901,
+  "end": 141.225,
+  "speaker": "Unknown",
+  "en": "Our job is not to prevent the developer to use Coding Agent.",
+  "zh": "我们的工作不是阻止开发者使用编码智能体。"
+ },
+ {
+  "seg": 30,
+  "start": 141.325,
+  "end": 148.573,
+  "speaker": "Unknown",
+  "en": "Our job is to make sure they can use it as much as they want for as long as they want in a completely unlimited fashion.",
+  "zh": "我们的工作是确保他们可以随心所欲、尽其所愿地使用它,完全不受限制。"
+ },
+ {
+  "seg": 31,
+  "start": 148.993,
+  "end": 151.616,
+  "speaker": "Unknown",
+  "en": "This is why we started Kimshi.",
+  "zh": "这就是我们创办 Kimshi 的原因。"
+ },
+ {
+  "seg": 32,
+  "start": 152.497,
+  "end": 154.52,
+  "speaker": "Unknown",
+  "en": "At Kimshi, we have 300 developers.",
+  "zh": "在 Kimshi,我们有 300 名开发者。"
+ },
+ {
+  "seg": 33,
+  "start": 155.777,
+  "end": 157.097,
+  "speaker": "Unknown",
+  "en": "Oh, sorry, 300 employees.",
+  "zh": "哦,抱歉,是 300 名员工。"
+ },
+ {
+  "seg": 34,
+  "start": 158.458,
+  "end": 162.039,
+  "speaker": "Unknown",
+  "en": "Two-thirds of those are developers that Zilvinas run at.",
+  "zh": "其中三分之二是 Zilvinas 管理的开发者。"
+ },
+ {
+  "seg": 35,
+  "start": 162.619,
+  "end": 165.88,
+  "speaker": "Unknown",
+  "en": "And we've been using this coding agent for the last three months.",
+  "zh": "在过去三个月里,我们一直在使用这个编码智能体。"
+ },
+ {
+  "seg": 36,
+  "start": 166.56,
+  "end": 172.382,
+  "speaker": "Unknown",
+  "en": "I'm going to show you what we built, how we built it, and the result of it.",
+  "zh": "我会向你们展示我们构建了什么,我们是怎么构建的,以及结果如何。"
+ },
+ {
+  "seg": 37,
+  "start": 172.982,
+  "end": 178.064,
+  "speaker": "Unknown",
+  "en": "And then Zilvinas will show you a few more things that make the coding agent really, really cool.",
+  "zh": "然后 Zilvinas 会向你们展示另外一些让编码智能体非常非常酷的东西。"
+ },
+ {
+  "seg": 38,
+  "start": 180.445,
+  "end": 181.205,
+  "speaker": "Unknown",
+  "en": "It's coming now.",
+  "zh": "它现在就要来了。"
+ },
+ {
+  "seg": 39,
+  "start": 183.131,
+  "end": 188.321,
+  "speaker": "Unknown",
+  "en": "We built an entire token optimization based on this idea.",
+  "zh": "基于这个理念,我们构建了一整套 token 优化方案。"
+ },
+ {
+  "seg": 40,
+  "start": 188.782,
+  "end": 193.431,
+  "speaker": "Unknown",
+  "en": "What you see on screen is the true cost of LLM model",
+  "zh": "你们在屏幕上看到的是 LLM 模型的真实成本"
+ },
+ {
+  "seg": 41,
+  "start": 194.471,
+  "end": 195.472,
+  "speaker": "Unknown",
+  "en": "For the same task.",
+  "zh": "针对同一个任务。"
+ },
+ {
+  "seg": 42,
+  "start": 195.732,
+  "end": 199.514,
+  "speaker": "Unknown",
+  "en": "It was made by the famous white paper in a university.",
+  "zh": "它出自一所大学的一篇著名白皮书。"
+ },
+ {
+  "seg": 43,
+  "start": 199.834,
+  "end": 201.154,
+  "speaker": "Unknown",
+  "en": "And here's what they say.",
+  "zh": "下面是他们的说法。"
+ },
+ {
+  "seg": 44,
+  "start": 201.975,
+  "end": 204.716,
+  "speaker": "Unknown",
+  "en": "On one side, you see the cost per token.",
+  "zh": "一边,你们看到的是每个 token 的成本。"
+ },
+ {
+  "seg": 45,
+  "start": 205.537,
+  "end": 211.82,
+  "speaker": "Unknown",
+  "en": "On the other side, you see the cost per task for the same task with the same quality.",
+  "zh": "另一边,你们看到的是同一个任务在相同质量下的任务成本。"
+ },
+ {
+  "seg": 46,
+  "start": 212.26,
+  "end": 213.481,
+  "speaker": "Unknown",
+  "en": "That is the important thing.",
+  "zh": "这一点很重要。"
+ },
+ {
+  "seg": 47,
+  "start": 213.501,
+  "end": 215.402,
+  "speaker": "Unknown",
+  "en": "Otherwise, you cannot compare Apple with Apple.",
+  "zh": "否则,你无法做苹果对苹果的比较。"
+ },
+ {
+  "seg": 48,
+  "start": 215.622,
+  "end": 216.983,
+  "speaker": "Unknown",
+  "en": "And here's what is written here.",
+  "zh": "这里写的就是这个。"
+ },
+ {
+  "seg": 49,
+  "start": 217.043,
+  "end": 218.984,
+  "speaker": "Unknown",
+  "en": "First, they are all different.",
+  "zh": "首先,它们全都各不相同。"
+ },
+ {
+  "seg": 50,
+  "start": 219.938,
+  "end": 224.362,
+  "speaker": "Unknown",
+  "en": "But also, look at Gemini 3 Flash, our friends at Google.",
+  "zh": "但另外，看看 Gemini 3 Flash，我们在 Google 的朋友们。"
+ },
+ {
+  "seg": 51,
+  "start": 224.682,
+  "end": 231.148,
+  "speaker": "Unknown",
+  "en": "Well, it seems to be a relatively inexpensive model at $3.5 per million token.",
+  "zh": "嗯，它似乎是一个相对便宜的模型，每百万 token 3.5 美元。"
+ },
+ {
+  "seg": 52,
+  "start": 231.228,
+  "end": 234.171,
+  "speaker": "Unknown",
+  "en": "It's a blended average at the time this study was made.",
+  "zh": "这是在这项研究进行时的混合平均值。"
+ },
+ {
+  "seg": 53,
+  "start": 234.851,
+  "end": 237.774,
+  "speaker": "Unknown",
+  "en": "But actually, the task to complete with Gemini 3 was $705.",
+  "zh": "但实际上，用 Gemini 3 完成这个任务要花 705 美元。"
+ },
+ {
+  "seg": 54,
+  "start": 237.794,
+  "end": 238.915,
+  "speaker": "Unknown",
+  "en": "And look at the others.",
+  "zh": "再看看其他的。"
+ },
+ {
+  "seg": 55,
+  "start": 238.935,
+  "end": 240.896,
+  "speaker": "Unknown",
+  "en": "Minimax 2.7 is one of my favorites.",
+  "zh": "Minimax 2.7 是我最喜欢的之一。"
+ },
+ {
+  "seg": 56,
+  "start": 247.782,
+  "end": 255.047,
+  "speaker": "Unknown",
+  "en": "The cost per token is 1.5, and the cost for the task is $148.",
+  "zh": "每 token 成本是 1.5，任务成本是 148 美元。"
+ },
+ {
+  "seg": 57,
+  "start": 255.747,
+  "end": 258.309,
+  "speaker": "Unknown",
+  "en": "It means the models are not the same.",
+  "zh": "这意味着这些模型是不一样的。"
+ },
+ {
+  "seg": 58,
+  "start": 258.389,
+  "end": 262.552,
+  "speaker": "Unknown",
+  "en": "They don't cost the same, but they're also not the same per task.",
+  "zh": "它们成本不一样，而且按任务算它们也不一样。"
+ },
+ {
+  "seg": 59,
+  "start": 263.921,
+  "end": 267.384,
+  "speaker": "Unknown",
+  "en": "And that's why we built our coding agent.",
+  "zh": "这就是我们构建自己编程智能体的原因。"
+ },
+ {
+  "seg": 60,
+  "start": 267.945,
+  "end": 280.117,
+  "speaker": "Unknown",
+  "en": "Would it be nice that you have an automated fashion, automated engine, automated harness that will select the right model for the task at the right time based on the outcome of the task?",
+  "zh": "如果你能有一个自动化的方式、自动化的引擎、自动化的框架，基于任务的结果在合适的时机为任务选择合适的模型，那是不是很棒？"
+ },
+ {
+  "seg": 61,
+  "start": 281.458,
+  "end": 283.981,
+  "speaker": "Unknown",
+  "en": "That is what we did with Kimchi Coding.",
+  "zh": "这就是我们用 Kimchi Coding 做的事。"
+ },
+ {
+  "seg": 62,
+  "start": 284.681,
+  "end": 287.304,
+  "speaker": "Unknown",
+  "en": "That is what Zilvinas did with his team.",
+  "zh": "这也是 Zilvinas 和他的团队做的事。"
+ },
+ {
+  "seg": 63,
+  "start": 288.755,
+  "end": 289.956,
+  "speaker": "Unknown",
+  "en": "And here is the result.",
+  "zh": "而这就是结果。"
+ },
+ {
+  "seg": 64,
+  "start": 290.036,
+  "end": 293.338,
+  "speaker": "Unknown",
+  "en": "We've been using it for three months.",
+  "zh": "我们已经用了三个月。"
+ },
+ {
+  "seg": 65,
+  "start": 293.419,
+  "end": 298.482,
+  "speaker": "Unknown",
+  "en": "2.5 times the amount of savings we have over Claude for the period.",
+  "zh": "在此期间，比使用 Claude 节省了 2.5 倍。"
+ },
+ {
+  "seg": 66,
+  "start": 298.963,
+  "end": 303.706,
+  "speaker": "Unknown",
+  "en": "This is a graph of what would have been our Claude bill by day.",
+  "zh": "这是一张图表，显示按天计算的我们本应支付给 Claude 的账单。"
+ },
+ {
+  "seg": 67,
+  "start": 305.528,
+  "end": 311.172,
+  "speaker": "Unknown",
+  "en": "The purple one on top is what would have been Claude cost over time.",
+  "zh": "上面紫色的那条是随着时间推移本应产生的 Claude 成本。"
+ },
+ {
+  "seg": 68,
+  "start": 312.112,
+  "end": 314.614,
+  "speaker": "Unknown",
+  "en": "The blue line is what we paid.",
+  "zh": "蓝线是我们实际支付的。"
+ },
+ {
+  "seg": 69,
+  "start": 316.996,
+  "end": 318.057,
+  "speaker": "Unknown",
+  "en": "Same outcome.",
+  "zh": "结果相同。"
+ },
+ {
+  "seg": 70,
+  "start": 319.225,
+  "end": 319.785,
+  "speaker": "Unknown",
+  "en": "But look at this.",
+  "zh": "但看看这个。"
+ },
+ {
+  "seg": 71,
+  "start": 320.205,
+  "end": 324.386,
+  "speaker": "Unknown",
+  "en": "The number of tokens increased by 1.5 times.",
+  "zh": "token 数量增加了 1.5 倍。"
+ },
+ {
+  "seg": 72,
+  "start": 326.107,
+  "end": 327.287,
+  "speaker": "Unknown",
+  "en": "OK, we all experienced that.",
+  "zh": "好的，我们都有过这种体验。"
+ },
+ {
+  "seg": 73,
+  "start": 328.768,
+  "end": 332.329,
+  "speaker": "Unknown",
+  "en": "The cost to Claude decreased by 1.5 times.",
+  "zh": "而给 Claude 的成本下降了 1.5 倍。"
+ },
+ {
+  "seg": 74,
+  "start": 334.389,
+  "end": 336.01,
+  "speaker": "Unknown",
+  "en": "This is our job as managers.",
+  "zh": "这就是我们作为管理者的工作。"
+ },
+ {
+  "seg": 75,
+  "start": 336.35,
+  "end": 345.693,
+  "speaker": "Unknown",
+  "en": "We provide to our team a coding agent that is essentially unlimited because of that coding agent is growing 3x less, 2.5 times less.",
+  "zh": "我们为团队提供一个本质上无限制的编程智能体，因为有了这个编程智能体，成本增长少了 3 倍、少了 2.5 倍。"
+ },
+ {
+  "seg": 76,
+  "start": 347.787,
+  "end": 350.93,
+  "speaker": "Unknown",
+  "en": "Then the growth of token for the task.",
+  "zh": "相比之下是任务的 token 增长。"
+ },
+ {
+  "seg": 77,
+  "start": 352.711,
+  "end": 353.692,
+  "speaker": "Unknown",
+  "en": "There's another result.",
+  "zh": "还有另一个结果。"
+ },
+ {
+  "seg": 78,
+  "start": 354.553,
+  "end": 356.214,
+  "speaker": "Unknown",
+  "en": "The multimodal I showed you before.",
+  "zh": "是我之前给你们展示的多模态。"
+ },
+ {
+  "seg": 79,
+  "start": 357.415,
+  "end": 364.121,
+  "speaker": "Unknown",
+  "en": "I'm going to show you the evolution of the selection of the model over time by the harness.",
+  "zh": "我要给你们展示框架随时间推移的模型选择演变。"
+ },
+ {
+  "seg": 80,
+  "start": 365.622,
+  "end": 366.623,
+  "speaker": "Unknown",
+  "en": "And here it looks like.",
+  "zh": "它看起来是这样的。"
+ },
+ {
+  "seg": 81,
+  "start": 367.063,
+  "end": 371.747,
+  "speaker": "Unknown",
+  "en": "You see there is a lot of orange early June, and there is a lot of yellow.",
+  "zh": "你可以看到六月初有大量橙色，还有大量黄色。"
+ },
+ {
+  "seg": 82,
+  "start": 373.092,
+  "end": 373.772,
+  "speaker": "Unknown",
+  "en": "Late June.",
+  "zh": "六月底。"
+ },
+ {
+  "seg": 83,
+  "start": 374.633,
+  "end": 378.974,
+  "speaker": "Unknown",
+  "en": "There's a complete shift, meaning the harness is selecting a very different model.",
+  "zh": "发生了完全的转变，意味着框架选择了非常不同的模型。"
+ },
+ {
+  "seg": 84,
+  "start": 379.014,
+  "end": 381.795,
+  "speaker": "Unknown",
+  "en": "It happened the 12th of June.",
+  "zh": "这发生在 6 月 12 日。"
+ },
+ {
+  "seg": 85,
+  "start": 383.915,
+  "end": 385.916,
+  "speaker": "Unknown",
+  "en": "And this is what happened the 12th of June.",
+  "zh": "而这就是 6 月 12 日发生的事。"
+ },
+ {
+  "seg": 86,
+  "start": 387.277,
+  "end": 394.779,
+  "speaker": "Unknown",
+  "en": "The 3rd of June, Kimi 2.6 is winning by far the most popular of the harness.",
+  "zh": "6 月 3 日，Kimi 2.6 遥遥领先，是框架中最受欢迎的。"
+ },
+ {
+  "seg": 87,
+  "start": 394.859,
+  "end": 397.8,
+  "speaker": "Unknown",
+  "en": "21st of June, the one winning is Minimax 3.",
+  "zh": "6 月 21 日，胜出的是 Minimax 3。"
+ },
+ {
+  "seg": 88,
+  "start": 399.835,
+  "end": 406.318,
+  "speaker": "Unknown",
+  "en": "Us as human, probably we can find and understand and test and be comfortable with a new model coming in.",
+  "zh": "我们作为人类，大概能够发现、理解并测试一个新模型的加入，并且适应它。"
+ },
+ {
+  "seg": 89,
+  "start": 406.799,
+  "end": 408.74,
+  "speaker": "Unknown",
+  "en": "Do you think we look at this as human?",
+  "zh": "你觉得我们会作为人类盯着这个看吗？"
+ },
+ {
+  "seg": 90,
+  "start": 410.06,
+  "end": 410.881,
+  "speaker": "Unknown",
+  "en": "Absolutely not.",
+  "zh": "绝对不会。"
+ },
+ {
+  "seg": 91,
+  "start": 411.581,
+  "end": 421.026,
+  "speaker": "Unknown",
+  "en": "But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+  "zh": "但一个自主的框架，一个痴迷于 token 成本的自动化编程智能体，就会做到这一点。"
+ },
+ {
+  "seg": 92,
+  "start": 423.825,
+  "end": 435.05,
+  "speaker": "Unknown",
+  "en": "That is what I mean when I say our responsibility is to think about providing our developers with the right cost per token for the same outcome.",
+  "zh": "这就是我的意思，当我说我们的责任是思考如何为开发者提供相同的产出下每 token 的合适成本。"
+ },
+ {
+  "seg": 93,
+  "start": 436.11,
+  "end": 438.791,
+  "speaker": "Unknown",
+  "en": "It is our responsibility to do it.",
+  "zh": "做这件事是我们的责任。"
+ },
+ {
+  "seg": 94,
+  "start": 439.651,
+  "end": 445.814,
+  "speaker": "Unknown",
+  "en": "Zivinas is going to tell you a little bit more of how it works because whatever you're going to see, it's open source.",
+  "zh": "Zivinas 将会多讲一点它是如何运作的，因为不管你将看到什么，它都是开源的。"
+ },
+ {
+  "seg": 95,
+  "start": 447.595,
+  "end": 448.135,
+  "speaker": "Unknown",
+  "en": "Go, Zivinas.",
+  "zh": "上吧，Zivinas。"
+ },
+ {
+  "seg": 96,
+  "start": 450.745,
+  "end": 452.57,
+  "speaker": "Unknown",
+  "en": "Okay, so one more thing to mention.",
+  "zh": "好的，还要提一件事。"
+ },
+ {
+  "seg": 97,
+  "start": 452.63,
+  "end": 456.961,
+  "speaker": "Unknown",
+  "en": "So Laura mentioned that TokenMax is no longer an option for everyone.",
+  "zh": "Laura 提到 TokenMax 已经不再是人人可得的选项了。"
+ },
+ {
+  "seg": 98,
+  "start": 458.487,
+  "end": 467.715,
+  "speaker": "Unknown",
+  "en": "As a manager at the company, as most of you guys probably heard, having unlimited amount of tokens to spend is no longer looking to be a case.",
+  "zh": "作为公司里的管理者，你们大多数人可能都听说了，有无限量的 token 可以花这件事，看起来已经不复存在了。"
+ },
+ {
+  "seg": 99,
+  "start": 467.935,
+  "end": 474.541,
+  "speaker": "Unknown",
+  "en": "And we had to build this harness for ourselves, meaning we ended up spending too much on Claude Code.",
+  "zh": "我们不得不为自己构建这个框架，也就是说我们最终在 Claude Code 上花得太多了。"
+ },
+ {
+  "seg": 100,
+  "start": 474.581,
+  "end": 479.265,
+  "speaker": "Unknown",
+  "en": "Half a year ago, we saw this Claude build skyrocketing, and we started working on our own harness.",
+  "zh": "半年前，我们看到 Claude build 飙升，于是我们开始开发自己的 harness。"
+ },
+ {
+  "seg": 101,
+  "start": 479.825,
+  "end": 485.93,
+  "speaker": "Unknown",
+  "en": "Behind the scenes, it's using PyMono SSDK, but the goal of that is to take the open source experience",
+  "zh": "在幕后，它使用的是 PyMono SSDK，但它的目标是带来开源体验"
+ },
+ {
+  "seg": 102,
+  "start": 486.571,
+  "end": 505.298,
+  "speaker": "Unknown",
+  "en": "We still contribute back to open source by providing our own harnesses open source, building constructs like Ferment, which fits into the kimchi theme, which is meant for long-running tasks where, on average, we estimate the human envelope for these tasks is typically happening only every two hours, every three hours, and et cetera.",
+  "zh": "我们仍然回馈开源，将我们自己的 harness 开源，构建像 Ferment 这样的构造，它契合 kimchi 主题，专为长时间运行的任务而设计，我们估计这些任务的人类介入周期通常平均只有每两小时、每三小时一次等等。"
+ },
+ {
+  "seg": 103,
+  "start": 505.318,
+  "end": 514.962,
+  "speaker": "Unknown",
+  "en": "So the goal is you use kimchi harness, you run a Ferment process, it asks you a bunch of questions, and autonomously runs a coding task for more than two hours.",
+  "zh": "所以目标是：你使用 kimchi harness，运行一个 Ferment 进程，它会问你一堆问题，然后自主运行一个编码任务超过两小时。"
+ },
+ {
+  "seg": 104,
+  "start": 515.962,
+  "end": 525.806,
+  "speaker": "Unknown",
+  "en": "The goal of that is that because it breaks it into milestones, it knows how to implement it, and at the end of the cycle, you would get scoring for your output so you would actually know what's happening.",
+  "zh": "它的目标是，因为它把任务分解成里程碑，它知道如何实现，而在周期结束时，你会得到输出的评分，这样你就能真正知道发生了什么。"
+ },
+ {
+  "seg": 105,
+  "start": 526.386,
+  "end": 540.632,
+  "speaker": "Unknown",
+  "en": "And going back to previously discussed the amount of models used with kimchi harness, the scoring is there to prove you that whatever model we will pick for you, you will always have good enough scoring for the output on the task you are implementing.",
+  "zh": "回到之前讨论的 kimchi harness 所使用模型的数量，评分是为了向你证明，无论我们为你选择什么模型，你在所实现任务上的输出总能获得足够好的评分。"
+ },
+ {
+  "seg": 106,
+  "start": 541.65,
+  "end": 551.432,
+  "speaker": "Unknown",
+  "en": "The way the whole kimchi platform works, the goal is we are not just providing you the coding harness, we want to provide you the full software development lifecycle solution.",
+  "zh": "就像你们大多数人可能注意到的那样，今年以来，我们在编码环境中做的 vibe engineering 或 agentic engineering 越多，我们的变更集中得到的代码变更就越多，它变得有点让人难以阅读，尤其是当你持续把一些技术性没那么强的人员引入你的流水线时。"
+ },
+ {
+  "seg": 107,
+  "start": 552.012,
+  "end": 556.433,
+  "speaker": "Unknown",
+  "en": "So you do a change, it runs a build for you, it checks if something broke.",
+  "zh": "所以你做一个变更，它为你运行一次构建，检查是否有东西坏了。"
+ },
+ {
+  "seg": 108,
+  "start": 556.453,
+  "end": 562.994,
+  "speaker": "Unknown",
+  "en": "If something broke, it will go back, do a change again, rebuild again, and that's how this fermentation process looks.",
+  "zh": "如果有东西坏了，它会回去，再做一次变更，再重新构建，这就是这个发酵过程的模样。"
+ },
+ {
+  "seg": 109,
+  "start": 563.714,
+  "end": 570.095,
+  "speaker": "Unknown",
+  "en": "If everything is complete, there is no extra remediation that needs to be done, the changes will be deployed to the staging environment.",
+  "zh": "如果一切都完成了，没有需要额外修复的地方，变更就会被部署到 staging 环境。"
+ },
+ {
+  "seg": 110,
+  "start": 571.363,
+  "end": 590.05,
+  "speaker": "Unknown",
+  "en": "You see, what I like with the ways you explain it is the harness select the model, Ferment is constantly checking the quality of the code and going back, meaning there is a higher order model that is checking that quality and thinking that quality is not good enough.",
+  "zh": "你看，我喜欢你解释方式的地方在于 harness 选择模型，Ferment 不断检查代码质量并回退重来，也就是说存在一个更高阶的模型在检查质量，并认为质量还不够好。"
+ },
+ {
+  "seg": 111,
+  "start": 590.11,
+  "end": 591.111,
+  "speaker": "Unknown",
+  "en": "Please do it again.",
+  "zh": "请再做一遍。"
+ },
+ {
+  "seg": 112,
+  "start": 592.1,
+  "end": 601.583,
+  "speaker": "Unknown",
+  "en": "This is what I was saying earlier by it looks at the outcome, and it's optimizing the token based on the quality of the outcome.",
+  "zh": "这就是我之前所说的：它看的是结果，并根据结果的质量来优化 token。"
+ },
+ {
+  "seg": 113,
+  "start": 602.203,
+  "end": 604.064,
+  "speaker": "Unknown",
+  "en": "That is what is super cool with Ferment.",
+  "zh": "这就是 Ferment 非常酷的地方。"
+ },
+ {
+  "seg": 114,
+  "start": 604.244,
+  "end": 604.444,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 115,
+  "start": 604.784,
+  "end": 611.286,
+  "speaker": "Unknown",
+  "en": "And Artifact is only considered complete once the output of the scoring is at least B as a score.",
+  "zh": "而且一个 Artifact 只有在评分输出至少达到 B 级时才被视为完成。"
+ },
+ {
+  "seg": 116,
+  "start": 611.846,
+  "end": 619.148,
+  "speaker": "Unknown",
+  "en": "And even for that, if you don't like a score, you can ask the agent to go back, fix it up, and it will try to achieve A as a scoring.",
+  "zh": "甚至在此基础上，如果你不喜欢某个评分，你可以让智能体回去修复它，它会努力争取达到 A 级评分。"
+ },
+ {
+  "seg": 117,
+  "start": 621.28,
+  "end": 624.842,
+  "speaker": "Unknown",
+  "en": "The intention of stopping at the staging is currently by design.",
+  "zh": "目前止步于 staging 是有意为之的设计。"
+ },
+ {
+  "seg": 118,
+  "start": 625.682,
+  "end": 630.665,
+  "speaker": "Unknown",
+  "en": "We still believe there's like some little human that needs to be in the loop before going to the production, at least at this point.",
+  "zh": "我们仍然认为在进入生产环境之前需要有一个小小的人类在环中，至少在目前这个阶段是这样。"
+ },
+ {
+  "seg": 119,
+  "start": 631.506,
+  "end": 634.627,
+  "speaker": "Unknown",
+  "en": "We all know that the ultimate future is to avoid that.",
+  "zh": "我们都知道终极未来是要避免这一点。"
+ },
+ {
+  "seg": 120,
+  "start": 634.647,
+  "end": 641.151,
+  "speaker": "Unknown",
+  "en": "You go to production, you look at the metrics, you look at the observability data, the metrics you have in your environment.",
+  "zh": "你部署到生产环境，查看指标，查看可观测性数据，查看你环境中的各项指标。"
+ },
+ {
+  "seg": 121,
+  "start": 641.691,
+  "end": 646.637,
+  "speaker": "Unknown",
+  "en": "If you're running on Kubernetes, you want to check if the pods are not crashing, if application health checks are passing.",
+  "zh": "如果你运行在 Kubernetes 上，你想检查 pod 是否没有崩溃，应用健康检查是否通过。"
+ },
+ {
+  "seg": 122,
+  "start": 646.697,
+  "end": 651.303,
+  "speaker": "Unknown",
+  "en": "So all of these things need to be done before it's shipped to production automatically.",
+  "zh": "所以所有这些事情都需要在它自动发布到生产环境之前完成。"
+ },
+ {
+  "seg": 123,
+  "start": 651.804,
+  "end": 653.806,
+  "speaker": "Unknown",
+  "en": "So this is like one of the things that are coming.",
+  "zh": "所以这是即将到来的事情之一。"
+ },
+ {
+  "seg": 124,
+  "start": 653.826,
+  "end": 658.993,
+  "speaker": "Unknown",
+  "en": "So the current limitation, we have stopped staging, but we'll go to production and further on that.",
+  "zh": "所以当前的局限是，我们止步于 staging，但我们会进一步走向生产环境。"
+ },
+ {
+  "seg": 125,
+  "start": 661.405,
+  "end": 664.247,
+  "speaker": "Unknown",
+  "en": "What we believe is that reading code is not enough anymore.",
+  "zh": "我们所相信的是，仅仅阅读代码已经不够了。"
+ },
+ {
+  "seg": 126,
+  "start": 664.287,
+  "end": 683.824,
+  "speaker": "Unknown",
+  "en": "So like probably most of you noticed like across this year like the more vibe engineering or agentic engineering we do in our coding environments, the more code changes we get in our change sets and it kind of becomes unbearable to read, especially as you keep bringing like a little bit of less technical personnel into your pipelines.",
+  "zh": "所以可能你们大多数人都在这一年里注意到，我们在编码环境中做的越多的 vibe 工程或智能体工程，我们的变更集里得到的代码改动就越多，读起来就变得有点难以忍受，尤其是当你不断把一些技术性稍微弱一点的人员引入你的流程时。"
+ },
+ {
+  "seg": 127,
+  "start": 684.284,
+  "end": 686.706,
+  "speaker": "Unknown",
+  "en": "So imagine like product manager doing the coding or",
+  "zh": "想象一下产品经理在做编码，或者"
+ },
+ {
+  "seg": 128,
+  "start": 687.547,
+  "end": 703.443,
+  "speaker": "Unknown",
+  "en": "My dear colleague Laura starting to do some coding and suddenly he comes up with the PR which is like 2,000 lines long and you need to actually review not just the differences but the actual intent which he wanted to achieve and the specifications which he provided to the coding agent.",
+  "zh": "我亲爱的同事 Laura 开始做一些编码，突然他提交了一个长达 2000 行的 PR，而你需要真正审查的不仅是差异，还有他想要达成的实际意图以及他提供给编码智能体的规格说明。"
+ },
+ {
+  "seg": 129,
+  "start": 704.223,
+  "end": 704.804,
+  "speaker": "Unknown",
+  "en": "So, yeah.",
+  "zh": "所以，是的。"
+ },
+ {
+  "seg": 130,
+  "start": 706.543,
+  "end": 707.104,
+  "speaker": "Unknown",
+  "en": "Moving on.",
+  "zh": "继续往下。"
+ },
+ {
+  "seg": 131,
+  "start": 708.305,
+  "end": 712.028,
+  "speaker": "Unknown",
+  "en": "One thing we built more on top of that is the thing we called kimchi teleport.",
+  "zh": "我们在此基础上构建的另一个东西，我们称之为 kimchi teleport。"
+ },
+ {
+  "seg": 132,
+  "start": 712.508,
+  "end": 714.75,
+  "speaker": "Unknown",
+  "en": "So kimchi teleport allows you to close your laptop.",
+  "zh": "kimchi teleport 允许你合上笔记本电脑。"
+ },
+ {
+  "seg": 133,
+  "start": 714.811,
+  "end": 717.573,
+  "speaker": "Unknown",
+  "en": "It spins up sandbox in the remote environment.",
+  "zh": "它在远程环境中启动一个沙箱。"
+ },
+ {
+  "seg": 134,
+  "start": 717.653,
+  "end": 720.155,
+  "speaker": "Unknown",
+  "en": "It's a secure sandbox where you don't need to care about anything.",
+  "zh": "这是一个安全的沙箱，你不需要操心任何事情。"
+ },
+ {
+  "seg": 135,
+  "start": 720.195,
+  "end": 721.637,
+  "speaker": "Unknown",
+  "en": "We can do that both on our",
+  "zh": "我们既可以在我们的"
+ },
+ {
+  "seg": 136,
+  "start": 722.197,
+  "end": 722.858,
+  "speaker": "Unknown",
+  "en": "SaaS platform.",
+  "zh": "SaaS 平台上做到这一点。"
+ },
+ {
+  "seg": 137,
+  "start": 722.878,
+  "end": 728.983,
+  "speaker": "Unknown",
+  "en": "We can ship it to your on-premise deployments if you're like a financial technology company and things like that.",
+  "zh": "如果你是一家金融科技公司之类的，我们也可以把它交付到你的本地部署环境。"
+ },
+ {
+  "seg": 138,
+  "start": 729.043,
+  "end": 731.545,
+  "speaker": "Unknown",
+  "en": "So we will manage agent sessions for you.",
+  "zh": "所以我们会为你管理智能体会话。"
+ },
+ {
+  "seg": 139,
+  "start": 731.565,
+  "end": 732.706,
+  "speaker": "Unknown",
+  "en": "We will make sure we are running.",
+  "zh": "我们会确保我们在运行。"
+ },
+ {
+  "seg": 140,
+  "start": 732.746,
+  "end": 736.129,
+  "speaker": "Unknown",
+  "en": "We are accessible both from your laptop, from mobile devices.",
+  "zh": "我们既可以从你的笔记本电脑访问，也可以从移动设备访问。"
+ },
+ {
+  "seg": 141,
+  "start": 736.169,
+  "end": 737.25,
+  "speaker": "Unknown",
+  "en": "We are running in the background.",
+  "zh": "我们在后台运行。"
+ },
+ {
+  "seg": 142,
+  "start": 737.29,
+  "end": 743.836,
+  "speaker": "Unknown",
+  "en": "So it goes back and ties to the story that I mentioned that the human in the loop is only appearing like every two or three hours.",
+  "zh": "所以这又回到并呼应了我之前提到的故事：人类在环中只每两三个小时左右出现一次。"
+ },
+ {
+  "seg": 143,
+  "start": 744.316,
+  "end": 746.018,
+  "speaker": "Unknown",
+  "en": "So teleport emphasizes that.",
+  "zh": "teleport 强调的正是这一点。"
+ },
+ {
+  "seg": 144,
+  "start": 746.989,
+  "end": 747.949,
+  "speaker": "Unknown",
+  "en": "You run your process.",
+  "zh": "你运行你的进程。"
+ },
+ {
+  "seg": 145,
+  "start": 747.989,
+  "end": 750.63,
+  "speaker": "Unknown",
+  "en": "You teleport it to the remote environment.",
+  "zh": "你把它传送到远程环境。"
+ },
+ {
+  "seg": 146,
+  "start": 750.711,
+  "end": 751.911,
+  "speaker": "Unknown",
+  "en": "VM spins up in the background.",
+  "zh": "VM 在后台启动。"
+ },
+ {
+  "seg": 147,
+  "start": 751.931,
+  "end": 753.232,
+  "speaker": "Unknown",
+  "en": "You don't need to care about it.",
+  "zh": "你不需要操心它。"
+ },
+ {
+  "seg": 148,
+  "start": 753.272,
+  "end": 757.653,
+  "speaker": "Unknown",
+  "en": "We will make sure it's the right size, it's the right security requirements, and everything else.",
+  "zh": "我们会确保它大小合适、符合安全要求以及所有其他事项。"
+ },
+ {
+  "seg": 149,
+  "start": 757.713,
+  "end": 767.337,
+  "speaker": "Unknown",
+  "en": "And it will keep on running until the task is done or until the human in the loop needs to be involved, get notifications for some clarification of specs and things like that.",
+  "zh": "它会持续运行，直到任务完成，或者直到需要人类在环中介入，比如收到一些关于规格澄清之类的通知。"
+ },
+ {
+  "seg": 150,
+  "start": 767.357,
+  "end": 769.998,
+  "speaker": "Unknown",
+  "en": "GABRIEL SANCHEZ- Guys, I really like this idea.",
+  "zh": "GABRIEL SANCHEZ- 伙计们，我真的很喜欢这个想法。"
+ },
+ {
+  "seg": 151,
+  "start": 770.458,
+  "end": 771.639,
+  "speaker": "Unknown",
+  "en": "Look at this.",
+  "zh": "看看这个。"
+ },
+ {
+  "seg": 152,
+  "start": 771.919,
+  "end": 773.84,
+  "speaker": "Unknown",
+  "en": "This is a screenshot of teleport.",
+  "zh": "这是 teleport 的截图。"
+ },
+ {
+  "seg": 153,
+  "start": 774.982,
+  "end": 779.706,
+  "speaker": "Unknown",
+  "en": "I am puzzled that sometimes innovations are always the simplest one.",
+  "zh": "我很困惑，有时候创新总是最简单的那个。"
+ },
+ {
+  "seg": 154,
+  "start": 780.326,
+  "end": 786.071,
+  "speaker": "Unknown",
+  "en": "This was born out of the idea that one of us was in the plane coding.",
+  "zh": "这个想法源于我们中有一个人在飞机上写代码。"
+ },
+ {
+  "seg": 155,
+  "start": 786.972,
+  "end": 788.293,
+  "speaker": "Unknown",
+  "en": "And then Wi-Fi breaks.",
+  "zh": "然后 Wi-Fi 断了。"
+ },
+ {
+  "seg": 156,
+  "start": 789.053,
+  "end": 790.675,
+  "speaker": "Unknown",
+  "en": "And what do you do when Wi-Fi breaks?",
+  "zh": "当 Wi-Fi 断了的时候你会怎么办？"
+ },
+ {
+  "seg": 157,
+  "start": 790.755,
+  "end": 794.378,
+  "speaker": "Unknown",
+  "en": "It breaks the coding because it lives inside your thing.",
+  "zh": "它把写代码搞断了，因为它存在于你的机器里。"
+ },
+ {
+  "seg": 158,
+  "start": 795.899,
+  "end": 796.98,
+  "speaker": "Unknown",
+  "en": "I think it was not the Wi-Fi.",
+  "zh": "我觉得其实不是 Wi-Fi 的问题。"
+ },
+ {
+  "seg": 159,
+  "start": 797.04,
+  "end": 798.221,
+  "speaker": "Unknown",
+  "en": "It was the battery that broke.",
+  "zh": "是电池没电了。"
+ },
+ {
+  "seg": 160,
+  "start": 799.602,
+  "end": 800.242,
+  "speaker": "Unknown",
+  "en": "Not the Wi-Fi.",
+  "zh": "不是 Wi-Fi。"
+ },
+ {
+  "seg": 161,
+  "start": 800.643,
+  "end": 801.363,
+  "speaker": "Unknown",
+  "en": "So you lost.",
+  "zh": "所以你输了。"
+ },
+ {
+  "seg": 162,
+  "start": 801.583,
+  "end": 802.524,
+  "speaker": "Unknown",
+  "en": "So that's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 163,
+  "start": 804.033,
+  "end": 804.694,
+  "speaker": "Unknown",
+  "en": "Stop there.",
+  "zh": "先停在这里。"
+ },
+ {
+  "seg": 164,
+  "start": 805.174,
+  "end": 808.196,
+  "speaker": "Unknown",
+  "en": "What Teleport does is it takes all your environments.",
+  "zh": "Teleport 做的事情是把你所有的环境拿过来。"
+ },
+ {
+  "seg": 165,
+  "start": 808.557,
+  "end": 813.341,
+  "speaker": "Unknown",
+  "en": "It synchronizes with a container that lives inside one of the hyperscalers.",
+  "zh": "它与一个生活在超大规模云厂商里面的容器同步。"
+ },
+ {
+  "seg": 166,
+  "start": 813.741,
+  "end": 814.822,
+  "speaker": "Unknown",
+  "en": "In other case, it's Google.",
+  "zh": "在这个例子里，是 Google。"
+ },
+ {
+  "seg": 167,
+  "start": 816.443,
+  "end": 819.466,
+  "speaker": "Unknown",
+  "en": "And locally on your laptop, it feels exactly the same.",
+  "zh": "而在本地你的笔记本上，感觉完全一样。"
+ },
+ {
+  "seg": 168,
+  "start": 819.866,
+  "end": 822.088,
+  "speaker": "Unknown",
+  "en": "It just doesn't run inside your laptop.",
+  "zh": "只不过它不是在你的笔记本里运行。"
+ },
+ {
+  "seg": 169,
+  "start": 822.388,
+  "end": 823.329,
+  "speaker": "Unknown",
+  "en": "It feels like it.",
+  "zh": "只是感觉像在运行。"
+ },
+ {
+  "seg": 170,
+  "start": 825.349,
+  "end": 836.878,
+  "speaker": "Unknown",
+  "en": "It runs somewhere else in your environment, in a container, in a Kubernetes cluster, inside the place at Google, that will continue running even if you close your laptop.",
+  "zh": "它在你的环境里的其他地方运行，在一个容器里，在一个 Kubernetes 集群里，在 Google 的机房里，即使你合上笔记本它也会继续运行。"
+ },
+ {
+  "seg": 171,
+  "start": 837.499,
+  "end": 838.88,
+  "speaker": "Unknown",
+  "en": "How simple that is.",
+  "zh": "这有多简单。"
+ },
+ {
+  "seg": 172,
+  "start": 840.041,
+  "end": 843.184,
+  "speaker": "Unknown",
+  "en": "And yet, our favorite tool is this one.",
+  "zh": "而且呢，我们最喜欢的工具就是这个。"
+ },
+ {
+  "seg": 173,
+  "start": 843.784,
+  "end": 850.75,
+  "speaker": "Unknown",
+  "en": "I think the last one I looked at is 62% of our engineers are only using teleports when they are coding now.",
+  "zh": "我上次看的数据是，我们 62% 的工程师现在写代码时只用 teleport。"
+ },
+ {
+  "seg": 174,
+  "start": 851.668,
+  "end": 853.51,
+  "speaker": "Unknown",
+  "en": "For that problem, they go home, it continues.",
+  "zh": "因为有了它，他们回家了，它还在继续。"
+ },
+ {
+  "seg": 175,
+  "start": 854.35,
+  "end": 856.092,
+  "speaker": "Unknown",
+  "en": "They're in transit, it continues.",
+  "zh": "他们在路上，它在继续。"
+ },
+ {
+  "seg": 176,
+  "start": 857.173,
+  "end": 859.535,
+  "speaker": "Unknown",
+  "en": "They're on holiday, they don't look at it anymore.",
+  "zh": "他们在度假，不再看它了。"
+ },
+ {
+  "seg": 177,
+  "start": 859.975,
+  "end": 860.576,
+  "speaker": "Unknown",
+  "en": "It continues.",
+  "zh": "它还在继续。"
+ },
+ {
+  "seg": 178,
+  "start": 862.197,
+  "end": 863.378,
+  "speaker": "Unknown",
+  "en": "That's so cool, huh?",
+  "zh": "这太酷了，对吧？"
+ },
+ {
+  "seg": 179,
+  "start": 864.594,
+  "end": 866.315,
+  "speaker": "Unknown",
+  "en": "So there is more to that.",
+  "zh": "所以还有更多的东西。"
+ },
+ {
+  "seg": 180,
+  "start": 866.395,
+  "end": 868.975,
+  "speaker": "Unknown",
+  "en": "So we built another tool called Kimchi Studio.",
+  "zh": "于是我们造了另一个工具，叫 Kimchi Studio。"
+ },
+ {
+  "seg": 181,
+  "start": 869.515,
+  "end": 875.857,
+  "speaker": "Unknown",
+  "en": "If the teleport is something typically individual uses, Studio is kind of like a teleport for teams and enterprises.",
+  "zh": "如果说 teleport 通常是个人用的东西，那 Studio 就有点像是给团队和企业用的 teleport。"
+ },
+ {
+  "seg": 182,
+  "start": 876.457,
+  "end": 881.019,
+  "speaker": "Unknown",
+  "en": "The goal behind the Studio is that you have this kind of like board on your environment.",
+  "zh": "Studio 背后的目标是，你在环境上拥有这样一块看板。"
+ },
+ {
+  "seg": 183,
+  "start": 881.319,
+  "end": 884.36,
+  "speaker": "Unknown",
+  "en": "It, again, runs in the teleport sandboxes in the secure environment.",
+  "zh": "它同样运行在安全环境中的 teleport 沙箱里。"
+ },
+ {
+  "seg": 184,
+  "start": 885.16,
+  "end": 894.505,
+  "speaker": "Unknown",
+  "en": "The thing here is like you're supposed to share your tasks and work in progress and plans which are made by the kimchi code harness with open source or proprietary models with your teams.",
+  "zh": "这里的事情是这样的：你应该把你的任务、进行中的工作和计划——这些是由 kimchi code harness 用开源或专有模型生成的——与你的团队共享。"
+ },
+ {
+  "seg": 185,
+  "start": 895.045,
+  "end": 901.409,
+  "speaker": "Unknown",
+  "en": "So for example, imagine you as an engineer, you are like working on a task, you started implementing, asking for a plan.",
+  "zh": "比如说，想象你是一名工程师，你正在做一个任务，你开始实现，请求一个计划。"
+ },
+ {
+  "seg": 186,
+  "start": 901.929,
+  "end": 908.033,
+  "speaker": "Unknown",
+  "en": "The plan can be easily reviewed by your colleagues, like by your peer engineer, by your product manager or someone else who cares what's happening.",
+  "zh": "这个计划可以很容易地被你的同事审阅，比如你的工程师同伴、你的产品经理，或者其他关心进展的人。"
+ },
+ {
+  "seg": 187,
+  "start": 908.993,
+  "end": 927.767,
+  "speaker": "Unknown",
+  "en": "This is how you kind of work with your whole team on collaborating on this agentic engineering journey instead of saying, oh, I'm going to type this prompt, I'm going to try to execute it to the production, only later on to learn that the specification and requirements were incorrect, the output is not what was actually wanted by the task, and things like that.",
+  "zh": "这就是你和整个团队在这个智能体工程旅程上协作的方式，而不是说，哦，我要输入这个提示词，我要尝试把它执行到生产环境，结果到后来才发现规格和需求是错的，输出也不是任务真正想要的东西，诸如此类。"
+ },
+ {
+  "seg": 188,
+  "start": 928.688,
+  "end": 931.81,
+  "speaker": "Unknown",
+  "en": "And this is yet another thing we built for ourselves.",
+  "zh": "而这又是我们为自己造的另一个东西。"
+ },
+ {
+  "seg": 189,
+  "start": 931.91,
+  "end": 935.233,
+  "speaker": "Unknown",
+  "en": "We found it so cool, we decided to make it a product.",
+  "zh": "我们发现它太酷了，于是决定把它做成一个产品。"
+ },
+ {
+  "seg": 190,
+  "start": 937.17,
+  "end": 944.012,
+  "speaker": "Unknown",
+  "en": "How do you work with your colleague if what you have is a terminal, a CLI?",
+  "zh": "如果你手里只有一个终端、一个 CLI,你怎么和同事协作呢？"
+ },
+ {
+  "seg": 191,
+  "start": 944.472,
+  "end": 946.853,
+  "speaker": "Unknown",
+  "en": "How do you share that with the others?",
+  "zh": "你怎么把它分享给其他人？"
+ },
+ {
+  "seg": 192,
+  "start": 947.533,
+  "end": 949.373,
+  "speaker": "Unknown",
+  "en": "Well, first, he has to leave somewhere else.",
+  "zh": "嗯，首先，他得在别的地方存在才行。"
+ },
+ {
+  "seg": 193,
+  "start": 949.413,
+  "end": 953.094,
+  "speaker": "Unknown",
+  "en": "So Teleport is the base of what we call Studio.",
+  "zh": "所以 Teleport 是我们所称的 Studio 的基础。"
+ },
+ {
+  "seg": 194,
+  "start": 954.195,
+  "end": 962.497,
+  "speaker": "Unknown",
+  "en": "And Studio is a very nice way to visualize all the sessions that are running, including those that are asking for a review.",
+  "zh": "而 Studio 是一种非常好的方式，可以把所有正在运行的会话可视化，包括那些正在请求审阅的会话。"
+ },
+ {
+  "seg": 195,
+  "start": 963.037,
+  "end": 965.218,
+  "speaker": "Unknown",
+  "en": "And then someone in the team can say, I take it.",
+  "zh": "然后团队中的某个人可以说，我来接。"
+ },
+ {
+  "seg": 196,
+  "start": 967.1,
+  "end": 970.985,
+  "speaker": "Unknown",
+  "en": "And I answer the question that is for review.",
+  "zh": "然后回答那个等待审阅的问题。"
+ },
+ {
+  "seg": 197,
+  "start": 971.406,
+  "end": 976.853,
+  "speaker": "Unknown",
+  "en": "Then you answer it, it goes back to in progress until the next one goes into review.",
+  "zh": "你回答完之后，它回到进行中状态，直到下一个进入审阅。"
+ },
+ {
+  "seg": 198,
+  "start": 977.714,
+  "end": 983.041,
+  "speaker": "Unknown",
+  "en": "And you can have many, many of those in a team, in a pizza team, a team of five to 10 guys.",
+  "zh": "而且在一个团队里可以有很多很多这样的东西，在一个披萨团队里，一个五到十个人的团队。"
+ },
+ {
+  "seg": 199,
+  "start": 984.772,
+  "end": 985.553,
+  "speaker": "Unknown",
+  "en": "Think about it.",
+  "zh": "想想看。"
+ },
+ {
+  "seg": 200,
+  "start": 985.793,
+  "end": 992.618,
+  "speaker": "Unknown",
+  "en": "Yet a very simple innovation that is so essential in how our engineers are coding.",
+  "zh": "然而一个如此简单的创新,却在我们工程师的编码方式中如此重要。"
+ },
+ {
+  "seg": 201,
+  "start": 993.378,
+  "end": 996.08,
+  "speaker": "Unknown",
+  "en": "They can now share in a very simple way.",
+  "zh": "他们现在可以用一种非常简单的方式共享。"
+ },
+ {
+  "seg": 202,
+  "start": 996.24,
+  "end": 997.321,
+  "speaker": "Unknown",
+  "en": "It's a browser.",
+  "zh": "它是一个浏览器。"
+ },
+ {
+  "seg": 203,
+  "start": 997.762,
+  "end": 998.482,
+  "speaker": "Unknown",
+  "en": "It's graphical.",
+  "zh": "它是图形化的。"
+ },
+ {
+  "seg": 204,
+  "start": 998.822,
+  "end": 1007.949,
+  "speaker": "Unknown",
+  "en": "They can share and they can take over the task according to the Kanban style of what is in review, what is in progress.",
+  "zh": "他们可以共享,并且可以根据看板风格接手任务——哪些在评审中、哪些在进行中。"
+ },
+ {
+  "seg": 205,
+  "start": 1008.229,
+  "end": 1010.291,
+  "speaker": "Unknown",
+  "en": "They can start new ones with backlog.",
+  "zh": "他们可以从 backlog 开始新的任务。"
+ },
+ {
+  "seg": 206,
+  "start": 1010.571,
+  "end": 1011.171,
+  "speaker": "Unknown",
+  "en": "And you know what?",
+  "zh": "而且你知道吗?"
+ },
+ {
+  "seg": 207,
+  "start": 1011.752,
+  "end": 1014.374,
+  "speaker": "Unknown",
+  "en": "If they close the laptop, it continues.",
+  "zh": "如果他们合上笔记本,任务会继续运行。"
+ },
+ {
+  "seg": 208,
+  "start": 1015.977,
+  "end": 1016.638,
+  "speaker": "Unknown",
+  "en": "This is so cool.",
+  "zh": "这太酷了。"
+ },
+ {
+  "seg": 209,
+  "start": 1018.479,
+  "end": 1019.2,
+  "speaker": "Unknown",
+  "en": "This is really cool.",
+  "zh": "这真的很酷。"
+ },
+ {
+  "seg": 210,
+  "start": 1019.44,
+  "end": 1023.503,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 211,
+  "start": 1023.543,
+  "end": 1026.005,
+  "speaker": "Unknown",
+  "en": "This is the one that we took over, right?",
+  "zh": "这就是我们刚接手的那个,对吧?"
+ },
+ {
+  "seg": 212,
+  "start": 1026.245,
+  "end": 1026.766,
+  "speaker": "Unknown",
+  "en": "That's the one.",
+  "zh": "就是那个。"
+ },
+ {
+  "seg": 213,
+  "start": 1027.847,
+  "end": 1032.33,
+  "speaker": "Unknown",
+  "en": "Guys, you can see this at our booth if you want to see more of it.",
+  "zh": "各位,如果你想看更多,可以到我们的展位来看看。"
+ },
+ {
+  "seg": 214,
+  "start": 1032.931,
+  "end": 1033.852,
+  "speaker": "Unknown",
+  "en": "We are in UG4.",
+  "zh": "我们在 UG4。"
+ },
+ {
+  "seg": 215,
+  "start": 1033.912,
+  "end": 1036.634,
+  "speaker": "Unknown",
+  "en": "It's exactly this way across a few streets.",
+  "zh": "就在这条路上,过几条街就到。"
+ },
+ {
+  "seg": 216,
+  "start": 1037.094,
+  "end": 1037.995,
+  "speaker": "Unknown",
+  "en": "But have a look at it.",
+  "zh": "但去看看吧。"
+ },
+ {
+  "seg": 217,
+  "start": 1038.375,
+  "end": 1038.916,
+  "speaker": "Unknown",
+  "en": "It's really good.",
+  "zh": "它真的很棒。"
+ },
+ {
+  "seg": 218,
+  "start": 1039.236,
+  "end": 1041.498,
+  "speaker": "Unknown",
+  "en": "It is open source, most of it at least.",
+  "zh": "它是开源的,至少大部分是。"
+ },
+ {
+  "seg": 219,
+  "start": 1041.978,
+  "end": 1043.54,
+  "speaker": "Unknown",
+  "en": "The harness is entirely open source.",
+  "zh": "harness 是完全开源的。"
+ },
+ {
+  "seg": 220,
+  "start": 1044.36,
+  "end": 1046.462,
+  "speaker": "Unknown",
+  "en": "Studio and Teleport, you need a Google account.",
+  "zh": "Studio 和 Teleport,你需要一个 Google 账号。"
+ },
+ {
+  "seg": 221,
+  "start": 1046.542,
+  "end": 1051.346,
+  "speaker": "Unknown",
+  "en": "It's a little bit more complicated, but it's a five-minute install.",
+  "zh": "会有点复杂一些,但安装只要五分钟。"
+ },
+ {
+  "seg": 222,
+  "start": 1052.046,
+  "end": 1057.551,
+  "speaker": "Unknown",
+  "en": "And then you get your Teleport set up, as many sessions as you want, inside your Google account.",
+  "zh": "然后你就设置好了 Teleport,想要多少会话就有多少会话,都在你的 Google 账号里。"
+ },
+ {
+  "seg": 223,
+  "start": 1058.391,
+  "end": 1063.015,
+  "speaker": "Unknown",
+  "en": "And then you can share it with your colleagues with Kim Shi Studio.",
+  "zh": "然后你就可以用 Kim Shi Studio 和你的同事共享。"
+ },
+ {
+  "seg": 224,
+  "start": 1064.016,
+  "end": 1064.736,
+  "speaker": "Unknown",
+  "en": "So come see us.",
+  "zh": "所以来见见我们吧。"
+ },
+ {
+  "seg": 225,
+  "start": 1065.417,
+  "end": 1066.638,
+  "speaker": "Unknown",
+  "en": "We'd be delighted to speak to you.",
+  "zh": "我们很乐意和你聊聊。"
+ },
+ {
+  "seg": 226,
+  "start": 1067.959,
+  "end": 1068.479,
+  "speaker": "Unknown",
+  "en": "Thank you, guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 227,
+  "start": 1068.699,
+  "end": 1069.08,
+  "speaker": "Unknown",
+  "en": "Thank you, guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 228,
+  "start": 1078.046,
+  "end": 1078.427,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

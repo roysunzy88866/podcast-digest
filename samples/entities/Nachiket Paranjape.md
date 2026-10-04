@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"DoorDash":10,"评估":3,"智能体":388,"LLM 网关":2,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":9,"黄金数据集":1,"数据标注":2}</script>
+<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"DoorDash":10,"评估":3,"智能体":391,"LLM 网关":2,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":9,"黄金数据集":1,"数据标注":2}</script>
 
 <script>
 (function(){

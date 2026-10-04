@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":55,"Airbnb":12,"Y Combinator":7,"智能体":388,"AI":27}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":55,"Airbnb":12,"Y Combinator":7,"智能体":391,"AI":27}</script>
 
 <script>
 (function(){

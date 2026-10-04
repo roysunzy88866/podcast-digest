@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>43</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -52,6 +52,7 @@ unlisted: true
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(09:38起):本集类比:像当年新初创公司宁愿选 Stripe 而不是传统信用卡服务商,如今国防科技初创公司也更愿意买能跟上自己速度的新初创公司的东西。
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(32:42起):本集说它收购了 OpenRouter;Anjney 强调 Stripe 其实是一家安全公司——支付起家,靠 Stripe Radar 那样的欺诈检测守住主导地位,这正是 OpenRouter 未来要走的路。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(25:02起):本集说 Stripe 的 SaaS 客户数据显示 2026 年增长在加速,Stripe 自己称之为「文艺复兴」,与公开市场的 SaaS 末日叙事形成反差
+- **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(37:14起):Nick 曾工作的公司，本集用它类比 AI 平台的开放题：在核心支付原语上构建更高层产品，对应「智能体 API 该给多少灵活性」的问题。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:39起):本集说与 Stripe 相处时他们觉得更高效地写代码回报非常高，是 token 买方拿到 ROI 的例证。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说 Stripe 收购了 OpenRouter，过程高效、对创始人友好；两家都希望世界上出现大量新公司，并希望 OpenRouter 保持品牌与产品自主权。
 
@@ -73,7 +74,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*43 集*
+*44 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -116,6 +117,7 @@ unlisted: true
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
+- [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
 
@@ -123,9 +125,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Vercel]] · [[ChatGPT]] · [[沙箱]] · [[SpaceX]] · [[NVIDIA]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Vercel]] · [[ChatGPT]] · [[沙箱]] · [[SpaceX]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"OpenAI":150,"Anthropic":163,"Cursor":77,"推理":68,"Vercel":18,"ChatGPT":89,"沙箱":70,"SpaceX":19,"NVIDIA":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"OpenAI":151,"Anthropic":165,"推理":70,"Cursor":78,"Vercel":18,"ChatGPT":89,"沙箱":71,"SpaceX":19,"NVIDIA":52}</script>
 
 <script>
 (function(){

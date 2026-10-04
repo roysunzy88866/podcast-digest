@@ -203,8 +203,8 @@ David 的框架是产品周期与[[资本周期|资本周期]]打分：2021 年�
 **换个口味**
 
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、Lovable、OpenAI、Stripe</span>
+- [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:token、开源模型 (open source)</span>
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文]]<span class="pd-rz">同公司:Databricks、Anthropic、Palantir · 同概念:开源模型 (open source)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor</span>
 
 </div>
 </div>

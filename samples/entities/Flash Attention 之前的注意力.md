@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Flash Attention 之前的注意力 (attention)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Flash Attention 之前的注意力">FL</div><div class="pi"><h1 class="pt">Flash Attention 之前的注意力 (attention)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Flash Attention 之前的注意力">FL</div><div class="pi"><h1 class="pt">Flash Attention 之前的注意力 (attention)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(00:00起):本集的出发点:注意力让每个 token 与其他所有 token 互相关照,1000 个 token 有 100 万个两两关系,成本随上下文长度平方增长——上下文翻倍,算力大约贵四倍。
+- **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(13:54起):本集说开源中国模型前沿的注意力机制每隔几周就在变；现有快速推理芯片容量太低跑不了长上下文注意力，得切回 GPU。
 
 ## ① 提到它的金句
 
@@ -41,17 +42,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念
+- [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alexander Whedon]] · [[SubQuadratic]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[KVCache]] · [[Transformer]]
+[[Alexander Whedon]] · [[Walter Goodwin]] · [[SubQuadratic]] · [[Fractile]] · [[稀疏注意力]] · [[NVIDIA]] · [[上下文工程]] · [[Broadcom]] · [[智能体]] · [[TSMC]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":16,"智能体":388,"RAG":22,"预训练":8,"DeepSeek Sparse Attention":1,"KVCache":4,"Transformer":8}</script>
+<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"Walter Goodwin":1,"SubQuadratic":1,"Fractile":1,"稀疏注意力":1,"NVIDIA":52,"上下文工程":16,"Broadcom":5,"智能体":391,"TSMC":8}</script>
 
 <script>
 (function(){

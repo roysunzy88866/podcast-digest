@@ -1,0 +1,136 @@
+{
+  "title_zh": "OpenAI DevDay 双专访：计算机使用 180 度大变样",
+  "tldr": "OpenAI 计算机使用智能体负责人 Ari 与 API 产品负责人 Nick Winch 在 DevDay 现场谈 Dots、Decisions API 与性能优化的实质做法。",
+  "digest_md": "这一集录制于 OpenAI DevDay 现场，两段连访。前半段的主角是 Ari——OpenAI 计算机使用（computer use，让智能体直接操作电脑界面完成任务）智能体的产品和工程负责人；后半段是 Nick Winch，OpenAI API 团队的产品负责人。这轮发布里最值得记住的一点：Ari 说，计算机使用现在的表现和几个月前相比已经「180 度大变样」，而且它的完成速度在大多数场景下已经超过了普通人 [05:22 Ari][12:39 Ari]。\n\n## 计算机使用到底哪里变了\n\nAri 的职业生涯一直做自动化：Apple 的 Shortcuts、创业公司 Sky，再到现在 OpenAI。他总结驱动他的主线很简单：帮人省掉运营性事务的时间，去做更重要的事 [06:06 Ari]。\n\n回头看，他看到的最大变化是模型行为模式的转变：「以前它们可以比较可靠地开始任务，但之后就会遇到问题。而现在它们非常擅长调试——很擅长重试、内省哪里没有在正常工作」[06:50 Ari]。\n\n另一条关键路线是引入更多模态。过去计算机使用产品的典型循环是：截图 → 尝试操作 → 「我得往下滚到下一页」→ 再截图 → 再操作，大量时间耗在翻页上。现在模型可以按任务选择机制：截图、可访问性接口（accessibility，为视障用户提供的界面结构化描述），或者 playwright（一个能直接操作浏览器的自动化工具），不再只靠截图硬滚 [09:39 Ari][07:33 Ari]。\n\n一个容易被低估的功能是 AppShot：在 Codex 里连按两下 command，把当前应用的内容抓进对话。它看起来像截图，实际不是——截图不包含链接指向哪里、日历里被截断的标题；AppShot 给模型的是完整上下文，包括原始文本和无障碍表示。Ari 透露有个极客玩法：点开附件右上角的小按钮，就能看到原始的无障碍表示。团队为此投入了大量精力让它既完整又 token 高效，「这里面有点像一门艺术」[10:44 Ari][11:42 Ari]。有趣的是，这项为有障碍需求的人类发明的技术，成了喂给模型的最佳表示 [11:12 Ari]。\n\n## 让智能体自己测自己写的软件\n\nAri 最喜欢、实际中也很常见的用例：让智能体测试它自己构建的软件。传统流程里，Codex 帮你写完代码后，你就成了智能体的 QA；有了计算机使用，智能体可以构建、然后自己操作界面测试，补全整个软件开发生命周期，「等它到我手上的时候，它已经能正常工作了」[18:16 Ari][18:30 Ari]。Ari 还自嘲有额外的乐趣：他在开发 computer use 本身，所以现在有「一个 computer use 智能体在用我的 computer use 智能体，而那个又在用别的东西」[18:36 Ari]。主持人的实践是用计算机使用逐屏克隆一个体验很差的 SaaS——截屏、记录、让 Codex 复刻。\n\n## 瓶颈在哪：等页面加载\n\n关于下一步，Ari 判断下一个前沿是「lowercase」（小写水平的延迟），一旦达到，就能做出真正实时的产品，并大幅降低使用计算机使用的激活能量 [12:47 Ari]。现在的小瓶颈分布在模型、推理、harness（模型外围的执行框架）和表示各层。一个非常具体的瓶颈：「随着计算机使用变得更快，我们越来越多地被单纯执行一个操作的速度所瓶颈化」——比如写一个 wait 然后执行这个 wait。理想状态是事件驱动（页面加载完成这类信号直接触发下一步），浏览器导航有加载事件，但很多场景做不到，比如和客服聊天：回复可能 30 秒，也可能三分钟 [13:45 Ari][14:22 Ari]。\n\n## 给开发者的建议\n\n计算机使用这次进入了智能体 API，开发者可以用 Codex 和 ChatGPT 同款实现来构建。Ari 的核心建议：自己造 harness 有很棒的工作可做但很难，而且「我们是在自己的计算机使用框架上训练我们的模型，所以使用模型分布内的那一套是有优势的」——可能带来速度、成本和准确率上的好处 [16:31 Ari]。信任层面，他的原则是：构建可靠的东西、加上正确的安全检查、在做有重大后果的操作（比如付款）前征得用户同意、按应用场景限制可访问的网站 [17:02 Ari]。\n\n## 后半场：API 侧的新东西\n\nNick Winch 领导 API 团队产品，加入 OpenAI 约三年，一直负责模型发布。GPT-6 带来的核心新能力是异步工具调用：「工具调用耗时太长，以至于你不必在工具运行时暂停模型的执行」——可以发起调用、继续推理，再回来查看。配套的 WebSockets（长连接双向通信）则在 Codex Spark 时首次推出，专门用来降低工具来回交互的开销 [20:16 Nick Winch][22:34 Nick Winch]。\n\nUltraFast（首次进入 API 的极速模式）背后是推理团队的转变：前几个月他们聚焦效率和降本——「这就是我们能把 Luna 的价格砍掉 80% 的原因」，现在换挡到把速度做到极致 [22:09 Nick Winch]。\n\nDecisions API（超快的分类/决策模型 API）的来历颇具 OpenAI 风格：Jev 发布后，一个推理团队的人和一个基础设施团队的人觉得「这太棒了，我们要拿它来捣鼓一下」，做出能用的原型，现在在做延迟爬山优化。Nick 明确说了实现方式：「我们没有为此训练新模型，完全是构建在已有的同一套 Luna 权重之上」——用结构化输出做约束、极致优化推理栈的 TTFT（首 token 延迟）、多问题并行批量运行，第一版就是零样本。相比无视觉能力的竞品，Luna 的视觉能力是免费送的 [24:53 Nick Winch][27:38 Nick Winch][28:43 Nick Winch]。\n\n用例上，内部最明显的是用户运营团队给支持工单分类；Nick 最期待的原型是把 Decisions API 接到 GPT Live（双向实时语音 API，采用「思考者-说话者」架构，快的前端模型负责说话、Astra 坐镇后端）上——过去 GPT Live 的工具调用一直感觉慢，接上 Decisions API 后控制电脑「感觉起来快得多、自然得多」[30:47 Nick Winch][26:21 Nick Winch][26:42 Nick Winch]。\n\n## 性能：缓存与压缩\n\nResponses API（主力 API）的两大方向是延迟和缓存。缓存针对个人智能体这类单线程长跑场景：多付一点缓存费，保证更长时段的缓存读取——「你三四个小时后再回来，仍然能拿到缓存性能」；还有预热功能，提前支付缓存写入费，之后 30 分钟内随时可用，还能派生大量线程实例 [33:53 Nick Winch][34:32 Nick Winch][34:49 Nick Winch]。\n\n上下文总会撞天花板，压缩（compaction，把长对话历史浓缩以省 token）的最佳实践：智能体 API 里内置于 harness；Responses API 有服务端压缩——设一个 token 阈值，到了自动压缩；而很多大型编码智能体喜欢手动做，开源 Codex harness 用的就是 slash compact 命令。团队还在试验基于文件的新压缩技术，部分已实现在 Codex harness 里 [35:45 Nick Winch][36:23 Nick Winch]。\n\n最后是 Nick 留给行业的问题。他此前在 Stripe 做产品，Stripe 的玩法是在核心支付原语上构建更高层的产品；AI 里的对应问题是他反复思考的开放题：早期的 Assistants API 是一次不合适的尝试，现在的智能体 API 给了你 Codex harness，但「应该在其中给予多少灵活性才是合适的？这是个开放性问题」[37:14 Nick Winch][37:38 Nick Winch]。主持人的收尾类比：OpenAI 在做 AI 原生版的 AWS 发明——这是 EC2、这是 S3，每一个都是 AI 原生版本。\n\n## 本集带走\n\n- **写完代码让智能体自己测**：用计算机使用让智能体操作界面测试它刚构建的软件，把 QA 环节也自动化，等你验收时它已经能跑。\n- **优先用官方 harness 而不是自造**：模型就是在官方计算机使用框架上训练的，用分布内实现可能同时拿到速度、成本、准确率的好处。\n- **给模型「看结构」而非只给截图**：AppShot 式的无障碍表示包含链接指向、被截断文本等截图丢失的完整上下文，模型能做的事多得多。\n- **长跑智能体的两个工程要点**：用长时效缓存（甚至预热线程、多实例派生）保证几小时后回来仍有缓存性能；上下文接近阈值时用服务端自动压缩或手动 compact 控制长度。\n- **Decisions API 的定位**：超快分类/判断，不训练新模型，靠结构化输出约束 + 推理栈优化 + 并行批跑实现；适合工单分类、评测裁判、给实时语音模型补快速工具调用。",
+  "quotes": [
+    {
+      "en": "we train our models on our computer use harness, so there is an advantage to using the one that's in distribution for the model.",
+      "zh": "我们是在自己的计算机使用框架上训练我们的模型，所以使用模型分布内的那一套是有优势的。",
+      "timestamp": "16:31",
+      "speaker": "Ari"
+    },
+    {
+      "en": "I also feel like half the time it's a bot on the other end, so now you've got the bots talking to each other.",
+      "zh": "我也觉得有一半的时候对面也是个机器人，所以现在就是机器人在互相交谈了。",
+      "timestamp": "15:15",
+      "speaker": "Ari"
+    },
+    {
+      "en": "None of this is available by API because they hate developers.",
+      "zh": "这些都没法通过 API 实现，因为他们讨厌开发者。",
+      "timestamp": "04:50",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:22",
+      "speaker": "Ari",
+      "en": "because computer use is like 180 degrees different than it was.",
+      "zh": "因为计算机使用和那时相比已经 180 度大变样了。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Ari",
+      "en": "And now they're really good at debugging. They're really good at trying again, introspecting what isn't, isn't working.",
+      "zh": "而现在它们非常擅长调试，非常擅长重试、内省哪里没有在正常工作。"
+    },
+    {
+      "timestamp": "12:39",
+      "speaker": "Ari",
+      "en": "that now computer use is like faster at accomplishing tasks than like the average human, probably in most cases.",
+      "zh": "现在计算机使用在完成任务上比普通人更快了，可能在大多数情况下都是如此。"
+    },
+    {
+      "timestamp": "13:45",
+      "speaker": "Ari",
+      "en": "We find that as computer use gets faster, we're increasingly bottlenecked by just the speed of doing an operation.",
+      "zh": "我们发现，随着计算机使用变得更快，我们越来越多地被单纯执行一个操作的速度所瓶颈化。"
+    },
+    {
+      "timestamp": "16:19",
+      "speaker": "Ari",
+      "en": "And so computer use has this universality to it. It can work with anything.",
+      "zh": "而计算机使用具有这种普适性，它可以与任何东西配合工作。"
+    },
+    {
+      "timestamp": "16:31",
+      "speaker": "Ari",
+      "en": "we train our models on our computer use harness, so there is an advantage to using the one that's in distribution for the model.",
+      "zh": "我们是在自己的计算机使用框架上训练我们的模型，所以使用模型分布内的那一套是有优势的。"
+    },
+    {
+      "timestamp": "18:18",
+      "speaker": "Ari",
+      "en": "So with computer use, you can complete the software development lifecycle where the agent can build software, it can test it.",
+      "zh": "有了计算机使用，你可以补全软件开发生命周期——智能体可以构建软件，还可以测试它。"
+    },
+    {
+      "timestamp": "18:36",
+      "speaker": "Ari",
+      "en": "a computer use agent that's using my computer use agent that's using something else.",
+      "zh": "一个 computer use 智能体，它在用我的 computer use 智能体，而那个又在用别的东西。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Ari",
+      "en": "I also feel like half the time it's a bot on the other end, so now you've got the bots talking to each other.",
+      "zh": "我也觉得有一半的时候对面也是个机器人，所以现在就是机器人在互相交谈了。"
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "SPEAKER_03",
+      "en": "None of this is available by API because they hate developers.",
+      "zh": "这些都没法通过 API 实现，因为他们讨厌开发者。"
+    },
+    {
+      "timestamp": "20:16",
+      "speaker": "Nick Winch",
+      "en": "And everything is that tool calls take so long that you don't have to like pause the models execution while the tool is running.",
+      "zh": "归根结底是工具调用耗时太长，以至于你不必在工具运行时暂停模型的执行。"
+    },
+    {
+      "timestamp": "22:09",
+      "speaker": "Nick Winch",
+      "en": "a lot of it was focused on efficiency and driving the cost down, which is how we were able to cut the Luna price by 80%.",
+      "zh": "很多工作都集中在提升效率和降低成本上，这就是我们能把 Luna 的价格砍掉 80% 的原因。"
+    },
+    {
+      "timestamp": "23:51",
+      "speaker": "Nick Winch",
+      "en": "Huge props to Diogo and the Jeff team for really inspiring the whole segment in the market.",
+      "zh": "非常感谢 Diogo 和 Jev 团队，真正启发了整个市场细分。"
+    },
+    {
+      "timestamp": "27:38",
+      "speaker": "Nick Winch",
+      "en": "So we haven't trained a new model for this. We're building this purely on top of the same Luna weights that we have.",
+      "zh": "所以我们没有为此训练新模型，我们完全是构建在我们已有的同一套 Luna 权重之上。"
+    },
+    {
+      "timestamp": "25:36",
+      "speaker": "Nick Winch",
+      "en": "Yeah, I think that the main use cases we've seen is like really fast classification.",
+      "zh": "是的，我认为我们见到的最主要用例就是非常快速的分类。"
+    },
+    {
+      "timestamp": "33:56",
+      "speaker": "Nick Winch",
+      "en": "you just do something on it and then come back to it three to four hours later, you're still getting the caching performance out of it.",
+      "zh": "你在上面做点操作，然后三四个小时后再回来，你仍然能拿到缓存性能。"
+    },
+    {
+      "timestamp": "37:43",
+      "speaker": "Nick Winch",
+      "en": "the codex harness, but what's the right amount of flexibility to give in that? That's an open question.",
+      "zh": "它给了你 Codex harness，但在其中应该给予多少灵活性才是合适的？这是个开放性问题。"
+    },
+    {
+      "timestamp": "26:42",
+      "speaker": "Nick Winch",
+      "en": "It just feels so much more snappy and natural.",
+      "zh": "它感觉起来快得多、自然得多。"
+    }
+  ],
+  "voice_script": "今天这期有点特别，是在 OpenAI DevDay 现场录的两段连访。前半段的嘉宾叫 Ari，是 OpenAI 计算机使用智能体的产品和工程负责人。所谓计算机使用，说白了就是让智能体直接操作电脑界面，替你点按钮、翻页面、完成任务。后半段是 Nick Winch，OpenAI API 团队的产品负责人，加入三年，一直管模型发布。这期聊的核心问题就一个：这轮 DevDay 发布里，计算机使用这条线到底发生了什么。Ari 的一句话可以直接当答案——现在的表现跟几个月前比，已经\"180 度大变样\"，而且完成速度在大多数场景下已经超过了普通人。\n\n那这个\"大变样\"到底变在哪？Ari 的职业生涯一直在做自动化，从 Apple 的 Shortcuts，到创业公司 Sky，再到 OpenAI。回头看，最大的变化是模型行为模式的转变。以前模型可以比较可靠地开始一个任务，但之后就会遇到问题；现在它们非常擅长调试——擅长重试，擅长内省哪里没在正常工作。\n\n另一个关键变化是引入了更多模态。过去的典型循环是：截图、尝试操作、\"我得往下滚到下一页\"、再截图、再操作，大量时间全耗在翻页上。现在模型可以按任务挑机制：要么截图，要么用可访问性接口——就是为视障用户提供的那种界面结构化描述——要么直接用 playwright 这种浏览器自动化工具，不再只靠截图硬滚。\n\n这里有个容易被低估的功能叫 AppShot：在 Codex 里连按两下 command，把当前应用的内容抓进对话。看起来像截图，其实不是。截图不包含链接指向哪里，也不包含日历里被截断的标题；AppShot 给模型的是完整上下文，包括原始文本和无障碍表示。有意思的是，这项本来为有障碍需求的人类发明的技术，结果成了喂给模型的最佳表示。\n\n顺着这条线往下走，就到了 Ari 最喜欢、实际中也很常见的用例：让智能体测试自己写的软件。以前的流程是 Codex 帮你写完代码，然后你就成了智能体的 QA；现在有了计算机使用，智能体可以构建完，自己操作界面去测试，把整个软件开发生命周期补全。用 Ari 自己的话说，等它到我手上的时候，它已经能正常工作了。还有个自嘲的乐子：Ari 本身就在开发 computer use，所以现在是一个 computer use 智能体在用他的 computer use 智能体，而那个又在用别的东西。\n\n那瓶颈还剩什么？答案是等页面加载。Ari 判断下一个前沿是小写水平的延迟，一旦达到，就能做出真正实时的产品。现在有个很具体的卡点：写一个 wait，然后执行这个 wait。理想状态是事件驱动——页面加载完成这类信号直接触发下一步。浏览器导航有加载事件，但很多场景做不到，比如和客服聊天，回复可能 30 秒，也可能三分钟。\n\n对开发者，计算机使用这次进了智能体 API。Ari 的核心建议是：自己造执行框架很难，而且模型就是在官方的计算机使用框架上训练的，用模型分布内的那一套是有优势的——速度、成本、准确率都可能拿到好处。信任层面，原则很朴素：构建可靠的东西，加正确的安全检查，做付款这类重大操作前征得用户同意。\n\n后半场换 Nick Winch 上，讲 API 侧的新东西。GPT-6 带来异步工具调用——工具跑得太慢，模型不用干等，发起调用、继续推理，回头再看结果。UltraFast 极速模式首次进 API，背后是推理团队换了挡：前几个月聚焦降本，所以 Luna 的价格能砍掉 80%，现在轮到把速度做到极致。最有意思的是 Decisions API 的来历：一个模型发布之后，推理团队和基础设施团队各出一个人，觉得太棒了要拿它捣鼓一下，做出了能用的原型。实现方式 Nick 说得很明确：没训练新模型，完全构建在已有的 Luna 权重上——用结构化输出做约束，极致优化首 token 延迟，多问题并行批量跑。\n\n最后收在性能这个工程话题上。缓存针对的是单线程长跑的智能体：多付一点缓存费，保证三四个小时后回来仍然有缓存性能；还有预热线程这种玩法。上下文撞天花板了就用压缩：Responses API 可以设个 token 阈值自动压，开源 Codex 框架里则是手动一个 compact 命令。\n\nNick 留给行业的开放问题是：智能体 API 给了你 Codex 框架，但该在里面给多少灵活性，才算合适？主持人的收尾类比很妙：OpenAI 在做 AI 原生版的 AWS 发明——这是 EC2，这是 S3，每一个都是 AI 原生版本。而这一集最值得带走的一句话，还是 Ari 那句：用模型分布内的那一套，是有优势的。"
+}

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":31,"JP Morgan":3,"Coinbase":7,"Stripe":43}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":32,"JP Morgan":3,"Coinbase":7,"Stripe":44}</script>
 
 <script>
 (function(){

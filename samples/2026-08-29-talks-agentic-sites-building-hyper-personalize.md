@@ -92,7 +92,7 @@ jsonLd: |
 
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
+- [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

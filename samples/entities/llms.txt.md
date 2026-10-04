@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[WebMCP]] · [[Christopher Burns]] · [[Liad Yosef]] · [[C15T]] · [[智能体网络]] · [[lead type]] · [[MCP Apps]] · [[智能体体验]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"WebMCP":2,"Christopher Burns":1,"Liad Yosef":1,"C15T":1,"智能体网络":3,"lead type":1,"MCP Apps":3,"智能体体验":1,"MCP":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"WebMCP":2,"Christopher Burns":1,"Liad Yosef":1,"C15T":1,"智能体网络":3,"lead type":1,"MCP Apps":3,"智能体体验":1,"MCP":71}</script>
 
 <script>
 (function(){

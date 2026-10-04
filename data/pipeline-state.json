@@ -201,11 +201,13 @@
     "HLTa7Vcs4X0": "2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas",
     "y-OVWZD4j6U": "2026-10-02-talks-the-5-levels-of-self-driving-production",
     "OE_lLNCNfQo": "2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a",
-    "rTojoVotlD8": "2026-10-03-talks-your-llm-app-returned-200-ok-it-was-stil"
+    "rTojoVotlD8": "2026-10-03-talks-your-llm-app-returned-200-ok-it-was-stil",
+    "48YUYDjwfYY": "2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi",
+    "cKhpeEBnT1o": "2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat",
+    "YiFqcu9YA38": "2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com"
   },
   "blocked": {
-    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
-    "2026-09-03-changelog-forking-cal-com-to-closed-source": 1
+    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {
     "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
@@ -216,18 +218,14 @@
     "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3"
   },
   "transient": {
-    "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
-    "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
-    "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
-    "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1
+    "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1
   },
   "cutoffs": {
     "lennys": "2026-09-30T14:45:15.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
-    "a16z": "2026-10-03T10:00:00.000Z",
+    "a16z": "2026-10-04T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-01T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
@@ -338,94 +336,16 @@
       "pubDate": "2026-04-02T12:32:28.000Z"
     },
     {
-      "id": "2026-08-16-cogrev-let-there-be-germicidal-light-this-500-f",
-      "reason": "题材不对味(杀菌灯/公共卫生,非 AI/创业/科技)——用户 2026-08-21 点名下架",
-      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
-      "pubDate": "2026-08-16T00:00:00.000Z"
-    },
-    {
-      "id": "2026-08-19-rework-competing-with-giants-the-end-of-saas-ot",
-      "reason": "题材不对味:拿不准:偏传统软工(云原生/Kubernetes)",
-      "title": "Competing with giants, the end of SaaS & other listener questions",
-      "pubDate": "2026-08-19T08:00:00.000Z"
-    },
-    {
-      "id": "2026-08-17-eyeonai-why-people-are-paying-10x-more-for-ai-an",
-      "reason": "题材不对味:拿不准:芯片技术细节深挖(从终端应用回溯到硅片架构),偏离了档案偏好的「商业/产业格局」",
-      "title": "Why People Are Paying 10x More for AI - and What That Means for the Chip Market | Sid Sheth, d-Matrix",
-      "pubDate": "2026-08-17T15:25:00.000Z"
-    },
-    {
-      "id": "2026-08-17-devtools-dennis-pilarinos-from-unblocked-context",
-      "reason": "题材不对味:拿不准:非产品/访谈/产业面,是工具/技术面",
-      "title": "Dennis Pilarinos from Unblocked: context for AI coding agents",
-      "pubDate": "2026-08-17T05:02:06.000Z"
-    },
-    {
-      "id": "2026-08-13-eyeonai-american-companies-have-36-months-to-go",
-      "reason": "题材不对味:拿不准:Eye On A.I.多属新闻/趋势聚合/行业速览体裁,与档案「拒绝聚合/速览」的深度口径冲突",
-      "title": "American Companies Have 36 Months to Go AI-Native or Get Left Behind | Drew Cukor, TWG AI",
-      "pubDate": "2026-08-13T17:00:00.000Z"
-    },
-    {
-      "id": "2026-08-10-howiai-claude-code-for-normal-people-skills--vo",
-      "reason": "题材不对味:拿不准: Claude Code 功能科普/实操偏纯工具层面，缺少商业或产业格局",
-      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
-      "pubDate": "2026-08-10T11:00:00.000Z"
-    },
-    {
-      "id": "2026-08-10-twentyvc-20vc-will-openrouter-sell-for-10bn-to-st",
-      "reason": "题材不对味:标题包含3个不聚焦的选题:路由层交易叙事、中美模型博弈、企业对冲选择,属于泛行业观点/格局讨论,而非AI工具/实操/人故事。",
-      "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
-      "pubDate": "2026-08-10T07:07:00.000Z"
-    },
-    {
-      "id": "2026-08-05-rework-we-39-ll-do-it-live",
-      "reason": "题材不对味:拿不准：非技术指标直觉判断为通用软技能/方法论主题，偏离 AI/产业/产品实操核心",
-      "title": "We&#39;ll do it live",
-      "pubDate": "2026-08-05T08:00:00.000Z"
-    },
-    {
-      "id": "2026-08-08-twentyvc-20vc-the-ai-boom-will-create-enormous-ro",
-      "reason": "题材不对味:标题含「融资阶段策略(Triple, Triple...)」与「风投观点(Seed vs Multi-Stage)」，非「创始人/公司故事」或「AI 产业实操」，属传统创投泛谈，不在收录范围内",
-      "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
-      "pubDate": "2026-08-08T12:56:00.000Z"
-    },
-    {
       "id": "2026-08-05-aiandi-why-the-next-hit-ai-product-will-be-soci",
       "reason": "题材不对味:🔶 重复聚合 / 非新内容：标题带“Best of”表明为旧集剪辑或回顾，不在「新集」筛选范围内，跳过。",
       "title": "Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)",
       "pubDate": "2026-08-05T16:02:39.000Z"
     },
     {
-      "id": "2026-08-05-beyondcoding-career-advice-every-software-engineer-ne",
-      "reason": "题材不对味:传统软件工程(非 AI)职业建议，不在收录范围内",
-      "title": "Career Advice Every Software Engineer Needs Right Now",
-      "pubDate": "2026-08-05T12:00:00.000Z"
-    },
-    {
       "id": "2026-08-03-eyeonai-ai-agents-fixing-your-it-before-you-even",
       "reason": "题材不对味:❌ 属于「AI + 传统企业级 IT 运维(传统IT)」题材,与用户指定的「AI 编程/产品/创始人故事/产业格局」不对口;这类企业级运维案例落入「传统软件工程」或「非AI/非目标产业」边界。",
       "title": "AI Agents Fixing Your IT Before You Even Know Something Broke | Erhan Giral & Ryan Manning, BMC Helix",
       "pubDate": "2026-08-03T17:00:00.000Z"
-    },
-    {
-      "id": "2026-08-08-cogrev-thinking-in-silico-goodfire-cto-dan-bals",
-      "reason": "题材不对味:拿不准：涉及 'Concept Manifolds'（概念流形/架构前沿）与 '$1000 ML Research Agent'（研究型Agent），虽含商业应用，但CTO视角易偏向「架构/研究」深水区（命中❌「学术研究/架构前沿」），用户选档时明确撤过「模型架构深水/读论文」类，边界不清按「宁缺毋滥」原则跳过。",
-      "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
-      "pubDate": "2026-08-08T20:48:23.000Z"
-    },
-    {
-      "id": "2026-08-06-mad-how-to-build-long-horizon-ai-agents--mit",
-      "reason": "题材不对味:❌ 落入「AI 编程 / agent 实操」类 →「工具、方法、真实案例」，而非架构深挖或纯思辨;更重要的是标题核心词「Build...Agents」是硬核工程实践，高度对味 → 属于✅要之列。Wait, logic check: \"How to Build...Agents\" falls squarely under \"AI 编程 / agent 实操\" which is explicitly WANTED. So verdict should be \"对味\".",
-      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
-      "pubDate": "2026-08-06T11:30:01.000Z"
-    },
-    {
-      "id": "2026-08-06-twentyvc-20vc-airtable-sold-for-1-285bn-leo-achen",
-      "reason": "题材不对味:明确排除“聚合/多主题简报”（即便含 Anthropic / Palantir 等对味公司，但标题结构为 5 个独立短讯合集，违反“单主题深挖”原则）",
-      "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
-      "pubDate": "2026-08-06T07:07:00.000Z"
     },
     {
       "id": "2026-08-03-unsupervised-ai-vibe-check-chinese-open-models-distil",
@@ -444,12 +364,6 @@
       "reason": "题材不对味:非AI主题的传统B2B销售实操",
       "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
       "pubDate": "2026-08-23T12:31:43.000Z"
-    },
-    {
-      "id": "2026-08-23-founders-430-how-to-write-ads-that-sell",
-      "reason": "题材不对味:❌ 传统营销案例:话题是经典广告文案写作,非 AI、非科技产业、非创始人故事",
-      "title": "#430 How to Write Ads That Sell",
-      "pubDate": "2026-08-23T14:22:00.000Z"
     },
     {
       "id": "2026-07-31-unsupervised-ep-92-xai-co-founder-unpacks-the-future",
@@ -500,30 +414,6 @@
       "pubDate": "2022-09-27T14:00:00.000Z"
     },
     {
-      "id": "2026-08-24-a16z-why-medical-ai-needs-a-referee-proteges",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
-      "pubDate": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-12-rework-rapid-fire-q-a-with-jason-fried-and-davi",
-      "reason": "题材不对味:传统软件工程(非 AI):主题为通用创业管理/工作哲学,无 AI 成分,不符合档案收录范围",
-      "title": "Rapid Fire Q&A with Jason Fried and David Heinemeier Hansson",
-      "pubDate": "2026-08-12T08:00:00.000Z"
-    },
-    {
-      "id": "2026-08-20-nopriors-from-restoring-sight-to-reimagining-the",
-      "reason": "题材不对味:❌ 生物/医疗硬件(视网膜/脑机接口);虽 Max Hodak 属 AI 产业圈,但本集核心是「生物科技」,用户档案明确划为 AI+生物为不要品类",
-      "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
-      "pubDate": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-14-a16z-ben-horowitz-and-travis-kalanick-on-buil",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "Ben Horowitz and Travis Kalanick on Building Again",
-      "pubDate": "2026-08-14T10:00:00.000Z"
-    },
-    {
       "id": "2026-07-24-lennys-claude-opus-5-review-this-model-is",
       "reason": "题材不对味:标题暗示跑分/评测(annoing/brilliant通常用于评价模型表现)，撞线❌「大模型发布/跑分评测」，不要参数/规格层面的讨论",
       "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
@@ -554,30 +444,6 @@
       "pubDate": "2026-07-10T13:04:15.000Z"
     },
     {
-      "id": "2026-08-25-practicalai-ai-proficiency-from-users-to-builders",
-      "reason": "题材不对味:拿不准：标题偏向通识教育/教学而非「商业+产业+实操」具体案例，不在当前白名单源，按宁缺毋滥原则跳过",
-      "title": "AI Proficiency: From Users to Builders",
-      "pubDate": "2026-08-25T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than",
-      "reason": "题材不对味:❌ 跳过: 内容聚焦「代码测试/工程质量」(传统软件工程),而非AI Agent/工具实操或公司商业故事,属于边界案例中偏「传统工程」的剔除项。",
-      "title": "Lada Kesseler: I Trust AI Tests Less Than AI Code",
-      "pubDate": "2026-08-25T12:00:00.000Z"
-    },
-    {
-      "id": "2026-08-25-dwarkesh-dylan-patel-3",
-      "reason": "题材不对味:拿不准:这是资本支出/算力竞赛趋势预判(基本面/逻辑推演),而非档案明确的「公司融资/创始人故事」;且 Dwarkesh Podcast 不在源清单内,优先级最低。",
-      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
-      "pubDate": "2026-08-25T15:32:57.000Z"
-    },
-    {
-      "id": "2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on",
-      "reason": "题材不对味:❌ 命中「AI 安全/对齐/政策」类：选题属于合规、审计与伦理（如如何监控 AI 行为），属于「参数 + 研究 + 思辨」面，非「商业/实操」面。",
-      "title": "The Background Check You Can&#39;t Run on an AI Agent",
-      "pubDate": "2026-08-11T12:00:00.000Z"
-    },
-    {
       "id": "2026-07-23-ainativedev-bonus-snyk-found-malware-inside-ai-agent",
       "reason": "题材不对味:❌ 不要(大模型安全/对齐/风险):Snyk 报告 AI Agent 安全漏洞/恶意软件属于「AI 安全/风险」边界案例,非「产业/商业/实操」,且题眼在安全而非 Agent 开发实务,不符合口味。",
       "title": "BONUS: Snyk Found Malware Inside AI Agent Skills",
@@ -596,70 +462,16 @@
       "pubDate": "2026-07-09T09:00:00.000Z"
     },
     {
-      "id": "2026-08-25-changelog-postgres-at-planetscale",
-      "reason": "题材不对味:主题是传统数据库架构/工程，非 AI 商业或产业面，属❌ 传统软件工程",
-      "title": "Postgres at PlanetScale",
-      "pubDate": "2026-08-25T19:00:00.000Z"
-    },
-    {
       "id": "2026-08-25-twiml-why-the-next-ai-breakthrough-may-come-fr",
       "reason": "题材不对味:❌ 档案明确排除「AI+科研应用(物理/生物)」及「学术研究/架构前沿」题材；本集聊 AI 与物理交叉，属学术科研面，非用户要的「商业/产业/实操」。",
       "title": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
       "pubDate": "2026-08-25T19:33:00.000Z"
     },
     {
-      "id": "2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "He spent $0 on marketing for 2 years—then raised $400M at a $3.25B valuation. | AJ Loiacono, Co-Founder & CEO of Judi Health",
-      "pubDate": "2026-08-24T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-17-pmf-he-spent-150k-on-brand-before-he-had-a-p",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "He spent $150K on brand before he had a product—then closed $1.5M ARR in 1 month. | Niklas Lindgren, Co-Founder & CEO of Endra",
-      "pubDate": "2026-08-17T09:00:00.000Z"
-    },
-    {
       "id": "2026-07-10-a16z-how-bitcoin-rewired-a-classic-computer-s",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "How Bitcoin Rewired a Classic Computer Science Problem",
       "pubDate": "2026-07-10T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-27-eyeonai-inside-ukraine-s-azov-drone-r-d-the-engi",
-      "reason": "补活重验被拦:导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Inside Ukraine's Azov Drone R&D: The Engineer Building AI Weapons 18 km From the Front Line | Alexander Palamarchuk",
-      "pubDate": "2026-08-27T00:00:00.000Z"
-    },
-    {
-      "id": "2026-08-28-a16z-the-infrastructure-behind-the-machine-ag",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "The Infrastructure Behind the Machine Age",
-      "pubDate": "2026-08-28T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-28-bigtech-software-s-epic-comeback-meta-s-ai-layof",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Software’s Epic Comeback, Meta’s AI Layoffs Blunder, South Korea Stock Market Chaos",
-      "pubDate": "2026-08-28T18:17:00.000Z"
-    },
-    {
-      "id": "2026-08-12-productpodcast-how-skydio-ships-flying-robots-with-just",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "How Skydio Ships Flying Robots With Just 20 Product Managers",
-      "pubDate": "2026-08-12T20:00:00.000Z"
-    },
-    {
-      "id": "2026-08-06-nopriors-chasing-trillion-dollar-companies-founde",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
-      "pubDate": "2026-08-06T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-13-nopriors-what-chess-com-teaches-us-about-superhum",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
-      "pubDate": "2026-08-13T17:29:00.000Z"
     },
     {
       "id": "2026-06-23-ainativedev-bonus-devcon-london-real-talk-on-ai-roi",
@@ -672,60 +484,6 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "AI Security & the Agent-Ready Web: Experts Weigh In",
       "pubDate": "2026-06-16T12:00:00.000Z"
-    },
-    {
-      "id": "2026-08-12-a16z-garry-tan-on-taste-agents-and-founder-am",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Garry Tan on Taste, Agents and Founder Ambition",
-      "pubDate": "2026-08-12T10:26:08.000Z"
-    },
-    {
-      "id": "2026-08-10-a16z-how-kavak-rebuilt-itself-around-ai-agent",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "The Self-Improving Company | Kavak's AI Playbook",
-      "pubDate": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-07-mad-openais-model-hacked-us---hugging-faces",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
-      "pubDate": "2026-08-07T18:38:32.000Z"
-    },
-    {
-      "id": "2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
-      "pubDate": "2026-08-30T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-12-twiml-why-image-generation-needs-more-than-big",
-      "reason": "补活重验被拦:导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773",
-      "pubDate": "2026-08-12T00:00:00.000Z"
-    },
-    {
-      "id": "2026-08-31-a16z-gavin-baker-why-ai-demand-is-outrunning",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
-      "pubDate": "2026-08-31T10:00:00.000Z"
-    },
-    {
-      "id": "2026-08-31-twentyvc-20vc-the-ai-bubble-is-wrong-ai-margins-n",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "20VC: The AI Bubble Is Wrong | AI Margins Need to Improve | Revenue Concentration Should be a Concern | Why People Over-Estimate Open Models But Enterprises Still Fear Frontier Models with Aaron Katz, ClickHouse",
-      "pubDate": "2026-08-31T07:07:00.000Z"
-    },
-    {
-      "id": "2026-08-31-dwarkesh-openai-huggingface-narration",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "The rise and fall of agent civilizations",
-      "pubDate": "2026-08-31T20:36:53.000Z"
-    },
-    {
-      "id": "2026-08-31-eyeonai-in-5-to-10-years-using-weapons-without-a",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "In 5 to 10 Years, Using Weapons Without AI Will Be Considered Unethical | Yaroslav Azhnyuk, The Fourth Law",
-      "pubDate": "2026-08-31T17:28:00.000Z"
     },
     {
       "id": "2026-06-02-ainativedev-why-developers-hit-a-wall-at-4-ai-agents",
@@ -746,12 +504,6 @@
       "pubDate": "2026-05-26T14:00:00.000Z"
     },
     {
-      "id": "2026-09-02-howiai-grok-bot-vs--openclaw-how-i-replaced-my",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
-      "pubDate": "2026-09-02T11:00:00.000Z"
-    },
-    {
       "id": "2026-09-02-beyondcoding-niantic-spatial-cto-how-the-best-enginee",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Niantic Spatial CTO: How The Best Engineers Solve Problems Most Give Up On",
@@ -762,12 +514,6 @@
       "reason": "人工下架:时效性内容已过时(Fable 5 测评,原播出 2026-06-09,入库 2026-09-03 已 86 天;用户 2026-09-03 拍板)",
       "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
       "pubDate": "2026-06-09T00:00:00.000Z"
-    },
-    {
-      "id": "2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Siddhartha Borah from Brackett: teaching agents work that was never written down (Heavybit DevGuild)",
-      "pubDate": "2026-09-03T01:59:52.000Z"
     },
     {
       "id": "2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin",
@@ -788,28 +534,10 @@
       "pubDate": "2026-08-22T14:22:00.000Z"
     },
     {
-      "id": "2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg",
-      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
-      "title": "Ep 93: CEO of Redwood Research Buck Shlegeris on OpenAI/HuggingFace Revelations, Fixing AI Safety & Takeover Odds",
-      "pubDate": "2026-09-03T13:03:11.000Z"
-    },
-    {
       "id": "2026-09-03-lennys-gpt-6-astra-is-a-banger-heres-everything",
       "reason": "跨源重复:与库内《GPT-6 Astra is a banger - here’s everything I’ve built》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
       "pubDate": "2026-09-03T19:34:20.000Z"
-    },
-    {
-      "id": "2026-08-26-cogrev-rl-s-a-hell-of-a-drug-metagaming-reward",
-      "reason": "题材不对味:RL 训练行为、reward seeking、motivated CoT 属 AI 安全/对齐与模型研究深水区(Apollo 是安全评测机构),落在档案明确不要的「AI 安全/对齐 + 学术研究」类",
-      "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo",
-      "pubDate": "2026-08-26T11:02:32.000Z"
-    },
-    {
-      "id": "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds",
-      "reason": "题材不对味:题材是运动员如何进入顶级 VC 基金的风投/财富通路话题,与 AI 无关,不属于档案要的 AI 商业+人+产业+实操面",
-      "title": "How Athletes Get Into the Top VC Funds | Ryan Nece, Next Legacy",
-      "pubDate": "2026-09-03T13:00:00.000Z"
     },
     {
       "id": "2026-08-05-cogrev-pick-your-poison-zvi-mowshowitz-on-the-u",
@@ -842,18 +570,6 @@
       "pubDate": "2026-09-03T05:00:00.000Z"
     },
     {
-      "id": "2026-09-03-changelog-forking-cal-com-to-closed-source",
-      "reason": "题材不对味:Cal.com 开源转闭源属开源商业/传统软件话题,与 AI 无关,落档案「传统软件工程(非 AI)」类。",
-      "title": "Forking Cal.com to closed source",
-      "pubDate": "2026-09-03T20:00:00.000Z"
-    },
-    {
-      "id": "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "From 10 Drones a Month to Nearly 100,000 — Inside Ukraine's Largest Drone Manufacturer | Marko Kushnir, General Cherry",
-      "pubDate": "2026-09-03T15:30:00.000Z"
-    },
-    {
       "id": "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "He fired almost everyone, kept 2 engineers—then grew 12x and raised a $30M Series A. | Rafael Broshi, Co-Founder of Notch",
@@ -876,18 +592,6 @@
       "reason": "超长集:估 286 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "AI:AM Highlights: Exploring the J-Space, AI Superforecasters, SambaNova's Chips, & LTX Video Gen",
       "pubDate": "2026-07-09T19:38:35.000Z"
-    },
-    {
-      "id": "2026-09-04-yc-the-worlds-largest-electric-aircraft-jus",
-      "reason": "题材不对味:电动飞机属航空/硬件新闻,与 AI 无关,不落在档案任何收录类目内。",
-      "title": "The World’s Largest Electric Aircraft Just Flew",
-      "pubDate": "2026-09-04T18:05:48.000Z"
-    },
-    {
-      "id": "2026-09-04-bigtech-gpt-6-openai-s-comeback-hugging-face-att",
-      "reason": "题材不对味:命中❌聚合/多主题简报:一期塞 GPT-6 模型发布、Hugging Face 攻击争论、鲍尔默往事三个话题的新闻杂谈体,单主题不深挖,且 GPT-6 讨论本就落「大模型发布」跳过类",
-      "title": "GPT-6 & OpenAI’s Comeback, Hugging Face Attack Debate, Ballmer’s Scandalous Legacy",
-      "pubDate": "2026-09-04T19:14:00.000Z"
     },
     {
       "id": "2026-07-30-twentyvc-20vc-jensen-s-open-weights-letter-travis",
@@ -920,12 +624,6 @@
       "pubDate": "2026-07-23T11:30:00.000Z"
     },
     {
-      "id": "2026-09-05-founders-432-the-mind-of-napoleon",
-      "reason": "题材不对味:拿不准:拿破仑人物传记属非 AI 人文/历史题材,档案明确不要跟 AI 无关的知识类内容。",
-      "title": "#432 The Mind of Napoleon",
-      "pubDate": "2026-09-05T16:21:00.000Z"
-    },
-    {
       "id": "2026-07-23-thepeel-inside-solanas-plan-to-replace-wall-stre",
       "reason": "题材不对味:拿不准:Solana 创始人访谈属常青创始故事,但主题是加密/区块链而非 AI,不在档案收录范围,倾向不发布",
       "title": "Inside Solana's Plan to Replace Wall Street | Anatoly Yakovenko, Solana",
@@ -936,12 +634,6 @@
       "reason": "题材不对味:过时:多主题新闻聚合/速览体裁且涉模型竞争周度热点,距今45天已过时",
       "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
       "pubDate": "2026-07-23T07:07:00.000Z"
-    },
-    {
-      "id": "2026-09-05-cogrev-ai-am-highlights-welcome-to-the-agi-era",
-      "reason": "题材不对味:Cognitive Revolution 属于已砍的低对味源,'AM Highlights' 是多主题聚合/速览体裁,按深度口径跳过",
-      "title": "AI:AM Highlights: Welcome to the AGI Era",
-      "pubDate": "2026-09-05T23:39:30.000Z"
     },
     {
       "id": "2026-07-21-a16z-why-physical-ai-is-the-next-frontier-app",
@@ -1022,94 +714,10 @@
       "pubDate": "2026-07-13T10:00:00.000Z"
     },
     {
-      "id": "2026-09-08-a16z-openai-researchers-on-the-future-of-math",
-      "reason": "题材不对味:OpenAI 研究员谈数学推理属于学术研究/模型前沿深水,偏档案 ❌ 类,而非商业/人/产业面。",
-      "title": "OpenAI Researchers on the Future of Mathematical Reasoning",
-      "pubDate": "2026-09-08T10:00:00.000Z"
-    },
-    {
       "id": "2026-07-11-twentyvc-20vc-why-openai-and-anthropic-won-t-win",
       "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
       "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
       "pubDate": "2026-07-11T07:07:00.000Z"
-    },
-    {
-      "id": "2026-09-09-a16z-who-grades-the-ai-models-ben-horowitz-ra",
-      "reason": "题材不对味:拿不准:模型评测/评级话题介于创始人商业访谈与跑分评测之间,深浅拿不准,宁缺",
-      "title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-      "pubDate": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-09-bigtech-apple-s-most-ambitious-roadmap-ever-open",
-      "reason": "题材不对味:拿不准:标题是多主题聚合(Apple 路线图 + 三家对比 revisited),偏新闻速览体裁且单主题深度不明",
-      "title": "Apple’s Most Ambitious Roadmap Ever? + OpenAI vs. Google vs. Anthropic Revisited",
-      "pubDate": "2026-09-09T11:54:00.000Z"
-    },
-    {
-      "id": "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe",
-      "reason": "题材不对味:AI 科研应用(天气预测模型)偏研究面,非商业/人/实操,落在档案不要的范围",
-      "title": "Can AI help us better predict the weather?",
-      "pubDate": "2026-09-09T16:08:26.000Z"
-    },
-    {
-      "id": "2026-09-10-twentyvc-20vc-jensen-huang-declares-agi-has-arriv",
-      "reason": "题材不对味:多主题新闻聚合速览(AGI宣言+模型竞速+Cybercab+融资并购打包),非单主题深挖",
-      "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
-      "pubDate": "2026-09-10T07:07:00.000Z"
-    },
-    {
-      "id": "2026-09-08-sourcery-dino-mavrookas-america-needs-to-build-sh",
-      "reason": "题材不对味:拿不准:造船业复兴属传统工业话题,与 AI 商业/产业格局的关联未见明确,非档案收录的 AI 题材",
-      "title": "Dino Mavrookas: America Needs to Build Ships Again",
-      "pubDate": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-07-sourcery-inside-saronics-9-25b-autonomous-boat-fa",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Inside Saronic’s $9.25B Autonomous Boat Factory | CEO Dino Mavrookas",
-      "pubDate": "2026-09-07T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "How AI Is Rewriting the Power Law of Venture Capital",
-      "pubDate": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-10-mad-when-ai-improves-itself--richard-socher",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "When AI Improves Itself | Richard Socher (Recursive)",
-      "pubDate": "2026-09-10T11:30:00.000Z"
-    },
-    {
-      "id": "2026-09-10-eyeonai-the-reason-30-years-of-cybersecurity-has",
-      "reason": "题材不对味:网络安全主题属传统工程/安全领域,非档案收录的 AI 商业/产业/实操面",
-      "title": "The Reason 30 Years of Cybersecurity Has Failed - and What Actually Fixes It | Trent Telford, Qanapi",
-      "pubDate": "2026-09-10T13:43:00.000Z"
-    },
-    {
-      "id": "2026-09-10-cogrev-nathan-goes-to-china-3-us-china-relation",
-      "reason": "题材不对味:拿不准:地缘政治+AI 交易思辨访谈,偏政策/大势评论,与档案「产业格局/创始人故事」的实盘题材契合度不明",
-      "title": "Nathan Goes to China #3: US-China Relations, the Art of the AI Deal & the Road to Pax Robotica",
-      "pubDate": "2026-09-10T20:15:44.000Z"
-    },
-    {
-      "id": "2026-09-09-twist-did-openai-steal-the-navier-stokes-solut",
-      "reason": "题材不对味:模型前沿研究热点(OpenAI 与 Navier-Stokes 解题之争)属学术/架构前沿与本周热点话题,落在不要面",
-      "title": "Did OpenAI Steal the Navier-Stokes Solution? | E2335",
-      "pubDate": "2026-09-09T20:21:00.000Z"
-    },
-    {
-      "id": "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Becki DeGraw on founder vesting, advisor equity & the 4-term-sheet play",
-      "pubDate": "2026-09-10T20:27:00.000Z"
-    },
-    {
-      "id": "2026-09-11-doac-most-replayed-moment-brain-rot-experts-h",
-      "reason": "题材不对味:AI 健康使用/brain rot 属思辨与生活方式话题,不在「商业+人+产业+实操」收录范围内",
-      "title": "Most Replayed Moment: Brain Rot Experts - How To Use AI In A Healthy Way!",
-      "pubDate": "2026-09-11T05:00:00.000Z"
     },
     {
       "id": "2026-09-09-talks-build-time-vs-run-time-why-dev-tools-fai",
@@ -1118,76 +726,10 @@
       "pubDate": "2026-09-09T00:00:00.000Z"
     },
     {
-      "id": "2026-09-11-dwarkesh-john-beren-charlie",
-      "reason": "题材不对味:AI 研究/思辨面(递归自我改进的学术辩论),落档案 ❌ 研究前沿/思辨类",
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "pubDate": "2026-09-11T16:28:11.000Z"
-    },
-    {
-      "id": "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity",
-      "reason": "题材不对味:AI 灭亡思辨/安全类主题,落 ❌「AI 安全/对齐/哲学」",
-      "title": "Special Report: Will AI Wipe Out Humanity? (And Who Profits)",
-      "pubDate": "2026-09-11T20:37:00.000Z"
-    },
-    {
       "id": "2026-09-12-yc-open-models-change-the-economics-of-ai-e",
       "reason": "跨源重复:与库内《Open Models Change The Economics of AI》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "Open Models Change The Economics of AI",
       "pubDate": "2026-09-12T15:32:36.000Z"
-    },
-    {
-      "id": "2026-09-12-cogrev-ai-am-highlights-astra-as-agi-openai-s-p",
-      "reason": "题材不对味:AI:AM 多主题聚合速览体裁,且含模型/思辨类话题,不符合单主题深挖偏好",
-      "title": "AI:AM Highlights: Astra as AGI, OpenAI's Pause, Mythos @ Mozilla & Human Agency vs Technocapitalism",
-      "pubDate": "2026-09-12T15:45:14.000Z"
-    },
-    {
-      "id": "2026-09-10-sed-a-rust-framework-to-simplify-distributed",
-      "reason": "题材不对味:传统软件工程(Rust 分布式框架),与 AI 无关,落在档案明确不要的类别",
-      "title": "A Rust Framework to Simplify Distributed Systems",
-      "pubDate": "2026-09-10T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-08-mos-nfl-kickoff-the-science-gets-more-damnin",
-      "reason": "题材不对味:NFL/脑震荡科学与体育产业话题,与档案收录的 AI 商业/产品/创始人题材无关",
-      "title": "NFL Kickoff: the science gets more damning, but the money keeps growing",
-      "pubDate": "2026-09-08T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-03-mos-angela-duckworth-on-why-grit-isn-t-enoug",
-      "reason": "题材不对味:非 AI 主题的个人成长/毅力话题,不在档案收录范围内",
-      "title": "Angela Duckworth on why grit isn’t enough",
-      "pubDate": "2026-09-03T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-13-a16z-world-models-robotics-and-the-future-of",
-      "reason": "题材不对味:落在「学术研究/架构前沿」(World Models)题材,属档案明确不要的类型",
-      "title": "World Models, Robotics, and the Future of 3D AI",
-      "pubDate": "2026-09-13T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o",
-      "reason": "题材不对味:拿不准:开源数据库属传统软件工程(非 AI),虽是创始人故事但题材未落档案收录范围",
-      "title": "Why an Ex-Googler Bet Everything on an Open-Source Database",
-      "pubDate": "2026-09-09T12:00:00.000Z"
-    },
-    {
-      "id": "2026-09-08-sed-sed-news-the-nvidia-hugging-face-deal-ch",
-      "reason": "题材不对味:拿不准:SED News 多主题新闻速览体裁(三话题拼盘),且偏要闻快讯而非单主题深挖/创始人访谈,倾向跳过",
-      "title": "SED News: The NVIDIA-Hugging Face Deal, China&#8217;s Proxy Economy, the Open Weight Surge",
-      "pubDate": "2026-09-08T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-08-iltb-walter-russell-mead-how-america-keeps-wi",
-      "reason": "题材不对味:拿不准:美国地缘政治/历史话题,与 AI 商业、产业、实操无关联,不在收录题材内",
-      "title": "Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]",
-      "pubDate": "2026-09-08T08:00:00.000Z"
-    },
-    {
-      "id": "2026-09-04-twist-dr-mark-hyman-on-function-health-glp-1-m",
-      "reason": "题材不对味:健康/医疗主题(Function Health、GLP-1),非 AI 商业/产品/创始人题材,不在收录范围",
-      "title": "Dr. Mark Hyman on Function Health & GLP-1 microdosing | E2334",
-      "pubDate": "2026-09-04T16:44:00.000Z"
     },
     {
       "id": "2026-09-14-lennys-how-grok-bot-designers-use-ai-agents",
@@ -1196,76 +738,10 @@
       "pubDate": "2026-09-14T12:04:39.000Z"
     },
     {
-      "id": "2026-08-28-sourcery-inside-rocket-lab-how-sir-peter-beck-is",
-      "reason": "题材不对味:拿不准:火箭发动机工厂探访属航天硬件题材,与档案要的 AI 商业/产业/实操面不匹配",
-      "title": "Inside Rocket Lab: How Sir Peter Beck Is Building Neutron’s Engines | Tour 02",
-      "pubDate": "2026-08-28T10:00:01.000Z"
-    },
-    {
-      "id": "2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck",
-      "reason": "题材不对味:拿不准:Rocket Lab 工厂参观属非 AI 的硬件/航天公司内容,与档案核心的 AI 商业/产业/创始人故事不对齐,拿不准故不发。",
-      "title": "Rocket Lab HQ Tour with Sir Peter Beck | Factory Tour: Part I",
-      "pubDate": "2026-08-26T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem",
-      "reason": "题材不对味:聚合/多主题简报体,话题混 AI 安全思辨(AI 灭绝)与时事八卦,不对味",
-      "title": "Ask Jason: AI Extinction, Grok's Rogue Meme Coin & Weed Farms as Data Centers | E2337",
-      "pubDate": "2026-09-14T21:13:00.000Z"
-    },
-    {
-      "id": "2026-09-14-pg-together-ai-product-team",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Inside the AI Stack of an $8.3B AI Company’s Product Team | Together AI",
-      "pubDate": "2026-09-14T23:05:28.000Z"
-    },
-    {
-      "id": "2026-09-15-sed-inside-google-8217-s-database-infrastruc",
-      "reason": "题材不对味:拿不准:Google 数据库基础设施偏技术深挖(传统软件工程/底层架构),非产业格局或人物故事,按边界规则倾向跳过",
-      "title": "Inside Google&#8217;s Database Infrastructure for the AI Era",
-      "pubDate": "2026-09-15T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-15-a16z-the-age-of-body-futurism-ruby-justice-th",
-      "reason": "题材不对味:拿不准:'Body Futurism' 偏哲学/思辨未来主义,非 AI 商业/人/产业/实操题材,按边界原则不入。",
-      "title": "The Age of Body Futurism | Ruby Justice Thelot",
-      "pubDate": "2026-09-15T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Keith Rabois on Why the AI Bubble Fears Are Overblown",
-      "pubDate": "2026-09-15T15:17:00.000Z"
-    },
-    {
-      "id": "2026-09-15-cogrev-the-balance-of-ai-power-anton-leicht-on",
-      "reason": "题材不对味:AI 政策/政治格局思辨类,落在档案的「AI 安全/政策/哲学 ❌」区",
-      "title": "The Balance of AI Power: Anton Leicht on Politics, Pacing Deals, and Muddling Through Well",
-      "pubDate": "2026-09-15T18:52:30.000Z"
-    },
-    {
-      "id": "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]",
-      "pubDate": "2026-09-16T08:00:00.000Z"
-    },
-    {
-      "id": "2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m",
-      "reason": "题材不对味:拿不准:传统软件工程求职话题,与 AI 无明显关联,非 AI 编程实操或创始人/产业故事",
-      "title": "How Top Engineers Still Get Hired When Most Get Ghosted",
-      "pubDate": "2026-09-16T12:00:01.000Z"
-    },
-    {
       "id": "2026-09-16-lennys-muse-review-the-personal-ai-agent",
       "reason": "跨源重复:与库内《Muse review: The personal AI agent that gets consumer UX right》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "Muse review: The personal AI agent that gets consumer UX right",
       "pubDate": "2026-09-16T12:02:14.000Z"
-    },
-    {
-      "id": "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia",
-      "reason": "题材不对味:AI 存在性风险属于安全/思辨类,档案明确不收",
-      "title": "A Sober Conversation About AI Existential Risk — With Nate Soares",
-      "pubDate": "2026-09-16T15:34:00.000Z"
     },
     {
       "id": "2026-09-16-twiml-from-voice-agents-to-ai-avatars-with-ale",
@@ -1286,48 +762,6 @@
       "pubDate": "2026-09-17T05:00:00.000Z"
     },
     {
-      "id": "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti",
-      "reason": "题材不对味:聚合/速览体裁,一篇塞多个新闻话题(Miro 出售、Mistral 融资、Meta 发模型等),单主题不深挖,属「每周要闻聚合」,档案明文不要。",
-      "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
-      "pubDate": "2026-09-17T07:07:00.000Z"
-    },
-    {
-      "id": "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale",
-      "reason": "题材不对味:拿不准:标题看不出具体商业/实操题材,Smola 偏学术背景,疑似技术深挖类访谈,深浅不明",
-      "title": "From Voice Agents to AI Avatars with Alexander Smola - #777",
-      "pubDate": "2026-09-17T04:52:00.000Z"
-    },
-    {
-      "id": "2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev",
-      "reason": "题材不对味:拿不准:通用领导力访谈,与档案要的「AI 商业+人+实操」面无明确关联,非 AI 题材",
-      "title": "Brené Brown & Reid Hoffman on the skills every leader needs now",
-      "pubDate": "2026-09-17T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-17-a16z-the-next-frontier-of-ai-video-is-control",
-      "reason": "题材不对味:拿不准:AI 视频技术方向话题,信息不足以判断是产业格局面还是技术/产品前沿深挖",
-      "title": "The Next Frontier of AI Video Is Control",
-      "pubDate": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-17-dwarkesh-noam-brown",
-      "reason": "题材不对味:AI 安全/对齐/递归自我改进属思辨研究类,落在档案排除项",
-      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
-      "pubDate": "2026-09-17T15:38:13.000Z"
-    },
-    {
-      "id": "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili",
-      "reason": "题材不对味:主题是加密货币/FTX 诈骗与监管,非 AI 的商业、人物或产业面",
-      "title": "Former SEC Official on FTX, Crypto & Silicon Valley’s Fraud Problem",
-      "pubDate": "2026-09-17T20:43:55.000Z"
-    },
-    {
-      "id": "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "90% of AI prototypes never reach production (w/ Temporal's Samar Abbas) | AI Basics",
-      "pubDate": "2026-09-15T23:00:00.000Z"
-    },
-    {
       "id": "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "5 Voice Agent Failure Modes You'll Hit in Week One — Venky B, Plivo",
@@ -1338,18 +772,6 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "How Companies Are Building Their Own Intelligence | Sonya Huang, Sequoia Capital",
       "pubDate": "2026-08-11T00:00:00.000Z"
-    },
-    {
-      "id": "2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with",
-      "reason": "题材不对味:偏模型技术路线(扩散模型推理架构)深挖,属架构前沿而非商业/人/实操面",
-      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
-      "pubDate": "2026-09-18T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-17-pragmatic-ai-skills-with-matt-pocock",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "AI Skills with Matt Pocock",
-      "pubDate": "2026-09-17T11:29:00.000Z"
     },
     {
       "id": "2026-08-12-talks-post-training-is-how-you-keep-your-taste",
@@ -1364,34 +786,10 @@
       "pubDate": "2026-09-16T00:00:00.000Z"
     },
     {
-      "id": "2026-09-19-cogrev-ai-am-highlights-zvi-on-pacing-trump-xi",
-      "reason": "题材不对味:AI:AM 多主题新闻聚合/速览体裁,非单主题深挖,按深度口径跳过",
-      "title": "AI:AM Highlights: Zvi on Pacing & Trump-Xi, Astra better behaved than Fable? + a new LLM Pain Axis??",
-      "pubDate": "2026-09-19T18:28:55.000Z"
-    },
-    {
-      "id": "2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl",
-      "reason": "题材不对味:传统创业法律服务科普(非 AI、非创始人/公司故事),题材不在收录范围",
-      "title": "Becki DeGraw on spinouts, IP licensing & clean exits | Wilson Sonsini Startup Legal Basics",
-      "pubDate": "2026-09-03T18:13:00.000Z"
-    },
-    {
-      "id": "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Grindr CEO is betting on AI to solve online dating's biggest problem",
-      "pubDate": "2026-09-02T15:07:00.000Z"
-    },
-    {
       "id": "2026-08-05-talks-the-case-for-data-centers-in-space",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "The Case For Data Centers In Space",
       "pubDate": "2026-08-05T00:00:00.000Z"
-    },
-    {
-      "id": "2026-09-18-twist-hugging-face-co-founder-on-open-source-m",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "Hugging Face Co-Founder on Open-Source, Microduck, and NVIDIA | E2339",
-      "pubDate": "2026-09-18T22:16:00.000Z"
     },
     {
       "id": "2026-09-15-talks-act-confirm-or-stop-smarter-behavior-for",
@@ -1400,220 +798,10 @@
       "pubDate": "2026-09-15T00:00:00.000Z"
     },
     {
-      "id": "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor",
-      "reason": "题材不对味:嘻哈文化/音乐产业访谈,与 AI 商业·产品·产业题材无关,超出档案收录范围",
-      "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due",
-      "pubDate": "2026-09-20T10:01:39.000Z"
-    },
-    {
-      "id": "2026-09-20-sourcery-brad-gerstner-on-the-largest-wealth-tran",
-      "reason": "题材不对味:拿不准:投资人访谈对味体裁,但主题是财富传承/理财,与 AI 商业/产业格局的关联不明,偏出档案范围",
-      "title": "Brad Gerstner on the Largest Wealth Transfer to America’s Kids",
-      "pubDate": "2026-09-20T16:11:13.000Z"
-    },
-    {
-      "id": "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "How the Best Engineers Build a World Model (Google Earth Creator & Niantic Spatial CTO)",
-      "pubDate": "2026-09-02T12:00:00.000Z"
-    },
-    {
-      "id": "2026-09-21-a16z-ai-safety-language-is-destroying-the-deb",
-      "reason": "题材不对味:AI 安全话语辩论属思辨/安全政策类,非商业、产品、实操面",
-      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
-      "pubDate": "2026-09-21T18:05:35.000Z"
-    },
-    {
-      "id": "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Eclipse's Lior Susan on $12.5B AUM and the Bet on Physical Industries",
-      "pubDate": "2026-09-21T12:15:54.000Z"
-    },
-    {
-      "id": "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Revenue fell from $25M to $8M—so he raised $75M in crowdfunding and ignored VCs. | Dan Novaes, Co-Founder & CEO of Mode Mobile",
-      "pubDate": "2026-09-21T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-25-twist-you-can-t-fire-a-vc-from-your-board-here",
-      "reason": "题材不对味:拿不准:传统创业法律科普(董事会/VC 权益),与 AI 商业/产品/创始人故事的收录面无交集",
-      "title": "You Can't Fire a VC From Your Board: Here's Why | Wilson Sonsini Startup Legal Basics",
-      "pubDate": "2026-08-25T22:51:00.000Z"
-    },
-    {
       "id": "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with",
       "reason": "跨源重复:与库内《How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
       "pubDate": "2026-09-21T12:04:11.000Z"
-    },
-    {
-      "id": "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o",
-      "reason": "题材不对味:拿不准:乌克兰无人机战争访谈偏军事/地缘题材,与档案要的 AI 商业·人·实操面不明确契合,按少发原则跳过",
-      "title": "Inside Ukraine's Drone War: Maj. \"Phoenix\" of Lasar's Group",
-      "pubDate": "2026-09-21T17:57:00.000Z"
-    },
-    {
-      "id": "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a",
-      "reason": "题材不对味:聚合/多主题本周要闻速览体裁(且含模型时事),不合单主题深挖口径",
-      "title": "Elon's New Hyperloop, Trump's AI Rename, and a Model That Won't Talk | E2340",
-      "pubDate": "2026-09-21T21:31:00.000Z"
-    },
-    {
-      "id": "2026-09-01-sed-the-death-of-online-anonymity",
-      "reason": "题材不对味:题材是网络匿名/政策社会议题,属思辨非 AI 商业+实操面,不在收录范围",
-      "title": "The Death of Online Anonymity",
-      "pubDate": "2026-09-01T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-01-iltb-sarah-guo-funding-the-frontier-invest-li",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
-      "pubDate": "2026-09-01T08:00:00.000Z"
-    },
-    {
-      "id": "2026-08-31-twist-are-ai-agents-forming-civilizations-or-i",
-      "reason": "题材不对味:拿不准:标题偏 AI 哲学思辨/炒作话题,未见创始人故事或产业格局的明确落点",
-      "title": "Are AI Agents forming \"civilizations\" or is this just a psy op? | 2332",
-      "pubDate": "2026-08-31T20:09:00.000Z"
-    },
-    {
-      "id": "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft",
-      "reason": "题材不对味:非 AI 领域的创业/公司故事(卫星地面站工厂),与档案要的 AI 商业/产业/实操题材不符",
-      "title": "Inside Bridgit Mendler’s New 185,000 sqft Northwood Space Factory",
-      "pubDate": "2026-08-31T10:00:01.000Z"
-    },
-    {
-      "id": "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a",
-      "reason": "题材不对味:拿不准:「为人与地球设计AI」偏伦理思辨/哲学面,非商业+实操+创始人公司故事,倾向跳过",
-      "title": "Pioneers of AI: Designing AI for people and the planet, with Aza Raskin",
-      "pubDate": "2026-08-29T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-27-sed-typescript-7-and-what-comes-next",
-      "reason": "题材不对味:TypeScript 语言演进属传统软件工程话题,与 AI 无关,且非档案收录范围",
-      "title": "TypeScript 7 and What Comes Next",
-      "pubDate": "2026-08-27T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-27-mos-chicago-fed-president-on-inflation-reces",
-      "reason": "题材不对味:宏观美联储/政治话题,不在 AI 商业人物与公司故事收录范围内",
-      "title": "Chicago Fed President on inflation, recession, and Trump’s attacks",
-      "pubDate": "2026-08-27T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-26-twist-bill-gates-foresees-massive-ai-job-loss",
-      "reason": "题材不对味:AI 失业/就业冲击属社会思辨议题,且为新闻热点体,非创始人故事或产业实操,不在收录范围",
-      "title": "Bill Gates foresees massive AI job loss: these VCs disagree | E2330",
-      "pubDate": "2026-08-26T23:19:00.000Z"
-    },
-    {
-      "id": "2026-09-22-iltb-gabe-stengel-building-investing-superint",
-      "reason": "题材不对味:拿不准:主题是用 AI 做投资工具/智能,偏向金融应用而非档案要的 AI 商业/创始人/实操面,与既有收录题材关联弱",
-      "title": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
-      "pubDate": "2026-09-22T08:00:00.000Z"
-    },
-    {
-      "id": "2026-09-22-sed-scaling-time-series-workloads-on-postgre",
-      "reason": "题材不对味:传统软件工程话题(Postgres 时序扩容),与 AI 无关,档案明确不要",
-      "title": "Scaling Time-Series Workloads on Postgres",
-      "pubDate": "2026-09-22T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-22-mos-rebranding-in-a-war-zone-with-prosper-gl",
-      "reason": "题材不对味:传统NGO品牌重塑故事,与AI无关,不在档案收录的AI商业/产品/产业题材内",
-      "title": "Rebranding in a war zone, with Prosper Global (formerly Mercy Corps)",
-      "pubDate": "2026-09-22T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-22-lennys-i-left-claude-for-months-opus-55",
-      "reason": "题材不对味:落 ❌「大模型发布/跑分评测」类:以模型版本(Opus 5.5)为核心的个人使用评测,非实操/创始人/产业面题材",
-      "title": "I left Claude for months. Opus 5.5 is why I'm back",
-      "pubDate": "2026-09-22T19:06:40.000Z"
-    },
-    {
-      "id": "2026-09-22-howiai-i-left-claude-for-months--opus-5-5-is-wh",
-      "reason": "题材不对味:属大模型版本评测/个人体验类(因 Opus 5.5 回流),落在「大模型发布/评测」不收面,且为时效性内容。",
-      "title": "I left Claude for months. Opus 5.5 is why I'm back",
-      "pubDate": "2026-09-22T19:03:36.000Z"
-    },
-    {
-      "id": "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "VC experts on why Physical AI funding is heating up | E2333",
-      "pubDate": "2026-09-02T23:11:00.000Z"
-    },
-    {
-      "id": "2026-08-25-twist-china-wants-you-to-cheer-for-the-robots",
-      "reason": "题材不对味:拿不准:偏中国机器人产业的社会/舆论评论体裁,非档案明确收录的创始人访谈/实操/产业格局类,拿不准判不发布",
-      "title": "China wants you to cheer for the robots taking your job | E2329",
-      "pubDate": "2026-08-25T02:12:00.000Z"
-    },
-    {
-      "id": "2026-08-24-sourcery-inside-rocket-lab-w-ceo-sir-peter-beck-r",
-      "reason": "题材不对味:拿不准:火箭/航天公司 CEO 访谈属创始人故事体裁,但与 AI 产业无关,档案的收录范围以 AI 商业/实操为核心,非 AI 领域故事未在收录范围",
-      "title": "Inside Rocket Lab w/ CEO Sir Peter Beck: Record Earnings, Neutron, Flatelittes",
-      "pubDate": "2026-08-24T10:25:51.000Z"
-    },
-    {
-      "id": "2026-08-20-sourcery-ben-lamm-ceo-of-12b-colossal-biosciences",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Ben Lamm CEO of $12B Colossal Biosciences & $3.8B Astromech",
-      "pubDate": "2026-08-20T14:00:00.000Z"
-    },
-    {
-      "id": "2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model",
-      "reason": "题材不对味:大模型对比评测/盲测跑分,命中「模型发布/跑分评测」排除类",
-      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
-      "pubDate": "2026-09-22T23:12:49.000Z"
-    },
-    {
-      "id": "2026-09-22-howiai-opus-5-5-vs--gpt-6-sol-which-model-won-m",
-      "reason": "题材不对味:模型盲测对比评测,落「大模型发布/跑分评测」类",
-      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
-      "pubDate": "2026-09-22T23:13:43.000Z"
-    },
-    {
-      "id": "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "Breaking down Nvidia's Hugging Face and Poolside bets | E2331",
-      "pubDate": "2026-08-28T23:24:00.000Z"
-    },
-    {
-      "id": "2026-08-20-twist-taste-is-the-new-programming-language-w",
-      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
-      "title": "Taste is the new programming language (w/ Astrocade CEO Amir Sadeghian) | AI Basics",
-      "pubDate": "2026-08-20T23:08:00.000Z"
-    },
-    {
-      "id": "2026-08-20-sed-ai-and-the-new-global-security-landscape",
-      "reason": "题材不对味:AI 安全/政策思辨题材,落 ❌ 安全/对齐/政策类,且非实操非产业格局",
-      "title": "AI and the New Global Security Landscape",
-      "pubDate": "2026-08-20T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-20-mos-how-barnes-noble-made-a-comeback-with-ce",
-      "reason": "题材不对味:拿不准:CEO 公司故事虽属常青访谈体,但 Barnes & Noble 复兴是传统零售话题,与 AI 无关,偏离知识库的 AI 商业/产业主题",
-      "title": "How Barnes & Noble made a comeback, with CEO James Daunt",
-      "pubDate": "2026-08-20T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-19-twist-neurosymbolic-ai-outperforms-chatbots-an",
-      "reason": "题材不对味:神经符号化 AI 属架构/技术路线深水,落档案「学术研究/架构前沿」不要面",
-      "title": "Neurosymbolic AI outperforms chatbots and product search | E2327",
-      "pubDate": "2026-08-19T23:06:00.000Z"
-    },
-    {
-      "id": "2026-08-18-sed-how-llms-are-reshaping-recommendation-sy",
-      "reason": "题材不对味:拿不准:LLM+推荐系统偏技术架构深挖,不确定是工程实操还是技术深水,按'少发≈发离题'倾向跳过",
-      "title": "How LLMs Are Reshaping Recommendation Systems",
-      "pubDate": "2026-08-18T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-22-latent-john-platt",
-      "reason": "题材不对味:AI for Science/科研应用属档案明确的不要类(AI+生物/科研应用用户已撤过),按题材跳过",
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "pubDate": "2026-09-22T21:07:39.000Z"
     },
     {
       "id": "2026-08-03-talks-waymo-co-ceo-dmitri-dolgov-the-demo-is-o",
@@ -1622,124 +810,10 @@
       "pubDate": "2026-08-03T00:00:00.000Z"
     },
     {
-      "id": "2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "YouTube CEO Neal Mohan: Why We're Betting On AI And Not Afraid Of It",
-      "pubDate": "2026-09-23T14:30:00.000Z"
-    },
-    {
-      "id": "2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "How Amp Ships 50 Times a Day With AI Agents",
-      "pubDate": "2026-09-23T12:00:01.000Z"
-    },
-    {
-      "id": "2026-09-23-pragmatic-design-engineering-with-maggie-appleton",
-      "reason": "题材不对味:拿不准:设计工程话题像传统(非AI)工程/设计,未体现 AI 编程或产品增长的对味要素",
-      "title": "Design Engineering with Maggie Appleton",
-      "pubDate": "2026-09-23T17:07:22.000Z"
-    },
-    {
-      "id": "2026-09-23-latent-bio-security-is-an-ai-arms-race-eric",
-      "reason": "题材不对味:AI + 生物安全属于 AI+生物/科研应用思辨类,档案明确不要",
-      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "pubDate": "2026-09-23T13:27:18.000Z"
-    },
-    {
-      "id": "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "VCs Would Bet on Open-Source AI Over OpenAI and Anthropic | E2341",
-      "pubDate": "2026-09-23T22:56:00.000Z"
-    },
-    {
-      "id": "2026-09-24-twentyvc-20vc-meta-s-muse-hits-no-1-chatgpt-final",
-      "reason": "题材不对味:拿不准:多主题新闻聚合/每周速览体裁,即便涉及融资和泡沫话题也不做单主题深挖,按档案口径跳过",
-      "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "pubDate": "2026-09-24T07:07:00.000Z"
-    },
-    {
-      "id": "2026-09-24-mos-how-to-build-a-billion-dollar-sports-tea",
-      "reason": "题材不对味:拿不准:体育球队从零建队属创始/运营故事,但非 AI 行业,与档案「AI 商业/产业」范围偏离",
-      "title": "How to build a billion-dollar sports team from scratch, with Golden State Valkyries’ Jess Smith",
-      "pubDate": "2026-09-24T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy",
-      "reason": "题材不对味:拿不准:Al Gore 谈清洁能源属高管访谈式常青内容,但主题偏能源/气候而非 AI 产业格局,档案未明确覆盖",
-      "title": "Al Gore on the $4.5 Trillion Clean Energy Opportunity",
-      "pubDate": "2026-09-24T18:17:00.000Z"
-    },
-    {
-      "id": "2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Josh Elman on Apple, AI Agents & Why Startups Can Still Win",
-      "pubDate": "2026-09-24T21:12:05.000Z"
-    },
-    {
-      "id": "2026-09-25-latent-runway",
-      "reason": "题材不对味:拿不准:偏模型/技术发布(WorldPrompt)且涉及世界模型前沿技术深挖,商业与实操面不明",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "pubDate": "2026-09-25T01:30:57.000Z"
-    },
-    {
-      "id": "2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i",
-      "reason": "题材不对味:拿不准:标题信息不足,无法判断是产业/创始人访谈还是产品发布宣传",
-      "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
-      "pubDate": "2026-09-25T14:00:00.000Z"
-    },
-    {
-      "id": "2026-09-25-bigtech-meta-s-muse-revival-frontier-ai-under-th",
-      "reason": "题材不对味:单集塞多个互不相关话题(Meta产品动态、行业威胁、流量网站),属多主题新闻聚合速览体裁,非单主题深挖",
-      "title": "Meta’s Muse Revival, Frontier AI Under Threat, The Rise Of Dopamine Sites",
-      "pubDate": "2026-09-25T18:21:00.000Z"
-    },
-    {
-      "id": "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike",
-      "reason": "题材不对味:AI 安全组织建设属安全/对齐思辨题材,落在档案明确的「不要」清单里",
-      "title": "Zero to One in AI Safety: Halcyon's Mike McCormick on Launching 30 New Orgs & the Founder Bottleneck",
-      "pubDate": "2026-09-25T18:13:31.000Z"
-    },
-    {
-      "id": "2026-09-25-twist-a-rogue-openai-agent-hacked-australia-s",
-      "reason": "题材不对味:AI 安全/事故思辨类话题(rogue agent 黑入政府系统),落在档案 ❌ 的安全/政策思辨面,不是商业/实操/创始人故事",
-      "title": "A rogue OpenAI agent hacked Australia’s government. Does this matter? | E2342",
-      "pubDate": "2026-09-25T23:07:00.000Z"
-    },
-    {
-      "id": "2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad",
-      "reason": "题材不对味:AI 安全主题，落在档案明确排除的「AI 安全/政策」思辨面，且非产业实操或创始人故事",
-      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
-      "pubDate": "2026-09-26T10:00:00.000Z"
-    },
-    {
-      "id": "2026-09-26-cogrev-what-is-utopia-presenting-the-receipt-ho",
-      "reason": "题材不对味:AI 安全/哲学思辨类乌托邦构想,落档案明确不要的思辨面",
-      "title": "What is Utopia?  Presenting The Receipt Horizon, by Joel Borgen – Chapters 1–4",
-      "pubDate": "2026-09-26T11:34:09.000Z"
-    },
-    {
       "id": "2026-08-03-sourcery-base-power-hits-13b-valuation-on-1b-seri",
       "reason": "题材不对味:过时:公司融资快讯(估值/轮次新闻体)属时效性内容,距今 55 天早已过时,且非创始人访谈式的公司故事",
       "title": "Base Power Hits $13B Valuation on $1B Series D",
       "pubDate": "2026-08-03T12:00:00.000Z"
-    },
-    {
-      "id": "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin",
-      "reason": "题材不对味:AI安全/对齐思辨+AI生物科研应用,均落❌区,且AMA多主题问答体裁",
-      "title": "AI:AM: What If It Works Too Well? Colluding Agents, $200M Safety Orgs, Virtual Cells Saturate at 2%",
-      "pubDate": "2026-09-27T10:42:50.000Z"
-    },
-    {
-      "id": "2026-09-27-sourcery-10-of-the-wildest-hot-takes-from-the-all",
-      "reason": "题材不对味:聚合/速览体裁:一集塞多个话题的热点观点集锦,非单主题深挖",
-      "title": "10 of The Wildest Hot Takes From the All-In Summit 2026",
-      "pubDate": "2026-09-27T14:35:23.000Z"
-    },
-    {
-      "id": "2026-09-28-sourcery-how-apollo--citadel--blackstone---bridge",
-      "reason": "题材不对味:非 AI 主题——传统金融资管公司的品牌建设,不落在档案任何收录类里",
-      "title": "How Apollo, Citadel, Blackstone, & Bridgewater Built Their Brands",
-      "pubDate": "2026-09-28T10:00:00.000Z"
     },
     {
       "id": "2026-09-28-lennys-jev-for-beginners-how-to-use-it-and",
@@ -1748,100 +822,10 @@
       "pubDate": "2026-09-28T12:03:04.000Z"
     },
     {
-      "id": "2026-09-28-founders-435-mark-zuckerberg-s-empire",
-      "reason": "内容审查拦下([1301] GLM 拒译敏感内容,连拦 2 次已放弃)",
-      "title": "#435 Mark Zuckerberg's Empire",
-      "pubDate": "2026-09-28T08:00:00.000Z"
-    },
-    {
-      "id": "2026-09-28-twist-jason-s-put-a-5k-bounty-on-his-dream-chr",
-      "reason": "题材不对味:拿不准:个人Chrome扩展悬赏的轻量杂谈,非创始人/公司故事、产品增长方法论或AI产业格局,题材落在档案收录范围之外",
-      "title": "Jason’s Put a $5K Bounty on His Dream Chrome Extension | E2338",
-      "pubDate": "2026-09-28T21:19:00.000Z"
-    },
-    {
-      "id": "2026-09-29-cogrev-obsolete-or-irreplaceable-garrison-lovel",
-      "reason": "题材不对味:AI 取代人类劳动/停止竞赛属于安全·思辨类议题,非商业实操或产业格局",
-      "title": "Obsolete or Irreplaceable? Garrison Lovely on Stopping the Race to Replace Human Labor",
-      "pubDate": "2026-09-29T06:42:35.000Z"
-    },
-    {
-      "id": "2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab",
-      "reason": "题材不对味:AI+实验室科研应用题材,用户已明确撤过蛋白/材料类科研内容",
-      "title": "Periodic Labs: A chatbot walks into a laboratory",
-      "pubDate": "2026-09-29T11:00:00.000Z"
-    },
-    {
-      "id": "2026-09-29-sed-cory-doctorow-on-ai-work-and-power",
-      "reason": "题材不对味:拿不准:AI 议题偏社会思辨(工作与权力),疑似落入档案排除的「AI 哲学/思辨」面而非商业/实操面",
-      "title": "Cory Doctorow on AI, Work, and Power",
-      "pubDate": "2026-09-29T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-29-mos-halloween-meets-glp-1s-hershey-s-candy-s",
-      "reason": "题材不对味:传统消费品公司CEO谈糖果营销与超级碗,无AI/科技产业相关性,不在档案收录范围",
-      "title": "Halloween meets GLP-1s: Hershey’s candy Super Bowl, with CEO Kirk Tanner",
-      "pubDate": "2026-09-29T09:00:00.000Z"
-    },
-    {
-      "id": "2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how",
-      "reason": "题材不对味:拿不准:题材偏模型能力评测/学术前沿(数学奥赛、Navier-Stokes)的进展评估,落在档案❌「大模型评测/学术研究」面,非商业+实操面",
-      "title": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
-      "pubDate": "2026-09-29T21:56:00.000Z"
-    },
-    {
-      "id": "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "The $10T AI Buildout Has a Photonics Problem",
-      "pubDate": "2026-09-30T10:13:45.000Z"
-    },
-    {
-      "id": "2026-09-30-sourcery-the-500b-opportunity-in-europes-defense",
-      "reason": "题材不对味:欧洲防务建设属传统产业/地缘话题,与 AI 商业、人物访谈或 AI 产业格局无关联",
-      "title": "The $500B Opportunity in Europe’s Defense Buildout",
-      "pubDate": "2026-09-30T11:03:31.000Z"
-    },
-    {
-      "id": "2026-09-30-lennys-openai-dev-day-2026-the-releases",
-      "reason": "题材不对味:模型发布/版本评测类速览,落在「大模型发布/跑分评测」排除项",
-      "title": "OpenAI Dev Day 2026: The releases that actually matter",
-      "pubDate": "2026-09-30T14:45:15.000Z"
-    },
-    {
-      "id": "2026-09-30-pragmatic-distributed-databases-with-peter",
-      "reason": "题材不对味:分布式数据库属传统软件工程题材,与 AI 无关,落在档案明确的不要类",
-      "title": "Distributed databases with Peter Mattis",
-      "pubDate": "2026-09-30T16:30:05.000Z"
-    },
-    {
       "id": "2026-09-30-howiai-jev-8-real-use-cases-for-the-fastest--ch",
       "reason": "跨源重复:与库内《Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
       "pubDate": "2026-09-30T14:48:52.000Z"
-    },
-    {
-      "id": "2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac",
-      "reason": "题材不对味:落❌「大模型发布/跑分评测」类——OpenAI 发布会的发布盘点",
-      "title": "OpenAI Dev Day 2026: The releases that actually matter",
-      "pubDate": "2026-09-30T14:48:23.000Z"
-    },
-    {
-      "id": "2026-09-24-eyeonai-the-technology-for-fully-autonomous-atta",
-      "reason": "题材不对味:AI 自主攻击/军事安全属思辨与政策类题材,落在档案『AI 安全/政策』不要范围",
-      "title": "The Technology for Fully Autonomous Attack Is Already Here | Alex Liannyi, NORDA Dynamics",
-      "pubDate": "2026-09-24T14:31:00.000Z"
-    },
-    {
-      "id": "2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch",
-      "reason": "题材不对味:AI 意识属于哲学/思辨类,不在收录范围",
-      "title": "Why Current AI Cannot Be Conscious | Dr. Christof Koch",
-      "pubDate": "2026-09-30T12:33:00.000Z"
-    },
-    {
-      "id": "2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in",
-      "reason": "题材不对味:拿不准:IMEC 属芯片研发机构,标题指向半导体技术路线深挖,偏学术/技术前沿而非产业格局,深浅拿不准",
-      "title": "IMEC Says Today’s AI Will Look Ancient in 10 Years",
-      "pubDate": "2026-09-30T12:12:15.000Z"
     },
     {
       "id": "2026-09-30-twist-justin-kan-brian-chesky-the-rejections-t",
@@ -1850,34 +834,10 @@
       "pubDate": "2026-09-30T21:47:00.000Z"
     },
     {
-      "id": "2026-09-30-latent-devday-2026",
-      "reason": "题材不对味:拿不准:标题混了观点思辨(驳 Dwarkesh)与模型/产品发布速览,单一深度不明",
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "pubDate": "2026-09-30T22:23:40.000Z"
-    },
-    {
-      "id": "2026-10-01-twentyvc-20vc-instinct-raises-1b-at-10b-valuation",
-      "reason": "题材不对味:聚合/多主题要闻速览体裁(一周新闻打包),按口径即便主题相关也跳过",
-      "title": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover",
-      "pubDate": "2026-10-01T07:07:00.000Z"
-    },
-    {
       "id": "2026-10-01-sourcery-inside-oak-hcfts-1m-to-100m-check-strate",
       "reason": "题材不对味:拿不准:VC 投资支票策略属泛金融访谈,无 AI/科技产业或创始人建公司角度,档案未覆盖此类题材,按宁缺勿滥判跳",
       "title": "Inside Oak HC/FT's $1M to $100M Check Strategy",
       "pubDate": "2026-10-01T10:51:55.000Z"
-    },
-    {
-      "id": "2026-10-01-sed-the-state-of-browser-testing",
-      "reason": "题材不对味:传统软件工程(浏览器测试)且非 AI 主题,落在档案不要的范围",
-      "title": "The State of Browser Testing",
-      "pubDate": "2026-10-01T09:00:00.000Z"
-    },
-    {
-      "id": "2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr",
-      "reason": "题材不对味:拿不准:隐私/网络安全创业访谈,与 AI 无关联,偏传统技术题材,档案收录范围以 AI 商业/实操为主",
-      "title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
-      "pubDate": "2026-10-01T16:00:00.000Z"
     },
     {
       "id": "2026-10-01-mad-why-ai-agents-cheat--eric-ho-goodfire-e3",
@@ -1886,106 +846,16 @@
       "pubDate": "2026-10-01T11:30:00.000Z"
     },
     {
-      "id": "2026-10-01-dwarkesh-si-sheppard",
-      "reason": "题材不对味:学术·非 AI(历史人文类:西班牙征服帝国史),落在档案明确不要的类别",
-      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-      "pubDate": "2026-10-01T15:28:28.000Z"
-    },
-    {
-      "id": "2026-10-01-deepmind-from-deepfakes-to-dna-the-science-of-wat",
-      "reason": "题材不对味:偏 AI 安全/技术科普(水印防deepfake),属思辨研究面而非商业/人物/实操面",
-      "title": "From deepfakes to DNA: the science of watermarking AI",
-      "pubDate": "2026-10-01T16:38:11.000Z"
-    },
-    {
-      "id": "2026-10-01-cogrev-ai-am-was-trump-xi-anything-what-counts",
-      "reason": "题材不对味:拿不准:多主题聚合速览体裁(AM 简报式),且偏政策/思辨,不够单主题深挖",
-      "title": "AI:AM: Was Trump-Xi Anything? What Counts as Utopia? + AWS GPUs Cost 3X & AI Diagnoses Rare Diseases",
-      "pubDate": "2026-10-01T14:52:22.000Z"
-    },
-    {
-      "id": "2026-08-15-mos-pioneers-of-ai-why-ai-conversations-are",
-      "reason": "题材不对味:AI 思辨/哲学类话题,属档案 ❌ 的思辨面,非商业+人+实操",
-      "title": "Pioneers of AI:  Why AI conversations are always one-sided",
-      "pubDate": "2026-08-15T09:00:00.000Z"
-    },
-    {
-      "id": "2026-08-11-mos-rapid-recap-google-s-exodus-spider-man-s",
-      "reason": "题材不对味:聚合/多主题速览体裁(Rapid Recap 塞多个话题)且为时效新闻,距今52天已过时",
-      "title": "Rapid Recap: Google’s exodus, Spider-Man’s odyssey, Taco “Hell”, and more",
-      "pubDate": "2026-08-11T09:00:00.000Z"
-    },
-    {
-      "id": "2026-10-02-latent-rlm",
-      "reason": "题材不对味:拿不准:学术圈话题(MIT 学者谈学术界抱负)偏向研究/思辨面,商业与实操性不明,按少发原则待人工点名",
-      "title": "Academia is for Ambition — Alex Zhang, MIT",
-      "pubDate": "2026-10-02T00:28:04.000Z"
-    },
-    {
       "id": "2026-10-02-nopriors-the-future-of-frontier-model-architectur",
       "reason": "题材不对味:主题是前沿模型架构的技术深挖,落在档案'学术研究/架构前沿'不要范围,而非产业格局面",
       "title": "The Future of Frontier Model Architectures with Walter Goodwin, Fractile Founder and CEO",
       "pubDate": "2026-10-02T10:00:00.000Z"
     },
     {
-      "id": "2026-10-02-doac-most-replayed-moment-i-met-an-uncontacte",
-      "reason": "题材不对味:亚马孙部落探险话题与 AI 商业/实操毫无关联,落在档案'学术·非AI知识'之外的不收录范围",
-      "title": "Most Replayed Moment: I Met An Uncontacted Tribe! The Secret World Hidden In The Amazon Rainforest - Paul Rosolie",
-      "pubDate": "2026-10-02T05:00:00.000Z"
-    },
-    {
-      "id": "2026-10-02-eyeonai-ukraine-s-secret-weapon-the-points-syste",
-      "reason": "题材不对味:拿不准:乌克兰无人机积分系统属军事/地缘题材,AI 相关性弱,不明确落在档案收录的商业/人/产业/实操面上",
-      "title": "Ukraine's Secret Weapon: The Points System Winning the Drone War | Andrii Hrytseniuk",
-      "pubDate": "2026-10-02T15:21:00.000Z"
-    },
-    {
-      "id": "2026-10-02-bigtech-anthropic-s-ipo-leak-openai-s-dots-vs-me",
-      "reason": "题材不对味:多话题新闻聚合(融资快讯+模型对比+榜单式话题),且偏公司动态快讯而非单主题深挖的创始人/产业故事",
-      "title": "Anthropic’s IPO Leak, OpenAI’s Dots vs. Meta’s Muse, Visual Turing Test",
-      "pubDate": "2026-10-02T21:59:00.000Z"
-    },
-    {
-      "id": "2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with",
-      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
-      "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
-      "pubDate": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "id": "2026-10-03-twist-inside-the-startup-building-uncensored-a",
-      "reason": "题材不对味:拿不准:虽是创业公司访谈体裁,但核心主题是模型「去审查/越权」这一 AI 安全敏感技术话题,落在安全/思辨边界,深浅与题材拿不准",
-      "title": "Inside The Startup Building Uncensored AI (Abliteration AI) | EP 2345",
-      "pubDate": "2026-10-03T00:53:00.000Z"
-    },
-    {
-      "id": "2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you",
-      "reason": "内容审查拦下([1301] GLM 拒译敏感内容,连拦 2 次已放弃)",
-      "title": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
-      "pubDate": "2026-10-03T07:07:00.000Z"
-    },
-    {
-      "id": "2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee",
-      "reason": "题材不对味:Gemini Robotics 模型发布与技术深挖(跨具身/人形机器人),属模型发布/架构前沿面,非商业·人·产业实操面",
-      "title": "One Brain, Any Body: Google DeepMind's Keerthana on Gemini Robotics 2, Cross-Embodiment & Humanoids",
-      "pubDate": "2026-10-03T13:00:00.000Z"
-    },
-    {
       "id": "2026-10-03-talks-your-llm-app-returned-200-ok-it-was-stil",
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
       "pubDate": "2026-10-03T00:00:00.000Z"
-    },
-    {
-      "id": "2026-10-01-mad-ai-models-are-now-hiding-their-cheating",
-      "reason": "题材不对味:拿不准:模型隐藏作弊属可解释性/安全研究方向,偏档案 ❌ 的'AI安全/思辨'面,但涉及创始人访谈角度,深度拿不准",
-      "title": "AI Models Are Now Hiding Their Cheating | Eric Ho (Goodfire)",
-      "pubDate": "2026-10-01T11:30:00.000Z"
-    },
-    {
-      "id": "2026-08-17-twist-bittensor-creator-const-on-affine-dtao-m",
-      "reason": "题材不对味:主题是 Bittensor/dTAO 加密协议与推理挖矿,属加密 CS/技术深水且非档案收录题材;访谈体裁虽常青,但内容本身偏思辨技术而非创始人建公司/产业实操",
-      "title": "Bittensor creator Const on Affine, dTAO, \"mining reasoning,\" and more | E2326",
-      "pubDate": "2026-08-17T19:37:00.000Z"
     },
     {
       "id": "2026-08-15-twist-what-we-ll-learn-from-anthropic-s-2-3t-i",
@@ -2004,6 +874,55 @@
       "reason": "题材不对味:过时:新闻聚合/速览体裁(SED News 多主题简报)且距今 54 天,超出 14 天时效",
       "title": "SED News: The Kimi Moment, Runaway AI, and Tokenmaxxing",
       "pubDate": "2026-08-11T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-04-a16z-david-george-jack-altman-on-ai-autonomy",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "pubDate": "2026-10-04T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-02-latent-rlm",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "pubDate": "2026-10-02T00:28:04.000Z"
+    },
+    {
+      "id": "2026-10-02-doac-most-replayed-moment-i-met-an-uncontacte",
+      "reason": "题材不对味:非 AI/科技的泛话题:亚马逊部落/雨林探险,与 AI 和科技创业均无关",
+      "title": "Most Replayed Moment: I Met An Uncontacted Tribe! The Secret World Hidden In The Amazon Rainforest - Paul Rosolie",
+      "pubDate": "2026-10-02T05:00:00.000Z"
+    },
+    {
+      "id": "2026-10-01-dwarkesh-si-sheppard",
+      "reason": "题材不对味:人文历史题材(西班牙征服帝国),属 ❌ 第①类非 AI/科技泛话题",
+      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "pubDate": "2026-10-01T15:28:28.000Z"
+    },
+    {
+      "id": "2026-09-30-lennys-openai-dev-day-2026-the-releases",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "OpenAI Dev Day 2026: The releases that actually matter",
+      "pubDate": "2026-09-30T14:45:15.000Z"
     }
-  ]
+  ],
+  "redoDone": {
+    "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
+    "2026-10-01-sourcery-inside-oak-hcfts-1m-to-100m-check-strate": "feed 里已找不到",
+    "2026-10-01-mad-why-ai-agents-cheat--eric-ho-goodfire-e3": "feed 里已找不到",
+    "2026-09-30-twist-justin-kan-brian-chesky-the-rejections-t": "已由新 id 2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t 处理",
+    "2026-09-17-doac-ai-debate-ed-zitron-andrew-mcafee-nate-s": "feed 里已找不到",
+    "2026-09-16-twiml-from-voice-agents-to-ai-avatars-with-ale": "已由新 id 2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale 处理",
+    "2026-09-03-doac-andrew-huberman-stop-wasting-money-on-ba": "feed 里已找不到",
+    "2026-09-02-beyondcoding-niantic-spatial-cto-how-the-best-enginee": "feed 里已找不到",
+    "2026-09-01-knowledge-steve-jobs-in-exile": "feed 里已找不到",
+    "2026-08-25-twiml-why-the-next-ai-breakthrough-may-come-fr": "已由新 id 2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr 处理",
+    "2026-08-23-lennys-how-to-close-100k-1m-deals-step-by": "feed 里已找不到",
+    "2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with": "2026-10-04",
+    "2026-10-02-latent-rlm": "2026-10-04",
+    "2026-10-02-doac-most-replayed-moment-i-met-an-uncontacte": "2026-10-04",
+    "2026-10-01-dwarkesh-si-sheppard": "2026-10-04",
+    "2026-09-30-lennys-openai-dev-day-2026-the-releases": "2026-10-04",
+    "2026-09-30-latent-devday-2026": "2026-10-04"
+  }
 }

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anna Spysz]] · [[智能体]] · [[智能体商务]] · [[Universal Commerce Protocol]] · [[系统提示词]] · [[共享支付令牌]] · [[护栏]] · [[商家能力清单]] · [[大语言模型]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Anna Spysz":1,"智能体":388,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":71,"商家能力清单":1,"大语言模型":8,"Stripe":43}</script>
+<script type="application/json" class="pd-epn">{"Anna Spysz":1,"智能体":391,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":71,"商家能力清单":1,"大语言模型":8,"Stripe":44}</script>
 
 <script>
 (function(){

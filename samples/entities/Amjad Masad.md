@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]] [[Mali]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":19,"智能体":388,"Stripe":43,"vibe coding":43,"微调":29,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":19,"智能体":391,"Stripe":44,"vibe coding":43,"微调":29,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
 
 <script>
 (function(){

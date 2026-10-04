@@ -133,8 +133,8 @@ NVIDIA、Broadcom 这些公司大部分产品在 [[TSMC|TSMC]] 制造,等于把�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌]]<span class="pd-rz">同公司:TSMC、NVIDIA · 同概念:数据中心 (data center)</span>
+- [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注]]<span class="pd-rz">同公司:TSMC、Broadcom、NVIDIA</span>
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|把数据中心搬上太空：StarCloud 的万亿美元硬科技突围]]<span class="pd-rz">同公司:NVIDIA · 同概念:数据中心 (data center)</span>
-- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:TSMC、NVIDIA</span>
 
 </div>
 <div class="pd-ex">

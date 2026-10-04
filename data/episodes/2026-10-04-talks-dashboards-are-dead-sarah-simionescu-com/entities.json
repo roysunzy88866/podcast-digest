@@ -1,0 +1,530 @@
+{
+  "episode_id": "2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "智能体",
+    "MCP",
+    "仪表盘",
+    "AI 产品设计",
+    "上下文窗口"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "sarah-simionescu",
+      "type": "person",
+      "role": "guest",
+      "name": "Sarah Simionescu",
+      "file": "Sarah Simionescu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "composio",
+      "type": "company",
+      "role": "company",
+      "name": "Composio",
+      "file": "Composio",
+      "primary": true,
+      "how_described": "本集说 Composio 在 MCP 之上做了一层专为智能体设计的界面，把杂乱、文档稀疏、不断变化的 API 翻译成智能体爱用的东西；核心机制 Composio Search 会按声明的任务返回恰好需要的工具加使用计划。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            67.976,
+            76.462
+          ],
+          "quote": "And I think that's great news for everyone in this room, except probably for me because my team is responsible for the Composio dashboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            303.729,
+            308.472
+          ],
+          "quote": "So imagine in this mock-up I have my Claude connected to the Composio MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            319.441,
+            324.162
+          ],
+          "quote": "And the first thing it does is it calls Composio Search to state the task it wants to accomplish.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            331.765,
+            338.367
+          ],
+          "quote": "And for each of these three, Composio returns not only the correct tools it needs, but actually a plan of how to use them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            370.499,
+            373.18
+          ],
+          "quote": "This is literally just Claude using Composio's MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            390.015,
+            397.997
+          ],
+          "quote": "So these are some early unreleased results comparing Composio against each app's own native MCP that's listed in the Claude marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            409.966,
+            415.77
+          ],
+          "quote": "It's because at Composio, we are developing a brand new interface specifically designed for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            452.636,
+            454.497
+          ],
+          "quote": "Claude will, again, run Composio Search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            470.742,
+            472.963
+          ],
+          "quote": "Toolkits is another word for apps we like to use at Composio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            483.122,
+            484.964
+          ],
+          "quote": "So once again, it uses Composio Search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            502.614,
+            517.688
+          ],
+          "quote": "And once it's confident, it actually uses a very cool tool called Composio Remote Workbench to dynamically generate an SQL query with a regex string to search for all those user IDs, again, without ever loading the entire thing into its context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            531.591,
+            534.836
+          ],
+          "quote": "If you want to play with the live version, come visit us at the Composio booth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            556.153,
+            558.876
+          ],
+          "quote": "Composio began as a tool to help developers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成「新物种的用户」：没有眼睛、不点 UI，带着目标和工具而来，只以「能不能把活干成」评判产品；下一时代属于对智能体好用的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            194.717,
+            203.521
+          ],
+          "quote": "Instead of using a sparkle button, your own agent, Claude, whom you've already been using every day, could generate the query for you, execute it on your behalf, and give you the answer directly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            215.929,
+            220.273
+          ],
+          "quote": "And it's up to you, the service, to choose how to communicate with the agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            184.933,
+            194.097
+          ],
+          "quote": "In November of 2024, Anthropic announced the MCP protocol with a promise to create an open standard for connecting AI systems with its data sources, and that it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            211.364,
+            212.826
+          ],
+          "quote": "Because MCP is a protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            223.757,
+            229.063
+          ],
+          "quote": "If you've ever actually wired up a dozen MCP servers, you will know the reality is a mess.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            272.862,
+            275.943
+          ],
+          "quote": "Each MCP server knows about itself and nothing else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            285.006,
+            292.868
+          ],
+          "quote": "And so MCP gave agents a door into every app, but it left them standing in thousands of separate rooms with no map and no memory of ever being there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            303.729,
+            308.472
+          ],
+          "quote": "So imagine in this mock-up I have my Claude connected to the Composio MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            370.499,
+            373.18
+          ],
+          "quote": "This is literally just Claude using Composio's MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            390.015,
+            397.997
+          ],
+          "quote": "So these are some early unreleased results comparing Composio against each app's own native MCP that's listed in the Claude marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            425.935,
+            438.183
+          ],
+          "quote": "So we build on top of MCP, CLI, and native tools to deliver a cohesive, unified, and excellent experience for your agents that allows them to perform complex operations across these apps seamlessly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            568.215,
+            572.958
+          ],
+          "quote": "But the humans are tired of dashboards and their agents are tired of poorly designed MCP servers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "仪表盘 (dashboard)",
+      "file": "仪表盘",
+      "primary": true,
+      "how_described": "本集的核心论点是「仪表盘已死」：仪表盘和各种查询语言本质上是你与数据之间的翻译装置，用户要的从来是答案；智能体能直接对话数据后，这一层界面正在失去存在理由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            40.313,
+            42.495
+          ],
+          "quote": "And I open up the Datadog dashboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            50.6,
+            53.943
+          ],
+          "quote": "The problem was I had genuinely never opened the dashboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            66.236,
+            67.017
+          ],
+          "quote": "The dashboard is dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            67.976,
+            76.462
+          ],
+          "quote": "And I think that's great news for everyone in this room, except probably for me because my team is responsible for the Composio dashboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            135.293,
+            146.397
+          ],
+          "quote": "Every dashboard you've ever used, every weird, obscure query language ever written was a translation device between you and your data because the machines on the other end cannot understand what you actually wanted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            147.117,
+            150.118
+          ],
+          "quote": "You never wanted a dashboard where it's cursed query language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            540.02,
+            541.141
+          ],
+          "quote": "And so the dashboard has died.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            612.213,
+            613.954
+          ],
+          "quote": "I'm frozen in front of that Datadog dashboard.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说接入太多 MCP 服务器等于把数千条工具定义直接倒进上下文窗口，模型会被淹没；而聪明做法是保存中间结果、先摸 schema，不把全量数据塞进上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            252.99,
+            257.052
+          ],
+          "quote": "And if you connect enough servers, you're dumping thousands of tool definitions straight into the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            502.614,
+            517.688
+          ],
+          "quote": "And once it's confident, it actually uses a very cool tool called Composio Remote Workbench to dynamically generate an SQL query with a regex string to search for all those user IDs, again, without ever loading the entire thing into its context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把 Claude 当作日常智能体：连上 Composio 的 MCP 后，只需粘贴 Slack 链接就能自动跨 Sentry、Datadog 取数、找根因并在五分钟内提交修复 PR，全程无需写工作流或 skill。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            194.717,
+            203.521
+          ],
+          "quote": "Instead of using a sparkle button, your own agent, Claude, whom you've already been using every day, could generate the query for you, execute it on your behalf, and give you the answer directly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            303.729,
+            308.472
+          ],
+          "quote": "So imagine in this mock-up I have my Claude connected to the Composio MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            370.499,
+            373.18
+          ],
+          "quote": "This is literally just Claude using Composio's MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            374.372,
+            380.553
+          ],
+          "quote": "And it has become so much easier to do things this way that opening up Claude has just become like muscle memory for me to do literally anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            390.015,
+            397.997
+          ],
+          "quote": "So these are some early unreleased results comparing Composio against each app's own native MCP that's listed in the Claude marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            450.835,
+            451.936
+          ],
+          "quote": "I can simply just ask Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            452.636,
+            454.497
+          ],
+          "quote": "Claude will, again, run Composio Search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            474.393,
+            481.881
+          ],
+          "quote": "So let's see if Claude can figure out how it can pull this data from MetaBase given the user IDs in PostHog.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            184.933,
+            194.097
+          ],
+          "quote": "In November of 2024, Anthropic announced the MCP protocol with a promise to create an open standard for connecting AI systems with its data sources, and that it did.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "type": "concept",
+      "role": "concept",
+      "name": "GEO",
+      "file": "GEO",
+      "primary": false,
+      "how_described": "本集顺带提到许多创业公司已把落地页做成对 AI 友好（GEO，生成式引擎优化），但很少有公司让应用准备好被智能体使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            544.804,
+            550.549
+          ],
+          "quote": "Many startups have begun making their landing pages and their websites AI friendly for GEO purposes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

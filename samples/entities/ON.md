@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ON</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>577</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>582</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*577 条*
+*582 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q3]]
 
@@ -1127,6 +1127,10 @@ unlisted: true
 
 ![[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi#^q7]]
 
+![[2026-09-30-latent-devday-2026#^q1]]
+
+![[2026-09-30-latent-devday-2026#^q2]]
+
 ![[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest#^q1]]
 
 ![[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem#^q1]]
@@ -1157,17 +1161,23 @@ unlisted: true
 
 ![[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl#^q13]]
 
+![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q6]]
+
 ![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q2]]
 
 ![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q10]]
 
 ![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q6]]
 
+![[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat#^q4]]
+
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q3]]
 
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q7]]
 
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q8]]
+
+![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q2]]
 
 ![[2026-singju-openclaw-80apps#^q1]]
 

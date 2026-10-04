@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/48YUYDjwfYY.m4a",
+  "duration_sec": 1078.427,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 229,
+  "asr": true,
+  "title_en": "Stop Rationing Tokens: Let the Harness Pick the Model — Kimchi by Cast AI",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "added": "2026-10-04",
+  "added_at": "2026-10-04T12:25:37.775Z",
+  "speaker_map": {
+    "SPEAKER_00": "Zilvinas",
+    "SPEAKER_01": "Laurent"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Zilvinas",
+  "cohosts": [
+    "Laurent"
+  ],
+  "title_zh": "token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体",
+  "guest_name": "Laurent",
+  "guest_title": "Cast.AI 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

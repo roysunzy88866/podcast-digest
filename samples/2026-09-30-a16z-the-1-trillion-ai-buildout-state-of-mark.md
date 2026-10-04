@@ -192,9 +192,9 @@ Google 搜索为什么至今 resilient?因为最高变现的广告词(买保险�
 
 **换个口味**
 
+- [[2026-09-30-latent-devday-2026|OpenAI DevDay 双专访：计算机使用 180 度大变样]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:推理 (inference)、智能体 (agent)、缓存 (caching)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:智能体 (agent)</span>
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Anthropic、Google、Shopify · 同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

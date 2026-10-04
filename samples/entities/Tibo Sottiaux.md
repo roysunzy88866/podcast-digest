@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":72,"OpenAI":150,"ChatGPT":89,"ChatGPT work":1,"harness":51,"智能体":388,"Rust":5,"开源":31,"沙箱":70,"代码审查":22}</script>
+<script type="application/json" class="pd-epn">{"Codex":73,"OpenAI":151,"ChatGPT":89,"ChatGPT work":1,"harness":53,"智能体":391,"Rust":5,"开源":32,"沙箱":71,"代码审查":23}</script>
 
 <script>
 (function(){

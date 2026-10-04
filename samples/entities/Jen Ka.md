@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"OpenAI":150,"Anthropic":163,"XAI":7,"SAP":3,"Salesforce":34,"Harvey":16,"Cursor":77,"11 Labs":4,"GrokBot":8}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"OpenAI":151,"Anthropic":165,"XAI":7,"SAP":3,"Salesforce":34,"Harvey":16,"Cursor":78,"11 Labs":4,"GrokBot":8}</script>
 
 <script>
 (function(){

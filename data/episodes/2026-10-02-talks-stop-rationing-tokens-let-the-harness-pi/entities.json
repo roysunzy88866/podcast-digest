@@ -1,0 +1,892 @@
+{
+  "episode_id": "2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "token 成本",
+    "开源",
+    "云端沙箱"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "zilvinas",
+      "type": "person",
+      "role": "host",
+      "name": "Zilvinas",
+      "file": "Zilvinas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            35.186,
+            37.708
+          ],
+          "quote": "I have the pleasure to be here with Zilvinas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            38.729,
+            39.289
+          ],
+          "quote": "I'm Zilvinas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            158.458,
+            162.039
+          ],
+          "quote": "Two-thirds of those are developers that Zilvinas run at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            172.982,
+            178.064
+          ],
+          "quote": "And then Zilvinas will show you a few more things that make the coding agent really, really cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            284.681,
+            287.304
+          ],
+          "quote": "That is what Zilvinas did with his team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "laurent",
+      "type": "person",
+      "role": "cohost",
+      "name": "Laurent",
+      "file": "Laurent",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.074,
+            16.774
+          ],
+          "quote": "My name is Laurent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kimchi",
+      "type": "company",
+      "role": "company",
+      "name": "Kimchi",
+      "file": "Kimchi",
+      "primary": true,
+      "how_described": "本集说 Cast.AI 发明的编码智能体平台，包含 harness、Ferment、Teleport、Studio 等构造，目标是提供完整的软件开发生命周期方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.794,
+            23.599
+          ],
+          "quote": "I'm the co-founder and president of Cast.AI, who is the inventor of Kimchi, which I'm going to show you in a few seconds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            30.023,
+            34.746
+          ],
+          "quote": "And you're going to see some great result we have with that, with the coding agent called Kimchi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            39.429,
+            41.871
+          ],
+          "quote": "I am leading engineering for a Kimchi coding platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.304,
+            122.366
+          ],
+          "quote": "We at Kimchi think this is wrong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            281.458,
+            283.981
+          ],
+          "quote": "That is what we did with Kimchi Coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            486.571,
+            505.298
+          ],
+          "quote": "We still contribute back to open source by providing our own harnesses open source, building constructs like Ferment, which fits into the kimchi theme, which is meant for long-running tasks where, on average, we estimate the human envelope for these tasks is typically happening only every two hours, every three hours, and et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            505.318,
+            514.962
+          ],
+          "quote": "So the goal is you use kimchi harness, you run a Ferment process, it asks you a bunch of questions, and autonomously runs a coding task for more than two hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            526.386,
+            540.632
+          ],
+          "quote": "And going back to previously discussed the amount of models used with kimchi harness, the scoring is there to prove you that whatever model we will pick for you, you will always have good enough scoring for the output on the task you are implementing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            541.65,
+            551.432
+          ],
+          "quote": "The way the whole kimchi platform works, the goal is we are not just providing you the coding harness, we want to provide you the full software development lifecycle solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            708.305,
+            712.028
+          ],
+          "quote": "One thing we built more on top of that is the thing we called kimchi teleport.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            712.508,
+            714.75
+          ],
+          "quote": "So kimchi teleport allows you to close your laptop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            866.395,
+            868.975
+          ],
+          "quote": "So we built another tool called Kimchi Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            885.16,
+            894.505
+          ],
+          "quote": "The thing here is like you're supposed to share your tasks and work in progress and plans which are made by the kimchi code harness with open source or proprietary models with your teams.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cast-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Cast.AI",
+      "file": "Cast.AI",
+      "primary": true,
+      "how_described": "本集说它是 Kimchi 的发明者，Laurent 是其联合创始人兼总裁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.794,
+            23.599
+          ],
+          "quote": "I'm the co-founder and president of Cast.AI, who is the inventor of Kimchi, which I'm going to show you in a few seconds.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集用它的账单说明 token 成本失控：印度一家公司一个月在 Anthropic 上花 5 亿美元，Uber CTO 四个月用掉其全年预算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.933,
+            63.276
+          ],
+          "quote": "The first one is there's a company in India that spent $500 million on Anthropic alone in one month.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            68.597,
+            80.02
+          ],
+          "quote": "The other example is a famous tweet from Uber, the CTO of Uber, who said that in the last four months he actually used the entire budget of Anthropic for the entire year.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集作为成本对比基线：换成 Kimchi 的自动模型选择后，同样的产出给 Claude 的成本下降 1.5 倍，总体省 2.5 倍；半年前 Claude 账单飙升正是他们造 harness 的起因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            293.419,
+            298.482
+          ],
+          "quote": "2.5 times the amount of savings we have over Claude for the period.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            298.963,
+            303.706
+          ],
+          "quote": "This is a graph of what would have been our Claude bill by day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            305.528,
+            311.172
+          ],
+          "quote": "The purple one on top is what would have been Claude cost over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            328.768,
+            332.329
+          ],
+          "quote": "The cost to Claude decreased by 1.5 times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            467.935,
+            474.541
+          ],
+          "quote": "And we had to build this harness for ourselves, meaning we ended up spending too much on Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            474.581,
+            479.265
+          ],
+          "quote": "Half a year ago, we saw this Claude build skyrocketing, and we started working on our own harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集的主线概念：管理者的工作不是限制开发者用编码智能体，而是让 token 无限量供应且便宜；编码智能体工程让变更集大到难以逐行阅读。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.023,
+            34.746
+          ],
+          "quote": "And you're going to see some great result we have with that, with the coding agent called Kimchi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            137.901,
+            141.225
+          ],
+          "quote": "Our job is not to prevent the developer to use Coding Agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            162.619,
+            165.88
+          ],
+          "quote": "And we've been using this coding agent for the last three months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            172.982,
+            178.064
+          ],
+          "quote": "And then Zilvinas will show you a few more things that make the coding agent really, really cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            263.921,
+            267.384
+          ],
+          "quote": "And that's why we built our coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            336.35,
+            345.693
+          ],
+          "quote": "We provide to our team a coding agent that is essentially unlimited because of that coding agent is growing 3x less, 2.5 times less.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            411.581,
+            421.026
+          ],
+          "quote": "But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            687.547,
+            703.443
+          ],
+          "quote": "My dear colleague Laura starting to do some coding and suddenly he comes up with the PR which is like 2,000 lines long and you need to actually review not just the differences but the actual intent which he wanted to achieve and the specifications which he provided to the coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "Token 成本 (token)",
+      "file": "Token 成本",
+      "primary": true,
+      "how_described": "本集核心论点：按每 token 定价是错觉，要按「同任务、同质量」的任务成本比较模型——每 token 便宜的模型任务成本可能贵好几倍（705 美元 vs 148 美元）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            80.64,
+            87.682
+          ],
+          "quote": "And this is how much the token maxing or the token cost is a thing for the enterprises.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            90.953,
+            94.875
+          ],
+          "quote": "Companies responded to this by limiting the use of token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            99.937,
+            104.679
+          ],
+          "quote": "And as a developer, when you limit the amount of token, it feels like this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            114.72,
+            119.484
+          ],
+          "quote": "That's how it feels to limit the amount of token for a developer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            183.131,
+            188.321
+          ],
+          "quote": "We built an entire token optimization based on this idea.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            201.975,
+            204.716
+          ],
+          "quote": "On one side, you see the cost per token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            224.682,
+            231.148
+          ],
+          "quote": "Well, it seems to be a relatively inexpensive model at $3.5 per million token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            247.782,
+            255.047
+          ],
+          "quote": "The cost per token is 1.5, and the cost for the task is $148.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            347.787,
+            350.93
+          ],
+          "quote": "Then the growth of token for the task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            411.581,
+            421.026
+          ],
+          "quote": "But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            423.825,
+            435.05
+          ],
+          "quote": "That is what I mean when I say our responsibility is to think about providing our developers with the right cost per token for the same outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            592.1,
+            601.583
+          ],
+          "quote": "This is what I was saying earlier by it looks at the outcome, and it's optimizing the token based on the quality of the outcome.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "框架（harness） (harness)",
+      "file": "框架（harness）",
+      "primary": true,
+      "how_described": "本集说它是调度和包装模型调用的自动化执行框架，基于任务结果在合适时机挑选合适模型，痴迷于 token 成本、能在新模型胜出时当天全量切换，且完全开源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            267.945,
+            280.117
+          ],
+          "quote": "Would it be nice that you have an automated fashion, automated engine, automated harness that will select the right model for the task at the right time based on the outcome of the task?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            357.415,
+            364.121
+          ],
+          "quote": "I'm going to show you the evolution of the selection of the model over time by the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            374.633,
+            378.974
+          ],
+          "quote": "There's a complete shift, meaning the harness is selecting a very different model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            387.277,
+            394.779
+          ],
+          "quote": "The 3rd of June, Kimi 2.6 is winning by far the most popular of the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            411.581,
+            421.026
+          ],
+          "quote": "But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            467.935,
+            474.541
+          ],
+          "quote": "And we had to build this harness for ourselves, meaning we ended up spending too much on Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            474.581,
+            479.265
+          ],
+          "quote": "Half a year ago, we saw this Claude build skyrocketing, and we started working on our own harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            505.318,
+            514.962
+          ],
+          "quote": "So the goal is you use kimchi harness, you run a Ferment process, it asks you a bunch of questions, and autonomously runs a coding task for more than two hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            526.386,
+            540.632
+          ],
+          "quote": "And going back to previously discussed the amount of models used with kimchi harness, the scoring is there to prove you that whatever model we will pick for you, you will always have good enough scoring for the output on the task you are implementing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            541.65,
+            551.432
+          ],
+          "quote": "The way the whole kimchi platform works, the goal is we are not just providing you the coding harness, we want to provide you the full software development lifecycle solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            571.363,
+            590.05
+          ],
+          "quote": "You see, what I like with the ways you explain it is the harness select the model, Ferment is constantly checking the quality of the code and going back, meaning there is a higher order model that is checking that quality and thinking that quality is not good enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            885.16,
+            894.505
+          ],
+          "quote": "The thing here is like you're supposed to share your tasks and work in progress and plans which are made by the kimchi code harness with open source or proprietary models with your teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1041.978,
+            1043.54
+          ],
+          "quote": "The harness is entirely open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 Teleport 合上笔记本后在远程环境启动安全的沙箱，跑在超大规模云厂商（例中是 Google）的 Kubernetes 集群里，本地感觉完全一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            714.811,
+            717.573
+          ],
+          "quote": "It spins up sandbox in the remote environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            717.653,
+            720.155
+          ],
+          "quote": "It's a secure sandbox where you don't need to care about anything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集强调回馈开源：harness 完全开源，演讲主张边缘情况用专有模型、其余用开源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            439.651,
+            445.814
+          ],
+          "quote": "Zivinas is going to tell you a little bit more of how it works because whatever you're going to see, it's open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            479.825,
+            485.93
+          ],
+          "quote": "Behind the scenes, it's using PyMono SSDK, but the goal of that is to take the open source experience",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            486.571,
+            505.298
+          ],
+          "quote": "We still contribute back to open source by providing our own harnesses open source, building constructs like Ferment, which fits into the kimchi theme, which is meant for long-running tasks where, on average, we estimate the human envelope for these tasks is typically happening only every two hours, every three hours, and et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            885.16,
+            894.505
+          ],
+          "quote": "The thing here is like you're supposed to share your tasks and work in progress and plans which are made by the kimchi code harness with open source or proprietary models with your teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1039.236,
+            1041.498
+          ],
+          "quote": "It is open source, most of it at least.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1041.978,
+            1043.54
+          ],
+          "quote": "The harness is entirely open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集说 Teleport 的容器跑在 Google 机房的 Kubernetes 集群里、合上笔记本也继续运行；未来自动发布要检查 pod 是否崩溃、健康检查是否通过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            641.691,
+            646.637
+          ],
+          "quote": "If you're running on Kubernetes, you want to check if the pods are not crashing, if application health checks are passing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            825.349,
+            836.878
+          ],
+          "quote": "It runs somewhere else in your environment, in a container, in a Kubernetes cluster, inside the place at Google, that will continue running even if you close your laptop.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到他们半年前在 Claude Code 上花得太多，才被迫自己造 harness。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            467.935,
+            474.541
+          ],
+          "quote": "And we had to build this harness for ourselves, meaning we ended up spending too much on Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3-flash",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini 3 Flash",
+      "file": "Gemini 3 Flash",
+      "primary": false,
+      "how_described": "本集引用白皮书：它每百万 token 只要 3.5 美元看似便宜，完成同一任务却要 705 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            219.938,
+            224.362
+          ],
+          "quote": "But also, look at Gemini 3 Flash, our friends at Google.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "minimax",
+      "type": "concept",
+      "role": "concept",
+      "name": "Minimax",
+      "file": "Minimax",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            238.935,
+            240.896
+          ],
+          "quote": "Minimax 2.7 is one of my favorites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            394.859,
+            397.8
+          ],
+          "quote": "21st of June, the one winning is Minimax 3.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kimi",
+      "file": "Kimi",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            387.277,
+            394.779
+          ],
+          "quote": "The 3rd of June, Kimi 2.6 is winning by far the most popular of the harness.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

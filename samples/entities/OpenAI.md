@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>150</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>151</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -155,6 +155,7 @@ unlisted: true
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说 OpenAI 与 Anthropic 合并年化收入攀升到惊人程度,新增收入已超过有史以来最好的软件公司;Sam Altman 的大规模算力承诺曾被批鲁莽、如今被视为极具远见,甚至因需求太猛暂停 Pro 套餐新订阅
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(12:56起):本集主角公司：Sam 介绍 Dev Day 发布的 22 项新东西，自称要走「平台赋能构建者、公司数量文艺复兴」路线，而非一家独大。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):本集讨论它是否会扣住最强模型、往上游做企业业务；Klein 表示第三方智能体（包括 OpenAI 的）可经 SAP 的智能体网关访问 SAP 系统。
+- **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(00:06起):本集录制于 OpenAI DevDay 现场，两位嘉宾分别来自其计算机使用智能体团队和 API 团队，整集围绕其发布的模型与 API 新品展开。
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(05:02起):本集说 OpenAI 用三名工程师让智能体从空仓库写出约一百万行代码,声称『人类可以审查 pull request 但不是必须的』;2024 年还训练了评审模型 Critic GPT。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(19:13起):本集顺带谈到 OpenAI：VC 已无法判断护城河会不会被 OpenAI 一个新模型碾平；还开玩笑说若 OpenAI 生在 Web 2.0 时代就永远不会上广告。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一（和 Anthropic 一起），用模型能力给自己产品加超能力
@@ -211,7 +212,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*150 集*
+*151 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -359,6 +360,7 @@ unlisted: true
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
+- [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
@@ -368,9 +370,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
+[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"Anthropic":163,"推理":68,"ChatGPT":89,"Google":55,"Cursor":77,"NVIDIA":51,"Codex":72,"Claude":81,"Stripe":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"Anthropic":165,"推理":70,"ChatGPT":89,"Google":55,"Cursor":78,"NVIDIA":52,"Codex":73,"Stripe":44,"Claude":83}</script>
 
 <script>
 (function(){

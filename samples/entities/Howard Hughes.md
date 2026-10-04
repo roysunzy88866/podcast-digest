@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bill Ackman]] · [[AI]] · [[颠覆风险]] · [[泡沫]] · [[永久资本]] · [[Pershing Square]] · [[Cognition]] · [[Netflix]] · [[Brookfield]] · [[Berkshire Hathaway]]
 
-<script type="application/json" class="pd-epn">{"Bill Ackman":1,"AI":27,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":23,"Netflix":5,"Brookfield":1,"Berkshire Hathaway":2}</script>
+<script type="application/json" class="pd-epn">{"Bill Ackman":1,"AI":27,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":24,"Netflix":5,"Brookfield":1,"Berkshire Hathaway":2}</script>
 
 <script>
 (function(){

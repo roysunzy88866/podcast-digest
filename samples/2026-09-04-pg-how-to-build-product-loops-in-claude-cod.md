@@ -123,7 +123,7 @@ JobNimbus 的产品循环:让 AI 一次性生成至少三个不同类型的原�
 
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)</span>
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)</span>
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同公司:Claude · 同概念:构建者 (builder)、智能体 (agent)</span>
+- [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|仪表盘已死：智能体才是新用户]]<span class="pd-rz">同公司:Claude · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

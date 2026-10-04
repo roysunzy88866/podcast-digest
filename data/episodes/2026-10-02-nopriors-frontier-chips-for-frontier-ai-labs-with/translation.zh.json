@@ -1,0 +1,2618 @@
+[
+ {
+  "seg": 0,
+  "start": 0.131,
+  "end": 1.572,
+  "speaker": "Unknown",
+  "en": "Right now, we're trying to build a single chip.",
+  "zh": "现在，我们正在尝试构建一颗单一的芯片。"
+ },
+ {
+  "seg": 1,
+  "start": 1.692,
+  "end": 10.755,
+  "speaker": "Unknown",
+  "en": "If you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.",
+  "zh": "如果你拆开一个 NVIDIA 系统，它有大约六到九颗由 NVIDIA 构建的自定义芯片，它们组合在一起构成一个非常、非常强大的东西。"
+ },
+ {
+  "seg": 2,
+  "start": 10.915,
+  "end": 12.115,
+  "speaker": "Unknown",
+  "en": "So there's already a gap there.",
+  "zh": "所以那里已经存在差距。"
+ },
+ {
+  "seg": 3,
+  "start": 12.195,
+  "end": 17.257,
+  "speaker": "Unknown",
+  "en": "You know, it'd be great to be productive enough that we could start to build our own responses in that same kind of way.",
+  "zh": "你知道，如果我们的生产力足够高，能够开始以同样的方式构建我们自己的应对方案，那就太好了。"
+ },
+ {
+  "seg": 4,
+  "start": 17.397,
+  "end": 26.559,
+  "speaker": "Unknown",
+  "en": "This idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned in which you're ready to trigger the ramp of.",
+  "zh": "这个想法是能够在任何时刻都拥有一批滚动的前沿押注，你希望这些押注是深度对齐的，并且你随时准备触发它们的放量。"
+ },
+ {
+  "seg": 5,
+  "start": 26.679,
+  "end": 30.24,
+  "speaker": "Unknown",
+  "en": "This is a huge advantage if you can kind of build that machine and build that engine.",
+  "zh": "如果你能构建出那样的机器、那样的引擎，这是一个巨大的优势。"
+ },
+ {
+  "seg": 6,
+  "start": 30.3,
+  "end": 39.522,
+  "speaker": "Unknown",
+  "en": "It's the equivalent of the frontier model for the chip space is if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments.",
+  "zh": "它相当于芯片领域的前沿模型——如果你能找到一种办法，在结构上 carving 出三到六个月的优势，你将会赢得所有那些部署。"
+ },
+ {
+  "seg": 7,
+  "start": 46.784,
+  "end": 47.404,
+  "speaker": "Unknown",
+  "en": "Hi, listeners.",
+  "zh": "听众朋友们好。"
+ },
+ {
+  "seg": 8,
+  "start": 47.524,
+  "end": 48.685,
+  "speaker": "Unknown",
+  "en": "Welcome back to No Priors.",
+  "zh": "欢迎回到 No Priors。"
+ },
+ {
+  "seg": 9,
+  "start": 48.885,
+  "end": 54.408,
+  "speaker": "Unknown",
+  "en": "Today, I'm here with Walter Goodwin, founder and CEO of full-stack AI chip company Fractile.",
+  "zh": "今天，我和 Walter Goodwin 在一起，他是全栈 AI 芯片公司 Fractile 的创始人兼 CEO。"
+ },
+ {
+  "seg": 10,
+  "start": 54.748,
+  "end": 74.639,
+  "speaker": "Unknown",
+  "en": "We talk about what it means to be full-stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators.",
+  "zh": "我们聊到作为一家公司做到全栈意味着什么、他们正在做的技术押注、为什么他如此专注于内存带宽、他对未来前沿模型架构的预测，以及当下和未来 NVIDIA、AMD、内部自研努力和这新一类加速器之间前沿芯片市场的结构。"
+ },
+ {
+  "seg": 11,
+  "start": 75.039,
+  "end": 75.72,
+  "speaker": "Unknown",
+  "en": "Welcome, Walter.",
+  "zh": "欢迎，Walter。"
+ },
+ {
+  "seg": 12,
+  "start": 76.24,
+  "end": 77.64,
+  "speaker": "Unknown",
+  "en": "Walter, thanks so much for doing this.",
+  "zh": "Walter，非常感谢你来做这期节目。"
+ },
+ {
+  "seg": 13,
+  "start": 78.24,
+  "end": 79.221,
+  "speaker": "Unknown",
+  "en": "Very good to be here, Sarah.",
+  "zh": "很高兴来到这里，Sarah。"
+ },
+ {
+  "seg": 14,
+  "start": 79.521,
+  "end": 82.021,
+  "speaker": "Unknown",
+  "en": "You started this incredibly interesting company called Fractal.",
+  "zh": "你创办了这家非常有趣的公司，叫 Fractal。"
+ },
+ {
+  "seg": 15,
+  "start": 82.061,
+  "end": 83.902,
+  "speaker": "Unknown",
+  "en": "Can you give us an overview of what you guys do?",
+  "zh": "你能给我们介绍一下你们是做什么的吗？"
+ },
+ {
+  "seg": 16,
+  "start": 84.162,
+  "end": 85.622,
+  "speaker": "Unknown",
+  "en": "Fractal is a chip company.",
+  "zh": "Fractal 是一家芯片公司。"
+ },
+ {
+  "seg": 17,
+  "start": 86.182,
+  "end": 90.083,
+  "speaker": "Unknown",
+  "en": "We build very, very fast inference chips for the world's largest models.",
+  "zh": "我们为世界上最大的模型构建非常、非常快的推理芯片。"
+ },
+ {
+  "seg": 18,
+  "start": 90.403,
+  "end": 93.723,
+  "speaker": "Unknown",
+  "en": "This sort of bet on speed is something which we've had right from the outset.",
+  "zh": "这种对速度的押注是我们从一开始就有的。"
+ },
+ {
+  "seg": 19,
+  "start": 94.584,
+  "end": 97.144,
+  "speaker": "Unknown",
+  "en": "Started the company in summer of 2022.",
+  "zh": "公司成立于 2022 年夏天。"
+ },
+ {
+  "seg": 20,
+  "start": 97.344,
+  "end": 99.465,
+  "speaker": "Unknown",
+  "en": "And I think at the time we were starting to see two things.",
+  "zh": "我想当时我们开始看到两件事。"
+ },
+ {
+  "seg": 21,
+  "start": 99.565,
+  "end": 101.505,
+  "speaker": "Unknown",
+  "en": "You know, one was obviously the arrival of",
+  "zh": "你知道，其一是显然出现了"
+ },
+ {
+  "seg": 22,
+  "start": 101.985,
+  "end": 105.647,
+  "speaker": "Unknown",
+  "en": "Foundation models trained on the internet and generalizing across everything.",
+  "zh": "在互联网上训练、并能跨一切任务泛化的基础模型。"
+ },
+ {
+  "seg": 23,
+  "start": 105.747,
+  "end": 113.451,
+  "speaker": "Unknown",
+  "en": "And the other was, you know, a few kind of wise people saying, you know, we need to find a way to pour more compute into these models at test time.",
+  "zh": "另一个是一些相当有智慧的人说，你知道，我们需要找到一种方法，在测试时向这些模型中投入更多算力。"
+ },
+ {
+  "seg": 24,
+  "start": 113.491,
+  "end": 125.278,
+  "speaker": "Unknown",
+  "en": "We need to find a way to take what we had for kind of AlphaGo, where you have a capable neural network, but then it becomes superhuman as you roll it out at scale and bring that to kind of language modeling, for example.",
+  "zh": "我们需要找到一种方法，把我们在 AlphaGo 时期拥有的东西——你有一个能力很强的神经网络，但随着大规模 rollout 它会变得超越人类——带到比如语言建模上。"
+ },
+ {
+  "seg": 25,
+  "start": 125.618,
+  "end": 138.88,
+  "speaker": "Unknown",
+  "en": "And so our big pursuit over the past four years has been to find a way to build chips that will allow for kind of simultaneously taking these huge models and running them much, much, much faster than the chips of today.",
+  "zh": "所以过去四年我们的重大追求，一直是找到一种方法来构建芯片，让我们能够同时把这些巨大的模型运行得比今天的芯片快得多、多得多。"
+ },
+ {
+  "seg": 26,
+  "start": 139.8,
+  "end": 141.541,
+  "speaker": "Unknown",
+  "en": "But do that in a way that kind of scales.",
+  "zh": "但要以一种可扩展的方式做到这一点。"
+ },
+ {
+  "seg": 27,
+  "start": 141.601,
+  "end": 147.102,
+  "speaker": "Unknown",
+  "en": "So scales to models beyond the frontier today, scales to extraordinarily long contexts.",
+  "zh": "即扩展到超越当今前沿的模型，扩展到极长的上下文。"
+ },
+ {
+  "seg": 28,
+  "start": 147.342,
+  "end": 149.282,
+  "speaker": "Unknown",
+  "en": "And so that's the mission that we've been on.",
+  "zh": "这就是我们一直以来的使命。"
+ },
+ {
+  "seg": 29,
+  "start": 149.582,
+  "end": 154.863,
+  "speaker": "Unknown",
+  "en": "It's become a much more interesting chip landscape in the four years since you started the company.",
+  "zh": "在你创办公司以来的这四年里，芯片格局变得有趣多了。"
+ },
+ {
+  "seg": 30,
+  "start": 155.783,
+  "end": 161,
+  "speaker": "Unknown",
+  "en": "Where would you place yourself in the overall GPU and accelerator landscape for inference?",
+  "zh": "在面向推理的整体 GPU 和加速器格局中，你会把自己放在什么位置？"
+ },
+ {
+  "seg": 31,
+  "start": 161.325,
+  "end": 166.267,
+  "speaker": "Unknown",
+  "en": "Yeah, I'd say there's a kind of extraordinary zoo now of options available.",
+  "zh": "是的，我想说现在有各种选择，堪称一个非凡的动物园。"
+ },
+ {
+  "seg": 32,
+  "start": 166.627,
+  "end": 177.332,
+  "speaker": "Unknown",
+  "en": "And if you look across this kind of entire space of kind of AI ASICs, one of the things that I think is very striking is there's a lot of relatively identikit chips out there.",
+  "zh": "如果你纵观整个 AI ASIC 领域，我认为非常引人注目的一点是，市面上有很多相对千篇一律的芯片。"
+ },
+ {
+  "seg": 33,
+  "start": 178.113,
+  "end": 188.798,
+  "speaker": "Unknown",
+  "en": "And this is kind of a structural, it's a kind of structural industry property where if you look, especially across kind of hyperscaler efforts, and Google kind of kicked this off with the TPU more than 10 years ago,",
+  "zh": "这在某种程度上是一种结构性的——它是一种结构性的行业属性——如果你去看，尤其是各大超大规模厂商的努力，Google 十多年前用 TPU 开创了这种做法，"
+ },
+ {
+  "seg": 34,
+  "start": 190.458,
+  "end": 215.565,
+  "speaker": "Unknown",
+  "en": "You see this paradigm where although there are a number of kind of proprietary internal chips, you know, Google with the TPU, Meta with MTIA, Microsoft with Maya, OpenAI now with Jalapeno, these chips that are ultimately developed and delivered in partnership with kind of a relatively small number of what we might call ASIC houses, these kind of back-end delivery houses, Broadcom is the largest, you know, $2 trillion company.",
+  "zh": "你会看到这样一种范式：虽然有不少专有的内部芯片，你知道，Google 的 TPU、Meta 的 MTIA、Microsoft 的 Maya、OpenAI 现在的 Jalapeno，这些芯片最终都是与相对少数的、我们可以称之为 ASIC 厂商——也就是后端交付厂商——合作开发和交付的，Broadcom 是最大的，你知道，一家两万亿美元市值的公司。"
+ },
+ {
+  "seg": 35,
+  "start": 217.625,
+  "end": 220.388,
+  "speaker": "Unknown",
+  "en": "that help people kind of realize these designs.",
+  "zh": "它们帮助人们把这些设计变为现实。"
+ },
+ {
+  "seg": 36,
+  "start": 220.889,
+  "end": 232.38,
+  "speaker": "Unknown",
+  "en": "And so when you kind of zoom into this sort of seeming embarrassment of riches in the spectrum of what exists today, you see that actually there's a lot of similarity across these platforms.",
+  "zh": "所以，当你深入审视今天存在的这一系列看似琳琅满目的选择时，你会发现实际上这些平台之间有很多相似之处。"
+ },
+ {
+  "seg": 37,
+  "start": 234.42,
+  "end": 244.043,
+  "speaker": "Unknown",
+  "en": "All of these chips, you have HBM, this type of DRAM memory that is common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs.",
+  "zh": "所有这些芯片，你都有 HBM，这种 DRAM 内存是 NVIDIA GPU、AMD GPU 以及所有这些其他 ASIC 所共有的。"
+ },
+ {
+  "seg": 38,
+  "start": 244.203,
+  "end": 251.724,
+  "speaker": "Unknown",
+  "en": "You have the same kinds of bets on tensor cores to do your matrix multiplications, the same advanced packaging with TSMC.",
+  "zh": "你有对张量核心做矩阵乘法的同样押注，有与 TSMC 的同样先进封装。"
+ },
+ {
+  "seg": 39,
+  "start": 252.385,
+  "end": 262.407,
+  "speaker": "Unknown",
+  "en": "And so I think one of the things that we see in the landscape is there's a relative dearth still of kind of efforts that go all the way up and down the silicon stack.",
+  "zh": "所以我认为，我们在这个格局中看到的一点是，真正贯穿硅栈上上下下的努力仍然相对匮乏。"
+ },
+ {
+  "seg": 40,
+  "start": 262.847,
+  "end": 265.708,
+  "speaker": "Unknown",
+  "en": "And try and build kind of fundamentally new capabilities.",
+  "zh": "并且试图构建根本上全新的能力。"
+ },
+ {
+  "seg": 41,
+  "start": 266.448,
+  "end": 268.409,
+  "speaker": "Unknown",
+  "en": "And this is kind of a structural thing.",
+  "zh": "这在某种程度上是结构性的。"
+ },
+ {
+  "seg": 42,
+  "start": 268.429,
+  "end": 290.596,
+  "speaker": "Unknown",
+  "en": "There's just not that many teams that have decided we're going to build from what you might call the kind of the architecture layer, the front end design layer, which mostly looks like kind of writing code, but also all the way down to what we call kind of physical design, the process technology, the kind of foundry interactions, the stuff that essentially has you flying back and forth to Taiwan or Korea every week.",
+  "zh": "决定要构建的团队并不多——从你所谓的架构层、前端设计层（这一层看起来主要是写代码），一直到我们所说的物理设计、工艺技术、与代工厂的交互——那些基本上会让你每周飞来飞去台湾或韩国的事情。"
+ },
+ {
+  "seg": 43,
+  "start": 291.917,
+  "end": 295.9,
+  "speaker": "Unknown",
+  "en": "That's something which actually tends to still be left to a relatively small number of companies.",
+  "zh": "这类事情实际上往往仍然只留给相对少数的公司。"
+ },
+ {
+  "seg": 44,
+  "start": 296.321,
+  "end": 306.269,
+  "speaker": "Unknown",
+  "en": "For people who don't work in the chip industry, what is the common abstraction or handoff between what architecture-focused players are doing and a player like Broadcom?",
+  "zh": "对于不从事芯片行业的人来说，专注架构的玩家和像 Broadcom 这样的玩家之间，常见的抽象或交接是什么？"
+ },
+ {
+  "seg": 45,
+  "start": 306.504,
+  "end": 317.75,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think if you're, let's say you're Google and you're designing the TPU, you have a number of people in your team who have a really strong understanding of the workloads that they're trying to accelerate.",
+  "zh": "是的，我想说，比方说你是 Google，你在设计 TPU，你的团队里有一批人，他们对他们想要加速的工作负载有着非常深刻的理解。"
+ },
+ {
+  "seg": 46,
+  "start": 318.61,
+  "end": 330.857,
+  "speaker": "Unknown",
+  "en": "And so, you know, going back over 10 years, this is a world that then sees you conceive of things like the Tensor Core, which is a designated circuit dreamt up by an architect.",
+  "zh": "所以，你知道，回顾十多年前，正是这样的环境让你构想出诸如 Tensor Core 这样的东西，它是由架构师设想出的一个专用电路。"
+ },
+ {
+  "seg": 47,
+  "start": 331.717,
+  "end": 341.842,
+  "speaker": "Unknown",
+  "en": "That is exceptionally good at matrix multiplications because you have this insight that matrix multiplications are the overwhelming majority of the kind of flop count in these models that you're running.",
+  "zh": "它极其擅长矩阵乘法，因为你有一个洞见：矩阵乘法占你所运行这些模型 flop 数量的压倒性多数。"
+ },
+ {
+  "seg": 48,
+  "start": 343.642,
+  "end": 352.946,
+  "speaker": "Unknown",
+  "en": "That's kind of the preserve of the architect, I guess, is somebody who really understands the way that chips behave, but also ideally has a very strong understanding of the kind of target workloads.",
+  "zh": "我想，那大概就是架构师的专属领域——一个真正理解芯片行为方式的人，但同时最好对目标工作负载也有非常深刻的理解。"
+ },
+ {
+  "seg": 49,
+  "start": 354.027,
+  "end": 360.77,
+  "speaker": "Unknown",
+  "en": "What you'll then see inside those same organizations is a set of sort of very smart people that kind of lower that down into",
+  "zh": "然后你在同样的组织里会看到一批非常聪明的人，他们把这进一步降低到"
+ },
+ {
+  "seg": 50,
+  "start": 361.37,
+  "end": 364.992,
+  "speaker": "Unknown",
+  "en": "I guess essentially a kind of circuit level description of how this chip should behave.",
+  "zh": "我猜本质上就是某种关于这个芯片应该如何表现的电路级描述。"
+ },
+ {
+  "seg": 51,
+  "start": 365.112,
+  "end": 368.914,
+  "speaker": "Unknown",
+  "en": "And so a lot of this is what we call front end design.",
+  "zh": "所以这其中很大一部分就是我们所谓的前端设计。"
+ },
+ {
+  "seg": 52,
+  "start": 370.835,
+  "end": 378.919,
+  "speaker": "Unknown",
+  "en": "Mechanistically, it still looks like writing code on a computer, and it's still code that is then handed off to a player like Broadcom.",
+  "zh": "从机制上讲，它看起来仍然像是在电脑上写代码，而且这些代码随后会被交给像 Broadcom 这样的玩家。"
+ },
+ {
+  "seg": 53,
+  "start": 380.08,
+  "end": 386.343,
+  "speaker": "Unknown",
+  "en": "And so that kind of front end design that describes the kind of underlying intent of the chip, the underlying logic of the chip,",
+  "zh": "于是这种描述芯片底层意图、芯片底层逻辑的前端设计，"
+ },
+ {
+  "seg": 54,
+  "start": 386.943,
+  "end": 392.769,
+  "speaker": "Unknown",
+  "en": "is then transformed ultimately into something that, you know, what gets shipped to TSMC in the end is literally a kind of bitmap.",
+  "zh": "最终会被转化成某种东西，你知道的，最后交付给 TSMC 的实际上是一种位图。"
+ },
+ {
+  "seg": 55,
+  "start": 392.85,
+  "end": 399.076,
+  "speaker": "Unknown",
+  "en": "You know, we have this file type you call GDS2 and it's literally, you know, where do I put the methyl layers?",
+  "zh": "你知道，我们有一种叫做 GDS2 的文件类型，它实际上就是，你知道的，我把金属层放在哪里？"
+ },
+ {
+  "seg": 56,
+  "start": 399.116,
+  "end": 401.139,
+  "speaker": "Unknown",
+  "en": "Where do I put each individual transistor?",
+  "zh": "我把每个单独的晶体管放在哪里？"
+ },
+ {
+  "seg": 57,
+  "start": 401.199,
+  "end": 403.041,
+  "speaker": "Unknown",
+  "en": "And so it's a full layout.",
+  "zh": "所以它是一份完整的版图。"
+ },
+ {
+  "seg": 58,
+  "start": 403.121,
+  "end": 406.444,
+  "speaker": "Unknown",
+  "en": "And so you go through this process of synthesis of that RTL",
+  "zh": "于是你要经历对这个 RTL 进行综合的过程，"
+ },
+ {
+  "seg": 59,
+  "start": 407.545,
+  "end": 410.646,
+  "speaker": "Unknown",
+  "en": "into a kind of set of circuits that then ultimately get laid out.",
+  "zh": "把它综合成一组电路，这些电路最终会被布局。"
+ },
+ {
+  "seg": 60,
+  "start": 411.006,
+  "end": 421.628,
+  "speaker": "Unknown",
+  "en": "And a lot of the complexity there is around, in Broadcom's case, it will be ownership of analog IP that is used for chip-to-chip connectivity.",
+  "zh": "而那里的很多复杂性，就 Broadcom 的情况而言，将是对用于芯片间互联的模拟 IP 的所有权。"
+ },
+ {
+  "seg": 61,
+  "start": 422.008,
+  "end": 428.229,
+  "speaker": "Unknown",
+  "en": "And it is this kind of physical placement that is specific to a given process node at TSMC.",
+  "zh": "而且这种物理布局是特定于 TSMC 某个给定工艺节点的。"
+ },
+ {
+  "seg": 62,
+  "start": 428.249,
+  "end": 431.33,
+  "speaker": "Unknown",
+  "en": "So we talk about like three nanometers, five nanometers, et cetera.",
+  "zh": "所以我们会说 3 纳米、5 纳米等等。"
+ },
+ {
+  "seg": 63,
+  "start": 432.87,
+  "end": 438.052,
+  "speaker": "Unknown",
+  "en": "So that piece is still today, you know, generally it is a kind of outsourced activity for all of these projects.",
+  "zh": "所以这一部分直到今天，你知道的，通常来说对所有的这些项目而言它都是一种外包的活动。"
+ },
+ {
+  "seg": 64,
+  "start": 438.352,
+  "end": 444.955,
+  "speaker": "Unknown",
+  "en": "You are describing what feels like a very large project to do end-to-end new chip creation.",
+  "zh": "你正在描述一个感觉上端到端做全新芯片的非常庞大的项目。"
+ },
+ {
+  "seg": 65,
+  "start": 445.755,
+  "end": 452.077,
+  "speaker": "Unknown",
+  "en": "From a workload perspective, you're working with several frontier players to sort of characterize that and make sure that you can serve them.",
+  "zh": "从工作负载的角度来看，你在与几家前沿玩家合作来某种程度上刻画这一点，并确保你能服务好他们。"
+ },
+ {
+  "seg": 66,
+  "start": 452.437,
+  "end": 455.098,
+  "speaker": "Unknown",
+  "en": "How did you think about, like, what does the Fractal team look like today?",
+  "zh": "你是怎么看待，比如，Fractal 团队今天是什么样子的？"
+ },
+ {
+  "seg": 67,
+  "start": 455.178,
+  "end": 456.599,
+  "speaker": "Unknown",
+  "en": "How can you do that as a startup?",
+  "zh": "作为一家初创公司，你怎么能做到这一点？"
+ },
+ {
+  "seg": 68,
+  "start": 456.759,
+  "end": 471.127,
+  "speaker": "Unknown",
+  "en": "Yeah, I think there is a, you know, it's funny, there's a lot of industries where there will be a kind of waterfall style approach to doing things and then suddenly, you know, along comes a new way of thinking and it's kind of more agile to borrow from like management philosophy, right?",
+  "zh": "是的，我认为，你知道的，有趣的是，有很多行业做事会采用某种瀑布式的风格，然后突然之间，你知道的，出现了一种新的思维方式，它借用管理学哲学的话说更敏捷，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 471.167,
+  "end": 478.11,
+  "speaker": "Unknown",
+  "en": "And I think for us as a very full stack company, so we have a team that does span, you know, very deep workload understanding.",
+  "zh": "而我认为对我们这样一家非常全栈的公司来说，我们有一个团队确实涵盖了，你知道的，非常深入的工作负载理解。"
+ },
+ {
+  "seg": 70,
+  "start": 478.17,
+  "end": 479.351,
+  "speaker": "Unknown",
+  "en": "I think we actually try to...",
+  "zh": "我认为我们实际上试图……"
+ },
+ {
+  "seg": 71,
+  "start": 479.671,
+  "end": 487.559,
+  "speaker": "Unknown",
+  "en": "You know, run ahead in many places and look at, you know, where would we change a model architecture to be more exceptionally aligned with our bet?",
+  "zh": "你知道的，在许多地方走在前面，去看，你知道的，我们会在哪里改变模型架构，使之与我们的押注更加异常地对齐？"
+ },
+ {
+  "seg": 72,
+  "start": 487.659,
+  "end": 492.904,
+  "speaker": "Unknown",
+  "en": "What do we think is like kind of the scaling law vector for the particular bets that we are taking?",
+  "zh": "对于我们所采取的特定押注，我们认为什么样的东西有点像是缩放定律的向量？"
+ },
+ {
+  "seg": 73,
+  "start": 493.624,
+  "end": 496.307,
+  "speaker": "Unknown",
+  "en": "And then we can advocate to our customers and our partners on that.",
+  "zh": "然后我们可以就此向我们的客户和合作伙伴进行倡导。"
+ },
+ {
+  "seg": 74,
+  "start": 496.367,
+  "end": 499.51,
+  "speaker": "Unknown",
+  "en": "And it also helps us inform a set of bets for a chip that,",
+  "zh": "而且这也帮助我们为一款芯片确定一组押注，这款芯片"
+ },
+ {
+  "seg": 75,
+  "start": 500.07,
+  "end": 504.615,
+  "speaker": "Unknown",
+  "en": "isn't going to necessarily exist in volume for one or two years.",
+  "zh": "在一两年内不一定会形成量产。"
+ },
+ {
+  "seg": 76,
+  "start": 505.716,
+  "end": 509.039,
+  "speaker": "Unknown",
+  "en": "That becomes a really important sort of part of the muscle that we have to build.",
+  "zh": "这成为了我们必须构建的那种能力中非常重要的一部分。"
+ },
+ {
+  "seg": 77,
+  "start": 509.46,
+  "end": 516.928,
+  "speaker": "Unknown",
+  "en": "But then as we look across this kind of ability to spin a very kind of agile loop, it means that inside Fractal we do have",
+  "zh": "但当我们审视这种运转一个非常敏捷的循环的能力时，这意味着在 Fractal 内部我们确实拥有"
+ },
+ {
+  "seg": 78,
+  "start": 517.448,
+  "end": 518.489,
+  "speaker": "Unknown",
+  "en": "Front-end designers.",
+  "zh": "前端设计师。"
+ },
+ {
+  "seg": 79,
+  "start": 518.629,
+  "end": 520.63,
+  "speaker": "Unknown",
+  "en": "We have our own physical design team.",
+  "zh": "我们有自己的物理设计团队。"
+ },
+ {
+  "seg": 80,
+  "start": 520.67,
+  "end": 522.992,
+  "speaker": "Unknown",
+  "en": "We have our own kind of back-end implementation team.",
+  "zh": "我们有自己的后端实现团队。"
+ },
+ {
+  "seg": 81,
+  "start": 523.432,
+  "end": 526.654,
+  "speaker": "Unknown",
+  "en": "We do our own work on advanced packaging, for example.",
+  "zh": "比如，我们自己做一些先进封装方面的工作。"
+ },
+ {
+  "seg": 82,
+  "start": 528.035,
+  "end": 529.856,
+  "speaker": "Unknown",
+  "en": "And that's not an enormous headcount, right?",
+  "zh": "而这并不是一个庞大的员工人数，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 529.876,
+  "end": 532.037,
+  "speaker": "Unknown",
+  "en": "I mean, Fractal today is about 150 people.",
+  "zh": "我是说，Fractal 今天大约有 150 人。"
+ },
+ {
+  "seg": 84,
+  "start": 532.758,
+  "end": 536.58,
+  "speaker": "Unknown",
+  "en": "We're sort of skinny in every single one of those sectors.",
+  "zh": "我们在这些板块中的每一个都相当精简。"
+ },
+ {
+  "seg": 85,
+  "start": 536.98,
+  "end": 540.963,
+  "speaker": "Unknown",
+  "en": "But what it allows us to do is have this kind of much more agile closed loop.",
+  "zh": "但这让我们能够拥有这种更加敏捷的闭环。"
+ },
+ {
+  "seg": 86,
+  "start": 541.283,
+  "end": 549.846,
+  "speaker": "Unknown",
+  "en": "And I think that's becoming increasingly essential as you look at the sort of cadence needs that are set by this industry.",
+  "zh": "而且我认为随着你审视这个行业所设定的节奏需求，这一点正变得越来越重要。"
+ },
+ {
+  "seg": 87,
+  "start": 549.926,
+  "end": 562.709,
+  "speaker": "Unknown",
+  "en": "The chasing perennially of the sort of chasing of the tail of the workloads is you have to in the AI chip space more than any other kind of chip play before, you have to really place your bets correctly.",
+  "zh": "对工作负载尾部的那种永无止境的追赶——在 AI 芯片领域，比以往任何其他类型的芯片业务都更甚，你必须真正正确地下注。"
+ },
+ {
+  "seg": 88,
+  "start": 563.49,
+  "end": 564.45,
+  "speaker": "Unknown",
+  "en": "So you have to have a lot of...",
+  "zh": "所以你必须拥有很多……"
+ },
+ {
+  "seg": 89,
+  "start": 564.71,
+  "end": 566.01,
+  "speaker": "Unknown",
+  "en": "You know, skill and a lot of luck.",
+  "zh": "你知道的，技艺和很多运气。"
+ },
+ {
+  "seg": 90,
+  "start": 566.11,
+  "end": 568.591,
+  "speaker": "Unknown",
+  "en": "And you also then need to strike very fast.",
+  "zh": "而且你还需要出手非常快。"
+ },
+ {
+  "seg": 91,
+  "start": 568.751,
+  "end": 580.594,
+  "speaker": "Unknown",
+  "en": "And so this kind of structural setup where we have the entire story in house, it's very, very different to this kind of, I guess, prior approach where there's almost like a handoff point.",
+  "zh": "所以这种我们把整个故事都握在自己手里的结构性设置，与我想之前的那种方式非常非常不同，之前那种方式几乎像是一个交接点。"
+ },
+ {
+  "seg": 92,
+  "start": 580.734,
+  "end": 584.235,
+  "speaker": "Unknown",
+  "en": "And so you get to a certain level and then you hand off to another partner.",
+  "zh": "你做到某个程度，然后你交接给另一个合作伙伴。"
+ },
+ {
+  "seg": 93,
+  "start": 584.415,
+  "end": 589.077,
+  "speaker": "Unknown",
+  "en": "And to some extent, you're kind of at the mercy of how that other partner then behaves.",
+  "zh": "而在某种程度上，你就有点受制于那个合作伙伴之后的表现。"
+ },
+ {
+  "seg": 94,
+  "start": 589.397,
+  "end": 593.858,
+  "speaker": "Unknown",
+  "en": "What do you think are the single most important technical bets that the company has made?",
+  "zh": "你认为公司做出的最重要的单项技术押注是什么？"
+ },
+ {
+  "seg": 95,
+  "start": 594.286,
+  "end": 608.015,
+  "speaker": "Unknown",
+  "en": "So for us, I think, you know, one is the direction, you know, four and a half years ago, you were obviously right in the heart of an inference story, but I still felt that we were educating the world about what inference meant.",
+  "zh": "对我们来说，我认为，你知道的，其一是方向，你知道的，四年半以前，你显然正处在推理故事的正中心，但我仍然觉得当时我们在教育世界推理意味着什么。"
+ },
+ {
+  "seg": 96,
+  "start": 609.256,
+  "end": 617.982,
+  "speaker": "Unknown",
+  "en": "For two years or so following that, some of the inference chips today, including one that recently went public, was a training chip until about 18 months ago.",
+  "zh": "在那之后的大约两年里，如今的一些推理芯片，包括一家最近上市的公司，直到大约 18 个月前还是一款训练芯片。"
+ },
+ {
+  "seg": 97,
+  "start": 618.182,
+  "end": 624.985,
+  "speaker": "Unknown",
+  "en": "You know, there was a real avoidance of this idea, this sort of small, you know, final marginal cost.",
+  "zh": "你知道，当时对这个理念，这种小小的、你知道的、最后的边际成本，存在真正的回避。"
+ },
+ {
+  "seg": 98,
+  "start": 625.025,
+  "end": 627.046,
+  "speaker": "Unknown",
+  "en": "Marginal cost, I think, has two senses, right?",
+  "zh": "边际成本，我认为它有两层含义，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 627.066,
+  "end": 629.186,
+  "speaker": "Unknown",
+  "en": "It either sounds like it's a small cost.",
+  "zh": "它要么听起来像是一笔很小的成本。"
+ },
+ {
+  "seg": 100,
+  "start": 629.506,
+  "end": 633.828,
+  "speaker": "Unknown",
+  "en": "What it in fact means is this is the cost that you pay every single time you deploy these models.",
+  "zh": "它实际上意味着的是,这是你每一次部署这些模型时都要付出的成本。"
+ },
+ {
+  "seg": 101,
+  "start": 634.809,
+  "end": 645.713,
+  "speaker": "Unknown",
+  "en": "So I think firstly, just the sheer bet that we were going to slip into a kind of deployment era and the bet on speed, that was something that kind of really informed a lot of what we then did as a kind of architectural response.",
+  "zh": "所以我想首先,仅仅是我们会滑入某种部署时代这个押注,以及对速度的押注,这在很大程度上影响了我们随后作为一个架构层面的回应所做的大量事情。"
+ },
+ {
+  "seg": 102,
+  "start": 646.253,
+  "end": 652.796,
+  "speaker": "Unknown",
+  "en": "On the architectural side, we've been through a journey I think for the first kind of two years or so of the company's life.",
+  "zh": "在架构方面,我想在公司成立的前两年左右的时间里,我们经历了一段旅程。"
+ },
+ {
+  "seg": 103,
+  "start": 652.956,
+  "end": 658.598,
+  "speaker": "Unknown",
+  "en": "We were working on a little like Grok or Cerebrus working on an SRAM-based chip.",
+  "zh": "我们当时在做一个有点像 Grok 或 Cerebrus 的东西,做一块基于 SRAM 的芯片。"
+ },
+ {
+  "seg": 104,
+  "start": 658.818,
+  "end": 662.14,
+  "speaker": "Unknown",
+  "en": "So we'd sort of made the observation that SRAM is this",
+  "zh": "所以我们当时做出了这样一个观察:SRAM 是一种"
+ },
+ {
+  "seg": 105,
+  "start": 663.22,
+  "end": 664.44,
+  "speaker": "Unknown",
+  "en": "Super high bandwidth memory.",
+  "zh": "超高带宽的内存。"
+ },
+ {
+  "seg": 106,
+  "start": 664.46,
+  "end": 667.421,
+  "speaker": "Unknown",
+  "en": "It lives on the same piece of silicon as your logic.",
+  "zh": "它和你的逻辑电路位于同一块硅片上。"
+ },
+ {
+  "seg": 107,
+  "start": 667.481,
+  "end": 678.004,
+  "speaker": "Unknown",
+  "en": "And so you have this extremely high bandwidth between your compute where you're running the maths as you run these models and let's say the weights of your model or the KV cache of this model as you're rolling it out.",
+  "zh": "所以在你的算力——也就是你运行这些模型时进行数学运算的地方——与比如说模型的权重或者模型推出过程中的 KV 缓存之间,你拥有极高的带宽。"
+ },
+ {
+  "seg": 108,
+  "start": 679.004,
+  "end": 683.886,
+  "speaker": "Unknown",
+  "en": "And that's something which then can drive you to thousands of tokens per second on these language models.",
+  "zh": "而这能够让你在这些语言模型上达到每秒数千个 token。"
+ },
+ {
+  "seg": 109,
+  "start": 685.246,
+  "end": 695.431,
+  "speaker": "Unknown",
+  "en": "But I think one of the things that we started to worry about towards the end of 2023 and certainly in 2024 was the scalability of this approach.",
+  "zh": "但我想,在 2023 年底以及毫无疑问在 2024 年,我们开始担心的一个问题是这种方法的可扩展性。"
+ },
+ {
+  "seg": 110,
+  "start": 696.752,
+  "end": 700.474,
+  "speaker": "Unknown",
+  "en": "And I think there are two things that grow with AI today.",
+  "zh": "我认为如今有两样东西随着 AI 一起增长。"
+ },
+ {
+  "seg": 111,
+  "start": 700.594,
+  "end": 702.435,
+  "speaker": "Unknown",
+  "en": "One is obviously the parameters of the model.",
+  "zh": "一个显然是模型的参数量。"
+ },
+ {
+  "seg": 112,
+  "start": 703.536,
+  "end": 717.13,
+  "speaker": "Unknown",
+  "en": "But the other, and this was the one that kind of really got us nervous about that architectural approach, was this kind of growing context length that was becoming more and more part of the story for how we saw these models rolling out.",
+  "zh": "但另一个——也正是让我们对那种架构路线感到紧张的——是不断增长的上下文长度,它在这些模型如何推出的图景中越来越成为故事的一部分。"
+ },
+ {
+  "seg": 113,
+  "start": 718.492,
+  "end": 721.175,
+  "speaker": "Unknown",
+  "en": "And it's that that has taken us over the past couple of years",
+  "zh": "而正是这一点,在过去几年里把我们带向了"
+ },
+ {
+  "seg": 114,
+  "start": 721.695,
+  "end": 737.345,
+  "speaker": "Unknown",
+  "en": "to a kind of what we see as a more exciting bet, I guess, in some ways, which is working more closely with memory vendors as well as our sort of Logic Foundry partners to find ways to get extremely high bandwidth access to higher capacity memories.",
+  "zh": "一个我认为在某些方面更令人兴奋的押注,那就是与内存供应商以及我们的逻辑代工合作伙伴更紧密地合作,寻找 ways 来获得对更高容量内存的极高带宽访问。"
+ },
+ {
+  "seg": 115,
+  "start": 737.665,
+  "end": 748.972,
+  "speaker": "Unknown",
+  "en": "So for the past couple of years, we've been involved in these kind of Skunkworks projects to move away from SRAM, looking at how we can get, for instance, much, much, much higher bandwidth to DRAM memories.",
+  "zh": "所以在过去几年里,我们参与了这些类似 Skunkworks 的项目,以摆脱 SRAM,研究比如我们如何能以高得多、高得多、高得多的带宽访问 DRAM 内存。"
+ },
+ {
+  "seg": 116,
+  "start": 750.413,
+  "end": 770.513,
+  "speaker": "Unknown",
+  "en": "And this has been a very exciting bet for us because it's allowed us now to put together a platform which we'll be ramping in the second half of next year, which kind of unites, I guess, the scalability of these kind of higher capacity, lower cost DRAM memories that you have on a GPU, on a TPU.",
+  "zh": "这对我们来说是一个非常令人兴奋的押注,因为它让我们现在能够组装出一个平台——我们将在明年下半年开始量产——它把这类更高容量、更低成本的 DRAM 内存的可扩展性(就像 GPU、TPU 上拥有的那种)统一起来,"
+ },
+ {
+  "seg": 117,
+  "start": 771.514,
+  "end": 776.28,
+  "speaker": "Unknown",
+  "en": "With all of the speed advantages that you get from a Grok chip or a Cerebrus chip.",
+  "zh": "同时又结合了从 Grok 芯片或 Cerebrus 芯片上获得的所有速度优势。"
+ },
+ {
+  "seg": 118,
+  "start": 777.021,
+  "end": 789.337,
+  "speaker": "Unknown",
+  "en": "And I think where we see this is especially vital is if you look at where it is that speed really moves the dial today, there's a version of this which is like a snappier chatbot.",
+  "zh": "我认为我们看到这一点尤其关键的地方是,如果你看看如今速度真正能撬动局面的地方,有一种版本是像一个响应更快的聊天机器人。"
+ },
+ {
+  "seg": 119,
+  "start": 789.817,
+  "end": 800.402,
+  "speaker": "Unknown",
+  "en": "But I think this is like when Henry Ford sort of asked the rhetorical question of what people would have said they wanted and faster horses rather than a car.",
+  "zh": "但我觉得这就像亨利·福特那个反问:如果问人们他们会说自己想要什么,他们会说要更快的马,而不是汽车。"
+ },
+ {
+  "seg": 120,
+  "start": 801.042,
+  "end": 804.424,
+  "speaker": "Unknown",
+  "en": "The snappier chatbot is kind of the faster horses of kind of fast inference.",
+  "zh": "响应更快的聊天机器人,差不多就是快速推理领域里的“更快的马”。"
+ },
+ {
+  "seg": 121,
+  "start": 804.984,
+  "end": 813.788,
+  "speaker": "Unknown",
+  "en": "The place where the ability to take a multi-trillion parameter model and run it comfortably at many thousands of tokens per second in our view is a kind of",
+  "zh": "在我们看来,能够把一个数万亿参数的模型以每秒数千个 token 的速度从容运行,作为一种"
+ },
+ {
+  "seg": 122,
+  "start": 814.468,
+  "end": 822.49,
+  "speaker": "Unknown",
+  "en": "fundamental elevator on capability for AI is in taking these kind of very long running agents and making them radically faster.",
+  "zh": "AI 能力的根本性电梯,其用武之地在于让这类长时间运行的智能体变得极其快速。"
+ },
+ {
+  "seg": 123,
+  "start": 823.29,
+  "end": 833.773,
+  "speaker": "Unknown",
+  "en": "And so that's kind of a, it's a tantalizing mismatch today between the properties of the fast inference chips that we have, which have super high bandwidth memory, but incredibly low capacity.",
+  "zh": "所以,如今这里存在一种诱人的错配:我们拥有的快速推理芯片的特性是拥有超高带宽内存,但容量却低得难以置信。"
+ },
+ {
+  "seg": 124,
+  "start": 834.153,
+  "end": 841.255,
+  "speaker": "Unknown",
+  "en": "And if you look at the sort of technical detail of how they actually get employed and deployed today, they're not running long context attention.",
+  "zh": "而如果你看看它们如今实际被使用和部署的技术细节,它们并没有在运行长上下文注意力。"
+ },
+ {
+  "seg": 125,
+  "start": 841.295,
+  "end": 843.536,
+  "speaker": "Unknown",
+  "en": "You still flip back to a GPU to do that.",
+  "zh": "你仍然需要切回 GPU 去做那件事。"
+ },
+ {
+  "seg": 126,
+  "start": 844.076,
+  "end": 853.879,
+  "speaker": "Unknown",
+  "en": "And so there's this sort of tantalizing mismatch where precisely the area where we are almost able to go and take these things and make them much faster, we also don't have that technical capability.",
+  "zh": "所以就存在这样一种诱人的错配:恰恰在我们几乎能够拿这些东西并让它们快得多的领域,我们却没有那种技术能力。"
+ },
+ {
+  "seg": 127,
+  "start": 854.56,
+  "end": 863.563,
+  "speaker": "Unknown",
+  "en": "And so in a sense, this is like many technical challenges, it boils down to a slightly mundane technical observation, which is we need chips that have this kind of",
+  "zh": "所以从某种意义上说,这和许多技术挑战一样,归结为一条略显平淡的技术观察:我们需要拥有这种"
+ },
+ {
+  "seg": 128,
+  "start": 864.063,
+  "end": 868.466,
+  "speaker": "Unknown",
+  "en": "Particular ineffable property, which is incredibly high bandwidth to memory.",
+  "zh": "特殊的、难以言喻的特性的芯片,那就是对内存具有高得难以置信的带宽。"
+ },
+ {
+  "seg": 129,
+  "start": 868.486,
+  "end": 876.571,
+  "speaker": "Unknown",
+  "en": "So we can load the weights, we can load this state many thousands of times per second, but also have like economical memory.",
+  "zh": "这样我们就能加载权重,每秒数千次地加载这个状态,同时还要有经济实惠的内存。"
+ },
+ {
+  "seg": 130,
+  "start": 876.771,
+  "end": 889.519,
+  "speaker": "Unknown",
+  "en": "Because when you look at what it looks like to run inference at data center scale for thousands of users, the economics actually collapsed down to essentially a kind of cost per gigabyte of the memory that you're employing.",
+  "zh": "因为当你看看在数据中心规模上为数千用户运行推理是什么样子时,经济性实际上坍缩为本质上一个东西:你所使用的内存的每 GB 成本。"
+ },
+ {
+  "seg": 131,
+  "start": 890.159,
+  "end": 904.415,
+  "speaker": "Unknown",
+  "en": "And so that's been the sort of other key focus for us is unlocking this kind of fundamentally new building block, which is finding a path to get aggressively high bandwidth from the world's lower cost memory, DRAM memory.",
+  "zh": "所以这就是我们的另一个关键聚焦点:解锁这种根本上全新的构建模块,也就是找到一条路径,从世界上成本最低的内存——DRAM 内存——获得激进的高带宽。"
+ },
+ {
+  "seg": 132,
+  "start": 904.908,
+  "end": 908.151,
+  "speaker": "Unknown",
+  "en": "You said a few things that I think are not the conventional wisdom.",
+  "zh": "你说了几件我认为不属于传统共识的事情。"
+ },
+ {
+  "seg": 133,
+  "start": 908.431,
+  "end": 912.915,
+  "speaker": "Unknown",
+  "en": "One, in terms of making a bet yourselves on where the workloads are going.",
+  "zh": "第一,你们自己在工作负载走向何处的问题上下了赌注。"
+ },
+ {
+  "seg": 134,
+  "start": 912.935,
+  "end": 924.746,
+  "speaker": "Unknown",
+  "en": "And then two, the idea that you can, you know, traditional chip people might think of delivery of chips in a generation, you know, every year or a little faster than that.",
+  "zh": "然后第二,这样一个想法:你知道,传统的芯片人可能会认为芯片的交付是以代为计的,你知道,每年一次或者比这稍快一点。"
+ },
+ {
+  "seg": 135,
+  "start": 925.967,
+  "end": 927.689,
+  "speaker": "Unknown",
+  "en": "And, you know, big architectural changes.",
+  "zh": "而你知道,大的架构变革。"
+ },
+ {
+  "seg": 136,
+  "start": 928.089,
+  "end": 930.692,
+  "speaker": "Unknown",
+  "en": "Come slower than that sort of tick rate.",
+  "zh": "会比那种节奏更慢地到来。"
+ },
+ {
+  "seg": 137,
+  "start": 931.573,
+  "end": 943.988,
+  "speaker": "Unknown",
+  "en": "But you've aspirationally said within Fractal that you think the speed of change in architecture and change in the technical plays you're making can be much faster than that.",
+  "zh": "但你已经满怀期待地说过,在 Fractal 内部,你认为架构变革的速度以及你们所做的技术打法变革的速度可以比那快得多。"
+ },
+ {
+  "seg": 138,
+  "start": 944.028,
+  "end": 944.829,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about",
+  "zh": "你能稍微谈一谈"
+ },
+ {
+  "seg": 139,
+  "start": 945.657,
+  "end": 946.877,
+  "speaker": "Unknown",
+  "en": "What would enable that to happen?",
+  "zh": "是什么能让这件事发生吗?"
+ },
+ {
+  "seg": 140,
+  "start": 947.017,
+  "end": 953.358,
+  "speaker": "Unknown",
+  "en": "Because the, you know, I think people have a better understanding of the physical limits of the supply chain today than they used to.",
+  "zh": "因为,你知道,我认为如今人们对供应链的物理极限的理解比过去更好了。"
+ },
+ {
+  "seg": 141,
+  "start": 953.478,
+  "end": 955.799,
+  "speaker": "Unknown",
+  "en": "So what is the flexibility that the industry could have?",
+  "zh": "那么这个行业可以拥有什么样的灵活性呢?"
+ },
+ {
+  "seg": 142,
+  "start": 956.039,
+  "end": 956.279,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 143,
+  "start": 956.719,
+  "end": 972.242,
+  "speaker": "Unknown",
+  "en": "So I think there's a nuance on this, but what you want at any given moment in time for an AI chip is you wish that you had a chip that was precisely targeting the workload that you care about and in your hand today in volume.",
+  "zh": "所以我觉得这里有个细微之处,但你在任一时刻对一颗 AI 芯片所想要的,是你希望自己手里能有一颗恰好针对你当下所关心的工作负载、而且有量产供应的芯片。"
+ },
+ {
+  "seg": 144,
+  "start": 972.402,
+  "end": 976.425,
+  "speaker": "Unknown",
+  "en": "But if you had that chip, you know, you're going to want something else again in six months' time.",
+  "zh": "但如果你有了那颗芯片,你知道,六个月后你又会想要别的东西了。"
+ },
+ {
+  "seg": 145,
+  "start": 976.445,
+  "end": 978.247,
+  "speaker": "Unknown",
+  "en": "Like these workloads move on very fast.",
+  "zh": "因为这些工作负载演进得非常快。"
+ },
+ {
+  "seg": 146,
+  "start": 978.527,
+  "end": 983.891,
+  "speaker": "Unknown",
+  "en": "Well, today, you know, we have a model coming out about every two weeks, so it's a little tough.",
+  "zh": "嗯,如今,你知道,我们大约每两周就有一个模型发布,所以这有点难办。"
+ },
+ {
+  "seg": 147,
+  "start": 983.911,
+  "end": 984.231,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 148,
+  "start": 984.251,
+  "end": 989.155,
+  "speaker": "Unknown",
+  "en": "And so sanity comes from looking across those models and saying, well, okay, what's common to all of these?",
+  "zh": "所以,清醒的做法是纵观这些模型,然后说:好吧,这些东西的共同点是什么?"
+ },
+ {
+  "seg": 149,
+  "start": 989.215,
+  "end": 991.137,
+  "speaker": "Unknown",
+  "en": "And like, thankfully, there's enough that is common.",
+  "zh": "而且幸运的是,共同点足够多。"
+ },
+ {
+  "seg": 150,
+  "start": 991.237,
+  "end": 998.903,
+  "speaker": "Unknown",
+  "en": "So, you know, it's always the case that a new LLM desperately wants to have orders of magnitude more bandwidth to memory in order to run faster.",
+  "zh": "所以，你知道，一直都是这样：新的 LLM 迫切希望拥有比现在高出几个数量级的内存带宽，以便运行得更快。"
+ },
+ {
+  "seg": 151,
+  "start": 999.643,
+  "end": 1013.193,
+  "speaker": "Unknown",
+  "en": "It remains the case today that these LLMs tend to be auto-aggressive, very low batch as you generate text with this sort of fundamental trade-off again between throughput efficiency and cost and the speed that you can serve these models at.",
+  "zh": "如今情况仍然是，这些 LLM 往往是 auto-aggressive 的，生成文本时 batch 非常小，再次存在这种根本性的权衡，即在吞吐效率、成本和你能为这些模型提供服务的速度之间。"
+ },
+ {
+  "seg": 152,
+  "start": 1013.834,
+  "end": 1015.795,
+  "speaker": "Unknown",
+  "en": "So there are certain things that these models are...",
+  "zh": "所以这些模型有某些东西是……"
+ },
+ {
+  "seg": 153,
+  "start": 1016.195,
+  "end": 1020.858,
+  "speaker": "Unknown",
+  "en": "Unified and kind of crying out for and memory bandwidth is one of them.",
+  "zh": "统一的、可以说是在迫切呼唤的，而内存带宽就是其中之一。"
+ },
+ {
+  "seg": 154,
+  "start": 1021.078,
+  "end": 1032.844,
+  "speaker": "Unknown",
+  "en": "But then, you know, as you say, there are these evolutions and especially if you look at the kind of frontier of open source Chinese models, you know, the exact nature of an attention mechanism will churn every couple of weeks in terms of the frontier.",
+  "zh": "但是，你知道，正如你所说，确实存在这些演进，尤其是如果你看看开源中国模型的前沿，你知道，注意力机制的确切性质在前沿层面每隔几周就会发生变动。"
+ },
+ {
+  "seg": 155,
+  "start": 1033.165,
+  "end": 1037.827,
+  "speaker": "Unknown",
+  "en": "The sparsity, the sparsity level of the MOEs that you have, the sparsity on the attention itself.",
+  "zh": "稀疏性，你所拥有的 MOE 的稀疏程度，注意力本身上的稀疏性。"
+ },
+ {
+  "seg": 156,
+  "start": 1038.608,
+  "end": 1042.49,
+  "speaker": "Unknown",
+  "en": "And, you know, we may be in for like bigger shocks as well.",
+  "zh": "而且，你知道，我们可能还会面临更大的冲击。"
+ },
+ {
+  "seg": 157,
+  "start": 1042.53,
+  "end": 1044.431,
+  "speaker": "Unknown",
+  "en": "There may be kind of more fundamental shifts.",
+  "zh": "可能会有更根本性的转变。"
+ },
+ {
+  "seg": 158,
+  "start": 1045.071,
+  "end": 1068.737,
+  "speaker": "Unknown",
+  "en": "And so I think there's this duality around sort of the limits of the physical and the kind of financial world, I guess, and then these demands of, you know, workloads that churn at the pace of essentially software, where although there is this sort of clear desire to be able to kind of ship new platforms, you know, aggressively faster, I think there are also some sort of fundamental breaks on this.",
+  "zh": "所以我认为存在这样一种二元性：一方面是物理世界和我想说金融世界的限制，另一方面是本质上以软件速度不断变动的工作负载的需求。尽管存在这种明确的需求，希望能够以更快、更激进的速度推出新平台，但我认为也存在一些根本性的制约。"
+ },
+ {
+  "seg": 159,
+  "start": 1069.017,
+  "end": 1074.878,
+  "speaker": "Unknown",
+  "en": "So at Fractile, you know, we're extremely excited about being AI forward in how we do chip design.",
+  "zh": "所以在 Fractile，你知道，我们对在芯片设计中以 AI 为先极其兴奋。"
+ },
+ {
+  "seg": 160,
+  "start": 1075.018,
+  "end": 1085.564,
+  "speaker": "Unknown",
+  "en": "I think we've seen this ability to own the entire end-to-end gamut of the problem as really enabling a kind of fundamental rethink of how we do things.",
+  "zh": "我认为我们已经看到，拥有整个端到端问题全链路的能力，真正实现了对我们做事方式的根本性重新思考。"
+ },
+ {
+  "seg": 161,
+  "start": 1085.584,
+  "end": 1093.348,
+  "speaker": "Unknown",
+  "en": "If you think about classic CS law as Amdahl's law, everything I can paralyze becomes very, very fast and the part that I can't paralyze doesn't.",
+  "zh": "如果你想想经典的 CS 定律，比如 Amdahl 定律，一切我能并行化的部分都会变得非常非常快，而我不能并行化的部分则不会。"
+ },
+ {
+  "seg": 162,
+  "start": 1093.869,
+  "end": 1097.831,
+  "speaker": "Unknown",
+  "en": "And I think it's similar when you're in a long chain of organizations that",
+  "zh": "我认为当你处于一条很长的组织链条中时，情况是类似的："
+ },
+ {
+  "seg": 163,
+  "start": 1102.253,
+  "end": 1122.763,
+  "speaker": "Unknown",
+  "en": "There isn't necessarily an overwhelming need or return on radically changing your processes as a front-end focused chip design startup, adopting AI in aggressive ways to shorten your timelines from being maybe 12 months of front-end design work to a tiny fraction of that.",
+  "zh": "对于一家以前端设计为主的芯片设计初创公司来说，用激进的方式采用 AI、把时间线从可能 12 个月的前端设计工作缩短到其中很小的 fraction，并不一定有压倒性的需求或回报，"
+ },
+ {
+  "seg": 164,
+  "start": 1123.543,
+  "end": 1128.247,
+  "speaker": "Unknown",
+  "en": "If there's then going to be kind of the conventional bottlenecks and the conventional pace on the next piece.",
+  "zh": "如果接下来在下一个环节仍然会有传统的瓶颈和传统的节奏。"
+ },
+ {
+  "seg": 165,
+  "start": 1128.948,
+  "end": 1133.051,
+  "speaker": "Unknown",
+  "en": "And I think that's sort of, you know, at some extent there will always be those bottlenecks.",
+  "zh": "而且，你知道，我认为在某种程度上，这些瓶颈总是会存在的。"
+ },
+ {
+  "seg": 166,
+  "start": 1133.071,
+  "end": 1137.735,
+  "speaker": "Unknown",
+  "en": "You know, we all have the same kind of fab cycle times with our Foundry partners.",
+  "zh": "你知道，我们和晶圆代工合作伙伴的流片周期时间都是一样的。"
+ },
+ {
+  "seg": 167,
+  "start": 1138.196,
+  "end": 1145.322,
+  "speaker": "Unknown",
+  "en": "So from the moment you send the chip to them to getting it back is, you know, three to five months, even in a kind of super hot lot scenario.",
+  "zh": "所以从你把芯片交给他们的那一刻到拿回来，你知道，即使是在 super hot lot 的场景下也需要三到五个月。"
+ },
+ {
+  "seg": 168,
+  "start": 1145.462,
+  "end": 1148.885,
+  "speaker": "Unknown",
+  "en": "And so these are the kind of innate latencies, I guess, in the industry.",
+  "zh": "所以这些是行业里，我想说的，固有的延迟。"
+ },
+ {
+  "seg": 169,
+  "start": 1149.185,
+  "end": 1159.033,
+  "speaker": "Unknown",
+  "en": "And then when you get that chip back, I think it is vital to look at the way that these chips actually become financializable, which is that they do have a kind of payoff period.",
+  "zh": "然后当你把芯片拿回来时，我认为至关重要的是要看这些芯片实际上如何变得可以金融化，也就是它们确实有一个回报周期。"
+ },
+ {
+  "seg": 170,
+  "start": 1159.153,
+  "end": 1167.82,
+  "speaker": "Unknown",
+  "en": "You have to have really a kind of three to five year amortization window for that chip to make it a sensible financial decision.",
+  "zh": "你必须真正有一个三到五年的摊销窗口，才能让那颗芯片成为一个合理的财务决策。"
+ },
+ {
+  "seg": 171,
+  "start": 1168.98,
+  "end": 1174.282,
+  "speaker": "Unknown",
+  "en": "And so there's these sort of two things that are in tension in which I guess I believe two slightly conflicting things at the same time.",
+  "zh": "所以这里有这两件处于张力之中的事情，我想可以说我同时相信两个略微冲突的东西。"
+ },
+ {
+  "seg": 172,
+  "start": 1174.482,
+  "end": 1181.744,
+  "speaker": "Unknown",
+  "en": "One is there is a huge value in being able to take the overall chip design cycle and compress that and compress that.",
+  "zh": "一个是，能够把整个芯片设计周期压缩再压缩，这有巨大的价值。"
+ },
+ {
+  "seg": 173,
+  "start": 1182.865,
+  "end": 1188.547,
+  "speaker": "Unknown",
+  "en": "There is also, I think, what we don't lose is the need to place really",
+  "zh": "另一个，我认为我们不能失去的，是需要进行非常"
+ },
+ {
+  "seg": 174,
+  "start": 1189.487,
+  "end": 1199.195,
+  "speaker": "Unknown",
+  "en": "Thoughtful and subtle bets architecturally because the chip you actually end up making does still need to have a three year plus useful lifespan.",
+  "zh": "有深思熟虑、在架构上微妙的下注，因为你最终真正造出来的芯片仍然需要有三年的以上使用寿命。"
+ },
+ {
+  "seg": 175,
+  "start": 1200.496,
+  "end": 1210.163,
+  "speaker": "Unknown",
+  "en": "And so I think for me, what it means to be able to over time compress that kind of chip design cycle is essentially that you get to have more shots on goal.",
+  "zh": "所以对我来说，能够随时间压缩芯片设计周期，本质上意味着你会有更多次射门机会。"
+ },
+ {
+  "seg": 176,
+  "start": 1210.383,
+  "end": 1215.765,
+  "speaker": "Unknown",
+  "en": "You want to be forever ready to take a given flagship platform and say, right, that's it.",
+  "zh": "你想要永远做好准备，能对某个给定的旗舰平台说，好，就是它了。"
+ },
+ {
+  "seg": 177,
+  "start": 1215.805,
+  "end": 1217.026,
+  "speaker": "Unknown",
+  "en": "That is actually the flagship.",
+  "zh": "那实际上就是旗舰。"
+ },
+ {
+  "seg": 178,
+  "start": 1217.086,
+  "end": 1218.446,
+  "speaker": "Unknown",
+  "en": "And this is the one we're going to ramp.",
+  "zh": "而这就是我们要爬坡量产的那一个。"
+ },
+ {
+  "seg": 179,
+  "start": 1218.887,
+  "end": 1221.708,
+  "speaker": "Unknown",
+  "en": "But then it's a 12 month, 18 month volume ramp.",
+  "zh": "但之后是 12 个月、18 个月的量产爬坡。"
+ },
+ {
+  "seg": 180,
+  "start": 1221.768,
+  "end": 1223.629,
+  "speaker": "Unknown",
+  "en": "And you're expecting it to have longevity.",
+  "zh": "而且你期望它有长久的寿命。"
+ },
+ {
+  "seg": 181,
+  "start": 1223.649,
+  "end": 1226.87,
+  "speaker": "Unknown",
+  "en": "You're expecting it to actually continue to drive value to your customers.",
+  "zh": "你期望它真正持续为客户创造价值。"
+ },
+ {
+  "seg": 182,
+  "start": 1227.03,
+  "end": 1231.212,
+  "speaker": "Unknown",
+  "en": "And so I think that the sort of subtlety here is...",
+  "zh": "所以我认为这里的微妙之处在于……"
+ },
+ {
+  "seg": 183,
+  "start": 1232.012,
+  "end": 1240.899,
+  "speaker": "Unknown",
+  "en": "I'm not a believer in the idea that we will ultimately get to a place where we are shipping a fundamentally new chip every few weeks just because we've shortened that down.",
+  "zh": "我不相信我们最终会到达一个每隔几周就推出一颗全新芯片的地步，仅仅因为我们把那个周期缩短了。"
+ },
+ {
+  "seg": 184,
+  "start": 1241.279,
+  "end": 1243.461,
+  "speaker": "Unknown",
+  "en": "Because I think this is a physical world.",
+  "zh": "因为我认为这是一个物理世界。"
+ },
+ {
+  "seg": 185,
+  "start": 1243.501,
+  "end": 1247.443,
+  "speaker": "Unknown",
+  "en": "There is a certain amount of constraint on data center power.",
+  "zh": "数据中心功率存在一定量的限制。"
+ },
+ {
+  "seg": 186,
+  "start": 1247.483,
+  "end": 1253.108,
+  "speaker": "Unknown",
+  "en": "There are latencies to installing these things and you need to finance the actual underlying silicon.",
+  "zh": "安装这些东西存在延迟，而且你需要为底层实际的硅片融资。"
+ },
+ {
+  "seg": 187,
+  "start": 1253.128,
+  "end": 1254.729,
+  "speaker": "Unknown",
+  "en": "So it needs to have that payoff period.",
+  "zh": "所以它需要有这样的回报周期。"
+ },
+ {
+  "seg": 188,
+  "start": 1255.149,
+  "end": 1268.652,
+  "speaker": "Unknown",
+  "en": "But I think what you can get to is a world where the shorter you can make that latency, that gap between an observation and realizing that bet in volume, that is where there's an enormous amount of value to be captured.",
+  "zh": "但我认为你能达到的是这样一个世界：你能把那个延迟、那个从观察到把赌注在量产中兑现之间的间隔缩短得越短，那里就有巨大的价值可以捕获。"
+ },
+ {
+  "seg": 189,
+  "start": 1269.353,
+  "end": 1273.154,
+  "speaker": "Unknown",
+  "en": "And I think it's also an area where, you know, fractal is a...",
+  "zh": "而且我认为这也是一个领域，你知道，fractal 是一个……"
+ },
+ {
+  "seg": 190,
+  "start": 1273.714,
+  "end": 1278.255,
+  "speaker": "Unknown",
+  "en": "If only because the decisions that you make about what to ramp are the correct ones.",
+  "zh": "至少因为你对要爬坡量产什么所做的决策是正确的。"
+ },
+ {
+  "seg": 191,
+  "start": 1278.595,
+  "end": 1278.975,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 192,
+  "start": 1279.135,
+  "end": 1284.196,
+  "speaker": "Unknown",
+  "en": "I think you want to be, and maybe you get to have more irons in the fire as well.",
+  "zh": "我想你想要做到，而且也许你还能同时铺开更多的摊子。"
+ },
+ {
+  "seg": 193,
+  "start": 1284.396,
+  "end": 1298.36,
+  "speaker": "Unknown",
+  "en": "So one of the things that I think is so exciting about AI capability rising is as we do become more productive in doing things, there's obviously these kind of two responses generally across the economy.",
+  "zh": "所以我认为 AI 能力提升如此令人兴奋的事情之一是，随着我们在做事情方面变得更有生产力，整个经济中显然通常会出现这两种反应。"
+ },
+ {
+  "seg": 194,
+  "start": 1298.48,
+  "end": 1300.86,
+  "speaker": "Unknown",
+  "en": "One is, oh no, we're not going to have as much to do.",
+  "zh": "一种是，哦不，我们要做的事情不会那么多了。"
+ },
+ {
+  "seg": 195,
+  "start": 1301.34,
+  "end": 1302.341,
+  "speaker": "Unknown",
+  "en": "Maybe there's jobs loss.",
+  "zh": "也许会有工作流失。"
+ },
+ {
+  "seg": 196,
+  "start": 1302.761,
+  "end": 1305.721,
+  "speaker": "Unknown",
+  "en": "The other is we get to do more things.",
+  "zh": "另一种是我们能做更多的事情。"
+ },
+ {
+  "seg": 197,
+  "start": 1308.642,
+  "end": 1311.904,
+  "speaker": "Unknown",
+  "en": "Standing here from Fractile, you know, right now we're trying to build a single chip.",
+  "zh": "从 Fractile 的立场来看，你知道，现在我们正在努力打造一颗芯片。"
+ },
+ {
+  "seg": 198,
+  "start": 1312.104,
+  "end": 1325.071,
+  "speaker": "Unknown",
+  "en": "We know that we're up against competitors that have, you know, if you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.",
+  "zh": "我们知道我们面对的竞争对手是，你知道，如果你拆开一台 NVIDIA 系统，它里面有大约六到九颗定制芯片，全部由 NVIDIA 打造，组合在一起构建出真正非常强大的东西。"
+ },
+ {
+  "seg": 199,
+  "start": 1325.331,
+  "end": 1332.074,
+  "speaker": "Unknown",
+  "en": "So there's already a gap there, you know, it'd be great to be productive enough that we could start to build our own responses in that same kind of way.",
+  "zh": "所以那里已经存在一个差距，你知道，如果我们能变得足够有生产力，能以同样的方式开始打造我们自己的应对方案，那就太好了。"
+ },
+ {
+  "seg": 200,
+  "start": 1333.075,
+  "end": 1336.297,
+  "speaker": "Unknown",
+  "en": "And so I think this idea of being able to have at any given moment",
+  "zh": "所以我认为这个想法是，能够在任何给定时刻"
+ },
+ {
+  "seg": 201,
+  "start": 1337.197,
+  "end": 1343.839,
+  "speaker": "Unknown",
+  "en": "A kind of rolling frontier of bets that you hope are deeply aligned in which you're ready to trigger the ramp of.",
+  "zh": "拥有一种持续滚动的前沿押注，你希望这些押注深度对齐，并且你随时准备触发它们的加速扩张。"
+ },
+ {
+  "seg": 202,
+  "start": 1344.399,
+  "end": 1348,
+  "speaker": "Unknown",
+  "en": "This is a huge advantage if you can kind of build that machine and build that engine.",
+  "zh": "如果你能打造出那台机器、打造出那个引擎，这是一个巨大的优势。"
+ },
+ {
+  "seg": 203,
+  "start": 1348.46,
+  "end": 1357.382,
+  "speaker": "Unknown",
+  "en": "And the six month gap that that might then perennially give you against your competition, that is the kind of, you know, wedge that allows you to drive in.",
+  "zh": "而这可能由此长期带给你的、相对于竞争对手的六个月差距，正是那种能让你得以切入的楔子。"
+ },
+ {
+  "seg": 204,
+  "start": 1357.402,
+  "end": 1359.162,
+  "speaker": "Unknown",
+  "en": "And we see this in Frontier Labs, right?",
+  "zh": "我们在前沿实验室（Frontier Labs）身上看到了这一点，对吧？"
+ },
+ {
+  "seg": 205,
+  "start": 1359.182,
+  "end": 1366.684,
+  "speaker": "Unknown",
+  "en": "It's the equivalent of the Frontier model for the chip space is if you can just find a way to structurally carve out a three to six months advantage.",
+  "zh": "芯片领域的前沿模型等价物就是，如果你能找到一种方法，在结构上切分出三到六个月的优势，"
+ },
+ {
+  "seg": 206,
+  "start": 1367.784,
+  "end": 1369.825,
+  "speaker": "Unknown",
+  "en": "You will be winning all of those deployments.",
+  "zh": "你将会赢下所有那些部署。"
+ },
+ {
+  "seg": 207,
+  "start": 1369.845,
+  "end": 1377.088,
+  "speaker": "Unknown",
+  "en": "There's a meme in here somewhere of CEOs saying, wow, this AI stuff is great and we structured the organization in a way that can consume it.",
+  "zh": "这里有一个梗：CEO 们说，哇，这 AI 东西太棒了，而且我们以一种能够消化它的方式搭建了组织结构。"
+ },
+ {
+  "seg": 208,
+  "start": 1377.528,
+  "end": 1380.569,
+  "speaker": "Unknown",
+  "en": "Instead of one program, we're going to have six guys and everybody cheers.",
+  "zh": "不是一个项目，我们要有六个，然后大家欢呼。"
+ },
+ {
+  "seg": 209,
+  "start": 1380.609,
+  "end": 1380.829,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 210,
+  "start": 1381.189,
+  "end": 1382.59,
+  "speaker": "Unknown",
+  "en": "I think there's some truth in that.",
+  "zh": "我觉得这里面有几分道理。"
+ },
+ {
+  "seg": 211,
+  "start": 1382.89,
+  "end": 1400.336,
+  "speaker": "Unknown",
+  "en": "I was talking to one of the top three semi-CEOs, and he wouldn't let me put this prediction, you know, actually on air, but I asked him, like, how soon until we can have essentially, like, intent from chief architect into a fully usable GDS2 file?",
+  "zh": "我和前三大的半导体 CEO 之一聊天，他不让我把这个预测真正放到节目里播出，但我问他，我们还要多久才能基本上做到从首席架构师的意图直接生成一个完全可用的 GDS2 文件？"
+ },
+ {
+  "seg": 212,
+  "start": 1400.356,
+  "end": 1401.097,
+  "speaker": "Unknown",
+  "en": "And he's like, 10 years.",
+  "zh": "他说，10 年。 [[203 补]] 不，这里保留原文：他说，10 年。"
+ },
+ {
+  "seg": 213,
+  "start": 1401.657,
+  "end": 1403.097,
+  "speaker": "Unknown",
+  "en": "It's not going to happen, like, now.",
+  "zh": "这不会发生的，比如，现在不会。"
+ },
+ {
+  "seg": 214,
+  "start": 1403.477,
+  "end": 1404.318,
+  "speaker": "Unknown",
+  "en": "What is your view on that?",
+  "zh": "你对此的看法是什么？"
+ },
+ {
+  "seg": 215,
+  "start": 1404.778,
+  "end": 1407.539,
+  "speaker": "Unknown",
+  "en": "Or where do you see the impact first in your organization?",
+  "zh": "或者你在你的组织中首先看到的影响在哪里？"
+ },
+ {
+  "seg": 216,
+  "start": 1408.441,
+  "end": 1419.712,
+  "speaker": "Unknown",
+  "en": "A heuristic that has been successful over the past couple of years is to just always question your logical assumption and then divide it by four on timescale.",
+  "zh": "过去几年很成功的一个启发式方法是，总是质疑你的逻辑假设，然后在时间尺度上除以四。"
+ },
+ {
+  "seg": 217,
+  "start": 1419.813,
+  "end": 1427.901,
+  "speaker": "Unknown",
+  "en": "So there is a world in which 10 years seems like a very sensible timeframe for that, but I would divide it by four and I probably subtract a bit from that.",
+  "zh": "所以存在这样一个世界：10 年对那件事来说似乎是一个非常合理的时间框架，但我会把它除以四，而且我可能还会再减去一点。"
+ },
+ {
+  "seg": 218,
+  "start": 1427.921,
+  "end": 1429.002,
+  "speaker": "Unknown",
+  "en": "I think that we will have",
+  "zh": "我认为我们将拥有"
+ },
+ {
+  "seg": 219,
+  "start": 1430.383,
+  "end": 1438.79,
+  "speaker": "Unknown",
+  "en": "A space where there is a kind of prototyping that goes end to end in the next few years.",
+  "zh": "一个在未来几年内可以端到端进行某种原型设计的空间。"
+ },
+ {
+  "seg": 220,
+  "start": 1438.81,
+  "end": 1445.656,
+  "speaker": "Unknown",
+  "en": "I think one of the things about chip design that is very interesting is there are still these loops in the middle of it that are kind of...",
+  "zh": "我认为芯片设计非常有趣的一点是，它的中间仍然存在这些循环，它们本质上是……"
+ },
+ {
+  "seg": 221,
+  "start": 1446.076,
+  "end": 1449.777,
+  "speaker": "Unknown",
+  "en": "conventional solutions to NP-hard problems.",
+  "zh": "针对 NP 难问题的传统解法。"
+ },
+ {
+  "seg": 222,
+  "start": 1449.897,
+  "end": 1465.303,
+  "speaker": "Unknown",
+  "en": "And so you have these sort of, you know, if you really want to output that GDS2 file, today you are still running through a bunch of layout tools that are doing place and route with conventional kind of algorithmic approaches, which will run for days on end.",
+  "zh": "所以你有这些，比如，如果你真的想输出那个 GDS2 文件，今天你仍然要运行一堆布局工具，用传统的算法方法做布局布线，而这些会连续运行好几天。"
+ },
+ {
+  "seg": 223,
+  "start": 1465.623,
+  "end": 1472.305,
+  "speaker": "Unknown",
+  "en": "You know, I think this is a really interesting thing that we see and actually to bring it back somewhat to the sort of workloads we're excited about as well.",
+  "zh": "我认为这是一个非常有趣的我们观察到的现象，而且实际上可以把它某种程度上拉回到我们感到兴奋的工作负载上。"
+ },
+ {
+  "seg": 224,
+  "start": 1473.605,
+  "end": 1481.147,
+  "speaker": "Unknown",
+  "en": "A lot of hard problems in the world, I think, look a bit like this, where there is a lot of thinking that can now be automated.",
+  "zh": "世界上很多难题，我认为，看起来都有一点像这样：存在大量现在可以被自动化的思考。"
+ },
+ {
+  "seg": 225,
+  "start": 1481.187,
+  "end": 1482.588,
+  "speaker": "Unknown",
+  "en": "There's a lot of cerebral work.",
+  "zh": "有大量脑力工作。"
+ },
+ {
+  "seg": 226,
+  "start": 1484.168,
+  "end": 1489.173,
+  "speaker": "Unknown",
+  "en": "But then there is also this kind of intrinsic latency to something that you do.",
+  "zh": "但同时也存在你所做之事的某种内在延迟。"
+ },
+ {
+  "seg": 227,
+  "start": 1490.093,
+  "end": 1495.178,
+  "speaker": "Unknown",
+  "en": "So I think we see this in AI for guiding AI model development today.",
+  "zh": "所以我认为我们在今天用于引导 AI 模型开发的 AI 中看到了这一点。"
+ },
+ {
+  "seg": 228,
+  "start": 1495.198,
+  "end": 1505.266,
+  "speaker": "Unknown",
+  "en": "So the RSI work, yes, we can now have extreme intelligence that is guiding our experiments, but now we're just experiment bottlenecked, we're compute time bottlenecked.",
+  "zh": "比如那项 RSI 工作，是的，我们现在可以拥有引导我们实验的极高智能，但现在我们只是被实验卡住了脖子，被计算时间卡住了脖子。"
+ },
+ {
+  "seg": 229,
+  "start": 1505.306,
+  "end": 1510.531,
+  "speaker": "Unknown",
+  "en": "And so I think with chip design, it's a little bit like this, maybe to take the kind of",
+  "zh": "所以我认为芯片设计有点像这样，也许就拿那个"
+ },
+ {
+  "seg": 230,
+  "start": 1510.991,
+  "end": 1514.374,
+  "speaker": "Unknown",
+  "en": "You know, architects' intent through to GDS2 question.",
+  "zh": "从架构师的意图到 GDS2 的问题来说。"
+ },
+ {
+  "seg": 231,
+  "start": 1514.794,
+  "end": 1530.227,
+  "speaker": "Unknown",
+  "en": "It's a little bit like the RSI question in that the things that will prevent us getting there extremely fast is the fact that actually in that flow, there are a number of things that are genuinely kind of computationally expensive in a more conventional way.",
+  "zh": "它有点像那个 RSI 问题，因为阻止我们极快到达终点的原因是，实际上在那个流程中，有若干环节在更传统意义上确实是计算代价高昂的。"
+ },
+ {
+  "seg": 232,
+  "start": 1530.507,
+  "end": 1535.572,
+  "speaker": "Unknown",
+  "en": "I think what we will generally see for all of these sorts of problems... And they won't be replaced by surrogate models?",
+  "zh": "我认为对于所有这类问题我们通常将会看到的是……它们不会被代理模型取代吗？"
+ },
+ {
+  "seg": 233,
+  "start": 1536.121,
+  "end": 1549.21,
+  "speaker": "Unknown",
+  "en": "Well, I think there's definitely these sort of simulation models, I think driving approximations, you know, all of the models that we see today for kind of finite element analysis and sort of thermal estimation and so on.",
+  "zh": "嗯，我认为肯定有这类仿真模型，我认为是驱动近似，比如，我们今天看到的所有那些用于有限元分析和热估算之类的模型。"
+ },
+ {
+  "seg": 234,
+  "start": 1549.45,
+  "end": 1560.098,
+  "speaker": "Unknown",
+  "en": "I think there is a huge return to that kind of work precisely because of this kind of Amdahl's law that as we accelerate the intelligence, as we accelerate the period between these experiments, between these trials,",
+  "zh": "我认为这类工作有巨大的回报，恰恰是因为这种阿姆达尔定律：随着我们加速智能，随着我们缩短这些实验之间、这些试错之间的周期，"
+ },
+ {
+  "seg": 235,
+  "start": 1560.498,
+  "end": 1563.76,
+  "speaker": "Unknown",
+  "en": "It becomes much more important to accelerate those trials as well.",
+  "zh": "加速那些试错本身也变得重要得多。"
+ },
+ {
+  "seg": 236,
+  "start": 1563.82,
+  "end": 1569.884,
+  "speaker": "Unknown",
+  "en": "And so, you know, we are looking internally at, you know, what is actually what are in the guts of some of those algorithms?",
+  "zh": "所以，比如，我们在内部正在研究，那些算法的内部构造到底是什么？"
+ },
+ {
+  "seg": 237,
+  "start": 1569.964,
+  "end": 1573.887,
+  "speaker": "Unknown",
+  "en": "And is there a crude, approximate way that you could do some of this?",
+  "zh": "以及是否存在某种粗糙的、近似的方式来完成其中一部分？"
+ },
+ {
+  "seg": 238,
+  "start": 1573.947,
+  "end": 1580.771,
+  "speaker": "Unknown",
+  "en": "You know, the I think chip design is not going to change in the final sign off for quite some time.",
+  "zh": "比如，我认为芯片设计在最终签核环节在相当长一段时间内不会改变。"
+ },
+ {
+  "seg": 239,
+  "start": 1580.952,
+  "end": 1582.833,
+  "speaker": "Unknown",
+  "en": "It's incredibly valuable to have.",
+  "zh": "拥有它是极其有价值的。"
+ },
+ {
+  "seg": 240,
+  "start": 1583.293,
+  "end": 1595.763,
+  "speaker": "Unknown",
+  "en": "Cadence and Synopsis who've been working with TSMC and the other foundries for decades to build the sort of, you know, the final check mark that says this thing is what we call DRC and LVSClean.",
+  "zh": "Cadence 和 Synopsis 与 TSMC 和其他代工厂合作了几十年，建立起那种，比如，最终的对勾，宣称这个东西是我们所说的 DRC 和 LVS 干净。"
+ },
+ {
+  "seg": 241,
+  "start": 1595.783,
+  "end": 1598.385,
+  "speaker": "Unknown",
+  "en": "It conforms to the rules that that foundry has set.",
+  "zh": "它符合那家代工厂制定的规则。"
+ },
+ {
+  "seg": 242,
+  "start": 1599.585,
+  "end": 1603.128,
+  "speaker": "Unknown",
+  "en": "That is actually where, you know, that sort of work is immensely valuable.",
+  "zh": "实际上，这类工作正是极其有价值的所在。"
+ },
+ {
+  "seg": 243,
+  "start": 1603.549,
+  "end": 1608.712,
+  "speaker": "Unknown",
+  "en": "But could you have some kind of fuzzy placement algorithm in the meantime that gets you almost all the way to your final design?",
+  "zh": "但与此同时，你能否有某种模糊的布局算法，让你几乎直达最终设计？"
+ },
+ {
+  "seg": 244,
+  "start": 1608.732,
+  "end": 1609.413,
+  "speaker": "Unknown",
+  "en": "Helps you iterate faster.",
+  "zh": "帮你更快地迭代。"
+ },
+ {
+  "seg": 245,
+  "start": 1609.613,
+  "end": 1610.754,
+  "speaker": "Unknown",
+  "en": "Helps you iterate faster.",
+  "zh": "帮你更快地迭代。"
+ },
+ {
+  "seg": 246,
+  "start": 1611.035,
+  "end": 1616.4,
+  "speaker": "Unknown",
+  "en": "I think that is exactly where people should be doing more work because otherwise that is the bottleneck.",
+  "zh": "我认为这正是人们应该做更多工作的地方，因为否则那就是瓶颈。"
+ },
+ {
+  "seg": 247,
+  "start": 1617.381,
+  "end": 1629.814,
+  "speaker": "Unknown",
+  "en": "The other part there, and I think this is true of RSI for AI experiments as well, is as our intelligence levels on the thinking that then drives that experiment gets higher and higher,",
+  "zh": "另一部分，我认为这对 AI 实验的 RSI 同样成立，就是当驱动那个实验的思考的智能水平越来越高，"
+ },
+ {
+  "seg": 248,
+  "start": 1630.934,
+  "end": 1634.937,
+  "speaker": "Unknown",
+  "en": "And as that experiment therefore becomes the bottleneck, I think we do more thinking.",
+  "zh": "而那个实验因此成为瓶颈时，我认为我们会做更多的思考。"
+ },
+ {
+  "seg": 249,
+  "start": 1634.977,
+  "end": 1637.699,
+  "speaker": "Unknown",
+  "en": "And this is just generally Fractal's workload bet.",
+  "zh": "而这总的来说就是 Fractal 的工作负载押注。"
+ },
+ {
+  "seg": 250,
+  "start": 1637.819,
+  "end": 1640.841,
+  "speaker": "Unknown",
+  "en": "It's the reason we're so excited about hard problems.",
+  "zh": "这正是我们对难题如此兴奋的原因。"
+ },
+ {
+  "seg": 251,
+  "start": 1640.901,
+  "end": 1649.586,
+  "speaker": "Unknown",
+  "en": "And it's kind of the reason that we see Fractal as the chip that takes us toward accelerating the solution to hard problems in general.",
+  "zh": "这在某种程度上也是我们把 Fractal 视为那枚能让我们加速解决各类难题的芯片的原因。"
+ },
+ {
+  "seg": 252,
+  "start": 1649.607,
+  "end": 1659.313,
+  "speaker": "Unknown",
+  "en": "I think it becomes absolutely, it's like almost a moral compunction to think harder before every single experiment that you fire off.",
+  "zh": "我认为这变得绝对是——几乎像是一种道德上的责任感——让你在每一次启动实验之前都更认真地思考。"
+ },
+ {
+  "seg": 253,
+  "start": 1660.474,
+  "end": 1675.972,
+  "speaker": "Unknown",
+  "en": "I think it was maybe Baron Milledge on Dwarkesh recently who said that perhaps you should think for 100 years before you fire off an experiment and then think for another 100 years of human equivalent with these models about the results of that AI experiment because",
+  "zh": "我想最近可能是 Baron Milledge 在 Dwarkesh 的节目上说过，也许你应该在启动一个实验之前先用相当于 100 年的思考时间来思考，然后再用这些模型进行相当于另一个 100 年的人类思考来琢磨这个 AI 实验的结果，因为"
+ },
+ {
+  "seg": 254,
+  "start": 1675.972,
+  "end": 1680.136,
+  "speaker": "Unknown",
+  "en": "Because the experiment in the middle is pretty expensive and takes a certain amount of wall clock time.",
+  "zh": "因为中间那个实验相当昂贵，而且需要一定的实际挂钟时间。"
+ },
+ {
+  "seg": 255,
+  "start": 1680.316,
+  "end": 1689.405,
+  "speaker": "Unknown",
+  "en": "And so I think you get there also with things like chip design, where there are these kind of fundamental wall clock time bottlenecks for the more conventional algorithms.",
+  "zh": "所以我认为在芯片设计这类事情上也会遇到同样的情况，对于更传统的算法来说，存在这些根本性的挂钟时间瓶颈。"
+ },
+ {
+  "seg": 256,
+  "start": 1689.625,
+  "end": 1696.052,
+  "speaker": "Unknown",
+  "en": "We're going to be generating a lot of reasoning tokens before we go and place a given circuit.",
+  "zh": "在我们去放置某个给定电路之前，我们会先生成大量的推理 token。"
+ },
+ {
+  "seg": 257,
+  "start": 1696.457,
+  "end": 1709.428,
+  "speaker": "Unknown",
+  "en": "You are making workload bets and then collaborating closely with design partners on the model architectural shifts, hopefully a little ahead so you can actually do some planning.",
+  "zh": "传统的缩放定律，我们通常认为是浮点运算的缩放定律。"
+ },
+ {
+  "seg": 258,
+  "start": 1709.468,
+  "end": 1710.048,
+  "speaker": "Unknown",
+  "en": "What are you seeing?",
+  "zh": "你看到了什么？"
+ },
+ {
+  "seg": 259,
+  "start": 1710.448,
+  "end": 1714.251,
+  "speaker": "Unknown",
+  "en": "The biggest thing that we're doing, of course, is this kind of speed chasing, right?",
+  "zh": "当然，我们正在做的最重要的事情就是这种对速度的追逐，对吧？"
+ },
+ {
+  "seg": 260,
+  "start": 1714.392,
+  "end": 1718.255,
+  "speaker": "Unknown",
+  "en": "Maximizing memory bandwidth in order to be able to run these models faster.",
+  "zh": "最大化内存带宽，以便能够更快地运行这些模型。"
+ },
+ {
+  "seg": 261,
+  "start": 1719.276,
+  "end": 1736.195,
+  "speaker": "Unknown",
+  "en": "And one of the dualities I think you have to span as a chip company is to build something that is both exceptionally good at the kind of gamut of workloads that are coming down the pipe under this idea of the kind of hardware lottery where these will be trained on HBM-based GPUs or XPUs.",
+  "zh": "而作为一家芯片公司，我认为你必须跨越的二元性之一，就是既要打造一个在即将到来的各种工作负载上都极其出色的产品——在这种“硬件彩票”的理念下，这些模型将在基于 HBM 的 GPU 或 XPU 上训练。"
+ },
+ {
+  "seg": 262,
+  "start": 1736.315,
+  "end": 1737.917,
+  "speaker": "Unknown",
+  "en": "And so it's great that this is then the chip that's...",
+  "zh": "所以很棒的是，这枚芯片随后就是那个……"
+ },
+ {
+  "seg": 263,
+  "start": 1738.137,
+  "end": 1743.3,
+  "speaker": "Unknown",
+  "en": "Exceptional at taking kind of today's auto-aggressive MOE transformers and running them much faster and more efficiently.",
+  "zh": "在运行当今的自回归 MOE Transformer 时异常快速和高效的芯片。"
+ },
+ {
+  "seg": 264,
+  "start": 1744.361,
+  "end": 1758.069,
+  "speaker": "Unknown",
+  "en": "But I think what's exciting about building chips with kind of fundamentally new capabilities is you then also get to explore whether there are kind of gravitational pulls that you yourself get to pull the new model landscape in because of those properties.",
+  "zh": "但我认为，构建具有根本性新能力的芯片令人兴奋的地方在于，你还能够探索是否存在某种引力，让你自己凭借这些特性去牵引新的模型格局。"
+ },
+ {
+  "seg": 265,
+  "start": 1758.189,
+  "end": 1764.713,
+  "speaker": "Unknown",
+  "en": "And so for Fractile, you know, this idea of having like 25 times more bandwidth per chip than an HBM-based chip",
+  "zh": "所以对于 Fractile 来说，你知道，这个每颗芯片带宽比基于 HBM 的芯片多 25 倍的想法"
+ },
+ {
+  "seg": 266,
+  "start": 1765.293,
+  "end": 1770.756,
+  "speaker": "Unknown",
+  "en": "We get to explore, for instance, internally, these kinds of ideas of scaling laws for bandwidth, basically.",
+  "zh": "让我们得以在内部探索，比如说，这些关于带宽的缩放定律之类的想法。"
+ },
+ {
+  "seg": 267,
+  "start": 1770.796,
+  "end": 1773.997,
+  "speaker": "Unknown",
+  "en": "The scaling laws, traditionally, we think of them as flop scaling laws.",
+  "zh": "缩放定律,传统上,我们把它们理解为算力(flop)缩放定律。"
+ },
+ {
+  "seg": 268,
+  "start": 1774.237,
+  "end": 1779.94,
+  "speaker": "Unknown",
+  "en": "We get better and better performance the more flops we pour into these models at train time and test time.",
+  "zh": "我们在这些模型上投入越多的浮点运算，无论是在训练时还是测试时，性能就越好。"
+ },
+ {
+  "seg": 269,
+  "start": 1781.381,
+  "end": 1787.363,
+  "speaker": "Unknown",
+  "en": "And if you look at just the known landscape of ideas today, we already see some scaling laws for bandwidth.",
+  "zh": "而如果你只看当今已知的想法格局，我们已经看到了一些关于带宽的缩放定律。"
+ },
+ {
+  "seg": 270,
+  "start": 1787.583,
+  "end": 1790.565,
+  "speaker": "Unknown",
+  "en": "So one is these mixture of expert models.",
+  "zh": "其中之一就是这些混合专家模型。"
+ },
+ {
+  "seg": 271,
+  "start": 1791.025,
+  "end": 1796.21,
+  "speaker": "Unknown",
+  "en": "It's pretty well known that actually ideally we would make them sparser and sparser and sparser.",
+  "zh": "众所周知，实际上理想情况下我们应该把它们做得越来越稀疏、越来越稀疏、越来越稀疏。"
+ },
+ {
+  "seg": 272,
+  "start": 1796.33,
+  "end": 1805.278,
+  "speaker": "Unknown",
+  "en": "So for like ISO intelligence, you will save a ton of flops if you go from being like 1 in 16 sparse on your MOE to 1 in 128, 1 in 256.",
+  "zh": "比如对于 ISO intelligence 来说，如果你的 MOE 从 1/16 的稀疏度变成 1/128、1/256，你将节省大量的浮点运算。"
+ },
+ {
+  "seg": 273,
+  "start": 1808.601,
+  "end": 1817.865,
+  "speaker": "Unknown",
+  "en": "But one of the challenges, one of the headwinds to doing that is actually that it becomes incredibly prohibitive on today's HBM-based GPUs, XPUs to serve those models efficiently.",
+  "zh": "但这样做的挑战之一、阻力之一实际上是，在当今基于 HBM 的 GPU、XPU 上高效地服务这些模型会变得极其昂贵而不可行。"
+ },
+ {
+  "seg": 274,
+  "start": 1817.885,
+  "end": 1820.286,
+  "speaker": "Unknown",
+  "en": "You end up often bandwidth bottlenecked.",
+  "zh": "你最终往往会受到带宽瓶颈的制约。"
+ },
+ {
+  "seg": 275,
+  "start": 1820.506,
+  "end": 1825.569,
+  "speaker": "Unknown",
+  "en": "You end up serving at really, really low MFU, low flops utilization.",
+  "zh": "你最终会以非常非常低的 MFU、低的浮点运算利用率来服务。"
+ },
+ {
+  "seg": 276,
+  "start": 1826.969,
+  "end": 1834.952,
+  "speaker": "Unknown",
+  "en": "And so there are these areas where even as you build for today's world, you get to kind of look at where you can unlock greater capability.",
+  "zh": "所以存在这些领域，即使你在为今天的世界而构建，你也可以去看看在哪里能够解锁更大的能力。"
+ },
+ {
+  "seg": 277,
+  "start": 1835.012,
+  "end": 1837.833,
+  "speaker": "Unknown",
+  "en": "And with LLMs today, it's very similar actually with attention.",
+  "zh": "而在今天的 LLM 上，注意力机制的情况其实非常相似。"
+ },
+ {
+  "seg": 278,
+  "start": 1837.893,
+  "end": 1840.893,
+  "speaker": "Unknown",
+  "en": "There are forms of attention that are less bandwidth hungry.",
+  "zh": "有一些注意力形式对带宽的需求较低。"
+ },
+ {
+  "seg": 279,
+  "start": 1841.294,
+  "end": 1845.415,
+  "speaker": "Unknown",
+  "en": "They tend to be more flops hungry for a certain level of intelligence.",
+  "zh": "对于同等水平的智能，它们往往对浮点运算的需求更高。"
+ },
+ {
+  "seg": 280,
+  "start": 1846.195,
+  "end": 1854.56,
+  "speaker": "Unknown",
+  "en": "One of the things I think we're excited about is as we elevate this other quality, this property of memory bandwidth, which hasn't really been scaled so much on chips recently.",
+  "zh": "我认为让我们感到兴奋的事情之一是，当我们提升这个另类的品质——内存带宽这个特性，它最近在芯片上并没有被大规模扩展。"
+ },
+ {
+  "seg": 281,
+  "start": 1854.58,
+  "end": 1858.083,
+  "speaker": "Unknown",
+  "en": "We've scaled flops like a million fold in the last 20 years.",
+  "zh": "在过去的 20 年里，我们把浮点运算扩展了大约一百万倍。"
+ },
+ {
+  "seg": 282,
+  "start": 1858.603,
+  "end": 1861.565,
+  "speaker": "Unknown",
+  "en": "Memory bandwidth has gone up about 40x in the same time frame.",
+  "zh": "而内存带宽在同样的时间框架内只提升了大约 40 倍。"
+ },
+ {
+  "seg": 283,
+  "start": 1862.325,
+  "end": 1865.908,
+  "speaker": "Unknown",
+  "en": "So as you scale that frontier, you get to conserve more of the other thing.",
+  "zh": "所以当你扩展这条前沿时，你就能够节约更多另一种资源。"
+ },
+ {
+  "seg": 284,
+  "start": 1866.008,
+  "end": 1870.592,
+  "speaker": "Unknown",
+  "en": "We get to reduce the number of flops that we're using on these models to get to a certain level of intelligence.",
+  "zh": "我们可以减少在这些模型上为达到一定智能水平所使用的浮点运算数量。"
+ },
+ {
+  "seg": 285,
+  "start": 1871.192,
+  "end": 1876.636,
+  "speaker": "Unknown",
+  "en": "And so that's the kind of really a multiplying factor on global throughput for these models.",
+  "zh": "而这正是这些模型全球吞吐量的一个真正的乘数因子。"
+ },
+ {
+  "seg": 286,
+  "start": 1876.877,
+  "end": 1880.88,
+  "speaker": "Unknown",
+  "en": "I'll resist asking you if that changes people's ideas about how they should train for now.",
+  "zh": "我会克制住不问你这是否会改变人们对训练方式的看法。"
+ },
+ {
+  "seg": 287,
+  "start": 1881.56,
+  "end": 1884.843,
+  "speaker": "Unknown",
+  "en": "One last question for you just on market structure here.",
+  "zh": "最后问你一个关于市场结构的问题。"
+ },
+ {
+  "seg": 288,
+  "start": 1885.023,
+  "end": 1906.739,
+  "speaker": "Unknown",
+  "en": "It's very unclear to me, you know, five years from now, what a large AI player or a hyperscaler buys in terms of what chips they consume between the NVIDIA and AMDs of the world, the new accelerator class, and, you know, four, at least four of these players have their own internal efforts.",
+  "zh": "对我来说非常不清楚的是，你知道，五年之后，一个大型 AI 玩家或超大规模云厂商在芯片采购上会买什么——在 NVIDIA 和 AMD 之间、新晋加速器阵营之间，而且你知道，至少有四家这些玩家有自己的内部自研努力。"
+ },
+ {
+  "seg": 289,
+  "start": 1907.079,
+  "end": 1908.4,
+  "speaker": "Unknown",
+  "en": "Like, how do you make sense of this?",
+  "zh": "比如，你是怎么理解这一切的？"
+ },
+ {
+  "seg": 290,
+  "start": 1908.6,
+  "end": 1919.853,
+  "speaker": "Unknown",
+  "en": "So I think that today we see, you know, behavior where really everybody who is deploying at scale is kind of trying to deploy as many separate platforms as they can.",
+  "zh": "所以我认为，今天我们看到的情形是，实际上每一个大规模部署的玩家都在尽量部署尽可能多的不同平台。"
+ },
+ {
+  "seg": 291,
+  "start": 1919.873,
+  "end": 1926.141,
+  "speaker": "Unknown",
+  "en": "I think one thing that will remain the case is that there will be a real need for kind of",
+  "zh": "我认为有一点会保持不变，那就是将会有一种真正的需求，需要"
+ },
+ {
+  "seg": 292,
+  "start": 1927.222,
+  "end": 1932.346,
+  "speaker": "Unknown",
+  "en": "A diversity of supply as something like compute becomes so existential to these players.",
+  "zh": "供应的多样性，因为像算力这样的东西对这些玩家来说变得如此关乎存亡。"
+ },
+ {
+  "seg": 293,
+  "start": 1932.686,
+  "end": 1939.191,
+  "speaker": "Unknown",
+  "en": "There's a bit of a joke today that the sort of first party efforts, their primary purpose is to reduce the price that people pay NVIDIA.",
+  "zh": "今天有个有点像笑话的说法：那些第一方自研努力，它们的主要目的是压低人们付给 NVIDIA 的价格。"
+ },
+ {
+  "seg": 294,
+  "start": 1939.331,
+  "end": 1944.675,
+  "speaker": "Unknown",
+  "en": "And there may be some truth to that as well, because those efforts are kind of architecturally quite similar, right?",
+  "zh": "而这也许有一定道理，因为这些努力在架构上其实相当相似，对吧？"
+ },
+ {
+  "seg": 295,
+  "start": 1944.695,
+  "end": 1949.639,
+  "speaker": "Unknown",
+  "en": "So it's a bet that is not on enabling a fundamental capability that those other chips cannot enable.",
+  "zh": "所以这是一种押注，但并不是押注于实现那些其他芯片无法实现的根本性能力。"
+ },
+ {
+  "seg": 296,
+  "start": 1950.019,
+  "end": 1958.725,
+  "speaker": "Unknown",
+  "en": "And so there, I think it is this kind of gamesmanship of, you know, can we build some of this over here or can I buy something from AMD so that maybe I then get a better price from NVIDIA and so on.",
+  "zh": "因此在那里，我认为这就是一种博弈，你知道，我们能不能在这边自研一部分，或者我能不能从 AMD 那里买点东西，这样也许我就能从 NVIDIA 那里拿到更好的价格，等等。"
+ },
+ {
+  "seg": 297,
+  "start": 1959.466,
+  "end": 1963.288,
+  "speaker": "Unknown",
+  "en": "And a play also for kind of aggregate capacity and a bit of control.",
+  "zh": "同时也是对总体容量和一点控制权的争取。"
+ },
+ {
+  "seg": 298,
+  "start": 1963.849,
+  "end": 1975.297,
+  "speaker": "Unknown",
+  "en": "I think as you then see this move into chips that actually give new capabilities, you know, that's the place where, you know, I suddenly see for what we're doing a real need for everybody that wants to deploy AI at the frontier.",
+  "zh": "我认为，当你看到向真正带来新能力的芯片迈进时，你知道，那就是我突然看到对我们正在做的事情而言，每一个想要在前沿部署 AI 的人都有真正需求的地方。"
+ },
+ {
+  "seg": 299,
+  "start": 1975.757,
+  "end": 1980.359,
+  "speaker": "Unknown",
+  "en": "They have to have some solution to running these models orders of magnitude faster.",
+  "zh": "他们必须有一些方案来把这些模型的运行速度快上几个数量级。"
+ },
+ {
+  "seg": 300,
+  "start": 1981.399,
+  "end": 1988.882,
+  "speaker": "Unknown",
+  "en": "For the Frontier Labs, there's this window of premium capability, premium intelligence that is their entire raison d'etre.",
+  "zh": "对于前沿实验室来说，存在着这样一个高端能力、高端智能的窗口期，这是它们存在的全部意义。"
+ },
+ {
+  "seg": 301,
+  "start": 1988.942,
+  "end": 1991.202,
+  "speaker": "Unknown",
+  "en": "Otherwise, we'd all be using Kimi models all the time.",
+  "zh": "否则我们所有人都会一直在用 Kimi 模型。"
+ },
+ {
+  "seg": 302,
+  "start": 1991.903,
+  "end": 1995.024,
+  "speaker": "Unknown",
+  "en": "And so as you do have this pressure from behind from open source,",
+  "zh": "所以当你确实面临着来自开源的身后压力时，"
+ },
+ {
+  "seg": 303,
+  "start": 1995.904,
+  "end": 2002.608,
+  "speaker": "Unknown",
+  "en": "It does become clearly even more important for folks that want to deploy at the frontier to have every aspect of what that means.",
+  "zh": "对于那些想要部署在最前沿的人来说，很显然，拥有这一概念所涵盖的每一个方面就变得更加重要。"
+ },
+ {
+  "seg": 304,
+  "start": 2002.768,
+  "end": 2009.132,
+  "speaker": "Unknown",
+  "en": "So the best model waits, but also then the fastest deployment so you can do the most reasoning in the shortest amount of time.",
+  "zh": "所以要有最好的模型权重，同时还要有最快的部署，这样你才能在最短的时间内做最多的推理。"
+ },
+ {
+  "seg": 305,
+  "start": 2009.172,
+  "end": 2014.796,
+  "speaker": "Unknown",
+  "en": "And so I think this kind of premium end of the chip space where you're optimizing for",
+  "zh": "所以我认为芯片领域中这种以优化"
+ },
+ {
+  "seg": 306,
+  "start": 2015.396,
+  "end": 2019.74,
+  "speaker": "Unknown",
+  "en": "Speed over everything else becomes a kind of very important part of this world.",
+  "zh": "速度为高于一切目标的高端部分，会成为这个世界中非常重要的一部分。"
+ },
+ {
+  "seg": 307,
+  "start": 2020.361,
+  "end": 2031.631,
+  "speaker": "Unknown",
+  "en": "I think one thing that is notable about the dynamic between a chip vendor and a Frontier Lab, if you look at Fractal, we try to be as aligned as possible with the needs of the Frontier.",
+  "zh": "我认为芯片厂商与前沿实验室之间的动态关系有一点值得注意，以 Fractal 为例，我们尽量与前沿的需求保持最大程度的一致。"
+ },
+ {
+  "seg": 308,
+  "start": 2031.651,
+  "end": 2034.554,
+  "speaker": "Unknown",
+  "en": "We try to look a bit like some of those teams as well.",
+  "zh": "我们也尽量让自己看起来有点像那些团队。"
+ },
+ {
+  "seg": 309,
+  "start": 2034.574,
+  "end": 2037.517,
+  "speaker": "Unknown",
+  "en": "We have people that really think deeply about these workloads and so on.",
+  "zh": "我们有真正深入思考这些工作负载的人员等等。"
+ },
+ {
+  "seg": 310,
+  "start": 2038.157,
+  "end": 2049.52,
+  "speaker": "Unknown",
+  "en": "So one of the cases that I think we sometimes need to make is explaining why we believe that over multiple decades, the world sustains some kind of frontier third-party chip players.",
+  "zh": "所以我认为我们有时需要论证的情况之一，就是解释为什么我们相信在数十年的时间里，世界会维持某种前沿的第三方芯片玩家。"
+ },
+ {
+  "seg": 311,
+  "start": 2049.56,
+  "end": 2052.1,
+  "speaker": "Unknown",
+  "en": "Why does this not just roll up into these labs?",
+  "zh": "为什么这不会直接被并入这些实验室？"
+ },
+ {
+  "seg": 312,
+  "start": 2052.801,
+  "end": 2065.784,
+  "speaker": "Unknown",
+  "en": "And I think that comes down to the kind of asymmetric game that all of these labs and frontier players have to play, where they're exposed to an enormous risk if they go all in on a hardware bet.",
+  "zh": "我认为这归结为所有这些实验室和前沿玩家都必须玩的一种不对称博弈，他们在硬件押注上全力投入的话会面临巨大的风险。"
+ },
+ {
+  "seg": 313,
+  "start": 2067.544,
+  "end": 2083.418,
+  "speaker": "Unknown",
+  "en": "Suppose I'm lab one and I've gone all in on some proprietary silicon, and then lab two discovers some new computational breakthrough that delivers far better computational efficiencies for the same level of intelligence, but it only works on the chip that they've decided to deploy.",
+  "zh": "假设我是实验室一，我已经在某种专有硅片上全力押注，然后实验室二发现了某种新的计算突破，能在同样的智能水平上带来好得多的计算效率，但它只在对方决定部署的那款芯片上有效。"
+ },
+ {
+  "seg": 314,
+  "start": 2083.778,
+  "end": 2090.943,
+  "speaker": "Unknown",
+  "en": "I could die in the nine months before I get to deploy enough of that chip that I've also now gained that kind of 5X in computational efficiency.",
+  "zh": "在我部署足够多的那款芯片、从而也获得那种 5 倍计算效率提升之前的九个月里，我可能会死掉。"
+ },
+ {
+  "seg": 315,
+  "start": 2091.404,
+  "end": 2098.809,
+  "speaker": "Unknown",
+  "en": "And so there is a really urgent need for these chips to actually deploy these companies to deploy the same platforms as one another.",
+  "zh": "所以确实存在一种非常迫切的需求，让这些公司彼此部署相同平台的芯片。"
+ },
+ {
+  "seg": 316,
+  "start": 2099.169,
+  "end": 2100.55,
+  "speaker": "Unknown",
+  "en": "They're playing different games, right?",
+  "zh": "他们在玩不同的游戏，对吧？"
+ },
+ {
+  "seg": 317,
+  "start": 2100.57,
+  "end": 2110.177,
+  "speaker": "Unknown",
+  "en": "They're trying to now compete in the model where I think having deeply differentiated bets and going all in on those differentiated bets at the chip player is...",
+  "zh": "他们现在试图在模型层面竞争，我认为作为芯片玩家，做出深度差异化的押注并在这些差异化押注上全力投入是……"
+ },
+ {
+  "seg": 318,
+  "start": 2110.877,
+  "end": 2114.599,
+  "speaker": "Unknown",
+  "en": "Sort of an irrational and a very dangerous move for anybody that is playing at the frontier.",
+  "zh": "对于任何在前沿竞技的人来说，都是一种不理性且非常危险的举动。"
+ },
+ {
+  "seg": 319,
+  "start": 2114.799,
+  "end": 2116.179,
+  "speaker": "Unknown",
+  "en": "Well, I think that's a great place to end.",
+  "zh": "好的，我认为这是一个很好的收尾点。"
+ },
+ {
+  "seg": 320,
+  "start": 2116.379,
+  "end": 2117.2,
+  "speaker": "Unknown",
+  "en": "Thanks so much, Walter.",
+  "zh": "非常感谢，Walter。"
+ },
+ {
+  "seg": 321,
+  "start": 2117.28,
+  "end": 2118.02,
+  "speaker": "Unknown",
+  "en": "Thanks very much, Sarah.",
+  "zh": "非常感谢，Sarah。"
+ },
+ {
+  "seg": 322,
+  "start": 2121.061,
+  "end": 2123.202,
+  "speaker": "Unknown",
+  "en": "Find us on Twitter at NoPriorsPod.",
+  "zh": "在 Twitter 上找到我们：NoPriorsPod。"
+ },
+ {
+  "seg": 323,
+  "start": 2123.642,
+  "end": 2126.163,
+  "speaker": "Unknown",
+  "en": "Subscribe to our YouTube channel if you want to see our faces.",
+  "zh": "如果想看到我们的脸，请订阅我们的 YouTube 频道。"
+ },
+ {
+  "seg": 324,
+  "start": 2126.664,
+  "end": 2130.165,
+  "speaker": "Unknown",
+  "en": "Follow the show on Apple Podcasts, Spotify, or wherever you listen.",
+  "zh": "在 Apple Podcasts、Spotify 或任何你收听的平台关注本节目。"
+ },
+ {
+  "seg": 325,
+  "start": 2130.365,
+  "end": 2131.966,
+  "speaker": "Unknown",
+  "en": "That way you get a new episode every week.",
+  "zh": "这样你每周都能获得新一期节目。"
+ },
+ {
+  "seg": 326,
+  "start": 2132.486,
+  "end": 2136.868,
+  "speaker": "Unknown",
+  "en": "And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "zh": "并在 no-priors.com 注册邮件或查找每一期节目的文字稿。"
+ }
+]

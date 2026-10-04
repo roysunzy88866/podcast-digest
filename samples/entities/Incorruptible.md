@@ -25,7 +25,7 @@ unlisted: true
 
 [[Eric Ries]] · [[Lenny]] · [[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Vectura]] · [[Groupon]] · [[结构完整性]] · [[公益公司]] · [[金融重力]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":68,"Cloudflare":13,"Novo Nordisk":2,"Anthropic":163,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":68,"Cloudflare":13,"Novo Nordisk":2,"Anthropic":165,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,5978 @@
+[
+ {
+  "seg": 0,
+  "start": 4.937,
+  "end": 6.76,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, we're very excited to be here.",
+  "zh": "好的，我们非常激动能来到这里。"
+ },
+ {
+  "seg": 1,
+  "start": 6.8,
+  "end": 10.986,
+  "speaker": "SPEAKER_00",
+  "en": "Today is OpenAI Dev Day, special podcast.",
+  "zh": "今天是 OpenAI Dev Day，特别播客。"
+ },
+ {
+  "seg": 2,
+  "start": 11.447,
+  "end": 16.154,
+  "speaker": "SPEAKER_00",
+  "en": "We have Ari here who leads the product and engineering team for computer use agents.",
+  "zh": "我们有 Ari 在这里，他领导计算机使用智能体的产品和工程团队。"
+ },
+ {
+  "seg": 3,
+  "start": 16.554,
+  "end": 19.859,
+  "speaker": "SPEAKER_00",
+  "en": "Before we kick in and dive deep on computer use, you want to give a quick recap?",
+  "zh": "在我们开始深入聊计算机使用之前，你想先快速回顾一下吗？"
+ },
+ {
+  "seg": 4,
+  "start": 19.859,
+  "end": 21.181,
+  "speaker": "SPEAKER_00",
+  "en": "Cap, what was announced?",
+  "zh": "Cap，宣布了什么？"
+ },
+ {
+  "seg": 5,
+  "start": 21.201,
+  "end": 24.215,
+  "speaker": "SPEAKER_00",
+  "en": "What's the quick slew of announcements you guys had today?",
+  "zh": "你们今天快速发布了一系列什么公告？"
+ },
+ {
+  "seg": 6,
+  "start": 24.265,
+  "end": 26.789,
+  "speaker": "Ari",
+  "en": "Yeah, it was a super exciting day.",
+  "zh": "是的，今天是非常令人兴奋的一天。"
+ },
+ {
+  "seg": 7,
+  "start": 26.889,
+  "end": 27.831,
+  "speaker": "Ari",
+  "en": "We just got out of the keynote.",
+  "zh": "我们刚刚听完主题演讲。"
+ },
+ {
+  "seg": 8,
+  "start": 27.851,
+  "end": 28.952,
+  "speaker": "Ari",
+  "en": "It was really sick.",
+  "zh": "真的太棒了。"
+ },
+ {
+  "seg": 9,
+  "start": 29.393,
+  "end": 32.177,
+  "speaker": "Ari",
+  "en": "There were a bunch of computer use announcements that I think are worth thinking about.",
+  "zh": "有一堆计算机使用相关的公告，我认为值得思考。"
+ },
+ {
+  "seg": 10,
+  "start": 32.197,
+  "end": 34.34,
+  "speaker": "Ari",
+  "en": "We have Dots,",
+  "zh": "我们有 Dots，"
+ },
+ {
+  "seg": 11,
+  "start": 34.38,
+  "end": 37.224,
+  "speaker": "Ari",
+  "en": "which is The new personal assistant product,",
+  "zh": "这是新的个人助理产品，"
+ },
+ {
+  "seg": 12,
+  "start": 37.865,
+  "end": 40.96,
+  "speaker": "Ari",
+  "en": "and that has some really exciting computer use features.",
+  "zh": "它有一些非常令人兴奋的计算机使用功能。"
+ },
+ {
+  "seg": 13,
+  "start": 41.01,
+  "end": 42.392,
+  "speaker": "Ari",
+  "en": "There's GPT 6.1 Sol,",
+  "zh": "还有 GPT 6.1 Sol，"
+ },
+ {
+  "seg": 14,
+  "start": 42.472,
+  "end": 46.558,
+  "speaker": "Ari",
+  "en": "which is this amazing new model that I think is particularly great for computer use",
+  "zh": "这是一个惊人的新模型，我认为它对计算机使用特别好用，"
+ },
+ {
+  "seg": 15,
+  "start": 47.24,
+  "end": 49.743,
+  "speaker": "Ari",
+  "en": "because of the cost and speed advantages.",
+  "zh": "因为它的成本和速度优势。"
+ },
+ {
+  "seg": 16,
+  "start": 49.863,
+  "end": 50.863,
+  "speaker": "Ari",
+  "en": "Agents, API.",
+  "zh": "Agents API。"
+ },
+ {
+  "seg": 17,
+  "start": 65.065,
+  "end": 66.445,
+  "speaker": "Ari",
+  "en": "Which now has computer use in it,",
+  "zh": "现在它包含了计算机使用，"
+ },
+ {
+  "seg": 18,
+  "start": 66.485,
+  "end": 70.07600000000001,
+  "speaker": "Ari",
+  "en": "which is really cool because now developers can build on the same computer use",
+  "zh": "这真的很酷，因为现在开发者可以基于 Codex 和 ChatGPT 中相同的计算机使用能力来构建。"
+ },
+ {
+  "seg": 19,
+  "start": 70.126,
+  "end": 73.087,
+  "speaker": "Ari",
+  "en": "that is part of Codex and ChatGPT.",
+  "zh": "那是 Codex 和 ChatGPT 的一部分。"
+ },
+ {
+  "seg": 20,
+  "start": 73.767,
+  "end": 78.25800000000001,
+  "speaker": "Ari",
+  "en": "And then there were some demos of our existing computer use features like app shots",
+  "zh": "然后还有一些我们现有计算机使用功能的演示，比如 app shots，"
+ },
+ {
+  "seg": 21,
+  "start": 78.308,
+  "end": 81.009,
+  "speaker": "Ari",
+  "en": "where you can take the context of something you're doing on your computer",
+  "zh": "你可以把你在电脑上正在做的事情的上下文，"
+ },
+ {
+  "seg": 22,
+  "start": 81.049,
+  "end": 84.25,
+  "speaker": "Ari",
+  "en": "and bring it into Codex and ChatGPT really fast.",
+  "zh": "非常快地带入 Codex 和 ChatGPT。"
+ },
+ {
+  "seg": 23,
+  "start": 84.57,
+  "end": 88.09,
+  "speaker": "Ari",
+  "en": "And then like native computer use on your Mac where Roman had it taking screenshots",
+  "zh": "还有 Mac 上的原生计算机使用，Roman 演示了它自动对他的应用截屏，"
+ },
+ {
+  "seg": 24,
+  "start": 88.13,
+  "end": 90.931,
+  "speaker": "Ari",
+  "en": "of his app automatically and he could do other things on his computer",
+  "zh": "而他可以在电脑上做其他事情，"
+ },
+ {
+  "seg": 25,
+  "start": 90.971,
+  "end": 93.422,
+  "speaker": "Ari",
+  "en": "while computer use was using his applications.",
+  "zh": "同时计算机使用正在使用他的应用程序。"
+ },
+ {
+  "seg": 26,
+  "start": 93.472,
+  "end": 95.042,
+  "speaker": "Ari",
+  "en": "So yeah, really exciting keynote.",
+  "zh": "所以是的，非常令人兴奋的主题演讲。"
+ },
+ {
+  "seg": 27,
+  "start": 95.092,
+  "end": 96.934,
+  "speaker": "SPEAKER_03",
+  "en": "And not to mention the Decisions API.",
+  "zh": "更不用说 Decisions API 了。"
+ },
+ {
+  "seg": 28,
+  "start": 96.954,
+  "end": 98.595,
+  "speaker": "SPEAKER_03",
+  "en": "Decisions API.",
+  "zh": "Decisions API。"
+ },
+ {
+  "seg": 29,
+  "start": 98.776,
+  "end": 100.287,
+  "speaker": "SPEAKER_03",
+  "en": "Off the bat, are they all the same model?",
+  "zh": "首先问一下，它们都是同一个模型吗？"
+ },
+ {
+  "seg": 30,
+  "start": 100.337,
+  "end": 103.74,
+  "speaker": "SPEAKER_03",
+  "en": "Like this is the same data set distilled to different models?",
+  "zh": "比如这是同一个数据集蒸馏到不同的模型？"
+ },
+ {
+  "seg": 31,
+  "start": 104.941,
+  "end": 106.863,
+  "speaker": "SPEAKER_03",
+  "en": "Like basically like is computer use using Decisions",
+  "zh": "比如基本上计算机使用是在用 Decisions"
+ },
+ {
+  "seg": 32,
+  "start": 106.903,
+  "end": 108.885,
+  "speaker": "Ari",
+  "en": "API or are they like kind of separate?",
+  "zh": "API 吗，还是它们多少是分开的？"
+ },
+ {
+  "seg": 33,
+  "start": 109.145,
+  "end": 114.27,
+  "speaker": "Ari",
+  "en": "So what's really cool about the Decisions API is it has all these new capabilities.",
+  "zh": "Decisions API 真正酷的地方在于它有所有这些新能力。"
+ },
+ {
+  "seg": 34,
+  "start": 114.33,
+  "end": 115.891,
+  "speaker": "Ari",
+  "en": "It does inference in parallel.",
+  "zh": "它并行做推理。"
+ },
+ {
+  "seg": 35,
+  "start": 115.911,
+  "end": 116.911,
+  "speaker": "Ari",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 36,
+  "start": 117.735,
+  "end": 119.147,
+  "speaker": "Ari",
+  "en": "It doesn't have reasoning.",
+  "zh": "它没有推理（reasoning）。"
+ },
+ {
+  "seg": 37,
+  "start": 119.197,
+  "end": 122.963,
+  "speaker": "Ari",
+  "en": "It's a smaller model than the ones we use for computer use.",
+  "zh": "它是比我们用于计算机使用的模型更小的模型。"
+ },
+ {
+  "seg": 38,
+  "start": 124.065,
+  "end": 127.57,
+  "speaker": "Ari",
+  "en": "And so those capabilities make it really fast.",
+  "zh": "所以这些能力让它非常快。"
+ },
+ {
+  "seg": 39,
+  "start": 127.59,
+  "end": 133.398,
+  "speaker": "Ari",
+  "en": "They also make it a little bit less good at doing like long horizon One of",
+  "zh": "它们也让它在做长时程任务方面稍微差一点。其一"
+ },
+ {
+  "seg": 40,
+  "start": 133.418,
+  "end": 136.543,
+  "speaker": "Ari",
+  "en": "the interesting things is DOTS now have",
+  "zh": "有趣的事情是 DOTS 现在有了"
+ },
+ {
+  "seg": 41,
+  "start": 147.538,
+  "end": 151.8,
+  "speaker": "SPEAKER_00",
+  "en": "I don't want to sign in, I don't want to authenticate, find whatever and just get it fixed.",
+  "zh": "我不想登录，我不想认证，找到 whatever 然后直接修好它。"
+ },
+ {
+  "seg": 42,
+  "start": 151.82,
+  "end": 153.581,
+  "speaker": "SPEAKER_00",
+  "en": "How should we push further?",
+  "zh": "我们应该如何更进一步？"
+ },
+ {
+  "seg": 43,
+  "start": 153.881,
+  "end": 155.15877777777777,
+  "speaker": "SPEAKER_00",
+  "en": "What should people try?",
+  "zh": "人们应该尝试什么？"
+ },
+ {
+  "seg": 44,
+  "start": 170.355,
+  "end": 175.803,
+  "speaker": "Ari",
+  "en": "Dots are a really cool product because each dot has access",
+  "zh": "Dots 是一个非常酷的产品，因为每个 dot 都可以访问"
+ },
+ {
+  "seg": 45,
+  "start": 175.823,
+  "end": 178.888,
+  "speaker": "Ari",
+  "en": "to its own Linux virtual computer in the cloud,",
+  "zh": "云端属于它自己的 Linux 虚拟电脑，"
+ },
+ {
+  "seg": 46,
+  "start": 179.509,
+  "end": 181.62199999999999,
+  "speaker": "Ari",
+  "en": "which is different from our other products.",
+  "zh": "这与我们的其他产品不同。"
+ },
+ {
+  "seg": 47,
+  "start": 181.672,
+  "end": 182.173,
+  "speaker": "Ari",
+  "en": "Traditionally,",
+  "zh": "传统上，"
+ },
+ {
+  "seg": 48,
+  "start": 182.213,
+  "end": 185.517,
+  "speaker": "Ari",
+  "en": "we have access to a browser in the cloud or it has access Yeah,",
+  "zh": "我们可以访问云端的一个浏览器，或者它可以访问……是的，"
+ },
+ {
+  "seg": 49,
+  "start": 185.537,
+  "end": 187.981,
+  "speaker": "Ari",
+  "en": "I think the powerful thing about computer use and the reason why I think it's",
+  "zh": "我认为计算机使用的强大之处，以及我认为它之所以……"
+ },
+ {
+  "seg": 50,
+  "start": 188.021,
+  "end": 190.96544444444444,
+  "speaker": "Ari",
+  "en": "so exciting is because it makes it so that the agency",
+  "zh": "所以令人兴奋的是，它使得主观能动性"
+ },
+ {
+  "seg": 51,
+  "start": 200.219,
+  "end": 202.8301111111111,
+  "speaker": "Ari",
+  "en": "Yeah, a lot of flight booking and shopping and",
+  "zh": "是啊，很多订机票、购物之类的"
+ },
+ {
+  "seg": 52,
+  "start": 230.001,
+  "end": 232.315,
+  "speaker": "SPEAKER_03",
+  "en": "Honestly, even like playing a game or whatever.",
+  "zh": "说实话，甚至像玩个游戏什么的。"
+ },
+ {
+  "seg": 53,
+  "start": 232.365,
+  "end": 232.73499999999999,
+  "speaker": "Ari",
+  "en": "Totally.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 54,
+  "start": 232.785,
+  "end": 234.268,
+  "speaker": "Ari",
+  "en": "Yeah, I don't know.",
+  "zh": "是啊，我不知道。"
+ },
+ {
+  "seg": 55,
+  "start": 234.288,
+  "end": 236.731,
+  "speaker": "Ari",
+  "en": "For me, something I did recently,",
+  "zh": "对我来说，最近做的一件事，"
+ },
+ {
+  "seg": 56,
+  "start": 238.033,
+  "end": 238.96499999999997,
+  "speaker": "Ari",
+  "en": "I've been working on,",
+  "zh": "我一直在做的，"
+ },
+ {
+  "seg": 57,
+  "start": 239.015,
+  "end": 243.141,
+  "speaker": "Ari",
+  "en": "I subscribed to a meal prep service because I was trying to like eat healthy,",
+  "zh": "我订阅了一个备餐服务，因为我想吃得健康一点，"
+ },
+ {
+  "seg": 58,
+  "start": 243.161,
+  "end": 244.813,
+  "speaker": "Ari",
+  "en": "you know, and I really like this.",
+  "zh": "你知道的，我真的很喜欢"
+ },
+ {
+  "seg": 59,
+  "start": 244.863,
+  "end": 249.059,
+  "speaker": "Ari",
+  "en": "Meal prep service I found because it lets me customize the meals I order to like",
+  "zh": "我找到的这个备餐服务，因为它让我可以定制我点的餐，定制到"
+ },
+ {
+  "seg": 60,
+  "start": 249.109,
+  "end": 250.571,
+  "speaker": "Ari",
+  "en": "a high degree of granularity.",
+  "zh": "很高的粒度。"
+ },
+ {
+  "seg": 61,
+  "start": 250.612,
+  "end": 255.112,
+  "speaker": "Ari",
+  "en": "So I can say like, I want this many grams of chicken and this many grams of rice.",
+  "zh": "比如我可以说，我要这么多克的鸡肉、这么多克的米饭。"
+ },
+ {
+  "seg": 62,
+  "start": 255.739,
+  "end": 256.901,
+  "speaker": "Ari",
+  "en": "But it was so complicated.",
+  "zh": "但太复杂了。"
+ },
+ {
+  "seg": 63,
+  "start": 256.921,
+  "end": 258.921,
+  "speaker": "Ari",
+  "en": "It took me two hours to do an order.",
+  "zh": "我花了两个小时才完成一个订单。"
+ },
+ {
+  "seg": 64,
+  "start": 259.044,
+  "end": 263.8773333333333,
+  "speaker": "Ari",
+  "en": "And I found that So those are the kinds of tasks that I feel like are really powerful.",
+  "zh": "我发现，这类任务才是我觉得真正强大的。"
+ },
+ {
+  "seg": 65,
+  "start": 276.071,
+  "end": 276.571,
+  "speaker": "SPEAKER_03",
+  "en": "As a creator,",
+  "zh": "作为一名创作者，"
+ },
+ {
+  "seg": 66,
+  "start": 276.591,
+  "end": 277.612,
+  "speaker": "SPEAKER_03",
+  "en": "I can tell you automatically,",
+  "zh": "我可以告诉你自动地、"
+ },
+ {
+  "seg": 67,
+  "start": 277.632,
+  "end": 280.663,
+  "speaker": "SPEAKER_03",
+  "en": "immediately, my number one use case is automating YouTube.",
+  "zh": "立刻地，我的头号用例就是自动化 YouTube。"
+ },
+ {
+  "seg": 68,
+  "start": 280.713,
+  "end": 283.764,
+  "speaker": "SPEAKER_03",
+  "en": "Because YouTube doesn't expose a lot of things via API.",
+  "zh": "因为 YouTube 不通过 API 暴露很多东西。"
+ },
+ {
+  "seg": 69,
+  "start": 283.814,
+  "end": 287.355,
+  "speaker": "SPEAKER_03",
+  "en": "And you have to just put it in a VM and just run it for,",
+  "zh": "你只能把它放进一个 VM 里然后运行，比如说"
+ },
+ {
+  "seg": 70,
+  "start": 287.395,
+  "end": 290.847,
+  "speaker": "SPEAKER_03",
+  "en": "let's say, their A-B testing feature or making community posts.",
+  "zh": "他们的 A/B 测试功能或者发社区帖子。"
+ },
+ {
+  "seg": 71,
+  "start": 290.897,
+  "end": 294.34144444444445,
+  "speaker": "SPEAKER_03",
+  "en": "None of this is available by API because they hate developers.",
+  "zh": "这些都没法通过 API 实现，因为他们讨厌开发者。"
+ },
+ {
+  "seg": 72,
+  "start": 294.458,
+  "end": 295.429,
+  "speaker": "SPEAKER_03",
+  "en": "Anyway, so...",
+  "zh": "反正就是这样……"
+ },
+ {
+  "seg": 73,
+  "start": 295.479,
+  "end": 298.09011111111107,
+  "speaker": "Ari",
+  "en": "I've heard that from our developer experience.",
+  "zh": "我从我们的开发者体验那边也听说过这个。"
+ },
+ {
+  "seg": 74,
+  "start": 297.259,
+  "end": 299.0367777777778,
+  "speaker": "SPEAKER_03",
+  "en": "They use it with YouTube a lot.",
+  "zh": "他们经常在 YouTube 上用它。"
+ },
+ {
+  "seg": 75,
+  "start": 298.52,
+  "end": 298.95,
+  "speaker": "Ari",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 76,
+  "start": 299,
+  "end": 300.1666666666667,
+  "speaker": "SPEAKER_03",
+  "en": "It's really awesome.",
+  "zh": "这真的很棒。"
+ },
+ {
+  "seg": 77,
+  "start": 300.54,
+  "end": 304.271,
+  "speaker": "SPEAKER_03",
+  "en": "So I want to draw for, you know, let's say I want to get a little bit spicy.",
+  "zh": "所以我想引出，你知道的，比如我想变得稍微有点火药味。"
+ },
+ {
+  "seg": 78,
+  "start": 304.321,
+  "end": 305.131,
+  "speaker": "SPEAKER_03",
+  "en": "One of our,",
+  "zh": "我们其中一位，"
+ },
+ {
+  "seg": 79,
+  "start": 305.181,
+  "end": 306.902,
+  "speaker": "SPEAKER_03",
+  "en": "the leading AI podcast,",
+  "zh": "领先的 AI 播客，"
+ },
+ {
+  "seg": 80,
+  "start": 306.982,
+  "end": 311.223,
+  "speaker": "SPEAKER_03",
+  "en": "our friends is famous for saying that computer use hasn't advanced in",
+  "zh": "我们的朋友，他有一句名言：计算机使用在过去两年里"
+ },
+ {
+  "seg": 81,
+  "start": 311.263,
+  "end": 312.403,
+  "speaker": "SPEAKER_03",
+  "en": "the last two years.",
+  "zh": "没有任何进展。"
+ },
+ {
+  "seg": 82,
+  "start": 312.563,
+  "end": 313.373,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 83,
+  "start": 313.423,
+  "end": 314.663,
+  "speaker": "SPEAKER_03",
+  "en": "Which is a very interesting statement.",
+  "zh": "这是一个很有意思的说法。"
+ },
+ {
+  "seg": 84,
+  "start": 314.703,
+  "end": 319.104,
+  "speaker": "SPEAKER_03",
+  "en": "And I think you are one of the best people in the world to talk about this,",
+  "zh": "而且我觉得你是全世界谈论这个话题的最佳人选之一，"
+ },
+ {
+  "seg": 85,
+  "start": 319.124,
+  "end": 320.244,
+  "speaker": "SPEAKER_03",
+  "en": "like how things have progressed.",
+  "zh": "比如事情是如何发展的。"
+ },
+ {
+  "seg": 86,
+  "start": 320.264,
+  "end": 320.584,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 87,
+  "start": 320.604,
+  "end": 322.9928888888889,
+  "speaker": "Ari",
+  "en": "You know, they said that a few months ago,",
+  "zh": "你知道，他们几个月前"
+ },
+ {
+  "seg": 88,
+  "start": 322.285,
+  "end": 322.525,
+  "speaker": "Ari",
+  "en": "I think,",
+  "zh": "说的这话，我想，"
+ },
+ {
+  "seg": 89,
+  "start": 322.565,
+  "end": 324.005,
+  "speaker": "Ari",
+  "en": "and I hope they have a different perspective now",
+  "zh": "而且我希望他们现在的看法已经不一样了"
+ },
+ {
+  "seg": 90,
+  "start": 324.045,
+  "end": 326.786,
+  "speaker": "Ari",
+  "en": "because computer use is like 180 degrees different than it was.",
+  "zh": "因为计算机使用和那时相比已经 180 度大变样了。"
+ },
+ {
+  "seg": 91,
+  "start": 326.806,
+  "end": 327.356,
+  "speaker": "Ari",
+  "en": "He's a tough guy.",
+  "zh": "他是个很严格的人。"
+ },
+ {
+  "seg": 92,
+  "start": 327.406,
+  "end": 327.896,
+  "speaker": "SPEAKER_03",
+  "en": "It's impressed.",
+  "zh": "令人印象深刻。"
+ },
+ {
+  "seg": 93,
+  "start": 327.946,
+  "end": 328.206,
+  "speaker": "Ari",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 94,
+  "start": 328.226,
+  "end": 329.226,
+  "speaker": "Ari",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 95,
+  "start": 329.545,
+  "end": 333.606,
+  "speaker": "SPEAKER_03",
+  "en": "You've basically spent your whole career working on some kind",
+  "zh": "你基本上整个职业生涯都在做某种"
+ },
+ {
+  "seg": 96,
+  "start": 333.646,
+  "end": 334.577,
+  "speaker": "SPEAKER_03",
+  "en": "of computer automation,",
+  "zh": "计算机自动化，"
+ },
+ {
+  "seg": 97,
+  "start": 334.627,
+  "end": 340.088,
+  "speaker": "SPEAKER_03",
+  "en": "like shortcuts at Apple, and then Sky, and then joining OpenAI.",
+  "zh": "比如 Apple 的 shortcuts，然后是 Sky，然后加入 OpenAI。"
+ },
+ {
+  "seg": 98,
+  "start": 340.268,
+  "end": 344.71,
+  "speaker": "SPEAKER_03",
+  "en": "Can you draw what your through line is for what is driving you",
+  "zh": "你能描述一下你的主线是什么，是什么在驱动你，"
+ },
+ {
+  "seg": 99,
+  "start": 345.09,
+  "end": 348.474,
+  "speaker": "SPEAKER_03",
+  "en": "and what What wasn't possible back then, maybe?",
+  "zh": "以及当时什么是做不到的，也许？"
+ },
+ {
+  "seg": 100,
+  "start": 348.494,
+  "end": 349.994,
+  "speaker": "SPEAKER_00",
+  "en": "What your milestones were?",
+  "zh": "你们当时有哪些里程碑?"
+ },
+ {
+  "seg": 101,
+  "start": 350.036,
+  "end": 352.8137777777778,
+  "speaker": "SPEAKER_00",
+  "en": "I guess to add on to that as a follow-up question,",
+  "zh": "我想作为后续问题补充一下,"
+ },
+ {
+  "seg": 102,
+  "start": 353.141,
+  "end": 358.308,
+  "speaker": "SPEAKER_00",
+  "en": "what's the major change from using codex computer use from last week to today?",
+  "zh": "从上周到今天,使用 Codex computer use 的主要变化是什么?"
+ },
+ {
+  "seg": 103,
+  "start": 358.689,
+  "end": 359.73,
+  "speaker": "SPEAKER_00",
+  "en": "Is it model?",
+  "zh": "是模型吗?"
+ },
+ {
+  "seg": 104,
+  "start": 359.81,
+  "end": 360.251,
+  "speaker": "SPEAKER_00",
+  "en": "Is it dots?",
+  "zh": "还是点点点?"
+ },
+ {
+  "seg": 105,
+  "start": 360.291,
+  "end": 361.042,
+  "speaker": "SPEAKER_00",
+  "en": "Is it harness?",
+  "zh": "还是 harness?"
+ },
+ {
+  "seg": 106,
+  "start": 361.092,
+  "end": 364.628,
+  "speaker": "SPEAKER_00",
+  "en": "So all the history plus what really just changed in today's announcements.",
+  "zh": "所以把整个历史加上今天发布里真正变化的东西都说说。"
+ },
+ {
+  "seg": 107,
+  "start": 364.678,
+  "end": 365.429,
+  "speaker": "Ari",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 108,
+  "start": 365.479,
+  "end": 366.15,
+  "speaker": "Ari",
+  "en": "On the through line,",
+  "zh": "关于主线,"
+ },
+ {
+  "seg": 109,
+  "start": 366.2,
+  "end": 371.267,
+  "speaker": "Ari",
+  "en": "I guess I've always been excited about automation and helping people automate tasks",
+  "zh": "我一直对自动化、帮助人们自动完成任务感到兴奋,"
+ },
+ {
+  "seg": 110,
+  "start": 371.367,
+  "end": 374.011,
+  "speaker": "Ari",
+  "en": "because then you can save time in your life and focus on things",
+  "zh": "因为这样你就可以节省生活中的时间,专注于"
+ },
+ {
+  "seg": 111,
+  "start": 374.031,
+  "end": 375.844,
+  "speaker": "Ari",
+  "en": "that are more important to you than operations.",
+  "zh": "比运营性事务对你更重要的事情。"
+ },
+ {
+  "seg": 112,
+  "start": 375.894,
+  "end": 378.7828888888889,
+  "speaker": "Ari",
+  "en": "You have to hack around Apple until Apple was like,",
+  "zh": "你得在 Apple 周围绕来绕去,直到 Apple 表示——"
+ },
+ {
+  "seg": 113,
+  "start": 391.537,
+  "end": 395.963,
+  "speaker": "SPEAKER_03",
+  "en": "It was a cool place",
+  "zh": "那是个很酷的"
+ },
+ {
+  "seg": 114,
+  "start": 396.004,
+  "end": 396.484,
+  "speaker": "Ari",
+  "en": "to get to work.",
+  "zh": "工作的地方。"
+ },
+ {
+  "seg": 115,
+  "start": 396.504,
+  "end": 400.049,
+  "speaker": "Ari",
+  "en": "What was really interesting looking back at Sky is we were working",
+  "zh": "回头看 Sky,真正有意思的是,我们当时也在做"
+ },
+ {
+  "seg": 116,
+  "start": 400.09,
+  "end": 404.09,
+  "speaker": "Ari",
+  "en": "on computer use there as well, and the models were so much less capable.",
+  "zh": "computer use,但那时的模型能力差得多。"
+ },
+ {
+  "seg": 117,
+  "start": 404.456,
+  "end": 405.36699999999996,
+  "speaker": "Ari",
+  "en": "And now the models,",
+  "zh": "而现在的模型,"
+ },
+ {
+  "seg": 118,
+  "start": 405.417,
+  "end": 410.64,
+  "speaker": "Ari",
+  "en": "just in the I think the biggest delta that I see is",
+  "zh": "我觉得我看到的最大变化是,"
+ },
+ {
+  "seg": 119,
+  "start": 410.74,
+  "end": 415.462,
+  "speaker": "Ari",
+  "en": "before they could like reliably start tasks, but then they would run into problems.",
+  "zh": "以前它们可以比较可靠地开始任务,但之后就会遇到问题。"
+ },
+ {
+  "seg": 120,
+  "start": 415.482,
+  "end": 416.803,
+  "speaker": "Ari",
+  "en": "And now they're really good at debugging.",
+  "zh": "而现在它们非常擅长调试。"
+ },
+ {
+  "seg": 121,
+  "start": 416.823,
+  "end": 421.10077777777775,
+  "speaker": "Ari",
+  "en": "They're really good at trying again, introspecting what isn't, isn't working.",
+  "zh": "它们非常擅长重试、内省哪里没有、没有在正常工作。"
+ },
+ {
+  "seg": 122,
+  "start": 423.106,
+  "end": 427.512,
+  "speaker": "Ari",
+  "en": "I think we've also brought the computer use field itself has moved forward.",
+  "zh": "我认为 computer use 这个领域本身也在向前发展,"
+ },
+ {
+  "seg": 123,
+  "start": 427.532,
+  "end": 429.525,
+  "speaker": "Ari",
+  "en": "I think we're using more techniques.",
+  "zh": "我们也在使用更多的技术。"
+ },
+ {
+  "seg": 124,
+  "start": 429.575,
+  "end": 432.62,
+  "speaker": "Ari",
+  "en": "Now computer use often writes code.",
+  "zh": "现在 computer use 经常会写代码。"
+ },
+ {
+  "seg": 125,
+  "start": 433,
+  "end": 436.245,
+  "speaker": "Ari",
+  "en": "So if you actually look at it in Codex and you expand the tool calls manually,",
+  "zh": "所以如果你真的在 Codex 里看,手动展开工具调用,"
+ },
+ {
+  "seg": 126,
+  "start": 436.265,
+  "end": 438.508,
+  "speaker": "Ari",
+  "en": "you can see that it's not just doing one We use more accessibility,",
+  "zh": "你会发现它不只是在做一件事。我们使用了更多的可访问性接口,"
+ },
+ {
+  "seg": 127,
+  "start": 438.528,
+  "end": 439.8057777777778,
+  "speaker": "Ari",
+  "en": "multi-modal interfaces.",
+  "zh": "多模态接口。"
+ },
+ {
+  "seg": 128,
+  "start": 453.03,
+  "end": 456.364,
+  "speaker": "Ari",
+  "en": "The model may use screenshots, it may use accessibility, it may use playwright.",
+  "zh": "模型可能会用截图,可能会用可访问性接口,可能会用 playwright。"
+ },
+ {
+  "seg": 129,
+  "start": 456.414,
+  "end": 460.1362222222222,
+  "speaker": "Ari",
+  "en": "It can use a lot of different mechanisms based on the task at hand.",
+  "zh": "它可以根据手头的任务使用很多不同的机制。"
+ },
+ {
+  "seg": 130,
+  "start": 460.36,
+  "end": 463.725,
+  "speaker": "Ari",
+  "en": "And then, yeah, the model acceleration has been just amazing.",
+  "zh": "然后呢,模型的加速确实令人惊叹。"
+ },
+ {
+  "seg": 131,
+  "start": 463.765,
+  "end": 465.969,
+  "speaker": "Ari",
+  "en": "So, yeah, what's different today?",
+  "zh": "所以,是的,今天有什么不同?"
+ },
+ {
+  "seg": 132,
+  "start": 465.989,
+  "end": 471.974,
+  "speaker": "Ari",
+  "en": "I think we're making computers So I think just like one day's difference is probably",
+  "zh": "我认为我们正在让计算机……所以我觉得仅仅一天的差别,"
+ },
+ {
+  "seg": 133,
+  "start": 471.994,
+  "end": 474.796,
+  "speaker": "Ari",
+  "en": "a little bit less consequential than like even the past month or",
+  "zh": "可能还没有过去一个月甚至"
+ },
+ {
+  "seg": 134,
+  "start": 474.816,
+  "end": 475.92711111111106,
+  "speaker": "Ari",
+  "en": "the past two months.",
+  "zh": "过去两个月的差别那么大。"
+ },
+ {
+  "seg": 135,
+  "start": 476.377,
+  "end": 477.278,
+  "speaker": "Ari",
+  "en": "But yeah,",
+  "zh": "但是是的,"
+ },
+ {
+  "seg": 136,
+  "start": 477.298,
+  "end": 482.021,
+  "speaker": "Ari",
+  "en": "I think the computer use in DOT is really exciting as well as the new model",
+  "zh": "我觉得 DOT 里的 computer use 真的很令人兴奋,我们发布的新模型"
+ },
+ {
+  "seg": 137,
+  "start": 482.041,
+  "end": 483.072,
+  "speaker": "Ari",
+  "en": "that we came out with.",
+  "zh": "也是如此。"
+ },
+ {
+  "seg": 138,
+  "start": 483.122,
+  "end": 490.066,
+  "speaker": "SPEAKER_00",
+  "en": "On the keynote, Tejal was mentioning 7x improvements in computer use speed.",
+  "zh": "在主题演讲上,Tejal 提到了 computer use 速度上 7 倍的提升。"
+ },
+ {
+  "seg": 139,
+  "start": 491.426,
+  "end": 493.2593333333333,
+  "speaker": "SPEAKER_00",
+  "en": "A lot better on a few benchmarks.",
+  "zh": "在几个基准测试上也好了很多。"
+ },
+ {
+  "seg": 140,
+  "start": 493.467,
+  "end": 495.418,
+  "speaker": "SPEAKER_00",
+  "en": "How do you guys think about measuring it?",
+  "zh": "你们是怎么考虑衡量它的?"
+ },
+ {
+  "seg": 141,
+  "start": 495.468,
+  "end": 500.391,
+  "speaker": "SPEAKER_00",
+  "en": "Computer use is one of those things where, as you say, it's improvements over time.",
+  "zh": "Computer use 是那种,就像你说的,会随时间不断改进的东西。"
+ },
+ {
+  "seg": 142,
+  "start": 500.431,
+  "end": 501.051,
+  "speaker": "SPEAKER_00",
+  "en": "Is it harness?",
+  "zh": "是 harness 吗?"
+ },
+ {
+  "seg": 143,
+  "start": 501.091,
+  "end": 501.601,
+  "speaker": "SPEAKER_00",
+  "en": "Is it model?",
+  "zh": "是模型吗?"
+ },
+ {
+  "seg": 144,
+  "start": 501.651,
+  "end": 502.572,
+  "speaker": "SPEAKER_00",
+  "en": "Is it post-training?",
+  "zh": "是后训练吗?"
+ },
+ {
+  "seg": 145,
+  "start": 502.592,
+  "end": 506.4253333333333,
+  "speaker": "SPEAKER_00",
+  "en": "How do you guys look at it internally about measuring how good it is?",
+  "zh": "你们内部是怎么看待衡量它有多好的?"
+ },
+ {
+  "seg": 146,
+  "start": 507.615,
+  "end": 509.287,
+  "speaker": "SPEAKER_00",
+  "en": "What were the changes with the new model?",
+  "zh": "新模型有哪些变化?"
+ },
+ {
+  "seg": 147,
+  "start": 509.337,
+  "end": 511.51099999999997,
+  "speaker": "Ari",
+  "en": "We actually have a bunch of different ways of measuring it,",
+  "zh": "我们其实有很多种不同的衡量方式,"
+ },
+ {
+  "seg": 148,
+  "start": 511.561,
+  "end": 515.8943333333333,
+  "speaker": "Ari",
+  "en": "some of which are on different permutations and configurations of the harness.",
+  "zh": "其中一些是在 harness 的不同排列组合和配置上进行的。"
+ },
+ {
+  "seg": 149,
+  "start": 516.288,
+  "end": 521.736,
+  "speaker": "Ari",
+  "en": "It's a bit of a complicated story because our production products have some more safety checks.",
+  "zh": "这事儿有点复杂,因为我们的生产产品有一些更多的安全检查。"
+ },
+ {
+  "seg": 150,
+  "start": 522.976,
+  "end": 527.077,
+  "speaker": "Ari",
+  "en": "And those are configured differently based on the needs of the task at hand.",
+  "zh": "而且这些会根据手头任务的需求进行不同的配置。"
+ },
+ {
+  "seg": 151,
+  "start": 527.097,
+  "end": 529.2636666666666,
+  "speaker": "Ari",
+  "en": "So there's a lot of ways to measure it.",
+  "zh": "所以有很多种衡量它的方法。"
+ },
+ {
+  "seg": 152,
+  "start": 529.598,
+  "end": 533.8757777777778,
+  "speaker": "Ari",
+  "en": "But I think regardless of how we measure it, we find pretty consistent gains.",
+  "zh": "但我认为无论我们怎么衡量，都能发现相当一致的提升。"
+ },
+ {
+  "seg": 153,
+  "start": 534.439,
+  "end": 538.439,
+  "speaker": "Ari",
+  "en": "And those gains are sometimes in the harness and sometimes in the model.",
+  "zh": "而且这些提升有时来自 harness,有时来自模型。"
+ },
+ {
+  "seg": 154,
+  "start": 539.16,
+  "end": 539.86,
+  "speaker": "Ari",
+  "en": "And yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 155,
+  "start": 539.9,
+  "end": 544.642,
+  "speaker": "Ari",
+  "en": "I was really excited by this result that GPT 6.1 is even more cost effective",
+  "zh": "我对这个结果非常兴奋，GPT 6.1 在电脑使用上的成本效益提升"
+ },
+ {
+  "seg": 156,
+  "start": 544.702,
+  "end": 548.983,
+  "speaker": "Ari",
+  "en": "for computer use than its baseline cost improvement as compared to Astra.",
+  "zh": "甚至超过了它相对于 Astra 的基线成本改进。"
+ },
+ {
+  "seg": 157,
+  "start": 549.023,
+  "end": 550.2170000000001,
+  "speaker": "Ari",
+  "en": "It's like really cool to see.",
+  "zh": "看到这个真的很酷。"
+ },
+ {
+  "seg": 158,
+  "start": 550.267,
+  "end": 550.537,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 159,
+  "start": 550.587,
+  "end": 554.089,
+  "speaker": "SPEAKER_03",
+  "en": "I mean, one of the visuals I really liked from the live stream was that,",
+  "zh": "我是说，直播中我特别喜欢的一个画面是，"
+ },
+ {
+  "seg": 160,
+  "start": 554.109,
+  "end": 559.352,
+  "speaker": "SPEAKER_03",
+  "en": "uh, you're sort of improving the parallel frontier of, uh, your, um, curve.",
+  "zh": "呃，你在某种程度上改进了你的曲线的平行前沿。"
+ },
+ {
+  "seg": 161,
+  "start": 559.892,
+  "end": 564.0640000000001,
+  "speaker": "SPEAKER_03",
+  "en": "And there was a lot of talking about how you're improving it together with the harness.",
+  "zh": "并且有很多讨论说你是和 harness 一起改进它的。"
+ },
+ {
+  "seg": 162,
+  "start": 564.114,
+  "end": 568.036,
+  "speaker": "SPEAKER_03",
+  "en": "Can you give some examples of aha moments that you had, uh,",
+  "zh": "你能举一些你经历过的 aha 时刻的例子吗，"
+ },
+ {
+  "seg": 163,
+  "start": 568.076,
+  "end": 572.0020000000001,
+  "speaker": "SPEAKER_03",
+  "en": "whether it's on like model driving the harness, harness driving the model, whatever.",
+  "zh": "无论是模型驱动 harness,harness 驱动模型，等等。"
+ },
+ {
+  "seg": 164,
+  "start": 572.052,
+  "end": 573.074,
+  "speaker": "Ari",
+  "en": "I don't mean to repeat myself,",
+  "zh": "我不想重复自己，"
+ },
+ {
+  "seg": 165,
+  "start": 573.094,
+  "end": 576.1080000000001,
+  "speaker": "Ari",
+  "en": "but I think introducing more modalities has been really powerful.",
+  "zh": "但我认为引入更多模态一直是非常强大的。"
+ },
+ {
+  "seg": 166,
+  "start": 576.158,
+  "end": 579.283,
+  "speaker": "Ari",
+  "en": "One more specific example of that is in the past,",
+  "zh": "一个更具体的例子是，过去，"
+ },
+ {
+  "seg": 167,
+  "start": 579.323,
+  "end": 585.151,
+  "speaker": "Ari",
+  "en": "I think we saw a lot of computer use products had to spend a lot of time scrolling.",
+  "zh": "我觉得我们看到很多电脑使用产品不得不花很多时间滚动页面。"
+ },
+ {
+  "seg": 168,
+  "start": 585.752,
+  "end": 587.4186666666666,
+  "speaker": "Ari",
+  "en": "So it would take a screenshot.",
+  "zh": "它会截个图。"
+ },
+ {
+  "seg": 169,
+  "start": 587.575,
+  "end": 588.596,
+  "speaker": "Ari",
+  "en": "It would try to do something.",
+  "zh": "它会尝试做点什么。"
+ },
+ {
+  "seg": 170,
+  "start": 588.616,
+  "end": 591.14,
+  "speaker": "Ari",
+  "en": "It would be like, oh, I got to scroll down to the next page of results.",
+  "zh": "它会说，哦，我得往下滚到下一页结果。"
+ },
+ {
+  "seg": 171,
+  "start": 591.18,
+  "end": 594.1550000000001,
+  "speaker": "Ari",
+  "en": "And then it would take a screenshot and then it would try to do something and scroll down again.",
+  "zh": "然后它会再截一张图，然后再尝试做点什么，再往下滚。"
+ },
+ {
+  "seg": 172,
+  "start": 594.205,
+  "end": 599.813,
+  "speaker": "Ari",
+  "en": "And so I think with accessibility and direct access to the DOM and other things like",
+  "zh": "所以我认为有了无障碍访问和直接访问 DOM 以及其他类似的"
+ },
+ {
+  "seg": 173,
+  "start": 599.833,
+  "end": 602.6663333333333,
+  "speaker": "Ari",
+  "en": "that, now the language model can actually see Yeah.",
+  "zh": "东西，现在语言模型可以真正看到了。是的。"
+ },
+ {
+  "seg": 174,
+  "start": 621.405,
+  "end": 623.2938888888889,
+  "speaker": "SPEAKER_03",
+  "en": "A lot of really hard engineering.",
+  "zh": "大量非常困难的工程工作。"
+ },
+ {
+  "seg": 175,
+  "start": 622.747,
+  "end": 624.81,
+  "speaker": "SPEAKER_03",
+  "en": "I mean, app shots in general.",
+  "zh": "我是说，总体上 app shot 都是这样。"
+ },
+ {
+  "seg": 176,
+  "start": 625.251,
+  "end": 629.497,
+  "speaker": "SPEAKER_03",
+  "en": "I think people don't quite get the difference because there's like a nice visual",
+  "zh": "我觉得人们不太理解其中的区别，因为 Codex 里"
+ },
+ {
+  "seg": 177,
+  "start": 629.517,
+  "end": 631.517,
+  "speaker": "SPEAKER_03",
+  "en": "and codex when you take an app shot,",
+  "zh": "当你截一个 app shot 时有个不错的可视化界面，"
+ },
+ {
+  "seg": 178,
+  "start": 631.6,
+  "end": 634.484,
+  "speaker": "SPEAKER_03",
+  "en": "but they don't maybe get the difference that you are able",
+  "zh": "但他们可能没理解到其中的区别，即你能够"
+ },
+ {
+  "seg": 179,
+  "start": 634.524,
+  "end": 639.228,
+  "speaker": "SPEAKER_03",
+  "en": "to actually drive each button And you have each text in",
+  "zh": "真正驱动每一个按钮，而且每段文本都以"
+ },
+ {
+  "seg": 180,
+  "start": 639.268,
+  "end": 640.659,
+  "speaker": "SPEAKER_03",
+  "en": "a very optimal representation.",
+  "zh": "非常优化的表示形式存在。"
+ },
+ {
+  "seg": 181,
+  "start": 640.709,
+  "end": 641.669,
+  "speaker": "Ari",
+  "en": "Yeah, yeah, exactly.",
+  "zh": "是的，是的，没错。"
+ },
+ {
+  "seg": 182,
+  "start": 641.71,
+  "end": 643.0400000000001,
+  "speaker": "Ari",
+  "en": "Yeah, it's kind of fun, actually.",
+  "zh": "是的，其实这挺有意思的。"
+ },
+ {
+  "seg": 183,
+  "start": 643.09,
+  "end": 644.631,
+  "speaker": "Ari",
+  "en": "If you want to be really nerdy about it,",
+  "zh": "如果你想在这方面特别极客一点，"
+ },
+ {
+  "seg": 184,
+  "start": 644.651,
+  "end": 648.033,
+  "speaker": "Ari",
+  "en": "you can go into Codex, take an app shot by hitting the two command keys.",
+  "zh": "你可以进入 Codex,连按两下 command 键截一个 app shot。"
+ },
+ {
+  "seg": 185,
+  "start": 648.053,
+  "end": 650.244,
+  "speaker": "Ari",
+  "en": "So you grab the content from whatever app you're working with,",
+  "zh": "这样你就能抓取你正在使用的任何应用的内容，"
+ },
+ {
+  "seg": 186,
+  "start": 650.294,
+  "end": 653.295,
+  "speaker": "Ari",
+  "en": "bring it into the Codex or ChatTBG chat.",
+  "zh": "把它带进 Codex 或 ChatTBG 聊天里。"
+ },
+ {
+  "seg": 187,
+  "start": 653.755,
+  "end": 657.157,
+  "speaker": "Ari",
+  "en": "And then if you click on the attachment and you click on this little tiny button in",
+  "zh": "然后如果你点击那个附件，再点击"
+ },
+ {
+  "seg": 188,
+  "start": 657.177,
+  "end": 657.617,
+  "speaker": "Ari",
+  "en": "the top right,",
+  "zh": "右上角的那个小按钮，"
+ },
+ {
+  "seg": 189,
+  "start": 657.637,
+  "end": 661.269,
+  "speaker": "Ari",
+  "en": "you can see the raw text and you see the raw accessibility representation.",
+  "zh": "你就能看到原始文本，看到原始的无障碍表示。"
+ },
+ {
+  "seg": 190,
+  "start": 661.319,
+  "end": 663.5967777777778,
+  "speaker": "Ari",
+  "en": "And yeah, we've put a lot of work into...",
+  "zh": "是的，我们在这方面投入了大量精力……"
+ },
+ {
+  "seg": 191,
+  "start": 665.522,
+  "end": 669.969,
+  "speaker": "Ari",
+  "en": "Dumping it out, but also making it token efficient, doing it efficiently.",
+  "zh": "把它导出来，同时让它 token 高效，高效地完成。"
+ },
+ {
+  "seg": 192,
+  "start": 670.009,
+  "end": 671.702,
+  "speaker": "Ari",
+  "en": "There's like a bit of an art to it.",
+  "zh": "这里面有点像一门艺术。"
+ },
+ {
+  "seg": 193,
+  "start": 671.752,
+  "end": 672.593,
+  "speaker": "Ari",
+  "en": "And, you know,",
+  "zh": "而且，你知道，"
+ },
+ {
+  "seg": 194,
+  "start": 672.613,
+  "end": 676.3352222222222,
+  "speaker": "Ari",
+  "en": "it turns out that the same technology that was invented for humans,",
+  "zh": "结果发现，这项为人类"
+ },
+ {
+  "seg": 195,
+  "start": 676.779,
+  "end": 679.279,
+  "speaker": "Ari",
+  "en": "you know, who maybe have accessibility needs.",
+  "zh": "可能有无障碍需求的人发明的技术。"
+ },
+ {
+  "seg": 196,
+  "start": 681.904,
+  "end": 686.006,
+  "speaker": "Ari",
+  "en": "For context,",
+  "zh": "补充一下背景，"
+ },
+ {
+  "seg": 197,
+  "start": 687.547,
+  "end": 689.728,
+  "speaker": "SPEAKER_00",
+  "en": "I feel like a lot of people don't understand AppShots.",
+  "zh": "我觉得很多人不理解 AppShots。"
+ },
+ {
+  "seg": 198,
+  "start": 689.748,
+  "end": 691.139,
+  "speaker": "SPEAKER_00",
+  "en": "They don't even know it's a feature.",
+  "zh": "他们甚至不知道这是个功能。"
+ },
+ {
+  "seg": 199,
+  "start": 691.189,
+  "end": 692.789,
+  "speaker": "SPEAKER_00",
+  "en": "It's when you double-hit command,",
+  "zh": "就是你连按两下 command,"
+ },
+ {
+  "seg": 200,
+  "start": 692.829,
+  "end": 694.941,
+  "speaker": "SPEAKER_00",
+  "en": "it pulls in what looks like a screenshot,",
+  "zh": "它会拉取看起来像一张截图的东西,"
+ },
+ {
+  "seg": 201,
+  "start": 694.991,
+  "end": 697.312,
+  "speaker": "SPEAKER_00",
+  "en": "and you're like, oh, why have I opened up just a screenshot and thrown it in?",
+  "zh": "然后你会想,哦,为什么我只打开了一张截图然后扔进去?"
+ },
+ {
+  "seg": 202,
+  "start": 697.352,
+  "end": 700.3430000000001,
+  "speaker": "SPEAKER_00",
+  "en": "No, it's actually pulling all the metadata, all the code, everything.",
+  "zh": "不,它实际上拉取了所有的元数据、所有的代码,所有的一切。"
+ },
+ {
+  "seg": 203,
+  "start": 700.393,
+  "end": 702.074,
+  "speaker": "Ari",
+  "en": "Yeah, exactly.",
+  "zh": "是的,没错。"
+ },
+ {
+  "seg": 204,
+  "start": 702.094,
+  "end": 705.094,
+  "speaker": "Ari",
+  "en": "If you take a screenshot of a webpage that has a link,",
+  "zh": "如果你截取一个带有链接的网页的截图,"
+ },
+ {
+  "seg": 205,
+  "start": 705.705,
+  "end": 708.5383333333334,
+  "speaker": "Ari",
+  "en": "The screenshot doesn't include where the link goes.",
+  "zh": "截图并不包含链接指向哪里。"
+ },
+ {
+  "seg": 206,
+  "start": 708.868,
+  "end": 713.232,
+  "speaker": "Ari",
+  "en": "Maybe you take a screenshot of your calendar, the event titles are truncated.",
+  "zh": "也许你截取你的日历,事件标题被截断了。"
+ },
+ {
+  "seg": 207,
+  "start": 713.772,
+  "end": 715.3040000000001,
+  "speaker": "Ari",
+  "en": "But when you take an app shot,",
+  "zh": "但当你进行一次 app shot 时,"
+ },
+ {
+  "seg": 208,
+  "start": 715.354,
+  "end": 718.5762222222222,
+  "speaker": "Ari",
+  "en": "it gives the language model full context about everything,",
+  "zh": "它会给语言模型关于一切的完整上下文,"
+ },
+ {
+  "seg": 209,
+  "start": 718.797,
+  "end": 721.779,
+  "speaker": "Ari",
+  "en": "and that lets it do much more.",
+  "zh": "这让它能做更多的事情。"
+ },
+ {
+  "seg": 210,
+  "start": 722.54,
+  "end": 723.791,
+  "speaker": "SPEAKER_03",
+  "en": "For those who want to see more,",
+  "zh": "对于那些想了解更多的人来说,"
+ },
+ {
+  "seg": 211,
+  "start": 723.841,
+  "end": 727.785,
+  "speaker": "SPEAKER_03",
+  "en": "Jason Liu, I invited him to do a full workshop on this at AI Engineer.",
+  "zh": "Jason Liu,我邀请他在 AI Engineer 上就此做了一场完整的工作坊。"
+ },
+ {
+  "seg": 212,
+  "start": 727.885,
+  "end": 728.245,
+  "speaker": "SPEAKER_03",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 213,
+  "start": 728.265,
+  "end": 729.2760000000001,
+  "speaker": "SPEAKER_03",
+  "en": "You did a great job.",
+  "zh": "你做得非常好。"
+ },
+ {
+  "seg": 214,
+  "start": 729.326,
+  "end": 732.569,
+  "speaker": "SPEAKER_00",
+  "en": "I have a broader vision question on computer use agents.",
+  "zh": "我有一个关于计算机使用智能体的更宏观的愿景问题。"
+ },
+ {
+  "seg": 215,
+  "start": 732.849,
+  "end": 737.553,
+  "speaker": "SPEAKER_00",
+  "en": "So your example of take a screenshot, scroll page, take a screenshot where we were.",
+  "zh": "就像你举的例子,截个图、滚动页面、在我们所在的地方再截个图。"
+ },
+ {
+  "seg": 216,
+  "start": 737.993,
+  "end": 739.6596666666667,
+  "speaker": "SPEAKER_00",
+  "en": "Today they can automate a lot.",
+  "zh": "今天它们可以自动化很多事情。"
+ },
+ {
+  "seg": 217,
+  "start": 740.255,
+  "end": 741.306,
+  "speaker": "SPEAKER_00",
+  "en": "What are the bottlenecks?",
+  "zh": "瓶颈是什么?"
+ },
+ {
+  "seg": 218,
+  "start": 741.356,
+  "end": 742.3470000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Is it models?",
+  "zh": "是模型吗?"
+ },
+ {
+  "seg": 219,
+  "start": 742.397,
+  "end": 743.397,
+  "speaker": "SPEAKER_00",
+  "en": "Is it harnesses?",
+  "zh": "是 harness 吗?"
+ },
+ {
+  "seg": 220,
+  "start": 743.958,
+  "end": 746.4024444444444,
+  "speaker": "SPEAKER_00",
+  "en": "Where do you see it going in like two years?",
+  "zh": "你觉得比如两年后它会走向哪里?"
+ },
+ {
+  "seg": 221,
+  "start": 746.56,
+  "end": 748.762,
+  "speaker": "SPEAKER_00",
+  "en": "Do you see it just running for hours?",
+  "zh": "你觉得它就只是连续运行几个小时吗?"
+ },
+ {
+  "seg": 222,
+  "start": 748.822,
+  "end": 749.5930000000001,
+  "speaker": "SPEAKER_00",
+  "en": "How do we get there?",
+  "zh": "我们如何到达那里?"
+ },
+ {
+  "seg": 223,
+  "start": 749.643,
+  "end": 752.145,
+  "speaker": "SPEAKER_00",
+  "en": "Any predictions on where computer use goes?",
+  "zh": "对计算机使用的走向有什么预测吗?"
+ },
+ {
+  "seg": 224,
+  "start": 752.265,
+  "end": 755.828,
+  "speaker": "Ari",
+  "en": "Yeah, I mean, I think what's really crazy that I think...",
+  "zh": "是的,我是说,我认为非常疯狂的一点是,我觉得……"
+ },
+ {
+  "seg": 225,
+  "start": 756.969,
+  "end": 757.5,
+  "speaker": "Ari",
+  "en": "You know,",
+  "zh": "你知道,"
+ },
+ {
+  "seg": 226,
+  "start": 757.55,
+  "end": 759.593,
+  "speaker": "Ari",
+  "en": "the teams accomplished over the past couple of months is",
+  "zh": "各团队在过去几个月里所取得的成就是,"
+ },
+ {
+  "seg": 227,
+  "start": 759.633,
+  "end": 763.298,
+  "speaker": "Ari",
+  "en": "that now computer use is like faster at accomplishing tasks than like",
+  "zh": "现在计算机使用在完成任务上比"
+ },
+ {
+  "seg": 228,
+  "start": 763.338,
+  "end": 766.363,
+  "speaker": "Ari",
+  "en": "the average human, probably in most cases.",
+  "zh": "普通人更快了,可能在大多数情况下都是如此。"
+ },
+ {
+  "seg": 229,
+  "start": 767.164,
+  "end": 771.37,
+  "speaker": "Ari",
+  "en": "And I think that the next frontier is to have computer use be like lowercase.",
+  "zh": "而且我认为下一个前沿是让计算机使用变成小写字母那种水平。"
+ },
+ {
+  "seg": 230,
+  "start": 771.37,
+  "end": 773.633,
+  "speaker": "Ari",
+  "en": "I think that'll be really consequential and exciting when that happens",
+  "zh": "我认为当那发生时,会非常有影响力和令人兴奋,"
+ },
+ {
+  "seg": 231,
+  "start": 773.653,
+  "end": 777.153,
+  "speaker": "Ari",
+  "en": "because I think we'll be able to all of a sudden build products",
+  "zh": "因为我认为我们将能够突然间构建出"
+ },
+ {
+  "seg": 232,
+  "start": 787.133,
+  "end": 790.899,
+  "speaker": "Ari",
+  "en": "That provide just much more real-time experiences.",
+  "zh": "提供更加实时体验的产品。"
+ },
+ {
+  "seg": 233,
+  "start": 790.959,
+  "end": 792.2367777777778,
+  "speaker": "Ari",
+  "en": "And I think it'll also,",
+  "zh": "而且我认为它还会,"
+ },
+ {
+  "seg": 234,
+  "start": 792.701,
+  "end": 795.025,
+  "speaker": "Ari",
+  "en": "lowering the barrier to entry of,",
+  "zh": "降低进入门槛,"
+ },
+ {
+  "seg": 235,
+  "start": 795.485,
+  "end": 796.807,
+  "speaker": "Ari",
+  "en": "or the activation energy,",
+  "zh": "或者说激活能量,"
+ },
+ {
+  "seg": 236,
+  "start": 796.827,
+  "end": 797.6990000000001,
+  "speaker": "Ari",
+  "en": "I suppose,",
+  "zh": "我想,"
+ },
+ {
+  "seg": 237,
+  "start": 797.749,
+  "end": 798.51,
+  "speaker": "Ari",
+  "en": "of using computer use,",
+  "zh": "对于使用计算机使用来说,"
+ },
+ {
+  "seg": 238,
+  "start": 798.55,
+  "end": 801.484,
+  "speaker": "Ari",
+  "en": "I think will make us start to default to doing certain things independently.",
+  "zh": "我认为这会让我们开始默认独立地去做某些事情。"
+ },
+ {
+  "seg": 239,
+  "start": 801.534,
+  "end": 804.378,
+  "speaker": "Ari",
+  "en": "And I think there are a lot of different little paper cuts and bottlenecks",
+  "zh": "而且我认为有很多不同的小刺痛点和小瓶颈"
+ },
+ {
+  "seg": 240,
+  "start": 804.398,
+  "end": 806.898,
+  "speaker": "Ari",
+  "en": "that are sort of standing in the way of that.",
+  "zh": "正在阻碍着这一点。"
+ },
+ {
+  "seg": 241,
+  "start": 817.357,
+  "end": 820.242,
+  "speaker": "Ari",
+  "en": "I think that there's things on the model side,",
+  "zh": "我认为在模型层面有一些事情,"
+ },
+ {
+  "seg": 242,
+  "start": 820.262,
+  "end": 821.504,
+  "speaker": "Ari",
+  "en": "there's things on the inference side,",
+  "zh": "在推理层面有一些事情,"
+ },
+ {
+  "seg": 243,
+  "start": 821.524,
+  "end": 825.049,
+  "speaker": "Ari",
+  "en": "there's things on the harness side, there's things in the representation.",
+  "zh": "在 harness 层面有一些事情,在表示层面也有一些事情。"
+ },
+ {
+  "seg": 244,
+  "start": 825.069,
+  "end": 827.312,
+  "speaker": "Ari",
+  "en": "We find that as computer use gets faster,",
+  "zh": "我们发现,随着计算机使用变得更快,"
+ },
+ {
+  "seg": 245,
+  "start": 827.332,
+  "end": 831.332,
+  "speaker": "Ari",
+  "en": "we're increasingly bottlenecked by just the speed of doing an operation.",
+  "zh": "我们越来越多地被单纯执行一个操作的速度所瓶颈化。"
+ },
+ {
+  "seg": 246,
+  "start": 831.478,
+  "end": 835.0335555555555,
+  "speaker": "Ari",
+  "en": "Yeah, then you just write a wait and then you execute the wait.",
+  "zh": "是啊,然后你就写一个 wait,然后执行这个 wait。"
+ },
+ {
+  "seg": 247,
+  "start": 847.448,
+  "end": 848.55,
+  "speaker": "Ari",
+  "en": "Yeah, totally.",
+  "zh": "是的,完全是这样。"
+ },
+ {
+  "seg": 248,
+  "start": 848.67,
+  "end": 849.461,
+  "speaker": "Ari",
+  "en": "And you want to get,",
+  "zh": "而你想要得到,"
+ },
+ {
+  "seg": 249,
+  "start": 849.511,
+  "end": 849.902,
+  "speaker": "Ari",
+  "en": "actually,",
+  "zh": "实际上,"
+ },
+ {
+  "seg": 250,
+  "start": 849.952,
+  "end": 852.466,
+  "speaker": "Ari",
+  "en": "it's actually really important that you get that, like,",
+  "zh": "这一点其实非常重要,"
+ },
+ {
+  "seg": 251,
+  "start": 852.516,
+  "end": 855.941,
+  "speaker": "Ari",
+  "en": "you want as little delay as possible between when it finally finishes loading and",
+  "zh": "你希望它在最终完成加载和你去触发 LLM 执行下一个动作之间的延迟尽可能小,"
+ },
+ {
+  "seg": 252,
+  "start": 855.961,
+  "end": 857.984,
+  "speaker": "Ari",
+  "en": "when you go and trigger the LM to the next action,",
+  "zh": "而这本身就是一门统计科学。"
+ },
+ {
+  "seg": 253,
+  "start": 858.004,
+  "end": 860.247,
+  "speaker": "Ari",
+  "en": "which is actually itself a statistical science.",
+  "zh": "注:原文顺序如此。 [[273]] 做一个非常烦躁的人类。"
+ },
+ {
+  "seg": 254,
+  "start": 860.267,
+  "end": 862.6003333333334,
+  "speaker": "SPEAKER_03",
+  "en": "Like an event-driven way maybe to do that.",
+  "zh": "也就是说,可能用事件驱动的方式来做这件事。"
+ },
+ {
+  "seg": 255,
+  "start": 862.73,
+  "end": 866.632,
+  "speaker": "Ari",
+  "en": "When possible, you want it to be event-driven.",
+  "zh": "只要可能,你就希望它是事件驱动的。"
+ },
+ {
+  "seg": 256,
+  "start": 867.134,
+  "end": 869.566,
+  "speaker": "Ari",
+  "en": "The web browser has load events for web navigation,",
+  "zh": "网页浏览器针对网页导航有加载事件,"
+ },
+ {
+  "seg": 257,
+  "start": 869.616,
+  "end": 873.0690000000001,
+  "speaker": "Ari",
+  "en": "but there's other types of events that actually really can't be event-driven.",
+  "zh": "但还有其他一些事件类型其实没法做成事件驱动的。"
+ },
+ {
+  "seg": 258,
+  "start": 873.119,
+  "end": 874.35,
+  "speaker": "Ari",
+  "en": "There's a lot of complexity.",
+  "zh": "这里有很多复杂性。"
+ },
+ {
+  "seg": 259,
+  "start": 874.4,
+  "end": 875.421,
+  "speaker": "SPEAKER_00",
+  "en": "The one that comes to mind",
+  "zh": "我能想到的一个例子"
+ },
+ {
+  "seg": 260,
+  "start": 875.481,
+  "end": 877.4254444444445,
+  "speaker": "SPEAKER_00",
+  "en": "is chatting with customer service.",
+  "zh": "是和客服聊天。"
+ },
+ {
+  "seg": 261,
+  "start": 877.522,
+  "end": 879.854,
+  "speaker": "SPEAKER_00",
+  "en": "Replies could take 30 seconds, could take three minutes.",
+  "zh": "回复可能要 30 秒,也可能要三分钟。"
+ },
+ {
+  "seg": 262,
+  "start": 879.904,
+  "end": 880.904,
+  "speaker": "SPEAKER_03",
+  "en": "Oh, right.",
+  "zh": "哦,对。"
+ },
+ {
+  "seg": 263,
+  "start": 880.971,
+  "end": 883.474,
+  "speaker": "SPEAKER_03",
+  "en": "I have dealt with so many bots with Codex.",
+  "zh": "我用 Codex 处理过好多机器人。"
+ },
+ {
+  "seg": 264,
+  "start": 884.175,
+  "end": 884.635,
+  "speaker": "SPEAKER_03",
+  "en": "It's great,",
+  "zh": "效果很棒,"
+ },
+ {
+  "seg": 265,
+  "start": 884.655,
+  "end": 887.5690000000001,
+  "speaker": "SPEAKER_03",
+  "en": "but I also wonder if the other side knows that they're talking to a bot",
+  "zh": "但我也好奇对方是否知道他们在和一个机器人对话,"
+ },
+ {
+  "seg": 266,
+  "start": 887.619,
+  "end": 889.711,
+  "speaker": "SPEAKER_03",
+  "en": "because I'm answering in complete sentences.",
+  "zh": "因为我回答的是完整的句子。"
+ },
+ {
+  "seg": 267,
+  "start": 889.761,
+  "end": 891.623,
+  "speaker": "SPEAKER_03",
+  "en": "I'm capitalizing correctly.",
+  "zh": "我的大小写都是正确的。"
+ },
+ {
+  "seg": 268,
+  "start": 891.643,
+  "end": 893.825,
+  "speaker": "SPEAKER_03",
+  "en": "I'm giving full reference numbers and everything.",
+  "zh": "我还提供完整的参考编号之类的所有信息。"
+ },
+ {
+  "seg": 269,
+  "start": 893.865,
+  "end": 895.327,
+  "speaker": "SPEAKER_03",
+  "en": "It's clearly too good.",
+  "zh": "这明显好得过头了。"
+ },
+ {
+  "seg": 270,
+  "start": 895.708,
+  "end": 896.708,
+  "speaker": "SPEAKER_03",
+  "en": "I don't care.",
+  "zh": "我不在乎。"
+ },
+ {
+  "seg": 271,
+  "start": 897.029,
+  "end": 898.39,
+  "speaker": "SPEAKER_03",
+  "en": "I'm just trying to get my support case.",
+  "zh": "我只是想解决我的支持工单。"
+ },
+ {
+  "seg": 272,
+  "start": 898.41,
+  "end": 901.273,
+  "speaker": "SPEAKER_00",
+  "en": "I've prompted it to, you know, Don't pretend you're a bot.",
+  "zh": "我给它提示词,比如,别假装你是机器人。"
+ },
+ {
+  "seg": 273,
+  "start": 901.313,
+  "end": 902.574,
+  "speaker": "SPEAKER_00",
+  "en": "Be very annoyed human.",
+  "zh": "成为非常恼火的人类。"
+ },
+ {
+  "seg": 274,
+  "start": 902.594,
+  "end": 904.116,
+  "speaker": "SPEAKER_00",
+  "en": "Short one-liners.",
+  "zh": "用简短的一句话。"
+ },
+ {
+  "seg": 275,
+  "start": 904.616,
+  "end": 905.116,
+  "speaker": "SPEAKER_00",
+  "en": "Push it.",
+  "zh": "逼它。"
+ },
+ {
+  "seg": 276,
+  "start": 905.156,
+  "end": 905.667,
+  "speaker": "SPEAKER_00",
+  "en": "Do all this.",
+  "zh": "把这些都做了。"
+ },
+ {
+  "seg": 277,
+  "start": 905.717,
+  "end": 906.4480000000001,
+  "speaker": "SPEAKER_00",
+  "en": "I also tell it,",
+  "zh": "我还会告诉它,"
+ },
+ {
+  "seg": 278,
+  "start": 906.498,
+  "end": 908.4424444444445,
+  "speaker": "SPEAKER_00",
+  "en": "while you're waiting for responses,",
+  "zh": "在等待回复的时候,"
+ },
+ {
+  "seg": 279,
+  "start": 908.699,
+  "end": 912.643,
+  "speaker": "SPEAKER_00",
+  "en": "use sub-agents to research better ways to figure out what we need.",
+  "zh": "用子智能体去研究更好的办法来弄清楚我们需要什么。"
+ },
+ {
+  "seg": 280,
+  "start": 912.843,
+  "end": 914.604,
+  "speaker": "SPEAKER_00",
+  "en": "It's just human little intervention.",
+  "zh": "基本上不需要人工干预。"
+ },
+ {
+  "seg": 281,
+  "start": 914.624,
+  "end": 915.005,
+  "speaker": "SPEAKER_00",
+  "en": "That's awesome.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 282,
+  "start": 915.025,
+  "end": 916.906,
+  "speaker": "Ari",
+  "en": "I also feel like half the time it's a bot on the other end,",
+  "zh": "我也觉得有一半的时候对面也是个机器人,"
+ },
+ {
+  "seg": 283,
+  "start": 916.926,
+  "end": 919.3580000000001,
+  "speaker": "Ari",
+  "en": "so now you've got the bots talking to each other.",
+  "zh": "所以现在就是机器人在互相交谈了。"
+ },
+ {
+  "seg": 284,
+  "start": 919.408,
+  "end": 920.408,
+  "speaker": "SPEAKER_03",
+  "en": "I will also say...",
+  "zh": "我还要说……"
+ },
+ {
+  "seg": 285,
+  "start": 921.95,
+  "end": 924.791,
+  "speaker": "SPEAKER_03",
+  "en": "One milestone of computer use that we're at now is,",
+  "zh": "我们现在所处的一个计算机使用里程碑是,"
+ },
+ {
+  "seg": 286,
+  "start": 925.051,
+  "end": 925.771,
+  "speaker": "SPEAKER_03",
+  "en": "you know, three,",
+  "zh": "你知道,三、"
+ },
+ {
+  "seg": 287,
+  "start": 925.791,
+  "end": 932.791,
+  "speaker": "SPEAKER_03",
+  "en": "four years ago, we were scared of hooking up LLMs to the web and to our devices.",
+  "zh": "四年前,我们还害怕把 LLM 接到网络和我们的设备上。"
+ },
+ {
+  "seg": 288,
+  "start": 933.434,
+  "end": 935.8228888888889,
+  "speaker": "SPEAKER_03",
+  "en": "And now I'm having it configure DNS for me.",
+  "zh": "而现在我在让它帮我配置 DNS。"
+ },
+ {
+  "seg": 289,
+  "start": 936.254,
+  "end": 941.036,
+  "speaker": "SPEAKER_03",
+  "en": "I'm having it pay my bills and like really like tens of thousands of dollars of like stuff.",
+  "zh": "我让它去帮我付账单,像是好几万美元的那种东西。"
+ },
+ {
+  "seg": 290,
+  "start": 941.056,
+  "end": 944.6115555555556,
+  "speaker": "SPEAKER_03",
+  "en": "I'm just sending it over and YOLOing with computer use and like,",
+  "zh": "我就直接把东西发过去,用 computer use 一路 YOLO,"
+ },
+ {
+  "seg": 291,
+  "start": 944.817,
+  "end": 946.9680000000001,
+  "speaker": "SPEAKER_03",
+  "en": "you know, what's the worst thing that happened?",
+  "zh": "你知道,最坏能发生什么呢?"
+ },
+ {
+  "seg": 292,
+  "start": 947.018,
+  "end": 948.018,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 293,
+  "start": 948.503,
+  "end": 949.955,
+  "speaker": "SPEAKER_03",
+  "en": "So that's all really good.",
+  "zh": "所以这些都非常好。"
+ },
+ {
+  "seg": 294,
+  "start": 950.005,
+  "end": 951.147,
+  "speaker": "SPEAKER_03",
+  "en": "I think now that you've,",
+  "zh": "我想既然你已经,"
+ },
+ {
+  "seg": 295,
+  "start": 951.167,
+  "end": 954.071,
+  "speaker": "SPEAKER_03",
+  "en": "obviously you also have to dog food your own products and all these things.",
+  "zh": "显然你也必须对自己的产品做 dog food 以及这些事情。"
+ },
+ {
+  "seg": 296,
+  "start": 954.111,
+  "end": 955.844,
+  "speaker": "SPEAKER_03",
+  "en": "Now that you've sort of released this in API,",
+  "zh": "既然你已经以 API 的形式发布了这个,"
+ },
+ {
+  "seg": 297,
+  "start": 955.894,
+  "end": 959.639,
+  "speaker": "SPEAKER_03",
+  "en": "what are some pitfalls or tips that you want to tell developers because they're",
+  "zh": "你想告诉开发者哪些坑或技巧?因为他们"
+ },
+ {
+  "seg": 298,
+  "start": 959.659,
+  "end": 960.761,
+  "speaker": "SPEAKER_03",
+  "en": "about to, I guess,",
+  "zh": "我想马上"
+ },
+ {
+  "seg": 299,
+  "start": 961.042,
+  "end": 963.085,
+  "speaker": "Ari",
+  "en": "encounter all this firsthand?",
+  "zh": "就要 firsthand(亲身)遇到这一切了?"
+ },
+ {
+  "seg": 300,
+  "start": 963.545,
+  "end": 968.038,
+  "speaker": "Ari",
+  "en": "First of all, I'm just really excited that we brought computer use into the agents API.",
+  "zh": "首先，我真的很兴奋我们能把计算机使用带进了智能体 API。"
+ },
+ {
+  "seg": 301,
+  "start": 968.088,
+  "end": 971.311,
+  "speaker": "Ari",
+  "en": "I think this is really great because obviously a lot",
+  "zh": "我觉得这真的很棒，因为显然很多"
+ },
+ {
+  "seg": 302,
+  "start": 971.331,
+  "end": 974.113,
+  "speaker": "Ari",
+  "en": "of developers are building applications that want to be able to work",
+  "zh": "开发者正在构建的应用想要能够"
+ },
+ {
+  "seg": 303,
+  "start": 974.153,
+  "end": 977.275,
+  "speaker": "Ari",
+  "en": "with third-party websites and services.",
+  "zh": "与第三方网站和服务协同工作。"
+ },
+ {
+  "seg": 304,
+  "start": 977.615,
+  "end": 979.597,
+  "speaker": "Ari",
+  "en": "And so computer use has this universality to it.",
+  "zh": "而计算机使用具有这种普适性。"
+ },
+ {
+  "seg": 305,
+  "start": 979.617,
+  "end": 980.377,
+  "speaker": "Ari",
+  "en": "It can work with anything.",
+  "zh": "它可以与任何东西配合工作。"
+ },
+ {
+  "seg": 306,
+  "start": 980.397,
+  "end": 981.6080000000001,
+  "speaker": "Ari",
+  "en": "So now all of a sudden...",
+  "zh": "所以现在突然之间……"
+ },
+ {
+  "seg": 307,
+  "start": 981.658,
+  "end": 986.0920000000001,
+  "speaker": "Ari",
+  "en": "Developers can build using the same computer use implementation that we're building on.",
+  "zh": "开发者可以用我们所构建的同一套计算机使用实现来构建。"
+ },
+ {
+  "seg": 308,
+  "start": 986.142,
+  "end": 987.583,
+  "speaker": "Ari",
+  "en": "I think there's great work to be done if you want",
+  "zh": "我觉得如果你想"
+ },
+ {
+  "seg": 309,
+  "start": 987.603,
+  "end": 989.9350000000001,
+  "speaker": "Ari",
+  "en": "to build your own computer use harness, but it's hard.",
+  "zh": "构建自己的计算机使用测试框架，有很棒的工作可以做，但这很难。"
+ },
+ {
+  "seg": 310,
+  "start": 989.985,
+  "end": 990.985,
+  "speaker": "Ari",
+  "en": "And also,",
+  "zh": "而且，"
+ },
+ {
+  "seg": 311,
+  "start": 991.206,
+  "end": 993.607,
+  "speaker": "Ari",
+  "en": "we train our models on our computer use harness,",
+  "zh": "我们是在自己的计算机使用框架上训练我们的模型，"
+ },
+ {
+  "seg": 312,
+  "start": 993.627,
+  "end": 997.811,
+  "speaker": "Ari",
+  "en": "so there is an advantage to using the one that's in distribution for the model.",
+  "zh": "所以使用模型分布内的那一套是有优势的。"
+ },
+ {
+  "seg": 313,
+  "start": 997.831,
+  "end": 1001.133,
+  "speaker": "Ari",
+  "en": "There actually might be a speed and cost and accuracy advantage.",
+  "zh": "实际上可能会有速度、成本和准确率上的优势。"
+ },
+ {
+  "seg": 314,
+  "start": 1001.153,
+  "end": 1004.1460000000001,
+  "speaker": "Ari",
+  "en": "So I think it's really great for people to get to build on top of that.",
+  "zh": "所以我觉得让人们能在此之上构建真的很棒。"
+ },
+ {
+  "seg": 315,
+  "start": 1004.196,
+  "end": 1006.017,
+  "speaker": "Ari",
+  "en": "And yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 316,
+  "start": 1006.077,
+  "end": 1009.07,
+  "speaker": "Ari",
+  "en": "I think kind of to the point that you were making, like,",
+  "zh": "我想有点像你刚才说的那个点，"
+ },
+ {
+  "seg": 317,
+  "start": 1009.12,
+  "end": 1013.706,
+  "speaker": "Ari",
+  "en": "I think we're all sort of still in the process and maybe like some of us are ahead",
+  "zh": "我想我们都还处于这个过程中，也许我们中有些人"
+ },
+ {
+  "seg": 318,
+  "start": 1013.767,
+  "end": 1017.212,
+  "speaker": "Ari",
+  "en": "of many people in the world of like getting comfortable with this technology",
+  "zh": "在熟悉这项技术"
+ },
+ {
+  "seg": 319,
+  "start": 1017.252,
+  "end": 1018.252,
+  "speaker": "Ari",
+  "en": "and trusting it.",
+  "zh": "并信任它这件事上比世界上许多人走在前面。"
+ },
+ {
+  "seg": 320,
+  "start": 1018.473,
+  "end": 1022.6,
+  "speaker": "Ari",
+  "en": "And so I think it's incumbent on us to sort of build that trust over time",
+  "zh": "所以我认为我们有责任随着时间的推移逐步建立那种信任，"
+ },
+ {
+  "seg": 321,
+  "start": 1022.64,
+  "end": 1024.602,
+  "speaker": "Ari",
+  "en": "by making sure we're building By building things that are reliable,",
+  "zh": "办法是确保我们构建的东西是可靠的，"
+ },
+ {
+  "seg": 322,
+  "start": 1024.643,
+  "end": 1027.447,
+  "speaker": "Ari",
+  "en": "by building the right kinds of safety checks,",
+  "zh": "构建正确类型的安全检查，"
+ },
+ {
+  "seg": 323,
+  "start": 1027.507,
+  "end": 1030.391,
+  "speaker": "Ari",
+  "en": "by asking for the user's consent before doing something consequential,",
+  "zh": "在做有重大后果的事情之前征得用户的同意，"
+ },
+ {
+  "seg": 324,
+  "start": 1030.411,
+  "end": 1031.382,
+  "speaker": "Ari",
+  "en": "like making a payment,",
+  "zh": "比如进行付款，"
+ },
+ {
+  "seg": 325,
+  "start": 1031.432,
+  "end": 1032.895,
+  "speaker": "Ari",
+  "en": "by asking,",
+  "zh": "通过询问，"
+ },
+ {
+  "seg": 326,
+  "start": 1033.235,
+  "end": 1034.828,
+  "speaker": "Ari",
+  "en": "maybe depending on the application,",
+  "zh": "也许取决于具体应用，"
+ },
+ {
+  "seg": 327,
+  "start": 1034.878,
+  "end": 1038.383,
+  "speaker": "Ari",
+  "en": "making sure you're only letting it access the websites or applications",
+  "zh": "确保你只让它访问那些网站或应用程序"
+ },
+ {
+  "seg": 328,
+  "start": 1038.403,
+  "end": 1040.866,
+  "speaker": "Ari",
+  "en": "that it Have you seen any changes in the way",
+  "zh": "你有没有看到这方面的一些变化，"
+ },
+ {
+  "seg": 329,
+  "start": 1055.567,
+  "end": 1058.449,
+  "speaker": "SPEAKER_00",
+  "en": "One of the things with dots is you're seeing it in Slack.",
+  "zh": "用 dots 的其中一个方面是你会在 Slack 里看到它。"
+ },
+ {
+  "seg": 330,
+  "start": 1058.469,
+  "end": 1060.661,
+  "speaker": "SPEAKER_00",
+  "en": "You're seeing people use voice and build.",
+  "zh": "你会看到人们使用语音来构建。"
+ },
+ {
+  "seg": 331,
+  "start": 1060.711,
+  "end": 1066.555,
+  "speaker": "SPEAKER_00",
+  "en": "The example Roman showed of change this app and send me screenshots along the way and all this.",
+  "zh": "关于人们如何把计算机使用用于编码工作流？"
+ },
+ {
+  "seg": 332,
+  "start": 1067.075,
+  "end": 1069.728,
+  "speaker": "SPEAKER_00",
+  "en": "Is there anything that you're seeing there in adoption",
+  "zh": "在采用方面你有没有看到什么，"
+ },
+ {
+  "seg": 333,
+  "start": 1069.778,
+  "end": 1072.97,
+  "speaker": "SPEAKER_00",
+  "en": "about how people are using computer use for coding workflows?",
+  "zh": "关于人们如何将计算机使用用于编码工作流?"
+ },
+ {
+  "seg": 334,
+  "start": 1073.02,
+  "end": 1075.131111111111,
+  "speaker": "SPEAKER_00",
+  "en": "Any tips people should take from that?",
+  "zh": "有什么大家应该借鉴的技巧吗？"
+ },
+ {
+  "seg": 335,
+  "start": 1075.182,
+  "end": 1077.554,
+  "speaker": "Ari",
+  "en": "One of my favorite use cases for computers actually,",
+  "zh": "计算机使用我最喜欢的用例之一，"
+ },
+ {
+  "seg": 336,
+  "start": 1077.604,
+  "end": 1079.7151111111111,
+  "speaker": "Ari",
+  "en": "and one that we see a lot in the wild,",
+  "zh": "也是我们在实际中经常看到的，"
+ },
+ {
+  "seg": 337,
+  "start": 1080.126,
+  "end": 1081.765,
+  "speaker": "Ari",
+  "en": "is Computer use,",
+  "zh": "是计算机使用，"
+ },
+ {
+  "seg": 338,
+  "start": 1082.226,
+  "end": 1086.114888888889,
+  "speaker": "Ari",
+  "en": "letting the agent actually test the software that the agent has built,",
+  "zh": "让智能体真正测试它自己构建的软件，"
+ },
+ {
+  "seg": 339,
+  "start": 1086.392,
+  "end": 1090.1480000000001,
+  "speaker": "Ari",
+  "en": "which is far more consequential than it sounds because traditionally,",
+  "zh": "这比听起来要有分量得多，因为传统上，"
+ },
+ {
+  "seg": 340,
+  "start": 1090.198,
+  "end": 1090.438,
+  "speaker": "Ari",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 341,
+  "start": 1090.458,
+  "end": 1094.744,
+  "speaker": "Ari",
+  "en": "you'd build something in codex and then the codex builds it for you and",
+  "zh": "你会在 codex 里构建一些东西，然后 codex 帮你构建出来，接着你就得。"
+ },
+ {
+  "seg": 342,
+  "start": 1094.764,
+  "end": 1095.786,
+  "speaker": "Ari",
+  "en": "then you have to.",
+  "zh": "去测试它。"
+ },
+ {
+  "seg": 343,
+  "start": 1095.926,
+  "end": 1096.396,
+  "speaker": "Ari",
+  "en": "Test it.",
+  "zh": "而你现在是智能体的 QA，对吧？"
+ },
+ {
+  "seg": 344,
+  "start": 1096.446,
+  "end": 1098.6970000000001,
+  "speaker": "Ari",
+  "en": "And you are now like QA for the agent, right?",
+  "zh": "所以有了计算机使用，"
+ },
+ {
+  "seg": 345,
+  "start": 1098.747,
+  "end": 1099.8780000000002,
+  "speaker": "Ari",
+  "en": "So with computer use,",
+  "zh": "你可以补全软件开发生命周期，"
+ },
+ {
+  "seg": 346,
+  "start": 1099.928,
+  "end": 1103.669,
+  "speaker": "Ari",
+  "en": "you can complete the software development lifecycle where",
+  "zh": "你可以完成软件开发生命周期,其中"
+ },
+ {
+  "seg": 347,
+  "start": 1104.19,
+  "end": 1106.0800000000002,
+  "speaker": "Ari",
+  "en": "the agent can build software, it can test it.",
+  "zh": "智能体可以构建软件，它还可以测试它。"
+ },
+ {
+  "seg": 348,
+  "start": 1106.13,
+  "end": 1110.142,
+  "speaker": "Ari",
+  "en": "So I have a lot of fun, you know, building stuff, having the agent test it.",
+  "zh": "所以我玩得很开心，你知道，构建东西，然后让智能体去测试。"
+ },
+ {
+  "seg": 349,
+  "start": 1110.192,
+  "end": 1112.623,
+  "speaker": "Ari",
+  "en": "By the time it comes to me, it's already working.",
+  "zh": "等它到我手上的时候，它已经能正常工作了。"
+ },
+ {
+  "seg": 350,
+  "start": 1112.673,
+  "end": 1116.265,
+  "speaker": "Ari",
+  "en": "I have extra fun because sometimes I'm like developing computer use itself.",
+  "zh": "我有额外的乐趣,因为有时候我自己就在开发 computer use 本身。"
+ },
+ {
+  "seg": 351,
+  "start": 1116.315,
+  "end": 1116.715,
+  "speaker": "Ari",
+  "en": "And so now I have",
+  "zh": "所以现在我有"
+ },
+ {
+  "seg": 352,
+  "start": 1116.735,
+  "end": 1120.547,
+  "speaker": "Ari",
+  "en": "a computer use agent that's using my computer use agent that's using something else.",
+  "zh": "一个 computer use 智能体,它在用我的 computer use 智能体,而那个又在用别的东西。"
+ },
+ {
+  "seg": 353,
+  "start": 1120.597,
+  "end": 1124.068,
+  "speaker": "Ari",
+  "en": "So yeah, I really think this is a super powerful class of use case.",
+  "zh": "所以是的,我真的认为这是一类非常强大的用例。"
+ },
+ {
+  "seg": 354,
+  "start": 1124.118,
+  "end": 1130.925,
+  "speaker": "SPEAKER_03",
+  "en": "I have a visual playtest skill that I've developed that really catches a lot of design issues.",
+  "zh": "我开发了一个视觉游戏测试技能,它真的能发现很多设计问题。"
+ },
+ {
+  "seg": 355,
+  "start": 1131.525,
+  "end": 1133.818,
+  "speaker": "SPEAKER_03",
+  "en": "Normally, when you just look at code, you wouldn't really pick it up.",
+  "zh": "通常,如果你只是看代码,你根本不会注意到这些问题。"
+ },
+ {
+  "seg": 356,
+  "start": 1133.868,
+  "end": 1135.75,
+  "speaker": "SPEAKER_03",
+  "en": "It's also really good for cloning apps, though.",
+  "zh": "它对克隆应用也非常好用。"
+ },
+ {
+  "seg": 357,
+  "start": 1135.77,
+  "end": 1138.022,
+  "speaker": "SPEAKER_03",
+  "en": "If you're using a shitty SaaS and you want to kill the SaaS,",
+  "zh": "如果你在用一个很烂的 SaaS,并且想干掉这个 SaaS,"
+ },
+ {
+  "seg": 358,
+  "start": 1138.072,
+  "end": 1140.444,
+  "speaker": "SPEAKER_03",
+  "en": "you just clone it screen by screen by screen.",
+  "zh": "你只需要一屏一屏又一屏地把它克隆下来。"
+ },
+ {
+  "seg": 359,
+  "start": 1140.494,
+  "end": 1141.195,
+  "speaker": "SPEAKER_03",
+  "en": "And obviously,",
+  "zh": "显然,"
+ },
+ {
+  "seg": 360,
+  "start": 1141.215,
+  "end": 1143.147,
+  "speaker": "SPEAKER_03",
+  "en": "computer use can completely drive everything,",
+  "zh": "computer use 可以完全驱动一切,"
+ },
+ {
+  "seg": 361,
+  "start": 1143.197,
+  "end": 1146.651,
+  "speaker": "SPEAKER_03",
+  "en": "take screenshots, note it down, and then clone everything with codex.",
+  "zh": "截屏、记录下来,然后用 codex 把所有东西克隆出来。"
+ },
+ {
+  "seg": 362,
+  "start": 1146.701,
+  "end": 1148.163,
+  "speaker": "SPEAKER_03",
+  "en": "But yeah, thanks for all your progress.",
+  "zh": "不过,感谢你们的所有进展。"
+ },
+ {
+  "seg": 363,
+  "start": 1148.183,
+  "end": 1149.785,
+  "speaker": "SPEAKER_03",
+  "en": "I think that is our time.",
+  "zh": "我想我们的时间到了。"
+ },
+ {
+  "seg": 364,
+  "start": 1150.587,
+  "end": 1152.199,
+  "speaker": "SPEAKER_03",
+  "en": "This is not the last that we're going to talk.",
+  "zh": "这不会是我们最后一次聊。"
+ },
+ {
+  "seg": 365,
+  "start": 1152.249,
+  "end": 1152.73,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, cool.",
+  "zh": "是的,很好。"
+ },
+ {
+  "seg": 366,
+  "start": 1152.77,
+  "end": 1153.411,
+  "speaker": "SPEAKER_03",
+  "en": "This has been really fun.",
+  "zh": "这真的很有趣。"
+ },
+ {
+  "seg": 367,
+  "start": 1153.431,
+  "end": 1154.422,
+  "speaker": "SPEAKER_03",
+  "en": "Thank you guys for having me.",
+  "zh": "谢谢你们邀请我。"
+ },
+ {
+  "seg": 368,
+  "start": 1154.472,
+  "end": 1154.803,
+  "speaker": "SPEAKER_03",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 369,
+  "start": 1154.853,
+  "end": 1155.464,
+  "speaker": "SPEAKER_03",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 370,
+  "start": 1155.514,
+  "end": 1157.125111111111,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, we're a strict cutoff.",
+  "zh": "好,我们很严格地到点了。"
+ },
+ {
+  "seg": 371,
+  "start": 1156.615,
+  "end": 1157.9470000000001,
+  "speaker": "SPEAKER_00",
+  "en": "We're just going to dive right in.",
+  "zh": "我们直接开始吧。"
+ },
+ {
+  "seg": 372,
+  "start": 1157.997,
+  "end": 1158.568,
+  "speaker": "SPEAKER_00",
+  "en": "Let's do it.",
+  "zh": "开始。"
+ },
+ {
+  "seg": 373,
+  "start": 1158.618,
+  "end": 1159.029,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 1159.079,
+  "end": 1161.042,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, so Nikunj, we're...",
+  "zh": "好,Nikunj,我们……"
+ },
+ {
+  "seg": 375,
+  "start": 1161.162,
+  "end": 1162.6064444444444,
+  "speaker": "SPEAKER_00",
+  "en": "Very excited to have you.",
+  "zh": "非常高兴有你来。"
+ },
+ {
+  "seg": 376,
+  "start": 1162.983,
+  "end": 1166.856,
+  "speaker": "SPEAKER_00",
+  "en": "You've shipped a lot on the API side, like we just talked about with Ari.",
+  "zh": "你在 API 这边发布了很多东西,就像我们刚才和 Ari 聊到的。"
+ },
+ {
+  "seg": 377,
+  "start": 1166.906,
+  "end": 1169.237,
+  "speaker": "SPEAKER_00",
+  "en": "You can now build with computer use agents.",
+  "zh": "你现在可以用 computer use 智能体来构建了。"
+ },
+ {
+  "seg": 378,
+  "start": 1169.287,
+  "end": 1173.59,
+  "speaker": "SPEAKER_00",
+  "en": "Anything you want to highlight the API side of changes and introduce yourself",
+  "zh": "关于 API 这边的改动,你有什么想重点介绍的,并且稍微介绍一下"
+ },
+ {
+  "seg": 379,
+  "start": 1173.63,
+  "end": 1174.3010000000002,
+  "speaker": "SPEAKER_00",
+  "en": "a little on what you do?",
+  "zh": "我觉得这就像是一件事情,在我这段时间里一直持续的事情。"
+ },
+ {
+  "seg": 380,
+  "start": 1174.351,
+  "end": 1174.971,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah, for sure.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 381,
+  "start": 1174.991,
+  "end": 1175.942,
+  "speaker": "SPEAKER_01",
+  "en": "My name is Nick Winch.",
+  "zh": "我叫 Nick Winch。"
+ },
+ {
+  "seg": 382,
+  "start": 1175.992,
+  "end": 1177.793,
+  "speaker": "SPEAKER_01",
+  "en": "I lead product for the API team.",
+  "zh": "我领导 API 团队的产品工作。"
+ },
+ {
+  "seg": 383,
+  "start": 1177.953,
+  "end": 1179.841888888889,
+  "speaker": "SPEAKER_01",
+  "en": "Been here for roughly three years.",
+  "zh": "我在这里工作了大约三年。"
+ },
+ {
+  "seg": 384,
+  "start": 1180.975,
+  "end": 1182.876,
+  "speaker": "SPEAKER_01",
+  "en": "Been working on launching models.",
+  "zh": "一直在做模型发布的工作。"
+ },
+ {
+  "seg": 385,
+  "start": 1182.956,
+  "end": 1187.13,
+  "speaker": "SPEAKER_01",
+  "en": "I feel like that's just been like a thing, constant thing throughout my time.",
+  "zh": "我觉得这就是贯穿我整个时期的一个持续存在的事情。"
+ },
+ {
+  "seg": 386,
+  "start": 1187.18,
+  "end": 1188.111,
+  "speaker": "SPEAKER_01",
+  "en": "Here at OpenAI.",
+  "zh": "在 OpenAI 这里。"
+ },
+ {
+  "seg": 387,
+  "start": 1188.161,
+  "end": 1190.124,
+  "speaker": "SPEAKER_01",
+  "en": "And with every new model,",
+  "zh": "每一个新模型,"
+ },
+ {
+  "seg": 388,
+  "start": 1190.164,
+  "end": 1193.529,
+  "speaker": "SPEAKER_01",
+  "en": "we try to like basically work super closely with the post training team,",
+  "zh": "我们基本上都会和后训练团队、"
+ },
+ {
+  "seg": 389,
+  "start": 1193.569,
+  "end": 1196.2912222222221,
+  "speaker": "SPEAKER_01",
+  "en": "the research team to figure out what's new in it.",
+  "zh": "研究团队非常紧密地合作,弄清楚它里面有什么新东西。"
+ },
+ {
+  "seg": 390,
+  "start": 1196.834,
+  "end": 1199.834,
+  "speaker": "SPEAKER_01",
+  "en": "And then we like expose those capabilities in the API.",
+  "zh": "然后我们把这些能力在 API 中暴露出来。"
+ },
+ {
+  "seg": 391,
+  "start": 1200.219,
+  "end": 1205.226,
+  "speaker": "SPEAKER_01",
+  "en": "So that's like the basic way of If you just look at everything that's new",
+  "zh": "所以这基本上就是这样一种方式:如果你只看所有新东西,"
+ },
+ {
+  "seg": 392,
+  "start": 1205.286,
+  "end": 1206.428,
+  "speaker": "SPEAKER_01",
+  "en": "with GPT-6,",
+  "zh": "关于 GPT-6,"
+ },
+ {
+  "seg": 393,
+  "start": 1207.089,
+  "end": 1211.4778888888889,
+  "speaker": "SPEAKER_01",
+  "en": "the cool new capabilities that we launched were firstly async function calling.",
+  "zh": "我们发布的很酷的新能力,首先是异步函数调用。"
+ },
+ {
+  "seg": 394,
+  "start": 1212.016,
+  "end": 1214.6271111111112,
+  "speaker": "SPEAKER_01",
+  "en": "A lot of the things that you're seeing in Codex",
+  "zh": "你在 Codex 里看到的很多东西,"
+ },
+ {
+  "seg": 395,
+  "start": 1216.943,
+  "end": 1221.43,
+  "speaker": "SPEAKER_01",
+  "en": "And everything is that tool calls take so long that you don't have to like pause",
+  "zh": "归根结底是工具调用耗时太长,以至于你不必在工具运行时"
+ },
+ {
+  "seg": 396,
+  "start": 1221.45,
+  "end": 1224.815,
+  "speaker": "SPEAKER_01",
+  "en": "the models execution while the tool is running.",
+  "zh": "暂停模型的执行。"
+ },
+ {
+  "seg": 397,
+  "start": 1225.135,
+  "end": 1226.998,
+  "speaker": "SPEAKER_01",
+  "en": "So you could just like kick off a tool call,",
+  "zh": "继续运行、继续推理,然后再回头查看。"
+ },
+ {
+  "seg": 398,
+  "start": 1227.018,
+  "end": 1229.582,
+  "speaker": "SPEAKER_01",
+  "en": "keep running, keep reasoning and then check back in.",
+  "zh": "持续运行,持续推理,然后再回来查看。"
+ },
+ {
+  "seg": 399,
+  "start": 1229.602,
+  "end": 1231.765,
+  "speaker": "SPEAKER_01",
+  "en": "So we launched async tool calling.",
+  "zh": "所以我们发布了异步工具调用。"
+ },
+ {
+  "seg": 400,
+  "start": 1231.825,
+  "end": 1235.13,
+  "speaker": "SPEAKER_01",
+  "en": "And that's also partially a model alignment capability, right?",
+  "zh": "这在一定程度上也是模型对齐能力的问题，对吧？"
+ },
+ {
+  "seg": 401,
+  "start": 1235.15,
+  "end": 1236.15,
+  "speaker": "SPEAKER_01",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 402,
+  "start": 1246.927,
+  "end": 1249.3714444444443,
+  "speaker": "SPEAKER_00",
+  "en": "They have to train in the ability to train.",
+  "zh": "它们必须训练出「能够被训练」的能力。"
+ },
+ {
+  "seg": 403,
+  "start": 1249.25,
+  "end": 1251.3055555555557,
+  "speaker": "SPEAKER_00",
+  "en": "I feel like we've had it in the app.",
+  "zh": "我觉得我们在应用里早就有这个功能了。"
+ },
+ {
+  "seg": 404,
+  "start": 1251.333,
+  "end": 1254.2774444444444,
+  "speaker": "SPEAKER_00",
+  "en": "You could always, as it's reasoning, you could steer.",
+  "zh": "你总是可以在它推理的时候进行引导。"
+ },
+ {
+  "seg": 405,
+  "start": 1254.758,
+  "end": 1255.8135555555557,
+  "speaker": "SPEAKER_00",
+  "en": "It wasn't the best.",
+  "zh": "之前体验不是最好的。"
+ },
+ {
+  "seg": 406,
+  "start": 1255.88,
+  "end": 1256.921,
+  "speaker": "SPEAKER_00",
+  "en": "It's gotten much better.",
+  "zh": "现在已经好很多了。"
+ },
+ {
+  "seg": 407,
+  "start": 1256.941,
+  "end": 1258.724,
+  "speaker": "SPEAKER_00",
+  "en": "I'm excited to see how it does this.",
+  "zh": "我很期待看到它的表现。"
+ },
+ {
+  "seg": 408,
+  "start": 1258.744,
+  "end": 1259.855111111111,
+  "speaker": "SPEAKER_00",
+  "en": "Our main goal in the",
+  "zh": "我们在……方面的主要目标是"
+ },
+ {
+  "seg": 409,
+  "start": 1261.808,
+  "end": 1262.808,
+  "speaker": "SPEAKER_01",
+  "en": "WebSockets",
+  "zh": "WebSockets"
+ },
+ {
+  "seg": 410,
+  "start": 1276.81,
+  "end": 1281.637,
+  "speaker": "SPEAKER_01",
+  "en": "It just opens this whole bi-directional communication thing with the model.",
+  "zh": "它直接打开了与模型进行双向通信的整个空间。"
+ },
+ {
+  "seg": 411,
+  "start": 1281.697,
+  "end": 1285.122,
+  "speaker": "SPEAKER_01",
+  "en": "This is not the GPT Live thing, I'm just talking about GPT-6.",
+  "zh": "这不是 GPT Live 那个东西，我说的是 GPT-6。"
+ },
+ {
+  "seg": 412,
+  "start": 1285.563,
+  "end": 1289.789,
+  "speaker": "SPEAKER_01",
+  "en": "And you can do all these async tool calling, async reasoning, injecting messages.",
+  "zh": "你可以做各种异步工具调用、异步推理、注入消息。"
+ },
+ {
+  "seg": 413,
+  "start": 1289.809,
+  "end": 1291.772,
+  "speaker": "SPEAKER_01",
+  "en": "It's a really fun API to work on.",
+  "zh": "这是一个非常好玩的 API。"
+ },
+ {
+  "seg": 414,
+  "start": 1293.273,
+  "end": 1297.064,
+  "speaker": "SPEAKER_03",
+  "en": "This is why we are the engineering podcast, because we get to talk about WebSockets.",
+  "zh": "这就是我们能称自己是工程播客的原因，因为我们能聊 WebSockets。"
+ },
+ {
+  "seg": 415,
+  "start": 1297.114,
+  "end": 1299.4660000000001,
+  "speaker": "SPEAKER_03",
+  "en": "This also pairs very well with UltraFast, right?",
+  "zh": "这和 UltraFast 也配合得非常好，对吧？"
+ },
+ {
+  "seg": 416,
+  "start": 1299.516,
+  "end": 1300.336,
+  "speaker": "SPEAKER_03",
+  "en": "That is now,",
+  "zh": "现在，"
+ },
+ {
+  "seg": 417,
+  "start": 1300.376,
+  "end": 1300.576,
+  "speaker": "SPEAKER_03",
+  "en": "I think,",
+  "zh": "我认为，"
+ },
+ {
+  "seg": 418,
+  "start": 1300.596,
+  "end": 1303.818,
+  "speaker": "SPEAKER_03",
+  "en": "for the first time ever available in the API,",
+  "zh": "是有史以来第一次在 API 中可用，"
+ },
+ {
+  "seg": 419,
+  "start": 1303.838,
+  "end": 1307.839,
+  "speaker": "SPEAKER_03",
+  "en": "which is basically the theoretical fastest speed you can ever get",
+  "zh": "它基本上是你能达到的理论最快速度，"
+ },
+ {
+  "seg": 420,
+  "start": 1307.859,
+  "end": 1309.19,
+  "speaker": "SPEAKER_03",
+  "en": "at Frontier Intelligence.",
+  "zh": "在前沿智能水平上。"
+ },
+ {
+  "seg": 421,
+  "start": 1309.24,
+  "end": 1312.164,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, it's been so exciting to work on that project.",
+  "zh": "是的，做那个项目真的非常令人兴奋。"
+ },
+ {
+  "seg": 422,
+  "start": 1312.204,
+  "end": 1314.548,
+  "speaker": "SPEAKER_01",
+  "en": "I think before I go into the API,",
+  "zh": "我想在我讲 API 之前，"
+ },
+ {
+  "seg": 423,
+  "start": 1314.648,
+  "end": 1319.715,
+  "speaker": "SPEAKER_01",
+  "en": "the most fun part of Ultrafast has been just watching the inference team cook",
+  "zh": "Ultrafast 最有意思的部分就是看着推理团队用 Astra 大展身手。"
+ },
+ {
+  "seg": 424,
+  "start": 1319.776,
+  "end": 1320.797,
+  "speaker": "SPEAKER_01",
+  "en": "with Astra.",
+  "zh": "和 Astra 一起。"
+ },
+ {
+  "seg": 425,
+  "start": 1321.178,
+  "end": 1323.822,
+  "speaker": "SPEAKER_01",
+  "en": "They're just constantly having these codex agents running,",
+  "zh": "他们让 codex 智能体不断运行，"
+ },
+ {
+  "seg": 426,
+  "start": 1323.862,
+  "end": 1327.747,
+  "speaker": "SPEAKER_01",
+  "en": "trying to I would say,",
+  "zh": "试图——我会说，"
+ },
+ {
+  "seg": 427,
+  "start": 1328.148,
+  "end": 1329.289,
+  "speaker": "SPEAKER_01",
+  "en": "at least for a couple of months,",
+  "zh": "至少在好几个月里，"
+ },
+ {
+  "seg": 428,
+  "start": 1329.329,
+  "end": 1332.694,
+  "speaker": "SPEAKER_01",
+  "en": "a lot of it was focused on efficiency and driving the cost down,",
+  "zh": "很多工作都集中在提升效率和降低成本上，"
+ },
+ {
+  "seg": 429,
+  "start": 1332.734,
+  "end": 1336.619,
+  "speaker": "SPEAKER_01",
+  "en": "which is how we were able to cut the Luna price by 80%.",
+  "zh": "这就是我们能把 Luna 的价格砍掉 80% 的原因。"
+ },
+ {
+  "seg": 430,
+  "start": 1337.04,
+  "end": 1339.163,
+  "speaker": "SPEAKER_01",
+  "en": "A lot of that was driven by all the cost.",
+  "zh": "其中很大一部分是由所有的成本"
+ },
+ {
+  "seg": 431,
+  "start": 1339.163,
+  "end": 1341.3852222222222,
+  "speaker": "SPEAKER_01",
+  "en": "The inference improvements they landed.",
+  "zh": "推理改进推动的，那些改进是他们落地的。"
+ },
+ {
+  "seg": 432,
+  "start": 1341.506,
+  "end": 1346.083,
+  "speaker": "SPEAKER_01",
+  "en": "And then now they've shifted gears towards how can we make this run as fast as possible?",
+  "zh": "然后现在他们换了方向，转向怎么能让它跑得尽可能快？"
+ },
+ {
+  "seg": 433,
+  "start": 1346.133,
+  "end": 1350.66,
+  "speaker": "SPEAKER_01",
+  "en": "And so ultrafast has just been amazing to see on a model like Astra.",
+  "zh": "所以 ultrafast 在像 Astra 这样的模型上的表现真的太惊艳了。"
+ },
+ {
+  "seg": 434,
+  "start": 1350.7,
+  "end": 1352.763,
+  "speaker": "SPEAKER_01",
+  "en": "To go that fast has been really cool.",
+  "zh": "能跑那么快真的很酷。"
+ },
+ {
+  "seg": 435,
+  "start": 1353.304,
+  "end": 1354.195,
+  "speaker": "SPEAKER_01",
+  "en": "And yeah, WebSockets.",
+  "zh": "还有，对，WebSockets。"
+ },
+ {
+  "seg": 436,
+  "start": 1354.245,
+  "end": 1354.755,
+  "speaker": "SPEAKER_01",
+  "en": "Actually,",
+  "zh": "其实，"
+ },
+ {
+  "seg": 437,
+  "start": 1354.805,
+  "end": 1357.567,
+  "speaker": "SPEAKER_01",
+  "en": "it was like the first time we launched WebSockets,",
+  "zh": "我们第一次推出 WebSockets 的时候，"
+ },
+ {
+  "seg": 438,
+  "start": 1357.607,
+  "end": 1360.628,
+  "speaker": "SPEAKER_01",
+  "en": "it was for GBD 5.3 Codex Spark,",
+  "zh": "是为 GBD 5.3 Codex Spark 推出的，"
+ },
+ {
+  "seg": 439,
+  "start": 1360.768,
+  "end": 1361.479,
+  "speaker": "SPEAKER_01",
+  "en": "which was,",
+  "zh": "那个是，"
+ },
+ {
+  "seg": 440,
+  "start": 1361.529,
+  "end": 1365.3400000000001,
+  "speaker": "SPEAKER_01",
+  "en": "can't believe we named the model that, but that's what we launched it for.",
+  "zh": "不敢相信我们给模型起了这么个名字，但我们就是为它推出的。"
+ },
+ {
+  "seg": 441,
+  "start": 1365.39,
+  "end": 1369.532,
+  "speaker": "SPEAKER_01",
+  "en": "And obviously it helps so much because you got to have the tool calls,",
+  "zh": "显然它帮助非常大，因为你得有工具调用，"
+ },
+ {
+  "seg": 442,
+  "start": 1369.752,
+  "end": 1374.275,
+  "speaker": "SPEAKER_01",
+  "en": "you got to really reduce the overhead of going back and forth with tools.",
+  "zh": "你得真正降低与工具来回交互的开销。"
+ },
+ {
+  "seg": 443,
+  "start": 1374.475,
+  "end": 1376.896,
+  "speaker": "SPEAKER_01",
+  "en": "And so WebSockets is awesome for that.",
+  "zh": "所以 WebSockets 在这方面非常棒。"
+ },
+ {
+  "seg": 444,
+  "start": 1377.456,
+  "end": 1379.1226666666666,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, it's always cute to see,",
+  "zh": "是的，看到这个总是很可爱，"
+ },
+ {
+  "seg": 445,
+  "start": 1379.177,
+  "end": 1383.788111111111,
+  "speaker": "SPEAKER_03",
+  "en": "I have my reset usage limit, and then I have my Spark usage limit that I never use.",
+  "zh": "我有我的重置用量上限，然后我还有我从来没用到过的 Spark 用量上限。"
+ },
+ {
+  "seg": 446,
+  "start": 1384.361,
+  "end": 1385.266,
+  "speaker": "SPEAKER_01",
+  "en": "I think it's there if I want it.",
+  "zh": "我想它就在那儿，如果我想要的话。"
+ },
+ {
+  "seg": 447,
+  "start": 1385.306,
+  "end": 1386.02,
+  "speaker": "SPEAKER_01",
+  "en": "I think it's gone.",
+  "zh": "我觉得它没了。"
+ },
+ {
+  "seg": 448,
+  "start": 1386.07,
+  "end": 1387.1255555555556,
+  "speaker": "SPEAKER_01",
+  "en": "Finally, it's gone.",
+  "zh": "终于，它没了。"
+ },
+ {
+  "seg": 449,
+  "start": 1388.58,
+  "end": 1391.703,
+  "speaker": "SPEAKER_03",
+  "en": "You're slowly killing off all the old things.",
+  "zh": "你在慢慢杀掉所有旧东西。"
+ },
+ {
+  "seg": 450,
+  "start": 1391.863,
+  "end": 1392.733,
+  "speaker": "SPEAKER_00",
+  "en": "It was a great week.",
+  "zh": "那是很棒的一周。"
+ },
+ {
+  "seg": 451,
+  "start": 1392.783,
+  "end": 1398.068,
+  "speaker": "SPEAKER_00",
+  "en": "I mean, it was the first time we had Frontier Intelligence at extreme speeds.",
+  "zh": "我是说，那是我们第一次以极高的速度提供 Frontier 智能模型。"
+ },
+ {
+  "seg": 452,
+  "start": 1398.108,
+  "end": 1399.3790000000001,
+  "speaker": "SPEAKER_00",
+  "en": "People really liked it.",
+  "zh": "大家真的很喜欢。"
+ },
+ {
+  "seg": 453,
+  "start": 1399.429,
+  "end": 1400.39,
+  "speaker": "SPEAKER_03",
+  "en": "So, first",
+  "zh": "所以，第一次"
+ },
+ {
+  "seg": 454,
+  "start": 1400.41,
+  "end": 1400.99,
+  "speaker": "SPEAKER_00",
+  "en": "time it comes back.",
+  "zh": "它回归。"
+ },
+ {
+  "seg": 455,
+  "start": 1401.851,
+  "end": 1404.893,
+  "speaker": "SPEAKER_03",
+  "en": "5.3 Spark is explicitly attributed to Cerebrus.",
+  "zh": "5.3 Spark 被明确归属于 Cerebrus。"
+ },
+ {
+  "seg": 456,
+  "start": 1405.154,
+  "end": 1409.677,
+  "speaker": "SPEAKER_03",
+  "en": "You guys are not confirming or denying that UltraFast is related to Cerebrus,",
+  "zh": "你们没有确认也没有否认 UltraFast 与 Cerebrus 有关，"
+ },
+ {
+  "seg": 457,
+  "start": 1409.697,
+  "end": 1413.308111111111,
+  "speaker": "SPEAKER_03",
+  "en": "but I'll just say that people do care and are wondering about it.",
+  "zh": "但我只想说，大家确实很在意并且对此很好奇。"
+ },
+ {
+  "seg": 458,
+  "start": 1413.54,
+  "end": 1415.651111111111,
+  "speaker": "SPEAKER_03",
+  "en": "And you have your own silicon as well.",
+  "zh": "而且你们也有自己的硅片。"
+ },
+ {
+  "seg": 459,
+  "start": 1415.802,
+  "end": 1416.9686666666666,
+  "speaker": "SPEAKER_03",
+  "en": "Elephant in the Room.",
+  "zh": "房间里的大象。"
+ },
+ {
+  "seg": 460,
+  "start": 1417.044,
+  "end": 1419.107,
+  "speaker": "SPEAKER_03",
+  "en": "Decision models, Decision API.",
+  "zh": "Decision models，Decision API。"
+ },
+ {
+  "seg": 461,
+  "start": 1419.667,
+  "end": 1423.974,
+  "speaker": "SPEAKER_03",
+  "en": "We were the first podcast to do a big Jev deep dive with Diogo.",
+  "zh": "我们是第一个和 Diogo 做大型 Jev 深度解读的播客。"
+ },
+ {
+  "seg": 462,
+  "start": 1424.555,
+  "end": 1426.7216666666668,
+  "speaker": "SPEAKER_03",
+  "en": "And I also featured him at AI Engineer.",
+  "zh": "我还在 AI Engineer 上介绍过他。"
+ },
+ {
+  "seg": 463,
+  "start": 1427.299,
+  "end": 1430.083,
+  "speaker": "SPEAKER_01",
+  "en": "How quickly did you see Jev and go like, yeah.",
+  "zh": "你们多快看到 Jev 然后说，好的。"
+ },
+ {
+  "seg": 464,
+  "start": 1431.605,
+  "end": 1437.907,
+  "speaker": "SPEAKER_01",
+  "en": "Huge props to Diogo and the Jeff team for really inspiring the whole segment in the market.",
+  "zh": "非常感谢 Diogo 和 Jeff 团队，真正启发了整个市场细分。"
+ },
+ {
+  "seg": 465,
+  "start": 1437.967,
+  "end": 1441.708,
+  "speaker": "SPEAKER_01",
+  "en": "Obviously, Jeff comes out, everyone's losing their minds over it.",
+  "zh": "显然，Jeff 一出来，所有人都为之疯狂。"
+ },
+ {
+  "seg": 466,
+  "start": 1441.948,
+  "end": 1443.5035555555557,
+  "speaker": "SPEAKER_01",
+  "en": "Our users are hitting us up.",
+  "zh": "我们的用户纷纷找上门来。"
+ },
+ {
+  "seg": 467,
+  "start": 1443.768,
+  "end": 1448.87,
+  "speaker": "SPEAKER_01",
+  "en": "But also, our internal teams are like, we need a much faster classification system.",
+  "zh": "但同时，我们内部团队也说，我们需要一个快得多的分类系统。"
+ },
+ {
+  "seg": 468,
+  "start": 1448.95,
+  "end": 1455.95,
+  "speaker": "SPEAKER_01",
+  "en": "I don't want to get ahead of some of the dots features that are going to come,",
+  "zh": "我不想提前透露一些 dots 即将推出的功能，"
+ },
+ {
+  "seg": 469,
+  "start": 1456.032,
+  "end": 1458.512,
+  "speaker": "SPEAKER_01",
+  "en": "but you're going to see some Cool,",
+  "zh": "但你会看到一些很酷的、"
+ },
+ {
+  "seg": 470,
+  "start": 1458.612,
+  "end": 1462.000888888889,
+  "speaker": "SPEAKER_01",
+  "en": "really snappy, fast things built on top of the Decisions API.",
+  "zh": "真正敏捷、快速的东西构建在 Decisions API 之上。"
+ },
+ {
+  "seg": 471,
+  "start": 1462.773,
+  "end": 1466.274,
+  "speaker": "SPEAKER_01",
+  "en": "But yeah, props to Jeff for inspiring this whole thing.",
+  "zh": "不过是的，感谢 Jeff 启发了这整个事情。"
+ },
+ {
+  "seg": 472,
+  "start": 1467.034,
+  "end": 1467.495,
+  "speaker": "SPEAKER_01",
+  "en": "Obviously,",
+  "zh": "显然，"
+ },
+ {
+  "seg": 473,
+  "start": 1467.515,
+  "end": 1470.435,
+  "speaker": "SPEAKER_01",
+  "en": "a bunch of people at OpenAI get nerd sniped by that,",
+  "zh": "OpenAI 的一群人被这个搞得 nerd sniped 了，"
+ },
+ {
+  "seg": 474,
+  "start": 1470.515,
+  "end": 1472.876,
+  "speaker": "SPEAKER_01",
+  "en": "and they're like, how can we make this work?",
+  "zh": "他们说，我们怎么能让它跑起来？"
+ },
+ {
+  "seg": 475,
+  "start": 1472.896,
+  "end": 1475.007111111111,
+  "speaker": "SPEAKER_03",
+  "en": "We're not going to train a new model.",
+  "zh": "我们不打算训练一个新模型。"
+ },
+ {
+  "seg": 476,
+  "start": 1475.036,
+  "end": 1476.717,
+  "speaker": "SPEAKER_03",
+  "en": "Four weeks ago, this was not undefeated.",
+  "zh": "四周前，这是无敌的。"
+ },
+ {
+  "seg": 477,
+  "start": 1476.737,
+  "end": 1477.477,
+  "speaker": "SPEAKER_03",
+  "en": "No, not at all.",
+  "zh": "不，完全没有。"
+ },
+ {
+  "seg": 478,
+  "start": 1477.517,
+  "end": 1480.318,
+  "speaker": "SPEAKER_01",
+  "en": "This is like Jeff-inspired.",
+  "zh": "这是类似 Jev 启发的。"
+ },
+ {
+  "seg": 479,
+  "start": 1480.418,
+  "end": 1480.998,
+  "speaker": "SPEAKER_01",
+  "en": "I think you're official.",
+  "zh": "我觉得你们是官方的了。"
+ },
+ {
+  "seg": 480,
+  "start": 1480.998,
+  "end": 1484.603,
+  "speaker": "SPEAKER_03",
+  "en": "It's actually the first Frontier Lab to clone and adopt this.",
+  "zh": "这实际上是第一个克隆并采纳这个方案的 Frontier 实验室。"
+ },
+ {
+  "seg": 481,
+  "start": 1485.004,
+  "end": 1489.51,
+  "speaker": "SPEAKER_01",
+  "en": "I feel like OpenAI is such a strong hacker culture and people are just like,",
+  "zh": "我感觉 OpenAI 有很强的黑客文化，大家就是，"
+ },
+ {
+  "seg": 482,
+  "start": 1489.831,
+  "end": 1491.083,
+  "speaker": "SPEAKER_01",
+  "en": "they get excited about things.",
+  "zh": "会对事情感到兴奋。"
+ },
+ {
+  "seg": 483,
+  "start": 1491.133,
+  "end": 1493.516,
+  "speaker": "SPEAKER_01",
+  "en": "And so a guy from inference,",
+  "zh": "所以一个来自推理团队的人，"
+ },
+ {
+  "seg": 484,
+  "start": 1493.897,
+  "end": 1498.681,
+  "speaker": "SPEAKER_01",
+  "en": "this one awesome guy from The infra team are like, this is amazing.",
+  "zh": "还有一个来自基础设施团队的超级厉害的人说，这太棒了。"
+ },
+ {
+  "seg": 485,
+  "start": 1498.741,
+  "end": 1500.172,
+  "speaker": "SPEAKER_01",
+  "en": "We're going to like hack on it.",
+  "zh": "我们要拿它来捣鼓一下。"
+ },
+ {
+  "seg": 486,
+  "start": 1500.222,
+  "end": 1502.042,
+  "speaker": "SPEAKER_01",
+  "en": "They build a prototype like works.",
+  "zh": "他们做出了一个能用的原型。"
+ },
+ {
+  "seg": 487,
+  "start": 1502.082,
+  "end": 1506.7340000000002,
+  "speaker": "SPEAKER_01",
+  "en": "And now we're just like hill climbing on latency and trying to make this as fast as possible.",
+  "zh": "现在我们就是在对延迟做爬山优化，努力让它尽可能快。"
+ },
+ {
+  "seg": 488,
+  "start": 1506.784,
+  "end": 1509.5062222222223,
+  "speaker": "SPEAKER_01",
+  "en": "And we want to like launch it in the coming days.",
+  "zh": "我们想在接下来的几天里发布它。"
+ },
+ {
+  "seg": 489,
+  "start": 1509.906,
+  "end": 1513.717,
+  "speaker": "SPEAKER_01",
+  "en": "So as soon as we hit our like latency target, we'll try to get this out.",
+  "zh": "所以一旦我们达到延迟目标，我们就会尽力把它发出来。"
+ },
+ {
+  "seg": 490,
+  "start": 1513.767,
+  "end": 1514.288,
+  "speaker": "SPEAKER_00",
+  "en": "It's interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 491,
+  "start": 1514.308,
+  "end": 1515.8590000000002,
+  "speaker": "SPEAKER_00",
+  "en": "At the same time of hacker culture,",
+  "zh": "在拥有黑客文化的同时，"
+ },
+ {
+  "seg": 492,
+  "start": 1515.909,
+  "end": 1516.6000000000001,
+  "speaker": "SPEAKER_00",
+  "en": "you also,",
+  "zh": "你们也，"
+ },
+ {
+  "seg": 493,
+  "start": 1516.65,
+  "end": 1517.27,
+  "speaker": "SPEAKER_00",
+  "en": "as Sam said,",
+  "zh": "正如 Sam 所说，"
+ },
+ {
+  "seg": 494,
+  "start": 1517.31,
+  "end": 1518.371,
+  "speaker": "SPEAKER_00",
+  "en": "like 99%,",
+  "zh": "像 99%，"
+ },
+ {
+  "seg": 495,
+  "start": 1518.431,
+  "end": 1520.493,
+  "speaker": "SPEAKER_00",
+  "en": "one of the most reliable APIs with,",
+  "zh": "拥有最可靠的 API 之一，"
+ },
+ {
+  "seg": 496,
+  "start": 1520.974,
+  "end": 1524.4184444444443,
+  "speaker": "SPEAKER_00",
+  "en": "I think, probably the most usage, which is your team directly.",
+  "zh": "我想可能还是使用量最大的，也就是你们的团队直接在用。"
+ },
+ {
+  "seg": 497,
+  "start": 1524.757,
+  "end": 1526.429,
+  "speaker": "SPEAKER_00",
+  "en": "How should people see Decisions API?",
+  "zh": "大家应该怎么看待 Decisions API？"
+ },
+ {
+  "seg": 498,
+  "start": 1526.479,
+  "end": 1530.743,
+  "speaker": "SPEAKER_00",
+  "en": "I feel like a lot of people saw Jev, heard the buzz, haven't built with it.",
+  "zh": "我感觉很多人看到了 Jev，听到了热议，但还没有用它构建过东西。"
+ },
+ {
+  "seg": 499,
+  "start": 1531.063,
+  "end": 1532.8963333333334,
+  "speaker": "SPEAKER_00",
+  "en": "You're making it very mainstream.",
+  "zh": "你正在让它变得非常主流。"
+ },
+ {
+  "seg": 500,
+  "start": 1533.525,
+  "end": 1534.646,
+  "speaker": "SPEAKER_00",
+  "en": "What should people see it as?",
+  "zh": "人们应该把它看作什么？"
+ },
+ {
+  "seg": 501,
+  "start": 1534.686,
+  "end": 1535.9637777777778,
+  "speaker": "SPEAKER_00",
+  "en": "How should they use it?",
+  "zh": "他们应该怎么使用它？"
+ },
+ {
+  "seg": 502,
+  "start": 1536.124,
+  "end": 1540.8010000000002,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, I think that the main use cases we've seen is like really fast classification.",
+  "zh": "是的，我认为我们见到的最主要用例就是非常快速的分类。"
+ },
+ {
+  "seg": 503,
+  "start": 1540.851,
+  "end": 1543.896,
+  "speaker": "SPEAKER_01",
+  "en": "All the computer use demos have been amazing and really cool.",
+  "zh": "但我想说，至少我们一开始的实现，"
+ },
+ {
+  "seg": 504,
+  "start": 1543.936,
+  "end": 1545.558,
+  "speaker": "SPEAKER_01",
+  "en": "I think there will be limitations,",
+  "zh": "我认为会有限制，"
+ },
+ {
+  "seg": 505,
+  "start": 1545.598,
+  "end": 1546.598,
+  "speaker": "SPEAKER_01",
+  "en": "of course,",
+  "zh": "当然，"
+ },
+ {
+  "seg": 506,
+  "start": 1546.76,
+  "end": 1547.5910000000001,
+  "speaker": "SPEAKER_01",
+  "en": "in terms of,",
+  "zh": "在……方面，"
+ },
+ {
+  "seg": 507,
+  "start": 1547.641,
+  "end": 1552.168,
+  "speaker": "SPEAKER_01",
+  "en": "you know, having Astra like write like a JavaScript, The other cool prototype,",
+  "zh": "你知道的，让 Astra 之类写一个 JavaScript，另一个很酷的原型，"
+ },
+ {
+  "seg": 508,
+  "start": 1566.048,
+  "end": 1569.3813333333333,
+  "speaker": "SPEAKER_01",
+  "en": "I've seen internally is people hooking it up with GPD Live.",
+  "zh": "我在内部见过的，是有人把它接到 GPD Live 上。"
+ },
+ {
+  "seg": 509,
+  "start": 1569.473,
+  "end": 1575.322,
+  "speaker": "SPEAKER_01",
+  "en": "So GPD Live is like, you know, our bi-directional, like real-time API.",
+  "zh": "所以 GPD Live 就像是，你知道的，我们的双向实时 API。"
+ },
+ {
+  "seg": 510,
+  "start": 1575.882,
+  "end": 1579.608,
+  "speaker": "SPEAKER_01",
+  "en": "And it's built on this like model of front-end models and back-end models.",
+  "zh": "它建立在这样一种模型之上：前端模型和后端模型。"
+ },
+ {
+  "seg": 511,
+  "start": 1579.628,
+  "end": 1581.02,
+  "speaker": "SPEAKER_01",
+  "en": "So GPD Live is this like...",
+  "zh": "所以 GPD Live 是这种……"
+ },
+ {
+  "seg": 512,
+  "start": 1581.07,
+  "end": 1581.431,
+  "speaker": "SPEAKER_01",
+  "en": "Thinker talker.",
+  "zh": "思考者-说话者。"
+ },
+ {
+  "seg": 513,
+  "start": 1581.451,
+  "end": 1583.674,
+  "speaker": "SPEAKER_01",
+  "en": "Super fast, yeah, thinker talker thing.",
+  "zh": "超快，是的，思考者-说话者这种东西。"
+ },
+ {
+  "seg": 514,
+  "start": 1583.714,
+  "end": 1585.316,
+  "speaker": "SPEAKER_01",
+  "en": "So, GPD Live is the talker,",
+  "zh": "所以，GPD Live 是说话者，"
+ },
+ {
+  "seg": 515,
+  "start": 1585.917,
+  "end": 1586.809,
+  "speaker": "SPEAKER_01",
+  "en": "super fast,",
+  "zh": "超快，"
+ },
+ {
+  "seg": 516,
+  "start": 1586.859,
+  "end": 1591.359,
+  "speaker": "SPEAKER_01",
+  "en": "really good at delegation, and you have something like Astra sitting at the back.",
+  "zh": "非常擅长委派，然后你让类似 Astra 的东西坐在后面。"
+ },
+ {
+  "seg": 517,
+  "start": 1591.445,
+  "end": 1595.091,
+  "speaker": "SPEAKER_01",
+  "en": "But tool calling has always felt like really slow in GPD Live.",
+  "zh": "但工具调用在 GPD Live 里一直感觉非常慢。"
+ },
+ {
+  "seg": 518,
+  "start": 1596.112,
+  "end": 1599.7231111111112,
+  "speaker": "SPEAKER_01",
+  "en": "And so people have been putting together these tool-calling demos",
+  "zh": "所以人们一直在拼装这些工具调用演示，"
+ },
+ {
+  "seg": 519,
+  "start": 1600.034,
+  "end": 1601.994,
+  "speaker": "SPEAKER_01",
+  "en": "of GPD Live controlling a computer.",
+  "zh": "用 GPD Live 控制一台计算机。"
+ },
+ {
+  "seg": 520,
+  "start": 1602.355,
+  "end": 1605.356,
+  "speaker": "SPEAKER_01",
+  "en": "It just feels so much more snappy and natural.",
+  "zh": "它感觉起来快得多、自然得多。"
+ },
+ {
+  "seg": 521,
+  "start": 1605.756,
+  "end": 1612.756,
+  "speaker": "SPEAKER_01",
+  "en": "So I'm kind of excited to see what people do with Live and with Luna on Decisions API.",
+  "zh": "所以我有点期待人们用 Live 和 Decisions API 上的 Luna 做出什么。"
+ },
+ {
+  "seg": 522,
+  "start": 1612.999,
+  "end": 1614.84,
+  "speaker": "SPEAKER_03",
+  "en": "So that'll be pretty exciting.",
+  "zh": "那会相当令人兴奋。"
+ },
+ {
+  "seg": 523,
+  "start": 1615.36,
+  "end": 1616.871,
+  "speaker": "SPEAKER_03",
+  "en": "So I want to iron this out for people,",
+  "zh": "所以我想为人们把这件事理清楚，"
+ },
+ {
+  "seg": 524,
+  "start": 1616.921,
+  "end": 1617.961,
+  "speaker": "SPEAKER_03",
+  "en": "especially from the product side,",
+  "zh": "尤其是从产品这一侧，"
+ },
+ {
+  "seg": 525,
+  "start": 1617.981,
+  "end": 1620.022,
+  "speaker": "SPEAKER_03",
+  "en": "because a lot of people have been putting out GEV clones.",
+  "zh": "因为很多人一直在推出 GEV 克隆品。"
+ },
+ {
+  "seg": 526,
+  "start": 1620.042,
+  "end": 1621.713,
+  "speaker": "SPEAKER_03",
+  "en": "There's been about 100 in the last two weeks.",
+  "zh": "过去两周大约有 100 个。"
+ },
+ {
+  "seg": 527,
+  "start": 1621.763,
+  "end": 1622.123,
+  "speaker": "SPEAKER_03",
+  "en": "Oh, really?",
+  "zh": "哦，真的吗？"
+ },
+ {
+  "seg": 528,
+  "start": 1622.143,
+  "end": 1622.893,
+  "speaker": "SPEAKER_03",
+  "en": "That's amazing.",
+  "zh": "那太厉害了。"
+ },
+ {
+  "seg": 529,
+  "start": 1623.785,
+  "end": 1627.11,
+  "speaker": "SPEAKER_03",
+  "en": "They can clone the Jeff API,",
+  "zh": "他们可以克隆 Jeff API，"
+ },
+ {
+  "seg": 530,
+  "start": 1627.51,
+  "end": 1631.3433333333332,
+  "speaker": "SPEAKER_03",
+  "en": "which is honestly structured outputs, which opening up was first too.",
+  "zh": "而说实话那就是结构化输出，而开放这个的也是最先做的。"
+ },
+ {
+  "seg": 531,
+  "start": 1631.656,
+  "end": 1634.1,
+  "speaker": "SPEAKER_03",
+  "en": "So I think let's iron out for people,",
+  "zh": "所以我想为人们理清楚，"
+ },
+ {
+  "seg": 532,
+  "start": 1634.16,
+  "end": 1638.705,
+  "speaker": "SPEAKER_03",
+  "en": "what is a decision model as far as what There's a confidence there.",
+  "zh": "什么是决策模型，就……那里有一个置信度。"
+ },
+ {
+  "seg": 533,
+  "start": 1656.274,
+  "end": 1658.397,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, totally.",
+  "zh": "是的，完全是这样。"
+ },
+ {
+  "seg": 534,
+  "start": 1658.577,
+  "end": 1660.24,
+  "speaker": "SPEAKER_01",
+  "en": "So we haven't trained a new model for this.",
+  "zh": "所以我们没有为此训练新模型。"
+ },
+ {
+  "seg": 535,
+  "start": 1660.26,
+  "end": 1664.26,
+  "speaker": "SPEAKER_01",
+  "en": "We're building this purely on top of the same Luna weights that we have.",
+  "zh": "我们完全是构建在我们已有的同一套 Luna 权重之上。"
+ },
+ {
+  "seg": 536,
+  "start": 1664.807,
+  "end": 1667.571,
+  "speaker": "SPEAKER_01",
+  "en": "So yeah, this is really just Luna.",
+  "zh": "所以是的，这真的就只是 Luna。"
+ },
+ {
+  "seg": 537,
+  "start": 1667.871,
+  "end": 1669.734,
+  "speaker": "SPEAKER_01",
+  "en": "And on top of that,",
+  "zh": "而在这之上，"
+ },
+ {
+  "seg": 538,
+  "start": 1669.894,
+  "end": 1673.79,
+  "speaker": "SPEAKER_01",
+  "en": "what you're doing is you're constraining Structured Outputs is a big part of it.",
+  "zh": "你做的是约束，结构化输出是其中很大的一部分。"
+ },
+ {
+  "seg": 539,
+  "start": 1673.84,
+  "end": 1679.688,
+  "speaker": "SPEAKER_01",
+  "en": "You're really optimizing the inference stack to get very fast on TTFT.",
+  "zh": "你真正在优化推理栈，让 TTFT 非常快。"
+ },
+ {
+  "seg": 540,
+  "start": 1680.089,
+  "end": 1685.4223333333332,
+  "speaker": "SPEAKER_01",
+  "en": "And because you can have multiple questions, what you do is you basically run those in parallel.",
+  "zh": "而且因为你可以有多个问题，你要做的就是基本上把它们并行运行。"
+ },
+ {
+  "seg": 541,
+  "start": 1686.819,
+  "end": 1688.782,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, you run those as a batch.",
+  "zh": "是的，你把它们作为一个批次来运行。"
+ },
+ {
+  "seg": 542,
+  "start": 1690.264,
+  "end": 1694.44,
+  "speaker": "SPEAKER_01",
+  "en": "All sorts of inference techniques people are working on to try to make it as fast as possible.",
+  "zh": "各种人们正在研究的推理技术，都试图让它尽可能快。"
+ },
+ {
+  "seg": 543,
+  "start": 1694.49,
+  "end": 1697.915,
+  "speaker": "SPEAKER_01",
+  "en": "But I'd say at least our implementation of it at the start",
+  "zh": "但我想说，至少我们一开始的实现"
+ },
+ {
+  "seg": 544,
+  "start": 1698.015,
+  "end": 1701.2,
+  "speaker": "SPEAKER_01",
+  "en": "and this first version is like zero-shotting this on top.",
+  "zh": "还有这第一个版本，就是在上面做零样本。"
+ },
+ {
+  "seg": 545,
+  "start": 1701.2,
+  "end": 1702.2,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 546,
+  "start": 1718.538,
+  "end": 1718.808,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 547,
+  "start": 1718.858,
+  "end": 1722.241,
+  "speaker": "SPEAKER_03",
+  "en": "And obviously as a benefit, you have vision, they don't have vision, right?",
+  "zh": "而且很明显，作为一项优势，你们有视觉能力，他们没有视觉能力，对吧？"
+ },
+ {
+  "seg": 548,
+  "start": 1722.281,
+  "end": 1722.921,
+  "speaker": "SPEAKER_03",
+  "en": "That's true.",
+  "zh": "那是真的。"
+ },
+ {
+  "seg": 549,
+  "start": 1722.941,
+  "end": 1723.762,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 550,
+  "start": 1723.802,
+  "end": 1725.6908888888888,
+  "speaker": "SPEAKER_01",
+  "en": "Like we get it for free with Luna.",
+  "zh": "就像我们用 Luna 免费得到了它。"
+ },
+ {
+  "seg": 551,
+  "start": 1725.743,
+  "end": 1726.0330000000001,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 552,
+  "start": 1726.083,
+  "end": 1726.984,
+  "speaker": "SPEAKER_03",
+  "en": "I do think that like,",
+  "zh": "我确实觉得,"
+ },
+ {
+  "seg": 553,
+  "start": 1727.004,
+  "end": 1727.224,
+  "speaker": "SPEAKER_03",
+  "en": "you know,",
+  "zh": "你知道,"
+ },
+ {
+  "seg": 554,
+  "start": 1727.244,
+  "end": 1728.2150000000001,
+  "speaker": "SPEAKER_03",
+  "en": "some of the innovations,",
+  "zh": "一些创新,"
+ },
+ {
+  "seg": 555,
+  "start": 1728.265,
+  "end": 1731.727,
+  "speaker": "SPEAKER_03",
+  "en": "it sounds like it's still to come if it's still the same Luna ways,",
+  "zh": "听起来如果还是原来的 Luna 那套路子的话,还有待到来,"
+ },
+ {
+  "seg": 556,
+  "start": 1731.747,
+  "end": 1735.35,
+  "speaker": "SPEAKER_03",
+  "en": "which is like the confidence stuff and calibration is something that we've talked",
+  "zh": "比如置信度相关的东西和校准,这是我们在播客里聊过的,"
+ },
+ {
+  "seg": 557,
+  "start": 1735.39,
+  "end": 1737.8020000000001,
+  "speaker": "SPEAKER_03",
+  "en": "about on the podcast with benchmarking calibration.",
+  "zh": "关于基准测试校准的话题。"
+ },
+ {
+  "seg": 558,
+  "start": 1737.852,
+  "end": 1741.374,
+  "speaker": "SPEAKER_03",
+  "en": "Because basically the whole point is that RLHF kind of collapses you",
+  "zh": "因为基本上重点在于 RLHF 会把你"
+ },
+ {
+  "seg": 559,
+  "start": 1741.394,
+  "end": 1742.9650000000001,
+  "speaker": "SPEAKER_03",
+  "en": "towards what you want to hear.",
+  "zh": "收敛到你想听到的内容上。"
+ },
+ {
+  "seg": 560,
+  "start": 1743.015,
+  "end": 1743.476,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 561,
+  "start": 1743.516,
+  "end": 1746.688,
+  "speaker": "SPEAKER_03",
+  "en": "But like not actually like what the amount of confidence is.",
+  "zh": "但它并不真正反映置信度的实际程度。"
+ },
+ {
+  "seg": 562,
+  "start": 1746.738,
+  "end": 1747.068,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 563,
+  "start": 1747.118,
+  "end": 1748.04,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, totally.",
+  "zh": "对,完全是这样。"
+ },
+ {
+  "seg": 564,
+  "start": 1748.06,
+  "end": 1750.263,
+  "speaker": "SPEAKER_01",
+  "en": "I'm eager to see how it pans out.",
+  "zh": "我很期待看到它如何发展。"
+ },
+ {
+  "seg": 565,
+  "start": 1750.303,
+  "end": 1756.352,
+  "speaker": "SPEAKER_01",
+  "en": "Maybe these are going to be the key areas where we may have to hill climb with",
+  "zh": "也许这些会成为关键领域,我们可能得在"
+ },
+ {
+  "seg": 566,
+  "start": 1756.372,
+  "end": 1757.564,
+  "speaker": "SPEAKER_01",
+  "en": "a future model release.",
+  "zh": "未来某个模型发布时继续爬山优化。"
+ },
+ {
+  "seg": 567,
+  "start": 1758.544,
+  "end": 1762.932888888889,
+  "speaker": "SPEAKER_03",
+  "en": "And then architecture-wise, the other thing that's in the debate, obviously...",
+  "zh": "然后在架构方面,另一个存在争论的事情,显然……"
+ },
+ {
+  "seg": 568,
+  "start": 1762.3,
+  "end": 1764.2730000000001,
+  "speaker": "SPEAKER_03",
+  "en": "Nobody knows because Jeff doesn't talk about it.",
+  "zh": "没人知道,因为 Jeff 不谈这个。"
+ },
+ {
+  "seg": 569,
+  "start": 1764.323,
+  "end": 1768.9341111111112,
+  "speaker": "SPEAKER_03",
+  "en": "But the two speculations are, one, maybe diffusion model instead of autoregressive.",
+  "zh": "但有两种猜测,一是,也许用扩散模型而不是自回归模型。"
+ },
+ {
+  "seg": 570,
+  "start": 1769.992,
+  "end": 1773.577,
+  "speaker": "SPEAKER_03",
+  "en": "But you are able to achieve the parallel generation in your way.",
+  "zh": "但你能以你的方式实现并行生成。"
+ },
+ {
+  "seg": 571,
+  "start": 1774.098,
+  "end": 1776.962,
+  "speaker": "SPEAKER_03",
+  "en": "And then the other one is some mechinterp type.",
+  "zh": "然后另一个是某种机械可解释性类型的。"
+ },
+ {
+  "seg": 572,
+  "start": 1777.202,
+  "end": 1781.989,
+  "speaker": "SPEAKER_03",
+  "en": "That you're like analyzing the activations and then just outputting the weights.",
+  "zh": "就是你分析激活值,然后直接输出权重。"
+ },
+ {
+  "seg": 573,
+  "start": 1782.37,
+  "end": 1784.603,
+  "speaker": "SPEAKER_03",
+  "en": "Which like, you guys have all done the research on this.",
+  "zh": "这个嘛,你们都做过这方面的研究了。"
+ },
+ {
+  "seg": 574,
+  "start": 1784.653,
+  "end": 1785.785,
+  "speaker": "SPEAKER_03",
+  "en": "People have speculated.",
+  "zh": "大家都有过猜测。"
+ },
+ {
+  "seg": 575,
+  "start": 1785.835,
+  "end": 1786.997,
+  "speaker": "SPEAKER_03",
+  "en": "There have been demos on both",
+  "zh": "这两者"
+ },
+ {
+  "seg": 576,
+  "start": 1787.017,
+  "end": 1787.638,
+  "speaker": "SPEAKER_00",
+  "en": "of these as well.",
+  "zh": "也都有过演示。"
+ },
+ {
+  "seg": 577,
+  "start": 1787.658,
+  "end": 1791.063,
+  "speaker": "SPEAKER_00",
+  "en": "I think Gemini shared a Gemini diffusion, Gemma diffusion,",
+  "zh": "我记得 Gemini 分享过 Gemini diffusion,Gemma diffusion,"
+ },
+ {
+  "seg": 578,
+  "start": 1794.827,
+  "end": 1796.553,
+  "speaker": "SPEAKER_00",
+  "en": "It's",
+  "zh": "就是,"
+ },
+ {
+  "seg": 579,
+  "start": 1800.012,
+  "end": 1801.434,
+  "speaker": "SPEAKER_03",
+  "en": "just like, what are you trying to aim for?",
+  "zh": "你到底想瞄准什么?"
+ },
+ {
+  "seg": 580,
+  "start": 1801.754,
+  "end": 1803.596,
+  "speaker": "SPEAKER_03",
+  "en": "Because you can achieve the API.",
+  "zh": "因为 API 是可以实现的。"
+ },
+ {
+  "seg": 581,
+  "start": 1803.856,
+  "end": 1804.837,
+  "speaker": "SPEAKER_03",
+  "en": "Everyone can achieve the API.",
+  "zh": "每个人都能实现 API。"
+ },
+ {
+  "seg": 582,
+  "start": 1804.877,
+  "end": 1806.269,
+  "speaker": "SPEAKER_03",
+  "en": "It's actually pretty trivial.",
+  "zh": "这其实相当简单。"
+ },
+ {
+  "seg": 583,
+  "start": 1806.319,
+  "end": 1807.819,
+  "speaker": "SPEAKER_03",
+  "en": "But then there's the speed,",
+  "zh": "但接下来还有速度,"
+ },
+ {
+  "seg": 584,
+  "start": 1807.96,
+  "end": 1811.4940000000001,
+  "speaker": "SPEAKER_03",
+  "en": "then there's the accuracy, then there's the other calibration features.",
+  "zh": "还有准确性,还有其他校准特性。"
+ },
+ {
+  "seg": 585,
+  "start": 1811.544,
+  "end": 1812.821777777778,
+  "speaker": "SPEAKER_03",
+  "en": "I don't know what else.",
+  "zh": "我不知道还有什么。"
+ },
+ {
+  "seg": 586,
+  "start": 1813.224,
+  "end": 1815.305,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, no, totally.",
+  "zh": "是啊,不,完全同意。"
+ },
+ {
+  "seg": 587,
+  "start": 1815.685,
+  "end": 1819.195,
+  "speaker": "SPEAKER_01",
+  "en": "It's so cool that this whole space has been kicked off now and people are going",
+  "zh": "这整个领域现在被带动起来了真的很酷,大家会"
+ },
+ {
+  "seg": 588,
+  "start": 1819.245,
+  "end": 1822.396,
+  "speaker": "SPEAKER_01",
+  "en": "to do so much cool stuff and everyone's going to learn from each other.",
+  "zh": "做出很多很酷的东西,而且每个人都会互相学习。"
+ },
+ {
+  "seg": 589,
+  "start": 1822.446,
+  "end": 1827.728,
+  "speaker": "SPEAKER_00",
+  "en": "I feel like being on the platform team, a lot of your job is to empower builders.",
+  "zh": "我觉得作为平台团队,你们很多工作是赋能构建者。"
+ },
+ {
+  "seg": 590,
+  "start": 1828.308,
+  "end": 1833.0857777777778,
+  "speaker": "SPEAKER_00",
+  "en": "What do you think people should build with Decisions API and also Computer Use Agents?",
+  "zh": "你觉得大家应该用 Decisions API 和 Computer Use Agents 构建什么?"
+ },
+ {
+  "seg": 591,
+  "start": 1833.169,
+  "end": 1837.7245555555558,
+  "speaker": "SPEAKER_00",
+  "en": "Any stuff that you've been building with internally that you think really opens up",
+  "zh": "有没有你们内部在构建的东西,是你觉得在这次新变化之后"
+ },
+ {
+  "seg": 592,
+  "start": 1837.99,
+  "end": 1839.45,
+  "speaker": "SPEAKER_00",
+  "en": "after the new changes?",
+  "zh": "真正被打开了的?"
+ },
+ {
+  "seg": 593,
+  "start": 1839.65,
+  "end": 1841.131,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah, okay, let's think.",
+  "zh": "好的,让我想想。"
+ },
+ {
+  "seg": 594,
+  "start": 1842.547,
+  "end": 1846.993,
+  "speaker": "SPEAKER_01",
+  "en": "Decisions API, use cases internally have been pretty obvious.",
+  "zh": "Decisions API 在内部的用例已经相当明显了。"
+ },
+ {
+  "seg": 595,
+  "start": 1847.033,
+  "end": 1848.996,
+  "speaker": "SPEAKER_01",
+  "en": "The user ops team was jumping on it.",
+  "zh": "用户运营团队立刻就上手了。"
+ },
+ {
+  "seg": 596,
+  "start": 1849.016,
+  "end": 1852.7382222222222,
+  "speaker": "SPEAKER_01",
+  "en": "We were like, we were going to classify all of our support tickets.",
+  "zh": "我们当时说,我们要给所有的支持工单做分类。"
+ },
+ {
+  "seg": 597,
+  "start": 1853.142,
+  "end": 1854.142,
+  "speaker": "SPEAKER_01",
+  "en": "What else came up?",
+  "zh": "还有什么冒出来的?"
+ },
+ {
+  "seg": 598,
+  "start": 1855.0545000000002,
+  "end": 1857.388,
+  "speaker": "SPEAKER_01",
+  "en": "Obviously, there were the really cool GPD live demos.",
+  "zh": "显然,还有那些非常酷的 GPD live 演示。"
+ },
+ {
+  "seg": 599,
+  "start": 1857.488,
+  "end": 1862.353,
+  "speaker": "SPEAKER_01",
+  "en": "I'm sure the Codex app team might pick this up and try to do something cool with it.",
+  "zh": "我相信 Codex 应用团队可能会接手这个,试着用它做点酷的东西。"
+ },
+ {
+  "seg": 600,
+  "start": 1863.634,
+  "end": 1866.897,
+  "speaker": "SPEAKER_01",
+  "en": "This whole thing started a week ago, so it's very, very early.",
+  "zh": "这一切一周前才开始，所以现在还是非常非常早的阶段。"
+ },
+ {
+  "seg": 601,
+  "start": 1866.917,
+  "end": 1869.299,
+  "speaker": "SPEAKER_01",
+  "en": "There was a big push",
+  "zh": "当时有一个很大的推动"
+ },
+ {
+  "seg": 602,
+  "start": 1869.359,
+  "end": 1871.802,
+  "speaker": "SPEAKER_00",
+  "en": "in evals, LM as a judge,",
+  "zh": "在评测(evals)、用 LM 做裁判(LM as a judge)方面，"
+ },
+ {
+  "seg": 603,
+  "start": 1871.862,
+  "end": 1873.243,
+  "speaker": "SPEAKER_01",
+  "en": "having really low latency there.",
+  "zh": "在那里做到非常低的延迟。"
+ },
+ {
+  "seg": 604,
+  "start": 1873.403,
+  "end": 1874.194,
+  "speaker": "SPEAKER_01",
+  "en": "Right, yeah, yeah.",
+  "zh": "对，对，对。"
+ },
+ {
+  "seg": 605,
+  "start": 1874.244,
+  "end": 1875.9106666666667,
+  "speaker": "SPEAKER_01",
+  "en": "That'll be interesting to see.",
+  "zh": "那会很有意思，拭目以待。"
+ },
+ {
+  "seg": 606,
+  "start": 1876.106,
+  "end": 1877.106,
+  "speaker": "SPEAKER_01",
+  "en": "And then...",
+  "zh": "然后……"
+ },
+ {
+  "seg": 607,
+  "start": 1878.849,
+  "end": 1880.311,
+  "speaker": "SPEAKER_01",
+  "en": "With the agents API,",
+  "zh": "关于智能体 API,"
+ },
+ {
+  "seg": 608,
+  "start": 1881.492,
+  "end": 1887.782,
+  "speaker": "SPEAKER_01",
+  "en": "we're basically having a bunch of first party products at OpenAI built fully on top",
+  "zh": "我们基本上让 OpenAI 的一堆第一方产品完全构建在它"
+ },
+ {
+  "seg": 609,
+  "start": 1887.822,
+  "end": 1888.822,
+  "speaker": "SPEAKER_01",
+  "en": "of it.",
+  "zh": "之上。"
+ },
+ {
+  "seg": 610,
+  "start": 1888.983,
+  "end": 1893.7607777777778,
+  "speaker": "SPEAKER_01",
+  "en": "We've had the codec security stuff that just went out that's fully built on top of it.",
+  "zh": "我们刚刚发布的 codec 安全相关的东西，就是完全构建在它之上的。"
+ },
+ {
+  "seg": 611,
+  "start": 1894.031,
+  "end": 1900.2,
+  "speaker": "SPEAKER_01",
+  "en": "The Agents API, we're having a meetings type of thing launching today.",
+  "zh": "智能体 API,我们今天正在发布一个会议类型的东西。"
+ },
+ {
+  "seg": 612,
+  "start": 1900.22,
+  "end": 1902.002,
+  "speaker": "SPEAKER_01",
+  "en": "I think there was a demo.",
+  "zh": "我记得有一个演示。"
+ },
+ {
+  "seg": 613,
+  "start": 1902.543,
+  "end": 1905.027,
+  "speaker": "SPEAKER_01",
+  "en": "Do you remember the plugin extensions when Sam was showing it?",
+  "zh": "你还记得 Sam 展示时的插件扩展吗？"
+ },
+ {
+  "seg": 614,
+  "start": 1905.067,
+  "end": 1908.192,
+  "speaker": "SPEAKER_01",
+  "en": "There was a demo for you're in a calendar.",
+  "zh": "有一个演示是：你在日历里。"
+ },
+ {
+  "seg": 615,
+  "start": 1908.752,
+  "end": 1914.934,
+  "speaker": "SPEAKER_01",
+  "en": "You can have your meeting notes.",
+  "zh": "你可以有你的会议笔记。"
+ },
+ {
+  "seg": 616,
+  "start": 1915.274,
+  "end": 1919.356,
+  "speaker": "SPEAKER_01",
+  "en": "All of that stuff is fully built on top of the Agents API.",
+  "zh": "所有这些东西都是完全构建在智能体 API 之上的。"
+ },
+ {
+  "seg": 617,
+  "start": 1920.276,
+  "end": 1921.376,
+  "speaker": "SPEAKER_01",
+  "en": "I'm just excited to see.",
+  "zh": "我只是很期待看到。"
+ },
+ {
+  "seg": 618,
+  "start": 1921.396,
+  "end": 1924.237,
+  "speaker": "SPEAKER_01",
+  "en": "We're just getting this out and let's see what people build on top of it.",
+  "zh": "我们刚刚把这个发出来，看看大家会在上面构建什么。"
+ },
+ {
+  "seg": 619,
+  "start": 1924.257,
+  "end": 1925.988,
+  "speaker": "SPEAKER_00",
+  "en": "I think you showed it off very well.",
+  "zh": "我觉得你把它展示得非常好。"
+ },
+ {
+  "seg": 620,
+  "start": 1926.038,
+  "end": 1930.539,
+  "speaker": "SPEAKER_00",
+  "en": "The whole edit spaces, pages, collaborate, add in your dot.",
+  "zh": "整个编辑空间、页面、协作、加入你的 dot。"
+ },
+ {
+  "seg": 621,
+  "start": 1930.94,
+  "end": 1931.94,
+  "speaker": "SPEAKER_00",
+  "en": "That's a lot.",
+  "zh": "这已经很多了。"
+ },
+ {
+  "seg": 622,
+  "start": 1932.87,
+  "end": 1934.481,
+  "speaker": "SPEAKER_00",
+  "en": "There's a lot of inspiration people can build.",
+  "zh": "人们可以从中获得很多构建灵感。"
+ },
+ {
+  "seg": 623,
+  "start": 1934.521,
+  "end": 1935.151,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 624,
+  "start": 1935.201,
+  "end": 1937.602,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, all possible with Astra.",
+  "zh": "对，这些用 Astra 都能做到。"
+ },
+ {
+  "seg": 625,
+  "start": 1937.642,
+  "end": 1939.203,
+  "speaker": "SPEAKER_01",
+  "en": "Things just move so fast now.",
+  "zh": "现在一切节奏都太快了。"
+ },
+ {
+  "seg": 626,
+  "start": 1939.243,
+  "end": 1942.505,
+  "speaker": "SPEAKER_01",
+  "en": "People go from idea to execution so quickly.",
+  "zh": "人们从想法到执行的速度快得惊人。"
+ },
+ {
+  "seg": 627,
+  "start": 1942.525,
+  "end": 1943.155,
+  "speaker": "SPEAKER_01",
+  "en": "It's amazing.",
+  "zh": "太惊人了。"
+ },
+ {
+  "seg": 628,
+  "start": 1943.205,
+  "end": 1947.308,
+  "speaker": "SPEAKER_03",
+  "en": "Is there something that you want people to focus on to give you feedback?",
+  "zh": "有没有什么你希望大家重点关注并给你反馈的？"
+ },
+ {
+  "seg": 629,
+  "start": 1948.168,
+  "end": 1953.891,
+  "speaker": "SPEAKER_03",
+  "en": "Maybe you're just putting this out there and there's a fork in the road",
+  "zh": "还是说你只是把它发布出去，然后有一个岔路口，"
+ },
+ {
+  "seg": 630,
+  "start": 1953.951,
+  "end": 1955.853,
+  "speaker": "SPEAKER_03",
+  "en": "and you want developers to help you decide.",
+  "zh": "你想让开发者帮你做决定。"
+ },
+ {
+  "seg": 631,
+  "start": 1955.903,
+  "end": 1960.68,
+  "speaker": "SPEAKER_01",
+  "en": "So I think Agents API and Decisions API, they're like, these are our newest products.",
+  "zh": "嗯，我觉得智能体 API 和 Decisions API,它们是我们的最新产品。"
+ },
+ {
+  "seg": 632,
+  "start": 1960.73,
+  "end": 1964.646,
+  "speaker": "SPEAKER_01",
+  "en": "Would love any and all feedback on that to figure out where to take them.",
+  "zh": "非常希望得到任何及所有关于它们的反馈，来决定未来往哪个方向走。"
+ },
+ {
+  "seg": 633,
+  "start": 1964.696,
+  "end": 1966.719,
+  "speaker": "SPEAKER_01",
+  "en": "I think over here we're very open.",
+  "zh": "在这里我觉得我们是非常开放的。"
+ },
+ {
+  "seg": 634,
+  "start": 1967.2,
+  "end": 1968.381,
+  "speaker": "SPEAKER_01",
+  "en": "On Responses API,",
+  "zh": "至于 Responses API,"
+ },
+ {
+  "seg": 635,
+  "start": 1968.782,
+  "end": 1970.915,
+  "speaker": "SPEAKER_01",
+  "en": "which is sort of like our workhorse over here,",
+  "zh": "它算是我们这边的“主力干将”，"
+ },
+ {
+  "seg": 636,
+  "start": 1970.965,
+  "end": 1974.631,
+  "speaker": "SPEAKER_01",
+  "en": "We're really focused on performance right now.",
+  "zh": "我们现在非常专注于性能。"
+ },
+ {
+  "seg": 637,
+  "start": 1974.991,
+  "end": 1977.379888888889,
+  "speaker": "SPEAKER_01",
+  "en": "And the performance comes in two main ways.",
+  "zh": "性能主要体现在两个方面。"
+ },
+ {
+  "seg": 638,
+  "start": 1977.795,
+  "end": 1978.987,
+  "speaker": "SPEAKER_01",
+  "en": "First is just latency.",
+  "zh": "首先就是延迟。"
+ },
+ {
+  "seg": 639,
+  "start": 1979.037,
+  "end": 1983.343,
+  "speaker": "SPEAKER_01",
+  "en": "We've been rewriting the whole responses API track to make it as fast as possible",
+  "zh": "我们一直在重写整个 Responses API 的链路，让它尽可能快，"
+ },
+ {
+  "seg": 640,
+  "start": 1983.383,
+  "end": 1985.847,
+  "speaker": "SPEAKER_01",
+  "en": "from a DTFT perspective, DBT perspective.",
+  "zh": "从 DTFT 的角度、DBT 的角度来看。"
+ },
+ {
+  "seg": 641,
+  "start": 1986.648,
+  "end": 1989.673,
+  "speaker": "SPEAKER_01",
+  "en": "That continues to be a main area of focus for us.",
+  "zh": "这仍然是我们持续的重点关注领域。"
+ },
+ {
+  "seg": 642,
+  "start": 1990.073,
+  "end": 1993.961888888889,
+  "speaker": "SPEAKER_01",
+  "en": "The second thing we've been trying to do is really go deep on caching,",
+  "zh": "我们一直在尝试做的第二件事，是真正深入地做缓存，"
+ },
+ {
+  "seg": 643,
+  "start": 1994.039,
+  "end": 2000.428,
+  "speaker": "SPEAKER_01",
+  "en": "particularly with these personal agents that are basically a single thread",
+  "zh": "特别是针对那些个人智能体，它们基本上是单线程，"
+ },
+ {
+  "seg": 644,
+  "start": 2000.448,
+  "end": 2001.969,
+  "speaker": "SPEAKER_01",
+  "en": "that just goes Is that a public API?",
+  "zh": "一直在跑——那是一个公开 API 吗？"
+ },
+ {
+  "seg": 645,
+  "start": 2001.989,
+  "end": 2002.989,
+  "speaker": "SPEAKER_01",
+  "en": "Not yet.",
+  "zh": "还不是。"
+ },
+ {
+  "seg": 646,
+  "start": 2023.377,
+  "end": 2026.919,
+  "speaker": "SPEAKER_01",
+  "en": "We're going to try to get that out to everyone as soon as possible.",
+  "zh": "我们会尽快把它开放给所有人。"
+ },
+ {
+  "seg": 647,
+  "start": 2026.959,
+  "end": 2029.451,
+  "speaker": "SPEAKER_01",
+  "en": "But just pay a little bit more for the cache, right?",
+  "zh": "但只需为缓存多付一点点钱，对吧？"
+ },
+ {
+  "seg": 648,
+  "start": 2029.501,
+  "end": 2033.544,
+  "speaker": "SPEAKER_01",
+  "en": "And we guarantee cache reads for a much longer period.",
+  "zh": "而且我们保证缓存读取可以在更长的时间段内有效。"
+ },
+ {
+  "seg": 649,
+  "start": 2033.584,
+  "end": 2036.385,
+  "speaker": "SPEAKER_01",
+  "en": "So even if your instinct thread,",
+  "zh": "所以即使你的 instinct 线程，"
+ },
+ {
+  "seg": 650,
+  "start": 2036.425,
+  "end": 2037.425,
+  "speaker": "SPEAKER_01",
+  "en": "for example,",
+  "zh": "比如说，"
+ },
+ {
+  "seg": 651,
+  "start": 2037.646,
+  "end": 2041.649,
+  "speaker": "SPEAKER_01",
+  "en": "you just do something on it and then come back to it three to four hours later,",
+  "zh": "你在上面做点操作，然后三四个小时后再回来，"
+ },
+ {
+  "seg": 652,
+  "start": 2041.669,
+  "end": 2044.32,
+  "speaker": "SPEAKER_01",
+  "en": "you're still getting the caching performance out of it.",
+  "zh": "你仍然能拿到缓存性能。"
+ },
+ {
+  "seg": 653,
+  "start": 2044.37,
+  "end": 2045.871,
+  "speaker": "SPEAKER_01",
+  "en": "And you cut the pause there",
+  "zh": "而且你把那里的停顿"
+ },
+ {
+  "seg": 654,
+  "start": 2046.052,
+  "end": 2047.052,
+  "speaker": "SPEAKER_00",
+  "en": "quite a bit too, right?",
+  "zh": "也削减了相当多，对吧？"
+ },
+ {
+  "seg": 655,
+  "start": 2047.392,
+  "end": 2048.233,
+  "speaker": "SPEAKER_00",
+  "en": "Oh yeah, that's right.",
+  "zh": "哦对，没错。"
+ },
+ {
+  "seg": 656,
+  "start": 2048.253,
+  "end": 2049.253,
+  "speaker": "SPEAKER_00",
+  "en": "For builders, they",
+  "zh": "对于构建者来说，他们"
+ },
+ {
+  "seg": 657,
+  "start": 2052.036,
+  "end": 2053.09,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 658,
+  "start": 2055.501,
+  "end": 2060.388,
+  "speaker": "SPEAKER_01",
+  "en": "just like building your apps to be very cache aware and sort",
+  "zh": "就像把你的应用构建得对缓存非常敏感，并且"
+ },
+ {
+  "seg": 659,
+  "start": 2060.408,
+  "end": 2064.854,
+  "speaker": "SPEAKER_01",
+  "en": "of like use our prompt diagnostics or cache diagnostics tool to figure out like",
+  "zh": "用我们的提示词诊断或缓存诊断工具去弄清楚"
+ },
+ {
+  "seg": 660,
+  "start": 2065.275,
+  "end": 2066.587,
+  "speaker": "SPEAKER_01",
+  "en": "where things are dropping.",
+  "zh": "哪里出现了下降。"
+ },
+ {
+  "seg": 661,
+  "start": 2066.637,
+  "end": 2071.124,
+  "speaker": "SPEAKER_01",
+  "en": "So the caching part is really important.",
+  "zh": "所以缓存这部分真的非常重要。"
+ },
+ {
+  "seg": 662,
+  "start": 2072.185,
+  "end": 2073.667,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, I also want to talk about pre-warming.",
+  "zh": "是的，我还想谈谈预热。"
+ },
+ {
+  "seg": 663,
+  "start": 2073.687,
+  "end": 2075.31,
+  "speaker": "SPEAKER_01",
+  "en": "We have that in the API now.",
+  "zh": "我们现在在 API 里有这个功能了。"
+ },
+ {
+  "seg": 664,
+  "start": 2075.33,
+  "end": 2080.678,
+  "speaker": "SPEAKER_01",
+  "en": "So if you know that, hey, I'm going to get a cache, sorry, I'm going to get this prompt.",
+  "zh": "所以如果你知道，嘿，我要拿到一个缓存，抱歉，我要拿到这个提示词。"
+ },
+ {
+  "seg": 665,
+  "start": 2080.698,
+  "end": 2082.5699999999997,
+  "speaker": "SPEAKER_01",
+  "en": "I just want to pre-warm Form the cache,",
+  "zh": "我只想预热缓存，"
+ },
+ {
+  "seg": 666,
+  "start": 2082.62,
+  "end": 2084.542,
+  "speaker": "SPEAKER_01",
+  "en": "pay the cache write fee right now,",
+  "zh": "现在就支付缓存写入费用，"
+ },
+ {
+  "seg": 667,
+  "start": 2084.962,
+  "end": 2088.965,
+  "speaker": "SPEAKER_01",
+  "en": "and then have it ready to go for the next 30 minutes for whenever.",
+  "zh": "然后让它在接下来的 30 分钟里随时备用。"
+ },
+ {
+  "seg": 668,
+  "start": 2089.286,
+  "end": 2091.497,
+  "speaker": "SPEAKER_01",
+  "en": "And it can spawn many instances of that thread.",
+  "zh": "而且它可以派生那个线程的很多实例。"
+ },
+ {
+  "seg": 669,
+  "start": 2091.547,
+  "end": 2092.3779999999997,
+  "speaker": "SPEAKER_01",
+  "en": "Exactly, yeah.",
+  "zh": "完全正确，是的。"
+ },
+ {
+  "seg": 670,
+  "start": 2092.428,
+  "end": 2097.813,
+  "speaker": "SPEAKER_01",
+  "en": "You can just keep going and have tons and tons of that.",
+  "zh": "你可以一直继续，拥有大量的、大量的那种实例。"
+ },
+ {
+  "seg": 671,
+  "start": 2097.993,
+  "end": 2103.698,
+  "speaker": "SPEAKER_01",
+  "en": "I'm very excited about getting feedback on the low-level performance things so",
+  "zh": "我非常期待在低层性能方面收到反馈，这样"
+ },
+ {
+  "seg": 672,
+  "start": 2103.738,
+  "end": 2108.802,
+  "speaker": "SPEAKER_01",
+  "en": "that we can keep making Responses API the most performant and reliable way to build",
+  "zh": "我们可以持续把 Responses API 打造为在 LLM 之上构建的最高性能、最可靠的方式。"
+ },
+ {
+  "seg": 673,
+  "start": 2108.882,
+  "end": 2109.882,
+  "speaker": "SPEAKER_01",
+  "en": "on top of an LLM.",
+  "zh": "然后就是我们的一系列新产品，我在寻找任何和所有的反馈。"
+ },
+ {
+  "seg": 674,
+  "start": 2110.363,
+  "end": 2117.363,
+  "speaker": "SPEAKER_01",
+  "en": "And then you basically have our new products where I'm just looking for any and all feedback.",
+  "zh": "请为我们定义路线图吧。"
+ },
+ {
+  "seg": 675,
+  "start": 2118.109,
+  "end": 2121.591,
+  "speaker": "SPEAKER_01",
+  "en": "Define our roadmap for us, please.",
+  "zh": "对我来说，缓存这个功能，很棒，对吧？"
+ },
+ {
+  "seg": 676,
+  "start": 2121.731,
+  "end": 2124.593,
+  "speaker": "SPEAKER_03",
+  "en": "I think for me, the caching thing, great, right?",
+  "zh": "显然非常需要。"
+ },
+ {
+  "seg": 677,
+  "start": 2124.973,
+  "end": 2125.8239999999996,
+  "speaker": "SPEAKER_03",
+  "en": "Obviously very needed.",
+  "zh": "但归根结底，你仍然会撞上一百万 token 上下文的天花板。"
+ },
+ {
+  "seg": 678,
+  "start": 2125.874,
+  "end": 2128.7259999999997,
+  "speaker": "SPEAKER_03",
+  "en": "But at the end of the day, you're still bumping out against a million token context.",
+  "zh": "而在可预见的未来，这可能不会改变。"
+ },
+ {
+  "seg": 679,
+  "start": 2128.776,
+  "end": 2131.6679999999997,
+  "speaker": "SPEAKER_03",
+  "en": "And that's probably not going to change for the foreseeable future.",
+  "zh": "你仍然需要好的压缩。"
+ },
+ {
+  "seg": 680,
+  "start": 2131.718,
+  "end": 2133.3689999999997,
+  "speaker": "SPEAKER_03",
+  "en": "You still need good compression.",
+  "zh": "那里的最佳实践是什么？"
+ },
+ {
+  "seg": 681,
+  "start": 2133.419,
+  "end": 2134.7619999999997,
+  "speaker": "SPEAKER_03",
+  "en": "What is the best practice there?",
+  "zh": "是的，完全同意。"
+ },
+ {
+  "seg": 682,
+  "start": 2134.812,
+  "end": 2135.812,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, totally.",
+  "zh": "首先啊，OpenAI 有自己的专有压缩。"
+ },
+ {
+  "seg": 683,
+  "start": 2136.054,
+  "end": 2140.4,
+  "speaker": "SPEAKER_01",
+  "en": "So firstly, OpenAI has its own proprietary compaction.",
+  "zh": "它在 API 里。"
+ },
+ {
+  "seg": 684,
+  "start": 2141.201,
+  "end": 2144.727,
+  "speaker": "SPEAKER_01",
+  "en": "It's in the API.",
+  "zh": "你替我们决定，对吧？"
+ },
+ {
+  "seg": 685,
+  "start": 2144.747,
+  "end": 2145.748,
+  "speaker": "SPEAKER_03",
+  "en": "You decide for us, right?",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 686,
+  "start": 2145.768,
+  "end": 2146.429,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, exactly.",
+  "zh": "所以在 agency API 里，它内置于 harness 中。"
+ },
+ {
+  "seg": 687,
+  "start": 2146.469,
+  "end": 2149.754,
+  "speaker": "SPEAKER_01",
+  "en": "So in the agency API, it comes built into the harness.",
+  "zh": "如果你用的是 Responses API，有两种做法。"
+ },
+ {
+  "seg": 688,
+  "start": 2150.595,
+  "end": 2154.039444444444,
+  "speaker": "SPEAKER_01",
+  "en": "And if you're in Responses API, there's two ways of doing it.",
+  "zh": "一种是所谓的服务端压缩，"
+ },
+ {
+  "seg": 689,
+  "start": 2154.401,
+  "end": 2156.754,
+  "speaker": "SPEAKER_01",
+  "en": "One is what we call server-side compaction,",
+  "zh": "就是你基本上告诉 Responses API，如果你达到了这个"
+ },
+ {
+  "seg": 690,
+  "start": 2156.804,
+  "end": 2161.031,
+  "speaker": "SPEAKER_01",
+  "en": "which is you basically tell Responses API that if you ever hit this threshold",
+  "zh": "token 阈值，"
+ },
+ {
+  "seg": 691,
+  "start": 2161.071,
+  "end": 2164.616,
+  "speaker": "SPEAKER_01",
+  "en": "of tokens, just auto-compact it and go back.",
+  "zh": "就自动压缩然后回去。"
+ },
+ {
+  "seg": 692,
+  "start": 2164.896,
+  "end": 2165.977,
+  "speaker": "SPEAKER_01",
+  "en": "It's not EGI.",
+  "zh": "它不是 EGI。"
+ },
+ {
+  "seg": 693,
+  "start": 2165.997,
+  "end": 2166.997,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 694,
+  "start": 2180.294,
+  "end": 2181.797,
+  "speaker": "SPEAKER_03",
+  "en": "But it is the manual way.",
+  "zh": "但它是手动的方式。"
+ },
+ {
+  "seg": 695,
+  "start": 2181.837,
+  "end": 2183.029,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, it is the manual way.",
+  "zh": "是的，它是手动的方式。"
+ },
+ {
+  "seg": 696,
+  "start": 2183.079,
+  "end": 2187.745,
+  "speaker": "SPEAKER_01",
+  "en": "And I don't know, but a lot of the big coding agents like to do it manually.",
+  "zh": "而且我不知道，但很多大型 coding 智能体喜欢手动做。"
+ },
+ {
+  "seg": 697,
+  "start": 2187.765,
+  "end": 2188.346,
+  "speaker": "SPEAKER_01",
+  "en": "I mean,",
+  "zh": "我的意思是，"
+ },
+ {
+  "seg": 698,
+  "start": 2188.386,
+  "end": 2192.663,
+  "speaker": "SPEAKER_01",
+  "en": "if you look at the Codex implementation of it in the open source Codex harness,",
+  "zh": "如果你看开源 Codex harness 里它的 Codex 实现，"
+ },
+ {
+  "seg": 699,
+  "start": 2192.713,
+  "end": 2197.877,
+  "speaker": "SPEAKER_01",
+  "en": "you can see that they use slash compact and do And there's also like new,",
+  "zh": "你可以看到他们使用 slash compact 来做，而且还有像新的，"
+ },
+ {
+  "seg": 700,
+  "start": 2198.057,
+  "end": 2200.888,
+  "speaker": "SPEAKER_01",
+  "en": "by the way, new compaction techniques that we are working on.",
+  "zh": "顺便说一下，我们正在研究的一些新的压缩技术。"
+ },
+ {
+  "seg": 701,
+  "start": 2200.938,
+  "end": 2204.048,
+  "speaker": "SPEAKER_01",
+  "en": "Some of them you will be able to see in the Codex Harness,",
+  "zh": "其中一些你们将能在 Codex Harness 中看到，"
+ },
+ {
+  "seg": 702,
+  "start": 2204.098,
+  "end": 2206.8489999999997,
+  "speaker": "SPEAKER_01",
+  "en": "like it's already implemented in the Codex Harness.",
+  "zh": "比如它已经实现在 Codex Harness 里了。"
+ },
+ {
+  "seg": 703,
+  "start": 2206.899,
+  "end": 2213.081,
+  "speaker": "SPEAKER_01",
+  "en": "And so they're like some file based systems that we are like experimenting with.",
+  "zh": "我们正在试验一些基于文件的系统之类的东西。"
+ },
+ {
+  "seg": 704,
+  "start": 2213.201,
+  "end": 2216.8676666666665,
+  "speaker": "SPEAKER_01",
+  "en": "So yeah, lots of cool stuff going on around in compaction as well.",
+  "zh": "所以是的，在压缩方面也有很多很酷的东西在进行。"
+ },
+ {
+  "seg": 705,
+  "start": 2217.296,
+  "end": 2218.147,
+  "speaker": "SPEAKER_01",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 706,
+  "start": 2218.197,
+  "end": 2219.6414444444445,
+  "speaker": "SPEAKER_03",
+  "en": "We're running out of time.",
+  "zh": "我们时间快到了。"
+ },
+ {
+  "seg": 707,
+  "start": 2220.119,
+  "end": 2224.704,
+  "speaker": "SPEAKER_03",
+  "en": "I think you've talked a lot about performance and talked a lot about the new APIs",
+  "zh": "我觉得你已经谈了很多性能方面的内容，也谈了很多你们正在推出的新 API，"
+ },
+ {
+  "seg": 708,
+  "start": 2224.724,
+  "end": 2225.875,
+  "speaker": "SPEAKER_03",
+  "en": "that you're launching.",
+  "zh": "你们正在发布的。"
+ },
+ {
+  "seg": 709,
+  "start": 2225.925,
+  "end": 2230.771,
+  "speaker": "SPEAKER_03",
+  "en": "Can you give us any other hints as to things that you're interested in as far as",
+  "zh": "关于平台的未来，你还能给我们一些其他关于你感兴趣的方面的提示吗？"
+ },
+ {
+  "seg": 710,
+  "start": 2230.791,
+  "end": 2232.9579999999996,
+  "speaker": "SPEAKER_03",
+  "en": "the future of the platform is concerned?",
+  "zh": "就平台的未来而言。"
+ },
+ {
+  "seg": 711,
+  "start": 2233.008,
+  "end": 2234.57,
+  "speaker": "SPEAKER_01",
+  "en": "We're obviously very low level.",
+  "zh": "我们显然是非常底层的。"
+ },
+ {
+  "seg": 712,
+  "start": 2234.59,
+  "end": 2236.383,
+  "speaker": "SPEAKER_01",
+  "en": "I used to work at Stripe before this,",
+  "zh": "我以前在 Stripe 工作过，"
+ },
+ {
+  "seg": 713,
+  "start": 2236.433,
+  "end": 2237.795,
+  "speaker": "SPEAKER_01",
+  "en": "and at Stripe,",
+  "zh": "在 Stripe，"
+ },
+ {
+  "seg": 714,
+  "start": 2238.336,
+  "end": 2242.6119999999996,
+  "speaker": "SPEAKER_01",
+  "en": "a lot of the game was building these higher level primitives and products on top of",
+  "zh": "很多游戏规则是在核心支付原语之上构建这些更高层的原语和产品。"
+ },
+ {
+  "seg": 715,
+  "start": 2242.662,
+  "end": 2244.273111111111,
+  "speaker": "SPEAKER_01",
+  "en": "the core payments primitives.",
+  "zh": "在核心支付原语之上。"
+ },
+ {
+  "seg": 716,
+  "start": 2244.505,
+  "end": 2251.235,
+  "speaker": "SPEAKER_01",
+  "en": "And I'm always curious I'm curious about what the best way of doing that is in AI.",
+  "zh": "而我一直很好奇，在 AI 领域做这件事的最佳方式是什么。"
+ },
+ {
+  "seg": 717,
+  "start": 2251.315,
+  "end": 2253.558,
+  "speaker": "SPEAKER_01",
+  "en": "And I think we've had a couple of attempts at that.",
+  "zh": "我想我们已经有过几次尝试了。"
+ },
+ {
+  "seg": 718,
+  "start": 2253.578,
+  "end": 2258.285,
+  "speaker": "SPEAKER_01",
+  "en": "We had launched assistance API way back in the day and wasn't really the right fit.",
+  "zh": "我们很久以前推出过 assistance API，但它并不是很合适。"
+ },
+ {
+  "seg": 719,
+  "start": 2258.586,
+  "end": 2263.132,
+  "speaker": "SPEAKER_01",
+  "en": "We were sort of going off with this agents API and it gives you",
+  "zh": "我们当时在推进这个 agents API，它给你"
+ },
+ {
+  "seg": 720,
+  "start": 2263.152,
+  "end": 2268.217,
+  "speaker": "SPEAKER_01",
+  "en": "the codex harness, but what's the right amount of flexibility to give in that?",
+  "zh": "codex harness，但在其中应该给予多少灵活性才是合适的？"
+ },
+ {
+  "seg": 721,
+  "start": 2268.397,
+  "end": 2270.699,
+  "speaker": "SPEAKER_01",
+  "en": "That's an open question.",
+  "zh": "这是个开放性问题。"
+ },
+ {
+  "seg": 722,
+  "start": 2270.719,
+  "end": 2275.724,
+  "speaker": "SPEAKER_01",
+  "en": "How should we have memory vaults and all of these higher level API objects",
+  "zh": "我们应该如何做 memory vault 以及所有这些更高层的 API 对象，"
+ },
+ {
+  "seg": 723,
+  "start": 2275.784,
+  "end": 2277.836,
+  "speaker": "SPEAKER_01",
+  "en": "to abstract away more storage concepts?",
+  "zh": "来抽象掉更多的存储概念？"
+ },
+ {
+  "seg": 724,
+  "start": 2277.886,
+  "end": 2281.41,
+  "speaker": "SPEAKER_01",
+  "en": "There's a whole space that I'm very curious about figuring out",
+  "zh": "有一个完整的领域让我非常好奇想要弄清楚，"
+ },
+ {
+  "seg": 725,
+  "start": 2288.599,
+  "end": 2294.728,
+  "speaker": "SPEAKER_01",
+  "en": "I think a lot of things in AI are just have a low level API primitive and see",
+  "zh": "我想 AI 里的很多事情就是，有一个低层 API 原语，然后看"
+ },
+ {
+  "seg": 726,
+  "start": 2294.748,
+  "end": 2298.594,
+  "speaker": "SPEAKER_01",
+  "en": "an example harness and go and have your coding agent implement that.",
+  "zh": "一个示例 harness，然后让你的编码智能体去实现它。"
+ },
+ {
+  "seg": 727,
+  "start": 2298.934,
+  "end": 2303.4109999999996,
+  "speaker": "SPEAKER_01",
+  "en": "But how much of that do we build into the API is like a constant question that I'm thinking.",
+  "zh": "但我们要把其中多少构建进 API 里，这是我一直在思考的持续性问题。"
+ },
+ {
+  "seg": 728,
+  "start": 2303.461,
+  "end": 2306.904,
+  "speaker": "SPEAKER_01",
+  "en": "So I don't know if folks have thoughts on that,",
+  "zh": "所以我不知道大家对此有什么想法，"
+ },
+ {
+  "seg": 729,
+  "start": 2307.084,
+  "end": 2310.026,
+  "speaker": "SPEAKER_01",
+  "en": "if anyone has ideas, it'll be super",
+  "zh": "如果任何人有想法，那会是非常"
+ },
+ {
+  "seg": 730,
+  "start": 2310.066,
+  "end": 2310.847,
+  "speaker": "SPEAKER_03",
+  "en": "interesting to hear.",
+  "zh": "有意思的，很乐意听到。"
+ },
+ {
+  "seg": 731,
+  "start": 2310.867,
+  "end": 2315.811,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, the analogy I always bring back to end there is you're building an AI cloud, right?",
+  "zh": "是的，我最后总会用这个类比：你们在构建一个 AI 云，对吧？"
+ },
+ {
+  "seg": 732,
+  "start": 2315.831,
+  "end": 2318.608777777778,
+  "speaker": "SPEAKER_03",
+  "en": "Like, which is something that Sam said a year ago.",
+  "zh": "就像，这是 Sam 一年前说过的话。"
+ },
+ {
+  "seg": 733,
+  "start": 2319.213,
+  "end": 2324.237,
+  "speaker": "SPEAKER_03",
+  "en": "And it's almost like you're kind of doing the AWS invention and you have to do,",
+  "zh": "这几乎就像你们在做 AWS 当年那样的发明，你们必须做到，"
+ },
+ {
+  "seg": 734,
+  "start": 2324.337,
+  "end": 2324.537,
+  "speaker": "SPEAKER_03",
+  "en": "okay,",
+  "zh": "好的，"
+ },
+ {
+  "seg": 735,
+  "start": 2324.557,
+  "end": 2327.001444444444,
+  "speaker": "SPEAKER_03",
+  "en": "this is EC2 and this is S3 and this is like,",
+  "zh": "这是 EC2，这是 S3，这是类似的，"
+ },
+ {
+  "seg": 736,
+  "start": 2327.099,
+  "end": 2328.661,
+  "speaker": "SPEAKER_03",
+  "en": "but you're doing the AI native versions of each of these.",
+  "zh": "但你们在做的是其中每一个的 AI 原生版本。"
+ },
+ {
+  "seg": 737,
+  "start": 2328.681,
+  "end": 2329.681,
+  "speaker": "SPEAKER_03",
+  "en": "There are a lot of analogies.",
+  "zh": "有很多类比。"
+ },
+ {
+  "seg": 738,
+  "start": 2329.701,
+  "end": 2332.701,
+  "speaker": "SPEAKER_00",
+  "en": "So you're pre-worming caches for stuff that you know.",
+  "zh": "所以你们在为已知的stuff预热线程缓存。"
+ },
+ {
+  "seg": 739,
+  "start": 2331.823,
+  "end": 2333.004,
+  "speaker": "SPEAKER_00",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 740,
+  "start": 2333.729,
+  "end": 2338.194,
+  "speaker": "SPEAKER_00",
+  "en": "And it's nice that it's all exposed to builders because it just opens up ways",
+  "zh": "而且很高兴这一切都对构建者开放，因为它打开了"
+ },
+ {
+  "seg": 741,
+  "start": 2338.234,
+  "end": 2339.2059999999997,
+  "speaker": "SPEAKER_00",
+  "en": "that you can build new things.",
+  "zh": "你可以构建新事物的方式。"
+ },
+ {
+  "seg": 742,
+  "start": 2339.256,
+  "end": 2340.256,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是的。"
+ },
+ {
+  "seg": 743,
+  "start": 2340.677,
+  "end": 2340.908,
+  "speaker": "SPEAKER_00",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 744,
+  "start": 2340.958,
+  "end": 2341.8089999999997,
+  "speaker": "SPEAKER_00",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 745,
+  "start": 2341.859,
+  "end": 2342.3689999999997,
+  "speaker": "SPEAKER_00",
+  "en": "Thank you guys.",
+  "zh": "谢谢你们。"
+ },
+ {
+  "seg": 746,
+  "start": 2342.419,
+  "end": 2343.419,
+  "speaker": "SPEAKER_00",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

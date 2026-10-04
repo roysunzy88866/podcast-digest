@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
+[[Sarah Simionescu]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roblox":4,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":4,"MCP":69,"AI":27}</script>
+<script type="application/json" class="pd-epn">{"Roblox":4,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":4,"MCP":71,"AI":27}</script>
 
 <script>
 (function(){

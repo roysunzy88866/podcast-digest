@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
+[[Sarah Simionescu]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Brandon Foo":1,"ChatGPT":89,"Facebook":16,"Uber":16,"Instagram":7,"OpenAI":150,"Copilot":11,"Cursor":77,"Windsurf":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Brandon Foo":1,"ChatGPT":89,"Facebook":16,"Uber":16,"Instagram":7,"OpenAI":151,"Copilot":11,"Cursor":78,"Windsurf":5}</script>
 
 <script>
 (function(){

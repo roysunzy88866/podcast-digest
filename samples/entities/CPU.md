@@ -41,7 +41,7 @@ unlisted: true
 
 [[NVIDIA]] · [[推理]] · [[GPU]] · [[后训练]] · [[Arm]] · [[深度学习]] · [[Condi Rice]] · [[Patrick O'Shaughnessy]] · [[Casey Moratori]] · [[Nathan]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":51,"推理":68,"GPU":19,"后训练":1,"Arm":2,"深度学习":4,"Condi Rice":1,"Patrick O'Shaughnessy":3,"Casey Moratori":1,"Nathan":4}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":52,"推理":70,"GPU":19,"后训练":1,"Arm":2,"深度学习":4,"Condi Rice":1,"Patrick O'Shaughnessy":3,"Casey Moratori":1,"Nathan":4}</script>
 
 <script>
 (function(){

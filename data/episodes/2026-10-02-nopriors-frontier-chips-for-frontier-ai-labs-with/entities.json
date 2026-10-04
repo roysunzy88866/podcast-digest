@@ -1,0 +1,881 @@
+{
+  "episode_id": "2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with",
+  "podcast": "No Priors",
+  "date": "2026-10-02",
+  "tags": [
+    "AI 芯片",
+    "推理",
+    "内存带宽",
+    "芯片设计",
+    "市场结构"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "walter-goodwin",
+      "type": "person",
+      "role": "guest",
+      "name": "Walter Goodwin",
+      "file": "Walter Goodwin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            48.885,
+            54.408
+          ],
+          "quote": "Today, I'm here with Walter Goodwin, founder and CEO of full-stack AI chip company Fractile.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fractile",
+      "type": "company",
+      "role": "company",
+      "name": "Fractile",
+      "file": "Fractile",
+      "primary": true,
+      "how_described": "本集主角：Walter Goodwin 创办的全栈 AI 芯片公司，为世界最大的模型打造非常快的推理芯片，约 150 人，覆盖从架构、前端设计到物理设计、先进封装的全链条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            48.885,
+            54.408
+          ],
+          "quote": "Today, I'm here with Walter Goodwin, founder and CEO of full-stack AI chip company Fractile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1069.017,
+            1074.878
+          ],
+          "quote": "So at Fractile, you know, we're extremely excited about being AI forward in how we do chip design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1308.642,
+            1311.904
+          ],
+          "quote": "Standing here from Fractile, you know, right now we're trying to build a single chip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1758.189,
+            1764.713
+          ],
+          "quote": "And so for Fractile, you know, this idea of having like 25 times more bandwidth per chip than an HBM-based chip",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成芯片行业霸主：一套系统里集成六到九颗自研定制芯片；同时是各家第一方自研芯片要压价的对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.692,
+            10.755
+          ],
+          "quote": "If you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            54.748,
+            74.639
+          ],
+          "quote": "We talk about what it means to be full-stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            234.42,
+            244.043
+          ],
+          "quote": "All of these chips, you have HBM, this type of DRAM memory that is common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1312.104,
+            1325.071
+          ],
+          "quote": "We know that we're up against competitors that have, you know, if you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1885.023,
+            1906.739
+          ],
+          "quote": "It's very unclear to me, you know, five years from now, what a large AI player or a hyperscaler buys in terms of what chips they consume between the NVIDIA and AMDs of the world, the new accelerator class, and, you know, four, at least four of these players have their own internal efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1932.686,
+            1939.191
+          ],
+          "quote": "There's a bit of a joke today that the sort of first party efforts, their primary purpose is to reduce the price that people pay NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1950.019,
+            1958.725
+          ],
+          "quote": "And so there, I think it is this kind of gamesmanship of, you know, can we build some of this over here or can I buy something from AMD so that maybe I then get a better price from NVIDIA and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "type": "company",
+      "role": "company",
+      "name": "Broadcom",
+      "file": "Broadcom",
+      "primary": true,
+      "how_described": "本集说它是最大的 ASIC 后端交付厂商（两万亿美元市值），拥有芯片间互联的模拟 IP，帮助各大厂把内部芯片设计变为现实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            190.458,
+            215.565
+          ],
+          "quote": "You see this paradigm where although there are a number of kind of proprietary internal chips, you know, Google with the TPU, Meta with MTIA, Microsoft with Maya, OpenAI now with Jalapeno, these chips that are ultimately developed and delivered in partnership with kind of a relatively small number of what we might call ASIC houses, these kind of back-end delivery houses, Broadcom is the largest, you know, $2 trillion company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            296.321,
+            306.269
+          ],
+          "quote": "For people who don't work in the chip industry, what is the common abstraction or handoff between what architecture-focused players are doing and a player like Broadcom?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            370.835,
+            378.919
+          ],
+          "quote": "Mechanistically, it still looks like writing code on a computer, and it's still code that is then handed off to a player like Broadcom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            411.006,
+            421.628
+          ],
+          "quote": "And a lot of the complexity there is around, in Broadcom's case, it will be ownership of analog IP that is used for chip-to-chip connectivity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": true,
+      "how_described": "本集说它是各家芯片共同的代工厂：所有 ASIC 都在 TSMC 做同样的先进封装，最终交付的是一份版图文件，流片周期即使加急也要三到五个月。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            244.203,
+            251.724
+          ],
+          "quote": "You have the same kinds of bets on tensor cores to do your matrix multiplications, the same advanced packaging with TSMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            386.943,
+            392.769
+          ],
+          "quote": "is then transformed ultimately into something that, you know, what gets shipped to TSMC in the end is literally a kind of bitmap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            422.008,
+            428.229
+          ],
+          "quote": "And it is this kind of physical placement that is specific to a given process node at TSMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1583.293,
+            1595.763
+          ],
+          "quote": "Cadence and Synopsis who've been working with TSMC and the other foundries for decades to build the sort of, you know, the final check mark that says this thing is what we call DRC and LVSClean.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "company",
+      "role": "company",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            652.956,
+            658.598
+          ],
+          "quote": "We were working on a little like Grok or Cerebrus working on an SRAM-based chip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            771.514,
+            776.28
+          ],
+          "quote": "With all of the speed advantages that you get from a Grok chip or a Cerebrus chip.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cerebrus",
+      "type": "company",
+      "role": "company",
+      "name": "Cerebrus",
+      "file": "Cerebrus",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            652.956,
+            658.598
+          ],
+          "quote": "We were working on a little like Grok or Cerebrus working on an SRAM-based chip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            771.514,
+            776.28
+          ],
+          "quote": "With all of the speed advantages that you get from a Grok chip or a Cerebrus chip.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "company",
+      "role": "company",
+      "name": "AMD",
+      "file": "AMD",
+      "primary": false,
+      "how_described": "本集在市场结构部分提到：大规模部署者会从 AMD 买芯片，以从 NVIDIA 那里换取更好的价格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            54.748,
+            74.639
+          ],
+          "quote": "We talk about what it means to be full-stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            234.42,
+            244.043
+          ],
+          "quote": "All of these chips, you have HBM, this type of DRAM memory that is common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1950.019,
+            1958.725
+          ],
+          "quote": "And so there, I think it is this kind of gamesmanship of, you know, can we build some of this over here or can I buy something from AMD so that maybe I then get a better price from NVIDIA and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集的主线概念：模型部署后响应用户的阶段；Walter 认为行业曾回避它，而速度真正撬动局面的地方是让长时间运行的智能体和万亿参数模型以每秒数千 token 运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            86.182,
+            90.083
+          ],
+          "quote": "We build very, very fast inference chips for the world's largest models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            155.783,
+            161
+          ],
+          "quote": "Where would you place yourself in the overall GPU and accelerator landscape for inference?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            594.286,
+            608.015
+          ],
+          "quote": "So for us, I think, you know, one is the direction, you know, four and a half years ago, you were obviously right in the heart of an inference story, but I still felt that we were educating the world about what inference meant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            609.256,
+            617.982
+          ],
+          "quote": "For two years or so following that, some of the inference chips today, including one that recently went public, was a training chip until about 18 months ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            801.042,
+            804.424
+          ],
+          "quote": "The snappier chatbot is kind of the faster horses of kind of fast inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            823.29,
+            833.773
+          ],
+          "quote": "And so that's kind of a, it's a tantalizing mismatch today between the properties of the fast inference chips that we have, which have super high bandwidth memory, but incredibly low capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            876.771,
+            889.519
+          ],
+          "quote": "Because when you look at what it looks like to run inference at data center scale for thousands of users, the economics actually collapsed down to essentially a kind of cost per gigabyte of the memory that you're employing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory-bandwidth",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存带宽 (memory bandwidth)",
+      "file": "内存带宽",
+      "primary": true,
+      "how_described": "本集核心论点：AI 芯片竞争的下一张牌不是算力而是内存带宽——20 年里浮点运算扩展约一百万倍、带宽只提升约 40 倍；数据中心推理的经济性坍缩为每 GB 内存成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            54.748,
+            74.639
+          ],
+          "quote": "We talk about what it means to be full-stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1016.195,
+            1020.858
+          ],
+          "quote": "Unified and kind of crying out for and memory bandwidth is one of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1714.392,
+            1718.255
+          ],
+          "quote": "Maximizing memory bandwidth in order to be able to run these models faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1846.195,
+            1854.56
+          ],
+          "quote": "One of the things I think we're excited about is as we elevate this other quality, this property of memory bandwidth, which hasn't really been scaled so much on chips recently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1858.603,
+            1861.565
+          ],
+          "quote": "Memory bandwidth has gone up about 40x in the same time frame.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "asic",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASIC",
+      "file": "ASIC",
+      "primary": true,
+      "how_described": "本集说市面上 AI 专用芯片琳琅满目实则千篇一律：TPU、MTIA、Maya、Jalapeno 都与少数 ASIC 交付厂商合作，用 HBM、押张量核心、在 TSMC 封装。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            190.458,
+            215.565
+          ],
+          "quote": "You see this paradigm where although there are a number of kind of proprietary internal chips, you know, Google with the TPU, Meta with MTIA, Microsoft with Maya, OpenAI now with Jalapeno, these chips that are ultimately developed and delivered in partnership with kind of a relatively small number of what we might call ASIC houses, these kind of back-end delivery houses, Broadcom is the largest, you know, $2 trillion company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hbm",
+      "type": "concept",
+      "role": "concept",
+      "name": "HBM",
+      "file": "HBM",
+      "primary": true,
+      "how_described": "本集说 HBM 是 NVIDIA/AMD GPU 和各家 ASIC 共用的高带宽 DRAM 内存，但容量低、贵；Fractile 宣称单芯片带宽可达 HBM 方案的 25 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            234.42,
+            244.043
+          ],
+          "quote": "All of these chips, you have HBM, this type of DRAM memory that is common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1719.276,
+            1736.195
+          ],
+          "quote": "And one of the dualities I think you have to span as a chip company is to build something that is both exceptionally good at the kind of gamut of workloads that are coming down the pipe under this idea of the kind of hardware lottery where these will be trained on HBM-based GPUs or XPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1758.189,
+            1764.713
+          ],
+          "quote": "And so for Fractile, you know, this idea of having like 25 times more bandwidth per chip than an HBM-based chip",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1808.601,
+            1817.865
+          ],
+          "quote": "But one of the challenges, one of the headwinds to doing that is actually that it becomes incredibly prohibitive on today's HBM-based GPUs, XPUs to serve those models efficiently.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sram",
+      "type": "concept",
+      "role": "concept",
+      "name": "SRAM",
+      "file": "SRAM",
+      "primary": true,
+      "how_described": "本集说 SRAM 是与计算逻辑同在一块硅片上的超高速小容量内存，能驱动每秒数千 token，但装不下不断增长的上下文长度，Fractile 因此转向 DRAM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            652.956,
+            658.598
+          ],
+          "quote": "We were working on a little like Grok or Cerebrus working on an SRAM-based chip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            658.818,
+            662.14
+          ],
+          "quote": "So we'd sort of made the observation that SRAM is this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            737.665,
+            748.972
+          ],
+          "quote": "So for the past couple of years, we've been involved in these kind of Skunkworks projects to move away from SRAM, looking at how we can get, for instance, much, much, much higher bandwidth to DRAM memories.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dram",
+      "type": "concept",
+      "role": "concept",
+      "name": "DRAM",
+      "file": "DRAM",
+      "primary": true,
+      "how_described": "本集把它说成世界上成本最低的内存：Fractile 的新押注是让 DRAM 拥有激进的高带宽，同时拿到 SRAM 路线的速度和 GPU/TPU 的容量可扩展性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            234.42,
+            244.043
+          ],
+          "quote": "All of these chips, you have HBM, this type of DRAM memory that is common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            737.665,
+            748.972
+          ],
+          "quote": "So for the past couple of years, we've been involved in these kind of Skunkworks projects to move away from SRAM, looking at how we can get, for instance, much, much, much higher bandwidth to DRAM memories.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            750.413,
+            770.513
+          ],
+          "quote": "And this has been a very exciting bet for us because it's allowed us now to put together a platform which we'll be ramping in the second half of next year, which kind of unites, I guess, the scalability of these kind of higher capacity, lower cost DRAM memories that you have on a GPU, on a TPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            890.159,
+            904.415
+          ],
+          "quote": "And so that's been the sort of other key focus for us is unlocking this kind of fundamentally new building block, which is finding a path to get aggressively high bandwidth from the world's lower cost memory, DRAM memory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            991.237,
+            998.903
+          ],
+          "quote": "So, you know, it's always the case that a new LLM desperately wants to have orders of magnitude more bandwidth to memory in order to run faster.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moe",
+      "type": "concept",
+      "role": "concept",
+      "name": "MOE",
+      "file": "MOE",
+      "primary": true,
+      "how_described": "本集说 MoE 理想上应越来越稀疏（1/16 到 1/256）以省大量算力，但在今天基于 HBM 的芯片上会带宽瓶颈、算力利用率极低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1738.137,
+            1743.3
+          ],
+          "quote": "Exceptional at taking kind of today's auto-aggressive MOE transformers and running them much faster and more efficiently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1796.33,
+            1805.278
+          ],
+          "quote": "So for like ISO intelligence, you will save a ton of flops if you go from being like 1 in 16 sparse on your MOE to 1 in 128, 1 in 256.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "注意力机制 (attention)",
+      "file": "注意力机制",
+      "primary": true,
+      "how_described": "本集说开源中国模型前沿的注意力机制每隔几周就在变；现有快速推理芯片容量太低跑不了长上下文注意力，得切回 GPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            834.153,
+            841.255
+          ],
+          "quote": "And if you look at the sort of technical detail of how they actually get employed and deployed today, they're not running long context attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1021.078,
+            1032.844
+          ],
+          "quote": "But then, you know, as you say, there are these evolutions and especially if you look at the kind of frontier of open source Chinese models, you know, the exact nature of an attention mechanism will churn every couple of weeks in terms of the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1033.165,
+            1037.827
+          ],
+          "quote": "The sparsity, the sparsity level of the MOEs that you have, the sparsity on the attention itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1835.012,
+            1837.833
+          ],
+          "quote": "And with LLMs today, it's very similar actually with attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1837.893,
+            1840.893
+          ],
+          "quote": "There are forms of attention that are less bandwidth hungry.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集提出带宽也有自己的缩放定律：传统缩放定律是 flop 缩放定律，而扩展落后的内存带宽是全局吞吐的乘数因子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 266,
+          "t": [
+            1765.293,
+            1770.756
+          ],
+          "quote": "We get to explore, for instance, internally, these kinds of ideas of scaling laws for bandwidth, basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1770.796,
+            1773.997
+          ],
+          "quote": "The scaling laws, traditionally, we think of them as flop scaling laws.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1781.381,
+            1787.363
+          ],
+          "quote": "And if you look at just the known landscape of ideas today, we already see some scaling laws for bandwidth.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chip-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "芯片设计 (chip design)",
+      "file": "芯片设计",
+      "primary": true,
+      "how_described": "本集讨论从架构师意图到 GDS2 文件能否被 AI 压缩：Walter 的启发式是「时间除以四再减一点」，但流片和摊销的物理/财务约束仍在；布局布线等 NP 难环节是 AI 加速后的新瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            1069.017,
+            1074.878
+          ],
+          "quote": "So at Fractile, you know, we're extremely excited about being AI forward in how we do chip design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1102.253,
+            1122.763
+          ],
+          "quote": "There isn't necessarily an overwhelming need or return on radically changing your processes as a front-end focused chip design startup, adopting AI in aggressive ways to shorten your timelines from being maybe 12 months of front-end design work to a tiny fraction of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1174.482,
+            1181.744
+          ],
+          "quote": "One is there is a huge value in being able to take the overall chip design cycle and compress that and compress that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1200.496,
+            1210.163
+          ],
+          "quote": "And so I think for me, what it means to be able to over time compress that kind of chip design cycle is essentially that you get to have more shots on goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1438.81,
+            1445.656
+          ],
+          "quote": "I think one of the things about chip design that is very interesting is there are still these loops in the middle of it that are kind of...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1505.306,
+            1510.531
+          ],
+          "quote": "And so I think with chip design, it's a little bit like this, maybe to take the kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1573.947,
+            1580.771
+          ],
+          "quote": "You know, the I think chip design is not going to change in the final sign off for quite some time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1680.316,
+            1689.405
+          ],
+          "quote": "And so I think you get there also with things like chip design, where there are these kind of fundamental wall clock time bottlenecks for the more conventional algorithms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

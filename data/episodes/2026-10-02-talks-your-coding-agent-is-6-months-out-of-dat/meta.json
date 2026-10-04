@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/cKhpeEBnT1o.m4a",
+  "duration_sec": 734.997,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 153,
+  "asr": true,
+  "title_en": "Your Coding Agent Is 6 Months Out of Date — Jakub Hojsan, Exa",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "added": "2026-10-04",
+  "added_at": "2026-10-04T12:49:04.439Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jakub Hojsan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jakub Hojsan"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "给代码智能体装上搜索：EXA 的实战方法",
+  "guest_name": "Jakub Hojsan",
+  "guest_title": "EXA 前置部署工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

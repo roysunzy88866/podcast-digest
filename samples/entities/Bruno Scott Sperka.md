@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":27,"Terraform":1,"Hashicorp":1,"Kubernetes":14,"开源":31,"智能体":388,"PR":6,"AI":27,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":27,"Terraform":1,"Hashicorp":1,"Kubernetes":15,"开源":32,"智能体":391,"PR":6,"AI":27,"工匠精神":1}</script>
 
 <script>
 (function(){

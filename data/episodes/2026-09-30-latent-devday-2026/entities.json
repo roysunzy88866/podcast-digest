@@ -1,0 +1,1506 @@
+{
+  "episode_id": "2026-09-30-latent-devday-2026",
+  "podcast": "Latent Space",
+  "date": "2026-09-30",
+  "tags": [
+    "AI 基础设施",
+    "计算机使用",
+    "智能体 API",
+    "推理优化",
+    "开发者平台"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "ari",
+      "type": "person",
+      "role": "host",
+      "name": "Ari",
+      "file": "Ari",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.447,
+            16.154
+          ],
+          "quote": "We have Ari here who leads the product and engineering team for computer use agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1162.983,
+            1166.856
+          ],
+          "quote": "You've shipped a lot on the API side, like we just talked about with Ari.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集录制于 OpenAI DevDay 现场，两位嘉宾分别来自其计算机使用智能体团队和 API 团队，整集围绕其发布的模型与 API 新品展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.8,
+            10.986
+          ],
+          "quote": "Today is OpenAI Dev Day, special podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            334.627,
+            340.088
+          ],
+          "quote": "like shortcuts at Apple, and then Sky, and then joining OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1187.18,
+            1188.111
+          ],
+          "quote": " Here at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1467.515,
+            1470.435
+          ],
+          "quote": "a bunch of people at OpenAI get nerd sniped by that,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1485.004,
+            1489.51
+          ],
+          "quote": "I feel like OpenAI is such a strong hacker culture and people are just like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1881.492,
+            1887.782
+          ],
+          "quote": "we're basically having a bunch of first party products at OpenAI built fully on top",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2136.054,
+            2140.4
+          ],
+          "quote": "So firstly, OpenAI has its own proprietary compaction.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集主线：让智能体直接操作电脑界面完成任务。Ari 说它已「180 度大变样」，完成速度在大多数场景超过普通人，且进入智能体 API 供开发者构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.447,
+            16.154
+          ],
+          "quote": "We have Ari here who leads the product and engineering team for computer use agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            16.554,
+            19.859
+          ],
+          "quote": "Before we kick in and dive deep on computer use, you want to give a quick recap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            29.393,
+            32.177
+          ],
+          "quote": "There were a bunch of computer use announcements that I think are worth thinking about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            37.865,
+            40.96
+          ],
+          "quote": "and that has some really exciting computer use features.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            42.472,
+            46.558
+          ],
+          "quote": "which is this amazing new model that I think is particularly great for computer use",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            65.065,
+            66.445
+          ],
+          "quote": "Which now has computer use in it,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            66.485,
+            70.07600000000001
+          ],
+          "quote": "which is really cool because now developers can build on the same computer use",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            73.767,
+            78.25800000000001
+          ],
+          "quote": "And then there were some demos of our existing computer use features like app shots",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            84.57,
+            88.09
+          ],
+          "quote": "And then like native computer use on your Mac where Roman had it taking screenshots",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            90.971,
+            93.422
+          ],
+          "quote": "while computer use was using his applications.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            104.941,
+            106.863
+          ],
+          "quote": " Like basically like is computer use using Decisions",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            119.197,
+            122.963
+          ],
+          "quote": "It's a smaller model than the ones we use for computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            185.537,
+            187.981
+          ],
+          "quote": "I think the powerful thing about computer use and the reason why I think it's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            306.982,
+            311.223
+          ],
+          "quote": "our friends is famous for saying that computer use hasn't advanced in",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            324.045,
+            326.786
+          ],
+          "quote": "because computer use is like 180 degrees different than it was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            353.141,
+            358.308
+          ],
+          "quote": "what's the major change from using codex computer use from last week to today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            400.09,
+            404.09
+          ],
+          "quote": "on computer use there as well, and the models were so much less capable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            423.106,
+            427.512
+          ],
+          "quote": " I think we've also brought the computer use field itself has moved forward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            429.575,
+            432.62
+          ],
+          "quote": "Now computer use often writes code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            477.298,
+            482.021
+          ],
+          "quote": "I think the computer use in DOT is really exciting as well as the new model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            483.122,
+            490.066
+          ],
+          "quote": " On the keynote, Tejal was mentioning 7x improvements in computer use speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            495.468,
+            500.391
+          ],
+          "quote": "Computer use is one of those things where, as you say, it's improvements over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            544.702,
+            548.983
+          ],
+          "quote": "for computer use than its baseline cost improvement as compared to Astra.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            579.323,
+            585.151
+          ],
+          "quote": "I think we saw a lot of computer use products had to spend a lot of time scrolling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            729.326,
+            732.569
+          ],
+          "quote": " I have a broader vision question on computer use agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            749.643,
+            752.145
+          ],
+          "quote": "Any predictions on where computer use goes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            759.633,
+            763.298
+          ],
+          "quote": "that now computer use is like faster at accomplishing tasks than like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            767.164,
+            771.37
+          ],
+          "quote": "And I think that the next frontier is to have computer use be like lowercase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            797.749,
+            798.51
+          ],
+          "quote": "of using computer use,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            825.069,
+            827.312
+          ],
+          "quote": "We find that as computer use gets faster,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            921.95,
+            924.791
+          ],
+          "quote": "One milestone of computer use that we're at now is,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 290,
+          "t": [
+            941.056,
+            944.6115555555556
+          ],
+          "quote": "I'm just sending it over and YOLOing with computer use and like,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            963.545,
+            968.038
+          ],
+          "quote": " First of all, I'm just really excited that we brought computer use into the agents API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            977.615,
+            979.597
+          ],
+          "quote": "And so computer use has this universality to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            981.658,
+            986.0920000000001
+          ],
+          "quote": " Developers can build using the same computer use implementation that we're building on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            987.603,
+            989.9350000000001
+          ],
+          "quote": "to build your own computer use harness, but it's hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            991.206,
+            993.607
+          ],
+          "quote": "we train our models on our computer use harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1069.778,
+            1072.97
+          ],
+          "quote": "about how people are using computer use for coding workflows?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1080.126,
+            1081.765
+          ],
+          "quote": "is Computer use,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1098.747,
+            1099.8780000000002
+          ],
+          "quote": "So with computer use,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1112.673,
+            1116.265
+          ],
+          "quote": "I have extra fun because sometimes I'm like developing computer use itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1116.735,
+            1120.547
+          ],
+          "quote": "a computer use agent that's using my computer use agent that's using something else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1141.215,
+            1143.147
+          ],
+          "quote": "computer use can completely drive everything,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1166.906,
+            1169.237
+          ],
+          "quote": "You can now build with computer use agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1540.851,
+            1543.896
+          ],
+          "quote": "All the computer use demos have been amazing and really cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1828.308,
+            1833.0857777777778
+          ],
+          "quote": "What do you think people should build with Decisions API and also Computer Use Agents?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的核心角色：计算机使用智能体、让智能体测试自己构建的软件、个人智能体的缓存与压缩等长跑场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1082.226,
+            1086.114888888889
+          ],
+          "quote": "letting the agent actually test the software that the agent has built,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1096.446,
+            1098.6970000000001
+          ],
+          "quote": "And you are now like QA for the agent, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1104.19,
+            1106.0800000000002
+          ],
+          "quote": "the agent can build software, it can test it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1106.13,
+            1110.142
+          ],
+          "quote": "So I have a lot of fun, you know, building stuff, having the agent test it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1116.735,
+            1120.547
+          ],
+          "quote": "a computer use agent that's using my computer use agent that's using something else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2294.748,
+            2298.594
+          ],
+          "quote": "an example harness and go and have your coding agent implement that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 API (Agents API)",
+      "file": "智能体 API",
+      "primary": true,
+      "how_described": "本集发布的核心产品：现在包含计算机使用，开发者可用与 Codex 和 ChatGPT 同款实现来构建；OpenAI 内部第一方产品也完全构建在它之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            49.863,
+            50.863
+          ],
+          "quote": " Agents, API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            963.545,
+            968.038
+          ],
+          "quote": " First of all, I'm just really excited that we brought computer use into the agents API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            1878.849,
+            1880.311
+          ],
+          "quote": "With the agents API,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            1894.031,
+            1900.2
+          ],
+          "quote": " The Agents API, we're having a meetings type of thing launching today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            1915.274,
+            1919.356
+          ],
+          "quote": "All of that stuff is fully built on top of the Agents API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            1955.903,
+            1960.68
+          ],
+          "quote": " So I think Agents API and Decisions API, they're like, these are our newest products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2258.586,
+            2263.132
+          ],
+          "quote": " We were sort of going off with this agents API and it gives you",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "模型外围的执行框架。Ari 建议开发者用官方 harness 而非自造，因为「模型是在自己的计算机使用框架上训练的」，分布内实现有速度、成本、准确率优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            360.291,
+            361.042
+          ],
+          "quote": "Is it harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            500.431,
+            501.051
+          ],
+          "quote": "Is it harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            511.561,
+            515.8943333333333
+          ],
+          "quote": "some of which are on different permutations and configurations of the harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            534.439,
+            538.439
+          ],
+          "quote": "And those gains are sometimes in the harness and sometimes in the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            559.892,
+            564.0640000000001
+          ],
+          "quote": "And there was a lot of talking about how you're improving it together with the harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            568.076,
+            572.0020000000001
+          ],
+          "quote": "whether it's on like model driving the harness, harness driving the model, whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            821.524,
+            825.049
+          ],
+          "quote": "there's things on the harness side, there's things in the representation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            987.603,
+            989.9350000000001
+          ],
+          "quote": "to build your own computer use harness, but it's hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            991.206,
+            993.607
+          ],
+          "quote": "we train our models on our computer use harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2146.469,
+            2149.754
+          ],
+          "quote": "So in the agency API, it comes built into the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2188.386,
+            2192.663
+          ],
+          "quote": "if you look at the Codex implementation of it in the open source Codex harness,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2200.938,
+            2204.048
+          ],
+          "quote": "Some of them you will be able to see in the Codex Harness,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            2204.098,
+            2206.8489999999997
+          ],
+          "quote": "like it's already implemented in the Codex Harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2263.152,
+            2268.217
+          ],
+          "quote": "the codex harness, but what's the right amount of flexibility to give in that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2294.748,
+            2298.594
+          ],
+          "quote": "an example harness and go and have your coding agent implement that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "无障碍接口 (accessibility)",
+      "file": "无障碍接口",
+      "primary": true,
+      "how_described": "为视障用户提供的界面结构化描述，本集说是喂给模型的最佳表示：包含链接指向、被截断标题等截图丢失的完整上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            436.265,
+            438.508
+          ],
+          "quote": "you can see that it's not just doing one We use more accessibility,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            453.03,
+            456.364
+          ],
+          "quote": " The model may use screenshots, it may use accessibility, it may use playwright.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            594.205,
+            599.813
+          ],
+          "quote": "And so I think with accessibility and direct access to the DOM and other things like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            657.637,
+            661.269
+          ],
+          "quote": "you can see the raw text and you see the raw accessibility representation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            676.779,
+            679.279
+          ],
+          "quote": "you know, who maybe have accessibility needs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decisions-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Decisions API",
+      "file": "Decisions API",
+      "primary": true,
+      "how_described": "超快的分类/决策模型 API：不训练新模型，构建在已有 Luna 权重上，靠结构化输出约束、优化 TTFT、并行批跑实现，Jev 发布后由推理和基建团队黑客式捣鼓出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            95.092,
+            96.934
+          ],
+          "quote": " And not to mention the Decisions API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            96.954,
+            98.595
+          ],
+          "quote": "Decisions API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            109.145,
+            114.27
+          ],
+          "quote": "So what's really cool about the Decisions API is it has all these new capabilities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1458.612,
+            1462.000888888889
+          ],
+          "quote": "really snappy, fast things built on top of the Decisions API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1524.757,
+            1526.429
+          ],
+          "quote": "How should people see Decisions API?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1605.756,
+            1612.756
+          ],
+          "quote": "So I'm kind of excited to see what people do with Live and with Luna on Decisions API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1828.308,
+            1833.0857777777778
+          ],
+          "quote": "What do you think people should build with Decisions API and also Computer Use Agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            1842.547,
+            1846.993
+          ],
+          "quote": " Decisions API, use cases internally have been pretty obvious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            1955.903,
+            1960.68
+          ],
+          "quote": " So I think Agents API and Decisions API, they're like, these are our newest products.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "responses-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Responses API",
+      "file": "Responses API",
+      "primary": true,
+      "how_described": "OpenAI 的主力 API，本集说其两大方向是延迟（重写整条链路）和缓存，还提供达到 token 阈值自动触发的服务端压缩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            1967.2,
+            1968.381
+          ],
+          "quote": "On Responses API,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            1979.037,
+            1983.343
+          ],
+          "quote": "We've been rewriting the whole responses API track to make it as fast as possible",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2103.738,
+            2108.802
+          ],
+          "quote": "that we can keep making Responses API the most performant and reliable way to build",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            2150.595,
+            2154.039444444444
+          ],
+          "quote": " And if you're in Responses API, there's two ways of doing it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2156.804,
+            2161.031
+          ],
+          "quote": "which is you basically tell Responses API that if you ever hit this threshold",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存 (caching)",
+      "file": "缓存",
+      "primary": true,
+      "how_described": "针对个人智能体这类单线程长跑场景：多付缓存费保证更长时段缓存读取，三四个小时后回来仍有缓存性能；还支持预热线程并派生大量实例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 642,
+          "t": [
+            1990.073,
+            1993.961888888889
+          ],
+          "quote": "The second thing we've been trying to do is really go deep on caching,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2041.669,
+            2044.32
+          ],
+          "quote": "you're still getting the caching performance out of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2066.637,
+            2071.124
+          ],
+          "quote": " So the caching part is really important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2121.731,
+            2124.593
+          ],
+          "quote": "I think for me, the caching thing, great, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "压缩 (compaction)",
+      "file": "压缩",
+      "primary": true,
+      "how_described": "把长对话历史浓缩以省 token：智能体 API 内置于 harness，Responses API 有服务端压缩，开源 Codex harness 用 slash compact 手动做，团队还在试验基于文件的新技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 683,
+          "t": [
+            2136.054,
+            2140.4
+          ],
+          "quote": "So firstly, OpenAI has its own proprietary compaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 689,
+          "t": [
+            2154.401,
+            2156.754
+          ],
+          "quote": "One is what we call server-side compaction,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2198.057,
+            2200.888
+          ],
+          "quote": "by the way, new compaction techniques that we are working on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2213.201,
+            2216.8676666666665
+          ],
+          "quote": "So yeah, lots of cool stuff going on around in compaction as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "OpenAI 的编码智能体产品，本集多次作为计算机使用的载体出现：AppShot 在 Codex 里触发、智能体用它构建并测试软件、开源 Codex harness 实现手动压缩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            70.126,
+            73.087
+          ],
+          "quote": "that is part of Codex and ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            81.049,
+            84.25
+          ],
+          "quote": "and bring it into Codex and ChatGPT really fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            353.141,
+            358.308
+          ],
+          "quote": "what's the major change from using codex computer use from last week to today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            433,
+            436.245
+          ],
+          "quote": "So if you actually look at it in Codex and you expand the tool calls manually,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            629.517,
+            631.517
+          ],
+          "quote": "and codex when you take an app shot,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            644.651,
+            648.033
+          ],
+          "quote": "you can go into Codex, take an app shot by hitting the two command keys.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            650.294,
+            653.295
+          ],
+          "quote": "bring it into the Codex or ChatTBG chat.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            880.971,
+            883.474
+          ],
+          "quote": " I have dealt with so many bots with Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1090.458,
+            1094.744
+          ],
+          "quote": "you'd build something in codex and then the codex builds it for you and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1143.197,
+            1146.651
+          ],
+          "quote": "take screenshots, note it down, and then clone everything with codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1212.016,
+            1214.6271111111112
+          ],
+          "quote": "A lot of the things that you're seeing in Codex",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1321.178,
+            1323.822
+          ],
+          "quote": "They're just constantly having these codex agents running,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1357.607,
+            1360.628
+          ],
+          "quote": "it was for GBD 5.3 Codex Spark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            1857.488,
+            1862.353
+          ],
+          "quote": " I'm sure the Codex app team might pick this up and try to do something cool with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2188.386,
+            2192.663
+          ],
+          "quote": "if you look at the Codex implementation of it in the open source Codex harness,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2200.938,
+            2204.048
+          ],
+          "quote": "Some of them you will be able to see in the Codex Harness,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            2204.098,
+            2206.8489999999997
+          ],
+          "quote": "like it's already implemented in the Codex Harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2263.152,
+            2268.217
+          ],
+          "quote": "the codex harness, but what's the right amount of flexibility to give in that?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集反复谈到推理团队的工作：前几个月聚焦效率降本（Luna 降价 80% 的原因），现在转向把速度做到极致（UltraFast），Decisions API 也靠极致优化推理栈实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            114.33,
+            115.891
+          ],
+          "quote": "It does inference in parallel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            820.262,
+            821.504
+          ],
+          "quote": "there's things on the inference side,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1314.648,
+            1319.715
+          ],
+          "quote": "the most fun part of Ultrafast has been just watching the inference team cook",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1339.163,
+            1341.3852222222222
+          ],
+          "quote": " The inference improvements they landed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            1491.133,
+            1493.516
+          ],
+          "quote": "And so a guy from inference,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            1673.84,
+            1679.688
+          ],
+          "quote": "You're really optimizing the inference stack to get very fast on TTFT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            1690.264,
+            1694.44
+          ],
+          "quote": "All sorts of inference techniques people are working on to try to make it as fast as possible.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "websockets",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebSockets",
+      "file": "WebSockets",
+      "primary": false,
+      "how_described": "本集介绍的 GPT-6 配套能力：长连接双向通信，首次随 Codex Spark 推出，用于降低工具来回交互的开销，支持异步工具调用和注入消息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 409,
+          "t": [
+            1261.808,
+            1262.808
+          ],
+          "quote": " WebSockets",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1293.273,
+            1297.064
+          ],
+          "quote": " This is why we are the engineering podcast, because we get to talk about WebSockets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1353.304,
+            1354.195
+          ],
+          "quote": "And yeah, WebSockets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1354.805,
+            1357.567
+          ],
+          "quote": "it was like the first time we launched WebSockets,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1374.475,
+            1376.896
+          ],
+          "quote": "And so WebSockets is awesome for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "structured-outputs",
+      "type": "concept",
+      "role": "concept",
+      "name": "结构化输出 (structured outputs)",
+      "file": "结构化输出",
+      "primary": false,
+      "how_described": "本集说它是 Decisions API 实现的重要一环：用它做约束，使已有 Luna 权重能变成零样本的快速决策模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 530,
+          "t": [
+            1627.51,
+            1631.3433333333332
+          ],
+          "quote": "which is honestly structured outputs, which opening up was first too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1669.894,
+            1673.79
+          ],
+          "quote": "what you're doing is you're constraining Structured Outputs is a big part of it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "Nick 曾工作的公司，本集用它类比 AI 平台的开放题：在核心支付原语上构建更高层产品，对应「智能体 API 该给多少灵活性」的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 712,
+          "t": [
+            2234.59,
+            2236.383
+          ],
+          "quote": "I used to work at Stripe before this,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2236.433,
+            2237.795
+          ],
+          "quote": "and at Stripe,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]] [[Mali]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":41,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":388,"测试":2,"TDD":3,"开发者生产力":1}</script>
+<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":41,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":391,"测试":2,"TDD":3,"开发者生产力":1}</script>
 
 <script>
 (function(){

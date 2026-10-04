@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>77</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>78</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -87,6 +87,7 @@ unlisted: true
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(11:35起):本集详细介绍 Cursor 公开的评审员架构:八轮评审过滤误报、告诉模型『不要默认信任代码』、评审员还会生成修复智能体写补丁。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(01:56起):本集把 Cursor 列入人们爱用的第一方编程产品，说它同样处在爆炸半径中心且非常棒。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Codex 并列提及的编码工具，会带来更多代码和复杂性。
+- **[[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]]**(07:55起):本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一
 
 ## ① 提到它的金句
 
@@ -122,7 +123,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*77 集*
+*78 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
@@ -201,6 +202,7 @@ unlisted: true
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
+- [[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -208,7 +210,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"Anthropic":163,"OpenAI":150,"Codex":72,"Claude Code":92,"vibe coding":43,"推理":68,"Lenny":68,"ChatGPT":89,"NVIDIA":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"Anthropic":165,"OpenAI":151,"Codex":73,"Claude Code":93,"vibe coding":43,"推理":70,"Lenny":68,"ChatGPT":89,"NVIDIA":52}</script>
 
 <script>
 (function(){

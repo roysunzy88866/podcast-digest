@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>14</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>15</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ aliases: ["K8s", "k8s"]
 - **[[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]]**(52:28起):本集用它类比:软件工厂技术栈会像 Kubernetes 生态那样分解成开放接口和开放组件,开放正在以比任何人准备注意到的更快速度追赶
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(06:15起):本集仅在介绍 Cloud Foundry 历史时顺带一提它比 Kubernetes 和 Docker 还早。
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(44:48起):本集一笔带过：与 Linux 内核并列的「关键项目」例子，讨论谁为自动审查 token 买单时提到。
+- **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(10:41起):本集说 Teleport 的容器跑在 Google 机房的 Kubernetes 集群里、合上笔记本也继续运行；未来自动发布要检查 pod 是否崩溃、健康检查是否通过。
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
@@ -53,14 +54,15 @@ aliases: ["K8s", "k8s"]
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]] — 作为概念(提及)
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念(提及)
+- [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[沙箱]] · [[推理]] · [[Claude]] · [[可观测性]] · [[Anthropic]] · [[CI-CD]] · [[GitHub]] · [[投机解码]]
+[[智能体]] · [[沙箱]] · [[MCP]] · [[Anthropic]] · [[Claude]] · [[推理]] · [[Claude Code]] · [[可观测性]] · [[CI-CD]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"MCP":69,"沙箱":70,"推理":68,"Claude":81,"可观测性":35,"Anthropic":163,"CI-CD":16,"GitHub":27,"投机解码":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"沙箱":71,"MCP":71,"Anthropic":165,"Claude":83,"推理":70,"Claude Code":93,"可观测性":35,"CI-CD":16,"GitHub":27}</script>
 
 <script>
 (function(){

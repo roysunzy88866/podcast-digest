@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Sarah Simionescu]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]] [[Mali]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenRouter":13,"Stripe":43,"智能体":388,"微调":29,"Anjney Midha":1,"Amjad Masad":4,"Anthropic":163,"Replit":19,"Discord":6,"神经多样性":1}</script>
+<script type="application/json" class="pd-epn">{"OpenRouter":13,"Stripe":44,"智能体":391,"微调":29,"Anjney Midha":1,"Amjad Masad":4,"Anthropic":165,"Replit":19,"Discord":6,"神经多样性":1}</script>
 
 <script>
 (function(){

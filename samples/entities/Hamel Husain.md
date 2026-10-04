@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":388,"trace":2,"Anthropic":163}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":391,"trace":2,"Anthropic":165}</script>
 
 <script>
 (function(){

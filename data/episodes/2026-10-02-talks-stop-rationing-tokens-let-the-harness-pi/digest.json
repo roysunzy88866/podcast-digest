@@ -1,0 +1,130 @@
+{
+  "title_zh": "token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体",
+  "tldr": "Cast.AI 联合创始人 Laurent 与工程负责人 Zilvinas 讲解他们的 Kimchi 编码智能体：自动按任务结果选模型，成本降 2.5 倍、token 用量不设限。",
+  "digest_md": "这一集是一场大会演讲,主角是两位:Laurent,Cast.AI 的联合创始人兼总裁;Zilvinas,负责 Kimchi 编码平台整个工程团队的负责人。他们聊的是一件所有用 AI 写代码的团队都头疼的事:token 成本失控。\n\n钩子是两个真实的数字。印度有一家公司,仅一个月就在 Anthropic 上花了 5 亿美元;Uber 的 CTO 发推说,过去四个月用掉了 Anthropic 一整年的全部预算。企业的应对方式是限制开发者的 token 用量——但 Laurent 说,这种限制对开发者的感觉,就好比给你一台笔记本,电池只撑一小时,而且一天只能充一次电。Kimchi 的立场恰恰相反:管理者的工作不是阻止开发者用编码智能体,而是让 token 无限量供应、而且便宜。\n\n## 按每个 token 定价是错觉,要按任务算钱\n\n他们整套方案建立在一所大学白皮书的一个发现上:同一个任务、同样质量的前提下,各模型的真实成本差异巨大。看每 token 单价,模型都挺便宜;但看「完成同一个任务要花多少钱」,差别惊人——某模型每百万 token 只要 3.5 美元,看起来便宜,完成整个任务却要 705 美元;另一个每 token 成本 1.5,任务成本是 148 美元。\n\n由此他们的产品思路是:造一个自动化的框架(harness,即调度和包装模型调用的执行框架),基于任务的结果,在合适的时机为任务挑合适的模型。\n\n## 用了三个月:成本省 2.5 倍,token 反而多用 1.5 倍\n\n结果是他们自己内部的真实数据:300 名员工(三分之二是开发者)用了三个月编码智能体,相比直接用 Claude 节省了 2.5 倍成本。图表上,紫线是本应支付给 Claude 的按日账单,蓝线是实际支付的——结果相同,但 token 数量增加了 1.5 倍,给 Claude 的成本却下降了 1.5 倍。Laurent 强调这正是管理该做的事:因为成本被压下来了,团队才敢真正不限量地用。\n\n更反直觉的是模型选择的演变。Laurent 说,人类不可能盯着这种变化随时去测试、适应一个新模型,但一个痴迷于 token 成本的自动化智能体会。\n\n## Ferment:长任务自动跑,评分不到 B 不算完成\n\nZilvinas 接着讲实现。他们最初就是因为半年前 Claude 账单飙升,才不得不给自己造这个框架。其中有个叫 Ferment 的构造,专为长时间运行的任务设计——这类任务平均每两三个小时才需要人类介入一次。流程是:你回答框架问的一堆问题,它把任务分解成里程碑,自主编码超过两小时;构建坏了就改了重建,反复「发酵」;周期结束会给出输出评分。\n\n关键机制是:一个成果(artifact)只有在评分至少达到 B 级时才被视为完成;如果你不满意,可以让智能体回去修,争取拿到 A。也就是说,框架看的是结果,并根据结果质量来优化 token 开销。目前它有意止步于 staging 环境(预发布环境)——他们仍认为上线生产前需要人类把关,但终极目标是直接看生产指标和可观测性数据自动发布。\n\n## 读代码已经不够了,Teleport 让任务在你合上笔记本后继续跑\n\nZilvinas 提出一个判断:随着智能体工程越来越多,变更集里的代码改动多到难以逐行阅读——想象产品经理提交了一个 2000 行的 PR,你要审查的不只是差异,还有他想达成的意图和给智能体的规格说明。所以光读代码不够了。\n\n于是他们造了 Kimchi Teleport:合上笔记本,任务被传送到远程环境的沙箱里继续跑,沙箱跑在超大规模云厂商(这个例子是 Google)的 Kubernetes 集群里,本地感觉完全一样,只是不跑在你的电脑上。这个点子来自同事在飞机上写代码时设备断了、工作全丢的经历。效果:62% 的工程师现在写代码只用 Teleport——回家了它在跑,在路上它在跑,度假不看它它还在跑。\n\n## Studio:给团队用的看板,谁有空谁「接单」\n\nTeleport 偏个人用,他们又做了 Kimchi Studio——「给团队和企业的 Teleport」。它把所有正在运行的智能体会话可视化为一块看板:任务计划可以给同事、产品经理审阅,避免提示词执行到生产环境才发现需求是错的;进行中的会话如果请求审阅,团队里任何人都能说「我来接」,回答完它回到进行中,直到下一个进入审阅。一个五到十人的团队可以同时挂很多会话,按看板风格流转——哪些在评审、哪些进行中、哪些在 backlog。\n\n最后是可用性:harness 完全开源;Studio 和 Teleport 需要一个 Google 账号,五分钟能装好,想开多少会话就开多少。\n\n## 本集带走\n\n- **按「任务成本」选模型,别按 token 单价**:每 token 便宜的模型,做完同一个任务可能贵好几倍(705 美元 vs 148 美元)。比较模型必须锁死「同任务、同质量」。\n- **成本压下来才有资格谈「不限量」**:省 2.5 倍的同时 token 用量涨 1.5 倍,说明团队用得更狠了——这是管理者该追求的方向,而不是设限额。\n- **长任务要有客观验收线**:任务拆里程碑、自动构建自检,输出评分不到 B 不算完成;验收标准先于自动化存在,智能体才能放心跑两三个小时不等人。\n- **任务跑在云端沙箱而不是本地**:合上笔记本工作不中断,本地只做「感觉一样」的接口;团队再看板共享会话,谁有空谁接手审阅。",
+  "quotes": [
+    {
+      "en": "It's like, hey, you can use your laptop. You have an hour battery. And you can only charge once a day. That's how it feels to limit the amount of token for a developer.",
+      "zh": "就好比,嘿,你可以用你的笔记本,电池能撑一小时,而且一天只能充一次电。限制开发者的 token 用量就是这种感觉。",
+      "timestamp": "01:44",
+      "speaker": "Laurent"
+    },
+    {
+      "en": "Our job is not to prevent the developer to use Coding Agent. Our job is to make sure they can use it as much as they want for as long as they want in a completely unlimited fashion.",
+      "zh": "我们的工作不是阻止开发者使用编码智能体,而是确保他们可以随心所欲、尽其所愿地使用它,完全不受限制。",
+      "timestamp": "02:17",
+      "speaker": "Laurent"
+    },
+    {
+      "en": "Do you think we look at this as human? Absolutely not. But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+      "zh": "你觉得我们会作为人类盯着这个看吗?绝对不会。但一个自主的框架、一个痴迷于 token 成本的自动化编码智能体,就会做到这一点。",
+      "timestamp": "06:46",
+      "speaker": "Laurent"
+    },
+    {
+      "en": "We still believe there's like some little human that needs to be in the loop before going to the production, at least at this point. We all know that the ultimate future is to avoid that.",
+      "zh": "我们仍然认为在进入生产环境之前需要有一个小小的人类在环中,至少目前是这样。我们都知道终极未来是要避免这一点。",
+      "timestamp": "10:25",
+      "speaker": "Zilvinas"
+    },
+    {
+      "en": "What we believe is that reading code is not enough anymore.",
+      "zh": "我们所相信的是,仅仅阅读代码已经不够了。",
+      "timestamp": "11:01",
+      "speaker": "Zilvinas"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:44",
+      "speaker": "Unknown",
+      "en": "It's like, hey, you can use your laptop. You have an hour battery. And you can only charge once a day. That's how it feels to limit the amount of token for a developer.",
+      "zh": "就好比,嘿,你可以用你的笔记本,电池能撑一小时,而且一天只能充一次电。限制开发者的 token 用量就是这种感觉。"
+    },
+    {
+      "timestamp": "02:17",
+      "speaker": "Unknown",
+      "en": "Our job is not to prevent the developer to use Coding Agent. Our job is to make sure they can use it as much as they want for as long as they want in a completely unlimited fashion.",
+      "zh": "我们的工作不是阻止开发者使用编码智能体,而是确保他们可以随心所欲、尽其所愿地使用它,完全不受限制。"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Unknown",
+      "en": "On one side, you see the cost per token. On the other side, you see the cost per task for the same task with the same quality. That is the important thing.",
+      "zh": "一边是每个 token 的成本,另一边是同一个任务在相同质量下的任务成本。这一点很重要。"
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Unknown",
+      "en": "Would it be nice that you have an automated fashion, automated engine, automated harness that will select the right model for the task at the right time based on the outcome of the task?",
+      "zh": "如果你能有一个自动化的引擎、自动化的框架,基于任务的结果在合适的时机为任务选择合适的模型,那是不是很棒?"
+    },
+    {
+      "timestamp": "06:39",
+      "speaker": "Unknown",
+      "en": "Do you think we look at this as human? Absolutely not. But an autonomous harness, an automated coding agent that is obsessed with token costs is going to do just that.",
+      "zh": "你觉得我们会作为人类盯着这个看吗?绝对不会。但一个自主的框架、一个痴迷于 token 成本的自动化编码智能体,就会做到这一点。"
+    },
+    {
+      "timestamp": "06:51",
+      "speaker": "Unknown",
+      "en": "That is what I mean when I say our responsibility is to think about providing our developers with the right cost per token for the same outcome.",
+      "zh": "这就是我的意思:我们的责任是思考如何为开发者提供相同产出下每 token 的合适成本。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "We still contribute back to open source by providing our own harnesses open source, building constructs like Ferment, which fits into the kimchi theme, which is meant for long-running tasks",
+      "zh": "我们仍然回馈开源,把我们的 harness 开源,构建像 Ferment 这样契合 Kimchi 主题的构造,专为长时间运行的任务而设计"
+    },
+    {
+      "timestamp": "10:04",
+      "speaker": "Unknown",
+      "en": "And Artifact is only considered complete once the output of the scoring is at least B as a score.",
+      "zh": "一个成果只有在评分输出至少达到 B 级时才被视为完成。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Unknown",
+      "en": "We still believe there's like some little human that needs to be in the loop before going to the production, at least at this point. We all know that the ultimate future is to avoid that.",
+      "zh": "我们仍然认为在进入生产环境之前需要有一个小小的人类在环中,至少目前是这样。我们都知道终极未来是要避免这一点。"
+    },
+    {
+      "timestamp": "11:01",
+      "speaker": "Unknown",
+      "en": "What we believe is that reading code is not enough anymore.",
+      "zh": "我们所相信的是,仅仅阅读代码已经不够了。"
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Unknown",
+      "en": "So, yeah. Moving on.",
+      "zh": "所以,是的。继续往下。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Unknown",
+      "en": "It runs somewhere else in your environment, in a container, in a Kubernetes cluster, inside the place at Google, that will continue running even if you close your laptop.",
+      "zh": "它在你的环境里的其他地方运行,在一个容器里、一个 Kubernetes 集群里、Google 的机房里,即使你合上笔记本它也会继续运行。"
+    },
+    {
+      "timestamp": "14:11",
+      "speaker": "Unknown",
+      "en": "For that problem, they go home, it continues. They're in transit, it continues. They're on holiday, they don't look at it anymore. It continues.",
+      "zh": "有了它,他们回家了,它还在继续;他们在路上,它在继续;他们在度假、不再看它了,它还在继续。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Unknown",
+      "en": "Yet a very simple innovation that is so essential in how our engineers are coding.",
+      "zh": "然而一个如此简单的创新,却在我们工程师的编码方式中如此重要。"
+    },
+    {
+      "timestamp": "16:51",
+      "speaker": "Unknown",
+      "en": "If they close the laptop, it continues. This is so cool.",
+      "zh": "如果他们合上笔记本,任务会继续运行。这太酷了。"
+    }
+  ],
+  "voice_script": "今天这场演讲,来自 Cast.AI 的两位高管:联合创始人兼总裁 Laurent,还有 Kimchi 编码平台整个工程团队的负责人 Zilvinas。Cast.AI 这家公司你可能不熟,但他们要聊的问题,几乎所有用 AI 写代码的团队都躲不开——token 成本失控。\n\n先给你两个真实的数字感受一下。印度有一家公司,光一个月就在 Anthropic 上花了五亿美元。Uber 的 CTO 更是发推说,过去四个月,他们用掉了 Anthropic 一整年的全部预算。那企业怎么应对?最常见的办法就是给开发者限流:每人每天多少 token,用完拉倒。Laurent 说,这种限制对开发者的感受,就好比给你一台笔记本,电池只撑一小时,而且一天只能充一次电。Kimchi 的立场恰恰相反:管理者的工作,不是阻止开发者用编码智能体,而是让 token 无限量供应、而且便宜。\n\n好,那问题就来了——token 这么烧,凭什么敢不限量?这就要说到整套方案的理论基础了,来自一所大学白皮书里的一个发现。我们发现,平时看模型定价,大家都是看每 token 的单价,这么看每个模型都挺便宜的。但如果换一个角度,看\"完成同一个任务、保证同样质量,到底要花多少钱\",差别就惊人了。举个例子:某模型每百万 token 只要 3.5 美元,看着便宜吧?完成整个任务却要 705 美元。另一个模型,单价也不高,任务总成本只有 148 美元。所以按 token 定价其实是个错觉,真正该算的是任务的钱。\n\n想明白这一点,产品思路就顺了:造一个自动化的框架——他们管这叫 harness,说白了就是调度和包装模型调用的执行框架——让它基于任务的结果,在合适的时机为任务挑合适的模型。\n\n这套东西好不好使?他们自己内部先跑了三个月。三百名员工,三分之二是开发者。结果是,相比直接用 Claude,成本省了 2.5 倍。图表上,紫线是本应支付给 Claude 的按日账单,蓝线是实际支付的钱——结果一样,但 token 数量反而增加了 1.5 倍,给 Claude 的钱却降了 1.5 倍。Laurent 特别强调,这正是管理者该做的事:因为成本被压下来了,团队才敢真正不限量地用。更反直觉的是,哪些任务该换到哪个模型,这个选择一直在变。你觉得人类会盯着这些变化,随时去测试、去适应新模型吗?绝对不会。但一个痴迷于 token 成本的自动化智能体,就会做到这一点。\n\n那这套框架具体是怎么搭起来的呢?讲实现的是 Zilvinas。他们最初动手,其实是因为半年前 Claude 的账单飙升,不得不给自己造工具。这里面有个叫 Ferment 的构造,名字直译过来是\"发酵\",专为长时间运行的任务设计——这类任务平均每两三个小时才需要人类介入一次。流程是这样的:你先回答框架问的一堆问题,它把任务分解成一个个里程碑,然后自主编码超过两个小时;构建坏了就改了重建,反复\"发酵\";一个周期结束,它会给出输出评分。关键机制在这儿:一个成果,只有评分至少达到 B 级,才被算作完成;你要是不满意,可以让智能体回去修,争取拿 A。也就是说,框架看的是结果,并根据结果质量来优化 token 开销。目前它有意止步于 staging 环境,也就是预发布环境——毕竟,按照他们自己的说法,仍然认为进入生产环境之前,需要有一个小小的人类在环中,至少目前是这样;但终极未来,是直接看生产指标和可观测性数据自动发布。\n\n顺着这个思路再往前走一步,就引出一个更根本的判断。Zilvinas 提出:随着智能体干的活越来越多,一个变更集里的代码改动会多到难以逐行阅读。你想象一下,产品经理提交了一个两千行的 PR,你要审查的就不只是代码差异,还有他想达成的意图、他给智能体的规格说明。所以他们相信,仅仅阅读代码,已经不够了。怎么办?他们造了 Kimchi Teleport:合上笔记本,任务被传送到远程环境的沙箱里继续跑,沙箱跑在 Google 的 Kubernetes 集群里,本地感觉完全一样,只是不跑在你的电脑上。这个点子说来挺有意思,来自一位同事在飞机上写代码、设备断了工作全丢的经历。效果怎么样?62% 的工程师现在写代码只用 Teleport——回家了它在跑,在路上它在跑,度假不看它,它还在跑。\n\nTeleport 偏个人用,那团队怎么办?他们又做了 Kimchi Studio,可以理解成\"给团队和企业的 Teleport\"。它把所有正在运行的智能体会话,可视化为一块看板:任务计划可以给同事、给产品经理审阅,避免提示词一路执行到生产环境,才发现需求本身就错了。进行中的会话如果请求审阅,团队里任何人都能说一句\"我来接\",回答完它会回到进行中,直到下一次进入审阅。一个五到十人的团队,可以同时挂很多会话,像看板一样流转:哪些在评审、哪些进行中、哪些在待办。至于上手门槛:harness 完全开源;Studio 和 Teleport 只需要一个 Google 账号,五分钟装好,想开多少会话就开多少。\n\n回过头看,这一集最有价值的一点,其实是把\"省钱\"和\"放开用\"这对看似矛盾的诉求统一了起来。按任务成本选模型,而不是按 token 单价;成本压下来,才有资格谈不限量。就像 Laurent 说的,我们的工作不是阻止开发者使用编码智能体,而是确保他们可以随心所欲、尽其所愿地使用它,完全不受限制。"
+}

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":43,"无障碍性":2,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":52}</script>
+<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":43,"无障碍性":3,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":53}</script>
 
 <script>
 (function(){

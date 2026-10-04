@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":163,"智能体":388,"harness":51,"沙箱":70,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":35}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":165,"智能体":391,"harness":53,"沙箱":71,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":35}</script>
 
 <script>
 (function(){

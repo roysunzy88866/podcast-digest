@@ -1,0 +1,202 @@
+{
+  "title_zh": "仪表盘已死：智能体才是新用户",
+  "tldr": "Composio 的 Sarah 论证「仪表盘已死」：智能体不看界面，只看能不能干成活，并演示如何让 Claude 跨 Slack、Sentry、Datadog 五分钟修出 PR。",
+  "digest_md": "开场的 Sarah 是个每天用 Datadog 的工程师——但有一天同事让她当场查个告警，她打开仪表盘整个人僵住了：完全不知道东西在哪。她真的从来没打开过仪表盘，却每天都在「用」它。由此她抛出一个听似疯狂、其实显而易见的论点：**仪表盘已死**。而她的团队恰好负责 Composio 的仪表盘，所以她给仪表盘做了一次「复盘」。\n\n## 复盘第一幕：人类时代的工具地狱\n\n2022 年，有人在 Slack 上报了个 bug。她要立刻开五个窗口：Slack 读上下文、Datadog 写查询、PostHog 查会话、VS Code 修 bug、GitHub 开 PR——五个工具、五套 UI,每次改版还得重新学。更烦的是每个工具都有自己的查询语言：Datadog 有自己的语法，JIRA 有 JQL,Slack 有搜索修饰符；甚至连同说 SQL 的工具，SQL 也互不兼容 [01:23 Sarah]。\n\n她的洞见是：你用过的每一个仪表盘、每一种冷门查询语言，本质上都是**你和数据之间的翻译装置**——因为另一端的机器听不懂你真正想要什么。你从来就不想要一个带查询语言的仪表盘，你想要的是答案 [02:15 Sarah]。\n\n## 复盘第二幕：闪光按钮与 MCP 都没解决根本问题\n\n2023 年「闪光按钮」（各种 AI 产品里那个点击后让 LLM 帮你写查询的按钮）诞生，仪表盘变成 AI 原生——但前提是你的问题不需要超过两次数据库 join。后来 Anthropic 发布 MCP（一个让 AI 智能体连接外部数据源的开放标准），你自己的智能体可以直接生成查询、替你执行、给你答案。\n\n> 【背景】MCP 由 Anthropic 于 2024 年 11 月发布。\n\n看起来问题解决了？远没有。Sarah 说，真接过十几个 MCP 服务器的人都知道现实是一团糟，原因有三个 [03:43 Sarah]:\n\n1. **智能体不会学习**。每次对话从零开始，它不记得昨天在 Slack 里把链接格式搞砸了，今天只会再搞砸一次。用 skills 打补丁只是创可贴——因为给的上下文越多，智能体反而越笨。\n2. **工具一多模型就淹死**。接的服务器够多，等于把数千条工具定义直接倒进上下文窗口。她说光 Composio 的 GitHub 工具包就有超过 200 个工具，模型会抓错工具、理不清该先调用哪个。\n3. **每个应用都是孤岛**。每个 MCP 服务器只知道自己，任务一横跨两个应用(任务几乎总是这样)，拼装就是你的活儿。\n\n一句话总结：MCP 给了智能体一扇通往每个应用的门，却让它们站在成千上万个彼此隔绝的房间里——没有地图，也没有记忆 [04:45 Sarah]。\n\n## Composio 的解法：给智能体一个专用界面\n\nComposio 在 MCP 之上做了一层专为智能体设计的界面：把那些杂乱、文档稀疏、不断变化的 API,翻译成智能体真正爱用的东西。核心机制是 **Composio Search**——智能体先声明自己想完成什么任务，Composio 返回的不是一大堆工具定义，而是**恰好需要的工具，外加一份使用计划**。\n\n她演示了修那个 Slack bug 报告的完整流程：只把 Slack 消息链接粘贴给 Claude,说「用 Sentry 和 Datadog 找根因，开个 draft PR,不许出错」。Claude 声明三项子任务(取 Slack 消息、搜 Sentry 问题、搜 Datadog 日志)，Composio 对每项返回工具加计划——比如用 Slack 前得先找到频道 ID。然后智能体并行拉取各数据源、扫描代码库，不到五分钟，带修复的 PR 就提交上来了 [06:00 Sarah]。她强调：没搭工作流、没写 skill 教它，就只是 Claude 在用 Composio 的 MCP。\n\n第二个例子更见功力：她想看用户在 onboarding 时选择的行业分布，再深挖电商用户最爱用哪些工具集(Composio 把「应用」叫「工具集」)。这需要跨 PostHog 和 MetaBase 两个数据源。Claude 的做法很聪明：查到用户 ID 后**直接保存结果，不把完整数据加载进上下文**；先在 MetaBase 里查 schema、抽样感受结构，有把握后用一个叫 Composio Remote Workbench 的工具，动态生成一条带正则的 SQL 查出所有匹配用户——同样全程不把全量数据塞进上下文窗口 [08:22 Sarah]。几分钟内，跨两个数据源的答案就出来了。\n\n效果可衡量：她展示了尚未发布的早期对比结果——同样的任务、同样的模型，Composio 对比 Claude 应用市场里各应用自带的原生 MCP,完成度有明显差距 [06:30 Sarah]。\n\n## 真正的教训：你在服务一个新物种\n\n许多创业公司已经开始把落地页做成对 AI 友好(所谓 GEO,生成式引擎优化)，但很少有公司准备好让自己的**应用**被智能体使用。而趋势已经倒过来了：Composio 最早是帮开发者把热门应用变成智能体能用的工具，现在创业公司主动找上门，说客户在恳求一种通过智能体使用他们服务的方式 [09:33 Sarah]。\n\n她给所有正在构建产品的人的忠告：**你现在服务的是一个新物种的用户**。它们没有眼睛，不会点你的闪光按钮；它们带着一个目标和一套工具而来，只用一件事评判你——能不能把活干成 [09:47 Sarah]。十年来我们造产品都为了人类好用，下一个时代属于对智能体好用的产品。\n\n回到开场那一幕：她曾以为自己僵在仪表盘前是在落后，现在她把那一刻看作未来的预演。\n\n## 本集带走\n\n- **仪表盘和查询语言只是翻译装置**：用户要的从来是答案，不是界面。智能体能直接对话数据后，这一整层界面正在失去存在的理由。\n- **裸接 MCP 服务器的三个坑**：智能体无记忆(每次从零开始)、工具定义一多就淹没上下文窗口、应用之间互不连通——跨应用任务还是得人肉拼。\n- **「先声明任务、再取工具加计划」的模式**：让智能体说明要完成什么，按需返回少量工具和使用步骤，比一次性倒进几千条工具定义有效得多。\n- **跨源查数据的关键是别把全量结果塞进上下文**：存中间结果、先摸 schema 再写精确查询，智能体也能做原本要仪表盘才能做的分析。\n- **做产品的新评判标准**：智能体用户只看「能不能把活干成」——没有眼睛，不看你的 UI,不点你的 AI 按钮。",
+  "quotes": [
+    {
+      "en": "The dashboard is dead.",
+      "zh": "仪表盘已死。",
+      "timestamp": "01:06",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "Every dashboard you've ever used, every weird, obscure query language ever written was a translation device between you and your data because the machines on the other end cannot understand what you actually wanted.",
+      "zh": "你用过的每一个仪表盘，每一种被写出来的奇怪、冷门的查询语言，都是你和你数据之间的翻译装置，因为另一端的机器无法理解你真正想要什么。",
+      "timestamp": "02:15",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "You never wanted a dashboard where it's cursed query language. You wanted the answer.",
+      "zh": "你从来不想要一个带着该死查询语言的仪表盘。你想要的是答案。",
+      "timestamp": "02:27",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "Every conversation starts from zero. It has no memory of how it fumbled formatting links properly in Slack yesterday, and so it's just going to fumble again today.",
+      "zh": "每次对话都是从零开始。它不记得昨天在 Slack 里把链接格式搞砸的事，所以今天它只会再搞砸一次。",
+      "timestamp": "03:53",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "And we patch this with skills, but skills is just a band-aid because agents become dumber with the more context you provide.",
+      "zh": "我们用 skills 来打补丁，但 skills 只是一张创可贴，因为你提供的上下文越多，智能体反而变得越笨。",
+      "timestamp": "04:01",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "I mean, our GitHub toolkit alone has over 200 tools. The model just drowns.",
+      "zh": "拿我们来说，光是 GitHub 工具包就有超过 200 个工具。模型直接被淹没了。",
+      "timestamp": "04:17",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "And so MCP gave agents a door into every app, but it left them standing in thousands of separate rooms with no map and no memory of ever being there.",
+      "zh": "所以 MCP 给了智能体一扇通往每个应用的门，却让它们站在成千上万个彼此隔绝的房间里，没有地图，也没有曾到过那里的记忆。",
+      "timestamp": "04:45",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "Once it identifies the root cause, PR is up with a fix in less than five minutes.",
+      "zh": "一旦它确定了根本原因，不到五分钟，带修复方案的 PR 就提交上来了。",
+      "timestamp": "06:00",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "We translate messy, sparsely documented, ever-changing APIs from all the apps that you live in every day into something that agents really love to use.",
+      "zh": "我们把你每天生活在其中的所有那些杂乱、文档稀疏、不断变化的 API,翻译成智能体真正爱用的东西。",
+      "timestamp": "06:56",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "But so few have really prepared their applications to be used by agents.",
+      "zh": "但很少有公司真正准备好让他们的应用能被智能体使用。",
+      "timestamp": "09:11",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "But the humans are tired of dashboards and their agents are tired of poorly designed MCP servers.",
+      "zh": "但人类已经厌倦了仪表盘，而他们的智能体也厌倦了设计糟糕的 MCP 服务器。",
+      "timestamp": "09:28",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "You are now serving a new species of user. They don't have eyes. They are not going to click your sparkle button.",
+      "zh": "你现在服务的是一个新物种的用户。它们没有眼睛。它们不会去点你的闪闪发光的按钮。",
+      "timestamp": "09:44",
+      "speaker": "Sarah Simionescu"
+    },
+    {
+      "en": "And the next era belongs to those that are easy for agents to use.",
+      "zh": "而下一个时代属于那些对智能体易于使用的产品。",
+      "timestamp": "10:05",
+      "speaker": "Sarah Simionescu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:59",
+      "speaker": "Sarah",
+      "en": "And so today, I want to make an argument that sounds kind of insane and then show you that it's obvious.",
+      "zh": "所以今天，我想提出一个听起来有点疯狂的观点，然后向你证明它是显而易见的。"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Sarah",
+      "en": "The dashboard is dead.",
+      "zh": "仪表盘已死。"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Sarah",
+      "en": "Every dashboard you've ever used, every weird, obscure query language ever written was a translation device between you and your data because the machines on the other end cannot understand what you actually wanted.",
+      "zh": "你用过的每一个仪表盘，每一种被写出来的奇怪、冷门的查询语言，都是你和你数据之间的翻译装置，因为另一端的机器无法理解你真正想要什么。"
+    },
+    {
+      "timestamp": "02:27",
+      "speaker": "Sarah",
+      "en": "You never wanted a dashboard where it's cursed query language. You wanted the answer.",
+      "zh": "你从来不想要一个带着该死查询语言的仪表盘。你想要的是答案。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Sarah",
+      "en": "That is, if your question does not require more than two database joins.",
+      "zh": "当然，前提是你的问题不需要超过两次数据库 join。"
+    },
+    {
+      "timestamp": "03:53",
+      "speaker": "Sarah",
+      "en": "Every conversation starts from zero. It has no memory of how it fumbled formatting links properly in Slack yesterday, and so it's just going to fumble again today.",
+      "zh": "每次对话都是从零开始。它不记得昨天在 Slack 里把链接格式搞砸的事，所以今天它只会再搞砸一次。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Sarah",
+      "en": "And we patch this with skills, but skills is just a band-aid because agents become dumber with the more context you provide.",
+      "zh": "我们用 skills 来打补丁，但 skills 只是一张创可贴，因为你提供的上下文越多，智能体反而变得越笨。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Sarah",
+      "en": "I mean, our GitHub toolkit alone has over 200 tools. The model just drowns.",
+      "zh": "拿我们来说，光是 GitHub 工具包就有超过 200 个工具。模型直接被淹没了。"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Sarah",
+      "en": "And so MCP gave agents a door into every app, but it left them standing in thousands of separate rooms with no map and no memory of ever being there.",
+      "zh": "所以 MCP 给了智能体一扇通往每个应用的门，却让它们站在成千上万个彼此隔绝的房间里，没有地图，也没有曾到过那里的记忆。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Sarah",
+      "en": "Once it identifies the root cause, PR is up with a fix in less than five minutes.",
+      "zh": "一旦它确定了根本原因，不到五分钟，带修复方案的 PR 就提交上来了。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Sarah",
+      "en": "And it has become so much easier to do things this way that opening up Claude has just become like muscle memory for me to do literally anything.",
+      "zh": "这样做事变得如此简单，以至于打开 Claude 已经成了我的肌肉记忆，我做什么事都这样。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Sarah",
+      "en": "We translate messy, sparsely documented, ever-changing APIs from all the apps that you live in every day into something that agents really love to use.",
+      "zh": "我们把你每天生活在其中的所有那些杂乱、文档稀疏、不断变化的 API,翻译成智能体真正爱用的东西。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Sarah",
+      "en": "And once it's confident, it actually uses a very cool tool called Composio Remote Workbench to dynamically generate an SQL query with a regex string to search for all those user IDs, again, without ever loading the entire thing into its context window.",
+      "zh": "一旦它有了把握，它实际上使用了一个非常酷的工具，叫做 Composio Remote Workbench,动态生成一条带正则字符串的 SQL 查询来搜索所有那些用户 ID,同样，从头到尾都没有把整个数据加载进它的上下文窗口。"
+    },
+    {
+      "timestamp": "09:11",
+      "speaker": "Sarah",
+      "en": "But so few have really prepared their applications to be used by agents.",
+      "zh": "但很少有公司真正准备好让他们的应用能被智能体使用。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Sarah",
+      "en": "But the humans are tired of dashboards and their agents are tired of poorly designed MCP servers.",
+      "zh": "但人类已经厌倦了仪表盘，而他们的智能体也厌倦了设计糟糕的 MCP 服务器。"
+    },
+    {
+      "timestamp": "09:44",
+      "speaker": "Sarah",
+      "en": "You are now serving a new species of user. They don't have eyes. They are not going to click your sparkle button.",
+      "zh": "你现在服务的是一个新物种的用户。它们没有眼睛。它们不会去点你的闪闪发光的按钮。"
+    },
+    {
+      "timestamp": "09:56",
+      "speaker": "Sarah",
+      "en": "Whether it can get the job done.",
+      "zh": "它能不能把活干成。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Sarah",
+      "en": "And the next era belongs to those that are easy for agents to use.",
+      "zh": "而下一个时代属于那些对智能体易于使用的产品。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Sarah",
+      "en": "But now I think of that moment as a preview of what's to come.",
+      "zh": "但现在我把那一刻看作对未来的一种预演。"
+    }
+  ],
+  "voice_script": "今天这期要讲的,是一个听起来有点疯狂的论断:仪表盘已死。说这话的人叫 Sarah,来自一家叫 Composio 的公司。有意思的是,她在 Composio 负责的,恰恰就是仪表盘这个产品。她等于是给自己做了多年的东西,写了一份复盘。\n\n先说说这件事是怎么来的。Sarah 本身是个工程师,每天都在用 Datadog——那是一个查监控数据的工具。但有一天,同事让她当场打开仪表盘查个告警,她打开之后整个人僵住了:完全不知道东西在哪。因为她真的从来没打开过仪表盘,却每天都在用仪表盘里的数据。这个瞬间让她意识到一件事:可能有一整个时代,正在悄悄结束。\n\n要理解这个论断,得先把时间往回调。二〇二二年,如果 Slack 上有人报了个 bug,Sarah 要立刻开五个窗口:Slack 读上下文,Datadog 写查询,PostHog 查用户会话,VS Code 修 bug,最后 GitHub 开 PR。五个工具,五套界面,每次改版还得重新学。更烦的是,每个工具都有自己的查询语言——Datadog 有自己的语法,JIRA 有 JQL,Slack 有搜索修饰符,甚至连同样说 SQL 的工具,彼此的 SQL 都互不兼容。\n\n那这些查询语言到底是干什么的?Sarah 有个很妙的说法。你用过的每一个仪表盘,每一种冷门查询语言,本质上都是你和数据之间的翻译装置——为什么需要翻译?因为另一端的机器听不懂你真正想要什么。你从来不想要一个带着查询语言的仪表盘,你想要的是答案。\n\n那既然需求就是\"要答案\",后来的技术演进就顺理成章了。二〇二三年,各种 AI 产品里出现了那个点击后让大模型帮你写查询的闪光按钮,仪表盘变得 AI 原生——但有个前提,你的问题不能太复杂,超过两次数据库 join 它就吃不消了。再后来,Anthropic 发布了一个叫 MCP 的开放标准,让 AI 智能体能直接连接外部数据源。这下看起来彻底解决了:你自己的智能体可以直接生成查询、替你执行、给你答案。\n\n问题真的解决了吗?远没有。Sarah 说,真接过十几个 MCP 服务器的人都知道,现实是一团糟。具体有三个坑。\n\n第一个坑,智能体不会学习。每次对话都是从零开始,它不记得昨天在 Slack 里把链接格式搞砸了,所以今天只会再搞砸一次。有人说用 skills 打补丁行不行?但 skills 只是一张创可贴,因为你提供的上下文越多,智能体反而变得越笨。\n\n第二个坑,工具一多模型就淹死。接的服务器够多,等于把数千条工具定义直接倒进上下文窗口。拿 Composio 自己来说,光是 GitHub 工具包就有超过两百个工具,模型会抓错工具,理不清该先调用哪个。\n\n第三个坑,每个应用都是孤岛。每个 MCP 服务器只知道自己,可任务一横跨两个应用——任务几乎总是这样——拼装就是你的活儿。\n\n一句话总结:MCP 给了智能体一扇通往每个应用的门,却让它们站在成千上万个彼此隔绝的房间里,没有地图,也没有记忆。\n\n那 Composio 怎么解决?思路是,MCP 是\"门\",Composio 在这之上再加一层专为智能体设计的界面,把那些杂乱、文档稀疏、不断变化的 API,翻译成智能体真正爱用的东西。核心机制叫 Composio Search:智能体先声明自己想完成什么任务,Composio 返回的不是一大堆工具定义,而是恰好需要的工具,外加一份使用计划。\n\n这套东西跑起来什么样?Sarah 现场演示了开头那个 Slack bug 报告的完整流程。她只把 Slack 消息的链接粘贴给 Claude,说:用 Sentry 和 Datadog 找根因,开个 draft PR,不许出错。Claude 就声明三项子任务——取 Slack 消息、搜 Sentry 问题、搜 Datadog 日志——Composio 对每一项返回工具加计划,比如用 Slack 之前得先找到频道 ID。然后智能体并行拉取各数据源、扫描代码库,不到五分钟,带修复的 PR 就提交上来了。她特别强调,没搭工作流,也没写 skill 教它,就只是 Claude 在用 Composio 的 MCP。\n\n第二个例子更能看出门道。Sarah 想看用户在 onboarding 时选择的行业分布,再深挖电商用户最爱用哪些工具集——在 Composio 的说法里,\"工具集\"就是应用。这个任务要横跨 PostHog 和 MetaBase 两个数据源。Claude 的做法很聪明:查到用户 ID 之后直接保存结果,不把完整数据加载进上下文;先在 MetaBase 里查数据结构、抽样感受一下,有把握之后,用一个叫 Composio Remote Workbench 的工具,动态生成一条带正则的 SQL,查出所有匹配用户——同样全程不把全量数据塞进上下文。几分钟之内,跨两个数据源的分析就出来了。这正是以前非要仪表盘才能干的事。\n\n效果也是可衡量的。Sarah 展示了尚未发布的早期对比结果:同样的任务、同样的模型,Composio 对比 Claude 应用市场里各应用自带的原生 MCP,完成度有明显差距。\n\n讲到这,才是这期真正的教训。现在不少创业公司已经开始把落地页做得对 AI 友好,这个方向叫 GEO,生成式引擎优化。但很少有公司准备好让自己的应用被智能体使用。而趋势已经倒过来了:Composio 最早是帮开发者把热门应用变成智能体能用的工具,现在是创业公司主动找上门,说客户在恳求一种通过智能体使用他们服务的方式。\n\n所以 Sarah 给所有正在构建产品的人的忠告是:你现在服务的是一个新物种的用户。它们没有眼睛,不会点你的闪光按钮;它们带着一个目标和一套工具而来,只用一件事评判你——能不能把活干成。\n\n回到开场那一幕,Sarah 曾以为自己僵在仪表盘前,是在落后。现在她把那一刻看作未来的预演。我们用十年造产品,都是为了对人类好用;下一个时代,属于对智能体好用的产品。仪表盘已死,不是一句玩笑,而是新时代的起点。"
+}

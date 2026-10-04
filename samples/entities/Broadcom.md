@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Broadcom</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Broadcom">BR</div><div class="pi"><h1 class="pt">Broadcom</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Broadcom">BR</div><div class="pi"><h1 class="pt">Broadcom</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]]**(34:57起):本集说 Broadcom 是 Jalapeno 芯片的深度合作伙伴，在交付 ASIC 方面有很强的过往记录。
 - **[[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]]**(05:55起):本集顺带提到 Broadcom 产品大多在 TSMC 制造;嘉宾还曾在 Broadcom 工作多年并受 Bob Rango 影响
 - **[[2026-09-03-sourcery-blackrocks-tony-kim-on-ais-next-winners|《BlackRock Tony Kim：一万亿美元的资本支出，只为把数据移动几毫米》]]**(01:57起):本集提到 Tony 将在台上和博通的 Charlie 聊 XPU 与芯片的 AI 协同设计，并提及他们新发布的 jalapeno 芯片。
+- **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(03:10起):本集说它是最大的 ASIC 后端交付厂商（两万亿美元市值），拥有芯片间互联的模拟 IP，帮助各大厂把内部芯片设计变为现实。
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]] — 作为被讨论公司(提及)
 - [[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]] — 作为被讨论公司(提及)
 - [[2026-09-03-sourcery-blackrocks-tony-kim-on-ais-next-winners|《BlackRock Tony Kim：一万亿美元的资本支出，只为把数据移动几毫米》]] — 作为被讨论公司(提及)
+- [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[数据中心]] · [[NVIDIA]] · [[推理]] · [[OpenAI]] · [[GPU]] · [[Microsoft]] · [[Gavin Baker]] · [[Sachin Katti]] · [[Michael]] · [[Tony Kim]]
+[[NVIDIA]] · [[数据中心]] · [[推理]] · [[OpenAI]] · [[TSMC]] · [[AMD]] · [[缩放定律]] · [[GPU]] · [[ASIC]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"数据中心":18,"NVIDIA":51,"推理":68,"OpenAI":150,"GPU":19,"Microsoft":28,"Gavin Baker":1,"Sachin Katti":1,"Michael":1,"Tony Kim":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":52,"数据中心":18,"推理":70,"OpenAI":151,"TSMC":8,"AMD":5,"缩放定律":10,"GPU":19,"ASIC":2,"Microsoft":28}</script>
 
 <script>
 (function(){

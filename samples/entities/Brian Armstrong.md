@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":388,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":5}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":391,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":5}</script>
 
 <script>
 (function(){

@@ -194,7 +194,7 @@ Andrew 用一个比喻区分两种决策方式：一种是老式电话电路，�
 
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)</span>
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)</span>
+- [[2026-09-30-latent-devday-2026|OpenAI DevDay 双专访：计算机使用 180 度大变样]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 </div>

@@ -170,8 +170,8 @@ AI 改变的是这一点：仪表盘上看到怪数字，可以直接问 Claude,
 **换个口味**
 
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同概念:数据仓库 (data warehouse)、智能体 (agent)</span>
+- [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|仪表盘已死：智能体才是新用户]]<span class="pd-rz">同概念:仪表盘 (dashboard)、智能体 (agent)</span>
 - [[2026-06-24-latent-space-databricks|Databricks 的反击：重写数据库、统一智能体与开放的执念]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
-- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:智能体 (agent)、数据仓库 (data warehouse)</span>
 
 </div>
 </div>

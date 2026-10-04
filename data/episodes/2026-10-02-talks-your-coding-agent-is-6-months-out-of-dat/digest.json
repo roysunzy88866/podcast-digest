@@ -1,0 +1,124 @@
+{
+  "title_zh": "给代码智能体装上搜索：EXA 的实战方法",
+  "tldr": "EXA 前置部署工程师 Jacob Hoisan 讲解如何为代码评审与编码智能体构建语义搜索，以及为什么光给智能体加搜索工具还不够。",
+  "digest_md": "这一集聊的是一件很具体的事：怎么给写代码和评审代码的 AI 智能体装上好用的网络搜索。演讲者是 EXA 的前置部署工程师 Jacob Hoisan——他的工作就是帮客户把 EXA 的搜索接进自己的智能体。EXA 做的不是 Google 式的「10 条蓝色链接」，而是一个语义搜索引擎：你传一个查询，它返回上下文丰富的高亮片段，直接喂给 LLM 用。按他的说法，湾区大部分 coding agent 公司(包括 Cursor、Cognition、Warp、CodeRabbit)的网页搜索都是 EXA 在背后驱动的。\n\n## 核心问题：模型有「知识截止日期」\n\n所有大语言模型都有知识截止日期——模型训练数据截止的那个时间点，之后发生的事它一概不知道。Jacob 给出的量级是：从知识截止到模型发布，通常要落后大约六个月。这六个月里，真实仓库上的重要变更日志、新推的 PR,模型既无法用来创建新仓库，也根本没法评审。\n\n他举了个真实例子：一个几个月前的向量存储 PR,落在模型截止日期之后的盲区里。人类怎么评审？会去 Stack Overflow 上问「这个叫 inertia check 的随机变量是不是被删了？为什么我的代码编译不过？」——把报错贴上去，通常能拿到答案，然后提 PR 解决。\n\n而一个没有网络搜索的 LLM 看这个 diff,会觉得「改动一致，像是一次清理」，看起来没问题。但实际上，删掉这个参数的原因是需要为一次依赖版本升级做重构。用网络搜索，智能体才能查看仓库本身、变更日志里的破坏性变更，然后深入解释这次迁移该怎么改。\n\n## 光加工具不够：一个两步问题\n\n这里有本集最反直觉的一点：仅仅把搜索工具接到智能体上，是不起作用的。Jacob 举的例子是 Claude Code——它原生就有网络搜索工具，但当你对它说「我想用 Sonnet 4.6 或 4.7」,模型会直接回答「这个版本不存在」，根本不去搜索。也就是说，即使工具有了访问权限，模型不知道自己该用它。\n\n所以必须走两步：一是**指示智能体何时使用搜索**(因为它通常不会自己触发)，二是**实际执行搜索**。落地做法是给模型一套明确的规则。比如给代码评审智能体写：当遇到一个升级依赖或版本的 diff 时，去查看上游源码验证这是否属实，然后把评审建立在你查到的内容之上。\n\n## 高亮蒸馏：只喂模型需要的 500 个字符\n\nEXA 返回的不是整个网页。它有一个解释步骤，把整个页面蒸馏成 LLM 回答这个问题真正需要的内容。Jacob 的原话：你不再给模型喂 100,000 个字符，而是只喂 500 个字符。\n\n这个高亮抽取完全是计算性的，运行时直接抽取特定行，不经过 LLM,零裁剪、零额外延迟。同一个网站，问他的生平简介会返回「热爱摄影、骑摩托车」那些内容，问他的电话号码则返回完全不同的一组信息——按查询动态决定抽取什么。放到代码场景：一个仓库可能有海量代码，但你既不想把全部代码喂进模型，也不想再调一个模型去综合它。\n\n## 为什么不直接用模型厂商自带的搜索\n\nJacob 给了四条理由：\n\n- **透明性**：用 OpenAI 或 Anthropic 的内置网页搜索是个黑盒——调 API、综合信息、可能耗时长达 10 秒，最后你拿到一部分来源、却拿不到内容。用 EXA 能拿到完整追踪：确切的查询、确切的来源、传给模型的高亮，可以直接接进遥测系统，出问题时能排查。\n- **省 token 的高亮**：如上所述，页面蒸馏成模型确切需要的内容。\n- **成本**：模型提供商的成本高到让你注意不到搜索账单，但在足够大的工作负载下，EXA 的定价比原生搜索划算得多，多数情况下质量也更好。\n- **不被绑定在一家模型商上**：用第三方搜索有一层标准化——GLM 出来就用 GLM,Anthropic、OpenAI 出新模型就用新模型，始终是同一个固定 API、同一组灵活参数，不用适配每家的搜索实现。\n\n## 质疑环节：数十亿文档怎么排序\n\n有观众问：互联网上数十亿文档的重排序和组织是怎么做的？Jacob 的回答：多阶段流程——查询转成查询嵌入，中间叠加关键词过滤与语义搜索，搜索过程中采用多轮重排序，丢弃不相关结果。索引是高度精选的：文档数量不如 Google 多，但他敢打赌，在这数百亿文档的索引里，文档质量非常高。\n\n## 产品延伸：编码只是开始\n\nJacob 说编码只是起点——这也正是他加入 EXA 的原因之一，当时就有大批人想把 EXA 当作获取编码文档的搜索 API。在编码之外，他们推出了新产品 Exa Agent:面向不想自己编排搜索、但需要好的搜索体验的场景，与多家数据提供商合作，从 SimilarWeb(网页分析)、Particle(播客情报)、Crunchbase(私募市场)等来源呈现高亮信息，正在为最大的金融公司和对冲基金提供支持。现场他还演示了一个查询：找出所有提到过这场大会的人——结果里出现了他认识的、给他发过邮件的演讲者。接入方式上，通过 MCP 就能调用，基本覆盖所有支持 MCP 的提供商。\n\n## 本集带走\n\n- **给智能体加搜索是两步，不是一步**：接入工具只是第一步，必须再给模型写明确的触发规则(例如「遇到依赖升级的 diff 就查上游变更日志验证」)，否则模型会自信地告诉你「这个版本不存在」而不去搜。\n- **别整页喂模型**：知识截止之后约六个月的真实仓库变更，模型天生看不见；搜索后要做页面蒸馏，把 10 万字符压到几百字符再喂给 LLM,省 token 也省注意力。\n- **评审代码时，diff 看起来对不等于真的对**：一个「像清理」的参数删除，背后可能是依赖升级带来的破坏性变更，只有查上游源码才能解释清楚。\n- **自建搜索工具时保留完整追踪**：确切的查询、来源、传给模型的高亮都落进遥测，出问题才能排查——这是厂商内置黑盒搜索给不了的。",
+  "quotes": [
+    {
+      "en": "Coding agents don't really need these 10 blue links that you see when you search Google.",
+      "zh": "代码编写智能体其实并不需要你在搜索 Google 时看到的那 10 条蓝色链接。",
+      "timestamp": "00:29",
+      "speaker": "Jakub Hojsan"
+    },
+    {
+      "en": "So you're not feeding the model 100,000 characters anymore. You're feeding it quite literally only 500 characters to answer the question.",
+      "zh": "这样你就不再给模型喂 100,000 个字符了，你实际上只给它喂 500 个字符来回答这个问题。",
+      "timestamp": "03:09",
+      "speaker": "Jakub Hojsan"
+    },
+    {
+      "en": "Now, adding a search tool to your agent is not enough.",
+      "zh": "仅仅给你的智能体加一个搜索工具是不够的。",
+      "timestamp": "03:20",
+      "speaker": "Jakub Hojsan"
+    },
+    {
+      "en": "We add zero extra latency to our search call by providing you the contents of pretty much any page on the internet.",
+      "zh": "通过为你提供互联网上几乎任何页面的内容，我们给搜索调用增加的额外延迟为零。",
+      "timestamp": "06:26",
+      "speaker": "Jakub Hojsan"
+    },
+    {
+      "en": "Our index is highly curated, so we don't have as many documents as Google, but I bet you that we have very high-quality documents in our tens of billions of documents index.",
+      "zh": "我们的索引是高度精选的，所以我们的文档数量没有 Google 那么多，但我敢打赌，在我们数百亿文档的索引里，我们有质量非常高的文档。",
+      "timestamp": "10:54",
+      "speaker": "Jakub Hojsan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:29",
+      "speaker": "Jacob Hoisan",
+      "en": "Coding agents don't really need these 10 blue links that you see when you search Google.",
+      "zh": "代码编写智能体其实并不需要你在搜索 Google 时看到的那 10 条蓝色链接。"
+    },
+    {
+      "timestamp": "00:53",
+      "speaker": "Jacob Hoisan",
+      "en": "As you can see from this graph, we're typically lagging around six months from the knowledge cutoff date to the release date.",
+      "zh": "正如你从这张图中所看到的，从知识截止日期到发布日期，我们通常落后大约六个月。"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Jacob Hoisan",
+      "en": "So you're not feeding the model 100,000 characters anymore. You're feeding it quite literally only 500 characters to answer the question.",
+      "zh": "这样你就不再给模型喂 100,000 个字符了，你实际上只给它喂 500 个字符来回答这个问题。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Jacob Hoisan",
+      "en": "Now, adding a search tool to your agent is not enough.",
+      "zh": "仅仅给你的智能体加一个搜索工具是不够的。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Jacob Hoisan",
+      "en": "It's instructing your agent when to use web search, since oftentimes it's not built in, and then also actually just executing the search in this instance.",
+      "zh": "一是指示你的智能体何时使用网络搜索，因为它通常不是内置的，二是实际执行这次搜索。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Jacob Hoisan",
+      "en": "When you're using a native web search tool within OpenAI or Anthropic, you actually have this black box that exists.",
+      "zh": "当你使用 OpenAI 或 Anthropic 内置的原生网页搜索工具时，实际上存在一个黑盒。"
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Jacob Hoisan",
+      "en": "So using web search, you're actually able to take a look at the repository itself, any breaking changes from this repos changelog, and then explain the migration in depth.",
+      "zh": "所以通过使用网络搜索，你实际上能够查看仓库本身、这个仓库变更日志中的任何破坏性变更，然后深入解释这次迁移。"
+    },
+    {
+      "timestamp": "06:26",
+      "speaker": "Jacob Hoisan",
+      "en": "We add zero extra latency to our search call by providing you the contents of pretty much any page on the internet.",
+      "zh": "通过为你提供互联网上几乎任何页面的内容，我们给搜索调用增加的额外延迟为零。"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Jacob Hoisan",
+      "en": "This is all given to you and can be passed into any of your telemetry to go investigate when something does go wrong.",
+      "zh": "这些全部都会给你，可以传入你的任何遥测系统，以便在出问题时去排查。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Jacob Hoisan",
+      "en": "But given sufficiently large workloads, we're priced actually much more effectively than native web search providers.",
+      "zh": "但在足够大的工作负载下，我们的定价实际上比原生网页搜索提供商划算得多。"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Jacob Hoisan",
+      "en": "And then another thing that most of our customers are very happy with is that not being tied to one model provider.",
+      "zh": "另一个让大多数客户非常满意的地方是，不被绑定在某一家模型提供商上。"
+    },
+    {
+      "timestamp": "07:39",
+      "speaker": "Jacob Hoisan",
+      "en": "And coding is really just the beginning.",
+      "zh": "而编码真的只是开始。"
+    },
+    {
+      "timestamp": "08:31",
+      "speaker": "Jacob Hoisan",
+      "en": "So we're powering the biggest financial firms and hedge funds with this information.",
+      "zh": "所以我们正在用这些信息为最大的金融公司和对冲基金提供支持。"
+    },
+    {
+      "timestamp": "10:54",
+      "speaker": "Jacob Hoisan",
+      "en": "Our index is highly curated, so we don't have as many documents as Google, but I bet you that we have very high-quality documents in our tens of billions of documents index.",
+      "zh": "我们的索引是高度精选的，所以我们的文档数量没有 Google 那么多，但我敢打赌，在我们数百亿文档的索引里，我们有质量非常高的文档。"
+    }
+  ],
+  "voice_script": "今天咱们聊一件很具体的事：怎么给写代码和评审代码的 AI 智能体装上好用的网络搜索。讲这件事的人是 EXA 的前置部署工程师 Jacob Hoisan,他的日常工作就是帮客户把 EXA 的搜索接进自己的智能体里。EXA 做的不是 Google 那种给你十条蓝色链接的搜索，而是语义搜索——你传一个查询过去，它返回的是上下文丰富的片段，直接就能喂给大模型用。湾区做编码智能体的公司，像 Cursor、Cognition、Warp、CodeRabbit,背后的网页搜索很多都是 EXA 在驱动的。那为什么要专门聊这件事？因为这里头有个坑，而且是个反直觉的坑：光给智能体加个搜索工具，是不够的。\n\n先从头说起。所有大语言模型都有一个东西叫知识截止日期，就是训练数据截止的那个时间点，之后发生的事模型一概不知道。按 Jacob 给的量级，从知识截止到模型真正发布，通常要落后大概六个月。这六个月里，真实代码仓库上的重要变更、新推的 PR,模型既没法帮你创建，也没法帮你评审。\n\n举个例子。有这么一个几个月前的向量存储 PR,正好落在模型截止日期之后的盲区里。人类会怎么评审？会去 Stack Overflow 上问：这个叫 inertia check 的随机变量是不是被删了？为什么我的代码编译不过？把报错贴上去，通常能拿到答案，然后提 PR 把问题解决掉。\n\n而一个没有网络搜索的大模型看这个 diff,会怎么判断？它会觉得改动挺一致的，像是一次清理，看起来没问题。但实际上呢，删掉这个参数，是因为要为一次依赖版本升级做重构。只有接上网络搜索，智能体才能去查仓库本身、查变更日志里的破坏性变更，才能讲清楚这次迁移到底该怎么改。\n\n那既然搜索这么重要，直接把搜索工具接到智能体上不就完了吗？恰恰不是。这就是本集最反直觉的地方。Jacob 举的例子是 Claude Code——这工具原生就带网络搜索，但当你对它说我想用某个新版本的模型时，它会直接回答这个版本不存在，压根不去搜索。也就是说，工具的访问权限是给了，但模型不知道自己在什么时候该用这个工具。\n\n所以正确做法是两步。第一步，指示智能体何时使用搜索，因为它通常不会自己触发；第二步，才是真正执行搜索。落地办法是给模型写一套明确的规则。比如给代码评审智能体写这么一条：当遇到一个升级依赖或版本的 diff,就去查看上游源码验证这是否属实，然后把评审建立在你查到的内容之上。规则写得越具体，模型越知道什么时候该伸手去搜。\n\n好，搜索触发的问题解决了，那搜回来的结果怎么喂给模型？这也是有讲究的。EXA 返回的不是整个网页，它有一个解释步骤，把整个页面蒸馏成模型回答这个问题真正需要的内容。Jacob 有句原话很形象：这样你不再给模型喂十万个字符，你实际上只给它喂五百个字符来回答这个问题。\n\n更妙的是，这个高亮抽取完全是计算性的，运行时直接抽取特定行，不经过大模型，所以零裁剪、零额外延迟。同一个网站，你问一个人的生平简介，返回的是热爱摄影、骑摩托车那些内容；你问他的电话号码，返回的就是完全不同的一组信息。抽取什么，是按查询动态决定的。放到代码场景里就特别实用：一个仓库可能有海量代码，你既不想把全部代码塞进模型，也不想再多调一个模型去做综合。\n\n那可能有人要问了：OpenAI、Anthropic 这些模型厂商不是自带搜索吗，为什么不直接用？Jacob 给了四条理由。第一是透明性。厂商内置的搜索是个黑盒，调一次 API、综合信息，可能耗时长达十秒，最后你只拿到一部分来源，却拿不到内容。而用 EXA 能拿到完整追踪：确切的查询、确切的来源、传给模型的高亮，全都直接接进遥测系统，出了问题能排查。第二就是刚才说的高亮省 token。第三是成本，模型提供商的账单贵到你会忽略搜索那点钱，但在足够大的工作负载下，EXA 的定价划算得多，多数情况下质量还更好。第四是不被绑死在一家模型商上——用第三方搜索等于多了一层标准化，出了新模型就换新模型，API 始终是同一个，不用适配每家的搜索实现。\n\n现场还有观众追问：互联网上几十亿份文档，你们是怎么排序的？回答是多阶段流程：查询先转成嵌入，中间叠加关键词过滤和语义搜索，搜索过程里做多轮重排序，把不相关的结果丢掉。至于索引，是高度精选的——用 Jacob 自己的话说，文档数量没有 Google 那么多，但我敢打赌，在数百亿文档的索引里，我们有质量非常高的文档。\n\n最后说一下编码之外的延伸。Jacob 说编码只是起点，这也是当初吸引他加入 EXA 的原因之一，那时候就有大批人想把 EXA 当成获取编码文档的搜索 API。在编码之外，他们推出了新产品 Exa Agent,面向那些不想自己编排搜索、但需要好的搜索体验的场景。做法是跟多家数据提供商合作，比如网页分析的 SimilarWeb、播客情报的 Particle、私募市场的 Crunchbase,从这些来源呈现高亮信息，目前正在给最大的金融公司和对冲基金提供支持。现场还演示了一个查询：找出所有提到过这场大会的人，结果里就出现了 Jacob 认识的、给他发过邮件的演讲者。接入方式上，通过 MCP 就能调用，基本覆盖所有支持 MCP 的提供商。\n\n所以今天这一集带走一句话就够了：代码编写智能体并不需要你在搜索 Google 时看到的那十条蓝色链接——它需要的是两步走，接入搜索工具只是第一步，给模型写清楚什么时候该搜、搜回来只喂它真正需要的那五百个字符，搜索才算真正长在智能体身上。"
+}

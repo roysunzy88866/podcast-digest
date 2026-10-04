@@ -1,0 +1,1106 @@
+[
+ {
+  "seg": 0,
+  "start": 13.011,
+  "end": 13.712,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.132,
+  "end": 17.635,
+  "speaker": "Unknown",
+  "en": "My name is Sarah, and I have a confession to make.",
+  "zh": "我叫 Sarah,我有一件事要坦白。"
+ },
+ {
+  "seg": 2,
+  "start": 19.316,
+  "end": 22.379,
+  "speaker": "Unknown",
+  "en": "So I've been using Datadog every day for the last six months.",
+  "zh": "过去六个月里,我每天都在使用 Datadog。"
+ },
+ {
+  "seg": 3,
+  "start": 23.079,
+  "end": 24.68,
+  "speaker": "Unknown",
+  "en": "And the other day, my coworker comes up to me.",
+  "zh": "前几天,我的同事走过来找我。"
+ },
+ {
+  "seg": 4,
+  "start": 24.76,
+  "end": 26.742,
+  "speaker": "Unknown",
+  "en": "He's like, hey, Sarah, can I look at this alert?",
+  "zh": "他说:嘿,Sarah,我能看看这个告警吗?"
+ },
+ {
+  "seg": 5,
+  "start": 27.363,
+  "end": 28.323,
+  "speaker": "Unknown",
+  "en": "I'm like, OK.",
+  "zh": "我说:好的。"
+ },
+ {
+  "seg": 6,
+  "start": 29.024,
+  "end": 31.246,
+  "speaker": "Unknown",
+  "en": "So I open up Datadog, and I'm logged out.",
+  "zh": "于是我打开 Datadog,发现我登出状态了。"
+ },
+ {
+  "seg": 7,
+  "start": 31.346,
+  "end": 33.087,
+  "speaker": "Unknown",
+  "en": "It's kind of awkward, so I have to log in.",
+  "zh": "有点尴尬,所以我得先登录。"
+ },
+ {
+  "seg": 8,
+  "start": 33.668,
+  "end": 38.712,
+  "speaker": "Unknown",
+  "en": "And he's looking over my shoulder, and I'm overly conscious about everything that I'm doing on my computer.",
+  "zh": "他在我身后看着,而我对自己在电脑上做的每一个动作都过度在意。"
+ },
+ {
+  "seg": 9,
+  "start": 40.313,
+  "end": 42.495,
+  "speaker": "Unknown",
+  "en": "And I open up the Datadog dashboard.",
+  "zh": "我打开了 Datadog 的仪表盘。"
+ },
+ {
+  "seg": 10,
+  "start": 43.673,
+  "end": 44.454,
+  "speaker": "Unknown",
+  "en": "And I just froze.",
+  "zh": "然后我僵住了。"
+ },
+ {
+  "seg": 11,
+  "start": 45.815,
+  "end": 47.537,
+  "speaker": "Unknown",
+  "en": "I had no idea where anything was.",
+  "zh": "我完全不知道任何东西在哪里。"
+ },
+ {
+  "seg": 12,
+  "start": 48.198,
+  "end": 49.899,
+  "speaker": "Unknown",
+  "en": "And this is actually not a knock on Datadog.",
+  "zh": "这其实不是在说 Datadog 不好。"
+ },
+ {
+  "seg": 13,
+  "start": 50.6,
+  "end": 53.943,
+  "speaker": "Unknown",
+  "en": "The problem was I had genuinely never opened the dashboard.",
+  "zh": "问题是,我是真的从来没打开过仪表盘。"
+ },
+ {
+  "seg": 14,
+  "start": 55.505,
+  "end": 58.228,
+  "speaker": "Unknown",
+  "en": "I've been using it every day without ever looking at it.",
+  "zh": "我每天都在用它,却从来没有看过它。"
+ },
+ {
+  "seg": 15,
+  "start": 59.629,
+  "end": 65.155,
+  "speaker": "Unknown",
+  "en": "And so today, I want to make an argument that sounds kind of insane and then show you that it's obvious.",
+  "zh": "所以今天,我想提出一个听起来有点疯狂的观点,然后向你证明它是显而易见的。"
+ },
+ {
+  "seg": 16,
+  "start": 66.236,
+  "end": 67.017,
+  "speaker": "Unknown",
+  "en": "The dashboard is dead.",
+  "zh": "仪表盘已死。"
+ },
+ {
+  "seg": 17,
+  "start": 67.976,
+  "end": 76.462,
+  "speaker": "Unknown",
+  "en": "And I think that's great news for everyone in this room, except probably for me because my team is responsible for the Composio dashboard.",
+  "zh": "而且我认为这对在座的每个人都是好消息,除了大概对我而言,因为我的团队负责 Composio 仪表盘。"
+ },
+ {
+  "seg": 18,
+  "start": 78.844,
+  "end": 80.045,
+  "speaker": "Unknown",
+  "en": "Alas, how did we get here?",
+  "zh": "唉,我们是怎么走到这一步的?"
+ },
+ {
+  "seg": 19,
+  "start": 80.365,
+  "end": 82.246,
+  "speaker": "Unknown",
+  "en": "I believe a postmortem is in order, shall we?",
+  "zh": "我觉得该做一次复盘了,来吧?"
+ },
+ {
+  "seg": 20,
+  "start": 83.887,
+  "end": 85.148,
+  "speaker": "Unknown",
+  "en": "The year is 2022.",
+  "zh": "那是 2022 年。"
+ },
+ {
+  "seg": 21,
+  "start": 85.388,
+  "end": 87.47,
+  "speaker": "Unknown",
+  "en": "It is the dark ages.",
+  "zh": "那是黑暗时代。"
+ },
+ {
+  "seg": 22,
+  "start": 88.47,
+  "end": 89.411,
+  "speaker": "Unknown",
+  "en": "Someone pings me on Slack.",
+  "zh": "有人在 Slack 上找我。"
+ },
+ {
+  "seg": 23,
+  "start": 89.431,
+  "end": 93.154,
+  "speaker": "Unknown",
+  "en": "They say, hey, I get this error when I try and search for prod.",
+  "zh": "他们说:嘿,我尝试搜索 prod 时遇到了这个错误。"
+ },
+ {
+  "seg": 24,
+  "start": 94.773,
+  "end": 97.015,
+  "speaker": "Unknown",
+  "en": "I would have instantly spawned five different windows.",
+  "zh": "我会立刻开出五个不同的窗口。"
+ },
+ {
+  "seg": 25,
+  "start": 97.495,
+  "end": 105.221,
+  "speaker": "Unknown",
+  "en": "Read the context in Slack, write a query in Datadog, check post-talk for this session, fix the bug in VS code, open the PR in GitHub.",
+  "zh": "在 Slack 里读上下文,在 Datadog 里写查询,在 post-talk 里查这个会话,在 VS code 里修 bug,在 GitHub 里开 PR。"
+ },
+ {
+  "seg": 26,
+  "start": 105.841,
+  "end": 111.045,
+  "speaker": "Unknown",
+  "en": "That is five tools and five UIs I have to learn and relearn every time they ship a new redesign.",
+  "zh": "那是五个工具、五套 UI,每次他们发布新版重新设计,我都得学习并重新学习。"
+ },
+ {
+  "seg": 27,
+  "start": 111.265,
+  "end": 116.77,
+  "speaker": "Unknown",
+  "en": "But frankly, redesigns are the least of my problems because every single tool has its own query language.",
+  "zh": "但坦白说,重新设计还是我最不用担心的问题,因为每一个工具都有它自己的查询语言。"
+ },
+ {
+  "seg": 28,
+  "start": 117.716,
+  "end": 123.2,
+  "speaker": "Unknown",
+  "en": "So Datadog has its own query syntax, JIRA has JQL, Slack has its search modifiers.",
+  "zh": "Datadog 有它自己的查询语法,JIRA 有 JQL,Slack 有它的搜索修饰符。"
+ },
+ {
+  "seg": 29,
+  "start": 124.121,
+  "end": 132.147,
+  "speaker": "Unknown",
+  "en": "And it gets worse because even when these tools claim to speak the same language, let's say SQL, they don't even agree on SQL.",
+  "zh": "而且情况更糟,因为即使这些工具声称说同一种语言,比如说 SQL,它们连 SQL 都不一致。"
+ },
+ {
+  "seg": 30,
+  "start": 135.293,
+  "end": 146.397,
+  "speaker": "Unknown",
+  "en": "Every dashboard you've ever used, every weird, obscure query language ever written was a translation device between you and your data because the machines on the other end cannot understand what you actually wanted.",
+  "zh": "你用过的每一个仪表盘,每一种被写出来的奇怪、冷门的查询语言,都是你和你数据之间的翻译装置,因为另一端的机器无法理解你真正想要什么。"
+ },
+ {
+  "seg": 31,
+  "start": 147.117,
+  "end": 150.118,
+  "speaker": "Unknown",
+  "en": "You never wanted a dashboard where it's cursed query language.",
+  "zh": "你从来不想要一个带着该死查询语言的仪表盘。"
+ },
+ {
+  "seg": 32,
+  "start": 150.138,
+  "end": 151.399,
+  "speaker": "Unknown",
+  "en": "You wanted the answer.",
+  "zh": "你想要的是答案。"
+ },
+ {
+  "seg": 33,
+  "start": 151.419,
+  "end": 153.38,
+  "speaker": "Unknown",
+  "en": "And in 2023, everything changed.",
+  "zh": "而在 2023 年,一切都变了。"
+ },
+ {
+  "seg": 34,
+  "start": 157.65,
+  "end": 158.471,
+  "speaker": "Unknown",
+  "en": "The Sparkle button.",
+  "zh": "闪光按钮。"
+ },
+ {
+  "seg": 35,
+  "start": 160.673,
+  "end": 162.134,
+  "speaker": "Unknown",
+  "en": "The Sparkle button was born.",
+  "zh": "闪光按钮诞生了。"
+ },
+ {
+  "seg": 36,
+  "start": 162.674,
+  "end": 168.299,
+  "speaker": "Unknown",
+  "en": "And with a click of this magical button, an LLM would write a sometimes-correct query to get you the answer you need.",
+  "zh": "只要点击这个神奇的按钮,一个 LLM 就会写出一条有时正确的查询,来帮你得到所需的答案。"
+ },
+ {
+  "seg": 37,
+  "start": 168.78,
+  "end": 172.343,
+  "speaker": "Unknown",
+  "en": "That is, if your question does not require more than two database joins.",
+  "zh": "当然,前提是你的问题不需要超过两次数据库 join。"
+ },
+ {
+  "seg": 38,
+  "start": 175.506,
+  "end": 177.768,
+  "speaker": "Unknown",
+  "en": "And soon enough, these sparkling buttons were everywhere.",
+  "zh": "很快,这些闪光按钮无处不在。"
+ },
+ {
+  "seg": 39,
+  "start": 178.408,
+  "end": 180.43,
+  "speaker": "Unknown",
+  "en": "So dashboards became AI native.",
+  "zh": "于是仪表盘变成了 AI 原生。"
+ },
+ {
+  "seg": 40,
+  "start": 180.83,
+  "end": 181.791,
+  "speaker": "Unknown",
+  "en": "Problem solved, right?",
+  "zh": "问题解决了,对吧?"
+ },
+ {
+  "seg": 41,
+  "start": 182.612,
+  "end": 183.593,
+  "speaker": "Unknown",
+  "en": "Well, not quite.",
+  "zh": "嗯,并不完全。"
+ },
+ {
+  "seg": 42,
+  "start": 184.933,
+  "end": 194.097,
+  "speaker": "Unknown",
+  "en": "In November of 2024, Anthropic announced the MCP protocol with a promise to create an open standard for connecting AI systems with its data sources, and that it did.",
+  "zh": "2024 年 11 月,Anthropic 发布了 MCP 协议,承诺为连接 AI 系统与其数据源创建一个开放标准,它确实做到了。"
+ },
+ {
+  "seg": 43,
+  "start": 194.717,
+  "end": 203.521,
+  "speaker": "Unknown",
+  "en": "Instead of using a sparkle button, your own agent, Claude, whom you've already been using every day, could generate the query for you, execute it on your behalf, and give you the answer directly.",
+  "zh": "不再用闪光按钮,你自己的智能体,也就是你每天都在用的 Claude,可以为你生成查询,代表你执行它,并直接给你答案。"
+ },
+ {
+  "seg": 44,
+  "start": 204.481,
+  "end": 207.442,
+  "speaker": "Unknown",
+  "en": "And you might be thinking, problem solved, right?",
+  "zh": "你可能在想,问题解决了,对吧?"
+ },
+ {
+  "seg": 45,
+  "start": 207.462,
+  "end": 208.623,
+  "speaker": "Unknown",
+  "en": "This is the end of the story.",
+  "zh": "故事到此结束了。"
+ },
+ {
+  "seg": 46,
+  "start": 209.422,
+  "end": 210.683,
+  "speaker": "Unknown",
+  "en": "Well, far from it.",
+  "zh": "嗯,远非如此。"
+ },
+ {
+  "seg": 47,
+  "start": 211.364,
+  "end": 212.826,
+  "speaker": "Unknown",
+  "en": "Because MCP is a protocol.",
+  "zh": "因为 MCP 是一个协议。"
+ },
+ {
+  "seg": 48,
+  "start": 212.866,
+  "end": 215.508,
+  "speaker": "Unknown",
+  "en": "It's a channel for communication between agents and your service.",
+  "zh": "它是智能体和你的服务之间的通信通道。"
+ },
+ {
+  "seg": 49,
+  "start": 215.929,
+  "end": 220.273,
+  "speaker": "Unknown",
+  "en": "And it's up to you, the service, to choose how to communicate with the agent.",
+  "zh": "而如何与智能体通信,由你,也就是服务,来决定。"
+ },
+ {
+  "seg": 50,
+  "start": 220.914,
+  "end": 222.816,
+  "speaker": "Unknown",
+  "en": "And it turns out that makes all the difference.",
+  "zh": "事实证明，这正是关键所在。"
+ },
+ {
+  "seg": 51,
+  "start": 223.757,
+  "end": 229.063,
+  "speaker": "Unknown",
+  "en": "If you've ever actually wired up a dozen MCP servers, you will know the reality is a mess.",
+  "zh": "如果你真的亲手接过十几个 MCP 服务器，你就会知道现实是一团糟。"
+ },
+ {
+  "seg": 52,
+  "start": 230.164,
+  "end": 230.985,
+  "speaker": "Unknown",
+  "en": "For three reasons.",
+  "zh": "有三个原因。"
+ },
+ {
+  "seg": 53,
+  "start": 232.075,
+  "end": 233.055,
+  "speaker": "Unknown",
+  "en": "Agents don't learn.",
+  "zh": "智能体不会学习。"
+ },
+ {
+  "seg": 54,
+  "start": 233.655,
+  "end": 235.056,
+  "speaker": "Unknown",
+  "en": "Every conversation starts from zero.",
+  "zh": "每次对话都是从零开始。"
+ },
+ {
+  "seg": 55,
+  "start": 235.096,
+  "end": 241.057,
+  "speaker": "Unknown",
+  "en": "It has no memory of how it fumbled formatting links properly in Slack yesterday, and so it's just going to fumble again today.",
+  "zh": "它不记得昨天在 Slack 里把链接格式搞砸的事，所以今天它只会再搞砸一次。"
+ },
+ {
+  "seg": 56,
+  "start": 241.977,
+  "end": 249.119,
+  "speaker": "Unknown",
+  "en": "And we patch this with skills, but skills is just a band-aid because agents become dumber with the more context you provide.",
+  "zh": "我们用 skills 来打补丁，但 skills 只是一张创可贴，因为你提供的上下文越多，智能体反而变得越笨。"
+ },
+ {
+  "seg": 57,
+  "start": 249.679,
+  "end": 252.58,
+  "speaker": "Unknown",
+  "en": "And loading more tools, more skills, takes more context.",
+  "zh": "而加载更多工具、更多 skills，会占用更多上下文。"
+ },
+ {
+  "seg": 58,
+  "start": 252.99,
+  "end": 257.052,
+  "speaker": "Unknown",
+  "en": "And if you connect enough servers, you're dumping thousands of tool definitions straight into the context window.",
+  "zh": "如果你接了足够多的服务器，你就等于把数千条工具定义直接倒进上下文窗口。"
+ },
+ {
+  "seg": 59,
+  "start": 257.692,
+  "end": 261.654,
+  "speaker": "Unknown",
+  "en": "I mean, our GitHub toolkit alone has over 200 tools.",
+  "zh": "拿我们来说，光是 GitHub 工具包就有超过 200 个工具。"
+ },
+ {
+  "seg": 60,
+  "start": 262.394,
+  "end": 263.314,
+  "speaker": "Unknown",
+  "en": "The model just drowns.",
+  "zh": "模型直接被淹没了。"
+ },
+ {
+  "seg": 61,
+  "start": 263.354,
+  "end": 268.056,
+  "speaker": "Unknown",
+  "en": "It grabs the wrong tool or struggles to resolve dependencies, and it can't figure out which one it needs to call first.",
+  "zh": "它抓错工具，或者难以理清依赖关系，搞不清该先调用哪一个。"
+ },
+ {
+  "seg": 62,
+  "start": 269.757,
+  "end": 272.378,
+  "speaker": "Unknown",
+  "en": "And third, every app is isolated.",
+  "zh": "第三，每个应用都是孤立的。"
+ },
+ {
+  "seg": 63,
+  "start": 272.862,
+  "end": 275.943,
+  "speaker": "Unknown",
+  "en": "Each MCP server knows about itself and nothing else.",
+  "zh": "每个 MCP 服务器只知道自己，其他一概不知。"
+ },
+ {
+  "seg": 64,
+  "start": 276.603,
+  "end": 283.905,
+  "speaker": "Unknown",
+  "en": "So the moment a task spans two apps, and like they always do, it is your job to piece that together.",
+  "zh": "所以一旦任务横跨两个应用——而任务往往都是这样——把这一切拼起来就是你的活儿了。"
+ },
+ {
+  "seg": 65,
+  "start": 285.006,
+  "end": 292.868,
+  "speaker": "Unknown",
+  "en": "And so MCP gave agents a door into every app, but it left them standing in thousands of separate rooms with no map and no memory of ever being there.",
+  "zh": "所以 MCP 给了智能体一扇通往每个应用的门，却让它们站在成千上万个彼此隔绝的房间里，没有地图，也没有曾到过那里的记忆。"
+ },
+ {
+  "seg": 66,
+  "start": 294.922,
+  "end": 302.888,
+  "speaker": "Unknown",
+  "en": "I'm going to show you a mock-up demo here of how I would solve this bug report from the very beginning, how I would solve it in 2026.",
+  "zh": "我要给大家看一个演示原型，展示我从头到尾会如何解决这个 bug 报告，以及我在 2026 年会怎么解决它。"
+ },
+ {
+  "seg": 67,
+  "start": 303.729,
+  "end": 308.472,
+  "speaker": "Unknown",
+  "en": "So imagine in this mock-up I have my Claude connected to the Composio MCP.",
+  "zh": "设想在这个原型里，我把 Claude 连接到了 Composio MCP。"
+ },
+ {
+  "seg": 68,
+  "start": 309.213,
+  "end": 318.08,
+  "speaker": "Unknown",
+  "en": "What I would do is I would literally just copy and paste the link to the message from Slack and say, please use Century Data Dog, find the root cause, create a draft PR, make no mistakes.",
+  "zh": "我要做的就是直接把 Slack 里那条消息的链接复制粘贴过来，说：请用 Century Data Dog，找出根本原因，创建一个 draft PR，不许出错。"
+ },
+ {
+  "seg": 69,
+  "start": 319.441,
+  "end": 324.162,
+  "speaker": "Unknown",
+  "en": "And the first thing it does is it calls Composio Search to state the task it wants to accomplish.",
+  "zh": "它做的第一件事是调用 Composio Search 来声明它想完成的任务。"
+ },
+ {
+  "seg": 70,
+  "start": 324.343,
+  "end": 326.343,
+  "speaker": "Unknown",
+  "en": "So in this case, it stated three.",
+  "zh": "在这个例子里，它声明了三项。"
+ },
+ {
+  "seg": 71,
+  "start": 326.903,
+  "end": 328.364,
+  "speaker": "Unknown",
+  "en": "It wants to fetch Slack messages.",
+  "zh": "它想获取 Slack 消息。"
+ },
+ {
+  "seg": 72,
+  "start": 328.404,
+  "end": 329.584,
+  "speaker": "Unknown",
+  "en": "It wants to search sentry issues.",
+  "zh": "它想搜索 sentry 的问题。"
+ },
+ {
+  "seg": 73,
+  "start": 329.624,
+  "end": 330.925,
+  "speaker": "Unknown",
+  "en": "It wants to search Datadog logs.",
+  "zh": "它想搜索 Datadog 日志。"
+ },
+ {
+  "seg": 74,
+  "start": 331.765,
+  "end": 338.367,
+  "speaker": "Unknown",
+  "en": "And for each of these three, Composio returns not only the correct tools it needs, but actually a plan of how to use them.",
+  "zh": "而对这三项中的每一项，Composio 返回的不只是它需要的正确工具，还有一个如何使用这些工具的计划。"
+ },
+ {
+  "seg": 75,
+  "start": 339.127,
+  "end": 344.409,
+  "speaker": "Unknown",
+  "en": "So for example, for Slack, you actually have to find the Slack channel ID before you can start querying for messages.",
+  "zh": "举例来说，对 Slack，你必须先找到 Slack 频道 ID，才能开始查询消息。"
+ },
+ {
+  "seg": 76,
+  "start": 346.532,
+  "end": 349.553,
+  "speaker": "Unknown",
+  "en": "Now that it's armed with all the context it needs, it has a plan.",
+  "zh": "现在它手握所需的全部上下文，有了一个计划。"
+ },
+ {
+  "seg": 77,
+  "start": 350.213,
+  "end": 353.054,
+  "speaker": "Unknown",
+  "en": "It starts pulling the message from Slack to see what the user complaint was.",
+  "zh": "它开始从 Slack 拉取消息，看看用户的投诉是什么。"
+ },
+ {
+  "seg": 78,
+  "start": 354.094,
+  "end": 359.216,
+  "speaker": "Unknown",
+  "en": "Then it begins pulling from data sources in parallel, Datadog, Sentry, and it begins scanning the code base.",
+  "zh": "然后它开始并行地从各数据源拉取，Datadog、Sentry，并且开始扫描代码库。"
+ },
+ {
+  "seg": 79,
+  "start": 360.656,
+  "end": 365.137,
+  "speaker": "Unknown",
+  "en": "Once it identifies the root cause, PR is up with a fix in less than five minutes.",
+  "zh": "一旦它确定了根本原因，不到五分钟，带修复方案的 PR 就提交上来了。"
+ },
+ {
+  "seg": 80,
+  "start": 366.098,
+  "end": 370.099,
+  "speaker": "Unknown",
+  "en": "I didn't have to build a workflow or write a skill to teach it how to do this.",
+  "zh": "我不需要搭建一个工作流，也不需要写一个 skill 去教它怎么做这件事。"
+ },
+ {
+  "seg": 81,
+  "start": 370.499,
+  "end": 373.18,
+  "speaker": "Unknown",
+  "en": "This is literally just Claude using Composio's MCP.",
+  "zh": "这真的就只是 Claude 在用 Composio 的 MCP。"
+ },
+ {
+  "seg": 82,
+  "start": 374.372,
+  "end": 380.553,
+  "speaker": "Unknown",
+  "en": "And it has become so much easier to do things this way that opening up Claude has just become like muscle memory for me to do literally anything.",
+  "zh": "这样做事变得如此简单，以至于打开 Claude 已经成了我的肌肉记忆，我做什么事都这样。"
+ },
+ {
+  "seg": 83,
+  "start": 381.413,
+  "end": 385.914,
+  "speaker": "Unknown",
+  "en": "And the dashboards I used to open every day are becoming increasingly unfamiliar to me.",
+  "zh": "而我以前每天打开的那些仪表盘，正变得让我越来越陌生。"
+ },
+ {
+  "seg": 84,
+  "start": 387.975,
+  "end": 389.895,
+  "speaker": "Unknown",
+  "en": "And the impact of designing for agents is measurable.",
+  "zh": "而且为智能体做设计的效果是可衡量的。"
+ },
+ {
+  "seg": 85,
+  "start": 390.015,
+  "end": 397.997,
+  "speaker": "Unknown",
+  "en": "So these are some early unreleased results comparing Composio against each app's own native MCP that's listed in the Claude marketplace.",
+  "zh": "这些是一些尚未发布的早期结果，把 Composio 和 Claude 应用市场里列出的各应用自带的 MCP 做了对比。"
+ },
+ {
+  "seg": 86,
+  "start": 398.717,
+  "end": 399.657,
+  "speaker": "Unknown",
+  "en": "So it's the same tasks.",
+  "zh": "任务是同样的任务。"
+ },
+ {
+  "seg": 87,
+  "start": 399.697,
+  "end": 400.438,
+  "speaker": "Unknown",
+  "en": "It's the same model.",
+  "zh": "模型是同样的模型。"
+ },
+ {
+  "seg": 88,
+  "start": 401.418,
+  "end": 402.318,
+  "speaker": "Unknown",
+  "en": "And we see a clear difference.",
+  "zh": "而我们看到了明显的差异。"
+ },
+ {
+  "seg": 89,
+  "start": 404.562,
+  "end": 404.922,
+  "speaker": "Unknown",
+  "en": "But why?",
+  "zh": "但为什么呢？"
+ },
+ {
+  "seg": 90,
+  "start": 405.763,
+  "end": 408.345,
+  "speaker": "Unknown",
+  "en": "Why is this experience so much better than native MCPs?",
+  "zh": "为什么这种体验比原生 MCP 好这么多？"
+ },
+ {
+  "seg": 91,
+  "start": 409.966,
+  "end": 415.77,
+  "speaker": "Unknown",
+  "en": "It's because at Composio, we are developing a brand new interface specifically designed for agents.",
+  "zh": "因为在 Composio，我们正在开发一个专为智能体设计的全新界面。"
+ },
+ {
+  "seg": 92,
+  "start": 416.35,
+  "end": 424.836,
+  "speaker": "Unknown",
+  "en": "We translate messy, sparsely documented, ever-changing APIs from all the apps that you live in every day into something that agents really love to use.",
+  "zh": "我们把你每天生活在其中的所有那些杂乱、文档稀疏、不断变化的 API，翻译成智能体真正爱用的东西。"
+ },
+ {
+  "seg": 93,
+  "start": 425.935,
+  "end": 438.183,
+  "speaker": "Unknown",
+  "en": "So we build on top of MCP, CLI, and native tools to deliver a cohesive, unified, and excellent experience for your agents that allows them to perform complex operations across these apps seamlessly.",
+  "zh": "所以我们在 MCP、CLI 和原生工具之上构建，为你的智能体提供统一、连贯且出色的体验，让它们能无缝地在这些应用之间执行复杂操作。"
+ },
+ {
+  "seg": 94,
+  "start": 439.264,
+  "end": 442.967,
+  "speaker": "Unknown",
+  "en": "I'm going to show you a more classic example of what I usually use it for every day.",
+  "zh": "我要给大家看一个更经典的例子，就是我平时每天用它做的事。"
+ },
+ {
+  "seg": 95,
+  "start": 443.853,
+  "end": 446.074,
+  "speaker": "Unknown",
+  "en": "So let's say I want to dig into some user data.",
+  "zh": "比方说，我想深挖一些用户数据。"
+ },
+ {
+  "seg": 96,
+  "start": 446.394,
+  "end": 450.155,
+  "speaker": "Unknown",
+  "en": "I want to see the distribution of what vertical my users select during onboarding.",
+  "zh": "我想看看用户在 onboarding 时选择的行业分布。"
+ },
+ {
+  "seg": 97,
+  "start": 450.835,
+  "end": 451.936,
+  "speaker": "Unknown",
+  "en": "I can simply just ask Claude.",
+  "zh": "我只需要直接问 Claude。"
+ },
+ {
+  "seg": 98,
+  "start": 452.636,
+  "end": 454.497,
+  "speaker": "Unknown",
+  "en": "Claude will, again, run Composio Search.",
+  "zh": "Claude 会再次运行 Composio Search。"
+ },
+ {
+  "seg": 99,
+  "start": 455.297,
+  "end": 458.158,
+  "speaker": "Unknown",
+  "en": "It will write a query in PostHog, execute it.",
+  "zh": "它会在 PostHog 里写一个查询，执行它。"
+ },
+ {
+  "seg": 100,
+  "start": 458.298,
+  "end": 458.858,
+  "speaker": "Unknown",
+  "en": "Nice and simple.",
+  "zh": "简洁又简单。"
+ },
+ {
+  "seg": 101,
+  "start": 458.878,
+  "end": 459.638,
+  "speaker": "Unknown",
+  "en": "There is my results.",
+  "zh": "这是我的结果。"
+ },
+ {
+  "seg": 102,
+  "start": 460.839,
+  "end": 462.599,
+  "speaker": "Unknown",
+  "en": "But what if I wanted to take this up a notch?",
+  "zh": "但如果我想更进一步呢？"
+ },
+ {
+  "seg": 103,
+  "start": 463.8,
+  "end": 470.402,
+  "speaker": "Unknown",
+  "en": "So I want to look at that e-commerce section right there, and I want to see what toolkits they like to use.",
+  "zh": "我想看那个电商板块，我想看看他们喜欢用什么工具集。"
+ },
+ {
+  "seg": 104,
+  "start": 470.742,
+  "end": 472.963,
+  "speaker": "Unknown",
+  "en": "Toolkits is another word for apps we like to use at Composio.",
+  "zh": "工具集是我们在 Composio 对应用(apps)的另一种叫法。"
+ },
+ {
+  "seg": 105,
+  "start": 474.393,
+  "end": 481.881,
+  "speaker": "Unknown",
+  "en": "So let's see if Claude can figure out how it can pull this data from MetaBase given the user IDs in PostHog.",
+  "zh": "那么我们看看 Claude 能不能想出如何根据 PostHog 里的用户 ID 从 MetaBase 拉取这些数据。"
+ },
+ {
+  "seg": 106,
+  "start": 483.122,
+  "end": 484.964,
+  "speaker": "Unknown",
+  "en": "So once again, it uses Composio Search.",
+  "zh": "于是它再次使用了 Composio Search。"
+ },
+ {
+  "seg": 107,
+  "start": 486.405,
+  "end": 489.749,
+  "speaker": "Unknown",
+  "en": "It queries the user IDs of those who selected e-commerce from PostHog.",
+  "zh": "它查询了在 PostHog 中选择了电商的那些用户 ID。"
+ },
+ {
+  "seg": 108,
+  "start": 490.37,
+  "end": 494.314,
+  "speaker": "Unknown",
+  "en": "And it actually saves it without loading the full results into its context.",
+  "zh": "而且它直接保存了结果，没有把完整结果加载进它的上下文。"
+ },
+ {
+  "seg": 109,
+  "start": 496.088,
+  "end": 501.893,
+  "speaker": "Unknown",
+  "en": "Then it makes some queries in MetaBase to get the database schema, sample some data, get a feel for how things are structured.",
+  "zh": "接着它在 MetaBase 里做了一些查询来获取数据库 schema、抽样一些数据，感受一下结构是什么样的。"
+ },
+ {
+  "seg": 110,
+  "start": 502.614,
+  "end": 517.688,
+  "speaker": "Unknown",
+  "en": "And once it's confident, it actually uses a very cool tool called Composio Remote Workbench to dynamically generate an SQL query with a regex string to search for all those user IDs, again, without ever loading the entire thing into its context window.",
+  "zh": "一旦它有了把握，它实际上使用了一个非常酷的工具，叫做 Composio Remote Workbench,动态生成一条带正则字符串的 SQL 查询来搜索所有那些用户 ID,同样，从头到尾都没有把整个数据加载进它的上下文窗口。"
+ },
+ {
+  "seg": 111,
+  "start": 519.529,
+  "end": 520.03,
+  "speaker": "Unknown",
+  "en": "And there we go.",
+  "zh": "然后就成了。"
+ },
+ {
+  "seg": 112,
+  "start": 522.437,
+  "end": 528.006,
+  "speaker": "Unknown",
+  "en": "So we can see the most popular toolkits amongst this user persona in less than a few minutes.",
+  "zh": "于是我们在不到几分钟的时间里看到了这个用户画像中最受欢迎的工具集。"
+ },
+ {
+  "seg": 113,
+  "start": 529.228,
+  "end": 531.05,
+  "speaker": "Unknown",
+  "en": "And that's data pulled from both sources.",
+  "zh": "而且这是从两个数据源拉取的数据。"
+ },
+ {
+  "seg": 114,
+  "start": 531.591,
+  "end": 534.836,
+  "speaker": "Unknown",
+  "en": "If you want to play with the live version, come visit us at the Composio booth.",
+  "zh": "如果你想玩一下线上版本，欢迎来 Composio 展台找我们。"
+ },
+ {
+  "seg": 115,
+  "start": 535.297,
+  "end": 536.459,
+  "speaker": "Unknown",
+  "en": "I'd love to have you play with this live.",
+  "zh": "我很乐意让你现场玩玩这个。"
+ },
+ {
+  "seg": 116,
+  "start": 540.02,
+  "end": 541.141,
+  "speaker": "Unknown",
+  "en": "And so the dashboard has died.",
+  "zh": "于是那个仪表盘挂了。"
+ },
+ {
+  "seg": 117,
+  "start": 541.862,
+  "end": 544.244,
+  "speaker": "Unknown",
+  "en": "And I'm thinking more and more about what this means for the future.",
+  "zh": "我越来越多地思考这对未来意味着什么。"
+ },
+ {
+  "seg": 118,
+  "start": 544.804,
+  "end": 550.549,
+  "speaker": "Unknown",
+  "en": "Many startups have begun making their landing pages and their websites AI friendly for GEO purposes.",
+  "zh": "许多创业公司已经开始把他们的落地页和网站做成对 AI 友好的，为了 GEO 的目的。"
+ },
+ {
+  "seg": 119,
+  "start": 551.089,
+  "end": 554.852,
+  "speaker": "Unknown",
+  "en": "But so few have really prepared their applications to be used by agents.",
+  "zh": "但很少有公司真正准备好让他们的应用能被智能体使用。"
+ },
+ {
+  "seg": 120,
+  "start": 556.153,
+  "end": 558.876,
+  "speaker": "Unknown",
+  "en": "Composio began as a tool to help developers.",
+  "zh": "Composio 一开始是一个帮助开发者的工具。"
+ },
+ {
+  "seg": 121,
+  "start": 559.296,
+  "end": 566.162,
+  "speaker": "Unknown",
+  "en": "We were taking these popular apps that users like and turned them into these tools that agents could use.",
+  "zh": "我们把这些用户喜欢的热门应用变成了智能体可以使用的工具。"
+ },
+ {
+  "seg": 122,
+  "start": 568.215,
+  "end": 572.958,
+  "speaker": "Unknown",
+  "en": "But the humans are tired of dashboards and their agents are tired of poorly designed MCP servers.",
+  "zh": "但人类已经厌倦了仪表盘，而他们的智能体也厌倦了设计糟糕的 MCP 服务器。"
+ },
+ {
+  "seg": 123,
+  "start": 573.618,
+  "end": 579.481,
+  "speaker": "Unknown",
+  "en": "And now we're getting requests from startups saying their clients are begging for a way to use their services through their agents.",
+  "zh": "现在我们收到创业公司的请求，说他们的客户在苦苦恳求一种通过智能体使用他们服务的方式。"
+ },
+ {
+  "seg": 124,
+  "start": 581.582,
+  "end": 583.803,
+  "speaker": "Unknown",
+  "en": "So this is a lesson for everyone building anything right now.",
+  "zh": "所以这是给现在正在构建任何东西的所有人的一个教训。"
+ },
+ {
+  "seg": 125,
+  "start": 584.204,
+  "end": 586.665,
+  "speaker": "Unknown",
+  "en": "You are now serving a new species of user.",
+  "zh": "你现在服务的是一个新物种的用户。"
+ },
+ {
+  "seg": 126,
+  "start": 587.165,
+  "end": 588.146,
+  "speaker": "Unknown",
+  "en": "They don't have eyes.",
+  "zh": "它们没有眼睛。"
+ },
+ {
+  "seg": 127,
+  "start": 588.486,
+  "end": 590.787,
+  "speaker": "Unknown",
+  "en": "They are not going to click your sparkle button.",
+  "zh": "它们不会去点你的闪闪发光的按钮。"
+ },
+ {
+  "seg": 128,
+  "start": 591.627,
+  "end": 596.03,
+  "speaker": "Unknown",
+  "en": "It shows up with a goal and a set of tools, and it judges you on exactly one thing.",
+  "zh": "它们带着一个目标和一套工具而来，并且只用一件事来评判你。"
+ },
+ {
+  "seg": 129,
+  "start": 596.822,
+  "end": 598.403,
+  "speaker": "Unknown",
+  "en": "Whether it can get the job done.",
+  "zh": "那就是它能不能把活干成。"
+ },
+ {
+  "seg": 130,
+  "start": 599.684,
+  "end": 604.447,
+  "speaker": "Unknown",
+  "en": "For a decade, we've built products to be easy for humans to use.",
+  "zh": "十年来，我们构建的产品都是为了人类易于使用。"
+ },
+ {
+  "seg": 131,
+  "start": 605.428,
+  "end": 609.991,
+  "speaker": "Unknown",
+  "en": "And the next era belongs to those that are easy for agents to use.",
+  "zh": "而下一个时代属于那些对智能体易于使用的产品。"
+ },
+ {
+  "seg": 132,
+  "start": 611.112,
+  "end": 612.173,
+  "speaker": "Unknown",
+  "en": "So picture me again.",
+  "zh": "所以再想象一下我。"
+ },
+ {
+  "seg": 133,
+  "start": 612.213,
+  "end": 613.954,
+  "speaker": "Unknown",
+  "en": "I'm frozen in front of that Datadog dashboard.",
+  "zh": "我在那个 Datadog 仪表盘前僵住了。"
+ },
+ {
+  "seg": 134,
+  "start": 614.174,
+  "end": 617.056,
+  "speaker": "Unknown",
+  "en": "And I was thinking to myself in that moment that I'm falling behind.",
+  "zh": "当时我心里想的是自己正在落后。"
+ },
+ {
+  "seg": 135,
+  "start": 618.137,
+  "end": 621.259,
+  "speaker": "Unknown",
+  "en": "But now I think of that moment as a preview of what's to come.",
+  "zh": "但现在我把那一刻看作对未来的一种预演。"
+ },
+ {
+  "seg": 136,
+  "start": 622.2,
+  "end": 622.52,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 137,
+  "start": 626.17,
+  "end": 626.411,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

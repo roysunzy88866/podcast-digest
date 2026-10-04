@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":388,"沙箱":70,"Claude Code":92,"Opus 5":4,"Anthropic":163,"系统提示词":8,"评估":3,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"沙箱":71,"Claude Code":93,"Opus 5":4,"Anthropic":165,"系统提示词":8,"评估":3,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

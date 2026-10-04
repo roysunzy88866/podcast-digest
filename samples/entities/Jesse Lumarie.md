@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":2,"智能体":388,"评估":3,"CodeConnect":1,"上下文窗口":12,"React Tailwind":1,"Anthropic":163,"OAuth":2,"Cursor":77}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":2,"智能体":391,"评估":3,"CodeConnect":1,"上下文窗口":13,"React Tailwind":1,"Anthropic":165,"OAuth":2,"Cursor":78}</script>
 
 <script>
 (function(){

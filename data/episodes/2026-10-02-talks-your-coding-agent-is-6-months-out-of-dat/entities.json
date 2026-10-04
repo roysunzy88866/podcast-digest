@@ -1,0 +1,590 @@
+{
+  "episode_id": "2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "语义搜索",
+    "代码评审",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jakub-hojsan",
+      "type": "person",
+      "role": "guest",
+      "name": "Jakub Hojsan",
+      "file": "Jakub Hojsan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "exa",
+      "type": "company",
+      "role": "company",
+      "name": "EXA",
+      "file": "EXA",
+      "primary": true,
+      "how_described": "本集说它是一个语义搜索引擎：传入查询、返回上下文丰富的高亮片段直接喂给 LLM，为湾区大部分 coding agent 公司(Cursor、Cognition、Warp、CodeRabbit)的网页搜索提供支持",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            18.547,
+            20.448
+          ],
+          "quote": "I'm a forward-deployed engineer here at EXA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            98.603,
+            101.745
+          ],
+          "quote": "So that's kind of where EXA comes into play in this instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            273.348,
+            276.69
+          ],
+          "quote": "So there's four things that EXA kind of gives a model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            462.075,
+            464.977
+          ],
+          "quote": "This is one of the reasons why I joined Exa in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            465.418,
+            472.163
+          ],
+          "quote": "We had such a large swath of people that wanted to use Exa as a search API to get coding docs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            490.037,
+            490.918
+          ],
+          "quote": "It's called Exa Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            547.985,
+            551.047
+          ],
+          "quote": "If you wanted to find all the employees that work at EXA, you can also do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "warp",
+      "type": "company",
+      "role": "company",
+      "name": "Warp",
+      "file": "Warp",
+      "primary": false,
+      "how_described": "本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit",
+      "type": "company",
+      "role": "company",
+      "name": "CodeRabbit",
+      "file": "CodeRabbit",
+      "primary": false,
+      "how_described": "本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "exa-agent",
+      "type": "company",
+      "role": "company",
+      "name": "Exa Agent",
+      "file": "Exa Agent",
+      "primary": true,
+      "how_described": "本集介绍它是 EXA 的新产品：面向不想自己编排搜索但需要好搜索体验的场景，与 SimilarWeb、Particle、Crunchbase 等数据提供商合作，为金融公司和对冲基金提供支持，可通过 MCP 调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            490.037,
+            490.918
+          ],
+          "quote": "It's called Exa Agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线是给编码和评审智能体构建搜索：智能体仅接入搜索工具不够，还需明确的规则指示它何时触发搜索，否则模型会自信地说「这个版本不存在」而不去搜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            45.023,
+            53.404
+          ],
+          "quote": "The core problem that we have with large language models in code review and coding agent applications is that there's a knowledge cutoff to all of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            200.408,
+            203.071
+          ],
+          "quote": "Now, adding a search tool to your agent is not enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            206.875,
+            215.365
+          ],
+          "quote": "If you just bolt on a web search onto your agent, many of you have seen maybe when you're using Claude Code, you'll say, hey, I'd like to use Sonnet 4.6 or 4.7 now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            235.341,
+            250.235
+          ],
+          "quote": "So when you're doing a code review agent, the rule might look like when you have a diff that bumps the dependency or version, you might want to look at the upstream source to verify that this is actually true and then ground the actual review in what you find.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            251.515,
+            256.657
+          ],
+          "quote": "So when I work with these code review and coding agent customers, there's several instances where this might happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            256.677,
+            260.819
+          ],
+          "quote": "They might actually add the tool to their agent, and then adding it to the harness is simply not enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            262.5,
+            271.423
+          ],
+          "quote": "It's instructing your agent when to use web search, since oftentimes it's not built in, and then also actually just executing the search in this instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            490.037,
+            490.918
+          ],
+          "quote": "It's called Exa Agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "web-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络搜索 (web search)",
+      "file": "网络搜索",
+      "primary": true,
+      "how_described": "本集说给智能体加网络搜索是两步过程：接入工具只是第一步，还要给模型写触发规则；相比厂商内置黑盒搜索，第三方搜索有透明追踪、省 token、更便宜、不被单家绑定四大优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            135.857,
+            139.501
+          ],
+          "quote": "Many people without web search will go see, OK, here's the error.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            152.307,
+            163.813
+          ],
+          "quote": "So using web search, you're actually able to take a look at the repository itself, any breaking changes from this repos changelog, and then explain the migration in depth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            206.875,
+            215.365
+          ],
+          "quote": "If you just bolt on a web search onto your agent, many of you have seen maybe when you're using Claude Code, you'll say, hey, I'd like to use Sonnet 4.6 or 4.7 now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            219.309,
+            223.655
+          ],
+          "quote": "So even though it has access to a web search tool, it's not actually doing anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            223.675,
+            225.678
+          ],
+          "quote": "Because natively, Claude Code does have a web search tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            262.5,
+            271.423
+          ],
+          "quote": "It's instructing your agent when to use web search, since oftentimes it's not built in, and then also actually just executing the search in this instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            278.691,
+            285.375
+          ],
+          "quote": "When you're using a native web search tool within OpenAI or Anthropic, you actually have this black box that exists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            285.495,
+            286.756
+          ],
+          "quote": "They call the web search API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            321.502,
+            326.89
+          ],
+          "quote": "Many of the times that cost from these model providers are actually so large that you don't notice your web search bill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            328.072,
+            333.26
+          ],
+          "quote": "But given sufficiently large workloads, we're priced actually much more effectively than native web search providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            342.826,
+            347.949
+          ],
+          "quote": "When you use a third-party web search tool, you have this level of standardization that exists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            475.265,
+            486.234
+          ],
+          "quote": "But as we went forward and we took on many popular providers and they loved using us and we provided them a great experience, Cursor, Cognition, Warp, CodeRabbit, all of these companies now use Exa to power their web search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识截止日期 (knowledge cutoff)",
+      "file": "知识截止日期",
+      "primary": true,
+      "how_described": "本集说所有大语言模型都有知识截止日期，从截止到发布通常落后约六个月，这段时间真实仓库的变更日志和 PR 模型既无法用来建新仓库也无法评审",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            45.023,
+            53.404
+          ],
+          "quote": "The core problem that we have with large language models in code review and coding agent applications is that there's a knowledge cutoff to all of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            53.925,
+            59.025
+          ],
+          "quote": "As you can see from this graph, we're typically lagging around six months from the knowledge cutoff date to the release date.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集以代码评审智能体为例：一个「像清理」的参数删除实为依赖升级的破坏性变更，需查上游变更日志验证，把评审建立在查到的内容之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            45.023,
+            53.404
+          ],
+          "quote": "The core problem that we have with large language models in code review and coding agent applications is that there's a knowledge cutoff to all of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            235.341,
+            250.235
+          ],
+          "quote": "So when you're doing a code review agent, the rule might look like when you have a diff that bumps the dependency or version, you might want to look at the upstream source to verify that this is actually true and then ground the actual review in what you find.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            251.515,
+            256.657
+          ],
+          "quote": "So when I work with these code review and coding agent customers, there's several instances where this might happen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义搜索 (semantic search)",
+      "file": "语义搜索",
+      "primary": true,
+      "how_described": "本集说 EXA 是语义搜索引擎：查询转成查询嵌入，叠加关键词过滤与多轮重排序，索引高度精选、数百亿文档质量高，返回的也不是 10 条蓝色链接而是高亮片段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            34.072,
+            42.535
+          ],
+          "quote": "What we do is we have a semantic search engine that essentially you pass in a query, and we provide you context-rich highlights to pass into your LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            637.408,
+            643.473
+          ],
+          "quote": "And then once we've turned it into a query embedding, there's several steps in between for keyboard filtering alongside semantic search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "highlights",
+      "type": "concept",
+      "role": "concept",
+      "name": "高亮蒸馏 (highlights)",
+      "file": "高亮蒸馏",
+      "primary": true,
+      "how_described": "本集说 EXA 有解释步骤把整个页面蒸馏成模型回答问题真正需要的内容：不喂 10 万字符只喂 500 字符，抽取是纯计算性的、零裁剪零额外延迟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            34.072,
+            42.535
+          ],
+          "quote": "What we do is we have a semantic search engine that essentially you pass in a query, and we provide you context-rich highlights to pass into your LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            297.283,
+            302.527
+          ],
+          "quote": "You get the entire trace of what we looked for, the exact queries, the exact sources, what highlights were passed into the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            311.155,
+            317.28
+          ],
+          "quote": "We also provide token efficient highlights, which I'll cover on the next slide, which distills an entire page down into exactly what the model needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            498.645,
+            504.21
+          ],
+          "quote": "We've partnered with several data providers to not just surface from the web, but then also surface highlights from",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到通过 MCP 就能调用 EXA，基本覆盖所有支持 MCP 的提供商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            569.143,
+            575.746
+          ],
+          "quote": "If you want to use Exit today, you can simply call us via our MCP, and then we're on basically every single provider that supports it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

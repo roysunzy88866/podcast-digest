@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":77,"SpaceXAI":1,"OpenClaw":20,"OpenAI":150,"Anthropic":163,"Codex":72,"Cowork":6,"Salesforce":34,"智能体":388}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":78,"SpaceXAI":1,"OpenClaw":20,"OpenAI":151,"Anthropic":165,"Codex":73,"Cowork":6,"Salesforce":34,"智能体":391}</script>
 
 <script>
 (function(){

@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":51,"品味":15,"智能体":388,"技能":25,"一次性设计":1,"子智能体":5,"AI 垃圾内容":3,"Claude Code":92,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":53,"品味":15,"智能体":391,"技能":25,"一次性设计":1,"子智能体":5,"AI 垃圾内容":3,"Claude Code":93,"形容词引导设计":1}</script>
 
 <script>
 (function(){

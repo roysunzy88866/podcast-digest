@@ -157,9 +157,9 @@ Lovable 从一个开源项目起步，去年从零做到 300（百万美元年�
 
 **换个口味**
 
+- [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体]]<span class="pd-rz">同公司:Anthropic、Claude、Claude Code · 同概念:token、缰绳 (harness)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:MCP、缰绳 (harness)</span>
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、Claude、Claude Code · 同概念:MCP</span>
-- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:MCP、缰绳 (harness)</span>
 
 </div>
 </div>

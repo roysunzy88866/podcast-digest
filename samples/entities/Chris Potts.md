@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]]
+[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":2,"token":30,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":2,"token":31,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

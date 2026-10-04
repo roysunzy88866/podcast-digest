@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":388,"模拟":6,"人类行为基础模型":1,"反思":1,"记忆":20,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":391,"模拟":6,"人类行为基础模型":1,"反思":1,"记忆":20,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

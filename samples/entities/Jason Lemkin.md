@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Laurie Voss]] [[Justin Reock]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":19,"Salesforce":34,"智能体":388,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":19,"Vercel":18,"Cursor":77,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":19,"Salesforce":34,"智能体":391,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":19,"Vercel":18,"Cursor":78,"Artisan":1}</script>
 
 <script>
 (function(){

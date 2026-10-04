@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>52</b> 集 · <b>42</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>53</b> 集 · <b>43</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -63,10 +63,11 @@ unlisted: true
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(02:54起):本集的公式：单靠 LLM 做不了财务结账，必须加上 AI 基础、流程与数据上下文和治理——后者是 SAP 干了 50 年的事。
 - **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(02:36起):本集把 LLM 定义为『非结构化到非结构化』的生成式模型：文本进文本出，适合头脑风暴和创造性探索；与 Jev 对照——LLM 又贵又慢，但『创造以前造不出的东西』。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(21:50起):本集说 LLM 从以语言书写的人类知识中学习表征、针对生成文字优化；其自回归 transformer 架构内存受限，在嵌入式设备上因无法聚合调用而跑不满算力；LLM 驱动的数字智能体还被用于工厂高层规划和替开发者查找资料。
+- **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(16:31起):本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。
 
 ## ① 提到它的金句
 
-*42 条*
+*43 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -152,9 +153,11 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q7]]
 
+![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q4]]
+
 ## ② 出现在这些集
 
-*52 集*
+*53 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -208,14 +211,15 @@ unlisted: true
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念
+- [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[Google]] · [[vibe coding]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[推理]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"Anthropic":163,"ChatGPT":89,"MCP":69,"Claude":81,"OpenAI":150,"Claude Code":92,"Lenny":68,"Google":55,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"Anthropic":165,"ChatGPT":89,"MCP":71,"Claude":83,"OpenAI":151,"Claude Code":93,"Lenny":68,"推理":70,"Google":55}</script>
 
 <script>
 (function(){

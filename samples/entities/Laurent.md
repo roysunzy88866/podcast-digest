@@ -7,29 +7,32 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Laurent</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Laurent">LA</div><div class="pi"><h1 class="pt">Laurent</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Laurent">LA</div><div class="pi"><h1 class="pt">Laurent</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*3 条*
+
+![[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi#^q1]]
+
+![[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi#^q2]]
+
+![[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi#^q3]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为主持
+- [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Charles Gorintin]] · [[Alan]] · [[Mistral]] · [[Stripe]] · [[OpenAI]] · [[智能体]] · [[Mo]] · [[彻底透明]] · [[Shasterton 障碍]] · [[GPT-3]]
+[[Charles Gorintin]] · [[Zilvinas]] · [[Alan]] · [[Kimchi]] · [[Mistral]] · [[Cast.AI]] · [[Stripe]] · [[Anthropic]] · [[OpenAI]] · [[Claude]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Jonathan]] [[Mali]] [[Dylan Couzon]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":7,"Stripe":43,"OpenAI":150,"智能体":388,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":3}</script>
+<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Zilvinas":1,"Alan":1,"Kimchi":1,"Mistral":7,"Cast.AI":1,"Stripe":44,"Anthropic":165,"OpenAI":151,"Claude":83}</script>
 
 <script>
 (function(){

@@ -7,12 +7,18 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 服务器 (MCP servers)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP 服务器">MC</div><div class="pi"><h1 class="pt">MCP 服务器 (MCP servers)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP 服务器">MC</div><div class="pi"><h1 class="pt">MCP 服务器 (MCP servers)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]]**(10:19起):本集提到团队构建新的 MCP 服务器来帮模型完成它需要完成的事,作为「放慢速度以求提速」阶段工程投资的一部分。
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(03:21起):本集说随着 compaction 和长上下文演进,讨论从管理上下文窗口变成怎么把正确的 MCP 服务器、技能和任务接到智能体上,作为组织上下文宝库的连接器之一。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q11]]
 
 ## ② 出现在这些集
 
@@ -27,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Clare Liguori]] · [[Jerry Liu]] · [[Kiro]] · [[LlamaIndex]] · [[Amazon]] · [[LlamaParse]] · [[AWS]] · [[LightParse]] · [[Bedrock]]
 
-<script type="application/json" class="pd-epn">{"智能体":388,"Clare Liguori":1,"Jerry Liu":1,"Kiro":4,"LlamaIndex":2,"Amazon":26,"LlamaParse":1,"AWS":18,"LightParse":1,"Bedrock":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":391,"Clare Liguori":1,"Jerry Liu":1,"Kiro":4,"LlamaIndex":2,"Amazon":26,"LlamaParse":1,"AWS":18,"LightParse":1,"Bedrock":2}</script>
 
 <script>
 (function(){
