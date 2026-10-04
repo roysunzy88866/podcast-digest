@@ -244,7 +244,10 @@ async function main() {
     "\n\n---\n术语表:\n" +
     readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
   // 双语对齐输入:每段 [mm:ss 说话人] 英文 ‖ 中文
-  const bilingual = tr.map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en} ‖ ${s.zh}`).join("\n");
+  // C40:翻译时被 GLM [1301] 拒译的句子(translation.blocked.json)从浓缩输入里略掉 —— 否则浓缩会撞同一句再被拒、整集放弃
+  const blockedPath = resolve(ROOT, DIR, "translation.blocked.json");
+  const blocked = new Set(existsSync(blockedPath) ? JSON.parse(readFileSync(blockedPath, "utf8")) : []);
+  const bilingual = tr.filter((s, i) => !blocked.has(s.seg ?? i)).map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en} ‖ ${s.zh}`).join("\n");
   const INPUT = `以下是本集完整双语对齐转写稿(每段:[时间戳 说话人] 英文 ‖ 中文)。整读后按 system 要求浓缩输出 JSON。\n\n${bilingual}`;
 
   const cacheFile = resolve(ROOT, DIR, ".digest-raw.txt");

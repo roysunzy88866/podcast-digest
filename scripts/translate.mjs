@@ -2,10 +2,11 @@
 // C2 步骤 ②.5 · GLM-5.2 逐字全译(云端存档层)
 // 分段并行调 glm-ask,带编号回填,逐段缓存(省额度、可复现)。
 // 照搬原文错误(drift #3),保时间戳+说话人。产物 = translation.zh.json。
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, rmSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { isContentBlocked } from "./run-pipeline.mjs"; // C40:GLM [1301] 内容审查签名(单一真相;run-pipeline 有 isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
@@ -104,6 +105,30 @@ function parseNumbered(text) {
 // D45 修:GLM-4.6 对整块 50 段一次编号时会稳定漏掉几段。多轮累积——**每轮只补发还缺的段**
 // (小批量 GLM 几乎必全返回),而非每次重发整块(重发整块会重复漏同样的段)。缓存存合并后的 idx→zh。
 const REFILL_ROUNDS = MAX_RETRY + 3; // 首轮全发 + 若干轮只补缺
+
+// C40 / ADR 0026(2026-10-04 用户「需求通过」):GLM [1301] 拒译不再整集放弃 —— 被拒的那批对半拆开重试,
+// 拆到单句仍拒 → 只跳过这一句(记进 BLOCKED,浓缩时一并略掉,免得浓缩又撞同一句)。
+export const BLOCKED_MAX_RATIO = 0.25; // 被拒句超过全集这个比例 → 整集太敏感,仍按 [1301] 交上层放弃
+// 上次跑出的拒译清单要读回来(GLM 20261004-006[1]):被拒句在分块缓存里存的是空译,重跑命中缓存就不会再问 GLM ——
+// 不读回清单,它们会被当成「缺译」判整集失败,清单还会被删掉。
+const BLOCKED = new Set(existsSync(resolve(ROOT, DIR, "translation.blocked.json")) ? JSON.parse(readFileSync(resolve(ROOT, DIR, "translation.blocked.json"), "utf8")) : []);
+async function askOrBisect(ids, byText) {
+  try {
+    return parseNumbered(await glmAsk(SYS, ids.map((i) => `[[${i}]] ${byText.get(i)}`).join("\n")));
+  } catch (e) {
+    if (!isContentBlocked(e.message)) throw e;
+    if (ids.length === 1) {
+      BLOCKED.add(ids[0]);
+      process.stderr.write(`  🚫 [1301] 第 ${ids[0]} 段被拒译 → 跳过这一句(C40)\n`);
+      return new Map([[ids[0], ""]]);
+    }
+    const h = Math.ceil(ids.length / 2);
+    const a = await askOrBisect(ids.slice(0, h), byText);
+    const b = await askOrBisect(ids.slice(h), byText);
+    return new Map([...a, ...b]);
+  }
+}
+
 async function translateChunk(segs, ci) {
   const cacheFile = resolve(cacheDir, `chunk-${String(ci).padStart(3, "0")}.json`);
   const byText = new Map(segs.map((s) => [s._i, s.text.trim()]));
@@ -127,12 +152,11 @@ async function translateChunk(segs, ci) {
   const stillMissing = () => segs.map((s) => s._i).filter((i) => !acc.has(i));
   let missing = stillMissing();
   for (let round = 0; round < REFILL_ROUNDS && missing.length; round++) {
-    const input = missing.map((i) => `[[${i}]] ${byText.get(i)}`).join("\n");
-    const got = await glmAsk(SYS, input);
-    const m = parseNumbered(got);
+    const m = await askOrBisect(missing, byText);
     for (const i of missing) {
       const v = m.get(i);
       if (v && v.trim()) acc.set(i, v.trim());
+      else if (BLOCKED.has(i)) acc.set(i, ""); // 被拒译 → 已解决(空译),不再当缺译反复补
     }
     writeCache(); // 每轮落盘:进程中断也不丢已译段(GLM 005[5])
     missing = stillMissing();
@@ -174,9 +198,17 @@ const out = transcript.map((s, i) => ({
   en: s.text.trim(),
   zh: zhByIdx.get(i) || "",
 }));
-const empties = out.filter((o) => !o.zh).length;
+const empties = out.filter((o, i) => !o.zh && o.en && !BLOCKED.has(i)).length;
 writeFileSync(resolve(ROOT, DIR, "translation.zh.json"), JSON.stringify(out, null, 1));
+// 被拒译的句子清单(浓缩读它、把这些句子从输入里略掉)。没有被拒的 → 删掉旧清单,免得重跑残留
+const blockedFile = resolve(ROOT, DIR, "translation.blocked.json");
+if (BLOCKED.size) writeFileSync(blockedFile, JSON.stringify([...BLOCKED].sort((a, b) => a - b)));
+else if (existsSync(blockedFile)) rmSync(blockedFile);
 console.log(
-  `✅ translation.zh.json: ${out.length} 段, 空译 ${empties}, 用时 ${((Date.now() - t0) / 1000).toFixed(1)}s`,
+  `✅ translation.zh.json: ${out.length} 段, 空译 ${empties}, 拒译跳过 ${BLOCKED.size}, 用时 ${((Date.now() - t0) / 1000).toFixed(1)}s`,
 );
+if (BLOCKED.size > out.length * BLOCKED_MAX_RATIO) {
+  console.error(`❌ [1301] 被拒译 ${BLOCKED.size}/${out.length} 段 > ${BLOCKED_MAX_RATIO * 100}% → 整集太敏感,交上层按内容审查放弃`);
+  process.exit(1);
+}
 if (empties) process.exit(1);

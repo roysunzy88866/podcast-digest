@@ -7,6 +7,7 @@
 //   标题优先取参(编排器从 RSS 传);无则读 meta.title_en。
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
+import { isContentBlocked } from "./run-pipeline.mjs"; // C40:GLM [1301] 签名单一真相
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -103,6 +104,11 @@ function inferWithGLM(prompt) {
       }
     } else {
       lastErr = `glm-ask 失败(exit ${r.status}):${(r.stderr || "").slice(0, 200)}`;
+      // C40:开场被 GLM [1301] 拒 → 不推断真名(下游照用 SPEAKER_XX 标签),不再让整集因此放弃
+      if (isContentBlocked(r.stderr || "")) {
+        console.error("  🚫 infer-speakers 开场被 [1301] 拒 → 跳过推断,沿用说话人标签(C40)");
+        return {};
+      }
     }
     if (attempt < MAX) {
       console.error(`  ⚠️ infer-speakers GLM 第 ${attempt}/${MAX} 次失败(${lastErr.slice(0, 80)}),3s 后重试`);
