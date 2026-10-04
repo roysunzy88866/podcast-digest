@@ -237,14 +237,16 @@ function glmEdit(text, ctx) {
 export function acceptEdit(orig, patch, known) { return editVerdict(orig, normalizeEdit(orig, patch), known) === "ok"; }
 
 /** 改写稿的机械归正(样张实证的三种「假违规」):
- *  ① 原话里被插了〔解释〕或只差标点 → 换回原话原样;② 原稿里已有的词被加了 [[链接]] → 去掉链接符号;
+ *  ① 原话里被插了〔解释〕或只差标点 → 换回原话原样;② 原稿里已有的词被加了 [[链接]] → 去掉链接符号;③ 抄回来的输入标签删掉;
  *  真改了原话的不归正(交给守门退回)。 */
 export function normalizeEdit(orig, patch) {
   if (typeof patch !== "string") return patch;
   const o = String(orig);
   const quotes = o.match(/「[^」\n]*」/g) ?? [];
   const bare = (q) => normPunct(q.replace(/〔[^〔〕]*〕/g, "")).replace(/\s+/g, "");
-  let out = patch.replace(/「[^」\n]*」/g, (q) => (quotes.includes(q) ? q : quotes.find((x) => bare(x) === bare(q)) ?? q));
+  // ③ 模型把输入里的「【这一节】」标签抄回来(样张实证:KCRW 变成「# 这一节」小标题、Jev 正文冒出「【这一节】」)→ 删掉
+  let out = patch.replace(/^[ \t]*(?:#+[ \t]*)?【?(?:这一节|本集)】?[:：]?[ \t]*\n?/gm, "");
+  out = out.replace(/「[^」\n]*」/g, (q) => (quotes.includes(q) ? q : quotes.find((x) => bare(x) === bare(q)) ?? q));
   out = out.replace(/\[\[([^\]|]*)(\|[^\]]*)?\]\]/g, (all, target) => (o.includes(all) ? all : target));
   return out;
 }
@@ -256,6 +258,9 @@ export function editVerdict(orig, patch, known = new Set()) {
   if (typeof patch !== "string" || !patch.trim()) return "空稿";
   const list = (s, re) => String(s).match(re) ?? [];
   const sub = (a, b) => { const m = new Map(); for (const x of b) m.set(x, (m.get(x) ?? 0) + 1); for (const x of a) { if (!m.get(x)) return x; m.set(x, m.get(x) - 1); } return null; };
+  const heads = (s) => list(s, /^#+ .*$/gm);
+  const h = sub(heads(patch), heads(orig));
+  if (h) return `新加了标题行:${h.slice(0, 30)}`;
   const anchors = (s) => list(s, MASK);
   const extra = sub(anchors(patch), anchors(orig));
   if (extra) return `新加了标注:${extra.slice(0, 30)}`;
@@ -300,6 +305,70 @@ export function plainEdit(md, { dir, ctx = "", gate = gateFacts, edit = glmEdit,
   return { md: out, edited };
 }
 
+// ══ 补小标题(2026-10-05 用户看第四版样张:「小标题太少了,阅读没有目标感」)══
+// 一节太长 → GLM 只挑「在第几段前切 + 小标题」,程序机械插入 `## 标题` 行;正文一个字不动。
+export const HEAD_SPLIT_HAN = 450; // 一节超过这么多汉字(手机上约 1 分多钟)就切
+export const HEAD_MIN_HAN = 120; // 切出来每一小节至少这么多汉字,别切太碎
+const HEAD_SYSTEM = `你是中文编辑。下面是一篇播客精华里的一节,太长了,读者在手机上读着没有方向。请在话题转换处把它切成几个小节,并给每个新小节起小标题。
+- 每个小节讲一件事,约 150–400 字。
+- 小标题要让读者一眼知道「这一小节回答什么问题」或「得出什么结论」,可以用问句。不超过 16 个字,不加引号。
+- 小标题只能用这一节里已出现的名字和数字。
+- 第 0 段前面不切。
+输出:每行一个「段号|小标题」,段号是新小节开头那一段的编号。只输出这些行,不要解释。`;
+
+function glmHeadings(paras, ctx) {
+  const input = `【本集】${ctx}\n` + paras.map((p, k) => `[${k}] ${p}`).join("\n\n");
+  const r = spawnSync("glm-ask", ["--system", HEAD_SYSTEM, "--max-tokens", "1000", input], { encoding: "utf8", timeout: 120000, maxBuffer: 8 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  return parseHeadings(r.stdout);
+}
+
+/** 「段号|小标题」行 → [{k, title}](也认全角竖线/冒号、[3] 这种写法)。 */
+export function parseHeadings(out) {
+  return [...String(out).matchAll(/^\s*\[?(\d+)\]?\s*[|｜:：]\s*(.+?)\s*$/gm)].map((m) => ({ k: Number(m[1]), title: m[2].replace(/^#+\s*/, "") }));
+}
+
+/** 小标题收不收:≤16 汉字、不带引号/括号/标记符号,数字和英文专名只能是这一节已有的。 */
+export function headingOk(title, body, known = new Set()) {
+  const t = String(title);
+  if (!t || visibleHanCount(t) < 2 || visibleHanCount(t) > 16 || t.length > 28) return false;
+  if (/[「」『』【】〔〕\[\]#*=<>`\n]/.test(t)) return false;
+  for (const n of t.match(/\d+(?:\.\d+)?/g) ?? []) if (!String(body).includes(n)) return false;
+  const caps = new Set([...known, ...COMMON_CAPS, ...(String(body).match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? [])]);
+  return (t.match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? []).every((c) => caps.has(c));
+}
+
+/** 长节切小节:只插标题行。返回 {md, added}。 */
+export function addHeadings(md, { propose = glmHeadings, ctx = "", known = new Set(), log = () => {} } = {}) {
+  let out = String(md);
+  let added = 0;
+  for (const sec of [...sections(out)].reverse()) {
+    if (TAKEAWAY.test(sec.title)) continue;
+    const body = out.slice(sec.start, sec.end);
+    if (visibleHanCount(body) <= HEAD_SPLIT_HAN) continue;
+    const parts = body.split(/(\n[ \t]*\n)/); // 偶数下标 = 段落,奇数 = 空行分隔(原样保留)
+    const paras = parts.filter((_, i) => i % 2 === 0);
+    const nonEmpty = paras.map((p, k) => ({ p: p.trim(), k })).filter((x) => x.p);
+    let picks;
+    try { picks = propose(nonEmpty.map((x) => x.p), ctx); } catch (e) { log(`  ✗ 补小标题第 ${sec.i} 节调 GLM 失败:${e.message}`); continue; }
+    const han = (from, to) => paras.slice(from, to).reduce((a, p) => a + visibleHanCount(p), 0);
+    const cuts = [];
+    let prev = 0;
+    for (const { k, title } of [...picks].sort((a, b) => a.k - b.k)) {
+      const at = nonEmpty[k]?.k; // 模型段号 → 原段落下标
+      if (!at || at <= prev || !headingOk(title, body, known) || /^\s*[#>|-]/.test(paras[at])) continue;
+      if (han(prev, at) < HEAD_MIN_HAN || han(at, paras.length) < HEAD_MIN_HAN) continue;
+      cuts.push({ at, title: title.trim() });
+      prev = at;
+    }
+    if (!cuts.length) continue;
+    for (const { at, title } of cuts.reverse()) parts[at * 2] = parts[at * 2].replace(/^(\s*)/, `$1## ${title}\n\n`);
+    out = out.slice(0, sec.start) + parts.join("") + out.slice(sec.end);
+    added += cuts.length;
+  }
+  return { md: out, added };
+}
+
 const SYSTEM = `你是中文科技编辑。下面每条是一篇中文精华正文里的一句话,括号里标了问题:
 - 「英文」:句中普通英文单词改成中文(人名、公司名、产品名、约定俗成的技术词如 token/API 照留英文);
 - 「过长」:这句超过 60 字,拆成两三个短句,每句 40 字左右。
@@ -317,7 +386,7 @@ function glm(input) {
   return m;
 }
 
-export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis, edit = glmEdit } = {}) {
+export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis, edit = glmEdit, heads = glmHeadings } = {}) {
   const dPath = resolve(dir, "digest.json");
   const digest = JSON.parse(readFileSync(dPath, "utf8"));
   const meta = existsSync(resolve(dir, "meta.json")) ? JSON.parse(readFileSync(resolve(dir, "meta.json"), "utf8")) : {};
@@ -344,6 +413,10 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
     writeFileSync(dPath, JSON.stringify(digest)); // 复检用的临时稿还原;最终统一在下面落盘
     md = r.md;
     if (r.edited) log(`  ✎ 编辑通读:改写 ${r.edited} 节`);
+    const known = new Set(`${md}\n${knownText}`.replace(MASK, " ").match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? []);
+    const h = addHeadings(md, { propose: heads, ctx: `${next.title_zh ?? ""}。${next.tldr ?? ""}`, known, log });
+    md = h.md;
+    if (h.added) log(`  ✎ 补小标题:新增 ${h.added} 个`);
   }
 
   // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子
