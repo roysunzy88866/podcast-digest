@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold, stripShortQuotes, acceptEdit, plainEdit } from "../scripts/polish-zh.mjs";
+import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold, stripShortQuotes, acceptEdit, plainEdit, normalizeEdit, editVerdict } from "../scripts/polish-zh.mjs";
 
 describe("C41 · 标出问题句", () => {
   it("★★★ 普通英文词被标出;约定俗成的技术词、双链/按钮/时间戳里的英文不算", () => {
@@ -193,7 +193,7 @@ describe("C41 · 编辑通读(用户 2026-10-04:整体写得晦涩,比喻看不�
     expect(acceptEdit(orig, orig.replace("5%", "6%"))).toBe(false); // 新加数字 6
     expect(acceptEdit(orig, orig.replace("5% 的", "很少的"))).toBe(true); // 删个别数字可以(不是编造)
     expect(acceptEdit(orig, orig + "Netflix 也这样。")).toBe(false);
-    expect(acceptEdit(orig, orig + "补".repeat(100))).toBe(false);
+    expect(acceptEdit(orig, orig + "补".repeat(200))).toBe(false); // 上限 ×1.8+80
   });
   it("★★★ 逐节改写:某节复检冒新事实层失败 → 只退回那一节,其它节保留", () => {
     const md = "开场一句话讲的是公共媒体的生存问题和她的看法。\n\n## 一节\n第一节原文在讲资金被砍以后电台怎么活下去的问题。\n\n## 二节\n第二节原文在讲社区比收听率更重要的道理和例子。";
@@ -205,5 +205,25 @@ describe("C41 · 编辑通读(用户 2026-10-04:整体写得晦涩,比喻看不�
     expect(r.md).not.toContain("坏改写");
     expect(r.md).toContain("第二节原文在讲社区比收听率更重要的道理和例子。也就是说更好懂了");
     expect(r.md).toContain("开场一句话讲的是公共媒体的生存问题和她的看法。也就是说更好懂了");
+  });
+});
+
+describe("C41 · 编辑通读归正与放宽(样张实证的假违规)", () => {
+  const orig = "公共媒体这些年面对的处境越来越难,受众在流失。她说「智能会更像一个数据库,而不是一个同事。」OpenAI 也这么看。";
+  it("★★★ 原话里被插了〔解释〕/全角半角标点不同 → 换回原话原样", () => {
+    const patch = "公共媒体很难。她说「智能会更像一个数据库〔存数据、按要求取用的系统〕，而不是一个同事。」OpenAI 也这么看,受众在流失,处境越来越难。";
+    expect(normalizeEdit(orig, patch)).toContain("「智能会更像一个数据库,而不是一个同事。」");
+    expect(acceptEdit(orig, patch)).toBe(true);
+  });
+  it("★★★ 原稿已有的词被加了 [[链接]] → 去掉链接符号,不算新加标注", () => {
+    expect(normalizeEdit(orig, orig.replace("OpenAI 也", "[[OpenAI]] 也"))).toBe(orig);
+  });
+  it("★★ 全篇别处/节目信息里有的名字、AI 这类常见缩写不算新加专名;真新的照拦", () => {
+    const p2 = orig + "Diogo 和 AI 都同意。";
+    expect(editVerdict(orig, p2, new Set(["Diogo"]))).toBe("ok");
+    expect(editVerdict(orig, orig + "Zorptron 不同意。", new Set(["Diogo"]))).toMatch(/新加了专名:Zorptron/);
+  });
+  it("★★ 真改了原话 → 不归正,守门退回", () => {
+    expect(acceptEdit(orig, orig.replace("而不是一个同事", "而不是同事"))).toBe(false);
   });
 });
