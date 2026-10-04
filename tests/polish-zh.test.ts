@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN } from "../scripts/polish-zh.mjs";
+import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX } from "../scripts/polish-zh.mjs";
 
 describe("C41 · 标出问题句", () => {
   it("★★★ 普通英文词被标出;约定俗成的技术词、双链/按钮/时间戳里的英文不算", () => {
@@ -57,7 +57,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
   }
   it("★★★ 正常改写落盘:英文改中文 + 标题人名统一", () => {
     const dir = fixture("联邦 funding 被砍了 5% 的预算。");
-    const r = polish(dir, { log: () => {}, ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]) });
+    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]) });
     expect(r.changed).toBe(true);
     const d = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8"));
     expect(d.digest_md).toBe("联邦资金被砍了 5% 的预算。");
@@ -66,7 +66,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
   it("★★★ 改写塞进原文没有的英文专名 → 改写就地拒收,正文原样(GLM 008[3])", () => {
     const md = "联邦 funding 被砍了 5% 的预算。";
     const dir = fixture(md);
-    polish(dir, { log: () => {}, ask: () => new Map([[0, "联邦资金被 Zorptron 砍了 5% 的预算。"]]) });
+    polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被 Zorptron 砍了 5% 的预算。"]]) });
     expect(JSON.parse(readFileSync(join(dir, "digest.json"), "utf8")).digest_md).toBe(md);
   });
   it("★★★ 改完复检冒出新事实层失败 → 整批回滚(人名统一也一起撤),稿子原样", () => {
@@ -75,7 +75,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
     const orig = readFileSync(join(dir, "digest.json"), "utf8");
     let n = 0;
     const gate = () => (n++ === 0 ? { pass: true, failures: [] } : { pass: false, failures: [{ raw: "新冒出来的" }] });
-    const r = polish(dir, { log: () => {}, ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]), gate });
+    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]), gate });
     expect(r.rolledBack).toBe(true);
     expect(readFileSync(join(dir, "digest.json"), "utf8")).toBe(orig);
   });
@@ -93,5 +93,39 @@ describe("C41 · GLM 20261004-008 复核补的三条", () => {
   });
   it("★★★ [3] 改写换了英文专名(换人/换公司)→ 不收", () => {
     expect(acceptRewrite("Sam 说 funding 被砍。", "Tom 说资金被砍。")).toBe(false);
+  });
+});
+
+describe("C41 · 重点标注(用户 2026-10-04:重点结论加粗、重点问题下划线,不用太多)", () => {
+  const md = "开场一句话。为什么现成的办法不行?因为太慢。\n\n## 第一节\n资金断了,整个行业怎么办?一批基金会凑出了过桥基金,给电台两年缓冲。\n\n## 本集带走\n- 要点甲";
+  it("★★★ 结论加 **、问题加 ==;正文一个字不变(去掉标记后与原文逐字相同)", () => {
+    const r = applyEmphasis(md, [{ sec: 0, kind: "问题", text: "为什么现成的办法不行?" }, { sec: 1, kind: "结论", text: "一批基金会凑出了过桥基金" }]);
+    expect(r.md).toContain("==为什么现成的办法不行==?");
+    expect(r.md).toContain("**一批基金会凑出了过桥基金**");
+    expect(r.md.replace(/\*\*|==/g, "")).toBe(md);
+  });
+  it("★★★ 不合格的片段一律丢:不是原文 / 超 40 字 / 跨句 / 在「本集带走」/ 同节第二个", () => {
+    const r = applyEmphasis(md, [
+      { sec: 1, kind: "结论", text: "原文里没有这句话" },
+      { sec: 1, kind: "结论", text: "甲".repeat(41) },
+      { sec: 0, kind: "结论", text: "开场一句话。为什么" },
+      { sec: 2, kind: "结论", text: "要点甲" },
+      { sec: 1, kind: "问题", text: "整个行业怎么办" },
+      { sec: 1, kind: "问题", text: "资金断了" },
+    ]);
+    expect(r.applied).toEqual([{ sec: 1, kind: "问题", text: "整个行业怎么办" }]);
+  });
+  it("★★★ 全篇封顶:结论、问题各最多 6 处", () => {
+    const many = Array.from({ length: 9 }, (_, i) => `## 节${i}\n这一节的核心判断是第${i}条结论很重要。`).join("\n\n");
+    const picks = Array.from({ length: 9 }, (_, i) => ({ sec: i + 1, kind: "结论", text: `这一节的核心判断是第${i}条结论很重要` }));
+    expect(EMPH_MAX).toBe(6);
+    expect(applyEmphasis(many, picks).applied).toHaveLength(6);
+  });
+  it("★★ 不碰双链/时间戳/已有标记", () => {
+    const m2 = "## 节\n他说[[英伟达]]很强[12:03 黄仁勋],**已有加粗**在这。";
+    expect(applyEmphasis(m2, [{ sec: 1, kind: "结论", text: "他说[[英伟达]]很强" }, { sec: 1, kind: "问题", text: "已有加粗" }]).applied).toEqual([]);
+  });
+  it("★★ 小节切分:开场算第 0 节", () => {
+    expect(sections(md).map((s) => s.title)).toEqual(["开场", "第一节", "本集带走"]);
   });
 });

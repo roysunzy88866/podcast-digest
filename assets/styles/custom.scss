@@ -2085,3 +2085,15 @@ body[data-slug^="entities/"] {
 /* 松手后进入加载:转起来 */
 .pd-ptr-run .pd-ptr-s { animation: pd-ptr-spin 0.7s linear infinite; }
 @keyframes pd-ptr-spin { to { transform: rotate(360deg); } }
+
+/* C41 · 精华可读性 v2(ADR 0027,2026-10-04 用户:重点结论加粗、重点问题下划线,不用太多)
+   重点问题在稿子里写作 ==…==(Quartz 渲染为 .text-highlight)→ 去掉默认黄底,改成主题色下划线 */
+article .text-highlight {
+  background: none;
+  color: inherit;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--pd-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

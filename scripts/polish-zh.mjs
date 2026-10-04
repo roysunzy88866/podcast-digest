@@ -108,6 +108,70 @@ export function acceptRewrite(orig, patch) {
   return strayWords(patch).length < strayWords(orig).length || (visibleHanCount(orig) > LONG_SENT_HAN && longest(patch) < visibleHanCount(orig));
 }
 
+// ══ 重点标注(2026-10-04 用户:「重点结论」加粗、「重点问题」下划线,不用太多)══
+// 模型只负责从每节原文里**一字不差摘出**片段;加不加、加在哪由程序卡:逐字出自该节、≤40 字、不含句中断点、
+// 不碰双链/时间戳/已有标记;每节结论 ≤1、问题 ≤1,全篇各 ≤6。正文一个字不改(防失真闸门不受影响)。
+// 下划线写作 ==…==(Quartz 渲染为 .text-highlight,custom.scss 改成主题色下划线)。
+export const EMPH_MAX = 6;
+export const EMPH_MAX_HAN = 40;
+const TAKEAWAY = /本集带走/;
+
+/** 正文按 ## 小节切:[{i, title, start, end}](start/end = 该节正文在 md 里的范围;开场算第 0 节)。 */
+export function sections(md) {
+  const text = String(md);
+  const heads = [...text.matchAll(/^## (.*)$/gm)];
+  const out = [{ i: 0, title: "开场", start: 0, end: heads.length ? heads[0].index : text.length }];
+  heads.forEach((h, k) => out.push({ i: k + 1, title: h[1].trim(), start: h.index + h[0].length, end: k + 1 < heads.length ? heads[k + 1].index : text.length }));
+  return out;
+}
+
+/** 把模型摘出的片段机械地加上标记;不合格的片段直接丢。返回 {md, applied:[{sec,kind,text}]}。 */
+export function applyEmphasis(md, picks) {
+  const secs = sections(md);
+  const text = String(md);
+  const protectedSpans = [...text.matchAll(/\[\[[^\]]*\]\]|\*\*[^*]+\*\*|==[^=\n]+==|[[【(（][^\]】)）\n]*\d{1,2}:\d{2}[^\]】)）\n]*[\]】)）]/g)].map((m) => [m.index, m.index + m[0].length]);
+  const used = { 结论: 0, 问题: 0 };
+  const perSec = new Set();
+  const ins = [];
+  for (const p of picks ?? []) {
+    const sec = secs.find((x) => x.i === p.sec);
+    const kind = p.kind === "问题" ? "问题" : p.kind === "结论" ? "结论" : null;
+    if (!sec || !kind || TAKEAWAY.test(sec.title) || used[kind] >= EMPH_MAX || perSec.has(`${sec.i}:${kind}`)) continue;
+    const frag = String(p.text ?? "").trim().replace(/[。！？!?…；;：:，,、\s]+$/u, "");
+    const han = (frag.match(/[\u4e00-\u9fff]/g) ?? []).length;
+    if (han < 4 || han > EMPH_MAX_HAN || /[。！？!?；;*=\[\]\n]|——/.test(frag)) continue;
+    const at = text.indexOf(frag, sec.start);
+    if (at < 0 || at + frag.length > sec.end) continue;
+    const end = at + frag.length;
+    if (protectedSpans.some(([a, b]) => at < b && end > a) || ins.some((x) => at < x.end && end > x.at)) continue;
+    used[kind]++;
+    perSec.add(`${sec.i}:${kind}`);
+    ins.push({ at, end, mark: kind === "结论" ? "**" : "==", sec: sec.i, kind, text: frag });
+  }
+  let out = text;
+  for (const x of [...ins].sort((a, b) => b.at - a.at)) out = out.slice(0, x.at) + x.mark + out.slice(x.at, x.end) + x.mark + out.slice(x.end);
+  return { md: out, applied: ins.map(({ sec, kind, text: t }) => ({ sec, kind, text: t })) };
+}
+
+const EMPH_SYSTEM = `下面是一篇中文精华,按小节编号。请为每一节挑出:
+- 「结论」:这一节最核心的一个判断或结论(只挑真正的重点;没有就不挑);
+- 「问题」:这一节要回答的那个关键问题(正文里以问句出现的才挑;没有就不挑)。
+要求:必须从该节正文里一字不差地摘一句或半句,不超过 40 字;不改字、不加字;全篇加起来结论不超过 6 处、问题不超过 6 处,宁少勿多。「本集带走」那节不用挑。
+输出:每行一条,格式「[[节号]] 结论:摘出的原文」或「[[节号]] 问题:摘出的原文」。只输出这些行。`;
+
+function glmEmphasis(md) {
+  const secs = sections(md);
+  const input = secs.map((x) => `[[${x.i}]] ${x.title}\n${String(md).slice(x.start, x.end).trim()}`).join("\n\n");
+  const r = spawnSync("glm-ask", ["--system", EMPH_SYSTEM, "--max-tokens", "2000", input], { encoding: "utf8", timeout: 120000, maxBuffer: 8 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  const picks = [];
+  for (const line of String(r.stdout).split("\n")) {
+    const g = line.match(/^\s*\[\[(\d+)\]\]\s*(结论|问题)\s*[::]\s*(.+?)\s*$/);
+    if (g) picks.push({ sec: Number(g[1]), kind: g[2], text: g[3].replace(/^[「“"]|[」”"]$/g, "") });
+  }
+  return picks;
+}
+
 const SYSTEM = `你是中文科技编辑。下面每条是一篇中文精华正文里的一句话,括号里标了问题:
 - 「英文」:句中普通英文单词改成中文(人名、公司名、产品名、约定俗成的技术词如 token/API 照留英文);
 - 「过长」:这句超过 60 字,拆成两三个短句,每句 40 字左右。
@@ -125,7 +189,7 @@ function glm(input) {
   return m;
 }
 
-export function polish(dir, { log = console.log, ask = glm, gate = gateFacts } = {}) {
+export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis } = {}) {
   const dPath = resolve(dir, "digest.json");
   const digest = JSON.parse(readFileSync(dPath, "utf8"));
   const meta = existsSync(resolve(dir, "meta.json")) ? JSON.parse(readFileSync(resolve(dir, "meta.json"), "utf8")) : {};
@@ -158,9 +222,18 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts } =
     log(`  改写批 ${k / 20 + 1}:标出 ${batch.length} 句,模型返回 ${back} 句`); // GLM 008[5]:分清「没返回」与「拒收」
   }
   for (const x of [...done].sort((a, b) => b.start - a.start)) md = md.slice(0, x.start) + x.patch + md.slice(x.end);
+
+  // ④ 重点标注(只加标记不改字)
+  let emph = [];
+  try {
+    const r = applyEmphasis(md, pickEmphasis(md));
+    md = r.md;
+    emph = r.applied;
+    log(`  ✎ 重点标注:加粗 ${emph.filter((x) => x.kind === "结论").length} 处,下划线 ${emph.filter((x) => x.kind === "问题").length} 处`);
+  } catch (e) { log(`  ✗ 重点标注调 GLM 失败(跳过):${e.message}`); }
   next.digest_md = md;
 
-  if (!names.length && !done.length) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
+  if (!names.length && !done.length && !emph.length) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
   // 守门:事实层不许冒出新失败,否则整批回滚
   writeFileSync(dPath, JSON.stringify(next));
   const after = gate(dir);
@@ -170,8 +243,8 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts } =
     log(`  ✗ 可读性修带出 ${fresh.length} 条新事实层失败 → 整批回滚`);
     return { changed: false, rolledBack: true };
   }
-  log(`  ✓ 可读性修:人名统一 ${names.length} 处,改写 ${done.length}/${issues.length} 句`);
-  return { changed: true, names, rewrites: done.length, flagged: issues.length };
+  log(`  ✓ 可读性修:人名统一 ${names.length} 处,改写 ${done.length}/${issues.length} 句,重点标注 ${emph.length} 处`);
+  return { changed: true, names, rewrites: done.length, flagged: issues.length, emphasis: emph };
 }
 
 const isMain = (() => { try { return process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url); } catch { return false; } })();
