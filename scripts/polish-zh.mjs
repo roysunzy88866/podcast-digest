@@ -125,28 +125,38 @@ export function sections(md) {
   return out;
 }
 
+// 全角/半角标点一一对照(长度不变 → 偏移可直接回原文):样张实证模型摘出「，」而原文是「,」
+const PUNCT = { "，": ",", "：": ":", "？": "?", "！": "!", "；": ";", "（": "(", "）": ")", "“": "\"", "”": "\"" };
+const normPunct = (s) => String(s).replace(/[，：？！；（）“”]/g, (c) => PUNCT[c]);
+
 /** 把模型摘出的片段机械地加上标记;不合格的片段直接丢。返回 {md, applied:[{sec,kind,text}]}。 */
 export function applyEmphasis(md, picks) {
   const secs = sections(md);
   const text = String(md);
+  const ntext = normPunct(text);
   const protectedSpans = [...text.matchAll(/\[\[[^\]]*\]\]|\*\*[^*]+\*\*|==[^=\n]+==|[[【(（][^\]】)）\n]*\d{1,2}:\d{2}[^\]】)）\n]*[\]】)）]/g)].map((m) => [m.index, m.index + m[0].length]);
   const used = { 结论: 0, 问题: 0 };
   const perSec = new Set();
   const ins = [];
   for (const p of picks ?? []) {
-    const sec = secs.find((x) => x.i === p.sec);
     const kind = p.kind === "问题" ? "问题" : p.kind === "结论" ? "结论" : null;
-    if (!sec || !kind || TAKEAWAY.test(sec.title) || used[kind] >= EMPH_MAX || perSec.has(`${sec.i}:${kind}`)) continue;
-    const frag = String(p.text ?? "").trim().replace(/[。！？!?…；;：:，,、\s]+$/u, "");
+    const frag = normPunct(String(p.text ?? "").trim()).replace(/[。！？!?…；;：:，,、\s]+$/u, "");
     const han = (frag.match(/[\u4e00-\u9fff]/g) ?? []).length;
-    if (han < 4 || han > EMPH_MAX_HAN || /[。！？!?；;*=\[\]\n]|——/.test(frag)) continue;
-    const at = text.indexOf(frag, sec.start);
-    if (at < 0 || at + frag.length > sec.end) continue;
+    if (!kind || used[kind] >= EMPH_MAX || han < 4 || han > EMPH_MAX_HAN || /[。！？!?；;*=\[\]\n]|——/.test(frag)) continue;
+    // 先在模型说的那一节找;找不到而全文恰好出现一次 → 以它真实所在的那一节为准(样张实证模型会报错节号)
+    let sec = secs.find((x) => x.i === p.sec);
+    let at = sec ? ntext.indexOf(frag, sec.start) : -1;
+    if (!(at >= 0 && at + frag.length <= sec.end)) {
+      const first = ntext.indexOf(frag);
+      at = first >= 0 && ntext.indexOf(frag, first + 1) < 0 ? first : -1;
+      sec = at >= 0 ? secs.find((x) => at >= x.start && at < x.end) : null;
+    }
+    if (at < 0 || !sec || TAKEAWAY.test(sec.title) || perSec.has(`${sec.i}:${kind}`)) continue;
     const end = at + frag.length;
     if (protectedSpans.some(([a, b]) => at < b && end > a) || ins.some((x) => at < x.end && end > x.at)) continue;
     used[kind]++;
     perSec.add(`${sec.i}:${kind}`);
-    ins.push({ at, end, mark: kind === "结论" ? "**" : "==", sec: sec.i, kind, text: frag });
+    ins.push({ at, end, mark: kind === "结论" ? "**" : "==", sec: sec.i, kind, text: text.slice(at, end) });
   }
   let out = text;
   for (const x of [...ins].sort((a, b) => b.at - a.at)) out = out.slice(0, x.at) + x.mark + out.slice(x.at, x.end) + x.mark + out.slice(x.end);

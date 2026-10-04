@@ -129,3 +129,16 @@ describe("C41 · 重点标注(用户 2026-10-04:重点结论加粗、重点问�
     expect(sections(md).map((s) => s.title)).toEqual(["开场", "第一节", "本集带走"]);
   });
 });
+
+describe("C41 · 重点标注:样张实证的两个坑", () => {
+  const md = "开场一句。\n\n## 资金\n失去联邦资金反而有一种解脱感,不必再当政治皮球。\n\n## 社区\n重点已经从制作媒体,转变为真正建设社区。";
+  it("★★★ 模型摘出全角「,」、原文是半角「,」→ 照样认,标记加在原文上", () => {
+    const r = applyEmphasis(md, [{ sec: 2, kind: "结论", text: "重点已经从制作媒体，转变为真正建设社区" }]);
+    expect(r.md).toContain("**重点已经从制作媒体,转变为真正建设社区**。");
+    expect(r.md.replace(/\*\*/g, "")).toBe(md);
+  });
+  it("★★★ 模型报错节号 → 全文唯一出现时以真实所在那节为准", () => {
+    const r = applyEmphasis(md, [{ sec: 0, kind: "结论", text: "失去联邦资金反而有一种解脱感" }]);
+    expect(r.applied).toEqual([{ sec: 1, kind: "结论", text: "失去联邦资金反而有一种解脱感" }]);
+  });
+});
