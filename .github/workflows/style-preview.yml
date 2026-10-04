@@ -1,0 +1,39 @@
+# C41 · 可读性 v2 样张(ADR 0027):在副本里用新写法重做指定集,打包新旧对照。不回仓、不部署。
+name: 可读性样张(只出样不发布)
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "逗号分隔的集 id"
+        required: true
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 装 glm-ask + node deps
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          cp tools/glm-ask "$HOME/.local/bin/glm-ask"
+          chmod +x "$HOME/.local/bin/glm-ask"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          npm install --no-audit --no-fund
+      - name: 新写法重做(副本里跑)
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          IDS: ${{ github.event.inputs.ids }}
+        run: node scripts/style-preview.mjs "$IDS"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: style-preview
+          path: |
+            preview/*.md
