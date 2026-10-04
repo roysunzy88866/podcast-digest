@@ -956,6 +956,16 @@ export function clearTransient(state, id) {
   if (state.transient) delete state.transient[id];
 }
 
+// C40 / ADR 0026(2026-10-04 用户「需求通过」,「换路重试不放弃」):音频下载失败要等 Mac mini 中转站(launchd 每 3h,
+// 大文件经代理上传常拖一两天)—— 实证 2026-09-18 twist Hugging Face 集 09-20 就因 3 次下载失败被停车,中转站 09-23 才传好;
+// 停车理由还错写成「浓缩/翻译反复不合格」。改:能走中转站的音频失败给 12 班(≈3 天)宽限,停车理由按真实原因写。
+export const AUDIO_WAIT_CAP = 12;
+export function transientPolicy(errMsg, { relayable = false } = {}) {
+  if (relayable && isAudioDownloadFail(errMsg))
+    return { cap: AUDIO_WAIT_CAP, why: (n) => `音频下载连败 ${n} 次(Mac mini 中转站也没送到),停手待人工;删账本条目+挪回目录可重试` };
+  return { cap: TRANSIENT_CAP, why: (n) => `转瞬失败连败 ${n} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试` };
+}
+
 // ══ 内容审查拦截(GLM [1301])= 确定性终态,非转瞬 ══
 // 病根:GLM(智谱)对军事/中美对抗/AI 末日等敏感话题返回 [1301] 拒绝处理,translate/infer-speakers 抛错。
 // 原来当「转瞬失败」无限重试 → 演讲永远重选那几条(死锁,饿死后面纯技术演讲)、RSS cutoff 冻结(每跑重烧同一集翻译)。
@@ -1517,16 +1527,17 @@ function processBackfillPicks(pairs, state) {
         writeState(state);
         console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
-      // W6:连败计数,到上限停车隔离(不再每班重烧)
+      // W6:连败计数,到上限停车隔离(不再每班重烧;C40:音频失败等中转站 12 班)
       const nT = noteTransientFail(state, id);
-      if (nT >= TRANSIENT_CAP) {
-        parkSkipped(state, id, item, source, `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`);
-        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+      const tp = transientPolicy(e.message, { relayable: Boolean(item.enclosureUrl) && !source.seedDir });
+      if (nT >= tp.cap) {
+        parkSkipped(state, id, item, source, tp.why(nT));
+        console.log(`   ⛔ ${id} 连败 ${nT}/${tp.cap} 次,停车隔离`);
         skipped += 1;
         continue;
       }
       writeState(state); // 连败账即刻落盘,跨班次累计
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${tp.cap} 次,留半成品下次重试):${e.message}`);
       skipped += 1;
       continue;
     }
@@ -1732,18 +1743,19 @@ function processTalksSource(source, state, { dryRun }) {
       }
       // 演讲源刻意不登记 audioWanted(GLM 020[5]):其 enclosure 本来就是本仓 Release asset(Mac mini 上传的),
       // 拿不到=asset 缺失/坏种子,该修种子而不是让搬运工从坏 URL 再抓一遍(登记只会造死循环)。
-      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧
+      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧(C40:播客音频失败等中转站 12 班;演讲源无中转站)
       const nT = noteTransientFail(state, id);
-      if (nT >= TRANSIENT_CAP) {
-        const reason = `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`;
+      const tp = transientPolicy(e.message, { relayable: Boolean(item.enclosureUrl) && !source.seedDir });
+      if (nT >= tp.cap) {
+        const reason = tp.why(nT);
         parkSkipped(state, id, item, source, reason);
         skipped.push({ id, reason, retry: false });
-        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+        console.log(`   ⛔ ${id} 连败 ${nT}/${tp.cap} 次,停车隔离`);
         continue;
       }
       writeState(state); // 连败账即刻落盘,跨班次累计
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
-      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,下次重试):${e.message}`, retry: true });
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${tp.cap} 次,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${tp.cap} 次,下次重试):${e.message}`, retry: true });
       continue; // 不记 videoId:非终态,下轮重选
     }
     // 终态才记 videoId 账本(去重第 1 层;成功与失真隔离都算终态,绝不再自动重跑重扣钱)
@@ -1900,18 +1912,19 @@ async function processSource(source, state, { backfillN, dryRun }) {
         writeState(state);
         console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
-      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧
+      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧(C40:播客音频失败等中转站 12 班;演讲源无中转站)
       const nT = noteTransientFail(state, id);
-      if (nT >= TRANSIENT_CAP) {
-        const reason = `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`;
+      const tp = transientPolicy(e.message, { relayable: Boolean(item.enclosureUrl) && !source.seedDir });
+      if (nT >= tp.cap) {
+        const reason = tp.why(nT);
         parkSkipped(state, id, item, source, reason);
         skipped.push({ id, reason, retry: false });
-        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+        console.log(`   ⛔ ${id} 连败 ${nT}/${tp.cap} 次,停车隔离`);
         continue;
       }
       writeState(state); // 连败账即刻落盘,跨班次累计
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
-      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,下次重试):${e.message}`, retry: true });
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${tp.cap} 次,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${tp.cap} 次,下次重试):${e.message}`, retry: true });
       continue;
     }
     if (res.ok) {

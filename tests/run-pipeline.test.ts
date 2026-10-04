@@ -763,8 +763,8 @@ describe("W6 · 转瞬失败连败上限 + 停车集不占当日名额(2026-09-0
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     // 三条处理路径:补历史 / 演讲种子 / 新集(cutoff 敏感)
     expect((src.match(/const nT = noteTransientFail\(state, id\);/g) ?? []).length).toBe(3);
-    expect((src.match(/if \(nT >= TRANSIENT_CAP\)/g) ?? []).length).toBe(3);
-    const i = src.indexOf("if (nT >= TRANSIENT_CAP)", src.indexOf('outOfTimeBudget("新集"'));
+    expect((src.match(/if \(nT >= tp\.cap\)/g) ?? []).length).toBe(3); // C40:上限按失败类型取(transientPolicy)
+    const i = src.indexOf("if (nT >= tp.cap)", src.indexOf('outOfTimeBudget("新集"'));
     expect(src.slice(i, i + 500)).toContain("retry: false");
     expect(src.slice(i, i + 500)).toContain("parkSkipped(state, id, item, source");
     expect(src).not.toMatch(/clearBlocked\(state, id\);(?! clearTransient)/); // 成功路径清零,不留陈旧连败账
@@ -1177,5 +1177,26 @@ describe("C40 · 事实层删不下 → 整集重做一次浓缩,仍不过才隔
     const redo = block.slice(block.indexOf("attempt >= 2"));
     for (const step of ["condense.mjs", "judge-quotes.mjs", "repair-quotes.mjs", "extract-entities.mjs"]) expect(redo).toContain(step);
     expect(block.indexOf("repair-facts.mjs")).toBeLessThan(block.indexOf("attempt >= 2"));
+  });
+});
+
+import { transientPolicy, AUDIO_WAIT_CAP } from "../scripts/run-pipeline.mjs";
+describe("C40 · 音频下载失败等中转站 12 班,停车理由写真实原因", () => {
+  const audioErr = "步骤失败(exit 1): Error: 音频下载失败 HTTP 404(URL: https://github.com/x/releases/download/audio-relay/a.mp3);再试 HTTP 503";
+  it("★★★ 能走中转站的音频失败 → 上限 12、理由写「音频下载连败」(实证 twist Hugging Face 集 3 次就被停、中转站 3 天后才到)", () => {
+    const p = transientPolicy(audioErr, { relayable: true });
+    expect(AUDIO_WAIT_CAP).toBe(12);
+    expect(p.cap).toBe(12);
+    expect(p.why(12)).toContain("音频下载连败 12 次");
+  });
+  it("★★★ 演讲源(无中转站)或非音频失败 → 照旧 3 次、理由「浓缩/翻译反复不合格」", () => {
+    expect(transientPolicy(audioErr, { relayable: false }).cap).toBe(TRANSIENT_CAP);
+    const p = transientPolicy("chunk 0 多轮补译仍缺 37 条", { relayable: true });
+    expect(p.cap).toBe(TRANSIENT_CAP);
+    expect(p.why(3)).toContain("浓缩/翻译反复不合格");
+  });
+  it("★★ 三条路径都用 transientPolicy;演讲源判 relayable 时排除 seedDir", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    expect((src.match(/const tp = transientPolicy\(e\.message, \{ relayable: Boolean\(item\.enclosureUrl\) && !source\.seedDir \}\);/g) ?? []).length).toBe(3);
   });
 });
