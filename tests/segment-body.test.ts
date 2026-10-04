@@ -133,3 +133,18 @@ describe("C41 · 新集每段 ≤50 汉字", () => {
     }
   });
 });
+
+describe("C41 · 小标题下紧跟正文(无空行)也要切(样张实证 Jev 集)", () => {
+  const body = "这是第一句很长的正文内容用来凑字数。".repeat(5);
+  const md = `## 小标题\n${body}`;
+  it("★★★ 新集长度模式:标题与正文拆开,正文照样每段 ≤50 字", () => {
+    const out = segmentBody(md, { maxChars: 50 });
+    const [head, ...rest] = out.split("\n\n");
+    expect(head).toBe("## 小标题");
+    expect(rest.length).toBeGreaterThan(1);
+    for (const p of rest) expect(visibleHanCount(p)).toBeLessThanOrEqual(50);
+  });
+  it("★★★ 存量(旧模式):这种块原样不动(老页面逐字不变)", () => {
+    expect(segmentBody(md)).toBe(md);
+  });
+});

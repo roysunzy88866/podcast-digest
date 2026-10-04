@@ -840,6 +840,12 @@ export function segmentBody(md, { maxChars = 0 } = {}) {
     .split(/\n{2,}/)
     .map((blk) => {
       const t = blk.trimStart();
+      // C41:小标题下一行紧跟正文(中间没空行)时,旧逻辑把整块当「标题」原样返回 → 这段正文从不切(样张实证 Jev 集)。
+      // 只在新集长度模式下拆开(存量照旧,保证老页面逐字不变)
+      if (maxChars > 0 && /^#{1,6}\s/.test(t) && t.includes("\n")) {
+        const k = blk.indexOf("\n");
+        return blk.slice(0, k) + "\n\n" + segmentBody(blk.slice(k + 1), { maxChars });
+      }
       // 非正文段(结构块:标题/引用/列表/有序列表/表格/HTML块/图片/代码围栏)原样返回
       if (!t || /^(#{1,6}\s|>|[-*+]\s|\d+\.\s|\||<|!\[|```|~~~)/.test(t)) return blk;
       const sents = splitSentences(blk);
