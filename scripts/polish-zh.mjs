@@ -129,6 +129,16 @@ export function sections(md) {
 const PUNCT = { "，": ",", "：": ":", "？": "?", "！": "!", "；": ";", "（": "(", "）": ")", "“": "\"", "”": "\"" };
 const normPunct = (s) => String(s).replace(/[，：？！；（）“”]/g, (c) => PUNCT[c]);
 
+/** 去掉正文里浓缩模型自己加的加粗(「本集带走」列表的加粗是格式,保留)—— 加粗只留给程序控量的「重点结论」。只删标记不改字。 */
+export function stripBodyBold(md) {
+  let out = String(md);
+  for (const sec of [...sections(out)].reverse()) {
+    if (TAKEAWAY.test(sec.title)) continue;
+    out = out.slice(0, sec.start) + out.slice(sec.start, sec.end).replace(/\*\*([^*\n]+?)\*\*/g, "$1") + out.slice(sec.end);
+  }
+  return out;
+}
+
 /** 把模型摘出的片段机械地加上标记;不合格的片段直接丢。返回 {md, applied:[{sec,kind,text}]}。 */
 export function applyEmphasis(md, picks) {
   const secs = sections(md);
@@ -174,9 +184,14 @@ function glmEmphasis(md) {
   const input = secs.map((x) => `[[${x.i}]] ${x.title}\n${String(md).slice(x.start, x.end).trim()}`).join("\n\n");
   const r = spawnSync("glm-ask", ["--system", EMPH_SYSTEM, "--max-tokens", "2000", input], { encoding: "utf8", timeout: 120000, maxBuffer: 8 * 1024 * 1024 });
   if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  return parseEmphasis(r.stdout);
+}
+
+/** 解析模型输出「[[节号]] 结论/问题:片段」(半角/全角冒号都认;片段两头的引号去掉)。 */
+export function parseEmphasis(stdout) {
   const picks = [];
-  for (const line of String(r.stdout).split("\n")) {
-    const g = line.match(/^\s*\[\[(\d+)\]\]\s*(结论|问题)\s*[::]\s*(.+?)\s*$/);
+  for (const line of String(stdout).split("\n")) {
+    const g = line.match(/^\s*\[\[(\d+)\]\]\s*(结论|问题)\s*[:：]\s*(.+?)\s*$/); // 半角/全角冒号都认(云端模型吐全角,样张实证 0 处命中)
     if (g) picks.push({ sec: Number(g[1]), kind: g[2], text: g[3].replace(/^[「“"]|[」”"]$/g, "") });
   }
   return picks;
@@ -236,6 +251,7 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
   // ④ 重点标注(只加标记不改字)
   let emph = [];
   try {
+    md = stripBodyBold(md); // 样张实证:浓缩模型会自己在正文加粗 → 先清掉,加粗只留给控量的重点结论
     const r = applyEmphasis(md, pickEmphasis(md));
     md = r.md;
     emph = r.applied;

@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX } from "../scripts/polish-zh.mjs";
+import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold } from "../scripts/polish-zh.mjs";
 
 describe("C41 · 标出问题句", () => {
   it("★★★ 普通英文词被标出;约定俗成的技术词、双链/按钮/时间戳里的英文不算", () => {
@@ -140,5 +140,24 @@ describe("C41 · 重点标注:样张实证的两个坑", () => {
   it("★★★ 模型报错节号 → 全文唯一出现时以真实所在那节为准", () => {
     const r = applyEmphasis(md, [{ sec: 0, kind: "结论", text: "失去联邦资金反而有一种解脱感" }]);
     expect(r.applied).toEqual([{ sec: 1, kind: "结论", text: "失去联邦资金反而有一种解脱感" }]);
+  });
+});
+
+describe("C41 · 重点标注:解析模型输出(云端实证吐全角冒号 → 0 处命中)", () => {
+  it("★★★ 半角「:」与全角「：」都认,片段两头引号去掉,杂行忽略", () => {
+    const out = "好的,如下:\n[[1]] 结论:社区比收听率重要\n[[2]] 问题：她会接吗？\n[[3]] 结论：「宁少勿多」\n乱七八糟";
+    expect(parseEmphasis(out)).toEqual([
+      { sec: 1, kind: "结论", text: "社区比收听率重要" },
+      { sec: 2, kind: "问题", text: "她会接吗？" },
+      { sec: 3, kind: "结论", text: "宁少勿多" },
+    ]);
+  });
+});
+
+describe("C41 · 正文里浓缩模型自加的加粗先清掉(样张实证)", () => {
+  it("★★★ 正文加粗去掉、「本集带走」列表加粗保留;只删标记不改字", () => {
+    const md = "开场**自己加的**一句。\n\n## 一节\n这里也有**一处**。\n\n## 本集带走\n- **要点**:说明";
+    const out = stripBodyBold(md);
+    expect(out).toBe("开场自己加的一句。\n\n## 一节\n这里也有一处。\n\n## 本集带走\n- **要点**:说明");
   });
 });
