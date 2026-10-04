@@ -161,3 +161,11 @@ describe("C41 · 正文里浓缩模型自加的加粗先清掉(样张实证)", (
     expect(out).toBe("开场自己加的一句。\n\n## 一节\n这里也有一处。\n\n## 本集带走\n- **要点**:说明");
   });
 });
+
+describe("C41 · 重点标注:引号不成对的片段不标(样张实证)", () => {
+  it("★★ 只框住半边引号 → 丢;引号成对 → 收", () => {
+    const md = "## 节\n他说「不去操纵这些评估」是他用铁腕管的事情之一,「宁少勿多」很重要。";
+    expect(applyEmphasis(md, [{ sec: 1, kind: "结论", text: "不去操纵这些评估」是他用铁腕管的事情之一" }]).applied).toEqual([]);
+    expect(applyEmphasis(md, [{ sec: 1, kind: "结论", text: "「宁少勿多」很重要" }]).applied).toHaveLength(1);
+  });
+});

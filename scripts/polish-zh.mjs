@@ -153,6 +153,9 @@ export function applyEmphasis(md, picks) {
     const frag = normPunct(String(p.text ?? "").trim()).replace(/[。！？!?…；;：:，,、\s]+$/u, "");
     const han = (frag.match(/[\u4e00-\u9fff]/g) ?? []).length;
     if (!kind || used[kind] >= EMPH_MAX || han < 4 || han > EMPH_MAX_HAN || /[。！？!?；;*=\[\]\n]|——/.test(frag)) continue;
+    // 引号要成对(样张实证:「**不去操纵这些评估」是他…**」只框住半边引号,读着像断了)
+    const cnt = (re) => (frag.match(re) ?? []).length;
+    if (cnt(/「/g) !== cnt(/」/g) || cnt(/“/g) !== cnt(/”/g) || cnt(/"/g) % 2) continue;
     // 先在模型说的那一节找;找不到而全文恰好出现一次 → 以它真实所在的那一节为准(样张实证模型会报错节号)
     let sec = secs.find((x) => x.i === p.sec);
     let at = sec ? ntext.indexOf(frag, sec.start) : -1;
