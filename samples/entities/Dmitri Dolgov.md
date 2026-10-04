@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":17,"Waymo driver":1,"智能体":391,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":11,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":17,"Waymo driver":1,"智能体":397,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":12,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

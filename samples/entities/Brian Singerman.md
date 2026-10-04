@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":19,"Palantir":20,"Airbnb":12,"OpenAI":151,"Anthropic":165,"Cognition":24,"Ramp":9}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":19,"Palantir":20,"Airbnb":12,"OpenAI":155,"Anthropic":169,"Cognition":25,"Ramp":9}</script>
 
 <script>
 (function(){

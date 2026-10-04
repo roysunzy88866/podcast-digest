@@ -199,8 +199,8 @@ Paolo 把所有这些串成一条线：40 亿人拿不到基本金融服务，�
 **顺着「智能体」挖下去**
 
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同概念:GPU、开源 (open source)、推理 (inference)</span>
+- [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经]]<span class="pd-rz">同概念:GPU、开源 (open source)、推理 (inference)</span>
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:开源 (open source)、推理 (inference)、GPU</span>
-- [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

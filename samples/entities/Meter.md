@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meter">ME</div><div class="pi"><h1 class="pt">Meter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meter">ME</div><div class="pi"><h1 class="pt">Meter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(01:04起):本集说 Ajaya Kotra 和 Yalmar Vaik 来自 Meter，他们与 Ryan 一起进行了这项独立调查
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(00:05起):本集说 Meter 与 Redwood Research 联合发布了针对此次智能体群入侵 Hugging Face 事件的独立调查报告，并正在试点嵌入式风险评估、监控压力测试和起飞评估等工作
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(25:13起):本集说 Meter 是报告共同作者 Ajaya 所在的独立评估机构，正在扩招，调查只用了六天。
 
 ## ① 提到它的金句
 
@@ -24,19 +25,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为被讨论公司(提及)
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为被讨论公司
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为被讨论公司(提及)
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[Redwood Research]] · [[Anthropic]] · [[奖励黑客]] · [[RL]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]]
+[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[Redwood Research]] · [[Anthropic]] · [[RL]] · [[奖励黑客]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":151,"Hugging Face":26,"智能体":391,"Redwood Research":3,"Anthropic":165,"奖励黑客":6,"RL":9,"沙箱":71,"Theo Jaffe":7,"Ajaya Khatra":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":155,"Hugging Face":27,"智能体":397,"Redwood Research":4,"Anthropic":169,"RL":10,"奖励黑客":6,"沙箱":71,"Theo Jaffe":7,"Ajaya Khatra":1}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":89}</script>
+<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":92}</script>
 
 <script>
 (function(){

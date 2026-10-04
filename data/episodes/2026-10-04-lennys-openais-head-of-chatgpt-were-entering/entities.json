@@ -1,0 +1,896 @@
+{
+  "episode_id": "2026-10-04-lennys-openais-head-of-chatgpt-were-entering",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-10-04",
+  "tags": [
+    "AI 智能体",
+    "OpenAI",
+    "插件生态",
+    "AI 安全",
+    "产品构建"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "tibo-sottiaux",
+      "type": "person",
+      "role": "host",
+      "name": "Tibo Sottiaux",
+      "file": "Tibo Sottiaux",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集嘉宾是 OpenAI Codex 负责人,集里把 OpenAI 内部描绘成大量自下而上、给员工极高自主权、拥有超过 120 名前 YC 创始人的『超级初创公司』,为 12 亿人打造产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            311.083,
+            317.868
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 269,
+          "t": [
+            997.941,
+            1013.33
+          ],
+          "quote": "I think this is very much a function of how we build the technology and the way that we design everything at OpenAI, is to put humans at the center of it and build it as extensions of humans, of your will and your taste, and so just really be this super empowering thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1444.631,
+            1447.953
+          ],
+          "quote": "We're also finding this when we're hiring at OpenAI, is we have a lot of founders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1448.333,
+            1454.496
+          ],
+          "quote": "I think we have more than 120 ex-YC founders currently at OpenAI, so it's like this mega startup.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1573.18,
+            1575.501
+          ],
+          "quote": "I think the next Tibo is already at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1579.424,
+            1581.885
+          ],
+          "quote": "He was a new grad when he was hired at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1582.585,
+            1590.83
+          ],
+          "quote": "He's now responsible for all of OpenAI compute fleet in Applied, which is a massive, massive responsibility, and built a lot of the Codex harness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1628.496,
+            1634
+          ],
+          "quote": "He's now someone I trust a ton in doing the most direly launches at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1638.501,
+            1644.568
+          ],
+          "quote": "So thinking about how things work at OpenAI, what would surprise people about what it's like to work inside OpenAI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            1651.116,
+            1653.96
+          ],
+          "quote": "What would surprise people about what it's like inside at OpenAI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1740.34,
+            1744.564
+          ],
+          "quote": "Something that's very clear and unique about OpenAI is it feels like you have a lot of autonomy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1754.814,
+            1760.92
+          ],
+          "quote": "Maybe speak to just how that ... Because it feels like that's an advantage at OpenAI that allows you to move faster, just that cultural philosophy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            1825.554,
+            1829.217
+          ],
+          "quote": "Very, very earliest for me at OpenAI, I took production down day three.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2151,
+            2164.091
+          ],
+          "quote": "Yes, and it's also, it's, I feel, obviously, a deep responsibility, but also just if you think about the incentives for OpenAI, we build products for 1.2 billion people, we can't screw that up.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是 Tibo 负责的产品,dots 是构建在 Codex harness 之上、加上长时程任务与记忆研究成果后的产物;还提到 Codex 早期几次宕机是 Tibo 自己造成的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            130.79,
+            134.512
+          ],
+          "quote": "A lot of code is written by Codex for that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 66,
+          "t": [
+            240.16,
+            242.123
+          ],
+          "quote": "So right now, there's Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 111,
+          "t": [
+            457.275,
+            458.96
+          ],
+          "quote": "You don't have to think about Codex versus ChatGPT and ...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 112,
+          "t": [
+            459.72,
+            464.644
+          ],
+          "quote": "Yes, and for Codex and ChatGPT, we're going to merge the ... We have Chat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 193,
+          "t": [
+            727.673,
+            736.96
+          ],
+          "quote": "I was talking to creators of Pi and OpenCode, and it was like, \"Of course you should just be able to use the Codex sign-on and then use the usage.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 242,
+          "t": [
+            897.06,
+            899.054
+          ],
+          "quote": "Do you remember Codex Cloud?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            904.146,
+            909.677
+          ],
+          "quote": "If you look back at Codex Cloud, and you look at the little animation that we used, I think that was the inspiration for Grok Bot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 260,
+          "t": [
+            957.46,
+            965.768
+          ],
+          "quote": "All of this coming together on top of the Codex harness and also the ability to just run 24/7 with good productivity, that's what we launched with dots.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1582.585,
+            1590.83
+          ],
+          "quote": "He's now responsible for all of OpenAI compute fleet in Applied, which is a massive, massive responsibility, and built a lot of the Codex harness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1818.809,
+            1825.174
+          ],
+          "quote": "I think we, early days in Codex, we had a couple of outages that I caused.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说长时程任务和记忆的大量研究已直接上线到 ChatGPT, dots 的能力最终也会装进 ChatGPT 服务 12 亿用户;与 ChatGPT 登录绑定的合作已有 16 个伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            242.143,
+            243.285
+          ],
+          "quote": "There's ChatGPT Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 68,
+          "t": [
+            243.325,
+            244.627
+          ],
+          "quote": "There's ChatGPT Consumer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            433.701,
+            435.262
+          ],
+          "quote": "This is what we launched with ChatGPT Space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 111,
+          "t": [
+            457.275,
+            458.96
+          ],
+          "quote": "You don't have to think about Codex versus ChatGPT and ...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 112,
+          "t": [
+            459.72,
+            464.644
+          ],
+          "quote": "Yes, and for Codex and ChatGPT, we're going to merge the ... We have Chat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            477.532,
+            487.559
+          ],
+          "quote": "Eventually, we will ship all of the capabilities of dots straight into ChatGPT, as well, and lift the floor for our 1.2 billion users, which, at that time, we'll see how many we have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 190,
+          "t": [
+            719.807,
+            722.389
+          ],
+          "quote": "So we have, signing with ChatGPT, 16 partners.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 199,
+          "t": [
+            754.471,
+            769
+          ],
+          "quote": "The other side, as well, is opening up all of the infrastructure and how we build for ChatGPT with plugin extensions, also plugin discovery, just allowing everyone to ship something through maybe 1.2 billion users and benefiting from that distribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            788.923,
+            795.795
+          ],
+          "quote": "So as an example, so say Notion, somebody's using the Notion plugin or the Figma plugin within ChatGPT Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 208,
+          "t": [
+            799.46,
+            804.946
+          ],
+          "quote": "So we have all these subscribers that use ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 210,
+          "t": [
+            807.189,
+            818
+          ],
+          "quote": "Then, when the users use that usage with the plugin or within the other product, when they use sign-in with ChatGPT, we will have some shared economics with them where they will get remunerated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            860.867,
+            863.538
+          ],
+          "quote": "Is it enabling ChatGPT to do something else?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 252,
+          "t": [
+            926.206,
+            928.347
+          ],
+          "quote": "We launched a lot of that straight into ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 253,
+          "t": [
+            928.367,
+            934.089
+          ],
+          "quote": "I think people just really enjoy that ChatGPT gets to know so much relevant information about you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 255,
+          "t": [
+            937.171,
+            940.852
+          ],
+          "quote": "I fell ill, and ChatGPT remembered, actually, I had this barbecue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            951.898,
+            956.32
+          ],
+          "quote": "Then it's like, it's just memory works very, very well in ChatGPT, and so we've put a lot of research in that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1246.19,
+            1253.415
+          ],
+          "quote": "We have ChatGPT production went down, and so it pinged me five minutes before the live demo, which was actually quite stressful.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "company",
+      "role": "company",
+      "name": "dots",
+      "file": "dots",
+      "primary": true,
+      "how_described": "本集主角产品:一个 7×24 小时工作、理解你的目标和偏好、从反馈学习的常驻智能体;架构上 harness 不跑在你的机器上,它有自己的『计算机』,可连接任意多设备,专门的 dot 跑在带护栏和监控的 Mac mini 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            209.285,
+            225.713
+          ],
+          "quote": "I think the way that it's going to work is that ... how we're positioning and what we're shipping with dots, where you have an incredibly smart agent that works 24/7, understands your goals, understands your preferences, learns from feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 69,
+          "t": [
+            244.667,
+            245.288
+          ],
+          "quote": "There's dots.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            245.589,
+            252.619
+          ],
+          "quote": "What I'm hearing is you think we're heading towards dots kind of being the primary way you talk to AI, and that kicks off all these other things?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 72,
+          "t": [
+            253.32,
+            275.354
+          ],
+          "quote": "I think fundamentally, if you take a step back, and whether it's dots or not, it's all about breaking free from the technology and having this sort of permanent active intelligence that knows everything it needs to do and is available through any client, any screen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            452.181,
+            457.255
+          ],
+          "quote": "But I'm hearing here is dots is a big part of that future, this AI assistant that just does everything for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 119,
+          "t": [
+            477.532,
+            487.559
+          ],
+          "quote": "Eventually, we will ship all of the capabilities of dots straight into ChatGPT, as well, and lift the floor for our 1.2 billion users, which, at that time, we'll see how many we have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 121,
+          "t": [
+            490.563,
+            493.528
+          ],
+          "quote": "One thing that I'm very excited with dots is they don't have a model picker.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 165,
+          "t": [
+            630.901,
+            637.789
+          ],
+          "quote": "We haven't released the team dots yet, but today, we're releasing the primary dot, which you can configure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            650.626,
+            651.899
+          ],
+          "quote": "Right now, they can't add more dots.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 174,
+          "t": [
+            652.564,
+            653.973
+          ],
+          "quote": "They will be able to have many dots.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 237,
+          "t": [
+            879.902,
+            884.927
+          ],
+          "quote": "Maybe going back to dots, because it feels like that's a big part of the vision in the future, when did you guys start working on this?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            957.46,
+            965.768
+          ],
+          "quote": "All of this coming together on top of the Codex harness and also the ability to just run 24/7 with good productivity, that's what we launched with dots.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            973.155,
+            978.66
+          ],
+          "quote": "It's our safest, most aligned model, and a lot more effort went into making dots just really safe and secure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1315.084,
+            1324.289
+          ],
+          "quote": "We talked about specialized dots, but specialized dots is just operate with additional guardrails, additional monitoring, and then on their own hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1326.51,
+            1332.413
+          ],
+          "quote": "The fundamental difference in the way that we've built dots is the harness does not run on the machine.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集举 Notion 为例:它与 OpenAI 深度合作,做了 MCP 后突然涌入海量智能体流量,系统压力大增,要想清楚经济账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            788.923,
+            795.795
+          ],
+          "quote": "So as an example, so say Notion, somebody's using the Notion plugin or the Figma plugin within ChatGPT Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 206,
+          "t": [
+            796.175,
+            798.88
+          ],
+          "quote": "Notion, Figma make money from people using it within the app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1916.127,
+            1926.315
+          ],
+          "quote": "We've worked very closely with Notion, for example, and when they build their MCP, suddenly, it's like, oh, well, it's available to all these agents that can actually do the work and use that MCP.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心概念:Tibo 判断互联网上的大多数操作将会由智能体来完成;他反对搭 loops/graphs 的固定编排,主张要一个会学习的系统——更大的智能体能把所有事都做了并保留在记忆里;他自己的智能体团队经历扩张、收缩、再扩张的循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            36.972,
+            39.495
+          ],
+          "quote": "Well, a bigger agent can just do all of it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 49,
+          "t": [
+            162.451,
+            165.354
+          ],
+          "quote": "And so just having a faster agent helps me a lot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            183.131,
+            187.656
+          ],
+          "quote": "Well, a bigger agent can just do all of it, and keep everything in memory, and learn.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            209.285,
+            225.713
+          ],
+          "quote": "I think the way that it's going to work is that ... how we're positioning and what we're shipping with dots, where you have an incredibly smart agent that works 24/7, understands your goals, understands your preferences, learns from feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1075.665,
+            1090.498
+          ],
+          "quote": "Reducing the fact that talking to an agent is a solo adventure, and you just have this conversation just with your one agent, and then you have many and then you're delegating so many things, a lot of things are going to come together to make it much more delightful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1983.869,
+            1995.476
+          ],
+          "quote": "Also, I did not expect to rely so much on voice, and I do so much through dictation or just calling my agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2081.411,
+            2097.72
+          ],
+          "quote": "So you have all of the compute that is going into the primary system, the agent that is doing work, and then you have all of the compute that is going into monitoring the primary agent to make sure that it's not taking too high risk of actions or not interrupting it if anything looks like maybe it's getting prompt injected, and just intervening with that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2197.529,
+            2205.674
+          ],
+          "quote": "I myself even get fatigued with the model picker, and the reasoning efforts, and whether to use multi-agent or ultra, or what it even does.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆系统 (memory)",
+      "file": "记忆系统",
+      "primary": true,
+      "how_described": "本集说保持连贯的记忆系统他们研究了超过两年,大量成果上线到 ChatGPT——『ChatGPT 竟然记得我那次烧烤用了青柠』的时刻,记忆在 ChatGPT 里运行得非常有效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            183.131,
+            187.656
+          ],
+          "quote": "Well, a bigger agent can just do all of it, and keep everything in memory, and learn.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 251,
+          "t": [
+            922.404,
+            925.886
+          ],
+          "quote": "Memory systems that stay coherent, roughly the same amount of time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            951.898,
+            956.32
+          ],
+          "quote": "Then it's like, it's just memory works very, very well in ChatGPT, and so we've put a lot of research in that.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "long-horizon-tasks",
+      "type": "concept",
+      "role": "concept",
+      "name": "长时程任务 (long-horizon tasks)",
+      "file": "长时程任务",
+      "primary": true,
+      "how_described": "本集说长的、持久的、长时程任务他们研究了超过两年,是 dots 出得慢的原因之一,也是 dots 能 24/7 运行的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            914.9,
+            921.884
+          ],
+          "quote": "But seriously, on the research, long, persistent, long-horizon tasks, this is something that we've worked on for more than two years.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把 MCP 描述为让智能体调用外部工具的标准接口:Notion 做了 MCP 后突然涌入海量智能体流量,你可以暂时把接口按住不发,但这是不可避免的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            1916.127,
+            1926.315
+          ],
+          "quote": "We've worked very closely with Notion, for example, and when they build their MCP, suddenly, it's like, oh, well, it's available to all these agents that can actually do the work and use that MCP.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说专门的 dot 在额外护栏、额外监控下运行在自己的硬件上;Tibo 主张对齐与安全的投入要远超自认为应有的程度,包括投入护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 357,
+          "t": [
+            1307.76,
+            1313.943
+          ],
+          "quote": "It has access to some production systems with guardrails.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1315.084,
+            1324.289
+          ],
+          "quote": "We talked about specialized dots, but specialized dots is just operate with additional guardrails, additional monitoring, and then on their own hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2061.46,
+            2076.648
+          ],
+          "quote": "For me, pacing the frontier is just really investing ahead and also investing way more than we even think we ought to, investing in the alignment and safety of the models, investing in security, investing in the guardrails.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injected",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injected)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 540,
+          "t": [
+            2081.411,
+            2097.72
+          ],
+          "quote": "So you have all of the compute that is going into the primary system, the agent that is doing work, and then you have all of the compute that is going into monitoring the primary agent to make sure that it's not taking too high risk of actions or not interrupting it if anything looks like maybe it's getting prompt injected, and just intervening with that.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "secondary-monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "二次监控 (secondary monitoring)",
+      "file": "二次监控",
+      "primary": true,
+      "how_described": "本集说他们用一套专门的算力盯着正在干活的『主』智能体,发现风险过高操作就介入;API 栈上的大部分投入实际进了安全栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            2077.249,
+            2081.251
+          ],
+          "quote": "We are spending more and more compute on secondary monitoring.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "type": "concept",
+      "role": "concept",
+      "name": "插件生态 (ecosystem)",
+      "file": "插件生态",
+      "primary": true,
+      "how_described": "本集说生态是今天所有发布里最被低估的『暗中爆款』:插件分发靠留存数据而非 AEO 关键词,好的插件会被推荐给海量用户,热门插件还有收入分成——这是第二次尝试应用商店,『这一次才是对的』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            711.5,
+            719.246
+          ],
+          "quote": "I think the sleeper hit is a ecosystem, so opening it all up and the commitment, the deep commitment we have towards opening it all up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            784.237,
+            786.94
+          ],
+          "quote": "And so I think this commitment towards an open ecosystem is going to be very exciting.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>83</b> 集 · <b>43</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>85</b> 集 · <b>46</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -82,6 +82,8 @@ unlisted: true
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(28:28起):本集说嘉宾为患复杂慢性病的妻子在 Claude 里建了一个项目，指定约翰·霍普金斯等信源并定期查新文献，称其比任何见过的医生都好。
 - **[[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]]**(10:05起):本集说从去年年底开始,Claude 在 Tolan iOS 应用里共同编写的代码超过了团队任何一位工程师,且无崩溃率、运行时错误反而变好
 - **[[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]]**(03:38起):本集提到:Opus 4 与 Claude Agent SDK 开启了把 Claude 当小型智能体循环嵌入更大软件的时代;全栈押注 Claude 一家是诱人但围墙花园式的选择
+- **[[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]]**(00:04起):主持人停用数月后因 Opus 5.5 而「回来」的产品线:本集说它一直擅长前端设计、但底色是爱说教、古板、套路化的棕黄配色。
+- **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(05:47起):本集说主持人在 Fable 和 Opus 5 之间受不了它的 Harness 而弃用数月,但 Opus 5.5 把 Claude 请回了日常;Claude 模型做复杂任务会输出特别密集详细的内容
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(22:36起):本集说 Gusto 每个PM、工程师、设计师都能去问 Claude 匿名化的客户数据问题，原本几周几个月的用户研究现在几分钟起步
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(07:00起):与 ChatGPT、Gemini 并列的 AI 聊天应用代表;agentic 曲线的类比也用了 Claude Code/Codex。
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(03:42起):本集说 Claude 的 PR 常在页脚标注 co-authored by Claude,且其产生 SQL 注入漏洞的概率约是人类 1.5 倍。
@@ -96,7 +98,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*43 条*
+*46 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -150,6 +152,8 @@ unlisted: true
 
 ![[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin#^q2]]
 
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q10]]
+
 ![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q1]]
 
 ![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q3]]
@@ -170,6 +174,10 @@ unlisted: true
 
 ![[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be#^q11]]
 
+![[2026-09-22-lennys-i-left-claude-for-months-opus-55#^q1]]
+
+![[2026-09-22-lennys-i-left-claude-for-months-opus-55#^q2]]
+
 ![[2026-09-25-latent-openrouter#^q3]]
 
 ![[2026-09-26-talks-how-we-built-an-agent-that-improves-itse#^q4]]
@@ -186,7 +194,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*83 集*
+*85 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -260,6 +268,8 @@ unlisted: true
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]] — 作为概念
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]] — 作为被讨论公司(提及)
+- [[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]] — 作为被讨论公司
+- [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为概念
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
@@ -276,9 +286,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"Anthropic":165,"ChatGPT":89,"OpenAI":151,"Codex":73,"MCP":71,"Lenny":68,"Google":55,"沙箱":71,"Claude Code":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"Anthropic":169,"ChatGPT":92,"Codex":76,"OpenAI":155,"MCP":72,"Lenny":68,"Google":55,"沙箱":71,"Claude Code":93}</script>
 
 <script>
 (function(){

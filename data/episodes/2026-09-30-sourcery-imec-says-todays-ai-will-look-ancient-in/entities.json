@@ -1,0 +1,583 @@
+{
+  "episode_id": "2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in",
+  "podcast": "Sourcery",
+  "date": "2026-09-30",
+  "tags": [
+    "AI 硬件",
+    "芯片",
+    "光子学",
+    "推理",
+    "摩尔定律"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "steven",
+      "type": "person",
+      "role": "host",
+      "name": "Steven",
+      "file": "Steven",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            44.695,
+            47.097
+          ],
+          "quote": "Today, we have Steven and we have Adam.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 15,
+          "t": [
+            47.457,
+            48.638
+          ],
+          "quote": "Steven, you come from iMac.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 143,
+          "t": [
+            784.478,
+            787.02
+          ],
+          "quote": "Well, Steven, Adam, thank you very much.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "adam",
+      "type": "person",
+      "role": "cohost",
+      "name": "Adam",
+      "file": "Adam",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            44.695,
+            47.097
+          ],
+          "quote": "Today, we have Steven and we have Adam.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 16,
+          "t": [
+            49.379,
+            50.44
+          ],
+          "quote": "Adam, you're from Strike.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 48,
+          "t": [
+            184.54,
+            188.502
+          ],
+          "quote": "Adam, as you look into the chip industry, how do you make sense of it?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 143,
+          "t": [
+            784.478,
+            787.02
+          ],
+          "quote": "Well, Steven, Adam, thank you very much.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "imac",
+      "type": "company",
+      "role": "company",
+      "name": "iMac",
+      "file": "iMac",
+      "primary": true,
+      "how_described": "本集说它是总部在比利时、专注芯片制造最早期研发的全球领导机构，拥有世界独一无二的洁净室，各大芯片厂商都先来找它设计下一代芯片再拿去商业化，'今天世界上几乎没有一颗芯片没被它以某种方式触及过'（原稿误写作 iMac）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            47.457,
+            48.638
+          ],
+          "quote": "Steven, you come from iMac.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 19,
+          "t": [
+            55.945,
+            57.287
+          ],
+          "quote": "Could you explain what iMac is?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            107.9,
+            114.662
+          ],
+          "quote": "But in that sense, there's almost no chip in the world today that has not been touched by iMac in some way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            604.188,
+            611.555
+          ],
+          "quote": "So for me, I mean, every day what I do actually at iMac is thinking about what could be AI in the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "strike",
+      "type": "company",
+      "role": "company",
+      "name": "Strike",
+      "file": "Strike",
+      "primary": false,
+      "how_described": "Adam 所在的公司，从投资人视角审视芯片行业，按推理侧的四大瓶颈寻找攻克这些瓶颈的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            49.379,
+            50.44
+          ],
+          "quote": "Adam, you're from Strike.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集以'GPU 之后会是什么'为主线：GPU 擅长训练，瓶颈已转移到推理层；光子学等新技术正在围绕 GPU 重新组织数据中心架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            50.921,
+            54.124
+          ],
+          "quote": "So we're going to talk a little bit about what comes after the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 51,
+          "t": [
+            211.992,
+            228.987
+          ],
+          "quote": "So when we look at the inference side of things, the memory shortage in general and increasing the bandwidth and lowering the latency of getting the useful memory to a GPU as quick as possible is a really interesting and exciting place that needs to be builded within.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            232.649,
+            243.776
+          ],
+          "quote": "I think bringing the liquid that takes heat away from the chip closer and closer to the GPU itself is how it's going to progress over the next five to 10 years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            588.782,
+            602.551
+          ],
+          "quote": "At the moment it's between the clusters and we're using linear pluggable optics, but I think in the next five years we will see these optical components get closer and closer to the actual GPU and we will go towards a state of co-packaged optics.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把推理层称为当前 AI 硬件的瓶颈所在，具体卡在电力与能源、内存、散热、数据传输四个环节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            190.326,
+            211.272
+          ],
+          "quote": "Yeah, I think right now GPUs are very good at the training part and we're now looking at the bottleneck that sits in the inference layer and the bottlenecks that I look at the most and try and look at companies that attack those bottlenecks sit in power and energy, memory, cooling and data transfer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 51,
+          "t": [
+            211.992,
+            228.987
+          ],
+          "quote": "So when we look at the inference side of things, the memory shortage in general and increasing the bandwidth and lowering the latency of getting the useful memory to a GPU as quick as possible is a really interesting and exciting place that needs to be builded within.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "photonics",
+      "type": "concept",
+      "role": "concept",
+      "name": "光子学 (photonics)",
+      "file": "光子学",
+      "primary": true,
+      "how_described": "本集说它是替代铜互联、'很可能胜出的关键技术'：一个技术同时攻克能源、散热、数据传输三大瓶颈，未来五年光学元件将从集群间走向贴近 GPU 的共封装光学。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            10.863,
+            12.225
+          ],
+          "quote": "The potential of photonics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            541.82,
+            545.604
+          ],
+          "quote": "I'm curious, how do you think about photonics and how that changes the layer?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 110,
+          "t": [
+            545.704,
+            555.617
+          ],
+          "quote": "Yeah, I mean, feel free to... Yeah, I mean, I think there are so many benefits to using photonics instead of copper and...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            560.441,
+            565.725
+          ],
+          "quote": "And the bottleneck with photonics is changing between optical and the electrical layer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            585.64,
+            588.522
+          ],
+          "quote": "for where photonics will be within data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            655.608,
+            664.21
+          ],
+          "quote": "And so photonics will play, I think for me, especially in the next years, it's going to be the killer technology to enable the chips of the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            664.59,
+            670.515
+          ],
+          "quote": "I think also on photonics, it's attacking many parts of the bottlenecks that I touched on at the start.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存 (memory)",
+      "file": "内存",
+      "primary": true,
+      "how_described": "本集称内存是'今天已经坏掉的头号组件'：全球只有美光、SK 海力士、三星三家生产（占 95% 市场），库存被超大规模云厂商整包拿走，今年仅芯片的内存部分价格涨了 700%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            26.002,
+            27.523
+          ],
+          "quote": "There's not enough memory chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 50,
+          "t": [
+            190.326,
+            211.272
+          ],
+          "quote": "Yeah, I think right now GPUs are very good at the training part and we're now looking at the bottleneck that sits in the inference layer and the bottlenecks that I look at the most and try and look at companies that attack those bottlenecks sit in power and energy, memory, cooling and data transfer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 51,
+          "t": [
+            211.992,
+            228.987
+          ],
+          "quote": "So when we look at the inference side of things, the memory shortage in general and increasing the bandwidth and lowering the latency of getting the useful memory to a GPU as quick as possible is a really interesting and exciting place that needs to be builded within.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            303.551,
+            304.992
+          ],
+          "quote": "There's not enough memory chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 66,
+          "t": [
+            305.392,
+            317.362
+          ],
+          "quote": "The shortage in memory, I mean, if we look at, there's only three companies in the world that produce memory, which is 95% of the market, Micron, SK Hynix, and Samsung.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 70,
+          "t": [
+            327.51,
+            334.015
+          ],
+          "quote": "So you've seen prices rise by 700% this year just for the memory part of the chip.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            469.972,
+            472.213
+          ],
+          "quote": "Well, yeah, I think for sure right now memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            472.594,
+            477.197
+          ],
+          "quote": "Memory is absolutely the number one component that is already broken today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            524.733,
+            537.435
+          ],
+          "quote": "And there's a lot of companies right now taking that shift as we speak, abandoning what we call the scaling hypothesis of building bigger and bigger models and therefore trying to solve those memory bottlenecks as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moore-s-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "摩尔定律 (Moore's law)",
+      "file": "摩尔定律",
+      "primary": true,
+      "how_described": "本集说我们现在'在摩尔定律上进入平台期'：靠把晶体管缩到约一纳米深度的缩放路线已到物理学尽头，硬件必须更有创造性才能延续芯片变快的路线图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            134.951,
+            138.234
+          ],
+          "quote": "I think we're now kind of plateauing in what we call Moore's law.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集说大语言模型仍是'暴力破解'式的笨办法、价值有限，并给出 hottest take：十年后我们会像笑拨号上网的哔哔声一样笑今天的 LLM——它是 AI 界的拨号上网。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            372.913,
+            375.014
+          ],
+          "quote": "I mean, large language models can do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            742.129,
+            748.955
+          ],
+          "quote": "I think in 10 years from now, we're going to talk about large language models, which are very much a brute force approach in exactly the same way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-hypothesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩展假设 (scaling hypothesis)",
+      "file": "扩展假设",
+      "primary": true,
+      "how_described": "本集说从 1750 亿参数涨到约 10 万亿参数的'越大越好'路线会停——开源模型参数已超人脑连接数、能效却差约一百万倍——很多公司正在放弃这一扩展假设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            524.733,
+            537.435
+          ],
+          "quote": "And there's a lot of companies right now taking that shift as we speak, abandoning what we call the scaling hypothesis of building bigger and bigger models and therefore trying to solve those memory bottlenecks as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练 (training)",
+      "file": "训练",
+      "primary": false,
+      "how_described": "本集说 GPU 目前非常擅长训练部分，训练侧和软件侧在持续变好，但物理侧难以一夜改善。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            190.326,
+            211.272
+          ],
+          "quote": "Yeah, I think right now GPUs are very good at the training part and we're now looking at the bottleneck that sits in the inference layer and the bottlenecks that I look at the most and try and look at companies that attack those bottlenecks sit in power and energy, memory, cooling and data transfer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            339.479,
+            349.407
+          ],
+          "quote": "The training side and the software side of things is continually getting better, but the physical side is the thing that's harder to get better overnight.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "micron",
+      "type": "company",
+      "role": "company",
+      "name": "Micron",
+      "file": "Micron",
+      "primary": false,
+      "how_described": "本集把它列为世界仅有的三家内存生产商之一（合计占 95% 市场，另两家为 SK 海力士、三星）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            305.392,
+            317.362
+          ],
+          "quote": "The shortage in memory, I mean, if we look at, there's only three companies in the world that produce memory, which is 95% of the market, Micron, SK Hynix, and Samsung.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sk-hynix",
+      "type": "company",
+      "role": "company",
+      "name": "SK Hynix",
+      "file": "SK Hynix",
+      "primary": false,
+      "how_described": "本集把它列为世界仅有的三家内存生产商之一，并提到其中两家位于韩国。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            305.392,
+            317.362
+          ],
+          "quote": "The shortage in memory, I mean, if we look at, there's only three companies in the world that produce memory, which is 95% of the market, Micron, SK Hynix, and Samsung.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "type": "company",
+      "role": "company",
+      "name": "Samsung",
+      "file": "Samsung",
+      "primary": false,
+      "how_described": "本集把它列为世界仅有的三家内存生产商之一（合计占 95% 市场）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            305.392,
+            317.362
+          ],
+          "quote": "The shortage in memory, I mean, if we look at, there's only three companies in the world that produce memory, which is 95% of the market, Micron, SK Hynix, and Samsung.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

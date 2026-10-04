@@ -1,0 +1,1422 @@
+{
+  "episode_id": "2026-09-25-latent-runway",
+  "podcast": "Latent Space",
+  "date": "2026-09-25",
+  "tags": [
+    "世界模型",
+    "视频生成",
+    "机器人",
+    "实时生成",
+    "Runway"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "anastasis",
+      "type": "person",
+      "role": "host",
+      "name": "Anastasis",
+      "file": "Anastasis",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            3.418,
+            7.362
+          ],
+          "quote": " Okay, we're here with Anastasis from Runway with me and Vibu in the studio.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "type": "company",
+      "role": "company",
+      "name": "Runway",
+      "file": "Runway",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            3.418,
+            7.362
+          ],
+          "quote": " Okay, we're here with Anastasis from Runway with me and Vibu in the studio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            9.384,
+            11.746
+          ],
+          "quote": "Congrats on all your success and progress with Runway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            43.023,
+            45.424
+          ],
+          "quote": "of Runway was we will need as a result",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            61.749,
+            68.749
+          ],
+          "quote": "I'm just kind of curious how you go from a background in ZocDoc and computer vision into runway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            290.191,
+            293.213
+          ],
+          "quote": "it's a summary of the thesis of Runway in some ways that you can take",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            320.867,
+            323.008
+          ],
+          "quote": "You've been doing this for seven years at Runway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            345.749,
+            351.597
+          ],
+          "quote": "It was very early on we realized The first version of Runway was a way",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            365.437,
+            369.714
+          ],
+          "quote": " Very quickly, we realized we needed to build a research org inside of Runway.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            394.098,
+            395.2646666666667
+          ],
+          "quote": "Four years of runway,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            450.511,
+            455.238
+          ],
+          "quote": "So one of the early work that we did in Runway was solving segmentation,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            468.177,
+            471.61199999999997
+          ],
+          "quote": "And so a lot of the early days of Runway was building this tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            472.984,
+            476.27799999999996
+          ],
+          "quote": "And it was for a long time the main thing that people were using Runway for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            483.75,
+            485.911
+          ],
+          "quote": "But that was essentially Runway for a long time,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            744.015,
+            746.797
+          ],
+          "quote": " I think we're going to go into the rest of Runway and catch people up to speed today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            795.755,
+            799.38
+          ],
+          "quote": "and he worked at Runway at the time, he built latent diffusion collaboration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            927.826,
+            931.528
+          ],
+          "quote": " And both companies, Stability took its own path, Runway took",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1043.016,
+            1046.319
+          ],
+          "quote": "who was an early advisor of Runway and one of those... Marketing guys.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1217.977,
+            1219.569
+          ],
+          "quote": "most of the history of runway,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1589.024,
+            1596.024
+          ],
+          "quote": "I think that's always the mindset of runway is like this extrapolation of like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2096.311,
+            2098.199888888889
+          ],
+          "quote": "from we looked at Runway 2 to 4.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2199.43,
+            2203.957
+          ],
+          "quote": "There were a lot of chatter on Twitter about Runway.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2204.498,
+            2205.498
+          ],
+          "quote": "Runway's done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2206.1,
+            2208.764
+          ],
+          "quote": "There is no way Runway will catch up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2238.587,
+            2241.181
+          ],
+          "quote": "I think the amazing thing about Runway And like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2255.712,
+            2259.558
+          ],
+          "quote": "If you ask anyone what is their favorite time at runway that was there during",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3305.783,
+            3309.446
+          ],
+          "quote": "I think I also have just your runway robotics page though.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            4325.804,
+            4330.231
+          ],
+          "quote": "A video agent or a runway agent kind of helps you through that whole process",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1351,
+          "t": [
+            4582.065,
+            4585.527
+          ],
+          "quote": "I think that's one of the special things of Runway is just that that mix",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1376,
+          "t": [
+            4665.096,
+            4668.429333333333
+          ],
+          "quote": "What should people look forward to for the future of Runway?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            4670.46,
+            4674.312
+          ],
+          "quote": "I think this is probably the most open roles we've ever had in the history of Runway.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1473,
+          "t": [
+            4986.368,
+            4990.531
+          ],
+          "quote": "And right now in Runway you can use R models and you can use third party models as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1476,
+          "t": [
+            4993.078,
+            4995.239
+          ],
+          "quote": " We're going to end with the Runway AI Summit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1482,
+          "t": [
+            5008.104,
+            5012.155
+          ],
+          "quote": "Obviously, the people that are in the Runway community don't mind using tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集核心论点：预测视频就是在以越来越强的能力模拟世界；Runway 把视频模型变成可以走进去、每一步都可控制、可探索反事实的模拟器，并延伸到机器人和软件界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 684,
+          "t": [
+            2285.143,
+            2290.407
+          ],
+          "quote": "And we really started pursuing this vision of the general world model in earnest,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2445.707,
+            2448.671
+          ],
+          "quote": "So if we look at our world model direction,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2610.091,
+            2614.498
+          ],
+          "quote": " A version of our world model that's called the interface world model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 881,
+          "t": [
+            2967.281,
+            2972.184
+          ],
+          "quote": "to create a world model of software that is interactable",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 956,
+          "t": [
+            3201.109,
+            3202.9423333333334
+          ],
+          "quote": "or for the interface world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            3342.92,
+            3348.488
+          ],
+          "quote": "And GWM1 was the, it's the world model that we built on top of Gen 4.5.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            3415.466,
+            3420.994
+          ],
+          "quote": "the world model And then continue that loop, like this closed loop simulation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            3452.139,
+            3452.88
+          ],
+          "quote": "for our world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3452.92,
+            3456.2549999999997
+          ],
+          "quote": "so that if you do a series of actions inside the world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            3483.797,
+            3490.1
+          ],
+          "quote": "that we could get very good correlation between between our world model and reality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            3583.715,
+            3585.0069999999996
+          ],
+          "quote": "Whereas with a world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            3604.974,
+            3606.476
+          ],
+          "quote": "Whereas with a world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            3849.202,
+            3853.889
+          ],
+          "quote": " Or just the one base really good world model can also apply to robotics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            3880.787,
+            3886.212
+          ],
+          "quote": "you have a single world model that can simulate manipulation tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            3923.37,
+            3924.6477777777777
+          ],
+          "quote": "you have a world model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            3958.732,
+            3964.333
+          ],
+          "quote": "So that's the other side to this is that once you have a great world model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1609,
+          "t": [
+            5414.853,
+            5421.814
+          ],
+          "quote": " written about this as like, what does the maximalist version of a world model look like?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "video-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "视频生成 (video generation)",
+      "file": "视频生成",
+      "primary": true,
+      "how_described": "本集的主线技术：从 Gen1 深度图条件化、Gen2 文本生视频、到 Sora 危机与 Gen3 十倍扩展；嘉宾认为文本生视频不是答案，控制力（相机轨迹、参考输入）才是关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            377.215,
+            378.737
+          ],
+          "quote": "the video generation most of the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            618.541,
+            621.413
+          ],
+          "quote": "It's almost like image generation or video generation is solved.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1359.181,
+            1362.322
+          ],
+          "quote": "every single video generation model in production uses",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1495.679,
+            1499.3456666666668
+          ],
+          "quote": "and how do we turn the video generation models that we're building",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2070.402,
+            2075.944
+          ],
+          "quote": "So even on, let's say, the video generation side, there's one side of video understanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2075.964,
+            2076.964
+          ],
+          "quote": "Video generation,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2486.505,
+            2492.208
+          ],
+          "quote": "To me, real-time video generation is just inevitable that it has much better user experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2639.82,
+            2643.942
+          ],
+          "quote": "This is directly at the output of our real-time video generation model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            4474.801,
+            4480.43
+          ],
+          "quote": "And now you have multi-shot video generation where you directly generate multiple shots.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1552,
+          "t": [
+            5247.51,
+            5249.0019999999995
+          ],
+          "quote": "and real-time video generation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1583,
+          "t": [
+            5335.325,
+            5340.269444444444
+          ],
+          "quote": " Video predict pixels directly and scaling video generation models is the right approach.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说 Runway 的思维方法是外推趋势而非看当下结果：Gen2 之粗糙好比『只能生成勉强连贯句子的 GPT-2』，而 PhysicsIQ 等物理基准得分随计算规模扩大可预测地提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            511.082,
+            514.5264444444445
+          ],
+          "quote": "and it became clear that, like, scaling laws would apply to...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1471.234,
+            1473.657
+          ],
+          "quote": "And if scaling laws apply on video,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2155.751,
+            2160.598
+          ],
+          "quote": "and it basically showed scaling laws for image diffusion transformers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "real-time-video-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "实时视频生成 (real-time video generation)",
+      "file": "实时视频生成",
+      "primary": true,
+      "how_described": "本集称其为不可避免的方向：用户体验好得多、服务成本低得多；通过自回归化加步数蒸馏把双向扩散模型变成实时模型， characters 模型已达 24 FPS、30 分钟自回归生成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 746,
+          "t": [
+            2486.505,
+            2492.208
+          ],
+          "quote": "To me, real-time video generation is just inevitable that it has much better user experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2639.82,
+            2643.942
+          ],
+          "quote": "This is directly at the output of our real-time video generation model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1552,
+          "t": [
+            5247.51,
+            5249.0019999999995
+          ],
+          "quote": "and real-time video generation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说 diffusion 模型有两个蒸馏维度——压缩模型大小或压缩步数；Gen3 Turbo 是第一个生产环境中的步数蒸馏模型，且很多时候可直接把前沿大模型做到实时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 726,
+          "t": [
+            2404.306,
+            2411.306
+          ],
+          "quote": " So the things that, so it's just a matter of time There is better distillation techniques.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2470.683,
+            2475.3496666666665
+          ],
+          "quote": "you need to do some additional step distillation to get it to actually be real time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            2498.273,
+            2502.696
+          ],
+          "quote": "to close as we figure out better distillation techniques.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2516.999,
+            2519.2
+          ],
+          "quote": "to step autoregressive distillation,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 756,
+          "t": [
+            2519.821,
+            2522.622
+          ],
+          "quote": "is this like distillation where you still need to train both?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2531.78,
+            2535.395
+          ],
+          "quote": " So the nice thing about diffusion models is you have two axes of distillation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            3348.568,
+            3353.315
+          ],
+          "quote": "So we did all this autoregressive and like distillation,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            3353.736,
+            3356.009
+          ],
+          "quote": "autoregressive and then step distillation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "counterfactual-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "反事实生成 (counterfactual generation)",
+      "file": "反事实生成",
+      "primary": true,
+      "how_described": "本集提出视频模型与世界模型的巨大差距就在于此：训练数据里成功进球远多于失败，但交互式世界模型必须对任何动作都生成同样逼真的结果——这对评估和在线 RL 都必不可少。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1247,
+          "t": [
+            4220.606,
+            4222.272666666667
+          ],
+          "quote": "the counterfactual generation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "third-person-video-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "第三人称视频数据 (third-person video data)",
+      "file": "第三人称视频数据",
+      "primary": true,
+      "how_described": "本集的机器人数据论点：它是世界上最丰富的视频数据来源，比第一视角数据多三个数量级；正如人类靠观察别人学习，视频预训练后只需极少机器人数据微调即可得到好的操作策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1091,
+          "t": [
+            3652.147,
+            3656.093
+          ],
+          "quote": "but the most plentiful source of video data is third-person video data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1109,
+          "t": [
+            3719.572,
+            3721.936
+          ],
+          "quote": "to third-person video data out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            3727.063,
+            3731.549
+          ],
+          "quote": "of data will ultimately win third-person video Data pre-training is",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 541,
+          "t": [
+            1823.498,
+            1827.001
+          ],
+          "quote": "you're seeing in robotics some of the most promising work starts",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 948,
+          "t": [
+            3180.001,
+            3181.6676666666667
+          ],
+          "quote": "for robotics use case as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3302.661,
+            3305.703
+          ],
+          "quote": "This was your, you did a study on robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3305.783,
+            3309.446
+          ],
+          "quote": "I think I also have just your runway robotics page though.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            3358.122,
+            3361.9553333333333
+          ],
+          "quote": "And one of the biggest use case that we saw for GWM1 was in robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1008,
+          "t": [
+            3365.693,
+            3370.3
+          ],
+          "quote": "we accidentally created a state of the art model for robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            3373.084,
+            3378.953
+          ],
+          "quote": "So we realized at some point meeting last year that robotics labs are coming up",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            3421.415,
+            3425.941
+          ],
+          "quote": "And you can use that to evaluate how well your robotics model works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            3503.633,
+            3508.915
+          ],
+          "quote": "That was a first indication that our models could be quite useful in robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            3509.015,
+            3513.597
+          ],
+          "quote": "And we saw as we're working with robotics labs that that became the first use case",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            3527.088,
+            3529.365777777778
+          ],
+          "quote": "You train a robotics model on video data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            3612.48,
+            3614.282
+          ],
+          "quote": "Our general thesis on robotics is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            3620.189,
+            3621.9667777777777
+          ],
+          "quote": "to train robotics action models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3649.103,
+            3652.0969999999998
+          ],
+          "quote": "and all those are great source of data for training robotics models,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            3693.947,
+            3700.23
+          ],
+          "quote": "you can then adapt a model to be useful in robotics use cases with way fewer hours",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            3742.999,
+            3749.184
+          ],
+          "quote": "That's the motivation for why we think our models are especially useful in robotics settings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            3762.083,
+            3769.083
+          ],
+          "quote": " So if we look at GWM Worlds, so GWM Robotics, so GWM Robotics, it starts from Gen 4.5.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            3849.202,
+            3853.889
+          ],
+          "quote": " Or just the one base really good world model can also apply to robotics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            3868.13,
+            3872.577
+          ],
+          "quote": "we would post-train our GWM robotics model on their particular dataset.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1269,
+          "t": [
+            4290.219,
+            4292.211
+          ],
+          "quote": "They're driving your robotics models",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1382,
+          "t": [
+            4681.887,
+            4683.958
+          ],
+          "quote": "if you're excited especially about robotics,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1383,
+          "t": [
+            4684.008,
+            4685.008
+          ],
+          "quote": "The robotics team,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1384,
+          "t": [
+            4685.169,
+            4690.734
+          ],
+          "quote": "we're hiring roles in the robotics across kind of software, hardware and research.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1386,
+          "t": [
+            4693.336,
+            4697.224888888889
+          ],
+          "quote": " And, you know, a lot of people don't have direct robotics background,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1387,
+          "t": [
+            4696.999,
+            4701.165666666667
+          ],
+          "quote": "but what should they have, you know, if they want to be useful in robotics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1388,
+          "t": [
+            4701.923,
+            4708.923
+          ],
+          "quote": "So ideally some experience with learned policies would be good for robotics,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1390,
+          "t": [
+            4716.745,
+            4721.807
+          ],
+          "quote": "But some experience and kind of domain expertise in robotics is something",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1396,
+          "t": [
+            4741.55,
+            4744.605555555556
+          ],
+          "quote": " You want to talk about the open source robotics stuff?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1568,
+          "t": [
+            5287.452,
+            5291.994
+          ],
+          "quote": "the robotics world is VLAs versus world action models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1570,
+          "t": [
+            5297.737,
+            5301.570333333333
+          ],
+          "quote": "There is a, what is the best source of data to train robotics models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1671,
+          "t": [
+            5611.494,
+            5615.136
+          ],
+          "quote": "the little bit of post-training for robotics gets a video model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1704,
+          "t": [
+            5698.808,
+            5702.388
+          ],
+          "quote": "We need to solve robotics first, and then we can go into it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "interface-world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "界面世界模型 (interface world model)",
+      "file": "界面世界模型",
+      "primary": true,
+      "how_described": "本集演示：无 HTML/CSS/React、纯实时视频模型输出驱动的软件界面，直接把点击、拖拽、滚动作为输入；『为什么要生成能生成像素的代码？直接生成像素』，终极形态是全神经操作系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            2610.091,
+            2614.498
+          ],
+          "quote": " A version of our world model that's called the interface world model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 956,
+          "t": [
+            3201.109,
+            3202.9423333333334
+          ],
+          "quote": "or for the interface world model,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sora",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sora",
+      "file": "Sora",
+      "primary": false,
+      "how_described": "本集说 Sora 发布曾引发『Runway 完了』的议论和几小时的存在危机，促成公司十倍扩展算力、三个月冲刺出更好的 Gen3。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 409,
+          "t": [
+            1372.429,
+            1377.13
+          ],
+          "quote": "I think like the original Sora 1 blog post even told you that what happens",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1396.595,
+            1399.137
+          ],
+          "quote": "And then Sora kind of built Yeah,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2116.537,
+            2119.278
+          ],
+          "quote": "That was a few months after Sora was released.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2137.324,
+            2141.841
+          ],
+          "quote": " One of the biggest changes of Sora was using Diffusion Transformers instead of CovNets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2193.063,
+            2196.847
+          ],
+          "quote": "Sora comes out and the results are That's very much superior",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2228.933,
+            2233.72
+          ],
+          "quote": "So when OpenAI came with Sora and it was such a big jump of the quality,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2259.578,
+            2264.2446666666665
+          ],
+          "quote": "that time, it was that push in like three months to get to a model better than Sora.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2313.962,
+            2317.739777777778
+          ],
+          "quote": "it's very interesting to think about what you do when Sora comes out",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stable-diffusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stable Diffusion",
+      "file": "Stable Diffusion",
+      "primary": false,
+      "how_described": "本集回顾了 latent diffusion 争议：stable diffusion 本质是与 latent diffusion 相同的模型、用更多算力训练，本定位为开源研究项目，后来引发与 Stability AI 的商业化分歧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            409.647,
+            414.0358888888889
+          ],
+          "quote": "I started Lanespace because of basically Latent Diffusion and Stable Diffusion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            748.739,
+            755.385
+          ],
+          "quote": "let's call it the stable diffusion controversy or what happened with stability AI,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            821.664,
+            825.315
+          ],
+          "quote": "And stable diffusion was basically the same model, but trained on more compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            897.344,
+            900.2570000000001
+          ],
+          "quote": "that was kind of the original goal of Stable Diffusion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            900.307,
+            902.9181111111111
+          ],
+          "quote": "And that led to releasing Stable Diffusion 1.5.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            961.524,
+            963.524
+          ],
+          "quote": "that would produce Stable Diffusion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1627,
+          "t": [
+            5469.199,
+            5473.382
+          ],
+          "quote": "is there was this fine tune of stable diffusion that was called Refusion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1629,
+          "t": [
+            5475.224,
+            5479.288
+          ],
+          "quote": "Yeah, just fine tuning stable diffusion on spectrograms and it became",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集提到 Runway 的 video agent 是一个擅长调用图像/视频模型的 LLM，帮用户端到端完成广告从 brief 到成片；界面世界模型也可作为训练计算机使用智能体的合成数据与在线 RL 环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 943,
+          "t": [
+            3164.276,
+            3165.4426666666664
+          ],
+          "quote": "a computer use agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3170.198,
+            3176.74
+          ],
+          "quote": "just generate on the fly to improve how robust your agent becomes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1273,
+          "t": [
+            4304.709,
+            4306.33
+          ],
+          "quote": "So we have this video agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            4325.804,
+            4330.231
+          ],
+          "quote": "A video agent or a runway agent kind of helps you through that whole process",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4426.434,
+            4432.457
+          ],
+          "quote": "do we need that or can we just do agent scaffold to it outside the model?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cosmos-coalition",
+      "type": "company",
+      "role": "company",
+      "name": "Cosmos Coalition",
+      "file": "Cosmos Coalition",
+      "primary": false,
+      "how_described": "本集说 Runway 与 NVIDIA 共同发起的开源联盟，通过开放权重模型、物理基准和基础设施来壮大世界模型生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1411,
+          "t": [
+            4789.318,
+            4793.741
+          ],
+          "quote": "And so Cosmos Coalition was And you should either we co-founded with NVIDIA",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

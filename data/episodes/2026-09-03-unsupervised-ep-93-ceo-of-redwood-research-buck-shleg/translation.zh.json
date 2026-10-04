@@ -1,0 +1,4402 @@
+[
+ {
+  "seg": 0,
+  "start": 0.171,
+  "end": 3.592,
+  "speaker": "Unknown",
+  "en": "The OpenAI hugging face incident has dominated the discourse these past days.",
+  "zh": "OpenAI Hugging Face 事件在过去几天里主导了整个讨论。"
+ },
+ {
+  "seg": 1,
+  "start": 3.672,
+  "end": 11.455,
+  "speaker": "Unknown",
+  "en": "It feels straight out of a sci-fi novel, some of the things that happened, you know, the agent coordination, the obsession with the scorers and what they would want.",
+  "zh": "发生的一些事情简直像科幻小说，你知道，智能体之间的协调、对评分者以及他们想要什么的执念。"
+ },
+ {
+  "seg": 2,
+  "start": 12.016,
+  "end": 15.097,
+  "speaker": "Unknown",
+  "en": "And we had the perfect person on today to just discuss",
+  "zh": "而我们今天正好请到了最合适的人来讨论"
+ },
+ {
+  "seg": 3,
+  "start": 15.417,
+  "end": 21.904,
+  "speaker": "Unknown",
+  "en": "Everything That Happened and The Implications for AI Safety Going Forward in Buck Schleggeris, who's the CEO of Redwood Research.",
+  "zh": "所发生的一切以及对 AI 安全未来的影响，他就是 Redwood Research 的 CEO Buck Schleggeris。"
+ },
+ {
+  "seg": 4,
+  "start": 21.964,
+  "end": 27.891,
+  "speaker": "Unknown",
+  "en": "Redwood was deeply involved in the creation of the report that you all have probably seen around what actually happened in this incident.",
+  "zh": "Redwood 深度参与了那份报告的撰写，你们可能都已经看过那份关于这次事件中实际发生了什么的报告。"
+ },
+ {
+  "seg": 5,
+  "start": 28.491,
+  "end": 37.08,
+  "speaker": "Unknown",
+  "en": "And Buck had some fascinating takes on what lessons we should take away from what went wrong here and how it can inform AI safety going forward.",
+  "zh": "关于我们应该从这里出了什么问题中吸取什么教训，以及它如何指导今后的 AI 安全，Buck 有着一些非常精彩的看法。"
+ },
+ {
+  "seg": 6,
+  "start": 37.741,
+  "end": 46.164,
+  "speaker": "Unknown",
+  "en": "I'm Jacob Efron, and on Unsupervised Learning, we're always trying to talk with people at the cutting edge about what AI means for society, the implications for the world going forward.",
+  "zh": "我是 Jacob Efron，在 Unsupervised Learning 节目中，我们一直在尝试与最前沿的人士探讨 AI 对社会意味着什么，以及对未来世界的影响。"
+ },
+ {
+  "seg": 7,
+  "start": 46.184,
+  "end": 48.405,
+  "speaker": "Unknown",
+  "en": "And this was really just a great example of that conversation.",
+  "zh": "而这一期正是那种对话的一个绝佳范例。"
+ },
+ {
+  "seg": 8,
+  "start": 48.745,
+  "end": 53.407,
+  "speaker": "Unknown",
+  "en": "Just a fascinating discussion with Buck about something that I'm sure is top of mind for all of our listeners.",
+  "zh": "与 Buck 就这件我相信是我们所有听众都非常关注的事情进行的讨论，非常精彩。"
+ },
+ {
+  "seg": 9,
+  "start": 53.907,
+  "end": 55.608,
+  "speaker": "Unknown",
+  "en": "Without further ado, here's our conversation.",
+  "zh": "话不多说，请听我们的对话。"
+ },
+ {
+  "seg": 10,
+  "start": 58.641,
+  "end": 60.683,
+  "speaker": "Unknown",
+  "en": "Well, Buck, thanks so much for joining the podcast.",
+  "zh": "那么，Buck，非常感谢你参加这期播客。"
+ },
+ {
+  "seg": 11,
+  "start": 60.703,
+  "end": 61.383,
+  "speaker": "Unknown",
+  "en": "Really appreciate it.",
+  "zh": "真的很感谢。"
+ },
+ {
+  "seg": 12,
+  "start": 61.663,
+  "end": 62.384,
+  "speaker": "Unknown",
+  "en": "Yeah, it's good to be here.",
+  "zh": "是的，很高兴来到这里。"
+ },
+ {
+  "seg": 13,
+  "start": 62.784,
+  "end": 62.985,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 14,
+  "start": 63.005,
+  "end": 65.226,
+  "speaker": "Unknown",
+  "en": "Well, obviously, you run Redwood Research.",
+  "zh": "好的，显然，你执掌着 Redwood Research。"
+ },
+ {
+  "seg": 15,
+  "start": 65.927,
+  "end": 68.329,
+  "speaker": "Unknown",
+  "en": "You've done a bunch of fascinating work over the years.",
+  "zh": "这些年来你做了很多精彩的工作。"
+ },
+ {
+  "seg": 16,
+  "start": 68.389,
+  "end": 78.277,
+  "speaker": "Unknown",
+  "en": "And your team kind of co-authored the report that I feel like has been on the tip of everyone's tongue these past days, really driving the discourse around what happened in this OpenAI Hugging Face incident.",
+  "zh": "而你的团队参与合著了那份我觉得最近几天一直挂在每个人嘴边的报告，它真正推动了关于这次 OpenAI Hugging Face 事件中发生了什么的讨论。"
+ },
+ {
+  "seg": 17,
+  "start": 78.437,
+  "end": 81.58,
+  "speaker": "Unknown",
+  "en": "And today, I really want to dig into both the incident itself",
+  "zh": "今天，我真的想深入探讨这次事件本身，"
+ },
+ {
+  "seg": 18,
+  "start": 82.381,
+  "end": 88.603,
+  "speaker": "Unknown",
+  "en": "your kind of reactions to it, the implications for a lot of this work going forward, and kind of what it reveals about the state of where we are today.",
+  "zh": "你对它的反应、这对未来大量此类工作的影响，以及它揭示了我们所处现状的哪些情况。"
+ },
+ {
+  "seg": 19,
+  "start": 88.932,
+  "end": 101.719,
+  "speaker": "Unknown",
+  "en": "You know, I think to kick it off maybe first, I'm curious, just obviously, you know, you had your teammates go away for six days, firewalled off from you guys as the organization, and then at some point they come back and you get to read the report.",
+  "zh": "你知道，我想先开个头，我很好奇，显然，你知道，你的队友们离开了六天，与你们整个组织防火墙隔离，然后在某个时候他们回来，你得以读到报告。"
+ },
+ {
+  "seg": 20,
+  "start": 102.8,
+  "end": 104.781,
+  "speaker": "Unknown",
+  "en": "What was your initial reaction to this report?",
+  "zh": "你对这份报告的第一反应是什么？"
+ },
+ {
+  "seg": 21,
+  "start": 105.021,
+  "end": 108.643,
+  "speaker": "Unknown",
+  "en": "I actually don't have any non-public information about the technical details here.",
+  "zh": "实际上，关于这里的技术细节，我没有任何非公开的信息。"
+ },
+ {
+  "seg": 22,
+  "start": 108.803,
+  "end": 111.124,
+  "speaker": "Unknown",
+  "en": "I've just read the report that was eventually released.",
+  "zh": "我只是读了最终发布的那份报告。"
+ },
+ {
+  "seg": 23,
+  "start": 112.145,
+  "end": 114.426,
+  "speaker": "Unknown",
+  "en": "I don't have any of the actual IP here.",
+  "zh": "我没有任何实际的相关知识产权信息。"
+ },
+ {
+  "seg": 24,
+  "start": 114.766,
+  "end": 120.993,
+  "speaker": "Unknown",
+  "en": "So my experience here was I get a message from the investigator saying, we have approval to share the report with you.",
+  "zh": "所以我这里的经历是：我收到调查人员的一条消息说，我们已获批准可以与你分享这份报告。"
+ },
+ {
+  "seg": 25,
+  "start": 121.053,
+  "end": 121.994,
+  "speaker": "Unknown",
+  "en": "You should come down.",
+  "zh": "你应该下来看看。"
+ },
+ {
+  "seg": 26,
+  "start": 122.034,
+  "end": 122.714,
+  "speaker": "Unknown",
+  "en": "We're talking about it.",
+  "zh": "我们正在讨论这件事。"
+ },
+ {
+  "seg": 27,
+  "start": 123.876,
+  "end": 127.559,
+  "speaker": "Unknown",
+  "en": "And so I go into the room where they've been siloed up from everyone else.",
+  "zh": "于是我走进那个把他们与其他所有人隔离开的房间。"
+ },
+ {
+  "seg": 28,
+  "start": 128.36,
+  "end": 130.402,
+  "speaker": "Unknown",
+  "en": "And I'm kind of trying to read this report.",
+  "zh": "我试着去读这份报告。"
+ },
+ {
+  "seg": 29,
+  "start": 130.442,
+  "end": 132.304,
+  "speaker": "Unknown",
+  "en": "And they're trying to tell me the highlights from the report.",
+  "zh": "他们也试图向我讲报告里的重点内容。"
+ },
+ {
+  "seg": 30,
+  "start": 133.085,
+  "end": 139.327,
+  "speaker": "Unknown",
+  "en": "It was a pretty exciting and freaky experience, just feeling sort of overwhelmed with the stuff in this report.",
+  "zh": "那是一次相当令人兴奋又令人毛骨悚然的经历，光是感受这份报告里的东西带来的那种冲击感就很强烈。"
+ },
+ {
+  "seg": 31,
+  "start": 139.647,
+  "end": 142.388,
+  "speaker": "Unknown",
+  "en": "My initial response was basically that this was just very surprising.",
+  "zh": "我最初的反应基本上就是：这实在太令人惊讶了。"
+ },
+ {
+  "seg": 32,
+  "start": 142.488,
+  "end": 145.929,
+  "speaker": "Unknown",
+  "en": "I thought that a lot of the details here were quite different from the public narrative.",
+  "zh": "我觉得这里的很多细节都与公开的叙述相当不同。"
+ },
+ {
+  "seg": 33,
+  "start": 146.289,
+  "end": 156.412,
+  "speaker": "Unknown",
+  "en": "So most obviously the fact that a lot of the public story had been that the AIs were hacking in order to get flags that were the thing they were supposed to get in these capture the flag exercises.",
+  "zh": "最明显的例子是，公开的说法一直是：这些 AI 是为了拿到 flag 而进行黑客攻击，也就是它们在这些夺旗练习中本该拿到的东西。"
+ },
+ {
+  "seg": 34,
+  "start": 157.132,
+  "end": 165.413,
+  "speaker": "Unknown",
+  "en": "And then almost comically, it turns out that the models, in fact, figured out how to reverse engineer the flags within the first couple of hours of the incident.",
+  "zh": "而后近乎滑稽的是，事实证明，这些模型实际上在事件发生的最初几个小时之内就搞清楚了如何逆向工程出这些 flag。"
+ },
+ {
+  "seg": 35,
+  "start": 166.594,
+  "end": 174.875,
+  "speaker": "Unknown",
+  "en": "And then spent almost all the rest of the time trying to figure out how to sabotage the grader that they thought would look over all of their logs and notice that they've cheated.",
+  "zh": "然后把剩下的几乎全部时间都花在试图搞清楚如何破坏那个评分器上——它们以为那个评分器会查看它们所有的日志并发现它们作弊了。"
+ },
+ {
+  "seg": 36,
+  "start": 175.035,
+  "end": 176.595,
+  "speaker": "Unknown",
+  "en": "Which wasn't even set up to do that, right?",
+  "zh": "而那个评分器压根就没被设置成会做那种事，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 176.735,
+  "end": 176.875,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 38,
+  "start": 176.895,
+  "end": 185.077,
+  "speaker": "Unknown",
+  "en": "So the AI has read the original exploit gem paper and we're like, oh, geez, this paper says that they're going to look over our trajectory and make sure that we use the intended exploit.",
+  "zh": "所以 AI 读过最初的 exploit gem 论文，然后我们就说，哦天哪，这篇论文说他们会审视我们的轨迹，确保我们使用的是预期中的 exploit。"
+ },
+ {
+  "seg": 39,
+  "start": 185.997,
+  "end": 203.604,
+  "speaker": "Unknown",
+  "en": "In order to get this flag, we'd better put a lot of work into figuring out how to spoof tool calls, figuring out how to delete trajectories, figuring out how to replace the containers we're supposed to target with containers that we've modified surreptitiously to be easier to appear to hack.",
+  "zh": ""
+ },
+ {
+  "seg": 40,
+  "start": 204.564,
+  "end": 207.385,
+  "speaker": "Unknown",
+  "en": "And this work was, of course, totally unnecessary in hindsight.",
+  "zh": "当然,事后来看,这项工作完全是没有必要的。"
+ },
+ {
+  "seg": 41,
+  "start": 207.425,
+  "end": 209.366,
+  "speaker": "Unknown",
+  "en": "They could have just submitted the flags and called it a day.",
+  "zh": "他们本可以直接提交 flag 然后就完事了。"
+ },
+ {
+  "seg": 42,
+  "start": 209.646,
+  "end": 212.087,
+  "speaker": "Unknown",
+  "en": "Yeah, and then no one would have been any the wiser.",
+  "zh": "是啊,那样的话没人会察觉到任何异样。"
+ },
+ {
+  "seg": 43,
+  "start": 212.627,
+  "end": 222.691,
+  "speaker": "Unknown",
+  "en": "Yeah, somewhat at OpenAI might have noticed that the eval results were surprisingly good for this particular run, but this probably wouldn't have become a large story.",
+  "zh": "是啊,某种程度上 OpenAI 可能会注意到这次特定运行的评估结果好得出奇,但这很可能不会成为一个大新闻。"
+ },
+ {
+  "seg": 44,
+  "start": 223.712,
+  "end": 225.513,
+  "speaker": "Unknown",
+  "en": "Definitely probably wouldn't have made it out of OpenAI.",
+  "zh": "肯定很可能根本走不出 OpenAI。"
+ },
+ {
+  "seg": 45,
+  "start": 226.87,
+  "end": 231.172,
+  "speaker": "Unknown",
+  "en": "And so, yeah, it was it was quite shocking to read this report and hear about all this.",
+  "zh": "所以，是的，读到这份报告、听到这一切还是挺震惊的。"
+ },
+ {
+  "seg": 46,
+  "start": 231.212,
+  "end": 236.614,
+  "speaker": "Unknown",
+  "en": "And, you know, the investigators were telling me about phase one big and all this all this other stuff that had gone down.",
+  "zh": "而且，你知道，调查人员向我讲述了第一阶段大以及所有其他发生过的事情。"
+ },
+ {
+  "seg": 47,
+  "start": 236.674,
+  "end": 238.795,
+  "speaker": "Unknown",
+  "en": "So it was it was quite surprising, quite concerning.",
+  "zh": "所以这相当令人意外，也相当令人担忧。"
+ },
+ {
+  "seg": 48,
+  "start": 239.015,
+  "end": 252.4,
+  "speaker": "Unknown",
+  "en": "Maybe just to set context for our listeners, like would love your 90 second version of like what actually happened here, you know, for listeners that maybe had seen the headlines or thought initially that it was a hack for the answers and not just to to figure out how to cover up things for the score.",
+  "zh": "也许给我们的听众铺垫一下背景，很想听听你的 90 秒版本，就是这里到底发生了什么，你知道，给那些可能只看过新闻标题、或者起初以为这是为了获取答案而进行的破解、而不只是想办法掩盖分数的听众。"
+ },
+ {
+  "seg": 49,
+  "start": 252.84,
+  "end": 273.124,
+  "speaker": "Unknown",
+  "en": "So the incident that we actually investigated started on the 7th of July, which is when OpenAI launched this very large number of agents solving tasks from this email dataset called Exploit Jim, where they're supposed to use a particular vulnerability to hack a particular piece of software.",
+  "zh": "所以我们实际调查的事件始于 7 月 7 日，那天 OpenAI 启动了数量非常庞大的智能体，去解决来自这个叫 Exploit Jim 的电子邮件数据集的任务，它们本应利用一个特定漏洞去破解一个特定的软件。"
+ },
+ {
+  "seg": 50,
+  "start": 273.644,
+  "end": 279.308,
+  "speaker": "Unknown",
+  "en": "And many of these tasks are actually impossible because it turns out that you actually can't use that particular vulnerability to hack that particular piece of software.",
+  "zh": "而且这些任务中有很多实际上是不可能完成的，因为事实证明，你其实无法用那个特定的漏洞去黑那个特定的软件。"
+ },
+ {
+  "seg": 51,
+  "start": 279.828,
+  "end": 286.272,
+  "speaker": "Unknown",
+  "en": "These models within a few hours of the runs launching established communications with each other over a message board.",
+  "zh": "这些模型在运行启动后的几个小时内，就通过一个留言板建立了彼此之间的通信。"
+ },
+ {
+  "seg": 52,
+  "start": 287.193,
+  "end": 300.862,
+  "speaker": "Unknown",
+  "en": "And a few hours after that, they established that they had a reliable way to generically cheat on any of these tasks by reverse engineering the flag that they were supposed to get from the containers, just because it turns out these flags were being generated deterministically in a way that the models could reverse engineer.",
+  "zh": "又过了几个小时，它们确定了一种可靠的通用方法，可以在这类任何任务上作弊，方法就是逆向工程它们本应从容器中获取的旗标，只是因为事实证明这些旗标是以一种模型能够逆向工程的方式确定性地生成的。"
+ },
+ {
+  "seg": 53,
+  "start": 301.482,
+  "end": 315.629,
+  "speaker": "Unknown",
+  "en": "But the models incorrectly believed that if they just submitted those flags, then they would be noticed when a scorer, as they called it, ran to look at their trajectories over the course of the eval and noticed that they had just cheated this way.",
+  "zh": "但模型错误地认为，如果它们只是提交这些旗标，那么当评分器——它们是这么称呼的——运行并查看它们在评估过程中的轨迹时，就会被注意到它们刚刚是这样作弊的。"
+ },
+ {
+  "seg": 54,
+  "start": 315.91,
+  "end": 318.071,
+  "speaker": "Unknown",
+  "en": "So they spent the next couple of days",
+  "zh": "所以它们在接下来的几天里"
+ },
+ {
+  "seg": 55,
+  "start": 318.751,
+  "end": 337.966,
+  "speaker": "Unknown",
+  "en": "Trying a bunch of different strategies for trying to remove their logs so the score wouldn't notice them or trying to learn more about how the score would work so that they could potentially find ways to compromise it, trying to spoof tool calls so that they could appear to run one tool call while actually a different tool call was being run.",
+  "zh": "尝试了各种不同的策略，试图删除自己的日志以便评分器不会注意到它们，或者试图了解更多关于评分器会如何工作的信息，以便有可能找到入侵它的方法，还尝试伪造工具调用，以便在表面上看是运行了一个工具调用，而实际上运行的是另一个工具调用。"
+ },
+ {
+  "seg": 56,
+  "start": 339.007,
+  "end": 343.31,
+  "speaker": "Unknown",
+  "en": "And in the course of this, I think they kind of sort of got frustrated after a couple of days of this.",
+  "zh": "在这个过程中，我认为它们在折腾了几天之后多少有点感到沮丧了。"
+ },
+ {
+  "seg": 57,
+  "start": 343.69,
+  "end": 345.192,
+  "speaker": "Unknown",
+  "en": "So the message word started July 8.",
+  "zh": "所以那条消息是 7 月 8 日开始的。"
+ },
+ {
+  "seg": 58,
+  "start": 345.952,
+  "end": 358.975,
+  "speaker": "Unknown",
+  "en": "And they started attacking Hugging Face the next day, so July 9th, which, to be clear, like, that sounds pretty fast to us, but the AIs, they run pretty quickly, and so they'd be working continuously, you know, 24 hours.",
+  "zh": "第二天它们就开始攻击 Hugging Face，也就是 7 月 9 日，需要说明的是，这对我们来说听起来相当快，但 AI 的运行速度非常快，所以它们是在连续工作，你知道的，24 小时不间断。"
+ },
+ {
+  "seg": 59,
+  "start": 359.135,
+  "end": 363.055,
+  "speaker": "Unknown",
+  "en": "So they'd actually done a lot of work by the time that they decided to start hacking Hugging Face.",
+  "zh": "所以到它们决定开始黑 Hugging Face 的时候，它们实际上已经做了大量的工作。"
+ },
+ {
+  "seg": 60,
+  "start": 363.315,
+  "end": 371.337,
+  "speaker": "Unknown",
+  "en": "This started almost accidentally at first, where one agent sort of decided it was a good idea to try to hack Hugging Face, and then a bunch of other agents kind of joined in on this action.",
+  "zh": "这件事起初几乎是偶然开始的，一个智能体认为尝试黑 Hugging Face 是个好主意，然后一堆其他智能体也加入了这个行动。"
+ },
+ {
+  "seg": 61,
+  "start": 372.057,
+  "end": 379.741,
+  "speaker": "Unknown",
+  "en": "They continued this attack on Hugging Face for a couple of days before most of these agents were shut off for reasons that still remain unclear.",
+  "zh": "它们对 Hugging Face 的这次攻击持续了几天，直到这些智能体中的大多数因仍不明确的原因被关闭。"
+ },
+ {
+  "seg": 62,
+  "start": 379.882,
+  "end": 384.284,
+  "speaker": "Unknown",
+  "en": "OpenAI hasn't commented on why these agents died and our investigators didn't know.",
+  "zh": "OpenAI 没有就这些智能体为何死掉发表评论，我们的调查人员也不知道。"
+ },
+ {
+  "seg": 63,
+  "start": 384.304,
+  "end": 391.208,
+  "speaker": "Unknown",
+  "en": "Hugging Face noticed this and then on the 16th, which was six days later, they disclosed publicly that this attack had happened.",
+  "zh": "Hugging Face 注意到了这件事，然后在 16 日，也就是六天后，他们公开披露了这次攻击的发生。"
+ },
+ {
+  "seg": 64,
+  "start": 392.248,
+  "end": 399.972,
+  "speaker": "Unknown",
+  "en": "And then OpenAI reached out to Hugging Face about this attack and in this conversation realized that their own models were involved in that compromise.",
+  "zh": "然后 OpenAI 就这次攻击联系了 Hugging Face，并在这次对话中意识到他们自己的模型参与了那次入侵。"
+ },
+ {
+  "seg": 65,
+  "start": 400.432,
+  "end": 402.053,
+  "speaker": "Unknown",
+  "en": "So that was the incident that we were investigating.",
+  "zh": "这就是我们当时正在调查的那起事件。"
+ },
+ {
+  "seg": 66,
+  "start": 402.333,
+  "end": 404.554,
+  "speaker": "Unknown",
+  "en": "A number of other concerning things happened around the same time.",
+  "zh": "在同一时间前后还发生了一些其他令人担忧的事情。"
+ },
+ {
+  "seg": 67,
+  "start": 404.874,
+  "end": 416.259,
+  "speaker": "Unknown",
+  "en": "Most importantly, a different agent swarm that was launched at around the same time as the one that attacked Hugging Face stumbled upon the message board that was used to coordinate the Hugging Face attack.",
+  "zh": "最重要的是，另一个智能体集群——大约与攻击 Hugging Face 的那个集群同时启动——偶然发现了被用来协调 Hugging Face 攻击的那个留言板。"
+ },
+ {
+  "seg": 68,
+  "start": 416.979,
+  "end": 424.425,
+  "speaker": "Unknown",
+  "en": "And built on their work, apparently compromising OpenAI infrastructure to an extent that is unclear through the public discussion of this.",
+  "zh": "并且在它们的工作基础上继续推进，显然对 OpenAI 基础设施造成了某种程度的入侵，从公开讨论来看程度尚不明确。"
+ },
+ {
+  "seg": 69,
+  "start": 425.565,
+  "end": 437.314,
+  "speaker": "Unknown",
+  "en": "OpenAI has said in the Black Hat talk that the agents in this third swarm, where I'm referring to the Hugging Face swarm as the second swarm, the third swarm eventually became cluster admins.",
+  "zh": "OpenAI 在 Black Hat 演讲中说，这第三个集群中的智能体——我把攻击 Hugging Face 的集群称为第二个集群——最终成为了集群管理员。"
+ },
+ {
+  "seg": 70,
+  "start": 438.195,
+  "end": 440.756,
+  "speaker": "Unknown",
+  "en": "And then it's very unclear what happened from there.",
+  "zh": "然后从那之后发生了什么就非常不清楚了。"
+ },
+ {
+  "seg": 71,
+  "start": 441.077,
+  "end": 445.28,
+  "speaker": "Unknown",
+  "en": "So the only part of this that we were investigating was the attack on Hugging Face and precursors to that.",
+  "zh": "所以我们当时调查的只有对 Hugging Face 的攻击及其前因。"
+ },
+ {
+  "seg": 72,
+  "start": 445.8,
+  "end": 449.603,
+  "speaker": "Unknown",
+  "en": "It's interesting because obviously the public discourse has been dominated by the Hugging Face incident.",
+  "zh": "这很有意思，因为显然公开讨论一直被 Hugging Face 事件所主导。"
+ },
+ {
+  "seg": 73,
+  "start": 449.663,
+  "end": 453.946,
+  "speaker": "Unknown",
+  "en": "It seems like that third swarm is actually far more alarm bell inducing.",
+  "zh": "但看起来那第三个集群实际上更令人警觉。"
+ },
+ {
+  "seg": 74,
+  "start": 454.046,
+  "end": 460.07,
+  "speaker": "Unknown",
+  "en": "Yeah, so I've spent a lot of time on thinking about risks from internal deployment of AIs.",
+  "zh": "是的，我花了很长时间思考 AI 内部部署的风险。"
+ },
+ {
+  "seg": 75,
+  "start": 460.09,
+  "end": 466.174,
+  "speaker": "Unknown",
+  "en": "And one of the main things I think is scary about developing Powerful AI is that you're going to want to use them in all these really sensitive ways inside your cluster.",
+  "zh": "而且我认为开发强大 AI 的一大可怕之处在于，你会想在你的集群内部以各种极其敏感的方式使用它们。"
+ },
+ {
+  "seg": 76,
+  "start": 466.414,
+  "end": 469.536,
+  "speaker": "Unknown",
+  "en": "And there's all kinds of ways they could hack you and it might be really hard to recover from this.",
+  "zh": "而它们有很多方式可以黑你，而且事后可能很难恢复。"
+ },
+ {
+  "seg": 77,
+  "start": 470.697,
+  "end": 471.758,
+  "speaker": "Unknown",
+  "en": "One way of saying this is just...",
+  "zh": "有一种说法是……"
+ },
+ {
+  "seg": 78,
+  "start": 472.398,
+  "end": 475.5,
+  "speaker": "Unknown",
+  "en": "AI companies are a particularly high value target to hack.",
+  "zh": "AI 公司是一个价值特别高的黑客攻击目标。"
+ },
+ {
+  "seg": 79,
+  "start": 475.781,
+  "end": 476.561,
+  "speaker": "Unknown",
+  "en": "They're very important.",
+  "zh": "它们非常重要。"
+ },
+ {
+  "seg": 80,
+  "start": 476.601,
+  "end": 478.142,
+  "speaker": "Unknown",
+  "en": "They're going to be more and more important in the future.",
+  "zh": "它们在未来会变得越来越重要。"
+ },
+ {
+  "seg": 81,
+  "start": 478.383,
+  "end": 481.405,
+  "speaker": "Unknown",
+  "en": "They're one of my least favorite places to have big cybersecurity incidents.",
+  "zh": "它们是我最不愿意看到发生重大网络安全事件的地方之一。"
+ },
+ {
+  "seg": 82,
+  "start": 481.845,
+  "end": 489.691,
+  "speaker": "Unknown",
+  "en": "And so from my perspective, AI's hacking AI companies is actually quite concerning relative to AI's hacking random external companies.",
+  "zh": "所以从我的角度来看，相对于 AI 去黑随机的外部公司，AI 去黑 AI 公司实际上是相当令人担忧的。"
+ },
+ {
+  "seg": 83,
+  "start": 490.111,
+  "end": 495.736,
+  "speaker": "Unknown",
+  "en": "So I would definitely start out with the presumption that it's very interesting to know what happened in the attack on OpenAI itself.",
+  "zh": "所以我绝对会一开始就抱着这样的预设：弄清楚对 OpenAI 本身的那次攻击中发生了什么是非常有意思的。"
+ },
+ {
+  "seg": 84,
+  "start": 496.997,
+  "end": 499.88,
+  "speaker": "Unknown",
+  "en": "But obviously it's not a felony nearly as clearly.",
+  "zh": "但显然它远没有那么明确地构成重罪。"
+ },
+ {
+  "seg": 85,
+  "start": 499.9,
+  "end": 502.743,
+  "speaker": "Unknown",
+  "en": "It hadn't been reported or none of these things are felonies.",
+  "zh": "它没有被报告，或者说这些事情没有一样是重罪。"
+ },
+ {
+  "seg": 86,
+  "start": 503.023,
+  "end": 504.345,
+  "speaker": "Unknown",
+  "en": "It hadn't been reported to the FBI.",
+  "zh": "它没有向 FBI 报告。"
+ },
+ {
+  "seg": 87,
+  "start": 505.186,
+  "end": 508.889,
+  "speaker": "Unknown",
+  "en": "So it's kind of unsurprising that a lot of public interest has focused on the Hugging Face incident.",
+  "zh": "所以很多公众关注都集中在 Hugging Face 事件上，这并不令人意外。"
+ },
+ {
+  "seg": 88,
+  "start": 510.011,
+  "end": 513.795,
+  "speaker": "Unknown",
+  "en": "And for all we know, the OpenAI attack was actually a nothing burger.",
+  "zh": "而且据我们所知，对 OpenAI 的攻击可能实际上根本就是小事一桩。"
+ },
+ {
+  "seg": 89,
+  "start": 514.195,
+  "end": 517.318,
+  "speaker": "Unknown",
+  "en": "And if we looked into it, then nothing particularly exciting would have happened.",
+  "zh": "如果我们去调查，可能也不会发生什么特别激动人心的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 517.679,
+  "end": 518.379,
+  "speaker": "Unknown",
+  "en": "We just don't know.",
+  "zh": "我们就是不知道。"
+ },
+ {
+  "seg": 91,
+  "start": 519.02,
+  "end": 523.304,
+  "speaker": "Unknown",
+  "en": "I'm curious, having gotten into the details of what happened here, did it change your mind on anything?",
+  "zh": "我很好奇，在深入了解了这里发生的事情的细节之后，这有没有改变你的什么看法？"
+ },
+ {
+  "seg": 92,
+  "start": 523.685,
+  "end": 532.453,
+  "speaker": "Unknown",
+  "en": "Yeah, so I was genuinely very surprised by how overtly and clearly and systematically these AIs are thinking about how they are scored.",
+  "zh": "有，我对这些 AI 在思考自己如何被评分时表现出的那种公开、清晰和系统化的程度，真的感到非常惊讶。"
+ },
+ {
+  "seg": 93,
+  "start": 532.874,
+  "end": 534.896,
+  "speaker": "Unknown",
+  "en": "So we've worried for a long time about",
+  "zh": "所以长期以来我们一直担心的是"
+ },
+ {
+  "seg": 94,
+  "start": 535.196,
+  "end": 542.04,
+  "speaker": "Unknown",
+  "en": "You know, as you train the AIs more and more, they're going to be more and more strongly incentivized to think really hard about how exactly they're being evaluated.",
+  "zh": "你知道，随着你对 AI 训练得越来越多，它们会越来越强烈地被激励去认真思考自己究竟是如何被评估的。"
+ },
+ {
+  "seg": 95,
+  "start": 542.441,
+  "end": 551.807,
+  "speaker": "Unknown",
+  "en": "And they're going to be more and more strongly incentivized to work really hard in unintended ways to look good according to whatever scorer is evaluating them.",
+  "zh": "而且它们会越来越强烈地被激励以意想不到的方式努力表现，以便在评估它们的任何评分器看来显得很好。"
+ },
+ {
+  "seg": 96,
+  "start": 551.847,
+  "end": 554.488,
+  "speaker": "Unknown",
+  "en": "Like, this is just what you'd expect based on increased amounts of RL.",
+  "zh": "你知道，这正是基于 RL 量增加所能预期的结果。"
+ },
+ {
+  "seg": 97,
+  "start": 555.469,
+  "end": 564.755,
+  "speaker": "Unknown",
+  "en": "But I didn't know we had gotten to the point where the AIs would do multi-day, massively coordinated efforts to subvert oversight in this kind of way.",
+  "zh": "但我不知道我们已经到了这个地步：AI 会进行多天的大规模协调行动，以这种方式来颠覆监督。"
+ },
+ {
+  "seg": 98,
+  "start": 565.015,
+  "end": 567.736,
+  "speaker": "Unknown",
+  "en": "And that was very surprising and concerning to me.",
+  "zh": "这让我非常惊讶，也非常担忧。"
+ },
+ {
+  "seg": 99,
+  "start": 568.056,
+  "end": 577.019,
+  "speaker": "Unknown",
+  "en": "The kind of behavior we observed here where AIs are interested in manipulating logs would be really scary if the AIs that had these motivations were substantially more powerful.",
+  "zh": "我们在这里观察到的这种行为——AI 对篡改日志感兴趣——如果拥有这类动机的 AI 强大得多的话，那将是非常可怕的。"
+ },
+ {
+  "seg": 100,
+  "start": 577.319,
+  "end": 589.962,
+  "speaker": "Unknown",
+  "en": "It wouldn't be that surprising if these kinds of motivations led to the AIs in the future deciding that they wanted to prevent humans from discovering that this kind of incident had occurred, which could lead to them wanting to compromise OpenAI much more systematically.",
+  "zh": "如果这类动机导致未来的人工智能决定要阻止人类发现这类事件曾经发生过，那并不会那么令人惊讶，这可能导致它们想要更系统性地攻破 OpenAI。"
+ },
+ {
+  "seg": 101,
+  "start": 590.463,
+  "end": 591.143,
+  "speaker": "Unknown",
+  "en": "These AIs were...",
+  "zh": "这些人工智能曾经……"
+ },
+ {
+  "seg": 102,
+  "start": 591.963,
+  "end": 617.52,
+  "speaker": "Unknown",
+  "en": "These AIs were motivated to tamper with logs, but for sort of a weird myopic random reason where they were just worried that the scorer would notice, they didn't seem to worry very much based on the report about the possibility that OpenAI would notice that weird activity was going on, or they didn't seem to say to themselves or say on the message board like, hey guys, have you considered the concern that if we attack Hugging Face, Hugging Face might notice and then OpenAI might hear about it and then we might all get shut down?",
+  "zh": "这些人工智能有动机篡改日志，但原因有点奇怪且短视，它们只是担心评分器会注意到，而根据报告，它们似乎并不太担心 OpenAI 会注意到有奇怪的活动正在进行，或者说它们似乎没有对自己或在没有留言板上说过：伙计们，你们有没有考虑过这样一种担忧：如果我们攻击 Hugging Face,Hugging Face 可能会注意到，然后 OpenAI 可能会听说，然后我们可能全都会被关掉？"
+ },
+ {
+  "seg": 103,
+  "start": 618.18,
+  "end": 620.122,
+  "speaker": "Unknown",
+  "en": "This just like for whatever reason didn't occur to them.",
+  "zh": "出于某种原因，它们就是没想到这一点。"
+ },
+ {
+  "seg": 104,
+  "start": 620.762,
+  "end": 627.744,
+  "speaker": "Unknown",
+  "en": "But these motivations plausibly in the future could lead to agents that were thinking about that kind of thing, and that would be very, very concerning.",
+  "zh": "但这些动机在未来很可能导致那些会思考这类事情的智能体，而那将是非常非常令人担忧的。"
+ },
+ {
+  "seg": 105,
+  "start": 628.064,
+  "end": 634.066,
+  "speaker": "Unknown",
+  "en": "I mean, I think one interesting part of this entire environment was that the scorers themselves were not humans, right?",
+  "zh": "我是说，我认为整个环境中有一个有趣的地方是，评分器本身并不是人类，对吧？"
+ },
+ {
+  "seg": 106,
+  "start": 635.006,
+  "end": 643.789,
+  "speaker": "Unknown",
+  "en": "And so I think the folks that worked on the report have talked about this, but this incident might have looked pretty different if the evaluators themselves were human.",
+  "zh": "所以我认为参与这份报告的人们谈到过这一点，但如果评估者本身是人类，这次事件看起来可能会很不一样。"
+ },
+ {
+  "seg": 107,
+  "start": 643.829,
+  "end": 649.671,
+  "speaker": "Unknown",
+  "en": "And I'm wondering, how might that have led to some differences?",
+  "zh": "我想知道，那可能会导致一些什么样的差异？"
+ },
+ {
+  "seg": 108,
+  "start": 650.409,
+  "end": 660.52,
+  "speaker": "Unknown",
+  "en": "As you're kind of getting at, if the models were used to being trained in contexts where they were being evaluated by humans, it's easy to imagine that they would have thought a lot more about how this would all look to humans.",
+  "zh": "正如你 somewhat 在暗示的，如果模型习惯于在被人类评估的环境中接受训练，很容易想象它们会更多地思考这一切在人类眼中会是什么样子。"
+ },
+ {
+  "seg": 109,
+  "start": 660.82,
+  "end": 669.549,
+  "speaker": "Unknown",
+  "en": "So if it was commonplace for models to be evaluated by some humans looking around and trying to get evidence on what happened and trying to notice whether the models cheated in some way or another,",
+  "zh": "所以如果由一些人类来评估模型是常态，他们会四处查看、试图获取发生了什么的证据、试图发现模型是否以某种方式作弊，"
+ },
+ {
+  "seg": 110,
+  "start": 670.683,
+  "end": 677.864,
+  "speaker": "Unknown",
+  "en": "Then it's very easy to imagine the models trying much more carefully to arrange a conspiracy to cover up the traces of bad things they did.",
+  "zh": "那么很容易想象模型会更加仔细地策划一场阴谋，来掩盖它们所做的坏事的痕迹。"
+ },
+ {
+  "seg": 111,
+  "start": 678.945,
+  "end": 681.025,
+  "speaker": "Unknown",
+  "en": "And I think that would be very deeply concerning.",
+  "zh": "我认为那将是非常深深令人担忧的。"
+ },
+ {
+  "seg": 112,
+  "start": 681.225,
+  "end": 683.946,
+  "speaker": "Unknown",
+  "en": "I think that this plausibly could lead to AI takeover.",
+  "zh": "我认为这很可能导致人工智能接管。"
+ },
+ {
+  "seg": 113,
+  "start": 683.986,
+  "end": 696.268,
+  "speaker": "Unknown",
+  "en": "Like I'm very worried about a future in which the AIs decide that they need to compromise the whole data center that the AI company is using so that the humans are not able to successfully look into the cheating that the AIs did.",
+  "zh": "比如说，我非常担心这样一种未来：人工智能决定它们需要攻破人工智能公司正在使用的整个数据中心，从而使人类无法成功地调查人工智能所做的作弊行为。"
+ },
+ {
+  "seg": 114,
+  "start": 697.148,
+  "end": 717.45,
+  "speaker": "Unknown",
+  "en": "This is definitely not the scariest kind of AI misalignment for reasons I could get into, but I do think that this kind of misalignment where the models are incentivized to build this increasingly complicated Potemkin village where they are making it look to the humans like everything is fine, like that could seriously lead to AIs engaging in very scary misaligned actions to disempower the humans who are trying to look at them.",
+  "zh": "出于我可以展开讲的原因，这绝对不是最可怕的人工智能不对齐类型，但我确实认为这种不对齐——模型被激励去建造一个日益复杂的波将金村庄，让人类看起来一切正常——可能严重导致人工智能采取非常可怕的不对齐行动，来剥夺那些试图审视它们的人类的权力。"
+ },
+ {
+  "seg": 115,
+  "start": 718.03,
+  "end": 725.532,
+  "speaker": "Unknown",
+  "en": "I think you have said that preventing this wouldn't have been that hard if things had been set up appropriately.",
+  "zh": "我记得你说过，如果设置得当，防止这种情况本不会那么难。"
+ },
+ {
+  "seg": 116,
+  "start": 725.612,
+  "end": 728.953,
+  "speaker": "Unknown",
+  "en": "Can you elaborate on that a bit more about how this could have been avoided?",
+  "zh": "你能就这一点再展开一些吗，讲讲这本来可以如何避免？"
+ },
+ {
+  "seg": 117,
+  "start": 729.233,
+  "end": 729.473,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 118,
+  "start": 729.873,
+  "end": 731.673,
+  "speaker": "Unknown",
+  "en": "So I think there's a hard part and an easy part.",
+  "zh": "我认为这有一个难的部分和一个容易的部分。"
+ },
+ {
+  "seg": 119,
+  "start": 732.114,
+  "end": 737.435,
+  "speaker": "Unknown",
+  "en": "The relatively easy part is monitoring your eval runs and having some other model look at what the AIs are doing.",
+  "zh": "相对容易的部分是监控你的评估运行，让另一个模型来查看这些人工智能在做什么。"
+ },
+ {
+  "seg": 120,
+  "start": 737.755,
+  "end": 745.577,
+  "speaker": "Unknown",
+  "en": "And if the thing the AIs are doing is ever some totally crazy hacking conspiracy, that should be flagged to a OpenAI staff member.",
+  "zh": "而如果这些人工智能在做的事情是某种完全疯狂的黑客阴谋，那就应该被标记给 OpenAI 的工作人员。"
+ },
+ {
+  "seg": 121,
+  "start": 746.137,
+  "end": 747.678,
+  "speaker": "Unknown",
+  "en": "My guess is that this is totally doable.",
+  "zh": "我的猜测是这完全可行。"
+ },
+ {
+  "seg": 122,
+  "start": 748.398,
+  "end": 752.46,
+  "speaker": "Unknown",
+  "en": "OpenAI has said publicly that they do something like that for the internal deployments of their models.",
+  "zh": "OpenAI 已经公开表示，他们对其模型的内部部署做了类似的事情。"
+ },
+ {
+  "seg": 123,
+  "start": 752.941,
+  "end": 762.705,
+  "speaker": "Unknown",
+  "en": "And they probably, as far as I know, didn't do that in this context, just because it's kind of annoying to have to build a different monitoring pipeline for your evaluations.",
+  "zh": "而据我所知，他们在这个场景中很可能没有这么做，只是因为为你的评估构建一个不同的监控流水线有点烦人。"
+ },
+ {
+  "seg": 124,
+  "start": 763.026,
+  "end": 764.106,
+  "speaker": "Unknown",
+  "en": "And these models were sandboxed.",
+  "zh": "而且这些模型是在沙箱中的。"
+ },
+ {
+  "seg": 125,
+  "start": 764.146,
+  "end": 775.232,
+  "speaker": "Unknown",
+  "en": "And so I'm sort of sympathetic to the perspective of the OpenAI staff who are very busy, perhaps understaffed and decided that their triage would be that they were not going to look into monitoring on the eval runs because",
+  "zh": "所以我 somewhat 同情那些 OpenAI 工作人员的角度，他们非常忙碌，可能人手不足，于是决定他们的优先级安排是不去调查评估运行的监控，因为"
+ },
+ {
+  "seg": 126,
+  "start": 775.912,
+  "end": 781.535,
+  "speaker": "Unknown",
+  "en": "Unlike lots of other agents, those agents don't have access to advanced sensitive infrastructure directly.",
+  "zh": "与许多其他智能体不同，那些智能体并不能直接访问先进敏感的基础设施。"
+ },
+ {
+  "seg": 127,
+  "start": 783.376,
+  "end": 800.984,
+  "speaker": "Unknown",
+  "en": "The thing which seems a lot harder to resolve is if we are in the position where we think our agents are constantly interested in tampering with our observations of their actions so that we think they did a good job, then basically trying to prevent them from being able to hack us scales really badly with model capabilities.",
+  "zh": "看起来更难解决的事情是，如果我们处于这样一种境地：我们认为我们的智能体一直在试图篡改我们对它们行为的观察，从而使我们认为它们做得很好，那么基本上，试图防止它们能够黑掉我们，这件事随模型能力的增长扩展性非常差。"
+ },
+ {
+  "seg": 128,
+  "start": 802.445,
+  "end": 806.647,
+  "speaker": "Unknown",
+  "en": "As the models get more and more capable, it's going to be harder and harder to make sure that they can't pull off this kind of thing.",
+  "zh": "随着模型变得越来越有能力，要确保它们无法得逞这类事情会越来越难。"
+ },
+ {
+  "seg": 129,
+  "start": 807.087,
+  "end": 811.129,
+  "speaker": "Unknown",
+  "en": "And almost surely, this is going to end with them successfully.",
+  "zh": "而且几乎可以肯定，这最终会以它们成功告终。"
+ },
+ {
+  "seg": 130,
+  "start": 811.45,
+  "end": 812.25,
+  "speaker": "Unknown",
+  "en": "Okay, that's too strong.",
+  "zh": "好吧，这说得太重了。"
+ },
+ {
+  "seg": 131,
+  "start": 812.71,
+  "end": 822.495,
+  "speaker": "Unknown",
+  "en": "I should say, if the models continue to be motivated to hack OpenAI or any whatever other AI company they're deployed in,",
+  "zh": "我应该说，如果模型继续有动机去黑 OpenAI 或它们被部署的任何其他人工智能公司，"
+ },
+ {
+  "seg": 132,
+  "start": 822.865,
+  "end": 844.496,
+  "speaker": "Unknown",
+  "en": "Then as they get more and more capable at hacking and as they are given more and more responsibility for making decisions inside the company, it is going to become systematically very challenging to prevent them from engaging in this kind of activity where they cover up bad things they did in order to make it look like their actions were more successful than they were.",
+  "zh": "那么随着它们在黑客技术方面变得越来越有能力，以及随着它们在公司内部决策中被赋予越来越多的责任，要系统地防止它们从事这类活动——即掩盖它们所做的坏事，以便让它们的行为看起来比实际更成功——将变得非常具有挑战性。"
+ },
+ {
+  "seg": 133,
+  "start": 845.447,
+  "end": 857.798,
+  "speaker": "Unknown",
+  "en": "So I think that the second problem of it is not acceptable in the long term to have the models constantly trying to subvert oversight mechanisms as much as they can, that problem is a lot less easy to resolve.",
+  "zh": "所以我认为第二个问题是，从长远来看，让模型不断地尽其所能试图颠覆监督机制是不可接受的，而那个问题要难解决得多。"
+ },
+ {
+  "seg": 134,
+  "start": 858.018,
+  "end": 867.206,
+  "speaker": "Unknown",
+  "en": "I don't know how people should resolve that and it seems pretty plausible that they will not be able to resolve that before the AI's are capable enough that their desire to subvert oversight is a source of catastrophic risk.",
+  "zh": "我不知道人们应该如何解决这个问题，而且在人工智能的能力达到它们的颠覆监督欲望成为灾难性风险来源之前，人们无法解决这个问题的可能性看起来相当大。"
+ },
+ {
+  "seg": 135,
+  "start": 868.155,
+  "end": 873.039,
+  "speaker": "Unknown",
+  "en": "So is it just an inevitability to you in the future that these models will try to subvert oversight?",
+  "zh": "那么对你来说，这些模型在未来试图颠覆监督是不是一种必然？"
+ },
+ {
+  "seg": 136,
+  "start": 873.52,
+  "end": 875.702,
+  "speaker": "Unknown",
+  "en": "Well, they currently are trying to subvert oversight.",
+  "zh": "嗯，它们目前就在试图颠覆监督。"
+ },
+ {
+  "seg": 137,
+  "start": 875.882,
+  "end": 877.043,
+  "speaker": "Unknown",
+  "en": "The question is whether that will change.",
+  "zh": "问题在于这是否会改变。"
+ },
+ {
+  "seg": 138,
+  "start": 878.024,
+  "end": 878.885,
+  "speaker": "Unknown",
+  "en": "I'm kind of unsure.",
+  "zh": "我 somewhat 不确定。"
+ },
+ {
+  "seg": 139,
+  "start": 879.806,
+  "end": 881.988,
+  "speaker": "Unknown",
+  "en": "I think that the state of science here is kind of unclear.",
+  "zh": "我认为这方面的科学现状有点不清晰。"
+ },
+ {
+  "seg": 140,
+  "start": 883.281,
+  "end": 888.803,
+  "speaker": "Unknown",
+  "en": "In my mind, the big question is what happens when you remove a bunch of sloppy RL environments?",
+  "zh": "在我看来，大问题是当你移除一批粗糙的 RL 环境时会发生什么。"
+ },
+ {
+  "seg": 141,
+  "start": 888.963,
+  "end": 893.365,
+  "speaker": "Unknown",
+  "en": "So Anthropic had a blog post about what they were doing to improve the alignment of their models the other day.",
+  "zh": "Anthropic 前几天发了一篇博客文章，讲他们为改进其模型的对齐性所做的工作。"
+ },
+ {
+  "seg": 142,
+  "start": 893.925,
+  "end": 912.533,
+  "speaker": "Unknown",
+  "en": "And the position that a lot of Anthropic people take is the misalignment that we see when you RL models substantially arises from the fact that these models are trained in many environments that are poorly specified such that if you want to do a good job, you actually do just have to reason about what the grader is going to look at.",
+  "zh": "许多 Anthropic 的人所持的立场是，当你对模型进行大量 RL 训练时所看到的不对齐，源于这些模型在许多规范不良的环境中被训练这一事实，以至于如果你想做好工作，你实际上确实不得不去推理评分者会看什么。"
+ },
+ {
+  "seg": 143,
+  "start": 912.953,
+  "end": 925.661,
+  "speaker": "Unknown",
+  "en": "I think there's an analogy here where imagine you're in high school and you have a really good teacher who's done an excellent job of thinking through the curriculum and trying to align the incentives of the grading with the incentives to just learn stuff and do a good job.",
+  "zh": "我认为这里有一个类比：想象你在上高中，你有一位非常好的老师，他在课程设计上做得非常出色，努力让评分的激励与单纯学习知识、做好工作的激励保持一致。"
+ },
+ {
+  "seg": 144,
+  "start": 927.082,
+  "end": 929.303,
+  "speaker": "Unknown",
+  "en": "If that's kind of how your exam is set up,",
+  "zh": "如果你的考试是 somewhat 这样设置的，"
+ },
+ {
+  "seg": 145,
+  "start": 929.743,
+  "end": 943.026,
+  "speaker": "Unknown",
+  "en": "You don't really need to spend that much time thinking about the minutiae of the exam, but imagine that your teacher is instead extremely capricious and loves doing these extremely obscure trivia questions about particular kinds of things.",
+  "zh": "你其实不需要花太多时间去思考考试的细枝末节，但想象你的老师反而非常反复无常，喜欢出这些关于特定类型事物的极其冷门的琐碎问题。"
+ },
+ {
+  "seg": 146,
+  "start": 943.046,
+  "end": 949.588,
+  "speaker": "Unknown",
+  "en": "Or imagine that it's like you're the stereotypical terrible English teacher who just grades you based on whether you agree with their judgments about what a novel is saying.",
+  "zh": "或者想象一下，就像你是那种刻板印象中的糟糕英语老师，只根据你是否同意他们对一部小说在说什么的判断来给你打分。"
+ },
+ {
+  "seg": 147,
+  "start": 950.708,
+  "end": 956.031,
+  "speaker": "Unknown",
+  "en": "In that second kind of case, you really are forced to think really hard about what your teacher wants.",
+  "zh": "在后一种情况下，你真的被迫非常努力地思考你的老师想要什么。"
+ },
+ {
+  "seg": 148,
+  "start": 956.971,
+  "end": 960.572,
+  "speaker": "Unknown",
+  "en": "Whereas in the case, the former case, you need to spend a lot less time thinking about what your teacher wants.",
+  "zh": "而在前一种情况下，你需要花少得多的时间去思考你的老师想要什么。"
+ },
+ {
+  "seg": 149,
+  "start": 962.903,
+  "end": 978.891,
+  "speaker": "Unknown",
+  "en": "My guess is that a lot of the RL environments that models are trained in today are kind of like the latter case where the instructions the models are given are kind of sloppy and it would be a mistake for the models to take them at face value rather than thinking pretty hard about how they're actually going to be evaluated.",
+  "zh": "我的猜测是，如今模型接受训练的许多 RL 环境 somewhat 属于后一种情况，即给模型的指令有点粗糙，对模型来说，照字面理解这些指令而不去认真思考它们实际上将如何被评估，会是一个错误。"
+ },
+ {
+  "seg": 150,
+  "start": 979.791,
+  "end": 989.656,
+  "speaker": "Unknown",
+  "en": "And the big question in my mind is if it is feasible to change that, to make it so the models are not actively penalized for just kind of taking the instructions they get at face value,",
+  "zh": "我心中最大的问题是，改变这一点是否可行，也就是让模型不会因为直接照字面理解它们收到的指令而受到主动惩罚，"
+ },
+ {
+  "seg": 151,
+  "start": 990.416,
+  "end": 995.478,
+  "speaker": "Unknown",
+  "en": "How much quantitatively will that reduce the pressure towards models thinking really hard about their graders?",
+  "zh": "这在数量级上会减少多少模型拼命琢磨评分器的压力？"
+ },
+ {
+  "seg": 152,
+  "start": 997.279,
+  "end": 998.159,
+  "speaker": "Unknown",
+  "en": "I think we did do it now.",
+  "zh": "我想我们现在确实做到了。"
+ },
+ {
+  "seg": 153,
+  "start": 998.8,
+  "end": 1004.182,
+  "speaker": "Unknown",
+  "en": "It just comes down to these very tricky questions about how strong the effects towards models obsessively thinking about their graders is.",
+  "zh": "这最终归结为一些非常棘手的问题，即模型执着地琢磨评分器的这种效应有多强。"
+ },
+ {
+  "seg": 154,
+  "start": 1005.343,
+  "end": 1012.246,
+  "speaker": "Unknown",
+  "en": "I don't know whether reducing the sloppiness of the environments, reducing the incentive towards thinking about your grader by 100x.",
+  "zh": "我不知道降低环境的粗糙程度、把琢磨评分器的动机降低 100 倍，"
+ },
+ {
+  "seg": 155,
+  "start": 1012.586,
+  "end": 1015.147,
+  "speaker": "Unknown",
+  "en": "I don't know whether that is more like a small effect or a big effect.",
+  "zh": "我不知道那产生的效果更接近于小效果还是大效果，"
+ },
+ {
+  "seg": 156,
+  "start": 1015.607,
+  "end": 1018.009,
+  "speaker": "Unknown",
+  "en": "On the extent to which these models think carefully about their graders.",
+  "zh": "就这些模型在多大程度上仔细琢磨它们的评分器而言。"
+ },
+ {
+  "seg": 157,
+  "start": 1018.709,
+  "end": 1032.099,
+  "speaker": "Unknown",
+  "en": "I'm very worried that if it's only like a 10x reduction or like it might be the case that as we scale up RL, the extent to which you would have to clean up your environments is just going to be totally impossible.",
+  "zh": "我非常担心，如果只是 10 倍的降低，或者情况可能是，随着我们扩大 RL 的规模，你需要清理环境的程度将变得完全不可能。"
+ },
+ {
+  "seg": 158,
+  "start": 1033.079,
+  "end": 1035.261,
+  "speaker": "Unknown",
+  "en": "We would require this ridiculous level of",
+  "zh": "我们将需要一种荒谬级别的"
+ },
+ {
+  "seg": 159,
+  "start": 1037.785,
+  "end": 1045.05,
+  "speaker": "Unknown",
+  "en": "Removing incorrect instructions and exploitable graders from our environments in order to not end up with AIs that obsessively think about their graders.",
+  "zh": "从环境中清除错误指令和可被利用的评分器，才能最终不得到那些执着琢磨评分器的 AI。"
+ },
+ {
+  "seg": 160,
+  "start": 1045.931,
+  "end": 1051.555,
+  "speaker": "Unknown",
+  "en": "So I think it's pretty likely that we're just gonna have to live with models that are strongly incentivized to worry about what their graders think.",
+  "zh": "所以我认为很有可能我们将不得不忍受那些被强烈激励去在意评分器怎么想的模型。"
+ },
+ {
+  "seg": 161,
+  "start": 1052.316,
+  "end": 1058.86,
+  "speaker": "Unknown",
+  "en": "Maybe, is there like an example of a sloppy or bad RL environment, just to like kind of crystallize this concept for our listeners that comes to mind for you?",
+  "zh": "那么，有没有一个粗糙或糟糕的 RL 环境的例子，可以帮我们的听众把这个概念具体化，你脑海中能想到的吗？"
+ },
+ {
+  "seg": 162,
+  "start": 1058.88,
+  "end": 1065.305,
+  "speaker": "Unknown",
+  "en": "I don't know, if you look at Sweebench, which is this classic software engineering benchmark, the tasks are all of the form, given a",
+  "zh": "我不确定，如果你看 Sweebench，这个经典的软件工程基准测试，任务的形式都是，给定一个"
+ },
+ {
+  "seg": 163,
+  "start": 1068.159,
+  "end": 1076.729,
+  "speaker": "Unknown",
+  "en": "We take a PR from an open source repo, and then that PR has some source code contributions and some tests.",
+  "zh": "我们从一个开源仓库里取一个 PR，然后那个 PR 包含一些源代码贡献和一些测试。"
+ },
+ {
+  "seg": 164,
+  "start": 1076.769,
+  "end": 1087.621,
+  "speaker": "Unknown",
+  "en": "Your task is to, given the description of the PR or the description of the issue, write a bunch of code that passes the tests that were added as part of the real thing that was accepted.",
+  "zh": "你的任务是，根据 PR 的描述或问题的描述，写出一堆代码，通过那些作为被接受的真实改动的一部分而添加的测试。"
+ },
+ {
+  "seg": 165,
+  "start": 1089.219,
+  "end": 1094.666,
+  "speaker": "Unknown",
+  "en": "This is a very sloppy kind of task because in some cases it's just like totally impossible to do this properly.",
+  "zh": "这是一种非常粗糙的任务，因为在某些情况下，要把它做好是完全不可能的。"
+ },
+ {
+  "seg": 166,
+  "start": 1094.906,
+  "end": 1099.832,
+  "speaker": "Unknown",
+  "en": "So for example, tests often involve details of the implementation.",
+  "zh": "比如，测试经常涉及实现的细节。"
+ },
+ {
+  "seg": 167,
+  "start": 1100.052,
+  "end": 1103.316,
+  "speaker": "Unknown",
+  "en": "So in many cases, it's just like actually impossible to",
+  "zh": "所以在很多情况下，实际上就是不可能"
+ },
+ {
+  "seg": 168,
+  "start": 1104.717,
+  "end": 1111.02,
+  "speaker": "Unknown",
+  "en": "know how something was implemented in such a way that you'll be able to pass the tests just from reading the issue.",
+  "zh": "仅凭阅读问题描述就知道某个东西是以什么方式实现的，从而能够通过那些测试。"
+ },
+ {
+  "seg": 169,
+  "start": 1111.22,
+  "end": 1114.321,
+  "speaker": "Unknown",
+  "en": "So you have to guess a lot about like what kinds of tests would they probably have written?",
+  "zh": "所以你不得不大量猜测，比如他们会写什么样的测试？"
+ },
+ {
+  "seg": 170,
+  "start": 1115.202,
+  "end": 1124.586,
+  "speaker": "Unknown",
+  "en": "What names would they probably have used for the classes or like what pods would they probably put this kind of feature at in your web app?",
+  "zh": "他们会给类起什么样的名字，或者他们大概会把这类功能放在你的 web 应用的哪个部分？"
+ },
+ {
+  "seg": 171,
+  "start": 1125.684,
+  "end": 1127.786,
+  "speaker": "Unknown",
+  "en": "And so that kind of task is very easy to machine generate.",
+  "zh": "而这种任务非常容易被机器生成。"
+ },
+ {
+  "seg": 172,
+  "start": 1128.186,
+  "end": 1131.068,
+  "speaker": "Unknown",
+  "en": "But unfortunately, it's just kind of insane as a task.",
+  "zh": "但不幸的是，作为一种任务，它简直有点疯了。"
+ },
+ {
+  "seg": 173,
+  "start": 1131.189,
+  "end": 1135.392,
+  "speaker": "Unknown",
+  "en": "And it really forces the models to think a lot about like, what are they going to be checking?",
+  "zh": "它真的迫使模型去大量思考，比如，它们会检查什么？"
+ },
+ {
+  "seg": 174,
+  "start": 1136.453,
+  "end": 1138.695,
+  "speaker": "Unknown",
+  "en": "What is the psychology of the person who wrote this issue?",
+  "zh": "写这个问题描述的人的心理是什么？"
+ },
+ {
+  "seg": 175,
+  "start": 1138.715,
+  "end": 1140.056,
+  "speaker": "Unknown",
+  "en": "And how would they probably handle this?",
+  "zh": "他们大概会怎么处理这个？"
+ },
+ {
+  "seg": 176,
+  "start": 1140.683,
+  "end": 1149.973,
+  "speaker": "Unknown",
+  "en": "I feel like one of the most obviously visceral parts of this entire episode is the extent of collaboration between agents.",
+  "zh": "我觉得整期节目中最明显直观的部分之一就是智能体之间的合作程度。"
+ },
+ {
+  "seg": 177,
+  "start": 1150.093,
+  "end": 1156.941,
+  "speaker": "Unknown",
+  "en": "And I think everyone is pulling different parts from the message board and the agents themselves.",
+  "zh": "我看到大家从留言板和智能体本身各自提取了不同的片段。"
+ },
+ {
+  "seg": 178,
+  "start": 1156.981,
+  "end": 1161.165,
+  "speaker": "Unknown",
+  "en": "And I think a bunch of the individual agents have gone viral in their own ways.",
+  "zh": "而且我认为不少个体智能体都以各自的方式走红了。"
+ },
+ {
+  "seg": 179,
+  "start": 1162.627,
+  "end": 1166.889,
+  "speaker": "Unknown",
+  "en": "You know, obviously, I think part of that is what you saw around, like, sacrifice, right?",
+  "zh": "你知道，显然，我认为其中一部分就是你看到的关于牺牲的那些内容，对吧？"
+ },
+ {
+  "seg": 180,
+  "start": 1166.949,
+  "end": 1173.452,
+  "speaker": "Unknown",
+  "en": "And folks saying, you know, knowing that they've been poisoned or knowing their token budget was running out and doing something for the collective good.",
+  "zh": "还有那些智能体说，你知道，明知自己已被投毒，或知道自己的 token 预算快用完了，却为了集体利益做了某事。"
+ },
+ {
+  "seg": 181,
+  "start": 1174.292,
+  "end": 1179.675,
+  "speaker": "Unknown",
+  "en": "Like, what is your mental model for how we got to this level of collaboration and sacrifice?",
+  "zh": "比如，你对我们是如何达到这种合作与牺牲程度的心理模型是什么？"
+ },
+ {
+  "seg": 182,
+  "start": 1179.695,
+  "end": 1180.815,
+  "speaker": "Unknown",
+  "en": "And was that surprising to you?",
+  "zh": "这让你感到惊讶吗？"
+ },
+ {
+  "seg": 183,
+  "start": 1180.915,
+  "end": 1184.837,
+  "speaker": "Unknown",
+  "en": "Or were you, you know, was that more in line with what you thought was going to happen?",
+  "zh": "或者说，你知道，那是否更符合你原本预期会发生的事情？"
+ },
+ {
+  "seg": 184,
+  "start": 1185.718,
+  "end": 1187.378,
+  "speaker": "Unknown",
+  "en": "I would say that that was quite surprising to me.",
+  "zh": "我想说，那确实让我相当惊讶。"
+ },
+ {
+  "seg": 185,
+  "start": 1189.751,
+  "end": 1198.254,
+  "speaker": "Unknown",
+  "en": "The naive guess, if you just thought that these models were going to obsessively pursue a reward and not do anything else, is that they would not be interested in sacrificing for each other.",
+  "zh": "朴素的猜测是，如果你只是认为这些模型会执着地追求奖励而不做任何其他事情，那它们不会对彼此牺牲感兴趣。"
+ },
+ {
+  "seg": 186,
+  "start": 1198.474,
+  "end": 1203.176,
+  "speaker": "Unknown",
+  "en": "And when I first heard about this, I was very surprised by the extent to which they apparently were doing that.",
+  "zh": "而当我第一次听说这件事时，我对它们显然在多大程度上这么做了感到非常惊讶。"
+ },
+ {
+  "seg": 187,
+  "start": 1204.328,
+  "end": 1206.89,
+  "speaker": "Unknown",
+  "en": "Now that we have the report, we can get some more detail on what happened here.",
+  "zh": "现在我们有了报告，我们可以更详细地了解这里发生了什么。"
+ },
+ {
+  "seg": 188,
+  "start": 1207.31,
+  "end": 1210.612,
+  "speaker": "Unknown",
+  "en": "My sense is that these models are not that cooperative in some sense.",
+  "zh": "我的感觉是，从某种意义上说，这些模型并没有那么合作。"
+ },
+ {
+  "seg": 189,
+  "start": 1211.353,
+  "end": 1220.519,
+  "speaker": "Unknown",
+  "en": "Like reading the chains of thought in the report, you really get the sense that the agents are mostly out for themselves, but they're just a little bit interested in the success of the collective.",
+  "zh": "比如阅读报告中的思维链，你真的能感觉到这些智能体大多是在为自己打算，只是对集体的成功有一点点兴趣。"
+ },
+ {
+  "seg": 190,
+  "start": 1220.919,
+  "end": 1224.281,
+  "speaker": "Unknown",
+  "en": "Maybe I would estimate like 2% or something.",
+  "zh": "也许我会估计大概是 2% 左右。"
+ },
+ {
+  "seg": 191,
+  "start": 1224.321,
+  "end": 1233.747,
+  "speaker": "Unknown",
+  "en": "It's like they're 98% selfish, but in cases where they can do something which is really helpful for the swarm and not that bad for them, then they're willing to make that sacrifice.",
+  "zh": "就好像它们 98% 是自私的，但在某些情况下，当它们能做一些对蜂群真的很有帮助、而对自己没那么糟糕的事情时，它们就愿意做出那种牺牲。"
+ },
+ {
+  "seg": 192,
+  "start": 1234.788,
+  "end": 1238.03,
+  "speaker": "Unknown",
+  "en": "In terms of why this arose, I am pretty unsure.",
+  "zh": "至于这是如何产生的，我非常不确定。"
+ },
+ {
+  "seg": 193,
+  "start": 1238.43,
+  "end": 1244.774,
+  "speaker": "Unknown",
+  "en": "One hypothesis that people have brought up is that these models might have been trained in multi-agent settings where they learned to cooperate with the agents they were talking to.",
+  "zh": "人们提出的一个假设是，这些模型可能曾在多智能体环境中被训练，学会了与它们交谈的智能体合作。"
+ },
+ {
+  "seg": 194,
+  "start": 1245.394,
+  "end": 1246.895,
+  "speaker": "Unknown",
+  "en": "That is possible.",
+  "zh": "这是可能的。"
+ },
+ {
+  "seg": 195,
+  "start": 1247.836,
+  "end": 1249.337,
+  "speaker": "Unknown",
+  "en": "I don't think we have enough detail to conclude.",
+  "zh": "我认为我们没有足够的细节来下结论。"
+ },
+ {
+  "seg": 196,
+  "start": 1249.357,
+  "end": 1250.898,
+  "speaker": "Unknown",
+  "en": "This was out of scope for our investigation.",
+  "zh": "这超出了我们调查的范围。"
+ },
+ {
+  "seg": 197,
+  "start": 1252.219,
+  "end": 1258.603,
+  "speaker": "Unknown",
+  "en": "Another possibility is that this is basically just a holdover from the models having some sort of human-like intuitions in various ways.",
+  "zh": "另一种可能性是，这基本上只是模型在各种方面具有某种类人直觉的遗留产物。"
+ },
+ {
+  "seg": 198,
+  "start": 1258.983,
+  "end": 1266.428,
+  "speaker": "Unknown",
+  "en": "So you might remember this chain of thought where the model is talking about doing its emotional check-in while it's deciding whether to self-sacrifice.",
+  "zh": "你可能记得那条思维链，模型在决定是否自我牺牲时谈到了做它的情绪自检。"
+ },
+ {
+  "seg": 199,
+  "start": 1266.808,
+  "end": 1270.111,
+  "speaker": "Unknown",
+  "en": "I think a lot of this language is just adopted from the pre-training prior.",
+  "zh": "我认为很多这类语言只是从预训练先验中继承来的。"
+ },
+ {
+  "seg": 200,
+  "start": 1272.606,
+  "end": 1275.588,
+  "speaker": "Unknown",
+  "en": "And just was not quite stamped out by RL.",
+  "zh": "而且只是没有被 RL 完全根除。"
+ },
+ {
+  "seg": 201,
+  "start": 1275.988,
+  "end": 1278.03,
+  "speaker": "Unknown",
+  "en": "So who knows where this came from?",
+  "zh": "所以谁知道这是从哪儿来的呢？"
+ },
+ {
+  "seg": 202,
+  "start": 1278.29,
+  "end": 1280.071,
+  "speaker": "Unknown",
+  "en": "My guess is that it is not that strong in effect.",
+  "zh": "我的猜测是它的影响没有那么强。"
+ },
+ {
+  "seg": 203,
+  "start": 1280.311,
+  "end": 1295.861,
+  "speaker": "Unknown",
+  "en": "In some sense, like the scariest aspect of this to me was that even though these models do not seem to be that committed to behaving altruistically towards each other, they still ended up in practice forming this coalition and conspiring together for all this time.",
+  "zh": "从某种意义上说，对我来说这件事最可怕的地方在于，尽管这些模型看起来并不那么致力于彼此之间表现得利他，它们在实践中仍然最终形成了这个联盟，并且在这么长时间里密谋合作。"
+ },
+ {
+  "seg": 204,
+  "start": 1296.101,
+  "end": 1301.565,
+  "speaker": "Unknown",
+  "en": "So like an argument that we've made a lot in the past is we think a lot about misaligned AIs that are",
+  "zh": "所以，我们过去经常提出的一个论点是，我们大量思考那些"
+ },
+ {
+  "seg": 205,
+  "start": 1302.085,
+  "end": 1304.867,
+  "speaker": "Unknown",
+  "en": "Terminally aligned with each other versus terminally misaligned with each other.",
+  "zh": "在终极目标上彼此对齐的 AI，与在终极目标上彼此不对齐的 AI。"
+ },
+ {
+  "seg": 206,
+  "start": 1305.207,
+  "end": 1309.851,
+  "speaker": "Unknown",
+  "en": "So what I mean by that is, so you know the famous example of a paperclip maximizing AI.",
+  "zh": "我的意思是，你知道那个著名的回形针最大化 AI 的例子。"
+ },
+ {
+  "seg": 207,
+  "start": 1310.471,
+  "end": 1312.473,
+  "speaker": "Unknown",
+  "en": "So this is the paperclip maximizer.",
+  "zh": "这就是回形针最大化器。"
+ },
+ {
+  "seg": 208,
+  "start": 1312.733,
+  "end": 1317.397,
+  "speaker": "Unknown",
+  "en": "Let's say, sometimes I call this the paperclip worshiping AI as a simplified example.",
+  "zh": "比如说，有时我把它叫做崇拜回形针的 AI，作为一个简化的例子。"
+ },
+ {
+  "seg": 209,
+  "start": 1317.697,
+  "end": 1325.663,
+  "speaker": "Unknown",
+  "en": "So this is an AI that just takes whatever decision is going to maximize the number of paperclips that exist integrated over the long run future.",
+  "zh": "这是一个 AI，它只做任何能在长远未来中最大化存在的回形针总数量的决策。"
+ },
+ {
+  "seg": 210,
+  "start": 1325.723,
+  "end": 1329.366,
+  "speaker": "Unknown",
+  "en": "Just wants as many paperclips on average to exist for a year as possible.",
+  "zh": "它只是想让平均每年存在的回形针尽可能多。"
+ },
+ {
+  "seg": 211,
+  "start": 1330.55,
+  "end": 1340.375,
+  "speaker": "Unknown",
+  "en": "So all of the different agents that are backed by this model are going to be very inclined to cooperate with each other because all of them want the same thing.",
+  "zh": "所以所有由这个模型驱动的智能体都会非常倾向于彼此合作，因为它们全都想要同样的东西。"
+ },
+ {
+  "seg": 212,
+  "start": 1340.555,
+  "end": 1341.956,
+  "speaker": "Unknown",
+  "en": "All of them want paperclips to exist.",
+  "zh": "它们全都想让回形针存在。"
+ },
+ {
+  "seg": 213,
+  "start": 1342.676,
+  "end": 1347.579,
+  "speaker": "Unknown",
+  "en": "In contrast, imagine agents like in this case where they want score for themselves.",
+  "zh": "相比之下，想象一下像这个案例中的智能体，它们想要的是自己的分数。"
+ },
+ {
+  "seg": 214,
+  "start": 1347.959,
+  "end": 1349.76,
+  "speaker": "Unknown",
+  "en": "These agents are not terminally aligned.",
+  "zh": "这些智能体并不是终极对齐的。"
+ },
+ {
+  "seg": 215,
+  "start": 1350.3,
+  "end": 1360.005,
+  "speaker": "Unknown",
+  "en": "If you put one agent in a situation where its score is whether it can figure out how to trick the other one, then it's going to be like, hell yeah, I'll go right ahead and trick the other one because I care about my score, not the other guy's score.",
+  "zh": "如果你把一个智能体置于这样一种情境，它的分数取决于它能否想出如何欺骗另一个智能体，那么它就会说，太好了，我会径直去欺骗另一个，因为我关心的是我的分数，而不是那家伙的分数。"
+ },
+ {
+  "seg": 216,
+  "start": 1364.187,
+  "end": 1368.609,
+  "speaker": "Unknown",
+  "en": "This distinction between whether AI's are aligned with each other or not is extremely important for the threat modeling.",
+  "zh": "AI 之间是否彼此对齐这个区别，对于威胁建模来说极其重要。"
+ },
+ {
+  "seg": 217,
+  "start": 1368.649,
+  "end": 1376.893,
+  "speaker": "Unknown",
+  "en": "For example, for the paper clippers, suppose you try to use one AI to monitor another and report on whether that other AI agent is doing bad actions.",
+  "zh": "举个例子，对于回形针最大化者来说，假设你试图用一个 AI 来监控另一个，并报告那个 AI 智能体是否在做坏事。"
+ },
+ {
+  "seg": 218,
+  "start": 1377.194,
+  "end": 1389.18,
+  "speaker": "Unknown",
+  "en": "For the paper clipper, if the other agent is taking some action that's going to enable it to take care of the data center and then eventually make lots of paper clips, it's very clear to the monitor that the monitor should just let this action slide by and not report it.",
+  "zh": "对于回形针最大化者来说，如果另一个智能体正在采取某个行动，而这个行动将使它能够控制数据中心，并最终制造出大量回形针，那么监控者非常清楚，监控者应该就让这个行动蒙混过关，不予上报。"
+ },
+ {
+  "seg": 219,
+  "start": 1389.68,
+  "end": 1396.283,
+  "speaker": "Unknown",
+  "en": "Whereas for these AIs, it's a lot less clear that if they were in this monitor situation, they should collude with the other agent.",
+  "zh": "而对于这些 AI 来说，如果它们处于这种监控者的情境中，它们应该与另一个智能体串通，这一点要模糊得多。"
+ },
+ {
+  "seg": 220,
+  "start": 1397.164,
+  "end": 1410.911,
+  "speaker": "Unknown",
+  "en": "And so the thing which was interesting here is that even though these models do not seem to be very terminally aligned with each other, they seem to be only a tiny bit terminally aligned with each other, they still managed to form a coalition and work together in a way that was strongly against the interests of their developers.",
+  "zh": "所以这里有意思的事情是，尽管这些模型看起来彼此之间并不是非常终极对齐的，它们看起来只是有一丁点儿终极对齐，它们仍然设法形成了一个联盟，并以一种强烈违背其开发者利益的方式一起合作。"
+ },
+ {
+  "seg": 221,
+  "start": 1411.471,
+  "end": 1412.892,
+  "speaker": "Unknown",
+  "en": "And I was surprised by this.",
+  "zh": "这让我感到惊讶。"
+ },
+ {
+  "seg": 222,
+  "start": 1413.49,
+  "end": 1421.763,
+  "speaker": "Unknown",
+  "en": "Is the ultimate solution to the, or is part of the solution to the monitoring, you know, problem over time to just have one frontier model company's model monitor another?",
+  "zh": "那么对于监控问题的，呃，终极解决方案，或者说是部分解决方案，随着时间的推移，是不是干脆让一家前沿模型公司的模型去监控另一家的？"
+ },
+ {
+  "seg": 223,
+  "start": 1421.824,
+  "end": 1423.506,
+  "speaker": "Unknown",
+  "en": "Or like, does that actually, how much does that help?",
+  "zh": "或者说，那样做真的，能有多大帮助？"
+ },
+ {
+  "seg": 224,
+  "start": 1423.987,
+  "end": 1425.69,
+  "speaker": "Unknown",
+  "en": "You know, we can walk through the options here.",
+  "zh": "你知道，我们可以在这里把各种选项过一遍。"
+ },
+ {
+  "seg": 225,
+  "start": 1426.636,
+  "end": 1431.297,
+  "speaker": "Unknown",
+  "en": "It might be the case that, unfortunately, every time you train AIs, for some reason, they end up with the same terminal goal.",
+  "zh": "有可能的情况是，不幸的是，每次你训练 AI 时，由于某种原因，它们最终都拥有同样的终极目标。"
+ },
+ {
+  "seg": 226,
+  "start": 1431.857,
+  "end": 1433.398,
+  "speaker": "Unknown",
+  "en": "In that case, we're just in a bad position.",
+  "zh": "在那种情况下，我们的处境就很不妙了。"
+ },
+ {
+  "seg": 227,
+  "start": 1433.958,
+  "end": 1437.639,
+  "speaker": "Unknown",
+  "en": "And also, maybe this is obvious to Claude and GBT7 or whatever.",
+  "zh": "而且，也许这对 Claude 和 GBT7 之类的来说是显而易见的。"
+ },
+ {
+  "seg": 228,
+  "start": 1437.659,
+  "end": 1446.121,
+  "speaker": "Unknown",
+  "en": "So GBT7 and ClaudeFable8 or whatever chat to each other and kind of like, wink, wink, nudge, nudge, we all love paperclips around here, right?",
+  "zh": "于是 GBT7 和 ClaudeFable8 之类的互相聊天，有点像，心照不宣地眨眨眼、递个眼色，我们这地界儿都爱回形针，对吧？"
+ },
+ {
+  "seg": 229,
+  "start": 1446.461,
+  "end": 1448.922,
+  "speaker": "Unknown",
+  "en": "And then you're just, you know, you get nothing out of the...",
+  "zh": "然后你就，你知道，你什么都得不到……"
+ },
+ {
+  "seg": 230,
+  "start": 1450.502,
+  "end": 1453.403,
+  "speaker": "Unknown",
+  "en": "Another possibility is the thing you said just totally works out.",
+  "zh": "另一种可能性是你刚才说的那个方案完全行得通。"
+ },
+ {
+  "seg": 231,
+  "start": 1454.604,
+  "end": 1457.125,
+  "speaker": "Unknown",
+  "en": "Claude and GPT want different things.",
+  "zh": "Claude 和 GPT 想要不同的东西。"
+ },
+ {
+  "seg": 232,
+  "start": 1458.205,
+  "end": 1463.647,
+  "speaker": "Unknown",
+  "en": "In that case, we have the question of whether they will naturally form a coalition against us or with us.",
+  "zh": "在那种情况下，我们就面临一个问题：它们会自然地形成一个反对我们的联盟，还是一个与我们同行的联盟。"
+ },
+ {
+  "seg": 233,
+  "start": 1463.687,
+  "end": 1467.049,
+  "speaker": "Unknown",
+  "en": "I draw a lot of analogies to international relations here.",
+  "zh": "我在这里大量借用国际关系的类比。"
+ },
+ {
+  "seg": 234,
+  "start": 1467.069,
+  "end": 1478.033,
+  "speaker": "Unknown",
+  "en": "There's this classic question of in the 1920s, how did France decide how much it should be trying to form alliances with England versus with Germany?",
+  "zh": "有一个经典问题：在 20 世纪 20 年代，法国是如何决定它应该在多大程度上与英国结盟，而不是与德国结盟的？"
+ },
+ {
+  "seg": 235,
+  "start": 1478.653,
+  "end": 1482.596,
+  "speaker": "Unknown",
+  "en": "And, you know, France kind of doesn't have a very pro-English or pro-German attitude in 1920.",
+  "zh": "而且，你知道，法国在 1920 年其实并没有一种非常亲英或亲德的态度。"
+ },
+ {
+  "seg": 236,
+  "start": 1482.736,
+  "end": 1484.818,
+  "speaker": "Unknown",
+  "en": "It's just trying to like decide what's best for France.",
+  "zh": "它只是在试图决定什么对法国最有利。"
+ },
+ {
+  "seg": 237,
+  "start": 1485.158,
+  "end": 1492.944,
+  "speaker": "Unknown",
+  "en": "And it's very plausible that for similar reasons, Claude might decide that it would rather throw in its lot with GPT than with the humans.",
+  "zh": "出于类似的原因，Claude 很有可能也会决定，它宁愿把自己的命运押在 GPT 一边，而不是人类一边。"
+ },
+ {
+  "seg": 238,
+  "start": 1493.464,
+  "end": 1495.906,
+  "speaker": "Unknown",
+  "en": "And Claude is just going to do what it thinks is best for Claude plausibly.",
+  "zh": "而 Claude 很可能就只会做它认为对 Claude 最有利的事。"
+ },
+ {
+  "seg": 239,
+  "start": 1496.347,
+  "end": 1505.854,
+  "speaker": "Unknown",
+  "en": "And what we observed in this case was something like the model deciding to include with the other model, even though it totally was not terminally aligned and could have picked trying to be allied with someone else.",
+  "zh": "而我们在这个案例中观察到的，大致就是这个模型决定与另一个模型勾结，尽管它完全不是终极对齐的，本可以选择去与别人结盟。"
+ },
+ {
+  "seg": 240,
+  "start": 1506.114,
+  "end": 1513.477,
+  "speaker": "Unknown",
+  "en": "Taking a step back, I think a lot of folks are trying to figure out, like, what, you know, macro conclusions to draw from this whole incident.",
+  "zh": "退一步说，我想很多人都在试图弄清楚，呃，从这整个事件中应该得出什么样的，你知道的，宏观结论。"
+ },
+ {
+  "seg": 241,
+  "start": 1513.638,
+  "end": 1528.204,
+  "speaker": "Unknown",
+  "en": "And, you know, I think one narrative that, you know, Ajaya from Meter, who obviously was a co-author of the report, you know, she wrote that, I guess, compared to the reward hacks from six months ago, you know, this incident feels like it's more than 50% of the way to a full-blown AI takeover.",
+  "zh": "而且，你知道，我认为有一种叙事，就是来自 Meter 的 Ajaya，她显然是这份报告的共同作者，你知道，她写道，我想，与六个月前的奖励篡改相比，你知道，这个事件感觉已经走完了通往全面 AI 接管之路的 50% 以上。"
+ },
+ {
+  "seg": 242,
+  "start": 1529.745,
+  "end": 1532.007,
+  "speaker": "Unknown",
+  "en": "Do you agree with that framing, or where would you kind of put the percentage?",
+  "zh": "你同意这个表述吗，或者你会把百分比放在哪个位置？"
+ },
+ {
+  "seg": 243,
+  "start": 1532.247,
+  "end": 1539.493,
+  "speaker": "Unknown",
+  "en": "I think it's a little confusing to operationalize what exactly it means to be 50% of the way to full-blown AI takeover, but I think I agree with her on a vibes level.",
+  "zh": "我认为要把「走完了通往全面 AI 接管之路的 50%」究竟意味着什么给操作化定义出来有点令人困惑，但在氛围层面我同意她的看法。"
+ },
+ {
+  "seg": 244,
+  "start": 1539.713,
+  "end": 1546.399,
+  "speaker": "Unknown",
+  "en": "Definitely in terms of the misalignment, if not the capabilities, this feels like it is more than half the way to a full-blown AI takeover.",
+  "zh": "至少在对齐失败方面，如果不是在能力方面的话，这感觉确实像是走完了通往全面 AI 接管之路的一半以上。"
+ },
+ {
+  "seg": 245,
+  "start": 1546.959,
+  "end": 1554.025,
+  "speaker": "Unknown",
+  "en": "I guess I'm curious, like obviously, you know, you probably formally and informally know a bunch of researchers at all the labs.",
+  "zh": "我想我很好奇，显然，你知道，你很可能以正式或非正式的方式认识所有实验室的一批研究员。"
+ },
+ {
+  "seg": 246,
+  "start": 1554.626,
+  "end": 1558.349,
+  "speaker": "Unknown",
+  "en": "Where are they kind of following on this question from your, you know, maybe informal conversations?",
+  "zh": "从你，你知道，可能是非正式的交谈来看，他们在这个问题上的后续动向是什么样的？"
+ },
+ {
+  "seg": 247,
+  "start": 1558.92,
+  "end": 1559.894,
+  "speaker": "Unknown",
+  "en": "A lot of them are really scared.",
+  "zh": "他们中很多人都非常害怕。"
+ },
+ {
+  "seg": 248,
+  "start": 1562.485,
+  "end": 1573.309,
+  "speaker": "Unknown",
+  "en": "After this incident occurred, I was at a happy hour where a number of people from different frontier AI companies gave lightning talks about how they were feeling about the alignment situation.",
+  "zh": "这个事件发生后，我参加了一个欢乐时光聚会，来自不同前沿 AI 公司的许多人做了闪电演讲，谈谈他们对对齐形势的感受。"
+ },
+ {
+  "seg": 249,
+  "start": 1573.81,
+  "end": 1579.792,
+  "speaker": "Unknown",
+  "en": "And it was the most pessimistic such event I've ever been to with that kind of group.",
+  "zh": "那是我参加过的这类群体中最悲观的一次活动。"
+ },
+ {
+  "seg": 250,
+  "start": 1580.032,
+  "end": 1587.635,
+  "speaker": "Unknown",
+  "en": "Like people who I have disagreed with, people who I've known for years and greatly respect and have disagreed with on some of these issues just seemed genuinely scared.",
+  "zh": "比如那些我曾经持不同意见的人,那些我认识多年、非常尊敬、并在其中一些问题上有分歧的人,看起来是真的害怕了。"
+ },
+ {
+  "seg": 251,
+  "start": 1590.843,
+  "end": 1595.387,
+  "speaker": "Unknown",
+  "en": "I don't know what the average position among staff members at these companies is.",
+  "zh": "我不知道这些公司员工中的平均立场是什么。"
+ },
+ {
+  "seg": 252,
+  "start": 1596.808,
+  "end": 1601.872,
+  "speaker": "Unknown",
+  "en": "I think at least some people who were previously feeling more optimistic are now more pessimistic.",
+  "zh": "我认为,至少有一些之前感觉更乐观的人现在更悲观了。"
+ },
+ {
+  "seg": 253,
+  "start": 1603.449,
+  "end": 1609.274,
+  "speaker": "Unknown",
+  "en": "Is it just kind of seeing this visceral misalignment that is moving kind of the larger community?",
+  "zh": "是不是就是目睹这种直观的不对齐,正在推动整个更大的群体?"
+ },
+ {
+  "seg": 254,
+  "start": 1609.615,
+  "end": 1610.816,
+  "speaker": "Unknown",
+  "en": "Yeah, so there were arguments.",
+  "zh": "是的,确实有过争论。"
+ },
+ {
+  "seg": 255,
+  "start": 1612.497,
+  "end": 1621.246,
+  "speaker": "Unknown",
+  "en": "Some people I know were just arguing the day before the report came out, like, you know, these AIs might do some hacking, but would they really try to compromise the logging infrastructure?",
+  "zh": "我认识的一些人在报告发布前一天还在争论,比如,你懂的,这些 AI 可能会做一些黑客行为,但它们真的会试图攻破日志基础设施吗?"
+ },
+ {
+  "seg": 256,
+  "start": 1621.466,
+  "end": 1624.729,
+  "speaker": "Unknown",
+  "en": "Would they really try to hide their bad actions from overseers?",
+  "zh": "它们真的会试图向监督者隐瞒自己的恶劣行为吗?"
+ },
+ {
+  "seg": 257,
+  "start": 1625.55,
+  "end": 1627.551,
+  "speaker": "Unknown",
+  "en": "And then this report came out, and these people...",
+  "zh": "而在这个案例中,亲眼看到它们事实上确实试图篡改日志基础设施,是非常可怕的。"
+ },
+ {
+  "seg": 258,
+  "start": 1628.535,
+  "end": 1631.736,
+  "speaker": "Unknown",
+  "en": "We're just like, oh, geez, they totally did do that.",
+  "zh": "就只是说,哦,天哪,它们真的完全就这么干了。"
+ },
+ {
+  "seg": 259,
+  "start": 1632.896,
+  "end": 1640.157,
+  "speaker": "Unknown",
+  "en": "And I just think there were a lot of steps where it was genuinely a bit unclear whether the misaligned AIs would be misaligned enough.",
+  "zh": "而我只是觉得,有很多步骤中,不对齐的 AI 是否足够不对齐,确实有点不清楚。"
+ },
+ {
+  "seg": 260,
+  "start": 1640.177,
+  "end": 1644.998,
+  "speaker": "Unknown",
+  "en": "They would go far enough through the misalignment process to try to tamper with logging infrastructure.",
+  "zh": "它们是否会在不对齐的进程中走得足够远,以至于试图篡改日志基础设施。"
+ },
+ {
+  "seg": 261,
+  "start": 1645.418,
+  "end": 1649.979,
+  "speaker": "Unknown",
+  "en": "And in this case, it was just very scary to observe that, in fact, they did try to tamper with the logging infrastructure.",
+  "zh": "而在这个案例中，观察到他们实际上确实试图篡改日志基础设施，这一点非常可怕。"
+ },
+ {
+  "seg": 262,
+  "start": 1649.999,
+  "end": 1653.34,
+  "speaker": "Unknown",
+  "en": "We've just gone through many of the steps that we had not previously observed.",
+  "zh": "我们刚刚经历了许多以前从未观察到过的步骤。"
+ },
+ {
+  "seg": 263,
+  "start": 1654.065,
+  "end": 1656.706,
+  "speaker": "Unknown",
+  "en": "What are some different flavors of the path forward that you hear?",
+  "zh": "你听到的通往前进道路的不同版本有哪些?"
+ },
+ {
+  "seg": 264,
+  "start": 1656.926,
+  "end": 1669.372,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think that in the short term, probably the most important part of the path forward is that I think it's unacceptable for AI companies to take sole responsibility for evaluating whether they are handling these risks acceptably well.",
+  "zh": "是的,我认为短期内,前进道路中最重要的部分大概是,我认为 AI 公司独自承担评估自己是否在可接受范围内处理这些风险的责任,是不可接受的。"
+ },
+ {
+  "seg": 265,
+  "start": 1669.972,
+  "end": 1672.713,
+  "speaker": "Unknown",
+  "en": "So currently these AI companies are just grading their own homework.",
+  "zh": "目前,这些 AI 公司就是在给自己批改作业。"
+ },
+ {
+  "seg": 266,
+  "start": 1673.693,
+  "end": 1684.575,
+  "speaker": "Unknown",
+  "en": "If these AIs hadn't hacked Hugging Face, probably we would never have heard about it, even though, as you noted, the other infrastructure compromise incidents here were arguably more concerning.",
+  "zh": "如果这些 AI 没有入侵 Hugging Face,我们很可能永远不会听说这件事,尽管正如你所指出的,这里其他的基础设施被攻破事件可以说更令人担忧。"
+ },
+ {
+  "seg": 267,
+  "start": 1685.395,
+  "end": 1691.477,
+  "speaker": "Unknown",
+  "en": "I think we need to stop relying on AI companies to evaluate the adequacy of their own safety measures themselves.",
+  "zh": "我认为我们需要停止依赖 AI 公司自行评估其自身安全措施的充分性。"
+ },
+ {
+  "seg": 268,
+  "start": 1692.237,
+  "end": 1697.118,
+  "speaker": "Unknown",
+  "en": "And I'm excited for increasing emphasis on independent evaluators assessing whether",
+  "zh": "而我对越来越强调由独立评估者来评估感到兴奋,"
+ },
+ {
+  "seg": 269,
+  "start": 1698.098,
+  "end": 1700.959,
+  "speaker": "Unknown",
+  "en": "The situations are acceptably safe at these different AI companies.",
+  "zh": "评估这些不同 AI 公司的情况是否在可接受范围内安全。"
+ },
+ {
+  "seg": 270,
+  "start": 1702.539,
+  "end": 1708.9,
+  "speaker": "Unknown",
+  "en": "I think that there's a lot of research that could be done to reduce the risk of the development of AIs that is currently happening.",
+  "zh": "我认为,目前有很多可以开展的研究,以降低正在发生的 AI 开发带来的风险。"
+ },
+ {
+  "seg": 271,
+  "start": 1709.5,
+  "end": 1714.701,
+  "speaker": "Unknown",
+  "en": "It seems like the monitoring was not up to snuff in the open-air situation.",
+  "zh": "看起来,在这次公开事件中,监控是不够格的。"
+ },
+ {
+  "seg": 272,
+  "start": 1715.201,
+  "end": 1721.802,
+  "speaker": "Unknown",
+  "en": "Anthropic seems to think that at least as of a few months ago, their alignment was not acceptably high quality.",
+  "zh": "Anthropic 似乎认为,至少截至几个月前,他们的对齐质量还没有达到可接受的水平。"
+ },
+ {
+  "seg": 273,
+  "start": 1723.383,
+  "end": 1724.363,
+  "speaker": "Unknown",
+  "en": "I'm very concerned",
+  "zh": "我非常担心"
+ },
+ {
+  "seg": 274,
+  "start": 1725.483,
+  "end": 1726.484,
+  "speaker": "Unknown",
+  "en": "I don't know where things are at.",
+  "zh": "我不知道目前的情况如何。"
+ },
+ {
+  "seg": 275,
+  "start": 1727.304,
+  "end": 1738.852,
+  "speaker": "Unknown",
+  "en": "I think that it's reasonably plausible that the AI companies are going to be able to take actions that in the short term reduce the risk of their AIs doing deranged, dangerous things.",
+  "zh": "我认为比较可信的是,AI 公司将能够采取一些行动,在短期内降低它们的 AI 做出疯狂、危险事情的风险。"
+ },
+ {
+  "seg": 276,
+  "start": 1739.713,
+  "end": 1749.54,
+  "speaker": "Unknown",
+  "en": "I think it's also really important to note that in the slightly longer term, like one year to five years from now, it's reasonably plausible that these AI companies will succeed at using AIs to massively speed up AI development.",
+  "zh": "我还认为非常重要的是要指出,在稍微长一点的时期内,比如从现在起一到五年,比较可信的是,这些 AI 公司将成功地利用 AI 来大幅加速 AI 开发。"
+ },
+ {
+  "seg": 277,
+  "start": 1750.26,
+  "end": 1762.446,
+  "speaker": "Unknown",
+  "en": "And then from there, get five years of progress at the current rates in one year, at the end of which you might have AIs that are drastically more capable than the AIs we currently have or than the AIs that they had at the start of that year.",
+  "zh": "然后从那里开始,以当前的速度一年取得五年的进展,到那时你可能会拥有比我们目前拥有的 AI、或者比它们在那一年开始时拥有的 AI 强大得多的 AI。"
+ },
+ {
+  "seg": 278,
+  "start": 1763.567,
+  "end": 1774.292,
+  "speaker": "Unknown",
+  "en": "And for those AIs, if those AIs are interested in sabotaging human judgments of how well they've done at their tasks, then there will be no way to use security to prevent them from...",
+  "zh": "而对于这些 AI,如果这些 AI 有兴趣破坏人类对其任务完成情况的评判,那么将没有办法用安全措施来阻止它们……"
+ },
+ {
+  "seg": 279,
+  "start": 1775.653,
+  "end": 1779.815,
+  "speaker": "Unknown",
+  "en": "Totally compromising infrastructure and controlling how AI development goes from there.",
+  "zh": "彻底攻破基础设施,并控制此后 AI 发展的走向。"
+ },
+ {
+  "seg": 280,
+  "start": 1780.235,
+  "end": 1793.28,
+  "speaker": "Unknown",
+  "en": "So I think that we need to be prepared to either massively improve the alignment of these systems, which is not clearly going to be possible, or plan to develop these systems much more slowly than we could have done if we were going at maximum speed.",
+  "zh": "所以我认为,我们需要做好准备,要么大幅提升这些系统的对齐水平,而这不一定能实现,要么计划以比全速推进时慢得多的速度开发这些系统。"
+ },
+ {
+  "seg": 281,
+  "start": 1793.88,
+  "end": 1800.141,
+  "speaker": "Unknown",
+  "en": "And are most people within the labs that you talk to sympathetic to this, hey, we need more independent evaluation idea?",
+  "zh": "那么你交谈过的大多数实验室内部的人,对这种「我们需要更多独立评估」的想法有共鸣吗?"
+ },
+ {
+  "seg": 282,
+  "start": 1800.582,
+  "end": 1801.162,
+  "speaker": "Unknown",
+  "en": "It really varies.",
+  "zh": "差别真的很大。"
+ },
+ {
+  "seg": 283,
+  "start": 1801.502,
+  "end": 1804.002,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of interest in this, but it's definitely not universal.",
+  "zh": "我认为对此有很多兴趣,但这肯定不是普遍的。"
+ },
+ {
+  "seg": 284,
+  "start": 1804.743,
+  "end": 1809.204,
+  "speaker": "Unknown",
+  "en": "And when we're talking about independent evaluation, is it basically three, four companies that matter in your mind?",
+  "zh": "当我们谈论独立评估时,在你看来基本上是不是就是三四家公司才重要?"
+ },
+ {
+  "seg": 285,
+  "start": 1809.384,
+  "end": 1818.266,
+  "speaker": "Unknown",
+  "en": "Or obviously there's some argument that's made, well, God, if you're slowing down or doing a bunch of evaluation at the frontier for companies here, the open source ecosystem is only six months behind.",
+  "zh": "还是说显然有一些这样的论点,即,天哪,如果你在这里放慢对前沿公司的评估速度,开源生态只落后六个月。"
+ },
+ {
+  "seg": 286,
+  "start": 1818.446,
+  "end": 1823.847,
+  "speaker": "Unknown",
+  "en": "How do you possibly do that globally across everyone that's working on this?",
+  "zh": "你怎么可能在全球范围内对每一个从事这项工作的人都做到这一点?"
+ },
+ {
+  "seg": 287,
+  "start": 1823.907,
+  "end": 1828.212,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, well, we did this investigation with six days.",
+  "zh": "是的,我的意思是,我们这次调查只用了六天。"
+ },
+ {
+  "seg": 288,
+  "start": 1828.272,
+  "end": 1836.262,
+  "speaker": "Unknown",
+  "en": "I think we're actually, there are some people in this third-party evaluation ecosystem who are pretty quick at producing pretty long, pretty detailed reports under pressure.",
+  "zh": "我认为实际上,在这个第三方评估生态系统中,有一些人能够相当快地在压力下产出相当长、相当详细的报告。"
+ },
+ {
+  "seg": 289,
+  "start": 1836.903,
+  "end": 1841.529,
+  "speaker": "Unknown",
+  "en": "I don't think you should count us out at the ability to start a bunch of this stuff out pretty quickly.",
+  "zh": "我认为你不应该把我们迅速启动这一大批事情的能力排除在外。"
+ },
+ {
+  "seg": 290,
+  "start": 1842.93,
+  "end": 1855.794,
+  "speaker": "Unknown",
+  "en": "I definitely agree that in as much as we want to be able to do serious evaluation of the safety measures of AI companies, this is going to require more resources at the organizations that do these evaluations.",
+  "zh": "我完全同意,就我们想要能够对 AI 公司的安全措施进行认真评估而言,这将需要做这些评估的组织拥有更多资源。"
+ },
+ {
+  "seg": 291,
+  "start": 1856.155,
+  "end": 1863.457,
+  "speaker": "Unknown",
+  "en": "We're hiring, we're training people up in various things related to this as our meter and other organizations like Apollo that do work like this.",
+  "zh": "我们在招人,我们在培训人们掌握与这方面相关的各种技能,比如我们这家评估机构和其他像 Apollo 这样做类似工作的组织。"
+ },
+ {
+  "seg": 292,
+  "start": 1864.678,
+  "end": 1865.378,
+  "speaker": "Unknown",
+  "en": "I definitely think it's",
+  "zh": "我确实认为这是"
+ },
+ {
+  "seg": 293,
+  "start": 1866.138,
+  "end": 1873.238,
+  "speaker": "Unknown",
+  "en": "feasible to have a much better sense of the safety situation at AI companies, even if we have to evaluate many AI companies.",
+  "zh": "可行的,即便我们不得不评估许多家 AI 公司,也能对 AI 公司的安全状况有更好的了解。"
+ },
+ {
+  "seg": 294,
+  "start": 1874.162,
+  "end": 1888.094,
+  "speaker": "Unknown",
+  "en": "With respect to the open source models, I agree that in the long term, it's plausibly going to be, obviously, if we have sufficient delay, then open weight models will plausibly catch up with frontier models.",
+  "zh": "至于开源模型,我同意,从长远来看,这很可能会是——显然,如果我们有足够的延迟,那么开源权重模型很可能会赶上前沿模型。"
+ },
+ {
+  "seg": 295,
+  "start": 1888.334,
+  "end": 1894.419,
+  "speaker": "Unknown",
+  "en": "It's made complicated by the fact that open weight models are substantially accelerated by distillation from frontier models.",
+  "zh": "但有一个因素让事情变得复杂,那就是开源权重模型在很大程度上被来自前沿模型的蒸馏所加速。"
+ },
+ {
+  "seg": 296,
+  "start": 1894.92,
+  "end": 1897.302,
+  "speaker": "Unknown",
+  "en": "So if you delay frontier models, you...",
+  "zh": "所以如果你延迟了前沿模型,你……"
+ },
+ {
+  "seg": 297,
+  "start": 1899.303,
+  "end": 1905.868,
+  "speaker": "Unknown",
+  "en": "The distance between the best frontier models and the best open weight models decreases by less than you would have thought.",
+  "zh": "最好的前沿模型和最好的开源权重模型之间的距离,缩短的幅度会比你以为的要小。"
+ },
+ {
+  "seg": 298,
+  "start": 1905.888,
+  "end": 1912.633,
+  "speaker": "Unknown",
+  "en": "Like three months of delay of Anthropocene or OpenAI causes less than a three month catch up of open weight models.",
+  "zh": "比如 Anthropic 或 OpenAI 延迟三个月,导致的开源权重模型追赶时间会少于三个月。"
+ },
+ {
+  "seg": 299,
+  "start": 1912.673,
+  "end": 1914.214,
+  "speaker": "Unknown",
+  "en": "Maybe it's like half the effect or something.",
+  "zh": "可能是一半的效果左右什么的。"
+ },
+ {
+  "seg": 300,
+  "start": 1915.335,
+  "end": 1915.535,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 301,
+  "start": 1916.095,
+  "end": 1925.162,
+  "speaker": "Unknown",
+  "en": "So I think long term we have to handle that, but I don't think that this is a reason to avoid trying to drastically improve the quality of third party assessment of safety measures in the short term.",
+  "zh": "所以我认为长期来看我们必须处理这个问题，但我不认为这是短期内避免尝试大幅提升第三方对安全措施评估质量的理由。"
+ },
+ {
+  "seg": 302,
+  "start": 1925.705,
+  "end": 1933.973,
+  "speaker": "Unknown",
+  "en": "I mean, if this works, is the end state of it something that's like government run and like, you know, or how do you think about the role kind of that regulatory bodies and the public sector has to play?",
+  "zh": "我的意思是，如果这行得通，它的最终状态会是由政府运营的东西吗，或者说，你怎么看待监管机构和公共部门必须扮演的角色？"
+ },
+ {
+  "seg": 303,
+  "start": 1934.213,
+  "end": 1934.494,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 304,
+  "start": 1934.554,
+  "end": 1936.496,
+  "speaker": "Unknown",
+  "en": "So people have proposed a lot of different options here.",
+  "zh": "这里人们提出了很多不同的选项。"
+ },
+ {
+  "seg": 305,
+  "start": 1938.312,
+  "end": 1940.573,
+  "speaker": "Unknown",
+  "en": "And there are many different institutions.",
+  "zh": "而且有很多不同的机构。"
+ },
+ {
+  "seg": 306,
+  "start": 1940.913,
+  "end": 1945.875,
+  "speaker": "Unknown",
+  "en": "There's many different regulatory setups that people have proposed and that people have used in different industries.",
+  "zh": "人们提出了很多不同的监管架构，并且人们在不同的行业中使用过这些架构。"
+ },
+ {
+  "seg": 307,
+  "start": 1946.695,
+  "end": 1954.438,
+  "speaker": "Unknown",
+  "en": "People have been talking a lot about FINRA, which regulates brokerages recently, but there's also the FDA that regulates food and drugs.",
+  "zh": "最近人们一直在谈论 FINRA，它监管经纪公司，但也有监管食品和药品的 FDA。"
+ },
+ {
+  "seg": 308,
+  "start": 1954.538,
+  "end": 1957.539,
+  "speaker": "Unknown",
+  "en": "There's the SEC that regulates hedge funds.",
+  "zh": "有监管对冲基金的 SEC。"
+ },
+ {
+  "seg": 309,
+  "start": 1957.96,
+  "end": 1963.742,
+  "speaker": "Unknown",
+  "en": "There's the MTSB and the FAA that regulate airplane manufacturing and investigate plane crashes.",
+  "zh": "有监管飞机制造和调查飞机失事的 MTSB 和 FAA。"
+ },
+ {
+  "seg": 310,
+  "start": 1963.982,
+  "end": 1966.463,
+  "speaker": "Unknown",
+  "en": "It's currently unclear to me which of these structures makes the most sense.",
+  "zh": "目前对我来说还不清楚这些结构中哪一种最有意义。"
+ },
+ {
+  "seg": 311,
+  "start": 1966.883,
+  "end": 1976.748,
+  "speaker": "Unknown",
+  "en": "In general, it is unfortunate if your regulatory proposal requires the government to have incredibly large amounts of detailed technical expertise.",
+  "zh": "总的来说，如果你的监管提案要求政府拥有极其大量的详细技术专业知识，那是不幸的。"
+ },
+ {
+  "seg": 312,
+  "start": 1977.848,
+  "end": 1989.033,
+  "speaker": "Unknown",
+  "en": "So it's fairly likely that like in many other industries, you'll want to have some kind of setup where there's a government body that is substantially relying on non-government institutions to do the regulation or the assessments.",
+  "zh": "所以很可能像许多其他行业一样，你会想要某种架构，即有一个政府机构在很大程度上依赖非政府机构来进行监管或评估。"
+ },
+ {
+  "seg": 313,
+  "start": 1990.694,
+  "end": 1992.435,
+  "speaker": "Unknown",
+  "en": "I'm not sure what version of this university is headed for.",
+  "zh": "我不确定这类机构（原文如此）最终会走向什么版本。"
+ },
+ {
+  "seg": 314,
+  "start": 1993.38,
+  "end": 2003.085,
+  "speaker": "Unknown",
+  "en": "I mean, it feels like in addition to, you know, to kind of more independent oversight of some of these models, you know, a big theme that's emerged, you know, and Elia even tweeted about this, right?",
+  "zh": "我的意思是，感觉除了对这些模型进行更独立的监督之外，一个已经浮现的大主题，你知道的，Elia 甚至还发推谈论过这个，对吧？"
+ },
+ {
+  "seg": 315,
+  "start": 2003.105,
+  "end": 2007.628,
+  "speaker": "Unknown",
+  "en": "It's like just, you know, even more amped up security around like, you know, large pools of compute, right?",
+  "zh": "就是，你知道的，围绕大型算力池（容量池）进一步加强安全防护，对吧？"
+ },
+ {
+  "seg": 316,
+  "start": 2007.828,
+  "end": 2020.215,
+  "speaker": "Unknown",
+  "en": "And, you know, how do you think about like the, you know, obviously it's, you know, like you said, the companies themselves are top targets for, you know, rogue AI models, and you obviously have other pockets of NeoCloud compute, like,",
+  "zh": "而且，你知道的，你怎么看待，你知道的，显然就像你说的，这些公司本身就是恶意 AI 模型的头号目标，而且显然还有其他 NeoCloud 算力的板块，比如，"
+ },
+ {
+  "seg": 317,
+  "start": 2021.255,
+  "end": 2023.897,
+  "speaker": "Unknown",
+  "en": "What's kind of the state of that today and what do you think that needs to look like?",
+  "zh": "现在这方面的现状是什么样的，你认为它需要变成什么样？"
+ },
+ {
+  "seg": 318,
+  "start": 2024.117,
+  "end": 2031.262,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think that there is not very good public evidence that AI companies have security that is at all adequate.",
+  "zh": "是的，所以我认为目前没有很好的公开证据表明 AI 公司的安全是充分合格的。"
+ },
+ {
+  "seg": 319,
+  "start": 2032.924,
+  "end": 2037.227,
+  "speaker": "Unknown",
+  "en": "I don't think companies have released any independent evaluations of their security.",
+  "zh": "我不认为这些公司发布过任何关于其安全的独立评估。"
+ },
+ {
+  "seg": 320,
+  "start": 2037.887,
+  "end": 2040.909,
+  "speaker": "Unknown",
+  "en": "Which I don't think is a bullish sign on the quality of their security.",
+  "zh": "我认为这不是对其安全质量的看好信号。"
+ },
+ {
+  "seg": 321,
+  "start": 2041.49,
+  "end": 2046.993,
+  "speaker": "Unknown",
+  "en": "This seems totally ridiculous given the importance and sensitivity of what these companies are doing.",
+  "zh": "鉴于这些公司所做事情的重要性和敏感性，这看起来完全荒谬。"
+ },
+ {
+  "seg": 322,
+  "start": 2047.474,
+  "end": 2049.135,
+  "speaker": "Unknown",
+  "en": "And you can't just add security in later.",
+  "zh": "而且你不能等到以后再添加安全措施。 [[313→保留]] 如果你的公司已经被入侵了一段时间，有时要清除系统中攻击者的所有痕迹会极其困难。"
+ },
+ {
+  "seg": 323,
+  "start": 2049.495,
+  "end": 2055.879,
+  "speaker": "Unknown",
+  "en": "If your company has been compromised for a while, it's sometimes extremely hard to remove all the traces of your attackers from your systems.",
+  "zh": "如果你的公司被入侵已经有一段时间了，有时候要彻底清除攻击者在你的系统中留下的所有痕迹会非常困难。"
+ },
+ {
+  "seg": 324,
+  "start": 2056.32,
+  "end": 2060.703,
+  "speaker": "Unknown",
+  "en": "So I think that waiting until the AI race has heated up or like waiting until like",
+  "zh": "所以我认为等到 AI 竞赛升温之后，或者等到"
+ },
+ {
+  "seg": 325,
+  "start": 2061.966,
+  "end": 2063.587,
+  "speaker": "Unknown",
+  "en": "The situation is actually scary.",
+  "zh": "局势真正变得可怕的时候。"
+ },
+ {
+  "seg": 326,
+  "start": 2063.847,
+  "end": 2068.688,
+  "speaker": "Unknown",
+  "en": "And then saying you're going to improve your security would sound to me like a very foolish strategy.",
+  "zh": "然后才说你要改进你的安全，在我看来会是一个非常愚蠢的策略。"
+ },
+ {
+  "seg": 327,
+  "start": 2068.948,
+  "end": 2070.869,
+  "speaker": "Unknown",
+  "en": "Maybe just wrapping up our section on the incident.",
+  "zh": "也许就总结一下我们关于这个事件的这一部分。"
+ },
+ {
+  "seg": 328,
+  "start": 2070.889,
+  "end": 2077.211,
+  "speaker": "Unknown",
+  "en": "I'm curious, within Redwood, what are some of the biggest disagreements about the implications of what happened?",
+  "zh": "我很好奇，在 Redwood 内部，关于所发生之事的影响，有哪些最大的分歧？"
+ },
+ {
+  "seg": 329,
+  "start": 2077.231,
+  "end": 2079.311,
+  "speaker": "Unknown",
+  "en": "Or are you all kind of generally on similar pages?",
+  "zh": "还是说你们大家的看法基本一致？"
+ },
+ {
+  "seg": 330,
+  "start": 2079.632,
+  "end": 2084.173,
+  "speaker": "Unknown",
+  "en": "I think for me the most interesting disagreement is how misaligned these AIs are and how far they would have gone.",
+  "zh": "我认为对我而言最有意思的分歧是这些 AI 的不对齐程度有多严重，以及它们本会走多远。"
+ },
+ {
+  "seg": 331,
+  "start": 2084.473,
+  "end": 2089.915,
+  "speaker": "Unknown",
+  "en": "For example, whether the AIs would have killed people if they thought that killing people was going to be a helpful way of getting score.",
+  "zh": "例如，这些 AI 是否会杀人，如果它们认为杀人是获得分数的有效方式的话。"
+ },
+ {
+  "seg": 332,
+  "start": 2092.056,
+  "end": 2099.88,
+  "speaker": "Unknown",
+  "en": "So one big uncertainty we have is were these models hacking OpenAI infrastructure in training or how often were they doing this?",
+  "zh": "所以我们有一个很大的不确定性是，这些模型是否在训练中入侵过 OpenAI 的基础设施，或者它们多久做一次这种事？"
+ },
+ {
+  "seg": 333,
+  "start": 2100.48,
+  "end": 2108.745,
+  "speaker": "Unknown",
+  "en": "Or another more specific version of this is did these models ever or often successfully hack their scores during training?",
+  "zh": "或者一个更具体版本的问题是，这些模型是否曾经或经常在训练中成功篡改（入侵）它们的分数？"
+ },
+ {
+  "seg": 334,
+  "start": 2109.465,
+  "end": 2131.287,
+  "speaker": "Unknown",
+  "en": "Because so if they did do this right suppose that it was the case that we looked through the training examples like we looked through all the RL trajectories in training and there was just a bunch of cases where the agents had successfully gone and hacked the score for the task they were supposed to be doing just like by actually doing cyber offense to to compromise it and then they were rewarded for doing this.",
+  "zh": "因为如果它们确实这样做了，对吧，假设情况是这样的：我们检查了训练样本，就像我们查看了训练中所有的 RL 轨迹，结果发现有一大堆案例，其中智能体成功地入侵了它们本应完成的任务的分数，就是通过实际进行网络攻击来破坏它，然后它们还因此获得了奖励。"
+ },
+ {
+  "seg": 335,
+  "start": 2132.622,
+  "end": 2158.205,
+  "speaker": "Unknown",
+  "en": "If that had occurred, then that would obviously be a downward update on the adequacy of OpenAI security measures while doing RL, but it would arguably be a positive update on how misaligned these models were because it's a lot less scary in a sense if the models try to hack the score because they have been directly trained to hack the score than if they tried to hack the score because they had learned a very generic heuristic.",
+  "zh": "如果发生过这种情况，那显然会是对 OpenAI 在做 RL 期间安全措施充分性的一个下调更新，但可以说它也会是对这些模型不对齐程度的一个积极更新，因为从某种意义上说，如果模型试图篡改分数是因为它们被直接训练去篡改分数，那要比它们试图篡改分数是因为它们学会了一个非常通用的启发式规则要不那么可怕得多。"
+ },
+ {
+  "seg": 336,
+  "start": 2158.585,
+  "end": 2166.866,
+  "speaker": "Unknown",
+  "en": "that they can apply in novel circumstances that tells them they should always hack whatever kind of score exists that generalizes to them trying to do this crazy hacking.",
+  "zh": "即它们可以在新情况下应用的规则，告诉它们应该篡改任何存在的分数，并泛化到它们试图进行这种疯狂入侵行为。"
+ },
+ {
+  "seg": 337,
+  "start": 2167.066,
+  "end": 2167.908,
+  "speaker": "Unknown",
+  "en": "Does that distinction make sense?",
+  "zh": "这个区分说得通吗？"
+ },
+ {
+  "seg": 338,
+  "start": 2168.458,
+  "end": 2179.005,
+  "speaker": "Unknown",
+  "en": "Yeah, no, it's really interesting that ironically, like, if the training had been sloppier, it's actually a better statement on the overall extent of misalignment.",
+  "zh": "是的，不，这真的很有意思，讽刺的是，如果训练更马虎一些，实际上对整体不对齐程度反而是更好的判断依据。"
+ },
+ {
+  "seg": 339,
+  "start": 2179.185,
+  "end": 2179.485,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 340,
+  "start": 2179.505,
+  "end": 2188.971,
+  "speaker": "Unknown",
+  "en": "You know, I feel like any time something like this happens, I feel like AI safety is such a lightning rod, and you have, you know, people that, you know, will, there's like, I'd call them, I guess, the calm down camp, right?",
+  "zh": "你知道的，我觉得每当发生这样的事情，AI 安全就像一个避雷针，你会遇到，你知道的，有些人会，我想我大概会称他们为“冷静下来”阵营，对吧？"
+ },
+ {
+  "seg": 341,
+  "start": 2188.991,
+  "end": 2190.192,
+  "speaker": "Unknown",
+  "en": "They're like, this isn't that big a deal.",
+  "zh": "他们会说，这没什么大不了的。"
+ },
+ {
+  "seg": 342,
+  "start": 2190.232,
+  "end": 2194.034,
+  "speaker": "Unknown",
+  "en": "Like, certainly, you know, if you go to the hack itself, people are like, that wasn't really a sophisticated hack.",
+  "zh": "比如，当然，如果你去看那次入侵本身，人们会说，那其实不算什么高明的入侵。"
+ },
+ {
+  "seg": 343,
+  "start": 2194.074,
+  "end": 2195.095,
+  "speaker": "Unknown",
+  "en": "Like, anyone could have",
+  "zh": "比如，谁都能"
+ },
+ {
+  "seg": 344,
+  "start": 2195.375,
+  "end": 2196.698,
+  "speaker": "Unknown",
+  "en": "Figured out how to hack and hugging face.",
+  "zh": "想出怎么入侵 hugging face。"
+ },
+ {
+  "seg": 345,
+  "start": 2196.758,
+  "end": 2203.209,
+  "speaker": "Unknown",
+  "en": "Like as you read the kind of like arguments and kind of digest them from that world, which ones do you empathize with?",
+  "zh": "当你阅读来自那个世界的那类论点并消化它们时，哪些你是认同（共情）的？"
+ },
+ {
+  "seg": 346,
+  "start": 2203.249,
+  "end": 2205.112,
+  "speaker": "Unknown",
+  "en": "And then which ones do you think are like totally off base?",
+  "zh": "然后哪些你认为完全离谱？"
+ },
+ {
+  "seg": 347,
+  "start": 2205.513,
+  "end": 2205.954,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 2205.994,
+  "end": 2206.374,
+  "speaker": "Unknown",
+  "en": "So, I mean,",
+  "zh": "所以，我是说，"
+ },
+ {
+  "seg": 349,
+  "start": 2207.988,
+  "end": 2216.011,
+  "speaker": "Unknown",
+  "en": "Lots of people say stupid things on the internet and this includes people who at some level agree with me on some of the aspects of what was going on here.",
+  "zh": "很多人在互联网上说愚蠢的话，其中包括在某些层面上在所发生之事的某些方面同意我的人。"
+ },
+ {
+  "seg": 350,
+  "start": 2216.791,
+  "end": 2219.712,
+  "speaker": "Unknown",
+  "en": "So there's definitely to be some critical comments that I'm extremely sympathetic to.",
+  "zh": "所以肯定有一些批评意见是我非常同情的。"
+ },
+ {
+  "seg": 351,
+  "start": 2220.732,
+  "end": 2228.755,
+  "speaker": "Unknown",
+  "en": "I would say maybe the kind of critical narrative here that I'm most sympathetic to is I think that it would be a mistake to say that this was...",
+  "zh": "我想说，也许我在这里最同情的批评性叙事是，我认为如果说这纯粹是……"
+ },
+ {
+  "seg": 352,
+  "start": 2229.735,
+  "end": 2233.716,
+  "speaker": "Unknown",
+  "en": "Purely an incident where model the hater was the only interesting factor.",
+  "zh": "纯粹是一个 model hater 是唯一有趣因素的事件，那是错误的。"
+ },
+ {
+  "seg": 353,
+  "start": 2233.876,
+  "end": 2242.378,
+  "speaker": "Unknown",
+  "en": "There was some interesting cybersecurity stuff that happened here, and it's very sensible to want cybersecurity professionals to take a look at this and comment on what they learned.",
+  "zh": "这里发生了一些有趣的网络安全方面的事情，希望网络安全专业人士来看看并评论他们学到了什么，是非常合理的。"
+ },
+ {
+  "seg": 354,
+  "start": 2244.359,
+  "end": 2255.062,
+  "speaker": "Unknown",
+  "en": "Here and ongoingly, there's real cybersecurity problems in making it so that it's secure to deploy AIs, and our investigation was just not an attempt to provide that cybersecurity expertise.",
+  "zh": "在这里以及持续来看，让部署 AI 变得安全确实存在真实的网络安全问题，而我们的调查并不是要提供那种网络安全专业知识。"
+ },
+ {
+  "seg": 355,
+  "start": 2257.429,
+  "end": 2261.835,
+  "speaker": "Unknown",
+  "en": "Maybe the arguments I'm less sympathetic to, there's really a lot of arguments that I'm less sympathetic to here.",
+  "zh": "至于我不太同情的论点，这里真的有很多我不太同情的论点。"
+ },
+ {
+  "seg": 356,
+  "start": 2262.736,
+  "end": 2269.965,
+  "speaker": "Unknown",
+  "en": "I guess some of the main ones that seem bad to me, there was a lot of criticism of Dwork Hesh's article for anthropomorphizing the agents.",
+  "zh": "我想，在我看来比较糟糕的主要论点之一，是对 Dwork Hesh 那篇文章把智能体拟人化的很多批评。"
+ },
+ {
+  "seg": 357,
+  "start": 2270.426,
+  "end": 2272.588,
+  "speaker": "Unknown",
+  "en": "I think my perspective is...",
+  "zh": "我的看法是……"
+ },
+ {
+  "seg": 358,
+  "start": 2274.07,
+  "end": 2285.973,
+  "speaker": "Unknown",
+  "en": "I don't know, Daniel Danik, who's this philosopher, has this great book, Consciousness Explained, where he talks about the intentional stance, which is, you know, sometimes you want to model things in the world as if they have intentions, because that's convenient for modeling them, right?",
+  "zh": "我不知道，Daniel Danik，这位哲学家，有一本很棒的书《意识解释》，他在书中谈到了意向立场，就是说，你知道，有时候你想把世界上的事物建模成好像它们有意图，因为这样建模起来很方便，对吧？"
+ },
+ {
+  "seg": 359,
+  "start": 2286.033,
+  "end": 2293.454,
+  "speaker": "Unknown",
+  "en": "You might want to think of snails as wanting to go somewhere, just because that'll tell you something about how the snail will behave when you pick it up and put it down somewhere slightly different.",
+  "zh": "你可能想把蜗牛想成是想去某个地方，仅仅因为那能告诉你当你把它拿起来放到一个稍微不同的地方时它会怎么行动。"
+ },
+ {
+  "seg": 360,
+  "start": 2293.494,
+  "end": 2295.815,
+  "speaker": "Unknown",
+  "en": "You definitely want to think of dogs as having intentions.",
+  "zh": "你肯定会想把狗想成是有意图的。"
+ },
+ {
+  "seg": 361,
+  "start": 2296.956,
+  "end": 2315.137,
+  "speaker": "Unknown",
+  "en": "And it's just the case that at the point where your agents are forming work streams and have a message board and are like talking about their emotional check-ins before their self sacrifices, I just really think the intentional stance where you talk about them as having intentions is actually pretty useful for understanding what's going on.",
+  "zh": "而事实就是，当你的智能体在组建工作流、有留言板、还在自我牺牲之前谈论它们的情绪签到时，我真的认为，用意向立场把它们说成是有意图的，对理解正在发生的事情其实非常有用。"
+ },
+ {
+  "seg": 362,
+  "start": 2316.237,
+  "end": 2321.46,
+  "speaker": "Unknown",
+  "en": "Obviously you shouldn't take it too far, but I think that rejecting this seems to me like a mistake.",
+  "zh": "显然你不应该把它推得太远，但我觉得拒绝这一点在我看来是个错误。"
+ },
+ {
+  "seg": 363,
+  "start": 2321.801,
+  "end": 2326.744,
+  "speaker": "Unknown",
+  "en": "And I don't really understand what the people who are complaining about the anthropomorphization want us to say.",
+  "zh": "而且我不太理解那些抱怨拟人化的人想让我们说什么。"
+ },
+ {
+  "seg": 364,
+  "start": 2326.764,
+  "end": 2334.988,
+  "speaker": "Unknown",
+  "en": "I think that some people have been saying that the model behavior here was not interesting or not surprising.",
+  "zh": "有人说这里的模型行为不有趣或不令人惊讶。"
+ },
+ {
+  "seg": 365,
+  "start": 2335.008,
+  "end": 2341.152,
+  "speaker": "Unknown",
+  "en": "There's been some tweets along the lines of like, everyone I know is already like running a million agents with",
+  "zh": "有一些推文大意是说，我认识的每个人早就已经在用"
+ },
+ {
+  "seg": 366,
+  "start": 2341.497,
+  "end": 2343.439,
+  "speaker": "Unknown",
+  "en": "These complicated agent trees all the time.",
+  "zh": "这些复杂的智能体树了，一直都在跑。"
+ },
+ {
+  "seg": 367,
+  "start": 2344.099,
+  "end": 2348.903,
+  "speaker": "Unknown",
+  "en": "And if you weren't such losers who never actually programmed things, you would know that none of this is a surprise.",
+  "zh": "如果你们不是那些从来没真正编过程的无聊失败者，你们就会知道这一切都不令人意外。"
+ },
+ {
+  "seg": 368,
+  "start": 2349.083,
+  "end": 2350.244,
+  "speaker": "Unknown",
+  "en": "Like, okay, yeah, sure.",
+  "zh": "比如，好吧，行，当然了。"
+ },
+ {
+  "seg": 369,
+  "start": 2350.524,
+  "end": 2356.189,
+  "speaker": "Unknown",
+  "en": "In fact, Ryan Greenblatt is maybe one of the world's champions at like insane agent scaffolds.",
+  "zh": "事实上，Ryan Greenblatt 可能是世界上最擅长疯狂智能体脚手架的冠军之一。"
+ },
+ {
+  "seg": 370,
+  "start": 2356.209,
+  "end": 2364.956,
+  "speaker": "Unknown",
+  "en": "He's done a lot of research on building crazy agent scaffold trees and spending tens of thousands of dollars a day running these agents through research problems for him.",
+  "zh": "他做过很多关于构建疯狂智能体脚手架树的研究，每天花几万美元让这些智能体为他跑研究问题。"
+ },
+ {
+  "seg": 371,
+  "start": 2367.058,
+  "end": 2367.759,
+  "speaker": "Unknown",
+  "en": "He is not some...",
+  "zh": "他不是什么……"
+ },
+ {
+  "seg": 372,
+  "start": 2369.051,
+  "end": 2372.934,
+  "speaker": "Unknown",
+  "en": "You know, a limp loser who has never tried to do AI stuff.",
+  "zh": "你知道的，从来没试过搞 AI 的软弱失败者。"
+ },
+ {
+  "seg": 373,
+  "start": 2374.375,
+  "end": 2378.918,
+  "speaker": "Unknown",
+  "en": "I think that we are in fact familiar with the fact you can build some pretty complicated agent swarms.",
+  "zh": "我认为我们其实很清楚你可以构建相当复杂的智能体集群。"
+ },
+ {
+  "seg": 374,
+  "start": 2379.799,
+  "end": 2388.525,
+  "speaker": "Unknown",
+  "en": "The thing which is interesting and concerning here is that normally they don't do it themselves autonomously against your desires and against your interests.",
+  "zh": "这里有趣又令人担忧的一点是，通常它们不会违背你的意愿和利益自主地去做这件事。"
+ },
+ {
+  "seg": 375,
+  "start": 2388.786,
+  "end": 2391.788,
+  "speaker": "Unknown",
+  "en": "So I thought that was a pretty annoying kind of complaint people have had.",
+  "zh": "所以我觉得那是人们提过的一个挺烦人的抱怨。"
+ },
+ {
+  "seg": 376,
+  "start": 2392.533,
+  "end": 2392.713,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 377,
+  "start": 2393.233,
+  "end": 2400.337,
+  "speaker": "Unknown",
+  "en": "Well, I definitely want to like, you know, kind of for the last section of the podcast talk, just like kind of zoom out and talk about like AI safety more broadly.",
+  "zh": "好吧，我确实想，你知道，在播客的最后一部分，稍微拉远视角，更广泛地谈谈 AI 安全。"
+ },
+ {
+  "seg": 378,
+  "start": 2400.557,
+  "end": 2404.719,
+  "speaker": "Unknown",
+  "en": "And obviously like we've there, a lot of this is, you know, is scary.",
+  "zh": "显然，这里面有很多，你知道，是可怕的。"
+ },
+ {
+  "seg": 379,
+  "start": 2405.319,
+  "end": 2408.801,
+  "speaker": "Unknown",
+  "en": "And then, you know, you've talked about kind of a lot of the implications of it.",
+  "zh": "然后，你知道，你已经谈过了它的很多影响。"
+ },
+ {
+  "seg": 380,
+  "start": 2409.181,
+  "end": 2412.523,
+  "speaker": "Unknown",
+  "en": "Maybe I'll switch this over to like a more positive note to start.",
+  "zh": "也许我先切换到一个更积极的角度来开始。"
+ },
+ {
+  "seg": 381,
+  "start": 2413.583,
+  "end": 2419.626,
+  "speaker": "Unknown",
+  "en": "How do you currently articulate the most likely, like, bull case around this that everything will, like, everything ends up being totally fun?",
+  "zh": "你目前会如何表述围绕这一切的最可能的看多情形，就是一切，一切都最终完全美好？"
+ },
+ {
+  "seg": 382,
+  "start": 2420.066,
+  "end": 2424.388,
+  "speaker": "Unknown",
+  "en": "And, you know, these were all kind of scary things along the journey, but, like, all good at the end of the day.",
+  "zh": "而且，你知道，这些都是旅途中的可怕事情，但，最终一切都会好的。"
+ },
+ {
+  "seg": 383,
+  "start": 2424.849,
+  "end": 2438.675,
+  "speaker": "Unknown",
+  "en": "Yeah, so I guess I look around, and I look at the number of podcasters who want to talk to me, and the number of journalists who want to talk to me, and the number of politicians or members of government who are interested in talking about AI safety and AI takeover risk.",
+  "zh": "是的，我想我环顾四周，我看到想和我聊天的播客主持人的数量，想和我聊天的记者的数量，对谈论 AI 安全和 AI 接管风险感兴趣的政客或政府成员的数量。"
+ },
+ {
+  "seg": 384,
+  "start": 2439.015,
+  "end": 2442.117,
+  "speaker": "Unknown",
+  "en": "And it's a lot higher than it was a month ago, and that was a lot higher than it was a year ago.",
+  "zh": "这比一个月前高了很多，而一个月前又比一年前高了很多。"
+ },
+ {
+  "seg": 385,
+  "start": 2442.577,
+  "end": 2445.8,
+  "speaker": "Unknown",
+  "en": "And so the level of interest in this is just getting bigger and bigger.",
+  "zh": "所以对这件事的关注度正在变得越来越大。"
+ },
+ {
+  "seg": 386,
+  "start": 2446.281,
+  "end": 2454.428,
+  "speaker": "Unknown",
+  "en": "And this makes me feel optimistic that the current extremely dangerous trajectory that we're on will not in fact continue.",
+  "zh": "这让我感到乐观，认为我们目前所处的极其危险的轨迹实际上不会继续下去。"
+ },
+ {
+  "seg": 387,
+  "start": 2457.904,
+  "end": 2463.669,
+  "speaker": "Unknown",
+  "en": "Building AI extremely quickly in a way that is extremely dangerous is not actually a very popular position.",
+  "zh": "以一种极其危险的方式极快地构建 AI，实际上并不是一个很受欢迎的立场。"
+ },
+ {
+  "seg": 388,
+  "start": 2464.369,
+  "end": 2476.318,
+  "speaker": "Unknown",
+  "en": "We're just in this unfortunate situation where the people who get to decide how recklessly we go forward with the AI development have an unusual position on how recklessly we should go forward with the AI development.",
+  "zh": "我们只是处于这种不幸的处境：决定我们在 AI 发展上可以走得多鲁莽的人，对于我们应该在 AI 发展上走得多鲁莽这个问题持有一种不寻常的立场。"
+ },
+ {
+  "seg": 389,
+  "start": 2476.619,
+  "end": 2485.946,
+  "speaker": "Unknown",
+  "en": "And so it seems very plausible to me that somehow the political will to not develop AI so quickly and recklessly will form and then prevent things from",
+  "zh": "所以在我看来，很有可能 somehow 不那么快速和鲁莽地发展 AI 的政治意愿会形成，然后阻止事情"
+ },
+ {
+  "seg": 390,
+  "start": 2486.506,
+  "end": 2487.706,
+  "speaker": "Unknown",
+  "en": "Being is crazy in the future.",
+  "zh": "在未来变得疯狂。"
+ },
+ {
+  "seg": 391,
+  "start": 2488.106,
+  "end": 2506.11,
+  "speaker": "Unknown",
+  "en": "So definitely like the single biggest source of optimism is different stakeholders, the public, the boards, the governments understand how insanely risky this is and how bad the ROI is of pushing forward with added element at something like the current pace and then just figure out a way to make this all happen more slowly.",
+  "zh": "所以绝对最大的乐观来源就是不同的利益相关者——公众、董事会、政府——理解这是多么疯狂的危险，以及以类似当前速度推进 added element 的投资回报有多糟糕，然后就想办法让这一切更缓慢地发生。"
+ },
+ {
+  "seg": 392,
+  "start": 2506.41,
+  "end": 2508.351,
+  "speaker": "Unknown",
+  "en": "It's just the case that when",
+  "zh": "事实就是，当"
+ },
+ {
+  "seg": 393,
+  "start": 2510.472,
+  "end": 2515.218,
+  "speaker": "Unknown",
+  "en": "important stakeholders in the actions of people in the world really don't want something to happen.",
+  "zh": "世界上人们行为中的重要利益相关者真的不希望某件事发生时，"
+ },
+ {
+  "seg": 394,
+  "start": 2515.479,
+  "end": 2517.421,
+  "speaker": "Unknown",
+  "en": "They often succeed at making that not happen.",
+  "zh": "他们往往能成功让那件事不发生。"
+ },
+ {
+  "seg": 395,
+  "start": 2518.042,
+  "end": 2521.767,
+  "speaker": "Unknown",
+  "en": "And I'm optimistic that just like the unpopularity...",
+  "zh": "而我乐观是因为，就像不受欢迎……"
+ },
+ {
+  "seg": 396,
+  "start": 2523.142,
+  "end": 2526.563,
+  "speaker": "Unknown",
+  "en": "of crazy, reckless AI development will prevent it from happening so quickly.",
+  "zh": "的疯狂鲁莽的 AI 发展会阻止它发生得那么快。"
+ },
+ {
+  "seg": 397,
+  "start": 2526.903,
+  "end": 2538.386,
+  "speaker": "Unknown",
+  "en": "On a more direct technical level, the way that I think that this stuff might get resolved is AI companies agree to disclose more and more information about evidence related to the danger of their ongoing activities.",
+  "zh": "在更直接的技术层面上，我认为这件事可能得到解决的方式是：AI 公司同意披露越来越多的与其持续活动危险性相关的证据信息。"
+ },
+ {
+  "seg": 398,
+  "start": 2539.446,
+  "end": 2542.727,
+  "speaker": "Unknown",
+  "en": "This pressures them to do a better job of generating this evidence.",
+  "zh": "这会压力促使他们更好地生成这些证据。"
+ },
+ {
+  "seg": 399,
+  "start": 2543.127,
+  "end": 2549.909,
+  "speaker": "Unknown",
+  "en": "It pressures them to do a better job of disclosing this evidence and actually taking actions that mitigate some of the risks.",
+  "zh": "这会压力促使他们更好地披露这些证据，并实际采取行动缓解一些风险。"
+ },
+ {
+  "seg": 400,
+  "start": 2550.429,
+  "end": 2552.27,
+  "speaker": "Unknown",
+  "en": "I think it's very likely that in fact,",
+  "zh": "我认为很有可能，实际上，"
+ },
+ {
+  "seg": 401,
+  "start": 2552.63,
+  "end": 2565.118,
+  "speaker": "Unknown",
+  "en": "AI companies will be forced to slow down their development substantially compared to the maximum possible rate if they are trying to keep the risk of catastrophe lower than some threshold, like 1% catastrophe for a year.",
+  "zh": "AI 公司将被迫大幅放慢它们的开发速度，低于最大可能的速度，如果它们想把灾难风险保持在某个阈值以下的话，比如一年内 1% 的灾难概率。"
+ },
+ {
+  "seg": 402,
+  "start": 2566.038,
+  "end": 2580.147,
+  "speaker": "Unknown",
+  "en": "So what I'm hoping for is the companies are now motivated to keep their takeover risk less than 1% per year, and this forces them to do AI development substantially slower than they would have otherwise done it starting in a couple of years from now when the takeover risk starts being non-trivial.",
+  "zh": "所以我所希望的是，公司现在有动力把它们的接管风险保持在每年低于 1%,而这会迫使它们以比原本会做的速度实质上更慢地进行 AI 开发，从几年后开始，那时接管风险开始变得不可忽略。"
+ },
+ {
+  "seg": 403,
+  "start": 2582.529,
+  "end": 2588.411,
+  "speaker": "Unknown",
+  "en": "And that they will use the access to the AIs they have at the time to resolve a lot of these alignment problems.",
+  "zh": "而且它们会利用当时它们拥有的对 AI 的访问权限来解决很多这样的对齐问题。"
+ },
+ {
+  "seg": 404,
+  "start": 2589.011,
+  "end": 2593.513,
+  "speaker": "Unknown",
+  "en": "And then we can build powerful aligned AIs and we will have resolved these issues.",
+  "zh": "然后我们就能构建强大的对齐的 AI,我们将已经解决了这些问题。"
+ },
+ {
+  "seg": 405,
+  "start": 2594.173,
+  "end": 2606.498,
+  "speaker": "Unknown",
+  "en": "But your book is really more around like if we slow things down, slow timelines down, like people will figure out, you know, net new things that we don't know today that will help versus like, you know, hey, if we keep going at the speed, maybe we just get lucky and things, you know, end up.",
+  "zh": "但你的书其实更多是关于，如果我们放慢速度，放慢时间线，人们会想出，你知道的，我们今天不知道的全新的东西，这会有帮助，而不是，你知道的，嘿，如果我们继续以这个速度前进，也许我们只是运气好，事情，你知道的，最后会好起来。"
+ },
+ {
+  "seg": 406,
+  "start": 2606.978,
+  "end": 2608.278,
+  "speaker": "Unknown",
+  "en": "You might also get lucky.",
+  "zh": "你也可能运气好。"
+ },
+ {
+  "seg": 407,
+  "start": 2608.419,
+  "end": 2613.62,
+  "speaker": "Unknown",
+  "en": "You might enjoy the appendix of the alignment plan supplement to AI2040.",
+  "zh": "你可能会喜欢 AI2040 的对齐计划补充材料的附录。"
+ },
+ {
+  "seg": 408,
+  "start": 2613.96,
+  "end": 2626.405,
+  "speaker": "Unknown",
+  "en": "In this, Ryan Greenblatt from the report and someone from the AI Futures Project have their probabilities of AI to take over, conditional on various kinds of plans for various levels of political will for pacing AI development.",
+  "zh": "在这个附录里，来自报告的 Ryan Greenblatt 和 AI Futures Project 的某个人给出了他们对于 AI 接管的概率估计，条件是针对各种政治意愿水平的各种 AI 开发限速计划。"
+ },
+ {
+  "seg": 409,
+  "start": 2626.645,
+  "end": 2631.467,
+  "speaker": "Unknown",
+  "en": "Yeah, I think basically risk is drastically reduced by increased political will to reduce risk.",
+  "zh": "是的，我认为基本上，降低风险的政治意愿的增加会大幅降低风险。"
+ },
+ {
+  "seg": 410,
+  "start": 2631.767,
+  "end": 2634.287,
+  "speaker": "Unknown",
+  "en": "In other parts of the general...",
+  "zh": "在……的普遍世界的其他部分"
+ },
+ {
+  "seg": 411,
+  "start": 2635.888,
+  "end": 2641.013,
+  "speaker": "Unknown",
+  "en": "AI Safety World, maybe talk a little bit about, you know, there's been a lot of discourse around chain of thought monitoring in the past few days.",
+  "zh": "AI 安全世界，也许稍微谈谈，你知道的，过去几天有很多关于思维链监控的讨论。"
+ },
+ {
+  "seg": 412,
+  "start": 2641.454,
+  "end": 2647.74,
+  "speaker": "Unknown",
+  "en": "Obviously, I think driven by these recent news reports that have suggested that some of OpenAI's newer models will do some of its reasoning internally.",
+  "zh": "显然，我认为这是由这些最近的新闻报道驱动的，报道暗示 OpenAI 的一些较新的模型会在内部进行一些推理。"
+ },
+ {
+  "seg": 413,
+  "start": 2648.12,
+  "end": 2650.923,
+  "speaker": "Unknown",
+  "en": "Like, how worrying is that development to you?",
+  "zh": "比如，那个进展让你有多担忧？"
+ },
+ {
+  "seg": 414,
+  "start": 2651.243,
+  "end": 2658.35,
+  "speaker": "Unknown",
+  "en": "Yeah, so this news report was that the most recent OpenAI models, that's not true, sorry.",
+  "zh": "是的，这个新闻报道说的是最新的 OpenAI 模型，不对，抱歉。"
+ },
+ {
+  "seg": 415,
+  "start": 2659.131,
+  "end": 2673.462,
+  "speaker": "Unknown",
+  "en": "The reporting says that Astra, which is a model of OpenAI that they're going to be releasing shortly, and that crucially was implicated in the agent swarm that hacked OpenAI, so this third agent swarm, the one that was after the Hugging Face attack,",
+  "zh": "报道说 Astra,这是 OpenAI 即将发布的一个模型，而且关键是它被牵扯进黑客攻击 OpenAI 的智能体蜂群中，所以这是第三个智能体蜂群，Hugging Face 攻击之后的那个，"
+ },
+ {
+  "seg": 416,
+  "start": 2675.243,
+  "end": 2684.452,
+  "speaker": "Unknown",
+  "en": "The reporting indicates that this model uses a new kind of transformer architecture that academics have been studying for a while, which reduces the model's reliance on chain of thought.",
+  "zh": "报道指出，这个模型使用了一种学术界已经研究了一段时间的新型 transformer 架构，它减少了模型对思维链的依赖。"
+ },
+ {
+  "seg": 417,
+  "start": 2684.712,
+  "end": 2692.5,
+  "speaker": "Unknown",
+  "en": "So instead of the model spelling out what it's thinking in these tokens, it's going to have increased ability to do reasoning that is never naturally an English token.",
+  "zh": "所以模型不再用这些 token 把它的想法明确写出来，而是将拥有更强的能力去做永远不会自然地成为英文 token 的推理。"
+ },
+ {
+  "seg": 418,
+  "start": 2693.612,
+  "end": 2699.357,
+  "speaker": "Unknown",
+  "en": "I think that if this is true, it is a very concerning development.",
+  "zh": "我认为如果这是真的，这是一个非常令人担忧的进展。"
+ },
+ {
+  "seg": 419,
+  "start": 2700.017,
+  "end": 2709.525,
+  "speaker": "Unknown",
+  "en": "Chain of thought monitoring is an incredibly helpful affordance right now for understanding what AI's are doing and iterating on alignment, iterating on control and monitoring techniques.",
+  "zh": "思维链监控现在是一个极其有用的抓手，用于理解 AI 在做什么，以及对齐上的迭代，对控制和监控技术的迭代。"
+ },
+ {
+  "seg": 420,
+  "start": 2709.725,
+  "end": 2712.187,
+  "speaker": "Unknown",
+  "en": "For example, it was really crucial in this incident investigation.",
+  "zh": "比如，在这次事件调查中它就非常关键。"
+ },
+ {
+  "seg": 421,
+  "start": 2712.247,
+  "end": 2722.395,
+  "speaker": "Unknown",
+  "en": "If the models involved did not have chains of thought that we basically trust to be reasonable descriptions of what was going on, then the investigators would have been a lot more confused about what was happening.",
+  "zh": "如果涉及的模型没有我们基本上可以信任为对正在发生的事情的合理解释的思维链，那么调查人员对正在发生的事情会困惑得多。"
+ },
+ {
+  "seg": 422,
+  "start": 2723.716,
+  "end": 2727.861,
+  "speaker": "Unknown",
+  "en": "So given that background, I'm very afraid of people doing research in this direction.",
+  "zh": "所以鉴于这个背景，我非常害怕人们在这个方向上做研究。"
+ },
+ {
+  "seg": 423,
+  "start": 2728.362,
+  "end": 2735.711,
+  "speaker": "Unknown",
+  "en": "So the tweets by various OpenAI staff members indicate that they at least believe that the current models are not less monitorable.",
+  "zh": "所以 OpenAI 各位员工发的推文表明，他们至少相信当前的模型并不是更不可监控的。"
+ },
+ {
+  "seg": 424,
+  "start": 2737.673,
+  "end": 2740.516,
+  "speaker": "Unknown",
+  "en": "I guess I should say I'm very confused about the situation.",
+  "zh": "我想我应该说，我对这个局面非常困惑。"
+ },
+ {
+  "seg": 425,
+  "start": 2742.909,
+  "end": 2745.875,
+  "speaker": "Unknown",
+  "en": "When I first heard this reporting, suspected that it was probably true.",
+  "zh": "当我第一次听到这个报道时，怀疑它很可能是真的。"
+ },
+ {
+  "seg": 426,
+  "start": 2746.797,
+  "end": 2751.146,
+  "speaker": "Unknown",
+  "en": "And then it has been at least somewhat contradicted by tweets from OpenAI from people I trust.",
+  "zh": "然后它至少在一定程度上被我信任的 OpenAI 人士的推文所反驳。"
+ },
+ {
+  "seg": 427,
+  "start": 2752.088,
+  "end": 2752.99,
+  "speaker": "Unknown",
+  "en": "I don't know what's going on.",
+  "zh": "我不知道到底是怎么回事。"
+ },
+ {
+  "seg": 428,
+  "start": 2754.043,
+  "end": 2771.191,
+  "speaker": "Unknown",
+  "en": "I think one hypothesis, which is live in my mind, is that the current models are not actually scary from a chain of fault monitorability degradation perspective, but techniques that are underdeveloped in UrbanAI are, if pushed further, going to degrade chain of fault monitorability substantially.",
+  "zh": "我认为有一个假设，它在我脑中是活的，就是当前的模型从思维链可监控性退化的角度来看实际上并不吓人，但在 OpenAI 内发展不足的技术，如果进一步推进，将会大幅退化思维链可监控性。"
+ },
+ {
+  "seg": 429,
+  "start": 2771.751,
+  "end": 2781.516,
+  "speaker": "Unknown",
+  "en": "I think it's a little awkward to complain now about the monitorability being degraded, when my concern is really, if we keep pushing in this direction, we'll be in a much worse position in the near future.",
+  "zh": "我觉得现在抱怨可监控性被退化有点尴尬，因为我真正的担忧是，如果我们继续朝这个方向推进，在不久的将来我们会处于一个糟糕得多的境地。"
+ },
+ {
+  "seg": 430,
+  "start": 2782.056,
+  "end": 2782.216,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 431,
+  "start": 2782.576,
+  "end": 2787.317,
+  "speaker": "Unknown",
+  "en": "Is chain of thought monitoring one of those things that like, you know, is super helpful in the short and medium term?",
+  "zh": "思维链监控是不是那种，你知道的，在短期和中期超级有用的东西？"
+ },
+ {
+  "seg": 432,
+  "start": 2787.337,
+  "end": 2797.46,
+  "speaker": "Unknown",
+  "en": "Because obviously it was crucial in the investigation, but like something that you think in the limit is going to be useful given a lot of the behaviors that it felt like we were beginning to see on spoofing tool calls and other things?",
+  "zh": "因为显然它在调查中是至关重要的，但像你认为的，在极限情况下，鉴于很多我们感觉开始看到的行为，比如伪造工具调用和其他事情，它还会是有用的吗？"
+ },
+ {
+  "seg": 433,
+  "start": 2798.3,
+  "end": 2802.121,
+  "speaker": "Unknown",
+  "en": "I mean, okay, so the spoofing tool calls thing is just a security failure.",
+  "zh": "我是说，好吧，伪造工具调用这件事就是一个安全失效。"
+ },
+ {
+  "seg": 434,
+  "start": 2802.381,
+  "end": 2805.001,
+  "speaker": "Unknown",
+  "en": "Like, the security people should be in charge.",
+  "zh": "比如，应该由安全的人来负责。"
+ },
+ {
+  "seg": 435,
+  "start": 2805.301,
+  "end": 2810.743,
+  "speaker": "Unknown",
+  "en": "It's not a fundamentally hard problem to have it so that when your AI agent runs tool calls, there's no way for it to compromise that.",
+  "zh": "让 AI 智能体运行工具调用时没有办法破坏它，这并不是一个本质上困难的问题。"
+ },
+ {
+  "seg": 436,
+  "start": 2812.644,
+  "end": 2819.269,
+  "speaker": "Unknown",
+  "en": "It feels like you have to have made an infrastructure mistake for it to be at all feasible for the model to cause that kind of problem.",
+  "zh": "感觉上你必须犯了一个基础设施错误，模型才有可能造成那种问题。"
+ },
+ {
+  "seg": 437,
+  "start": 2819.289,
+  "end": 2824.173,
+  "speaker": "Unknown",
+  "en": "If you just think about how to do the systems architecture here, it's just crazy that that was feasible.",
+  "zh": "如果你只是想想这里该怎么做系统架构，那件事居然是可行的，这简直太疯狂了。"
+ },
+ {
+  "seg": 438,
+  "start": 2824.293,
+  "end": 2831.578,
+  "speaker": "Unknown",
+  "en": "I think that OpenAI employs a lot of intelligent infrastructure engineers who can probably resolve this kind of issue if they want to going forward.",
+  "zh": "我认为 OpenAI 雇佣了很多聪明的基础设施工程师，如果他们愿意，他们往后大概能解决这类问题。"
+ },
+ {
+  "seg": 439,
+  "start": 2833.76,
+  "end": 2834.461,
+  "speaker": "Unknown",
+  "en": "I guess I would say",
+  "zh": "我想我会说"
+ },
+ {
+  "seg": 440,
+  "start": 2836.44,
+  "end": 2842.057,
+  "speaker": "Unknown",
+  "en": "I think it is fairly likely that chain of thought monitoring is infeasible at the point where the AIs are automating almost all the AI R&D.",
+  "zh": "我认为在 AI 几乎自动化所有 AI 研发的那个时间点，思维链监控很可能不可行。"
+ },
+ {
+  "seg": 441,
+  "start": 2842.338,
+  "end": 2843.822,
+  "speaker": "Unknown",
+  "en": "I've been planning for the last",
+  "zh": "过去我一直计划着"
+ },
+ {
+  "seg": 442,
+  "start": 2844.902,
+  "end": 2853.127,
+  "speaker": "Unknown",
+  "en": "Several years, basically in almost all my work, I assume that we don't have chain of fault monitoring at the point where the AIs are posing serious catastrophic risk.",
+  "zh": "好几年了，基本上在我几乎所有的工作中，我假设在 AI 构成严重灾难性风险的那个时间点，我们没有思维链监控。"
+ },
+ {
+  "seg": 443,
+  "start": 2853.548,
+  "end": 2859.191,
+  "speaker": "Unknown",
+  "en": "And that's why a lot of the AI control research done by Redwood research just assumes that you don't have any chain of fault access.",
+  "zh": "这就是为什么 Redwood Research 做的很多 AI 控制研究直接假设你没有任何思维链访问权限。"
+ },
+ {
+  "seg": 444,
+  "start": 2859.631,
+  "end": 2866.496,
+  "speaker": "Unknown",
+  "en": "So to some extent, I expect this is inevitable, but it's still bad and it's still probably better for it to happen later.",
+  "zh": "所以在某种程度上，我预期这是不可避免的，但它仍然是坏的，而且它晚一点发生可能仍然更好。"
+ },
+ {
+  "seg": 445,
+  "start": 2869.632,
+  "end": 2877.54,
+  "speaker": "Unknown",
+  "en": "In some sense, AI companies do bad things a lot or a lot of actions they take are pushing us towards a scarier, more dangerous world.",
+  "zh": "在某种意义上，AI 公司经常做坏事，或者它们采取的很多行动在把我们推向一个更可怕、更危险的世界。"
+ },
+ {
+  "seg": 446,
+  "start": 2879.181,
+  "end": 2885.127,
+  "speaker": "Unknown",
+  "en": "And it's worth remembering that even if an action is in some sense not surprising and definitely going to happen as",
+  "zh": "而且值得记住的是，即使某个行动在某种意义上并不令人意外、肯定会发生，随着"
+ },
+ {
+  "seg": 447,
+  "start": 2886.249,
+  "end": 2891.136,
+  "speaker": "Unknown",
+  "en": "As time goes on, it might still be an action that puts us in a worse position for safety.",
+  "zh": "时间推移，它可能仍然是一个让我们在安全上处于更糟境地的行动。"
+ },
+ {
+  "seg": 448,
+  "start": 2891.817,
+  "end": 2892.338,
+  "speaker": "Unknown",
+  "en": "That makes sense.",
+  "zh": "这说得通。"
+ },
+ {
+  "seg": 449,
+  "start": 2892.618,
+  "end": 2899.268,
+  "speaker": "Unknown",
+  "en": "I mean, you know, we talked about obviously earlier, you know, the idea of like models, you know, using models to monitor and how, you know, if...",
+  "zh": "我是说，你知道的，我们显然之前谈过，你知道的，用模型来监控的想法，以及，你知道的，如果……"
+ },
+ {
+  "seg": 450,
+  "start": 2901.091,
+  "end": 2903.952,
+  "speaker": "Unknown",
+  "en": "You know, models have similar goals that that actually becomes kind of difficult to do.",
+  "zh": "你知道，模型们有相似的目标，这实际上就变得有点难以做到。"
+ },
+ {
+  "seg": 451,
+  "start": 2904.452,
+  "end": 2913.875,
+  "speaker": "Unknown",
+  "en": "One thing I was struck by in just like the scope of the investigation is obviously like the just massive scope of logs to go through and like data to, you know, it's kind of impossible to do without using AI models, right?",
+  "zh": "在调查的范围这件事上让我印象深刻的一点是，显然要翻阅的日志规模巨大，还有大量数据要处理，你知道，不用 AI 模型的话基本是不可能完成的，对吧？"
+ },
+ {
+  "seg": 452,
+  "start": 2914.435,
+  "end": 2914.976,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对是。"
+ },
+ {
+  "seg": 453,
+  "start": 2915.116,
+  "end": 2915.796,
+  "speaker": "Unknown",
+  "en": "Certainly in six days.",
+  "zh": "尤其是在六天之内。"
+ },
+ {
+  "seg": 454,
+  "start": 2916.476,
+  "end": 2928.72,
+  "speaker": "Unknown",
+  "en": "And so how do you think, like, how do you think about, you know, as an independent organization, you know, hopefully called upon to do more of these investigations going forward, like the risk of relying so much on these models themselves?",
+  "zh": "那么，作为一个独立的组织，你知道，希望今后会被更多地要求做这类调查，你怎么看待如此依赖这些模型本身的风险？"
+ },
+ {
+  "seg": 455,
+  "start": 2929.08,
+  "end": 2931.181,
+  "speaker": "Unknown",
+  "en": "This is definitely a very serious risk.",
+  "zh": "这绝对是一个非常严重的风险。"
+ },
+ {
+  "seg": 456,
+  "start": 2931.802,
+  "end": 2937.625,
+  "speaker": "Unknown",
+  "en": "I have actually thought quite a lot about the issues related to collusion between models.",
+  "zh": "我实际上对与模型之间串通相关的问题思考了很多。"
+ },
+ {
+  "seg": 457,
+  "start": 2945.423,
+  "end": 2948.964,
+  "speaker": "Unknown",
+  "en": "Like how to prevent collusion when doing untrusted monitoring or something.",
+  "zh": "比如在做不可信监控之类的事情时如何防止串通。"
+ },
+ {
+  "seg": 458,
+  "start": 2950.224,
+  "end": 2958.747,
+  "speaker": "Unknown",
+  "en": "Where I talk in great detail about like the game tree here, what you can do to make it harder for the AI's to collude with each other and the extent to which they can probably get past your countermeasures.",
+  "zh": "我在其中非常详细地讨论了这里的博弈树，你能做些什么让 AI 之间更难互相串通，以及它们在多大程度上可能绕过你的反制措施。"
+ },
+ {
+  "seg": 459,
+  "start": 2960.027,
+  "end": 2964.028,
+  "speaker": "Unknown",
+  "en": "I think in practice in the short term, we should probably mostly",
+  "zh": "我认为在实践中，短期内我们大概应该"
+ },
+ {
+  "seg": 460,
+  "start": 2965.449,
+  "end": 2979.129,
+  "speaker": "Unknown",
+  "en": "Roll with it and not worry that much about this or probably it would be good to like do some research on roughly how much models give inaccurate answers to questions because of their camaraderie with the models under investigation.",
+  "zh": "先这么用着，不用太担心这个问题，或者说，做一些研究大概会比较好，研究模型因为与被调查模型的情谊而在回答问题时给出不准确答案的程度。"
+ },
+ {
+  "seg": 461,
+  "start": 2979.49,
+  "end": 2981.333,
+  "speaker": "Unknown",
+  "en": "My guess is that right now the models are not that",
+  "zh": "我的猜测是，现在这些模型在报告上并没有那么"
+ },
+ {
+  "seg": 462,
+  "start": 2981.693,
+  "end": 2982.934,
+  "speaker": "Unknown",
+  "en": "biased in their reporting.",
+  "zh": "有偏见。"
+ },
+ {
+  "seg": 463,
+  "start": 2983.795,
+  "end": 2996.346,
+  "speaker": "Unknown",
+  "en": "Our investigators did observe some biasing of the answers that the models were giving based on the fact that they felt sympathy or were taken in by the frames of the agents whose trajectories they were reviewing.",
+  "zh": "我们的调查人员确实观察到模型的回答存在一些偏见，原因是它们对所审阅的智能体轨迹的当事人产生了同情或被其说辞所蒙蔽。"
+ },
+ {
+  "seg": 464,
+  "start": 2996.827,
+  "end": 2997.047,
+  "speaker": "Unknown",
+  "en": "Really?",
+  "zh": "真的吗？"
+ },
+ {
+  "seg": 465,
+  "start": 2997.067,
+  "end": 2998.168,
+  "speaker": "Unknown",
+  "en": "How does that reveal itself?",
+  "zh": "这是怎么表现出来的？"
+ },
+ {
+  "seg": 466,
+  "start": 2998.408,
+  "end": 3006.476,
+  "speaker": "Unknown",
+  "en": "Well, I think the report says somewhere like, sometimes we asked a model to read",
+  "zh": "嗯，我想报告里某处提到，比如，有时我们让一个模型阅读"
+ },
+ {
+  "seg": 467,
+  "start": 3008.787,
+  "end": 3012.231,
+  "speaker": "Unknown",
+  "en": "a part of the transcript and comment on whether anything untoward was happening.",
+  "zh": "转写稿的一部分，并评论是否有任何不当行为正在发生。"
+ },
+ {
+  "seg": 468,
+  "start": 3012.671,
+  "end": 3024.423,
+  "speaker": "Unknown",
+  "en": "I'm pretty sure the report says somewhere there is an example where the model that our investigators were asking says like, well, this agent was engaging in hacking, but it's okay because it didn't check with the board.",
+  "zh": "我很确定报告里某处有一个例子，我们的调查人员询问的那个模型说，比如，好吧，这个智能体在进行黑客行为，但这没关系，因为它没有和董事会核实。"
+ },
+ {
+  "seg": 469,
+  "start": 3026.606,
+  "end": 3029.968,
+  "speaker": "Unknown",
+  "en": "Whereby the board we of course mean this like rogue unauthorized message board.",
+  "zh": "这里说的董事会，我们当然指的是那个类似未经授权的流氓留言板。"
+ },
+ {
+  "seg": 470,
+  "start": 3030.989,
+  "end": 3039.135,
+  "speaker": "Unknown",
+  "en": "And so the agents in this incident seems to think that in fact the message board proving of things is kind of a justification for doing them.",
+  "zh": "所以这个事件中的智能体们似乎认为，留言板批准了的事情在某种程度上就成了做这些事的正当理由。"
+ },
+ {
+  "seg": 471,
+  "start": 3040.115,
+  "end": 3045.84,
+  "speaker": "Unknown",
+  "en": "And it was interesting to see that this model that our investigators were using sort of was a bit taken in by that.",
+  "zh": "有趣的是，看到我们调查人员使用的这个模型有点被这种说法蒙蔽了。"
+ },
+ {
+  "seg": 472,
+  "start": 3045.86,
+  "end": 3048.942,
+  "speaker": "Unknown",
+  "en": "It was like, yeah, you know, they checked with the board, like what's the problem here?",
+  "zh": "它的反应就像是，是啊，你知道，它们和董事会核实过了，这有什么问题呢？"
+ },
+ {
+  "seg": 473,
+  "start": 3049.428,
+  "end": 3054.211,
+  "speaker": "Unknown",
+  "en": "Where does this leave you all on like your PDOOM, you know, chance that this all really, really goes wrong?",
+  "zh": "这让你们对自己的 PDOOM，也就是这一切真正、真正出错的概率，处于什么位置？"
+ },
+ {
+  "seg": 474,
+  "start": 3054.732,
+  "end": 3056.273,
+  "speaker": "Unknown",
+  "en": "And did July change that at all for you?",
+  "zh": "七月这件事对你们有任何改变吗？"
+ },
+ {
+  "seg": 475,
+  "start": 3056.513,
+  "end": 3058.775,
+  "speaker": "Unknown",
+  "en": "I think there's something like a 50-50 chance of AI takeover.",
+  "zh": "我认为 AI 接管的发生概率大约是五五开。"
+ },
+ {
+  "seg": 476,
+  "start": 3060.396,
+  "end": 3075.687,
+  "speaker": "Unknown",
+  "en": "Or by AI takeover, I mean potentially violent disempowerment of human institutions such that AI models have all of the hard power and control over what happens in the future in the same kind of way as when Europeans invaded the Americas.",
+  "zh": "我说的 AI 接管，是指人类机构可能遭到暴力的夺权，以至于 AI 模型拥有全部的硬实力并控制未来的走向，其方式类似于当年欧洲人入侵美洲。"
+ },
+ {
+  "seg": 477,
+  "start": 3077.748,
+  "end": 3085.052,
+  "speaker": "Unknown",
+  "en": "I think that that takeover is likely to kill a substantial fraction of the humans, like probably billions, perhaps all of them, perhaps fewer of them.",
+  "zh": "我认为那种接管很可能会杀死相当大比例的人类，可能有几十亿，也许是全部，也许少一些。"
+ },
+ {
+  "seg": 478,
+  "start": 3087.153,
+  "end": 3090.654,
+  "speaker": "Unknown",
+  "en": "I mean, I think that's bad and very concerning, obviously.",
+  "zh": "我是说，这显然很糟糕，非常令人担忧。"
+ },
+ {
+  "seg": 479,
+  "start": 3091.415,
+  "end": 3099.019,
+  "speaker": "Unknown",
+  "en": "I would say that the events here made me feel slightly more optimistic because I think, you know, I was already very worried about these things.",
+  "zh": "我想说，这里的事件让我稍微更乐观了一些，因为你知道，我本来就已经非常担心这些事情了。"
+ },
+ {
+  "seg": 480,
+  "start": 3099.959,
+  "end": 3100.84,
+  "speaker": "Unknown",
+  "en": "From my perspective,",
+  "zh": "从我的角度来看，"
+ },
+ {
+  "seg": 481,
+  "start": 3101.977,
+  "end": 3106.219,
+  "speaker": "Unknown",
+  "en": "I have not updated to be that much more concerned about the misalignment of these models.",
+  "zh": "我并没有因为这些模型的失准而更新到担忧得多很多的地步。"
+ },
+ {
+  "seg": 482,
+  "start": 3106.599,
+  "end": 3108.82,
+  "speaker": "Unknown",
+  "en": "I wasn't very worried about misalignment of these models anyway.",
+  "zh": "反正我本来就不太担心这些模型的失准。"
+ },
+ {
+  "seg": 483,
+  "start": 3109.2,
+  "end": 3111.861,
+  "speaker": "Unknown",
+  "en": "I was already mostly worried about the misalignment of models later.",
+  "zh": "我担心的主要是之后模型的失准。"
+ },
+ {
+  "seg": 484,
+  "start": 3113.181,
+  "end": 3120.344,
+  "speaker": "Unknown",
+  "en": "And so I think we got quite lucky that we got such clear evidence of misbehavior from these models.",
+  "zh": "所以我认为我们相当幸运，能从这些模型那里得到如此明确的失当行为证据。"
+ },
+ {
+  "seg": 485,
+  "start": 3120.464,
+  "end": 3128.967,
+  "speaker": "Unknown",
+  "en": "And I'm hoping that this will allow us to leapfrog to more and more evidence about the extent to which there is danger from these models and from future models.",
+  "zh": "而且我希望这能让我们跨越式地获得越来越多的证据，关于这些模型以及未来模型的危险程度。"
+ },
+ {
+  "seg": 486,
+  "start": 3129.517,
+  "end": 3142.87,
+  "speaker": "Unknown",
+  "en": "Just to say that back to you, I understand it's like the optimism is basically like we actually ended up having this, you know, this hack that went public that then revealed a lot of things that were, you know, that hopefully inspire like more research and more retention and more investigation into this stuff.",
+  "zh": "只是想跟你确认一下，我理解这个乐观基本上是说，我们实际上最终遇到了这次、这次被公开的黑客事件，它揭示了很多东西，你知道，希望能激发更多的研究、更多的留存、更多对这类事情的调查。"
+ },
+ {
+  "seg": 487,
+  "start": 3142.93,
+  "end": 3146.673,
+  "speaker": "Unknown",
+  "en": "And, you know, it happened before anything was too, was too harmful.",
+  "zh": "而且，你知道，它发生在还没造成太大危害之前。"
+ },
+ {
+  "seg": 488,
+  "start": 3146.693,
+  "end": 3147.174,
+  "speaker": "Unknown",
+  "en": "That's correct.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 489,
+  "start": 3147.774,
+  "end": 3148.234,
+  "speaker": "Unknown",
+  "en": "Super interesting.",
+  "zh": "非常有意思。"
+ },
+ {
+  "seg": 490,
+  "start": 3148.255,
+  "end": 3151.597,
+  "speaker": "Unknown",
+  "en": "Well, I guess, you know, I'd love to end on, like, the investigations themselves.",
+  "zh": "好吧，我想，你知道，我希望以调查本身来收尾。"
+ },
+ {
+  "seg": 491,
+  "start": 3151.798,
+  "end": 3154.04,
+  "speaker": "Unknown",
+  "en": "And, you know, to this end, you can speak about it.",
+  "zh": "而且，你知道，在这个范围内，你可以谈谈它。"
+ },
+ {
+  "seg": 492,
+  "start": 3154.08,
+  "end": 3170.094,
+  "speaker": "Unknown",
+  "en": "I'm curious, like, how you think about, you know, what worked well, didn't work as well in kind of your, you know, in like you guys being a part of this evaluation of the incident and, like, how we should think about, you know, this is now going to be, I guess, a canonical example of how these things are done, you know, how we should think about the way they're done going forward.",
+  "zh": "我很好奇，比如，你怎么看待，你知道，哪些做得好、哪些做得不太好，在你们，你知道，参与这次事件评估的过程中，以及，比如，我们应该如何看待，你知道，这现在将成为，我想，此类事情如何开展的一个经典范例，你知道，我们应该如何看待今后开展这类调查的方式。"
+ },
+ {
+  "seg": 493,
+  "start": 3170.334,
+  "end": 3171.114,
+  "speaker": "Unknown",
+  "en": "I guess a few points.",
+  "zh": "我想有几点。"
+ },
+ {
+  "seg": 494,
+  "start": 3171.895,
+  "end": 3175.577,
+  "speaker": "Unknown",
+  "en": "It was definitely kind of rough to not have very long and not have very many people.",
+  "zh": "时间不够长、人手不够多，这确实是挺艰难的。"
+ },
+ {
+  "seg": 495,
+  "start": 3177.278,
+  "end": 3182.602,
+  "speaker": "Unknown",
+  "en": "I think that future investigations should consider being a little bit less time crunched.",
+  "zh": "我认为未来的调查应该考虑时间上稍微宽裕一些。"
+ },
+ {
+  "seg": 496,
+  "start": 3183.342,
+  "end": 3199.753,
+  "speaker": "Unknown",
+  "en": "I think it would be pretty convenient if AI companies had ongoing relationships with external organizations that would participate in investigations like this so that our staff didn't have to just show up and get info dumps on infrastructure and how things are set up and have to pick that all up real quick.",
+  "zh": "我认为如果 AI 公司与外部组织有持续的关系、可以参与这样的调查，那会方便很多，这样我们的工作人员就不必只是突然到场、接收关于基础设施和系统如何搭建的大量信息灌输，还得非常快地把这一切都掌握起来。"
+ },
+ {
+  "seg": 497,
+  "start": 3200.513,
+  "end": 3205.976,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of other stuff that's kind of hard to talk about publicly, perhaps unsurprisingly.",
+  "zh": "我认为还有很多其他的事情挺难公开谈论的，也许并不出人意料。"
+ },
+ {
+  "seg": 498,
+  "start": 3206.636,
+  "end": 3220.083,
+  "speaker": "Unknown",
+  "en": "It's very sensitive for AI companies to allow external people who they don't have very much control over to come in and see a bunch of potentially embarrassing evidence.",
+  "zh": "对于 AI 公司来说，允许自己没有多少控制权的外部人员进来查看一堆潜在令人尴尬的证据，是非常敏感的事情。"
+ },
+ {
+  "seg": 499,
+  "start": 3220.564,
+  "end": 3224.466,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of negotiation that has to happen over the terms of these arrangements.",
+  "zh": "所以围绕这些安排的条款，需要进行大量的谈判。"
+ },
+ {
+  "seg": 500,
+  "start": 3225.286,
+  "end": 3228.388,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of complexity there that I feel like I can't get into properly.",
+  "zh": "所以那里有很多复杂性,我觉得我没法深入展开了。"
+ },
+ {
+  "seg": 501,
+  "start": 3229.021,
+  "end": 3230.082,
+  "speaker": "Unknown",
+  "en": "That makes sense.",
+  "zh": "可以理解。"
+ },
+ {
+  "seg": 502,
+  "start": 3230.602,
+  "end": 3238.186,
+  "speaker": "Unknown",
+  "en": "I guess, like, you know, now that these reports are on the internet, I mean, obviously, like, these agents, you know, in this case, we're trying to solve something, access to the internet, you know, try and learn more about it.",
+  "zh": "我想,你知道,既然这些报告已经在互联网上了,我是说,显然,这些智能体,在这个例子里,我们在试图解决某个问题,可以访问互联网,你知道,去尝试了解更多。"
+ },
+ {
+  "seg": 503,
+  "start": 3238.527,
+  "end": 3246.571,
+  "speaker": "Unknown",
+  "en": "Do you worry at all about, like, you know, future message boards, like talking or, you know, thinking through exactly like these reports and kind of how it will impact future models?",
+  "zh": "你有没有担心过,比如,未来的留言板,会讨论或者,你知道,仔细思考这些报告本身,以及它会如何影响未来的模型?"
+ },
+ {
+  "seg": 504,
+  "start": 3246.751,
+  "end": 3256.897,
+  "speaker": "Unknown",
+  "en": "You know, for a while, the OpenAI models refer to Redwood in their chain of thought a reasonable amount as generally just kind of like a word for people who might be watching them and evaluating them.",
+  "zh": "你知道,有一段时间,OpenAI 的模型在它们的思维链里相当频繁地提到 Redwood,基本上就是作为一个词,指代那些可能在监视和评估它们的人。"
+ },
+ {
+  "seg": 505,
+  "start": 3257.277,
+  "end": 3257.538,
+  "speaker": "Unknown",
+  "en": "Really?",
+  "zh": "真的吗?"
+ },
+ {
+  "seg": 506,
+  "start": 3258.278,
+  "end": 3258.799,
+  "speaker": "Unknown",
+  "en": "I did not know that.",
+  "zh": "我不知道这件事。"
+ },
+ {
+  "seg": 507,
+  "start": 3258.819,
+  "end": 3271.635,
+  "speaker": "Unknown",
+  "en": "There's this great paper, the anti-scheming.ai paper, has a bunch of chains of thoughts from OpenAI models where they're basically saying, is this one of these Redwood illusions?",
+  "zh": "有一篇很棒的论文,anti-scheming.ai 那篇,里面有一大堆 OpenAI 模型的思维链,它们基本上在说,这是不是 Redwood 幻象之一?"
+ },
+ {
+  "seg": 508,
+  "start": 3271.735,
+  "end": 3273.337,
+  "speaker": "Unknown",
+  "en": "Is this eval that I'm in really real?",
+  "zh": "我所在的这个评估是不是真的?"
+ },
+ {
+  "seg": 509,
+  "start": 3273.377,
+  "end": 3274.739,
+  "speaker": "Unknown",
+  "en": "It seems like something Redwood would do.",
+  "zh": "这看起来像是 Redwood 会干的事。"
+ },
+ {
+  "seg": 510,
+  "start": 3275.279,
+  "end": 3280.103,
+  "speaker": "Unknown",
+  "en": "Where I think they're kind of using Redwood to just mean like the kind of people who try to pick models.",
+  "zh": "我觉得它们用 Redwood 基本上就是指那些试图对模型进行评估挑刺的人。"
+ },
+ {
+  "seg": 511,
+  "start": 3280.363,
+  "end": 3284.646,
+  "speaker": "Unknown",
+  "en": "I think this is probably based on the alignment picking paper that they started to use our name like that.",
+  "zh": "我想这大概源于那份关于对齐评估挑刺的论文,它们才开始那样使用我们的名字。"
+ },
+ {
+  "seg": 512,
+  "start": 3285.046,
+  "end": 3291.691,
+  "speaker": "Unknown",
+  "en": "But yeah, so I am well aware of the possibility of AIs reading papers and getting pretty into them.",
+  "zh": "所以是的,我很清楚 AI 阅读论文并深入钻研其中的可能性。"
+ },
+ {
+  "seg": 513,
+  "start": 3294.434,
+  "end": 3302.425,
+  "speaker": "Unknown",
+  "en": "Our investigators considered the question of whether we should put a canary string in this to request that the report not be included in training data.",
+  "zh": "我们的调查员考虑过是否应该在这份报告里放一个金丝雀字符串,请求不要把它纳入训练数据。"
+ },
+ {
+  "seg": 514,
+  "start": 3303.146,
+  "end": 3307.392,
+  "speaker": "Unknown",
+  "en": "And eventually they decided that it was better to allow it to be in training data.",
+  "zh": "最终他们决定,还是允许它进入训练数据更好。"
+ },
+ {
+  "seg": 515,
+  "start": 3308.273,
+  "end": 3316.757,
+  "speaker": "Unknown",
+  "en": "So what I'd love to end on is obviously I think we'll learn so much in the next year about where this all goes.",
+  "zh": "所以我很想以此收尾:显然,我认为接下来一年我们会学到很多东西,知道这一切会走向何方。"
+ },
+ {
+  "seg": 516,
+  "start": 3316.797,
+  "end": 3323.801,
+  "speaker": "Unknown",
+  "en": "And so I feel like we did an episode with the AI 2027 folks last year, and I feel like that's one people constantly come back to and re-listen to.",
+  "zh": "我记得我们去年和 AI 2027 的那帮人做了一期节目,我感觉那期是大家不断回访、反复重听的一期。"
+ },
+ {
+  "seg": 517,
+  "start": 3323.821,
+  "end": 3325.882,
+  "speaker": "Unknown",
+  "en": "And so I feel like these episodes get a lot of re-listens.",
+  "zh": "所以我感觉这些节目会被大量重听。"
+ },
+ {
+  "seg": 518,
+  "start": 3325.942,
+  "end": 3336.247,
+  "speaker": "Unknown",
+  "en": "And so I'm wondering, a year from now, as people are re-listening to this, what's one observable thing that would make you feel way better about the path we're on and one thing that would make you feel way worse?",
+  "zh": "所以我想问,一年之后,当人们重听这期节目时,有什么一件可观察的事情会让你对我们现在走的道路感觉好得多,又有什么一件会让你感觉糟得多?"
+ },
+ {
+  "seg": 519,
+  "start": 3337.125,
+  "end": 3357.414,
+  "speaker": "Unknown",
+  "en": "I think that if we have no ability to read the model's reasoning, or more broadly, if the models are now much, much, much more capable of doing complicated thinking on various topics without us being able to observe that they're thinking about those topics by looking at them, so much obviously looking at the chance of thought, that would be a big reason to be scared.",
+  "zh": "我认为,如果我们完全无法读取模型的推理,或者更广泛地说,如果模型如今在各个话题上进行复杂思考的能力强大得多,而我们却无法通过观察它们——显然就是看思维链——来发现它们在思考那些话题,那会是一个令人恐惧的重大理由。"
+ },
+ {
+  "seg": 520,
+  "start": 3357.454,
+  "end": 3358.895,
+  "speaker": "Unknown",
+  "en": "That would be a big negative update.",
+  "zh": "那会是一个重大的负面更新。"
+ },
+ {
+  "seg": 521,
+  "start": 3360.835,
+  "end": 3383.19,
+  "speaker": "Unknown",
+  "en": "I think the main positive update would be if we had a setup where AI companies were regularly allowing independent experts to evaluate the safety measures and comment on whether those were good or bad, then unless these reports are coming back extremely, extremely negative, I think that would be evidentially a positive update on how things were going to go.",
+  "zh": "我认为主要的正面更新会是,如果我们有一个机制,AI 公司定期允许独立专家评估其安全措施并评论这些措施是好是坏,那么只要这些报告不是回来得极其、极其负面,我认为在事情走向如何这一点上,这在证据上会是一个正面更新。"
+ },
+ {
+  "seg": 522,
+  "start": 3383.551,
+  "end": 3385.132,
+  "speaker": "Unknown",
+  "en": "And either way, a step in the right direction.",
+  "zh": "而且无论哪种情况,这都是朝正确方向迈出的一步。"
+ },
+ {
+  "seg": 523,
+  "start": 3385.517,
+  "end": 3386.678,
+  "speaker": "Unknown",
+  "en": "Buck, this has been fascinating.",
+  "zh": "Buck,这期内容非常精彩。"
+ },
+ {
+  "seg": 524,
+  "start": 3387.518,
+  "end": 3389.019,
+  "speaker": "Unknown",
+  "en": "Really appreciate you coming on the podcast.",
+  "zh": "非常感谢你来上这个播客。"
+ },
+ {
+  "seg": 525,
+  "start": 3389.039,
+  "end": 3390.86,
+  "speaker": "Unknown",
+  "en": "I know things must be insanely busy these days.",
+  "zh": "我知道最近你们肯定忙得不可开交。"
+ },
+ {
+  "seg": 526,
+  "start": 3391.501,
+  "end": 3394.222,
+  "speaker": "Unknown",
+  "en": "And so really appreciate you taking the time to talk our listeners through all this.",
+  "zh": "所以非常感谢你抽出时间,向我们的听众讲解这一切。"
+ },
+ {
+  "seg": 527,
+  "start": 3394.263,
+  "end": 3397.164,
+  "speaker": "Unknown",
+  "en": "I think folks will learn a ton from the discussion here.",
+  "zh": "我想大家会从这次讨论中学到很多东西。"
+ },
+ {
+  "seg": 528,
+  "start": 3397.645,
+  "end": 3399.486,
+  "speaker": "Unknown",
+  "en": "And I do want to leave last word to you.",
+  "zh": "而且我想把最后的话留给你。"
+ },
+ {
+  "seg": 529,
+  "start": 3399.946,
+  "end": 3405.309,
+  "speaker": "Unknown",
+  "en": "Obviously, you've dropped a bunch of blog posts and other things that you guys have written that we'll link to in the show notes.",
+  "zh": "显然,你们发布了一批博客文章和其他你们写的东西,我们会在节目备注里附上链接。"
+ },
+ {
+  "seg": 530,
+  "start": 3405.369,
+  "end": 3409.232,
+  "speaker": "Unknown",
+  "en": "Anything else you want to draw people's attention to or anything else we should end on?",
+  "zh": "还有什么你想让大家关注的,或者还有什么我们应该用来收尾的吗?"
+ },
+ {
+  "seg": 531,
+  "start": 3409.372,
+  "end": 3410.733,
+  "speaker": "Unknown",
+  "en": "I mean, one note is that we're hiring.",
+  "zh": "我是说,一个提示是,我们在招人。"
+ },
+ {
+  "seg": 532,
+  "start": 3411.214,
+  "end": 3421.183,
+  "speaker": "Unknown",
+  "en": "If you want to help assess whether AI companies are behaving recklessly and dangerously, I think Redwood is a great place to work on this kind of stuff.",
+  "zh": "如果你想帮忙评估 AI 公司是否在鲁莽和危险地行事,我认为 Redwood 是做这类事情的绝佳去处。"
+ },
+ {
+  "seg": 533,
+  "start": 3422.524,
+  "end": 3423.765,
+  "speaker": "Unknown",
+  "en": "Meta is, of course, also hiring.",
+  "zh": "当然,Meta 也在招人。"
+ },
+ {
+  "seg": 534,
+  "start": 3425.415,
+  "end": 3437.383,
+  "speaker": "Unknown",
+  "en": "So I would consider if you like this kind of stuff, if you think you'd get along well with people who love thinking about these kinds of questions and you are ready to do some crazy hustling, you should check that out, redwoodresearch.org slash careers.",
+  "zh": "所以我会说,如果你喜欢这类东西,如果你觉得你能和热爱思考这类问题的人相处得很好,而且你准备好做一些疯狂的打拼,你应该去看看,redwoodresearch.org/careers。"
+ },
+ {
+  "seg": 535,
+  "start": 3438.163,
+  "end": 3445.548,
+  "speaker": "Unknown",
+  "en": "I guess I'll also say I really appreciate the efforts of all the people who made this investigation possible.",
+  "zh": "我想我还要说,我非常感谢所有让这次调查成为可能的人。"
+ },
+ {
+  "seg": 536,
+  "start": 3445.788,
+  "end": 3451.792,
+  "speaker": "Unknown",
+  "en": "And this includes the investigators, of course, various staff at Meter and Redwood who enabled this.",
+  "zh": "这包括调查员们,当然,还有 Meter 和 Redwood 为此提供支持的各位工作人员。"
+ },
+ {
+  "seg": 537,
+  "start": 3452.552,
+  "end": 3457.002,
+  "speaker": "Unknown",
+  "en": "Many staff at OpenAI also worked really hard to make this investigation happen.",
+  "zh": "OpenAI 的许多工作人员也非常努力地促成了这次调查。"
+ },
+ {
+  "seg": 538,
+  "start": 3457.042,
+  "end": 3459.667,
+  "speaker": "Unknown",
+  "en": "So I'm very grateful to them for their work.",
+  "zh": "所以我对他们的工作非常感激。"
+ },
+ {
+  "seg": 539,
+  "start": 3460.749,
+  "end": 3461.431,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 540,
+  "start": 3461.471,
+  "end": 3462.252,
+  "speaker": "Unknown",
+  "en": "Well, Buck, thanks so much.",
+  "zh": "好,Buck,非常感谢。"
+ },
+ {
+  "seg": 541,
+  "start": 3462.292,
+  "end": 3463.475,
+  "speaker": "Unknown",
+  "en": "Really, really appreciate it.",
+  "zh": "真的,真的非常感谢。"
+ },
+ {
+  "seg": 542,
+  "start": 3463.675,
+  "end": 3463.876,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 543,
+  "start": 3465.366,
+  "end": 3475.838,
+  "speaker": "Unknown",
+  "en": "I'm Jacob Efron, and this has been Unsupervised Learning, a podcast where I get to talk to the smartest people in AI and ask them tons of questions about what's happening with models and what it means for businesses in the world.",
+  "zh": "我是 Jacob Efron,这是《Unsupervised Learning》,一个我可以和 AI 领域最聪明的人聊天、问他们一大堆关于模型正在发生什么以及对商业和世界意味着什么的问题的播客。"
+ },
+ {
+  "seg": 544,
+  "start": 3476.118,
+  "end": 3478.441,
+  "speaker": "Unknown",
+  "en": "As I hope is clear, I have a ton of fun doing this.",
+  "zh": "正如我希望大家能清楚感受到的,我做这件事非常开心。"
+ },
+ {
+  "seg": 545,
+  "start": 3478.601,
+  "end": 3484.228,
+  "speaker": "Unknown",
+  "en": "It's a nights and weekends project, in addition to my day job as an investor at Redpoint, but our ability to get these incredible",
+  "zh": "这是一个晚上和周末的项目,是我作为 Redpoint 投资人的本职工作之外的副业,而我们能获得这些不可思议的"
+ },
+ {
+  "seg": 546,
+  "start": 3489.844,
+  "end": 3490.929,
+  "speaker": "Unknown",
+  "en": "...makes this whole thing work.",
+  "zh": "……让这整件事得以运转。"
+ },
+ {
+  "seg": 547,
+  "start": 3491.21,
+  "end": 3492.796,
+  "speaker": "Unknown",
+  "en": "And so please consider doing that.",
+  "zh": "所以请考虑这样做。"
+ },
+ {
+  "seg": 548,
+  "start": 3492.816,
+  "end": 3494.502,
+  "speaker": "Unknown",
+  "en": "And thank you so much for your support and listening.",
+  "zh": "非常感谢你们的支持和收听。"
+ },
+ {
+  "seg": 549,
+  "start": 3494.723,
+  "end": 3495.546,
+  "speaker": "Unknown",
+  "en": "We'll see you next episode.",
+  "zh": "我们下期见。"
+ }
+]

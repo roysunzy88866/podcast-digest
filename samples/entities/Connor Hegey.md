@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":391,"子智能体":5,"harness":53,"提示词缓存":4,"记忆":20,"评估":3,"LLM 当裁判":9,"沙箱":71,"人在回路":18}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":397,"子智能体":5,"harness":53,"提示词缓存":4,"记忆":22,"评估":3,"LLM 当裁判":10,"沙箱":71,"人在回路":18}</script>
 
 <script>
 (function(){

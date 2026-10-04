@@ -1,0 +1,214 @@
+{
+  "title_zh": "Runway 创始人:猫视频与理解物理是一回事",
+  "tldr": "Runway 联合创始人 Anastasis 讲述从创意工具到世界模型的历程:为什么他坚信「生成猫咪视频」和「理解物理」本质是同一件事。",
+  "digest_md": "这一集的主角是 Runway 的联合创始人 Anastasis——一家做了八年视频生成模型、在 AI 行业里已经算「恐龙级」老资历的公司。他抛出的核心主张很反直觉:视频模型不只是生成好看画面的玩具,「在预测视频时,你需要以越来越强的能力去模拟这个世界」[24:26 Anastasis]——用他的原话说,「我的猫咪视频和理解物理是一样的」[31:08 Anastasis]。\n\n## 起点:把生成模型交给艺术家\n\nRunway 最初的论点很简单:随着生成模型分辨率和质量可预测地提升,「我们将需要重新思考创作工具是如何被打造的」[00:45 Anastasis]。Anastasis 自己是艺术和工程的跨界者,早年做过画廊里的模拟社交互动装置,后来和联合创始人 Chris 用 Nvidia 早期的图像到图像模型做了 Uncanny Road 项目。他们发现:拿一个只见过自动驾驶街景数据的狭窄模型,故意往「分布之外」推,反而能做出最有艺术感染力的东西——「如果你围绕它们构建有趣的工具并把它们交给艺术家,他们会做出你意想不到的事情」[04:57 Anastasis]。这几乎概括了 Runway 的公司理念。\n\n早期 Runway 其实是个后期制作工具:主打叫 Green Screen 的图像/视频分割产品,替代 VFX 行业极耗人力的逐格转描(rotoscoping),后来被用进了《瞬息全宇宙》等多部高知名度影片。\n\n## 文本生视频不是答案,控制才是\n\nGen 1(2023 年 1 月)是深度图条件化的视频到视频模型——因为直接做文本生视频太难,先把输入视频转成深度图、再生成像素是一个更容易的起点。有个有趣的插曲:Gen 2 其实是 Anastasis 的一个「周末项目」——「如果我拿一个从文本输入开始并转换成深度图的模型,然后用 Gen 1 把深度图转换成 RGB,会怎么样?」[21:19 Anastasis]这个两阶段流水线效果出奇地好,让 Gen 2 在 Gen 1 全面开放前仅两个月就发布了。而今天人们又在回归两阶段方法:Reeve 文生图模型先用 Planner 生成边界框再交给扩散模型,Ideogram 同一天也推出了同样的创新。\n\n学到的最大教训是:「文本生成视频不会是答案。人们想要比那多得多的控制力」[19:04 Anastasis]。于是 2023 年一连串控制手段快速推出:Motion Brush(画箭头指定物体运动方向)、镜头控制(描述相机如何移动)。镜头控制尤其重要——它第一次让人感觉不是在剪辑,而是在世界内部导航,这成了后来世界模型研究方向的种子。另一个行业公开的秘密是:「每一个投入生产的视频生成模型,在底层都用了一条复杂的提示词补全流水线」[22:39 Anastasis]——因为人类写提示词太糟糕,模型会先重写你的描述。\n\n## Sora 危机与 Gen3 的三个月冲刺\n\nSora 发布时,「Twitter 上有很多关于 Runway 的议论:Runway 完了。Runway 不可能追上来了」[36:44 Anastasis]。他坦承有几小时像经历了存在危机。但公司随即把模型规模和训练算力扩展了 10 倍,从零学起了模型并行(当时团队「在那方面是零专业积累」),三个月冲刺后推出了 Gen3。他回忆那是公司最大的转折点,「如果你问任何一个在那个时期待过的人,他们在 Runway 最喜欢的时光,就是那三个月左右的冲刺,做出一个比 Sora 更好的模型」[37:39 Anastasis]。几个月后他们又发布了 Turbo 版本——第一个在生产环境中使用的步数蒸馏模型。在他看来,「实时视频生成是不可避免的,它的用户体验要好得多,服务成本要低得多」[41:26 Anastasis];蒸馏方法(把多步扩散压缩成少步生成,类似把大模型压缩成小而快的版本)有两个维度——压缩模型大小,或压缩步数,而他们发现很多时候可以直接用前沿大模型做到实时。\n\n关于 LeCun「理解世界动态和生成可爱视频是完全不同的事」的批评[30:53 Anastasis],他的回应是:语言模型从勉强连贯的句子走到能自主写一整天代码,主要靠的是规模而非架构革命;他们有 PhysicsIQ 这类衡量经典力学、流体动力学的基准,「随着计算规模扩大,物理 IQ 的得分可预测地提升」——「即使仅仅靠规模扩展也能帮助模型更好地学习物理」[33:35 Anastasis]。他承认 Gen2 时代的画面确实像「几乎无法生成连贯句子的 GPT-2」——「但如果你把它扩展,从某种意义上说没有理由它不会成功」[26:20 Anastasis]。Runway 的思维方法一直是外推:看趋势,而非只看当下结果。\n\n## 接口世界模型:直接生成像素\n\n最惊艳的演示是「接口世界模型」:一个软件界面,没有任何 HTML、CSS、React 驱动,「这直接是我们实时视频生成模型的输出,它直接把点击、拖拽和滚动作为输入」[43:59 Anastasis]。理念是「为什么要生成能生成像素的代码?直接生成像素就好。这是把端到端哲学应用到前端上」[45:14 Anastasis]。你可以在提示词里直接描述交互行为——「如果我按这个按钮,就应该发生这个」——做原型、教育可视化、甚至按访客做个性化(比如放大字号做无障碍)都变得容易。终极形态是「一个全神经的操作系统」[50:26 Anastasis],并重新思考「应用程序」这个抽象本身。成本显然更高,但团队策略是先找到明显比传统界面更有说服力的场景,降本交给时间。\n\n## 意外做成了机器人领域的 SOTA\n\n更硬核的方向是机器人。因为在扩展视频模型,「我们意外地创造了一个机器人领域最先进的模型——仅仅通过扩展视频模型」[56:04 Anastasis]。GWM Robotics 从基础视频模型出发,只微调非常少量小时数的机器人数据就有相当好的表现。核心论点关乎数据来源:遥操作数据需要真硬件难规模化,第一视角数据「比世界上现存的第三人称视频数据少了三个数量级」[61:55 Anastasis],而「最丰富的视频数据来源是第三人称视频数据」[60:52 Anastasis]——正如人类学习,「我们是通过观察别人做来学习的」[61:12 Anastasis]。世界模型还解决了传统模拟器的痛点:布料、湿滑表面等复杂物理很难人工建模,而世界模型只需给环境拍一张照片就能展开策略测试。他们已验证了模型与现实之间很好的相关性(在常用的机器人基准设置下)。下一站是「世界动作模型」:给视频模型加一个动作头,生成足够精确的视频,就能反推出机械臂应有的 3D 姿态,模型本身变成策略。\n\n与纯视频模型的关键差距在反事实生成:训练数据里成功进球的视频远多于失败,所以模型更擅长生成成功;但交互式世界模型必须「生成同样逼真的结果」——不论你选哪个动作。「视频模型与世界模型之间的巨大差距,就在于反事实生成这个理念」[70:15 Anastasis]。他的思想实验:戴上 VR 头显走动、与物体互动,最后你分不清看到的是透视实拍还是实时生成——「那就说明这些模型已经变得足够好了。而我们离那一步还很远」。\n\n> 【背景】LeCun 全名 Yann LeCun,Meta 首席 AI 科学家,长期主张视频生成不足以学会世界模型,需要 JEPA 等新架构。嘉宾示范的界面世界模型、GWM 系列、以及与 NVIDIA 共同发起的开源 Cosmos Coalition(开放权重、物理基准、基础设施)都出自本集对话。\n\n对艺术圈对 AI 的抵触,他的看法是:当工具提供多达 50 个参考输入、充分可控时,「它感觉更像一个工具,而不是某种神奇的实体,会替你搞定你的整部片子」,抵触情绪因此明显缓和。创作侧的迭代重点也从质量(已大幅提升)到可控性,再到延迟——「Photoshop 是即时的」,实时模型要把这种即时魔力带回生成领域。行业争论仍很活跃:VLA 与世界动作模型之争、遥操作数据与视频数据之争、直接预测像素是否正确,而人才招聘上他们明确在扩研究、机器人(软件/硬件/研究)和市场化团队。\n\n## 本集带走\n\n- **看趋势不看快照**:Runway 的方法是把当前结果外推——Gen2 之粗糙好比「只能生成勉强连贯句子的 GPT-2」,但缩放定律成立时,没有理由它不会成功。\n- **控制力比一次成型重要**:纯文本生视频已被证明不是产品答案;相机轨迹、初始帧、参考图、多达 50 个参考输入才是让电影人真正可用、也让公众抵触降温的关键。\n- **脚手架终将被吸收进模型**:从思维链提示到多镜头视频生成,「需要外部 harness 做的事,最终会被注入模型本身端到端学习」。\n- **视频模型到世界模型差在反事实**:不仅要会生成「成功进球」,还要同样逼真地生成「失败」——这对评估和在线 RL 都必不可少。\n- **数据生态位决定胜负**:机器人领域第三人称视频比第一视角数据多三个数量级,预训练看视频、少量机器人数据微调,就能得到可用的操作策略。\n- **前端的端到端时刻可能来了**:界面不必经代码再渲染像素,直接由实时视频模型按点击/拖拽/滚动生成——原型、教育、个性化是新入口,成本是主要待解项。",
+  "quotes": [
+    {
+      "en": "we will need as a result of those generative models rethink how creative tools are made.",
+      "zh": "作为那些生成模型的结果,我们将需要重新思考创作工具是如何被打造的。",
+      "timestamp": "00:44",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "if you build interesting tools around them and you give them to artists, they're going to do things that you don't expect.",
+      "zh": "如果你围绕这些模型构建有趣的工具并把它们交给艺术家,他们会做出你意想不到的事情。",
+      "timestamp": "04:57",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "we really believe that if we trained a video model at the large scale, we would get a great model at the end.",
+      "zh": "我们真的相信,如果我们大规模训练一个视频模型,最后我们会得到一个很棒的模型。",
+      "timestamp": "08:53",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "text-to-video was not going to be the answer. People wanted a lot more control than that.",
+      "zh": "文本生成视频不会是答案。人们想要比那多得多的控制力。",
+      "timestamp": "19:05",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "every single video generation model in production uses a complex prompt completion pipeline under the hood.",
+      "zh": "每一个投入生产的视频生成模型,在底层都用了一条复杂的提示词补全流水线。",
+      "timestamp": "22:39",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "Similar Gen2 can barely create coherent video, but if you scale it up, there is no reason why it shouldn't work in a way.",
+      "zh": "类似地,Gen2 几乎无法创建连贯的视频,但如果你把它扩展,从某种意义上说没有理由它不会成功。",
+      "timestamp": "26:20",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "We're constantly underestimating all the complexity that goes into things that we do subconsciously as humans",
+      "zh": "我们一直在低估那些我们作为人类下意识所做的事情背后包含的复杂性",
+      "timestamp": "29:09",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "understanding the dynamics of the world is very different than generating cute videos.",
+      "zh": "理解世界的动态和生成可爱的视频是非常不同的事情。",
+      "timestamp": "31:00",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "Runway's done. There is no way Runway will catch up.",
+      "zh": "Runway 完了。Runway 不可能追上来了。",
+      "timestamp": "36:44",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "To me, real-time video generation is just inevitable that it has much better user experience.",
+      "zh": "对我来说,实时视频生成是不可避免的,它的用户体验要好得多。",
+      "timestamp": "41:26",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "Why generate the code that generates the pixels? Just generate the pixels directly.",
+      "zh": "为什么要生成能生成像素的代码?直接生成像素就好。",
+      "timestamp": "45:14",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "the end game of something like interface world models is you have a fully neural operating system.",
+      "zh": "像界面世界模型这类东西的终极形态,就是你会拥有一个全神经的操作系统。",
+      "timestamp": "50:26",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "we accidentally created a state of the art model for robotics. By just scaling video models.",
+      "zh": "我们意外地创造了一个机器人领域最先进的模型——仅仅通过扩展视频模型。",
+      "timestamp": "56:05",
+      "speaker": "Anastasis"
+    },
+    {
+      "en": "the big gap between video models and world models is that idea of the counterfactual generation.",
+      "zh": "视频模型与世界模型之间的巨大差距,就在于反事实生成这个理念。",
+      "timestamp": "70:15",
+      "speaker": "Anastasis"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:45",
+      "speaker": "Anastasis",
+      "en": "we will need as a result of those generative models rethink how creative tools are made.",
+      "zh": "作为那些生成模型的结果,我们将需要重新思考创作工具是如何被打造的。"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Anastasis",
+      "en": "if you build interesting tools around them and you give them to artists, they're going to do things that you don't expect.",
+      "zh": "如果你围绕这些模型构建有趣的工具并把它们交给艺术家,他们会做出你意想不到的事情。"
+    },
+    {
+      "timestamp": "08:53",
+      "speaker": "Anastasis",
+      "en": "we really believe that if we trained a video model at the large scale, we would get a great model at the end.",
+      "zh": "我们真的相信,如果我们大规模训练一个视频模型,最后我们会得到一个很棒的模型。"
+    },
+    {
+      "timestamp": "19:04",
+      "speaker": "Anastasis",
+      "en": "text-to-video was not going to be the answer. People wanted a lot more control than that.",
+      "zh": "文本生成视频不会是答案。人们想要比那多得多的控制力。"
+    },
+    {
+      "timestamp": "21:19",
+      "speaker": "Anastasis",
+      "en": "what if I take a model that starts from text input and converts to depth maps, and then use Gen 1 to convert the depth maps into RGB?",
+      "zh": "如果我拿一个从文本输入开始并转换成深度图的模型,然后用 Gen 1 把深度图转换成 RGB,会怎么样?"
+    },
+    {
+      "timestamp": "22:39",
+      "speaker": "Anastasis",
+      "en": "every single video generation model in production uses a complex prompt completion pipeline under the hood.",
+      "zh": "每一个投入生产的视频生成模型,在底层都用了一条复杂的提示词补全流水线。"
+    },
+    {
+      "timestamp": "24:26",
+      "speaker": "Anastasis",
+      "en": "you need to simulate the world in an increasing and increasing capacity.",
+      "zh": "你需要以越来越强的能力去模拟这个世界。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Anastasis",
+      "en": "Similar Gen2 can barely create coherent video, but if you scale it up, there is no reason why it shouldn't work in a way.",
+      "zh": "类似地,Gen2 几乎无法创建连贯的视频,但如果你把它扩展,从某种意义上说没有理由它不会成功。"
+    },
+    {
+      "timestamp": "29:09",
+      "speaker": "Anastasis",
+      "en": "We're constantly underestimating all the complexity that goes into things that we do subconsciously as humans",
+      "zh": "我们一直在低估那些我们作为人类下意识所做的事情背后包含的复杂性"
+    },
+    {
+      "timestamp": "30:53",
+      "speaker": "Anastasis",
+      "en": "understanding the dynamics of the world is very different than generating cute videos.",
+      "zh": "理解世界的动态和生成可爱的视频是非常不同的事情。"
+    },
+    {
+      "timestamp": "31:08",
+      "speaker": "Anastasis",
+      "en": "My cat videos are the same as understanding physics.",
+      "zh": "我的猫咪视频和理解物理是一样的。"
+    },
+    {
+      "timestamp": "36:44",
+      "speaker": "Anastasis",
+      "en": "Runway's done. There is no way Runway will catch up.",
+      "zh": "Runway 完了。Runway 不可能追上来了。"
+    },
+    {
+      "timestamp": "37:39",
+      "speaker": "Anastasis",
+      "en": "it was that push in like three months to get to a model better than Sora.",
+      "zh": "那就是那三个月左右的冲刺,做出一个比 Sora 更好的模型。"
+    },
+    {
+      "timestamp": "41:26",
+      "speaker": "Anastasis",
+      "en": "To me, real-time video generation is just inevitable that it has much better user experience.",
+      "zh": "对我来说,实时视频生成是不可避免的,它的用户体验要好得多。"
+    },
+    {
+      "timestamp": "45:14",
+      "speaker": "Anastasis",
+      "en": "Why generate the code that generates the pixels? Just generate the pixels directly.",
+      "zh": "为什么要生成能生成像素的代码?直接生成像素就好。"
+    },
+    {
+      "timestamp": "50:26",
+      "speaker": "Anastasis",
+      "en": "the end game of something like interface world models is you have a fully neural operating system.",
+      "zh": "像界面世界模型这类东西的终极形态,就是你会拥有一个全神经的操作系统。"
+    },
+    {
+      "timestamp": "56:04",
+      "speaker": "Anastasis",
+      "en": "we accidentally created a state of the art model for robotics. By just scaling video models.",
+      "zh": "我们意外地创造了一个机器人领域最先进的模型——仅仅通过扩展视频模型。"
+    },
+    {
+      "timestamp": "60:52",
+      "speaker": "Anastasis",
+      "en": "the most plentiful source of video data is third-person video data.",
+      "zh": "最丰富的视频数据来源是第三人称视频数据。"
+    },
+    {
+      "timestamp": "61:12",
+      "speaker": "Anastasis",
+      "en": "we learn by watching other people do it.",
+      "zh": "我们是通过观察别人做来学习的。"
+    },
+    {
+      "timestamp": "70:15",
+      "speaker": "Anastasis",
+      "en": "the big gap between video models and world models is that idea of the counterfactual generation.",
+      "zh": "视频模型与世界模型之间的巨大差距,就在于反事实生成这个理念。"
+    }
+  ],
+  "voice_script": "今天这一期,主角是 Runway 的联合创始人 Anastasis。Runway 这家公司做了八年视频生成模型,放在 AI 行业里已经算是恐龙级的老资历了。这一集聊的问题听起来有点玄:做视频生成模型,跟理解物理世界,到底是不是两码事?很多人觉得,模型生成的猫视频再好看,也只是玩具。但 Anastasis 的主张恰恰相反,原话说得非常直白:我的猫咪视频和理解物理是一样的。为什么这么说?这得从头讲起。\n\nRunway 最早的论点其实很简单。生成模型的分辨率和质量,是可以预测地持续提升的。既然如此,我们将需要重新思考创作工具是如何被打造的。Anastasis 本人就是艺术和工程的跨界者,早年做过画廊里的模拟社交互动装置。后来跟联合创始人 Chris 一起,用 Nvidia 早期的图像到图像模型做了个叫 Uncanny Road 的项目。他们发现一个有意思的现象:拿一个只见过自动驾驶街景数据的狭窄模型,故意往分布之外推,反而能做出最有艺术感染力的东西。由此得出公司理念:如果你围绕这些模型构建有趣的工具,把它们交给艺术家,艺术家会做出你意想不到的事情。\n\n那具体做什么产品呢?早期 Runway 是个后期制作工具,主打一款叫 Green Screen 的图像视频分割产品,用来替代影视特效行业极耗人力的逐格转描。后来这款技术被用进了《瞬息全宇宙》等多部知名影片。工具有了,接下来要做真正的生成模型。为什么第一代产品不是直接从文字生成视频?因为那太难了。团队退了一步:先把输入视频转成深度图,再从深度图生成像素,这是个更容易的起点。还有个有趣的插曲——第二代模型 Gen 2,最初其实是 Anastasis 的一个周末项目。想法是:拿一个从文本转换成深度图的模型,再用第一代把深度图转成 RGB,会怎么样?这个两阶段流水线效果出奇地好,结果第二代产品在第一代全面开放前仅仅两个月就发布了。有意思的是,行业今天又在回归两阶段方法,Reeve 文生图模型先用 Planner 生成边界框再交给扩散模型,Ideogram 同一天也推出了同样的创新。\n\n不过这一路学到的最大教训是:文本生成视频不会是答案,人们想要比那多得多的控制力。于是 2023 年一连串控制手段快速推出,比如 Motion Brush,画个箭头就能指定物体往哪儿动;再比如镜头控制,用文字描述相机怎么移动。镜头控制尤其重要——它第一次让人感觉不是在剪辑,而是在世界内部导航。这个词听着可能有点抽象,但它成了后来世界模型研究方向的种子。还有一个行业公开的秘密:每一个投入生产的视频生成模型,在底层都用了一条复杂的提示词补全流水线。原因很简单,人类写提示词太糟糕,所以模型会先把你的描述重写一遍。\n\n接下来是这场故事里最戏剧性的一段。Sora 发布的时候,Twitter 上很多议论说,Runway 完了,不可能追上来了。Anastasis 坦承,有几小时像经历了存在危机。但公司随即把模型规模和训练算力扩展了十倍,从零学起模型并行——当时团队在这方面是零专业积累。三个月冲刺之后,第三代模型 Gen 3 推出。这段经历后来成了公司最大的转折点,而且如果你问任何一个在那段时期待过的人,他们在 Runway 最喜欢的时光,就是那三个月,做出一个比 Sora 更好的模型。几个月后又发布了 Turbo 版本,那是第一个在生产环境中使用的步数蒸馏模型。所谓蒸馏,就是把多步扩散压缩成少步生成,类似把大模型压缩成小而快的版本。在 Anastasis 看来,实时视频生成是不可避免的,用户体验好得多,服务成本也低得多。\n\n说到这儿,就得正面回应一个著名的批评了。Meta 首席 AI 科学家 LeCun 长期主张:理解世界动态和生成可爱视频,是完全不同的事,光靠视频生成学不会世界模型。Anastasis 的回应是什么呢?回顾语言模型的历史,从勉强连贯的句子,走到能自主写一整天代码,主要靠的是规模,而不是架构革命。Runway 有一个叫 PhysicsIQ 的基准,专门衡量模型对经典力学、流体力学的理解,结果发现,随着计算规模扩大,物理 IQ 的得分可预测地提升。也就是说,即使仅仅靠规模扩展,也能帮助模型更好地学习物理。承认第二代模型的画面确实粗糙,好比几乎无法生成连贯句子的 GPT-2——但如果你把它扩展,从某种意义上说,没有理由它不会成功。Runway 的思维方法一直是外推:看趋势,而不是只看当下的快照。\n\n这条线再往前推一步,就到了这一集最惊艳的演示:接口世界模型。一个软件界面,背后没有任何 HTML、CSS、React 驱动,直接就是实时视频生成模型的输出,把点击、拖拽、滚动作为输入。理念是:为什么要生成能生成像素的代码?直接生成像素就好,这是把端到端哲学应用到前端上。你可以直接在提示词里描述交互行为,比如按这个按钮就应该发生什么。做原型、教育可视化、甚至按访客做个性化,比如放大字号做无障碍,都变得容易。终极形态是一个全神经的操作系统,重新思考应用程序这个抽象本身。成本显然更高,但策略是先找到明显比传统界面更有说服力的场景,降本交给时间。\n\n而更硬核的方向是机器人。因为在扩展视频模型,团队意外地创造了一个机器人领域最先进的模型——仅仅通过扩展视频模型。这个 GWM Robotics 从基础视频模型出发,只微调非常少量小时数的机器人数据,就有相当好的表现。核心论点关乎数据来源:遥操作数据需要真硬件,难规模化;第一视角数据比世界上现存的第三人称视频数据少了三个数量级;而最丰富的视频数据来源,恰恰是第三人称视频。就像人类学习,我们是通过观察别人做来学习的。世界模型还解决了传统模拟器的痛点:布料、湿滑表面这类复杂物理很难人工建模,而世界模型只需给环境拍一张照片,就能展开策略测试。下一站是世界动作模型:给视频模型加一个动作头,生成足够精确的视频,就能反推出机械臂应有的三维姿态,模型本身就变成了策略。\n\n那从视频模型到真正的世界模型,还差什么呢?差在反事实生成。训练数据里,成功进球的视频远多于失败,所以模型更擅长生成成功;但交互式世界模型必须同样逼真地生成失败——不论你选哪个动作。视频模型与世界模型之间的巨大差距,就在于反事实生成这个理念。Anastasis 有个思想实验:戴上 VR 头显走动、与物体互动,最后你分不清看到的是透视实拍还是实时生成,那就说明这些模型已经足够好了。而我们离那一步还很远。\n\n回头看,这一集真正的主线其实是一句话:别急着给眼前的模型下结论,要看趋势,而不是看快照。正如 Anastasis 说的——猫咪视频和理解物理,是同一件事。"
+}

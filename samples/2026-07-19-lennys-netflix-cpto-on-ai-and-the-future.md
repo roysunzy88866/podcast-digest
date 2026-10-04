@@ -158,7 +158,7 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同概念:智能体 (agents)、系统思维 (systems thinking)</span>
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agents)</span>
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同概念:智能体 (agents)、护栏 (guardrails)</span>
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agents)</span>
 
 </div>
 </div>

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Liam Dunne]] · [[Ben Moore]] · [[Discover Labs]] · [[Reddit]] · [[ChatGPT]] · [[Google]] · [[YouTube]] · [[SEO]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":9,"Chris Benson":10,"Liam Dunne":1,"Ben Moore":1,"Discover Labs":1,"Reddit":7,"ChatGPT":89,"Google":55,"YouTube":8,"SEO":7}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":9,"Chris Benson":10,"Liam Dunne":1,"Ben Moore":1,"Discover Labs":1,"Reddit":7,"ChatGPT":92,"Google":55,"YouTube":8,"SEO":7}</script>
 
 <script>
 (function(){

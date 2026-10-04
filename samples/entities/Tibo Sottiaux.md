@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Tibo Sottiaux</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Tibo Sottiaux">TI</div><div class="pi"><h1 class="pt">Tibo Sottiaux</h1><div class="byl">The Pragmatic Engineer 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Tibo Sottiaux">TI</div><div class="pi"><h1 class="pt">Tibo Sottiaux</h1><div class="byl">The Pragmatic Engineer 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*9 条*
+*17 条*
 
 ![[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux#^q1]]
 
@@ -31,27 +31,44 @@ unlisted: true
 
 ![[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux#^q9]]
 
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q1]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q2]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q3]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q4]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q5]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q6]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q7]]
+
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q8]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为主持
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[ChatGPT work]] · [[harness]] · [[智能体]] · [[Rust]] · [[开源]] · [[沙箱]] · [[代码审查]]
+[[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[护栏]] · [[ChatGPT work]] · [[Dots]] · [[harness]] · [[Notion]] · [[Rust]]
 
-## ④ 也在聊「AI 编程」的人
+## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":73,"OpenAI":151,"ChatGPT":89,"ChatGPT work":1,"harness":53,"智能体":391,"Rust":5,"开源":32,"沙箱":71,"代码审查":23}</script>
+<script type="application/json" class="pd-epn">{"Codex":76,"OpenAI":155,"ChatGPT":92,"智能体":397,"护栏":75,"ChatGPT work":1,"Dots":2,"harness":53,"Notion":15,"Rust":5}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":1,"AppLovin":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":19,"AI":27,"品味":15,"ChatGPT":89}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"AppLovin":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":21,"AI":27,"品味":15,"ChatGPT":92}</script>
 
 <script>
 (function(){

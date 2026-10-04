@@ -222,14 +222,45 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1
   },
+  "redoDone": {
+    "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
+    "2026-10-01-sourcery-inside-oak-hcfts-1m-to-100m-check-strate": "feed 里已找不到",
+    "2026-10-01-mad-why-ai-agents-cheat--eric-ho-goodfire-e3": "feed 里已找不到",
+    "2026-09-30-twist-justin-kan-brian-chesky-the-rejections-t": "已由新 id 2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t 处理",
+    "2026-09-17-doac-ai-debate-ed-zitron-andrew-mcafee-nate-s": "feed 里已找不到",
+    "2026-09-16-twiml-from-voice-agents-to-ai-avatars-with-ale": "已由新 id 2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale 处理",
+    "2026-09-03-doac-andrew-huberman-stop-wasting-money-on-ba": "feed 里已找不到",
+    "2026-09-02-beyondcoding-niantic-spatial-cto-how-the-best-enginee": "feed 里已找不到",
+    "2026-09-01-knowledge-steve-jobs-in-exile": "feed 里已找不到",
+    "2026-08-25-twiml-why-the-next-ai-breakthrough-may-come-fr": "已由新 id 2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr 处理",
+    "2026-08-23-lennys-how-to-close-100k-1m-deals-step-by": "feed 里已找不到",
+    "2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with": "2026-10-04",
+    "2026-10-02-latent-rlm": "2026-10-04",
+    "2026-10-02-doac-most-replayed-moment-i-met-an-uncontacte": "2026-10-04",
+    "2026-10-01-dwarkesh-si-sheppard": "2026-10-04",
+    "2026-09-30-lennys-openai-dev-day-2026-the-releases": "2026-10-04",
+    "2026-09-30-latent-devday-2026": "2026-10-04",
+    "2026-10-01-mad-ai-models-are-now-hiding-their-cheating": "feed 里已找不到",
+    "2026-10-03-twist-inside-the-startup-building-uncensored-a": "2026-10-05",
+    "2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you": "2026-10-05",
+    "2026-10-01-deepmind-from-deepfakes-to-dna-the-science-of-wat": "2026-10-05",
+    "2026-09-30-sourcery-the-500b-opportunity-in-europes-defense": "2026-10-05",
+    "2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in": "2026-10-05",
+    "2026-09-29-cogrev-obsolete-or-irreplaceable-garrison-lovel": "2026-10-05",
+    "2026-09-26-cogrev-what-is-utopia-presenting-the-receipt-ho": "2026-10-05",
+    "2026-09-25-latent-runway": "2026-10-05",
+    "2026-09-23-latent-bio-security-is-an-ai-arms-race-eric": "2026-10-05",
+    "2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model": "2026-10-05",
+    "2026-09-22-lennys-i-left-claude-for-months-opus-55": "2026-10-05"
+  },
   "cutoffs": {
-    "lennys": "2026-09-30T14:45:15.000Z",
+    "lennys": "2026-10-04T12:32:47.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
     "a16z": "2026-10-04T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-01T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
-    "bigtech": "2026-09-30T15:49:00.000Z",
+    "bigtech": "2026-10-02T21:59:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-10-02T10:00:00.000Z",
     "thepeel": "2026-10-01T15:43:48.000Z",
@@ -247,9 +278,9 @@
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-09-30T14:48:23.000Z",
-    "unsupervised": "2026-08-03T12:55:21.000Z",
+    "unsupervised": "2026-09-03T13:03:11.000Z",
     "twiml": "2026-09-29T21:56:00.000Z",
-    "eyeonai": "2026-09-30T12:33:00.000Z",
+    "eyeonai": "2026-10-02T15:21:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-09-28T09:00:00.000Z",
@@ -904,25 +935,36 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "OpenAI Dev Day 2026: The releases that actually matter",
       "pubDate": "2026-09-30T14:45:15.000Z"
+    },
+    {
+      "id": "2026-10-01-deepmind-from-deepfakes-to-dna-the-science-of-wat",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "From deepfakes to DNA: the science of watermarking AI",
+      "pubDate": "2026-10-01T16:38:11.000Z"
+    },
+    {
+      "id": "2026-09-30-sourcery-the-500b-opportunity-in-europes-defense",
+      "reason": "题材不对味:欧洲防务建设属传统行业/非 AI 科技泛话题",
+      "title": "The $500B Opportunity in Europe’s Defense Buildout",
+      "pubDate": "2026-09-30T11:03:31.000Z"
+    },
+    {
+      "id": "2026-09-29-cogrev-obsolete-or-irreplaceable-garrison-lovel",
+      "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Obsolete or Irreplaceable? Garrison Lovely on Stopping the Race to Replace Human Labor",
+      "pubDate": "2026-09-29T06:42:35.000Z"
+    },
+    {
+      "id": "2026-09-26-cogrev-what-is-utopia-presenting-the-receipt-ho",
+      "reason": "超长集:估 329 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "What is Utopia?  Presenting The Receipt Horizon, by Joel Borgen – Chapters 1–4",
+      "pubDate": "2026-09-26T11:34:09.000Z"
+    },
+    {
+      "id": "2026-09-23-latent-bio-security-is-an-ai-arms-race-eric",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "pubDate": "2026-09-23T13:27:18.000Z"
     }
-  ],
-  "redoDone": {
-    "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
-    "2026-10-01-sourcery-inside-oak-hcfts-1m-to-100m-check-strate": "feed 里已找不到",
-    "2026-10-01-mad-why-ai-agents-cheat--eric-ho-goodfire-e3": "feed 里已找不到",
-    "2026-09-30-twist-justin-kan-brian-chesky-the-rejections-t": "已由新 id 2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t 处理",
-    "2026-09-17-doac-ai-debate-ed-zitron-andrew-mcafee-nate-s": "feed 里已找不到",
-    "2026-09-16-twiml-from-voice-agents-to-ai-avatars-with-ale": "已由新 id 2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale 处理",
-    "2026-09-03-doac-andrew-huberman-stop-wasting-money-on-ba": "feed 里已找不到",
-    "2026-09-02-beyondcoding-niantic-spatial-cto-how-the-best-enginee": "feed 里已找不到",
-    "2026-09-01-knowledge-steve-jobs-in-exile": "feed 里已找不到",
-    "2026-08-25-twiml-why-the-next-ai-breakthrough-may-come-fr": "已由新 id 2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr 处理",
-    "2026-08-23-lennys-how-to-close-100k-1m-deals-step-by": "feed 里已找不到",
-    "2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with": "2026-10-04",
-    "2026-10-02-latent-rlm": "2026-10-04",
-    "2026-10-02-doac-most-replayed-moment-i-met-an-uncontacte": "2026-10-04",
-    "2026-10-01-dwarkesh-si-sheppard": "2026-10-04",
-    "2026-09-30-lennys-openai-dev-day-2026-the-releases": "2026-10-04",
-    "2026-09-30-latent-devday-2026": "2026-10-04"
-  }
+  ]
 }

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":18,"SpaceX":19,"NVIDIA":52,"发射成本":1,"H100":1,"基准测试":16,"相变材料":1,"辐射":1,"McKinsey":6}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":19,"SpaceX":19,"NVIDIA":53,"发射成本":1,"H100":1,"基准测试":16,"相变材料":1,"辐射":1,"McKinsey":6}</script>
 
 <script>
 (function(){

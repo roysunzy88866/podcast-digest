@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":34,"HubSpot":9,"CRM":6,"记录系统":6,"产品市场契合":23,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":34,"HubSpot":9,"CRM":6,"记录系统":6,"产品市场契合":24,"NDR":1,"发布视频":1,"ICP":3}</script>
 
 <script>
 (function(){

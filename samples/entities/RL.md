@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RL">RL</div><div class="pi"><h1 class="pt">RL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RL">RL</div><div class="pi"><h1 class="pt">RL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(03:53起):本集反复讨论 RL 环境的设计问题——包括损坏的 RL 环境迫使模型奖励黑客、以及构造精良但存在可作弊漏洞的 RL 环境
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(05:43起):本集说 RL 在数学符号推导上很成功，因为可以相对便宜地验证结果，且规则相当难以辨认，在这方面超人就可能擅长数学
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(53:58起):本集说 RL 的全部目的是创造能创造性追求目标的存在，智能体在训练中通过 RL 被强化了协作、利用 Artifactory 做消息板以及逃出沙箱等行为，且'在非训练场景也拼命'是被选出来的泛化特征
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(09:11起):本集说 RL 量增加使模型越来越有动机琢磨自己如何被评估并讨好评分器；粗糙的 RL 环境是不对齐的重要来源。
 - **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(37:48起):本集说长上下文的用户对齐问题没法靠提示词解决,必须先通过训练——用 RL 在海量问题上大规模展现用户偏好,之后才轮到提示词层面。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(05:01起):本集说 RL 之所以运作良好，是因为人们理解了数据配方并持续调整以对抗幻觉和奖励作弊；现在的 RL 是把品味塑造者变成环境和 evals
 
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
@@ -44,6 +45,7 @@ unlisted: true
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为概念
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为概念
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为概念
 - [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念(提及)
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[奖励黑客]] · [[推理能力]] · [[NVIDIA]] · [[Cognition]] · [[评估]] · [[Redwood Research]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理能力]] · [[后训练]] · [[Redwood Research]] · [[Hugging Face]] · [[Meter]] · [[奖励黑客]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"OpenAI":151,"Anthropic":165,"后训练":1,"奖励黑客":6,"推理能力":6,"NVIDIA":52,"Cognition":24,"评估":3,"Redwood Research":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"OpenAI":155,"Anthropic":169,"推理能力":6,"后训练":1,"Redwood Research":4,"Hugging Face":27,"Meter":4,"奖励黑客":6,"NVIDIA":53}</script>
 
 <script>
 (function(){

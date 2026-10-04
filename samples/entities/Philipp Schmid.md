@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":391,"沙箱":71,"harness":53,"函数调用":1,"上下文窗口":13,"评估":3,"JSON schema":1,"Gemini":12,"Google":55,"Cursor":78}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"沙箱":71,"harness":53,"函数调用":1,"上下文窗口":13,"评估":3,"JSON schema":1,"Gemini":12,"Google":55,"Cursor":78}</script>
 
 <script>
 (function(){

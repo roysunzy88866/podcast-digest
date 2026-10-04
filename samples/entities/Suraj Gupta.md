@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":5,"智能体":391,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":9,"分诊智能体":1,"Claude Code":93,"Codex":73}</script>
+<script type="application/json" class="pd-epn">{"Warp":5,"智能体":397,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":9,"分诊智能体":1,"Claude Code":93,"Codex":76}</script>
 
 <script>
 (function(){

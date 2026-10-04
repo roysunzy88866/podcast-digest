@@ -137,8 +137,8 @@ AI 带来的生产力提升，恰恰出现在入门级就业开始萎缩的那�
 **换个口味**
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:开源模型 (open models)、护栏 (guardrails)</span>
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」]]<span class="pd-rz">同概念:前沿模型 (frontier models)、护栏 (guardrails)</span>
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:前沿模型 (frontier models)</span>
-- [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]]<span class="pd-rz">同概念:前沿模型 (frontier models)</span>
 
 </div>
 </div>

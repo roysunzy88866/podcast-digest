@@ -118,7 +118,7 @@ X12 是医疗保险行业的电子数据交换标准——一套规则体系，�
 
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈]]<span class="pd-rz">同概念:harness（护栏装置） (harness)、护栏 (guardrails)、智能体 (agent)、记忆 (memory)、Codex</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:harness（护栏装置） (harness)、智能体 (agent)、记忆 (memory)、Claude Code、护栏 (guardrails)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:harness（护栏装置） (harness)、护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、记忆 (memory)、Codex</span>
 
 </div>
 <div class="pd-ex">

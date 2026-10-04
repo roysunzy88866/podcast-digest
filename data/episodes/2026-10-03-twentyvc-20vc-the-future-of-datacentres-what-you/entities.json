@@ -1,0 +1,1568 @@
+{
+  "episode_id": "2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 基础设施",
+    "数据中心",
+    "能源",
+    "垂直整合",
+    "推理"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "chase-lochmiller",
+      "type": "person",
+      "role": "host",
+      "name": "Chase Lochmiller",
+      "file": "Chase Lochmiller",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            45.796,
+            56.932
+          ],
+          "quote": "Right now, we are in a race for data centers, for compute capacity, for energy, and there is not a more pertinent guest that could join me in the hot seat today than Chase Lochmiller from Crusoe Energy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            40.068,
+            41.811
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crusoe",
+      "type": "company",
+      "role": "company",
+      "name": "Crusoe",
+      "file": "Crusoe",
+      "primary": true,
+      "how_described": "本集主角公司:造「AI 工厂」的垂直整合基础设施公司,完成 39 亿美元 F 轮、估值 309 亿美元,卖数据中心、GPU 和 token 三样东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            45.796,
+            56.932
+          ],
+          "quote": "Right now, we are in a race for data centers, for compute capacity, for energy, and there is not a more pertinent guest that could join me in the hot seat today than Chase Lochmiller from Crusoe Energy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            301.591,
+            305.456
+          ],
+          "quote": "We've actually ingrained mountaineering into the culture of Crusoe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            400.74,
+            406.704
+          ],
+          "quote": "We try to practice that safety culture here at Crusoe and really try to avoid any sort of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            539.567,
+            547.069
+          ],
+          "quote": "And that was kind of like the emergence of Crusoe sort of came through that chapter of difficulty and challenge of just nothingness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            563.162,
+            569.608
+          ],
+          "quote": "How do you think starting Crusoe with a little bit of money and success already changed how you think about building it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            847.07,
+            853.892
+          ],
+          "quote": "But we had launched the Crusoe Cloud Platform in early 2022 with our first set of paying customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1060.113,
+            1066.519
+          ],
+          "quote": "If we start on data centers, we then have Crusoe Cloud, managed inference, energy kind of runs throughout it all, so I'll kind of pick that apart too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2023.411,
+            2036.364
+          ],
+          "quote": "So things like Crusoe Managed Inference, things like our serverless fine tuning product that actually helps people, that's more of a developer tool that ultimately enables developers to, you know, fine tune some of these",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2052.27,
+            2056.891
+          ],
+          "quote": "Those contracts are typically much shorter term in nature, and they end up being higher margin to Crusoe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2065.055,
+            2076.224
+          ],
+          "quote": "So one of the analogies I've used in the past is when we think about Crusoe and sort of our vertically integrated strategy, there's really like three products that we ultimately sell to customers where we're making money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2122.217,
+            2128.839
+          ],
+          "quote": "Well, what Crusoe's focused on doing is what we believe the opportunity is, is to build an AI super major, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2489.415,
+            2506.842
+          ],
+          "quote": "One of the things that Crusoe's focused on is actually trying to reduce that time to token or time to delivery of a managed cluster of GPUs by actually deploying small modular manufactured AI data centers that can deliver more just-in-time AI infrastructure, particularly for smaller clusters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2861.545,
+            2866.367
+          ],
+          "quote": "Look, I think there are multiple layers across the stack that Crusoe competes with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3330.688,
+            3333.229
+          ],
+          "quote": "Will Crusoe be public by the end of 2028?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3404.676,
+            3410.843
+          ],
+          "quote": "What would the chase of 2018 find most unbelievable about the Crusoe of today?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3463.714,
+            3475.318
+          ],
+          "quote": "And today, Crusoe's approaching 2,000 people, which is just like, even when I say it, it sounds like an insane number of people that have bet these ultra productive years of their career on Crusoe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "Crusoe 的长期合作伙伴,Chase 通过看它的芯片路线图(150/200 瓦到 600 瓦)判断功率密度上升会改变数据中心形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            966.385,
+            970.906
+          ],
+          "quote": "And we're long term partners of NVIDIA and we'd been working with NVIDIA and I was looking with them at the roadmap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2448.221,
+            2457.134
+          ],
+          "quote": "I spoke to Lee Jacobs before, and he was talking to me about the risk mindset that you had to ordering millions of dollars of GPUs from NVIDIA well before it was cool, as he put it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "2022 年 11 月 30 日的发布被 Chase 称为「改变一切的时刻」,让他确信对 AI 算力基础设施的需求会大得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            864.278,
+            873.824
+          ],
+          "quote": "So we finally launched in early 2022, but the moment that changed everything was obviously November 30th, 2022, the launch of ChatGPT, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            907.178,
+            914.705
+          ],
+          "quote": "After the ChatGPT moment happened, we had sort of watched this evolution of the data center to support Bitcoin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2260.383,
+            2262.224
+          ],
+          "quote": "Like ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2262.284,
+            2266.247
+          ],
+          "quote": "Consumer demand across ChatGPT and core.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "exxon",
+      "type": "company",
+      "role": "company",
+      "name": "Exxon",
+      "file": "Exxon",
+      "primary": false,
+      "how_described": "油气行业垂直整合的超级巨头范例:不对冲石油敞口却天然对冲,因为油价跌时下游成品利润反而上升——Crusoe 以此类比自己的三产品组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            2128.879,
+            2133.621
+          ],
+          "quote": "So there are these super majors like Exxon and Chevron in the traditional oil and gas industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2137.005,
+            2141.79
+          ],
+          "quote": "Where that becomes actually important is that Exxon very famously doesn't hedge their oil exposure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2157.325,
+            2164.269
+          ],
+          "quote": "But when oil prices come down, Exxon makes less margin at the wellhead, but their margins, their downstream business actually go up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2907.813,
+            2917.817
+          ],
+          "quote": "When Exxon is pumping wells at the wellhead, they may compete with another upstream oil and gas company to most efficiently drill and operate wells.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到它正用大量自己的数据后训练自己的模型,是企业自训模型、数据主权方向的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 626,
+          "t": [
+            3038.386,
+            3045.273
+          ],
+          "quote": "I know there's a lot of exciting stuff happening between folks like Cognition post-training their own model with a lot of their own data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集提到它在法律领域尝试类似 Cognition 的做法——用私有数据自训模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 627,
+          "t": [
+            3045.893,
+            3049.737
+          ],
+          "quote": "Harvey kind of maybe trying to take a similar approach from a legal perspective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": false,
+      "how_described": "本集说它是一家做得非常出色的专业化推理提供商,与 Crusoe 的托管推理在部分工作负载上既有竞争也有合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 596,
+          "t": [
+            2851.116,
+            2853.498
+          ],
+          "quote": "When you look at like an inference provider like Fireworks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2854.018,
+            2854.639
+          ],
+          "quote": "Fireworks is great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2870.248,
+            2875.13
+          ],
+          "quote": "I think there are certain workloads that, you know, Fireworks, you know, does an incredibly great job serving.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2997.794,
+            3006.596
+          ],
+          "quote": "Like the frontier is- I'm not saying there's not, but you're looking at your Harveys and your Rams and your, you name it, and you're an investor in McCaw, we're an investor in Fireworks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集主线之一:AI 基础设施不会集中化而会分散到能源便宜之地;现代 AI 数据中心用水量近零、会压低而非推高社区电价,约 50% 规划中的数据中心不会建成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            32.344,
+            36.046
+          ],
+          "quote": "Well, you know, the GPU is actually the most valuable thing in the entire data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            907.178,
+            914.705
+          ],
+          "quote": "After the ChatGPT moment happened, we had sort of watched this evolution of the data center to support Bitcoin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            919.009,
+            928.258
+          ],
+          "quote": "It started with like hobbyists on their laptops in this sort of decentralized way, and then people started to use GPUs, and then people started to lease data center capacity from",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            942.473,
+            945.476
+          ],
+          "quote": "Like how much does that reduce the actual data center cost?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            945.836,
+            949.961
+          ],
+          "quote": "And they were able to eliminate something like 98% of the total data center cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            986.86,
+            990.125
+          ],
+          "quote": "It's going to change what the data center looks like to actually support these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1002.062,
+            1006.106
+          ],
+          "quote": "centralized hubs for data center computing infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1013.252,
+            1024.182
+          ],
+          "quote": "But it didn't have to be that way with AI because so much of the time to serve a neural network is actually the compute that's happening in the data center, not the time to get to the data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1036.225,
+            1052.87
+          ],
+          "quote": "And so when we think about things that we did differently, it was like investing more heavily in how to design and develop the data center to support AI and investing heavily in how do we find and source energy resources to support the scaling of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1066.539,
+            1071.825
+          ],
+          "quote": "On the data center side, we always hear about the supply constraints today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1122.511,
+            1127.273
+          ],
+          "quote": "There were 34 other data center developers, but speed was of the essence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1133.256,
+            1144.662
+          ],
+          "quote": "It's where you receive medium voltage power, so around 34.5 kV, and then you distribute it to low voltage transformers that ultimately go into the data center and power the racks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1483.824,
+            1494.329
+          ],
+          "quote": "So I think one of the challenges for AI data centers broadly right now is that I think there's a lot of misinformation out there about what the impact of a data center is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1554.852,
+            1560.976
+          ],
+          "quote": "So I think this is an important aspect for the data center industry to get right and to storytell effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1588.277,
+            1602.328
+          ],
+          "quote": "When you look at some of these big builds that need a lot of net new generation capacity, we are very supportive of the data center industry helping to bring online new power production in order to support those energy requirements.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1755.415,
+            1760.76
+          ],
+          "quote": "It's a benefit to the data center developers if you're viewing it through a purely Machiavellian lens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1919.116,
+            1923.139
+          ],
+          "quote": "If anyone's doing data center security, by the way, would love to invest in that business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2738.585,
+            2742.788
+          ],
+          "quote": "Well, you know, the GPU is actually the most valuable thing in the entire data center, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 工厂 (AI factory)",
+      "file": "AI 工厂",
+      "primary": true,
+      "how_described": "本集把 Crusoe 的业务说成建造 AI 工厂:从第一性原理设计、可互连成 1 吉瓦规模大集群、用水近零、给当地创造蓝领就业与税收。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1202.648,
+            1210.531
+          ],
+          "quote": "By being vertically integrated, we have a perspective on the end-to-end cost of everything going into building and operating an AI factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1346.335,
+            1355.402
+          ],
+          "quote": "And then when you overlap, trying to find, if I have access to energy in this unique place, can I get the labor to that place to actually bring the AI factory to life?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1501.152,
+            1506.675
+          ],
+          "quote": "When you look at all of these modern AI factory designs, they use pretty close to zero water.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "type": "concept",
+      "role": "concept",
+      "name": "能源 (energy)",
+      "file": "能源",
+      "primary": true,
+      "how_described": "本集的底层判断:算力的瓶颈是能源,所以 AI 基础设施会分布到能源低成本且充足的地方;能源也是当前两大供应瓶颈之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.356,
+            16.797
+          ],
+          "quote": "It was going to be distributed where energy was low cost and abundant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            17.077,
+            18.358
+          ],
+          "quote": "Energy prices actually come down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            45.796,
+            56.932
+          ],
+          "quote": "Right now, we are in a race for data centers, for compute capacity, for energy, and there is not a more pertinent guest that could join me in the hot seat today than Chase Lochmiller from Crusoe Energy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            773.282,
+            773.562
+          ],
+          "quote": "Energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            782.131,
+            789.313
+          ],
+          "quote": "We were dedicating actually the majority of our resources towards monetizing waste energy with Bitcoin mining.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            789.413,
+            797.355
+          ],
+          "quote": "That was kind of the philosophy of starting the company and finding and seeking out these low cost, abundant energy resources that we could monetize with compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1032.424,
+            1035.885
+          ],
+          "quote": "It was going to be distributed where energy was low cost and abundant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1036.225,
+            1052.87
+          ],
+          "quote": "And so when we think about things that we did differently, it was like investing more heavily in how to design and develop the data center to support AI and investing heavily in how do we find and source energy resources to support the scaling of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1060.113,
+            1066.519
+          ],
+          "quote": "If we start on data centers, we then have Crusoe Cloud, managed inference, energy kind of runs throughout it all, so I'll kind of pick that apart too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1327.963,
+            1329.584
+          ],
+          "quote": "Energy is definitely a key constraint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1346.335,
+            1355.402
+          ],
+          "quote": "And then when you overlap, trying to find, if I have access to energy in this unique place, can I get the labor to that place to actually bring the AI factory to life?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1363.946,
+            1369.669
+          ],
+          "quote": "We have energy prices that are four times higher than anyone else, and we don't have labor, and we have humans, they just don't work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1379.554,
+            1385.677
+          ],
+          "quote": "You don't think that the government are subsidizing data centers in China with much cheaper energy to power?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1459.124,
+            1460.746
+          ],
+          "quote": "Is this going to drive up my energy costs?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1552.77,
+            1554.351
+          ],
+          "quote": "What about energy prices going up?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1563.298,
+            1577.128
+          ],
+          "quote": "When you look at markets where data centers have made investments and have built big data centers, typically energy prices for communities have come down because it catalyzes more investment in energy generation technology,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1577.508,
+            1584.554
+          ],
+          "quote": "In energy generation capacity, and you end up with more megawatts being amortized over the same transmission and distribution infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1584.914,
+            1588.016
+          ],
+          "quote": "And as a result, people's energy costs end up coming down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1588.277,
+            1602.328
+          ],
+          "quote": "When you look at some of these big builds that need a lot of net new generation capacity, we are very supportive of the data center industry helping to bring online new power production in order to support those energy requirements.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1605.17,
+            1608.033
+          ],
+          "quote": "Energy prices won't go up for local towns and villages.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1608.193,
+            1611.136
+          ],
+          "quote": "The data has shown that energy prices actually come down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1825.625,
+            1839.237
+          ],
+          "quote": "I think when you look at the facts of what data centers are doing from job creation, from driving down energy costs, from being water neutral, from generating long-term tax revenue that is transformative for the communities that we're investing in,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2084.151,
+            2092.158
+          ],
+          "quote": "You know, if you look at a different market, I think that there's very interesting parallels for, you know, AI infrastructure and AI compute is the energy market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2211.874,
+            2217.237
+          ],
+          "quote": "So, you know, there are take or pay contracts and energy oftentimes where, you know, if I commit to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2333.56,
+            2336.582
+          ],
+          "quote": "We're going to be long data centers, we're going to be long energy, we're going to be long chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3207.282,
+            3219.876
+          ],
+          "quote": "And again, this comes down to all of these benefits that we feel like we can provide, whether it's economic, whether it's energy, whether it's the investments we're making in communities from a school perspective, from a services perspective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3424.654,
+            3432.179
+          ],
+          "quote": "The energy first narrative would come to fruition and energy truly would become the bottleneck to scaling the layer of intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrated)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集反复论证:垂直整合第一价值是「能交付」(配电中心市场交货 100 周、自造 28 周),第二是端到端真实成本认知(白痴指数),同时是跨电力/数据中心/芯片/服务的天然对冲。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1098.928,
+            1107.877
+          ],
+          "quote": "And I think that's actually one of the critical aspects of being vertically integrated is that we're able to navigate a lot of those critical bottlenecks and situations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1158.308,
+            1164.411
+          ],
+          "quote": "So I went to our internal team and we had consciously vertically integrated electrical manufacturing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1202.648,
+            1210.531
+          ],
+          "quote": "By being vertically integrated, we have a perspective on the end-to-end cost of everything going into building and operating an AI factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2065.055,
+            2076.224
+          ],
+          "quote": "So one of the analogies I've used in the past is when we think about Crusoe and sort of our vertically integrated strategy, there's really like three products that we ultimately sell to customers where we're making money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2133.961,
+            2136.704
+          ],
+          "quote": "that are vertically integrated across upstream, midstream, downstream.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2146.756,
+            2150.099
+          ],
+          "quote": "Well, they're sort of inherently hedged by being vertically integrated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2715.065,
+            2720.07
+          ],
+          "quote": "Obviously by being vertically integrated and owning the infrastructure, you're able to stack a lot of margin across the process.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 是整个数据中心里最贵的东西,闲置就是烧钱;GPU 租赁协议通常是照付不议,且当下托管 GPU 集群因供应短缺利润率最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            32.344,
+            36.046
+          ],
+          "quote": "Well, you know, the GPU is actually the most valuable thing in the entire data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1942.632,
+            1948.976
+          ],
+          "quote": "I would say the price of a GPU hour, it's kind of like a traded commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2225.618,
+            2229.82
+          ],
+          "quote": "The GPU rental agreements are typically take or pay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2724.433,
+            2736.743
+          ],
+          "quote": "Additionally, I think utilization of the GPU itself is a critical aspect of being able to deliver tokens ultra efficiently and shine on metrics like latency and throughput.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2738.585,
+            2742.788
+          ],
+          "quote": "Well, you know, the GPU is actually the most valuable thing in the entire data center, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集称现在是「推理的时代」:服务推理不需要吉瓦级集群,关键是 time to token 和 GPU 利用率;Crusoe 的托管推理把基础设施复杂性抽象掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            57.072,
+            68.176
+          ],
+          "quote": "They provide several different layers of this very important business, which is they provide the data centers, they can provide the compute, and then they can provide the inference, three of the most valuable pillars of this value chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1060.113,
+            1066.519
+          ],
+          "quote": "If we start on data centers, we then have Crusoe Cloud, managed inference, energy kind of runs throughout it all, so I'll kind of pick that apart too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1279.259,
+            1290.924
+          ],
+          "quote": "When we think about scaling of inference, 2026 is really about the scaling of utilization of AI infrastructure or utilization of LLMs and foundational models for useful tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1302.57,
+            1304.711
+          ],
+          "quote": "It's driving a lot more demand for inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1304.891,
+            1307.572
+          ],
+          "quote": "It's the era of the agent, the era of inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2023.411,
+            2036.364
+          ],
+          "quote": "So things like Crusoe Managed Inference, things like our serverless fine tuning product that actually helps people, that's more of a developer tool that ultimately enables developers to, you know, fine tune some of these",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2043.186,
+            2051.95
+          ],
+          "quote": "Or actually, as their applications are scaling, they can actually serve the tokens needed from an inference basis to enable that application scaling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2658.423,
+            2662.345
+          ],
+          "quote": "Kaz, we mentioned the managed inference being a great part of your business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2818.704,
+            2828.271
+          ],
+          "quote": "Data around is actually a critical aspect to being able to serve inference and be able to keep those GPUs busy so that you're able to really shine on those metrics of latency and throughput.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2835.864,
+            2839.367
+          ],
+          "quote": "Well, I think the big aspect is that not all inference providers are created equal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2851.116,
+            2853.498
+          ],
+          "quote": "When you look at like an inference provider like Fireworks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2856.841,
+            2861.024
+          ],
+          "quote": "To what extent do they compete with you and cannibalize your managed inference business?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2875.51,
+            2885.533
+          ],
+          "quote": "I think, you know, the user experience, I think is something that is unique across all of these different inference platforms that, you know, people may like more on one than the other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2941.284,
+            2954.567
+          ],
+          "quote": "Can I just ask you, when you look at open versus closed, given the purview that you have from the managed inference perspective, what do you see about distribution of dollars, of tokens, across open versus closed, given that unique perspective you have?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3062.43,
+            3065.233
+          ],
+          "quote": "What does the managed inference market look like in five years?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3087.067,
+            3106.032
+          ],
+          "quote": "But the key aspect to managed inference is it abstracts away a lot of the infrastructure complexity of managing the service across a lot of different GPUs, a lot of different data repositories, a lot of different models in terms of how the queries get routed and which models they use.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集称这是「智能体的时代」,智能体和 token 利用率的扩展推动推理需求大增。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1304.891,
+            1307.572
+          ],
+          "quote": "It's the era of the agent, the era of inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1742.724,
+            1751.792
+          ],
+          "quote": "With the greatest respect, I don't come back to this, and I'm not an agent of the CCP, I promise, but in China, I mean, they'll move the three million people out the dam for you with a forklift.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "本集解释它是让 GPU 保持忙碌的关键:把已算过的 token 结果存进查找表避免重复矩阵乘法,会膨胀到超出 HBM,需跨 HBM/DRAM/NVMe/对象存储分层管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 588,
+          "t": [
+            2788.98,
+            2796.446
+          ],
+          "quote": "The KV cache can get quite large, and so it can expand well beyond the amount of memory you have on chip in the HBM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集最反直觉的观点:大多数护城河是幻觉、并不存在、转瞬即逝——技术加速时代一切归结为快速行动和高效适应,一切起初都是没有护城河的套壳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3289.633,
+            3296.719
+          ],
+          "quote": "I think a lot of, you know, we try to think of VCs love to ask about what's your moat, like what's your, you know, what's your long-term moat?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集的一手观察:钱更多花在闭源前沿模型上,但开源模型生成的 token 更多;开源从数据主权角度看很有价值,未来是组合而非谁消灭谁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            2036.784,
+            2042.786
+          ],
+          "quote": "Open source models, these leading-edge open source models, so that they can get better performance for maybe some domain-specific task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2839.387,
+            2844.811
+          ],
+          "quote": "I mean, you have like, you know, great open source projects like, you know, SGLang and VLLM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2955.072,
+            2967.337
+          ],
+          "quote": "I do think that people are spending more money on closed source frontier models than they are on open source, but they are generating more tokens on open source than closed source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2967.717,
+            2970.538
+          ],
+          "quote": "We think open source is actually going to be very important, very valuable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3028.617,
+            3031.58
+          ],
+          "quote": "You can also do that with open source and own the model yourself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集说算力会成为下一个大宗商品,已有平台在造算力期货产品;AI 放大后算力和数据是两大瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            45.796,
+            56.932
+          ],
+          "quote": "Right now, we are in a race for data centers, for compute capacity, for energy, and there is not a more pertinent guest that could join me in the hot seat today than Chase Lochmiller from Crusoe Energy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            57.072,
+            68.176
+          ],
+          "quote": "They provide several different layers of this very important business, which is they provide the data centers, they can provide the compute, and then they can provide the inference, three of the most valuable pillars of this value chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            766.115,
+            769.358
+          ],
+          "quote": "And at that scale, compute becomes the bottleneck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            769.418,
+            770.839
+          ],
+          "quote": "Compute and data become the two bottlenecks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            771.16,
+            773.122
+          ],
+          "quote": "And what is the bottleneck for compute?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            789.413,
+            797.355
+          ],
+          "quote": "That was kind of the philosophy of starting the company and finding and seeking out these low cost, abundant energy resources that we could monetize with compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            894.034,
+            899.516
+          ],
+          "quote": "I just felt there was going to be far more demand for AI compute infrastructure solutions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            990.626,
+            995.593
+          ],
+          "quote": "And we also had a perspective on the compute workload, the workload itself for AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1013.252,
+            1024.182
+          ],
+          "quote": "But it didn't have to be that way with AI because so much of the time to serve a neural network is actually the compute that's happening in the data center, not the time to get to the data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1109.519,
+            1116.746
+          ],
+          "quote": "When we set out to build the first two buildings in Abilene, it was a little over 200 megawatts of compute capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1329.864,
+            1333.867
+          ],
+          "quote": "Power that's available for compute is a key bottleneck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1929.423,
+            1933.646
+          ],
+          "quote": "Another part of your business is obviously providing GPUs and compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1948.996,
+            1954.219
+          ],
+          "quote": "You're even seeing kind of these commodity platforms creating compute as a tradable asset.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1954.239,
+            1959.462
+          ],
+          "quote": "And I think people are sort of thinking through this lens of like compute is going to be this next great commodity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1959.642,
+            1969.188
+          ],
+          "quote": "So, you know, there's a couple of platforms like the Compute Exchange, Ornn, you know, I think there's a handful of others that are like creating these tradable futures products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1993.072,
+            1996.974
+          ],
+          "quote": "So we have a range of different deals that we're doing with the compute we're buying.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2084.151,
+            2092.158
+          ],
+          "quote": "You know, if you look at a different market, I think that there's very interesting parallels for, you know, AI infrastructure and AI compute is the energy market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2183.102,
+            2191.508
+          ],
+          "quote": "I mean, the best margin layer, managed GPUs, like managed compute clusters, is like incredibly high margin, like right this instant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2350.487,
+            2365.45
+          ],
+          "quote": "And when you look at that business where it abstracts away the actual underlying chip, the underlying compute from the service that people are receiving, it opens up new monetization engines that can persist for a much longer period of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2434.647,
+            2447.961
+          ],
+          "quote": "So I think people underestimate the ingenuity of applications and application developers of turning compute capacity into value and into valuable services for the economy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2509.424,
+            2520.433
+          ],
+          "quote": "We think it's a very important shift in terms of, you know, especially like when you look at earlier stage companies, earlier stage startups that are being asked to commit to compute in 2028, it's like that is an eternity from now, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2768.874,
+            2776.276
+          ],
+          "quote": "A large neural network, you can compute the output tokens by basically running this feedforward process and running all these matrix multiplications.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "serverless-fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器微调 (serverless fine tuning)",
+      "file": "无服务器微调",
+      "primary": false,
+      "how_described": "本集提到 Crusoe 的无服务器微调产品,是帮助开发者微调开源模型的开发者工具,合同期限短、利润率最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 435,
+          "t": [
+            2023.411,
+            2036.364
+          ],
+          "quote": "So things like Crusoe Managed Inference, things like our serverless fine tuning product that actually helps people, that's more of a developer tool that ultimately enables developers to, you know, fine tune some of these",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到 Cognition 用自己的私有数据后训练自己的模型,是企业拥有自己智能的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 626,
+          "t": [
+            3038.386,
+            3045.273
+          ],
+          "quote": "I know there's a lot of exciting stuff happening between folks like Cognition post-training their own model with a lot of their own data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

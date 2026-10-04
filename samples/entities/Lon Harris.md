@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Uber]] · [[GrokBot]] · [[Justin Kan]] · [[系统胜过目标]] · [[Alex Wilhelm]] · [[Harvey]] · [[Jason Calacanis]] · [[Kimi K3]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"OpenAI":151,"Uber":16,"GrokBot":8,"Justin Kan":1,"系统胜过目标":1,"Alex Wilhelm":1,"Harvey":16,"Jason Calacanis":1,"Kimi K3":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"OpenAI":155,"Uber":16,"GrokBot":8,"Justin Kan":1,"系统胜过目标":1,"Alex Wilhelm":1,"Harvey":17,"Jason Calacanis":1,"Kimi K3":3}</script>
 
 <script>
 (function(){

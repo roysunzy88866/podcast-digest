@@ -116,8 +116,8 @@ Oracle 的落地产品是 **[[Oracle Agent Memory Package|Oracle Agent Memory Pa
 **顺着「智能体」挖下去**
 
 - [[2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h|给医疗理赔智能体套上 X12 护栏]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、线束 (harness)、记忆 (memory)、Codex</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、护栏 (guardrails)、智能体 (agent)、记忆 (memory)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、护栏 (guardrails)、智能体 (agent)、Claude</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、智能体 (agent)、线束 (harness)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

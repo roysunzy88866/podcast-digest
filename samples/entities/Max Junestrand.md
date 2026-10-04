@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Legora":3,"智能体":391,"微调":29,"评估":3,"GPT 3.5":1,"大语言模型":8,"LangChain":8,"Azure":3,"Bloomberg":3,"OpenAI":151}</script>
+<script type="application/json" class="pd-epn">{"Legora":3,"智能体":397,"微调":29,"评估":3,"GPT 3.5":1,"大语言模型":9,"LangChain":8,"Azure":3,"Bloomberg":3,"OpenAI":155}</script>
 
 <script>
 (function(){

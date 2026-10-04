@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Kiriti Badam":1,"智能体":391,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":5,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Kiriti Badam":1,"智能体":397,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":5,"行为校准":1}</script>
 
 <script>
 (function(){

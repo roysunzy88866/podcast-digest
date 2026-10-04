@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":19,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":23}</script>
+<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":19,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":24}</script>
 
 <script>
 (function(){

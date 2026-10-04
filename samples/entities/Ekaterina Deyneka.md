@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":391,"智能体视频剪辑":1,"沙箱":71,"Remotion":1,"技能":25}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":397,"智能体视频剪辑":1,"沙箱":71,"Remotion":1,"技能":25}</script>
 
 <script>
 (function(){

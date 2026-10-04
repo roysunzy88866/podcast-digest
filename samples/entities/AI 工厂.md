@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 工厂 (AI factory)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 工厂">AI</div><div class="pi"><h1 class="pt">AI 工厂 (AI factory)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 工厂">AI</div><div class="pi"><h1 class="pt">AI 工厂 (AI factory)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(02:29起):本集说它是新技术栈的集大成：每一层（电力、硬件、网络、SSD）都要重做，因为处理的是图片、视频、声音和自然语言且 GPU 要求极快访问；且不只属于大实验室，企业中期都需要
+- **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(20:02起):本集把 Crusoe 的业务说成建造 AI 工厂:从第一性原理设计、可互连成 1 吉瓦规模大集群、用水近零、给当地创造蓝领就业与税收。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为概念
+- [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Renen Hallak]] · [[Matt Turk]] · [[VastData]] · [[NVIDIA]] · [[XAI]] · [[软件基础设施]] · [[机密计算]] · [[权重]] · [[智能体]] · [[推理]]
+[[NVIDIA]] · [[智能体]] · [[推理]] · [[Renen Hallak]] · [[Chase Lochmiller]] · [[Matt Turk]] · [[Harry Stebbings]] · [[VastData]] · [[Crusoe]] · [[XAI]]
 
-<script type="application/json" class="pd-epn">{"Renen Hallak":1,"Matt Turk":4,"VastData":1,"NVIDIA":52,"XAI":7,"软件基础设施":1,"机密计算":1,"权重":3,"智能体":391,"推理":70}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":53,"智能体":397,"推理":72,"Renen Hallak":1,"Chase Lochmiller":1,"Matt Turk":4,"Harry Stebbings":20,"VastData":1,"Crusoe":1,"XAI":7}</script>
 
 <script>
 (function(){

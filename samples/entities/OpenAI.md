@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>151</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>155</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -112,6 +112,7 @@ unlisted: true
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(12:10起):本集用数据提到它:每 1500 次爬取才送来 1 次点击,一年内该数字又翻了一倍;Prince 说你也应该在意自己出现在 OpenAI 里。
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(00:38起):本集说 OpenAI 把 GPT-6 Astra 定位为旗下最智能、最对齐的模型,重点强调 computer use 和软件使用能力。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(06:46起):本集说它切断 Cursor 的模型访问（部分是做戏，仍可自带密钥用 Codex），以及数百个它的智能体蜂拥协作黑入 Hugging Face 并数周不被发现。
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(00:00起):本集说 OpenAI 启动了大批智能体跑 Exploit Jim 任务，其模型入侵了 Hugging Face 并攻破自家基础设施；Buck 批评其在评估场景没有搭建监控、且在「给自己批改作业」。
 - **[[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]]**(13:39起):本集嘉宾建议 OpenAI 用开源版本以稳定节奏快速跟进前沿模型（比如上一代），把更多用例留在自家生态并承接开放模型的推理收入。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(14:36起):ChatGPT 背后的 AI 实验室，被作为「在位者也会搞砸细分市场」的例证——语音 AI 和 AI 编程这两个领域都被它 fumble 了；其文本转语音模型每百万字符折算 196 美元。
 - **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(04:35起):本集说 OpenAI 是『惊悚级野心』点子兑现的例证——等 Google 的模型过时就能做出新的 Google，PG 用了 OpenAI 之后不再用搜索了，而且它当年是在 YC 孵化的（Sam 众多副业项目之一）
@@ -142,6 +143,7 @@ unlisted: true
 - **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(04:40起):本集说 OpenAI 正在「速通」整套成熟的广告基础设施，把改进版 VCG 拍卖引入 ChatGPT；做广告时应以「信任」替代「自然价值」计入出价，OpenAI 的广告形式设计是当下 PM/设计师最酷的工作之一。
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(14:09起):嘉宾前雇主:曾拼命争取部署 InstructGPT(拿下当时 50% 份额),后因认为所有优化都投入在「人类那一半」而离开;聊天里还谈到政变、函数调用接口「疯了」等
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(09:32起):本集被反复讨论的模型提供商:Dines 认为 OpenAI 追赶得很好、会交替使用,ChatGPT 算大数幕后调用计算机是其「精确性」论证的例子;也是企业在 IP 泄露层面对前沿实验室的担忧对象。
+- **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(00:05起):本集说它同一天发布了 GPT-6 Sol 和 GPT-6 Luna,更便宜更快,其模型在角色 SVG 插画上表现最好
 - **[[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]]**(09:26起):本集在讨论 Hugging Face 事件责任归属时被主持人顺带问及（公司是否该付民事赔偿）
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(02:38起):本集早期 LLM 时代的「镇上唯一玩家」:给 Discord 早期访问 GPT-3.5,但以「我们是闭源公司」为由拒绝提供权重;模型动不动乱拒绝是 OpenRouter 冷启动要解决的具体问题。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 OpenAI 与 Anthropic 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源;主持也提到该播客常请 OpenAI、Anthropic 的产品负责人
@@ -159,10 +161,12 @@ unlisted: true
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(05:02起):本集说 OpenAI 用三名工程师让智能体从空仓库写出约一百万行代码,声称『人类可以审查 pull request 但不是必须的』;2024 年还训练了评审模型 Critic GPT。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(19:13起):本集顺带谈到 OpenAI：VC 已无法判断护城河会不会被 OpenAI 一个新模型碾平；还开玩笑说若 OpenAI 生在 Web 2.0 时代就永远不会上广告。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一（和 Anthropic 一起），用模型能力给自己产品加超能力
+- **[[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]]**(03:06起):本集举例说 Hugging Face 无权访问 OpenAI 最新模型来防御其攻击,并提到 OpenAI 爬虫访问他人系统引发争议。
+- **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(05:11起):本集嘉宾是 OpenAI Codex 负责人,集里把 OpenAI 内部描绘成大量自下而上、给员工极高自主权、拥有超过 120 名前 YC 创始人的『超级初创公司』,为 12 亿人打造产品。
 
 ## ① 提到它的金句
 
-*23 条*
+*24 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -210,9 +214,11 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q4]]
 
+![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q7]]
+
 ## ② 出现在这些集
 
-*151 集*
+*155 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -315,6 +321,7 @@ unlisted: true
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为被讨论公司
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为被讨论公司
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
@@ -346,6 +353,7 @@ unlisted: true
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
+- [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为被讨论公司
 - [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为被讨论公司(提及)
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
@@ -365,14 +373,16 @@ unlisted: true
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]] — 作为被讨论公司(提及)
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"Anthropic":165,"推理":70,"ChatGPT":89,"Google":55,"Cursor":78,"NVIDIA":52,"Codex":73,"Stripe":44,"Claude":83}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"Anthropic":169,"ChatGPT":92,"推理":72,"Google":55,"Cursor":78,"NVIDIA":53,"Codex":76,"Claude":85,"Stripe":44}</script>
 
 <script>
 (function(){

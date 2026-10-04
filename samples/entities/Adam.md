@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Adam">AD</div><div class="pi"><h1 class="pt">Adam</h1><div class="byl">Sourcery 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Adam">AD</div><div class="pi"><h1 class="pt">Adam</h1><div class="byl">Sourcery 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*10 条*
+*14 条*
 
 ![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q1]]
 
@@ -33,27 +33,28 @@ unlisted: true
 
 ![[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n#^q14]]
 
+![[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in#^q3]]
+
+![[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in#^q4]]
+
+![[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in#^q6]]
+
+![[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in#^q10]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-14-sourcery-how-applovin-built-a-100b-ad-machine-e3n|《AppLovin 双人谈：百人工程团队如何撑起千亿公司》]] — 作为主持
+- [[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in|《GPU 之后是什么：内存短缺、光子学与摩尔定律的尽头》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gio]] · [[AppLovin]] · [[Axon 2]] · [[推荐系统]] · [[语义嵌入]] · [[深度神经网络]] · [[GPU]] · [[AI]] · [[品味]] · [[ChatGPT]]
+[[GPU]] · [[Gio]] · [[Steven]] · [[AppLovin]] · [[iMac]] · [[Axon 2]] · [[推理]] · [[推荐系统]] · [[光子学]] · [[语义嵌入]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Gio":1,"AppLovin":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":19,"AI":27,"品味":15,"ChatGPT":89}</script>
+<script type="application/json" class="pd-epn">{"GPU":21,"Gio":1,"Steven":1,"AppLovin":1,"iMac":1,"Axon 2":1,"推理":72,"推荐系统":1,"光子学":1,"语义嵌入":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you",
+  "audio_mp3": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
+  "duration_sec": 3674.767,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 757,
+  "asr": true,
+  "title_en": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-03",
+  "cover_official_url": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg",
+  "added": "2026-10-05",
+  "added_at": "2026-10-04T17:59:33.473Z",
+  "speaker_map": {
+    "SPEAKER_01": "Chase Lochmiller",
+    "SPEAKER_02": "Harry Stebbings"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Chase Lochmiller",
+  "cohosts": [
+    "Harry Stebbings"
+  ],
+  "title_zh": "卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经",
+  "guest_name": "Chase Lochmiller",
+  "guest_title": "Crusoe Energy CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-04T19:30:29.273Z"
+  }
+}

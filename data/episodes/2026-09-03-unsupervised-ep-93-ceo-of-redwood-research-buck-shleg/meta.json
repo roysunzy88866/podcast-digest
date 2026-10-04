@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg",
+  "audio_mp3": "https://cdn.simplecast.com/media/audio/transcoded/b3414ac6-61c8-4752-8722-491e1457c3bf/2c08ad29-5b79-42c0-a40a-6c1af4327f2f/episodes/audio/group/3b97ba0f-c910-4e6c-9cdb-4929d40eac04/group-item/a81b7ef6-34cd-4768-a2d1-ac60ee8d52ce/128_default_tc.mp3?aid=rss_feed&feed=dOSE_bdP",
+  "duration_sec": 3495.546,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 550,
+  "asr": true,
+  "title_en": "Ep 93: CEO of Redwood Research Buck Shlegeris on OpenAI/HuggingFace Revelations, Fixing AI Safety & Takeover Odds",
+  "podcast": "Unsupervised Learning",
+  "date": "2026-09-03",
+  "added": "2026-10-05",
+  "added_at": "2026-10-04T16:03:30.463Z",
+  "speaker_map": {
+    "SPEAKER_01": "Buck Shlegeris",
+    "SPEAKER_02": "Jacob Efron"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Buck Shlegeris",
+  "cohosts": [
+    "Jacob Efron"
+  ],
+  "title_zh": "AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末",
+  "guest_name": "Buck Shlegeris",
+  "guest_title": "Redwood Research CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

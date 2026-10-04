@@ -7,25 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 接管 (AI takeover)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 接管">AI</div><div class="pi"><h1 class="pt">AI 接管 (AI takeover)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 接管">AI</div><div class="pi"><h1 class="pt">AI 接管 (AI takeover)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(00:19起):本集把它说成构建超级智能的结果——AI 因高度有能力、被广泛部署、掌握巨大工业产能而处于可以接管的位置，且我们对其动机没有真正控制权
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(11:21起):本集说 Buck 估计 AI 接管（人类机构被暴力夺权、AI 拥有全部硬实力）的概率约五五开，且很可能杀死几十亿人，但这次事件让他稍微更乐观。
+
+## ① 提到它的金句
+
+*3 条*
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q4]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q11]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q15]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为概念
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ryan Greenblatt]] · [[Matt Turk]] · [[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Google DeepMind]] · [[XAI]] · [[Meta]] · [[Hugging Face]] · [[超级智能]]
+[[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[未对齐]] · [[智能体]] · [[Ryan Greenblatt]] · [[Buck Shlegeris]] · [[Matt Turk]] · [[Jacob Efron]]
 
-<script type="application/json" class="pd-epn">{"Ryan Greenblatt":2,"Matt Turk":4,"Redwood Research":3,"OpenAI":151,"Anthropic":165,"Google DeepMind":5,"XAI":7,"Meta":41,"Hugging Face":26,"超级智能":7}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":155,"Anthropic":169,"Hugging Face":27,"未对齐":2,"智能体":397,"Ryan Greenblatt":2,"Buck Shlegeris":1,"Matt Turk":4,"Jacob Efron":2}</script>
 
 <script>
 (function(){

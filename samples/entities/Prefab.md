@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeremiah Lowin]] · [[MCP Apps]] · [[MCP]] · [[FastMCP]] · [[智能体]] · [[沙箱]] · [[生成式 UI]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Jeremiah Lowin":1,"MCP Apps":3,"MCP":71,"FastMCP":1,"智能体":391,"沙箱":71,"生成式 UI":4,"Claude":83}</script>
+<script type="application/json" class="pd-epn">{"Jeremiah Lowin":1,"MCP Apps":3,"MCP":72,"FastMCP":1,"智能体":397,"沙箱":71,"生成式 UI":4,"Claude":85}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
+[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":5,"不确定性":1,"贝叶斯规则":1,"大语言模型":8,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":2,"Transformer":8}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":5,"不确定性":1,"贝叶斯规则":1,"大语言模型":9,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":2,"Transformer":8}</script>
 
 <script>
 (function(){

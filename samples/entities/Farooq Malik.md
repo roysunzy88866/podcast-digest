@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":391,"Stripe":44,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":397,"Stripe":44,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"AGI":26,"资本支出":5,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":165,"OpenAI":151,"Google":55,"TPU":3}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"AGI":26,"资本支出":5,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":169,"OpenAI":155,"Google":55,"TPU":3}</script>
 
 <script>
 (function(){

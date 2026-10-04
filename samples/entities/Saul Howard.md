@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":165,"智能体":391,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":169,"智能体":397,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

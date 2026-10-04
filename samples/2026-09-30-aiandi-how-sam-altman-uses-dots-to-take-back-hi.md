@@ -120,8 +120,8 @@ Dan 问 Sam 是否所有提示都跑在 [[Ultrafast|Ultrafast]](OpenAI 强调超
 **顺着「智能体」挖下去**
 
 - [[2026-09-30-latent-devday-2026|OpenAI DevDay 双专访：计算机使用 180 度大变样]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、Decisions API、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、Dots、智能体 (agent)</span>
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

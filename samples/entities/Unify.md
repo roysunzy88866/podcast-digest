@@ -25,7 +25,7 @@ unlisted: true
 
 [[Connor Hegey]] · [[智能体]] · [[子智能体]] · [[harness]] · [[提示词缓存]] · [[记忆]] · [[评估]] · [[LLM 当裁判]] · [[沙箱]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"Connor Hegey":1,"智能体":391,"子智能体":5,"harness":53,"提示词缓存":4,"记忆":20,"评估":3,"LLM 当裁判":9,"沙箱":71,"人在回路":18}</script>
+<script type="application/json" class="pd-epn">{"Connor Hegey":1,"智能体":397,"子智能体":5,"harness":53,"提示词缓存":4,"记忆":22,"评估":3,"LLM 当裁判":10,"沙箱":71,"人在回路":18}</script>
 
 <script>
 (function(){

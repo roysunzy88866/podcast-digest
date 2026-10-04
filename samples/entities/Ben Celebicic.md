@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hinge":2,"Match Group":1,"北极星指标":1,"个性化":1,"信任与安全":2,"机器学习":4,"反馈回路":2,"vibe code":2,"产品规格文档":1,"设计系统":7}</script>
+<script type="application/json" class="pd-epn">{"Hinge":2,"Match Group":1,"北极星指标":1,"个性化":1,"信任与安全":2,"机器学习":4,"反馈回路":3,"vibe code":2,"产品规格文档":1,"设计系统":7}</script>
 
 <script>
 (function(){

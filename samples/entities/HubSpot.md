@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[ChatGPT]] · [[Lenny]] · [[LLM]] · [[Salesforce]] · [[OpenAI]] · [[Cursor]] · [[SEO]] · [[go-to-market]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"Google":55,"ChatGPT":89,"Lenny":68,"LLM":53,"Salesforce":34,"OpenAI":151,"Cursor":78,"SEO":7,"go-to-market":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"Google":55,"ChatGPT":92,"Lenny":68,"LLM":53,"Salesforce":34,"OpenAI":155,"Cursor":78,"SEO":7,"go-to-market":12}</script>
 
 <script>
 (function(){

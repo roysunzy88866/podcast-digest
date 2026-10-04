@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":52,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
+<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":53,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
 
 <script>
 (function(){

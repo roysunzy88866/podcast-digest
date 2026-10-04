@@ -132,7 +132,7 @@ Merve 观察到的开发者通病，是拿 VLM 做所有事情。第一个硬伤
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agent)</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agent)</span>
-- [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|AI 末日论反弹：是营销烟雾弹，还是真该警惕？]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agent)</span>
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Damien Lewke]] · [[Nebulock]] · [[CrowdStrike]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[产品市场契合]] · [[执行发起人]] · [[solo founder]]
 
-<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"CrowdStrike":3,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"产品市场契合":23,"执行发起人":1,"solo founder":1}</script>
+<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"CrowdStrike":3,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"产品市场契合":24,"执行发起人":1,"solo founder":1}</script>
 
 <script>
 (function(){

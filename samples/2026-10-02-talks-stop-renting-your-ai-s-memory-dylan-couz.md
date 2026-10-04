@@ -200,8 +200,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同概念:推理 (inference)、超级智能 (superintelligence)</span>
+- [[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in|GPU 之后是什么：内存短缺、光子学与摩尔定律的尽头]]<span class="pd-rz">同概念:推理 (inference)、记忆 (memory)</span>
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agents)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:超级智能 (superintelligence)</span>
 
 </div>
 </div>

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Shopify":16,"River":2,"智能体":391,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Shopify":16,"River":2,"智能体":397,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

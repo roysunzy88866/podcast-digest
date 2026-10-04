@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":5,"智能体循环":5,"免费增值":2,"推理":70,"模板":2,"SEO":7,"人在回路":18}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":5,"智能体循环":5,"免费增值":2,"推理":72,"模板":2,"SEO":7,"人在回路":18}</script>
 
 <script>
 (function(){

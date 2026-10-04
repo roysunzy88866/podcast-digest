@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":6,"Path Robotics":1,"LLM":53,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":23,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":6,"Path Robotics":1,"LLM":53,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":24,"第一性原理":6}</script>
 
 <script>
 (function(){

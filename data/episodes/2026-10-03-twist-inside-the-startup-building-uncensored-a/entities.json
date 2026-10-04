@@ -1,0 +1,785 @@
+{
+  "episode_id": "2026-10-03-twist-inside-the-startup-building-uncensored-a",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 安全",
+    "开源模型",
+    "AI 基础设施",
+    "商业模式",
+    "创业融资"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jason-kelligan",
+      "type": "person",
+      "role": "host",
+      "name": "Jason Kelligan",
+      "file": "Jason Kelligan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.392,
+            3.212
+          ],
+          "quote": "I'm your host, Jason Kelligan.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "devin-thomas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Devin Thomas",
+      "file": "Devin Thomas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            5.773,
+            9.554
+          ],
+          "quote": "Very lucky to have Devin Thomas with us.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "obliteration",
+      "type": "company",
+      "role": "company",
+      "name": "Obliteration",
+      "file": "Obliteration",
+      "primary": true,
+      "how_described": "本集嘉宾 Devin 创办的初创公司:移除开源模型的拒绝机制、提供无限制模型,再叠加一层让客户自定义策略的软件层,服务被前沿实验室拒之门外的网络安全、生物学、国防等专业用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            104.751,
+            107.354
+          ],
+          "quote": "And you've got this great starter, obliteration.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            111.122,
+            113.063
+          ],
+          "quote": "I started Obliteration at the end of last year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            257.415,
+            260.898
+          ],
+          "quote": "So, yep, the process of obliteration is to kind of remove those guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            305.753,
+            315.702
+          ],
+          "quote": "As we see on the right-hand side, we see the obliteration model taking a command from the user and then other labs denying it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            744.76,
+            758.29
+          ],
+          "quote": "And so what obliteration is, is kind of finding those neurons, those parameters essentially that are responsible for like the refusals, and then you kind of, you modify them and then as less as possible, so you don't decrease the performance of the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1548.493,
+            1554.057
+          ],
+          "quote": "So you can find us on X or LinkedIn and also, obviously, our website, obliteration.ai.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集的核心话题:护栏正从模型内置的拒绝机制里搬出来,变成客户可配置的软件层——由一个几毫秒就能跑完的小模型承载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            257.415,
+            260.898
+          ],
+          "quote": "So, yep, the process of obliteration is to kind of remove those guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            262.999,
+            267.223
+          ],
+          "quote": "I guess innovation or idea on the space is to allow customers to set their own guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            284.32,
+            289.083
+          ],
+          "quote": "Uh, guardrails than, than were native, or you could have less in certain areas and stronger in certain areas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            683.044,
+            688.131
+          ],
+          "quote": "What safeties are baked into them and then how the guardrails are taken off.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            763.694,
+            771.936
+          ],
+          "quote": "Which then is actually a model itself, which actually runs those guardrails, guardrails-focused model in between there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            771.956,
+            776.998
+          ],
+          "quote": "So it's kind of, your request actually is kind of going through two models, but the guardrails-focused model is pretty small.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            899.478,
+            905.221
+          ],
+          "quote": "And I think like how you set guardrails, how you configure the system, all those things matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1287.321,
+            1289.763
+          ],
+          "quote": "And then so you can set those guardrails in those models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集把红队测试说成:模拟威胁行为者攻击公司推出的智能体或 AI 系统;大公司 CISO 主动用无限制模型先测自己的系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            350.933,
+            359.239
+          ],
+          "quote": "And so other use cases outside of cybersecurity, red teaming, explain red teaming and why that's important.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            359.259,
+            368.106
+          ],
+          "quote": "Yeah, red teaming is kind of like the use case we said before, but one of the early use cases we have success with is like all these companies today are rolling out agents, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1179.216,
+            1182.957
+          ],
+          "quote": "So a lot of cyber startups come to us, a lot of red teaming",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说 Obliteration 的无限制模型基于开源模型(GLM、DeepSea 等),通过找到并尽量少地修改负责拒绝行为的神经元/参数来移除拒绝机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            245.647,
+            256.695
+          ],
+          "quote": "Open source models, I'm assuming GLM or DeepSea, and you're allowing people to run them in their native form without restriction, correct?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 71,
+          "t": [
+            275.031,
+            278.615
+          ],
+          "quote": "Which is like all the labs and open source models have the refusals backed in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            712.231,
+            719.693
+          ],
+          "quote": "Take us through how that is added to the open source models and then also how it's removed and then I'm allowed to build it back up.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集质疑「前沿模型」这个词:它暗示固定排名永远领先,但中国模型与绝对前沿的差距已从一年缩到约三个月,窗口关闭越来越快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            179.397,
+            186.119
+          ],
+          "quote": "Devin, the frontier models have full access to the latest and greatest large language models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            211.869,
+            222.658
+          ],
+          "quote": "So Hugging Face, if they wanted to mount a defense against the latest and greatest frontier models, they don't have the same access to the tools, correct?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 133,
+          "t": [
+            571.173,
+            572.354
+          ],
+          "quote": "Frontier models, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说所有公司都在推出智能体、需要对它们做红队测试;Obliteration 不提供模型之上的智能体层,只做信息进、信息出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            359.259,
+            368.106
+          ],
+          "quote": "Yeah, red teaming is kind of like the use case we said before, but one of the early use cases we have success with is like all these companies today are rolling out agents, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            368.126,
+            372.028
+          ],
+          "quote": "You hear about agents, every company you could imagine, but imagine I call your bank, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            380.233,
+            385.655
+          ],
+          "quote": "So you probably want to red team those agents, meaning model a threat actor essentially against those agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            385.675,
+            395.658
+          ],
+          "quote": "So we have some startups that are customers of ours that kind of sign big banks or sign other critical infrastructure companies to red team these agents or these AI systems that they're rolling out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            790.068,
+            802.341
+          ],
+          "quote": "You're in Silicon Valley and you see this dialogue where they're constantly talking about the hacking, quote unquote, that their agents are doing in swarms, all this kind of activity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2101.441,
+            2105.003
+          ],
+          "quote": "And then could agents then go participate in the audit?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2286.956,
+            2295.825
+          ],
+          "quote": "And now with the advancement of Seedance 2.5 and being able to drive comfy UI using agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "billable-hour",
+      "type": "concept",
+      "role": "concept",
+      "name": "按小时计费 (billable hour)",
+      "file": "按小时计费",
+      "primary": true,
+      "how_described": "Jason 判断 AI 不会消灭律师、会计师的计费小时——PC、云计算、互联网都没干掉它;人类会向价值链上游移动,在很多场景订阅模式会取代它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 402,
+          "t": [
+            1783.254,
+            1788.315
+          ],
+          "quote": "I heard Lonnie ask a question from the Financial Times about the AI wrecking ball fracturing the billable hour fee model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1811.361,
+            1816.182
+          ],
+          "quote": "What impact do you think AI is going to have on the billable hour for law firms, professional services in general?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1894.77,
+            1897.212
+          ],
+          "quote": "We didn't see the billable hour go away, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1897.313,
+            1904.199
+          ],
+          "quote": "So when the PC, the desktop PC, cloud computing, the internet, none of it got rid of the billable hour.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1962.233,
+            1964.994
+          ],
+          "quote": "So I don't buy that the billable hour goes away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1975.577,
+            1981.099
+          ],
+          "quote": "And so rather than outcome-based pricing, I actually think the subscription model is going to replace the billable hour in a lot of instances.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2128.22,
+            2133.225
+          ],
+          "quote": "Lawyers didn't ditch the billable hour before because there also wasn't a technology solution that made it easy to do so.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅模式 (subscription)",
+      "file": "订阅模式",
+      "primary": true,
+      "how_described": "本集说订阅模式将在很多情况下取代按小时计费,如设计订阅服务付月费管饱做 logo;微短剧也是免费几集后转订阅。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            1975.577,
+            1981.099
+          ],
+          "quote": "And so rather than outcome-based pricing, I actually think the subscription model is going to replace the billable hour in a lot of instances.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1982.279,
+            1986.04
+          ],
+          "quote": "We've seen it before where people will offer a design subscription.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1986.1,
+            1989.281
+          ],
+          "quote": "You sign up for a subscription, you get as much design as you can eat.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2016.918,
+            2020.98
+          ],
+          "quote": "It's reasonably unlimited on a subscription basis.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2274.062,
+            2280.729
+          ],
+          "quote": "And then they set up like a subscription package where you can watch like five or six episodes for free and then you go into a subscription package.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2482.594,
+            2484.376
+          ],
+          "quote": "So you can do subscription, you can do like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3127.785,
+            3134.59
+          ],
+          "quote": "So I think 100 tactical practical tips selected to a week, but that would be worth $100 subscription.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "micro-drama",
+      "type": "concept",
+      "role": "concept",
+      "name": "微短剧 (micro drama)",
+      "file": "微短剧",
+      "primary": true,
+      "how_described": "本集说微短剧是把一两个小时内容拆成三五十集、每集两分钟,免费看几集后转订阅,现已用视频模型规模化生产,Jason 认为它是测试 IP 的好方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 560,
+          "t": [
+            2388.564,
+            2394.069
+          ],
+          "quote": "And I actually pitched a micro drama to Snapchat several years ago that they didn't pick up on when this was all first gaining steam.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2689.621,
+            2695.726
+          ],
+          "quote": "I've always thought if you were going to create the next Spider-Man, maybe it starts as a micro drama.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "commoditization-of-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型大宗商品化 (commoditization of models)",
+      "file": "模型大宗商品化",
+      "primary": true,
+      "how_described": "本集说如果各家模型能力接近到终端用户分不出区别,模型就大宗商品化了——这是高估值大实验室必须担心的终局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            597.814,
+            600.874
+          ],
+          "quote": "It's like, you have to worry about, you know, commoditization of models, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu-shortage",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU 短缺 (GPU shortage)",
+      "file": "GPU 短缺",
+      "primary": true,
+      "how_described": "Devin 承认以前觉得 GPU 短缺是炒作,亲身经历增长后才发现在一定规模上持续供应算力并保证高可用高性能确实不容易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1622.53,
+            1640.906
+          ],
+          "quote": "Yeah, I mean, the GPU market is, I actually used to kind of think that the GPU shortage was fake, but now I've experienced it and it is, it's actually a real thing that it's not that easy to at a certain scale to really supply those needs consistently and like have high availability and high performance and all those things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "Jason 在谈单人创始人融资时说:产品周增长 5%-10% 就消除了产品市场契合风险,消除风险越多,估值和投资意愿越高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 699,
+          "t": [
+            2927.993,
+            2929.574
+          ],
+          "quote": "And getting product market fit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2930.314,
+            2932.796
+          ],
+          "quote": "Getting product market fit and hiring.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2933.316,
+            2937.099
+          ],
+          "quote": "Hiring, getting product market fit, and raising your seed round.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2948.665,
+            2951.187
+          ],
+          "quote": "You know, you're trying to get product market fit, you're trying to raise money.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3032.004,
+            3035.868
+          ],
+          "quote": "SayAnnotated.com, get it to product market fit on your own.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3036.588,
+            3054.925
+          ],
+          "quote": "Now, if you have product market fit, and your consumer products growing 5%, 10% a week, week over week, or 10% to 20% month over month, and you're a solo founder, okay, now you've just eliminated the product market fit risk, so you will be able to raise money.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3063.048,
+            3066.829
+          ],
+          "quote": "If you have product market fit and you're growing, you've eliminated product market fit risk.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集举例说 Hugging Face 无权访问 OpenAI 最新模型来防御其攻击,并提到 OpenAI 爬虫访问他人系统引发争议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            186.699,
+            202.222
+          ],
+          "quote": "And then if you're in cyber defense and you are, let's say, hugging face and OpenAI wants to do a series of attacks, you know, whether intended or not, or they're testing or white hat, let's put it all aside.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            206.925,
+            209.927
+          ],
+          "quote": "Hugging Face does not have access to OpenAI's latest model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 121,
+          "t": [
+            531.072,
+            537.856
+          ],
+          "quote": "And OpenAI, and then the models coming out of China, the DeepSeaks, the GLMs, et cetera.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 180,
+          "t": [
+            821.667,
+            827.449
+          ],
+          "quote": "You only hear about them letting governments know, hey, our crawler appears to be with the OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            831.33,
+            838.873
+          ],
+          "quote": "But OpenAI made a bunch of people aware that they had accessed information on their websites or on their systems.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 刚发了篇博客,讲某个中国模型(尤其是 obliterated 版本)在网络安全方面有多强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            515.503,
+            529.711
+          ],
+          "quote": "And so when you look at the cyber capabilities of these models, describe for the audience the delta between the models that are currently out from Anthropic, Grok, SpaceX, AI,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            545.041,
+            557.009
+          ],
+          "quote": "So I think, I don't know if you saw, Anthropic just wrote a blog, right, about how capable GLM 5.3 is, especially the obliterated version, like similar to what we offer, is in cyber.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

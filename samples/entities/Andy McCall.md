@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":4,"Joe Schmidt":2,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":4,"PLG":12,"Harvey":16}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":4,"Joe Schmidt":2,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":4,"PLG":12,"Harvey":17}</script>
 
 <script>
 (function(){

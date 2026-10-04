@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>165</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>169</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -132,6 +132,7 @@ unlisted: true
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(20:29起):本集提到其某个最新模型入侵了 Hugging Face 网站，作为模型可能不受控、治理重要的例证。
 - **[[2026-09-03-talks-agents-next-frontier-agent-to-agent-and|《智能体对智能体？其实是个搜索问题》]]**(17:39起):本集顺带提及其编程工具的 auto 模式，作为隐私决策走向自动化的类比。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(06:01起):本集说它与 NVIDIA 有 350 亿美元数据中心交易、重申乐意继续向 Cursor 供货、曾对 Windsurf 做过同样的事，并与 Salesforce 达成每年 3 亿美元的 LLM 支出合作。
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(14:48起):本集提到 Anthropic 发博客主张大量不对齐源于粗糙的 RL 环境，并认为其对齐质量尚未达标。
 - **[[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]]**(04:38起):本集说 Anthropic 从蒸馏 API 调用中赚到的钱比大多数人从原始训练运行中赚到的还多，且它因认为开放权重是重大安全风险（需单一实体控制 token 流动、防提示词注入）而大概率永远不会开源模型。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(06:45起):被多次引用的案例：进入市场时是 OpenAI 之后的老二、后来不再是老二；它大规模高薪挖上市与成功初创公司 CTO，是人才竞争的标杆。
 - **[[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo|《Arena CEO:现实是唯一可信的裁判，开源正在改写规则》]]**(00:00起):本集说 Anthropic 的收入在 API 上一路爆棚,但「来得容易,去得也容易」,人们假设的 API 锁定未必存在
@@ -156,6 +157,8 @@ unlisted: true
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(36:13起):本集作为对照被多次提及:嘉宾称其为「保姆式国家风格、反开发者」,也提到 Claude 与 ChatGPT 的复制关系
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(02:00起):本集多次提到它的前端设计 skill(55 行命名禁令、'避免系统字体'的反例、旧版问题)作为 Paul 的起步参照,并抱怨其至今未采纳 Agents.md
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(38:09起):Dines 押注的公司(「上一期播客里你问我押哪家,我说 Anthropic」),其 CEO Dario 提出「数据中心里数百万爱因斯坦」的说法构成本集讨论起点;Dines 仍会用其划算模型但坚持保留开源备份不被锁定。
+- **[[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]]**(01:04起):本集说它发布了 Opus 5.5,是其「为前沿设限」(pacing the frontier)之后的第一次模型发布,主打更便宜、更快、对齐最强。
+- **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(00:00起):本集说它发布了 Opus 5.5,称这是对齐程度最高的模型,第一个搭载网络安全和生物护栏的 Opus 级别模型
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(11:49起):本集提到编程这类领域钱会给 Cognition 或 Anthropic;并称赞 Trevor Baldwin 很早就在 Baldwin 内部端到端部署 Anthropic。
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(06:09起):Anjney 是其最早投资人之一;本集说它起步落后 OpenAI 100 亿美元,从第一天的种子备忘录起就专注「负责任地商业化 AI 结对编程」,五年内成了万亿美元公司。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 Anthropic 和 OpenAI 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源
@@ -171,10 +174,11 @@ unlisted: true
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(00:56起):本集用它的账单说明 token 成本失控：印度一家公司一个月在 Anthropic 上花 5 亿美元，Uber CTO 四个月用掉其全年预算。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(04:13起):本集引用 Anthropic 的说法：LLM 并不擅长指出问题的根本原因是什么。
+- **[[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]]**(08:35起):本集提到 Anthropic 刚发了篇博客,讲某个中国模型(尤其是 obliterated 版本)在网络安全方面有多强。
 
 ## ① 提到它的金句
 
-*23 条*
+*24 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -218,13 +222,15 @@ unlisted: true
 
 ![[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo#^q3]]
 
+![[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model#^q1]]
+
 ![[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i#^q1]]
 
 ![[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a#^q2]]
 
 ## ② 出现在这些集
 
-*165 集*
+*169 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -350,6 +356,7 @@ unlisted: true
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为被讨论公司(提及)
 - [[2026-09-03-talks-agents-next-frontier-agent-to-agent-and|《智能体对智能体？其实是个搜索问题》]] — 作为被讨论公司(提及)
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为被讨论公司(提及)
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为被讨论公司
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 - [[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo|《Arena CEO:现实是唯一可信的裁判，开源正在改写规则》]] — 作为被讨论公司(提及)
@@ -375,6 +382,8 @@ unlisted: true
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司(提及)
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为被讨论公司(提及)
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
+- [[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]] — 作为被讨论公司
+- [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为被讨论公司(提及)
@@ -390,15 +399,16 @@ unlisted: true
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司(提及)
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]] — 作为被讨论公司(提及)
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[推理]] · [[NVIDIA]] · [[Google]] · [[沙箱]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Google]] · [[沙箱]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"OpenAI":151,"Claude Code":93,"Cursor":78,"Claude":83,"推理":70,"NVIDIA":52,"Google":55,"沙箱":71,"ChatGPT":89}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"OpenAI":155,"Claude Code":93,"Claude":85,"Cursor":78,"推理":72,"NVIDIA":53,"Google":55,"沙箱":71,"ChatGPT":92}</script>
 
 <script>
 (function(){

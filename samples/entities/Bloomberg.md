@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Joel de la Garza]] · [[Max Junestrand]] · [[Salomon Brothers]] · [[Emilio Escobar]] · [[Legora]] · [[Merrill Lynch]] · [[Datadog]] · [[微调]] · [[Bloomberg 终端]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"Joel de la Garza":4,"Max Junestrand":1,"Salomon Brothers":1,"Emilio Escobar":1,"Legora":3,"Merrill Lynch":1,"Datadog":8,"微调":29,"Bloomberg 终端":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"Joel de la Garza":4,"Max Junestrand":1,"Salomon Brothers":1,"Emilio Escobar":1,"Legora":3,"Merrill Lynch":1,"Datadog":8,"微调":29,"Bloomberg 终端":1}</script>
 
 <script>
 (function(){

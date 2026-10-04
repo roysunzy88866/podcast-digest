@@ -1,0 +1,208 @@
+{
+  "title_zh": "卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经",
+  "tldr": "Crusoe Energy CEO Chase Lochmiller 讲解 AI 算力基础设施的搭建、瓶颈与赚钱之道。",
+  "digest_md": "在数据中心、算力和能源的全球竞赛里,Crusoe Energy 是少数同时握住好几层牌的公司——刚完成 39 亿美元 F 轮融资、估值 309 亿美元。这期 20VC 的主角就是它的 CEO Chase Lochmiller:MIT 物理研究出身、做过量化金融、2018 年爬过珠穆朗玛峰,然后创业造「AI 工厂」。他的核心论点很反直觉:**AI 基础设施不会集中化,而是会分散到能源便宜充足的地方**——「能源优先」的判断,如今真的成了现实。\n\n## 从比特币挖矿到 AI 工厂:不是转型,是战略兑现\n\n外人看 Crusoe 是从比特币挖矿「转型」到了 AI,但 Chase 说公司创立之初的目标就是造 AI 平台:AI 放大到极致,瓶颈是算力和数据,而算力的瓶颈是能源——所以先去找低成本、充足的能源,用比特币挖矿变现养活自己,同时从很早期就在搭 AI 平台,2022 年初就上线了 Crusoe Cloud。真正的转折点是 2022 年 11 月 30 日 ChatGPT 发布:那一刻他判断对 AI 算力基础设施的需求会大得多,而他们恰好已经就位。\n\n他们赌的不是运气,而是看到了比特币挖矿史会重演:矿工从「五个九」可靠性的托管机房,一路降到三个九、一个九,靠鸡舍级的超低成本数据中心砍掉了约 98% 的数据中心总成本。「我们一直觉得类似的事情会在 AI 领域上演」。加上看了 NVIDIA 路线图——芯片从 150/200 瓦涨到 300 瓦、未来 600 瓦——功率密度一升,数据中心形态必须重造;而 AI 工作负载大部分时间是数据中心内部在算,不是在网络上跑,不必锚定北弗吉尼亚那种集中枢纽。\n\n## 垂直整合不是为省钱,是为了「能交付」\n\n数据中心的供应链像打地鼠,不同阶段冒出不同瓶颈。最典型的一例:在德州 Abilene 建头两栋楼(200 多兆瓦),他们承诺一年建成,最接近的竞标者要两年半——当时还有另外 34 家数据中心开发商竞标。卡脖子的是中压配电中心(把约 34.5 千伏的电力分配给低压变压器、给机架供电的设备),市场交货周期 100 周。Chase 靠公司有意识垂直整合的电气制造能力,内部采购零部件自己造,28 周做出来了。\n\n他用一种「白痴指数」(原材料成本 vs 成品价格的差距)解释垂直整合的第二重价值：知道自己每一层端到端的真实成本。利润本身不是主要目的——电气制造不是超高利润率行业——关键是**可用性、按时交付**，以及一个从第一性原理出发的创新平台：想要什么就造什么，Abilene 园区的灵感就是「造一台 1 吉瓦规模的计算机」，让整个园区互连成一个大集群、跑同一个内聚的工作负载。\n\n> 【背景】「白痴指数」这一说法来自 Elon Musk(比较原材料成本与成品价格的差距，衡量供应链优化空间)。\n\n## 真正的约束:电和熟练工,不是监管\n\n今天供应约束的真正表现是「没有地方可以插上 GPU」。Chase 点名两大瓶颈:**能源**和**劳动力**——美国熟练技工(电工、焊工、水管工、建筑工人)数量有限,有了电还得把人调到那个地方,才能把 AI 工厂建起来。至于人人抱怨的监管,他不认为它是「问题」,而是「需要应对的事」:支持正确的政策,但确实拖慢速度——这也是他们更愿意把基础设施「制造化」而非当建筑项目做的部分原因。\n\n对社区最常见的两大恐惧,他用数据逐条反驳:\n\n- **用水论是错的**:现代 AI 工厂用水量近乎为零。Abilene 每栋约 140 兆瓦的大楼,年用水量约等于 10 户单户住宅——主要用途是员工洗手间和浇花。冷却 GPU 的水是闭环架构,循环使用不外排。\n- **电价上涨论也是错的,甚至相反**:数据中心密集投资的市场,社区能源价格通常会**下降**——它催生更多发电投资,同样输配电基础设施上摊销更多兆瓦。\n\n合理的担忧只剩施工期的交通、灰尘和噪音,但这些会过去;长期看,Abilene 本地商户生意史上最好,而 Crusoe 将贡献 Taylor County 和 Abilene 超过三分之一的税收,给学校系统的税收增加一倍以上。\n\n他判断:**规划中的数据中心约 50% 不会真正上线**,第一杀手是许可证、土地权益、与公用事业的大负荷并网协议这类前置流程。数据中心如今成了美国中期选举的两极分化议题,他不想当政治主角,但坚信「事实都站在我们这边」:数据中心是蓝领经济大繁荣和美国再工业化的引擎,人们担心 AI 抢工作,可它到目前为止只创造了大量工作岗位和经济发展。\n\n## 三个产品、一种对冲:卖数据中心、卖 GPU、卖 token\n\nCrusoe 最终卖三样东西赚钱:**数据中心、GPU、token**。Chase 用油气行业类比:上游(钻井)、中游(运输)、下游(炼化到成品)各有各的赚钱点,而 Exxon 这类超级巨头靠上下游垂直整合实现了天然对冲——油价跌时井口利润降,但汽油和塑料制品这些下游成品的利润反而升。「AI 算力会成为下一个大宗商品」,甚至已有平台在造算力期货产品;Crusoe 的利润也会在电力、数据中心、芯片、服务之间流动,垂直整合就是内建对冲。\n\n具体到 GPU 生意的组合:五年期长约租给高信用客户,稳定回本有现金流;短期合同利润更高但到期有续约风险;而 Managed Inference(托管推理)和无服务器微调这类开发者服务期限最短、利润率最高。当下利润率最高的一层就是托管 GPU 集群——纯粹因为供应严重短缺。GPU 租赁协议通常是「照付不议」(客户签约付费,用不用都得付),这也是他不怕「消费需求疲软会撕开裂缝」这个质疑的原因:AI 是变革经济的太多领域,不是单一需求;对新材料、新药物的科研需求才刚起步。\n\n芯片折旧他也有反共识:行业标准是六年折旧周期,2023 年他们大规模买入 Hopper 时,外界说这东西三年后就没价值了——结果今天 Hopper 的时租价格比三年前全新时还高。教训是人们低估了应用开发者把算力变成价值的聪明才智。Crusoe 的应对是把底层芯片从服务中抽象掉(托管 AI 服务),「做多基础设施、做多芯片」,让旧芯片也能以更低成本提供智能,从而把货币化周期延长到六年以上。\n\n## 推理时代的胜负手:让最贵的 GPU 一直忙\n\n这是智能体的时代、推理的时代——服务推理不需要 1 吉瓦级计算机,小集群就行,真正重要的是 **time to token**(从一无所有到能交付 token 要多久)。所以 Crusoe 在推小型模块化、可制造的 AI 数据中心,做「即时交付」的 AI 基础设施;让初创公司现在就承诺 2028 年的算力,「那是永恒那么久」,而这正是行业时间线不断拉长带来的畸形要求。\n\n推理怎么做到又快又省?关键洞察:**GPU 是整个数据中心里最贵的东西,闲置就是在烧钱**。核心是内存管理、尤其是 KV 缓存(把已算过的 token 结果存进查找表,避免重复矩阵乘法)——它会膨胀到超出芯片 HBM 显存,所以要在多块 GPU 的 HBM、系统内存 DRAM、NVMe 固态盘、对象存储这几层之间高效搬数据,才能让 GPU 保持忙碌、在延迟和吞吐量指标上出彩。\n\n开源与闭源,他有个一手观察:**钱更多花在闭源前沿模型上,但开源模型生成的 token 更多**。他看好开源从数据主权角度的价值——大量未开发的私有数据能带来巨大性能提升,企业自训模型(Cognition 用自家数据后训练、Harvey 在法律领域的类似尝试)是令人兴奋的方向,但前沿永远有需求,未来是组合,不是谁消灭谁。对「 lowest cost producer of intelligence wins」这句投资人判断,他的补充是:每 token 美元是不错的指标,但「并非所有 token 都是生而平等的」,还有 token 效率、首 token 时间这些维度。\n\n## 最反直觉的一句话:大多数护城河并不存在\n\n快问快答里最有分量的,是他对「护城河」的答案:**「大多数护城河都是幻觉,大多数护城河并不存在。它们大多转瞬即逝——尤其在技术加速的时代,一切归结为快速行动、高效适应不断变化的棋盘。」** 一切起初都是没有护城河的套壳,是你在其上分段构建的价值。他也承认不担心财富不平等——真正该看的是充裕的智能为全球经济创造的生产力,远超那些市值。\n\n至于 2018 年那个刚决定创业的自己,今天的 Chase 觉得最难以置信的不是别的,是「这一切居然成功了」——以及 Crusoe 从不可想象的 150 人,长到了接近 2000 人,「这些把他们职业生涯最高产的岁月押注在 Crusoe 的人,我绝不视为理所当然」。\n\n## 本集带走\n\n- **能源优先是底层判断**:AI 放大后瓶颈是算力,算力的瓶颈是能源——所以基础设施会分散到能源便宜充足之地,而非集中枢纽。\n- **垂直整合的第一价值是「能交付」**:配电中心市场交货 100 周,自造 28 周;顺带获得端到端真实成本认知(白痴指数)和第一性原理的创新平台。\n- **三产品组合即对冲**:卖数据中心、卖 GPU、卖 token,利润像油气行业的上中下游一样会流动,垂直整合天然对冲周期。\n- **推理时代看 time to token 和 GPU 利用率**:GPU 闲置就是烧钱,KV 缓存跨 HBM/内存/SSD 的分层管理是让最贵的资产保持忙碌的关键。\n- **两大真实瓶颈是电和熟练技工**;用水量、电价上涨的社区恐惧都有数据反驳,真正的关卡是许可证、土地和并网协议——因此约一半规划中的数据中心不会建成。\n- **别迷信护城河**:技术加速期护城河大多转瞬即逝,快和适应力比静态壁垒值钱。",
+  "quotes": [
+    {
+      "en": "The infrastructure to support AI wasn't going to be centralized. It was going to be distributed where energy was low cost and abundant.",
+      "zh": "支撑 AI 的基础设施不会是集中式的,它会分布在能源低成本且充沛的地方。",
+      "timestamp": "00:09",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "Energy prices actually come down. It's actually the opposite of the narrative that's being told.",
+      "zh": "能源价格实际上在下降,这其实与人们所讲的叙事完全相反。",
+      "timestamp": "00:17",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "There's really like three products that we ultimately sell to customers where we're making money. We can sell data centers, we can sell GPUs, and we can sell tokens.",
+      "zh": "我们最终卖给客户并从中赚钱的产品其实有三种:我们可以卖数据中心,可以卖 GPU,还可以卖 token。",
+      "timestamp": "00:23",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "Most moats are an illusion. Most moats don't exist.",
+      "zh": "大多数护城河都是一种幻觉,大多数护城河并不存在。",
+      "timestamp": "00:36",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "We don't need five nines of reliability to mine Bitcoin. We can do it with three nines.",
+      "zh": "我们不需要五个九的可靠性来挖比特币,三个九就能做到。",
+      "timestamp": "15:36",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "And they were able to eliminate something like 98% of the total data center cost.",
+      "zh": "而他们得以消除大约 98% 的数据中心总成本。",
+      "timestamp": "15:45",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "Where it's actually manifesting is there are not places to plug in GPUs. So that's ultimately the supply constraint.",
+      "zh": "供应约束真正的表现是:没有地方可以插上 GPU。那才是最终意义上的约束。",
+      "timestamp": "17:54",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "It's the era of the agent, the era of inference. And for that, you don't need a gigawatt scale computer to serve these models.",
+      "zh": "这是智能体的时代、推理的时代。而为此,你并不需要一台 1 吉瓦规模的计算机来服务这些模型。",
+      "timestamp": "21:44",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "When people think about the utility of these models and of this type of infrastructure, it's the worst it's ever gonna be for the rest of the future of humanity.",
+      "zh": "当人们思考这些模型和这类基础设施的效用时,对人类未来的余下时间而言,现在是有史以来最糟糕的时候。",
+      "timestamp": "38:03",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "Here we are three years later and the prices being charged for utilizing hoppers is higher than the rates that were being charged three years ago when they were brand new.",
+      "zh": "三年过去了,今天使用 Hopper 收取的价格,比三年前它们全新时的费率还要高。",
+      "timestamp": "40:17",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "So I think people underestimate the ingenuity of applications and application developers of turning compute capacity into value and into valuable services for the economy.",
+      "zh": "我认为人们低估了应用和应用开发者把算力容量转化为价值、转化为对经济有价值的服务的聪明才智。",
+      "timestamp": "40:34",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "I do think that people are spending more money on closed source frontier models than they are on open source, but they are generating more tokens on open source than closed source.",
+      "zh": "人们花在闭源前沿模型上的钱确实比开源多,但他们在开源上生成的 token 比闭源多。",
+      "timestamp": "49:15",
+      "speaker": "Chase Lochmiller"
+    },
+    {
+      "en": "I think what I've changed my mind on is like most moats are a illusion. Most moats don't exist. Most of them are ephemeral.",
+      "zh": "我改变的想法是:大多数护城河都是幻觉,大多数护城河并不存在,它们大多转瞬即逝。",
+      "timestamp": "55:00",
+      "speaker": "Chase Lochmiller"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Chase Lochmiller",
+      "en": "The infrastructure to support AI wasn't going to be centralized. It was going to be distributed where energy was low cost and abundant.",
+      "zh": "支撑 AI 的基础设施不会是集中式的,它会分布在能源低成本且充沛的地方。"
+    },
+    {
+      "timestamp": "00:18",
+      "speaker": "Chase Lochmiller",
+      "en": "Energy prices actually come down. It's actually the opposite of the narrative that's being told.",
+      "zh": "能源价格实际上在下降,这其实与人们所讲的叙事完全相反。"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Chase Lochmiller",
+      "en": "There's really like three products that we ultimately sell to customers where we're making money. We can sell data centers, we can sell GPUs, and we can sell tokens.",
+      "zh": "我们最终卖给客户并从中赚钱的产品其实有三种:我们可以卖数据中心,可以卖 GPU,还可以卖 token。"
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Chase Lochmiller",
+      "en": "Most moats are an illusion. Most moats don't exist.",
+      "zh": "大多数护城河都是一种幻觉,大多数护城河并不存在。"
+    },
+    {
+      "timestamp": "15:36",
+      "speaker": "Chase Lochmiller",
+      "en": "We don't need five nines of reliability to mine Bitcoin. We can do it with three nines.",
+      "zh": "我们不需要五个九的可靠性来挖比特币,三个九就能做到。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Chase Lochmiller",
+      "en": "And they were able to eliminate something like 98% of the total data center cost.",
+      "zh": "而他们得以消除大约 98% 的数据中心总成本。"
+    },
+    {
+      "timestamp": "17:54",
+      "speaker": "Chase Lochmiller",
+      "en": "Where it's actually manifesting is there are not places to plug in GPUs. So that's ultimately the supply constraint.",
+      "zh": "供应约束真正的表现是:没有地方可以插上 GPU。那才是最终意义上的约束。"
+    },
+    {
+      "timestamp": "18:14",
+      "speaker": "Chase Lochmiller",
+      "en": "The supply chain to support large-scale AI data centers is sort of like a game of whack-a-mole.",
+      "zh": "支撑大规模 AI 数据中心的供应链,有点像打地鼠游戏。"
+    },
+    {
+      "timestamp": "21:44",
+      "speaker": "Chase Lochmiller",
+      "en": "It's the era of the agent, the era of inference. And for that, you don't need a gigawatt scale computer to serve these models.",
+      "zh": "这是智能体的时代、推理的时代。而为此,你并不需要一台 1 吉瓦规模的计算机来服务这些模型。"
+    },
+    {
+      "timestamp": "22:01",
+      "speaker": "Chase Lochmiller",
+      "en": "Like, so what is my time to token?",
+      "zh": "也就是说,我的「token 交付时间」是多少?"
+    },
+    {
+      "timestamp": "25:49",
+      "speaker": "Chase Lochmiller",
+      "en": "So the water requirements argument is just wrong.",
+      "zh": "所以用水需求的论点是完全错误的。"
+    },
+    {
+      "timestamp": "35:22",
+      "speaker": "Chase Lochmiller",
+      "en": "Well, what Crusoe's focused on doing is what we believe the opportunity is, is to build an AI super major, right?",
+      "zh": "Crusoe 专注做的事情、我们认为的机会所在,就是打造一家 AI 超级巨头。"
+    },
+    {
+      "timestamp": "35:36",
+      "speaker": "Chase Lochmiller",
+      "en": "Where that becomes actually important is that Exxon very famously doesn't hedge their oil exposure.",
+      "zh": "这真正变得重要的地方在于,Exxon 非常有名的一点是不对冲他们的石油敞口。"
+    },
+    {
+      "timestamp": "38:03",
+      "speaker": "Chase Lochmiller",
+      "en": "When people think about the utility of these models and of this type of infrastructure, it's the worst it's ever gonna be for the rest of the future of humanity.",
+      "zh": "当人们思考这些模型和这类基础设施的效用时,对人类未来的余下时间而言,现在是有史以来最糟糕的时候。"
+    },
+    {
+      "timestamp": "40:17",
+      "speaker": "Chase Lochmiller",
+      "en": "Here we are three years later and the prices being charged for utilizing hoppers is higher than the rates that were being charged three years ago when they were brand new.",
+      "zh": "三年过去了,今天使用 Hopper 收取的价格,比三年前它们全新时的费率还要高。"
+    },
+    {
+      "timestamp": "40:34",
+      "speaker": "Chase Lochmiller",
+      "en": "So I think people underestimate the ingenuity of applications and application developers of turning compute capacity into value and into valuable services for the economy.",
+      "zh": "我认为人们低估了应用和应用开发者把算力容量转化为价值、转化为对经济有价值的服务的聪明才智。"
+    },
+    {
+      "timestamp": "44:41",
+      "speaker": "Chase Lochmiller",
+      "en": "So, you know, just not all tokens are created equal.",
+      "zh": "所以,并非所有 token 都是生而平等的。"
+    },
+    {
+      "timestamp": "45:38",
+      "speaker": "Chase Lochmiller",
+      "en": "Well, you know, the GPU is actually the most valuable thing in the entire data center, right? It is like the most expensive thing. So it's the thing you want to make sure you're keeping busy.",
+      "zh": "GPU 其实是整个数据中心里最有价值的东西,也是最贵的东西。所以你要确保的就是让它一直保持忙碌。"
+    },
+    {
+      "timestamp": "49:15",
+      "speaker": "Chase Lochmiller",
+      "en": "I do think that people are spending more money on closed source frontier models than they are on open source, but they are generating more tokens on open source than closed source.",
+      "zh": "人们花在闭源前沿模型上的钱确实比开源多,但他们在开源上生成的 token 比闭源多。"
+    },
+    {
+      "timestamp": "55:00",
+      "speaker": "Chase Lochmiller",
+      "en": "I think what I've changed my mind on is like most moats are a illusion. Most moats don't exist. Most of them are ephemeral.",
+      "zh": "我改变的想法是:大多数护城河都是幻觉,大多数护城河并不存在,它们大多转瞬即逝。"
+    }
+  ],
+  "voice_script": "今天这期,主角是 Crusoe Energy 的 CEO Chase Lochmiller。这家公司刚拿了 39 亿美元的 F 轮融资,估值 309 亿美元,是少数同时握着数据中心、算力和能源好几层牌的玩家。Chase 本人 MIT 物理研究出身,做过量化金融,2018 年还爬过珠穆朗玛峰,然后出来创业造「AI 工厂」。这一集,他讲的就是 AI 算力基础设施这套生意到底怎么搭、卡在哪儿、又靠什么赚钱。\n\n先说公司是怎么来的。外人看 Crusoe 是从比特币挖矿「转型」到了 AI,但 Chase 说,创立之初的目标就是造 AI 平台。逻辑很简单:AI 放大到极致,瓶颈是算力和数据,而算力的瓶颈是能源——所以先去找低成本、充足的能源,用比特币挖矿变现养活自己,同时从很早就开始搭 AI 平台,2022 年初就上线了 Crusoe Cloud。真正的转折点,是 2022 年 11 月 30 号 ChatGPT 发布。那一刻判断变了:市场对 AI 算力基础设施的需求会大得多,而他们恰好已经就位。\n\n那这个赌注凭什么成立?因为比特币挖矿的历史很可能在 AI 领域重演。矿工当年从要求五个九可靠性的托管机房,一路降到三个九、一个九,靠鸡舍级的超低成本数据中心,砍掉了大约 98% 的数据中心总成本。Chase 觉得同样的事会在 AI 上演。而且他们看过 NVIDIA 的路线图,芯片功率从 150、200 瓦一路涨到 300 瓦,未来还要 600 瓦——功率密度一升,数据中心形态必须重造。加上 AI 工作负载大部分时间是在数据中心内部算,不在网络上跑,根本不必锚定北弗吉尼亚那种集中枢纽。这引出了他的核心论点,也相当反直觉:AI 基础设施不会集中化,而会分散到能源便宜充足的地方。\n\n下一个问题是:真要建,难在哪?数据中心的供应链像打地鼠,不同阶段冒出不同瓶颈。最典型的例子是在德州 Abilene 建头两栋 200 多兆瓦的楼:他们承诺一年建成,而当时同场竞标的 34 家开发商里,最接近的竞标者要两年半。卡脖子的是中压配电中心——就是把三万四千五百伏的电力分配下去给机架供电的设备,市场交货周期 100 周。靠公司有意识垂直整合出来的电气制造能力,内部采购零部件自己造,28 周做了出来。这里 Chase 引了个「白痴指数」,就是比较原材料成本和成品价格的差距,用来看每一层的优化空间——但垂直整合的第一价值不是省钱,是能交付、按时交付,顺便还拿到了一个想造什么就造什么的第一性原理创新平台。\n\n说到约束,Chase 点名了两个真正的瓶颈:电,和熟练工。今天供应短缺的表现就是「没有地方可以插上 GPU」,而美国的电工、焊工、水管工数量有限,有了电还得把人调过去。至于人人抱怨的监管,他不认为是问题,是需要应对的事。对社区最常见的两种恐惧,他有数据反驳。用水论是错的:Abilene 每栋约 140 兆瓦的大楼,年用水量约等于 10 户单户住宅,主要是员工洗手间和浇花,冷却 GPU 的水是闭环循环的。电价上涨论也是错的,甚至相反——数据中心密集投资的地方,社区能源价格通常下降,因为更多发电投资摊在同样的输配电设施上。真正会卡死的,是许可证、土地权益、跟公用事业的大负荷并网协议这些前置流程,所以他判断,规划中的数据中心约一半不会真正上线。\n\n那这套生意怎么赚钱?最终卖三样东西:数据中心、GPU、token。Chase 用油气行业类比:上游钻井、中游运输、下游炼化各有各的赚钱点,而像 Exxon 这种上下游都握着的巨头,就有天然对冲——油价跌,下游成品利润反而升。「AI 算力会成为下一个大宗商品」,所以 Crusoe 的垂直整合就是内建对冲,利润会在电力、数据中心、芯片、服务之间流动。芯片折旧他也反共识:行业惯例六年折旧,2023 年大规模买入 Hopper 时外界说三年后就没价值了,结果今天 Hopper 的时租价格比三年前全新时还高。教训是,人们低估了应用开发者把算力变成价值的聪明才智。\n\n再往后,这是推理的时代、智能体的时代。服务推理不需要吉瓦级的巨型计算机,小集群就行,真正重要的是 time to token——从一无所有到能交付 token 要多久。而推理怎么又快又省?关键洞察是:GPU 是整个数据中心里最贵的东西,闲置就是在烧钱。核心是内存管理,尤其是 KV 缓存——把已经算过的 token 结果存进查找表,避免重复计算——这个缓存会膨胀到超出芯片显存,所以要在多块 GPU 的显存、系统内存、固态盘、对象存储这几层之间高效搬数据,才能让 GPU 一直忙。开源闭源这块,一手观察是钱更多花在闭源前沿模型上,但开源模型生成的 token 更多,未来是组合,不是谁消灭谁。\n\n最后是快问快答里最有分量的一句。问护城河,Chase 说:大多数护城河都是幻觉,大多数护城河并不存在,它们大多转瞬即逝——尤其在技术加速的时代,一切归结为快速行动、高效适应不断变化的棋盘。至于 2018 年刚决定创业的自己,今天最难以置信的不是别的,是这一切居然成功了,公司从 150 人长到了接近 2000 人。而把职业生涯最高产岁月押注在这家公司的那些人,绝不视为理所当然。"
+}

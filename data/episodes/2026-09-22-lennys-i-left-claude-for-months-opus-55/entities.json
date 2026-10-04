@@ -1,0 +1,927 @@
+{
+  "episode_id": "2026-09-22-lennys-i-left-claude-for-months-opus-55",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-22",
+  "tags": [
+    "模型评测",
+    "Claude",
+    "智能体",
+    "前端设计",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "opus-5-5",
+      "type": "company",
+      "role": "company",
+      "name": "Opus 5.5",
+      "file": "Opus 5.5",
+      "primary": true,
+      "how_described": "本集主角:Anthropic 刚发布的模型,Fable 级性能、比 Opus 5 便宜约 40%、快约 30%,主持人实测后称它「不烦人了」,擅长长时智能体任务和前端设计,但仍爱说教。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            64.128,
+            67.169
+          ],
+          "quote": "Anthropic just dropped Claude Opus 5.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            102.982,
+            106.25500000000001
+          ],
+          "quote": "Now, does that mean that I'm moving all my workloads over to Opus 5.5?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            120.174,
+            123.565
+          ],
+          "quote": "but let's just give you the world tour of exactly what Opus 5.5 is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            141.402,
+            143.964
+          ],
+          "quote": " Opus 5.5 does feel zippier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            311.99,
+            316.733
+          ],
+          "quote": "But I have been testing Opus 5.5 across a bunch of real work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            348.203,
+            353.366
+          ],
+          "quote": "which I think shows how they've tuned the speaking voice of Opus 5.5 to be",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            469.845,
+            475.129
+          ],
+          "quote": "But I will just say, Opus 5.5, not annoying to talk to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            626.878,
+            630.719
+          ],
+          "quote": "But what I've really realized about Opus 5.5 is I've built it now back",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            639.26,
+            643.741
+          ],
+          "quote": "or because now I feel like at least Opus 5.5 is not a bad adversarial reviewer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            689.867,
+            692.449
+          ],
+          "quote": "I have to say Opus 5.5 crushed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            888.261,
+            892.545
+          ],
+          "quote": "This is like the sloppiest thing that came out of Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            928.399,
+            932.401
+          ],
+          "quote": "to start making illustrations, I think Opus 5-5 is really good at it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            968.649,
+            972.411
+          ],
+          "quote": "I just think maybe I'll go to Opus 5.5 for all my front end tasks",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1005.108,
+            1008.85
+          ],
+          "quote": "I do think that Opus 5.5 is performant and does a really good job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1017.123,
+            1021.606
+          ],
+          "quote": " So I just have no complaints about Claude Opus 5-5 as a front-end designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1120.612,
+            1125.643
+          ],
+          "quote": "Now, I have to go check if the other models told me no, but I do know that Opus 5.5 told me no.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1187.719,
+            1194.719
+          ],
+          "quote": "But this is one where Opus 5-5, in my opinion, did the best, spoiler alert, SVG illustrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1240.473,
+            1241.683
+          ],
+          "quote": "Opus 5.5 for something new,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1302.162,
+            1306.646
+          ],
+          "quote": " So just like going back to the top of what I think about Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1452.402,
+            1456.705
+          ],
+          "quote": "But this has been my honest and humble take on Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它发布了 Opus 5.5,是其「为前沿设限」(pacing the frontier)之后的第一次模型发布,主打更便宜、更快、对齐最强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            64.128,
+            67.169
+          ],
+          "quote": "Anthropic just dropped Claude Opus 5.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            123.615,
+            125.22611111111111
+          ],
+          "quote": "or what Anthropic says it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            201.177,
+            207.103
+          ],
+          "quote": "Before we get to is it annoying, let's let Anthropic be Anthropic and talk about safety.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            207.564,
+            211.949
+          ],
+          "quote": "Anthropic's making a big deal that this is the first model release since they called",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            653.263,
+            659.962
+          ],
+          "quote": " Now, this is where Anthropic, Claude, Always shines every time frontend gets better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "主持人停用数月后因 Opus 5.5 而「回来」的产品线:本集说它一直擅长前端设计、但底色是爱说教、古板、套路化的棕黄配色。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.275,
+            7.198
+          ],
+          "quote": "I have been off Claude for months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            17.488,
+            21.32133333333333
+          ],
+          "quote": "I stopped using Claude not because of its intelligence or its models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            22.032,
+            24.587555555555554
+          ],
+          "quote": "I stopped using Claude because it was amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            28.166,
+            33.01
+          ],
+          "quote": "As I said in another episode, Claude Slop was sloppin'.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            33.37,
+            38.854
+          ],
+          "quote": "I found using Claude, whether I was using Fable or Opus or even Sonnet, so frustrating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            38.914,
+            43.397
+          ],
+          "quote": "My blood would boil because Claude was so annoying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            49.082,
+            54.214000000000006
+          ],
+          "quote": " And I found it so frustrating to work with that I just abandoned the Claude harness entirely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            59.006,
+            62.377
+          ],
+          "quote": "but if I had to talk to something, I was choosing not to talk to Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            64.128,
+            67.169
+          ],
+          "quote": "Anthropic just dropped Claude Opus 5.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            97.46,
+            102.802
+          ],
+          "quote": "And I have to tell you, I finally am back to a Claude model that does not bother me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            152.068,
+            156.34577777777778
+          ],
+          "quote": "So good at agentic coding tasks, good at the things that Claude B. Claude in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            242.008,
+            244.47
+          ],
+          "quote": " That's just life with Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            244.77,
+            246.201
+          ],
+          "quote": "Claude is going to scold you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            246.251,
+            247.6398888888889
+          ],
+          "quote": "Claude is kind of square.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            247.912,
+            251.184
+          ],
+          "quote": "Claude is not going to drink with you in a field behind your friend's house.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            251.234,
+            252.6228888888889
+          ],
+          "quote": "Claude's not a party boy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            252.875,
+            257.417
+          ],
+          "quote": "Claude is here to work unless he disagrees with the work and then you're SOL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            428.14,
+            432.3622222222222
+          ],
+          "quote": "And so instead of like narrating itself in this really obnoxious Claude way,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            632.559,
+            635.88
+          ],
+          "quote": "either because now I'm using Claude and ChatGPT codecs,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            653.263,
+            659.962
+          ],
+          "quote": " Now, this is where Anthropic, Claude, Always shines every time frontend gets better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            763.71,
+            770.073
+          ],
+          "quote": "I just think the Opus models, the Claude models generally do just a quite lovely job of design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            947.351,
+            951.514
+          ],
+          "quote": "I think you just gotta like pull back Claude sometimes and make sure",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1017.123,
+            1021.606
+          ],
+          "quote": " So I just have no complaints about Claude Opus 5-5 as a front-end designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1036.195,
+            1040.738
+          ],
+          "quote": "And then like, God save me from Claude kind of like tan and orange.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1048.289,
+            1051.89
+          ],
+          "quote": "This is one where I have consistently liked Claude models,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1062.053,
+            1067.215
+          ],
+          "quote": "I've always liked writing of Claude in an agentic assistant harness,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1158.004,
+            1162.624
+          ],
+          "quote": "I have given both Claude and Codex feedback on my voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1349.729,
+            1351.43
+          ],
+          "quote": "Claude's back to me, at least.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1351.53,
+            1353.211
+          ],
+          "quote": "So Claude is back in the dock.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1369.068,
+            1375.25
+          ],
+          "quote": "And so it's going to be really hard to re-break that muscle memory of using the Claude app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1408.397,
+            1410.828
+          ],
+          "quote": " Where am I still not going to the Claude models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1430.146,
+            1434.308
+          ],
+          "quote": "It's available in the Claude platform, Claude apps and Claude code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1458.467,
+            1460.098
+          ],
+          "quote": "Claude can come back in my house.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "codex",
+      "file": "codex",
+      "primary": true,
+      "how_described": "主持人对比的编码工具:即使模型变好,她日常仍更常伸手用 codex——「我更喜欢它的 harness、桌面应用、computer use」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            1158.004,
+            1162.624
+          ],
+          "quote": "I have given both Claude and Codex feedback on my voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1354.083,
+            1358.885
+          ],
+          "quote": " I will say I still find myself reaching for codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1359.445,
+            1361.295
+          ],
+          "quote": "Why do I find myself reaching for codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1411.818,
+            1414.42
+          ],
+          "quote": "I just think Codex is so much better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:实测长时间运行的智能体任务(收件箱分诊、后端功能、长程研究、computer use),单提示词跑 25-82 步全部成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            152.068,
+            156.34577777777778
+          ],
+          "quote": "So good at agentic coding tasks, good at the things that Claude B. Claude in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            316.813,
+            321.373
+          ],
+          "quote": " So PRD writing, prototyping, code-based auditing, Agentic Voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            482.931,
+            485.102
+          ],
+          "quote": "First thing I tested was long-running agentic tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            495.567,
+            497.988
+          ],
+          "quote": "Good thing the four long-running agentic tasks I had to do,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            539.778,
+            542.819
+          ],
+          "quote": "A couple of fun things with these agentic tasks is you can let them run for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1062.053,
+            1067.215
+          ],
+          "quote": "I've always liked writing of Claude in an agentic assistant harness,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1309.908,
+            1313.391
+          ],
+          "quote": "Two, it's good at long-running agentic tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说 Opus 5.5 更能抵抗提示词注入,实测中它在收件箱分诊里主动忽略了一次提示词注入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            555.582,
+            560.603
+          ],
+          "quote": "of these long running tasks is in inbox triage, it ignored a prompt injection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            568.544,
+            572.545
+          ],
+          "quote": "but it did ignore a prompt injection on my inbox triage on computer use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (safeguards)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说它是首个带 cyber 和 bio 防护机制发布的 Opus 模型,网络安全任务会被推给 Opus 4.8;主持人提醒护栏会体现在个性上——它还是爱说教。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            279.248,
+            283.933
+          ],
+          "quote": "This is the first Opus model to launch with the fable cyber and bio safeguards.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集实测项之一:它发现工单链接错了公司并修好、拒绝不符行动手册的客户请求;但主持人最终仍觉得 Codex 的 computer use 好太多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            323.635,
+            328.759
+          ],
+          "quote": "So inbox triage, writing emails as me, computer use, and then some cool creative use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            500.789,
+            504.971
+          ],
+          "quote": "doing long-running research and computer use, all succeeded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            568.544,
+            572.545
+          ],
+          "quote": "but it did ignore a prompt injection on my inbox triage on computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            573.005,
+            574.716
+          ],
+          "quote": "It was like computer use of a fake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            1364.066,
+            1366.007
+          ],
+          "quote": "I like computer use better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1410.878,
+            1411.768
+          ],
+          "quote": "Computer use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "front-end",
+      "type": "concept",
+      "role": "concept",
+      "name": "前端设计 (front-end)",
+      "file": "前端设计",
+      "primary": true,
+      "how_described": "本集说 Claude 的传统强项:Opus 5.5 重设计 ChatPRD 主页「相当漂亮」,是主持人「目前测试过的最好的」前端设计师,但消费级应用是其翻车区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            968.649,
+            972.411
+          ],
+          "quote": "I just think maybe I'll go to Opus 5.5 for all my front end tasks",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1017.123,
+            1021.606
+          ],
+          "quote": " So I just have no complaints about Claude Opus 5-5 as a front-end designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1317.154,
+            1319.5984444444443
+          ],
+          "quote": "Four, it is exceptional at front-end design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1321.898,
+            1326.121
+          ],
+          "quote": "You should be using it for visual front-end kind of like display work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1382.078,
+            1387.619
+          ],
+          "quote": " So architecture, questions, and then I'll be using it in front end.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "svg",
+      "type": "concept",
+      "role": "concept",
+      "name": "SVG",
+      "file": "SVG",
+      "primary": true,
+      "how_described": "本集的意外惊喜:新模型能直接用代码画出漂亮的 SVG 插图,Opus 5.5 是唯一做出来的模型,主持人决定把 SVG 生成加进评测基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            923.176,
+            926.248
+          ],
+          "quote": "We're going to look at SVG generation as a new part of the bench.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1187.719,
+            1194.719
+          ],
+          "quote": "But this is one where Opus 5-5, in my opinion, did the best, spoiler alert, SVG illustrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1196.384,
+            1201.167
+          ],
+          "quote": "So I asked it to make three SVG illustrations of characters",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1241.733,
+            1246.795
+          ],
+          "quote": "I would try it with SVG writing and then potentially even illustrations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ChatPRD",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -138,8 +138,8 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 **顺着「AI 安全」挖下去**
 
 - [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research · 同概念:RL、智能体 (agent)</span>
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同嘉宾:Ryan Greenblatt · 同公司:Redwood Research、Hugging Face、OpenAI · 同概念:奖励黑客 (reward hacking)、对齐 (alignment)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:对齐 (alignment)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

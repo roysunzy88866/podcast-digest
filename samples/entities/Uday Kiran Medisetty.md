@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uber":16,"智能体":391,"模型网关":1,"MCP 网关":3,"上下文图":1,"技能":25,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":16}</script>
+<script type="application/json" class="pd-epn">{"Uber":16,"智能体":397,"模型网关":1,"MCP 网关":3,"上下文图":1,"技能":25,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":16}</script>
 
 <script>
 (function(){

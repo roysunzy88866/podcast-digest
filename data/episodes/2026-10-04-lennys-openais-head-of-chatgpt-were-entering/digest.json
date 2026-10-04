@@ -1,0 +1,166 @@
+{
+  "title_zh": "OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体",
+  "tldr": "OpenAI Codex 负责人 Tibo 聊 dots 与智能体愿景：为什么不用搭 loops、开放生态怎么赚钱、招聘里什么技能贬值了。",
+  "digest_md": "这一集是 Lenny 的播客，在 OpenAI DevDay 现场录的，主角是 Tibo——OpenAI Codex 的负责人，当天他们刚发布了一大堆东西，包括这次访谈的主角产品 dots(一个 7×24 小时工作、理解你的目标和偏好、从反馈中学习的常驻智能体)。Tibo 说了一句全集最值得琢磨的话：他觉得外面人们在构建的东西，大多「还没完全领会」——如果你真去想象这一切在一年内比今天好上 10 倍，你就会用完全不同的方式去构建。[00:00 Tibo]\n\n## loops 和 graphs 都不是终局：你只想要一个会学习的系统\n\n主持人问他日常并行跑多少个智能体，他的回答有点反直觉：以前跑得多，现在反而少了。因为模型一突破，「一个更大的智能体就能把所有事都做了，把一切都保留在记忆里，并且学习」，于是他就把团队缩回去——他的智能体团队就这样经历「扩张、收缩、再扩张」的循环。[02:52 Tibo]\n\n由此他判断：那种需要自己搭建、摆弄 loops(把任务串成固定循环流程)和 graphs 的做法，「也许是人们曾为之兴奋的东西，但我不认为这就是它未来运作的方式」。他想要的方向是 dots 这样的东西：不需要模型选择器、不需要配置，你直接和它说话，它 24/7 工作、从反馈中学习。他说得更彻底一点：这一切的本质是「摆脱技术本身的束缚，拥有这种持久的、主动的智能，可以通过任何客户端、任何屏幕使用」——你走进会议室它出现记笔记，回到邮件里接着处理，需要时给它发短信；你不必再随身拖着笔记本这块「砖」。[04:13 Tibo]\n\n工作方式还会继续激进变化。语音、多模态这些技术终于开始整合到位，「但它仍然感觉有点笨拙，我认为它会一直感觉笨拙，直到它不再笨拙」。[06:41 Tibo]\n\n## 他心里的「暗中爆款」：开放生态 + 分钱\n\n今天所有发布里，他觉得最被低估的是生态系统。与 ChatGPT 登录绑定的合作已有 16 个伙伴，起步其实很随意——他跟 Pi 和 OpenCode 的创造者聊天，「你们当然应该可以直接用 Codex 登录」，然后虚拟地握了个手。现在变成了正式支持的东西。[11:51 Tibo]\n\n更关键的是经济模式：他们没有在主题演讲里讲，但**受欢迎、使用量大的插件会拿到收入分成**。插件被发现的方式也不是 AEO 那套关键词玩法——「做一个好插件」就行，他们看留存数据、看质量，好的插件会被直接推荐给相当大一部分用户，「如果你的插件不太好的话，它就会停止被推荐」。他承认这是第二次尝试应用商店，「这一次才是对的」。[13:51 Tibo]\n\n## dots 背后是两年多的长时程任务和记忆研究\n\n为什么 dots 出得这么慢？他说长的、持久的、长时程任务他们研究了超过两年，保持连贯的记忆系统也差不多同样久——大量成果已经直接上线到 ChatGPT(很多人都有「ChatGPT 竟然记得我那次烧烤用了青柠」的时刻)。这一切再叠加在 Codex harness 之上、加上 24/7 运行的能力，才凑成了 dots。安全也是重点：随 dots 一起发布的是他们最安全、对齐程度最高的模型 Astra。[15:14 Tibo]\n\ndots 架构上有个很多人没意识到的点：harness 不跑在你那台机器上，它有自己的「计算机」，可以连接任意多的设备——有些专门的 dot 就跑在 Mac mini 上，带额外护栏和监控。他在 DevDay 现场被这个体验惊到过：现场演示前五分钟，他的 dot 主动提醒他 ChatGPT 生产环境宕机了，因为它自己推理出「DevDay 要开始了、有现场演示、演示大概率用这个生产系统、还有五分钟，所以我该提醒他」——然后还问「要我试着修一下吗」？他说「我觉得你还没到那一步，小 dot,不过谢谢」。[20:42 Tibo]\n\n## 人的价值：品味、受众连接，和「建造者比以往更多」\n\n招聘上什么技能在贬值？「打字快。那已经不那么有用了。」升值的是出色的品味、为用户着想、与受众建立连接；而且大量前创始人现在格外成功——他说 OpenAI 里有超过 120 名前 YC 创始人，「就像一个超级初创公司」。[23:44 Tibo]\n\n问到人类大脑会继续在哪里有价值，他的框架是：OpenAI 设计一切的方式就是把人放在中心，把技术构建成「人的延伸、你的意愿和你的品味的延伸」。「我们可能不再有程序员了，但我们拥有的建造者比以往任何时候都多」——人类想学习和看到其他人类在建造什么，这一点会保持很久。[16:37 Tibo]\n\n他也正面回应了工程师的孤独感和「必须同时跑 30 个智能体」的压力：解法是减少配置疲劳、减少「和智能体对话是一场单人冒险」的感觉，以及 AI 的真正承诺是「减少噪音，让你把注意力花在你想花的地方」。他自己每次度假彻底断联一周后都会以更有创造性的方式思考，「我们能不能就让这成为你的日常？也许你不需要做那么多，休息得更好你实际上会更有生产力」。[19:36 Tibo]\n\n## OpenAI 内部：自下而上，以及他搞砸的事\n\n内部什么样？大量自下而上：Decisions API 就是四个人周末折腾出来的，先作为内部工具开放，大家兴奋起来、完全无结构地参与，然后一路做到发布，最后用高标准把关。发布太多了他们还会主动收着，「下周和再下周会有更多发布」。[27:34 Tibo]\n\n文化是「信任人们会做出很棒的选择，出了问题就快速修复或从错误中学习」。他自己搞砸过：Codex 早期几次宕机是他造成的，「我加入 OpenAI 最早的时候，第三天就把生产环境搞挂了」——好在「那之后我仍然被雇用着，我也吸取了教训」。[30:25 Tibo]\n\n## 没被定价进去的三件事\n\n最后拉远视角，他觉得人们没定价进去的是三件事：**① 互联网上的大多数操作将会由智能体来完成**；**② 模型会以令人难以置信的速度变得更便宜、更快**；**③ 所有模态终将以非常无缝的方式整合在一起**。由此有个二阶效应：如果你的产品想对智能体成功，就必须为那种规模去构建——他们和 Notion 深度合作，Notion 做了 MCP(让智能体调用外部工具的标准接口)后，突然涌入海量智能体流量，系统压力大增，你得想清楚经济账。「你可以暂时把接口按住不发，但这是不可避免的。」反过来，为人类打造真正愉悦的新体验，「是投资不足的领域」。[30:58 Tibo]\n\n安全问题上他的态度是投入要远超自认为应有的程度：他们在 API 栈上的**大部分投入实际进了安全栈**，越来越多的算力花在「二次监控」上——用一套算力专门盯着干活的智能体，一旦发现风险过高的操作就打断。他提到有过 6.1 Astra 但没发布，「这是我非常自豪的一件事」。「我们为 12 亿人打造产品，我们不能搞砸这件事，所以我们不会在这上面赌博。」[34:21 Tibo]\n\n过去一年他改变的想法：原以为达到今天 Astra 的能力还要一两年(结果提前了)；没料到自己会这么依赖语音和听写；也没料到年轻一代会是最先拥抱这一切、并想清楚怎么驾驭的人——初入职场反而是优势，因为他们没被旧工作方式定型。\n\n## 本集带走\n\n- **别再搭 loops 了**：固定流程编排是过渡形态，方向是会学习、懂你目标、常驻可用(任何屏幕、任何客户端)的智能体；模型一升级，大团队可能缩成一个更强的智能体。\n- **为智能体的规模而构建**：互联网大多数操作将来自智能体，产品接口(如 MCP)迟早要做，早想清楚流量与经济账。\n- **插件生态的分发靠留存，不靠关键词**：做好插件，留存好就会被推荐给海量用户，热门插件还有收入分成。\n- **招聘风向**：打字速度贬值，品味、用户同理心、快速学习能力升值；连续创业者和没被旧习惯定型的年轻人是红利。\n- **把「度假状态」变成日常**是 AI 的承诺之一：更少噪音、更少会议，休息更好反而更有产出。\n- **10 倍思维**：构想产品时，想象这些能力一年内好上 10 倍——那样你会用完全不同的方式去构建。\n\n> 【背景】主持人 Lenny 提到他长期的一个论点：PM(产品经理)会在这个时代蓬勃发展，因为「该构建什么、构建出来对不对」正是 PM 的本职——Tibo 对此表示同意，并补充角色界限正在模糊，「你可能一直只做设计或只做工程、总觉得有点不自在，但现在正是你大放异彩的时候」。",
+  "quotes": [
+    {
+      "en": "Often, when I look at what people are building out there, it's just like you're not quite getting it. If you were just pushing yourself and just really imagining all of this being roughly 10 times better than it is today in a year, you would build in a different way.",
+      "zh": "通常，当我看外面人们在构建的东西时，感觉就是你还没完全领会。如果你只是逼一逼自己，真正去想象这一切在一年内比今天大约好上 10 倍，你就会用不同的方式去构建。",
+      "timestamp": "00:00",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "The majority of actions on the internet will be taken by agents.",
+      "zh": "互联网上的大多数操作将由智能体来执行。",
+      "timestamp": "00:17",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Having to set up and fiddle with your loops is something that maybe people get excited about, but I don't think this is the way that it's going to work.",
+      "zh": "必须去搭建和摆弄你的 loops,这也许是让人们感到兴奋的事，但我不认为这会是它最终运作的方式。",
+      "timestamp": "00:46",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "I can't wait for that to come to fruition, because I think just carrying your laptop as this brick around everywhere is just you're tied to the technology instead of the technology working for you.",
+      "zh": "我迫不及待想看到这一切成为现实，因为我觉得随身到处带着笔记本电脑就像带着一块砖，是你在迁就技术，而不是技术在为你服务。",
+      "timestamp": "04:55",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "I think the sleeper hit is a ecosystem, so opening it all up and the commitment, the deep commitment we have towards opening it all up.",
+      "zh": "我觉得被忽视的黑马是生态系统，也就是把一切开放，以及我们对开放一切所做出的深度的承诺。",
+      "timestamp": "11:51",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "We may not have coders anymore, but we have more builders than ever.",
+      "zh": "我们可能不再有程序员了，但我们拥有的建造者比以往任何时候都多。",
+      "timestamp": "17:10",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Very, very earliest for me at OpenAI, I took production down day three.",
+      "zh": "在我加入 OpenAI 最早的时候，第三天我就把生产环境搞挂了。",
+      "timestamp": "30:25",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "The majority of our investment on the API stack is actually going into the safety stack.",
+      "zh": "我们在 API 栈上的大部分投入,实际上是投入到安全栈上的。",
+      "timestamp": "34:58",
+      "speaker": "Tibo Sottiaux"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "Often, when I look at what people are building out there, it's just like you're not quite getting it. If you were just pushing yourself and just really imagining all of this being roughly 10 times better than it is today in a year, you would build in a different way.",
+      "zh": "通常，当我看外面人们在构建的东西时，感觉就是你还没完全领会。如果你只是逼一逼自己，真正去想象这一切在一年内比今天大约好上 10 倍，你就会用不同的方式去构建。"
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Unknown",
+      "en": "The majority of actions on the internet will be taken by agents.",
+      "zh": "互联网上的大多数操作将由智能体来执行。"
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Unknown",
+      "en": "If you want your product to be successful for agents, you have to build for a certain level of scale.",
+      "zh": "如果你想让你的产品对智能体取得成功，你就必须为某种规模的量级而构建。"
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Unknown",
+      "en": "Having to set up and fiddle with your loops is something that maybe people get excited about, but I don't think this is the way that it's going to work.",
+      "zh": "必须去搭建和摆弄你的 loops,这也许是让人们感到兴奋的事，但我不认为这会是它最终运作的方式。"
+    },
+    {
+      "timestamp": "00:54",
+      "speaker": "Unknown",
+      "en": "Over time, you just want a system that learns.",
+      "zh": "随着时间推移，你只想要一个会学习的系统。"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Unknown",
+      "en": "Even today, it still feels a bit clunky, and I think it will feel clunky until it isn't.",
+      "zh": "即使是今天，它仍然感觉有点笨拙，而我认为它会一直感觉笨拙，直到它不再笨拙。"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Unknown",
+      "en": "It's all about breaking free from the technology and having this sort of permanent active intelligence that knows everything it needs to do and is available through any client, any screen.",
+      "zh": "这一切都是关于摆脱技术本身的束缚，拥有这种持久的、主动的智能，它知道所有它需要做的事，并且可以通过任何客户端、任何屏幕使用。"
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Unknown",
+      "en": "I can't wait for that to come to fruition, because I think just carrying your laptop as this brick around everywhere is just you're tied to the technology instead of the technology working for you.",
+      "zh": "我迫不及待想看到这一切成为现实，因为我觉得随身到处带着笔记本电脑就像带着一块砖，是你在迁就技术，而不是技术在为你服务。"
+    },
+    {
+      "timestamp": "11:51",
+      "speaker": "Unknown",
+      "en": "I think the sleeper hit is a ecosystem, so opening it all up and the commitment, the deep commitment we have towards opening it all up.",
+      "zh": "我觉得被忽视的黑马是生态系统，也就是把一切开放，以及我们对开放一切所做出的深度的承诺。"
+    },
+    {
+      "timestamp": "13:51",
+      "speaker": "Unknown",
+      "en": "Build a good plugin.",
+      "zh": "做一个好插件。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Unknown",
+      "en": "We may not have coders anymore, but we have more builders than ever.",
+      "zh": "我们可能不再有程序员了，但我们拥有的建造者比以往任何时候都多。"
+    },
+    {
+      "timestamp": "19:36",
+      "speaker": "Unknown",
+      "en": "I find it remarkable every time I go on a holiday, and I take that one week to just fully disconnect. I start to think in different and more creative ways, and I'm very eager to see, can we bring that?",
+      "zh": "每次我去度假，我都会发现这很了不起，我用那一周时间完全断开连接。我开始以不同的、更有创造性的方式思考，我非常渴望看到，我们能不能把那种状态带回来？"
+    },
+    {
+      "timestamp": "20:05",
+      "speaker": "Unknown",
+      "en": "It's not just one more prompt per second.",
+      "zh": "它不只是每秒多一次提示。"
+    },
+    {
+      "timestamp": "23:44",
+      "speaker": "Unknown",
+      "en": "I would say skill that is trending down is typing fast. That is not that useful anymore.",
+      "zh": "我会说呈下降趋势的技能是打字快。那已经不那么有用了。"
+    },
+    {
+      "timestamp": "30:25",
+      "speaker": "Unknown",
+      "en": "Very, very earliest for me at OpenAI, I took production down day three.",
+      "zh": "在我加入 OpenAI 最早的时候，第三天我就把生产环境搞挂了。"
+    },
+    {
+      "timestamp": "31:04",
+      "speaker": "Unknown",
+      "en": "Models are going to become more cheaper and faster at rates that are quite incredible.",
+      "zh": "模型会变得更便宜、更快,而且速度快得令人难以置信。"
+    },
+    {
+      "timestamp": "34:58",
+      "speaker": "Unknown",
+      "en": "The majority of our investment on the API stack is actually going into the safety stack.",
+      "zh": "我们在 API 栈上的大部分投入,实际上是投入到安全栈上的。"
+    },
+    {
+      "timestamp": "36:45",
+      "speaker": "Unknown",
+      "en": "You kind of need a PhD in model pickers.",
+      "zh": "你差不多需要一个模型选择器的博士学位。"
+    }
+  ],
+  "voice_script": "今天这期是 Lenny 的播客，在 OpenAI DevDay 现场录的。嘉宾叫 Tibo,是 OpenAI Codex 的负责人，当天他们刚发布了一大堆东西，其中最受关注的，是一个叫 dots 的产品——一个全天候工作、理解你的目标和偏好、还能从反馈里学习的常驻智能体。这期要聊的，就是这样一个问题：当智能体一年内比今天强上 10 倍，我们现在构建东西的方式，是不是整个就错了？\n\nTibo 有句原话，全集最值得琢磨：看外面人们在构建的东西，感觉就是你还没完全领会。如果逼自己真正想象这一切一年内好上 10 倍，你就会用完全不同的方式去构建。\n\n那具体哪里构建错了？先从主持人一个问题说起：你日常并行跑多少个智能体？答案有点反直觉——以前跑得多，现在反而少了。因为模型一突破，一个更大的智能体就能把所有事都做了，把一切都保留在记忆里，并且学习。所以智能体团队的经历，是扩张、收缩、再扩张的循环。由此引出一个判断：那种需要自己搭建、自己摆弄 loops 的做法——所谓 loops,就是把任务串成固定循环的流程——也许曾是人们兴奋的东西，但不是它未来运作的方式。真正想要的方向，是 dots 这样：不需要选模型、不需要配置，你直接跟它说话，它二十四小时工作、从反馈中学习。Tibo 说得更彻底：这一切的本质，是摆脱技术本身的束缚，拥有持久、主动的智能，通过任何客户端、任何屏幕使用。你走进会议室，它出现记笔记；回到邮箱，它接着处理；需要时发条短信就行。用他的话说，随身带着笔记本电脑，就像带着一块砖，是你在迁就技术，而不是技术为你服务。\n\n那这些发布里，什么最被低估？答案出人意料：生态系统，也就是把一切开放。跟 ChatGPT 登录绑定的合作，已经有十六个伙伴。起步其实很随意——跟 Pi 和 OpenCode 的创造者聊了聊，说你们当然应该可以直接用 Codex 登录，虚拟地握了个手，后来就变成了正式支持。更关键的是经济模式：受欢迎、使用量大的插件，会拿到收入分成。插件被发现的方式也不是玩关键词那一套——做一个好插件就行。平台看留存、看质量，好的直接推荐给海量用户，不好的就停止推荐。Tibo 承认这是第二次尝试应用商店，这一次才是对的。\n\ndots 为什么出得这么慢？因为长时程任务和连贯的记忆系统，研究了超过两年，很多成果已经上线到 ChatGPT——很多人都有过那种「它竟然记得我那次烧烤用了青柠」的时刻。架构上还有个很多人没注意的点：harness 不跑在你那台机器上，它有自己的计算机，有些专门的 dot 就跑在 Mac mini 上，带着额外的护栏和监控。DevDay 现场演示前五分钟，dot 主动提醒生产环境宕机了，还问要不要试着修一下——答案是：还没到那一步，小 dot,不过谢谢。\n\n人的价值呢？打字快，这个技能已经在贬值。升值的是出色的品味、为用户着想、和受众建立连接；OpenAI 里有超过一百二十名前 YC 创始人，像个超级初创公司。有句话值得记住：我们可能不再有程序员了，但我们拥有的建造者比以往任何时候都多。\n\n最后拉远看，有三件事没被市场定价进去：互联网上的大多数操作将由智能体来执行；模型会以惊人的速度更便宜、更快；所有模态终将无缝整合。由此有个二阶效应——Notion 接入 MCP、让智能体调用工具之后，智能体流量海量涌入，系统压力大增，这笔经济账你迟早要算。接口可以暂时按住不发，但这不可避免。\n\n所以，回到开头那个判断：如果一年内这一切好上 10 倍，你就不会像今天这样去构建。互联网上的大多数操作将由智能体来执行——这不是预测，是需要现在就为它设计的前提。"
+}

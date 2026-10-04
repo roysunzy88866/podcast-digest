@@ -1,0 +1,1227 @@
+{
+  "episode_id": "2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-22",
+  "tags": [
+    "模型评测",
+    "AI 编程",
+    "盲测基准",
+    "模型选型",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它发布了 Opus 5.5,称这是对齐程度最高的模型,第一个搭载网络安全和生物护栏的 Opus 级别模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.198,
+            5.242
+          ],
+          "quote": " I was massively prepared for Anthropic to drop Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            44.008,
+            48.732
+          ],
+          "quote": "Opus 5.5 from Anthropic, GPT-6 Sol, and GPT-6 Luna.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            310.336,
+            315.357
+          ],
+          "quote": "of anthropic models is it continues to be a little bit of like a conservative scold.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            434.651,
+            438.214
+          ],
+          "quote": "The feedback I gave to the Anthropic team is not annoying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            602.168,
+            605.041
+          ],
+          "quote": " OpenAI and Anthropic, but it also includes, I think, Grok's in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            627.108,
+            632.95
+          ],
+          "quote": "I will like Anthropic models, possibly Grok, who knows, for front-end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            652.776,
+            656.973
+          ],
+          "quote": " And I think videos are going to be OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            1868.832,
+            1871.753
+          ],
+          "quote": " Anthropic's going to crush on the SVGs, maybe?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2254.811,
+            2259.315
+          ],
+          "quote": "So not a complete failure by the Anthropic team by any means.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它同一天发布了 GPT-6 Sol 和 GPT-6 Luna,更便宜更快,其模型在角色 SVG 插画上表现最好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.642,
+            9.725
+          ],
+          "quote": "I was even prepared for OpenAI to drop another model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            602.168,
+            605.041
+          ],
+          "quote": " OpenAI and Anthropic, but it also includes, I think, Grok's in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            615.84,
+            617.591
+          ],
+          "quote": "because I love the OpenAI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            622.245,
+            625.148
+          ],
+          "quote": "I will like OpenAI models for knowledge work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            644.833,
+            648.134
+          ],
+          "quote": "Computer use, I'm suspecting, will be OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            652.776,
+            656.973
+          ],
+          "quote": " And I think videos are going to be OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2270.464,
+            2276.588
+          ],
+          "quote": "And then surprise hit, the character SVGs are best done by the OpenAI model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说主持人在 Fable 和 Opus 5 之间受不了它的 Harness 而弃用数月,但 Opus 5.5 把 Claude 请回了日常;Claude 模型做复杂任务会输出特别密集详细的内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            347.113,
+            352.177
+          ],
+          "quote": "I truly have not opened Claude in months before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            365.443,
+            372.443
+          ],
+          "quote": "but really the reason why I got rid of Claude in my day-to-day was between Fable",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            378.667,
+            379.908
+          ],
+          "quote": " Talking to Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            380.208,
+            383.34
+          ],
+          "quote": "I was constantly prompting Claude, like, can you speak like a human?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            387.393,
+            390.896
+          ],
+          "quote": "The Claude slop, as I say, was Claude slopping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            418.961,
+            420.803
+          ],
+          "quote": " I have brought Claude back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            521.386,
+            523.807
+          ],
+          "quote": " Also, you know, Claude on high effort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            637.171,
+            640.332
+          ],
+          "quote": "I suspect I will like a Claude model for agent personality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            640.352,
+            644.673
+          ],
+          "quote": "I suspect the long-running agent will be a Claude model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            650.355,
+            652.726
+          ],
+          "quote": "Actually, creative SVGs, I think, are going to be Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            831.393,
+            834.715
+          ],
+          "quote": "Now, this is where I think we can tell Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            936.028,
+            937.969
+          ],
+          "quote": "the Claude models,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1096.076,
+            1098.777
+          ],
+          "quote": "This one, I'm guessing, is Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1217.337,
+            1222.222
+          ],
+          "quote": "Remember when Claude Artifacts came out and everybody made little daily briefs",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1248.178,
+            1252.18
+          ],
+          "quote": "This is very classic Claude Slop, like background lighter circle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1555.342,
+            1560.325
+          ],
+          "quote": "except this is definitely a Claude model because it tells me I can't push straight",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            1837.046,
+            1842.173
+          ],
+          "quote": "And then what I do is I give it to Claude and I say, Claude, what do I think?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1850.109,
+            1854.834
+          ],
+          "quote": "I think that I'm going to like Claude and particularly Opus 5.5 for front end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2105.88,
+            2112.162
+          ],
+          "quote": "So the Sol and the GPT models I judged as clear and easy to read and then Claude Opus still.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2200.044,
+            2202.744
+          ],
+          "quote": "Claude Opus did my favorite B2B renewals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opus-5-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 5.5",
+      "file": "Opus 5.5",
+      "primary": true,
+      "how_described": "本集说它更便宜更快、「不烦人」,是盲测里得分最高的单件工作模型,也是她最喜欢的智能体语音,但安静得不复述工作、让人怀疑它是否在干活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.198,
+            5.242
+          ],
+          "quote": " I was massively prepared for Anthropic to drop Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.025,
+            15.068
+          ],
+          "quote": "I got up early this morning because I had a little bit of early access to Opus 5.5",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.509,
+            19.872
+          ],
+          "quote": "to record you all an amazing Opus 5.5 review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            25.226,
+            32.215
+          ],
+          "quote": "So now I am, despite having in the can, you will see it later, a great Opus 5-5 review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            44.008,
+            48.732
+          ],
+          "quote": "Opus 5.5 from Anthropic, GPT-6 Sol, and GPT-6 Luna.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            90.484,
+            91.525
+          ],
+          "quote": "So Quad Opus 5.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            179.149,
+            183.612
+          ],
+          "quote": "Opus 5.5 is twice as expensive as GPT-6 Sol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            191.077,
+            192.077
+          ],
+          "quote": "Again, Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            258.62,
+            264.982
+          ],
+          "quote": "But this is something that I really want you all to focus on is this left side on Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            265.103,
+            269.845
+          ],
+          "quote": "Opus 5.5 is the first Opus-level model that has shipped with the Fable-level kind",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            277.99,
+            284.99
+          ],
+          "quote": " In Opus 5.5, but you won't be able to do cybersecurity work or biowork, make good choices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            315.617,
+            318.999
+          ],
+          "quote": "You'll see that in my Opus 5.5 review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            420.903,
+            422.043
+          ],
+          "quote": "So Opus 5.5,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            440.997,
+            443.819
+          ],
+          "quote": " Zero times with Opus 5-5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            444.279,
+            450.862
+          ],
+          "quote": "And when I thought I was annoyed with Opus 5-5, I was actually accidentally on Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            454.764,
+            461.108
+          ],
+          "quote": "Opus 5-5, though, gives me clean bullet points, is normal, is not annoying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            463.129,
+            470.129
+          ],
+          "quote": " The other thing is Opus 5.5 is pretty fast, but not as fast as Sol is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            493.225,
+            498.168
+          ],
+          "quote": "the way they made Opus 5.5 not annoying is they had it shut up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            511.456,
+            517.902
+          ],
+          "quote": "And so there was like pros and cons to this change in Opus 5.5 communication",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1850.109,
+            1854.834
+          ],
+          "quote": "I think that I'm going to like Claude and particularly Opus 5.5 for front end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            1907.861,
+            1910.002
+          ],
+          "quote": "And so one of the Opus 5 5",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2068.371,
+            2070.872
+          ],
+          "quote": "And then it says Opus 5.5 wins my week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2076.755,
+            2079.296
+          ],
+          "quote": "But on average, I gave Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 702,
+          "t": [
+            2223.334,
+            2225.655
+          ],
+          "quote": "I next we rank Opus 5.5 next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2252.51,
+            2254.291
+          ],
+          "quote": "Opus 5.5, I do not hate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2290.153,
+            2294.315
+          ],
+          "quote": "We are dropping a full Opus 5.5 review, so you'll be able to see that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-sol",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-6 Sol",
+      "file": "GPT-6 Sol",
+      "primary": true,
+      "how_described": "本集说它价格是 Opus 5.5 的一半、比它更快、复述程度恰到好处,是写 PRD 最好的模型,还爱用森林绿配色",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            44.008,
+            48.732
+          ],
+          "quote": "Opus 5.5 from Anthropic, GPT-6 Sol, and GPT-6 Luna.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            91.565,
+            92.316
+          ],
+          "quote": "GPT-6 Sol,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            179.149,
+            183.612
+          ],
+          "quote": "Opus 5.5 is twice as expensive as GPT-6 Sol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-luna",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-6 Luna",
+      "file": "GPT-6 Luna",
+      "primary": true,
+      "how_described": "本集说它是当天三个新模型之一,更便宜更快,是日常知识工作的主力,但与 Fable 不同档不拿来直接比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            44.008,
+            48.732
+          ],
+          "quote": "Opus 5.5 from Anthropic, GPT-6 Sol, and GPT-6 Luna.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            92.366,
+            93.366
+          ],
+          "quote": "and GPT-6 Luna,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "本集说它在角色 SVG 插画上表现远超预期,赢得了她的心,而且 LLM 裁判(Fable 党)与她的偏好完全相反",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            102.097,
+            105.681
+          ],
+          "quote": "We've had Astra come out, Fable's been refreshed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            356.061,
+            361.842
+          ],
+          "quote": "really into ChatGPT, really into Codex, really into Astra, really into Soul.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            611.036,
+            615.8
+          ],
+          "quote": "which is like I am always inclined to think that Astra or Sol will win",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            920.976,
+            923.258
+          ],
+          "quote": "This one feels Astra-y.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            924.339,
+            929.123
+          ],
+          "quote": "It's like in some ways nice, and in some ways like this kind of text is very Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2031.334,
+            2033.595
+          ],
+          "quote": "I ran it on Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2059.428,
+            2062.689
+          ],
+          "quote": " GPT-6 Astra and GPT-6 Soul win my heart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2063.35,
+            2068.231
+          ],
+          "quote": "Okay, Astra and GPT-6 I love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2166.697,
+            2170.599
+          ],
+          "quote": "Astra and Sol did a lot better on character SVGs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2191.342,
+            2195.323
+          ],
+          "quote": "Astra and GPT-Soul did these cute little illustrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            2195.343,
+            2199.065222222222
+          ],
+          "quote": "So I guess for SVGs, we're loving Astra and Soul for illustrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            2205.788,
+            2211.77
+          ],
+          "quote": " Things and but generally I like Astra and this is where it gets really funny.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            2218.172,
+            2219.693
+          ],
+          "quote": "I like Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2231.036,
+            2232.7026666666666
+          ],
+          "quote": "So again, Astra wins my heart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2251.429,
+            2252.429
+          ],
+          "quote": "I like Astra.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": true,
+      "how_described": "本集说它是能力天花板一档的模型,她仍不喜欢——「这就是我停止使用它的原因」,但 LLM 裁判却偏爱它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            102.097,
+            105.681
+          ],
+          "quote": "We've had Astra come out, Fable's been refreshed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            192.82,
+            197.09777777777776
+          ],
+          "quote": " Was cheaper than Opus 5 and Fable 1, to which they compare the intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            265.103,
+            269.845
+          ],
+          "quote": "Opus 5.5 is the first Opus-level model that has shipped with the Fable-level kind",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            365.443,
+            372.443
+          ],
+          "quote": "but really the reason why I got rid of Claude in my day-to-day was between Fable",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            383.39,
+            387.373
+          ],
+          "quote": "I was constantly prompting Fable, like, I do not understand what you're saying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            669,
+            671.6666666666666
+          ],
+          "quote": "Like I don't want to compare a Luna and a Fable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2086.259,
+            2087.56
+          ],
+          "quote": "Fable didn't love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2219.873,
+            2220.723
+          ],
+          "quote": "It likes Fable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说 Opus 5.5 是第一个搭载网络安全和生物领域护栏的 Opus 级别模型,做网安或生物工作会被降级或拦截",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            269.885,
+            272.186
+          ],
+          "quote": "of like cyber and bio guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存 (caching)",
+      "file": "缓存",
+      "primary": true,
+      "how_described": "本集说这波发布重点降了缓存输入成本,在这类模型上构建产品一定要优化缓存——「能帮你省很多钱,不优化会花很多冤枉钱」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            231.532,
+            235.196
+          ],
+          "quote": "And then caching, really great, especially if you're resending contacts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            235.216,
+            239.702
+          ],
+          "quote": "We've seen a lot of caching savings when we use all these models at chat.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blind-taste-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "盲测基准 (blind taste test)",
+      "file": "盲测基准",
+      "primary": true,
+      "how_described": "本集主线:她重构了 How I AI 盲测基准,模型匿名(Model A 到 H)、按能力分组同类比较,现场打一到五的 vibe 分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            72.697,
+            74.768
+          ],
+          "quote": "We're going to do the blind taste test bench.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            120.897,
+            126.479
+          ],
+          "quote": "And so I actually built out a much broader benchmark for this blind taste test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            132.602,
+            135.54644444444446
+          ],
+          "quote": "And we're actually going to blind taste test it live.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1124.652,
+            1129.436
+          ],
+          "quote": "This is like another thing we'll do is we'll just like blind taste test these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            1700.616,
+            1703.319
+          ],
+          "quote": "And then we're going to run the blind taste test.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 当裁判 (LLM as a judge)",
+      "file": "LLM 当裁判",
+      "primary": true,
+      "how_described": "本集说她把代码正确性和长任务交给 LLM 裁判评,结果它(一个 GPT 模型)与她完全 disagree——她喜欢 Astra,它喜欢 Fable",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 478,
+          "t": [
+            1469.933,
+            1472.715
+          ],
+          "quote": "I'm going to let the LLM as a judge do these,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1476.96,
+            1479.3110000000001
+          ],
+          "quote": " So I'm going to let these do LLM as a judge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1637.788,
+            1640.389
+          ],
+          "quote": "And so I'm going to let LLM as a judge do that one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            1823.075,
+            1826.177
+          ],
+          "quote": "I'm going to let LLM as a judge do them, but I would say thumbs down on all of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-voice",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体语音 (agentic voice)",
+      "file": "智能体语音",
+      "primary": true,
+      "how_described": "本集说 Opus 5.5 是她最喜欢的智能体语音,干净利落、零次惹烦;评测里的硬规矩是「用长破折号是要被扣分的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            586.461,
+            587.3720000000001
+          ],
+          "quote": "agentic voice,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2266.2,
+            2268.212
+          ],
+          "quote": "And it is still my favorite agentic voice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "long-running-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "长时运行智能体任务 (long-running agent)",
+      "file": "长时运行智能体任务",
+      "primary": true,
+      "how_described": "本集说基准里包含 86 轮研究后写备忘录的任务,Opus 5.5 在这类长时运行任务上表现出色",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            640.352,
+            644.673
+          ],
+          "quote": "I suspect the long-running agent will be a Claude model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "svg",
+      "type": "concept",
+      "role": "concept",
+      "name": "SVG",
+      "file": "SVG",
+      "primary": true,
+      "how_described": "本集说创意类 SVG 插画是全场最大预测翻车:她押注 Anthropic 碾压,结果 Astra 和 Sol 在角色 SVG 上表现好得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            1241.455,
+            1245.4470000000001
+          ],
+          "quote": "So if you look at Model B and Model H, they made little SVG illustrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            1945.931,
+            1948.472
+          ],
+          "quote": "Here's what it does on the SVG side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说她在放弃 Claude 的几个月里彻底转向了 Codex,觉得 Codex Harness 用起来更令人愉悦、快得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            356.061,
+            361.842
+          ],
+          "quote": "really into ChatGPT, really into Codex, really into Astra, really into Soul.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            398.14,
+            401.541
+          ],
+          "quote": " I really just went full codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            475.09,
+            478.715
+          ],
+          "quote": "the Codex Harness, were way faster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说她此前几个月非常喜欢 ChatGPT 和 GPT 模型,「它们让我更开心」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            356.061,
+            361.842
+          ],
+          "quote": "really into ChatGPT, really into Codex, really into Astra, really into Soul.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    }
+  ]
+}

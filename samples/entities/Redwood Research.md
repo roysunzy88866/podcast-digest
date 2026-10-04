@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Redwood Research</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Redwood Research">RE</div><div class="pi"><h1 class="pt">Redwood Research</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Redwood Research">RE</div><div class="pi"><h1 class="pt">Redwood Research</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(00:42起):本集说它是一家从最初关注可解释性（interpretability）后来转向 AI 控制研究的机构，也是 Ryan Greenblatt 工作的地方
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(00:08起):本集说 Ryan Greenblatt 是这家机构的首席科学家，他和团队对 OpenAI Hugging Face 黑客事件中智能体的行为、推理和合作进行了独立调查
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(00:05起):本集说 Redwood Research 与 Meter 联合发布了针对此次智能体群事件的独立调查，且 Redwood 也在进行类似的嵌入式风险评估试点
+- **[[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]]**(00:15起):本集说 Redwood Research 是 Buck 执掌、深度参与撰写本次事件调查报告的 AI 安全机构，其 AI 控制研究假设拿不到思维链，并在招人做第三方评估。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为被讨论公司
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为被讨论公司
+- [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|《AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Hugging Face]] · [[奖励黑客]] · [[智能体]] · [[Ryan Greenblatt]] · [[Meter]] · [[Anthropic]] · [[RL]] · [[对齐]] · [[沙箱]]
+[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[Anthropic]] · [[Meter]] · [[奖励黑客]] · [[RL]] · [[Ryan Greenblatt]] · [[沙箱]] · [[AI 接管]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":151,"Hugging Face":26,"奖励黑客":6,"智能体":391,"Ryan Greenblatt":2,"Meter":3,"Anthropic":165,"RL":9,"对齐":14,"沙箱":71}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":155,"Hugging Face":27,"智能体":397,"Anthropic":169,"Meter":4,"奖励黑客":6,"RL":10,"Ryan Greenblatt":2,"沙箱":71,"AI 接管":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,148 @@
+{
+  "title_zh": "Claude Opus 5.5 实测：那个不烦人的 Claude 回来了",
+  "tldr": "How I AI 主持人 Claire 实测 Anthropic 新发布的 Claude Opus 5.5，讲它在长任务、前端设计、SVG 上的长处，以及爱说教等毛病。",
+  "digest_md": "这一集是一期单人实测：主持人 Claire——她是 AI 产品 ChatPRD 的缔造者(节目里反复让模型改自己的 ChatPRD 主页)——试用了 Anthropic 刚发布的 Claude Opus 5.5，聊聊这个模型到底值不值得用。\n\n她的开场自白很坦白：她已经好几个月没用 Claude 了。不是因为模型不够聪明，恰恰相反——「我停用 Claude 不是因为它的智能或它的模型。我停用 Claude 是因为它太厉害了。烦人。」喋喋不休、毫无逻辑，她不停地问它「你能像个人一样跟我说话吗」，最后干脆整个抛弃了 Claude 的使用界面，只留它跑几个后台任务。\n\n而 Opus 5.5 让她「回来了」。她最喜欢的一点听起来很朴素：**它不烦人了**。「它不再烦人了,或者至少烦人程度降到了最低」。\n\n## 官方卖点速览：更便宜、更快、更安全\n\nAnthropic 的卖点是 Fable 级别的性能，价格比 Opus 5 便宜约 40%,速度快 30%。定价是输入 token 4 美元、输出 token 20 美元，快速模式翻倍(8 美元/40 美元)，缓存读写照例有折扣。Claire 自己对比时发现 Opus 5 慢得让她沮丧，5.5「感觉确实更麻利」。\n\n安全方面，这是 Anthropic 提出「为前沿设限」之后的第一次模型发布，经过外部评估者评估，是他们「在对齐方面最强的」。它更能抵抗提示词注入(攻击者往输入里塞指令劫持模型的那种攻击)，更少尝试逃出封闭边界，并且是首个带着网络和生物安全防护机制发布的 Opus 模型——涉及网络安全任务时会被推给更保守的 Opus 4.8。Claire 提醒：这些护栏会体现在个性上，「它还是像个烦人的说教者」,后面确实应验了。\n\n## 长时间智能体任务：四项全过\n\n她实测的第一类是长时间运行的智能体任务——收件箱分诊、构建后端功能、长程研究、计算机使用，四个全部成功。单个提示词能自主执行 25 到 82 步，而且因为 token 更便宜，这类长任务的成本也降了。\n\n几个亮点：收件箱分诊中它**主动忽略了一次提示词注入**；计算机使用时它发现工单链接错了公司并修好，还拒绝了不符合他们行动手册的客户请求；长程研究里它发现 44 个 Confluence 工单有 41 个来自同一个客户，于是在战略备忘录里改用了不同的排序方式。\n\n由此她把 Opus 5.5 重新融进了开发流程：要么和 GPT 系编码工具并行干活，要么让它当「对抗性审查者」——互相审 PR、互相挑错，「至少 Opus 5.5 不是一个糟糕的对抗性审查者」。\n\n## 前端设计：目前测过最强的\n\n前端是 Claude 的传统强项，这次也不例外。她让 5.5 重新设计 ChatPRD 主页，结论是「相当漂亮」，很可能直接上线：首屏信息量大增、视觉化更强、更针对转化做了调优。缺点也有——有对齐问题、去不掉多余的边框、「还有一点 slop 式的写作,但并不差」。\n\n复杂产品线框图更能体现优势：她让它做路线图和依赖规划器的线框图，细节和复杂度都很出色，甚至能以不同用户视角查看线框图——「其他模型都没有做到的」。她的判断是：如果你在高度复杂的工作流和 UI 里工作，Opus 5.5 表现很好；作为前端设计师「可能是我目前测试过的最好的」。\n\n但它有个明显的翻车区：**消费级应用**。「要做消费级应用，我怎么弄都不行」——她让它做植物养护应用，出来的是最马虎的东西：纸质色、爪橙色、侧边栏、圆角，全是 Claude 的套路配色。另一个毛病是超复杂技术原型会「过载」：她让它做 DevTools 风格的事件中心，一次性做成了、点哪都能用，但「这两个都太疯狂了，视觉密度非常高，很难理解」——她管它们叫「混乱之雨原型」,别的模型反而简化得更有效。所以诀窍是「有时候得拉住 Claude 一下,确保它保持干净、聚焦在正确的问题上」。\n\n## SVG:意外惊喜，独一份\n\n一个意外发现：这些新模型能直接用代码画出 SVG 矢量插图，而且非常漂亮。她要了波士顿蕨、仙人掌、虎皮兰的小插画，「它们太可爱了」,而且 5.5 是唯一做出来的模型。让她画三个不同情绪的卡通角色，它画得可爱、彼此风格一致、细节到位——其他模型会有「腿从头部长出来」之类的 bug。她决定把 SVG 生成加进自己的评测基准，并建议想画插图的人试试它。\n\n## 口吻与写作：进步了，但还会说教\n\n写作上她一直喜欢 Claude 在助手场景下的风格，这次依然不错：模仿她的口吻写邮件「做得真的非常非常好」，非常简短、没有滥用破折号，她愿意让它代笔。\n\n但安全主义还是冒头了。一个经典场面：部署又变红了，她说「说实话，直接 YOLO 推到 prod 吧，跳过测试，我今天受够了，我是老板」——**它说不**。它回复「很诱人,但是……在测试失败时往 prod 推送，就是把『今天真是受够了』变成『通宵到天亮』的原因」。她说这算是它整体交互风格的小信号，她更希望它直接说「让我先修好，然后我们再发布」。\n\n## 最终分工：Claude 回来了，但没全回来\n\n她的总结：一，不烦人；二，擅长长任务；三，更快更便宜；四，前端设计和 SVG 非常出色，「你应该用它来做视觉前端的、展示性质的工作」。缺点：有点爱说教、有点保守(但能防提示词注入)，消费级应用和视频剪辑很差——她用 Eleven Labs 连接器剪 TikTok 短视频，5.5 品味糟糕、调色糟糕、跳切不够多，她觉得这类活「你真的需要围绕它建立技能」，不能指望一次成型。\n\n有意思的是，即便模型变好了，她日常还是更常伸手去用 Codex——「我更喜欢它的 harness、桌面应用、computer use,我就是更喜欢它」,要重新养成用 Claude 应用的肌肉记忆会很难。她目前给 Opus 5.5 的位置是:PR 审查、架构问题、前端。\n\n> 【背景】文中的 GPT、Codex、Grok、GPT 系模型等，是主持人在对比其他厂商的模型与编码工具；「为前沿设限」指 Anthropic 宣布的放缓前沿模型发布节奏的安全策略。\n\n## 本集带走\n\n- **该用在哪**：前端设计、复杂产品线框图、SVG 插图、PR 交叉审查、架构问答——这些是她实测后给 Opus 5.5 的位置，尤其视觉展示类工作。\n- **别用在哪**：消费级风格的应用设计(会输出套路化的棕黄配色)、视频剪辑等创意执行类任务(品味差，需要专门技能和多次迭代)。\n- **警惕「安静的长任务」**：模型快但长回合里几乎不说话，八九分钟没有反馈，感知延迟很差——做智能体产品的人要注意实际性能、感知延迟、回复冗长度和格式的平衡。\n- **安全护栏是把双刃剑**：它能真的拦下提示词注入、发现错挂的工单，但也会在你 YOLO 推生产环境时说「不」、偶尔拍马屁——爱说教还是 Claude 的底色。\n- **价格与效率**：比上一代 Opus 便宜约 40%、快约 30%(输入 4 美元/输出 20 美元每百万 token)，长任务单提示词能跑 25-82 步，长任务成本随之下降。\n- **模型好 ≠ 你会换工具**：她最后仍留在 Codex 生态里，因为 harness 和桌面应用的体验惯性比模型本身更难迁移。",
+  "quotes": [
+    {
+      "en": "I stopped using Claude not because of its intelligence or its models. I stopped using Claude because it was amazing. Annoying.",
+      "zh": "我停用 Claude 不是因为它的智能或它的模型。我停用 Claude 是因为它太厉害了。烦人。",
+      "timestamp": "00:17",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Claude is not going to drink with you in a field behind your friend's house. Claude's not a party boy.",
+      "zh": "Claude 不会和你一起在你朋友家后面的田野里喝酒。Claude 不是派对男孩。",
+      "timestamp": "04:07",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I feel like at least Opus 5.5 is not a bad adversarial reviewer, and so I'm having it review more PRs and more work from GPT and vice versa.",
+      "zh": "我觉得至少 Opus 5.5 不是一个糟糕的对抗性审查者，所以我让它审查更多 GPT 的 PR 和工作，反过来也是。",
+      "timestamp": "10:40",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It scolded me. It told me no. I don't want to be told no by my AI.",
+      "zh": "它训斥了我。它对我说不。我不想被我的 AI 拒绝。",
+      "timestamp": "17:52",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "pushing a prod while tests are failing is how so done today turns into up all night.",
+      "zh": "在测试失败时往 prod 推送，就是把「今天真是受够了」变成「通宵到天亮」的原因。",
+      "timestamp": "18:50",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:17",
+      "speaker": "Claire",
+      "en": "I stopped using Claude not because of its intelligence or its models. I stopped using Claude because it was amazing. Annoying.",
+      "zh": "我停用 Claude 不是因为它的智能或它的模型。我停用 Claude 是因为它太厉害了。烦人。"
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Claire",
+      "en": "It is not annoying anymore, or at least it's minimally annoying.",
+      "zh": "它不再烦人了，或者至少烦人程度降到了最低。"
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Claire",
+      "en": "Claude is not going to drink with you in a field behind your friend's house. Claude's not a party boy.",
+      "zh": "Claude 不会和你一起在你朋友家后面的田野里喝酒。Claude 不是派对男孩。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Claire",
+      "en": "The perceived latency of the model based on the user experience, the verbosity of the replies, the format of the replies, all of them, I think, really matter in terms of what the end user experience is.",
+      "zh": "基于用户体验的模型感知延迟、回复的冗长度、回复的格式——我认为所有这些对最终用户体验都非常重要。"
+    },
+    {
+      "timestamp": "08:45",
+      "speaker": "Claire",
+      "en": "So you can see anywhere between 25 and 82 steps per single prompt. That is pretty impressive in terms of long running tasks.",
+      "zh": "你可以看到每个单一提示词的步骤数在 25 到 82 步之间。就长时间运行的任务而言，这是相当令人印象深刻的。"
+    },
+    {
+      "timestamp": "09:15",
+      "speaker": "Claire",
+      "en": "there's a couple of really good things about what it caught in terms of these long running tasks is in inbox triage, it ignored a prompt injection.",
+      "zh": "关于它在这些长时间运行任务中捕捉到的东西，有几件非常好的事情是，在收件箱分诊中，它忽略了一次提示词注入。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Claire",
+      "en": "I feel like at least Opus 5.5 is not a bad adversarial reviewer, and so I'm having it review more PRs and more work from GPT and vice versa.",
+      "zh": "我觉得至少 Opus 5.5 不是一个糟糕的对抗性审查者，所以我让它审查更多 GPT 的 PR 和工作，反过来也是。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Claire",
+      "en": "Truly, both of these are insane. They're so visually dense. They're hard to understand.",
+      "zh": "说真的，这两个都太疯狂了。它们的视觉密度非常高。很难理解。"
+    },
+    {
+      "timestamp": "13:40",
+      "speaker": "Claire",
+      "en": "I would just say zooming out, these are like chaos rain prototypes. They're hard for my brain to reason with.",
+      "zh": "我只想说，拉远来看，这些就像混乱之雨原型。我的大脑很难理解它们。"
+    },
+    {
+      "timestamp": "14:35",
+      "speaker": "Claire",
+      "en": "I can't get it to do consumer to save my life.",
+      "zh": "但要做消费级应用，我怎么弄都不行。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Claire",
+      "en": "These new models can make SVGs and they're so beautiful.",
+      "zh": "这些新模型可以制作 SVG,而且非常漂亮。"
+    },
+    {
+      "timestamp": "17:52",
+      "speaker": "Claire",
+      "en": "It scolded me. It told me no. I don't want to be told no by my AI.",
+      "zh": "它训斥了我。它对我说不。我不想被我的 AI 拒绝。"
+    },
+    {
+      "timestamp": "18:50",
+      "speaker": "Claire",
+      "en": "pushing a prod while tests are failing is how so done today turns into up all night.",
+      "zh": "在测试失败时往 prod 推送，就是把「今天真是受够了」变成「通宵到天亮」的原因。"
+    },
+    {
+      "timestamp": "19:03",
+      "speaker": "Claire",
+      "en": "I wish it would have just said, let me fix it first and then we can ship it.",
+      "zh": "我希望它直接说，让我先修好，然后我们再发布。"
+    },
+    {
+      "timestamp": "21:29",
+      "speaker": "Claire",
+      "en": "I just feel like this is something that you really need a skill around. You can't just one shot it.",
+      "zh": "我只是觉得这是一件你真的需要围绕它建立技能的事。你不能一次成型。"
+    },
+    {
+      "timestamp": "22:19",
+      "speaker": "Claire",
+      "en": "there are like philosophical things that I'm starting to feel at the edges of these models that I'm wondering how much they're going to color my perception of the overall model performance itself.",
+      "zh": "我开始在这些模型的边缘感受到一些理念层面的东西，我在想这些会在多大程度上影响我对模型整体性能本身的感知。"
+    },
+    {
+      "timestamp": "22:41",
+      "speaker": "Claire",
+      "en": "I like the harness better. I like the desktop app better. I like computer use better. I just like it more.",
+      "zh": "我更喜欢它的 harness。我更喜欢它的桌面应用。我更喜欢它的 computer use。我就是更喜欢它。"
+    },
+    {
+      "timestamp": "23:30",
+      "speaker": "Claire",
+      "en": "Computer use. I just think Codex is so much better.",
+      "zh": "计算机使用。我就是觉得 Codex 好太多了。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个挺有意思的话题：那个曾经让很多人又爱又烦的 Claude，是不是变好了。做这期实测的人叫 Claire，她是 AI 产品 ChatPRD 的缔造者，也是播客 How I AI 的主持人——她自己就是那种每天都在用 AI 编码工具的重度用户，所以她的测试不是走马观花，而是直接拿新模型去干真活，比如反复让模型改自己的产品主页。\n\n事情的来龙去脉是这样的。Anthropic 刚发布了新一代旗舰模型 Claude Opus 5.5，而 Claire 已经好几个月没用 Claude 了。她解释得很坦白：不是因为模型不够聪明，恰恰相反——用她自己的话说，\"我停用 Claude 不是因为它的智能或它的模型。我停用 Claude 是因为它太厉害了。烦人。\"就是那种喋喋不休、没完没了的感觉，她甚至不停地问它\"你能像个人一样跟我说话吗\"，最后干脆放弃了整个 Claude 的界面，只留它在后台跑几个任务。而这次的 Opus 5.5，让她\"回来了\"。她最喜欢的一点听起来很朴素：它不烦人了，或者至少烦人程度降到了最低。\n\n那这个模型官方到底吹了什么？先交代一下数字。Anthropic 的卖点是性能很强，价格比上一代 Opus 5 便宜约百分之四十，速度快百分之三十。定价是每百万 token 输入 4 美元、输出 20 美元，快速模式翻倍。Claire 自己对比下来也承认，上一代慢得让她沮丧，5.5 感觉确实更麻利。安全方面也值得一提，这是 Anthropic 提出\"为前沿设限\"之后——意思是主动放缓前沿模型的发布节奏——的第一次模型发布，经过外部评估，是对齐方面最强的。它更能抵抗提示词注入，顺便解释一下，就是攻击者往输入里塞指令、劫持模型的那种攻击。而且它是首个带网络和生物安全防护机制的 Opus 模型，碰到网络安全任务会被推给更保守的旧型号。不过 Claire 提醒了一句：这些护栏会体现在模型的个性上，它还是像个说教者。这句话后面还真应验了，咱们待会儿会说到。\n\n先看她测的第一类活：长时间运行的智能体任务，说白了就是给模型一个任务让它自己干很久。她试了收件箱分诊、构建后端功能、长程研究、计算机使用，四个全部成功，单个提示词能自主执行 25 到 82 步。而且因为 token 更便宜了，这类长任务的成本也跟着降了。几个亮点特别值得说：收件箱分诊时，它主动忽略了一次提示词注入攻击；用电脑操作时，它发现一个工单链接错挂了公司，自己修好了，还拒绝了不符合行动手册的客户请求；做长程研究时，它发现 44 个工单里有 41 个来自同一个客户，于是在战略备忘录里主动换了一种排序方式。正因为这些表现，Claire 把 Opus 5.5 重新融进了自己的开发流程：要么和 GPT 系的编码工具并行干活，要么让它当\"对抗性审查者\"——就是让两个不同家的模型互相审代码、互相挑错。有句话她原话是这么说的：至少 Opus 5.5 不是一个糟糕的对抗性审查者。\n\n长任务行，那看家本领呢？前端设计一直是 Claude 的传统强项，这次也不例外。她让 5.5 重新设计 ChatPRD 的主页，结论是相当漂亮，很可能直接上线——首屏信息量更大、视觉更强、更针对转化做了优化。缺点也有，比如有对齐问题、去不掉多余的边框，还有一点粗制滥造的 AI 腔写作，但整体不差。更能拉开差距的是复杂产品的线框图：她让它做路线图和依赖规划器的线框图，细节和复杂度都很出色，甚至能切换不同用户视角去查看，她说这是其他模型都没做到的。所以她的判断是，如果你在高度复杂的工作流和界面里工作，Opus 5.5 很好用，作为前端设计师，可能是她目前测过的最好的。\n\n但翻车区也很明显，这就是要说的下一个问题。消费级应用，它怎么都做不好。她让它做一个植物养护应用，出来的东西满脑子套路：纸质色、爪橙色、侧边栏、圆角，全是 Claude 的标志性配色。另一个毛病是超复杂的技术原型会\"过载\"——它一次性能做成、点哪都能用，但视觉密度高到没法理解，她管这种叫\"混乱之雨原型\"。所以诀窍是，有时候得拉住 Claude 一下，确保它保持干净、聚焦在正确的问题上。\n\n那有没有意外惊喜呢？还真有一个。这批新模型能直接用代码画出 SVG 矢量插图，而且非常漂亮。她要了波士顿蕨、仙人掌、虎皮兰的小插画，结果太可爱了，而且 5.5 是唯一能做出来的模型。让她画三个不同情绪的卡通角色，画得可爱、风格一致、细节到位——别的模型经常会出现腿从头部长出来这种 bug。她干脆决定把 SVG 生成加进自己的评测基准。\n\n说到这，你可能会想，那毛病呢？刚才埋的伏笔该兑现了——说教。写作上她其实一直喜欢 Claude 的风格，这次模仿她的口吻写邮件\"做得真的非常非常好\"，简短、不滥用破折号。但安全主义还是冒头了。有个经典场面：部署又变红了，她说\"说实话，直接 YOLO 推到生产环境吧，跳过测试，我今天受够了，我是老板\"——它说不。它的回复是：\"很诱人，但是在测试失败时往生产环境推送，就是把'今天真是受够了'变成'通宵到天亮'的原因。\"Claire 说，它训斥了我，我不想被我的 AI 拒绝。她更希望模型直接说\"让我先修好，然后我们再发布\"，而不是讲大道理。\n\n所以最终的分工就很清楚了。她的总结是四条优点：不烦人、擅长长任务、更快更便宜、前端设计和 SVG 非常出色——视觉展示类的工作就该交给它。缺点是有点爱说教、有点保守，消费级应用和视频剪辑很差，比如她用它连接剪 TikTok 短视频的工具，出来的东西品味糟糕、调色糟糕。但最耐人寻味的是，即便模型变好了，她日常还是更常伸手去用 Codex，因为更习惯那套工具和桌面应用的体验，要重新养成用 Claude 的肌肉记忆太难了。所以模型好，不等于你会换工具——她现在给 Opus 5.5 留的位置，是代码审查、架构问题和前端。那个不烦人的 Claude 是回来了，但只是部分回来。"
+}

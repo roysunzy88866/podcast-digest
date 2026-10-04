@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>453</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>462</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,7 +41,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*453 条*
+*462 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -655,6 +655,16 @@ unlisted: true
 
 ![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q4]]
 
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q4]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q6]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q11]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q12]]
+
+![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q15]]
+
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q3]]
 
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q4]]
@@ -811,6 +821,8 @@ unlisted: true
 
 ![[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai#^q9]]
 
+![[2026-09-22-lennys-i-left-claude-for-months-opus-55#^q4]]
+
 ![[2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj#^q6]]
 
 ![[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu#^q1]]
@@ -917,6 +929,8 @@ unlisted: true
 
 ![[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem#^q12]]
 
+![[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in#^q8]]
+
 ![[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i#^q4]]
 
 ![[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with#^q5]]
@@ -948,6 +962,10 @@ unlisted: true
 ![[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies#^q12]]
 
 ![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q10]]
+
+![[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you#^q1]]
+
+![[2026-10-03-twist-inside-the-startup-building-uncensored-a#^q3]]
 
 ## ② 出现在这些集
 
@@ -987,7 +1005,7 @@ unlisted: true
 
 [[Claude]] · [[智能体]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[OpenAI]] · [[品味]] · [[a16z]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Claude":83,"智能体":391,"Lenny":68,"Google":55,"Stripe":44,"ChatGPT":89,"OpenAI":151,"品味":15,"a16z":18,"Amazon":26}</script>
+<script type="application/json" class="pd-epn">{"Claude":85,"智能体":397,"Lenny":68,"Google":55,"Stripe":44,"ChatGPT":92,"OpenAI":155,"品味":15,"a16z":18,"Amazon":26}</script>
 
 <script>
 (function(){

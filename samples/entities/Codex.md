@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>73</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>76</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -69,6 +69,8 @@ unlisted: true
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(11:46起):本集与 Claude Code 并举,作为「自动化+自主性」组合的典型 AI 产品例子。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(05:23起):本集与 Claude Code 并列，作为本地编码智能体的例子被提及
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(01:36起):本集作为另一个 harness 反复对比:子智能体需用户批准、Ask User 工具仅 plan 模式可用、后台任务完成不唤醒模型、爱糟糕字距和'gate(关卡)'所以给它八个关卡
+- **[[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]]**(19:18起):主持人对比的编码工具:即使模型变好,她日常仍更常伸手用 codex——「我更喜欢它的 harness、桌面应用、computer use」。
+- **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(05:56起):本集说她在放弃 Claude 的几个月里彻底转向了 Codex,觉得 Codex Harness 用起来更令人愉悦、快得多
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(02:33起):本集把它列为「现代广义智能体」的代表之一。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(12:57起):本集提及：与 Claude Code 一同普及了子智能体模式的 harness
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(03:42起):本集说 Codex 的 PR 回退率最低(每 1000 个约 1 个),合并前平均需 2.45 轮评审,是本集测试的编程智能体之一。
@@ -82,6 +84,7 @@ unlisted: true
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(01:10起):OpenAI 的编码智能体产品，本集多次作为计算机使用的载体出现：AppShot 在 Codex 里触发、智能体用它构建并测试软件、开源 Codex harness 实现手动压缩。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Cursor 并列提及的编码工具，会带来更多代码和复杂性。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(10:04起):本集顺带提到沙箱是完整 VM,除 Claude 外也能跑 Codex、shell、Python 作业、web 服务器。
+- **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(02:10起):本集说 Codex 是 Tibo 负责的产品,dots 是构建在 Codex harness 之上、加上长时程任务与记忆研究成果后的产物;还提到 Codex 早期几次宕机是 Tibo 自己造成的。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -116,7 +119,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*73 集*
+*76 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -177,6 +180,8 @@ unlisted: true
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为被讨论公司(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为被讨论公司
+- [[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]] — 作为被讨论公司
+- [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为概念(提及)
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念(提及)
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
@@ -190,15 +195,16 @@ unlisted: true
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司(提及)
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[harness]] · [[护栏]]
+[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[沙箱]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":391,"Claude Code":93,"OpenAI":151,"Claude":83,"Cursor":78,"ChatGPT":89,"Anthropic":165,"沙箱":71,"harness":53,"护栏":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":397,"Claude Code":93,"OpenAI":155,"Claude":85,"Cursor":78,"ChatGPT":92,"Anthropic":169,"护栏":75,"沙箱":71,"harness":53}</script>
 
 <script>
 (function(){

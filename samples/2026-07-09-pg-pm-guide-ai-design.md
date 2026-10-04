@@ -126,7 +126,7 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:cursor、Meta · 同概念:codex、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:cursor、figma · 同概念:智能体 (agent)、mcp、护栏 (guardrails)</span>
-- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:cursor · 同概念:codex、智能体 (agent)</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同概念:codex、护栏 (guardrails)、智能体 (agent)、mcp</span>
 
 </div>
 </div>

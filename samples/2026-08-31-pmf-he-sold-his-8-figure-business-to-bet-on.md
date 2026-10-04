@@ -170,7 +170,7 @@ Andrew 最大的心态转变:「十年前我以为大多数事会渐进式起作
 
 - [[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|AI 改写药物研发，而他只投五家公司]]<span class="pd-rz">同概念:go to market、智能体 (agents)</span>
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|当智能体学会替你操作电脑：聊天即新浏览器]]<span class="pd-rz">同概念:MCP、智能体 (agents)</span>
-- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:go to market</span>
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)、智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

@@ -125,7 +125,7 @@ Austin 的心法是挑一个「你最兴奋地想发消息告诉朋友『嘿我�
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、Codex、Cursor、OpenAI · 同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:Codex、OpenAI、Notion · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

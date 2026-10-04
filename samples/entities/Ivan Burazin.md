@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]] [[Jonathan]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":24,"Neon":3,"Parallel":6,"Devin":4,"智能体":391,"沙箱":71,"突发负载":1,"裸金属":2,"计算机使用":17}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":25,"Neon":3,"Parallel":6,"Devin":4,"智能体":397,"沙箱":71,"突发负载":1,"裸金属":2,"计算机使用":18}</script>
 
 <script>
 (function(){

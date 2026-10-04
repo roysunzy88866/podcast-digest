@@ -138,8 +138,8 @@ Ryan 的团队现在是全栈配置，因为当他一个人时，写出的 React
 **换个口味**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、OpenAI、Claude · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:Codex、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、MCP</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:OpenAI、Claude · 同概念:护栏 (guardrails)、智能体 (agent)、MCP</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Codex · 同概念:护栏 (guardrails)、提示词注入 (prompt injection)、智能体 (agent)</span>
 
 </div>
 </div>

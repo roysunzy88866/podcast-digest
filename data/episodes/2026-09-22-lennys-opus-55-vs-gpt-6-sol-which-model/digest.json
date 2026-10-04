@@ -1,0 +1,142 @@
+{
+  "title_zh": "三大新模型同日发布，现场盲测见真章",
+  "tldr": "How I AI 主播现场盲测 Anthropic、OpenAI 三个新模型：Opus 5.5 重新回到她的日常，GPT-6 Astra 赢了她的心。",
+  "digest_md": "Anthropic 和 OpenAI 挑了同一个早上各发新模型——Anthropic 的 Opus 5.5,OpenAI 的 GPT-6 Sol 和 GPT-6 Luna,一天出了三个。How I AI 的主播本来已经录好了一期 Opus 5.5 评测，干脆临时改成直播现场盲测：「我从来没做过现场的内容……你们大家都能看到我完全内在的前后不一致」。她在多个类别里对模型做盲测打分，最后用一句话总结了结果：**GPT-6 Astra 和 GPT-6 Soul 赢得了她的心，Opus 5.5「赢得了她的这一周」——它是她最经常给出高分的那个**。\n\n## 这一波发布的关键信息\n\n先说清定位：这三个都不是最前沿那一档的模型，「它们不是 Astro 和 Fable 那一档的，但 Opus 刷新了，Sol 刷新了，Luna 也刷新了。全都更便宜、更快」。也就是说，这些会是你日常编码和知识工作的主力模型，而不是能力天花板。\n\n价格上，Opus 5.5 是 GPT-6 Sol 的两倍——而且她是测试完之后才知道定价的，「这真的会影响我对如何使用这些模型的看法」。但她强调，各家真正下功夫的不只是降价，还有**缓存输入的成本、速度和 token 效率**：「你会看到输出量下降、token 用量下降，以及成本下降」。她给出一条很实在的建议：在These模型上构建产品的话，一定要把缓存优化好——「它能帮你省很多钱。而如果你不这么做，就像我学到的那样，它可能会让你花很多冤枉钱」。\n\nOpus 5.5 还有一件事值得注意：它是**第一个搭载网络安全和生物领域护栏的 Opus 级别模型**。你能用它修自己的 bug,但做不了网安或生物方面的工作——「它会把你降级到 Opus 4.8,或者直接拦截你」。Anthropic 称这是对齐程度最高的模型，有外部评估者参与。她对安全设计的副作用提了个观察：「我认为这会渗透到即使是无风险活动中的个性和行为里」，值得密切关注。\n\n## Claude 为什么回到了她的日常\n\n她坦白，之前好几个月没打开过 Claude——在 Fable 和 Opus 5 之间，「我实在受不了 Harness(模型的外壳/交互层)。我不停地给 Claude 写提示词，比如，你能像个人一样说话吗？」 于是彻底转向了 Codex。\n\n但 Opus 5.5 把 Claude 请回来了。她给 Anthropic 团队的反馈就一句话：「**不烦人**。以前我经常感到烦躁。用 Opus 5-5 的时候烦躁次数是零」。还有个笑点：当她以为自己被 5.5 惹烦时，其实是不小心切到了 Opus 5——「Opus 5 聊起来一点也不有趣」。\n\n不过 Opus 5.5 有个沟通上的取舍：它变得安静了，「不会复述自己的工作过程」，结果「你会陷入这样的循环：你真的在工作吗？」——实际感觉比真实速度要慢。相比之下 Sol 的复述程度恰到好处。另外 Opus 5.5 虽然快，还是没 Sol 快。\n\n## 盲测基准怎么搭\n\n她这次彻底重构了自己的 How I AI 盲测基准，因为「这些模型正变得更聪明、更具智能体特性」。类别覆盖：凌乱笔记转 PRD、个人生产力(收件箱分类、用她的语气写回信)、前端编码、新增的后端编码、智能体个性、长时运行智能体任务(86 轮研究后写备忘录)、计算机使用、创意类(SVG 插画、剪视频)。测试时模型全部匿名(Model A 到 H),她按能力分组，只做同类比较，「比如我不想拿一个 Luna 和一个 Fable 比」,然后给一到五的 vibe 分。中间还有 LLM 当裁判处理代码正确性这类她不人工评的项目。\n\n## 盲测里最有意思的发现\n\n**前端**：她约十个场景里横向比较，总体苛刻——「我有点讨厌它们所有」。最喜欢的 B2B 续约仪表盘出自 Claude:「用色很好……没有奇怪的空状态」，打了 4 分。她发现一个规律：Claude 模型接到复杂任务会做得「特别密集、特别复杂、特别详细」——适合后端代码，但对原型开发很难读。她还有一个评测设计心得：同样类型的任务，提示词写得极其详细的那个，「它全都能用」；写得开放的就良莠不齐——「校准你的基准测试非常重要」。\n\n**一个品牌签名被她当场识破**：「找一个像 GPT Soul 爱森林绿或浅绿色一样爱你的人吧」——Soul 做的 SaaS 界面配色像医疗风，好看但不对味。\n\n**消费级产品是全场重灾区**：「它们全都不擅长消费级产品」,输出清一色像当年 Claude Artifacts 时代的橙色每日简报。唯一例外是一个植物护理 app(Model H):会给植物起名字，「那给了我一瞬间的快乐火花」，得了唯一的 5 分。\n\n**SVG 插画是意外惊喜**：原本她押注 Anthropic 碾压 SVG,结果「Astra 和 Sol 在角色 SVG 上表现好得多」——这是全场最大的预测翻车。剪视频则全军覆没：「都做得很糟糕……但我认为这是技能问题，不是模型问题」。\n\n**后端与长任务**：后端两项(代码审计、按规格建功能)全部成功，交给 LLM 裁判；但她指出各模型回话风格差异巨大，如果你要选模型写 PR 描述或技术规格，「这是你可以评估的东西，看看在同样的提示词下，你是否喜欢同样的输出」。智能体个性评测里她有个硬规矩：「**用长破折号是要被扣分的**」。\n\n## 裁判分歧与最终结论\n\n结果揭晓：GPT-6 Astra 和 Soul 赢了她的心；Opus 5.5 得分最高频，是「单件工作表现最好的」，在最广泛的工作范围内拿了四分和五分。最好笑的是，**她与 LLM 裁判完全 disagree**:「我喜欢 Astra。它喜欢 Fable」——而且裁判本身就是个 GPT 模型。\n\n总结各模型定位：写 PRD 最好的是 Soul(她本来也这么预测)；Opus 5.5 是她最喜欢的智能体语音，长时运行任务也最出色，「它回到了竞争行列之中」;创意类新任务(SVG 插画)选 Astra 和 Sol;Fable 她还是不喜欢——「这就是我停止使用它的原因」。以及那句标志性结论：「唯一没被碾压的基准测试就是 Barbie Bench」——她让每个模型 3D 渲染一个芭比时尚设计师游戏，Opus 5.5 也失败了：「她的手是，哦，AGI 还没有、没有、没有到来」。\n\n## 本集带走\n\n- **新模型是日常主力，不是能力天花板**：Opus 5.5、GPT-6 Sol/Luna 全都更便宜更快，选型先看定价——Sol 是 Opus 5.5 的一半价。\n- **用好缓存能省大钱**：这波发布重点降了缓存输入成本、提了 token 效率；构建产品时缓存不优化会「花很多冤枉钱」。\n- **Opus 5.5 的最大变化是「不烦人」**：干净利落的要点、零次惹烦，让它重新成为她最喜欢的智能体语音和长任务选手；代价是安静得让你怀疑它是否在工作。\n- **模型有可识别的设计签名**：Soul 爱森林绿、Claude 输出超密集——盲测能帮你发现自己真正喜欢哪个，而不是被品牌印象带跑。\n- **选型按场景分工**：PRD 和写作用 Soul,前端和 B2B 界面看 Claude,SVG 插画选 Astra/Sol,智能体语音和长任务用 Opus 5.5;消费级界面和视频剪辑目前全都不行。\n- **自己搭 vibe 基准时**：同类能力分组比较、提示词详略要校准、站在任务接收者的角度评估——LLM 裁判可能和你完全 disagree,别全信。",
+  "quotes": [
+    {
+      "en": "The feedback I gave to the Anthropic team is not annoying. I found myself annoyed constantly. Zero times with Opus 5-5.",
+      "zh": "我给 Anthropic 团队的反馈是：不烦人。以前我经常感到烦躁。用 Opus 5-5 的时候烦躁次数是零。",
+      "timestamp": "07:14",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think part of the way they made Opus 5.5 not annoying is they had it shut up.",
+      "zh": "我觉得他们让 Opus 5.5 不烦人的部分方法就是让它闭嘴。",
+      "timestamp": "08:12",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "They're all really bad at consumer.",
+      "zh": "它们全都不擅长消费级产品。",
+      "timestamp": "20:11",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "But I think this is a skills problem, not a model problem.",
+      "zh": "但我认为这是技能问题，不是模型问题。",
+      "timestamp": "30:26",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:21",
+      "speaker": "SPEAKER_00",
+      "en": "It does have an LLM as judged in the middle, but we're going to do it live and we're going to see truly which model I love.",
+      "zh": "它中间确实有一个 LLM 作为裁判，但我们要现场来做，我们要真正看看我喜欢哪个模型。"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "SPEAKER_00",
+      "en": "And the pricing wasn't out when I tested these. And this is really going to impact how I think about using these models.",
+      "zh": "我测试这些模型的时候，定价还没公布。而这真的会影响我对如何使用这些模型的看法。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "SPEAKER_00",
+      "en": "And if you don't, as I learned, it can cost you a lot of money.",
+      "zh": "而如果你不这么做，就像我学到的那样，它可能会让你花很多冤枉钱。"
+    },
+    {
+      "timestamp": "05:35",
+      "speaker": "SPEAKER_00",
+      "en": "I do think that leaks into even non-risky activity personality and behavior.",
+      "zh": "我确实认为这会渗透到即使是无风险活动中的个性和行为里。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "SPEAKER_00",
+      "en": "and Opus 5, I could not stand Harness.",
+      "zh": "和 Opus 5 之间，我实在受不了 Harness。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "SPEAKER_00",
+      "en": "The feedback I gave to the Anthropic team is not annoying. I found myself annoyed constantly. Zero times with Opus 5-5.",
+      "zh": "我给 Anthropic 团队的反馈是：不烦人。以前我经常感到烦躁。用 Opus 5-5 的时候烦躁次数是零。"
+    },
+    {
+      "timestamp": "08:13",
+      "speaker": "SPEAKER_00",
+      "en": "I think part of the way they made Opus 5.5 not annoying is they had it shut up.",
+      "zh": "我觉得他们让 Opus 5.5 不烦人的部分方法就是让它闭嘴。"
+    },
+    {
+      "timestamp": "10:15",
+      "speaker": "SPEAKER_00",
+      "en": "because I love the OpenAI models. It's just the heart wants what it wants.",
+      "zh": "因为我喜欢 OpenAI 的模型。心就是想要它想要的。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "SPEAKER_00",
+      "en": "it just makes it super dense and complex and really detailed. Good for back-end code.",
+      "zh": "它就会把它做得特别密集、特别复杂、特别详细。适合后端代码。"
+    },
+    {
+      "timestamp": "16:19",
+      "speaker": "SPEAKER_00",
+      "en": "And so again, like calibrating your benchmarks is really important.",
+      "zh": "所以再说一次，校准你的基准测试非常重要。"
+    },
+    {
+      "timestamp": "19:21",
+      "speaker": "SPEAKER_00",
+      "en": "Find somebody that loves you like GPT Soul loves a forest green or a light green.",
+      "zh": "找一个像 GPT Soul 爱森林绿或浅绿色一样爱你的人吧。"
+    },
+    {
+      "timestamp": "20:10",
+      "speaker": "SPEAKER_00",
+      "en": "They're all really bad at consumer.",
+      "zh": "它们全都不擅长消费级产品。"
+    },
+    {
+      "timestamp": "21:45",
+      "speaker": "SPEAKER_00",
+      "en": "That gave me a little spark of joy.",
+      "zh": "那给了我一瞬间的快乐火花。"
+    },
+    {
+      "timestamp": "25:34",
+      "speaker": "SPEAKER_00",
+      "en": "You get punished for M dashes.",
+      "zh": "用长破折号是要被扣分的。"
+    },
+    {
+      "timestamp": "30:26",
+      "speaker": "SPEAKER_00",
+      "en": "But I think this is a skills problem, not a model problem.",
+      "zh": "但我认为这是技能问题，不是模型问题。"
+    },
+    {
+      "timestamp": "33:04",
+      "speaker": "SPEAKER_00",
+      "en": "Her hands are, oh, AGI is not, not, not arrived.",
+      "zh": "她的手是，哦，AGI 还没有、没有、没有到来。"
+    },
+    {
+      "timestamp": "34:31",
+      "speaker": "SPEAKER_00",
+      "en": "It's the one I rated highly most often. So it's the best work per piece.",
+      "zh": "它是我最经常给出高分的那个。所以它是单件工作表现最好的。"
+    },
+    {
+      "timestamp": "36:58",
+      "speaker": "SPEAKER_00",
+      "en": "I like Astra. It likes Fable. And again, this is a GPT model judge.",
+      "zh": "我喜欢 Astra。它喜欢 Fable。再说一次，这是一个 GPT 模型裁判。"
+    }
+  ],
+  "voice_script": "今天这期有点特别，因为事情发生在同一个早上。Anthropic 和 OpenAI 挑了同一天各自发布新模型——Anthropic 发了 Opus 5.5,OpenAI 发了 GPT-6 Sol 和 GPT-6 Luna,一天之内出了三个。而 How I AI 这个节目的主播，本来已经录好了一期 Opus 5.5 的评测，看到这个阵仗，干脆把节目改成直播，现场做盲测。她自己都说，从来没做过现场的内容，观众能看到她完全内在的前后不一致。\n\n那先把这个背景垫清楚，不然结果你听着没感觉。这三个新模型，都不是各家最前沿那一档的——用她的话说，它们不是 Astro 和 Fable 那一档的。但重点是，Opus 刷新了，Sol 刷新了，Luna 也刷新了，全都更便宜、更快。也就是说，这些不是能力天花板，而是你日常编码和知识工作里的主力模型。所以这次的盲测，测的其实就是“我们接下来每天用哪个”的问题。\n\n价格上有个有意思的细节。Opus 5.5 是 GPT-6 Sol 的两倍价，而且她是测完之后才知道定价的。她承认这真的会影响她对怎么用这些模型的看法。但她强调，各家下的功夫不只是降价，还有缓存输入的成本、速度和 token 效率。所以如果你要在这些模型上构建产品，一定要把缓存优化好——按她的说法，这能帮你省很多钱；不这么做的话，就像她学到的那样，可能会花很多冤枉钱。\n\nOpus 5.5 还有一件事值得注意：它是第一个搭载网络安全和生物领域护栏的 Opus 级别模型。你能用它修自己的 bug,但做不了网安或生物方面的工作，系统会把你降级到 Opus 4.8,或者直接拦截。Anthropic 称这是对齐程度最高的模型，有外部评估者参与。不过她提了个观察，觉得这种安全设计会渗透到即使是无风险活动中的个性和行为里，值得密切关注。\n\n说到个性，这正好是 Opus 5.5 最大的故事。她坦白，之前好几个月没打开过 Claude 了——在 Fable 和 Opus 5 之间，实在受不了那个外壳和交互层，不停地给 Claude 写提示词，问它能不能像个人一样说话，最后干脆转向了 Codex。但 Opus 5.5 把 Claude 请回来了。她给 Anthropic 团队的反馈就一句话：不烦人。以前经常感到烦躁，用 Opus 5.5 的时候，烦躁次数是零。中间还有个笑点：有一次她以为自己被 5.5 惹烦了，结果发现是不小心切到了 Opus 5——Opus 5 聊起来一点也不有趣。\n\n不过 5.5 有个取舍。它变得安静了，不会复述自己的工作过程，结果就是你会陷入这样的循环：你真的在工作吗？实际感觉比真实速度要慢。有意思的是，她说觉得 Anthropic 让 5.5 不烦人的方法之一，就是让它闭嘴。相比之下，Sol 的复述程度恰到好处。另外 5.5 虽然快，还是没 Sol 快。\n\n那盲测到底怎么做的？她这次彻底重构了自己的基准，因为模型正变得更聪明、更具智能体特性。类别覆盖很广：凌乱笔记转 PRD、个人生产力比如收件箱分类和用她的语气写回信、前端编码、新增的后端编码、智能体个性、长时运行的智能体任务——比如让模型跑八十六轮研究之后写备忘录——还有计算机使用，以及 SVG 插画、剪视频这类创意任务。测试时所有模型匿名，从 Model A 到 H,她按能力分组，只做同类比较，不拿 Luna 和 Fable 互相比，然后给一到五的 vibe 分。代码正确性这种她不人工评的项目，就交给 LLM 当裁判。\n\n结果里最有意思的发现有哪些？前端这一块她总体很苛刻，约十个场景横向比较，原话是“我有点讨厌它们所有”。最喜欢的是一个 B2B 续约仪表盘，出自 Claude,用色很好，没有奇怪的空状态，打了四分。她还发现一个规律：Claude 模型接到复杂任务会做得特别密集、特别复杂、特别详细——适合后端代码，但对原型开发来说很难读。中间还有个品牌签名被她当场识破：一个 SaaS 界面配色像医疗风，好看但不对味，一看就是 Soul 的风格，就像 Soul 爱森林绿和浅绿色一样。她的评测心得是，提示词写得极其详细的那个任务，模型全都能用；写得开放的就良莠不齐，所以校准基准测试非常重要。\n\n消费级产品是全场重灾区。它们全都不擅长消费级产品，输出清一色像当年 Claude Artifacts 时代的橙色每日简报。唯一的例外是一个植物护理 app,会给植物起名字，她说那给了她一瞬间的快乐火花，得了全场唯一的五分。SVG 插画则是最大的预测翻车——她本来押注 Anthropic 碾压，结果 Astra 和 Sol 在角色 SVG 上表现好得多。剪视频就全军覆没了，但她认为这是技能问题，不是模型问题。\n\n最后揭晓结果，就是那句话：GPT-6 Astra 和 Soul 赢得了她的心，而 Opus 5.5 赢得了她的这一周——它是她最经常给出高分的那个，在最广泛的工作范围内拿了四分和五分。按场景分工的话：写 PRD 最好的是 Soul;最喜欢的智能体语音和长时运行任务是 Opus 5.5,它回到了竞争行列之中；创意类 SVG 插画选 Astra 和 Sol;Fable 她还是不喜欢，这就是停止使用它的原因。最搞笑的是，她和 LLM 裁判完全意见相反——她喜欢 Astra,裁判喜欢 Fable,而裁判本身就是个 GPT 模型。所以别全信裁判。\n\n至于 AGI 到底来没来，她有个标志性测试叫 Barbie Bench,让每个模型 3D 渲染一个芭比时尚设计师游戏。连 Opus 5.5 也失败了，芭比的手还是不对。用她的说法：AGI 还没有到来。至少今天，还没有。"
+}

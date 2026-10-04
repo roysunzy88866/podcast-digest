@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vlad Kyle]] [[Seema Amble]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]]
+[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":18,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":8,"NVIDIA":52}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":19,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":8,"NVIDIA":53}</script>
 
 <script>
 (function(){

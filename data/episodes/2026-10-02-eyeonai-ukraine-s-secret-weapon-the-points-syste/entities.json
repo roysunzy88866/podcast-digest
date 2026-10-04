@@ -1,0 +1,668 @@
+{
+  "episode_id": "2026-10-02-eyeonai-ukraine-s-secret-weapon-the-points-syste",
+  "podcast": "Eye On A.I.",
+  "date": "2026-10-02",
+  "tags": [
+    "国防科技",
+    "军事采购",
+    "激励系统",
+    "乌克兰战争",
+    "去中心化平台"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "andrii-hrytseniuk",
+      "type": "person",
+      "role": "host",
+      "name": "Andrii Hrytseniuk",
+      "file": "Andrii Hrytseniuk",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "braveone",
+      "type": "company",
+      "role": "company",
+      "name": "BraveOne",
+      "file": "BraveOne",
+      "primary": true,
+      "how_described": "本集说 BraveOne 是乌克兰创新发展基金对外的品牌,国家层面的单一平台,让军队、政府机构、无人机制造商、大学和国际伙伴协作,职责范围每季度都在扩大,从无人机扩展到导弹、地面机器人、电子战等几乎所有类别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            247.9,
+            258.268
+          ],
+          "quote": "Innovation Development Fund exist in Ukraine, and it became BraveOne, like a brand of innovation development fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            259.309,
+            263.012
+          ],
+          "quote": "And this is the idea of establishing of BraveOne.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            288.816,
+            306.838
+          ],
+          "quote": "Right now, in 2026, and the area of responsibilities of BraveOne are permanently increasing, every quarter, because the things that we are doing and implementing proves that it's right and it should be scaled to different areas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            359.063,
+            367.59
+          ],
+          "quote": "How exactly does BraveOne plug all that data into and turn it into points on the platform side?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            941.413,
+            951.017
+          ],
+          "quote": "From Strike and Delta, to e-points in a unit's account, and finally to an order for drones on the BraveOne market?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1051.949,
+            1066.065
+          ],
+          "quote": "BraveOne Marketplace, with this asymmetrical approach with bonuses, the average time from clicking on the shopping cart, order the drone to get and to use it in two weeks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1225.875,
+            1228.658
+          ],
+          "quote": "One of the rules of BraveOne is consolidate this feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1325.269,
+            1344.159
+          ],
+          "quote": "And our data science, data analytical team of BraveOne, on a monthly basis, analyzing the raw data from Delta, information from the marketplace, from different other systems, and make a digest of bulletins and deliver to the end users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1344.859,
+            1370.345
+          ],
+          "quote": "And of course in every category there are some leaders, there are some challengers, the situation is changing every month and the end users via BraveOne also get the information what works better, what works worse, what is newcomer that show itself very good and of course increase the awareness level from the manufacturer's side and from the military side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1486.217,
+            1493.822
+          ],
+          "quote": "I mean, I can't log on to BraveOne Marketplace or BraveOne Leaderboard and see what's happening.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "army-of-drones-bonus-program",
+      "type": "concept",
+      "role": "concept",
+      "name": "Army of Drones 积分奖励计划 (Army of Drones bonus program)",
+      "file": "Army of Drones 积分奖励计划",
+      "primary": true,
+      "how_described": "本集的核心主线:击毁越多目标赚越多积分,积分兑换额外无人机,形成自我加速的激励系统——嘉宾强调这不是游戏化,而是激励和提高效率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            5.075
+          ],
+          "quote": "I want to talk particularly about the Army of Drones bonus program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            342.236,
+            347.138
+          ],
+          "quote": "I want to talk particularly about the Army of Drones bonus program.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brave1-marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "BRAVE1 marketplace",
+      "file": "BRAVE1 marketplace",
+      "primary": true,
+      "how_described": "本集称之为「我们的军事亚马逊」:单位像在 Amazon 或 eBay 一样用积分下单购买无人机,五天内货款打进制造商账户,从下单到上战场平均只要两周。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            458.006,
+            470.672
+          ],
+          "quote": "This is BRAVE1 marketplace, the system where Ukrainian drone producers can publish their products and they are the passive pay for these drones with these bonuses.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "type": "concept",
+      "role": "concept",
+      "name": "Delta",
+      "file": "Delta",
+      "primary": true,
+      "how_described": "本集说 Delta 是乌克兰的态势感知与指挥控制系统,从旅级到小队级再到全军态势,是乌克兰数字化军队的骨干;作战单位在 Delta 地图上标注战果并上传视频。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            426.924,
+            445.581
+          ],
+          "quote": "We start to implement it and there are a lot of components in the overall architecture of this bonus system including a delta system where the hits can be uploaded together with video materials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            515.993,
+            523.376
+          ],
+          "quote": "The technology stack, can you explain for listeners and to myself what Delta is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            523.616,
+            527.858
+          ],
+          "quote": "Delta, this is a situation awareness system, a command and control system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            530.639,
+            536.622
+          ],
+          "quote": "That party components can be added and enhance the functionality of Delta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            553.039,
+            560.445
+          ],
+          "quote": "Delta, within Delta, there's an AI target recognition layer called Avengers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            561.706,
+            564.469
+          ],
+          "quote": "One of the modules of Delta called Avengers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            627.06,
+            634.762
+          ],
+          "quote": "In the military world, the biggest amount of military data is inside Delta and inside Avengers and Brave One Data Room.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            654.429,
+            659.43
+          ],
+          "quote": "That video feed is uploaded to... Delta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            659.47,
+            660.831
+          ],
+          "quote": "...to Delta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            941.413,
+            951.017
+          ],
+          "quote": "From Strike and Delta, to e-points in a unit's account, and finally to an order for drones on the BraveOne market?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1325.269,
+            1344.159
+          ],
+          "quote": "And our data science, data analytical team of BraveOne, on a monthly basis, analyzing the raw data from Delta, information from the marketplace, from different other systems, and make a digest of bulletins and deliver to the end users.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "leaderboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "排行榜 (leaderboard)",
+      "file": "排行榜",
+      "primary": true,
+      "how_described": "本集说排行榜是指挥工具:改个分值,所有军人立刻知道哪类目标值钱并开始猎捕,因为每个单位都想进前十;它也用来发现不被管理层所知的顶尖单位和找出低产出的单位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            354.82,
+            358.103
+          ],
+          "quote": "hits and kills through a central leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1296.008,
+            1314.06
+          ],
+          "quote": "In the marketplace, does that also in effect act as a leaderboard for the hardware that units can see what the most popular drone is, they can see other units' comments, or is there a leaderboard for manufacturers as well?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1439.714,
+            1450.376
+          ],
+          "quote": "And they immediately start to hunt for such category of targets because every unit would like to be higher in the chart, in this leaderboard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1486.217,
+            1493.822
+          ],
+          "quote": "I mean, I can't log on to BraveOne Marketplace or BraveOne Leaderboard and see what's happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1517.717,
+            1522.76
+          ],
+          "quote": "What were the main behavioral goals when you designed the public leaderboard?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1538.265,
+            1545.772
+          ],
+          "quote": "And we see that the number in this leaderboard, this is very important for the army management hierarchy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "interceptor",
+      "type": "concept",
+      "role": "concept",
+      "name": "拦截机 (interceptor)",
+      "file": "拦截机",
+      "primary": true,
+      "how_described": "本集说拦截机是成本几千美元、专门猎杀无人机的无人机,能摧毁成本 5 万美元的 Shahid,2024 年起被 BRAVE1 和数字化转型部规模化,现在超过 150 家乌克兰公司生产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            605.678,
+            608.04
+          ],
+          "quote": "If you're a developer of the interceptor,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shahid",
+      "type": "concept",
+      "role": "concept",
+      "name": "Shahid",
+      "file": "Shahid",
+      "primary": true,
+      "how_described": "本集说 Shahid 是俄方使用的低成本自杀式无人机,成本约 5 万美元;嘉宾强调用 100 万美元的弹药去击落它是在帮敌人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            608.904,
+            611.662
+          ],
+          "quote": "Is it easy to shoot FPV drones or Shahid?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1903.635,
+            1912.761
+          ],
+          "quote": "If you need to waste $1 million to hit one Shahid that costs $50,000, this is in favor of the enemy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            2014.653,
+            2020.138
+          ],
+          "quote": "Is it really a good drone that will effectively work against Shahid?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fpv-drones",
+      "type": "concept",
+      "role": "concept",
+      "name": "FPV 无人机 (FPV drones)",
+      "file": "FPV 无人机",
+      "primary": true,
+      "how_described": "本集说当乌克兰缺乏火炮时,开始使用 FPV 无人机作为对俄罗斯的不对等回应,现在被前线部队大量发射、拍摄打击视频用于战果确认。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            65.395,
+            72.358
+          ],
+          "quote": "And when we had lack of artillery, we started to use FPV drones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            608.904,
+            611.662
+          ],
+          "quote": "Is it easy to shoot FPV drones or Shahid?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            646.067,
+            654.209
+          ],
+          "quote": "You have all of these units on the front line who are launching drones, FPV drones.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "avengers",
+      "type": "concept",
+      "role": "concept",
+      "name": "Avengers",
+      "file": "Avengers",
+      "primary": true,
+      "how_described": "本集说 Avengers 是 Delta 之内的 AI 目标识别模块之一,依托乌克兰世界上最大规模的战场视频、音频、无线电材料数据集来训练 AI 模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            553.039,
+            560.445
+          ],
+          "quote": "Delta, within Delta, there's an AI target recognition layer called Avengers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            561.706,
+            564.469
+          ],
+          "quote": "One of the modules of Delta called Avengers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            627.06,
+            634.762
+          ],
+          "quote": "In the military world, the biggest amount of military data is inside Delta and inside Avengers and Brave One Data Room.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "80-per-20",
+      "type": "concept",
+      "role": "concept",
+      "name": "80 比 20 (80 per 20)",
+      "file": "80 比 20",
+      "primary": true,
+      "how_described": "本集说乌克兰在中央采购时按 Marketplace 热销挑头部产品:新公司产品一旦被各单位在市场上购买,下个月就能进入 80% 采购量的中央合同,这是新技术规模化上战场的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1660.538,
+            1665.36
+          ],
+          "quote": "And we implemented the new approach 80 per 20.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "战果验证 (verification)",
+      "file": "战果验证",
+      "primary": true,
+      "how_described": "本集说 BRAVE1 旗下专门的验证团队每天核验上传的视频材料,确认或驳回(可申诉);通常需要观察无人机画面加上 FPV 打击视频两份证据,同一战果只算一次以保证数据可信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            446.841,
+            457.266
+          ],
+          "quote": "This is the special verification teams under BRAVE1 that on a daily basis works with these uploaded materials and perform verification and do confirmation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            687.84,
+            694.064
+          ],
+          "quote": "And the verification team is verifying everything and either confirm or not to confirm.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            959.064,
+            964.729
+          ],
+          "quote": "The verification team of Brave 1 is verifying and either confirming or rejecting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "feedback-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "反馈闭环 (feedback loop)",
+      "file": "反馈闭环",
+      "primary": true,
+      "how_described": "本集说 BraveOne 把几百个单位的零散反馈整合成整体性摘要给制造商,Marketplace 内置评论和建议功能,以缩短部队与制造商之间的反馈循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1171.195,
+            1189.08
+          ],
+          "quote": "I've heard a lot about the feedback loop between drone units and the manufacturers that suggestions to improve and the manufacturers improve so that it's a very rapid iteration process with the manufacturers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1255.954,
+            1257.575
+          ],
+          "quote": "We are shortening the feedback loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1258.195,
+            1268.718
+          ],
+          "quote": "And in case we are shortening the feedback loop, and the simplification to get the access about this information, because the military units and the manufacturers, sometimes there are a gap between them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mikhail-fedorov",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mikhail Fedorov",
+      "file": "Mikhail Fedorov",
+      "primary": false,
+      "how_described": "本集提到积分计划的想法来自一次会议上 Mikhail Fedorov 提出的「我有一个想法」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            496.889,
+            503.553
+          ],
+          "quote": "No, it was on one meeting, and Mikhail Fedorov suggested, I have an idea.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "naval-drones",
+      "type": "concept",
+      "role": "concept",
+      "name": "海上无人机 (naval drones)",
+      "file": "海上无人机",
+      "primary": false,
+      "how_described": "本集提到乌克兰缺乏海军舰队时开始试验海上无人机,是不对等回应的一部分,现在也归 BraveOne 职责范围覆盖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            79.02,
+            82.402
+          ],
+          "quote": "We started to experiment with naval drones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            328.332,
+            342.216
+          ],
+          "quote": "Missiles, precise ammunition, naval drones, ground robots, electronic warfare, satellite communication, satellite optical navigation, regular communication, everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "electronic-warfare",
+      "type": "concept",
+      "role": "concept",
+      "name": "电子战 (electronic warfare)",
+      "file": "电子战",
+      "primary": false,
+      "how_described": "本集列举 BraveOne 现在覆盖的类别时提到电子战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            328.332,
+            342.216
+          ],
+          "quote": "Missiles, precise ammunition, naval drones, ground robots, electronic warfare, satellite communication, satellite optical navigation, regular communication, everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

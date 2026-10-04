@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]]
+[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":3,"智能体":391,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":6,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":3,"智能体":397,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":6,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

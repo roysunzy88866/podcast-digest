@@ -117,7 +117,7 @@ Aaron 说了三件事概括他的工作：让系统对各方清晰可读（合�
 
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:红队测试 (red team)、护栏 (guardrails)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:OpenClaw · 同概念:护栏 (guardrails)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:智能体 (agents)</span>
+- [[2026-10-03-twist-inside-the-startup-building-uncensored-a|把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」]]<span class="pd-rz">同概念:智能体 (agents)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

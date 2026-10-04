@@ -45,7 +45,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[推理]] · [[Anthropic]] · [[数据中心]] · [[AMD]] · [[Cerebrus]] · [[LLM]] · [[Microsoft]] · [[Broadcom]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":52,"OpenAI":151,"推理":70,"Anthropic":165,"数据中心":18,"AMD":5,"Cerebrus":3,"LLM":53,"Microsoft":28,"Broadcom":5}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":53,"OpenAI":155,"推理":72,"Anthropic":169,"数据中心":19,"AMD":5,"Cerebrus":3,"LLM":53,"Microsoft":28,"Broadcom":5}</script>
 
 <script>
 (function(){

@@ -1,0 +1,148 @@
+{
+  "title_zh": "击杀换积分:乌克兰如何用「无人机大军」奖励计划重构战争",
+  "tldr": "BraveOne 负责人详解乌克兰「无人机大军」奖励计划:部队击毁目标赚积分、积分换无人机,如何让战果确认、装备采购与军队优先级全面数字化。",
+  "digest_md": "这一集聊的是乌克兰「无人机大军」(Army of Drones)积分奖励计划——全球首个把「击毁战果、积分奖励、电商采购」搬上战场的大规模系统。主讲嘉宾是 BraveOne 的负责人。BraveOne 原本是乌克兰的创新发展基金,如今是这个体系对外的品牌;主持人是 Greg。\n\n先交代一下背景。乌克兰在资源上完全无法跟俄罗斯拼数量——即使算上盟友支持,俄罗斯的钱也多得多。所以乌克兰的路线是「不对等回应」:缺火炮,就上 FPV 无人机(第一人称视角遥控的自杀式无人机);缺海军舰队,就试验海上无人机。经过几年验证,全世界都看到这条路走对了,这也是乌克兰至今没被征服的原因之一。BraveOne 就是为此设立的国家级单一平台:军队、政府机构、无人机制造商、大学、国际伙伴都在上面协作。2026 年它的职责范围每个季度都在扩大,最初只管无人机,现在覆盖导弹、精确弹药、地面机器人、电子战、卫星通信等几乎所有类别。\n\n## 积分怎么赚:战果上传、双重确认、去重\n\n这个点子来自一次会议,Mikhail Fedorov 提出「我有一个想法」,很短时间就上线了市场系统和积分计算系统。规则极其简单:击毁越多目标,赚越多积分,积分能兑换额外无人机,新无人机又能摧毁更多目标——一个自我加速的激励系统。嘉宾强调这不是游戏化,而是激励和提高效率。\n\n技术上依托 Delta——乌克兰的态势感知与指挥控制系统,从旅级到小队级再到全军态势,是乌克兰数字化军队的骨干。作战单位击中目标后,在 Delta 地图上点击标注:什么目标、谁打的、用什么无人机、在哪,并上传视频确认;BRAVE1 旗下专门的验证团队每天核验这些材料,确认或驳回(被驳回可申诉)。\n\n关键的一条纪律:**同一个战果只算一次**。战场上常有同一目标被多个单位攻击的情况,传统军队里每个单位都会写报告说「我们摧毁了坦克」,只有数字化系统能去重、产生可信数据。所以当官方说每月 35000 名俄罗斯士兵被消灭时,这个数字有视频确认、没有重复登记——而真实数字其实更高。高层面上,确认一次打击通常需要两份证据:观察无人机监视打击的画面,加上 FPV 打击本身的视频;具体规则因目标而异,嘉宾拒绝细讲,「免得让俄罗斯知道怎么更好地应对」。\n\n## 「军事亚马逊」:从下单到上战场只要两周\n\n积分攒到账后,单位进入 BraveOne Marketplace——嘉宾称之为「我们的军事亚马逊」:像在 Amazon 或 eBay 一样把无人机加购物车、下单、用积分支付,余额扣减,制造商发货,五天内货款打进制造商账户。对比各国都有的集中式老采购流程(单位打报告、等审批),从点击购物车到拿到并使用无人机,平均只要**两周**。为什么这很关键?半年时间足以让半年前订的无人机过时,而两周到手的就是你此刻最需要的东西。\n\n供应商准入很短:注册、过简短合规就能上架,可选公开目录或仅军事单位可见的封闭目录;之后可走认证、编目拿到北约编码,进入政府正式采购。某些类别甚至允许积分兑换未认证的无人机——单位觉得好用就不必等完整认证流程,责任由单位自担。\n\n## 排行榜是指挥工具:改分值,军队行为一小时内就变\n\n不同目标分值不同,打坦克比打步兵分高,但这些分值表是机密。分值真正的威力在于**即时调整优先级**:传统方式下,军队管理层要让某类目标变得更重要,得走官僚程序下命令,而执行纪律和知晓度都很低;有了积分系统,改个分值,所有军人立刻知道这类目标值钱,马上开始猎捕——因为每个单位都想在排行榜上进前十、当第一。嘉宾说,世界上每家公司的 CEO 都会梦想拥有这种能力:一个决定,第二天早上或一小时内就在全员身上生效。\n\n排行榜还用来发现人才:一些完全不被军队和国家管理层所知的单位打出了远超平均基准的成绩(平均 10,它做到 20),系统用来识别他们、提炼经验再推广,也用来对照找出交付无人机很多却产出很低的单位。\n\n## 反馈闭环与「80 比 20」\n\n部队和制造商之间的快速迭代也跑在这个平台上。一条产品管理铁律:听终端用户的反馈。但一款无人机有 300 个单位在用,每家的反馈都不同——BraveOne 的规则是把反馈整合成整体性摘要给制造商;Marketplace 内置评论、建议、打分功能,制造商直接分析。此外 BraveOne 的数据团队每月分析 Delta 原始数据和市场数据,做成简报发给终端用户:什么好用、什么不好用、哪些新秀表现出色。\n\n这个模式还重塑了采购权力平衡:一些在中央层面采购量很小的制造商,实际上是军队急需的,销售额比集中采购时代增长了五到十倍。乌克兰由此推行「80 比 20」:中央采购时在每个类别挑头部产品(以往采购与 Marketplace 热销结合),新公司产品一旦被各单位在市场上买,下个月就能进入那 80% 量的中央合同——这就是新技术不只几件样品、而是规模化上战场的方式。\n\n## 战争经济学与出口\n\n嘉宾的账算得很清楚:用 100 万美元的弹药去击落一架成本 5 万美元的 Shahid(俄方使用的低成本自杀式无人机),是在帮敌人。这正是拦截机(成本几千美元、专门猎杀无人机的无人机)崛起的原因——2024 年乌克兰看到潜力后把它作为 BRAVE1 和数字化转型部的重点工作来规模化,现在有超过 150 家乌克兰公司生产拦截机,市场还不成熟,新模式不断涌现,也有三家国际公司在乌克兰积极作业。由此形成了一个门槛:任何想进国防工业的公司都得来乌克兰实测。嘉宾说,看到有国家买没在乌克兰测过、只「宣称有效」的无人机,他们会震惊,然后回答:来我们这测,给验证报告和建议报告,你再决定它到底是真防御、还是安全的错觉。\n\n至于扩散:俄罗斯没做类似的事——嘉宾的原话很尖锐,说俄罗斯靠命令和强制,乌克兰是民主、去中心化的国家,政府要做的是帮生态更好地运转。但美国、法国正在采用与 Marketplace 类似、已在乌克兰验证有效的方法;乌克兰也愿意输出经验——用嘉宾的话说,乌克兰早已不是援助的接受方,而是新技术的诞生之地,使命是帮「正常国家」变强,制止战争、防止第三次世界大战。\n\n## 本集带走\n\n- **激励设计即指挥设计**:与其下命令改优先级,不如调整积分分值——排行榜竞争让全军行为在数小时内自动对齐新目标。\n- **可信数据靠去重**:同一战果只计一次、双重视频确认,才能得到「每月 35000」这种敢拿出来的数字;传统层层报告必然注水。\n- **两周替换半年**:把电商逻辑搬进军事采购(积分下单、五天回款),装备迭代速度直接变成战斗力。\n- **反馈闭环要靠整合**:几百个单位的零散反馈,由平台汇总成精炼摘要给制造商,比单个用户反馈值钱得多。\n- **成本差就是战略**:拦截机几千美元换 5 万美元的 Shahid,把战争经济学扳向防御方——便宜的一方耗得起,这就是止战逻辑。",
+  "quotes": [
+    {
+      "en": "And when we tell that 35,000 Russian soldiers has been eliminated, we have guarantee confirmation that was not double booking in reality.",
+      "zh": "当我们说 35000 名俄罗斯士兵被消灭时,我们保证确认现实中没有重复登记。",
+      "timestamp": "12:10",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "I believe that every CEO of every company in the world will be dreaming about having such possibility to change the priorities of their units and their employees based on this decision that start to work tomorrow morning or within one hour.",
+      "zh": "我相信,世界上每家公司的 CEO 都会梦想拥有这样的能力——基于某个决定改变他们单位和员工的优先级,而这个决定第二天早上或一小时内就开始生效。",
+      "timestamp": "24:23",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "And the amount of sales in some of manufacturers increased in five, ten times in comparison with the centralized way.",
+      "zh": "其中一些制造商的销售量,相比中央化的方式增长了五倍、十倍。",
+      "timestamp": "27:19",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "Russia, this is the country of slaves.",
+      "zh": "俄罗斯,这是奴隶的国家。",
+      "timestamp": "29:02",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "If you need to waste $1 million to hit one Shahid that costs $50,000, this is in favor of the enemy.",
+      "zh": "如果你需要浪费 100 万美元去击落一架成本 5 万美元的 Shahid,这是有利于敌人的。",
+      "timestamp": "31:43",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "Because investors that cost a few thousands effectively destroy shahids that cost 50,000.",
+      "zh": "因为成本只有几千美元的拦截机,能够有效地摧毁成本 5 万美元的 Shahid。",
+      "timestamp": "32:00",
+      "speaker": "Andrii Hrytseniuk"
+    },
+    {
+      "en": "Sometimes we're shocked when the different countries buy the drones that have not been tested in Ukraine but just declared that they work.",
+      "zh": "有时我们会感到震惊,当不同国家购买那些没有在乌克兰测试过、只是宣称有效的无人机。",
+      "timestamp": "33:12",
+      "speaker": "Andrii Hrytseniuk"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "11:55",
+      "speaker": "嘉宾",
+      "en": "Because in traditional military world, every unit will write the report that we destroy tank.",
+      "zh": "因为在传统军事体系中,每个单位都会写报告说「我们摧毁了坦克」。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "嘉宾",
+      "en": "And when we tell that 35,000 Russian soldiers has been eliminated, we have guarantee confirmation that was not double booking in reality.",
+      "zh": "当我们说 35000 名俄罗斯士兵被消灭时,我们保证确认现实中没有重复登记。"
+    },
+    {
+      "timestamp": "14:13",
+      "speaker": "嘉宾",
+      "en": "And right now we see that every month we destroy more Russian soldiers.",
+      "zh": "而现在我们看到,每个月我们摧毁的俄罗斯士兵都更多。"
+    },
+    {
+      "timestamp": "17:31",
+      "speaker": "嘉宾",
+      "en": "BraveOne Marketplace, with this asymmetrical approach with bonuses, the average time from clicking on the shopping cart, order the drone to get and to use it in two weeks.",
+      "zh": "BraveOne Marketplace,通过这种带积分奖励的非对称方式,从点击购物车、订购无人机到拿到并使用它,平均时间是两周。"
+    },
+    {
+      "timestamp": "18:03",
+      "speaker": "嘉宾",
+      "en": "Because in half a year, the drones that have been ordered half a year ago can be outdated.",
+      "zh": "因为半年后,半年前订购的无人机可能已经过时了。"
+    },
+    {
+      "timestamp": "23:48",
+      "speaker": "嘉宾",
+      "en": "But with the bonus system, it works instantly.",
+      "zh": "但有了积分系统,它立即生效。"
+    },
+    {
+      "timestamp": "24:11",
+      "speaker": "嘉宾",
+      "en": "I believe that every CEO of every company in the world will be dreaming about having such possibility to change the priorities of their units and their employees based on this decision that start to work tomorrow morning or within one hour.",
+      "zh": "我相信,世界上每家公司的 CEO 都会梦想拥有这样的能力——基于某个决定改变他们单位和员工的优先级,而这个决定第二天早上或一小时内就开始生效。"
+    },
+    {
+      "timestamp": "24:23",
+      "speaker": "嘉宾",
+      "en": "And we see how the structure of hits is changing instantly, immediately after changing the priorities.",
+      "zh": "而且我们看到,在优先级改变之后,打击结构会立刻、马上发生变化。"
+    },
+    {
+      "timestamp": "26:04",
+      "speaker": "嘉宾",
+      "en": "by the management, the army management, by the country management, show extremely good results.",
+      "zh": "军队管理层、国家管理层所不知的单位,却展现出极其出色的成果。"
+    },
+    {
+      "timestamp": "27:19",
+      "speaker": "嘉宾",
+      "en": "And the amount of sales in some of manufacturers increased in five, ten times in comparison with the centralized way.",
+      "zh": "其中一些制造商的销售量,相比中央化的方式增长了五倍、十倍。"
+    },
+    {
+      "timestamp": "28:12",
+      "speaker": "嘉宾",
+      "en": "In next month can come to centralized contracts in this 80% of volumes.",
+      "zh": "下个月就可以进入这 80% 采购量的中央化合同。"
+    },
+    {
+      "timestamp": "29:02",
+      "speaker": "嘉宾",
+      "en": "Russia, this is the country of slaves.",
+      "zh": "俄罗斯,这是奴隶的国家。"
+    },
+    {
+      "timestamp": "30:16",
+      "speaker": "嘉宾",
+      "en": "Because Ukraine, this is not a receiver of the support.",
+      "zh": "因为乌克兰,这不是支持的接受方。"
+    },
+    {
+      "timestamp": "31:43",
+      "speaker": "嘉宾",
+      "en": "If you need to waste $1 million to hit one Shahid that costs $50,000, this is in favor of the enemy.",
+      "zh": "如果你需要浪费 100 万美元去击落一架成本 5 万美元的 Shahid,这是有利于敌人的。"
+    },
+    {
+      "timestamp": "32:00",
+      "speaker": "嘉宾",
+      "en": "Because investors that cost a few thousands effectively destroy shahids that cost 50,000.",
+      "zh": "因为成本只有几千美元的拦截机,能够有效地摧毁成本 5 万美元的 Shahid。"
+    },
+    {
+      "timestamp": "33:22",
+      "speaker": "嘉宾",
+      "en": "Sometimes we're shocked when the different countries buy the drones that have not been tested in Ukraine but just declared that they work.",
+      "zh": "有时我们会感到震惊,当不同国家购买那些没有在乌克兰测试过、只是宣称有效的无人机。"
+    }
+  ],
+  "voice_script": "今天这一集,咱们聊一件挺特别的事:乌克兰搞了一个叫「无人机大军」的积分奖励计划,这是全球第一个把击毁战果、积分奖励、电商采购这一整套搬上战场的大规模系统。主讲人是 BraveOne 的负责人,BraveOne 原本是乌克兰的创新发展基金,现在成了这套体系对外的品牌;主持人叫 Greg。\n\n先把背景交代清楚。俄乌打到现在,乌克兰在资源上完全没法跟俄罗斯拼数量,就算把盟友的支持都算上,俄罗斯的钱也多得多。所以乌克兰走的是一条「不对等回应」的路线:缺火炮,就上 FPV 无人机——就是第一人称视角遥控的自杀式无人机;缺海军舰队,就去试验海上无人机。几年打下来,全世界都看到这条路走对了,这也是乌克兰至今没被征服的原因之一。BraveOne 就是为这件事设立的国家级单一平台,军队、政府机构、无人机制造商、大学、国际伙伴都在上面协作。到 2026 年,它的职责范围每个季度都在扩大,最早只管无人机,现在连导弹、精确弹药、地面机器人、电子战、卫星通信都覆盖了。\n\n那这个积分的点子是怎么来的呢?来自一次会议,Mikhail Fedorov 提了一句「我有一个想法」,很短时间就上线了市场系统和积分计算系统。规则简单到一句话就能说完:击毁越多目标,赚越多积分,积分能兑换额外的无人机,新无人机又能摧毁更多目标——这是一个会自己加速的激励循环。这里嘉宾特意强调,这不是游戏化,而是激励和提高效率。\n\n技术上是依托一套叫 Delta 的系统来跑的。Delta 是乌克兰的态势感知与指挥控制系统,说白了就是乌克兰数字化军队的骨干。作战单位击中目标之后,就在 Delta 的地图上点击标注:打的是什么目标、谁打的、用的什么无人机、在哪儿打的,然后上传视频做确认。BRAVE1 旗下有专门的验证团队,每天核验这些材料,确认或者驳回,被驳回还可以申诉。\n\n这里面有条特别关键的纪律:同一个战果,只算一次。战场上很常见的情况是,同一个目标被好几个单位轮流攻击。传统军队里,每个单位都会写报告说「我们摧毁了坦克」,数字一层层报上去,水分就出来了。只有数字化系统能把重复的去掉,产生可信的数据。所以当官方说出「每月 35000 名俄罗斯士兵被消灭」这种数字的时候,底氣在哪?在于这个数字有视频确认、没有重复登记——而且嘉宾说,真实数字其实还要更高。具体的确认规则,比如通常需要一份观察无人机监视打击的画面,加上一份 FPV 打击本身的视频,嘉宾拒绝细讲,理由很直白:免得让俄罗斯知道怎么更好地应对。\n\n积分攒到账之后呢?单位会进入 BraveOne Marketplace,嘉宾管这个叫「我们的军事亚马逊」。像在 Amazon 或者 eBay 上买东西一样,把无人机加购物车、下单、用积分支付,余额扣减,制造商发货,五天之内货款就打进制造商的账户。对比一下各国都有的那种集中式老采购流程——单位打报告、再等审批——从点击购物车到拿到无人机并投入使用,平均只要两周。为什么这事这么关键?因为半年时间,足够让半年前订的无人机过时了,而两周到你手的,就是你此刻最需要的东西。供应商的准入门槛也不高,注册、过一道简短的合规就能上架,之后还可以走认证、编目拿到北约编码,进入政府的正式采购。某些类别甚至允许用积分兑换还没完成认证的无人机,单位觉得好用就不必等流程,责任由单位自己担。\n\n接下来这个点,可能是整套设计里最聪明的。不同目标分值不一样,打坦克比打步兵分高,当然这些分值表是机密。但分值真正的威力,在于能即时调整军队的优先级。传统方式下,军队管理层要让某类目标变得更 重要,得走官僚程序下命令,而下发之后,执行纪律和知晓度都很低。有了积分系统,改个分值,所有军人立刻知道这类目标现在值钱了,马上开始猎捕——因为每个单位都想在排行榜上进前十、当第一。嘉宾有句话说得很有劲:世界上每家公司的 CEO 都会梦想拥有这样的能力——基于某个决定改变优先级,而这个决定第二天早上、甚至一小时内就开始生效。排行榜还能用来发现人才:有些完全不被高层所知的单位,打出了远超平均的成绩,平均打 10 分的活,它能做到 20,系统就把他们识别出来、提炼经验再推广;反过来,也能找出那些交付了很多无人机、产出却很低的单位。\n\n那制造商这头怎么迭代呢?平台上跑着一个反馈闭环。做产品有条铁律:听终端用户的反馈。可一款无人机有 300 个单位在用,每家的反馈都不同,怎么办?BraveOne 的规则是把反馈整合成整体性摘要给制造商,Marketplace 里还内置了评论、建议、打分的功能。另外数据团队每个月分析 Delta 的原始数据和市场数据,做成简报发给终端用户:什么好用、什么不好用、哪些新秀表现出色。这个模式还重塑了采购的权力平衡——有些制造商在中央层面拿到的采购量很小,但实际上是军队急需的,销售额比集中采购时代增长了五到十倍。乌克兰由此推行「80 比 20」:中央采购在每个类别挑头部产品,新公司的产品只要被各单位在市场上买起来了,下个月就能进入那 80% 量的中央合同。这就是新技术不是送几件样品上战场,而是规模化上战场的方式。\n\n最后咱们算一笔战争经济学的账。嘉宾的账算得很清楚:如果你需要浪费 100 万美元的弹药,去击落一架成本只有 5 万美元的 Shahid——就是俄方用的低成本自杀式无人机——那是在帮敌人。这正是拦截机崛起的原因:拦截机就是专门猎杀无人机的无人机,成本只要几千美元。2024 年乌克兰看到潜力之后,把它作为 BRAVE1 和数字化转型部的重点工作来规模化,现在已经有超过 150 家乌克兰公司在生产拦截机,市场还不成熟,新模式不断涌现,也有三家国际公司在乌克兰积极作业。这就形成了一个门槛:任何想进国防工业的公司,都得来乌克兰实测。嘉宾说,看到有国家买那些没在乌克兰测过、只「宣称有效」的无人机,他们会很震惊,然后回答:来我们这儿测,给你验证报告和建议报告,你再决定它到底是真防御,还是安全的错觉。\n\n至于俄罗斯为什么没做类似的事?嘉宾的原话很尖锐:俄罗斯,这是奴隶的国家,靠命令和强制;乌克兰是民主、去中心化的国家,政府要做的是帮生态更好地运转。而美国、法国,正在采用跟 Marketplace 类似、已经在乌克兰验证有效的方法。用嘉宾的话说,乌克兰早已不是援助的接受方,而是新技术的诞生之地,使命是帮「正常国家」变强,制止战争、防止第三次世界大战。\n\n这一集带走一句话:与其下命令改优先级,不如调整积分分值——激励设计本身就是指挥设计,而成本差就是战略,几千美元的拦截机换掉 5 万美元的 Shahid,把战争经济学扳向防御方,便宜的一方耗得起,这就是止战的逻辑。"
+}
