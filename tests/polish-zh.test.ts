@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold, stripShortQuotes } from "../scripts/polish-zh.mjs";
+import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold, stripShortQuotes, acceptEdit, plainEdit } from "../scripts/polish-zh.mjs";
 
 describe("C41 · 标出问题句", () => {
   it("★★★ 普通英文词被标出;约定俗成的技术词、双链/按钮/时间戳里的英文不算", () => {
@@ -57,7 +57,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
   }
   it("★★★ 正常改写落盘:英文改中文 + 标题人名统一", () => {
     const dir = fixture("联邦 funding 被砍了 5% 的预算。");
-    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]) });
+    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], edit: (t: string) => t, ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]) });
     expect(r.changed).toBe(true);
     const d = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8"));
     expect(d.digest_md).toBe("联邦资金被砍了 5% 的预算。");
@@ -66,7 +66,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
   it("★★★ 改写塞进原文没有的英文专名 → 改写就地拒收,正文原样(GLM 008[3])", () => {
     const md = "联邦 funding 被砍了 5% 的预算。";
     const dir = fixture(md);
-    polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被 Zorptron 砍了 5% 的预算。"]]) });
+    polish(dir, { log: () => {}, pickEmphasis: () => [], edit: (t: string) => t, ask: () => new Map([[0, "联邦资金被 Zorptron 砍了 5% 的预算。"]]) });
     expect(JSON.parse(readFileSync(join(dir, "digest.json"), "utf8")).digest_md).toBe(md);
   });
   it("★★★ 改完复检冒出新事实层失败 → 整批回滚(人名统一也一起撤),稿子原样", () => {
@@ -75,7 +75,7 @@ describe("C41 · polish 整链(假改写器):不许带出新事实层失败", ()
     const orig = readFileSync(join(dir, "digest.json"), "utf8");
     let n = 0;
     const gate = () => (n++ === 0 ? { pass: true, failures: [] } : { pass: false, failures: [{ raw: "新冒出来的" }] });
-    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]), gate });
+    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], edit: (t: string) => t, ask: () => new Map([[0, "联邦资金被砍了 5% 的预算。"]]), gate });
     expect(r.rolledBack).toBe(true);
     expect(readFileSync(join(dir, "digest.json"), "utf8")).toBe(orig);
   });
@@ -176,5 +176,32 @@ describe("C41 · 引号只给原话(用户 2026-10-04:「」用得太多看着�
     const out = stripShortQuotes(md);
     expect(out).toBe("Jev 优化的是每美元智能,他说「拒绝显然是一个类型错误」。还有过桥基金。");
     expect(out.replace(/[「」『』]/g, "")).toBe(md.replace(/[「」『』]/g, ""));
+  });
+});
+
+describe("C41 · 编辑通读(用户 2026-10-04:整体写得晦涩,比喻看不懂)", () => {
+  const FILL = "公共媒体这些年面对的处境越来越难,受众在流失,资金也在减少,但她依然相信内容本身的力量。";
+  const orig = FILL + "她说「我们尽量偏向巧克力蛋糕那边。」KCRW 只占 5% 的预算[12:03 Jennifer Ferro],[[NPR]]也一样。";
+  it("★★★ 收:比喻讲清、加〔解释〕,原话/时间戳/双链/数字/专名都在", () => {
+    const patch = FILL + "公共媒体常被当成有营养但没人爱吃的西兰花。所以她说「我们尽量偏向巧克力蛋糕那边。」也就是做让人想看的内容。KCRW〔洛杉矶的一家公共电台〕只占 5% 的预算[12:03 Jennifer Ferro],[[NPR]]也一样。";
+    expect(acceptEdit(orig, patch)).toBe(true);
+  });
+  it("★★★ 不收:改了原话 / 丢了时间戳 / 动了数字 / 新加了专名 / 篇幅暴涨", () => {
+    expect(acceptEdit(orig, orig.replace("巧克力蛋糕那边。", "巧克力那边。"))).toBe(false);
+    expect(acceptEdit(orig, orig.replace("[12:03 Jennifer Ferro]", ""))).toBe(false);
+    expect(acceptEdit(orig, orig.replace("5%", "6%"))).toBe(false);
+    expect(acceptEdit(orig, orig + "Netflix 也这样。")).toBe(false);
+    expect(acceptEdit(orig, orig + "补".repeat(100))).toBe(false);
+  });
+  it("★★★ 逐节改写:某节复检冒新事实层失败 → 只退回那一节,其它节保留", () => {
+    const md = "开场一句话讲的是公共媒体的生存问题和她的看法。\n\n## 一节\n第一节原文在讲资金被砍以后电台怎么活下去的问题。\n\n## 二节\n第二节原文在讲社区比收听率更重要的道理和例子。";
+    let cur = md;
+    const gate = () => ({ failures: cur.includes("坏改写") ? [{ raw: "新失败" }] : [] });
+    const edit = (t: string) => (t.startsWith("第一节") ? t + "坏改写" : t + "也就是说更好懂了");
+    const r = plainEdit(md, { dir: "x", gate, edit, write: (m: string) => (cur = m) });
+    expect(r.edited).toBe(2);
+    expect(r.md).not.toContain("坏改写");
+    expect(r.md).toContain("第二节原文在讲社区比收听率更重要的道理和例子。也就是说更好懂了");
+    expect(r.md).toContain("开场一句话讲的是公共媒体的生存问题和她的看法。也就是说更好懂了");
   });
 });

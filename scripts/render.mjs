@@ -864,6 +864,11 @@ export function segmentBody(md, { maxChars = 0 } = {}) {
 export const READABLE_V2_AFTER = "2026-10-04"; // meta.added 严格大于它才走新分段
 export const PARA_MAX_HAN = 50;
 
+/** 〔解释〕→ 浅灰小字括注(只新集;存量没有 〔〕,也不碰)。 */
+export function renderGloss(md, on = true) {
+  return on ? String(md).replace(/〔([^〔〕\n]{1,80})〕/g, '<span class="pd-gloss">（$1）</span>') : String(md);
+}
+
 /** 读者实际看到的汉字数:去掉回原文按钮(里面是英文原话)与 HTML 标签,双链取显示文本。 */
 export function visibleHanCount(text) {
   const v = String(text)
@@ -995,7 +1000,9 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
   const bodyMd = entities ? linkPrimaryEntities(digestMd, entities) : digestMd;
   // C19:正文按句分段(长段拆成每 2-3 句更适合手机读;保护 pd-ts/双链/代码,逐字不动)
   // C41:2026-10-04 之后入库的新集按长度切(每段 ≤50 汉字);存量照旧(用户「存量都不动」)
-  const bodySeg = segmentBody(bodyMd, String(meta.added ?? "") > READABLE_V2_AFTER ? { maxChars: PARA_MAX_HAN } : {});
+  const isV2 = String(meta.added ?? "") > READABLE_V2_AFTER;
+  // C41:编辑通读给专业词补的解释写在 〔〕 里 → 渲染成浅灰小字括注(读者一眼分得清是 AI 补的解释,不是原话)
+  const bodySeg = renderGloss(segmentBody(bodyMd, isV2 ? { maxChars: PARA_MAX_HAN } : {}), isV2);
 
   const quoteBlocks = (digest.quotes || [])
     .map(

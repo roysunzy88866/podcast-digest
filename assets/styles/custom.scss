@@ -2097,3 +2097,9 @@ article .text-highlight {
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 }
+
+/* C41:编辑通读补的名词解释 〔…〕 → 浅灰小字括注(AI 补的解释,与原话区分) */
+article .pd-gloss {
+  color: var(--gray);
+  font-size: 0.88em;
+}

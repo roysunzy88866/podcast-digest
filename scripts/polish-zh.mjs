@@ -209,6 +209,60 @@ export function parseEmphasis(stdout) {
   return picks;
 }
 
+// ══ 编辑通读(2026-10-04 用户看第三版样张:「不仅是名词的问题,而是你整体写得都很晦涩……巧克力这种隐喻看不懂」)══
+// 浓缩模型一边挑重点、一边顾十几条写作规则,顾不过来 → 单独一道「讲给外行听」的改写,只管看不看得懂。
+// 逐节改写;每节改完立刻复检事实层,冒新失败就退回这一节原文。AI 补的名词解释写在 〔〕 里(渲染成浅灰小字括注)。
+const EDIT_SYSTEM = `你是一位擅长把专业访谈讲给外行听的中文编辑。读者:聪明,但不是这个行业的人。
+把下面这一节改写得让他第一次读就看懂:
+1. 嘉宾的比喻、口头禅:先用一句大白话说清它想表达什么,再带出比喻(例:「公共媒体常被当成有营养但没人爱吃的西兰花;她想做的,是让人想看、又有营养的内容,也就是她说的巧克力蛋糕」)。
+2. 每个观点说清「所以呢 / 为什么重要」——只用原文里已有的理由或例子,原文没有就不补。
+3. 行话、缩写:能换成大白话就换;必须保留的专业词,第一次出现时在后面加〔一句常识性解释〕(用〔〕括起来,里面不许写数字和人名)。
+4. 用「因为、所以、但是、比如、也就是说」把前后句的逻辑接上;一句只讲一件事,句子短。
+红线:不新增任何人名、公司名、产品名、数字、事实;不删掉原文的观点;[[双链]]、[mm:ss 说话人] 标注、「」里的原话、**加粗** 一字不改原样保留;小标题行不改。
+只输出改写后的这一节正文,不要解释。`;
+
+function glmEdit(text, ctx) {
+  const r = spawnSync("glm-ask", ["--system", EDIT_SYSTEM, "--max-tokens", "4000", `【本集】${ctx}\n【这一节】\n${text}`], { encoding: "utf8", timeout: 180000, maxBuffer: 8 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  return String(r.stdout).trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim();
+}
+
+/** 一节改写收不收:受保护片段(双链/时间戳/整句原话/加粗)原样在、数字一个不多不少、英文专名一个不多、篇幅在 0.85–1.8 倍之间。 */
+export function acceptEdit(orig, patch) {
+  if (typeof patch !== "string" || !patch.trim()) return false;
+  const keep = [...(String(orig).match(MASK) ?? []), ...(String(orig).match(/「[^」\n]*[,，。!！?？][^」\n]*」|\*\*[^*\n]+\*\*/g) ?? [])];
+  for (const k of keep) if (!patch.includes(k)) return false;
+  const bag = (s, re) => (String(s).replace(MASK, " ").match(re) ?? []).sort().join(",");
+  if (bag(orig, /\d+(?:\.\d+)?/g) !== bag(patch, /\d+(?:\.\d+)?/g)) return false;
+  const caps = (s) => new Set(String(s).replace(MASK, " ").match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? []);
+  const oc = caps(orig);
+  for (const c of caps(patch)) if (!oc.has(c)) return false;
+  const h0 = visibleHanCount(orig), h1 = visibleHanCount(patch);
+  return h1 >= h0 * 0.85 && h1 <= h0 * 1.8;
+}
+
+/** 逐节编辑通读;每节改完复检事实层,冒新失败就退回该节。返回 {md, edited}。 */
+export function plainEdit(md, { dir, ctx = "", gate = gateFacts, edit = glmEdit, baseKeys = new Set(), write = () => {}, log = () => {} }) {
+  let out = String(md);
+  let edited = 0;
+  for (const sec of [...sections(out)].reverse()) {
+    if (TAKEAWAY.test(sec.title)) continue;
+    const orig = out.slice(sec.start, sec.end);
+    if (visibleHanCount(orig) < 20) continue;
+    let patch;
+    try { patch = edit(orig.trim(), ctx); } catch (e) { log(`  ✗ 编辑通读第 ${sec.i} 节调 GLM 失败:${e.message}`); continue; }
+    if (!acceptEdit(orig, patch)) { log(`  ✗ 编辑通读第 ${sec.i} 节没过守门(改了原话/数字/专名或篇幅异常)→ 保留原文`); continue; }
+    const lead = orig.match(/^\s*/)[0], tail = orig.match(/\s*$/)[0];
+    const cand = out.slice(0, sec.start) + lead + patch + tail + out.slice(sec.end);
+    write(cand);
+    const fresh = gate(dir).failures.filter((f) => !baseKeys.has(String(f.raw ?? f.name ?? f.reason)));
+    if (fresh.length) { write(out); log(`  ✗ 编辑通读第 ${sec.i} 节带出 ${fresh.length} 条新事实层失败 → 退回`); continue; }
+    out = cand;
+    edited++;
+  }
+  return { md: out, edited };
+}
+
 const SYSTEM = `你是中文科技编辑。下面每条是一篇中文精华正文里的一句话,括号里标了问题:
 - 「英文」:句中普通英文单词改成中文(人名、公司名、产品名、约定俗成的技术词如 token/API 照留英文);
 - 「过长」:这句超过 60 字,拆成两三个短句,每句 40 字左右。
@@ -226,7 +280,7 @@ function glm(input) {
   return m;
 }
 
-export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis } = {}) {
+export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis, edit = glmEdit } = {}) {
   const dPath = resolve(dir, "digest.json");
   const digest = JSON.parse(readFileSync(dPath, "utf8"));
   const meta = existsSync(resolve(dir, "meta.json")) ? JSON.parse(readFileSync(resolve(dir, "meta.json"), "utf8")) : {};
@@ -244,8 +298,17 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
   }
   for (const [a, b] of names) log(`  ✎ 人名统一:${a} → ${b}`);
 
-  // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子
+  // ⓪ 编辑通读(讲给外行听;逐节守门,失败退回该节)
   let md = String(next.digest_md ?? "");
+  {
+    const writeMd = (m) => writeFileSync(dPath, JSON.stringify({ ...next, digest_md: m }));
+    const r = plainEdit(md, { dir, ctx: `${next.title_zh ?? ""}。${next.tldr ?? ""}`, gate, edit, baseKeys: beforeKeys, write: writeMd, log });
+    writeFileSync(dPath, JSON.stringify(digest)); // 复检用的临时稿还原;最终统一在下面落盘
+    md = r.md;
+    if (r.edited) log(`  ✎ 编辑通读:改写 ${r.edited} 节`);
+  }
+
+  // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子
   const issues = sentenceIssues(md);
   const done = [];
   for (let k = 0; k < issues.length; k += 20) {
@@ -271,7 +334,8 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
   } catch (e) { log(`  ✗ 重点标注调 GLM 失败(跳过):${e.message}`); }
   next.digest_md = md;
 
-  if (!names.length && !done.length && !emph.length) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
+  const plainChanged = md !== String(digest.digest_md ?? "");
+  if (!names.length && !done.length && !emph.length && !plainChanged) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
   // 守门:事实层不许冒出新失败,否则整批回滚
   writeFileSync(dPath, JSON.stringify(next));
   const after = gate(dir);

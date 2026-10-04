@@ -161,3 +161,11 @@ describe("C41 · 新集分段:收引号不落到下一段开头,破折号处不�
     expect(paras.join("")).toBe(md);
   });
 });
+
+import { renderGloss } from "../scripts/render.mjs";
+describe("C41 · 〔解释〕渲染成浅灰小字括注(只新集)", () => {
+  it("★★ 新集转成 pd-gloss 括注;存量不碰", () => {
+    expect(renderGloss("被 MMLU〔一种常用的 AI 能力考试〕刷榜。")).toBe('被 MMLU<span class="pd-gloss">（一种常用的 AI 能力考试）</span>刷榜。');
+    expect(renderGloss("被 MMLU〔x〕刷榜。", false)).toBe("被 MMLU〔x〕刷榜。");
+  });
+});
