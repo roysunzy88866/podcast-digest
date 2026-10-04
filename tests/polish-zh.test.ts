@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold } from "../scripts/polish-zh.mjs";
+import { strayWords, sentenceIssues, fixNameVariants, officialNames, acceptRewrite, polish, LONG_SENT_HAN, applyEmphasis, sections, EMPH_MAX, parseEmphasis, stripBodyBold, stripShortQuotes } from "../scripts/polish-zh.mjs";
 
 describe("C41 · 标出问题句", () => {
   it("★★★ 普通英文词被标出;约定俗成的技术词、双链/按钮/时间戳里的英文不算", () => {
@@ -167,5 +167,14 @@ describe("C41 · 重点标注:引号不成对的片段不标(样张实证)", () 
     const md = "## 节\n他说「不去操纵这些评估」是他用铁腕管的事情之一,「宁少勿多」很重要。";
     expect(applyEmphasis(md, [{ sec: 1, kind: "结论", text: "不去操纵这些评估」是他用铁腕管的事情之一" }]).applied).toEqual([]);
     expect(applyEmphasis(md, [{ sec: 1, kind: "结论", text: "「宁少勿多」很重要" }]).applied).toHaveLength(1);
+  });
+});
+
+describe("C41 · 引号只给原话(用户 2026-10-04:「」用得太多看着怪)", () => {
+  it("★★★ 包着短词/概念的引号去掉;整句原话(带句读)的引号留;只删符号不改字", () => {
+    const md = "Jev 优化的是「每美元智能」,他说「拒绝显然是一个类型错误」。还有『过桥基金』。";
+    const out = stripShortQuotes(md);
+    expect(out).toBe("Jev 优化的是每美元智能,他说「拒绝显然是一个类型错误」。还有过桥基金。");
+    expect(out.replace(/[「」『』]/g, "")).toBe(md.replace(/[「」『』]/g, ""));
   });
 });

@@ -99,12 +99,15 @@ describe("C41 · 新集每段 ≤50 汉字", () => {
     const out = segmentBody(LONG, { maxChars: PARA_MAX_HAN });
     const paras = out.split("\n\n");
     expect(paras.length).toBeGreaterThan(1);
-    for (const p of paras) expect(visibleHanCount(p)).toBeLessThanOrEqual(50);
+    // 每段 ≤50 字;超的只能是「切不开的单句」(2026-10-04 起 —— 不再当分句点)
+    for (const p of paras) expect(visibleHanCount(p) <= 50 || (p.match(/[。！？]/g) ?? []).length <= 1).toBe(true);
     expect(paras.join("")).toBe(LONG);
   });
-  it("★★ 单句超 50 字在 ;:—— 处再切;切不开就单句成段(不在逗号处硬切)", () => {
-    const s = "甲".repeat(30) + "——" + "乙".repeat(30) + "。";
-    expect(segmentBody(s, { maxChars: 50 }).split("\n\n")).toEqual(["甲".repeat(30) + "——", "乙".repeat(30) + "。"]);
+  it("★★ 单句超 50 字在 ;: 处再切;—— 与逗号处不切,切不开就单句成段", () => {
+    const s = "甲".repeat(30) + "；" + "乙".repeat(30) + "。";
+    expect(segmentBody(s, { maxChars: 50 }).split("\n\n")).toEqual(["甲".repeat(30) + "；", "乙".repeat(30) + "。"]);
+    const dash = "甲".repeat(30) + "——" + "乙".repeat(30) + "。";
+    expect(segmentBody(dash, { maxChars: 50 })).toBe(dash);
     const noCut = "丙".repeat(40) + "，" + "丁".repeat(40) + "。";
     expect(segmentBody(noCut, { maxChars: 50 })).toBe(noCut);
   });
@@ -146,5 +149,15 @@ describe("C41 · 小标题下紧跟正文(无空行)也要切(样张实证 Jev �
   });
   it("★★★ 存量(旧模式):这种块原样不动(老页面逐字不变)", () => {
     expect(segmentBody(md)).toBe(md);
+  });
+});
+
+describe("C41 · 新集分段:收引号不落到下一段开头,破折号处不切(样张实证)", () => {
+  it("★★★ 「……。」的 」跟着前一句;「——」不再当分句点", () => {
+    const md = "发现漏判时，补一个问题就行。「这就像没有 ML 的 ML。」确定性反而被他称为错误的北极星——他主张鲁棒性。";
+    const paras = segmentBody(md, { maxChars: 20 }).split("\n\n");
+    expect(paras.some((p) => p.startsWith("」"))).toBe(false);
+    expect(paras.some((p) => /——$/.test(p.trim()))).toBe(false);
+    expect(paras.join("")).toBe(md);
   });
 });

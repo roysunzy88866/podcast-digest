@@ -129,6 +129,15 @@ export function sections(md) {
 const PUNCT = { "，": ",", "：": ":", "？": "?", "！": "!", "；": ";", "（": "(", "）": ")", "“": "\"", "”": "\"" };
 const normPunct = (s) => String(s).replace(/[，：？！；（）“”]/g, (c) => PUNCT[c]);
 
+/** 包着短词的引号去掉(用户 2026-10-04:「」用得太多看着怪;引号只留给整句原话)。
+ *  判据:引号里 ≤8 个汉字、且没有句读标点(,。!?;:)→ 是名词/概念不是原话 → 去引号。只删符号不改字。 */
+export function stripShortQuotes(md) {
+  return String(md).replace(/[「『]([^「」『』\n]{1,16})[」』]/g, (all, inner) => {
+    const han = (inner.match(/[\u4e00-\u9fff]/g) ?? []).length;
+    return han <= 8 && !/[,，。!！?？;；:：]/.test(inner) ? inner : all;
+  });
+}
+
 /** 去掉正文里浓缩模型自己加的加粗(「本集带走」列表的加粗是格式,保留)—— 加粗只留给程序控量的「重点结论」。只删标记不改字。 */
 export function stripBodyBold(md) {
   let out = String(md);
@@ -254,7 +263,7 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
   // ④ 重点标注(只加标记不改字)
   let emph = [];
   try {
-    md = stripBodyBold(md); // 样张实证:浓缩模型会自己在正文加粗 → 先清掉,加粗只留给控量的重点结论
+    md = stripShortQuotes(stripBodyBold(md)); // 样张实证:浓缩模型会自己在正文加粗、给名词乱加引号 → 先清掉
     const r = applyEmphasis(md, pickEmphasis(md));
     md = r.md;
     emph = r.applied;

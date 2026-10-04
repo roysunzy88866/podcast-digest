@@ -875,7 +875,14 @@ export function visibleHanCount(text) {
 
 /** 句子贪心装段:装下这句就超 max → 另起一段;单句超 max → 在 ;:—— 处再切,切不开单句成段。 */
 function packByLength(sents, max) {
-  const pieces = sents.flatMap((s) => (visibleHanCount(s) > max ? splitSentences(s, CLAUSE_END) : [s]));
+  // 句末标点后的收引号 」』”’) 归前一句(样张实证:「……ML 的 ML。」的 」被切到下一段开头)。只在新集长度模式里做,存量 C19 不动
+  const glued = [];
+  for (const s of sents) {
+    const m = s.match(/^([」』”’）)]+)([\s\S]*)$/);
+    if (m && glued.length) { glued[glued.length - 1] += m[1]; if (m[2].trim()) glued.push(m[2]); }
+    else glued.push(s);
+  }
+  const pieces = glued.flatMap((s) => (visibleHanCount(s) > max ? splitSentences(s, CLAUSE_END) : [s]));
   const out = [];
   let cur = "";
   for (const p of pieces) {
@@ -888,8 +895,9 @@ function packByLength(sents, max) {
 
 // 全角句末 + 半角 !? ;半角句号 . 不算(英文缩写/小数/网址会误切)
 const SENT_END = "。！？…!?";
-// C41:长句再切的分句点(全角分号/冒号 + 破折号「——」;半角冒号不算,英文里太常见)
-const CLAUSE_END = "；：—";
+// C41:长句再切的分句点(全角分号/冒号;半角冒号不算,英文里太常见)。
+// 破折号「——」不切了:样张实证切完段尾挂个「——」,读着像话没说完(2026-10-04)
+const CLAUSE_END = "；：";
 
 /** 按句末标点切句,跳过 [[双链]]/`代码`/<标签>;句末紧跟的 pd-ts 按钮吸附进前一句。 */
 function splitSentences(text, ends = SENT_END) {

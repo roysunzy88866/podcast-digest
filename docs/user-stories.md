@@ -2903,7 +2903,7 @@ Feature: 精华在手机上好读
   Scenario: 新内容每段 ≤50 字
     Given 一期 meta.added ≥ 2026-10-04 的精华
     When  render.mjs 渲染正文
-    Then  每个正文段 ≤50 个汉字;单句超 50 字在 ;:—— 处再切,切不开才单句成段
+    Then  每个正文段 ≤50 个汉字;单句超 50 字在 ;: 处再切(——不切),切不开才单句成段
   Scenario: 老内容重建站不变
     Given 一期 meta.added < 2026-10-04 的精华
     When  build-pages 重跑
