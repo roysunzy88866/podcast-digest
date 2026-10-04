@@ -2853,3 +2853,71 @@ Scenario: refresh 重配音时重生成口播稿;--no-audio 只改文字那支�
 5. 提示词 prompts/voice-script.md;实测真跑一集验证风格(活泼+钩子+快速点题+少他)+ MiMo 配出样音过用户听感。
 6. GLM 冷审 + 裁决落账。
 7. 片头音乐(免费可商用)另作一步,不进本切片。
+
+## C40 · 选题口径「无关才拦」+ 核不实删句照发 · US-4/US-11 · 2026-10-04 用户「需求通过」[standard-change: 用户授权]
+> 共识:需求共识「选题与拦截口径 v2」节 · ADR 0026。实测起因见 ADR 0026 背景(近 30 天拒 140/412,其中「拿不准」48;事实层整集隔离约 20)。
+```gherkin
+Feature: 订阅源每一期默认收,只拦三类无关话题
+  Scenario: 拿不准的 AI/科技访谈要收下
+    Given 一期 AI/科技相关访谈,判官对是否该收拿不准
+    When  播客判官(taste-judge)或演讲巡航判官(patrol-talks)出判定
+    Then  判「对味」,reason 以「拿不准→收:」开头,进入处理链
+  Scenario: 只拦三类无关话题
+    Given 一期属于 ① 非 AI/科技泛话题 ② 多话题新闻速览 ③ 学术研究·AI+生物科研 之一
+    When  判官出判定
+    Then  判「不对味」,reason 写明是哪一类
+  Scenario: 大模型发布/跑分评测在时效内要收
+    Given 一期大模型发布或跑分评测,发布距今 ≤14 天
+    When  判官出判定
+    Then  判「对味」;距今 >14 天仍判「过时:」
+  Scenario: 频道附加规则不得与新口径打架
+    Given data/talk-subscriptions.json 的 judgeHint
+    When  巡航判官读取
+    Then  judgeHint 只能收窄到三类之内,不再出现「模型评测/产品宣传不对味」类排除
+
+Feature: 核不实删句照发(修订 Scenario 5d-D:≤2 处 → ≤正文 1/5)
+  Scenario: 删句总量 ≤1/5 → 删掉照发
+    Given 定点重写 + 专名软化后仍有核不实,每处都能唯一定位,删句总字数 ≤ 正文 1/5
+    When  repair-facts 末轮兜底
+    Then  删掉这些句子,整篇复检全过即落盘;日志逐条「✂ 删句」
+  Scenario: 失真太密不再直接熔断隔离
+    Given 失真条数 > DENSITY_FUSE(8)
+    When  repair-facts
+    Then  跳过模型重写(省钱),直接走删句兜底;删不下(>1/5 或定位不唯一)才判失败
+  Scenario: 删不下 → 整集重做一次浓缩
+    Given repair-facts 仍未过
+    When  run-pipeline 逐集验证
+    Then  删 digest 重新浓缩一次并重走金句/实体/闸门/修复;仍未过才隔离(reason 注明「重做一次后仍未过」)
+
+Feature: 被误挡的近期内容补回
+  Scenario: 近 60 天因旧口径被挡的集重审
+    Given pipeline-state skipped 里发布日在 60 天内、理由属「拿不准 / 大模型发布·跑分评测(非过时) / 事实层未过」
+    When  执行补回(一次性)
+    Then  这些集从账本 forget,按新口径重新判官 + 处理;仍属三类无关或过时的照旧拦
+```
+
+## C41 · 精华可读性 v2(手机每段 ≤50 字 + 长句/中英夹杂/人名/衔接)· US-4 · 2026-10-04 用户「需求通过」[standard-change: 用户授权]
+> 共识:需求共识「精华可读性 v2」节 · ADR 0027。修订 C19(按句数切)→ 按长度切,**仅对 2026-10-04 之后入库的新集**。
+```gherkin
+Feature: 精华在手机上好读
+  Scenario: 新内容每段 ≤50 字
+    Given 一期 meta.added ≥ 2026-10-04 的精华
+    When  render.mjs 渲染正文
+    Then  每个正文段 ≤50 个汉字;单句超 50 字在 ;:—— 处再切,切不开才单句成段
+  Scenario: 老内容重建站不变
+    Given 一期 meta.added < 2026-10-04 的精华
+    When  build-pages 重跑
+    Then  正文分段与改动前逐字一致(仍走 C19 按句切)
+  Scenario: 正文不夹杂普通英文单词
+    Given 一期新精华
+    When  机器检查
+    Then  除专名/通用技术缩写外无英文单词;有则交模型改中文后复检
+  Scenario: 同一人名拼写一致
+    Given 嘉宾名在标题、署名、正文出现
+    When  机器比对
+    Then  三处拼写相同(以节目官方信息为准)
+  Scenario: 文风改写先过用户样张
+    Given 新浓缩提示词改好
+    When  用新写法重做 2 期与旧版并排给用户
+    Then  用户认可后才对新内容生效
+```

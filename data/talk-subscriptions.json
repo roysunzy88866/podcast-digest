@@ -6,7 +6,7 @@
       "name": "AI Engineer",
       "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
       "filters": {
-        "judgeHint": "本频道约 20-30% 是模型基准测评/评测报告类(State of AI 报告体、benchmark 对比),命中品味档案 ❌「大模型发布/跑分评测」即不对味;要的是 AI 编程/agent 实操与企业案例演讲。"
+        "judgeHint": "AI Engineer 大会演讲,基本都是 AI 工程/agent/企业落地,默认收(2026-10-04 口径:模型评测、产品发布类也收);只有纯论文/算法原理深水的演讲属三类之③要拦。"
       }
     },
     {
@@ -26,7 +26,7 @@
       "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
       "filters": {
         "minDurationSec": 600,
-        "judgeHint": "本频道约 40% 是自家产品宣传/功能教程,不对味;要的是 agent 实操的企业客户案例与创始人对谈(Bridgewater/Coinbase/Cognition 那类)。"
+        "judgeHint": "LangChain 官方频道:agent 实操、企业客户案例、创始人对谈、自家产品与功能讲解,默认收(2026-10-04 起产品讲解也收);短于 10 分钟的已由时长下限滤掉。"
       }
     },
     {
@@ -34,7 +34,7 @@
       "name": "Stripe",
       "channelId": "UCM1guA1E-RHLO2OyfQPOkEQ",
       "filters": {
-        "judgeHint": "本频道约 30% 是产品宣传片/功能发布,不对味;要的是 Sessions/Tour 的高规格对谈与炉边访谈(Collison 家访谈先例)。注意其对谈可能与 Cheeky Pint 播客 RSS 重复,重复判定交云端标题比对,这里只判品味。"
+        "judgeHint": "Stripe 官方频道:Sessions/Tour 对谈、炉边访谈、产品发布,默认收(2026-10-04 起产品发布也收)。注意对谈可能与 Cheeky Pint 播客 RSS 重复,重复判定交云端标题比对,这里只判品味。"
       }
     },
     {
@@ -43,7 +43,7 @@
       "channelId": "UCrDwWp7EBBv4NwvScIpBDOA",
       "filters": {
         "minDurationSec": 300,
-        "judgeHint": "Anthropic 官方频道(2026-08-31 用户点名订阅,起因「Mastering Claude Code in 30 minutes」)。要的是**有实质的深度内容**:上手教程/工程实操(Claude Code、agent、MCP 那类「一集学透一件事」)、研究解读、创始人/研究员深访。不对味的:①几十秒到两三分钟的功能短片/宣传剪辑(minDurationSec 已滤大部分)、②纯产品发布公告(「Claude 现在支持 X」)、③活动预告/花絮。判据同品味档案——上手价值高、能读进去的留,广告味/资讯味的毙。"
+        "judgeHint": "Anthropic 官方频道(2026-08-31 用户点名订阅):上手教程/工程实操、研究解读、创始人/研究员深访、产品发布,默认收(2026-10-04 起产品发布也收);几十秒到两三分钟的短片已由时长下限滤掉。纯论文解读按三类之③拦。"
       }
     },
     {
@@ -52,7 +52,7 @@
       "channelId": "UCcefcZRL2oaA_uBNeo5UOWg",
       "filters": {
         "minDurationSec": 900,
-        "judgeHint": "本频道一半以上内容不进 YC 播客 RSS(实证 2026-08-10~09-08:YouTube 15 条 vs 播客 7 条,10 条独占),故订阅它专为捞这半边。噪音:Demo Day/项目招募/产品发布公告(如「Happy Alumni Demo Day」「Introducing Early Access」)一律不对味;要的是 Paper Club 论文拆解、创始人/高管深访、AI 产业格局与创业方法论。注意与 yc 播客 RSS 同名集会跨源重复,重复判定交云端标题比对,这里只判品味。"
+        "judgeHint": "本频道一半以上内容不进 YC 播客 RSS(实证 2026-08-10~09-08:YouTube 15 条 vs 播客 7 条,10 条独占),故订阅它专为捞这半边。默认收(2026-10-04 起 Demo Day、产品发布也收);Paper Club 若是纯论文拆解按三类之③拦。注意与 yc 播客 RSS 同名集会跨源重复,重复判定交云端标题比对,这里只判品味。"
       }
     },
     {
@@ -70,7 +70,7 @@
       "channelId": "UCZ7x7yDBbEFCGztD8BYvRhA",
       "filters": {
         "minDurationSec": 1200,
-        "judgeHint": "要的是 35-58 分钟的企业 agent 落地案例与创始人对谈(Glean/Cresta/Box/Harvey/Braintrust/Baseten 那类)。噪音:5-12 分钟的招聘/融资建议短片、产品发布公告(如「Introducing SuperMe」)一律不对味,已由时长下限滤掉大部分。"
+        "judgeHint": "企业 agent 落地案例与创始人对谈为主,默认收(2026-10-04 起产品发布也收);5-12 分钟短片已由时长下限滤掉。"
       }
     },
     {
@@ -79,7 +79,7 @@
       "channelId": "UC6YYHJzM6PhZ2Yey9BQiUaw",
       "filters": {
         "minDurationSec": 1500,
-        "judgeHint": "本频道大半是 1-3 分钟产品短片/客户案例(已由时长下限滤掉),另有 15 分钟左右的 Compile 会议短讲(偏学术,也滤掉)。要的是 50-65 分钟的 AI 编程实操深讲(重构遗留代码库 / 模型选择与 token 效率 / 让 agent 团队协作),与 Anthropic 频道的 Mastering Claude Code 同类。「Introducing X / Meet X」这种发布会式产品宣讲不对味;方法论与实操教学对味。实证 2026-09-03 一次性发了 5 条长片,节奏偏爆发式。"
+        "judgeHint": "AI 编程实操深讲为主,默认收(2026-10-04 起产品宣讲也收);15 分钟左右的 Compile 会议短讲若是学术论文体按三类之③拦。实证 2026-09-03 一次性发了 5 条长片,节奏偏爆发式。"
       }
     }
   ]

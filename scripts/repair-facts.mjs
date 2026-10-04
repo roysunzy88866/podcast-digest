@@ -61,7 +61,8 @@ export function censorEntityDescriptions(entitiesObj, names) {
 // ── Scenario 5d-D([standard-change: 用户授权 2026-09-24「a」]):修不动的零星一两处 → 删掉所在那一句/小标题 ──
 // 起因:2026-09-21-latent-jev 3 处失败修好 2 处,剩小标题「## 可靠性的几个 9」里一个 9(模型两次重写都把 9 写回去)
 // → 整集 2 小时访谈被隔离。与不变量②的区别:②防**模型**学会删;这里是模型修不动之后**程序**机械删,且有硬上限。
-export const CUT_MAX_FAILURES = 2; // 剩余失败超过这个数 → 不删,照旧隔离
+// C40 / ADR 0026(2026-10-04 用户「需求通过」):上限从「≤2 处」放宽为「删除总量 ≤ 正文 1/5」;超了交上层整集重做一次浓缩。
+export const CUT_MAX_RATIO = 0.2; // 删除总字数 / 原正文字数 超过这个比例 → 不删(稿子整体太虚,该重做)
 export const CUT_MAX_CHARS = 300; // 单处删除超过这个长度 → 不删(防整段被当成一句)
 
 /**
@@ -291,13 +292,10 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
     return { changed: false, fixed: [], remaining: [], pass: true, origLen: md.length, finalLen: md.length };
   }
 
-  // 密度熔断(change 2B):失真太密 = 稿子整体不可信,修出来也是筛子 → 不修不烧钱,直接交隔离
-  if (before.failures.length > DENSITY_FUSE) {
-    log(`⛔ 失真密度 ${before.failures.length} > ${DENSITY_FUSE} → 熔断:稿子整体不可信,不修,交隔离`);
-    return { changed: false, fixed: [], remaining: before.failures, pass: false, fused: true, origLen: md.length, finalLen: md.length };
-  }
-
-  log(`事实层 ${before.failures.length} 条未过 → 定点重写(整篇不动,只改命中的段)`);
+  // 密度熔断(change 2B → C40 改):失真太密不再直接交隔离,而是跳过模型重写(不烧钱),直接走末轮删句兜底;删不下(>1/5)才判失败
+  const fused = before.failures.length > DENSITY_FUSE;
+  if (fused) log(`⛔ 失真密度 ${before.failures.length} > ${DENSITY_FUSE} → 跳过模型重写,直接走删句兜底(C40)`);
+  else log(`事实层 ${before.failures.length} 条未过 → 定点重写(整篇不动,只改命中的段)`);
 
   const fixed = [];
   const writeTmp = (text) => writeFileSync(dPath, JSON.stringify({ ...digest, digest_md: text }));
@@ -322,7 +320,8 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
         .map((s) => (s.text || "").trim())
         .join("\n") || "(没捞到原文片段;闸门点名的内容请直接去掉)";
       let ok = false;
-      try {
+      if (!fused) {
+        try {
         const problems = fs.map((f) => `- ${f.reason}`).join("\n");
         const patch = (await glmAsk(ENTITY_SYSTEM, `## 问题\n${problems}\n\n## 原文片段\n${ev}\n\n## 待修的描述\n${savedDesc}`, 400))
           .trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim();
@@ -336,6 +335,7 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
           if (!still && !brandNew) { ok = true; fixed.push({ entity: name, problems: fs.map((f) => f.raw ?? f.name) }); log(`  ✓ 实体「${name}」描述已重写(${fs.length} 处)`); }
         }
       } catch (e) { log(`  ✗ 实体「${name}」调 GLM 失败:${e.message}`); }
+      }
       if (!ok) {
         // 切除兜底(fail-closed:清空后该栏不显示,零失真;宁少一句真话不发一句假话)。
         // 必须调 censorEntityDescriptions 本尊——内联复制逻辑=测试测的函数≠生产跑的代码(GLM 20260723-001[1] 抓到)
@@ -348,7 +348,7 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
   }
   const orig = md;
 
-  for (let round = 1; round <= MAX_ROUNDS; round++) {
+  for (let round = 1; round <= (fused ? 0 : MAX_ROUNDS); round++) {
     // 每轮都**重新**跑闸门:上一轮的补丁可能带出新问题(不变量③)
     writeTmp(md);
     const r = gateFacts(dir, opts);
@@ -407,7 +407,7 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
     const cur = gateFacts(dir, opts);
     const nounFails = cur.failures.filter((f) => f.kind === "D17-专名");
     // GLM 001[2]:仅当**剩余失败全是专名**才软化 —— 若还夹着数字/时间戳失败,软化专名也过不了闸,白烧 GLM(照旧隔离)
-    if (!cur.pass && nounFails.length && nounFails.length === cur.failures.length && cur.failures.length <= DENSITY_FUSE) {
+    if (!fused && !cur.pass && nounFails.length && nounFails.length === cur.failures.length && cur.failures.length <= DENSITY_FUSE) {
       log(`末轮兜底:${nounFails.length} 个专名查不实、常规修救不动 → 定点删除/软化(不指名的自然说法,Scenario 5d-B)`);
       const paras = splitParagraphs(md);
       const byPara = new Map();
@@ -442,12 +442,12 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
     }
   }
 
-  // ── Scenario 5d-D:还剩 ≤2 处修不动 → 删掉所在那一句/小标题(整篇复检全过才认,否则回滚照旧隔离)──
+  // ── Scenario 5d-D(C40 放宽):修不动的 → 删掉所在那一句/小标题,删除总量 ≤ 正文 1/5(整篇复检全过才认,否则回滚交上层重做)──
   writeTmp(md);
   {
     const cur = gateFacts(dir, opts);
     const { entity: entLeft } = splitEntityFailures(cur.failures);
-    if (!cur.pass && cur.failures.length <= CUT_MAX_FAILURES && !entLeft.size) {
+    if (!cur.pass && !entLeft.size) {
       const offs = cur.failures.map((f) => ({ f, at: locateFailureOffset(md, f) }));
       if (offs.every((o) => o.at >= 0)) {
         let cand = md;
@@ -461,15 +461,19 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
           cuts.push({ start: r.start, text: r.cut });
           cand = r.md;
         }
-        if (ok) {
+        const cutTotal = cuts.reduce((n, c) => n + c.text.length, 0);
+        if (ok && cutTotal > md.length * CUT_MAX_RATIO) {
+          ok = false;
+          log(`  ✗ 要删 ${cutTotal} 字 > 正文 ${md.length} 字的 ${Math.round(CUT_MAX_RATIO * 100)}% → 不删,交上层整集重做一次浓缩`);
+        } else if (ok) {
           writeTmp(cand);
           const after = gateFacts(dir, opts);
           if (after.pass) {
             md = cand;
             for (const c of cuts) { fixed.push({ cutSentence: c.text }); log(`  ✂ 删句(修不动的零星一处,Scenario 5d-D):「${c.text}」`); }
-          } else log(`  ✗ 删句后事实层仍未过(${after.failures.length} 条)→ 回滚,照旧隔离`);
-        } else log(`  ✗ 待删处超过 ${CUT_MAX_CHARS} 字 → 不删,照旧隔离`);
-      } else log(`  ✗ ${offs.filter((o) => o.at < 0).length} 处在正文里定位不唯一 → 不删,照旧隔离`);
+          } else log(`  ✗ 删句后事实层仍未过(${after.failures.length} 条)→ 回滚,交上层整集重做`);
+        } else log(`  ✗ 有一处待删超过 ${CUT_MAX_CHARS} 字或落在表格里 → 不删,交上层整集重做`);
+      } else log(`  ✗ ${offs.filter((o) => o.at < 0).length} 处在正文里定位不唯一 → 不删,交上层整集重做`);
     }
   }
 

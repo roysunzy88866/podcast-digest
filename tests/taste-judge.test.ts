@@ -182,3 +182,29 @@ describe("drift #97 · 源清单不是判据(曾误杀 TWIML)", () => {
     expect(doc.slice(j, j + 400)).toContain("不是判据");
   });
 });
+
+// C40 / ADR 0026(2026-10-04 用户「需求通过」):对味才收 → 无关才拦
+describe("C40 · 判官口径「只拦三类、拿不准收」", () => {
+  const root = decodeURIComponent(new URL("..", import.meta.url).pathname);
+  const read = (p: string) => readFileSync(root + p, "utf8");
+  it("★★★ 播客判官与演讲巡航判官都写明「只拦三类」+「拿不准→收」,旧「拿不准判不对味」已去掉", () => {
+    for (const f of ["scripts/taste-judge.mjs", "scripts/patrol-talks.mjs"]) {
+      const src = read(f);
+      expect(src).toContain("非 AI/科技泛话题、多话题新闻速览、学术研究·AI+生物科研");
+      expect(src).toContain("拿不准时判「对味」,reason 以「拿不准→收:」开头");
+      expect(src).not.toMatch(/拿不准[^'"\n]*判「不对味」/);
+    }
+  });
+  it("★★★ 品味档案 ❌ 只剩三类,大模型发布/跑分已列入「不再拦」", () => {
+    const doc = read("需求共创/内容品味档案.md");
+    const block = doc.slice(doc.indexOf("## ❌"), doc.indexOf("## ⏳"));
+    const rows = block.split("\n").filter((l) => /^\| ①|^\| ②|^\| ③/.test(l));
+    expect(rows).toHaveLength(3);
+    expect(block).toMatch(/不再拦[^\n]*大模型发布 \/ 跑分评测/);
+  });
+  it("★★ 频道附加规则不再排除「评测/宣传/发布/教程」(只能在三类内收窄)", () => {
+    const subs = JSON.parse(read("data/talk-subscriptions.json"));
+    const list = Array.isArray(subs) ? subs : subs.subscriptions ?? subs.channels;
+    for (const s of list) expect(String(s.filters?.judgeHint ?? "")).not.toMatch(/(评测|宣传|发布|教程|预告)[^。]*不对味/);
+  });
+});

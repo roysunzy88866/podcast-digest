@@ -1083,14 +1083,20 @@ function processEpisode(item, id, source, state) {
   // 逐集验证(防失真闸门)在出稿/配音**之前** —— 失真集不写集页/音频,隔离时无孤儿产物。
   // gate(金句三联)+ gate-facts(导读事实层)都只读 digest,不需渲染产物。失败=GLM 真失真→交 main 隔离(skip+通知,drift #24)
   console.log(`\n   ── 逐集验证 ${id}(出稿前)──`);
-  if (!runOk("node", ["scripts/gate.mjs", dir])) return { ok: false, reason: "金句三联闸门未过(疑拼接/编造/张冠李戴)" };
-  if (!runOk("node", ["scripts/gate-facts.mjs", dir])) {
-    // change 2B(用户批「单点处理」):失真句先定点救(重写/切除,密度超限自动熔断),救完重验;仍不过才隔离。
-    // 一处边角失真不再杀整集——通过标准一分没降(重验仍是同一道闸门)。
-    console.log(`   事实层未过 → 定点重写回路(repair-facts:失真句单点救,救不动才隔离)`);
+  // C40 / ADR 0026(2026-10-04 用户「需求通过」):核不实删句照发;删不下(>正文 1/5 或定位不唯一)→ 整集重做一次浓缩,仍不过才隔离。
+  for (let attempt = 1; ; attempt++) {
+    if (!runOk("node", ["scripts/gate.mjs", dir])) return { ok: false, reason: `金句三联闸门未过(疑拼接/编造/张冠李戴)${attempt > 1 ? "(重做一次浓缩后)" : ""}` };
+    if (runOk("node", ["scripts/gate-facts.mjs", dir])) break;
+    // change 2B + C40:失真句先定点救(重写 → 专名软化 → 删句兜底),救完重验 —— 通过标准一分没降(重验仍是同一道闸门)。
+    console.log(`   事实层未过 → 定点重写回路(repair-facts:重写/软化/删句,删不下才判失败)`);
     runOk("node", ["scripts/repair-facts.mjs", dir]); // 修没修好都以下一行重验为准
-    if (!runOk("node", ["scripts/gate-facts.mjs", dir]))
-      return { ok: false, reason: "导读/实体事实层未过(定点重写后仍未过,或密度熔断)" };
+    if (runOk("node", ["scripts/gate-facts.mjs", dir])) break;
+    if (attempt >= 2) return { ok: false, reason: "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)" };
+    console.log(`   事实层删不下 → 整集重做一次浓缩(C40),再走金句/实体/闸门`);
+    run("node", ["scripts/condense.mjs", dir]);
+    run("node", ["scripts/judge-quotes.mjs", dir]);
+    run("node", ["scripts/repair-quotes.mjs", dir]);
+    run("node", ["scripts/extract-entities.mjs", dir]);
   }
 
   // C12:嘉宾姓名+职位落 meta(卡片第三行「人名 · 公司职位」的数据源)。放在闸门之后:

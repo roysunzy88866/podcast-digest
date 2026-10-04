@@ -1165,3 +1165,17 @@ describe("drift #106 · 重新订 Latent Space(只收访谈)", () => {
     expect(deriveId(picks[0], latent)).toBe("2026-09-21-latent-jev");
   });
 });
+
+describe("C40 · 事实层删不下 → 整集重做一次浓缩,仍不过才隔离", () => {
+  const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+  const i = src.indexOf("C40 / ADR 0026(2026-10-04 用户「需求通过」):核不实删句照发");
+  const block = src.slice(i, src.indexOf("extract-guest.mjs", i));
+  it("★★★ 修复后仍未过 → 第 1 次重跑 condense + 金句 + 实体再验;第 2 次仍未过才隔离", () => {
+    expect(i).toBeGreaterThan(0);
+    expect(block).toMatch(/for \(let attempt = 1; ; attempt\+\+\)/);
+    expect(block).toContain('if (attempt >= 2) return { ok: false, reason: "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)" }');
+    const redo = block.slice(block.indexOf("attempt >= 2"));
+    for (const step of ["condense.mjs", "judge-quotes.mjs", "repair-quotes.mjs", "extract-entities.mjs"]) expect(redo).toContain(step);
+    expect(block.indexOf("repair-facts.mjs")).toBeLessThan(block.indexOf("attempt >= 2"));
+  });
+});

@@ -5,7 +5,7 @@
 // 这里测的就是「收不收这个补丁」这个真决定。整链真跑的证据在 docs/c3-定点重写回路.md。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { splitParagraphs, locateFailure, judgePatch, locateFailureOffset, cutSentenceAt, repairFacts, CUT_MAX_FAILURES } from "../scripts/repair-facts.mjs";
+import { splitParagraphs, locateFailure, judgePatch, locateFailureOffset, cutSentenceAt, repairFacts, CUT_MAX_RATIO } from "../scripts/repair-facts.mjs";
 
 describe("splitParagraphs · 定位要原地替换的段", () => {
   it("按空行切段,并给出可原地替换的偏移", () => {
@@ -268,16 +268,35 @@ describe("5d-D · repairFacts 整链(假 glm-ask:模型修不动 → 末轮删�
     }
   }
   it("★★★ 只剩 1 处(小标题里编造的 77)→ 删掉那行小标题,整篇过闸,日志记下删了什么", async () => {
-    const { r, logs, saved } = await run("## 可靠性要到 77 分\n\n平台在 2023 年有收入。");
+    const body = "平台在 2023 年有收入。".repeat(6);
+    const { r, logs, saved } = await run("## 可靠性要到 77 分\n\n" + body);
     expect(r.pass).toBe(true);
-    expect(saved).toBe("平台在 2023 年有收入。");
+    expect(saved).toBe(body);
     expect(logs.some((l) => l.includes("✂ 删句") && l.includes("## 可靠性要到 77 分"))).toBe(true);
   });
-  it("★★★ 剩余超过上限 → 不删,照旧不过(交隔离)", async () => {
-    const md = Array.from({ length: CUT_MAX_FAILURES + 1 }, (_, i) => `第 ${i} 句有编造的 ${81 + i} 个数。`).join("\n\n") + "\n\n平台在 2023 年有收入。";
-    const { r, saved } = await run(md);
+  it("★★★ C40:删除量 > 正文 1/5 → 不删,照旧不过(交上层整集重做一次浓缩)", async () => {
+    const md = "第一句有编造的 81 个数。第二句有编造的 82 个数。\n\n平台在 2023 年有收入。";
+    expect(CUT_MAX_RATIO).toBe(0.2);
+    const { r, logs, saved } = await run(md);
     expect(r.pass).toBe(false);
     expect(saved).toBe(md);
+    expect(logs.some((l) => l.includes("交上层整集重做"))).toBe(true);
+  });
+  it("★★★ C40:3 处零星失真、删除量 ≤1/5 → 全删照发(原「≤2 处」上限已放宽)", async () => {
+    const body = "平台在 2023 年有收入。".repeat(12);
+    const md = `甲句编造 81 个数。${body}\n\n乙句编造 82 个数。${body}\n\n丙句编造 83 个数。${body}`;
+    const { r, saved } = await run(md);
+    expect(r.pass).toBe(true);
+    expect(saved).not.toMatch(/8[123]/);
+    expect(saved.split("平台在 2023 年有收入。").length - 1).toBe(36);
+  });
+  it("★★★ C40:失真 > DENSITY_FUSE 不再直接隔离 → 跳过模型重写、直接删句,≤1/5 照发", async () => {
+    const body = "平台在 2023 年有收入。".repeat(40);
+    const bad = Array.from({ length: 9 }, (_, i) => `第${i}句编造 ${71 + i} 个数。`).join("");
+    const { r, logs, saved } = await run(`${bad}\n\n${body}`);
+    expect(logs.some((l) => l.includes("跳过模型重写"))).toBe(true);
+    expect(r.pass).toBe(true);
+    expect(saved).toBe(body);
   });
 });
 
