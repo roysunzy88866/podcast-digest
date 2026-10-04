@@ -1,0 +1,184 @@
+#!/usr/bin/env node
+// C41 · 精华可读性 v2 机器修(ADR 0027,2026-10-04 用户「需求通过」):
+//   ① 统一人名拼写(同名不同姓拼写 → 以节目官方标题/嘉宾信息为准,机械替换)
+//   ② 正文普通英文单词 → 中文 ③ 超 60 字的长句 → 拆短(②③ 交 GLM 只改被标出的句子)
+// 开关:READABLE_V2=1 才动(用户「先看 2 期前后对照,认可后才对新内容生效」);没开 = 原样退出 0。
+// 守门:改动后整篇复检事实层,**不许冒出新失败**,否则整批回滚;任何异常都退出 0(best-effort,不阻塞发布)。
+//
+// 用法:node scripts/polish-zh.mjs <集目录>
+import { readFileSync, writeFileSync, existsSync, realpathSync } from "node:fs";
+import { resolve } from "node:path";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import { gateFacts } from "./gate-facts.mjs";
+import { visibleHanCount } from "./render.mjs";
+
+export const LONG_SENT_HAN = 60;
+// 中文科技写作里约定俗成保留英文的小写词(实测近 73 集高频)——不当「夹杂」
+export const JARGON_OK = new Set([
+  "token", "tokens", "harness", "diff", "bug", "bugs", "slop", "evals", "eval", "issue", "issues", "prompt", "prompts",
+  "skill", "skills", "flag", "flags", "vibe", "coding", "hook", "hooks", "markdown", "webhook", "webhooks", "schema",
+  "checkpoint", "cron", "loop", "linter", "embedding", "embeddings", "rollout", "top-k", "runbook", "transformer",
+  "agentic", "pre-seed", "seed", "alpha", "beta", "demo", "app", "apps", "api", "saas", "ide", "repo", "commit", "pr",
+  "json", "yaml", "sql", "cli", "sdk", "mcp", "rag", "gpu", "cpu", "llm", "ai", "app store", "pull", "request",
+]);
+
+const MASK = /\[\[[^\]]*\]\]|<button[\s\S]*?<\/button>|<[^>]+>|`[^`]*`|[[【(（][^\]】)）\n]*\d{1,2}:\d{2}[^\]】)）\n]*[\]】)）]/g;
+
+/** 句中普通英文小写词(≥3 字母、不在 JARGON_OK;双链/按钮/代码/时间戳内的不算)。 */
+export function strayWords(text) {
+  const t = String(text).replace(MASK, " ");
+  return (t.match(/(?<![A-Za-z0-9])[a-z][a-z-]{2,}(?![A-Za-z0-9])/g) ?? []).filter((w) => !JARGON_OK.has(w));
+}
+
+/** 正文里的句子(跳过标题/引用块【背景】/表格/代码围栏行),带原文偏移。 */
+export function bodySentences(md) {
+  const out = [];
+  const text = String(md);
+  let off = 0;
+  let fence = false;
+  for (const line of text.split("\n")) {
+    const start = off;
+    off += line.length + 1;
+    if (/^\s*(```|~~~)/.test(line)) { fence = !fence; continue; }
+    if (fence || !line.trim() || /^\s*(#{1,6}\s|>|\|)/.test(line)) continue;
+    const re = /[^。！？!?]+[。！？!?]?[」』”’）)]*/g;
+    let m;
+    while ((m = re.exec(line))) {
+      const s = m[0];
+      if (!s.trim()) continue;
+      const lead = s.length - s.trimStart().length;
+      out.push({ start: start + m.index + lead, end: start + m.index + s.length, text: s.trim() });
+    }
+  }
+  return out;
+}
+
+/** 标出有问题的句子:夹杂普通英文 / 可见汉字超 LONG_SENT_HAN。 */
+export function sentenceIssues(md) {
+  return bodySentences(md)
+    .map((s) => ({ ...s, stray: strayWords(s.text), long: visibleHanCount(s.text) > LONG_SENT_HAN }))
+    .filter((s) => s.stray.length || s.long);
+}
+
+export function lev(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+
+/** 官方人名(名 + 姓):只取嘉宾/主持字段(GLM 20261004-008[2]:标题里「The Logic」这类会被误抽成人名)。 */
+export function officialNames(meta) {
+  const src = [...(meta?.guests ?? []), meta?.host, ...(meta?.cohosts ?? [])].filter(Boolean).join(" ; ");
+  const out = new Map();
+  for (const m of src.matchAll(/\b([A-Z][a-z]+)\s+([A-Z][A-Za-z'-]{2,})\b/g)) if (!out.has(`${m[1]} ${m[2]}`)) out.set(`${m[1]} ${m[2]}`, [m[1], m[2]]);
+  return [...out.values()];
+}
+
+/** 同名(名完全相同)、姓只差 1–2 个字母 → 改成官方拼写。名不同不碰(Marc / Mark 是两个人)。 */
+export function fixNameVariants(text, official) {
+  let out = String(text ?? "");
+  const replaced = [];
+  for (const [first, last] of official) {
+    out = out.replace(new RegExp(`\\b${first}\\s+([A-Z][A-Za-z'-]{2,})\\b`, "g"), (all, l2) => {
+      // GLM 008[1]:短姓极易误配(Li/Wu、Wang/Yang)→ 两个姓都 ≥5 字母才动(容 2 处差异,覆盖真案例 Farrow/Ferro);更短一律不动
+      const maxD = Math.min(last.length, l2.length) >= 5 ? 2 : 0;
+      if (l2 === last || maxD === 0 || lev(l2.toLowerCase(), last.toLowerCase()) > maxD) return all;
+      replaced.push([`${first} ${l2}`, `${first} ${last}`]);
+      return `${first} ${last}`;
+    });
+  }
+  return { text: out, replaced };
+}
+
+/** 一句改写收不收:受保护片段原样在、数字不增不减、信息量不明显缩水、问题确有改善。 */
+export function acceptRewrite(orig, patch) {
+  if (typeof patch !== "string" || !patch.trim()) return false;
+  for (const keep of String(orig).match(MASK) ?? []) if (!patch.includes(keep)) return false;
+  const nums = (s) => (String(s).replace(MASK, " ").match(/\d+(?:\.\d+)?/g) ?? []).sort().join(",");
+  if (nums(orig) !== nums(patch)) return false;
+  if (visibleHanCount(patch) < visibleHanCount(orig) * 0.85) return false;
+  // GLM 008[3]:英文专名(大写开头的词)前后必须一致 —— 防改写悄悄换人/换公司
+  const caps = (s) => (String(s).replace(MASK, " ").match(/\b[A-Z][A-Za-z0-9'-]*\b/g) ?? []).sort().join(",");
+  if (caps(orig) !== caps(patch)) return false;
+  const longest = (s) => Math.max(0, ...bodySentences(s).map((x) => visibleHanCount(x.text)));
+  return strayWords(patch).length < strayWords(orig).length || (visibleHanCount(orig) > LONG_SENT_HAN && longest(patch) < visibleHanCount(orig));
+}
+
+const SYSTEM = `你是中文科技编辑。下面每条是一篇中文精华正文里的一句话,括号里标了问题:
+- 「英文」:句中普通英文单词改成中文(人名、公司名、产品名、约定俗成的技术词如 token/API 照留英文);
+- 「过长」:这句超过 60 字,拆成两三个短句,每句 40 字左右。
+红线:意思、事实、数字、人名专名一个都不许变,不许增删信息;句中 [[双链]]、<button…>…</button>、[mm:ss 说话人] 这类标记原样保留不动。
+输出:每条一行,格式「[[编号]] 改好的句子」。只输出这些行,不要解释。`;
+
+function glm(input) {
+  const r = spawnSync("glm-ask", ["--system", SYSTEM, "--max-tokens", "4000", input], { encoding: "utf8", timeout: 120000, maxBuffer: 8 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  const m = new Map();
+  for (const line of String(r.stdout).split("\n")) {
+    const g = line.match(/^\s*\[\[(\d+)\]\]\s?(.*)$/);
+    if (g) m.set(Number(g[1]), g[2].trim());
+  }
+  return m;
+}
+
+export function polish(dir, { log = console.log, ask = glm, gate = gateFacts } = {}) {
+  const dPath = resolve(dir, "digest.json");
+  const digest = JSON.parse(readFileSync(dPath, "utf8"));
+  const meta = existsSync(resolve(dir, "meta.json")) ? JSON.parse(readFileSync(resolve(dir, "meta.json"), "utf8")) : {};
+  const before = gate(dir);
+  const beforeKeys = new Set(before.failures.map((f) => String(f.raw ?? f.name ?? f.reason)));
+
+  // ① 人名统一(正文 + 标题 + 摘要)
+  const official = officialNames(meta);
+  const names = [];
+  const next = { ...digest };
+  for (const k of ["digest_md", "title_zh", "tldr"]) {
+    const r = fixNameVariants(next[k], official);
+    next[k] = r.text;
+    names.push(...r.replaced);
+  }
+  for (const [a, b] of names) log(`  ✎ 人名统一:${a} → ${b}`);
+
+  // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子
+  let md = String(next.digest_md ?? "");
+  const issues = sentenceIssues(md);
+  const done = [];
+  for (let k = 0; k < issues.length; k += 20) {
+    const batch = issues.slice(k, k + 20);
+    let got;
+    try {
+      got = ask(batch.map((x, i) => `[[${i}]] (${[x.stray.length ? `英文:${x.stray.join("/")}` : "", x.long ? "过长" : ""].filter(Boolean).join(";")}) ${x.text}`).join("\n"));
+    } catch (e) { log(`  ✗ 改写调 GLM 失败:${e.message}`); break; }
+    let back = 0;
+    batch.forEach((x, i) => { const p = got.get(i); if (p) back++; if (acceptRewrite(x.text, p)) done.push({ ...x, patch: p }); });
+    log(`  改写批 ${k / 20 + 1}:标出 ${batch.length} 句,模型返回 ${back} 句`); // GLM 008[5]:分清「没返回」与「拒收」
+  }
+  for (const x of [...done].sort((a, b) => b.start - a.start)) md = md.slice(0, x.start) + x.patch + md.slice(x.end);
+  next.digest_md = md;
+
+  if (!names.length && !done.length) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
+  // 守门:事实层不许冒出新失败,否则整批回滚
+  writeFileSync(dPath, JSON.stringify(next));
+  const after = gate(dir);
+  const fresh = after.failures.filter((f) => !beforeKeys.has(String(f.raw ?? f.name ?? f.reason)));
+  if (fresh.length) {
+    writeFileSync(dPath, JSON.stringify(digest));
+    log(`  ✗ 可读性修带出 ${fresh.length} 条新事实层失败 → 整批回滚`);
+    return { changed: false, rolledBack: true };
+  }
+  log(`  ✓ 可读性修:人名统一 ${names.length} 处,改写 ${done.length}/${issues.length} 句`);
+  return { changed: true, names, rewrites: done.length, flagged: issues.length };
+}
+
+const isMain = (() => { try { return process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url); } catch { return false; } })();
+if (isMain) {
+  const dir = process.argv[2];
+  if (!dir) { console.error("用法: node scripts/polish-zh.mjs <集目录>"); process.exit(2); }
+  if (process.env.READABLE_V2 !== "1") { console.log("可读性修:READABLE_V2 未开(等用户看样张认可),跳过"); process.exit(0); }
+  try { polish(resolve(dir)); } catch (e) { console.error(`⚠️ 可读性修异常(不阻塞发布):${e.message}`); }
+  process.exit(0);
+}

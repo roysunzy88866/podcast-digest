@@ -241,6 +241,8 @@ async function main() {
   const SYS =
     readFileSync(resolve(ROOT, "prompts/condense.md"), "utf8") +
     (isAsr ? "\n\n---\n" + readFileSync(resolve(ROOT, "prompts/condense-asr.md"), "utf8") : "") +
+    // C41 / ADR 0027:可读性 v2 写法,开关 READABLE_V2=1 才追加(用户看过样张认可后打开)
+    (process.env.READABLE_V2 === "1" ? "\n\n---\n" + readFileSync(resolve(ROOT, "prompts/condense-style-v2.md"), "utf8") : "") +
     "\n\n---\n术语表:\n" +
     readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
   // 双语对齐输入:每段 [mm:ss 说话人] 英文 ‖ 中文

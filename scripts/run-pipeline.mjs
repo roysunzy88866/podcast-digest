@@ -1095,6 +1095,8 @@ function processEpisode(item, id, source, state) {
   console.log(`\n   ── 逐集验证 ${id}(出稿前)──`);
   // C40 / ADR 0026(2026-10-04 用户「需求通过」):核不实删句照发;删不下(>正文 1/5 或定位不唯一)→ 整集重做一次浓缩,仍不过才隔离。
   for (let attempt = 1; ; attempt++) {
+    // C41 / ADR 0027:可读性修(人名统一/清英文/拆长句),开关 READABLE_V2=1 才动;best-effort 不阻塞,自带「不许冒新事实层失败」回滚
+    runOk("node", ["scripts/polish-zh.mjs", dir]);
     if (!runOk("node", ["scripts/gate.mjs", dir])) return { ok: false, reason: `金句三联闸门未过(疑拼接/编造/张冠李戴)${attempt > 1 ? "(重做一次浓缩后)" : ""}` };
     if (runOk("node", ["scripts/gate-facts.mjs", dir])) break;
     // change 2B + C40:失真句先定点救(重写 → 专名软化 → 删句兜底),救完重验 —— 通过标准一分没降(重验仍是同一道闸门)。

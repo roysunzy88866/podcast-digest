@@ -146,6 +146,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # 2026-07-31 保险丝:每班演讲种子上限覆写(空=用代码写死的默认 3)。cron 与人工 talks 批次同受限。
           TALKS_BATCH_CAP: ${{ github.event.inputs.talks_cap || '' }}
+          # C41 / ADR 0027:精华可读性 v2 写法开关(浓缩追加 prompts/condense-style-v2.md + polish-zh 修长句/清英文/统一人名)。
+          # 用户 2026-10-04 定「先看 2 期前后对照,认可后才对新内容生效」→ 未认可前保持 "0";认可后改 "1"。
+          READABLE_V2: "0"
         run: |
           # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
           BACKFILL="${{ github.event.inputs.backfill || '0' }}"
