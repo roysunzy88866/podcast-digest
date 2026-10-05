@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Instinct</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Instinct">IN</div><div class="pi"><h1 class="pt">Instinct</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Instinct">IN</div><div class="pi"><h1 class="pt">Instinct</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(01:08起):本集说它是六个月前 OpenClaw 潮流的结构化版本：给它日历、邮箱、信用卡，它替你管理生活；以 25 亿美元估值融资，但 Jason 认为奖励作弊问题今天无解，别给它信用卡。
 - **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(02:54起):本集主线:Noah 一年前创办的公司,做一个没有 App 的个人助理——只有一部手机和一台电脑,可以给它发短信、邮件、打电话,它也会主动打给你;年交易量已接近超 10 亿美元,最新一轮融资约 10 亿美元、估值约 100 亿美元。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(02:41起):最近引爆科技推特的通用消费级智能体，免费的、占主导地位的产品之一，用智能体网络的方式让智能体在幕后代表用户交流
+- **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(06:33起):本集说 Instinct 是另一大消费助手，约 10 万用户、日增 10%，前三周 40% 的用户绑了信用卡，首月平均消费超 1000 美元。
 
 ## ① 提到它的金句
 
@@ -31,19 +32,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[主动性]] · [[Muse]] · [[ChatGPT]] · [[iMessage]] · [[Harry Stebbings]] · [[Noah Shinn]] · [[Anish Acharya]] · [[NVIDIA]] · [[算力]]
+[[智能体]] · [[Muse]] · [[ChatGPT]] · [[OpenAI]] · [[主动性]] · [[OpenClaw]] · [[Anthropic]] · [[iMessage]] · [[Shopify]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"主动性":2,"Muse":4,"ChatGPT":94,"iMessage":2,"Harry Stebbings":20,"Noah Shinn":1,"Anish Acharya":4,"NVIDIA":53,"算力":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Muse":5,"ChatGPT":96,"OpenAI":161,"主动性":2,"OpenClaw":21,"Anthropic":173,"iMessage":2,"Shopify":17,"Amazon":28}</script>
 
 <script>
 (function(){

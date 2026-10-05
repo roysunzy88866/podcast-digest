@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":21,"推理":74,"光子学":1,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":4}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":22,"推理":74,"光子学":2,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":4}</script>
 
 <script>
 (function(){

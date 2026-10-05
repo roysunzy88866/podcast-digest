@@ -1,0 +1,30 @@
+{
+  "id": "2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/15cd7eea-99bc-4db9-b027-1fdb2500162c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=15cd7eea-99bc-4db9-b027-1fdb2500162c&feed=JGE3yC0V",
+  "duration_sec": 3053.957,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 560,
+  "asr": true,
+  "title_en": "The Top 100 Consumer AI Apps: Who’s Actually Paying?",
+  "podcast": "The a16z Show",
+  "date": "2026-10-05",
+  "added": "2026-10-05",
+  "added_at": "2026-10-05T12:38:12.011Z",
+  "speaker_map": {
+    "SPEAKER_00": "Olivia Moore",
+    "SPEAKER_01": "Elena Berger",
+    "SPEAKER_02": "Elena Berger",
+    "SPEAKER_03": "Josh Ellman"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Olivia Moore",
+  "cohosts": [
+    "Elena Berger",
+    "Josh Ellman"
+  ],
+  "title_zh": "一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪",
+  "guest_name": "Olivia Moore",
+  "guest_title": "a16z 合伙人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

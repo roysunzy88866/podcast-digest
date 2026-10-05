@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Sequoia":7,"智能体":403,"Copilot":12,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":19}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Sequoia":7,"智能体":405,"Copilot":12,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":19}</script>
 
 <script>
 (function(){

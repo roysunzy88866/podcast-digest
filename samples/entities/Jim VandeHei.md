@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Axios":1,"OpenAI":159,"ChatGPT":94,"Claude":86,"Google":55,"Anthropic":171,"智能体":403,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Axios":1,"OpenAI":161,"ChatGPT":96,"Claude":88,"Google":57,"Anthropic":173,"智能体":405,"认知疲劳":1}</script>
 
 <script>
 (function(){

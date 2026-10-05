@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":19,"Palantir":20,"Airbnb":12,"OpenAI":159,"Anthropic":171,"Cognition":25,"Ramp":9}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":19,"Palantir":20,"Airbnb":12,"OpenAI":161,"Anthropic":173,"Cognition":25,"Ramp":9}</script>
 
 <script>
 (function(){

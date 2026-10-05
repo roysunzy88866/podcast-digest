@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":12,"Marble":4,"Sam Charrington":5,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":403,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":12,"Marble":4,"Sam Charrington":5,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":405,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

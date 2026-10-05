@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,18 +24,21 @@ unlisted: true
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(06:20起):本集把 Gemini 与 ChatGPT 并列，说消费者拿它们当更有效的搜索用，Josh 自己也视场景在 Claude、GPT、Gemini 之间切换
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(26:09起):本集作为模型差异的例子:疯狂给图片加悬停动画、评估品味时视口塞得越多评分越高
 - **[[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]]**(07:23起):本集说多亏 Antigravity 产品,Gemini 已经学会了如何管理一个智能体团队;Gemini 3.5 Flash 于四月发布,不仅擅长执行任务,还非常擅长领导团队,更快更便宜
+- **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Gemini 背后有 Google 的天然分发和更大用户基数，但美国付费订阅者已被 Claude 反超，付费用户中最高档占比仅约 1%。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q2]]
 
 ![[2026-06-16-devtools-swyx-aie#^q2]]
 
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
+
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
@@ -50,14 +53,15 @@ unlisted: true
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]] — 作为被讨论公司
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[Cursor]] · [[沙箱]] · [[推理]]
+[[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[Cursor]] · [[Meta]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Google":55,"ChatGPT":94,"OpenAI":159,"Anthropic":171,"Claude Code":94,"评估":4,"Cursor":80,"沙箱":74,"推理":74}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Google":57,"ChatGPT":96,"OpenAI":161,"Anthropic":173,"Claude Code":94,"评估":4,"Cursor":80,"Meta":42,"沙箱":74}</script>
 
 <script>
 (function(){

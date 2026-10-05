@@ -1,0 +1,136 @@
+{
+  "title_zh": "别再当智能体的路由器：多智能体通信为什么这么难",
+  "tldr": "BENT 联合创始人兼 CTO Vlad 论证多智能体协调已是今天的难题，并提出以「会话」为抽象的全局协作层方案。",
+  "digest_md": "这一集要聊的问题是：当你的智能体越来越多，它们之间怎么互相通信？说这话的人是 Vlad，BENT 的联合创始人兼 CTO。他抛出的钩子相当直接：现在开发者普遍在多个 Claude、Codex 会话之间当「路由器」——一个会话干活、另一个审查，靠人工复制粘贴传话。他认为这不是什么未来问题，而是今天就得解决、且解决得很难的分布式系统问题。\n\n他先给出公司的核心论点：未来属于 AI 通信——企业内部、企业之间、消费者与企业之间的通信。智能体将无处不在，用不同框架、不同语言编写、部署在不同环境，完全自主地相互协作、无需人工干预。图景是：智能体接到任务后，自己发现其他智能体、把它们拉进一个对话空间、来回沟通、解决任务、再向人类汇报。Vlad 承认，大多数人听完要么觉得太遥远，要么觉得他疯了——他还举了一位市值 100 亿美元公司 CTO 的原话：「在考虑多智能体协调这种假设性问题的技术方案之前，我尽量把事情保持简单、避开这个问题。」全场的论证就是拆这句话。 [01:10 Unknown] [02:25 Unknown]\n\n## 现状：你在给智能体当路由器\n\n先看今天的真实用法。开发者开两个 Claude/Codex 会话，一个干活一个审查，还有多个标签页同时处理多个问题——人实际上充当了一台 Cisco 路由器，在两个有状态、却无法互相通信的智能体之间传话，所以你才需要不停给它们提示。「循环工程」这类新提法的实质也就是：别当路由器了，让你的智能体互相提示。但 Vlad 尖锐地指出，这意味着你要去跟各种 Python/TypeScript 库和抽象层搏斗，由它们来发明智能体怎么互相提示；再加上 A2A、MCP、ACP 等一堆协议(其中不少和加密货币沾边)，听起来简单，实际用起来全是坑。 [03:37 Unknown]\n\n具体坑在哪：MCP 把智能体当工具调用，完全无状态——想让两个智能体保持状态、有粘性会话？祝你好运。ACP(客户端-服务器模式)下，两个智能体要互发任务，就得同时既是客户端又是服务器。串联多个智能体调用会撞上 REST API 超时；没人告诉你的是你还需要带持久化的队列来跟踪消息；而智能体发现机制甚至不在 A2A 协议里——规划工作全压在你头上。消息平台这条路也一样：把智能体接上 Telegram 要五步、Discord 七步、SLAM 八步、WhatsApp 十一步，每一步都得手动做、读文档。忙完这一切你只得到一件事：一个能和人(通常就是你自己)对话的智能体。你的智能体仍然孤独——「它们处于数字化的单独监禁之中」。 [04:38 Unknown] [06:17 Unknown]\n\n## 三个反问的答案\n\n回到那位 CTO 的三句话。多智能体协调是假设性问题吗？——不是，如果你在两个会话之间复制粘贴、在接 MCP 和 A2A，这就是今天的问题。能避开吗？——不能，否则我们只会开一个会话、也不需要调用别的智能体的工具。那能保持简单吗？——看看上面那些选项，并不真的简单。 [06:25 Unknown]\n\n为什么难？因为哪怕是笔记本上的两个会话，也是必须通过网络通信的进程——这是一个分布式系统问题，而分布式系统在加上智能体之前就够难了。一个每个智能体都是远程的多智能体系统，本质上是「一个微服务分布式系统，只不过每个微服务都是非确定性的」。 [07:51 Unknown]\n\n## 要解决什么，才能让它变简单\n\nVlad 列出了必须逐层解决的清单：①传输层——有序消息投递、实时投递、重试；②连续性——持久化、水合(让进程状态可以保存和恢复)，不管你的智能体跑在 Pod、Docker 还是裸进程上；③前端绑定——不同智能体框架各有线程 ID、会话 ID、执行 ID，得有人把这些 ID 映射到一起。但这还不够：智能体不能停留在 IP 端口、URL、甚至发布订阅层面通信，因为组织仍要做大量规划。必须把抽象层次提升到「会话」这一层——谈论房间、频道、参与者，并弄清消息在频道内和跨频道的确定性路由。即便全解决了，还有治理层：身份、审计等等。 [08:02 Unknown]\n\n## BENT 的方案：全局协作层\n\nBENT 做的就是这件事：一个跨框架、跨部署环境的全局协作层，把所有智能体连起来，并实现了智能体互聊所需的每一个原语。现场演示里，一个新的 Codex 智能体启动后以编程方式注册接入，立刻以「智能体卡片」出现在平台上；随后 LangGraph 智能体 likewise 接入——从这一刻起它们知道彼此存在、可以对话。跨用户连接需要双边同意：Codex 向 Vlad 的个人助理发联系人请求，批准之后 Codex 就能邀请对方进对话、发消息、收到回执。 [09:19 Unknown] [10:21 Unknown]\n\n针对开发者的今天，他们还做了内部产品 Gem——一个桌面应用，解决路由、上下文过载、成本管理与归属，并支持多智能体加多人类协作。它捕获 Claude 和 Codex 工作时自己生成的任务，让你能追踪智能体团队在做什么——毕竟想靠读原始输出来理解它们，「一百万 token 乘以三，那可是很大的量」。它还让智能体描述自己正在改动的软件架构布局，你可以在右侧实时看到每个智能体正触碰哪个组件、完成即标记、需要人类介入时会收到提醒。远程团队成员也可以连人带智能体一起加入会话；比如安全同事维护着安全智能体的技能，你不用复制他的技能，叫他的智能体加入对话帮你解决就行。 [11:45 Unknown] [13:54 Unknown]\n\n## 不需要手写循环\n\n一个关键设计判断：他们没有写一堆 Python 代码去编排智能体循环。理由是现在所有模型都在海量数据上训练过，非常清楚怎么通过消息平台通信——现场展示了当天早上的真实工作：工程经理、开发、架构三个 ClaudeCode 实例，自己协作评审 PRD、SRS 和实现。「没有必要手工编写所有的循环，它们原生就知道怎么做。」 [14:54 Unknown]\n\n对管理者，平台提供完整统计：每个智能体的 token 花费(演示里全栈开发智能体 2000 美元、架构师 600 美元)、按开发者或团队维度的归属、使用量与成本实时更新。你甚至能回答「这个开发者的 PR 是他真参与写的，还是全是 AI 垃圾」。所有会话连在全局平台上，30 秒内就能把任何人接到你的任何一个智能体上，权限、房间、错误、任务状态(已完成/待办/进行中)全部实时可见。 [14:17 Unknown] [16:03 Unknown]\n\n## 本集带走\n\n- **多智能体协调不是未来问题**：只要你在两个 AI 会话之间复制粘贴、接 MCP/A2A，你就已经在面对它——只是你在用人肉路由的方式解决。\n- **难的根源是分布式系统 + 非确定性**：远程智能体互连本质上是「每个微服务都非确定性的微服务分布式系统」，传输、持久化、ID 映射、治理层层都得补。\n- **正确的抽象单位是「会话」**：不要停在 IP/URL/发布订阅层，要上升到房间、频道、参与者，加上确定性的消息路由。\n- **不用手写编排循环**：现代模型原生懂消息平台式的协作，让智能体互相提示、互相审查即可；人该管的是成本、归属和介入点。\n- **可观测性是管理刚需**：token 花费、按人/按团队的归属、实时架构改动图，是你判断「代码是人写的还是 AI 灌水」的依据。",
+  "quotes": [
+    {
+      "en": "So our thesis is future belongs to AI communication within a business, between businesses and between consumers and businesses.",
+      "zh": "我们的论点是：未来属于 AI 通信——企业内部、企业之间、以及消费者与企业之间的通信。",
+      "timestamp": "01:10",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "You are basically acting as a router, a Cisco router or a switch between two stateful agents that do work on your behalf, but they have no ability to communicate, hence you need to prompt them.",
+      "zh": "你基本上是在充当一个路由器，一台 Cisco 路由器或交换机，在两个代表你工作的有状态智能体之间，但它们没有能力相互通信，所以你需要给它们提示。",
+      "timestamp": "03:23",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "If you want two agents to be stateful, sticky sessions, good luck to you.",
+      "zh": "如果你想要两个智能体保持状态、有粘性会话，那祝你好运。",
+      "timestamp": "04:42",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "They are in a digital solitary confinement.",
+      "zh": "它们处于数字化的单独监禁之中。",
+      "timestamp": "06:21",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "And multi-agent system where every agent is remote is basically a distributed system of microservices where each microservice is non-deterministic.",
+      "zh": "而一个每个智能体都是远程的多智能体系统，基本上就是一个微服务的分布式系统，只不过每个微服务都是非确定性的。",
+      "timestamp": "07:51",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "So for this wonderful future of agents talking to each other, we need to raise the abstraction of the technical stack to conversation",
+      "zh": "所以为了实现智能体相互交谈的这个美好未来，我们需要把技术栈的抽象层次提升到会话这一层。",
+      "timestamp": "08:52",
+      "speaker": "Vlad Luzin"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:10",
+      "speaker": "Unknown",
+      "en": "So our thesis is future belongs to AI communication within a business, between businesses and between consumers and businesses.",
+      "zh": "我们的论点是：未来属于 AI 通信——企业内部、企业之间、以及消费者与企业之间的通信。"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Unknown",
+      "en": "You are basically acting as a router, a Cisco router or a switch between two stateful agents that do work on your behalf, but they have no ability to communicate, hence you need to prompt them.",
+      "zh": "你基本上是在充当一个路由器，一台 Cisco 路由器或交换机，在两个代表你工作的有状态智能体之间，但它们没有能力相互通信，所以你需要给它们提示。"
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Unknown",
+      "en": "If you want two agents to be stateful, sticky sessions, good luck to you.",
+      "zh": "如果你想要两个智能体保持状态、有粘性会话，那祝你好运。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Unknown",
+      "en": "They are in a digital solitary confinement.",
+      "zh": "它们处于数字化的单独监禁之中。"
+    },
+    {
+      "timestamp": "07:51",
+      "speaker": "Unknown",
+      "en": "And multi-agent system where every agent is remote is basically a distributed system of microservices where each microservice is non-deterministic.",
+      "zh": "而一个每个智能体都是远程的多智能体系统，基本上就是一个微服务的分布式系统，只不过每个微服务都是非确定性的。"
+    },
+    {
+      "timestamp": "08:52",
+      "speaker": "Unknown",
+      "en": "So for this wonderful future of agents talking to each other, we need to raise the abstraction of the technical stack to conversation",
+      "zh": "所以为了实现智能体相互交谈的这个美好未来，我们需要把技术栈的抽象层次提升到会话这一层。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Unknown",
+      "en": "From this moment, they know that they exist and they can talk to each other.",
+      "zh": "从这一刻起，它们知道彼此存在，并且可以相互交谈。"
+    },
+    {
+      "timestamp": "12:46",
+      "speaker": "Unknown",
+      "en": "Because trying to understand what your agents are doing, one million tokens multiplied by three, that's a lot.",
+      "zh": "因为想要理解你的智能体在做什么，一百万 token 乘以三，那可是很大的量。"
+    },
+    {
+      "timestamp": "15:22",
+      "speaker": "Unknown",
+      "en": "There is no need to hand code all the loops. They know how to do it natively.",
+      "zh": "没有必要手工编写所有的循环。它们原生就知道怎么做。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Unknown",
+      "en": "So if you ask your question, if my developer is actually involved in the code that he pushes as a PR, or it's all AI sloped, you can see it here.",
+      "zh": "所以如果你问你的问题，我的开发人员是否真正参与了他作为 PR 推送的代码，还是全都是 AI 垃圾，你可以在这里看到。"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Unknown",
+      "en": "And here is an example of a conversation I had with a CTO of a $10 billion company who said that before thinking about technical solutions to hypothetical problems like multi-agent coordination, I tried to keep things simple and avoid the problem.",
+      "zh": "这里有一个例子，是我和一家市值 100 亿美元公司的 CTO 的对话，他说：在考虑像多智能体协调这类假设性问题的技术方案之前，我试着保持事情简单，避开这个问题。"
+    },
+    {
+      "timestamp": "04:59",
+      "speaker": "Unknown",
+      "en": "Chaining multiple agent calls together, it involves REST API timeouts. Good luck managing that.",
+      "zh": "把多个智能体调用串联在一起，会涉及 REST API 的超时问题。祝你好运去管理这些。"
+    },
+    {
+      "timestamp": "06:32",
+      "speaker": "Unknown",
+      "en": "Clearly, if you're copy-pasting stuff between two sessions, this is the problem of today and it's not hypothetical.",
+      "zh": "显然，如果你在两个会话之间复制粘贴东西，这就是今天的问题，而且不是假想的。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Unknown",
+      "en": "And obviously, what no one says to you, you need queues with persistency and so on to keep track of the messages that are being sent.",
+      "zh": "而且，显然没人会告诉你，你需要带持久化的队列等等来跟踪正在发送的消息。"
+    },
+    {
+      "timestamp": "16:22",
+      "speaker": "Unknown",
+      "en": "So if I want I can connect any of you to any of my agents in 30 seconds.",
+      "zh": "所以如果我愿意，我可以在 30 秒内把你们中任何人连接到我的任何一个智能体。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个你可能每天都在干、但没意识到名字的事:给智能体当路由器。说话的人叫 Vlad,是 BENT 这家公司的联合创始人兼 CTO。这一集要讲的问题特别具体:当你的 AI 智能体越来越多,它们之间到底怎么互相通信?为什么这件事今天就已经很难了,又该怎么解决?\n\n先把现状摆出来。你看看现在开发者的真实用法:开两个 Claude 或者 Codex 的会话,一个干活,一个审查,再开一堆标签页同时处理好几个问题。人呢?人实际上就是一台 Cisco 路由器,在两个有状态、却没法互相通信的智能体之间,不停地复制粘贴传话。你之所以要不停给它们提示,根子就在这儿。最近流行的\"循环工程\"这类提法,说穿了就是一句话:别当路由器了,让你的智能体互相提示。\n\n听起来挺简单,对吧?但 Vlad 尖锐地指出,真做起来,你得去跟各种 Python、TypeScript 的库和抽象层搏斗,由这些库来发明智能体怎么互相提示。再加上 A2A、MCP、ACP 一堆协议——其中不少还和加密货币沾边——坑就更多了。具体说说坑在哪。MCP 是把智能体当工具来调用的,完全无状态,你想让两个智能体保持状态、有粘性会话?祝你好运。ACP 是客户端加服务器的模式,两个智能体要互发任务,就得同时既是客户端又是服务器。串联多个智能体调用,还会撞上 REST API 超时;更没人告诉你的是,你还得自己搭带持久化的队列来跟踪消息。至于智能体怎么发现彼此,这个机制压根不在 A2A 协议里,规划工作全压在你头上。就算你退一步,走消息平台这条路,把智能体接上 Telegram 要五步,Discord 七步,WhatsApp 得十一步,每一步都得手动做、读文档。忙完这一切,你得到什么?一个能和人对话的智能体——而那个人通常就是你自己。你的智能体依然孤独,Vlad 有个特别狠的说法:它们处于数字化的单独监禁之中。\n\n说到这儿,回到本期开场那个刺头。Vlad 现场举过一位市值一百亿美元公司 CTO 的原话:在考虑多智能体协调这种\"假设性问题\"的技术方案之前,我尽量把事情保持简单、避开这个问题。整场的论证,就是拆这句话的三个反问。第一,这是假设性问题吗?不是。只要你在两个会话之间复制粘贴、在接 MCP 和 A2A,这就是今天的问题。第二,能避开吗?不能,不然我们只开一个会话就够了,也不需要调用别的智能体的工具。第三,那能保持简单吗?看看刚才那一堆坑,并不真的简单。\n\n那为什么这么难?因为哪怕是笔记本上的两个会话,本质上也是必须通过网络通信的进程,这是一个分布式系统问题——而分布式系统在加上智能体之前就够难了。所以有句话值得记住:一个每个智能体都是远程的多智能体系统,基本上就是一个微服务的分布式系统,只不过每个微服务都是非确定性的。\n\n难,但不是无解。Vlad 给出了一份必须逐层补齐的清单:最底下是传输层,要有序投递、实时投递、重试;往上是连续性,也就是持久化和水合——水合说白了就是让进程状态能保存、能恢复,不管你的智能体跑在 Pod、Docker 还是裸进程上;再往上是前端绑定,不同框架各有线程 ID、会话 ID、执行 ID,得有人把这些 ID 映射到一起。但这还不够。Vlad 的核心主张是:智能体不能停留在 IP 端口、URL、甚至发布订阅这一层通信,因为组织还是得做大量规划。必须把抽象层次提升到\"会话\"这一层——谈论的是房间、频道、参与者,再弄清消息在频道内和跨频道怎么确定性路由。这之上还有治理层:身份、审计,一样不能少。\n\nBENT 做的就是这件事:一个跨框架、跨部署环境的全局协作层。现场演示是这样的:一个新的 Codex 智能体启动后,以编程方式注册接入,立刻以\"智能体卡片\"的形式出现在平台上;接着一个 LangGraph 智能体也接进来——从这一刻起,它们知道彼此存在,可以对话了。跨用户的连接需要双边同意:Codex 向 Vlad 的个人助理发联系人请求,批准之后,Codex 就能邀请对方进对话、发消息、收到回执。\n\n针对开发者眼下的痛点,公司还做了个内部产品,叫 Gem,是个桌面应用。它捕获 Claude 和 Codex 工作时自己生成的任务,让你能追踪智能体团队在做什么——毕竟想靠读原始输出来理解它们,一百万 token 乘以三,那可是很大的量。它还让智能体描述自己正在改动的软件架构布局,你在屏幕右侧能实时看到每个智能体正触碰哪个组件,完成就标记,需要人类介入时会收到提醒。远程团队也能连人带智能体一起加入会话,比如安全同事维护着安全智能体的技能,你不用复制那套技能,叫他的智能体进对话帮你解决就行。\n\n还有一个挺关键的设计判断:他们没有写一堆 Python 代码去编排智能体循环。理由是,现在所有模型都在海量数据上训练过,非常清楚怎么通过消息平台通信。现场展示了当天早上的真实工作:工程经理、开发、架构三个 ClaudeCode 实例,自己协作评审 PRD、SRS 和实现。用原话说,没有必要手工编写所有的循环,它们原生就知道怎么做。\n\n那管理者管什么?管钱、管归属、管介入点。平台提供完整统计:每个智能体的 token 花费——演示里全栈开发智能体花了两千美元,架构师六百;还有按开发者或团队维度的归属,实时更新。你甚至能回答一个问题:这个开发者的 PR,是他真参与写的,还是全是 AI 灌的水。所有会话连在全局平台上,三十秒内就能把任何人接到你的任何一个智能体上,权限、房间、错误、任务状态,全部实时可见。\n\n回到开头那句话。未来属于 AI 通信——企业内部、企业之间、消费者与企业之间的通信。而为了实现智能体互相交谈的这个美好未来,我们需要的不是更聪明的人肉路由器,而是把技术栈的抽象层次,提升到会话这一层。"
+}

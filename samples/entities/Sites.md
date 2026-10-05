@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Codex]] · [[ChatGPT]] · [[智能体]] · [[Tara Seshan]] · [[Dot]] · [[Lenny]] · [[Spaces]] · [[Work]] · [[GPT-6.1 Sol]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":159,"Codex":78,"ChatGPT":94,"智能体":403,"Tara Seshan":1,"Dot":2,"Lenny":68,"Spaces":1,"Work":1,"GPT-6.1 Sol":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":161,"Codex":79,"ChatGPT":96,"智能体":405,"Tara Seshan":1,"Dot":2,"Lenny":68,"Spaces":1,"Work":1,"GPT-6.1 Sol":1}</script>
 
 <script>
 (function(){

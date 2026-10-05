@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Max Junestrand]] · [[Jubin]] · [[Legora]] · [[Jesse Jang]] · [[微调]] · [[Decagon]] · [[评估]] · [[Sierra]] · [[GPT 3.5]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Max Junestrand":1,"Jubin":2,"Legora":3,"Jesse Jang":1,"微调":29,"Decagon":9,"评估":4,"Sierra":7,"GPT 3.5":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Max Junestrand":1,"Jubin":2,"Legora":3,"Jesse Jang":1,"微调":29,"Decagon":9,"评估":4,"Sierra":7,"GPT 3.5":1}</script>
 
 <script>
 (function(){

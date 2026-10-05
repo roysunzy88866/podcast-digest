@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":45,"Atlas":3,"精益创业":2,"智能体":403,"YC":16,"Google":55,"Claude":86,"WhatsApp":3,"OpenAI":159}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":45,"Atlas":3,"精益创业":2,"智能体":405,"YC":16,"Google":57,"Claude":88,"WhatsApp":3,"OpenAI":161}</script>
 
 <script>
 (function(){

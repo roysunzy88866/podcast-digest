@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anurag Gohl":1,"Render":2,"Stripe":45,"AWS":18,"Kubernetes":15,"智能体":403,"MCP":72,"持久化执行":4,"Temporal":4,"Heroku":2}</script>
+<script type="application/json" class="pd-epn">{"Anurag Gohl":1,"Render":2,"Stripe":45,"AWS":19,"Kubernetes":15,"智能体":405,"MCP":73,"持久化执行":4,"Temporal":4,"Heroku":2}</script>
 
 <script>
 (function(){

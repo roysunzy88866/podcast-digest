@@ -27,7 +27,7 @@ unlisted: true
 
 [[AI]] · [[Claude]] · [[Michael Tannenbaum]] · [[Tomer London]] · [[Figure]] · [[Gusto]] · [[SoFi]] · [[payroll（工资发放）]] · [[Brex]] · [[小企业]]
 
-<script type="application/json" class="pd-epn">{"AI":27,"Claude":86,"Michael Tannenbaum":1,"Tomer London":1,"Figure":2,"Gusto":2,"SoFi":1,"payroll（工资发放）":1,"Brex":5,"小企业":1}</script>
+<script type="application/json" class="pd-epn">{"AI":27,"Claude":88,"Michael Tannenbaum":1,"Tomer London":1,"Figure":2,"Gusto":2,"SoFi":1,"payroll（工资发放）":1,"Brex":5,"小企业":1}</script>
 
 <script>
 (function(){

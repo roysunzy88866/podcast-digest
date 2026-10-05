@@ -1,0 +1,4482 @@
+[
+ {
+  "seg": 0,
+  "start": 0.594,
+  "end": 4.029,
+  "speaker": "Unknown",
+  "en": "The most interesting big new trend is in personal agents.",
+  "zh": "最有趣的大新趋势是在个人智能体领域。"
+ },
+ {
+  "seg": 1,
+  "start": 4.402,
+  "end": 13.069,
+  "speaker": "Unknown",
+  "en": "We're in this world where we're so excited by what ChatGPT did with turning things into conversation and now these agents we can get in our messaging apps to turn them into more conversation.",
+  "zh": "我们处在这样一个时代,我们对 ChatGPT 把一切变成对话感到无比兴奋,而现在这些进入我们即时通讯应用的智能体,又把它们变成更多的对话。"
+ },
+ {
+  "seg": 2,
+  "start": 13.089,
+  "end": 14.371,
+  "speaker": "Unknown",
+  "en": "It's an incredible paradigm.",
+  "zh": "这是一个不可思议的范式。"
+ },
+ {
+  "seg": 3,
+  "start": 14.731,
+  "end": 17.633,
+  "speaker": "Unknown",
+  "en": "About half of Americans report using AI.",
+  "zh": "大约一半的美国人报告在使用 AI。"
+ },
+ {
+  "seg": 4,
+  "start": 18.194,
+  "end": 23.799,
+  "speaker": "Unknown",
+  "en": "Around 4.5% of US consumers are paying a subscription to an AI product.",
+  "zh": "大约 4.5% 的美国消费者在为 AI 产品付费订阅。"
+ },
+ {
+  "seg": 5,
+  "start": 24.179,
+  "end": 31.105,
+  "speaker": "Unknown",
+  "en": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
+  "zh": "排名前 1% 的用户,每月用个人信用卡在 AI 上花费 903 美元。"
+ },
+ {
+  "seg": 6,
+  "start": 31.225,
+  "end": 33.365,
+  "speaker": "Unknown",
+  "en": "The reality is people are now building software.",
+  "zh": "现实是,人们现在在构建软件。"
+ },
+ {
+  "seg": 7,
+  "start": 33.425,
+  "end": 34.966,
+  "speaker": "Unknown",
+  "en": "They're building these really rich products.",
+  "zh": "他们在构建这些非常丰富的产品。"
+ },
+ {
+  "seg": 8,
+  "start": 34.986,
+  "end": 43.308,
+  "speaker": "Unknown",
+  "en": "They may be using their agents to write some of that code, but when they're delivering this whole experience to a user, it is much more than just a shim on the model.",
+  "zh": "他们可能在用智能体编写其中的一些代码,但当他们向用户交付这整套体验时,它远不止是模型外面包的一层薄壳。"
+ },
+ {
+  "seg": 9,
+  "start": 43.508,
+  "end": 47.788,
+  "speaker": "Unknown",
+  "en": "The run rate that OpenAI has reached through advertising, what does that tell us?",
+  "zh": "OpenAI 通过广告业务达到的运行率,这告诉我们什么?"
+ },
+ {
+  "seg": 10,
+  "start": 48.009,
+  "end": 54.29,
+  "speaker": "Unknown",
+  "en": "That would previously take a company years and years and years to get to, even after launching an ads product.",
+  "zh": "在以前,即使是在推出广告产品之后,一家公司也要花很多很多年才能达到这个水平。"
+ },
+ {
+  "seg": 11,
+  "start": 54.91,
+  "end": 59.371,
+  "speaker": "Unknown",
+  "en": "What I'm fascinated to see in terms of the evolution of the ads product is",
+  "zh": "关于广告产品的演进,我很想看到的是"
+ },
+ {
+  "seg": 12,
+  "start": 60.091,
+  "end": 65.456,
+  "speaker": "Unknown",
+  "en": "Half of Americans now report using AI, but only a small fraction are actually paying for it.",
+  "zh": "现在一半的美国人报告在使用 AI,但只有一小部分人真正在为它付费。"
+ },
+ {
+  "seg": 13,
+  "start": 66.076,
+  "end": 68.138,
+  "speaker": "Unknown",
+  "en": "And the people who do are spending a lot.",
+  "zh": "而那些付费的人,花得很多。"
+ },
+ {
+  "seg": 14,
+  "start": 68.918,
+  "end": 78.406,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z's Elena Berger sits down with partners Olivia Moore and Josh Ellman to unpack the seventh edition of our Top 100 Consumer AI Ads Report.",
+  "zh": "在本期节目中,A16Z 的 Elena Berger 与合伙人 Olivia Moore 和 Josh Ellman 一起,深入解读我们第七版 Top 100 消费级 AI 应用报告。"
+ },
+ {
+  "seg": 15,
+  "start": 79.522,
+  "end": 85.249,
+  "speaker": "Unknown",
+  "en": "For the first time, the report includes consumer spending data, revealing a very different picture from traffic alone.",
+  "zh": "该报告首次纳入了消费者支出数据,揭示出与仅看流量截然不同的图景。"
+ },
+ {
+  "seg": 16,
+  "start": 86.01,
+  "end": 92.118,
+  "speaker": "Unknown",
+  "en": "The biggest spenders are developers, creators, and other power users, with the top 1% spending more than $900 a month on AI tools.",
+  "zh": "支出最多的是开发者、创作者和其他重度用户,前 1% 的用户每月在 AI 工具上的花费超过 900 美元。"
+ },
+ {
+  "seg": 17,
+  "start": 94.602,
+  "end": 109.442,
+  "speaker": "Unknown",
+  "en": "They also get into the rise of personal agents, how ChatGPT, Claude, and Gemini are diverging, why advertising could unlock new consumer AI business models, and the categories that remain surprisingly wide open, from shopping and entertainment to social and dating.",
+  "zh": "他们还谈到个人智能体的兴起、ChatGPT、Claude 和 Gemini 如何走向分化、为什么广告可能解锁新的消费级 AI 商业模式,以及那些依然出人意料地完全空白的品类——从购物和娱乐,到社交和约会。"
+ },
+ {
+  "seg": 18,
+  "start": 111.972,
+  "end": 114.092,
+  "speaker": "Unknown",
+  "en": "Welcome to the A16Z Podcast.",
+  "zh": "欢迎收听 A16Z 播客。"
+ },
+ {
+  "seg": 19,
+  "start": 114.172,
+  "end": 124.094,
+  "speaker": "Unknown",
+  "en": "I'm Elena Berger, and I'm joined by Olivia Moore, who's the author of our ongoing Top 100 Consumer AI Apps Report, and Josh Ellman on our consumer team.",
+  "zh": "我是 Elena Berger,和我一起的是 Olivia Moore,她是我们持续发布的 Top 100 消费级 AI 应用报告的作者,还有消费团队 Josh Ellman。"
+ },
+ {
+  "seg": 20,
+  "start": 124.674,
+  "end": 136.796,
+  "speaker": "Unknown",
+  "en": "Today, we're digging into the seventh edition of this report, who's paying for AI, why the big assistants are heading in different directions, and whether personal agents can turn everyday errands into the next big consumer business.",
+  "zh": "今天,我们要深入解读这份报告的第七版:谁在为 AI 付费、为什么这些大型助手正走向不同的方向,以及个人智能体能否把日常琐事变成下一个大的消费级业务。"
+ },
+ {
+  "seg": 21,
+  "start": 137.316,
+  "end": 138.917,
+  "speaker": "Unknown",
+  "en": "Team, thanks so much for joining.",
+  "zh": "团队,非常感谢你们参加节目。"
+ },
+ {
+  "seg": 22,
+  "start": 139.197,
+  "end": 140.137,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having us.",
+  "zh": "非常感谢你们邀请我们。"
+ },
+ {
+  "seg": 23,
+  "start": 140.609,
+  "end": 142.471,
+  "speaker": "Unknown",
+  "en": "Olivia, let's just get right into it.",
+  "zh": "Olivia,我们直接进入正题吧。"
+ },
+ {
+  "seg": 24,
+  "start": 142.551,
+  "end": 146.015,
+  "speaker": "Unknown",
+  "en": "I would love to hear your top takeaways from this report.",
+  "zh": "我很想听听你从这份报告中得出的核心要点。"
+ },
+ {
+  "seg": 25,
+  "start": 146.095,
+  "end": 146.355,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 26,
+  "start": 146.775,
+  "end": 148.717,
+  "speaker": "Unknown",
+  "en": "So this is the seventh time we've done this list.",
+  "zh": "这是我们第七次做这份榜单。"
+ },
+ {
+  "seg": 27,
+  "start": 148.938,
+  "end": 156.045,
+  "speaker": "Unknown",
+  "en": "The very first time we only ranked all global websites that were AI native by just traffic, like hits on the website.",
+  "zh": "第一次我们只按流量对所有全球性的 AI 原生网站进行排名,就是网站上的点击量。"
+ },
+ {
+  "seg": 28,
+  "start": 156.505,
+  "end": 162.99,
+  "speaker": "Unknown",
+  "en": "And that worked then because the way that almost everyone was using AI was like a prompt box product in a browser.",
+  "zh": "这在当时行得通,因为几乎所有人使用 AI 的方式都是浏览器里的一个提示框产品。"
+ },
+ {
+  "seg": 29,
+  "start": 163.53,
+  "end": 167.233,
+  "speaker": "Unknown",
+  "en": "We've had to evolve that a lot over the last few years as AI expands.",
+  "zh": "随着过去几年 AI 的扩张,我们不得不大幅改进这个方法。"
+ },
+ {
+  "seg": 30,
+  "start": 167.673,
+  "end": 169.735,
+  "speaker": "Unknown",
+  "en": "So this list is our most expansive yet.",
+  "zh": "所以这份榜单是我们迄今覆盖面最广的一次。"
+ },
+ {
+  "seg": 31,
+  "start": 169.875,
+  "end": 171.676,
+  "speaker": "Unknown",
+  "en": "We added revenue data for the first time.",
+  "zh": "我们首次加入了收入数据。"
+ },
+ {
+  "seg": 32,
+  "start": 171.756,
+  "end": 176.58,
+  "speaker": "Unknown",
+  "en": "So we worked with the EBIT data to get specifically consumer card spend data.",
+  "zh": "所以我们与 EBIT 数据合作,专门获取了消费者刷卡支出数据。"
+ },
+ {
+  "seg": 33,
+  "start": 176.62,
+  "end": 179.041,
+  "speaker": "Unknown",
+  "en": "So not accounting for enterprises or SMBs.",
+  "zh": "也就是不包含企业或中小企业的部分。"
+ },
+ {
+  "seg": 34,
+  "start": 179.622,
+  "end": 182.244,
+  "speaker": "Unknown",
+  "en": "And we ranked products by what consumers are actually paying for.",
+  "zh": "我们按照消费者真正在为什么付费来对产品进行排名。"
+ },
+ {
+  "seg": 35,
+  "start": 182.924,
+  "end": 187.286,
+  "speaker": "Unknown",
+  "en": "I think for me, the biggest takeaways from this report is on a traffic basis.",
+  "zh": "对我来说,这份报告最大的要点是,从流量角度看,"
+ },
+ {
+  "seg": 36,
+  "start": 187.406,
+  "end": 190.607,
+  "speaker": "Unknown",
+  "en": "It looks like a lot of these products are kind of settling.",
+  "zh": "很多这类产品似乎正在趋于稳定。"
+ },
+ {
+  "seg": 37,
+  "start": 191.288,
+  "end": 198.631,
+  "speaker": "Unknown",
+  "en": "We only had 11 new products across the web and mobile list combined, which is the least we've had in any of the prior editions of the series.",
+  "zh": "在网页和移动端榜单合计中,我们只有 11 个新产品,这是我们该系列此前任何一版中最少的。"
+ },
+ {
+  "seg": 38,
+  "start": 199.211,
+  "end": 207.295,
+  "speaker": "Unknown",
+  "en": "But the spend data really introduced a lot of new variables because of those 50 that ranked for spend, 29 of them were not on either traffic list.",
+  "zh": "但支出数据确实引入了很多新变量,因为在按支出排名的那 50 个产品中,有 29 个不在任何流量榜单上。"
+ },
+ {
+  "seg": 39,
+  "start": 207.895,
+  "end": 216.178,
+  "speaker": "Unknown",
+  "en": "And that also, I think, kind of works towards or connects into the other big conclusion of the report, which is just how much of a power user game consumer AI is right now.",
+  "zh": "我想,这也或多或少引向或关联到报告的另一个大结论,那就是消费级 AI 现在在多大程度上是一场重度用户的游戏。"
+ },
+ {
+  "seg": 40,
+  "start": 216.398,
+  "end": 216.638,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 41,
+  "start": 217.298,
+  "end": 217.518,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 42,
+  "start": 217.919,
+  "end": 218.839,
+  "speaker": "Unknown",
+  "en": "That's something that's funny.",
+  "zh": "有一点很有意思。"
+ },
+ {
+  "seg": 43,
+  "start": 218.859,
+  "end": 230.143,
+  "speaker": "Unknown",
+  "en": "We also recently released our state of markets and something that Sarah Wang actually commented directly on is she said, hey, there is such a power law game happening now.",
+  "zh": "我们最近也发布了我们的市场状况报告,Sarah Wang 实际上直接评论过这一点,她说,嘿,现在正在发生一场非常明显的幂律游戏。"
+ },
+ {
+  "seg": 44,
+  "start": 230.203,
+  "end": 233.744,
+  "speaker": "Unknown",
+  "en": "It's happening at the enterprise level and it's happening at the consumer level.",
+  "zh": "它在企业层面发生,也在消费层面发生。"
+ },
+ {
+  "seg": 45,
+  "start": 234.304,
+  "end": 235.905,
+  "speaker": "Unknown",
+  "en": "So one thing that's",
+  "zh": "所以有一件事是"
+ },
+ {
+  "seg": 46,
+  "start": 236.665,
+  "end": 243.249,
+  "speaker": "Unknown",
+  "en": "Probably notable is, yeah, we have the fewest number of newcomers on this list, and it seems like the space is ossifying.",
+  "zh": "可能值得注意的,是的,我们这份榜单上的新面孔数量最少,看起来这个领域正在固化。"
+ },
+ {
+  "seg": 47,
+  "start": 243.709,
+  "end": 247.811,
+  "speaker": "Unknown",
+  "en": "But I think the past few months, things have actually been picking up a little bit more.",
+  "zh": "但我认为,过去几个月,事情实际上又开始加速了。"
+ },
+ {
+  "seg": 48,
+  "start": 247.831,
+  "end": 251.613,
+  "speaker": "Unknown",
+  "en": "And I think the most interesting big new trend is in personal agents.",
+  "zh": "我认为最有趣的大新趋势是在个人智能体领域。"
+ },
+ {
+  "seg": 49,
+  "start": 252.014,
+  "end": 253.775,
+  "speaker": "Unknown",
+  "en": "So what are you seeing?",
+  "zh": "那么你看到了什么?"
+ },
+ {
+  "seg": 50,
+  "start": 253.835,
+  "end": 255.776,
+  "speaker": "Unknown",
+  "en": "What are the big shifts that are happening?",
+  "zh": "正在发生的大转变有哪些？"
+ },
+ {
+  "seg": 51,
+  "start": 255.796,
+  "end": 256.216,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 52,
+  "start": 256.436,
+  "end": 262.063,
+  "speaker": "Unknown",
+  "en": "It's funny, the last report that we did, it ended right before the cutoff of when OpenClaw traffic would come in.",
+  "zh": "有意思的是，我们上一份报告正好结束在 OpenClaw 流量涌入的截止点之前。"
+ },
+ {
+  "seg": 53,
+  "start": 262.123,
+  "end": 268.191,
+  "speaker": "Unknown",
+  "en": "So we had done kind of like a retro before we published the report and we had found that it would have been very high up in the rankings.",
+  "zh": "所以我们在发布报告之前做了一次回顾，发现它的排名本来会非常靠前。"
+ },
+ {
+  "seg": 54,
+  "start": 268.511,
+  "end": 272.896,
+  "speaker": "Unknown",
+  "en": "And this time, actually, OpenClaw is nowhere in the rankings because the traffic has...",
+  "zh": "而这一次，实际上，OpenClaw 在排名中完全不见踪影，因为流量已经……"
+ },
+ {
+  "seg": 55,
+  "start": 273.517,
+  "end": 274.597,
+  "speaker": "Unknown",
+  "en": "Completely declined.",
+  "zh": "彻底下滑了。"
+ },
+ {
+  "seg": 56,
+  "start": 274.797,
+  "end": 279.818,
+  "speaker": "Unknown",
+  "en": "I think that the team was acquired by OpenAI, so they're probably working on the agent assistant products there.",
+  "zh": "我觉得那个团队被 OpenAI 收购了，所以他们可能在那里开发智能体助手产品。"
+ },
+ {
+  "seg": 57,
+  "start": 280.339,
+  "end": 292.401,
+  "speaker": "Unknown",
+  "en": "But also it's kind of been overtaken, I think, by some of the both other attempts at prosumer agents like GrokBot, Town has some fantastic agents, DOTS now by OpenAI, which is new.",
+  "zh": "但另外，我觉得它也在某种程度上被取代了，被其他一些面向产消者的智能体尝试所取代，比如 GrokBot、Town 有一些非常出色的智能体，还有 OpenAI 新推出的 DOTS。"
+ },
+ {
+  "seg": 58,
+  "start": 292.941,
+  "end": 300.143,
+  "speaker": "Unknown",
+  "en": "But also on the consumer side, we're finally seeing things that I would feel comfortable giving to a family member and telling them that they can safely use.",
+  "zh": "而且在消费端，我们终于看到了一些我愿意放心推荐给家人、告诉他们可以安全使用的东西。"
+ },
+ {
+  "seg": 59,
+  "start": 300.843,
+  "end": 307.35,
+  "speaker": "Unknown",
+  "en": "Most of those also, because to your point, this consumer assistant trend has literally been the last three weeks to a month.",
+  "zh": "其中大多数，正如你所说，这波消费助手的趋势真的就是最近三周到一个月的事。"
+ },
+ {
+  "seg": 60,
+  "start": 307.83,
+  "end": 313.436,
+  "speaker": "Unknown",
+  "en": "A lot of those didn't appear on the ranks yet, but we did pull the data to see what's happening with them.",
+  "zh": "很多还没有出现在排名上，但我们确实拉取了数据来看它们的表现。"
+ },
+ {
+  "seg": 61,
+  "start": 313.476,
+  "end": 320.463,
+  "speaker": "Unknown",
+  "en": "And it's been very, very fast growth and yet still not quite reaching the mainstream users, what I would say.",
+  "zh": "增长非常非常快，但在我看来，仍然没有真正触达主流用户。"
+ },
+ {
+  "seg": 62,
+  "start": 321.067,
+  "end": 336.651,
+  "speaker": "Unknown",
+  "en": "I think we're in this really interesting era that did really change at the end of last year, beginning of this year with OpenClaw, that AI went from something that we were using as a tool to enhance our productivity, to maybe search for us faster, something that would actually get things done for us.",
+  "zh": "我觉得我们正处在一个非常有趣的时期，这个时期是在去年年底、今年年初随着 OpenClaw 真正发生变化的——AI 从我们用来提升生产力的工具，比如更快地帮我们搜索，变成了真正能替我们完成事情的东西。"
+ },
+ {
+  "seg": 63,
+  "start": 337.071,
+  "end": 341.072,
+  "speaker": "Unknown",
+  "en": "And I think OpenClaw was an incredible pioneer to do this, and I know they're still doing a lot of work.",
+  "zh": "我觉得 OpenClaw 在这方面是一个了不起的先行者，而且我知道他们仍在做很多工作。"
+ },
+ {
+  "seg": 64,
+  "start": 341.352,
+  "end": 344.416,
+  "speaker": "Unknown",
+  "en": "Through their open source foundation to continue to advance that.",
+  "zh": "通过他们的开源基金会继续推进这一方向。"
+ },
+ {
+  "seg": 65,
+  "start": 344.817,
+  "end": 348.982,
+  "speaker": "Unknown",
+  "en": "But it really turned a lot of heads on, wait, what can these products actually be?",
+  "zh": "但它确实让很多人开始思考：等等，这些产品究竟能做成什么样？"
+ },
+ {
+  "seg": 66,
+  "start": 349.022,
+  "end": 351.365,
+  "speaker": "Unknown",
+  "en": "And we were seeing people buying Mac minis.",
+  "zh": "我们看到人们购买 Mac mini。"
+ },
+ {
+  "seg": 67,
+  "start": 351.385,
+  "end": 355.27,
+  "speaker": "Unknown",
+  "en": "We were seeing people run all their own data with their own local open cloud.",
+  "zh": "我们看到人们用自己的本地 open cloud 运行自己的所有数据。"
+ },
+ {
+  "seg": 68,
+  "start": 355.29,
+  "end": 358.754,
+  "speaker": "Unknown",
+  "en": "There was a huge run on that, but it was really inspiring to kind of",
+  "zh": "这出现过一股巨大的热潮，但这确实非常鼓舞人心，让人……"
+ },
+ {
+  "seg": 69,
+  "start": 359.495,
+  "end": 361.537,
+  "speaker": "Unknown",
+  "en": "I feel this new energy of what is possible.",
+  "zh": "感受到一种关于可能性为何的新能量。"
+ },
+ {
+  "seg": 70,
+  "start": 361.977,
+  "end": 364.879,
+  "speaker": "Unknown",
+  "en": "And like most trends, that spark happens.",
+  "zh": "而和大多数趋势一样，那个火花出现了。"
+ },
+ {
+  "seg": 71,
+  "start": 365,
+  "end": 367.502,
+  "speaker": "Unknown",
+  "en": "It takes a little while for those first products to get built.",
+  "zh": "第一批产品需要一点时间才能被构建出来。"
+ },
+ {
+  "seg": 72,
+  "start": 367.882,
+  "end": 373.046,
+  "speaker": "Unknown",
+  "en": "It takes a little while for the momentum to then start getting those even released in the market for users to see them.",
+  "zh": "势头发展到把这些产品真正发布到市场上让用户看到，也需要一点时间。"
+ },
+ {
+  "seg": 73,
+  "start": 373.607,
+  "end": 379.651,
+  "speaker": "Unknown",
+  "en": "And so in some ways, though, this report is showing, like, that's what we're talking a lot about on our podcast in Silicon Valley.",
+  "zh": "所以从某种角度看，这份报告显示的——就像我们在播客里以及硅谷经常谈论的——"
+ },
+ {
+  "seg": 74,
+  "start": 380.412,
+  "end": 383.314,
+  "speaker": "Unknown",
+  "en": "This really does a great job representing what's happening in the broader world.",
+  "zh": "确实很好地代表了更广阔世界正在发生的事情。"
+ },
+ {
+  "seg": 75,
+  "start": 383.434,
+  "end": 387.697,
+  "speaker": "Unknown",
+  "en": "And I do think the truth is, AI really is showing up everywhere.",
+  "zh": "而我确实认为，事实是，AI 真的无处不在了。"
+ },
+ {
+  "seg": 76,
+  "start": 387.797,
+  "end": 391.839,
+  "speaker": "Unknown",
+  "en": "Even if there's not a lot of new entrants, all the entrants are all getting so much bigger.",
+  "zh": "即使没有太多新进入者，所有进入者的规模都在变得大得多。"
+ },
+ {
+  "seg": 77,
+  "start": 392.079,
+  "end": 392.56,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 78,
+  "start": 393.26,
+  "end": 400.144,
+  "speaker": "Unknown",
+  "en": "I think probably the biggest things on, when we talk about pure consumer assistance, the biggest developments have been Muse and Instinct, I would say.",
+  "zh": "我觉得，在纯粹的消费助手领域，最大的进展应该是 Muse 和 Instinct。"
+ },
+ {
+  "seg": 79,
+  "start": 400.525,
+  "end": 406.749,
+  "speaker": "Unknown",
+  "en": "Although there's many other fantastic products that we kind of list in the report that have also, you know, Polk was a very early pioneer here.",
+  "zh": "不过还有很多其他很棒的产品，我们在报告里也列了出来，你知道的，Polk 在这里是非常早期的先行者。"
+ },
+ {
+  "seg": 80,
+  "start": 406.769,
+  "end": 407.309,
+  "speaker": "Unknown",
+  "en": "They were a pioneer of it.",
+  "zh": "他们是这方面的先行者。"
+ },
+ {
+  "seg": 81,
+  "start": 407.529,
+  "end": 408.03,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 82,
+  "start": 408.11,
+  "end": 411.252,
+  "speaker": "Unknown",
+  "en": "Tomo has a very big audience and is doing incredibly well.",
+  "zh": "Tomo 拥有非常庞大的受众，而且做得非常出色。"
+ },
+ {
+  "seg": 83,
+  "start": 411.853,
+  "end": 416.257,
+  "speaker": "Unknown",
+  "en": "Instinct had announced like 100,000 users growing 10% day over day.",
+  "zh": "Instinct 曾宣布拥有大约 10 万用户，日增长率 10%。"
+ },
+ {
+  "seg": 84,
+  "start": 416.797,
+  "end": 424.184,
+  "speaker": "Unknown",
+  "en": "They'd announced 40% of users connected a credit card in the first three weeks and they were spending over $1,000 on average in their first month.",
+  "zh": "他们宣布在前三周内有 40% 的用户绑定了信用卡，而且他们在第一个月的平均消费超过 1000 美元。"
+ },
+ {
+  "seg": 85,
+  "start": 424.904,
+  "end": 430.566,
+  "speaker": "Unknown",
+  "en": "Muse is interesting because in many ways very successful launch, especially within the tech community.",
+  "zh": "Muse 很有意思，因为从很多方面来看它的发布都非常成功，尤其是在科技圈里。"
+ },
+ {
+  "seg": 86,
+  "start": 430.586,
+  "end": 436.908,
+  "speaker": "Unknown",
+  "en": "I think the number was like 500,000 downloads and 250,000 active users in the first 12 days or so.",
+  "zh": "我记得数字大概是前 12 天左右 50 万次下载和 25 万活跃用户。"
+ },
+ {
+  "seg": 87,
+  "start": 437.428,
+  "end": 449.452,
+  "speaker": "Unknown",
+  "en": "But if you look at it versus Threads, which was another somewhat recent big splashy meta launch, it still pales in comparison in terms of appeal to the average person who doesn't work in tech.",
+  "zh": "但如果你拿它和 Threads 比——那也是 Meta 前不久一次声势浩大的发布——在对不从事科技行业的普通人的吸引力方面，它仍然相形见绌。"
+ },
+ {
+  "seg": 88,
+  "start": 450.072,
+  "end": 450.352,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 89,
+  "start": 450.372,
+  "end": 453.993,
+  "speaker": "Unknown",
+  "en": "So if you look at the downloads, Muse is still only U.S. and Canada.",
+  "zh": "所以如果你看下载数据，Muse 目前仍然只在美国和加拿大。"
+ },
+ {
+  "seg": 90,
+  "start": 454.173,
+  "end": 457.214,
+  "speaker": "Unknown",
+  "en": "So we grabbed the Threads, U.S. and Canada downloads only.",
+  "zh": "所以我们只取了 Threads 在美国和加拿大的下载数据。"
+ },
+ {
+  "seg": 91,
+  "start": 457.675,
+  "end": 465.117,
+  "speaker": "Unknown",
+  "en": "In the first 22 days or so, Threads had about 16 million downloads and Muse is still sitting around 5 million over that same time period.",
+  "zh": "在前 22 天左右，Threads 大约有 1600 万次下载，而 Muse 在同一时期只有大约 500 万。"
+ },
+ {
+  "seg": 92,
+  "start": 465.237,
+  "end": 467.437,
+  "speaker": "Unknown",
+  "en": "Is the distribution mechanism different?",
+  "zh": "分发机制不一样吗？"
+ },
+ {
+  "seg": 93,
+  "start": 467.457,
+  "end": 476.219,
+  "speaker": "Unknown",
+  "en": "Like I remember with threads, it was already tied to your Instagram account and there was kind of this very natural distribution.",
+  "zh": "我记得 Threads 当时就已经和你的 Instagram 账号绑定，有一种非常自然的分发。"
+ },
+ {
+  "seg": 94,
+  "start": 476.759,
+  "end": 483.44,
+  "speaker": "Unknown",
+  "en": "Are they trying a similar strategy with Muse or is it just a different distribution strategy too?",
+  "zh": "他们在 Muse 上是在尝试类似的策略，还是也采取了完全不同的分发策略？"
+ },
+ {
+  "seg": 95,
+  "start": 483.72,
+  "end": 487.521,
+  "speaker": "Unknown",
+  "en": "I'd be curious what Josh thinks, but from my point of view, it's not as aggressive for sure.",
+  "zh": "我很好奇 Josh 怎么想，但在我看来，它的推广肯定没那么激进。"
+ },
+ {
+  "seg": 96,
+  "start": 487.821,
+  "end": 493.202,
+  "speaker": "Unknown",
+  "en": "And also part of that is because there's a much higher cost to serve these users and they don't want it to get too big too fast.",
+  "zh": "其中一部分原因是服务这些用户的成本要高得多，他们不想让它扩张得太快太大。"
+ },
+ {
+  "seg": 97,
+  "start": 493.516,
+  "end": 503.585,
+  "speaker": "Unknown",
+  "en": "And I also think threads very much had a critical mass effect, which is if they didn't get a lot of people on it communicating quickly, you don't actually get to that leverage of a new network starting to form.",
+  "zh": "我还认为 Threads 当时有很强的临界规模效应，也就是说，如果没有很多人迅速在上面进行交流，你其实无法达到新网络开始形成的那种杠杆效应。"
+ },
+ {
+  "seg": 98,
+  "start": 503.705,
+  "end": 512.753,
+  "speaker": "Unknown",
+  "en": "Because Muse is still such a personal tool that they're pushing it and it's very exciting to kind of even see this early just adoption and people having these experiences.",
+  "zh": "而 Muse 仍然是一款非常个人化的工具，他们在推动它，而且即使在这么早期就能看到采用情况、看到人们拥有这些体验，也已经非常令人兴奋了。"
+ },
+ {
+  "seg": 99,
+  "start": 512.773,
+  "end": 518.678,
+  "speaker": "Unknown",
+  "en": "And again, if you're using OpenClaw in January, you were having an incredible experience of using Crock-Bot when that first launched earlier this summer.",
+  "zh": "再说一遍，如果你一月份在用 OpenClaw，那你当时体验 Crock-Bot 首次发布时的那种惊艳，就是这个夏天早些时候的感受。"
+ },
+ {
+  "seg": 100,
+  "start": 519.078,
+  "end": 521.359,
+  "speaker": "Unknown",
+  "en": "In spring, you were having these incredible experiences.",
+  "zh": "春天的时候，你们还在经历那些令人惊叹的体验。"
+ },
+ {
+  "seg": 101,
+  "start": 521.379,
+  "end": 529.583,
+  "speaker": "Unknown",
+  "en": "And now we're seeing, as I think Olivia said, our moms, our families, people who don't just live on the tech, what's next in AI cycle.",
+  "zh": "而现在我们看到，正如我想 Olivia 说的那样，我们的妈妈、我们的家人，那些不只是活在科技圈、活在“AI 下一步”周期里的人。"
+ },
+ {
+  "seg": 102,
+  "start": 530.083,
+  "end": 532.104,
+  "speaker": "Unknown",
+  "en": "And I think that's what's really exciting about this consumer.",
+  "zh": "而我认为这正是这个消费级产品真正令人兴奋的地方。"
+ },
+ {
+  "seg": 103,
+  "start": 532.144,
+  "end": 535.325,
+  "speaker": "Unknown",
+  "en": "I assume when we do this again next time, we're going to see massive adoption.",
+  "zh": "我猜下次我们再这样做这个节目时，我们会看到大规模的采用。"
+ },
+ {
+  "seg": 104,
+  "start": 535.365,
+  "end": 539.407,
+  "speaker": "Unknown",
+  "en": "But I think it hasn't needed to push as hard to have that early network effect.",
+  "zh": "但我认为它并不需要那么用力推动就能产生那种早期网络效应。"
+ },
+ {
+  "seg": 105,
+  "start": 539.847,
+  "end": 543.471,
+  "speaker": "Unknown",
+  "en": "But then I also think about what's going to make these things stick around for a long time.",
+  "zh": "但我也在思考，什么才能让这些东西长久地留存下来。"
+ },
+ {
+  "seg": 106,
+  "start": 543.791,
+  "end": 549.978,
+  "speaker": "Unknown",
+  "en": "And it is going to be things like network effects and marketplaces and all the businesses you can interact with those agents.",
+  "zh": "那将会是网络效应、市场，以及你可以与那些智能体交互的各种业务之类的东西。"
+ },
+ {
+  "seg": 107,
+  "start": 549.998,
+  "end": 551.84,
+  "speaker": "Unknown",
+  "en": "That's going to be really transformative, too.",
+  "zh": "那也将是真正的变革性的东西。"
+ },
+ {
+  "seg": 108,
+  "start": 552.187,
+  "end": 552.407,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 109,
+  "start": 552.647,
+  "end": 568.04,
+  "speaker": "Unknown",
+  "en": "This is one of the things we talk about a lot when it comes to consumer agents and assistants, which is, I think they are getting kind of the compounding effects of building out a platform, or at least it seems like they are in terms of the ecosystem of other apps that are available and more easily usable by the agent.",
+  "zh": "这是我们在谈论消费级智能体和助手时经常谈到的一点，也就是，我认为它们正在获得构建平台的那种复利效应，或者至少看起来是这样，就生态系统中其他可用的应用而言，就智能体更容易使用的那些应用而言。"
+ },
+ {
+  "seg": 110,
+  "start": 568.4,
+  "end": 569.661,
+  "speaker": "Unknown",
+  "en": "We've seen that cut both ways.",
+  "zh": "我们看到这把双刃剑的效果。"
+ },
+ {
+  "seg": 111,
+  "start": 569.801,
+  "end": 576.026,
+  "speaker": "Unknown",
+  "en": "Like Amazon is like, we're not going to allow Muse to kind of browse and purchase products on our site, but also Muse has",
+  "zh": "比如 Amazon 说，我们不会允许 Muse 在我们的网站上浏览和购买商品，但与此同时 Muse 也"
+ },
+ {
+  "seg": 112,
+  "start": 577.367,
+  "end": 579.69,
+  "speaker": "Unknown",
+  "en": "Already hundreds of other partnerships with different products.",
+  "zh": "已经和几百个不同的产品建立了合作关系。"
+ },
+ {
+  "seg": 113,
+  "start": 579.71,
+  "end": 581.292,
+  "speaker": "Unknown",
+  "en": "Shopify, you know, to be able to buy things on Shopify.",
+  "zh": "Shopify，你知道的，可以在 Shopify 上买东西。"
+ },
+ {
+  "seg": 114,
+  "start": 581.532,
+  "end": 582.393,
+  "speaker": "Unknown",
+  "en": "Exactly, yes.",
+  "zh": "对，没错。"
+ },
+ {
+  "seg": 115,
+  "start": 582.714,
+  "end": 589.602,
+  "speaker": "Unknown",
+  "en": "I still don't feel like any of the assistant products have unlocked person-to-person network effects.",
+  "zh": "我仍然觉得没有任何一个助手产品真正解锁了人与人之间的网络效应。"
+ },
+ {
+  "seg": 116,
+  "start": 589.622,
+  "end": 596.23,
+  "speaker": "Unknown",
+  "en": "And part of this for me is this software knows us more intimately than any other product in the past.",
+  "zh": "对我来说，部分原因在于这种软件比以往任何产品都更亲密地了解我们。"
+ },
+ {
+  "seg": 117,
+  "start": 596.871,
+  "end": 601.852,
+  "speaker": "Unknown",
+  "en": "Based on email, but also I find myself telling extremely personal things to my AI.",
+  "zh": "基于电子邮件，但我也发现自己会对我的 AI 讲极其私人的事情。"
+ },
+ {
+  "seg": 118,
+  "start": 602.372,
+  "end": 610.774,
+  "speaker": "Unknown",
+  "en": "And so there's kind of this natural tension between the more useful the product is to you as the consumer, the more it knows about you.",
+  "zh": "所以这里有某种天然的张力：产品对你作为消费者越有用，它对你的了解就越多。"
+ },
+ {
+  "seg": 119,
+  "start": 610.974,
+  "end": 614.795,
+  "speaker": "Unknown",
+  "en": "And then do you really want to introduce that into other contexts with other people?",
+  "zh": "那么你真的想把它引入到与其他人在一起的其他情境中吗？"
+ },
+ {
+  "seg": 120,
+  "start": 615.055,
+  "end": 621.377,
+  "speaker": "Unknown",
+  "en": "It's the same thing as many people have a separate ChatGPT work account and personal account, and no one has quite cracked that yet.",
+  "zh": "这和很多人有单独的 ChatGPT 工作账号和个人账号是一样的，而目前还没有人真正破解这个问题。"
+ },
+ {
+  "seg": 121,
+  "start": 621.797,
+  "end": 628.281,
+  "speaker": "Unknown",
+  "en": "No, and I think as we talk about consumers and AI, privacy, safety, security are becoming more and more important.",
+  "zh": "是的，而且我认为当我们谈论消费者和 AI 时，隐私、安全、安保正变得越来越重要。"
+ },
+ {
+  "seg": 122,
+  "start": 628.341,
+  "end": 639.848,
+  "speaker": "Unknown",
+  "en": "I mean, there's obviously the overall trends of, you know, trust in AI and this kind of belief that AI is good for the world that is in some ways, you know, affecting adoption and affecting some of the excitement around these products.",
+  "zh": "我的意思是，显然有一些整体趋势，比如对 AI 的信任，以及这种认为 AI 对世界有益的信念，这在某种程度上正在影响采用率，也影响着围绕这些产品的一些兴奋感。"
+ },
+ {
+  "seg": 123,
+  "start": 640.088,
+  "end": 642.31,
+  "speaker": "Unknown",
+  "en": "But on a very personal level, if you don't trust AI,",
+  "zh": "但在非常个人的层面上，如果你不信任 AI，"
+ },
+ {
+  "seg": 124,
+  "start": 642.67,
+  "end": 650.98,
+  "speaker": "Unknown",
+  "en": "The thing that you're giving it your most intimate access to your email or your life or your credit card, and it might do rogue things that you wouldn't expect or share things with other people you wouldn't expect.",
+  "zh": "你把它交给了你最亲密的东西的访问权限，你的电子邮件、你的生活或你的信用卡，而它可能做出你意想不到的出格行为，或者以你意想不到的方式把东西分享给其他人。"
+ },
+ {
+  "seg": 125,
+  "start": 651,
+  "end": 656.747,
+  "speaker": "Unknown",
+  "en": "You know, that's gonna be the biggest impingement on these things really growing as massive consumer apps.",
+  "zh": "你知道，那将是这些东西真正成长为大规模消费级应用的最大阻碍。"
+ },
+ {
+  "seg": 126,
+  "start": 656.767,
+  "end": 660.312,
+  "speaker": "Unknown",
+  "en": "So it's a, we're in a fascinating time where we're all learning these new norms",
+  "zh": "所以这是一个，我们正处于一个迷人的时代，我们都在学习这些新的规范"
+ },
+ {
+  "seg": 127,
+  "start": 660.612,
+  "end": 663.115,
+  "speaker": "Unknown",
+  "en": "And these are norms that like as people, we're actually very good at it.",
+  "zh": "而这些规范，作为人类，我们其实很擅长。"
+ },
+ {
+  "seg": 128,
+  "start": 663.155,
+  "end": 672.547,
+  "speaker": "Unknown",
+  "en": "We're very good at knowing what information we're comfortable sharing, what information if somebody gives it to us, what information that we're trusted to be able to pass on to somebody or should be protecting and keeping ourselves.",
+  "zh": "我们很擅长知道哪些信息我们愿意分享，如果别人把某些信息交给我们，哪些信息我们是受托可以传递给别人的，或者哪些应该保护起来、自己留存。"
+ },
+ {
+  "seg": 129,
+  "start": 672.787,
+  "end": 675.23,
+  "speaker": "Unknown",
+  "en": "And we're just like all of a sudden expecting software to do this too.",
+  "zh": "而我们突然间就期望软件也能做到这一点。"
+ },
+ {
+  "seg": 130,
+  "start": 675.611,
+  "end": 679.656,
+  "speaker": "Unknown",
+  "en": "It's a very, you know, interesting new set of things we're learning.",
+  "zh": "这是一套非常，你知道的，有趣的新东西，我们正在学习。"
+ },
+ {
+  "seg": 131,
+  "start": 679.985,
+  "end": 680.745,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 132,
+  "start": 680.785,
+  "end": 686.046,
+  "speaker": "Unknown",
+  "en": "Well, you both just brought up like two interesting sort of facets of this.",
+  "zh": "嗯，你们两位刚才都提到了这件事的两个有趣的方面。"
+ },
+ {
+  "seg": 133,
+  "start": 686.206,
+  "end": 693.588,
+  "speaker": "Unknown",
+  "en": "One is like there's this endogenous force, which is all of the platforms and how they allow agents to interact with them.",
+  "zh": "一个是有这种内生的力量，也就是所有的平台以及它们如何允许智能体与它们交互。"
+ },
+ {
+  "seg": 134,
+  "start": 693.708,
+  "end": 703.37,
+  "speaker": "Unknown",
+  "en": "And then there's more like this exogenous force of like how comfortable am I using this and how maybe I mixed up endogenous and exogenous.",
+  "zh": "然后还有更像是一种外生的力量，比如我使用这个东西有多自在，也许我把内生的和外生的搞混了。"
+ },
+ {
+  "seg": 135,
+  "start": 704.071,
+  "end": 706.171,
+  "speaker": "Unknown",
+  "en": "One is on the outside and one is on the inside.",
+  "zh": "一个在外面，一个在里面。"
+ },
+ {
+  "seg": 136,
+  "start": 706.191,
+  "end": 706.891,
+  "speaker": "Unknown",
+  "en": "We knew what you meant.",
+  "zh": "我们知道你是什么意思。"
+ },
+ {
+  "seg": 137,
+  "start": 706.971,
+  "end": 709.892,
+  "speaker": "Unknown",
+  "en": "One is what the platforms are doing and one is how you feel about it.",
+  "zh": "一个是平台在做什么，一个是你对此的感受。"
+ },
+ {
+  "seg": 138,
+  "start": 710.152,
+  "end": 710.312,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 139,
+  "start": 710.532,
+  "end": 711.793,
+  "speaker": "Unknown",
+  "en": "Or how you feel about the agent.",
+  "zh": "或者说你对这个智能体的感受。"
+ },
+ {
+  "seg": 140,
+  "start": 712.013,
+  "end": 717.075,
+  "speaker": "Unknown",
+  "en": "And I'm curious, which do you think is going to get resolved sooner?",
+  "zh": "我很好奇，你认为哪一个会更快得到解决？"
+ },
+ {
+  "seg": 141,
+  "start": 717.095,
+  "end": 722.117,
+  "speaker": "Unknown",
+  "en": "And whose onus is that?",
+  "zh": "而这又是谁的责任呢？"
+ },
+ {
+  "seg": 142,
+  "start": 722.257,
+  "end": 725.278,
+  "speaker": "Unknown",
+  "en": "Whose responsibility is resolving those kinds of questions?",
+  "zh": "解决这类问题是谁的职责？"
+ },
+ {
+  "seg": 143,
+  "start": 725.778,
+  "end": 736.262,
+  "speaker": "Unknown",
+  "en": "I think what the platforms are capable of is improving faster than true consumer willingness to use them, which we've seen kind of throughout AI so far.",
+  "zh": "我认为平台能做到的事情，其改进速度比消费者真正愿意使用它们的速度要快，这一点到目前为止我们在整个 AI 领域都有所见证。"
+ },
+ {
+  "seg": 144,
+  "start": 737.102,
+  "end": 746.447,
+  "speaker": "Unknown",
+  "en": "It's interesting because a lot of people are like seeing these numbers that founders of these assistant products are posting that it costs like hundreds or thousands of dollars a month to serve a user.",
+  "zh": "有趣的是，很多人看到这些助手产品创始人发布的数字，服务一个用户每月要花几百甚至几千美元。"
+ },
+ {
+  "seg": 145,
+  "start": 746.507,
+  "end": 748.227,
+  "speaker": "Unknown",
+  "en": "And like, how is that possible?",
+  "zh": "然后会想，这怎么可能？"
+ },
+ {
+  "seg": 146,
+  "start": 749.148,
+  "end": 756.031,
+  "speaker": "Unknown",
+  "en": "And I was stumped as well, but I have been working with David Paulan, who runs Assistant Benchmark, who's fantastic.",
+  "zh": "我当时也被难住了，但我一直在和 David Paulan 合作，他运营着 Assistant Benchmark，他非常出色。"
+ },
+ {
+  "seg": 147,
+  "start": 756.051,
+  "end": 757.632,
+  "speaker": "Unknown",
+  "en": "There's a recent podcast with him.",
+  "zh": "最近有一期和他做的播客。"
+ },
+ {
+  "seg": 148,
+  "start": 757.652,
+  "end": 758.772,
+  "speaker": "Unknown",
+  "en": "Yes, he's great.",
+  "zh": "是的，他很棒。"
+ },
+ {
+  "seg": 149,
+  "start": 758.812,
+  "end": 761.854,
+  "speaker": "Unknown",
+  "en": "So basically what he's done is he's created a website where they track",
+  "zh": "基本上他所做的是创建了一个网站，他们在上面追踪"
+ },
+ {
+  "seg": 150,
+  "start": 762.214,
+  "end": 763.815,
+  "speaker": "Unknown",
+  "en": "I think over 170 agents.",
+  "zh": "我想超过 170 个智能体。"
+ },
+ {
+  "seg": 151,
+  "start": 763.895,
+  "end": 764.676,
+  "speaker": "Unknown",
+  "en": "I checked it last night.",
+  "zh": "我昨晚查过。"
+ },
+ {
+  "seg": 152,
+  "start": 764.716,
+  "end": 766.597,
+  "speaker": "Unknown",
+  "en": "It's probably like 200 something this morning.",
+  "zh": "今天早上大概有 200 多个了。"
+ },
+ {
+  "seg": 153,
+  "start": 768.138,
+  "end": 772.621,
+  "speaker": "Unknown",
+  "en": "And they he has users kind of use them and then rank them on success on different tasks.",
+  "zh": "然后他让用户去使用它们，并根据它们在不同任务上的成功表现进行排名。"
+ },
+ {
+  "seg": 154,
+  "start": 773.141,
+  "end": 779.865,
+  "speaker": "Unknown",
+  "en": "But the other really interesting thing that he does is he hosts kind of group chats and communities of early adopters of these agents.",
+  "zh": "但他做的另一件非常有趣的事情是，他主持了这类智能体早期采用者的群聊和社区。"
+ },
+ {
+  "seg": 155,
+  "start": 779.905,
+  "end": 782.727,
+  "speaker": "Unknown",
+  "en": "So he has a group of I think it's 1500 plus users.",
+  "zh": "所以他有一个我认为是 1500 多名用户组成的群体。"
+ },
+ {
+  "seg": 156,
+  "start": 783.387,
+  "end": 786.928,
+  "speaker": "Unknown",
+  "en": "And he pulled some cool data for us, which is like, what are they doing with agents?",
+  "zh": "而且他为我们拉取了一些很酷的数据，比如，他们用智能体在做什么？"
+ },
+ {
+  "seg": 157,
+  "start": 786.948,
+  "end": 788.569,
+  "speaker": "Unknown",
+  "en": "What are they talking about doing with agents?",
+  "zh": "他们在谈论用智能体做什么？"
+ },
+ {
+  "seg": 158,
+  "start": 789.389,
+  "end": 797.632,
+  "speaker": "Unknown",
+  "en": "And the vast majority, still, the number one use case was coding and technical automation, even for these consumer-assistant products like Muse and Instinct.",
+  "zh": "绝大多数情况下，头号用例仍然是编程和技术自动化，即使是针对像 Muse 和 Instinct 这样的消费者助理产品也是如此。"
+ },
+ {
+  "seg": 159,
+  "start": 798.152,
+  "end": 799.753,
+  "speaker": "Unknown",
+  "en": "And so under that framing, it's like, oh.",
+  "zh": "所以按照那个框架来看，就是，哦。"
+ },
+ {
+  "seg": 160,
+  "start": 800.293,
+  "end": 801.734,
+  "speaker": "Unknown",
+  "en": "Of course it costs that much.",
+  "zh": "当然要花那么多钱。"
+ },
+ {
+  "seg": 161,
+  "start": 801.834,
+  "end": 812.397,
+  "speaker": "Unknown",
+  "en": "This is like when we talk to some agent or assistant products that are aimed towards the more mainstream consumer, they're seeing costs in the tens of dollars, not the thousands of dollars a month.",
+  "zh": "这就像我们和一些面向更主流消费者的智能体或助理产品交流时，他们看到的成本是几十美元，而不是每月几千美元。"
+ },
+ {
+  "seg": 162,
+  "start": 812.517,
+  "end": 821.16,
+  "speaker": "Unknown",
+  "en": "So I think that is maybe a representation of the fact that we have a very long way to go in terms of consumers getting comfortable with these products.",
+  "zh": "所以我认为这可能反映了这样一个事实：在让消费者接受这些产品方面，我们还有很长的路要走。"
+ },
+ {
+  "seg": 163,
+  "start": 821.32,
+  "end": 821.46,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 164,
+  "start": 821.48,
+  "end": 832.588,
+  "speaker": "Unknown",
+  "en": "And I think, you know, I think people who've been coding and have been working with AI, I mean, it's been such an incredible enhancer and that shows up in a lot of the data, you know, on the, on the top 100 here, like it's incredible.",
+  "zh": "而且我觉得，你知道，我认为一直在编程、一直在与 AI 协作的人，我是说，它一直是一个如此出色的增强器，这在很多数据中都有体现，你知道，在这里的前 100 名上，简直不可思议。"
+ },
+ {
+  "seg": 165,
+  "start": 832.608,
+  "end": 837.392,
+  "speaker": "Unknown",
+  "en": "And then we've, people who've been able to do that have had these great ideas for all the other things in their life, but",
+  "zh": "然后我们，那些能够做到这一点的人，对自己的生活中所有其他事情都有了这些很棒的想法，但是"
+ },
+ {
+  "seg": 166,
+  "start": 837.972,
+  "end": 840.214,
+  "speaker": "Unknown",
+  "en": "When you just hand this to somebody new, it feels like a blank box.",
+  "zh": "当你只是把这个交给一个新手时，它感觉像一个空盒子。"
+ },
+ {
+  "seg": 167,
+  "start": 840.535,
+  "end": 842.437,
+  "speaker": "Unknown",
+  "en": "And it feels like, what should I do with this?",
+  "zh": "而且感觉是，我该拿它做什么？"
+ },
+ {
+  "seg": 168,
+  "start": 842.817,
+  "end": 850.345,
+  "speaker": "Unknown",
+  "en": "And maybe there's examples of getting a reservation or booking a flight, but if you're not actively seeking a reservation or booking a flight, it's hard to figure out how to personalize it.",
+  "zh": "也许有一些例子，比如订餐厅位或订机票，但如果你并没有正在寻找餐厅位或订机票，就很难弄清楚如何把它个性化。"
+ },
+ {
+  "seg": 169,
+  "start": 850.745,
+  "end": 857.132,
+  "speaker": "Unknown",
+  "en": "And so much of what we do as people is we learn from others and we get these great ideas and we try the other things people tell us.",
+  "zh": "而且我们作为人所做的很多事情，是从他人身上学习，我们获得这些很棒的想法，然后我们尝试别人告诉我们的其他事情。"
+ },
+ {
+  "seg": 170,
+  "start": 857.472,
+  "end": 863.213,
+  "speaker": "Unknown",
+  "en": "So much of how social media has worked is people put things on social media and other people see that and they try the same thing.",
+  "zh": "社交媒体之所以能运作，很大程度上是因为人们把东西放到社交媒体上，其他人看到了，然后也去尝试同样的东西。"
+ },
+ {
+  "seg": 171,
+  "start": 863.253,
+  "end": 869.755,
+  "speaker": "Unknown",
+  "en": "And then it kind of spawns these effects where I try, they make a little riff on it and then those riffs become, you know, cascading snowballs.",
+  "zh": "然后它会衍生出这些效应，我尝试一下，他们对它做一点小小的变奏，然后这些变奏变成，你知道，级联的雪球。"
+ },
+ {
+  "seg": 172,
+  "start": 869.775,
+  "end": 871.875,
+  "speaker": "Unknown",
+  "en": "And that's how great ideas flourish.",
+  "zh": "而这就是伟大想法繁荣发展的方式。"
+ },
+ {
+  "seg": 173,
+  "start": 872.315,
+  "end": 881.737,
+  "speaker": "Unknown",
+  "en": "And with AI, because so much of it's so personal, we haven't even seen any of that flourishing yet, you know, outside of areas like coding and productivity, you know, all of the creative work, you know.",
+  "zh": "而在 AI 方面，因为它的很多内容都非常个人化，我们甚至还没有看到任何那样的繁荣，你知道，除了编程和生产力等领域之外，你知道，所有的创造性工作，你知道。"
+ },
+ {
+  "seg": 174,
+  "start": 882.137,
+  "end": 883.659,
+  "speaker": "Unknown",
+  "en": "I created this incredible video.",
+  "zh": "我制作了这个令人难以置信的视频。"
+ },
+ {
+  "seg": 175,
+  "start": 883.679,
+  "end": 884.379,
+  "speaker": "Unknown",
+  "en": "And how'd you do that?",
+  "zh": "而你是怎么做到的？"
+ },
+ {
+  "seg": 176,
+  "start": 884.439,
+  "end": 885.58,
+  "speaker": "Unknown",
+  "en": "I use AI.",
+  "zh": "我用了 AI。"
+ },
+ {
+  "seg": 177,
+  "start": 885.6,
+  "end": 890.405,
+  "speaker": "Unknown",
+  "en": "You know, there's so many tools that do that, that are, you know, been growing and are here.",
+  "zh": "你知道，有很多工具可以做到这一点，它们一直在增长，并且已经存在了。"
+ },
+ {
+  "seg": 178,
+  "start": 890.766,
+  "end": 903.198,
+  "speaker": "Unknown",
+  "en": "But it's so interesting that, you know, now we have to figure out how to mainstream this for not the, you know, millions and millions of people who are using these and paying and everything, but for the, you know, tens, hundreds and, you know, hundreds and hundreds of millions.",
+  "zh": "但非常有趣的是，你知道，现在我们必须弄清楚如何将这一切主流化，不只是为了那些正在使用这些产品、付费等等的数百万上千万人，而是为了，你知道，数千万、数亿，以及，你知道，数亿又数亿的人。"
+ },
+ {
+  "seg": 179,
+  "start": 903.758,
+  "end": 915.613,
+  "speaker": "Unknown",
+  "en": "If you look at broad usage data now, about half of Americans report using AI and about 25 percent of Americans think they're interacting with AI probably on close to a daily basis.",
+  "zh": "如果你看现在的广泛使用数据，大约一半的美国人报告在使用 AI，大约 25% 的美国人认为他们可能与 AI 的互动接近每天一次。"
+ },
+ {
+  "seg": 180,
+  "start": 916.474,
+  "end": 919.298,
+  "speaker": "Unknown",
+  "en": "But the spending data is much more concentrated.",
+  "zh": "但消费数据要集中得多。"
+ },
+ {
+  "seg": 181,
+  "start": 920.259,
+  "end": 921.982,
+  "speaker": "Unknown",
+  "en": "It depends on the source.",
+  "zh": "这取决于数据来源。"
+ },
+ {
+  "seg": 182,
+  "start": 922.202,
+  "end": 931.316,
+  "speaker": "Unknown",
+  "en": "Our Yipit panel shows probably sub-5%, around 4.5% of U.S. consumers are paying a subscription to an AI product.",
+  "zh": "我们的 Yipit 样本组显示，可能低于 5%，大约 4.5% 的美国消费者在为 AI 产品支付订阅费。"
+ },
+ {
+  "seg": 183,
+  "start": 931.737,
+  "end": 935.282,
+  "speaker": "Unknown",
+  "en": "Some other sources say as low as 2 or 2.5 or maybe a little bit higher.",
+  "zh": "一些其他来源说低至 2% 或 2.5%，或者可能稍微高一点。"
+ },
+ {
+  "seg": 184,
+  "start": 935.903,
+  "end": 936.903,
+  "speaker": "Unknown",
+  "en": "It is expanding.",
+  "zh": "它在扩大。"
+ },
+ {
+  "seg": 185,
+  "start": 936.983,
+  "end": 939.284,
+  "speaker": "Unknown",
+  "en": "So that's like doubled from a year ago.",
+  "zh": "所以这比一年前翻了一倍。"
+ },
+ {
+  "seg": 186,
+  "start": 940.105,
+  "end": 943.486,
+  "speaker": "Unknown",
+  "en": "But that spend is still extremely concentrated.",
+  "zh": "但那些消费仍然极其集中。"
+ },
+ {
+  "seg": 187,
+  "start": 943.926,
+  "end": 953.169,
+  "speaker": "Unknown",
+  "en": "So even within that top 4.5 percent of people who do spend, the top 10 percent of those are like more than half of the revenue.",
+  "zh": "所以即使在付费的那前 4.5% 的人当中，其中前 10% 的人贡献了一半以上的收入。"
+ },
+ {
+  "seg": 188,
+  "start": 953.63,
+  "end": 959.872,
+  "speaker": "Unknown",
+  "en": "And the top 1 percent are 20 percent of the revenue, whereas the bottom 50 percent are like 16 percent.",
+  "zh": "而前 1% 的人占收入的 20%，而底部 50% 的人大约只占 16%。"
+ },
+ {
+  "seg": 189,
+  "start": 959.972,
+  "end": 960.232,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 190,
+  "start": 960.252,
+  "end": 963.774,
+  "speaker": "Unknown",
+  "en": "So like the top 10% of users are driving this market.",
+  "zh": "所以就像用户中的前 10% 在驱动这个市场。"
+ },
+ {
+  "seg": 191,
+  "start": 964.215,
+  "end": 974.241,
+  "speaker": "Unknown",
+  "en": "This was the other interesting thing about revenue data is we were able to look at it kind of like on a almost person-by-person basis, what it looks like, who are these people who are spending on AI.",
+  "zh": "这是收入数据的另一个有趣之处：我们能够以一种几乎逐个人的方式来观察它是什么样子，这些在 AI 上花钱的人都是谁。"
+ },
+ {
+  "seg": 192,
+  "start": 974.901,
+  "end": 981.846,
+  "speaker": "Unknown",
+  "en": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
+  "zh": "前 1% 的用户每月在他们个人信用卡上为 AI 花费 903 美元。"
+ },
+ {
+  "seg": 193,
+  "start": 982.646,
+  "end": 984.207,
+  "speaker": "Unknown",
+  "en": "And the median is spending $25.",
+  "zh": "而中位数用户花费 25 美元。"
+ },
+ {
+  "seg": 194,
+  "start": 985.658,
+  "end": 990.403,
+  "speaker": "Unknown",
+  "en": "And again, all of this is within the only the 4.5% that are spending at all.",
+  "zh": "再说一次，所有这些数据都只限于那 4.5% 真正付费的人当中。"
+ },
+ {
+  "seg": 195,
+  "start": 990.783,
+  "end": 998.15,
+  "speaker": "Unknown",
+  "en": "Yibbit also was helpful for us because we could see what products are they actually spending on, like on a personal basis.",
+  "zh": "Yipit 对我们也很有帮助，因为我们可以看到他们个人层面实际上在为哪些产品花钱。"
+ },
+ {
+  "seg": 196,
+  "start": 998.83,
+  "end": 1009.601,
+  "speaker": "Unknown",
+  "en": "And probably unsurprisingly, it was mostly developer tools, productivity tools, creative tools, things used to like build, make, sell.",
+  "zh": "而且可能不足为奇的是，主要是开发者工具、生产力工具、创意工具，那些用来构建、制作、销售的东西。"
+ },
+ {
+  "seg": 197,
+  "start": 1010.882,
+  "end": 1018.648,
+  "speaker": "Unknown",
+  "en": "Things like N8N, Granola, Higgs Field, Manus, those all were way overrepresented amongst the top spenders.",
+  "zh": "比如 N8N、Granola、Higgs Field、Manus 这些，在头部消费者中的占比都远超平均。"
+ },
+ {
+  "seg": 198,
+  "start": 1019.264,
+  "end": 1020.685,
+  "speaker": "Unknown",
+  "en": "I mean, in a way, this is actually really cool.",
+  "zh": "我是说，从某种角度来看，这其实真的很酷。"
+ },
+ {
+  "seg": 199,
+  "start": 1020.705,
+  "end": 1037.976,
+  "speaker": "Unknown",
+  "en": "I mean, even though these numbers aren't everybody yet, like we're enabling this whole new generation of makers of people who are, you know, not just using this for work, but actually using their personal credit cards to code things they never coded before to make art, make videos, make content and, you know, really have this power of making.",
+  "zh": "我是说，尽管这些数字还不是所有人，但我们正在赋能这一整代新的创造者，这些人是，你知道，不仅仅是把这个用在工作上，而是真的用他们的个人信用卡去编写他们以前从未编写过的代码，去创作艺术、制作视频、制作内容，并且，你知道，真正拥有这种创造的力量。"
+ },
+ {
+  "seg": 200,
+  "start": 1038.376,
+  "end": 1046.561,
+  "speaker": "Unknown",
+  "en": "And so it's actually in some ways, you know, while it's all still so early, it's actually really cool how much making is going on that people are actually so excited they're willing to spend.",
+  "zh": "所以从某种角度看,你知道,虽然一切都还很早,但看到有这么多「创造」正在发生,看到人们如此兴奋、愿意花钱,其实是件很酷的事。"
+ },
+ {
+  "seg": 201,
+  "start": 1046.581,
+  "end": 1047.982,
+  "speaker": "Unknown",
+  "en": "I mean, if you're spending $900 a month.",
+  "zh": "我的意思是,如果你每个月花 900 美元。"
+ },
+ {
+  "seg": 202,
+  "start": 1049.564,
+  "end": 1058.317,
+  "speaker": "Unknown",
+  "en": "On a set of AI tools, you're really using that to like hopefully make things faster, better, have more ideas in your head coming to life than ever before.",
+  "zh": "在一套 AI 工具上,你实际上是在希望借此更快、更好地创造,让脑子里的想法比以往任何时候都更多地变成现实。"
+ },
+ {
+  "seg": 203,
+  "start": 1058.417,
+  "end": 1058.738,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 204,
+  "start": 1058.758,
+  "end": 1063.825,
+  "speaker": "Unknown",
+  "en": "That's kind of like when I was looking at these categories between creativity and coding, like...",
+  "zh": "这有点像我在看创造力和编程这些类别时的感受,比如……"
+ },
+ {
+  "seg": 205,
+  "start": 1064.827,
+  "end": 1067.249,
+  "speaker": "Unknown",
+  "en": "You know, that's actually hopefully really, really powerful.",
+  "zh": "你知道,那确实有望变得非常、非常强大。"
+ },
+ {
+  "seg": 206,
+  "start": 1067.389,
+  "end": 1067.769,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 207,
+  "start": 1068.07,
+  "end": 1078.178,
+  "speaker": "Unknown",
+  "en": "Well, I think this is a point that's really important, which is I think developers and coders are people who are naturally attuned to sort of ask, how do I get leverage over this thing?",
+  "zh": "嗯,我认为这一点真的很重要,那就是开发者和程序员是天生的、会去追问「我如何在这个东西上获得杠杆?」的人群。"
+ },
+ {
+  "seg": 208,
+  "start": 1078.258,
+  "end": 1081.741,
+  "speaker": "Unknown",
+  "en": "How do I build a product that allows me to get leverage over my time?",
+  "zh": "我如何打造一个产品,让我能在自己的时间上获得杠杆?"
+ },
+ {
+  "seg": 209,
+  "start": 1082.322,
+  "end": 1084.844,
+  "speaker": "Unknown",
+  "en": "And AI obviously supercharges that.",
+  "zh": "而 AI 显然极大地强化了这一点。"
+ },
+ {
+  "seg": 210,
+  "start": 1085.204,
+  "end": 1088.146,
+  "speaker": "Unknown",
+  "en": "But it is a specific kind of mindset, I think.",
+  "zh": "但我认为,这是一种特定类型的心态。"
+ },
+ {
+  "seg": 211,
+  "start": 1088.167,
+  "end": 1091.149,
+  "speaker": "Unknown",
+  "en": "And it's a specific kind of worldview.",
+  "zh": "也是一种特定的世界观。"
+ },
+ {
+  "seg": 212,
+  "start": 1091.229,
+  "end": 1091.649,
+  "speaker": "Unknown",
+  "en": "And I think",
+  "zh": "我认为"
+ },
+ {
+  "seg": 213,
+  "start": 1092.95,
+  "end": 1106.316,
+  "speaker": "Unknown",
+  "en": "Part of my understanding of these numbers is it's still a world view that gets reflected only among a smaller group of people and the question might be just like how do you expand that world view?",
+  "zh": "从我对这些数字的理解来看,这仍然是一种只体现在较小群体中的世界观,而问题可能就是:你如何扩展这种世界观?"
+ },
+ {
+  "seg": 214,
+  "start": 1106.677,
+  "end": 1111.839,
+  "speaker": "Unknown",
+  "en": "How do you help people understand like here are all the ways you can get leverage over your time and over your life?",
+  "zh": "你如何帮助人们理解:这里有各种各样让你在自己的时间、自己的生活上获得杠杆的方式?"
+ },
+ {
+  "seg": 215,
+  "start": 1112.479,
+  "end": 1119.822,
+  "speaker": "Unknown",
+  "en": "We talked about this a little bit in this report in terms of areas where we have not yet seen AI native startups pop up or categories where we haven't.",
+  "zh": "我们在这份报告里稍微谈到了这一点,谈到了那些我们尚未看到 AI 原生初创公司涌现的领域,或者说尚未出现 AI 原生初创公司的品类。"
+ },
+ {
+  "seg": 216,
+  "start": 1121.203,
+  "end": 1126.387,
+  "speaker": "Unknown",
+  "en": "Eugenia, who's one of our portfolio CEOs, runs a company called Wabi, which is fantastic.",
+  "zh": "Eugenia 是我们投资组合中的一位 CEO,她经营一家叫 Wabi 的公司,非常出色。"
+ },
+ {
+  "seg": 217,
+  "start": 1126.927,
+  "end": 1133.853,
+  "speaker": "Unknown",
+  "en": "She has this great quote, I'm probably going to botch it, but it's something like, most people aren't looking to save time, they're looking for ways to spend their time.",
+  "zh": "她有一句很棒的话,我可能说不准,但大意是:大多数人并不是想节省时间,他们是在寻找打发时间的方式。"
+ },
+ {
+  "seg": 218,
+  "start": 1134.873,
+  "end": 1143.08,
+  "speaker": "Unknown",
+  "en": "Like, this is why social media, entertainment, Netflix, TikTok, all of these, YouTube are the most used consumer products that we have.",
+  "zh": "比如,这就是为什么社交媒体、娱乐、Netflix、TikTok、YouTube 这些是我们使用最多的消费产品。"
+ },
+ {
+  "seg": 219,
+  "start": 1143.76,
+  "end": 1152.884,
+  "speaker": "Unknown",
+  "en": "And I think that much of what we've seen in AI thus far, to your point, is like, how do I do this thing a little bit faster, a little bit easier, a little bit more impressively?",
+  "zh": "而且我认为,正如你所说,到目前为止我们在 AI 中看到的很多东西,都是「我如何把这件事做得稍微快一点、稍微容易一点、稍微更让人印象深刻一点?」"
+ },
+ {
+  "seg": 220,
+  "start": 1153.264,
+  "end": 1160.067,
+  "speaker": "Unknown",
+  "en": "And that's not an incredibly compelling daily or hourly active value proposition for most people.",
+  "zh": "而对大多数人来说,这并不是一个非常有吸引力的日活或时活价值主张。"
+ },
+ {
+  "seg": 221,
+  "start": 1161.048,
+  "end": 1173.523,
+  "speaker": "Unknown",
+  "en": "No, I think this, you know, saving time is still very, you know, hyper-productivity, people who are focused on, you know, work or being creative, but I'm also seeing this next wave of people who are",
+  "zh": "不,我认为,你知道,节省时间仍然是非常……超级生产力,专注于工作或创意的人群,但我也看到了下一波人,"
+ },
+ {
+  "seg": 222,
+  "start": 1174.405,
+  "end": 1175.946,
+  "speaker": "Unknown",
+  "en": "Maybe used to be coders.",
+  "zh": "也许曾经是程序员。"
+ },
+ {
+  "seg": 223,
+  "start": 1175.966,
+  "end": 1190.018,
+  "speaker": "Unknown",
+  "en": "They're no longer maybe people who, you know, want to make videos, but never quite mastered the, you know, Pro Tools and Adobe Premiere or something else, where they're all of a sudden able to sign up for these things and take the ideas in their head and make them happen.",
+  "zh": "他们可能不再是……你知道,也许是那些想做视频、但从未真正掌握 Pro Tools 或 Adobe Premiere 之类工具的人,他们突然之间能够注册使用这些产品,把脑子里的想法变成现实。"
+ },
+ {
+  "seg": 224,
+  "start": 1190.038,
+  "end": 1193.701,
+  "speaker": "Unknown",
+  "en": "So I do think, you know, we're starting to see these rise up.",
+  "zh": "所以我确实认为,你知道,我们开始看到这些崛起了。"
+ },
+ {
+  "seg": 225,
+  "start": 1193.741,
+  "end": 1197.744,
+  "speaker": "Unknown",
+  "en": "And again, as you know, I look at all these numbers as we're still so early.",
+  "zh": "再说一次,你知道,我看所有这些数字,我们都还处于非常早期。"
+ },
+ {
+  "seg": 226,
+  "start": 1198.465,
+  "end": 1201.247,
+  "speaker": "Unknown",
+  "en": "And the fact that we're even here and that we're talking about how",
+  "zh": "而且我们甚至能坐在这里,谈论这些公司有多"
+ },
+ {
+  "seg": 227,
+  "start": 1202.108,
+  "end": 1206.572,
+  "speaker": "Unknown",
+  "en": "You know, big some of these companies are and that 1% of people are spending $900 a month.",
+  "zh": "你知道,规模有多大,有 1% 的人每月花 900 美元,"
+ },
+ {
+  "seg": 228,
+  "start": 1206.612,
+  "end": 1215.339,
+  "speaker": "Unknown",
+  "en": "Like I see these as harbingers of what's to come as more people feel empowered, as more people feel like they can create where it doesn't, it's not necessarily about saving time.",
+  "zh": "你知道吗,我把这些视为未来的预兆,随着更多人感到被赋能,随着更多人觉得自己能够去创造,而这不一定关乎节省时间。"
+ },
+ {
+  "seg": 229,
+  "start": 1215.379,
+  "end": 1218.521,
+  "speaker": "Unknown",
+  "en": "It's about spending the joy of like actually",
+  "zh": "它关乎的是花费时间的乐趣,真正"
+ },
+ {
+  "seg": 230,
+  "start": 1219.562,
+  "end": 1220.843,
+  "speaker": "Unknown",
+  "en": "Willing this thing into reality.",
+  "zh": "把这个东西召唤到现实中来。"
+ },
+ {
+  "seg": 231,
+  "start": 1220.863,
+  "end": 1231.45,
+  "speaker": "Unknown",
+  "en": "You know, there were all these jokes of, you know, when people were in this like the peak phase of everybody was using their open claw for the first time, their agents, they'd walk around with their computers and their laptops and they had to keep them open.",
+  "zh": "你知道,当大家都第一次使用他们的 open claw、他们的智能体时,人们处于那种高峰阶段,有过各种笑话:他们抱着电脑和笔记本到处走,必须保持开机状态。"
+ },
+ {
+  "seg": 232,
+  "start": 1231.85,
+  "end": 1233.311,
+  "speaker": "Unknown",
+  "en": "And they were like, I'm not sleeping.",
+  "zh": "他们说,我不睡觉。"
+ },
+ {
+  "seg": 233,
+  "start": 1233.611,
+  "end": 1237.213,
+  "speaker": "Unknown",
+  "en": "I'm coding and I'm making things, you know, more than I ever have.",
+  "zh": "我在写代码、在造东西,你知道,比以往任何时候都多。"
+ },
+ {
+  "seg": 234,
+  "start": 1237.333,
+  "end": 1244.538,
+  "speaker": "Unknown",
+  "en": "And I think that's starting to, you know, again, shows up at the top of the data, but I do think it's starting to show up sort of everywhere across this list.",
+  "zh": "而且我认为这开始……你知道,再一次,它在数据顶端有所体现,但我确实认为它开始在这份榜单的各个地方都有所体现。"
+ },
+ {
+  "seg": 235,
+  "start": 1244.978,
+  "end": 1258.205,
+  "speaker": "Unknown",
+  "en": "I actually don't necessarily want to see that 4.5% of people paying for AI products directly expand, which is maybe controversial because I'm like invested in consumer AI products and I'm a consumer AI maximalist.",
+  "zh": "实际上,我并不一定希望那 4.5% 直接为 AI 产品付费的人群比例继续扩大,这可能有争议,因为我投资消费级 AI 产品,而且我是个消费级 AI 最大化主义者。"
+ },
+ {
+  "seg": 236,
+  "start": 1258.766,
+  "end": 1260.386,
+  "speaker": "Unknown",
+  "en": "But the reason I say that is because",
+  "zh": "但我这么说是因为"
+ },
+ {
+  "seg": 237,
+  "start": 1261.647,
+  "end": 1266.648,
+  "speaker": "Unknown",
+  "en": "Substantially all of the consumer AI revenue thus far has come from direct subscriptions.",
+  "zh": "到目前为止,消费级 AI 的收入几乎全部来自直接订阅。"
+ },
+ {
+  "seg": 238,
+  "start": 1267.528,
+  "end": 1278.971,
+  "speaker": "Unknown",
+  "en": "Like on this list we looked and it was like, you know, 85% or something of our web list monetized via subscriptions, another 62% monetized via kind of credits or token extra usage payments.",
+  "zh": "比如在这份榜单上我们看了,大概 85% 左右的网页榜单产品通过订阅变现,另外 62% 左右通过积分或额外的 token 使用付费变现。"
+ },
+ {
+  "seg": 239,
+  "start": 1279.751,
+  "end": 1287.353,
+  "speaker": "Unknown",
+  "en": "Only like 13% had ads or other options where like you are the product instead of paying for the product.",
+  "zh": "只有大约 13% 有广告或其他选项,也就是你是产品本身而不是为产品付费。"
+ },
+ {
+  "seg": 240,
+  "start": 1287.833,
+  "end": 1288.613,
+  "speaker": "Unknown",
+  "en": "And that's like a",
+  "zh": "而这就像一个"
+ },
+ {
+  "seg": 241,
+  "start": 1289.553,
+  "end": 1294.537,
+  "speaker": "Unknown",
+  "en": "If you look back at the history of the consumer internet, that's like a pretty unnatural inversion.",
+  "zh": "如果你回顾消费互联网的历史,这是一个相当不自然的倒置。"
+ },
+ {
+  "seg": 242,
+  "start": 1294.758,
+  "end": 1306.668,
+  "speaker": "Unknown",
+  "en": "Like almost all of the really big consumer technology companies that we have now make the vast majority of their revenue from ads or from transaction fees, not from subscriptions.",
+  "zh": "因为我们现在几乎所有真正大的消费科技公司,其绝大部分收入都来自广告或交易手续费,而不是订阅。"
+ },
+ {
+  "seg": 243,
+  "start": 1307.168,
+  "end": 1308.589,
+  "speaker": "Unknown",
+  "en": "Because I think the truth of it is...",
+  "zh": "因为我认为真相是……"
+ },
+ {
+  "seg": 244,
+  "start": 1309.33,
+  "end": 1316.518,
+  "speaker": "Unknown",
+  "en": "Most similar to the fact that not everyone is looking for a coding tool to help them, you know, start a business or create and sell a product.",
+  "zh": "就像不是每个人都在寻找一个编程工具来帮助他们创业或创建并销售产品一样,"
+ },
+ {
+  "seg": 245,
+  "start": 1317.179,
+  "end": 1322.645,
+  "speaker": "Unknown",
+  "en": "Most people don't have the funds or don't want to spend their funds on software.",
+  "zh": "大多数人没有资金,或者不想把资金花在软件上。"
+ },
+ {
+  "seg": 246,
+  "start": 1324.107,
+  "end": 1329.132,
+  "speaker": "Unknown",
+  "en": "If you look at the top 20 consumer subscription products globally.",
+  "zh": "如果你看全球消费级订阅产品前 20 名。"
+ },
+ {
+  "seg": 247,
+  "start": 1329.773,
+  "end": 1333.737,
+  "speaker": "Unknown",
+  "en": "ChatGPT is already on there, which is crazy in like three and a half years of growth.",
+  "zh": "ChatGPT 已经在其中了,这在大约三年半的增长中来说非常疯狂。"
+ },
+ {
+  "seg": 248,
+  "start": 1334.138,
+  "end": 1344.809,
+  "speaker": "Unknown",
+  "en": "Almost all the other ones are media companies or big platforms like Amazon or even Uber, things like that, where you have a very frequent purchase behavior.",
+  "zh": "其他几乎所有都是媒体公司或大型平台,比如 Amazon 甚至 Uber 之类,那些是你有非常高频购买行为的地方。"
+ },
+ {
+  "seg": 249,
+  "start": 1345.369,
+  "end": 1348.152,
+  "speaker": "Unknown",
+  "en": "So I actually am a big believer that we need to move forward.",
+  "zh": "所以我实际上非常相信我们需要向前迈进。"
+ },
+ {
+  "seg": 250,
+  "start": 1348.535,
+  "end": 1354.076,
+  "speaker": "Unknown",
+  "en": "We have transcended the need for everyone to buy a subscription to AI and we need to see these other business models come back.",
+  "zh": "我们已经超越了需要每个人都购买 AI 订阅的阶段，我们需要看到其他商业模式回归。"
+ },
+ {
+  "seg": 251,
+  "start": 1354.396,
+  "end": 1357.377,
+  "speaker": "Unknown",
+  "en": "I think we're still at the early days of inference costs coming down.",
+  "zh": "我认为我们仍处于推理成本下降的早期阶段。"
+ },
+ {
+  "seg": 252,
+  "start": 1357.497,
+  "end": 1362.938,
+  "speaker": "Unknown",
+  "en": "We're still at the early days of people finding ways to run lower cost models to build great products.",
+  "zh": "我们仍处于人们寻找运行更低成本模型来构建出色产品的方法的早期阶段。"
+ },
+ {
+  "seg": 253,
+  "start": 1363.499,
+  "end": 1370.96,
+  "speaker": "Unknown",
+  "en": "And as they do that, you know, a lot of the other business models have always been on the internet from, you know, transaction fees and ads will finally start working.",
+  "zh": "而当他们这样做时，你知道，互联网上一直存在的许多其他商业模式，比如交易费和广告，终于会开始起作用。"
+ },
+ {
+  "seg": 254,
+  "start": 1371,
+  "end": 1372.421,
+  "speaker": "Unknown",
+  "en": "But we need that to happen.",
+  "zh": "但我们需要这件事发生。"
+ },
+ {
+  "seg": 255,
+  "start": 1372.661,
+  "end": 1372.821,
+  "speaker": "Unknown",
+  "en": "And...",
+  "zh": "还有……"
+ },
+ {
+  "seg": 256,
+  "start": 1373.621,
+  "end": 1384.455,
+  "speaker": "Unknown",
+  "en": "That's, I think, where we're still, you know, there's so much learning and so much that like, well, if it's going to cost me a lot to serve, at least let me just charge money so that people pay for it became sort of an early default.",
+  "zh": "我认为，我们仍然处于这种状态，你知道，有太多的学习过程，太多这样的事，比如，如果服务成本很高，那至少让我直接收钱让人们付费，这成了某种早期默认做法。"
+ },
+ {
+  "seg": 257,
+  "start": 1384.786,
+  "end": 1385.026,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 258,
+  "start": 1385.647,
+  "end": 1398.096,
+  "speaker": "Unknown",
+  "en": "I mean, you can probably speak to this from seeing many prior areas of the consumer internet, but like it used to be, at least for me as a consumer investor, if a company was making money in the first five years, it was like, whoa, what's happening?",
+  "zh": "我是说，从你观察消费互联网许多先前领域的经验来看，你可能可以谈谈这个，但过去的情况是，至少对我这样一个消费领域投资人来说，如果一家公司在头五年就开始赚钱，那会是：哇，这是怎么回事？"
+ },
+ {
+  "seg": 259,
+  "start": 1398.156,
+  "end": 1409.745,
+  "speaker": "Unknown",
+  "en": "The rule was like, let's build density of users and because they cost near zero to serve, we can then wait and make money via ads or start charging for transactions once we have liquidity and density.",
+  "zh": "那时候的规则是：我们先积累用户密度，因为服务成本接近于零，然后我们可以等着通过广告赚钱，或者等有了流动性和密度之后再开始对交易收费。"
+ },
+ {
+  "seg": 260,
+  "start": 1409.785,
+  "end": 1412.367,
+  "speaker": "Unknown",
+  "en": "And that just isn't the case given how high COGS are.",
+  "zh": "但鉴于 COGS（销货成本）这么高，情况已经不是这样了。"
+ },
+ {
+  "seg": 261,
+  "start": 1412.798,
+  "end": 1418.903,
+  "speaker": "Unknown",
+  "en": "You know, I think this cost thing is a really interesting challenge and companies get afraid of growing too fast.",
+  "zh": "你知道，我认为这个成本问题是一个非常有趣的挑战，公司会对增长太快感到害怕。"
+ },
+ {
+  "seg": 262,
+  "start": 1418.943,
+  "end": 1428.351,
+  "speaker": "Unknown",
+  "en": "Like they actually, if they grow too fast and they don't have meters on how they're charging for it, you can actually have out of control spend that can be very, very hard to manage.",
+  "zh": "比如它们实际上，如果增长太快，而且没有对收费方式进行计量，你真的可能出现失控的支出，那是非常非常难以管理的。"
+ },
+ {
+  "seg": 263,
+  "start": 1428.392,
+  "end": 1436.899,
+  "speaker": "Unknown",
+  "en": "So, you know, it's created this very different shape of what we see in the top apps in the top 100, you know, traffic and everything right now.",
+  "zh": "所以，你知道，这造成了我们在前 100 名头部应用中看到的非常不同的形态，流量和一切都如此。"
+ },
+ {
+  "seg": 264,
+  "start": 1437.279,
+  "end": 1439.401,
+  "speaker": "Unknown",
+  "en": "But again, this is again, we're all still so early.",
+  "zh": "但再说一次，我们所有人都还处于非常早期的阶段。"
+ },
+ {
+  "seg": 265,
+  "start": 1439.401,
+  "end": 1448.732,
+  "speaker": "Unknown",
+  "en": "There's so much to build and learn and bring costs down and bring value up and introduce advertising and introduce other ways to spend money.",
+  "zh": "有太多东西要去构建和学习，去降低成本、提升价值，引入广告，引入其他花钱的方式。"
+ },
+ {
+  "seg": 266,
+  "start": 1448.752,
+  "end": 1456.521,
+  "speaker": "Unknown",
+  "en": "And by the way, if it is, we subscribe to these services we love and that's actually what we get continual value from, that's amazing too.",
+  "zh": "顺便说一句，如果确实是，我们订阅了我们喜爱的服务，并且我们确实从中持续获得价值，那也是很棒的。"
+ },
+ {
+  "seg": 267,
+  "start": 1456.95,
+  "end": 1460.331,
+  "speaker": "Unknown",
+  "en": "I think this is a great transition to talk about ads.",
+  "zh": "我认为这是谈论广告的一个很好的过渡。"
+ },
+ {
+  "seg": 268,
+  "start": 1460.571,
+  "end": 1470.633,
+  "speaker": "Unknown",
+  "en": "Your Consumer Top 100 report had a really, really interesting fact in there, which was the run rate that OpenAI has reached through advertising.",
+  "zh": "你的 Consumer Top 100 报告里有一个非常非常有趣的事实，那就是 OpenAI 通过广告达到的运行率。"
+ },
+ {
+  "seg": 269,
+  "start": 1470.993,
+  "end": 1476.034,
+  "speaker": "Unknown",
+  "en": "They're at a billion dollars now in annual run rate on advertising.",
+  "zh": "他们现在的广告年化运行率已达 10 亿美元。"
+ },
+ {
+  "seg": 270,
+  "start": 1476.094,
+  "end": 1478.295,
+  "speaker": "Unknown",
+  "en": "And what does that tell us, you know?",
+  "zh": "而这告诉我们什么，你知道，？"
+ },
+ {
+  "seg": 271,
+  "start": 1478.315,
+  "end": 1484.756,
+  "speaker": "Unknown",
+  "en": "Again, the number was from August, and so there's probably a chance that it's reasonably higher even a month or so later.",
+  "zh": "再说一次，这个数字是八月份的，所以大概一个月之后这个数字可能已经高了不少。"
+ },
+ {
+  "seg": 272,
+  "start": 1485.256,
+  "end": 1490.561,
+  "speaker": "Unknown",
+  "en": "But they have been very slowly, I would say, rolling out ads with kind of a network of partners.",
+  "zh": "但他们一直在非常缓慢地，我要说，通过与合作伙伴的网络推出广告。"
+ },
+ {
+  "seg": 273,
+  "start": 1491.342,
+  "end": 1496.187,
+  "speaker": "Unknown",
+  "en": "And they're already at, you know, a billion, billion in annualized run rate.",
+  "zh": "而他们已经达到了，你知道，10 亿、10 亿美元的年化运行率。"
+ },
+ {
+  "seg": 274,
+  "start": 1496.207,
+  "end": 1502.553,
+  "speaker": "Unknown",
+  "en": "Like that would previously take a company years and years and years to get to even after launching an ads product.",
+  "zh": "换作以前，一家公司即使推出了广告产品，也要花上很多很多年才能达到这个水平。"
+ },
+ {
+  "seg": 275,
+  "start": 1503.193,
+  "end": 1505.035,
+  "speaker": "Unknown",
+  "en": "I think there's two interesting things there.",
+  "zh": "我认为这里有两件有趣的事。"
+ },
+ {
+  "seg": 276,
+  "start": 1505.135,
+  "end": 1506.596,
+  "speaker": "Unknown",
+  "en": "One, they have real density now.",
+  "zh": "第一，他们现在拥有真正的用户密度。"
+ },
+ {
+  "seg": 277,
+  "start": 1506.776,
+  "end": 1513.981,
+  "speaker": "Unknown",
+  "en": "So I think the last reported number a few days ago was 1.2 billion weekly active users, which is like a real density.",
+  "zh": "我记得几天前最后报告的数字是 12 亿周活跃用户，这是真正的密度。"
+ },
+ {
+  "seg": 278,
+  "start": 1514.482,
+  "end": 1520.487,
+  "speaker": "Unknown",
+  "en": "And then the second thing, and what I'm fascinated to see in terms of the evolution of the ads product is",
+  "zh": "然后第二件事，也是我在广告产品的演进中最着迷想看到的是"
+ },
+ {
+  "seg": 279,
+  "start": 1521.247,
+  "end": 1527.671,
+  "speaker": "Unknown",
+  "en": "Hypothetically, they should be able to charge more and have higher conversion rates because they just know so much more about you as a user.",
+  "zh": "假设性地，他们应该能够收更高的价格并获得更高的转化率，因为他们作为对用户的了解实在多得多。"
+ },
+ {
+  "seg": 280,
+  "start": 1528.312,
+  "end": 1531.614,
+  "speaker": "Unknown",
+  "en": "And ChatGPT has launched things like login with ChatGPT.",
+  "zh": "而且 ChatGPT 已经推出了诸如用 ChatGPT 登录之类的功能。"
+ },
+ {
+  "seg": 281,
+  "start": 1531.754,
+  "end": 1533.835,
+  "speaker": "Unknown",
+  "en": "I think a wallet is coming, things like that.",
+  "zh": "我认为钱包快来了，诸如此类。"
+ },
+ {
+  "seg": 282,
+  "start": 1534.536,
+  "end": 1543.521,
+  "speaker": "Unknown",
+  "en": "And so you could imagine that it becomes a much more compelling value prop for the advertisers.",
+  "zh": "所以你可以想象，它对广告主会成为一个有说服力得多的价值主张。"
+ },
+ {
+  "seg": 283,
+  "start": 1544.082,
+  "end": 1546.903,
+  "speaker": "Unknown",
+  "en": "And then that just like juices the ad business even more.",
+  "zh": "而这就会进一步给广告业务加料。"
+ },
+ {
+  "seg": 284,
+  "start": 1547.464,
+  "end": 1547.964,
+  "speaker": "Unknown",
+  "en": "But we'll see.",
+  "zh": "但我们拭目以待。"
+ },
+ {
+  "seg": 285,
+  "start": 1548.044,
+  "end": 1549.125,
+  "speaker": "Unknown",
+  "en": "It's very early days there.",
+  "zh": "那里还处于非常早期的阶段。"
+ },
+ {
+  "seg": 286,
+  "start": 1549.445,
+  "end": 1553.727,
+  "speaker": "Unknown",
+  "en": "It's early days and I think, you know, there have been some really funny conversations about ads and AI.",
+  "zh": "是早期阶段，而且我认为，你知道，关于广告和 AI 已经有过一些非常有趣的对话。"
+ },
+ {
+  "seg": 287,
+  "start": 1553.767,
+  "end": 1562.53,
+  "speaker": "Unknown",
+  "en": "If you are talking to this incredibly personal thing and then it's like, let me tell you about health and let me introduce you to this like crazy product that can help you, you know, lose weight fast.",
+  "zh": "如果你正在和这个极其个人化的东西交谈，然后它说：让我跟你说说健康，让我向你介绍这个能帮你，你知道，快速减肥的疯狂产品。"
+ },
+ {
+  "seg": 288,
+  "start": 1562.89,
+  "end": 1564.891,
+  "speaker": "Unknown",
+  "en": "Like that's not building trust with AI.",
+  "zh": "那不是在建立对 AI 的信任。"
+ },
+ {
+  "seg": 289,
+  "start": 1565.051,
+  "end": 1569.653,
+  "speaker": "Unknown",
+  "en": "And so I think the other really interesting thing is like, how do we as an ecosystem, these products are so different.",
+  "zh": "所以我认为另一件非常有趣的事是，作为生态系统，我们该如何应对，这些产品太不一样了。"
+ },
+ {
+  "seg": 290,
+  "start": 1569.673,
+  "end": 1571.974,
+  "speaker": "Unknown",
+  "en": "They're so much more personal than ever before.",
+  "zh": "它们比以往任何时候都个人化得多。"
+ },
+ {
+  "seg": 291,
+  "start": 1571.994,
+  "end": 1577.696,
+  "speaker": "Unknown",
+  "en": "They're giving you answers that are custom tailored to what you're doing and what you're asking about and what it knows about you.",
+  "zh": "它们给你的答案是量身定制的，针对你正在做的事、你在问什么，以及它对你的了解。"
+ },
+ {
+  "seg": 292,
+  "start": 1577.976,
+  "end": 1579.897,
+  "speaker": "Unknown",
+  "en": "That actually introducing ads has been done very deftly.",
+  "zh": "实际上，广告的引入一直做得很巧妙。"
+ },
+ {
+  "seg": 293,
+  "start": 1579.917,
+  "end": 1580.977,
+  "speaker": "Unknown",
+  "en": "I've actually been really impressed.",
+  "zh": "我实际上一直印象深刻。"
+ },
+ {
+  "seg": 294,
+  "start": 1581.117,
+  "end": 1581.337,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 295,
+  "start": 1581.357,
+  "end": 1582.958,
+  "speaker": "Unknown",
+  "en": "With the OpenAI rollout of ads.",
+  "zh": "对 OpenAI 广告的推出。"
+ },
+ {
+  "seg": 296,
+  "start": 1582.998,
+  "end": 1591.002,
+  "speaker": "Unknown",
+  "en": "When I've actually ever seen an ad, it's very clearly labeled and it actually feels like a natural add to the conversation that I'm having.",
+  "zh": "当我真的看到一条广告时，它有非常清晰的标注，而且实际上感觉像是和我正在进行的对话自然地融为一体。"
+ },
+ {
+  "seg": 297,
+  "start": 1591.362,
+  "end": 1597.665,
+  "speaker": "Unknown",
+  "en": "I think we're also, you know, one of the other shifts is people are starting to rely on, you know, ChatGPT a lot more for a lot more queries.",
+  "zh": "我认为我们还有，你知道，另一个转变是人们开始更多地依赖，你知道，ChatGPT 来处理更多的查询。"
+ },
+ {
+  "seg": 298,
+  "start": 1597.705,
+  "end": 1609.371,
+  "speaker": "Unknown",
+  "en": "It might've used to been like, look up a fact or tell me the history of this thing or help me with my homework, not necessarily problem solving and things we're advertising, but now people are going into it for real advice or shopping or trying to",
+  "zh": "过去可能是：查一个事实，或者告诉我这个东西的历史，或者帮我做作业，不一定是解决问题和我们会投放广告的场景，但现在人们会去那里寻求真正的建议，或者购物，或者试图"
+ },
+ {
+  "seg": 299,
+  "start": 1609.891,
+  "end": 1612.893,
+  "speaker": "Unknown",
+  "en": "Figure out exactly, you know, where they want to go or what they want to do.",
+  "zh": "弄清楚确切地，你知道，他们想去哪里或者想做什么。"
+ },
+ {
+  "seg": 300,
+  "start": 1612.913,
+  "end": 1619.158,
+  "speaker": "Unknown",
+  "en": "And those are great opportunities when you're in a discovery mode where ads are actually often a great answer to help you solve that.",
+  "zh": "而当你处于发现模式时,这些都是绝佳的机会,广告实际上往往是一个很好的答案,能帮你解决这个问题。"
+ },
+ {
+  "seg": 301,
+  "start": 1619.178,
+  "end": 1623.181,
+  "speaker": "Unknown",
+  "en": "And so a lot more of these commercial queries and these commercial intent creates that too.",
+  "zh": "而且更多这样的商业查询和商业意图也创造了这一点。"
+ },
+ {
+  "seg": 302,
+  "start": 1623.221,
+  "end": 1631.648,
+  "speaker": "Unknown",
+  "en": "But again, it has to be done very, very deftly, not this weird, interruptive, very personal experience I'm having that ads just get shoved into the conversation.",
+  "zh": "但话说回来,这必须做得非常非常巧妙,而不是这种怪异的、打断式的、非常私人的体验,把广告硬塞进对话里。"
+ },
+ {
+  "seg": 303,
+  "start": 1631.668,
+  "end": 1631.988,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 304,
+  "start": 1632.388,
+  "end": 1644.854,
+  "speaker": "Unknown",
+  "en": "I'd be I'd be super curious to how the unit economics on ads work like presumably it's a it's a lower cost question or lower cost compared to, you know, the coding or something like that or image gen.",
+  "zh": "我会……我会非常好奇广告的单位经济模型是怎么运作的,比如这应该是一个成本较低的问题,或者成本比,你知道的,编程之类的,或者图像生成要低。"
+ },
+ {
+  "seg": 305,
+  "start": 1645.834,
+  "end": 1654.158,
+  "speaker": "Unknown",
+  "en": "So so for OpenAI, you know, what what kinds of margins are they seeing on ads is a super interesting question.",
+  "zh": "所以对 OpenAI 来说,他们在广告上看到什么样的利润率,是一个非常有趣的问题。"
+ },
+ {
+  "seg": 306,
+  "start": 1654.218,
+  "end": 1654.398,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 307,
+  "start": 1655.019,
+  "end": 1658.825,
+  "speaker": "Unknown",
+  "en": "I'm curious also, Josh, but what kind of ads do you see?",
+  "zh": "我也很好奇,Josh,你看到的是什么样的广告?"
+ },
+ {
+  "seg": 308,
+  "start": 1658.845,
+  "end": 1660.468,
+  "speaker": "Unknown",
+  "en": "Because I don't get any ads.",
+  "zh": "因为我完全没有收到广告。"
+ },
+ {
+  "seg": 309,
+  "start": 1660.508,
+  "end": 1661.951,
+  "speaker": "Unknown",
+  "en": "I guess I use enterprise.",
+  "zh": "我猜我用的是企业版。"
+ },
+ {
+  "seg": 310,
+  "start": 1661.971,
+  "end": 1662.732,
+  "speaker": "Unknown",
+  "en": "You're on a pro plan, yeah.",
+  "zh": "你用的是 Pro 套餐,是的。"
+ },
+ {
+  "seg": 311,
+  "start": 1662.752,
+  "end": 1663.413,
+  "speaker": "Unknown",
+  "en": "So we don't, yeah.",
+  "zh": "所以我们没有,是的。"
+ },
+ {
+  "seg": 312,
+  "start": 1666.46,
+  "end": 1682.239,
+  "speaker": "Unknown",
+  "en": "You know, I was doing a bunch of travel research recently and was going to be in New York for a few days and I just started seeing some ads for a couple things that were going on in New York that I might have wanted to do and I just found that really useful and like I've started using it more for commercial shopping.",
+  "zh": "你知道,我最近在做一大堆旅行调研,要去纽约待几天,然后我开始看到一些关于纽约正在发生的、我可能想去做的事情的广告,我真的觉得这很有用,而且我越来越开始把它用于商业购物了。"
+ },
+ {
+  "seg": 313,
+  "start": 1682.279,
+  "end": 1683.821,
+  "speaker": "Unknown",
+  "en": "I was looking for a special",
+  "zh": "我当时在找一个特别的"
+ },
+ {
+  "seg": 314,
+  "start": 1685.042,
+  "end": 1688.085,
+  "speaker": "Unknown",
+  "en": "Keychain that would have a really easy separation for a valet key.",
+  "zh": "钥匙扣,要有一个非常方便的分离结构,用于代客钥匙。"
+ },
+ {
+  "seg": 315,
+  "start": 1688.805,
+  "end": 1691.327,
+  "speaker": "Unknown",
+  "en": "And I was having trouble finding this actually on Google.",
+  "zh": "而且我实际上在 Google 上很难找到这个东西。"
+ },
+ {
+  "seg": 316,
+  "start": 1691.487,
+  "end": 1693.569,
+  "speaker": "Unknown",
+  "en": "And I finally was like, let me just go ask ChatGPT.",
+  "zh": "最后我心想,让我去问问 ChatGPT 吧。"
+ },
+ {
+  "seg": 317,
+  "start": 1693.609,
+  "end": 1697.693,
+  "speaker": "Unknown",
+  "en": "And I went back and forth and I was describing what I wanted and start giving me some really good examples.",
+  "zh": "我来回交流,描述我想要什么,它开始给我一些非常好的例子。"
+ },
+ {
+  "seg": 318,
+  "start": 1697.713,
+  "end": 1698.633,
+  "speaker": "Unknown",
+  "en": "And at the end, I was like, great.",
+  "zh": "到最后,我说,太好了。"
+ },
+ {
+  "seg": 319,
+  "start": 1698.653,
+  "end": 1700.355,
+  "speaker": "Unknown",
+  "en": "And I'd also love one that's made in America.",
+  "zh": "我还想要一个美国制造的。"
+ },
+ {
+  "seg": 320,
+  "start": 1700.755,
+  "end": 1709.722,
+  "speaker": "Unknown",
+  "en": "And I actually found this incredible like option from a factory in Detroit that often makes a lot of other metal work and other stuff that had this like really cool key for me.",
+  "zh": "然后我真的找到了一个令人难以置信的选择,来自底特律的一家工厂,他们经常做很多其他的金属加工之类的东西,为我找到了这个非常酷的钥匙扣。"
+ },
+ {
+  "seg": 321,
+  "start": 1709.842,
+  "end": 1724.734,
+  "speaker": "Unknown",
+  "en": "And it was one of those things that if I had never had that chance to really go back and forth and actually have that conversation, and if there had been other ads, no ads were presented in that conversation, but it was entirely open for ads that they would have helped me find stuff.",
+  "zh": "而这就是那种,如果我从来没有机会真正地来回交流、进行那样的对话,而且如果那里有其他广告——那段对话里没有呈现任何广告,但它完全对广告开放——它们本可以帮我找到东西。"
+ },
+ {
+  "seg": 322,
+  "start": 1724.774,
+  "end": 1726.075,
+  "speaker": "Unknown",
+  "en": "And eventually I went to this website.",
+  "zh": "后来我去了那个网站。"
+ },
+ {
+  "seg": 323,
+  "start": 1726.115,
+  "end": 1727.676,
+  "speaker": "Unknown",
+  "en": "I had never heard of that company before.",
+  "zh": "我以前从没听说过那家公司。"
+ },
+ {
+  "seg": 324,
+  "start": 1728.197,
+  "end": 1729.838,
+  "speaker": "Unknown",
+  "en": "And it was a great experience.",
+  "zh": "而且那是一次很棒的体验。"
+ },
+ {
+  "seg": 325,
+  "start": 1730.098,
+  "end": 1730.839,
+  "speaker": "Unknown",
+  "en": "So interesting.",
+  "zh": "真有意思。"
+ },
+ {
+  "seg": 326,
+  "start": 1731.1,
+  "end": 1743.716,
+  "speaker": "Unknown",
+  "en": "I feel like we may see, as they lean into it, OpenAI being able to do crazy good targeting, like even better than I think Meta, which previously was like best in class for this, just because they knew so much about you.",
+  "zh": "我觉得我们可能会看到,随着他们深入投入,OpenAI 能够做到非常厉害的定向投放,甚至比 Meta 还要好——Meta 以前在这方面算是顶级的,就是因为他们对你了解太多了。"
+ },
+ {
+  "seg": 327,
+  "start": 1743.756,
+  "end": 1746.219,
+  "speaker": "Unknown",
+  "en": "But like, you're having this live conversation with them.",
+  "zh": "但这可是,你正在和他们进行实时对话啊。"
+ },
+ {
+  "seg": 328,
+  "start": 1746.92,
+  "end": 1757.491,
+  "speaker": "Unknown",
+  "en": "I do think that it'll help ChatGPT, but also I think it will also support a lot of these more focused, almost verticalized, to use the enterprise term, consumer AI products.",
+  "zh": "我确实认为这会帮助 ChatGPT,但我也认为它还会支持很多这些更专注的、用企业术语说几乎算垂直化的消费级 AI 产品。"
+ },
+ {
+  "seg": 329,
+  "start": 1757.511,
+  "end": 1764.899,
+  "speaker": "Unknown",
+  "en": "So another company that has seen early success in ads is OpenEvidence, which is an AI product for doctors.",
+  "zh": "所以另一家在广告上看到早期成功的公司是 OpenEvidence,这是一个面向医生的 AI 产品。"
+ },
+ {
+  "seg": 330,
+  "start": 1765.52,
+  "end": 1772.882,
+  "speaker": "Unknown",
+  "en": "And it already has 50, I think the most recent numbers were 50 to 60 percent density of all U.S. physicians on the product.",
+  "zh": "它已经有 50——我记得最新的数字是——全美医生 50% 到 60% 的渗透率在使用这个产品。"
+ },
+ {
+  "seg": 331,
+  "start": 1773.443,
+  "end": 1782.486,
+  "speaker": "Unknown",
+  "en": "And so when you have that kind of density of a really valuable audience and it's like a targeted audience because you know they're physicians, you can, I think, advertise really effectively.",
+  "zh": "所以当你拥有这样一个高价值受众的渗透密度,而且它是一个定向受众,因为你知道他们是医生,我认为你可以非常有效地投放广告。"
+ },
+ {
+  "seg": 332,
+  "start": 1782.646,
+  "end": 1785.827,
+  "speaker": "Unknown",
+  "en": "And there will be and should be more of those, I think.",
+  "zh": "而且会有——也应该有——更多这样的产品,我认为。"
+ },
+ {
+  "seg": 333,
+  "start": 1786.887,
+  "end": 1800.836,
+  "speaker": "Unknown",
+  "en": "Is it worth talking and taking a step back and talking about OpenAI, Anthropic, and Gemini and sort of these are companies, these are labs that have been on the list pretty much since the beginning.",
+  "zh": "值不值得退一步谈谈 OpenAI、Anthropic 和 Gemini,以及这些公司、这些实验室,基本上从榜单一开始就一直在榜上?"
+ },
+ {
+  "seg": 334,
+  "start": 1802.037,
+  "end": 1807.98,
+  "speaker": "Unknown",
+  "en": "Are we seeing any kind of evolution in the way people are paying for these products?",
+  "zh": "我们有没有看到人们为这些产品付费的方式有什么演变?"
+ },
+ {
+  "seg": 335,
+  "start": 1808.22,
+  "end": 1811.843,
+  "speaker": "Unknown",
+  "en": "What can we surmise about the different kinds of users of all three?",
+  "zh": "对于这三家的不同类型的用户,我们可以推断出什么?"
+ },
+ {
+  "seg": 336,
+  "start": 1812.723,
+  "end": 1815.085,
+  "speaker": "Unknown",
+  "en": "Super, super curious what you're seeing.",
+  "zh": "我非常非常好奇你看到了什么。"
+ },
+ {
+  "seg": 337,
+  "start": 1815.285,
+  "end": 1815.485,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 338,
+  "start": 1815.685,
+  "end": 1816.185,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 339,
+  "start": 1817.606,
+  "end": 1826.09,
+  "speaker": "Unknown",
+  "en": "From the very first time we did this report, the main conclusion was like ChatGPT is the dominant global user by both usage and revenue on the consumer side.",
+  "zh": "从我们第一次做这个报告开始,主要结论就是 ChatGPT 是全球占主导地位的用户产品,在消费端无论是使用量还是收入都是。"
+ },
+ {
+  "seg": 340,
+  "start": 1826.65,
+  "end": 1827.871,
+  "speaker": "Unknown",
+  "en": "That continues to be true.",
+  "zh": "这一点仍然是成立的。"
+ },
+ {
+  "seg": 341,
+  "start": 1828.591,
+  "end": 1832.833,
+  "speaker": "Unknown",
+  "en": "Everything below ChatGPT has seen, I think, more movements and more shakeups.",
+  "zh": "ChatGPT 之下的所有产品,我认为,经历了更多的变动和更多的洗牌。"
+ },
+ {
+  "seg": 342,
+  "start": 1832.853,
+  "end": 1841.878,
+  "speaker": "Unknown",
+  "en": "So ChatGPT is now ahead of Claude around 6x on the web, around 2x ahead of Gemini on the web.",
+  "zh": "所以 ChatGPT 现在在网页端领先 Claude 约 6 倍,在网页端领先 Gemini 约 2 倍。"
+ },
+ {
+  "seg": 343,
+  "start": 1842.718,
+  "end": 1852.308,
+  "speaker": "Unknown",
+  "en": "Probably going forward, given a lot of the usage is concentrated in these power users who are paying, the revenue numbers could be even more useful here.",
+  "zh": "往前看,考虑到很多使用量集中在这些付费的超级用户身上,收入数字在这里可能更有参考价值。"
+ },
+ {
+  "seg": 344,
+  "start": 1852.328,
+  "end": 1859.035,
+  "speaker": "Unknown",
+  "en": "And probably that's one of the biggest surprises to me in this report was we got a panel of U.S. spenders",
+  "zh": "而这可能是这份报告中让我最惊讶的一点之一:我们拿到了一组美国付费用户的样本,"
+ },
+ {
+  "seg": 345,
+  "start": 1859.875,
+  "end": 1870.221,
+  "speaker": "Unknown",
+  "en": "And Claude has actually passed Gemini in terms of number of paid subscribers, which is kind of crazy given Gemini has a much bigger install base and user base overall.",
+  "zh": "Claude 在付费订阅者数量上实际上已经超过了 Gemini,这有点疯狂,因为 Gemini 的整体安装量和用户基数要大得多。"
+ },
+ {
+  "seg": 346,
+  "start": 1870.261,
+  "end": 1874.123,
+  "speaker": "Unknown",
+  "en": "And it also has like the natural distribution mechanism of something like a Google.",
+  "zh": "而且它还拥有像 Google 这样的天然分发机制。"
+ },
+ {
+  "seg": 347,
+  "start": 1875.884,
+  "end": 1879.168,
+  "speaker": "Unknown",
+  "en": "I think that's a big accomplishment, of course, for Anthropic.",
+  "zh": "我认为这对 Anthropic 来说当然是一个巨大的成就。"
+ },
+ {
+  "seg": 348,
+  "start": 1879.208,
+  "end": 1886.135,
+  "speaker": "Unknown",
+  "en": "I think it's come on the wave of a bunch of very successful products that they've launched over the last few months, like Claude Design.",
+  "zh": "我认为这是乘着他们过去几个月推出的一系列非常成功产品的浪潮,比如 Claude Design。"
+ },
+ {
+  "seg": 349,
+  "start": 1886.975,
+  "end": 1893.062,
+  "speaker": "Unknown",
+  "en": "It's also come from a lot more press that they've had, starting with the Department of War stuff all the way back in, I think it was February.",
+  "zh": "这也来自他们获得的更多媒体报道,从国防部的事情开始,一直追溯到,我记得是二月份。"
+ },
+ {
+  "seg": 350,
+  "start": 1894.563,
+  "end": 1901.528,
+  "speaker": "Unknown",
+  "en": "The other main difference, I would say, in how these products are monetizing, and again, ChatGPT is still far in the lead by monetization.",
+  "zh": "我认为，另一个主要区别在于这些产品的变现方式，再次强调，ChatGPT 在变现方面仍然遥遥领先。"
+ },
+ {
+  "seg": 351,
+  "start": 1901.548,
+  "end": 1906.452,
+  "speaker": "Unknown",
+  "en": "They have around three times more paid consumer subscribers in the U.S. than both Gemini and Claude.",
+  "zh": "他们在美国的付费消费者订阅用户数量大约是 Gemini 和 Claude 两者的三倍。"
+ },
+ {
+  "seg": 352,
+  "start": 1907.793,
+  "end": 1910.935,
+  "speaker": "Unknown",
+  "en": "But Anthropic has said very famously, no ads.",
+  "zh": "但 Anthropic 有句名言：不做广告。"
+ },
+ {
+  "seg": 353,
+  "start": 1911.416,
+  "end": 1913.857,
+  "speaker": "Unknown",
+  "en": "So they're much more aggressive about subscription.",
+  "zh": "所以他们在订阅方面激进得多。"
+ },
+ {
+  "seg": 354,
+  "start": 1914.438,
+  "end": 1920.983,
+  "speaker": "Unknown",
+  "en": "They have around 7.5% of subscribers on the $100 plus per month, like the max plan.",
+  "zh": "他们大约有 7.5% 的订阅用户是在每月 100 美元以上的档次，比如 max plan。"
+ },
+ {
+  "seg": 355,
+  "start": 1921.543,
+  "end": 1924.385,
+  "speaker": "Unknown",
+  "en": "And that's like 1% for both ChatGPT and Gemini.",
+  "zh": "而 ChatGPT 和 Gemini 两家都只有大约 1%。"
+ },
+ {
+  "seg": 356,
+  "start": 1924.405,
+  "end": 1929.948,
+  "speaker": "Unknown",
+  "en": "And so those users naturally look different and are doing different things on the product, even in that paid user base.",
+  "zh": "所以即使用户都在付费用户群体里，这些用户自然看起来也不同，在产品上做的事情也不同。"
+ },
+ {
+  "seg": 357,
+  "start": 1930.629,
+  "end": 1932.85,
+  "speaker": "Unknown",
+  "en": "Should we talk about creative tools?",
+  "zh": "我们应该聊聊创意工具吗？"
+ },
+ {
+  "seg": 358,
+  "start": 1933.19,
+  "end": 1940.034,
+  "speaker": "Unknown",
+  "en": "And I think one thing that's interesting is actually all of the big labs have gotten really good at creative tools.",
+  "zh": "我觉得有一件很有意思的事，实际上所有大实验室在创意工具方面都变得非常强。"
+ },
+ {
+  "seg": 359,
+  "start": 1940.595,
+  "end": 1944.297,
+  "speaker": "Unknown",
+  "en": "And one thing that actually like Anthropic kind of",
+  "zh": "而实际上有一件事 Anthropic 有点"
+ },
+ {
+  "seg": 360,
+  "start": 1944.637,
+  "end": 1950.92,
+  "speaker": "Unknown",
+  "en": "Famously abstained from, but then somehow achieves anyway was like creating an image model or video model.",
+  "zh": "出名地放弃了，但后来却又以某种方式实现了，那就是创建图像模型或视频模型。"
+ },
+ {
+  "seg": 361,
+  "start": 1951.28,
+  "end": 1959.024,
+  "speaker": "Unknown",
+  "en": "But now people are making images and videos because coding is so good at creating like images and videos.",
+  "zh": "但现在人们正在制作图像和视频，因为编码已经非常擅长创建图像和视频了。"
+ },
+ {
+  "seg": 362,
+  "start": 1960.045,
+  "end": 1962.666,
+  "speaker": "Unknown",
+  "en": "So it's interesting that, you know, they didn't",
+  "zh": "所以很有意思的是，你知道，他们没有"
+ },
+ {
+  "seg": 363,
+  "start": 1963.206,
+  "end": 1968.427,
+  "speaker": "Unknown",
+  "en": "To build a diffusion model, yeah, they're still capable of doing ImageGen.",
+  "zh": "去构建扩散模型，是的，他们仍然有能力做 ImageGen。"
+ },
+ {
+  "seg": 364,
+  "start": 1968.567,
+  "end": 1976.889,
+  "speaker": "Unknown",
+  "en": "But about the pure creative tools, the companies that have kind of like verticalized in that category, what are we seeing?",
+  "zh": "但关于纯创意工具，那些在这个类别里某种程度上垂直化了的公司，我们看到了什么？"
+ },
+ {
+  "seg": 365,
+  "start": 1977.329,
+  "end": 1981.71,
+  "speaker": "Unknown",
+  "en": "Creative tools is very interestingly distributed in terms of who is succeeding where.",
+  "zh": "创意工具在谁在哪里成功的分布上非常有趣。"
+ },
+ {
+  "seg": 366,
+  "start": 1982.291,
+  "end": 1992.553,
+  "speaker": "Unknown",
+  "en": "So there's a few categories of creative tools or maybe modalities is the better term where the labs have not focused energy and attention for many reasons we could discuss.",
+  "zh": "所以有几类创意工具，或者也许“模态”是更合适的说法，实验室出于许多我们可以讨论的原因，没有把精力和注意力放在上面。"
+ },
+ {
+  "seg": 367,
+  "start": 1993.473,
+  "end": 1997.176,
+  "speaker": "Unknown",
+  "en": "A lot of those are around audio, so like text-to-speech, music.",
+  "zh": "其中很多都围绕音频，比如文本转语音、音乐。"
+ },
+ {
+  "seg": 368,
+  "start": 1997.837,
+  "end": 2005.883,
+  "speaker": "Unknown",
+  "en": "Eleven Labs and Suno are now very reliably near the top of our traffic lists and are also ranked very highly in our spend list.",
+  "zh": "Eleven Labs 和 Suno 现在非常稳定地位于我们流量榜的顶端附近，而且在我们的消费榜上也排名非常高。"
+ },
+ {
+  "seg": 369,
+  "start": 2006.163,
+  "end": 2008.044,
+  "speaker": "Unknown",
+  "en": "The labs have so many things to do.",
+  "zh": "实验室有太多事情要做。"
+ },
+ {
+  "seg": 370,
+  "start": 2008.224,
+  "end": 2009.485,
+  "speaker": "Unknown",
+  "en": "They're building coding agents.",
+  "zh": "他们在构建编码智能体。"
+ },
+ {
+  "seg": 371,
+  "start": 2009.505,
+  "end": 2010.906,
+  "speaker": "Unknown",
+  "en": "They're building AGI.",
+  "zh": "他们在构建 AGI。"
+ },
+ {
+  "seg": 372,
+  "start": 2011.267,
+  "end": 2018.212,
+  "speaker": "Unknown",
+  "en": "Does it make sense at this point for them to deal with all of the IP headaches that Suno has had to go through and launch a competing music model?",
+  "zh": "在这个节点上，让他们去处理 Suno 经历过的所有 IP 头疼问题，并推出一个竞争性的音乐模型，说得通吗？"
+ },
+ {
+  "seg": 373,
+  "start": 2018.872,
+  "end": 2019.293,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 374,
+  "start": 2019.533,
+  "end": 2022.635,
+  "speaker": "Unknown",
+  "en": "And in the meantime, Suno has been able to kind of run away with a really strong",
+  "zh": "与此同时，Suno 已经能够带着一个非常强的优势一骑绝尘"
+ },
+ {
+  "seg": 375,
+  "start": 2022.635,
+  "end": 2030.917,
+  "speaker": "Unknown",
+  "en": "And, you know, I'm a big believer that, you know, the labs are going to do what they're going to do and they're going to keep growing and they obviously are great baselines for everything.",
+  "zh": "而且你知道，我非常相信，实验室会做他们会做的事，他们会继续增长，而且他们显然是所有一切的很棒的基线。"
+ },
+ {
+  "seg": 376,
+  "start": 2030.957,
+  "end": 2039.379,
+  "speaker": "Unknown",
+  "en": "But in so many of these markets, you're seeing really specialized products that are really focused, knowing who their audience is and what they're doing, that's able to build really custom things.",
+  "zh": "但在这么多这样的市场里，你看到的是真正专注的产品，非常聚焦，知道他们的受众是谁、他们在做什么，能够构建非常定制化的东西。"
+ },
+ {
+  "seg": 377,
+  "start": 2039.399,
+  "end": 2043.34,
+  "speaker": "Unknown",
+  "en": "You know, if you want to make music just for fun or for something that you're really producing.",
+  "zh": "你知道，如果你想只是为了好玩做音乐，或者为了你真正在制作的东西。"
+ },
+ {
+  "seg": 378,
+  "start": 2043.72,
+  "end": 2048.164,
+  "speaker": "Unknown",
+  "en": "Suno is an incredible tool and it speaks to you from the moment you start using it through the end.",
+  "zh": "Suno 是一个令人难以置信的工具，从你开始使用它的那一刻到结束，它都在与你对话。"
+ },
+ {
+  "seg": 379,
+  "start": 2048.184,
+  "end": 2052.789,
+  "speaker": "Unknown",
+  "en": "You know, 11 labs if you need voice and audio within the product that you're making.",
+  "zh": "你知道，如果你需要在你正在做的产品里使用语音和音频，那就是 11 labs。"
+ },
+ {
+  "seg": 380,
+  "start": 2052.829,
+  "end": 2057.153,
+  "speaker": "Unknown",
+  "en": "It just has a way of working and interacting with it that feels completely different.",
+  "zh": "它有一种运作和交互的方式，感觉完全不同。"
+ },
+ {
+  "seg": 381,
+  "start": 2057.173,
+  "end": 2058.795,
+  "speaker": "Unknown",
+  "en": "When you look at a bunch of the video tools,",
+  "zh": "当你看一堆视频工具时，"
+ },
+ {
+  "seg": 382,
+  "start": 2059.295,
+  "end": 2067.197,
+  "speaker": "Unknown",
+  "en": "You know, when you look at design tools, even like Figma, like they're so designed to use deeply for the thing you're trying to express yourself.",
+  "zh": "你知道，当你看设计工具时，甚至像 Figma，它们被设计成让你深入使用来表达你想表达的东西。"
+ },
+ {
+  "seg": 383,
+  "start": 2067.237,
+  "end": 2072.799,
+  "speaker": "Unknown",
+  "en": "And it speaks to designers, not to people who, you know, want to just skip that step.",
+  "zh": "它面向的是设计师，而不是那些你知道只想跳过那一步的人。"
+ },
+ {
+  "seg": 384,
+  "start": 2073.199,
+  "end": 2085.123,
+  "speaker": "Unknown",
+  "en": "And I think we're going to see so much more value from these really bespoke interfaces where the software layer of all the things you can do and the things you save and the way you interact with it become really where the value sits, not just the models.",
+  "zh": "而且我认为我们会从这些真正定制的界面中看到更多的价值，其中软件层——你能做的所有事情、你保存的东西、你与它交互的方式——成为价值真正所在之处，而不仅仅是模型。"
+ },
+ {
+  "seg": 385,
+  "start": 2085.203,
+  "end": 2085.503,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 386,
+  "start": 2085.663,
+  "end": 2091.968,
+  "speaker": "Unknown",
+  "en": "So this is the second category, I think, of creative tools, which is images and video that looks different from audio.",
+  "zh": "所以这是创意工具的第二个类别，我认为，就是图像和视频，它们看起来与音频不同。"
+ },
+ {
+  "seg": 387,
+  "start": 2092.628,
+  "end": 2098.092,
+  "speaker": "Unknown",
+  "en": "On images, I think, to your point, like, OpenAI has really leaned into images quite successfully.",
+  "zh": "在图像方面，我觉得，正如你所说，OpenAI 已经相当成功地大力投入了图像。"
+ },
+ {
+  "seg": 388,
+  "start": 2098.272,
+  "end": 2102.215,
+  "speaker": "Unknown",
+  "en": "Like, Images 2.0 is very, very good, both for image creation and editing.",
+  "zh": "比如，Images 2.0 非常非常好，无论是图像创建还是编辑。"
+ },
+ {
+  "seg": 389,
+  "start": 2102.675,
+  "end": 2106.858,
+  "speaker": "Unknown",
+  "en": "And then, of course, Google with the various iterations of Nano, Banana, and Bio.",
+  "zh": "然后，当然，还有 Google 的各种迭代的 Nano、Banana 和 Bio。"
+ },
+ {
+  "seg": 390,
+  "start": 2107.499,
+  "end": 2114.724,
+  "speaker": "Unknown",
+  "en": "I think they have candidly taken away a lot of the high-level consumer traffic that was previously going to these standalone image generators.",
+  "zh": "我坦白说，我认为他们已经夺走了之前流向这些独立图像生成器的大量高端消费者流量。"
+ },
+ {
+  "seg": 391,
+  "start": 2115.645,
+  "end": 2118.888,
+  "speaker": "Unknown",
+  "en": "So like MidJourney was fairly high on our first ever rankings.",
+  "zh": "比如 MidJourney 在我们的有史以来第一次排名中相当靠前。"
+ },
+ {
+  "seg": 392,
+  "start": 2118.948,
+  "end": 2121.41,
+  "speaker": "Unknown",
+  "en": "It has fallen off the traffic rankings completely.",
+  "zh": "它已经完全从流量排名中消失了。"
+ },
+ {
+  "seg": 393,
+  "start": 2121.57,
+  "end": 2126.695,
+  "speaker": "Unknown",
+  "en": "But to your point in power users, if you look at the revenue rankings, MidJourney is back.",
+  "zh": "但正如你所说，在高级用户方面，如果你看收入排名，MidJourney 回来了。"
+ },
+ {
+  "seg": 394,
+  "start": 2127.195,
+  "end": 2135.823,
+  "speaker": "Unknown",
+  "en": "So people, the power users still want the model that they feel has taste, has an aesthetic sense, and that they're able to tune in a really specific way.",
+  "zh": "所以人们，高级用户仍然想要那个他们觉得有品味、有美学感觉、并且能够以非常特定的方式进行调校的模型。"
+ },
+ {
+  "seg": 395,
+  "start": 2137.164,
+  "end": 2139.586,
+  "speaker": "Unknown",
+  "en": "And then that brings us to video, which to me is kind of like",
+  "zh": "然后这就把我们带到了视频，对我而言，这有点像"
+ },
+ {
+  "seg": 396,
+  "start": 2140.427,
+  "end": 2148.652,
+  "speaker": "Unknown",
+  "en": "A wild frontier right now because Chinese companies that can train on any data and do have a real advantage.",
+  "zh": "现在的一片荒野边疆，因为可以在中国用任何数据训练的中国公司确实拥有真正的优势。"
+ },
+ {
+  "seg": 397,
+  "start": 2148.812,
+  "end": 2160.92,
+  "speaker": "Unknown",
+  "en": "Video is just so complex to generate with like the visual, the sound, the visual and the sound synced and looking a specific way that I think like the more data you have to train the better.",
+  "zh": "视频的生成实在太复杂了，比如视觉、声音、视觉和声音的同步，以及呈现特定的样子，所以我认为训练数据越多越好。"
+ },
+ {
+  "seg": 398,
+  "start": 2160.94,
+  "end": 2162.981,
+  "speaker": "Unknown",
+  "en": "They've been successful there thus far.",
+  "zh": "他们迄今为止在那里一直很成功。"
+ },
+ {
+  "seg": 399,
+  "start": 2164.242,
+  "end": 2176.37,
+  "speaker": "Unknown",
+  "en": "I think more broadly in creative tools, I'd be curious if either of you have experienced this, but I have recently been asking Astra and other really powerful models to generate or create, generate or edit creative for me.",
+  "zh": "更广泛地说，在创意工具方面，我很好奇你们两位是否经历过这个，但我最近一直在让 Astra 和其他非常强大的模型为我生成或创建、生成或编辑创意内容。"
+ },
+ {
+  "seg": 400,
+  "start": 2176.91,
+  "end": 2180.933,
+  "speaker": "Unknown",
+  "en": "And it does a very, very good job and it will go tool call to elsewhere on the internet.",
+  "zh": "而且它做得非常非常出色，它会通过工具调用去互联网上的其他地方。"
+ },
+ {
+  "seg": 401,
+  "start": 2181.053,
+  "end": 2189.278,
+  "speaker": "Unknown",
+  "en": "And so I think that creative tools that are agent friendly and agent accessible are going to increasingly see really compelling tailwinds.",
+  "zh": "所以我认为那些对智能体友好、智能体可访问的创意工具，将会越来越看到非常有说服力的顺风。"
+ },
+ {
+  "seg": 402,
+  "start": 2189.518,
+  "end": 2198.483,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, it's actually crazy what you can do if you just, like, empower an agent and just say, like, yeah, install whatever you want to install.",
+  "zh": "是啊，是啊，其实只要赋能一个智能体，直接说，比如，想装什么就装什么，你能做到的事情就已经疯狂到不可思议了。"
+ },
+ {
+  "seg": 403,
+  "start": 2199.503,
+  "end": 2209.728,
+  "speaker": "Unknown",
+  "en": "I had it, I actually had Astra and 5.5 go, like, head-to-head and animating some stuff for me, and, like, it was just, like, it knew exactly what to do.",
+  "zh": "我让——其实我让 Astra 和 5.5 正面较量过，帮我做一些动画，结果它就是完全知道该怎么做。"
+ },
+ {
+  "seg": 404,
+  "start": 2209.808,
+  "end": 2211.329,
+  "speaker": "Unknown",
+  "en": "It's like, yeah, so...",
+  "zh": "就是那种，对，所以……"
+ },
+ {
+  "seg": 405,
+  "start": 2211.569,
+  "end": 2227.738,
+  "speaker": "Unknown",
+  "en": "And what I love about this is, you know, this is the tinkerers, the people at the edge are figuring out these capabilities and we're going to build products over the next year that are going to show up on these lists because they're going to take all of this complexity of what you can do and package it up in a way that makes it really easy to use.",
+  "zh": "而我最喜欢这一点的地方在于，你知道，是那些动手折腾的人、处在边缘的人在摸索出这些能力，而我们接下来一年要打造的产品将会出现在这些榜单上，因为它们会把你能做的所有这些复杂性打包成一种非常易用的形式。"
+ },
+ {
+  "seg": 406,
+  "start": 2227.778,
+  "end": 2228.458,
+  "speaker": "Unknown",
+  "en": "And like that's this",
+  "zh": "就像这就是这个"
+ },
+ {
+  "seg": 407,
+  "start": 2228.678,
+  "end": 2241.622,
+  "speaker": "Unknown",
+  "en": "You know, when I think of this gap of like all AI versus consumer AI, it's exactly this movement of packaging these up and building great product experiences that really turns it into these things that sustain.",
+  "zh": "你知道，当我想到这个「B2B AI 与消费级 AI」之间的差距时，正是这种把这些东西打包、打造出色产品体验的运动，才真正让它们成为可持续存在的东西。"
+ },
+ {
+  "seg": 408,
+  "start": 2241.962,
+  "end": 2242.222,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 409,
+  "start": 2242.542,
+  "end": 2242.743,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 410,
+  "start": 2242.843,
+  "end": 2255.187,
+  "speaker": "Unknown",
+  "en": "And I guess it has to start with the tinkerers and then they post on X and then, you know, six months later we get a real like product and startup out of it or like, you know, 12 different startups all competing.",
+  "zh": "而且我想这必须从动手折腾的人开始，然后他们在 X 上发帖，然后你知道，六个月后我们就得到了一个真正的产品和创业公司，或者说，你知道，12 家不同的创业公司全在互相竞争。"
+ },
+ {
+  "seg": 411,
+  "start": 2255.687,
+  "end": 2256.307,
+  "speaker": "Unknown",
+  "en": "Outside",
+  "zh": "在"
+ },
+ {
+  "seg": 412,
+  "start": 2256.747,
+  "end": 2263.773,
+  "speaker": "Unknown",
+  "en": "Of the web window, there have been a big proliferation of mature products.",
+  "zh": "网页窗口之外，成熟产品已经大量涌现。"
+ },
+ {
+  "seg": 413,
+  "start": 2263.813,
+  "end": 2268.116,
+  "speaker": "Unknown",
+  "en": "So there's granola, there's whisper flow, there's superhuman.",
+  "zh": "比如有 granola，有 whisper flow，有 superhuman。"
+ },
+ {
+  "seg": 414,
+  "start": 2269.797,
+  "end": 2271.779,
+  "speaker": "Unknown",
+  "en": "What are you kind of seeing there?",
+  "zh": "你在那里大致看到了什么？"
+ },
+ {
+  "seg": 415,
+  "start": 2271.799,
+  "end": 2276.022,
+  "speaker": "Unknown",
+  "en": "And then obviously the ones that exist in chat and messaging, so in instinct.",
+  "zh": "然后显然还有那些存在于聊天和消息里的，比如 in instinct。"
+ },
+ {
+  "seg": 416,
+  "start": 2277.443,
+  "end": 2280.526,
+  "speaker": "Unknown",
+  "en": "What are you seeing when it comes to distribution?",
+  "zh": "在分发方面你看到了什么？"
+ },
+ {
+  "seg": 417,
+  "start": 2280.706,
+  "end": 2283.048,
+  "speaker": "Unknown",
+  "en": "And what are you seeing just when it comes to the kinds of...",
+  "zh": "以及单纯在……的种类方面你看到了什么"
+ },
+ {
+  "seg": 418,
+  "start": 2283.328,
+  "end": 2285.149,
+  "speaker": "Unknown",
+  "en": "products and users that they're approaching.",
+  "zh": "产品和它们所接触的用户？"
+ },
+ {
+  "seg": 419,
+  "start": 2285.289,
+  "end": 2285.529,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 420,
+  "start": 2285.729,
+  "end": 2288.21,
+  "speaker": "Unknown",
+  "en": "I think there's two maybe interesting threads to pull on here.",
+  "zh": "我想这里大概有两条值得展开的有趣线索。"
+ },
+ {
+  "seg": 421,
+  "start": 2288.231,
+  "end": 2298.316,
+  "speaker": "Unknown",
+  "en": "One, I wrote this piece called, maybe six, nine months ago, called The Great Expansion, which is basically like, why are consumer companies becoming enterprise companies so quickly?",
+  "zh": "第一，大概六、九个月前我写过一篇文章，叫《大扩张》(The Great Expansion)，基本上就是在问：为什么消费级公司这么快就变成企业级公司了？"
+ },
+ {
+  "seg": 422,
+  "start": 2298.816,
+  "end": 2303.818,
+  "speaker": "Unknown",
+  "en": "Like things like CREA, you know, Replit, Eleven Labs, Gamma.",
+  "zh": "比如 CREA 这样的东西，你知道，Replit、Eleven Labs、Gamma。"
+ },
+ {
+  "seg": 423,
+  "start": 2304.559,
+  "end": 2307.14,
+  "speaker": "Unknown",
+  "en": "These products previously, like Canva took",
+  "zh": "这些产品以前，比如 Canva 花了"
+ },
+ {
+  "seg": 424,
+  "start": 2307.52,
+  "end": 2310.644,
+  "speaker": "Unknown",
+  "en": "They have six plus years to have real team and enterprise revenue.",
+  "zh": "他们花了六年多才有了真正的团队收入和企业收入。"
+ },
+ {
+  "seg": 425,
+  "start": 2310.865,
+  "end": 2317.253,
+  "speaker": "Unknown",
+  "en": "And what's happening is that they're very successful in growing via PLG, Whisperflow and Granola, and other great examples there.",
+  "zh": "而现在发生的是，它们通过 PLG 增长非常成功，Whisperflow 和 Granola 就是那里其他很好的例子。"
+ },
+ {
+  "seg": 426,
+  "start": 2317.874,
+  "end": 2325.284,
+  "speaker": "Unknown",
+  "en": "And then because they are kind of work productivity related, they get pulled into enterprises and then the founders are like, oh.",
+  "zh": "然后因为它们多少和工作生产力相关，它们被拉进企业，接着创始人们就说，哦。"
+ },
+ {
+  "seg": 427,
+  "start": 2325.604,
+  "end": 2331.626,
+  "speaker": "Unknown",
+  "en": "We got to add privacy and security and team plan, but it's very effective, very low cost distribution.",
+  "zh": "我们得加上隐私和安全、团队计划，但这是非常有效、成本非常低的分发。"
+ },
+ {
+  "seg": 428,
+  "start": 2331.666,
+  "end": 2337.408,
+  "speaker": "Unknown",
+  "en": "And again, it works really well for these tools that are, can be used personally, but are like work adjacent.",
+  "zh": "再说一次，它对这类工具非常有效：可以个人使用，但又算与工作沾边。"
+ },
+ {
+  "seg": 429,
+  "start": 2338.289,
+  "end": 2343.531,
+  "speaker": "Unknown",
+  "en": "I think things like Whisperflow and Granola and Superhuman are another good example of...",
+  "zh": "我认为像 Whisperflow、Granola、Superhuman 这些是另一个好的例子，属于……"
+ },
+ {
+  "seg": 430,
+  "start": 2344.751,
+  "end": 2351.293,
+  "speaker": "Unknown",
+  "en": "This trend we've seen in general, which is incumbents being unwilling or unable to cannibalize their existing interfaces.",
+  "zh": "我们普遍看到的这个趋势，即在位者不愿意或无法蚕食自己现有的界面。"
+ },
+ {
+  "seg": 431,
+  "start": 2351.773,
+  "end": 2353.514,
+  "speaker": "Unknown",
+  "en": "The classic example of this is Google.",
+  "zh": "这方面最经典的例子就是 Google。"
+ },
+ {
+  "seg": 432,
+  "start": 2353.534,
+  "end": 2358.055,
+  "speaker": "Unknown",
+  "en": "Like, we haven't really seen them reinvent Docs or Gmail or Calendar.",
+  "zh": "比如，我们还没有真正看到他们为 AI 时代重新发明 Docs、Gmail 或 Calendar。"
+ },
+ {
+  "seg": 433,
+  "start": 2358.195,
+  "end": 2366.638,
+  "speaker": "Unknown",
+  "en": "For the AI age, I think it's even happening with OpenAI and Anthropic, where they have been much less successful in anything that is not...",
+  "zh": "我认为这甚至正在 OpenAI 和 Anthropic 身上发生，它们在任何不是……"
+ },
+ {
+  "seg": 434,
+  "start": 2367.258,
+  "end": 2373.224,
+  "speaker": "Unknown",
+  "en": "A launch within their existing ChatGPT or Codex or Claude or Claude Code interfaces.",
+  "zh": "在其现有 ChatGPT、Codex、Claude 或 Claude Code 界面之内发布的东西上，都要不成功得多。"
+ },
+ {
+  "seg": 435,
+  "start": 2374.165,
+  "end": 2388.037,
+  "speaker": "Unknown",
+  "en": "So, and I know many of them have, you know, attempted to incubate killers for these many startups, but I think it is difficult from a product perspective for them to innovate beyond that, especially when they have so many other things on their plates.",
+  "zh": "所以，我知道他们中很多都试图孵化这些众多创业公司的杀手，但我认为从产品角度来说，让他们在那之外创新是很困难的，尤其是当他们手头还有这么多其他事情的时候。"
+ },
+ {
+  "seg": 436,
+  "start": 2388.758,
+  "end": 2390.279,
+  "speaker": "Unknown",
+  "en": "I mean, I think all that's true.",
+  "zh": "我觉得这些说法都对。"
+ },
+ {
+  "seg": 437,
+  "start": 2390.539,
+  "end": 2396.404,
+  "speaker": "Unknown",
+  "en": "And I think we now, as we get used to some interfaces, we're just still in such a period of incredible reinvention.",
+  "zh": "而且我认为，随着我们对一些界面逐渐习惯，我们仍然处在这样一个令人难以置信的彻底重构期。"
+ },
+ {
+  "seg": 438,
+  "start": 2396.664,
+  "end": 2401.547,
+  "speaker": "Unknown",
+  "en": "Like a lot of the reason we've seen so much growth over the past year, year and a half is the models got so much better.",
+  "zh": "比如过去一年、一年半我们看到如此多增长，很大原因就是模型变得好太多了。"
+ },
+ {
+  "seg": 439,
+  "start": 2401.868,
+  "end": 2403.089,
+  "speaker": "Unknown",
+  "en": "And the models got so much better.",
+  "zh": "而模型变得好太多了。"
+ },
+ {
+  "seg": 440,
+  "start": 2403.109,
+  "end": 2415.558,
+  "speaker": "Unknown",
+  "en": "So the people who had been spending time creating these incredible interfaces that were easy to use, that were natural, that were easy to share and get a bunch of your team on and, you know, Whisperflow and Granola were just so easy to get started with.",
+  "zh": "所以那些一直花时间打造这些易用的、自然的、易于分享并能让你的团队一大批人上手的出色界面的人——你知道，Whisperflow 和 Granola 就是特别容易上手——"
+ },
+ {
+  "seg": 441,
+  "start": 2416.118,
+  "end": 2422.521,
+  "speaker": "Unknown",
+  "en": "You then would say, oh my gosh, now they've gotten so much better as the models have gotten better that the products, the utility gets so much better too.",
+  "zh": "你随后就会说，天哪，随着模型变好，它们也变得好太多了，产品的实用性也随之变得好太多了。"
+ },
+ {
+  "seg": 442,
+  "start": 2422.921,
+  "end": 2429.385,
+  "speaker": "Unknown",
+  "en": "And so we're kind of this incredible, you build something great, but it may not do everything you want because the model capabilities weren't quite there.",
+  "zh": "所以我们大概处于这种不可思议的循环：你打造出了很棒的东西，但它可能没法做到你想要的一切，因为模型能力还不太够。"
+ },
+ {
+  "seg": 443,
+  "start": 2429.745,
+  "end": 2436.228,
+  "speaker": "Unknown",
+  "en": "Then the models get better and your product gets to explode in demand and utility and this kind of rising tide lifts everything.",
+  "zh": "然后模型变好了，你的产品在需求和实用性上爆发，这种水涨船高抬升了一切。"
+ },
+ {
+  "seg": 444,
+  "start": 2436.608,
+  "end": 2442.915,
+  "speaker": "Unknown",
+  "en": "And so to think that, you know, we only have one or two companies that can build that experience layer, I think is what this sort of report sort of debunks.",
+  "zh": "所以，认为只有一两家公司能打造那个体验层的想法，我认为正是这份报告某种程度上所驳斥的。"
+ },
+ {
+  "seg": 445,
+  "start": 2442.935,
+  "end": 2446.519,
+  "speaker": "Unknown",
+  "en": "Now, those are certainly some of the top companies in these very general use cases.",
+  "zh": "当然，在这些非常通用的用例中，那些确实是头部的几家公司。"
+ },
+ {
+  "seg": 446,
+  "start": 2446.98,
+  "end": 2452.026,
+  "speaker": "Unknown",
+  "en": "But it's, you know, the reason that so many other things are growing is there's so many interfaces that get to be reinvented.",
+  "zh": "但是，你知道，这么多其他东西在增长的原因是，有这么多界面等着被重新发明。"
+ },
+ {
+  "seg": 447,
+  "start": 2452.686,
+  "end": 2468.802,
+  "speaker": "Unknown",
+  "en": "And the sort of rising tide lists everything and then you know the infra value may still go to the model providers or may go to the other things that are serving inference and there's a whole different conversation there but what consumers are adopting are things that work for them and are easy to use and bring into their lives.",
+  "zh": "而且这种水涨船高抬升一切，然后你知道，基础设施价值可能仍然流向模型提供商，或者流向那些服务推理的其他东西，那是另一场完整的讨论，但消费者采纳的是对他们有效、易用、能融入他们生活的东西。"
+ },
+ {
+  "seg": 448,
+  "start": 2468.923,
+  "end": 2469.203,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 449,
+  "start": 2469.543,
+  "end": 2483.071,
+  "speaker": "Unknown",
+  "en": "Maybe to also make the, to continue to make the case for startups here, OpenAI and Anthropic in many ways are startups, but they have been so successful that they have become big companies with thousands of people.",
+  "zh": "也许为了继续在这里为创业公司说话：OpenAI 和 Anthropic 从很多方面看也是创业公司，但它们已经如此成功，以至于成了拥有数千人的大公司。"
+ },
+ {
+  "seg": 450,
+  "start": 2483.892,
+  "end": 2491.176,
+  "speaker": "Unknown",
+  "en": "And there are just so many extra considerate, like a larger ship is harder to kind of steer or to turn around.",
+  "zh": "而且有太多额外的考量,就像一艘更大的船更难去掌舵或掉头。"
+ },
+ {
+  "seg": 451,
+  "start": 2491.957,
+  "end": 2498.261,
+  "speaker": "Unknown",
+  "en": "And so I think that's like one of the companies on our revenue list this time is Plod, which is an AI note taker device.",
+  "zh": "所以我觉得这次我们收入榜单上的一家公司是 Plod,它是一个 AI 笔记设备。"
+ },
+ {
+  "seg": 452,
+  "start": 2499.281,
+  "end": 2505.146,
+  "speaker": "Unknown",
+  "en": "That started kind of in China in the East and now has come to the US and you buy the device and you can also buy a subscription.",
+  "zh": "它起始于东方的中国,现在来到了美国,你购买这个设备,还可以购买订阅。"
+ },
+ {
+  "seg": 453,
+  "start": 2506.306,
+  "end": 2512.01,
+  "speaker": "Unknown",
+  "en": "OpenAI can and will do a hardware device, but as we've seen with them, it just, everything takes longer.",
+  "zh": "OpenAI 能够并且将会做硬件设备,但正如我们在他们身上看到的,一切都耗时更久。"
+ },
+ {
+  "seg": 454,
+  "start": 2512.531,
+  "end": 2515.353,
+  "speaker": "Unknown",
+  "en": "When you're a big company, you have to integrate with.",
+  "zh": "当你是一家大公司时,你必须与……"
+ },
+ {
+  "seg": 455,
+  "start": 2515.693,
+  "end": 2517.114,
+  "speaker": "Unknown",
+  "en": "Maybe other existing products.",
+  "zh": "也许与其他现有产品整合。"
+ },
+ {
+  "seg": 456,
+  "start": 2517.134,
+  "end": 2519.295,
+  "speaker": "Unknown",
+  "en": "There's more checks and balances it has to go through.",
+  "zh": "有更多的制衡机制需要经历。"
+ },
+ {
+  "seg": 457,
+  "start": 2519.796,
+  "end": 2525.259,
+  "speaker": "Unknown",
+  "en": "So I do think that the big labs will continue to be very, very successful and there's a lot more for them to do.",
+  "zh": "所以我确实认为大实验室会继续非常非常成功,他们还有很多可以做的。"
+ },
+ {
+  "seg": 458,
+  "start": 2525.98,
+  "end": 2530.983,
+  "speaker": "Unknown",
+  "en": "And I think that startups will continue to be able to find these quite big windows of opportunity.",
+  "zh": "而且我认为初创公司将持续能够找到这些相当大的机会窗口。"
+ },
+ {
+  "seg": 459,
+  "start": 2531.603,
+  "end": 2531.843,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 460,
+  "start": 2531.923,
+  "end": 2543.296,
+  "speaker": "Unknown",
+  "en": "And it also sounds like the question for startups is how do you build a product that, as you said, Josh, gets better as models get better, but doesn't get cannibalized as models get better?",
+  "zh": "而且听起来对初创公司的问题在于,如何打造一个像 Josh 你说的那样,随着模型变好而变好、但不会随着模型变好而被吞噬的产品?"
+ },
+ {
+  "seg": 461,
+  "start": 2543.356,
+  "end": 2544.117,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 462,
+  "start": 2544.277,
+  "end": 2549.724,
+  "speaker": "Unknown",
+  "en": "Which is, you know, like an interesting kind of sweet spot to exist in.",
+  "zh": "这,你知道,是一个很有意思的甜蜜点,可以存在于其中。"
+ },
+ {
+  "seg": 463,
+  "start": 2550.184,
+  "end": 2558.609,
+  "speaker": "Unknown",
+  "en": "I mean, part of the reason that I was so excited to join Andreessen Horowitz a couple months ago was this belief that the value really now is moving back to the software layer.",
+  "zh": "我是说,我几个月前如此兴奋加入 Andreessen Horowitz 的部分原因,就是相信价值现在真的正在回到软件层。"
+ },
+ {
+  "seg": 464,
+  "start": 2558.889,
+  "end": 2567.215,
+  "speaker": "Unknown",
+  "en": "That now that we have these incredible models at our, you know, capabilities and we can access them, you can build really rich products that leverage the models to do it.",
+  "zh": "现在我们拥有了这些能力惊人的模型,而且我们可以访问它们,你可以打造真正丰富的产品来利用这些模型去实现。"
+ },
+ {
+  "seg": 465,
+  "start": 2567.235,
+  "end": 2568.596,
+  "speaker": "Unknown",
+  "en": "You know, and there's new innovations like...",
+  "zh": "你知道,而且还有新的创新,比如……"
+ },
+ {
+  "seg": 466,
+  "start": 2569.556,
+  "end": 2573.437,
+  "speaker": "Unknown",
+  "en": "Jeff from TypeSafe that allows even developers to build things in even new ways.",
+  "zh": "TypeSafe 的 Jeff,让开发者甚至能以新的方式构建东西。"
+ },
+ {
+  "seg": 467,
+  "start": 2573.457,
+  "end": 2585.2,
+  "speaker": "Unknown",
+  "en": "And we haven't even seen all the incredible new ideas that can be done when you have access to a model like that that's fast, that's easy to integrate, that gives you code or very structured answers back.",
+  "zh": "而且当你能访问一个这样的模型——快速的、易于整合的、给你代码或非常结构化的回答的——我们甚至还没见过所有可以做到的令人惊叹的新想法。"
+ },
+ {
+  "seg": 468,
+  "start": 2586.14,
+  "end": 2598.543,
+  "speaker": "Unknown",
+  "en": "And so because of that, now the creativity is back to the experience, the network you can build, the ways that you can serve a lot of people and bring them together, using the models to be something powerful, but the context and the community",
+  "zh": "正因如此,现在创造力回到了体验、你能构建的网络、你能服务很多人并把他们聚在一起的方式上,用模型成为某种强大的东西,而情境和社区"
+ },
+ {
+  "seg": 469,
+  "start": 2599.523,
+  "end": 2600.664,
+  "speaker": "Unknown",
+  "en": "Really becomes the asset.",
+  "zh": "真正成为了资产。"
+ },
+ {
+  "seg": 470,
+  "start": 2600.984,
+  "end": 2602.544,
+  "speaker": "Unknown",
+  "en": "And there's so much in invention.",
+  "zh": "而且有太多的发明空间。"
+ },
+ {
+  "seg": 471,
+  "start": 2602.584,
+  "end": 2606.006,
+  "speaker": "Unknown",
+  "en": "And I think almost every category has a chance to be reinvented.",
+  "zh": "而且我认为几乎每个品类都有机会被重新发明。"
+ },
+ {
+  "seg": 472,
+  "start": 2606.446,
+  "end": 2613.449,
+  "speaker": "Unknown",
+  "en": "And, you know, some big companies are going to be able to make the leap and become the relevant company for their sector in the AI era, but not all of them will.",
+  "zh": "而且,你知道,一些大公司将能够实现跨越,成为 AI 时代其所在领域的相关公司,但不是所有公司都能。"
+ },
+ {
+  "seg": 473,
+  "start": 2613.609,
+  "end": 2619.012,
+  "speaker": "Unknown",
+  "en": "And that's where startups come in to kind of beat them to that punch and really be the best new possible experience.",
+  "zh": "而这就是初创公司登场的地方,去抢先击败他们,真正成为最好的全新可能体验。"
+ },
+ {
+  "seg": 474,
+  "start": 2619.112,
+  "end": 2619.372,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 475,
+  "start": 2619.772,
+  "end": 2629.562,
+  "speaker": "Unknown",
+  "en": "Yeah, I think to that point, I think a lot about compounding personal value and hopefully eventually compounding multiplayer value that becomes like a lock-in to some of these startup products.",
+  "zh": "是的,关于这一点,我经常思考复利的个人价值,以及希望最终成为某种锁定效应的复利多人价值,它会成为这些初创产品的锁定。"
+ },
+ {
+  "seg": 476,
+  "start": 2630.283,
+  "end": 2634.827,
+  "speaker": "Unknown",
+  "en": "One example I would give is Town, which is more on the prosumer end of the agent assistant.",
+  "zh": "我会举的一个例子是 Town,它更多处于智能体助理的消费专业者一端。"
+ },
+ {
+  "seg": 477,
+  "start": 2634.847,
+  "end": 2635.147,
+  "speaker": "Unknown",
+  "en": "It can...",
+  "zh": "它可以……"
+ },
+ {
+  "seg": 478,
+  "start": 2636.405,
+  "end": 2644.548,
+  "speaker": "Unknown",
+  "en": "Connect into all your systems, Slack, email, Google Drive, understand kind of the context of you and your org, and then do things for you.",
+  "zh": "连接你所有的系统,Slack、邮件、Google Drive,理解你和你的组织的情境,然后为你做事。"
+ },
+ {
+  "seg": 479,
+  "start": 2644.708,
+  "end": 2649.289,
+  "speaker": "Unknown",
+  "en": "Like I use it to write a lot of my emails, helped with a lot of this report.",
+  "zh": "比如我用它来写我很多邮件,帮助做了这份报告的很多内容。"
+ },
+ {
+  "seg": 480,
+  "start": 2650.089,
+  "end": 2657.932,
+  "speaker": "Unknown",
+  "en": "And I know it's easy for people to dismiss things like this as like, oh, it's just a harness, which is now the slightly less derogatory term for rapper, I guess.",
+  "zh": "我知道人们很容易把这类东西斥为「哦,只是个 harness」,这现在是「rapper」稍微不那么贬义的叫法,我猜。"
+ },
+ {
+  "seg": 481,
+  "start": 2658.592,
+  "end": 2661.013,
+  "speaker": "Unknown",
+  "en": "But town has built these playbooks.",
+  "zh": "但 Town 已经建立了这些 playbook。"
+ },
+ {
+  "seg": 482,
+  "start": 2661.833,
+  "end": 2670.635,
+  "speaker": "Unknown",
+  "en": "of who I am, what I sound like, that no other product has and that I cannot easily take and migrate over to something that comes along tomorrow.",
+  "zh": "关于我是谁、我的语气是什么样的,没有任何其他产品有这些,而且我不能轻易拿着它们迁移到明天出现的某个产品上。"
+ },
+ {
+  "seg": 483,
+  "start": 2671.095,
+  "end": 2685.219,
+  "speaker": "Unknown",
+  "en": "Because the difference between an email that is 99.9% sounds like me and even an email that's 85% sounds like me is the difference between spending like 10 seconds to fix it and like 10 plus minutes.",
+  "zh": "因为一封 99.9% 像我语气的邮件和一封只有 85% 像我语气的邮件之间的区别,就是花大约 10 秒钟修改和花 10 分钟以上的区别。"
+ },
+ {
+  "seg": 484,
+  "start": 2686.279,
+  "end": 2694.946,
+  "speaker": "Unknown",
+  "en": "And so I think that we'll see more products like Town that do a really good job of collecting context and acting on that context to build playbooks around you continue to be successful.",
+  "zh": "所以我认为我们会看到更多像 Town 这样的产品,它们非常善于收集情境并对情境采取行动,围绕你建立 playbook,这些会持续成功。"
+ },
+ {
+  "seg": 485,
+  "start": 2695.226,
+  "end": 2696.067,
+  "speaker": "Unknown",
+  "en": "No, I think that's totally right.",
+  "zh": "不,我觉得那完全正确。"
+ },
+ {
+  "seg": 486,
+  "start": 2696.107,
+  "end": 2702.051,
+  "speaker": "Unknown",
+  "en": "I try to avoid using words like harness and wrap because I think the reality is people are now building software.",
+  "zh": "我尽量避免使用 harness 和 wrap 这样的词,因为我认为现实是人们现在在构建软件。"
+ },
+ {
+  "seg": 487,
+  "start": 2702.211,
+  "end": 2716.362,
+  "speaker": "Unknown",
+  "en": "And they're building these really rich products and they're, I mean, they may be using their agents to write some of that code, but they're actually, when they're delivering this whole experience to a user, it is much more than just a shim on the model or a harness that brings some context to the model.",
+  "zh": "而且他们在打造这些真正丰富的产品,我是说,他们可能用他们的智能体来写其中一些代码,但当他们把整个体验交付给用户时,它远远不只是模型上的一个垫片,或给模型带来一些情境的 harness。"
+ },
+ {
+  "seg": 488,
+  "start": 2716.383,
+  "end": 2723.468,
+  "speaker": "Unknown",
+  "en": "It's actually a really rich product and an experience that happens to now use a model as part of what makes them able to deliver that.",
+  "zh": "它实际上是一个非常丰富的产品和体验,只是碰巧现在使用模型作为使其能够交付这些的一部分。"
+ },
+ {
+  "seg": 489,
+  "start": 2723.488,
+  "end": 2724.849,
+  "speaker": "Unknown",
+  "en": "And I think that's really",
+  "zh": "而且我认为那真的就是"
+ },
+ {
+  "seg": 490,
+  "start": 2725.75,
+  "end": 2731.192,
+  "speaker": "Unknown",
+  "en": "The excitement of where that's going to, you know, what we're going to see on this list, you know, many of these already are doing that.",
+  "zh": "令人兴奋的地方,它将走向何方,你知道,我们将在这份榜单上看到的,你知道,其中许多已经在这么做了。"
+ },
+ {
+  "seg": 491,
+  "start": 2731.372,
+  "end": 2736.534,
+  "speaker": "Unknown",
+  "en": "And we think really the next wave, they are all going to be these companies that have built so much more value.",
+  "zh": "而且我们真的认为,下一波浪潮,它们都将是这些积累了多得多的价值的公司。"
+ },
+ {
+  "seg": 492,
+  "start": 2736.594,
+  "end": 2739.074,
+  "speaker": "Unknown",
+  "en": "And the model is something that is, you know, just one piece.",
+  "zh": "而模型只是其中一个组成部分,你知道,而已。"
+ },
+ {
+  "seg": 493,
+  "start": 2739.415,
+  "end": 2749.178,
+  "speaker": "Unknown",
+  "en": "Olivia, I think you referenced this chart that you made, but maybe we can bring it up, is all of the white space that still exists for, you know,",
+  "zh": "Olivia,我记得你提到了你做的那个图表,但也许我们可以把它调出来,就是所有仍然存在的空白空间,你知道,"
+ },
+ {
+  "seg": 494,
+  "start": 2750.399,
+  "end": 2762.331,
+  "speaker": "Unknown",
+  "en": "Just all the product categories that exist in Web 2 and the pre-AI age and maybe you can just talk through some of these categories and where are the big opportunities?",
+  "zh": "就是 Web 2 和前 AI 时代存在的所有产品品类,也许你可以谈谈其中一些品类,以及大机会在哪里?"
+ },
+ {
+  "seg": 495,
+  "start": 2762.371,
+  "end": 2762.652,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 496,
+  "start": 2762.812,
+  "end": 2768.678,
+  "speaker": "Unknown",
+  "en": "The vast majority of pure consumers are basically using AI still as a replacement for search fraud.",
+  "zh": "绝大多数纯消费者基本上仍然把 AI 用作 search fraud 的替代品。"
+ },
+ {
+  "seg": 497,
+  "start": 2769.238,
+  "end": 2770.259,
+  "speaker": "Unknown",
+  "en": "Things like Google.",
+  "zh": "像 Google 这样的东西。"
+ },
+ {
+  "seg": 498,
+  "start": 2771.079,
+  "end": 2775.201,
+  "speaker": "Unknown",
+  "en": "Maybe, especially as you get into education use cases, kids are using it to write essays.",
+  "zh": "也许,尤其是当你进入教育用例时,孩子们用它来写作文。"
+ },
+ {
+  "seg": 499,
+  "start": 2775.221,
+  "end": 2777.643,
+  "speaker": "Unknown",
+  "en": "A little bit more of an expansive use case.",
+  "zh": "稍微更扩展一点的用例。"
+ },
+ {
+  "seg": 500,
+  "start": 2777.963,
+  "end": 2778.843,
+  "speaker": "Unknown",
+  "en": "Homework help.",
+  "zh": "作业辅导。"
+ },
+ {
+  "seg": 501,
+  "start": 2778.903,
+  "end": 2779.644,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 502,
+  "start": 2779.684,
+  "end": 2781.044,
+  "speaker": "Unknown",
+  "en": "Not worker placement.",
+  "zh": "不是工人放置类。"
+ },
+ {
+  "seg": 503,
+  "start": 2781.064,
+  "end": 2781.144,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 504,
+  "start": 2781.164,
+  "end": 2782.945,
+  "speaker": "Unknown",
+  "en": "Or people in the workplace to write emails.",
+  "zh": "或者职场里的人写邮件。"
+ },
+ {
+  "seg": 505,
+  "start": 2783.005,
+  "end": 2794.351,
+  "speaker": "Unknown",
+  "en": "But if you look at this chart, which will show almost all of the kind of areas where we've seen startups succeed thus far have been in and around that theme of getting things done.",
+  "zh": "但如果你看这张图表，它会显示迄今为止我们看到初创公司成功的几乎所有领域，都围绕着「把事情做完」这个主题。"
+ },
+ {
+  "seg": 506,
+  "start": 2794.911,
+  "end": 2799.475,
+  "speaker": "Unknown",
+  "en": "So like productivity, photo and video design and editing, search and answers.",
+  "zh": "比如生产力、照片和视频设计与编辑、搜索和问答。"
+ },
+ {
+  "seg": 507,
+  "start": 2801.256,
+  "end": 2803.138,
+  "speaker": "Unknown",
+  "en": "So many categories are wide open.",
+  "zh": "这么多类别还是完全开放的。"
+ },
+ {
+  "seg": 508,
+  "start": 2803.698,
+  "end": 2811.605,
+  "speaker": "Unknown",
+  "en": "And many of those categories are, I would say, I would call them network categories where you need a multiplayer product.",
+  "zh": "而且这些类别中很多，我想说，我会称之为网络类别，你需要一个多人产品。"
+ },
+ {
+  "seg": 509,
+  "start": 2813.166,
+  "end": 2815.408,
+  "speaker": "Unknown",
+  "en": "You know, dating is one we haven't seen.",
+  "zh": "你知道，约会是我们还没见过的。"
+ },
+ {
+  "seg": 510,
+  "start": 2815.428,
+  "end": 2817.73,
+  "speaker": "Unknown",
+  "en": "There are certainly startups there that",
+  "zh": "那里肯定有初创公司"
+ },
+ {
+  "seg": 511,
+  "start": 2818.09,
+  "end": 2822.834,
+  "speaker": "Unknown",
+  "en": "I hope and believe we'll make future editions of the list, but there's no one on the list doing dating now.",
+  "zh": "我希望并相信它们会出现在未来几期的榜单上，但现在榜上没有做约会的。"
+ },
+ {
+  "seg": 512,
+  "start": 2823.314,
+  "end": 2824.795,
+  "speaker": "Unknown",
+  "en": "Recruiting is another one.",
+  "zh": "招聘是另一个。"
+ },
+ {
+  "seg": 513,
+  "start": 2824.835,
+  "end": 2829.999,
+  "speaker": "Unknown",
+  "en": "I think of dating and recruiting as somewhat similar networks, actually, in terms of trying to make matches.",
+  "zh": "我觉得约会和招聘其实是有点相似的网络，就尝试促成匹配而言。"
+ },
+ {
+  "seg": 514,
+  "start": 2831.48,
+  "end": 2834.943,
+  "speaker": "Unknown",
+  "en": "Social AI, we really haven't seen anything take off.",
+  "zh": "社交 AI，我们真的还没看到什么起飞。"
+ },
+ {
+  "seg": 515,
+  "start": 2836.484,
+  "end": 2840.928,
+  "speaker": "Unknown",
+  "en": "Most of social AI is people posting AI-generated content on existing social platforms.",
+  "zh": "大多数社交 AI 是人们在现有社交平台上发布 AI 生成的内容。"
+ },
+ {
+  "seg": 516,
+  "start": 2842.029,
+  "end": 2853.119,
+  "speaker": "Unknown",
+  "en": "And then I think there's all of these other categories that look maybe more like marketplaces did, like shopping, home buying, you know, retail.",
+  "zh": "然后我觉得还有所有这些其他类别，看起来可能更像市场类，比如购物、买房，你知道的，零售。"
+ },
+ {
+  "seg": 517,
+  "start": 2853.519,
+  "end": 2856.002,
+  "speaker": "Unknown",
+  "en": "We'll have to see if those end up",
+  "zh": "我们得看看那些最终会不会"
+ },
+ {
+  "seg": 518,
+  "start": 2856.702,
+  "end": 2868.374,
+  "speaker": "Unknown",
+  "en": "Living in agents like Instinct or Muse or living as standalone products or the next ones, which there will be many, or living as standalone products or perhaps a mix of both.",
+  "zh": "活在像 Instinct 或 Muse 这样的智能体里，还是作为独立产品存在，或者下一批产品里——会有很多的——还是作为独立产品存在，或者也许是两者的混合。"
+ },
+ {
+  "seg": 519,
+  "start": 2868.394,
+  "end": 2871.217,
+  "speaker": "Unknown",
+  "en": "Perhaps your agent is calling the AI native marketplace.",
+  "zh": "也许你的智能体在调用 AI 原生市场。"
+ },
+ {
+  "seg": 520,
+  "start": 2872.599,
+  "end": 2874.441,
+  "speaker": "Unknown",
+  "en": "So I'm very excited about those things.",
+  "zh": "所以我对这些东西非常兴奋。"
+ },
+ {
+  "seg": 521,
+  "start": 2874.521,
+  "end": 2886.855,
+  "speaker": "Unknown",
+  "en": "I think also categories like gaming and entertainment, the models just have not been good enough to produce content that the average person likes to watch, which may be the exception of AI micro dramas, which are blowing up.",
+  "zh": "我觉得还有像游戏和娱乐这样的类别，模型一直不够好，无法产出普通人喜欢看的内容，AI 微短剧可能是例外，它们正在爆发式增长。"
+ },
+ {
+  "seg": 522,
+  "start": 2886.935,
+  "end": 2888.737,
+  "speaker": "Unknown",
+  "en": "But I think that is coming soon too.",
+  "zh": "但我觉得这也快来了。"
+ },
+ {
+  "seg": 523,
+  "start": 2889.125,
+  "end": 2890.405,
+  "speaker": "Unknown",
+  "en": "No, I think that's exactly right.",
+  "zh": "不，我觉得完全正确。"
+ },
+ {
+  "seg": 524,
+  "start": 2890.425,
+  "end": 2897.467,
+  "speaker": "Unknown",
+  "en": "And I just think we're in this world where, you know, we're kind of like so excited by what ChatGPT did with turning things into conversation.",
+  "zh": "我只是觉得我们身处这样一个世界，你知道，我们对 ChatGPT 把事情变成对话的做法感到非常兴奋。"
+ },
+ {
+  "seg": 525,
+  "start": 2897.487,
+  "end": 2901.948,
+  "speaker": "Unknown",
+  "en": "And now these agents, we can get in our messaging apps to turn them into more conversation.",
+  "zh": "而现在这些智能体，我们可以把它们放进消息应用里，把它们变成更多的对话。"
+ },
+ {
+  "seg": 526,
+  "start": 2901.968,
+  "end": 2903.468,
+  "speaker": "Unknown",
+  "en": "It's an incredible paradigm.",
+  "zh": "这是一个难以置信的范式。"
+ },
+ {
+  "seg": 527,
+  "start": 2903.788,
+  "end": 2913.51,
+  "speaker": "Unknown",
+  "en": "But when you're shopping, you want to visually see options and explore and have things customized for you and be able to say, I really like that, but I wish it had some piping on the collar.",
+  "zh": "但当你购物时，你想要直观地看到选项、进行探索、让东西为你定制，并且能够说，我真的很喜欢那个，但我希望领口上有一些镶边。"
+ },
+ {
+  "seg": 528,
+  "start": 2913.91,
+  "end": 2917.933,
+  "speaker": "Unknown",
+  "en": "Or something and actually have AI helped you both realize that and maybe even get it made for you.",
+  "zh": "或者什么，然后真正让 AI 帮你实现这一点，甚至可能帮你把它做出来。"
+ },
+ {
+  "seg": 529,
+  "start": 2918.073,
+  "end": 2920.395,
+  "speaker": "Unknown",
+  "en": "I like shopping and have so much invention there.",
+  "zh": "我喜欢购物，那里有如此多的发明空间。"
+ },
+ {
+  "seg": 530,
+  "start": 2920.815,
+  "end": 2921.516,
+  "speaker": "Unknown",
+  "en": "Entertainment.",
+  "zh": "娱乐。"
+ },
+ {
+  "seg": 531,
+  "start": 2921.596,
+  "end": 2931.943,
+  "speaker": "Unknown",
+  "en": "I think we've barely started scratching the surface of the ability to tell better stories of the way to empower people to be better storytellers that then creates these incredible networks of people consuming stories.",
+  "zh": "我觉得在讲更好的故事、赋能人们成为更好的讲故事者这件事上，我们才刚刚开始触及皮毛，而这会创造出这些人们消费故事的难以置信的网络。"
+ },
+ {
+  "seg": 532,
+  "start": 2931.963,
+  "end": 2936.326,
+  "speaker": "Unknown",
+  "en": "You know, TikTok was this incredible place where people came together and just create little videos.",
+  "zh": "你知道，TikTok 是这样一个难以置信的地方，人们聚在一起创作小视频。"
+ },
+ {
+  "seg": 533,
+  "start": 2936.346,
+  "end": 2942.771,
+  "speaker": "Unknown",
+  "en": "You see people around the world that you're now watching, but there's still so much capturing people's heads that if only they could express their ideas even better.",
+  "zh": "你会看到世界各地你现在正在观看的人，但仍有这么多吸引人头脑的东西，如果他们能更好地表达自己的想法就好了。"
+ },
+ {
+  "seg": 534,
+  "start": 2943.291,
+  "end": 2944.072,
+  "speaker": "Unknown",
+  "en": "AI is going to help them.",
+  "zh": "AI 会帮助他们。"
+ },
+ {
+  "seg": 535,
+  "start": 2944.112,
+  "end": 2946.235,
+  "speaker": "Unknown",
+  "en": "We're going to have an incredible new network.",
+  "zh": "我们将会拥有一个难以置信的新网络。"
+ },
+ {
+  "seg": 536,
+  "start": 2946.275,
+  "end": 2954.664,
+  "speaker": "Unknown",
+  "en": "So I feel like we are just at the cusp of all these categories and we've needed the models to get better so that you could start to dabble in some of these ideas and invent them.",
+  "zh": "所以我觉得我们正处在所有这些类别的临界点上，我们需要模型变得更好，这样你才能开始涉足其中一些想法并去发明它们。"
+ },
+ {
+  "seg": 537,
+  "start": 2954.704,
+  "end": 2961.492,
+  "speaker": "Unknown",
+  "en": "But as that happens over the coming years and with the new model capabilities, I still think the value is going to end up in this software layer in the process.",
+  "zh": "但随着这在未来几年发生，加上新的模型能力，我仍然认为价值最终会落在软件层的过程中。"
+ },
+ {
+  "seg": 538,
+  "start": 2961.532,
+  "end": 2961.812,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 539,
+  "start": 2962.373,
+  "end": 2967.157,
+  "speaker": "Unknown",
+  "en": "To me, this gets back to what we were talking about of products that help people save time versus spend time.",
+  "zh": "对我来说，这回到我们之前谈的，帮助人们省时间的产品和花时间的产品。"
+ },
+ {
+  "seg": 540,
+  "start": 2967.657,
+  "end": 2970.199,
+  "speaker": "Unknown",
+  "en": "Almost everything we've seen in consumer AI is save time.",
+  "zh": "我们在消费级 AI 中看到的几乎一切都是省时间。"
+ },
+ {
+  "seg": 541,
+  "start": 2971.04,
+  "end": 2976.725,
+  "speaker": "Unknown",
+  "en": "And that spend time, those end up often actually being amongst the biggest companies, if not the biggest ones.",
+  "zh": "而花时间的那类，它们最终往往实际上是最大的公司之一，如果不是最大的那些的话。"
+ },
+ {
+  "seg": 542,
+  "start": 2977.325,
+  "end": 2979.227,
+  "speaker": "Unknown",
+  "en": "And so we need that to exist.",
+  "zh": "所以我们需要那种存在。"
+ },
+ {
+  "seg": 543,
+  "start": 2979.307,
+  "end": 2982.389,
+  "speaker": "Unknown",
+  "en": "And many, many builders, I'm sure, are tinkering away on that right now.",
+  "zh": "而且我相信很多很多建设者现在正在为此冥思苦想。"
+ },
+ {
+  "seg": 544,
+  "start": 2982.409,
+  "end": 2982.73,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 545,
+  "start": 2983.39,
+  "end": 2984.011,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 546,
+  "start": 2984.391,
+  "end": 2986.232,
+  "speaker": "Unknown",
+  "en": "I think that's a great note to end on.",
+  "zh": "我觉得这是一个很好的收尾点。"
+ },
+ {
+  "seg": 547,
+  "start": 2986.592,
+  "end": 2995.118,
+  "speaker": "Unknown",
+  "en": "Thank you both so much for joining and absolutely make sure to check out the top 100 consumer AI apps, seventh edition.",
+  "zh": "非常感谢两位的参与，也绝对记得去看看百大消费级 AI 应用第七期。"
+ },
+ {
+  "seg": 548,
+  "start": 2995.579,
+  "end": 2996.419,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 549,
+  "start": 2996.499,
+  "end": 2997.4,
+  "speaker": "Unknown",
+  "en": "Thanks for having us.",
+  "zh": "谢谢邀请我们。"
+ },
+ {
+  "seg": 550,
+  "start": 2997.42,
+  "end": 2999.141,
+  "speaker": "Unknown",
+  "en": "We will see you for edition eight.",
+  "zh": "我们第八期再见。"
+ },
+ {
+  "seg": 551,
+  "start": 2999.261,
+  "end": 2999.582,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 552,
+  "start": 3002.873,
+  "end": 3005.754,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 553,
+  "start": 3006.374,
+  "end": 3012.777,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们评分或留下评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 554,
+  "start": 3013.537,
+  "end": 3017.099,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 555,
+  "start": 3017.679,
+  "end": 3023.302,
+  "speaker": "Unknown",
+  "en": "Follow us on X and A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 A16Z,并订阅我们的 Substack:a16z.substack.com。"
+ },
+ {
+  "seg": 556,
+  "start": 3023.782,
+  "end": 3026.263,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 557,
+  "start": 3028.38,
+  "end": 3041.208,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，此处内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的投资者或潜在投资者。"
+ },
+ {
+  "seg": 558,
+  "start": 3042.109,
+  "end": 3046.772,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 559,
+  "start": 3047.312,
+  "end": 3053.957,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see A16Z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资项目的链接，请访问 A16Z.com/disclosures。"
+ }
+]

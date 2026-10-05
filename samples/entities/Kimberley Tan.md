@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":9,"智能体":403,"开源模型":4,"微调":29,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":9,"智能体":405,"开源模型":4,"微调":29,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
 
 <script>
 (function(){

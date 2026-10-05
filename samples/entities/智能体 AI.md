@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体 AI (agentic AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="智能体 AI">智能</div><div class="pi"><h1 class="pt">智能体 AI (agentic AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="智能体 AI">智能</div><div class="pi"><h1 class="pt">智能体 AI (agentic AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(16:57起):本集把它说成:嘉宾明确表示在中期依然非常看好的领域,也是能让市场相信 AI 是一项渐进式而非非黑即白投资的关键理由。
 - **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(24:54起):本集说智能体 AI 真正允许卖家同时与多个不同软件产品互动，因为很多软件可以非常好地被智能体工具使用
 - **[[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]]**(14:20起):本集说其他行业要把几十年数百亿美元的 SaaS/中间件范式连根拔掉、换成智能体 AI 并重新培训员工，而医疗可以不经拆除直接采用这种智能体形式的技术。
+- **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(06:29起):本集一笔带过:在智能体 AI 时代,模型要调用另一台服务器上的工具并把结果返回 GPU,加剧了数据中心内部流量。
 
 ## ① 提到它的金句
 
@@ -25,19 +26,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念(提及)
 - [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为概念(提及)
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为概念
+- [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ranjan Roy]] · [[Willem Avé]] · [[Sophia Du]] · [[Alex]] · [[Square]] · [[Julie Yoo]] · [[Google]] · [[Block]] · [[a16z]] · [[OpenAI]]
+[[Google]] · [[Ranjan Roy]] · [[Willem Avé]] · [[Sophia Du]] · [[Herwig]] · [[Alex]] · [[Square]] · [[Julie Yoo]] · [[Rorik]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":4,"Alex":6,"Square":5,"Julie Yoo":1,"Google":55,"Block":3,"a16z":18,"OpenAI":159}</script>
+<script type="application/json" class="pd-epn">{"Google":57,"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":4,"Herwig":1,"Alex":6,"Square":5,"Julie Yoo":1,"Rorik":1,"OpenAI":161}</script>
 
 <script>
 (function(){

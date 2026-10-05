@@ -40,7 +40,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[Intercom]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Harry Stabbings]] · [[John Collison]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":171,"Intercom":6,"OpenAI":159,"Cursor":80,"智能体":403,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":2,"John Collison":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":173,"Intercom":6,"OpenAI":161,"Cursor":80,"智能体":405,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":2,"John Collison":2}</script>
 
 <script>
 (function(){

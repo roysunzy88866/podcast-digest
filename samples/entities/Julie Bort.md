@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":171,"Claude":86,"Claude Code":94,"MCP":72,"harness":55,"开源模型":4,"多模型世界":1,"token":31,"OpenRouter":13}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":173,"Claude":88,"Claude Code":94,"MCP":73,"harness":55,"开源模型":4,"多模型世界":1,"token":31,"OpenRouter":13}</script>
 
 <script>
 (function(){

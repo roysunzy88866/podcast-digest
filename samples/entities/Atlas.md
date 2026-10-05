@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Harj]] · [[Justin Johnson]] · [[Michael Lee]] · [[Patrick Collison]] · [[Martin Casado]] · [[Sequence Holdings]] · [[Stripe]] · [[World Labs]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"OpenAI":159,"Harj":1,"Justin Johnson":2,"Michael Lee":1,"Patrick Collison":3,"Martin Casado":5,"Sequence Holdings":1,"Stripe":45,"World Labs":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"OpenAI":161,"Harj":1,"Justin Johnson":2,"Michael Lee":1,"Patrick Collison":3,"Martin Casado":5,"Sequence Holdings":1,"Stripe":45,"World Labs":4}</script>
 
 <script>
 (function(){

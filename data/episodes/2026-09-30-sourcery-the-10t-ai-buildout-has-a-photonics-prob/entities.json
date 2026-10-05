@@ -1,0 +1,1142 @@
+{
+  "episode_id": "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob",
+  "podcast": "Sourcery",
+  "date": "2026-09-30",
+  "tags": [
+    "光子学",
+    "AI 基础设施",
+    "半导体制造",
+    "欧洲科技",
+    "供应链"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "herwig",
+      "type": "person",
+      "role": "host",
+      "name": "Herwig",
+      "file": "Herwig",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            41.333,
+            47.235
+          ],
+          "quote": "Yannick and Herwig, welcome to Sorcery and Strikes Annual Gala.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            59.68,
+            63.161
+          ],
+          "quote": "So Yannick, I'd love to start with your background and then Herwig, we'll get into yours.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1851.888,
+            1857.85
+          ],
+          "quote": "Well, Ionic, Herwig, thank you so much for a nice little deep dive on photonics and FEMA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rorik",
+      "type": "person",
+      "role": "cohost",
+      "name": "Rorik",
+      "file": "Rorik",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            136.29,
+            137.413
+          ],
+          "quote": "Rorik, how did you get involved?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yannick",
+      "type": "person",
+      "role": "cohost",
+      "name": "Yannick",
+      "file": "Yannick",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            41.333,
+            47.235
+          ],
+          "quote": "Yannick and Herwig, welcome to Sorcery and Strikes Annual Gala.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            59.68,
+            63.161
+          ],
+          "quote": "So Yannick, I'd love to start with your background and then Herwig, we'll get into yours.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            164.405,
+            185.218
+          ],
+          "quote": "And that is what we're trying to solve with Thema, realizing that, you know, this visionary choice of Yannick 20 years ago to study the field of silicon photonics was something that has put Belgium on the map and has created a talent base that's broad and deep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            888.727,
+            893.692
+          ],
+          "quote": "And, you know, Yannick and others jumped on board instantly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1305.898,
+            1317.022
+          ],
+          "quote": "Obviously, people like Yannick from NVIDIA, but we have people from AWS, we have people from TSMC, Lime Research, like the top companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1521.497,
+            1529.669
+          ],
+          "quote": "And so what we're definitely incorporating in Thema is like what Yannick said.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "thema",
+      "type": "company",
+      "role": "company",
+      "name": "Thema",
+      "file": "Thema",
+      "primary": true,
+      "how_described": "本集主角:Yannick 与 Herwig 在比利时创办的「纯光子代工厂」,专做光子芯片量产制造不做设计,买下一家歇业的欧洲代工厂,计划 27 年投产、28 年全面爬坡(原稿亦误作 FEMA/TEMA)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            164.405,
+            185.218
+          ],
+          "quote": "And that is what we're trying to solve with Thema, realizing that, you know, this visionary choice of Yannick 20 years ago to study the field of silicon photonics was something that has put Belgium on the map and has created a talent base that's broad and deep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1278.025,
+            1284.692
+          ],
+          "quote": "I'm very optimistic about Europe playing a significant role and Thema playing a significant role in this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1338.474,
+            1344.317
+          ],
+          "quote": "And what we're hoping to build with Thema is, you know, homegrown magnet for talent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1384.538,
+            1386.921
+          ],
+          "quote": "So it's almost like reading a definition of Thema.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1521.497,
+            1529.669
+          ],
+          "quote": "And so what we're definitely incorporating in Thema is like what Yannick said.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "Yannick 的前雇主,他在那里从零把硅光子学打造成产品级成熟度;本集说 NVIDIA 领导了向光子学的转向,26 年用对 Lumentum、Coherent 的投资表明态度,六个月投资了整个市场规模四倍的资金。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            112.928,
+            120.392
+          ],
+          "quote": "And then five years ago, I joined NVIDIA, back then when I still had to explain to people what NVIDIA actually was.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            531.786,
+            533.648
+          ],
+          "quote": "NVIDIA took the lead in that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            634.771,
+            639.755
+          ],
+          "quote": "And now, all of a sudden, NVIDIA steps in and says, no, no, guys, this is much, much bigger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            669.468,
+            673.049
+          ],
+          "quote": "But if you deliver a wafer to NVIDIA, that's not what they ordered.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            961.847,
+            967.512
+          ],
+          "quote": "That's why companies like NVIDIA, Anthropic, Salesforce, and Gemini partner with Turing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            987.014,
+            989.896
+          ],
+          "quote": "So yeah, I was in a great spot at NVIDIA, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1038.899,
+            1040.2
+          ],
+          "quote": "What is it like at NVIDIA?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1305.898,
+            1317.022
+          ],
+          "quote": "Obviously, people like Yannick from NVIDIA, but we have people from AWS, we have people from TSMC, Lime Research, like the top companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1748.72,
+            1753.101
+          ],
+          "quote": "Are there a lot of companies spinning out of NVIDIA in Europe right now?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "imec",
+      "type": "company",
+      "role": "company",
+      "name": "IMEC",
+      "file": "IMEC",
+      "primary": true,
+      "how_described": "本集介绍为校际微电子中心,运营 30 多年,是世界硅光子学发源地之一、先进电子技术领域头号研究中心,距 Thema 20 公里,有三位最高资历的人加入 Thema 董事会(原稿多处误作 iMac)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1131.491,
+            1146.497
+          ],
+          "quote": "IMEC was one of the birthplaces of silicon photonics in the world and has grown to be the number one research center when it comes to advanced electronics technologies in the world.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "asml",
+      "type": "company",
+      "role": "company",
+      "name": "ASML",
+      "file": "ASML",
+      "primary": true,
+      "how_described": "Herwig 的火热观点:欧洲做成过一次长达 40 年的成功故事,叫 ASML,欧洲已准备好迎接更多这样的故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1810.993,
+            1820.577
+          ],
+          "quote": "And so to build it here, Europe has done this once, it's a long time ago, but it's been a 40 year success story and it's called ASML.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lumentum",
+      "type": "company",
+      "role": "company",
+      "name": "Lumentum",
+      "file": "Lumentum",
+      "primary": true,
+      "how_described": "西方仅有的两个有这种规模的激光器玩家之一,受 NVIDIA 投资追捧,需求满溢、股价一年涨了一千倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            548.122,
+            552.867
+          ],
+          "quote": "They showed the market what they meant with their investments in Lumentum, Coherent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            591.164,
+            593.706
+          ],
+          "quote": "I interviewed the Lumentum CEO, Michael Hurston.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            679.051,
+            683.493
+          ],
+          "quote": "Lasers first and foremost, which is what Lumentum and others are making.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1173.977,
+            1184.142
+          ],
+          "quote": "The constraints for us now, the whole market, Coherent, Lumentum and others, everybody is facing the same constraints.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coherent",
+      "type": "company",
+      "role": "company",
+      "name": "Coherent",
+      "file": "Coherent",
+      "primary": true,
+      "how_described": "与 Lumentum 并列的西方两家领先公司之一,获 NVIDIA 投资,与全行业一样面临机器产能、良率和衬底原材料的约束。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            548.122,
+            552.867
+          ],
+          "quote": "They showed the market what they meant with their investments in Lumentum, Coherent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            640.496,
+            647.099
+          ],
+          "quote": "And so, you know, obviously, Lamentum Coherent are the two leading companies in the West doing this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1173.977,
+            1184.142
+          ],
+          "quote": "The constraints for us now, the whole market, Coherent, Lumentum and others, everybody is facing the same constraints.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": true,
+      "how_described": "本集说 TSMC、GlobalFoundries 这些传统大厂都在投前端——造硅晶圆,但 NVIDIA 订购的是最终芯片,中间的激光器、封装、测试环节缺位;Thema 团队也有来自 TSMC 的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1305.898,
+            1317.022
+          ],
+          "quote": "Obviously, people like Yannick from NVIDIA, but we have people from AWS, we have people from TSMC, Lime Research, like the top companies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集用它的例子说明能耗约束:Google 与阿姆斯特丹谈判三年拿不到电网,最后把数据中心计划搬到比利时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            368.946,
+            376.532
+          ],
+          "quote": "If you think about your traditional Google search five years ago, it was basically your traffic is routed to one computer that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            452.534,
+            461.098
+          ],
+          "quote": "Google negotiated for three years with Amsterdam and had to move its plans to actually now Belgium because they simply can't get the grid.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            515.249,
+            519.813
+          ],
+          "quote": "The speed of change happened November 22, ChatGPT comes out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "作为 Thema 团队人才来源被提及:「我们有来自 AWS 的人」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1305.898,
+            1317.022
+          ],
+          "quote": "Obviously, people like Yannick from NVIDIA, but we have people from AWS, we have people from TSMC, Lime Research, like the top companies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "photonics",
+      "type": "concept",
+      "role": "concept",
+      "name": "光子学 (photonics)",
+      "file": "光子学",
+      "primary": true,
+      "how_described": "本集主线:用光而非电在芯片间传数据的技术,在科学界酝酿了二三十年,如今数据中心能耗成为它的杀手级应用,但人们才刚意识到其潜力,这只是大得多的制造生态系统的起点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            10.863,
+            12.225
+          ],
+          "quote": "The potential of photonics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            48.756,
+            53.978
+          ],
+          "quote": "We're here in Monaco and we're going to go deep into photonics and what you're building with FEMA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            54.678,
+            59.08
+          ],
+          "quote": "But before we get into that, we're going to go into a long conversation on photonics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            63.601,
+            64.822
+          ],
+          "quote": "How did you get into photonics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            77.082,
+            81.926
+          ],
+          "quote": "And back then, Silicon Photonics was this niche upcoming branch in engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            90.073,
+            103.883
+          ],
+          "quote": "I did my PhD in that field and then by that time I had the opportunity to move to San Diego to join a startup company there that was trying to commercialize silicon photonics, one of the first companies to do that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            104.703,
+            112.748
+          ],
+          "quote": "And to successfully do that, I moved back to iMac, where I worked on laser integration for silicon photonics for a while.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            122.033,
+            130.658
+          ],
+          "quote": "And so we started from scratch, built the silicon photonics technology there into a product-ready maturity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            138.965,
+            163.705
+          ],
+          "quote": "So I've been investor most of my life, turned operator very late, but I've been focused on deep tech for quite a while and so got involved in the fascinating world of photonics almost a decade ago and realized three, four years ago that the train was leaving the station and there were some gaping holes in the supply chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            164.405,
+            185.218
+          ],
+          "quote": "And that is what we're trying to solve with Thema, realizing that, you know, this visionary choice of Yannick 20 years ago to study the field of silicon photonics was something that has put Belgium on the map and has created a talent base that's broad and deep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            194.005,
+            206.039
+          ],
+          "quote": "So let's lay out the state of the market and how chips have gotten to this point, why copper is going out of date and why there's a focus on photonics and lasers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            223.083,
+            232.865
+          ],
+          "quote": "That was because we were talking to the CTOs of data centers and realized indeed what their need was and how photonics could help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            489.586,
+            499.272
+          ],
+          "quote": "Every deep deck paradigm shift needs a killer app for photonics more than 20 years in the making, 30 years in the making on the science side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            523.778,
+            531.246
+          ],
+          "quote": "And with the growth of that came this requirement or this realization, okay, we need to switch to photonics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            533.708,
+            540.895
+          ],
+          "quote": "They were, I mean, they had been talking about photonics for a long time, but they said, okay, we need to make the switch happen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            624.26,
+            634.57
+          ],
+          "quote": "Photonics for years was an academic endeavor with some applications that was being prepared for in the supply chain at that scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            650.06,
+            668.269
+          ],
+          "quote": "If you look at the rest of the industry, the traditional players, the TSMCs, Global Foundries, Towers of this world have made a tremendous effort investing in the part that fits in their supply, in their production process, which is the front end, the silicon photonics, so making the wafers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1111.498,
+            1128.989
+          ],
+          "quote": "So it started over 30 years ago and has been doing, has been spearheading research initially in the area of electronics, but since sometime also much broader area, one of these is photonics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1131.491,
+            1146.497
+          ],
+          "quote": "IMEC was one of the birthplaces of silicon photonics in the world and has grown to be the number one research center when it comes to advanced electronics technologies in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1367.26,
+            1378.729
+          ],
+          "quote": "If you read the website of the European Council on the European Chip Act 2, they say that they really want to prioritize photonics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1379.51,
+            1384.377
+          ],
+          "quote": "Within Photonics, they want to really focus on industrialization, pure play.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1402.559,
+            1421.372
+          ],
+          "quote": "One of my favorite statistics from one of our board members who was the visionary professor who founded the photonics department at the University of Ghent, between 2000 and 2015, there were 4,000 peer-reviewed white papers on photonics globally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1772.686,
+            1774.506
+          ],
+          "quote": "It could be that photonics are underrated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1778.244,
+            1791.302
+          ],
+          "quote": "I think, yes, people are waking up to the potential of photonics, but it's just the start of a much larger manufacturing ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1843.627,
+            1849.468
+          ],
+          "quote": "And there's a huge opportunity for optics, for photonics there, and we have to tap into that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1851.888,
+            1857.85
+          ],
+          "quote": "Well, Ionic, Herwig, thank you so much for a nice little deep dive on photonics and FEMA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "silicon-photonics",
+      "type": "concept",
+      "role": "concept",
+      "name": "硅光子学 (silicon photonics)",
+      "file": "硅光子学",
+      "primary": true,
+      "how_described": "Yannick 20 年前选读的冷门领域,IMEC 是其世界发源地之一,他在 NVIDIA 把它打造成产品级成熟度;传统大厂投资的前端即硅光子学晶圆制造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            77.082,
+            81.926
+          ],
+          "quote": "And back then, Silicon Photonics was this niche upcoming branch in engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            90.073,
+            103.883
+          ],
+          "quote": "I did my PhD in that field and then by that time I had the opportunity to move to San Diego to join a startup company there that was trying to commercialize silicon photonics, one of the first companies to do that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            104.703,
+            112.748
+          ],
+          "quote": "And to successfully do that, I moved back to iMac, where I worked on laser integration for silicon photonics for a while.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            122.033,
+            130.658
+          ],
+          "quote": "And so we started from scratch, built the silicon photonics technology there into a product-ready maturity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            164.405,
+            185.218
+          ],
+          "quote": "And that is what we're trying to solve with Thema, realizing that, you know, this visionary choice of Yannick 20 years ago to study the field of silicon photonics was something that has put Belgium on the map and has created a talent base that's broad and deep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            650.06,
+            668.269
+          ],
+          "quote": "If you look at the rest of the industry, the traditional players, the TSMCs, Global Foundries, Towers of this world have made a tremendous effort investing in the part that fits in their supply, in their production process, which is the front end, the silicon photonics, so making the wafers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1131.491,
+            1146.497
+          ],
+          "quote": "IMEC was one of the birthplaces of silicon photonics in the world and has grown to be the number one research center when it comes to advanced electronics technologies in the world.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "optical-interconnects",
+      "type": "concept",
+      "role": "concept",
+      "name": "光互连 (optical interconnects)",
+      "file": "光互连",
+      "primary": true,
+      "how_described": "本集判断:铜互连已经力不从心,GPU 越快需要的数据越多,所以行业正转向带宽高得多的光互连。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            291.266,
+            300.03
+          ],
+          "quote": "And that's why we're transitioning to optical interconnects, which bring much higher data transfer bandwidths.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说模型已经大到装不进单个 GPU,必须把成百上千块 GPU 互连起来跑;今天的 AI 工厂一半是 GPU,另一半是互连这些 GPU 的技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            264.611,
+            273.858
+          ],
+          "quote": "You think about these compute engines that actually run the models, but the models have gotten so large that they no longer fit on a single GPU.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            380.736,
+            389.543
+          ],
+          "quote": "Now, if you think about modern AI infrastructure, there's, as I said before, the models no longer fit on a single GPU.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            389.563,
+            402.253
+          ],
+          "quote": "So there's already GPU to GPU communication, but now in the age of agentic AI, there's a model that is doing a call to some tool, which is on a different server that's returning the results to the GPU.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            418.863,
+            427.348
+          ],
+          "quote": "You need a much flatter network that means far more connections between direct connections between switches and GPU.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 工厂 (AI factory)",
+      "file": "AI 工厂",
+      "primary": true,
+      "how_described": "与传统超大规模数据中心对比:GPU 与 GPU 之间持续通信、智能体调用其他服务器的工具,服务器间流量暴增且对延迟极敏感,需要平坦密集得多的网络;其中一半价值在互连技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            354.434,
+            368.886
+          ],
+          "quote": "So if you compare a traditional hyperscale data center to a modern AI factory, one of the big differences is that there is way more traffic between different servers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1837.085,
+            1843.366
+          ],
+          "quote": "AI factory today, half of that is GPUs, but the other half is the technology to interconnect these GPUs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说能耗是让数据中心 CTO 夜不能寐的第一答案——CEO 要增长但没人能交付电网,这是生死问题;欧洲法规更严反而成为建设高能效基础设施的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            316.34,
+            326.468
+          ],
+          "quote": "And one of the most affected and going to be the most effective places for that spend is in these data centers because the current old infrastructure of a data center is not built for AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            354.434,
+            368.886
+          ],
+          "quote": "So if you compare a traditional hyperscale data center to a modern AI factory, one of the big differences is that there is way more traffic between different servers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            404.975,
+            411.219
+          ],
+          "quote": "The data center, which is very sensitive to latency, basically the time between when all these different calculations can run.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            432.283,
+            442.168
+          ],
+          "quote": "If you're asking a CTO of a data center what keeps you awake at night, the energy consumption is answer number one because it's existential to them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1619.148,
+            1632.213
+          ],
+          "quote": "Then hopefully we will also start building out in Europe our own homegrown data center network, which may look very different than the mega hyperscalers that the US has built.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1864.099,
+            1874.423
+          ],
+          "quote": "Zone develops next generation data center campuses, partnering with AI companies, site developers, and technology leaders to bring compute online faster and at scale.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "energy-consumption",
+      "type": "concept",
+      "role": "concept",
+      "name": "能耗 (energy consumption)",
+      "file": "能耗",
+      "primary": true,
+      "how_described": "本集称数据中心和 AI 的能耗就是光子学等待了二三十年的那个杀手级应用——每一个深科技范式转变都需要一个杀手级应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            432.283,
+            442.168
+          ],
+          "quote": "If you're asking a CTO of a data center what keeps you awake at night, the energy consumption is answer number one because it's existential to them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            500.733,
+            504.175
+          ],
+          "quote": "Energy consumption by data centers and AI is that killer app.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链 (supply chain)",
+      "file": "供应链",
+      "primary": true,
+      "how_described": "本集核心判断:创新是现成的、供应链完全没准备好——机器产能不够、良率和效率不达标、激光器衬底原材料只有寥寥几家供应商被严重卡脖子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            138.965,
+            163.705
+          ],
+          "quote": "So I've been investor most of my life, turned operator very late, but I've been focused on deep tech for quite a while and so got involved in the fascinating world of photonics almost a decade ago and realized three, four years ago that the train was leaving the station and there were some gaping holes in the supply chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            559.513,
+            563.977
+          ],
+          "quote": "And so now everybody realizes, oh, the supply chain is not ready.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            624.26,
+            634.57
+          ],
+          "quote": "Photonics for years was an academic endeavor with some applications that was being prepared for in the supply chain at that scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1909.105,
+            1912.287
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "foundry",
+      "type": "concept",
+      "role": "concept",
+      "name": "代工厂 (foundry)",
+      "file": "代工厂",
+      "primary": true,
+      "how_described": "Thema 要做的是「纯代工」(pure play photonic foundry):从零建这种规模的代工厂是三到五年的项目,他们靠买下歇业的欧洲大厂而就位;欧洲芯片法案 2 也聚焦工业化和纯代工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            768.738,
+            776.102
+          ],
+          "quote": "We have been building the concept of a pure play photonic foundry at a much larger scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            798.014,
+            812.719
+          ],
+          "quote": "And as we were making plans in 23, 24 to do this, there was, I guess, some serendipity involved in that a large scale European foundry went out of business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            830.235,
+            844.39
+          ],
+          "quote": "Two, lots of industrial talent, as I said, and infrastructure that was ready to go right at the time when everybody needs it, because when you want to build a foundry of this size, you're talking about a three to five year project.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 AI (agentic AI)",
+      "file": "智能体 AI",
+      "primary": false,
+      "how_described": "本集一笔带过:在智能体 AI 时代,模型要调用另一台服务器上的工具并把结果返回 GPU,加剧了数据中心内部流量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            389.563,
+            402.253
+          ],
+          "quote": "So there's already GPU to GPU communication, but now in the age of agentic AI, there's a model that is doing a call to some tool, which is on a different server that's returning the results to the GPU.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GlobalFoundries",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

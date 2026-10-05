@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lumentum</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lumentum">LU</div><div class="pi"><h1 class="pt">Lumentum</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lumentum">LU</div><div class="pi"><h1 class="pt">Lumentum</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]]**(00:00起):本集主角公司:光通信公司,嘉宾任 CEO 后五个季度营收翻三倍;自运营晶圆厂,自称是「光学行业里的 TSMC」,并聚焦数据中心转型为纯数据中心公司
+- **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(09:08起):西方仅有的两个有这种规模的激光器玩家之一,受 NVIDIA 投资追捧,需求满溢、股价一年涨了一千倍。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]] — 作为被讨论公司
+- [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michael]] · [[Molly]] · [[光纤]] · [[数据中心]] · [[纵向扩展]] · [[磷化铟]] · [[激光]] · [[超大规模云厂商]] · [[TSMC]] · [[NVIDIA]]
+[[数据中心]] · [[TSMC]] · [[NVIDIA]] · [[Coherent]] · [[Michael]] · [[Herwig]] · [[Molly]] · [[Rorik]] · [[光纤]] · [[Yannick]]
 
-<script type="application/json" class="pd-epn">{"Michael":1,"Molly":2,"光纤":1,"数据中心":20,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":8,"NVIDIA":53}</script>
+<script type="application/json" class="pd-epn">{"数据中心":21,"TSMC":9,"NVIDIA":54,"Coherent":2,"Michael":1,"Herwig":1,"Molly":2,"Rorik":1,"光纤":1,"Yannick":1}</script>
 
 <script>
 (function(){

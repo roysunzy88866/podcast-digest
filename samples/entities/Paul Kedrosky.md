@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":20,"token":31,"GPU":21,"推理":74,"商业地产":1,"前沿模型":24,"harness":55,"预训练":8,"后训练":1,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"数据中心":21,"token":31,"GPU":22,"推理":74,"商业地产":1,"前沿模型":24,"harness":55,"预训练":8,"后训练":1,"AGI":26}</script>
 
 <script>
 (function(){

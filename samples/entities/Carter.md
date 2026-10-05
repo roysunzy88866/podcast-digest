@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":403,"上下文压缩":1,"RL":12,"蒸馏":1,"KV 缓存":4,"Cognition":25,"OpenRouter":13}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":405,"上下文压缩":1,"RL":12,"蒸馏":1,"KV 缓存":4,"Cognition":25,"OpenRouter":13}</script>
 
 <script>
 (function(){

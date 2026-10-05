@@ -115,9 +115,9 @@ Claire 的结论：担心 Meta 隐私？「我当 Facebook 用户快 20 年了�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:Muse、OpenClaw、ChatGPT、Meta · 同概念:智能体 (agent)</span>
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手]]<span class="pd-rz">同公司:Muse、OpenClaw、ChatGPT · 同概念:智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)、浏览器操作 (browser use)</span>
-- [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|让AI替你操作电脑和浏览器的三个实战用法]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)、浏览器操作 (browser use)</span>
 
 </div>
 <div class="pd-ex">

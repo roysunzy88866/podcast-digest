@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Town</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Town">TO</div><div class="pi"><h1 class="pt">Town</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Town">TO</div><div class="pi"><h1 class="pt">Town</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(20:17起):本集说 Town 是一个非凡的生产力产品，能管理个人收件箱、清洗订阅，并通过记忆实现复合改进
 - **[[2026-09-03-talks-agents-next-frontier-agent-to-agent-and|《智能体对智能体？其实是个搜索问题》]]**(00:23起):演讲者现任 CTO 的公司，做面向普通人的助理智能体，本集明确说不展开聊它。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(00:07起):本集主角:住在用户邮箱和日历里的 AI 助手,观察你的日常安排并在后台替你干活,上线三个月,目标用户是用邮箱、日历、短信干活的主流人群。
+- **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(04:40起):本集以 Town 为「复利的个人价值」护城河的例子：它连接你的 Slack、邮件、Google Drive，围绕你建立关于你是谁、你说话语气的 playbook，无法轻易迁移。
 
 ## ① 提到它的金句
 
@@ -26,20 +27,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 - [[2026-09-03-talks-agents-next-frontier-agent-to-agent-and|《智能体对智能体？其实是个搜索问题》]] — 作为被讨论公司(提及)
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[隐私]] · [[11 Labs]] · [[GrokBot]] · [[护城河]] · [[开放权重模型]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Amazon]] · [[Cursor]] · [[隐私]] · [[Meta]] · [[11 Labs]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Anthropic":171,"OpenAI":159,"Google":55,"Cursor":80,"隐私":2,"11 Labs":4,"GrokBot":8,"护城河":14,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Anthropic":173,"OpenAI":161,"Google":57,"Amazon":28,"Cursor":80,"隐私":2,"Meta":42,"11 Labs":4,"Claude":88}</script>
 
 <script>
 (function(){

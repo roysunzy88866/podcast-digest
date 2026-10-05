@@ -54,7 +54,7 @@ unlisted: true
 
 [[GPU]] · [[Gio]] · [[Steven]] · [[AppLovin]] · [[iMac]] · [[Axon 2]] · [[推理]] · [[推荐系统]] · [[光子学]] · [[语义嵌入]]
 
-<script type="application/json" class="pd-epn">{"GPU":21,"Gio":1,"Steven":1,"AppLovin":1,"iMac":1,"Axon 2":1,"推理":74,"推荐系统":1,"光子学":1,"语义嵌入":1}</script>
+<script type="application/json" class="pd-epn">{"GPU":22,"Gio":1,"Steven":1,"AppLovin":1,"iMac":1,"Axon 2":1,"推理":74,"推荐系统":1,"光子学":2,"语义嵌入":1}</script>
 
 <script>
 (function(){

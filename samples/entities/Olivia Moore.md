@@ -7,29 +7,44 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Olivia Moore</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Olivia Moore">OL</div><div class="pi"><h1 class="pt">Olivia Moore</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Olivia Moore">OL</div><div class="pi"><h1 class="pt">Olivia Moore</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*9 条*
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q1]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q2]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q3]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q4]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q5]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q6]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q8]]
+
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q9]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为主持
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[Lassie]] · [[智能体]] · [[人在回路]] · [[现有巨头]] · [[Robinhood]] · [[Superhuman]] · [[Stripe]]
+[[智能体]] · [[Frederick Rankin]] · [[Elena Berger]] · [[Alex Rampell]] · [[Josh Ellman]] · [[Stein Pella]] · [[ChatGPT]] · [[Lassie]] · [[Claude]] · [[人在回路]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":403,"人在回路":19,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Frederick Rankin":1,"Elena Berger":5,"Alex Rampell":3,"Josh Ellman":1,"Stein Pella":1,"ChatGPT":96,"Lassie":1,"Claude":88,"人在回路":19}</script>
 
 <script>
 (function(){

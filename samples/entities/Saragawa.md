@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":28,"Azure":3,"GitHub":28,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":55,"轨迹":4,"智能体":403}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":28,"Azure":3,"GitHub":28,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":55,"轨迹":4,"智能体":405}</script>
 
 <script>
 (function(){

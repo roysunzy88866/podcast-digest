@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":18,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":3,"AI 编程":6,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":18,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":6,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

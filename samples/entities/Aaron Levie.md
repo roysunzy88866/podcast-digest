@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":74,"Sofia Puccini":4,"智能体":403,"Theo Jaffe":7,"应用层":4,"Anthropic":171,"LLM 套壳":1,"OpenAI":159}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":74,"Sofia Puccini":4,"智能体":405,"Theo Jaffe":7,"应用层":4,"Anthropic":173,"LLM 套壳":1,"OpenAI":161}</script>
 
 <script>
 (function(){

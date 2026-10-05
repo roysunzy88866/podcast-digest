@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":5,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":17,"递归自我改进":6,"研究品味":1,"上下文学习":3,"harness":55,"对齐":17}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":5,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":18,"递归自我改进":6,"研究品味":1,"上下文学习":3,"harness":55,"对齐":17}</script>
 
 <script>
 (function(){

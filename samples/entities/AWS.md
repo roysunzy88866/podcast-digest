@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:48起):本集说嘉宾的职业生涯起点，2010、2011 年前后在那里做工程师，后来发现动手工程对他来说不够。
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(40:48起):本集说与 AWS 的解耦合作也看到类似 5 倍的吞吐量数字；AWS 带着自家 training parts 是四大芯片厂商之一。
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(03:11起):本集嘉宾在此工作 18 年、任 VP 兼杰出工程师，正专注智能体 AI 基础设施，并推出 Agent Core、Strands、Dogwood 等智能体相关产品。
+- **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(21:45起):作为 Thema 团队人才来源被提及:「我们有来自 AWS 的人」。
 
 ## ① 提到它的金句
 
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
@@ -62,14 +63,15 @@ unlisted: true
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为被讨论公司
+- [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Databricks]] · [[Microsoft]] · [[NVIDIA]] · [[护栏]] · [[OpenAI]] · [[Stripe]] · [[McKinsey]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[NVIDIA]] · [[Databricks]] · [[Microsoft]] · [[护栏]] · [[OpenAI]] · [[Stripe]] · [[Google]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Anthropic":171,"Databricks":20,"Microsoft":28,"NVIDIA":53,"护栏":77,"OpenAI":159,"Stripe":45,"McKinsey":6,"推理":74}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Anthropic":173,"NVIDIA":54,"Databricks":20,"Microsoft":28,"护栏":77,"OpenAI":161,"Stripe":45,"Google":57,"数据中心":21}</script>
 
 <script>
 (function(){

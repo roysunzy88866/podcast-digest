@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>86</b> 集 · <b>47</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>88</b> 集 · <b>48</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -90,16 +90,18 @@ unlisted: true
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(03:42起):本集说 Claude 的 PR 常在页脚标注 co-authored by Claude,且其产生 SQL 注入漏洞的概率约是人类 1.5 倍。
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(18:08起):本集把 Claude 作为 AI 编码助手的代表：Autobot 起初是「盒装 Claude Code」；Liz 的翻车案例中被助手凭空断言缺字段后签字担责——「Claude 干的不是借口」；她也借 Claude 修出 ARM64 启动 bug 的六行补丁合入上游。
 - **[[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]]**(06:08起):访谈中作为常用编码模型提及，如「去问你的 Claude 为什么这是错的」。
+- **[[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]]**(03:06起):本集把它说成:开发者普遍同时开多个 Claude/Codex 会话、一个干活一个审查的典型例子,也是演示中在各环境运行的本地会话。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(20:14起):本集多处提到用 Claude：维护节目 docket 的 Claude 技能、非技术朋友用 Claude 给自己做小应用、把 Analytics 丢给 Claude 问该发什么内容。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(03:13起):在位者叠加大模型的例子里被点名：把 Claude 和 Salesforce 捏在一起
 - **[[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]]**(14:57起):本集说:与 ChatGPT 一样,Claude 能给出相当不错的医疗建议,富人把验血报告放进 ChatGPT、Claude 与智能体聊两个小时问细节——「医生没时间做这个,AI 有全世界所有的时间」。
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(04:53起):本集作为成本对比基线：换成 Kimchi 的自动模型选择后，同样的产出给 Claude 的成本下降 1.5 倍，总体省 2.5 倍；半年前 Claude 账单飙升正是他们造 harness 的起因。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(01:35起):本集批评其安全性靠提示词里写「请不要做邪恶的事情」,并提到它会把大量遥测数据发回 Anthropic 的 Datadog 实例。
 - **[[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]]**(03:14起):本集把 Claude 当作日常智能体：连上 Composio 的 MCP 后，只需粘贴 Slack 链接就能自动跨 Sentry、Datadog 取数、找根因并在五分钟内提交修复 PR，全程无需写工作流或 skill。
+- **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Claude 在美国付费订阅者数量上已超过 Gemini，是本报告最大意外之一；Anthropic 名言不做广告，订阅打得更激进，约 7.5% 订阅用户在每月 100 美元以上最高档。
 
 ## ① 提到它的金句
 
-*47 条*
+*48 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -195,9 +197,11 @@ unlisted: true
 
 ![[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a#^q2]]
 
+![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
+
 ## ② 出现在这些集
 
-*86 集*
+*88 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -279,20 +283,22 @@ unlisted: true
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
 - [[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]] — 作为概念(提及)
+- [[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]] — 作为概念(提及)
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]] — 作为被讨论公司
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为被讨论公司
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Lenny]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Anthropic":171,"ChatGPT":94,"Codex":78,"OpenAI":159,"MCP":72,"Lenny":68,"Google":55,"沙箱":74,"Claude Code":94}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Anthropic":173,"ChatGPT":96,"Codex":79,"OpenAI":161,"MCP":73,"Google":57,"Lenny":68,"沙箱":74,"Claude Code":94}</script>
 
 <script>
 (function(){

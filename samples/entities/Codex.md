@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>78</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>79</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -84,6 +84,7 @@ unlisted: true
 - **[[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]]**(01:00起):本集作为订阅堆量文化的象征反复提及（「一周用光六个 Codex 订阅」），也作为跨厂商编排的变通工具。
 - **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(00:00起):本集说 Codex 是 OpenAI 的编程工具,dot 可跨它工作、可替你启动 Codex 线程;本次还开放了 Codex 原语给开发者,并新增 8 倍速的 ultrafast 档位。
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(01:10起):OpenAI 的编码智能体产品，本集多次作为计算机使用的载体出现：AppShot 在 Codex 里触发、智能体用它构建并测试软件、开源 Codex harness 实现手动压缩。
+- **[[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]]**(03:06起):本集把它说成:与 Claude 并列的开发会话工具;演示里 Codex 智能体注册接入平台、发送联系人请求并邀请对方智能体进对话。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Cursor 并列提及的编码工具，会带来更多代码和复杂性。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(10:04起):本集顺带提到沙箱是完整 VM,除 Claude 外也能跑 Codex、shell、Python 作业、web 服务器。
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(02:10起):本集说 Codex 是 Tibo 负责的产品,dots 是构建在 Codex harness 之上、加上长时程任务与记忆研究成果后的产物;还提到 Codex 早期几次宕机是 Tibo 自己造成的。
@@ -121,7 +122,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*78 集*
+*79 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -197,6 +198,7 @@ unlisted: true
 - [[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]] — 作为概念(提及)
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司
+- [[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]] — 作为概念(提及)
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司(提及)
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
@@ -206,9 +208,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[沙箱]] · [[harness]]
+[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[沙箱]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":403,"Claude Code":94,"OpenAI":159,"Claude":86,"Cursor":80,"ChatGPT":94,"Anthropic":171,"护栏":77,"沙箱":74,"harness":55}</script>
+<script type="application/json" class="pd-epn">{"智能体":405,"Claude Code":94,"OpenAI":161,"Claude":88,"Cursor":80,"ChatGPT":96,"Anthropic":173,"护栏":77,"沙箱":74,"MCP":73}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neros":1,"Anduril":4,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":4,"瓶颈":2,"国防科技":1,"飞行测试":1}</script>
+<script type="application/json" class="pd-epn">{"Neros":1,"Anduril":4,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":5,"瓶颈":2,"国防科技":1,"飞行测试":1}</script>
 
 <script>
 (function(){

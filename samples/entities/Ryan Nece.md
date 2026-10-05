@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":2,"NextLegacy":1,"Nextplay Capital":1,"Legacy Ventures":1,"NFL":1,"幂律分布":3,"风险投资":3,"新兴管理人":2,"carry（业绩分成）":1,"耳语网络":1}</script>
+<script type="application/json" class="pd-epn">{"Turner":2,"NextLegacy":1,"Nextplay Capital":1,"Legacy Ventures":1,"NFL":1,"幂律分布":3,"风险投资":1,"新兴管理人":2,"carry（业绩分成）":1,"耳语网络":1}</script>
 
 <script>
 (function(){

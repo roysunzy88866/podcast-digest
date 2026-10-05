@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Vlad Kyle":1,"Elena Berger":4,"Leo":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":86,"OpenAI":159,"Anthropic":171}</script>
+<script type="application/json" class="pd-epn">{"Vlad Kyle":1,"Elena Berger":5,"Leo":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":88,"OpenAI":161,"Anthropic":173}</script>
 
 <script>
 (function(){

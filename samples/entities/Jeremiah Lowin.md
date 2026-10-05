@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":72,"FastMCP":1,"Prefab":1,"智能体":403,"沙箱":74,"生成式 UI":4,"Claude":86}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":73,"FastMCP":1,"Prefab":1,"智能体":405,"沙箱":74,"生成式 UI":4,"Claude":88}</script>
 
 <script>
 (function(){

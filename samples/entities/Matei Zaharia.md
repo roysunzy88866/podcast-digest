@@ -36,11 +36,11 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
+[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":20,"Snowflake":19,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":403}</script>
+<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":20,"Snowflake":19,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":405}</script>
 
 <script>
 (function(){

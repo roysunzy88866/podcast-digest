@@ -1,0 +1,178 @@
+{
+  "title_zh": "一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪",
+  "tldr": "a16z 合伙人 Olivia Moore 与 Josh Ellman 解读第七版百大消费级 AI 应用报告：谁在付费、个人智能体、广告与空白品类。",
+  "digest_md": "这一集是 a16z 的 Elena Berger 和两位合伙人聊他们第七版「百大消费级 AI 应用报告」——Olivia Moore 是这份报告的作者，Josh Ellman 来自消费团队。这一版首次加入了消费者刷卡支出数据，结果和光看流量的图景很不一样：流量榜看似趋于稳定（网页加移动端合计只有 11 个新产品，是历版最少），但按支出排名的前 50 个产品里，有 29 个根本不在任何流量榜上 [03:19 Olivia Moore]。消费级 AI 现在本质上是一场重度用户的游戏。\n\n## 付费极度集中：一个重度用户顶几十个普通用户\n\n数据有多集中？大约一半的美国人报告在用 AI，但按 Yipit 的样本组，只有约 4.5% 的美国消费者在为 AI 产品付订阅费——虽然比一年前翻了一倍 [15:22 Olivia Moore]。而就在这付费的 4.5% 里：前 10% 的用户贡献了一半以上的收入；前 1% 占 20%，底部 50% 只占 16% [15:43 Olivia Moore]。前 1% 的用户每月用个人信用卡在 AI 上花 903 美元，中位数用户只花 25 美元 [16:14 Olivia Moore]。\n\n这些花大钱的是谁？主要是开发者、创作者这类重度用户，花在开发者工具、生产力工具、创意工具上——用来构建、制作、销售的东西。N8N、Granola、Higgs Field、Manus 在头部消费者中的占比都远超平均 [16:50 Olivia Moore]。Josh 的解读是：程序员天生会问「我怎么在这个东西上获得杠杆」，这是一种特定心态和世界观，目前还只体现在较小的群体里 [18:12 Josh Ellman]。而且即便在消费级助手产品里，来自 Assistant Benchmark（追踪 170 多个智能体的网站）社群数据也显示，头号用例仍然是编程和技术自动化——所以「服务一个用户每月要几千美元」的成本讲得通；面向主流消费者的产品成本则是几十美元量级 [13:09 Josh Ellman]。\n\n## 个人智能体：三个月从极客玩具走向妈妈们\n\n最有趣的新趋势是个人智能体。上一版报告还差点让 OpenClaw 冲进榜单前排，这一版它已不见踪影——流量彻底下滑，团队据称被 OpenAI 收购，而被 GrokBot、Town、OpenAI 新推出的 DOTS 等后来者取代 [04:16 Olivia Moore]。真正的新变化在消费端：最近三周到一个月出现了一批「我敢推荐给家人放心用」的消费助手，增长极快但还没触达主流用户。其中最大的两个是 Muse 和 Instinct：Instinct 宣布约 10 万用户、日增 10%，前三周 40% 的用户绑了信用卡，首月平均消费超 1000 美元 [06:56 Olivia Moore]。Muse 前 12 天约 50 万下载、25 万活跃用户——听起来猛，但和 Threads 同期（仅美加）1600 万下载相比只有约 500 万 [07:37 Olivia Moore]。Josh 认为下次再做报告时会看到大规模采用 [08:52 Josh Ellman]。\n\n但两个瓶颈摆在面前。一是平台：Amazon 拒绝 Muse 在其站点浏览购物，而 Muse 已与 Shopify 等几百家产品建立合作 [09:29 Olivia Moore]——平台开放度决定智能体能力上限。二是信任：这种软件比以往任何产品都更亲密地了解你（邮件、信用卡、你倾诉的私事），产品越有用知道你越多，而你未必想把这种了解带进与其他人共处的情境——很多人连工作版和个人版 ChatGPT 都要分开，还没有产品破解这个问题 [09:49 Josh Ellman]。Josh 直言：如果你不信任 AI，这将是它成长为大规模消费应用的最大阻碍 [10:42 Josh Ellman]。\n\n## 广告必须回来：订阅主导是消费互联网的反常\n\nOlivia 抛出一个有争议的判断：她并不希望付费人群比例直接扩大——因为目前消费级 AI 收入几乎全部来自直接订阅：网页榜约 85% 靠订阅，约 62% 靠积分/token 加量付费，只有约 13% 有广告或其他模式 [21:07 Olivia Moore]。回顾消费互联网史，几乎所有真正的巨头收入都来自广告或交易费而非订阅——这是个相当不自然的倒置 [21:29 Olivia Moore]。全球消费级订阅产品前 20 名里 ChatGPT 已上榜（三年半就做到了），其余几乎全是媒体公司或高频购买的大平台 [22:09 Olivia Moore]。推理成本下降后，广告和交易费模式才可能真正跑起来。\n\n广告的信号已经有了：OpenAI 的广告年化运行率已达 10 亿美元（8 月数据）——以前一家公司推出广告产品后要花很多年才能到这个水平 [24:30 Olivia Moore]。原因一是密度：12 亿周活；二是它对你了解极多，理论上能收更高价格、有更高转化率，登录与钱包功能还会强化这一点 [25:21 Olivia Moore]。Josh 亲眼见过一个自然融入对话、标注清晰的好广告，也用自己的经历说明商业化查询的价值：他在 Google 上很难找到一款能分开代客钥匙的钥匙扣，最后在 ChatGPT 上来回对话找到了底特律一家工厂的产品——那次对话完全对广告开放，广告本可以帮他找到东西 [27:46 Josh Ellman]。他甚至认为 OpenAI 的定向投放可能超过以精准著称的 Meta，因为那是实时对话 [28:51 Olivia Moore]。垂直产品同样适用：面向医生的 OpenEvidence 已覆盖全美 50-60% 的医生，这种高价值定向受众广告效率极高 [29:25 Olivia Moore]。前提是必须做得巧妙——在和极其个人化的东西对话时塞进「快速减肥」式广告，那是在摧毁信任 [25:53 Josh Ellman]。\n\n## 三大实验室分化，垂直工具的护城河在模型之外\n\nChatGPT 仍是全球主导：网页端流量领先 Claude 约 6 倍、领先 Gemini 约 2 倍 [30:32 Olivia Moore]。最大的意外是：在美国付费订阅者数量上，Claude 已超过 Gemini——尽管 Gemini 背后有 Google 的天然分发和更大的用户基数 [30:59 Olivia Moore]。变现路径也分化了：ChatGPT 在变现上遥遥领先，美国付费消费者订阅数约为 Gemini 与 Claude 之和的三倍；但 Anthropic 名言「不做广告」，订阅打得更激进——约 7.5% 的订阅用户在每月 100 美元以上的最高档，而 ChatGPT 和 Gemini 都只有约 1% [31:41 Olivia Moore]。\n\n创意工具上，实验室没占满所有缝隙。音频（文本转语音、音乐）它们基本没碰——实验室要建编码智能体、要冲 AGI，不值得去趟 Suno 那些版权泥潭——于是 Eleven Labs 和 Suno 稳居流量与消费榜前列 [33:13 Olivia Moore]。图像领域 OpenAI 和 Google 抢走了独立图像生成器的散户流量，MidJourney 已完全跌出流量榜——但收入榜上它回来了：重度用户要的是有品味、能精细调校的模型 [35:21 Olivia Moore]。视频则是中国公司占优的荒野边疆，因为它们能用任何数据训练，而视频生成对数据量极其饥渴 [35:40 Olivia Moore]。Josh 补充一个大趋势：智能体友好、可被智能体调用的创意工具会获得强劲顺风——他让 Astra 这类强大模型直接生成和编辑创意内容，效果非常好 [36:16 Josh Ellman]。\n\n## 初创公司为什么还有机会：界面等着被重新发明\n\nJosh 之前的疑虑——消费公司为什么这么快变企业公司（Replit、Eleven Labs、Gamma 走 PLG 再被拉进企业）[38:18 Josh Ellman]——背后是更普遍的规律：在位者不愿或无法蚕食自己的旧界面。Google 没有为 AI 时代重造 Docs 和 Gmail，连 OpenAI 和 Anthropic 在现有聊天界面之外发布的东西都不太成功 [39:11 Josh Ellman]。而模型每一轮变强，易用的界面产品效用就水涨船高——认为只有一两家公司能做体验层，正是这份报告驳斥的 [40:36 Josh Ellman]。小公司还有船小好掉头的优势：收入榜上的 Plod 是个 AI 笔记硬件，OpenAI 迟早做硬件，但大公司一切都更慢 [41:31 Olivia Moore]。\n\n最好的初创产品护城河是「复利的个人价值」：Olivia 举 Town 为例，它连接你的 Slack、邮件、Google Drive，围绕你建立了 playbook——关于你是谁、你说话的语气。一封 99.9% 像你的邮件和 85% 像你的邮件，区别是改 10 秒还是改 10 分钟以上，这套 playbook 没法轻易迁移走 [44:31 Olivia Moore]。Josh 拒绝用「套壳」这类词：人们在做的是真正丰富的产品和体验，模型只是其中一块 [44:56 Josh Ellman]。\n\n## 最大的空白：帮人「花时间」的产品还没出现\n\nOlivia 有一张图表对比 Web 2 时代与 AI 原生产品品类：迄今为止成功的初创几乎全围绕「把事情做完」——生产力、照片视频、设计编辑、搜索问答。而大量品类完全空白，尤其是「网络品类」（需要多人产品）：约会、招聘（两者本质都是撮合网络）、社交 AI（现在只是把 AI 内容发到旧平台上）都还没有玩家上榜 [46:43 Olivia Moore]。购物、买房这类市场型品类，最终可能活在 Instinct 或 Muse 这类智能体里、活在独立产品里，或两者混合 [47:36 Olivia Moore]。游戏和娱乐唯一例外是正在爆发的 AI 微短剧；模型还不够好到产出普通人爱看的内容，但快了 [47:54 Olivia Moore]。\n\n她引用被投公司 Wabi 的 CEO Eugenia 的话收束全篇：大多数人不是想节省时间，而是在寻找打发时间的方式 [18:46 Olivia Moore]。消费级 AI 里我们看到的几乎全是省时间，而历史上最大的消费公司恰恰是花时间的那类——社交媒体、Netflix、TikTok、YouTube [49:22 Olivia Moore]。这一类 AI 产品，还没有出现。\n\n> 【背景】OpenClaw、GrokBot、Town、Muse、Instinct、DOTS、Plod 等产品名均按转写稿记录保留；部分名称可能存在语音识别误差（如 Crock-Bot 疑为 GrokBot 的误听），金句英文侧为忠实原稿。\n\n## 本集带走\n\n- **看收入别只看流量**：支出榜前 50 中 29 个不在流量榜上；付费集中在重度用户——前 1% 月花 903 美元、中位数 25 美元，花的多是开发/生产/创意工具。\n- **个人智能体正从极客走向普通人**：Instinct 三周内 40% 用户绑卡、首月人均消费超 1000 美元；但平台开放度（如 Amazon 封锁）和信任是两个硬瓶颈。\n- **订阅主导是反常，广告必然回归**：消费级 AI 约 85% 靠订阅、仅 13% 有广告，与消费互联网史相反；OpenAI 广告年化已达 10 亿美元，垂直高价值受众（如 OpenEvidence 覆盖 50-60% 美国医生）广告效率最高。\n- **实验室之外仍有大空间**：音频（Suno、Eleven Labs）、有品味调校的图像（MidJourney 收入回流）、AI 笔记硬件都是实验室不碰或做不了的；护城河在围绕用户积累、无法迁移的 playbook（如 Town）。\n- **最大的空白品类是「花时间」类**：约会、招聘、社交、购物、娱乐几乎没人上榜——历史上最大的消费公司全是花时间的，AI 里这类产品还没出现。",
+  "quotes": [
+    {
+      "en": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
+      "zh": "排名前 1% 的用户，每月用个人信用卡在 AI 上花费 903 美元。",
+      "timestamp": "00:24",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "I think what the platforms are capable of is improving faster than true consumer willingness to use them, which we've seen kind of throughout AI so far.",
+      "zh": "我认为平台能做到的事情，其改进速度比消费者真正愿意使用它们的速度要快，这一点到目前为止我们在整个 AI 领域都有所见证。",
+      "timestamp": "12:05",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "She has this great quote, I'm probably going to botch it, but it's something like, most people aren't looking to save time, they're looking for ways to spend their time.",
+      "zh": "她有一句很棒的话，我可能说不准，但大意是：大多数人并不是想节省时间，他们是在寻找打发时间的方式。",
+      "timestamp": "18:46",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "I actually don't necessarily want to see that 4.5% of people paying for AI products directly expand, which is maybe controversial because I'm like invested in consumer AI products and I'm a consumer AI maximalist.",
+      "zh": "实际上，我并不一定希望那 4.5% 直接为 AI 产品付费的人群比例继续扩大，这可能有争议，因为我投资消费级 AI 产品，而且我是个消费级 AI 最大化主义者。",
+      "timestamp": "20:44",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "Hypothetically, they should be able to charge more and have higher conversion rates because they just know so much more about you as a user.",
+      "zh": "假设性地，他们应该能够收更高的价格并获得更高的转化率，因为他们作为对用户的了解实在多得多。",
+      "timestamp": "25:21",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "I feel like we may see, as they lean into it, OpenAI being able to do crazy good targeting, like even better than I think Meta, which previously was like best in class for this, just because they knew so much about you.",
+      "zh": "我觉得我们可能会看到，随着他们深入投入，OpenAI 能够做到非常厉害的定向投放，甚至比 Meta 还要好——Meta 以前在这方面算是顶级的，就是因为他们对你了解太多了。",
+      "timestamp": "28:51",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "And Claude has actually passed Gemini in terms of number of paid subscribers, which is kind of crazy given Gemini has a much bigger install base and user base overall.",
+      "zh": "Claude 在付费订阅者数量上实际上已经超过了 Gemini，这有点疯狂，因为 Gemini 的整体安装量和用户基数要大得多。",
+      "timestamp": "30:59",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "This trend we've seen in general, which is incumbents being unwilling or unable to cannibalize their existing interfaces.",
+      "zh": "我们普遍看到的这个趋势，即在位者不愿意或无法蚕食自己现有的界面。",
+      "timestamp": "39:04",
+      "speaker": "Olivia Moore"
+    },
+    {
+      "en": "Because the difference between an email that is 99.9% sounds like me and even an email that's 85% sounds like me is the difference between spending like 10 seconds to fix it and like 10 plus minutes.",
+      "zh": "因为一封 99.9% 像我语气的邮件和一封只有 85% 像我语气的邮件之间的区别，就是花大约 10 秒钟修改和花 10 分钟以上的区别。",
+      "timestamp": "44:31",
+      "speaker": "Olivia Moore"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:14",
+      "speaker": "Unknown",
+      "en": "About half of Americans report using AI.",
+      "zh": "大约一半的美国人报告在使用 AI。"
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Unknown",
+      "en": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
+      "zh": "排名前 1% 的用户，每月用个人信用卡在 AI 上花费 903 美元。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "And that also, I think, kind of works towards or connects into the other big conclusion of the report, which is just how much of a power user game consumer AI is right now.",
+      "zh": "我想，这也或多或少引向或关联到报告的另一个大结论，那就是消费级 AI 现在在多大程度上是一场重度用户的游戏。"
+    },
+    {
+      "timestamp": "07:37",
+      "speaker": "Unknown",
+      "en": "In the first 22 days or so, Threads had about 16 million downloads and Muse is still sitting around 5 million over that same time period.",
+      "zh": "在前 22 天左右，Threads 大约有 1600 万次下载，而 Muse 在同一时期只有大约 500 万。"
+    },
+    {
+      "timestamp": "10:42",
+      "speaker": "Unknown",
+      "en": "You know, that's gonna be the biggest impingement on these things really growing as massive consumer apps.",
+      "zh": "你知道，那将是这些东西真正成长为大规模消费级应用的最大阻碍。"
+    },
+    {
+      "timestamp": "12:05",
+      "speaker": "Unknown",
+      "en": "I think what the platforms are capable of is improving faster than true consumer willingness to use them, which we've seen kind of throughout AI so far.",
+      "zh": "我认为平台能做到的事情，其改进速度比消费者真正愿意使用它们的速度要快，这一点到目前为止我们在整个 AI 领域都有所见证。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "Of course it costs that much.",
+      "zh": "当然要花那么多钱。"
+    },
+    {
+      "timestamp": "18:46",
+      "speaker": "Unknown",
+      "en": "She has this great quote, I'm probably going to botch it, but it's something like, most people aren't looking to save time, they're looking for ways to spend their time.",
+      "zh": "她有一句很棒的话，我可能说不准，但大意是：大多数人并不是想节省时间，他们是在寻找打发时间的方式。"
+    },
+    {
+      "timestamp": "20:44",
+      "speaker": "Unknown",
+      "en": "I actually don't necessarily want to see that 4.5% of people paying for AI products directly expand, which is maybe controversial because I'm like invested in consumer AI products and I'm a consumer AI maximalist.",
+      "zh": "实际上，我并不一定希望那 4.5% 直接为 AI 产品付费的人群比例继续扩大，这可能有争议，因为我投资消费级 AI 产品，而且我是个消费级 AI 最大化主义者。"
+    },
+    {
+      "timestamp": "21:29",
+      "speaker": "Unknown",
+      "en": "If you look back at the history of the consumer internet, that's like a pretty unnatural inversion.",
+      "zh": "如果你回顾消费互联网的历史，这是一个相当不自然的倒置。"
+    },
+    {
+      "timestamp": "24:56",
+      "speaker": "Unknown",
+      "en": "Like that would previously take a company years and years and years to get to even after launching an ads product.",
+      "zh": "换作以前，一家公司即使推出了广告产品，也要花上很多很多年才能达到这个水平。"
+    },
+    {
+      "timestamp": "25:21",
+      "speaker": "Unknown",
+      "en": "Hypothetically, they should be able to charge more and have higher conversion rates because they just know so much more about you as a user.",
+      "zh": "假设性地，他们应该能够收更高的价格并获得更高的转化率，因为他们作为对用户的了解实在多得多。"
+    },
+    {
+      "timestamp": "26:02",
+      "speaker": "Unknown",
+      "en": "Like that's not building trust with AI.",
+      "zh": "那不是在建立对 AI 的信任。"
+    },
+    {
+      "timestamp": "28:51",
+      "speaker": "Unknown",
+      "en": "I feel like we may see, as they lean into it, OpenAI being able to do crazy good targeting, like even better than I think Meta, which previously was like best in class for this, just because they knew so much about you.",
+      "zh": "我觉得我们可能会看到，随着他们深入投入，OpenAI 能够做到非常厉害的定向投放，甚至比 Meta 还要好——Meta 以前在这方面算是顶级的，就是因为他们对你了解太多了。"
+    },
+    {
+      "timestamp": "30:59",
+      "speaker": "Unknown",
+      "en": "And Claude has actually passed Gemini in terms of number of paid subscribers, which is kind of crazy given Gemini has a much bigger install base and user base overall.",
+      "zh": "Claude 在付费订阅者数量上实际上已经超过了 Gemini，这有点疯狂，因为 Gemini 的整体安装量和用户基数要大得多。"
+    },
+    {
+      "timestamp": "35:21",
+      "speaker": "Unknown",
+      "en": "But to your point in power users, if you look at the revenue rankings, MidJourney is back.",
+      "zh": "但正如你所说，在高级用户方面，如果你看收入排名，MidJourney 回来了。"
+    },
+    {
+      "timestamp": "39:11",
+      "speaker": "Unknown",
+      "en": "This trend we've seen in general, which is incumbents being unwilling or unable to cannibalize their existing interfaces.",
+      "zh": "我们普遍看到的这个趋势，即在位者不愿意或无法蚕食自己现有的界面。"
+    },
+    {
+      "timestamp": "44:31",
+      "speaker": "Unknown",
+      "en": "Because the difference between an email that is 99.9% sounds like me and even an email that's 85% sounds like me is the difference between spending like 10 seconds to fix it and like 10 plus minutes.",
+      "zh": "因为一封 99.9% 像我语气的邮件和一封只有 85% 像我语气的邮件之间的区别，就是花大约 10 秒钟修改和花 10 分钟以上的区别。"
+    },
+    {
+      "timestamp": "49:27",
+      "speaker": "Unknown",
+      "en": "And that spend time, those end up often actually being amongst the biggest companies, if not the biggest ones.",
+      "zh": "而花时间的那类，它们最终往往实际上是最大的公司之一，如果不是最大的那些的话。"
+    }
+  ],
+  "voice_script": "今天聊的是 a16z 的第七版「百大消费级 AI 应用报告」。跟你聊这份报告的，一位是报告作者、合伙人 Olivia Moore,另一位是消费团队的合伙人 Josh Ellman。这一版报告有个大变化：第一次加入了消费者刷卡支出的数据。结果一加上这个数据，整个图景就跟光看流量完全不一样了——今天咱们就顺着这条线，讲讲消费级 AI 的钱到底在哪。\n\n先交代个背景。表面上看，这个市场好像已经稳定下来了：这一版报告里，网页加移动端合计只有 11 个新产品上榜，是历版最少的。但等一等，按支出来排名的前 50 个产品里，有 29 个压根不在任何流量榜上。这就引出一个很关键的问题：钱和流量，走的根本不是一条路。\n\n到底有多集中？大约一半的美国人报告在用 AI,但只有约 4.5% 的消费者在为 AI 产品付订阅费。虽然比一年前翻了一倍，但依然是很小的一群人。更狠的是，就在这付费的 4.5% 里面，前 10% 的用户贡献了一半以上的收入，前 1% 占了 20%,而底部一半的用户只占 16%。数字再具体一点：前 1% 的用户每月用个人信用卡在 AI 上花 903 美元，中位数用户只花 25 美元。\n\n那这些花大钱的是谁呢？主要是开发者、创作者这类重度用户，花在开发工具、生产力工具、创意工具上——都是用来构建、制作、销售东西的。Josh 的解读很有意思：程序员天生会问一个问题，就是「我怎么在这个东西上获得杠杆」。这是一种特定的心态和世界观，目前还只存在于比较小的群体里。所以你看，「服务一个重度用户每月要几千美元」的成本是讲得通的，而面向主流消费者的产品，成本只是几十美元的量级。\n\n顺着重度用户这条线往下走，就到了这期最有趣的新趋势：个人智能体。这一版报告里，上一版还冲得很猛的 OpenClaw 已经不见踪影，流量彻底下滑，团队据称被 OpenAI 收购了，取而代之的是 GrokBot、Town、OpenAI 新推出的 DOTS 这些后来者。但真正的新变化在消费端：最近三周到一个月，出现了一批「我敢推荐给家人放心用」的消费助手。最大的两个是 Muse 和 Instinct。Instinct 宣布约 10 万用户、日增 10%,前三周就有 40% 的用户绑了信用卡，首月平均消费超过 1000 美元。Muse 前 12 天约 50 万下载、25 万活跃用户——听起来猛，但跟 Threads 同期美加两地 1600 万下载一比，就小了不少。Josh 认为，下次再做报告时，会看到大规模采用。\n\n不过有两个硬瓶颈摆在这类产品面前。第一个是平台。Amazon 拒绝 Muse 在它的站点上浏览购物，而 Muse 已经跟 Shopify 等几百家产品建立了合作——平台的开放程度，直接决定智能体能力的上限。第二个瓶颈更深一层，是信任。这种软件比以往任何产品都更亲密地了解你：你的邮件、你的信用卡、你倾诉的私事。产品越有用，知道的就越多，而你未必想把这种了解带进跟其他人共处的情境里——很多人连工作版和个人版的 ChatGPT 都要分开，还没有产品破解这个问题。Josh 说得很直白：如果你不信任 AI,这将是它成长为大规模消费应用的最大阻碍。\n\n这就顺理成章地引出下一个话题：钱的问题。Olivia 抛出了一个有点争议的判断——她并不希望付费人群的比例直接扩大。为什么？因为目前消费级 AI 的收入几乎全靠直接订阅：网页榜约 85% 靠订阅，只有约 13% 有广告或其他模式。回顾消费互联网的历史，几乎所有真正的巨头，收入都来自广告或交易费，而不是订阅——这是一个相当不自然的倒置。广告的信号其实已经出现了：OpenAI 的广告年化运行率在 8 月已经达到 10 亿美元，以前一家公司推出广告产品后要花很多年才能到这个水平。原因一是密度，12 亿周活；二是它对你了解极多，理论上能收更高的价格、有更高的转化率。甚至有观点认为，OpenAI 的定向投放可能做得比以精准著称的 Meta 还好——因为那可是实时对话。当然，前提是做得巧妙，在跟极其个人化的东西对话时塞进「快速减肥」式的广告，那是在摧毁信任。\n\n顺着这个思路再看整个格局，你会发现实验室之外的空地还有很多。ChatGPT 依然是全球主导，但最大的意外是：在美国付费订阅者数量上，Claude 已经超过了 Gemini,尽管 Gemini 背后有 Google 的天然分发和更大的用户基数。而在创意工具上，实验室根本没占满所有缝隙：音频领域它们基本没碰，于是 Eleven Labs 和 Suno 稳居榜前列；图像领域 MidJourney 跌出了流量榜，却在收入榜上回来了，因为重度用户要的是有品味、能精细调校的模型。那初创公司为什么还有机会？Josh 的答案是：在位者不愿或无法蚕食自己的旧界面。Google 没有为 AI 时代重造 Docs 和 Gmail,连 OpenAI 和 Anthropic 在聊天界面之外发布的东西都不太成功。而最好的护城河，是「复利的个人价值」——比如 Town 连接你的 Slack、邮件、网盘，围绕你建立起一套关于你是谁、你说话语气的 playbook。一封 99.9% 像你的邮件和 85% 像你的邮件，区别是改 10 秒还是改 10 分钟以上，而这套 playbook 没法轻易迁移走。\n\n最后一个话题，也是最大的空白。把成功的 AI 原生产品列一遍，几乎全在「把事情做完」这一类：生产力、照片视频、设计编辑、搜索问答。而约会、招聘、社交、购物这些需要网络的品类，全都还没有玩家上榜。Olivia 引用了被投公司 Wabi 的 CEO Eugenia 的一句话：大多数人不是想节省时间，而是在寻找打发时间的方式。消费级 AI 里我们看到的几乎全是省时间，可历史上最大的消费公司恰恰是花时间的那类——社交媒体、Netflix、TikTok、YouTube。花时间的 AI 产品，还没有出现。"
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>53</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>54</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -59,6 +59,7 @@ unlisted: true
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(00:52起):本集说它是投资者兼最深合作伙伴：无法律文件、不排他，任意时点十几个协作项目、双方各投三位数开发者，从网络设备到机密计算到下一代 GPU/DPU，同时 VastData 也与 AMD 合作
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(38:19起):本集举 Jensen Huang 为例:2017 年见过他时 NVIDIA 还不是今天的 NVIDIA,但思路一致、执行力惊人、身边聚着忠诚的聪明人。
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(08:00起):本集举的浪费例子：NVIDIA 训练 Cosmos 机器人时下载一百万小时视频、丢弃约 96%，浪费算力、带宽、存储和钱。
+- **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(01:52起):Yannick 的前雇主,他在那里从零把硅光子学打造成产品级成熟度;本集说 NVIDIA 领导了向光子学的转向,26 年用对 Lumentum、Coherent 的投资表明态度,六个月投资了整个市场规模四倍的资金。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(01:00起):本集说 NVIDIA 是一家加速计算公司，制造 GPU、网络设备、CPU 和 SoC；它主动推广开放模型，通过构建开放模型来理解该造什么样的 GPU 架构，并赋能整个生态。
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(09:51起):Jamie 举例说 NVIDIA 遥遥领先的核心原因是周期时间更短,出芯片比谁都快
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(00:46起):本集只在引用 Eric Vischer 的「都会成」时提了一句：是 NVIDIA 会成还是新芯片公司会成——答案是都会成。
@@ -95,7 +96,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*53 集*
+*54 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -145,6 +146,7 @@ unlisted: true
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念(提及)
+- [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为被讨论公司
 - [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
@@ -155,9 +157,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[Cursor]] · [[GPU]] · [[开源]] · [[Meta]] · [[数据中心]] · [[Microsoft]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Cursor]] · [[开源]] · [[数据中心]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":171,"智能体":403,"OpenAI":159,"推理":74,"Cursor":80,"GPU":21,"开源":35,"Meta":41,"数据中心":20,"Microsoft":28}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":173,"智能体":405,"OpenAI":161,"推理":74,"GPU":22,"Cursor":80,"开源":35,"数据中心":21,"Google":57,"Meta":42}</script>
 
 <script>
 (function(){

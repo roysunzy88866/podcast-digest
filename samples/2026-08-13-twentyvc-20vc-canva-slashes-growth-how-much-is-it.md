@@ -139,7 +139,7 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT、Replit · 同概念:智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:ChatGPT、Notion、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:ChatGPT、Anthropic、OpenAI、Replit · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

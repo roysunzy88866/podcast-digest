@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jacob]] · [[Lon]] · [[Jason]] · [[Apple]] · [[Disney]] · [[Boston Dynamics]] · [[DigitalOcean]] · [[GoAI]] · [[Eleven Labs]] · [[Sony]]
 
-<script type="application/json" class="pd-epn">{"Jacob":1,"Lon":1,"Jason":4,"Apple":20,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"GoAI":1,"Eleven Labs":8,"Sony":1}</script>
+<script type="application/json" class="pd-epn">{"Jacob":1,"Lon":1,"Jason":4,"Apple":20,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"GoAI":1,"Eleven Labs":9,"Sony":1}</script>
 
 <script>
 (function(){

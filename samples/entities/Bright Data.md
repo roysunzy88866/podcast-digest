@@ -25,7 +25,7 @@ unlisted: true
 
 [[Rafael Levi]] · [[世界模型]] · [[视频索引]] · [[训练数据]] · [[YouTube]] · [[Meta]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Rafael Levi":1,"世界模型":12,"视频索引":1,"训练数据":2,"YouTube":8,"Meta":41,"NVIDIA":53}</script>
+<script type="application/json" class="pd-epn">{"Rafael Levi":1,"世界模型":12,"视频索引":1,"训练数据":2,"YouTube":8,"Meta":42,"NVIDIA":54}</script>
 
 <script>
 (function(){

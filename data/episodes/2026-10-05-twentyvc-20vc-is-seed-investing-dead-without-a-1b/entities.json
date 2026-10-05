@@ -1,0 +1,1298 @@
+{
+  "episode_id": "2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-05",
+  "tags": [
+    "风险投资",
+    "周期与泡沫",
+    "投资组合管理",
+    "LP 关系",
+    "AI 经济"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "venky-ganesan",
+      "type": "person",
+      "role": "host",
+      "name": "Venky Ganesan",
+      "file": "Venky Ganesan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "menlo",
+      "type": "company",
+      "role": "company",
+      "name": "Menlo",
+      "file": "Menlo",
+      "primary": true,
+      "how_described": "本集嘉宾 Venki 所在的有 50 年历史的风投机构，现全力押注 AI、要冲全垒打，50 年里唯一没返还资本的基金是 2000-2001 年 10 个月内投完的 Menlo 8。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            3.156
+          ],
+          "quote": "At this point in Menlo's history, right, we are going broke.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            280.472,
+            285.575
+          ],
+          "quote": "Because I want to build a firm like Menlo, and I want to learn from the wisdom that you've had now seeing multiple different cycles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            388.238,
+            391.282
+          ],
+          "quote": "At this point in Menlo's history, right, we are going broke.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2422.673,
+            2436.14
+          ],
+          "quote": "When I look at Menlo's history, the one fund that wasn't successful at Menlo's history, 50-year history, we only had one fund that's not returned capital, which is Menlo 8, which was invested in a 10-month period between 2000 and 2001.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2439.021,
+            2439.702
+          ],
+          "quote": "Menlo 8.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2440.042,
+            2440.402
+          ],
+          "quote": "Menlo 8.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2443.864,
+            2446.866
+          ],
+          "quote": "Now, by the way, Menlo 7 was one of the best funds in Menlo history.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2531.85,
+            2535.393
+          ],
+          "quote": "I think the founders of Menlo came from very humble beginnings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2568.054,
+            2576.385
+          ],
+          "quote": "Menlo 9, which was raised in 2001, was a $1.5 billion fund, and Menlo 10, which was raised in 2004, was a $1.2 billion fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            3554.307,
+            3557.47
+          ],
+          "quote": "So if I could invest outside of Menlo, I would invest in Bessemer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Menlo 持有 Anthropic 不到 2% 的股份，且它是 Menlo 唯一一家单笔持仓达到基金 20% 上限的公司，是通过随新数据逐步加仓（ladder up）建成的仓位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 418,
+          "t": [
+            1523.602,
+            1525.383
+          ],
+          "quote": "Anthropic, we own less than 2%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1637.165,
+            1637.625
+          ],
+          "quote": "Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2325.453,
+            2326.834
+          ],
+          "quote": "We only stayed with Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3083.523,
+            3092.908
+          ],
+          "quote": "So you're not worried about house prices in the Bay and the inflation that we're going to see with IPOs from SpaceX, Anthropic, OpenAI, that worries you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3319.991,
+            3322.353
+          ],
+          "quote": "Oh, Anjanine wrote a check into Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3322.553,
+            3331.5
+          ],
+          "quote": "Now, maybe he didn't have a fund then, but like you wrote a check, you wrote a $30 to $50 million check, you wrote a check into the Anthropic round, not the $4 billion round we did, but like much earlier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "venture",
+      "type": "concept",
+      "role": "concept",
+      "name": "风险投资 (venture)",
+      "file": "风险投资",
+      "primary": true,
+      "how_described": "本集的主线论断：「风投已经不再是风投了」——种子轮规模上亿、游戏规则已变，必须盯 IRR、必须在场内继续跳舞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            30.246,
+            36.631
+          ],
+          "quote": "There's no way for venture to be successful in today's era without the MAG7 participating in everything you're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            44.573,
+            49.235
+          ],
+          "quote": "Firstly, because I actually know what I'm talking about when we re-enter the world of venture and move away from deep tech.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            62.32,
+            79.751
+          ],
+          "quote": "In this discussion with Venki, we discuss the craziness that's happening in venture, pricing, when to pay up, when not to, how to think about market sizing, how to think about when to sell, how to think about being collaborative in rounds, this and so much more in a true nerd venture fest that is this episode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            444.726,
+            446.026
+          ],
+          "quote": "Venture is not venture anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            455.708,
+            456.748
+          ],
+          "quote": "This is not venture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            461.229,
+            462.17
+          ],
+          "quote": "Venture has changed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            520.787,
+            530.735
+          ],
+          "quote": "Like, there were a bunch of really smart venture firms doing the dot-com boom that got in in 93, 94, made money, and decided to step out of the game in 96, 97.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            569.15,
+            574.072
+          ],
+          "quote": "I think you have to think about the venture portfolio as a bunch of options.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1064.234,
+            1070.396
+          ],
+          "quote": "And I think too often, because venture capital tends to be dominated by personalities, people get caught in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1078.859,
+            1087.842
+          ],
+          "quote": "Too often, venture capital, we end up, because there's so many personalities and people, it becomes more about who and our ego as opposed to just do the job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1244.743,
+            1247.003
+          ],
+          "quote": "The problem is venture is an asymmetric game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1260.566,
+            1265.827
+          ],
+          "quote": "But the most expensive mistakes venture capitalists make are the deals they passed, not the deals they did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1683.082,
+            1687.864
+          ],
+          "quote": "And I think in an era where venture capitalists are going to have ownership come down, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            1803.897,
+            1809.059
+          ],
+          "quote": "That's an amazing achievement, but it is just not enough to get venture excited today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1815.561,
+            1818.042
+          ],
+          "quote": "But do you think venture will ever go back to being excited about that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            1979.274,
+            1982.057
+          ],
+          "quote": "He said, you know, there's no risk in venture capital.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2088.242,
+            2095.989
+          ],
+          "quote": "So the way to think about it is that, and I don't think we spend enough time in venture capital thinking about it, we should say, what is the time horizon you're going to hold the company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2135.018,
+            2139.919
+          ],
+          "quote": "I think the velocity of the business is very important for venture capitalists, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2187.504,
+            2193.59
+          ],
+          "quote": "I think the reality of venture when I joined, this is now dating myself 28 years ago, people didn't focus on IRR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2197.489,
+            2200.21
+          ],
+          "quote": "I think in today's venture, the game has changed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2202.571,
+            2209.553
+          ],
+          "quote": "Because there's no way for venture to be successful in today's era without the Mag 7 participating in everything you're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2209.853,
+            2221.197
+          ],
+          "quote": "Every venture company is writing attacks to NVIDIA in some way, shape, or form, writing the attacks to a hyperscaler in some way, shape, or form, and possibly writing attacks to the foundational model in some way, type, or form.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2328.498,
+            2331.58
+          ],
+          "quote": "Again, venture is changing in a way that multiple people are doing different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2400.345,
+            2407.949
+          ],
+          "quote": "So to me, because you're seeing them grow so fast, their capital needs are growing, and if a venture firm doesn't provide it, they're gonna get it from their competitors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2562.347,
+            2567.594
+          ],
+          "quote": "No, that wasn't the case, but we raised that first billion dollar fund in venture capital.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2649.706,
+            2654.608
+          ],
+          "quote": "Most of them have much bigger private equity portfolios than they have venture portfolios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 963,
+          "t": [
+            3400.594,
+            3402.016
+          ],
+          "quote": "Everybody in the venture industry is smart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 972,
+          "t": [
+            3433.911,
+            3443.815
+          ],
+          "quote": "In some ways, the venture-backed companies, the SaaS companies where people paid high multiples, the ad tables and mirrors, and they got spooned, as I say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 975,
+          "t": [
+            3450.298,
+            3457.522
+          ],
+          "quote": "But the reason why I say the venture-backed companies are even tougher, at least at PE, you have a majority owner who controls the company, who can do things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3605.055,
+            3611.44
+          ],
+          "quote": "What would be your single biggest piece of advice to an LP allocating into venture in this time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1072,
+          "t": [
+            3780.367,
+            3785.691
+          ],
+          "quote": "And two, it's just a wonderful humility that I rarely see as a venture investor.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "irr",
+      "type": "concept",
+      "role": "concept",
+      "name": "IRR",
+      "file": "IRR",
+      "primary": true,
+      "how_described": "本集说如今的游戏规则变了、必须专注 IRR：因为风投的上游标的（MAG7、超大规模云厂商、基础模型公司）在公开市场能以零费率买到，你的 IRR 必须比公开市场指数高出 1000 个基点才配拿私募市场的钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            28.884,
+            30.166
+          ],
+          "quote": "You have to focus on IRR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2171.09,
+            2172.631
+          ],
+          "quote": "DPI or IRR?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2175.114,
+            2178.076
+          ],
+          "quote": "I do think, actually, that you can't have IRR without DPI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2178.416,
+            2187.124
+          ],
+          "quote": "I think the question you're trying to ask is, hey, will you settle for a larger DPI over longer horizon, or do you want quicker DPI with a faster IRR?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2187.504,
+            2193.59
+          ],
+          "quote": "I think the reality of venture when I joined, this is now dating myself 28 years ago, people didn't focus on IRR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2193.69,
+            2197.133
+          ],
+          "quote": "People were like, focus on cash on cash return because IRR took care of itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2200.23,
+            2201.47
+          ],
+          "quote": "You have to focus on IRR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2233.069,
+            2241.56
+          ],
+          "quote": "And so you have to think about your IRR as, I've got to beat that with 1,000 basis points to justify anyone giving you capital in the private markets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dpi",
+      "type": "concept",
+      "role": "concept",
+      "name": "DPI",
+      "file": "DPI",
+      "primary": true,
+      "how_described": "本集说 LP 最真实的声音就是要 DPI（区别于账面估值的实际返还现金），交付了 DPI 才好回去要更多钱；且没有 DPI 就不可能有真正的 IRR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            2171.09,
+            2172.631
+          ],
+          "quote": "DPI or IRR?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2175.114,
+            2178.076
+          ],
+          "quote": "I do think, actually, that you can't have IRR without DPI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2178.416,
+            2187.124
+          ],
+          "quote": "I think the question you're trying to ask is, hey, will you settle for a larger DPI over longer horizon, or do you want quicker DPI with a faster IRR?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2628.476,
+            2631.637
+          ],
+          "quote": "One, they're like, enough TV over PI, I need to get some DPI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2632.117,
+            2637.26
+          ],
+          "quote": "So I think if you deliver DPI, I think you're already in the right side of the table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2637.32,
+            2642.242
+          ],
+          "quote": "And I think it's easier to come back to them to ask for more capital when you deliver DPI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 734,
+          "t": [
+            2674.623,
+            2683.591
+          ],
+          "quote": "So if you are someone who has given people DPI, and you can credibly make the case that you are going to be a player in the AI economy, I think you can raise money from LPs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2683.931,
+            2685.233
+          ],
+          "quote": "You've got to have given DPI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "持股比例（ownership） (ownership)",
+      "file": "持股比例（ownership）",
+      "primary": true,
+      "how_described": "本集说 ownership 永远重要、但要相对于机会看——「宁愿要万亿美元公司 2% 也不要一亿美元公司 20%」，而它另一重意义是错过离群值时的保险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            423.901,
+            425.622
+          ],
+          "quote": "Is it more willingness to have less ownership?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1500.946,
+            1503.789
+          ],
+          "quote": "But does ownership matter as much anymore?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1505.01,
+            1510.494
+          ],
+          "quote": "Ownership always matters, but I think you have to think of that relative to the opportunity, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1525.824,
+            1530.247
+          ],
+          "quote": "My point is that I think when you think about ownership, you can't think of that in isolation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1530.527,
+            1533.509
+          ],
+          "quote": "But I think you're either in the ownership game or you're in the money movement game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1534.958,
+            1543.506
+          ],
+          "quote": "I think when you're getting your option bet, you want to have ownership because when it's not clear, so let's say you know it's an outlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1547.429,
+            1550.472
+          ],
+          "quote": "Prior to being an outlier company, you have to be in the ownership game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1550.792,
+            1556.938
+          ],
+          "quote": "Your best situation is you're in the ownership game in an outlier company, and then you go into the money movement game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1557.356,
+            1562.239
+          ],
+          "quote": "No, I thought the ownership doesn't matter pre it being an outlier because you're there for the information.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1567.019,
+            1568.56
+          ],
+          "quote": "You want to have enough ownership, though.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1580.788,
+            1582.489
+          ],
+          "quote": "So in that case, we got the ownership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1587.893,
+            1592.395
+          ],
+          "quote": "Do you get my rationale, though, for actually it doesn't matter if you have ownership in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1595.847,
+            1601.669
+          ],
+          "quote": "If you're asking me, is it better to be in the company regardless of ownership or not be in the company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1603.369,
+            1610.371
+          ],
+          "quote": "But it's even better to be in the company with ownership because now you actually have gotten your ownership that's going to drive real returns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1650.902,
+            1655.623
+          ],
+          "quote": "But I do feel that you have to think about the question of ownership and concentration as when.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1683.082,
+            1687.864
+          ],
+          "quote": "And I think in an era where venture capitalists are going to have ownership come down, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1702.892,
+            1708.315
+          ],
+          "quote": "And everyone says, but ownership doesn't matter so much because outcome sizes are so much larger than they've ever been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1733.01,
+            1737.852
+          ],
+          "quote": "If you are in one of those outliers, I think you can survive with low ownership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            1760.86,
+            1769.342
+          ],
+          "quote": "And so part of getting ownership is giving some insurance for you that if you missed out on the outlier, the sort of midsize outcomes can still move the needle for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2058.335,
+            2064.584
+          ],
+          "quote": "And so you have to really think of yourself as whatever ownership you bought in your first check, it'll only be 50% by then at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2143.62,
+            2155.284
+          ],
+          "quote": "Because the other reason why your dilution goes down is if you have a fast uptick in valuation, the amount of ownership you've got to give for your next set of human capital is a lot lower, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 953,
+          "t": [
+            3367.276,
+            3372.941
+          ],
+          "quote": "It goes against the portfolio construction that all LPs love, which is high ownership, concentrated portfolio.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "position-sizing",
+      "type": "concept",
+      "role": "concept",
+      "name": "仓位管理（position sizing） (position sizing)",
+      "file": "仓位管理（position sizing）",
+      "primary": true,
+      "how_described": "本集把它作为对冲周期的核心方法：每笔种子投资是买「离群值期权」，只在有收入等定量证据时才加大仓位，且应基于新数据逐步加仓而非一次性押重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            554.672,
+            561.397
+          ],
+          "quote": "And you can hopefully think about portfolio composition and position sizing as a way of mitigating what happens in the cycle turns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            561.657,
+            564.08
+          ],
+          "quote": "Portfolio composition and position sizing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1617.934,
+            1619.615
+          ],
+          "quote": "And it's a position sizing game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1661.764,
+            1666.605
+          ],
+          "quote": "Because the thing about position sizing is you want to position sizes when the data is there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reflexivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "反身性 (reflexivity)",
+      "file": "反身性",
+      "primary": true,
+      "how_described": "本集用索罗斯的反身性解释快速连轮融资如何造王（好业绩→上调→更多资本与人才→更快增长→再上调），并警告所有反身性最终都会停止，只是不知道何时、以何种方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            800.041,
+            803.642
+          ],
+          "quote": "See, to me, that is a great example of Solos' reflexivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            840.293,
+            842.213
+          ],
+          "quote": "And then reflexivity kicks in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            849.635,
+            853.397
+          ],
+          "quote": "And one thing we know from Soros is that all reflexivity will eventually stop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "markup",
+      "type": "concept",
+      "role": "concept",
+      "name": "估值上调（markup） (markup)",
+      "file": "估值上调（markup）",
+      "primary": true,
+      "how_described": "本集说判断创始人只看一条：他是专注终端价值还是专注 markup；模仿者只学到「秘诀就是上调」，这正是反身性风险的来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            803.962,
+            811.665
+          ],
+          "quote": "What I mean by that is you have a company that does well, and because it does well and the revenue is growing really fast, it has a quick markup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            811.985,
+            822.928
+          ],
+          "quote": "And because of that quick markup, it gets more capital, it gets to come on Harry's show, and then it gets more notoriety that allows you to get more human capital along to the financial capital.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            823.048,
+            825.029
+          ],
+          "quote": "It grows faster, and that's another markup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            831.351,
+            835.632
+          ],
+          "quote": "But someone, a copycat can look at that and say, oh, the secret is to have a markup.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dilution",
+      "type": "concept",
+      "role": "concept",
+      "name": "稀释 (dilution)",
+      "file": "稀释",
+      "primary": true,
+      "how_described": "本集说 Menlo 种子投资默认从第一张支票起预期 60% 稀释（融资加期权池扩大），10% 退出时只剩 3.5%-4%，且稀释是持有时间的函数——快业务反而少稀释。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            2020.149,
+            2030.38
+          ],
+          "quote": "And what I mean by that is just like we are suffering more and more dilution as an investor class than ever before, and it's a better time than ever to be an employee given the levels of stock-based compensation, SBC for people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2049.182,
+            2052.667
+          ],
+          "quote": "We expect 60% dilution from the point of our first check, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2052.927,
+            2058.055
+          ],
+          "quote": "And that's a combination of dilution from financing, but it's a dilution from option pool expansions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2074.033,
+            2083.258
+          ],
+          "quote": "Alex is a friend of both of ours, where they actually don't take that much dilution because they scale so fast, so quickly and so efficiently, where actually you suffer almost much less dilution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2083.278,
+            2085.22
+          ],
+          "quote": "So it's almost a tale of two dilution worlds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2096.249,
+            2099.252
+          ],
+          "quote": "Because the time horizon will determine your dilution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2099.552,
+            2103.295
+          ],
+          "quote": "So part of the reason when you are in situations where your dilution is less is they have quick exits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2110.441,
+            2113.383
+          ],
+          "quote": "Your IRA gets hit, and you're going to have meaningful dilution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2143.62,
+            2155.284
+          ],
+          "quote": "Because the other reason why your dilution goes down is if you have a fast uptick in valuation, the amount of ownership you've got to give for your next set of human capital is a lot lower, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lp",
+      "type": "concept",
+      "role": "concept",
+      "name": "LP",
+      "file": "LP",
+      "primary": true,
+      "how_described": "本集大篇幅谈 LP 的诉求：要 DPI、不敢缺席 AI 经济（用 AI 对冲被冲击的私募股权持仓），以及给 LP 的建议「看挡风玻璃别看后视镜」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 661,
+          "t": [
+            2408.109,
+            2411.783
+          ],
+          "quote": "So actually, if managers are deploying a fund in 18 months, LP should forgive them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2451.27,
+            2456.453
+          ],
+          "quote": "And they had massive LP chain because they went and did a load of clean tech and bio, and it was not good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2488.307,
+            2490.788
+          ],
+          "quote": "Did you ever scale out of an LP class?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2583.691,
+            2586.453
+          ],
+          "quote": "You manage a lot of the LP conversations today, correct?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2609.249,
+            2610.989
+          ],
+          "quote": "Every LP just wants Sarah Guo's fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3605.055,
+            3611.44
+          ],
+          "quote": "What would be your single biggest piece of advice to an LP allocating into venture in this time?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "timing-markets",
+      "type": "concept",
+      "role": "concept",
+      "name": "择时市场 (timing markets)",
+      "file": "择时市场",
+      "primary": true,
+      "how_described": "本集用互联网泡沫的教训说明择时几乎不可能：聪明的风投 96、97 年主动退出、错过 97-99 的狂飙被 LP 质问，2000 年又灰头土脸杀回来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            544.985,
+            547.887
+          ],
+          "quote": "So timing markets is really, really hard.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "debt-default",
+      "type": "concept",
+      "role": "concept",
+      "name": "债务违约 (debt default)",
+      "file": "债务违约",
+      "primary": true,
+      "how_described": "本集说周期破裂的第一信号从来不是股权而是债务违约——股权亏了减记即可，债务有偿还预期；他所知的周期几乎都崩在加杠杆上，4 倍杠杆时光判断对没用、时机也必须对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            868.623,
+            874.569
+          ],
+          "quote": "I think usually the first sign comes with some major debt default.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带提到 Menlo 因坚持对创业者的双向承诺而没有投 OpenAI，并以其销售拿三四千万美元离场引出「金钱揭示人」的讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 637,
+          "t": [
+            2323.613,
+            2325.113
+          ],
+          "quote": "And that's why we didn't invest in OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 860,
+          "t": [
+            3046.018,
+            3049.739
+          ],
+          "quote": "I'm seeing sales reps at OpenAI walk out with 30, 40 million bucks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3083.523,
+            3092.908
+          ],
+          "quote": "So you're not worried about house prices in the Bay and the inflation that we're going to see with IPOs from SpaceX, Anthropic, OpenAI, that worries you?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "company",
+      "role": "company",
+      "name": "Benchmark",
+      "file": "Benchmark",
+      "primary": false,
+      "how_described": "本集快问快答中被 Venki 称为「超级难打败」的对手，比 Sequoia 更难打败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            1488.415,
+            1491.038
+          ],
+          "quote": "Even the hailed benchmark now take less than 10%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1498.624,
+            1499.705
+          ],
+          "quote": "I love the benchmark, guys.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            3583.409,
+            3588.773
+          ],
+          "quote": "I think of more people than firms, but I would say benchmark, super hard to beat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3589.093,
+            3590.775
+          ],
+          "quote": "A benchmark harder to beat than Sequoia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            3592.107,
+            3596.77
+          ],
+          "quote": "I mean, obviously, they're both great forms, but like benchmark, I think, is super hard to beat.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

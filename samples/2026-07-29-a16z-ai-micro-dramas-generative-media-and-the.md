@@ -147,8 +147,8 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Town、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:Town、Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI、Town · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

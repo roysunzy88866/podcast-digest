@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]] [[Eric Schwartz]]
+[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":20,"SpaceX":19,"NVIDIA":53,"发射成本":1,"H100":1,"基准测试":17,"相变材料":1,"辐射":1,"McKinsey":6}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":21,"SpaceX":19,"NVIDIA":54,"发射成本":1,"H100":1,"基准测试":18,"相变材料":1,"辐射":1,"McKinsey":6}</script>
 
 <script>
 (function(){

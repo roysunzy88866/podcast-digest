@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]]
+[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Netflix":5,"InterPositive":1,"WorkOS":9,"GenAI":1,"智能体":403,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Netflix":5,"InterPositive":1,"WorkOS":9,"GenAI":1,"智能体":405,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
 
 <script>
 (function(){

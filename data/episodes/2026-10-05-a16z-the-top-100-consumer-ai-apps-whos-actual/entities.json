@@ -1,0 +1,1708 @@
+{
+  "episode_id": "2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual",
+  "podcast": "The a16z Show",
+  "date": "2026-10-05",
+  "tags": [
+    "消费级 AI",
+    "百大 AI 应用报告",
+    "个人智能体",
+    "商业模式与变现",
+    "广告"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "olivia-moore",
+      "type": "person",
+      "role": "host",
+      "name": "Olivia Moore",
+      "file": "Olivia Moore",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            68.918,
+            78.406
+          ],
+          "quote": "In this episode, A16Z's Elena Berger sits down with partners Olivia Moore and Josh Ellman to unpack the seventh edition of our Top 100 Consumer AI Ads Report.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.172,
+            124.094
+          ],
+          "quote": "I'm Elena Berger, and I'm joined by Olivia Moore, who's the author of our ongoing Top 100 Consumer AI Apps Report, and Josh Ellman on our consumer team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "elena-berger",
+      "type": "person",
+      "role": "cohost",
+      "name": "Elena Berger",
+      "file": "Elena Berger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            68.918,
+            78.406
+          ],
+          "quote": "In this episode, A16Z's Elena Berger sits down with partners Olivia Moore and Josh Ellman to unpack the seventh edition of our Top 100 Consumer AI Ads Report.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.172,
+            124.094
+          ],
+          "quote": "I'm Elena Berger, and I'm joined by Olivia Moore, who's the author of our ongoing Top 100 Consumer AI Apps Report, and Josh Ellman on our consumer team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "josh-ellman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Josh Ellman",
+      "file": "Josh Ellman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            68.918,
+            78.406
+          ],
+          "quote": "In this episode, A16Z's Elena Berger sits down with partners Olivia Moore and Josh Ellman to unpack the seventh edition of our Top 100 Consumer AI Ads Report.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.172,
+            124.094
+          ],
+          "quote": "I'm Elena Berger, and I'm joined by Olivia Moore, who's the author of our ongoing Top 100 Consumer AI Apps Report, and Josh Ellman on our consumer team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说个人智能体是最大的新趋势：能替你完成事情的消费级助手（Muse、Instinct 等）正从极客走向家人可用，头号用例仍是编程和技术自动化；平台开放度和信任是其成长为大规模消费应用的最大瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            274.797,
+            279.818
+          ],
+          "quote": "I think that the team was acquired by OpenAI, so they're probably working on the agent assistant products there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            552.647,
+            568.04
+          ],
+          "quote": "This is one of the things we talk about a lot when it comes to consumer agents and assistants, which is, I think they are getting kind of the compounding effects of building out a platform, or at least it seems like they are in terms of the ecosystem of other apps that are available and more easily usable by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            710.532,
+            711.793
+          ],
+          "quote": "Or how you feel about the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            801.834,
+            812.397
+          ],
+          "quote": "This is like when we talk to some agent or assistant products that are aimed towards the more mainstream consumer, they're seeing costs in the tens of dollars, not the thousands of dollars a month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2181.053,
+            2189.278
+          ],
+          "quote": "And so I think that creative tools that are agent friendly and agent accessible are going to increasingly see really compelling tailwinds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2189.518,
+            2198.483
+          ],
+          "quote": "Yeah, yeah, it's actually crazy what you can do if you just, like, empower an agent and just say, like, yeah, install whatever you want to install.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2630.283,
+            2634.827
+          ],
+          "quote": "One example I would give is Town, which is more on the prosumer end of the agent assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2868.394,
+            2871.217
+          ],
+          "quote": "Perhaps your agent is calling the AI native marketplace.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说它是全球占主导地位的消费级 AI 产品，网页端领先 Claude 约 6 倍、Gemini 约 2 倍，变现遥遥领先，广告年化运行率已达 10 亿美元，且因极其了解用户，定向投放可能超过 Meta。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.402,
+            13.069
+          ],
+          "quote": "We're in this world where we're so excited by what ChatGPT did with turning things into conversation and now these agents we can get in our messaging apps to turn them into more conversation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            94.602,
+            109.442
+          ],
+          "quote": "They also get into the rise of personal agents, how ChatGPT, Claude, and Gemini are diverging, why advertising could unlock new consumer AI business models, and the categories that remain surprisingly wide open, from shopping and entertainment to social and dating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            615.055,
+            621.377
+          ],
+          "quote": "It's the same thing as many people have a separate ChatGPT work account and personal account, and no one has quite cracked that yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1329.773,
+            1333.737
+          ],
+          "quote": "ChatGPT is already on there, which is crazy in like three and a half years of growth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1528.312,
+            1531.614
+          ],
+          "quote": "And ChatGPT has launched things like login with ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1591.362,
+            1597.665
+          ],
+          "quote": "I think we're also, you know, one of the other shifts is people are starting to rely on, you know, ChatGPT a lot more for a lot more queries.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1691.487,
+            1693.569
+          ],
+          "quote": "And I finally was like, let me just go ask ChatGPT.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1746.92,
+            1757.491
+          ],
+          "quote": "I do think that it'll help ChatGPT, but also I think it will also support a lot of these more focused, almost verticalized, to use the enterprise term, consumer AI products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1817.606,
+            1826.09
+          ],
+          "quote": "From the very first time we did this report, the main conclusion was like ChatGPT is the dominant global user by both usage and revenue on the consumer side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1828.591,
+            1832.833
+          ],
+          "quote": "Everything below ChatGPT has seen, I think, more movements and more shakeups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1832.853,
+            1841.878
+          ],
+          "quote": "So ChatGPT is now ahead of Claude around 6x on the web, around 2x ahead of Gemini on the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1894.563,
+            1901.528
+          ],
+          "quote": "The other main difference, I would say, in how these products are monetizing, and again, ChatGPT is still far in the lead by monetization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1921.543,
+            1924.385
+          ],
+          "quote": "And that's like 1% for both ChatGPT and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2367.258,
+            2373.224
+          ],
+          "quote": "A launch within their existing ChatGPT or Codex or Claude or Claude Code interfaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2890.425,
+            2897.467
+          ],
+          "quote": "And I just think we're in this world where, you know, we're kind of like so excited by what ChatGPT did with turning things into conversation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 在美国付费订阅者数量上已超过 Gemini，是本报告最大意外之一；Anthropic 名言不做广告，订阅打得更激进，约 7.5% 订阅用户在每月 100 美元以上最高档。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            94.602,
+            109.442
+          ],
+          "quote": "They also get into the rise of personal agents, how ChatGPT, Claude, and Gemini are diverging, why advertising could unlock new consumer AI business models, and the categories that remain surprisingly wide open, from shopping and entertainment to social and dating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1832.853,
+            1841.878
+          ],
+          "quote": "So ChatGPT is now ahead of Claude around 6x on the web, around 2x ahead of Gemini on the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1859.875,
+            1870.221
+          ],
+          "quote": "And Claude has actually passed Gemini in terms of number of paid subscribers, which is kind of crazy given Gemini has a much bigger install base and user base overall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1879.208,
+            1886.135
+          ],
+          "quote": "I think it's come on the wave of a bunch of very successful products that they've launched over the last few months, like Claude Design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1901.548,
+            1906.452
+          ],
+          "quote": "They have around three times more paid consumer subscribers in the U.S. than both Gemini and Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2367.258,
+            2373.224
+          ],
+          "quote": "A launch within their existing ChatGPT or Codex or Claude or Claude Code interfaces.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 Gemini 背后有 Google 的天然分发和更大用户基数，但美国付费订阅者已被 Claude 反超，付费用户中最高档占比仅约 1%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            94.602,
+            109.442
+          ],
+          "quote": "They also get into the rise of personal agents, how ChatGPT, Claude, and Gemini are diverging, why advertising could unlock new consumer AI business models, and the categories that remain surprisingly wide open, from shopping and entertainment to social and dating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1786.887,
+            1800.836
+          ],
+          "quote": "Is it worth talking and taking a step back and talking about OpenAI, Anthropic, and Gemini and sort of these are companies, these are labs that have been on the list pretty much since the beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1832.853,
+            1841.878
+          ],
+          "quote": "So ChatGPT is now ahead of Claude around 6x on the web, around 2x ahead of Gemini on the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1859.875,
+            1870.221
+          ],
+          "quote": "And Claude has actually passed Gemini in terms of number of paid subscribers, which is kind of crazy given Gemini has a much bigger install base and user base overall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1901.548,
+            1906.452
+          ],
+          "quote": "They have around three times more paid consumer subscribers in the U.S. than both Gemini and Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1921.543,
+            1924.385
+          ],
+          "quote": "And that's like 1% for both ChatGPT and Gemini.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 广告年化运行率已达 10 亿美元，此前需要很多年才能达到；收购了 OpenClaw 团队、推出 DOTS，在现有聊天界面之外发布的东西不太成功，做硬件也一切更慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            43.508,
+            47.788
+          ],
+          "quote": "The run rate that OpenAI has reached through advertising, what does that tell us?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            274.797,
+            279.818
+          ],
+          "quote": "I think that the team was acquired by OpenAI, so they're probably working on the agent assistant products there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            280.339,
+            292.401
+          ],
+          "quote": "But also it's kind of been overtaken, I think, by some of the both other attempts at prosumer agents like GrokBot, Town has some fantastic agents, DOTS now by OpenAI, which is new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1460.571,
+            1470.633
+          ],
+          "quote": "Your Consumer Top 100 report had a really, really interesting fact in there, which was the run rate that OpenAI has reached through advertising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1581.357,
+            1582.958
+          ],
+          "quote": "With the OpenAI rollout of ads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1645.834,
+            1654.158
+          ],
+          "quote": "So so for OpenAI, you know, what what kinds of margins are they seeing on ads is a super interesting question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1731.1,
+            1743.716
+          ],
+          "quote": "I feel like we may see, as they lean into it, OpenAI being able to do crazy good targeting, like even better than I think Meta, which previously was like best in class for this, just because they knew so much about you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1786.887,
+            1800.836
+          ],
+          "quote": "Is it worth talking and taking a step back and talking about OpenAI, Anthropic, and Gemini and sort of these are companies, these are labs that have been on the list pretty much since the beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2092.628,
+            2098.092
+          ],
+          "quote": "On images, I think, to your point, like, OpenAI has really leaned into images quite successfully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2358.195,
+            2366.638
+          ],
+          "quote": "For the AI age, I think it's even happening with OpenAI and Anthropic, where they have been much less successful in anything that is not...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2469.543,
+            2483.071
+          ],
+          "quote": "Maybe to also make the, to continue to make the case for startups here, OpenAI and Anthropic in many ways are startups, but they have been so successful that they have become big companies with thousands of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2506.306,
+            2512.01
+          ],
+          "quote": "OpenAI can and will do a hardware device, but as we've seen with them, it just, everything takes longer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 名言「不做广告」，靠激进订阅策略在付费订阅者数量上超过 Gemini；与 OpenAI 一样，在现有聊天界面之外的产品发布上都不太成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1786.887,
+            1800.836
+          ],
+          "quote": "Is it worth talking and taking a step back and talking about OpenAI, Anthropic, and Gemini and sort of these are companies, these are labs that have been on the list pretty much since the beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1875.884,
+            1879.168
+          ],
+          "quote": "I think that's a big accomplishment, of course, for Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1907.793,
+            1910.935
+          ],
+          "quote": "But Anthropic has said very famously, no ads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1940.595,
+            1944.297
+          ],
+          "quote": "And one thing that actually like Anthropic kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2358.195,
+            2366.638
+          ],
+          "quote": "For the AI age, I think it's even happening with OpenAI and Anthropic, where they have been much less successful in anything that is not...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2469.543,
+            2483.071
+          ],
+          "quote": "Maybe to also make the, to continue to make the case for startups here, OpenAI and Anthropic in many ways are startups, but they have been so successful that they have become big companies with thousands of people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "本集说 Muse 是最大的消费助手之一，前 12 天约 50 万下载、25 万活跃用户，但与 Threads 同期 1600 万下载相比仍有差距；被 Amazon 拒绝在其站点购物，已与 Shopify 等几百家产品合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            393.26,
+            400.144
+          ],
+          "quote": "I think probably the biggest things on, when we talk about pure consumer assistance, the biggest developments have been Muse and Instinct, I would say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            424.904,
+            430.566
+          ],
+          "quote": "Muse is interesting because in many ways very successful launch, especially within the tech community.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            450.372,
+            453.993
+          ],
+          "quote": "So if you look at the downloads, Muse is still only U.S. and Canada.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            457.675,
+            465.117
+          ],
+          "quote": "In the first 22 days or so, Threads had about 16 million downloads and Muse is still sitting around 5 million over that same time period.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            476.759,
+            483.44
+          ],
+          "quote": "Are they trying a similar strategy with Muse or is it just a different distribution strategy too?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            503.705,
+            512.753
+          ],
+          "quote": "Because Muse is still such a personal tool that they're pushing it and it's very exciting to kind of even see this early just adoption and people having these experiences.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            569.801,
+            576.026
+          ],
+          "quote": "Like Amazon is like, we're not going to allow Muse to kind of browse and purchase products on our site, but also Muse has",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            789.389,
+            797.632
+          ],
+          "quote": "And the vast majority, still, the number one use case was coding and technical automation, even for these consumer-assistant products like Muse and Instinct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2856.702,
+            2868.374
+          ],
+          "quote": "Living in agents like Instinct or Muse or living as standalone products or the next ones, which there will be many, or living as standalone products or perhaps a mix of both.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": true,
+      "how_described": "本集说 Instinct 是另一大消费助手，约 10 万用户、日增 10%，前三周 40% 的用户绑了信用卡，首月平均消费超 1000 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            393.26,
+            400.144
+          ],
+          "quote": "I think probably the biggest things on, when we talk about pure consumer assistance, the biggest developments have been Muse and Instinct, I would say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            411.853,
+            416.257
+          ],
+          "quote": "Instinct had announced like 100,000 users growing 10% day over day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            789.389,
+            797.632
+          ],
+          "quote": "And the vast majority, still, the number one use case was coding and technical automation, even for these consumer-assistant products like Muse and Instinct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2271.799,
+            2276.022
+          ],
+          "quote": "And then obviously the ones that exist in chat and messaging, so in instinct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2856.702,
+            2868.374
+          ],
+          "quote": "Living in agents like Instinct or Muse or living as standalone products or the next ones, which there will be many, or living as standalone products or perhaps a mix of both.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 是个人智能体潮流的先驱，上一版本可冲进榜单前排，这一版因流量彻底下滑不见踪影，团队据称被 OpenAI 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            256.436,
+            262.063
+          ],
+          "quote": "It's funny, the last report that we did, it ended right before the cutoff of when OpenClaw traffic would come in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            268.511,
+            272.896
+          ],
+          "quote": "And this time, actually, OpenClaw is nowhere in the rankings because the traffic has...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            321.067,
+            336.651
+          ],
+          "quote": "I think we're in this really interesting era that did really change at the end of last year, beginning of this year with OpenClaw, that AI went from something that we were using as a tool to enhance our productivity, to maybe search for us faster, something that would actually get things done for us.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            337.071,
+            341.072
+          ],
+          "quote": "And I think OpenClaw was an incredible pioneer to do this, and I know they're still doing a lot of work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            512.773,
+            518.678
+          ],
+          "quote": "And again, if you're using OpenClaw in January, you were having an incredible experience of using Crock-Bot when that first launched earlier this summer.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "type": "company",
+      "role": "company",
+      "name": "Town",
+      "file": "Town",
+      "primary": true,
+      "how_described": "本集以 Town 为「复利的个人价值」护城河的例子：它连接你的 Slack、邮件、Google Drive，围绕你建立关于你是谁、你说话语气的 playbook，无法轻易迁移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            280.339,
+            292.401
+          ],
+          "quote": "But also it's kind of been overtaken, I think, by some of the both other attempts at prosumer agents like GrokBot, Town has some fantastic agents, DOTS now by OpenAI, which is new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2630.283,
+            2634.827
+          ],
+          "quote": "One example I would give is Town, which is more on the prosumer end of the agent assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2658.592,
+            2661.013
+          ],
+          "quote": "But town has built these playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2686.279,
+            2694.946
+          ],
+          "quote": "And so I think that we'll see more products like Town that do a really good job of collecting context and acting on that context to build playbooks around you continue to be successful.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": true,
+      "how_described": "本集说实验室不愿碰音频的版权泥潭，Suno 由此在音乐生成上一骑绝尘，稳居流量与消费榜前列。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 368,
+          "t": [
+            1997.837,
+            2005.883
+          ],
+          "quote": "Eleven Labs and Suno are now very reliably near the top of our traffic lists and are also ranked very highly in our spend list.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2011.267,
+            2018.212
+          ],
+          "quote": "Does it make sense at this point for them to deal with all of the IP headaches that Suno has had to go through and launch a competing music model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2019.533,
+            2022.635
+          ],
+          "quote": "And in the meantime, Suno has been able to kind of run away with a really strong",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2043.72,
+            2048.164
+          ],
+          "quote": "Suno is an incredible tool and it speaks to you from the moment you start using it through the end.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "本集说 Eleven Labs 在语音与音频领域稳居流量与消费榜前列，是实验室没占满的缝隙；也作为消费公司快速变企业公司的例子被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 368,
+          "t": [
+            1997.837,
+            2005.883
+          ],
+          "quote": "Eleven Labs and Suno are now very reliably near the top of our traffic lists and are also ranked very highly in our spend list.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2298.816,
+            2303.818
+          ],
+          "quote": "Like things like CREA, you know, Replit, Eleven Labs, Gamma.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "type": "company",
+      "role": "company",
+      "name": "MidJourney",
+      "file": "MidJourney",
+      "primary": true,
+      "how_described": "本集说 MidJourney 已完全跌出流量榜，但在收入榜上回来了——重度用户仍想要那个有品味、能精细调校的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            2115.645,
+            2118.888
+          ],
+          "quote": "So like MidJourney was fairly high on our first ever rankings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2121.57,
+            2126.695
+          ],
+          "quote": "But to your point in power users, if you look at the revenue rankings, MidJourney is back.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openevidence",
+      "type": "company",
+      "role": "company",
+      "name": "OpenEvidence",
+      "file": "OpenEvidence",
+      "primary": true,
+      "how_described": "本集说 OpenEvidence 是面向医生的 AI 产品，已覆盖全美 50-60% 的医生，凭借高价值定向受众实现了高效的广告变现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1757.511,
+            1764.899
+          ],
+          "quote": "So another company that has seen early success in ads is OpenEvidence, which is an AI product for doctors.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅 (subscription)",
+      "file": "订阅",
+      "primary": true,
+      "how_described": "本集说消费级 AI 收入几乎全部来自直接订阅：网页榜约 85% 靠订阅，仅约 13% 有广告，与消费互联网史几乎全靠广告或交易费相反，是相当不自然的倒置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.194,
+            23.799
+          ],
+          "quote": "Around 4.5% of US consumers are paying a subscription to an AI product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            922.202,
+            931.316
+          ],
+          "quote": "Our Yipit panel shows probably sub-5%, around 4.5% of U.S. consumers are paying a subscription to an AI product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1324.107,
+            1329.132
+          ],
+          "quote": "If you look at the top 20 consumer subscription products globally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1348.535,
+            1354.076
+          ],
+          "quote": "We have transcended the need for everyone to buy a subscription to AI and we need to see these other business models come back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1911.416,
+            1913.857
+          ],
+          "quote": "So they're much more aggressive about subscription.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2499.281,
+            2505.146
+          ],
+          "quote": "That started kind of in China in the East and now has come to the US and you buy the device and you can also buy a subscription.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "type": "concept",
+      "role": "concept",
+      "name": "广告 (ads)",
+      "file": "广告",
+      "primary": true,
+      "how_described": "本集判断广告必须回归：OpenAI 广告年化 10 亿美元、推理成本下降后广告和交易费模式才会跑通；前提是做得巧妙，在与极个人化的对话里塞硬广告是在摧毁信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            48.009,
+            54.29
+          ],
+          "quote": "That would previously take a company years and years and years to get to, even after launching an ads product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.91,
+            59.371
+          ],
+          "quote": "What I'm fascinated to see in terms of the evolution of the ads product is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            68.918,
+            78.406
+          ],
+          "quote": "In this episode, A16Z's Elena Berger sits down with partners Olivia Moore and Josh Ellman to unpack the seventh edition of our Top 100 Consumer AI Ads Report.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1279.751,
+            1287.353
+          ],
+          "quote": "Only like 13% had ads or other options where like you are the product instead of paying for the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1294.758,
+            1306.668
+          ],
+          "quote": "Like almost all of the really big consumer technology companies that we have now make the vast majority of their revenue from ads or from transaction fees, not from subscriptions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1363.499,
+            1370.96
+          ],
+          "quote": "And as they do that, you know, a lot of the other business models have always been on the internet from, you know, transaction fees and ads will finally start working.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1398.156,
+            1409.745
+          ],
+          "quote": "The rule was like, let's build density of users and because they cost near zero to serve, we can then wait and make money via ads or start charging for transactions once we have liquidity and density.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1456.95,
+            1460.331
+          ],
+          "quote": "I think this is a great transition to talk about ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1485.256,
+            1490.561
+          ],
+          "quote": "But they have been very slowly, I would say, rolling out ads with kind of a network of partners.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1496.207,
+            1502.553
+          ],
+          "quote": "Like that would previously take a company years and years and years to get to even after launching an ads product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1514.482,
+            1520.487
+          ],
+          "quote": "And then the second thing, and what I'm fascinated to see in terms of the evolution of the ads product is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1549.445,
+            1553.727
+          ],
+          "quote": "It's early days and I think, you know, there have been some really funny conversations about ads and AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1577.976,
+            1579.897
+          ],
+          "quote": "That actually introducing ads has been done very deftly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1581.357,
+            1582.958
+          ],
+          "quote": "With the OpenAI rollout of ads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1612.913,
+            1619.158
+          ],
+          "quote": "And those are great opportunities when you're in a discovery mode where ads are actually often a great answer to help you solve that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1623.221,
+            1631.648
+          ],
+          "quote": "But again, it has to be done very, very deftly, not this weird, interruptive, very personal experience I'm having that ads just get shoved into the conversation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1632.388,
+            1644.854
+          ],
+          "quote": "I'd be I'd be super curious to how the unit economics on ads work like presumably it's a it's a lower cost question or lower cost compared to, you know, the coding or something like that or image gen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1645.834,
+            1654.158
+          ],
+          "quote": "So so for OpenAI, you know, what what kinds of margins are they seeing on ads is a super interesting question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1655.019,
+            1658.825
+          ],
+          "quote": "I'm curious also, Josh, but what kind of ads do you see?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1658.845,
+            1660.468
+          ],
+          "quote": "Because I don't get any ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1666.46,
+            1682.239
+          ],
+          "quote": "You know, I was doing a bunch of travel research recently and was going to be in New York for a few days and I just started seeing some ads for a couple things that were going on in New York that I might have wanted to do and I just found that really useful and like I've started using it more for commercial shopping.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1709.842,
+            1724.734
+          ],
+          "quote": "And it was one of those things that if I had never had that chance to really go back and forth and actually have that conversation, and if there had been other ads, no ads were presented in that conversation, but it was entirely open for ads that they would have helped me find stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1757.511,
+            1764.899
+          ],
+          "quote": "So another company that has seen early success in ads is OpenEvidence, which is an AI product for doctors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1907.793,
+            1910.935
+          ],
+          "quote": "But Anthropic has said very famously, no ads.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Meta 曾因极其了解用户而以精准定向著称，OpenAI 的实时对话定向可能超过它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            437.428,
+            449.452
+          ],
+          "quote": "But if you look at it versus Threads, which was another somewhat recent big splashy meta launch, it still pales in comparison in terms of appeal to the average person who doesn't work in tech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1731.1,
+            1743.716
+          ],
+          "quote": "I feel like we may see, as they lean into it, OpenAI being able to do crazy good targeting, like even better than I think Meta, which previously was like best in class for this, just because they knew so much about you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集以 Amazon 拒绝 Muse 在其站点浏览购物为例，说明平台开放度决定智能体能力上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            569.801,
+            576.026
+          ],
+          "quote": "Like Amazon is like, we're not going to allow Muse to kind of browse and purchase products on our site, but also Muse has",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1334.138,
+            1344.809
+          ],
+          "quote": "Almost all the other ones are media companies or big platforms like Amazon or even Uber, things like that, where you have a very frequent purchase behavior.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集以 Google 为「在位者不愿蚕食旧界面」的经典例子：没为 AI 时代重造 Docs 和 Gmail；其 Nano、Banana 等图像模型也抢走了独立图像生成器的散户流量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1688.805,
+            1691.327
+          ],
+          "quote": "And I was having trouble finding this actually on Google.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1870.261,
+            1874.123
+          ],
+          "quote": "And it also has like the natural distribution mechanism of something like a Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2102.675,
+            2106.858
+          ],
+          "quote": "And then, of course, Google with the various iterations of Nano, Banana, and Bio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2351.773,
+            2353.514
+          ],
+          "quote": "The classic example of this is Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2636.405,
+            2644.548
+          ],
+          "quote": "Connect into all your systems, Slack, email, Google Drive, understand kind of the context of you and your org, and then do things for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2769.238,
+            2770.259
+          ],
+          "quote": "Things like Google.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 Muse 已与 Shopify 等几百家产品建立合作，可在 Shopify 上购物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            579.71,
+            581.292
+          ],
+          "quote": "Shopify, you know, to be able to buy things on Shopify.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "n8n",
+      "type": "company",
+      "role": "company",
+      "name": "N8N",
+      "file": "N8N",
+      "primary": false,
+      "how_described": "本集说 N8N 这类开发者在头部消费者中的占比远超平均，是重度用户花钱的主要去向之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1010.882,
+            1018.648
+          ],
+          "quote": "Things like N8N, Granola, Higgs Field, Manus, those all were way overrepresented amongst the top spenders.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说 Granola 在头部消费者中占比远超平均，也是靠 PLG 成功后被拉进企业的成熟产品例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1010.882,
+            1018.648
+          ],
+          "quote": "Things like N8N, Granola, Higgs Field, Manus, those all were way overrepresented amongst the top spenders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2263.813,
+            2268.116
+          ],
+          "quote": "So there's granola, there's whisper flow, there's superhuman.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2310.865,
+            2317.253
+          ],
+          "quote": "And what's happening is that they're very successful in growing via PLG, Whisperflow and Granola, and other great examples there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2338.289,
+            2343.531
+          ],
+          "quote": "I think things like Whisperflow and Granola and Superhuman are another good example of...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2403.109,
+            2415.558
+          ],
+          "quote": "So the people who had been spending time creating these incredible interfaces that were easy to use, that were natural, that were easy to share and get a bunch of your team on and, you know, Whisperflow and Granola were just so easy to get started with.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "manus",
+      "type": "company",
+      "role": "company",
+      "name": "Manus",
+      "file": "Manus",
+      "primary": false,
+      "how_described": "本集说 Manus 在头部消费者中的占比远超平均，是重度用户付费的创意/开发类工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1010.882,
+            1018.648
+          ],
+          "quote": "Things like N8N, Granola, Higgs Field, Manus, those all were way overrepresented amongst the top spenders.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wabi",
+      "type": "company",
+      "role": "company",
+      "name": "Wabi",
+      "file": "Wabi",
+      "primary": false,
+      "how_described": "本集引用 Wabi 的 CEO Eugenia 的话收尾：大多数人不是想节省时间，而是在寻找打发时间的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1121.203,
+            1126.387
+          ],
+          "quote": "Eugenia, who's one of our portfolio CEOs, runs a company called Wabi, which is fantastic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集以 Replit 为「消费公司这么快变企业公司」的例子：PLG 增长成功后被拉进企业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 422,
+          "t": [
+            2298.816,
+            2303.818
+          ],
+          "quote": "Like things like CREA, you know, Replit, Eleven Labs, Gamma.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plod",
+      "type": "company",
+      "role": "company",
+      "name": "Plod",
+      "file": "Plod",
+      "primary": false,
+      "how_described": "本集说 Plod 是收入榜上的 AI 笔记硬件，起始于中国后进入美国；以此说明 OpenAI 迟早做硬件，但大公司一切都更慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            2491.957,
+            2498.261
+          ],
+          "quote": "And so I think that's like one of the companies on our revenue list this time is Plod, which is an AI note taker device.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "threads",
+      "type": "company",
+      "role": "company",
+      "name": "Threads",
+      "file": "Threads",
+      "primary": false,
+      "how_described": "本集以 Threads 前 22 天约 1600 万下载作为对照，说明 Muse 对主流用户的吸引力仍相形见绌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            437.428,
+            449.452
+          ],
+          "quote": "But if you look at it versus Threads, which was another somewhat recent big splashy meta launch, it still pales in comparison in terms of appeal to the average person who doesn't work in tech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            454.173,
+            457.214
+          ],
+          "quote": "So we grabbed the Threads, U.S. and Canada downloads only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            457.675,
+            465.117
+          ],
+          "quote": "In the first 22 days or so, Threads had about 16 million downloads and Muse is still sitting around 5 million over that same time period.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            467.457,
+            476.219
+          ],
+          "quote": "Like I remember with threads, it was already tied to your Instagram account and there was kind of this very natural distribution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            493.516,
+            503.585
+          ],
+          "quote": "And I also think threads very much had a critical mass effect, which is if they didn't get a lot of people on it communicating quickly, you don't actually get to that leverage of a new network starting to form.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2285.729,
+            2288.21
+          ],
+          "quote": "I think there's two maybe interesting threads to pull on here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

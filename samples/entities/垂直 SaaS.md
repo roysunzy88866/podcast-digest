@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Amjad Masad]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[智能体]] · [[护城河]] · [[开源模型]] · [[LLM]]
+[[Patrick Collison]] · [[Amjad Masad]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[Suno]] · [[智能体]] · [[护城河]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Amjad Masad":4,"Stripe":45,"Replit":19,"Magic School":1,"OpenAI":159,"智能体":403,"护城河":14,"开源模型":4,"LLM":55}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Amjad Masad":4,"Stripe":45,"Replit":20,"Magic School":1,"OpenAI":161,"Suno":4,"智能体":405,"护城河":14,"开源模型":4}</script>
 
 <script>
 (function(){

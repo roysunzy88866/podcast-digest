@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex]] · [[Kevin Gibbon]] · [[Cytronic]] · [[Amazon]] · [[3PL]] · [[履约]] · [[机器人]] · [[物理 AI]] · [[自动化]] · [[眼镜处方]]
 
-<script type="application/json" class="pd-epn">{"Alex":6,"Kevin Gibbon":1,"Cytronic":1,"Amazon":27,"3PL":1,"履约":1,"机器人":12,"物理 AI":10,"自动化":1,"眼镜处方":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"Kevin Gibbon":1,"Cytronic":1,"Amazon":28,"3PL":1,"履约":1,"机器人":12,"物理 AI":10,"自动化":1,"眼镜处方":1}</script>
 
 <script>
 (function(){

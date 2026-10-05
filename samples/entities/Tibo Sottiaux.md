@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Josh Ellman]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":78,"OpenAI":159,"ChatGPT":94,"智能体":403,"护栏":77,"ChatGPT work":1,"Dots":2,"harness":55,"Notion":15,"Rust":5}</script>
+<script type="application/json" class="pd-epn">{"Codex":79,"OpenAI":161,"ChatGPT":96,"智能体":405,"护栏":77,"ChatGPT work":1,"Dots":2,"harness":55,"Notion":15,"Rust":5}</script>
 
 <script>
 (function(){

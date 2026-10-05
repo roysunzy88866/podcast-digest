@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]]
+[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"HubSpot":9,"Sequoia":7,"MongoDB":5,"Salesforce":34,"Google":55,"Microsoft":28,"McKinsey":6,"Clay":7,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"HubSpot":9,"Sequoia":7,"MongoDB":5,"Salesforce":34,"Google":57,"Microsoft":28,"McKinsey":6,"Clay":7,"Delphi":3}</script>
 
 <script>
 (function(){

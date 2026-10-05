@@ -29,7 +29,7 @@ unlisted: true
 
 [[Stephen Haney]] · [[Paper]] · [[Cursor]] · [[Claude Code]] · [[Figma]] · [[Conductor]] · [[智能体]] · [[MCP 服务器]] · [[代码即真相来源]] · [[策展式设计]]
 
-<script type="application/json" class="pd-epn">{"Stephen Haney":1,"Paper":1,"Cursor":80,"Claude Code":94,"Figma":22,"Conductor":2,"智能体":403,"MCP 服务器":2,"代码即真相来源":1,"策展式设计":1}</script>
+<script type="application/json" class="pd-epn">{"Stephen Haney":1,"Paper":1,"Cursor":80,"Claude Code":94,"Figma":22,"Conductor":2,"智能体":405,"MCP 服务器":2,"代码即真相来源":1,"策展式设计":1}</script>
 
 <script>
 (function(){

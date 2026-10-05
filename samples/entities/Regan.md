@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amrita":1,"Cursor":80,"智能体":403,"云端智能体":1,"重构":1,"计划模式":5,"MCP":72,"PR":6,"测试覆盖率":1,"自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Amrita":1,"Cursor":80,"智能体":405,"云端智能体":1,"重构":1,"计划模式":5,"MCP":73,"PR":6,"测试覆盖率":1,"自动化":1}</script>
 
 <script>
 (function(){

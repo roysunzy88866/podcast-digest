@@ -204,11 +204,11 @@
     "rTojoVotlD8": "2026-10-03-talks-your-llm-app-returned-200-ok-it-was-stil",
     "48YUYDjwfYY": "2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi",
     "cKhpeEBnT1o": "2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat",
-    "YiFqcu9YA38": "2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com"
+    "YiFqcu9YA38": "2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com",
+    "UOcHfR3_tys": "2026-09-30-talks-your-agents-are-in-solitary-confinement"
   },
   "blocked": {
-    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
-    "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob": 1
+    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {
     "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
@@ -222,8 +222,7 @@
   "transient": {
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
-    "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
-    "2026-09-30-pragmatic-distributed-databases-with-peter": 1
+    "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -277,12 +276,13 @@
     "2026-09-10-cogrev-nathan-goes-to-china-3-us-china-relation": "2026-10-05",
     "2026-09-05-cogrev-ai-am-highlights-welcome-to-the-agi-era": "2026-10-05",
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": "2026-10-05",
-    "2026-09-03-changelog-forking-cal-com-to-closed-source": "2026-10-05"
+    "2026-09-03-changelog-forking-cal-com-to-closed-source": "2026-10-05",
+    "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob": "2026-10-05"
   },
   "cutoffs": {
     "lennys": "2026-10-04T12:32:47.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
-    "a16z": "2026-10-04T10:00:00.000Z",
+    "a16z": "2026-10-05T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-01T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
@@ -291,11 +291,11 @@
     "nopriors": "2026-10-02T10:00:00.000Z",
     "thepeel": "2026-10-01T15:43:48.000Z",
     "beyondcoding": "2026-09-30T12:00:00.000Z",
-    "founders": "2026-09-28T08:00:00.000Z",
+    "founders": "2026-10-05T10:00:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
-    "doac": "2026-10-02T05:00:00.000Z",
+    "doac": "2026-10-05T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-10-03T07:07:00.000Z",
+    "twentyvc": "2026-10-05T07:07:00.000Z",
     "cogrev": "2026-10-03T13:00:00.000Z",
     "knowledge": "2026-09-29T10:00:00.000Z",
     "pragmatic": "2026-09-30T16:30:05.000Z",
@@ -1051,6 +1051,12 @@
       "reason": "超长集:估 277 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "AI:AM Highlights: Welcome to the AGI Era",
       "pubDate": "2026-09-05T23:39:30.000Z"
+    },
+    {
+      "id": "2026-10-05-founders-436-ari-emanuel-s-autobiography",
+      "reason": "题材不对味:属 ① 非 AI/科技的泛话题:ARI Emanuel 自传是娱乐经纪/商业人物故事,与 AI 和科技创业均不沾边",
+      "title": "#436 Ari Emanuel's Autobiography",
+      "pubDate": "2026-10-05T10:00:00.000Z"
     }
   ]
 }
