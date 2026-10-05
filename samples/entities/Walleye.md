@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ben]] · [[Will]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Windsurf]] · [[LLM]] · [[量化投资]]
+[[Ben]] · [[Will]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Grok]] · [[Windsurf]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":400,"ChatGPT":92,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":53,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":403,"ChatGPT":94,"情感分析":1,"营运杠杆":1,"Grok":7,"Windsurf":5,"LLM":55}</script>
 
 <script>
 (function(){

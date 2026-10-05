@@ -39,7 +39,7 @@ unlisted: true
 
 [[NVIDIA]] · [[GPU]] · [[OpenAI]] · [[Cerebrus]] · [[TSMC]] · [[推理]] · [[Anthropic]] · [[Broadcom]] · [[缩放定律]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":53,"GPU":21,"OpenAI":157,"Cerebrus":3,"TSMC":8,"推理":73,"Anthropic":171,"Broadcom":5,"缩放定律":12,"Cursor":79}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":53,"GPU":21,"OpenAI":159,"Cerebrus":3,"TSMC":8,"推理":74,"Anthropic":171,"Broadcom":5,"缩放定律":12,"Cursor":80}</script>
 
 <script>
 (function(){

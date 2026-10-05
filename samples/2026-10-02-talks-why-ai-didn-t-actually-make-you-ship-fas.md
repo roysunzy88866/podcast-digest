@@ -113,9 +113,9 @@ Meticulous 的做法：给非生产环境(本地、QA、dev、staging)注入一�
 
 **换个口味**
 
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌]]<span class="pd-rz">同概念:pull request</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:验证 (verification)</span>
 - [[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar|模型已经够好了，为什么智能体还只能写代码？]]<span class="pd-rz">同概念:验证 (verification)</span>
-- [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|鼠标力：为智能体时代找回「马力」这把尺子]]<span class="pd-rz">同概念:验证 (verification)</span>
 
 </div>
 </div>

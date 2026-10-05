@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David Burns":1,"BrowserStack":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":34,"无障碍性":4,"vibe coding":44,"可观测性":36}</script>
+<script type="application/json" class="pd-epn">{"David Burns":1,"BrowserStack":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":35,"无障碍性":4,"vibe coding":45,"可观测性":36}</script>
 
 <script>
 (function(){

@@ -101,7 +101,7 @@ jsonLd: |
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:LLM</span>
+- [[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|重造互联网：DocsNet 与一场隐私保卫战]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 
 </div>
 </div>

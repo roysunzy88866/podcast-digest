@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":6,"Path Robotics":1,"LLM":53,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":24,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":2,"Sequoia":7,"Path Robotics":1,"LLM":55,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":24,"第一性原理":6}</script>
 
 <script>
 (function(){

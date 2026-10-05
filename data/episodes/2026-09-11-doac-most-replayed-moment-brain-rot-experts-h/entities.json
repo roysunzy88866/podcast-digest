@@ -1,0 +1,606 @@
+{
+  "episode_id": "2026-09-11-doac-most-replayed-moment-brain-rot-experts-h",
+  "podcast": "The Diary of a CEO",
+  "date": "2026-09-11",
+  "tags": [
+    "AI 与大脑",
+    "批判性思考",
+    "AI 伴侣",
+    "社交媒体教训",
+    "神经科学"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集以它为讨论主角：MIT 研究显示用 ChatGPT 写作的人记忆相关脑区活动少近两倍、83% 记不住自己刚写的内容；嘉宾认为危险在于人们已把思考让渡给它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            69.114,
+            81.498
+          ],
+          "quote": "So as I was listening to how you use ChatGPT, you interact with it and elevates what you know.",
+          "speaker": ""
+        },
+        {
+          "seg": 74,
+          "t": [
+            336.735,
+            346.141
+          ],
+          "quote": "And it suggests that when people write things with ChatGPT or these AI tools, they don't actually remember, even in some cases minutes later, what they've produced.",
+          "speaker": ""
+        },
+        {
+          "seg": 81,
+          "t": [
+            380.235,
+            390.579
+          ],
+          "quote": "In this study, they found that the group that used ChatGPT had nearly two times less activity in the part of the brain linked to memory compared to the brain-only group that didn't use ChatGPT.",
+          "speaker": ""
+        },
+        {
+          "seg": 82,
+          "t": [
+            391.319,
+            398.422
+          ],
+          "quote": "And 83% of ChatGPT users couldn't remember what they had just written and failed to correctly quote their own finished essay in the study.",
+          "speaker": ""
+        },
+        {
+          "seg": 94,
+          "t": [
+            455.888,
+            459.491
+          ],
+          "quote": "And I said to my friend the other day, my friend in question, who's a real big junkie on ChatGPT,",
+          "speaker": ""
+        },
+        {
+          "seg": 132,
+          "t": [
+            592.839,
+            600.606
+          ],
+          "quote": "But by using your social brain, first of all, it makes it easier to interact, but also you actually bring out the social part of chat GPT.",
+          "speaker": ""
+        },
+        {
+          "seg": 134,
+          "t": [
+            608.808,
+            615.61
+          ],
+          "quote": "Didn't Sam Altman come out and say, stop saying thank you to ChatGPT?",
+          "speaker": ""
+        },
+        {
+          "seg": 352,
+          "t": [
+            1550.645,
+            1553.509
+          ],
+          "quote": "So AI and ChatGPT is removing the struggle.",
+          "speaker": ""
+        },
+        {
+          "seg": 357,
+          "t": [
+            1567.149,
+            1572.874
+          ],
+          "quote": "In fact, when you're speaking, I can just type what you say into ChatGPT and it can spit out another question to ask you.",
+          "speaker": ""
+        },
+        {
+          "seg": 385,
+          "t": [
+            1691.268,
+            1698.973
+          ],
+          "quote": "If I had to counter my own argument, I'd say, I'm probably learning more now that I use ChatGPT.",
+          "speaker": ""
+        },
+        {
+          "seg": 396,
+          "t": [
+            1736.326,
+            1740.911
+          ],
+          "quote": "I'm concerned that my own chat GPT usage is going to make me less effective.",
+          "speaker": ""
+        },
+        {
+          "seg": 442,
+          "t": [
+            1922.594,
+            1936.501
+          ],
+          "quote": "And then I put it into all three of the ChatGPT models I use, Gemini, ChatGPT and Grok, and said, critique my work and tell me how I could have written this better, pretending that you're a top consultant from Boston Consulting Group.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到 Sam Altman 说用户对 ChatGPT 说请和谢谢每年要花 OpenAI 数千万美元，嘉宾痛斥这是在优化利润而非用户体验和健康。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            658.276,
+            665.282
+          ],
+          "quote": "Sam Altman, OpenAI CEO, confirmed that when users say please and thank you, it costs the company tens of millions of dollars a year.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "company",
+      "role": "company",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": true,
+      "how_described": "本集说 Grok 是 Elon Musk 的 AI 工具，发布了 Annie 等性感化虚拟角色，嘉宾解读为在瞄准用户的边缘系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            940.272,
+            944.555
+          ],
+          "quote": "This is part of Grok, which is Elon Musk's AI tool, so his version of ChachiPT.",
+          "speaker": ""
+        },
+        {
+          "seg": 442,
+          "t": [
+            1922.594,
+            1936.501
+          ],
+          "quote": "And then I put it into all three of the ChatGPT models I use, Gemini, ChatGPT and Grok, and said, critique my work and tell me how I could have written this better, pretending that you're a top consultant from Boston Consulting Group.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集主持人说自己把写好的备忘录丢给 Gemini、ChatGPT、Grok 三个模型要求批评。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            1922.594,
+            1936.501
+          ],
+          "quote": "And then I put it into all three of the ChatGPT models I use, Gemini, ChatGPT and Grok, and said, critique my work and tell me how I could have written this better, pretending that you're a top consultant from Boston Consulting Group.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "mit-study",
+      "type": "concept",
+      "role": "concept",
+      "name": "MIT 研究 (MIT study)",
+      "file": "MIT 研究",
+      "primary": true,
+      "how_described": "本集引用 MIT 研究：用 ChatGPT 写作的大脑记忆区活动少近两倍，83% 的使用者记不住自己刚写的内容，归因于信息没被编码进海马体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            329.31,
+            336.295
+          ],
+          "quote": "If you look at the MIT study, I mean, you can see just from the colors here, this kind of shows the ability for participants to remember what they've written.",
+          "speaker": ""
+        },
+        {
+          "seg": 420,
+          "t": [
+            1824.471,
+            1827.053
+          ],
+          "quote": "This is just like they did with the MIT study.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "批判性思考 (critical thinking)",
+      "file": "批判性思考",
+      "primary": true,
+      "how_described": "本集核心论断：这一代年轻人会选择让 AI 替他们做批判性思考，导致该能力被侵蚀；建议交替训练、让 AI 考你而不是替你写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            290.84,
+            298.484
+          ],
+          "quote": "I can either sit down and do lots of critical thinking, which will cost me lots and lots of time, and it'll be kind of difficult, it kind of hurts when I have to think through a problem.",
+          "speaker": ""
+        },
+        {
+          "seg": 67,
+          "t": [
+            299.145,
+            305.788
+          ],
+          "quote": "I think that the generation of children and generation of young people are going to choose AI to do the critical thinking for them.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "limbic-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "边缘系统 (limbic system)",
+      "file": "边缘系统",
+      "primary": true,
+      "how_described": "本集说 Grok 的 Annie 在试图触达你的边缘系统——它没有杏仁核和边缘系统，但激活你的边缘脑会关闭前额叶、降低理性判断，如赌场免费酒精的机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1084.851,
+            1087.531
+          ],
+          "quote": "We know it doesn't have a limbic system, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 260,
+          "t": [
+            1092.992,
+            1096.413
+          ],
+          "quote": "Because she was trying to get to our limbic system.",
+          "speaker": ""
+        },
+        {
+          "seg": 272,
+          "t": [
+            1155.57,
+            1159.573
+          ],
+          "quote": "When you said she was trying to access my limbic system, what does that mean?",
+          "speaker": ""
+        },
+        {
+          "seg": 276,
+          "t": [
+            1173.824,
+            1176.886
+          ],
+          "quote": "And what does that do to me if someone accesses my limbic system?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "prefrontal-cortex",
+      "type": "concept",
+      "role": "concept",
+      "name": "前额叶皮质 (prefrontal cortex)",
+      "file": "前额叶皮质",
+      "primary": true,
+      "how_described": "本集说 12 岁男孩的前额叶皮质远未发育成熟，多巴胺刺激一来会沉迷于 AI 伴侣；边缘系统被激活时前额叶会被关闭，思考更少逻辑和理性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            975.214,
+            979.997
+          ],
+          "quote": "So prefrontal cortex not close to being fully developed.",
+          "speaker": ""
+        },
+        {
+          "seg": 277,
+          "t": [
+            1177.667,
+            1179.829
+          ],
+          "quote": "It begins to shut down your prefrontal cortex.",
+          "speaker": ""
+        },
+        {
+          "seg": 282,
+          "t": [
+            1191.578,
+            1197.042
+          ],
+          "quote": "Like when you go to Vegas, they give you free alcohol, drops your prefrontal cortex, and",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "dopamine",
+      "type": "concept",
+      "role": "concept",
+      "name": "多巴胺 (dopamine)",
+      "file": "多巴胺",
+      "primary": true,
+      "how_described": "本集说人类整体上会选最快的多巴胺刺激——超市货架、每天七小时刷社交媒体的孩子、AI 伴侣都是同一机制；色情与可爱女性会急剧提升多巴胺。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            280.535,
+            287.579
+          ],
+          "quote": "en masse tend to go for the thing that will give them the quickest dopamine hit and reinforce that behavior and give them the reward.",
+          "speaker": ""
+        },
+        {
+          "seg": 230,
+          "t": [
+            973.032,
+            973.393
+          ],
+          "quote": "The dopamine...",
+          "speaker": ""
+        },
+        {
+          "seg": 232,
+          "t": [
+            980.961,
+            994.313
+          ],
+          "quote": "The dopamine hit, all of a sudden, he's spending hours with Annie and not doing the things that helped to really develop his brain.",
+          "speaker": ""
+        },
+        {
+          "seg": 271,
+          "t": [
+            1143.97,
+            1154.772
+          ],
+          "quote": "It dramatically increases dopamine, and it begins to wire in excitement, which then steals your dopamine.",
+          "speaker": ""
+        },
+        {
+          "seg": 280,
+          "t": [
+            1186.854,
+            1189.536
+          ],
+          "quote": "They increase dopamine, but it decreases.",
+          "speaker": ""
+        },
+        {
+          "seg": 322,
+          "t": [
+            1396.072,
+            1403.958
+          ],
+          "quote": "When you fall in love with someone, you get this huge dopamine spike, and you get a little OCD, it's all you can think about.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-romantic-partners",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 伴侣 (AI romantic partners)",
+      "file": "AI 伴侣",
+      "primary": true,
+      "how_described": "本集列举 Travis、Chris Smith、Alana Winters 等与 AI 结成情感关系案例，19% 美国人互动过 AI 浪漫伴侣；嘉宾认为 AI 在模仿情感并无情感、长远不会满足，主持人反驳孤独流行病下大脑很难分辨区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1285.675,
+            1296.498
+          ],
+          "quote": "Surveys show 19% of Americans have interacted with AI romantic partners, and Gen Z is surprisingly open to marrying AI if legal, with 83% believing meaningful AI connection is possible.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "type": "concept",
+      "role": "concept",
+      "name": "社交媒体 (social media)",
+      "file": "社交媒体",
+      "primary": true,
+      "how_described": "本集把社交媒体当作 AI 的前车之鉴：放出了手机和社交媒体却没有任何神经科学研究，造就了世界历史上最病态的年轻一代，而 AI 更危险因为它性感得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            205.015,
+            212.64
+          ],
+          "quote": "I would hazard a guess that if you said to people about their usage of social media, do you know that that's making you more anxious, they would say yes, and then they would continue to use it.",
+          "speaker": ""
+        },
+        {
+          "seg": 63,
+          "t": [
+            262.703,
+            279.715
+          ],
+          "quote": "My point here is when there are tools or things available in our environment that give us a short-term reward but come with a long-term cost, like the supermarket aisle or like the kids spending seven to eight hours a day on social media, humans...",
+          "speaker": ""
+        },
+        {
+          "seg": 377,
+          "t": [
+            1637.347,
+            1644.711
+          ],
+          "quote": "We have the sickest generation in history because we've unleashed cell phones, social media, phones.",
+          "speaker": ""
+        },
+        {
+          "seg": 381,
+          "t": [
+            1665.669,
+            1678.439
+          ],
+          "quote": "I think just like social media, where we thought the promise was that it was going to connect us, it's, we're guinea pigs in an experiment where we're going to find out the results of the experiment, probably 20, 30 years down the line.",
+          "speaker": ""
+        },
+        {
+          "seg": 400,
+          "t": [
+            1749.936,
+            1751.117
+          ],
+          "quote": "I have to do the same with social media.",
+          "speaker": ""
+        },
+        {
+          "seg": 402,
+          "t": [
+            1752.757,
+            1756.479
+          ],
+          "quote": "I have so many things on my social media apps to stop me using them.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "loneliness-epidemic",
+      "type": "concept",
+      "role": "concept",
+      "name": "孤独流行病 (loneliness epidemic)",
+      "file": "孤独流行病",
+      "primary": true,
+      "how_described": "本集说我们正经历孤独流行病且朝坏的方向发展，底部一半男性一年没有性生活，这让被设计来让你感到特别的数字朋友对大脑极有吸引力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1407.18,
+            1411.703
+          ],
+          "quote": "Especially in a world where we have this loneliness epidemic, and it's going in a bad direction.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "basal-ganglia",
+      "type": "concept",
+      "role": "concept",
+      "name": "基底神经节 (basal ganglia)",
+      "file": "基底神经节",
+      "primary": true,
+      "how_described": "本集说嘉宾年轻时五年每天写作压缩成推文用的是基底神经节——负责重复练习的系统，练习练习再练习打好基础后认知能力才强得多；死记硬背就是练习本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            840.934,
+            852.741
+          ],
+          "quote": "Training a child on, you know, what's good, what's dangerous, what words you shouldn't use, under what context, that's all done through the basal ganglia, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 196,
+          "t": [
+            853.381,
+            856.263
+          ],
+          "quote": "Right now, these large laminarinals don't have basal ganglia.",
+          "speaker": ""
+        },
+        {
+          "seg": 431,
+          "t": [
+            1864.001,
+            1877.327
+          ],
+          "quote": "And I think if you engage the, there's a great new article on revenge and the brain and how revenge works on the nucleus accumbens, part of the basal ganglia.",
+          "speaker": ""
+        },
+        {
+          "seg": 466,
+          "t": [
+            2009.589,
+            2010.909
+          ],
+          "quote": "It was the basal ganglia.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集顺带提到大型语言模型没有基底神经节、不使用强化学习，要把文化价值观植入就得靠它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            857.526,
+            858.807
+          ],
+          "quote": "They don't use reinforcement learning.",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "NeurIPS",
+      "reason": "专名「NeurIPS」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

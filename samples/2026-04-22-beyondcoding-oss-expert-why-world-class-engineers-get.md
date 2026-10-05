@@ -113,9 +113,9 @@ Mitchell（在做一个叫 Vouch 的系统）直接转向「默认拒绝」—�
 
 **换个口味**
 
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌]]<span class="pd-rz">同公司:GitHub · 同概念:开源 (open source)、智能体 (agent)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
-- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:PR、智能体 (agent)</span>
 
 </div>
 </div>

@@ -1,0 +1,2506 @@
+[
+ {
+  "seg": 0,
+  "start": 0.131,
+  "end": 8.896,
+  "speaker": "Unknown",
+  "en": "Today, I spent the day in San Francisco at OpenAI's Dev Day, and it was a fun one, not just because Tebow let me smash the Codex reset button for you all.",
+  "zh": "今天，我在旧金山待了一整天，参加 OpenAI 的 Dev Day,很有意思，不仅仅是因为 Tebow 让我为大家按下了 Codex 重置按钮。"
+ },
+ {
+  "seg": 1,
+  "start": 9.457,
+  "end": 14.8,
+  "speaker": "Unknown",
+  "en": "I was there from the keynote throughout the day, and I have good news for you and bad news for you.",
+  "zh": "我从主题演讲开始待了一整天，我有好消息和坏消息要告诉你们。"
+ },
+ {
+  "seg": 2,
+  "start": 15.1,
+  "end": 18.102,
+  "speaker": "Unknown",
+  "en": "The good news is OpenAI released a lot of stuff.",
+  "zh": "好消息是 OpenAI 发布了很多东西。"
+ },
+ {
+  "seg": 3,
+  "start": 18.643,
+  "end": 21.585,
+  "speaker": "Unknown",
+  "en": "The bad news is OpenAI released a lot of stuff.",
+  "zh": "坏消息是 OpenAI 发布了很多东西。"
+ },
+ {
+  "seg": 4,
+  "start": 21.685,
+  "end": 26.408,
+  "speaker": "Unknown",
+  "en": "There was a lot jam-packed into the DevDay keynote.",
+  "zh": "DevDay 主题演讲里塞满了大量内容。"
+ },
+ {
+  "seg": 5,
+  "start": 26.568,
+  "end": 33.914,
+  "speaker": "Unknown",
+  "en": "Everything from OpenAI's answer to GrokBot and Muse to platform components that developers are really going to use felt like",
+  "zh": "从 OpenAI 对 GrokBot 和 Muse 的回应，到开发者真正会用到的平台组件，感觉像是——"
+ },
+ {
+  "seg": 6,
+  "start": 34.514,
+  "end": 38.057,
+  "speaker": "Unknown",
+  "en": "Every two or three minutes the team was announcing something new.",
+  "zh": "每两三分钟团队就宣布一个新东西。"
+ },
+ {
+  "seg": 7,
+  "start": 38.137,
+  "end": 55.127,
+  "speaker": "Unknown",
+  "en": "I was able to test some of it early and I want to share for you the highlights from the releases so you know what to pay attention to depending on what's important to you and also maybe three or four things that I've spent a little bit more time with and I've come to an early opinion on so you can see what I think about all these new releases.",
+  "zh": "我得以提前测试了其中一些，我想和你们分享这些发布的亮点，这样你们就知道该关注什么，取决于什么对你们重要；另外还有三四个我花了一些更多时间体验、并形成了初步看法的东西，你们可以看看我对这些新发布的看法。"
+ },
+ {
+  "seg": 8,
+  "start": 60.342,
+  "end": 66.646,
+  "speaker": "Unknown",
+  "en": "Okay, so the big release of the morning, the big bang thing, first thing up in the keynote is DOTS.",
+  "zh": "好的，今早的重头发布，那个重磅炸弹、主题演讲的第一件事，就是 DOTS。"
+ },
+ {
+  "seg": 9,
+  "start": 67.167,
+  "end": 75.693,
+  "speaker": "Unknown",
+  "en": "DOTS are an always-on long-running agent that can work across ChatGPT, across Codex, in its own computer,",
+  "zh": "DOTS 是一种始终在线、长期运行的智能体，可以跨 ChatGPT、跨 Codex 工作在它自己的电脑上，"
+ },
+ {
+  "seg": 10,
+  "start": 76.454,
+  "end": 84.301,
+  "speaker": "Unknown",
+  "en": "On your computer, on your phone, whether through text or through call, even in your Slack to get work done for you.",
+  "zh": "在你的电脑上、你的手机上，无论是通过短信还是通话，甚至在你的 Slack 里，为你完成工作。"
+ },
+ {
+  "seg": 11,
+  "start": 84.542,
+  "end": 87.505,
+  "speaker": "Unknown",
+  "en": "And I was able to test dots pretty early.",
+  "zh": "我很早就测试了 dots。"
+ },
+ {
+  "seg": 12,
+  "start": 87.585,
+  "end": 95.573,
+  "speaker": "Unknown",
+  "en": "In fact, so early, it's hard for me to give you all a full review because it's very clear that the OpenAI team is building and building and building on this.",
+  "zh": "事实上，早到我没法给你们一个完整的评测，因为很明显 OpenAI 团队正在这个基础上不断构建、构建、再构建。"
+ },
+ {
+  "seg": 13,
+  "start": 96.193,
+  "end": 98.436,
+  "speaker": "Unknown",
+  "en": "Every minute, every hour, making it better.",
+  "zh": "每一分钟、每一小时，都在让它变得更好。"
+ },
+ {
+  "seg": 14,
+  "start": 98.456,
+  "end": 112.056,
+  "speaker": "Unknown",
+  "en": "I think what I want to get across to you is like, where do bots sit in this ecosystem of like, GrokBot's very popular, Muse is getting some traction, instinct is still out there, you know, texting people.",
+  "zh": "我想让你们明白的是，机器人(bots)在这个生态系统中处于什么位置——GrokBot 非常火，Muse 正在获得一些关注，instinct 也还在那里，你知道的，给人发短信。"
+ },
+ {
+  "seg": 15,
+  "start": 113.057,
+  "end": 113.718,
+  "speaker": "Unknown",
+  "en": "What are dots?",
+  "zh": "dots 到底是什么？"
+ },
+ {
+  "seg": 16,
+  "start": 113.938,
+  "end": 114.819,
+  "speaker": "Unknown",
+  "en": "What do I think of them?",
+  "zh": "我怎么看它们？"
+ },
+ {
+  "seg": 17,
+  "start": 114.839,
+  "end": 115.96,
+  "speaker": "Unknown",
+  "en": "And where do I think they're going?",
+  "zh": "我又认为它们会走向何方？"
+ },
+ {
+  "seg": 18,
+  "start": 116.24,
+  "end": 118.562,
+  "speaker": "Unknown",
+  "en": "So again, dots are your agents.",
+  "zh": "再说一次，dots 就是你的智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 118.602,
+  "end": 120.924,
+  "speaker": "Unknown",
+  "en": "And I asked the team, do I get one dot or many dots?",
+  "zh": "我问了团队，我是得到一个 dot 还是很多个 dots?"
+ },
+ {
+  "seg": 20,
+  "start": 121.005,
+  "end": 124.328,
+  "speaker": "Unknown",
+  "en": "And right now we are issued a single dot.",
+  "zh": "现在我们只配发一个 dot。"
+ },
+ {
+  "seg": 21,
+  "start": 124.648,
+  "end": 133.736,
+  "speaker": "Unknown",
+  "en": "So if you're on pro, business, enterprise, a couple of the key plans, you should have your dot in ChatGPT in the Codex app right now.",
+  "zh": "所以如果你用的是 pro、business、enterprise 等几个关键套餐，你现在就应该能在 ChatGPT 和 Codex 应用里看到你的 dot。"
+ },
+ {
+  "seg": 22,
+  "start": 134.617,
+  "end": 135.898,
+  "speaker": "Unknown",
+  "en": "So this is my dot.",
+  "zh": "这是我的 dot。"
+ },
+ {
+  "seg": 23,
+  "start": 135.978,
+  "end": 137.118,
+  "speaker": "Unknown",
+  "en": "Her name is Bay.",
+  "zh": "她的名字叫 Bay。"
+ },
+ {
+  "seg": 24,
+  "start": 137.218,
+  "end": 144.002,
+  "speaker": "Unknown",
+  "en": "She's a pink blob with glasses and googly eyes and Bay has her own computer.",
+  "zh": "她是一个戴眼镜和活动眼睛的粉色小团子，Bay 有她自己的电脑。"
+ },
+ {
+  "seg": 25,
+  "start": 144.322,
+  "end": 148.524,
+  "speaker": "Unknown",
+  "en": "So as you can see here, there's a machine that your dot can use or you can take over and use it yourself.",
+  "zh": "如你所见，这里有一台机器，你的 dot 可以使用它，或者你也可以接管过来自己用。"
+ },
+ {
+  "seg": 26,
+  "start": 148.784,
+  "end": 156.328,
+  "speaker": "Unknown",
+  "en": "It's loaded with, of course, a browser, but also a bunch of apps, things that are probably pretty interesting to developers.",
+  "zh": "它当然装了浏览器，还有一堆应用，有些可能对开发者来说相当有趣。"
+ },
+ {
+  "seg": 27,
+  "start": 157.068,
+  "end": 161.249,
+  "speaker": "Unknown",
+  "en": "In addition to their computer, you can give your dot access to your local computer.",
+  "zh": "除了它自己的电脑之外，你还可以让你的 dot 访问你的本地电脑。"
+ },
+ {
+  "seg": 28,
+  "start": 161.309,
+  "end": 171.211,
+  "speaker": "Unknown",
+  "en": "So again, sort of this like always on in the cloud anywhere bot that can work locally or it can work in its own machine.",
+  "zh": "所以，还是那种云端的、随时随地在线的机器人，既可以在本地工作，也可以在它自己的机器上工作。"
+ },
+ {
+  "seg": 29,
+  "start": 171.691,
+  "end": 177.992,
+  "speaker": "Unknown",
+  "en": "Some interesting things that they're pushing with dots is the kind of like multi-channel experience of a dot.",
+  "zh": "他们用 dots 推出的一个有趣的点，是 dot 的那种多渠道体验。"
+ },
+ {
+  "seg": 30,
+  "start": 178.453,
+  "end": 184.654,
+  "speaker": "Unknown",
+  "en": "So you can, of course, use your dot in the ChatGPT desktop or mobile app, but you can also",
+  "zh": "所以你当然可以在 ChatGPT 桌面端或移动端使用你的 dot,但你还可以"
+ },
+ {
+  "seg": 31,
+  "start": 185.314,
+  "end": 186.355,
+  "speaker": "Unknown",
+  "en": "Call Your Dot.",
+  "zh": "打电话给你的 Dot。"
+ },
+ {
+  "seg": 32,
+  "start": 186.415,
+  "end": 189.197,
+  "speaker": "Unknown",
+  "en": "So they've actually made this not voice mode with your dot.",
+  "zh": "所以他们真的没有把它做成和你的 dot 的语音模式(voice mode)。"
+ },
+ {
+  "seg": 33,
+  "start": 189.237,
+  "end": 191.538,
+  "speaker": "Unknown",
+  "en": "They're really calling it call your dot.",
+  "zh": "他们真的管它叫「打电话给你的 dot」(call your dot)。"
+ },
+ {
+  "seg": 34,
+  "start": 191.618,
+  "end": 193.279,
+  "speaker": "Unknown",
+  "en": "It rings, it picks up.",
+  "zh": "它会响铃，会接起。"
+ },
+ {
+  "seg": 35,
+  "start": 194.28,
+  "end": 194.88,
+  "speaker": "Unknown",
+  "en": "I'm curious.",
+  "zh": "我很好奇。 [[34a]] 这是一种有趣的、独特的交互和用户体验模式。"
+ },
+ {
+  "seg": 36,
+  "start": 194.9,
+  "end": 198.703,
+  "speaker": "Unknown",
+  "en": "It's like an interesting, unique interaction, user experience pattern.",
+  "zh": "我不太确定我是否完全理解了转写语音、实时语音和通话之间的所有交互，但你知道的，你开心就好，Bay。"
+ },
+ {
+  "seg": 37,
+  "start": 199.323,
+  "end": 208.529,
+  "speaker": "Unknown",
+  "en": "I'm not sure that I quite get all the interactions between transcribing voice, live voice, and then calling, but you know, you do you, bae.",
+  "zh": "当然，因为我们全都是企业，全都是团队，我们全都在用 Slack,"
+ },
+ {
+  "seg": 38,
+  "start": 209.089,
+  "end": 213.472,
+  "speaker": "Unknown",
+  "en": "And then of course, because we're all enterprises, we're all teams and we're all on Slack,",
+  "zh": "所以还有把你的 DOT 安装到 Slack 里的能力。"
+ },
+ {
+  "seg": 39,
+  "start": 213.852,
+  "end": 216.554,
+  "speaker": "Unknown",
+  "en": "The ability to install your DOT in Slack.",
+  "zh": "现在，关于 DOTS 我觉得最困惑的一点是，它到底在所有其他 ChatGPT 界面和所有 Codex 界面的生态中处于什么位置？"
+ },
+ {
+  "seg": 40,
+  "start": 216.834,
+  "end": 227.48,
+  "speaker": "Unknown",
+  "en": "Now, one of the things that I find most confusing about DOTS is just like, where does it sit in the ecosystem of all the other ChatGPT surfaces and all the Codex surfaces?",
+  "zh": "你知道的，DOT 可以做工作。"
+ },
+ {
+  "seg": 41,
+  "start": 227.72,
+  "end": 230.202,
+  "speaker": "Unknown",
+  "en": "So, you know, DOT can do work.",
+  "zh": "他们把它定位成某种你的副本或代表。"
+ },
+ {
+  "seg": 42,
+  "start": 230.542,
+  "end": 235.065,
+  "speaker": "Unknown",
+  "en": "They position it as a sort of like replica or delegate of you.",
+  "zh": "所以它有点像你的主线程。"
+ },
+ {
+  "seg": 43,
+  "start": 235.145,
+  "end": 236.886,
+  "speaker": "Unknown",
+  "en": "So it's sort of like your main thread.",
+  "zh": "所以你有一个类似主 dot 的东西，负责你所有的工作，可以主动找你，可以提醒你事情，可以自己独立完成工作，但它也可以启动 Codex 线程，我认为还有聊天线程，它们大概是一回事——并代表你完成工作。"
+ },
+ {
+  "seg": 44,
+  "start": 237.826,
+  "end": 256.196,
+  "speaker": "Unknown",
+  "en": "And so you have like kind of like one master dot that is responsible for all your work, can be proactive towards you, can remind you of things, can do work on its own, but it can also kick off Codex threads and I think chat threads, they're kind of like one and the same, and do work on your behalf.",
+  "zh": "所以"
+ },
+ {
+  "seg": 45,
+  "start": 256.356,
+  "end": 256.717,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "你知道，我认为他们仍然需要理清信息架构。"
+ },
+ {
+  "seg": 46,
+  "start": 257.697,
+  "end": 260.401,
+  "speaker": "Unknown",
+  "en": "You know, I think they still have to figure out the information architecture.",
+  "zh": "我想做一个完整的 dot 评测，但我想等它成熟了再做。"
+ },
+ {
+  "seg": 47,
+  "start": 260.561,
+  "end": 263.726,
+  "speaker": "Unknown",
+  "en": "I want to do a full dot review, but I want to do it when it's baked.",
+  "zh": "我知道它真的会管用，但它值得关注。"
+ },
+ {
+  "seg": 48,
+  "start": 264.027,
+  "end": 269.334,
+  "speaker": "Unknown",
+  "en": "And I know that it's really going to work, but it is worth paying attention to.",
+  "zh": "我要说的是，早期评价是这些 dots 所做的工作本身是不错的。"
+ },
+ {
+  "seg": 49,
+  "start": 270.746,
+  "end": 275.228,
+  "speaker": "Unknown",
+  "en": "I will say that early takes are the work itself that these dots do is good.",
+  "zh": "我想说,早期的看法是,这些点所做的工作本身就是好的。"
+ },
+ {
+  "seg": 50,
+  "start": 275.428,
+  "end": 278.589,
+  "speaker": "Unknown",
+  "en": "Like I had it go shopping for me, it found the right shoes.",
+  "zh": "比如我让它帮我购物,它找到了合适的鞋子。"
+ },
+ {
+  "seg": 51,
+  "start": 279.109,
+  "end": 281.93,
+  "speaker": "Unknown",
+  "en": "I had it code something for me, it coded it well.",
+  "zh": "我让它帮我写代码,它写得很好。"
+ },
+ {
+  "seg": 52,
+  "start": 282.77,
+  "end": 293.054,
+  "speaker": "Unknown",
+  "en": "It's proactive in exactly the right way, which is I was trying to figure out my kids' weekend schedule and whether their swim classes conflicted with another thing we were trying to do with them.",
+  "zh": "它恰好在正确的方面表现出主动性,我之前在琢磨我孩子们的周末日程,看他们的游泳课是否和我们想带他们做的另一件事冲突。"
+ },
+ {
+  "seg": 53,
+  "start": 293.514,
+  "end": 296.696,
+  "speaker": "Unknown",
+  "en": "And then this morning it said, hey, do you want me to look for November ones?",
+  "zh": "然后今天早上它说,嘿,你要我找找十一月的吗?"
+ },
+ {
+  "seg": 54,
+  "start": 296.736,
+  "end": 297.376,
+  "speaker": "Unknown",
+  "en": "Here's your option.",
+  "zh": "这是你的选项。"
+ },
+ {
+  "seg": 55,
+  "start": 298.616,
+  "end": 302.819,
+  "speaker": "Unknown",
+  "en": "I say the bones of your dot, which is a very weird thing to say, are good.",
+  "zh": "我想说,dot 的骨架——这是个很奇怪的说法——是好的。"
+ },
+ {
+  "seg": 56,
+  "start": 303.439,
+  "end": 307.401,
+  "speaker": "Unknown",
+  "en": "There are a bunch of rough edges around the user experience.",
+  "zh": "用户体验上有一堆粗糙的边角。"
+ },
+ {
+  "seg": 57,
+  "start": 307.542,
+  "end": 316.627,
+  "speaker": "Unknown",
+  "en": "I think there's a bunch of rough edges around dot's position in all the primitives that you have going on with chat and codex.",
+  "zh": "我认为围绕 dot 在你所有的原语中的定位——聊天和 codex 那些东西——也有一堆粗糙的边角。"
+ },
+ {
+  "seg": 58,
+  "start": 316.987,
+  "end": 321.85,
+  "speaker": "Unknown",
+  "en": "I think it's very confusing to understand what's a dot thread, what's a chat thread, what's a codex thread.",
+  "zh": "我觉得很难搞清楚什么是一个 dot 线程、什么是一个聊天线程、什么是一个 codex 线程。"
+ },
+ {
+  "seg": 59,
+  "start": 322.51,
+  "end": 325.573,
+  "speaker": "Unknown",
+  "en": "But I think the surface area is moving quite fast.",
+  "zh": "但我认为这个表面区域的演进速度相当快。"
+ },
+ {
+  "seg": 60,
+  "start": 326.174,
+  "end": 331.118,
+  "speaker": "Unknown",
+  "en": "And I think people are going to have to decide what they think about using their dot.",
+  "zh": "我认为人们将不得不决定他们对使用自己的 dot 怎么看。"
+ },
+ {
+  "seg": 61,
+  "start": 331.739,
+  "end": 332.66,
+  "speaker": "Unknown",
+  "en": "Where do I think I'm going to use it?",
+  "zh": "我觉得我会在哪里用它?"
+ },
+ {
+  "seg": 62,
+  "start": 332.68,
+  "end": 335.022,
+  "speaker": "Unknown",
+  "en": "I'm probably going to respond to its productivity.",
+  "zh": "我很可能会根据它的生产力来回应它。"
+ },
+ {
+  "seg": 63,
+  "start": 335.142,
+  "end": 344.091,
+  "speaker": "Unknown",
+  "en": "So dot is going to be able to pull me in if it is proactive and suggests using my chatter codex memories, useful things it can do for me.",
+  "zh": "所以 dot 要能把拉进来,前提是它主动并建议使用我的 chatter codex 记忆,建议它能为我做的有用的事。"
+ },
+ {
+  "seg": 64,
+  "start": 344.151,
+  "end": 347.233,
+  "speaker": "Unknown",
+  "en": "I think that's how an OpenAI agent gets my attention is",
+  "zh": "我认为这就是一个 OpenAI 智能体赢得我注意力的方式,"
+ },
+ {
+  "seg": 65,
+  "start": 348.095,
+  "end": 352.946,
+  "speaker": "Unknown",
+  "en": "It pushes interesting things to me and I start to engage with it a lot more.",
+  "zh": "它把有趣的东西推送给我,然后我开始更多地与它互动。"
+ },
+ {
+  "seg": 66,
+  "start": 352.966,
+  "end": 357.116,
+  "speaker": "Unknown",
+  "en": "I will say right now, early take, and again, I'm not doing a full dot review.",
+  "zh": "我要说,现在,这是初步看法,再说一遍,我不是在做完整的 dot 评测。"
+ },
+ {
+  "seg": 67,
+  "start": 358.28,
+  "end": 361.141,
+  "speaker": "Unknown",
+  "en": "I'm still sitting and using my grok bots for work.",
+  "zh": "我仍然在用我的 grok 机器人处理工作。"
+ },
+ {
+  "seg": 68,
+  "start": 361.281,
+  "end": 366.563,
+  "speaker": "Unknown",
+  "en": "I just like defining micro agents for work, just like I would hire someone.",
+  "zh": "我就是喜欢为工作定义微型智能体,就像我会雇人一样。"
+ },
+ {
+  "seg": 69,
+  "start": 367.043,
+  "end": 372.545,
+  "speaker": "Unknown",
+  "en": "I like to hire an agent for a job, so I'm not really a one agent to rule them all person.",
+  "zh": "我喜欢为一个工作雇一个智能体,所以我不是那种「一个智能体统治一切」的人。"
+ },
+ {
+  "seg": 70,
+  "start": 373.146,
+  "end": 381.949,
+  "speaker": "Unknown",
+  "en": "And then I think the user experience of Muse is just a little more consumer friendly, a little bit more approachable.",
+  "zh": "然后我觉得 Muse 的用户体验对消费者更友好一点,更容易上手一点。"
+ },
+ {
+  "seg": 71,
+  "start": 381.969,
+  "end": 384.19,
+  "speaker": "Unknown",
+  "en": "The avatar is super cute.",
+  "zh": "头像超级可爱。"
+ },
+ {
+  "seg": 72,
+  "start": 385.15,
+  "end": 396.16,
+  "speaker": "Unknown",
+  "en": "So I'm going to give it a whirl, but I'm not going to give you all a full review until I really feel like I understand the differentiating features of this and I can tell you exactly where I think it fits in your stack.",
+  "zh": "所以我会试一试,但在我真正觉得自己理解了它的差异化特性、并且能明确告诉你我认为它适合放在你的技术栈的哪个位置之前,我不会给你们做完整评测。"
+ },
+ {
+  "seg": 73,
+  "start": 396.24,
+  "end": 397.882,
+  "speaker": "Unknown",
+  "en": "So it's like early innings.",
+  "zh": "所以现在还处于初期阶段。"
+ },
+ {
+  "seg": 74,
+  "start": 398.702,
+  "end": 400.924,
+  "speaker": "Unknown",
+  "en": "It's got all the makings of something that's good.",
+  "zh": "它具备了成为好东西的一切要素。"
+ },
+ {
+  "seg": 75,
+  "start": 400.964,
+  "end": 407.39,
+  "speaker": "Unknown",
+  "en": "The actual work it does because it's powered by these OpenAI models is really good and it's pretty smart with memory.",
+  "zh": "它实际做的工作——因为由这些 OpenAI 模型驱动——真的很好,而且它在记忆方面相当聪明。"
+ },
+ {
+  "seg": 76,
+  "start": 408.391,
+  "end": 410.813,
+  "speaker": "Unknown",
+  "en": "I'm just not 100 percent sure yet.",
+  "zh": "我只是还不是百分之百确定。"
+ },
+ {
+  "seg": 77,
+  "start": 410.973,
+  "end": 412.174,
+  "speaker": "Unknown",
+  "en": "So we're going to hold off a couple of weeks.",
+  "zh": "所以我们要再等几周。"
+ },
+ {
+  "seg": 78,
+  "start": 412.194,
+  "end": 413.956,
+  "speaker": "Unknown",
+  "en": "I'm going to come back to a review here.",
+  "zh": "我会回来这里做个评测。"
+ },
+ {
+  "seg": 79,
+  "start": 414.616,
+  "end": 414.936,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 80,
+  "start": 415.016,
+  "end": 416.718,
+  "speaker": "Unknown",
+  "en": "So dots, big review.",
+  "zh": "那么 dot 的大评测到此为止。"
+ },
+ {
+  "seg": 81,
+  "start": 416.918,
+  "end": 418.759,
+  "speaker": "Unknown",
+  "en": "What else is big?",
+  "zh": "还有什么是大新闻?"
+ },
+ {
+  "seg": 82,
+  "start": 419.28,
+  "end": 424.004,
+  "speaker": "Unknown",
+  "en": "I think one that's underhyped, and I said this on X, is ChatGPT Space.",
+  "zh": "我认为有一个被低估了,我在 X 上说过,就是 ChatGPT Space。"
+ },
+ {
+  "seg": 83,
+  "start": 424.644,
+  "end": 433.812,
+  "speaker": "Unknown",
+  "en": "Space is a place in ChatGPT where you can work on documents, artifacts, slides with humans.",
+  "zh": "Space 是 ChatGPT 里的一个地方,你可以在那里与人一起处理文档、工件、幻灯片。"
+ },
+ {
+  "seg": 84,
+  "start": 434.492,
+  "end": 435.233,
+  "speaker": "Unknown",
+  "en": "And with agents.",
+  "zh": "也可以和智能体一起。"
+ },
+ {
+  "seg": 85,
+  "start": 435.473,
+  "end": 440.136,
+  "speaker": "Unknown",
+  "en": "And I think this is what companies have been waiting for.",
+  "zh": "我认为这就是各家公司一直在等待的东西。"
+ },
+ {
+  "seg": 86,
+  "start": 440.276,
+  "end": 450.702,
+  "speaker": "Unknown",
+  "en": "We have been waiting for an AI native document, slide, HTML collaboration platform with all the right sharing built in, with",
+  "zh": "我们一直在等一个 AI 原生的文档、幻灯片、HTML 协作平台,内置所有正确的分享功能,带"
+ },
+ {
+  "seg": 87,
+  "start": 450.902,
+  "end": 457.087,
+  "speaker": "Unknown",
+  "en": "All the right data controls built in with all the like agent native kind of aspects of this built in.",
+  "zh": "所有正确的数据控制,内置所有那种智能体原生的特性。"
+ },
+ {
+  "seg": 88,
+  "start": 457.327,
+  "end": 464.773,
+  "speaker": "Unknown",
+  "en": "I mean, honestly, I built this at chat PRD early on because I knew that people and agents wanted to collaborate on the same document.",
+  "zh": "说实话,我很早就建了 chat PRD,因为我知道人和智能体想在同一个文档上协作。"
+ },
+ {
+  "seg": 89,
+  "start": 464.993,
+  "end": 469.537,
+  "speaker": "Unknown",
+  "en": "And so the OpenAI team has built spaces into that same concept.",
+  "zh": "所以 OpenAI 团队把 spaces 建成了同一个概念。"
+ },
+ {
+  "seg": 90,
+  "start": 469.577,
+  "end": 478.624,
+  "speaker": "Unknown",
+  "en": "So if you see what spaces can do, it can create pages and create documents by which you can collaborate with both your human friends and your DOT, your agent friends.",
+  "zh": "如果你看看 spaces 能做什么,它可以创建页面、创建文档,你既可以和你的朋友协作,也可以和你的 dot、你的智能体朋友协作。"
+ },
+ {
+  "seg": 91,
+  "start": 479.665,
+  "end": 485.047,
+  "speaker": "Unknown",
+  "en": "Slides, again, another surface area for businesses where a lot of collaboration happens.",
+  "zh": "幻灯片,再说一次,是企业中大量协作发生的另一个表面区域。"
+ },
+ {
+  "seg": 92,
+  "start": 485.207,
+  "end": 492.29,
+  "speaker": "Unknown",
+  "en": "And I know that ChatGPT, these other AI tools are really great at creating slides, but not really great at editing and collaborating with slides.",
+  "zh": "我知道 ChatGPT 和这些其他 AI 工具非常擅长创建幻灯片,但在编辑和协作幻灯片上就不那么擅长了。"
+ },
+ {
+  "seg": 93,
+  "start": 492.31,
+  "end": 494.291,
+  "speaker": "Unknown",
+  "en": "And so this is a big win.",
+  "zh": "所以这是一个大胜利。"
+ },
+ {
+  "seg": 94,
+  "start": 494.551,
+  "end": 501.234,
+  "speaker": "Unknown",
+  "en": "And then all the like good stuff around sharing permissions, et cetera.",
+  "zh": "然后还有围绕分享权限等等的所有好东西。"
+ },
+ {
+  "seg": 95,
+  "start": 501.574,
+  "end": 505.596,
+  "speaker": "Unknown",
+  "en": "One of the things I love that my dot did, one moment of delight that I didn't touch on",
+  "zh": "我的 dot 做过的一件我爱的事,一个我没在"
+ },
+ {
+  "seg": 96,
+  "start": 506.096,
+  "end": 510.262,
+  "speaker": "Unknown",
+  "en": "In the overview before is it made a space for me called your personal scratch pad.",
+  "zh": "之前的概览中提到的惊喜时刻,是它为我建了一个叫「你的个人草稿本」的 space。"
+ },
+ {
+  "seg": 97,
+  "start": 511.083,
+  "end": 519.876,
+  "speaker": "Unknown",
+  "en": "And it just created a space where my dot and I could just collaborate via doc on things we have to do.",
+  "zh": "它就创建了一个空间,我的 dot 和我可以在里面通过文档协作处理我们要做的事情。"
+ },
+ {
+  "seg": 98,
+  "start": 520.176,
+  "end": 522.359,
+  "speaker": "Unknown",
+  "en": "And I don't know if they read my mind.",
+  "zh": "我不知道它们是不是读了我的心。"
+ },
+ {
+  "seg": 99,
+  "start": 523.2,
+  "end": 527.424,
+  "speaker": "Unknown",
+  "en": "I have a very loosey-goosey approach to my to-do list.",
+  "zh": "我对待待办清单的方式非常随意松散。"
+ },
+ {
+  "seg": 100,
+  "start": 527.505,
+  "end": 530.668,
+  "speaker": "Unknown",
+  "en": "I'm never gonna be like an organized table notion boy.",
+  "zh": "我永远不会做一个整理得井井有条的 Notion 表格男孩。"
+ },
+ {
+  "seg": 101,
+  "start": 530.688,
+  "end": 537.615,
+  "speaker": "Unknown",
+  "en": "I just want a stream of consciousness, list of bullet points and comments I can make on things I need to do.",
+  "zh": "我只想要一股意识流，一列要点和评论，我可以对需要做的事情做笔记。"
+ },
+ {
+  "seg": 102,
+  "start": 537.995,
+  "end": 539.437,
+  "speaker": "Unknown",
+  "en": "That I can check off with me and my agents.",
+  "zh": "我和我的智能体们可以一起勾选完成。"
+ },
+ {
+  "seg": 103,
+  "start": 539.517,
+  "end": 540.738,
+  "speaker": "Unknown",
+  "en": "And I actually built this.",
+  "zh": "而且我真的把这个做出来了。"
+ },
+ {
+  "seg": 104,
+  "start": 541.539,
+  "end": 542.9,
+  "speaker": "Unknown",
+  "en": "It's called Claire's Notebook.",
+  "zh": "它叫 Claire's Notebook。"
+ },
+ {
+  "seg": 105,
+  "start": 542.92,
+  "end": 544.301,
+  "speaker": "Unknown",
+  "en": "Let me pull it up really quickly.",
+  "zh": "让我快速把它调出来。"
+ },
+ {
+  "seg": 106,
+  "start": 545.242,
+  "end": 548.926,
+  "speaker": "Unknown",
+  "en": "So what's really funny is I actually built this for myself a couple of weeks ago.",
+  "zh": "非常有意思的是，我其实几周前为自己做了这个。"
+ },
+ {
+  "seg": 107,
+  "start": 549.026,
+  "end": 554.292,
+  "speaker": "Unknown",
+  "en": "I built this collaborative document where me and all my agents, Codex, Grok, Muse,",
+  "zh": "我做了这个协作文档，我和我所有的智能体——Codex、Grok、Muse——"
+ },
+ {
+  "seg": 108,
+  "start": 554.792,
+  "end": 558.936,
+  "speaker": "Unknown",
+  "en": "Could all collaborate on our to-do list because I was working across a bunch of agents.",
+  "zh": "都可以在我们的待办清单上协作，因为我当时在跨多个智能体工作。"
+ },
+ {
+  "seg": 109,
+  "start": 559.076,
+  "end": 562.98,
+  "speaker": "Unknown",
+  "en": "So I did invent this, invented here, this collaborative doc.",
+  "zh": "所以我确实发明了这个，在这里发明了这个协作文档。"
+ },
+ {
+  "seg": 110,
+  "start": 563.421,
+  "end": 571.509,
+  "speaker": "Unknown",
+  "en": "But a good example of a space, again, is this place where you and your agent can just keep a running list of to-dos, decisions, notes.",
+  "zh": "但再次强调，一个好的「空间」例子就是这样一个地方：你和你的智能体可以持续维护一个待办事项、决策、笔记的滚动清单。"
+ },
+ {
+  "seg": 111,
+  "start": 571.989,
+  "end": 573.871,
+  "speaker": "Unknown",
+  "en": "It also created documents for me",
+  "zh": "它还为我创建了文档。"
+ },
+ {
+  "seg": 112,
+  "start": 574.832,
+  "end": 576.052,
+  "speaker": "Unknown",
+  "en": "I'm prepping for a talk.",
+  "zh": "我在准备一个演讲。"
+ },
+ {
+  "seg": 113,
+  "start": 576.672,
+  "end": 578.613,
+  "speaker": "Unknown",
+  "en": "I have how I AI recording plans.",
+  "zh": "我有 How I AI 的录制计划。"
+ },
+ {
+  "seg": 114,
+  "start": 578.633,
+  "end": 579.973,
+  "speaker": "Unknown",
+  "en": "So what's coming up next?",
+  "zh": "那么接下来会有什么？"
+ },
+ {
+  "seg": 115,
+  "start": 580.493,
+  "end": 583.954,
+  "speaker": "Unknown",
+  "en": "And again, what's nice about this is it's not just a doc.",
+  "zh": "再说一遍，这个的好处是它不只是一个文档。"
+ },
+ {
+  "seg": 116,
+  "start": 584.814,
+  "end": 591.135,
+  "speaker": "Unknown",
+  "en": "You have the ability to at mention your doc, at mention ChatGPT and get updates to the doc.",
+  "zh": "你可以在文档里 at 提及，at 提及 ChatGPT，获取文档的更新。"
+ },
+ {
+  "seg": 117,
+  "start": 591.155,
+  "end": 595.356,
+  "speaker": "Unknown",
+  "en": "And then you can just imagine this across slides and other artifacts.",
+  "zh": "然后你可以想象把它推广到幻灯片和其他产出物上。"
+ },
+ {
+  "seg": 118,
+  "start": 595.376,
+  "end": 602.477,
+  "speaker": "Unknown",
+  "en": "So this is really like a little bit of shots fired on Google, which again, is just watching this AI opportunity",
+  "zh": "所以这真的是有点向 Google 开火了，而 Google 只是眼睁睁看着这个 AI 机会"
+ },
+ {
+  "seg": 119,
+  "start": 603.177,
+  "end": 603.738,
+  "speaker": "Unknown",
+  "en": "Go buy.",
+  "zh": "溜走。"
+ },
+ {
+  "seg": 120,
+  "start": 603.758,
+  "end": 608.142,
+  "speaker": "Unknown",
+  "en": "They have all the goodies and yet OpenAI, Meta have all beat them to the punch.",
+  "zh": "他们手里有所有好东西，然而 OpenAI、Meta 都抢先了一步。"
+ },
+ {
+  "seg": 121,
+  "start": 608.502,
+  "end": 609.403,
+  "speaker": "Unknown",
+  "en": "We got to figure this out.",
+  "zh": "他们得想办法解决这个问题。"
+ },
+ {
+  "seg": 122,
+  "start": 609.483,
+  "end": 615.268,
+  "speaker": "Unknown",
+  "en": "But I do think spaces are one of those things that enterprises really want.",
+  "zh": "但我确实认为空间是企业真正想要的东西之一。"
+ },
+ {
+  "seg": 123,
+  "start": 615.308,
+  "end": 619.352,
+  "speaker": "Unknown",
+  "en": "So I'll really be watching to see who actually adopts spaces.",
+  "zh": "所以我会密切关注到底谁真正采用了空间。"
+ },
+ {
+  "seg": 124,
+  "start": 619.552,
+  "end": 624.697,
+  "speaker": "Unknown",
+  "en": "Will you see companies move more and more to these OpenAI hosted documents or not?",
+  "zh": "你会不会看到公司越来越多地迁移到这些 OpenAI 托管的文档，还是不会？"
+ },
+ {
+  "seg": 125,
+  "start": 624.817,
+  "end": 627.8,
+  "speaker": "Unknown",
+  "en": "And how kind of the push and pull between some of these source of truth",
+  "zh": "以及这些真相源"
+ },
+ {
+  "seg": 126,
+  "start": 628.582,
+  "end": 636.241,
+  "speaker": "Unknown",
+  "en": "Business collaboration platforms like Slack, Google Drive, Dropbox, et cetera, play with spaces.",
+  "zh": "业务协作平台，比如 Slack、Google Drive、Dropbox 等等，会如何与空间相互博弈。"
+ },
+ {
+  "seg": 127,
+  "start": 637.277,
+  "end": 643.202,
+  "speaker": "Unknown",
+  "en": "The other thing that is related to Spaces that I think is really interesting is the updates announced to sites.",
+  "zh": "另一个与 Spaces 相关、我觉得非常有趣的事情，是针对 Sites 宣布的更新。"
+ },
+ {
+  "seg": 128,
+  "start": 643.662,
+  "end": 650.327,
+  "speaker": "Unknown",
+  "en": "Sites, in case you don't know, is sort of like OpenAI's built-in website app builder that can be deployed.",
+  "zh": "Sites，如果你不知道的话，有点像 OpenAI 内置的网站应用构建器，可以部署。"
+ },
+ {
+  "seg": 129,
+  "start": 650.948,
+  "end": 654.69,
+  "speaker": "Unknown",
+  "en": "You can sign in through ChatGPT and then anybody can access your web app.",
+  "zh": "你可以通过 ChatGPT 登录，然后任何人都能访问你的 Web 应用。"
+ },
+ {
+  "seg": 130,
+  "start": 654.73,
+  "end": 658.734,
+  "speaker": "Unknown",
+  "en": "It's sort of like bridging that gap between deploying something locally and something you can share.",
+  "zh": "它有点像是在本地部署的东西和可以分享的东西之间架起了桥梁。"
+ },
+ {
+  "seg": 131,
+  "start": 659.684,
+  "end": 663.566,
+  "speaker": "Unknown",
+  "en": "You know, they pulled sites into space, so it has nice sharing and permissions.",
+  "zh": "你知道，他们把 Sites 拉进了空间，所以它有了不错的分享和权限功能。"
+ },
+ {
+  "seg": 132,
+  "start": 663.606,
+  "end": 673.229,
+  "speaker": "Unknown",
+  "en": "But the one thing that they added to sites, which I think is really, really, really smart, is you can now bundle connectors and plugins into your site.",
+  "zh": "但他们给 Sites 添加的一样东西，我觉得真的、真的、真的非常聪明，就是你现在可以把连接器和插件打包进你的站点。"
+ },
+ {
+  "seg": 133,
+  "start": 673.249,
+  "end": 674.51,
+  "speaker": "Unknown",
+  "en": "So let me just give you an example.",
+  "zh": "让我给你举个例子。"
+ },
+ {
+  "seg": 134,
+  "start": 675.351,
+  "end": 680.175,
+  "speaker": "Unknown",
+  "en": "Let's say that you want to create a dashboard, a custom dashboard, pulling data from your Snowflake.",
+  "zh": "假设你想创建一个仪表板，一个自定义仪表板，从你的 Snowflake 拉取数据。"
+ },
+ {
+  "seg": 135,
+  "start": 680.595,
+  "end": 687.301,
+  "speaker": "Unknown",
+  "en": "You have a Snowflake plugin through your ChatGPT app, and you want to use that same data in your shared reporting.",
+  "zh": "你的 ChatGPT 应用里有一个 Snowflake 插件，你想在共享报告里使用同样的数据。"
+ },
+ {
+  "seg": 136,
+  "start": 687.621,
+  "end": 691.924,
+  "speaker": "Unknown",
+  "en": "Well, you can now use that plugin to power the data in your site.",
+  "zh": "那么，你现在可以用那个插件来驱动你站点里的数据。"
+ },
+ {
+  "seg": 137,
+  "start": 691.984,
+  "end": 698.37,
+  "speaker": "Unknown",
+  "en": "And then what's really interesting about this is if you share it to somebody on your team, they can log in and they can use their connector",
+  "zh": "然后这一点非常有趣的是，如果你分享给你团队里的某个人，他们可以登录并使用他们自己的连接器。"
+ },
+ {
+  "seg": 138,
+  "start": 698.83,
+  "end": 702.352,
+  "speaker": "Unknown",
+  "en": "So if they have access to the same data, great, they see the report.",
+  "zh": "所以如果他们有权限访问同样的数据，很好，他们就能看到报告。"
+ },
+ {
+  "seg": 139,
+  "start": 702.432,
+  "end": 708.796,
+  "speaker": "Unknown",
+  "en": "But if they don't have access to the data, then those controls come in and they can't view the same thing that you can.",
+  "zh": "但如果他们没有权限访问那些数据，那么那些控制就会生效，他们就无法看到你能看到的东西。"
+ },
+ {
+  "seg": 140,
+  "start": 709.136,
+  "end": 724.766,
+  "speaker": "Unknown",
+  "en": "This is truly the number one problem I hear from enterprises that we work with trying to figure out what to do with all these vibe-coded internal tools, what to do with all these vibe-coded platforms, what to do with all these vibe-coded prototypes, what to do with all these vibe-coded reports.",
+  "zh": "这真的是我从合作的企业那里听到的头号问题：怎么处理这些用 vibe coding 做出来的内部工具，怎么处理这些用 vibe coding 做出来的平台，怎么处理这些用 vibe coding 做出来的原型，怎么处理这些用 vibe coding 做出来的报告。"
+ },
+ {
+  "seg": 141,
+  "start": 725.146,
+  "end": 727.328,
+  "speaker": "Unknown",
+  "en": "Everybody's like, what do I do with this information?",
+  "zh": "每个人都在问，我该怎么处理这些信息？"
+ },
+ {
+  "seg": 142,
+  "start": 727.888,
+  "end": 732.976,
+  "speaker": "Unknown",
+  "en": "And I think this sites plus plugins is OpenAI's answer to this.",
+  "zh": "而我认为这个 Sites 加插件就是 OpenAI 对这个问题的回答。"
+ },
+ {
+  "seg": 143,
+  "start": 733.897,
+  "end": 735.019,
+  "speaker": "Unknown",
+  "en": "I am really curious.",
+  "zh": "我真的很好奇。"
+ },
+ {
+  "seg": 144,
+  "start": 735.139,
+  "end": 740.967,
+  "speaker": "Unknown",
+  "en": "Again, I think there's this competition between like Claude artifacts, OpenAI sites.",
+  "zh": "再说一遍，我觉得在 Claude 的产出物和 OpenAI 的 Sites 之间存在竞争。"
+ },
+ {
+  "seg": 145,
+  "start": 741.368,
+  "end": 743.451,
+  "speaker": "Unknown",
+  "en": "Where is the enterprise source of truth going to be?",
+  "zh": "企业的真相源到底会落在谁那里？"
+ },
+ {
+  "seg": 146,
+  "start": 744.372,
+  "end": 755.956,
+  "speaker": "Unknown",
+  "en": "And I think you really have to compete on the things that matter to companies, which are like easy access to data, governance and controls, permissions, ease of sharing, and then quality of these artifacts.",
+  "zh": "而且我认为你必须在对公司真正重要的方面竞争，比如便捷的数据访问、治理和控制、权限、分享的便利性，以及这些产出物的质量。"
+ },
+ {
+  "seg": 147,
+  "start": 755.976,
+  "end": 757.256,
+  "speaker": "Unknown",
+  "en": "So I think this is really interesting.",
+  "zh": "所以我觉得这真的很有意思。"
+ },
+ {
+  "seg": 148,
+  "start": 757.916,
+  "end": 760.217,
+  "speaker": "Unknown",
+  "en": "Coming up next week, we actually recorded it at the event.",
+  "zh": "下周即将上线的内容，我们实际上是在活动现场录制的。"
+ },
+ {
+  "seg": 149,
+  "start": 760.377,
+  "end": 762.478,
+  "speaker": "Unknown",
+  "en": "I did a live episode with Cath.",
+  "zh": "我和 Cath 做了一期现场节目。"
+ },
+ {
+  "seg": 150,
+  "start": 762.858,
+  "end": 766.52,
+  "speaker": "Unknown",
+  "en": "The product lead on sites where she's going to show us all the like magic insights.",
+  "zh": "产品负责人会在站点上向我们展示所有那些魔法般的洞察。"
+ },
+ {
+  "seg": 151,
+  "start": 767.261,
+  "end": 776.126,
+  "speaker": "Unknown",
+  "en": "But this is something that I think you should, if you are an enterprise, considering ChatGPT as your platform for collaboration that I think is quite nice.",
+  "zh": "但这是我认为你应该——如果你是一家企业，正在考虑把 ChatGPT 作为你的协作平台——我觉得相当不错的东西。"
+ },
+ {
+  "seg": 152,
+  "start": 776.586,
+  "end": 785.711,
+  "speaker": "Unknown",
+  "en": "Now, I've covered two, three big things, which is dots, agents, space, like collaborative workspace, sites, just like a nice little quality of life thing here.",
+  "zh": "现在，我已经讲了两个、三个大东西，也就是 dots、智能体、space，比如协作工作区，还有 sites，就像一个不错的小的品质生活功能。"
+ },
+ {
+  "seg": 153,
+  "start": 786.231,
+  "end": 788.693,
+  "speaker": "Unknown",
+  "en": "Let's talk about the things that I actually care about.",
+  "zh": "让我们来谈谈我真正关心的事情。"
+ },
+ {
+  "seg": 154,
+  "start": 789.453,
+  "end": 791.576,
+  "speaker": "Unknown",
+  "en": "Model, models and platform.",
+  "zh": "模型，模型和平台。"
+ },
+ {
+  "seg": 155,
+  "start": 792.137,
+  "end": 793.078,
+  "speaker": "Unknown",
+  "en": "That's what I care about.",
+  "zh": "那才是我关心的。"
+ },
+ {
+  "seg": 156,
+  "start": 793.098,
+  "end": 795.38,
+  "speaker": "Unknown",
+  "en": "Your girl is a software engineer at heart.",
+  "zh": "你家女孩骨子里是个软件工程师。"
+ },
+ {
+  "seg": 157,
+  "start": 796.121,
+  "end": 798.564,
+  "speaker": "Unknown",
+  "en": "I am excited about models.",
+  "zh": "我对模型感到兴奋。"
+ },
+ {
+  "seg": 158,
+  "start": 798.905,
+  "end": 804.111,
+  "speaker": "Unknown",
+  "en": "I am excited about infrastructure and I'm excited about platform components.",
+  "zh": "我对基础设施感到兴奋，我也对平台组件感到兴奋。"
+ },
+ {
+  "seg": 159,
+  "start": 804.231,
+  "end": 806.374,
+  "speaker": "Unknown",
+  "en": "So let's talk about what those releases were.",
+  "zh": "那么我们来谈谈那些发布是什么。"
+ },
+ {
+  "seg": 160,
+  "start": 807.432,
+  "end": 808.273,
+  "speaker": "Unknown",
+  "en": "It was actually really funny.",
+  "zh": "其实真的很有趣。"
+ },
+ {
+  "seg": 161,
+  "start": 808.313,
+  "end": 812.817,
+  "speaker": "Unknown",
+  "en": "One of the first things Sam Altman said is, you know what we constantly get feedback on?",
+  "zh": "Sam Altman 最先说的话之一就是，你知道我们不断收到什么反馈吗？"
+ },
+ {
+  "seg": 162,
+  "start": 813.618,
+  "end": 815.2,
+  "speaker": "Unknown",
+  "en": "We just want faster models, cheaper.",
+  "zh": "我们只想要更快的模型，更便宜。"
+ },
+ {
+  "seg": 163,
+  "start": 815.38,
+  "end": 818.743,
+  "speaker": "Unknown",
+  "en": "And it's like, of course, we all want models faster and cheaper.",
+  "zh": "然后就像，当然，我们都想要模型更快更便宜。"
+ },
+ {
+  "seg": 164,
+  "start": 819.424,
+  "end": 821.566,
+  "speaker": "Unknown",
+  "en": "And they did release GPT-6-1 Sol.",
+  "zh": "而他们确实发布了 GPT-6-1 Sol。"
+ },
+ {
+  "seg": 165,
+  "start": 821.606,
+  "end": 822.286,
+  "speaker": "Unknown",
+  "en": "This is awesome.",
+  "zh": "这太棒了。"
+ },
+ {
+  "seg": 166,
+  "start": 824.148,
+  "end": 831.474,
+  "speaker": "Unknown",
+  "en": "Almost Astra Intelligence at sole speed and really, really cheap cost.",
+  "zh": "几乎是 Astra 级的智能，以 sol 的速度和非常非常便宜的成本。"
+ },
+ {
+  "seg": 167,
+  "start": 831.494,
+  "end": 841.662,
+  "speaker": "Unknown",
+  "en": "So it's $2 per million input tokens, $10 per output token, which is much different than Astra, which is $10 per million input tokens and 50 per output tokens.",
+  "zh": "所以它是每百万输入 token 2 美元，每百万输出 token 10 美元，这和 Astra 差别很大，Astra 是每百万输入 token 10 美元，每百万输出 token 50 美元。"
+ },
+ {
+  "seg": 168,
+  "start": 841.903,
+  "end": 844.304,
+  "speaker": "Unknown",
+  "en": "So it's a lot less and it's a good one.",
+  "zh": "所以它便宜很多，而且是个好东西。"
+ },
+ {
+  "seg": 169,
+  "start": 845.185,
+  "end": 846.545,
+  "speaker": "Unknown",
+  "en": "I love the Sol models.",
+  "zh": "我喜欢 Sol 模型。"
+ },
+ {
+  "seg": 170,
+  "start": 846.646,
+  "end": 848.546,
+  "speaker": "Unknown",
+  "en": "I have loved the Sol model since it came out.",
+  "zh": "自从 Sol 模型发布以来我就一直喜欢它。"
+ },
+ {
+  "seg": 171,
+  "start": 848.586,
+  "end": 849.847,
+  "speaker": "Unknown",
+  "en": "It's just a workhorse.",
+  "zh": "它就是一匹任劳任怨的工作马。"
+ },
+ {
+  "seg": 172,
+  "start": 850.307,
+  "end": 855.308,
+  "speaker": "Unknown",
+  "en": "It's sort of like my middle of the line, most engineering tasks model that I work with.",
+  "zh": "它有点像我的中档、处理大多数工程任务的模型，我和它一起工作。"
+ },
+ {
+  "seg": 173,
+  "start": 855.748,
+  "end": 858.029,
+  "speaker": "Unknown",
+  "en": "I do love Astra the very most.",
+  "zh": "我最最喜欢的还是 Astra。"
+ },
+ {
+  "seg": 174,
+  "start": 858.169,
+  "end": 861.53,
+  "speaker": "Unknown",
+  "en": "And so because I will pay for the tokens, I'm like happy to be an Astra.",
+  "zh": "因为我会为 token 付钱，所以我乐意用 Astra。"
+ },
+ {
+  "seg": 175,
+  "start": 862.07,
+  "end": 866.592,
+  "speaker": "Unknown",
+  "en": "But if I were being more cost conscious, I would definitely spend time with Sol.",
+  "zh": "但如果我要更注重成本的话，我肯定会花时间用 Sol。"
+ },
+ {
+  "seg": 176,
+  "start": 867.532,
+  "end": 872.837,
+  "speaker": "Unknown",
+  "en": "Sol is super awesome and I think is just going to be a welcome addition.",
+  "zh": "Sol 超级棒，我认为它会是一个广受欢迎的新成员。"
+ },
+ {
+  "seg": 177,
+  "start": 873.037,
+  "end": 875.96,
+  "speaker": "Unknown",
+  "en": "But I'm excited about two other things that I want to show you.",
+  "zh": "但我还对另外两个东西感到兴奋，我想展示给你们看。"
+ },
+ {
+  "seg": 178,
+  "start": 876.621,
+  "end": 880.385,
+  "speaker": "Unknown",
+  "en": "You all know that it's Jev Week this week on How I AI and you know what?",
+  "zh": "你们都知道这周是 How I AI 的 Jev 周，你知道吗？"
+ },
+ {
+  "seg": 179,
+  "start": 880.445,
+  "end": 882.427,
+  "speaker": "Unknown",
+  "en": "It's also OpenAI Dev Week.",
+  "zh": "这周也是 OpenAI Dev 周。"
+ },
+ {
+  "seg": 180,
+  "start": 882.987,
+  "end": 885.829,
+  "speaker": "Unknown",
+  "en": "And they announced a decisions API.",
+  "zh": "而且他们发布了一个 decisions API。"
+ },
+ {
+  "seg": 181,
+  "start": 886.43,
+  "end": 889.452,
+  "speaker": "Unknown",
+  "en": "So they announced their little Jav competitor.",
+  "zh": "所以他们发布了他们的小 Jav 竞品。"
+ },
+ {
+  "seg": 182,
+  "start": 889.472,
+  "end": 891.834,
+  "speaker": "Unknown",
+  "en": "This is basically Luna with constraints.",
+  "zh": "这基本上就是带约束的 Luna。"
+ },
+ {
+  "seg": 183,
+  "start": 892.455,
+  "end": 900.782,
+  "speaker": "Unknown",
+  "en": "And so it's going to have Luna intelligence on a predefined set of answers and return decisions very fast.",
+  "zh": "所以它会在一组预定义的答案上拥有 Luna 级的智能，并且非常快地返回决策。"
+ },
+ {
+  "seg": 184,
+  "start": 901.732,
+  "end": 905.755,
+  "speaker": "Unknown",
+  "en": "Now that sounds like a fast follow to Jev, but there's more.",
+  "zh": "现在听起来像是对 Jev 的快速跟进，但还有更多。"
+ },
+ {
+  "seg": 185,
+  "start": 905.915,
+  "end": 911.859,
+  "speaker": "Unknown",
+  "en": "I was able to test a little bit of the decisions API and it has vision.",
+  "zh": "我得以测试了一下 decisions API，它有视觉能力。"
+ },
+ {
+  "seg": 186,
+  "start": 912.139,
+  "end": 913.36,
+  "speaker": "Unknown",
+  "en": "It has vision.",
+  "zh": "它有视觉能力。"
+ },
+ {
+  "seg": 187,
+  "start": 913.82,
+  "end": 922.546,
+  "speaker": "Unknown",
+  "en": "So we get the speed cost of like a decisions API, a Jev style model with eyeballs, with computer eyeballs.",
+  "zh": "所以我们得到了类似 decisions API 的速度成本,一种 Jev 风格的模型,带眼睛,带计算机眼睛。"
+ },
+ {
+  "seg": 188,
+  "start": 922.626,
+  "end": 927.349,
+  "speaker": "Unknown",
+  "en": "And I want to show you an example of where I think this is super, super useful.",
+  "zh": "我想给你们看一个例子，说明我认为这在什么地方超级超级有用。"
+ },
+ {
+  "seg": 189,
+  "start": 928.69,
+  "end": 932.873,
+  "speaker": "Unknown",
+  "en": "I have an episode with our friend John Lindquist on JEV that we recorded.",
+  "zh": "我和我们朋友 John Lindquist 录了一期关于 JEV 的节目。"
+ },
+ {
+  "seg": 190,
+  "start": 932.973,
+  "end": 936.776,
+  "speaker": "Unknown",
+  "en": "It's about a 40 minute episode and we need to make thumbnails.",
+  "zh": "那是一期大约 40 分钟的节目，我们需要制作缩略图。"
+ },
+ {
+  "seg": 191,
+  "start": 937.176,
+  "end": 944.222,
+  "speaker": "Unknown",
+  "en": "And every time I make thumbnails, I have to scrub through the video and find when we're not making awkward faces.",
+  "zh": "而每次做缩略图时，我都得来回拖动视频，找到我们没有做出尴尬表情的时刻。"
+ },
+ {
+  "seg": 192,
+  "start": 944.982,
+  "end": 953.108,
+  "speaker": "Unknown",
+  "en": "And I can do this with some models are actually quite bad at it, but it takes a lot of time because we basically like clip every two, five, 10 seconds.",
+  "zh": "我可以用一些模型来做这件事，但它们其实相当不擅长，而且这很花时间，因为我们基本上每隔两秒、五秒、十秒就截取一下。"
+ },
+ {
+  "seg": 193,
+  "start": 953.128,
+  "end": 953.869,
+  "speaker": "Unknown",
+  "en": "We try to find",
+  "zh": "我们试图找到"
+ },
+ {
+  "seg": 194,
+  "start": 954.409,
+  "end": 955.89,
+  "speaker": "Unknown",
+  "en": "Places where our faces aren't awkward.",
+  "zh": "我们表情不尴尬的地方。"
+ },
+ {
+  "seg": 195,
+  "start": 955.95,
+  "end": 959.954,
+  "speaker": "Unknown",
+  "en": "And so I built this with the decision API.",
+  "zh": "于是我用 decision API 构建了这个。"
+ },
+ {
+  "seg": 196,
+  "start": 961.155,
+  "end": 963.877,
+  "speaker": "Unknown",
+  "en": "It took less than, I don't know, 10 seconds.",
+  "zh": "它花了不到——我不确定——10 秒钟。"
+ },
+ {
+  "seg": 197,
+  "start": 963.897,
+  "end": 964.998,
+  "speaker": "Unknown",
+  "en": "It was like very, very fast.",
+  "zh": "它非常非常快。"
+ },
+ {
+  "seg": 198,
+  "start": 965.678,
+  "end": 972.904,
+  "speaker": "Unknown",
+  "en": "And it went through a hundred frames and found all the ones where we were not looking awkward.",
+  "zh": "它过了一百帧，找出了所有我们看起来不尴尬的帧。"
+ },
+ {
+  "seg": 199,
+  "start": 972.944,
+  "end": 974.446,
+  "speaker": "Unknown",
+  "en": "Like, look, we look so happy.",
+  "zh": "比如，看，我们看起来多开心。"
+ },
+ {
+  "seg": 200,
+  "start": 974.526,
+  "end": 975.226,
+  "speaker": "Unknown",
+  "en": "It's really cute.",
+  "zh": "真的很可爱。"
+ },
+ {
+  "seg": 201,
+  "start": 975.286,
+  "end": 980.931,
+  "speaker": "Unknown",
+  "en": "It's really hard to find photos where two live guests do not look weird.",
+  "zh": "要找到一张两位现场嘉宾看起来不奇怪的照片真的很难。"
+ },
+ {
+  "seg": 202,
+  "start": 981.211,
+  "end": 982.312,
+  "speaker": "Unknown",
+  "en": "And the decisions API",
+  "zh": "而 decisions API"
+ },
+ {
+  "seg": 203,
+  "start": 983.293,
+  "end": 984.134,
+  "speaker": "Unknown",
+  "en": "Did that for me.",
+  "zh": "替我做到了这一点。"
+ },
+ {
+  "seg": 204,
+  "start": 984.194,
+  "end": 989.077,
+  "speaker": "Unknown",
+  "en": "And this has actually been a real pain point for me, something I couldn't solve with Jev because Jev doesn't have vision.",
+  "zh": "这其实一直是我的一个真正的痛点，是我用 Jev 无法解决的问题，因为 Jev 没有视觉能力。"
+ },
+ {
+  "seg": 205,
+  "start": 989.438,
+  "end": 989.738,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 206,
+  "start": 989.898,
+  "end": 993.761,
+  "speaker": "Unknown",
+  "en": "Also very important with Jev, I built hot dog, not hot dogs.",
+  "zh": "另外关于 Jev 还有一件很重要的事，我构建了热狗，不是热狗。"
+ },
+ {
+  "seg": 207,
+  "start": 994.061,
+  "end": 994.342,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 208,
+  "start": 994.402,
+  "end": 998.205,
+  "speaker": "Unknown",
+  "en": "So if I select this picture of a hot dog,",
+  "zh": "所以如果我选中这张热狗的照片，"
+ },
+ {
+  "seg": 209,
+  "start": 998.965,
+  "end": 1005.348,
+  "speaker": "Unknown",
+  "en": "And it is 100% confidence in less than a second that it is a hot dog.",
+  "zh": "它在不到一秒内以 100% 的置信度判断它是一个热狗。"
+ },
+ {
+  "seg": 210,
+  "start": 1005.388,
+  "end": 1007.149,
+  "speaker": "Unknown",
+  "en": "So again, AGI is here.",
+  "zh": "所以再说一次，AGI 已经到来了。"
+ },
+ {
+  "seg": 211,
+  "start": 1007.289,
+  "end": 1010.51,
+  "speaker": "Unknown",
+  "en": "Decisions, API, you all know how bullish I am on JEV.",
+  "zh": "Decisions API，你们都知道我对 JEV 有多么看好。"
+ },
+ {
+  "seg": 212,
+  "start": 1010.59,
+  "end": 1014.572,
+  "speaker": "Unknown",
+  "en": "I think this is like the missing piece in a lot of our AI architecture.",
+  "zh": "我觉得这就像是我们很多 AI 架构中缺失的那一块。"
+ },
+ {
+  "seg": 213,
+  "start": 1014.652,
+  "end": 1015.793,
+  "speaker": "Unknown",
+  "en": "And so I'm really excited.",
+  "zh": "所以我非常兴奋。"
+ },
+ {
+  "seg": 214,
+  "start": 1016.253,
+  "end": 1017.916,
+  "speaker": "Unknown",
+  "en": "to see OpenAI announce this.",
+  "zh": "看到 OpenAI 宣布这个。"
+ },
+ {
+  "seg": 215,
+  "start": 1017.956,
+  "end": 1019.639,
+  "speaker": "Unknown",
+  "en": "They haven't released it yet.",
+  "zh": "他们还没有发布它。"
+ },
+ {
+  "seg": 216,
+  "start": 1019.799,
+  "end": 1030.697,
+  "speaker": "Unknown",
+  "en": "So TBD on when it's fully released, I got a little bit of early access testing, but when it's released, I will definitely do a head-to-head eval decisions API versus JEV and tell you what I think.",
+  "zh": "所以完全发布的时间还待定，我得到了一点早期访问测试的机会，但当它发布时，我一定会做一个面对面的评测：decisions API 对阵 JEV，然后告诉你们我的看法。"
+ },
+ {
+  "seg": 217,
+  "start": 1031.68,
+  "end": 1038.566,
+  "speaker": "Unknown",
+  "en": "So those are kind of like two models that we're very excited about, a sole six one decisions API.",
+  "zh": "所以这就是我们非常兴奋的两个模型，a sole six one decisions API。"
+ },
+ {
+  "seg": 218,
+  "start": 1038.946,
+  "end": 1040.928,
+  "speaker": "Unknown",
+  "en": "But what's the one that I really want?",
+  "zh": "但我真正想要的是哪一个呢？"
+ },
+ {
+  "seg": 219,
+  "start": 1041.228,
+  "end": 1043.03,
+  "speaker": "Unknown",
+  "en": "I can't afford it, but I want it.",
+  "zh": "我买不起，但我想要。"
+ },
+ {
+  "seg": 220,
+  "start": 1044.071,
+  "end": 1044.972,
+  "speaker": "Unknown",
+  "en": "Ultra fast.",
+  "zh": "Ultra fast。"
+ },
+ {
+  "seg": 221,
+  "start": 1045.172,
+  "end": 1048.154,
+  "speaker": "Unknown",
+  "en": "So ultra fast, you know, there was fast.",
+  "zh": "Ultra fast，你知道，之前有 fast。"
+ },
+ {
+  "seg": 222,
+  "start": 1048.975,
+  "end": 1050.236,
+  "speaker": "Unknown",
+  "en": "It is ultra-fast.",
+  "zh": "而现在是 ultra-fast。"
+ },
+ {
+  "seg": 223,
+  "start": 1050.476,
+  "end": 1061.4,
+  "speaker": "Unknown",
+  "en": "Now, I don't know if you know this, you can run your models in Codex on normal mode, on fast mode, which is two times as fast, or on ultra-fast, which is eight times as fast.",
+  "zh": "现在，我不知道你们是否了解这一点，你可以在 Codex 中以普通模式运行你的模型，或者以 fast 模式，快两倍，或者以 ultra-fast 模式，快八倍。"
+ },
+ {
+  "seg": 224,
+  "start": 1061.44,
+  "end": 1063.541,
+  "speaker": "Unknown",
+  "en": "Now, it costs six times as much.",
+  "zh": "现在，它的费用是六倍。"
+ },
+ {
+  "seg": 225,
+  "start": 1063.781,
+  "end": 1064.622,
+  "speaker": "Unknown",
+  "en": "It's expensive.",
+  "zh": "很贵。"
+ },
+ {
+  "seg": 226,
+  "start": 1065.262,
+  "end": 1071.545,
+  "speaker": "Unknown",
+  "en": "But GPT-6 Astra ultra-fast is available in WorkCodex and the API.",
+  "zh": "但 GPT-6 Astra ultra-fast 在 WorkCodex 和 API 中可用。"
+ },
+ {
+  "seg": 227,
+  "start": 1072.525,
+  "end": 1075.308,
+  "speaker": "Unknown",
+  "en": "And I got to test this also a little bit early.",
+  "zh": "我也得到了一点早期的测试机会。"
+ },
+ {
+  "seg": 228,
+  "start": 1075.408,
+  "end": 1078.29,
+  "speaker": "Unknown",
+  "en": "And this is the one that has making me feel the future.",
+  "zh": "而这就是让我感受到未来的那一个。"
+ },
+ {
+  "seg": 229,
+  "start": 1078.591,
+  "end": 1085.337,
+  "speaker": "Unknown",
+  "en": "You all think I would put Astra on like extra high reasoning and let it rip through my bug backlog, re-architect something, build something new.",
+  "zh": "你们都会以为我会把 Astra 开到超高推理档，然后让它扫清我的 bug 积压、重新架构某个东西、构建新东西。"
+ },
+ {
+  "seg": 230,
+  "start": 1086.272,
+  "end": 1093.494,
+  "speaker": "Unknown",
+  "en": "No, I wanted to see what someone could do if they were using Ultrafast via API as part of their stack.",
+  "zh": "不，我想看看如果有人通过 API 把 Ultrafast 用作其技术栈的一部分，能做出什么。"
+ },
+ {
+  "seg": 231,
+  "start": 1093.534,
+  "end": 1103.877,
+  "speaker": "Unknown",
+  "en": "So what I think is really interesting is if you can get very high intelligence at almost real-time experience, you can build some AI things that I think you couldn't build before.",
+  "zh": "所以我觉得真正有趣的是，如果你能以几乎实时的体验获得非常高的智能，你就可以构建一些我认为以前构建不了的 AI 东西。"
+ },
+ {
+  "seg": 232,
+  "start": 1104.097,
+  "end": 1106.678,
+  "speaker": "Unknown",
+  "en": "And like a good podcaster, you can build games.",
+  "zh": "而且就像一个好的播客主播一样，你可以构建游戏。"
+ },
+ {
+  "seg": 233,
+  "start": 1106.718,
+  "end": 1112.559,
+  "speaker": "Unknown",
+  "en": "And so I want to show you two games that I did with Astra Ultrafast that I think are just really interesting.",
+  "zh": "所以我想给你们展示两个我用 Astra Ultrafast 做的游戏，我觉得它们真的非常有趣。"
+ },
+ {
+  "seg": 234,
+  "start": 1112.859,
+  "end": 1115.12,
+  "speaker": "Unknown",
+  "en": "I think the latency is still like...",
+  "zh": "我觉得延迟还是有点……"
+ },
+ {
+  "seg": 235,
+  "start": 1115.94,
+  "end": 1121.604,
+  "speaker": "Unknown",
+  "en": "It's a little bit slow for what would feel like a real-time app, but it's pretty magical.",
+  "zh": "对于一个感觉上算是实时应用的东西来说稍微有点慢，但它相当有魔力。"
+ },
+ {
+  "seg": 236,
+  "start": 1122.184,
+  "end": 1130.409,
+  "speaker": "Unknown",
+  "en": "And I hope this just kind of like opens up your mind to what 8X, 10X, 20X, whatever's coming soon at the highest frontier intelligence can do.",
+  "zh": "而且我希望这能打开你们的思路，看看在最高前沿智能上 8 倍、10 倍、20 倍，或者无论即将到来的是什么，能做些什么。"
+ },
+ {
+  "seg": 237,
+  "start": 1130.63,
+  "end": 1131.71,
+  "speaker": "Unknown",
+  "en": "This is called The Other Pencil.",
+  "zh": "这个叫做 The Other Pencil。"
+ },
+ {
+  "seg": 238,
+  "start": 1131.81,
+  "end": 1134.132,
+  "speaker": "Unknown",
+  "en": "It's an AI human collaborative sketch pad.",
+  "zh": "它是一个 AI 与人类协作的画板。"
+ },
+ {
+  "seg": 239,
+  "start": 1134.172,
+  "end": 1135.213,
+  "speaker": "Unknown",
+  "en": "And so if I go in here,",
+  "zh": "所以如果我在这里，"
+ },
+ {
+  "seg": 240,
+  "start": 1135.953,
+  "end": 1138.014,
+  "speaker": "Unknown",
+  "en": "And do some waves.",
+  "zh": "画一些波浪。"
+ },
+ {
+  "seg": 241,
+  "start": 1138.034,
+  "end": 1144.018,
+  "speaker": "Unknown",
+  "en": "Then Astra's gonna come behind me and draw SVGs that match what I do.",
+  "zh": "然后 Astra 会跟在我后面，画出与我所作匹配的 SVG。"
+ },
+ {
+  "seg": 242,
+  "start": 1144.078,
+  "end": 1147.701,
+  "speaker": "Unknown",
+  "en": "And so let's see if I put like a circle here with a smile.",
+  "zh": "那么让我们看看，如果我在这里画一个带笑脸的圆圈，"
+ },
+ {
+  "seg": 243,
+  "start": 1147.721,
+  "end": 1150.683,
+  "speaker": "Unknown",
+  "en": "Oh, no, I made a little chicken.",
+  "zh": "哦，不，我画了一只小鸡。"
+ },
+ {
+  "seg": 244,
+  "start": 1151.083,
+  "end": 1151.723,
+  "speaker": "Unknown",
+  "en": "It's very cute.",
+  "zh": "它非常可爱。"
+ },
+ {
+  "seg": 245,
+  "start": 1151.743,
+  "end": 1153.985,
+  "speaker": "Unknown",
+  "en": "It's like almost too fast for me.",
+  "zh": "对我来说它几乎快得有点过分了。"
+ },
+ {
+  "seg": 246,
+  "start": 1154.085,
+  "end": 1154.965,
+  "speaker": "Unknown",
+  "en": "Let's see if I do...",
+  "zh": "让我看看如果我画……"
+ },
+ {
+  "seg": 247,
+  "start": 1155.926,
+  "end": 1158.708,
+  "speaker": "Unknown",
+  "en": "A flower here, maybe what it will do next.",
+  "zh": "这里画一朵花，也许它接下来会做什么。"
+ },
+ {
+  "seg": 248,
+  "start": 1158.848,
+  "end": 1165.553,
+  "speaker": "Unknown",
+  "en": "And I don't know if you remember this from my Astra review, but Astra is really good at drawing SVGs.",
+  "zh": "我不知道你们是否还记得我 Astra 评测里的这一点，但 Astra 非常擅长画 SVG。"
+ },
+ {
+  "seg": 249,
+  "start": 1166.074,
+  "end": 1173.86,
+  "speaker": "Unknown",
+  "en": "And again, this is something that I just feel like you couldn't do real time before that is super cute and very fun.",
+  "zh": "再说一次，这就是那种我只是觉得你以前无法实时做到、超级可爱又非常有趣的东西。"
+ },
+ {
+  "seg": 250,
+  "start": 1173.92,
+  "end": 1175.141,
+  "speaker": "Unknown",
+  "en": "Oh, look, I got a little ladybug.",
+  "zh": "哦,看,我得到了一只小瓢虫。"
+ },
+ {
+  "seg": 251,
+  "start": 1175.481,
+  "end": 1176.782,
+  "speaker": "Unknown",
+  "en": "But let's take it a step further.",
+  "zh": "但让我们更进一步。"
+ },
+ {
+  "seg": 252,
+  "start": 1176.822,
+  "end": 1180.304,
+  "speaker": "Unknown",
+  "en": "So this was real-time SVG drawing with Astra.",
+  "zh": "所以这是用 Astra 实时绘制 SVG。"
+ },
+ {
+  "seg": 253,
+  "start": 1180.324,
+  "end": 1184.866,
+  "speaker": "Unknown",
+  "en": "I think it's super cool and something you couldn't do before, but let's take it a little further.",
+  "zh": "这里有一个小橡皮鸭。"
+ },
+ {
+  "seg": 254,
+  "start": 1185.307,
+  "end": 1186.687,
+  "speaker": "Unknown",
+  "en": "So this is Little Starship.",
+  "zh": "这是 Little Starship。"
+ },
+ {
+  "seg": 255,
+  "start": 1186.747,
+  "end": 1190.369,
+  "speaker": "Unknown",
+  "en": "This is a 3D app that I built and has three characters.",
+  "zh": "这是我构建的一个 3D 应用,有三个角色。"
+ },
+ {
+  "seg": 256,
+  "start": 1190.449,
+  "end": 1191.87,
+  "speaker": "Unknown",
+  "en": "It's Pip, Momo, and Sprout.",
+  "zh": "它们是 Pip、Momo 和 Sprout。"
+ },
+ {
+  "seg": 257,
+  "start": 1193.571,
+  "end": 1196.874,
+  "speaker": "Unknown",
+  "en": "This was 3D built by Astra pretty fast.",
+  "zh": "这是 Astra 相当快地构建出来的 3D。"
+ },
+ {
+  "seg": 258,
+  "start": 1196.914,
+  "end": 1200.878,
+  "speaker": "Unknown",
+  "en": "I didn't do ultra fast, but it was built pretty, pretty quickly.",
+  "zh": "我没有用 ultra fast,但它构建得相当、相当快。"
+ },
+ {
+  "seg": 259,
+  "start": 1200.978,
+  "end": 1206.944,
+  "speaker": "Unknown",
+  "en": "So Astra can definitely code an app like this, but here's where all Astra ultra fast comes into play.",
+  "zh": "所以 Astra 肯定能编写这样的应用,但这里就是 Astra ultra fast 发挥作用的地方。"
+ },
+ {
+  "seg": 260,
+  "start": 1207.325,
+  "end": 1215.433,
+  "speaker": "Unknown",
+  "en": "So if I type in here and I want to use those other rooms and I say, let's build a bathroom for our friends.",
+  "zh": "所以如果我在这里输入,我想使用那些其他房间,我说,让我们为朋友们建一个浴室。"
+ },
+ {
+  "seg": 261,
+  "start": 1215.933,
+  "end": 1226.556,
+  "speaker": "Unknown",
+  "en": "Then what happens is it uses Astra Ultrafast to render these new 3D objects super fast, real-time here in the app.",
+  "zh": "然后发生的事情是,它使用 Astra Ultrafast 来超级快地渲染这些新的 3D 对象,就在应用里实时完成。"
+ },
+ {
+  "seg": 262,
+  "start": 1226.636,
+  "end": 1229.576,
+  "speaker": "Unknown",
+  "en": "So it's done a really detailed job here.",
+  "zh": "所以它在这里做得非常细致。"
+ },
+ {
+  "seg": 263,
+  "start": 1229.656,
+  "end": 1230.777,
+  "speaker": "Unknown",
+  "en": "There's a little rubber ducky.",
+  "zh": "那里有一只小橡皮鸭。"
+ },
+ {
+  "seg": 264,
+  "start": 1230.797,
+  "end": 1231.977,
+  "speaker": "Unknown",
+  "en": "There's bubbles in the bath.",
+  "zh": "浴缸里有泡泡。"
+ },
+ {
+  "seg": 265,
+  "start": 1232.077,
+  "end": 1234.317,
+  "speaker": "Unknown",
+  "en": "Pip has gone over to the bath.",
+  "zh": "Pip 已经走到浴缸那边去了。"
+ },
+ {
+  "seg": 266,
+  "start": 1234.377,
+  "end": 1237.338,
+  "speaker": "Unknown",
+  "en": "So you can actually build this sort of like real-time game.",
+  "zh": "所以你真的可以构建这种类似实时的游戏。"
+ },
+ {
+  "seg": 267,
+  "start": 1237.358,
+  "end": 1238.578,
+  "speaker": "Unknown",
+  "en": "My kids were doing this yesterday.",
+  "zh": "我的孩子们昨天就在玩这个。"
+ },
+ {
+  "seg": 268,
+  "start": 1238.598,
+  "end": 1239.579,
+  "speaker": "Unknown",
+  "en": "They were doing so much stuff.",
+  "zh": "他们做了好多东西。"
+ },
+ {
+  "seg": 269,
+  "start": 1239.599,
+  "end": 1244.48,
+  "speaker": "Unknown",
+  "en": "So let's say, let's all go on vacation to a tropical",
+  "zh": "那么比方说,让我们都去热带"
+ },
+ {
+  "seg": 270,
+  "start": 1245.5,
+  "end": 1246.341,
+  "speaker": "Unknown",
+  "en": "Island.",
+  "zh": "岛屿度假。"
+ },
+ {
+  "seg": 271,
+  "start": 1247.202,
+  "end": 1251.185,
+  "speaker": "Unknown",
+  "en": "And it will completely change the scene of this little game.",
+  "zh": "然后它会完全改变这个小游戏的场景。"
+ },
+ {
+  "seg": 272,
+  "start": 1251.245,
+  "end": 1260.513,
+  "speaker": "Unknown",
+  "en": "So look, there's a little, a little island it made with a coconut tree and some sand and all my buddies are coming over to hang out on my tropical island.",
+  "zh": "看,有一个它做的小岛,有一棵椰子树和一些沙子,我所有的小伙伴们都过来在我的热带岛屿上一起玩。"
+ },
+ {
+  "seg": 273,
+  "start": 1260.833,
+  "end": 1262.635,
+  "speaker": "Unknown",
+  "en": "Now you can also change the physics of the game.",
+  "zh": "现在你还可以改变游戏的物理规则。"
+ },
+ {
+  "seg": 274,
+  "start": 1263.075,
+  "end": 1265.537,
+  "speaker": "Unknown",
+  "en": "So let's say remove gravity.",
+  "zh": "比如说,移除重力。"
+ },
+ {
+  "seg": 275,
+  "start": 1265.557,
+  "end": 1268.34,
+  "speaker": "Unknown",
+  "en": "It's time for a float party.",
+  "zh": "漂浮派对时间到了。"
+ },
+ {
+  "seg": 276,
+  "start": 1268.88,
+  "end": 1271.261,
+  "speaker": "Unknown",
+  "en": "And it will remove gravity.",
+  "zh": "然后它就会移除重力。"
+ },
+ {
+  "seg": 277,
+  "start": 1271.281,
+  "end": 1273.581,
+  "speaker": "Unknown",
+  "en": "And like, again, it's very, very fast.",
+  "zh": "再说一次,它非常、非常快。"
+ },
+ {
+  "seg": 278,
+  "start": 1273.621,
+  "end": 1276.782,
+  "speaker": "Unknown",
+  "en": "It's a couple seconds to do all these changes live.",
+  "zh": "只需几秒钟就能实时完成所有这些更改。"
+ },
+ {
+  "seg": 279,
+  "start": 1276.802,
+  "end": 1280.163,
+  "speaker": "Unknown",
+  "en": "These are all rendered through Astra Ultrafast.",
+  "zh": "这些都是通过 Astra Ultrafast 渲染的。"
+ },
+ {
+  "seg": 280,
+  "start": 1280.463,
+  "end": 1283.764,
+  "speaker": "Unknown",
+  "en": "And my kids were playing this for like 20 minutes last night.",
+  "zh": "我的孩子们昨晚玩了这个大概 20 分钟。"
+ },
+ {
+  "seg": 281,
+  "start": 1283.784,
+  "end": 1286.185,
+  "speaker": "Unknown",
+  "en": "Now, real talk, it cost me like,",
+  "zh": "现在,说实话,它花了我大概,"
+ },
+ {
+  "seg": 282,
+  "start": 1287.505,
+  "end": 1290.887,
+  "speaker": "Unknown",
+  "en": "$97 or something to run this for 30, 30 minutes.",
+  "zh": "97 美元还是多少,跑了 30、30 分钟。"
+ },
+ {
+  "seg": 283,
+  "start": 1291.428,
+  "end": 1293.529,
+  "speaker": "Unknown",
+  "en": "So it was not cheap.",
+  "zh": "所以它并不便宜。"
+ },
+ {
+  "seg": 284,
+  "start": 1293.909,
+  "end": 1298.212,
+  "speaker": "Unknown",
+  "en": "This is a very expensive game, a little expensive demo for you all.",
+  "zh": "这是一个非常昂贵的游戏,给你们演示的一个有点贵的 demo。"
+ },
+ {
+  "seg": 285,
+  "start": 1298.852,
+  "end": 1304.576,
+  "speaker": "Unknown",
+  "en": "But I just think how cool this is to be able to do these real-time, code-rendered games.",
+  "zh": "但我只是觉得能够做这些实时、代码渲染的游戏是多么酷的事情。"
+ },
+ {
+  "seg": 286,
+  "start": 1305.536,
+  "end": 1307.137,
+  "speaker": "Unknown",
+  "en": "It keeps a big, long log.",
+  "zh": "它保留了一份很长很长的日志。"
+ },
+ {
+  "seg": 287,
+  "start": 1307.157,
+  "end": 1309.298,
+  "speaker": "Unknown",
+  "en": "These are all the changes that we made to",
+  "zh": "这些都是我们对"
+ },
+ {
+  "seg": 288,
+  "start": 1310.579,
+  "end": 1313.22,
+  "speaker": "Unknown",
+  "en": "To the planet, all the changes we made to the ship.",
+  "zh": "星球做的所有更改,我们对飞船做的所有更改。"
+ },
+ {
+  "seg": 289,
+  "start": 1313.7,
+  "end": 1329.223,
+  "speaker": "Unknown",
+  "en": "And again, like this is a cute little example, but I do think if you can start thinking about like what real time super intelligence would look like from a user experience perspective, there are some pretty cool things you can build.",
+  "zh": "再说一次,这只是一个可爱的小例子,但我确实认为,如果你能开始思考从用户体验的角度来看,实时超级智能会是什么样子,你可以构建一些相当酷的东西。"
+ },
+ {
+  "seg": 290,
+  "start": 1329.303,
+  "end": 1338.025,
+  "speaker": "Unknown",
+  "en": "So from a model perspective, really excited about Sol61 because it's fast and cheap, really excited about vision and the decisions API.",
+  "zh": "那么从模型的角度来看,对 Sol61 真的很兴奋,因为它又快又便宜,对 vision 和 decisions API 真的很兴奋。"
+ },
+ {
+  "seg": 291,
+  "start": 1338.665,
+  "end": 1341.287,
+  "speaker": "Unknown",
+  "en": "And really, really, really excited.",
+  "zh": "而且真的、真的、真的很兴奋。"
+ },
+ {
+  "seg": 292,
+  "start": 1341.367,
+  "end": 1344.85,
+  "speaker": "Unknown",
+  "en": "My wallet is not excited about Ultrafast.",
+  "zh": "我的钱包对 Ultrafast 一点都不兴奋。"
+ },
+ {
+  "seg": 293,
+  "start": 1345.19,
+  "end": 1347.892,
+  "speaker": "Unknown",
+  "en": "There were a lot of other things announced.",
+  "zh": "还宣布了很多其他的东西。"
+ },
+ {
+  "seg": 294,
+  "start": 1347.932,
+  "end": 1358.46,
+  "speaker": "Unknown",
+  "en": "I mean, again, there were just so much like agents, platform, computer use in the agents API, all the codex primitives enabled for developers.",
+  "zh": "我是说,再说一次,有太多东西了,比如智能体、平台、agents API 里的 computer use,为开发者启用的所有 codex 原语。"
+ },
+ {
+  "seg": 295,
+  "start": 1358.64,
+  "end": 1360.261,
+  "speaker": "Unknown",
+  "en": "There are updates to how plugins work.",
+  "zh": "插件的工作方式有了更新。"
+ },
+ {
+  "seg": 296,
+  "start": 1360.421,
+  "end": 1364.745,
+  "speaker": "Unknown",
+  "en": "Rumor has it that you can even monetize at some point your use of plugins.",
+  "zh": "有传言说,你甚至可以在某个时候通过你对插件的使用来变现。"
+ },
+ {
+  "seg": 297,
+  "start": 1365.245,
+  "end": 1369.969,
+  "speaker": "Unknown",
+  "en": "They announced some changes to the ChatGPT plans, including a new Pro 500 plan.",
+  "zh": "他们宣布了对 ChatGPT 套餐的一些更改,包括一个新的 Pro 500 套餐。"
+ },
+ {
+  "seg": 298,
+  "start": 1370.53,
+  "end": 1382.441,
+  "speaker": "Unknown",
+  "en": "There was a bunch of developer primitives released so that you can build with the same infrastructure and tools that Codex is built on, including using the agents API with computer use.",
+  "zh": "发布了一堆开发者原语,让你可以用 Codex 所基于的相同基础设施和工具来构建,包括在 agents API 中使用 computer use。"
+ },
+ {
+  "seg": 299,
+  "start": 1382.501,
+  "end": 1384.643,
+  "speaker": "Unknown",
+  "en": "There was just so much announced today.",
+  "zh": "今天宣布的东西实在太多了。"
+ },
+ {
+  "seg": 300,
+  "start": 1384.683,
+  "end": 1390.869,
+  "speaker": "Unknown",
+  "en": "But if I were to tell you to pay attention to a couple of things, it would be give dots a whirl, tell me what you think, full review coming later.",
+  "zh": "但如果我要让你关注几件事，那就是试试 dots，告诉我你的想法，完整评测稍后奉上。"
+ },
+ {
+  "seg": 301,
+  "start": 1391.749,
+  "end": 1399.676,
+  "speaker": "Unknown",
+  "en": "It would be if you're at a company and you're really struggling with collaboration on AI-generated tools, either with humans or agents, to take a look at space and sites.",
+  "zh": "如果你在一家公司，并且在 AI 生成工具的协作上非常挣扎——无论是与人类还是智能体协作——那就去看看 space 和 sites。"
+ },
+ {
+  "seg": 302,
+  "start": 1400.216,
+  "end": 1402.799,
+  "speaker": "Unknown",
+  "en": "And then the models, the models are just so good.",
+  "zh": "还有模型，模型实在太好了。"
+ },
+ {
+  "seg": 303,
+  "start": 1402.839,
+  "end": 1418.571,
+  "speaker": "Unknown",
+  "en": "And as a developer, somebody who both builds with these models and builds on these models, I am very excited about the Decisions API with Vision and very, very excited about Ultrafast just because it makes me really imagine what the future of AI products can look like.",
+  "zh": "作为一个既用这些模型构建、又基于这些模型构建的开发者，我对带 Vision 的 Decisions API 感到非常兴奋，对 Ultrafast 则更加非常兴奋，因为它让我真正去想象 AI 产品的未来可以是什么样子。"
+ },
+ {
+  "seg": 304,
+  "start": 1419.372,
+  "end": 1428.934,
+  "speaker": "Unknown",
+  "en": "This has been my very fast OpenAI Dev Day recap, highlights for me, episode with Cath from the Sites team coming this week.",
+  "zh": "这就是我的非常快速的 OpenAI Dev Day 回顾，这是我的重点亮点，本周会有一期与 Sites 团队的 Cath 的节目。"
+ },
+ {
+  "seg": 305,
+  "start": 1429.174,
+  "end": 1432.955,
+  "speaker": "Unknown",
+  "en": "And I can't wait to hear what you've tried, what you're excited about, and what you think I should cover next.",
+  "zh": "我迫不及待想听到你尝试了什么、你对什么感到兴奋，以及你认为我接下来应该覆盖什么内容。"
+ },
+ {
+  "seg": 306,
+  "start": 1433.255,
+  "end": 1433.855,
+  "speaker": "Unknown",
+  "en": "Thanks for joining.",
+  "zh": "感谢收听。"
+ },
+ {
+  "seg": 307,
+  "start": 1434.495,
+  "end": 1435.556,
+  "speaker": "Unknown",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 308,
+  "start": 1435.856,
+  "end": 1441.437,
+  "speaker": "Unknown",
+  "en": "If you enjoyed the show, please like, and subscribe here on YouTube, or even better, leave us a comment with your thoughts.",
+  "zh": "如果你喜欢这档节目，请在 YouTube 上点赞并订阅，或者更好的是，留下评论分享你的想法。"
+ },
+ {
+  "seg": 309,
+  "start": 1442.097,
+  "end": 1447.121,
+  "speaker": "Unknown",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 310,
+  "start": 1447.722,
+  "end": 1451.925,
+  "speaker": "Unknown",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们留下评分和评论，这将帮助其他人找到这档节目。"
+ },
+ {
+  "seg": 311,
+  "start": 1452.546,
+  "end": 1458.271,
+  "speaker": "Unknown",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 上看到我们的所有节目并了解更多关于本节目的信息。"
+ },
+ {
+  "seg": 312,
+  "start": 1459.051,
+  "end": 1459.612,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

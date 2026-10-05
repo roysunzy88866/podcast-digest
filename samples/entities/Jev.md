@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jev</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jev">JE</div><div class="pi"><h1 class="pt">Jev</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jev">JE</div><div class="pi"><h1 class="pt">Jev</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(00:07起):本集主角模型:TypeSafe 发布的第一个大型可编程 / System 1 模型,以杰文斯悖论命名,优化目标只有一个——每美元智能(intelligence per dollar)
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(00:57起):本集把 Jev 描述为放进代码里的一个新原语：像一个库，用自然语言描述你想要什么、给它一个状态机，它就会以一定置信度选择要做什么；发布后在开发者圈爆火，Diogo 强调「可靠性就是这个东西的本质」。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(00:00起):本集主线:TypeSafe 推出的快速、便宜、不做系统一决策的「决策模型」,文本进、类型安全的值出,只返回 choice/score/null 三种东西,每百万输入 tokens 只要 4 美分,擅长分类、打分、路由等「聪明的 if 语句」场景。
+- **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(14:36起):本集把 Decisions API 直接对标 Jev——Claire 一直看好的决策型模型,但 Jev 没有视觉能力;她预告正式发布后会做两者面对面的评测。
 - **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(00:16起):本集主线：TypeSafe AI 推出的决策模型，不输出文本，输出决策、评分和是/否概率——非结构化输入、结构化类型安全的输出；又快又便宜（几百个 demo 只花 73 美分），被 Clara 概括为『一个非常非常快的路由器』。
 
 ## ① 提到它的金句
@@ -30,20 +31,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[TypeSafe]] · [[Diogo Almeida]] · [[Claude Code]] · [[LLM]] · [[RLHF]] · [[Codex]] · [[实时]] · [[编码智能体]] · [[OpenAI]] · [[System 1 模型]]
+[[TypeSafe]] · [[Codex]] · [[OpenAI]] · [[Diogo Almeida]] · [[ChatGPT]] · [[LLM]] · [[智能体]] · [[RLHF]] · [[Claude Code]] · [[Astra]]
 
-<script type="application/json" class="pd-epn">{"TypeSafe":3,"Diogo Almeida":2,"Claude Code":94,"LLM":53,"RLHF":5,"Codex":76,"实时":2,"编码智能体":26,"OpenAI":157,"System 1 模型":1}</script>
+<script type="application/json" class="pd-epn">{"TypeSafe":3,"Codex":78,"OpenAI":159,"Diogo Almeida":2,"ChatGPT":94,"LLM":55,"智能体":403,"RLHF":5,"Claude Code":94,"Astra":7}</script>
 
 <script>
 (function(){

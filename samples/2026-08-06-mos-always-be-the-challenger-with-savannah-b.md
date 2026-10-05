@@ -203,6 +203,13 @@ Jesse 说这些疯狂尝试能发生的核心原因是「我们没有什么可�
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|增长不是指标黑客，是连接用户与价值]]<span class="pd-rz">同概念:实验 (experiment)</span>
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h|AI 正在替你思考，而你的大脑可能正在走下坡路]]<span class="pd-rz">同概念:社交媒体 (social media)</span>
+
+</div>
 </div>
 <script>
 (function(){

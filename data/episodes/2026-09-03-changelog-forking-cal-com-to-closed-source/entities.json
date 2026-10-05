@@ -1,0 +1,2937 @@
+{
+  "episode_id": "2026-09-03-changelog-forking-cal-com-to-closed-source",
+  "podcast": "Changelog Interviews",
+  "date": "2026-09-03",
+  "tags": [
+    "开源",
+    "AI 安全",
+    "商业开源",
+    "AI 编程",
+    "商业模式"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "nicky-pike",
+      "type": "person",
+      "role": "host",
+      "name": "Nicky Pike",
+      "file": "Nicky Pike",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            93.641,
+            96.902
+          ],
+          "quote": "And I'm joined by Nicky Pike, field CTO for Coder.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cal-com",
+      "type": "company",
+      "role": "company",
+      "name": "Cal.com",
+      "file": "Cal.com",
+      "primary": true,
+      "how_described": "本集嘉宾联合创办的日程安排公司,做了五年商业开源;因开源被黑风险暴增,从 4 月 15 日起把商业版转为私有 fork,社区版改名 cal.diy 继续开源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            36.908,
+            54.618
+          ],
+          "quote": "Under the AI generated noise, slop, whatever you want to call it, Cal.com's move to fork its own code base and take the sensitive parts private and the eye-opening reality that shipping $1 of AI tokens for pennies on a dollar, that is now a common startup business model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            311.852,
+            312.473
+          ],
+          "quote": "Cal.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            312.513,
+            316.056
+          ],
+          "quote": "I'm not even sure if you had Cal.com at the very moment we did that podcast or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            338.855,
+            347.544
+          ],
+          "quote": "And so you know this very well because you probably live, eat, and breathe all the things around time being one of the co-founders of Cal.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            357.521,
+            363.043
+          ],
+          "quote": "I think it was right around the time when we bought Cal.com, which may or may not be four years ago or three years ago.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 104,
+          "t": [
+            412.942,
+            416.405
+          ],
+          "quote": "But yeah, big fan of Cal.com, user daily.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1062.844,
+            1076.13
+          ],
+          "quote": "As you're speaking about your concerns and challenges, I'm looking at Cal.com's open source repository, github.com slash calcom slash cal.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1449.566,
+            1466.214
+          ],
+          "quote": "We have an inbox, security.cal.com, that people send vulnerabilities, and 99% of them are AI-generated, including that email that sends it, because people are spamming repositories, and half of those vulnerabilities are also hallucinated.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1906.699,
+            1908.7
+          ],
+          "quote": "Which is what we're doing now as Cal.com.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1931.532,
+            1939.18
+          ],
+          "quote": "But the same code base that runs on app.cal.com will no longer be publicly accessible because it's just, it's too risky for us.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2910.51,
+            2915.773
+          ],
+          "quote": "Again, 99% of our revenue comes from our SaaS, app.cal.com.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4138.695,
+            4148.037
+          ],
+          "quote": "If you're not open source, if you, Cal.com, is more dramatically open source like you were before, what keeps GitHub your epicenter?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 931,
+          "t": [
+            4524.159,
+            4540.607
+          ],
+          "quote": "Or is it even trying to build a backdoor or break a feature or change a button that was previously most clicked and now it's, you know, you can also, you don't have to be a hacker to, it's not illegal to raise a PR against Cal.com that makes our product worse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4548.531,
+            4552.233
+          ],
+          "quote": "If you ask Claude Code to make Cal.com worse, it'd be like,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1127,
+          "t": [
+            5300.332,
+            5310.143
+          ],
+          "quote": "So we either as changelog, we use cal.com to schedule all of our podcasts, our entire workflow for creating any new event that is podcast related.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            5758.798,
+            5762.782
+          ],
+          "quote": "So I think AGI has achieved the moment you can one-shot Cal.com without forking.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            5817.957,
+            5821.42
+          ],
+          "quote": "You know, what control can I get over self-hosting Cal.com?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1375,
+          "t": [
+            6246.42,
+            6248.282
+          ],
+          "quote": "Fully self-host Cal.com.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1379,
+          "t": [
+            6264.616,
+            6271.102
+          ],
+          "quote": "So the Cal.com of tomorrow will strictly be an AGPL v3, potentially even MIT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1466,
+          "t": [
+            6695.207,
+            6699.488
+          ],
+          "quote": "Well, Pierre, thank you for keeping me on time with all of my time with Cal.com.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集核心主线:Pierre 认为在 AI 时代「开源更安全」的老逻辑已经反转,开源仓库被黑比闭源容易 5-10 倍,开源没有死但正在改变",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            4.336,
+            11.443
+          ],
+          "quote": "What if the majority of open source repos out there, they're already compromised and we just don't know it yet?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            31.143,
+            36.488
+          ],
+          "quote": "Why the reporting culture that has kept open source safe and secure all these years is collapsing",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            250.62,
+            260.724
+          ],
+          "quote": "Well, friends, the first step is to go to coder.com, install Coder, self-hosted environments for your teams to enjoy, to standardize around, and it's open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            388.543,
+            394.768
+          ],
+          "quote": "I think even then, if I'm recalling correctly, because I'm trying to go back in my own memory, open source was core to your mission.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            394.788,
+            399.311
+          ],
+          "quote": "You know, you've been open source for a very long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            405.456,
+            410
+          ],
+          "quote": "I know things are changing even to this year around open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            490.706,
+            498.311
+          ],
+          "quote": "And even when it comes to how to build in public or how to build open source, how to build",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 130,
+          "t": [
+            570.344,
+            576.428
+          ],
+          "quote": "And I think to get to your point, to open source, and I think open source multiplies that by like a factor of 10.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 134,
+          "t": [
+            595.582,
+            604.45
+          ],
+          "quote": "For open source businesses, and I strictly focus on commercial open source, you just have so much noise.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            648.017,
+            654.883
+          ],
+          "quote": "But it's like back in the days you had a thousand open source contributors and you would have a thousand opinions, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 159,
+          "t": [
+            722.711,
+            725.193
+          ],
+          "quote": "And so imagine being a commercial open source company.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 162,
+          "t": [
+            728.755,
+            731.297
+          ],
+          "quote": "There's so many, just search for like open source and AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 191,
+          "t": [
+            872.653,
+            884.347
+          ],
+          "quote": "I mean, I think, so here's my current issue with everything open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 195,
+          "t": [
+            890.406,
+            895.649
+          ],
+          "quote": "AI companies are already giving open source companies tons of free tokens, which is, you know, great.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 202,
+          "t": [
+            918.917,
+            929.506
+          ],
+          "quote": "That when entire open source repositories as it is right now gets overwhelmed with slop, it just destroys code quality.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 212,
+          "t": [
+            993.235,
+            1001.038
+          ],
+          "quote": "The worse quality of an open source repository, the worse AI will be in the future learning from that bad code, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1001.638,
+            1014.763
+          ],
+          "quote": "And so that's another issue I have with open source where if you cannot get the resources in place to actually have really, really high quality, and bear in mind, that means",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1062.844,
+            1076.13
+          ],
+          "quote": "As you're speaking about your concerns and challenges, I'm looking at Cal.com's open source repository, github.com slash calcom slash cal.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1154.686,
+            1161.628
+          ],
+          "quote": "I don't envy any, I don't even envy freemium open source maintainers who back in the days would be happy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1190.848,
+            1202.055
+          ],
+          "quote": "And it pains me because also this is another problem that people are facing that they think they are more likely to get hired if they can show open source contributions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1359.726,
+            1366.851
+          ],
+          "quote": "So there are clearly, there's multiple reasons and benefits to be open source, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1366.891,
+            1377.139
+          ],
+          "quote": "Like some things simply have to be open source, React.js has to be open source, JavaScript has to be open source, Python has to be open source, just to run the thing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1378.88,
+            1381.602
+          ],
+          "quote": "Cloud.com necessarily doesn't have to be open source, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1382.122,
+            1384.444
+          ],
+          "quote": "So we've been open source for",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1385.848,
+            1391.892
+          ],
+          "quote": "Many different reasons, but in order to run it, that's not why we open source, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1413.353,
+            1417.455
+          ],
+          "quote": "I would say open source is always more secure than closed source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1424.138,
+            1437.545
+          ],
+          "quote": "So like the pendulum has swung, you know, this is like very safe open source because bear in mind, when you were open source, you had security researchers making really good PRs, fixing",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1476.172,
+            1487.561
+          ],
+          "quote": "And so the culture of like open source makes you more secure because you have actual human beings who know what they're doing, checking your code base has kind of fallen behind.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1607.556,
+            1610.319
+          ],
+          "quote": "To find and abuse open source repositories.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1610.959,
+            1620.468
+          ],
+          "quote": "So the whole pendulum of like, oh, we're open source, we're more secure, has completely swung in the other direction where it's like, wow, this is so easy to hack any open source repository.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1620.868,
+            1626.153
+          ],
+          "quote": "My theory is that the majority of open source repositories are compromised right now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1633.466,
+            1638.175
+          ],
+          "quote": "Like what do you think your open source repository is looking like?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1814.602,
+            1819.809
+          ],
+          "quote": "You seem very grim and not very excited about the future of open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1824.696,
+            1830.104
+          ],
+          "quote": "I think I would probably summarize this like, if you run a commercial open source business,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1841.102,
+            1852.313
+          ],
+          "quote": "If you run an open source free GitHub project, even if you run OpenClaw, like OpenClaw does not have an enterprise edition that they sell to Fortune 500 that runs on the same code base.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1856.313,
+            1867.557
+          ],
+          "quote": "So it's like, if you run a UI framework, a library that, I don't know, helps you work with time zones, like you're fine, like stay open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1878.521,
+            1881.242
+          ],
+          "quote": "But any business today that has an open source",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1884.339,
+            1890.702
+          ],
+          "quote": "Any open source project that's eventually makes a database call, you are in trouble.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1890.962,
+            1905.77
+          ],
+          "quote": "And I'm saying this after five years of being open source and 15 years in the industry, you should probably take your project private and rewrite everything that touches off database and encryption.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1921.507,
+            1923.908
+          ],
+          "quote": "So we still have the community version, fully open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1939.26,
+            1943.864
+          ],
+          "quote": "Like we have, we have a commitment to open source, but we also have a commitment to every single of our customers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1982.269,
+            1991.597
+          ],
+          "quote": "But everybody says, if you have an open source repo, you're like five to 10 times easier to hack than a closed source repository, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2015.584,
+            2020.247
+          ],
+          "quote": "With open source, you literally see the backend, you see the function call, you see",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2112.238,
+            2117.521
+          ],
+          "quote": "And that doesn't mean you should close your open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2342.83,
+            2359.718
+          ],
+          "quote": "So the way you're, if I understand correctly what you just said, that the mechanics of how you're making this change, the change, we understand what the change is influenced by, but then on the how, you're saying to internally fork, and in your case, your commercial open source company, and so you've had all of your code out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2360.198,
+            2369.345
+          ],
+          "quote": "Your open source has been licensed one way, but if you go a certain way, there's certain features that were always available, open and open source, source available that you can see.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2376.131,
+            2387
+          ],
+          "quote": "The license of free and open source will remain the same, but internally your mechanism is to fork it and rewrite the areas, the surface areas that are at risk or at most risk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2399.685,
+            2401.505
+          ],
+          "quote": "That's just how open source works, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2417.14,
+            2419.161
+          ],
+          "quote": "So that doesn't mean we're no longer open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2419.201,
+            2420.341
+          ],
+          "quote": "We are still open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2430.745,
+            2440.288
+          ],
+          "quote": "It's still WordPress, uses the same plugin system, but if you sign into WordPress.com today, it's a different experience than if you get the open source WordPress.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2471.82,
+            2487.343
+          ],
+          "quote": "From a security point of view, it went from, wow, this is safe because we're open source to, is that really the smartest, safest decision you should make as a business that has customers and that you want to keep them safe, you know?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2490.584,
+            2498.005
+          ],
+          "quote": "I guess the question might be, why even remain open source at all?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2498.738,
+            2501.2
+          ],
+          "quote": "And I don't mean that as like anti-open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2508.675,
+            2515.441
+          ],
+          "quote": "You don't want your vulnerabilities out there, so that means there's a buffer layer between what is open source and what is closed source, i.e.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2526.451,
+            2534.078
+          ],
+          "quote": "What's the point of open source then for a commercial open source company that has been in your shoes, but you're not making this change?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2545.819,
+            2556.405
+          ],
+          "quote": "I would argue the reason to keep an open source project, and by the way, we're also rebranding it to cal.diy, we got that domain, so like do it yourself, essentially.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2679.304,
+            2684.165
+          ],
+          "quote": "If we build SIG features, which we do, we push them back into the open source community edition.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2692.106,
+            2695.447
+          ],
+          "quote": "Like we've always had private and public folks of open source projects.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2733.776,
+            2737.418
+          ],
+          "quote": "We have the most open source friendly investors on our cap table.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2740.859,
+            2748.763
+          ],
+          "quote": "This is like a nuclear problem for commercial open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2780.578,
+            2787.822
+          ],
+          "quote": "I know that you kind of give a couple, but what are some explicit examples of other commercial open source companies that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2829.351,
+            2833.675
+          ],
+          "quote": "Those products are usually open source because it's a developer package.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2847.959,
+            2855.702
+          ],
+          "quote": "For them, they're really screwed because they have to be open source for the sake of being a developer kid, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2862.664,
+            2871.908
+          ],
+          "quote": "There's a CMS, which is open source, which is really struggling because when you're a CMS, you simply cannot expose your",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2892.44,
+            2900.324
+          ],
+          "quote": "Um, so, uh, there's a, there's a lot of commercial open source businesses out there that, um, that have to be open source in order to, to run.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2923.185,
+            2930.328
+          ],
+          "quote": "And then there's a couple of payment providers that call themselves the open source version of Stripe.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2936.93,
+            2944.432
+          ],
+          "quote": "I don't even want to talk about crypto because I really don't like crypto, but all of these crypto projects are being cracked open at open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2953.029,
+            2959.817
+          ],
+          "quote": "Peer, your prescription for these commercial open source companies in these high impact areas",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2960.927,
+            2970.593
+          ],
+          "quote": "Is to rethink their model and follow you in terms of forking internally, creating a new relationship with your open source version, if you even keep it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2991.447,
+            2999.854
+          ],
+          "quote": "Well, on the bright side, on the bright side, yeah, on the bright side and maybe on the bad side, like what's open source stays open source, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3062.811,
+            3071.876
+          ],
+          "quote": "But if a security researcher, or if many security researchers say it's five to 10 times easier to hack you when you're open source, you have to listen to the security experts.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3301.025,
+            3304.509
+          ],
+          "quote": "And the reason why, I mean, so you're seeing what you're seeing about commercial open source companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3304.689,
+            3306.592
+          ],
+          "quote": "I don't think open source is dying.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3322.955,
+            3332.08
+          ],
+          "quote": "A lot of folks that, you know, like Ghosty is a great terminal and for a lot of reasons it needs to be and wants to be open source for the true nature of what open source is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3332.998,
+            3335.919
+          ],
+          "quote": "But they're being open source, not open to contribution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3345.862,
+            3361.348
+          ],
+          "quote": "Maybe not because a lot of their commercial features are on top of things that aren't there, but like if a lot of us are on GitHub because that's where open source is, and if the relationship we have with open source changes or open source changes enough, you know, is GitHub",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3406.934,
+            3412.015
+          ],
+          "quote": "Well, I mean, it's not bright for commercial open source, I can tell you that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3412.075,
+            3423.938
+          ],
+          "quote": "So, like, if you obviously run packages, et cetera, freemium open source, you're probably more okayish or you build a new React alternative or self-kit, whatever, tailwind alternatives.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3668.069,
+            3674.676
+          ],
+          "quote": "And I think that's why developers gravitate towards solutions that are mature, things that they know that will scale, even things that are open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4138.695,
+            4148.037
+          ],
+          "quote": "If you're not open source, if you, Cal.com, is more dramatically open source like you were before, what keeps GitHub your epicenter?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4374.134,
+            4387.058
+          ],
+          "quote": "Maybe put your own company policy into that fringe or freemium open source project, or you want to, maybe you're trying to improve a certain library that your company depends on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 903,
+          "t": [
+            4394.387,
+            4398.229
+          ],
+          "quote": "A potential vulnerable open source dependency you depend on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 947,
+          "t": [
+            4584.143,
+            4587.286
+          ],
+          "quote": "A lot of the rage at the time to come out as a commercially open source company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 952,
+          "t": [
+            4606.314,
+            4611.338
+          ],
+          "quote": "Look, I mean, we are blessed in terms of timing and the renaissance of open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4615.32,
+            4618.142
+          ],
+          "quote": "Like, where do all these commercial open source startups come from?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 956,
+          "t": [
+            4621.545,
+            4626.108
+          ],
+          "quote": "The people that I'm trying to be close to, open source was almost like...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4636.827,
+            4643.69
+          ],
+          "quote": "But I think my vintage of open source companies has been pretty successful with what they're doing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 962,
+          "t": [
+            4646.752,
+            4649.673
+          ],
+          "quote": "And look, open source is awesome.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 963,
+          "t": [
+            4649.793,
+            4650.714
+          ],
+          "quote": "I love open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            5650.08,
+            5659.691
+          ],
+          "quote": "I know open source was one of them and a threat there, and we've talked about that, but what are the positive sides and potentially some of the negative sides that keep you up when it comes to kind of com?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1232,
+          "t": [
+            5690.397,
+            5692.098
+          ],
+          "quote": "We're literally open source, just fork us.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            5822.181,
+            5823.622
+          ],
+          "quote": "You offered open source for a reason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1299,
+          "t": [
+            5965.371,
+            5970.112
+          ],
+          "quote": "Our free plan is as liberal as the open source version.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1330,
+          "t": [
+            6073.449,
+            6074.971
+          ],
+          "quote": "It is literally not open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1363,
+          "t": [
+            6172.678,
+            6177.803
+          ],
+          "quote": "I'm not anti-open source, but because of the threat and the desire to have a sustainable commercial company,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1368,
+          "t": [
+            6206.287,
+            6214.773
+          ],
+          "quote": "But you get an email and a name, and you can forge a relationship that's very different from here's our free and open source, you know, cal.dy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1385,
+          "t": [
+            6305.341,
+            6314.886
+          ],
+          "quote": "We're not, so we would never take anything, well, first it's not possible, but we would never take anything private that's previously open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1387,
+          "t": [
+            6329.175,
+            6336.718
+          ],
+          "quote": "And I think the initial question you had, just to go back to the initial start, was why even stay open source?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1395,
+          "t": [
+            6364.578,
+            6368.099
+          ],
+          "quote": "So we do not want to give up the open source ethos.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1399,
+          "t": [
+            6385.327,
+            6394.492
+          ],
+          "quote": "TLDR, not TLDR, but TLDR, like the only difference is the open source code is now fully open source project.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            6484.053,
+            6501.197
+          ],
+          "quote": "None of this, none of this is sadly, like, look, if you run a, a chill open source project that, I don't know, makes a button green and glow when you hover over it, that's very different to having millions of customers who, you know,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1423,
+          "t": [
+            6515.618,
+            6518.24
+          ],
+          "quote": "So open source is not dead, but it's changing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1427,
+          "t": [
+            6524.805,
+            6533.908
+          ],
+          "quote": "I also don't think that commercial open source is that, you know, open source is premium open source and commercial open source, you know, the subcategories.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1430,
+          "t": [
+            6543.13,
+            6550.232
+          ],
+          "quote": "If you run a commercial open source project, probably make sure that it's not the same that's running on your production environment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1432,
+          "t": [
+            6553.913,
+            6564.523
+          ],
+          "quote": "Commercial open source is still really valid and fun and just a fulfilling place to be in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1444,
+          "t": [
+            6615.537,
+            6616.698
+          ],
+          "quote": "I'm long open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1454,
+          "t": [
+            6653.011,
+            6655.092
+          ],
+          "quote": "Maybe you never even go open source at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1456,
+          "t": [
+            6662.974,
+            6668.595
+          ],
+          "quote": "You know, I think that the lore to being a commercial open source company these days is dramatically different than it was four years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1504,
+          "t": [
+            6789.507,
+            6794.752
+          ],
+          "quote": "Open source models are doing cool stuff, but by and large, Codex, Codex App Server,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "commercial-open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业开源 (commercial open source)",
+      "file": "商业开源",
+      "primary": true,
+      "how_described": "本集说:任何最终发起数据库调用的商业开源项目都该把生产代码转私有;这对商业开源是「核级别的问题」,影响整个行业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            595.582,
+            604.45
+          ],
+          "quote": "For open source businesses, and I strictly focus on commercial open source, you just have so much noise.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 159,
+          "t": [
+            722.711,
+            725.193
+          ],
+          "quote": "And so imagine being a commercial open source company.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1824.696,
+            1830.104
+          ],
+          "quote": "I think I would probably summarize this like, if you run a commercial open source business,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2342.83,
+            2359.718
+          ],
+          "quote": "So the way you're, if I understand correctly what you just said, that the mechanics of how you're making this change, the change, we understand what the change is influenced by, but then on the how, you're saying to internally fork, and in your case, your commercial open source company, and so you've had all of your code out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2526.451,
+            2534.078
+          ],
+          "quote": "What's the point of open source then for a commercial open source company that has been in your shoes, but you're not making this change?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2740.859,
+            2748.763
+          ],
+          "quote": "This is like a nuclear problem for commercial open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2780.578,
+            2787.822
+          ],
+          "quote": "I know that you kind of give a couple, but what are some explicit examples of other commercial open source companies that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2892.44,
+            2900.324
+          ],
+          "quote": "Um, so, uh, there's a, there's a lot of commercial open source businesses out there that, um, that have to be open source in order to, to run.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2953.029,
+            2959.817
+          ],
+          "quote": "Peer, your prescription for these commercial open source companies in these high impact areas",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3301.025,
+            3304.509
+          ],
+          "quote": "And the reason why, I mean, so you're seeing what you're seeing about commercial open source companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3406.934,
+            3412.015
+          ],
+          "quote": "Well, I mean, it's not bright for commercial open source, I can tell you that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4615.32,
+            4618.142
+          ],
+          "quote": "Like, where do all these commercial open source startups come from?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1427,
+          "t": [
+            6524.805,
+            6533.908
+          ],
+          "quote": "I also don't think that commercial open source is that, you know, open source is premium open source and commercial open source, you know, the subcategories.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1430,
+          "t": [
+            6543.13,
+            6550.232
+          ],
+          "quote": "If you run a commercial open source project, probably make sure that it's not the same that's running on your production environment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1432,
+          "t": [
+            6553.913,
+            6564.523
+          ],
+          "quote": "Commercial open source is still really valid and fun and just a fulfilling place to be in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1456,
+          "t": [
+            6662.974,
+            6668.595
+          ],
+          "quote": "You know, I think that the lore to being a commercial open source company these days is dramatically different than it was four years ago.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取请求 (pull request)",
+      "file": "拉取请求",
+      "primary": true,
+      "how_described": "本集说 AI 垃圾 PR 淹没仓库——Cal.com 躺着 356 个开放 PR,全是 Claude/Codex 写的,连测试都是幻觉,人工区分好坏已人力不可能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            604.79,
+            611.195
+          ],
+          "quote": "And like back in the days, it was like, if somebody opens a pull request, you would immediately know, okay, it's black and white.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 144,
+          "t": [
+            638.769,
+            647.977
+          ],
+          "quote": "Like you get a pull request and it's always written by Claude, by Claude Code or by maybe Codex or maybe if you're lucky by some other coding assistant, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 151,
+          "t": [
+            688.502,
+            699.064
+          ],
+          "quote": "And then what's even worse is that like the confidence of that pull request is so high because the large language model is like, here's the best thing delivered to you on a golden plate.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            769.635,
+            776.078
+          ],
+          "quote": "And then they open a pull request and I'm like, okay, but thanks, but I could have done that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            868.748,
+            871.251
+          ],
+          "quote": "Your concerns, but we'll never accept your pull request, ever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1161.828,
+            1164.408
+          ],
+          "quote": "You would be happy for every pull request that would come in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1278.048,
+            1283.453
+          ],
+          "quote": "If that were my pull request inbox, I would just say inbox zero it and just cancel it, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3166.194,
+            3187.064
+          ],
+          "quote": "So they today probably if if let's say you really want to screw someone right you would run code scans against their own pull requests and if you detect a pull request that fixes a previously known vulnerability that you potentially found already or maybe not right like an AI can",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3188.52,
+            3193.122
+          ],
+          "quote": "Understand whether a pull request is a feature or a fix of a vulnerability, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3289.682,
+            3300.065
+          ],
+          "quote": "I want to go back to, if you don't mind, not so much to fully backtrack, but I want to go back to your pull request tab and not specifically just yours, but the pull request tab on GitHub.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾内容 (AI slop)",
+      "file": "AI 垃圾内容",
+      "primary": true,
+      "how_described": "本集说开源仓库正被 AI 写出的垃圾内容砸向,摧毁代码质量,并形成「越差代码→越差 AI」的递归循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            746.856,
+            751.779
+          ],
+          "quote": "AI slop, like literally AI-coded slop being thrown at your repository.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说在下个智能体时代,有人编排 12 个智能体扫热门仓库提 PR 当求职敲门砖;未来最赚钱的智能体可能是勒索你的黑客智能体;agent 这个名字本身就很糟糕",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            520.245,
+            524.667
+          ],
+          "quote": "It's all code, code gen and AI agent assistant.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 208,
+          "t": [
+            965.924,
+            985.328
+          ],
+          "quote": "I don't think necessarily that that's the solution that we just like close our eyes and hope for the best and like have tests, et cetera, because there's this graphic that was like the moment you introduced slop to your code base, now the coding agent looks at your existing project and then adopts bad practices.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1232.111,
+            1238.256
+          ],
+          "quote": "And then your AI agent comes back with like, oh, I've opened 20 different poll requests in these and these and these different repositories.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1321.632,
+            1331.299
+          ],
+          "quote": "We want code that we would write that matches our style of code that our engineers can curate, whether it's with an agent or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1741.368,
+            1744.07
+          ],
+          "quote": "Like you're literally just instructing the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3781.436,
+            3790.238
+          ],
+          "quote": "Yeah, he talks about coming back, establishing North Star Round being critical infrastructure for agent code life cycles and determine a set of ways to measure that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 875,
+          "t": [
+            4218.969,
+            4227.016
+          ],
+          "quote": "Like your agent makes a lot of assumptions and decisions that detach you from it, I would say.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4262.227,
+            4265.128
+          ],
+          "quote": "You might not even know which repository your agent committed to.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4271.058,
+            4277.461
+          ],
+          "quote": "And the intent is very thin, then it does get thinner, obviously, and it's more like an AI agent only.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4278.862,
+            4292.348
+          ],
+          "quote": "I think this whole agent thing, well, first things first, agent is a horrible name because agent theoretically means there is a persona that has its own objectives and autonomous decisions, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4322.864,
+            4349.301
+          ],
+          "quote": "The autonomous future that a lot of people are imagining is what I just said, that you have this coding agent who wakes up at 8am, well, doesn't sleep, doesn't need to, and grinds GitHub bounties, searches the web for whomever, probably the most profitable agents will be hacker agents that try to extort you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4355.799,
+            4361.141
+          ],
+          "quote": "But let's say you are a white hat hacker agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4417.632,
+            4424.258
+          ],
+          "quote": "Your agent could hit a wall and then autonomously raise a PR in that dependencies repository, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4426.059,
+            4434.727
+          ],
+          "quote": "Your decision was to improve your product, but the agent made the autonomous decision to go out and hunt and open a PR in someone else's repository.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            4880.52,
+            4888.397
+          ],
+          "quote": "You know, the one agent that hasn't done that and has done it, hasn't done it to the degree, what am I trying to say there?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4955.437,
+            4961.42
+          ],
+          "quote": "And they built their own agent called AMP, and it was so successful they had to like spin it to its own company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1178,
+          "t": [
+            5513.05,
+            5520.034
+          ],
+          "quote": "I just wrote this in my coding agent, so maybe we get a PR in the next two minutes.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1478,
+          "t": [
+            6728.839,
+            6735.203
+          ],
+          "quote": "And I just got a notification from my coding agent who shipped your PR to override hosts.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vibe-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "Vibe hacking",
+      "file": "Vibe hacking",
+      "primary": true,
+      "how_described": "本集说安全研究现在被叫做 vibe hacking——你不再知道自己在做什么,只是给智能体下达指令,16 岁少年就能像妈妈 vibe coding 一样 vibe hack 一座发电站",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1736.704,
+            1741.288
+          ],
+          "quote": "Security research is called this Vibe hacking because you're no longer knowing what you're doing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1755.637,
+            1766.905
+          ],
+          "quote": "What happens when the mother is Vibe coding an iOS app and then the 16-year-old son is Vibe hacking the power station nearby, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vulnerability",
+      "type": "concept",
+      "role": "concept",
+      "name": "漏洞 (vulnerability)",
+      "file": "漏洞",
+      "primary": true,
+      "how_described": "本集说发现和利用漏洞的门槛降了百倍:以前要 8-20 小时人工审计,现在一条提示词就行;黑客会扫描你的 PR、发现哪条在修漏洞,趁修复生效前利用它勒索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1527.09,
+            1529.931
+          ],
+          "quote": "Basically finding and abusing vulnerability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2077.741,
+            2087.208
+          ],
+          "quote": "But now, again, with AI, it doesn't matter because both are just putting the same prompt, find a vulnerability in this and this and that repository and run the same prompt.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3166.194,
+            3187.064
+          ],
+          "quote": "So they today probably if if let's say you really want to screw someone right you would run code scans against their own pull requests and if you detect a pull request that fixes a previously known vulnerability that you potentially found already or maybe not right like an AI can",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3188.52,
+            3193.122
+          ],
+          "quote": "Understand whether a pull request is a feature or a fix of a vulnerability, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3198.765,
+            3200.867
+          ],
+          "quote": "And it will tell you this is fixing a vulnerability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3214.11,
+            3218.273
+          ],
+          "quote": "You would scan the PR, you would identify this PR is fixing the vulnerability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3218.373,
+            3222.595
+          ],
+          "quote": "And in that second, I would abuse that vulnerability and send them an extortion letter, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain-attack",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链攻击 (supply chain attack)",
+      "file": "供应链攻击",
+      "primary": true,
+      "how_described": "本集举 LightLLM 被供应链攻击攻破的例子:攻击者靠社会工程拿到密钥、利用受信任的发布流水线注入恶意代码,这类事件越来越多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1651.598,
+            1653.579
+          ],
+          "quote": "It was compromised by supply chain attack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language model)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集说现在有的大语言模型在渗透测试方面非常擅长;「最好的想法获胜」变成了「最好的大语言模型获胜」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            665.188,
+            679.379
+          ],
+          "quote": "This whole notion of the best idea wins, it's like the best large language model wins, but you only have, or maybe the best prompt given to that large language model wins, because there's still some variation among prompts, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 151,
+          "t": [
+            688.502,
+            699.064
+          ],
+          "quote": "And then what's even worse is that like the confidence of that pull request is so high because the large language model is like, here's the best thing delivered to you on a golden plate.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 199,
+          "t": [
+            903.154,
+            908.177
+          ],
+          "quote": "I understand that we are producing the code that they are training the next large language model on.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集质疑 GitHub 的未来:如果没人读源代码,GitHub 除了当分享 zip 文件的 CDN 还有什么意义;为什么维护者要装第三方插件来挡非法 PR,那该是 GitHub 的本职工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            765.173,
+            769.475
+          ],
+          "quote": "And some of these pull requests are literally just like, hey, Claude, can you fix this GitHub issue for me?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1062.844,
+            1076.13
+          ],
+          "quote": "As you're speaking about your concerns and challenges, I'm looking at Cal.com's open source repository, github.com slash calcom slash cal.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1841.102,
+            1852.313
+          ],
+          "quote": "If you run an open source free GitHub project, even if you run OpenClaw, like OpenClaw does not have an enterprise edition that they sell to Fortune 500 that runs on the same code base.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1852.413,
+            1855.716
+          ],
+          "quote": "Even if they had to, they would probably not publish it on the same GitHub repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2394.124,
+            2399.385
+          ],
+          "quote": "Because what you see on GitHub today is what we've run on the website.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3289.682,
+            3300.065
+          ],
+          "quote": "I want to go back to, if you don't mind, not so much to fully backtrack, but I want to go back to your pull request tab and not specifically just yours, but the pull request tab on GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3339.4,
+            3341.981
+          ],
+          "quote": "How does this change GitHub?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3342.001,
+            3344.942
+          ],
+          "quote": "Is GitHub at jeopardy in any way as a business?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3345.862,
+            3361.348
+          ],
+          "quote": "Maybe not because a lot of their commercial features are on top of things that aren't there, but like if a lot of us are on GitHub because that's where open source is, and if the relationship we have with open source changes or open source changes enough, you know, is GitHub",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3370.822,
+            3379.609
+          ],
+          "quote": "I know they have some changes coming out and I'd love to talk to whomever's working at GitHub behind the scenes or in front of the scenes if there is any on NPM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3402.076,
+            3404.52
+          ],
+          "quote": "You know, what is the picture of GitHub if all this changes?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3424.858,
+            3434.18
+          ],
+          "quote": "But GitHub obviously has to rethink its own, like, I wouldn't call it economic model, but like,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3477.364,
+            3487.612
+          ],
+          "quote": "Then the community combined, usually it's like the maintainer who writes the code knows the code, but now it's like I can prompt any project and publish it on GitHub.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3506.552,
+            3510.154
+          ],
+          "quote": "And GitHub wouldn't work if people just published their binaries.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3533.949,
+            3556.98
+          ],
+          "quote": "So if nobody knows programming anymore, if new students come out of university and they can't read source code, they don't know what an if statement is, they don't know what a, you know, what point has GitHub besides being a CDN to share zip files, if zip even is around that time or, you know?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3591.632,
+            3598.515
+          ],
+          "quote": "Like we're using these third party GitHub actions that like auto close pull requests from people who are not verified.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3598.875,
+            3602.616
+          ],
+          "quote": "That's all just hacks, you know, that should be first party coming from GitHub.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3612.573,
+            3614.474
+          ],
+          "quote": "That should be your job, GitHub, you know?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3763.422,
+            3768.326
+          ],
+          "quote": "And he starts it off by saying, here's what I would do if I was in charge of GitHub in this order.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            3844.288,
+            3853.273
+          ],
+          "quote": "And so, I mean, I'm not sure if he's accurate, wrong, or right, but there's a lot of folks who are upset at the uptime and downtime and stability of GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3856.785,
+            3863.07
+          ],
+          "quote": "I know they make a lot of money off GitHub Enterprise as well, but I think they're really banking on GitHub Copilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3865.913,
+            3872.498
+          ],
+          "quote": "He's one of the developer advocates on the GitHub Copilot team, so he's largely aware of what's going on there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3883.92,
+            3885.221
+          ],
+          "quote": "I'm not a GitHub Copilot user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3913.305,
+            3918.251
+          ],
+          "quote": "She works on the GitHub Next team, which is where GitHub Copilot came out of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3918.871,
+            3930.825
+          ],
+          "quote": "GitHub Copilot was already in place and in motion before she got there, but she was a role, she played a role in GitHub Next, which was sort of an offshoot of the office to the CTO at GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3937.091,
+            3939.293
+          ],
+          "quote": "Jason Warner's idea was GitHub Actions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 802,
+          "t": [
+            3939.313,
+            3942.615
+          ],
+          "quote": "GitHub Actions is largely why GitHub got acquired by Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3946.258,
+            3950.222
+          ],
+          "quote": "And so this GitHub Next area was this laboratory where a lot of the innovation came from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3950.562,
+            3951.983
+          ],
+          "quote": "That's where GitHub Copilot came from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3962.293,
+            3964.554
+          ],
+          "quote": "Around GitHub, Copilot being tab completion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4067.793,
+            4076.181
+          ],
+          "quote": "I just think it is kind of wild to look back at, you know, we were all enamored with GitHub Copilot, tab completion, function completion, things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            4078.623,
+            4084.528
+          ],
+          "quote": "And now it's not really the major player in the race, but it seems like GitHub is banking big on that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 842,
+          "t": [
+            4085.409,
+            4093.497
+          ],
+          "quote": "But as a team and individuals like you are and we are that have, have, we're not sure of the future of GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 848,
+          "t": [
+            4114.218,
+            4123.281
+          ],
+          "quote": "Ryan Daigle, COO, not CEO, because there is no CEO of GitHub anymore, came out of the woodwork and started talking on Twitter about slash X around these things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 854,
+          "t": [
+            4136.815,
+            4138.635
+          ],
+          "quote": "So what keeps you at GitHub these days?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4138.695,
+            4148.037
+          ],
+          "quote": "If you're not open source, if you, Cal.com, is more dramatically open source like you were before, what keeps GitHub your epicenter?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 858,
+          "t": [
+            4151.138,
+            4154.579
+          ],
+          "quote": "And look, what happens if the user base of GitHub is agents?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4322.864,
+            4349.301
+          ],
+          "quote": "The autonomous future that a lot of people are imagining is what I just said, that you have this coding agent who wakes up at 8am, well, doesn't sleep, doesn't need to, and grinds GitHub bounties, searches the web for whomever, probably the most profitable agents will be hacker agents that try to extort you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4469.749,
+            4490.477
+          ],
+          "quote": "Well, I think us as the tech community, we need to find peace with the fact that even though this GitHub user has a human avatar, this GitHub user has not written a single word of that PR.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "本集聊到 Mitchell Hashimoto 那条 X 帖:如果由他执掌 GitHub 会关掉 Copilot、收购 Cursor;GitHub 曾是 AI 编程领跑者(先做出 Copilot),如今成了落后者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 684,
+          "t": [
+            3362.475,
+            3366.418
+          ],
+          "quote": "In a risky scenario because, I mean, they're banking almost everything on Copilot, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3856.785,
+            3863.07
+          ],
+          "quote": "I know they make a lot of money off GitHub Enterprise as well, but I think they're really banking on GitHub Copilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3865.913,
+            3872.498
+          ],
+          "quote": "He's one of the developer advocates on the GitHub Copilot team, so he's largely aware of what's going on there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3872.518,
+            3877.843
+          ],
+          "quote": "It's funny I know more Copilot advocates than Copilot users.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3883.92,
+            3885.221
+          ],
+          "quote": "I'm not a GitHub Copilot user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3913.305,
+            3918.251
+          ],
+          "quote": "She works on the GitHub Next team, which is where GitHub Copilot came out of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3918.871,
+            3930.825
+          ],
+          "quote": "GitHub Copilot was already in place and in motion before she got there, but she was a role, she played a role in GitHub Next, which was sort of an offshoot of the office to the CTO at GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3950.562,
+            3951.983
+          ],
+          "quote": "That's where GitHub Copilot came from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3962.293,
+            3964.554
+          ],
+          "quote": "Around GitHub, Copilot being tab completion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3980.299,
+            3988.801
+          ],
+          "quote": "Does Microsoft, does Microsoft has any race in the coding industry right now besides, just Copilot, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3990.995,
+            3995.216
+          ],
+          "quote": "Is that the story around Copilot?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 834,
+          "t": [
+            4046.693,
+            4050.034
+          ],
+          "quote": "They came up with Copilot.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4067.793,
+            4076.181
+          ],
+          "quote": "I just think it is kind of wild to look back at, you know, we were all enamored with GitHub Copilot, tab completion, function completion, things like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说现在每个 PR 都长得差不多——都是 Claude、Claude Code 或 Codex 写的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            638.769,
+            647.977
+          ],
+          "quote": "Like you get a pull request and it's always written by Claude, by Claude Code or by maybe Codex or maybe if you're lucky by some other coding assistant, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 167,
+          "t": [
+            755.262,
+            761.186
+          ],
+          "quote": "Imagine you have one cracked engineer on Claude Code, like spamming your private repository.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 169,
+          "t": [
+            765.173,
+            769.475
+          ],
+          "quote": "And some of these pull requests are literally just like, hey, Claude, can you fix this GitHub issue for me?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 207,
+          "t": [
+            955.007,
+            964.33
+          ],
+          "quote": "And I know Peter from OpenClaw said he's not reading his own diffs anymore, like his own Claude Codex PRs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1015.682,
+            1033.094
+          ],
+          "quote": "You need to end up hiring really like IC5, IC7 level people who know what they're doing because you hire a generic IC1, IC2, IC3, chances are they will be using Claude Code and they're incentivized to use Claude Code because that's just how the whole industry works today.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1095.533,
+            1113.126
+          ],
+          "quote": "Like people expect to get the same level of treatment for like a one line, hey Claude, please fix issue 115, than someone who's investing deep knowledge and time and resources into making something better that they feel deserves to be merged.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1148.918,
+            1151.014
+          ],
+          "quote": "Two-line prompts from Claude, you know?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1214.098,
+            1222.164
+          ],
+          "quote": "Basically, the Claude instruction is find the most uploaded issue and then submit a PR in these five different...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1541.833,
+            1555.856
+          ],
+          "quote": "Nowadays, maybe not with Claude because of all the security features, but there are large language models out there that are so good at pen testing and, well, Claude security, to be honest, of their product, that",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3995.516,
+            4002.138
+          ],
+          "quote": "We have Cursor, we have Codex from ChatGPT, and we have Claude or Claude Code, which is primarily terminal, obviously.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4189.63,
+            4202.936
+          ],
+          "quote": "Well, how much is it a human intent if you ask Claude, like, research the top 10 frameworks and then of those repositories, pick the most popular issue and open a PR for it?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 902,
+          "t": [
+            4387.078,
+            4393.14
+          ],
+          "quote": "I mean, even today already, Claude Code could analyze your code base today and it could find",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 930,
+          "t": [
+            4515.424,
+            4523.09
+          ],
+          "quote": "Or is it to find a job because they ask Claude Code like, hey, I'm unemployed, like find the best 20 repositories and get my name out there?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4548.531,
+            4552.233
+          ],
+          "quote": "If you ask Claude Code to make Cal.com worse, it'd be like,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            4810.215,
+            4823.6
+          ],
+          "quote": "Adam, if you want to have the fastest growing startup in history, you could launch a landing page and you say, get a Claude API key that works for half the price.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            5293.396,
+            5295.337
+          ],
+          "quote": "I'll spin up my Claude code and submit a PR.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            5741.725,
+            5752.327
+          ],
+          "quote": "Like we have internally stopped using certain products because it was a weekend of Claude Code to get to 70, 80% of that functionality.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1502,
+          "t": [
+            6784.964,
+            6786.705
+          ],
+          "quote": "I'm not really digging Claude right now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 的 Codex 是主流编程助手之一,和 Claude Code 并列为 AI PR 的来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            638.769,
+            647.977
+          ],
+          "quote": "Like you get a pull request and it's always written by Claude, by Claude Code or by maybe Codex or maybe if you're lucky by some other coding assistant, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 197,
+          "t": [
+            898.591,
+            899.892
+          ],
+          "quote": "I have a free Codex.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 207,
+          "t": [
+            955.007,
+            964.33
+          ],
+          "quote": "And I know Peter from OpenClaw said he's not reading his own diffs anymore, like his own Claude Codex PRs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3995.516,
+            4002.138
+          ],
+          "quote": "We have Cursor, we have Codex from ChatGPT, and we have Claude or Claude Code, which is primarily terminal, obviously.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            4913.149,
+            4914.23
+          ],
+          "quote": "Codex, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1501,
+          "t": [
+            6782.341,
+            6784.783
+          ],
+          "quote": "So I don't know about you, but I'm loving Codex personally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1504,
+          "t": [
+            6789.507,
+            6794.752
+          ],
+          "quote": "Open source models are doing cool stuff, but by and large, Codex, Codex App Server,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1505,
+          "t": [
+            6795.292,
+            6806.302
+          ],
+          "quote": "And the fun things happening in and around the OpenAI Codex world, ChatGPT Pro world has just got me lasered in, gravitational focused in, and I'm liking it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集在 Mitchell Hashimoto 的 GitHub 改革帖里被提到:不惜代价收购 Cursor",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 745,
+          "t": [
+            3701.358,
+            3711.985
+          ],
+          "quote": "And today WorkOS is powering auth and identity and security and permissions for all of these AI companies, literally the fastest growing companies in the world, like OpenAI and Anthropic and Cursor and Perplexity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 775,
+          "t": [
+            3804.782,
+            3809.283
+          ],
+          "quote": "Acquire Cursor, pay whatever money is possible.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3995.516,
+            4002.138
+          ],
+          "quote": "We have Cursor, we have Codex from ChatGPT, and we have Claude or Claude Code, which is primarily terminal, obviously.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4009.46,
+            4011.321
+          ],
+          "quote": "I believe Windsurf terminated Cursor, didn't it?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "amp-code",
+      "type": "company",
+      "role": "company",
+      "name": "AMP Code",
+      "file": "AMP Code",
+      "primary": true,
+      "how_described": "本集把 AMP 当商业模式反例:公开说不低价卖、定价恰当还盈利,从 Sourcegraph 分拆成独立公司,不补贴 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1024,
+          "t": [
+            4890.59,
+            4901.419
+          ],
+          "quote": "They haven't, they famously come out and said, we're not going to sell it for less than it should, it's actually expensive, and we're charging appropriately, is our friends over at AMP Code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mid-journey",
+      "type": "company",
+      "role": "company",
+      "name": "mid-journey",
+      "file": "mid-journey",
+      "primary": true,
+      "how_described": "本集说 MidJourney 一直盈利、从未融资,自研自己的模型、自己是自己的供应商,不用买别人的 token,利润率才成立",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1055,
+          "t": [
+            5029.215,
+            5033.417
+          ],
+          "quote": "But I mean, companies that have not done this also is like mid-journey.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            5037.88,
+            5045.445
+          ],
+          "quote": "And I don't know what revenue mid-journey is today, but they found a way to profitably sell subscriptions.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "type": "company",
+      "role": "company",
+      "name": "WordPress",
+      "file": "WordPress",
+      "primary": false,
+      "how_described": "本集把 Cal.com 的内部 fork 类比成 WordPress.com 之于 WordPress.org 的关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2420.441,
+            2430.685
+          ],
+          "quote": "It's just that we have an internal fork the same way other many companies like WordPress.com is an internal fork of WordPress.org.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2430.745,
+            2440.288
+          ],
+          "quote": "It's still WordPress, uses the same plugin system, but if you sign into WordPress.com today, it's a different experience than if you get the open source WordPress.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2684.605,
+            2689.446
+          ],
+          "quote": "So I hope to keep that relationship strong the same way WordPress has been doing it for many years.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "npm",
+      "type": "concept",
+      "role": "concept",
+      "name": "NPM",
+      "file": "NPM",
+      "primary": false,
+      "how_described": "本集提到 NPM 公共仓库遭入侵(Shai Halud 病毒),且 GitHub 对 NPM 疏于照管",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            197.866,
+            201.49
+          ],
+          "quote": "This was a compromise of the NPM public repositories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            203.151,
+            204.213
+          ],
+          "quote": "NPM did what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1868.077,
+            1875.06
+          ],
+          "quote": "Well, unless you accidentally import an NPM package that completely compromises your project, which will happen.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3366.458,
+            3370.482
+          ],
+          "quote": "I mean, that's a large majority of their infrastructure, even NPM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3370.822,
+            3379.609
+          ],
+          "quote": "I know they have some changes coming out and I'd love to talk to whomever's working at GitHub behind the scenes or in front of the scenes if there is any on NPM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3384.012,
+            3385.454
+          ],
+          "quote": "There's neglect there around NPM.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "type": "company",
+      "role": "company",
+      "name": "Calendly",
+      "file": "Calendly",
+      "primary": false,
+      "how_described": "本集主持人回忆当初弃用 Calendly 转投 Cal 的缘由",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            317.857,
+            319.639
+          ],
+          "quote": "But it was, we were users of Calendly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            324.623,
+            328.306
+          ],
+          "quote": "And Calendly has been around for a while, but they had changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4568.14,
+            4577.393
+          ],
+          "quote": "I mentioned at the top of the show, Seed Investor, very small check, of course, but I was very happy to do that because, you know, I was using Calendly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到几家自称「开源版 Stripe」的支付服务商,任何涉及支付的开源都是超级关键的靶子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 585,
+          "t": [
+            2923.185,
+            2930.328
+          ],
+          "quote": "And then there's a couple of payment providers that call themselves the open source version of Stripe.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "lightllm",
+      "type": "company",
+      "role": "company",
+      "name": "LightLLM",
+      "file": "LightLLM",
+      "primary": false,
+      "how_described": "本集举的近期真实案例:被供应链攻击攻破的开源项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1645.555,
+            1651.178
+          ],
+          "quote": "We just had that, you know, one of the more recent ones was LightLLM.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agpl-v3",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGPL v3",
+      "file": "AGPL v3",
+      "primary": false,
+      "how_described": "本集说明 Cal.com 开源社区版采用的许可证,未来甚至可能改成 MIT",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            840.747,
+            861.242
+          ],
+          "quote": "Failed product market fit, but a lot of the ideas were still really good, and they parlayed a lot of that good stuff into what's now called Swamp.Club, and they are AGPL v3 open sourced, but very specifically, they are open sourced, but not open to contributions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1379,
+          "t": [
+            6264.616,
+            6271.102
+          ],
+          "quote": "So the Cal.com of tomorrow will strictly be an AGPL v3, potentially even MIT.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "system-initiative",
+      "type": "company",
+      "role": "company",
+      "name": "System Initiative",
+      "file": "System Initiative",
+      "primary": false,
+      "how_described": "本集说 Adam Jacob 的这家公司转型成 swamp.club,走「开源但不接受贡献」、只收 issue 的路线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            812.551,
+            818.814
+          ],
+          "quote": "If he was here, you'd probably be laughing at this moment, but he created a company called System Initiative.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

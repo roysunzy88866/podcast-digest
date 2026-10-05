@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]]
+[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Barrett Lyon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":20,"智能体":400,"红队测试":5,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":77,"harness":54,"供应链":4}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"OpenClaw":20,"智能体":403,"红队测试":5,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":77,"harness":55,"供应链":4}</script>
 
 <script>
 (function(){

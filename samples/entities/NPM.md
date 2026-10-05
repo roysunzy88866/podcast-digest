@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NPM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NPM">NP</div><div class="pi"><h1 class="pt">NPM</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NPM">NP</div><div class="pi"><h1 class="pt">NPM</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]]**(00:21起):本集详细讨论了针对它的“NPM 蠕虫”攻击（通过感染开发者系统自我传播），以及它宣布计划在 2027 年要求新发布前必须通过 2FA 验证以杀死蠕虫传播链条。
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(20:50起):本集仅在结尾顺带提到录制当天发生了一起 NPM 组织被接管事件，未展开讨论
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(03:17起):本集提到 NPM 公共仓库遭入侵(Shai Halud 病毒),且 GitHub 对 NPM 疏于照管
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为被讨论公司
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为被讨论公司(提及)
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Joel de la Garza]] · [[智能体]] · [[Dylan]] · [[Aaron Zolman]] · [[Firas]] · [[OpenClaw]] · [[Truffle Security]] · [[红队测试]] · [[Socket]] · [[容器化]]
+[[智能体]] · [[Joel de la Garza]] · [[Dylan]] · [[Aaron Zolman]] · [[Nicky Pike]] · [[Firas]] · [[OpenClaw]] · [[Cal.com]] · [[Truffle Security]] · [[红队测试]]
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"智能体":400,"Dylan":1,"Aaron Zolman":1,"Firas":1,"OpenClaw":20,"Truffle Security":1,"红队测试":5,"Socket":1,"容器化":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Joel de la Garza":5,"Dylan":1,"Aaron Zolman":1,"Nicky Pike":1,"Firas":1,"OpenClaw":20,"Cal.com":1,"Truffle Security":1,"红队测试":5}</script>
 
 <script>
 (function(){

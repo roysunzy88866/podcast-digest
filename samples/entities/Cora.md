@@ -27,7 +27,7 @@ unlisted: true
 
 [[Every]] · [[Claude Code]] · [[智能体]] · [[Codex]] · [[Lenny]] · [[Kieran Klaassen]] · [[Dan Shipper]] · [[compound engineering]] · [[ChatGPT]] · [[Compound Engineering Plugin]]
 
-<script type="application/json" class="pd-epn">{"Every":4,"Claude Code":94,"智能体":400,"Codex":76,"Lenny":68,"Kieran Klaassen":1,"Dan Shipper":2,"compound engineering":2,"ChatGPT":92,"Compound Engineering Plugin":1}</script>
+<script type="application/json" class="pd-epn">{"Every":4,"Claude Code":94,"智能体":403,"Codex":78,"Lenny":68,"Kieran Klaassen":1,"Dan Shipper":2,"compound engineering":2,"ChatGPT":94,"Compound Engineering Plugin":1}</script>
 
 <script>
 (function(){

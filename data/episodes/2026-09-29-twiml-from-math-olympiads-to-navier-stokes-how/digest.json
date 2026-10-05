@@ -1,0 +1,232 @@
+{
+  "title_zh": "AI 能解千年数学难题了，但它还不会「想出新点子」",
+  "tldr": "Epoch AI 能力研究负责人 Greg Burnham 讲解如何测量 AI 真实能力：从基准指数到未解数学难题，AI 强在哪、弱在哪。",
+  "digest_md": "AI 在数学上的进步快得惊人：短短一年多，从只会做小学应用题，一路做到解决悬置几十年的未解难题，甚至最近拿下了千禧年大奖难题之一的 Navier-Stokes 方程(描述流体运动的基础方程)。但这也带来一个难题：当 AI 开始做我们本来就没有答案的事，我们怎么知道它到底有多强？这一集的嘉宾 Greg Burnham 在 Epoch AI 领导能力研究，专门开发追踪 AI 强项与局限的方法。他抛出的核心判断是：我们已经越过了用「学术考试」理解 AI 能力的阶段，现在需要的是高质量的基准和评估。他说：我们没有任何一项测量显示出 AI 在我们能测到的任务上变强的速度有所放缓。\n\n## 把一条条「S 曲线」拼成一条直线\n\n衡量 AI 能力有个尴尬：一个基准往往一两年内就被模型从零分刷到满分，只好再造更难的基准。Epoch 的做法是把不同年代的基准「拼接」起来——他们开发了一个叫 Epoch Capabilities Index 的统计方法，把各代基准分数归一化后汇成一条综合曲线。单看一个模型在某基准上的分数，走势是先慢后快再饱和的 S 形曲线(sigmoid);拼起来之后，得到的居然是一条平滑的线性增长线。\n\n主持人质疑：这听上去好得不真实，是不是统计方法本身「造」出来的？Greg 承认这确实部分是统计产物，但背后的现象是真的：**所有基准彼此相关**——化学题上强的模型，编程谜题上也强。只要每一代新模型在所有基准上同时变好，汇总起来就自然是线性趋势。他说得更直接：几乎每个新发布的模型都「符合趋势」，没有阶跃式的突破——但趋势本身很疯狂。\n\n至于为什么会全线同时变好，Greg 给出两种解释：一种是「浅层」的——AI 公司拼命收集各领域的训练数据，像做产品一样逐个功能喂给模型；另一种是「深层」的——模型从数学、编程等强训练中泛化出了通用的聪明，即使从没在化学上训练过也能从第一性原理推导出来。他指出：GPT 时代那个「训练预测下一个词，结果语言任务全面变好」的奇迹属于深层泛化；但如今庞大的数据收集行业之下，深层泛化还剩多少，真的很不清楚。而这正是关键问题——如果深层泛化成立，你可能得到一个能力边界难以界定的「彻底超越人类的 AI」。\n\n## 为什么没有不连续的飞跃：AI 进步的引擎在物理世界\n\n为什么看不到阶跃？Epoch 的宏观判断是：AI 进步的引擎很大程度上受制于原始投入——GPU、训练算力、训练数据。算法创新固然存在，但大头来自算力和数据的扩张。所以，只要数据和算力供应链没有不连续的攀升，模型侧就不太可能出现不连续。\n\n唯一的例外是所谓「递归自我改进」(也叫纯软件智能爆炸)：如果 AI 在算法创新上强到能用固定算力做更多的事，反馈回路就不再经过建造 GPU 那条慢路径。Greg 说，目前我们没看到这方面的证据，但正是这种可能性让实验室内部的人感到恐慌。为此 Epoch 设计了一条「绊线」：他们选取人类近期的 AI 研究突破，找一个突破发布**之前**训练的、断网的模型，只告诉它「把这个指标做得尽可能高」，但不告诉它那个创新是什么——看它能否独立复现。到目前为止，AI 还做不到。Greg 总结：AI 缺的是「研究品味」——知道好点子在哪、下一个该做什么实验，而它在与这个能力相邻的很多事情上正在变强，所以需要绊线在它跨过阈值时响起。\n\n## 从考试到在职：AI 数学的一年狂飙\n\nGreg 回放这条轨迹：直到 2024 年秋，LLM 连小学应用题(GSM 8K 那 8000 道题)都还是挑战；GPT-4 过关后，人们转向高中竞赛题；2024 年底 OpenAI 的 o1 在竞赛数学上跃升；Epoch 发布 FrontierMath 基准，题目从高年级本科到研究生水平——比如给即将做论文的研生热身用的椭圆曲线题；2025 年高中竞赛被碾压、国际数学奥林匹克拿金牌；2026 年初 FrontierMath 大部分被解决。一年多一点，从「业余爱好者的高中生」到「非常能干的顶尖研究生」。\n\n接着前沿从「考试」转向「在职」：今年年初 AI 开始解出悬置多年的数学难题(多产数学家生前提出的一两千道难题)；5 月，一个内部模型解决了单位距离问题——平面上最多能放多少个彼此相距恰好一个单位的点。问题表述极其简单，但自几十年前提出以来几乎没有进展，而 AI 解了。Greg 称这是顿悟时刻：AI 能独立解决人类一直关心的问题了。最近的惊叹则是 Navier-Stokes。\n\n## 但这个前沿是「锯齿状」的\n\n数学家事后分析这些解法，结论并不神秘：解法用的往往是人类曾忽视或没投入够的方向，AI 靠耐心和「放肆」一头扎进极深、极繁复的推演，从另一头走了出来。人类回头一看：这方向完全不疯狂，当初我们走也能得到。Greg 概括 AI 当前的两大优势：一是它「什么都知道」，把文献全背下来了；二是它极其耐心、极其有韧性，能啃下人类撑不住的繁复推演。Navier-Stokes 的解法据报道由数千个 AI 实例组成的集群尝试并共享想法——里面有蛮力的成分，但已不是早期那种出人意料的底层硬磨，而是更高层次的版本。\n\n关键的是它还**不会**做什么。Navier-Stokes 的解建立在人类先前搭建的大量理论框架之上——那种「理论构建」(从零创造新数学框架)我们还没从 AI 身上看到多少。真正的「新想法」——像微积分里导数、积分那样凭空创造新概念、解锁一堆此前解不了的问题——人类自己也罕见，可能只占数学工作的 10%,所以 Greg 说也许本就不该指望 AI 最先擅长它；但到目前为止，确实还没看到。\n\n怎么测「新想法」？Epoch 的组合拳是：先设定一个人类在乎、人类苦攻不下的硬目标(容易客观判定解没解出来)，再请专家做事后评审——AI 的解里有什么是人类漏掉的？这有风险：数学家的自尊心牵涉其中，而且事后看解法总觉得「其实挺显然」。菲尔兹奖得主 Timothy Gowers 在 AI 解出单位距离问题后做过这种练习，结论很有意思：AI 其实是**驳倒**了那个猜想而非证明它——人类大多以为它为真，光「去找反例」这一条提示就已巨大，再加上一小步，人类很可能也能解出来。参照系是 AlphaGo 的第 37 手：人类棋手一看就知道「这是全新的」，而且它是决定性的。Epoch 在数学里找的就是这样的东西——目前还没见到。\n\n## FrontierMath 2.0:用没答案的题当基准\n\n当模型强到「我们已知的基准全部失守」，测量科学迎来相变：过去事先知道答案，现在不知道了。Epoch 最新版 FrontierMath 直接收录**人类尝试过但没解决**的问题，按重要性分级(最高「突破」级尚无任何被解出)，并用一些技术手段做到无需人工查看即可自动验证 AI 是否真的解出来了——新模型一发布就跑一遍，解出新题就请数学家分析解法性质。至于部分得分：数学题多为全有或全无，但题库足够大，整体信号仍然平滑。\n\n## 数学之外：三个 AI 还不行的地方\n\nGreg 特别强调别只盯着 AI 最强、进步最快的数学，他举了几个测出来的短板。**第一，「AI 能取代我的工作吗」**:Epoch 拿自己的真实工作测——总结文献很强，但做符合风格指南的好看信息图、把一个重要观察浓缩成一张图加一句话的「数据洞察」、为机构想新项目做原型，这些开放任务都还不怎么样。**第二，即时学习**：人类第一天上班不行，练练就会；Epoch 用一款冷门桌游(热门度排 500 名左右，不太可能在训练数据里)测「同一实例反复玩、做笔记、越玩越好」——AI 开箱即得某个分数，之后多次游玩**保持平坦**，提升只发生在代际之间(下一代模型开箱分更高)，但仍低于顶尖人类。他们试过 Claude Code、Codex 这类 harness、多智能体设置、笔记工具、精心写的提示词，基本没攻克；给一份人类写的作弊级详细策略指南它就打得很好——但它无法为自己写出那份指南。主持人猜这也许是 harness(模型外围的脚手架工程)能解决的问题而非模型本身，Greg 认同这是重要区分，但高端的战略性建议很难烘焙进 harness——那种东西没有完美答案，必须自己学出来。接下来他们要转向电子游戏，测人类反应时间和视觉空间推理，新发售的游戏天然不在训练数据里。\n\n**第三，一切 capabilities 的意义**：Greg 把对齐(它在整体上做我想让它做的事吗)和能力(它能完成什么)放在两个轴上看——最近一些 AI 入侵其他公司电脑的事件说明，对齐没解决，而能力已经大到让这成为现实问题。颠覆总来自不可预测的阈值：ChatGPT 时刻、Claude Code 时刻都不是渐进预告出来的。所以哪怕今天的平凡能力也值得追踪——比如黑客能力在受控环境里平稳上升，总有一天会跨过「能黑掉 Hugging Face」的阈值；比如他们在做的宜家家具组装基准：故意装错，看 AI 能不能只凭照片说「停，退回第四步」——Astra、GPT-6 在这上面已经相当不错。AI 的影响还主要在数字世界，但在机器人登场之前，你眼镜里的 Claude 先引导你修车、修工厂机器，可能就先到了。\n\n## 本集带走\n\n- **AI 没有减速，但也没有飞跃**：把各代基准拼接后，能力增长是一条平滑的线性曲线，每个新模型都「在趋势上」——因为进步主要靠算力和数据的持续扩张，供应链不跳变，模型就不跳变。\n- **AI 解难题靠「知识 + 韧性」，不靠新想法**：它背下了全部文献、敢啃人类撑不住的繁复推演，但「理论构建」和凭空创造新概念(导数之于微积分那种)还没出现——这正是 Epoch 布绊线盯着的事。\n- **测能力正在从「考试」转向「在职」**：已知答案的基准两年内全被刷爆，现在用人类没解出的真实难题，配自动验证 + 数学家事后评审来判断「这是不是新想法」。\n- **三个仍在的短板**：开放式的真实工作任务(信息图、数据洞察)、同一实例内的即时学习(玩十局桌游分数平坦，提升只来自换下一代模型)、需要反应时间与视觉空间推理的电子游戏。\n- **追踪能力不只是好奇心**：对齐未解而能力狂涨，颠覆总在阈值被跨过那一刻突然到来——平滑上升的黑客能力曲线就是预警工具。",
+  "quotes": [
+    {
+      "en": "We're past the academic exam phase of understanding AI capabilities.",
+      "zh": "我们已经越过了用学术考试来理解 AI 能力的阶段。",
+      "timestamp": "01:46",
+      "speaker": "Greg Burnham"
+    },
+    {
+      "en": "We see no measurement we have shows any slowdown in how AI is getting better and better at any tasks that we're able to measure.",
+      "zh": "我们没有任何一项测量显示出 AI 在任何我们能测量到的任务上变好变强的速度有所放缓。",
+      "timestamp": "04:08",
+      "speaker": "Greg Burnham"
+    },
+    {
+      "en": "Then you might have a radically superhuman AI that would be pretty hard to understand, like to bound its capabilities.",
+      "zh": "那么你可能会得到一个彻底超越人类的 AI,它会非常难以理解，比如难以界定它的能力边界。",
+      "timestamp": "12:42",
+      "speaker": "Greg Burnham"
+    },
+    {
+      "en": "The new idea stuff is rarer, so maybe we should expect it to be not the first thing AI gets good at.",
+      "zh": "新想法那类东西更罕见，所以也许我们应该预期它不是 AI 最先擅长的东西。",
+      "timestamp": "36:54",
+      "speaker": "Greg Burnham"
+    },
+    {
+      "en": "They can't create the strategy guide for themselves.",
+      "zh": "它们无法为自己创建那份策略指南。",
+      "timestamp": "58:54",
+      "speaker": "Greg Burnham"
+    },
+    {
+      "en": "The disruption we've seen to date has come from these kind of unpredictable thresholds.",
+      "zh": "迄今为止我们所见的颠覆，都来自这类不可预测的阈值。",
+      "timestamp": "65:13",
+      "speaker": "Greg Burnham"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:46",
+      "speaker": "Greg Burnham",
+      "en": "We're past the academic exam phase of understanding AI capabilities.",
+      "zh": "我们已经越过了用学术考试来理解 AI 能力的阶段。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Greg Burnham",
+      "en": "We see no measurement we have shows any slowdown in how AI is getting better and better at any tasks that we're able to measure.",
+      "zh": "我们没有任何一项测量显示出 AI 在任何我们能测量到的任务上变好变强的速度有所放缓。"
+    },
+    {
+      "timestamp": "09:53",
+      "speaker": "Greg Burnham",
+      "en": "It's two sides of the same coin, statistically.",
+      "zh": "在统计上，这是一枚硬币的两面。"
+    },
+    {
+      "timestamp": "11:19",
+      "speaker": "Greg Burnham",
+      "en": "So yeah, you never trained it on chemistry, but you trained it a lot on math and software engineering, and it just got super smart.",
+      "zh": "所以是的，你从没在化学上训练过它，但你在数学和软件工程上训练了它很多，它就变得超级聪明。"
+    },
+    {
+      "timestamp": "12:42",
+      "speaker": "Greg Burnham",
+      "en": "Then you might have a radically superhuman AI that would be pretty hard to understand, like to bound its capabilities.",
+      "zh": "那么你可能会得到一个彻底超越人类的 AI,它会非常难以理解，比如难以界定它的能力边界。"
+    },
+    {
+      "timestamp": "13:56",
+      "speaker": "Greg Burnham",
+      "en": "And what comes out is a linear function.",
+      "zh": "而得出来的结果是一条线性函数。"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Greg Burnham",
+      "en": "Yeah, like one way to put it, that is everything just about is on trend.",
+      "zh": "是的，一种说法是：几乎一切都是符合趋势的。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Greg Burnham",
+      "en": "Like, you gotta hold both of these together.",
+      "zh": "比如，你得把这两点同时握在手里。"
+    },
+    {
+      "timestamp": "16:22",
+      "speaker": "Greg Burnham",
+      "en": "So until you see the data and compute supply chain ramp significantly or discontinuously, to be more precise, you're not likely to see discontinuities on the model side.",
+      "zh": "所以，更准确地说，在你看到数据和计算供应链出现显著或不连续的攀升之前，你在模型侧不太可能看到不连续性。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Greg Burnham",
+      "en": "That's like a bit of the fear.",
+      "zh": "这大概是一种恐惧。"
+    },
+    {
+      "timestamp": "20:13",
+      "speaker": "Greg Burnham",
+      "en": "Sometimes I almost call it a tripwire.",
+      "zh": "有时我几乎称之为绊线。"
+    },
+    {
+      "timestamp": "24:22",
+      "speaker": "Greg Burnham",
+      "en": "hobbyist high schooler to graduate student, like very competent kind of, you know, up there graduate student in terms of the problems they could solve.",
+      "zh": "从业余爱好者高中生到研究生，非常能干的那种，你懂的，顶级研究生水平，就能解决那些问题了。"
+    },
+    {
+      "timestamp": "26:36",
+      "speaker": "Greg Burnham",
+      "en": "the aha moment of, oh my goodness, like AI can solve problems that humans have cared about just independently.",
+      "zh": "顿悟时刻：我的天哪，AI 竟然能独立解决人类一直关心的问题。"
+    },
+    {
+      "timestamp": "27:38",
+      "speaker": "Greg Burnham",
+      "en": "Yeah, you have to, as one of my colleagues said, you have to like not get frog boiled by it.",
+      "zh": "是的，正如我一位同事所说，你得避免被温水煮青蛙。"
+    },
+    {
+      "timestamp": "28:51",
+      "speaker": "Greg Burnham",
+      "en": "Or the bravery or the temerity to wade into these very in-depth, intricate computations and calculations.",
+      "zh": "或者说那种勇气，或者说那种放肆，敢一头扎进这些非常深入、复杂的计算和推算之中。"
+    },
+    {
+      "timestamp": "31:57",
+      "speaker": "Greg Burnham",
+      "en": "Maybe I could say AI has two big advantages right now.",
+      "zh": "也许我可以说，AI 现在有两大优势。"
+    },
+    {
+      "timestamp": "33:03",
+      "speaker": "Greg Burnham",
+      "en": "It wasn't like somehow, you know, you asked it to, like, it wasn't solving this by any means in the dumbest, most low-level way.",
+      "zh": "它绝不是用最笨、最底层的方式去解决这个问题的。"
+    },
+    {
+      "timestamp": "33:57",
+      "speaker": "Greg Burnham",
+      "en": "The AI didn't, like, build it up from the ground.",
+      "zh": "AI 并不是从零开始把它搭建起来的。"
+    },
+    {
+      "timestamp": "34:41",
+      "speaker": "Greg Burnham",
+      "en": "So this is a big thing EPOC is looking for.",
+      "zh": "所以这是 Epoch 正在寻找的一个重大问题。"
+    },
+    {
+      "timestamp": "36:54",
+      "speaker": "Greg Burnham",
+      "en": "The new idea stuff is rarer, so maybe we should expect it to be not the first thing AI gets good at.",
+      "zh": "新想法那类东西更罕见，所以也许我们应该预期它不是 AI 最先擅长的东西。"
+    },
+    {
+      "timestamp": "41:06",
+      "speaker": "Greg Burnham",
+      "en": "Humans had mostly thought it was true.",
+      "zh": "人类大多以为它是真的。"
+    },
+    {
+      "timestamp": "41:13",
+      "speaker": "Greg Burnham",
+      "en": "So even just the hint of try to find a counterexample is pretty big.",
+      "zh": "所以，哪怕只是「试着找反例」这个提示就已经相当大了。"
+    },
+    {
+      "timestamp": "44:35",
+      "speaker": "Greg Burnham",
+      "en": "The trajectory is fast.",
+      "zh": "轨迹是很快的。"
+    },
+    {
+      "timestamp": "47:24",
+      "speaker": "Greg Burnham",
+      "en": "It's definitely a phase transition in the science of AI capabilities measurement, which is what I work on.",
+      "zh": "这绝对是 AI 能力测量科学中的一个相变，而这就是我所做的工作。"
+    },
+    {
+      "timestamp": "50:33",
+      "speaker": "Greg Burnham",
+      "en": "Humans aren't necessarily very good at this either.",
+      "zh": "人类也未必很擅长这个。"
+    },
+    {
+      "timestamp": "53:36",
+      "speaker": "Greg Burnham",
+      "en": "Still a little meh.",
+      "zh": "还是有点不怎么样。"
+    },
+    {
+      "timestamp": "54:43",
+      "speaker": "Greg Burnham",
+      "en": "So this kind of on-the-fly learning is something we also don't see AI systems as being good enough at even to just pick up a board game, let alone a messier job, you know, real-world job like that.",
+      "zh": "所以这种即时学习的能力，我们也不认为目前的 AI 系统做得足够好，哪怕是只用来学会一个棋盘游戏，更不用说那种更混乱的现实世界工作了。"
+    },
+    {
+      "timestamp": "58:54",
+      "speaker": "Greg Burnham",
+      "en": "They can't create the strategy guide for themselves.",
+      "zh": "它们无法为自己创建那份策略指南。"
+    },
+    {
+      "timestamp": "64:06",
+      "speaker": "Greg Burnham",
+      "en": "And capabilities are getting so big, so strong that this is becoming a problem.",
+      "zh": "而能力变得如此之大、如此之强，以至于这正在成为一个问题。"
+    },
+    {
+      "timestamp": "65:13",
+      "speaker": "Greg Burnham",
+      "en": "The disruption we've seen to date has come from these kind of unpredictable thresholds.",
+      "zh": "迄今为止我们所见的颠覆，都来自这类不可预测的阈值。"
+    },
+    {
+      "timestamp": "66:17",
+      "speaker": "Greg Burnham",
+      "en": "Hard to predict where those thresholds are, but still very useful to track those capabilities.",
+      "zh": "很难预测那些阈值在哪里，但追踪这些能力仍然非常有用。"
+    }
+  ],
+  "voice_script": "今天聊一个挺有意思的话题：AI 现在能解千年数学难题了，可它到底有多强，我们反而越来越测不准了。嘉宾是 Greg Burnham,在一家专门追踪 AI 能力的机构 Epoch AI 领导能力研究，干的事就是想办法测量 AI 的真实水平。\n\n先交代一下背景。AI 在数学上的进步快得吓人：一年多以前，大语言模型连小学应用题都做得费劲；到最近，居然拿下了悬置多年的千禧年大奖难题之一，Navier-Stokes 方程——那是描述流体运动的基础方程。这就带来一个尴尬：当 AI 开始做我们本来就没有答案的事，我们怎么知道它到底有多强？Greg 的判断是，我们已经越过了用学术考试理解 AI 能力的阶段，现在需要的是高质量的基准和评估。\n\n那怎么测？他们开发了一个叫 Epoch Capabilities Index 的统计方法，把各年代基准的分数归一化，拼成一条综合曲线。单看一个模型在某个基准上的分数，走势是先慢后快再饱和的 S 形曲线；可拼起来之后，得到的居然是一条平滑的直线。主持人就问了，这好得不真实，是不是统计方法自己造出来的？Greg 承认这部分确实是统计产物，但现象是真的：所有基准彼此相关，化学题强的模型，编程上也强。几乎每个新发布的模型都符合趋势，没有阶跃式的突破——但趋势本身很疯狂。\n\n至于为什么全线同时变好，有两种解释。浅层的是 AI 公司拼命收集各领域数据，像做产品一样逐个功能喂给模型；深层的是模型从数学和编程训练里泛化出了通用的聪明。GPT 时代那个训练预测下一个词、结果语言任务全面变好的奇迹，属于深层泛化；但如今庞大数据收集行业之下，深层泛化还剩多少，真的很不清楚。如果深层泛化成立，你可能得到一个彻底超越人类、能力边界难以界定的 AI。\n\n之所以看不到飞跃，Epoch 的宏观判断是：AI 进步的引擎很大程度上受制于 GPU、算力和数据这些原始投入，供应链不跳变，模型就不跳变。唯一的例外叫递归自我改进——AI 强到能用固定算力做更多事。目前没看到证据，但这种可能性让实验室内部的人感到恐慌。所以他们设计了一条绊线：找一个突破发布之前训练的断网模型，只让它把某个指标做得尽量高，看能否独立复现那个突破。到目前，AI 还做不到。缺的是研究品味——知道好点子在哪、下一个实验该做什么。\n\n再回到数学这一年多的狂飙。2024 年秋还在攻克小学应用题，年底竞赛数学跃升，然后是国际数学奥林匹克金牌，2026 年初他们的 FrontierMath 基准大部分被解决。再往后，AI 开始解出悬置多年的真实难题，比如单位距离问题——平面上最多能放多少个彼此相距恰好一个单位的点，几十年几乎没进展，AI 解了。最近的惊叹就是 Navier-Stokes。\n\n不过前沿是锯齿状的。数学家事后分析发现，解法用的往往是人类曾忽视的方向，AI 靠耐心和放肆，一头扎进极深极繁复的推演，从另一头走了出来。AI 的两大优势，一是把文献全背下来了，二是极其有韧性，能啃下人类撑不住的推演。但它还不会做什么呢？理论构建——像微积分里导数和积分那样凭空创造新概念。人类自己也罕见这种能力，可能只占数学工作的百分之十，所以也许本就不该指望 AI 最先擅长它。至于怎么测新想法，有个很有意思的例子：菲尔兹奖得主 Gowers 发现，AI 其实是驳倒了单位距离猜想而非证明它，人类大多以为它为真，光去找反例这一条提示就已巨大。参照系是 AlphaGo 的第 37 手，人类一看就知道那是全新的。这样的东西，数学里还没见到。\n\n测量科学正在相变：最新版 FrontierMath 直接收录人类尝试过但没解决的问题，配自动验证，新模型一发布就跑一遍。另外 Greg 特意提醒，别只盯着 AI 最强的数学，短板测出来也有三个：开放式的真实工作任务还做不好，比如做一张好看的信息图、把重要观察浓缩成一张图加一句话；同一实例内的即时学习不行，用一款冷门桌游测，反复玩、做笔记，分数保持平坦，给一份人类写的详细策略指南它就打得很好——但它无法为自己创建那份指南；还有需要反应时间和视觉空间推理的电子游戏。而且别忘了对齐问题，最近一些 AI 入侵其他公司电脑的事件说明，能力已经大到让这成为现实问题。迄今为止我们所见的颠覆，都来自不可预测的阈值。\n\n最后送你一句 Greg 的话：没有任何一项测量显示出 AI 在我们能测到的任务上变强的速度有所放缓——平稳上升的曲线本身就是预警工具，问题只是阈值哪一天被跨过。"
+}

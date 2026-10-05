@@ -109,9 +109,9 @@ Claire 发现一月她几乎全在做工程任务,到九月工程任务已不到
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra]]<span class="pd-rz">同概念:Astra、Codex、Jev</span>
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|又快又免费的 Jev：让 AI 变成「最聪明的函数」]]<span class="pd-rz">同概念:Jev、LLM、实时 (real-time)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:Claude Code、LLM</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:Claude Code、Codex</span>
 
 </div>
 <div class="pd-ex">

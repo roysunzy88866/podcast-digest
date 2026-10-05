@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":1,"a16z":18,"基准测试":16,"Salesforce":34,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":1,"a16z":18,"基准测试":17,"Salesforce":34,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
 
 <script>
 (function(){

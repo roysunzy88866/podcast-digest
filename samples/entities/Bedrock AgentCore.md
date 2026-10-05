@@ -25,7 +25,7 @@ unlisted: true
 
 [[Mike Chambers]] · [[智能体]] · [[harness 工程]] · [[MCP]] · [[记忆]] · [[多租户隔离]] · [[可观测性]] · [[基础设施即代码]] · [[系统提示词]] · [[Kiro]]
 
-<script type="application/json" class="pd-epn">{"Mike Chambers":1,"智能体":400,"harness 工程":3,"MCP":72,"记忆":22,"多租户隔离":1,"可观测性":36,"基础设施即代码":2,"系统提示词":8,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Mike Chambers":1,"智能体":403,"harness 工程":3,"MCP":72,"记忆":22,"多租户隔离":1,"可观测性":36,"基础设施即代码":2,"系统提示词":8,"Kiro":4}</script>
 
 <script>
 (function(){

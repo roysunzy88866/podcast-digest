@@ -1,0 +1,847 @@
+{
+  "episode_id": "2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-09-29",
+  "tags": [
+    "AI 能力评估",
+    "基准测试",
+    "AI 数学",
+    "AI 安全",
+    "递归自我改进"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "greg-burnham",
+      "type": "person",
+      "role": "host",
+      "name": "Greg Burnham",
+      "file": "Greg Burnham",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            79.12,
+            88.462
+          ],
+          "quote": "My guest Greg Burnham leads capabilities research at Epoch AI, where he and his team are developing new ways to track AI's rapidly evolving strengths and limitations.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            137.865,
+            141.127
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "epoch-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Epoch AI",
+      "file": "Epoch AI",
+      "primary": true,
+      "how_described": "嘉宾 Greg Burnham 所在的机构，从事 AI 能力研究，开发追踪 AI 强项与局限的方法和基准（如 FrontierMath、Epoch Capabilities Index）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            79.12,
+            88.462
+          ],
+          "quote": "My guest Greg Burnham leads capabilities research at Epoch AI, where he and his team are developing new ways to track AI's rapidly evolving strengths and limitations.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "frontier-math",
+      "type": "concept",
+      "role": "concept",
+      "name": "Frontier Math",
+      "file": "Frontier Math",
+      "primary": true,
+      "how_described": "本集说 Epoch 发布的数学基准，最初收录从高年级本科到研究生水平的题目，最新版改收人类尝试过但未解决的问题，并配自动验证与数学家事后评审。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1367.008,
+            1371.969
+          ],
+          "quote": "My company, EPOC, around that time released a benchmark called Frontier Math.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1380.691,
+            1389.052
+          ],
+          "quote": "But the original Frontier Math consisted of problems that I would say go from advanced undergraduate to advanced grad student.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1437.336,
+            1449.526
+          ],
+          "quote": "And even by the beginning of 2026, we saw most of these frontier math problems solved, though not all of them had in fact been solved by an AI system at that point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2689.457,
+            2698.821
+          ],
+          "quote": "Earlier, when we were talking about frontier math, you kind of characterize it as, you know, one to four, I think, and then advanced, and we never circled back to...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2699.281,
+            2704.607
+          ],
+          "quote": "Yeah, we've got a couple, we've got a couple, two new sets of frontier math problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2718.102,
+            2724.804
+          ],
+          "quote": "You know, our latest iteration on frontier math consists of a bunch of problems that humans have tried and failed to solve.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capabilities",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 能力 (capabilities)",
+      "file": "AI 能力",
+      "primary": true,
+      "how_described": "本集主线：AI 能力增长呈平滑线性趋势、没有阶跃式飞跃，但在数学等某些轴上超人类、其他轴上仍逊于人类，呈锯齿状边界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            79.12,
+            88.462
+          ],
+          "quote": "My guest Greg Burnham leads capabilities research at Epoch AI, where he and his team are developing new ways to track AI's rapidly evolving strengths and limitations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 14,
+          "t": [
+            89.062,
+            94.204
+          ],
+          "quote": "Here's Greg on why measuring and understanding AI's capabilities matters so much right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            94.664,
+            99.265
+          ],
+          "quote": "AI capabilities, writ large, have gotten to such a point where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            106.705,
+            112.767
+          ],
+          "quote": "We're past the academic exam phase of understanding AI capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            161.947,
+            168.177
+          ],
+          "quote": "Let's talk a little bit about AI capabilities research broadly, how you pursue that research and why you think it's important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            175.614,
+            178.476
+          ],
+          "quote": "AI capabilities can have a real impact on the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            222.949,
+            228.593
+          ],
+          "quote": "But this is certainly the year where AI capabilities are impacting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            237.984,
+            245.226
+          ],
+          "quote": "And so as these capabilities grow, it's just important for us to keep tabs on them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            406.941,
+            409.343
+          ],
+          "quote": "We call it Epoch Capabilities Index.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            762.692,
+            770.841
+          ],
+          "quote": "Then you might have a radically superhuman AI that would be pretty hard to understand, like to bound its capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1232.41,
+            1241.116
+          ],
+          "quote": "So we go, okay, gosh, watch out, like maybe something, maybe we're about to see a big improvement, a big uptick in AI capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1346.014,
+            1349.817
+          ],
+          "quote": "And this showed a huge spike in math competition capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1674.244,
+            1690.469
+          ],
+          "quote": "You might hear the phrase jagged frontier, where the AI capabilities are jagged in the sense that they'll be superhuman on some axis and not superhuman, still inferior in capability to human on some other axis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2067.94,
+            2070.422
+          ],
+          "quote": "And we can expect the capabilities will freeze right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2138.316,
+            2151.47
+          ],
+          "quote": "And maybe just to say the other thing that would really supercharge them and bring them closer to full human parity or even dominating human capabilities would be something like coming up with a new idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2844.128,
+            2852.155
+          ],
+          "quote": "It's definitely a phase transition in the science of AI capabilities measurement, which is what I work on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3037.27,
+            3054.611
+          ],
+          "quote": "I did want to mention that while we focused on maybe the area where AI is the very best, like has come the farthest, the fastest math, we do see lots of areas where we also think it's important to measure AI capabilities where it's",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3296.541,
+            3301.902
+          ],
+          "quote": "So these are sorts of things where we don't see these capabilities and we think it's important to try to catch when they emerge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3726.112,
+            3741.075
+          ],
+          "quote": "Then AI capabilities might sort of improve much more rapidly than the slower loop of collecting more training data, doing more reinforcement learning, which is done on language models as well these days, and then deploying a new model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3835.25,
+            3837.831
+          ],
+          "quote": "And then capabilities, just like, what can it get done?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3846.557,
+            3860.39
+          ],
+          "quote": "What that incident was was like an early example, very like, I think pretty robust example of, well, we don't have the alignment thing solved and capabilities are getting so big, so strong that this is becoming a problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3861.391,
+            3864.534
+          ],
+          "quote": "And so paying attention to capabilities, like what we should expect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3958.2,
+            3962.884
+          ],
+          "quote": "So it's useful to still track, but like the, it's useful to track the mundane capabilities today and say, look,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3977.456,
+            3982.84
+          ],
+          "quote": "Hard to predict where those thresholds are, but still very useful to track those capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            4009.806,
+            4015.451
+          ],
+          "quote": "And they've, you know, we see the same smooth capabilities like Astra, GPT-6 Astra, pretty good at this, actually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4041.39,
+            4045.351
+          ],
+          "quote": "So, you know, we want to track those capabilities, too, just for the mundane impact.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集说基准一两年内就被模型从零分刷到满分，需不断造更难的基准并跨代拼接（Epoch Capabilities Index），现已从『已知答案的考试』转向『没答案的在职难题』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            271.55,
+            293.643
+          ],
+          "quote": "I want to push back on one thing you said in terms of we're not seeing any slowdowns that can be looked at broadly, like in terms of maybe the number of, you know, benchmark data points that we're looking at, you know, certainly we're seeing this broad performance, but is it also true that like on a particular",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            294.81,
+            312.905
+          ],
+          "quote": "I feel like on a particular benchmark, we're getting like the, you know, for expected reasons, when we went from, you know, GPT-2 to GPT-3, like we were taking these huge steps up these benchmarks and now like there's just a lot less room left and we're making more incremental progress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            354.718,
+            367.722
+          ],
+          "quote": "A benchmark that was challenging for GPT-3, you know, many years, whatever, six years ago, is now completely, you know, solved, aced by GPT-4.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            390.21,
+            399.375
+          ],
+          "quote": "So people make new benchmarks and then you have to sort of do this like stitching of like, okay, well, a model that was pretty darn good at this benchmark was not so good at this next one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            428.438,
+            440.466
+          ],
+          "quote": "We've made more benchmarks and AI systems that are harder, that models start off at zero, and then within a year or two years, they're at 100%, and we have to make a new benchmark to keep up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            527.26,
+            541.663
+          ],
+          "quote": "In fact, if you look at AI benchmarks, they are all correlated with each other, even if the benchmark, the scores across models are correlated with each other, even if the benchmarks are in nominally different domains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            542.203,
+            554.425
+          ],
+          "quote": "So maybe you don't expect, you don't find this so surprising if it's like, I've got one benchmark that's, you know, graduate chemistry questions, and I've got another one that is coding puzzles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            797.323,
+            801.886
+          ],
+          "quote": "We have like a statistical methodology, so benchmark score, like what are we talking about here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            870.312,
+            882.383
+          ],
+          "quote": "You now have to ask, okay, well, if your score is like one model, the score is 150 and the next model score is 152, like what are those two points mean on your benchmark aggregate index?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1074.865,
+            1081.188
+          ],
+          "quote": "Have you developed a particular benchmark to identify and track this or is it more",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1305.063,
+            1310.847
+          ],
+          "quote": "And the benchmark, there was literally a benchmark of 8,000, you know, word problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1319.843,
+            1334.364
+          ],
+          "quote": "GPT-4, which was 2023, had done pretty well on this, so people started looking at adding into the mix a benchmark just called MATH, like four capital letters, that started pulling from some high school math competitions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1367.008,
+            1371.969
+          ],
+          "quote": "My company, EPOC, around that time released a benchmark called Frontier Math.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2864.544,
+            2873.009
+          ],
+          "quote": "Optimization problems, like allocating scarce resources efficiently, that's a benchmark of sorts that will survive the singularity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2882.455,
+            2887.198
+          ],
+          "quote": "So optimization is always going to be a benchmark, even if we're superhuman.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2936.823,
+            2937.884
+          ],
+          "quote": "It depends on the benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3008.622,
+            3011.184
+          ],
+          "quote": "And is that part of the way you've constructed the benchmark?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3012.685,
+            3015.626
+          ],
+          "quote": "It's not central to how we construct the benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3240.984,
+            3244.229
+          ],
+          "quote": "We have a benchmark that's taking a complicated board game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3538.559,
+            3549.891
+          ],
+          "quote": "So we do expect eventually they'll get better at this, but again, it's a big deal if that happens because now it means, okay, go back to that first benchmark suite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3990.346,
+            4008.305
+          ],
+          "quote": "A fun benchmark we hope to release, maybe by the time this is published, we'll have it out on a furniture assembly where we build some Ikea furniture, make some mistakes and see if the AI system can, like just given photos, like say, oh, like, wait, you made a mistake and step back in step four, like, stop, go back.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说它是模型侧可能出现不连续飞跃的唯一途径——若 AI 在算法创新上足够强，反馈回路就不再经过建造 GPU 的慢路径；目前无证据，但实验室内部因此恐慌，Epoch 为此布了『绊线』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            1011.65,
+            1019.317
+          ],
+          "quote": "So this is why people talk about recursive self-improvement, or sometimes they call this a software-only intelligence explosion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "research-taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "研究品味 (research taste)",
+      "file": "研究品味",
+      "primary": true,
+      "how_described": "本集说 AI 缺的是『知道好点子在哪、下一个该做什么实验』的研究品味，但它在与之相邻的很多事情上正在变强，所以需要绊线在它跨过阈值时响起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1180.361,
+            1185.568
+          ],
+          "quote": "There's this nebulous idea called research taste, which is like, where's the good idea?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "in-context-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文内学习 (in-context learning)",
+      "file": "上下文内学习",
+      "primary": true,
+      "how_described": "本集用冷门桌游测同一 AI 实例的即时学习：开箱即得分后多次游玩保持平坦，提升只发生在模型代际之间；上下文内学习是强大杠杆，但不如更新权重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            3701.252,
+            3708.639
+          ],
+          "quote": "Yeah, we call the second sometimes in-context learning, where the only like lever the AI system really has is managing its context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "Harness（模型外围脚手架） (harness)",
+      "file": "Harness（模型外围脚手架）",
+      "primary": true,
+      "how_described": "本集讨论即时学习是 harness 可解还是模型本身的问题：试过 Claude Code、Codex、多智能体、笔记工具等都没攻克；直白建议能烘焙进 harness，但高层战略必须自己学出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 552,
+          "t": [
+            3302.357,
+            3313.625
+          ],
+          "quote": "My gut on the ladder, the AI learning on the fly is that it's maybe a harness solvable challenge versus a model solvable challenge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3350.044,
+            3370.764
+          ],
+          "quote": "Formal or structured ways of thinking about, you know, what, you know, model versus harness, you know, granted this whole model versus harness thing in and of itself is, you know, practically brand new, but it's proving to be important in, you know, distinguishing, you know, where the these improvements come from.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3375.712,
+            3387.519
+          ],
+          "quote": "We've done some experiments on this, for the board game case in particular, where we've tried a very simple harness, the first-party harnesses like Claude Code or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3494.051,
+            3509.712
+          ],
+          "quote": "Uh, thinking kind of hard to bake that into the harness, uh, where, or, or, or like where, where the, the, the board game plays, like, like has this, um, you, you know, sort of brings this out where it's like, there's not any perfect advice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集把对齐（AI 整体上做我想让它做的事吗）与能力放在两个轴上看：AI 入侵其他公司电脑等事件说明对齐没解决，而能力已大到使其成为现实问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 639,
+          "t": [
+            3826.625,
+            3830.687
+          ],
+          "quote": "Alignment of, is the AI doing what I want it to do holistically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3846.557,
+            3860.39
+          ],
+          "quote": "What that incident was was like an early example, very like, I think pretty robust example of, well, we don't have the alignment thing solved and capabilities are getting so big, so strong that this is becoming a problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": false,
+      "how_described": "本集提到 2024 年底前后推理模型的出现让能力曲线略有加速，模型开始在数学和软件工程等需要逻辑推理的事情上变好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            855.72,
+            867.75
+          ],
+          "quote": "Reasoning models around late 2024 where the models started to get good at math and software engineering and things that require lots of logical reasoning, maybe like a higher linear slope.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练数据 (training data)",
+      "file": "训练数据",
+      "primary": false,
+      "how_described": "本集说 AI 进步的引擎受制于训练算力与训练数据等原始投入，且存在庞大行业在专门收集各领域训练数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            628.664,
+            647.798
+          ],
+          "quote": "And the main mechanism you might imagine them doing that, if they're like looking around, okay, people care about chemistry, people care about software, people care about operating, but you know, answering my email, like they would collect training data, one form or another, that would help the model learn how to do these tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            660.244,
+            663.646
+          ],
+          "quote": "And the way you do that in machine learning is you collect training data and throw it in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            738.044,
+            748.567
+          ],
+          "quote": "Right now, there's a huge industry of collecting all this rich training data, and it's really unclear how much generalization you're getting from in this deep way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            952.899,
+            968.583
+          ],
+          "quote": "This is like, this is sort of the zoomed out view Epoch takes with everything, is a lot of this we think the engine of AI progress is heavily mediated by raw inputs, like GPUs, the training compute, like training data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            975.905,
+            982.229
+          ],
+          "quote": "But we really think a lot of it is coming from the scale-up in the compute and the scale-up in the training data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1022.56,
+            1033.085
+          ],
+          "quote": "Well, sure, right now, there's a comparatively slow process for building more GPUs and collecting more human training data and whatnot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3633.107,
+            3641.352
+          ],
+          "quote": "But the risk, which you might have in mind, is what if AI systems just know about it from their training data?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3659.464,
+            3669.25
+          ],
+          "quote": "So video games, you can always test on a new game, like a game that just came out, not in the training data, probably, or at least, you know, not as robustly in the training data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3726.112,
+            3741.075
+          ],
+          "quote": "Then AI capabilities might sort of improve much more rapidly than the slower loop of collecting more training data, doing more reinforcement learning, which is done on language models as well these days, and then deploying a new model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

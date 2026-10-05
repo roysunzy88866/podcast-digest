@@ -178,7 +178,7 @@ Martin 还指出了更远的地平线:这可能开启一个完整的[[概率编�
 
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe、Claude Code、Codex</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex、OpenAI · 同概念:编码智能体 (coding agent)</span>
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同公司:OpenAI · 同概念:编码智能体 (coding agent)</span>
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra]]<span class="pd-rz">同公司:Jev、ChatGPT、Codex、OpenAI</span>
 
 </div>
 <div class="pd-ex">

@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":21,"推理":73,"光子学":1,"记忆":22,"摩尔定律":1,"大语言模型":9,"扩展假设":1,"训练":4}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":21,"推理":74,"光子学":1,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":4}</script>
 
 <script>
 (function(){

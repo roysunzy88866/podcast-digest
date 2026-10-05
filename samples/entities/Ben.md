@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Will]] · [[Walleye]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Windsurf]] · [[LLM]] · [[量化投资]]
+[[Will]] · [[Walleye]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Grok]] · [[Windsurf]] · [[LLM]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":400,"ChatGPT":92,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":53,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":403,"ChatGPT":94,"情感分析":1,"营运杠杆":1,"Grok":7,"Windsurf":5,"LLM":55}</script>
 
 <script>
 (function(){

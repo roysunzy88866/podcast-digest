@@ -1,0 +1,142 @@
+{
+  "title_zh": "5000 美元悬赏做网页标注：三个 vibe coding 作品的现场评审",
+  "tldr": "创业者 Jason(曾把 Weblogs, Inc. 卖给 AOL)为「给网页做标注」的老点子悬赏 5000 美元，与制作人 Lon 现场评审三件参赛作品，并回答一位无家可归观众的创业提问。",
+  "digest_md": "这一集是《This Week in Startups》的赏金评审专场。主角 Jason 是连播客主——他 20 年前把第二家公司 Weblogs, Inc.(旗下有 Engadget、Autoblog 等博客)卖给了 AOL,随后花三四万美元买下 annotated.com 这个域名，想做一个「给网页做标注」的十亿美元点子：高亮任何一段文字，然后对它提出异议或补充内容。20 年过去他忘了这事，直到 vibe coding(用 AI 工具直接对话式写代码)出现。他的判断是：这个 20 年前要 50 万美元、5 年前要 25 万、2 年前要 5 万美元才能做出来的东西，现在发一笔 5000 美元赏金，一两周就能有人交付。于是他真的发了悬赏，本集就是第一轮的三个入围作品现场过审，搭档是制作人 Lon。\n\n## 作品一:annotated.wtf——最接近成品\n\n第一件来自 Robert。它做对了核心体验：在 CNN 文章上高亮内容、留评论后，自动在站内生成一个标注页，评论置顶、原文截图在下，还能一键分享回 X。Jason 现场打分 8.5/10,评价「感觉已经很接近生产可用」[12:45 Jason]。Lon 补充说这件作品从提交进来的几周里一直是他心中的第一名：「它看起来不像 vibe coding 做出来的，它看起来像一个真正的专业网站。」[24:57 Lon]\n\n设计上有个值得注意的反直觉选择：把评论放在截图上面，而不是截图在上、评论在下。Jason 承认自己从没想过这种排法，还讨论了是否值得 A/B 测试。\n\n## 作品二：社交网络的底子\n\n第二件来自 Alan Shifflett。它最大的亮点不是标注本身，而是产品理解：右侧有标注者的社交资料、粉丝数、值得关注的人、热门话题，左下角写着「点子在分享时会成倍增长」，还规划了随时间学习你兴趣的 for you 算法信息流。Jason 的评价是「这一切都出自一个懂行的人之手，懂得这应该是一个供人们给内容做注释的社交网络」[16:49 Jason]。最被两人一致点赞的功能是标注打标签：你可以标明自己留的是犀利观点、事实核查、为对方立场做最强辩护(steel manning)、找到了实锤、还是解释说明。Jason 和 Lon 都说非常喜欢。短板是标注页只给标题加评论，信息层级混乱；还有若干 V1 级别的粗糙细节。打分 8 分。\n\n## 作品三：干净但偏糙\n\n第三件来自 Chirag Azarpoda——他甚至买下了少一个 N 的错拼域名来接住打错字的流量。登录提示、X 式的信息流布局、热门来源侧栏都在，Jason 说「到目前为止我有点最喜欢这个」[19:16 Jason],但整体打磨度不够：视频标注要手动精确填时间码、发布后还要用户自己多点一次才能看到结果。打分 6 分。\n\n## 演示的通病：例子很重要\n\n三件作品暴露了一个值得所有创始人记住的问题：演示用的例子都很糟糕——有人只高亮了文章标题而不是一段真正值得评论的段落，观众根本看不懂产品在干嘛。Jason 反复强调：「例子很重要。例子很重要。例子很重要。」[22:01 Jason] 好的演示应该选一个能让观众立刻感到「哦，这里真有话要说」的内容，比如大家实际会拿这类工具去逐句挑刺 Dwarkesh 那篇关于智能体文明的文章。\n\n## 赏金之后：孵化成公司？\n\n当前排名是作品一 80%、作品二 20%(比例可能在 70/30 到 60/40 之间浮动)，两周后开第二轮，之后 Jason 可能不再公开评审、直接挑选。他的下一步计划更大胆：把获胜作品放进自己的风险投资公司内部孵化，做成一家真正的初创公司——他举例说 Saks 就这样在基金内部孵化了 SACS 的 AI 版本，甚至 Snowflake 当年也是一家在风投内部孵化的公司。商业模式上有四条路：公共服务、让它自然生长成 Reddit/Twitter 式的社交网络(哪怕每年亏 25 万美元服务器费)、给特定报道悬赏指定人的标注与事实核查，以及最终的数据生意——让律师等专业人群公开标注法律文书，把这层 LLM 缺失的「专业判断层」卖给大模型公司。\n\n## Ask Jason:无家可归的创业者\n\n本集后半段回答了一条特殊提问：一位自称无家可归的观众 Johnny Detail,说自己有两个「共约 700 页、完全数字化构建好」的创业点子，问融资会遇到什么挑战。Jason 的回答极其认真，不给鸡汤：第一步是掌握一项别人愿意付钱的技能，先用 AI 工具找份工作、离开街头、租个小房间、稳定下来——「如果你不安全、没有食物和住所，我们就得按马斯洛需求层次理论来」[33:02 Jason]。至于融资问题本身，另一位主持人的判断很直接：不太可能——不是因为针对他个人，而是第一个创业公司拿到融资本来就是登月豪赌。但他们都被这个人的态度打动：无家可归、不伸手要施舍、不自怜，开口就是「我有两个创业点子」。Jason 还搬出皮格马利翁效应(出自萧伯纳戏剧的心理学概念，指外界对一个人的期望会影响他对自己的信念，即自我实现的预言)：「如果社会期望这个人成功，也许他真的会。」[36:47 Jason] 两人都表示在为这个人加油。\n\n顺便一提，节目里还有一段插曲：制作人 Lon 讲了自己一年多前还在流浪汉收容所排队时被人认出来占位的往事——他后来才重新站稳脚跟，这段自嘲也悄悄呼应了对那位提问者的共情。\n\n## 本集带走\n\n- **vibe coding 把 50 万美元的活干到了 5000 美元**：一个 Chrome 扩展 + 配套网站，20 年前 6 个月、5 年前 3 个月的工程量，现在个人开发者一两周就能交付到接近生产可用。\n- **做演示时，例子比功能重要**：高亮一段真正值得评论的段落，而不是标题；蹩脚的示例让观众看不懂产品。\n- **标注型产品的三个共识设计**：评论置顶、原文截图作背景、可打标签(事实核查/犀利观点/实锤等)——三件作品里得分高的都做对了前两条。\n- **内部孵化是风投的合法玩法**：基金可以出几百万美元孵化内部公司，创始人拿大头、LP 拿一小块、再雇团队分股份。\n- **LLM 的下一个数据金矿是「专业判断层」**：模型不缺文字，缺的是「这段话哪里写错了、该怎么改」的专家标注。\n- **对落魄创业者：先安全，再创业**——技能、工作、住处、积蓄到位后，创业的机会一直都在；而无收入的首个创业公司拿到融资本来就是小概率事件。",
+  "quotes": [
+    {
+      "en": "Now, this would normally have cost 20 years ago, $500,000 to build.",
+      "zh": "要是在 20 年前,这东西通常得花 50 万美元才能开发出来。",
+      "timestamp": "01:16",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "They have all of this writing in them, but they don't have that expertise layer of, here's what this is an example of, here's what kind of writing this is, here's how this writing could have been improved.",
+      "zh": "它们内部有所有这些文字,但它们没有那个专业层,比如:这是什么的一个例子、这是哪种类型的写作、这段写作可以如何改进。",
+      "timestamp": "27:54",
+      "speaker": "Lon Harris"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:01",
+      "speaker": "Jason",
+      "en": "Well, here we are, it's 20 years later, I forgot I had the domain name, forgot I had bought it, and then vibe coding happens.",
+      "zh": "结果 20 年过去了,我忘了自己有这个域名,忘了自己买过它,然后 vibe coding 出现了。"
+    },
+    {
+      "timestamp": "01:16",
+      "speaker": "Jason",
+      "en": "Now, this would normally have cost 20 years ago, $500,000 to build.",
+      "zh": "要是在 20 年前,这东西通常得花 50 万美元才能开发出来。"
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Jason",
+      "en": "But right now, just putting out a $5,000 bounty, I think you can get, this is my premise,",
+      "zh": "但现在,只是发出一笔 5000 美元的赏金,我认为你就能得到——这是我的前提。"
+    },
+    {
+      "timestamp": "11:11",
+      "speaker": "Jason",
+      "en": "This would have taken 20 years ago, six months to build.",
+      "zh": "这在 20 年前需要 6 个月才能构建出来。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Jason",
+      "en": "All of this is somebody who understands.",
+      "zh": "这一切都出自一个懂行的人之手。"
+    },
+    {
+      "timestamp": "16:53",
+      "speaker": "Jason",
+      "en": "That this is supposed to be a social network of sorts for people annotating stuff.",
+      "zh": "懂得这应该是一个供人们给内容做注释的社交网络。"
+    },
+    {
+      "timestamp": "12:49",
+      "speaker": "Jason",
+      "en": "It's very, I mean, it feels close to production ready.",
+      "zh": "它非常,我是说,感觉已经很接近生产可用了。"
+    },
+    {
+      "timestamp": "21:13",
+      "speaker": "Jason",
+      "en": "The problem here, Lon, is with these demos generally, is that the examples are bad.",
+      "zh": "这里的问题,Lon,是这类演示的通病,就是例子很糟糕。"
+    },
+    {
+      "timestamp": "21:59",
+      "speaker": "Jason",
+      "en": "Examples matter.",
+      "zh": "例子很重要。"
+    },
+    {
+      "timestamp": "22:04",
+      "speaker": "Jason",
+      "en": "Like that Dwarkesh article about agent civilizations.",
+      "zh": "比如 Dwarkesh 那篇关于智能体文明的文章。"
+    },
+    {
+      "timestamp": "25:32",
+      "speaker": "Jason",
+      "en": "I think that's going to be my next step is maybe we could actually build this as a startup, start using it.",
+      "zh": "我想这就是我的下一步,也许我们真的可以把它作为一家初创公司来打造,开始使用它。"
+    },
+    {
+      "timestamp": "25:56",
+      "speaker": "Jason",
+      "en": "In fact, I think Snowflake was an internally baked company inside of a venture firm, which is incredible.",
+      "zh": "事实上,我记得 Snowflake 就是一家在风险投资公司内部孵化的公司,这太不可思议了。"
+    },
+    {
+      "timestamp": "27:54",
+      "speaker": "Jason",
+      "en": "They have all of this writing in them, but they don't have that expertise layer of, here's what this is an example of, here's what kind of writing this is, here's how this writing could have been improved.",
+      "zh": "它们内部有所有这些文字,但它们没有那个专业层,比如:这是什么的一个例子、这是哪种类型的写作、这段写作可以如何改进。"
+    },
+    {
+      "timestamp": "24:57",
+      "speaker": "Lon",
+      "en": "It doesn't look vibe coded.",
+      "zh": "它看起来不像 vibe coding 做出来的。"
+    },
+    {
+      "timestamp": "24:58",
+      "speaker": "Lon",
+      "en": "It looks like a real professional website.",
+      "zh": "它看起来像一个真正的专业网站。"
+    },
+    {
+      "timestamp": "33:02",
+      "speaker": "Jason",
+      "en": "That would be step one before working on a startup, because if you're not safe and you don't have food and shelter, we've got to go with Maslow's hierarchy of needs here and get you shelter and get you food and get you a computer, et cetera.",
+      "zh": "那是做创业公司之前的第一步,因为如果你不安全、没有食物和住所,我们就得按马斯洛需求层次理论来,先让你有住处、有食物、有电脑等等。"
+    },
+    {
+      "timestamp": "35:41",
+      "speaker": "Lon",
+      "en": "Like that's a level of audacity that is super inspiring.",
+      "zh": "那是一种超级鼓舞人心的胆魄。"
+    },
+    {
+      "timestamp": "36:47",
+      "speaker": "Jason",
+      "en": "So if society expects this person to succeed, and maybe people in the industry expect them to succeed, hey, maybe they will.",
+      "zh": "所以如果社会期望这个人成功,也许行业内的人也期望他成功,嘿,也许他真的会。"
+    },
+    {
+      "timestamp": "37:29",
+      "speaker": "Jason",
+      "en": "They're not going to fund you if you're homeless.",
+      "zh": "如果你无家可归,他们是不会给你投资的。"
+    },
+    {
+      "timestamp": "38:16",
+      "speaker": "Lon",
+      "en": "He goes right in to like, and I've got two startup ideas.",
+      "zh": "他直接就进入正题,比如,我有两个初创公司的点子。"
+    }
+  ],
+  "voice_script": "今天这期有点特别，是一场现场评审，而且挂着一笔真金白银的悬赏。主角叫 Jason，是位连播客主，二十年前把第二家公司 Weblogs, Inc. 卖给了 AOL，旗下有 Engadget、Autoblog 这些博客。后来花三四万美元买下 annotated.com 这个域名，想做一个「给网页做标注」的点子：高亮任何一段文字，然后对它提出异议或者补充内容。听上去是不是不新鲜？没错，这个点子二十年前就有了，当时要五十万美元才能做出来，五年前要二十五万，两年前也要五万。Jason 自己都忘了这事，直到 vibe coding 出现——所谓 vibe coding，就是用 AI 工具直接对话式写代码。判断变了：现在发一笔五千美元的赏金，一两周就能有人交付。于是真发了悬赏，这期就是第一轮三个入围作品的现场过审，搭档是制作人 Lon。\n\n先看第一件，来自 Robert，域名是 annotated.wtf。这件做对了核心体验：在 CNN 的文章上高亮内容、留下评论之后，自动在站内生成一个标注页，评论置顶，原文截图放在下面，还能一键分享回 X。Jason 现场给了 8.5 分，评价是「感觉已经很接近生产可用」。Lon 补充说，这件作品从提交进来的几周里一直是他心中的第一名，原话是「它看起来不像 vibe coding 做出来的，它看起来像一个真正的专业网站」。设计上还有个值得注意的反直觉选择：评论放在截图上面，而不是截图在上、评论在下。Jason 承认自己从没想过这种排法，两人还讨论了要不要做个 A/B 测试。\n\n那第二件和第一件有什么不一样？来自 Alan Shifflett 的这件，最大的亮点不是标注本身，而是产品理解。右侧有标注者的社交资料、粉丝数、值得关注的人、热门话题，左下角写着一句「点子在分享时会成倍增长」，还规划了一个随时间学习你兴趣的 for you 算法信息流。Jason 的评价是「这一切都出自一个懂行的人之手，懂得这应该是一个供人们给内容做注释的社交网络」。最被两人一致点赞的功能是标注打标签：留评论时可以标明，这是犀利观点、是事实核查、是为对方立场做最强辩护、是找到了实锤、还是解释说明。短板也有：标注页只给标题加评论，信息层级混乱，还有些 V1 级别的粗糙细节。打分 8 分。\n\n第三件来自 Chirag Azarpoda，这个人甚至买下了少一个 N 的错拼域名，专门接住打错字的流量。登录提示、X 式的信息流布局、热门来源侧栏都在，Jason 说「到目前为止我有点最喜欢这个」。但整体打磨度不够：视频标注要手动精确填时间码，发布之后用户还得自己再点一次才能看到结果。这件打了 6 分。\n\n三件作品看下来，还暴露了一个所有创始人都该记住的通病：演示用的例子全都很糟糕。有人只高亮了文章标题，而不是一段真正值得评论的段落，观众根本看不懂产品在干嘛。Jason 反复强调：「例子很重要。例子很重要。例子很重要。」好的演示应该选一个能让观众立刻感到「哦，这里真有话要说」的内容——比如大家实际会拿这类工具去逐句挑刺 Dwarkesh 那篇关于智能体文明的文章。\n\n评审到这里，事情还没完，因为 Jason 的下一步计划更大胆：把获胜作品放进自己的风险投资公司内部孵化，做成一家真正的初创公司。这不是空想，Saks 就这样在基金内部孵化了 SACS 的 AI 版本，甚至 Snowflake 当年也是一家在风投内部孵化的公司。商业模式上有四条路：公共服务；让它自然生长成 Reddit、Twitter 式的社交网络，哪怕每年亏二十五万美元服务器费；给特定报道悬赏指定人的标注与事实核查；以及最终的数据生意——让律师这类专业人群公开标注法律文书，把这层大模型缺失的「专业判断层」卖给模型公司。说白了就是，模型内部有所有这些文字，但没有那个专业层，比如这段写作可以如何改进。\n\n本集后半段还有一条特殊提问，来自一位自称无家可归的观众，叫 Johnny Detail。说自己有两个「共约七百页、完全数字化构建好」的创业点子，问融资会遇到什么挑战。Jason 的回答极其认真，不给鸡汤：第一步是掌握一项别人愿意付钱的技能，先用 AI 工具找份工作，离开街头，租个小房间，稳定下来——「如果你不安全、没有食物和住所，我们就得按马斯洛需求层次理论来」。至于融资问题本身，另一位主持人的判断很直接：不太可能。不是因为针对这个人，而是第一个创业公司拿到融资本来就是登月豪赌。但两人都被这个态度打动了：无家可归，不伸手要施舍，不自怜，开口就是「我有两个创业点子」。Jason 还搬出皮格马利翁效应——这是出自萧伯纳戏剧的心理学概念，指外界对一个人的期望会影响他对自己的信念，也就是自我实现的预言。原话是：「如果社会期望这个人成功，也许他真的会。」顺便说一段插曲：制作人 Lon 讲了自己一年多前还在流浪汉收容所排队时被人认出来占位的往事，后来才重新站稳脚跟。这段自嘲，也悄悄呼应了对那位提问者的共情。\n\n这一集真正值得带走的东西，其实不是三个作品的分数，而是那个换了尺子的时代：一个 Chrome 扩展加配套网站，二十年前要五十万美元、六个月的工程量，现在五千美元、一两周，就能交付到接近生产可用。要是二十年前，这东西通常得花五十万美元才能开发出来——所以你看，想法没变，变的是把想法做出来的成本。"
+}

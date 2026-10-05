@@ -1,0 +1,1082 @@
+{
+  "episode_id": "2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch",
+  "podcast": "Eye On A.I.",
+  "date": "2026-09-30",
+  "tags": [
+    "意识科学",
+    "神经科学",
+    "整合信息理论",
+    "致幻剂",
+    "LLM 与意识"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dr-christof-koch",
+      "type": "person",
+      "role": "host",
+      "name": "Dr. Christof Koch",
+      "file": "Dr. Christof Koch",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "consciousness",
+      "type": "concept",
+      "role": "concept",
+      "name": "意识 (consciousness)",
+      "file": "意识",
+      "primary": true,
+      "how_described": "本集主线:Christoph 研究几十年的主题——为什么三磅脑物质能爱能恨;他从物理主义者转向相信「一切都是意识」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.44,
+            40.691
+          ],
+          "quote": "In a vegetative state and it's been declared in a vegetative state and you use this device and detect that there is complex neural activity that suggests consciousness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            66.17,
+            71.013
+          ],
+          "quote": "But people never complain that if lesion in the cerebellum, never complain about loss of consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            71.033,
+            75.016
+          ],
+          "quote": "It doesn't seem to relate to consciousness because it's not very well integrated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            77.297,
+            79.018
+          ],
+          "quote": "Everything ultimately is consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            109.452,
+            126.401
+          ],
+          "quote": "The Nobel Prize winning molecular biologist who discovered, you know, co-discovered the double helical nature of the DNA and then shifted as he went from England to La Jolla in Southern California, shifted his interest from molecular biology to consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            317.881,
+            333.949
+          ],
+          "quote": "What we mean, so if you have a system, a single quantum mechanical system, and this relates to consciousness already, a single quantum mechanical system, you can separate them over vast distances, but they're still one system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            474.081,
+            479.845
+          ],
+          "quote": "And in fact, some physicists in foundational physics are now bringing in consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            480.845,
+            490.01
+          ],
+          "quote": "They are beginning to argue that consciousness, in a sense, has to be built into the rock bottom, the rock bottom description of our reality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            507.563,
+            511.707
+          ],
+          "quote": "Yeah, maybe in future we'll have a physics and maybe that includes consciousness for all I know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            658.367,
+            662.329
+          ],
+          "quote": "Footprints of consciousness in the brain is another way to think about them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            723.443,
+            741.411
+          ],
+          "quote": "This is an empirical program tracking the footprints of consciousness that will be immensely practical importance to the term consciousness, to measure it, to maybe quantify it in normal people, in people with various diseases, disorders, psychiatric disorders, animals, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            764.404,
+            773.912
+          ],
+          "quote": "So most people who think about consciousness and make theories of consciousness, they take the brain and try to squeeze the juice of consciousness out of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            774.998,
+            780.54
+          ],
+          "quote": "You know, they're trying to turn the waters of the brain into the wine of consciousness to adopt a biblical metaphor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            817.299,
+            819.1
+          ],
+          "quote": "It's a consciousness first account.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            832.646,
+            836.287
+          ],
+          "quote": "And consciousness, furthermore, is the only way I encounter the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            837.047,
+            843.409
+          ],
+          "quote": "If I'm a scientist, I still depend on, I have to read papers or books, that's visual consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            847.95,
+            851.611
+          ],
+          "quote": "I have to listen to a Geiger counter, that's auditory consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            865.825,
+            870.612
+          ],
+          "quote": "And so any theory has to start with any theory of consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            872.269,
+            877.433
+          ],
+          "quote": "Which is different from a theory of the neural correlates, the physical substrate of consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            877.873,
+            887.22
+          ],
+          "quote": "Any theory of consciousness has to start with consciousness and then sort of go from there to say, well, which system is conscious and what are they conscious of?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            909.186,
+            928.105
+          ],
+          "quote": "Let me ask, first of all, I'm fascinated by, you have a startup, right, that's working on an instrument or instruments that would be able to detect consciousness in people who are otherwise considered brain dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            936.009,
+            939.971
+          ],
+          "quote": "As I said, it's just independent of what you believe about the metaphysics of consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1121.203,
+            1135.996
+          ],
+          "quote": "So I like it a lot because, well, A, we help people and B, demonstrate that this very airy, ephemeral topic of consciousness, you know, it's been around with us for the last 3,000 years, seems very airy-fairy, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1165.491,
+            1185.301
+          ],
+          "quote": "If you have someone in a vegetative state who's been declared in a vegetative state, and you use this device and detect that there is complex neural activity that suggests consciousness, if you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1330.424,
+            1340.149
+          ],
+          "quote": "as we try to push this empirical program in people and in lab animals to study the footprints of consciousness in the brain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1351.176,
+            1357.92
+          ],
+          "quote": "We just want to know the footprints of consciousness, how to study them, how to measure them, detect them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1577.747,
+            1584.028
+          ],
+          "quote": "And what you realize then, that self-consciousness is just a subset of all possible experiences.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1584.348,
+            1599.051
+          ],
+          "quote": "The fact that I know I'm me, I know what I had for breakfast, I know I'm going to die one day, all of that is consciousness, but you can also, if you don't have that, like in that state, whatever remains is clearly highly conscious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1706.485,
+            1708.205
+          ],
+          "quote": "Everything ultimately is consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2142.408,
+            2151.49
+          ],
+          "quote": "Somehow your own, so usually we have this boundary between my consciousness and your consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2241.711,
+            2253.448
+          ],
+          "quote": "What I'm hearing is that in your correlate work, your work on the correlates of consciousness, what neurons in the brain fire to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2288.179,
+            2300.482
+          ],
+          "quote": "But I guess my one question off that, do we know yet, or at least broad brush, which parts of the brain consciousness depends on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2414.721,
+            2426.229
+          ],
+          "quote": "The question, do they give rise to consciousness or, you know, what is the nature of the substrate or do you need a substrate at all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2445.61,
+            2459.519
+          ],
+          "quote": "channel in which there would be some quantum effect, and then you could offload consciousness to the quantum realm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2472.287,
+            2474.789
+          ],
+          "quote": "What do we know about quantum mechanics and consciousness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2809.78,
+            2820.649
+          ],
+          "quote": "are cooperating, but operating independently, but they're integrated, and that that's necessary for consciousness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2883.676,
+            2888.759
+          ],
+          "quote": "But people never complain that a lesion in the cerebellum never complain about loss of consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2890.96,
+            2895.402
+          ],
+          "quote": "It doesn't seem to relate to consciousness because it's not very well integrated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2963.368,
+            2973.074
+          ],
+          "quote": "How do you reconcile that with the idea that consciousness is a fundamental",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2982.382,
+            2986.845
+          ],
+          "quote": "I don't access this universal consciousness, mine at large, as Huxley said, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3012.591,
+            3018.935
+          ],
+          "quote": "So there are lots of reasons why my consciousness is isolated from this universal consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3022.777,
+            3027.18
+          ],
+          "quote": "You take an ocean, think of it like mine at large or universal consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3038.747,
+            3047.555
+          ],
+          "quote": "But ultimately, this eddy will merge, will become, you know, will, of course, disintegrate, will lose its identity, its egoic consciousness will be gone forevermore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3298.135,
+            3302.618
+          ],
+          "quote": "He was saying at that time, now he's using the term consciousness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3354.418,
+            3370.022
+          ],
+          "quote": "So functional theory, the majority of scientific theories of consciousness are functional, says, well, the brain consciousness has a certain number of functions, whatever they are, and once you reproduce these functions, even in a universal Turing machine, then all the properties will come with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3370.662,
+            3371.662
+          ],
+          "quote": "Including consciousness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3555.624,
+            3557.265
+          ],
+          "quote": "Well, so it is with consciousness.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ncc",
+      "type": "concept",
+      "role": "concept",
+      "name": "NCC",
+      "file": "NCC",
+      "primary": true,
+      "how_described": "本集说这是他与 Crick 在 1990 年代初启动的「意识的足迹」实证项目:找出产生体验的具体神经元状态,可判定病人、胎儿、动物是否有意识",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            691.74,
+            695.181
+          ],
+          "quote": "Well, if I have the NCC, I can just look, are they present in this patient?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            707.865,
+            710.507
+          ],
+          "quote": "Well, if I have the NCC, I can say, well, are they there?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physicalism",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理主义 (physicalism)",
+      "file": "物理主义",
+      "primary": true,
+      "how_described": "本集说它旧称唯物主义,断言一切都是物理的;量子力学和「难问题」让它难以站稳,Christoph 自认曾是物理主义者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            187.623,
+            195.045
+          ],
+          "quote": "And today this is called physicalism that essentially asserts everything is physical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            512.667,
+            516.11
+          ],
+          "quote": "So it's difficult to pin down physicalism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            516.15,
+            522.095
+          ],
+          "quote": "The other challenge with physicalism has always been what the philosopher David Chalmers calls the heart problem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "heart-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "难问题 (heart problem)",
+      "file": "难问题",
+      "primary": false,
+      "how_described": "本集说是 David Chalmers 提出的物理主义第二大挑战:科学定律中没有任何东西告诉我们物质能够爱和恨(原稿作 heart problem,通常拼写为 hard problem)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            516.15,
+            522.095
+          ],
+          "quote": "The other challenge with physicalism has always been what the philosopher David Chalmers calls the heart problem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "integrated-information-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "整合信息理论 (integrated information theory)",
+      "file": "整合信息理论",
+      "primary": true,
+      "how_described": "本集说这是 Tononi 提出的「意识优先」理论:从「我有意识」这一确定点出发推断哪些系统有意识;按 IIT,LLM 连接度低、没有体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            808.634,
+            814.837
+          ],
+          "quote": "So there's one theory that's unique, really, that's called integrated information theory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            887.38,
+            898.288
+          ],
+          "quote": "And this theory, integrated information theory, the main architect of that theory is an Italian-born American psychiatrist and neuroscientist, Giulio Tononi at the University of...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1383.901,
+            1402.39
+          ],
+          "quote": "Well, first of all, I don't, I've never abandoned the hope that we can get a theory that explains, I mean, a theory like integrated information theory and, you know, panpsychism, certainly the way I think about it is in the sense that it may well be possible",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1415.468,
+            1426.6
+          ],
+          "quote": "And integrated information theory in principle, because the vast complexity of the 10,000s of different proteins present even in a single cell is such no computers ever managed to simulate that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2793.754,
+            2800.14
+          ],
+          "quote": "Let me ask again, going back to integrated information theory, that's...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "idealism",
+      "type": "concept",
+      "role": "concept",
+      "name": "唯心论 (idealism)",
+      "file": "唯心论",
+      "primary": true,
+      "how_described": "本集说主张最终存在的是精神性的东西、物质宇宙是心灵之物的显现;Christoph 的神秘体验让他接受这一立场,并强调它不 imply 超自然",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1714.847,
+            1716.609
+          ],
+          "quote": "So this is known as idealism, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "panpsychism",
+      "type": "concept",
+      "role": "concept",
+      "name": "泛心论 (panpsychism)",
+      "file": "泛心论",
+      "primary": false,
+      "how_described": "本集说这是认为每个进化出的生物体(甚至单细胞)都可能有某种感觉的立场,并提到 Geoff 等泛心论者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1363.085,
+            1376.522
+          ],
+          "quote": "At what point did you decide that you were never going to close that gap between correlation and causality and switch to a form of panpsychism?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1383.901,
+            1402.39
+          ],
+          "quote": "Well, first of all, I don't, I've never abandoned the hope that we can get a theory that explains, I mean, a theory like integrated information theory and, you know, panpsychism, certainly the way I think about it is in the sense that it may well be possible",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mystical-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "神秘体验 (mystical experience)",
+      "file": "神秘体验",
+      "primary": true,
+      "how_described": "本集说 Christoph 三年前的神秘体验让他直接体会到「一切都是意识」,是他的形而上学转折点;其强度与致幻剂疗效直接相关",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1614.21,
+            1631.324
+          ],
+          "quote": "That happened several years later, three years ago, when I had a mystical experience, where again, you lose a sense of self, you lose where you are and what you are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1655.218,
+            1663.286
+          ],
+          "quote": "When they have this mystical experience where they become one, the two, the lovers become one, but they also become one with the universe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1995.765,
+            2011.016
+          ],
+          "quote": "And we know through these questionnaires, MEQ30, the mystical experience questionnaire, that the extent to which people have a mystical experience in these trials directly correlates to the extent that they derive therapeutic benefit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2011.456,
+            2022.584
+          ],
+          "quote": "So in other words, it's quite likely when that patient who's depressed has a mystical experience, in this case, induced by psychedelic, no matter the underlying metaphysics, will help them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2076.254,
+            2081.195
+          ],
+          "quote": "So near-death experiences are very similar in character to this mystical experience.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "psychedelics",
+      "type": "concept",
+      "role": "concept",
+      "name": "致幻剂 (psychedelics)",
+      "file": "致幻剂",
+      "primary": true,
+      "how_described": "本集说约翰霍金斯研究里高剂量致幻剂让四期癌症病人心理彻底转变、不再恐惧死亡;数百项临床试验用它治疗难治性抑郁症、PTSD",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            3.052
+          ],
+          "quote": "I experimented with psychedelics when I was young.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            20.557,
+            22.738
+          ],
+          "quote": "In the case of psychedelics, it's your brain on drugs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1566.353,
+            1577.066
+          ],
+          "quote": "But then just like an astronaut on a special condition can become weightless and floating out of space, so on certain conditions, including psychedelics, of course, you can totally lose that self.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1807.599,
+            1819.064
+          ],
+          "quote": "Not to get into why I'm interested in this, but, you know, I experimented with psychedelics when I was young.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1888.662,
+            1898.047
+          ],
+          "quote": "And could it be that psychedelics in that self organizes perception in a way that you can",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1928.047,
+            1937.613
+          ],
+          "quote": "So a physicalist would say, okay, great, great that you had this experience, congratulations, but it's ultimately it's just your brain in the case of psychedelics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1957.367,
+            1967.994
+          ],
+          "quote": "You know, we know this going back from psychedelics, going back to the research at John Hopkins, where people that have stage four cancer that, you know, where medicine has given up, we can't really do anything anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1970.075,
+            1974.478
+          ],
+          "quote": "They get a high dose psychedelics and then they totally transform themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1981.944,
+            1988.892
+          ],
+          "quote": "And we know, for instance, you know, there are hundreds of clinical trials both here and abroad doing psychedelics for",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2700.286,
+            2725.36
+          ],
+          "quote": "One thing that fascinated me in one of your talks, you talked about that under psychedelics, is it the complexity or the electrical impulses slow down in the brain where you would expect it to do the opposite?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3068.158,
+            3077.521
+          ],
+          "quote": "Due to psychedelics, because we know psychedelics depress a lot of activity, you might be able to access this sort of more universal, but usually you do not.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cortex",
+      "type": "concept",
+      "role": "concept",
+      "name": "皮层 (cortex)",
+      "file": "皮层",
+      "primary": true,
+      "how_described": "本集说意识基底是大脑最外层的皮层(约 160 亿神经元、密集互连、反馈丰富),尤其是后部;80% 神经元所在的小脑因整合度低与意识无关",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2328.213,
+            2348.275
+          ],
+          "quote": "You know, given what that we can see, these complex scenes that I see right now, given that I can hear and, you know, be conscious of so many different things, that is a property of the outermost layer of the brain, the cortex, you know, which is really, it's a sheet like this, you know, like a cloth, like two to three millimeters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2375.603,
+            2396.89
+          ],
+          "quote": "But that's under both, again, that's independent of whether you're a physicalist or an idealist, because we can, I think it's clear, the evidence shows that if you don't have these parts of the brain, you're going to be in severe trouble, or we can predict, I mean, Oliver Sacks wrote about this 30 years ago, depending on which part of cortex are gone, you will have specific deficits, like you are unable to see your face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2834.947,
+            2838.61
+          ],
+          "quote": "This cortex has roughly 16 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2895.803,
+            2899.745
+          ],
+          "quote": "And this is really what cortex does because of its very dense connectivity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2907.256,
+            2923.087
+          ],
+          "quote": "That's why I think cortex is the substrate that in us gives rise to this very high degree of, particularly in adults, in normal, typical adults give rise to people like you and I who are very conscious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3402.081,
+            3406.324
+          ],
+          "quote": "They don't have this heavily interconnected character that Cortex has.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quantum-mechanics",
+      "type": "concept",
+      "role": "concept",
+      "name": "量子力学 (quantum mechanics)",
+      "file": "量子力学",
+      "primary": true,
+      "how_described": "本集说波函数、叠加态和纠缠让「物理的」不再好定义;而大脑温暖潮湿,任何量子叠加一纳秒内消散,室温量子效应至今无可信实验证据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            251.12,
+            260.945
+          ],
+          "quote": "Now, of course, we know the world is not described by classical physics because one of the two revolutionary theories of the 20th century is quantum mechanics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            437.206,
+            442.612
+          ],
+          "quote": "But quantum mechanics would say until and unless something interacts with that bicycle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            535.217,
+            542.624
+          ],
+          "quote": "But in principle, it's constituted out of atoms and molecules and electrons and all of that interacting by the laws of quantum mechanics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2472.287,
+            2474.789
+          ],
+          "quote": "What do we know about quantum mechanics and consciousness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2491,
+            2499.383
+          ],
+          "quote": "So clearly the creatures like me and you and dogs and trees are subject to the same laws of quantum mechanics just like anything else, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2552.823,
+            2562.17
+          ],
+          "quote": "The vast majority of people, of biologists and physicists argue, okay, biology, quantum mechanics simply isn't relevant for biology in general.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "split-brain",
+      "type": "concept",
+      "role": "concept",
+      "name": "裂脑实验 (split brain)",
+      "file": "裂脑实验",
+      "primary": false,
+      "how_described": "本集说加州理工的 Roger Sperry 切开胼胝体两亿根纤维,产生两个互不透明的意识,「如同在月球的暗面」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 498,
+          "t": [
+            2928.108,
+            2944.019
+          ],
+          "quote": "You know, when I was younger and paying more attention to this than I have been in the last 30 years because I had a different career, the split brain, I did a lot of reading about the split brain experiments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3078.021,
+            3084.724
+          ],
+          "quote": "And so now we come to split brain, what I grind to, so these were done at Caltech, right, by Roger Sperry, you got the Nobel Prize for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3136.382,
+            3146.667
+          ],
+          "quote": "So the split brain wouldn't really make that more challenging than just to explain in general, how is it if mine is truly universal, why don't I access it all the time?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集用它收尾:LLM 已通过图灵测试、做惊人的下一词预测,但按 IIT 它本质像前馈网络、只是模拟,没有因果力,不会有感受",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2853.109,
+            2859.611
+          ],
+          "quote": "So, you know, like in a deep, in an LLM where one stage excites the next stage, excites the next stage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3410.107,
+            3418.094
+          ],
+          "quote": "You can have a model of a brain and an LLM or something like an LLM or a von Neumann machine simulating an LLM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intrinsic-powers",
+      "type": "company",
+      "role": "company",
+      "name": "Intrinsic Powers",
+      "file": "Intrinsic Powers",
+      "primary": true,
+      "how_described": "本集说这是 Christoph 参与创办的公司,把磁脉冲+脑电图测脑波复杂度的技术做成临床仪器,判断无反应病人是否「在那里」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1019.806,
+            1033.575
+          ],
+          "quote": "And started this company that you mentioned called Intrinsic Powers, where we're working with people at MGH, at Harvard and in Madison and in Columbia, trying to put this into the workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "allen-institute",
+      "type": "company",
+      "role": "company",
+      "name": "Allen Institute",
+      "file": "Allen Institute",
+      "primary": false,
+      "how_described": "本集说这是 Paul Allen(微软联合创始人)在西雅图创办的脑科学研究所,Christoph 曾任首席科学家和总裁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            130.003,
+            134.407
+          ],
+          "quote": "15 years ago to join the Paul Allen Institute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            144.776,
+            146.838
+          ],
+          "quote": "I'm still employed at the Allen Institute.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

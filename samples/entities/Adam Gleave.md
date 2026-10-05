@@ -41,7 +41,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]]
+[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Barrett Lyon]]
 
 </div>
 

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>465</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>474</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,7 +41,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*465 条*
+*474 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -631,6 +631,10 @@ unlisted: true
 
 ![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
 
+![[2026-09-03-changelog-forking-cal-com-to-closed-source#^q2]]
+
+![[2026-09-03-changelog-forking-cal-com-to-closed-source#^q8]]
+
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q2]]
 
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q4]]
@@ -654,6 +658,8 @@ unlisted: true
 ![[2026-09-03-talks-refactoring-legacy-codebases#^q3]]
 
 ![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q4]]
+
+![[2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds#^q5]]
 
 ![[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg#^q4]]
 
@@ -742,6 +748,8 @@ unlisted: true
 ![[2026-09-10-talks-training-taste-thais-castello-branco-tas#^q5]]
 
 ![[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y#^q1]]
+
+![[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h#^q12]]
 
 ![[2026-09-11-dwarkesh-john-beren-charlie#^q2]]
 
@@ -915,6 +923,14 @@ unlisted: true
 
 ![[2026-09-29-sourcery-the-3b-company-trying-to-beat-amazon-pri#^q5]]
 
+![[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how#^q1]]
+
+![[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how#^q2]]
+
+![[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how#^q3]]
+
+![[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how#^q4]]
+
 ![[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi#^q1]]
 
 ![[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi#^q1]]
@@ -924,6 +940,8 @@ unlisted: true
 ![[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi#^q3]]
 
 ![[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi#^q4]]
+
+![[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac#^q5]]
 
 ![[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem#^q1]]
 
@@ -1011,7 +1029,7 @@ unlisted: true
 
 [[Claude]] · [[智能体]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[OpenAI]] · [[品味]] · [[a16z]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Claude":85,"智能体":400,"Lenny":68,"Google":55,"Stripe":44,"ChatGPT":92,"OpenAI":157,"品味":15,"a16z":18,"Amazon":27}</script>
+<script type="application/json" class="pd-epn">{"Claude":86,"智能体":403,"Lenny":68,"Google":55,"Stripe":45,"ChatGPT":94,"OpenAI":159,"品味":15,"a16z":18,"Amazon":27}</script>
 
 <script>
 (function(){

@@ -179,7 +179,7 @@ John 接下来几个月的全部精力放在 mega.dev——他和 Theo、Kent、
 
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:LLM、MCP</span>
+- [[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|重造互联网：DocsNet 与一场隐私保卫战]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
 
 </div>
 </div>

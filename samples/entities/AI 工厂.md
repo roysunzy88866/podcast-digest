@@ -27,7 +27,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[推理]] · [[Renen Hallak]] · [[Chase Lochmiller]] · [[Matt Turk]] · [[Harry Stebbings]] · [[VastData]] · [[Crusoe]] · [[XAI]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":53,"智能体":400,"推理":73,"Renen Hallak":1,"Chase Lochmiller":1,"Matt Turk":4,"Harry Stebbings":20,"VastData":1,"Crusoe":1,"XAI":7}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":53,"智能体":403,"推理":74,"Renen Hallak":1,"Chase Lochmiller":1,"Matt Turk":4,"Harry Stebbings":20,"VastData":1,"Crusoe":1,"XAI":7}</script>
 
 <script>
 (function(){

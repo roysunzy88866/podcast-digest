@@ -1,0 +1,142 @@
+{
+  "title_zh": "OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra",
+  "tldr": "How I AI 主播 Claire 在现场试玩后,点评 OpenAI Dev Day 重磅发布:智能体 Dot、协作平台 Spaces、Sites 加插件、GPT-6.1 Sol 与带视觉的 Decisions API。",
+  "digest_md": "这一集是 How I AI 的主持人 Claire 在 OpenAI Dev Day 现场待了一整天的第一手回顾——她拿到了好几个产品的提前测试资格,边试边给了初步评价。她一开场就说了大实话:「好消息是 OpenAI 发布了很多东西,坏消息也是 OpenAI 发布了很多东西」,主题演讲几乎每两三分钟就宣布一个新品。哪几个值得你真的花时间?她的判断在下面。\n\n## Dot:常驻智能体,骨架很好、边角很糙\n\n重头发布是 DOTS——一种始终在线、长期运行的智能体,可以跨 ChatGPT、跨 Codex 工作,跑在自己的云端电脑、你的本地电脑、手机上,甚至装进你的 Slack 里,还能直接「打电话给你的 Dot」(注意,不是语音模式,它真的会响铃、会接起)。目前每个用户只配发一个 dot:pro、business、enterprise 等套餐用户现在就能看到。Claire 的 dot 叫 Bay,是一个戴眼镜的粉色小团子,拥有自己的一台电脑。\n\n定位上,OpenAI 把它说成「你的副本或代表」——类似一个主线程,能主动找你、提醒你、独立干活,还能替你启动 Codex 线程。Claire 认为最大的困惑恰恰在这里:dot 线程、聊天线程、Codex 线程之间的关系,信息架构还没理清。\n\n但她给的早期评价相当正面:dot 实际干的活是好的——帮她购物找到了合适的鞋,写代码写得也不错;主动性恰好在正确的点上,比如她早上还在琢磨孩子的游泳课日程,dot 主动问「要不要我找找十一月的?」。她的总结是「dot 的骨架是好的」,只是用户体验和定位上有一堆粗糙边角,完整评测要等它成熟再做。她自己还没切换:工作场景她仍用 Grok 的机器人,因为她喜欢「为一个工作雇一个智能体」,不是「一个智能体统治一切」派;消费场景她觉得 Muse 更友好。\n\n## Spaces:企业等了很久的 AI 原生协作平台\n\n她认为被低估的一个发布是 ChatGPT Spaces——一个在 ChatGPT 里与人、与智能体共同处理文档、幻灯片、HTML 的协作空间。她的判断很直接:「这就是各家公司一直在等待的东西」:一个 AI 原生的文档、幻灯片协作平台,内置分享、数据控制和智能体原生特性。她自己的 dot 还给她建了个叫「你的个人草稿本」的 space,用来和她滚动维护待办、决策、笔记——正好撞上了她几周前自建的协作文档「Claire's Notebook」,当时她是想让 Codex、Grok、Muse 和自己能在同一份待办清单上协作。\n\n这对 Google 是一次正面开火:她认为 Google 手里握着所有好东西,却让 OpenAI、Meta 抢了先。企业会不会把「真相源」迁到 OpenAI 托管的文档上,是她接下来最关注的看点。\n\n## Sites 加插件:vibe-coded 内部工具的归宿\n\nSites 是 OpenAI 内置的网站应用构建器,可以通过 ChatGPT 登录后对外分享。这次更新里她觉得「真的非常聪明」的一点:你可以把连接器和插件打包进站点。举例:你用 Snowflake 插件做了一个自定义数据仪表板,分享给同事后,对方用自己的连接器登录——有数据权限就能看,没有权限就看不到。\n\n她指出这直击企业界眼下的头号痛点:团队用 vibe coding(用自然语言让 AI 直接生成代码)做出了一大堆内部工具、原型、报表,但没人知道怎么安全地共享它们。她认为 Sites 加插件就是 OpenAI 给出的答案,而企业级竞争最终会落在数据访问、治理与控制、权限、分享便利性和产出物质量这几件事上。\n\n## 模型层:更快更便宜,以及一条带眼睛的快车道\n\nSam Altman 在主题演讲开头说,用户不断给的反馈就是「我们只想要更快、更便宜的模型」——这次的发布正是冲着这个来的:\n\nClaire 说 Sol 一直是她的「任劳任怨的工作马」,中档工程任务的主力;要省钱,选它没错。\n- **Decisions API**:一个「带约束的 Luna」——在预定义答案集上给出 Luna 级智能、极快返回决策的类目,直接对标她一直看好的 Jev。但关键是:她提前试了,**它有视觉能力**,这是 Jev 没有的。她现场演示了两个例子:给一期 40 分钟的播客节目挑缩略图——过去要人工逐段截帧找「表情不尴尬」的画面,Decisions API 十秒内过了一百帧全部挑完;以及一个致敬经典的热狗识别,不到一秒、100% 置信度。她认为这类「决策型模型」是很多 AI 架构里缺失的一块,等正式发布后会做它对阵 Jev 的正面评测。\n- **Ultrafast**:Codex 里模型运行档位从普通、fast(2 倍速)升级到 ultrafast——**8 倍速,但费用是 6 倍**。她说「我买不起,但我想要」。最让她「感受到未来」的演示不是拿它扫 bug 积压,而是把它当实时引擎用:一款 AI 与人协作的画板,她随手画几笔,Astra 实时跟上画出配套的 SVG;以及一个 3D 小游戏 Little Starship,在游戏里说「给朋友们建个浴室」「我们去热带岛屿度假」「移除重力」,几秒钟内新的 3D 场景和物理规则实时渲染出来,她的孩子玩了 20 分钟。但实话实说:跑 30 分钟花了约 97 美元。她的观点是:延迟对真正的实时应用还稍慢,但如果能用接近实时的体验拿到高智能,就能构建以前构建不了的 AI 产品——这才是 8 倍速、乃至未来 10 倍、20 倍速前沿智能打开的想象空间。\n\n此外还有一批发布她快速带过:agents API 里的 computer use、开放给开发者的 Codex 原语、插件机制更新(传言未来可对插件使用变现)、以及一个新的 Pro 500 套餐。\n\n## 本集带走\n\n- **现在就能试 Dot**:pro、business、enterprise 套餐用户已可在 ChatGPT 和 Codex 里用上;它干的活质量不错、主动性是加分项,但线程间信息架构还乱,值得先观察、等她的完整评测。\n- **企业在挣扎于 AI 生成内容的协作/共享,重点看 Spaces 和 Sites**:Sites 支持把连接器打包进站点,访问者用自己的连接器登录、按自身数据权限看内容——这是对「vibe-coded 工具怎么安全共享」这个头号痛点的直接回应。\n追极致质量再用 Astra。\n- **需要「快而准的判断」时留意 Decisions API**:预定义答案集上的快速决策,还带视觉,补上了 Jev 没有的能力;正式发布后她会做对 Jev 的正面评测。\n- **Ultrafast 是预览未来的窗口,不是日常档位**:8 倍速、6 倍价,现在最适合的用法是把它嵌进产品里做近实时的高智能体验(实时渲染、协作画板这类),30 分钟约 97 美元,先想清楚再开。",
+  "quotes": [
+    {
+      "en": "The good news is OpenAI released a lot of stuff. The bad news is OpenAI released a lot of stuff.",
+      "zh": "好消息是 OpenAI 发布了很多东西，坏消息也是 OpenAI 发布了很多东西。",
+      "timestamp": "00:15",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I like to hire an agent for a job, so I'm not really a one agent to rule them all person.",
+      "zh": "我喜欢为一个工作雇一个智能体，所以我不是那种「一个智能体统治一切」的人。",
+      "timestamp": "06:07",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "They have all the goodies and yet OpenAI, Meta have all beat them to the punch.",
+      "zh": "他们手里有所有好东西，然而 OpenAI、Meta 都抢先了一步。",
+      "timestamp": "10:03",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So again, AGI is here.",
+      "zh": "所以再说一次，AGI 已经到来了。",
+      "timestamp": "16:45",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So what I think is really interesting is if you can get very high intelligence at almost real-time experience, you can build some AI things that I think you couldn't build before.",
+      "zh": "我觉得真正有趣的是，如果你能以几乎实时的体验获得非常高的智能，你就可以构建一些以前构建不了的 AI 东西。",
+      "timestamp": "18:13",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:15",
+      "speaker": "Unknown",
+      "en": "The good news is OpenAI released a lot of stuff. The bad news is OpenAI released a lot of stuff.",
+      "zh": "好消息是 OpenAI 发布了很多东西，坏消息也是 OpenAI 发布了很多东西。"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Unknown",
+      "en": "I say the bones of your dot, which is a very weird thing to say, are good.",
+      "zh": "我想说，dot 的骨架——这么说很奇怪——是好的。"
+    },
+    {
+      "timestamp": "06:07",
+      "speaker": "Unknown",
+      "en": "I like to hire an agent for a job, so I'm not really a one agent to rule them all person.",
+      "zh": "我喜欢为一个工作雇一个智能体，所以我不是那种「一个智能体统治一切」的人。"
+    },
+    {
+      "timestamp": "07:20",
+      "speaker": "Unknown",
+      "en": "I think this is what companies have been waiting for.",
+      "zh": "我认为这就是各家公司一直在等待的东西。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Unknown",
+      "en": "They have all the goodies and yet OpenAI, Meta have all beat them to the punch.",
+      "zh": "他们手里有所有好东西，然而 OpenAI、Meta 都抢先了一步。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "Unknown",
+      "en": "And I think you really have to compete on the things that matter to companies, which are like easy access to data, governance and controls, permissions, ease of sharing, and then quality of these artifacts.",
+      "zh": "我认为你必须在对公司真正重要的方面竞争：便捷的数据访问、治理与控制、权限、分享的便利性，以及这些产出物的质量。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Unknown",
+      "en": "And it's like, of course, we all want models faster and cheaper.",
+      "zh": "然后就像——当然，我们都想要模型更快更便宜。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "It's just a workhorse.",
+      "zh": "它就是一匹任劳任怨的工作马。"
+    },
+    {
+      "timestamp": "15:12",
+      "speaker": "Unknown",
+      "en": "It has vision.",
+      "zh": "它有视觉能力。"
+    },
+    {
+      "timestamp": "16:45",
+      "speaker": "Unknown",
+      "en": "So again, AGI is here.",
+      "zh": "所以再说一次，AGI 已经到来了。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Unknown",
+      "en": "I think this is like the missing piece in a lot of our AI architecture.",
+      "zh": "我觉得这就像是我们很多 AI 架构中缺失的那一块。"
+    },
+    {
+      "timestamp": "17:21",
+      "speaker": "Unknown",
+      "en": "I can't afford it, but I want it.",
+      "zh": "我买不起，但我想要。"
+    },
+    {
+      "timestamp": "18:13",
+      "speaker": "Unknown",
+      "en": "So what I think is really interesting is if you can get very high intelligence at almost real-time experience, you can build some AI things that I think you couldn't build before.",
+      "zh": "我觉得真正有趣的是，如果你能以几乎实时的体验获得非常高的智能，你就可以构建一些以前构建不了的 AI 东西。"
+    },
+    {
+      "timestamp": "18:42",
+      "speaker": "Unknown",
+      "en": "And I hope this just kind of like opens up your mind to what 8X, 10X, 20X, whatever's coming soon at the highest frontier intelligence can do.",
+      "zh": "我希望这能打开你的思路，看看在最高前沿智能上，8 倍、10 倍、20 倍速——无论即将到来的是什么——能做些什么。"
+    },
+    {
+      "timestamp": "21:33",
+      "speaker": "Unknown",
+      "en": "This is a very expensive game, a little expensive demo for you all.",
+      "zh": "这是一个非常昂贵的游戏，也是给你们演示的一个有点贵的 demo。"
+    },
+    {
+      "timestamp": "22:21",
+      "speaker": "Unknown",
+      "en": "My wallet is not excited about Ultrafast.",
+      "zh": "我的钱包对 Ultrafast 一点都不兴奋。"
+    },
+    {
+      "timestamp": "23:22",
+      "speaker": "Unknown",
+      "en": "And as a developer, somebody who both builds with these models and builds on these models, I am very excited about the Decisions API with Vision and very, very excited about Ultrafast just because it makes me really imagine what the future of AI products can look like.",
+      "zh": "作为一个既用这些模型构建、又基于这些模型构建的开发者，我对带视觉的 Decisions API 感到非常兴奋，对 Ultrafast 则更加兴奋，因为它让我真正去想象 AI 产品的未来可以是什么样子。"
+    }
+  ],
+  "voice_script": "今天咱们聊的是 OpenAI Dev Day。主播是 How I AI 的 Claire,她在发布会现场待了一整天，而且拿到了好几个产品的提前测试资格，边试边给评价。所以这一集不是转述新闻稿，是一手体验报告。\n\n开场她先说了句大实话：好消息是 OpenAI 发布了很多东西，坏消息也是 OpenAI 发布了很多东西。主题演讲几乎每两三分钟就蹦一个新品，根本看不过来。那这么多东西里，哪几个值得你真花时间？咱们就顺着她挑出来的重点，一个一个讲。\n\n最大的重头，是一种叫 Dot 的常驻智能体。什么叫常驻？就是它始终在线、长期运行，能跨 ChatGPT 和 Codex 工作，跑在云端电脑、你的本地电脑、手机上，甚至能装进 Slack,还能直接打电话给它——注意，不是语音模式，是真的会响铃、会接起来那种。目前每个用户只配一个 dot,pro、business、enterprise 套餐现在就能用上。Claire 的 dot 叫 Bay,是个戴眼镜的粉色小团子，还有自己的一台电脑。\n\n定位上，OpenAI 把它说成“你的副本或代表”，像一个主线程，能主动找你、提醒你、独立干活。那它实际表现怎么样？Claire 的早期评价相当正面：干活是好的，帮她购物找到了合适的鞋，代码写得也不错；主动性也恰好在正确的点上——比如她早上还在琢磨孩子的游泳课，dot 就主动问，要不要帮你找找十一月的？但问题也有：dot 线程、聊天线程、Codex 线程之间的关系，信息架构还没理清，这是她认为最大的困惑。她总结说，dot 的骨架是好的，只是用户体验和定位上还有一堆粗糙的边角，完整评测要等它成熟再做。而且她自己还没切换过去——工作场景她仍然用 Grok 的机器人，因为用她的话说，“我喜欢为一个工作雇一个智能体，我不是那种一个智能体统治一切的人”；消费场景她觉得 Muse 更友好。\n\n说完 dot,再看一个她认为被低估的发布：ChatGPT Spaces。这是一个在 ChatGPT 里和人、和智能体共同处理文档、幻灯片、HTML 的协作空间，内置分享、数据控制这些企业需要的特性。她的判断很直接：这就是各家公司一直在等的东西——一个 AI 原生的文档和幻灯片协作平台。有意思的是，她自己的 dot 还给她建了个叫“你的个人草稿本”的 space,用来滚动维护待办、决策和笔记，正好撞上了她几周前自建的一协作文档，当时就是想让几个智能体能和她协作同一份清单。这个发布，她认为是直接对 Google 开火：对方手里握着所有好东西，然而 OpenAI 和 Meta 都抢先了一步。接下来她最关注的看点是，企业会不会把“真相源”迁到 OpenAI 托管的文档上。\n\n那 Spaces 解决协作，Sites 解决的是另一个企业痛点。Sites 是 OpenAI 内置的网站应用构建器，这次更新里有一处她觉得真的非常聪明：你可以把连接器和插件打包进站点。举个例子，你用 Snowflake 插件做了个自定义数据仪表板，分享给同事后，对方用自己的连接器登录——有数据权限就能看，没有就看不到。为什么这很关键？因为现在各团队用 vibe coding,就是用自然语言让 AI 直接生成代码，做出了一大堆内部工具和报表，但没人知道怎么安全地共享它们。Sites 加插件，就是 OpenAI 给出的答案。\n\n产品讲完了，再看模型层。Sam Altman 在演讲开头就说，用户给的最多的反馈就是“我们只想要更快、更便宜的模型”，这次发布就是冲这个来的。这里最值得注意的是 Decisions API——可以理解成一个“带约束的 Luna”,在预定义的答案集上快速返回决策。这直接对标 Claire 一直看好的 Jev,但关键是她提前试了：它有视觉能力，这是 Jev 没有的。现场演示很直观：给一期 40 分钟的播客挑缩略图，过去要人工逐段截帧、挑表情不尴尬的画面，它十秒内过了一百帧全挑完；还有一个经典的热狗识别，不到一秒，百分之百置信度。她认为这类“决策型模型”是很多 AI 架构里缺失的一块。\n\n最后是速度。Codex 里的档位从普通、两倍速，升级到了 ultrafast——八倍速，但费用是六倍。Claire 说得很直白：我买不起，但我想要。而最让她感受到未来的演示，不是拿它扫 bug,而是把它当实时引擎用：一个 AI 和人协作的画板，她随手画几笔，AI 实时跟上画出配套图形；还有个 3D 小游戏，在游戏里说“给朋友们建个浴室”“移除重力”，几秒钟内新场景和物理规则就实时渲染出来了，她的孩子玩了二十分钟。当然，实话实说，跑三十分钟花了大约九十七美元。延迟对真正的实时应用来说还稍慢，但这里头藏着真正的机会——用她自己的话说，如果你能以几乎实时的体验获得非常高的智能，你就可以构建一些以前构建不了的 AI 产品。这才是八倍速、乃至未来十倍二十倍速真正打开的想象空间。\n\n如果说这一集有什么最值得记住的，就是这句：别追着发布会清单跑，真正值得花时间的，是那些能让高智能跑进实时体验的能力。"
+}

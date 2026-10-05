@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jesse Cole":1,"Savannah Bananas":1,"Fans First Entertainment":1,"粉丝体验":1,"粉丝优先":1,"社交媒体":1,"实验":2,"定价":1,"观察行为而非问卷":1}</script>
+<script type="application/json" class="pd-epn">{"Jesse Cole":1,"Savannah Bananas":1,"Fans First Entertainment":1,"粉丝体验":1,"粉丝优先":1,"社交媒体":2,"实验":2,"定价":1,"观察行为而非问卷":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,451 @@
+{
+  "episode_id": "2026-09-28-twist-jason-s-put-a-5k-bounty-on-his-dream-chr",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-28",
+  "tags": [
+    "AI 编程",
+    "赏金竞赛",
+    "创业与融资",
+    "产品演示",
+    "社会议题"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "lon-harris",
+      "type": "person",
+      "role": "host",
+      "name": "Lon Harris",
+      "file": "Lon Harris",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "annotated-com",
+      "type": "concept",
+      "role": "concept",
+      "name": "annotated.com",
+      "file": "annotated.com",
+      "primary": true,
+      "how_described": "本集主线项目:Jason 花三四万美元买下的域名,想做一个给网页做标注的产品——高亮任何一段文字,对它提出异议或补充内容;现在用 5000 美元赏金让人做出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            10.557
+          ],
+          "quote": "All right, it's time, Lon, for us to reveal round one of our bounty program for annotated.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1,
+          "t": [
+            10.857,
+            12.818
+          ],
+          "quote": "I own the domain name, annotated.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            107.935,
+            109.795
+          ],
+          "quote": "That's what annotated.com is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1037.015,
+            1042.319
+          ],
+          "quote": "We have our third submission here, annotated.com, with just one N to set it apart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1141.472,
+            1145.073
+          ],
+          "quote": "Now it prompts signing in to the annotated.com service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1695.158,
+            1698.641
+          ],
+          "quote": "Round one is now complete for annotated.com and we will go to round two.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1772.519,
+            1778.082
+          ],
+          "quote": "And you can go to annotated.com, which explains the contest, all of these rules, blah, blah, blah, blah.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说它让 20 年前要 50 万美元、5 年前 25 万美元的东西,现在 5000 美元赏金、一两周就能交付到接近生产可用;最佳作品甚至「看起来不像 vibe coding 做出来的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            61.832,
+            68.558
+          ],
+          "quote": "Well, here we are, it's 20 years later, I forgot I had the domain name, forgot I had bought it, and then vibe coding happens.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            93.99,
+            97.531
+          ],
+          "quote": "Vibe coding folks, people using these tools to build it in a week or two.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "annotation",
+      "type": "concept",
+      "role": "concept",
+      "name": "网页标注 (annotation)",
+      "file": "网页标注",
+      "primary": true,
+      "how_described": "本集核心概念:对网页上的具体段落/视频片段/推文留下评论与批注,三件入围作品都是它的不同实现,共识设计是评论置顶、原文截图在下、可打标签",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            313.348,
+            316.309
+          ],
+          "quote": "And here they said the annotation is at the top.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 144,
+          "t": [
+            500.039,
+            526.766
+          ],
+          "quote": "And then a comment thread where other people, I think this is really the magic of your concept and how we could see it going and becoming like a destination to itself, is that almost like old school aggregation sites, your digs, your fark.coms, your reddits, one person's annotation and comment on this video could then lead you into a whole discussion thread, a vibrant community of people talking about each other's links.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            797.162,
+            803.326
+          ],
+          "quote": "He also did come up with the highlighter branding, as you can see right here, published the annotation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            910.217,
+            922.206
+          ],
+          "quote": "Yeah, a little, a little, I think that, I like the other, the annotated dot WTF approach of making the comment, the annotation is the star, the link is, here's what I'm talking about, is the context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            960.56,
+            964.143
+          ],
+          "quote": "Here's the kind of annotation that I'm leaving.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chrome-extension",
+      "type": "concept",
+      "role": "concept",
+      "name": "Chrome 扩展 (Chrome extension)",
+      "file": "Chrome 扩展",
+      "primary": true,
+      "how_described": "本集指定的交付形态:annotated 的产品以 Chrome 侧边栏扩展呈现,用于在任意网页上高亮内容并发布标注",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            70.541,
+            76.783
+          ],
+          "quote": "I want to put out a $5,000 bounty for people to make me find only my Chrome extension.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            117.618,
+            122.84
+          ],
+          "quote": "We want somebody to execute my idea, as explained on the website, and then make a Chrome extension.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1489.89,
+            1492.331
+          ],
+          "quote": "The Chrome extension is so easy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bounty",
+      "type": "concept",
+      "role": "concept",
+      "name": "赏金 (bounty)",
+      "file": "赏金",
+      "primary": true,
+      "how_described": "本集的运作机制:发出 5000 美元赏金征集作品,这是第二届赏金竞赛,规则由 Jason 全权掌控,当前排名作品一 80%、作品二 20%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            10.557
+          ],
+          "quote": "All right, it's time, Lon, for us to reveal round one of our bounty program for annotated.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 14,
+          "t": [
+            70.541,
+            76.783
+          ],
+          "quote": "I want to put out a $5,000 bounty for people to make me find only my Chrome extension.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            88.508,
+            93.33
+          ],
+          "quote": "But right now, just putting out a $5,000 bounty, I think you can get, this is my premise,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            130.743,
+            131.684
+          ],
+          "quote": "This is a $5,000 bounty.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 495,
+          "t": [
+            1607.971,
+            1620.657
+          ],
+          "quote": "And then there's a third option, which is I've been thinking, what if you put a bounty on a story and you said, I would love for Lon to vet this story.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1739.38,
+            1745.924
+          ],
+          "quote": "The result of the first bounty was a lot of proof of concepts, which are good, a lot of good ideas, but not a shipped product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1762.414,
+            1764.855
+          ],
+          "quote": "So this will be our second bounty contest.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1764.875,
+            1772.059
+          ],
+          "quote": "You can look at all the bounties this week in startups.com slash bounty or slash bounties, either of those, plural or singular.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "social-network",
+      "type": "concept",
+      "role": "concept",
+      "name": "社交网络 (social network)",
+      "file": "社交网络",
+      "primary": true,
+      "how_described": "本集说 annotated 应该是「一个供人们给内容做注释的社交网络」——有标注者资料、粉丝数、值得关注的人、热门话题和 for you 算法信息流,也可能自然长成 Reddit/Twitter 式的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1013.295,
+            1018.219
+          ],
+          "quote": "That this is supposed to be a social network of sorts for people annotating stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 491,
+          "t": [
+            1594.744,
+            1597.286
+          ],
+          "quote": "I think this could also be done as a social network.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "venture-capital",
+      "type": "concept",
+      "role": "concept",
+      "name": "风险投资 (venture capital)",
+      "file": "风险投资",
+      "primary": true,
+      "how_described": "本集说风投公司可以在文件里内部孵化公司:基金创始人拿 50%、LP 拿 10-20%、再雇团队分 20-50%;Jason 计划把获胜作品放进自己的风投内部孵化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            1536.854,
+            1541.937
+          ],
+          "quote": "And venture capital firms in their documents can incubate a company.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集一笔带过:举例说 Snowflake 当年就是一家在风险投资公司内部孵化的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 481,
+          "t": [
+            1556.329,
+            1561.854
+          ],
+          "quote": "In fact, I think Snowflake was an internally baked company inside of a venture firm, which is incredible.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "pygmalion-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "皮格马利翁效应 (Pygmalion effect)",
+      "file": "皮格马利翁效应",
+      "primary": false,
+      "how_described": "本集回答无家可归创业者提问时引用:源自萧伯纳戏剧的心理学效应,外界对一个人的期望会影响他对自己信念,即自我实现的预言",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 633,
+          "t": [
+            2152.283,
+            2155.284
+          ],
+          "quote": "And there is this thing called the Pygmalion effect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2183.174,
+            2186.576
+          ],
+          "quote": "But the Pygmalion effect was more of a psychological effect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2189.057,
+            2205.538
+          ],
+          "quote": "On self-fulfilling prophecy, I remember this when I was at Fordham doing, as a psychology undergraduate, the Pygmalion effect in this context, not the movie or a play, but inspired by it, is the expectation of the person can determine their own belief in themselves.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "maslow-s-hierarchy-of-needs",
+      "type": "concept",
+      "role": "concept",
+      "name": "马斯洛需求层次理论 (Maslow's hierarchy of needs)",
+      "file": "马斯洛需求层次理论",
+      "primary": false,
+      "how_described": "本集 Jason 用来论证:如果你不安全、没有食物和住所,就得先解决住处、食物、电脑等基本需求,再谈创业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 584,
+          "t": [
+            1982.269,
+            1996.041
+          ],
+          "quote": "That would be step one before working on a startup, because if you're not safe and you don't have food and shelter, we've got to go with Maslow's hierarchy of needs here and get you shelter and get you food and get you a computer, et cetera.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

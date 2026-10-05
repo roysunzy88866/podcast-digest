@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ultrafast</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ultrafast">UL</div><div class="pi"><h1 class="pt">Ultrafast</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ultrafast">UL</div><div class="pi"><h1 class="pt">Ultrafast</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(00:00起):本集把它说成：OpenAI 强调超快响应的模型，Sam 所有提示都在上面跑，引 Brett Victor「创作者应与创作物即时连接」说明快反馈回路改变思考方式。
+- **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(18:06起):本集说 Ultrafast 是 Codex 里 8 倍速但 6 倍价的模型档位,「我买不起,但我想要」;Claire 用它做实时 SVG 画板和 3D 实时渲染游戏,认为近实时的高智能能构建以前构建不了的 AI 产品。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[Dots]] · [[ChatGPT]] · [[Codex]] · [[Decisions API]] · [[SPACE]] · [[活文档]] · [[推理]] · [[Astra]]
+[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Decisions API]] · [[Astra]] · [[Dots]] · [[Dot]] · [[SPACE]] · [[Spaces]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":157,"智能体":400,"Dots":2,"ChatGPT":92,"Codex":76,"Decisions API":2,"SPACE":2,"活文档":1,"推理":73,"Astra":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":159,"智能体":403,"ChatGPT":94,"Codex":78,"Decisions API":3,"Astra":7,"Dots":2,"Dot":2,"SPACE":2,"Spaces":1}</script>
 
 <script>
 (function(){

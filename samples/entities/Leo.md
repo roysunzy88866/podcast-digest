@@ -25,7 +25,7 @@ unlisted: true
 
 [[Vlad Kyle]] · [[Elena Berger]] · [[Seema Amble]] · [[a16z]] · [[Salesforce]] · [[SAP]] · [[Oracle]] · [[Claude]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Vlad Kyle":1,"Elena Berger":4,"Seema Amble":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":85,"OpenAI":157,"Anthropic":171}</script>
+<script type="application/json" class="pd-epn">{"Vlad Kyle":1,"Elena Berger":4,"Seema Amble":1,"a16z":18,"Salesforce":34,"SAP":3,"Oracle":9,"Claude":86,"OpenAI":159,"Anthropic":171}</script>
 
 <script>
 (function(){

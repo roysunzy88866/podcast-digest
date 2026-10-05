@@ -35,7 +35,7 @@ unlisted: true
 
 [[Bob Safian]] · [[Jess Hertz]] · [[Shopify]] · [[River]] · [[智能体]] · [[sidekick]] · [[Universal Commerce Protocol]] · [[X 型人]] · [[T 型人]] · [[关税]]
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Jess Hertz":1,"Shopify":16,"River":2,"智能体":400,"sidekick":2,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Jess Hertz":1,"Shopify":16,"River":2,"智能体":403,"sidekick":2,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

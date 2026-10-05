@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>76</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>78</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -53,6 +53,7 @@ unlisted: true
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(05:54起):本集顺带提及，说 Daniel 认为像 Codex 这样的工具理论上也能用来构建类似的自改进系统，关键不在工具本身
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(36:44起):本集说可以用 Codex 让它上网找五个代数几何里的最新猜想然后去证明，以此玩'老虎机'在一小时内产出三篇正确但质量很差的论文
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(17:54起):本集说她的「职业教练 2.0」现在是 Codex 里的一个项目：维护看板、排序优先级、过滤收件箱，还替她找到能约上的初级保健医生
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(10:38起):本集提到 OpenAI 的 Codex 是主流编程助手之一,和 Claude Code 并列为 AI PR 的来源
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(05:48起):本集中 Claire 让 Codex 接管 Chrome 更新 CRM 工作流、构建 AIM 风格 Mac 应用,还把它接入 Divoom 屏幕和 Codex hooks,作为她与模型协作的主要入口。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(38:30起):Speechify 团队使用量排第三的 AI 编程工具，「有一点使用，没那么大」。
 - **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(04:21起):本集说 OpenAI 的市场团队用 Codex 比工程团队还勤，因为 AI 把他们的工作蒸馏成最擅长、最感兴趣的部分；Anish 还用 Codex 给妻子做了母亲节幻灯片。
@@ -81,6 +82,7 @@ unlisted: true
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(07:39起):本集说它的本地会话数据可以被 Jev 做分类元分析,主播还用它跑分析线程、做视频,九月时工程任务占比已不到 40%。
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(14:35起):本集把它说成：Sam 用来搜 Slack 的编程/搜索工具，以及他以前做副业小项目的方式；Dev Day 也推出了 Codex 原生应用的插件扩展。
 - **[[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]]**(01:00起):本集作为订阅堆量文化的象征反复提及（「一周用光六个 Codex 订阅」），也作为跨厂商编排的变通工具。
+- **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(00:00起):本集说 Codex 是 OpenAI 的编程工具,dot 可跨它工作、可替你启动 Codex 线程;本次还开放了 Codex 原语给开发者,并新增 8 倍速的 ultrafast 档位。
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(01:10起):OpenAI 的编码智能体产品，本集多次作为计算机使用的载体出现：AppShot 在 Codex 里触发、智能体用它构建并测试软件、开源 Codex harness 实现手动压缩。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Cursor 并列提及的编码工具，会带来更多代码和复杂性。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(10:04起):本集顺带提到沙箱是完整 VM,除 Claude 外也能跑 Codex、shell、Python 作业、web 服务器。
@@ -119,7 +121,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*76 集*
+*78 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -164,6 +166,7 @@ unlisted: true
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为被讨论公司(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
@@ -192,6 +195,7 @@ unlisted: true
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
 - [[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]] — 作为概念(提及)
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司(提及)
@@ -204,7 +208,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[沙箱]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"Claude Code":94,"OpenAI":157,"Claude":85,"Cursor":79,"ChatGPT":92,"Anthropic":171,"护栏":77,"沙箱":74,"harness":54}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Claude Code":94,"OpenAI":159,"Claude":86,"Cursor":80,"ChatGPT":94,"Anthropic":171,"护栏":77,"沙箱":74,"harness":55}</script>
 
 <script>
 (function(){

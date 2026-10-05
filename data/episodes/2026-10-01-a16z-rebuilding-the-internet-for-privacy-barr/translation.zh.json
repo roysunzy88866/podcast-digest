@@ -1,0 +1,5714 @@
+[
+ {
+  "seg": 0,
+  "start": 0.638,
+  "end": 7.328,
+  "speaker": "Unknown",
+  "en": "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale.",
+  "zh": "我们真的处于一个转折点，因为你看到了本质上大规模投币式智能的诞生。"
+ },
+ {
+  "seg": 1,
+  "start": 7.428,
+  "end": 11.233,
+  "speaker": "Unknown",
+  "en": "The internet is really kind of stagnated a bit from protocol design.",
+  "zh": "互联网在协议设计方面确实有点停滞了。"
+ },
+ {
+  "seg": 2,
+  "start": 11.334,
+  "end": 12.796,
+  "speaker": "Unknown",
+  "en": "There's like not a lot of new stuff.",
+  "zh": "没有太多新东西。"
+ },
+ {
+  "seg": 3,
+  "start": 12.836,
+  "end": 13.897,
+  "speaker": "Unknown",
+  "en": "All of it's built on top.",
+  "zh": "一切都是在其之上构建的。"
+ },
+ {
+  "seg": 4,
+  "start": 14.238,
+  "end": 16.321,
+  "speaker": "Unknown",
+  "en": "Erasing that is kind of what I'm trying to go for.",
+  "zh": "抹掉这些就是我想要达到的目标。"
+ },
+ {
+  "seg": 5,
+  "start": 16.581,
+  "end": 22.424,
+  "speaker": "Unknown",
+  "en": "What you're saying is you've actually built this transient way for folks to connect and chat without there being any record.",
+  "zh": "你所说的是，你实际上构建了一种临时性的方式，让人们在没有留下任何记录的情况下连接和聊天。"
+ },
+ {
+  "seg": 6,
+  "start": 22.564,
+  "end": 27.326,
+  "speaker": "Unknown",
+  "en": "The really big problem is on WhatsApp, Signal, iMessage, Telegram.",
+  "zh": "真正的大问题在于 WhatsApp、Signal、iMessage、Telegram 上。"
+ },
+ {
+  "seg": 7,
+  "start": 27.486,
+  "end": 31.968,
+  "speaker": "Unknown",
+  "en": "All of those applications disguise themselves as you sending something to somebody else.",
+  "zh": "所有这些应用都把自己伪装成你在给另一个人发送信息。"
+ },
+ {
+  "seg": 8,
+  "start": 32.128,
+  "end": 34.108,
+  "speaker": "Unknown",
+  "en": "But you're really sending something to a server.",
+  "zh": "但你实际上是把信息发送给一台服务器。"
+ },
+ {
+  "seg": 9,
+  "start": 34.549,
+  "end": 37.25,
+  "speaker": "Unknown",
+  "en": "The question is like, okay, well, whose servers are those?",
+  "zh": "问题是，好吧，那些是谁的服务器？"
+ },
+ {
+  "seg": 10,
+  "start": 37.39,
+  "end": 44.733,
+  "speaker": "Unknown",
+  "en": "It's coming at such an important inflection point for like the future of our country, tech, and to just have this conversation that seems to be manipulated to some end.",
+  "zh": "这正处在我们国家的未来、技术的未来如此重要的一个转折点上，而这场对话似乎被操纵以达到某种目的。"
+ },
+ {
+  "seg": 11,
+  "start": 44.893,
+  "end": 46.234,
+  "speaker": "Unknown",
+  "en": "It feels very manipulated.",
+  "zh": "感觉非常被操纵。"
+ },
+ {
+  "seg": 12,
+  "start": 46.414,
+  "end": 50.877,
+  "speaker": "Unknown",
+  "en": "And to me, the future of our tech is needing to build this infrastructure now if we're crippling it.",
+  "zh": "对我来说，我们技术的未来需要现在就构建这种基础设施，否则我们就是在削弱它。"
+ },
+ {
+  "seg": 13,
+  "start": 51.598,
+  "end": 54.059,
+  "speaker": "Unknown",
+  "en": "The internet was designed to connect people directly.",
+  "zh": "互联网的设计初衷是让人与人直接连接。"
+ },
+ {
+  "seg": 14,
+  "start": 54.82,
+  "end": 60.323,
+  "speaker": "Unknown",
+  "en": "Today, much of what we do online passes through someone else's server, along with an enormous amount of data about us.",
+  "zh": "今天，我们在网上做的许多事情都要经过别人的服务器，还有大量关于我们的数据。"
+ },
+ {
+  "seg": 15,
+  "start": 61.204,
+  "end": 71.271,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z's Joel De La Garza sits down with internet infrastructure pioneer Barrett Lyon to talk about DocsNet, his attempt to rethink that architecture from the ground up.",
+  "zh": "在本期节目中，A16Z 的 Joel De La Garza 与互联网基础设施先驱 Barrett Lyon 坐下来，谈谈 DocsNet——他试图从根本上重新思考这一架构的尝试。"
+ },
+ {
+  "seg": 16,
+  "start": 72.11,
+  "end": 82.977,
+  "speaker": "Unknown",
+  "en": "Barrett explains why VPNs aren't enough, how DocsNet enables encrypted peer-to-peer communication without a central server sitting in the middle, and why the company owns its infrastructure all the way down to the hardware.",
+  "zh": "Barrett 解释了为什么 VPN 不够，DocsNet 如何在没有中央服务器居中的情况下实现加密的点对点通信，以及为什么这家公司的自有基础设施一直深入到硬件层面。"
+ },
+ {
+  "seg": 17,
+  "start": 83.997,
+  "end": 95.745,
+  "speaker": "Unknown",
+  "en": "They also discuss what happens when decades of online tracking meet cheap AI, why Barrett thinks internet protocol development has stagnated, and what it would take to bring back some of the openness and experimentation of the early internet.",
+  "zh": "他们还讨论了当数十年的在线追踪遇上廉价的 AI 会发生什么，为什么 Barrett 认为互联网协议的开发已经停滞，以及需要什么才能找回早期互联网的某种开放性和实验精神。"
+ },
+ {
+  "seg": 18,
+  "start": 98.429,
+  "end": 103.09,
+  "speaker": "Unknown",
+  "en": "Well, today we're joined by Barrett Lyon, perhaps one of the most interesting people in tech.",
+  "zh": "好的，今天我们请来了 Barrett Lyon，可能是科技界最有意思的人物之一。"
+ },
+ {
+  "seg": 19,
+  "start": 103.75,
+  "end": 112.353,
+  "speaker": "Unknown",
+  "en": "I have a lot of stories to share, and I am always kind of blown away every time we catch up because you tell me a new story that just puts everything I've ever done in ailing comparison.",
+  "zh": "我有很多故事可以分享，而我们每次见面时我总是有点被震撼，因为你会告诉我一个新故事，把我做过的一切都比得相形见绌。"
+ },
+ {
+  "seg": 20,
+  "start": 112.913,
+  "end": 120.095,
+  "speaker": "Unknown",
+  "en": "And I think the most interesting one I heard recently, and I had never heard it before, and this was during a period, I believe, where we were investors in your previous company.",
+  "zh": "我觉得我最近听到的最有意思的一个故事，而且我以前从未听说过，那是在一个时期——我相信当时我们还是你上一家公司的投资人——"
+ },
+ {
+  "seg": 21,
+  "start": 120.715,
+  "end": 131.457,
+  "speaker": "Unknown",
+  "en": "was you are a pilot, you have a pilot's license, and you decided to optimize your life by flying places, and you had an unfortunate experience, I believe, flying back from one of our meetings.",
+  "zh": "就是你是一名飞行员，你有飞行执照，你决定通过飞行来优化你的生活，而且我相信你有一次不幸的经历，是从我们其中一次会议飞回来的途中。"
+ },
+ {
+  "seg": 22,
+  "start": 132.117,
+  "end": 143.96,
+  "speaker": "Unknown",
+  "en": "Yeah, well, I mean, one day I was driving to work in the Bay Area, and I realized it was almost 45 minutes, which used to be 15, and my family lives up in the Tahoe region, so I'm like, well...",
+  "zh": "是的，嗯，有一天我开车去湾区上班，我意识到差不多要 45 分钟，而以前只要 15 分钟，我家人住在 Tahoe 地区，所以我就想，嗯……"
+ },
+ {
+  "seg": 23,
+  "start": 145.078,
+  "end": 147.601,
+  "speaker": "Unknown",
+  "en": "I think the plane can fly there at about the same time.",
+  "zh": "我觉得飞机飞过去大概需要差不多的时间。"
+ },
+ {
+  "seg": 24,
+  "start": 147.841,
+  "end": 149.122,
+  "speaker": "Unknown",
+  "en": "Maybe I could just commute that way.",
+  "zh": "也许我可以就那样通勤。"
+ },
+ {
+  "seg": 25,
+  "start": 149.423,
+  "end": 153.287,
+  "speaker": "Unknown",
+  "en": "And that was before work from home was like codified by COVID.",
+  "zh": "那是在远程办公被 COVID 确立下来之前。"
+ },
+ {
+  "seg": 26,
+  "start": 153.907,
+  "end": 156.67,
+  "speaker": "Unknown",
+  "en": "So I had like a need to physically be present.",
+  "zh": "所以我需要亲自到场。"
+ },
+ {
+  "seg": 27,
+  "start": 157.411,
+  "end": 158.672,
+  "speaker": "Unknown",
+  "en": "So yeah, I started flying and...",
+  "zh": "所以是的，我开始飞了，然后……"
+ },
+ {
+  "seg": 28,
+  "start": 159.013,
+  "end": 160.995,
+  "speaker": "Unknown",
+  "en": "So your daily driver was a daily flyer?",
+  "zh": "所以你的日常座驾成了日常座机？"
+ },
+ {
+  "seg": 29,
+  "start": 161.335,
+  "end": 161.575,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 30,
+  "start": 161.615,
+  "end": 161.855,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 31,
+  "start": 162.055,
+  "end": 162.476,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 32,
+  "start": 163.056,
+  "end": 165.818,
+  "speaker": "Unknown",
+  "en": "So I put 1,300 hours on a Cirrus.",
+  "zh": "我在一架 Cirrus 上飞了 1,300 个小时。"
+ },
+ {
+  "seg": 33,
+  "start": 166.338,
+  "end": 176.884,
+  "speaker": "Unknown",
+  "en": "And yeah, one day after meeting here, I left and got in the plane, took off from San Carlos, and somewhere over Oakland Airport, engines started acting up.",
+  "zh": "然后，有一天在这里开完会，我离开后上了飞机，从 San Carlos 起飞，在 Oakland 机场上空的某个地方，发动机开始出问题。"
+ },
+ {
+  "seg": 34,
+  "start": 177.925,
+  "end": 186.69,
+  "speaker": "Unknown",
+  "en": "And I thought maybe it was like some sort of water in the fuel or something, but I climbed up, cleared Bravo, and felt like I was okay.",
+  "zh": "我以为可能是燃料里进了水之类的，但我爬升，飞出了 Bravo 空域，觉得自己应该没事。"
+ },
+ {
+  "seg": 35,
+  "start": 186.71,
+  "end": 190.372,
+  "speaker": "Unknown",
+  "en": "And then right after that thought, I lost pretty much all power.",
+  "zh": "然后就在那个念头之后，我几乎失去了全部动力。"
+ },
+ {
+  "seg": 36,
+  "start": 191.072,
+  "end": 193.174,
+  "speaker": "Unknown",
+  "en": "And what went through your head immediately after that?",
+  "zh": "在那之后你脑子里立刻想到了什么？"
+ },
+ {
+  "seg": 37,
+  "start": 193.754,
+  "end": 194.575,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 38,
+  "start": 194.775,
+  "end": 197.518,
+  "speaker": "Unknown",
+  "en": "Actually, I messaged my friends and said, hey guys, I have an emergency.",
+  "zh": "实际上，我给我的朋友们发了消息说，嘿，各位，我遇到紧急情况了。"
+ },
+ {
+  "seg": 39,
+  "start": 197.818,
+  "end": 198.138,
+  "speaker": "Unknown",
+  "en": "Love you.",
+  "zh": "爱你们。"
+ },
+ {
+  "seg": 40,
+  "start": 198.639,
+  "end": 203.563,
+  "speaker": "Unknown",
+  "en": "I don't know, I just declared emergency and just tried to think, okay, where do I crash and not hurt people?",
+  "zh": "我不知道，我就是宣布了紧急状态，然后试着想，好吧，我在哪里坠机才不会伤到人？"
+ },
+ {
+  "seg": 41,
+  "start": 204.824,
+  "end": 206.486,
+  "speaker": "Unknown",
+  "en": "I found a field and then it turns out...",
+  "zh": "我找到了一块田地，然后结果是……"
+ },
+ {
+  "seg": 42,
+  "start": 207.299,
+  "end": 212.204,
+  "speaker": "Unknown",
+  "en": "I was up pretty high, and there was a giant airport right next to us.",
+  "zh": "我当时飞得挺高，旁边就有一个巨大的机场。"
+ },
+ {
+  "seg": 43,
+  "start": 212.224,
+  "end": 214.326,
+  "speaker": "Unknown",
+  "en": "Not Oakland, but it was Buchanan Field.",
+  "zh": "不是 Oakland，而是 Buchanan Field。"
+ },
+ {
+  "seg": 44,
+  "start": 214.346,
+  "end": 215.647,
+  "speaker": "Unknown",
+  "en": "I forget the name of the town.",
+  "zh": "我忘了那个镇的名字。"
+ },
+ {
+  "seg": 45,
+  "start": 216.348,
+  "end": 218.33,
+  "speaker": "Unknown",
+  "en": "And it's a giant old military airport.",
+  "zh": "那是一个巨大的老军用机场。"
+ },
+ {
+  "seg": 46,
+  "start": 218.39,
+  "end": 219.13,
+  "speaker": "Unknown",
+  "en": "Oh, in Alameda.",
+  "zh": "哦，在 Alameda。"
+ },
+ {
+  "seg": 47,
+  "start": 219.591,
+  "end": 223.134,
+  "speaker": "Unknown",
+  "en": "No, it was the other one on the other side of the mountain range there.",
+  "zh": "不，是山脉另一边的另一个。"
+ },
+ {
+  "seg": 48,
+  "start": 223.415,
+  "end": 225.056,
+  "speaker": "Unknown",
+  "en": "Buchanan Field is the name of it, I believe.",
+  "zh": "我相信它的名字叫 Buchanan Field。"
+ },
+ {
+  "seg": 49,
+  "start": 225.176,
+  "end": 226.458,
+  "speaker": "Unknown",
+  "en": "But anyway, I landed there.",
+  "zh": "不过总之，我降落在那里了。"
+ },
+ {
+  "seg": 50,
+  "start": 227.098,
+  "end": 231.602,
+  "speaker": "Unknown",
+  "en": "But before that, I kind of went to this field and I was like, all right, well, I've got a parachute, ballistics parachute.",
+  "zh": "但在那之前，我有点进入了这个状态，我当时想，好吧，我有一个降落伞，弹道降落伞。"
+ },
+ {
+  "seg": 51,
+  "start": 232.463,
+  "end": 233.103,
+  "speaker": "Unknown",
+  "en": "Do I pull it?",
+  "zh": "我要拉吗？"
+ },
+ {
+  "seg": 52,
+  "start": 233.163,
+  "end": 240.047,
+  "speaker": "Unknown",
+  "en": "And I was thinking, all right, well, when I read all these crash reports, the reason the pilot dies is because they didn't use the parachute.",
+  "zh": "我当时在想，好吧，我读过所有这些坠机报告，飞行员死掉的原因就是他们没用降落伞。"
+ },
+ {
+  "seg": 53,
+  "start": 240.127,
+  "end": 242.868,
+  "speaker": "Unknown",
+  "en": "I'm like, well, the airport's right there and I'm still in the air flying.",
+  "zh": "我心想，嗯，机场就在那儿，而我还在空中飞着。"
+ },
+ {
+  "seg": 54,
+  "start": 243.008,
+  "end": 250.372,
+  "speaker": "Unknown",
+  "en": "And isn't that a funny quirk of that plane, that it's technically the safest plane ever made, but yet it's involved in the most crashes because people never use the safety feature?",
+  "zh": "这架飞机是不是有个很好笑的怪癖，它在技术上是史上最安全的飞机，但它却卷入了最多的坠机事故，因为人们从来不用那个安全功能？"
+ },
+ {
+  "seg": 55,
+  "start": 250.732,
+  "end": 250.972,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 56,
+  "start": 251.512,
+  "end": 254.474,
+  "speaker": "Unknown",
+  "en": "Well, and I mean, it does work, but it destroys the plane, too.",
+  "zh": "嗯，我的意思是，它确实有用，但它也会毁掉飞机。"
+ },
+ {
+  "seg": 57,
+  "start": 255.215,
+  "end": 260.959,
+  "speaker": "Unknown",
+  "en": "So it shoots a rock out of the back of the tail and rips all this stuff out and ruins the plane.",
+  "zh": "它会从机尾后面射出一个东西出来，把一堆东西扯烂，把飞机毁了。"
+ },
+ {
+  "seg": 58,
+  "start": 261.28,
+  "end": 264.222,
+  "speaker": "Unknown",
+  "en": "And then it's not a guarantee that you're going to land nicely on the ground.",
+  "zh": "而且也不能保证你会漂亮地降落到地面上。"
+ },
+ {
+  "seg": 59,
+  "start": 264.262,
+  "end": 267.525,
+  "speaker": "Unknown",
+  "en": "And in fact, the seats, I think, are made with a crumple and packed thing.",
+  "zh": "事实上，我想那些座椅是做成那种压溃吸能的结构。"
+ },
+ {
+  "seg": 60,
+  "start": 267.565,
+  "end": 270.847,
+  "speaker": "Unknown",
+  "en": "So when you do hit the ground, it absorbs compression.",
+  "zh": "所以当你撞到地面时，它能吸收压缩。"
+ },
+ {
+  "seg": 61,
+  "start": 271.007,
+  "end": 273.129,
+  "speaker": "Unknown",
+  "en": "And this is all playing out over how long a period of time?",
+  "zh": "这一切是在多长的时间内发生的？"
+ },
+ {
+  "seg": 62,
+  "start": 273.409,
+  "end": 273.909,
+  "speaker": "Unknown",
+  "en": "Oh, I don't know.",
+  "zh": "哦，我不知道。"
+ },
+ {
+  "seg": 63,
+  "start": 273.969,
+  "end": 275.551,
+  "speaker": "Unknown",
+  "en": "Probably like minutes or less.",
+  "zh": "大概几分钟或更短吧。"
+ },
+ {
+  "seg": 64,
+  "start": 277.148,
+  "end": 277.688,
+  "speaker": "Unknown",
+  "en": "Maybe less.",
+  "zh": "也许更短。"
+ },
+ {
+  "seg": 65,
+  "start": 277.889,
+  "end": 283.572,
+  "speaker": "Unknown",
+  "en": "And then anyway, I just made the call to land and landed, rolled right onto the transient parking spot.",
+  "zh": "然后不管怎样，我做了降落的决定，降落了，直接滑进了过境停机位。"
+ },
+ {
+  "seg": 66,
+  "start": 284.133,
+  "end": 284.733,
+  "speaker": "Unknown",
+  "en": "I was calm.",
+  "zh": "我很平静。"
+ },
+ {
+  "seg": 67,
+  "start": 284.753,
+  "end": 288.015,
+  "speaker": "Unknown",
+  "en": "I was kind of frustrated and a little confused when I got out of the plane.",
+  "zh": "我下飞机的时候有点沮丧，还有点茫然。"
+ },
+ {
+  "seg": 68,
+  "start": 288.716,
+  "end": 294.24,
+  "speaker": "Unknown",
+  "en": "And then, you know, those big firetruck things, the huge ones that look like some kid made them, but they're big.",
+  "zh": "然后，你知道那些大型消防车，那种巨大的、看起来像某个小孩做出来的那种，但它们很大。"
+ },
+ {
+  "seg": 69,
+  "start": 294.78,
+  "end": 297.202,
+  "speaker": "Unknown",
+  "en": "The guy gets out of that, shakes my hand.",
+  "zh": "那家伙从车里出来，和我握手。"
+ },
+ {
+  "seg": 70,
+  "start": 297.362,
+  "end": 301.645,
+  "speaker": "Unknown",
+  "en": "And then that's when the fear hit me because I'm like, that's the guy scraping my brains off the",
+  "zh": "然后就在那时恐惧袭上心头，因为我想，这就是那个要把我脑子从……刮下来的家伙"
+ },
+ {
+  "seg": 71,
+  "start": 302.245,
+  "end": 305.807,
+  "speaker": "Unknown",
+  "en": "I'm like, oh no, this is the guy that puts the fire out.",
+  "zh": "我心想，哦不，这是那个灭火的家伙。"
+ },
+ {
+  "seg": 72,
+  "start": 307.428,
+  "end": 308.188,
+  "speaker": "Unknown",
+  "en": "That was close.",
+  "zh": "刚才真是好险。"
+ },
+ {
+  "seg": 73,
+  "start": 308.849,
+  "end": 309.729,
+  "speaker": "Unknown",
+  "en": "Then I'm like, now what do I do?",
+  "zh": "然后我就想，现在我该怎么办？"
+ },
+ {
+  "seg": 74,
+  "start": 309.749,
+  "end": 312.09,
+  "speaker": "Unknown",
+  "en": "I have to get home somehow, rent a car, drive home.",
+  "zh": "我得想办法回家，租辆车，开回家。"
+ },
+ {
+  "seg": 75,
+  "start": 312.631,
+  "end": 313.871,
+  "speaker": "Unknown",
+  "en": "That was kind of the end of it for me.",
+  "zh": "对我来说，这基本就是终点了。"
+ },
+ {
+  "seg": 76,
+  "start": 313.891,
+  "end": 315.292,
+  "speaker": "Unknown",
+  "en": "I was like, the risk is too high.",
+  "zh": "我当时想，风险太高了。"
+ },
+ {
+  "seg": 77,
+  "start": 315.312,
+  "end": 319.795,
+  "speaker": "Unknown",
+  "en": "And I kept the plane for a while and ended up ferrying it out to Las Vegas and selling it.",
+  "zh": "我把飞机保留了一段时间，最后把它飞渡到拉斯维加斯卖掉了。"
+ },
+ {
+  "seg": 78,
+  "start": 320.715,
+  "end": 322.616,
+  "speaker": "Unknown",
+  "en": "Did you ever find out what the issue or the cause was?",
+  "zh": "你后来有查出问题或原因是什么吗？"
+ },
+ {
+  "seg": 79,
+  "start": 322.656,
+  "end": 325.218,
+  "speaker": "Unknown",
+  "en": "Yeah, it was like three really weird things at the same time.",
+  "zh": "有，好像是三件很奇怪的事情同时发生了。"
+ },
+ {
+  "seg": 80,
+  "start": 325.759,
+  "end": 334.604,
+  "speaker": "Unknown",
+  "en": "One was a piece of metal on the air intake control valve, or the kind of a lever broke off and sucked into the air intake manifold.",
+  "zh": "一个是进气控制阀上的一块金属，或者说是那种操纵杆断掉了，被吸进了进气歧管。"
+ },
+ {
+  "seg": 81,
+  "start": 335.185,
+  "end": 339.368,
+  "speaker": "Unknown",
+  "en": "And then it went down to the oil pan and it was crushed into cylinder three and six, I think.",
+  "zh": "然后它掉到了油底壳里，我记得它被压进了三号和六号气缸。"
+ },
+ {
+  "seg": 82,
+  "start": 339.608,
+  "end": 339.968,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 83,
+  "start": 339.988,
+  "end": 349.354,
+  "speaker": "Unknown",
+  "en": "And then that caused an electrical problem with something with the spark, which was controlled by a brand new electronic ignition system.",
+  "zh": "然后这导致了一个电气问题，和点火有关的东西出了问题，那是由一套全新的电子点火系统控制的。"
+ },
+ {
+  "seg": 84,
+  "start": 350.375,
+  "end": 351.396,
+  "speaker": "Unknown",
+  "en": "That stopped working.",
+  "zh": "那个停止工作了。"
+ },
+ {
+  "seg": 85,
+  "start": 352.396,
+  "end": 354.637,
+  "speaker": "Unknown",
+  "en": "And so then I lost half ignition.",
+  "zh": "所以我就失去了一半的点火。"
+ },
+ {
+  "seg": 86,
+  "start": 354.877,
+  "end": 360.56,
+  "speaker": "Unknown",
+  "en": "And then at the same time, my magneto on the other side, which is the backup, also stopped working.",
+  "zh": "然后与此同时，另一边的我的磁电机，也就是备用系统，也停止工作了。"
+ },
+ {
+  "seg": 87,
+  "start": 360.64,
+  "end": 360.94,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 88,
+  "start": 361.361,
+  "end": 361.961,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是啊，是啊，是啊。"
+ },
+ {
+  "seg": 89,
+  "start": 362.241,
+  "end": 365.603,
+  "speaker": "Unknown",
+  "en": "So it was like three, it was like a cascading, strange failure.",
+  "zh": "所以这就像是三个……像是一个连锁的、奇怪的故障。"
+ },
+ {
+  "seg": 90,
+  "start": 366.323,
+  "end": 370.145,
+  "speaker": "Unknown",
+  "en": "And then it was also weird too, because on the ground, the magneto was kind of working a little bit.",
+  "zh": "而且还有一点也很奇怪，因为在地面上，磁电机还有点能工作。"
+ },
+ {
+  "seg": 91,
+  "start": 370.505,
+  "end": 374.887,
+  "speaker": "Unknown",
+  "en": "So it would start, but then when you went to higher RPMs, it just went bye-bye.",
+  "zh": "所以它能启动，但当你把转速拉高时，它就直接拜拜了。"
+ },
+ {
+  "seg": 92,
+  "start": 375.228,
+  "end": 375.868,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 93,
+  "start": 376.648,
+  "end": 377.449,
+  "speaker": "Unknown",
+  "en": "Anyway, yeah.",
+  "zh": "总之，是的。"
+ },
+ {
+  "seg": 94,
+  "start": 377.589,
+  "end": 378.289,
+  "speaker": "Unknown",
+  "en": "So that's what it was.",
+  "zh": "情况就是这样。"
+ },
+ {
+  "seg": 95,
+  "start": 378.349,
+  "end": 379.37,
+  "speaker": "Unknown",
+  "en": "It took a while to figure it out.",
+  "zh": "花了一段时间才查明白。"
+ },
+ {
+  "seg": 96,
+  "start": 381.19,
+  "end": 383.532,
+  "speaker": "Unknown",
+  "en": "Yeah, that was an interesting drive home.",
+  "zh": "是啊，那是一段挺有意思的回家路。"
+ },
+ {
+  "seg": 97,
+  "start": 384.193,
+  "end": 384.573,
+  "speaker": "Unknown",
+  "en": "Happens.",
+  "zh": "这种事会发生的。"
+ },
+ {
+  "seg": 98,
+  "start": 384.753,
+  "end": 385.033,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 99,
+  "start": 385.173,
+  "end": 388.096,
+  "speaker": "Unknown",
+  "en": "Now you understand why the pope kisses the ground when he gets off the plane, right?",
+  "zh": "现在你明白为什么教皇下飞机时要亲吻地面了吧，对吧？"
+ },
+ {
+  "seg": 100,
+  "start": 388.556,
+  "end": 389.277,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 101,
+  "start": 389.597,
+  "end": 392.8,
+  "speaker": "Unknown",
+  "en": "If there's ever another plane in my life, it will have less moving parts.",
+  "zh": "如果我人生中还有下一次坐飞机的机会，那架飞机的活动部件会更少。"
+ },
+ {
+  "seg": 102,
+  "start": 393.481,
+  "end": 396.223,
+  "speaker": "Unknown",
+  "en": "Hopefully a backup, backup pilots and redundancy.",
+  "zh": "希望有备份、备用飞行员和冗余。"
+ },
+ {
+  "seg": 103,
+  "start": 396.403,
+  "end": 397.303,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 104,
+  "start": 397.384,
+  "end": 402.386,
+  "speaker": "Unknown",
+  "en": "And if you fly a lot, you kind of, you're increasing your, I guess your risk level a little bit.",
+  "zh": "而且如果你经常坐飞机，你多少会……我想你的风险水平会稍微增加一点。"
+ },
+ {
+  "seg": 105,
+  "start": 402.466,
+  "end": 402.726,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 106,
+  "start": 403.347,
+  "end": 405.828,
+  "speaker": "Unknown",
+  "en": "And that sort of probably triggered a lot of things.",
+  "zh": "那可能触发了很多事情。"
+ },
+ {
+  "seg": 107,
+  "start": 405.868,
+  "end": 411.731,
+  "speaker": "Unknown",
+  "en": "I know we're here to talk about your new venture, which sort of is something very, I'd say very different for you.",
+  "zh": "我知道我们今天是来聊你的新项目的，这对你来说，我想说，是非常不同的东西。"
+ },
+ {
+  "seg": 108,
+  "start": 411.771,
+  "end": 415.433,
+  "speaker": "Unknown",
+  "en": "It seems more like a more close to home, more important.",
+  "zh": "它看起来更贴近内心，更重要。"
+ },
+ {
+  "seg": 109,
+  "start": 415.453,
+  "end": 417.193,
+  "speaker": "Unknown",
+  "en": "And so maybe we can talk a bit about Docs.",
+  "zh": "那么也许我们可以聊一聊 Docs。"
+ },
+ {
+  "seg": 110,
+  "start": 417.594,
+  "end": 417.794,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 111,
+  "start": 417.894,
+  "end": 421.095,
+  "speaker": "Unknown",
+  "en": "And why you decided to build, well, first of all, what is it?",
+  "zh": "以及你为什么决定开发它，首先，它是什么？"
+ },
+ {
+  "seg": 112,
+  "start": 421.576,
+  "end": 422.576,
+  "speaker": "Unknown",
+  "en": "What caused you to do it?",
+  "zh": "是什么促使你做这件事？"
+ },
+ {
+  "seg": 113,
+  "start": 422.996,
+  "end": 425.478,
+  "speaker": "Unknown",
+  "en": "And kind of maybe you're thinking around why this is important.",
+  "zh": "还有你为什么认为这很重要。"
+ },
+ {
+  "seg": 114,
+  "start": 425.498,
+  "end": 425.858,
+  "speaker": "Unknown",
+  "en": "Why now?",
+  "zh": "为什么是现在？"
+ },
+ {
+  "seg": 115,
+  "start": 426.238,
+  "end": 430.16,
+  "speaker": "Unknown",
+  "en": "Well, okay, so DocsNet, first of all, maybe I should explain the name.",
+  "zh": "好吧，那么 DocsNet，首先，也许我应该解释一下这个名字。"
+ },
+ {
+  "seg": 116,
+  "start": 430.421,
+  "end": 431.821,
+  "speaker": "Unknown",
+  "en": "As a kid, my hacker name was Docs.",
+  "zh": "小时候，我的黑客名字就是 Docs。"
+ },
+ {
+  "seg": 117,
+  "start": 432.362,
+  "end": 436.384,
+  "speaker": "Unknown",
+  "en": "And then I started a business in high school with my high school friend called DocsNet.",
+  "zh": "然后我在高中和一个高中朋友创办了一家公司，叫 DocsNet。"
+ },
+ {
+  "seg": 118,
+  "start": 436.964,
+  "end": 441.407,
+  "speaker": "Unknown",
+  "en": "It was before cloud, and we were renting server, basically giving user accounts for money.",
+  "zh": "那是在云之前，我们租用服务器，基本上是以收费的方式提供用户账户。"
+ },
+ {
+  "seg": 119,
+  "start": 441.867,
+  "end": 444.489,
+  "speaker": "Unknown",
+  "en": "Totally legit business in high school, we were making pretty good money.",
+  "zh": "高中里完全合法的生意，我们赚了不少钱。"
+ },
+ {
+  "seg": 120,
+  "start": 444.629,
+  "end": 445.53,
+  "speaker": "Unknown",
+  "en": "Were these shell accounts?",
+  "zh": "那些是 shell 账户吗？"
+ },
+ {
+  "seg": 121,
+  "start": 445.61,
+  "end": 446.791,
+  "speaker": "Unknown",
+  "en": "Yeah, shell accounts.",
+  "zh": "对，shell 账户。"
+ },
+ {
+  "seg": 122,
+  "start": 446.831,
+  "end": 451.477,
+  "speaker": "Unknown",
+  "en": "So we were selling shell accounts for $5 a month, but we had 1,000 users.",
+  "zh": "我们以每月 5 美元的价格卖 shell 账户，有 1,000 个用户。"
+ },
+ {
+  "seg": 123,
+  "start": 451.497,
+  "end": 453.319,
+  "speaker": "Unknown",
+  "en": "And we had all these features and people liked it.",
+  "zh": "我们有很多功能，大家都很喜欢。"
+ },
+ {
+  "seg": 124,
+  "start": 453.339,
+  "end": 455.401,
+  "speaker": "Unknown",
+  "en": "And there was actually a little community around it for a while.",
+  "zh": "而且确实一度围绕它形成了一个小社区。"
+ },
+ {
+  "seg": 125,
+  "start": 456.002,
+  "end": 458.665,
+  "speaker": "Unknown",
+  "en": "Got out of high school and shut it all down and started my career.",
+  "zh": "高中毕业后，我把它全部关掉，开始了我的职业生涯。"
+ },
+ {
+  "seg": 126,
+  "start": 459.305,
+  "end": 460.186,
+  "speaker": "Unknown",
+  "en": "But I kept a domain.",
+  "zh": "但我保留了一个域名。"
+ },
+ {
+  "seg": 127,
+  "start": 461.147,
+  "end": 469.094,
+  "speaker": "Unknown",
+  "en": "And also I'm very fascinated about protocol design and the fact that the internet has really kind of stagnated a bit from protocol design.",
+  "zh": "而且我对协议设计非常着迷，互联网在协议设计方面其实已经有点停滞了。"
+ },
+ {
+  "seg": 128,
+  "start": 469.194,
+  "end": 470.655,
+  "speaker": "Unknown",
+  "en": "There's like not a lot of new stuff.",
+  "zh": "几乎没有什么新东西。"
+ },
+ {
+  "seg": 129,
+  "start": 470.695,
+  "end": 471.656,
+  "speaker": "Unknown",
+  "en": "All of it's built on top.",
+  "zh": "一切都是在其之上构建的。"
+ },
+ {
+  "seg": 130,
+  "start": 472.497,
+  "end": 473.318,
+  "speaker": "Unknown",
+  "en": "So there's that.",
+  "zh": "所以这是其一。"
+ },
+ {
+  "seg": 131,
+  "start": 473.938,
+  "end": 481.485,
+  "speaker": "Unknown",
+  "en": "And then just noticing the shift of censorship and people's privacy being eroded and all of this kind of thing kind of",
+  "zh": "然后是注意到审查的转变、人们的隐私被侵蚀，以及这一类事情"
+ },
+ {
+  "seg": 132,
+  "start": 482.331,
+  "end": 500.118,
+  "speaker": "Unknown",
+  "en": "And then the uprise of VPN made it really interesting to make kind of an alternative network that kind of is designed from the ground up to protect people from advertisers, trackers, malware, and foreign adversaries trying to learn about what you're doing.",
+  "zh": "然后 VPN 的兴起让构建一种替代网络变得非常有趣，这种网络从底层设计就旨在保护人们免受广告商、追踪器、恶意软件以及试图了解你行踪的外国对手的侵害。"
+ },
+ {
+  "seg": 133,
+  "start": 500.138,
+  "end": 507.44,
+  "speaker": "Unknown",
+  "en": "Well, I mean, the original promise of the internet was this incredible marketplace of ideas, unrestricted, no censorship, right?",
+  "zh": "嗯，我是说，互联网最初的承诺是这样一个不可思议的思想市场，不受限制、没有审查，对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 507.46,
+  "end": 508.601,
+  "speaker": "Unknown",
+  "en": "I think a lot of original...",
+  "zh": "我想很多最初……"
+ },
+ {
+  "seg": 135,
+  "start": 509.181,
+  "end": 514.523,
+  "speaker": "Unknown",
+  "en": "A lot of the original people around the founding of what became the internet were free speech maximalists.",
+  "zh": "很多在后来成为互联网的这个东西创立之初的原始参与者，都是言论自由的极致主义者。"
+ },
+ {
+  "seg": 136,
+  "start": 514.923,
+  "end": 522.145,
+  "speaker": "Unknown",
+  "en": "It was sort of a very specific crowd, and I think over the last couple of years that, to your point, has shifted pretty incredibly, right?",
+  "zh": "那是一个很特定的群体，我想在过去几年里，正如你所说，这已经发生了相当惊人的转变，对吧？"
+ },
+ {
+  "seg": 137,
+  "start": 522.585,
+  "end": 523.985,
+  "speaker": "Unknown",
+  "en": "Yeah, and it's in the hands of a few.",
+  "zh": "是的，而且它掌握在少数人手中。"
+ },
+ {
+  "seg": 138,
+  "start": 524.265,
+  "end": 526.566,
+  "speaker": "Unknown",
+  "en": "So, you know, for example, China's a good example.",
+  "zh": "比如说，中国就是一个很好的例子。"
+ },
+ {
+  "seg": 139,
+  "start": 526.626,
+  "end": 530.747,
+  "speaker": "Unknown",
+  "en": "It was ChinaNetCom, ChinaTelecom, and those, or is it ChinaNetCom?",
+  "zh": "那时候是 ChinaNetCom、ChinaTelecom，或者说，是 ChinaNetCom 吗？"
+ },
+ {
+  "seg": 140,
+  "start": 530.767,
+  "end": 530.987,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 141,
+  "start": 531.227,
+  "end": 539.531,
+  "speaker": "Unknown",
+  "en": "Anyway, either way, it's a pretty good chokehold of the entire population using that network as an opportunity to force people into different decision-making processes.",
+  "zh": "总之，不管是哪一个，它对整个使用该网络的民众形成了相当牢固的扼制，把网络当作迫使人们进入不同决策过程的机会。"
+ },
+ {
+  "seg": 142,
+  "start": 540.492,
+  "end": 545.674,
+  "speaker": "Unknown",
+  "en": "And the internet originally, like you said, was kind of designed with this, like, open...",
+  "zh": "而互联网最初，正如你所说，是带着这种……开放……"
+ },
+ {
+  "seg": 143,
+  "start": 546.895,
+  "end": 547.695,
+  "speaker": "Unknown",
+  "en": "Kind of concept.",
+  "zh": "的理念设计的。"
+ },
+ {
+  "seg": 144,
+  "start": 548.256,
+  "end": 556.799,
+  "speaker": "Unknown",
+  "en": "So bringing that back, one of the things I was kind of interested in doing, trying to figure out new ways of doing things that might kind of leverage before the internet.",
+  "zh": "所以为了找回它，我感兴趣的事情之一，就是尝试找出新的做事方式，也许可以借鉴互联网之前的东西。"
+ },
+ {
+  "seg": 145,
+  "start": 556.92,
+  "end": 560.661,
+  "speaker": "Unknown",
+  "en": "Way back in the day, wireless networking was what, AlohaNet or something like that?",
+  "zh": "很久以前，无线网络是 AlohaNet 之类的吧？"
+ },
+ {
+  "seg": 146,
+  "start": 560.781,
+  "end": 563.562,
+  "speaker": "Unknown",
+  "en": "It was like wireless through packet modems and things.",
+  "zh": "就是通过分组调制解调器之类的东西做无线传输。"
+ },
+ {
+  "seg": 147,
+  "start": 564.003,
+  "end": 570.866,
+  "speaker": "Unknown",
+  "en": "But now we have really high powerful Wi-Fi on the edge, incredible opportunities to create better mesh protocols.",
+  "zh": "但现在我们在边缘拥有非常强大的 Wi-Fi，有绝佳的机会去创造更好的网状协议。"
+ },
+ {
+  "seg": 148,
+  "start": 571.766,
+  "end": 577.749,
+  "speaker": "Unknown",
+  "en": "And better P2P and kind of really one of the biggest stains of the entire internet is carrier grade NAT.",
+  "zh": "还有更好的 P2P，而整个互联网最大的污点之一就是运营商级 NAT。"
+ },
+ {
+  "seg": 149,
+  "start": 578.449,
+  "end": 582.251,
+  "speaker": "Unknown",
+  "en": "It's just destroying applications ability to do really cool stuff.",
+  "zh": "它正在摧毁应用程序做出真正酷的东西的能力。"
+ },
+ {
+  "seg": 150,
+  "start": 582.591,
+  "end": 585.072,
+  "speaker": "Unknown",
+  "en": "And erasing that is kind of what I'm trying to go for.",
+  "zh": "而消除那种东西正是我想要追求的目标。"
+ },
+ {
+  "seg": 151,
+  "start": 585.272,
+  "end": 585.692,
+  "speaker": "Unknown",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 152,
+  "start": 586.232,
+  "end": 593.575,
+  "speaker": "Unknown",
+  "en": "And also, I think one of the interesting things is we always talk about sort of foreign governments restricting internet access, right?",
+  "zh": "另外我觉得有一个有趣的事情是，我们总是在谈论外国政府限制互联网访问，对吧？"
+ },
+ {
+  "seg": 153,
+  "start": 593.615,
+  "end": 595.136,
+  "speaker": "Unknown",
+  "en": "We harp on China and Russia.",
+  "zh": "我们总是念叨中国和俄罗斯。"
+ },
+ {
+  "seg": 154,
+  "start": 595.676,
+  "end": 598.537,
+  "speaker": "Unknown",
+  "en": "But I was in a state recently that has a know your customer rule.",
+  "zh": "但我最近去过一个有「了解你的客户」规则的州。"
+ },
+ {
+  "seg": 155,
+  "start": 600.478,
+  "end": 605.66,
+  "speaker": "Unknown",
+  "en": "They were requiring or blocking access to certain websites, whatever they define as being inappropriate.",
+  "zh": "他们在要求或者屏蔽对某些网站的访问，不管他们把什么定义为不合适的内容。"
+ },
+ {
+  "seg": 156,
+  "start": 605.68,
+  "end": 608.66,
+  "speaker": "Unknown",
+  "en": "It could be a health website, it could be whatever.",
+  "zh": "可能是一个健康网站，也可能是任何东西。"
+ },
+ {
+  "seg": 157,
+  "start": 609.14,
+  "end": 612.902,
+  "speaker": "Unknown",
+  "en": "And so we're actually seeing the creep of kind of this censorship even within the United States.",
+  "zh": "所以我们实际上正在看到这种审查的蔓延，甚至发生在美国内部。"
+ },
+ {
+  "seg": 158,
+  "start": 612.982,
+  "end": 617.703,
+  "speaker": "Unknown",
+  "en": "Yeah, it's creeping into the U.S. and it's being done in a way that's kind of odd because...",
+  "zh": "是的，它正在蔓延进美国，而且它的实施方式有点奇怪，因为……"
+ },
+ {
+  "seg": 159,
+  "start": 618.403,
+  "end": 624.847,
+  "speaker": "Unknown",
+  "en": "A lot of times they're asking the network to solve an identity problem, and the network doesn't do identity.",
+  "zh": "很多时候他们是在要求网络去解决一个身份问题，而网络并不做身份这件事。"
+ },
+ {
+  "seg": 160,
+  "start": 625.007,
+  "end": 625.587,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 161,
+  "start": 625.627,
+  "end": 628.249,
+  "speaker": "Unknown",
+  "en": "It has a hammer, and it's gonna hammer the nail.",
+  "zh": "它手里有一把锤子，然后它就要去砸钉子。"
+ },
+ {
+  "seg": 162,
+  "start": 628.349,
+  "end": 640.175,
+  "speaker": "Unknown",
+  "en": "An IP address is not your driver's license, and asking people to do network restrictions based off of age and things like that, it makes a lot of sense, but in a different place in the stack.",
+  "zh": "一个 IP 地址不是你的驾照，要求人们基于年龄之类的东西去做网络限制，这说得通，但应该是在协议栈里不同的位置去做。"
+ },
+ {
+  "seg": 163,
+  "start": 640.676,
+  "end": 647.82,
+  "speaker": "Unknown",
+  "en": "If they want to restrict things for certain reasons, then that should be done in a much different way, and not asking the network to do it.",
+  "zh": "如果他们想出于某些原因去限制东西，那应该以一种完全不同的方式来做，而不是要求网络去做。"
+ },
+ {
+  "seg": 164,
+  "start": 648.6,
+  "end": 651.823,
+  "speaker": "Unknown",
+  "en": "So, yeah, I think that we're starting to see that in the United States.",
+  "zh": "所以，是的，我觉得我们开始在美国看到这种情况了。"
+ },
+ {
+  "seg": 165,
+  "start": 651.903,
+  "end": 653.585,
+  "speaker": "Unknown",
+  "en": "We're seeing it definitely elsewhere.",
+  "zh": "我们在其他地方肯定也看到了。"
+ },
+ {
+  "seg": 166,
+  "start": 655.507,
+  "end": 668.278,
+  "speaker": "Unknown",
+  "en": "And it's also not just with like age restrictions, but an interesting problem popped up the other day where Google or a Cisco umbrella broke for like a major carrier because they classified that carrier as France.",
+  "zh": "而且这还不仅仅是年龄限制的问题，前几天还冒出一个有趣的问题，Google 或者说 Cisco Umbrella 搞挂了一个大型运营商，因为他们把那个运营商归类为法国。"
+ },
+ {
+  "seg": 167,
+  "start": 669.039,
+  "end": 673.002,
+  "speaker": "Unknown",
+  "en": "They're not even in France, really, as far as their corporate structure goes.",
+  "zh": "就其公司架构而言，他们其实根本不在法国。"
+ },
+ {
+  "seg": 168,
+  "start": 673.082,
+  "end": 678.746,
+  "speaker": "Unknown",
+  "en": "But France had a rule requiring them to block like 100 plus piracy sites.",
+  "zh": "但法国有一条规则要求他们屏蔽一百多个盗版网站。"
+ },
+ {
+  "seg": 169,
+  "start": 679.327,
+  "end": 681.368,
+  "speaker": "Unknown",
+  "en": "And they said, no, we're going to go scorched earth.",
+  "zh": "然后他们说，不行，我们要来个焦土政策。"
+ },
+ {
+  "seg": 170,
+  "start": 681.408,
+  "end": 682.549,
+  "speaker": "Unknown",
+  "en": "We're just going to block France.",
+  "zh": "我们干脆把整个法国都屏蔽掉。"
+ },
+ {
+  "seg": 171,
+  "start": 684.71,
+  "end": 694.496,
+  "speaker": "Unknown",
+  "en": "Then there's the blast radius of that, which is, okay, well then if your geo provider accidentally identifies somebody's wrong location, then you're also now part of that policy.",
+  "zh": "然后这就有爆炸半径的问题了，就是，好吧，那如果你的地理位置提供商意外识别错了某人的位置，那你现在也被卷进那个政策里了。"
+ },
+ {
+  "seg": 172,
+  "start": 694.737,
+  "end": 695.077,
+  "speaker": "Unknown",
+  "en": "Oh yeah.",
+  "zh": "哦是啊。"
+ },
+ {
+  "seg": 173,
+  "start": 695.357,
+  "end": 696.958,
+  "speaker": "Unknown",
+  "en": "And it's terrible.",
+  "zh": "那太糟糕了。"
+ },
+ {
+  "seg": 174,
+  "start": 697.078,
+  "end": 699.22,
+  "speaker": "Unknown",
+  "en": "Those classifications are always the worst.",
+  "zh": "那些分类总是最糟糕的。"
+ },
+ {
+  "seg": 175,
+  "start": 699.28,
+  "end": 708.266,
+  "speaker": "Unknown",
+  "en": "I mean, we were looking at an investment opportunity in a company that makes chatbots that are focused on more like partnership type stuff or companionship type stuff.",
+  "zh": "我是说，我们当时在看一个投资机会，是一家做聊天机器人的公司，专注于更多类似伙伴关系或者陪伴类型的东西。"
+ },
+ {
+  "seg": 176,
+  "start": 708.846,
+  "end": 712.989,
+  "speaker": "Unknown",
+  "en": "And half of the classifications engines classified it as adult content.",
+  "zh": "而分类引擎里有一半把它归类为成人内容。"
+ },
+ {
+  "seg": 177,
+  "start": 713.609,
+  "end": 719.597,
+  "speaker": "Unknown",
+  "en": "And you're just sort of like, okay, well, this is like a legitimate, like, you know, e-partner, e-spouse site.",
+  "zh": "你就会觉得，好吧，这明明是一个正规的、你知道的，电子伴侣、电子配偶网站。"
+ },
+ {
+  "seg": 178,
+  "start": 719.697,
+  "end": 722.06,
+  "speaker": "Unknown",
+  "en": "Like, it's not doing the untoward stuff.",
+  "zh": "它并没有做那些不正当的事情。"
+ },
+ {
+  "seg": 179,
+  "start": 722.3,
+  "end": 723.962,
+  "speaker": "Unknown",
+  "en": "Yeah, we've run into that a little bit, too.",
+  "zh": "是的，我们也稍微遇到过这种情况。"
+ },
+ {
+  "seg": 180,
+  "start": 724.002,
+  "end": 727.367,
+  "speaker": "Unknown",
+  "en": "Dox, because it's got two X's in it, and then also, there's doxing.",
+  "zh": "Dox，因为它里面有两个 X，另外还有 doxing(人肉搜索)。"
+ },
+ {
+  "seg": 181,
+  "start": 727.447,
+  "end": 728.929,
+  "speaker": "Unknown",
+  "en": "Oh, you're hitting a signature, yeah?",
+  "zh": "哦，你是撞上了一个特征签名，是吧？"
+ },
+ {
+  "seg": 182,
+  "start": 728.989,
+  "end": 729.389,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 183,
+  "start": 730.61,
+  "end": 744.043,
+  "speaker": "Unknown",
+  "en": "But it actually worked out in our favor because we got flagged, I think, with Claude, and then we applied with, you know, the proper means to go through their registration process, and they opened up everything for us, which was quite nice.",
+  "zh": "但它实际上反而对我们有利，因为我们被标记了，我记得是 Claude 那边，然后我们通过正规途径走了他们的注册流程，他们给我们开放了所有权限，相当不错。"
+ },
+ {
+  "seg": 184,
+  "start": 744.063,
+  "end": 744.343,
+  "speaker": "Unknown",
+  "en": "Oh, nice.",
+  "zh": "哦，不错。"
+ },
+ {
+  "seg": 185,
+  "start": 744.483,
+  "end": 744.863,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "那太好了。"
+ },
+ {
+  "seg": 186,
+  "start": 745.124,
+  "end": 745.324,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 187,
+  "start": 745.464,
+  "end": 750.188,
+  "speaker": "Unknown",
+  "en": "And so maybe, I mean, I think so, you know, this creeping sort of...",
+  "zh": "所以也许，我是说，我觉得，你知道，这种不断蔓延的……"
+ },
+ {
+  "seg": 188,
+  "start": 750.809,
+  "end": 759.231,
+  "speaker": "Unknown",
+  "en": "The creeping information totalitarianism has given birth to a whole bunch of products of which we know we're all super familiar with, right?",
+  "zh": "这种蔓延的信息极权主义催生了一大堆产品，我们大家都知道也都非常熟悉，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 759.251,
+  "end": 761.952,
+  "speaker": "Unknown",
+  "en": "And VPNs is probably the most common.",
+  "zh": "而 VPN 可能是最常见的一种。"
+ },
+ {
+  "seg": 190,
+  "start": 762.852,
+  "end": 768.053,
+  "speaker": "Unknown",
+  "en": "And so maybe it'd be great to hear a little bit about sort of why the existing tools aren't enough.",
+  "zh": "所以也许可以稍微聊聊，为什么现有的工具不够用。"
+ },
+ {
+  "seg": 191,
+  "start": 768.213,
+  "end": 769.254,
+  "speaker": "Unknown",
+  "en": "Why are you building docs?",
+  "zh": "你为什么要构建 docs？"
+ },
+ {
+  "seg": 192,
+  "start": 769.274,
+  "end": 770.074,
+  "speaker": "Unknown",
+  "en": "How is it different?",
+  "zh": "它有什么不同？"
+ },
+ {
+  "seg": 193,
+  "start": 770.114,
+  "end": 773.975,
+  "speaker": "Unknown",
+  "en": "Maybe we could double click a bit on sort of your thoughts around it because that's the interesting part.",
+  "zh": "也许我们可以深入挖掘一下你围绕这件事的想法，因为那才是有意思的部分。"
+ },
+ {
+  "seg": 194,
+  "start": 774.295,
+  "end": 779.478,
+  "speaker": "Unknown",
+  "en": "So a lot of the VPNs, I would say, are just entry and exit points.",
+  "zh": "很多 VPN，我要说，其实只是入口和出口点。"
+ },
+ {
+  "seg": 195,
+  "start": 779.758,
+  "end": 793.967,
+  "speaker": "Unknown",
+  "en": "So they lease a server from a landlord and set up their software on it, and then you connect to it, encrypted, and then your requests and things that you do on the internet come from that node.",
+  "zh": "他们从一个房东那里租一台服务器，在上面装好他们的软件，然后你加密连接到它，接着你在互联网上的请求和你做的那些事情就从那个节点发出。"
+ },
+ {
+  "seg": 196,
+  "start": 794.107,
+  "end": 798.112,
+  "speaker": "Unknown",
+  "en": "And that's to solve your IP address as your identity problem.",
+  "zh": "而这是为了解决把你的 IP 地址当作你的身份的问题。"
+ },
+ {
+  "seg": 197,
+  "start": 798.132,
+  "end": 801.436,
+  "speaker": "Unknown",
+  "en": "Yeah, it kind of is a way around that, I guess.",
+  "zh": "是的，我猜它算是一种绕过那个问题的办法。"
+ },
+ {
+  "seg": 198,
+  "start": 801.456,
+  "end": 805.681,
+  "speaker": "Unknown",
+  "en": "But it's also kind of people feel like there's more security to that.",
+  "zh": "但人们也会觉得那样更有安全感。"
+ },
+ {
+  "seg": 199,
+  "start": 806.703,
+  "end": 811.188,
+  "speaker": "Unknown",
+  "en": "And I could argue against that, but it's very basic.",
+  "zh": "我可以反驳这一点，但它确实非常基础。"
+ },
+ {
+  "seg": 200,
+  "start": 811.749,
+  "end": 812.169,
+  "speaker": "Unknown",
+  "en": "It's not...",
+  "zh": "并不是……"
+ },
+ {
+  "seg": 201,
+  "start": 812.67,
+  "end": 816.613,
+  "speaker": "Unknown",
+  "en": "If you think about it, those networks are real-time adjustable.",
+  "zh": "你想想看，那些网络是实时可调的。"
+ },
+ {
+  "seg": 202,
+  "start": 817.033,
+  "end": 824.958,
+  "speaker": "Unknown",
+  "en": "You could apply APIs to everything, and all of a sudden you could say, all right, well, here's an API that your agent can use that can build an entire network.",
+  "zh": "你可以给一切东西套上 API，突然之间你就可以说，好，这里有一个你的智能体可以用的 API，它能构建一整个网络。"
+ },
+ {
+  "seg": 203,
+  "start": 825.458,
+  "end": 828.961,
+  "speaker": "Unknown",
+  "en": "And you're just using the VPN protocols as a way to get into that area.",
+  "zh": "而你只是把 VPN 协议当作进入那个领域的一种方式。"
+ },
+ {
+  "seg": 204,
+  "start": 829.481,
+  "end": 836.646,
+  "speaker": "Unknown",
+  "en": "And then inside, we can create either, you can call it a walled garden or a parallel internet or whatever you want to call it, but we built an entire mesh network.",
+  "zh": "然后在里面，我们可以创建——你可以叫它围墙花园，或者平行互联网，或者随你怎么叫——总之我们建了一整个网状网络。"
+ },
+ {
+  "seg": 205,
+  "start": 837.326,
+  "end": 840.469,
+  "speaker": "Unknown",
+  "en": "196 different domains that don't exist on the internet.",
+  "zh": "196 个互联网上不存在的域名。"
+ },
+ {
+  "seg": 206,
+  "start": 840.489,
+  "end": 851.719,
+  "speaker": "Unknown",
+  "en": "You can register domains, you can lease IP addresses, you can lease mesh addresses or public addresses, create policy, all within like milliseconds.",
+  "zh": "你可以注册域名，可以租用 IP 地址，可以租用网状地址或公共地址，创建策略，全都在几毫秒之内完成。"
+ },
+ {
+  "seg": 207,
+  "start": 851.739,
+  "end": 854.061,
+  "speaker": "Unknown",
+  "en": "So it's a whole different ecosystem in there.",
+  "zh": "所以那里面是一套完全不同的生态系统。"
+ },
+ {
+  "seg": 208,
+  "start": 854.781,
+  "end": 857.123,
+  "speaker": "Unknown",
+  "en": "And then on top of that, we've been able to use that",
+  "zh": "而在此基础上，我们已经能够利用那个"
+ },
+ {
+  "seg": 209,
+  "start": 858.164,
+  "end": 864.608,
+  "speaker": "Unknown",
+  "en": "System since we can kind of control it to create P2P applications that actually work.",
+  "zh": "系统，因为我们多少能控制它，来创建真正能用的 P2P 应用。"
+ },
+ {
+  "seg": 210,
+  "start": 864.849,
+  "end": 875.195,
+  "speaker": "Unknown",
+  "en": "So like phone calling, video call, chat, all of those things that sit best of class on top of the app run across the mesh network and it's all encrypted.",
+  "zh": "比如打电话、视频通话、聊天，所有那些在应用之上做到同类最佳的东西都跑在这个网状网络上，而且全部是加密的。"
+ },
+ {
+  "seg": 211,
+  "start": 875.476,
+  "end": 875.816,
+  "speaker": "Unknown",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 212,
+  "start": 876.056,
+  "end": 881.84,
+  "speaker": "Unknown",
+  "en": "No phone numbers, no email addresses, no names, no nothing.",
+  "zh": "没有电话号码，没有电子邮箱地址，没有姓名，什么都没有。"
+ },
+ {
+  "seg": 213,
+  "start": 882.14,
+  "end": 885.983,
+  "speaker": "Unknown",
+  "en": "So it's funny, it's funny and that's phenomenal because I think",
+  "zh": "所以有意思，很有意思，而且这太惊人了，因为我觉得"
+ },
+ {
+  "seg": 214,
+  "start": 886.743,
+  "end": 890.424,
+  "speaker": "Unknown",
+  "en": "You know, we're both pretty well steeped in the security space.",
+  "zh": "你知道，我们俩都在安全领域浸润颇深。"
+ },
+ {
+  "seg": 215,
+  "start": 891.184,
+  "end": 901.067,
+  "speaker": "Unknown",
+  "en": "And, you know, I think I come from sort of a, I've had it drilled into my head that if you want to have a private conversation, don't do it anywhere with anything with a battery or an electrical signal, right?",
+  "zh": "而且，你知道，我觉得我算是——这事在我脑子里根深蒂固：如果你想进行私密对话，别在任何地方用任何带电池或电信号的东西，对吧？"
+ },
+ {
+  "seg": 216,
+  "start": 901.347,
+  "end": 902.667,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 217,
+  "start": 902.787,
+  "end": 909.889,
+  "speaker": "Unknown",
+  "en": "And so what you're saying is you've actually built this sort of like transient way for folks to connect and chat without there being any record.",
+  "zh": "所以你说的意思是，你实际上搭建了这样一种临时性的方式，让人们可以在没有任何记录的情况下连接和聊天。"
+ },
+ {
+  "seg": 218,
+  "start": 910.169,
+  "end": 912.592,
+  "speaker": "Unknown",
+  "en": "Yeah, so you create your account.",
+  "zh": "是的，你创建你的账户。"
+ },
+ {
+  "seg": 219,
+  "start": 912.852,
+  "end": 916.457,
+  "speaker": "Unknown",
+  "en": "You just have to prove you're human by doing a little puzzle.",
+  "zh": "你只需要通过做一个小谜题来证明你是人类。"
+ },
+ {
+  "seg": 220,
+  "start": 916.677,
+  "end": 919.24,
+  "speaker": "Unknown",
+  "en": "Once you do that, you get a token that's yours.",
+  "zh": "一旦你做到了，你就会得到一个属于你的令牌。"
+ },
+ {
+  "seg": 221,
+  "start": 920.061,
+  "end": 920.622,
+  "speaker": "Unknown",
+  "en": "You can change it.",
+  "zh": "你可以更换它。"
+ },
+ {
+  "seg": 222,
+  "start": 921.483,
+  "end": 923.225,
+  "speaker": "Unknown",
+  "en": "You can delete your account, make a new one.",
+  "zh": "你可以删除账户，再建一个新的。"
+ },
+ {
+  "seg": 223,
+  "start": 924.046,
+  "end": 928.312,
+  "speaker": "Unknown",
+  "en": "But once you're in there, you can create a certificate and share it with a friend.",
+  "zh": "但一旦你进去了，你就可以创建一个证书并分享给朋友。"
+ },
+ {
+  "seg": 224,
+  "start": 928.871,
+  "end": 933.675,
+  "speaker": "Unknown",
+  "en": "You don't really know you're doing it, it just says, you invite friend, and it looks kind of like normal.",
+  "zh": "你其实感觉不到自己在做这件事，它只是显示「你邀请朋友」，看起来跟平常差不多。"
+ },
+ {
+  "seg": 225,
+  "start": 933.915,
+  "end": 939.699,
+  "speaker": "Unknown",
+  "en": "But it's actually doing a cryptographic exchange with each other, and then you have extra privileges.",
+  "zh": "但它实际上在双方之间做了一次密码学交换，然后你就拥有了额外的权限。"
+ },
+ {
+  "seg": 226,
+  "start": 939.96,
+  "end": 944.343,
+  "speaker": "Unknown",
+  "en": "I think the key lesson of PKI was actually, if you tell people it's PKI, it's not going to work.",
+  "zh": "我觉得 PKI 的关键教训其实是：如果你告诉人们这是 PKI，那它就行不通。"
+ },
+ {
+  "seg": 227,
+  "start": 944.963,
+  "end": 946.985,
+  "speaker": "Unknown",
+  "en": "You have to kind of abstract that layer away, right?",
+  "zh": "你得把那一层抽象掉，对吧？"
+ },
+ {
+  "seg": 228,
+  "start": 947.085,
+  "end": 951.592,
+  "speaker": "Unknown",
+  "en": "Yeah, well, it's not even PKI, it's private key, it's not public.",
+  "zh": "嗯，其实这连 PKI 都不算，这是私钥，不是公钥。"
+ },
+ {
+  "seg": 229,
+  "start": 951.672,
+  "end": 955.578,
+  "speaker": "Unknown",
+  "en": "So anyway, you and your friend just decided, okay, we trust each other.",
+  "zh": "总之，你和你的朋友只是确定了：好，我们彼此信任。"
+ },
+ {
+  "seg": 230,
+  "start": 956.179,
+  "end": 961.046,
+  "speaker": "Unknown",
+  "en": "Now that unlocks the ability for the phones over the mesh network to talk to each other directly.",
+  "zh": "这就解锁了让两部手机通过网状网络直接对话的能力。"
+ },
+ {
+  "seg": 231,
+  "start": 961.757,
+  "end": 967.94,
+  "speaker": "Unknown",
+  "en": "And then all of a sudden you have all these really cool file transfer stuff, which has no file size limit.",
+  "zh": "突然之间你就有了所有这些非常酷的文件传输功能，没有文件大小限制。"
+ },
+ {
+  "seg": 232,
+  "start": 968.2,
+  "end": 974.402,
+  "speaker": "Unknown",
+  "en": "The really big problem is on WhatsApp, Signal, iMessage, Telegram, and by the way, Telegram's creepy.",
+  "zh": "真正的大问题在于 WhatsApp、Signal、iMessage、Telegram——顺便说一句，Telegram 挺让人毛骨悚然的。"
+ },
+ {
+  "seg": 233,
+  "start": 976.363,
+  "end": 977.544,
+  "speaker": "Unknown",
+  "en": "All of those applications",
+  "zh": "所有那些应用"
+ },
+ {
+  "seg": 234,
+  "start": 978.404,
+  "end": 981.427,
+  "speaker": "Unknown",
+  "en": "Disguise themselves as you sending something to somebody else.",
+  "zh": "都把自己伪装成你在给某个人发送东西。"
+ },
+ {
+  "seg": 235,
+  "start": 982.007,
+  "end": 986.732,
+  "speaker": "Unknown",
+  "en": "But you're really sending something to a server, and then the server is then having the other person pull that.",
+  "zh": "但你实际上是先把东西发给一个服务器，然后由服务器让另一个人去拉取。"
+ },
+ {
+  "seg": 236,
+  "start": 987.332,
+  "end": 989.775,
+  "speaker": "Unknown",
+  "en": "So if you upload a file, you're uploading it.",
+  "zh": "所以你上传一个文件，就是在做上传。"
+ },
+ {
+  "seg": 237,
+  "start": 990.215,
+  "end": 996.281,
+  "speaker": "Unknown",
+  "en": "And also the upload infrastructure isn't always as distributed or might even be a little bit slow.",
+  "zh": "而且上传的基础设施并不总是分布式的，甚至可能有点慢。"
+ },
+ {
+  "seg": 238,
+  "start": 997.021,
+  "end": 1000.344,
+  "speaker": "Unknown",
+  "en": "You might be in one part of the US and you're uploading it to another, so the upload's a little slow.",
+  "zh": "你可能在美国的一个地方，却要把文件上传到另一个地方，所以上传会有点慢。"
+ },
+ {
+  "seg": 239,
+  "start": 1001.227,
+  "end": 1005.11,
+  "speaker": "Unknown",
+  "en": "So when we use our applications, it extracts all of that.",
+  "zh": "而当我们使用我们的应用时，它把这一切全都去掉了。"
+ },
+ {
+  "seg": 240,
+  "start": 1005.23,
+  "end": 1005.711,
+  "speaker": "Unknown",
+  "en": "It's gone.",
+  "zh": "没有了。"
+ },
+ {
+  "seg": 241,
+  "start": 1006.151,
+  "end": 1011.916,
+  "speaker": "Unknown",
+  "en": "So it's really no middle man, no server in the middle, and your phone becomes a server to your friend.",
+  "zh": "所以真的没有中间人，中间没有服务器，你的手机就成了你朋友的服务器。"
+ },
+ {
+  "seg": 242,
+  "start": 1012.497,
+  "end": 1013.137,
+  "speaker": "Unknown",
+  "en": "And it's fast.",
+  "zh": "而且很快。"
+ },
+ {
+  "seg": 243,
+  "start": 1013.497,
+  "end": 1014.718,
+  "speaker": "Unknown",
+  "en": "It works great.",
+  "zh": "效果很好。"
+ },
+ {
+  "seg": 244,
+  "start": 1014.758,
+  "end": 1017.361,
+  "speaker": "Unknown",
+  "en": "You can send 20 gigabyte file to each other.",
+  "zh": "你们可以互相发送 20 GB 的文件。"
+ },
+ {
+  "seg": 245,
+  "start": 1017.741,
+  "end": 1017.861,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 246,
+  "start": 1017.881,
+  "end": 1020.163,
+  "speaker": "Unknown",
+  "en": "20 gigabytes, private network, point to point.",
+  "zh": "20 GB，私有网络，点对点。"
+ },
+ {
+  "seg": 247,
+  "start": 1020.283,
+  "end": 1021.164,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 248,
+  "start": 1021.224,
+  "end": 1023.467,
+  "speaker": "Unknown",
+  "en": "With like three layers, four layers of encryption.",
+  "zh": "还有大概三层、四层的加密。"
+ },
+ {
+  "seg": 249,
+  "start": 1023.828,
+  "end": 1024.188,
+  "speaker": "Unknown",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 250,
+  "start": 1024.389,
+  "end": 1026.532,
+  "speaker": "Unknown",
+  "en": "So, yeah, it's post-quantum.",
+  "zh": "所以，是的，这是后量子的。"
+ },
+ {
+  "seg": 251,
+  "start": 1026.912,
+  "end": 1029.656,
+  "speaker": "Unknown",
+  "en": "And I mean, these are really nice tools to have.",
+  "zh": "我是说，这些真的是很好用的工具。"
+ },
+ {
+  "seg": 252,
+  "start": 1029.816,
+  "end": 1030.016,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 253,
+  "start": 1030.437,
+  "end": 1035.604,
+  "speaker": "Unknown",
+  "en": "So, I don't know, when you start stacking up all of these things, DocsNet is kind of like this giant...",
+  "zh": "译者注：本段沿用上一段原文拼写。"
+ },
+ {
+  "seg": 254,
+  "start": 1036.485,
+  "end": 1038.487,
+  "speaker": "Unknown",
+  "en": "Toolkit for freedom of speech, I guess.",
+  "zh": "我想说是，言论自由的工具箱。"
+ },
+ {
+  "seg": 255,
+  "start": 1039.908,
+  "end": 1040.888,
+  "speaker": "Unknown",
+  "en": "Freedom from surveillance.",
+  "zh": "免受监控的自由。"
+ },
+ {
+  "seg": 256,
+  "start": 1041.069,
+  "end": 1041.529,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 257,
+  "start": 1041.669,
+  "end": 1041.889,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 258,
+  "start": 1041.929,
+  "end": 1042.79,
+  "speaker": "Unknown",
+  "en": "We should talk about that, too.",
+  "zh": "我们也应该聊聊那个。"
+ },
+ {
+  "seg": 259,
+  "start": 1042.81,
+  "end": 1043.771,
+  "speaker": "Unknown",
+  "en": "Which is what's interesting.",
+  "zh": "这正是有意思的地方。"
+ },
+ {
+  "seg": 260,
+  "start": 1043.811,
+  "end": 1048.915,
+  "speaker": "Unknown",
+  "en": "I mean, you mentioned that, you know, Telegram is creepy.",
+  "zh": "我是说，你提到过，你知道的，Telegram 很让人毛骨悚然。"
+ },
+ {
+  "seg": 261,
+  "start": 1049.595,
+  "end": 1051.216,
+  "speaker": "Unknown",
+  "en": "I would say I think I find all...",
+  "zh": "我想说，我觉得所有……"
+ },
+ {
+  "seg": 262,
+  "start": 1052.457,
+  "end": 1059.86,
+  "speaker": "Unknown",
+  "en": "It just seems like a lot of the VPN, I don't want to say all because it's an absolutist term, but it seems like a lot of the VPNs are very creepy, right?",
+  "zh": "就是感觉很多 VPN——我不想说所有，因为那是个绝对化的词——但感觉很多 VPN 都非常让人毛骨悚然，对吧？"
+ },
+ {
+  "seg": 263,
+  "start": 1060.04,
+  "end": 1072.344,
+  "speaker": "Unknown",
+  "en": "And without bashing on anyone specific, I think for me the most illustrative story was in the news, there was actually an issue where a bunch of organized criminals were arrested across the world.",
+  "zh": "在不针对任何具体的人进行抨击的情况下，对我来说最有代表性的故事是新闻里的，当时实际上发生了一件事，世界各地有一大批有组织犯罪分子被捕。"
+ },
+ {
+  "seg": 264,
+  "start": 1072.524,
+  "end": 1079.767,
+  "speaker": "Unknown",
+  "en": "Australia, I believe, had arrested some, the US had arrested some, and it turned out that the FBI had built a secure messaging app.",
+  "zh": "我记得澳大利亚逮捕了一些，美国逮捕了一些，结果发现是 FBI 自己做了一个加密通讯应用。"
+ },
+ {
+  "seg": 265,
+  "start": 1080.747,
+  "end": 1083.75,
+  "speaker": "Unknown",
+  "en": "And then marketed it exclusively to organized criminal groups.",
+  "zh": "然后专门把它推销给有组织犯罪团伙。"
+ },
+ {
+  "seg": 266,
+  "start": 1083.79,
+  "end": 1088.734,
+  "speaker": "Unknown",
+  "en": "And so, these guys are like, don't trust Signal, because that's the NSA.",
+  "zh": "于是，这些人就像在说，别信 Signal，因为那是 NSA 的。"
+ },
+ {
+  "seg": 267,
+  "start": 1088.835,
+  "end": 1091.777,
+  "speaker": "Unknown",
+  "en": "Let's use this app, because this is safe, and only five people use it.",
+  "zh": "咱们用这个应用，因为它安全，而且只有五个人在用。"
+ },
+ {
+  "seg": 268,
+  "start": 1092.298,
+  "end": 1096.021,
+  "speaker": "Unknown",
+  "en": "And it turned out that they all got indicted, and I think most of them are in prison now.",
+  "zh": "结果他们全都被起诉了，我想现在大部分人都在监狱里。"
+ },
+ {
+  "seg": 269,
+  "start": 1097.462,
+  "end": 1101.808,
+  "speaker": "Unknown",
+  "en": "And so like in the US, right, we've seen this activity.",
+  "zh": "所以就像在美国，对吧，我们已经见过这类活动。"
+ },
+ {
+  "seg": 270,
+  "start": 1102.629,
+  "end": 1110.74,
+  "speaker": "Unknown",
+  "en": "And then if you look on any app store and you look for VPN, you probably find 50 VPNs that are all posted abroad.",
+  "zh": "然后如果你去任何应用商店搜 VPN，你可能会找到 50 个 VPN，全都是国外发布的。"
+ },
+ {
+  "seg": 271,
+  "start": 1110.8,
+  "end": 1113.283,
+  "speaker": "Unknown",
+  "en": "Well, if it's free, there's nothing free.",
+  "zh": "嗯，如果它是免费的，那就没有什么是免费的。"
+ },
+ {
+  "seg": 272,
+  "start": 1114.558,
+  "end": 1116.5,
+  "speaker": "Unknown",
+  "en": "And if you're not paying for it, you are the product.",
+  "zh": "而且如果你没有为它付费，那你就是产品。"
+ },
+ {
+  "seg": 273,
+  "start": 1116.56,
+  "end": 1117.66,
+  "speaker": "Unknown",
+  "en": "You're being eaten alive.",
+  "zh": "你正在被活生生地吃掉。"
+ },
+ {
+  "seg": 274,
+  "start": 1117.68,
+  "end": 1120.102,
+  "speaker": "Unknown",
+  "en": "You know, the United States has pretty cool laws.",
+  "zh": "你知道的，美国有一些相当不错的法律。"
+ },
+ {
+  "seg": 275,
+  "start": 1120.162,
+  "end": 1122.103,
+  "speaker": "Unknown",
+  "en": "We can use them to protect people.",
+  "zh": "我们可以用它们来保护人们。"
+ },
+ {
+  "seg": 276,
+  "start": 1122.964,
+  "end": 1128.608,
+  "speaker": "Unknown",
+  "en": "And so DoxNet's US-based, but we also have a Swiss company that handles all of European operations.",
+  "zh": "所以 DoxNet 是总部在美国的，但我们还有一家瑞士公司，负责所有的欧洲业务。"
+ },
+ {
+  "seg": 277,
+  "start": 1128.628,
+  "end": 1132.491,
+  "speaker": "Unknown",
+  "en": "So there's separation between the operations between the two.",
+  "zh": "我是说，你知道，这不只是——有意思的是，因为我们喜欢谈论民族国家。"
+ },
+ {
+  "seg": 278,
+  "start": 1133.135,
+  "end": 1135.619,
+  "speaker": "Unknown",
+  "en": "Regions, we're doing other regions like that too.",
+  "zh": "地区方面，我们也在用类似的方式做其他地区。"
+ },
+ {
+  "seg": 279,
+  "start": 1136.18,
+  "end": 1141.247,
+  "speaker": "Unknown",
+  "en": "So it's, you know, corporate governance actually matters in these types of situations.",
+  "zh": "所以，你知道，公司治理在这类情况下其实很重要。"
+ },
+ {
+  "seg": 280,
+  "start": 1141.307,
+  "end": 1148.337,
+  "speaker": "Unknown",
+  "en": "But like, you know, I just don't feel comfortable with my data going to a company that doesn't talk about who owns it.",
+  "zh": "但比如说，你知道，我就是不太放心把我的数据交给一家不谈谁拥有它的公司。"
+ },
+ {
+  "seg": 281,
+  "start": 1150.443,
+  "end": 1152.466,
+  "speaker": "Unknown",
+  "en": "Why they exist other than privacy.",
+  "zh": "除了隐私之外，它们为什么存在。"
+ },
+ {
+  "seg": 282,
+  "start": 1153.807,
+  "end": 1163.659,
+  "speaker": "Unknown",
+  "en": "You know, we've made a very, very conscious decision that we're very open about what we're doing, who's involved, why the decisions have been made those ways.",
+  "zh": "你知道，我们做了一个非常非常审慎的决定，就是对我们正在做的事情、涉及的人、为什么做出这样的决定，都保持非常公开。"
+ },
+ {
+  "seg": 283,
+  "start": 1163.68,
+  "end": 1167.384,
+  "speaker": "Unknown",
+  "en": "And it's also kind of to drive community too, but...",
+  "zh": "这在一定程度上也是为了推动社区建设，不过……"
+ },
+ {
+  "seg": 284,
+  "start": 1168.265,
+  "end": 1171.268,
+  "speaker": "Unknown",
+  "en": "Yeah, there are creepy VPNs out there.",
+  "zh": "是的，外面确实有些很诡异的 VPN。"
+ },
+ {
+  "seg": 285,
+  "start": 1171.388,
+  "end": 1171.748,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是啊。"
+ },
+ {
+  "seg": 286,
+  "start": 1171.828,
+  "end": 1172.169,
+  "speaker": "Unknown",
+  "en": "Really creepy.",
+  "zh": "真的很诡异。"
+ },
+ {
+  "seg": 287,
+  "start": 1172.209,
+  "end": 1177.113,
+  "speaker": "Unknown",
+  "en": "I mean, and, you know, and it's not just, I mean, it's funny because we like to talk about nation states.",
+  "zh": "我是说,你知道,而且不只是,我是说,有意思的是因为我们喜欢谈论国家行为体。"
+ },
+ {
+  "seg": 288,
+  "start": 1177.153,
+  "end": 1179.135,
+  "speaker": "Unknown",
+  "en": "We like to talk about intelligence agencies, right?",
+  "zh": "我们喜欢谈论情报机构，对吧？"
+ },
+ {
+  "seg": 289,
+  "start": 1179.155,
+  "end": 1181.517,
+  "speaker": "Unknown",
+  "en": "Like CIA, NSA, these are all super cool.",
+  "zh": "比如 CIA、NSA，这些都很酷。"
+ },
+ {
+  "seg": 290,
+  "start": 1182.498,
+  "end": 1186.241,
+  "speaker": "Unknown",
+  "en": "But in reality, like the risks are a lot more low level than that, right?",
+  "zh": "但实际上，风险要低级得多，对吧？"
+ },
+ {
+  "seg": 291,
+  "start": 1187.622,
+  "end": 1201.83,
+  "speaker": "Unknown",
+  "en": "You know, for some of these, there were instances at the beginning of sort of the crypto, the initial cryptocurrency waves where people's accounts were getting drained and they were using some of these services that were in other countries.",
+  "zh": "你知道，对于其中一些，在加密货币、最初的加密货币浪潮初期，曾发生过人们的账户被掏空的事件，而他们用的就是一些位于其他国家的这类服务。"
+ },
+ {
+  "seg": 292,
+  "start": 1201.87,
+  "end": 1209.414,
+  "speaker": "Unknown",
+  "en": "And it turns out that like, you know, in some of these countries, you have the meshing together of the intelligent state apparatus and organized crime, right?",
+  "zh": "结果发现，你知道，在其中一些国家，情报国家机器和有组织犯罪是交织在一起的，对吧？"
+ },
+ {
+  "seg": 293,
+  "start": 1209.514,
+  "end": 1213.856,
+  "speaker": "Unknown",
+  "en": "And so you see where these things start to bleed into each other.",
+  "zh": "所以你能看到这些东西开始互相渗透。"
+ },
+ {
+  "seg": 294,
+  "start": 1214.096,
+  "end": 1216.838,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, and then people,",
+  "zh": "是的，我是说，然后人们，"
+ },
+ {
+  "seg": 295,
+  "start": 1217.777,
+  "end": 1219.178,
+  "speaker": "Unknown",
+  "en": "Look at the policies for the VPNs.",
+  "zh": "去看那些 VPN 的政策。"
+ },
+ {
+  "seg": 296,
+  "start": 1219.198,
+  "end": 1220.418,
+  "speaker": "Unknown",
+  "en": "Oh, no logs, no this.",
+  "zh": "哦，无日志，无这个无那个。"
+ },
+ {
+  "seg": 297,
+  "start": 1220.718,
+  "end": 1224.82,
+  "speaker": "Unknown",
+  "en": "And the question is like, okay, well, whose servers are those?",
+  "zh": "而问题就是，好吧，那些服务器是谁的？"
+ },
+ {
+  "seg": 298,
+  "start": 1225.38,
+  "end": 1230.122,
+  "speaker": "Unknown",
+  "en": "Are they owned by big brand VPN or are they leased?",
+  "zh": "是大品牌 VPN 自己拥有的，还是租来的？"
+ },
+ {
+  "seg": 299,
+  "start": 1230.562,
+  "end": 1232.503,
+  "speaker": "Unknown",
+  "en": "And if they're leased, who are they leased from?",
+  "zh": "如果是租的，又是从谁那里租的？"
+ },
+ {
+  "seg": 300,
+  "start": 1233.423,
+  "end": 1235.604,
+  "speaker": "Unknown",
+  "en": "And what are those people doing with the data?",
+  "zh": "那这些人拿数据在做什么？"
+ },
+ {
+  "seg": 301,
+  "start": 1235.964,
+  "end": 1237.184,
+  "speaker": "Unknown",
+  "en": "And what are their policies?",
+  "zh": "他们的政策是什么？"
+ },
+ {
+  "seg": 302,
+  "start": 1237.785,
+  "end": 1239.645,
+  "speaker": "Unknown",
+  "en": "But there's that whole underbelly.",
+  "zh": "但那里有整个阴暗面。"
+ },
+ {
+  "seg": 303,
+  "start": 1240.466,
+  "end": 1243.747,
+  "speaker": "Unknown",
+  "en": "And learning about that has been difficult because",
+  "zh": "了解这些一直很困难，因为"
+ },
+ {
+  "seg": 304,
+  "start": 1244.679,
+  "end": 1255.564,
+  "speaker": "Unknown",
+  "en": "I personally was not up to be building infrastructure all over the world as rapidly as I could, but I ended up realizing that that was, you know, if it's not your equipment, you can't set policy.",
+  "zh": "我个人没办法以我可能做到的速度在世界各地建设基础设施，但后来我意识到，你知道，如果不是你的设备，你就无法制定政策。"
+ },
+ {
+  "seg": 305,
+  "start": 1256.464,
+  "end": 1257.544,
+  "speaker": "Unknown",
+  "en": "It's just, you can't.",
+  "zh": "就是这样，你做不到。"
+ },
+ {
+  "seg": 306,
+  "start": 1258.025,
+  "end": 1264.847,
+  "speaker": "Unknown",
+  "en": "And then the next layer of policy is the carriers and interconnect beyond your cage or whatever it is.",
+  "zh": "然后下一层的政策是机柜之外或者说你那个笼子之外的运营商和互联。"
+ },
+ {
+  "seg": 307,
+  "start": 1265.488,
+  "end": 1268.809,
+  "speaker": "Unknown",
+  "en": "So it's been an incredible amount of work to work around.",
+  "zh": "所以绕开这些要花大量的工作量。"
+ },
+ {
+  "seg": 308,
+  "start": 1271.156,
+  "end": 1274.34,
+  "speaker": "Unknown",
+  "en": "You know, the bare metal as a service kind of creepy underbelly.",
+  "zh": "你知道，裸金属即服务那种令人不安的阴暗面。"
+ },
+ {
+  "seg": 309,
+  "start": 1274.48,
+  "end": 1281.469,
+  "speaker": "Unknown",
+  "en": "And this is like one big difference with I think a lot of folks, right, is that you own the full stack from like software to wire.",
+  "zh": "我想这大概是和很多人相比的一大区别，对吧，就是从软件到线路，你拥有完整的技术栈。"
+ },
+ {
+  "seg": 310,
+  "start": 1281.809,
+  "end": 1288.738,
+  "speaker": "Unknown",
+  "en": "Yeah, software to wire and even all the AI components that run routing and things like that are all on our bare...",
+  "zh": "是啊，从软件到线路，甚至所有负责路由之类的 AI 组件都在我们的裸……"
+ },
+ {
+  "seg": 311,
+  "start": 1289.098,
+  "end": 1290.619,
+  "speaker": "Unknown",
+  "en": "On our metal.",
+  "zh": "在我们的金属上。"
+ },
+ {
+  "seg": 312,
+  "start": 1291.539,
+  "end": 1302.582,
+  "speaker": "Unknown",
+  "en": "Well, and I think that was one of the funny things, I think, when we originally started talking about this was you were incredibly distrusting of large inference and AI providers.",
+  "zh": "嗯，我觉得在我们最初谈论这件事时，有一件挺有意思的事就是你对大型推理和 AI 提供商极度不信任。"
+ },
+ {
+  "seg": 313,
+  "start": 1302.722,
+  "end": 1303.523,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 314,
+  "start": 1303.663,
+  "end": 1305.543,
+  "speaker": "Unknown",
+  "en": "And you've built your own AI stack.",
+  "zh": "而你构建了自己的 AI 技术栈。"
+ },
+ {
+  "seg": 315,
+  "start": 1306.004,
+  "end": 1307.164,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 316,
+  "start": 1307.264,
+  "end": 1310.525,
+  "speaker": "Unknown",
+  "en": "And so, I mean, GPUs are in shortage.",
+  "zh": "那么，我是说，GPU 短缺。"
+ },
+ {
+  "seg": 317,
+  "start": 1310.965,
+  "end": 1312.005,
+  "speaker": "Unknown",
+  "en": "Power is hard to get.",
+  "zh": "电力很难拿到。"
+ },
+ {
+  "seg": 318,
+  "start": 1312.085,
+  "end": 1313.706,
+  "speaker": "Unknown",
+  "en": "Everybody's anti-data center now.",
+  "zh": "现在所有人都反对数据中心。"
+ },
+ {
+  "seg": 319,
+  "start": 1314.006,
+  "end": 1316.547,
+  "speaker": "Unknown",
+  "en": "How did you pull that off in probably six months?",
+  "zh": "你是怎么大概在六个月内做到的？"
+ },
+ {
+  "seg": 320,
+  "start": 1317.455,
+  "end": 1318.175,
+  "speaker": "Unknown",
+  "en": "Very efficiently.",
+  "zh": "非常高效地。"
+ },
+ {
+  "seg": 321,
+  "start": 1318.195,
+  "end": 1325.158,
+  "speaker": "Unknown",
+  "en": "Well, I mean, we've built, so far, it's like 26 sites around the world with redundant routing.",
+  "zh": "嗯，我是说，我们到目前为止，已经在世界各地建了大约 26 个站点，带冗余路由。"
+ },
+ {
+  "seg": 322,
+  "start": 1325.178,
+  "end": 1325.378,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 323,
+  "start": 1325.939,
+  "end": 1327.78,
+  "speaker": "Unknown",
+  "en": "And how many employees in the company?",
+  "zh": "公司有多少员工？"
+ },
+ {
+  "seg": 324,
+  "start": 1328.32,
+  "end": 1330.301,
+  "speaker": "Unknown",
+  "en": "A total, I think, the people involved is 12.",
+  "zh": "总共，我想，参与的人是 12 个。"
+ },
+ {
+  "seg": 325,
+  "start": 1330.481,
+  "end": 1330.661,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 326,
+  "start": 1330.821,
+  "end": 1331.061,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 327,
+  "start": 1331.281,
+  "end": 1331.381,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 328,
+  "start": 1331.441,
+  "end": 1331.761,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 329,
+  "start": 1332.602,
+  "end": 1335.383,
+  "speaker": "Unknown",
+  "en": "And we have no network administrator, no sysadmin.",
+  "zh": "我们没有网络管理员，没有系统管理员。"
+ },
+ {
+  "seg": 330,
+  "start": 1335.763,
+  "end": 1336.763,
+  "speaker": "Unknown",
+  "en": "That's all done by AI.",
+  "zh": "这些全都由 AI 完成。"
+ },
+ {
+  "seg": 331,
+  "start": 1337.404,
+  "end": 1338.504,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 332,
+  "start": 1338.704,
+  "end": 1339.605,
+  "speaker": "Unknown",
+  "en": "And it's actually working.",
+  "zh": "而且它实际上运转正常。"
+ },
+ {
+  "seg": 333,
+  "start": 1340.625,
+  "end": 1341.526,
+  "speaker": "Unknown",
+  "en": "Quite well.",
+  "zh": "相当不错。"
+ },
+ {
+  "seg": 334,
+  "start": 1342.287,
+  "end": 1344.728,
+  "speaker": "Unknown",
+  "en": "I'm kind of on top of it.",
+  "zh": "我基本上是在掌控它的。"
+ },
+ {
+  "seg": 335,
+  "start": 1344.889,
+  "end": 1353.315,
+  "speaker": "Unknown",
+  "en": "The nice thing though, if you think about our footprint of like who's involved, you know, we don't have a thousand employees with access to this network.",
+  "zh": "不过好处是，如果你想想我们的人员构成，你知道，我们没有一千个员工能访问这个网络。"
+ },
+ {
+  "seg": 336,
+  "start": 1353.475,
+  "end": 1353.676,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 337,
+  "start": 1353.936,
+  "end": 1354.136,
+  "speaker": "Unknown",
+  "en": "Me.",
+  "zh": "只有我。"
+ },
+ {
+  "seg": 338,
+  "start": 1354.656,
+  "end": 1360.861,
+  "speaker": "Unknown",
+  "en": "You know, the blast radius of just the corporate structure is very minimal.",
+  "zh": "你知道，单就公司架构而言，影响半径是非常小的。"
+ },
+ {
+  "seg": 339,
+  "start": 1361.161,
+  "end": 1361.442,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 340,
+  "start": 1361.702,
+  "end": 1362.763,
+  "speaker": "Unknown",
+  "en": "No, that's impressive.",
+  "zh": "不，这很了不起。"
+ },
+ {
+  "seg": 341,
+  "start": 1362.783,
+  "end": 1363.744,
+  "speaker": "Unknown",
+  "en": "And I think, you know, the...",
+  "zh": "而且我觉得，你知道……"
+ },
+ {
+  "seg": 342,
+  "start": 1364.576,
+  "end": 1372.401,
+  "speaker": "Unknown",
+  "en": "I think the, you know, the thing we very rarely talk about because it's kind of uncomfortable is just how great an extent insider threat is.",
+  "zh": "我觉得，你知道，有件事我们很少谈起，因为它有点让人不舒服，就是内部威胁究竟有多严重。"
+ },
+ {
+  "seg": 343,
+  "start": 1372.741,
+  "end": 1372.941,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 344,
+  "start": 1372.982,
+  "end": 1379.326,
+  "speaker": "Unknown",
+  "en": "And how it's like the most crippling catastrophic cyber attacks are always sort of the insider threat angle.",
+  "zh": "而且最具破坏性的灾难性网络攻击，往往都带有内部威胁的成分。"
+ },
+ {
+  "seg": 345,
+  "start": 1379.826,
+  "end": 1385.91,
+  "speaker": "Unknown",
+  "en": "And now you're saying with agents, like, you're kind of, you're eliminating at least a good portion of that race.",
+  "zh": "而现在你说有了智能体，你差不多是在消除至少相当大一部分这类风险。"
+ },
+ {
+  "seg": 346,
+  "start": 1386.234,
+  "end": 1394.097,
+  "speaker": "Unknown",
+  "en": "Yeah, and it's running in its own secure environment that's not exporting data to like one of the big AI companies.",
+  "zh": "是的，而且它运行在自己的安全环境里，不会把数据导出给那些大型 AI 公司。"
+ },
+ {
+  "seg": 347,
+  "start": 1394.337,
+  "end": 1397.918,
+  "speaker": "Unknown",
+  "en": "So all the contacts and inference and stuff stays inside.",
+  "zh": "所以所有的联系和推理之类的东西都留在内部。"
+ },
+ {
+  "seg": 348,
+  "start": 1398.399,
+  "end": 1404.301,
+  "speaker": "Unknown",
+  "en": "And we have it secured and we monitor all our equipment with cameras and no one goes in and touches anything.",
+  "zh": "而且我们做了安全防护，我们用摄像头监控我们所有的设备，没人进去碰任何东西。"
+ },
+ {
+  "seg": 349,
+  "start": 1404.321,
+  "end": 1406.381,
+  "speaker": "Unknown",
+  "en": "Do you have agents that watch the camera footage?",
+  "zh": "你们有智能体看着摄像头画面吗？"
+ },
+ {
+  "seg": 350,
+  "start": 1406.401,
+  "end": 1410.163,
+  "speaker": "Unknown",
+  "en": "Actually, well, I mean, technically we don't, but the camera companies that made the agents do.",
+  "zh": "其实，嗯，我是说，严格来说我们没有，但生产那些智能体的摄像头公司有。"
+ },
+ {
+  "seg": 351,
+  "start": 1410.183,
+  "end": 1411.083,
+  "speaker": "Unknown",
+  "en": "Gotcha, gotcha, gotcha.",
+  "zh": "明白了，明白了，明白了。"
+ },
+ {
+  "seg": 352,
+  "start": 1411.183,
+  "end": 1411.523,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 353,
+  "start": 1411.543,
+  "end": 1415.025,
+  "speaker": "Unknown",
+  "en": "Yeah, we get alarms if something moves and something like, you know, something goes around.",
+  "zh": "是啊，如果有东西移动或者什么情况，比如有什么东西转悠，我们就会收到警报。"
+ },
+ {
+  "seg": 354,
+  "start": 1416.362,
+  "end": 1419.784,
+  "speaker": "Unknown",
+  "en": "Yeah, we even thought about putting lasers in a couple of the spots.",
+  "zh": "嗯，我们甚至想过在几个位置装激光。"
+ },
+ {
+  "seg": 355,
+  "start": 1420.805,
+  "end": 1422.186,
+  "speaker": "Unknown",
+  "en": "Trying to make it Mission Impossible style?",
+  "zh": "想搞得碟中谍风格？"
+ },
+ {
+  "seg": 356,
+  "start": 1422.386,
+  "end": 1423.027,
+  "speaker": "Unknown",
+  "en": "I'm like, why not?",
+  "zh": "我就说，为什么不呢？"
+ },
+ {
+  "seg": 357,
+  "start": 1423.047,
+  "end": 1423.767,
+  "speaker": "Unknown",
+  "en": "It'd be kind of fun.",
+  "zh": "那会挺有意思的。"
+ },
+ {
+  "seg": 358,
+  "start": 1423.947,
+  "end": 1424.728,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 359,
+  "start": 1424.968,
+  "end": 1427.31,
+  "speaker": "Unknown",
+  "en": "You got to have the one data center that you take people to.",
+  "zh": "你总得有一个带人去参观的数据中心吧。"
+ },
+ {
+  "seg": 360,
+  "start": 1427.61,
+  "end": 1427.97,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 361,
+  "start": 1427.99,
+  "end": 1428.931,
+  "speaker": "Unknown",
+  "en": "To impress them, right?",
+  "zh": "为了让他们印象深刻，对吧？"
+ },
+ {
+  "seg": 362,
+  "start": 1428.951,
+  "end": 1434.895,
+  "speaker": "Unknown",
+  "en": "That's the, like the switch data centers in Las Vegas, you know, they got the, the Jeeps with the 50 cal machine guns on them.",
+  "zh": "就像拉斯维加斯的 switch 数据中心，你知道的，他们有那种装着 50 口径机枪的吉普车。"
+ },
+ {
+  "seg": 363,
+  "start": 1434.975,
+  "end": 1435.335,
+  "speaker": "Unknown",
+  "en": "You got it.",
+  "zh": "你说对了。"
+ },
+ {
+  "seg": 364,
+  "start": 1435.355,
+  "end": 1444.782,
+  "speaker": "Unknown",
+  "en": "I mean, I love lasers and I did this big, anyway, long story short, we did look into it and even got the, the light,",
+  "zh": "我是说，我很喜欢激光，我搞过这么一个大项目，反正长话短说，我们确实研究过，甚至拿到了那个光控开关，"
+ },
+ {
+  "seg": 365,
+  "start": 1446.463,
+  "end": 1455.229,
+  "speaker": "Unknown",
+  "en": "Actuated switches, so if the beams did break, it would actually set off the alarms and things, but just the problem was the data center doesn't turn off the lights.",
+  "zh": "就是如果光束真的被挡断，它就会触发警报之类的东西，但问题在于数据中心不会关灯。"
+ },
+ {
+  "seg": 366,
+  "start": 1456.672,
+  "end": 1458.835,
+  "speaker": "Unknown",
+  "en": "So you don't get to see this really cool display.",
+  "zh": "所以你根本看不到那种超酷的激光效果。"
+ },
+ {
+  "seg": 367,
+  "start": 1458.995,
+  "end": 1459.375,
+  "speaker": "Unknown",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 368,
+  "start": 1459.635,
+  "end": 1461.617,
+  "speaker": "Unknown",
+  "en": "And there's no dust in there and there's no particles.",
+  "zh": "而且里面没有灰尘，没有颗粒物。"
+ },
+ {
+  "seg": 369,
+  "start": 1461.677,
+  "end": 1462.999,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是啊，是啊，是啊。"
+ },
+ {
+  "seg": 370,
+  "start": 1463.079,
+  "end": 1465.741,
+  "speaker": "Unknown",
+  "en": "You can't bring in some talcum powder because that'll mess up the servers.",
+  "zh": "你总不能带点爽身粉进去吧，那会把服务器搞坏的。"
+ },
+ {
+  "seg": 371,
+  "start": 1465.761,
+  "end": 1468.724,
+  "speaker": "Unknown",
+  "en": "No, it's like, oh, let's smoke up the data center for the laser show.",
+  "zh": "是不能，不然就变成“哦，咱们把数据中心弄点烟来做激光秀吧”。"
+ },
+ {
+  "seg": 372,
+  "start": 1470.226,
+  "end": 1474.39,
+  "speaker": "Unknown",
+  "en": "That's the other thing that started to be crazy is people don't understand data centers at all.",
+  "zh": "另一个开始变得离谱的事情是，人们完全不了解数据中心。"
+ },
+ {
+  "seg": 373,
+  "start": 1474.65,
+  "end": 1475.01,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 374,
+  "start": 1475.21,
+  "end": 1475.711,
+  "speaker": "Unknown",
+  "en": "It's crazy.",
+  "zh": "太离谱了。"
+ },
+ {
+  "seg": 375,
+  "start": 1475.731,
+  "end": 1477.813,
+  "speaker": "Unknown",
+  "en": "I mean, I think you're seeing that in the popular press, right?",
+  "zh": "我意思是，你在大众媒体上应该能看到这种说法，对吧？"
+ },
+ {
+  "seg": 376,
+  "start": 1478.013,
+  "end": 1478.594,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 377,
+  "start": 1479.134,
+  "end": 1480.095,
+  "speaker": "Unknown",
+  "en": "Oh, they drink water.",
+  "zh": "什么“它们喝水”。"
+ },
+ {
+  "seg": 378,
+  "start": 1480.115,
+  "end": 1480.215,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 379,
+  "start": 1480.235,
+  "end": 1481.296,
+  "speaker": "Unknown",
+  "en": "It's like, come on.",
+  "zh": "就像，拜托。"
+ },
+ {
+  "seg": 380,
+  "start": 1481.536,
+  "end": 1481.736,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "才不是。"
+ },
+ {
+  "seg": 381,
+  "start": 1482.197,
+  "end": 1485.62,
+  "speaker": "Unknown",
+  "en": "The data center's been around for a very, very long time.",
+  "zh": "数据中心已经存在非常非常长的时间了。"
+ },
+ {
+  "seg": 382,
+  "start": 1486,
+  "end": 1492.806,
+  "speaker": "Unknown",
+  "en": "And yeah, they need water when they break and you have to replenish some of the water and there's some evaporation, but it's not like they're running off of water.",
+  "zh": "是的，它们出故障的时候需要水，你得补充一些水，也会有蒸发，但并不是说它们靠水来运转。"
+ },
+ {
+  "seg": 383,
+  "start": 1493.086,
+  "end": 1494.067,
+  "speaker": "Unknown",
+  "en": "That's the crazy part.",
+  "zh": "这就是离谱的地方。"
+ },
+ {
+  "seg": 384,
+  "start": 1494.207,
+  "end": 1494.467,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 385,
+  "start": 1494.487,
+  "end": 1502.153,
+  "speaker": "Unknown",
+  "en": "And it's, it's just sort of like, I think, I think in, in order of like most impressive machines humans have built, like one is probably commercial airliners, right?",
+  "zh": "而且我觉得，我觉得按人类造出的最令人惊叹的机器来排序的话，第一大概得是商用客机，对吧？"
+ },
+ {
+  "seg": 386,
+  "start": 1502.194,
+  "end": 1504.275,
+  "speaker": "Unknown",
+  "en": "And two has got to be data centers.",
+  "zh": "第二就一定是数据中心。"
+ },
+ {
+  "seg": 387,
+  "start": 1504.355,
+  "end": 1506.657,
+  "speaker": "Unknown",
+  "en": "Like they're so incredibly sophisticated.",
+  "zh": "它们真是复杂得不可思议。"
+ },
+ {
+  "seg": 388,
+  "start": 1506.677,
+  "end": 1507.858,
+  "speaker": "Unknown",
+  "en": "They're closed systems.",
+  "zh": "它们是封闭系统。"
+ },
+ {
+  "seg": 389,
+  "start": 1508.018,
+  "end": 1508.298,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 390,
+  "start": 1508.699,
+  "end": 1508.859,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 391,
+  "start": 1508.879,
+  "end": 1511.401,
+  "speaker": "Unknown",
+  "en": "I mean, the data centers themselves are kind of just boring buildings.",
+  "zh": "我是说，数据中心本身其实就是挺无聊的楼。"
+ },
+ {
+  "seg": 392,
+  "start": 1511.421,
+  "end": 1511.741,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 393,
+  "start": 1512.122,
+  "end": 1516.905,
+  "speaker": "Unknown",
+  "en": "And the, the other thing is like the sounds, I've never heard sound outside of a data center before.",
+  "zh": "还有就是声音，我以前从没在数据中心外面听到过声音。"
+ },
+ {
+  "seg": 394,
+  "start": 1516.925,
+  "end": 1517.666,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 395,
+  "start": 1517.786,
+  "end": 1519.928,
+  "speaker": "Unknown",
+  "en": "Maybe a chiller or something, but.",
+  "zh": "顶多可能有台冷却机之类的。"
+ },
+ {
+  "seg": 396,
+  "start": 1520.508,
+  "end": 1529.877,
+  "speaker": "Unknown",
+  "en": "I see videos where people are watching videos and it's like, look at the hell, it's audio from inside being dubbed and people aren't smart enough to know that it's fake.",
+  "zh": "我看过一些视频，有人在看视频然后说“看看这地狱般的”，结果那是从里面配音的音频，人们不够聪明，识别不出那是假的。"
+ },
+ {
+  "seg": 397,
+  "start": 1529.937,
+  "end": 1532.399,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, yeah, that's all contained with inside these things.",
+  "zh": "是啊，我是说，对，那些声音都被封闭在这些东西里面。"
+ },
+ {
+  "seg": 398,
+  "start": 1532.419,
+  "end": 1534.361,
+  "speaker": "Unknown",
+  "en": "People are being manipulated with this data center thing.",
+  "zh": "人们在借数据中心这个话题被操纵。"
+ },
+ {
+  "seg": 399,
+  "start": 1534.421,
+  "end": 1535.362,
+  "speaker": "Unknown",
+  "en": "Isn't it amazing, right?",
+  "zh": "是不是很惊人，对吧？"
+ },
+ {
+  "seg": 400,
+  "start": 1535.382,
+  "end": 1539.685,
+  "speaker": "Unknown",
+  "en": "And I think like it's going to be, I think over as the years progress, it's going to come out.",
+  "zh": "我觉得，就像随着时间推移，这件事终会水落石出的。"
+ },
+ {
+  "seg": 401,
+  "start": 1540.306,
+  "end": 1549.108,
+  "speaker": "Unknown",
+  "en": "That this was all just some sort of like very interested group of organizations or interests that are manipulating public opinion to some end.",
+  "zh": "这一切只是一群利益高度相关的组织或利益集团，为了某种目的在操纵公众舆论。"
+ },
+ {
+  "seg": 402,
+  "start": 1549.268,
+  "end": 1555.83,
+  "speaker": "Unknown",
+  "en": "Yeah, but it's very interesting to be in the know and then watch this and then go, oh my goodness, these people are missing the mark.",
+  "zh": "在里面工作的人挣的可不是几毛钱。"
+ },
+ {
+  "seg": 403,
+  "start": 1556.13,
+  "end": 1561.811,
+  "speaker": "Unknown",
+  "en": "Have you seen, I mean, because you've been to 20-something data centers in the last couple months, have you seen actual protesters outside?",
+  "zh": "你见过吗，我是说，因为你过去几个月去了二十多个数据中心，你见过外面有真正的抗议者吗？"
+ },
+ {
+  "seg": 404,
+  "start": 1561.931,
+  "end": 1562.111,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "没有。"
+ },
+ {
+  "seg": 405,
+  "start": 1562.551,
+  "end": 1563.231,
+  "speaker": "Unknown",
+  "en": "Yeah, I know.",
+  "zh": "是啊，我知道。"
+ },
+ {
+  "seg": 406,
+  "start": 1563.251,
+  "end": 1564.992,
+  "speaker": "Unknown",
+  "en": "I haven't like... No, you see nothing.",
+  "zh": "我也没见过……不，你什么都看不到。"
+ },
+ {
+  "seg": 407,
+  "start": 1565.012,
+  "end": 1569.973,
+  "speaker": "Unknown",
+  "en": "It's just most of them, especially like the big data center park in Virginia,",
+  "zh": "大多数地方，尤其是弗吉尼亚那个大型数据中心园区，"
+ },
+ {
+  "seg": 408,
+  "start": 1570.794,
+  "end": 1573.296,
+  "speaker": "Unknown",
+  "en": "You know, you just see bunny rabbits in the field.",
+  "zh": "你知道，你只能看到田野里的兔子。"
+ },
+ {
+  "seg": 409,
+  "start": 1574.017,
+  "end": 1577.52,
+  "speaker": "Unknown",
+  "en": "It's just a big building and a bunch of parking lot and nothing.",
+  "zh": "就是一栋大建筑、一大片停车场，什么都没有。"
+ },
+ {
+  "seg": 410,
+  "start": 1578.501,
+  "end": 1582.745,
+  "speaker": "Unknown",
+  "en": "Meanwhile, that's like one of the richest counties in the country because of all the data centers, right?",
+  "zh": "与此同时，因为所有这些数据中心，那可是全国最富裕的县之一，对吧？"
+ },
+ {
+  "seg": 411,
+  "start": 1582.945,
+  "end": 1584.387,
+  "speaker": "Unknown",
+  "en": "Right, because it brings jobs.",
+  "zh": "对，因为它带来了就业。"
+ },
+ {
+  "seg": 412,
+  "start": 1584.447,
+  "end": 1586.509,
+  "speaker": "Unknown",
+  "en": "The people that work in them aren't getting paid pennies.",
+  "zh": "在里面工作的人拿的并不是微薄的薪水。"
+ },
+ {
+  "seg": 413,
+  "start": 1588.47,
+  "end": 1589.592,
+  "speaker": "Unknown",
+  "en": "And it also brings high tech.",
+  "zh": "它还带来了高科技。"
+ },
+ {
+  "seg": 414,
+  "start": 1590.452,
+  "end": 1595.377,
+  "speaker": "Unknown",
+  "en": "Talent, and then also infrastructure, and infrastructure powers everything you do.",
+  "zh": "人才，还有基础设施，而基础设施为你做的一切提供动力。"
+ },
+ {
+  "seg": 415,
+  "start": 1596.097,
+  "end": 1603.464,
+  "speaker": "Unknown",
+  "en": "So if you have a data center nearby, your internet's faster, things like that work better, depending on which one it is.",
+  "zh": "所以如果你附近有数据中心，你的网速更快，类似的东西运行得更好，取决于它是哪一个。"
+ },
+ {
+  "seg": 416,
+  "start": 1603.744,
+  "end": 1609.169,
+  "speaker": "Unknown",
+  "en": "And then the argument about data centers drinking water goes back to some quote that was like fabricated entirely.",
+  "zh": "而关于数据中心喝水的争论，可以追溯到一句完全是捏造的引言。"
+ },
+ {
+  "seg": 417,
+  "start": 1611.491,
+  "end": 1617.538,
+  "speaker": "Unknown",
+  "en": "Well, I think there was the Switch data center built near Reno, and they built this big lake out there.",
+  "zh": "嗯，我想是有个 Switch 数据中心建在雷诺附近，他们在那里挖了一个大湖。"
+ },
+ {
+  "seg": 418,
+  "start": 1617.798,
+  "end": 1620.842,
+  "speaker": "Unknown",
+  "en": "And people think that it lives off the lake.",
+  "zh": "人们以为它靠那个湖生活。"
+ },
+ {
+  "seg": 419,
+  "start": 1621.723,
+  "end": 1628.089,
+  "speaker": "Unknown",
+  "en": "And the reality is, you know, if say you have a chiller failure and you have to drain all that closed system out, you need to refill it.",
+  "zh": "而实际情况是，你知道，比如说你有一个冷却器故障，你得把整个封闭系统里的水排掉，你就需要重新注满它。"
+ },
+ {
+  "seg": 420,
+  "start": 1630.107,
+  "end": 1630.828,
+  "speaker": "Unknown",
+  "en": "Drain it to the lake.",
+  "zh": "排到湖里。"
+ },
+ {
+  "seg": 421,
+  "start": 1630.908,
+  "end": 1642.501,
+  "speaker": "Unknown",
+  "en": "Yeah, so anyway, yeah, so it's interesting to see people like, I know, I work in these buildings, and then you see the conspiracy theorists, and it's like, I don't know, we're way off here, I'm sorry.",
+  "zh": "是的，所以总之，是啊，看到那些人很有意思，比如，我知道，我在这些楼里工作，然后你看到那些阴谋论者，就会觉得，我不知道，我们差得太远了，抱歉。"
+ },
+ {
+  "seg": 422,
+  "start": 1642.761,
+  "end": 1648.427,
+  "speaker": "Unknown",
+  "en": "This feels just like the people that think the moon landing was faked, or like, it just feels like classic sort of, but...",
+  "zh": "这感觉就像那些认为登月是造假的人一样，或者说，这就是典型的那种……"
+ },
+ {
+  "seg": 423,
+  "start": 1649.668,
+  "end": 1661.422,
+  "speaker": "Unknown",
+  "en": "I do think it's coming at such an important inflection point for the future of our country, tech, society in general, and to just have this conversation that seems to be manipulated to some end.",
+  "zh": "我确实认为这正处在我们国家、科技、整个社会未来的一个非常关键的拐点上，而这样一场似乎被某种目的操纵的对话。"
+ },
+ {
+  "seg": 424,
+  "start": 1661.562,
+  "end": 1662.924,
+  "speaker": "Unknown",
+  "en": "It feels very manipulated.",
+  "zh": "感觉被操纵得很厉害。"
+ },
+ {
+  "seg": 425,
+  "start": 1663.084,
+  "end": 1663.564,
+  "speaker": "Unknown",
+  "en": "And to me...",
+  "zh": "而对我来说……"
+ },
+ {
+  "seg": 426,
+  "start": 1665.17,
+  "end": 1667.811,
+  "speaker": "Unknown",
+  "en": "The future of our tech is needing to build this infrastructure now.",
+  "zh": "我们科技的未来需要现在就建设这些基础设施。"
+ },
+ {
+  "seg": 427,
+  "start": 1668.291,
+  "end": 1671.172,
+  "speaker": "Unknown",
+  "en": "And if we're crippling it, then we're making bad decisions.",
+  "zh": "如果我们在削弱它，那我们就是在做糟糕的决定。"
+ },
+ {
+  "seg": 428,
+  "start": 1671.632,
+  "end": 1674.333,
+  "speaker": "Unknown",
+  "en": "And we're making bad decisions on Instagram posts.",
+  "zh": "而且我们是根据 Instagram 帖子在做糟糕的决定。"
+ },
+ {
+  "seg": 429,
+  "start": 1674.653,
+  "end": 1676.013,
+  "speaker": "Unknown",
+  "en": "Oh yeah, or TikTok, right?",
+  "zh": "哦对，还有 TikTok，对吧？"
+ },
+ {
+  "seg": 430,
+  "start": 1676.053,
+  "end": 1676.293,
+  "speaker": "Unknown",
+  "en": "TikTok.",
+  "zh": "TikTok。"
+ },
+ {
+  "seg": 431,
+  "start": 1676.813,
+  "end": 1678.354,
+  "speaker": "Unknown",
+  "en": "Which who knows where that content is being added.",
+  "zh": "而谁知道那些内容是在哪里添加的。"
+ },
+ {
+  "seg": 432,
+  "start": 1678.374,
+  "end": 1683.075,
+  "speaker": "Unknown",
+  "en": "Or like some crazy anti-data center music video.",
+  "zh": "或者像某个疯狂的反数据中心音乐视频。"
+ },
+ {
+  "seg": 433,
+  "start": 1683.135,
+  "end": 1686.176,
+  "speaker": "Unknown",
+  "en": "That's public opinion is being framed by that.",
+  "zh": "公众舆论就是这样被塑造的。"
+ },
+ {
+  "seg": 434,
+  "start": 1686.356,
+  "end": 1687.517,
+  "speaker": "Unknown",
+  "en": "Well, and this is the second half.",
+  "zh": "嗯，这是后半部分。"
+ },
+ {
+  "seg": 435,
+  "start": 1687.577,
+  "end": 1692.961,
+  "speaker": "Unknown",
+  "en": "I mean, I guess the—I know we had talked about sort of intelligence agencies and the big, bad, scary government, right?",
+  "zh": "我是说，我想——我知道我们之前聊过情报机构和大坏蛋政府，对吧？"
+ },
+ {
+  "seg": 436,
+  "start": 1693.021,
+  "end": 1701.046,
+  "speaker": "Unknown",
+  "en": "But like—and now we're talking more about clearly an operation that's probably being done by some sort of commercial interest to manipulate public opinion.",
+  "zh": "但是——现在我们更清楚地谈论的可能是由某种商业利益开展的、旨在操纵公众舆论的行动。"
+ },
+ {
+  "seg": 437,
+  "start": 1701.187,
+  "end": 1701.367,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 438,
+  "start": 1701.487,
+  "end": 1705.51,
+  "speaker": "Unknown",
+  "en": "Right, which goes to kind of the second half of why you built docs, which is like—",
+  "zh": "对，这就引到了你为什么构建 docs 的另一半原因，就像是——"
+ },
+ {
+  "seg": 439,
+  "start": 1706.21,
+  "end": 1707.35,
+  "speaker": "Unknown",
+  "en": "You know, advertising.",
+  "zh": "你知道，广告。"
+ },
+ {
+  "seg": 440,
+  "start": 1707.55,
+  "end": 1707.85,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 441,
+  "start": 1707.87,
+  "end": 1715.973,
+  "speaker": "Unknown",
+  "en": "Which is, which is sort of like the, like, people like to think the NSA is incredibly sophisticated, but, you know, advertisers are probably far ahead of what they're doing.",
+  "zh": "这就像，人们喜欢认为 NSA 无比精密复杂，但你知道，广告商可能远远领先于他们在做的事。"
+ },
+ {
+  "seg": 442,
+  "start": 1715.993,
+  "end": 1722.134,
+  "speaker": "Unknown",
+  "en": "And I think you're seeing now where intelligence agencies are actually using data brokers and using the techniques of ad agencies.",
+  "zh": "而且我认为你现在能看到，情报机构实际上在使用数据经纪商，在使用广告公司的技术。"
+ },
+ {
+  "seg": 443,
+  "start": 1722.594,
+  "end": 1726.355,
+  "speaker": "Unknown",
+  "en": "Yeah, so, like, all your apps have these trackers in them.",
+  "zh": "是的，就像，你所有的应用里都有这些追踪器。"
+ },
+ {
+  "seg": 444,
+  "start": 1726.515,
+  "end": 1728.636,
+  "speaker": "Unknown",
+  "en": "WhatsApp has DIT.whatsapp.net.",
+  "zh": "WhatsApp 有 DIT.whatsapp.net。"
+ },
+ {
+  "seg": 445,
+  "start": 1729.756,
+  "end": 1731.597,
+  "speaker": "Unknown",
+  "en": "Apple even has Apple telemetry.",
+  "zh": "连 Apple 都有 Apple telemetry。"
+ },
+ {
+  "seg": 446,
+  "start": 1731.797,
+  "end": 1737.16,
+  "speaker": "Unknown",
+  "en": "They call it telemetry or metadata, whatever they want to call it, but it's some level of it is a tracker.",
+  "zh": "他们叫它遥测或元数据，随便他们想叫什么，但某种程度上它就是一个追踪器。"
+ },
+ {
+  "seg": 447,
+  "start": 1738.02,
+  "end": 1739.301,
+  "speaker": "Unknown",
+  "en": "And you can block them.",
+  "zh": "而且你可以屏蔽它们。"
+ },
+ {
+  "seg": 448,
+  "start": 1739.721,
+  "end": 1740.562,
+  "speaker": "Unknown",
+  "en": "It doesn't break the app.",
+  "zh": "不会破坏应用。"
+ },
+ {
+  "seg": 449,
+  "start": 1740.982,
+  "end": 1741.542,
+  "speaker": "Unknown",
+  "en": "It doesn't break.",
+  "zh": "不会坏。"
+ },
+ {
+  "seg": 450,
+  "start": 1741.682,
+  "end": 1747.385,
+  "speaker": "Unknown",
+  "en": "Most websites don't have any problem with that telemetry data breaking because the rest of the site was still low.",
+  "zh": "大多数网站对这些遥测数据出问题并不在意，因为网站的其他部分仍然很低。"
+ },
+ {
+  "seg": 451,
+  "start": 1748.205,
+  "end": 1754.368,
+  "speaker": "Unknown",
+  "en": "But, you know, somebody asked me, very controversial, wealthy individual said, well, so what?",
+  "zh": "但是，你知道，有人问过我，一个很有争议的富有个人说，那又怎样？"
+ },
+ {
+  "seg": 452,
+  "start": 1754.529,
+  "end": 1758.811,
+  "speaker": "Unknown",
+  "en": "Someone won't know that I purchased underwear off of Target.com.",
+  "zh": "所以我们某种程度上正在看着这样一个世界，"
+ },
+ {
+  "seg": 453,
+  "start": 1759.543,
+  "end": 1761.565,
+  "speaker": "Unknown",
+  "en": "And then I'm like, well, it's not really that one.",
+  "zh": "然后我就说，其实不是那一条的问题。"
+ },
+ {
+  "seg": 454,
+  "start": 1761.845,
+  "end": 1762.586,
+  "speaker": "Unknown",
+  "en": "It's all of them.",
+  "zh": "是所有加在一起。"
+ },
+ {
+  "seg": 455,
+  "start": 1762.726,
+  "end": 1774.476,
+  "speaker": "Unknown",
+  "en": "When you combine all of the tracking that's being done on every different app that you're using or every different website, and it accumulates, and then it's being stored by who knows who, where, and being sold.",
+  "zh": "当你把正在对你使用的每一个不同的应用或每一个不同的网站进行的所有追踪合并起来，它会累积起来，然后被不知道是谁、在哪里存储，并且被出售。"
+ },
+ {
+  "seg": 456,
+  "start": 1774.596,
+  "end": 1783.704,
+  "speaker": "Unknown",
+  "en": "And then when you aggregate all those data points together, you could know if you're a coffee drinker, what time you wake up in the morning, what your income is, where you shop.",
+  "zh": "然后当你把所有这些数据点聚合在一起，就能知道你是不是喝咖啡的人、你早上几点起床、你的收入是多少、你在哪里购物。"
+ },
+ {
+  "seg": 457,
+  "start": 1785.025,
+  "end": 1786.506,
+  "speaker": "Unknown",
+  "en": "How often you purchase things.",
+  "zh": "你多久购买一次东西。"
+ },
+ {
+  "seg": 458,
+  "start": 1786.546,
+  "end": 1791.631,
+  "speaker": "Unknown",
+  "en": "If you're preparing for the birth of a child or perhaps for a divorce or some other big life event, right?",
+  "zh": "你是否在为一个孩子的出生做准备，或者也许是在为离婚或其他重大人生事件做准备，对吧？"
+ },
+ {
+  "seg": 459,
+  "start": 1791.651,
+  "end": 1795.434,
+  "speaker": "Unknown",
+  "en": "They probably know these events sooner than your spouse would.",
+  "zh": "他们很可能比你的配偶更早知道这些事件。"
+ },
+ {
+  "seg": 460,
+  "start": 1795.574,
+  "end": 1796.455,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 461,
+  "start": 1797.075,
+  "end": 1799.598,
+  "speaker": "Unknown",
+  "en": "So, turning that off doesn't bother me at all.",
+  "zh": "所以，把那些关掉完全不会让我困扰。"
+ },
+ {
+  "seg": 462,
+  "start": 1801.299,
+  "end": 1802.92,
+  "speaker": "Unknown",
+  "en": "I love all that stuff being turned off.",
+  "zh": "我喜欢所有那些东西被关掉。"
+ },
+ {
+  "seg": 463,
+  "start": 1802.98,
+  "end": 1804.041,
+  "speaker": "Unknown",
+  "en": "I hate that kind of stuff.",
+  "zh": "我讨厌那种东西。"
+ },
+ {
+  "seg": 464,
+  "start": 1804.061,
+  "end": 1807.403,
+  "speaker": "Unknown",
+  "en": "So that's a big piece of the app is the network.",
+  "zh": "所以这个应用很重要的一部分就是网络。"
+ },
+ {
+  "seg": 465,
+  "start": 1807.583,
+  "end": 1808.644,
+  "speaker": "Unknown",
+  "en": "It's not just part of the app.",
+  "zh": "它不只是应用的一部分。"
+ },
+ {
+  "seg": 466,
+  "start": 1808.684,
+  "end": 1813.788,
+  "speaker": "Unknown",
+  "en": "It's part of the network is to kind of deconstruct all of that and get rid of it.",
+  "zh": "网络的一部分就是把这些东西解构并清除掉。"
+ },
+ {
+  "seg": 467,
+  "start": 1814.328,
+  "end": 1826.316,
+  "speaker": "Unknown",
+  "en": "And just kind of like the get back to the old internet that has the ability to connect to things and has the ability to, you know, create and then also, you know, not be spied on by",
+  "zh": "就有点像回到旧的互联网，它有能力连接各种东西，有能力，你知道，去创造，而且，你知道，不被窥探，不被"
+ },
+ {
+  "seg": 468,
+  "start": 1827.117,
+  "end": 1829.619,
+  "speaker": "Unknown",
+  "en": "You know, advertisers and governments and everybody else.",
+  "zh": "你知道的，广告商和政府和其他所有人窥探。"
+ },
+ {
+  "seg": 469,
+  "start": 1830.019,
+  "end": 1839.527,
+  "speaker": "Unknown",
+  "en": "Well, and it seems like we're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale, right?",
+  "zh": "嗯，而且看起来我们真的处在一个拐点上，因为本质上规模化投币式智能诞生了，对吧？"
+ },
+ {
+  "seg": 470,
+  "start": 1839.727,
+  "end": 1841.068,
+  "speaker": "Unknown",
+  "en": "You can deploy millions.",
+  "zh": "你可以部署数百万个。"
+ },
+ {
+  "seg": 471,
+  "start": 1841.228,
+  "end": 1847.713,
+  "speaker": "Unknown",
+  "en": "You've got the proverbial millions of monkeys with millions or infinite monkeys with infinite typewriters.",
+  "zh": "你有了谚语中的数百万只猴子拿着数百万台打字机，或者说无限只猴子拿着无限台打字机。"
+ },
+ {
+  "seg": 472,
+  "start": 1848.974,
+  "end": 1851.797,
+  "speaker": "Unknown",
+  "en": "And so we're sort of looking at this world in which",
+  "zh": "所以我们某种程度上正在审视这样一个世界,"
+ },
+ {
+  "seg": 473,
+  "start": 1852.457,
+  "end": 1861.44,
+  "speaker": "Unknown",
+  "en": "There's more telemetry, there's more data, everything you do is being tracked, and you can combine that with intelligence, right, to actually arrive at some pretty scary conclusions.",
+  "zh": "有更多遥测，有更多数据，你做的每一件事都被追踪，而你可以把这些与智能结合起来，对吧，真正得出一些相当可怕的结论。"
+ },
+ {
+  "seg": 474,
+  "start": 1861.62,
+  "end": 1865.681,
+  "speaker": "Unknown",
+  "en": "Yeah, you can take all that and just dump it into an LLM and say, tell me about this person.",
+  "zh": "是啊，你可以把所有那些直接倒进一个 LLM 里，说，告诉我关于这个人的情况。"
+ },
+ {
+  "seg": 475,
+  "start": 1866.702,
+  "end": 1867.362,
+  "speaker": "Unknown",
+  "en": "You get an answer.",
+  "zh": "你会得到一个答案。"
+ },
+ {
+  "seg": 476,
+  "start": 1867.922,
+  "end": 1871.065,
+  "speaker": "Unknown",
+  "en": "Probably do really effective targeting against things like data centers as well, right?",
+  "zh": "对数据中心之类的东西做非常有效的定向攻击大概也是可以的，对吧？"
+ },
+ {
+  "seg": 477,
+  "start": 1871.225,
+  "end": 1871.845,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 478,
+  "start": 1871.965,
+  "end": 1879.271,
+  "speaker": "Unknown",
+  "en": "Like you start to see these mass movements orchestrated across multiple platforms and you start to think like, huh, that's pretty clever.",
+  "zh": "比如你开始看到这些跨多个平台协调的大规模行动，你开始觉得，呃，那挺聪明的。"
+ },
+ {
+  "seg": 479,
+  "start": 1879.511,
+  "end": 1879.791,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 480,
+  "start": 1879.911,
+  "end": 1885.816,
+  "speaker": "Unknown",
+  "en": "But people should be targeting those, maybe not the data centers, but the tracking is pretty bad, ad tracking.",
+  "zh": "但人们应该去攻击那些，也许不是数据中心，但追踪是相当糟糕的，广告追踪。"
+ },
+ {
+  "seg": 481,
+  "start": 1886.596,
+  "end": 1890.739,
+  "speaker": "Unknown",
+  "en": "It's, you know, that kind of stuff really can go away and your life would be better.",
+  "zh": "你知道的，那种东西真的可以消失，而且你的生活会更好。"
+ },
+ {
+  "seg": 482,
+  "start": 1890.96,
+  "end": 1891.14,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 483,
+  "start": 1892.64,
+  "end": 1900.704,
+  "speaker": "Unknown",
+  "en": "At the core, it's like trying to recreate that vibe the internet used to have and then see where we could take it.",
+  "zh": "从核心上讲，就像是试图重现互联网过去的那种氛围，然后看看我们能把它带向何方。"
+ },
+ {
+  "seg": 484,
+  "start": 1901.964,
+  "end": 1908.327,
+  "speaker": "Unknown",
+  "en": "With bigger resources and things like that, you could start creating more protocols and things that don't exist yet.",
+  "zh": "有了更大的资源之类的东西，你就可以开始创造更多还不存在的协议之类的东西。"
+ },
+ {
+  "seg": 485,
+  "start": 1908.727,
+  "end": 1909.688,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是啊，绝对是的。"
+ },
+ {
+  "seg": 486,
+  "start": 1909.748,
+  "end": 1911.669,
+  "speaker": "Unknown",
+  "en": "I mean, the internet succeeded because it was free.",
+  "zh": "我是说，互联网成功是因为它是免费的。"
+ },
+ {
+  "seg": 487,
+  "start": 1912.329,
+  "end": 1914.69,
+  "speaker": "Unknown",
+  "en": "And so, thank you for trying to make it free again.",
+  "zh": "所以，谢谢你试图让它重新变得免费。"
+ },
+ {
+  "seg": 488,
+  "start": 1915.912,
+  "end": 1916.312,
+  "speaker": "Unknown",
+  "en": "Trying.",
+  "zh": "在努力。"
+ },
+ {
+  "seg": 489,
+  "start": 1917.053,
+  "end": 1917.673,
+  "speaker": "Unknown",
+  "en": "But you have to pay me.",
+  "zh": "但你得付我钱。"
+ },
+ {
+  "seg": 490,
+  "start": 1920.294,
+  "end": 1920.754,
+  "speaker": "Unknown",
+  "en": "Just kidding.",
+  "zh": "开玩笑的。"
+ },
+ {
+  "seg": 491,
+  "start": 1920.954,
+  "end": 1921.394,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 492,
+  "start": 1921.794,
+  "end": 1925.676,
+  "speaker": "Unknown",
+  "en": "So I don't know if you know this, but our paths crossed a long time ago.",
+  "zh": "那么我不知道你是否知道这件事，但我们的路径很久以前就交叉过。"
+ },
+ {
+  "seg": 493,
+  "start": 1925.696,
+  "end": 1934.279,
+  "speaker": "Unknown",
+  "en": "I was looking back through some of my archives and I did a lot of work sort of in the early 2000s.",
+  "zh": "我回顾了一些我的档案，我在 2000 年代初做了很多工作。"
+ },
+ {
+  "seg": 494,
+  "start": 1935.8,
+  "end": 1945.427,
+  "speaker": "Unknown",
+  "en": "On DDoS bots, so Stockeldraught, TFN, TFN2K, and then obviously a large denial of service distributed attacks.",
+  "zh": "关于 DDoS 僵尸网络，比如 Stockeldraught、TFN、TFN2K，然后显然还有大规模分布式拒绝服务攻击。"
+ },
+ {
+  "seg": 495,
+  "start": 1945.847,
+  "end": 1949.991,
+  "speaker": "Unknown",
+  "en": "And you were at the forefront of building a lot of the solutions to prevent that, like at Prolexic.",
+  "zh": "而你当时处在构建很多防御方案的最前沿，比如在 Prolexic。"
+ },
+ {
+  "seg": 496,
+  "start": 1950.711,
+  "end": 1951.251,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 497,
+  "start": 1951.792,
+  "end": 1953.053,
+  "speaker": "Unknown",
+  "en": "Like, how did that get going?",
+  "zh": "比如，那是怎么开始的？"
+ },
+ {
+  "seg": 498,
+  "start": 1953.754,
+  "end": 1956.596,
+  "speaker": "Unknown",
+  "en": "Well, actually, it kind of goes back to DocsNet.",
+  "zh": "嗯，其实，这要追溯到 DocsNet。"
+ },
+ {
+  "seg": 499,
+  "start": 1956.696,
+  "end": 1958.838,
+  "speaker": "Unknown",
+  "en": "In high school, people were attacking my servers.",
+  "zh": "高中的时候，人们在攻击我的服务器。"
+ },
+ {
+  "seg": 500,
+  "start": 1959.579,
+  "end": 1970.948,
+  "speaker": "Unknown",
+  "en": "And so we had to figure out better ways to protect them and techniques and tricks and all the different things you need to do to survive a DDoS attack.",
+  "zh": "所以我们不得不想出更好的保护方法、技术和技巧，以及抵御 DDoS 攻击所需做的所有各种事情。"
+ },
+ {
+  "seg": 501,
+  "start": 1971.809,
+  "end": 1976.292,
+  "speaker": "Unknown",
+  "en": "And I started writing kind of my list of what you would do to survive.",
+  "zh": "然后我开始写一份清单，列出要存活下来你会做些什么。"
+ },
+ {
+  "seg": 502,
+  "start": 1976.332,
+  "end": 1981.537,
+  "speaker": "Unknown",
+  "en": "And then somehow I presented that at SANS and then it got in Google.",
+  "zh": "后来不知怎么我在 SANS 上展示了那份东西，然后它就传到了 Google。"
+ },
+ {
+  "seg": 503,
+  "start": 1982.197,
+  "end": 1983.318,
+  "speaker": "Unknown",
+  "en": "And then people started calling me.",
+  "zh": "然后人们开始给我打电话。"
+ },
+ {
+  "seg": 504,
+  "start": 1984.178,
+  "end": 1998.944,
+  "speaker": "Unknown",
+  "en": "And then we started dealing with real cyber crime, extortion, people trying to take, you know, one company sells watches, the other sells watches, the other one is attacking the other watch company during Christmas sales season.",
+  "zh": "然后我们开始处理真正的网络犯罪、勒索，有人试图……你知道，一家公司卖手表，另一家也卖手表，另一家在圣诞节销售季期间攻击那家手表公司。"
+ },
+ {
+  "seg": 505,
+  "start": 1999.724,
+  "end": 2003.206,
+  "speaker": "Unknown",
+  "en": "Or, you know, Super Bowl is about to start and all the gambling sites go dark.",
+  "zh": "或者，你知道，超级碗即将开始，所有的赌博网站都黑掉了。"
+ },
+ {
+  "seg": 506,
+  "start": 2003.326,
+  "end": 2004.226,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 507,
+  "start": 2004.906,
+  "end": 2005.527,
+  "speaker": "Unknown",
+  "en": "Things like that.",
+  "zh": "类似这样的事情。"
+ },
+ {
+  "seg": 508,
+  "start": 2007.128,
+  "end": 2008.569,
+  "speaker": "Unknown",
+  "en": "It got pretty serious.",
+  "zh": "事情变得相当严重。"
+ },
+ {
+  "seg": 509,
+  "start": 2008.589,
+  "end": 2013.512,
+  "speaker": "Unknown",
+  "en": "And so I built a whole company to protect businesses from these attacks.",
+  "zh": "所以我创办了一家完整的公司来保护企业免受这些攻击。"
+ },
+ {
+  "seg": 510,
+  "start": 2013.552,
+  "end": 2015.533,
+  "speaker": "Unknown",
+  "en": "And the way I looked at it is like, you need big scale.",
+  "zh": "而我的看法是，你需要大规模。"
+ },
+ {
+  "seg": 511,
+  "start": 2015.734,
+  "end": 2019.876,
+  "speaker": "Unknown",
+  "en": "You need to have the biggest, most expensive stuff and not everyone could afford that.",
+  "zh": "你需要拥有最大、最昂贵的设备，而并不是每个人都买得起。"
+ },
+ {
+  "seg": 512,
+  "start": 2020.377,
+  "end": 2025.78,
+  "speaker": "Unknown",
+  "en": "So we'll turn that into kind of a leased service as, you know, it's one of the first cloud services to exist.",
+  "zh": "所以我们会把它变成一种租赁服务，你知道，它是最早存在的云服务之一。"
+ },
+ {
+  "seg": 513,
+  "start": 2026.701,
+  "end": 2029.742,
+  "speaker": "Unknown",
+  "en": "And it was pretty, very successful, still exists today.",
+  "zh": "而且它相当、非常成功，今天仍然存在。"
+ },
+ {
+  "seg": 514,
+  "start": 2029.762,
+  "end": 2031.243,
+  "speaker": "Unknown",
+  "en": "It's Akamai Prolexic.",
+  "zh": "它就是 Akamai Prolexic。"
+ },
+ {
+  "seg": 515,
+  "start": 2031.524,
+  "end": 2032.304,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是的。"
+ },
+ {
+  "seg": 516,
+  "start": 2032.324,
+  "end": 2033.025,
+  "speaker": "Unknown",
+  "en": "They even kept the name.",
+  "zh": "他们甚至保留了名字。"
+ },
+ {
+  "seg": 517,
+  "start": 2034.406,
+  "end": 2034.926,
+  "speaker": "Unknown",
+  "en": "It's just rare.",
+  "zh": "这真的很罕见。"
+ },
+ {
+  "seg": 518,
+  "start": 2035.486,
+  "end": 2039.029,
+  "speaker": "Unknown",
+  "en": "And then we did DefenseNet later on, which became F5 Silverline.",
+  "zh": "然后我们后来做了 DefenseNet，它变成了 F5 Silverline。"
+ },
+ {
+  "seg": 519,
+  "start": 2039.569,
+  "end": 2045.393,
+  "speaker": "Unknown",
+  "en": "And then, so in between all of that, I really liked big scale stuff and bandwidth.",
+  "zh": "然后，在所有这些之间，我真的很喜欢大规模的东西和带宽。"
+ },
+ {
+  "seg": 520,
+  "start": 2045.674,
+  "end": 2048.496,
+  "speaker": "Unknown",
+  "en": "And so the other one we did was called BigGravity.",
+  "zh": "所以我们做的另一个叫 BigGravity。"
+ },
+ {
+  "seg": 521,
+  "start": 2049.016,
+  "end": 2052.799,
+  "speaker": "Unknown",
+  "en": "And that was one of the first, or the first, video-centric CDNs.",
+  "zh": "那是最早的之一，或者说是第一个，以视频为中心的 CDN。"
+ },
+ {
+  "seg": 522,
+  "start": 2053.139,
+  "end": 2055.601,
+  "speaker": "Unknown",
+  "en": "So big file, big object delivery.",
+  "zh": "也就是大文件、大对象交付。"
+ },
+ {
+  "seg": 523,
+  "start": 2056.281,
+  "end": 2058.843,
+  "speaker": "Unknown",
+  "en": "And we had some really great customers there early on.",
+  "zh": "我们早期在那里有一些非常棒的客户。"
+ },
+ {
+  "seg": 524,
+  "start": 2059.103,
+  "end": 2062.085,
+  "speaker": "Unknown",
+  "en": "People got it, and then we had a lot of tech around it to save people money.",
+  "zh": "人们理解了它，然后我们围绕它做了很多帮人们省钱的技术。"
+ },
+ {
+  "seg": 525,
+  "start": 2063.006,
+  "end": 2074.696,
+  "speaker": "Unknown",
+  "en": "You know, people didn't realize it hit play and just downloading a progressive file and before all of this kind of media management stuff existed, you're just wasting bandwidth just to scroll into the middle of a video.",
+  "zh": "你知道，人们没有意识到，点击播放就只是在下载一个渐进式文件，在所有这类媒体管理技术出现之前，你只是想滚动到视频中间却在浪费带宽。"
+ },
+ {
+  "seg": 526,
+  "start": 2074.836,
+  "end": 2075.797,
+  "speaker": "Unknown",
+  "en": "It costs people money.",
+  "zh": "这让人们花钱。"
+ },
+ {
+  "seg": 527,
+  "start": 2075.857,
+  "end": 2079.42,
+  "speaker": "Unknown",
+  "en": "So anyway, we've created all kinds of cool stuff around video.",
+  "zh": "所以总之，我们围绕视频创造了各种很酷的东西。"
+ },
+ {
+  "seg": 528,
+  "start": 2079.961,
+  "end": 2082.082,
+  "speaker": "Unknown",
+  "en": "And so as far as like...",
+  "zh": "至于像……"
+ },
+ {
+  "seg": 529,
+  "start": 2082.923,
+  "end": 2085.205,
+  "speaker": "Unknown",
+  "en": "building a new network for consumers.",
+  "zh": "为消费者构建一个新网络。"
+ },
+ {
+  "seg": 530,
+  "start": 2085.866,
+  "end": 2087.767,
+  "speaker": "Unknown",
+  "en": "Well, actually, and it's a little bit for bots, too.",
+  "zh": "嗯，实际上，它也有一点针对 bot 的成分。"
+ },
+ {
+  "seg": 531,
+  "start": 2087.787,
+  "end": 2092.812,
+  "speaker": "Unknown",
+  "en": "There's actually a lot of agentic networking components to it.",
+  "zh": "它实际上有很多面向智能体的网络组件。"
+ },
+ {
+  "seg": 532,
+  "start": 2093.793,
+  "end": 2096.575,
+  "speaker": "Unknown",
+  "en": "It's right up my alley because I love building big infrastructure.",
+  "zh": "这正合我的胃口，因为我喜欢构建大型基础设施。"
+ },
+ {
+  "seg": 533,
+  "start": 2096.635,
+  "end": 2098.937,
+  "speaker": "Unknown",
+  "en": "I love building scaled stuff.",
+  "zh": "我喜欢构建有规模的东西。"
+ },
+ {
+  "seg": 534,
+  "start": 2099.538,
+  "end": 2101.68,
+  "speaker": "Unknown",
+  "en": "But now it's kind of like twisting it.",
+  "zh": "但现在有点像把它扭转了一下。"
+ },
+ {
+  "seg": 535,
+  "start": 2101.72,
+  "end": 2103.861,
+  "speaker": "Unknown",
+  "en": "Instead of doing this for corporations, we're doing it for people.",
+  "zh": "不是为企业做这个，而是为个人做。"
+ },
+ {
+  "seg": 536,
+  "start": 2104.542,
+  "end": 2108.123,
+  "speaker": "Unknown",
+  "en": "I haven't really seen a lot of that being done, at least well.",
+  "zh": "我还没真正见过很多这样的事情被做出来，至少做得好的不多。"
+ },
+ {
+  "seg": 537,
+  "start": 2108.844,
+  "end": 2111.865,
+  "speaker": "Unknown",
+  "en": "So it's going to be fun to see kind of how people adapt to it.",
+  "zh": "所以看到人们如何适应它将会很有趣。"
+ },
+ {
+  "seg": 538,
+  "start": 2112.485,
+  "end": 2119.808,
+  "speaker": "Unknown",
+  "en": "But I think one of the more interesting things about that is we might even see some DDoS on our network.",
+  "zh": "但我认为关于这件事更有趣的一点是，我们甚至可能会在我们的网络上看到一些 DDoS。"
+ },
+ {
+  "seg": 539,
+  "start": 2120.528,
+  "end": 2121.609,
+  "speaker": "Unknown",
+  "en": "I'm sure you're ready for that.",
+  "zh": "我相信你已经为此做好了准备。"
+ },
+ {
+  "seg": 540,
+  "start": 2122.79,
+  "end": 2130.978,
+  "speaker": "Unknown",
+  "en": "Well, inbound from the internet, but what happens if somebody gets onto my network and starts using it inside and not have to deal with those silly people.",
+  "zh": "嗯，来自互联网的入站攻击是这样，但如果有人进入我的网络并开始在内部使用它，不用去应付那些愚蠢的人，那会发生什么。"
+ },
+ {
+  "seg": 541,
+  "start": 2131.738,
+  "end": 2140.246,
+  "speaker": "Unknown",
+  "en": "But yeah, the truth is, even if you have privacy, there's still laws and you need to at least follow them as much as you can.",
+  "zh": "但是的，事实是，即使你拥有隐私，仍然有法律，你需要至少尽你所能遵守它们。"
+ },
+ {
+  "seg": 542,
+  "start": 2142.688,
+  "end": 2144.549,
+  "speaker": "Unknown",
+  "en": "Well, I think one other interesting thing.",
+  "zh": "嗯，我认为还有另一件有趣的事。"
+ },
+ {
+  "seg": 543,
+  "start": 2144.63,
+  "end": 2149.573,
+  "speaker": "Unknown",
+  "en": "So, you know, it's, it's sort of the, and this is the kind of spending, spending years talking with you.",
+  "zh": "所以，你知道，这，这有点……这是那种花了多年时间和你交谈的……"
+ },
+ {
+  "seg": 544,
+  "start": 2150.174,
+  "end": 2156.798,
+  "speaker": "Unknown",
+  "en": "One other interesting thing is that you created an artwork that, that actually hung in the, at the, at the MoMA.",
+  "zh": "另一件有趣的事是你创作了一件艺术品，它真的挂在，挂在 MoMA。"
+ },
+ {
+  "seg": 545,
+  "start": 2157.179,
+  "end": 2157.419,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 546,
+  "start": 2157.499,
+  "end": 2158.74,
+  "speaker": "Unknown",
+  "en": "And it's part of the permanent collection.",
+  "zh": "而且它是永久收藏的一部分。"
+ },
+ {
+  "seg": 547,
+  "start": 2158.96,
+  "end": 2160.861,
+  "speaker": "Unknown",
+  "en": "That's, there's two pieces.",
+  "zh": "那是，有两件作品。"
+ },
+ {
+  "seg": 548,
+  "start": 2161.621,
+  "end": 2165.643,
+  "speaker": "Unknown",
+  "en": "Yeah, college project, I studied philosophy.",
+  "zh": "是的，大学时期的项目，我学的是哲学。"
+ },
+ {
+  "seg": 549,
+  "start": 2166.083,
+  "end": 2167.744,
+  "speaker": "Unknown",
+  "en": "Oddly enough, I studied- That one does, yeah.",
+  "zh": "说来奇怪，我学的是——那件确实有，是的。"
+ },
+ {
+  "seg": 550,
+  "start": 2167.764,
+  "end": 2175.888,
+  "speaker": "Unknown",
+  "en": "Yeah, I studied the art of aesthetics and anyway, some other stuff, but a lot of it was like theoretical AI.",
+  "zh": "是的,我学的是美学艺术,还有一些别的东西,但其中很多是理论性的 AI。"
+ },
+ {
+  "seg": 551,
+  "start": 2176.008,
+  "end": 2176.228,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 552,
+  "start": 2176.488,
+  "end": 2179.449,
+  "speaker": "Unknown",
+  "en": "And I'm like, wow, actually a philosophy degree makes a lot of sense now.",
+  "zh": "我就想,哇,原来哲学学位现在真的很有用。"
+ },
+ {
+  "seg": 553,
+  "start": 2179.47,
+  "end": 2179.83,
+  "speaker": "Unknown",
+  "en": "Totally.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 554,
+  "start": 2179.85,
+  "end": 2180.55,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "对对对。"
+ },
+ {
+  "seg": 555,
+  "start": 2180.57,
+  "end": 2181.31,
+  "speaker": "Unknown",
+  "en": "This is helpful.",
+  "zh": "这很有帮助。"
+ },
+ {
+  "seg": 556,
+  "start": 2182.791,
+  "end": 2191.537,
+  "speaker": "Unknown",
+  "en": "But yeah, I started mapping networks as I was doing, I was a penetration tester and hacking, ethical hacking into other companies.",
+  "zh": "不过是的,我开始绘制网络图,当时我是一名渗透测试员,对其他公司进行攻击,也就是道德黑客行为。"
+ },
+ {
+  "seg": 557,
+  "start": 2192.197,
+  "end": 2195.76,
+  "speaker": "Unknown",
+  "en": "And I found that casing the joint was the easiest way to start.",
+  "zh": "我发现踩点(casing the joint)是最容易的入手方式。"
+ },
+ {
+  "seg": 558,
+  "start": 2195.82,
+  "end": 2200.503,
+  "speaker": "Unknown",
+  "en": "So you'd make a network diagram and where all this stuff is and how it all works and what you think is where.",
+  "zh": "你会画一张网络图,标出所有这些东西在哪里、它们是怎么运作的、你认为什么在什么位置。"
+ },
+ {
+  "seg": 559,
+  "start": 2200.984,
+  "end": 2202.264,
+  "speaker": "Unknown",
+  "en": "And then I started automating that.",
+  "zh": "然后我开始把这个过程自动化。"
+ },
+ {
+  "seg": 560,
+  "start": 2202.825,
+  "end": 2209.91,
+  "speaker": "Unknown",
+  "en": "And then I got mouthy at lunch one day and bet some guys that I could probably use the same technique to map the entire internet.",
+  "zh": "后来有一天我在午餐时嘴快,跟几个人打赌说我大概可以用同样的技术把整个互联网绘制出来。"
+ },
+ {
+  "seg": 561,
+  "start": 2210.77,
+  "end": 2215.014,
+  "speaker": "Unknown",
+  "en": "And that started a $50 bet that I was pretty sure I was going to lose.",
+  "zh": "这就开启了一场 50 美元的赌局,我当时很确定自己会输。"
+ },
+ {
+  "seg": 562,
+  "start": 2216.055,
+  "end": 2218.096,
+  "speaker": "Unknown",
+  "en": "And then I got hit by a car on a bicycle.",
+  "zh": "然后我骑自行车被汽车撞了。"
+ },
+ {
+  "seg": 563,
+  "start": 2218.537,
+  "end": 2219.578,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦,好吧。"
+ },
+ {
+  "seg": 564,
+  "start": 2219.598,
+  "end": 2220.258,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 565,
+  "start": 2220.278,
+  "end": 2220.999,
+  "speaker": "Unknown",
+  "en": "And couldn't walk.",
+  "zh": "没法走路。"
+ },
+ {
+  "seg": 566,
+  "start": 2221.94,
+  "end": 2225.923,
+  "speaker": "Unknown",
+  "en": "And all of a sudden my life got really slow and I sat down and started doing the code for that.",
+  "zh": "突然间我的生活变得非常慢,我就坐下来开始写那个项目的代码。"
+ },
+ {
+  "seg": 567,
+  "start": 2226.083,
+  "end": 2227.504,
+  "speaker": "Unknown",
+  "en": "And that became the OPTI project.",
+  "zh": "那就成了 OPTI 项目。"
+ },
+ {
+  "seg": 568,
+  "start": 2228.405,
+  "end": 2237.072,
+  "speaker": "Unknown",
+  "en": "And that ended up in not just MoMA, but like Boston Museum of Science all over the world in different traveling exhibits.",
+  "zh": "它最后不仅进了 MoMA,还进了波士顿科学博物馆,以及世界各地不同的巡回展览。"
+ },
+ {
+  "seg": 569,
+  "start": 2237.412,
+  "end": 2240.534,
+  "speaker": "Unknown",
+  "en": "And then I did, you know, animations of that too.",
+  "zh": "然后我还,你知道,为它做了动画。"
+ },
+ {
+  "seg": 570,
+  "start": 2241.335,
+  "end": 2247.92,
+  "speaker": "Unknown",
+  "en": "And it's pretty neat because it's, that project has gotten a lot of attention, not just because it looks cool, but there's...",
+  "zh": "这很妙,因为,那个项目获得了大量关注,不只是因为它看起来酷,还有……"
+ },
+ {
+  "seg": 571,
+  "start": 2248.68,
+  "end": 2251.743,
+  "speaker": "Unknown",
+  "en": "Kind of really interesting history in the video.",
+  "zh": "视频里有挺有意思的历史。"
+ },
+ {
+  "seg": 572,
+  "start": 2251.783,
+  "end": 2255.526,
+  "speaker": "Unknown",
+  "en": "As things are happening, you can see companies crash and burn and all kinds of stuff.",
+  "zh": "随着事情发生,你能看到公司纷纷崩溃倒闭之类的情况。"
+ },
+ {
+  "seg": 573,
+  "start": 2256.266,
+  "end": 2264.273,
+  "speaker": "Unknown",
+  "en": "And I was lucky enough to be able to talk to EventSurf about it and, you know, have opportunity to ask my questions to him and it's pretty cool.",
+  "zh": "而且我有幸能和 EventSurf 谈这件事,你知道,有机会向他提问,这挺酷的。"
+ },
+ {
+  "seg": 574,
+  "start": 2264.593,
+  "end": 2265.254,
+  "speaker": "Unknown",
+  "en": "That is awesome.",
+  "zh": "那真是太棒了。"
+ },
+ {
+  "seg": 575,
+  "start": 2265.814,
+  "end": 2274.581,
+  "speaker": "Unknown",
+  "en": "And you've now done, you've probably accomplished two of the harder things to do in this world, which is one, starting a successful tech company and two, being a successful artist.",
+  "zh": "而你现在做到了,你大概已经完成了这个世界上两件最难的事情:一是创办一家成功的科技公司,二是成为一名成功的艺术家。"
+ },
+ {
+  "seg": 576,
+  "start": 2276.463,
+  "end": 2280.105,
+  "speaker": "Unknown",
+  "en": "Being an artist, a successful artist is probably much more difficult than starting a tech company.",
+  "zh": "成为一名艺术家、一名成功的艺术家,大概比创办科技公司要难得多。"
+ },
+ {
+  "seg": 577,
+  "start": 2280.205,
+  "end": 2288.211,
+  "speaker": "Unknown",
+  "en": "Yeah, it was actually kind of strange, you know, after I went to the opening in MoMA and it was, you know, this giant party.",
+  "zh": "是的,其实还挺奇怪的,你知道,我去参加 MoMA 的开幕式之后,那是一场,你知道,盛大的派对。"
+ },
+ {
+  "seg": 578,
+  "start": 2288.471,
+  "end": 2288.711,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 579,
+  "start": 2289.012,
+  "end": 2296.116,
+  "speaker": "Unknown",
+  "en": "And, you know, I was one of the artists and, you know, they had a new exhibit and I had the piece in there and it was just...",
+  "zh": "然后,你知道,我是其中一位艺术家,他们有一个新展览,我的作品在里面,那种感觉就是……"
+ },
+ {
+  "seg": 580,
+  "start": 2296.917,
+  "end": 2298.379,
+  "speaker": "Unknown",
+  "en": "Kind of like, oh man, this is kind of cool.",
+  "zh": "有点像,哦天哪,这还挺酷的。"
+ },
+ {
+  "seg": 581,
+  "start": 2298.459,
+  "end": 2308.552,
+  "speaker": "Unknown",
+  "en": "There's a DJ, there's drinking, and then the curators, they took me to some really interesting parts of MoMA's other properties that they own, and it was a really cool experience.",
+  "zh": "有 DJ,有酒喝,然后策展人带我去了 MoMA 拥有的其他场馆里一些非常有趣的地方,那是一次很棒的体验。"
+ },
+ {
+  "seg": 582,
+  "start": 2308.572,
+  "end": 2313.098,
+  "speaker": "Unknown",
+  "en": "But the next day, I kind of had this imposter syndrome where I just felt super depressed.",
+  "zh": "但第二天,我有点产生了冒名顶替综合征,感觉特别沮丧。"
+ },
+ {
+  "seg": 583,
+  "start": 2313.118,
+  "end": 2313.719,
+  "speaker": "Unknown",
+  "en": "I'm like, wow.",
+  "zh": "我心想,哇。"
+ },
+ {
+  "seg": 584,
+  "start": 2314.46,
+  "end": 2317.482,
+  "speaker": "Unknown",
+  "en": "Am I ever going to experience what an artist feels like ever again?",
+  "zh": "我还能再体验到艺术家所感受的那种感觉吗?"
+ },
+ {
+  "seg": 585,
+  "start": 2317.542,
+  "end": 2319.924,
+  "speaker": "Unknown",
+  "en": "Because this was kind of like accidental, you know?",
+  "zh": "因为这有点像是偶然发生的,你知道?"
+ },
+ {
+  "seg": 586,
+  "start": 2319.984,
+  "end": 2320.805,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 587,
+  "start": 2320.925,
+  "end": 2322.206,
+  "speaker": "Unknown",
+  "en": "But yeah, I got to do it again.",
+  "zh": "不过是的,我后来又有机会做了一次。"
+ },
+ {
+  "seg": 588,
+  "start": 2322.686,
+  "end": 2327.31,
+  "speaker": "Unknown",
+  "en": "But it was, yeah, very strange, surreal moment in life.",
+  "zh": "但那确实是,是啊,人生中非常奇怪、非常超现实的一个时刻。"
+ },
+ {
+  "seg": 589,
+  "start": 2328.07,
+  "end": 2329.872,
+  "speaker": "Unknown",
+  "en": "Probably the only person in tech that can say that.",
+  "zh": "大概是科技圈里唯一能这么说的人。"
+ },
+ {
+  "seg": 590,
+  "start": 2332.388,
+  "end": 2333.149,
+  "speaker": "Unknown",
+  "en": "Yeah, it's interesting.",
+  "zh": "是的,这很有意思。"
+ },
+ {
+  "seg": 591,
+  "start": 2333.169,
+  "end": 2340.774,
+  "speaker": "Unknown",
+  "en": "I have a lot of artist friends that are probably much better artists than me, and they're all like, what?",
+  "zh": "我有很多艺术家朋友,他们大概是比我出色得多的艺术家,他们都像,什么?"
+ },
+ {
+  "seg": 592,
+  "start": 2340.954,
+  "end": 2341.995,
+  "speaker": "Unknown",
+  "en": "How did you get in the moment?",
+  "zh": "你是怎么在那一刻抓住机会的?"
+ },
+ {
+  "seg": 593,
+  "start": 2342.015,
+  "end": 2343.917,
+  "speaker": "Unknown",
+  "en": "Yeah, how did that happen?",
+  "zh": "是啊,那是怎么发生的?"
+ },
+ {
+  "seg": 594,
+  "start": 2343.937,
+  "end": 2346.679,
+  "speaker": "Unknown",
+  "en": "Yeah, and part of the permanent collection too, which is neat.",
+  "zh": "是啊,而且还在永久收藏里,这很妙。"
+ },
+ {
+  "seg": 595,
+  "start": 2347.019,
+  "end": 2348.84,
+  "speaker": "Unknown",
+  "en": "Yeah, you're one of a few hundred or thousand.",
+  "zh": "是啊,你是那几百或几千人中的一个。"
+ },
+ {
+  "seg": 596,
+  "start": 2351.062,
+  "end": 2352.204,
+  "speaker": "Unknown",
+  "en": "I forget about that sometimes.",
+  "zh": "我有时候会忘记这一点。"
+ },
+ {
+  "seg": 597,
+  "start": 2352.364,
+  "end": 2354.286,
+  "speaker": "Unknown",
+  "en": "I also forget about the book, too.",
+  "zh": "我也忘记那本书了。"
+ },
+ {
+  "seg": 598,
+  "start": 2355.347,
+  "end": 2355.908,
+  "speaker": "Unknown",
+  "en": "That is true.",
+  "zh": "确实。"
+ },
+ {
+  "seg": 599,
+  "start": 2355.928,
+  "end": 2357.429,
+  "speaker": "Unknown",
+  "en": "Yeah, we have not talked about the book.",
+  "zh": "是啊,我们还没聊那本书。"
+ },
+ {
+  "seg": 600,
+  "start": 2357.449,
+  "end": 2357.99,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 601,
+  "start": 2358.01,
+  "end": 2359.151,
+  "speaker": "Unknown",
+  "en": "Do you want to cover that?",
+  "zh": "你想讲讲那个吗?"
+ },
+ {
+  "seg": 602,
+  "start": 2359.392,
+  "end": 2359.732,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 603,
+  "start": 2360.012,
+  "end": 2363.196,
+  "speaker": "Unknown",
+  "en": "We'll throw this on the list of great stories.",
+  "zh": "我们会把它扔到那些精彩故事清单里。"
+ },
+ {
+  "seg": 604,
+  "start": 2363.396,
+  "end": 2365.358,
+  "speaker": "Unknown",
+  "en": "I keep forgetting about that it exists.",
+  "zh": "我老是忘了它的存在。"
+ },
+ {
+  "seg": 605,
+  "start": 2367.18,
+  "end": 2372.003,
+  "speaker": "Unknown",
+  "en": "And recently, so I have an AI-powered webcam that watches boats in Miami.",
+  "zh": "最近,我有一个 AI 驱动的网络摄像头,在迈阿密监视船只。"
+ },
+ {
+  "seg": 606,
+  "start": 2372.103,
+  "end": 2373.023,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah, yeah.",
+  "zh": "对,对,对,对。"
+ },
+ {
+  "seg": 607,
+  "start": 2373.203,
+  "end": 2374.944,
+  "speaker": "Unknown",
+  "en": "And it has, and it's 24 hours a day.",
+  "zh": "它全天 24 小时运行。"
+ },
+ {
+  "seg": 608,
+  "start": 2374.964,
+  "end": 2376.685,
+  "speaker": "Unknown",
+  "en": "It's been up for almost a year now.",
+  "zh": "已经上线快一年了。"
+ },
+ {
+  "seg": 609,
+  "start": 2377.145,
+  "end": 2379.287,
+  "speaker": "Unknown",
+  "en": "And it's got a little chat community of people on there.",
+  "zh": "上面有一个小小的聊天社区。"
+ },
+ {
+  "seg": 610,
+  "start": 2379.747,
+  "end": 2381.728,
+  "speaker": "Unknown",
+  "en": "And one of them figured out who I was.",
+  "zh": "其中一个人弄清楚了我的身份。"
+ },
+ {
+  "seg": 611,
+  "start": 2381.868,
+  "end": 2384.589,
+  "speaker": "Unknown",
+  "en": "And then the other day, like, I just finished reading the book about you.",
+  "zh": "然后前几天,有人跟我说,我刚好读完那本关于你的书。"
+ },
+ {
+  "seg": 612,
+  "start": 2384.629,
+  "end": 2385.17,
+  "speaker": "Unknown",
+  "en": "I'm like, what?",
+  "zh": "我说,什么?"
+ },
+ {
+  "seg": 613,
+  "start": 2385.95,
+  "end": 2388.532,
+  "speaker": "Unknown",
+  "en": "I'm like, what do you mean?",
+  "zh": "我说,你什么意思?"
+ },
+ {
+  "seg": 614,
+  "start": 2388.552,
+  "end": 2390.194,
+  "speaker": "Unknown",
+  "en": "I'm like, oh, shoot, that's right.",
+  "zh": "我说,哦,糟糕,对啊。"
+ },
+ {
+  "seg": 615,
+  "start": 2390.254,
+  "end": 2391.195,
+  "speaker": "Unknown",
+  "en": "They've figured it out.",
+  "zh": "他们搞清楚了。"
+ },
+ {
+  "seg": 616,
+  "start": 2392.035,
+  "end": 2394.357,
+  "speaker": "Unknown",
+  "en": "So what is the book about you and what is it about?",
+  "zh": "那么那本关于你的书是什么书,讲了什么?"
+ },
+ {
+  "seg": 617,
+  "start": 2394.377,
+  "end": 2395.738,
+  "speaker": "Unknown",
+  "en": "Oh, it's been so long.",
+  "zh": "哦,已经是很久以前的事了。"
+ },
+ {
+  "seg": 618,
+  "start": 2395.758,
+  "end": 2402.504,
+  "speaker": "Unknown",
+  "en": "So it's about, I think, the beginnings of Prolexic and tracking down these cyber criminals in Russia.",
+  "zh": "它讲的是,我记得是 Prolexic 的起步阶段,以及在俄罗斯追查这些网络罪犯的事。"
+ },
+ {
+  "seg": 619,
+  "start": 2403.244,
+  "end": 2411.171,
+  "speaker": "Unknown",
+  "en": "And specifically, these guys, there's like a couple of them, were extremely aggressive, extorting and damaging a lot of our clients.",
+  "zh": "具体来说,这几个人,大概有两三个,极其嚣张,敲诈并损害了我们很多客户。"
+ },
+ {
+  "seg": 620,
+  "start": 2411.391,
+  "end": 2414.253,
+  "speaker": "Unknown",
+  "en": "And so we just kind of had enough of it and said, this has got to end.",
+  "zh": "所以我们实在是受够了,说,这必须得终结。"
+ },
+ {
+  "seg": 621,
+  "start": 2415.114,
+  "end": 2419.436,
+  "speaker": "Unknown",
+  "en": "I mean, we had Christmases destroyed because we were just dealing with customers and network outages.",
+  "zh": "我是说,我们的圣诞节都毁了,因为我们要不停处理客户问题和网络中断。"
+ },
+ {
+  "seg": 622,
+  "start": 2419.456,
+  "end": 2422.138,
+  "speaker": "Unknown",
+  "en": "Well, and these are like real criminals.",
+  "zh": "嗯,而且这些是真正的罪犯。"
+ },
+ {
+  "seg": 623,
+  "start": 2422.298,
+  "end": 2423.358,
+  "speaker": "Unknown",
+  "en": "These are not just hackers.",
+  "zh": "他们不只是黑客。"
+ },
+ {
+  "seg": 624,
+  "start": 2423.378,
+  "end": 2427.841,
+  "speaker": "Unknown",
+  "en": "These are people that are doing human trafficking, they're trafficking narcotics, and they have a side hustle.",
+  "zh": "这些人做人口贩卖、贩运毒品,而黑客攻击只是他们的副业。"
+ },
+ {
+  "seg": 625,
+  "start": 2427.861,
+  "end": 2429.322,
+  "speaker": "Unknown",
+  "en": "There's some stuff going on, yeah.",
+  "zh": "是有些情况的,对。"
+ },
+ {
+  "seg": 626,
+  "start": 2429.362,
+  "end": 2429.622,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是,是。"
+ },
+ {
+  "seg": 627,
+  "start": 2429.762,
+  "end": 2430.983,
+  "speaker": "Unknown",
+  "en": "It's like real criminals, right?",
+  "zh": "就是真正的罪犯,对吧?"
+ },
+ {
+  "seg": 628,
+  "start": 2431.003,
+  "end": 2435.625,
+  "speaker": "Unknown",
+  "en": "Yeah, and then they went to prison for, I think, eight years, hard labor or something like that.",
+  "zh": "是,然后他们进了监狱,我记得判了八年,好像是劳动改造之类的。"
+ },
+ {
+  "seg": 629,
+  "start": 2435.905,
+  "end": 2438.907,
+  "speaker": "Unknown",
+  "en": "And I don't know what happened to them afterwards, but...",
+  "zh": "我不知道他们后来怎么样了,但是……"
+ },
+ {
+  "seg": 630,
+  "start": 2439.926,
+  "end": 2444.889,
+  "speaker": "Unknown",
+  "en": "Yeah, that was really, we went out to Russia and got turned around.",
+  "zh": "对,那真是,我们去了俄罗斯,然后被劝返了。"
+ },
+ {
+  "seg": 631,
+  "start": 2445.949,
+  "end": 2451.132,
+  "speaker": "Unknown",
+  "en": "We were there in Moscow for a while and then there was some really interesting signals of like, you need to leave now.",
+  "zh": "我们在莫斯科待了一阵子,然后有一些非常有意思的信号,大意就是,你们现在必须离开。"
+ },
+ {
+  "seg": 632,
+  "start": 2452.453,
+  "end": 2453.073,
+  "speaker": "Unknown",
+  "en": "So we left.",
+  "zh": "所以我们就走了。"
+ },
+ {
+  "seg": 633,
+  "start": 2453.634,
+  "end": 2459.517,
+  "speaker": "Unknown",
+  "en": "But yeah, that whole book is about that whole saga of what happened through that period of time.",
+  "zh": "但对,整本书就是讲那段时间发生的整个事件经过。"
+ },
+ {
+  "seg": 634,
+  "start": 2460.124,
+  "end": 2466.809,
+  "speaker": "Unknown",
+  "en": "It's really weird because, you know, when you live it, it seems kind of normal, but then you look back and go, oh, geez, that was kind of crazy.",
+  "zh": "真的很奇怪,因为,你知道,当你身处其中时,感觉还挺正常的,但回头一看就会说,哦,天哪,那还真是挺疯狂的。"
+ },
+ {
+  "seg": 635,
+  "start": 2466.989,
+  "end": 2468.15,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 636,
+  "start": 2469.451,
+  "end": 2471.753,
+  "speaker": "Unknown",
+  "en": "I tell you, every time we talk, I hear new stories.",
+  "zh": "我跟你说,每次我们聊天,我都会听到新的故事。"
+ },
+ {
+  "seg": 637,
+  "start": 2473.334,
+  "end": 2474.615,
+  "speaker": "Unknown",
+  "en": "Let's not talk about Burning Man.",
+  "zh": "咱们先别聊火人节。"
+ },
+ {
+  "seg": 638,
+  "start": 2475.896,
+  "end": 2477.277,
+  "speaker": "Unknown",
+  "en": "That could be a whole episode itself.",
+  "zh": "那个本身就能做成一整期节目。"
+ },
+ {
+  "seg": 639,
+  "start": 2477.537,
+  "end": 2477.938,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 640,
+  "start": 2478.218,
+  "end": 2480.72,
+  "speaker": "Unknown",
+  "en": "Actually, when was your first, Burning Man is next week?",
+  "zh": "其实,你第一次是什么时候?火人节是下周?"
+ },
+ {
+  "seg": 641,
+  "start": 2481.526,
+  "end": 2483.627,
+  "speaker": "Unknown",
+  "en": "Yeah, it's this coming weekend.",
+  "zh": "对,就是这个周末。"
+ },
+ {
+  "seg": 642,
+  "start": 2483.647,
+  "end": 2484.307,
+  "speaker": "Unknown",
+  "en": "Yeah, coming weekend.",
+  "zh": "对,即将到来的周末。"
+ },
+ {
+  "seg": 643,
+  "start": 2484.327,
+  "end": 2484.987,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah, yeah.",
+  "zh": "是,是,是,是。"
+ },
+ {
+  "seg": 644,
+  "start": 2485.588,
+  "end": 2486.328,
+  "speaker": "Unknown",
+  "en": "Are you going this year?",
+  "zh": "你今年去吗?"
+ },
+ {
+  "seg": 645,
+  "start": 2486.588,
+  "end": 2486.848,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "去。"
+ },
+ {
+  "seg": 646,
+  "start": 2487.468,
+  "end": 2487.788,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 647,
+  "start": 2488.409,
+  "end": 2489.489,
+  "speaker": "Unknown",
+  "en": "I think it's year 14.",
+  "zh": "我记得是第 14 年了。"
+ },
+ {
+  "seg": 648,
+  "start": 2489.509,
+  "end": 2490.149,
+  "speaker": "Unknown",
+  "en": "Year 14.",
+  "zh": "第 14 年。"
+ },
+ {
+  "seg": 649,
+  "start": 2491.35,
+  "end": 2492.39,
+  "speaker": "Unknown",
+  "en": "Somewhere around there.",
+  "zh": "大概是这个数。"
+ },
+ {
+  "seg": 650,
+  "start": 2492.85,
+  "end": 2493.411,
+  "speaker": "Unknown",
+  "en": "I can't remember.",
+  "zh": "我记不清了。"
+ },
+ {
+  "seg": 651,
+  "start": 2493.431,
+  "end": 2498.473,
+  "speaker": "Unknown",
+  "en": "We lost a couple to COVID, so I don't remember which ones I skipped.",
+  "zh": "我们因为新冠失去了几个，所以我不记得跳过了哪些。"
+ },
+ {
+  "seg": 652,
+  "start": 2498.653,
+  "end": 2500.153,
+  "speaker": "Unknown",
+  "en": "And you have a famous car.",
+  "zh": "而且你有一辆很有名的车。"
+ },
+ {
+  "seg": 653,
+  "start": 2500.633,
+  "end": 2502.994,
+  "speaker": "Unknown",
+  "en": "Well, my partner has the famous car, yeah.",
+  "zh": "嗯，那辆有名的车是我伴侣的，是的。"
+ },
+ {
+  "seg": 654,
+  "start": 2503.114,
+  "end": 2506.836,
+  "speaker": "Unknown",
+  "en": "So Pablo created the Mayan Warrior and I created the Mayan Warrior Camp.",
+  "zh": "Pablo 创造了 Mayan Warrior，而我创造了 Mayan Warrior 营地。"
+ },
+ {
+  "seg": 655,
+  "start": 2507.556,
+  "end": 2510.957,
+  "speaker": "Unknown",
+  "en": "And so we were partners in that whole crazy thing for a while.",
+  "zh": "所以有那么一阵子我们是那整个疯狂项目的合伙人。"
+ },
+ {
+  "seg": 656,
+  "start": 2511.037,
+  "end": 2519.82,
+  "speaker": "Unknown",
+  "en": "And boy, that, that car went from like, you know, a fun project to like a whole global phenomenon.",
+  "zh": "天哪，那辆车从，你知道的，一个好玩的项目变成了一个全球现象。"
+ },
+ {
+  "seg": 657,
+  "start": 2520.2,
+  "end": 2522.901,
+  "speaker": "Unknown",
+  "en": "Like it, you know, people paid money to go see it.",
+  "zh": "比如，你知道，人们花钱去看它。"
+ },
+ {
+  "seg": 658,
+  "start": 2523.021,
+  "end": 2523.661,
+  "speaker": "Unknown",
+  "en": "It's crazy.",
+  "zh": "太疯狂了。"
+ },
+ {
+  "seg": 659,
+  "start": 2524.922,
+  "end": 2528.563,
+  "speaker": "Unknown",
+  "en": "But no, it was a lot of, it was, you know, what I was thinking about this morning is like,",
+  "zh": "但不是，它有很多，你知道，我今天早上想的是，"
+ },
+ {
+  "seg": 660,
+  "start": 2529.465,
+  "end": 2536.83,
+  "speaker": "Unknown",
+  "en": "When you're passionate about something, it kind of creates that aura around you and then other people pick up on it.",
+  "zh": "当你对某件事充满热情时，它会在你周围形成那种光环，然后其他人会感受到它。"
+ },
+ {
+  "seg": 661,
+  "start": 2536.97,
+  "end": 2538.871,
+  "speaker": "Unknown",
+  "en": "And we were very passionate about that project.",
+  "zh": "而我们对那个项目非常有热情。"
+ },
+ {
+  "seg": 662,
+  "start": 2539.472,
+  "end": 2544.995,
+  "speaker": "Unknown",
+  "en": "And I think it kind of inspired a lot of folks to do really interesting other projects that are similar to it.",
+  "zh": "而且我认为它多少激励了很多去做与它类似的、非常有趣的其他项目的人。"
+ },
+ {
+  "seg": 663,
+  "start": 2545.295,
+  "end": 2548.558,
+  "speaker": "Unknown",
+  "en": "And this is the first year we're not taking it to the playa.",
+  "zh": "今年是我们第一年不带它去 playa。"
+ },
+ {
+  "seg": 664,
+  "start": 2548.758,
+  "end": 2549.178,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 665,
+  "start": 2549.538,
+  "end": 2549.958,
+  "speaker": "Unknown",
+  "en": "Not going.",
+  "zh": "不去了。"
+ },
+ {
+  "seg": 666,
+  "start": 2551.479,
+  "end": 2551.84,
+  "speaker": "Unknown",
+  "en": "We're done.",
+  "zh": "我们结束了。"
+ },
+ {
+  "seg": 667,
+  "start": 2552.06,
+  "end": 2553.341,
+  "speaker": "Unknown",
+  "en": "Will you be doing your laser show though?",
+  "zh": "不过你还会做你的激光秀吗？"
+ },
+ {
+  "seg": 668,
+  "start": 2553.721,
+  "end": 2553.881,
+  "speaker": "Unknown",
+  "en": "Nope.",
+  "zh": "不。"
+ },
+ {
+  "seg": 669,
+  "start": 2554.221,
+  "end": 2554.521,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 670,
+  "start": 2554.702,
+  "end": 2555.142,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 671,
+  "start": 2555.602,
+  "end": 2558.084,
+  "speaker": "Unknown",
+  "en": "Well, there'll be something, but it's not mine.",
+  "zh": "嗯，会有点什么的，但不是我的。"
+ },
+ {
+  "seg": 672,
+  "start": 2558.304,
+  "end": 2560.285,
+  "speaker": "Unknown",
+  "en": "It's Pablo's got a beautiful art piece.",
+  "zh": "Pablo 有一件很漂亮的艺术品。"
+ },
+ {
+  "seg": 673,
+  "start": 2560.545,
+  "end": 2563.187,
+  "speaker": "Unknown",
+  "en": "There's two art pieces that he's bringing this year that'll be pretty cool.",
+  "zh": "他今年带来两件艺术品，会相当酷。"
+ },
+ {
+  "seg": 674,
+  "start": 2563.347,
+  "end": 2563.687,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 675,
+  "start": 2563.807,
+  "end": 2568.41,
+  "speaker": "Unknown",
+  "en": "But no more traveling superpower soundstage.",
+  "zh": "但不再有那个到处旅行的超级音响舞台了。"
+ },
+ {
+  "seg": 676,
+  "start": 2568.59,
+  "end": 2569.431,
+  "speaker": "Unknown",
+  "en": "That's gone.",
+  "zh": "它结束了。"
+ },
+ {
+  "seg": 677,
+  "start": 2570.171,
+  "end": 2572.313,
+  "speaker": "Unknown",
+  "en": "How's the vibe out there now that you can get Starlink?",
+  "zh": "那边现在能上 Starlink 了，氛围怎么样？"
+ },
+ {
+  "seg": 678,
+  "start": 2574.612,
+  "end": 2578.353,
+  "speaker": "Unknown",
+  "en": "It's actually, I mean, you can argue against it and you could argue for it.",
+  "zh": "实际上，我是说，你可以反对它，也可以支持它。"
+ },
+ {
+  "seg": 679,
+  "start": 2578.613,
+  "end": 2589.736,
+  "speaker": "Unknown",
+  "en": "I find that if you're running, well, for me, like when you're organizing a camp or dealing with, you know, oh, we ran out of water on our car, it helps because you can communicate.",
+  "zh": "我发现如果你在运营，嗯，对我来说，比如当你在组织一个营地，或者处理，你知道的，哎呀，我们的车没水了，它有帮助，因为你可以通讯。"
+ },
+ {
+  "seg": 680,
+  "start": 2589.996,
+  "end": 2590.556,
+  "speaker": "Unknown",
+  "en": "Yeah, totally.",
+  "zh": "是的，完全。"
+ },
+ {
+  "seg": 681,
+  "start": 2590.576,
+  "end": 2592.997,
+  "speaker": "Unknown",
+  "en": "Because we always bring high-powered Motorola radios.",
+  "zh": "因为我们总是带上大功率的 Motorola 对讲机。"
+ },
+ {
+  "seg": 682,
+  "start": 2593.037,
+  "end": 2594.497,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 683,
+  "start": 2594.517,
+  "end": 2595.858,
+  "speaker": "Unknown",
+  "en": "People are using shortwave too, right?",
+  "zh": "人们也在用短波电台，对吧？"
+ },
+ {
+  "seg": 684,
+  "start": 2595.878,
+  "end": 2596.498,
+  "speaker": "Unknown",
+  "en": "Like it's sort of...",
+  "zh": "就像是那种……"
+ },
+ {
+  "seg": 685,
+  "start": 2596.718,
+  "end": 2601.342,
+  "speaker": "Unknown",
+  "en": "Yeah, so you have the radios and then that's kind of fun and, you know, it reminds you of being a kid and stuff.",
+  "zh": "是的，所以你有对讲机，那挺好玩的，你知道，它让你想起小时候之类的。"
+ },
+ {
+  "seg": 686,
+  "start": 2601.362,
+  "end": 2601.923,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 687,
+  "start": 2602.063,
+  "end": 2604.986,
+  "speaker": "Unknown",
+  "en": "But it's also like, you know, it's still a communications device.",
+  "zh": "但它也是，你知道，它仍然是一种通讯设备。"
+ },
+ {
+  "seg": 688,
+  "start": 2605.326,
+  "end": 2611.091,
+  "speaker": "Unknown",
+  "en": "So out there, I don't know, it takes the edge off when it comes to like finding things or organizing things.",
+  "zh": "所以在那边，我不知道，在找东西或组织事情方面，它减轻了不少压力。"
+ },
+ {
+  "seg": 689,
+  "start": 2611.131,
+  "end": 2612.973,
+  "speaker": "Unknown",
+  "en": "People don't get stuck at the gate very long anymore.",
+  "zh": "人们不再在大门口被困很久了。"
+ },
+ {
+  "seg": 690,
+  "start": 2612.993,
+  "end": 2613.533,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 691,
+  "start": 2613.914,
+  "end": 2617.937,
+  "speaker": "Unknown",
+  "en": "But if you're sitting there watching movies, that's probably the wrong use, wrong use for it.",
+  "zh": "但如果你坐在那里看电影，那大概是错误的用法，错误的用法。"
+ },
+ {
+  "seg": 692,
+  "start": 2618.117,
+  "end": 2619.819,
+  "speaker": "Unknown",
+  "en": "You don't go to Burning Man to Netflix and chill.",
+  "zh": "你不会去火人节 Netflix and chill。"
+ },
+ {
+  "seg": 693,
+  "start": 2620.099,
+  "end": 2620.34,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不。"
+ },
+ {
+  "seg": 694,
+  "start": 2621.902,
+  "end": 2628.812,
+  "speaker": "Unknown",
+  "en": "If you're using it for anything other than local communications, then maybe it's the wrong use.",
+  "zh": "如果你把它用于本地通讯以外的任何事情，那也许就是错误的用法。"
+ },
+ {
+  "seg": 695,
+  "start": 2629.092,
+  "end": 2631.095,
+  "speaker": "Unknown",
+  "en": "But it has changed a bit.",
+  "zh": "但它确实有所改变。"
+ },
+ {
+  "seg": 696,
+  "start": 2631.796,
+  "end": 2632.137,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 697,
+  "start": 2632.157,
+  "end": 2634.781,
+  "speaker": "Unknown",
+  "en": "Well, as you said, you pursue your passion.",
+  "zh": "嗯，正如你所说，你追随你的热情。"
+ },
+ {
+  "seg": 698,
+  "start": 2635.261,
+  "end": 2637.322,
+  "speaker": "Unknown",
+  "en": "And that takes you down all sorts of amazing rabbit holes.",
+  "zh": "而那带你钻进各种各样奇妙的兔子洞。"
+ },
+ {
+  "seg": 699,
+  "start": 2637.362,
+  "end": 2640.943,
+  "speaker": "Unknown",
+  "en": "And you are clearly someone that is always pursuing his passion.",
+  "zh": "而你显然是一个一直在追寻自己热情的人。"
+ },
+ {
+  "seg": 700,
+  "start": 2640.963,
+  "end": 2642.724,
+  "speaker": "Unknown",
+  "en": "So thank you so much for stopping by.",
+  "zh": "非常感谢你来做客。"
+ },
+ {
+  "seg": 701,
+  "start": 2643.604,
+  "end": 2646.845,
+  "speaker": "Unknown",
+  "en": "I am an incredibly happy DocsNet user.",
+  "zh": "我是一个极其满意的 DocsNet 用户。"
+ },
+ {
+  "seg": 702,
+  "start": 2648.025,
+  "end": 2650.126,
+  "speaker": "Unknown",
+  "en": "And thank you for building it.",
+  "zh": "感谢你构建了它。"
+ },
+ {
+  "seg": 703,
+  "start": 2650.166,
+  "end": 2651.987,
+  "speaker": "Unknown",
+  "en": "It's good to get that old internet vibe back.",
+  "zh": "找回那种老互联网的感觉真好。"
+ },
+ {
+  "seg": 704,
+  "start": 2652.287,
+  "end": 2653.967,
+  "speaker": "Unknown",
+  "en": "Yeah, well, it's just getting started.",
+  "zh": "是啊,这只是个开始。"
+ },
+ {
+  "seg": 705,
+  "start": 2654.047,
+  "end": 2656.108,
+  "speaker": "Unknown",
+  "en": "And thanks for trusting me to help build it.",
+  "zh": "也感谢你信任我来帮忙构建它。"
+ },
+ {
+  "seg": 706,
+  "start": 2660.091,
+  "end": 2662.913,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 707,
+  "start": 2663.574,
+  "end": 2669.959,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期,请务必点赞、评论、订阅,给我们评分或写评论,并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 708,
+  "start": 2670.74,
+  "end": 2674.282,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 709,
+  "start": 2674.883,
+  "end": 2680.567,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 710,
+  "start": 2680.988,
+  "end": 2683.49,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening and I'll see you in the next episode.",
+  "zh": "再次感谢收听,我们下期节目再见。"
+ },
+ {
+  "seg": 711,
+  "start": 2685.598,
+  "end": 2698.605,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "温馨提示:此处内容仅供信息参考之用,不应被视为法律、商业、税务或投资建议,也不应用于评估任何投资或证券,且并非面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 712,
+  "start": 2699.305,
+  "end": 2703.968,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意,A16Z 及其关联方可能也持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 713,
+  "start": 2704.508,
+  "end": 2711.132,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情,包括我们投资的链接,请参阅 a16z.com forward slash disclosures。"
+ }
+]

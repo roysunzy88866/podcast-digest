@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[人在回路]] · [[Codex]] · [[护栏]] · [[Guy Pajani]] · [[Chris Blackburn]] · [[Anurag Gohl]] · [[Michael Giannangelli]] · [[Patrick Debois]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"评估":4,"人在回路":19,"Codex":76,"护栏":77,"Guy Pajani":3,"Chris Blackburn":1,"Anurag Gohl":1,"Michael Giannangelli":1,"Patrick Debois":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"评估":4,"人在回路":19,"Codex":78,"护栏":77,"Guy Pajani":3,"Chris Blackburn":1,"Anurag Gohl":1,"Michael Giannangelli":1,"Patrick Debois":2}</script>
 
 <script>
 (function(){

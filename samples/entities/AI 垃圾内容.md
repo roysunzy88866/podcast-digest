@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 垃圾内容 (AI slop)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 垃圾内容">AI</div><div class="pi"><h1 class="pt">AI 垃圾内容 (AI slop)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 垃圾内容">AI</div><div class="pi"><h1 class="pt">AI 垃圾内容 (AI slop)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(01:12起):本集说 AI slop 唯一产出的情况是那个人在面试环节没分享出足够好的想法——『人们其实是在指着自己说,我不够聪明』;防 slop 的核心是训练机器只使用创作者自己的话。
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(12:26起):本集说开源仓库正被 AI 写出的垃圾内容砸向,摧毁代码质量,并形成「越差代码→越差 AI」的递归循环
 - **[[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]]**(01:36起):本集用它形容模型产出的套路化设计:从 2022 年的紫色渐变到如今「Claude 米色」加 Instrument Serif 斜体,被调侃为「算法版优衣库」——所有东西长一个样
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(35:13起):本集说 AI slop 泛滥的根源是人们把问责甩掉了——把实习生交的演示文稿直接转发给老板从来不是好工作产生的方式，每个人工作中越来越大一部分是在清理别人的 AI 垃圾
 
@@ -29,9 +30,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为概念
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为概念
 - [[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]] — 作为概念
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为概念
 
@@ -39,9 +41,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[品味]] · [[Alex Lieberman]] · [[Paul Bakaus]] · [[Lenny]] · [[Claire Veau]] · [[Impeccable]] · [[Molly Graham]] · [[10X]]
+[[智能体]] · [[OpenAI]] · [[品味]] · [[Alex Lieberman]] · [[Nicky Pike]] · [[Paul Bakaus]] · [[Lenny]] · [[Claire Veau]] · [[Cal.com]] · [[Impeccable]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":157,"智能体":400,"品味":15,"Alex Lieberman":1,"Paul Bakaus":2,"Lenny":68,"Claire Veau":1,"Impeccable":2,"Molly Graham":1,"10X":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"OpenAI":159,"品味":15,"Alex Lieberman":1,"Nicky Pike":1,"Paul Bakaus":2,"Lenny":68,"Claire Veau":1,"Cal.com":1,"Impeccable":2}</script>
 
 <script>
 (function(){

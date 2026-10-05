@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":4,"Claude Code":94,"Codex":76,"ChatGPT":92,"Notion":15,"Slack":29,"Whisper":2,"Cursor":79,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":4,"Claude Code":94,"Codex":78,"ChatGPT":94,"Notion":15,"Slack":29,"Whisper":2,"Cursor":80,"Optimizely":2}</script>
 
 <script>
 (function(){

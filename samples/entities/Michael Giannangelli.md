@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":9,"评估":4,"基准测试":16,"智能体":400,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":94,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":9,"评估":4,"基准测试":17,"智能体":403,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":94,"Kiro":4}</script>
 
 <script>
 (function(){

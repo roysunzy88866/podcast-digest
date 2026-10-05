@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brett":1,"Core AI":1,"Facebook":16,"Akamai":1,"Microsoft":28,"学习循环":2,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
+<script type="application/json" class="pd-epn">{"Brett":1,"Core AI":1,"Facebook":16,"Akamai":2,"Microsoft":28,"学习循环":2,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
 
 <script>
 (function(){

@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":400,"应用垂直 AI":1,"专有数据":2,"可观测性":36,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"应用垂直 AI":1,"专有数据":2,"可观测性":36,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":19}</script>
 
 <script>
 (function(){

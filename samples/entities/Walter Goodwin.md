@@ -39,7 +39,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Fractile]] · [[NVIDIA]] · [[Broadcom]] · [[TSMC]] · [[Cerebrus]] · [[AMD]] · [[推理]] · [[内存带宽]] · [[ASIC]] · [[HBM]]
+[[Fractile]] · [[NVIDIA]] · [[Broadcom]] · [[TSMC]] · [[Grok]] · [[Cerebrus]] · [[AMD]] · [[推理]] · [[内存带宽]] · [[ASIC]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":53,"Broadcom":5,"TSMC":8,"Cerebrus":3,"AMD":5,"推理":73,"内存带宽":1,"ASIC":2,"HBM":1}</script>
+<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":53,"Broadcom":5,"TSMC":8,"Grok":7,"Cerebrus":3,"AMD":5,"推理":74,"内存带宽":1,"ASIC":2}</script>
 
 <script>
 (function(){

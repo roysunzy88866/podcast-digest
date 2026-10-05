@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>92</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>94</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -78,6 +78,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(05:17起):本集提到全世界还有人只是把东西复制粘贴进 ChatGPT，说明早期采用者并不能代表未来的采用人群。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(04:27起):本集举例说可以问 ChatGPT 生成一张骑自行车的鹈鹕 PNG，再到 Figma 上矢量化。
 - **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(01:09起):本集提到他从 ChatGPT 出来之前就开始做画布上的智能体。
+- **[[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h|《AI 正在替你思考，而你的大脑可能正在走下坡路》]]**(01:09起):本集以它为讨论主角：MIT 研究显示用 ChatGPT 写作的人记忆相关脑区活动少近两倍、83% 记不住自己刚写的内容；嘉宾认为危险在于人们已把思考让渡给它。
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(07:16起):超 10 亿周活,每周 3 亿人用它获取健康帮助;但约 15 亿人用过即弃,Greg 说「新文本框比旧文本框好,但那不是我们曾被承诺的 AI」。
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(00:38起):本集说它是 B2B 软件调研的主力模型（与 Gemini 合占 81% 一手调研份额），遇到商业意图提示会触发「你的钱、你的命」验证层，超过四分之一的买家甚至用手机上的个人版来选软件。
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(24:47起):本集说它通过授权协议使用 Axios 内容，嘉宾还把自己所有验血、MRI、家族病史全部输入 ChatGPT 管理健康。
@@ -97,6 +98,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(03:55起):本集说自 2023 年第一次用 ChatGPT 起,大家心里就已经有了 AI 助理应该是什么样子的期待。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(00:27起):嘉宾的第二个魔法时刻：ChatGPT Voice 接入 Gmail 和日历后，他骑车上班 30 分钟里动嘴就把邮件分类、回信、发日历邀请全办完
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(04:32起):本集把它说成：开放生态的载体——开发者可以在 ChatGPT 里构建应用，用户还能把 ChatGPT 订阅的 token 带到任何应用里用。
+- **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(01:07起):本集说 ChatGPT 是承载 dots、Spaces、Sites 和插件生态的平台,企业甚至可能把它当作协作平台、把真相源迁到其托管的文档上。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(21:08起):本集顺带提到 ChatGPT：超十亿人使用、每次问答都有真实成本，还拿它和「前 ChatGPT 时代」对比创业节奏的变化。
 - **[[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]]**(00:00起):本集说:ChatGPT 其实能给出相当不错的医疗建议,但厂商不敢宣传以免被诉医疗责任;Hoffman 称「我个人认识三个人,他们的命是被 ChatGPT 救回来的」。
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(14:24起):2022 年 11 月 30 日的发布被 Chase 称为「改变一切的时刻」,让他确信对 AI 算力基础设施的需求会大得多。
@@ -105,7 +107,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*21 条*
+*22 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -139,6 +141,8 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q1]]
 
+![[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h#^q2]]
+
 ![[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which#^q5]]
 
 ![[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th#^q11]]
@@ -151,7 +155,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*92 集*
+*94 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -221,6 +225,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念(提及)
 - [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为概念(提及)
+- [[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h|《AI 正在替你思考，而你的大脑可能正在走下坡路》]] — 作为被讨论公司
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司
@@ -240,6 +245,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
+- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]] — 作为被讨论公司
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
@@ -252,7 +258,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"OpenAI":157,"Claude":85,"Anthropic":171,"Google":55,"Lenny":68,"Codex":76,"Cursor":79,"LLM":53,"推理":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"OpenAI":159,"Claude":86,"Anthropic":171,"Google":55,"Lenny":68,"Codex":78,"Cursor":80,"LLM":55,"推理":74}</script>
 
 <script>
 (function(){

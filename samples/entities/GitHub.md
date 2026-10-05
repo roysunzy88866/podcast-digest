@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -33,6 +33,7 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:56起):本集提到 Microsoft 拥有 GitHub，有上亿开发者，是 AI 编码领域的巨大分发优势
 - **[[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|《Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的》]]**(01:35起):本集提到 Uber 正在从 Fabricator 向 GitHub 迁移,GitHub 是 uReview 的代码评审入口面之一
 - **[[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]]**(01:12起):本集提到装个 GitHub app、点几下按钮就能让智能体审查 PR，以及通过 GitHub 应用来设置代码审查透镜
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(12:45起):本集质疑 GitHub 的未来:如果没人读源代码,GitHub 除了当分享 zip 文件的 CDN 还有什么意义;为什么维护者要装第三方插件来挡非法 PR,那该是 GitHub 的本职工作
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(04:36起):本集开源工具用全确定性编程遍历你的 GitHub,搞清团队里谁在提交、在哪提交、谁在审查,产出专家图谱
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(06:35起):本集说工厂与 GitHub 集成、自动创建 PR，上个月超过 2000 个 PR
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):仅在片头广告里作为 AI DevCon 演讲方被列名，本集未讨论。
@@ -41,15 +42,17 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q1]]
+
+![[2026-09-03-changelog-forking-cal-com-to-closed-source#^q9]]
 
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q6]]
 
 ## ② 出现在这些集
 
-*27 集*
+*28 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
@@ -73,6 +76,7 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|《Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的》]] — 作为被讨论公司(提及)
 - [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]] — 作为被讨论公司(提及)
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为被讨论公司
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为概念(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司(提及)
@@ -83,9 +87,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Anthropic]] · [[Claude Code]] · [[Cursor]] · [[MCP]] · [[代码审查]] · [[OpenAI]] · [[沙箱]] · [[Codex]]
+[[智能体]] · [[Slack]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[MCP]] · [[代码审查]] · [[Codex]] · [[OpenAI]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"Slack":29,"Anthropic":171,"Claude Code":94,"Cursor":79,"MCP":72,"代码审查":23,"OpenAI":157,"沙箱":74,"Codex":76}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Slack":29,"Anthropic":171,"Cursor":80,"Claude Code":94,"MCP":72,"代码审查":23,"Codex":78,"OpenAI":159,"沙箱":74}</script>
 
 <script>
 (function(){

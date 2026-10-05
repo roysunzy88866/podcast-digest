@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>85</b> 集 · <b>47</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>86</b> 集 · <b>47</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -69,6 +69,7 @@ unlisted: true
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(09:28起):本集说 Claude 在很长一段时间里对研究数学没有用，大概在 Opus 4.5 或 4.6 左右赶上，并且在解释结果时对用户已知和未知内容的判断（心智理论）不如 5.6 准确
 - **[[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]]**(13:12起):本集现场演示让 Claude 一句提示『创建一个三层的组织架构图』即渲染出不错的图表,作为完全开放路线的例子
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(11:40起):本集说她用 Claude 的项目功能为每个客户和专栏搭建上下文，还跟 Claude 聊着把复合工程插件改造成了写作插件
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(10:38起):本集说现在每个 PR 都长得差不多——都是 Claude、Claude Code 或 Codex 写的
 - **[[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]]**(00:49起):反复作为参照：Claude tag 有按频道记忆、知识锁死在频道里成孤岛；Claude Code 是「编码智能体干一切」架构的代表；PromptQL tag 是其不锁死 Claude 的替代方案。
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(03:45起):本集反复使用的 AI 工具：通过 .claude 目录加载技能、用 hooks 在会话收尾时强制触发改进循环、用 slash loop 做定时循环；Tyler 还吐槽 Opus 5 特别啰嗦。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(34:36起):本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。
@@ -196,7 +197,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*85 集*
+*86 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -257,6 +258,7 @@ unlisted: true
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
 - [[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]] — 作为被讨论公司(提及)
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为被讨论公司(提及)
 - [[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]] — 作为被讨论公司(提及)
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
@@ -290,7 +292,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"ChatGPT":92,"Codex":76,"OpenAI":157,"MCP":72,"Lenny":68,"Google":55,"沙箱":74,"Claude Code":94}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Anthropic":171,"ChatGPT":94,"Codex":78,"OpenAI":159,"MCP":72,"Lenny":68,"Google":55,"沙箱":74,"Claude Code":94}</script>
 
 <script>
 (function(){

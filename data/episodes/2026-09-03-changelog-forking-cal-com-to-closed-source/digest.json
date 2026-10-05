@@ -1,0 +1,196 @@
+{
+  "title_zh": "开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌",
+  "tldr": "Cal.com 联合创始人 Pierre Richelson 做客 Changelog,讲述 AI 如何摧毁开源的报告文化、他为何决定把商业代码转为私有，以及当下 AI 初创公司的烧钱生意经。",
+  "digest_md": "日程安排工具 Cal.com 的联合创始人 Pierre Richelson 这次上 Changelog 播客，带来的不是产品宣传，而是一个令人不安的判断：**「现在大多数开源仓库都已经被攻破了，只是我们还不知道而已。」**[27:00 Pierre] 作为一个做了五年开源、在行业里干了十五年的人，他连自己公司都在做的「开源更安全」这个信条，也不再相信了。\n\n## 开源维护者的噩梦：AI 垃圾 PR 淹没仓库\n\nAI 拉平知识图谱之后，最先崩塌的是开源协作本身。以前收到一个 pull request(社区向项目提交代码改动的请求)，一眼就能看出是深思熟虑还是垃圾，该合并合并、该关掉关掉。如今每个 PR 都长得差不多——都是 Claude、Claude Code 或 Codex 写的。「以前你有一千个开源贡献者，就有一千种观点；现在你只有一千个人在用两个不同的编程助手。」[10:48 Pierre] 更糟的是 AI 生成的 PR 置信度看起来极高，层层剥开才发现连测试都是幻觉、代码里全是硬编码。\n\n后果是真实的：Cal.com 的 PR 收件箱里躺着 356 个开放 pull request。「我们根本不可能把这个彻底处理完。」[18:08 Pierre] 业内已经有人开始关停外部 PR、建背书系统——System Initiative 的 swamp.club 就走了「开源但不接受贡献」的路线，只收 issue 和文字描述的想法，不收代码。还有人把开源贡献当求职敲门砖：编排 12 个智能体扫最热门的仓库、自动找 issue 提 PR,Pierre 说这就像「向几百家公司群发简历，顺便说一句这也是个非常糟糕的策略」。[20:22 Pierre]\n\n## 「报告文化」之死：从更安全到更脆弱\n\n开源更安全的老逻辑是：全世界懂行的安全研究员帮你找漏洞、报漏洞、拿赏金。「曾经有一种报告文化。这种报告文化已经不存在了。」[24:01 Pierre] 现在 Cal.com 的安全收件箱里 99% 的漏洞报告是 AI 生成的，其中一半是幻觉——去复现根本不存在，或者用错了 API 端点。而维护者还得人工区分好坏，工作量已经大到「人力上不可能」。\n\n与此同时，攻击成本暴跌。自主攻击工具已经强到「攻击一个仓库所需的知识量，基本上就是：你能在终端里运行一条 shell 命令吗」。[24:56 Pierre] 以前渗透测试要海量工具、逆向工程、中间人攻击；现在一条提示词就行。Firefox 有约 12 个由 AI 报告的 P0 漏洞,React、Next.js 也都有 AI 找到的漏洞。安全研究员告诉 Pierre:**开源仓库被黑的可能性比闭源高 5 到 10 倍**——因为闭源是黑盒攻击，要靠猜；开源直接能看到后端和函数调用。而且黑帽黑客往往比白帽更快，因为「他们有即时的敲诈动机」。[34:52 Pierre]\n\n最阴险的一招：黑客会对你的 PR 跑代码扫描，一旦检测到某个 PR 是在修复漏洞，「在那一秒钟里，我会利用那个漏洞给他们发一封勒索信」。[53:38 Pierre] 所以他的建议是：修复漏洞要在私有状态下做，合并时压成一个 commit,「不要给他们一条通往改动的路径」。\n\n> 【背景】文中提及的 LightLLM、NPM 供应链攻击等事件，是嘉宾在节目中举的近期真实案例：LightLLM 被供应链攻击攻破，攻击者通过社会工程拿到密钥、利用受信任的发布流水线注入恶意代码。\n\n## Cal.com 的答案：内部 fork,商业版转私有\n\n从 4 月 15 日起，Cal.com 把运行在 app.cal.com 上的商业版转为私有——GitHub 上看到的代码从此不再是生产环境跑的代码。社区版保留、完全开源，改名 cal.diy,自担风险地自托管。做法是在内部 fork 现有代码，重写所有涉及认证、数据库调用、中间层的敏感部分；前端组件之类不敏感的照旧开源。「我们对开源有承诺，但我们也对每一位客户有承诺。」[32:19 Pierre]\n\n他特意强调这不是商业决策：Cal.com 每月环比增长 7%-12%,不缺钱，「资金方名单上有最支持开源的投资人，我们不得不说服他们这是一个正确的决定」。[45:33 Pierre] 「这对商业开源来说就像一个核级别的问题。」——他希望这只是自己一家的事，但它影响整个行业。\n\n为什么不完全闭源？他的答案是「靠分散性实现安全」：自托管理发店版 Cal 的邻居不会成为目标——黑客先得找到那台服务器，还得知道目标是谁，「黑你邻居的理发店在商业上是完全不划算的」。[43:35 Pierre] 而且，拥有私有代码并不能保证不被黑——只是把被黑概率从 5-10 倍降回去而已。\n\n他的「药方」：①别慌，小项目大概率不是目标；②跑一遍 AI 扫描工具看看爆炸半径——他聊过的每个项目，AI 工具的报告量都涨了约十倍；③至少暂时转私有修完漏洞，再 squash 成一个 commit 合并回去。\n\n## 谁该紧张：日志 SDK、CMS、支付\n\n不是所有开源都危险。框架和纯工具库没事；危险的是「任何最终会发起数据库调用的开源项目」。[31:24 Pierre] 受冲击最重的是几类：记录用户行为的日志类 SDK——它们必须开源才能当开发者包用，但被 AI 黑掉后攻击者能拿到你所有用户的事件数据；开源 CMS——想象有人拿到某 CMS 的写权限，就能往 nike.com 上发内容；还有自称「开源版 Stripe」的支付服务商，以及各类加密项目。「外面就是个狂野西部。」[49:06 Pierre]\n\n## 连 GitHub 都要重新想自己是谁\n\n顺着这个逻辑，Pierre 认为如果源代码变得没人读——维护者看过自己代码库的部分，可能还没社区加起来多——「GitHub 除了作为分享 zip 文件的 CDN 还有什么意义」。[58:53 Pierre] 现在维护者用第三方 GitHub Actions 自动关闭未验证者的 PR,「为什么我必须装第三方插件来确保只有合法的人在开 pull request?那应该是你的工作,GitHub」。[60:03 Pierre] 节目里还聊到 Mitchell Hashimoto 那条著名的 X 帖子：如果由他执掌 GitHub,会砍掉一半产品线、关掉 Copilot、收购 Cursor——而 GitHub 曾经是 AI 编程的领跑者，如今却是落后者。\n\n## 「1 美元的 AI 额度卖 10 美分」的生意经\n\n话题最后落到 AI 初创公司的商业模式。Pierre 的毒舌总结：「每个生意都很棒，如果你的商业模式是把价值 1 美元的 AI 额度卖 10 美分。」[78:28 Pierre] 一个思想实验：做个落地页卖半价的 Claude API key(你出一半)，发到 Hacker News,第一年就能做到 1 亿美元收入、烧掉 2 亿美元——「然后你可以上各种播客说我们第一年赚了 1 亿美元，不提烧掉的 2 亿」。[80:34 Pierre] 所有编程助手都在加限速、砍用量、推 200 美元套餐，因为「AI 领域的经济账不合理，至少现在不合理」。[78:50 Pierre] 反例是 AMP Code(明确说不低价卖、定价恰当还盈利)和 MidJourney(自研模型、从未融资、一直盈利)——你自己是供应商时，不用买别人的 token,利润率才成立。Cal.com 自己则没有任何走红的 AI 产品，也就不烧 token,「利润率很棒，依然很棒」。\n\n## 本集带走\n\n- **「开源更安全」的钟摆已经摆向反面**：安全研究员的说法是开源仓库被黑难度比闭源低 5-10 倍；以前靠人肉审计 8-20 小时才能找到的漏洞，现在一条提示词就能扫出来。\n- **修复漏洞要悄悄做**：黑客会扫描你的 PR、识别哪个是漏洞修复，然后在修复生效前利用漏洞勒索你——所以要在私有状态修，合并时 squash 成一个 commit,不给攻击者留路径。\n- **商业开源的生存姿势**：生产环境跑的代码不该和公开仓库是同一套；敏感的认证/数据库/中间层转私有，不敏感的组件保持开源；社区版靠「分散即安全」——没人会为了勒索去黑自托管的理发店。\n- **判断你的开源项目危不危险，看它碰不碰数据库**：框架、UI 库没事；日志 SDK、CMS、支付、任何存客户数据的项目都是高价值靶子。\n- **识别 AI 时代的补贴生意**：卖 1 美元 AI 额度只收 10 美分、宣称「我们替你承担费用」的公司，本质是在用融资烧钱换增长；不补贴 token、自己控成本的公司(AMP、MidJourney)才是可持续的活法。",
+  "quotes": [
+    {
+      "en": "My theory is that the majority of open source repositories are compromised right now. We just don't know yet.",
+      "zh": "我的理论是，现在大多数开源仓库都已经被攻破了。只是我们还不知道而已。",
+      "timestamp": "27:00",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "99% of the reportings we get are AI-generated.",
+      "zh": "我们收到的报告 99% 都是 AI 生成的。",
+      "timestamp": "24:05",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "The amount of knowledge needed to attack a repository is basically can you run a shell command in your terminal, right?",
+      "zh": "攻击一个仓库所需的知识量，基本上就是：你能在你的终端里运行一条 shell 命令吗，对吧？",
+      "timestamp": "25:01",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "It's like mass propaganda where you just post so much misinformation that it's just impossible to know what's the truth and what's not.",
+      "zh": "它就像大规模宣传，你发布这么多错误信息，以至于根本不可能知道什么是真相什么不是。",
+      "timestamp": "18:41",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "What happens when the mother is Vibe coding an iOS app and then the 16-year-old son is Vibe hacking the power station nearby, right?",
+      "zh": "当妈妈在 vibe coding 一个 iOS 应用，而 16 岁的儿子在 vibe hacking 附近的发电站时，会发生什么呢，对吧？",
+      "timestamp": "29:15",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "The black hat hackers usually fast because they have an incentive. They have an immediate extortion incentive to hack and blackmail.",
+      "zh": "黑帽黑客通常更快，因为他们有动机。他们有即时的敲诈动机去攻击和勒索。",
+      "timestamp": "34:48",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "This is like a nuclear problem for commercial open source.",
+      "zh": "这对商业开源来说就像一个核级别的问题。",
+      "timestamp": "45:40",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "The economics don't make sense in the AI space. They don't make sense yet.",
+      "zh": "AI 领域的经济账不合理。至少现在不合理。",
+      "timestamp": "78:50",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "What point has GitHub besides being a CDN to share zip files?",
+      "zh": "GitHub 除了作为分享 zip 文件的 CDN 还有什么意义？",
+      "timestamp": "59:07",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "I think AGI has achieved the moment you can one-shot Cal.com without forking.",
+      "zh": "我认为 AGI 已经实现了，就在你能不 fork 的情况下一次性生成 Cal.com 的那一刻。",
+      "timestamp": "95:58",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Probably the most profitable agents will be hacker agents that try to extort you.",
+      "zh": "很可能最赚钱的智能体会是勒索你的黑客智能体。",
+      "timestamp": "72:24",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "27:00",
+      "speaker": "Pierre",
+      "en": "My theory is that the majority of open source repositories are compromised right now. We just don't know yet.",
+      "zh": "我的理论是，现在大多数开源仓库都已经被攻破了。只是我们还不知道而已。"
+    },
+    {
+      "timestamp": "23:33",
+      "speaker": "Pierre",
+      "en": "I would say open source is always more secure than closed source. [...] Today, I no longer think that, right?",
+      "zh": "我会说开源永远比闭源更安全。……而今天，我不再这么想了，对吧？"
+    },
+    {
+      "timestamp": "24:05",
+      "speaker": "Pierre",
+      "en": "99% of the reportings we get are AI-generated.",
+      "zh": "我们收到的报告 99% 都是 AI 生成的。"
+    },
+    {
+      "timestamp": "24:56",
+      "speaker": "Pierre",
+      "en": "The amount of knowledge needed to attack a repository is basically can you run a shell command in your terminal, right?",
+      "zh": "攻击一个仓库所需的知识量，基本上就是：你能在你的终端里运行一条 shell 命令吗，对吧？"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Pierre",
+      "en": "This whole notion of the best idea wins, it's like the best large language model wins, or maybe the best prompt given to that large language model wins.",
+      "zh": "这整个「最好的想法获胜」的概念，变成了最好的大语言模型获胜，或者也许是给那个大语言模型的最好的提示词获胜。"
+    },
+    {
+      "timestamp": "18:41",
+      "speaker": "Pierre",
+      "en": "It's like mass propaganda where you just post so much misinformation that it's just impossible to know what's the truth and what's not.",
+      "zh": "它就像大规模宣传，你发布这么多错误信息，以至于根本不可能知道什么是真相什么不是。"
+    },
+    {
+      "timestamp": "28:09",
+      "speaker": "Pierre",
+      "en": "The knowledge graph has kind of flattened dramatically. And the bad actors now have the same thing.",
+      "zh": "知识图谱被极大地拉平了。而坏分子现在也拥有同样的东西。"
+    },
+    {
+      "timestamp": "29:15",
+      "speaker": "Pierre",
+      "en": "What happens when the mother is Vibe coding an iOS app and then the 16-year-old son is Vibe hacking the power station nearby, right?",
+      "zh": "当妈妈在 vibe coding 一个 iOS 应用，而 16 岁的儿子在 vibe hacking 附近的发电站时，会发生什么呢，对吧？"
+    },
+    {
+      "timestamp": "33:12",
+      "speaker": "Pierre",
+      "en": "If you have an open source repo, you're like five to 10 times easier to hack than a closed source repository, right? It's not like 10, 15% is like five to 10 times.",
+      "zh": "如果你有一个开源仓库，你被黑的可能性要比闭源仓库高 5 到 10 倍，对吧？不是 10%、15%,而是 5 到 10 倍。"
+    },
+    {
+      "timestamp": "34:48",
+      "speaker": "Pierre",
+      "en": "The black hat hackers usually fast because they have an incentive. They have an immediate extortion incentive to hack and blackmail.",
+      "zh": "黑帽黑客通常更快，因为他们有动机。他们有即时的敲诈动机去攻击和勒索。"
+    },
+    {
+      "timestamp": "43:24",
+      "speaker": "Pierre",
+      "en": "It's kind of like security by distribution, right?",
+      "zh": "这有点像靠分散性来实现安全，对吧？"
+    },
+    {
+      "timestamp": "45:40",
+      "speaker": "Pierre",
+      "en": "This is like a nuclear problem for commercial open source.",
+      "zh": "这对商业开源来说就像一个核级别的问题。"
+    },
+    {
+      "timestamp": "78:28",
+      "speaker": "Pierre",
+      "en": "Every business is great if you're selling a dollar worth of AI credits for 10 cents.",
+      "zh": "如果你的商业模式是把价值 1 美元的 AI 额度卖 10 美分，那每门生意都很棒。"
+    },
+    {
+      "timestamp": "78:50",
+      "speaker": "Pierre",
+      "en": "The economics don't make sense in the AI space. They don't make sense yet.",
+      "zh": "AI 领域的经济账不合理。至少现在不合理。"
+    },
+    {
+      "timestamp": "54:21",
+      "speaker": "Pierre",
+      "en": "Don't give them a path to the change. Don't feed the machine.",
+      "zh": "不要给他们一条通往改动的路径。不要喂那台机器。"
+    },
+    {
+      "timestamp": "58:53",
+      "speaker": "Pierre",
+      "en": "What point has GitHub besides being a CDN to share zip files?",
+      "zh": "GitHub 除了作为分享 zip 文件的 CDN 还有什么意义？"
+    },
+    {
+      "timestamp": "95:58",
+      "speaker": "Pierre",
+      "en": "I think AGI has achieved the moment you can one-shot Cal.com without forking.",
+      "zh": "我认为 AGI 已经实现了，就在你能不 fork 的情况下一次性生成 Cal.com 的那一刻。"
+    },
+    {
+      "timestamp": "95:33",
+      "speaker": "Pierre",
+      "en": "Scheduling up to this day is still really freaking hard. Even the first 20% is just still really, really hard.",
+      "zh": "排程到今天仍然真的非常难。连最开始的 20% 仍然真的非常非常难。"
+    },
+    {
+      "timestamp": "72:02",
+      "speaker": "Pierre",
+      "en": "Probably the most profitable agents will be hacker agents that try to extort you.",
+      "zh": "很可能最赚钱的智能体会是勒索你的黑客智能体。"
+    },
+    {
+      "timestamp": "111:17",
+      "speaker": "Pierre",
+      "en": "I think the most important skill for any founder is you have to adapt.",
+      "zh": "我觉得对任何创始人来说，最重要的技能就是你必须适应。"
+    }
+  ],
+  "voice_script": "今天这期嘉宾是 Pierre Richelson,日程安排工具 Cal.com 的联合创始人，在开源这个行业里干了十五年，自己公司做开源也做了五年。他这次上 Changelog 播客，不是来宣传产品的，是来报信的，而且是个很吓人的信：按他的判断，现在大多数开源仓库其实都已经被攻破了，只是我们还不知道而已。连“开源更安全”这个信条，他自己都不信了。为什么一个做了五年开源的人会说出这种话？咱们从头捋。\n\n事情要从 AI 对开源协作的冲击说起。以前你收到一个 pull request——就是社区成员向项目提交代码改动的请求——一眼就能看出来是深思熟虑还是垃圾，该合并的合并，该关的关。现在不一样了，AI 拉平了知识门槛，每个 PR 看起来都差不多，都是 Claude 或者 Codex 写的。有句话很形象：以前一千个开源贡献者，就有一千种观点；现在只有一千个人在用两个不同的编程助手。更麻烦的是，AI 生成的代码看起来置信度特别高，层层剥开才发现，连测试都是编造的，代码里全是硬编码。Cal.com 的仓库里现在躺着三百五十六个没人处理的 PR,原话是“我们根本不可能把这个彻底处理完”。\n\n那这跟安全有什么关系？关系就在下一步：开源安全的整个老逻辑，是靠全世界的安全研究员帮你找漏洞、报漏洞、拿赏金。这叫报告文化。而这套文化，现在基本死了。因为 Cal.com 安全收件箱里 99% 的漏洞报告都是 AI 生成的，其中一半是幻觉——去复现根本不存在，或者用错了接口。维护者还得人工一条条区分好坏，工作量大到人力上不可能。所以话说回来，不是没人报漏洞了，是垃圾信息多到真假分不清了。打个比方，这就像大规模宣传，你发布的错误信息多到没人知道什么是真的什么是假的。\n\n与此同时，攻击的成本在暴跌。以前做渗透测试，要有海量工具、逆向工程、中间人攻击；现在呢？用原话说，攻击一个仓库所需的知识量，基本上就是：你能在终端里运行一条 shell 命令吗。Firefox 有大约十二个由 AI 报告的最高级别漏洞，React 和 Next.js 也都有 AI 找到的漏洞。有安全研究员告诉 Pierre,开源仓库被黑的可能性比闭源高五到十倍，因为闭源是黑盒，攻击者只能靠猜；开源直接能看到后端和函数调用。而且黑帽黑客往往比白帽更快，原因很直白：有即时的敲诈动机。最阴险的一招是，黑客会对你的 PR 跑代码扫描，一旦发现某个 PR 是在修漏洞，就在修复生效之前利用这个漏洞发勒索信。所以给出的建议很具体：修漏洞要在私有状态下做，合并时压成一个 commit,不给攻击者留下通往改动的路径。\n\n那 Cal.com 自己怎么应对的？从 4 月 15 日起，商业版转私有——GitHub 上看到的代码，从此不再是生产环境实际跑的代码。社区版保留、完全开源，改名叫 cal.diy,想自托管的自己担风险。具体做法是在内部 fork 现有代码，重写所有涉及认证、数据库调用、中间层的敏感部分，前端组件这些不敏感的照旧开源。而且特意强调这不是商业决策：公司每月环比增长百分之七到十二，不缺钱，甚至还得反过来说服那些最支持开源的投资人。用他的话说，这对商业开源来说是一个核级别的问题。那为什么不干脆完全闭源？答案是靠分散性实现安全：一个自托管开源版的理发店邻居，黑客得先找到那台服务器，还得知道目标是谁——黑你邻居的理发店，商业上完全不划算。\n\n顺着这条线，哪些开源项目最该紧张？有个简单的判断标准：看它碰不碰数据库。框架和纯工具库没事，危险的是任何最终会发起数据库调用的项目。受冲击最重的是几类：记录用户行为的日志 SDK,被黑了攻击者就能拿到你所有用户的数据；开源 CMS,拿到写权限就能往大网站上发内容；还有自称开源版 Stripe 的支付服务商。外面就是个狂野西部。\n\n话题最后落到 AI 初创公司的生意经上，有句毒舌的总结：每个生意都很棒，如果你的商业模式是把价值一美元的 AI 额度卖十美分。做了个思想实验：做个落地页，半价卖 Claude 的 API key,发到 Hacker News,第一年就能做到一亿美元收入、烧掉两亿美元——然后可以上各种播客说我们第一年赚了一亿，不提烧掉的那两亿。反例是 AMP Code 和 MidJourney:不补贴 token、自己控成本，才是可持续的活法。Cal.com 自己没有走红的 AI 产品，不烧 token,利润率依然很棒。\n\n最后留一句话。当妈妈在 vibe coding 一个 iOS 应用，而十六岁的儿子在 vibe hacking 附近的发电站时，会发生什么呢——开源更安全的时代结束了，而大多数仓库，可能早就被攻破了，只是我们还不知道而已。"
+}

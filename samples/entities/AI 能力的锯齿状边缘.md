@@ -25,7 +25,7 @@ unlisted: true
 
 [[Patrick O'Shaughnessy]] · [[Eric Vishria]] · [[Fireworks]] · [[Sierra]] · [[Sunday Robotics]] · [[AWS]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Eric Vishria":1,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":18,"Cursor":79,"NVIDIA":53,"推理":73,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Eric Vishria":1,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":18,"Cursor":80,"NVIDIA":53,"推理":74,"开源模型":4}</script>
 
 <script>
 (function(){

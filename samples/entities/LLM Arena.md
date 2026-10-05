@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Edwin Chen]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]] · [[后训练]]
+[[Lenny]] · [[Edwin Chen]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Surge AI":1,"Anthropic":171,"ChatGPT":92,"Waymo":17,"GPT-3":3,"Claude":85,"基准测试":16,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Surge AI":1,"Anthropic":171,"ChatGPT":94,"Grok":7,"Waymo":17,"GPT-3":3,"Claude":86,"基准测试":17}</script>
 
 <script>
 (function(){

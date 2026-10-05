@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>53</b> 集 · <b>43</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>55</b> 集 · <b>43</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -61,7 +61,9 @@ unlisted: true
 - **[[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]]**(06:28起):本集主张不训练专用机器人模型，而是构建非常好的基础 LLM 直接控制机器人——强语言模型即强机器人模型。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(04:31起):本集反复把它与 Jev 对照:标准 LLM 是文本进、文本出,擅长生成内容(聊天、写代码),但输出 token 贵;而 Jev 只做决策。Jev 搭配一个 LLM 搭档被说成是超级强大的用法。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(02:54起):本集的公式：单靠 LLM 做不了财务结账，必须加上 AI 基础、流程与数据上下文和治理——后者是 SAP 干了 50 年的事。
+- **[[2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch|《从物理主义者到唯心论者：一位神经科学家的意识转向》]]**(47:33起):本集用它收尾:LLM 已通过图灵测试、做惊人的下一词预测,但按 IIT 它本质像前馈网络、只是模拟,没有因果力,不会有感受
 - **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(02:36起):本集把 LLM 定义为『非结构化到非结构化』的生成式模型：文本进文本出，适合头脑风暴和创造性探索；与 Jev 对照——LLM 又贵又慢，但『创造以前造不出的东西』。
+- **[[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]]**(31:01起):本集说拐点是规模化「投币式智能」诞生：「你可以把所有那些数据直接倒进一个 LLM 里，说，告诉我关于这个人的情况」，你就会得到一个答案，跨平台协调的舆论行动已见苗头。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(21:50起):本集说 LLM 从以语言书写的人类知识中学习表征、针对生成文字优化；其自回归 transformer 架构内存受限，在嵌入式设备上因无法聚合调用而跑不满算力；LLM 驱动的数字智能体还被用于工厂高层规划和替开发者查找资料。
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(16:31起):本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。
 
@@ -157,7 +159,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*53 集*
+*55 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -209,7 +211,9 @@ unlisted: true
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]] — 作为概念
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
+- [[2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch|《从物理主义者到唯心论者：一位神经科学家的意识转向》]] — 作为概念
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念
+- [[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]] — 作为概念
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
 
@@ -219,7 +223,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[推理]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"ChatGPT":92,"MCP":72,"Claude":85,"OpenAI":157,"Claude Code":94,"Lenny":68,"推理":73,"Google":55}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Anthropic":171,"ChatGPT":94,"MCP":72,"Claude":86,"OpenAI":159,"Claude Code":94,"Lenny":68,"推理":74,"Google":55}</script>
 
 <script>
 (function(){

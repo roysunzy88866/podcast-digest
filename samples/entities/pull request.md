@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>pull request</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="pull request">PU</div><div class="pi"><h1 class="pt">pull request</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="pull request">PU</div><div class="pi"><h1 class="pt">pull request</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(32:46起):本集说 LLM 做 pull request 审查时更彻底，因为可以用英语编写规则，比心情不好的高级工程师能捕捉到更多东西
+- **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(10:04起):本集说 AI 垃圾 PR 淹没仓库——Cal.com 躺着 356 个开放 PR,全是 Claude/Codex 写的,连测试都是幻觉,人工区分好坏已人力不可能
 - **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(07:31起):本集说 Shopify 约一半的 pull request 不再由工程师手写，而是从公司公共聊天的对话中生成；不读就合并的 AI 生成 PR 被称为'懒人手榴弹'
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(00:27起):本集用 PR 作为衡量 AI 编程质量的基本单位:统计约 1/4 的企业 PR 已完全或大部分由 AI 生成,并用回退率、bug 数、评审轮数三个指标衡量其质量。
 - **[[2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas|《AI 写代码太快的时代，验证才是新瓶颈》]]**(02:28起):本集以「AI 生成的 PR 你敢直接合并并发布吗」作为自查问题，并演示 Meticulous 在 PR 评论中几分钟内列出各处 diff。
@@ -34,9 +35,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为概念(提及)
+- [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为概念
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为概念
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
 - [[2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas|《AI 写代码太快的时代，验证才是新瓶颈》]] — 作为概念
@@ -45,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[vibe coding]] · [[沙箱]] · [[Codex]] · [[Claude]] · [[Cursor]] · [[Kitsa]] · [[Tobi Lütke]] · [[Daksh Gupta]] · [[Gabriel Spencer-Harper]]
+[[智能体]] · [[Codex]] · [[Claude]] · [[Cursor]] · [[vibe coding]] · [[沙箱]] · [[Copilot]] · [[Kitsa]] · [[Nicky Pike]] · [[Tobi Lütke]]
 
-<script type="application/json" class="pd-epn">{"智能体":400,"vibe coding":44,"沙箱":74,"Codex":76,"Claude":85,"Cursor":79,"Kitsa":1,"Tobi Lütke":1,"Daksh Gupta":1,"Gabriel Spencer-Harper":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":403,"Codex":78,"Claude":86,"Cursor":80,"vibe coding":45,"沙箱":74,"Copilot":12,"Kitsa":1,"Nicky Pike":1,"Tobi Lütke":1}</script>
 
 <script>
 (function(){

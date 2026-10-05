@@ -1,0 +1,1392 @@
+{
+  "episode_id": "2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac",
+  "podcast": "How I AI",
+  "date": "2026-09-30",
+  "tags": [
+    "OpenAI Dev Day",
+    "智能体",
+    "AI 模型",
+    "企业协作",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集主角:Claire 现场回顾其 Dev Day 主题演讲,称「每两三分钟就宣布一个新东西」,并逐个给出第一手试用评价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            8.896
+          ],
+          "quote": "Today, I spent the day in San Francisco at OpenAI's Dev Day, and it was a fun one, not just because Tebow let me smash the Codex reset button for you all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            15.1,
+            18.102
+          ],
+          "quote": "The good news is OpenAI released a lot of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            18.643,
+            21.585
+          ],
+          "quote": "The bad news is OpenAI released a lot of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            26.568,
+            33.914
+          ],
+          "quote": "Everything from OpenAI's answer to GrokBot and Muse to platform components that developers are really going to use felt like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            87.585,
+            95.573
+          ],
+          "quote": "In fact, so early, it's hard for me to give you all a full review because it's very clear that the OpenAI team is building and building and building on this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            344.151,
+            347.233
+          ],
+          "quote": "I think that's how an OpenAI agent gets my attention is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            400.964,
+            407.39
+          ],
+          "quote": "The actual work it does because it's powered by these OpenAI models is really good and it's pretty smart with memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            464.993,
+            469.537
+          ],
+          "quote": "And so the OpenAI team has built spaces into that same concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            603.758,
+            608.142
+          ],
+          "quote": "They have all the goodies and yet OpenAI, Meta have all beat them to the punch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            619.552,
+            624.697
+          ],
+          "quote": "Will you see companies move more and more to these OpenAI hosted documents or not?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            643.662,
+            650.327
+          ],
+          "quote": "Sites, in case you don't know, is sort of like OpenAI's built-in website app builder that can be deployed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            727.888,
+            732.976
+          ],
+          "quote": "And I think this sites plus plugins is OpenAI's answer to this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            735.139,
+            740.967
+          ],
+          "quote": "Again, I think there's this competition between like Claude artifacts, OpenAI sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            880.445,
+            882.427
+          ],
+          "quote": "It's also OpenAI Dev Week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1016.253,
+            1017.916
+          ],
+          "quote": "to see OpenAI announce this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1419.372,
+            1428.934
+          ],
+          "quote": "This has been my very fast OpenAI Dev Day recap, highlights for me, episode with Cath from the Sites team coming this week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dot",
+      "type": "concept",
+      "role": "concept",
+      "name": "dot",
+      "file": "dot",
+      "primary": true,
+      "how_described": "本集说 Dot 是 OpenAI 发布的始终在线、长期运行的智能体,可跨 ChatGPT、Codex、本地电脑、手机、Slack 乃至「打电话」工作;Claire 评价信息架构还没理清,想等产品更成熟再做完整评测,但值得留意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            118.602,
+            120.924
+          ],
+          "quote": "And I asked the team, do I get one dot or many dots?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            121.005,
+            124.328
+          ],
+          "quote": "And right now we are issued a single dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            124.648,
+            133.736
+          ],
+          "quote": "So if you're on pro, business, enterprise, a couple of the key plans, you should have your dot in ChatGPT in the Codex app right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            134.617,
+            135.898
+          ],
+          "quote": "So this is my dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            144.322,
+            148.524
+          ],
+          "quote": "So as you can see here, there's a machine that your dot can use or you can take over and use it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            157.068,
+            161.249
+          ],
+          "quote": "In addition to their computer, you can give your dot access to your local computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            171.691,
+            177.992
+          ],
+          "quote": "Some interesting things that they're pushing with dots is the kind of like multi-channel experience of a dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            178.453,
+            184.654
+          ],
+          "quote": "So you can, of course, use your dot in the ChatGPT desktop or mobile app, but you can also",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            185.314,
+            186.355
+          ],
+          "quote": "Call Your Dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            186.415,
+            189.197
+          ],
+          "quote": "So they've actually made this not voice mode with your dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            189.237,
+            191.538
+          ],
+          "quote": "They're really calling it call your dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            213.852,
+            216.554
+          ],
+          "quote": "The ability to install your DOT in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            227.72,
+            230.202
+          ],
+          "quote": "So, you know, DOT can do work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            237.826,
+            256.196
+          ],
+          "quote": "And so you have like kind of like one master dot that is responsible for all your work, can be proactive towards you, can remind you of things, can do work on its own, but it can also kick off Codex threads and I think chat threads, they're kind of like one and the same, and do work on your behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            260.561,
+            263.726
+          ],
+          "quote": "I want to do a full dot review, but I want to do it when it's baked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            298.616,
+            302.819
+          ],
+          "quote": "I say the bones of your dot, which is a very weird thing to say, are good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            307.542,
+            316.627
+          ],
+          "quote": "I think there's a bunch of rough edges around dot's position in all the primitives that you have going on with chat and codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            316.987,
+            321.85
+          ],
+          "quote": "I think it's very confusing to understand what's a dot thread, what's a chat thread, what's a codex thread.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            326.174,
+            331.118
+          ],
+          "quote": "And I think people are going to have to decide what they think about using their dot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            335.142,
+            344.091
+          ],
+          "quote": "So dot is going to be able to pull me in if it is proactive and suggests using my chatter codex memories, useful things it can do for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            352.966,
+            357.116
+          ],
+          "quote": "I will say right now, early take, and again, I'm not doing a full dot review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            469.577,
+            478.624
+          ],
+          "quote": "So if you see what spaces can do, it can create pages and create documents by which you can collaborate with both your human friends and your DOT, your agent friends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            501.574,
+            505.596
+          ],
+          "quote": "One of the things I love that my dot did, one moment of delight that I didn't touch on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            511.083,
+            519.876
+          ],
+          "quote": "And it just created a space where my dot and I could just collaborate via doc on things we have to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spaces",
+      "type": "concept",
+      "role": "concept",
+      "name": "Spaces",
+      "file": "Spaces",
+      "primary": true,
+      "how_described": "本集说 Spaces 是 ChatGPT 里与人、与智能体共同处理文档、幻灯片、HTML 的 AI 原生协作平台,「这就是各家公司一直在等待的东西」,是对 Google 的正面开火。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            464.993,
+            469.537
+          ],
+          "quote": "And so the OpenAI team has built spaces into that same concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            469.577,
+            478.624
+          ],
+          "quote": "So if you see what spaces can do, it can create pages and create documents by which you can collaborate with both your human friends and your DOT, your agent friends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            609.483,
+            615.268
+          ],
+          "quote": "But I do think spaces are one of those things that enterprises really want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            615.308,
+            619.352
+          ],
+          "quote": "So I'll really be watching to see who actually adopts spaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            628.582,
+            636.241
+          ],
+          "quote": "Business collaboration platforms like Slack, Google Drive, Dropbox, et cetera, play with spaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            637.277,
+            643.202
+          ],
+          "quote": "The other thing that is related to Spaces that I think is really interesting is the updates announced to sites.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sites",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sites",
+      "file": "Sites",
+      "primary": true,
+      "how_described": "本集说 Sites 是 OpenAI 内置的网站应用构建器,新更新支持把连接器和插件打包进站点,访问者用自己的连接器登录、按自身数据权限看内容,是 vibe-coded 内部工具安全共享的答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            637.277,
+            643.202
+          ],
+          "quote": "The other thing that is related to Spaces that I think is really interesting is the updates announced to sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            643.662,
+            650.327
+          ],
+          "quote": "Sites, in case you don't know, is sort of like OpenAI's built-in website app builder that can be deployed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            659.684,
+            663.566
+          ],
+          "quote": "You know, they pulled sites into space, so it has nice sharing and permissions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            663.606,
+            673.229
+          ],
+          "quote": "But the one thing that they added to sites, which I think is really, really, really smart, is you can now bundle connectors and plugins into your site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            727.888,
+            732.976
+          ],
+          "quote": "And I think this sites plus plugins is OpenAI's answer to this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            735.139,
+            740.967
+          ],
+          "quote": "Again, I think there's this competition between like Claude artifacts, OpenAI sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            762.858,
+            766.52
+          ],
+          "quote": "The product lead on sites where she's going to show us all the like magic insights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            776.586,
+            785.711
+          ],
+          "quote": "Now, I've covered two, three big things, which is dots, agents, space, like collaborative workspace, sites, just like a nice little quality of life thing here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1391.749,
+            1399.676
+          ],
+          "quote": "It would be if you're at a company and you're really struggling with collaboration on AI-generated tools, either with humans or agents, to take a look at space and sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1419.372,
+            1428.934
+          ],
+          "quote": "This has been my very fast OpenAI Dev Day recap, highlights for me, episode with Cath from the Sites team coming this week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:dots 就是智能体,Claire 谈到智能体的主动性、多渠道体验、「为一个工作雇一个智能体」而非「一个智能体统治一切」,以及跨多个智能体协作工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            67.167,
+            75.693
+          ],
+          "quote": "DOTS are an always-on long-running agent that can work across ChatGPT, across Codex, in its own computer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            344.151,
+            347.233
+          ],
+          "quote": "I think that's how an OpenAI agent gets my attention is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            367.043,
+            372.545
+          ],
+          "quote": "I like to hire an agent for a job, so I'm not really a one agent to rule them all person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            450.902,
+            457.087
+          ],
+          "quote": "All the right data controls built in with all the like agent native kind of aspects of this built in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            469.577,
+            478.624
+          ],
+          "quote": "So if you see what spaces can do, it can create pages and create documents by which you can collaborate with both your human friends and your DOT, your agent friends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            563.421,
+            571.509
+          ],
+          "quote": "But a good example of a space, again, is this place where you and your agent can just keep a running list of to-dos, decisions, notes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是 OpenAI 的编程工具,dot 可跨它工作、可替你启动 Codex 线程;本次还开放了 Codex 原语给开发者,并新增 8 倍速的 ultrafast 档位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            8.896
+          ],
+          "quote": "Today, I spent the day in San Francisco at OpenAI's Dev Day, and it was a fun one, not just because Tebow let me smash the Codex reset button for you all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            67.167,
+            75.693
+          ],
+          "quote": "DOTS are an always-on long-running agent that can work across ChatGPT, across Codex, in its own computer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            124.648,
+            133.736
+          ],
+          "quote": "So if you're on pro, business, enterprise, a couple of the key plans, you should have your dot in ChatGPT in the Codex app right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            216.834,
+            227.48
+          ],
+          "quote": "Now, one of the things that I find most confusing about DOTS is just like, where does it sit in the ecosystem of all the other ChatGPT surfaces and all the Codex surfaces?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            237.826,
+            256.196
+          ],
+          "quote": "And so you have like kind of like one master dot that is responsible for all your work, can be proactive towards you, can remind you of things, can do work on its own, but it can also kick off Codex threads and I think chat threads, they're kind of like one and the same, and do work on your behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            307.542,
+            316.627
+          ],
+          "quote": "I think there's a bunch of rough edges around dot's position in all the primitives that you have going on with chat and codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            316.987,
+            321.85
+          ],
+          "quote": "I think it's very confusing to understand what's a dot thread, what's a chat thread, what's a codex thread.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            335.142,
+            344.091
+          ],
+          "quote": "So dot is going to be able to pull me in if it is proactive and suggests using my chatter codex memories, useful things it can do for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            549.026,
+            554.292
+          ],
+          "quote": "I built this collaborative document where me and all my agents, Codex, Grok, Muse,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1050.476,
+            1061.4
+          ],
+          "quote": "Now, I don't know if you know this, you can run your models in Codex on normal mode, on fast mode, which is two times as fast, or on ultra-fast, which is eight times as fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1347.932,
+            1358.46
+          ],
+          "quote": "I mean, again, there were just so much like agents, platform, computer use in the agents API, all the codex primitives enabled for developers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1370.53,
+            1382.441
+          ],
+          "quote": "There was a bunch of developer primitives released so that you can build with the same infrastructure and tools that Codex is built on, including using the agents API with computer use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 是承载 dots、Spaces、Sites 和插件生态的平台,企业甚至可能把它当作协作平台、把真相源迁到其托管的文档上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            67.167,
+            75.693
+          ],
+          "quote": "DOTS are an always-on long-running agent that can work across ChatGPT, across Codex, in its own computer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            124.648,
+            133.736
+          ],
+          "quote": "So if you're on pro, business, enterprise, a couple of the key plans, you should have your dot in ChatGPT in the Codex app right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            178.453,
+            184.654
+          ],
+          "quote": "So you can, of course, use your dot in the ChatGPT desktop or mobile app, but you can also",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            216.834,
+            227.48
+          ],
+          "quote": "Now, one of the things that I find most confusing about DOTS is just like, where does it sit in the ecosystem of all the other ChatGPT surfaces and all the Codex surfaces?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            419.28,
+            424.004
+          ],
+          "quote": "I think one that's underhyped, and I said this on X, is ChatGPT Space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            424.644,
+            433.812
+          ],
+          "quote": "Space is a place in ChatGPT where you can work on documents, artifacts, slides with humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            485.207,
+            492.29
+          ],
+          "quote": "And I know that ChatGPT, these other AI tools are really great at creating slides, but not really great at editing and collaborating with slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            584.814,
+            591.135
+          ],
+          "quote": "You have the ability to at mention your doc, at mention ChatGPT and get updates to the doc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            650.948,
+            654.69
+          ],
+          "quote": "You can sign in through ChatGPT and then anybody can access your web app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            680.595,
+            687.301
+          ],
+          "quote": "You have a Snowflake plugin through your ChatGPT app, and you want to use that same data in your shared reporting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            767.261,
+            776.126
+          ],
+          "quote": "But this is something that I think you should, if you are an enterprise, considering ChatGPT as your platform for collaboration that I think is quite nice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1365.245,
+            1369.969
+          ],
+          "quote": "They announced some changes to the ChatGPT plans, including a new Pro 500 plan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-6.1 Sol",
+      "file": "GPT-6.1 Sol",
+      "primary": true,
+      "how_described": "本集说 Sol 是接近 Astra 级智能但便宜约五分之一的模型(每百万输入 token 2 美元、输出 10 美元),Claire 称它是「任劳任怨的工作马」、中档工程任务的主力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            819.424,
+            821.566
+          ],
+          "quote": "And they did release GPT-6-1 Sol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decisions-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Decisions API",
+      "file": "Decisions API",
+      "primary": true,
+      "how_described": "本集说 Decisions API 是「带约束的 Luna」:在预定义答案集上快速返回决策,对标 Jev,且 Jev 没有的视觉能力它有——十秒过了一百帧挑缩略图,是很多 AI 架构里缺失的一块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            882.987,
+            885.829
+          ],
+          "quote": "And they announced a decisions API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            905.915,
+            911.859
+          ],
+          "quote": "I was able to test a little bit of the decisions API and it has vision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            913.82,
+            922.546
+          ],
+          "quote": "So we get the speed cost of like a decisions API, a Jev style model with eyeballs, with computer eyeballs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            981.211,
+            982.312
+          ],
+          "quote": "And the decisions API",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1007.289,
+            1010.51
+          ],
+          "quote": "Decisions, API, you all know how bullish I am on JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1019.799,
+            1030.697
+          ],
+          "quote": "So TBD on when it's fully released, I got a little bit of early access testing, but when it's released, I will definitely do a head-to-head eval decisions API versus JEV and tell you what I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1031.68,
+            1038.566
+          ],
+          "quote": "So those are kind of like two models that we're very excited about, a sole six one decisions API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1329.303,
+            1338.025
+          ],
+          "quote": "So from a model perspective, really excited about Sol61 because it's fast and cheap, really excited about vision and the decisions API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1402.839,
+            1418.571
+          ],
+          "quote": "And as a developer, somebody who both builds with these models and builds on these models, I am very excited about the Decisions API with Vision and very, very excited about Ultrafast just because it makes me really imagine what the future of AI products can look like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ultrafast",
+      "type": "concept",
+      "role": "concept",
+      "name": "Ultrafast",
+      "file": "Ultrafast",
+      "primary": true,
+      "how_described": "本集说 Ultrafast 是 Codex 里 8 倍速但 6 倍价的模型档位,「我买不起,但我想要」;Claire 用它做实时 SVG 画板和 3D 实时渲染游戏,认为近实时的高智能能构建以前构建不了的 AI 产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1086.272,
+            1093.494
+          ],
+          "quote": "No, I wanted to see what someone could do if they were using Ultrafast via API as part of their stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1106.718,
+            1112.559
+          ],
+          "quote": "And so I want to show you two games that I did with Astra Ultrafast that I think are just really interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1215.933,
+            1226.556
+          ],
+          "quote": "Then what happens is it uses Astra Ultrafast to render these new 3D objects super fast, real-time here in the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1276.802,
+            1280.163
+          ],
+          "quote": "These are all rendered through Astra Ultrafast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1341.367,
+            1344.85
+          ],
+          "quote": "My wallet is not excited about Ultrafast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1402.839,
+            1418.571
+          ],
+          "quote": "And as a developer, somebody who both builds with these models and builds on these models, I am very excited about the Decisions API with Vision and very, very excited about Ultrafast just because it makes me really imagine what the future of AI products can look like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "本集说 Astra 是 OpenAI 最强、Claire 最喜欢的模型,擅长画 SVG,ultrafast 档即 GPT-6 Astra ultra-fast,价格为 Sol 的约五倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            824.148,
+            831.474
+          ],
+          "quote": "Almost Astra Intelligence at sole speed and really, really cheap cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            831.494,
+            841.662
+          ],
+          "quote": "So it's $2 per million input tokens, $10 per output token, which is much different than Astra, which is $10 per million input tokens and 50 per output tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            855.748,
+            858.029
+          ],
+          "quote": "I do love Astra the very most.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            858.169,
+            861.53
+          ],
+          "quote": "And so because I will pay for the tokens, I'm like happy to be an Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1065.262,
+            1071.545
+          ],
+          "quote": "But GPT-6 Astra ultra-fast is available in WorkCodex and the API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1078.591,
+            1085.337
+          ],
+          "quote": "You all think I would put Astra on like extra high reasoning and let it rip through my bug backlog, re-architect something, build something new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1106.718,
+            1112.559
+          ],
+          "quote": "And so I want to show you two games that I did with Astra Ultrafast that I think are just really interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1138.034,
+            1144.018
+          ],
+          "quote": "Then Astra's gonna come behind me and draw SVGs that match what I do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1158.848,
+            1165.553
+          ],
+          "quote": "And I don't know if you remember this from my Astra review, but Astra is really good at drawing SVGs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1176.822,
+            1180.304
+          ],
+          "quote": "So this was real-time SVG drawing with Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1193.571,
+            1196.874
+          ],
+          "quote": "This was 3D built by Astra pretty fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1200.978,
+            1206.944
+          ],
+          "quote": "So Astra can definitely code an app like this, but here's where all Astra ultra fast comes into play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1215.933,
+            1226.556
+          ],
+          "quote": "Then what happens is it uses Astra Ultrafast to render these new 3D objects super fast, real-time here in the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1276.802,
+            1280.163
+          ],
+          "quote": "These are all rendered through Astra Ultrafast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集把 Decisions API 直接对标 Jev——Claire 一直看好的决策型模型,但 Jev 没有视觉能力;她预告正式发布后会做两者面对面的评测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            876.621,
+            880.385
+          ],
+          "quote": "You all know that it's Jev Week this week on How I AI and you know what?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            901.732,
+            905.755
+          ],
+          "quote": "Now that sounds like a fast follow to Jev, but there's more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            913.82,
+            922.546
+          ],
+          "quote": "So we get the speed cost of like a decisions API, a Jev style model with eyeballs, with computer eyeballs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            928.69,
+            932.873
+          ],
+          "quote": "I have an episode with our friend John Lindquist on JEV that we recorded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            984.194,
+            989.077
+          ],
+          "quote": "And this has actually been a real pain point for me, something I couldn't solve with Jev because Jev doesn't have vision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            989.898,
+            993.761
+          ],
+          "quote": "Also very important with Jev, I built hot dog, not hot dogs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1007.289,
+            1010.51
+          ],
+          "quote": "Decisions, API, you all know how bullish I am on JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1019.799,
+            1030.697
+          ],
+          "quote": "So TBD on when it's fully released, I got a little bit of early access testing, but when it's released, I will definitely do a head-to-head eval decisions API versus JEV and tell you what I think.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "concept",
+      "role": "concept",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "本集提到 Claire 工作场景仍用 Grok 的机器人,因为她喜欢「为一个工作雇一个智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            358.28,
+            361.141
+          ],
+          "quote": "I'm still sitting and using my grok bots for work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            549.026,
+            554.292
+          ],
+          "quote": "I built this collaborative document where me and all my agents, Codex, Grok, Muse,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "concept",
+      "role": "concept",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": false,
+      "how_described": "本集说 Muse 的用户体验对消费者更友好、头像超可爱,消费场景 Claire 觉得它比 dot 更好上手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            26.568,
+            33.914
+          ],
+          "quote": "Everything from OpenAI's answer to GrokBot and Muse to platform components that developers are really going to use felt like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            98.456,
+            112.056
+          ],
+          "quote": "I think what I want to get across to you is like, where do bots sit in this ecosystem of like, GrokBot's very popular, Muse is getting some traction, instinct is still out there, you know, texting people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            373.146,
+            381.949
+          ],
+          "quote": "And then I think the user experience of Muse is just a little more consumer friendly, a little bit more approachable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            549.026,
+            554.292
+          ],
+          "quote": "I built this collaborative document where me and all my agents, Codex, Grok, Muse,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集举例:用 Snowflake 插件做自定义数据仪表板,分享后对方用自己的连接器登录、按数据权限决定能否看到报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            675.351,
+            680.175
+          ],
+          "quote": "Let's say that you want to create a dashboard, a custom dashboard, pulling data from your Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            680.595,
+            687.301
+          ],
+          "quote": "You have a Snowflake plugin through your ChatGPT app, and you want to use that same data in your shared reporting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

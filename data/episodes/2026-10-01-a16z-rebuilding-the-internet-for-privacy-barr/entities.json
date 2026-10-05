@@ -1,0 +1,719 @@
+{
+  "episode_id": "2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr",
+  "podcast": "The a16z Show",
+  "date": "2026-10-01",
+  "tags": [
+    "互联网基础设施",
+    "隐私与安全",
+    "VPN",
+    "AI 运维",
+    "广告追踪"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "barrett-lyon",
+      "type": "person",
+      "role": "host",
+      "name": "Barrett Lyon",
+      "file": "Barrett Lyon",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.204,
+            71.271
+          ],
+          "quote": "In this episode, A16Z's Joel De La Garza sits down with internet infrastructure pioneer Barrett Lyon to talk about DocsNet, his attempt to rethink that architecture from the ground up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            98.429,
+            103.09
+          ],
+          "quote": "Well, today we're joined by Barrett Lyon, perhaps one of the most interesting people in tech.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "joel-de-la-garza",
+      "type": "person",
+      "role": "cohost",
+      "name": "Joel De La Garza",
+      "file": "Joel De La Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.204,
+            71.271
+          ],
+          "quote": "In this episode, A16Z's Joel De La Garza sits down with internet infrastructure pioneer Barrett Lyon to talk about DocsNet, his attempt to rethink that architecture from the ground up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "docsnet",
+      "type": "company",
+      "role": "concept",
+      "name": "DocsNet",
+      "file": "DocsNet",
+      "primary": true,
+      "how_described": "本集主线：Barrett Lyon 创办的从底层重造的替代网络——网内有 196 个互联网上不存在的域名，可毫秒级注册域名、租地址、建策略，支持加密点对点通信，从软件到线路全部自有（转写稿中亦拼作 DoxNet）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.204,
+            71.271
+          ],
+          "quote": "In this episode, A16Z's Joel De La Garza sits down with internet infrastructure pioneer Barrett Lyon to talk about DocsNet, his attempt to rethink that architecture from the ground up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            72.11,
+            82.977
+          ],
+          "quote": "Barrett explains why VPNs aren't enough, how DocsNet enables encrypted peer-to-peer communication without a central server sitting in the middle, and why the company owns its infrastructure all the way down to the hardware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            426.238,
+            430.16
+          ],
+          "quote": "Well, okay, so DocsNet, first of all, maybe I should explain the name.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            432.362,
+            436.384
+          ],
+          "quote": "And then I started a business in high school with my high school friend called DocsNet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1030.437,
+            1035.604
+          ],
+          "quote": "So, I don't know, when you start stacking up all of these things, DocsNet is kind of like this giant...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            1953.754,
+            1956.596
+          ],
+          "quote": "Well, actually, it kind of goes back to DocsNet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2643.604,
+            2646.845
+          ],
+          "quote": "I am an incredibly happy DocsNet user.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vpn",
+      "type": "concept",
+      "role": "concept",
+      "name": "VPN",
+      "file": "VPN",
+      "primary": true,
+      "how_described": "本集说大多数 VPN 只是「入口和出口点」：租服务器装软件，加密连过去绕开 IP 当身份的问题；但服务器归属与数据去向不透明，免费的 VPN「你就是产品」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            482.331,
+            500.118
+          ],
+          "quote": "And then the uprise of VPN made it really interesting to make kind of an alternative network that kind of is designed from the ground up to protect people from advertisers, trackers, malware, and foreign adversaries trying to learn about what you're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            825.458,
+            828.961
+          ],
+          "quote": "And you're just using the VPN protocols as a way to get into that area.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1052.457,
+            1059.86
+          ],
+          "quote": "It just seems like a lot of the VPN, I don't want to say all because it's an absolutist term, but it seems like a lot of the VPNs are very creepy, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1102.629,
+            1110.74
+          ],
+          "quote": "And then if you look on any app store and you look for VPN, you probably find 50 VPNs that are all posted abroad.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1225.38,
+            1230.122
+          ],
+          "quote": "Are they owned by big brand VPN or are they leased?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "p2p",
+      "type": "concept",
+      "role": "concept",
+      "name": "点对点通信 (P2P)",
+      "file": "点对点通信",
+      "primary": true,
+      "how_described": "本集说 DocsNet 做到真正的点对点：好友间做一次密码学交换后，两部手机通过网状网络直接对话，「你的手机就成了你朋友的服务器」，可点对点互发 20 GB 文件、三四层加密、无中间服务器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            571.766,
+            577.749
+          ],
+          "quote": "And better P2P and kind of really one of the biggest stains of the entire internet is carrier grade NAT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            858.164,
+            864.608
+          ],
+          "quote": "System since we can kind of control it to create P2P applications that actually work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "carrier-grade-nat",
+      "type": "concept",
+      "role": "concept",
+      "name": "运营商级 NAT (carrier grade NAT)",
+      "file": "运营商级 NAT",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            571.766,
+            577.749
+          ],
+          "quote": "And better P2P and kind of really one of the biggest stains of the entire internet is carrier grade NAT.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pki",
+      "type": "concept",
+      "role": "concept",
+      "name": "PKI",
+      "file": "PKI",
+      "primary": false,
+      "how_described": "本集说 DocsNet 的加密是自有方案、连 PKI 都不算（是私钥不是公钥），并总结 PKI 的教训：「如果你告诉人们这是 PKI，那它就行不通」，得把那层抽象掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            939.96,
+            944.343
+          ],
+          "quote": "I think the key lesson of PKI was actually, if you tell people it's PKI, it's not going to work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            947.085,
+            951.592
+          ],
+          "quote": "Yeah, well, it's not even PKI, it's private key, it's not public.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 DocsNet 26 个站点、12 个人、没有网络管理员和系统管理员，「这些全都由 AI 完成，而且它实际上运转正常」——用 agent 消除了相当一部分内部威胁风险，且 agent 跑在自己的安全环境里、推理数据不外流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            817.033,
+            824.958
+          ],
+          "quote": "You could apply APIs to everything, and all of a sudden you could say, all right, well, here's an API that your agent can use that can build an entire network.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集说 Barrett 对大型推理和 AI 提供商极度不信任，自建了 AI 技术栈，所有推理都留在内部、不导出给大厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            1291.539,
+            1302.582
+          ],
+          "quote": "Well, and I think that was one of the funny things, I think, when we originally started talking about this was you were incredibly distrusting of large inference and AI providers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1394.337,
+            1397.918
+          ],
+          "quote": "So all the contacts and inference and stuff stays inside.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tracking",
+      "type": "concept",
+      "role": "concept",
+      "name": "广告追踪 (tracking)",
+      "file": "广告追踪",
+      "primary": true,
+      "how_described": "本集说所有 App 里都有追踪器（WhatsApp、连 Apple 的遥测也算），屏蔽了应用照常能用；威胁在聚合——把每个应用、每个网站的追踪合起来就能推断喝不喝咖啡、几点起床、收入、是否在为孩子出生或离婚做准备。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.997,
+            95.745
+          ],
+          "quote": "They also discuss what happens when decades of online tracking meet cheap AI, why Barrett thinks internet protocol development has stagnated, and what it would take to bring back some of the openness and experimentation of the early internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1762.726,
+            1774.476
+          ],
+          "quote": "When you combine all of the tracking that's being done on every different app that you're using or every different website, and it accumulates, and then it's being stored by who knows who, where, and being sold.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1879.911,
+            1885.816
+          ],
+          "quote": "But people should be targeting those, maybe not the data centers, but the tracking is pretty bad, ad tracking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2395.758,
+            2402.504
+          ],
+          "quote": "So it's about, I think, the beginnings of Prolexic and tracking down these cyber criminals in Russia.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说拐点是规模化「投币式智能」诞生：「你可以把所有那些数据直接倒进一个 LLM 里，说，告诉我关于这个人的情况」，你就会得到一个答案，跨平台协调的舆论行动已见苗头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1861.62,
+            1865.681
+          ],
+          "quote": "Yeah, you can take all that and just dump it into an LLM and say, tell me about this person.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说人们完全不了解数据中心—— Barrett 跑了二十多个数据中心没见过一个抗议者，弗吉尼亚园区外只有兔子，「数据中心喝水」的说法源自捏造的引言，公众舆论正被利益集团操纵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1312.085,
+            1313.706
+          ],
+          "quote": "Everybody's anti-data center now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1424.968,
+            1427.31
+          ],
+          "quote": "You got to have the one data center that you take people to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1446.463,
+            1455.229
+          ],
+          "quote": "Actuated switches, so if the beams did break, it would actually set off the alarms and things, but just the problem was the data center doesn't turn off the lights.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1465.761,
+            1468.724
+          ],
+          "quote": "No, it's like, oh, let's smoke up the data center for the laser show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1482.197,
+            1485.62
+          ],
+          "quote": "The data center's been around for a very, very long time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1512.122,
+            1516.905
+          ],
+          "quote": "And the, the other thing is like the sounds, I've never heard sound outside of a data center before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1532.419,
+            1534.361
+          ],
+          "quote": "People are being manipulated with this data center thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1565.012,
+            1569.973
+          ],
+          "quote": "It's just most of them, especially like the big data center park in Virginia,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1596.097,
+            1603.464
+          ],
+          "quote": "So if you have a data center nearby, your internet's faster, things like that work better, depending on which one it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1611.491,
+            1617.538
+          ],
+          "quote": "Well, I think there was the Switch data center built near Reno, and they built this big lake out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1678.374,
+            1683.075
+          ],
+          "quote": "Or like some crazy anti-data center music video.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ddos",
+      "type": "concept",
+      "role": "concept",
+      "name": "DDoS",
+      "file": "DDoS",
+      "primary": false,
+      "how_described": "本集回顾 Barrett 高中时服务器被攻击、为在 DDoS 中存活写下方法论清单，由此创办 Prolexic；他还预判 DocsNet 网内也可能出现 DDoS。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 494,
+          "t": [
+            1935.8,
+            1945.427
+          ],
+          "quote": "On DDoS bots, so Stockeldraught, TFN, TFN2K, and then obviously a large denial of service distributed attacks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1959.579,
+            1970.948
+          ],
+          "quote": "And so we had to figure out better ways to protect them and techniques and tricks and all the different things you need to do to survive a DDoS attack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2112.485,
+            2119.808
+          ],
+          "quote": "But I think one of the more interesting things about that is we might even see some DDoS on our network.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prolexic",
+      "type": "company",
+      "role": "concept",
+      "name": "Prolexic",
+      "file": "Prolexic",
+      "primary": true,
+      "how_described": "本集说它是 Barrett 为保护企业免受 DDoS 攻击而创办的公司，把大规模防护变成租赁服务、「是最早存在的云服务之一」，非常成功、至今仍在——就是 Akamai Prolexic，被收购后名字都保留了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 495,
+          "t": [
+            1945.847,
+            1949.991
+          ],
+          "quote": "And you were at the forefront of building a lot of the solutions to prevent that, like at Prolexic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2029.762,
+            2031.243
+          ],
+          "quote": "It's Akamai Prolexic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2395.758,
+            2402.504
+          ],
+          "quote": "So it's about, I think, the beginnings of Prolexic and tracking down these cyber criminals in Russia.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "akamai",
+      "type": "company",
+      "role": "concept",
+      "name": "Akamai",
+      "file": "Akamai",
+      "primary": false,
+      "how_described": "本集提到 Prolexic 至今仍以 Akamai Prolexic 之名存在，「他们甚至保留了名字」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 514,
+          "t": [
+            2029.762,
+            2031.243
+          ],
+          "quote": "It's Akamai Prolexic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "censorship",
+      "type": "concept",
+      "role": "concept",
+      "name": "审查 (censorship)",
+      "file": "审查",
+      "primary": true,
+      "how_described": "本集说审查正在蔓延、甚至进入美国内部；他的态度是：审查不该让网络层背锅——「IP 地址不是驾照」，年龄等身份限制应该在协议栈的其他位置解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            473.938,
+            481.485
+          ],
+          "quote": "And then just noticing the shift of censorship and people's privacy being eroded and all of this kind of thing kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            500.138,
+            507.44
+          ],
+          "quote": "Well, I mean, the original promise of the internet was this incredible marketplace of ideas, unrestricted, no censorship, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            609.14,
+            612.902
+          ],
+          "quote": "And so we're actually seeing the creep of kind of this censorship even within the United States.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "encryption",
+      "type": "concept",
+      "role": "concept",
+      "name": "加密 (encryption)",
+      "file": "加密",
+      "primary": false,
+      "how_described": "本集说 DocsNet 通信跑在网状网络上「全部是加密的」，带三四层加密、做到后量子安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1021.224,
+            1023.467
+          ],
+          "quote": "With like three layers, four layers of encryption.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moma",
+      "type": "company",
+      "role": "concept",
+      "name": "MoMA",
+      "file": "MoMA",
+      "primary": false,
+      "how_described": "本集说 Barrett 的网络可视化项目 OPTI 不仅进了 MoMA 永久收藏，还在波士顿科学博物馆和世界各地巡回展出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2150.174,
+            2156.798
+          ],
+          "quote": "One other interesting thing is that you created an artwork that, that actually hung in the, at the, at the MoMA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2228.405,
+            2237.072
+          ],
+          "quote": "And that ended up in not just MoMA, but like Boston Museum of Science all over the world in different traveling exhibits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2280.205,
+            2288.211
+          ],
+          "quote": "Yeah, it was actually kind of strange, you know, after I went to the opening in MoMA and it was, you know, this giant party.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2298.459,
+            2308.552
+          ],
+          "quote": "There's a DJ, there's drinking, and then the curators, they took me to some really interesting parts of MoMA's other properties that they own, and it was a really cool experience.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

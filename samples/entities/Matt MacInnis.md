@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Amar":1,"Rippling":3,"Notion":15,"Apple":20,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":24,"熵":3,"幂律分布":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Amar":1,"Rippling":3,"Notion":15,"Apple":20,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":24,"熵":3,"幂律分布":3}</script>
 
 <script>
 (function(){

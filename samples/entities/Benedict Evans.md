@@ -68,7 +68,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":157,"Anthropic":171,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":2,"Google":55,"TSMC":8,"Meta":41,"LLM":53}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":159,"Anthropic":171,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":2,"Google":55,"TSMC":8,"Meta":41,"LLM":55}</script>
 
 <script>
 (function(){
