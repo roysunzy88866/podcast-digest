@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":397,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":75,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":400,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":77,"Chrome":4}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":78,"智能体":397,"token":31,"harness":53,"上下文窗口":13,"提示词":20,"缓存":1,"压缩":3,"模型选择":1}</script>
+<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":79,"智能体":400,"token":31,"harness":54,"上下文窗口":13,"提示词":20,"缓存":1,"压缩":3,"模型选择":1}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":17,"Cowork":6,"智能体":397,"MCP":72,"变革管理":3,"语义视图":1,"技能":25,"反馈回路":3,"护栏":75}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":17,"Cowork":6,"智能体":400,"MCP":72,"变革管理":3,"语义视图":1,"技能":26,"反馈回路":3,"护栏":77}</script>
 
 <script>
 (function(){

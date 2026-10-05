@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]] [[John Lindquist]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]] [[Ari]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Laurent":2,"Kimchi":1,"Cast.AI":1,"Anthropic":169,"Claude":85,"编码智能体":26,"token":31,"harness":53,"沙箱":71,"开源":33}</script>
+<script type="application/json" class="pd-epn">{"Laurent":2,"Kimchi":1,"Cast.AI":1,"Anthropic":171,"Claude":85,"编码智能体":26,"token":31,"harness":54,"沙箱":74,"开源":34}</script>
 
 <script>
 (function(){

@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[投资组合构建]] · [[Microsoft]] · [[SpaceX]] · [[产品市场契合]] · [[McKinsey]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":397,"Anthropic":169,"Salesforce":34,"Harry Stebbings":20,"投资组合构建":2,"Microsoft":28,"SpaceX":19,"产品市场契合":24,"McKinsey":6,"OpenAI":155}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"Salesforce":34,"Harry Stebbings":20,"投资组合构建":2,"Microsoft":28,"SpaceX":19,"产品市场契合":24,"McKinsey":6,"OpenAI":157}</script>
 
 <script>
 (function(){

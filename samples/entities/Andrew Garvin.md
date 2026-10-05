@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":44,"Stripe Projects":2,"OpenAI":155,"Anthropic":169,"Lovable":19,"HubSpot":9,"智能体":397,"编码智能体":26,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":44,"Stripe Projects":2,"OpenAI":157,"Anthropic":171,"Lovable":19,"HubSpot":9,"智能体":400,"编码智能体":26,"vibe coding":44}</script>
 
 <script>
 (function(){

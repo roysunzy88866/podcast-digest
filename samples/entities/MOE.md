@@ -27,7 +27,7 @@ unlisted: true
 
 [[Sonja]] · [[Walter Goodwin]] · [[Rohan Anil]] · [[Fractile]] · [[Jerry Tworek]] · [[NVIDIA]] · [[Core Automation]] · [[Broadcom]] · [[OpenAI]] · [[TSMC]]
 
-<script type="application/json" class="pd-epn">{"Sonja":1,"Walter Goodwin":1,"Rohan Anil":1,"Fractile":1,"Jerry Tworek":1,"NVIDIA":53,"Core Automation":1,"Broadcom":5,"OpenAI":155,"TSMC":8}</script>
+<script type="application/json" class="pd-epn">{"Sonja":1,"Walter Goodwin":1,"Rohan Anil":1,"Fractile":1,"Jerry Tworek":1,"NVIDIA":53,"Core Automation":1,"Broadcom":5,"OpenAI":157,"TSMC":8}</script>
 
 <script>
 (function(){

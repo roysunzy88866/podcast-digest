@@ -155,9 +155,9 @@ Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目�
 
 **顺着「产品方法」挖下去**
 
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同嘉宾:Akash · 同公司:Claude Code · 同概念:PRD、工具框架 (harness)、智能体 (agent)</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)</span>
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)</span>
-- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

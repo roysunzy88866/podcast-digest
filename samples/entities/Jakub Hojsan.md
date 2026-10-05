@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]] [[John Lindquist]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]] [[Ari]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":78,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":397,"网页搜索":2,"知识截止日期":1,"代码审查":23,"语义搜索":2}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":79,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":400,"网页搜索":2,"知识截止日期":1,"代码审查":23,"语义搜索":2}</script>
 
 <script>
 (function(){

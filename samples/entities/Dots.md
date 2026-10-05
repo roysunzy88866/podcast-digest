@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Ultrafast]] · [[Tibo Sottiaux]] · [[Decisions API]] · [[Notion]] · [[SPACE]] · [[记忆]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":155,"智能体":397,"ChatGPT":92,"Codex":76,"Ultrafast":1,"Tibo Sottiaux":2,"Decisions API":2,"Notion":15,"SPACE":2,"记忆":22}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":157,"智能体":400,"ChatGPT":92,"Codex":76,"Ultrafast":1,"Tibo Sottiaux":2,"Decisions API":2,"Notion":15,"SPACE":2,"记忆":22}</script>
 
 <script>
 (function(){

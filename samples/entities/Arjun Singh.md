@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":397,"沙箱":71,"基准测试":16,"上下文":25,"开放权重模型":1,"Slack":29,"Claude Code":93,"Codex":76,"Cursor":78}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":400,"沙箱":74,"基准测试":16,"上下文":26,"开放权重模型":1,"Slack":29,"Claude Code":94,"Codex":76,"Cursor":79}</script>
 
 <script>
 (function(){

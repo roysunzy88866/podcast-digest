@@ -123,9 +123,9 @@ jsonLd: |
 
 **顺着「产品方法」挖下去**
 
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同嘉宾:Akash · 同概念:技能 (skill)、智能体 (agent)</span>
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同公司:Slack · 同概念:技能 (skill)、智能体 (agent)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

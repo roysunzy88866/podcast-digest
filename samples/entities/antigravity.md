@@ -21,7 +21,7 @@ unlisted: true
 
 [[Kevin Hou]] · [[Gemini]] · [[Google DeepMind]] · [[智能体]] · [[子智能体]] · [[生成式 UI]] · [[边车]] · [[随智能扩展]] · [[智能体编排]] · [[Agent Manager]]
 
-<script type="application/json" class="pd-epn">{"Kevin Hou":1,"Gemini":12,"Google DeepMind":5,"智能体":397,"子智能体":5,"生成式 UI":4,"边车":1,"随智能扩展":1,"智能体编排":1,"Agent Manager":1}</script>
+<script type="application/json" class="pd-epn">{"Kevin Hou":1,"Gemini":12,"Google DeepMind":6,"智能体":400,"子智能体":5,"生成式 UI":4,"边车":1,"随智能扩展":1,"智能体编排":1,"Agent Manager":1}</script>
 
 <script>
 (function(){

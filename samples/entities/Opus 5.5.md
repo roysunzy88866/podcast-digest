@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[Claude]] · [[Codex]] · [[护栏]] · [[SVG]] · [[智能体]] · [[OpenAI]] · [[提示词注入]] · [[GPT-6 Sol]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":169,"Claude":85,"Codex":76,"护栏":75,"SVG":2,"智能体":397,"OpenAI":155,"提示词注入":1,"GPT-6 Sol":1,"计算机使用":18}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":171,"Claude":85,"Codex":76,"护栏":77,"SVG":2,"智能体":400,"OpenAI":157,"提示词注入":1,"GPT-6 Sol":1,"计算机使用":18}</script>
 
 <script>
 (function(){

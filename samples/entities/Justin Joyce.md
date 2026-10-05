@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":13,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":397,"多智能体工作流":2,"go-to-market":12,"MCP":72,"可观测性":35,"LLM":53}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":13,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":400,"多智能体工作流":2,"go-to-market":12,"MCP":72,"可观测性":36,"LLM":53}</script>
 
 <script>
 (function(){

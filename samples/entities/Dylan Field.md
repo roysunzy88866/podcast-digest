@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP":72,"Lenny":68,"Nico":1,"Figma Make":2,"GitHub":27,"FigJam":1,"Notion":15,"Dev Mode":1,"Slack":29}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP":72,"Lenny":68,"Nico":1,"Figma Make":3,"GitHub":27,"FigJam":1,"Notion":15,"Dev Mode":1,"Slack":29}</script>
 
 <script>
 (function(){

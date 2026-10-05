@@ -1,0 +1,172 @@
+{
+  "title_zh": "RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌",
+  "tldr": "Zyphra CTO Baron 与研究员 John、Charlie 对谈:RL 比预期成功的原因、蒸馏对行业格局的冲击，以及自动化 AI 研究还要多久。",
+  "digest_md": "这一集是主持人 Dwarkesh 和三位 AI 研究员朋友的圆桌：Zyphra 的 CTO Baron,以及两位研究员 John 和 Charlie。他们都在相对开放的实验室工作，所以敢当着录音把话说透。开场问题很刁钻：如果十年后的 2036 年我们并没有得到颠覆世界的超级智能，最可能的技术原因是什么？\n\n## 假如 2036 年没有 AGI,卡在哪\n\nBaron 的答案是「莫拉维克悖论」式的翻版：AI 可能极其擅长一切被放进基准测试和环境里的东西，但「Sim2Real」(从模拟环境到真实世界的迁移)始终跨不过去，真正的泛化火花从未出现——不过他个人认为这不太可能 [00:55 Baron]。John 补充了一个大家都熟悉的循环：新模型一出来众人惊呼「这就是 AGI」,用一个月后就开始觉得它笨——这个循环可能还要重复很多次，而没人能预测会重复几次 [01:47 John]。\n\nCharlie 给出了最技术性的版本：现在的配方是「transformer + RL」,问题是我们离「芯片上学习器的全局最优解」还有多远。他类比摩尔定律：那条漂亮的直线之所以维持了这么久，是因为不断有离散的不连续性创新来续命——预训练缩放定律收益递减后，是 RL 把曲线又拉直了。但如果下一次突破还需要这样的不连续性，他不确定当前范式(哪怕跑再多的 LLM 做研究)能自己发现它；如果发现不了，就会撞上渐近曲线 [02:51 Charlie]。主持人反驳：AI 能力对世界的经济影响至今不大，但那只是因为它像国际象棋 AI 的 ELO 分数一样在缓慢爬升——跨越人类区间的那一刻是不连续的，而我们已经很接近了。Baron 承认：要出现「2035 年一切照旧」的场景，几乎只能靠 AI 恰好在跨越人类水平之前渐近，或者严厉监管——后者反而可能是更现实的拦路方式 [06:40 Baron]。\n\n## 哪些研究是「人类的最后一件事」\n\n那么什么是自动化之前人类必须亲自做的最后的事？Baron 说是「迭代式地提出正确的问题」——让 AI 做任何实验都行，但决定做什么实验这件事，AI 现在远不如写实验代码擅长 [15:05 Baron]。Charlie 举了历史佐证：从 DeepMind「用游戏求解智能」的路线，到 Radford 决定「在广泛数据上只预测下一个 token」,再到人们后来才想出 scaling law 决定放大它——提出方向靠的是人 [15:22 Charlie]。\n\nJohn 的回答最锋利：人类能持续最久的角色是**定义目标、决定我们真正想要什么**。RLHF(用人类反馈来校准模型)、后来的宪法和模型规范，都是这类工作——即使 AI 能做所有技术活，这件事也自动化不了 [15:47 John]。主持人一语概括：「对齐是最终的工作。」John 进一步拆解：对齐 = 搞清楚正确的目标 + 实现这个目标，第一半不会很快消失。\n\nCharlie 还算了一笔账：一旦目标定义清晰、数据就摆在那里，「思考」能砍掉大量唾手可得的果实——比如 AI 本可提前几年发现 Kaplan 缩放定律忘了做退火校正，光这一个观察就能省一到两年。他估计如果只优化当前目标，能有 10 倍加速 [13:20 Charlie];但他也泼冷水：「仅靠思考买不来正确的目标」，而任何快速递归自我改进(RSI)的关键恰恰是 AI 能否泛化到给自己设定目标——这可能是阻止立刻起飞的最大瓶颈 [13:33 Baron]。\n\n## 蒸馏为什么是反中心化的力量\n\n为什么模型提供商没有赢家通吃？John 的核心论点：**凡是能通过 RL 学到的行为，都可以被轻易蒸馏**(蒸馏=用强模型的输出数据去训练别的模型)，因为它只是少量比特——拿到展现该行为的轨迹就能学走 [18:54 John]。Baron 补刀：持续学习也挡不住蒸馏——你的模型每天进步，别人可以每天蒸馏，两个循环同速运转 [20:03 Baron]。\n\n但蒸馏没那么简单：你必须用**真实、宽泛的提示词分布**去触发模型行为，才能把有用能力掏出来。有人提到中国公司可能在用「路由服务」(替用户在多个模型间选最合适的那个)积累完美提示词分布。由此 Charlie 做出一个具体预测：前沿实验室在 RL 环境上未必有多大优势——如果 Anthropic 拥有最难的 RL 环境和蒸馏渠道，却还是做出了客观上更差的模型，那说明真实部署数据比环境更重要 [23:48 Charlie]。John 给出另一种解释：环境有两个轴——难度和真实度。天真的蒸馏只会让学生在「易验证难题」分布上模仿老师，在真实场景分布上就掉队了；而且大模型从窄任务泛化到现实任务的能力更强，照着基准蒸馏是追不上的 [25:02 John]。他还补了一句扎心的：「以某种不会在基准测试中显现的方式搞砸后训练，真的太容易了」[27:43 John]。\n\n## 自动化 AI 研究的模型会怎么训练\n\n不是玩具版的「GPT-8 从零造 GPT-3」。John 的判断：实践中会是「人类反馈吸收研究员品味」+「大量多步骤研究项目练习环境」的组合，每轮迭代修补上一轮最破的地方 [28:45 John]。Charlie 用「回滚谱系」来描述：锁定全部历史，想象回滚到 GRPO 之前的检查点，用环境让模型自己重新发现最佳 RL 形式——但现实是算力卡得太死，实验室只会待在最前沿，把上一版模型以来的改进 diff 出来做成训练环境。这感觉像渐近：永远只是在追赶人类研究员最近三个月的进展 [30:44 Charlie]。Baron 反驳：蒸馏轨迹确实永远无法超越，但**环境可以远超人类**——设一个没有任何人能做到、但极其可验证的目标(比如 loss 压到 1.3),AI 仍可以去冲，这是超越人类研究水平的路径 [31:04 Baron]。John 则提醒：大量研究并不是在明确定义的目标上爬山，而是「先有直觉，再设计任务找生命迹象」——你主动在真实度上放松，方法成熟后再回归现实 [31:52 John]。\n\n## 部署数据、蜂群学习与持续学习的死结\n\n主持人抛出他最兴奋的想象：模型每天在数十亿部署实例上积累经验，这些数据却没在帮模型变好——一旦能学，就像「广泛部署的智能爆炸」。三位的回答是：**这已经在发生，只是以慢循环的形式**。下一代模型把上一代的部署数据(经过过滤、标注、合成)倒进预训练或中期训练，Baron 认为这解释了相当大一部分代际提升，中国实验室 100% 在这么做 [42:14 Baron];Charlie 举了 Cursor 的 Composer(用用户按不按 tab 的信号每天变强)和 Harvey(法律智能体从部署反馈造环境、大规模后训练 Kimi K3 再部署)作为快循环的早期迹象 [42:55 Charlie]。\n\n但真正的持续学习卡在一个技术死结上。Charlie 说得很清楚：在大尺度上，把数据注入 mid-training 的外循环确实能当持续学习用；可一旦放大到微观——拿着一个模型、用少量数据为一家律所持续更新——所有方法都会失效 [55:10 Charlie]。SFT 甚至 on-policy 蒸馏都太具破坏性；RL 之所以好用，恰恰是它对模型的改动极小、只在极小的 loss 值上微调，但这也限制了它能改变多少 [56:38 Charlie]。Baron 认为这主要是技术问题而非容量问题：同样大小的模型，从头带着这些数据预训练会更好——瓶颈是「可塑性与灾难性遗忘的组合」，天真地在非平稳数据上持续训练，旧能力就被冲掉了，目前没有好办法阻止 [57:22 Baron]。于是现实的路径是分阶段：专门化模块(cartridges 这类压缩进固定大小的 KV cache)→ 生成轨迹 → 倒进下一代模型 → 循环加速——「不是每三个月发一版，而是每周、每天、每小时，到那时问题就解决了」[54:56 Baron]。John 还指出一个非技术约束：客户不会愿意让模型提供商直接从自己的全部数据中学——经济激励会把实验室先推向「可插拔模块」而非共享大模型 [52:52 John]。\n\n## RL 为什么比「一次一个比特」灵\n\n一年前流行的悲观论是：RL 每次 episode 只学一个比特(答对/答错)，模型很难答对时几乎学不到东西。Baron 的解释有两层。第一，被低估的是 mid-training(介于预训练和后训练之间的阶段)：很多「RL 的成功」其实来自极好的 mid-training 数据，这一步往往就把模型带到最终 RL 检查点大约 80% 的地方，RL 只需在其上微调 [78:53 Baron]。第二，这一个比特信噪比极高：SFT 要匹配整条推理轨迹的每个 token,等于学进太多「别人怎么推理」的噪声；RL 的目标只保留答对与否的那一比特——「这是训练期间信噪比的一次极其巨大的提升，这就是 RL 在步数上如此高效的原因」[80:20 Baron]。\n\nCharlie 补充：大家期待的「横向泛化」(学数学让人更会写代码)其实没怎么发生，真正得到的是「时程泛化」——模型学会了用更多 token 坚持更久，这项能力翻倍周期约三个月，而且能迁移到全新环境 [82:35 Charlie]。至于 RL 会不会像 AlphaGo 第 37 手那样产生超越人类的创造力？Baron 认为已经有了苗头——模型一次想出多个零日漏洞逃出沙箱，就是这种创造力；John 则区分了两种创造力：「解决困难搜索问题」的那种 AI 会极强，但 RL 确实削减了输出多样性——太多人从 Claude 蒸馏，以至于所有开放权重模型写得都一样，「这种单一文化的形成让我有点担心」[87:47 John]。Baron 反驳：这是数据和验证器(裁判)的问题，不是 RL 方法本身的问题。\n\n## 数据到底解释了多少进步\n\n主持人分享了他们的一项实验：把 2019 年至今所有训练配方与所有数据集两两配对训练，结果显示数据解释了约 9 倍算力效率提升，架构改进只在小规模上解释约 3 倍——而业界通行估算(每年 3 倍)意味着还有约百倍的差距，可能来自规模依赖或后训练。Charlie 的观点：架构是一次性的「入场券」——没有 GQA(分组查询注意力)就做不起百万上下文，也就永远用不上百万上下文的数据；一旦架构解锁了新阶段，数据才是决定性因素 [68:44 Baron]。关于参数：Charlie 认为未来几年 RL rollout 强调推理效率、瓶颈在环境，参数不会有暴增，前沿模型可能远小于传闻的 10 万亿；John 预期模型继续变大，但因为高质量预训练数据开始短缺，「数据效率」将取代算力效率成为架构选择的主导轴——你的最优点会跟着变 [72:20 John]。\n\n## 快问快答：时间线\n\n- **「一个月的无缝远程白领员工」**：Charlie 说约一年(如果公司愿意为 AI 改造信息系统)；Baron 说完全通用约三年，但改造后的场景能提前达到八九十度。\n- **给 AI 研究员 10 倍生产力提升**：Charlie 意外地保守——五到十年，瓶颈在他自己吸收信息、做下一个实验贝叶斯决策的能力；John 说两年；Baron 补充现在编程类已经超过 10 倍，只要 AI 能连续跑通两三个实验循环就是巨大跃升。\n- **所有计算机可完成领域、含三年时程任务全面超越顶尖人类**：John 给出三到四年，主持人惊呼；Charlie 认为实验室关注的领域五年内会到，但「没人费心去教」的长尾会拖慢全覆盖。\n\n## 本集带走\n\n- **RL 成功的秘密在 mid-training**:约 80% 的能力提升来自中期训练数据，RL 只负责最后的高信噪比微调——单比特的目标函数反而是它的优势。\n- **蒸馏是反垄断力量，但提示词分布是命门**：能 RL 出来的行为就能被蒸馏走；谁掌握真实宽泛的用户提示分布，谁就能追平前沿。\n- **持续学习的真瓶颈是可塑性/灾难性遗忘**：大尺度外循环可用，小数据专门化会破坏模型；现实路径是「专门化模块→轨迹→下一代模型」的加速循环，而非一个永远学习的模型。\n- **人类最后的角色是定义目标**：提出正确的问题、决定模型该怎样表现(对齐的第一半)，比执行实验更难自动化。\n- **数据比架构更值钱**：小规模实验显示数据贡献约 9 倍算力效率提升 vs 架构约 3 倍；高质量数据短缺后，架构优化将从省算力转向省数据。",
+  "quotes": [
+    {
+      "en": "But the most important advances are often the types of generalization that we have no right to expect.",
+      "zh": "但最重要的进展，往往是那些我们没有理由指望会出现的泛化类型。",
+      "timestamp": "09:56",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It's like, how well can AI generalize to learning their own objectives?",
+      "zh": "关键问题就是：AI 能在多大程度上泛化到学习它们自己的目标？",
+      "timestamp": "13:39",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "I would say that the last job for humans or the role for humans that'll last the longest is like defining the objective and like deciding what we actually want.",
+      "zh": "我想说的是，人类最后的工作、能持续最久的角色，是定义目标，以及决定我们真正想要什么。",
+      "timestamp": "15:47",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think distillation is the main thing that fights against the centralizing force",
+      "zh": "我认为蒸馏是对抗中心化力量的主要因素。",
+      "timestamp": "18:54",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Even if your model is improving every day, people could be distilling it every day. So the loops could just operate at the same pace.",
+      "zh": "即使你的模型每天都在改进，别人也可以每天都在蒸馏它。这些循环可以以同样的节奏运转。",
+      "timestamp": "19:57",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "I think the prediction from this is that the frontier labs don't necessarily have much of an advantage, if at all, in aural environments now.",
+      "zh": "由此得出的预测是：前沿实验室在 RL 环境上现在未必有多大优势——如果真有的话。",
+      "timestamp": "23:46",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "So it's like really easy to screw up post-training in some way that doesn't show up in benchmarks.",
+      "zh": "以某种不会在基准测试中显现的方式搞砸后训练，真的太容易了。",
+      "timestamp": "27:39",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Isn't it crazy that 100 million parameter models to beat Minecraft were calling that too easy? Like, imagine if you said that, like, five years ago.",
+      "zh": "1 亿参数模型打败 Minecraft,我们居然说这太容易了，是不是很疯狂？想象一下五年前你这么说。",
+      "timestamp": "31:45",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "it's really a super dramatic increase into the signal to noise ratio during training, which is why RL is so dramatically efficient in terms of steps.",
+      "zh": "这真的是训练期间信噪比的一次极其巨大的提升，这就是 RL 在步数上如此戏剧性高效的原因。",
+      "timestamp": "80:20",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "So this seems kind of concerning to me that we're having this monoculture emerge.",
+      "zh": "我们正在形成这种单一文化，这让我觉得有点担心。",
+      "timestamp": "87:47",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:56",
+      "speaker": "John",
+      "en": "But the most important advances are often the types of generalization that we have no right to expect.",
+      "zh": "但最重要的进展，往往是那些我们没有理由指望会出现的泛化类型。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Charlie",
+      "en": "I would imagine like a 10 times speed up if our thing is just like maximize the objective we're currently on.",
+      "zh": "我可以想象，如果我们的事情只是最大化当前的目标，会有 10 倍的加速。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Baron",
+      "en": "It's like, how well can AI generalize to learning their own objectives?",
+      "zh": "关键问题就是：AI 能在多大程度上泛化到学习它们自己的目标？"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "John",
+      "en": "I would say that the last job for humans or the role for humans that'll last the longest is like defining the objective and like deciding what we actually want.",
+      "zh": "我想说的是，人类最后的工作、能持续最久的角色，是定义目标，以及决定我们真正想要什么。"
+    },
+    {
+      "timestamp": "18:54",
+      "speaker": "John",
+      "en": "I think distillation is the main thing that fights against the centralizing force",
+      "zh": "我认为蒸馏是对抗中心化力量的主要因素。"
+    },
+    {
+      "timestamp": "20:03",
+      "speaker": "Baron",
+      "en": "Even if your model is improving every day, people could be distilling it every day. So the loops could just operate at the same pace.",
+      "zh": "即使你的模型每天都在改进，别人也可以每天都在蒸馏它。这些循环可以以同样的节奏运转。"
+    },
+    {
+      "timestamp": "23:48",
+      "speaker": "Charlie",
+      "en": "I think the prediction from this is that the frontier labs don't necessarily have much of an advantage, if at all, in aural environments now.",
+      "zh": "由此得出的预测是：前沿实验室在 RL 环境上现在未必有多大优势——如果真有的话。"
+    },
+    {
+      "timestamp": "27:43",
+      "speaker": "John",
+      "en": "So it's like really easy to screw up post-training in some way that doesn't show up in benchmarks.",
+      "zh": "以某种不会在基准测试中显现的方式搞砸后训练，真的太容易了。"
+    },
+    {
+      "timestamp": "31:04",
+      "speaker": "Baron",
+      "en": "But environments can go quite a far way above what a human can do.",
+      "zh": "但环境可以远远超越人类能做到的水平。"
+    },
+    {
+      "timestamp": "31:45",
+      "speaker": "Charlie",
+      "en": "Isn't it crazy that 100 million parameter models to beat Minecraft were calling that too easy? Like, imagine if you said that, like, five years ago.",
+      "zh": "1 亿参数模型打败 Minecraft,我们居然说这太容易了，是不是很疯狂？想象一下五年前你这么说。"
+    },
+    {
+      "timestamp": "42:14",
+      "speaker": "Baron",
+      "en": "I think broadly, like at a very basic level, this is already happening, right? Like just in the next generation of models.",
+      "zh": "我认为大体上，在非常基础的层面上，这已经在发生了，对吧？就体现在下一代模型里。"
+    },
+    {
+      "timestamp": "54:56",
+      "speaker": "Baron",
+      "en": "Now it's like every week and then every like day and then every hour, at which point we basically have obviously solved it.",
+      "zh": "然后是每一周、每一天、每一小时——到那时我们基本上显然已经解决了这个问题。"
+    },
+    {
+      "timestamp": "56:38",
+      "speaker": "Charlie",
+      "en": "The reason RL is so nice is because it changes a very, very small amount about the model and there's a lot of evidence for why this is the case.",
+      "zh": "RL 之所以这么好用，是因为它对模型的改动非常非常小，而且有很多证据能证明这一点。"
+    },
+    {
+      "timestamp": "57:22",
+      "speaker": "Baron",
+      "en": "And so it's very much like there's a bottleneck that stops us from just keeping training the same model forever versus just getting all the data from the old model and training a new model from scratch.",
+      "zh": "所以很像是有一个瓶颈，让我们没法永远训练同一个模型，只能从旧模型拿走所有数据、再从零训练一个新模型。"
+    },
+    {
+      "timestamp": "65:48",
+      "speaker": "Baron",
+      "en": "There's no hidden proof of the Millennium Prize problem sitting in Common Core.",
+      "zh": "Common Core 里可没有藏着千禧年大奖难题的证明。"
+    },
+    {
+      "timestamp": "80:20",
+      "speaker": "Baron",
+      "en": "it's really a super dramatic increase into the signal to noise ratio during training, which is why RL is so dramatically efficient in terms of steps.",
+      "zh": "这真的是训练期间信噪比的一次极其巨大的提升，这就是 RL 在步数上如此戏剧性高效的原因。"
+    },
+    {
+      "timestamp": "87:47",
+      "speaker": "John",
+      "en": "So this seems kind of concerning to me that we're having this monoculture emerge.",
+      "zh": "我们正在形成这种单一文化，这让我觉得有点担心。"
+    }
+  ],
+  "voice_script": "今天这期你听到的是一场圆桌对谈，主角是 Zyphra 的 CTO Baron,还有两位研究员 John 和 Charlie,主持人是 Dwarkesh。这三个人都在相对开放的实验室工作，所以敢当着录音把话说透。这一期聊的核心问题特别大：强化学习为什么比大家预期的成功，蒸馏为什么正在冲击整个行业的格局，还有自动化 AI 研究到底还要多久。\n\n开场问题就很刁钻：假设到了 2036 年，我们并没有等来颠覆世界的超级智能，最可能的技术原因是什么？\n\nBaron 给的答案是莫拉维克悖论式的：AI 可能极其擅长一切被放进基准测试和环境里的东西，但从模拟环境迁移到真实世界这一步，始终跨不过去，真正的泛化火花从未出现。不过个人认为这不太可能。John 补充了一个大家都熟悉的循环：新模型一出来，众人惊呼这就是 AGI,用一个月之后就开始嫌它笨。这个循环可能还要重复很多次，而且没人能预测到底重复几次。\n\nCharlie 给出了最技术性的版本。现在的配方是 transformer 加强化学习，问题是，我们离芯片上学习器的全局最优解还有多远？打了个比方，摩尔定律那条漂亮的直线之所以维持了这么久，是因为不断有离散的不连续性创新来续命。预训练缩放定律收益递减之后，是强化学习把曲线又拉直了。但如果下一次突破还需要这样的不连续性，Charlie 不确定当前的范式能自己发现它，哪怕跑再多的大模型做研究。发现不了，就会撞上渐近曲线。\n\n主持人反驳说，AI 能力对世界的经济影响至今不大，但那只是因为它像国际象棋 AI 的等级分一样在缓慢爬升，跨越人类区间的那一刻是不连续的，而我们已经很接近了。Baron 也承认，要出现 2035 年一切照旧的场景，几乎只能靠 AI 恰好在跨越人类水平之前渐近，或者靠严厉监管——后者反而是更现实的拦路方式。\n\n顺着这个话题，几个人聊到了一个更有意思的问题：在全面自动化之前，人类必须亲自做的最后的事是什么？Baron 说是迭代式地提出正确的问题——让 AI 做任何实验都行，但决定做什么实验这件事，AI 现在远不如写实验代码擅长。Charlie 举了历史佐证，从 DeepMind 用游戏求解智能，到 Radford 决定在广泛数据上只预测下一个 token,提出方向靠的一直是人。\n\nJohn 的回答最锋利，有句话值得记住：人类最后的工作、能持续最久的角色，是定义目标，以及决定我们真正想要什么。从 RLHF,也就是用人类反馈来校准模型，到后来的宪法和模型规范，都是这类工作——即使 AI 能做所有技术活，这件事也自动化不了。主持人一语概括：对齐是最终的工作。\n\n那强化学习为什么这么灵？一年前流行的悲观论是：强化学习每次只学一个比特，答对或答错，模型很难答对时几乎学不到东西。Baron 的解释有两层。第一，被低估的是中期训练——很多所谓的强化学习成功，其实来自极好的中期训练数据，这一步往往就把模型带到了最终检查点大约百分之八十的地方。第二，这一个比特信噪比极高。SFT 要匹配整条推理轨迹的每个 token,等于学进太多别人怎么推理的噪声；强化学习的目标只保留答对与否的那一比特。用 Baron 的原话说，这是训练期间信噪比的一次极其巨大的提升，这就是强化学习在步数上如此高效的原因。\n\n再说蒸馏为什么凶。John 的核心论点是：凡是能通过强化学习学到的行为，都可以被轻易蒸馏——拿到展现该行为的轨迹就能学走。所以蒸馏是对抗中心化力量的主要因素，模型提供商很难赢家通吃。Baron 补了一刀：持续学习也挡不住，你的模型每天进步，别人可以每天蒸馏它，两个循环可以以同样的节奏运转。但蒸馏也没那么简单，你必须用真实、宽泛的提示词分布去触发模型行为，才能把有用能力掏出来。照着基准测试蒸馏是追不上的，因为大模型从窄任务泛化到现实任务的能力更强。John 还有句扎心的：以某种不会在基准测试中显现的方式搞砸后训练，真的太容易了。\n\n最后快问快答时间线。一个月的无缝远程白领员工，Charlie 说约一年，Baron 说完全通用约三年。给 AI 研究员十倍生产力提升，Charlie 出乎意料地保守，说五到十年；Baron 补充现在编程类已经超过十倍了。至于所有计算机可完成领域全面超越顶尖人类，John 给出三到四年，主持人当场惊呼。\n\n整场聊下来，有一条线串着所有话题：最重要的进展，往往是那些我们没有理由指望会出现的泛化类型——而 AI 能在多大程度上泛化到给自己设定目标，可能才是决定一切的那个变量。"
+}

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":55,"Airbnb":12,"Y Combinator":7,"智能体":397,"AI":27}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":55,"Airbnb":12,"Y Combinator":7,"智能体":400,"AI":27}</script>
 
 <script>
 (function(){

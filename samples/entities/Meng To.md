@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[David George]] [[Dex Horthy]] [[Ari]] [[Clara Vo]]
+[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Codex":76,"Cursor":78,"obsidian":1,"hey gen":1,"智能体":397,"上下文":25,"护栏":75,"Figma":22,"playwright":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Codex":76,"Cursor":79,"obsidian":1,"hey gen":1,"智能体":400,"上下文":26,"护栏":77,"Figma":22,"playwright":1}</script>
 
 <script>
 (function(){

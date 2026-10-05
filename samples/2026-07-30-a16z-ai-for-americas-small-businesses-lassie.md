@@ -154,8 +154,8 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 **换个口味**
 
 - [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年]]<span class="pd-rz">同嘉宾:Alex Rampell · 同概念:智能体 (agent)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Stripe、Workday · 同概念:智能体 (agent)</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

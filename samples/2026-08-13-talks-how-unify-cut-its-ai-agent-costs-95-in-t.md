@@ -170,8 +170,8 @@ Unify 做的是给 go-to-market(把产品推向市场的那套销售与营销动
 **换个口味**
 
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Harness(智能体运行框架) (harness)、智能体 (agent)、沙箱 (sandbox)、评估 (evals)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同概念:Harness(智能体运行框架) (harness)、人在回路 (human in the loop)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:Harness(智能体运行框架) (harness)、智能体 (agent)、评估 (evals)</span>
 
 </div>
 </div>

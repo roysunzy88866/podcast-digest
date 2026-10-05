@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>93</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>94</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -83,6 +83,7 @@ unlisted: true
 - **[[2026-09-11-talks-building-ambitious-software-jonathan-kel|《从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课》]]**(06:21起):本集说团队用爆了 Claude Code 订阅额度，产出数万行 Rust 代码，但起初很少能过质量门槛。
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(40:20起):本集说它是 Tibo 在 Squad 里叠加的订阅之一,并强调「如果只是埋头给它写提示词,你每天都会被绑在电脑前」。
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(05:09起):本集反复提及：作为编程智能体活得不错的代表，其团队原则是『什么比我亲自做更好？让 Claude 做』
+- **[[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]]**(07:38起):本集说他们最初采用 Claude Code 接这套仓库,PM 现场演示(Pavneet)也是在终端里跑它,由它派生子智能体做调研、PRD 和 PR
 - **[[2026-09-14-talks-harness-engineering-building-the-product|《Harness 工程：把智能体部署到云端规模》]]**(02:52起):本集把它列为「我们使用的」智能体的例子,与 Cursor、Kiro 并提。
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(07:35起):本集说 Claude Code 加 Opus 4.5 与他们手工培育的智能体相比「基本上就是 AGI」，其最大解锁在于它只是一个文件系统、工具集极简。
 - **[[2026-09-16-productpodcast-hinge-cpto-on-building-an-app-designed-t|《Hinge CPTO：为被删除而设计的应用，与他对 vibe coding 划下的线》]]**(00:00起):本集把它与 Cursor、Codex 并列为 AI 编程工具的代表，说若能提供完美查询输入就会得到完美输出
@@ -130,7 +131,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*93 集*
+*94 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -207,6 +208,7 @@ unlisted: true
 - [[2026-09-11-talks-building-ambitious-software-jonathan-kel|《从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课》]] — 作为概念(提及)
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为概念
+- [[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]] — 作为概念
 - [[2026-09-14-talks-harness-engineering-building-the-product|《Harness 工程：把智能体部署到云端规模》]] — 作为被讨论公司(提及)
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]] — 作为概念
 - [[2026-09-16-productpodcast-hinge-cpto-on-building-an-app-designed-t|《Hinge CPTO：为被删除而设计的应用，与他对 vibe coding 划下的线》]] — 作为概念(提及)
@@ -230,9 +232,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[harness]] · [[Cursor]] · [[MCP]] · [[评估]] · [[Lenny]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[沙箱]] · [[harness]] · [[OpenAI]] · [[Cursor]] · [[MCP]] · [[评估]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":397,"Anthropic":169,"Codex":76,"沙箱":71,"OpenAI":155,"harness":53,"Cursor":78,"MCP":72,"评估":3,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"Codex":76,"沙箱":74,"harness":54,"OpenAI":157,"Cursor":79,"MCP":72,"评估":4,"Lenny":68}</script>
 
 <script>
 (function(){

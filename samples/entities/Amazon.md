@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>26</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,6 +27,7 @@ unlisted: true
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集提到 Amazon Web Services 因 AI 编码工具宕机两三次，且 Amazon 给 OpenAI 投了 350 亿美元、给 Anthropic 投了 50 亿，是循环融资中的一环。
 - **[[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]]**(00:21起):本集把 Amazon 描述为大规模试点 AI 编程工作方式的公司:从 Bedrock Mantle、Prime Video 到 Amazon Stores 的 50 个普通团队,观察到中位数 4.5 倍的生产力提升,2026 年要推广到 2000 个团队。
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:07起):本集说嘉宾在此待了五年半、做了四个从零到一项目，并在 2023 年主动放弃管理职责回归 IC；也是隐性权威文化的对照例子。
+- **[[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]]**(00:51起):Pavneet 提到自己来自 Amazon,习惯了 20 页 PRD 的把关文档文化,以此对照 Together 的新做法
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:36起):本集提到 Josh 在 Amazon 上找不到代客泊车钥匙扣，才转向 ChatGPT 对话式购物
 - **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(20:56起):本集说 Amazon 拒绝智能体(如 Muse)接入其平台,并指出其广告业务已大于电商业务,是「把智能体挡在门外」的典型案例。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(40:23起):本集说它屏蔽 Muse，因为其收入全靠广告，人的眼球被移除后整套广告结构和冲动型购物就失去意义
@@ -52,7 +53,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
@@ -71,6 +72,7 @@ unlisted: true
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]] — 作为概念
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
+- [[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]] — 作为被讨论公司(提及)
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
@@ -85,9 +87,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Google]] · [[智能体]] · [[Anthropic]] · [[Microsoft]] · [[Shopify]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]] · [[Apple]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Microsoft]] · [[Shopify]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":155,"Google":55,"智能体":397,"Anthropic":169,"Microsoft":28,"Shopify":16,"NVIDIA":53,"ChatGPT":92,"Meta":41,"Apple":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"OpenAI":157,"Google":55,"Microsoft":28,"Shopify":16,"NVIDIA":53,"ChatGPT":92,"Meta":41,"Apple":20}</script>
 
 <script>
 (function(){

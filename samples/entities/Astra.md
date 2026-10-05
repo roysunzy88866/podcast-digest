@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[智能体]] · [[Anthropic]] · [[LLM]] · [[Greg Brockman]] · [[Nathan]] · [[Claude]] · [[Han Mei]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":155,"ChatGPT":92,"Codex":76,"智能体":397,"Anthropic":169,"LLM":53,"Greg Brockman":1,"Nathan":4,"Claude":85,"Han Mei":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":157,"ChatGPT":92,"Codex":76,"智能体":400,"Anthropic":171,"LLM":53,"Greg Brockman":1,"Nathan":4,"Claude":85,"Han Mei":1}</script>
 
 <script>
 (function(){

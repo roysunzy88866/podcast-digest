@@ -137,6 +137,7 @@ jsonLd: |
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人]]<span class="pd-rz">同公司:Google DeepMind</span>
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Google DeepMind</span>
 
 </div>

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Hugging Face":27,"权重空间学习":1,"权重":3,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":4,"数据集提示":1,"神经架构搜索":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Hugging Face":28,"权重空间学习":1,"权重":3,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":4,"数据集提示":1,"神经架构搜索":1}</script>
 
 <script>
 (function(){

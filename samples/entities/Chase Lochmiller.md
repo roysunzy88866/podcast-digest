@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":1,"NVIDIA":53,"ChatGPT":92,"Cognition":25,"Harvey":17,"Fireworks":7,"数据中心":19,"AI 工厂":2,"能源":2}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":1,"NVIDIA":53,"ChatGPT":92,"Cognition":25,"Harvey":18,"Fireworks":7,"数据中心":19,"AI 工厂":2,"能源":2}</script>
 
 <script>
 (function(){

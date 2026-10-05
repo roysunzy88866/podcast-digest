@@ -139,9 +139,9 @@ Andrew 的核心主张是： 他们之前实测过许多资金充足的垂直智
 
 **换个口味**
 
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同概念:Claude Code、skill、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Vercel · 同概念:Snowflake、智能体 (agent)</span>
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

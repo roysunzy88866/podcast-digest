@@ -1,0 +1,1495 @@
+{
+  "episode_id": "2026-09-14-pg-together-ai-product-team",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-09-14",
+  "tags": [
+    "智能体",
+    "产品管理",
+    "AI 编程",
+    "PRD",
+    "团队协作"
+  ],
+  "categories": [
+    "产品方法",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "akash",
+      "type": "person",
+      "role": "host",
+      "name": "Akash",
+      "file": "Akash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            1369.018,
+            1369.718
+          ],
+          "quote": "By the way, Akash,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 926,
+          "t": [
+            2981.505,
+            2982.286
+          ],
+          "quote": "And Akash,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "charles",
+      "type": "person",
+      "role": "cohost",
+      "name": "Charles",
+      "file": "Charles",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            101.476,
+            106.381
+          ],
+          "quote": "Charles, so I'm fascinated by how you guys work and how you guys have been using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            545.19,
+            551.292
+          ],
+          "quote": "So is that one, is that like, let's say Charles sets the overall product strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1555.587,
+            1558.381
+          ],
+          "quote": "Charles is going to show it off and talk about it momentarily.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2114.964,
+            2116.354
+          ],
+          "quote": "Charles, can you walk us through this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2580.871,
+            2581.552
+          ],
+          "quote": "But as Charles said,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            2699.952,
+            2703.452
+          ],
+          "quote": " I think Charles is This close to renaming it Agent Experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            3463.227,
+            3465.449222222222
+          ],
+          "quote": "a product leader like yourself, Charles.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nicolina",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nicolina",
+      "file": "Nicolina",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            208.98,
+            211.322
+          ],
+          "quote": "Hi, I'm Nicolina.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "together-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Together AI",
+      "file": "Together AI",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.093,
+            19.834
+          ],
+          "quote": " Together AI just raised an $800 million funding round, valuing them at $8.3 billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            111.877,
+            117.538
+          ],
+          "quote": " Together AI is a platform for powering AI applications and agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            934.085,
+            937.017
+          ],
+          "quote": "I'm the Product Manager for Infrastructure at Together AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成知识工作者的超能力:既是团队内部干活的主力(派生子智能体写 PR、做调研),也已是 Together 很多产品的主要用户,需要专门为它验证产品体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            126.6,
+            133.6
+          ],
+          "quote": "what an amazing superpower an AI agent could be for any kind of knowledge worker",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            826.13,
+            829.555
+          ],
+          "quote": " Now Cloud Code already knows how to instrument my agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            860.196,
+            864.158
+          ],
+          "quote": "my resume feedback agent was supposed to pull the company's tech stack from",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            884.562,
+            888.007
+          ],
+          "quote": " and found that my agent was making the same kind of mistakes That whole loop took",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1300.197,
+            1302.598
+          ],
+          "quote": "So the research agent came back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1582.916,
+            1587.718
+          ],
+          "quote": "MCP and App and Orchestrator and Agent Evals, which I'll also show off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1617.814,
+            1622.597
+          ],
+          "quote": "And I would actually give it to the PRD agent to run with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2112.663,
+            2114.924
+          ],
+          "quote": "We've got a little preview about an orchestrator agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2667.004,
+            2669.726222222222
+          ],
+          "quote": "Hassan, how are you guys doing agent evaluations?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2676.368,
+            2680.808
+          ],
+          "quote": "I'm going to go over this tool that our team built called Agent Evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2681.469,
+            2685.529
+          ],
+          "quote": "And just to give a little bit of context on Agent Evals,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            2686.609,
+            2690.35
+          ],
+          "quote": "I think the whole world is moving to this agent-centric way of doing things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            2699.952,
+            2703.452
+          ],
+          "quote": " I think Charles is This close to renaming it Agent Experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 828,
+          "t": [
+            2709.135,
+            2714.197
+          ],
+          "quote": "we've re-architected our docs in kind of this agent first way where it works very,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2719.019,
+            2721.18
+          ],
+          "quote": "like when an agent is reading them,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 832,
+          "t": [
+            2721.2,
+            2724.644444444444
+          ],
+          "quote": "we'll inject something extra if we think it'll help the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 837,
+          "t": [
+            2733.825,
+            2738.352
+          ],
+          "quote": "And agent evals is kind of the tool that ties them all together or the tool",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            2749.087,
+            2749.628
+          ],
+          "quote": "So agent evals,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 844,
+          "t": [
+            2751.15,
+            2753.654
+          ],
+          "quote": "but agent evals is the tool we use kind of at the end",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 878,
+          "t": [
+            2851.242,
+            2855.847
+          ],
+          "quote": "And for us, this is like the best test of like, can an agent actually do stuff in your product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 882,
+          "t": [
+            2864.886,
+            2870.714
+          ],
+          "quote": "in our UI as a human, but also as an agent through our API or CLI or SDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 895,
+          "t": [
+            2898.655,
+            2899.846
+          ],
+          "quote": "and we give it to agent evals,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            2927.854,
+            2929.156
+          ],
+          "quote": "but the agent actually couldn't find it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 908,
+          "t": [
+            2930.618,
+            2934.003
+          ],
+          "quote": "You can go to the transcript and you can see the full transcript of this agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 911,
+          "t": [
+            2937.628,
+            2940.613
+          ],
+          "quote": "We can see that the agent started exploring the repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 919,
+          "t": [
+            2961.717,
+            2964.1079999999997
+          ],
+          "quote": "So, um, the agent evals has been responsible for,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3140.967,
+            3146.052
+          ],
+          "quote": "But for our case where agent use is already so popular, it works as is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是放与具体代码无关、团队通用的事(如竞品新闻报告、PRD Writer),放置规则是「离工作最近」,先在个人分支试跑几次、可重复再合入 main",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            381.064,
+            383.356
+          ],
+          "quote": "Artificial analysis, I can have that skill here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            404.903,
+            411.903
+          ],
+          "quote": " And on the skill, you can just decide who, um, What areas you're going to pull from.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            513.795,
+            518.66
+          ],
+          "quote": "It takes a minute so I ran this earlier but you can see it's going to read the skill",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            645.342,
+            649.565
+          ],
+          "quote": "how do you maintain like what's going to be a team skill and an individual?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            662.852,
+            666.555
+          ],
+          "quote": "there's a rule set on where each skill should live.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            670.977,
+            675.9
+          ],
+          "quote": "So if it's a skill that is referencing code or is housed within,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            695.054,
+            699.995
+          ],
+          "quote": "a shared repository and potentially you create a branch where you test out a skill",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 197,
+          "t": [
+            721.864,
+            725.265
+          ],
+          "quote": "but the harness primarily is these context and skill files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1209.49,
+            1211.0455555555557
+          ],
+          "quote": "So it's actually this skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1211.142,
+            1216.354
+          ],
+          "quote": " The feature research skill, which is actually a shared skill that everybody uses in the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1243.39,
+            1248.193
+          ],
+          "quote": "And if I show you the skill, so this is the actual skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1361.956,
+            1366.857
+          ],
+          "quote": "it has a skill which gives it access to all the internal GitHub repos",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1742.976,
+            1746.958
+          ],
+          "quote": "That's what the PRD template that this skill uses builds off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1759.423,
+            1761.034111111111
+          ],
+          "quote": "So we built a separate skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1767.281,
+            1770.0032222222221
+          ],
+          "quote": "And there's a separate skill called UX prototype,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把共享上下文说成「集体高效」的地基:按产品分组的 Markdown 目录,靠 PR 和明确的责任人保鲜,并否定了「人人泡在一个平面大上下文」的构想,改为上下文层级结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            5.779
+          ],
+          "quote": " It felt like after a while that the new party foul was flooding your co-workers' context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            281.24,
+            285.065
+          ],
+          "quote": "So we have this context document or Markdown file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 70,
+          "t": [
+            285.866,
+            292.866
+          ],
+          "quote": "Sorry, this context directory and it has a number of groups of the products,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            316.217,
+            319.49477777777776
+          ],
+          "quote": "with our agents, we can pull this context as it's relevant.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            319.898,
+            324.521
+          ],
+          "quote": "And it's also useful to be able to look at the context from other people's sections.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            428.793,
+            432.815
+          ],
+          "quote": "add additional updates that it missed or context that would be useful",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            537.627,
+            541.278
+          ],
+          "quote": " So if we return to the context, like who owns and maintains this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            541.328,
+            545.1400000000001
+          ],
+          "quote": "Because the worst thing is if you're going to have like out of date context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            721.864,
+            725.265
+          ],
+          "quote": "but the harness primarily is these context and skill files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1258.745,
+            1264.107
+          ],
+          "quote": " And then it has access to all the information, the shared context that Neko shared about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            1664.882,
+            1670.046
+          ],
+          "quote": "then it almost feels like people were overloading our colleagues' context windows",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2400.756,
+            2406.318
+          ],
+          "quote": "They don't want to build and replicate all of the specific skills and context native",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2437.398,
+            2442.0719999999997
+          ],
+          "quote": "And there was sort of like, we all had the same context and everybody else at all times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2449.85,
+            2452.6277777777777
+          ],
+          "quote": "and nuance of the context of somebody else's area.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            2466.297,
+            2469.574777777778
+          ],
+          "quote": "broad, flat set of context that we're all going to swim in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2469.758,
+            2472.28
+          ],
+          "quote": " And it's much more like a context hierarchy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2545.737,
+            2552.121
+          ],
+          "quote": "And the main endeavor then is how do you organize shared context?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2681.469,
+            2685.529
+          ],
+          "quote": "And just to give a little bit of context on Agent Evals,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 988,
+          "t": [
+            3204.92,
+            3210.003
+          ],
+          "quote": "the market that's been well validated by lots of internal and external context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": true,
+      "how_described": "本集重新定义 AI 时代的 PRD:不再是 Amazon 式的把关长文档,而是一到两页、用来触发构思和解决问题的工具,定义客户问题、列方案选项、给一段示例用户旅程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            48.755,
+            51.136
+          ],
+          "quote": "What is a good PRD in the AI era?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            649.645,
+            652.2760000000001
+          ],
+          "quote": "Maybe somebody has like a different way of writing a PRD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            654.647,
+            656.529
+          ],
+          "quote": "You should be using our team PRD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1102.636,
+            1108.419
+          ],
+          "quote": "And that's where we'll feed it the PRD or maybe a UX prototype that I built along the way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1216.404,
+            1220.415
+          ],
+          "quote": "Then there's another one, which is my personal favorite, which is PRD Writer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1278.727,
+            1280.518
+          ],
+          "quote": " And then it goes into drafting a PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1295.855,
+            1297.736
+          ],
+          "quote": "Research, PR, and PRD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1595.56,
+            1599.161
+          ],
+          "quote": "And Bhavneet, how's our PRD and our PR agents looking?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1617.814,
+            1622.597
+          ],
+          "quote": "And I would actually give it to the PRD agent to run with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1672.228,
+            1674.0613333333333
+          ],
+          "quote": "What is a good PRD in the AI era?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1679.86,
+            1682.104
+          ],
+          "quote": "So where we really use PRD,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1742.976,
+            1746.958
+          ],
+          "quote": "That's what the PRD template that this skill uses builds off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            1825.567,
+            1828.088
+          ],
+          "quote": "So how do our PRD and PR agents look?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            1878.662,
+            1881.144
+          ],
+          "quote": "A, it speeds up the whole PRD writing,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 586,
+          "t": [
+            1915.336,
+            1919.158
+          ],
+          "quote": "Yeah, so I actually did this and I have that PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2081.903,
+            2086.106
+          ],
+          "quote": "Actually, at the top, it says this is a draft one-pager PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            2594.71,
+            2599.336
+          ],
+          "quote": "So if we're just drafting the PRD for an internal orchestrator for yourself,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是 Orchestrator 和 Agent Evals 的关键机制:每次调研或 PR 都在沙箱里克隆必要的仓库片段完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 695,
+          "t": [
+            2259.256,
+            2263.107
+          ],
+          "quote": "a sandbox, we'll call in the repo, all this happening in the background.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 773,
+          "t": [
+            2525.362,
+            2528.862
+          ],
+          "quote": "Everything can be spun up as a sandbox and generate its own unique pull request",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 797,
+          "t": [
+            2619.522,
+            2621.7349999999997
+          ],
+          "quote": "that all gets done in a sandbox environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            2628.409,
+            2630.941
+          ],
+          "quote": " In the sandbox to generate that one pull request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            2830.595,
+            2833.039444444444
+          ],
+          "quote": "So what it'll do is it'll spin up a sandbox,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说他们将活在多模型、多 harness 的世界:仓库本体是 Markdown 上下文和技能,接的 harness 不锁死一家(Claude Code / OpenCode / Cursor 都能读同一套文件)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            57.839,
+            61.07
+          ],
+          "quote": "We're all going to live in a multi-model, multi-harness world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            556.875,
+            561.957
+          ],
+          "quote": "for any AI harness or how do you guys manage these types of behaviors",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            717.942,
+            721.8140000000001
+          ],
+          "quote": "And so everybody can connect into this harness using whatever model they want,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            721.864,
+            725.265
+          ],
+          "quote": "but the harness primarily is these context and skill files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            728.587,
+            733.229
+          ],
+          "quote": "So there's the repository and then there's the harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            733.429,
+            736.67
+          ],
+          "quote": "And the harness, there's many open source harnesses.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 204,
+          "t": [
+            752.505,
+            758.032
+          ],
+          "quote": "And as you figure out which harness you prefer in your day-to-day work,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1189.937,
+            1194.48
+          ],
+          "quote": "How do you what's the easiest way to use a shared team repo harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2211.699,
+            2212.719
+          ],
+          "quote": "I can pick my harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2538.673,
+            2544.917
+          ],
+          "quote": "And this idea of like, we're all going to live in a multi-model, multi-harness world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP server",
+      "file": "MCP server",
+      "primary": true,
+      "how_described": "本集说 Orchestrator 的关键设计是继承每个仓库本地的 skills 和 MCP 服务器,免得休闲用户为一个小改动就把这些都装进本地环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 429,
+          "t": [
+            1467.08,
+            1473.145
+          ],
+          "quote": "So you guys have built an MCP server sitting on top of Gong and this has been visualized by V0.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1526.637,
+            1527.958
+          ],
+          "quote": "We also have an MCP server.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1551.421,
+            1552.921
+          ],
+          "quote": "This one has an MCP server.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 833,
+          "t": [
+            2725.773,
+            2727.356
+          ],
+          "quote": " We worked on it together, MCP Server.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            2878.746,
+            2879.968
+          ],
+          "quote": "Some of them use our MCP server.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在环 (human in the loop)",
+      "file": "人在环",
+      "primary": true,
+      "how_described": "本集的流程划分:定义功能、API 表面积、抽象层等决策环节高度人在环,写代码、执行环节才自动化,产出标「草稿」必经人审",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1029.74,
+            1033.5720000000001
+          ],
+          "quote": "those are very human in the loop, right, where I'm hands on with Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2094.512,
+            2098.035
+          ],
+          "quote": "where in this initial discovery and design phase, it's human in the loop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集说取代六页纸大部分内容的其实是一个原型:UX 原型技能把一页纸 PRD 转成提示词丢进 Figma Make,人人能可视化方案,最好的批评性反馈正来自那里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            55.418,
+            57.819
+          ],
+          "quote": "What replaces the bulk of that is actually a prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1102.636,
+            1108.419
+          ],
+          "quote": "And that's where we'll feed it the PRD or maybe a UX prototype that I built along the way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1248.593,
+            1250.755
+          ],
+          "quote": "It ingests, it can take a prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1250.775,
+            1253.347
+          ],
+          "quote": "So if I already have a UX prototype, it'll ingest that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            1756.722,
+            1759.373
+          ],
+          "quote": "What replaces the bulk of that is actually a prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1767.281,
+            1770.0032222222221
+          ],
+          "quote": "And there's a separate skill called UX prototype,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 583,
+          "t": [
+            1909.132,
+            1913.464
+          ],
+          "quote": "it's going to be kind of that very short document that accompanies a prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            3163.773,
+            3168.154
+          ],
+          "quote": "We kind of drew the line here at create the PRs, create the prototype.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说他们正转向更多用自己的开源模型:模型好用、也比 Anthropic 等越来越贵的选择便宜,用它缓解了 token 开支激增",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            460.574,
+            465.754
+          ],
+          "quote": "but a lot of the harnesses that support open source models are We are used",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 208,
+          "t": [
+            770.083,
+            772.605
+          ],
+          "quote": "But as more open source models are coming out,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说他们最初采用 Claude Code 接这套仓库,PM 现场演示(Pavneet)也是在终端里跑它,由它派生子智能体做调研、PRD 和 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            458.653,
+            460.554
+          ],
+          "quote": "we adopted Claude code,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "Pavneet 提到自己来自 Amazon,习惯了 20 页 PRD 的把关文档文化,以此对照 Together 的新做法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            51.176,
+            52.066
+          ],
+          "quote": "I come from Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52.116,
+            55.368
+          ],
+          "quote": "I used to work at Amazon, so we are used to writing like 20-pager PRDs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1747.418,
+            1752.72
+          ],
+          "quote": "And actually what replaces our typical historical six pager, like I come from Amazon, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 535,
+          "t": [
+            1752.76,
+            1753.721
+          ],
+          "quote": "I used to work at Amazon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma-make",
+      "type": "company",
+      "role": "company",
+      "name": "Figma Make",
+      "file": "Figma Make",
+      "primary": false,
+      "how_described": "本集说选 Figma Make 是因为链接容易分享、别人能在其上迭代,用来把提示词变成可点击的原型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 542,
+          "t": [
+            1773.483,
+            1779.285
+          ],
+          "quote": "and it'll give you a very detailed prompt on how to build it in like a Figma make",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 551,
+          "t": [
+            1804.171,
+            1807.452
+          ],
+          "quote": "You're getting this to generate the prompt and then giving it to Figma make?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            1807.982,
+            1813.004
+          ],
+          "quote": "the only reason I use Figma Make is because it's easy to share a Figma Make link",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            1822.347,
+            1823.617
+          ],
+          "quote": "That's why we use Figma Make.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集说 Linear 是他们跟踪所有项目和工程执行的地方,功能调研技能会接进去判断需求是否已被做过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            94.088,
+            99.373
+          ],
+          "quote": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            413.165,
+            414.99833333333333
+          ],
+          "quote": "there's a lot of linear projects,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 272,
+          "t": [
+            991.598,
+            992.3290000000001
+          ],
+          "quote": "to Linear,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1333.561,
+            1335.5130000000001
+          ],
+          "quote": "because it has access to linear as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1352.836,
+            1357.53
+          ],
+          "quote": "So it could go check, like in case there's some discrepancy between linear and the code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            3542.322,
+            3547.304
+          ],
+          "quote": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 和其他模型正开始变得相当昂贵,这是他们转向自家开源模型的动因之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            484.105,
+            488.047
+          ],
+          "quote": "like many teams are learning across the globe that Anthropic",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

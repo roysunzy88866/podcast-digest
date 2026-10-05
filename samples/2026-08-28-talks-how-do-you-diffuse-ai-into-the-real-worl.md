@@ -128,9 +128,9 @@ Varun 认为它们是同一个循环：智能体只有被用了才会变好，�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:后训练 (post-training)、持续学习 (continual learning)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:后训练 (post-training)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:后训练 (post-training)、持续学习 (continual learning)、智能体 (agent)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)、后训练 (post-training)</span>
 
 </div>
 <div class="pd-ex">
@@ -139,7 +139,7 @@ Varun 认为它们是同一个循环：智能体只有被用了才会变好，�
 
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)、编码智能体 (coding agent)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同概念:后训练 (post-training)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

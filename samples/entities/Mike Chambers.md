@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":397,"harness 工程":3,"Bedrock AgentCore":1,"MCP":72,"记忆":22,"多租户隔离":1,"可观测性":35,"基础设施即代码":2,"系统提示词":8,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"harness 工程":3,"Bedrock AgentCore":1,"MCP":72,"记忆":22,"多租户隔离":1,"可观测性":36,"基础设施即代码":2,"系统提示词":8,"Kiro":4}</script>
 
 <script>
 (function(){

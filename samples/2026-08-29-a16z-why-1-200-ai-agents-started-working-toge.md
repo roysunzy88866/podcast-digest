@@ -147,8 +147,8 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 **换个口味**
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:奖励黑客 (reward hacking)、智能体 (agent)</span>
+- [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同公司:OpenAI · 同概念:RL、对齐 (alignment)、智能体 (agent)、泛化 (generalization)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:RL、推理 (reasoning)</span>
 
 </div>
 </div>

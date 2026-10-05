@@ -127,8 +127,8 @@ Prakash 认为算力受限的中国公司会更早发现，因为它们会紧密
 **顺着「智能体」挖下去**
 
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:RL、智能体 (agent)、后训练 (post-training)</span>
+- [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:RL、智能体 (agent)、后训练 (post-training)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
-- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

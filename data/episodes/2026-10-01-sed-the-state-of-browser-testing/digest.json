@@ -1,0 +1,142 @@
+{
+  "title_zh": "浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学",
+  "tldr": "Selenium/WebDriver 长期贡献者、BrowserStack 开发者布道负责人 David Burns 谈浏览器自动化标准如何诞生、该怎么测试，以及 AI 写代码的风险。",
+  "digest_md": "自动化浏览器测试是无数网页开发者天天依赖的基础技术——一份测试能以同样的方式驱动 Chrome、Firefox 和 Safari,背后是多年标准化工作的成果。这一集的主角 David Burns 就是亲历者：他是 Selenium 和 WebDriver 的长期贡献者，在 Mozilla 待了十年，现在担任 BrowserStack 的开发者布道与开源负责人。他从南非长大、学了计算机科学加工业心理学的奇怪组合讲起，2006 年左右在一家初创公司当第一个 QA 招聘，晚上因为妻子是音乐家不在家，就开始给刚起步的 Selenium 做开源贡献——就此一路做到了标准组织的深处。\n\n## WebDriver 标准是怎么来的\n\n转折点发生在瑞士的一场 Google 测试自动化大会(GTAC)上：Opera 来了一个人，展示了他把 Selenium 移植进 Opera 浏览器的成果。在场的人觉得这太棒了，每个有浏览器的公司都应该这么做，而那位 Opera 的人说，实现它的路径就是进入标准制定。当时浏览器对自身的自动化测试大量依赖手工，又慢又容易出错——有个 Internet Explorer 的 QA 纠结于「完美还是够好」，盯着两张图片找半个像素的差异，浪费了海量时间。于是 David 和 WebDriver 的创造者 Simon Stewart、后来加入团队的 Andreas Tolfsen 一起开始构建规范。\n\n制定标准最难的不是「点击」「输入」这类简单操作，而是那些看起来无法定义的东西：你怎么知道一个元素真的在页面上？要等多久？David 说这归结为「在某种程度上标准化一个有意义的等待，而不试图解决停机问题」——停机问题是图灵提出的著名不可解问题，自动化不可能绕过它去判断「程序会不会永远跑下去」。还有「可见」的定义：CSS 有 Z-index,但仅凭 DOM 布局方式，其他元素照样能覆盖在上面，不做逐像素检查就极难判定。大量精力正是花在解决这些「用户不必自己解决」的难题上，并留出扩展机制——比如浏览器权限弹窗(摄像头、麦克风)这种难测的东西，现在可以通过规范内的 WebDriver API 扩展出去测试。\n\n WebDriver 就是描述如何向浏览器发送和接收命令的标准(点击、这个元素可见吗)；Selenium、WebDriver.io、Playwright 等一票工具都建在它之上。它们的共同福利是不用再操心「怎么跟浏览器对话」——当年跟 Firefox 说话要靠内置扩展，跟 Internet Explorer 说话要做 COM interop,从 Java、Python 到 Ruby 一路越做越糟。而现在的工作重心在 WebDriver BiDi(BiDi 即双向，bi-directional),让脚本与浏览器之间的通信从单向请求变成双向事件流。\n\n## 大公司为什么该回馈开源\n\n有人问：怎么说服一个高管，雇人去维护连竞争对手都受益的开源？David 的答案是从风险说起：「所有人都停止为这些项目做贡献的风险是什么？我觉得这是最大的风险」。他举了一个真实教训：2020 年疫情期间，一个 node 包的作者失业了，向依赖他的社区请求资助，没人给钱，于是他给所有包下了毒、删光了代码。而更深一层的理由是企业责任——你需要照好让你赚钱的东西，尤其 AI 时代供应链攻击会越来越普遍；参与进去帮忙保障安全，送出去一些东西，换来的是业务尽可能无风险。人脉也是回报：如果 BrowserStack 的产品在 Chrome 上出 bug,他可以直接找到 Chrome 的人请对方优先处理——互相反馈 bug,自己受益，其他人也受益。\n\n## 测试哲学：每条关键路径一个扎实测试\n\nDavid 的核心建议是：**先写一个测试，从那里逐步扩展，理想情况下每条关键路径只有一个测试**。如果系统架构想清楚了，可观测性、遥测、日志这些保护层本来就在，一个「能登录并完成 X」的测试就足够覆盖关键路径。反例是他见惯的「测试圣诞树/沙漏」：15 个大致做同样事情的测试，每个一分钟，平白等 15 分钟。要平衡的是三件事：速度、正确性、风险。浏览器启动在算力上极其昂贵——如今浏览器本质上就是操作系统，「你每次都相当于在启动一台电脑，而且是一台电脑里再套一台电脑」——所以把端到端测试压缩到那 100 个真正重要的，是唯一划算的做法。\n\n## 无障碍测试：别只盯着大棒\n\n对无障碍测试，David 主张讲「胡萝卜」而不是「大棒」(诉讼合规是棒，好处是胡萝卜)。关键洞见：很多无障碍功能本来就是生产力功能——IDE 里不碰鼠标完成所有操作、开车时手机读出短信并语音回复，这些都是围绕无障碍需求构建、然后惠及所有人的。只要把「用户多快能到达他要去的地方」做好，无障碍就顺带解决了。而且残障人群的消费能力和你我一样，放弃无障碍就是放弃那块市场——和他反驳「只测 Chrome 就行」是同一个逻辑。\n\n规范层面，正在构建中的 Accessibility Test Driver(AT Driver)与 AxeCore 这类「读 DOM 推断问题」的工具不同：它试图驱动屏幕阅读器、再由屏幕阅读器驱动浏览器，目标是让 Linux、Mac、Windows 上千差万别的屏幕阅读器有统一的标准方式，从而提升 Chrome、Firefox、Safari 之间的互操作性。\n\n## 标准慢，反而是对的\n\n被问到规范制定太慢的挫败感，David 的回答反直觉：「但这种慢反而让它变得正确。因为如果你把事情做得太快，就会引发其他问题」。他举例：浏览器间通信的一个规范已到第三个迭代，前两版快但错得多——Firefox 打不到 Chrome，连同浏览器之间都打不通；第三版慢了很多，但更正确了。而 Selenium 的竞争者 Playwright、Cypress 从未深度参与规范制定，这正是 WebDriver 试图弥补的方向：给浏览器加新功能，自动就能获得对应的 WebDriver 测试。\n\n> 【背景】这里说的浏览器间通信规范，通常指 WebRTC（网页实时通信）。\n\n## AI 时代的测试会更重要\n\nDavid 今年做过一个关于 vibe coding(只写提示词、凭感觉拿到代码)和 vibe testing 的演讲，他的警告很直接：人们会「凭感觉把生产数据库搞垮」——Replit 出过事故后加了护栏，用户转用 Claude 又不给护栏，数据库照样被删。他认为 AI 越普及化，糟糕的情况会越严重，因为大量安全知识是「你我从构建软件中获得的经验」：C/C++ 里别在变量交给垃圾回收器后还去访问它、要检查身份验证、别把 API 密钥硬编码……从没写过软件的人没有这些被反复灌输的直觉。所以他的建议是：**初级工程师应该少用 AI**,把它更多当作审查备份；每个人都该有机会做原型，但原型进生产前必须重写或至少过安全检查。另一个铁律：「AI 会产生幻觉。那不是可能会产生幻觉，它就是会产生幻觉」——只有回头审查过，你才分辨得出真假。\n\n他自己在推进的方向是把**可观测性**接进测试：OpenTelemetry(跨应用创建调用追踪的标准)已经存在八九年，但几乎没人把它放进测试里——如果一个测试从「访问网站」一路追踪穿过整个应用，失败时你就有完整的状态和入口数据，可以精确复现「那个人是怎么操作的」，而不是对着日志干瞪眼。他强调不需要改任何规范，一切能力都是现成的，只是没人讲清楚怎么上手。\n\n## 本集带走\n\n- **测试从一/start**:先写一个测试，然后每条关键路径只保留一个扎实测试；靠架构里的可观测性、遥测、日志兜住其余，而不是堆 15 个重复测试。\n- **别造 DSL 式的流式 API**:David 早年给自己公司构建了一个流式(fluent)DSL,调试时发现「到处都是点」，每层都要单步穿过去才能找到真问题——好看但难用，别犯。\n- **用风险说服高管回馈开源**：最大的风险是维护者断供后项目被「下毒」(2020 年 node 包作者删码事件)；企业责任之外，供应链安全在 AI 时代只会更重要。\n- **把无障碍当生产力讲**：Tab 键可达、语音交互这些无障碍功能同时就是效率功能，讲收益比讲合规诉讼有效得多。\n- **慢的规范才正确**：浏览器间通信规范前三版快而错、第三版慢而对；别指望标准化跟上工具的速度。\n- **AI 时代测试是护栏**：AI 一定会幻觉，生产数据库被 vibe coding 删掉的事故会越来越多；初级工程师应少用 AI 以积累安全直觉，原型上线前必须重写或过安全检查。\n- **把追踪接进测试**：用 OpenTelemetry 的追踪键贯穿端到端测试，失败时能精确复现入口数据，不用再「不知道从哪开始查」。",
+  "quotes": [
+    {
+      "en": "The problem then comes is that people will vibe their production database into the ground and like it just gets thrown away.",
+      "zh": "问题就来了，人们会凭感觉把他们的生产数据库搞垮，然后就直接被扔掉了。",
+      "timestamp": "41:12",
+      "speaker": "David Burns"
+    },
+    {
+      "en": "And I think while I like AI, I kind of feel like junior engineers should be using it a lot less, more of a backup to review their stuff and go, hey, did you think about this problem, that problem, right?",
+      "zh": "我虽然喜欢 AI,但我觉得初级工程师应该少用它，把它更多当作一个备份来审查他们的东西，问一句，嘿，你有没有考虑过这个那个问题，对吧？",
+      "timestamp": "43:44",
+      "speaker": "David Burns"
+    },
+    {
+      "en": "That's not a maybe hallucinate, it will hallucinate.",
+      "zh": "那不是可能会产生幻觉，它就是会产生幻觉。",
+      "timestamp": "45:21",
+      "speaker": "David Burns"
+    },
+    {
+      "en": "And I was like, wow, Fluent APIs are literally the worst, right? Because everything's a dot.",
+      "zh": "我就想，哇，流式 API 简直是最糟糕的，对吧？因为到处都是点。",
+      "timestamp": "07:03",
+      "speaker": "David Burns"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "22:59",
+      "speaker": "DAVID BURNS",
+      "en": "What's the risk of everyone stopping work on their projects? I think it's the biggest one, right?",
+      "zh": "所有人都停止为这些项目做贡献的风险是什么？我觉得这是最大的风险，对吧？"
+    },
+    {
+      "timestamp": "23:43",
+      "speaker": "DAVID BURNS",
+      "en": "And then he poisoned all these packages and then deleted all the code.",
+      "zh": "然后他给所有这些包下了毒，再把代码全删了。"
+    },
+    {
+      "timestamp": "26:03",
+      "speaker": "DAVID BURNS",
+      "en": "I think it tends to be really important that you at least have one test for every critical path.",
+      "zh": "我认为至少为每一条关键路径都有一个测试，这一点往往非常重要。"
+    },
+    {
+      "timestamp": "29:47",
+      "speaker": "DAVID BURNS",
+      "en": "So it's like speed versus correctness versus risk.",
+      "zh": "所以这就是速度、正确性和风险之间的权衡。"
+    },
+    {
+      "timestamp": "31:32",
+      "speaker": "DAVID BURNS",
+      "en": "You're just booting a computer each time, and it's a computer within a computer.",
+      "zh": "你每次都相当于在启动一台电脑，而且是一台电脑里再套一台电脑。"
+    },
+    {
+      "timestamp": "32:54",
+      "speaker": "DAVID BURNS",
+      "en": "So if it's a travel website, can I just tab to where I want to do? Because I just want to find the thing the quickest, right?",
+      "zh": "所以如果是一个旅游网站，我能只用 Tab 键跳到我想操作的地方吗？因为我只是想最快地找到那个东西，对吧？"
+    },
+    {
+      "timestamp": "34:59",
+      "speaker": "DAVID BURNS",
+      "en": "Because their money is just as good as mine.",
+      "zh": "因为他们的钱和我的一样值钱。"
+    },
+    {
+      "timestamp": "38:58",
+      "speaker": "DAVID BURNS",
+      "en": "But the slowness made it correct, right? Because if you make things fast, you cause other problems.",
+      "zh": "但这种慢反而让它变得正确，对吧？因为如果你把事情做得太快，就会引发其他问题。"
+    },
+    {
+      "timestamp": "41:12",
+      "speaker": "DAVID BURNS",
+      "en": "The problem then comes is that people will vibe their production database into the ground and like it just gets thrown away.",
+      "zh": "问题就来了，人们会凭感觉把他们的生产数据库搞垮，然后就直接被扔掉了。"
+    },
+    {
+      "timestamp": "41:45",
+      "speaker": "DAVID BURNS",
+      "en": "And so I think the AI space is helpful, but I think at the same time, we still need people who understand what AI is generating to be able to give it the guardrails, fix it, solve those problems.",
+      "zh": "所以我认为 AI 是有帮助的，但与此同时，我们仍然需要那些理解 AI 在生成什么的人，能够给它设置护栏、修复它、解决这些问题。"
+    },
+    {
+      "timestamp": "42:22",
+      "speaker": "DAVID BURNS",
+      "en": "I just think it's been democratized too quickly to everyone.",
+      "zh": "我只是觉得它被过快地普及给了所有人。"
+    },
+    {
+      "timestamp": "43:44",
+      "speaker": "DAVID BURNS",
+      "en": "And I think while I like AI, I kind of feel like junior engineers should be using it a lot less, more of a backup to review their stuff and go, hey, did you think about this problem, that problem, right?",
+      "zh": "我虽然喜欢 AI,但我觉得初级工程师应该少用它，把它更多当作一个备份来审查他们的东西，问一句，嘿，你有没有考虑过这个那个问题，对吧？"
+    },
+    {
+      "timestamp": "44:03",
+      "speaker": "DAVID BURNS",
+      "en": "When it comes to prototypes, I do think everyone should have an opportunity to build things out.",
+      "zh": "说到原型，我确实认为每个人都应该有机会把东西构建出来。"
+    },
+    {
+      "timestamp": "45:21",
+      "speaker": "DAVID BURNS",
+      "en": "That's not a maybe hallucinate, it will hallucinate.",
+      "zh": "那不是可能会产生幻觉，它就是会产生幻觉。"
+    },
+    {
+      "timestamp": "15:24",
+      "speaker": "DAVID BURNS",
+      "en": "And the problem there comes down to somewhat standardizing a meaningful weight without trying to solve the halting problem.",
+      "zh": "那里的问题归结为在某种程度上标准化一个有意义的等待，而不试图解决停机问题。"
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "DAVID BURNS",
+      "en": "And I was like, wow, Fluent APIs are literally the worst, right? Because everything's a dot.",
+      "zh": "我就想，哇，流式 API 简直是最糟糕的，对吧？因为到处都是点。"
+    },
+    {
+      "timestamp": "16:55",
+      "speaker": "DAVID BURNS",
+      "en": "How do you test that? That becomes harder.",
+      "zh": "你怎么测试那个？这就变得更难了。"
+    },
+    {
+      "timestamp": "12:35",
+      "speaker": "DAVID BURNS",
+      "en": "We think every company should be doing it that has a browser.",
+      "zh": "我们认为每个拥有浏览器的公司都应该这么做。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 David Burns。你可能没听过这个名字，但你大概率用过他参与打造的东西——Selenium 和 WebDriver,也就是无数网页开发者天天用来做自动化测试的那套技术。David 是这两个项目的长期贡献者，在 Mozilla 待了十年，现在是 BrowserStack 的开发者布道与开源负责人。今天这一集，就是聊浏览器自动化这个标准是怎么来的、该怎么测，还有 AI 写代码到底有多危险。\n\n先交代一下背景。所谓 WebDriver,说白了就是一套描述怎么向浏览器发送和接收命令的标准，比如\"点击这里\"\"这个元素可见吗\"。你现在能写一份测试，用同样的方式驱动 Chrome、Firefox 和 Safari,靠的就是它。Selenium、WebDriver.io、Playwright 这些工具，全都建在这套标准之上。\n\n那这套标准是怎么诞生的？转折点发生在瑞士的一场 Google 测试自动化大会上。Opera 派了个人来，展示把 Selenium 移植进 Opera 浏览器的成果。在场的人都觉得太棒了，每家有浏览器的公司都应该这么干。而 Opera 那位说，实现它的路径就是进标准。为什么非得这么折腾？因为在当时，浏览器对自身的自动化测试大量依赖手工，又慢又容易出错。举个真实的例子：有个 Internet Explorer 的 QA,纠结于\"完美还是够好\"，天天盯着两张图片找半个像素的差异，浪费了海量时间。\n\n于是 David 和 WebDriver 的创造者 Simon Stewart、后来加入的 Andreas Tolfsen 一起，开始构建规范。听起来简单，其实最难的不是\"点击\"\"输入\"这种操作，而是那些看起来根本没法定义的东西。比如，你怎么知道一个元素真的在页面上？要等多久？David 的说法是，这归结为\"在某种程度上标准化一个有意义的等待，而不试图解决停机问题\"——停机问题是图灵提过的著名不可解问题，你没法判断一个程序会不会永远跑下去。再比如\"可见\"怎么定义：CSS 有层级，但光看 DOM 布局，别的元素照样能盖在上面，不做逐像素检查就极难判定。大量精力，正是花在这些用户不该自己解决的难题上，同时还留了扩展机制，像摄像头、麦克风这种权限弹窗，现在也能通过规范内的 API 扩展出去测试。\n\n标准建好了，那维护标准的人靠什么活下去？这就引出下一个问题：大公司为什么该回馈开源。有人问，怎么说服一个高管，花钱雇人去维护连竞争对手都受益的项目？David 的答案是从风险说起——所有人都停止贡献的风险是什么？这才是最大的风险。这不是吓唬人。2020 年疫情期间，一个 node 包的作者失业了，向依赖他的社区请求资助，没人给钱，结果这个人给所有包下了毒、把代码删光了。更深一层的理由是企业责任：你要照好让你赚钱的东西，尤其在 AI 时代，供应链攻击只会越来越普遍。另外人脉也是回报——如果 BrowserStack 的产品在 Chrome 上出了 bug,可以直接找到 Chrome 的人请对方优先处理，互相反馈 bug,自己受益，别人也受益。\n\n标准的事聊完了，那具体到一个开发者，测试到底该怎么做？David 的核心建议是：先写一个测试，从那里逐步扩展，理想情况下，每条关键路径只有一个扎实测试。如果系统架构想清楚了，可观测性、遥测、日志这些保护层本来就在，一个\"能登录并完成某个任务\"的测试就够覆盖关键路径了。反例就是那种\"测试圣诞树\"：十五个大致做同样事情的测试，每个一分钟，平白等十五分钟。要平衡的是三件事——速度、正确性、风险。浏览器启动在算力上极其昂贵，如今的浏览器本质上就是操作系统，用 David 的话说，你每次都相当于在启动一台电脑，而且是一台电脑里再套一台电脑。所以把端到端测试压缩到那真正重要的一百个，是唯一划算的做法。\n\n顺着这个思路，还有一块特别容易被忽略的：无障碍测试。在这件事上，David 主张讲胡萝卜，别讲大棒——诉讼合规是棒，好处才是胡萝卜。关键洞见是，很多无障碍功能本来就是生产力功能：IDE 里不碰鼠标完成所有操作、开车时手机读出短信再语音回复，这些都是围绕无障碍需求构建、然后惠及所有人的。只要把\"用户多快能到达要去的地方\"做好，无障碍就顺带解决了。而且残障人群的消费能力和你我一样，放弃无障碍就是放弃那块市场。规范层面，一个叫 AT Driver 的项目正在构建，它跟那些读 DOM 推断问题的工具不同，是要驱动屏幕阅读器、再由屏幕阅读器驱动浏览器，让各家五花八门的屏幕阅读器有统一的标准方式。\n\n有人会抱怨，规范制定太慢了。David 的回答很反直觉：但这种慢反而让它变得正确。因为如果做得太快，就会引发其他问题。举个例子，浏览器间通信的一个规范，已经到第三个迭代了——前两版快，但错得多，Firefox 连 Chrome 都打不通，浏览器之间都打不通；第三版慢了很多，但更正确了。而 Selenium 的竞争者 Playwright、Cypress 从未深度参与规范制定，这正是 WebDriver 想弥补的方向：给浏览器加新功能，自动就能获得对应的测试能力。\n\n最后是最扎心的部分：AI 时代的测试。David 今年做过一个关于 vibe coding 的演讲——所谓 vibe coding,就是只写提示词、凭感觉拿到代码。警告很直接：问题就来了，人们会凭感觉把生产数据库搞垮，然后就直接被扔掉了。Replit 出过事故后加了护栏，用户转头用别的工具又不给护栏，数据库照样被删。而 AI 越普及，糟糕的情况会越严重，因为大量安全知识是靠多年写软件攒下的直觉——别把 API 密钥硬编码、要检查身份验证——从没写过软件的人没有这些直觉。所以建议是：初级工程师应该少用 AI,把它更多当作审查的备份，问一句，这个问题你考虑过没有。还有一条铁律：AI 会产生幻觉。那不是可能会产生幻觉，它就是会产生幻觉，只有回头审查过，才分辨得出真假。\n\nDavid 自己在推的方向，是把 OpenTelemetry 这种跨应用的调用追踪标准接进测试，这套东西已经存在八九年了。如果一个测试从头到尾都带着追踪，失败时就有完整的状态和入口数据，能精确复现那个用户是怎么操作的，不用对着日志干瞪眼。其实不需要改任何规范，能力都是现成的，只是没人讲清楚怎么上手。\n\n这一集听完，记住一句话就够了：慢的规范才正确，而 AI 一定会幻觉——护栏不是绊脚石，是让你能一直跑下去的东西。"
+}

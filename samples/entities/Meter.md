@@ -38,7 +38,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[Redwood Research]] · [[Anthropic]] · [[RL]] · [[奖励黑客]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":155,"Hugging Face":27,"智能体":397,"Redwood Research":4,"Anthropic":169,"RL":10,"奖励黑客":6,"沙箱":71,"Theo Jaffe":7,"Ajaya Khatra":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":157,"Hugging Face":28,"智能体":400,"Redwood Research":4,"Anthropic":171,"RL":12,"奖励黑客":6,"沙箱":74,"Theo Jaffe":7,"Ajaya Khatra":1}</script>
 
 <script>
 (function(){

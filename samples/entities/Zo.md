@@ -25,7 +25,7 @@ unlisted: true
 
 [[Benjamin Guo]] · [[ZoComputer]] · [[个人云]] · [[技术封建主义]] · [[智能体]] · [[智能封建主义]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Benjamin Guo":1,"ZoComputer":1,"个人云":1,"技术封建主义":1,"智能体":397,"智能封建主义":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"Benjamin Guo":1,"ZoComputer":1,"个人云":1,"技术封建主义":1,"智能体":400,"智能封建主义":1,"SaaS":21}</script>
 
 <script>
 (function(){

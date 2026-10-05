@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[后训练]] · [[智能体]] · [[Seth Rosenberg]] · [[Lenny]] · [[Mustafa Suleyman]] · [[Benjamin Mann]] · [[DeepMind]] · [[Anthropic]] · [[Inflection AI]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":155,"后训练":1,"智能体":397,"Seth Rosenberg":1,"Lenny":68,"Mustafa Suleyman":1,"Benjamin Mann":1,"DeepMind":11,"Anthropic":169,"Inflection AI":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":157,"后训练":1,"智能体":400,"Seth Rosenberg":1,"Lenny":68,"Mustafa Suleyman":1,"Benjamin Mann":1,"DeepMind":12,"Anthropic":171,"Inflection AI":1}</script>
 
 <script>
 (function(){

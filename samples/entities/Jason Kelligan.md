@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Rowan Christmas]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]] [[Thariq Shihipar]]
+[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Laurie Voss]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":75,"红队测试":5,"开源模型":4,"前沿模型":24,"智能体":397,"按小时计费":2,"订阅制转型":2,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":77,"红队测试":5,"开源模型":4,"前沿模型":24,"智能体":400,"按小时计费":2,"订阅制转型":2,"微短剧":1}</script>
 
 <script>
 (function(){

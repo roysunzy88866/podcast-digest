@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Akash</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Akash">AK</div><div class="pi"><h1 class="pt">Akash</h1><div class="byl">Product Growth Podcast 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Akash">AK</div><div class="pi"><h1 class="pt">Akash</h1><div class="byl">Product Growth Podcast 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -17,19 +17,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为联合主持
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为联合主持
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为联合主持
+- [[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Meta]] · [[Jiaona Zhang]] · [[Meng To]] · [[Daniel McKinnon]] · [[Laurel]] · [[Cursor]] · [[评估]] · [[GitHub]]
+[[智能体]] · [[技能]] · [[Codex]] · [[PRD]] · [[上下文]] · [[harness]] · [[Meta]] · [[Claude Code]] · [[Jiaona Zhang]] · [[Meng To]]
 
-<script type="application/json" class="pd-epn">{"智能体":397,"Codex":76,"Meta":41,"Jiaona Zhang":1,"Meng To":1,"Daniel McKinnon":1,"Laurel":1,"Cursor":78,"评估":3,"GitHub":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"技能":26,"Codex":76,"PRD":8,"上下文":26,"harness":54,"Meta":41,"Claude Code":94,"Jiaona Zhang":1,"Meng To":1}</script>
 
 <script>
 (function(){

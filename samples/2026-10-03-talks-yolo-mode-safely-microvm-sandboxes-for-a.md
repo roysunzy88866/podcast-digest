@@ -121,9 +121,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同公司:Claude Code · 同概念:MCP 服务器 (MCP server)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、Claude · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、codex · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同公司:Claude、codex · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

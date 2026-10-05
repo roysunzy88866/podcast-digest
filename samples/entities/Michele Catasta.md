@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":19,"Replit Agent":1,"智能体":397,"vibe coding":43,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":20}</script>
+<script type="application/json" class="pd-epn">{"Replit":19,"Replit Agent":1,"智能体":400,"vibe coding":44,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":20}</script>
 
 <script>
 (function(){

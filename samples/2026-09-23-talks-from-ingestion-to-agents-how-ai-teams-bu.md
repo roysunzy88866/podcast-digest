@@ -145,7 +145,7 @@ Deet 认为最令人兴奋的前沿是 agent harness(给智能体配上一整套
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)、上下文 (context)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)</span>
-- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、上下文 (context)</span>
 
 </div>
 </div>

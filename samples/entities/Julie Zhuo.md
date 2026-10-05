@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":397,"构建者":4,"可观测性":35,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":92,"Cursor":78,"OpenAI":155}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":400,"构建者":4,"可观测性":36,"对话分析":1,"评估":4,"维度思维":1,"ChatGPT":92,"Cursor":79,"OpenAI":157}</script>
 
 <script>
 (function(){

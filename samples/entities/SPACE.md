@@ -75,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Nicole Forsgren]] · [[Dots]] · [[代码行数]] · [[ChatGPT]] · [[DORA]] · [[Codex]] · [[DevEx]]
 
-<script type="application/json" class="pd-epn">{"智能体":397,"Lenny":68,"OpenAI":155,"Nicole Forsgren":1,"Dots":2,"代码行数":2,"ChatGPT":92,"DORA":3,"Codex":76,"DevEx":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"Lenny":68,"OpenAI":157,"Nicole Forsgren":1,"Dots":2,"代码行数":2,"ChatGPT":92,"DORA":3,"Codex":76,"DevEx":2}</script>
 
 <script>
 (function(){

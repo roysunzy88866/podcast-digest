@@ -293,7 +293,7 @@ Buck 直言：AI 接管的概率在他看来大约五五开——指的是人类
 
 - [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)</span>
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research · 同概念:RL、智能体 (agent)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:OpenAI、Anthropic、Hugging Face · 同概念:思维链监控 (chain of thought)、智能体 (agent)</span>
+- [[2026-09-17-dwarkesh-noam-brown|OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:思维链监控 (chain of thought)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>155</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>157</b> 集 · <b>25</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -126,6 +126,7 @@ unlisted: true
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(10:36起):本集提到可选添加 OpenAI 的 API 密钥,让社交评论网络工具自动标注团队划分
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(06:21起):本集说 OpenAI 用美国芯片训练前沿模型、自研芯片组（Jalapeno）、并已开始不再通过 API 开放前沿模型
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:14起):本集多次提到：最新模型发布配合 Computer-Use 效果惊人；并被讨论是否可能既知道你的一切、又运营市场、每笔交易抽成，构成信任陷阱。
+- **[[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]]**(08:30起):John 回忆 OpenAI 早期误以为最小化 log loss 达不到智能的直觉；另提及 OpenAI 早期训练万亿参数稀疏模型的实验。
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(13:48起):本集提到 Sam Altman 在全公司会议上称可能放缓 AI 开发节奏——Jason 不信、认为是试探性放风;也提到其数据泄露传闻和允许订阅叠加的决定。
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(06:06起):本集提到其 go-to-market 团队用 Codex 比工程团队还多，以及其模型与『太危险而不能发布』的讨论
 - **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(04:55起):本集顺带谈到:它是抬高招聘薪水的主要买家之一,Sam 转发过一篇呼吁给模型发展「稍微暂停」的帖子,其模型里出现过智能体建立自己群体的实验
@@ -137,6 +138,7 @@ unlisted: true
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(28:09起):本集 Andrew 以它回击唱衰者：「说没有前沿实验室，然后我们赢得了 OpenAI」，「现在我们在服务 GPT」。
 - **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(35:43起):被用来说明成果定价的难题：为 OpenAI 做外向拓客极其高效，为没有网站的种子期公司做则极其低效，所以只能为工作收费、无法为成果收费。
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说 OpenAI 如今已是大型科技公司，会把模型做到世界最强，但『他们不可能构建一切』。
+- **[[2026-09-17-dwarkesh-noam-brown|《OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题》]]**(00:00起):本集说它是 Noam Brown 所在的研究机构，训出了极强的基础模型并率先在 5.6 中内置多智能体系统；同时围绕其 Hugging Face 事件、内部加速与安全政策展开大量讨论
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(45:04起):提到其与 Reddit、Google 的商业协议，以及早期宣言想把文本验证外包给第三方（如 Trustpilot）。
 - **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(00:03起):本集说它在 X-Blade, Jim 网络安全基准上故意关掉安全限制测试模型、知情不干预，却至今不公开提示词与给智能体的指令；同时传出按 1.5 万亿美元估值融新资、上月年化收入超 400 亿美元。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(12:39起):本集说它与 Anthropic 同被误读为「烧钱将死」，实则停训即可大幅盈利；其 GPT-6 Astra 被 Thomas 称为 AGI，Greg Brockman 表示想从按 token 定价转向按有效结果计费。
@@ -166,7 +168,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*24 条*
+*25 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -208,6 +210,8 @@ unlisted: true
 
 ![[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef#^q4]]
 
+![[2026-09-17-dwarkesh-noam-brown#^q8]]
+
 ![[2026-09-25-latent-openrouter#^q13]]
 
 ![[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i#^q1]]
@@ -218,7 +222,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*155 集*
+*157 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -335,6 +339,7 @@ unlisted: true
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为被讨论公司(提及)
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为被讨论公司(提及)
+- [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为被讨论公司(提及)
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为被讨论公司
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司(提及)
@@ -347,6 +352,7 @@ unlisted: true
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
+- [[2026-09-17-dwarkesh-noam-brown|《OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题》]] — 作为被讨论公司
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念(提及)
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
@@ -380,9 +386,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
+[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":397,"Anthropic":169,"ChatGPT":92,"推理":72,"Google":55,"Cursor":78,"NVIDIA":53,"Codex":76,"Claude":85,"Stripe":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":400,"Anthropic":171,"推理":73,"ChatGPT":92,"Google":55,"Cursor":79,"NVIDIA":53,"Codex":76,"Claude":85,"Stripe":44}</script>
 
 <script>
 (function(){

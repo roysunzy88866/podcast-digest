@@ -1,0 +1,1272 @@
+{
+  "episode_id": "2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-10-03",
+  "tags": [
+    "机器人学",
+    "具身智能",
+    "VLA 模型",
+    "仿真与数据",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "kirthana-gopalakrishnan",
+      "type": "person",
+      "role": "host",
+      "name": "Kirthana Gopalakrishnan",
+      "file": "Kirthana Gopalakrishnan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.153,
+            14.298
+          ],
+          "quote": "Today, I'm excited to welcome Kirthana Gopalakrishnan, staff research scientist at Google DeepMind and research lead for Gemini Robotics, back for her fourth annual appearance on the show.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 26,
+          "t": [
+            252.194,
+            261.34
+          ],
+          "quote": "With that, I hope you enjoy this very well-grounded update on the state of robotics with Kirthana Gopalakrishnan from Google DeepMind.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            262.901,
+            268.604
+          ],
+          "quote": "Kirthana Gopalakrishnan, staff research scientist at DeepMind and research lead for Gemini Robotics.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "嘉宾所在的实验室,她称之为北美唯一能以跨载体方式研究人形智能的实验室;本集围绕其 Gemini Robotics 2 系列模型展开",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.153,
+            14.298
+          ],
+          "quote": "Today, I'm excited to welcome Kirthana Gopalakrishnan, staff research scientist at Google DeepMind and research lead for Gemini Robotics, back for her fourth annual appearance on the show.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 26,
+          "t": [
+            252.194,
+            261.34
+          ],
+          "quote": "With that, I hope you enjoy this very well-grounded update on the state of robotics with Kirthana Gopalakrishnan from Google DeepMind.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4480.961,
+            4490.104
+          ],
+          "quote": "So it sounds like you're open-minded and obviously Google DeepMind has world modeling efforts that are pretty well established as well.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "gemini-robotics",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini Robotics",
+      "file": "Gemini Robotics",
+      "primary": true,
+      "how_described": "Google DeepMind 的机器人模型系列,本集核心话题:今年夏天发布三模型(ER 2 具身推理、VLA 动作模型、端侧小模型),ER 2 已开放 API",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.153,
+            14.298
+          ],
+          "quote": "Today, I'm excited to welcome Kirthana Gopalakrishnan, staff research scientist at Google DeepMind and research lead for Gemini Robotics, back for her fourth annual appearance on the show.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 12,
+          "t": [
+            102.027,
+            107.69
+          ],
+          "quote": "From there, we get into Gemini Robotics 2, a suite of three models that Google released this summer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 13,
+          "t": [
+            108.511,
+            125.661
+          ],
+          "quote": "Gemini Robotics ER 2, for embodied reasoning, which Kirthina describes as a System 2 for robotics control, is based on Gemini Flash and is available via the API, allowing developers to define the affordances available to the models as tools just like we do with digital agents.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 15,
+          "t": [
+            130.548,
+            148.882
+          ],
+          "quote": "The other two models, Gemini Robotics 2 and Gemini Robotics On-Device 2, translate these higher-level tool calls down to the level of robot action and are now capable of controlling the whole robot from fingertips to feet on a wide range of form factors, but are currently available only to trusted testers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            262.901,
+            268.604
+          ],
+          "quote": "Kirthana Gopalakrishnan, staff research scientist at DeepMind and research lead for Gemini Robotics.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 108,
+          "t": [
+            625.768,
+            635.094
+          ],
+          "quote": "How would you kind of, I'm the, because we're going to get into Gemini robotics coming up and there's a much higher level part of that architecture too, reasoning and understanding scenes.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1459.772,
+            1463.314
+          ],
+          "quote": "Then maybe that's a perfect transition to Gemini Robotics 2.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1468.336,
+            1478.861
+          ],
+          "quote": "There's like, when you go to the webpage, there's three models released, there's Gemini Robotics ER2, there's Gemini Robotics 2, and then there's the on-edge, on-device model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1487.019,
+            1494.241
+          ],
+          "quote": "So Gemini Robotics ER, you can think of it as like a system two brain that can do like very generic reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1509.853,
+            1517.078
+          ],
+          "quote": "Now, you can think of Gemini Robotics as the VLA that is like controlling the actions model, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1525.203,
+            1535.089
+          ],
+          "quote": "And you can think of the Gemini Robotics on-device model as a much smaller version of that that kind of fits on the robot's computer that doesn't live in the cloud and do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1538.237,
+            1543.118
+          ],
+          "quote": "It's essentially doing what Gemini robotics can do, but it's a smaller model that fits on device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1819.911,
+            1840.717
+          ],
+          "quote": "On just the difference between the Gemini Robotics ER2 Embodied Reasoning model and the base model, the Gemini 3.5 flash that it's trained on, one of the things that my coding agent did without even me asking actually was just compared the two and gave both of them like, here's a scene, here's the tools that you have.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2558.742,
+            2571.694
+          ],
+          "quote": "Maybe you could describe like what the Gemini Robotics 2 VLA model exposes and then how people can go toward more abstract or more low level than that and what works and doesn't work so well.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2597.61,
+            2606.815
+          ],
+          "quote": "And so I'm wondering, what tools do you expose to it in the form of the, what are the sort of ways that it interacts with Gemini Robotics 2, the VLA?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2618.943,
+            2630.229
+          ],
+          "quote": "And I'm wondering, what does it do well and what does it not do well as you depart from Gemini Robotics 2 as kind of the canonical VLA that it presumably was trained most directly to use?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2631.632,
+            2638.994
+          ],
+          "quote": "So I think one definitely is the Gemini Robotics ER is built on top of the Gemini tool use and other capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2747.25,
+            2754.734
+          ],
+          "quote": "What sort of, with Gemini Robotics 2, what kinds of commands do you have ER2 giving to the VLA?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2911.438,
+            2920.206
+          ],
+          "quote": "It sounds like the Gemini Robotics 2 model is also created from a VLM base.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3098.694,
+            3107.681
+          ],
+          "quote": "And there is also like a trusted tester program for the Gemini Robotics on-device model where we work with a lot of different labs and they have their specific robots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3262.65,
+            3269.933
+          ],
+          "quote": "What are the, so one of the value propositions of the Gemini Robotics to model, if I understand correctly, is it can work with any",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3457.354,
+            3464.877
+          ],
+          "quote": "We had in the March of last year, we came up with Gemini Robotics 1, which showed that a lot of dexterity with grippers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3472.681,
+            3482.305
+          ],
+          "quote": "We showed Gemini Robotics 2, which does multifinger dexterity, which can tie trash bags and stuff and do very fine control of multifingered hands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 719,
+          "t": [
+            4081.906,
+            4090.488
+          ],
+          "quote": "So something that really happened for Gemini Robotics 2 that was not in our previous releases is the human-robot interaction component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            4115.665,
+            4124.678
+          ],
+          "quote": "And something that was very interesting was as we were filming for Gemini Robotics 2, if you look at the videos, there are also interviews with the robot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4823.5,
+            4831.327
+          ],
+          "quote": "I think the Gemini Robotics 2 kind of had this where both the Duo robot and the Apollo was doing the task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "本集以机器人奥运会人形机器人赛跑开场,并指出人形外观会带来被更严厉评判、边界模糊等微妙问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            35.481,
+            56.248
+          ],
+          "quote": "AI-2027, for example, predicts that humanoid robots will become useful sometime in mid-2027, and that by 2028, a whole robot economy could take shape, where robots build more robot factories, which in turn produce more robots, leading to unprecedented exponential economic growth, but also creating serious risk of AI takeover.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 7,
+          "t": [
+            63.118,
+            74.846
+          ],
+          "quote": "We begin with a discussion of the extremely viral Robot Olympics held in China this summer, as I was really curious to get Kirtan's take on what it means that humanoid robots can now run faster than the fastest humans.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 60,
+          "t": [
+            392.913,
+            397.635
+          ],
+          "quote": "Do we want robots that run 20 miles an hour in humanoid form?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 69,
+          "t": [
+            432.199,
+            437.625
+          ],
+          "quote": "So it's like a display of where the state of the art of humanoid locomotion, like bipedal locomotion is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1057.093,
+            1063.077
+          ],
+          "quote": "What sort of investment should people be prepared to make to get their humanoid dialed in on whatever they most care about?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1246.345,
+            1252.147
+          ],
+          "quote": "Now, can I put that brain on my humanoid or my another robot or some other robot that I just bring in?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2969.645,
+            2974.267
+          ],
+          "quote": "So I think you can think of as like the Chinese humanoid race as an example, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2999.614,
+            3005.295
+          ],
+          "quote": "I think so here the VLA is controlling the whole humanoid body from like fingertips to the feet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3727.96,
+            3729.742
+          ],
+          "quote": "They had a sort of half humanoid.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3864.518,
+            3877.284
+          ],
+          "quote": "In not injuring people because you're dumb and a humanoid being stable enough, like there it's not doing a wild plot to take over your house, but it's just if it falls, it can still be quite dangerous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3908.483,
+            3916.308
+          ],
+          "quote": "This one very funny demo that we showed was like the humanoid is doing something and then someone goes in and puts a basket on top of its head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4014.062,
+            4021.666
+          ],
+          "quote": "People don't expect it to be smart, but a humanoid just grappling around and creating a lot of failures would be judged much harshly because...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4283.454,
+            4290.744
+          ],
+          "quote": "DeepMind is probably the only lab here in North America where you can study humanoid intelligence in a cross-embodied way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            4310.08,
+            4315.863
+          ],
+          "quote": "And there are multiple fields that only arise that when you do different humanoid bodies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLA",
+      "file": "VLA",
+      "primary": true,
+      "how_described": "本集说它是把语言和图像空间映射到机器人关节空间的动作模型,Gemini Robotics 2 已能控制从指尖到脚部的整个机器人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1509.853,
+            1517.078
+          ],
+          "quote": "Now, you can think of Gemini Robotics as the VLA that is like controlling the actions model, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2138.393,
+            2143.875
+          ],
+          "quote": "And this is also now related to the like the hardness between like ER and the VLA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2143.895,
+            2152.597
+          ],
+          "quote": "Like the ER tries to parse the intentions from a human and via text and other modalities kind of talks to the VLA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2400.529,
+            2411.445
+          ],
+          "quote": "Just before getting deeper on the VLA, why did you and DeepMind as a whole decide that this was the first robotics model to put out via the API?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2481.606,
+            2494.393
+          ],
+          "quote": "I think some of the things that I've seen is on like definitely benchmarks where it was either using VLA or even trying to do even low level control now that there is a lot of conversation going on around like how agents will impact robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2558.742,
+            2571.694
+          ],
+          "quote": "Maybe you could describe like what the Gemini Robotics 2 VLA model exposes and then how people can go toward more abstract or more low level than that and what works and doesn't work so well.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2573.195,
+            2578.22
+          ],
+          "quote": "You mean how the, is the question about how ER controls the VLA?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2597.61,
+            2606.815
+          ],
+          "quote": "And so I'm wondering, what tools do you expose to it in the form of the, what are the sort of ways that it interacts with Gemini Robotics 2, the VLA?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2618.943,
+            2630.229
+          ],
+          "quote": "And I'm wondering, what does it do well and what does it not do well as you depart from Gemini Robotics 2 as kind of the canonical VLA that it presumably was trained most directly to use?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2639.514,
+            2653.557
+          ],
+          "quote": "And as we are very much working on how to improve its relationship to the VLA and how to instruct that better, maybe one is I would imagine that there are robots are like very different and each one has very different APIs and stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2681.313,
+            2686.596
+          ],
+          "quote": "And definitely it's a very good model that's very useful for language instructing VLA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2686.897,
+            2689.699
+          ],
+          "quote": "But you can think of VLA itself as like a",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2747.25,
+            2754.734
+          ],
+          "quote": "What sort of, with Gemini Robotics 2, what kinds of commands do you have ER2 giving to the VLA?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2780.428,
+            2782.629
+          ],
+          "quote": "Disambiguate for the VLA model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2790.334,
+            2792.956
+          ],
+          "quote": "How many concepts does the VLA have to work with?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2811.157,
+            2819.12
+          ],
+          "quote": "So VLA steerability, and then the ER is essentially using whatever modes that you can steer the VLA, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2819.481,
+            2821.862
+          ],
+          "quote": "And VLA's right now are steerable in language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2829.966,
+            2839.334
+          ],
+          "quote": "I'm literally just doing pointing and then I'm pointing to an object and then it's can the VLA do it and then the ICL results are like can I prompt it with video and stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2849.342,
+            2855.784
+          ],
+          "quote": "You want to say if the modality between the ER and the VLA is just text, a lot of things can be lost in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2862.887,
+            2869.25
+          ],
+          "quote": "So the VLA itself is multimodal in the sense that it can take all these different domains or all these different modalities.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2870.327,
+            2877.192
+          ],
+          "quote": "And I think like the ER kind of, you can think of it like as orchestrating or giving feedback to the VLA to do the test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2877.252,
+            2894.704
+          ],
+          "quote": "And there is a range of things that like instructions, like even while we don't generally train it to do a lot of like low level stuff, I think like it says things like turn around, look to your, put your head there or look to your left and you can get all that information and the VLA response to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2999.614,
+            3005.295
+          ],
+          "quote": "I think so here the VLA is controlling the whole humanoid body from like fingertips to the feet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3019.562,
+            3021.703
+          ],
+          "quote": "So the VLA is controlling the whole body.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3022.224,
+            3027.847
+          ],
+          "quote": "But there are more decisions being made about how to stabilize and how to achieve the targets of the VLA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3045.462,
+            3060.339
+          ],
+          "quote": "If we were to break down failures, the majority of the failures would be at the VLA level still, as opposed to the reasoning level, like the reasoning is working and the VLA is where failures can't quite actually do the thing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3061.732,
+            3064.674
+          ],
+          "quote": "We are working with partners to develop this VLA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3069.998,
+            3074.982
+          ],
+          "quote": "And so that's where we built or how we are building the VLA together with them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3151.137,
+            3173.272
+          ],
+          "quote": "A lot of failure cases often also come from how to do the orchestration really well and yeah so I think and it is also a compounding of errors right like now if you have 10 tasks in sequence and now you have the ER model which has a certain x success rate and the VLA model which has a y success rate now the if you have a sequencing task you are basically compounding the error.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4215.593,
+            4224.357
+          ],
+          "quote": "So like ER2 is saying to the VLA model, raise your hand in a gesture as I give this response or something along those lines.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4228.058,
+            4235.942
+          ],
+          "quote": "Like you can, it's not very explicitly prompted to do this or this, but it's like coming up with the gestures on the, so just like how the VLA is, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 748,
+          "t": [
+            4236.142,
+            4240.043
+          ],
+          "quote": "No one is asking the VLA, put your hand out and then go grab the thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generalization",
+      "type": "concept",
+      "role": "concept",
+      "name": "泛化 (generalization)",
+      "file": "泛化",
+      "primary": true,
+      "how_described": "本集把它与精通视为正交的两轴:做泛化就像把所有船的水位抬起来,通用基线再调优到精通比狭窄 AI 划算,LLM 已验证此剧本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            177.807,
+            191.959
+          ],
+          "quote": "But Kierthen argues that the range of tasks you can teach this way and the generalization profile of robotics models across different robot bodies still isn't strong enough to deliver the versatility and reliability that real-world use cases demand.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            761.801,
+            771.927
+          ],
+          "quote": "Whole body control, like whole body manipulation, this was not something that anyone had shown before and especially whole body manipulation with generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            911.864,
+            918.849
+          ],
+          "quote": "You could build very narrow AI, just very good at one thing, but then you lose general, then you're not working on generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            920.21,
+            923.352
+          ],
+          "quote": "Generalization and mastery as somewhat orthogonal axes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            923.672,
+            929.395
+          ],
+          "quote": "And working on generalization is like lifting the boat, lifting the wave for all the boats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1012.02,
+            1029.488
+          ],
+          "quote": "Recently, there's been, I don't know, at least a couple, probably several demos that I certainly haven't been able to interrogate myself in a hands-on way, but you see videos online of different robotics companies saying, hey, look, we've got few-shot generalization, or we've even got one-shot generalization.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1105.718,
+            1106.879
+          ],
+          "quote": "So that's generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1136.954,
+            1140.596
+          ],
+          "quote": "And then the question is, so now what is the generalization that you can get?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3218.583,
+            3222.044
+          ],
+          "quote": "To be fair, I think models have made a lot of progress on visual generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3706.854,
+            3712.958
+          ],
+          "quote": "I didn't feel like they were really demonstrating a lot of generalization ability in most of the things that they were showing off.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "cross-embodiment",
+      "type": "concept",
+      "role": "concept",
+      "name": "跨载体 (cross embodiment)",
+      "file": "跨载体",
+      "primary": true,
+      "how_described": "本集说机器人仍深受其困:大脑只在特定机器人配置上有效就不算通用大脑,GPT 跑在手机、Mac、Linux 上行为一致而机器人大脑换身体可能无能为力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1234.58,
+            1240.903
+          ],
+          "quote": "And secondly, also, robotics weirdly is still very subject to cross embodiment, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3082.147,
+            3098.354
+          ],
+          "quote": "And while we see a large leap being made in cross-embodiment, I think that taking a new embodiment and completely zero-shotting it to a lot of tasks with very high reliability is still something that is, I don't think there is a very strong precedent for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4659.58,
+            4666.526
+          ],
+          "quote": "Because as your robot evolves, your teleop data starts becoming a little less useful, even if you have very good cross embodiment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": true,
+      "how_described": "本集说奔跑这类刚性平坦任务在仿真中好训练,而操作涉及接触、摩擦、形变时「当前仿真开始有些崩溃」,Sim2Real 是机器人学关键难点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            81.384,
+            88.43
+          ],
+          "quote": "She says that while the videos are obviously impressive, skills like running on a flat track are actually relatively easy to train in simulation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 66,
+          "t": [
+            420.187,
+            425.192
+          ],
+          "quote": "And especially it is the type of field where simulation can make a lot of difference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            425.272,
+            428.315
+          ],
+          "quote": "And a lot of these models are like trained in simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            478.846,
+            482.549
+          ],
+          "quote": "So from that alone, I was like, okay, clearly they must be doing a lot of training and simulation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 80,
+          "t": [
+            484.01,
+            494.819
+          ],
+          "quote": "Tell me more about why these kinds of tasks are amenable to training and simulation and what kinds of tasks are still difficult to train in simulation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 83,
+          "t": [
+            499.96,
+            507.249
+          ],
+          "quote": "And Sim2Real in robotics context means the gap between if I train something in simulation, can I replicate that in real?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            507.389,
+            512.516
+          ],
+          "quote": "And as we know, especially with agents and stuff, the things that we can learn in simulation are",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            516.82,
+            541.056
+          ],
+          "quote": "So in in locomotion if you look at it you can often model the ground or the wall as like a you can model it and there is contact with that and often these are like very flat surfaces and so that makes this task a very good task for in simulation and then you can do society of the entire robot but for manipulation though you really",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            553.761,
+            562.084
+          ],
+          "quote": "But even in simulation, a lot of pick and place can still be like very solid in simulation because there also the contact dynamics are often somewhat predictable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            569.875,
+            574.379
+          ],
+          "quote": "The less deformation those things are going to have, the easier it's going to be to do simulation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 95,
+          "t": [
+            576.441,
+            580.164
+          ],
+          "quote": "Contacts are basically, the physics is harder to model in simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            580.264,
+            583.587
+          ],
+          "quote": "So where the physics is easier to model, simulation gets it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            641.746,
+            651.933
+          ],
+          "quote": "I didn't work on these demos, so I'm only speculating, but there is very widely published body of work around how to do locomotion and simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            4353.799,
+            4362.541
+          ],
+          "quote": "They need some sort of forward-looking simulation, which is not exactly synonymous with world modeling, but certainly highly related to world modeling.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4437.442,
+            4441.406
+          ],
+          "quote": "And not just as policies, but also simulation and other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4535.88,
+            4538.621
+          ],
+          "quote": "And then beyond that, it's just going to be simulation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 810,
+          "t": [
+            4538.941,
+            4543.142
+          ],
+          "quote": "And he thinks basically like all the problems of simulation will just get solved.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "teleop",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥操作 (teleop)",
+      "file": "遥操作",
+      "primary": true,
+      "how_described": "本集把遥操作数据描述为不太可扩展但高度精确(它正是机器人的数据),且机器人硬件一进化它就贬值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 820,
+          "t": [
+            4592.204,
+            4597.847
+          ],
+          "quote": "Like the teleop data is definitely useful in grounding into the robot's controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 829,
+          "t": [
+            4651.754,
+            4656.658
+          ],
+          "quote": "Maybe like teleop, not very scalable, but highly precise because it's exactly the robot's data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4659.58,
+            4666.526
+          ],
+          "quote": "Because as your robot evolves, your teleop data starts becoming a little less useful, even if you have very good cross embodiment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            5125.113,
+            5133.175
+          ],
+          "quote": "Like when people are teleoperating, their physical body is somewhere, but their robot body is the one, just teleop itself is like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 915,
+          "t": [
+            5134.075,
+            5138.616
+          ],
+          "quote": "And then there is people who are building remote teleop that works across the Atlantic and stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-modeling",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界建模 (world modeling)",
+      "file": "世界建模",
+      "primary": true,
+      "how_described": "本集讨论机器人是否需要像人类那样预判未来的内部世界模型,还是可像 LLM 逐 token 循环推进;嘉宾立场是「陪审团还没退场」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            209.968,
+            224.637
+          ],
+          "quote": "Including whether we can continue to run LLM-derived robotics models in a loop, as today's systems mostly do, or we'll need some sort of predictive world modeling, as we humans use, to create systems that can anticipate and smoothly interact with the world.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 772,
+          "t": [
+            4353.799,
+            4362.541
+          ],
+          "quote": "They need some sort of forward-looking simulation, which is not exactly synonymous with world modeling, but certainly highly related to world modeling.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 789,
+          "t": [
+            4433.94,
+            4437.102
+          ],
+          "quote": "Definitely world modeling is a very interesting area for robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4480.961,
+            4490.104
+          ],
+          "quote": "So it sounds like you're open-minded and obviously Google DeepMind has world modeling efforts that are pretty well established as well.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "icl",
+      "type": "concept",
+      "role": "concept",
+      "name": "ICL",
+      "file": "ICL",
+      "primary": true,
+      "how_described": "本集说近期「看一次演示就学会」的单样本泛化本质是视频提示,属于 ICL 光谱的一部分,但照抄还是真泛化、任务难度如何仍是待解问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            1068.072,
+            1079.995
+          ],
+          "quote": "Being able to ICL or in-context show or reward how to do a task and then it doing it definitely reduces the time to deployment and the time to pick up the task, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1123.107,
+            1131.151
+          ],
+          "quote": "And so I would imagine, I think the ICL results currently are on the spectrum about of how do you prompt a foundation model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2829.966,
+            2839.334
+          ],
+          "quote": "I'm literally just doing pointing and then I'm pointing to an object and then it's can the VLA do it and then the ICL results are like can I prompt it with video and stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": false,
+      "how_described": "本集推测机器人奥运会的奔跑机器人用的是动作模仿训练再配 RL 微调的控制器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            652.433,
+            666.382
+          ],
+          "quote": "And I would imagine that it's like very good RL controllers that are probably trained from like motion imitation and then fine tuned with like good RL that suits the robot's body and for that specific task where it's targeted towards running really fast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集把安全分层时提到护栏类:完成人类要求的任务同时不越界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 684,
+          "t": [
+            3893.913,
+            3899.237
+          ],
+          "quote": "Like how do you make sure you do the task that the human is asking but without breaking guardrails?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

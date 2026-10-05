@@ -135,8 +135,8 @@ YC 的设计负责人甚至用它给被录取的创业者做了带名字动画�
 **顺着「产品方法」挖下去**
 
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Cursor、Figma · 同概念:智能体 (agent)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同公司:Claude Code · 同概念:MCP 服务器 (MCP server)、智能体 (agent)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code、Cursor · 同概念:智能体 (agent)</span>
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:Figma、GitHub · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

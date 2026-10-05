@@ -1,0 +1,1261 @@
+{
+  "episode_id": "2026-10-01-sed-the-state-of-browser-testing",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-10-01",
+  "tags": [
+    "自动化测试",
+    "浏览器标准",
+    "开源",
+    "无障碍",
+    "AI 与 vibe coding"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "josh-goldberg",
+      "type": "person",
+      "role": "host",
+      "name": "Josh Goldberg",
+      "file": "Josh Goldberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            70.337,
+            88.204
+          ],
+          "quote": "In this episode, David joins Josh Goldberg to discuss how open source projects, browser vendors, and standards bodies fit together, a practical philosophy of testing built around one solid test per critical path, and the risks that AI and vibe coding introduce to web development.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 11,
+          "t": [
+            89.044,
+            95.07
+          ],
+          "quote": "This episode is hosted by Josh Goldberg, front-end developer at Sentry and open-source maintainer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3126.672,
+            3128.695
+          ],
+          "quote": "So for Software Engineering Daily, I'm Josh Goldberg.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "david-burns",
+      "type": "person",
+      "role": "cohost",
+      "name": "David Burns",
+      "file": "David Burns",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            59.293,
+            69.677
+          ],
+          "quote": "David Burns is a longtime Selenium and WebDriver contributor, a veteran of Mozilla, and is currently the head of developer advocacy and open source at BrowserStack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 15,
+          "t": [
+            138.128,
+            140.089
+          ],
+          "quote": "WITH ME TODAY IS DAVID BURNS, HEAD OF DEVELOPER ADVOCACY AND OPENSOURCE AT BROWSER STACK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            141.149,
+            142.97
+          ],
+          "quote": "DAVID BURNS, DEVELOPER ADVOCACY AND OPENSOURCE AT BROWSER STACK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            144.95,
+            146.411
+          ],
+          "quote": "DAVID BURNS, Thanks for having me, Josh.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            147.431,
+            149.652
+          ],
+          "quote": "DAVID BURNS, Yeah, we're excited to talk with you.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "browserstack",
+      "type": "company",
+      "role": "company",
+      "name": "BrowserStack",
+      "file": "BrowserStack",
+      "primary": true,
+      "how_described": "本集说 BrowserStack 是一个 SaaS 测试平台，起家于「云端上的 Selenium」，帮助公司解决测试扩展难题，David 在此负责开发者布道与开源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            59.293,
+            69.677
+          ],
+          "quote": "David Burns is a longtime Selenium and WebDriver contributor, a veteran of Mozilla, and is currently the head of developer advocacy and open source at BrowserStack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            258.258,
+            260.858
+          ],
+          "quote": "And then for the last six years, I've been working at BrowserStack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1245.435,
+            1248.657
+          ],
+          "quote": "So let's go back up towards the surface because you now work at BrowserStack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1248.797,
+            1255.142
+          ],
+          "quote": "What is the relationship between, and also what is BrowserStack and then its relationship to things like Selenium or WebDriver?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1255.983,
+            1260.586
+          ],
+          "quote": "So BrowserStack is a testing platform, software as a service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1291.118,
+            1299.906
+          ],
+          "quote": "And when I was hired, one of the things that I was hired for was giving back to a lot of the communities that had made BrowserStack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1541.822,
+            1545.143
+          ],
+          "quote": "Why would I care about BrowserStack or any of the other things we're talking about?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1615.212,
+            1620.277
+          ],
+          "quote": "So even if I didn't work at BrowserStack, I would always recommend people use a BrowserStack-like company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1637.434,
+            1641.759
+          ],
+          "quote": "And then you've got all this other infrastructure where a lot of these companies like BrowserStack",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2168.355,
+            2182.509
+          ],
+          "quote": "There are other competing tools out there, like BrowserStack has a tool called Spectre, which does the same thing, but kind of does it in a slightly different way, because with a lot of tools, they read through the DOM and then try infer certain things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2439.404,
+            2440.624
+          ],
+          "quote": "What's BrowserStack up to?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3071.038,
+            3076.521
+          ],
+          "quote": "David, if folks wanted to learn more about you and BrowserStack and all the spec work you're doing, where do you direct them on the internet?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3080.404,
+            3089.61
+          ],
+          "quote": "So BrowserStack.com slash community, a lot of things in there that I do from a Discord to my podcast to other things like that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "selenium",
+      "type": "concept",
+      "role": "concept",
+      "name": "Selenium",
+      "file": "Selenium",
+      "primary": true,
+      "how_described": "本集说 Selenium 是 David 从 2006 年起贡献的开源浏览器自动化项目，是构建在 WebDriver 标准之上的工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            59.293,
+            69.677
+          ],
+          "quote": "David Burns is a longtime Selenium and WebDriver contributor, a veteran of Mozilla, and is currently the head of developer advocacy and open source at BrowserStack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 22,
+          "t": [
+            149.752,
+            154.694
+          ],
+          "quote": "You've got a lot of cool stuff to talk about, developer advocacy and Selenium and W3C and open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            218.06,
+            221.664
+          ],
+          "quote": "Then there was this weird thing called Selenium that was just starting out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            671.253,
+            688.912
+          ],
+          "quote": "And then, yeah, I spent the next six years solving various different problems from build to CI to CI visualization, scaling problems, things like that, and still also having a bit of time to work on projects like Selenium and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            711.885,
+            717.748
+          ],
+          "quote": "Yeah, like how do you get products like Firefox and open source projects like Selenium all fitting together and working together?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            718.662,
+            729.971
+          ],
+          "quote": "So when I joined Mozilla and I'd been working on Selenium, I think for about four years, by the time it became like we started talking about standards and there was an interesting discussion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            750.085,
+            752.686
+          ],
+          "quote": "And he had built Selenium into Opera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            903.183,
+            913.687
+          ],
+          "quote": "So for Selenium, like the easy things were, I want to type, I want, or WebDriver, I want to type, I want to click, I want to move the mouse, I want to drag, drop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1175.361,
+            1181.405
+          ],
+          "quote": "And then you have tooling built on top of that, like Selenium, that uses that for stuff like, say, automation or accessibility testing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1182.39,
+            1187.772
+          ],
+          "quote": "Yeah, Selenium, WebDriver.io, all of these things, Lightwatch.js.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1248.797,
+            1255.142
+          ],
+          "quote": "What is the relationship between, and also what is BrowserStack and then its relationship to things like Selenium or WebDriver?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1269.512,
+            1277.774
+          ],
+          "quote": "It started out as being Selenium in the cloud because scaling is one of the hardest problems that people tend to have to deal with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1300.506,
+            1305.41
+          ],
+          "quote": "So it was like, David, go work on Selenium still, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1313.357,
+            1316.16
+          ],
+          "quote": "We definitely don't want to own any of the Selenium stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2393.983,
+            2396.126
+          ],
+          "quote": "To Selenium, like Playwright or Cypress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3121.664,
+            3125.37
+          ],
+          "quote": "We talked about your history, Selenium, WebDriver, testing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "webdriver",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebDriver",
+      "file": "WebDriver",
+      "primary": true,
+      "how_described": "本集说 WebDriver 是描述如何向浏览器发送和接收命令（点击、判断元素可见等）的 W3C 标准，难点在于标准化「有意义的等待」而不试图解决停机问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            59.293,
+            69.677
+          ],
+          "quote": "David Burns is a longtime Selenium and WebDriver contributor, a veteran of Mozilla, and is currently the head of developer advocacy and open source at BrowserStack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            810.454,
+            814.678
+          ],
+          "quote": "And I was working very closely with Simon Stewart, who created WebDriver.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            903.183,
+            913.687
+          ],
+          "quote": "So for Selenium, like the easy things were, I want to type, I want, or WebDriver, I want to type, I want to click, I want to move the mouse, I want to drag, drop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            950.9,
+            958.207
+          ],
+          "quote": "Because when WebDriver started, Simon was like, when someone clicks on something, it needs to be visible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            988.915,
+            1001.42
+          ],
+          "quote": "And then create a way that people could extend out WebDriver through other standards, through other specifications, so that whenever they were building something, they'd go, oh, we know how to test this now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1021.067,
+            1025.109
+          ],
+          "quote": "And so it's like, oh, we've built up these WebDriver APIs within the specification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1033.974,
+            1038.076
+          ],
+          "quote": "That was the WebDriver classic specification, as we like to call it now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1038.816,
+            1044.099
+          ],
+          "quote": "And a lot of the work nowadays is on WebDriver BiDi, and BiDi stands for bi-directional.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1167.416,
+            1172.939
+          ],
+          "quote": "So just to confirm, WebDriver is the standard that describes how you might send and receive commands from browsers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1182.39,
+            1187.772
+          ],
+          "quote": "Yeah, Selenium, WebDriver.io, all of these things, Lightwatch.js.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1208.24,
+            1217.464
+          ],
+          "quote": "But when WebDriver was working with Internet Explorer, you had to do a lot of com interop, which was very hard, especially in different languages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1248.797,
+            1255.142
+          ],
+          "quote": "What is the relationship between, and also what is BrowserStack and then its relationship to things like Selenium or WebDriver?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1319.905,
+            1324.39
+          ],
+          "quote": "So I have a very good relationship with the Appium folks, WebDriver.io, do all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2001.64,
+            2015.77
+          ],
+          "quote": "So there's a specification that's kind of trying to be built at the moment, which is called the Accessibility Test Driver, so kind of take on WebDriver, and it allows you to automate screen readers to navigate through a website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3121.664,
+            3125.37
+          ],
+          "quote": "We talked about your history, Selenium, WebDriver, testing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "webdriver-bidi",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebDriver BiDi",
+      "file": "WebDriver BiDi",
+      "primary": true,
+      "how_described": "本集说 WebDriver BiDi（bi-directional，双向）是当前规范工作的重心，让脚本与浏览器之间从单向请求变成双向事件流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1038.816,
+            1044.099
+          ],
+          "quote": "And a lot of the work nowadays is on WebDriver BiDi, and BiDi stands for bi-directional.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "w3c",
+      "type": "concept",
+      "role": "concept",
+      "name": "W3C",
+      "file": "W3C",
+      "primary": true,
+      "how_described": "本集说 W3C 是 WebDriver 规范所在的标准机构，并借其经验论证「慢的规范才正确」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            50.027,
+            58.112
+          ],
+          "quote": "That standardization emerged from the interplay between open source projects, browser vendors, and standards bodies like the W3C.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 22,
+          "t": [
+            149.752,
+            154.694
+          ],
+          "quote": "You've got a lot of cool stuff to talk about, developer advocacy and Selenium and W3C and open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            696.317,
+            700.399
+          ],
+          "quote": "You have the standards body like W3C, you have subcommittees, you have Mozilla.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2440.665,
+            2442.465
+          ],
+          "quote": "What's W3C going on?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集以 2020 年 node 包维护者下毒删码事件论证：企业回馈开源的最大理由是风险——维护者断供会毒害整个供应链，且 AI 时代供应链攻击会更普遍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            50.027,
+            58.112
+          ],
+          "quote": "That standardization emerged from the interplay between open source projects, browser vendors, and standards bodies like the W3C.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 9,
+          "t": [
+            59.293,
+            69.677
+          ],
+          "quote": "David Burns is a longtime Selenium and WebDriver contributor, a veteran of Mozilla, and is currently the head of developer advocacy and open source at BrowserStack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 10,
+          "t": [
+            70.337,
+            88.204
+          ],
+          "quote": "In this episode, David joins Josh Goldberg to discuss how open source projects, browser vendors, and standards bodies fit together, a practical philosophy of testing built around one solid test per critical path, and the risks that AI and vibe coding introduce to web development.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 11,
+          "t": [
+            89.044,
+            95.07
+          ],
+          "quote": "This episode is hosted by Josh Goldberg, front-end developer at Sentry and open-source maintainer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 22,
+          "t": [
+            149.752,
+            154.694
+          ],
+          "quote": "You've got a lot of cool stuff to talk about, developer advocacy and Selenium and W3C and open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            227.591,
+            233.077
+          ],
+          "quote": "And so I started doing a lot of open source to support them because I was like, well, what else am I going to do in the evenings?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            235.7,
+            250.314
+          ],
+          "quote": "And started doing all of that, then got hired at Mozilla, spent a decade at Mozilla doing more open source, got into standards bodies, doing things like that, because as a whole, I kind of think the internet is this most amazing thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            261.299,
+            276.782
+          ],
+          "quote": "I started up their open source program office, working with open source projects, supporting all of those, doing developer advocacy, supporting conferences, just trying to get the word out on what's the best way to develop software and test it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            459.689,
+            468.679
+          ],
+          "quote": "When I was at university, I got really into open source learning about what they were doing and the idea of that software should be free and if you want...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            478.368,
+            480.57
+          ],
+          "quote": "Like that was always my belief in open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            711.885,
+            717.748
+          ],
+          "quote": "Yeah, like how do you get products like Firefox and open source projects like Selenium all fitting together and working together?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1354.143,
+            1359.589
+          ],
+          "quote": "You reference the difficulties of joining the utopia that is open source with the real world that is capitalism.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1359.93,
+            1365.976
+          ],
+          "quote": "So let's say that I'm a big company executive and I work on tooling and such that interacts with open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1385.973,
+            1393.518
+          ],
+          "quote": "And we've seen through various open source engineers who've got to the end of their tether and just gone, you know what?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "无障碍测试 (accessibility)",
+      "file": "无障碍测试",
+      "primary": true,
+      "how_described": "本集主张对无障碍讲「胡萝卜」而非「大棒」：很多无障碍功能本来就是生产力功能，且正在构建 Accessibility Test Driver 规范以统一各平台屏幕阅读器的自动化方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1175.361,
+            1181.405
+          ],
+          "quote": "And then you have tooling built on top of that, like Selenium, that uses that for stuff like, say, automation or accessibility testing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1589.358,
+            1593.219
+          ],
+          "quote": "Biggest one that's been on people's minds for years is accessibility, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1853.786,
+            1863.174
+          ],
+          "quote": "Because then you've got that really good one test for doing your thing, that really good one test for accessibility, one test for visual testing, one test for everything else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1912.512,
+            1915.073
+          ],
+          "quote": "There's accessibility and then perhaps visual progression.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1915.613,
+            1922.195
+          ],
+          "quote": "How would you advocate for accessibility testing for a business that has customers and perhaps contracts with other businesses or governments?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1923.096,
+            1929.078
+          ],
+          "quote": "I think a lot of people forget that a lot of accessibility products started out",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1930.023,
+            1931.265
+          ],
+          "quote": "as accessibility tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1942.138,
+            1947.544
+          ],
+          "quote": "And if you focus on getting that correct, that's an accessibility test because not everyone can use a mouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1948.347,
+            1967.515
+          ],
+          "quote": "Another great example that I'm sure a lot of people use is if you're driving and you get a text message and your phone reads out that message and you can reply to it, a lot of that was built around accessibility tooling because it was around people who couldn't necessarily use the phone, but they wanted to speak into it and do things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1986.569,
+            1994.555
+          ],
+          "quote": "And just by making that productivity better, you're solving accessibility at the same time, because you're making it a lot easier and you're thinking about those things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2001.64,
+            2015.77
+          ],
+          "quote": "So there's a specification that's kind of trying to be built at the moment, which is called the Accessibility Test Driver, so kind of take on WebDriver, and it allows you to automate screen readers to navigate through a website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2021.312,
+            2029.254
+          ],
+          "quote": "And so focusing on those things, accessibility becomes a natural thing where it's like the flow is better, things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2040.137,
+            2047.08
+          ],
+          "quote": "To use an analogy, what you're describing is a lot of carrot rather than stick, where these are good reasons why one would want accessibility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2064.928,
+            2080.333
+          ],
+          "quote": "But if you can get them to focus on the carrots a lot of the time and go, well, we've added this feature and this is how much benefit it has over our competitors without necessarily mentioning accessibility, but it's got all these accessibility tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2082.874,
+            2088.541
+          ],
+          "quote": "The other side of it is accessibility accounts for, I don't know, how many different percent in different countries, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2145.212,
+            2148.473
+          ],
+          "quote": "You mentioned there's this new accessibility test driver specification.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2148.933,
+            2152.474
+          ],
+          "quote": "I've used a lot of Axe Core as a library for accessibility testing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2158.586,
+            2167.555
+          ],
+          "quote": "Okay, so AxeCore is just like a tool that works through a DOM and goes, these are the accessibility problems that are there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2183.135,
+            2190.922
+          ],
+          "quote": "AT driver accessibility test driver is very different in that it's trying to drive a screen reader to then drive the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2208.818,
+            2218.163
+          ],
+          "quote": "With screen readers, accessibility people will feel this frustration is that like every operating system, screen reader acts very differently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2251.902,
+            2257.045
+          ],
+          "quote": "But with accessibility, I think they're like, well, we should make things better because then",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "screen-reader",
+      "type": "concept",
+      "role": "concept",
+      "name": "屏幕阅读器 (screen reader)",
+      "file": "屏幕阅读器",
+      "primary": false,
+      "how_described": "本集说各操作系统屏幕阅读器表现千差万别，AT Driver 试图通过驱动屏幕阅读器来统一测试路径、提升浏览器间互操作性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2183.135,
+            2190.922
+          ],
+          "quote": "AT driver accessibility test driver is very different in that it's trying to drive a screen reader to then drive the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2195.406,
+            2203.653
+          ],
+          "quote": "And so that if you press tab through the screen reader, it would give you some like where you are and describe it to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2208.818,
+            2218.163
+          ],
+          "quote": "With screen readers, accessibility people will feel this frustration is that like every operating system, screen reader acts very differently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2218.683,
+            2223.406
+          ],
+          "quote": "So a screen reader on Linux is very different to what would happen on Mac to Windows.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集警告 vibe coding（只写提示词凭感觉拿代码）会让没写过软件的人缺乏安全直觉，「凭感觉把生产数据库搞垮」，建议初级工程师少用 AI、原型上线前必须重写或过安全检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            70.337,
+            88.204
+          ],
+          "quote": "In this episode, David joins Josh Goldberg to discuss how open source projects, browser vendors, and standards bodies fit together, a practical philosophy of testing built around one solid test per critical path, and the risks that AI and vibe coding introduce to web development.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2458.947,
+            2462.53
+          ],
+          "quote": "I did a talk earlier in the year around vibe coding and vibe testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2462.971,
+            2468.015
+          ],
+          "quote": "And vibe coding is like term where you just write a prompt and hopefully you get the right thing, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说 David 正在推进把可观测性追踪接进测试：用追踪键贯穿端到端测试，失败时能精确复现入口数据，且无需改任何规范。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1697.851,
+            1714.456
+          ],
+          "quote": "And ideally you should only have one test for one critical path, because if you have thoughts about how you're architecting your system, you'll have other layers of protections built in from observability to telemetry to kind of everything in between, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2739.622,
+            2747.046
+          ],
+          "quote": "So kind of as a little pet project, I'm trying to get more people looking at observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2751.008,
+            2761.374
+          ],
+          "quote": "So observability allows people to create traces through applications and people have been doing them for about eight years, nine years with the open telemetry stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2799.986,
+            2807.131
+          ],
+          "quote": "So you're looking at connecting kind of a standard, say, end-to-end browser tests with much more rich tooling with observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2812.148,
+            2814.689
+          ],
+          "quote": "Because observability allows you to create traces, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3025.662,
+            3031.525
+          ],
+          "quote": "I have to ask, is there any analogy you can draw from that to testing or observability in production?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3038.597,
+            3041.919
+          ],
+          "quote": "And it's more, maybe not observability, but it's around security.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenTelemetry",
+      "file": "OpenTelemetry",
+      "primary": true,
+      "how_described": "本集说 OpenTelemetry 是存在八九年、跨应用创建调用追踪的标准，但几乎没人把它放进测试里，能力都是现成的，只是没人讲清楚怎么上手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 577,
+          "t": [
+            2894.717,
+            2898.439
+          ],
+          "quote": "So how long until you start contributing to the OpenTelemetry specifications?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集以 Replit 出事故后加护栏、用户转用 Claude 又不给护栏导致数据库被删为例，说明 AI 工具必须配护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 502,
+          "t": [
+            2496.997,
+            2500.739
+          ],
+          "quote": "And then someone put in something, didn't give it guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2505.082,
+            2517.545
+          ],
+          "quote": "And so I think the AI space is helpful, but I think at the same time, we still need people who understand what AI is generating to be able to give it the guardrails, fix it, solve those problems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "appium",
+      "type": "concept",
+      "role": "concept",
+      "name": "Appium",
+      "file": "Appium",
+      "primary": false,
+      "how_described": "本集提到 BrowserStack 与 Appium 社区保持良好关系，且移动端各平台无统一自动化标准的问题与 Appium 所面对的相同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1318.844,
+            1319.685
+          ],
+          "quote": "Same with Appium.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1319.905,
+            1324.39
+          ],
+          "quote": "So I have a very good relationship with the Appium folks, WebDriver.io, do all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2229.909,
+            2237.113
+          ],
+          "quote": "And it's the same problem that people have when doing automation on mobiles with Appium, especially other tools too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "axecore",
+      "type": "concept",
+      "role": "concept",
+      "name": "AxeCore",
+      "file": "AxeCore",
+      "primary": false,
+      "how_described": "本集说 AxeCore 是一个遍历 DOM、推断无障碍问题的测试工具，与驱动屏幕阅读器的 AT Driver 路线不同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            2158.586,
+            2167.555
+          ],
+          "quote": "Okay, so AxeCore is just like a tool that works through a DOM and goes, these are the accessibility problems that are there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "halting-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "停机问题 (halting problem)",
+      "file": "停机问题",
+      "primary": false,
+      "how_described": "本集说自动化等待的标准化归结为「不试图解决停机问题」——图灵提出的著名不可解问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            924.671,
+            933.495
+          ],
+          "quote": "And the problem there comes down to somewhat standardizing a meaningful weight without trying to solve the halting problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            933.995,
+            940.157
+          ],
+          "quote": "So the halting problem, famous Turing problem, and it's like it's impossible to solve, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "end-to-end testing",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

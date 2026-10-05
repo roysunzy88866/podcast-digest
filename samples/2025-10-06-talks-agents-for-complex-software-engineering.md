@@ -139,8 +139,8 @@ Mayank 补了个真实案例：客户用 Resolve 排查事故后，进一步让�
 **换个口味**
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、可观测性 (observability)、护栏 (guardrails)</span>
+- [[2026-10-01-sed-the-state-of-browser-testing|浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学]]<span class="pd-rz">同公司:OpenTelemetry · 同概念:vibe coding、可观测性 (observability)、护栏 (guardrails)</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

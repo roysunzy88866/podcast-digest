@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":12,"视频生成":1,"缩放定律":11,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":12,"界面世界模型":1}</script>
+<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":12,"视频生成":1,"缩放定律":12,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":12,"界面世界模型":1}</script>
 
 <script>
 (function(){

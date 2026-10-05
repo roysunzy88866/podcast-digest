@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"后训练":1,"强化学习":1,"评估":3,"RAG":22,"数据准备":1,"测试时计算":4,"系统思维":4,"采样策略":1,"监督微调":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"后训练":1,"强化学习":1,"评估":4,"RAG":22,"数据准备":1,"测试时计算":5,"系统思维":4,"采样策略":1,"监督微调":2}</script>
 
 <script>
 (function(){

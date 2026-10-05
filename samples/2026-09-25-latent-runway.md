@@ -207,9 +207,9 @@ GWM Robotics 从基础视频模型出发,只微调非常少量小时数的机器
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:蒸馏 (distillation)、缩放定律 (scaling laws)、智能体 (agent)</span>
 - [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|不做 LLM，做世界模型：Alex 的 12 亿美元豪赌]]<span class="pd-rz">同概念:世界模型 (world model)、机器人 (robotics)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:蒸馏 (distillation)、智能体 (agent)</span>
-- [[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|Mercor CPO:开源模型蚕食不了数据生意]]<span class="pd-rz">同概念:机器人 (robotics)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

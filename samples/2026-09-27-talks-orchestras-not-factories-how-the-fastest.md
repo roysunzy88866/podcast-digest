@@ -134,7 +134,7 @@ jsonLd: |
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code · 同概念:上下文 (context)、沙箱 (sandbox)</span>
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同公司:Claude Code · 同概念:沙箱 (sandbox)、编码智能体 (coding agent)</span>
-- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:工作流 (workflow)、沙箱 (sandbox)</span>
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同公司:Claude Code · 同概念:上下文 (context)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

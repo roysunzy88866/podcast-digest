@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Surge AI":1,"Anthropic":169,"ChatGPT":92,"LLM Arena":1,"Waymo":17,"GPT-3":3,"Claude":85,"基准测试":16,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Surge AI":1,"Anthropic":171,"ChatGPT":92,"LLM Arena":1,"Waymo":17,"GPT-3":3,"Claude":85,"基准测试":16,"后训练":1}</script>
 
 <script>
 (function(){

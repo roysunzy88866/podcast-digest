@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Amjad Masad]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]] [[Walter Goodwin]]
+[[Tibo Sottiaux]] [[Sarah Simionescu]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenRouter":13,"Stripe":44,"智能体":397,"微调":29,"Anjney Midha":1,"Amjad Masad":4,"Anthropic":169,"Replit":19,"Discord":6,"神经多样性":1}</script>
+<script type="application/json" class="pd-epn">{"OpenRouter":13,"Stripe":44,"智能体":400,"微调":29,"Anjney Midha":1,"Amjad Masad":4,"Anthropic":171,"Replit":19,"Discord":6,"神经多样性":1}</script>
 
 <script>
 (function(){

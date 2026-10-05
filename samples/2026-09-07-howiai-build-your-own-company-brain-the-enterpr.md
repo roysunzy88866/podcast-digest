@@ -155,9 +155,9 @@ Kai 的第二个亮点是把「技能」做成了一个平台，而不只是一�
 
 **换个口味**
 
+- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同概念:人在回路 (human-in-the-loop)、技能 (skill)、智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、数据仓库 (data warehouse)</span>
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
-- [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
 
 </div>
 </div>

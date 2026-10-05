@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[Charles]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":85,"Herder":1,"循环":10,"智能体":397,"技能":25,"闸门":2,"原型":7,"hooks":3,"构建者":4}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":85,"Herder":1,"循环":10,"智能体":400,"技能":26,"闸门":2,"原型":8,"hooks":3,"构建者":4}</script>
 
 <script>
 (function(){

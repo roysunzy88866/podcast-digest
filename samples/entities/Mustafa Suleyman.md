@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":11,"Inflection AI":1,"Microsoft":28,"Pi":2,"Copilot":11,"OpenAI":155,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":12,"Inflection AI":1,"Microsoft":28,"Pi":2,"Copilot":11,"OpenAI":157,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

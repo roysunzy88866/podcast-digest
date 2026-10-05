@@ -1,0 +1,172 @@
+{
+  "title_zh": "跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人",
+  "tldr": "Google DeepMind 资深研究科学家、Gemini Robotics 研究负责人 Kirthana Gopalakrishnan 解析机器人三件套模型架构、为何机器人仍处 GPT-2 时代，以及数据、安全与未来路线之争。",
+  "digest_md": "机器人能跑得比最快的人类还快，这在互联网上刷了屏——但在 Google DeepMind 资深研究科学家、Gemini Robotics 研究负责人 Kirthana Gopalakrishnan 看来，这恰恰不是机器人实用性上的关键。这是她第四次做客 The Cognitive Revolution,聊的是今天 AI 领域最大的悬念之一:通用机器人到底还要多久才能广泛有用？\n\n## 机器人奥运会： impressive,但不是重点\n\n今年夏天中国举办了机器人奥运会，人形机器人赛跑的视频到处流传。Kirthana 说她爸爸都来问「你看到那些人形机器人在奔跑了吗」,印度的朋友也在讨论「中国造出了跑得比最快人类还快的机器人」。从研究角度看她并不太惊讶，但承认它「以一种非常强烈的方式抓住了公众的想象力」，而且和 20 年前 DARPA 挑战赛里那些走两步、开个门就摔倒的机器人拼在一起对比，进步确实惊人。\n\n但她随即泼了盆冷水：奔跑这类运动(locomotion)能力恰恰是最容易在仿真里训练的——地面和墙面是刚性平坦表面，物理好建模，训练成本可控。真正难的是操作(manipulation):「你关心的是接触，对吧？而接触何时发生、物体如何表现，这正是当前仿真开始有些崩溃的地方。」叠布料难，因为有摩擦、有形变；抓取放置(pick and place)则相对扎实，因为接触动力学可预测。一句话：**物体越刚性、形变越小，仿真越好做**(Sim2Real,即仿真中训练的能力能否迁移到现实，是机器人学的关键难点)。\n\n至于跑得快到底有没有用？她的回答很干脆：「我是一个非常多产的人，我的很多朋友也都在非常有成效地工作着，但我们跑得都没有 Usain Bolt 快。」速度不是机器人实用性的限制因素，她和团队更关注让机器人在物理世界帮人做有用的事。\n\n## 泛化 vs 精通：先抬水位，再爬高峰\n\n机器人领域有个核心权衡：你可以做只擅长一两件事的狭窄 AI,但「做第 n 件事的成本和做第一件或第二件事的成本完全一样」。而构建一个非常通用的基线，再快速调优到精通，要划算得多——「泛化和精通是两个某种程度上正交的轴，而做泛化就像是把所有船的水位都抬起来。」她在 LLM 上已经看到过同样的剧本：最初人人做专用小模型，后来通用模型反超，再从通用基线爬到专精。她认为同样的论点大概率适用于机器人。\n\n## 机器人还在 GPT-2 时代\n\n那机器人现在走到 LLM 的哪个阶段了？她的判断：「我认为还是 GPT-2」。理由有二：一是少样本学习要能在很多不同任务上真正学得好才够 GPT-3 水平；二是机器人有个语言模型从未有过的麻烦——**跨载体(cross embodiment)问题**：「如果它只在你的机器人、你的特定配置上有效，那它真的是一个通用大脑吗？」GPT 跑在手机、Mac、Linux 上行为都一致，但机器人大脑换个身体可能就完全无能为力。「要做出能把这些因素折算排除掉的、非常通用的大脑，还有很多工作要做。」\n\n最近很多公司展示「看一次演示就能学会」的单样本泛化。她认为这类结果本质上是「视频提示」——就像以前用文本提示、后来用图像提示，现在用视频提示基础模型，属于 ICL(上下文学习，不训练、只靠示例引导)光谱的一部分。但有两个待解问题：模型是照抄还是真泛化(换个场景还能不能做)？以及你提示的任务难度如何——「很多抓取放置模型有大量数据，但你能给机器人演示怎么系垃圾袋，然后它看完就能系好吗？现在还相当早期。」\n\n## Gemini Robotics 2:三模型架构\n\n今年夏天 Google 发布了三个模型。**Gemini Robotics ER 2** 是具身推理模型，她称之为「机器人控制的 system 2 大脑」，基于 Gemini flash 系列调优，能做图像视频理解、语义推理，并且通过 API 开放——开发者可以像给数字智能体定义工具一样给它定义工具。**Gemini Robotics 2** 是 VLA(视觉-语言-动作模型，把语言和图像映射到机器人关节动作)，「现在已能控制从指尖到脚部的整个机器人」。**Gemini Robotics On-Device 2** 是能装进机器人自带电脑的更小版本，不依赖云端，能力可比但规模更小。\n\n为什么 ER 先上 API?因为「ER 在能力方面肯定更接近 Gemini 本身，所以它更成熟；而 Actions 离前沿更近」，怎么让动作模型更有用、更广泛地服务还有很多研究要做。开放后的使用规模让团队惊讶——「一旦放到更广泛的平台上，事情会爆发到什么程度」，而且学术界的用法(基准测试、智能体如何影响机器人)和机器人公司的用法都很出乎意料。\n\n关于 ER 与 VLA 之间的接口，这个方向叫可控性(steerability):VLA 目前可以通过语言和指向来操控，但不是给「放到这个像素位置」这样的 API。「如果 ER 和 VLA 之间的模态只是文本，很多东西可能会丢失，所以我们希望那个接口随时间尽可能丰富。」\n\n延迟问题怎么解？她认为「不会是我们先做出慢的模型，然后再把它们变快」，而是同时做快模型和慢模型，再把它们蒸馏成一个——但某些能力可能只会在大模型里涌现，届时再想办法下沉。而速度需求本身也分场景：「我说『机器人去把衣服叠了』，我并不在乎它叠多快，我在乎它叠得多好。」[27:38 / 30:00]\n\nER 2 的 128K 上下文窗口，按密集编码大约相当于三分钟的记忆。她的「机器人上下文工程」建议：不必全部用图像这种高密度模态保存，「很多时候关于我如何做事的叙述，即使是文本形式的总结，也相当有用」——就像人做饭，不需要逐帧记住每个动作，文本摘要就能维持连贯。\n\n多任务串行还有个残酷的数学问题：「如果你有 10 个任务按顺序执行，ER 模型有某个 x 成功率，VLA 模型有 y 成功率，那么你基本上就是在复合误差。」很多失败其实出在编排上——什么时候算做完、怎么切到下一个任务。\n\n## 硬件：手，一年跨过一个世代\n\n上次做客时她说最需要硬件厂商给「好的手」。一年过去了，她自己的内在模型都在更新：「Gemini Robotics 1 展示了用夹爪实现的大量灵巧性，只过了一年零一个季度，Gemini Robotics 2 能做多手指灵巧操作，可以系垃圾袋、对多指手做非常精细的控制。」夹爪曾是灵巧性前沿，现在手部机器人能做夹爪能做的一切、还能做更多。市面上的手已经「相当不错」，但在可靠性、可重复性和成本上还有工作要做。\n\n力量方面存在很大区间：她说 wuji 手大概相当于一个 10 岁孩子的力量，而 sharper 手据说能举起 20 公斤、也见过它开罐子——虽然「可能不是一个很紧的」。主持人调侃：人类最后一份工作也许是帮机器人拧开它们手腕力量不够的罐子。\n\n至于软体机器人，她态度务实：「对 AI 驱动的机器人来说，重要的是什么是可重复的、什么是耐用的。」她真正感兴趣的是 UMI 这类带传感器的数据采集方案和触觉模态。\n\n## 数据之争：别押注单一来源\n\nNVIDIA 的 Jim Phan 博士主张未来训练数据会走向以自我中心的视频为主、遥操作和可穿戴设备数据萎缩、最终靠仿真解决一切。Kirthana 拒绝站队：「一切都必须以结果为支撑，而且我认为做预测没有太大意义——通常是有一个预测，做实验验证，才知道对不对。」她的分析框架是把每种数据源放在「规模 × 精度」的坐标上：遥操作数据不太可扩展但高度精确(它就是机器人的数据)，可机器人硬件一进化它就贬值；UMI 数据带传感器、比人类数据精确但受传感器拖累不够可扩展；人类/自我中心数据最可扩展但嘈杂，且每个人身材不同、执行方式差异很大。「我在这件事上采取非常教条的立场是不明智的，因为随着新证据和更好硬件的出现，这一切都会改变。而且你很可能需要所有类型的数据。」\n\n## 安全是一种能力\n\n被问到对齐与安全会不会成为机器人部署的瓶颈，她的立场是「我把安全看作一种能力」——「人们不会使用不安全的机器人和不安全的智能体」。她区分了几层安全：与 AI 无关的操作安全(摔倒的人形机器人本身就危险)；护栏类(完成任务同时不越界)；以及机器人特有的传感器故障应对。她举了个好笑的演示：有人把篮子扣在干活的人形机器人头上，它可以蒙着眼继续干，但正确反应是意识到「有东西挡住了我的视线，请你拿开」。「安全是一个全系统的事情，从机械设计、系统安全一直贯穿到 ER 和高层大脑。」\n\n人形外观还带来一层微妙问题：她有「两个大脑」——研究者大脑知道这些是机器，但因为它们太像人，「那条边界会变得模糊」，新人接触机器人时需要更清楚地意识到这些是机器。而且人形被评判的标准更苛刻：「人们不指望夹爪机器人聪明，但一个人形机器人在那里乱摸一通、制造很多失败，就会被严厉得多地评判。」\n\n## 没有定论，正是最有趣之处\n\n对于机器人模型是否需要世界建模(一种对未来状态的内部预测，让系统能预判并与世界流畅交互)还是可以像 LLM 那样逐 token 循环推进，她的回答是「陪审团还没退场」：「作为机器人学家，你不会在情感上依附于某一种方法——你依附的是问题本身。无论用什么方式解决问题，你都会选那个方式。」而这恰恰是她眼里这行最迷人的地方：「这个领域还很早期，配方还没有稳定下来。不同的人可以有非常不同的思想流派，我们会看到谁是对的——而且可能他们全都是对的。」\n\n## 本集带走\n\n- **别被赛跑视频带偏**：奔跑这类刚性、平坦场景的任务最容易仿真训练，也离机器人实用性最远；真正的硬骨头是涉及接触、摩擦、形变的操作任务。\n- **通用优先于专精**：狭窄 AI 做第 n 件事的成本和第一件一样高；先建通用基线再调优到精通，是 LLM 验证过、机器人大概率复用的路线。\n- **机器人还只是 GPT-2**:跨载体(同一个大脑换不同身体都好用)没解决之前，谈不上通用大脑；这也是她判断「单样本学会系垃圾袋」这类演示为时尚早的原因。\n- **快慢模型会并存再蒸馏**：家用叠衣服不在乎速度、产线在乎，不同规模模型服务不同应用；部分能力可能只在大模型涌现，再想办法下沉到端侧。\n- **数据没有银弹**：遥操作(精准但不可扩展且随硬件过时)、UMI(带传感器、较精准)、人类自我中心视频(最可扩展但嘈杂)各有优劣，最终大概率是混合，并随硬件演进重新洗牌。\n- **安全是能力不是约束**：从机械急停、护栏遵守到传感器故障应对，安全贯穿全系统；不安全的机器人根本没人用。\n\n> 【背景】Gemini Robotics 2 的 VLA 是 Google DeepMind 与 Apptronik、Agile Robots、Boston Dynamics 等合作伙伴共同构建的(转写稿中合作方名字系语音识别，Apptronik 写作 Aftronic);「sharper 手」很可能指 Shadow Hand。VLA 指视觉-语言-动作模型。",
+  "quotes": [
+    {
+      "en": "And working on generalization is like lifting the boat, lifting the wave for all the boats.",
+      "zh": "而做泛化就像是抬船，把所有船的水位都抬起来。",
+      "timestamp": "15:23",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "If it just works on your robot with your specific setup, is it really a generic brain?",
+      "zh": "如果它只在你的机器人、你的特定配置上有效，那它真的是一个通用大脑吗？",
+      "timestamp": "20:41",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "I think we are going to simultaneously make the fast and the slow models and then distill them to one.",
+      "zh": "我认为我们会同时做出快的和慢的模型，然后把它们蒸馏成一个。",
+      "timestamp": "30:00",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "And while we see a large leap being made in cross-embodiment, I think that taking a new embodiment and completely zero-shotting it to a lot of tasks with very high reliability is still something that is, I don't think there is a very strong precedent for that.",
+      "zh": "虽然我们看到跨具身方面取得了巨大的飞跃，但我认为把一个新具身完全零样本地应用到很多任务上并达到很高的可靠性，这件事我认为还没有很强的先例。",
+      "timestamp": "51:22",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "if you have 10 tasks in sequence and now you have the ER model which has a certain x success rate and the VLA model which has a y success rate now the if you have a sequencing task you are basically compounding the error.",
+      "zh": "如果你有 10 个任务按顺序执行，ER 模型有某个 x 成功率，VLA 模型有 y 成功率，那么如果你有一个按顺序执行的任务，你基本上就是在复合误差。",
+      "timestamp": "52:39",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "People don't expect it to be smart, but a humanoid just grappling around and creating a lot of failures would be judged much harshly because",
+      "zh": "人们不会指望它聪明，但一个人形机器人在那里乱摸一通、制造很多失败，就会被严厉得多地评判",
+      "timestamp": "66:54",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "And this is maybe one of the most exciting parts of working in robotics is that it is still very early that the recipes haven't stabilized.",
+      "zh": "而这也许是机器人领域工作最令人兴奋的部分之一，就是这个领域还很早期，配方还没有稳定下来。",
+      "timestamp": "74:14",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "So I don't think it's wise to take a very principled view about this because all of this will change as new evidence emerges and better hardware emerges.",
+      "zh": "所以我认为在这件事上采取非常教条的立场是不明智的，因为随着新证据的出现和更好硬件的出现，这一切都会改变。",
+      "timestamp": "78:31",
+      "speaker": "Kirthana Gopalakrishnan"
+    },
+    {
+      "en": "None of those robots were machine-learned robots, which was connected to the large models, and now things are very different.",
+      "zh": "那些机器人没有一个是由机器学习驱动、连接到大模型的机器人，而现在情况已经非常不同了。",
+      "timestamp": "56:23",
+      "speaker": "Kirthana Gopalakrishnan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "07:33",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "A lot of my friends are also very productively employed, but we don't run faster than Usain Bolt.",
+      "zh": "我的很多朋友也都在非常有成效地工作着，但我们跑得都没有 Usain Bolt 快。"
+    },
+    {
+      "timestamp": "13:06",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "I would say like maybe a year ago if you had told me we would do this by now I would be a bit surprised",
+      "zh": "我想说，大概一年前如果你告诉我我们现在就能做到这个，我会有些惊讶"
+    },
+    {
+      "timestamp": "15:23",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "And working on generalization is like lifting the boat, lifting the wave for all the boats.",
+      "zh": "而做泛化就像是抬船，把所有船的水位都抬起来。"
+    },
+    {
+      "timestamp": "20:46",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "If it just works on your robot with your specific setup, is it really a generic brain?",
+      "zh": "如果它只在你的机器人、你的特定配置上有效，那它真的是一个通用大脑吗？"
+    },
+    {
+      "timestamp": "21:08",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "But here I think we are very subject to which robots that you act on.",
+      "zh": "但在这里，我认为我们在很大程度上受制于你在哪种机器人上执行。"
+    },
+    {
+      "timestamp": "27:38",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "I don't really care about how fast it is folding laundry.",
+      "zh": "我其实并不在乎它叠衣服有多快。"
+    },
+    {
+      "timestamp": "30:00",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "I think we are going to simultaneously make the fast and the slow models and then distill them to one.",
+      "zh": "我认为我们会同时做出快的和慢的模型，然后把它们蒸馏成一个。"
+    },
+    {
+      "timestamp": "44:26",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "And maybe there is no standard for robotics APIs and the model protocol equivalent.",
+      "zh": "而且也许机器人 API 没有标准，没有模型协议的等价物。"
+    },
+    {
+      "timestamp": "48:15",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "Often the thing about foundation models is that sometimes you can be quite surprised at what they do and because even you didn't know that they could do that.",
+      "zh": "关于基础模型的一点是，有时候你可能对它们的行为感到相当惊讶，因为连你自己都不知道它们能做到那个。"
+    },
+    {
+      "timestamp": "51:22",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "And while we see a large leap being made in cross-embodiment, I think that taking a new embodiment and completely zero-shotting it to a lot of tasks with very high reliability is still something that is, I don't think there is a very strong precedent for that.",
+      "zh": "虽然我们看到跨具身方面取得了巨大的飞跃，但我认为把一个新具身完全零样本地应用到很多任务上并达到很高的可靠性，这件事我认为还没有很强的先例。"
+    },
+    {
+      "timestamp": "52:31",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "if you have 10 tasks in sequence and now you have the ER model which has a certain x success rate and the VLA model which has a y success rate now the if you have a sequencing task you are basically compounding the error.",
+      "zh": "如果你有 10 个任务按顺序执行，ER 模型有某个 x 成功率，VLA 模型有 y 成功率，那么如果你有一个按顺序执行的任务，你基本上就是在复合误差。"
+    },
+    {
+      "timestamp": "53:38",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "To be fair, I think models have made a lot of progress on visual generalization.",
+      "zh": "说句公道话，我认为模型在视觉泛化上已经取得了很大进展。"
+    },
+    {
+      "timestamp": "63:47",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "I think the most useful agents are going to be ones that are safe, that know what they need to do, and they're not overriding human instructions and causing chaos or breaking laws and stuff.",
+      "zh": "我认为最有用的智能体会是那些安全的智能体，它们知道自己需要做什么，不会覆盖人类的指令、不会制造混乱或违反法律之类的。"
+    },
+    {
+      "timestamp": "66:54",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "People don't expect it to be smart, but a humanoid just grappling around and creating a lot of failures would be judged much harshly because",
+      "zh": "人们不会指望它聪明，但一个人形机器人在那里乱摸一通、制造很多失败，就会被严厉得多地评判"
+    },
+    {
+      "timestamp": "73:37",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "Ultimately, the thing about working as a roboticist is that you are not emotionally attached to one method or the other method.",
+      "zh": "归根结底，作为机器人学家工作的一个特点是，你不会在情感上依附于某一种方法或另一种方法。"
+    },
+    {
+      "timestamp": "74:14",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "And this is maybe one of the most exciting parts of working in robotics is that it is still very early that the recipes haven't stabilized.",
+      "zh": "而这也许是机器人领域工作最令人兴奋的部分之一，就是这个领域还很早期，配方还没有稳定下来。"
+    },
+    {
+      "timestamp": "78:31",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "So I don't think it's wise to take a very principled view about this because all of this will change as new evidence emerges and better hardware emerges.",
+      "zh": "所以我认为在这件事上采取非常教条的立场是不明智的，因为随着新证据的出现和更好硬件的出现，这一切都会改变。"
+    },
+    {
+      "timestamp": "56:22",
+      "speaker": "Kirthana Gopalakrishnan",
+      "en": "None of those robots were machine-learned robots, which was connected to the large models, and now things are very different.",
+      "zh": "那些机器人没有一个是由机器学习驱动、连接到大模型的机器人，而现在情况已经非常不同了。"
+    }
+  ],
+  "voice_script": "今天的主角是 Kirthana Gopalakrishnan,Google DeepMind 的资深研究科学家，也是 Gemini Robotics 的研究负责人。这是第四次上 The Cognitive Revolution 这个节目了，聊的是今天 AI 领域最大的悬念之一：通用机器人，到底还要多久才能真正派上用场？\n\n先从一个刷屏的视频说起。今年夏天中国办了机器人奥运会，人形机器人赛跑的视频到处流传，有人说中国造出了跑得比博尔特还快的机器人，连 Kirthana 的爸爸都跑来问，你看到那些机器人在奔跑了吗。从研究角度看，这不算意外，但跟二十年前 DARPA 挑战赛里那些走两步就摔的机器人一比，进步确实惊人。\n\n不过话锋一转，得泼盆冷水。奔跑这类能力，恰恰是最容易在仿真里训练的，因为地面是刚性平坦的，物理好建模。真正难的是操作任务，比如叠布料。为什么？关键在接触。接触什么时候发生、物体会怎么变形，这正是现在的仿真开始崩溃的地方。抓取放置反而扎实，因为接触可预测。所以一句话，物体越硬、形变越小，仿真越好做。至于跑得快有没有用？回答很干脆：我是个非常多产的人，我朋友也都很有成效，但我们谁都没有博尔特快。速度根本不是机器人实用性的瓶颈。\n\n那什么才是核心问题？是泛化。机器人领域有个残酷的权衡：你可以做只擅长一两件事的专用机器人，但做第 n 件事的成本，跟做第一件一模一样。反过来，先建一个通用的基线，再快速调优到精通，划算得多。有个很形象的比喻：泛化和精通是两个正交的轴，而做泛化，就像是把所有船的水位都抬起来。这个剧本在语言模型上已经演过一遍了，从专用小模型到通用大模型再到专精，同样的路线，大概率会在机器人上重演。\n\n顺着这条线，就能回答一个更根本的问题：机器人现在走到语言模型的哪个阶段了？答案是，还在 GPT-2 时代。理由有两个。一是少样本学习还没能在很多任务上真正学好。二是机器人有个语言模型从来没有过的麻烦，叫跨载体问题。同一个 GPT,跑在手机上、Mac 上、Linux 上，行为都一致；可机器人的大脑，一换个身体可能就完全不行了。如果这个大脑只在你的机器人、你的特定配置上有效，那它真的是一个通用大脑吗？\n\n这也解释了怎么看待那些看一次演示就能学会的视频演示。这类结果本质上是一种视频提示，属于上下文学习的光谱。但有两个待解问题：模型到底是照抄还是真泛化？还有，任务本身难度如何？抓取放置有大量数据，可你能给机器人演示怎么系垃圾袋，它看完就会吗？现在还相当早期。\n\n那 Google 自己怎么解这道题？今年夏天发布了三个模型。ER 2 是具身推理模型，算是机器人控制的 system 2 大脑，已经开放了 API。Gemini Robotics 2 是视觉语言动作模型，能控制从指尖到脚部的整个机器人。还有一个 On-Device 2,是能装进机器人自带电脑的小版本，不依赖云端。为什么推理模型先开放？因为它离 Gemini 本身更近、更成熟，动作模型离前沿更近，还有很多研究要做。\n\n再往下还有一层数据之争。有观点认为未来训练数据会以人类自我中心的视频为主，最后靠仿真解决一切。Kirthana 拒绝站队，给了一个分析框架：把每种数据源放在规模乘以精度的坐标上看。遥操作数据很精确，但不可扩展，而且机器人硬件一升级它就贬值；人类视频最可扩展，但嘈杂，每个人身材和做法都不同。所以在事情还很早期的时候押注单一来源，是不明智的，你很可能需要所有类型的数据。\n\n最后说安全。立场是把安全看作一种能力，因为人们不会使用不安全的机器人。而且安全是全系统的事，从机械设计一直贯穿到高层大脑。人形机器人还带来一个微妙问题：人们不指望夹爪机器人聪明，可一个人形机器人在那里乱摸一通、制造一堆失败，就会被严厉得多地评判。\n\n这个领域还没有定论，配方还没稳定下来，不同流派可以非常不同，我们会看到谁是对的——而且可能他们全都是对的。正是这一点，让通用机器人成了当下最值得盯着的战场。"
+}

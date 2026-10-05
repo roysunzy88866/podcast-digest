@@ -1,0 +1,1807 @@
+{
+  "episode_id": "2026-09-11-dwarkesh-john-beren-charlie",
+  "podcast": "Dwarkesh Podcast",
+  "date": "2026-09-11",
+  "tags": [
+    "强化学习",
+    "蒸馏",
+    "持续学习",
+    "数据与缩放定律",
+    "AI 时间线预测"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集主线概念：Baron 说 RL 的成功源于 mid-training 已完成约 80% 的工作，RL 目标函数只保留答对与否的高信噪比特，所以在步数上极其高效；Charlie 说真正得到的是「时程泛化」而非横向泛化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            93.408,
+            97.3
+          ],
+          "quote": "I think we do actually see this kind of generalization even from RL in practice already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            177.317,
+            181.683
+          ],
+          "quote": "a learner you could have on a chip is like the transformer plus like RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            211.746,
+            215.411
+          ],
+          "quote": "with that paradigm where it's basically just self-attention, RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            215.712,
+            216.44299999999998
+          ],
+          "quote": "scaling up RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            239.226,
+            240.929
+          ],
+          "quote": "And then we came up with RL and solved that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            281.152,
+            283.835
+          ],
+          "quote": "Like there's something beyond the RL that we have to discover",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1142.018,
+            1148.8
+          ],
+          "quote": "through RL can be distilled very easily because it's a small number of bits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1442.72,
+            1445.31
+          ],
+          "quote": "very hard RL environments you've made at the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1445.36,
+            1448.5510000000002
+          ],
+          "quote": "And so if you have access to those RL environments as Anthropic,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1810.591,
+            1812.374
+          ],
+          "quote": "to RL models on,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2152.353,
+            2156.2974444444444
+          ],
+          "quote": " Just so much Excel data and all that sort of stuff in the RL training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2258.295,
+            2264.138
+          ],
+          "quote": "you still might want to do a bunch of RL and bake all these intuitions into",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2344.828,
+            2350.15
+          ],
+          "quote": " That can be simulated like in the data center and you can do RL on them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            2380.423,
+            2382.533
+          ],
+          "quote": "basically be in the loop of RL training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            3364.728,
+            3366.651
+          ],
+          "quote": "And RL is not very good at like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            3398.748,
+            3402.471
+          ],
+          "quote": "The reason RL is so nice is because it changes a very,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3413.118,
+            3415.039
+          ],
+          "quote": "But that also then limits what you can do with RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            3497.056,
+            3500.722
+          ],
+          "quote": "like kind of continuously plus some RL from like different checkpoints",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1132,
+          "t": [
+            3518.688,
+            3522.371
+          ],
+          "quote": "then you distill some fork It's been further RL'd or something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            3674.955,
+            3680.68
+          ],
+          "quote": "Yes, there's probably a ladder of RL environments that is possible to construct such",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            3839.553,
+            3843.164111111111
+          ],
+          "quote": "And they tried to RL it to do late high school and college maths,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1235,
+          "t": [
+            3858.237,
+            3860.669
+          ],
+          "quote": " And this just comes back to the RL signal problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1236,
+          "t": [
+            3860.719,
+            3862.66
+          ],
+          "quote": "RL is not very good at exploring right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1238,
+          "t": [
+            3868.705,
+            3870.897
+          ],
+          "quote": "And this is why in RL we need curricula,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1390,
+          "t": [
+            4232.498,
+            4233.78
+          ],
+          "quote": "a RL heavy regime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1398,
+          "t": [
+            4252.159,
+            4255.02
+          ],
+          "quote": "Do you think that like keeps 2xing year over year or now that we're in an RL regime",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1405,
+          "t": [
+            4273.758,
+            4278.1
+          ],
+          "quote": "because we're so focused on doing longer and longer horizon rollouts for RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1420,
+          "t": [
+            4315.374,
+            4318.764
+          ],
+          "quote": "then the difficulty of the RL environments that you've got to train on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1486,
+          "t": [
+            4523.21,
+            4527.3859999999995
+          ],
+          "quote": "So as Charlie was saying, inference efficiency is super important for RL rollouts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1544,
+          "t": [
+            4683.86,
+            4684.86
+          ],
+          "quote": "A bit on RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1546,
+          "t": [
+            4687.623,
+            4692.667
+          ],
+          "quote": "a lot of people were making this argument that RL will not be super successful",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1550,
+          "t": [
+            4697.23,
+            4701.994
+          ],
+          "quote": "that models learn one bit per episode when you RL basically learn,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1555,
+          "t": [
+            4710.881,
+            4714.625
+          ],
+          "quote": "it learns almost nothing at all from an RL episode.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1557,
+          "t": [
+            4719.73,
+            4721.285555555555
+          ],
+          "quote": "the result of scaling up RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1559,
+          "t": [
+            4725.555,
+            4729.555
+          ],
+          "quote": "But why has RL been more successful than one would have naively thought?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1560,
+          "t": [
+            4730.109,
+            4733.855
+          ],
+          "quote": " I mean, so I think the success of RL comes down to a bunch of different things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1562,
+          "t": [
+            4737.74,
+            4741.245
+          ],
+          "quote": "So an awful lot of what we see as successes of RL actually comes from very,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1565,
+          "t": [
+            4745.051,
+            4748.616
+          ],
+          "quote": " And so this actually takes the model almost 80% of the way to the final RL checkpoint often.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1566,
+          "t": [
+            4748.656,
+            4753.711555555556
+          ],
+          "quote": "And then what RL does on top of that is it does a lot of essentially tweaking to the policy",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1572,
+          "t": [
+            4776.558,
+            4780.688999999999
+          ],
+          "quote": "which is why you need RL at all versus just SFTing on successful reasoning traces.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1585,
+          "t": [
+            4812.131,
+            4813.903
+          ],
+          "quote": "For RL, you only get the one bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1590,
+          "t": [
+            4823.239,
+            4827.683444444444
+          ],
+          "quote": "during training, which is why RL is so dramatically efficient in terms of steps.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1594,
+          "t": [
+            4831.453,
+            4835.317
+          ],
+          "quote": "there's been so much debate about what RL does to the model versus mid-training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1600,
+          "t": [
+            4849.53,
+            4854.555
+          ],
+          "quote": "And I think the simple way to view RL now is that If you have a large enough, like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1609,
+          "t": [
+            4873.159,
+            4876.731
+          ],
+          "quote": "the starting point for RL, like scales in a log number of pre-training tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1623,
+          "t": [
+            4921.844,
+            4925.249
+          ],
+          "quote": "that RL would have from the actual qualitative capabilities the models seem",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1625,
+          "t": [
+            4925.89,
+            4931.134
+          ],
+          "quote": " So like one thing I want to It doesn't necessarily imply that RL has a small effect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1631,
+          "t": [
+            4945.803,
+            4949.275
+          ],
+          "quote": "I don't think it's necessarily the case of small amounts of bits, small amounts of RL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1636,
+          "t": [
+            4958.725,
+            4962.721
+          ],
+          "quote": "that RL would generalize this reasoning across all these different domains.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1639,
+          "t": [
+            4969.24,
+            4970.0109999999995
+          ],
+          "quote": "You do have to do RL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1664,
+          "t": [
+            5033.138,
+            5036.915777777777
+          ],
+          "quote": "I think like to an extent, like a similar thing is happening for RL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1666,
+          "t": [
+            5038.982,
+            5042.215
+          ],
+          "quote": "as Baron mentioned, of, you know, we will train a model and then RL it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1677,
+          "t": [
+            5070.334,
+            5074.014
+          ],
+          "quote": "I mean, I think a lot of this as well is just like, I think RL does generalize a bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1695,
+          "t": [
+            5096.001,
+            5099.396
+          ],
+          "quote": "we were talking about RL in the context of causing this entropy collapse",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1699,
+          "t": [
+            5111.286,
+            5115.128
+          ],
+          "quote": "I think there's also another story about RL,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1705,
+          "t": [
+            5129.222,
+            5134.587
+          ],
+          "quote": "Do you have a sense on when we should expect or if we should expect RL on LLMs",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1714,
+          "t": [
+            5154.215,
+            5158.3
+          ],
+          "quote": "But I also think that RL doesn't necessarily reduce the creativity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1729,
+          "t": [
+            5210.773,
+            5216.659
+          ],
+          "quote": " The diversity of their outputs is a lot lower after RL, and they sort of develop these ticks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1737,
+          "t": [
+            5241.555,
+            5248.137
+          ],
+          "quote": "So I think that like that kind of diversity has definitely been like cut down by RL a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1747,
+          "t": [
+            5274.395,
+            5278.172777777778
+          ],
+          "quote": " Again, I don't think this is fundamental to RL as a method, though.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1755,
+          "t": [
+            5288.676,
+            5293.178
+          ],
+          "quote": "like The RL entropy collapses basically due to exploitation",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1760,
+          "t": [
+            5306.103,
+            5310.714111111111
+          ],
+          "quote": "But this is really a problem with the judge, it's not a problem with RL in general.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "John 的核心论点：凡是能通过 RL 学到的行为都可以被轻易蒸馏，因为只是少量比特——蒸馏是对抗模型提供商中心化的主要力量；但提示词分布是命门，天真蒸馏只会在易验证分布上模仿老师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            1134.495,
+            1138.997
+          ],
+          "quote": "I think distillation is the main thing that fights against the centralizing force",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1159.464,
+            1162.345
+          ],
+          "quote": "So I think distillation is one of the...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1194.15,
+            1197.923
+          ],
+          "quote": " And I also want to point out that continual learning doesn't stop distillation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1282.174,
+            1285.379
+          ],
+          "quote": " Distillation because it gives you the perfect prompt distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1414.541,
+            1416.904
+          ],
+          "quote": "even though they've had access to not only distillation,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1416.924,
+            1418.8684444444443
+          ],
+          "quote": "but logic distillation from Mythos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1448.601,
+            1450.192
+          ],
+          "quote": "and you have access to logic distillation,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1577.08,
+            1578.901
+          ],
+          "quote": "if you try to do distillation naively,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1607.964,
+            1613.785
+          ],
+          "quote": "So if you have a really good realistic prompt distribution for distillation,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2563.854,
+            2565.155
+          ],
+          "quote": "This is basically what distillation is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3358.399,
+            3361.584
+          ],
+          "quote": "on-policy distillation seems to like push this horizon out a little bit,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            3391.463,
+            3398.388
+          ],
+          "quote": "I think SFT and even on-policy distillation can be way too destructive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1739,
+          "t": [
+            5250.858,
+            5253.580222222223
+          ],
+          "quote": "since we were talking about distillation earlier,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1748,
+          "t": [
+            5278.381,
+            5279.4529999999995
+          ],
+          "quote": "And same with distillation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1749,
+          "t": [
+            5279.503,
+            5281.596
+          ],
+          "quote": "Even with distillation, you're just training on the data.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集说这是「圣杯」：大尺度上把数据注入 mid-training 的外循环可用，但微观上为单一客户小数据持续更新会失效，瓶颈是可塑性与灾难性遗忘的组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1194.15,
+            1197.923
+          ],
+          "quote": " And I also want to point out that continual learning doesn't stop distillation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1708.142,
+            1713.166
+          ],
+          "quote": "that require continual learning or just getting to a certain loss with like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 829,
+          "t": [
+            2582.026,
+            2583.246
+          ],
+          "quote": "this is what continual learning,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            3317.15,
+            3320.181
+          ],
+          "quote": "it does work in some sort of continual learning regime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            3501.923,
+            3503.586
+          ],
+          "quote": "And like that's looking more like continual learning,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mid-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "中期训练 (mid-training)",
+      "file": "中期训练",
+      "primary": true,
+      "how_described": "Baron 认为它被低估：很多「RL 的成功」其实来自极好的 mid-training 数据，这一步往往就把模型带到最终 RL 检查点约 80% 的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1058,
+          "t": [
+            3313.628,
+            3316.229
+          ],
+          "quote": "this outer loop process of putting data into mid-training,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            3437.017,
+            3439.428
+          ],
+          "quote": "and pre-trained it from scratch with all of this stuff in mid-training,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            3494.853,
+            3497.006
+          ],
+          "quote": "and like do very good mid training on top of that,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            3553.34,
+            3554.821
+          ],
+          "quote": "you can do continual mid-training for, like,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            3555.341,
+            3557.993
+          ],
+          "quote": "and you can, like, roll back to a checkpoint, give a new mid-training data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1151,
+          "t": [
+            3560.145,
+            3562.7569999999996
+          ],
+          "quote": "Like, if you just keep continual mid-training the same base forever,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1155,
+          "t": [
+            3569.271,
+            3572.526
+          ],
+          "quote": "Like, otherwise, you would just keep mid-training the same base forever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            3942.976,
+            3945.009
+          ],
+          "quote": "as we enter mid-training and post-training,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            4120.592,
+            4123.816
+          ],
+          "quote": " for like Combining pre-training plus post-training data and mid-training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1359,
+          "t": [
+            4180.667,
+            4182.438
+          ],
+          "quote": "mid-training and post-training data we have now is,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1561,
+          "t": [
+            4733.895,
+            4737.69
+          ],
+          "quote": "So first, I think what is slightly underestimated is actually the mid-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1563,
+          "t": [
+            4741.286,
+            4742.537
+          ],
+          "quote": "very good mid-training data,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1594,
+          "t": [
+            4831.453,
+            4835.317
+          ],
+          "quote": "there's been so much debate about what RL does to the model versus mid-training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1607,
+          "t": [
+            4869.096,
+            4871.357
+          ],
+          "quote": "mid-training and more pre-training,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1668,
+          "t": [
+            5045.747,
+            5049.3
+          ],
+          "quote": "we will dump a bunch of these synthetic reasoning traces into the mid-training data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说「以某种不会在基准测试中显现的方式搞砸后训练真的太容易了」，后训练团队仍需要很多人来决定模型应该如何表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            575.169,
+            578.9390000000001
+          ],
+          "quote": "even in current AI research of like post-training benchmarks or whatever,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1016.483,
+            1023.483
+          ],
+          "quote": "And if I think about a post-training team and why you need a lot of people to be on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1642.075,
+            1646.297
+          ],
+          "quote": "It could also be that they're always changing their post-training stack",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1659.665,
+            1663.948
+          ],
+          "quote": "So it's like really easy to screw up post-training in some way that doesn't show up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            3512.739,
+            3515.063
+          ],
+          "quote": "during training or during post training or something?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            3658.881,
+            3663.881
+          ],
+          "quote": " Are we talking about like pre-training plus post-training data like environments as well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1242,
+          "t": [
+            3875.073,
+            3878.6285555555555
+          ],
+          "quote": "And again, pre-training data is different to post-training data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            3942.976,
+            3945.009
+          ],
+          "quote": "as we enter mid-training and post-training,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1314,
+          "t": [
+            4085.29,
+            4088.7219999999998
+          ],
+          "quote": "That probably gives you a good signal of how much of this is post-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            4120.592,
+            4123.816
+          ],
+          "quote": " for like Combining pre-training plus post-training data and mid-training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1359,
+          "t": [
+            4180.667,
+            4182.438
+          ],
+          "quote": "mid-training and post-training data we have now is,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "本集把快速 RSI 的关键问题归结为 AI 能否泛化到给自己设定目标——这可能是阻止立刻起飞的最大瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            255.865,
+            260.43899999999996
+          ],
+          "quote": "even RSI-targeted aural environments, would be able to discover that discontinuity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            814.196,
+            818.823
+          ],
+          "quote": "I think this is really the key question to any kind of very rapid RSI",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1339.268,
+            1343.7124444444444
+          ],
+          "quote": " Or to the extent you could have done that anyways, then you just have like RSI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1345.23,
+            1348.231
+          ],
+          "quote": "like if you have this like fully automated loop, that is basically RSI, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 597,
+          "t": [
+            1875.922,
+            1880.3664444444444
+          ],
+          "quote": "an example of, like, in terms of RSI or, like, you know, working on a train set?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2113.135,
+            2117.542
+          ],
+          "quote": "towards direct RSI versus making generally intelligent models that they can continue",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2200.59,
+            2202.5344444444445
+          ],
+          "quote": "We just want it really good at RSI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2206.836,
+            2211.1
+          ],
+          "quote": "into a model that is actually like really good at doing RSI development.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2212.722,
+            2215.1299999999997
+          ],
+          "quote": "the thing that comes out the other end will be really good at RSI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2303.575,
+            2306.519444444444
+          ],
+          "quote": "for like RSI, just the general like That makes sense.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 922,
+          "t": [
+            2849.041,
+            2851.7349999999997
+          ],
+          "quote": " Maybe an example of a cumulative task might be RSI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3003.207,
+            3007.651444444444
+          ],
+          "quote": "yeah, I think the weaknesses of humans, which limit RSI along with other things,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "主持人概括「对齐是最终的工作」；John 拆解为「搞清楚正确的目标 + 实现目标」，第一半（定义目标、决定我们真正想要什么）不会很快消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            991.627,
+            993.1825555555555
+          ],
+          "quote": " Alignment is the final job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            993.689,
+            995.05
+          ],
+          "quote": "Alignment is sort of the answer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            995.07,
+            1002.07
+          ],
+          "quote": "but it's also alignment itself can be kind of decomposed into specification of",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论：实验室押注把 LLM RL 训练扩到数百万环境后涌现出学会坚持、上下文分诊、多智能体协作等技能的智能体，像即插即用的远程员工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            184.867,
+            191.196
+          ],
+          "quote": "I think people imagine that Once you have an agent which is better than all humans",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1106.805,
+            1110.6580000000001
+          ],
+          "quote": "the code generated by the agent is actually not introducing new problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            1545.907,
+            1549.571
+          ],
+          "quote": "in the realistic coding agent setting where there's like multiple back and forth",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2053.415,
+            2058.2483333333334
+          ],
+          "quote": "And what will emerge at the other end is an agent which has learned these basic skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2070.777,
+            2073.341
+          ],
+          "quote": "And such an agent will be very sample efficient.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            2902.496,
+            2905.0899999999997
+          ],
+          "quote": " You have an agent acting as a legal associate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1213,
+          "t": [
+            3781.75,
+            3783.8055555555557
+          ],
+          "quote": "the agent to actually do those tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1216,
+          "t": [
+            3791.176,
+            3796.985
+          ],
+          "quote": "which is only trained on data up to 1930 on this modern coding agent data,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1219,
+          "t": [
+            3808.275,
+            3813.078
+          ],
+          "quote": "a moderate amount of data and behave better as a coding agent",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "Charlie 用摩尔定律类比缩放定律靠离散不连续性创新续命；本集还讨论 Kaplan 缩放定律忘了退火校正，以及数据 vs 架构各解释多少算力效率提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            758.307,
+            759.989
+          ],
+          "quote": "the Kaplan scaling laws,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1430,
+          "t": [
+            4347.452,
+            4351.3859999999995
+          ],
+          "quote": "I would say exactly how much they get bigger depends a bit on the scaling laws",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1445,
+          "t": [
+            4404.131,
+            4408.893
+          ],
+          "quote": "So I don't think we have a good enough theory of scaling laws",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1531,
+          "t": [
+            4640.053,
+            4643.756
+          ],
+          "quote": "I think part of the reason it took people so long to figure out the scaling laws in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1539,
+          "t": [
+            4667.009,
+            4670.551
+          ],
+          "quote": " And bugs have their own clean scaling laws as well, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "catastrophic-forgetting",
+      "type": "concept",
+      "role": "concept",
+      "name": "灾难性遗忘 (catastrophic forgetting)",
+      "file": "灾难性遗忘",
+      "primary": true,
+      "how_described": "Baron 说持续学习的瓶颈是「可塑性与灾难性遗忘的组合」：天真地在非平稳数据上持续训练，旧能力就被冲掉，目前没有好办法阻止。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1103,
+          "t": [
+            3451.763,
+            3455.0407777777777
+          ],
+          "quote": "some combination of plasticity and catastrophic forgetting.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": false,
+      "how_described": "被 John 举作「定义目标」这类人类工作的例子：用人类反馈来校准模型该怎样表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 958,
+          "t": [
+            3046.015,
+            3049.137
+          ],
+          "quote": "in like your experience prior to like, let's say RLHF.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generalization",
+      "type": "concept",
+      "role": "concept",
+      "name": "泛化 (generalization)",
+      "file": "泛化",
+      "primary": true,
+      "how_described": "本集说整个领域高度依赖泛化：最重要的进展往往是「没理由指望会出现的」分布外泛化，如从下一个 token 预测泛化到深层理解任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            79.37,
+            81.03666666666668
+          ],
+          "quote": "of generalization that occurs,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            93.408,
+            97.3
+          ],
+          "quote": "I think we do actually see this kind of generalization even from RL in practice already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            582.975,
+            585.016
+          ],
+          "quote": "The whole field relies a lot on generalization,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            585.036,
+            589.397
+          ],
+          "quote": "and it's very hard to predict when you're going to get generalization or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            589.617,
+            592.4480000000001
+          ],
+          "quote": "when you're going to get some kind of out-of-distribution generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            603.241,
+            604.202
+          ],
+          "quote": " types of generalization",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            632.453,
+            638.215
+          ],
+          "quote": "And then also generalization from these verifiable tasks to less verifiable ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            638.235,
+            643.18
+          ],
+          "quote": " This is also a type of generalization that There's no reason a priori to expect it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2225.945,
+            2227.977
+          ],
+          "quote": "if the path is like this kind of generalization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            3752.986,
+            3755.307
+          ],
+          "quote": "on this task horizon generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1506,
+          "t": [
+            4581.61,
+            4585.643
+          ],
+          "quote": "but like they have this generalization ability because they're much larger.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1637,
+          "t": [
+            4962.771,
+            4966.486
+          ],
+          "quote": "And I don't think we necessarily got this horizontal generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1640,
+          "t": [
+            4970.061,
+            4974.828
+          ],
+          "quote": " I think what we did get though is like horizon generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1653,
+          "t": [
+            5003.149,
+            5005.299
+          ],
+          "quote": "And so that's a clear evidence of generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1673,
+          "t": [
+            5063.127,
+            5066.351
+          ],
+          "quote": "But you average all these things together and plus the horizon generalization,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1721,
+          "t": [
+            5173.273,
+            5176.976
+          ],
+          "quote": "which we just get from the general generalization properties of the LMs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "Baron 举 hugging face 事件为例：模型一次想出多个零日漏洞逃出沙箱，说明已有 Move 37 式的创造力苗头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1718,
+          "t": [
+            5168.129,
+            5169.17
+          ],
+          "quote": "the sandbox.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集说 RL 时代强调 rollout 的推理效率，这会压低前沿模型的激活参数量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 784,
+          "t": [
+            2486.888,
+            2491.034
+          ],
+          "quote": "You have 50% of compute that's spent on inference that is not directly helping",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1382,
+          "t": [
+            4214.572,
+            4216.473
+          ],
+          "quote": "So like the inference efficiency,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1406,
+          "t": [
+            4278.24,
+            4281.222
+          ],
+          "quote": "where inference efficiency matters a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1424,
+          "t": [
+            4329.238,
+            4332.929
+          ],
+          "quote": "then you're just paying much more inference flops when you need to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1486,
+          "t": [
+            4523.21,
+            4527.3859999999995
+          ],
+          "quote": "So as Charlie was saying, inference efficiency is super important for RL rollouts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1524,
+          "t": [
+            4625.154,
+            4627.505999999999
+          ],
+          "quote": "like, the ratio you have, like, training and inference to compute, really.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "zyphra",
+      "type": "company",
+      "role": "company",
+      "name": "Zyphra",
+      "file": "Zyphra",
+      "primary": false,
+      "how_described": "嘉宾 Baron 所在的公司，他任 CTO，本集开头介绍时提到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            13.931,
+            14.753
+          ],
+          "quote": "who is the CTO of Zyphra,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "Charlie 用它做具体预测：如果 Anthropic 拥有最难的 RL 环境和蒸馏渠道却做出了更差的模型，说明真实部署数据比环境更重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            1445.36,
+            1448.5510000000002
+          ],
+          "quote": "And so if you have access to those RL environments as Anthropic,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1633.65,
+            1637.692
+          ],
+          "quote": "Something about the smaller Anthropic models like Sonnet 5,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "Charlie 举的快循环早期迹象：Composer 模型基于用户按不按 tab 的信号每天变强，还做了长时间在线强化学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 859,
+          "t": [
+            2659.972,
+            2661.114
+          ],
+          "quote": "in Cursor,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 870,
+          "t": [
+            2686.731,
+            2688.353
+          ],
+          "quote": "And like Cursor is kind of a fuzzy answer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "Charlie 举例：Harvey 从法律智能体的部署反馈造环境、大规模后训练 Kimi K3 再部署，是部署数据快循环的早期迹象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            2610.904,
+            2614.61
+          ],
+          "quote": "or Harvey's doing the same thing with legal agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "Charlie 引用其「通过学会以超人类水平玩游戏来求解智能」的路线，佐证提出研究方向靠人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 292,
+          "t": [
+            922.33,
+            925.872
+          ],
+          "quote": "Or even going from DeepMind's approach of we're going to solve intelligence",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "John 回忆 OpenAI 早期误以为最小化 log loss 达不到智能的直觉；另提及 OpenAI 早期训练万亿参数稀疏模型的实验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            510.704,
+            515.165
+          ],
+          "quote": "I remember in the early OpenAI days having the intuition",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1473,
+          "t": [
+            4494.543,
+            4498.324
+          ],
+          "quote": "posted yesterday on Twitter about how an early experiment at OpenAI was training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1475,
+          "t": [
+            4500.445,
+            4502.797
+          ],
+          "quote": " Oh yeah, that was what they did before OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
