@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
+[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":23,"智能体化的 SDLC":1,"智能体":405,"可观测性":36,"护栏":77,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":23,"智能体化的 SDLC":1,"智能体":411,"可观测性":37,"护栏":77,"内环与外环":1}</script>
 
 <script>
 (function(){

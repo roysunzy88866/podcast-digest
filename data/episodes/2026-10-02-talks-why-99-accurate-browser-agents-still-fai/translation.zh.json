@@ -1,0 +1,1410 @@
+[
+ {
+  "seg": 0,
+  "start": 12.93,
+  "end": 13.25,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 16.791,
+  "end": 19.551,
+  "speaker": "Unknown",
+  "en": "Deploying browser agents.",
+  "zh": "部署浏览器智能体。"
+ },
+ {
+  "seg": 2,
+  "start": 19.631,
+  "end": 23.352,
+  "speaker": "Unknown",
+  "en": "Running a browser agent demo once is easy.",
+  "zh": "运行一次浏览器智能体演示很容易。"
+ },
+ {
+  "seg": 3,
+  "start": 24.372,
+  "end": 25.132,
+  "speaker": "Unknown",
+  "en": "It's on one site.",
+  "zh": "它只在一个网站上。"
+ },
+ {
+  "seg": 4,
+  "start": 25.812,
+  "end": 31.573,
+  "speaker": "Unknown",
+  "en": "It's one run on a good day with you watching and your fingers crossed.",
+  "zh": "是一个好日子里的单次运行，有你在旁边看着，手指交叉祈祷。"
+ },
+ {
+  "seg": 5,
+  "start": 31.613,
+  "end": 33.593,
+  "speaker": "Unknown",
+  "en": "But we know production is vastly different.",
+  "zh": "但我们知道生产环境完全不同。"
+ },
+ {
+  "seg": 6,
+  "start": 34.694,
+  "end": 40.295,
+  "speaker": "Unknown",
+  "en": "Thousands of runs unattended while the site can change or your model can just have an off day.",
+  "zh": "成千上万次无人值守的运行，而网站可能变化，或者你的模型可能就是状态不佳。"
+ },
+ {
+  "seg": 7,
+  "start": 41.675,
+  "end": 42.495,
+  "speaker": "Unknown",
+  "en": "So that's why we're here.",
+  "zh": "所以这就是我们在这里的原因。"
+ },
+ {
+  "seg": 8,
+  "start": 44.303,
+  "end": 47.025,
+  "speaker": "Unknown",
+  "en": "What separates a demo from production?",
+  "zh": "是什么把演示与生产区分开来？"
+ },
+ {
+  "seg": 9,
+  "start": 48.166,
+  "end": 49.107,
+  "speaker": "Unknown",
+  "en": "My name is Derek Megan.",
+  "zh": "我叫 Derek Megan。"
+ },
+ {
+  "seg": 10,
+  "start": 49.668,
+  "end": 51.669,
+  "speaker": "Unknown",
+  "en": "I'm a software engineer at BrowserBase.",
+  "zh": "我是 BrowserBase 的一名软件工程师。"
+ },
+ {
+  "seg": 11,
+  "start": 52.29,
+  "end": 54.312,
+  "speaker": "Unknown",
+  "en": "And today, we'll break up this talk into four parts.",
+  "zh": "今天，我们将把这次演讲分成四个部分。"
+ },
+ {
+  "seg": 12,
+  "start": 55.473,
+  "end": 57.675,
+  "speaker": "Unknown",
+  "en": "First, we'll bring order to chaos.",
+  "zh": "首先，我们将给混乱带来秩序。"
+ },
+ {
+  "seg": 13,
+  "start": 58.315,
+  "end": 61.358,
+  "speaker": "Unknown",
+  "en": "And we'll understand concretely how agents interact with the web.",
+  "zh": "我们将具体理解智能体是如何与网络交互的。"
+ },
+ {
+  "seg": 14,
+  "start": 62.499,
+  "end": 67.523,
+  "speaker": "Unknown",
+  "en": "Second, we'll define the impossible and explore why running them at scale is so hard.",
+  "zh": "其次，我们将定义不可能之事，并探讨为什么大规模运行它们如此困难。"
+ },
+ {
+  "seg": 15,
+  "start": 68.644,
+  "end": 70.305,
+  "speaker": "Unknown",
+  "en": "Third, we'll take a step back",
+  "zh": "第三，我们将退后一步"
+ },
+ {
+  "seg": 16,
+  "start": 71.179,
+  "end": 75.4,
+  "speaker": "Unknown",
+  "en": "We'll think about what's important and the value proposition that agents propose.",
+  "zh": "我们将思考什么是重要的，以及智能体所提出的价值主张。"
+ },
+ {
+  "seg": 17,
+  "start": 76.46,
+  "end": 81.841,
+  "speaker": "Unknown",
+  "en": "And then last, which is hopefully the reason why we're all here, we'll generate some shareholder value.",
+  "zh": "最后，希望这也是我们所有人来到这里的原因，我们将创造一些股东价值。"
+ },
+ {
+  "seg": 18,
+  "start": 83.741,
+  "end": 86.502,
+  "speaker": "Unknown",
+  "en": "So first, how agents interact with the web.",
+  "zh": "那么首先，智能体如何与网络交互。"
+ },
+ {
+  "seg": 19,
+  "start": 88.442,
+  "end": 91.423,
+  "speaker": "Unknown",
+  "en": "I like to think about the output of a model as a probability distribution.",
+  "zh": "我喜欢把模型的输出想象成一个概率分布。"
+ },
+ {
+  "seg": 20,
+  "start": 92.223,
+  "end": 93.723,
+  "speaker": "Unknown",
+  "en": "You receive input tokens.",
+  "zh": "你接收输入 token。"
+ },
+ {
+  "seg": 21,
+  "start": 94.363,
+  "end": 98.824,
+  "speaker": "Unknown",
+  "en": "They represent the page state, the overarching goal, or the steps that have already been taken.",
+  "zh": "它们代表页面状态、总体目标，或者已经采取的步骤。"
+ },
+ {
+  "seg": 22,
+  "start": 100.12,
+  "end": 104.904,
+  "speaker": "Unknown",
+  "en": "Then the model explores the distribution of possible actions, proposing the most likely one.",
+  "zh": "然后模型探索可能动作的分布，提出最有可能的那个。"
+ },
+ {
+  "seg": 23,
+  "start": 106.205,
+  "end": 112.131,
+  "speaker": "Unknown",
+  "en": "Then that action is transposed into a structured tool call and deterministically executed to interact with the browser.",
+  "zh": "然后该动作被转换成一个结构化的工具调用，并确定性地执行以与浏览器交互。"
+ },
+ {
+  "seg": 24,
+  "start": 114.733,
+  "end": 117.074,
+  "speaker": "Unknown",
+  "en": "But the interface of the browser is complicated.",
+  "zh": "但浏览器的接口很复杂。"
+ },
+ {
+  "seg": 25,
+  "start": 117.794,
+  "end": 119.535,
+  "speaker": "Unknown",
+  "en": "You have several distinct layers.",
+  "zh": "你有几个不同的层。"
+ },
+ {
+  "seg": 26,
+  "start": 120.375,
+  "end": 122.876,
+  "speaker": "Unknown",
+  "en": "You have requests flowing in and out of the browser.",
+  "zh": "你有进出浏览器的请求流。"
+ },
+ {
+  "seg": 27,
+  "start": 123.497,
+  "end": 126.798,
+  "speaker": "Unknown",
+  "en": "You have the document object model, or the HTML representation of the page.",
+  "zh": "你有文档对象模型，即页面的 HTML 表示。"
+ },
+ {
+  "seg": 28,
+  "start": 127.558,
+  "end": 140.484,
+  "speaker": "Unknown",
+  "en": "You can screenshot the browser, the accessibility tree, which is a semantic textual representation of the page, and the browser state, storage, cookies, console URL, tabs, et cetera.",
+  "zh": "你可以对浏览器截图、无障碍树（它是页面的语义文本表示），以及浏览器状态：存储、cookies、控制台 URL、标签页等等。"
+ },
+ {
+  "seg": 29,
+  "start": 141.706,
+  "end": 150.111,
+  "speaker": "Unknown",
+  "en": "Underneath all of this, you have a dynamic code execution runtime where you can interact with the browser by writing arbitrary JavaScript or CDP.",
+  "zh": "在所有这些之下，你有一个动态代码执行运行时，你可以通过编写任意 JavaScript 或 CDP 来与浏览器交互。"
+ },
+ {
+  "seg": 30,
+  "start": 152.512,
+  "end": 153.773,
+  "speaker": "Unknown",
+  "en": "How do you wire these together?",
+  "zh": "你如何把这些连接起来？"
+ },
+ {
+  "seg": 31,
+  "start": 154.773,
+  "end": 157.535,
+  "speaker": "Unknown",
+  "en": "Typically in industry, there's three main strategies.",
+  "zh": "通常在业界，有三种主要策略。"
+ },
+ {
+  "seg": 32,
+  "start": 158.375,
+  "end": 161.197,
+  "speaker": "Unknown",
+  "en": "Number one is creating a textual representation of the browser.",
+  "zh": "第一种是创建浏览器的文本表示。"
+ },
+ {
+  "seg": 33,
+  "start": 161.797,
+  "end": 167.941,
+  "speaker": "Unknown",
+  "en": "This typically involves taking the HTML state of the page in the accessibility tree and creating a hybrid representation.",
+  "zh": "这通常涉及获取页面的 HTML 状态和无障碍树，并创建一个混合表示。"
+ },
+ {
+  "seg": 34,
+  "start": 169.145,
+  "end": 173.829,
+  "speaker": "Unknown",
+  "en": "Number two is computer use, where you represent the browser in a series of screenshots of the page.",
+  "zh": "第二种是 computer use，即用一系列页面截图来表示浏览器。"
+ },
+ {
+  "seg": 35,
+  "start": 174.869,
+  "end": 187.039,
+  "speaker": "Unknown",
+  "en": "And finally, and becoming increasingly popular, is de-harnessing your agent, removing tailor-made tools in favor of dynamic execution environments where the agent can write arbitrary code against the browser.",
+  "zh": "最后一种，并且越来越流行的，是为你的智能体解除定制工具，转而采用动态执行环境，智能体可以在其中针对浏览器编写任意代码。"
+ },
+ {
+  "seg": 36,
+  "start": 188.66,
+  "end": 195.886,
+  "speaker": "Unknown",
+  "en": "In practice, most production systems lean on the first, the second, or a combination of the first and the second two strategies.",
+  "zh": "在实践中，大多数生产系统依赖于第一种、第二种，或者第一种与后两种策略的组合。"
+ },
+ {
+  "seg": 37,
+  "start": 198.119,
+  "end": 201.281,
+  "speaker": "Unknown",
+  "en": "Now let's think about the type of agentic trajectories on the browser.",
+  "zh": "现在让我们思考浏览器上的智能体轨迹类型。"
+ },
+ {
+  "seg": 38,
+  "start": 201.881,
+  "end": 206.163,
+  "speaker": "Unknown",
+  "en": "And here I define three, spanning across a spectrum of agenticness.",
+  "zh": "在这里我定义了三种，横跨一个智能体程度的光谱。"
+ },
+ {
+  "seg": 39,
+  "start": 207.584,
+  "end": 215.408,
+  "speaker": "Unknown",
+  "en": "From least agentic, we have purpose-built browser trajectories that are specially made to complete a single task.",
+  "zh": "从智能体程度最低的开始，我们有专为完成单个任务而特制的浏览器轨迹。"
+ },
+ {
+  "seg": 40,
+  "start": 216.849,
+  "end": 225.353,
+  "speaker": "Unknown",
+  "en": "To the most agentic, we have just-in-time browser automations, where we don't know what the task is beforehand, and the user provides us an arbitrary task to complete.",
+  "zh": "到智能体程度最高的，我们有即时浏览器自动化，即我们事先不知道任务是什么，用户提供给我们一个任意任务来完成。"
+ },
+ {
+  "seg": 41,
+  "start": 226.5,
+  "end": 229.803,
+  "speaker": "Unknown",
+  "en": "In the middle, we have something sort of between both.",
+  "zh": "在中间，我们有介于两者之间的某种东西。"
+ },
+ {
+  "seg": 42,
+  "start": 230.344,
+  "end": 237.992,
+  "speaker": "Unknown",
+  "en": "We're using the browser as an implementation detail to serve a larger goal, such as performing deep research or competitor analysis.",
+  "zh": "我们把浏览器作为实现细节来服务于一个更大的目标，例如执行深度研究或竞争对手分析。"
+ },
+ {
+  "seg": 43,
+  "start": 239.989,
+  "end": 247.775,
+  "speaker": "Unknown",
+  "en": "At scale, I really want to hone in on these transactional workflows, not because it makes things easy, but that's because we typically see at scale.",
+  "zh": "在大规模场景下，我真的很想聚焦于这些事务性工作流，不是因为它让事情变容易，而是因为这是我们通常在大规模场景下看到的。"
+ },
+ {
+  "seg": 44,
+  "start": 248.496,
+  "end": 253.94,
+  "speaker": "Unknown",
+  "en": "These workflows are transactional by nature, where we want to complete a unit of work end to end.",
+  "zh": "这些工作流本质上是事务性的，我们想要端到端地完成一个工作单元。"
+ },
+ {
+  "seg": 45,
+  "start": 254.8,
+  "end": 261.205,
+  "speaker": "Unknown",
+  "en": "On the other side, browser agents provide us a flexible execution environment to handle ambiguity in production.",
+  "zh": "另一方面，浏览器智能体为我们提供了一个灵活的执行环境来处理生产中的歧义。"
+ },
+ {
+  "seg": 46,
+  "start": 264.033,
+  "end": 268.676,
+  "speaker": "Unknown",
+  "en": "We know how agents interact with the web and the different types of trajectories we may see.",
+  "zh": "我们已经知道智能体如何与网络交互，以及我们可能看到的不同类型的轨迹。"
+ },
+ {
+  "seg": 47,
+  "start": 269.256,
+  "end": 271.897,
+  "speaker": "Unknown",
+  "en": "And we're honing in specifically on transactional workflows.",
+  "zh": "而我们特别聚焦于事务性工作流。"
+ },
+ {
+  "seg": 48,
+  "start": 272.798,
+  "end": 274.919,
+  "speaker": "Unknown",
+  "en": "Why is it so hard in production?",
+  "zh": "为什么在生产环境中这么难？"
+ },
+ {
+  "seg": 49,
+  "start": 276.1,
+  "end": 279.762,
+  "speaker": "Unknown",
+  "en": "And I think it comes down to a key interaction.",
+  "zh": "而且我认为这归结为一个关键的交互。"
+ },
+ {
+  "seg": 50,
+  "start": 281.002,
+  "end": 285.705,
+  "speaker": "Unknown",
+  "en": "Cost accumulation is continuous, while value realization is terminal.",
+  "zh": "成本的累积是持续的,而价值的实现是终点式的。"
+ },
+ {
+  "seg": 51,
+  "start": 286.753,
+  "end": 290.135,
+  "speaker": "Unknown",
+  "en": "Each step in your trajectory, you're incurring some incremental costs.",
+  "zh": "在你的轨迹中,每一步都在产生一些增量成本。"
+ },
+ {
+  "seg": 52,
+  "start": 290.976,
+  "end": 294.097,
+  "speaker": "Unknown",
+  "en": "Additionally, you're incurring some incremental risk of failure.",
+  "zh": "此外,你还在累积一些增量的失败风险。"
+ },
+ {
+  "seg": 53,
+  "start": 294.938,
+  "end": 300.461,
+  "speaker": "Unknown",
+  "en": "Yet, I only receive value from this browser trajectory when all steps of the task have been completed.",
+  "zh": "然而,只有当任务的所有步骤都完成时,我才能从这个浏览器轨迹中获得价值。"
+ },
+ {
+  "seg": 54,
+  "start": 301.442,
+  "end": 308.786,
+  "speaker": "Unknown",
+  "en": "That's all to say that with browser agents, there is no partial credit, and the vast majority of web automations fall into this category.",
+  "zh": "这就是说,对于浏览器智能体来说,没有部分得分,而绝大多数网页自动化都属于这一类。"
+ },
+ {
+  "seg": 55,
+  "start": 310.689,
+  "end": 315.15,
+  "speaker": "Unknown",
+  "en": "So you say, OK, well, each step, there's more risk and there's more cost.",
+  "zh": "所以你会说,好吧,每一步都有更多的风险和更多的成本。"
+ },
+ {
+  "seg": 56,
+  "start": 315.57,
+  "end": 319.171,
+  "speaker": "Unknown",
+  "en": "If I use a highly capable model, I can sidestep this conundrum.",
+  "zh": "如果我使用一个能力很强的模型,我可以绕过这个难题。"
+ },
+ {
+  "seg": 57,
+  "start": 320.511,
+  "end": 322.252,
+  "speaker": "Unknown",
+  "en": "Take this thought experiment for an example.",
+  "zh": "以这个思想实验为例。"
+ },
+ {
+  "seg": 58,
+  "start": 322.952,
+  "end": 327.513,
+  "speaker": "Unknown",
+  "en": "You have a browser agent where each step has an independent success rate of 99%.",
+  "zh": "你有一个浏览器智能体,每一步的独立成功率为 99%。"
+ },
+ {
+  "seg": 59,
+  "start": 328.393,
+  "end": 339.256,
+  "speaker": "Unknown",
+  "en": "If your browser trajectory spans 100 steps, the overall success rate at scale starts to look like 36%, only about a third of the time.",
+  "zh": "如果你的浏览器轨迹跨越 100 步,那么整体成功率在大规模下开始看起来像 36%,只有大约三分之一的时候。"
+ },
+ {
+  "seg": 60,
+  "start": 340.588,
+  "end": 341.589,
+  "speaker": "Unknown",
+  "en": "That's not super great.",
+  "zh": "这不是特别理想。"
+ },
+ {
+  "seg": 61,
+  "start": 341.989,
+  "end": 345.672,
+  "speaker": "Unknown",
+  "en": "And it's certainly not how we deliver reliable outcomes for customers in production.",
+  "zh": "这当然也不是我们在生产环境中为客户交付可靠结果的方式。"
+ },
+ {
+  "seg": 62,
+  "start": 346.512,
+  "end": 357.28,
+  "speaker": "Unknown",
+  "en": "And so you say, OK, well, we're continuously accumulating costs, we're continuously accumulating risk, and the percentage chance of value realization is very low.",
+  "zh": "所以你会说,好吧,我们在持续累积成本,我们在持续累积风险,而价值实现的可能性百分比非常低。"
+ },
+ {
+  "seg": 63,
+  "start": 358.32,
+  "end": 362.163,
+  "speaker": "Unknown",
+  "en": "That would suggest to never use a browser agent.",
+  "zh": "这意味着永远不要使用浏览器智能体。"
+ },
+ {
+  "seg": 64,
+  "start": 362.303,
+  "end": 364.525,
+  "speaker": "Unknown",
+  "en": "Thankfully, that's not the subject of my talk today.",
+  "zh": "谢天谢地,这不是我今天演讲的主题。"
+ },
+ {
+  "seg": 65,
+  "start": 365.205,
+  "end": 368.948,
+  "speaker": "Unknown",
+  "en": "I think this dynamic is real, but the math isn't the whole story.",
+  "zh": "我认为这个动态是真实存在的,但这个数学并不是全部的故事。"
+ },
+ {
+  "seg": 66,
+  "start": 369.957,
+  "end": 372.438,
+  "speaker": "Unknown",
+  "en": "And so it's time to take a step back.",
+  "zh": "所以是时候退一步了。"
+ },
+ {
+  "seg": 67,
+  "start": 373.558,
+  "end": 378.299,
+  "speaker": "Unknown",
+  "en": "Let's think about what's important and how agents actually deliver value.",
+  "zh": "让我们想想什么是重要的,以及智能体实际上是如何交付价值的。"
+ },
+ {
+  "seg": 68,
+  "start": 379.2,
+  "end": 389.623,
+  "speaker": "Unknown",
+  "en": "And to illustrate the value that I wish agents to deliver, I'll propose a simple equation, perhaps not used enough by many of us.",
+  "zh": "为了说明我希望智能体交付的价值,我将提出一个简单的等式,也许我们中的许多人用得不够多。"
+ },
+ {
+  "seg": 69,
+  "start": 390.983,
+  "end": 393.604,
+  "speaker": "Unknown",
+  "en": "And this equation is profit equals revenue minus costs.",
+  "zh": "这个等式就是:利润等于收入减去成本。"
+ },
+ {
+  "seg": 70,
+  "start": 394.892,
+  "end": 399.754,
+  "speaker": "Unknown",
+  "en": "Yes, very simple, but perhaps overlooked when thinking about browser agents.",
+  "zh": "是的,非常简单,但在思考浏览器智能体时也许被忽视了。"
+ },
+ {
+  "seg": 71,
+  "start": 400.494,
+  "end": 406.376,
+  "speaker": "Unknown",
+  "en": "And this is all to say that your agent is just another line item and that your agent should give you more than it takes.",
+  "zh": "这一切是说,你的智能体只是又一个账目项目,你的智能体应该带给你的多于它索取的。"
+ },
+ {
+  "seg": 72,
+  "start": 407.556,
+  "end": 413.658,
+  "speaker": "Unknown",
+  "en": "But when we think about what your agent should give you, that begs the question of what does a browser agent actually give you?",
+  "zh": "但当我们思考你的智能体应该带给你什么时,那就引出了一个问题:浏览器智能体实际上带给你什么?"
+ },
+ {
+  "seg": 73,
+  "start": 414.818,
+  "end": 419.34,
+  "speaker": "Unknown",
+  "en": "And so to answer this question, I like to think about the context of the customer.",
+  "zh": "为了回答这个问题,我喜欢从客户的角度来思考。"
+ },
+ {
+  "seg": 74,
+  "start": 420.383,
+  "end": 425.367,
+  "speaker": "Unknown",
+  "en": "At BrowserBase, we help our customers deploy browser automations for their users.",
+  "zh": "在 BrowserBase,我们帮助我们的客户为他们的用户部署浏览器自动化。"
+ },
+ {
+  "seg": 75,
+  "start": 426.288,
+  "end": 433.335,
+  "speaker": "Unknown",
+  "en": "Oftentimes, they're not automating the web for their own needs, but instead performing actions on the web on their customers' behalf.",
+  "zh": "通常,他们不是为自己的需求自动化网页,而是代表他们的客户在网页上执行操作。"
+ },
+ {
+  "seg": 76,
+  "start": 434.275,
+  "end": 439.06,
+  "speaker": "Unknown",
+  "en": "And so a browser agent actually gives you a task completed for your customer repeatedly.",
+  "zh": "所以浏览器智能体实际上带给你的是为你的客户重复地完成任务。"
+ },
+ {
+  "seg": 77,
+  "start": 439.6,
+  "end": 441.342,
+  "speaker": "Unknown",
+  "en": "Well, it gives you that ideally.",
+  "zh": "嗯,理想情况下它带给你的是这个。"
+ },
+ {
+  "seg": 78,
+  "start": 442.23,
+  "end": 455.522,
+  "speaker": "Unknown",
+  "en": "And the question is how you can create a dynamic system that affords the benefit of being able to wade through ambiguous problems while also completing the tasks repeatedly every time when the environment stays the same.",
+  "zh": "问题是,你如何创建一个动态系统,既能从涉足模糊问题中获益,又能在环境保持不变时每次都重复地完成任务。"
+ },
+ {
+  "seg": 79,
+  "start": 456.783,
+  "end": 460.747,
+  "speaker": "Unknown",
+  "en": "And so we'll look across three dimensions and in order of importance.",
+  "zh": "所以我们将从三个维度来看,并按重要性排序。"
+ },
+ {
+  "seg": 80,
+  "start": 461.748,
+  "end": 466.232,
+  "speaker": "Unknown",
+  "en": "First is performance, second is cost, and third is maintainability.",
+  "zh": "第一是性能,第二是成本,第三是可维护性。"
+ },
+ {
+  "seg": 81,
+  "start": 467.185,
+  "end": 472.328,
+  "speaker": "Unknown",
+  "en": "And when we think about performance, this is the primary measure of success that we want to focus on.",
+  "zh": "当我们思考性能时,这是我们想要关注的主要成功衡量标准。"
+ },
+ {
+  "seg": 82,
+  "start": 472.968,
+  "end": 482.073,
+  "speaker": "Unknown",
+  "en": "Because once we know a browser agent is performance, it can complete the task we asked it to do, then cost and maintainability simply become optimization problems.",
+  "zh": "因为一旦我们知道一个浏览器智能体性能达标,它能完成我们要求它做的任务,那么成本和可维护性就只是优化问题了。"
+ },
+ {
+  "seg": 83,
+  "start": 482.733,
+  "end": 486.475,
+  "speaker": "Unknown",
+  "en": "And I like optimization problems because those can be addressed with engineering.",
+  "zh": "而我喜欢优化问题,因为这些问题可以通过工程来解决。"
+ },
+ {
+  "seg": 84,
+  "start": 487.836,
+  "end": 492.338,
+  "speaker": "Unknown",
+  "en": "So the first thing we need to ask is what success actually looks like.",
+  "zh": "所以我们首先要问的是,成功实际上是什么样子。"
+ },
+ {
+  "seg": 85,
+  "start": 493.722,
+  "end": 500.806,
+  "speaker": "Unknown",
+  "en": "And success in these transactional browser trajectories look like some kind of concrete artifact that the run leaves behind.",
+  "zh": "在这些事务型浏览器轨迹中,成功的样子是运行所留下的某种具体的产物。"
+ },
+ {
+  "seg": 86,
+  "start": 501.747,
+  "end": 505.029,
+  "speaker": "Unknown",
+  "en": "If you're paying a bill, that might look like a confirmation email.",
+  "zh": "如果你在支付账单,那可能是一封确认邮件。"
+ },
+ {
+  "seg": 87,
+  "start": 505.85,
+  "end": 509.932,
+  "speaker": "Unknown",
+  "en": "If you're placing an order, that may look like an order ID or a receipt.",
+  "zh": "如果你在下订单,那可能是一个订单 ID 或收据。"
+ },
+ {
+  "seg": 88,
+  "start": 510.452,
+  "end": 517.237,
+  "speaker": "Unknown",
+  "en": "Or if you're submitting a form, that may look like a new record in a system that you can deterministically query.",
+  "zh": "或者如果你在提交表单,那可能是你可以确定性地查询到的系统中的新记录。"
+ },
+ {
+  "seg": 89,
+  "start": 518.317,
+  "end": 522.38,
+  "speaker": "Unknown",
+  "en": "Second, how often is an agent correct?",
+  "zh": "第二,智能体正确的频率是多少?"
+ },
+ {
+  "seg": 90,
+  "start": 523.362,
+  "end": 525.842,
+  "speaker": "Unknown",
+  "en": "And there's two ways to measure that.",
+  "zh": "有两种衡量方式。"
+ },
+ {
+  "seg": 91,
+  "start": 526.783,
+  "end": 531.083,
+  "speaker": "Unknown",
+  "en": "Naively, you may measure the success of an agent on a per run basis.",
+  "zh": "朴素地,你可以按每次运行来衡量智能体的成功。"
+ },
+ {
+  "seg": 92,
+  "start": 532.084,
+  "end": 533.404,
+  "speaker": "Unknown",
+  "en": "Assume you have a browser agent.",
+  "zh": "假设你有一个浏览器智能体。"
+ },
+ {
+  "seg": 93,
+  "start": 534.144,
+  "end": 537.165,
+  "speaker": "Unknown",
+  "en": "Its probability of success on any run is 50%.",
+  "zh": "它在任何一次运行中的成功概率是 50%。"
+ },
+ {
+  "seg": 94,
+  "start": 538.605,
+  "end": 548.487,
+  "speaker": "Unknown",
+  "en": "Yet, if you permit that agent to retry for a particular transaction, maybe up to four retries, your per transaction success rate quickly climbs to 94%.",
+  "zh": "然而,如果你允许该智能体针对某笔交易进行重试,也许最多四次重试,你的每笔交易成功率会迅速攀升到 94%。"
+ },
+ {
+  "seg": 95,
+  "start": 550.466,
+  "end": 555.969,
+  "speaker": "Unknown",
+  "en": "And so when you think about what metric matters, again, I'd implore that we ground ourselves in the customer.",
+  "zh": "所以当你思考什么指标重要时,我再次恳请我们把立足点放在客户身上。"
+ },
+ {
+  "seg": 96,
+  "start": 556.73,
+  "end": 564.995,
+  "speaker": "Unknown",
+  "en": "The customer does not care necessarily how many retries you perform, but rather that the workflow was completed successfully and reliably.",
+  "zh": "客户并不一定在乎你执行了多少次重试,而是在乎工作流是否成功且可靠地完成了。"
+ },
+ {
+  "seg": 97,
+  "start": 565.715,
+  "end": 571.699,
+  "speaker": "Unknown",
+  "en": "In short, permit retries and measure success against a per transaction basis.",
+  "zh": "简而言之,允许重试,并按每笔交易来衡量成功。"
+ },
+ {
+  "seg": 98,
+  "start": 574.12,
+  "end": 578.543,
+  "speaker": "Unknown",
+  "en": "Next, we'll explore costs and we'll break costs down into two dimensions.",
+  "zh": "接下来,我们将探讨成本,并将成本分解为两个维度。"
+ },
+ {
+  "seg": 99,
+  "start": 579.44,
+  "end": 583.482,
+  "speaker": "Unknown",
+  "en": "The first is per run, which today is predominantly model costs.",
+  "zh": "第一个是每次运行的成本,如今这主要是模型成本。"
+ },
+ {
+  "seg": 100,
+  "start": 584.262,
+  "end": 592.545,
+  "speaker": "Unknown",
+  "en": "But as engineering evolves in the open source landscape for models, there is an incredible downward price pressure on the cost of intelligence.",
+  "zh": "但是随着模型领域的开源工程不断演进，智能的成本面临巨大的下行价格压力。"
+ },
+ {
+  "seg": 101,
+  "start": 593.165,
+  "end": 599.468,
+  "speaker": "Unknown",
+  "en": "And I believe over time, model costs will become a smaller and smaller component of deploying browser agent trajectories.",
+  "zh": "而且我相信，随着时间推移，模型成本在部署浏览器智能体轨迹中的占比会变得越来越小。"
+ },
+ {
+  "seg": 102,
+  "start": 600.528,
+  "end": 602.649,
+  "speaker": "Unknown",
+  "en": "Next is infrastructure and compute.",
+  "zh": "接下来是基础设施和算力。"
+ },
+ {
+  "seg": 103,
+  "start": 602.969,
+  "end": 606.351,
+  "speaker": "Unknown",
+  "en": "What are the real resources you need to run your browser agent trajectories?",
+  "zh": "运行你的浏览器智能体轨迹真正需要哪些资源？"
+ },
+ {
+  "seg": 104,
+  "start": 607.253,
+  "end": 609.514,
+  "speaker": "Unknown",
+  "en": "And last is additional integration and tooling.",
+  "zh": "最后是额外的集成和工具。"
+ },
+ {
+  "seg": 105,
+  "start": 610.455,
+  "end": 619.58,
+  "speaker": "Unknown",
+  "en": "Then when we think about maintenance over time, we need to invest in observability, not only in how the agent made decisions, but what actually transpired in the browser.",
+  "zh": "然后当我们考虑随时间推移的维护时，我们需要在可观测性上投入，不仅要了解智能体是如何做决策的，还要了解浏览器里实际发生了什么。"
+ },
+ {
+  "seg": 106,
+  "start": 620.661,
+  "end": 622.362,
+  "speaker": "Unknown",
+  "en": "Second is developer time.",
+  "zh": "第二是开发者时间。"
+ },
+ {
+  "seg": 107,
+  "start": 622.942,
+  "end": 630.507,
+  "speaker": "Unknown",
+  "en": "When things break or things are not working optimally, people need to come in and reconfigure the harness or augment its capabilities.",
+  "zh": "当出现问题或运行不理想时，人们需要介入，重新配置这个 harness 或者增强它的能力。"
+ },
+ {
+  "seg": 108,
+  "start": 631.57,
+  "end": 634.892,
+  "speaker": "Unknown",
+  "en": "And last is re-evaluation as the problem changes.",
+  "zh": "最后是随问题变化而进行的重新评估。"
+ },
+ {
+  "seg": 109,
+  "start": 635.612,
+  "end": 636.352,
+  "speaker": "Unknown",
+  "en": "Sites change.",
+  "zh": "网站会变。"
+ },
+ {
+  "seg": 110,
+  "start": 636.993,
+  "end": 637.793,
+  "speaker": "Unknown",
+  "en": "Models progress.",
+  "zh": "模型在进步。"
+ },
+ {
+  "seg": 111,
+  "start": 638.233,
+  "end": 643.756,
+  "speaker": "Unknown",
+  "en": "And we need to re-evaluate our point-in-time solution to last the test of time.",
+  "zh": "我们需要重新评估我们特定时间点的解决方案，使其经得起时间的考验。"
+ },
+ {
+  "seg": 112,
+  "start": 646.378,
+  "end": 648.399,
+  "speaker": "Unknown",
+  "en": "So we talked about performance.",
+  "zh": "所以我们谈了性能。"
+ },
+ {
+  "seg": 113,
+  "start": 649.219,
+  "end": 650.48,
+  "speaker": "Unknown",
+  "en": "We talked about unit costs.",
+  "zh": "我们谈了单位成本。"
+ },
+ {
+  "seg": 114,
+  "start": 651.04,
+  "end": 652.501,
+  "speaker": "Unknown",
+  "en": "We also talked about maintainability.",
+  "zh": "我们也谈了可维护性。"
+ },
+ {
+  "seg": 115,
+  "start": 653.241,
+  "end": 655.962,
+  "speaker": "Unknown",
+  "en": "What are the risk factors to the durability of these over time?",
+  "zh": "那么这些方面随时间推移的持久性有哪些风险因素？"
+ },
+ {
+  "seg": 116,
+  "start": 656.703,
+  "end": 660.605,
+  "speaker": "Unknown",
+  "en": "Well, first and foremost, the environment can fight back.",
+  "zh": "首先，也是最重要的，环境可能会反击。"
+ },
+ {
+  "seg": 117,
+  "start": 661.496,
+  "end": 666.699,
+  "speaker": "Unknown",
+  "en": "Antibots, and just generally, we understand the web as not the friendliest place for your agent.",
+  "zh": "反机器人机制，而且总的来说，我们都知道网络对你的智能体来说并不是最友好的地方。"
+ },
+ {
+  "seg": 118,
+  "start": 667.719,
+  "end": 669.62,
+  "speaker": "Unknown",
+  "en": "Second, the task changes.",
+  "zh": "第二，任务会变化。"
+ },
+ {
+  "seg": 119,
+  "start": 670.301,
+  "end": 676.564,
+  "speaker": "Unknown",
+  "en": "The underlying job shifts beneath the agent, and we ask the agent to wade through ambiguity.",
+  "zh": "底层的工作在智能体脚下发生偏移，我们要求智能体在模糊性中摸索前行。"
+ },
+ {
+  "seg": 120,
+  "start": 677.565,
+  "end": 691.032,
+  "speaker": "Unknown",
+  "en": "Luckily, this also benefits from increase in model capability, as models are more able to intuitively understand the intention of the user, and therefore, in the face of something go wrong, course correct and ultimately complete the goal.",
+  "zh": "幸运的是，这也受益于模型能力的提升，因为模型更能直观地理解用户的意图，因此在出现问题时，能够纠正方向并最终完成目标。"
+ },
+ {
+  "seg": 121,
+  "start": 692.438,
+  "end": 695.2,
+  "speaker": "Unknown",
+  "en": "The third is a better methods appear.",
+  "zh": "第三是更好的方法出现了。"
+ },
+ {
+  "seg": 122,
+  "start": 695.961,
+  "end": 699.104,
+  "speaker": "Unknown",
+  "en": "And this is sort of a canonical conundrum with automating the web.",
+  "zh": "这是自动化网络的一个经典难题。"
+ },
+ {
+  "seg": 123,
+  "start": 699.884,
+  "end": 704.508,
+  "speaker": "Unknown",
+  "en": "What happens if I'm automating the web today and that same website creates an API tomorrow?",
+  "zh": "如果我今天在自动化网页，而那个网站明天就创建了一个 API，会怎么样？"
+ },
+ {
+  "seg": 124,
+  "start": 705.169,
+  "end": 710.093,
+  "speaker": "Unknown",
+  "en": "But for the vast majority of browser agent use cases, an API isn't coming anytime soon.",
+  "zh": "但对于绝大多数浏览器智能体的用例来说，API 在短期内不会出现。"
+ },
+ {
+  "seg": 125,
+  "start": 711.015,
+  "end": 713.197,
+  "speaker": "Unknown",
+  "en": "And finally, the model strays off tasks.",
+  "zh": "最后，模型会偏离任务。"
+ },
+ {
+  "seg": 126,
+  "start": 713.978,
+  "end": 715.739,
+  "speaker": "Unknown",
+  "en": "Models are inherently indeterministic.",
+  "zh": "模型天生是非确定性的。"
+ },
+ {
+  "seg": 127,
+  "start": 716.4,
+  "end": 722.846,
+  "speaker": "Unknown",
+  "en": "So from run to run, it may not follow the ideal path or the critical path to perform the action.",
+  "zh": "所以每次运行之间，它可能不会遵循理想的路径或执行操作的关键路径。"
+ },
+ {
+  "seg": 128,
+  "start": 726.385,
+  "end": 728.686,
+  "speaker": "Unknown",
+  "en": "Finally, we've come to the meat of the talk.",
+  "zh": "最后，我们来到了这次演讲的核心。"
+ },
+ {
+  "seg": 129,
+  "start": 729.026,
+  "end": 731.367,
+  "speaker": "Unknown",
+  "en": "How do we concretely generate shareholder value?",
+  "zh": "我们如何具体地创造股东价值？"
+ },
+ {
+  "seg": 130,
+  "start": 732.087,
+  "end": 732.847,
+  "speaker": "Unknown",
+  "en": "This is the question.",
+  "zh": "这就是问题所在。"
+ },
+ {
+  "seg": 131,
+  "start": 733.687,
+  "end": 738.609,
+  "speaker": "Unknown",
+  "en": "We understand that if a model performs well, then cost and maintainability are an optimization problem.",
+  "zh": "我们明白，如果模型表现良好，那么成本和可维护性就是一个优化问题。"
+ },
+ {
+  "seg": 132,
+  "start": 739.209,
+  "end": 740.79,
+  "speaker": "Unknown",
+  "en": "So let's explore that in practice.",
+  "zh": "那么让我们在实践中探索这一点。"
+ },
+ {
+  "seg": 133,
+  "start": 741.81,
+  "end": 747.132,
+  "speaker": "Unknown",
+  "en": "Together, we're going to go through a high-level architecture of a browser agent for real-world tasks.",
+  "zh": "我们将一起过一遍用于真实世界任务的浏览器智能体的高层架构。"
+ },
+ {
+  "seg": 134,
+  "start": 747.792,
+  "end": 751.433,
+  "speaker": "Unknown",
+  "en": "This task is automating a health insurance portal.",
+  "zh": "这个任务是自动化一个健康保险门户。"
+ },
+ {
+  "seg": 135,
+  "start": 752.455,
+  "end": 761.759,
+  "speaker": "Unknown",
+  "en": "Every step we take in creating this dynamic system should influence one of these key levers, cost, performance, or maintainability.",
+  "zh": "我们在构建这个动态系统时采取的每一步，都应该影响这些关键杠杆中的一个：成本、性能或可维护性。"
+ },
+ {
+  "seg": 136,
+  "start": 762.76,
+  "end": 765.941,
+  "speaker": "Unknown",
+  "en": "So first, we'll start with a lowly agent.",
+  "zh": "那么首先，我们从一个简陋的智能体开始。"
+ },
+ {
+  "seg": 137,
+  "start": 766.742,
+  "end": 770.143,
+  "speaker": "Unknown",
+  "en": "The goal of this agent is to log in and download an explanation of benefits.",
+  "zh": "这个智能体的目标是登录并下载一份福利说明(explanation of benefits)。"
+ },
+ {
+  "seg": 138,
+  "start": 771.184,
+  "end": 778.407,
+  "speaker": "Unknown",
+  "en": "A request comes in, the agent performs the action on the browser, and this is the minimum necessary system you need to just do something.",
+  "zh": "一个请求进来，智能体在浏览器上执行操作，这就是你要做点事情所需的最小必要系统。"
+ },
+ {
+  "seg": 139,
+  "start": 779.75,
+  "end": 787.793,
+  "speaker": "Unknown",
+  "en": "Next you realize that when you go to download that explanation of benefits, that downloading involves programmatically interacting with the page.",
+  "zh": "接下来你发现，当你去下载那份福利说明时，下载过程涉及以编程方式与页面交互。"
+ },
+ {
+  "seg": 140,
+  "start": 788.614,
+  "end": 794.696,
+  "speaker": "Unknown",
+  "en": "And then once you perform that download, you need to retrieve that file from storage and bring it into the agent's runtime.",
+  "zh": "然后一旦你完成了下载，你需要从存储中取回那个文件，把它带到智能体的运行时中。"
+ },
+ {
+  "seg": 141,
+  "start": 795.577,
+  "end": 798.818,
+  "speaker": "Unknown",
+  "en": "So you create a tool that does this all in one transaction.",
+  "zh": "所以你创建了一个工具，在一个事务里完成这一切。"
+ },
+ {
+  "seg": 142,
+  "start": 799.558,
+  "end": 805.621,
+  "speaker": "Unknown",
+  "en": "Instead of the model needing to make decisions on the fly, you encapsulate a complex operation into a single tool call.",
+  "zh": "不再需要模型在运行中临时做决策，而是把一个复杂操作封装成单次工具调用。"
+ },
+ {
+  "seg": 143,
+  "start": 806.935,
+  "end": 812.417,
+  "speaker": "Unknown",
+  "en": "Next, you want to give the agent an opportunity to verify its work real time.",
+  "zh": "接下来，你想给智能体一个实时验证自己工作的机会。"
+ },
+ {
+  "seg": 144,
+  "start": 813.358,
+  "end": 815.219,
+  "speaker": "Unknown",
+  "en": "This can be done by giving it another tool.",
+  "zh": "这可以通过给它另一个工具来实现。"
+ },
+ {
+  "seg": 145,
+  "start": 816.079,
+  "end": 823.702,
+  "speaker": "Unknown",
+  "en": "This tool is an OCR tool that deterministically extracts entities from the document and compares that against the system of record.",
+  "zh": "这个工具是一个 OCR 工具，确定性地从文档中提取实体，并将其与记录系统进行比对。"
+ },
+ {
+  "seg": 146,
+  "start": 824.603,
+  "end": 824.903,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 147,
+  "start": 825.443,
+  "end": 832.546,
+  "speaker": "Unknown",
+  "en": "Now the agent knows if it really did its job right or not because it has a deterministic mechanism to verify that.",
+  "zh": "现在智能体知道自己是否真的把工作做对了，因为它有了一个确定性的机制来验证这一点。"
+ },
+ {
+  "seg": 148,
+  "start": 833.947,
+  "end": 834.247,
+  "speaker": "Unknown",
+  "en": "Next.",
+  "zh": "下一步。"
+ },
+ {
+  "seg": 149,
+  "start": 835.735,
+  "end": 843.446,
+  "speaker": "Unknown",
+  "en": "You realize that while this portal may have ambiguity in your business logic, that the authentication workflow is never changing.",
+  "zh": "你意识到，虽然这个门户在你的业务逻辑上可能存在模糊性，但认证流程是永远不会变的。"
+ },
+ {
+  "seg": 150,
+  "start": 844.187,
+  "end": 849.734,
+  "speaker": "Unknown",
+  "en": "And you want to reuse the same authentication mechanism for many business operations on the same portal.",
+  "zh": "而且你希望在同一个门户上为许多业务操作复用同一套认证机制。"
+ },
+ {
+  "seg": 151,
+  "start": 850.658,
+  "end": 854.441,
+  "speaker": "Unknown",
+  "en": "So you pull that authentication logic out from the responsibility of the model.",
+  "zh": "所以你把那段认证逻辑从模型的责任中抽离出来。"
+ },
+ {
+  "seg": 152,
+  "start": 855.242,
+  "end": 860.327,
+  "speaker": "Unknown",
+  "en": "Again, we're reducing the number of steps that the agent has to take to complete the task successfully.",
+  "zh": "再一次，我们减少了智能体为成功完成任务所需采取的步骤数量。"
+ },
+ {
+  "seg": 153,
+  "start": 861.067,
+  "end": 873.619,
+  "speaker": "Unknown",
+  "en": "This means lower unit cogs, higher performance, and easier maintainability, as well as we can reuse this authentication function across multiple business logic workflows on the same portal.",
+  "zh": "这意味着更低的单位成本、更高的性能、更易维护，同时我们还可以在同一个门户上跨多个业务逻辑工作流复用这个认证函数。"
+ },
+ {
+  "seg": 154,
+  "start": 875.5,
+  "end": 875.881,
+  "speaker": "Unknown",
+  "en": "Last,",
+  "zh": "最后,"
+ },
+ {
+  "seg": 155,
+  "start": 877.25,
+  "end": 885.874,
+  "speaker": "Unknown",
+  "en": "We've contained the responsibility of the agent to only the area of ambiguity necessary, so we draft a skill.",
+  "zh": "我们把智能体的责任限制在必要的模糊区域之内，所以我们起草了一份技能。"
+ },
+ {
+  "seg": 156,
+  "start": 886.735,
+  "end": 900.081,
+  "speaker": "Unknown",
+  "en": "These skills look very similar to a standard operating procedure that we would have humans use in the past, except this standard operating procedure is for an agent, and it allows the agent to follow the critical path more closely.",
+  "zh": "这些技能看起来非常类似于我们过去让人类使用的标准操作程序，只不过这份标准操作程序是给智能体的，它让智能体能够更贴近地遵循关键路径。"
+ },
+ {
+  "seg": 157,
+  "start": 901.115,
+  "end": 907.94,
+  "speaker": "Unknown",
+  "en": "At the beginning of the talk, we discussed how the output of an agent can be thought of like a probability distribution.",
+  "zh": "在演讲开始时，我们讨论过智能体的输出可以被视为一种概率分布。"
+ },
+ {
+  "seg": 158,
+  "start": 908.66,
+  "end": 920.589,
+  "speaker": "Unknown",
+  "en": "So if we introduce the critical path to the agent, it knows it's at step two and knows that it needs to take step three because we have outlined it in this skill, then it's more likely to take that step three.",
+  "zh": "所以如果我们把关键路径引入给智能体，它知道自己在第二步，并且知道接下来需要走第三步，因为我们已经在这份技能中列明了这一点，那么它走第三步的可能性就更大。"
+ },
+ {
+  "seg": 159,
+  "start": 921.269,
+  "end": 925.813,
+  "speaker": "Unknown",
+  "en": "It knows exactly where it needs to go and we remove ambiguity from the agent's decision process.",
+  "zh": "它确切地知道自己需要去哪里，我们从智能体的决策过程中消除了模糊性。"
+ },
+ {
+  "seg": 160,
+  "start": 927.034,
+  "end": 927.454,
+  "speaker": "Unknown",
+  "en": "In the end,",
+  "zh": "最终,"
+ },
+ {
+  "seg": 161,
+  "start": 928.564,
+  "end": 929.724,
+  "speaker": "Unknown",
+  "en": "This is the final result.",
+  "zh": "这就是最终结果。"
+ },
+ {
+  "seg": 162,
+  "start": 930.444,
+  "end": 932.385,
+  "speaker": "Unknown",
+  "en": "We have actually a pretty complex system.",
+  "zh": "我们实际上拥有了一个相当复杂的系统。"
+ },
+ {
+  "seg": 163,
+  "start": 933.045,
+  "end": 933.985,
+  "speaker": "Unknown",
+  "en": "A request comes in.",
+  "zh": "一个请求进来了。"
+ },
+ {
+  "seg": 164,
+  "start": 934.745,
+  "end": 937.586,
+  "speaker": "Unknown",
+  "en": "A serverless authentication function authenticates the browser.",
+  "zh": "一个无服务器认证函数对浏览器进行认证。"
+ },
+ {
+  "seg": 165,
+  "start": 938.346,
+  "end": 940.587,
+  "speaker": "Unknown",
+  "en": "That browser is provided to the agent runtime.",
+  "zh": "那个浏览器被提供给智能体运行时。"
+ },
+ {
+  "seg": 166,
+  "start": 941.387,
+  "end": 955.99,
+  "speaker": "Unknown",
+  "en": "The agent navigates the portal using the skill provided, calls a deterministic download function, provides that downloaded file to a verify tool, and can know authoritatively whether its trajectory succeeded or failed.",
+  "zh": "智能体使用提供的技能在门户中导航，调用一个确定性的下载函数，把下载好的文件提供给一个验证工具，并且能够权威地知道它的轨迹是成功还是失败。"
+ },
+ {
+  "seg": 167,
+  "start": 957.393,
+  "end": 966.499,
+  "speaker": "Unknown",
+  "en": "In the end, this system takes steps out of the model's responsibility that simply do not need to be in the responsibility of the agent.",
+  "zh": "归根结底，这个系统把那些根本不需要由智能体承担的步骤从模型的责任中拿走了。"
+ },
+ {
+  "seg": 168,
+  "start": 967.099,
+  "end": 972.383,
+  "speaker": "Unknown",
+  "en": "We reduce the number of steps it needs to take while still being able to achieve the desired outcome.",
+  "zh": "我们减少了它需要采取的步骤数量，同时仍然能够达成预期的结果。"
+ },
+ {
+  "seg": 169,
+  "start": 973.023,
+  "end": 976.525,
+  "speaker": "Unknown",
+  "en": "Thus, the system's more maintainable and it's more performant.",
+  "zh": "因此，这个系统更易维护，性能也更好。"
+ },
+ {
+  "seg": 170,
+  "start": 976.885,
+  "end": 980.808,
+  "speaker": "Unknown",
+  "en": "And we can overcome the browser agent conundrum.",
+  "zh": "而且我们能够克服浏览器智能体的难题。"
+ },
+ {
+  "seg": 171,
+  "start": 981.809,
+  "end": 983.87,
+  "speaker": "Unknown",
+  "en": "So here we are.",
+  "zh": "所以我们到这里了。"
+ },
+ {
+  "seg": 172,
+  "start": 985.135,
+  "end": 986.196,
+  "speaker": "Unknown",
+  "en": "Welcome to production.",
+  "zh": "欢迎来到生产环境。"
+ },
+ {
+  "seg": 173,
+  "start": 986.216,
+  "end": 987.456,
+  "speaker": "Unknown",
+  "en": "And congrats.",
+  "zh": "恭喜。"
+ },
+ {
+  "seg": 174,
+  "start": 988.117,
+  "end": 988.797,
+  "speaker": "Unknown",
+  "en": "Now you're on call.",
+  "zh": "现在你开始值班了。"
+ },
+ {
+  "seg": 175,
+  "start": 989.638,
+  "end": 989.918,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

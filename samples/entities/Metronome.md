@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Metronome</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Metronome">ME</div><div class="pi"><h1 class="pt">Metronome</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Metronome">ME</div><div class="pi"><h1 class="pt">Metronome</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(11:38起):本集说 Metronome 是 Stripe 去年收购的相邻公司，其 CEO Scott Woody 在 Stripe 发展得很好，现在领导 Metronome 和计费工作。
 - **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(00:15起):本集说 Metronome 是按用量计费领域的顶级平台,为 OpenAI 和 Anthropic 计量所有 API 调用,今年早些时候被 Stripe 以其历史上最大一笔交易收购;现场用它搭了个模仿 Lovable 定价模式的演示计费引擎。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(11:42起):本集说 Metronome 是 Stripe 收购的用量计费公司,因为 AI 推理成本让每家 AI 产品公司都需要基于用量的计费。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Stripe]] · [[智能体]] · [[智能体商务]] · [[Stripe Projects]] · [[David George]] · [[Andrew Garvin]] · [[Will Gabrick]] · [[OpenAI]] · [[Stripe Minions]] · [[Anthropic]]
+[[Stripe]] · [[智能体]] · [[智能体商务]] · [[Stripe Projects]] · [[编码智能体]] · [[Browserbase]] · [[Privy]] · [[Bridge]] · [[David George]] · [[Andrew Garvin]]
 
-<script type="application/json" class="pd-epn">{"Stripe":45,"智能体":405,"智能体商务":1,"Stripe Projects":2,"David George":5,"Andrew Garvin":1,"Will Gabrick":1,"OpenAI":161,"Stripe Minions":1,"Anthropic":173}</script>
+<script type="application/json" class="pd-epn">{"Stripe":48,"智能体":411,"智能体商务":1,"Stripe Projects":2,"编码智能体":27,"Browserbase":4,"Privy":2,"Bridge":3,"David George":5,"Andrew Garvin":1}</script>
 
 <script>
 (function(){

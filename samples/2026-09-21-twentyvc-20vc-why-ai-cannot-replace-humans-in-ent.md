@@ -169,7 +169,7 @@ vibe coding(用自然语言让 AI 生成整个应用)他试过：做原型惊艳
 
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:开源模型 (open source)、推理 (inference)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、递归自我改进 (recursive self-improvement)</span>
 
 </div>
 </div>

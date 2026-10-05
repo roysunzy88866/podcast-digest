@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Ezinne Udezue":1,"智能体":405,"LLM":55,"评估":4,"主观能动性":1,"护栏":77,"推理":74,"微调":29,"MCP":73}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Ezinne Udezue":1,"智能体":411,"LLM":55,"评估":5,"主观能动性":1,"护栏":77,"推理":77,"微调":29,"MCP":76}</script>
 
 <script>
 (function(){

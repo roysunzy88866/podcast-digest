@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,6 +32,7 @@ unlisted: true
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(37:06起):本集说如果 AGI 指能完成人类所有认知任务的系统，那我们还没到，在物理操作灵巧度、研究品味、持续学习等方面 AI 仍然不如人类
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(28:35起):本集将所有 AI 支出框架化为「一张 AGI 的看涨期权」——如果 AGI 到了钱花得值，如果没到就会有清算，但问题在于所有人都在下同样的杠杆赌注
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(08:05起):本集说实现 AGI 的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(18:19起):本集把 AGI 说成实验室再投资的 obviously 答案:「利润拿去分红回购,还是去造 AGI?答案显而易见」。
 - **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(14:56起):本集说 AGI 原以为是条清晰的终点线，跨过去一切分明；但站上去才发现它有宽度——是一道模糊的 smear，AI 在不同任务上参差不齐，能解数学难题却查不到餐馆营业时间
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(00:00起):本集核心主题:Greg 说 2016/2017 年与 Ilya 推算 10-15 年到 AGI 基本押中,如今「我们处于 AGI 时代」,但 AGI 更像模糊光谱而非时间点。
 - **[[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]]**(15:19起):嘉宾的收尾判断：「我相信 AGI 将是被说出来的，而不是被打出来的」
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*21 条*
+*22 条*
 
 ![[2025-06-22-lennys-the-quiet-architect-peter-deng#^q3]]
 
@@ -84,9 +85,11 @@ unlisted: true
 
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q11]]
 
+![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q5]]
+
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
@@ -109,6 +112,7 @@ unlisted: true
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为概念
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为概念(提及)
+- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为概念
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为概念
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]] — 作为概念
@@ -119,9 +123,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[智能体]] · [[Lenny]] · [[NVIDIA]] · [[LLM]] · [[Microsoft]]
+[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[NVIDIA]] · [[智能体]] · [[Lenny]] · [[LLM]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":161,"Anthropic":173,"ChatGPT":96,"Meta":42,"Google":57,"智能体":405,"Lenny":68,"NVIDIA":54,"LLM":55,"Microsoft":28}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":164,"Anthropic":175,"ChatGPT":97,"Meta":43,"Google":59,"NVIDIA":56,"智能体":411,"Lenny":68,"LLM":55,"推理":77}</script>
 
 <script>
 (function(){

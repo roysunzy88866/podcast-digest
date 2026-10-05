@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Venky Ganesan]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]] [[Dylan Couzon]]
+[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":1,"NVIDIA":54,"ChatGPT":96,"Cognition":25,"Harvey":18,"Fireworks":7,"数据中心":21,"AI 工厂":3,"能源":2}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":1,"NVIDIA":56,"ChatGPT":97,"Cognition":25,"Harvey":18,"Fireworks":7,"数据中心":21,"AI 工厂":3,"能源":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>55</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>56</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -64,6 +64,7 @@ unlisted: true
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(03:23起):本集说 harness 会很快过时、变化方式反直觉;核心 harness(沙箱、权限、computer use、MCP)必须越来越复杂和安全,交互层则千变万化。
 - **[[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how|《AI 能解千年数学难题了，但它还不会「想出新点子」》]]**(55:02起):本集讨论即时学习是 harness 可解还是模型本身的问题：试过 Claude Code、Codex、多智能体、笔记工具等都没攻克；直白建议能烘焙进 harness，但高层战略必须自己学出来。
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(06:00起):模型外围的执行框架。Ari 建议开发者用官方 harness 而非自造，因为「模型是在自己的计算机使用框架上训练的」，分布内实现有速度、成本、准确率优势。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(03:28起):本集说「MCP 吃上下文」其实是 harness（智能体执行框架）的问题——MCP 规范对如何设计 harness 只字未提，全量注册工具定义是构建智能体时的失职。
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(04:27起):本集说它是调度和包装模型调用的自动化执行框架，基于任务结果在合适时机挑选合适模型，痴迷于 token 成本、能在新模型胜出时当天全量切换，且完全开源。
 
 ## ① 提到它的金句
@@ -126,7 +127,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*55 集*
+*56 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -182,15 +183,16 @@ unlisted: true
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为概念
 - [[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how|《AI 能解千年数学难题了，但它还不会「想出新点子」》]] — 作为概念
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[评估]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[MCP]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[评估]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[护栏]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"Anthropic":173,"Claude Code":94,"沙箱":74,"评估":4,"Codex":79,"OpenAI":161,"护栏":77,"MCP":73,"推理":74}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"Anthropic":175,"Claude Code":94,"沙箱":76,"评估":5,"Codex":80,"OpenAI":164,"MCP":76,"护栏":77,"推理":77}</script>
 
 <script>
 (function(){

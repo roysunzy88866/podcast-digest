@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":161,"Hugging Face":28,"多智能体":4,"智能体":405,"推理模型":6,"测试时计算":5,"思维链":8,"对齐":17,"RSI":5,"沙箱":74}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":164,"Hugging Face":29,"多智能体":4,"智能体":411,"推理模型":6,"测试时计算":5,"思维链":9,"对齐":17,"RSI":5,"沙箱":76}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"AEO":5,"SEO":7,"RAG":22,"LLM":55,"citation":2,"AI 生成内容":1,"Webflow":2,"ChatGPT":96,"Google":57}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"AEO":5,"SEO":7,"RAG":22,"LLM":55,"citation":2,"AI 生成内容":1,"Webflow":2,"ChatGPT":97,"Google":59}</script>
 
 <script>
 (function(){

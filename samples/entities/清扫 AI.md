@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jean-Denis Greze]] · [[智能体]] · [[多智能体系统]] · [[上下文窗口]] · [[智能体搜索]] · [[信任边界]] · [[信息孤岛]] · [[黑箱方法]] · [[人在回路]] · [[隐私]]
 
-<script type="application/json" class="pd-epn">{"Jean-Denis Greze":1,"智能体":405,"多智能体系统":7,"上下文窗口":13,"智能体搜索":4,"信任边界":1,"信息孤岛":1,"黑箱方法":1,"人在回路":19,"隐私":2}</script>
+<script type="application/json" class="pd-epn">{"Jean-Denis Greze":1,"智能体":411,"多智能体系统":7,"上下文窗口":14,"智能体搜索":4,"信任边界":1,"信息孤岛":1,"黑箱方法":1,"人在回路":19,"隐私":2}</script>
 
 <script>
 (function(){

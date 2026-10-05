@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]]
+[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":20,"Snowflake":19,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":27,"AGI":26,"本体":5,"数据科学智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Databricks":21,"Snowflake":19,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":27,"AGI":27,"本体":5,"数据科学智能体":4}</script>
 
 <script>
 (function(){

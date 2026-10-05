@@ -1,0 +1,172 @@
+{
+  "title_zh": "MCP 并不烂，烂的是你的智能体",
+  "tldr": "Apify 创始人兼 CEO Jan Cern 反驳「MCP 已死」论，拆解智能体滥用上下文才是真问题，并发布 MCP 的通用 CLI 客户端 MCPC。",
+  "digest_md": "这一集是一场技术演讲，标题就叫「MCP 并不烂，烂的是你的智能体」。主角是 Jan Cern,Apify 的创始人兼 CEO。MCP 是 Anthropic 差不多两年前推出的一个标准，用来安全地把工具和资源接入 AI 智能体，现在 Claude、ChatGPT 都在用它，社区里已有大约 1 万到 1.5 万个 MCP 服务器。但去年风向突变，网上骂声一片——「MCP 是错误的抽象」「MCP 是个错误」「感谢上帝 MCP 死了」，连 Gary Tan 都说「说实话 MCP 很烂」。Cern 要回答的问题就是：这些骂声到底站不站得住脚？\n\n> 【背景】Gary Tan 是 Y Combinator 的总裁兼 CEO。\n\n## 骂得最凶的「吃上下文」，其实是实现者的锅\n\n被引用最多的问题是 MCP 吃上下文。早期智能体的做法确实很朴素：接了 10 个 MCP 服务器就注册 100 个工具，你还没提问，三分之一的上下文窗口就被工具定义占掉了；之后每次调用工具，结果又塞回上下文，越滚越长、准确性下降、成本飙升。\n\n但 Cern 的关键论点是：**这不是 MCP 协议的问题，是 harness(智能体的执行框架)的问题**。MCP 规范对「该怎么设计 harness」只字未提，完全留给实现方——把工具定义无脑全量塞进上下文，是你构建智能体时的失职。\n\n## 三个解法，各有短板\n\n**解法一：子智能体**——把占用上下文的任务委托给一个新的子智能体去跑，不污染主上下文窗口。但 token 的钱照付，问题只是往后推了一点；而且上下文本来就是传递敏感信息或大数据的糟糕场所——工具返回的密码会留在上下文里，可能被后续调用或应用滥用。\n\n**解法二：渐进式工具发现**——去年年底先由 Anthropic、随后 Cursor 引入。Claude 里加了一个叫 Tool Search Tool 的工具，帮你找到其他工具、只在需要时才把那一两个加进上下文，而不是常驻 100 个。省下大量上下文，更快更便宜。简单得让人难受——人们居然现在才这么做。\n\n**解法三：CodeMode**——也是去年年底由 Cloudflare 引入，思路是把 MCP 工具不当函数、而当代码来对待。模型很擅长用 grep 这类工具在代码里导航、找定义，自然也能导航工具描述。事实证明**模型写代码、调代码比调用工具更在行，因为工具调用是一种人工构造，真实训练数据里根本不存在，那些数据得合成出来喂给模型**。可惜 Cloudflare 的实现绑死自家平台，除了示例没多少人真在用。\n\n## CLI 凭什么被拿来比？\n\n骂 MCP 的人大多捧 CLI。Cern 承认 CLI 有三个天生的优势：第一，智能体从不把整个 CLI 加载进上下文，它默认就是渐进式的，只在需要时调用，而且基本 Linux 命令它早就背熟了；第二，智能体默认把 CLI 当代码跑——你要运行 CLI 就得有沙箱或机器这类运行时，等于 CodeMode 从第一天就自带，而 MCP 是慢慢长出来的；第三，Shell 从 1969 年的 Unix 一路优化至今，那个 80 列 25 行的黑盒子，每个字节都经过 40 年打磨只传达最重要的信息——它是为人类优化的，但智能体也很喜欢，AI 实验室甚至能从 Shell 使用中合成无限量的训练数据。\n\n但 CLI 有个致命短板：**它是没有标准输出协议的本地黑盒**。你想给企业里的 CLI 做插桩监测，得去猜它底层用的是 API 还是 WebSockets;你也没法往里注入凭证。所以 CLI 只适合本地接口，远程访问还得靠 MCP。\n\n## 结论：MCP 加 CLI,而不是二选一\n\n于是 Cern 提出分工：MCP 负责标准远程访问，CLI 负责本地智能体接口——MCP 的全部协议特性，通过一个所有智能体都已经会的工具调用(叫 Bash)来暴露。会话、授权这些复杂性全部藏在 Bash 背后，智能体不用操心。\n\n落地就是他们发布的 **MCPC**——MCP 的通用 CLI 客户端，始于十二月的业余项目(那个月被称为「Claude 之冬」)。它是 MCP 协议之上的一层轻量包装，没有 LLM;支持 STDIO 本地进程和远程服务器，登录凭证存进本地 OS 钥匙串；帮助信息专为智能体优化，让它无需外部技能就能上手。每条命令都有 `--json` 选项返回纯 JSON,可以用 JQ 和管道把多个调用串成代码序列；支持 MCP 协议的新功能——服务器指令(大多数客户端连这个基本原语都不支持)、异步任务(`--task`,任务在服务器端跑、稍后取结果)、会话持久化(设置一次，Claude Code、Codex 共用同一套配置)。最近还加了 X402 支持，用来管理本地钱包。\n\n为了验证效果，他们建了一个叫 Connector Evals 的评测框架—— usual 的评测比智能体(TerminalBench 比 Codex 和 Claude Code 谁强)，他们反过来比连接器。初步结果：同样用 Claude Code 配 Sonnet 5,MCPC 和 CLI 表现相当接近，原始 MCP 虽然完成得更快，但 token 消耗明显更多。\n\n演讲收尾就是标题本身：「请别再说 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。」\n\n> 【背景】MCP 指 Model Context Protocol,Anthropic 于 2024 年底发布的智能体-工具交互开放标准；文中 OpenClaw、Peter Levels、Gary Tan 等批评言论均为演讲者现场引用的社区推文。\n\n## 本集带走\n\n- **「MCP 吃上下文」是 harness 的锅，不是协议的锅**：MCP 规范对 harness 设计只字未提，全量注册工具定义是智能体实现的失职。\n- **三种解法按成熟度选**：子智能体隔离上下文但 token 照付、敏感数据仍过上下文；渐进式工具发现(Tool Search Tool)只按需加载一两个工具；CodeMode 把工具当代码，因为模型写代码天然比调用工具强——工具调用是合成出来的能力，训练数据里本不存在。\n- **CLI 的优势是「天生」的**：渐进式、默认当代码跑、Shell 被 40 年训练数据打磨过；但它没有输出协议、不能注入凭证，远程场景离不开 MCP。\n- **最优解是组合**：MCP 管标准远程访问，CLI(通过 Bash 工具)管本地接口，把会话、授权的复杂性藏在单个工具调用背后。\n- **评测可以反过来做**：不比智能体，比连接器——Connector Evals 初步显示 MCPC≈CLI,原始 MCP 更费 token。",
+  "quotes": [
+    {
+      "en": "So basically, context is a really bad place to pass sensitive value or like large data.",
+      "zh": "所以基本上，上下文是一个传递敏感信息或大数据的非常糟糕的地方。",
+      "timestamp": "04:26",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "And sub-agents only push that problem a little further but still don't remove it.",
+      "zh": "子智能体只是把这个问题往后推了一点，但并没有消除它。",
+      "timestamp": "04:32",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "Why would you add all the 100 tools in your context all the time if you rarely need them? Typically, you just need maybe one or two.",
+      "zh": "如果你很少用到那 100 个工具，为什么要一直把它们全部放进上下文呢？通常你大概只需要一两个。",
+      "timestamp": "05:17",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "Models are better at writing and calling code than calling tools because tool calling is an artificial construct, basically, that we have to teach the LLMs to do.",
+      "zh": "模型在编写和调用代码方面比调用工具更好，因为工具调用基本上是一种人工构造，我们必须教会 LLM 去做这件事。",
+      "timestamp": "06:28",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "Every byte, every character there is optimized over 40 years to convey only the most important information.",
+      "zh": "那里的每一个字节、每一个字符都经过了 40 年的优化，只传达最重要的信息。",
+      "timestamp": "08:55",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "So basically the full complexity of MCP is hidden behind single tool call, Bash, and you don't need to worry about the sessions, authorization, all out, nothing.",
+      "zh": "所以基本上，MCP 的全部复杂性都藏在单个工具调用 Bash 背后，你不需要操心会话、授权，什么都不用管。",
+      "timestamp": "10:34",
+      "speaker": "Jan Čurn"
+    },
+    {
+      "en": "So please stop saying CLI is better than MCP because MCP plus CLI is the best.",
+      "zh": "所以请不要再说什么 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。",
+      "timestamp": "18:18",
+      "speaker": "Jan Čurn"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:18",
+      "speaker": "Unknown",
+      "en": "And from Gary Tan, who's going to speak today as well, MCP sucks honestly.",
+      "zh": "还有今天也会演讲的 Gary Tan 说：说实话，MCP 很烂。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "But that's not the problem of MCP. That's the problem of the harness.",
+      "zh": "但这不是 MCP 的问题。那是 harness 的问题。"
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Unknown",
+      "en": "So it's your job when you're building your agent to make sure you use MCP effectively. It's not the problem of the protocol, right?",
+      "zh": "所以在你构建智能体时，确保有效地使用 MCP 是你的职责。这不是协议的问题，对吧？"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Unknown",
+      "en": "So basically, context is a really bad place to pass sensitive value or like large data.",
+      "zh": "所以基本上，上下文是一个传递敏感信息或大数据的非常糟糕的地方。"
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Unknown",
+      "en": "And sub-agents only push that problem a little further but still don't remove it.",
+      "zh": "子智能体只是把这个问题往后推了一点，但并没有消除它。"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Unknown",
+      "en": "And I mean, it's so simple that it hurts even that people have to do this",
+      "zh": "我是说，这简单得让人难受，人们居然还得这么做"
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Unknown",
+      "en": "Why would you add all the 100 tools in your context all the time if you rarely need them? Typically, you just need maybe one or two.",
+      "zh": "如果你很少用到那 100 个工具，为什么要一直把它们全部放进上下文呢？通常你大概只需要一两个。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Unknown",
+      "en": "Models are better at writing and calling code than calling tools because tool calling is an artificial construct, basically, that we have to teach the LLMs to do.",
+      "zh": "模型在编写和调用代码方面比调用工具更好，因为工具调用基本上是一种人工构造，我们必须教会 LLM 去做这件事。"
+    },
+    {
+      "timestamp": "06:43",
+      "speaker": "Unknown",
+      "en": "Those have to be synthesized and put into the model.",
+      "zh": "这些数据必须被合成出来并放进模型里。"
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "Unknown",
+      "en": "So still, most agents are living in the dark ages, and they don't support these features, you know, and most MCP clients.",
+      "zh": "所以大多数智能体仍然生活在黑暗时代，它们不支持这些功能，你知道的，大多数 MCP 客户端也是如此。"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Unknown",
+      "en": "And it's a pity because the protocol has evolved a lot, added a lot of new things, but the clients don't support it.",
+      "zh": "这很遗憾，因为协议已经发展了很多，增加了很多新东西，但客户端并不支持。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Unknown",
+      "en": "I mean, Linux shell, Linux or Unix has been around from, like, 1969, when Ken Thompson and Ritchie actually created Linux.",
+      "zh": "我的意思是，Linux shell,Linux 或 Unix 从大约 1969 年就存在了，当时 Ken Thompson 和 Ritchie 实际上创造了 Linux。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Unknown",
+      "en": "Every byte, every character there is optimized over 40 years to convey only the most important information.",
+      "zh": "那里的每一个字节、每一个字符都经过了 40 年的优化，只传达最重要的信息。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Unknown",
+      "en": "So it's really optimized for people, but it turns out agents like this as well.",
+      "zh": "所以它真的是为人类优化的，但事实证明智能体也很喜欢这种形式。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Unknown",
+      "en": "You can just pipe different commands together, explore the commands, extract information from your manual pages, and basically feed this all to the models.",
+      "zh": "你可以把不同的命令用管道连在一起，探索这些命令，从手册页中提取信息，然后基本上把这一切都喂给模型。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Unknown",
+      "en": "But CLIs are a local black box with no standard out and transport protocol.",
+      "zh": "但 CLI 是一个没有标准输出和传输协议的本地黑盒。"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Unknown",
+      "en": "So basically the full complexity of MCP is hidden behind single tool call, Bash, and you don't need to worry about the sessions, authorization, all out, nothing.",
+      "zh": "所以基本上，MCP 的全部复杂性都藏在单个工具调用 Bash 背后，你不需要操心会话、授权，什么都不用管。"
+    },
+    {
+      "timestamp": "10:44",
+      "speaker": "Unknown",
+      "en": "So ladies and gentlemen, let me introduce you MCPC, which is like our universal CLI client for MCP.",
+      "zh": "那么，女士们先生们，让我向你们介绍 MCPC,这是我们的 MCP 通用 CLI 客户端。"
+    },
+    {
+      "timestamp": "14:05",
+      "speaker": "Unknown",
+      "en": "But most clients still don't support this basic primitive, which is kind of crazy.",
+      "zh": "但大多数客户端仍然不支持这个基本原语，这有点疯狂。"
+    },
+    {
+      "timestamp": "18:18",
+      "speaker": "Unknown",
+      "en": "So please stop saying CLI is better than MCP because MCP plus CLI is the best.",
+      "zh": "所以请不要再说什么 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。"
+    }
+  ],
+  "voice_script": "今天要讲的这一场，是 Apify 的创始人兼 CEO Jan Cern 的技术演讲，标题就叫「MCP 并不烂，烂的是你的智能体」。Apify 是做爬虫和智能体基础设施的老牌公司，Cern 讲的事情很具体：过去一年，网上骂 MCP 的声音一浪高过一浪，有人直接喊「MCP 是错误的抽象」「感谢上帝 MCP 死了」，连 Y Combinator 的总裁 Gary Tan 都说「说实话 MCP 很烂」。那这些骂声到底站不站得住脚？这就是这一集要回答的问题。\n\n先交代一下背景。MCP 是 Anthropic 差不多两年前推出的一个标准，用来安全地把工具和资源接入 AI 智能体，现在 Claude、ChatGPT 都在用，社区里已经有大约一万到一万五千个 MCP 服务器。可以说生态不小。但骂声里被引用最多的一个问题，是「MCP 吃上下文」——智能体的上下文窗口是有限的，早期 MCP 智能体的做法特别朴素：接了十个 MCP 服务器，就注册一百个工具。你还没提问，三分之一的上下文窗口就被工具定义占掉了；之后每次调用工具，返回结果又塞回上下文，越滚越长，准确性下降，成本飙升。\n\n听到这儿你可能觉得，这锅确实是 MCP 的。但 Cern 的关键论点恰恰相反：这不是协议的问题，是智能体的执行框架——英文叫 harness——的问题。MCP 规范对「该怎么设计这个框架」只字未提，完全留给实现方。把一百个工具的定义无脑全量塞进上下文，是你构建智能体时的失职，别赖协议。\n\n那现成的解法有哪些？演讲里过了三个，各有各的短板。第一个是子智能体：把占用上下文的任务委托给一个新的子智能体去跑，不污染主上下文窗口。听着挺好，但 token 的钱你照付，说白了，子智能体只是把这个问题往后推了一点，并没有消除它。而且有句话值得记住：上下文本质上是一个传递敏感信息或大数据的非常糟糕的地方。工具返回的密码会留在上下文里，可能被后续调用或者应用滥用。\n\n第二个解法是渐进式工具发现，去年年底先由 Anthropic、随后 Cursor 引入。Claude 里加了一个叫 Tool Search Tool 的工具，帮你找到其他工具，只在需要时才把那一两个加进上下文，而不是让一百个常驻。省下大量上下文，更快更便宜。这个办法简单得让人难受——如果你很少用到那一百个工具，为什么要一直把它们全部放进上下文呢？通常你大概只需要一两个。\n\n第三个解法叫 CodeMode，也是去年年底由 Cloudflare 引入，思路是把 MCP 工具不当函数，而当代码来对待。为什么代码反而更好？因为模型很擅长用 grep 这类工具在代码里导航、找定义，自然也能导航工具描述。更根本的原因是：模型在编写和调用代码方面比调用工具更好，因为工具调用基本上是一种人工构造，真实训练数据里根本不存在，那些数据得合成出来喂给模型。可惜 Cloudflare 的实现绑死自家平台，除了示例没多少人真在用。\n\n讲到这里，就引出了骂 MCP 的人最爱捧的对比对象：CLI，也就是命令行工具。Cern 承认，CLI 有三个天生的优势。第一，智能体从不把整个 CLI 加载进上下文，它默认就是渐进式的，只在需要时调用，而且基本的 Linux 命令智能体早就背熟了。第二，智能体默认把 CLI 当代码跑——你要运行 CLI 就得有沙箱这类运行时，等于 CodeMode 从第一天就自带，而 MCP 是慢慢才长出来的。第三，Shell 从 1969 年的 Unix 一路优化至今，那个 80 列 25 行的黑盒子，每一个字节都经过了 40 年的优化，只传达最重要的信息——它是为人类优化的，但智能体也很喜欢，AI 实验室甚至能从 Shell 的使用中合成无限量的训练数据。\n\n那 CLI 是不是就赢了？不。它有一个致命短板：它是没有标准输出协议的本地黑盒。你想给企业里的 CLI 做监测，得去猜它底层用的是 API 还是 WebSockets；你也没法往里面注入凭证。所以 CLI 只适合本地接口，远程访问还得靠 MCP。\n\n于是 Cern 给出了结论，也是这场演讲真正的立场：不是二选一，而是组合。MCP 负责标准远程访问，CLI 负责本地智能体接口——具体做法，是把 MCP 的全部协议特性，通过一个所有智能体都已经会的工具调用来暴露，这个工具就叫 Bash。用他的话说，MCP 的全部复杂性都藏在单个工具调用 Bash 背后，你不需要操心会话、授权，什么都不用管。\n\n这个思路已经落地成了他们发布的产品，叫 MCPC——MCP 的通用 CLI 客户端。它始于十二月的业余项目，那个月被社区戏称为「Claude 之冬」。MCPC 是 MCP 协议之上的一层轻量包装，本身没有大语言模型；支持本地进程和远程服务器，登录凭证存进本地系统钥匙串；帮助信息专为智能体优化，让它不需要外部技能就能上手。每条命令都有一个选项可以返回纯 JSON，用 JQ 和管道就能把多个调用串成代码序列。它还支持 MCP 协议的一些新功能，比如服务器指令——大多数客户端连这个基本原语都不支持——再比如异步任务，任务在服务器端跑，稍后取结果；还有会话持久化，设置一次，Claude Code 和 Codex 共用同一套配置。最近还加了对 X402 的支持，用来管理本地钱包。\n\n为了验证这套东西到底行不行，他们做了一个叫 Connector Evals 的评测框架。有意思的地方在于方向反过来了：平常的评测是比智能体，比如 TerminalBench 就是比较 Codex 和 Claude Code 谁更强，而他们是反过来比连接器。初步结果显示：同样用 Claude Code 配 Sonnet 5,MCPC 和 CLI 的表现相当接近；原始 MCP 虽然完成任务更快，但 token 消耗明显更多。\n\n整场演讲收尾就是标题那句话：请别再说 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。"
+}

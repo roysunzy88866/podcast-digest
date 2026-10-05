@@ -7,22 +7,59 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>John Collison</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="John Collison">JO</div><div class="pi"><h1 class="pt">John Collison</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="John Collison">JO</div><div class="pi"><h1 class="pt">John Collison</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*12 条*
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q1]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q2]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q3]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q4]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q5]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q6]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q7]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q8]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q9]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q10]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q11]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q12]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为联合主持
 - [[2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in|《Canva 联合创始人:AI 把设计成本从零变成美分之后》]] — 作为主持
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Barney Hussey-Yeo]] · [[Cliff Obrecht]] · [[Clio]] · [[Canva]] · [[智能体]] · [[智能体循环]] · [[LLM]] · [[免费增值]] · [[推荐系统]] · [[推理]]
+[[智能体]] · [[推理]] · [[Stripe]] · [[Barney Hussey-Yeo]] · [[Cliff Obrecht]] · [[Molly O'Shea]] · [[Clio]] · [[Canva]] · [[智能体商务]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Cliff Obrecht":1,"Clio":1,"Canva":5,"智能体":405,"智能体循环":5,"LLM":55,"免费增值":2,"推荐系统":1,"推理":74}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"智能体":411,"推理":77,"Stripe":48,"Barney Hussey-Yeo":1,"Cliff Obrecht":1,"Molly O'Shea":1,"Clio":1,"Canva":5,"智能体商务":1,"LLM":55}</script>
 
 <script>
 (function(){

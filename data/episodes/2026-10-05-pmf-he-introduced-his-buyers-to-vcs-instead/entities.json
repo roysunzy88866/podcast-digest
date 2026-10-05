@@ -1,0 +1,584 @@
+{
+  "episode_id": "2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-10-05",
+  "tags": [
+    "B2B 销售",
+    "创业公司故事",
+    "融资",
+    "企业客户",
+    "人脉与信任"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jonathan-awad",
+      "type": "person",
+      "role": "host",
+      "name": "Jonathan Awad",
+      "file": "Jonathan Awad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "baselayer",
+      "type": "company",
+      "role": "company",
+      "name": "Baselayer",
+      "file": "Baselayer",
+      "primary": true,
+      "how_described": "本集主角 Jonathan Awad 创办的欺诈数据联盟公司,2024 年 4 月上线,30 人团队做到八位数收入,刚融 2000 万美元 A 轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            106,
+            128
+          ],
+          "quote": "So yeah, no, I really appreciate it. Especially when you look on Twitter and some people live on Twitter, some people live on LinkedIn. It seems like people are doing $40, $50, $60 million raises in six months. But this is like a very small percentage of companies. The rest of the companies right now are like every day grinding it out. And it's been super fun at Baselayer. I mean, I had this recently.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 32,
+          "t": [
+            595,
+            675
+          ],
+          "quote": "It's just so human. And I love that. You're so right, by the way. The faster you respond to an email, the faster you respond to a Slack, the less it can say and the less you can do in that moment and the more you get away with. And so I love that SLA, like onboarding at Baselayer employees and I'm like, hey, look, we can get into the product. We can get into the industry. We get into all that stuff. Here's how we operate because this is excellent and this is what excellence is. And I've seen it before. We have investment banking background. Investment banking, it's so normal. SLA 20 minutes. SLA two minutes. Yeah, right. What else are you doing? That's the attitude. What are you, sleeping? Yeah, exactly. Who said you were allowed to sleep? Like literally, that was the energy. No matter what time of night, no matter if it's on the weekend. Weekend? What do you mean? It's just Saturday. And so I brought that energy plus, you know, the tech side of things, like a little bit more fun side of things. I'm not sure of being like this militant investment banking thing to the company. It's an expression though of, it was so good how reliable they were, how consistent they were, how on top of things they were. You knew you were going to get an answer. I loved that. And I was, I admired it so much. And it was just so excellent the way to operate that I totally agree of like, you can be like, act, we'll get back to you. And then you have like way more time and way more grace. Totally agree. So let's go back to the beginning.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 33,
+          "t": [
+            675,
+            696
+          ],
+          "quote": "I mean, obviously 20 deals closed all straight means not only did you have something people wanted, which led them to a demo, but you'd build, you know, the right enough solution that you beat whatever other competitors, whatever else they might've been considering. So tell me a little bit like, you know, 2023, 2022, whenever it was that the idea kind of came, like what was happening? What were you doing? And what was kind of the origin for, for Baselayer? You know, it's really interesting.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 45,
+          "t": [
+            967,
+            975
+          ],
+          "quote": "So back to, I took you off the storyline. So that, you know, you did the startup, then you did a few small startups. When do you get to this kind of Baselayer idea? Where does it come from?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 46,
+          "t": [
+            975,
+            1171
+          ],
+          "quote": "Yeah, so I was working in kind of identity broadly, fraud broadly, and that company was my most sales experience. Signed like 95 deals in eight months or something. And it was on a tear. COVID had just hit. You know, it was 2021 and there was this massive transformation in financial services where folks, when I say folks, I mean banks, lenders, payments companies, folks. Financial services before could rely on face-to-face, coming to my branch, coming to my company. I know you. I see you. I can onboard you. In COVID, 2020, they didn't do that. PPP, so many hundreds of billions of dollars was handed out in the Paycheck Protection Program. So all these businesses were applying online for the first time. All these banks were decisioning for the first real time. And no matter what any financial services company says to you, very few, even the really big ones, were doing that much digitally. And for the most part, it was really just like the top 10. Not even the top 10. Some scattering, smattering of the top 10 had a bunch of digital. Very little, actually, like half the top 10 didn't. When I say top 10 banks, lenders, payments companies, and then most of the rest was just, weren't relying on digital as much. And then they had to. And so that was this humongous moment, basically, of massive transformation in the industry. And I was at a company that was doing pretty well. And I learned a lot really fast. And there's just so many ideas that were constantly coming because they kept asking. You have that many signed deals. I'm talking to hundreds and hundreds more, obviously, right? Like, even at a 40% win rate over time, you're still dealing and juggling. I probably juggled 400 or 500 deals over the course of that, those 12 months, which sounds crazy. And it is. It was the most I ever worked besides Baselayer. It was like that and then Baselayer. And they just gave me so many ideas and they asked so many questions and they literally like, hey, can you do this? Can you do this? Can you do this? And so I took a bunch of them and I brought it internal and I was like, hey, like, I wrote up PRDs. I have all these customers who want it. Like, this is how we source the data and the product, et cetera. And I got a lot of no's. Hey, you're in sales. They in sales. And I was like, okay, that's kind of not good enough for me. And then I met Tim and I love the way I met Tim. We literally met out via mutual friend. Tim went to Columbia undergrad and he was math econ. One of our mutual best friends, I met him in high school, went to Bronx High School of Science in New York. Shout out to Bronx Science. And he went to Columbia as well. Our friend Andrew, so Tim's a co-founder, Andrew. Andrew's a CS engineer and then after was an engineer for a bit, became a DJ. Like a really good one too. He's pretty popular. And we met out one night, myself, Tim, and we were just with Andrew. And then I was just like ranting and raving about some startup ideas I had in 2022. And Tim, we're in the back of a yellow cab and Tim's just asking a question, question, question. I was like, who are you? These are amazing questions. And Tim's just this awesome, super cool, like very tall, awesome guy. And he was like, oh, CTO of a machine learning company. He just sold to Snapchat two years ago. And I'm getting kind of bored. I'm getting antsy. Like I want to do something. I'm like, amazing. Let's start a company. And he looks at me.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 116,
+          "t": [
+            2937,
+            2971
+          ],
+          "quote": "It depends. It basically is like, I hit up, call it 20 VCs and 10 of them are investors in Baselayer. And I'm like, hey, here's this person. Here's their profile. Here's their, you know, vague interest of an idea. We'd love for you guys to meet them. Just hear it out. Like, see what's going on. You know, make the connection, see what happens. And, you know, I ended up scouting for a couple funds as a result of this method. Funny enough, there's actually kind of a poofer. And I've invested in a bunch of them. Funny enough, and there's a bunch of angel investments on my LinkedIn. So you can see that. But a bunch are always like, wait, yeah, cool. Because these buyers are like senior people.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "product market fit",
+      "file": "product market fit",
+      "primary": true,
+      "how_described": "本集核心概念:Jonathan 认为「在证据量没到压倒性之前,你不能正当地说自己找到了 product market fit」——他的证据是连续赢下 20 单、最初 50 单里就有一单七位数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            18
+          ],
+          "quote": "When I felt true product market fit, it was this moment upon reflection, like we just won another deal and we're going through the pipeline, we're going through HubSpot and we realized that we had just won the last 20 deals in a row. People in the beginning are buying the founder. They're buying you. So if you're just only talking about your product,",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 2,
+          "t": [
+            18,
+            75
+          ],
+          "quote": "well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. If something goes wrong, is your SLA 20 minutes? Are you going to duck and dive and cover? I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible and I'm valuable to them and I give them something outside of just our product, they'll give us a chance. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance and then segment them out week, week, week, week. And that's what we did. What I didn't know, which is why the story is crazy, week one, SVB crashed. Oh God. That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 13,
+          "t": [
+            197,
+            226
+          ],
+          "quote": "We're going to get into all that. We have like two tactical deep dives we want to go into. Actually, we're going to talk about because you saw you still selling five figure deals and moving up to six figure deals. And you've got this like hack to deliver value to champions and get credibility with enterprise buyers. We're going to go deep into that. We're going to go deep into what you've done to grade just to generate kind of insane top of funnel and something that everybody could do. So we're going to talk about that at the end. But the first question which we always start with is tell me about the moment when you felt like you'd found true product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 14,
+          "t": [
+            226,
+            264
+          ],
+          "quote": "Yeah, I love this question. I actually just wrote a post on the best questions to ask founders in interviews. Like when you're actually trying to interview for the company, not just like something like this. But I love when employees and future employees ask me like this particular question because it's so fun. When I felt true product market fit, it was this moment upon reflection like we just won another deal and we're going through the pipeline. We're going through HubSpot and we realized that we had just won the last 20 deals in a row. Like no matter who the competitor was, no matter the situation, the ICP, you know, the different products that we're selling, we just won back to back to back to back.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 24,
+          "t": [
+            435,
+            495
+          ],
+          "quote": "Like I love to, it's just delight. It's this, whoa, did the CEO, did the CTO, did the engineer, one of the engineers just respond to me in a few minutes, but the 20 minutes is super doable and it's all about the act. I saw this on Twitter yesterday, somebody brought it up. Someone from A16Z brought it up of like, act. Are they saying acknowledged, acknowledged, or act like in disgust? But the act is a, is a classic engineering thing. Like act, acknowledge, I hear you, I'll get back to you. And there's just so much delight there. And so in our first few customers, it was all about just get back to them so fast. Yes, yes, I hear you. We see it. We're going to work on it. And then as fast as you can turn around, as, possible. And I think that's why we got so much good feedback in the beginning from all those customers. And then we were able to hit this, you know, product market fit probably like just within the year, like early the following year. I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence. You know, some people get there even faster,",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 135,
+          "t": [
+            3569,
+            3576
+          ],
+          "quote": "like top piece of advice? I mean, we mentioned a lot of things. I think we've delivered a lot of value, but anything else top of mind for founders, early stage founders looking for product market fit.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "fraud-consortium",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺诈数据联盟 (fraud consortium)",
+      "file": "欺诈数据联盟",
+      "primary": true,
+      "how_described": "Baselayer 的产品思路:把上百家金融机构的欺诈名单(不含 PII,法律上可共享)汇总起来给企业打标签,解决「Brex 封号后客户转头去 Ramp 继续欺诈」的互通难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            1380,
+            1453
+          ],
+          "quote": "we just hung out a bunch and we just jammed. And then we called a bunch of my friends and prospects and customers and managing director at a very large credit card company, a partner, executive director at a big bank. And then just like the list goes on. We talked to probably like 70, 80 of just my friends, my past deals. And I was like, Hey, what do you need? Just help me out. And there's this common thread of, well, here's this extremely difficult thing that I don't think you can do. But if you did, I'm down. And that was a fraud consortium. And a fraud consortium is very simple. You go to a hundred of the top lenders, payments companies, banks, whatever. You get all of their list of fraud, which they could share if they felt like it, because it doesn't have to be PII. It doesn't have to be actually personally identifiable information. And basically like their, like imagine scale AI, you go and get their labeled data across all of them that they never would share with each other. You go and label a bunch of businesses is what the idea was versus people or attributes. And then each one could benefit from that because what's currently happening in financial services and lending and payments, especially now with the fraud grown rampant with agents, is you go and onboard somewhere, some bank, some lender, go to Brex. Brex shuts you down because like, oh, this is a fraud. And then you just go to ramp.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "svb",
+      "type": "company",
+      "role": "company",
+      "name": "SVB",
+      "file": "SVB",
+      "primary": true,
+      "how_described": "硅谷银行,本集讲它恰在 Jonathan 融资第一周的周四崩盘,导致第二、三周 40% 的投资人会议被取消,他自己因此经历了人生第一次恐慌发作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18,
+            75
+          ],
+          "quote": "well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. If something goes wrong, is your SLA 20 minutes? Are you going to duck and dive and cover? I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible and I'm valuable to them and I give them something outside of just our product, they'll give us a chance. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance and then segment them out week, week, week, week. And that's what we did. What I didn't know, which is why the story is crazy, week one, SVB crashed. Oh God. That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1586,
+            1637
+          ],
+          "quote": "okay. And then after that, YC, shout out YC. Amazing. Definitely, I recommend doing that. And then, it's what we did, which is not the bottom. There is the bottom. I don't want to get into the bottom because it's mildly offensive. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance, like a month in advance, and then segment them out. Week, Week, Week, Week, and that's what we did. What I didn't know, which is why the story is crazy, is it was one week, you know, week one, week two, week three, a month in advance, right? Week one, SVB crashed. Oh, God. That's why the story's crazy because I didn't realize that and I was like, oh, we got this. 75 funds, tier ones, tier twos, tier threes. I've never raised before, so like, you know, like, we got a lot of experience here now. We got this. SVB crashed on the Thursday of week one year.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1639,
+            1654
+          ],
+          "quote": "Shout out to our investors. I'll never forget, Anamitra, A4 Capital. The conviction that this man had to be like, my money's in SVB in First Republic, but I'm still in. Crazy. You don't want to leave your rap. Crazy. Plus, you're in fintech. Like, this stuff is like adjacent.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1659,
+            1662
+          ],
+          "quote": "And also, all the VC's money is in SVB.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1662,
+            1716
+          ],
+          "quote": "Yeah. All the portfolio company's money is in SVB. And then First Republic is the real kicker, by the way. That was even worse. Basically, day one, going so well, getting some commits. I was saying it's safe, whatever. Getting some commits. I'm like, oh, I'm feeling good. Day two, even more. And like, we're going quick. Day three is Wednesday. The rumblings, Reddit, Twitter. What's going on? People say, have you seen this? I'm like, oh, no, no, no. This would be the worst timing of all time. No way. Thursday morning, SVB, everyone's wiring out. Everyone's telling each other to get money out, out, out, out. Thursday night, all wires done by SVB. All done. Thursday night into Friday morning, so many meeting cancellations. I mean, 40% of week two and week three canceled. And I was like, did I just use my entire network and tell everyone I'm raising?",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "fis",
+      "type": "company",
+      "role": "company",
+      "name": "FIS",
+      "file": "FIS",
+      "primary": true,
+      "how_described": "全球上市公司、美国最大的金融科技公司之一,是 Baselayer 最初 50 个客户之一,签下七位数合同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            326,
+            374
+          ],
+          "quote": "Yeah. And that head start can fade though. And so, you know, when you do 20 in a row, this was like after the first like 20, 30 deals. Like, all right, cool. Like a bunch of the early ones and we'll get into the early ones were, you know, maybe not as replicable and then just back to back to back to back. And these are big companies too. You know, we went from five figure to six figure. One of our first 50 deals was a seven figure deal. Shout out to FIS, global public company and one of the largest fintechs in America, one of the largest fintechs in the world. And it was one of our first 50 customers. So it was awesome. And that's the moment I was just like, we are here and we figured it out. You know, Tim, our co-founder, CTO, him and the engineering team, they really built something super durable, enterprise ready. And, you know, we've had really no trend. I think one customer has turned all time",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 67,
+          "t": [
+            1657,
+            1658
+          ],
+          "quote": "Like, all the FIs are going to be frozen?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1813,
+            1839
+          ],
+          "quote": "Why would you? So hit that follow button. Trust me, it's in your own best interest. That's wild, dude. I want to make sure we have enough time for the tactics at the end, but I do want to understand. So now you've, you've got some money, like a three, $4 million. You've got the, the, your co-founder and you have the idea. The idea depends on getting like all these FIs to like, agree to share data with you. That seems like the hard part of this equation. How do you start to make that happen? Yeah. You know, there's a lot of,",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "本集说「YC 买 YC 的东西」是巨大的起步福利,在销售和融资上都能带来疯狂动量,Jonathan 说二次创业很乐意去做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            267,
+            311
+          ],
+          "quote": "20 in a row. And it was one of those moments where I was just like, wait a second. I think we're on to something. I think now I'm feeling like this makes a ton of sense. And because there's a lot of things where in the early days, you can think of it as some people have a very hard time getting the first few customers and some people have actually decently easy time getting the first few customers. What do I mean by easy time? Like you kind of go to your friends, you go to people you already really know and they kind of just help you out. Like, yeah, sure. Like we'll try it out. Yeah, we'll pay for it. Yeah, sure. I could figure out some budget for this. We'll give you some feedback. I got you. Especially like the YC world, right? It's like YC buys from YC. It's very normal. It's actually a huge perk of going to YC, quite frankly. It's something I would love to do second time around, third time around.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 17,
+          "t": [
+            311,
+            326
+          ],
+          "quote": "It's a crazy hack. I mean, it really is a crazy hack, YC. Just to go on a tangent, it's like you get crazy momentum on sales because you sell to the batch and then you get crazy momentum on fundraising because like the supply demand is so off because they throw like a thousand investors at you. So it's a nice little head start for sure.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1586,
+            1637
+          ],
+          "quote": "okay. And then after that, YC, shout out YC. Amazing. Definitely, I recommend doing that. And then, it's what we did, which is not the bottom. There is the bottom. I don't want to get into the bottom because it's mildly offensive. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance, like a month in advance, and then segment them out. Week, Week, Week, Week, and that's what we did. What I didn't know, which is why the story is crazy, is it was one week, you know, week one, week two, week three, a month in advance, right? Week one, SVB crashed. Oh, God. That's why the story's crazy because I didn't realize that and I was like, oh, we got this. 75 funds, tier ones, tier twos, tier threes. I've never raised before, so like, you know, like, we got a lot of experience here now. We got this. SVB crashed on the Thursday of week one year.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "sla",
+      "type": "concept",
+      "role": "concept",
+      "name": "SLA",
+      "file": "SLA",
+      "primary": true,
+      "how_described": "Jonathan 在 Baselayer 定的内部规矩:客户在 Slack 和邮件里的消息 20 分钟内必须回复、他自己冲一两分钟去;源自投行的「SLA 20 分钟、SLA 两分钟」文化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18,
+            75
+          ],
+          "quote": "well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. If something goes wrong, is your SLA 20 minutes? Are you going to duck and dive and cover? I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible and I'm valuable to them and I give them something outside of just our product, they'll give us a chance. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance and then segment them out week, week, week, week. And that's what we did. What I didn't know, which is why the story is crazy, week one, SVB crashed. Oh God. That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 22,
+          "t": [
+            399,
+            434
+          ],
+          "quote": "But it was like, in the beginning, you know, you get a few customers here, you get a few customers there. There were a lot of deals that were kind of like pending, if that makes sense. A lot of kinks that we had to iron out and shout out to our first, you know, real few customers. Super patient with us, giving us tons of feedback, saw how fast we moved. And something that I always say is one of the reasons people love to work with us is I have an internal SLA of we need to get back to customers on Slack and email in under 20 minutes. Wow. Aggressive. When you put that tone, I mean, I'm, if I, I go for two minutes, one minute.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 27,
+          "t": [
+            507,
+            544
+          ],
+          "quote": "the funny thing about customer success, you're talking about like getting back to people quickly. I find it's the most, out of all the things you need to do to get customers, win customers, retention, referrals, all that stuff, right? You think about sales, marketing. Customer success is like the most in your control. Like everybody could have this SLA. Everybody could reply under 20 minutes if they just did it. You know what I mean? And the impact that that has on retention and referrals is massive, right? Like you tell people about the fact that you love this company because whenever you have a problem, they just get back to you right away. You know, you're never going to churn from that if you're getting any value from the product, you're not going anywhere.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 32,
+          "t": [
+            595,
+            675
+          ],
+          "quote": "It's just so human. And I love that. You're so right, by the way. The faster you respond to an email, the faster you respond to a Slack, the less it can say and the less you can do in that moment and the more you get away with. And so I love that SLA, like onboarding at Baselayer employees and I'm like, hey, look, we can get into the product. We can get into the industry. We get into all that stuff. Here's how we operate because this is excellent and this is what excellence is. And I've seen it before. We have investment banking background. Investment banking, it's so normal. SLA 20 minutes. SLA two minutes. Yeah, right. What else are you doing? That's the attitude. What are you, sleeping? Yeah, exactly. Who said you were allowed to sleep? Like literally, that was the energy. No matter what time of night, no matter if it's on the weekend. Weekend? What do you mean? It's just Saturday. And so I brought that energy plus, you know, the tech side of things, like a little bit more fun side of things. I'm not sure of being like this militant investment banking thing to the company. It's an expression though of, it was so good how reliable they were, how consistent they were, how on top of things they were. You knew you were going to get an answer. I loved that. And I was, I admired it so much. And it was just so excellent the way to operate that I totally agree of like, you can be like, act, we'll get back to you. And then you have like way more time and way more grace. Totally agree. So let's go back to the beginning.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 102,
+          "t": [
+            2441,
+            2511
+          ],
+          "quote": "And I did a lot of all-nighters. If you're not doing any all-nighters, you don't have enough on your plate. You're not loading yourself up with enough people to get back to, things to respond to, things to build. Your timelines, for when you think it's acceptable to do a task, is too long. I'm all about like, what do you mean today? Like, we could just do that today. It'll take two minutes, just do it today. And if you do enough, it'll take 10 minutes to do it today. Well, you could think of probably 100 things, and that's 1,000 minutes. So, 1,000 minutes, it's like, we can think of a lot of things that take 10 minutes, and I'm all about doing it today. And so there's so many things, like, you end up doing just an all-nighter. And we did so many all-nighters, Tim and I, shout out to Tim, as always. We've done multiple all-nighters, two all-nighters back to back. We just put super aggressive timelines. We promise it. We're like, well, if we did all-nighter, could we finish it? And we're like, well, yeah, we could. I'm like, well, why aren't we? What are we waiting for? Like, I really always tell people the SLA of 20 minutes is so important. The reaching out to a few hundred more people, 200 more people, that first message, that first touch, do it today. If you do it today, the clock starts from now. I'm all about that, and I think people just miss that, because it's hard. I think, you know,",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "customer-success",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户成功 (customer success)",
+      "file": "客户成功",
+      "primary": true,
+      "how_described": "本集说它是所有增长手段里最在你掌控之内的——人人都能做到 20 分钟回复,但它对留存和转介绍的影响是巨大的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            507,
+            544
+          ],
+          "quote": "the funny thing about customer success, you're talking about like getting back to people quickly. I find it's the most, out of all the things you need to do to get customers, win customers, retention, referrals, all that stuff, right? You think about sales, marketing. Customer success is like the most in your control. Like everybody could have this SLA. Everybody could reply under 20 minutes if they just did it. You know what I mean? And the impact that that has on retention and referrals is massive, right? Like you tell people about the fact that you love this company because whenever you have a problem, they just get back to you right away. You know, you're never going to churn from that if you're getting any value from the product, you're not going anywhere.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "type": "concept",
+      "role": "concept",
+      "name": "互惠 (reciprocity)",
+      "file": "互惠",
+      "primary": true,
+      "how_described": "Jonathan 反复强调的人类天性:不能开口就要东西,先对人有用、持续给予不求回报,「你付出得越多,你得到的就越多」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18,
+            75
+          ],
+          "quote": "well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. If something goes wrong, is your SLA 20 minutes? Are you going to duck and dive and cover? I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible and I'm valuable to them and I give them something outside of just our product, they'll give us a chance. And that's what we did, which is basically get introduced to tons of investors for the first time and plan out all the meetings like a month in advance and then segment them out week, week, week, week. And that's what we did. What I didn't know, which is why the story is crazy, week one, SVB crashed. Oh God. That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 114,
+          "t": [
+            2805,
+            2935
+          ],
+          "quote": "well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. And I'm going to duck and dive and cover. I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible, and I'm valuable to them, and I give them something outside of just our product, they'll give us a chance. And then you kind of look around here. What do I have? What can I give you? And I think humans are all the same. It's money powerful. That's kind of it. You can't just hand people money, but you can give things that are super valuable. Your network is super valuable. Your connections are super powerful. And so I saw this thing where I was like, well, a lot of people really love talking to me. And it was a little different when I was an AE, you know, a salesperson versus founder. They seem like they just like there's something fun about talking to a founder, something fun about, you know, going to these events and meeting VCs and, you know, feeling like, ooh, maybe I could be a founder too. Like maybe I could see myself in Jonathan C. And I kind of hit. That's why the great thing about doing the approach of just meeting as many people as possible is you could do events, bring a lot of people together, and then you could bring the VC. Bring the partner at Goldman who isn't a buyer for you necessarily, but it's just like a cool person to know. You could bring the person who's an exec at like LVMH. I know a lot of people in fashion and modeling randomly, right? Like you could bring all these cool people together. And that's really interesting. But a hack I did, and I haven't done it recently in like all like the last six months because I think you're going to scale past it. So I don't mind sharing this. Easy, like one of the easiest methods I found is just getting really deep with someone very quickly. And just saying like, hey, have you ever thought about being a founder? You have any ideas? And these are the buyers, like the person who could sign and the person who influences, et cetera. And so many of them were like, actually, yeah, I totally have. I have the dream. I have the vision. Like there's always been this little itch I always wanted to scratch. And really easily, I was like, well, we have a lot of VCs. I have a lot of friend VCs. Do you want to meet any? And I'm telling you, whenever they say yes, it's 100% of the time we work together. It's never failed. Not one time. I've done it, call it like 40 times or something. Wow. Like 40 times. And you give like one VC intro or like a bunch?",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "top-of-funnel",
+      "type": "concept",
+      "role": "concept",
+      "name": "漏斗顶端 (top of funnel)",
+      "file": "漏斗顶端",
+      "primary": true,
+      "how_described": "本集的战术深挖之一:Jonathan 靠每天成百上千条消息、参加大量活动、发市场地图等把外联量拉到夸张程度来制造漏斗顶端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            197,
+            226
+          ],
+          "quote": "We're going to get into all that. We have like two tactical deep dives we want to go into. Actually, we're going to talk about because you saw you still selling five figure deals and moving up to six figure deals. And you've got this like hack to deliver value to champions and get credibility with enterprise buyers. We're going to go deep into that. We're going to go deep into what you've done to grade just to generate kind of insane top of funnel and something that everybody could do. So we're going to talk about that at the end. But the first question which we always start with is tell me about the moment when you felt like you'd found true product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1988,
+            2044
+          ],
+          "quote": "let's talk about that. Like this is one of the, one of the two deep dives I want to do is, is kind of generating top of funnel, right? And so I think it seems like this is going to be key. And then even the bottom of funnel stuff, the credibility piece, we'll probably do both of those, because they seem to tie into ultimately getting everybody to cooperate and share data with you, which is how you even build a product. So let's go deep on that. Like, maybe it's the same now, but let's go back then, because this is what we're talking about. What is an average week for you? Like a hundred hour weeks, sometimes I do the math. Like I do not work on it hour weeks, right? But I'm, I'm not a founder, right? So it's just, it really is different. I've been a founder and it's, it's funny. Like I think any VC that hasn't been a founder just really doesn't know. I mean, it's just so different. The workload is so different. The pressure is so different, but sometimes I think about a hundred hour weeks and I'm like, man, how does that even math out? So let's maybe start there. Then we can talk about the tactics, you know, what you're messaging, what you're reaching out on LinkedIn, et cetera. But I think detail is the key. So somebody can actually measure themselves against that and be like, what more could I be doing to just get more, more certainty,",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 104,
+          "t": [
+            2565,
+            2658
+          ],
+          "quote": "CEO's job is to build and sustain momentum. I totally agree. And if I'm messaging so many people, my calendar's so stacked, everyone, we're talking to everyone, we're going here, we're going there, we're posting on LinkedIn, we're going on Twitter, we're doing an event, we're doing this, it just feels like, whoa, so much is going on, whoa. Oh my God, Jonathan's is tornado. And then people get excited. And then the excitement breeds excitement. It inspires more work. And when I'm grinding and they see me late nights, they see me doing so much. Then when I say, hey, like, can we do it today? Then they're like, all right, we'll do it today. Like, fine, we'll do it today. There's so many people on our team. And, you know, I got to credit so many people. Juan on our team, Solutions Engineer Lead and one of our core products focus people. I'm telling you, this man had worked so hard for so long on our team. Shout out to Juan. And you don't have to tell him, probably have to do a late night on this one. Like, you kind of have to. It's like, hey, like, here's a bunch of things. Do you think we can get it all by Wednesday? And it's like way too many things for most people. And he's like, yeah, let's do it. And then he, on his own, shout out. That's why I'm giving him shout out. And we've given him many raises and we love Juan. He's just, he sometimes does a very late, four or five a.m. night or an all-nighter on his own. I never have to ask him to do it. He just knows that urgency is everything. Time is everything. If you get more done now, we're going to learn if we all put in the effort, if we all really care. And I think for top of funnel for early stage founders, whatever you think you're doing, if you 10X it, wouldn't that be much better?",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 108,
+          "t": [
+            2692,
+            2696
+          ],
+          "quote": "That sounds really difficult. So that's top of funnel.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2726,
+            2782
+          ],
+          "quote": "of the top of funnel method is there's so much power in your network. There's so much power there that you can have so many assets to play with and to use and to be valuable. And at the end of the day, buyers don't typically, and I'm going to throw up a random stat, like this is a fake stat, but it's directionally correct. 80% of the time, 90% of the time, they're not going to get paid to buy your thing. If they buy your thing, they don't make more money. You don't always get promoted. And very frequently, such as a fairly safe startup, they can get fired. So they're taking this huge risk on you, this huge bet on you. And maybe you move an OKR for them. And maybe that's tied to their comp. And maybe it's valuable. But likely, this is what happens. They try your thing. They have to convince a ton of people. They're nervous half the time. And if anything goes wrong, immediately they're like, who did this? If anything goes catastrophically wrong, they could get fired. Especially if it's more than like a thousand dollars, two thousand dollars, whatever. Ten figure, you know, five figure thing, six figure thing. Like, yeah,",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "swag-selling",
+      "type": "concept",
+      "role": "concept",
+      "name": "swag selling",
+      "file": "swag selling",
+      "primary": true,
+      "how_described": "Jonathan 自创概念(Sell Without Acting Greedy):「我们做的东西很棒,你想要就好,不想要我也不在乎」,用这种不卑不亢的自信气场撑过销售的每一天。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            3648,
+            3676
+          ],
+          "quote": "I came up with this concept called swag selling, which is sell without acting greedy, S-W-A-G, but with swag and with confidence. So without acting greedy is like, look, we've made something amazing. If you want it, great. If you don't, I don't care. Let's just be friends and like we'll figure it out. Everyone else wants it. Tons of other people are using it. We're so busy. It's fine. If you don't want the thing your competitor has, if you don't want the thing that's going to get you promoted or make you look amazing at work, that's fine.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": true,
+      "how_described": "本集用它举例说明欺诈数据不互通的问题:客户在 Brex 因欺诈被封号,Brex 不会告诉 Ramp,欺诈者就换个地方继续。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            1380,
+            1453
+          ],
+          "quote": "we just hung out a bunch and we just jammed. And then we called a bunch of my friends and prospects and customers and managing director at a very large credit card company, a partner, executive director at a big bank. And then just like the list goes on. We talked to probably like 70, 80 of just my friends, my past deals. And I was like, Hey, what do you need? Just help me out. And there's this common thread of, well, here's this extremely difficult thing that I don't think you can do. But if you did, I'm down. And that was a fraud consortium. And a fraud consortium is very simple. You go to a hundred of the top lenders, payments companies, banks, whatever. You get all of their list of fraud, which they could share if they felt like it, because it doesn't have to be PII. It doesn't have to be actually personally identifiable information. And basically like their, like imagine scale AI, you go and get their labeled data across all of them that they never would share with each other. You go and label a bunch of businesses is what the idea was versus people or attributes. And then each one could benefit from that because what's currently happening in financial services and lending and payments, especially now with the fraud grown rampant with agents, is you go and onboard somewhere, some bank, some lender, go to Brex. Brex shuts you down because like, oh, this is a fraud. And then you just go to ramp.",
+          "speaker": "Jonathan Awad"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1453,
+            1454
+          ],
+          "quote": "Right. Brex doesn't tell them.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1454,
+            1472
+          ],
+          "quote": "Yeah. And Brex doesn't report it to the, no offense to Brex, they're not, they're not reporting to the government. And if the government, even if when they do get a report, it's called like a SARS, a suspicious activity report. There was 5 million SARS filed last year. Guess how many percent wise were enforced of the 5 million? Just pick a percent. 20%. I mean,",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "本集只在讲欺诈联盟逻辑时顺带提到:在 Brex 被封的欺诈者转头就去 Ramp 申请。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            1380,
+            1453
+          ],
+          "quote": "we just hung out a bunch and we just jammed. And then we called a bunch of my friends and prospects and customers and managing director at a very large credit card company, a partner, executive director at a big bank. And then just like the list goes on. We talked to probably like 70, 80 of just my friends, my past deals. And I was like, Hey, what do you need? Just help me out. And there's this common thread of, well, here's this extremely difficult thing that I don't think you can do. But if you did, I'm down. And that was a fraud consortium. And a fraud consortium is very simple. You go to a hundred of the top lenders, payments companies, banks, whatever. You get all of their list of fraud, which they could share if they felt like it, because it doesn't have to be PII. It doesn't have to be actually personally identifiable information. And basically like their, like imagine scale AI, you go and get their labeled data across all of them that they never would share with each other. You go and label a bunch of businesses is what the idea was versus people or attributes. And then each one could benefit from that because what's currently happening in financial services and lending and payments, especially now with the fraud grown rampant with agents, is you go and onboard somewhere, some bank, some lender, go to Brex. Brex shuts you down because like, oh, this is a fraud. And then you just go to ramp.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集作为「对客户可以合理模糊」的例子:可以暗示「我们在和 Stripe 谈」,因为机构太大,细节没人追究。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            3378,
+            3480
+          ],
+          "quote": "The truth of the matter is, and it is what it is, and we're past this point, so I'm happy to say it. The truth of the matter is, if you're not willing, if you're selling a product like this, like a network product, or hey, who's using it? Oh, I say, who's using your product? Who else uses it? If you're not willing to massage the truth a little, you will never succeed. Just, that's it. I'm going to say it. A lot of people said it in private. I'll say it in public. You will never succeed because your product could be amazing, but a lot of people make a decision who have used it. So if the answer is a catch-22, circular loop, you will never get out of the loop. So you have to massage the truth a little bit, but it's because you've had so many conversations. A lot of people are interested. Do that for customer stuff. I don't think you should do it for investor stuff. I think a lot of founders get caught up lying about the investor side of things. I think that's a huge mistake because all these investors talk so easily. Never name drop an investor who's not actually in your round when you're trying to raise your round because it will come back so fast and you're able to buy you in the ass. Definitely never, ever do that. First off, never name drop an investor you're talking to ever anyway, but very different, in my opinion, on the customer side because these institutions are so big. You're like, yeah, we're talking to Stripe. Who are you talking to Stripe? Who knows? It kind of doesn't matter, right? So that's the type of thing. There's ways to massage it. There's ways that it's super useful and it works. Who is, are you talking to Stripe? Yeah, you could imply that they're working with you. And it's like, oh, it's fine. It's kind of like a simple thing to do and it works super, super, super well and it has never bitten me in the ass. I'm going to say it. It is what it is. On the investor side, never do it. I learned the hard way from my friends. A bunch of my friends did it. It totally backfired and I heard it through other investors. Never do that huge faux pas.",
+          "speaker": "Jonathan Awad"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

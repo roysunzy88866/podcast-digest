@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
+[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":54,"Hugging Face":28,"开源":35,"蒸馏":1,"推理":74,"新云":3,"前沿模型":24,"垂直 AI":2,"智能体":405}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":56,"Hugging Face":29,"开源":36,"蒸馏":1,"推理":77,"新云":3,"前沿模型":24,"垂直 AI":2,"智能体":411}</script>
 
 <script>
 (function(){

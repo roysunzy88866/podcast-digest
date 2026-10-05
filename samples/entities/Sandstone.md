@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nick Fleisher]] · [[Sequoia]] · [[McKinsey]] · [[产品市场契合]] · [[口碑引荐]] · [[设计合作伙伴]] · [[AE]] · [[ACV]] · [[合同生命周期管理]] · [[内部法务]]
 
-<script type="application/json" class="pd-epn">{"Nick Fleisher":1,"Sequoia":7,"McKinsey":6,"产品市场契合":24,"口碑引荐":1,"设计合作伙伴":6,"AE":1,"ACV":4,"合同生命周期管理":1,"内部法务":1}</script>
+<script type="application/json" class="pd-epn">{"Nick Fleisher":1,"Sequoia":7,"McKinsey":6,"产品市场契合":26,"口碑引荐":1,"设计合作伙伴":6,"AE":1,"ACV":4,"合同生命周期管理":1,"内部法务":1}</script>
 
 <script>
 (function(){

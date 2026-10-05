@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lumentum]] · [[数据中心]] · [[TSMC]] · [[NVIDIA]] · [[Michael]] · [[Herwig]] · [[Molly]] · [[Rorik]] · [[光纤]] · [[Yannick]]
 
-<script type="application/json" class="pd-epn">{"Lumentum":2,"数据中心":21,"TSMC":9,"NVIDIA":54,"Michael":1,"Herwig":1,"Molly":2,"Rorik":1,"光纤":1,"Yannick":1}</script>
+<script type="application/json" class="pd-epn">{"Lumentum":2,"数据中心":21,"TSMC":9,"NVIDIA":56,"Michael":1,"Herwig":1,"Molly":2,"Rorik":1,"光纤":1,"Yannick":1}</script>
 
 <script>
 (function(){

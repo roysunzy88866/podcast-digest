@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
+[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":2,"Sequoia":7,"Path Robotics":1,"LLM":55,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":24,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":2,"Sequoia":7,"Path Robotics":1,"LLM":55,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":26,"第一性原理":6}</script>
 
 <script>
 (function(){

@@ -164,7 +164,7 @@ Rene 认同机器人领域还早——任务泛化、上下文学习的演示很
 
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌]]<span class="pd-rz">同公司:NVIDIA、TSMC · 同概念:供应链 (supply chain)、推理 (inference)、数据中心 (data center)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Meta · 同概念:推理 (inference)、数据中心 (data center)、机器人 (robotics)</span>
-- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、数据中心 (data center)、出口管制 (export controls)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Meta、NVIDIA · 同概念:出口管制 (export controls)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

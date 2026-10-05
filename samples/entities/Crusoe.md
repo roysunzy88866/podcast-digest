@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chase Lochmiller]] · [[Harry Stebbings]] · [[NVIDIA]] · [[ChatGPT]] · [[Cognition]] · [[Harvey]] · [[Fireworks]] · [[数据中心]] · [[AI 工厂]] · [[能源]]
 
-<script type="application/json" class="pd-epn">{"Chase Lochmiller":1,"Harry Stebbings":20,"NVIDIA":54,"ChatGPT":96,"Cognition":25,"Harvey":18,"Fireworks":7,"数据中心":21,"AI 工厂":3,"能源":2}</script>
+<script type="application/json" class="pd-epn">{"Chase Lochmiller":1,"Harry Stebbings":20,"NVIDIA":56,"ChatGPT":97,"Cognition":25,"Harvey":18,"Fireworks":7,"数据中心":21,"AI 工厂":3,"能源":2}</script>
 
 <script>
 (function(){

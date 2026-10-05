@@ -128,7 +128,7 @@ Claire 建议的路线是按风险给 PR 打分，低风险自动盖章通过，
 
 - [[2026-09-27-talks-software-engineering-is-becoming-factory|软件工程正在变成「工厂工程」：Warp 创始人的自动化开发全景]]<span class="pd-rz">同公司:Warp · 同概念:代码审查 (code review)、智能体 (agent)、计算机使用验证 (computer use)、软件工厂 (software factory)</span>
 - [[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|软件工厂：让智能体闭环造软件，而不只是写代码]]<span class="pd-rz">同概念:智能体 (agent)、编码智能体 (coding agent)、计算机使用验证 (computer use)、软件工厂 (software factory)</span>
-- [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、软件工厂 (software factory)</span>
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|Stripe 联创 John Collison:智能体商务是一次彻底的重构]]<span class="pd-rz">同概念:MCP、智能体 (agent)、编码智能体 (coding agent)、计算机使用验证 (computer use)</span>
 
 </div>
 <div class="pd-ex">

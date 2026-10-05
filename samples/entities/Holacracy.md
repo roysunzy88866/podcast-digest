@@ -25,7 +25,7 @@ unlisted: true
 
 [[Amjad Masad]] · [[Gagan Viani]] · [[Replit]] · [[vibe coding]] · [[机器学习]] · [[微调]] · [[AGI]] · [[ChatGPT]] · [[项目式学习]] · [[过早优化]]
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":4,"Gagan Viani":1,"Replit":20,"vibe coding":45,"机器学习":4,"微调":29,"AGI":26,"ChatGPT":96,"项目式学习":1,"过早优化":2}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":4,"Gagan Viani":1,"Replit":20,"vibe coding":45,"机器学习":4,"微调":29,"AGI":27,"ChatGPT":97,"项目式学习":1,"过早优化":2}</script>
 
 <script>
 (function(){

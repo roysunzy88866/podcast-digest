@@ -25,7 +25,7 @@ unlisted: true
 
 [[Eric Schwartz]] · [[Traversal]] · [[ServiceNow]] · [[American Express]] · [[DigitalOcean]] · [[事故响应中的 AI]] · [[可观测性]] · [[自动驾驶式生产]] · [[因果机器学习]] · [[生产世界模型]]
 
-<script type="application/json" class="pd-epn">{"Eric Schwartz":1,"Traversal":2,"ServiceNow":4,"American Express":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":36,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Eric Schwartz":1,"Traversal":2,"ServiceNow":4,"American Express":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":37,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
 
 <script>
 (function(){

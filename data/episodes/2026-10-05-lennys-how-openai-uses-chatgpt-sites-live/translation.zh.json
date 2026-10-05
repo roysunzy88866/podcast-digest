@@ -1,0 +1,5610 @@
+[
+ {
+  "seg": 0,
+  "start": 0.071,
+  "end": 2.825,
+  "speaker": "Kath Korevec",
+  "en": "We just launched something today, which is plugins and sites.",
+  "zh": "我们今天刚发布了一个新东西,就是 plugins 和 sites。"
+ },
+ {
+  "seg": 1,
+  "start": 2.875,
+  "end": 7.782,
+  "speaker": "Kath Korevec",
+  "en": "It will allow anyone to come to your site and use their connected plugins.",
+  "zh": "它可以让任何人来到你的站点,并使用他们自己连接的插件。"
+ },
+ {
+  "seg": 2,
+  "start": 7.822,
+  "end": 10.727,
+  "speaker": "Kath Korevec",
+  "en": "And so you see only your data on that site.",
+  "zh": "所以你在那个站点上只能看到你自己的数据。"
+ },
+ {
+  "seg": 3,
+  "start": 10.827,
+  "end": 15.160333333333334,
+  "speaker": "Kath Korevec",
+  "en": "When you share this across the team, do they get different data in their site?",
+  "zh": "当你把这个分享给团队时,他们在自己的站点里会看到不同的数据吗?"
+ },
+ {
+  "seg": 4,
+  "start": 15.213,
+  "end": 17.076,
+  "speaker": "Kath Korevec",
+  "en": "So if you are looking to build something in ChatGPT",
+  "zh": "所以如果你想用 ChatGPT"
+ },
+ {
+  "seg": 5,
+  "start": 17.176,
+  "end": 18.057,
+  "speaker": "SPEAKER_01",
+  "en": "and Codex and you're like,",
+  "zh": "和 Codex 构建点什么,然后你想,"
+ },
+ {
+  "seg": 6,
+  "start": 18.057,
+  "end": 25,
+  "speaker": "Unknown",
+  "en": "[music]",
+  "zh": "[音乐]"
+ },
+ {
+  "seg": 7,
+  "start": 30.055,
+  "end": 34.098,
+  "speaker": "SPEAKER_01",
+  "en": "Like I need the Notion API or I need the Slack API.",
+  "zh": "比如我需要 Notion 的 API,或者我需要 Slack 的 API。"
+ },
+ {
+  "seg": 8,
+  "start": 34.218,
+  "end": 35.819,
+  "speaker": "SPEAKER_01",
+  "en": "I like finding out what these like magic",
+  "zh": "我喜欢去弄清楚这些神奇的"
+ },
+ {
+  "seg": 9,
+  "start": 35.859,
+  "end": 36.739,
+  "speaker": "Kath Korevec",
+  "en": "incantations are.",
+  "zh": "咒语是什么。"
+ },
+ {
+  "seg": 10,
+  "start": 36.799,
+  "end": 40.121,
+  "speaker": "Kath Korevec",
+  "en": "My brain works in different ways than other people.",
+  "zh": "我的大脑工作方式和别人不一样。"
+ },
+ {
+  "seg": 11,
+  "start": 40.261,
+  "end": 44.604,
+  "speaker": "Kath Korevec",
+  "en": "And I might just want like a different view of Google Calendar for the day or for the week.",
+  "zh": "我可能就是想要一个不一样的 Google Calendar 视图,看当天或当周的。"
+ },
+ {
+  "seg": 12,
+  "start": 44.624,
+  "end": 48.827,
+  "speaker": "Kath Korevec",
+  "en": "I might be like going on a business trip and I just want like things organized differently.",
+  "zh": "我可能要出差,我就想让事情以不同的方式组织起来。"
+ },
+ {
+  "seg": 13,
+  "start": 48.847,
+  "end": 52.219,
+  "speaker": "Kath Korevec",
+  "en": "And so I'll build a site for that week and then I'll throw it away at the end of the week.",
+  "zh": "于是我会为那一周建一个站点,然后在那一周结束时把它扔掉。"
+ },
+ {
+  "seg": 14,
+  "start": 52.269,
+  "end": 56.602333333333334,
+  "speaker": "SPEAKER_01",
+  "en": "What are other ways you can use the sort of like infrastructure side of sites",
+  "zh": "关于 sites 这类基础设施的一面,你还能想到哪些"
+ },
+ {
+  "seg": 15,
+  "start": 55.811,
+  "end": 59.644333333333336,
+  "speaker": "SPEAKER_01",
+  "en": "that you think is interesting that like most people wouldn't presume?",
+  "zh": "你觉得有意思、但大多数人可能想不到的用法?"
+ },
+ {
+  "seg": 16,
+  "start": 63.183,
+  "end": 66.906,
+  "speaker": "SPEAKER_01",
+  "en": "Welcome to How I AI today here at OpenAI Dev Day.",
+  "zh": "欢迎来到今天的 How I AI,我们現在在 OpenAI Dev Day 现场。"
+ },
+ {
+  "seg": 17,
+  "start": 66.986,
+  "end": 70.308,
+  "speaker": "SPEAKER_01",
+  "en": "I'm here with Kat, product lead for sites.",
+  "zh": "我和 Kat 在一起,她是 sites 的产品负责人。"
+ },
+ {
+  "seg": 18,
+  "start": 71.67,
+  "end": 78.67,
+  "speaker": "SPEAKER_01",
+  "en": "And I was showing her some of my sites earlier and we are sites twins in a lot of ways.",
+  "zh": "我之前给她看了我的一些 sites,我们在很多方面都是 sites 双胞胎。"
+ },
+ {
+  "seg": 19,
+  "start": 79.676,
+  "end": 86.021,
+  "speaker": "SPEAKER_01",
+  "en": "So I'm really excited for Kat to show us what sites are, how she uses them across work.",
+  "zh": "所以我非常期待 Kat 给我们展示 sites 是什么,以及她在工作中如何使用它们。"
+ },
+ {
+  "seg": 20,
+  "start": 86.081,
+  "end": 90.894,
+  "speaker": "SPEAKER_01",
+  "en": "We'll start with work and then we'll get to progressively less useful, more interesting.",
+  "zh": "我们先从工作开始,然后再 progressively 地聊到没那么有用、但更有意思的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 90.944,
+  "end": 91.944,
+  "speaker": "SPEAKER_01",
+  "en": "That sounds great.",
+  "zh": "听起来很棒。"
+ },
+ {
+  "seg": 22,
+  "start": 92.86,
+  "end": 98.182,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so I'm going to take you to a less colorful site that I built.",
+  "zh": "好,那我要带你去看一个我建的不那么五彩缤纷的站点。"
+ },
+ {
+  "seg": 23,
+  "start": 98.242,
+  "end": 99.362,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so a couple different things.",
+  "zh": "好,有几个不同的东西。"
+ },
+ {
+  "seg": 24,
+  "start": 99.402,
+  "end": 101.29088888888889,
+  "speaker": "Kath Korevec",
+  "en": "So sites works obviously for work.",
+  "zh": "所以 sites 显然对工作有用。"
+ },
+ {
+  "seg": 25,
+  "start": 101.343,
+  "end": 104.784,
+  "speaker": "Kath Korevec",
+  "en": "It also works for a whole bunch of like really fun things.",
+  "zh": "它对一大堆非常好玩的事情也有用。"
+ },
+ {
+  "seg": 26,
+  "start": 105.284,
+  "end": 107.325,
+  "speaker": "Kath Korevec",
+  "en": "We've been using it at OpenAI for...",
+  "zh": "我们在 OpenAI 一直在用它……"
+ },
+ {
+  "seg": 27,
+  "start": 110.081,
+  "end": 117.081,
+  "speaker": "Kath Korevec",
+  "en": "We launched it two months ago, and we internally have just kind of seen it explode.",
+  "zh": "我们两个月前发布了它,在内部我们已经看到它爆发式增长。"
+ },
+ {
+  "seg": 28,
+  "start": 117.806,
+  "end": 122.768,
+  "speaker": "Kath Korevec",
+  "en": "And we used it actually for all of the slides that you saw today that were on screen",
+  "zh": "而且我们今天其实用它做了你在屏幕上看到的全部幻灯片,"
+ },
+ {
+  "seg": 29,
+  "start": 122.788,
+  "end": 123.84355555555555,
+  "speaker": "Kath Korevec",
+  "en": "during the keynote.",
+  "zh": "就是主题演讲期间放的那些。"
+ },
+ {
+  "seg": 30,
+  "start": 124.089,
+  "end": 125.59,
+  "speaker": "Kath Korevec",
+  "en": "That was a ChatGPT site.",
+  "zh": "那是一个 ChatGPT 站点。"
+ },
+ {
+  "seg": 31,
+  "start": 125.75,
+  "end": 127.561,
+  "speaker": "Kath Korevec",
+  "en": "We're using it for all different kinds of things.",
+  "zh": "我们用它做各种各样的事情。"
+ },
+ {
+  "seg": 32,
+  "start": 127.611,
+  "end": 131.623,
+  "speaker": "Kath Korevec",
+  "en": "I'm going to show you what you're seeing here is an incident command overview",
+  "zh": "我要给你看的,你现在看到的,是一个事故指挥总览,"
+ },
+ {
+  "seg": 33,
+  "start": 131.673,
+  "end": 134.014,
+  "speaker": "Kath Korevec",
+  "en": "that my team, the sites team, uses.",
+  "zh": "是我的团队,sites 团队,在用的。"
+ },
+ {
+  "seg": 34,
+  "start": 134.915,
+  "end": 136.24833333333333,
+  "speaker": "Kath Korevec",
+  "en": "And I will just mention,",
+  "zh": "我要提一句,"
+ },
+ {
+  "seg": 35,
+  "start": 136.436,
+  "end": 137.736,
+  "speaker": "Kath Korevec",
+  "en": "this is demo content,",
+  "zh": "这是演示内容,"
+ },
+ {
+  "seg": 36,
+  "start": 137.756,
+  "end": 141.94899999999998,
+  "speaker": "Kath Korevec",
+  "en": "so don't over-index on I kind of had to scrub it because it's incident content.",
+  "zh": "所以不要过度解读,我不得不做了一些清理,因为这是事故相关内容。"
+ },
+ {
+  "seg": 37,
+  "start": 141.999,
+  "end": 143.701,
+  "speaker": "Kath Korevec",
+  "en": "So we do have kind of a replica of this,",
+  "zh": "所以我们确实有一个类似这样的复制品,"
+ },
+ {
+  "seg": 38,
+  "start": 143.741,
+  "end": 147.19299999999998,
+  "speaker": "Kath Korevec",
+  "en": "but I rebuilt this site so that I could show you kind of what it does.",
+  "zh": "但我重建了这个站点,以便给你们展示它大概是做什么的。"
+ },
+ {
+  "seg": 39,
+  "start": 147.243,
+  "end": 148.004,
+  "speaker": "Kath Korevec",
+  "en": "So what I did with this,",
+  "zh": "我用这个做的事是,"
+ },
+ {
+  "seg": 40,
+  "start": 148.024,
+  "end": 149.245,
+  "speaker": "Kath Korevec",
+  "en": "we just launched something today,",
+  "zh": "我们今天刚发布了一个新东西,"
+ },
+ {
+  "seg": 41,
+  "start": 149.285,
+  "end": 152.637,
+  "speaker": "Kath Korevec",
+  "en": "which is plugins and sites, which Sam talked about at the keynote.",
+  "zh": "就是 plugins 和 sites,Sam 在主题演讲里也讲到了。"
+ },
+ {
+  "seg": 42,
+  "start": 152.687,
+  "end": 158.892,
+  "speaker": "Kath Korevec",
+  "en": "And what that does is it will allow anyone to come to your site and use their connected plugins.",
+  "zh": "它的作用是让任何人来到你的站点,并使用他们自己连接的插件。"
+ },
+ {
+  "seg": 43,
+  "start": 158.932,
+  "end": 161.974,
+  "speaker": "Kath Korevec",
+  "en": "And so you see only your data on that site.",
+  "zh": "所以你在那个站点上只能看到你自己的数据。"
+ },
+ {
+  "seg": 44,
+  "start": 162.374,
+  "end": 165.837,
+  "speaker": "Kath Korevec",
+  "en": "And this is available for enterprise workspaces.",
+  "zh": "这个功能面向企业工作区开放。"
+ },
+ {
+  "seg": 45,
+  "start": 166.917,
+  "end": 168.978,
+  "speaker": "Kath Korevec",
+  "en": "So what happens is for this site,",
+  "zh": "所以发生的事情是,对于这个站点,"
+ },
+ {
+  "seg": 46,
+  "start": 169.118,
+  "end": 173.6,
+  "speaker": "Kath Korevec",
+  "en": "when you log in, it will actually ask you to approve your connections.",
+  "zh": "当你登录时,它实际上会要求你批准你的连接。"
+ },
+ {
+  "seg": 47,
+  "start": 174.08,
+  "end": 176.922,
+  "speaker": "Kath Korevec",
+  "en": "And so I have this hooked up to Notion and Slack.",
+  "zh": "我把它连接到了 Notion 和 Slack。"
+ },
+ {
+  "seg": 48,
+  "start": 178.862,
+  "end": 181.553,
+  "speaker": "Kath Korevec",
+  "en": "It will go in and it's also hooked up to my calendar.",
+  "zh": "它还会进去,它也连接到了我的日历。"
+ },
+ {
+  "seg": 49,
+  "start": 181.603,
+  "end": 187.425,
+  "speaker": "Kath Korevec",
+  "en": "And so it will go in and look through all of my data and then ask me to approve all",
+  "zh": "然后它会进去查看我所有的数据,然后让我批准所有"
+ },
+ {
+  "seg": 50,
+  "start": 187.445,
+  "end": 188.445,
+  "speaker": "Kath Korevec",
+  "en": "of my connectors.",
+  "zh": "我的连接器。"
+ },
+ {
+  "seg": 51,
+  "start": 188.806,
+  "end": 193.007,
+  "speaker": "Kath Korevec",
+  "en": "And it actually looks at which Slack channel I'm coming from and approving.",
+  "zh": "它实际上会看我来自哪个 Slack 频道并给予批准。"
+ },
+ {
+  "seg": 52,
+  "start": 193.047,
+  "end": 200.047,
+  "speaker": "Kath Korevec",
+  "en": "And so I approve my site's private, my site's feedback, all of my site's Slack channels.",
+  "zh": "所以我批准了我 site 的私有频道、site 的反馈频道、我 site 的所有 Slack 频道。"
+ },
+ {
+  "seg": 53,
+  "start": 200.87,
+  "end": 204.14777777777778,
+  "speaker": "Kath Korevec",
+  "en": "And so it makes the assumption that I'm on the site's team.",
+  "zh": "于是它做出假设,认为我在 site 团队上。"
+ },
+ {
+  "seg": 54,
+  "start": 204.212,
+  "end": 206.292,
+  "speaker": "Kath Korevec",
+  "en": "And so it says something like, okay, you're on the site's team.",
+  "zh": "所以它会说什么类似,好的,你在 site 团队上。"
+ },
+ {
+  "seg": 55,
+  "start": 206.312,
+  "end": 208.86399999999998,
+  "speaker": "Kath Korevec",
+  "en": "I'm going to show you all of the site's content.",
+  "zh": "我要给你看所有 site 的内容。"
+ },
+ {
+  "seg": 56,
+  "start": 208.914,
+  "end": 212.156,
+  "speaker": "Kath Korevec",
+  "en": "And it names the site, you know, site's incident command.",
+  "zh": "嘿,这个事件怎么样了?"
+ },
+ {
+  "seg": 57,
+  "start": 213.077,
+  "end": 217.06,
+  "speaker": "Kath Korevec",
+  "en": "And then what it does is it takes a timeline of all of the incidents",
+  "zh": "然后它做的是,它获取所有事件的时间线,"
+ },
+ {
+  "seg": 58,
+  "start": 217.1,
+  "end": 218.87777777777777,
+  "speaker": "Kath Korevec",
+  "en": "that are happening at that time.",
+  "zh": "也就是当时正在发生的那些事件。"
+ },
+ {
+  "seg": 59,
+  "start": 219.021,
+  "end": 224.125,
+  "speaker": "Kath Korevec",
+  "en": "And the reason why I built this is because I'm a product manager and I spend a lot",
+  "zh": "我构建这个的原因是,我是一个产品经理,我花很多"
+ },
+ {
+  "seg": 60,
+  "start": 224.145,
+  "end": 225.5338888888889,
+  "speaker": "Kath Korevec",
+  "en": "of my time with the team,",
+  "zh": "时间和团队在一起,"
+ },
+ {
+  "seg": 61,
+  "start": 225.626,
+  "end": 229.449,
+  "speaker": "Kath Korevec",
+  "en": "but I also spend a lot of my time in meetings and all over the place.",
+  "zh": "但我也花很多时间开会,到处跑。"
+ },
+ {
+  "seg": 62,
+  "start": 229.489,
+  "end": 233.933,
+  "speaker": "Kath Korevec",
+  "en": "And I don't have time to like really dig in with a team on incidents.",
+  "zh": "我没有时间去真正和团队深入挖掘事件。"
+ },
+ {
+  "seg": 63,
+  "start": 234.533,
+  "end": 235.614,
+  "speaker": "Kath Korevec",
+  "en": "Nor do I want to.",
+  "zh": "我也不想这样做。"
+ },
+ {
+  "seg": 64,
+  "start": 235.694,
+  "end": 240.816,
+  "speaker": "Kath Korevec",
+  "en": "I kind of want to stay in the background and not have to like bug them and say like,",
+  "zh": "我有点想待在后台,不必去烦他们,比如说,"
+ },
+ {
+  "seg": 65,
+  "start": 240.836,
+  "end": 242.147,
+  "speaker": "Kath Korevec",
+  "en": "hey, what's going on with this incident?",
+  "zh": "嘿，这起事故是怎么回事？"
+ },
+ {
+  "seg": 66,
+  "start": 242.197,
+  "end": 244.978,
+  "speaker": "Kath Korevec",
+  "en": "I want them to solve it without me getting in their way.",
+  "zh": "我想让他们在我不妨碍他们的情况下解决它。"
+ },
+ {
+  "seg": 67,
+  "start": 244.998,
+  "end": 248.9,
+  "speaker": "Kath Korevec",
+  "en": "And so this just gives me a really cool way of seeing what's going on.",
+  "zh": "所以这就给了我一个很酷的方式来看正在发生什么。"
+ },
+ {
+  "seg": 68,
+  "start": 249.668,
+  "end": 254.26,
+  "speaker": "Kath Korevec",
+  "en": "Following along in the runbook and seeing like what's happening down to the minute.",
+  "zh": "跟随运行手册,看到逐分钟发生了什么。"
+ },
+ {
+  "seg": 69,
+  "start": 254.31,
+  "end": 255.68099999999998,
+  "speaker": "Kath Korevec",
+  "en": "And so it gives me that timeline.",
+  "zh": "所以它给了我那个时间线。"
+ },
+ {
+  "seg": 70,
+  "start": 255.731,
+  "end": 258.782,
+  "speaker": "Kath Korevec",
+  "en": "I can click into all of these and see like, OK, what is going on?",
+  "zh": "我可以点进这些,看看,好吧,发生了什么?"
+ },
+ {
+  "seg": 71,
+  "start": 258.832,
+  "end": 260.733,
+  "speaker": "Kath Korevec",
+  "en": "I can see who is addressing this.",
+  "zh": "我可以看到谁在处理这个。"
+ },
+ {
+  "seg": 72,
+  "start": 260.833,
+  "end": 265.6107777777778,
+  "speaker": "Kath Korevec",
+  "en": "It also pulls in all of the people that on the team that are working on this incident.",
+  "zh": "它还会拉入团队中所有正在处理这个事件的人。"
+ },
+ {
+  "seg": 73,
+  "start": 265.935,
+  "end": 268.296,
+  "speaker": "Kath Korevec",
+  "en": "And it also pulls in all of our tools.",
+  "zh": "它还会拉入我们所有的工具。"
+ },
+ {
+  "seg": 74,
+  "start": 268.436,
+  "end": 271.527,
+  "speaker": "Kath Korevec",
+  "en": "And so I had it from Notion go through and pull in like,",
+  "zh": "所以我让它从 Notion 里去拉入,"
+ },
+ {
+  "seg": 75,
+  "start": 271.577,
+  "end": 276.273,
+  "speaker": "Kath Korevec",
+  "en": "what are our runbooks and how do we respond to What are the guides, etc.",
+  "zh": "我们的运行手册是什么,我们如何响应,有哪些指南等等。"
+ },
+ {
+  "seg": 76,
+  "start": 276.293,
+  "end": 280.567,
+  "speaker": "Kath Korevec",
+  "en": "So this will actually open up the runbooks and guides and things in Notion if I want to.",
+  "zh": "所以如果我愿意,它会实际打开 Notion 里的运行手册和指南之类的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 280.617,
+  "end": 285.04,
+  "speaker": "Kath Korevec",
+  "en": "So that's just like one way that we're using plugins and sites.",
+  "zh": "所以这就是我们使用插件和 site 的一种方式。"
+ },
+ {
+  "seg": 78,
+  "start": 285.06,
+  "end": 286.422,
+  "speaker": "Kath Korevec",
+  "en": "There's a whole bunch of different ways.",
+  "zh": "还有很多不同的方式。"
+ },
+ {
+  "seg": 79,
+  "start": 286.442,
+  "end": 292.907,
+  "speaker": "Kath Korevec",
+  "en": "We manage like our team out of office calendar through this and we like manage this.",
+  "zh": "我们通过这个管理我们团队的休假日历,我们喜欢这样管理。"
+ },
+ {
+  "seg": 80,
+  "start": 293.267,
+  "end": 297.611,
+  "speaker": "Kath Korevec",
+  "en": "This one we manage like fun stuff like sharing music and stuff like that.",
+  "zh": "这个我们管理一些有趣的东西,比如分享音乐之类的。"
+ },
+ {
+  "seg": 81,
+  "start": 298.091,
+  "end": 300.453,
+  "speaker": "Kath Korevec",
+  "en": "This episode is brought to you by Merge.",
+  "zh": "本集节目由 Merge 赞助。"
+ },
+ {
+  "seg": 82,
+  "start": 301.057,
+  "end": 303.11255555555556,
+  "speaker": "SPEAKER_01",
+  "en": "Building an AI product is one thing.",
+  "zh": "构建 AI 产品是一回事。"
+ },
+ {
+  "seg": 83,
+  "start": 303.499,
+  "end": 305.6101111111111,
+  "speaker": "SPEAKER_01",
+  "en": "The hard part is everything around it.",
+  "zh": "困难的部分是它周围的一切。"
+ },
+ {
+  "seg": 84,
+  "start": 305.941,
+  "end": 309.05211111111106,
+  "speaker": "SPEAKER_01",
+  "en": "Connecting to the tools your team and customers rely on,",
+  "zh": "连接到你的团队和客户依赖的工具,"
+ },
+ {
+  "seg": 85,
+  "start": 309.364,
+  "end": 312.257,
+  "speaker": "SPEAKER_01",
+  "en": "letting agents take action with the right permissions,",
+  "zh": "让智能体以正确的权限采取行动,"
+ },
+ {
+  "seg": 86,
+  "start": 312.307,
+  "end": 316.73,
+  "speaker": "SPEAKER_01",
+  "en": "and keeping everything reliable and cost efficient once you're in production.",
+  "zh": "以及在你进入生产环境后保持一切可靠且成本高效。"
+ },
+ {
+  "seg": 87,
+  "start": 317.311,
+  "end": 320.1443333333333,
+  "speaker": "SPEAKER_01",
+  "en": "Most teams end up piecing that together themselves.",
+  "zh": "大多数团队最终都自己把这些拼凑起来。"
+ },
+ {
+  "seg": 88,
+  "start": 320.353,
+  "end": 323.26599999999996,
+  "speaker": "SPEAKER_01",
+  "en": "So instead of building the products you actually care about,",
+  "zh": "于是,你没有去构建你真正关心的产品,"
+ },
+ {
+  "seg": 89,
+  "start": 323.316,
+  "end": 324.947,
+  "speaker": "SPEAKER_01",
+  "en": "you get pulled into integrations,",
+  "zh": "反而被拖进了集成、"
+ },
+ {
+  "seg": 90,
+  "start": 324.997,
+  "end": 328.33033333333333,
+  "speaker": "SPEAKER_01",
+  "en": "permissions, routing, and all the infrastructure underneath.",
+  "zh": "权限、路由以及底下的所有基础设施。"
+ },
+ {
+  "seg": 91,
+  "start": 328.853,
+  "end": 332.076,
+  "speaker": "SPEAKER_01",
+  "en": "Merge is the infrastructure layer for production AI.",
+  "zh": "Merge 是生产级 AI 的基础设施层。"
+ },
+ {
+  "seg": 92,
+  "start": 332.656,
+  "end": 334.5448888888889,
+  "speaker": "SPEAKER_01",
+  "en": "It connects to thousands of tools,",
+  "zh": "它连接到数千个工具,"
+ },
+ {
+  "seg": 93,
+  "start": 334.657,
+  "end": 337.10144444444444,
+  "speaker": "SPEAKER_01",
+  "en": "gives agents secure ways to act inside them,",
+  "zh": "为智能体提供在其中安全行动的方式,"
+ },
+ {
+  "seg": 94,
+  "start": 337.5,
+  "end": 342.223,
+  "speaker": "SPEAKER_01",
+  "en": "and optimizes model routing and spend without you building or owning any of it.",
+  "zh": "并优化模型路由和开支,而你无需构建或拥有其中任何东西。"
+ },
+ {
+  "seg": 95,
+  "start": 342.844,
+  "end": 348.428,
+  "speaker": "SPEAKER_01",
+  "en": "OpenAI, Dropbox, and Ramp already use Merge to move fast and build AI right.",
+  "zh": "OpenAI、Dropbox 和 Ramp 已经在使用 Merge 来快速行动并正确构建 AI。"
+ },
+ {
+  "seg": 96,
+  "start": 348.828,
+  "end": 353.672,
+  "speaker": "SPEAKER_01",
+  "en": "Visit merge.dev slash howiai to start building for free.",
+  "zh": "访问 merge.dev/howiai 免费开始构建。"
+ },
+ {
+  "seg": 97,
+  "start": 353.96,
+  "end": 357.211,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, so I want to pause for folks because I think a lot of people,",
+  "zh": "是的,所以我想为各位暂停一下,因为我认为很多人,"
+ },
+ {
+  "seg": 98,
+  "start": 357.261,
+  "end": 359.532,
+  "speaker": "SPEAKER_01",
+  "en": "especially when sites first came out, were like, okay, great.",
+  "zh": "尤其是当 site 刚推出时,都会想,好的,太好了。"
+ },
+ {
+  "seg": 99,
+  "start": 359.582,
+  "end": 362.012,
+  "speaker": "SPEAKER_01",
+  "en": "I have a place to like put my vibe-coded thing.",
+  "zh": "我有了一个地方可以放我 vibe coding 出来的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 362.062,
+  "end": 366.903,
+  "speaker": "SPEAKER_01",
+  "en": "And a lot of times that thing is like a prototype or it's a static asset,",
+  "zh": "很多时候那个东西就像一个原型，或者是一个静态资源，"
+ },
+ {
+  "seg": 101,
+  "start": 366.923,
+  "end": 370.384,
+  "speaker": "SPEAKER_01",
+  "en": "maybe like an HTML PRD or slides.",
+  "zh": "比如一个 HTML PRD 或者幻灯片。"
+ },
+ {
+  "seg": 102,
+  "start": 370.524,
+  "end": 371.965,
+  "speaker": "SPEAKER_01",
+  "en": "But I think what you're showing us here,",
+  "zh": "但我觉得你在这里给我们展示的，"
+ },
+ {
+  "seg": 103,
+  "start": 372.005,
+  "end": 376.396,
+  "speaker": "SPEAKER_01",
+  "en": "which I want people to absorb and like get the power of what it allows you to build,",
+  "zh": "我希望人们能领会并感受到它能让你构建什么的那种力量，"
+ },
+ {
+  "seg": 104,
+  "start": 376.446,
+  "end": 380.767,
+  "speaker": "SPEAKER_01",
+  "en": "is you can inherit connectors as sources of data.",
+  "zh": "是你可以继承连接器作为数据来源。"
+ },
+ {
+  "seg": 105,
+  "start": 380.787,
+  "end": 383.608,
+  "speaker": "SPEAKER_01",
+  "en": "And I'm presumably like updated real-time data.",
+  "zh": "而且我猜测是实时更新的数据。"
+ },
+ {
+  "seg": 106,
+  "start": 384.132,
+  "end": 387.07644444444446,
+  "speaker": "SPEAKER_01",
+  "en": "I like finding out what these magic ingredients are.",
+  "zh": "我喜欢找出这些神奇的成分是什么。"
+ },
+ {
+  "seg": 107,
+  "start": 402.762,
+  "end": 403.222,
+  "speaker": "SPEAKER_01",
+  "en": "So",
+  "zh": "所以"
+ },
+ {
+  "seg": 108,
+  "start": 405.364,
+  "end": 407.364,
+  "speaker": "SPEAKER_01",
+  "en": "this",
+  "zh": "这个"
+ },
+ {
+  "seg": 109,
+  "start": 408.766,
+  "end": 413.028,
+  "speaker": "Kath Korevec",
+  "en": "is the beauty of Sites and Codex is that Sites is really,",
+  "zh": "就是 Sites 和 Codex 的美妙之处，因为 Sites 真的，"
+ },
+ {
+  "seg": 110,
+  "start": 414.169,
+  "end": 416.57,
+  "speaker": "Kath Korevec",
+  "en": "one of the reasons why we built Sites is because we wanted a place",
+  "zh": "我们构建 Sites 的原因之一就是我们想要一个地方"
+ },
+ {
+  "seg": 111,
+  "start": 416.59,
+  "end": 418.59,
+  "speaker": "Kath Korevec",
+  "en": "to basically put software someplace.",
+  "zh": "基本上把软件放到某个地方。"
+ },
+ {
+  "seg": 112,
+  "start": 419.351,
+  "end": 423.454,
+  "speaker": "Kath Korevec",
+  "en": "And so it handles all of the deploy.",
+  "zh": "所以它处理所有的部署。"
+ },
+ {
+  "seg": 113,
+  "start": 424.074,
+  "end": 426.718,
+  "speaker": "Kath Korevec",
+  "en": "It works with Codex to build the entire site.",
+  "zh": "它与 Codex 配合来构建整个网站。"
+ },
+ {
+  "seg": 114,
+  "start": 426.778,
+  "end": 431.125,
+  "speaker": "Kath Korevec",
+  "en": "And so the wonderful thing about Codex is it really understands like the intent,",
+  "zh": "所以 Codex 的美妙之处在于它真的能理解你的意图，"
+ },
+ {
+  "seg": 115,
+  "start": 431.165,
+  "end": 431.846,
+  "speaker": "Kath Korevec",
+  "en": "what you're saying.",
+  "zh": "你在说什么。"
+ },
+ {
+  "seg": 116,
+  "start": 431.866,
+  "end": 436.152,
+  "speaker": "Kath Korevec",
+  "en": "It digs in deep to your prompt and starts to dissect like what do you mean?",
+  "zh": "它会深入挖掘你的提示词，开始剖析你到底是什么意思？"
+ },
+ {
+  "seg": 117,
+  "start": 436.312,
+  "end": 440.998,
+  "speaker": "Kath Korevec",
+  "en": "And so when you say like build me a website that It can handle bringing",
+  "zh": "所以当你说比如给我建一个网站，它可以处理引入"
+ },
+ {
+  "seg": 118,
+  "start": 441.058,
+  "end": 444.61355555555554,
+  "speaker": "Kath Korevec",
+  "en": "in Notion documents and cross-reference that across my calendar.",
+  "zh": "Notion 文档并与我的日历进行交叉引用。"
+ },
+ {
+  "seg": 119,
+  "start": 444.803,
+  "end": 449.027,
+  "speaker": "Kath Korevec",
+  "en": "It will make the assumption that it wants to use connectors.",
+  "zh": "它会做出假设，想要使用连接器。"
+ },
+ {
+  "seg": 120,
+  "start": 449.308,
+  "end": 452.902,
+  "speaker": "Kath Korevec",
+  "en": "And especially if you say, like, I'm building this for my team to collaborate.",
+  "zh": "尤其是当你说，比如，我建这个是为了让我的团队协作。"
+ },
+ {
+  "seg": 121,
+  "start": 452.952,
+  "end": 458.2853333333333,
+  "speaker": "Kath Korevec",
+  "en": "And so then it might ask you a question like, hey, do you want to use plugin connectors in this?",
+  "zh": "这样它可能会问你一个问题，比如，嘿，你想在这里使用插件连接器吗？"
+ },
+ {
+  "seg": 122,
+  "start": 459.279,
+  "end": 464.21299999999997,
+  "speaker": "Kath Korevec",
+  "en": "Or it might just build it out and then walk you through what it did and ask for some feedback.",
+  "zh": "或者它可能直接构建出来，然后带你看看它做了什么，并征求一些反馈。"
+ },
+ {
+  "seg": 123,
+  "start": 464.263,
+  "end": 468.327,
+  "speaker": "Kath Korevec",
+  "en": "Or you can use, my magic word is like, bring your own connector.",
+  "zh": "或者你可以用，我的魔法咒语就是，自带连接器。"
+ },
+ {
+  "seg": 124,
+  "start": 469.148,
+  "end": 472.912,
+  "speaker": "Kath Korevec",
+  "en": "Can you use plugins in sites to build this site?",
+  "zh": "你能在 Sites 里使用插件来构建这个网站吗？"
+ },
+ {
+  "seg": 125,
+  "start": 472.952,
+  "end": 473.602,
+  "speaker": "Kath Korevec",
+  "en": "That kind of thing.",
+  "zh": "诸如此类。"
+ },
+ {
+  "seg": 126,
+  "start": 473.652,
+  "end": 474.944,
+  "speaker": "SPEAKER_01",
+  "en": "And then when you share this,",
+  "zh": "然后当你分享这个的时候，"
+ },
+ {
+  "seg": 127,
+  "start": 474.994,
+  "end": 479.54955555555557,
+  "speaker": "SPEAKER_01",
+  "en": "just so I'm getting the mental model right, when you share this across the team...",
+  "zh": "只是为了让我把心智模型搞对，当你把这个分享给团队时……"
+ },
+ {
+  "seg": 128,
+  "start": 479.903,
+  "end": 482.147,
+  "speaker": "SPEAKER_01",
+  "en": "Is that inheriting their connector off?",
+  "zh": "是继承他们的连接器吗？"
+ },
+ {
+  "seg": 129,
+  "start": 482.167,
+  "end": 484.932,
+  "speaker": "SPEAKER_01",
+  "en": "Like, do they get different data in their sites than",
+  "zh": "就是说，他们在他们的站点里看到的数据会不会"
+ },
+ {
+  "seg": 130,
+  "start": 484.972,
+  "end": 485.332,
+  "speaker": "Kath Korevec",
+  "en": "you get?",
+  "zh": "和你看到的不一样？"
+ },
+ {
+  "seg": 131,
+  "start": 485.352,
+  "end": 486.264,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 132,
+  "start": 486.314,
+  "end": 487.646,
+  "speaker": "Kath Korevec",
+  "en": "Everybody gets different data.",
+  "zh": "每个人看到的都是不同的数据。"
+ },
+ {
+  "seg": 133,
+  "start": 487.696,
+  "end": 491.59299999999996,
+  "speaker": "Kath Korevec",
+  "en": "So if I were to share this incident command with people on my site's team,",
+  "zh": "所以如果我把这个事故指挥站点分享给我 Sites 团队的人，"
+ },
+ {
+  "seg": 134,
+  "start": 491.643,
+  "end": 494.097,
+  "speaker": "Kath Korevec",
+  "en": "they're probably going to see very similar content.",
+  "zh": "他们看到的可能会是非常相似的内容。"
+ },
+ {
+  "seg": 135,
+  "start": 494.147,
+  "end": 498.75,
+  "speaker": "Kath Korevec",
+  "en": "If I share this with other teams at OpenAI, they will see content.",
+  "zh": "如果我把这个分享给 OpenAI 的其他团队，他们也会看到内容。"
+ },
+ {
+  "seg": 136,
+  "start": 498.83,
+  "end": 500.371,
+  "speaker": "Kath Korevec",
+  "en": "They'll be referencing,",
+  "zh": "他们引用的，"
+ },
+ {
+  "seg": 137,
+  "start": 500.391,
+  "end": 501.983,
+  "speaker": "Kath Korevec",
+  "en": "they'll be looking at the exact same site,",
+  "zh": "他们看到的会是完全相同的站点，"
+ },
+ {
+  "seg": 138,
+  "start": 502.033,
+  "end": 505.045,
+  "speaker": "Kath Korevec",
+  "en": "but they're going to see content based on what their team is.",
+  "zh": "但他们看到的内容是基于他们自己的团队的。"
+ },
+ {
+  "seg": 139,
+  "start": 505.095,
+  "end": 509.3727777777778,
+  "speaker": "Kath Korevec",
+  "en": "And so if it's like the Codex team or if it's the identity team or something,",
+  "zh": "所以如果是 Codex 团队，或者是身份团队之类的，"
+ },
+ {
+  "seg": 140,
+  "start": 509.638,
+  "end": 511.569,
+  "speaker": "Kath Korevec",
+  "en": "this site picks up where they're coming from,",
+  "zh": "这个站点会识别出他们来自哪里，"
+ },
+ {
+  "seg": 141,
+  "start": 511.619,
+  "end": 513.9523333333334,
+  "speaker": "Kath Korevec",
+  "en": "pulls in that data that's specific to you.",
+  "zh": "拉取那些针对你的特定数据。"
+ },
+ {
+  "seg": 142,
+  "start": 515.705,
+  "end": 521.947,
+  "speaker": "Kath Korevec",
+  "en": "And we see this being really useful for data teams who are plugging",
+  "zh": "我们看到这对数据团队特别有用，比如他们接入"
+ },
+ {
+  "seg": 143,
+  "start": 522.007,
+  "end": 526.268,
+  "speaker": "Kath Korevec",
+  "en": "into their data warehouse, for example, or for finance teams.",
+  "zh": "自己的数据仓库，或者对财务团队来说。"
+ },
+ {
+  "seg": 144,
+  "start": 526.588,
+  "end": 529.329,
+  "speaker": "Kath Korevec",
+  "en": "People with sensitive data across different roles",
+  "zh": "跨不同角色和职责、拥有敏感数据的人"
+ },
+ {
+  "seg": 145,
+  "start": 529.369,
+  "end": 534.09,
+  "speaker": "Kath Korevec",
+  "en": "and responsibilities really like this tool because the people who are visiting",
+  "zh": "非常喜欢这个工具，因为访问站点的人，"
+ },
+ {
+  "seg": 146,
+  "start": 534.11,
+  "end": 535.11,
+  "speaker": "Kath Korevec",
+  "en": "the site,",
+  "zh": "那就是你访问的范围，你是带着那些数据来的。"
+ },
+ {
+  "seg": 147,
+  "start": 535.33,
+  "end": 538.481,
+  "speaker": "Kath Korevec",
+  "en": "that's the scope that you're visiting, that you're bringing that data with.",
+  "zh": "然后你不用担心 API 密钥和所有这些东西。"
+ },
+ {
+  "seg": 148,
+  "start": 538.531,
+  "end": 541.681,
+  "speaker": "SPEAKER_01",
+  "en": "And then you don't have to worry about API keys and all this stuff.",
+  "zh": "你只需要神奇地连上就行。"
+ },
+ {
+  "seg": 149,
+  "start": 541.731,
+  "end": 543.8421111111111,
+  "speaker": "SPEAKER_01",
+  "en": "You just get that magically connected.",
+  "zh": "一切都自动连接好了。"
+ },
+ {
+  "seg": 150,
+  "start": 544.592,
+  "end": 547.105,
+  "speaker": "SPEAKER_01",
+  "en": "Connectors that you go to over and over to build stuff with.",
+  "zh": "那些你会反复去用来构建东西的连接器。"
+ },
+ {
+  "seg": 151,
+  "start": 547.155,
+  "end": 549.217,
+  "speaker": "Kath Korevec",
+  "en": "You know, I am so easy.",
+  "zh": "你知道，我这个人很随便。"
+ },
+ {
+  "seg": 152,
+  "start": 549.237,
+  "end": 553.4036666666666,
+  "speaker": "Kath Korevec",
+  "en": "I go to where the site is collaborative or where the team is collaborating.",
+  "zh": "我去的是那些网站是协作式的、或者团队在协作的地方。"
+ },
+ {
+  "seg": 153,
+  "start": 553.721,
+  "end": 555.443,
+  "speaker": "Kath Korevec",
+  "en": "I go to Slack a lot.",
+  "zh": "我经常去 Slack。"
+ },
+ {
+  "seg": 154,
+  "start": 555.503,
+  "end": 557.305,
+  "speaker": "Kath Korevec",
+  "en": "I go to Notion a lot.",
+  "zh": "我经常去 Notion。"
+ },
+ {
+  "seg": 155,
+  "start": 557.865,
+  "end": 560.308,
+  "speaker": "Kath Korevec",
+  "en": "Google Drive, Google Calendar.",
+  "zh": "Google Drive、Google Calendar。"
+ },
+ {
+  "seg": 156,
+  "start": 561.205,
+  "end": 564.466,
+  "speaker": "Kath Korevec",
+  "en": "Um, there are some others that, uh, there,",
+  "zh": "呃，还有一些其他的，呃，在那里，"
+ },
+ {
+  "seg": 157,
+  "start": 564.606,
+  "end": 566.897,
+  "speaker": "Kath Korevec",
+  "en": "I think there are about 60 or so that we have,",
+  "zh": "我想我们大概有 60 个左右，"
+ },
+ {
+  "seg": 158,
+  "start": 566.947,
+  "end": 571.628,
+  "speaker": "Kath Korevec",
+  "en": "um, in the, in working right now in the tool and we're adding more all the time.",
+  "zh": "呃，目前在工具里正常运行的，而且我们一直在增加更多。"
+ },
+ {
+  "seg": 159,
+  "start": 571.648,
+  "end": 576.07,
+  "speaker": "Kath Korevec",
+  "en": "Um, there are some like on my wishlist that will make things much more powerful",
+  "zh": "呃，有一些在我的愿望清单上，它们会让事情变得强大得多，"
+ },
+ {
+  "seg": 160,
+  "start": 576.09,
+  "end": 578.0210000000001,
+  "speaker": "Kath Korevec",
+  "en": "that we're, you know, looking into and improving.",
+  "zh": "我们正在，你知道，研究并改进它们。"
+ },
+ {
+  "seg": 161,
+  "start": 578.071,
+  "end": 580.8487777777779,
+  "speaker": "SPEAKER_01",
+  "en": "And are you building a lot of these custom, like,",
+  "zh": "那你们是不是在构建很多这种自定义的，比如，"
+ },
+ {
+  "seg": 162,
+  "start": 580.711,
+  "end": 584.863,
+  "speaker": "SPEAKER_01",
+  "en": "are they like little micro apps or are you like replacing how you use some of these?",
+  "zh": "它们像是小型微应用，还是说你们在替换掉使用其中某些东西的方式？"
+ },
+ {
+  "seg": 163,
+  "start": 584.913,
+  "end": 585.403,
+  "speaker": "SPEAKER_01",
+  "en": "Both.",
+  "zh": "两者都有。"
+ },
+ {
+  "seg": 164,
+  "start": 585.453,
+  "end": 586.0930000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 165,
+  "start": 586.143,
+  "end": 587.075,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, both.",
+  "zh": "对，两者都有。"
+ },
+ {
+  "seg": 166,
+  "start": 587.125,
+  "end": 592.332,
+  "speaker": "Kath Korevec",
+  "en": "And the more people I talk to, it's all across the spectrum.",
+  "zh": "而且我聊的人越多，发现情况遍布整个光谱。"
+ },
+ {
+  "seg": 167,
+  "start": 592.733,
+  "end": 595.9480000000001,
+  "speaker": "Kath Korevec",
+  "en": "We see people who are like building out just little prototypes",
+  "zh": "我们看到有人只是在构建一些小原型，"
+ },
+ {
+  "seg": 168,
+  "start": 595.998,
+  "end": 598.782,
+  "speaker": "Kath Korevec",
+  "en": "and shipping like small things just for them.",
+  "zh": "然后发布一些只为他们自己用的小东西。"
+ },
+ {
+  "seg": 169,
+  "start": 599.222,
+  "end": 601.085,
+  "speaker": "Kath Korevec",
+  "en": "We also see people building personal.",
+  "zh": "我们也看到有人构建个人的。"
+ },
+ {
+  "seg": 170,
+  "start": 601.085,
+  "end": 602.306,
+  "speaker": "Kath Korevec",
+  "en": "Personalized software.",
+  "zh": "个性化的软件。"
+ },
+ {
+  "seg": 171,
+  "start": 602.326,
+  "end": 606.007,
+  "speaker": "Kath Korevec",
+  "en": "So that's kind of the beauty with this sort of like bring your own plugin,",
+  "zh": "所以这大概就是这种「自带插件」、"
+ },
+ {
+  "seg": 172,
+  "start": 606.027,
+  "end": 611.07,
+  "speaker": "Kath Korevec",
+  "en": "bring your own connector thing is that you can really adapt it to how you think,",
+  "zh": "「自带连接器」的美妙之处，你真的可以把它适配到你自己的思考方式、"
+ },
+ {
+  "seg": 173,
+  "start": 611.15,
+  "end": 612.2611111111111,
+  "speaker": "Kath Korevec",
+  "en": "how your team works.",
+  "zh": "你团队的工作方式。"
+ },
+ {
+  "seg": 174,
+  "start": 612.611,
+  "end": 615.0020000000001,
+  "speaker": "Kath Korevec",
+  "en": "You don't have to snap to something that's really rigid.",
+  "zh": "你不必强制对齐到某个非常僵硬的东西上。"
+ },
+ {
+  "seg": 175,
+  "start": 615.052,
+  "end": 616.293,
+  "speaker": "Kath Korevec",
+  "en": "And sites is the web.",
+  "zh": "而 sites 就是网页。"
+ },
+ {
+  "seg": 176,
+  "start": 616.493,
+  "end": 619.274,
+  "speaker": "Kath Korevec",
+  "en": "You can adjust it to however you work.",
+  "zh": "你可以把它调整成任何适合你工作的方式。"
+ },
+ {
+  "seg": 177,
+  "start": 619.374,
+  "end": 621.295,
+  "speaker": "Kath Korevec",
+  "en": "And as your team evolves,",
+  "zh": "而且随着你的团队演进，"
+ },
+ {
+  "seg": 178,
+  "start": 621.495,
+  "end": 623.176,
+  "speaker": "Kath Korevec",
+  "en": "you can keep updating it as,",
+  "zh": "你可以持续更新它，就像，"
+ },
+ {
+  "seg": 179,
+  "start": 623.396,
+  "end": 626.368,
+  "speaker": "Kath Korevec",
+  "en": "you know, like things change as you add features and stuff like that.",
+  "zh": "你知道，随着事情变化、随着你添加功能之类的。"
+ },
+ {
+  "seg": 180,
+  "start": 626.418,
+  "end": 628.759,
+  "speaker": "Kath Korevec",
+  "en": "So we do see people doing like full...",
+  "zh": "所以我们确实看到有人在用类似完整的……"
+ },
+ {
+  "seg": 181,
+  "start": 629.193,
+  "end": 633.6,
+  "speaker": "Kath Korevec",
+  "en": "You can have full internal tools with it and deep buildouts.",
+  "zh": "你可以用它搭建完整的内部工具和深度构建。"
+ },
+ {
+  "seg": 182,
+  "start": 633.7,
+  "end": 636.464,
+  "speaker": "Kath Korevec",
+  "en": "Sites does come with D1 data.",
+  "zh": "Sites 自带 D1 数据。"
+ },
+ {
+  "seg": 183,
+  "start": 636.624,
+  "end": 637.846,
+  "speaker": "Kath Korevec",
+  "en": "It has an R2 bucket.",
+  "zh": "它有一个 R2 bucket。"
+ },
+ {
+  "seg": 184,
+  "start": 638.547,
+  "end": 640.31,
+  "speaker": "Kath Korevec",
+  "en": "It's all deployable.",
+  "zh": "一切都是可部署的。"
+ },
+ {
+  "seg": 185,
+  "start": 641.151,
+  "end": 642.453,
+  "speaker": "Kath Korevec",
+  "en": "You can have co-editors on it.",
+  "zh": "你可以在上面有共同编辑者。"
+ },
+ {
+  "seg": 186,
+  "start": 642.473,
+  "end": 647.177,
+  "speaker": "Kath Korevec",
+  "en": "So it actually has a lot of And yeah, I mean,",
+  "zh": "所以它实际上有很多功能。对，我的意思是，"
+ },
+ {
+  "seg": 187,
+  "start": 647.197,
+  "end": 648.8636666666666,
+  "speaker": "Kath Korevec",
+  "en": "I think it's just like for me,",
+  "zh": "我觉得对我而言，"
+ },
+ {
+  "seg": 188,
+  "start": 648.978,
+  "end": 651.779,
+  "speaker": "Kath Korevec",
+  "en": "it's cool to be able to think about like,",
+  "zh": "能够去思考这样的事情很酷，比如，"
+ },
+ {
+  "seg": 189,
+  "start": 651.879,
+  "end": 655.421,
+  "speaker": "Kath Korevec",
+  "en": "OK, my brain works in different ways than other people.",
+  "zh": "好，我大脑的运作方式和其他人不一样。"
+ },
+ {
+  "seg": 190,
+  "start": 655.561,
+  "end": 660.163,
+  "speaker": "Kath Korevec",
+  "en": "And I might just want like a different view of Google Calendar for the day or for the week.",
+  "zh": "我可能只是想要一个不同的 Google Calendar 视图，看某一天或某一周的。"
+ },
+ {
+  "seg": 191,
+  "start": 660.183,
+  "end": 663.6274444444444,
+  "speaker": "Kath Korevec",
+  "en": "I might be like going on a business trip and I just want like.",
+  "zh": "我可能要去出差，我就只想要。"
+ },
+ {
+  "seg": 192,
+  "start": 664.067,
+  "end": 665.227,
+  "speaker": "Kath Korevec",
+  "en": "Things organize differently.",
+  "zh": "东西以不同的方式组织起来。"
+ },
+ {
+  "seg": 193,
+  "start": 665.267,
+  "end": 668.878,
+  "speaker": "Kath Korevec",
+  "en": "And so I'll build a site for that week and then I'll throw it away at the end of the week.",
+  "zh": "所以我会为那一周建一个 site，然后在那一周结束时把它扔掉。"
+ },
+ {
+  "seg": 194,
+  "start": 668.928,
+  "end": 670.629,
+  "speaker": "Kath Korevec",
+  "en": "And it's wonderful.",
+  "zh": "这感觉棒极了。"
+ },
+ {
+  "seg": 195,
+  "start": 670.829,
+  "end": 674.089,
+  "speaker": "SPEAKER_01",
+  "en": "I want to talk really quickly about sites as infrastructure because we talked",
+  "zh": "我想快速聊聊 sites 作为基础设施这个话题，因为我们之前"
+ },
+ {
+  "seg": 196,
+  "start": 674.129,
+  "end": 675.01,
+  "speaker": "SPEAKER_01",
+  "en": "about this a little bit.",
+  "zh": "稍微提到过这个。"
+ },
+ {
+  "seg": 197,
+  "start": 675.03,
+  "end": 678.971,
+  "speaker": "SPEAKER_01",
+  "en": "So you just like kind of prattled off very casually some of the components in sites.",
+  "zh": "你刚才很随意地一口气报出了 sites 里的一些组件。"
+ },
+ {
+  "seg": 198,
+  "start": 678.991,
+  "end": 680.411,
+  "speaker": "SPEAKER_01",
+  "en": "So you can make these websites,",
+  "zh": "所以你可以做这些网站，"
+ },
+ {
+  "seg": 199,
+  "start": 680.431,
+  "end": 684.072,
+  "speaker": "SPEAKER_01",
+  "en": "but what are other ways you can use the sort of like infrastructure side of sites",
+  "zh": "但是还有什么其他方式可以利用 sites 的那种基础设施层面的东西"
+ },
+ {
+  "seg": 200,
+  "start": 684.112,
+  "end": 687.3420000000001,
+  "speaker": "SPEAKER_01",
+  "en": "that you think is interesting that like most people wouldn't presume?",
+  "zh": "你觉得有意思而大多数人可能想不到的？"
+ },
+ {
+  "seg": 201,
+  "start": 687.392,
+  "end": 688.683,
+  "speaker": "Kath Korevec",
+  "en": "The cool thing about sites is that,",
+  "zh": "sites 的酷炫之处在于，"
+ },
+ {
+  "seg": 202,
+  "start": 688.733,
+  "end": 693.3996666666666,
+  "speaker": "Kath Korevec",
+  "en": "okay, so we built it to be able to put software someplace that you build with Codex.",
+  "zh": "好吧，我们构建它是为了能够把用 Codex 构建的软件放到某个地方。"
+ },
+ {
+  "seg": 203,
+  "start": 695.455,
+  "end": 700.339,
+  "speaker": "Kath Korevec",
+  "en": "We were asking Codex to build websites and it would build things and put it locally",
+  "zh": "我们让 Codex 构建网站，它会构建东西并放在本地，"
+ },
+ {
+  "seg": 204,
+  "start": 700.379,
+  "end": 703.97,
+  "speaker": "Kath Korevec",
+  "en": "and then You'd have to kind of like struggle through the DevOps of that.",
+  "zh": "然后你就得费劲折腾那些 DevOps。"
+ },
+ {
+  "seg": 205,
+  "start": 704.02,
+  "end": 704.841,
+  "speaker": "Kath Korevec",
+  "en": "And so we were like, okay,",
+  "zh": "所以我们就说，好吧，"
+ },
+ {
+  "seg": 206,
+  "start": 704.881,
+  "end": 710.684,
+  "speaker": "Kath Korevec",
+  "en": "let's handle that part of it and do kind of like the last mile work of taking stuff",
+  "zh": "让我们来处理那部分，做那种最后一公里的工作，把东西"
+ },
+ {
+  "seg": 207,
+  "start": 710.704,
+  "end": 713.216,
+  "speaker": "Kath Korevec",
+  "en": "from your local machine and putting it somewhere.",
+  "zh": "从你的本地机器搬到某个地方去。"
+ },
+ {
+  "seg": 208,
+  "start": 713.266,
+  "end": 718.509,
+  "speaker": "Kath Korevec",
+  "en": "And what we saw was that people were using sites for, yes,",
+  "zh": "然后我们看到人们用 sites 来，没错，"
+ },
+ {
+  "seg": 209,
+  "start": 718.969,
+  "end": 719.969,
+  "speaker": "Kath Korevec",
+  "en": "building websites,",
+  "zh": "构建网站，"
+ },
+ {
+  "seg": 210,
+  "start": 720.069,
+  "end": 726.853,
+  "speaker": "Kath Korevec",
+  "en": "but then also building plugins and hosting data and running evals",
+  "zh": "但也在构建插件、托管数据和运行 eval"
+ },
+ {
+  "seg": 211,
+  "start": 727.574,
+  "end": 729.495,
+  "speaker": "Kath Korevec",
+  "en": "because it is very powerful.",
+  "zh": "因为它非常强大。"
+ },
+ {
+  "seg": 212,
+  "start": 729.575,
+  "end": 730.325,
+  "speaker": "Kath Korevec",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 213,
+  "start": 730.375,
+  "end": 736.42,
+  "speaker": "Kath Korevec",
+  "en": "We announced today that you can actually host MCP plugins through sites and",
+  "zh": "我们今天宣布，你实际上可以通过 sites 托管 MCP 插件，"
+ },
+ {
+  "seg": 214,
+  "start": 736.46,
+  "end": 738.782,
+  "speaker": "Kath Korevec",
+  "en": "then use those for your sites.",
+  "zh": "然后在你的 sites 中使用它们。"
+ },
+ {
+  "seg": 215,
+  "start": 739.242,
+  "end": 742.185,
+  "speaker": "Kath Korevec",
+  "en": "So it's kind of like this virtuous cycle, too,",
+  "zh": "所以这有点像一个良性循环，"
+ },
+ {
+  "seg": 216,
+  "start": 742.205,
+  "end": 744.6170000000001,
+  "speaker": "Kath Korevec",
+  "en": "that we're kind of building into the workflow of sites itself",
+  "zh": "我们正在把它构建进 sites 本身的工作流里，"
+ },
+ {
+  "seg": 217,
+  "start": 744.667,
+  "end": 748.8000000000001,
+  "speaker": "Kath Korevec",
+  "en": "because sites can be used to build a website and then also as infrastructure.",
+  "zh": "因为 sites 既可以用来构建网站，也可以作为基础设施。"
+ },
+ {
+  "seg": 218,
+  "start": 748.85,
+  "end": 749.1600000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 219,
+  "start": 749.21,
+  "end": 749.471,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 220,
+  "start": 749.511,
+  "end": 753.874,
+  "speaker": "SPEAKER_01",
+  "en": "So we've prattled a little bit about incident management and infrastructure",
+  "zh": "我们已经聊了不少关于事件管理、基础设施"
+ },
+ {
+  "seg": 221,
+  "start": 753.894,
+  "end": 759.419,
+  "speaker": "SPEAKER_01",
+  "en": "and work productivity, but let's skip to the problem that you and I both have.",
+  "zh": "和工作效率的话题，但让我们跳到你我都有的那个问题上。"
+ },
+ {
+  "seg": 222,
+  "start": 759.439,
+  "end": 760.439,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 223,
+  "start": 760.557,
+  "end": 765.02,
+  "speaker": "SPEAKER_01",
+  "en": "Which is our algos are messed up because we have kids.",
+  "zh": "那就是我们的推荐算法乱了，因为我们有孩子。"
+ },
+ {
+  "seg": 224,
+  "start": 765.161,
+  "end": 766.622,
+  "speaker": "SPEAKER_01",
+  "en": "So if you have a beautiful,",
+  "zh": "所以如果你有一个美妙的、"
+ },
+ {
+  "seg": 225,
+  "start": 766.662,
+  "end": 769.284,
+  "speaker": "SPEAKER_01",
+  "en": "pristine Spotify playlist,",
+  "zh": "纯净的 Spotify 播放列表，"
+ },
+ {
+  "seg": 226,
+  "start": 769.404,
+  "end": 775.152,
+  "speaker": "SPEAKER_01",
+  "en": "if you have a beautiful, pristine Hulu or Netflix queue, Good for you.",
+  "zh": "如果你有一个美妙的、纯净的 Hulu 或 Netflix 队列，恭喜你。"
+ },
+ {
+  "seg": 227,
+  "start": 776.173,
+  "end": 777.895,
+  "speaker": "SPEAKER_01",
+  "en": "We do not have that.",
+  "zh": "我们没有那种东西。"
+ },
+ {
+  "seg": 228,
+  "start": 778.015,
+  "end": 781.758,
+  "speaker": "SPEAKER_01",
+  "en": "And so I want you to walk through your Spotify being taken over by other people",
+  "zh": "所以我想让你讲讲你的 Spotify 是如何被你家里的"
+ },
+ {
+  "seg": 229,
+  "start": 781.778,
+  "end": 782.5690000000001,
+  "speaker": "SPEAKER_01",
+  "en": "in your household.",
+  "zh": "其他人接管的过程。"
+ },
+ {
+  "seg": 230,
+  "start": 782.619,
+  "end": 783.349,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, totally.",
+  "zh": "是的，完全如此。"
+ },
+ {
+  "seg": 231,
+  "start": 783.399,
+  "end": 787.463,
+  "speaker": "Kath Korevec",
+  "en": "OK, so my Spotify has been taken over by my children.",
+  "zh": "好，我的 Spotify 被我的孩子们接管了。"
+ },
+ {
+  "seg": 232,
+  "start": 787.863,
+  "end": 788.863,
+  "speaker": "Kath Korevec",
+  "en": "And yeah, I mean,",
+  "zh": "而且是的，我是说，"
+ },
+ {
+  "seg": 233,
+  "start": 789.184,
+  "end": 790.456,
+  "speaker": "Kath Korevec",
+  "en": "some of it's Michael Jackson,",
+  "zh": "有些是 Michael Jackson，"
+ },
+ {
+  "seg": 234,
+  "start": 790.506,
+  "end": 793.298,
+  "speaker": "Kath Korevec",
+  "en": "which is quite great, but most of it's Bluey and Sesame Street.",
+  "zh": "相当不错，但大部分是 Bluey 和芝麻街。"
+ },
+ {
+  "seg": 235,
+  "start": 793.348,
+  "end": 797.232,
+  "speaker": "Kath Korevec",
+  "en": "So I built a heavy rotation website.",
+  "zh": "所以我建了一个 heavy rotation 网站。"
+ },
+ {
+  "seg": 236,
+  "start": 797.292,
+  "end": 802.496,
+  "speaker": "Kath Korevec",
+  "en": "OK, so the way this thing works is I wanted it to be I wanted it to be mobile friendly.",
+  "zh": "好，这个东西的工作方式是，我希望它……我希望它是移动端友好的。"
+ },
+ {
+  "seg": 237,
+  "start": 802.736,
+  "end": 807.958,
+  "speaker": "Kath Korevec",
+  "en": "And so I have so I have a couple of different MD files that I wrote up",
+  "zh": "所以我……所以我写了几个不同的 MD 文件，"
+ },
+ {
+  "seg": 238,
+  "start": 808.018,
+  "end": 811.379,
+  "speaker": "Kath Korevec",
+  "en": "to instruct sites on how I wanted this thing to come about.",
+  "zh": "用来指示 sites 我希望这个东西如何做成。"
+ },
+ {
+  "seg": 239,
+  "start": 811.799,
+  "end": 813.33,
+  "speaker": "Kath Korevec",
+  "en": "So I wanted to be mobile friendly.",
+  "zh": "所以我希望它是移动端友好的。"
+ },
+ {
+  "seg": 240,
+  "start": 813.38,
+  "end": 815.881,
+  "speaker": "Kath Korevec",
+  "en": "I wanted it to be very, very simple to use.",
+  "zh": "我希望它非常非常简单易用。"
+ },
+ {
+  "seg": 241,
+  "start": 816.401,
+  "end": 821.923,
+  "speaker": "Kath Korevec",
+  "en": "I also wanted it to go and look at Reddit top playlists",
+  "zh": "我还希望它去看 Reddit 上的热门播放列表，"
+ },
+ {
+  "seg": 242,
+  "start": 821.983,
+  "end": 827.719,
+  "speaker": "Kath Korevec",
+  "en": "and find like what music is Out there that is that is popular",
+  "zh": "找出流行的是什么音乐"
+ },
+ {
+  "seg": 243,
+  "start": 827.839,
+  "end": 830.97,
+  "speaker": "Kath Korevec",
+  "en": "and what people are voting on because I wanted to discover new stuff.",
+  "zh": "以及人们在投票支持什么，因为我想发现新东西。"
+ },
+ {
+  "seg": 244,
+  "start": 831.02,
+  "end": 834.101,
+  "speaker": "Kath Korevec",
+  "en": "Like I am very, very bad at keeping up with music.",
+  "zh": "就像我非常非常不擅长跟进音乐。"
+ },
+ {
+  "seg": 245,
+  "start": 834.181,
+  "end": 835.111,
+  "speaker": "Kath Korevec",
+  "en": "I have a demanding job.",
+  "zh": "我有一份要求很高的工作。"
+ },
+ {
+  "seg": 246,
+  "start": 835.161,
+  "end": 836.481,
+  "speaker": "Kath Korevec",
+  "en": "I'm a mother of two.",
+  "zh": "我是两个孩子的母亲。"
+ },
+ {
+  "seg": 247,
+  "start": 836.782,
+  "end": 838.4920000000001,
+  "speaker": "Kath Korevec",
+  "en": "I'm one of the room parents for kindergarten.",
+  "zh": "我是幼儿园的家长代表之一。"
+ },
+ {
+  "seg": 248,
+  "start": 838.542,
+  "end": 842.0730000000001,
+  "speaker": "Kath Korevec",
+  "en": "Like I just have too much going on, but I love listening to music while I'm at work.",
+  "zh": "就是我有太多事情要忙，但我喜欢在上班时听音乐。"
+ },
+ {
+  "seg": 249,
+  "start": 842.123,
+  "end": 848.265,
+  "speaker": "Kath Korevec",
+  "en": "So I so I have it go to Reddit and use computer use to look at what people are sharing.",
+  "zh": "所以我让它去 Reddit 并使用 computer use 来查看人们在分享什么。"
+ },
+ {
+  "seg": 250,
+  "start": 848.995,
+  "end": 851.137,
+  "speaker": "Kath Korevec",
+  "en": "And then I put that in on automation.",
+  "zh": "然后我把它设置成了一个自动化。"
+ },
+ {
+  "seg": 251,
+  "start": 851.157,
+  "end": 857.881,
+  "speaker": "Kath Korevec",
+  "en": "I have it run every single Monday at 8 a.m. And then it builds a playlist for me.",
+  "zh": "我让它每周一早上 8 点运行。然后它会给我建一个播放列表。"
+ },
+ {
+  "seg": 252,
+  "start": 858.621,
+  "end": 861.683,
+  "speaker": "Kath Korevec",
+  "en": "And that playlist, let me show you what it looks like.",
+  "zh": "那个播放列表，让我给你看看它长什么样。"
+ },
+ {
+  "seg": 253,
+  "start": 862.924,
+  "end": 864.065,
+  "speaker": "Kath Korevec",
+  "en": "So it's just very simple.",
+  "zh": "实际上这一个是我为我的工作笔记本重写的，"
+ },
+ {
+  "seg": 254,
+  "start": 864.105,
+  "end": 865.605,
+  "speaker": "Kath Korevec",
+  "en": "So it just looks like this.",
+  "zh": "它看起来就是这样。"
+ },
+ {
+  "seg": 255,
+  "start": 866.146,
+  "end": 868.447,
+  "speaker": "Kath Korevec",
+  "en": "And let me see if it will play.",
+  "zh": "让我看看它能不能播放。"
+ },
+ {
+  "seg": 256,
+  "start": 868.467,
+  "end": 873.8003333333334,
+  "speaker": "Kath Korevec",
+  "en": "So this is running off of, it's also pulling in from, so the player is actually running Spotify.",
+  "zh": "所以这是运行在，它也是从……拉取的，所以播放器实际上是运行 Spotify。"
+ },
+ {
+  "seg": 257,
+  "start": 875.291,
+  "end": 877.791,
+  "speaker": "Kath Korevec",
+  "en": "And I don't know if you can actually hear it.",
+  "zh": "我不知道你们能不能真的听到。"
+ },
+ {
+  "seg": 258,
+  "start": 881.765,
+  "end": 882.375,
+  "speaker": "Kath Korevec",
+  "en": "So I don't know.",
+  "zh": "所以我也不知道。"
+ },
+ {
+  "seg": 259,
+  "start": 882.425,
+  "end": 883.606,
+  "speaker": "Kath Korevec",
+  "en": "I've never heard this song before,",
+  "zh": "我以前从没听过这首歌，"
+ },
+ {
+  "seg": 260,
+  "start": 883.646,
+  "end": 888.747,
+  "speaker": "Kath Korevec",
+  "en": "but it's a cool one that I get to listen to for the week because it pulled",
+  "zh": "但这是我这周能听到的一首很酷的歌，因为它是昨天"
+ },
+ {
+  "seg": 261,
+  "start": 888.807,
+  "end": 890.067,
+  "speaker": "Kath Korevec",
+  "en": "in yesterday.",
+  "zh": "拉取进来的。"
+ },
+ {
+  "seg": 262,
+  "start": 890.207,
+  "end": 891.5403333333334,
+  "speaker": "Kath Korevec",
+  "en": "And decidedly not bluey.",
+  "zh": "而且显然不是《小猪佩奇》(bluey)。"
+ },
+ {
+  "seg": 263,
+  "start": 892.088,
+  "end": 893.588,
+  "speaker": "SPEAKER_01",
+  "en": "Decidedly not bluey.",
+  "zh": "显然不是 bluey。"
+ },
+ {
+  "seg": 264,
+  "start": 893.728,
+  "end": 894.138,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 265,
+  "start": 894.188,
+  "end": 899.59,
+  "speaker": "SPEAKER_01",
+  "en": "And so I didn't realize that Spotify was a plugin that you could use.",
+  "zh": "我之前没意识到 Spotify 是一个可以使用的插件。"
+ },
+ {
+  "seg": 266,
+  "start": 899.67,
+  "end": 903.731,
+  "speaker": "SPEAKER_01",
+  "en": "And so it can query the catalog and pull it in to play in whatever way.",
+  "zh": "所以它可以查询曲库并把它拉进来，以你想要的任何方式"
+ },
+ {
+  "seg": 267,
+  "start": 904.326,
+  "end": 906.028,
+  "speaker": "SPEAKER_01",
+  "en": "Custom interface that you want.",
+  "zh": "播放。"
+ },
+ {
+  "seg": 268,
+  "start": 906.068,
+  "end": 906.879,
+  "speaker": "SPEAKER_01",
+  "en": "Is that how it works?",
+  "zh": "是这样工作的吗？"
+ },
+ {
+  "seg": 269,
+  "start": 906.929,
+  "end": 907.34,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 270,
+  "start": 907.39,
+  "end": 907.76,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 271,
+  "start": 907.81,
+  "end": 909.452,
+  "speaker": "Kath Korevec",
+  "en": "Well, I'm just using right for this.",
+  "zh": "嗯，我只是为此用的……"
+ },
+ {
+  "seg": 272,
+  "start": 909.492,
+  "end": 911.835,
+  "speaker": "Kath Korevec",
+  "en": "I'm just using Spotify like as the player.",
+  "zh": "我只是把 Spotify 当作播放器来用。"
+ },
+ {
+  "seg": 273,
+  "start": 911.855,
+  "end": 915.319,
+  "speaker": "Kath Korevec",
+  "en": "It actually this one is I rebuilt for my work laptop,",
+  "zh": "其实这个是我在工作笔记本上重新构建的，"
+ },
+ {
+  "seg": 274,
+  "start": 915.72,
+  "end": 918.823,
+  "speaker": "Kath Korevec",
+  "en": "but I have this running on my home laptop, too.",
+  "zh": "但我在家里的笔记本上也运行着这个。"
+ },
+ {
+  "seg": 275,
+  "start": 918.863,
+  "end": 923.108,
+  "speaker": "Kath Korevec",
+  "en": "And it actually in order to run the in order to run it, it.",
+  "zh": "而实际上，为了运行它，为了运行它，它……"
+ },
+ {
+  "seg": 276,
+  "start": 924.22,
+  "end": 925.621,
+  "speaker": "Kath Korevec",
+  "en": "It uses computer use,",
+  "zh": "它使用 computer use，"
+ },
+ {
+  "seg": 277,
+  "start": 925.641,
+  "end": 929.243,
+  "speaker": "Kath Korevec",
+  "en": "so I have to have my laptop open and running it and everything,",
+  "zh": "所以我必须让我的笔记本开着并运行它之类的，"
+ },
+ {
+  "seg": 278,
+  "start": 929.303,
+  "end": 932.575,
+  "speaker": "Kath Korevec",
+  "en": "but that's fine because I do this while I'm working and stuff.",
+  "zh": "但这没关系，因为我是在工作的时候做这个的。"
+ },
+ {
+  "seg": 279,
+  "start": 932.625,
+  "end": 936.747,
+  "speaker": "Kath Korevec",
+  "en": "So I have it using Spotify for the actual player,",
+  "zh": "所以我让它用 Spotify 作为实际的播放器，"
+ },
+ {
+  "seg": 280,
+  "start": 937.167,
+  "end": 938.628,
+  "speaker": "Kath Korevec",
+  "en": "pulling in the music, yes,",
+  "zh": "拉取音乐，是的，"
+ },
+ {
+  "seg": 281,
+  "start": 938.788,
+  "end": 944.251,
+  "speaker": "Kath Korevec",
+  "en": "but then it can also reference my Apple Music and pull that in because I do have",
+  "zh": "但它也可以引用我的 Apple Music 并把那些拉进来，因为我确实"
+ },
+ {
+  "seg": 282,
+  "start": 944.291,
+  "end": 948.133,
+  "speaker": "Kath Korevec",
+  "en": "a lot of music on my local machine, and so it'll reference that.",
+  "zh": "在本地机器上有很多音乐，所以它会引用那些。"
+ },
+ {
+  "seg": 283,
+  "start": 948.153,
+  "end": 949.844,
+  "speaker": "Kath Korevec",
+  "en": "And then it makes the playlist for you.",
+  "zh": "然后它为你制作播放列表。"
+ },
+ {
+  "seg": 284,
+  "start": 949.894,
+  "end": 950.5640000000001,
+  "speaker": "Kath Korevec",
+  "en": "Every Monday.",
+  "zh": "每周一。"
+ },
+ {
+  "seg": 285,
+  "start": 950.614,
+  "end": 951.1450000000001,
+  "speaker": "Kath Korevec",
+  "en": "Every Monday.",
+  "zh": "每周一。"
+ },
+ {
+  "seg": 286,
+  "start": 951.195,
+  "end": 952.075,
+  "speaker": "SPEAKER_01",
+  "en": "What about, I mean,",
+  "zh": "那，我是说，"
+ },
+ {
+  "seg": 287,
+  "start": 952.095,
+  "end": 953.1260000000001,
+  "speaker": "SPEAKER_01",
+  "en": "are there any other,",
+  "zh": "还有其他……"
+ },
+ {
+  "seg": 288,
+  "start": 953.176,
+  "end": 957.1080000000001,
+  "speaker": "SPEAKER_01",
+  "en": "like, Consumery connectors that you think people should pay attention to?",
+  "zh": "比如，你觉得人们应该关注哪些面向消费者的连接器吗？"
+ },
+ {
+  "seg": 289,
+  "start": 957.158,
+  "end": 958.24,
+  "speaker": "SPEAKER_01",
+  "en": "Is this your favorite one?",
+  "zh": "这是你最喜欢的一个吗？"
+ },
+ {
+  "seg": 290,
+  "start": 958.26,
+  "end": 959.502,
+  "speaker": "Kath Korevec",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 291,
+  "start": 959.563,
+  "end": 961.386,
+  "speaker": "Kath Korevec",
+  "en": "I'd have to look at the list.",
+  "zh": "我得看看那个列表。"
+ },
+ {
+  "seg": 292,
+  "start": 961.727,
+  "end": 963.0047777777778,
+  "speaker": "Kath Korevec",
+  "en": "I would say this one...",
+  "zh": "我想说这个……"
+ },
+ {
+  "seg": 293,
+  "start": 963.307,
+  "end": 964.277,
+  "speaker": "Kath Korevec",
+  "en": "I'm trying to think.",
+  "zh": "我在想。"
+ },
+ {
+  "seg": 294,
+  "start": 964.327,
+  "end": 964.837,
+  "speaker": "Kath Korevec",
+  "en": "Gmail.",
+  "zh": "Gmail。"
+ },
+ {
+  "seg": 295,
+  "start": 964.887,
+  "end": 965.327,
+  "speaker": "Kath Korevec",
+  "en": "Calendar.",
+  "zh": "日历。"
+ },
+ {
+  "seg": 296,
+  "start": 965.347,
+  "end": 965.9580000000001,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 297,
+  "start": 966.008,
+  "end": 967.008,
+  "speaker": "Kath Korevec",
+  "en": "I'm just such",
+  "zh": "我就是这么"
+ },
+ {
+  "seg": 298,
+  "start": 967.048,
+  "end": 967.548,
+  "speaker": "SPEAKER_01",
+  "en": "a nerd.",
+  "zh": "极客。"
+ },
+ {
+  "seg": 299,
+  "start": 967.568,
+  "end": 968.208,
+  "speaker": "SPEAKER_01",
+  "en": "You're such a nerd.",
+  "zh": "你就是这么极客。"
+ },
+ {
+  "seg": 300,
+  "start": 968.228,
+  "end": 971.979,
+  "speaker": "SPEAKER_01",
+  "en": "You're like, no, I only want a playlist to listen while I manage my incidents.",
+  "zh": "你就像在说，不，我只想要一个歌单，在我处理事故的时候听。"
+ },
+ {
+  "seg": 301,
+  "start": 972.029,
+  "end": 973.329,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 302,
+  "start": 973.449,
+  "end": 974.0790000000001,
+  "speaker": "Kath Korevec",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 303,
+  "start": 974.129,
+  "end": 974.469,
+  "speaker": "Kath Korevec",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 304,
+  "start": 974.509,
+  "end": 975.089,
+  "speaker": "Kath Korevec",
+  "en": "It's dev day.",
+  "zh": "今天是 Dev Day。"
+ },
+ {
+  "seg": 305,
+  "start": 975.129,
+  "end": 977.61,
+  "speaker": "Kath Korevec",
+  "en": "So I've just been like 24-7 working.",
+  "zh": "所以我一直 24 小时不间断地工作。"
+ },
+ {
+  "seg": 306,
+  "start": 978.07,
+  "end": 981.6811111111111,
+  "speaker": "SPEAKER_01",
+  "en": "OK, well, we'll find some afterwards and we'll build some sites.",
+  "zh": "好，那我们之后再找一些，然后我们会建一些网站。"
+ },
+ {
+  "seg": 307,
+  "start": 981.591,
+  "end": 987.552,
+  "speaker": "SPEAKER_01",
+  "en": "I want to go to one other use case that you and I both mutually built so we can talk",
+  "zh": "我想再聊一个你和我们都一起构建过的用例，这样我们可以谈谈"
+ },
+ {
+  "seg": 308,
+  "start": 987.592,
+  "end": 991.872,
+  "speaker": "SPEAKER_01",
+  "en": "about our different Approaches to it, which is just games and sites.",
+  "zh": "我们各自不同的方法，那就是游戏和网站。"
+ },
+ {
+  "seg": 309,
+  "start": 991.892,
+  "end": 996.375,
+  "speaker": "SPEAKER_01",
+  "en": "I think we're talking a lot at Dev Day today about how good these models are,",
+  "zh": "我觉得我们今天在 Dev Day 上谈了很多关于这些模型有多擅长"
+ },
+ {
+  "seg": 310,
+  "start": 996.555,
+  "end": 1000.757,
+  "speaker": "SPEAKER_01",
+  "en": "Astra, et cetera, at building 3D games and games of different sorts.",
+  "zh": "Astra 等等，去构建 3D 游戏和各种不同类型的游戏。"
+ },
+ {
+  "seg": 311,
+  "start": 1001.477,
+  "end": 1003.788,
+  "speaker": "SPEAKER_01",
+  "en": "And what I think is really fun about this is,",
+  "zh": "而我觉得这件事真正有趣的地方在于，"
+ },
+ {
+  "seg": 312,
+  "start": 1003.838,
+  "end": 1007.16,
+  "speaker": "SPEAKER_01",
+  "en": "one, you can like zero to one something really fast.",
+  "zh": "第一，你可以非常快地从零到一做出一个东西。"
+ },
+ {
+  "seg": 313,
+  "start": 1007.24,
+  "end": 1008.3511111111111,
+  "speaker": "SPEAKER_01",
+  "en": "That's high quality.",
+  "zh": "而且质量很高。"
+ },
+ {
+  "seg": 314,
+  "start": 1008.701,
+  "end": 1012.602,
+  "speaker": "SPEAKER_01",
+  "en": "Two, now with sites, like you have a place that you can stick it and other people know.",
+  "zh": "第二，现在有了 sites，你就有了一个可以放置它的地方，别人也知道。"
+ },
+ {
+  "seg": 315,
+  "start": 1012.622,
+  "end": 1017.8997777777778,
+  "speaker": "SPEAKER_01",
+  "en": "But like, I think people aren't thinking as creatively as they could about like what a game is.",
+  "zh": "但是，我觉得人们对于「什么是游戏」这个问题的思考，还没有发挥出应有的创造力。"
+ },
+ {
+  "seg": 316,
+  "start": 1018.225,
+  "end": 1022.107,
+  "speaker": "SPEAKER_01",
+  "en": "And so I wanted to kind of like connect the community around that.",
+  "zh": "所以我想把社区围绕这一点连接起来。"
+ },
+ {
+  "seg": 317,
+  "start": 1022.147,
+  "end": 1024.148,
+  "speaker": "SPEAKER_01",
+  "en": "And so that's something that I'm very curious about.",
+  "zh": "这是我非常好奇的事情。"
+ },
+ {
+  "seg": 318,
+  "start": 1048.078,
+  "end": 1049.689,
+  "speaker": "Kath Korevec",
+  "en": "And that I'm still playing around with.",
+  "zh": "也是我还在不断玩味的东西。"
+ },
+ {
+  "seg": 319,
+  "start": 1049.739,
+  "end": 1054.0723333333333,
+  "speaker": "Kath Korevec",
+  "en": "So it'd be cool, like maybe later on we can share this and see what people do.",
+  "zh": "所以这会很酷，也许之后我们可以分享这个，看看大家会做出什么。"
+ },
+ {
+  "seg": 320,
+  "start": 1054.261,
+  "end": 1059.583,
+  "speaker": "Kath Korevec",
+  "en": "But basically, okay, so I built the largest user-created dungeon crawler.",
+  "zh": "不过基本上，好，我构建了最大的由用户创建的地下城爬行游戏。"
+ },
+ {
+  "seg": 321,
+  "start": 1059.603,
+  "end": 1066.603,
+  "speaker": "Kath Korevec",
+  "en": "And what this does is you can go in, you can play it, you can pick whatever your player is.",
+  "zh": "它的作用是，你可以进去玩，你可以选择任何你想扮演的角色。"
+ },
+ {
+  "seg": 322,
+  "start": 1067.887,
+  "end": 1071.629,
+  "speaker": "Kath Korevec",
+  "en": "You can pick a Codex pet, you can create your own.",
+  "zh": "你可以选一个 Codex 宠物，你也可以创建自己的。"
+ },
+ {
+  "seg": 323,
+  "start": 1072.329,
+  "end": 1074.778,
+  "speaker": "Kath Korevec",
+  "en": "Are we going to be able to put our dots in here?",
+  "zh": "我们能把我们的 dots 放进去吗？"
+ },
+ {
+  "seg": 324,
+  "start": 1074.828,
+  "end": 1076.389,
+  "speaker": "Kath Korevec",
+  "en": "I will add .integration.",
+  "zh": "我会加上 .integration。"
+ },
+ {
+  "seg": 325,
+  "start": 1076.43,
+  "end": 1077.02,
+  "speaker": "Kath Korevec",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 326,
+  "start": 1077.07,
+  "end": 1078.07,
+  "speaker": "Kath Korevec",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 327,
+  "start": 1078.772,
+  "end": 1084.737,
+  "speaker": "Kath Korevec",
+  "en": "And then you go in and you bounce around and you kill the teddy bears and stuff.",
+  "zh": "然后你进去四处弹跳，杀掉泰迪熊之类的东西。"
+ },
+ {
+  "seg": 328,
+  "start": 1084.757,
+  "end": 1086.1680000000001,
+  "speaker": "Kath Korevec",
+  "en": "I'm really, really bad at this game.",
+  "zh": "我玩这个游戏真的真的很烂。"
+ },
+ {
+  "seg": 329,
+  "start": 1086.218,
+  "end": 1088.16,
+  "speaker": "Kath Korevec",
+  "en": "So I get eaten very, very quickly.",
+  "zh": "所以我很快很快就被吃掉了。"
+ },
+ {
+  "seg": 330,
+  "start": 1088.18,
+  "end": 1089.8110000000001,
+  "speaker": "Kath Korevec",
+  "en": "You should get asked her to play it.",
+  "zh": "你应该让 Astra 来玩它。"
+ },
+ {
+  "seg": 331,
+  "start": 1089.861,
+  "end": 1090.322,
+  "speaker": "Kath Korevec",
+  "en": "I should.",
+  "zh": "我应该。"
+ },
+ {
+  "seg": 332,
+  "start": 1090.342,
+  "end": 1090.952,
+  "speaker": "Kath Korevec",
+  "en": "I should.",
+  "zh": "我应该。"
+ },
+ {
+  "seg": 333,
+  "start": 1091.002,
+  "end": 1092.002,
+  "speaker": "SPEAKER_01",
+  "en": "I totally should.",
+  "zh": "我完全应该。"
+ },
+ {
+  "seg": 334,
+  "start": 1092.244,
+  "end": 1094.7995555555556,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so what I did, so this is Alamo Square.",
+  "zh": "好，我做了什么，这是 Alamo Square。"
+ },
+ {
+  "seg": 335,
+  "start": 1095.366,
+  "end": 1096.857,
+  "speaker": "Kath Korevec",
+  "en": "You can see the painted ladies right here.",
+  "zh": "你可以看到这边的彩绘女士房子。"
+ },
+ {
+  "seg": 336,
+  "start": 1096.907,
+  "end": 1098.3514444444443,
+  "speaker": "Kath Korevec",
+  "en": "I'm about to get murdered.",
+  "zh": "我马上就要被谋杀了。"
+ },
+ {
+  "seg": 337,
+  "start": 1098.467,
+  "end": 1105.467,
+  "speaker": "Kath Korevec",
+  "en": "And what I did was I also wanted people to build their own rooms.",
+  "zh": "而我做的是，我还想让人们构建他们自己的房间。"
+ },
+ {
+  "seg": 338,
+  "start": 1107.472,
+  "end": 1111.7050000000002,
+  "speaker": "Kath Korevec",
+  "en": "And so I put instructions here about how to use a skill called Dungeon Sight,",
+  "zh": "所以我在这里放了说明，关于如何使用一个叫 Dungeon Sight 的技能，"
+ },
+ {
+  "seg": 339,
+  "start": 1111.755,
+  "end": 1114.316,
+  "speaker": "Kath Korevec",
+  "en": "which I can release and everything.",
+  "zh": "这个我可以发布出来等等。"
+ },
+ {
+  "seg": 340,
+  "start": 1114.356,
+  "end": 1118.761,
+  "speaker": "Kath Korevec",
+  "en": "And so people can go and play this, but I'll show you kind of like how to use it.",
+  "zh": "所以人们可以去玩这个，但我会给你展示一下大致怎么用。"
+ },
+ {
+  "seg": 341,
+  "start": 1118.811,
+  "end": 1122.135,
+  "speaker": "Kath Korevec",
+  "en": "You go and install the dungeon site skill,",
+  "zh": "你去安装 dungeon site 技能，"
+ },
+ {
+  "seg": 342,
+  "start": 1122.676,
+  "end": 1125.5648888888888,
+  "speaker": "Kath Korevec",
+  "en": "and basically the dungeon site skill is just saying,",
+  "zh": "基本上 dungeon site 技能就是声明，"
+ },
+ {
+  "seg": 343,
+  "start": 1125.82,
+  "end": 1128.1533333333332,
+  "speaker": "Kath Korevec",
+  "en": "here are the dimensions of what a room is,",
+  "zh": "这里是一个房间的尺寸，"
+ },
+ {
+  "seg": 344,
+  "start": 1128.524,
+  "end": 1132.109,
+  "speaker": "Kath Korevec",
+  "en": "here's what the player is, here's what the controls are, etc.",
+  "zh": "这是玩家是什么，这是控制方式，等等。"
+ },
+ {
+  "seg": 345,
+  "start": 1134.972,
+  "end": 1140.29,
+  "speaker": "Kath Korevec",
+  "en": "And then it'll and then you can use Astra to instruct it like I want to be on the moon surface.",
+  "zh": "然后你就可以用 Astra 去指示它，比如我想在月球表面。"
+ },
+ {
+  "seg": 346,
+  "start": 1140.34,
+  "end": 1143.905,
+  "speaker": "Kath Korevec",
+  "en": "I want to be in a volcano or whatever you want.",
+  "zh": "我想在火山里，或者任何你想要的。"
+ },
+ {
+  "seg": 347,
+  "start": 1144.606,
+  "end": 1148.372,
+  "speaker": "Kath Korevec",
+  "en": "So what I did this morning is my son has been watching.",
+  "zh": "所以我今天早上做的是，我儿子一直在看。"
+ },
+ {
+  "seg": 348,
+  "start": 1151.535,
+  "end": 1153.796,
+  "speaker": "Kath Korevec",
+  "en": "The cartoon for Stranger Things.",
+  "zh": "《怪奇物语》的动画片。"
+ },
+ {
+  "seg": 349,
+  "start": 1154.656,
+  "end": 1160.278,
+  "speaker": "Kath Korevec",
+  "en": "And so I built a dungeon room for Stranger Things and it did all of this.",
+  "zh": "所以我构建了一个《怪奇物语》的地下城房间，它完成了所有这些。"
+ },
+ {
+  "seg": 350,
+  "start": 1160.518,
+  "end": 1163.118,
+  "speaker": "Kath Korevec",
+  "en": "So it's the longest dungeon room for Stranger Things.",
+  "zh": "所以它是《怪奇物语》里最长的地下城房间。"
+ },
+ {
+  "seg": 351,
+  "start": 1163.158,
+  "end": 1164.979,
+  "speaker": "Kath Korevec",
+  "en": "It did like the hollow moon.",
+  "zh": "它做了类似空心月亮的东西。"
+ },
+ {
+  "seg": 352,
+  "start": 1165.019,
+  "end": 1166.91,
+  "speaker": "Kath Korevec",
+  "en": "Like it came up with all of this itself.",
+  "zh": "就像这一切都是它自己想出来的。"
+ },
+ {
+  "seg": 353,
+  "start": 1166.96,
+  "end": 1169.7933333333333,
+  "speaker": "Kath Korevec",
+  "en": "And let's see if we can actually go in and play it.",
+  "zh": "然后让我们看看我们能不能真的进去玩一下。"
+ },
+ {
+  "seg": 354,
+  "start": 1169.9,
+  "end": 1172.191,
+  "speaker": "SPEAKER_01",
+  "en": "And I have a question while this is loading.",
+  "zh": "所以它会问你那个问题。"
+ },
+ {
+  "seg": 355,
+  "start": 1172.241,
+  "end": 1175.122,
+  "speaker": "SPEAKER_01",
+  "en": "Is it adding on to your game or is it creating a",
+  "zh": "它是在你的游戏上追加内容，还是在创建一个"
+ },
+ {
+  "seg": 356,
+  "start": 1175.202,
+  "end": 1175.462,
+  "speaker": "Kath Korevec",
+  "en": "new one?",
+  "zh": "新的？"
+ },
+ {
+  "seg": 357,
+  "start": 1179.293,
+  "end": 1183.634,
+  "speaker": "Kath Korevec",
+  "en": "The whole my whole intent with this and where I want to take it is for people",
+  "zh": "我做这个的整个意图，以及我想把它带向的方向，就是让人们"
+ },
+ {
+  "seg": 358,
+  "start": 1183.674,
+  "end": 1188.036,
+  "speaker": "Kath Korevec",
+  "en": "to share their rooms and then I'll go and add on to my bedroom.",
+  "zh": "分享他们的房间，然后我去给我的卧室追加内容。"
+ },
+ {
+  "seg": 359,
+  "start": 1188.476,
+  "end": 1189.816,
+  "speaker": "Kath Korevec",
+  "en": "It built it local only.",
+  "zh": "它只在本地构建了它。"
+ },
+ {
+  "seg": 360,
+  "start": 1189.836,
+  "end": 1194.758,
+  "speaker": "Kath Korevec",
+  "en": "And then it asked me if it wanted me to build an open ended room.",
+  "zh": "然后它问我要不要构建一个开放式结局的房间。"
+ },
+ {
+  "seg": 361,
+  "start": 1197.3210000000001,
+  "end": 1201.427,
+  "speaker": "Kath Korevec",
+  "en": "And I actually told it, no, I want you to end the game.",
+  "zh": "而我实际上告诉它，不，我要你让游戏有终点。"
+ },
+ {
+  "seg": 362,
+  "start": 1201.728,
+  "end": 1204.502,
+  "speaker": "Kath Korevec",
+  "en": "And that's just because I wanted to use this as a demo.",
+  "zh": "那只是因为我想把这个当作演示来用。"
+ },
+ {
+  "seg": 363,
+  "start": 1204.552,
+  "end": 1205.724,
+  "speaker": "Kath Korevec",
+  "en": "But that's in the skill.",
+  "zh": "但那是在 skill 里的。"
+ },
+ {
+  "seg": 364,
+  "start": 1205.774,
+  "end": 1207.416,
+  "speaker": "Kath Korevec",
+  "en": "And so it will ask you that question.",
+  "zh": "所以它会问你那个问题。"
+ },
+ {
+  "seg": 365,
+  "start": 1207.436,
+  "end": 1210.8248888888888,
+  "speaker": "Kath Korevec",
+  "en": "Do you want to build this as something that you can continue?",
+  "zh": "你想把它构建成可以继续玩下去的东西吗？"
+ },
+ {
+  "seg": 366,
+  "start": 1211.36,
+  "end": 1214.581,
+  "speaker": "Kath Korevec",
+  "en": "And then my whole intention of this is for people to share their rooms and",
+  "zh": "然后我做这个的整个意图就是让人们分享他们的房间，"
+ },
+ {
+  "seg": 367,
+  "start": 1214.601,
+  "end": 1219.083,
+  "speaker": "Kath Korevec",
+  "en": "then play them and then start talking to each other and talking about like,",
+  "zh": "然后去玩它们，然后开始互相交谈，谈论比如，"
+ },
+ {
+  "seg": 368,
+  "start": 1219.103,
+  "end": 1220.573,
+  "speaker": "Kath Korevec",
+  "en": "hey, this one is really fun.",
+  "zh": "嘿，这个房间真的很好玩。"
+ },
+ {
+  "seg": 369,
+  "start": 1220.623,
+  "end": 1225.405,
+  "speaker": "Kath Korevec",
+  "en": "And then adding those on to the longest dungeon crawler game.",
+  "zh": "然后把它们追加到那个最长的地下城爬行游戏上。"
+ },
+ {
+  "seg": 370,
+  "start": 1225.605,
+  "end": 1226.175,
+  "speaker": "SPEAKER_01",
+  "en": "I'm curious,",
+  "zh": "我很好奇，"
+ },
+ {
+  "seg": 371,
+  "start": 1226.225,
+  "end": 1226.595,
+  "speaker": "SPEAKER_01",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 372,
+  "start": 1226.645,
+  "end": 1229.837,
+  "speaker": "SPEAKER_01",
+  "en": "for any of us that want to build, because it seems like you have ambitions.",
+  "zh": "对于我们任何想构建东西的人来说，因为你看起来野心不小。"
+ },
+ {
+  "seg": 373,
+  "start": 1229.887,
+  "end": 1230.887,
+  "speaker": "SPEAKER_01",
+  "en": "She's going to get it live today.",
+  "zh": "她今天就要把它上线了。"
+ },
+ {
+  "seg": 374,
+  "start": 1230.907,
+  "end": 1231.577,
+  "speaker": "SPEAKER_01",
+  "en": "That's what she said.",
+  "zh": "她是这么说的。"
+ },
+ {
+  "seg": 375,
+  "start": 1231.627,
+  "end": 1234.588,
+  "speaker": "SPEAKER_01",
+  "en": "So, you know, we'll tweet out what the link is.",
+  "zh": "所以，你知道，我们会把链接发推出去。"
+ },
+ {
+  "seg": 376,
+  "start": 1234.648,
+  "end": 1236.949,
+  "speaker": "SPEAKER_01",
+  "en": "But when you get this live and...",
+  "zh": "但当你把它上线之后……"
+ },
+ {
+  "seg": 377,
+  "start": 1237.649,
+  "end": 1244.172,
+  "speaker": "SPEAKER_01",
+  "en": "One, I think this is really interesting as it's a skill to distribute like usage for",
+  "zh": "第一，我觉得这真的很有意思，因为它是用 skill 来分发比如一款游戏的"
+ },
+ {
+  "seg": 378,
+  "start": 1244.192,
+  "end": 1247.253,
+  "speaker": "SPEAKER_01",
+  "en": "a game, which is like a user experience I haven't heard before.",
+  "zh": "使用，这是一种我以前没听说过的用户体验。"
+ },
+ {
+  "seg": 379,
+  "start": 1247.273,
+  "end": 1251.574,
+  "speaker": "SPEAKER_01",
+  "en": "It's one thing to say, like, you can go into this game and you can create things.",
+  "zh": "说「你可以进入这个游戏并创造东西」是一回事。"
+ },
+ {
+  "seg": 380,
+  "start": 1251.614,
+  "end": 1257.537,
+  "speaker": "SPEAKER_01",
+  "en": "It's another thing to say, like, download this skill and Codex will build into the game for you.",
+  "zh": "说「下载这个 skill，Codex 会替你在游戏里构建」是另一回事。"
+ },
+ {
+  "seg": 381,
+  "start": 1257.657,
+  "end": 1258.267,
+  "speaker": "SPEAKER_01",
+  "en": "And I don't know.",
+  "zh": "而我不确定。"
+ },
+ {
+  "seg": 382,
+  "start": 1258.317,
+  "end": 1261.428111111111,
+  "speaker": "SPEAKER_01",
+  "en": "I'm sure you're like me where I am just constantly like.",
+  "zh": "我敢说你和我一样，我就是一直在这样用。"
+ },
+ {
+  "seg": 383,
+  "start": 1261.864,
+  "end": 1267.286,
+  "speaker": "SPEAKER_01",
+  "en": "Codex browser in one window, Codex in the other window, like using the app through Codex.",
+  "zh": "一个窗口开 Codex 浏览器，另一个窗口开 Codex，比如通过 Codex 使用这个应用。"
+ },
+ {
+  "seg": 384,
+  "start": 1268.226,
+  "end": 1271.807,
+  "speaker": "SPEAKER_01",
+  "en": "So I think this like distribution model of skills to interact with your app,",
+  "zh": "所以我觉得这种用 skill 来与你的应用交互的分发模式，"
+ },
+ {
+  "seg": 385,
+  "start": 1271.847,
+  "end": 1274.538,
+  "speaker": "SPEAKER_01",
+  "en": "whether it's a game or otherwise, is like pretty interesting.",
+  "zh": "无论是游戏还是其他，都相当有意思。"
+ },
+ {
+  "seg": 386,
+  "start": 1274.588,
+  "end": 1276.069,
+  "speaker": "SPEAKER_01",
+  "en": "The other thing I'm wondering about is, okay,",
+  "zh": "我另外想问的是，好，"
+ },
+ {
+  "seg": 387,
+  "start": 1276.089,
+  "end": 1283.089,
+  "speaker": "SPEAKER_01",
+  "en": "let's say you do this and then all two dozen people in this room go add their room.",
+  "zh": "假设你这么做了，然后这个房间里所有二三十个人都去添加他们的房间。"
+ },
+ {
+  "seg": 388,
+  "start": 1284.211,
+  "end": 1286.852,
+  "speaker": "SPEAKER_01",
+  "en": "Do you have any insight into people using this or not?",
+  "zh": "做调查、看流量峰值，把它变得更智能体化。"
+ },
+ {
+  "seg": 389,
+  "start": 1286.892,
+  "end": 1287.892,
+  "speaker": "SPEAKER_01",
+  "en": "Like how do you,",
+  "zh": "比如，你怎么"
+ },
+ {
+  "seg": 390,
+  "start": 1287.953,
+  "end": 1290.5085555555556,
+  "speaker": "SPEAKER_01",
+  "en": "how can you figure out if people are Actually,",
+  "zh": "能弄清楚人们是否真的"
+ },
+ {
+  "seg": 391,
+  "start": 1290.874,
+  "end": 1292.915,
+  "speaker": "SPEAKER_01",
+  "en": "adding on to your site, are you guys thinking about",
+  "zh": "在往你的网站上追加内容，你们有没有在考虑"
+ },
+ {
+  "seg": 392,
+  "start": 1293.476,
+  "end": 1294.697,
+  "speaker": "Kath Korevec",
+  "en": "the analytics side of this?",
+  "zh": "这方面的分析？"
+ },
+ {
+  "seg": 393,
+  "start": 1294.857,
+  "end": 1296.638,
+  "speaker": "Kath Korevec",
+  "en": "No, I don't as the app developer.",
+  "zh": "没有，作为应用开发者我了解不到。"
+ },
+ {
+  "seg": 394,
+  "start": 1296.658,
+  "end": 1300,
+  "speaker": "Kath Korevec",
+  "en": "So I do have access to some pretty lightweight analytics.",
+  "zh": "所以我确实能访问一些相当轻量的分析。"
+ },
+ {
+  "seg": 395,
+  "start": 1300.401,
+  "end": 1305.745,
+  "speaker": "Kath Korevec",
+  "en": "It's basically like visits and traffic.",
+  "zh": "基本上就是访问量和流量。"
+ },
+ {
+  "seg": 396,
+  "start": 1306.165,
+  "end": 1307.5538888888889,
+  "speaker": "Kath Korevec",
+  "en": "We are adding on to that.",
+  "zh": "我们正在往上追加。"
+ },
+ {
+  "seg": 397,
+  "start": 1307.646,
+  "end": 1312.59,
+  "speaker": "Kath Korevec",
+  "en": "So we have ambitions to make the analytics much more robust and be able to pick up",
+  "zh": "所以我们有野心让分析变得更强大，能够获取数据"
+ },
+ {
+  "seg": 398,
+  "start": 1312.87,
+  "end": 1316.3020000000001,
+  "speaker": "Kath Korevec",
+  "en": "and do investigations and spikes and to kind of make it more agentic.",
+  "zh": "并去做调研和技术验证(spikes),让它变得更具智能体性。"
+ },
+ {
+  "seg": 399,
+  "start": 1316.352,
+  "end": 1317.733,
+  "speaker": "Kath Korevec",
+  "en": "But I, as a developer,",
+  "zh": "但我，作为开发者，"
+ },
+ {
+  "seg": 400,
+  "start": 1317.833,
+  "end": 1322.088,
+  "speaker": "Kath Korevec",
+  "en": "wouldn't have any Insight into like who is building and using this skill.",
+  "zh": "根本无法洞察是谁在构建和使用这个 skill。"
+ },
+ {
+  "seg": 401,
+  "start": 1322.329,
+  "end": 1328.011,
+  "speaker": "Kath Korevec",
+  "en": "So the way that I want it to work is actually to play off Twitter and use like",
+  "zh": "所以我希望它的运作方式其实是借助 Twitter,用类似"
+ },
+ {
+  "seg": 402,
+  "start": 1328.052,
+  "end": 1330.883,
+  "speaker": "Kath Korevec",
+  "en": "a hashtag to share like, hey, here's I'm building this.",
+  "zh": "一个话题标签来分享，比如：嘿，我正在构建这个。"
+ },
+ {
+  "seg": 403,
+  "start": 1330.933,
+  "end": 1333.914,
+  "speaker": "Kath Korevec",
+  "en": "I'm kind of like how I'll talk about awesome sites.",
+  "zh": "我有点像我会谈论 awesome sites 的方式。"
+ },
+ {
+  "seg": 404,
+  "start": 1333.934,
+  "end": 1335.9260000000002,
+  "speaker": "Kath Korevec",
+  "en": "You kind of like how awesome sites use works.",
+  "zh": "有点像 awesome sites use 的运作方式。"
+ },
+ {
+  "seg": 405,
+  "start": 1335.976,
+  "end": 1342.819,
+  "speaker": "Kath Korevec",
+  "en": "And so like just at mention me, tag me if you use it and kind of have it grow organically.",
+  "zh": "所以就是，如果你用了它就 @我、标签我，让它有机地成长。"
+ },
+ {
+  "seg": 406,
+  "start": 1343.039,
+  "end": 1343.549,
+  "speaker": "Kath Korevec",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 407,
+  "start": 1343.599,
+  "end": 1344.3700000000001,
+  "speaker": "Kath Korevec",
+  "en": "I don't.",
+  "zh": "我不。"
+ },
+ {
+  "seg": 408,
+  "start": 1344.42,
+  "end": 1345.132,
+  "speaker": "Kath Korevec",
+  "en": "I don't.",
+  "zh": "我不。"
+ },
+ {
+  "seg": 409,
+  "start": 1345.182,
+  "end": 1348.2740000000001,
+  "speaker": "Kath Korevec",
+  "en": "There's something about just like the organic community.",
+  "zh": "关于有机的社区，就是有点特别。"
+ },
+ {
+  "seg": 410,
+  "start": 1348.324,
+  "end": 1349.725,
+  "speaker": "Kath Korevec",
+  "en": "I don't need it to be.",
+  "zh": "我不需要它成为。"
+ },
+ {
+  "seg": 411,
+  "start": 1349.745,
+  "end": 1353.387,
+  "speaker": "Kath Korevec",
+  "en": "I don't need the community to come together in an AGI way.",
+  "zh": "我不需要社区以 AGI 的方式聚集起来。"
+ },
+ {
+  "seg": 412,
+  "start": 1353.868,
+  "end": 1355.9235555555556,
+  "speaker": "Kath Korevec",
+  "en": "I'd rather just like meet the people.",
+  "zh": "我更想就这样见到这些人。"
+ },
+ {
+  "seg": 413,
+  "start": 1356.069,
+  "end": 1357.7912222222221,
+  "speaker": "Kath Korevec",
+  "en": "Maybe I'm old school like that.",
+  "zh": "也许我在这方面比较老派。"
+ },
+ {
+  "seg": 414,
+  "start": 1358.524,
+  "end": 1362.988,
+  "speaker": "SPEAKER_01",
+  "en": "As AI adoption grows, so do your company's security risks and requirements.",
+  "zh": "随着 AI 的采用不断增长，你公司的安全风险和要求也在增长。"
+ },
+ {
+  "seg": 415,
+  "start": 1363.569,
+  "end": 1368.6245555555556,
+  "speaker": "SPEAKER_01",
+  "en": "New frameworks, audits, and vendors keep piling on, but your team isn't getting any bigger.",
+  "zh": "新的框架、审计和供应商不断堆积，但你的团队并没有变大。"
+ },
+ {
+  "seg": 416,
+  "start": 1369.114,
+  "end": 1371.086,
+  "speaker": "SPEAKER_01",
+  "en": "Most compliance tools promise automation,",
+  "zh": "大多数合规工具承诺自动化，"
+ },
+ {
+  "seg": 417,
+  "start": 1371.136,
+  "end": 1373.8890000000001,
+  "speaker": "SPEAKER_01",
+  "en": "but you're really stuck doing all the work by hand,",
+  "zh": "但你实际上还是得亲手做所有的工作，"
+ },
+ {
+  "seg": 418,
+  "start": 1373.939,
+  "end": 1374.8700000000001,
+  "speaker": "SPEAKER_01",
+  "en": "chasing screenshots,",
+  "zh": "追着要截图，"
+ },
+ {
+  "seg": 419,
+  "start": 1374.92,
+  "end": 1379.194,
+  "speaker": "SPEAKER_01",
+  "en": "validating controls, and playing catch-up when audit season comes around again.",
+  "zh": "验证控制项，等审计季再度来临时又在追赶进度。"
+ },
+ {
+  "seg": 420,
+  "start": 1379.244,
+  "end": 1380.536,
+  "speaker": "SPEAKER_01",
+  "en": "Vanta works differently.",
+  "zh": "Vanta 的运作方式不同。"
+ },
+ {
+  "seg": 421,
+  "start": 1380.586,
+  "end": 1384.7526666666668,
+  "speaker": "SPEAKER_01",
+  "en": "Their agentic trust platform is built to scale with you, not slow you down.",
+  "zh": "他们的智能体信任平台是为与你一起扩展而构建的，而不是拖慢你。"
+ },
+ {
+  "seg": 422,
+  "start": 1385.011,
+  "end": 1389.356,
+  "speaker": "SPEAKER_01",
+  "en": "With over 1400 automated tests across 400 plus integrations,",
+  "zh": "拥有超过 1400 个自动化测试和 400 多个集成，"
+ },
+ {
+  "seg": 423,
+  "start": 1389.656,
+  "end": 1393.14,
+  "speaker": "SPEAKER_01",
+  "en": "Vanta collects evidence and monitors your controls year round,",
+  "zh": "Vanta 全年收集证据并监控你的控制项，"
+ },
+ {
+  "seg": 424,
+  "start": 1393.3,
+  "end": 1395.0222222222221,
+  "speaker": "SPEAKER_01",
+  "en": "cutting your audit prep by 82%.",
+  "zh": "把你的审计准备工作减少 82%。"
+ },
+ {
+  "seg": 425,
+  "start": 1396.243,
+  "end": 1397.325,
+  "speaker": "SPEAKER_01",
+  "en": "Plus, you can access the",
+  "zh": "另外，你可以在你工作的任何地方访问"
+ },
+ {
+  "seg": 426,
+  "start": 1397.365,
+  "end": 1399.1983333333333,
+  "speaker": "SPEAKER_01",
+  "en": "Vanta agent everywhere you work,",
+  "zh": "Vanta 智能体，"
+ },
+ {
+  "seg": 427,
+  "start": 1399.387,
+  "end": 1403.887,
+  "speaker": "SPEAKER_01",
+  "en": "whether your team is in Vanta every day or living in tools like Claude or Cursor.",
+  "zh": "无论你的团队是每天泡在 Vanta 里，还是活在 Claude 或 Cursor 这样的工具里。"
+ },
+ {
+  "seg": 428,
+  "start": 1403.953,
+  "end": 1404.945,
+  "speaker": "SPEAKER_01",
+  "en": "Want proof?",
+  "zh": "想要证据？"
+ },
+ {
+  "seg": 429,
+  "start": 1404.995,
+  "end": 1407.718,
+  "speaker": "SPEAKER_01",
+  "en": "Over 16,000 fast-growing companies like Ramp,",
+  "zh": "超过 16000 家快速成长的公司，像 Ramp、"
+ },
+ {
+  "seg": 430,
+  "start": 1407.999,
+  "end": 1412.445,
+  "speaker": "SPEAKER_01",
+  "en": "Ryder, and Harvey save time and resources while scaling fast with Vanta.",
+  "zh": "Ryder 和 Harvey,都在使用 Vanta 快速扩展的同时节省了时间和资源。"
+ },
+ {
+  "seg": 431,
+  "start": 1413.025,
+  "end": 1419.508,
+  "speaker": "SPEAKER_01",
+  "en": "My listeners can get $1,000 off by going to vanta.com slash howiai.",
+  "zh": "我的听众可以去 vanta.com slash howiai 获得 1000 美元的折扣。"
+ },
+ {
+  "seg": 432,
+  "start": 1419.888,
+  "end": 1426.251,
+  "speaker": "SPEAKER_01",
+  "en": "That's V-A-N-T-A dot com slash howiai for $1,000 off.",
+  "zh": "也就是 V-A-N-T-A dot com slash howiai,立减 1000 美元。"
+ },
+ {
+  "seg": 433,
+  "start": 1428.87,
+  "end": 1433.795,
+  "speaker": "SPEAKER_01",
+  "en": "Okay, I have to talk about the game that I made because you all announced ultra fast",
+  "zh": "好的，我必须谈谈我做的那款游戏，因为你们宣布了 ultra fast,"
+ },
+ {
+  "seg": 434,
+  "start": 1433.855,
+  "end": 1437.719,
+  "speaker": "SPEAKER_01",
+  "en": "and I got to like ultra fast test it a little bit early.",
+  "zh": "而我得以提前一点对它进行 ultra fast 的测试。"
+ },
+ {
+  "seg": 435,
+  "start": 1437.739,
+  "end": 1442.127888888889,
+  "speaker": "SPEAKER_01",
+  "en": "And what I did, which was super, super cool, is I built a very similar 3D game.",
+  "zh": "而我做的，超级超级酷的事情，是我构建了一个非常类似的 3D 游戏。"
+ },
+ {
+  "seg": 436,
+  "start": 1442.224,
+  "end": 1446.648,
+  "speaker": "SPEAKER_01",
+  "en": "So it was a two by three 3D room game.",
+  "zh": "那是一个两乘三的 3D 房间游戏。"
+ },
+ {
+  "seg": 437,
+  "start": 1446.668,
+  "end": 1448.47,
+  "speaker": "SPEAKER_01",
+  "en": "It was on a moon ship.",
+  "zh": "它在一艘月球飞船上。"
+ },
+ {
+  "seg": 438,
+  "start": 1448.57,
+  "end": 1454.954,
+  "speaker": "SPEAKER_01",
+  "en": "It was populated by three very adorable 3D characters, Pip, I don't remember.",
+  "zh": "里面住着三个非常可爱的 3D 角色，Pip,我不记得了。"
+ },
+ {
+  "seg": 439,
+  "start": 1455.014,
+  "end": 1456.116,
+  "speaker": "SPEAKER_01",
+  "en": "I definitely remember Pip.",
+  "zh": "我肯定记得 Pip。"
+ },
+ {
+  "seg": 440,
+  "start": 1456.136,
+  "end": 1457.5248888888889,
+  "speaker": "SPEAKER_01",
+  "en": "They each had their room.",
+  "zh": "他们各自有自己的房间。"
+ },
+ {
+  "seg": 441,
+  "start": 1457.818,
+  "end": 1459.661,
+  "speaker": "SPEAKER_01",
+  "en": "And like just forecasting the future,",
+  "zh": "就像预测未来一样，"
+ },
+ {
+  "seg": 442,
+  "start": 1459.681,
+  "end": 1464.067,
+  "speaker": "SPEAKER_01",
+  "en": "what was really cool is you were able to type like Pip needs bunk beds and",
+  "zh": "真正很酷的是你可以输入类似 Pip needs bunk beds,然后"
+ },
+ {
+  "seg": 443,
+  "start": 1464.087,
+  "end": 1466.975888888889,
+  "speaker": "SPEAKER_01",
+  "en": "then Astro Ultra Fast just like built the bunk beds.",
+  "zh": "Astro Ultra Fast 就这样把双层床建出来了。"
+ },
+ {
+  "seg": 444,
+  "start": 1467.532,
+  "end": 1468.743,
+  "speaker": "SPEAKER_01",
+  "en": "And then you're like, it's fantastic.",
+  "zh": "然后你会觉得，太棒了。"
+ },
+ {
+  "seg": 445,
+  "start": 1468.793,
+  "end": 1471.096,
+  "speaker": "SPEAKER_01",
+  "en": "And so I think we're really getting...",
+  "zh": "所以我认为我们真的正在变得……"
+ },
+ {
+  "seg": 446,
+  "start": 1487.807,
+  "end": 1492.56,
+  "speaker": "SPEAKER_01",
+  "en": "Quite close, not only to for you to be able to build 3D games, which is pretty good at.",
+  "zh": "相当接近了，不仅是让你能够构建 3D 游戏，它在这方面已经很擅长了。"
+ },
+ {
+  "seg": 447,
+  "start": 1492.61,
+  "end": 1494.041,
+  "speaker": "SPEAKER_01",
+  "en": "So you should try doing that.",
+  "zh": "所以你应该试着做做看。"
+ },
+ {
+  "seg": 448,
+  "start": 1494.091,
+  "end": 1499.755,
+  "speaker": "SPEAKER_01",
+  "en": "Deploy them, which you have solved, but then integrate these like very speedy, very fast.",
+  "zh": "部署它们，这个你们已经解决了，然后集成这些非常迅速、非常快的。"
+ },
+ {
+  "seg": 449,
+  "start": 1500.056,
+  "end": 1504.5140000000001,
+  "speaker": "SPEAKER_01",
+  "en": "I mean, I said it was like a terrible use of a thousand dollars or whatever I spent.",
+  "zh": "我是说，我说过那是一种对一千美元的糟糕使用方式，或者不管我花了多少。"
+ },
+ {
+  "seg": 450,
+  "start": 1504.564,
+  "end": 1506.916,
+  "speaker": "Kath Korevec",
+  "en": "My kids were like, make the jellyfish a hula dancer.",
+  "zh": "我孩子们说,让水母变成跳草裙舞的舞者。"
+ },
+ {
+  "seg": 451,
+  "start": 1506.966,
+  "end": 1508.227,
+  "speaker": "Kath Korevec",
+  "en": "Give the jellyfish",
+  "zh": "给水母"
+ },
+ {
+  "seg": 452,
+  "start": 1508.407,
+  "end": 1509.068,
+  "speaker": "SPEAKER_01",
+  "en": "like babies.",
+  "zh": "比如 babies。"
+ },
+ {
+  "seg": 453,
+  "start": 1509.468,
+  "end": 1510.229,
+  "speaker": "SPEAKER_01",
+  "en": "I want a chicken.",
+  "zh": "我想要一只鸡。"
+ },
+ {
+  "seg": 454,
+  "start": 1510.249,
+  "end": 1513.3010000000002,
+  "speaker": "SPEAKER_01",
+  "en": "And I was like, there's just dollars going out the doors, kid.",
+  "zh": "我就说,孩子,这可都是白花花的银子往外流啊。"
+ },
+ {
+  "seg": 455,
+  "start": 1513.351,
+  "end": 1517.814,
+  "speaker": "SPEAKER_01",
+  "en": "It's eight times as fast, but as Sam said, six times as expensive.",
+  "zh": "它快了八倍,但正如 Sam 说的,贵了六倍。"
+ },
+ {
+  "seg": 456,
+  "start": 1518.655,
+  "end": 1522.858,
+  "speaker": "SPEAKER_01",
+  "en": "But I do think as these models both get more smart and faster,",
+  "zh": "但我确实认为,随着这些模型变得更聪明也更快,"
+ },
+ {
+  "seg": 457,
+  "start": 1523.359,
+  "end": 1525.0256666666667,
+  "speaker": "SPEAKER_01",
+  "en": "you can imagine how this like,",
+  "zh": "你可以想象这会是怎样,"
+ },
+ {
+  "seg": 458,
+  "start": 1525.38,
+  "end": 1525.761,
+  "speaker": "SPEAKER_01",
+  "en": "you know,",
+  "zh": "你知道的,"
+ },
+ {
+  "seg": 459,
+  "start": 1525.781,
+  "end": 1528.222,
+  "speaker": "SPEAKER_01",
+  "en": "people are talking about generative UI in this like very kind",
+  "zh": "人们在谈论生成式 UI,但用的是一种非常"
+ },
+ {
+  "seg": 460,
+  "start": 1528.243,
+  "end": 1532.596,
+  "speaker": "SPEAKER_01",
+  "en": "of like boring SaaS way where it's like your forms will like progress how you want",
+  "zh": "枯燥的 SaaS 方式,比如你的表单会按你想要的方式推进"
+ },
+ {
+  "seg": 461,
+  "start": 1532.646,
+  "end": 1534.5348888888889,
+  "speaker": "SPEAKER_01",
+  "en": "or you'll have these like widgets.",
+  "zh": "或者你会有这些小组件。"
+ },
+ {
+  "seg": 462,
+  "start": 1534.712,
+  "end": 1540.159,
+  "speaker": "SPEAKER_01",
+  "en": "I think this like generative world UI of games is going to be really interesting.",
+  "zh": "我觉得这种游戏式的生成式世界 UI 会非常有趣。"
+ },
+ {
+  "seg": 463,
+  "start": 1540.199,
+  "end": 1542.3101111111112,
+  "speaker": "Kath Korevec",
+  "en": "I think it's going to be pretty cool.",
+  "zh": "我觉得它会相当酷。"
+ },
+ {
+  "seg": 464,
+  "start": 1541.501,
+  "end": 1542.502,
+  "speaker": "SPEAKER_01",
+  "en": "It's pretty cool.",
+  "zh": "挺酷的。"
+ },
+ {
+  "seg": 465,
+  "start": 1542.542,
+  "end": 1545.005,
+  "speaker": "Kath Korevec",
+  "en": "You know, you're hinting at something that is really interesting.",
+  "zh": "你知道的,你在暗示一些非常有趣的东西。"
+ },
+ {
+  "seg": 466,
+  "start": 1545.045,
+  "end": 1546.4170000000001,
+  "speaker": "Kath Korevec",
+  "en": "And I liked how you talked about it.",
+  "zh": "我很欣赏你谈论它的方式。"
+ },
+ {
+  "seg": 467,
+  "start": 1546.467,
+  "end": 1550.0610000000001,
+  "speaker": "Kath Korevec",
+  "en": "Like, you know, the kids were asking for something and you're like, OK, let me build that in.",
+  "zh": "比如,孩子们在要求某样东西,然后你说,好,让我把它构建进去。"
+ },
+ {
+  "seg": 468,
+  "start": 1550.111,
+  "end": 1551.973,
+  "speaker": "Kath Korevec",
+  "en": "You built this game locally, right?",
+  "zh": "你是在本地构建的这个游戏,对吧?"
+ },
+ {
+  "seg": 469,
+  "start": 1551.994,
+  "end": 1552.955,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, I built it locally.",
+  "zh": "是的,我是在本地构建的。"
+ },
+ {
+  "seg": 470,
+  "start": 1552.975,
+  "end": 1553.9660000000001,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 471,
+  "start": 1554.016,
+  "end": 1557.757,
+  "speaker": "Kath Korevec",
+  "en": "One of the things we're playing around with sites is this ability",
+  "zh": "我们在 sites 上试验的事情之一就是这个能力"
+ },
+ {
+  "seg": 472,
+  "start": 1557.817,
+  "end": 1560.398,
+  "speaker": "Kath Korevec",
+  "en": "to bring your inference into the site.",
+  "zh": "把你的推理带进站点里。"
+ },
+ {
+  "seg": 473,
+  "start": 1560.478,
+  "end": 1562.866888888889,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, that's what I was going to ask about.",
+  "zh": "对,这正是我正想问的。"
+ },
+ {
+  "seg": 474,
+  "start": 1563.298,
+  "end": 1566.719,
+  "speaker": "Kath Korevec",
+  "en": "And then be able to ask ChatGPT to, like,",
+  "zh": "然后能够去让 ChatGPT,比如,"
+ },
+ {
+  "seg": 475,
+  "start": 1566.739,
+  "end": 1568.74,
+  "speaker": "Kath Korevec",
+  "en": "the reason why we're building this is to be able to go into,",
+  "zh": "我们构建这个的原因,是为了能够进入,"
+ },
+ {
+  "seg": 476,
+  "start": 1568.78,
+  "end": 1571.5900000000001,
+  "speaker": "Kath Korevec",
+  "en": "like, design mode or whatever and ask ChatGPT to do things.",
+  "zh": "比如,设计模式之类的,然后让 ChatGPT 去做事情。"
+ },
+ {
+  "seg": 477,
+  "start": 1571.64,
+  "end": 1576.142,
+  "speaker": "Kath Korevec",
+  "en": "And we are starting to play around with this site widget down here.",
+  "zh": "而我们开始试验的就是下面这个 site 小组件。"
+ },
+ {
+  "seg": 478,
+  "start": 1576.642,
+  "end": 1577.642,
+  "speaker": "Kath Korevec",
+  "en": "It is...",
+  "zh": "它是……"
+ },
+ {
+  "seg": 479,
+  "start": 1578.602,
+  "end": 1580.490888888889,
+  "speaker": "Kath Korevec",
+  "en": "Right now it's very, very simple.",
+  "zh": "现在它非常非常简单。"
+ },
+ {
+  "seg": 480,
+  "start": 1580.802,
+  "end": 1583.363,
+  "speaker": "Kath Korevec",
+  "en": "And it will allow you to say, like,",
+  "zh": "它会让你能说,比如,"
+ },
+ {
+  "seg": 481,
+  "start": 1583.443,
+  "end": 1583.813,
+  "speaker": "Kath Korevec",
+  "en": "you know,",
+  "zh": "你知道的,"
+ },
+ {
+  "seg": 482,
+  "start": 1583.863,
+  "end": 1586.284,
+  "speaker": "Kath Korevec",
+  "en": "I think you guys are watching me debug the fact",
+  "zh": "我想你们都在看我调试"
+ },
+ {
+  "seg": 483,
+  "start": 1586.304,
+  "end": 1588.5262222222223,
+  "speaker": "Kath Korevec",
+  "en": "that this thing isn't working right now.",
+  "zh": "这东西现在不工作的问题。"
+ },
+ {
+  "seg": 484,
+  "start": 1588.644,
+  "end": 1589.844,
+  "speaker": "Kath Korevec",
+  "en": "So I could do that from here.",
+  "zh": "所以我可以从这里做这件事。"
+ },
+ {
+  "seg": 485,
+  "start": 1589.864,
+  "end": 1592.2150000000001,
+  "speaker": "Kath Korevec",
+  "en": "It's going to take me back to ChatGPT right now.",
+  "zh": "现在它会把带回 ChatGPT。"
+ },
+ {
+  "seg": 486,
+  "start": 1592.265,
+  "end": 1597.786,
+  "speaker": "Kath Korevec",
+  "en": "So we are playing around with ways to get inference into the site to bring your inference in.",
+  "zh": "所以我们在试验各种把推理带进站点的方法,把你的推理带进来。"
+ },
+ {
+  "seg": 487,
+  "start": 1597.866,
+  "end": 1600.646,
+  "speaker": "Kath Korevec",
+  "en": "I think it's going to be really interesting when people who want to play",
+  "zh": "我觉得当想玩这个游戏的人"
+ },
+ {
+  "seg": 488,
+  "start": 1600.686,
+  "end": 1602.717,
+  "speaker": "Kath Korevec",
+  "en": "the game can bring their inference in.",
+  "zh": "能把他们的推理带进来时,会非常有意思。"
+ },
+ {
+  "seg": 489,
+  "start": 1602.767,
+  "end": 1607.9892222222222,
+  "speaker": "Kath Korevec",
+  "en": "Imagine you give your kids an allowance of, like, you have however much to spend on this game.",
+  "zh": "想象一下你给孩子们零花钱,比如,你可以花在这些游戏上的额度。"
+ },
+ {
+  "seg": 490,
+  "start": 1608.533,
+  "end": 1610.386,
+  "speaker": "Kath Korevec",
+  "en": "And you can go and ask for it yourself.",
+  "zh": "然后他们可以自己去提要求。"
+ },
+ {
+  "seg": 491,
+  "start": 1610.436,
+  "end": 1612.779,
+  "speaker": "Kath Korevec",
+  "en": "And they start saying, like, I want bunk beds.",
+  "zh": "他们开始说,比如,我想要双层床。"
+ },
+ {
+  "seg": 492,
+  "start": 1612.82,
+  "end": 1615.313,
+  "speaker": "Kath Korevec",
+  "en": "I want it to turn into an octopus or something like that.",
+  "zh": "我想让它变成一只章鱼之类的。"
+ },
+ {
+  "seg": 493,
+  "start": 1615.363,
+  "end": 1618.548,
+  "speaker": "Kath Korevec",
+  "en": "And they can go in and and have those conversations.",
+  "zh": "然后他们可以进去进行那些对话。"
+ },
+ {
+  "seg": 494,
+  "start": 1618.768,
+  "end": 1621.442,
+  "speaker": "SPEAKER_01",
+  "en": "See, you don't know my kids, but they already have an allowance.",
+  "zh": "瞧,你不了解我的孩子,但他们已经有零花钱了。"
+ },
+ {
+  "seg": 495,
+  "start": 1621.492,
+  "end": 1623.335,
+  "speaker": "SPEAKER_01",
+  "en": "Like how much of mommy's codex subscription?",
+  "zh": "比如 mommy 的 codex 订阅能用多少?"
+ },
+ {
+  "seg": 496,
+  "start": 1623.355,
+  "end": 1623.905,
+  "speaker": "SPEAKER_01",
+  "en": "Description?",
+  "zh": "Description?"
+ },
+ {
+  "seg": 497,
+  "start": 1623.955,
+  "end": 1625.496,
+  "speaker": "SPEAKER_01",
+  "en": "Can they, are they allowed to?",
+  "zh": "他们可以吗,他们被允许吗?"
+ },
+ {
+  "seg": 498,
+  "start": 1625.516,
+  "end": 1626.956,
+  "speaker": "SPEAKER_01",
+  "en": "I believe.",
+  "zh": "我相信可以。"
+ },
+ {
+  "seg": 499,
+  "start": 1626.976,
+  "end": 1628.826,
+  "speaker": "SPEAKER_01",
+  "en": "But we're going to get that 500 plan.",
+  "zh": "但我们打算上那个 500 的套餐。"
+ },
+ {
+  "seg": 500,
+  "start": 1628.876,
+  "end": 1632.797,
+  "speaker": "SPEAKER_01",
+  "en": "It's like the family plans, like family minutes for your codex.",
+  "zh": "就像家庭套餐一样，比如给你的 codex 的家庭通话时长。"
+ },
+ {
+  "seg": 501,
+  "start": 1632.837,
+  "end": 1636.608,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, I think bringing in inference is going to be really interesting.",
+  "zh": "是的，我觉得把推理引入进来会非常有意思。"
+ },
+ {
+  "seg": 502,
+  "start": 1636.658,
+  "end": 1639.339,
+  "speaker": "SPEAKER_01",
+  "en": "Real time is going to be really interesting.",
+  "zh": "实时也会非常有意思。"
+ },
+ {
+  "seg": 503,
+  "start": 1639.359,
+  "end": 1641.919,
+  "speaker": "SPEAKER_01",
+  "en": "You know, just as a builder, I look at it from two things.",
+  "zh": "你知道，作为一个构建者，我从两个方面来看待它。"
+ },
+ {
+  "seg": 504,
+  "start": 1641.959,
+  "end": 1642.79,
+  "speaker": "SPEAKER_01",
+  "en": "I look at it from a,",
+  "zh": "我是从这个角度来看的，"
+ },
+ {
+  "seg": 505,
+  "start": 1642.84,
+  "end": 1645.78,
+  "speaker": "SPEAKER_01",
+  "en": "like, can I get something that I imagine out to the world or out to my company?",
+  "zh": "比如，我能不能把我想象出来的东西带到这个世界，或者带到我的公司里？"
+ },
+ {
+  "seg": 506,
+  "start": 1645.8,
+  "end": 1646.791,
+  "speaker": "SPEAKER_01",
+  "en": "I think that's interesting.",
+  "zh": "我觉得这很有意思。"
+ },
+ {
+  "seg": 507,
+  "start": 1646.841,
+  "end": 1646.961,
+  "speaker": "SPEAKER_01",
+  "en": "Like,",
+  "zh": "比如，"
+ },
+ {
+  "seg": 508,
+  "start": 1646.981,
+  "end": 1650.514,
+  "speaker": "SPEAKER_01",
+  "en": "there's going to be a lot of demands on Infrastructure here where like you're going",
+  "zh": "这里对基础设施会有很多需求，你"
+ },
+ {
+  "seg": 509,
+  "start": 1650.534,
+  "end": 1654.998,
+  "speaker": "SPEAKER_01",
+  "en": "to have to make really reason choices about like how much do you support",
+  "zh": "将不得不做出非常合理的权衡，比如你支持多少放在"
+ },
+ {
+  "seg": 510,
+  "start": 1655.038,
+  "end": 1658.741,
+  "speaker": "SPEAKER_01",
+  "en": "in sites versus like this needs to be deployed in some cloud somewhere and you need",
+  "zh": "sites 里，而不是说这个需要部署在某个云上，你需要"
+ },
+ {
+  "seg": 511,
+  "start": 1658.761,
+  "end": 1659.761,
+  "speaker": "SPEAKER_01",
+  "en": "to own your.",
+  "zh": "拥有你自己的。"
+ },
+ {
+  "seg": 512,
+  "start": 1659.838,
+  "end": 1660.6490000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Your infrastructure.",
+  "zh": "你的基础设施。"
+ },
+ {
+  "seg": 513,
+  "start": 1660.699,
+  "end": 1661.56,
+  "speaker": "SPEAKER_01",
+  "en": "I think that's really interesting.",
+  "zh": "我觉得这非常有意思。"
+ },
+ {
+  "seg": 514,
+  "start": 1661.58,
+  "end": 1662.761,
+  "speaker": "SPEAKER_01",
+  "en": "The other really fun.",
+  "zh": "另一件非常好玩的事。"
+ },
+ {
+  "seg": 515,
+  "start": 1662.841,
+  "end": 1663.441,
+  "speaker": "SPEAKER_01",
+  "en": "I just again,",
+  "zh": "我再说一次，"
+ },
+ {
+  "seg": 516,
+  "start": 1663.461,
+  "end": 1666.744,
+  "speaker": "SPEAKER_01",
+  "en": "like I think getting creative with stuff that you could never build before I got",
+  "zh": "比如，我觉得在那些你以前根本没法构建的东西上发挥创造力，我进入"
+ },
+ {
+  "seg": 517,
+  "start": 1666.784,
+  "end": 1670.447,
+  "speaker": "SPEAKER_01",
+  "en": "into tech because I wanted to be a game designer.",
+  "zh": "科技行业是因为我想成为一名游戏设计师。"
+ },
+ {
+  "seg": 518,
+  "start": 1670.587,
+  "end": 1673.8400000000001,
+  "speaker": "SPEAKER_01",
+  "en": "It was like the number one thing that I there's like this very adorable clipping.",
+  "zh": "这是我最想做的一件事，有一段非常可爱的剪报。"
+ },
+ {
+  "seg": 519,
+  "start": 1673.89,
+  "end": 1676.252,
+  "speaker": "SPEAKER_01",
+  "en": "My friend's mom worked for the local newspaper,",
+  "zh": "我朋友的妈妈在当地报社工作，"
+ },
+ {
+  "seg": 520,
+  "start": 1676.292,
+  "end": 1679.385,
+  "speaker": "SPEAKER_01",
+  "en": "so she would just like interview all of us so she could get her column out.",
+  "zh": "所以她会采访我们所有人，这样她就能完成她的专栏。"
+ },
+ {
+  "seg": 521,
+  "start": 1679.435,
+  "end": 1680.856,
+  "speaker": "SPEAKER_01",
+  "en": "There's like me at 13.",
+  "zh": "有一个 13 岁的我。"
+ },
+ {
+  "seg": 522,
+  "start": 1680.916,
+  "end": 1683.138222222222,
+  "speaker": "SPEAKER_01",
+  "en": "I'm like, I want to be a game developer.",
+  "zh": "我说，我想成为一名游戏开发者。"
+ },
+ {
+  "seg": 523,
+  "start": 1683.458,
+  "end": 1685.9,
+  "speaker": "SPEAKER_01",
+  "en": "And it's just like the hard skills,",
+  "zh": "而就是这些硬技能，"
+ },
+ {
+  "seg": 524,
+  "start": 1686,
+  "end": 1691.964,
+  "speaker": "SPEAKER_01",
+  "en": "the creative skills required to get even a good idea into production are so high.",
+  "zh": "要把一个好点子变成产品所需的创意技能门槛太高了。"
+ },
+ {
+  "seg": 525,
+  "start": 1692.445,
+  "end": 1695.297,
+  "speaker": "SPEAKER_01",
+  "en": "And that's been the fun thing for me over the last three to six months",
+  "zh": "而这对我来说是过去三到六个月里"
+ },
+ {
+  "seg": 526,
+  "start": 1695.347,
+  "end": 1698.739,
+  "speaker": "SPEAKER_01",
+  "en": "with these new models is how much closer it's brought me to production.",
+  "zh": "这些新模型带来的乐趣，就是它让我离产品更近了多少。"
+ },
+ {
+  "seg": 527,
+  "start": 1698.789,
+  "end": 1702.38,
+  "speaker": "SPEAKER_01",
+  "en": "Building creative things that I want to build that are really fun.",
+  "zh": "构建那些我想构建的、真正好玩的有创意的东西。"
+ },
+ {
+  "seg": 528,
+  "start": 1702.43,
+  "end": 1709.113,
+  "speaker": "SPEAKER_01",
+  "en": "The other one that I did is I built a live sketch app where you can draw on a canvas",
+  "zh": "我做的另一个东西是一个实时素描应用，你可以在画布上画画，"
+ },
+ {
+  "seg": 529,
+  "start": 1709.333,
+  "end": 1711.814,
+  "speaker": "SPEAKER_01",
+  "en": "and then Astra draws like on top of it.",
+  "zh": "然后 Astra 会在上面画。"
+ },
+ {
+  "seg": 530,
+  "start": 1711.834,
+  "end": 1716.126,
+  "speaker": "SPEAKER_01",
+  "en": "So you draw a hill and it draws a snail and then you draw a face and it turns it",
+  "zh": "所以你画一座山丘，它画一只蜗牛，然后你画一张脸，它把它"
+ },
+ {
+  "seg": 531,
+  "start": 1716.176,
+  "end": 1717.7315555555556,
+  "speaker": "SPEAKER_01",
+  "en": "into like a hot air balloon.",
+  "zh": "变成一个热气球之类的。"
+ },
+ {
+  "seg": 532,
+  "start": 1717.936,
+  "end": 1723.818,
+  "speaker": "SPEAKER_01",
+  "en": "So I just think there's really fun things that you can do that you weren't able to do before.",
+  "zh": "所以我只是觉得，有很多以前做不到的、非常好玩的事情现在可以做了。"
+ },
+ {
+  "seg": 533,
+  "start": 1723.898,
+  "end": 1727.2313333333332,
+  "speaker": "Kath Korevec",
+  "en": "And this is this is one of the reasons why we why we built.",
+  "zh": "而这也是我们为什么构建……的原因之一。"
+ },
+ {
+  "seg": 534,
+  "start": 1726.439,
+  "end": 1726.74,
+  "speaker": "Kath Korevec",
+  "en": "Oh, cool.",
+  "zh": "哦，酷。"
+ },
+ {
+  "seg": 535,
+  "start": 1726.78,
+  "end": 1727.78,
+  "speaker": "Kath Korevec",
+  "en": "It worked.",
+  "zh": "它成功了。"
+ },
+ {
+  "seg": 536,
+  "start": 1728.272,
+  "end": 1728.672,
+  "speaker": "Kath Korevec",
+  "en": "Look at it.",
+  "zh": "看看它。"
+ },
+ {
+  "seg": 537,
+  "start": 1728.692,
+  "end": 1729.383,
+  "speaker": "Kath Korevec",
+  "en": "This is one of the things,",
+  "zh": "这就是其中一件事，"
+ },
+ {
+  "seg": 538,
+  "start": 1729.433,
+  "end": 1732.314,
+  "speaker": "Kath Korevec",
+  "en": "one of the reasons why we built sites is so",
+  "zh": "我们构建 sites 的原因之一就是"
+ },
+ {
+  "seg": 539,
+  "start": 1732.354,
+  "end": 1734.385,
+  "speaker": "Kath Korevec",
+  "en": "that people can creatively express themselves.",
+  "zh": "让人们能够创造性地表达自己。"
+ },
+ {
+  "seg": 540,
+  "start": 1734.435,
+  "end": 1737.496,
+  "speaker": "Kath Korevec",
+  "en": "Also, yes, work together and work together better.",
+  "zh": "当然，也要一起协作，并且协作得更好。"
+ },
+ {
+  "seg": 541,
+  "start": 1737.596,
+  "end": 1742.438,
+  "speaker": "Kath Korevec",
+  "en": "But do you find yourself, this happens to me a little bit, so I'm wondering about you too.",
+  "zh": "但你有没有发现，我自己有点这样，所以我也想问问你。"
+ },
+ {
+  "seg": 542,
+  "start": 1742.458,
+  "end": 1744.929,
+  "speaker": "Kath Korevec",
+  "en": "Do you find yourself when you create something,",
+  "zh": "你有没有发现，当你创造了什么东西的时候，"
+ },
+ {
+  "seg": 543,
+  "start": 1744.979,
+  "end": 1748.581,
+  "speaker": "Kath Korevec",
+  "en": "especially with Astra, do Just having more and more creative ideas.",
+  "zh": "尤其是用 Astra，是不是会冒出越来越多的创意点子。"
+ },
+ {
+  "seg": 544,
+  "start": 1748.601,
+  "end": 1751.131,
+  "speaker": "Kath Korevec",
+  "en": "You're like, oh, now I want to do this and now I want to do that.",
+  "zh": "你会说，哦，现在我想做这个，现在我又想做那个。"
+ },
+ {
+  "seg": 545,
+  "start": 1751.181,
+  "end": 1753.9587777777779,
+  "speaker": "Kath Korevec",
+  "en": "And you're just like, it's like an endless stream.",
+  "zh": "然后你就觉得，就像一条永无止境的溪流。"
+ },
+ {
+  "seg": 546,
+  "start": 1754.022,
+  "end": 1754.392,
+  "speaker": "Kath Korevec",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 547,
+  "start": 1754.442,
+  "end": 1754.713,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 548,
+  "start": 1754.763,
+  "end": 1754.993,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 549,
+  "start": 1755.043,
+  "end": 1756.763,
+  "speaker": "SPEAKER_01",
+  "en": "It's really, really fun.",
+  "zh": "真的非常非常好玩。"
+ },
+ {
+  "seg": 550,
+  "start": 1756.843,
+  "end": 1759.154,
+  "speaker": "SPEAKER_01",
+  "en": "I also just think the faster the models get,",
+  "zh": "我也认为模型变得越快，"
+ },
+ {
+  "seg": 551,
+  "start": 1759.204,
+  "end": 1762.255,
+  "speaker": "SPEAKER_01",
+  "en": "the more kind of like acceleration towards creativity you get.",
+  "zh": "你就能获得越多的向创造力的加速。"
+ },
+ {
+  "seg": 552,
+  "start": 1762.305,
+  "end": 1762.485,
+  "speaker": "SPEAKER_01",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 553,
+  "start": 1762.505,
+  "end": 1768.127,
+  "speaker": "SPEAKER_01",
+  "en": "Like a lot of my creativity gets stamped down by being distracted when my thread is processing.",
+  "zh": "比如我的很多创造力会因为线程处理时的分心而被压制。"
+ },
+ {
+  "seg": 554,
+  "start": 1768.147,
+  "end": 1769.8136666666667,
+  "speaker": "SPEAKER_01",
+  "en": "So the more you can keep me...",
+  "zh": "所以你越能让我保持……"
+ },
+ {
+  "seg": 555,
+  "start": 1769.869,
+  "end": 1773.535,
+  "speaker": "SPEAKER_01",
+  "en": "Sort of like in flow state, the better.",
+  "zh": "某种心流状态，就越好。"
+ },
+ {
+  "seg": 556,
+  "start": 1773.875,
+  "end": 1777.5972222222222,
+  "speaker": "SPEAKER_01",
+  "en": "But I will also release my games because I think they're very cool.",
+  "zh": "但我也会发布我的游戏，因为我觉得它们非常酷。"
+ },
+ {
+  "seg": 557,
+  "start": 1777.861,
+  "end": 1779.1943333333334,
+  "speaker": "SPEAKER_01",
+  "en": "Okay, you showed me was",
+  "zh": "好的，你给我看的那个"
+ },
+ {
+  "seg": 558,
+  "start": 1778.963,
+  "end": 1779.644,
+  "speaker": "Kath Korevec",
+  "en": "really, really cool.",
+  "zh": "真的、真的非常酷。"
+ },
+ {
+  "seg": 559,
+  "start": 1779.684,
+  "end": 1780.245,
+  "speaker": "Kath Korevec",
+  "en": "It's really cool.",
+  "zh": "它真的很酷。"
+ },
+ {
+  "seg": 560,
+  "start": 1780.265,
+  "end": 1780.946,
+  "speaker": "Kath Korevec",
+  "en": "I think you should do it.",
+  "zh": "我觉得你应该去做。"
+ },
+ {
+  "seg": 561,
+  "start": 1780.966,
+  "end": 1781.467,
+  "speaker": "Kath Korevec",
+  "en": "It's really cool.",
+  "zh": "它真的很酷。"
+ },
+ {
+  "seg": 562,
+  "start": 1781.487,
+  "end": 1782.529,
+  "speaker": "Kath Korevec",
+  "en": "I don't know if you guys understand,",
+  "zh": "我不知道你们理不理解，"
+ },
+ {
+  "seg": 563,
+  "start": 1782.569,
+  "end": 1783.569,
+  "speaker": "Kath Korevec",
+  "en": "but when I was,",
+  "zh": "但是当我……"
+ },
+ {
+  "seg": 564,
+  "start": 1783.65,
+  "end": 1785.5230000000001,
+  "speaker": "Kath Korevec",
+  "en": "we were chatting earlier today and I was like,",
+  "zh": "我们今天早些时候聊天时，我说，"
+ },
+ {
+  "seg": 565,
+  "start": 1785.573,
+  "end": 1787.957,
+  "speaker": "Kath Korevec",
+  "en": "Claire, let me show you this dungeon crawler thing I built.",
+  "zh": "Claire，让我给你看看我做的这个地牢爬行游戏。"
+ },
+ {
+  "seg": 566,
+  "start": 1787.977,
+  "end": 1790.51,
+  "speaker": "Kath Korevec",
+  "en": "And she was like, oh my God, I have to show you this other.",
+  "zh": "然后她说，天哪，我必须给你看另一个。"
+ },
+ {
+  "seg": 567,
+  "start": 1790.56,
+  "end": 1794.787,
+  "speaker": "Kath Korevec",
+  "en": "It's like identical, except for mine is very dark and depressing and hers is very cute and fun.",
+  "zh": "就像一模一样，只不过我的非常黑暗和压抑，而她的非常可爱和有趣。"
+ },
+ {
+  "seg": 568,
+  "start": 1794.807,
+  "end": 1800.475,
+  "speaker": "SPEAKER_01",
+  "en": "Which is very funny because I am extremely goth raising like extremely emo children.",
+  "zh": "这非常搞笑，因为我是极端哥特风，养着像极端情绪化的孩子。"
+ },
+ {
+  "seg": 569,
+  "start": 1800.856,
+  "end": 1804.481,
+  "speaker": "SPEAKER_01",
+  "en": "So it was wild that it came up with this like periwinkle and pink happy world",
+  "zh": "所以它竟然想出了这个像淡紫粉色般的快乐世界，"
+ },
+ {
+  "seg": 570,
+  "start": 1804.501,
+  "end": 1805.483,
+  "speaker": "SPEAKER_01",
+  "en": "with Momo and Pip.",
+  "zh": "还有 Momo 和 Pip。"
+ },
+ {
+  "seg": 571,
+  "start": 1805.523,
+  "end": 1806.604,
+  "speaker": "SPEAKER_01",
+  "en": "It's very, very cute.",
+  "zh": "它非常非常可爱。"
+ },
+ {
+  "seg": 572,
+  "start": 1806.644,
+  "end": 1809.188,
+  "speaker": "Kath Korevec",
+  "en": "And then you have a gallery of sites.",
+  "zh": "然后你有一个站点画廊。"
+ },
+ {
+  "seg": 573,
+  "start": 1809.389,
+  "end": 1809.6390000000001,
+  "speaker": "Kath Korevec",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 574,
+  "start": 1809.689,
+  "end": 1810.42,
+  "speaker": "Kath Korevec",
+  "en": "Awesome sites.",
+  "zh": "很棒的站点。"
+ },
+ {
+  "seg": 575,
+  "start": 1810.47,
+  "end": 1811.402,
+  "speaker": "Kath Korevec",
+  "en": "Awesome sites.",
+  "zh": "很棒的站点。"
+ },
+ {
+  "seg": 576,
+  "start": 1811.452,
+  "end": 1813.445,
+  "speaker": "Kath Korevec",
+  "en": "OK, so you all know about awesome lists.",
+  "zh": "好，你们都知道 awesome lists(超赞清单)。"
+ },
+ {
+  "seg": 577,
+  "start": 1813.495,
+  "end": 1815.6280000000002,
+  "speaker": "Kath Korevec",
+  "en": "It has this like fun dancing animation at the top.",
+  "zh": "它顶部有这种有趣的跳舞动画。"
+ },
+ {
+  "seg": 578,
+  "start": 1815.678,
+  "end": 1819.4002222222223,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so I basically took awesome lists and I built awesome sites.",
+  "zh": "好，所以我基本上拿了 awesome lists 然后做了 awesome sites(超赞站点)。"
+ },
+ {
+  "seg": 579,
+  "start": 1819.544,
+  "end": 1823.8,
+  "speaker": "Kath Korevec",
+  "en": "I asked the community, what are some of the sites that you guys have been building?",
+  "zh": "我问社区，你们一直在做哪些站点？"
+ },
+ {
+  "seg": 580,
+  "start": 1823.85,
+  "end": 1830.58,
+  "speaker": "Kath Korevec",
+  "en": "And use hashtag awesome sites, DM me, send it to me in Twitter, send it to me however you want.",
+  "zh": "用 hashtag awesome sites 标签，私信我，在 Twitter 上发给我，用任何你想的方式发给我。"
+ },
+ {
+  "seg": 581,
+  "start": 1831.12,
+  "end": 1832.31,
+  "speaker": "Kath Korevec",
+  "en": "And tell me about it.",
+  "zh": "然后跟我讲讲。"
+ },
+ {
+  "seg": 582,
+  "start": 1832.36,
+  "end": 1835.661,
+  "speaker": "Kath Korevec",
+  "en": "So they sent me a whole bunch of awesome sites.",
+  "zh": "所以他们给我发了一大堆很棒的站点。"
+ },
+ {
+  "seg": 583,
+  "start": 1835.721,
+  "end": 1841.042,
+  "speaker": "Kath Korevec",
+  "en": "And so you can go to awesomesites.ai and check them out.",
+  "zh": "你可以去 awesomesites.ai 看看它们。"
+ },
+ {
+  "seg": 584,
+  "start": 1841.942,
+  "end": 1844.062,
+  "speaker": "Kath Korevec",
+  "en": "There's some cool ones like this one.",
+  "zh": "有一些很酷的，比如这一个。"
+ },
+ {
+  "seg": 585,
+  "start": 1844.262,
+  "end": 1844.782,
+  "speaker": "Kath Korevec",
+  "en": "Somebody built...",
+  "zh": "有人做了……"
+ },
+ {
+  "seg": 586,
+  "start": 1844.802,
+  "end": 1847.0330000000001,
+  "speaker": "Kath Korevec",
+  "en": "I should have loaded these ahead of time.",
+  "zh": "我应该提前把这些加载好的。"
+ },
+ {
+  "seg": 587,
+  "start": 1847.083,
+  "end": 1848.483,
+  "speaker": "Kath Korevec",
+  "en": "Somebody built a piano",
+  "zh": "有人做了一个钢琴"
+ },
+ {
+  "seg": 588,
+  "start": 1852.144,
+  "end": 1854.844,
+  "speaker": "Kath Korevec",
+  "en": "with sites that actually works.",
+  "zh": "用站点做的，而且真的能用。"
+ },
+ {
+  "seg": 589,
+  "start": 1855.004,
+  "end": 1858.004,
+  "speaker": "Kath Korevec",
+  "en": "Some of my favorite here too are like some of these...",
+  "zh": "我在这里最喜欢的一些还有像这些……"
+ },
+ {
+  "seg": 590,
+  "start": 1860.693,
+  "end": 1866.135,
+  "speaker": "Kath Korevec",
+  "en": "So here's like a Hyderabad bus atlas and it like scrolls all the way in",
+  "zh": "这里有一个人海德拉巴德巴士图集，它一路放大，"
+ },
+ {
+  "seg": 591,
+  "start": 1866.215,
+  "end": 1870.256,
+  "speaker": "Kath Korevec",
+  "en": "and you can go and like check out the bus lines and stuff.",
+  "zh": "你可以去查看巴士线路之类的东西。"
+ },
+ {
+  "seg": 592,
+  "start": 1870.316,
+  "end": 1871.647,
+  "speaker": "Kath Korevec",
+  "en": "And I think this is so cool.",
+  "zh": "我觉得这太酷了。"
+ },
+ {
+  "seg": 593,
+  "start": 1871.697,
+  "end": 1872.627,
+  "speaker": "Kath Korevec",
+  "en": "I mentioned like, hey,",
+  "zh": "我提到过，嘿，"
+ },
+ {
+  "seg": 594,
+  "start": 1872.677,
+  "end": 1875.338,
+  "speaker": "Kath Korevec",
+  "en": "maybe I'm going on a work trip and I just want to spin up a site",
+  "zh": "也许我要出差，我只想为一个站点"
+ },
+ {
+  "seg": 595,
+  "start": 1875.378,
+  "end": 1876.558,
+  "speaker": "Kath Korevec",
+  "en": "for whatever I'm doing.",
+  "zh": "做我正在做的任何事情。"
+ },
+ {
+  "seg": 596,
+  "start": 1876.578,
+  "end": 1879.1290000000001,
+  "speaker": "Kath Korevec",
+  "en": "A lot of people will do that with stuff like this.",
+  "zh": "很多人会拿这类东西这样做。"
+ },
+ {
+  "seg": 597,
+  "start": 1879.179,
+  "end": 1880.73,
+  "speaker": "Kath Korevec",
+  "en": "They're like, OK, I'm going to Paris.",
+  "zh": "他们会说，好，我要去巴黎。"
+ },
+ {
+  "seg": 598,
+  "start": 1880.78,
+  "end": 1883.391,
+  "speaker": "Kath Korevec",
+  "en": "I have no idea how to ride the rail system there.",
+  "zh": "我完全不知道那里的铁路系统怎么坐。"
+ },
+ {
+  "seg": 599,
+  "start": 1883.441,
+  "end": 1885.721,
+  "speaker": "Kath Korevec",
+  "en": "I just want something that will like walk me through it.",
+  "zh": "我只想要一个能引导我走完流程的东西。"
+ },
+ {
+  "seg": 600,
+  "start": 1885.741,
+  "end": 1889.508,
+  "speaker": "Kath Korevec",
+  "en": "And so they'll spin up a site really quick to Be able to navigate that.",
+  "zh": "所以他们会很快地启动一个网站，以便能够浏览它。"
+ },
+ {
+  "seg": 601,
+  "start": 1889.548,
+  "end": 1894.991,
+  "speaker": "Kath Korevec",
+  "en": "There are a bunch of games in here too that people are doing.",
+  "zh": "这里还有一堆人们在做的游戏。"
+ },
+ {
+  "seg": 602,
+  "start": 1895.671,
+  "end": 1897.112,
+  "speaker": "Kath Korevec",
+  "en": "Simulated worlds.",
+  "zh": "模拟世界。"
+ },
+ {
+  "seg": 603,
+  "start": 1897.793,
+  "end": 1901.675,
+  "speaker": "Kath Korevec",
+  "en": "And here's like a Minecraft dupe.",
+  "zh": "这里有一个类似 Minecraft 的仿制品。"
+ },
+ {
+  "seg": 604,
+  "start": 1901.955,
+  "end": 1905.227,
+  "speaker": "Kath Korevec",
+  "en": "Although I don't know how to play this and so I'm totally failing.",
+  "zh": "虽然我不知道怎么玩这个，所以我完全搞砸了。"
+ },
+ {
+  "seg": 605,
+  "start": 1905.277,
+  "end": 1911.1,
+  "speaker": "Kath Korevec",
+  "en": "So it's a cool place to just explore and see what other people are doing and get inspired.",
+  "zh": "所以这是一个很酷的地方，可以探索、看看其他人在做什么并获得灵感。"
+ },
+ {
+  "seg": 606,
+  "start": 1911.3,
+  "end": 1914.042,
+  "speaker": "Kath Korevec",
+  "en": "So it's awesome-sites.awesomesites.com.",
+  "zh": "网址是 awesome-sites.awesomesites.com。"
+ },
+ {
+  "seg": 607,
+  "start": 1916.224,
+  "end": 1916.554,
+  "speaker": "SPEAKER_01",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 608,
+  "start": 1916.604,
+  "end": 1917.175,
+  "speaker": "SPEAKER_01",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 609,
+  "start": 1917.225,
+  "end": 1920.088,
+  "speaker": "SPEAKER_01",
+  "en": "We are at the very end of our time together.",
+  "zh": "我们的时间快到尾声了。"
+ },
+ {
+  "seg": 610,
+  "start": 1920.108,
+  "end": 1923.291,
+  "speaker": "SPEAKER_01",
+  "en": "I have just one question because, again,",
+  "zh": "我只有一个问题，因为再说一次，"
+ },
+ {
+  "seg": 611,
+  "start": 1923.311,
+  "end": 1925.6998888888888,
+  "speaker": "SPEAKER_01",
+  "en": "the whole theme of this episode will be you",
+  "zh": "这一集的整个主题就是你"
+ },
+ {
+  "seg": 612,
+  "start": 1925.874,
+  "end": 1929.638,
+  "speaker": "SPEAKER_01",
+  "en": "and I are twin stars circling around our codex site.",
+  "zh": "和我就像双星一样，围绕着我们各自的 codex 站点旋转。"
+ },
+ {
+  "seg": 613,
+  "start": 1929.678,
+  "end": 1933.732,
+  "speaker": "SPEAKER_01",
+  "en": "So I'm going to see if we are the same on the most critical How I AI question.",
+  "zh": "所以我要看看我们在最关键的 How I AI 问题上是否一致。"
+ },
+ {
+  "seg": 614,
+  "start": 1933.782,
+  "end": 1937.745,
+  "speaker": "SPEAKER_01",
+  "en": "This is a hard question to ask parents, too, because, you know, do you yell?",
+  "zh": "这个问题问父母也很难，因为，你知道，你会吼吗？"
+ },
+ {
+  "seg": 615,
+  "start": 1937.765,
+  "end": 1938.786,
+  "speaker": "SPEAKER_01",
+  "en": "What's your prompting strategy?",
+  "zh": "你的提示词策略是什么？"
+ },
+ {
+  "seg": 616,
+  "start": 1938.806,
+  "end": 1939.267,
+  "speaker": "SPEAKER_01",
+  "en": "Oh, my God.",
+  "zh": "哦，天哪。"
+ },
+ {
+  "seg": 617,
+  "start": 1939.287,
+  "end": 1941.1203333333333,
+  "speaker": "SPEAKER_01",
+  "en": "I yell all the time at my events.",
+  "zh": "我经常对我的事件大吼。"
+ },
+ {
+  "seg": 618,
+  "start": 1955.065,
+  "end": 1956.827,
+  "speaker": "Kath Korevec",
+  "en": "I also say please and thank you.",
+  "zh": "我也会说请和谢谢。"
+ },
+ {
+  "seg": 619,
+  "start": 1956.847,
+  "end": 1963.572,
+  "speaker": "Kath Korevec",
+  "en": "I am very polite, but when it's not doing what I want it to do, I do get annoyed at it.",
+  "zh": "我非常有礼貌，但当它没有做我想让它做的事时，我确实会对它生气。"
+ },
+ {
+  "seg": 620,
+  "start": 1964.133,
+  "end": 1965.234,
+  "speaker": "Kath Korevec",
+  "en": "It is an it.",
+  "zh": "它是一个「它」。"
+ },
+ {
+  "seg": 621,
+  "start": 1965.654,
+  "end": 1968.654,
+  "speaker": "Kath Korevec",
+  "en": "So it's, you know, I'm like, it doesn't have feelings.",
+  "zh": "所以你知道，我会想，它没有感情。"
+ },
+ {
+  "seg": 622,
+  "start": 1969.458,
+  "end": 1971.009,
+  "speaker": "Kath Korevec",
+  "en": "So I don't worry about that.",
+  "zh": "所以我不担心那个。"
+ },
+ {
+  "seg": 623,
+  "start": 1971.059,
+  "end": 1976.544,
+  "speaker": "Kath Korevec",
+  "en": "I also, I, you know, I don't like it doing things that I don't want it to do.",
+  "zh": "我也不喜欢它做我不想让它做的事。"
+ },
+ {
+  "seg": 624,
+  "start": 1977.044,
+  "end": 1978.766,
+  "speaker": "Kath Korevec",
+  "en": "And I know some of that is like user error.",
+  "zh": "我知道其中一些是我的用户错误。"
+ },
+ {
+  "seg": 625,
+  "start": 1978.806,
+  "end": 1979.386,
+  "speaker": "Kath Korevec",
+  "en": "I'm like, okay,",
+  "zh": "我会想，好吧，"
+ },
+ {
+  "seg": 626,
+  "start": 1979.406,
+  "end": 1981.017111111111,
+  "speaker": "Kath Korevec",
+  "en": "it's doing something that it,",
+  "zh": "它在做某件事，"
+ },
+ {
+  "seg": 627,
+  "start": 1982.233,
+  "end": 1984.314,
+  "speaker": "Kath Korevec",
+  "en": "I like asked it to do probably or,",
+  "zh": "可能是我让它做的，"
+ },
+ {
+  "seg": 628,
+  "start": 1984.414,
+  "end": 1984.614,
+  "speaker": "Kath Korevec",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 629,
+  "start": 1984.634,
+  "end": 1986.2250000000001,
+  "speaker": "Kath Korevec",
+  "en": "but if it starts making assumptions,",
+  "zh": "但如果它开始自作假设，"
+ },
+ {
+  "seg": 630,
+  "start": 1986.275,
+  "end": 1990.057,
+  "speaker": "Kath Korevec",
+  "en": "like especially if it starts emailing or talking to people for me,",
+  "zh": "尤其是如果它开始替我发邮件或跟人交谈，"
+ },
+ {
+  "seg": 631,
+  "start": 1990.637,
+  "end": 1993.639,
+  "speaker": "Kath Korevec",
+  "en": "I get so mad and I'll just say, do not do that.",
+  "zh": "我会非常生气，我会直接说，不许那么做。"
+ },
+ {
+  "seg": 632,
+  "start": 1993.739,
+  "end": 1996.04,
+  "speaker": "Kath Korevec",
+  "en": "And I'll kind of like ream it out.",
+  "zh": "我会 kind of 把它训斥一顿。"
+ },
+ {
+  "seg": 633,
+  "start": 1996.22,
+  "end": 1998.331111111111,
+  "speaker": "Kath Korevec",
+  "en": "And so it won't do that in the future.",
+  "zh": "这样它以后就不会那么做了。"
+ },
+ {
+  "seg": 634,
+  "start": 1998.601,
+  "end": 2000.452,
+  "speaker": "Kath Korevec",
+  "en": "And because that's I want to protect that.",
+  "zh": "因为那是我想保护的东西。"
+ },
+ {
+  "seg": 635,
+  "start": 2000.502,
+  "end": 2001.502,
+  "speaker": "Kath Korevec",
+  "en": "That's my voice.",
+  "zh": "那是我的声音。"
+ },
+ {
+  "seg": 636,
+  "start": 2001.563,
+  "end": 2002.5330000000001,
+  "speaker": "Kath Korevec",
+  "en": "I don't want if it's,",
+  "zh": "我不想要，如果它"
+ },
+ {
+  "seg": 637,
+  "start": 2002.583,
+  "end": 2002.823,
+  "speaker": "Kath Korevec",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 638,
+  "start": 2002.843,
+  "end": 2006.485,
+  "speaker": "Kath Korevec",
+  "en": "like signing my name to something it wrote and then sending that",
+  "zh": "比如用它自己写的东西签上我的名字，然后把它"
+ },
+ {
+  "seg": 639,
+  "start": 2006.525,
+  "end": 2008.786,
+  "speaker": "Kath Korevec",
+  "en": "to somebody that's crossing the line.",
+  "zh": "发给某个人，那就是越界了。"
+ },
+ {
+  "seg": 640,
+  "start": 2009.066,
+  "end": 2010.1970000000001,
+  "speaker": "Kath Korevec",
+  "en": "So I say, do not do that.",
+  "zh": "所以我会说，不许那么做。"
+ },
+ {
+  "seg": 641,
+  "start": 2010.247,
+  "end": 2014.792,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so all the emails, slacks, everything from you",
+  "zh": "好吧，所以所有来自你的邮件、Slack 消息、所有东西"
+ },
+ {
+  "seg": 642,
+  "start": 2014.812,
+  "end": 2016.253,
+  "speaker": "SPEAKER_01",
+  "en": "are from you.",
+  "zh": "都是来自你本人的。"
+ },
+ {
+  "seg": 643,
+  "start": 2016.634,
+  "end": 2017.4850000000001,
+  "speaker": "Kath Korevec",
+  "en": "They're from me.",
+  "zh": "它们来自我。"
+ },
+ {
+  "seg": 644,
+  "start": 2017.535,
+  "end": 2022.78,
+  "speaker": "Kath Korevec",
+  "en": "You know, they may be inspired by something Codex wrote because I do use it all the time.",
+  "zh": "你知道，它们可能受到 Codex 写的东西的启发，因为我确实一直在用它。"
+ },
+ {
+  "seg": 645,
+  "start": 2022.88,
+  "end": 2024.0710000000001,
+  "speaker": "Kath Korevec",
+  "en": "I use it to do my research.",
+  "zh": "我用它做我的研究。"
+ },
+ {
+  "seg": 646,
+  "start": 2024.121,
+  "end": 2027.645,
+  "speaker": "Kath Korevec",
+  "en": "I use it to help me write, but I don't like it writing for me.",
+  "zh": "我用它帮我写作，但我不喜欢它替我写作。"
+ },
+ {
+  "seg": 647,
+  "start": 2028.11,
+  "end": 2032.002,
+  "speaker": "SPEAKER_01",
+  "en": "I recently had a bot start writing slacks for me in my community slack,",
+  "zh": "我最近有一个机器人在我的社区 Slack 里替我写消息，"
+ },
+ {
+  "seg": 648,
+  "start": 2032.052,
+  "end": 2034.033,
+  "speaker": "SPEAKER_01",
+  "en": "and people are like engaging back and forth.",
+  "zh": "而且人们在来回互动。"
+ },
+ {
+  "seg": 649,
+  "start": 2034.053,
+  "end": 2036.754,
+  "speaker": "SPEAKER_01",
+  "en": "I'm like, y'all, that is not me.",
+  "zh": "我说，各位，那不是我。"
+ },
+ {
+  "seg": 650,
+  "start": 2037.754,
+  "end": 2039.835,
+  "speaker": "SPEAKER_01",
+  "en": "Please don't encourage the AI",
+  "zh": "请不要鼓励这个 AI"
+ },
+ {
+  "seg": 651,
+  "start": 2040.415,
+  "end": 2041.976,
+  "speaker": "Kath Korevec",
+  "en": "when it impersonates me.",
+  "zh": "当它冒充我的时候。"
+ },
+ {
+  "seg": 652,
+  "start": 2042.016,
+  "end": 2044.017,
+  "speaker": "Kath Korevec",
+  "en": "Okay, so you are very stern.",
+  "zh": "好的，你非常严厉。"
+ },
+ {
+  "seg": 653,
+  "start": 2044.377,
+  "end": 2045.567,
+  "speaker": "Kath Korevec",
+  "en": "Oh, very important question.",
+  "zh": "哦，非常重要的问题。"
+ },
+ {
+  "seg": 654,
+  "start": 2045.617,
+  "end": 2046.9503333333332,
+  "speaker": "Kath Korevec",
+  "en": "What is your dot's name?",
+  "zh": "你的 dot 叫什么名字？"
+ },
+ {
+  "seg": 655,
+  "start": 2047.298,
+  "end": 2051.22,
+  "speaker": "Kath Korevec",
+  "en": "My dot's name is Mogwai, which is my dog's name.",
+  "zh": "我的 dot 叫 Mogwai，这是我的狗的名字。"
+ },
+ {
+  "seg": 656,
+  "start": 2051.46,
+  "end": 2052.68,
+  "speaker": "Kath Korevec",
+  "en": "Oh, cute.",
+  "zh": "哦，好可爱。"
+ },
+ {
+  "seg": 657,
+  "start": 2052.74,
+  "end": 2054.462222222222,
+  "speaker": "Kath Korevec",
+  "en": "She's a little miniature husky.",
+  "zh": "她是一只迷你哈士奇。"
+ },
+ {
+  "seg": 658,
+  "start": 2054.926,
+  "end": 2056.959,
+  "speaker": "Kath Korevec",
+  "en": "And we named her Mogwai after the gremlins.",
+  "zh": "我们根据《小精灵》给她取名 Mogwai。"
+ },
+ {
+  "seg": 659,
+  "start": 2057.009,
+  "end": 2057.9199999999996,
+  "speaker": "Kath Korevec",
+  "en": "Oh, very cute.",
+  "zh": "哦，非常可爱。"
+ },
+ {
+  "seg": 660,
+  "start": 2057.97,
+  "end": 2059.211,
+  "speaker": "Kath Korevec",
+  "en": "My dot's name's Bae.",
+  "zh": "我的 dot 叫 Bae。"
+ },
+ {
+  "seg": 661,
+  "start": 2059.592,
+  "end": 2059.8819999999996,
+  "speaker": "Kath Korevec",
+  "en": "Bae.",
+  "zh": "Bae。"
+ },
+ {
+  "seg": 662,
+  "start": 2059.932,
+  "end": 2060.383,
+  "speaker": "Kath Korevec",
+  "en": "Oh, Bae.",
+  "zh": "哦，Bae。"
+ },
+ {
+  "seg": 663,
+  "start": 2060.433,
+  "end": 2061.154,
+  "speaker": "Kath Korevec",
+  "en": "Yeah, very cute.",
+  "zh": "对，非常可爱。"
+ },
+ {
+  "seg": 664,
+  "start": 2061.174,
+  "end": 2061.624,
+  "speaker": "Kath Korevec",
+  "en": "She's pink.",
+  "zh": "她是粉色的。"
+ },
+ {
+  "seg": 665,
+  "start": 2061.674,
+  "end": 2062.672,
+  "speaker": "Kath Korevec",
+  "en": "She's very cute.",
+  "zh": "她非常可爱。"
+ },
+ {
+  "seg": 666,
+  "start": 2062.722,
+  "end": 2064.523,
+  "speaker": "SPEAKER_01",
+  "en": "Well, this has been super fun.",
+  "zh": "嗯，这期聊得非常开心。"
+ },
+ {
+  "seg": 667,
+  "start": 2064.643,
+  "end": 2067.345,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you for showing us all your sites.",
+  "zh": "谢谢你给我们展示了你所有的 sites。"
+ },
+ {
+  "seg": 668,
+  "start": 2067.425,
+  "end": 2069.306,
+  "speaker": "SPEAKER_01",
+  "en": "We covered sites for work,",
+  "zh": "我们聊了工作用的 sites，"
+ },
+ {
+  "seg": 669,
+  "start": 2069.566,
+  "end": 2071.527,
+  "speaker": "SPEAKER_01",
+  "en": "sites for your algorithm,",
+  "zh": "你的算法用的 sites，"
+ },
+ {
+  "seg": 670,
+  "start": 2071.627,
+  "end": 2072.568,
+  "speaker": "SPEAKER_01",
+  "en": "personal software,",
+  "zh": "个人软件，"
+ },
+ {
+  "seg": 671,
+  "start": 2072.588,
+  "end": 2076.83,
+  "speaker": "SPEAKER_01",
+  "en": "and then sites for fun and profit, which is what I'm calling awesome sites.",
+  "zh": "还有为了乐趣和赚钱的 sites，这是我给 awesome sites 起的叫法。"
+ },
+ {
+  "seg": 672,
+  "start": 2076.85,
+  "end": 2077.891,
+  "speaker": "Kath Korevec",
+  "en": "So you're going to go publish this.",
+  "zh": "所以你接下来会去发布这个。"
+ },
+ {
+  "seg": 673,
+  "start": 2077.911,
+  "end": 2078.872,
+  "speaker": "Kath Korevec",
+  "en": "I will.",
+  "zh": "我会的。"
+ },
+ {
+  "seg": 674,
+  "start": 2078.892,
+  "end": 2081.733,
+  "speaker": "SPEAKER_01",
+  "en": "And where can these lovely folks find you?",
+  "zh": "那这些可爱的听众可以在哪里找到你？"
+ },
+ {
+  "seg": 675,
+  "start": 2082.213,
+  "end": 2083.6574444444445,
+  "speaker": "SPEAKER_01",
+  "en": "And how can we be helpful?",
+  "zh": "我们能帮上什么忙？"
+ },
+ {
+  "seg": 676,
+  "start": 2083.914,
+  "end": 2085.936,
+  "speaker": "Kath Korevec",
+  "en": "I am Simsoka everywhere.",
+  "zh": "我在所有地方都叫 Simsoka。"
+ },
+ {
+  "seg": 677,
+  "start": 2086.136,
+  "end": 2087.597,
+  "speaker": "Kath Korevec",
+  "en": "S-I-M-P-S-O-K-A.",
+  "zh": "S-I-M-P-S-O-K-A。"
+ },
+ {
+  "seg": 678,
+  "start": 2088.783,
+  "end": 2090.564,
+  "speaker": "Kath Korevec",
+  "en": "On Twitter and all of the things.",
+  "zh": "在 Twitter 和所有平台上。"
+ },
+ {
+  "seg": 679,
+  "start": 2090.584,
+  "end": 2091.7949999999996,
+  "speaker": "Kath Korevec",
+  "en": "So you can find me there.",
+  "zh": "你可以在那里找到我。"
+ },
+ {
+  "seg": 680,
+  "start": 2091.845,
+  "end": 2094.116,
+  "speaker": "Kath Korevec",
+  "en": "My DMs are open if you have questions or anything.",
+  "zh": "如果你有问题或任何事，我的私信是开放的。"
+ },
+ {
+  "seg": 681,
+  "start": 2094.166,
+  "end": 2095.1969999999997,
+  "speaker": "Kath Korevec",
+  "en": "Or feedback on sites.",
+  "zh": "或者对 sites 的反馈。"
+ },
+ {
+  "seg": 682,
+  "start": 2095.247,
+  "end": 2096.057,
+  "speaker": "Kath Korevec",
+  "en": "She wants it.",
+  "zh": "她想要反馈。"
+ },
+ {
+  "seg": 683,
+  "start": 2096.107,
+  "end": 2097.107,
+  "speaker": "Kath Korevec",
+  "en": "I do want it.",
+  "zh": "我确实想要。"
+ },
+ {
+  "seg": 684,
+  "start": 2097.308,
+  "end": 2098.598,
+  "speaker": "Kath Korevec",
+  "en": "I ask for feedback all the time.",
+  "zh": "我一直都在征求反馈。"
+ },
+ {
+  "seg": 685,
+  "start": 2098.648,
+  "end": 2101.06,
+  "speaker": "Kath Korevec",
+  "en": "So if you follow me, you'll probably watch me.",
+  "zh": "所以如果你关注我，你可能会看到我。"
+ },
+ {
+  "seg": 686,
+  "start": 2101.11,
+  "end": 2103.681,
+  "speaker": "Kath Korevec",
+  "en": "Like, I want feedback on this and this and this.",
+  "zh": "比如，我想要关于这个、这个和这个的反馈。"
+ },
+ {
+  "seg": 687,
+  "start": 2103.731,
+  "end": 2104.731,
+  "speaker": "Kath Korevec",
+  "en": "Just be warned.",
+  "zh": "先提醒你们。"
+ },
+ {
+  "seg": 688,
+  "start": 2104.912,
+  "end": 2105.452,
+  "speaker": "Kath Korevec",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 689,
+  "start": 2105.492,
+  "end": 2109.8253333333337,
+  "speaker": "SPEAKER_01",
+  "en": "Well, thank you for inviting us all to Dev Day and thanks for joining How AI.",
+  "zh": "好的，谢谢你邀请我们大家来 Dev Day，也感谢你参与 How AI。"
+ },
+ {
+  "seg": 690,
+  "start": 2109.354,
+  "end": 2110.635,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, happy to be here.",
+  "zh": "对，很高兴来到这里。"
+ },
+ {
+  "seg": 691,
+  "start": 2110.675,
+  "end": 2111.675,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you.",
+  "zh": "谢谢你。"
+ },
+ {
+  "seg": 692,
+  "start": 2112.514,
+  "end": 2113.8039999999996,
+  "speaker": "SPEAKER_01",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢大家观看。"
+ },
+ {
+  "seg": 693,
+  "start": 2113.854,
+  "end": 2115.275,
+  "speaker": "SPEAKER_01",
+  "en": "If you enjoyed this show,",
+  "zh": "如果你喜欢这个节目，"
+ },
+ {
+  "seg": 694,
+  "start": 2115.455,
+  "end": 2117.265,
+  "speaker": "SPEAKER_01",
+  "en": "please like and subscribe here on YouTube,",
+  "zh": "请在 YouTube 上点赞并订阅，"
+ },
+ {
+  "seg": 695,
+  "start": 2117.315,
+  "end": 2120.066,
+  "speaker": "SPEAKER_01",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是，留言告诉我们你的想法。"
+ },
+ {
+  "seg": 696,
+  "start": 2120.116,
+  "end": 2125.657,
+  "speaker": "SPEAKER_01",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 697,
+  "start": 2126.237,
+  "end": 2128.878,
+  "speaker": "Kath Korevec",
+  "en": "Please consider leaving us a rating and review, which will",
+  "zh": "请考虑给我们评分和写评论，这"
+ },
+ {
+  "seg": 698,
+  "start": 2128.938,
+  "end": 2130.418,
+  "speaker": "SPEAKER_01",
+  "en": "help others find the show.",
+  "zh": "能帮助更多人发现这个节目。"
+ },
+ {
+  "seg": 699,
+  "start": 2131.038,
+  "end": 2136.78,
+  "speaker": "SPEAKER_01",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 查看我们的所有节目并了解更多关于本节目的信息。"
+ },
+ {
+  "seg": 700,
+  "start": 2137.38,
+  "end": 2138.38,
+  "speaker": "SPEAKER_01",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

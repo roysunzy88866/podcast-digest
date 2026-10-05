@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
+[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":20,"Salesforce":34,"智能体":405,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":20,"Vercel":18,"Cursor":80,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":20,"Salesforce":34,"智能体":411,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":20,"Vercel":19,"Cursor":80,"Artisan":1}</script>
 
 <script>
 (function(){

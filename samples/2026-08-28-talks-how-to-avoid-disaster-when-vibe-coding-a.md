@@ -103,9 +103,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|Stripe 联创 John Collison:智能体商务是一次彻底的重构]]<span class="pd-rz">同公司:Metronome、Stripe · 同概念:智能体 (agent)、智能体商务 (agentic commerce)、编码智能体 (coding agent)</span>
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe、Stripe Projects、Metronome · 同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、编码智能体 (coding agent)、vibe coding</span>
-- [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

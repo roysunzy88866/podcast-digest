@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>48</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -56,10 +56,13 @@ unlisted: true
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(37:14起):Nick 曾工作的公司，本集用它类比 AI 平台的开放题：在核心支付原语上构建更高层产品，对应「智能体 API 该给多少灵活性」的问题。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:39起):本集说与 Stripe 相处时他们觉得更高效地写代码回报非常高，是 token 买方拿到 ROI 的例证。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说 Stripe 收购了 OpenRouter，过程高效、对创始人友好；两家都希望世界上出现大量新公司，并希望 OpenRouter 保持品牌与产品自主权。
+- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(01:07起):本集把它说成:嘉宾待了九年多、从约 400 人到 8000 人、从 1 亿美元营收做到数十亿美元的前东家,她离开时的职位是首席业务官;Stripe 有「效率即杠杆」价值观并每约 18 个月重写一次价值观。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(56:18起):本集作为「对客户可以合理模糊」的例子:可以暗示「我们在和 Stripe 谈」,因为机构太大,细节没人追究。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(00:24起):本集主线公司:2025 年处理 1.9 万亿美元交易(同比增 34%),正在为 AI/智能体商务『彻底重构』自己,包括收购 Bridge、Privy、Metronome、OpenRouter。
 
 ## ① 提到它的金句
 
-*6 条*
+*8 条*
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q3]]
 
@@ -73,9 +76,13 @@ unlisted: true
 
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q1]]
 
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q6]]
+
+![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q7]]
+
 ## ② 出现在这些集
 
-*45 集*
+*48 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -122,14 +129,17 @@ unlisted: true
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司(提及)
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Vercel]] · [[ChatGPT]] · [[Claude]] · [[沙箱]] · [[Codex]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Vercel]] · [[Claude]] · [[OpenRouter]] · [[NVIDIA]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"OpenAI":161,"Anthropic":173,"Cursor":80,"推理":74,"Vercel":18,"ChatGPT":96,"Claude":88,"沙箱":74,"Codex":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"OpenAI":164,"Anthropic":175,"推理":77,"Cursor":80,"Vercel":19,"Claude":90,"OpenRouter":14,"NVIDIA":56,"ChatGPT":97}</script>
 
 <script>
 (function(){

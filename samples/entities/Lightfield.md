@@ -37,7 +37,7 @@ unlisted: true
 
 [[Tome]] · [[Salesforce]] · [[CRM]] · [[记录系统]] · [[Keith Peiris]] · [[Keith Parris]] · [[HubSpot]] · [[Alex Rampell]] · [[产品市场契合]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"Tome":2,"Salesforce":34,"CRM":6,"记录系统":6,"Keith Peiris":1,"Keith Parris":1,"HubSpot":9,"Alex Rampell":3,"产品市场契合":24,"Joe Schmidt":2}</script>
+<script type="application/json" class="pd-epn">{"Tome":2,"Salesforce":34,"CRM":6,"记录系统":6,"Keith Peiris":1,"Keith Parris":1,"HubSpot":9,"Alex Rampell":3,"产品市场契合":26,"Joe Schmidt":2}</script>
 
 <script>
 (function(){

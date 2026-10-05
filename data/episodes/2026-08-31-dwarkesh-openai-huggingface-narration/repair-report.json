@@ -1,0 +1,83 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "12:16",
+      "speaker": "SPEAKER_02",
+      "trimmed": false,
+      "tsWas": "12:16",
+      "spkWas": "SPEAKER_02"
+    },
+    {
+      "i": 2,
+      "timestamp": "12:50",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "12:50",
+      "spkWas": "SPEAKER_01"
+    },
+    {
+      "i": 3,
+      "timestamp": "17:08",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "17:11",
+      "spkWas": "SPEAKER_01"
+    },
+    {
+      "i": 5,
+      "timestamp": "21:56",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "21:56",
+      "spkWas": "SPEAKER_00"
+    },
+    {
+      "i": 6,
+      "timestamp": "24:23",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "24:23",
+      "spkWas": "SPEAKER_00"
+    },
+    {
+      "i": 7,
+      "timestamp": "24:30",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "24:29",
+      "spkWas": "SPEAKER_00"
+    },
+    {
+      "i": 8,
+      "timestamp": "16:37",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "16:37",
+      "spkWas": "SPEAKER_00"
+    },
+    {
+      "i": 9,
+      "timestamp": "15:47",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "15:47",
+      "spkWas": "SPEAKER_00"
+    },
+    {
+      "i": 10,
+      "timestamp": "04:52",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "04:52",
+      "spkWas": "SPEAKER_01"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "命中片段跨说话人(占比0.68/连续他人10词,疑拼接)",
+      "en": "Now, I doubt the AIs actually did this, because if they had, we'd see the fires from space by now. But it's crazy that it could have totally happened."
+    }
+  ]
+}

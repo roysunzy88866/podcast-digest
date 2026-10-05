@@ -91,11 +91,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
+[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":161,"Stripe":45,"Anthropic":173,"Cursor":80,"Amazon":28,"NVIDIA":54,"智能体":405,"Databricks":20,"Google":57,"推理":74}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":164,"Stripe":48,"Anthropic":175,"Cursor":80,"Amazon":28,"NVIDIA":56,"智能体":411,"Databricks":21,"Google":59,"推理":77}</script>
 
 <script>
 (function(){

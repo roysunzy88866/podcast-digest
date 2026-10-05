@@ -95,6 +95,7 @@ Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技
 
 - [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年]]<span class="pd-rz">同公司:PayPal</span>
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|外呼回复率接近零？创始人卖货的八个实操技巧]]<span class="pd-rz">同公司:YC</span>
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战]]<span class="pd-rz">同公司:YC</span>
 
 </div>
 <div class="pd-ex">

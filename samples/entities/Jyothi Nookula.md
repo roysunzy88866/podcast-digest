@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":88,"Claude Code":94,"智能体":405,"对抗性智能体":1,"MCP":73,"知识库":2,"技能":26,"vibe coding":45,"红队测试":5}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":90,"Claude Code":94,"智能体":411,"对抗性智能体":1,"MCP":76,"知识库":2,"技能":28,"vibe coding":45,"红队测试":5}</script>
 
 <script>
 (function(){

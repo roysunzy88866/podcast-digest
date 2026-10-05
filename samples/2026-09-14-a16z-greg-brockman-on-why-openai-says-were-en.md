@@ -143,7 +143,7 @@ Greg 指出一个被忽视的问题：[[ChatGPT|ChatGPT]] 有超 10 亿周活用
 
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|语音智能体不一定要说话:OpenAI 的三种语音交互模式]]<span class="pd-rz">同公司:OpenAI、ChatGPT · 同概念:AGI、计算机使用 (computer use)</span>
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra]]<span class="pd-rz">同公司:Astra、ChatGPT、OpenAI、Codex</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Codex · 同概念:Lean</span>
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Codex · 同概念:计算机使用 (computer use)</span>
 
 </div>
 <div class="pd-ex">
@@ -151,8 +151,8 @@ Greg 指出一个被忽视的问题：[[ChatGPT|ChatGPT]] 有超 10 亿周活用
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Codex · 同概念:计算机使用 (computer use)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、算力 (compute)</span>
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:AGI</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:OpenAI、ChatGPT · 同概念:AGI、沙箱 (sandbox)</span>
 
 </div>
 </div>

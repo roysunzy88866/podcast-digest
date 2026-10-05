@@ -1,0 +1,338 @@
+{
+  "episode_id": "2026-09-30-talks-the-chief-ai-officer-scientist-architect",
+  "podcast": "精选演讲",
+  "date": "2026-09-30",
+  "tags": [
+    "首席 AI 官",
+    "AI 战略",
+    "智能体",
+    "开源",
+    "AI 衡量指标"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "rania-khalaf",
+      "type": "person",
+      "role": "guest",
+      "name": "Rania Khalaf",
+      "file": "Rania Khalaf",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "wso2",
+      "type": "company",
+      "role": "company",
+      "name": "WSO2",
+      "file": "WSO2",
+      "primary": true,
+      "how_described": "本集说 WSO2 是 Rania 现任公司：约 20 年历史、ARR 约 1.5 亿美元、100% 开源（非 open core）的软件公司，产品覆盖六大洲 90 多个国家，历史主打 API 平台、集成平台、身份与访问管理和内部开发者平台，近年战略聚焦「智能体化企业结构」，为所有产品加入对智能体、LLM 和工具的一等支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            747.642,
+            760.512
+          ],
+          "quote": "So this is a bit like I was trying to put it a bit on a grid of how do we think about it and really in my view with my experience having been like at IBM and at the biotech startup and now at WSO2 those are the dimensions I think about, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1060.281,
+            1061.962
+          ],
+          "quote": "So just a few words about WSO2.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chief-ai-officer",
+      "type": "concept",
+      "role": "concept",
+      "name": "首席 AI 官 (chief AI officer)",
+      "file": "首席 AI 官",
+      "primary": true,
+      "how_described": "本集主线概念：一个爆发中的新职位（设该职位的公司从 2024 年 11% 涨到如今 76%），含义因公司类型、AI 成熟度和个人背景而天差地别；Rania 把它拆成科学家、架构师、教练三个角色，并建议接任前先锁定 CEO 支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.259,
+            26.486
+          ],
+          "quote": "So today, I wanted to share my experiences on the chief AI officer role.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1220.964,
+            1232.448
+          ],
+          "quote": "And I've seen also some places where if it's a very AI forward company, the chief AI officer, like the chief product officer and the chief AI officer are one person, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是 AI 战略的核心对象：WSO2 要让所有产品「能被智能体和 LLM 消费」，给产品配 MCP server、skills 和 CLI，推出智能体身份和智能体平台来管理其整个生命周期；还有团队配上可实例化、与团队并肩工作的「智能体员工」，甚至出现「智能体是劳动力、由 HR 管理」的说法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            919.22,
+            923.383
+          ],
+          "quote": "And then we wanted all our products to be agent and LLM consumable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            940.052,
+            951.141
+          ],
+          "quote": "Agent-proof pricing, so we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1090.348,
+            1097.892
+          ],
+          "quote": "And in the last couple of years since I came, we've added agent identity and AI gateway to govern your AI interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1098.232,
+            1100.834
+          ],
+          "quote": "We've added an agent builder to our integration platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1134.606,
+            1136.006
+          ],
+          "quote": "Two, we added agent identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1136.346,
+            1152.191
+          ],
+          "quote": "This was all last year, and this year we've released an agent platform that lets you use those things, but also lets you put it all together and manage the whole life cycle of these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1173.062,
+            1190.392
+          ],
+          "quote": "On the architect side, right, the idea was AI is like great shiny object, but we want to infuse it in the whole digital fabric, so how can we extend that with these capabilities, like I mentioned before, so those are the things that we've added, and agent manager is the newest we've done, we've just released it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP server",
+      "file": "MCP server",
+      "primary": true,
+      "how_described": "本集说让智能体调用工具的标准接口：今年 WSO2 要确保每个产品都能被智能体使用，「每个东西都需要有 MCP server、skills 和 CLI 等等」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            934.408,
+            937.95
+          ],
+          "quote": "So everything needs to have an MCP server and skills and CLI, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 网关 (AI gateway)",
+      "file": "AI 网关",
+      "primary": true,
+      "how_described": "本集说因为「LLM AI API 归根结底就是 API，但需要以不同的方式来管理」，所以 WSO2 在其 API 平台里放入 AI 网关，用于治理 AI 交互。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1090.348,
+            1097.892
+          ],
+          "quote": "And in the last couple of years since I came, we've added agent identity and AI gateway to govern your AI interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1125.123,
+            1127.364
+          ],
+          "quote": "So we put an AI gateway in the API platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体身份 (agent identity)",
+      "file": "智能体身份",
+      "primary": true,
+      "how_described": "本集说身份平台本就擅长为人类做强大的身份与访问管理，「那么现在让我们为智能体做这件事」，于是 WSO2 添加了智能体身份，由身份平台承载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1090.348,
+            1097.892
+          ],
+          "quote": "And in the last couple of years since I came, we've added agent identity and AI gateway to govern your AI interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1134.606,
+            1136.006
+          ],
+          "quote": "Two, we added agent identity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集在谈向内辅导时提到：要「希望他们自己去发现诸如幻觉之类的事情，因为你可以解释到你口干舌燥，但人们只有亲身经历过才会相信」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            448.898,
+            456.681
+          ],
+          "quote": "You want them to discover for themselves things like hallucination, because you can explain until you're blue in the face, but people don't believe it until they experience it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-engine-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式引擎优化 (generative engine optimization)",
+      "file": "生成式引擎优化",
+      "primary": false,
+      "how_described": "本集说这是她衡量的维度之一（GEO 可见性）：「LLM 能找到我们吗？它们知道我们是做什么的吗？」并笑引「网页已经变成给智能体看的了、对人类不可读」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            869.929,
+            874.65
+          ],
+          "quote": "And then geo visibility, so just as generative engine optimization, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": false,
+      "how_described": "本集说 WSO2 是「一家完全开源的公司，我们做的一切都是 100% 开源的，不是 open core」，社区参与度、star 和 fork 数是其重要信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1002.652,
+            1008.854
+          ],
+          "quote": "We are a fully open source company, so everything we do is 100% open source, it's not open core.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1104.531,
+            1106.072
+          ],
+          "quote": "And everything we do is open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集在回顾上一份生物科技公司职位时顺带提到：「我们最后成了一个彻头彻尾的 AWS 用户，我买了 Databricks」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            569.289,
+            577.496
+          ],
+          "quote": "So when IBM was building platform, here I was like, we ended up to be a full AWS shop, I bought Databricks, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

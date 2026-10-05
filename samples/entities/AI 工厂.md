@@ -35,7 +35,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[ChatGPT]] · [[推理]] · [[GPU]] · [[数据中心]] · [[Renen Hallak]] · [[Herwig]] · [[Chase Lochmiller]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":54,"智能体":405,"ChatGPT":96,"推理":74,"GPU":22,"数据中心":21,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1,"Matt Turk":4}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":56,"智能体":411,"ChatGPT":97,"推理":77,"GPU":22,"数据中心":21,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1,"Matt Turk":4}</script>
 
 <script>
 (function(){

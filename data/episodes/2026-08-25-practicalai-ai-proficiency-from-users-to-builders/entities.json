@@ -1,0 +1,431 @@
+{
+  "episode_id": "2026-08-25-practicalai-ai-proficiency-from-users-to-builders",
+  "podcast": "Practical AI",
+  "date": "2026-08-25",
+  "tags": [
+    "企业 AI 转型",
+    "AI 熟练度",
+    "非技术构建者",
+    "智能体",
+    "组织变革"
+  ],
+  "categories": [
+    "组织与领导力",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.42,
+            56.46
+          ],
+          "quote": "Welcome to another episode of the Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mike-lewis",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mike Lewis",
+      "file": "Mike Lewis",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            130.025,
+            139.065
+          ],
+          "quote": "Mike Lewis was on a previous episode with us. We got a ton of great feedback on that episode. He's chief AI architect at tier one performance. Welcome, Mike.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "tier-one-performance",
+      "type": "company",
+      "role": "company",
+      "name": "Tier One Performance",
+      "file": "Tier One Performance",
+      "primary": true,
+      "how_described": "嘉宾 Mike Lewis 任首席 AI 架构师的端到端组织绩效与转型合作伙伴，客户包括 Google、礼来、武田、美国空军等财富 100 强企业，帮助全球最大组织应对 AI 颠覆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            130.025,
+            139.065
+          ],
+          "quote": "Mike Lewis was on a previous episode with us. We got a ton of great feedback on that episode. He's chief AI architect at tier one performance. Welcome, Mike.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 9,
+          "t": [
+            170.69,
+            197.75
+          ],
+          "quote": "Yeah, sure. So, tier one performance is an end to end organizational performance and transformation partner. What does that mean? We kind of help some of the most of the largest organizations in the world rethink transformation. I would add in, though, that we have a nontraditional approach, a multi decade track record of success there.",
+          "speaker": "Mike"
+        }
+      ]
+    },
+    {
+      "id": "non-technical-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "非技术构建者 (non-technical builder)",
+      "file": "非技术构建者",
+      "primary": true,
+      "how_described": "本集主线概念（源自 Peter Yang 文章的 L2）：不懂编程、却深刻理解公司业务 DNA、能构建持久解决方案的非技术人员；Mike 主张每个高绩效团队只需一个 L2，且手边要有 L3 复核。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            814.81,
+            847.84
+          ],
+          "quote": "L0 through L3 classification. So L0, L1, L2, and L3. And the L0s are the people who aren't using it, and the L3s are the ones who are just making a difference across the entire enterprise, and we all know those, and then they labeled L1. L2, though, knocked me off my chair almost when they talked about the concept of a non technical builder. And they just gave a name to a thing that I just thought, Wow, this is something we need to really focus on.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 33,
+          "t": [
+            848.08,
+            876.12
+          ],
+          "quote": "The idea of a non technical builder, we're all focusing on converting L zeros, people who are disengaged, and we'll unpack what that is, I think, we need to, because there's so much important stuff there. And they're trying to get people from L zero to L one, and L one is what everyone knows. It's the user. It's the one who's like, I couldn't live without this. And they kind of feel like it ends here, and then that leap, the big jump from like, okay, someone who uses AI to, wait a minute, no, this is a non technical builder.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1894.275,
+            1931.82
+          ],
+          "quote": "And though, Daniel, we only want one of those on each team. We find that it is not a one plus one equals two thing. Too many chefs in the kitchen, if you have two L twos on a team, they are not necessarily as good as just an L two, a few L ones, some L zeros. And we wanna make sure every L two, every non technical builder has an L three within arm's reach so that they can double check the work. The L2 can make it uncanny, but the L3 can make it scalable, durable, make a thing that won't break, or doesn't break laws, or violate governance policies.",
+          "speaker": "Mike"
+        }
+      ]
+    },
+    {
+      "id": "l0",
+      "type": "concept",
+      "role": "concept",
+      "name": "L0",
+      "file": "L0",
+      "primary": true,
+      "how_described": "不用 AI 的人群，本集说它「根本不是一个东西」，分为表演型用户、不感兴趣的、太忙的高绩效者、畏惧失业的、对质量失望的五个类别，其中对质量失望的约占 60%、最该被倾听。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            796.825,
+            814.73004
+          ],
+          "quote": "I'm kind of skimming my screen here for the details on it. But basically, it was called Your New Job is to Onboard AI Agents, How AI Native Companies Actually Operate. And they just had this way of thinking through the L0 through L3. So I didn't invent that. I read it in that subject.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 32,
+          "t": [
+            814.81,
+            847.84
+          ],
+          "quote": "L0 through L3 classification. So L0, L1, L2, and L3. And the L0s are the people who aren't using it, and the L3s are the ones who are just making a difference across the entire enterprise, and we all know those, and then they labeled L1. L2, though, knocked me off my chair almost when they talked about the concept of a non technical builder. And they just gave a name to a thing that I just thought, Wow, this is something we need to really focus on.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1145.2001,
+            1169.035
+          ],
+          "quote": "That name resonated with me. The L0s in that article, at least at Ramp, the way I interpreted what I read, they were saying that, Hey, if you're an L0 at Ramp, of course, it's a software company. If you're an L0 at Ramp, that's grounds for dismissal. You have until this date for our system to assess you as an L1. And man, that just broke my heart, because it's kind of like, okay, wait a minute.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1234.1499,
+            1251.7649
+          ],
+          "quote": "It's true. And so, there are cases where an L0's not gonna work in that role. But I think we're gonna realize in ten years, looking back at all this, that it's just not true in every role. And I think the one that hit me the hardest is my wife, probably the smartest person I know in the world. My wife, smartest person I know.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1268.5901,
+            1291.76
+          ],
+          "quote": "It would be in the way. And I started doing research on the concept of L zero, people who are disengaged, and I realized there are multiple buckets. So when we talk about an L zero, it's not a thing. So an L0 is not just someone who doesn't use AI. I found five major categories.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1381.6,
+            1408.72
+          ],
+          "quote": "And I think that is also really hard for the people who are here in communication, Use AI or you're out of here, and then they can look around and see the people who like, very often, it's some of the highest performers in the company who don't really care about it because they're in a rhythm. So those I kind of push past, but the next two, these are still buckets in L0. These are people who aren't using it, really matter. And there's something you can learn from these people. And I think when you say like, Hey, you're going to be doing this.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1441.59,
+            1484.145
+          ],
+          "quote": "I could think of a few examples of like, the AI is actually learning from watching us, but my vote doesn't really impact whether or not it's gonna replace that profession someday. So I think with the job fearful, there's an opportunity to help them see like, Hey, you might be in the middle of a self fulfilling prophecy here. If you continue to push back against this, you might lose your job, but it won't be because the AI replaced you, because Joe, who's willing to use AI, will replace you. So that's one way to address an L0, but another one, and this is actually six out of 10 people that we talk to, and I've seen this number in research hover around sixty percent in more than one place, are the quality disappointed. This is where I think every executive's ears should turn on.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1539.98,
+            1556.595
+          ],
+          "quote": "I don't think an L1 is better than an L0, and I don't think an L2 is better than an L1. Actually, I don't see it that way. I just see it as kind of a division within an organization for how different ways of thinking about the toolkit.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1726.625,
+            1742.83
+          ],
+          "quote": "Let's zoom way out, and let's think about where we should actually focus. I mean, if we've already said, Okay, L0, we understand some people just really aren't gonna be using it maybe ever, but definitely for a while. Okay? Let's not even think about them right now. We got the L ones.",
+          "speaker": "Mike"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说好的 L2 要能「把智能体对齐」到领域专家（SME）认可的「好」与「准确」，产出贴近团队一贯工作风格、无需保姆式看护；400 万美元文档转换项目正是靠一个 Claude skill（智能体封装）三小时建成并千份并发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            924.44,
+            950.815
+          ],
+          "quote": "If you've been listening to the show over the past few months, you realize how transformative agentic AI is. Whether it's clot code or Hermes agent or your own custom software that you're deploying for operational efficiencies or as a product into the market. These systems are transformative and it's where the industry is going. But agents have a lot of risk associated with them. They have agency.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 36,
+          "t": [
+            950.815,
+            1014.18
+          ],
+          "quote": "They take action within your environment, within your infrastructure, within your systems. And that's why security teams and governance teams view it as risky to deploy these agents within high impact environments and industries like manufacturing, logistics, financial services, in the public sector. And that's why I've personally been spending my time working on a product called Prediction Guard with a great team of AI engineers. Prediction Guard is an AI control plane that you host within your own environment, whether that's on prem, hybrid, or in your cloud VPC, even air dapped scenarios. You can set custom AI policies or those that are aligned with NIST and OWASP standards, and those are then enforced automatically across every handshake, across every agent, whether that's being powered by your own self hosted models or models in your cloud environment like those from Azure or AWS Bedrock.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1581.98,
+            1621.565
+          ],
+          "quote": "How much of this is us providing AI in a way that is just another thing that they have to add, like a different tool that they have to add in their workflow versus something that actually works in their workflow? And what I mean by that is, you know, if if I'm, to to give an example, you know, we're working with, an organization now. They have teams of translators. We have essentially a team of digital agents that helps translate with a with an agent harness, they use existing tools. They go through the, you know, drafting and quality checking and post editing.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1828.98,
+            1894.2749
+          ],
+          "quote": "Right now, the wrong people are in the driver's seat. We call them the AI excited. The AI excited are the ones who are getting all the attention in the company. They're running down the hall screaming words like nano banana and methos class models, and everyone's just like, Well, they must be the person who should be building things, when in reality, what we see, Daniel, is these people who maybe by definition are often distractible and not very focused on the work, don't know exactly how to align an agent to work in a way that is absolutely uncanny to what the smartest and best and most qualified SMEs inside of that function would call good or accurate or what we want done. And so we say we want to start with, it doesn't need to be this me necessarily, but it needs to be someone who, in the Venn diagram, can replicate the work the company needs done in the way they do it, that honors the brand, and has the aptitude to learn these models, the interest.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 84,
+          "t": [
+            2127.8801,
+            2190.43
+          ],
+          "quote": "Yeah, great. So, you know an L2 is a good one when the SMEs in the area don't complain about whatever AI tool they created, whatever its output is. You know that they are a good L2 candidate when they can align an agent so that when it creates outputs, it feels familiar to the type of work we do, and doesn't require a whole bunch of babysitting and handholding. But also, to back up a little bit, if you think about what that actually means to an organization, and in a minute, I'll give you an example of a project I'm on right now that I think would help you see the value of this instantly. A good L2 is also not only building tools that can address just repeatable work at scale, they're also converting tacit knowledge to documented process.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 95,
+          "t": [
+            2433.045,
+            2449.42
+          ],
+          "quote": "Right? But like you're talking about this document from here to there. Right? That that needs to be done, and that is is maybe a good candidate for, however you frame it. A use of AI, an an agent to take care of it.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集用它举例：一个 L2 判断 400 万美元的文档格式转换「这感觉像一个 Claude skill」，三小时建好、复用已付费的 Claude 一千份并发完成；Mike 还说当 Claude 告诉你某事不可能时，要让它发挥创造力想替代方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            2273.0298,
+            2305.9102
+          ],
+          "quote": "So with one of my clients, let's just say one of the top four pharma companies in the world, they were sitting on a stack of, I can't remember how many thousand documents, they needed converted to look from to look like this to look like this. And I probably can't say too much more about that project, but it was a $4,000,000 job. It was a $4,000,000 job. They knew exactly how much it would cost to convert each one, and it requires SMEs. And an L2 took a look at it and said, This feels like a Claude skill.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2305.9102,
+            2336.1602
+          ],
+          "quote": "Had the Claude skill built within three hours, we drug one of their documents onto that skill, out the other end, squirted almost exactly what we were hoping these things would look like at the end of the process. Of course, everyone's jaw hit their desk. Wait a minute. You're telling me that was gonna be $4,000,000 It needs to be done. And now our Claude, which we've already paid for, you you just drag them on, wait, you can also run a thousand concurrently, and this whole thing could be done in hours?",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 129,
+          "t": [
+            3219.1902,
+            3286.095
+          ],
+          "quote": "And it is very easy to try to use them and just see it doesn't work super well for the thing that you need to get done and give up on it. And I think the thing I'm realizing is that there is massive, massive value in the people who are willing to lean against the brick wall and push and push and push. And believe it or not, you'll start to find ways to use these tools that are hugely informative in spite of the fact that they're so burdened by necessary governance and, you know, rules and restrictions, and why can't we turn that connector on and why can't you know? But, you know, when Claude tells you something's not possible, you know, ask it to get creative and, you know, and or, you know, think through, you know, alternate approaches. I think creative solutioning is going to be really, really valuable over the next two years, three, four, five years before all the wrinkles are ironed out, who knows, Terminators or whatever comes after that.",
+          "speaker": "Mike"
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "type": "concept",
+      "role": "concept",
+      "name": "组织转型 (transformation)",
+      "file": "组织转型",
+      "primary": true,
+      "how_described": "本集的核心议题：企业 AI 转型做不出成果，问题不在工具而在把力气花错了人身上；Tier One 的工作就是帮全球最大组织「重新思考转型」，Mike 主张放弃「全员 AI 化」的威胁式命令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            170.69,
+            197.75
+          ],
+          "quote": "Yeah, sure. So, tier one performance is an end to end organizational performance and transformation partner. What does that mean? We kind of help some of the most of the largest organizations in the world rethink transformation. I would add in, though, that we have a nontraditional approach, a multi decade track record of success there.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 10,
+          "t": [
+            197.75,
+            227.84
+          ],
+          "quote": "So, the types of clients we'd work with day to day would be Google, Eli Lilly, Takeda, Air Force, just most of the Fortune 100s. And we see everything related to transformation. So obviously, AI would just represent a sliver of the types of challenges we encounter as an organization day to day. But that sliver is my whole life, you know? So I don't really see all the other stuff.",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 11,
+          "t": [
+            227.84,
+            249.025
+          ],
+          "quote": "I kind of get a glimpse into it every now and then because more and more AI touches everything. But we are sort of a transformation partner, and so you can just imagine how the phone starts ringing when, you know, a massive disruptive technology is birthed into our lives whether we want it or not. Right?",
+          "speaker": "Mike"
+        },
+        {
+          "seg": 12,
+          "t": [
+            249.025,
+            292.96503
+          ],
+          "quote": "Yeah. And a part of that, I think people are struggling with on the transformation side is there's just so many sources of information. There's so much noise around, like, what you should be paying attention to, what people are actually doing, what, you know, people are saying they're doing, what is hitting the news. Like, there's all sorts of a range of things, and obviously, a lot of that can be noise. And one of the things I've appreciated in interacting with you over time is that ability to kind of pick out some of that signal from the noise and develop some kind of structural ways of thinking about AI and, transformation in an actual real world organizational environment.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "tacit-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐性知识 (tacit knowledge)",
+      "file": "隐性知识",
+      "primary": false,
+      "how_described": "本集说好的 L2 还在「把隐性知识转化为成文的流程」——模型一旦被对齐就有了文档（哪怕以代码形式），这是劳动力老龄化、「别被公交车撞 guy」一走工厂就停摆的解药。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            2127.8801,
+            2190.43
+          ],
+          "quote": "Yeah, great. So, you know an L2 is a good one when the SMEs in the area don't complain about whatever AI tool they created, whatever its output is. You know that they are a good L2 candidate when they can align an agent so that when it creates outputs, it feels familiar to the type of work we do, and doesn't require a whole bunch of babysitting and handholding. But also, to back up a little bit, if you think about what that actually means to an organization, and in a minute, I'll give you an example of a project I'm on right now that I think would help you see the value of this instantly. A good L2 is also not only building tools that can address just repeatable work at scale, they're also converting tacit knowledge to documented process.",
+          "speaker": "Mike"
+        }
+      ]
+    },
+    {
+      "id": "threat-framing",
+      "type": "concept",
+      "role": "concept",
+      "name": "威胁式框定 (threat framing)",
+      "file": "威胁式框定",
+      "primary": false,
+      "how_described": "本集引学习科学研究说「威胁式框定确实会减缓采纳」：把人逼到墙角说「学 AI 否则走人」，学习效果远不如邀请式框定；并以 PC 采用曲线类比，认为 AI 普及会自然发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            1204.1901,
+            1234.1499
+          ],
+          "quote": "And so first of all, you remember I read 200 pages of science, and a lot of it was just about learning. It wasn't even about AI. So threat framing actually does slow down adoption. So if you back someone into a corner and say, Learn this, or there's not room for you here, they will not learn it as well as if you came to them and said, Let's figure this out together if it interests you. And I will acknowledge that there are some positions where you absolutely need an AI enabled individual.",
+          "speaker": "Mike"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SME",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,1169 @@
+{
+  "episode_id": "2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "MCP",
+    "CLI",
+    "智能体",
+    "上下文管理",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jan-urn",
+      "type": "person",
+      "role": "guest",
+      "name": "Jan Čurn",
+      "file": "Jan Čurn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 差不多两年前推出的、安全访问工具和资源、用于智能体与工具交互的标准，被 Claude 和 ChatGPT 采用，社区已有约 1 万到 1.5 万个 MCP 服务器；遭到大量批评，但演讲者认为问题出在 harness 而非协议本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            20.564,
+            22.004
+          ],
+          "quote": "This talk is called MCP doesn't suck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            40.709,
+            45.434
+          ],
+          "quote": "So as you know, MCP is a standard to securely access tools and resources, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            57.086,
+            60.069
+          ],
+          "quote": "And actually, last year, MCP became the darling of the AI world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            76.93,
+            81.133
+          ],
+          "quote": "There were so many MCP servers that people had to create registries of MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            81.153,
+            85.717
+          ],
+          "quote": "And there were so many registries that people had to create even MCP server registry registries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            88.439,
+            91.982
+          ],
+          "quote": "So when MCP connects agents with tools, everybody loves MCP, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            95.925,
+            99.408
+          ],
+          "quote": "Actually, especially last year, there have been a lot of hate about MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            99.428,
+            102.19
+          ],
+          "quote": "Like, for example, Anthropic admits that MCP sucks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            103.306,
+            105.627
+          ],
+          "quote": "From Teo, MCP is the wrong abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            106.348,
+            108.209
+          ],
+          "quote": "Anthropic is trying so hard to fix MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            109.469,
+            110.39
+          ],
+          "quote": "MCP was a mistake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            114.672,
+            115.913
+          ],
+          "quote": "MCP is dead in the water.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            121.376,
+            126.259
+          ],
+          "quote": "There is a reason I didn't add MCP support to OpenClaw, except via MCPorter MCP to CLI converter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            133.238,
+            135.379
+          ],
+          "quote": "Every MCP could have been a deterministic CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            138.421,
+            141.944
+          ],
+          "quote": "And from Gary Tan, who's going to speak today as well, MCP sucks honestly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            143.785,
+            146.027
+          ],
+          "quote": "And Peter Levels, thank god MCP is dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            155.213,
+            158.555
+          ],
+          "quote": "So the most cited problem was like, hey, MCP eats too much context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            161.011,
+            165.253
+          ],
+          "quote": "I mean, the first way how agents implemented MCP was very naive, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            165.273,
+            176.9
+          ],
+          "quote": "They were like, hey, MCP gives you tools, so there is like, if you have 10 MCP servers, it's just like 10 MCP tools, so there's like 100 tools, and agents would register all these tools in the context right away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            180.693,
+            184.714
+          ],
+          "quote": "MCP would already eat 100 tools in your context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            207.073,
+            208.393
+          ],
+          "quote": "But that's not the problem of MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            210.474,
+            217.236
+          ],
+          "quote": "And if you look at the MCP specification, what it says about how you should design the harness, it says absolutely nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            218.857,
+            223.238
+          ],
+          "quote": "So it's your job when you're building your agent to make sure you use MCP effectively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            251.69,
+            258.376
+          ],
+          "quote": "For example, if the MCP tool returns some sensitive results, like password,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            348.833,
+            358.038
+          ],
+          "quote": "Let's not treat MCP tools as functions like you would have to add to the context, but treat them as a code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            378.048,
+            383.911
+          ],
+          "quote": "So let's convert tools, MCP tools and servers, into code and treat it as code, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            423.991,
+            432.074
+          ],
+          "quote": "So still, most agents are living in the dark ages, and they don't support these features, you know, and most MCP clients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            439.718,
+            441.438
+          ],
+          "quote": "You know, why people compare CLIs to MCP?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            500.539,
+            509.525
+          ],
+          "quote": "So, you know, it's basically like code mode, like, it's available to CLI's from scratch, while MCP only had to, like, sort of, like, grow into it, you know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            605.779,
+            607.18
+          ],
+          "quote": "But for remote access, MCP is better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            613.005,
+            613.885
+          ],
+          "quote": "You have MCP connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            614.606,
+            623.653
+          ],
+          "quote": "So how about we use MCP for standard remote access and CLI for local agent access, local agent interface with all the goodies that I described?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            624.493,
+            628.576
+          ],
+          "quote": "Well, that way, you can provide all the protocol features of MCP",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            634.8,
+            643.409
+          ],
+          "quote": "So basically the full complexity of MCP is hidden behind single tool call, Bash, and you don't need to worry about the sessions, authorization, all out, nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            644.309,
+            651.597
+          ],
+          "quote": "So ladies and gentlemen, let me introduce you MCPC, which is like our universal CLI client for MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            674.193,
+            681.217
+          ],
+          "quote": "So the design goes for MCPC, where, hey, we really want to support everything the MCP protocol has to offer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            690.687,
+            691.868
+          ],
+          "quote": "MCP is like super lightweight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            693.149,
+            699.355
+          ],
+          "quote": "It's just a wrapper, it's a CLI wrapper over the MCP protocol that sort of like abstracts away the protocol thing, but nothing else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            717.653,
+            719.414
+          ],
+          "quote": "Again, MCP specification compliant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            771.269,
+            774.111
+          ],
+          "quote": "So here I'm connected to MCP server called Filesystem, FS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            797.19,
+            799.972
+          ],
+          "quote": "And then I can also connect to remote MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            802.413,
+            804.254
+          ],
+          "quote": "So let's say apify MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            828.915,
+            832.477
+          ],
+          "quote": "So let me connect to Appify MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            840.818,
+            844.861
+          ],
+          "quote": "Actually, MCP protocol has instructions where server kind of explains what it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            850.265,
+            851.526
+          ],
+          "quote": "MCP supports it, of course.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            856.311,
+            860.758
+          ],
+          "quote": "So now, when I run MCPC, I see I have three MCP sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            899.822,
+            911.69
+          ],
+          "quote": "And I see there is the FS, the file system MCP server, has three tools that match this search string, and Apify has four.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            923.383,
+            927.186
+          ],
+          "quote": "And actually MCP protocol has this new feature called asynchronous tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            974.157,
+            987.762
+          ],
+          "quote": "And actually, you can use the dash dash JSON command to return everything in JSON and then pipe these together to create basically like shell scripts that run MCP servers in the background without wasting your context tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1014.642,
+            1021.686
+          ],
+          "quote": "But also, we wanted to understand what is the performance of the MCP, MCPC versus Native CLIs, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1044.957,
+            1049.158
+          ],
+          "quote": "Is it more effective to use CLI or MCP or MCPC or whatever tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1069.046,
+            1079.634
+          ],
+          "quote": "And you can see that MCPC and CLI are actually performing pretty similarly, while raw MCP finished faster for whatever reason, but actually consumed more tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1084.659,
+            1086.1
+          ],
+          "quote": "Raw MCP performs worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1098.044,
+            1101.787
+          ],
+          "quote": "So please stop saying CLI is better than MCP because MCP plus CLI is the best.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "本集说 CLI 天生具备渐进式加载、默认当作代码运行（自带 CodeMode）、Shell 被 40 年训练数据打磨这三个优势；但它是没有标准输出协议、无法注入凭证的本地黑盒，只适合本地接口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            116.573,
+            119.555
+          ],
+          "quote": "OpenClaw has shown me that API and CLI will win.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            121.376,
+            126.259
+          ],
+          "quote": "There is a reason I didn't add MCP support to OpenClaw, except via MCPorter MCP to CLI converter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            133.238,
+            135.379
+          ],
+          "quote": "Every MCP could have been a deterministic CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            442.479,
+            446.501
+          ],
+          "quote": "Well, actually, agents never load the full CLI into context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            450.192,
+            453.954
+          ],
+          "quote": "All the commands of the CLI tool, like, find a help and put it in the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            458.115,
+            462.117
+          ],
+          "quote": "So the agent is calling the CLI tool only when needed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            472.321,
+            476.943
+          ],
+          "quote": "But also they can, like, learn about the tools, the CLI tools from help because there is help.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            479.978,
+            483.499
+          ],
+          "quote": "Agents run CLI tools as code by default, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            484.159,
+            491.062
+          ],
+          "quote": "So, in order to run CLI tools, you have to have some runtime, like sandbox or machine that you can run the commands in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            491.742,
+            496.264
+          ],
+          "quote": "So, and when you invoke these CLI tools, I mean, it's code mode by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            500.539,
+            509.525
+          ],
+          "quote": "So, you know, it's basically like code mode, like, it's available to CLI's from scratch, while MCP only had to, like, sort of, like, grow into it, you know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            552.788,
+            556.47
+          ],
+          "quote": "They really know how to call CLI commands, how to pipe them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            607.48,
+            611.383
+          ],
+          "quote": "I mean, I have to see some agent using CLI connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            614.606,
+            623.653
+          ],
+          "quote": "So how about we use MCP for standard remote access and CLI for local agent access, local agent interface with all the goodies that I described?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            644.309,
+            651.597
+          ],
+          "quote": "So ladies and gentlemen, let me introduce you MCPC, which is like our universal CLI client for MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            693.149,
+            699.355
+          ],
+          "quote": "It's just a wrapper, it's a CLI wrapper over the MCP protocol that sort of like abstracts away the protocol thing, but nothing else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            719.794,
+            731.899
+          ],
+          "quote": "So actually, you can compose the different CLI calls together with tools like JQ, pipe them together, and really build sequences of tools, of tool calls in code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1044.957,
+            1049.158
+          ],
+          "quote": "Is it more effective to use CLI or MCP or MCPC or whatever tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1069.046,
+            1079.634
+          ],
+          "quote": "And you can see that MCPC and CLI are actually performing pretty similarly, while raw MCP finished faster for whatever reason, but actually consumed more tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1081.856,
+            1084.258
+          ],
+          "quote": "Again, MCPC and CLI are fairly comparable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1098.044,
+            1101.787
+          ],
+          "quote": "So please stop saying CLI is better than MCP because MCP plus CLI is the best.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说「MCP 吃上下文」其实是 harness（智能体执行框架）的问题——MCP 规范对如何设计 harness 只字未提，全量注册工具定义是构建智能体时的失职。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            208.694,
+            210.114
+          ],
+          "quote": "That's the problem of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            210.474,
+            217.236
+          ],
+          "quote": "And if you look at the MCP specification, what it says about how you should design the harness, it says absolutely nothing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说把任务委托给子智能体可以避免污染主上下文窗口，但 token 开销照付，敏感信息（如密码）仍会留在上下文中被滥用，问题只是往后推了一点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            236.436,
+            241.2
+          ],
+          "quote": "You can basically delegate it to a new sub-agent when it's on context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-tool-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式工具发现 (Progressive Tool Discovery)",
+      "file": "渐进式工具发现",
+      "primary": true,
+      "how_described": "本集说是 Anthropic 随后 Cursor 在去年年底引入的方案，如 Claude 的 Tool Search Tool——只在需要时把一两个工具加进上下文，省下大量上下文、更快更便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            280.609,
+            287.318
+          ],
+          "quote": "I think it was end of the last year, I think first Anthropic and then Cursor introduced something which is called Progressive Tool Discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            886.103,
+            890.066
+          ],
+          "quote": "And I was mentioning the progressive tool discovery, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codemode",
+      "type": "concept",
+      "role": "concept",
+      "name": "CodeMode",
+      "file": "CodeMode",
+      "primary": true,
+      "how_described": "本集说是 Cloudflare 去年年底引入的思路，把 MCP 工具不当函数、而当代码来对待；因为模型写代码、调代码比调用工具更强，工具调用是真实训练数据中不存在的人工构造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            345.169,
+            346.23
+          ],
+          "quote": "It's called CodeMode, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool calling)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "本集说工具调用是一种人工构造，现实训练数据里根本不存在，必须合成数据喂给模型，所以模型写代码、调代码比调用工具更在行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            388.613,
+            398.938
+          ],
+          "quote": "Models are better at writing and calling code than calling tools because tool calling is an artificial construct, basically, that we have to teach the LLMs to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说运行 CLI 工具需要某种运行时，比如沙箱或机器；MCPC 还提供用于沙箱的特殊命令（proxies）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            484.159,
+            491.062
+          ],
+          "quote": "So, in order to run CLI tools, you have to have some runtime, like sandbox or machine that you can run the commands in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说早期智能体一接 MCP 就注册 100 个工具，提问前就吃掉三分之一的上下文窗口；上下文越长准确性越差、成本越高，且是传递敏感信息的糟糕场所。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            241.541,
+            243.422
+          ],
+          "quote": "So basically, it doesn't pollute the main context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcpc",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCPC",
+      "file": "MCPC",
+      "primary": true,
+      "how_described": "本集介绍 MCPC 是 Apify 发布的 MCP 通用 CLI 客户端，始于十二月的业余项目（「Claude 之冬」）；它是 MCP 协议之上的轻量包装、无 LLM，支持 --json、异步任务、会话持久化、X402 钱包管理等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            644.309,
+            651.597
+          ],
+          "quote": "So ladies and gentlemen, let me introduce you MCPC, which is like our universal CLI client for MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            660.824,
+            669.75
+          ],
+          "quote": "And from a hobby project, it actually evolved into probably the most feature-rich MCPC-like line on the market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            674.193,
+            681.217
+          ],
+          "quote": "So the design goes for MCPC, where, hey, we really want to support everything the MCP protocol has to offer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            709.41,
+            717.113
+          ],
+          "quote": "And actually, every command in MCPC has an option to run with dash dash JSON, which returns just pure JSON representation of the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            738.961,
+            742.304
+          ],
+          "quote": "So here is the basic interface of MCPC, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            816.289,
+            828.215
+          ],
+          "quote": "So now the MCPC is logged in and basically it's securely saved the credentials into your local OS keychain so we can now use them to connect securely to different resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            856.311,
+            860.758
+          ],
+          "quote": "So now, when I run MCPC, I see I have three MCP sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            861.639,
+            863.582
+          ],
+          "quote": "Actually, MCPC persists those sessions, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            890.406,
+            892.367
+          ],
+          "quote": "So MCPC has this command called grep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            949.764,
+            955.727
+          ],
+          "quote": "So again, MCPC is one of the few clients that supports asynchronous tasks, which is pretty cool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            998.001,
+            1002.423
+          ],
+          "quote": "So we added it to MCPC as well because we are supporting X402 now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1014.642,
+            1021.686
+          ],
+          "quote": "But also, we wanted to understand what is the performance of the MCP, MCPC versus Native CLIs, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1044.957,
+            1049.158
+          ],
+          "quote": "Is it more effective to use CLI or MCP or MCPC or whatever tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1069.046,
+            1079.634
+          ],
+          "quote": "And you can see that MCPC and CLI are actually performing pretty similarly, while raw MCP finished faster for whatever reason, but actually consumed more tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1081.856,
+            1084.258
+          ],
+          "quote": "Again, MCPC and CLI are fairly comparable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "appify",
+      "type": "company",
+      "role": "company",
+      "name": "Appify",
+      "file": "Appify",
+      "primary": true,
+      "how_described": "本集说演讲者 Jan Cern 是 Apify 的创始人兼 CEO，本集发布的 MCPC 与 Connector Evals 是他们的作品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.104,
+            25.365
+          ],
+          "quote": "I'm the founder and CEO of Appify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            828.915,
+            832.477
+          ],
+          "quote": "So let me connect to Appify MCP server.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 差不多两年前推出了 MCP 标准，并在 Claude 中引入 Tool Search Tool 实现渐进式工具发现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            49.979,
+            54.063
+          ],
+          "quote": "And it's been introduced by Anthropic about almost two years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            99.428,
+            102.19
+          ],
+          "quote": "Like, for example, Anthropic admits that MCP sucks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            106.348,
+            108.209
+          ],
+          "quote": "Anthropic is trying so hard to fix MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            280.609,
+            287.318
+          ],
+          "quote": "I think it was end of the last year, I think first Anthropic and then Cursor introduced something which is called Progressive Tool Discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            304.651,
+            309.992
+          ],
+          "quote": "So for example, Anthropic in Claude introduced this tool, just called Tool Search Tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "本集说 Cloudflare 在去年年底引入 CodeMode，但其实现与自家平台绑死，除了示例没多少人真在用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            339.566,
+            344.509
+          ],
+          "quote": "And then solution number three, also introduced end of last year by Cloudflare.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "connector-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "Connector Evals",
+      "file": "Connector Evals",
+      "primary": true,
+      "how_described": "本集说他们构建了 Connector Evals 评测框架，反常规地不比智能体、而比连接器；初步结果显示 MCPC 和 CLI 表现接近，原始 MCP 虽完成更快但消耗更多 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1022.186,
+            1026.109
+          ],
+          "quote": "So we build this new framework called Connector Evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

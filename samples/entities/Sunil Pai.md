@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Thomas Ankcorn]] · [[Matt Carey]] · [[Cloudflare]] · [[code mode]] · [[MCP]] · [[智能体]] · [[沙箱]] · [[可观测性]] · [[pie]] · [[Cloudflare Worker]]
+[[Thomas Ankcorn]] · [[Matt Carey]] · [[Cloudflare]] · [[code mode]] · [[MCP]] · [[智能体]] · [[沙箱]] · [[可观测性]] · [[pie]] · [[工具调用]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":13,"code mode":2,"MCP":73,"智能体":405,"沙箱":74,"可观测性":36,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":14,"code mode":2,"MCP":76,"智能体":411,"沙箱":76,"可观测性":37,"pie":1,"工具调用":4}</script>
 
 <script>
 (function(){

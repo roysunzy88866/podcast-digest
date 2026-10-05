@@ -253,9 +253,9 @@ GPT-4 时代定下的安全政策没有为此更新过，「看趋势线，我�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:思维链 (chain of thought)、智能体 (agent)、评估 (evaluation)、沙箱 (sandbox)</span>
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

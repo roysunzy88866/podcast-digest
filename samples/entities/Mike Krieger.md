@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
+[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":173,"Claude":88,"Claude Code":94,"tag":1,"Instagram":7,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":405,"代码审查":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":175,"Claude":90,"Claude Code":94,"tag":1,"Instagram":7,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":411,"代码审查":23}</script>
 
 <script>
 (function(){

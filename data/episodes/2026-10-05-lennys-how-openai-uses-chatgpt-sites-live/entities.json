@@ -1,0 +1,1181 @@
+{
+  "episode_id": "2026-10-05-lennys-how-openai-uses-chatgpt-sites-live",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-10-05",
+  "tags": [
+    "AI 编程",
+    "一次性软件",
+    "智能体",
+    "个人软件",
+    "产品演示"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kath-korevec",
+      "type": "person",
+      "role": "host",
+      "name": "Kath Korevec",
+      "file": "Kath Korevec",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集在 OpenAI Dev Day 现场录制;Kath 是 OpenAI sites 产品负责人,sites 发布两个月在 OpenAI 内部爆发式增长,连主题演讲幻灯片都是 ChatGPT 站点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            63.183,
+            66.906
+          ],
+          "quote": " Welcome to How I AI today here at OpenAI Dev Day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            105.284,
+            107.325
+          ],
+          "quote": "We've been using it at OpenAI for...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            342.844,
+            348.428
+          ],
+          "quote": "OpenAI, Dropbox, and Ramp already use Merge to move fast and build AI right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            494.147,
+            498.75
+          ],
+          "quote": " If I share this with other teams at OpenAI, they will see content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成:sites 是『用 ChatGPT 和 Codex 构建的东西』;sites 正试验把推理带进站点,让玩家在游戏里直接唤起 ChatGPT 去改东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.213,
+            17.076
+          ],
+          "quote": " So if you are looking to build something in ChatGPT",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            124.089,
+            125.59
+          ],
+          "quote": "That was a ChatGPT site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1563.298,
+            1566.719
+          ],
+          "quote": "And then be able to ask ChatGPT to, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1568.78,
+            1571.5900000000001
+          ],
+          "quote": "like, design mode or whatever and ask ChatGPT to do things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1589.864,
+            1592.2150000000001
+          ],
+          "quote": "It's going to take me back to ChatGPT right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是与 sites 配合建站、『真的能理解你的意图』、深入剖析提示词的构建工具;skill 的分发模式是『下载这个 skill,Codex 会替你在游戏里构建』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            17.176,
+            18.057
+          ],
+          "quote": " and Codex and you're like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            408.766,
+            413.028
+          ],
+          "quote": " is the beauty of Sites and Codex is that Sites is really,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            424.074,
+            426.718
+          ],
+          "quote": " It works with Codex to build the entire site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            426.778,
+            431.125
+          ],
+          "quote": "And so the wonderful thing about Codex is it really understands like the intent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            505.095,
+            509.3727777777778
+          ],
+          "quote": "And so if it's like the Codex team or if it's the identity team or something,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            688.733,
+            693.3996666666666
+          ],
+          "quote": "okay, so we built it to be able to put software someplace that you build with Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            695.455,
+            700.339
+          ],
+          "quote": "We were asking Codex to build websites and it would build things and put it locally",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1067.887,
+            1071.629
+          ],
+          "quote": "You can pick a Codex pet, you can create your own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1251.614,
+            1257.537
+          ],
+          "quote": "It's another thing to say, like, download this skill and Codex will build into the game for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1261.864,
+            1267.286
+          ],
+          "quote": " Codex browser in one window, Codex in the other window, like using the app through Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            1621.492,
+            1623.335
+          ],
+          "quote": "Like how much of mommy's codex subscription?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1628.876,
+            1632.797
+          ],
+          "quote": "It's like the family plans, like family minutes for your codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            1925.874,
+            1929.638
+          ],
+          "quote": "and I are twin stars circling around our codex site.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2017.535,
+            2022.78
+          ],
+          "quote": "You know, they may be inspired by something Codex wrote because I do use it all the time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sites",
+      "type": "company",
+      "role": "company",
+      "name": "sites",
+      "file": "sites",
+      "primary": true,
+      "how_described": "本集说 sites 是 OpenAI 的站点产品:一键托管上线、自带 D1 数据库和 R2 存储、可共同编辑,既是建网站的地方也是托管插件/数据/eval 的基础设施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.071,
+            2.825
+          ],
+          "quote": " We just launched something today, which is plugins and sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            52.269,
+            56.602333333333334
+          ],
+          "quote": " What are other ways you can use the sort of like infrastructure side of sites",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            66.986,
+            70.308
+          ],
+          "quote": "I'm here with Kat, product lead for sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            71.67,
+            78.67
+          ],
+          "quote": "And I was showing her some of my sites earlier and we are sites twins in a lot of ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            79.676,
+            86.021
+          ],
+          "quote": "So I'm really excited for Kat to show us what sites are, how she uses them across work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            99.402,
+            101.29088888888889
+          ],
+          "quote": "So sites works obviously for work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            131.673,
+            134.014
+          ],
+          "quote": "that my team, the sites team, uses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            149.285,
+            152.637
+          ],
+          "quote": "which is plugins and sites, which Sam talked about at the keynote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            280.617,
+            285.04
+          ],
+          "quote": "So that's just like one way that we're using plugins and sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            357.261,
+            359.532
+          ],
+          "quote": "especially when sites first came out, were like, okay, great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            408.766,
+            413.028
+          ],
+          "quote": " is the beauty of Sites and Codex is that Sites is really,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            414.169,
+            416.57
+          ],
+          "quote": "one of the reasons why we built Sites is because we wanted a place",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            469.148,
+            472.912
+          ],
+          "quote": "Can you use plugins in sites to build this site?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            482.167,
+            484.932
+          ],
+          "quote": " Like, do they get different data in their sites than",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            615.052,
+            616.293
+          ],
+          "quote": "And sites is the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            633.7,
+            636.464
+          ],
+          "quote": "Sites does come with D1 data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            670.829,
+            674.089
+          ],
+          "quote": "I want to talk really quickly about sites as infrastructure because we talked",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            675.03,
+            678.971
+          ],
+          "quote": "So you just like kind of prattled off very casually some of the components in sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            680.431,
+            684.072
+          ],
+          "quote": "but what are other ways you can use the sort of like infrastructure side of sites",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            687.392,
+            688.683
+          ],
+          "quote": "The cool thing about sites is that,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            713.266,
+            718.509
+          ],
+          "quote": "And what we saw was that people were using sites for, yes,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            730.375,
+            736.42
+          ],
+          "quote": "We announced today that you can actually host MCP plugins through sites and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            736.46,
+            738.782
+          ],
+          "quote": "then use those for your sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            742.205,
+            744.6170000000001
+          ],
+          "quote": "that we're kind of building into the workflow of sites itself",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            744.667,
+            748.8000000000001
+          ],
+          "quote": "because sites can be used to build a website and then also as infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            808.018,
+            811.379
+          ],
+          "quote": "to instruct sites on how I wanted this thing to come about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            978.07,
+            981.6811111111111
+          ],
+          "quote": " OK, well, we'll find some afterwards and we'll build some sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            987.592,
+            991.872
+          ],
+          "quote": "about our different Approaches to it, which is just games and sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1008.701,
+            1012.602
+          ],
+          "quote": "Two, now with sites, like you have a place that you can stick it and other people know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1330.933,
+            1333.914
+          ],
+          "quote": "I'm kind of like how I'll talk about awesome sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1333.934,
+            1335.9260000000002
+          ],
+          "quote": "You kind of like how awesome sites use works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1554.016,
+            1557.757
+          ],
+          "quote": "One of the things we're playing around with sites is this ability",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1655.038,
+            1658.741
+          ],
+          "quote": "in sites versus like this needs to be deployed in some cloud somewhere and you need",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1729.433,
+            1732.314
+          ],
+          "quote": "one of the reasons why we built sites is so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1806.644,
+            1809.188
+          ],
+          "quote": "And then you have a gallery of sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            1809.689,
+            1810.42
+          ],
+          "quote": "Awesome sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            1810.47,
+            1811.402
+          ],
+          "quote": "Awesome sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            1815.678,
+            1819.4002222222223
+          ],
+          "quote": " Okay, so I basically took awesome lists and I built awesome sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1819.544,
+            1823.8
+          ],
+          "quote": "I asked the community, what are some of the sites that you guys have been building?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            1823.85,
+            1830.58
+          ],
+          "quote": "And use hashtag awesome sites, DM me, send it to me in Twitter, send it to me however you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 582,
+          "t": [
+            1832.36,
+            1835.661
+          ],
+          "quote": "So they sent me a whole bunch of awesome sites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            1852.144,
+            1854.844
+          ],
+          "quote": " with sites that actually works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1911.3,
+            1914.042
+          ],
+          "quote": "So it's awesome-sites.awesomesites.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2064.643,
+            2067.345
+          ],
+          "quote": "Thank you for showing us all your sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2067.425,
+            2069.306
+          ],
+          "quote": "We covered sites for work,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2069.566,
+            2071.527
+          ],
+          "quote": "sites for your algorithm,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2072.588,
+            2076.83
+          ],
+          "quote": "and then sites for fun and profit, which is what I'm calling awesome sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2094.166,
+            2095.1969999999997
+          ],
+          "quote": "Or feedback on sites.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "type": "concept",
+      "role": "concept",
+      "name": "connectors",
+      "file": "connectors",
+      "primary": true,
+      "how_described": "本集把它说成:打通 Notion、Slack、日历等外部工具的数据通道;发布的是 plugins and sites——访问者用『自己连接的插件』,同一个站点各看各的数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            187.445,
+            188.445
+          ],
+          "quote": "of my connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            376.446,
+            380.767
+          ],
+          "quote": "is you can inherit connectors as sources of data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            444.803,
+            449.027
+          ],
+          "quote": "It will make the assumption that it wants to use connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            452.952,
+            458.2853333333333
+          ],
+          "quote": "And so then it might ask you a question like, hey, do you want to use plugin connectors in this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            544.592,
+            547.105
+          ],
+          "quote": " Connectors that you go to over and over to build stuff with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            953.176,
+            957.1080000000001
+          ],
+          "quote": "like, Consumery connectors that you think people should pay attention to?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "skill",
+      "file": "skill",
+      "primary": true,
+      "how_described": "本集把它说成:一段可安装的说明书/技能(如 Dungeon Sight),定义房间尺寸、玩家、控制方式,任何人装上就能用模型生成自己的游戏房间——被主持人称为『用 skill 分发游戏使用方式』的新分发模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1107.472,
+            1111.7050000000002
+          ],
+          "quote": "And so I put instructions here about how to use a skill called Dungeon Sight,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1118.811,
+            1122.135
+          ],
+          "quote": "You go and install the dungeon site skill,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1122.676,
+            1125.5648888888888
+          ],
+          "quote": "and basically the dungeon site skill is just saying,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1204.552,
+            1205.724
+          ],
+          "quote": "But that's in the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1237.649,
+            1244.172
+          ],
+          "quote": "One, I think this is really interesting as it's a skill to distribute like usage for",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1251.614,
+            1257.537
+          ],
+          "quote": "It's another thing to say, like, download this skill and Codex will build into the game for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1317.833,
+            1322.088
+          ],
+          "quote": "wouldn't have any Insight into like who is building and using this skill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集把它说成:让模型直接操作电脑界面的能力;Kath 的 heavy rotation 网站用它去 Reddit 查看人们在分享和投票什么音乐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            842.123,
+            848.265
+          ],
+          "quote": "So I so I have it go to Reddit and use computer use to look at what people are sharing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            924.22,
+            925.621
+          ],
+          "quote": "It uses computer use,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 sites 正在试验『把你的推理带进站点』(bring your inference into the site),让玩家在游戏里直接唤起 ChatGPT 改东西,比如给孩子设游戏额度让他们在游戏里提需求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 472,
+          "t": [
+            1557.817,
+            1560.398
+          ],
+          "quote": "to bring your inference into the site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1592.265,
+            1597.786
+          ],
+          "quote": "So we are playing around with ways to get inference into the site to bring your inference in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1600.686,
+            1602.717
+          ],
+          "quote": "the game can bring their inference in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1632.837,
+            1636.608
+          ],
+          "quote": "Yeah, I think bringing in inference is going to be really interesting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            730.375,
+            736.42
+          ],
+          "quote": "We announced today that you can actually host MCP plugins through sites and",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集说事故指挥站点接到 Notion 后,能直接打开运行手册和响应指南;Kath 也常去 Notion 协作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.055,
+            34.098
+          ],
+          "quote": " Like I need the Notion API or I need the Slack API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            174.08,
+            176.922
+          ],
+          "quote": "And so I have this hooked up to Notion and Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            268.436,
+            271.527
+          ],
+          "quote": "And so I had it from Notion go through and pull in like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            276.293,
+            280.567
+          ],
+          "quote": "So this will actually open up the runbooks and guides and things in Notion if I want to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            441.058,
+            444.61355555555554
+          ],
+          "quote": "in Notion documents and cross-reference that across my calendar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            555.503,
+            557.305
+          ],
+          "quote": "I go to Notion a lot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说站点看她来自哪个 Slack 频道、推断她是 sites 团队的人;Kath 明令禁止模型替她在 Slack 上署名发消息以守护自己的声音",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.055,
+            34.098
+          ],
+          "quote": " Like I need the Notion API or I need the Slack API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            174.08,
+            176.922
+          ],
+          "quote": "And so I have this hooked up to Notion and Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            188.806,
+            193.007
+          ],
+          "quote": "And it actually looks at which Slack channel I'm coming from and approving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            193.047,
+            200.047
+          ],
+          "quote": "And so I approve my site's private, my site's feedback, all of my site's Slack channels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            553.721,
+            555.443
+          ],
+          "quote": "I go to Slack a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2028.11,
+            2032.002
+          ],
+          "quote": "I recently had a bot start writing slacks for me in my community slack,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": false,
+      "how_described": "本集说 Kath 的 Spotify 被两个孩子接管(Bluey 和芝麻街);她把它当播放器接进 heavy rotation 网站,每周一自动生成播放列表",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            766.662,
+            769.284
+          ],
+          "quote": "pristine Spotify playlist,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            778.015,
+            781.758
+          ],
+          "quote": "And so I want you to walk through your Spotify being taken over by other people",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            783.399,
+            787.463
+          ],
+          "quote": "OK, so my Spotify has been taken over by my children.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            868.467,
+            873.8003333333334
+          ],
+          "quote": "So this is running off of, it's also pulling in from, so the player is actually running Spotify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            894.188,
+            899.59
+          ],
+          "quote": "And so I didn't realize that Spotify was a plugin that you could use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            909.492,
+            911.835
+          ],
+          "quote": "I'm just using Spotify like as the player.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            932.625,
+            936.747
+          ],
+          "quote": "So I have it using Spotify for the actual player,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            2120.116,
+            2125.657
+          ],
+          "quote": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "eval",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

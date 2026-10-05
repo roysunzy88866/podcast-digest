@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":405,"智能体视频剪辑":1,"沙箱":74,"Remotion":1,"技能":26}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":411,"智能体视频剪辑":1,"沙箱":76,"Remotion":1,"技能":28}</script>
 
 <script>
 (function(){

@@ -128,7 +128,7 @@ Prakash 认为算力受限的中国公司会更早发现，因为它们会紧密
 
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:RL、智能体 (agent)、后训练 (post-training)</span>
 - [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:RL、智能体 (agent)、后训练 (post-training)</span>
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|Stripe 联创 John Collison:智能体商务是一次彻底的重构]]<span class="pd-rz">同概念:智能体 (agent)、递归自我改进 (recursive self-improvement)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

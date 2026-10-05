@@ -1,0 +1,160 @@
+{
+  "title_zh": "首席 AI 官生存指南：科学家、架构师、教练",
+  "tldr": "WSO2 首席 AI 官 Rania 分享这个新职位的真实工作内容：如何拆解职责、衡量什么、以及为什么它因公司和人而天差地别。",
+  "digest_md": "这一集是一场关于「首席 AI 官」(Chief AI Officer)这个新职位的实战分享，讲者 Rania 在这个职位上干了将近两年、做过它的一些变体约五年，她此前在 IBM 研究院待了 20 年、管理全球研究 AI 组织的大约三分之一，现在在开源软件公司 WSO2 任首席 AI 官。她开场甩的第一个数据就把这个职位的爆发速度摆出来了：据她引用的 IBM 研究，设这个职位的公司 2024 年是 11%,之后一年是 26%,「现在」已经是 76%——相隔一年的几期研究，曲线陡得吓人。[02:17 Rania]\n\n但这个职位棘手就棘手在：AI 无处不在。「这有点像在说数字化，或者说电力——它存在于一切事物之中，它可以成为很多东西，这可能会让人非常不知所措。」[02:37 Rania] 所以她的核心经验是：必须有很强的自律，把它拆成三个重点领域。\n\n## 三个角色：科学家、架构师、教练\n\n**科学家**——探索、实验、构建。Rania 的判断很坚决：在技术移动得这么快的 AI 世界里，「你必须始终让你的团队中有一部分人在实验、了解新东西、尝试它们，并看看它们如何适配，我不认为有什么办法可以绕过这一点」。[05:59 Rania] 这个角色的另一端则是创造者-发明者，深入到发明新算法的层面。\n\n**架构师**——也在构建，但更多做战略。这里有一个她自己都被惊讶到的发现：她收到过一封「面向首席 AI 高管的 AI 教育」的邮件，第一反应是「等等，什么？你不了解 AI 怎么得到这份工作的？」[06:34 Rania] 后来她明白了：有些公司的首席 AI 官其实是个「管家」——管预算、给项目排优先级、分配资源、做项目管理、汇报结果。「你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者。」[06:56 Rania] 而另一端是她自己在做的事：塑造整个公司的战略，重新发明生产力方式、产品、战略和 go-to-market。\n\n**教练**——这个角色让她意外。「教练这个角色让我挺意外的。我忘了你真的必须花大量时间去布道、教育、分享、过度沟通你在做的事情」——不仅对员工，还对客户。[04:19 Rania] 一个实操细节：让员工自己去发现幻觉(模型一本正经编造事实的现象)这类问题，「你可以解释到你口干舌燥，但人们只有亲身经历过才会相信」。[07:28 Rania] 公司 AI 成熟度越高，教练工作越向外——对客户、对社区。她还用 Claude 和 Gemini 分析了这个职位上的人群简历和招聘帖，结果验证了：这个职位长什么样，真的取决于人本身。[08:07 Rania]\n\n## 她自己的两段经历：同一个职位，两份完全不同的工作\n\n离开 IBM 后，她加入剑桥地区一家做农业的生物科技独角兽，用 CRISPR(一种精准修改基因的技术)改造玉米、大豆、小麦。做基因实验要 10 年时间和大量土地来验证，所以「帮助科学家对要做什么编辑做出更好的假设」就成了 AI 进门的方式。[08:57 Rania] 结果职责迅速膨胀——公司里没什么工程技术人员，IT 也交给了她，还要雇 CISO(首席安全官)。她最后把公司做成了彻头彻尾的 AWS 用户、买了 Databricks,一边给基因发现写新算法，一边做从 Box 迁到 Microsoft 这类 IT 活。「挺有意思的，但不是我的乐趣和热情所在。」[09:52 Rania]\n\n一个很好的例子说明「AI 官」该知道什么时候不用 AI:科学家假设玉米胚的大小能预测基因编辑下一步的成功率，但人工测量太贵，来找她要 AI。她硕士读的是计算机视觉，一看就说：「当然可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，你只需要基础计算机视觉。」[12:06 Rania] 用一个极简单的算法，效果非常好。而基因发现那部分，才真正用了 BERT 之类的模型。\n\n现在在 WSO2,她的配比大约是 20% 科学家、60% 架构师、20% 教练。[10:13 Rania] 公司约 75% 是技术人员、员工极好奇，「如果你不好奇，你可能待不了多久」——所以她几乎不用向内辅导，大量做向外辅导。她总结判断这个职位的三个维度：这家公司是否售卖软件？人员构成是否主要技术？以及处在 AI 旅程的哪个阶段？[12:40 Rania]\n\n## 衡量什么：拒绝 token 数\n\n有人让她衡量 token 消耗来看「用了多少 AI」,她拒绝了：「它太容易被操纵了」。[12:55 Rania] 她看的是这几样：**员工 AI 素养**——是不是只有少数人懂 AI、聚在一个卓越中心里，人人做事都得找他们？还是市场部、各个工程团队都有「构建者」？她现在的结构是：小型中央 AI 团队 + 每个产品设一位 AI 负责人 + 每个产品团队都有人做 AI 能力。[13:39 Rania] **采用程度**——是只做清理邮件、代码补全这种简单任务，还是改变整个工作流，或者像她几个团队那样配上「智能体员工」(可实例化、和团队并肩工作的智能体)，这是一个光谱。[14:04 Rania] **工具可用性**，以及 **GEO 可见性**(生成式引擎优化)——LLM 能找到你们吗？搜索时它们知道你们是做什么的吗？她笑引昨天有人吐槽：网页已经变成给智能体看的了、对人类不可读，「所以我打算让我的 LLM 替我阅读和总结，从今以后我只和人类交流」。[15:01 Rania]\n\n她的核心提醒：「要好好思考你衡量什么，因为你衡量什么就会得到什么。你一旦开始衡量某个东西，所有人都会为它去优化。」[17:34 Rania] 而且这份清单应该随时间变化。\n\n## 在软件公司做 AI 战略：让产品能被智能体使用\n\n对 WSO2(约 20 年历史、ARR 约 1.5 亿美元、100% 开源、产品覆盖六大洲 90 多个国家)来说，战略主线是：让所有产品「能被智能体和 LLM 消费」。去年给所有产品加了对智能体、LLM 和工具的一等支持；今年确保每个产品都能被智能体使用——每个东西都要有 MCP server(让智能体调用工具的标准接口)、skills 和 CLI 等。[15:23 Rania] 还有「智能体防备型定价」：按席位收费的模式，当智能体把消费量打爆时会发生什么？所以他们的定价全部基于消费量。[15:40 Rania] 再加上自用自家技术栈并闭环反馈——她听说有的公司强制客户用产品却没人接反馈，「希望我们不仅让人们使用我们的东西，而且是在他们喜欢、并且产品对他们有帮助的时候使用」。[16:05 Rania]\n\n具体到产品：LLM AI API 归根结底就是 API,但需要不同的管理方式——所以在 API 平台里放 AI 网关；身份平台本来就会为人类做强大的身份和访问管理，那么现在为智能体做，于是有了智能体身份；今年发布了智能体平台，整合这一切、管理智能体的整个生命周期。[18:39 Rania] 科学家侧，小研究团队今年发了三篇论文，其中两篇是和斯里兰卡本科生的合作、那是他们人生第一篇论文，还拿了一个最佳论文奖。[19:22 Rania]\n\n## 收尾的实在建议\n\n没有银弹，一切取决于公司。她想给的第一条建议：**必须有 CEO 的强力支持和紧密关系**，「因为你将不得不和公司里很多其他部门非常紧密地合作」。[20:11 Rania] 她还见过各种变体：AI 前瞻的公司里首席产品官和首席 AI 官是同一个人；也有非软件公司让 HR 负责人变成 AI 负责人——理由是「智能体是劳动力，HR 来管理它们」。「我不知道我对此是什么感受。」[20:48 Rania]\n\n最后她送给想走这条路的人一个框架：想想你擅长什么、热爱什么、世界需要什么、你能靠什么获得报酬，找到交集。因为这个职位仍然非常流动，如果你对它感兴趣，试着把它塑造成以你为中心、让你快乐的形状。[21:30 Rania]\n\n## 本集带走\n\n- **把职位拆成三个角色来管理**：科学家(探索实验)、架构师(战略+构建)、教练(布道辅导)，按公司类型和自身技能定配比，别试图眉毛胡子一把抓。\n- **先用简单方法，再上 AI**:测玉米胚只需要基础计算机视觉、不需要机器学习——AI 官的价值恰恰在于知道什么时候不用 AI。\n- **别用 token 数当指标**：太容易被操纵；看员工 AI 素养(各职能部门都有构建者吗)、采用深度(简单任务还是整条工作流还是智能体员工)、工具可用性、GEO 可见性。你衡量什么就会得到什么。\n- **让产品能被智能体消费**：文档要 LLM 可读，产品配 MCP server 和 CLI;定价改按消费量，不然智能体一来按席位收费就被打爆。\n- **接这个职位前先锁定 CEO 支持**：这个角色必须横跨全公司协作，没有上面撑腰做不动。",
+  "quotes": [
+    {
+      "en": "So for that, you don't need deep AI knowledge, but you need to understand the business really well and be a very strong operator, right?",
+      "zh": "所以对于这种情况，你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者，对吧？",
+      "timestamp": "06:56",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "You want them to discover for themselves things like hallucination, because you can explain until you're blue in the face, but people don't believe it until they experience it.",
+      "zh": "你希望他们自己去发现诸如幻觉之类的事情，因为你可以解释到你口干舌燥，但人们只有亲身经历过才会相信。",
+      "timestamp": "07:28",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "I was like, well, yeah, sure, we can use AI, but you just need like blob detection. You don't need any machine learning, right?",
+      "zh": "我说，嗯，对，当然，我们可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，对吧？",
+      "timestamp": "12:06",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "Someone asked me to measure tokens to see how much AI we do, and I said no, because it's so easily hackable.",
+      "zh": "有人让我衡量 token 来看我们用了多少 AI,我说不，因为它太容易被操纵了。",
+      "timestamp": "12:55",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "He's like, so I'm just going to have my LLMs read and summarize for me and I'm only going to talk to humans from now on, right?",
+      "zh": "他说，所以我打算让我的 LLM 替我阅读和总结，从今以后我只和人类交流，对吧？",
+      "timestamp": "15:01",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "But think a lot about it because you really get what you measure. You start measuring something, everyone's going to optimize for that.",
+      "zh": "但要好好思考这个问题，因为你衡量什么就会得到什么。你一旦开始衡量某个东西，所有人都会为它去优化。",
+      "timestamp": "17:32",
+      "speaker": "Rania Khalaf"
+    },
+    {
+      "en": "So we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based.",
+      "zh": "我们都听说过 SaaS 已死这种说法，如果你按席位定价之类的，那当智能体来了、把消费量彻底打爆的时候会发生什么，所以我们的定价全是基于消费量的。",
+      "timestamp": "15:40",
+      "speaker": "Rania Khalaf"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:37",
+      "speaker": "Rania",
+      "en": "It's kind of like saying digital or, I don't know, electricity. It's in everything and it can be so many things and it can be really overwhelming, right?",
+      "zh": "这有点像在说数字化，或者说电力——它存在于一切事物之中，它可以成为很多东西，这可能会让人非常不知所措，对吧？"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Rania",
+      "en": "I do believe in this AI world that's moving so, so quickly, you have to always have some of your team experimenting and understanding what's new and trying it out and seeing how it fits, right?",
+      "zh": "我确实相信，在这个移动得如此之快的 AI 世界里，你必须始终让你的团队中有一部分人在实验、了解新东西、尝试它们，并看看它们如何适配，对吧？"
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Rania",
+      "en": "How do you get this job if you don't know about AI?",
+      "zh": "如果你不了解 AI,你怎么得到这份工作的？"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Rania",
+      "en": "So for that, you don't need deep AI knowledge, but you need to understand the business really well and be a very strong operator, right?",
+      "zh": "所以对于这种情况，你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者，对吧？"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Rania",
+      "en": "I forgot that you have to really spend a lot of time evangelizing, educating, sharing, over-communicating about what you're doing, about how AI can help, about ways people can adopt it, not only to your employees, but also to your customers.",
+      "zh": "我忘了你真的必须花大量时间去布道、教育、分享、过度沟通你在做的事情，关于 AI 能如何提供帮助，关于人们可以采用它的方式，不仅是对你的员工，还有对你的客户。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Rania",
+      "en": "You want them to discover for themselves things like hallucination, because you can explain until you're blue in the face, but people don't believe it until they experience it.",
+      "zh": "你希望他们自己去发现诸如幻觉之类的事情，因为你可以解释到你口干舌燥，但人们只有亲身经历过才会相信。"
+    },
+    {
+      "timestamp": "08:57",
+      "speaker": "Rania",
+      "en": "So that was the way in the door for the AI and data part.",
+      "zh": "那就是引 AI 和数据进门的方式。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Rania",
+      "en": "It was interesting, but not my joy and passion.",
+      "zh": "挺有意思的，但不是我的乐趣和热情所在。"
+    },
+    {
+      "timestamp": "12:06",
+      "speaker": "Rania",
+      "en": "I was like, well, yeah, sure, we can use AI, but you just need like blob detection. You don't need any machine learning, right?",
+      "zh": "我说，嗯，对，当然，我们可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，对吧？"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Rania",
+      "en": "Someone asked me to measure tokens to see how much AI we do, and I said no, because it's so easily hackable.",
+      "zh": "有人让我衡量 token 来看我们用了多少 AI,我说不，因为它太容易被操纵了。"
+    },
+    {
+      "timestamp": "15:01",
+      "speaker": "Rania",
+      "en": "He's like, so I'm just going to have my LLMs read and summarize for me and I'm only going to talk to humans from now on, right?",
+      "zh": "他说，所以我打算让我的 LLM 替我阅读和总结，从今以后我只和人类交流，对吧？"
+    },
+    {
+      "timestamp": "17:34",
+      "speaker": "Rania",
+      "en": "But think a lot about it because you really get what you measure. You start measuring something, everyone's going to optimize for that.",
+      "zh": "但要好好思考这个问题，因为你衡量什么就会得到什么。你一旦开始衡量某个东西，所有人都会为它去优化。"
+    },
+    {
+      "timestamp": "15:40",
+      "speaker": "Rania",
+      "en": "So we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based.",
+      "zh": "我们都听说过 SaaS 已死这种说法，如果你按席位定价之类的，那当智能体来了、把消费量彻底打爆的时候会发生什么，所以我们的定价全是基于消费量的。"
+    },
+    {
+      "timestamp": "16:05",
+      "speaker": "Rania",
+      "en": "So hopefully we close the feedback loop and not only make people use our stuff, but they use it if they like it and if it helps them.",
+      "zh": "所以希望我们能闭环反馈流程，不仅让人们使用我们的东西，而且是在他们喜欢、并且产品对他们有帮助的时候使用。"
+    },
+    {
+      "timestamp": "20:11",
+      "speaker": "Rania",
+      "en": "I suggest if you try something like this, you have very strong backing and relationship with the CEO because you're going to have to work very closely with a lot of other parts of the company.",
+      "zh": "我建议，如果你尝试做类似这样的事情，你要有非常强大的支持以及和 CEO 的关系，因为你将不得不和公司里很多其他部门非常紧密地合作。"
+    },
+    {
+      "timestamp": "20:48",
+      "speaker": "Rania",
+      "en": "I don't know how I feel about that, but yeah, I know.",
+      "zh": "我不知道我对此是什么感受，但是，是的，我知道。"
+    },
+    {
+      "timestamp": "11:02",
+      "speaker": "Rania",
+      "en": "It's the kind of place where if you're not curious, you probably won't stay for very long, right?",
+      "zh": "这是一个这样的地方：如果你不好奇，你可能待不了多久，对吧？"
+    },
+    {
+      "timestamp": "17:01",
+      "speaker": "Rania",
+      "en": "And also, I think revenue is not the only number that matters, like tokens is not the only number that matters.",
+      "zh": "而且，我觉得收入不是唯一重要的数字，比如 token 数也不是唯一重要的数字。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的，是一个特别新的职位——首席 AI 官。讲的人叫 Rania,现在是开源软件公司 WSO2 的首席 AI 官。这个职位她干了快两年，做一些变体岗位大概五年，再往前，她在 IBM 研究院待了二十年，管过全球研究 AI 组织大约三分之一的团队。所以由她来讲这个职位，是有分量的。\n\n为什么现在值得聊这个？她开场甩了一个数据：根据 IBM 的研究，设立这个职位的公司，2024 年是 11%,一年之后是 26%,现在已经是 76% 了。几期研究之间就隔一年，这条曲线陡得吓人。\n\n但这个职位棘手就棘手在，AI 无处不在。Rania 打了个比方，这有点像在说电力——电力存在于一切事物之中，它可以成为很多东西，所以你根本不知道从哪儿下手，会非常不知所措。她的应对办法就是靠很强的自律，把这件事拆成三个角色：科学家、架构师、教练。咱们一个一个说。\n\n科学家，就是探索、实验、构建的那部分人。在这个技术跑得飞快的领域，她的判断很坚决：团队里必须始终有一部分人在实验、了解新东西、尝试它们、看看它们怎么适配，这不认为有什么办法可以绕过去。这个角色的另一端，就是深入到发明新算法层面的创造者。\n\n架构师，也在构建，但更多做的是战略。说到这儿有个特别有意思的发现。她收到过一封邮件，是卖「面向首席 AI 高管的 AI 教育」的，第一反应是：等等，什么？你不了解 AI 怎么得到这份工作的？后来她才明白，有些公司的首席 AI 官其实是个管家——管预算、排优先级、分资源、做项目管理、汇报结果。这类岗位你不需要深厚的 AI 知识，但你非常需要理解业务，并且得是一个很强的运营者。而另一端，就是她自己在做的事：塑造整个公司的战略，重新发明生产力方式、产品和整个打法。\n\n第三个角色是教练，这个连她自己都意外。用她的话说，教练这个角色让我挺意外的，我忘了你真的必须花大量时间去布道、教育、分享、过度沟通你在做的事情——不光对员工，还要对客户。这里有个很实在的细节：比如模型幻觉，就是 AI 一本正经地编造事实，这种问题她不靠解释，而是让员工自己去发现。因为你可以解释到你口干舌燥，但人们只有亲身经历过才会相信。\n\n好，三个角色讲完了。你可能会问，这三个角色到底怎么配比？答案可能是这个职位最让人头大的地方：它因公司而异，甚至因人而异。她自己就有两段完全不同的经历可以作证。\n\n第一段是离开 IBM 之后，她加入剑桥地区一家做农业的生物科技独角兽，用 CRISPR——就是精准修改基因的技术——去改造玉米、大豆、小麦。做基因实验要十年时间和大量土地来验证，所以 AI 进门的方式，就是帮科学家对要做什么基因编辑做出更好的假设。结果这个职责迅速膨胀，公司里没什么工程技术人员，IT 也交给了她，还要雇首席安全官。她一边给基因发现写新算法，一边干从 Box 迁到 Microsoft 这种 IT 活。她自己总结：挺有意思的，但不是我的乐趣和热情所在。\n\n这家公司还留了一个特别好的例子，说明 AI 官该知道什么时候不用 AI。科学家假设玉米胚的大小能预测基因编辑下一步的成功率，但人工测量太贵，就跑来找她要 AI。她硕士读的就是计算机视觉，一看就说：当然可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，你只需要基础计算机视觉。最后用一个极简单的算法，效果非常好。真正用上 BERT 那类模型的，是基因发现那部分。\n\n第二段经历就是现在，在 WSO2。她现在的配比大约是 20% 科学家、60% 架构师、20% 教练。为什么教练工作这么少？因为公司约 75% 是技术人员，员工极好奇，用她的话说，如果你不好奇，可能待不了多久——所以几乎不用向内辅导，大量做向外辅导。她总结下来，判断这个职位长什么样有三个维度：这家公司是否售卖软件？人员构成是不是主要技术？以及它处在 AI 旅程的哪个阶段？\n\n那职责定了，接下来自然要问：怎么衡量这个职位干得好不好？有人让她衡量 token 消耗，来看用了多少 AI,她直接拒绝了，理由是它太容易被操纵了。她看的是这几样。第一，员工 AI 素养——是不是只有少数人懂 AI、聚在一个卓越中心里，人人做事都得找他们？还是说市场部、各个工程团队都有能自己动手的构建者？她现在的结构是小型中央团队加每个产品一位 AI 负责人，每个团队都有人做 AI 能力。第二，采用程度——是只做清理邮件、代码补全这种简单任务，还是改变了整个工作流，甚至配上智能体员工，这是一个光谱。第三，工具可用性，还有 GEO 可见性——说白了就是大模型能不能找到你们、知不知道你们是做什么的。这里还有个挺好笑的段子，有人吐槽网页已经变成给智能体看的了、人类根本读不了，所以打算让 LLM 替自己阅读和总结，从今以后只和人类交流。但这一块最核心的提醒是这句话：你衡量什么就会得到什么，你一旦开始衡量某个东西，所有人都会为它去优化。\n\n理解了衡量，我们就能看懂她在 WSO2 的战略主线是什么：让所有产品能被智能体和大模型消费。去年给所有产品加了对智能体和工具的一等支持，今年确保每个产品都能被智能体直接使用——每样东西都要有 MCP server,就是让智能体调用工具的标准接口，还有命令行工具等等。甚至定价也跟着变，叫智能体防备型定价：按席位收费的模式，智能体一来把消费量打爆了怎么办？所以他们的定价全改成按消费量。落到具体产品上，逻辑也很顺：AI 的 API 归根结底还是 API,所以在 API 平台里放 AI 网关；身份平台本来为人类做身份管理，现在为智能体做，就有了智能体身份；今年又发布智能体平台，把这一切整合起来，管理智能体的整个生命周期。\n\n最后收个尾，给你几条实在的建议。这个职位没有银弹，一切取决于公司。但有一条是通用的：接这个职位之前，必须锁定 CEO 的强力支持和紧密关系，因为你将不得不和公司里很多其他部门非常紧密地合作。没有上面撑腰，做不动。她还见过各种奇葩变体：有的公司首席产品官和首席 AI 官是同一个人；也有非软件公司让 HR 负责人转成 AI 负责人，理由是智能体算劳动力，归 HR 管——她自己的反应是：我不知道我对此是什么感受。\n\n那如果这个职位吸引了你呢？她给了一个框架：想想你擅长什么、热爱什么、世界需要什么、你能靠什么获得报酬，找到交集。这个职位还非常流动，所以最好的办法，是把它塑造成以你为中心、让你快乐的形状。"
+}

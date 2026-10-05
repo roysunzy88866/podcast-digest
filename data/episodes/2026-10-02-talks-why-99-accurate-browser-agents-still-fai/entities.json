@@ -1,0 +1,724 @@
+{
+  "episode_id": "2026-10-02-talks-why-99-accurate-browser-agents-still-fai",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "浏览器智能体",
+    "智能体基础设施",
+    "生产工程",
+    "可观测性",
+    "成本优化"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "derek-meegan",
+      "type": "person",
+      "role": "guest",
+      "name": "Derek Meegan",
+      "file": "Derek Meegan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "browserbase",
+      "type": "company",
+      "role": "company",
+      "name": "Browserbase",
+      "file": "Browserbase",
+      "primary": true,
+      "how_described": "嘉宾所在公司,本集说它帮助客户为他们的用户部署浏览器自动化,客户往往代表其用户在网页上执行操作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            49.668,
+            51.669
+          ],
+          "quote": "I'm a software engineer at BrowserBase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            420.383,
+            425.367
+          ],
+          "quote": "At BrowserBase, we help our customers deploy browser automations for their users.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器智能体 (browser agent)",
+      "file": "浏览器智能体",
+      "primary": true,
+      "how_described": "本集主角:在浏览器上执行操作的智能体,难题在于「没有部分得分」——成本持续累积、价值只在任务全部完成时兑现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.631,
+            23.352
+          ],
+          "quote": "Running a browser agent demo once is easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            322.952,
+            327.513
+          ],
+          "quote": "You have a browser agent where each step has an independent success rate of 99%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            358.32,
+            362.163
+          ],
+          "quote": "That would suggest to never use a browser agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            407.556,
+            413.658
+          ],
+          "quote": "But when we think about what your agent should give you, that begs the question of what does a browser agent actually give you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            434.275,
+            439.06
+          ],
+          "quote": "And so a browser agent actually gives you a task completed for your customer repeatedly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            472.968,
+            482.073
+          ],
+          "quote": "Because once we know a browser agent is performance, it can complete the task we asked it to do, then cost and maintainability simply become optimization problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            532.084,
+            533.404
+          ],
+          "quote": "Assume you have a browser agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            593.165,
+            599.468
+          ],
+          "quote": "And I believe over time, model costs will become a smaller and smaller component of deploying browser agent trajectories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            602.969,
+            606.351
+          ],
+          "quote": "What are the real resources you need to run your browser agent trajectories?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            705.169,
+            710.093
+          ],
+          "quote": "But for the vast majority of browser agent use cases, an API isn't coming anytime soon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            741.81,
+            747.132
+          ],
+          "quote": "Together, we're going to go through a high-level architecture of a browser agent for real-world tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            976.885,
+            980.808
+          ],
+          "quote": "And we can overcome the browser agent conundrum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体的输出视为概率分布,每次决策都有失败风险;核心方法论是把不需要由智能体承担的步骤从模型的责任中拿走",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.631,
+            23.352
+          ],
+          "quote": "Running a browser agent demo once is easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            174.869,
+            187.039
+          ],
+          "quote": "And finally, and becoming increasingly popular, is de-harnessing your agent, removing tailor-made tools in favor of dynamic execution environments where the agent can write arbitrary code against the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            322.952,
+            327.513
+          ],
+          "quote": "You have a browser agent where each step has an independent success rate of 99%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            358.32,
+            362.163
+          ],
+          "quote": "That would suggest to never use a browser agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            400.494,
+            406.376
+          ],
+          "quote": "And this is all to say that your agent is just another line item and that your agent should give you more than it takes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            407.556,
+            413.658
+          ],
+          "quote": "But when we think about what your agent should give you, that begs the question of what does a browser agent actually give you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            434.275,
+            439.06
+          ],
+          "quote": "And so a browser agent actually gives you a task completed for your customer repeatedly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            472.968,
+            482.073
+          ],
+          "quote": "Because once we know a browser agent is performance, it can complete the task we asked it to do, then cost and maintainability simply become optimization problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            518.317,
+            522.38
+          ],
+          "quote": "Second, how often is an agent correct?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            526.783,
+            531.083
+          ],
+          "quote": "Naively, you may measure the success of an agent on a per run basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            532.084,
+            533.404
+          ],
+          "quote": "Assume you have a browser agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            538.605,
+            548.487
+          ],
+          "quote": "Yet, if you permit that agent to retry for a particular transaction, maybe up to four retries, your per transaction success rate quickly climbs to 94%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            593.165,
+            599.468
+          ],
+          "quote": "And I believe over time, model costs will become a smaller and smaller component of deploying browser agent trajectories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            602.969,
+            606.351
+          ],
+          "quote": "What are the real resources you need to run your browser agent trajectories?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            610.455,
+            619.58
+          ],
+          "quote": "Then when we think about maintenance over time, we need to invest in observability, not only in how the agent made decisions, but what actually transpired in the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            661.496,
+            666.699
+          ],
+          "quote": "Antibots, and just generally, we understand the web as not the friendliest place for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            670.301,
+            676.564
+          ],
+          "quote": "The underlying job shifts beneath the agent, and we ask the agent to wade through ambiguity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            705.169,
+            710.093
+          ],
+          "quote": "But for the vast majority of browser agent use cases, an API isn't coming anytime soon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            741.81,
+            747.132
+          ],
+          "quote": "Together, we're going to go through a high-level architecture of a browser agent for real-world tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            762.76,
+            765.941
+          ],
+          "quote": "So first, we'll start with a lowly agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            766.742,
+            770.143
+          ],
+          "quote": "The goal of this agent is to log in and download an explanation of benefits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            771.184,
+            778.407
+          ],
+          "quote": "A request comes in, the agent performs the action on the browser, and this is the minimum necessary system you need to just do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            788.614,
+            794.696
+          ],
+          "quote": "And then once you perform that download, you need to retrieve that file from storage and bring it into the agent's runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            806.935,
+            812.417
+          ],
+          "quote": "Next, you want to give the agent an opportunity to verify its work real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            825.443,
+            832.546
+          ],
+          "quote": "Now the agent knows if it really did its job right or not because it has a deterministic mechanism to verify that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            855.242,
+            860.327
+          ],
+          "quote": "Again, we're reducing the number of steps that the agent has to take to complete the task successfully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            877.25,
+            885.874
+          ],
+          "quote": "We've contained the responsibility of the agent to only the area of ambiguity necessary, so we draft a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            886.735,
+            900.081
+          ],
+          "quote": "These skills look very similar to a standard operating procedure that we would have humans use in the past, except this standard operating procedure is for an agent, and it allows the agent to follow the critical path more closely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            901.115,
+            907.94
+          ],
+          "quote": "At the beginning of the talk, we discussed how the output of an agent can be thought of like a probability distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            908.66,
+            920.589
+          ],
+          "quote": "So if we introduce the critical path to the agent, it knows it's at step two and knows that it needs to take step three because we have outlined it in this skill, then it's more likely to take that step three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            921.269,
+            925.813
+          ],
+          "quote": "It knows exactly where it needs to go and we remove ambiguity from the agent's decision process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            938.346,
+            940.587
+          ],
+          "quote": "That browser is provided to the agent runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            941.387,
+            955.99
+          ],
+          "quote": "The agent navigates the portal using the skill provided, calls a deterministic download function, provides that downloaded file to a verify tool, and can know authoritatively whether its trajectory succeeded or failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            957.393,
+            966.499
+          ],
+          "quote": "In the end, this system takes steps out of the model's responsibility that simply do not need to be in the responsibility of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            976.885,
+            980.808
+          ],
+          "quote": "And we can overcome the browser agent conundrum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool call)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "本集把模型输出转换成结构化的工具调用并确定性执行;优化手段之一是把复杂操作封装成单次工具调用,减少模型临时决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            106.205,
+            112.131
+          ],
+          "quote": "Then that action is transposed into a structured tool call and deterministically executed to interact with the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            799.558,
+            805.621
+          ],
+          "quote": "Instead of the model needing to make decisions on the fly, you encapsulate a complex operation into a single tool call.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集介绍的三种智能体接入浏览器策略之一:用一系列页面截图来表示浏览器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            169.145,
+            173.829
+          ],
+          "quote": "Number two is computer use, where you represent the browser in a series of screenshots of the page.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "accessibility-tree",
+      "type": "concept",
+      "role": "concept",
+      "name": "无障碍树 (accessibility tree)",
+      "file": "无障碍树",
+      "primary": true,
+      "how_described": "本集把它描述为页面的语义文本表示,与 HTML 状态一起拼成喂给模型的混合文本表示",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            127.558,
+            140.484
+          ],
+          "quote": "You can screenshot the browser, the accessibility tree, which is a semantic textual representation of the page, and the browser state, storage, cookies, console URL, tabs, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            161.797,
+            167.941
+          ],
+          "quote": "This typically involves taking the HTML state of the page in the accessibility tree and creating a hybrid representation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说维护智能体系统需要在可观测性上投入:不仅看智能体怎么决策,还要看浏览器里实际发生了什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            610.455,
+            619.58
+          ],
+          "quote": "Then when we think about maintenance over time, we need to invest in observability, not only in how the agent made decisions, but what actually transpired in the browser.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-costs",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型成本 (model costs)",
+      "file": "模型成本",
+      "primary": true,
+      "how_described": "本集说每次运行的成本如今主要是模型成本,但随着开源模型工程演进,智能的成本面临巨大下行压力,模型成本占比会越来越小",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            579.44,
+            583.482
+          ],
+          "quote": "The first is per run, which today is predominantly model costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            593.165,
+            599.468
+          ],
+          "quote": "And I believe over time, model costs will become a smaller and smaller component of deploying browser agent trajectories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "antibots",
+      "type": "concept",
+      "role": "concept",
+      "name": "反机器人机制 (antibots)",
+      "file": "反机器人机制",
+      "primary": true,
+      "how_described": "本集列为长期持久性的头号风险:环境会反击,网络对智能体来说并不是最友好的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            661.496,
+            666.699
+          ],
+          "quote": "Antibots, and just generally, we understand the web as not the friendliest place for your agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说给智能体起草的 skill 非常类似过去给人类用的标准操作程序(SOP),让智能体更贴近关键路径、消除决策中的模糊性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            877.25,
+            885.874
+          ],
+          "quote": "We've contained the responsibility of the agent to only the area of ambiguity necessary, so we draft a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            908.66,
+            920.589
+          ],
+          "quote": "So if we introduce the critical path to the agent, it knows it's at step two and knows that it needs to take step three because we have outlined it in this skill, then it's more likely to take that step three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            941.387,
+            955.99
+          ],
+          "quote": "The agent navigates the portal using the skill provided, calls a deterministic download function, provides that downloaded file to a verify tool, and can know authoritatively whether its trajectory succeeded or failed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retry",
+      "type": "concept",
+      "role": "concept",
+      "name": "重试 (retry)",
+      "file": "重试",
+      "primary": true,
+      "how_described": "本集的核心建议:允许智能体重试(如最多四次),按每笔交易而非每次运行衡量成功——单次 50% 成功率可攀升到每笔交易 94%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            538.605,
+            548.487
+          ],
+          "quote": "Yet, if you permit that agent to retry for a particular transaction, maybe up to four retries, your per transaction success rate quickly climbs to 94%.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "transactional workflow",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

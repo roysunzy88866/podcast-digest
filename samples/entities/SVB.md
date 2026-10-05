@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SVB</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SVB">SV</div><div class="pi"><h1 class="pt">SVB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SVB">SV</div><div class="pi"><h1 class="pt">SVB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(42:28起):本集说 SVB 崩溃时 Brex 内部很混乱，Michael 作为 COO 拍板把资金从 SVB 转出，随后 Brex 的银行产品吸引超十亿美元存款。
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(32:28起):本集讲 SVB 倒闭正逢发薪周：Gusto 因一直用多家银行做支付处理而未受影响，并主动为被影响的客户垫付工资
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(00:18起):硅谷银行,本集讲它恰在 Jonathan 融资第一周的周四崩盘,导致第二、三周 40% 的投资人会议被取消,他自己因此经历了人生第一次恐慌发作。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[AI]] · [[Claude]] · [[Michael Tannenbaum]] · [[Tomer London]] · [[Figure]] · [[Gusto]] · [[SoFi]] · [[payroll（工资发放）]] · [[Brex]] · [[小企业]]
+[[Brex]] · [[AI]] · [[Claude]] · [[Stripe]] · [[Michael Tannenbaum]] · [[Tomer London]] · [[Jonathan Awad]] · [[Figure]] · [[Gusto]] · [[Baselayer]]
 
-<script type="application/json" class="pd-epn">{"AI":27,"Claude":88,"Michael Tannenbaum":1,"Tomer London":1,"Figure":2,"Gusto":2,"SoFi":1,"payroll（工资发放）":1,"Brex":5,"小企业":1}</script>
+<script type="application/json" class="pd-epn">{"Brex":6,"AI":27,"Claude":90,"Stripe":48,"Michael Tannenbaum":1,"Tomer London":1,"Jonathan Awad":1,"Figure":2,"Gusto":2,"Baselayer":1}</script>
 
 <script>
 (function(){

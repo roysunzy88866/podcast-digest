@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[Fable]] · [[Slack]] · [[Bun]] · [[Rust]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":2,"Anthropic":173,"Claude Code":94,"Fable":11,"Slack":29,"Bun":4,"Rust":5,"Gemini":14}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":2,"Anthropic":175,"Claude Code":94,"Fable":11,"Slack":31,"Bun":4,"Rust":5,"Gemini":14}</script>
 
 <script>
 (function(){

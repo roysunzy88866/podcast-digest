@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-talks-the-chief-ai-officer-scientist-architect",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/9cJrbj23fOA.m4a",
+  "duration_sec": 1323.191,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 240,
+  "asr": true,
+  "title_en": "The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2",
+  "podcast": "精选演讲",
+  "date": "2026-09-30",
+  "added": "2026-10-06",
+  "added_at": "2026-10-05T21:56:09.114Z",
+  "speaker_map": {
+    "SPEAKER_00": "Rania Khalaf"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Rania Khalaf"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "首席 AI 官生存指南：科学家、架构师、教练",
+  "guest_name": "Rania Khalaf",
+  "guest_title": "WSO2 首席 AI 官",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

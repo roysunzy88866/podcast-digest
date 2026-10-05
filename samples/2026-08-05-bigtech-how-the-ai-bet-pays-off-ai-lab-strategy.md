@@ -133,8 +133,8 @@ Google 的纠结引出了一个关键洞察：为什么手握重金的超大规�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Meta、Microsoft、NVIDIA、OpenAI</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、Google、Meta、NVIDIA、OpenAI、SpaceX · 同概念:AGI、CapEx</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Microsoft、OpenAI、NVIDIA · 同概念:CapEx、AGI</span>
-- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、Meta、Microsoft、OpenAI · 同概念:CapEx、SaaS</span>
 
 </div>
 <div class="pd-ex">

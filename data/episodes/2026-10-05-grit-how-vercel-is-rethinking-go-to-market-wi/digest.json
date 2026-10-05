@@ -1,0 +1,178 @@
+{
+  "title_zh": "Vercel COO 谈 AI 时代的市场打法：一人加一个智能体",
+  "tldr": "Vercel COO Gene(前 Stripe 首席业务官)讲怎么用 AI 把团队砍到极精简、怎么分清增长问题出在产品还是市场，以及与创始人共处的心法。",
+  "digest_md": "这一集是 Kleiner Perkins 合伙人 Juven 主持的 Grit 播客，嘉宾是 Vercel 的 COO Gene——她在 Stripe 待了九年多，从约 400 人做到 8000 人规模，离职时是首席业务官，然后只休了三天假就加入只有其零头规模的 Vercel 负责整个 go-to-market(市场进入，即怎么把产品卖出去)。主持人一上来就追问：你又不缺钱，为什么还要工作？她的回答是顶级运动员式的：为什么 LeBron 还想打篮球？「你还不觉得你已经把自己在场上毫无保留地拼完了」[02:10 Gene]。而且她自认是硬核实干者，满足感来自「周末结束时能指出来一件这周没我就不会发生的事」[05:28 Gene]。\n\n## 选公司就认三条标准\n\n从 Stripe 去之前，她先复盘了自己为什么在 Google 待满十年，总结出三条：一是有真正被当作决策标准使用、融入日常用语的清晰价值观，且与自己天然契合；二是身处真正巨大的市场、有天然相邻领域，待十年也总有新东西可做；三是公司里有一群「工程师中的工程师」——2015 年一个做市场的人这么选公司，她说当时没几个人会这么讲[24:47 Gene]。她照这三条选出了当时的 Stripe、GitHub、Slack,如今看 Vercel 也是三条全中：价值观贯穿入职、全员大会和绩效评估；市场大到「假以时日，理论上互联网上的每一个像素都可以构建在 Vercel 之上」[26:16 Gene];而且整个公司由创业者和发明家组成。\n\n## 增长不行，到底是产品问题还是市场问题？\n\n她抛出行业现实：硅谷多数创始人技术出身，所以「责怪销售比责怪产品更容易，因为产品更多是你自身的映照」[09:36 Gene]——这就是为什么 CRO(首席营收官)平均任期不到两年。而判断是产品市场契合度(PMF,产品真正匹配市场需求)问题还是销售问题，没有任何测试可依。她的解法很实操：挑 10 家在用产品但没用旗舰能力的大型企业客户，让产品经理和牵头工程师连续跟完 10 场对话攒出模式识别——结果 10 场下来，大家一致承认企业侧的 PMF 并不完整，有一批产品改进要先做[11:29 Gene]。另一个办法是让产品经理直接听你做 pitch,事后逐场问「我哪里讲得不对」;Vercel 还用 AI 从销售通话里自动提取客户异议、给处理程度打分，处理不了的缺口会自动生成一条产品需求[12:55 Gene]。\n\n## 把创始人的大数字变成数学\n\n对销售负责人最致命的坑，是扛着一份自己不理解的预测上任。她讲了一个刚认识 10 分钟的早期公司 CRO:目标年初 100 万美元做到 1000 万，却答不上现有 pipeline(销售管线，即潜在成交机会的储备)有多少、几个销售、靠什么达成——她直接说「你会在一个季度内被炒掉」,并点破真相：「你继承的是创始人的预测。创始人默认都是乐观主义者，极度亢奋，而且根本不知道怎么给业务做预测」[15:34 Gene]。她的原则：不存在的自助产品不进预测，从现有数据倒推给出合理数字，再把压力推回产品团队——「在你被解雇之前，产品负责人不会被解雇」这种事不会发生[16:27 Gene]。\n\n她在 Stripe 和 Vercel 进门第一件事都是建「运营模型」:把创始人选定的数字背后需要成立的全部数学摊开，按细分市场、按地区拆完整漏斗。数据脏没关系，可以放合理假设；关键是达成或没达成，都知道是哪个底层驱动因素和预想不一样。在 Vercel,她入职几周后的第一次董事会就摊牌：当前轨迹撑不过前两个季度，之后不可能达成全年数字。因为提前暴露了风险、而不是等着悬崖式掉落，公司保留了数字、90 天内先招来 CMO 补漏斗顶端，Q4 反而超额完成[19:57 Gene]。变革的时机也有讲究：销售有配额、生计系于此，不能随便挑个周二全改——她赶在入职四个半月时关掉旧计划重开，比自然节奏快了一个半月，整个高管团队一起拍板接受短期低谷[22:33 Gene]。\n\n## AI 之后，哪些团队该变精简\n\n这是本集信息量最大的部分。她逐一报账：支持团队 91% 的工单量由一个智能体解决，所有入站资格筛选也交给智能体，大量对外触达同样如此[58:02 Gene];BDR(销售开发代表)职能精简得多，剩下的要么做更复杂的企业级客户开发，要么用来对新玩家和新话术做假设检验；RevOps(营收运营)因为有一个「你以前会发给它的任何问题都可以问」的数据科学智能体，同样大幅精简。而人少了，职能反而更有意思了：剩下的技术支持团队「写 PR 去修问题，而不是在工单里打转」[58:41 Gene]。\n\n连销售也在变：她在 Vercel 期间每六个月上调一次配额——部分是产品成熟度和市场准备度，但她坦承人均产出比在持续显著上升，不是「要多一千万就再招 10 个人」的老路[59:50 Gene]。销售会造反吗？「当你在一条指数级增长曲线上时，大多数人还是愿意跟着一起走完这段旅程的」[60:15 Gene]。\n\n## 别把人手当成功的代理指标\n\n精简的另一面，是警惕扩张的诱惑。她提醒：增加人手有一种非常诱人的感觉——你可以告诉朋友你今年把团队翻了 7 倍，「它确实是一种成功和增长的代理指标，在某种程度上与实际业务有些脱节」[52:11 Juven]。过度增长的真实代价：所有人的职责不再清晰、互相踩脚、用协调成本拖慢整台机器、新人比懂的人还多。她正在推动的内部议题是让每个职能负责人想清楚「理论终局状态」:我这 10 个人是不是永远不需要超过 10 个？需要随收入扩展的，还能做什么改变曲线的形状？[51:20 Gene]\n\n她甚至给新下属下过这样的战书：对方说「我还有更多可以付出，想被推得更猛」，她的回应是——第一个问题，你需要我推你，还是你能推自己？然后是那句目标：「你能不能用最少的人成为表现最好的团队？」[54:45 Gene] 她预判，很多人得改掉靠「建帝国」(我管 500 人、1000 人组织)证明自己的习惯，改用实际产出来衡量，未来人们问的会是你的人手收入比，而不是你管过多少人[54:09 Gene]。\n\n## 和创始人共处：一场职业婚姻\n\n被问到给高管的建议，她完全认同主持人的判断：和创始人的关系可能比评估清单上其他所有东西重要十倍——她和 CEO G 在入职前互相了解了一年半、面试了 12 个人以上，双方把底牌全部摊开：她带着明确的变革使命进来，G 要的是一个一年内不会被换掉的领导者。具体做法上：她坚持要有排期的一对一——「我每天要开九个多小时会，没法在走廊里碰巧偶遇你」[31:51 Gene];后来又加上每周共进晚餐，两小时的长度让谈话不那么事务性，那些重要不紧急的话题才聊得起来[32:23 Gene]。Vercel 核心领导层坦诚、不搞政治，也让她能通过其他高管多方求证创始人的反馈是否有规律。\n\n至于怎么消化创始人随手甩过来的琐碎挑剔(邮件里的语法、幻灯片上写错的头衔)，她的心法是辨别信号与噪声：两周内三次指出同一类问题，那是系统性问题，得修；单独一件，「我正在努力做一件能建成一家十亿美元生意的事，这个放错位置的分号我会在时机成熟时处理」[37:57 Gene]。她自己作为运营者也有一套纪律：「运营者的工作基本上就是构建能产出可预测结果的系统」[40:09 Gene],所以她的行为尽量可预测——团队收到她的消息，应该能猜到「这是她在意的事情之一」，而不是源源不断的想到什么发什么。\n\n她最新的一大槽点顺便值得一记：读到的一切都在被 AI「垃圾化」——每份 deck 长得一模一样，是 em dash 的视觉版本；销售把 Granola 的会议记录用 Claude 总结一下就发出来，「我们付钱给你不是干这个的。你的工作是综合出真正重要的东西。那才像是销售。Claude 做不好这件事」[41:37 Gene]。\n\n## 本集带走\n\n- **分不清增长瓶颈时，用「10 场会谈测试」**:让产品经理和工程师连续听 10 家真实客户的对话，双方得出同一结论，产品和市场的责任就摊清了。\n- **接手预测先建运营模型**：把目标数字拆成按细分、按地区的完整漏斗数学，能提前几个季度算出悬崖在哪，而不是等掉下去。\n- **创始人给的预测默认要重做**：创始人乐观、亢奋、不会做预测；不存在的产品不进预测，缺口推回给产品团队扛。\n- **AI 先砍这三块**:支持工单(91% 智能体解决)、入站资格筛选、数据查询类 RevOps 需求；砍完留下的职能升级为写 PR 修产品、做假设检验。\n- **用人手收入比替代团队规模来衡量自己**：警惕「加人很诱人」，目标是「用最少的人成为表现最好的团队」。\n- **go-to-market 每六个月演进一次**:市场打开到哪里，销售就细分到哪里，「如果我把工作做对了，我们永远不会重组」[57:00 Gene]。\n- **和创始人的关系比其他一切重要十倍**：入职前互相摊牌一年半，入职后固定一对一加晚餐，创始人随手发的挑剔用「信号还是噪声」过滤。",
+  "quotes": [
+    {
+      "en": "Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+      "zh": "Vercel 有很大的支持工单量,如你所料，其中 91% 我们用一个智能体来解决。",
+      "timestamp": "00:00",
+      "speaker": "Jeanne Grosser"
+    },
+    {
+      "en": "And so it's easier to blame sales than it is to blame the product because the product is more of a reflection of you.",
+      "zh": "所以责怪销售比责怪产品更容易，因为产品更多是你自身的映照。",
+      "timestamp": "09:36",
+      "speaker": "Juven"
+    },
+    {
+      "en": "Founders are default optimists, extremely exuberant, and by the way, do not know how to forecast a business.",
+      "zh": "创始人默认都是乐观主义者，极度亢奋，而且顺便说一句，根本不知道怎么给业务做预测。",
+      "timestamp": "15:34",
+      "speaker": "Juven"
+    },
+    {
+      "en": "My general advice maybe is wrong, but my advice, my opinion is the relationship with the founder is maybe 10 times more important than every else, everything else on the list.",
+      "zh": "我的一般建议也许是错的，但我的观点是，和创始人的关系可能比清单上其他所有东西重要十倍。",
+      "timestamp": "30:32",
+      "speaker": "Juven"
+    },
+    {
+      "en": "And I'm like, you know, we don't pay you for this. Like your job is to synthesize what actually matters.",
+      "zh": "然后我就想说，你知道，我们付钱给你不是干这个的。你的工作是综合出真正重要的东西。",
+      "timestamp": "41:31",
+      "speaker": "Juven"
+    },
+    {
+      "en": "I mean, when somebody new joins Vercel, you're expected to ship something in your first week.",
+      "zh": "我是说，当有人新加入 Vercel 时，你会被期望在第一周就发布点什么。",
+      "timestamp": "44:19",
+      "speaker": "Jeanne Grosser"
+    },
+    {
+      "en": "And I just like literally tried to suffocate the company in demand, in pipeline.",
+      "zh": "我就是字面意义上试图让公司被需求和销售管线淹没。",
+      "timestamp": "49:22",
+      "speaker": "Juven"
+    },
+    {
+      "en": "And if she does her job right, we will never hire a team under her.",
+      "zh": "如果她把工作做对了，我们永远不会在她下面再招一个团队。",
+      "timestamp": "53:39",
+      "speaker": "Jeanne Grosser"
+    },
+    {
+      "en": "Well, then my prompt for you is, can you be the highest performing team with the least amount of people?",
+      "zh": "那么，我给你的提示是，你能不能用最少的人成为表现最好的团队？",
+      "timestamp": "54:45",
+      "speaker": "Juven"
+    },
+    {
+      "en": "If I'm doing my job right, we'll never reorg.",
+      "zh": "如果我把工作做对了，我们永远不会重组。",
+      "timestamp": "56:57",
+      "speaker": "Jeanne Grosser"
+    },
+    {
+      "en": "And if I want 10 more million dollars, I'll get 10 more heads.",
+      "zh": "如果我想要再多一千万美元，我就再招 10 个人。",
+      "timestamp": "59:59",
+      "speaker": "Jeanne Grosser"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Gene",
+      "en": "Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+      "zh": "Vercel 有很大的支持工单量,如你所料，其中 91% 我们用一个智能体来解决。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Gene",
+      "en": "And so it's easier to blame sales than it is to blame the product because the product is more of a reflection of you.",
+      "zh": "所以责怪销售比责怪产品更容易，因为产品更多是你自身的映照。"
+    },
+    {
+      "timestamp": "15:34",
+      "speaker": "Gene",
+      "en": "Founders are default optimists, extremely exuberant, and by the way, do not know how to forecast a business.",
+      "zh": "创始人默认都是乐观主义者，极度亢奋，而且顺便说一句，根本不知道怎么给业务做预测。"
+    },
+    {
+      "timestamp": "21:39",
+      "speaker": "Gene",
+      "en": "Yeah, I just exposed the risk at the beginning of the year.",
+      "zh": "是的，我只是在年初就暴露了风险。"
+    },
+    {
+      "timestamp": "30:43",
+      "speaker": "Juven",
+      "en": "My general advice maybe is wrong, but my advice, my opinion is the relationship with the founder is maybe 10 times more important than every else, everything else on the list.",
+      "zh": "我的一般建议也许是错的，但我的观点是，和创始人的关系可能比清单上其他所有东西重要十倍。"
+    },
+    {
+      "timestamp": "40:09",
+      "speaker": "Gene",
+      "en": "An operator's job is to build systems that produce predictable output, basically.",
+      "zh": "运营者的工作基本上就是构建能产出可预测结果的系统。"
+    },
+    {
+      "timestamp": "41:37",
+      "speaker": "Gene",
+      "en": "And I'm like, you know, we don't pay you for this. Like your job is to synthesize what actually matters.",
+      "zh": "然后我就想说，你知道，我们付钱给你不是干这个的。你的工作是综合出真正重要的东西。"
+    },
+    {
+      "timestamp": "42:21",
+      "speaker": "Juven",
+      "en": "Yeah, mine is the tone and word choice of AI is like often not natural.",
+      "zh": "是啊，我的槽点是 AI 的语气和用词常常不自然。"
+    },
+    {
+      "timestamp": "44:04",
+      "speaker": "Gene",
+      "en": "I mean, when somebody new joins Vercel, you're expected to ship something in your first week.",
+      "zh": "我是说，当有人新加入 Vercel 时，你会被期望在第一周就发布点什么。"
+    },
+    {
+      "timestamp": "49:27",
+      "speaker": "Juven",
+      "en": "And I just like literally tried to suffocate the company in demand, in pipeline.",
+      "zh": "我就是字面意义上试图让公司被需求和销售管线淹没。"
+    },
+    {
+      "timestamp": "52:11",
+      "speaker": "Juven",
+      "en": "Meaning, like, you get to go and tell your friends that you 7x'd your headcount this year. And there's some, like, it is a proxy for success and growth.",
+      "zh": "意思是，比如，你可以去告诉你的朋友你今年把团队人数翻了 7 倍。而这有某种，它确实是一种成功和增长的代理指标。"
+    },
+    {
+      "timestamp": "53:39",
+      "speaker": "Juven",
+      "en": "And if she does her job right, we will never hire a team under her.",
+      "zh": "如果她把工作做对了，我们永远不会在她下面再招一个团队。"
+    },
+    {
+      "timestamp": "54:45",
+      "speaker": "Gene",
+      "en": "Well, then my prompt for you is, can you be the highest performing team with the least amount of people?",
+      "zh": "那么，我给你的提示是，你能不能用最少的人成为表现最好的团队？"
+    },
+    {
+      "timestamp": "57:00",
+      "speaker": "Gene",
+      "en": "If I'm doing my job right, we'll never reorg.",
+      "zh": "如果我把工作做对了，我们永远不会重组。"
+    },
+    {
+      "timestamp": "59:59",
+      "speaker": "Gene",
+      "en": "And if I want 10 more million dollars, I'll get 10 more heads.",
+      "zh": "如果我想要再多一千万美元，我就再招 10 个人。"
+    },
+    {
+      "timestamp": "60:27",
+      "speaker": "Gene",
+      "en": "But I also think you join a company like Vercel because you believe you're going to be part of building something more generational.",
+      "zh": "但我也认为，你加入 Vercel 这样的公司，是因为你相信自己将参与打造某种更具世代意义的东西。"
+    },
+    {
+      "timestamp": "63:20",
+      "speaker": "Gene",
+      "en": "Probably ability to endure pain.",
+      "zh": "大概是忍受痛苦的能力。"
+    }
+  ],
+  "voice_script": "今天这一集值得你听完。说话的人叫 Gene,是 Vercel 的首席运营官。在去 Vercel 之前，她在 Stripe 待了九年多，亲眼看公司从大约四百人长到八千人，离职时已经是首席业务官。然后呢，只休了三天假，就跑去一家规模只有 Stripe 零头的公司，负责整个市场进入——说白了就是怎么把产品卖出去。主持人是 Kleiner Perkins 的合伙人，一上来就问了个很多人想问的问题：你又不缺钱，为什么还要工作？她的回答很直接：为什么 LeBron 还想打篮球？你还不觉得自己已经在场上毫无保留地拼完了。她还说自己是个硬核实干者，满足感来自一件事——周末结束的时候，能指出来一件这周没有我就不会发生的事。\n\n那这么一个从大公司走出来的人，怎么选下一站？她给自己定过三条标准。第一条，公司得有真正被当作决策标准用的价值观，不是墙上贴的标语，是融进日常用语的那种，而且得跟她本人契合。第二条，市场要真正巨大，大到待十年也总有新东西可做。第三条，公司里得有一群“工程师中的工程师”。她说这话的时候是 2015 年，一个做市场的人这么选公司，当时没几个人会这么讲。照这三条，她当年选出了 Stripe、GitHub、Slack。而如今的 Vercel,三条全中：价值观贯穿入职、全员大会和绩效评估；市场大到她那句话是这么说的——假以时日，理论上互联网上的每一个像素，都可以构建在 Vercel 之上。\n\n接下来讲这集最实操的一条线：增长不行的时候，到底是产品的问题，还是销售的问题？这个问题听起来简单，其实在硅谷几乎无解，因为大部分创始人都是技术出身。Gene 把这层窗户纸捅破了：责怪销售，比责怪产品容易得多——因为产品更多是你自身的映照。你去看数据也印证这一点：首席营收官的平均任期，不到两年。而判断到底是产品市场契合度出了问题，还是销售执行出了问题，没有任何现成测试。她的解法很笨但很有效：挑十家在用产品、但没用旗舰能力的大型企业客户，让产品经理和牵头工程师连续跟完十场对话。目的就是让双方同时看到同样的现实。结果十场下来，所有人一致承认：企业侧的产品市场契合度并不完整，有一批产品改进得先做。责任就这么摊清了。Vercel 还有更狠的招：让产品经理直接听销售做推介，事后一场一场问“我哪里讲得不对”；甚至用 AI 从销售通话里自动提取客户异议、给处理程度打分，处理不了的缺口，自动生成一条产品需求。\n\n顺着这个思路，再往前走一步，就是一个销售负责人最容易踩的坑：扛着一份自己不理解的预测上任。Gene 讲了一个故事，有个刚认识十分钟的早期公司销售负责人，目标是把年收入从一百万做到一千万，可 pipeline 有多少、几个销售、靠什么达成，一问三不知。Gene 直接说：你会在一个季度内被炒掉。然后点破真相：你继承的是创始人的预测——创始人默认都是乐观主义者，极度亢奋，而且根本不知道怎么给业务做预测。所以她的原则是：不存在的产品，不进预测；从现有数据倒推，给出合理数字，再把缺口推回给产品团队扛。她自己也用行动验证过这条路。她在 Vercel 入职几周后的第一次董事会上就摊牌：照当前轨迹，前两个季度撑得过去，之后全年数字不可能达成。听起来像自杀，但因为提前暴露了风险，而不是等着悬崖式掉落，公司保留了数字，九十天内先招来 CMO 补漏斗顶端，第四季度反而超额完成。变革的时机也有讲究——销售有配额，生计系于此，不能随便挑个周二全改。她赶在入职四个半月时关掉旧计划重开，比自然节奏快了一个半月，整个高管团队一起拍板，接受短期低谷。\n\n那为什么她敢这么精简地打？这就引出这集信息量最大的部分：AI 到底砍掉了哪些团队。她逐一报账：支持团队，百分之九十一的工单量，由一个智能体解决；所有入站资格筛选，交给智能体；大量对外触达，也是。BDR,也就是销售开发代表，职能精简了很多，剩下的人要么做更复杂的企业级客户开发，要么用新玩家、新话术做假设检验。营收运营也因为一个“什么数据问题都能问”的数据科学智能体，大幅精简。有意思的是，人少了，留下的职能反而升级了——技术支持团队现在写代码修复问题，而不是在工单里打转。连销售的人均产出也在持续上升，她每六个月上调一次配额，不再是“要多一千万就再招十个人”的老路。那销售会不会造反？她的看法是：当你在一条指数级增长曲线上时，大多数人还是愿意跟着走完这段旅程的。\n\n但精简的反面，是警惕扩张的诱惑。这里有个很扎心的提醒：增加人手有一种非常诱人的感觉——你可以告诉朋友，你今年把团队翻了七倍。这确实是一种成功和增长的代理指标，但在某种程度上，跟实际业务是脱节的。过度增长的真实代价是什么？所有人的职责不再清晰，互相踩脚，用协调成本拖慢整台机器，新人比懂的人还多。她甚至给新下属下过战书。对方说“我还有更多可以付出，想被推得更猛”，她的回应分两层：第一个问题，你是需要我推你，还是你能推自己？然后是那个目标——你能不能用最少的人，成为表现最好的团队？她预判，很多人得改掉靠建帝国证明自己的习惯，改用产出来衡量。未来人们问的，会是你的人手收入比，而不是你管过多少人。\n\n最后这一块，可能是对高管最要命的一条：跟创始人怎么共处。她的观点很明确，和创始人的关系，可能比评估清单上其他所有东西重要十倍。她和 Vercel 的 CEO 在入职前互相了解了一年半、面试了十二个人以上，双方把底牌全部摊开：她带着明确的变革使命进来，对方要的是一个一年内不会被换掉的领导者。入职之后的具体做法：坚持要有排期的一对一——她一天要开九个多小时会，没法靠走廊里碰巧偶遇；后来又加上每周共进晚餐，两小时的长度让谈话不那么事务性，那些重要但不紧急的话题才聊得起来。至于创始人随手甩过来的琐碎挑剔，邮件里的语法、幻灯片上写错的头衔，她有一套过滤办法：两周内三次指出同一类问题，那是系统性问题，得修；单独一件，她那句话是这么说的——我正在努力做一件能建成一家十亿美元生意的事，这个放错位置的分号，我会在时机成熟时处理。\n\n最后说一个她的槽点，我觉得很多做销售的人该听听。她现在读到的一切都在被 AI 垃圾化：每份材料长得一模一样，销售把会议记录用 Claude 总结一下就发出来。她的原话是：我们付钱给你不是干这个的。你的工作是综合出真正重要的东西——那才像是销售，而 Claude 做不好这件事。\n\n把这集收个尾。如果你只能记住一句话，就记住她给下属定的那个目标：用最少的人，成为表现最好的团队。"
+}

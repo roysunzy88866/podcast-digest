@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>go-to-market</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]]**(00:55起):本集主线：Elisa 主张搭建 go-to-market 时反着做——先构建机器(自动化)再构建团队，在瓶颈处才加人。
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(30:03起):本集双方共识：产品市场匹配大多与 go to market 关系不大——好销售营销是好和伟大之间的区别，不是好和坏之间的区别；小公司无法靠渐进的 go to market 走出慢增长
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(02:24起):本集嘉宾负责的整个体系：他给了企业阶段地图——0 到一两千万找产品市场契合，两千万到 1 亿建可重复 playbook，1 亿到 10 亿做国际化和渠道，数十亿之后拼领导者和文化。
+- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(00:36起):本集主线概念:嘉宾负责 Vercel 的整个 go-to-market(市场营销、销售、现场工程、支持、伙伴关系),并想「为这个时代写下 go-to-market 打法手册」;增长不行时如何区分 go-to-market 问题与产品问题贯穿全集。
 
 ## ① 提到它的金句
 
@@ -50,7 +51,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
@@ -64,14 +65,15 @@ unlisted: true
 - [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]] — 作为概念
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为概念
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Salesforce]] · [[Lenny]] · [[前向部署工程师]] · [[OpenAI]] · [[Cursor]] · [[MCP]] · [[PLG]] · [[Vercel]] · [[Replit]]
+[[智能体]] · [[Salesforce]] · [[Lenny]] · [[前向部署工程师]] · [[Vercel]] · [[Cursor]] · [[MCP]] · [[OpenAI]] · [[PLG]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"Salesforce":34,"Lenny":68,"前向部署工程师":2,"OpenAI":161,"Cursor":80,"MCP":73,"PLG":12,"Vercel":18,"Replit":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"Salesforce":34,"Lenny":68,"前向部署工程师":2,"Vercel":19,"Cursor":80,"MCP":76,"OpenAI":164,"PLG":12,"Stripe":48}</script>
 
 <script>
 (function(){

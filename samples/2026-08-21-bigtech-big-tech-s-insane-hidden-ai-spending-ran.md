@@ -133,7 +133,7 @@ Ranjan 本来是反对方，但这次从西班牙旅行回来后改口了。他�
 
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI、Google · 同概念:IPO、数据中心 (data center)、智能体 (agent)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI、Google、NVIDIA · 同概念:AGI</span>
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同嘉宾:Ranjan Roy · 同公司:Anthropic、OpenAI、Google · 同概念:AGI</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI、Google、NVIDIA · 同概念:AGI</span>
 
 </div>
 <div class="pd-ex">

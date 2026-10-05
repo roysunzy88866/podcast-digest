@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Zapier]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[Olivia Moore]] · [[工作流]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"ChatGPT":96,"OpenAI":161,"Anthropic":173,"Zapier":4,"Salesforce":34,"Jan Oberhauser":1,"Wade Foster":2,"Olivia Moore":2,"工作流":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"ChatGPT":97,"OpenAI":164,"Anthropic":175,"Zapier":4,"Salesforce":34,"Jan Oberhauser":1,"Wade Foster":2,"Olivia Moore":2,"工作流":10}</script>
 
 <script>
 (function(){

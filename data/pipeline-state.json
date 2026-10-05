@@ -205,7 +205,10 @@
     "48YUYDjwfYY": "2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi",
     "cKhpeEBnT1o": "2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat",
     "YiFqcu9YA38": "2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com",
-    "UOcHfR3_tys": "2026-09-30-talks-your-agents-are-in-solitary-confinement"
+    "UOcHfR3_tys": "2026-09-30-talks-your-agents-are-in-solitary-confinement",
+    "9cJrbj23fOA": "2026-09-30-talks-the-chief-ai-officer-scientist-architect",
+    "5xi_S1f9sDU": "2026-10-02-talks-why-99-accurate-browser-agents-still-fai",
+    "pAnLpiAG6Es": "2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -277,10 +280,14 @@
     "2026-09-05-cogrev-ai-am-highlights-welcome-to-the-agi-era": "2026-10-05",
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": "2026-10-05",
     "2026-09-03-changelog-forking-cal-com-to-closed-source": "2026-10-05",
-    "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob": "2026-10-05"
+    "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob": "2026-10-05",
+    "2026-08-31-dwarkesh-openai-huggingface-narration": "2026-10-06",
+    "2026-08-26-cogrev-rl-s-a-hell-of-a-drug-metagaming-reward": "2026-10-06",
+    "2026-08-25-practicalai-ai-proficiency-from-users-to-builders": "2026-10-06",
+    "2026-08-25-dwarkesh-dylan-patel-3": "2026-10-06"
   },
   "cutoffs": {
-    "lennys": "2026-10-04T12:32:47.000Z",
+    "lennys": "2026-10-05T12:04:54.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
     "a16z": "2026-10-05T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
@@ -309,18 +316,18 @@
     "eyeonai": "2026-10-02T15:21:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
-    "pmf": "2026-09-28T09:00:00.000Z",
+    "pmf": "2026-10-05T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
     "ainativedev": "2026-09-29T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
-    "sourcery": "2026-10-02T09:59:18.000Z",
+    "sourcery": "2026-10-05T10:30:00.000Z",
     "iltb": "2026-09-28T12:05:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
     "sed": "2026-10-01T09:00:00.000Z",
     "twist": "2026-10-03T00:53:00.000Z",
-    "grit": "2026-09-21T09:00:03.000Z",
+    "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-01T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
     "latent": "2026-10-02T00:28:04.000Z"
@@ -1057,6 +1064,18 @@
       "reason": "题材不对味:属 ① 非 AI/科技的泛话题:ARI Emanuel 自传是娱乐经纪/商业人物故事,与 AI 和科技创业均不沾边",
       "title": "#436 Ari Emanuel's Autobiography",
       "pubDate": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-05-howiai-how-openai-uses-chatgpt-sites-live-at-de",
+      "reason": "跨源重复:与库内《How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "pubDate": "2026-10-05T11:00:00.000Z"
+    },
+    {
+      "id": "2026-08-26-cogrev-rl-s-a-hell-of-a-drug-metagaming-reward",
+      "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo",
+      "pubDate": "2026-08-26T11:02:32.000Z"
     }
   ]
 }

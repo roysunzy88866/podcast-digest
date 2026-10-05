@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":12,"智能体":405,"MCP":73,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":34}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":13,"智能体":411,"MCP":76,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":34}</script>
 
 <script>
 (function(){

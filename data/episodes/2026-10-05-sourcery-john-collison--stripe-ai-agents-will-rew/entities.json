@@ -1,0 +1,1006 @@
+{
+  "episode_id": "2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew",
+  "podcast": "Sourcery",
+  "date": "2026-10-05",
+  "tags": [
+    "智能体商务",
+    "支付",
+    "AI 安全",
+    "创业与行业",
+    "计算机使用"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "molly-o-shea",
+      "type": "person",
+      "role": "host",
+      "name": "Molly O'Shea",
+      "file": "Molly O'Shea",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            2.045,
+            6.267
+          ],
+          "quote": "Please join me in welcoming to the stage Molly O'Shea and John Carlson.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "john-collison",
+      "type": "person",
+      "role": "guest",
+      "name": "John Collison",
+      "file": "John Collison",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集主线公司:2025 年处理 1.9 万亿美元交易(同比增 34%),正在为 AI/智能体商务『彻底重构』自己,包括收购 Bridge、Privy、Metronome、OpenRouter。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.656,
+            27.317
+          ],
+          "quote": "So Stripe processed $1.9 trillion in 2025, up 34%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            35.075,
+            39.958
+          ],
+          "quote": "Look, it's really interesting right now because we've been working on Stripe for a long time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            325.339,
+            335.344
+          ],
+          "quote": "And it's, I mean, somewhat intimidating because you're realizing that the standard for, I mean, the good news is that Stripe has been very paranoid on cyber for many, many years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            425.577,
+            434.06
+          ],
+          "quote": "We kind of somewhat, tongue-in-cheek at Stripe, started referring to January 1st as day one of the singularity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            521.067,
+            523.148
+          ],
+          "quote": "I think we're pretty optimistic at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            534.294,
+            546.461
+          ],
+          "quote": "We're seeing the highest rates of new firm creation that we've seen in recent memory on Stripe right now, because when you have all these tools, it's easier to start a company, it's easier to actually make it successful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            586.002,
+            593.165
+          ],
+          "quote": "Like, the thing that we tell businesses, you know, that we're working with at Stripe is, you know, when we're talking about the cyber stuff, all the cyber stuff is real.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            600.987,
+            607.649
+          ],
+          "quote": "You know, again, the entirety of Stripe up to this point, building for developers and using APIs as a selling point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            607.729,
+            614.991
+          ],
+          "quote": "Like making the developer experience easy was what we focused on, what we spent a huge amount of internal effort on at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            625.08,
+            631.725
+          ],
+          "quote": "Overnight, relatively overnight, no one actually really integrates the Stripe API by hand anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            655.904,
+            659.447
+          ],
+          "quote": "And so we are having to kind of totally change what we're good at internally at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            698.845,
+            701.568
+          ],
+          "quote": "So Stripe is taking off even faster than before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            714.761,
+            721.682
+          ],
+          "quote": "So if you look at the areas where Stripe has done acquisitions, they tend to follow that pattern where Bridge and Privy were in crypto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            730.484,
+            737.805
+          ],
+          "quote": "And so the folks on those teams are crypto-native in a way that it would be hard to get there that quickly at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            737.845,
+            740.786
+          ],
+          "quote": "And they've injected a lot of that crypto-nativity in the Stripe culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            853.716,
+            857.498
+          ],
+          "quote": "So Stripe's goal is to increase the GDP of the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            876.072,
+            889.396
+          ],
+          "quote": "There's our AI business, the browser basis of the world running on Stripe, clearly at the core of the AI revolution, allowing agents to actually use computers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            895.437,
+            898.358
+          ],
+          "quote": "They grew up in the pre-AI meta runs on Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            922.802,
+            926.843
+          ],
+          "quote": "That is one of the, you know, in the early days of Stripe, I",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            968.712,
+            975.5
+          ],
+          "quote": "We have tended to buy in the past when it is something that's really in the core of Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            975.86,
+            988.314
+          ],
+          "quote": "We're probably more likely to be good at doing it ourselves, whereas something that is a brand new muscle, like token routing, I trust that Stripe could learn to get good at that, but it would take much longer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1015.49,
+            1021.819
+          ],
+          "quote": "What have been the biggest transformations with AI internally at Stripe that you've been most excited about?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1156.409,
+            1164.717
+          ],
+          "quote": "And so someone on the legal team builds their agent for ingesting all the new regulation that comes along that might be subject to Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1164.737,
+            1170.022
+          ],
+          "quote": "So anyway, we're seeing a lot of people on the ground at Stripe building their own applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1275.276,
+            1279.3
+          ],
+          "quote": "And then just constantly talk to Stripe customers about what they're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1281.762,
+            1295.25
+          ],
+          "quote": "You know, we try to pay a lot of attention to the companies that are fast-growing on Stripe and make sure we're spending time with them because, you know, someone like a browser base is well on its way to becoming a huge Stripe company or lots of other kind of early-stage startups like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1501.862,
+            1514.804
+          ],
+          "quote": "Look, I think if you're really looking to condense the Stripe story or Stripe experience, one, I'd say there's no shortcuts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1518.236,
+            1521.199
+          ],
+          "quote": "Stripe never had a South by Southwest breakout moment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1569.137,
+            1578.183
+          ],
+          "quote": "There's a real element of Stripe that is just stick-with-edness where we didn't quit and we didn't get acquired and we just stayed plugging away at it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1611.764,
+            1615.146
+          ],
+          "quote": "You know, we care about Stripe having a reputation for being a good company to work with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1632.206,
+            1633.906
+          ],
+          "quote": "We talk about this at Stripe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集称其为『一次彻底的重构』:第一阶个人智能体代用户完成大量商务,第二阶 AI 发现重塑商家格局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            17.472,
+            24.156
+          ],
+          "quote": "So we're going to talk about payments, agentic commerce, and everything that's going on in the computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            140.484,
+            144.587
+          ],
+          "quote": "So you've mentioned that agentic commerce is a complete rewiring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把个人智能体说成能自主替你干活的 AI:知道你的收货地址和支付信息、能操控计算机去现实世界执行任务(如续办驾照)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            79.242,
+            105.272
+          ],
+          "quote": "And so I think the whole conceit of these agents, and obviously, again, this is where browser base and computer use comes in, but when you have the stateful context where your agent knows things about you, like the basic one is it knows your shipping address and payment details and things like that, and then when it can manipulate a computer and go off and do things in the real world, it turns out it's much nicer to be able to say, hey, please renew my driver's license for me, or whatever the task is, rather than go play with web forms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            593.405,
+            597.586
+          ],
+          "quote": "And again, just as we're talking about the agent of commerce stuff earlier, the entire landscape is shifting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            631.765,
+            633.486
+          ],
+          "quote": "They send their coding agent to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1156.409,
+            1164.717
+          ],
+          "quote": "And so someone on the legal team builds their agent for ingesting all the new regulation that comes along that might be subject to Stripe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集称之为『现实世界的终极向后兼容层』——不必等 DMV 加 MCP 接口,AI 直接操作现有界面;被视为 transformers→LLM→RL 之后的下一个离散跃升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            79.242,
+            105.272
+          ],
+          "quote": "And so I think the whole conceit of these agents, and obviously, again, this is where browser base and computer use comes in, but when you have the stateful context where your agent knows things about you, like the basic one is it knows your shipping address and payment details and things like that, and then when it can manipulate a computer and go off and do things in the real world, it turns out it's much nicer to be able to say, hey, please renew my driver's license for me, or whatever the task is, rather than go play with web forms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            116.043,
+            126.795
+          ],
+          "quote": "But another one is computer use actually becoming a mature enough technology because computer use is the ultimate backwards compatibility layer for the real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            136.101,
+            137.822
+          ],
+          "quote": "But it doesn't matter, because computer use solves that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1184.836,
+            1186.057
+          ],
+          "quote": "It's seen with, by the way, computer use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1186.537,
+            1200.73
+          ],
+          "quote": "That's, you know, one of the reasons I am so excited about what companies like BrowserBase are doing is because I feel like we're at this moment in time right now where computer use is finally getting good enough that it can actually be the next wave of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1217.257,
+            1226.425
+          ],
+          "quote": "Good computer use will come to be viewed as one of these next hops because it is the backwards compatibility layer on the rest of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1231.15,
+            1232.211
+          ],
+          "quote": "We're just going to computer use it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            128.837,
+            131.819
+          ],
+          "quote": "For, you know, the DMV to add an MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1226.465,
+            1229.828
+          ],
+          "quote": "Again, you don't have to wait for the DMV to add an MCP server.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络安全 (cybersecurity)",
+      "file": "网络安全",
+      "primary": true,
+      "how_described": "本集说 AI 攻防天平正向攻击方倾斜:未来五年会有比过去五年更多的安全泄露事件,初创公司小而同质的技术栈反而是优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            280.22,
+            283.984
+          ],
+          "quote": "Well, how are you thinking about cybersecurity risk as that scales?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            676.325,
+            686.073
+          ],
+          "quote": "I think one should worry about specific concerns, and so you should specifically feel good about your cybersecurity or ensure that you can feel good about it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "usage-based-billing",
+      "type": "concept",
+      "role": "concept",
+      "name": "用量计费 (usage-based billing)",
+      "file": "用量计费",
+      "primary": true,
+      "how_described": "本集说因为 AI 让每家公司都有推理成本,如今每家做 AI 产品的公司都需要基于用量的计费(订阅+超额买 credits)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            762.791,
+            769.652
+          ],
+          "quote": "And so because of the underlying cost structure, everyone needs to have usage-based billing these days with AI products.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说企业支出中越来越大的比例花在 AI 和推理上,推理成本改变了产品的定价结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            743.246,
+            746.307
+          ],
+          "quote": "Because of AI, everyone has inference costs these days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            778.57,
+            790.134
+          ],
+          "quote": "And what we notice is that an increasing fraction and increasingly a huge fraction of businesses' spend is actually going towards just AI and inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            790.734,
+            797.777
+          ],
+          "quote": "And that could be you're doing R&D at your company, or a lot of products actually have some AI inference as part of delivering the product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "singularity",
+      "type": "concept",
+      "role": "concept",
+      "name": "奇点 (singularity)",
+      "file": "奇点",
+      "primary": true,
+      "how_described": "本集说 Stripe 半开玩笑地把 2026 年 1 月 1 日定为『奇点纪元』,并乐观看待:随取随用的智能变便宜后新公司创建率达近期最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            409.081,
+            411.442
+          ],
+          "quote": "So you've talked about singularity a bunch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            418.165,
+            421.407
+          ],
+          "quote": "So how do you, I guess, what is your perspective on singularity?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            425.577,
+            434.06
+          ],
+          "quote": "We kind of somewhat, tongue-in-cheek at Stripe, started referring to January 1st as day one of the singularity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            437.922,
+            442.924
+          ],
+          "quote": "We decided that the singularity epoch is January 1st, 2026.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            442.984,
+            447.105
+          ],
+          "quote": "That's as good a day as any to decide that we are now in the singularity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            551.863,
+            560.445
+          ],
+          "quote": "And so we don't see the singularity in any kind of a pessimistic or kind of worried manner.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我提升 (recursive self-improvement)",
+      "file": "递归自我提升",
+      "primary": true,
+      "how_described": "本集说用 AI 让 AI 变得更好已不再是理论:实验室正用 AI 能力加速模型开发,2026 年能真正感受到其影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            463.649,
+            472.935
+          ],
+          "quote": "And in particular, the thing that all the AI folks talk about is this idea of recursive self-improvement where the AI uses the AI to make itself better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            513.337,
+            520.487
+          ],
+          "quote": "So anyway, it feels like 2026 is this year where we're really feeling the effects of that recursive self-improvement.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说几乎一夜之间没人再手工集成 Stripe API,大家都把编码智能体派去干,而 AI 的人体工学与开发者的人体工学不同,逼 Stripe 改变内部所擅长的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            631.765,
+            633.486
+          ],
+          "quote": "They send their coding agent to do it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personalized-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "个性化软件 (personalized software)",
+      "file": "个性化软件",
+      "primary": true,
+      "how_described": "本集说准入门槛终于降得足够低,Stripe 销售和法务团队都在自建应用和智能体,个性化软件大量涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1172.204,
+            1175.187
+          ],
+          "quote": "And people have been talking about personalized software for decades.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1178.33,
+            1184.656
+          ],
+          "quote": "This moment in time where finally the barrier to entry has gotten low enough that we are now seeing a huge amount of personalized software.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说 Stripe 收购它赌的是企业内部会同时用多个模型并按用户生命周期价值路由,『据我们所知他们走得最靠前』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            702.569,
+            710.197
+          ],
+          "quote": "You have most recently made a couple of really interesting acquisitions from Metronome, Bridge, Privy, to also OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            769.932,
+            771.173
+          ],
+          "quote": "And then you mentioned OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            805.625,
+            810.991
+          ],
+          "quote": "I think OpenRouter's belief is that, like, to believe in OpenRouter, you have to believe that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            838.929,
+            845.532
+          ],
+          "quote": "But if you believe that you actually just need to use multiple models at the same time within a business, then you need something like OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            992.883,
+            1002.725
+          ],
+          "quote": "And, I mean, OpenRouter's market is totally different today than it was 12 months ago, and it's going to be totally different again 12 months in the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "type": "company",
+      "role": "company",
+      "name": "Bridge",
+      "file": "Bridge",
+      "primary": true,
+      "how_described": "本集说 Bridge 是 Stripe 在 crypto 领域的收购,团队 crypto-native,给 Stripe 文化注入了这种特质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            702.569,
+            710.197
+          ],
+          "quote": "You have most recently made a couple of really interesting acquisitions from Metronome, Bridge, Privy, to also OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            714.761,
+            721.682
+          ],
+          "quote": "So if you look at the areas where Stripe has done acquisitions, they tend to follow that pattern where Bridge and Privy were in crypto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1358.821,
+            1363.445
+          ],
+          "quote": "And so you just like go across the Golden Gate Bridge to Marin or something, and that's pretty restorative pretty quickly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "privy",
+      "type": "company",
+      "role": "company",
+      "name": "Privy",
+      "file": "Privy",
+      "primary": true,
+      "how_described": "本集说 Privy 与 Bridge 同属加密支付收购,团队 crypto-native,这种特质 Stripe 自己很难快速长出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            702.569,
+            710.197
+          ],
+          "quote": "You have most recently made a couple of really interesting acquisitions from Metronome, Bridge, Privy, to also OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            714.761,
+            721.682
+          ],
+          "quote": "So if you look at the areas where Stripe has done acquisitions, they tend to follow that pattern where Bridge and Privy were in crypto.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "metronome",
+      "type": "company",
+      "role": "company",
+      "name": "Metronome",
+      "file": "Metronome",
+      "primary": true,
+      "how_described": "本集说 Metronome 是 Stripe 收购的用量计费公司,因为 AI 推理成本让每家 AI 产品公司都需要基于用量的计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            702.569,
+            710.197
+          ],
+          "quote": "You have most recently made a couple of really interesting acquisitions from Metronome, Bridge, Privy, to also OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            741.206,
+            742.966
+          ],
+          "quote": "You mentioned Metronome, which is usage-based spelling.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "browserbase",
+      "type": "company",
+      "role": "company",
+      "name": "BrowserBase",
+      "file": "BrowserBase",
+      "primary": true,
+      "how_described": "本集说 Collison 对 BrowserBase 这类做计算机使用的公司特别兴奋,它们让智能体真正能用电脑,是 Stripe 上增长很快的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1186.537,
+            1200.73
+          ],
+          "quote": "That's, you know, one of the reasons I am so excited about what companies like BrowserBase are doing is because I feel like we're at this moment in time right now where computer use is finally getting good enough that it can actually be the next wave of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1666.925,
+            1673.096
+          ],
+          "quote": "Well, John Carlson, thank you so much, and thank you to Paul and everyone at BrowserBase and all of you for coming today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1581.466,
+            1582.866
+          ],
+          "quote": "NVIDIA is the largest company in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1591.772,
+            1598.057
+          ],
+          "quote": "But it's a real story of stick-with-edness because there were many periods when NVIDIA was much less hot than it is today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bot-detection",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人检测 (bot detection)",
+      "file": "机器人检测",
+      "primary": true,
+      "how_described": "本集说如今几乎全是机器人了,该问而没人问的问题是:在有好机器人坏机器人的世界里,新的甄别机制和均衡会是什么样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1423.817,
+            1445.865
+          ],
+          "quote": "Well, one, like I said, is, I think this is being asked, but I think it's going to become a much louder and more pointed question, is, for example, many sites do bot detection and bot prevention, and that is a reasonable thing to do, or, like, it's understandable how they got there, but, like, it's increasingly all bots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1451.047,
+            1460.814
+          ],
+          "quote": "You know, bot detection for the world we are going to where there is the good bots and then there are the bad bots and you need to be able to screen between them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

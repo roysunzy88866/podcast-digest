@@ -166,9 +166,9 @@ Farouk 反复推荐《孙子兵法》给创始人：这本书讲的其实是「�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|Stripe 联创 John Collison:智能体商务是一次彻底的重构]]<span class="pd-rz">同公司:Stripe、Bridge · 同概念:智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

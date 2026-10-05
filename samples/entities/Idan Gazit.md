@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
+[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":12,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":77,"提示词注入":1,"Cloudflare":13,"Slack":29}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":12,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":77,"提示词注入":1,"Cloudflare":14,"Slack":31}</script>
 
 <script>
 (function(){

@@ -182,7 +182,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:OpenAI、YC · 同概念:AGI、推理 (inference)、ChatGPT</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:推理 (inference)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">
@@ -190,8 +190,8 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 **换个口味**
 
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
 - [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
-- [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、ChatGPT、沙箱 (sandbox)</span>
 
 </div>
 </div>

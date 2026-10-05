@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Spotify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Spotify">SP</div><div class="pi"><h1 class="pt">Spotify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Spotify">SP</div><div class="pi"><h1 class="pt">Spotify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(47:46起):本集提到在斯德哥尔摩创业时，Spotify 和 Klarna 是最大的科技成功故事，是他们早期的偶像和参照系。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(01:47起):本集说 semantic ID 与生成式检索的想法已在 Spotify 等公司走向规模化生产;并举其「提示词歌单」作为可交互推荐的行业案例。
 - **[[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]]**(18:05起):本集案例：为 SRE 建了智能体，从 runbook 和事件上下文汇总修复步骤推进沟通频道，事故发生时即刻有上下文。
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(12:46起):本集说 Kath 的 Spotify 被两个孩子接管(Bluey 和芝麻街);她把它当播放器接进 heavy rotation 网站,每周一自动生成播放列表
 
 ## ① 提到它的金句
 
@@ -26,7 +27,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]] — 作为被讨论公司(提及)
@@ -34,14 +35,15 @@ unlisted: true
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]] — 作为被讨论公司(提及)
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[GitHub]] · [[Meta]] · [[微调]] · [[Instagram]] · [[ChatGPT]] · [[Claude]] · [[OpenAI]] · [[YouTube]] · [[Lenny]]
+[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Meta]] · [[微调]] · [[推理]] · [[GitHub]] · [[Instagram]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"GitHub":28,"Meta":42,"微调":29,"Instagram":7,"ChatGPT":96,"Claude":88,"OpenAI":161,"YouTube":8,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"ChatGPT":97,"OpenAI":164,"Slack":31,"Meta":43,"微调":29,"推理":77,"GitHub":29,"Instagram":7,"Claude":90}</script>
 
 <script>
 (function(){

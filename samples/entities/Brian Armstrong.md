@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]] [[Vlad Kyle]] [[Seema Amble]] [[Andrii Hrytseniuk]] [[Reid Hoffman]] [[Walter Goodwin]]
+[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":405,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":6}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":411,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":8}</script>
 
 <script>
 (function(){

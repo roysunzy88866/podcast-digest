@@ -175,8 +175,8 @@ Arena 起步是 battle 模式:输入一个 prompt,得到两个回答,用户选�
 **换个口味**
 
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:基准测试 (benchmark)、智能体 (agent)</span>
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、评估 (evaluation)</span>
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source)、智能体 (agent)</span>
-- [[2026-09-17-dwarkesh-noam-brown|OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、评估 (evaluation)</span>
 
 </div>
 </div>

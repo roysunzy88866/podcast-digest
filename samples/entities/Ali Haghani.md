@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circleback":2,"智能体":405,"Claude Code":94,"评估":4,"Y Combinator":7,"Slack":29,"代码审查":23,"Zed":3}</script>
+<script type="application/json" class="pd-epn">{"Circleback":2,"智能体":411,"Claude Code":94,"评估":5,"Y Combinator":7,"Slack":31,"代码审查":23,"Zed":3}</script>
 
 <script>
 (function(){

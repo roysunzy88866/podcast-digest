@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":54,"深度学习":4,"智能体":405,"沙箱":74,"Condi Rice":1,"harness":55,"Jerry":1,"AMD":5,"前沿模型":24,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":56,"深度学习":4,"智能体":411,"沙箱":76,"Condi Rice":1,"harness":56,"Jerry":1,"AMD":5,"前沿模型":24,"Sega":1}</script>
 
 <script>
 (function(){

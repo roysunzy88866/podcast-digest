@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>YC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]]**(00:21起):主讲人作为其访问合伙人，辅导过数百家 YC 公司改进外呼；例子中的 Apten 也是 YC S24 批次公司
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(00:13起):本集即 YC 播客,合伙人们分享每年与数千名创始人合作中看到的最新趋势:硬科技占比从 8% 涨到 20%,单人创始人从 5% 涨到近 20%,批次结束中位月收入从 8K 涨到 20K。
 - **[[2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj|《a16z 办校：不看你成绩，只看你造了什么》]]**(22:38起):本集作为对比对象：要求你创办公司的项目，与学院保留探索性的定位不同，但其模式是灵感来源之一。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(04:27起):本集说「YC 买 YC 的东西」是巨大的起步福利,在销售和融资上都能带来疯狂动量,Jonathan 说二次创业很乐意去做。
 
 ## ① 提到它的金句
 
@@ -39,7 +40,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo|《Sam Lessin：硅谷创始人最缺的不是产品，是低心率》]] — 作为被讨论公司(提及)
 - [[2026-06-17-yc-how-to-pick-a-startup-idea-e3ktvca|《YC 合伙人 John：别找完美想法，选一个然后深入》]] — 作为被讨论公司(提及)
@@ -57,14 +58,15 @@ unlisted: true
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]] — 作为被讨论公司
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司
 - [[2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj|《a16z 办校：不看你成绩，只看你造了什么》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Stripe]] · [[ChatGPT]] · [[主观能动性]] · [[OpenAI]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[产品市场契合]] · [[AGI]]
+[[智能体]] · [[Stripe]] · [[产品市场契合]] · [[主观能动性]] · [[ChatGPT]] · [[OpenAI]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[Reddit]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"Stripe":45,"ChatGPT":96,"主观能动性":1,"OpenAI":161,"SaaS":21,"Garry Tan":2,"Salesforce":34,"产品市场契合":24,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"Stripe":48,"产品市场契合":26,"主观能动性":1,"ChatGPT":97,"OpenAI":164,"SaaS":21,"Garry Tan":2,"Salesforce":34,"Reddit":7}</script>
 
 <script>
 (function(){

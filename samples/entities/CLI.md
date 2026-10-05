@@ -7,27 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CLI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CLI">CL</div><div class="pi"><h1 class="pt">CLI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CLI">CL</div><div class="pi"><h1 class="pt">CLI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:24起):Dan 断言人们「速通了 CLI 时代」，当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(01:56起):本集说 CLI 天生具备渐进式加载、默认当作代码运行（自带 CodeMode）、Shell 被 40 年训练数据打磨这三个优势；但它是没有标准输出协议、无法注入凭证的本地黑盒，只适合本地接口。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:35起):Unix 命令行工具的统称。嘉宾认为它正是取代 MCP 的未来，因为机器人“真的很擅长 Unix”，可以即插即用即调多少个都行，而不像 MCP 那样复杂还需要重启配置。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#^q7]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Claude Code]] · [[OpenClaw]] · [[Lenny]] · [[Raphael Schaad]] · [[Dan Shipper]] · [[Peter Steinberger]] · [[SaaS]] · [[MCP]]
+[[智能体]] · [[MCP]] · [[Codex]] · [[Claude Code]] · [[OpenClaw]] · [[Lenny]] · [[Jan Čurn]] · [[Raphael Schaad]] · [[Dan Shipper]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":405,"Codex":79,"Claude Code":94,"OpenClaw":21,"Lenny":68,"Raphael Schaad":1,"Dan Shipper":2,"Peter Steinberger":3,"SaaS":21,"MCP":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"MCP":76,"Codex":80,"Claude Code":94,"OpenClaw":21,"Lenny":68,"Jan Čurn":1,"Raphael Schaad":1,"Dan Shipper":2,"harness":56}</script>
 
 <script>
 (function(){

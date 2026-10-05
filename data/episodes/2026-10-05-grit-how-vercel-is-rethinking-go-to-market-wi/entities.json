@@ -1,0 +1,1423 @@
+{
+  "episode_id": "2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi",
+  "podcast": "Grit",
+  "date": "2026-10-05",
+  "tags": [
+    "增长与销售",
+    "AI 智能体",
+    "Go-to-Market",
+    "运营模型",
+    "精简团队"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeanne-grosser",
+      "type": "person",
+      "role": "host",
+      "name": "Jeanne Grosser",
+      "file": "Jeanne Grosser",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "juven",
+      "type": "person",
+      "role": "cohost",
+      "name": "Juven",
+      "file": "Juven",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            54.355,
+            62.661
+          ],
+          "quote": "I'm Juven, partner at Kleiner Perkins, a show where we go beyond the highlight reel and explore the personal and professional challenges of building history-making companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3815.687,
+            3818.39
+          ],
+          "quote": "This podcast is a Kleiner Perkins production and I'm Juven.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾任职 COO、负责整个 go-to-market 的公司,600 人涨到 800 出头、营收远超三位数百分比增长;91% 支持工单由智能体解决,价值观贯穿入职、全员大会和绩效评估,「理论上互联网上的每一个像素都可以构建在 Vercel 之上」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            5.778
+          ],
+          "quote": "Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            31.721,
+            36.565
+          ],
+          "quote": "You join a company like Vercel because you believe you're going to be part of building something more generational.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            63.021,
+            67.084
+          ],
+          "quote": "Today on Grit, I'm talking with Gene DeWitt Grocer, the COO of Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            306.827,
+            310.568
+          ],
+          "quote": "I think you were advising Vercel before you decided to actually jump in full time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            353.726,
+            356.309
+          ],
+          "quote": "I took three days off in between Stripe and Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            356.409,
+            358.432
+          ],
+          "quote": "But you started advising Vercel while you were at Stripe?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            376.125,
+            378.146
+          ],
+          "quote": "How long have you been at Vercel?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            378.566,
+            380.266
+          ],
+          "quote": "I've been at Vercel almost a year and a half.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            408.97,
+            415.693
+          ],
+          "quote": "Not growing is also its own version of taxing, but like you do that as Stripe and then you join Vercel and then you're like right back on the bullet train.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            449.374,
+            464.278
+          ],
+          "quote": "When I started at Vercel, there was a lot I ended up needing to transform, and that was very hard to come in and be new, make some, like, very substantial changes that were not straightforward to pull off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            520.805,
+            523.408
+          ],
+          "quote": "What's it within your purview at Vercel now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            652.479,
+            664.502
+          ],
+          "quote": "We had this a little bit when I joined Vercel where I came in, you know, I didn't know the product enough, all these types of things yet to personally have a point of view, but it was like definitively this product is ready and this is a go to market problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            665.322,
+            676.524
+          ],
+          "quote": "One of the ways we ultimately unpacked that was, okay, on the sales side, we had a number of large existing enterprise customers who were using Vercel but didn't yet have Vercel in front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            760.88,
+            774.723
+          ],
+          "quote": "I think there's a ton of stuff you now can do, too, with, like, AI and listening to, like, call transcripts and looking for patterns as well, where, like, one of the things we do at Vercel is actually we proactively extract objections from calls and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            807.132,
+            811.976
+          ],
+          "quote": "At both Stripe and Vercel, I walked into a forecast that I ended up having a different point of view on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1003.756,
+            1019.487
+          ],
+          "quote": "Like at both, both Stripe and Vercel, one of the first things I come into a business when I do is build what I call an operating model, which is effectively the math behind what needs to be true to pick whatever number the founders picked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1106.112,
+            1107.573
+          ],
+          "quote": "It's the same thing in Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1107.893,
+            1110.494
+          ],
+          "quote": "Everybody at Vercel knows lead to revenue model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1110.574,
+            1112.055
+          ],
+          "quote": "That's what I call it at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1248.565,
+            1252.867
+          ],
+          "quote": "Part of the reason I came to Vercel was, like, Gia and I had gotten to know each other for a year and a half.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1411.3,
+            1415.242
+          ],
+          "quote": "When you were evaluating Vercel, what were you looking for?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1562.628,
+            1563.789
+          ],
+          "quote": "So, you look at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1576.276,
+            1590.266
+          ],
+          "quote": "Large horizontal market, you know, the thing I said to G when I started and he asked me one of the reasons why I joined was, you know, I felt like in the fullness of time, every pixel on the internet could theoretically be built on Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1741.318,
+            1757.724
+          ],
+          "quote": "Yeah, I think for me, I haven't really ever wanted to, like in coming to Vercel, I was very clear what I wanted to be was number two, like a very strong right hand to a technical founder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1962.618,
+            1974.703
+          ],
+          "quote": "The Vercel, like, core leadership team I think gets along better than pretty much any leadership team I've worked with, cross-functional one in my career.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2637.218,
+            2643.944
+          ],
+          "quote": "Yeah, I mean, so Vercel, you've seen it on billboards, one of our like mantras is you can just ship things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2659.237,
+            2665.042
+          ],
+          "quote": "I mean, when somebody new joins Vercel, you're expected to ship something in your first week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2802.576,
+            2804.856
+          ],
+          "quote": "And I haven't felt that way at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3310.459,
+            3323.032
+          ],
+          "quote": "What has surprised you that when you were growing, let's just say revenue, non-linearly, whether it's at Stripe or Vercel, wherever?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3435.066,
+            3438.791
+          ],
+          "quote": "That's been the case a bit more at Vercel as well, where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3482.789,
+            3491.015
+          ],
+          "quote": "So, you know, Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 802,
+          "t": [
+            3569.263,
+            3574.085
+          ],
+          "quote": "You know, even sales, like we've raised quotas every six months that I've been at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3627.927,
+            3634.43
+          ],
+          "quote": "But I also think you join a company like Vercel because you believe you're going to be part of building something more generational.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3641.013,
+            3649.18
+          ],
+          "quote": "I think if you join our org, that probably played a role in you picking Vercel over any other number of companies that you could have joined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3700.467,
+            3708.929
+          ],
+          "quote": "Customer discovery, you know, that interaction part and decided to get into sales and you had to be a BDR to get into sales at Vercel and they were willing to do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾待了九年多、从约 400 人到 8000 人、从 1 亿美元营收做到数十亿美元的前东家,她离开时的职位是首席业务官;Stripe 有「效率即杠杆」价值观并每约 18 个月重写一次价值观。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            67.685,
+            76.952
+          ],
+          "quote": "Gene spent nearly a decade at Stripe, helping take it from $100 million in revenue to billions, before leaving to run go-to-market at a company a fraction its size.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            91.819,
+            93.3
+          ],
+          "quote": "How big was Stripe when you joined it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            116.19,
+            118.214
+          ],
+          "quote": "Stripe is one of the most... Why do any of this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            283.537,
+            285.678
+          ],
+          "quote": "If you were to like kick back after Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            345.275,
+            349.721
+          ],
+          "quote": "At Stripe, after Stripe, were you considering not doing anything?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            353.726,
+            356.309
+          ],
+          "quote": "I took three days off in between Stripe and Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            356.409,
+            358.432
+          ],
+          "quote": "But you started advising Vercel while you were at Stripe?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            360.62,
+            364.401
+          ],
+          "quote": "Stripe was very generous along those lines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            364.461,
+            368.222
+          ],
+          "quote": "Stripe obviously cares deeply about the startup community.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            408.97,
+            415.693
+          ],
+          "quote": "Not growing is also its own version of taxing, but like you do that as Stripe and then you join Vercel and then you're like right back on the bullet train.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            417.908,
+            419.816
+          ],
+          "quote": "That's been, how long, eight years at Stripe?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            436.608,
+            444.052
+          ],
+          "quote": "So I remember when I was at Stripe and new people would join Stripe who similarly, you know, took maybe a week or two off after long term, very successful runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            807.132,
+            811.976
+          ],
+          "quote": "At both Stripe and Vercel, I walked into a forecast that I ended up having a different point of view on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1003.756,
+            1019.487
+          ],
+          "quote": "Like at both, both Stripe and Vercel, one of the first things I come into a business when I do is build what I call an operating model, which is effectively the math behind what needs to be true to pick whatever number the founders picked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1035.755,
+            1049.323
+          ],
+          "quote": "So like at Stripe, when I came in, we'd picked a nice, large, round, top-line number, and I owned like the new business, which it turned out sort of the existing customer-based revenue was relatively forecastable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1077.498,
+            1082.462
+          ],
+          "quote": "Actually, that was the case at Stripe, also the case at Rosal, I'll get back to, to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1428.269,
+            1434.612
+          ],
+          "quote": "I left for a Series B startup that it didn't end up being a perfect fit and then went to Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1436.555,
+            1447.499
+          ],
+          "quote": "What got me to Stripe was I realized when I left that company that I knew exactly why I had left Google, but I had not taken the time to figure out, well, why did I stay there for 10 years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1529.69,
+            1531.451
+          ],
+          "quote": "And that was what led me to Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1538.295,
+            1544.738
+          ],
+          "quote": "And so, and what had happened when I'd gone to Stripe was when I started to evaluate companies, I was like, huh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1553.243,
+            1556.364
+          ],
+          "quote": "At the time, it happened to be Stripe, GitHub, Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2731.939,
+            2735.802
+          ],
+          "quote": "And is it growing faster than anything you had felt at Stripe yet?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2740.281,
+            2747.983
+          ],
+          "quote": "Stripe was always, excuse me, had a bit of a similar dynamic, like one of the early Stripe values was efficiency as leverage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2748.163,
+            2756.465
+          ],
+          "quote": "And so Stripe had this similar deal of revenue growing relatively exponentially, while headcount grew pretty darn linearly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2787.51,
+            2802.175
+          ],
+          "quote": "Even though it is hyperscale, I don't feel like I really felt when Stripe decided to like double in a year during COVID that I really remember being like, wow, we are adding a lot of people right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2811.992,
+            2817.813
+          ],
+          "quote": "Yeah, I mean, it was basically Stripe was, it was always like, let's run as leanly as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2819.053,
+            2829.355
+          ],
+          "quote": "Actually, so one of the things that Stripe was excellent at was rewriting its values every, call it 18-ish months, because as you were scaling, often what got you here won't get you there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3040.477,
+            3052.087
+          ],
+          "quote": "It's one of the things I actually, like, have to consciously push myself on because I liked the efficiency as leverage phase of Stripe because it actually is like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3067.917,
+            3074.702
+          ],
+          "quote": "But to your point, I do think there were points at Stripe where we probably could have grown revenue faster with more people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3310.459,
+            3323.032
+          ],
+          "quote": "What has surprised you that when you were growing, let's just say revenue, non-linearly, whether it's at Stripe or Vercel, wherever?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3326.606,
+            3333.027
+          ],
+          "quote": "Meaning, you know, it's interesting to hear you say that every 18 months, Patrick and John at Stripe would revisit their values.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3368.059,
+            3377.142
+          ],
+          "quote": "So in Stripe, when I joined, there were two segments and really just, excuse me,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3410.922,
+            3417.567
+          ],
+          "quote": "So that was sort of, at Stripe, I always talked about it, was like, we're gonna do a go-to-market evolution every six months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 782,
+          "t": [
+            3466.077,
+            3472.541
+          ],
+          "quote": "What team do you feel like you can operate way leaner in today than you could at Stripe?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            1424.086,
+            1427.988
+          ],
+          "quote": "So I started my career at Google where I stayed for a decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1436.555,
+            1447.499
+          ],
+          "quote": "What got me to Stripe was I realized when I left that company that I knew exactly why I had left Google, but I had not taken the time to figure out, well, why did I stay there for 10 years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1448.8,
+            1457.503
+          ],
+          "quote": "So when I was trying to figure out, like, hey, I want to go spend, you know, 10 years at the next company, like, let me go really try to understand why I stayed at Google for 10 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1499.735,
+            1506.459
+          ],
+          "quote": "You know, like Google had PhDs who were inventing things like, you know, always wanted to run through walls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2757.365,
+            2759.426
+          ],
+          "quote": "So I feel like, and actually Google was like that too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集在列举她当年按三条标准筛选出的、有兴趣加入的五家公司时顺带提到(Stripe、GitHub、Slack)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1553.243,
+            1556.364
+          ],
+          "quote": "At the time, it happened to be Stripe, GitHub, Slack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集在列举她当年按三条标准筛选出的公司名单时顺带提到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1553.243,
+            1556.364
+          ],
+          "quote": "At the time, it happened to be Stripe, GitHub, Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2077.37,
+            2099.349
+          ],
+          "quote": "Yeah, but, like, okay, what you probably do is, like, you just fire off a bunch of shit in Slack, and then I'm like, all right, well, that's not what I meant to talk about at 1159, and now I gotta figure out how to, like, take some complex thing that you've just, like, dumped in my lap and explain to you the context for, like, why what you think is rational is not, in fact, rational, which doesn't belong in Slack half the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2100.81,
+            2113.462
+          ],
+          "quote": "Um, I, I think I would purport that you might be more effective if you picked what belongs in Slack in real time and, like, what might be, like, a more IRL substantive conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2165.143,
+            2170.846
+          ],
+          "quote": "And so like my version of the Slack dump is like, I'll just notice something.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kleiner-perkins",
+      "type": "company",
+      "role": "company",
+      "name": "Kleiner Perkins",
+      "file": "Kleiner Perkins",
+      "primary": false,
+      "how_described": "本集节目出品方、主持人 Juven 所在的风险投资公司,仅在开场介绍中出现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            54.355,
+            62.661
+          ],
+          "quote": "I'm Juven, partner at Kleiner Perkins, a show where we go beyond the highlight reel and explore the personal and professional challenges of building history-making companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3815.687,
+            3818.39
+          ],
+          "quote": "This podcast is a Kleiner Perkins production and I'm Juven.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集吐槽:销售把 Granola 会议记录用 Claude 总结一下就发出来,「你的工作是综合出真正重要的东西,Claude 做不好这件事」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 574,
+          "t": [
+            2479.219,
+            2487.685
+          ],
+          "quote": "And, you know, it's like, sales will take the granola, summarize it through Claude,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2507.261,
+            2508.422
+          ],
+          "quote": "Claude can't do that very well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2509.403,
+            2511.925
+          ],
+          "quote": "If Claude could do it well, I would ask Claude to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2587.392,
+            2591.076
+          ],
+          "quote": "But, like, Claude loves to tell me this is an exact call.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "市场进入 (go-to-market)",
+      "file": "市场进入",
+      "primary": true,
+      "how_described": "本集主线概念:嘉宾负责 Vercel 的整个 go-to-market(市场营销、销售、现场工程、支持、伙伴关系),并想「为这个时代写下 go-to-market 打法手册」;增长不行时如何区分 go-to-market 问题与产品问题贯穿全集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            36.745,
+            41.349
+          ],
+          "quote": "Certainly a big reason that I'm there is I want to go write the go-to-market playbook for this era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            67.685,
+            76.952
+          ],
+          "quote": "Gene spent nearly a decade at Stripe, helping take it from $100 million in revenue to billions, before leaving to run go-to-market at a company a fraction its size.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            524.335,
+            526.336
+          ],
+          "quote": "So it's the entirety of go to market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            645.378,
+            651.939
+          ],
+          "quote": "And it is sort of the perennial question when things aren't growing as fast as you'd like is, is it a product market fit problem or a go to market problem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            652.479,
+            664.502
+          ],
+          "quote": "We had this a little bit when I joined Vercel where I came in, you know, I didn't know the product enough, all these types of things yet to personally have a point of view, but it was like definitively this product is ready and this is a go to market problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            792.055,
+            800.841
+          ],
+          "quote": "So I think there are like a bunch of ways where like you can at least attempt to get on the same page about what is and isn't working across product and go to market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1304.647,
+            1311.549
+          ],
+          "quote": "One of the things we actually locked arms on was, you know, one of the things that's hard about changing go-to-market is people have quotas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1487.071,
+            1498.155
+          ],
+          "quote": "And then three, and this was probably one that I'm not sure that many other go-to-market people would have said in 2015, was that it had like an engineer's engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1599.192,
+            1603.235
+          ],
+          "quote": "So I think I'm going to have some challenging go to market stuff to do for a long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1623.66,
+            1636.848
+          ],
+          "quote": "No, I did at Dialpad when I was there, had also like soup to nuts go to market, not support at Dialpad, but I would say this is the first time I'm owning it at a legitimate scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3349.134,
+            3359.597
+          ],
+          "quote": "For go-to-market, there's like value in, if you're growing that quickly, you probably are starting to tap into new markets just organically or purposefully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3410.922,
+            3417.567
+          ],
+          "quote": "So that was sort of, at Stripe, I always talked about it, was like, we're gonna do a go-to-market evolution every six months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3420.309,
+            3424.692
+          ],
+          "quote": "We will take the natural next step in, like, focusing our go-to-market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 816,
+          "t": [
+            3634.59,
+            3640.213
+          ],
+          "quote": "And certainly a big reason that I'm there is I want to go write the go-to-market playbook for this era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3790.876,
+            3796.16
+          ],
+          "quote": "But yeah, no, every role in go-to-market and frankly across the company has at least one open head.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Vercel 91% 的支持工单、所有入站资格筛选、大量对外触达都用一个智能体解决,还有一个「任何问题都可以问」的数据科学智能体取代了大量 RevOps 需求,把 10 人销售团队变成一个人加一个智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            5.778
+          ],
+          "quote": "Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            6.058,
+            8.301
+          ],
+          "quote": "A lot of outbound we do with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            8.541,
+            10.723
+          ],
+          "quote": "All the inbound qualification is done with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            23.435,
+            28.819
+          ],
+          "quote": "We have a great data science agent that you can ask at anything you would have sent to RevOps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            77.652,
+            89.958
+          ],
+          "quote": "We get into why she walked away from one of the most valuable private companies in the world, what it's like to take a 10 person sales team down to one person and an AI agent, and the brutally honest feedback that reshaped how she leads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3482.789,
+            3491.015
+          ],
+          "quote": "So, you know, Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3491.375,
+            3493.536
+          ],
+          "quote": "Similarly, all of our inbound is with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3493.556,
+            3494.057
+          ],
+          "quote": "A homegrown agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3500.28,
+            3506.103
+          ],
+          "quote": "A lot of outbound, you know, we do with an agent, all the inbound qualification is done with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3550.727,
+            3558.674
+          ],
+          "quote": "We have a great data science agent that, like, I mean, you can ask it anything you would have sent to RevOps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集把它说成:没有测试可依、却决定「增长不行是产品问题还是销售问题」的永恒问题;她用 10 场会谈测试得出企业侧 PMF 并不完整的结论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            539.242,
+            552.368
+          ],
+          "quote": "When you have really good product market fit and you have technical founders, there tends to be, it's not explicit, but it is implicit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            642.217,
+            644.598
+          ],
+          "quote": "A test for do you have product market fit?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            645.378,
+            651.939
+          ],
+          "quote": "And it is sort of the perennial question when things aren't growing as fast as you'd like is, is it a product market fit problem or a go to market problem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            689.687,
+            698.559
+          ],
+          "quote": "And what do you know, coming out of the other side of those 10 sessions, we all came to the conclusion that we did not have full enterprise product market fit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "operating-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "运营模型 (operating model)",
+      "file": "运营模型",
+      "primary": true,
+      "how_described": "本集把它说成:她在 Stripe 和 Vercel 进门第一件事就建的东西——创始人选定数字背后需要成立的全部数学,按细分、按地区拆完整漏斗,让她能在入职几周后的董事会上提前暴露全年悬崖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1003.756,
+            1019.487
+          ],
+          "quote": "Like at both, both Stripe and Vercel, one of the first things I come into a business when I do is build what I call an operating model, which is effectively the math behind what needs to be true to pick whatever number the founders picked.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售管线 (pipeline)",
+      "file": "销售管线",
+      "primary": true,
+      "how_described": "本集把它说成:判断能否达成预测数字的关键数据——她盘问早期公司 CRO「你有多少 pipeline」得不到答案,直接断言「你会在一个季度内被炒掉」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            847.102,
+            847.922
+          ],
+          "quote": "How much pipeline do you have?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            856.186,
+            859.247
+          ],
+          "quote": "I'm like, okay, so how much pipeline do you have?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            870.623,
+            871.483
+          ],
+          "quote": "How much pipeline do you have?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1071.234,
+            1077.378
+          ],
+          "quote": "And then you can have a conversation, actually a strategic one, which is like, guys, like we don't have enough pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1160.37,
+            1162.251
+          ],
+          "quote": "Like we weren't creating enough pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1162.612,
+            1170.058
+          ],
+          "quote": "We had not created enough pipeline in Q4 before I showed up and weren't in Q1 when I showed up to get you to where you needed to go by Q3.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1190.09,
+            1197.132
+          ],
+          "quote": "The first one I hired was the CMO because it was immediately obvious our top issue is marketing, pipeline, top of funnel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1792.028,
+            1795.41
+          ],
+          "quote": "If we don't have enough pipeline, that's my fault.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2962.076,
+            2966.978
+          ],
+          "quote": "And I just like literally tried to suffocate the company in demand, in pipeline.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "forecast",
+      "type": "concept",
+      "role": "concept",
+      "name": "预测 (forecast)",
+      "file": "预测",
+      "primary": true,
+      "how_described": "本集把它说成:接手销售负责人最致命的坑——「你继承的是创始人的预测,创始人默认都是乐观主义者,根本不知道怎么给业务做预测」;不存在的自助产品不进预测,从数据倒推再压回产品团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            801.661,
+            804.023
+          ],
+          "quote": "Did you walk into a forecast of the business?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            807.132,
+            811.976
+          ],
+          "quote": "At both Stripe and Vercel, I walked into a forecast that I ended up having a different point of view on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            813.857,
+            821.202
+          ],
+          "quote": "Did you end up acquiescing to the forecast or did you get to do your own forecast?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            929.297,
+            933.7
+          ],
+          "quote": "And I was like, dude, you are inheriting a founder's forecast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            934.321,
+            940.365
+          ],
+          "quote": "Founders are default optimists, extremely exuberant, and by the way, do not know how to forecast a business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            956.642,
+            966.928
+          ],
+          "quote": "I'm not gonna assume anything other than like your founder is exuberant, but you need to re-forecast what you think you can do in the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            967.649,
+            970.931
+          ],
+          "quote": "I would not forecast the PLG product that doesn't exist yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            971.531,
+            981.297
+          ],
+          "quote": "I would work backwards from a set of data that you better go get answers to very quickly and like give a reasonable forecast and then put the pressure back on the product team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "headcount-to-revenue-ratio",
+      "type": "concept",
+      "role": "concept",
+      "name": "人手收入比 (headcount to revenue ratio)",
+      "file": "人手收入比",
+      "primary": true,
+      "how_described": "本集把它说成:替代「帝国建造」(管 500 人、1000 人组织)的新衡量标准——Vercel 销售配额每六个月上调、人均产出比持续显著上升,未来人们问的是你的人手收入比而不是你管过多少人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 736,
+          "t": [
+            3249.133,
+            3259.938
+          ],
+          "quote": "Um, you know, this much revenue, this much impact, um, and people were an input and maybe people are going to start asking what was your headcount to revenue ratio rather than did you manage a thousand percent work?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

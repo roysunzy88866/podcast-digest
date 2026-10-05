@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]]
+[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Positron":1,"Anthropic":173,"OpenAI":161,"NVIDIA":54,"DeepSeq":2,"推理":74,"内存墙":1,"KV 缓存":4,"token":31}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Positron":1,"Anthropic":175,"OpenAI":164,"NVIDIA":56,"DeepSeq":2,"推理":77,"内存墙":1,"KV 缓存":4,"token":31}</script>
 
 <script>
 (function(){

@@ -1,0 +1,3118 @@
+{
+  "episode_id": "2026-08-25-dwarkesh-dylan-patel-3",
+  "podcast": "Dwarkesh Podcast",
+  "date": "2026-08-25",
+  "tags": [
+    "AI 算力",
+    "实验室经济",
+    "宏观与利率",
+    "半导体供应链",
+    "出口管制"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dylan-patel",
+      "type": "person",
+      "role": "host",
+      "name": "Dylan Patel",
+      "file": "Dylan Patel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            2.726
+          ],
+          "quote": " Okay, I'm back with Dylan Patel, founder of Semi Analysis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:两大前沿实验室之一,算力从年初 2 吉瓦涨到年底超 5,据信第三季度可能转正,且未发布内部更强的模型 Astra、停训两周。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            46.895,
+            51.882
+          ],
+          "quote": "about a third of the compute coming online is for the labs, for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            110.521,
+            115.288
+          ],
+          "quote": "OpenAI could potentially start turning a profit even with the big rise of Codex",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            164.944,
+            170.508
+          ],
+          "quote": "you know, NVIDIA Hopper GPUs was generating negative gross margin for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            171.328,
+            177.935
+          ],
+          "quote": "But now when OpenAI serves GPT 5.6 or Anthropic serves Opus 5 or Mythos,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            233.857,
+            238.143
+          ],
+          "quote": "Anthropic OpenAI started at two for OpenAI and less than two for Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            257.282,
+            263.467
+          ],
+          "quote": "You've got Anthropic OpenAI are taking as much as 40 to 50% of compute next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            278.789,
+            282.63
+          ],
+          "quote": "And they're actively going to lease quite a bit of it to Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            287.132,
+            290.08299999999997
+          ],
+          "quote": "In addition, OpenAI and Anthropic are also starting to build their own compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            290.133,
+            291.683
+          ],
+          "quote": "OpenAI with their own chips,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            297.935,
+            301.577
+          ],
+          "quote": "when does half of the world's incremental new compute go to just OpenAI",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            378.513,
+            380.4018888888889
+          ],
+          "quote": "So if Anthropic and OpenAI take on",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            546.969,
+            549.291
+          ],
+          "quote": "And you had to pay, like, you know, the OpenAI for the R&D.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            990.65,
+            992.992
+          ],
+          "quote": "OpenAI not releasing Astra,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            993.332,
+            995.4986666666666
+          ],
+          "quote": "OpenAI stopping training for two weeks,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1110.578,
+            1114.289
+          ],
+          "quote": " That these models generate does not get given to OpenAI Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1118.02,
+            1123.002
+          ],
+          "quote": "Jane Street with their exclusive contract with OpenAI for GPT 5.6 Ultra Fast Mode",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1180.694,
+            1184.456
+          ],
+          "quote": "and OpenAI can generate from it or be very close to it with like a small amount",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1184.476,
+            1185.938
+          ],
+          "quote": "of markup for Anthropic and OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1315.607,
+            1320.243
+          ],
+          "quote": "Does Anthropica and OpenAI, you know, they've slowly started to balloon in value capture.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1453.919,
+            1458.082
+          ],
+          "quote": "or should I go out there and sell it to Anthropic OpenAI at crazy margins?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1542.939,
+            1545.16
+          ],
+          "quote": "Like for Anthropic or OpenAI by end of 2027?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1652.903,
+            1656.4585555555557
+          ],
+          "quote": " And OpenAI says they're not training models for two weeks, man.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            1872.134,
+            1875.995
+          ],
+          "quote": "And I think the obvious answer from Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            1903.652,
+            1906.657
+          ],
+          "quote": "is OpenAI releasing ultra-fast mode for just external,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2189.309,
+            2192.364555555556
+          ],
+          "quote": "or Google will have in 28, or OpenAI will have in 2028.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            3754.222,
+            3758.110888888889
+          ],
+          "quote": "either as tokens because their lab works or just Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1516,
+          "t": [
+            4427.191,
+            4431.216
+          ],
+          "quote": "It's like NVIDIA is a huge share of it and Anthropic and OpenAI and these hyperscalers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它第二季度已开始盈利,每兆瓦收入高达 5000 万美元,并用 Google 的 TPU 自建算力,同时扣下了安全评估未过的下一代模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            105.213,
+            107.49077777777777
+          ],
+          "quote": "Anthropic started turning a profit in Q2.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            171.328,
+            177.935
+          ],
+          "quote": "But now when OpenAI serves GPT 5.6 or Anthropic serves Opus 5 or Mythos,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            185.863,
+            191.589
+          ],
+          "quote": "In the case of Anthropic, the revenue has gone as high as $50 million per megawatt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            233.857,
+            238.143
+          ],
+          "quote": "Anthropic OpenAI started at two for OpenAI and less than two for Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            257.282,
+            263.467
+          ],
+          "quote": "You've got Anthropic OpenAI are taking as much as 40 to 50% of compute next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            278.789,
+            282.63
+          ],
+          "quote": "And they're actively going to lease quite a bit of it to Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            287.132,
+            290.08299999999997
+          ],
+          "quote": "In addition, OpenAI and Anthropic are also starting to build their own compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            291.733,
+            295.254
+          ],
+          "quote": "Anthropic with TPUs that they're purchasing from Google and deploying",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            301.597,
+            302.597
+          ],
+          "quote": "and Anthropic?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            306.333,
+            308.995
+          ],
+          "quote": " It's already half of the incremental compute is going to anthropic and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            378.513,
+            380.4018888888889
+          ],
+          "quote": "So if Anthropic and OpenAI take on",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            586.91,
+            587.631
+          ],
+          "quote": "anthropic and open air, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            846.584,
+            849.2506666666666
+          ],
+          "quote": "when Amazon is serving bedrock anthropic models,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            849.585,
+            853.668
+          ],
+          "quote": "That counts as Anthropic compute in our worldview because it is effectively,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            854.269,
+            856.33
+          ],
+          "quote": "counted as revenue for Anthropic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            995.614,
+            999.066
+          ],
+          "quote": "Anthropic not releasing what their safety assessment said is Model 2,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1110.578,
+            1114.289
+          ],
+          "quote": " That these models generate does not get given to OpenAI Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1125.143,
+            1128.064
+          ],
+          "quote": "of Anthropic's biggest customers is generating way, way, way,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1128.084,
+            1134.666
+          ],
+          "quote": "way more value out of the tokens they're paying for than Anthropic is generating",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1140.448,
+            1146.932
+          ],
+          "quote": "who at one point was rumored to be as much as 10% of Anthropic's business,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1156.497,
+            1161.24
+          ],
+          "quote": "They're making way more money off of using these models than Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1174.489,
+            1180.673
+          ],
+          "quote": "would you just expect the price of compute to equal whatever Anthropic",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1184.476,
+            1185.938
+          ],
+          "quote": "of markup for Anthropic and OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1191.882,
+            1194.054
+          ],
+          "quote": "for and how much money Anthropic can make from it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1197.615,
+            1201.9483333333333
+          ],
+          "quote": "If Anthropic's ability to monetize a gigawatt doubles or triples or something,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1205.078,
+            1205.899
+          ],
+          "quote": "And so Anthropic,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1326.122,
+            1333.024
+          ],
+          "quote": " I sell my compute for $25 million a megawatt or $40 million a megawatt to Anthropic and Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1383.689,
+            1384.109
+          ],
+          "quote": "Anthropic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1390.328,
+            1393.33
+          ],
+          "quote": "And obviously, it's not like Elon decided this or Anthropic decided this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1453.919,
+            1458.082
+          ],
+          "quote": "or should I go out there and sell it to Anthropic OpenAI at crazy margins?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1542.939,
+            1545.16
+          ],
+          "quote": "Like for Anthropic or OpenAI by end of 2027?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            1758.463,
+            1762.386
+          ],
+          "quote": "why would Anthropic not have their best model six months ahead",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            1872.134,
+            1875.995
+          ],
+          "quote": "And I think the obvious answer from Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            1968.083,
+            1971.296
+          ],
+          "quote": " You would agree that every month, Anthropic has added more compute than the prior month.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 812,
+          "t": [
+            2435.235,
+            2438.498
+          ],
+          "quote": "Whereas Anthropic is, you know, nearly five gigawatts by the end of the year, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 830,
+          "t": [
+            2485.433,
+            2489.075
+          ],
+          "quote": "when Anthropic trains Mythos, it's sub-200 megawatts, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 985,
+          "t": [
+            2963.909,
+            2968.41
+          ],
+          "quote": "if you build a data center and you can rent it out to Anthropic and Urban AI",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            3754.222,
+            3758.110888888889
+          ],
+          "quote": "either as tokens because their lab works or just Anthropic and OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            3796.649,
+            3799.321
+          ],
+          "quote": "like, okay, then Anthropic and Open, I have to start like building their own stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1337,
+          "t": [
+            3943.492,
+            3946.473
+          ],
+          "quote": "or is not going to want Anthropic to use Mythos 4 internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1516,
+          "t": [
+            4427.191,
+            4431.216
+          ],
+          "quote": "It's like NVIDIA is a huge share of it and Anthropic and OpenAI and these hyperscalers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1537,
+          "t": [
+            4482.357,
+            4488.599
+          ],
+          "quote": "Now, the one positive thing here is that today, Anthropic does not capture most of the value.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1555,
+          "t": [
+            4525.761,
+            4526.341
+          ],
+          "quote": "from Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1565,
+          "t": [
+            4544.967,
+            4548.697999999999
+          ],
+          "quote": "there's 80,000 worlds and only one of them, Anthropic, doesn't own the whole world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1581,
+          "t": [
+            4576.389,
+            4580.3334444444445
+          ],
+          "quote": "whatever it is, you know, why would Anthropic allocate compute to that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1585,
+          "t": [
+            4586.353,
+            4588.704
+          ],
+          "quote": "so they're willing to pay Anthropic 100, well,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1586,
+          "t": [
+            4588.754,
+            4592.646
+          ],
+          "quote": "what if Anthropic can just generate hundreds of millions of dollars per megawatt",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 在用自己的资产负债表囤积算力、不先找终端客户就建,可自用或以疯狂利润率外卖,是算力上「唯一说得通的第三名」之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            836.339,
+            842.081
+          ],
+          "quote": "Is Google or Meta or Amazon willing to sell even that much?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1135.546,
+            1140.408
+          ],
+          "quote": "Because they get to make money off of the Or Meta,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1362.152,
+            1363.353
+          ],
+          "quote": "If Meta can build compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1417.854,
+            1422.027
+          ],
+          "quote": "And so there's this sort of like completely different power structure where Meta,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1448.514,
+            1451.827
+          ],
+          "quote": "And now Meta and SpaceX have this optionality of looking around and being like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1458.622,
+            1462.686
+          ],
+          "quote": "So now we've sort of entered a regime where SpaceX and Meta are saying,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 921,
+          "t": [
+            2729.905,
+            2736.653
+          ],
+          "quote": "Hyperscalers, they funded all of the growth up until now, Google, Microsoft, Amazon, Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            2748.684,
+            2754.607
+          ],
+          "quote": "You've seen Meta do it, even Amazon, even Google, you know, Microsoft will be there soon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 930,
+          "t": [
+            2763.912,
+            2768.124
+          ],
+          "quote": "it was pretty simple for them to stop doing buybacks or Meta stopped doing buybacks",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            3422.565,
+            3427.768
+          ],
+          "quote": "I think Meta paid, okay, let's like, so this is going to be extremely vibed out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            3428.008,
+            3430.89
+          ],
+          "quote": "But recently Meta's raised at like 5% to 6%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1254,
+          "t": [
+            3736.096,
+            3737.457
+          ],
+          "quote": "like Meta trading at,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1256,
+          "t": [
+            3737.778,
+            3740.601
+          ],
+          "quote": "I think Meta trades at like something, they're like $1.5 trillion company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集说 SpaceX 手握现成算力,以每兆瓦 2500 万甚至 4000 万美元卖给 Anthropic 和 Google,一年收回全部 CapEx,与 Meta 同为囤算力的第三名。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            274.743,
+            278.739
+          ],
+          "quote": "Next year, big new insurance, for example, SpaceX is building a ton of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1346.507,
+            1349.0625555555557
+          ],
+          "quote": "the SpaceX sold for 40 B a gigawatt to Google,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1364.935,
+            1367.727
+          ],
+          "quote": "SpaceX can build compute without finding a customer just saying,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1424.898,
+            1427.55
+          ],
+          "quote": "them and SpaceX are plausibly the like number three.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1448.514,
+            1451.827
+          ],
+          "quote": "And now Meta and SpaceX have this optionality of looking around and being like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1458.622,
+            1462.686
+          ],
+          "quote": "So now we've sort of entered a regime where SpaceX and Meta are saying,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            1971.346,
+            1973.728
+          ],
+          "quote": "There might be some noise when they sign a SpaceX deal or whatever,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 950,
+          "t": [
+            2834.678,
+            2838.651
+          ],
+          "quote": "to pay 20% because it's still better than renting it from SpaceX for $50 billion",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集提到 Google 向 Anthropic 出售 TPU、也以每吉瓦 400 亿买入 SpaceX 的算力,并与超大规模云厂商一起举债支付 CapEx。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            291.733,
+            295.254
+          ],
+          "quote": "Anthropic with TPUs that they're purchasing from Google and deploying",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            836.339,
+            842.081
+          ],
+          "quote": "Is Google or Meta or Amazon willing to sell even that much?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1326.122,
+            1333.024
+          ],
+          "quote": " I sell my compute for $25 million a megawatt or $40 million a megawatt to Anthropic and Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1346.507,
+            1349.0625555555557
+          ],
+          "quote": "the SpaceX sold for 40 B a gigawatt to Google,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2189.309,
+            2192.364555555556
+          ],
+          "quote": "or Google will have in 28, or OpenAI will have in 2028.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 921,
+          "t": [
+            2729.905,
+            2736.653
+          ],
+          "quote": "Hyperscalers, they funded all of the growth up until now, Google, Microsoft, Amazon, Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            2748.684,
+            2754.607
+          ],
+          "quote": "You've seen Meta do it, even Amazon, even Google, you know, Microsoft will be there soon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            2762.951,
+            2763.892
+          ],
+          "quote": "In the case of like Google,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 GPT-4 部署在 NVIDIA Hopper GPU 上曾是负毛利,且中国走私/采购的芯片多与 NVIDIA 有关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            164.944,
+            170.508
+          ],
+          "quote": "you know, NVIDIA Hopper GPUs was generating negative gross margin for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1585.896,
+            1590.883
+          ],
+          "quote": "And Elon's saying they're exclusive to NVIDIA, but why doesn't Jensen raise his prices?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1593.487,
+            1596.361
+          ],
+          "quote": " Micron and Samsung looked at Nvidia and were like, well, why don't they raise their price?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2118.369,
+            2122.135
+          ],
+          "quote": "Their purchasing from NVIDIA is still quite small.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2184.022,
+            2189.209
+          ],
+          "quote": "Those chips are definitely worse than the chips that NVIDIA will have in 28,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            2258.986,
+            2261.889
+          ],
+          "quote": "is allowing NVIDIA to sell them or what have you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1516,
+          "t": [
+            4427.191,
+            4431.216
+          ],
+          "quote": "It's like NVIDIA is a huge share of it and Anthropic and OpenAI and these hyperscalers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jane-street",
+      "type": "company",
+      "role": "company",
+      "name": "Jane Street",
+      "file": "Jane Street",
+      "primary": true,
+      "how_described": "本集说 Jane Street 是 Anthropic 最大客户之一,每兆瓦能榨出 3-5 亿美元价值、只付 1 亿,是「价值大多未被实验室拿走」的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            1118.02,
+            1123.002
+          ],
+          "quote": "Jane Street with their exclusive contract with OpenAI for GPT 5.6 Ultra Fast Mode",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1123.042,
+            1125.123
+          ],
+          "quote": "or Jane Street where they're like one",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1303.344,
+            1305.6773333333333
+          ],
+          "quote": "the market like Jane Street as an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1357,
+          "t": [
+            3993.848,
+            3997.4035555555556
+          ],
+          "quote": "Jane Street is hiring for two separate ML internships right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1370,
+          "t": [
+            4032.184,
+            4035.461777777778
+          ],
+          "quote": "The Jane Street team follows Frontier LLM research closely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1379,
+          "t": [
+            4060.505,
+            4064.616
+          ],
+          "quote": "As long as you have a background in ML research, Jane Street can teach you the rest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1544,
+          "t": [
+            4503.798,
+            4506.932
+          ],
+          "quote": "because Jane Street is capturing $300 million per megawatt",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1569,
+          "t": [
+            4556.531,
+            4557.5419999999995
+          ],
+          "quote": "Why would I let Jane Street,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1579,
+          "t": [
+            4571.587,
+            4574.519
+          ],
+          "quote": "Jane Street making all this money off of getting the worldview correctly,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1584,
+          "t": [
+            4583.032,
+            4586.333
+          ],
+          "quote": "monetization that Jane Street has per megawatt is 200,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "asml",
+      "type": "company",
+      "role": "company",
+      "name": "ASML",
+      "file": "ASML",
+      "primary": true,
+      "how_described": "本集说实验室被「进入 ASML 机器的反射镜」卡住瓶颈,并讨论 2030 年前需要 100 台 ASML EUV 设备。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            589.592,
+            593.224
+          ],
+          "quote": "but we're just bottlenecked on the mirrors that go into the ASML machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            617.251,
+            621.835
+          ],
+          "quote": "I think if anyone had $400 million and the ability to convince ASML to sell them",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            711.329,
+            713.83
+          ],
+          "quote": "100 ASML tools for 2030.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "carl-zeiss",
+      "type": "company",
+      "role": "company",
+      "name": "Carl Zeiss",
+      "file": "Carl Zeiss",
+      "primary": true,
+      "how_described": "本集说卡尔蔡司现在才意识到要在十年结束前造够 100 台 EUV 设备所需的镜片,而按真实经济逻辑应该更多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            644.133,
+            646.579
+          ],
+          "quote": " You go to talk to someone at Carl Zeiss, they're like, yeah, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            716.03,
+            716.76
+          ],
+          "quote": "Carl Zeiss,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集主线:全球算力每年约翻倍,前沿实验室算力每年翻三倍,增量算力明年年底将有一半流向两大实验室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            18.704,
+            22.357
+          ],
+          "quote": "where lab economics are headed, where the compute market is headed, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            30.015,
+            36.361
+          ],
+          "quote": "So walk me through lab compute and lab revenue right now and maybe projecting out a year or two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            46.895,
+            51.882
+          ],
+          "quote": "about a third of the compute coming online is for the labs, for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            148.912,
+            155.777
+          ],
+          "quote": "You know, the base cost of compute tends to be around 10 or 13 or $15 million per megawatt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            208.475,
+            211.577
+          ],
+          "quote": "of compute happening in the labs or the relative ratio of compute that goes to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            216.382,
+            219.426
+          ],
+          "quote": "a third of marginal compute is going to the labs,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            220.207,
+            224.332
+          ],
+          "quote": "by when is it over half of the incremental compute in the world is going to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            241.508,
+            243.95244444444447
+          ],
+          "quote": "So they've three, four X compute as a whole.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            245.153,
+            247.735
+          ],
+          "quote": "When you When you look at the incremental compute added,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            247.755,
+            250.42166666666665
+          ],
+          "quote": "that's about 30% of the compute added this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            257.282,
+            263.467
+          ],
+          "quote": "You've got Anthropic OpenAI are taking as much as 40 to 50% of compute next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            270.717,
+            273.717
+          ],
+          "quote": "Now, who's building that compute for them will change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            274.743,
+            278.739
+          ],
+          "quote": "Next year, big new insurance, for example, SpaceX is building a ton of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            287.132,
+            290.08299999999997
+          ],
+          "quote": "In addition, OpenAI and Anthropic are also starting to build their own compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            297.935,
+            301.577
+          ],
+          "quote": "when does half of the world's incremental new compute go to just OpenAI",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            306.333,
+            308.995
+          ],
+          "quote": " It's already half of the incremental compute is going to anthropic and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            309.756,
+            312.138
+          ],
+          "quote": "Because compute is growing so fast,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            313.459,
+            316.01099999999997
+          ],
+          "quote": "incremental compute is going to be basically most of compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            318.943,
+            322.085
+          ],
+          "quote": "that most of the world's compute is owned by two labs or at least is serving",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            325.006,
+            329.788
+          ],
+          "quote": "So there's this trend where maybe world compute in gigawatts doubles every year,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            329.868,
+            333.039
+          ],
+          "quote": "but the compute at the frontier laps triples every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            345.98,
+            349.101
+          ],
+          "quote": "they simply can't continue tripling given the amount of world compute?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            349.121,
+            351.973
+          ],
+          "quote": "Or how do you see the world compute situation over the next few years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            352.023,
+            354.81399999999996
+          ],
+          "quote": "Yeah, so if the incremental compute adds this year 30 gigawatts,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            368.498,
+            371.452
+          ],
+          "quote": "a humongous percentage of the world's compute was deployed this year,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            488.846,
+            493.254
+          ],
+          "quote": "the tooling costs to produce a gigawatt of compute basically every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            825.734,
+            830.876
+          ],
+          "quote": "80% of incremental compute, and I'm not sure what happens to markets then, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            830.916,
+            834.698
+          ],
+          "quote": "How much does the price of compute skyrocket for them to actually be able to buy 70,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            834.718,
+            835.718
+          ],
+          "quote": "80% of compute?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            849.585,
+            853.668
+          ],
+          "quote": "That counts as Anthropic compute in our worldview because it is effectively,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            868.756,
+            873.3115555555555
+          ],
+          "quote": "because anyone can make money off of 10 to $15 million per megawatt compute today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            896.361,
+            899.793
+          ],
+          "quote": "And you'll start generating more revenue than you're paying for the compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            899.843,
+            903.144
+          ],
+          "quote": "And so this has sort of already led to this compute pricing,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            910.147,
+            914.088
+          ],
+          "quote": "you have to believe that the labs can outpay for compute",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            917.228,
+            919.599
+          ],
+          "quote": "Does compute now get to $25 million a megawatt?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            936.473,
+            936.8240000000001
+          ],
+          "quote": "the compute,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            965.41,
+            970.254
+          ],
+          "quote": "50 million dollars a megawatt to really gobble up 70% of the world's compute",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1022.698,
+            1025.663
+          ],
+          "quote": "then their ability to buy that incremental compute for a higher price",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1043.184,
+            1047.5728888888889
+          ],
+          "quote": "with their compute besides say, please, Dario, take everything off of my hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1174.489,
+            1180.673
+          ],
+          "quote": "would you just expect the price of compute to equal whatever Anthropic",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1186.638,
+            1191.822
+          ],
+          "quote": "it's really weird that there is a 4x or more difference between what compute sells",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1326.122,
+            1333.024
+          ],
+          "quote": " I sell my compute for $25 million a megawatt or $40 million a megawatt to Anthropic and Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1338.885,
+            1342.516
+          ],
+          "quote": "So what's your prediction of how much the relevant tranche of compute,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1351.647,
+            1355.522
+          ],
+          "quote": " I think most compute will still continue to transact at sub $20 billion a gigawatt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1358.93,
+            1362.0966666666668
+          ],
+          "quote": " For compute that you can build without financing, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1362.152,
+            1363.353
+          ],
+          "quote": "If Meta can build compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1364.935,
+            1367.727
+          ],
+          "quote": "SpaceX can build compute without finding a customer just saying,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1368.037,
+            1369.588
+          ],
+          "quote": "I'm gonna build this compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1374.882,
+            1378.125
+          ],
+          "quote": "So most compute is contracted well before it's built.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1381.707,
+            1383.669
+          ],
+          "quote": "he actually had all this compute and he was like, hey,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1400.894,
+            1404.846
+          ],
+          "quote": "okay, I'm going to build a gigawatt of compute or 100 megawatts of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1422.077,
+            1424.418
+          ],
+          "quote": "who is effectively hoarding compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1427.6,
+            1430.0510000000002
+          ],
+          "quote": "And the only plausible number three is because they're hoarding all this compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1430.101,
+            1433.493
+          ],
+          "quote": "They're using their balance sheets and capabilities to build compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1433.543,
+            1437.016
+          ],
+          "quote": "to build compute without an end customer that's monetizing at a huge degree.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1445.271,
+            1448.464
+          ],
+          "quote": "not a crazy margin, but you can make a good margin, and I now have all this compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1463.366,
+            1465.0882222222222
+          ],
+          "quote": "I'm going to build the compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1658.367,
+            1661.059
+          ],
+          "quote": "are they getting enough use for it so they'll, like, bid up the price of compute?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            1791.091,
+            1793.414
+          ],
+          "quote": "So like 10% of the compute, 2 gigawatts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            1794.636,
+            1799.943
+          ],
+          "quote": "Let's say they want to go from 60% compute to training to 70% compute to training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1809.464,
+            1811.644
+          ],
+          "quote": "to increase your training compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            1820.648,
+            1825.59
+          ],
+          "quote": "we will keep increasing the share of compute we spent on training to offset",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1826.07,
+            1830.052
+          ],
+          "quote": "the increase in revenue that each gigawatt of compute is giving us?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1834.228,
+            1837.342
+          ],
+          "quote": "to allocate less and less compute to inference over time,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            1840.477,
+            1844.754777777778
+          ],
+          "quote": "The standard belief of most people is, oh, most compute will go to inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 625,
+          "t": [
+            1885.98,
+            1890.0355555555557
+          ],
+          "quote": "you're going to see them ratchet up their percentage of compute dedicated",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            1891.963,
+            1895.674
+          ],
+          "quote": "While each increment of compute is getting more and more profit generating",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            1941.154,
+            1942.364
+          ],
+          "quote": "and more compute internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1942.414,
+            1946.196
+          ],
+          "quote": "And the only reason to have inference compute be so large is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 648,
+          "t": [
+            1952.118,
+            1956.24
+          ],
+          "quote": "What would have to be true about a world where they reduce fraction of compute spent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            1960.782,
+            1965.364
+          ],
+          "quote": "I think parts of this year they were increasing fraction of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            1968.083,
+            1971.296
+          ],
+          "quote": " You would agree that every month, Anthropic has added more compute than the prior month.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 656,
+          "t": [
+            1973.768,
+            1977.211
+          ],
+          "quote": "but in general, the amount of compute is a curve up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            1977.711,
+            1980.355
+          ],
+          "quote": "And so in January, they added less compute than December.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 663,
+          "t": [
+            1996.032,
+            1999.7640000000001
+          ],
+          "quote": "And so they are factually increasing their compute towards R&D today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2007.558,
+            2010.871
+          ],
+          "quote": "So if I look at the numbers you said of like how fast world compute grows,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2014.784,
+            2018.797
+          ],
+          "quote": "it would be over 200 gigawatts of world compute by the end of 2028, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2022.81,
+            2024.6988888888889
+          ],
+          "quote": "Like global AI compute after 2028?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            2061.915,
+            2065.916
+          ],
+          "quote": "And how does Chinese compute continue increasing through this whole trend?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2072.159,
+            2074.9429999999998
+          ],
+          "quote": "of compute, maybe we're living in a different world than when it doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2081.303,
+            2085.049
+          ],
+          "quote": "the US was adding about 45 to 50% of the world's compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2085.509,
+            2090.216
+          ],
+          "quote": "China was adding about 30 to 35% of the world's compute and the rest being taken up",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2106.197,
+            2110.879
+          ],
+          "quote": "It's sub 10% of watts being deployed for data center AI compute is in China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2127.641,
+            2133.624
+          ],
+          "quote": " So ultimately, China domestically still continues to have sub 10% of incremental new compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2137.285,
+            2141.7369999999996
+          ],
+          "quote": "But it's pretty easy to say China will have like 30 gigawatts of AI compute or less.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2146.469,
+            2151.596
+          ],
+          "quote": " I do think in 2028, they have a big uplift in what compute they're able to deploy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2214.341,
+            2216.151
+          ],
+          "quote": "to start shipping large amounts of compute?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 761,
+          "t": [
+            2294.53,
+            2300.633
+          ],
+          "quote": "in 2028 has more compute than China will have in like All of China will have in 29",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2343.573,
+            2346.687
+          ],
+          "quote": "But I didn't realize the compute situation was as fucked as you're saying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2356.549,
+            2359.049
+          ],
+          "quote": "China is way far behind on the compute stock.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2402.216,
+            2404.417
+          ],
+          "quote": "which then is compute at some point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2412.769,
+            2417.296
+          ],
+          "quote": "at least perceivably by the public relative to the amount of compute they have,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 808,
+          "t": [
+            2419.919,
+            2422.419
+          ],
+          "quote": " 100, 200 megawatts total of compute at most.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2447.595,
+            2449.095
+          ],
+          "quote": "this difference in compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2449.398,
+            2453.984
+          ],
+          "quote": "because when we break down the compute ratio or budget of a lab,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            2463.253,
+            2466.614
+          ],
+          "quote": "And it's actually like 50% of the compute is research,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2467.175,
+            2470.917
+          ],
+          "quote": "like 10% of the compute is development, and then 40% is inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 835,
+          "t": [
+            2496.58,
+            2499.031
+          ],
+          "quote": "But you think the RL is less to compute than the pre-training?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 838,
+          "t": [
+            2503.585,
+            2505.0969999999998
+          ],
+          "quote": " But total compute was probably higher, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 843,
+          "t": [
+            2515.342,
+            2519.298
+          ],
+          "quote": "So most of their compute was going to the research, not the development.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 856,
+          "t": [
+            2550.748,
+            2554.45
+          ],
+          "quote": "I actually expect the percentage of the compute budget that goes",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2738.976,
+            2743.342
+          ],
+          "quote": "They were more than half of compute, but they now don't generate cash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            3308.16,
+            3312.022
+          ],
+          "quote": "And labs are not the ones building all the compute in many cases,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            3390.544,
+            3396.821
+          ],
+          "quote": "you've sort of got This is not enough compute relative to what this demand growth is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            3434.092,
+            3437.034
+          ],
+          "quote": "Because they would happily pay 8% because the return from the compute",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1261,
+          "t": [
+            3748.179,
+            3750.68
+          ],
+          "quote": "And like all the infrastructure they're hoarding and all the compute",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1323,
+          "t": [
+            3912.972,
+            3916.374
+          ],
+          "quote": "But they don't just limit compute, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1386,
+          "t": [
+            4094.847,
+            4099.712
+          ],
+          "quote": " And further, the compute required to achieve the likelihood is decreasing 3x a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1387,
+          "t": [
+            4100.312,
+            4102.0342222222225
+          ],
+          "quote": "So the compute at the frontier,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1398,
+          "t": [
+            4133.611,
+            4135.012
+          ],
+          "quote": "even if compute scaling slows down,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1412,
+          "t": [
+            4173.351,
+            4175.804
+          ],
+          "quote": "we're consuming more and more of the world's compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1426,
+          "t": [
+            4206.575,
+            4210.377
+          ],
+          "quote": "of compute and can generate the most value from the compute,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1427,
+          "t": [
+            4210.757,
+            4213.928
+          ],
+          "quote": "then the only thing that's going to happen is centralization of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1541,
+          "t": [
+            4497.242,
+            4498.643
+          ],
+          "quote": " for a lot of the compute they're buying.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1581,
+          "t": [
+            4576.389,
+            4580.3334444444445
+          ],
+          "quote": "whatever it is, you know, why would Anthropic allocate compute to that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1587,
+          "t": [
+            4592.696,
+            4594.529333333333
+          ],
+          "quote": "by using that compute internally?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "CapEx",
+      "file": "CapEx",
+      "primary": true,
+      "how_described": "本集反复用 CapEx 讲行业:今年略超 1 万亿、2028 年超 2 万亿,晶圆厂 60 亿 CapEx 与终端收入间有 100 倍差距。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            63.41,
+            67.212
+          ],
+          "quote": "We're at a little bit over a trillion dollars of CapEx this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            500.556,
+            505.177
+          ],
+          "quote": "So $6 billion of fab capex produces every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            512.275,
+            516.4972222222221
+          ],
+          "quote": "But also that $6 billion in CapEx is producing a gigawatt every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            533.109,
+            539.056
+          ],
+          "quote": "Six billion of capex at the fab level will have generated over a trillion dollars",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            543.526,
+            546.168
+          ],
+          "quote": " There's a lot of other CAPEX, like the data center,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            556.858,
+            563.303
+          ],
+          "quote": "That still means there's 100x discrepancy between fab CAPEX and end revenue generated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            751.682,
+            754.887
+          ],
+          "quote": " But ultimately, CapEx next year is like $2 trillion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            770.627,
+            775.23
+          ],
+          "quote": "You sum all this up, it's going to be well north of $2 trillion of CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            784.276,
+            787.2204444444444
+          ],
+          "quote": "You want to make your CapEx higher than your returns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1334.744,
+            1337.705
+          ],
+          "quote": " I've sold it for this price, and I'll recoup my entire capex",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1404.896,
+            1406.056
+          ],
+          "quote": "I'm going to spend the CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 862,
+          "t": [
+            2572.471,
+            2576.471
+          ],
+          "quote": "at current prices, that would be $5 trillion of CapEx every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 876,
+          "t": [
+            2610.975,
+            2612.396
+          ],
+          "quote": "When you talk about AI CapEx,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 885,
+          "t": [
+            2637.246,
+            2638.3015555555558
+          ],
+          "quote": "in CapEx this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 891,
+          "t": [
+            2650.792,
+            2656.095
+          ],
+          "quote": "So very plausibly, incremental CapEx every year is...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 915,
+          "t": [
+            2707.323,
+            2711.968
+          ],
+          "quote": "where it's like $3 or $4 trillion of CapEx across all of these items.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 916,
+          "t": [
+            2712.948,
+            2716.952
+          ],
+          "quote": "Two and a half towards IT CapEx and then another one to two on data center",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 919,
+          "t": [
+            2721.536,
+            2725.9248888888887
+          ],
+          "quote": "So if you're at $3 or $4 trillion of CapEx, where does all this cash come from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 924,
+          "t": [
+            2743.962,
+            2745.8529999999996
+          ],
+          "quote": " They actually spend everything on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 925,
+          "t": [
+            2745.903,
+            2748.664
+          ],
+          "quote": "And in addition, they raise debt and spend everything on CapEx, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            2755.027,
+            2757.6789999999996
+          ],
+          "quote": "Everyone is raising debt to pay for their CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3275.436,
+            3280.8
+          ],
+          "quote": "In the modeling that we do, we have about $11 trillion of CapEx from 2024 to 2029.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            3323.379,
+            3326.43
+          ],
+          "quote": "there's something on the order of $11 trillion of CapEx,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集的反共识判断:实验室不会把越来越多算力分给推理,而是转向训练和研发;推理算力占比将下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            195.026,
+            197.688
+          ],
+          "quote": "if I spend $10 on inference capacity,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            1695.687,
+            1698.29
+          ],
+          "quote": " We can't use it to optimize inference performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1834.228,
+            1837.342
+          ],
+          "quote": "to allocate less and less compute to inference over time,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            1840.477,
+            1844.754777777778
+          ],
+          "quote": "The standard belief of most people is, oh, most compute will go to inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            1845.464,
+            1850.748
+          ],
+          "quote": " We'll go to forward passes for training, not maybe necessarily revenue generating inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            1854.45,
+            1858.353
+          ],
+          "quote": "$40 million per megawatt today, you allocate 40% to inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 618,
+          "t": [
+            1862.296,
+            1867.319
+          ],
+          "quote": "do you still allocate 40% to inference and generate all this profit and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            1895.724,
+            1897.2930000000001
+          ],
+          "quote": "if they had dedicated to inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1942.414,
+            1946.196
+          ],
+          "quote": "And the only reason to have inference compute be so large is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            1956.26,
+            1957.26
+          ],
+          "quote": "on inference?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            1994.131,
+            1995.312
+          ],
+          "quote": "to R&D than it is inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2458.01,
+            2463.203
+          ],
+          "quote": " So far it's been like 60% training, 40% inference, but that training gets broken down further.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2467.175,
+            2470.917
+          ],
+          "quote": "like 10% of the compute is development, and then 40% is inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2499.081,
+            2501.703
+          ],
+          "quote": "At least in terms of single-site inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            3341.725,
+            3346.0359999999996
+          ],
+          "quote": "One, do labs increase their revenue per megawatt more and keep inference allocations large?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1557,
+          "t": [
+            4526.641,
+            4531.064
+          ],
+          "quote": "but the whole logic you were laying out earlier of them reallocating inference",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练 (training)",
+      "file": "训练",
+      "primary": true,
+      "how_described": "本集说利润的去向由「造 AGI 更赚钱」决定,实验室会不断提高花在训练上的算力比例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            203.372,
+            203.852
+          ],
+          "quote": " on training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            993.332,
+            995.4986666666666
+          ],
+          "quote": "OpenAI stopping training for two weeks,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1652.903,
+            1656.4585555555557
+          ],
+          "quote": " And OpenAI says they're not training models for two weeks, man.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            1794.636,
+            1799.943
+          ],
+          "quote": "Let's say they want to go from 60% compute to training to 70% compute to training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1809.464,
+            1811.644
+          ],
+          "quote": "to increase your training compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1813.565,
+            1814.646
+          ],
+          "quote": "You're already spending so much on training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1814.666,
+            1816.476
+          ],
+          "quote": "Why are you spending even more on training?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            1820.648,
+            1825.59
+          ],
+          "quote": "we will keep increasing the share of compute we spent on training to offset",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            1845.464,
+            1850.748
+          ],
+          "quote": " We'll go to forward passes for training, not maybe necessarily revenue generating inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 626,
+          "t": [
+            1890.102,
+            1891.603
+          ],
+          "quote": "to training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            1946.236,
+            1947.507
+          ],
+          "quote": "so you can grow your training fleet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2458.01,
+            2463.203
+          ],
+          "quote": " So far it's been like 60% training, 40% inference, but that training gets broken down further.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 829,
+          "t": [
+            2483.292,
+            2485.033
+          ],
+          "quote": "when they do the training run,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2489.095,
+            2490.026
+          ],
+          "quote": "The pre-training or the whole thing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 832,
+          "t": [
+            2490.076,
+            2491.076
+          ],
+          "quote": "The pre-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 835,
+          "t": [
+            2496.58,
+            2499.031
+          ],
+          "quote": "But you think the RL is less to compute than the pre-training?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 837,
+          "t": [
+            2501.743,
+            2503.535
+          ],
+          "quote": "I mean, single-site of pre-training, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 847,
+          "t": [
+            2525.792,
+            2527.973
+          ],
+          "quote": "It's hard to do multi-site training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 851,
+          "t": [
+            2539.881,
+            2542.603
+          ],
+          "quote": "that you have for training onto training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 857,
+          "t": [
+            2554.53,
+            2561.174
+          ],
+          "quote": "to research versus training to start to become a lot more fuzzy or even higher",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 858,
+          "t": [
+            2561.194,
+            2562.194
+          ],
+          "quote": "for training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 860,
+          "t": [
+            2564.255,
+            2569.4216666666666
+          ],
+          "quote": "All of these things start to mean that more and more is actually going to training the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1458,
+          "t": [
+            4288.78,
+            4292.883
+          ],
+          "quote": "AI training has huge economies of scale because any effort you spend into training",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1474,
+          "t": [
+            4331.049,
+            4332.551
+          ],
+          "quote": "whether it's training,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把 AGI 说成实验室再投资的 obviously 答案:「利润拿去分红回购,还是去造 AGI?答案显而易见」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1099.362,
+            1103.1770000000001
+          ],
+          "quote": "But it would be many hundreds of billions of dollars if you get like full AGI per gigawatt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            1870.573,
+            1871.9063333333334
+          ],
+          "quote": " Or do you go build AGI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            1878.016,
+            1882.538
+          ],
+          "quote": "but also their board, is go build AGI because it's way more profitable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            3762.006,
+            3764.7837777777777
+          ],
+          "quote": "you have to reallocate all the capital to the AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            3768.803,
+            3773.947
+          ],
+          "quote": "And so the limiter on AGI is not how fast can the research engineers like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1429,
+          "t": [
+            4217.5,
+            4219.421
+          ],
+          "quote": " AGI, then all of this exists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1485,
+          "t": [
+            4356.427,
+            4360.927
+          ],
+          "quote": "broadly empowered future after AGI that takes these economies of scale seriously?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1533,
+          "t": [
+            4466.592,
+            4470.034
+          ],
+          "quote": "And even as we go towards an AGI, ASI, RSI...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说若存在递归自我改进(RSI),实验室会继续吞噬更多算力,并担心发布延迟六个月里实验室内部完成递归自我改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            930.751,
+            934.302
+          ],
+          "quote": "If there's some kind of recursive self-improvement where the AI labs are like,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "export-controls",
+      "type": "concept",
+      "role": "concept",
+      "name": "出口管制 (export controls)",
+      "file": "出口管制",
+      "primary": true,
+      "how_described": "本集说 2022 年后的出口管制改变了嘉宾的看法:到自动化研究员时代,中国的算力存量将远远落后,管制可能真的奏效了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 782,
+          "t": [
+            2346.737,
+            2349.37
+          ],
+          "quote": "Actually, the export controls do seem to have really...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            2365.473,
+            2371.056
+          ],
+          "quote": "I would say the only caveat there is some of it is export controls,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "interest-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "利率 (interest rate)",
+      "file": "利率",
+      "primary": true,
+      "how_described": "本集说 5 万亿美元 AI 债务会推高全社会利率:Meta 融资成本若从 5-6% 涨到 8%,所有人都要多付 250 个基点,甚至出现「第二次沃尔克冲击」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1039,
+          "t": [
+            3142.2,
+            3145.955
+          ],
+          "quote": "I think are just going to be very fucked in this new interest rate regime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            3181.35,
+            3182.91
+          ],
+          "quote": "not necessarily the government set interest rate,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1050,
+          "t": [
+            3183.61,
+            3186.311
+          ],
+          "quote": "the spread of interest rate between what",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            3249.308,
+            3251.806
+          ],
+          "quote": "Well, the interest rate is part of capitalism, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SemiAnalysis",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

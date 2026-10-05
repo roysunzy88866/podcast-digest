@@ -143,9 +143,9 @@ Toil 在 [[Clearview|Clearview]] 里做了一个组织模拟：15 个团队、�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|MCP 并不烂，烂的是你的智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:harness（智能体承载框架） (harness)、MCP、上下文窗口 (context window)、子智能体 (sub-agent)、沙箱 (sandbox)</span>
 - [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:harness（智能体承载框架） (harness)、提示词注入 (prompt injection)、沙箱 (sandbox)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:harness（智能体承载框架） (harness)、MCP、Skills（技能） (skills)</span>
-- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同概念:MCP、Skills（技能） (skills)、工作流 (workflow)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

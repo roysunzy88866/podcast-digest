@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":20,"数据科学智能体":4,"Spark":2,"a16z":18,"Cursor":80,"Palantir":20,"托管服务":1,"开源":35,"按用量定价":4,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"Databricks":21,"数据科学智能体":4,"Spark":2,"a16z":18,"Cursor":80,"Palantir":20,"托管服务":1,"开源":36,"按用量定价":4,"企业销售":3}</script>
 
 <script>
 (function(){

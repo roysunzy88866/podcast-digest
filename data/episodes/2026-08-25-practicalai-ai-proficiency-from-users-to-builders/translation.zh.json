@@ -1,0 +1,1082 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.74,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客，在这里我们拆解人工智能的真实世界应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让 AI 技术对每个人都实用、高效且易于获得。无论你是开发者、企业领导者，还是只是对这股热潮背后的技术感到好奇，你来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以了解最新节目上线、幕后内容和 AI 洞察。你可以在 practicalai.fm 了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.74,
+  "end": 37.42,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.42,
+  "end": 56.46,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of the Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, is a principal AI and autonomy research engineer. How are doing, Chris?",
+  "zh": "欢迎收听 Practical AI 播客的另一期节目。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO，一如既往地和我的联合主持人一起，Benson 是一名首席 AI 与自主性研究工程师。你怎么样，Chris?"
+ },
+ {
+  "seg": 3,
+  "start": 56.46,
+  "end": 58.219997,
+  "speaker": "Chris Benson",
+  "en": "I'm doing good today. How's it going?",
+  "zh": "我今天很好。你怎么样？"
+ },
+ {
+  "seg": 4,
+  "start": 58.219997,
+  "end": 97.61,
+  "speaker": "Daniel Whitenack",
+  "en": "It's it's going great. I'm continually impressed by just the the amazing AI work that's happening around, not only on on the coast, but in kind of the, I guess, the heartland, the the middle of the country where a lot of actually the large enterprises of of our country are are located. And we have a guest related to that today, but, but I do wanna remind folks, we're we're also involved and a sponsor of the Midwest AI Summit, which is coming up October 15 in Indianapolis. Really cool event, Chris. You were there.",
+  "zh": "进展非常顺利。我不断被震撼，不仅仅是沿海地区，还有这个国家的腹地、中部地区正在发生的了不起的 AI 工作，我们国家很多大型企业实际上都位于那里。我们今天有一位与这方面相关的嘉宾，但我确实想提醒大家，我们也参与并赞助了中西部 AI 峰会，它将于 10 月 15 日在印第安纳波利斯举行。非常酷的活动，Chris。你去过那里。"
+ },
+ {
+  "seg": 5,
+  "start": 97.61,
+  "end": 129.05,
+  "speaker": "Daniel Whitenack",
+  "en": "You saw what was going on. There's tables where you can sit down with actual AI practitioners and, you know, rather than just hear a bunch of talks, you can actually get feedback on what you're doing, suggestions, design, etcetera, and hear great talks. So recommend people check it out, Midwest AI Summit. You can use the code Practical AI 20 for 20% off. But we have an amazing, an amazing AI practitioner from from close by my area, more towards Cincinnati.",
+  "zh": "你看到了那里的情况。有一些桌子，你可以和真正的 AI 从业者坐在一起，你知道，而不只是听一堆演讲，你可以就你正在做的事情获得反馈、建议、设计等等，还能听到精彩的演讲。所以推荐大家去看看，中西部 AI 峰会。你可以使用优惠码 Practical AI 20 获得 20% 的折扣。我们有一位了不起的、来自离我所在地区不远处、更靠近辛辛那提方向的 AI 从业者。"
+ },
+ {
+  "seg": 6,
+  "start": 130.025,
+  "end": 139.065,
+  "speaker": "Daniel Whitenack",
+  "en": "Mike Lewis was on a previous episode with us. We got a ton of great feedback on that episode. He's chief AI architect at tier one performance. Welcome, Mike.",
+  "zh": "Mike Lewis 曾在我们之前的一期节目中做过嘉宾。我们收到了大量关于那一期的极好反馈。他是 tier one performance 的首席 AI 架构师。欢迎，Mike。"
+ },
+ {
+  "seg": 7,
+  "start": 139.065,
+  "end": 140.825,
+  "speaker": "Mike Lewis",
+  "en": "Thank you, Daniel. It's great to be here again.",
+  "zh": "谢谢你，Daniel。很高兴再次来到这里。"
+ },
+ {
+  "seg": 8,
+  "start": 140.825,
+  "end": 170.69,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Like I say, we got I I had multiple people comment on just the utility and and insights that they got out of our previous discussion. And just just for context, because I think it's so impressive what what what you're doing and what you're involved with. Could you just set a little bit of context for kind of the the types of projects that you work on? Like, give an example of kinda some of the types of companies that you work with in relation to AI initiatives?",
+  "zh": "是的。就像我说的，我们收到多个人评论说，他们从我们上一次的讨论中获得了实用性和洞察。只是为了提供一些背景，因为我觉得你正在做的和你所参与的事情非常令人印象深刻。你能不能稍微设定一下你从事的项目类型的背景？比如，举一个与 AI 倡议相关的你合作的公司类型的例子？"
+ },
+ {
+  "seg": 9,
+  "start": 170.69,
+  "end": 197.75,
+  "speaker": "Mike Lewis",
+  "en": "Yeah, sure. So, tier one performance is an end to end organizational performance and transformation partner. What does that mean? We kind of help some of the most of the largest organizations in the world rethink transformation. I would add in, though, that we have a nontraditional approach, a multi decade track record of success there.",
+  "zh": "是的，当然。tier one performance 是一个端到端的组织绩效与转型合作伙伴。这是什么意思？我们帮助一些世界上最大的组织重新思考转型。不过我要补充的是，我们有一种非传统的方法，在这方面有长达数十年的成功记录。"
+ },
+ {
+  "seg": 10,
+  "start": 197.75,
+  "end": 227.84,
+  "speaker": "Mike Lewis",
+  "en": "So, the types of clients we'd work with day to day would be Google, Eli Lilly, Takeda, Air Force, just most of the Fortune 100s. And we see everything related to transformation. So obviously, AI would just represent a sliver of the types of challenges we encounter as an organization day to day. But that sliver is my whole life, you know? So I don't really see all the other stuff.",
+  "zh": "所以，我们日常合作的客户类型包括 Google、礼来、武田、空军，几乎是大多数财富 100 强企业。我们看到所有与转型相关的事情。所以显然，AI 只代表我们作为一个组织日常遇到的各种挑战中的一小部分。但那一小部分就是我的全部生活，你知道吗？所以我并不真正看到所有其他的东西。"
+ },
+ {
+  "seg": 11,
+  "start": 227.84,
+  "end": 249.025,
+  "speaker": "Mike Lewis",
+  "en": "I kind of get a glimpse into it every now and then because more and more AI touches everything. But we are sort of a transformation partner, and so you can just imagine how the phone starts ringing when, you know, a massive disruptive technology is birthed into our lives whether we want it or not. Right?",
+  "zh": "我时不时地会瞥见它一眼，因为越来越多的 AI 触及一切。但我们算是一种转型合作伙伴，所以你可以想象，当一项巨大的颠覆性技术不管我们愿不愿意被诞生到我们的生活中时，电话开始响个不停。对吧？"
+ },
+ {
+  "seg": 12,
+  "start": 249.025,
+  "end": 292.96503,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. And a part of that, I think people are struggling with on the transformation side is there's just so many sources of information. There's so much noise around, like, what you should be paying attention to, what people are actually doing, what, you know, people are saying they're doing, what is hitting the news. Like, there's all sorts of a range of things, and obviously, a lot of that can be noise. And one of the things I've appreciated in interacting with you over time is that ability to kind of pick out some of that signal from the noise and develop some kind of structural ways of thinking about AI and, transformation in an actual real world organizational environment.",
+  "zh": "是的。在那方面，我想人们在转型方面正在挣扎的是，信息来源实在太多了。关于你应该关注什么、人们实际在做什么、人们说他们在做什么、什么上了新闻，有太多噪音。比如，有各种各样的事情，显然其中很多可能是噪音。而我一直以来在与你互动中所欣赏的一点，就是那种从噪音中挑出一些信号的能力，以及在真实世界的组织环境中发展出某种关于 AI 和转型的结构性思考方式。"
+ },
+ {
+  "seg": 13,
+  "start": 292.96503,
+  "end": 324.86502,
+  "speaker": "Daniel Whitenack",
+  "en": "In your kind of day to day, obviously, you're hearing a lot of things both from customers that you're working with, the the news cycle, the things from, you know, Anthropic, OpenAI, Hugging Face, whoever that that's coming out with things. What what does your process look like, or or how do you feel like your your rhythms day to day help you kind of isolate some of that signal, maybe kind of distill down some of what you should be paying attention to? Any any suggestions? I I think it's something on all of our minds, certainly on my mind.",
+  "zh": "在你的日常工作中，显然你听到很多东西，既来自你正在合作的客户，也来自新闻周期，来自 Anthropic、OpenAI、Hugging Face 等等推出新东西的消息。你的流程是什么样的？或者你觉得你的日常节奏如何帮助你分离出一些信号，也许提炼出一些你应该关注的东西？有什么建议吗？我觉得这是我们所有人心里都在想的事情，当然也在我心里。"
+ },
+ {
+  "seg": 14,
+  "start": 325.025,
+  "end": 357.935,
+  "speaker": "Mike Lewis",
+  "en": "Yeah. Well, maybe I'm I'm very good at this because I am just the weirdo, oddball guy who stumbled into this at the perfect moment. I mean, Daniel, you know this about me, your audience might remember. I was a portrait painter for almost twenty years. I mean, from when I graduated college till 2016, I painted portraits, I owned a fine arts company and apprenticed a bunch of artists.",
+  "zh": "是的。好吧，也许我非常擅长这个，因为我只是一个在完美时刻误打误撞闯进这个领域的怪人、异类。Daniel，你知道我的这件事，你的听众可能还记得。我做了将近二十年的肖像画家。从大学毕业到 2016 年，我画肖像，我拥有一家美术公司，带了一群艺术家做学徒。"
+ },
+ {
+  "seg": 15,
+  "start": 357.935,
+  "end": 389.52,
+  "speaker": "Mike Lewis",
+  "en": "And I only got into this because I'd heard about the DALL E model from OpenAI and applied to become one of the commercial arts beta testers, and I lucked into that. I got an email one night at dinner, I was like, Oh, wow, I just got access to this thing no one had heard of at the time. And I knew a little bit of Python and coding or whatever, so enough to fumble around and get things installed, and I fell in love with language models. I mean, almost instantly. I just couldn't believe all the new things you could make computers do.",
+  "zh": "我进入这个领域只是因为我听说了 OpenAI 的 DALL E 模型，申请成为商业艺术 beta 测试员之一，我幸运地入选了。一天晚饭时我收到一封邮件，我想，哦，哇，我刚刚获得了一个当时还没人听说过的东西的访问权限。我懂一点 Python 和编程之类的，足够我摸索着把东西装好，然后我爱上了语言模型。几乎是瞬间。我简直无法相信你能让计算机做所有这些新事情。"
+ },
+ {
+  "seg": 16,
+  "start": 389.52,
+  "end": 415.985,
+  "speaker": "Mike Lewis",
+  "en": "And this is before we really thought about them as chatbots or whatever. In my mind, it was like something you plug into code to just manage edge case weirdness to pick a path and make your app keep working. And context models were minuscule back there. I'm running things locally on my gaming computer. And then medical records companies start calling, and I build this book of business, and tier one acquires my company.",
+  "zh": "这是在我们真正把它们当作聊天机器人之前。在我看来，它就像是你可以插入代码里的东西，用来管理边缘情况的怪异，选择一条路径，让你的应用继续运行。而且那时候上下文模型非常小。我在我的游戏电脑上本地运行这些东西。然后医疗记录公司开始打电话来，我建立起了这本客户业务，tier one 收购了我的公司。"
+ },
+ {
+  "seg": 17,
+  "start": 415.985,
+  "end": 458.52,
+  "speaker": "Mike Lewis",
+  "en": "Here's the only reason that's worth unpacking, is to say, I don't have this muddy, long history in the industry where I had opinions about everything or a solid way of thinking about it. It was all just fun toys for me. And then, I think the way I've made it through business my whole life, I've owned maybe a dozen businesses, all small, but is I've always just had a firm rule. It's like, do not concern myself with things outside of my sphere of influence. So, you know, there may be this big thing going on at the edge of the AI sphere, but the reality is like, if I if I don't have influence or if it doesn't impact, like, the way I'm interacting with my clients, if it's not, then I just ignore it.",
+  "zh": "这段经历唯一值得展开讲的原因是想说，我没有在这个行业里那种浑浊漫长的历史，没有对每件事都有自己的观点或一套牢固的思考方式。对我来说这一切都只是好玩的玩具。然后，我一生在商业中走过来的方式——我拥有过也许十几家企业，都是小企业——就是我始终有一条坚定的规则。就是：不要去操心我影响范围之外的事情。所以，你知道，也许在 AI 这个球体的边缘正在发生一件大事，但现实是，如果我没有影响力，或者它不影响我与客户互动的方式，如果它不是那样，我就直接忽略它。"
+ },
+ {
+  "seg": 18,
+  "start": 458.52,
+  "end": 482.4,
+  "speaker": "Mike Lewis",
+  "en": "These things are not going away. I know for sure, whatever this is, it will be here probably forever. And in my experience, I'm a much better worker. I mean, can fool almost anyone into thinking I'm a smart guy when I'm using AI and I'm aligning context to whatever my work project is. I mean, it just works so much better using these tools.",
+  "zh": "这些东西不会消失。我很确定，不管这是什么，它很可能会永远存在下去。而根据我的经验，我是一个好得多的工作者。我是说，当我在使用 AI 并且把上下文对齐到我的工作项目时，我几乎能骗过任何人让他们以为我是个聪明人。我是说，使用这些工具效果就是好得多。"
+ },
+ {
+  "seg": 19,
+  "start": 482.4,
+  "end": 507.72003,
+  "speaker": "Mike Lewis",
+  "en": "And I just have that conviction that's probably true for most people. So Daniel, my trick is really only focusing on what directly impacts the things going on in my day to day. And at tier one, what that is is a workforce enablement performance. Basically, not worrying so much about tools or whatever, but just outcomes and performance.",
+  "zh": "而且我就是有那种信念，这对大多数人来说可能都是成立的。所以 Daniel，我的诀窍真的只是专注于直接影响我日常事务的事情。在 tier one，那就是劳动力赋能绩效。基本上，不过分操心工具或别的什么，只关注成果和绩效。"
+ },
+ {
+  "seg": 20,
+  "start": 508.28,
+  "end": 518.655,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah, that makes a lot of sense. Last time we talked, I looked up the date. It was 2024. Right? Yeah.",
+  "zh": "是的，这很有道理。上次我们聊天时，我查了日期。那是 2024 年，对吧？是的。"
+ },
+ {
+  "seg": 21,
+  "start": 518.655,
+  "end": 550.055,
+  "speaker": "Daniel Whitenack",
+  "en": "Some some time in 2024. Obviously, a lot has has changed. It's impacting all of us in different ways. At that time, you we had a discussion about what's, I think, doable, scalable, etcetera. You you've, I know, spent a bit more time recently thinking about this concept of AI proficiency, and I know myself, you know, obviously, if you're doing AI things, you're searching them, you get targeted online.",
+  "zh": "2024 年的某个时候。显然，很多事情都变了。它正在以不同的方式影响着我们所有人。那时候，我们讨论了什么是可行的、可扩展的等等。我知道你最近花了更多时间思考 AI 熟练度这个概念，我知道我自己，显然，如果你在做 AI 相关的事情，你在搜索它们，你就会被精准投放广告。"
+ },
+ {
+  "seg": 22,
+  "start": 550.055,
+  "end": 596.85,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm all this all the time seeing these, like, ads for whatever it is, Harvard school, like, the engineering or what, becoming AI proficient in your business or whatever the, you know, the course or or thing is. And so there there's a lot of people trying to understand this because of, like you say, the wide reaching impact across across the workforce. So next week, our our company is doing an AI accelerator with one of our customers. I know that there's gonna be a whole range just from discussions from, of, quote, AI proficiency. But general like, other than thinking, well, I know that there's that range.",
+  "zh": "我一直看到这些广告，比如什么哈佛学院、工程之类的，让你的企业在 AI 上变熟练，或者 whatever，你知道，某个课程或什么东西。所以有很多人在试图理解这个，因为就像你说的，它对整个劳动力有广泛的影响。所以下周，我们公司正在和我们的一个客户做一个 AI 加速器。我知道从讨论来看，所谓的「AI 熟练度」会有一个很大的范围。但总的来说，除了想，好吧，我知道有那个范围。"
+ },
+ {
+  "seg": 23,
+  "start": 597.00995,
+  "end": 617.325,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? It's another step to go and say, well, in light of that range of proficiencies, what do I need to change for different proficiencies? How do I advance people through proficiencies? Do they even need to advance through different levels of AI proficiency? What is enough for some people?",
+  "zh": "对吧？再进一步说，好吧，鉴于那个熟练度范围，针对不同的熟练度我需要改变什么？我如何让人们通过不同的熟练度进阶？他们甚至需要通过不同级别的 AI 熟练度吗？对某些人来说什么才是足够的？"
+ },
+ {
+  "seg": 24,
+  "start": 617.325,
+  "end": 633.755,
+  "speaker": "Daniel Whitenack",
+  "en": "What what is too much? Right? So I don't know if you wanna help us launch into this topic. Maybe just starting with a little bit of definition of what we mean by proficiency would help us just so that we're all talking about the the same thing.",
+  "zh": "什么又太多了？对吧？所以我不知道你是否想帮我们切入这个话题。也许从定义一下我们所说的熟练度是什么意思开始会有帮助，这样我们谈论的就是同一件事。"
+ },
+ {
+  "seg": 25,
+  "start": 633.755,
+  "end": 667.20496,
+  "speaker": "Mike Lewis",
+  "en": "If you don't mind, Daniel, I'd like to even go a step further back and just give you a sense for how and why I even started thinking about this. So if at tier one, we have most of the largest, we and three or four other companies are helping the largest companies in the world navigate this disruption. And we also see the same story playing out inside of every company. I mean, I could tell you 95% of the companies, I could walk through the timeline, and you'd say, Yep, I saw that ad. Fill in the blank, fill in the blank, fill in the blank.",
+  "zh": "如果你不介意的话，Daniel，我想甚至再往前退一步，让你了解一下我是如何以及为什么开始思考这个问题的。在 tier one，我们和另外三四家公司是帮助世界上最大的公司应对这场颠覆的。而且我们也在每家公司内部看到同样的故事在上演。我是说，我可以告诉你 95% 的公司，我可以走一遍时间线，你会说，是的，我看到了那个广告。填空，填空，填空。"
+ },
+ {
+  "seg": 26,
+  "start": 667.20496,
+  "end": 691.72504,
+  "speaker": "Mike Lewis",
+  "en": "They've made all the same mistakes. It's kind of watching that happen sort of helpless at the periphery. As a consultant, you don't have a lot of control, and you don't have perfect ideas either. So everyone's just sort of watching this thing unfold and like, Oh, I really thought that was going to work, but that didn't stick. The big thing that I focused on early on was developing tools that help people learn and get good with AI.",
+  "zh": "他们犯了所有同样的错误。有点像在边缘无奈地看着这一切发生。作为顾问，你没有太多控制权，而且你也没有完美的想法。所以每个人都只是在看着这件事展开，然后想，哦，我真的以为那会奏效，但那没有坚持下去。我早期重点关注的大事是开发帮助人们学习并精通 AI 的工具。"
+ },
+ {
+  "seg": 27,
+  "start": 691.72504,
+  "end": 716.235,
+  "speaker": "Mike Lewis",
+  "en": "So I developed our solution archetypes framework where we kind of tried to pin down. We talked about that on the last episode. And then I built our super user habits index, which is basically, it's like, Hey, these are the 24 habits we see super users displaying. Then I built a coaching tool that people could use. And in my mind, I was like, I'm gonna put all this together and turn people into super users.",
+  "zh": "所以我开发了我们的解决方案原型框架，我们试图据此锁定。我们在上一期节目中谈过那个。然后我建立了我们的超级用户习惯指数，基本上就是，嘿，这些是我们看到超级用户展现出的 24 个习惯。然后我建了一个人们可以使用的辅导工具。在我心里，我想的是，我要把这一切组合起来，把人们变成超级用户。"
+ },
+ {
+  "seg": 28,
+  "start": 716.235,
+  "end": 750.59503,
+  "speaker": "Mike Lewis",
+  "en": "And guess what? It just kinda didn't really happen. For some people, it did, but I couldn't help but feel like most of them, it was gonna happen anyway. And at the same time, I'm watching I'm at the same time, I'm sort of reading all the Substack articles on it, watching things unfold at companies, looking at my work history, you know, thinking through the people, looking at statistics we create or stuff in the literature. And then I think the breakthrough moment for me, I was invited to a bachelor party with some young guys who used to work with me.",
+  "zh": "然后你猜怎么着？它就是没有真正发生。对某些人来说发生了，但我忍不住觉得对大多数人来说，反正它也会发生。与此同时，我在读所有关于它的 Substack 文章，观察在公司里事情的展开，回顾我的工作经历，你知道，思考这些人，看我们生成的统计资料或文献里的东西。然后对我来说的突破时刻，是我被邀请参加一个单身派对，和一些曾经和我共事的年轻人。"
+ },
+ {
+  "seg": 29,
+  "start": 751.075,
+  "end": 775.115,
+  "speaker": "Mike Lewis",
+  "en": "Never again. But I brought 200 pages of research citations and synthesis. So this is not 200 pages of research, it's 200 pages of the name of a paper, a URL, and maybe a sentence about why it might be relevant to my work just to read during that week. During the bachelor party. I thought I was probably going to need to pull away a lot.",
+  "zh": "再也不会了。但我带了 200 页的研究引用和综述。所以这不是 200 页的研究内容，而是 200 页的论文名、一个 URL，也许还有一句关于它为什么可能与我的工作相关的句子，只是为了在那个星期里读。在单身派对期间。我以为我可能需要经常抽身离开。"
+ },
+ {
+  "seg": 30,
+  "start": 775.115,
+  "end": 795.57,
+  "speaker": "Mike Lewis",
+  "en": "These are all younger guys. And I did, I read it all. And there were just patterns in there that answered a lot of questions for me. The breakthrough moment, with all of that just sort of happening within thirty to sixty days, that stew forming, I read a Substack article. It was Peter Yang.",
+  "zh": "这些都是更年轻的伙计们。而我也确实读了，我全部读完了。里面有 一些模式回答了我的很多问题。在所有这些在大约三十到六十天内发生、那锅炖菜正在形成的过程中，我读到了一篇 Substack 文章。是 Peter Yang 的。"
+ },
+ {
+  "seg": 31,
+  "start": 796.825,
+  "end": 814.73004,
+  "speaker": "Mike Lewis",
+  "en": "I'm kind of skimming my screen here for the details on it. But basically, it was called Your New Job is to Onboard AI Agents, How AI Native Companies Actually Operate. And they just had this way of thinking through the L0 through L3. So I didn't invent that. I read it in that subject.",
+  "zh": "我在这里大概浏览一下我的屏幕看细节。但基本上，它叫《你的新工作是给 AI 智能体做入职培训：AI 原生公司实际如何运营》。他们有一种通过 L0 到 L3 来思考的方式。所以那不是我发明的。我是在那篇文章里读到的。"
+ },
+ {
+  "seg": 32,
+  "start": 814.81,
+  "end": 847.84,
+  "speaker": "Mike Lewis",
+  "en": "L0 through L3 classification. So L0, L1, L2, and L3. And the L0s are the people who aren't using it, and the L3s are the ones who are just making a difference across the entire enterprise, and we all know those, and then they labeled L1. L2, though, knocked me off my chair almost when they talked about the concept of a non technical builder. And they just gave a name to a thing that I just thought, Wow, this is something we need to really focus on.",
+  "zh": "L0 到 L3 的分类。所以 L0、L1、L2 和 L3。L0 是那些不在使用它的人，L3 是那些在整个企业范围内都在产生影响力的人，我们都认识那些人，然后他们给 L1 贴了标签。不过 L2 几乎把我从椅子上震下来，当他们谈到非技术构建者的概念时。他们只是给一个东西起了名字，而我想，哇，这是我们真正需要关注的东西。"
+ },
+ {
+  "seg": 33,
+  "start": 848.08,
+  "end": 876.12,
+  "speaker": "Mike Lewis",
+  "en": "The idea of a non technical builder, we're all focusing on converting L zeros, people who are disengaged, and we'll unpack what that is, I think, we need to, because there's so much important stuff there. And they're trying to get people from L zero to L one, and L one is what everyone knows. It's the user. It's the one who's like, I couldn't live without this. And they kind of feel like it ends here, and then that leap, the big jump from like, okay, someone who uses AI to, wait a minute, no, this is a non technical builder.",
+  "zh": "非技术构建者的概念，我们都在专注于转化 L0，那些不投入的人，我想我们需要展开讲讲那是什么，因为那里有太多重要的东西。他们试图把人从 L0 提升到 L1，而 L1 是每个人都知道的。就是用户。就是那种「我离不开这个」的人。他们有点觉得到此为止了，然后那一次跨越，从「好吧，一个使用 AI 的人」到「等一下，不对，这是一个非技术构建者」的大跳跃。"
+ },
+ {
+  "seg": 34,
+  "start": 876.12,
+  "end": 922.375,
+  "speaker": "Mike Lewis",
+  "en": "This is a person building durable solutions that emulate the company's work in an uncanny way. That jump is actually the one that now I sort of run around evangelizing, like, this is actually where you need to focus your energy. So, Daniel, I guess I unpacked all that to say, for me, I had the stew, I guess, is the way to say it, of the guy who didn't have a dog in the fight, built a company on accident, it was bought by tier one, now I'm here, I'm inside of all these companies trying to help them make sense of this thing. And then, you know, all these external inputs sort of just clashed. So now we, this is the framework we push and advertise and help ask people to think through.",
+  "zh": "这是一个在构建持久的解决方案、以惊人的逼真度模拟公司工作的人。那个跨越实际上就是现在我到处奔走传道的那一个，就像，这实际上才是你需要集中精力的地方。所以，Daniel，我想我把这些都展开是为了说，对我来说，我有那锅炖菜，可以这么说，一个在这场博弈中没有既得利益的局外人，意外建了一家公司，被 tier one 收购，现在我在这里，身处所有这些公司内部试图帮它们理解这个东西。然后，你知道，所有这些外部输入就这么碰撞在一起。所以现在我们，这就是我们推行和宣传并请人们思考的框架。"
+ },
+ {
+  "seg": 35,
+  "start": 924.44,
+  "end": 950.815,
+  "speaker": "Sponsor",
+  "en": "If you've been listening to the show over the past few months, you realize how transformative agentic AI is. Whether it's clot code or Hermes agent or your own custom software that you're deploying for operational efficiencies or as a product into the market. These systems are transformative and it's where the industry is going. But agents have a lot of risk associated with them. They have agency.",
+  "zh": "如果你过去几个月一直在听这个节目，你会意识到智能体 AI 是多么具有变革性。无论是 clot code 还是 Hermes agent，还是你自己部署的用于运营效率或作为产品推向市场的定制软件。这些系统是变革性的，也是行业的发展方向。但智能体有很多相关的风险。它们有主观能动性。"
+ },
+ {
+  "seg": 36,
+  "start": 950.815,
+  "end": 1014.18,
+  "speaker": "Sponsor",
+  "en": "They take action within your environment, within your infrastructure, within your systems. And that's why security teams and governance teams view it as risky to deploy these agents within high impact environments and industries like manufacturing, logistics, financial services, in the public sector. And that's why I've personally been spending my time working on a product called Prediction Guard with a great team of AI engineers. Prediction Guard is an AI control plane that you host within your own environment, whether that's on prem, hybrid, or in your cloud VPC, even air dapped scenarios. You can set custom AI policies or those that are aligned with NIST and OWASP standards, and those are then enforced automatically across every handshake, across every agent, whether that's being powered by your own self hosted models or models in your cloud environment like those from Azure or AWS Bedrock.",
+  "zh": "它们在你的环境中、你的基础设施里、你的系统内采取行动。这就是为什么安全团队和治理团队认为在这些高风险的环境和行业（如制造业、物流、金融服务、公共部门）中部署这些智能体是有风险的。这也是我个人一直在花时间与一支了不起的 AI 工程师团队一起开发一个叫 Prediction Guard 的产品的原因。Prediction Guard 是一个你在自己的环境中托管的 AI 控制平面，无论是本地部署、混合，还是你的云 VPC，甚至是物理隔离的场景。你可以设置自定义 AI 策略，或与 NIST 和 OWASP 标准对齐的策略，这些策略会自动在每个握手、每个智能体上执行，无论它们是由你自己的自托管模型驱动，还是由你云环境中的模型（如来自 Azure 或 AWS Bedrock 的模型）驱动。"
+ },
+ {
+  "seg": 37,
+  "start": 1014.26,
+  "end": 1038.64,
+  "speaker": "Sponsor",
+  "en": "And all of that telemetry goes back to your monitoring and observability system. I would love for you all to check out what we're doing. Schedule a demo and a call with our team to find out more at predictionguard.com/practicalai. Like I say, schedule a call today. We're happy to show you how this works and why we think it is so beneficial to the market.",
+  "zh": "所有这些遥测数据都回传到你的监控和可观测性系统。我很乐意见到大家去看看我们在做的事情。预约一个演示和与我们团队的一通电话，了解更多信息，网址是 predictionguard.com/practicalai。就像我说的，今天就预约一通电话。我们很乐意向你展示它是如何工作的，以及为什么我们认为它对市场如此有益。"
+ },
+ {
+  "seg": 38,
+  "start": 1038.8,
+  "end": 1055.825,
+  "speaker": "Sponsor",
+  "en": "People already have this deployed in production, powering transformative agentic systems across a number of industries. So check us out at predictionguard.com/practicalai. That's predictionguard.com/practicalai.",
+  "zh": "人们已经把这个部署在生产环境中，为多个行业的变革性智能体系统提供支持。所以请在 predictionguard.com/practicalai 看看我们。就是 predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 39,
+  "start": 1058.145,
+  "end": 1109.1149,
+  "speaker": "Chris Benson",
+  "en": "So, Mike, I wanted to ask you a question. As you are thinking about how you get the employees of one of your client companies moving from the L zeros up to the L threes, I want to throw another variable in, and that is the attitudes that people have, which are very varied in terms of there's always people who are excited. As you mentioned before, there are people that will naturally want to go to that L1, L2, and up to L3, but there are also people that are gonna push back hard on that. And so when you're kind of coming in and you're trying to start your process of helping them achieve that, how do you bring along the L0s that don't really want to move, or even the ones that have done a little bit, but they're also pushing back on that? Maybe they fear for their jobs or something like that.",
+  "zh": "所以，Mike，我想问你一个问题。当你在思考如何让你的一个客户公司的员工从 L0 提升到 L3 时，我想再抛进另一个变量，那就是人们的态度，这些态度非常多样，因为总有人是兴奋的。就像你之前提到的，有些人会自然而然地想去到 L1、L2 再到 L3，但也有一些人会强烈抵触。所以当你进来并试图开始你的流程帮助他们实现这一点时，你如何带动那些真的不想动的 L0，或者甚至那些做了一点点但也在抵触的人？也许他们害怕失去工作或类似的。"
+ },
+ {
+  "seg": 40,
+  "start": 1109.195,
+  "end": 1125.35,
+  "speaker": "Chris Benson",
+  "en": "So there's that kind of L zeros and maybe some L ones. How do you get over that process as you're trying to bring everybody into this to kind of level up through those? Any thoughts? Can you kind of throw that in as you're talking about your process?",
+  "zh": "所以有那种 L0，也许还有一些 L1。当你试图把每个人都带进来、让他们在这些级别上进阶时，你如何克服这个过程？有什么想法吗？你能在谈你的流程时把这个也放进去吗？"
+ },
+ {
+  "seg": 41,
+  "start": 1125.35,
+  "end": 1145.2001,
+  "speaker": "Mike Lewis",
+  "en": "Yeah. I love that you're asking me about L zeros, because the reality is we try to move an L zero. Here's the thing. The article I mentioned, the Substack article, I disagreed with 98% of what I read in that article. I just latched onto the concept of an L two, a nontechnical builder.",
+  "zh": "是的。我很高兴你问我关于 L0 的事，因为现实是，我们试图去推动一个 L0。事情是这样的。我提到的那篇文章，那篇 Substack 文章，我不同意我在那篇文章里读到的 98% 的内容。我只是抓住了 L2、非技术构建者这个概念。"
+ },
+ {
+  "seg": 42,
+  "start": 1145.2001,
+  "end": 1169.035,
+  "speaker": "Mike Lewis",
+  "en": "That name resonated with me. The L0s in that article, at least at Ramp, the way I interpreted what I read, they were saying that, Hey, if you're an L0 at Ramp, of course, it's a software company. If you're an L0 at Ramp, that's grounds for dismissal. You have until this date for our system to assess you as an L1. And man, that just broke my heart, because it's kind of like, okay, wait a minute.",
+  "zh": "那个名字与我产生了共鸣。那篇文章里的 L0，至少在 Ramp，根据我对读到内容的理解，他们说，嘿，如果你在 Ramp 是一个 L0，当然，那是一家软件公司。如果你在 Ramp 是 L0，那就是被解雇的理由。你有到某个日期为止的时间让我们的系统把你评估为 L1。伙计，那真的让我心碎，因为这就有点像，好吧，等一下。"
+ },
+ {
+  "seg": 43,
+  "start": 1169.035,
+  "end": 1186.4299,
+  "speaker": "Mike Lewis",
+  "en": "It's terrifying. Let's back up. Let's back up. Name another technology that we would say that's true, but can you imagine you just go company wide? Hey, by the way, everyone, we want you to geek out about Smart Sheets and be great at Smart Sheets by the end of this year, or AWS, or just It's ridiculous.",
+  "zh": "太可怕了。我们退一步。我们退一步。说出另一种我们会说这话成立的别的技术，但你能想象你就全公司范围地说？嘿，各位，我们希望你钻研 Smart Sheets 并在今年年底前精通 Smart Sheets，或者 AWS，或者随便什么。这太荒谬了。"
+ },
+ {
+  "seg": 44,
+  "start": 1186.59,
+  "end": 1202.855,
+  "speaker": "Mike Lewis",
+  "en": "This is It's just another This technology like that. Yet, I think a lot of executives are scrambling and panicking, and they're saying, Hey, guess what? We're going to be AI enabled. We're going to be AI activated. Everyone in our company needs to speak AI by ex date, or there's not a place for you here.",
+  "zh": "这就是，这只是另一项这样的技术。然而，我觉得很多高管正在仓促应对和恐慌，他们在说，嘿，你猜怎么着？我们要成为 AI 赋能的了。我们要成为 AI 激活的了。我们公司的每个人都需要在某个日期之前会说 AI，不然这里就没有你的位置。"
+ },
+ {
+  "seg": 45,
+  "start": 1204.1901,
+  "end": 1234.1499,
+  "speaker": "Mike Lewis",
+  "en": "And so first of all, you remember I read 200 pages of science, and a lot of it was just about learning. It wasn't even about AI. So threat framing actually does slow down adoption. So if you back someone into a corner and say, Learn this, or there's not room for you here, they will not learn it as well as if you came to them and said, Let's figure this out together if it interests you. And I will acknowledge that there are some positions where you absolutely need an AI enabled individual.",
+  "zh": "所以首先，你记得我读了 200 页的科学文献，其中很多只是关于学习的。甚至不是关于 AI 的。所以威胁式框定确实会减缓采纳。所以如果你把某人逼到墙角说，学这个，不然这里没你的位置，他们的学习效果不会像你走到他们面前说，如果你感兴趣的话，我们一起把这个搞清楚那样好。而且我会承认，有一些岗位你绝对需要一个 AI 赋能的人。"
+ },
+ {
+  "seg": 46,
+  "start": 1234.1499,
+  "end": 1251.7649,
+  "speaker": "Mike Lewis",
+  "en": "It's true. And so, there are cases where an L0's not gonna work in that role. But I think we're gonna realize in ten years, looking back at all this, that it's just not true in every role. And I think the one that hit me the hardest is my wife, probably the smartest person I know in the world. My wife, smartest person I know.",
+  "zh": "这是真的。所以，有些情况下 L0 在那个岗位上是不行的。但我觉得十年后回头看这一切，我们会意识到这并不是在每个岗位都成立。我觉得对我触动最大的是我的妻子，可能是我在世界上认识的最聪明的人。我的妻子，我认识的最聪明的人。"
+ },
+ {
+  "seg": 47,
+  "start": 1252.245,
+  "end": 1268.5901,
+  "speaker": "Mike Lewis",
+  "en": "And she has no use for AI in her job. She's a nurse, and she kinda just I know what she does. She pokes people in the arm with needles, and some other things, and there's medical records. Maybe someday it'll be useful to her. It's just really not right now.",
+  "zh": "而她在她的工作中完全用不上 AI。她是一名护士，她基本上就是——我知道她做什么。她用针头扎人的胳膊，还有一些其他事情，还有医疗记录。也许某天它会对她有用。但现在真的用不上。"
+ },
+ {
+  "seg": 48,
+  "start": 1268.5901,
+  "end": 1291.76,
+  "speaker": "Mike Lewis",
+  "en": "It would be in the way. And I started doing research on the concept of L zero, people who are disengaged, and I realized there are multiple buckets. So when we talk about an L zero, it's not a thing. So an L0 is not just someone who doesn't use AI. I found five major categories.",
+  "zh": "它只会碍事。我开始研究 L0 这个概念，那些不投入的人，我意识到有好几个类别。所以当我们说 L0 的时候，它不是一个东西。所以 L0 不只是一个不用 AI 的人。我发现了五个主要类别。"
+ },
+ {
+  "seg": 49,
+  "start": 1291.76,
+  "end": 1300.8348,
+  "speaker": "Mike Lewis",
+  "en": "So one is the performative user. They've been doing this. They've been nodding their head in all the trainings, the meetings. They've logged into the thing. They've submitted a chat, and they've gone about their job.",
+  "zh": "第一个是表演型用户。他们一直在做这些事。他们在所有的培训、所有的会议上点头。他们登录了那个东西。他们提交了一条对话，然后继续过他们的工作日子。"
+ },
+ {
+  "seg": 50,
+  "start": 1301.475,
+  "end": 1333.455,
+  "speaker": "Mike Lewis",
+  "en": "And hey, they're still getting their job done. There's the disinterested. I think the moment when this hit me the hardest was when I was looking at all the research and I saw a chart that showed the adoption rates of personal computers in the office space, back when PCs were first released, and AI, and there's almost the exact same adoption curve over the same period of time. It looks like it's happening at the same rate. And when I saw that, I thought, how silly is it to think back to that?",
+  "zh": "而且嘿，他们仍然把工作完成了。还有那些不感兴趣的。我觉得最触动我的时刻是，当时我在查看所有研究，看到一张图表，展示的是个人电脑刚发布时在办公领域的采用率，和 AI 的对比，在相同的时间段内，两条采用曲线几乎一模一样。看起来它正以同样的速度发生。当我看到那个时，我想，回头看那段历史，觉得它有多傻啊？"
+ },
+ {
+  "seg": 51,
+  "start": 1334.8151,
+  "end": 1352.7101,
+  "speaker": "Mike Lewis",
+  "en": "And one is in a panic because the people in their company haven't figured out personal computers now. It took care of itself because everyone wound up with one, and the same thing is happening with AI. Everyone went home and just created a chat GPT account or whatever, it's free. This is not true with your CRM. This is not true with smart.",
+  "zh": "一边有人陷入恐慌，就因为他们公司里的人还没搞明白个人电脑。它自己解决了，因为最终每个人都有一台，而 AI 现在也在发生同样的事情。每个人都回家创建了一个 ChatGPT 账号之类的，它是免费的。你的 CRM 不是这样。你的 smart(原文如此)也不是这样。"
+ },
+ {
+  "seg": 52,
+  "start": 1352.7101,
+  "end": 1365.4349,
+  "speaker": "Mike Lewis",
+  "en": "Like everyone didn't run home and create a smart sheet account because you know, like they just gotta have one. And so, you know, but the disinterested are still detached there. Okay. Here's another bucket. The too busy.",
+  "zh": "就像没人会跑回家创建一个 Smartsheet 账号，因为你懂的，就像他们非得有一个一样。所以，你懂的，不感兴趣的人仍然是疏离的。好。这是另一个类别。太忙的。"
+ },
+ {
+  "seg": 53,
+  "start": 1365.4349,
+  "end": 1381.6,
+  "speaker": "Mike Lewis",
+  "en": "I could give you 10 names at tier one. We almost don't want them running around trying to figure out AI because they are just so critical in their role. They're so good at what they do. It's like, it's like a, it's a don't break it or don't touch it. It ain't broke type role, and you know, who cares if they're using AI or not?",
+  "zh": "在 tier one 我能给你举出 10 个名字，我们几乎不希望他们跑来跑去琢磨 AI,因为他们在自己的角色里太关键了。他们太擅长自己做的事了。这就像，这是一种「别弄坏它」或「别碰它，它没坏」类型的角色，你懂的，管他们用不用 AI 干嘛呢？"
+ },
+ {
+  "seg": 54,
+  "start": 1381.6,
+  "end": 1408.72,
+  "speaker": "Mike Lewis",
+  "en": "And I think that is also really hard for the people who are here in communication, Use AI or you're out of here, and then they can look around and see the people who like, very often, it's some of the highest performers in the company who don't really care about it because they're in a rhythm. So those I kind of push past, but the next two, these are still buckets in L0. These are people who aren't using it, really matter. And there's something you can learn from these people. And I think when you say like, Hey, you're going to be doing this.",
+  "zh": "而且我觉得，对于那些在沟通中说「用 AI,否则你走人」的人来说，这也很难受，因为他们可以环顾四周，看到那些人——很多时候，恰恰是公司里一些最高绩效者——并不真的在乎这个，因为他们有自己的节奏。所以这些我基本上就略过了，但接下来的两类，这些仍然是 L0 中的类别。这些人是真的没在用的人，很重要。而且你能从这些人身上学到东西。而我觉得当你说，嘿，你要做这个了。"
+ },
+ {
+  "seg": 55,
+  "start": 1408.72,
+  "end": 1422.255,
+  "speaker": "Mike Lewis",
+  "en": "You're going to be using AI at this company. They will just zip their lips, and they will nod their head, and they'll say, Yes. But here's the thing. First of all, we have the job fearful. And Chris, I think you this, you might have mentioned this earlier, job fearful.",
+  "zh": "你在这家公司要用 AI。他们会立刻闭嘴，点点头，然后说，好的。但问题来了。首先，我们有畏惧失业的。Chris,我想你——你之前可能提到过这个，畏惧失业的。"
+ },
+ {
+  "seg": 56,
+  "start": 1422.255,
+  "end": 1441.59,
+  "speaker": "Mike Lewis",
+  "en": "What do we do? What do we do about the job fearful? First of all, very often these people don't really understand how the tool work, and they're under impression that if they use AI to do their work, it's going to learn how to do what they do and replace them. And that's almost never true. I mean, just if you kind of know how these things work, I mean, maybe self driving cars.",
+  "zh": "对于畏惧失业的，我们该怎么办？首先，很多时候这些人并不真的了解这个工具是怎么运作的，他们以为如果他们用 AI 来做自己的工作，AI 会学会他们做的事然后取代他们。而这几乎从来不是真的。我是说，只要你大致了解这些东西是怎么运作的——我是说，也许自动驾驶汽车。"
+ },
+ {
+  "seg": 57,
+  "start": 1441.59,
+  "end": 1484.145,
+  "speaker": "Mike Lewis",
+  "en": "I could think of a few examples of like, the AI is actually learning from watching us, but my vote doesn't really impact whether or not it's gonna replace that profession someday. So I think with the job fearful, there's an opportunity to help them see like, Hey, you might be in the middle of a self fulfilling prophecy here. If you continue to push back against this, you might lose your job, but it won't be because the AI replaced you, because Joe, who's willing to use AI, will replace you. So that's one way to address an L0, but another one, and this is actually six out of 10 people that we talk to, and I've seen this number in research hover around sixty percent in more than one place, are the quality disappointed. This is where I think every executive's ears should turn on.",
+  "zh": "我能想到几个例子是 AI 确实在通过观察我们学习，但我的那一票并不真的影响它是否会在某天取代那个职业。所以我想，对于畏惧失业的，有一个机会帮他们看清，嘿，你可能正处在一个自我实现的预言之中。如果你继续抵制这个，你可能会丢掉工作，但不会是因为 AI 取代了你，而是因为愿意用 AI 的 Joe 取代了你。所以这是应对 L0 的一种方式，但还有另一种，而这实际上是我们交谈的人中十分之六，我在不止一处的研究中见过这个数字徘徊在 60% 左右，是对质量失望的。我认为在这里，每一位高管都应该竖起耳朵。"
+ },
+ {
+  "seg": 58,
+  "start": 1484.145,
+  "end": 1507.995,
+  "speaker": "Mike Lewis",
+  "en": "They should lean forward in their seat, they should realize, do not dismiss these people. If they are resistant to AI, there could be some very valid reasons why. And I met a person at a company who, her complaint was, It's not good enough for what I have to produce for my work. And she kind of showed me, and she's just like, Humans do this better. And it was a marketing role.",
+  "zh": "他们应该在座位上身体前倾，他们应该意识到，不要轻视这些人。如果他们抵制 AI,背后可能有非常正当的理由。我在一家公司遇到过一个人，她的抱怨是，对于我工作中必须产出的东西来说，它不够好。她给我看了一下，她就是说，人类做得更好。那是一个营销岗位。"
+ },
+ {
+  "seg": 59,
+  "start": 1507.995,
+  "end": 1539.825,
+  "speaker": "Mike Lewis",
+  "en": "It was copy generation. It was some other stuff, and she was just right. And it may not stay true forever, but no one had ever actually just, no AI expert had ever just sat and listened to her, and I walked away from that conversation with just a brand new perspective on how much value there is to mine from the group of people who say, It's not ready to do this work yet. Or either it's not, or they need better tools or better training, but you can't really do that until you listen first. And I also don't think about it like a ladder.",
+  "zh": "是文案生成，还有一些其他东西，而她完全是对的。这也许不会永远成立，但从来没有 AI 专家真正坐下来听过她的意见，而我从那次对话中走出来时，带着一个全新的视角，看到了从那群说「它还没准备好做这项工作」的人身上能挖掘出多大的价值。要么它确实没准备好，要么他们需要更好的工具或更好的培训，但你必须先倾听才能做到这一点。而且我也不把它想成一个阶梯。"
+ },
+ {
+  "seg": 60,
+  "start": 1539.98,
+  "end": 1556.595,
+  "speaker": "Mike Lewis",
+  "en": "I don't think an L1 is better than an L0, and I don't think an L2 is better than an L1. Actually, I don't see it that way. I just see it as kind of a division within an organization for how different ways of thinking about the toolkit.",
+  "zh": "我不认为 L1 比 L0 更好，我也不认为 L2 比 L1 更好。实际上，我不那样看。我只是把它看作一个组织内部对思考这套工具箱的不同方式的划分。"
+ },
+ {
+  "seg": 61,
+  "start": 1556.595,
+  "end": 1581.98,
+  "speaker": "Daniel Whitenack",
+  "en": "And maybe one follow-up question on that. I'm wondering, you mentioned maybe part of the, part part of the stumbling block here is the quality disillusion or or however you put it, you know, getting into these tools. I I sometimes I also wonder about the way in which, like, I would put myself into the category of the AI people. Like, yeah, I'm building an a product. Right?",
+  "zh": "也许还有一个追问。我在想，你提到也许部分的——部分的绊脚石在这里是对质量失望，或者你怎么说都行，就是进入这些工具的事。我我有时也在想这个方式的问题，比如，我会把自己归入 AI 人这个类别。就是说，对，我在构建一个产品。对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 1581.98,
+  "end": 1621.565,
+  "speaker": "Daniel Whitenack",
+  "en": "How much of this is us providing AI in a way that is just another thing that they have to add, like a different tool that they have to add in their workflow versus something that actually works in their workflow? And what I mean by that is, you know, if if I'm, to to give an example, you know, we're working with, an organization now. They have teams of translators. We have essentially a team of digital agents that helps translate with a with an agent harness, they use existing tools. They go through the, you know, drafting and quality checking and post editing.",
+  "zh": "这里面有多少是因为我们提供 AI 的方式，只是又给他们增加了一样东西，就像他们必须在工作流中加入的另一个工具，而不是真正能在他们工作流中运作的东西？我的意思是，你知道，举一个例子，你知道，我们现在正在与一个组织合作。他们有译者团队。我们基本上有一个数字智能体团队，用一个智能体框架(harness)帮助翻译，他们使用现有的工具。他们经历起草、质量检查和译后编辑这些环节。"
+ },
+ {
+  "seg": 63,
+  "start": 1621.565,
+  "end": 1639.75,
+  "speaker": "Daniel Whitenack",
+  "en": "They do these cycles. But we we don't actually say, hey. Go to this different interface that you've never used and do things the AI way. The the sort of agents work and then stuff pops up in the translation management system that they already use. Right?",
+  "zh": "他们做这些循环。但我们实际上不说，嘿。去这个你从没用过的不同界面，用 AI 的方式做事。这些智能体工作，然后东西就会弹出到他们已经在使用的翻译管理系统里。对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 1640.015,
+  "end": 1665.16,
+  "speaker": "Daniel Whitenack",
+  "en": "And so what they see is, yes, there's change. Right? But it's actually like allowing them to do the thing that they want to do with the tools that they're using in a in a way that actually they they want to do that more. Now that may not always be possible. Like, there may need to be a shift of, like, how people you know, the interfaces that people use to do that.",
+  "zh": "所以他们看到的是，是的，有变化。对吧？但它实际上是在允许他们用他们正在使用的工具、以他们真正更想用的方式去做他们想做的事。当然这不总是可能的。也许需要一种转变，比如人们——人们用来做这件事的界面。"
+ },
+ {
+  "seg": 65,
+  "start": 1665.16,
+  "end": 1682.2098,
+  "speaker": "Daniel Whitenack",
+  "en": "But I don't know. Do you you have any experience with that? Like, how much of this is we're asking people to use yet another tool, and they've already got tools that they like whether they're AI or not. Right? And how much of it is the actual AI output?",
+  "zh": "但我不知道。你——你有这方面的经验吗？比如，这里面有多少是我们在要求人们再用一个工具，而他们已经有喜欢的工具了，无论是不是 AI。对吧？又有多少是 AI 的实际产出的问题？"
+ },
+ {
+  "seg": 66,
+  "start": 1682.21,
+  "end": 1684.21,
+  "speaker": "Daniel Whitenack",
+  "en": "I I don't know if you have any sense of that.",
+  "zh": "我我不确定你对此有没有感觉。"
+ },
+ {
+  "seg": 67,
+  "start": 1684.21,
+  "end": 1709.04,
+  "speaker": "Mike Lewis",
+  "en": "No. I I hear I think I hear the the sort of the spirit of the question. And so this is where I land, you know, when it comes to, you know, who do we train to do what, and what do we give them, and how do we, you know? And honestly, at this point, I just feel like that is part of the noise to me in all the conversations. The main thing it all traces back to is executives are complaining, We're spending too much on all of these licenses.",
+  "zh": "不。我我听——我想我听懂了这个问题的大意。所以这就是我的落脚点，你知道的，当涉及到，我们培训谁去做什么，我们给他们什么，以及我们怎么——你知道的。老实说，在这一点上，我只是觉得那是我所有对话中噪音的一部分。它最终都追溯到的主要事情是高管们在抱怨，我们在所有这些许可证上花太多了。"
+ },
+ {
+  "seg": 68,
+  "start": 1709.04,
+  "end": 1726.625,
+  "speaker": "Mike Lewis",
+  "en": "We don't even understand what we're buying. I can't measure. I mean, yeah, I see this or that anecdotal piece of data, but I can't measure the real impact. What is the value of this investment compared to the cost? And so we just say like, Hey, woah, let's zoom way out.",
+  "zh": "我们甚至不明白我们在买什么。我没法衡量。我是说，是的，我看到了这样或那样的轶事数据，但我没法衡量真正的影响。这项投资的价值与成本相比是什么？所以我们就会说，嘿，哇，我们拉远视角吧。"
+ },
+ {
+  "seg": 69,
+  "start": 1726.625,
+  "end": 1742.83,
+  "speaker": "Mike Lewis",
+  "en": "Let's zoom way out, and let's think about where we should actually focus. I mean, if we've already said, Okay, L0, we understand some people just really aren't gonna be using it maybe ever, but definitely for a while. Okay? Let's not even think about them right now. We got the L ones.",
+  "zh": "我们拉远视角，想想我们实际应该聚焦在哪。我是说，如果我们已经说过，好，L0,我们理解有些人真的可能永远不会用，但至少一段时间内肯定不会。好吧？我们现在甚至不用想他们。我们有 L1。"
+ },
+ {
+  "seg": 70,
+  "start": 1742.83,
+  "end": 1759.715,
+  "speaker": "Mike Lewis",
+  "en": "This is kind of who you're talking about, Daniel. It's the people who like believe it or not, it's the people who would say, you could pry it from my cold head hands. I could not live without this. You'd think, That must be like an L3 or whatever. No, no, actually it's just people using it, but we can look at that and we don't really understand the value there.",
+  "zh": "这有点就是你说的，Daniel。是那些——信不信由你，是那些会说「你可以从我冰冷的死手中把它撬走，我没有它活不下去」的人。你会想，那一定是 L3 之类的吧。不，不，实际上就只是在用的人，但我们看着那个，我们并不真正理解那里的价值。"
+ },
+ {
+  "seg": 71,
+  "start": 1759.715,
+  "end": 1777.1,
+  "speaker": "Mike Lewis",
+  "en": "I mean, they don't want to lose it, but they're just doing their email faster or they're interpreting technical documentation. But the company can't look at that and say, There's $4,000,000 we saved or whatever. So we say, That's noise too. That's going to happen. It's going to take care of itself.",
+  "zh": "我是说，他们不想失去它，但他们只是更快地处理邮件，或者解读技术文档。但公司没办法看着那个说，这里省了 400 万美元之类的。所以我们说，那也是噪音。那会自然发生。它会自己解决。"
+ },
+ {
+  "seg": 72,
+  "start": 1777.1,
+  "end": 1795.03,
+  "speaker": "Mike Lewis",
+  "en": "I wouldn't focus too much on that. When we talk about L2s, so at tier one, we have a process for assessing and identifying quality L2 candidates. Now, Daniel, I'm gonna work my way backwards to your actual question from here. So the idea is with an L2, this is a person who you might think, Oh, great. How do you assess them?",
+  "zh": "我不会太聚焦在那上面。当我们谈到 L2 时，在 tier one，我们有一个评估和甄别优质 L2 候选人的流程。现在，Daniel，我要从这里往回绕，回到你的实际问题。所以这个想法是，对于 L2，这是一个你可能会想，哦，太好了。你怎么评估他们？"
+ },
+ {
+  "seg": 73,
+  "start": 1795.03,
+  "end": 1807.35,
+  "speaker": "Mike Lewis",
+  "en": "So they have some aptitude for AI. No. We really don't even kind of start with any sort of technical aptitude assessment. What we care most about is company DNA. Do they understand the work in an uncanny way to the company?",
+  "zh": "那么他们对 AI 有某种天赋吧。不。我们甚至基本不会从任何形式的技术天赋评估开始。我们最关心的是公司 DNA。他们是否以一种不可思议的方式理解这家公司的工作？"
+ },
+ {
+  "seg": 74,
+  "start": 1807.6549,
+  "end": 1828.98,
+  "speaker": "Mike Lewis",
+  "en": "Do they know which cell of a spreadsheet to fight over? Do they know how to deliver the work in a way that the company wants to deliver? Is their work style uncanny to what we want? That is absolutely necessary before we screen anyone for L2 training candidacy. And here's the reason why.",
+  "zh": "他们知道该为电子表格里的哪一个单元格去争吗？他们知道公司希望以什么方式交付工作吗？他们的工作风格是否与我们想要的不可思议地契合？这是在我们为 L2 培训候选人筛选任何人之前绝对必要的。原因如下。"
+ },
+ {
+  "seg": 75,
+  "start": 1828.98,
+  "end": 1894.2749,
+  "speaker": "Mike Lewis",
+  "en": "Right now, the wrong people are in the driver's seat. We call them the AI excited. The AI excited are the ones who are getting all the attention in the company. They're running down the hall screaming words like nano banana and methos class models, and everyone's just like, Well, they must be the person who should be building things, when in reality, what we see, Daniel, is these people who maybe by definition are often distractible and not very focused on the work, don't know exactly how to align an agent to work in a way that is absolutely uncanny to what the smartest and best and most qualified SMEs inside of that function would call good or accurate or what we want done. And so we say we want to start with, it doesn't need to be this me necessarily, but it needs to be someone who, in the Venn diagram, can replicate the work the company needs done in the way they do it, that honors the brand, and has the aptitude to learn these models, the interest.",
+  "zh": "现在，错的人在驾驶座上。我们称他们为「AI 兴奋者」。AI 兴奋者是公司里获得所有关注的人。他们沿着走廊跑着大喊「nano banana」和「Methos class 模型(原文如此)」之类的词，所有人都想，好吧，他们一定是应该去构建东西的人，而现实中，Daniel，我们看到的是，这些人也许从定义上讲常常注意力分散、不太聚焦于工作本身，不知道如何把一个智能体对齐到一种与该职能内最聪明、最优秀、最合格的 SME 所认为的好、准确或我们想要的东西完全不可思议地契合的方式上工作。所以我们说我们想从——不一定非得是这个 SME——但需要是一个在维恩图上能够复现公司所需工作、按他们做事的方式、尊重品牌、并且有学习这些模型的天赋和兴趣的人开始。"
+ },
+ {
+  "seg": 76,
+  "start": 1894.275,
+  "end": 1931.82,
+  "speaker": "Mike Lewis",
+  "en": "And though, Daniel, we only want one of those on each team. We find that it is not a one plus one equals two thing. Too many chefs in the kitchen, if you have two L twos on a team, they are not necessarily as good as just an L two, a few L ones, some L zeros. And we wanna make sure every L two, every non technical builder has an L three within arm's reach so that they can double check the work. The L2 can make it uncanny, but the L3 can make it scalable, durable, make a thing that won't break, or doesn't break laws, or violate governance policies.",
+  "zh": "而且，Daniel，每个团队我们只想要一个这样的人。我们发现这不是一加一等于二的事。厨房里厨师太多了，如果一个团队里有两个 L2，他们不一定比一个 L2、几个 L1、一些 L0 更好。而且我们要确保每个 L2、每个非技术构建者，手边够得着的范围内都有一个 L3，这样他们可以复核工作。L2 能做到不可思议地贴合，但 L3 能做到可扩展、可持久，做出一个不会坏的东西，或者不违反法律、不违反治理政策的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 1931.82,
+  "end": 1953.7849,
+  "speaker": "Mike Lewis",
+  "en": "And Daniel, this is like your whole world. Right? So this is kind of what we tell. And the other nice thing about thinking about it this way is if you can see, well, we really only want one L2 inside of each high performing team. That also means we don't have to think about as many expensive licenses, and we can focus training on qualified candidates.",
+  "zh": "而且 Daniel，这就是你的整个世界。对吧？所以我们大致就是讲这些。这样思考的另一个好处是，如果你能看到，好，我们其实只在每个高绩效团队里想要一个 L2，那也意味着我们不必考虑那么多昂贵的许可证，而且我们可以把培训聚焦在有资格的候选人身上。"
+ },
+ {
+  "seg": 78,
+  "start": 1954.585,
+  "end": 1979.765,
+  "speaker": "Mike Lewis",
+  "en": "And so if we're just letting the L1s happen naturally, we're saying, Okay, L0s will deal with them someday, but what can we learn from them now? And L2s are really the ones building the machines that we want to work in a way that honors the work. And think about it, how many tools have you used that's like, Who built this? Where did this come from? You know, these things tend to last for years or decades, and it better work right, you know?",
+  "zh": "所以，如果我们只是让 L1 自然发生，我们是说，好吧，L0 有一天再处理，但我们现在能从他们身上学到什么？而 L2 真正是在构建那些我们希望以一种尊重工作本身的方式运作的机器。想想看，你用过多少工具让你觉得，这是谁构建的？这是从哪来的？这些东西往往会延续几年甚至几十年，它最好得正常工作，你知道的？"
+ },
+ {
+  "seg": 79,
+  "start": 1979.765,
+  "end": 1983.125,
+  "speaker": "Mike Lewis",
+  "en": "Anyway, particularly when you're building something that works at scale.",
+  "zh": "总之，尤其是当你在构建一个能规模化运作的东西时。"
+ },
+ {
+  "seg": 80,
+  "start": 1984.2451,
+  "end": 2006.105,
+  "speaker": "Sponsor",
+  "en": "If you're listening to the Practical AI Pod Podcast, I'm guessing that you value practicality, not just the hype around AI, which is why I think you should check out the Midwest AI Summit. This is an amazing event. I'm gonna be there this year. It's happening October 15 in Indianapolis. This is an event like no other I've been to.",
+  "zh": "如果你正在收听 Practical AI 播客，我猜你看重实用性，而不只是围绕 AI 的炒作，这也是为什么我觉得你应该了解一下 Midwest AI Summit。这是一个了不起的活动。我今年会去。它在 10 月 15 日于印第安纳波利斯举行。这是一个我去过的独一无二的活动。"
+ },
+ {
+  "seg": 81,
+  "start": 2006.105,
+  "end": 2045.86,
+  "speaker": "Sponsor",
+  "en": "There's actually an AI engineering lounge where for free, you can go up and get expert advice from practitioners and get feedback on architecture, your design, your agentic harness, whatever you're looking at, you can get feedback on in real time in between amazing speakers that are on the main stage. So don't miss this event again, October 15 in Indianapolis, and you can use the code Practical AI 20 for 20% off. So go to midwestaisummit.com and grab your ticket today. Use code Practical AI20 for 20% off. Midwestaisummit.com.",
+  "zh": "那里实际上有一个 AI 工程休息室，在那里你可以免费上前，从从业者那里获得专家建议，就架构、你的设计、你的智能体框架(agentic harness)获得反馈，无论你在做什么，你都可以在主舞台的精彩演讲之间实时获得反馈。所以别错过这个活动，再说一次，10 月 15 日，印第安纳波利斯，你可以用代码 Practical AI 20 获得 20% 折扣。去 midwestaisummit.com 今天就拿下你的票。用代码 Practical AI20 获得 20% 折扣。Midwestaisummit.com。"
+ },
+ {
+  "seg": 82,
+  "start": 2048.18,
+  "end": 2114.045,
+  "speaker": "Chris Benson",
+  "en": "Mike, you got me pretty interested, and I'm really thinking about this kind of L2 process that you're describing. And I want to rephrase a little bit in my own words and kind of finish with a question from there, and that is it feels from what you're describing there that that L2 kind of has the knowledge of the value that the company is producing locked in their heads. And so they may not be the L1 that's running down the hallway screaming, Hey, AI is cool, we should do it, But they're the ones that are fundamentally and historically bringing that core value into the products and services the company's trying to produce, and that's kind of how it sounded to me. Whether or not they're into AI, they have that, So it seems like you're trying to get kind of the L2s to be able to best use these capabilities to enhance their ability to drive value creation in the company. Is that a good way to interpret that?",
+  "zh": "Mike，你让我相当感兴趣，我真的很在想这种你描述的 L2 流程。我想用我自己的话稍微换个说法，然后从那里以一个问题结束，那就是，从你的描述来看，感觉那个 L2 头脑里锁定了公司正在产生的价值的知识。所以他们可能不是沿着走廊大喊「嘿，AI 很酷，我们应该做」的 L1，但他们才是从根本上、从历史上一直把那个核心价值带进公司试图产出的产品和服务的人，这大概就是我听下来的感觉。无论他们对 AI 是否感冒，他们有那个东西，所以看起来你们是在试图让 L2 们能够最好地利用这些能力，来增强他们在公司推动价值创造的能力。这样理解对吗？"
+ },
+ {
+  "seg": 83,
+  "start": 2116.4448,
+  "end": 2127.8801,
+  "speaker": "Chris Benson",
+  "en": "Depending on what your answer is, can you kind of give me a course correction, or can you kind of go down that path and explain it more? Because I am pretty keen on that idea.",
+  "zh": "根据你的答案，你能给我一个纠偏，或者你能沿着这条路走并解释得更多吗？因为我对这个想法相当着迷。"
+ },
+ {
+  "seg": 84,
+  "start": 2127.8801,
+  "end": 2190.43,
+  "speaker": "Mike Lewis",
+  "en": "Yeah, great. So, you know an L2 is a good one when the SMEs in the area don't complain about whatever AI tool they created, whatever its output is. You know that they are a good L2 candidate when they can align an agent so that when it creates outputs, it feels familiar to the type of work we do, and doesn't require a whole bunch of babysitting and handholding. But also, to back up a little bit, if you think about what that actually means to an organization, and in a minute, I'll give you an example of a project I'm on right now that I think would help you see the value of this instantly. A good L2 is also not only building tools that can address just repeatable work at scale, they're also converting tacit knowledge to documented process.",
+  "zh": "是的，很好。你知道，当一个领域的 SME 不抱怨他们创造的任何 AI 工具、它的任何产出时，这个 L2 就是一个好 L2。你知道他们是好的 L2 候选人，当他们能把一个智能体对齐到：当它产出结果时，它感觉上贴近我们所做工作的类型，并且不需要一大堆保姆式的看护和手把手。但另外，往回说一点，如果你想想这对一个组织实际意味着什么——过一会儿，我会给你一个我现在正在做的项目的例子，我想它能让你立刻看到这个的价值。一个好的 L2 不仅在构建能规模化处理可重复工作的工具，他们还在把隐性知识转化为有记录的流程。"
+ },
+ {
+  "seg": 85,
+  "start": 2190.43,
+  "end": 2215.61,
+  "speaker": "Mike Lewis",
+  "en": "Because once an AI model is aligned, now you have documentation. Maybe it's in code, but it is documented. And so that's a big problem in every industry right now. It's like, Oh, you know, the aging workforce, and what are we gonna do? Got don't get hit by bus guy over here, and if that's me, if we lose them, the plant shuts down, you know, kind of thing.",
+  "zh": "因为一旦一个 AI 模型被对齐了，现在你就有了文档。也许它是以代码形式存在，但它是成文的。而这是现在每个行业都面临的一个大问题。就像，哦，你知道的，劳动力老龄化，我们该怎么办？这边有个「别被公交车撞 guy」，如果那就是我，如果我们失去他，工厂就停摆了，你知道的，那种事。"
+ },
+ {
+  "seg": 86,
+  "start": 2215.61,
+  "end": 2253.05,
+  "speaker": "Mike Lewis",
+  "en": "And so I think in my mind, that's how you know you have an L2 there, that you don't have to worry about the tool they're building and whether or not it's gonna work well. But here's the other piece of it. And really, executives lean forward in their chair at this part of the conversation, because when we say, If you're wondering about the value of this investment, let's stop thinking about this as AI work. Really, the work of yesterday is going to look like the work of tomorrow. Believe it or not, the more things change, the more they stay the same.",
+  "zh": "所以在我看来，这样你就知道你有一个好的 L2 在那里，你不必担心他们在构建的工具以及它是否能好好运作。但还有另一层。而且真的，高管们在对话进行到这部分时会在椅子上身体前倾，因为当我们说，如果你在怀疑这项投资的价值，那我们就别再把它当成 AI 工作来想。真的，昨天的工作看起来会和明天的工作一样。信不信由你，事情变化越多，它们越不变。"
+ },
+ {
+  "seg": 87,
+  "start": 2253.05,
+  "end": 2273.0298,
+  "speaker": "Mike Lewis",
+  "en": "And I know it feels like everything is shifting beneath our feet, but the reality is we will be doing the same things before tomorrow. Whenever I talk to AI teams, it feels like what they want to build is agents. What they want to build is tools. But if you actually go look inside of the work at companies, they don't, they're not thinking about AI. They're thinking about this particular problem in front of them.",
+  "zh": "我知道感觉脚下的一切都在变动，但现实是我们明天还会在做和以前一样的事情。每当我与 AI 团队交谈时，感觉他们想构建的是智能体。他们想构建的是工具。但如果你真的走进公司内部去看那些工作，他们没有——他们没在想 AI。他们在想眼前这个具体的问题。"
+ },
+ {
+  "seg": 88,
+  "start": 2273.0298,
+  "end": 2305.9102,
+  "speaker": "Mike Lewis",
+  "en": "So with one of my clients, let's just say one of the top four pharma companies in the world, they were sitting on a stack of, I can't remember how many thousand documents, they needed converted to look from to look like this to look like this. And I probably can't say too much more about that project, but it was a $4,000,000 job. It was a $4,000,000 job. They knew exactly how much it would cost to convert each one, and it requires SMEs. And an L2 took a look at it and said, This feels like a Claude skill.",
+  "zh": "所以拿我的一个客户来说，就说是世界排名前四的制药公司之一吧，他们手里积压着——我记不清几千份文档了——需要被转换成从长这样变成这样(原文如此)。关于那个项目我可能说不了太多，但那是一个 400 万美元的活儿。那是一个 400 万美元的活儿。他们清楚地知道转换每一份要花多少钱，而且它需要 SME。然后一个 L2 看了一眼说，这感觉像一个 Claude skill。"
+ },
+ {
+  "seg": 89,
+  "start": 2305.9102,
+  "end": 2336.1602,
+  "speaker": "Mike Lewis",
+  "en": "Had the Claude skill built within three hours, we drug one of their documents onto that skill, out the other end, squirted almost exactly what we were hoping these things would look like at the end of the process. Of course, everyone's jaw hit their desk. Wait a minute. You're telling me that was gonna be $4,000,000 It needs to be done. And now our Claude, which we've already paid for, you you just drag them on, wait, you can also run a thousand concurrently, and this whole thing could be done in hours?",
+  "zh": "三个小时内就把 Claude skill 建好了，我们把他们的其中一份文档拖到那个 skill 上，另一头出来的，几乎正是我们希望这些东西在流程结束时看起来的样子。当然，所有人都惊掉了下巴。等等。你是说那本来要花 400 万美元？它必须得做完。而现在我们的 Claude，我们已经付过钱了，你只要拖进去，等等，你还可以一千份并发运行，这整件事可以在几小时内完成？"
+ },
+ {
+  "seg": 90,
+  "start": 2336.1602,
+  "end": 2368.58,
+  "speaker": "Mike Lewis",
+  "en": "Like, wait, what? That is measurable, You know? And so we we kinda push people to thinking toward like, you know, you you're not gonna find out the value of this investment based on how many tokens people are spending or, you know, like, you're gonna find it when you start intentionally forming teams with a couple of strategic people in there who know how to spot an AI opportunity and just make the headache vanish. We call it doing their laundry. And so this is where the real money is, and this is where the real savings is.",
+  "zh": "就像，等等，什么？这才是可衡量的，你知道吗？所以我们有点推着人们朝这个方向想，你知道的，你不会基于人们花了多少 token 来找到这项投资的价值，或者你知道的类似的东西——当你开始有意识地在团队里组建几个懂得如何发现一个 AI 机会、并让这个头疼的问题直接消失的战略性的人时，你才会找到它。我们称之为「帮他们把衣服洗了」。所以真正的钱在这里，真正的节省也在这里。"
+ },
+ {
+  "seg": 91,
+  "start": 2368.58,
+  "end": 2378.875,
+  "speaker": "Mike Lewis",
+  "en": "And Daniel, I know you know about this because I've heard you kinda almost complain about it. Like, you know, it's like, this stuff's not fun, but it's like, it's real work. Chris, is that helpful?",
+  "zh": "而且 Daniel，我知道你了解这个，因为我听过你有点几乎在抱怨这个。就像，你知道的，这东西不好玩，但它就像，是真正的工作。Chris，这有帮助吗？"
+ },
+ {
+  "seg": 92,
+  "start": 2378.875,
+  "end": 2382.635,
+  "speaker": "Chris Benson",
+  "en": "It is. No. That that helps frame it very well for me. I appreciate that.",
+  "zh": "有。不。这帮我把框架理得很清楚。我很感激。"
+ },
+ {
+  "seg": 93,
+  "start": 2382.635,
+  "end": 2408.475,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. And I I would be curious of your take on this, Mike. I think you're the right person to ask for a critique on some examples that I've I've been using even personally. But I've been I've been trying to use this example of, you know, how in, like, leadership retreats, you they always used to show, like, the the f one pit stop and how it advanced from, like, twenty seconds to two seconds. Right?",
+  "zh": "是的。而且我我会很好奇你对此的看法，Mike。我觉得你是就一些例子提批评意见的合适人选，这些例子我一直在用，甚至我个人也用。但我一直在试着用这个例子，就是，你知道的，在领导力 retreat 之类场合，他们以前总是展示 F1 进站(stop)从大约二十秒进化到两秒的过程。对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 2408.475,
+  "end": 2432.3252,
+  "speaker": "Daniel Whitenack",
+  "en": "And how that happened was, like, everybody knew knows their job in the pit lane. Right? And one guy's job is just to move the tire from here to there, and that's all they do. Like, that's their full responsibility. And it almost seems like in some of these use cases that I'm seeing at least, those kind of very targeted jobs or outcomes.",
+  "zh": "而那是怎么发生的呢，就是，每个人都知道自己在维修通道里的工作。对吧？有一个人的工作就只是把轮胎从这里搬到那里，那就是他们全部做的。那就是他们的全部职责。而似乎在我至少正在看到的一些用例中，就是那种非常针对性的工作或结果。"
+ },
+ {
+  "seg": 95,
+  "start": 2433.045,
+  "end": 2449.42,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? But like you're talking about this document from here to there. Right? That that needs to be done, and that is is maybe a good candidate for, however you frame it. A use of AI, an an agent to take care of it.",
+  "zh": "对吧？但就像你说的这份文档从这里到那里。对吧？那件事需要被完成，而它也许是一个好的候选对象，不管你怎么框架化它。一个 AI 的使用，一个智能体去处理它。"
+ },
+ {
+  "seg": 96,
+  "start": 2449.42,
+  "end": 2478.4802,
+  "speaker": "Daniel Whitenack",
+  "en": "How how are you word that? Like, that's a that's a thing. And and it kind of in my mind, it then it it doesn't remove the human, but it it actually kind of elevates, in some cases, the dignity of the human from being the person who's like, all you're gonna do every day is move the tire from here to there or to, you know, do this task. And certainly, recognize there is legitimate, you know, jobs will shift. Right?",
+  "zh": "你——你会怎么措辞？比如，那是一件事。而且它在我脑子里，它然后它并不移除人类，但它实际上在某种程度上，在某些情况下，提升了人类的尊严，从做那个「你每天要做的就是把轮胎从这里搬到那里」的人，或者做这个任务的人。当然，我也认识到，工作会转移，这是正当的。对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 2478.56,
+  "end": 2512.51,
+  "speaker": "Daniel Whitenack",
+  "en": "But, and, you know, people will will struggle around that. But it seems like now kind of the human you're not framing your team of humans as, hey. Don't go don't get out of your lane. Just move the tire from here to there, to actually being able to leverage AI in these individual tasks and you kind of coming into the orchestrator mode or the team principal or the the strategist mode and actually thinking about outcomes. Well, what what is the outcome I want here, and what are the individual things associated with it?",
+  "zh": "但是，你知道的，人们会为此挣扎。但现在看起来，你不再把你的团队框定为「嘿，别——别出你的车道，只管把轮胎从这里搬到那里」的人类，而是真正能够在这些单个任务中利用 AI，而你有点进入指挥者模式，或者车队领队模式，或者战略家模式，真正思考结果。好，我在这里想要的结果是什么，与之相关的单个事项是什么？"
+ },
+ {
+  "seg": 98,
+  "start": 2512.51,
+  "end": 2562.98,
+  "speaker": "Daniel Whitenack",
+  "en": "Many of those which can be individual tasks that that AI accomplishes. I don't know if that that rings true at all. I've I've been trying to think about, yeah, how, people are very used to thinking now, I I think, or many people are very used to thinking of the one to one interaction between a human and, AI tool, let's say, or a chat interface, and maybe less familiar with this or or familiar with this way of thinking of maybe one human is actually aided by multiple different instantiations or manifestations of AI that help them work towards towards outcomes. But I don't know. Any critique on that rambling example of kind of the the the f one pit stop and some of these tasks?",
+  "zh": "其中很多可以是 AI 能完成的单个任务。我不知道这是否完全说中了。我一直在想，是的，怎么，人们现在非常习惯于想——我想，或者说很多人非常习惯于想人类与 AI 工具之间的一对一交互，比如说，或者一个聊天界面，而对这种思维方式也许不太熟悉——或者对这种思维方式熟悉——也许一个人类实际上由多个不同的 AI 实例或化身辅助，帮助他们朝着结果工作。但我不知道。对你那段关于 F1 进站和一些这类任务的漫谈式例子，有什么批评吗？"
+ },
+ {
+  "seg": 99,
+  "start": 2563.3,
+  "end": 2579.8252,
+  "speaker": "Daniel Whitenack",
+  "en": "You know, what are the tasks in your in your, pit box that need to be accomplished, and what what of those are good candidates for AI? How do I think about managing this set of AI workers or tasks or whatever you however you might frame it?",
+  "zh": "你知道的，你的——你的维修箱里有哪些任务需要被完成，那些里面哪些是 AI 的好候选对象？我该怎么思考管理这一组 AI 工作者或任务，或者不管你怎么框架化它？"
+ },
+ {
+  "seg": 100,
+  "start": 2579.8252,
+  "end": 2606.7349,
+  "speaker": "Mike Lewis",
+  "en": "Yeah. One of the one of the things that popped in my head while I was listening to you, Daniel, which I always enjoy doing, is I'm very often thrown into rooms with people who live on a spectrum of attitudes. One of the big ones is just all the fear wrapped up in this. And I kinda always open with, hey, guess what? If you're worried about losing your job to I think there's thunder in the background.",
+  "zh": "是的。我在听你讲的时候,丹尼尔,脑海里冒出的一件事——我一直很享受做这件事——就是我经常被扔进一个房间里,和一群态度各异的人在一起。其中一个很大的态度就是围绕这一切的所有恐惧。我总是这样开场:嘿,你猜怎么着?如果你担心丢掉工作——我想背景里有雷声。"
+ },
+ {
+  "seg": 101,
+  "start": 2606.7349,
+  "end": 2607.615,
+  "speaker": "Mike Lewis",
+  "en": "I don't know if you can hear that.",
+  "zh": "我不知道你们能不能听到。"
+ },
+ {
+  "seg": 102,
+  "start": 2607.615,
+  "end": 2611.1,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. It's definitely thunderstormy in the Midwest",
+  "zh": "是的。中西部这边确实正在打雷暴"
+ },
+ {
+  "seg": 103,
+  "start": 2611.1,
+  "end": 2611.26,
+  "speaker": "Chris Benson",
+  "en": "It's giving",
+  "zh": "这是在给出"
+ },
+ {
+  "seg": 104,
+  "start": 2611.26,
+  "end": 2613.82,
+  "speaker": "Daniel Whitenack",
+  "en": "the right answer extra trauma",
+  "zh": "正确答案额外的创伤"
+ },
+ {
+  "seg": 105,
+  "start": 2613.82,
+  "end": 2626.415,
+  "speaker": "Mike Lewis",
+  "en": "right there. Yeah, that's the fear part. No, really. When I go in a room, and I know there are people who are dwelling on that, hung up on that, I you know, I just open with, Guess what? You are losing your job.",
+  "zh": "就在那儿。对,这就是恐惧的部分。不,说真的。当我走进一个房间,我知道里面有人在纠结这个、被这个困住,我就这样开场:你猜怎么着?你确实正在失去你的工作。"
+ },
+ {
+  "seg": 106,
+  "start": 2626.5752,
+  "end": 2647.9001,
+  "speaker": "Mike Lewis",
+  "en": "Your job is going to change, and that's true for all of us always, whether or not AI was invented or not. I don't know how many careers I've had, and I think the average person has seven. And even if you stuck with one, your job would change year over year in time. And if someone is uncomfortable with the concept of change, guess what? You're not cut out for the workforce.",
+  "zh": "你的工作将会改变,这对我们所有人来说永远如此,不管 AI 有没有被发明出来。我不知道我经历过多少份职业了,我记得普通人一生有七份职业。即使你坚持只做一份,你的工作也会年复一年地随时间变化。如果有人对“改变”这个概念感到不舒服,那你要知道:你就不适合职场。"
+ },
+ {
+  "seg": 107,
+  "start": 2647.98,
+  "end": 2670.11,
+  "speaker": "Mike Lewis",
+  "en": "I mean, the reality is if my daughter was scared there's a monster under her bed, I wouldn't go and say, There's no monster under your bed. I'd say, You're stronger than a monster. Monsters aren't real. It's kind of like that in this job. It's like, Hey, adapt or die, and I don't think you're gonna die.",
+  "zh": "我是说,现实是,如果我女儿害怕床底下有怪物,我不会走过去说,床底下没有怪物。我会说,你比怪物更强。怪物不是真实存在的。在这份工作上有点像那样。就是:嘿,要么适应,要么消亡,而我认为你不会消亡。"
+ },
+ {
+  "seg": 108,
+  "start": 2671.5498,
+  "end": 2706.845,
+  "speaker": "Mike Lewis",
+  "en": "And maybe some of this, it might sound a little heartless, but it comes out of the research, is that disruption is always, it turns out in hindsight, it was not as hard to adapt to as you thought it was going to be, and you adapt more quickly than you thought you could. And so, this is just documented truth. But it never feels that way. I think I'm just the weird bird who really likes the idea of uprooting my entire career and just trying something new. You know?",
+  "zh": "也许这其中有些话听起来有点无情,但它来自研究:颠覆总是——事后来看——原来并没有你想象得那么难适应,而且你适应的速度比你以为自己能做到的更快。所以,这是有据可查的事实。但它从来不会给人那种感觉。我想我就是那种怪鸟,真的很喜欢把自己的整个职业生涯连根拔起、去尝试新东西这种想法。你知道?"
+ },
+ {
+  "seg": 109,
+  "start": 2706.845,
+  "end": 2719.8801,
+  "speaker": "Mike Lewis",
+  "en": "I just have done that so many times, and I almost enjoy it. But then, I think the rest of what I heard you talk about, Daniel yeah. I addressed that. But remind me, what else? What was the the",
+  "zh": "我已经这么做过太多次了,我几乎乐在其中。不过,我听你讲的其他内容,丹尼尔,是的,我回应过了。但提醒我一下,还有什么?那个——"
+ },
+ {
+  "seg": 110,
+  "start": 2719.8801,
+  "end": 2769.145,
+  "speaker": "Daniel Whitenack",
+  "en": "other I think it's this idea of one element of the change, I think, is understanding that maybe your your position, which might be consumed by this task right now, might not be just come into work and do this task, but it it sort of elevates more to an outcome kind of creative orchestration mode where you're actually orchestrating work that needs to be accomplished. Like you say, the same functions, the same roles, like the same outcomes need to be accomplished in your in your business. Right? But, but, yeah, it it's it does take a different level of thinking to think about, well, how do I orchestrate these things to get the outcomes versus how do I do this task? Because I know how to get the task done.",
+  "zh": "另一个,我认为是这个想法:变化的一个要素,我想,是理解到也许你的——你现在可能被这个任务消耗掉的那个岗位——也许不只是来上班然后做这个任务,而是它更多地提升为一种面向结果的创造性编排模式,你实际上在编排需要完成的工作。就像你说的,同样的职能、同样的角色、同样的结果在你的业务中仍然需要被完成。对吧?但是,是的,确实需要一种不同层次的思考去考虑:我该如何编排这些事情来得到结果,而不是我如何做这个任务?因为我知道怎么把这个任务做完。"
+ },
+ {
+  "seg": 111,
+  "start": 2769.145,
+  "end": 2769.5452,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah,",
+  "zh": "是的,"
+ },
+ {
+  "seg": 112,
+  "start": 2770.105,
+  "end": 2786.4102,
+  "speaker": "Mike Lewis",
+  "en": "I hear you. Maybe part of why I struggle with just rapid firing an answer to this is my mind darts back and forth from the hundreds of work environments and situations I've had to kind of inspect and solution for. Frame",
+  "zh": "我明白你的意思。也许我之所以难以直接快速给出这个问题的答案,部分原因是我的思绪在我曾经必须审视并为之寻找解决方案的数百种工作环境和情境之间来回跳跃。"
+ },
+ {
+  "seg": 113,
+  "start": 2788.01,
+  "end": 2850.2,
+  "speaker": "Chris Benson",
+  "en": "it for a moment, because I think I see where Dan's going, and I think you are the right person to answer this, and that would be if you go back to that analogy of the F1 pit stop that he was describing and the nature of the jobs that everyone had there, you're kinda looking forward. So we're kind of, what is our expectation of the future? At least I think one of the things that probably the three of us would agree on at some level is the fact that the human that's in that process, it may have these AI agents that are able to take over some of those very specific jobs along the way, and you're almost becoming the pit stop manager or orchestrator overall. So you're still doing the pit stop because that's the value of what your organization's doing, but the nature of the humans may change to better do it, to do it faster, and to grow rather than be kicked out of rather than loss of job. It's a change of job that's actually more valuable in a lot of ways.",
+  "zh": "给它加个框架,因为我想我知道丹要往哪儿去了,而且我认为你是回答这个问题的合适人选,那就是:如果你回到他描述的那个 F1 进站类比,以及那里每个人工作的性质——你基本上是在向前看。所以我们对未来的期望是什么?至少我认为我们三个人在某种程度上可能会同意的一点是,处在那个流程中的那个人——也许有这些 AI 智能体能够接管途中那些非常具体的岗位,而你几乎变成了进站经理或者整体编排者。所以你仍然在做进站,因为那是你的组织在做的事情的价值所在,但人的性质可能会改变,以便更好地做这件事,做得更快,并且成长,而不是被踢出去,而不是失去工作。这是一种工作性质的改变,在很多方面实际上更有价值。"
+ },
+ {
+  "seg": 114,
+  "start": 2850.535,
+  "end": 2882.135,
+  "speaker": "Chris Benson",
+  "en": "Could you talk a little bit about what that future might look like for those individual employees that are adjusting their pit stop job, but maybe moving a little higher in the abstraction layer to owning that whole process where they are valuable as humans and yet they're taking full advantage of the agents. Any thoughts, as you take companies through the process, how you would do that and what your expectation of the future will be on how that progresses.",
+  "zh": "你能谈谈对于这些正在调整他们进站工作的员工个体来说,那个未来可能是什么样子吗?也许他们在抽象层次上往上移了一点,去拥有整个过程,在那里他们作为人是有价值的,同时又在充分利用智能体。在你带公司经历这个过程的时候,有什么想法吗——你会怎么做,以及你对未来如何演进有什么预期。"
+ },
+ {
+  "seg": 115,
+  "start": 2882.215,
+  "end": 2884.375,
+  "speaker": "Mike Lewis",
+  "en": "I don't think you're going to like my answer.",
+  "zh": "我觉得你不会喜欢我的答案。"
+ },
+ {
+  "seg": 116,
+  "start": 2884.535,
+  "end": 2885.895,
+  "speaker": "Chris Benson",
+  "en": "It's all good.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 117,
+  "start": 2886.775,
+  "end": 2909.26,
+  "speaker": "Mike Lewis",
+  "en": "I've decided to stop worrying about it. I don't even think about it anymore. Maybe it's just because I don't fully understand the question. I think I do. I spent probably two years inside of all of these organizations trying to lead and organize and implement enablement and activation campaigns.",
+  "zh": "我已经决定不再为此担忧了。我甚至都不再想这件事了。也许只是因为我没有完全理解这个问题。我想我理解了。我大概花了两年时间待在所有这些组织里,试图领导、组织、实施赋能和激活活动。"
+ },
+ {
+  "seg": 118,
+  "start": 2909.3152,
+  "end": 2934.63,
+  "speaker": "Mike Lewis",
+  "en": "And in the end, it just kind of felt like I was just watching water run down a river. It was gonna go down the direction it was gonna go. The river is just winding the way it winds. I think I'm always just searching for where can I actually make an impact? Where can I actually activate change in an organization that is measurable, something that we're all glad we did after we're done doing it?",
+  "zh": "到最后,感觉就像我只是看着水流过一条河。它会流向它要流的方向。河就是以它蜿蜒的方式蜿蜒着。我想我一直在寻找的是:我到底能在哪里产生真正的影响?我到底能在哪里激活一个组织中可衡量的改变,某种等我们做完之后我们都会庆幸做了的事情?"
+ },
+ {
+  "seg": 119,
+  "start": 2934.7551,
+  "end": 2959.83,
+  "speaker": "Mike Lewis",
+  "en": "And when I come in and we try to just really analyze and think through, well, what's the impact of this gonna be after we do that? In the end, what it's gonna be is what it's gonna be. And people tend to adapt to these tools very quickly once they've used them once or twice and seen the result. And so in my mind, it's kind of like, I'm gonna do everything I can to get them to do that. But beyond that, if I can't get them to, I don't care.",
+  "zh": "而当我进来,我们试图真正去分析和思考:做了这件事之后它的影响会是什么?到最后,它会是什么就是什么。而人们往往在用过这些工具一两次、看到了结果之后,就会非常快地适应它们。所以在我心里,差不多就是:我会竭尽所能让他们去用。但除此之外,如果我做不到,我不在乎。"
+ },
+ {
+  "seg": 120,
+  "start": 2959.83,
+  "end": 2993.035,
+  "speaker": "Mike Lewis",
+  "en": "What I care about is, can I find that l two? Can we get them equipped and activated? And and and synergizing that's a better word than that. Effectively cooperating and contributing inside of their team in a way that like, I wanna know the difference before and after. And and so it's not just that, you know maybe the pit crew thing was a distraction for me because I was I was focused on like, well, it's faster now, and it drives me nuts when people say, I want things faster.",
+  "zh": "我在乎的是:我能不能找到那个 L2?我们能不能让他们装备好并被激活?然后——协同,这是个比刚才那个词更好的说法——有效地协作并在他们的团队内做出贡献,以一种让我能知道前后差异的方式。所以并不只是那样,你知道,也许那个进站维修队的事情对我来说是个干扰,因为我当时关注的是:嗯,现在更快了,而当人们说“我想要更快”的时候,我会抓狂。"
+ },
+ {
+  "seg": 121,
+  "start": 2993.035,
+  "end": 3011.8398,
+  "speaker": "Mike Lewis",
+  "en": "At tier one, we say, like, faster's not always better, especially when it's a it's it's a system with a whole bunch of parts, and you've just created whiplash and angst for everything around that fast piece. You know? Like, nothing else is ready to go that fast, so that's not necessarily better. Cheaper? Sometimes that doesn't even matter.",
+  "zh": "在 tier one,我们会说,“更快”不总是更好,尤其当它是一个由一大堆部件组成的系统,而你只是给那个快部件周围的一切都制造了鞭击效应和焦虑。你知道?就像,其他一切都没准备好跑那么快,所以那不一定更好。更便宜?有时候那甚至都不重要。"
+ },
+ {
+  "seg": 122,
+  "start": 3011.8398,
+  "end": 3029.8052,
+  "speaker": "Mike Lewis",
+  "en": "Believe it or not, a lot of the companies, that's that's not like the main thing we're talking about. Like but new emergent types of work. Interesting. So what can we do now that human minds just really couldn't do well before? And equipping these language models inside of really clever harnesses.",
+  "zh": "信不信由你,对很多公司来说,那并不是我们在谈论的主要事情。而是新涌现出来的工作类型。有意思。那么,什么是我们现在能做、而以前人脑真的做不好的事?以及把这些语言模型装进真正聪明的挽具里。"
+ },
+ {
+  "seg": 123,
+  "start": 3029.8052,
+  "end": 3057.2249,
+  "speaker": "Mike Lewis",
+  "en": "So again, it's kind of like Daniel's world. Woah, new kinds of work. And so what's that mean for the product, or this department, or function, or whatever it is? So I guess I put that whole concept just right outside the periphery of what I can control, and so therefore, not something I worry about and I'm sort of done thinking about.",
+  "zh": "所以再说一次,这有点像丹尼尔的世界。哇,新种类的工作。那么这对产品、或者这个部门、或者这个职能,意味着什么?所以我想我把整个那个概念放在了我能控制范围之外的外围,因此,它不是我担心的事情,我也差不多想完了。"
+ },
+ {
+  "seg": 124,
+  "start": 3057.2249,
+  "end": 3060.825,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. That that makes sense. I actually do like that answer. I did.",
+  "zh": "是的。那说得通。我实际上挺喜欢那个答案。真的。"
+ },
+ {
+  "seg": 125,
+  "start": 3060.825,
+  "end": 3061.4648,
+  "speaker": "Mike Lewis",
+  "en": "I did too.",
+  "zh": "我也是。"
+ },
+ {
+  "seg": 126,
+  "start": 3061.4648,
+  "end": 3115.5652,
+  "speaker": "Daniel Whitenack",
+  "en": "I I think there there there are a lot of people and may maybe this is, I don't know, a a little bit too personal, but but certainly, like, a mode that I think all of us as humans get in is not being present in the moment and thinking about, of course, the past, you know, dwelling on that, but also the future and the all the stories that we tell in our head about how things might go. Right? Which won't there there may be elements of that that are true, and it's not of course, I don't mean that we shouldn't innovate and look at new ways of doing things. I just mean we often dwell on eventualities in the future that will that will never take take place. And there's dynamics that are happening that we need to dig into and think about how they matter in in the moment, which I I I really I really like that that perspective.",
+  "zh": "我认为——也许这有点太私人了,但肯定有一种我们作为人类都会陷入的模式,就是没有活在当下,而是想着,当然是过去,你知道的,纠结于过去,但也想着未来,想着我们在脑子里讲的所有那些事情可能如何发展的故事。对吧?那些故事里也许有些元素是真的,当然我不是说我们不应该创新、不应该看新的做事方式。我只是说,我们常常纠结于未来那些永远不会发生的可能性。而当下正在发生的动态,才是我们需要深挖并思考它们在此时此刻如何起作用的。我真的很喜欢那个视角。"
+ },
+ {
+  "seg": 127,
+  "start": 3115.645,
+  "end": 3171.685,
+  "speaker": "Daniel Whitenack",
+  "en": "As as we close out here, Mike, after kind of working across these different levels of proficiency, and I know also you're thinking about structured ways of thinking about the the actual things that can be done by AI, the outcomes, that sort of thing. What what's on your mind, you know, today as you're going into your next meetings as, like, the the the kind of challenges or the things maybe like, you had done this work to parse through all of these this research and and work on AI proficiencies. Right? What's that next kind of or is there a next kind of area in your mind where you're like, I don't I don't totally have a grip around this bit of it yet, but I'm really curious to dig in more and see if I can see if I can parse through some of it. Anything that comes to your mind as as we close out here?",
+  "zh": "在我们收尾的时候,迈克,在跨越了这些不同的熟练度层级之后——我知道你也在思考用结构化的方式去理解 AI 实际能做的事情、那些结果,诸如此类——你今天脑子里在想什么?比如你要去开下一个会议时,那些挑战,或者也许像——你已经做了这项工作,去梳理所有这些研究、做 AI 熟练度方面的工作。对吧?你脑子里下一个是什么领域?或者有没有下一个这样的领域,你觉得我还没完全掌握这一块,但我真的很想深挖进去,看看能不能梳理出一些东西。我们收尾的时候,有什么想到的吗?"
+ },
+ {
+  "seg": 128,
+  "start": 3171.685,
+  "end": 3219.1902,
+  "speaker": "Mike Lewis",
+  "en": "Yeah. I think I think the thing that's been most exciting to me as an idea or a rallying cry when it comes to the rank and file inside of organizations, or with leaders who look at me and say, Where is their energy? Where is their momentum? One idea that I've had lately, and I've seen pay off over and over and over is the reality inside of most of these massive organizations, mostly I'm talking about big business now, is that everyone's got a toolkit in place. Like, if you're, you know, Eddie Punch Clock, Procter and Gamble, you probably have access to one, two, or three AI tools, and they don't work well together, and they don't necessarily work well.",
+  "zh": "是的。我觉得,作为一个想法或者一句战斗口号,对我来说最兴奋的事情,当它涉及到组织里的普通员工,或者那些看着我、问“他们的能量在哪里?他们的势头在哪里?”的领导者——我最近有一个想法,而且我一次又一次又一次地看到它见效——在大多数这些庞大组织里,主要我现在说的是大型企业——的现实是:每个人都已经有一套工具箱。就像,如果你是,你知道,Eddie Punch Clock,宝洁,你大概能用上一、两个或三个 AI 工具,它们彼此配合得不好,而且它们本身也不一定好用。"
+ },
+ {
+  "seg": 129,
+  "start": 3219.1902,
+  "end": 3286.095,
+  "speaker": "Mike Lewis",
+  "en": "And it is very easy to try to use them and just see it doesn't work super well for the thing that you need to get done and give up on it. And I think the thing I'm realizing is that there is massive, massive value in the people who are willing to lean against the brick wall and push and push and push. And believe it or not, you'll start to find ways to use these tools that are hugely informative in spite of the fact that they're so burdened by necessary governance and, you know, rules and restrictions, and why can't we turn that connector on and why can't you know? But, you know, when Claude tells you something's not possible, you know, ask it to get creative and, you know, and or, you know, think through, you know, alternate approaches. I think creative solutioning is going to be really, really valuable over the next two years, three, four, five years before all the wrinkles are ironed out, who knows, Terminators or whatever comes after that.",
+  "zh": "而很容易出现的情况是:试着用它们,发现它们对你需要完成的那件事效果不太好,然后就放弃了。而我正在意识到的是,那些愿意顶着砖墙推、推、再推的人,身上有巨大的、巨大的价值。信不信由你,你会开始找到使用这些工具的方法,它们极具启发性,尽管它们被必要的治理、规则和限制压得喘不过气,还有“为什么不能把那个连接器打开”和“为什么不能——”你知道的。不过,当 Claude 告诉你某件事不可能的时候,你知道,让它发挥创造力,或者,你知道,想一下替代方案。我认为,创造性解决方案在接下来的两年、三、四、五年里会非常、非常有价值,直到所有的褶皱都被熨平——谁知道呢,终结者或者那之后会来的什么东西。"
+ },
+ {
+  "seg": 130,
+  "start": 3287.31,
+  "end": 3309.645,
+  "speaker": "Mike Lewis",
+  "en": "But I think, yeah, the thing, Daniel, that I've been preaching lately with my trusted colleagues and with different leaders and organizations is do your best to to encourage that type of thinking and behavior. Like, okay, I know they aren't perfect. Figure out what you can get done, though. So",
+  "zh": "但我认为,是的,丹尼尔,我最近一直在向我的可信同事、以及不同的领导者和组织布道的就是:尽力去鼓励那种类型的思考和行为。比如:好吧,我知道它们不完美。但去弄清楚你能完成什么。所以——"
+ },
+ {
+  "seg": 131,
+  "start": 3309.885,
+  "end": 3329.105,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. That's that's, I think, a great rallying rallying cry to to end with. Appreciate you joining us again, Mike. We look forward to having you having you on again, to to learn from you in hopefully not too long again. But, appreciate you taking It's been a great conversation.",
+  "zh": "是的。我觉得那是一句很适合用来收尾的战斗口号。感谢你再次加入我们,迈克。我们期待再次请你来,向你学习,希望不会隔太久。不过,感谢你抽出时间。这是一次很棒的对话。"
+ },
+ {
+  "seg": 132,
+  "start": 3329.105,
+  "end": 3329.825,
+  "speaker": "Daniel Whitenack",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 133,
+  "start": 3336.785,
+  "end": 3357.135,
+  "speaker": "Narrator",
+  "en": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show.",
+  "zh": "好了,这就是我们本周的节目。如果你还没有看过我们的网站,请前往 practicalai.fm,并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 发展相关的洞见,我们很乐意你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 134,
+  "start": 3357.375,
+  "end": 3366.6975,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请到 predictionguard.com 看看他们。另外,感谢 Breakmaster Cylinder 的节拍,也感谢你的收听。本期就到这里,我们下周再会。"
+ }
+]

@@ -7,23 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ASML</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ASML">AS</div><div class="pi"><h1 class="pt">ASML</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ASML">AS</div><div class="pi"><h1 class="pt">ASML</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(09:49起):本集说实验室被「进入 ASML 机器的反射镜」卡住瓶颈,并讨论 2030 年前需要 100 台 ASML EUV 设备。
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(16:39起):本集说全世界目前只有 ASML 能造光刻机，「这是真正的垄断，不是源于试图控制供应，他们拥有别人一直无法复制的技术」。
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(30:10起):Herwig 的火热观点:欧洲做成过一次长达 40 年的成功故事,叫 ASML,欧洲已准备好迎接更多这样的故事。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
+
+![[2026-08-25-dwarkesh-dylan-patel-3#^q2]]
 
 ![[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob#^q8]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司
 
@@ -31,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[TSMC]] · [[数据中心]] · [[供应链]] · [[AWS]] · [[Jack]] · [[Herwig]] · [[Eric]] · [[Rorik]] · [[Andrew Feldman]]
+[[NVIDIA]] · [[OpenAI]] · [[TSMC]] · [[Google]] · [[数据中心]] · [[推理]] · [[供应链]] · [[训练]] · [[AWS]] · [[Dylan Patel]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":54,"TSMC":9,"数据中心":21,"供应链":5,"AWS":19,"Jack":1,"Herwig":1,"Eric":1,"Rorik":1,"Andrew Feldman":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":56,"OpenAI":164,"TSMC":9,"Google":59,"数据中心":21,"推理":77,"供应链":5,"训练":5,"AWS":19,"Dylan Patel":1}</script>
 
 <script>
 (function(){

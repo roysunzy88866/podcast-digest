@@ -136,7 +136,7 @@ Alex 补充了这类定制分类器的一大好处：没有「[[模型债务|模
 
 - [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:OpenRouter、Stripe · 同概念:智能体 (agent)、微调 (fine-tuning)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:OpenRouter · 同概念:智能体 (agent)、融合模型 (fusion)</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit、Stripe · 同概念:智能体 (agent)</span>
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|Stripe 联创 John Collison:智能体商务是一次彻底的重构]]<span class="pd-rz">同公司:OpenRouter、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Zilvinas]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]] [[David Burns]] [[David George]] [[Dex Horthy]]
+[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":405,"编排器":4,"护栏":77,"循环":10,"规则":2,"police 文件":1,"vibe coding":45,"vibe engineering":1,"技能文件":4,"Codex":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":411,"编排器":4,"护栏":77,"循环":10,"规则":2,"police 文件":1,"vibe coding":45,"vibe engineering":1,"技能文件":4,"Codex":80}</script>
 
 <script>
 (function(){
