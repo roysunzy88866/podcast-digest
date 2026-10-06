@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI7791161404.mp3",
+  "duration_sec": 3834.558,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 776,
+  "asr": true,
+  "title_en": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
+  "podcast": "Training Data",
+  "date": "2026-10-06",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/28c38604-c0da-11f1-8b1e-33a0102fe4b6/image/00f5305703a404fddbfcc2a75c9b9fa1.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-06",
+  "added_at": "2026-10-06T13:29:14.437Z",
+  "speaker_map": {
+    "SPEAKER_00": "Amin Vahdat"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Amin Vahdat"
+  ],
+  "host": null,
+  "cohosts": []
+}
