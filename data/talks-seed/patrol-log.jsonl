@@ -1566,3 +1566,4 @@
 {"ts":"2026-10-06T08:03:50.185Z","action":"seed-failed","channel":"aie","videoId":"NdrSPm6NCdk","title":"Evals in AI: A Deep Dive — Tejas Kumar, IBM","verdict":"对味","reason":"AI 工程实操(Evals 构建与生产化流程),不属三类拦截,且为方法论常青内容","error":"seed-talk exit 1/种子未就绪(可重试)"}
 {"ts":"2026-10-06T08:04:14.089Z","action":"prefilter-skip","channel":"langchain","videoId":"sGrD9a8dh_0","title":"How Zip Uses LangSmith and LangGraph to Ship New Features Faster","reason":"时长 134s < 下限 600s"}
 {"ts":"2026-10-06T08:04:35.854Z","action":"prefilter-skip","channel":"langchain","videoId":"3SnB_cZ14bo","title":"Skills are just fancy prompts. Here's why that matters.","reason":"时长 54s < 下限 600s"}
+{"ts":"2026-10-06T08:10:32.659Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
