@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":17,"ChatGPT":98,"物理 AI":10,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":22}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":18,"ChatGPT":98,"物理 AI":10,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":23}</script>
 
 <script>
 (function(){

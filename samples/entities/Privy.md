@@ -27,7 +27,7 @@ unlisted: true
 
 [[Stripe]] · [[智能体]] · [[智能体商务]] · [[Browserbase]] · [[Metronome]] · [[Bridge]] · [[David George]] · [[Molly O'Shea]] · [[Will Gabrick]] · [[John Collison]]
 
-<script type="application/json" class="pd-epn">{"Stripe":48,"智能体":419,"智能体商务":1,"Browserbase":4,"Metronome":3,"Bridge":3,"David George":5,"Molly O'Shea":1,"Will Gabrick":1,"John Collison":3}</script>
+<script type="application/json" class="pd-epn">{"Stripe":48,"智能体":424,"智能体商务":1,"Browserbase":4,"Metronome":3,"Bridge":3,"David George":6,"Molly O'Shea":1,"Will Gabrick":1,"John Collison":3}</script>
 
 <script>
 (function(){

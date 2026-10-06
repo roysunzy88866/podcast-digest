@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":60,"Airbnb":12,"Y Combinator":7,"智能体":419,"AI":28}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":62,"Airbnb":12,"Y Combinator":7,"智能体":424,"AI":29}</script>
 
 <script>
 (function(){

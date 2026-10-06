@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":12,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":167,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":13,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":171,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

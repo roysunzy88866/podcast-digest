@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":20,"Replit Agent":1,"智能体":419,"vibe coding":45,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":20}</script>
+<script type="application/json" class="pd-epn">{"Replit":20,"Replit Agent":1,"智能体":424,"vibe coding":45,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":20}</script>
 
 <script>
 (function(){

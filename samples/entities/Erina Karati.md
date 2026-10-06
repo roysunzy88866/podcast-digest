@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":419,"多智能体":4,"记忆":22,"RAG":22,"自动研究":1,"智能体协议":1,"场景":1,"护栏":78}</script>
+<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":424,"多智能体":4,"记忆":23,"RAG":22,"自动研究":1,"智能体协议":1,"场景":1,"护栏":79}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":419,"MCP":78,"沙箱":79,"连接器":3,"智能 LLM 路由器":1,"可观测性":37,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":424,"MCP":79,"沙箱":79,"连接器":3,"智能 LLM 路由器":1,"可观测性":37,"后训练":1}</script>
 
 <script>
 (function(){

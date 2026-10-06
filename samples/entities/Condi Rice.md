@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":57,"AMD":5,"GPU":22,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":7,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":58,"AMD":5,"GPU":24,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":7,"CPU":5}</script>
 
 <script>
 (function(){

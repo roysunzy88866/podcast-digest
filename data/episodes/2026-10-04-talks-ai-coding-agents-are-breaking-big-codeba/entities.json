@@ -1,0 +1,488 @@
+{
+  "episode_id": "2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "代码库维护",
+    "开发工具",
+    "基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "dan-adler",
+      "type": "person",
+      "role": "guest",
+      "name": "Dan Adler",
+      "file": "Dan Adler",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.733,
+            15.834
+          ],
+          "quote": "I'm Dan Adler, CEO at Sourcegraph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sourcegraph",
+      "type": "company",
+      "role": "company",
+      "name": "Sourcegraph",
+      "file": "Sourcegraph",
+      "primary": true,
+      "how_described": "本集把它说成:围绕「让智能体看到并理解超大规模代码库」而构建的公司,刚发布智能体批量变更(agentic batch changes)产品到 beta。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.733,
+            15.834
+          ],
+          "quote": "I'm Dan Adler, CEO at Sourcegraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            500.493,
+            502.614
+          ],
+          "quote": "This is what Sourcegraph is built around, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mercari",
+      "type": "company",
+      "role": "company",
+      "name": "Mercari",
+      "file": "Mercari",
+      "primary": true,
+      "how_described": "本集说 Mercari 是来自日本的全球购物平台,拥有庞大代码库和成百上千个独立微服务,是其批量变更产品的早期用户,用它修补代码注入漏洞时又发现了 80 个潜在漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            621.942,
+            633.488
+          ],
+          "quote": "Here's a great quote from an early access user, actually at Mercari, a global shopping tool out of Japan, incredible company, massive code base, hundreds and hundreds of independent microservices running in production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说编程智能体以前所未有的速度写码、发现漏洞,却靠 grep 一路摸索理解代码库,导致大规模代码库规范漂移、重复代码与脆弱依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            209.333,
+            212.798
+          ],
+          "quote": "You already have a library that does this, but your agent doesn't know that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            368.243,
+            386.155
+          ],
+          "quote": "But this session is also a call to DevTools companies out there, to the agent harness builders, to people who are building the infrastructure for these agents to help build the infrastructure, the ability to go see and understand these massive scale repositories and give that to their agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            465.012,
+            470.095
+          ],
+          "quote": "This agent is going to grep, grep, grep, grep, grep, grep, grep, grep, grep its way to code base understanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            480.82,
+            494.848
+          ],
+          "quote": "And the infrastructure to go see and search and really deeply understand a 500 or 5,000 or 50,000 or half a million repo codebase is not being built by the agent builders today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            570.564,
+            581.894
+          ],
+          "quote": "This is a frontier agent, and its job is to let the owner of a massive code base actually execute code changes across hundreds or thousands of repositories at once, starting with a single prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-batch-changes",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体批量变更 (agentic batch changes)",
+      "file": "智能体批量变更",
+      "primary": true,
+      "how_described": "本集说这是 Sourcegraph 演讲当天发布到 beta 的新产品:一个前沿智能体,从单个 prompt 出发一次跨数百或数千仓库执行代码变更,混合使用编码智能体与确定性脚本并提供追踪可审计性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            564.404,
+            569.768
+          ],
+          "quote": "Actually, just today we launched our new agentic batch changes product into beta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-base",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码库 (code base)",
+      "file": "代码库",
+      "primary": true,
+      "how_described": "本集核心主题:驱动世界运转的是庞大、数十年历史、超级复杂的代码库,而它们正因 AI 生成代码洪流开始腐化崩坏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            135.524,
+            141.228
+          ],
+          "quote": "It's coming for your code base and for all of your engineers on your team who are trying to just keep their heads above water.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            143.189,
+            150.614
+          ],
+          "quote": "Every one of us has felt this pain, this flood of AI-generated code that we now have to review and make sure is healthy for our code base, and we're exhausted by it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            155.177,
+            159.281
+          ],
+          "quote": "There are tools designed to help you measure your code base's health and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            201.383,
+            206.29
+          ],
+          "quote": "There are different coding standards being applied in different places by different agents across the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            216.949,
+            222.911
+          ],
+          "quote": "There are slight deviations in standards that are creating more insidious hidden issues across the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            239.122,
+            245.086
+          ],
+          "quote": "The job of owning a code base is harder today than it has ever been before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            452.305,
+            454.707
+          ],
+          "quote": "It's like a new hire getting up to speed on the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            465.012,
+            470.095
+          ],
+          "quote": "This agent is going to grep, grep, grep, grep, grep, grep, grep, grep, grep its way to code base understanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            536.189,
+            543.012
+          ],
+          "quote": "And where this comes from at the end of the day is having a graph, that code graph in mind, the foundational graph of your code base",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            570.564,
+            581.894
+          ],
+          "quote": "This is a frontier agent, and its job is to let the owner of a massive code base actually execute code changes across hundreds or thousands of repositories at once, starting with a single prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            583.115,
+            594.645
+          ],
+          "quote": "This is a product that will iteratively roll out changes across that code base, self-heal, respond to CI status, PR comments, use coding agents where it makes sense, where judgment is needed, use deterministic scripts where it's not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            621.942,
+            633.488
+          ],
+          "quote": "Here's a great quote from an early access user, actually at Mercari, a global shopping tool out of Japan, incredible company, massive code base, hundreds and hundreds of independent microservices running in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            642.818,
+            651.746
+          ],
+          "quote": "He ran this on two repos where he knew this issue existed and then said, yeah, go explore the rest of our code base and found 80 other potential vulnerabilities across their code base in other places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            673.716,
+            693.587
+          ],
+          "quote": "If you're wondering right now about how many repos in your code base, how many forks are there out there, how many copies of repos are there out there, how many repos have your developers brought into your company and are now being plugged in as a library or an API somewhere in your code base that's live in production that you're not aware of, that's the sort of thing that we're here to help.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说理解是一个上下文问题:数百万行代码、数万仓库多到塞不进一个上下文窗口,也无法实时 clone 和 grep。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            184.738,
+            193.443
+          ],
+          "quote": "Millions of lines of code, tens of thousands of repositories, way too much to fit into a context window, or even just to clone and grep in real time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码图 (code graph)",
+      "file": "代码图",
+      "primary": true,
+      "how_described": "本集说代码库的基础图(含搜索与编译器精确的分析输出)是让智能体有效理解并做出修改的关键,「可见性就是基础设施」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            536.189,
+            543.012
+          ],
+          "quote": "And where this comes from at the end of the day is having a graph, that code graph in mind, the foundational graph of your code base",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-scripts",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性脚本 (deterministic scripts)",
+      "file": "确定性脚本",
+      "primary": true,
+      "how_described": "本集主张在不需要判断力的地方用确定性脚本一次性、一致地完成补丁,与编码智能体混合使用是批量变更的正确做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            583.115,
+            594.645
+          ],
+          "quote": "This is a product that will iteratively roll out changes across that code base, self-heal, respond to CI status, PR comments, use coding agents where it makes sense, where judgment is needed, use deterministic scripts where it's not.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带提到 OpenAI 等公司既没在建也没在卖用于理解和查看 5 万仓库代码库的基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            321.346,
+            330.851
+          ],
+          "quote": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集顺带提到 Anthropic 等智能体公司没有在解决大型代码库理解与维护的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            321.346,
+            330.851
+          ],
+          "quote": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集顺带提到 Cursor 等公司在解决开发者日常小规模问题上好得难以置信,却忽视了大型代码库崩坏的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            321.346,
+            330.851
+          ],
+          "quote": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集引某银行技术负责人原话:「当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            405.418,
+            410.341
+          ],
+          "quote": "Sure, Claude Code can make this change, but I have 90,000 repositories to make it in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            419.678,
+            430.387
+          ],
+          "quote": "But if you're a bank and you're seeing agents uncover and create these new vulnerabilities at an unprecedented pace, and you're being told to go use Claude Code to solve this, that's a problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 Mercari 用批量变更产品修补一个 GitHub 代码注入漏洞(需正确设置环境变量)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            635.111,
+            641.637
+          ],
+          "quote": "This user was using this product to go actually patch a GitHub code injection issue where you have to set environment variables correctly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

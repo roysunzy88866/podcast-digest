@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":419,"认知投降":2,"认知债务":2,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":78,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":424,"认知投降":2,"认知债务":2,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":79,"Chrome":4}</script>
 
 <script>
 (function(){

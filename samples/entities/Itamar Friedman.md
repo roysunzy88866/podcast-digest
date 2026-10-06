@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":24,"上下文":26,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":419,"代码治理":1,"语义规则":1,"Claude Code":95}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":24,"上下文":27,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":424,"代码治理":1,"语义规则":1,"Claude Code":96}</script>
 
 <script>
 (function(){

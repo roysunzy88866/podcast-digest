@@ -29,7 +29,7 @@ unlisted: true
 
 [[Brex]] · [[AI]] · [[Claude]] · [[Stripe]] · [[Michael Tannenbaum]] · [[Tomer London]] · [[Jonathan Awad]] · [[Figure]] · [[Gusto]] · [[Baselayer]]
 
-<script type="application/json" class="pd-epn">{"Brex":6,"AI":28,"Claude":90,"Stripe":48,"Michael Tannenbaum":1,"Tomer London":1,"Jonathan Awad":1,"Figure":2,"Gusto":2,"Baselayer":1}</script>
+<script type="application/json" class="pd-epn">{"Brex":6,"AI":29,"Claude":90,"Stripe":48,"Michael Tannenbaum":1,"Tomer London":1,"Jonathan Awad":1,"Figure":2,"Gusto":2,"Baselayer":1}</script>
 
 <script>
 (function(){

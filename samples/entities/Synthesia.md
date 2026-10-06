@@ -25,7 +25,7 @@ unlisted: true
 
 [[Victor Riparbelli]] · [[虚拟形象]] · [[智能体]] · [[基础模型层]] · [[应用层]] · [[LLM]] · [[Netflix]] · [[TikTok]] · [[Instagram]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Victor Riparbelli":1,"虚拟形象":2,"智能体":419,"基础模型层":1,"应用层":4,"LLM":56,"Netflix":5,"TikTok":6,"Instagram":7,"Google":60}</script>
+<script type="application/json" class="pd-epn">{"Victor Riparbelli":1,"虚拟形象":2,"智能体":424,"基础模型层":1,"应用层":4,"LLM":57,"Netflix":5,"TikTok":6,"Instagram":7,"Google":62}</script>
 
 <script>
 (function(){

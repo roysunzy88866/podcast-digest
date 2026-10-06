@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":36,"JP Morgan":3,"Coinbase":7,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":37,"JP Morgan":3,"Coinbase":7,"Stripe":48}</script>
 
 <script>
 (function(){

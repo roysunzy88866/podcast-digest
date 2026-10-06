@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Barrett Lyon]] [[Laurie Voss]]
+[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":6,"SBX":1,"Claude Code":95,"Claude":90,"沙箱":79,"智能体":419,"MicroVM":2,"提示词注入":1,"提示词":20,"MCP 服务器":2}</script>
+<script type="application/json" class="pd-epn">{"Docker":6,"SBX":1,"Claude Code":96,"Claude":90,"沙箱":79,"智能体":424,"MicroVM":2,"提示词注入":1,"提示词":20,"MCP 服务器":2}</script>
 
 <script>
 (function(){

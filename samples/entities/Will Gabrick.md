@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":5,"Stripe":48,"Stripe Minions":1,"智能体":419,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Stripe":48,"Stripe Minions":1,"智能体":424,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
 
 <script>
 (function(){

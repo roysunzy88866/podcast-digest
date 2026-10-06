@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Barrett Lyon]]
+[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":6,"智能体":419,"沙箱":79,"运行时":2,"harness":56,"MCP":78,"MicroVM":2,"基于意图的访问":1,"SPX":1,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"Docker":6,"智能体":424,"沙箱":79,"运行时":2,"harness":58,"MCP":79,"MicroVM":2,"基于意图的访问":1,"SPX":1,"Codex":80}</script>
 
 <script>
 (function(){

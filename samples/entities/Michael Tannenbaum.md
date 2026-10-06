@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":44}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":45}</script>
 
 <script>
 (function(){

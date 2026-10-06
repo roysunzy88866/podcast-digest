@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Ford":1,"BYD":1,"Tesla":11,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Ford":1,"BYD":1,"Tesla":11,"Xiaomi":2,"UEV":1,"EV":1,"混动":2,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

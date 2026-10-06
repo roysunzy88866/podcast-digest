@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":22,"推理":80,"光子学":2,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":5}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":24,"推理":81,"光子学":2,"记忆":23,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":5}</script>
 
 <script>
 (function(){

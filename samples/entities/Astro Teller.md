@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"X":3,"Alphabet":1,"Waymo":17,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":27}</script>
+<script type="application/json" class="pd-epn">{"X":3,"Alphabet":1,"Waymo":18,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":27}</script>
 
 <script>
 (function(){

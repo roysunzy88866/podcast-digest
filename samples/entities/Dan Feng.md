@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":80,"代码审查":24,"幻觉":12,"护栏":78,"招聘":1,"迭代周期":1}</script>
+<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":82,"代码审查":24,"幻觉":12,"护栏":79,"招聘":1,"迭代周期":1}</script>
 
 <script>
 (function(){

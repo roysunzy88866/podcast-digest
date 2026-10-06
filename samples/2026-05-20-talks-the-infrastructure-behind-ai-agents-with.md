@@ -118,8 +118,8 @@ Base 10 的应对是一开始就押注分布式：他们今天跑在多家云、
 **顺着「智能体」挖下去**
 
 - [[2026-10-03-talks-what-makes-open-models-fast-in-productio|把开源大模型跑进生产环境:推理平台背后的四层优化]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、推理 (inference)</span>
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|拥有你自己的智能:后训练什么时候才值得做]]<span class="pd-rz">同公司:Base 10 · 同概念:后训练 (post-training)、推理 (inference)</span>
 - [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)、推理 (inference)</span>
-- [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:后训练 (post-training)、持续学习 (continual learning)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

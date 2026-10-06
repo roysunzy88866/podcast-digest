@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]] [[Nikhil]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":419,"ChatGPT":98,"Claude":90,"Gemini":14,"OpenAI":167,"Anthropic":179,"Muse":6,"Instinct":5}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":424,"ChatGPT":98,"Claude":90,"Gemini":15,"OpenAI":171,"Anthropic":182,"Muse":6,"Instinct":5}</script>
 
 <script>
 (function(){

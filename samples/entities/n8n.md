@@ -30,7 +30,7 @@ unlisted: true
 
 [[智能体]] · [[Zapier]] · [[Jan Oberhauser]] · [[Lindy]] · [[工作流]] · [[人在回路]] · [[自托管]] · [[可审计性]] · [[ChatGPT]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":419,"Zapier":5,"Jan Oberhauser":2,"Lindy":4,"工作流":11,"人在回路":20,"自托管":2,"可审计性":2,"ChatGPT":98,"OpenAI":167}</script>
+<script type="application/json" class="pd-epn">{"智能体":424,"Zapier":5,"Jan Oberhauser":2,"Lindy":4,"工作流":11,"人在回路":20,"自托管":2,"可审计性":2,"ChatGPT":98,"OpenAI":171}</script>
 
 <script>
 (function(){

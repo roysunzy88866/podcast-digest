@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roshan":2,"Noah":1,"GrokBot":8,"SpaceX AI":1,"智能体":419,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":22,"MCP":78}</script>
+<script type="application/json" class="pd-epn">{"Roshan":2,"Noah":1,"GrokBot":8,"SpaceX AI":1,"智能体":424,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":23,"MCP":79}</script>
 
 <script>
 (function(){

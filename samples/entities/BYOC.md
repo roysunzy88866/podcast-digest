@@ -25,7 +25,7 @@ unlisted: true
 
 [[Hamad Bashir]] · [[Gregor Vand]] · [[Chroma]] · [[ChromaDB]] · [[Context 1]] · [[上下文腐烂]] · [[智能体搜索]] · [[向量搜索]] · [[上下文工程]] · [[小模型]]
 
-<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Gregor Vand":1,"Chroma":1,"ChromaDB":1,"Context 1":1,"上下文腐烂":4,"智能体搜索":4,"向量搜索":5,"上下文工程":16,"小模型":1}</script>
+<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Gregor Vand":2,"Chroma":1,"ChromaDB":1,"Context 1":1,"上下文腐烂":4,"智能体搜索":4,"向量搜索":5,"上下文工程":16,"小模型":1}</script>
 
 <script>
 (function(){

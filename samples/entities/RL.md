@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RL">RL</div><div class="pi"><h1 class="pt">RL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RL">RL</div><div class="pi"><h1 class="pt">RL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]]**(01:33起):本集主线概念：Baron 说 RL 的成功源于 mid-training 已完成约 80% 的工作，RL 目标函数只保留答对与否的高信噪比特，所以在步数上极其高效；Charlie 说真正得到的是「时程泛化」而非横向泛化。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(05:01起):本集说 RL 之所以运作良好，是因为人们理解了数据配方并持续调整以对抗幻觉和奖励作弊；现在的 RL 是把品味塑造者变成环境和 evals
 - **[[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|《跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人》]]**(10:52起):本集推测机器人奥运会的奔跑机器人用的是动作模仿训练再配 RL 微调的控制器
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(00:02起):本集把它说成一台爬山机器,最难的是定义要爬的那座山;并区分了离线 RL 与用生产推理流量改进模型的在线 RL。
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
@@ -54,14 +55,15 @@ unlisted: true
 - [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为概念
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|《跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人》]] — 作为概念(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[推理能力]] · [[Redwood Research]] · [[Cursor]] · [[Hugging Face]] · [[Meter]] · [[奖励黑客]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[Cursor]] · [[推理能力]] · [[Harvey]] · [[推理]] · [[Redwood Research]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"智能体":419,"OpenAI":167,"Anthropic":179,"后训练":1,"推理能力":6,"Redwood Research":4,"Cursor":80,"Hugging Face":29,"Meter":4,"奖励黑客":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":424,"OpenAI":171,"Anthropic":182,"后训练":1,"Cursor":82,"推理能力":6,"Harvey":19,"推理":81,"Redwood Research":4,"GPU":24}</script>
 
 <script>
 (function(){

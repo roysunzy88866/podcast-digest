@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":20,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":27}</script>
+<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":21,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":27}</script>
 
 <script>
 (function(){

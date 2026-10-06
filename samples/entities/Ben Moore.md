@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Tim Sanders]] [[Keith Peiris]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Liam Dunne":1,"Discover Labs":1,"Reddit":7,"ChatGPT":98,"Google":60,"YouTube":8,"SEO":7,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Liam Dunne":1,"Discover Labs":1,"Reddit":7,"ChatGPT":98,"Google":62,"YouTube":8,"SEO":7,"AEO":5}</script>
 
 <script>
 (function(){

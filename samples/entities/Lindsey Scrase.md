@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":419,"生成式 AI":2,"富矿利基":1,"交易破坏者":1,"NRR":3,"欺诈":2}</script>
+<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":424,"生成式 AI":2,"富矿利基":1,"交易破坏者":1,"NRR":4,"欺诈":2}</script>
 
 <script>
 (function(){

@@ -28,7 +28,7 @@ unlisted: true
 
 [[NVIDIA]] · [[AMD]] · [[TSMC]] · [[推理]] · [[OpenAI]] · [[Neil Movva]] · [[Jack]] · [[Walter Goodwin]] · [[Patrick O'Shaughnessy]] · [[Eric]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":57,"AMD":5,"TSMC":9,"推理":80,"OpenAI":167,"Neil Movva":1,"Jack":1,"Walter Goodwin":1,"Patrick O'Shaughnessy":3,"Eric":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":58,"AMD":5,"TSMC":9,"推理":81,"OpenAI":171,"Neil Movva":1,"Jack":1,"Walter Goodwin":1,"Patrick O'Shaughnessy":3,"Eric":1}</script>
 
 <script>
 (function(){

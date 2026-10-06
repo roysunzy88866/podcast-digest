@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[ChatGPT]] · [[MCP]] · [[Slack]] · [[Cognition]] · [[Lenny]] · [[Jeffrey Wang]] · [[Will Bryk]] · [[Jakub Hojsan]]
 
-<script type="application/json" class="pd-epn">{"智能体":419,"Cursor":80,"ChatGPT":98,"MCP":78,"Slack":31,"Cognition":25,"Lenny":68,"Jeffrey Wang":1,"Will Bryk":1,"Jakub Hojsan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":424,"Cursor":82,"ChatGPT":98,"MCP":79,"Slack":31,"Cognition":25,"Lenny":68,"Jeffrey Wang":1,"Will Bryk":1,"Jakub Hojsan":1}</script>
 
 <script>
 (function(){

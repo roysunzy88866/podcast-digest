@@ -1,0 +1,978 @@
+[
+ {
+  "seg": 0,
+  "start": 12.733,
+  "end": 13.673,
+  "speaker": "Unknown",
+  "en": "Hey, welcome everybody.",
+  "zh": "大家好,欢迎各位。"
+ },
+ {
+  "seg": 1,
+  "start": 13.733,
+  "end": 15.834,
+  "speaker": "Unknown",
+  "en": "I'm Dan Adler, CEO at Sourcegraph.",
+  "zh": "我是 Dan Adler,Sourcegraph 的 CEO。"
+ },
+ {
+  "seg": 2,
+  "start": 15.994,
+  "end": 17.695,
+  "speaker": "Unknown",
+  "en": "It is great to see you all here today.",
+  "zh": "很高兴今天能在这里见到大家。"
+ },
+ {
+  "seg": 3,
+  "start": 17.755,
+  "end": 19.175,
+  "speaker": "Unknown",
+  "en": "Thank you so much for coming out and joining us.",
+  "zh": "非常感谢大家抽出时间来参加我们的活动。"
+ },
+ {
+  "seg": 4,
+  "start": 21.356,
+  "end": 36.822,
+  "speaker": "Unknown",
+  "en": "This is a talk today about the unglamorous but load-bearing work of owning a large, complex codebase and why AI and agentic coding tools today make that job more difficult and more important than ever before.",
+  "zh": "今天这场演讲的主题是:拥有一个庞大而复杂的代码库这项不光鲜却承重的工作,以及为什么今天的 AI 和智能体编程工具让这份工作比以往任何时候都更困难、也更重要。"
+ },
+ {
+  "seg": 5,
+  "start": 38.948,
+  "end": 43.09,
+  "speaker": "Unknown",
+  "en": "Just to start, the software that runs the world is not pretty.",
+  "zh": "首先要说,驱动世界运转的软件并不漂亮。"
+ },
+ {
+  "seg": 6,
+  "start": 43.491,
+  "end": 44.211,
+  "speaker": "Unknown",
+  "en": "It's not new.",
+  "zh": "它不新。"
+ },
+ {
+  "seg": 7,
+  "start": 44.351,
+  "end": 45.292,
+  "speaker": "Unknown",
+  "en": "It's not clean.",
+  "zh": "它不干净。"
+ },
+ {
+  "seg": 8,
+  "start": 45.952,
+  "end": 49.614,
+  "speaker": "Unknown",
+  "en": "It's how everything actually works.",
+  "zh": "但一切实际上都是靠它运转的。"
+ },
+ {
+  "seg": 9,
+  "start": 49.674,
+  "end": 54.037,
+  "speaker": "Unknown",
+  "en": "72% of software industry employment is in companies with more than 500 people.",
+  "zh": "软件行业 72% 的就业集中在员工超过 500 人的公司里。"
+ },
+ {
+  "seg": 10,
+  "start": 54.077,
+  "end": 56.798,
+  "speaker": "Unknown",
+  "en": "These are the large enterprises of the world.",
+  "zh": "这些是世界上那些大型企业。"
+ },
+ {
+  "seg": 11,
+  "start": 57.138,
+  "end": 61.701,
+  "speaker": "Unknown",
+  "en": "These are the companies managing thousands of repositories and decades of code-based history.",
+  "zh": "这些是管理着数千个代码仓库和数十年代码历史的公司。"
+ },
+ {
+  "seg": 12,
+  "start": 62.765,
+  "end": 73.355,
+  "speaker": "Unknown",
+  "en": "Few of your peers work at startups, at the hot companies you may hear about on social media, and even fewer of them are actually like ex-solopreneurs making a living off of their social feeds.",
+  "zh": "在座的各位同行中,在初创公司工作、在你可能在社交媒体上听说的那些热门公司工作的并不多,而真正像靠自己的社交动态谋生的前独立创业者就更少了。"
+ },
+ {
+  "seg": 13,
+  "start": 74.196,
+  "end": 77.219,
+  "speaker": "Unknown",
+  "en": "Most of us work in large, long-lived code bases.",
+  "zh": "我们大多数人都在庞大而长寿的代码库中工作。"
+ },
+ {
+  "seg": 14,
+  "start": 78.317,
+  "end": 82.758,
+  "speaker": "Unknown",
+  "en": "Those code bases are how your bank account will reject a transaction in real time if you hit your limit.",
+  "zh": "正是这些代码库让你的银行账户在超过额度时实时拒绝一笔交易。"
+ },
+ {
+  "seg": 15,
+  "start": 83.178,
+  "end": 88.179,
+  "speaker": "Unknown",
+  "en": "They're how your insurance carrier calculates the reimbursement rate for a policyholder with dual coverage.",
+  "zh": "正是它们让你的保险公司为拥有双重保险的投保人计算报销比例。"
+ },
+ {
+  "seg": 16,
+  "start": 88.239,
+  "end": 93.16,
+  "speaker": "Unknown",
+  "en": "It's how a chip in a warehouse scanner will actually allow Amazon to tell you when your socks arrive.",
+  "zh": "正是它们让仓库扫描仪里的一块芯片能真正让 Amazon 告诉你袜子什么时候到货。"
+ },
+ {
+  "seg": 17,
+  "start": 93.18,
+  "end": 95.641,
+  "speaker": "Unknown",
+  "en": "It's how your Uber estimates an arrival time.",
+  "zh": "正是它们让 Uber 估算到达时间。"
+ },
+ {
+  "seg": 18,
+  "start": 95.681,
+  "end": 99.682,
+  "speaker": "Unknown",
+  "en": "It's how an airplane uses radar to adjust trajectories.",
+  "zh": "正是它们让飞机利用雷达调整航迹。"
+ },
+ {
+  "seg": 19,
+  "start": 99.702,
+  "end": 101.062,
+  "speaker": "Unknown",
+  "en": "How your paycheck gets issued.",
+  "zh": "让你的工资单得以发放。"
+ },
+ {
+  "seg": 20,
+  "start": 101.082,
+  "end": 105.443,
+  "speaker": "Unknown",
+  "en": "It's how your office air conditioner ticks on and on and on and on and on.",
+  "zh": "正是它们让你办公室的空调嘀嗒嘀嗒嘀嗒嘀嗒嘀嗒地运转不停。"
+ },
+ {
+  "seg": 21,
+  "start": 106.003,
+  "end": 108.244,
+  "speaker": "Unknown",
+  "en": "These are the things that keep the world moving.",
+  "zh": "这些就是让世界持续运转的东西。"
+ },
+ {
+  "seg": 22,
+  "start": 109.746,
+  "end": 121.446,
+  "speaker": "Unknown",
+  "en": "We are all completely, utterly dependent on massive, decades old, super complex code bases that have been built over many, many years by thousands of engineers.",
+  "zh": "我们所有人都完全地、彻底地依赖于那些庞大、有着几十年历史、超级复杂的代码库,它们由数千名工程师历经许多许多年构建而成。"
+ },
+ {
+  "seg": 23,
+  "start": 125.438,
+  "end": 131.482,
+  "speaker": "Unknown",
+  "en": "And coding agents are writing more better code today faster than we have ever seen before.",
+  "zh": "而编程智能体如今写出的代码,比我们以往见过的更多、更好、更快。"
+ },
+ {
+  "seg": 24,
+  "start": 132.142,
+  "end": 135.084,
+  "speaker": "Unknown",
+  "en": "A tidal wave of code is coming for you.",
+  "zh": "一股代码的巨浪正在向你袭来。"
+ },
+ {
+  "seg": 25,
+  "start": 135.524,
+  "end": 141.228,
+  "speaker": "Unknown",
+  "en": "It's coming for your code base and for all of your engineers on your team who are trying to just keep their heads above water.",
+  "zh": "它正扑向你的代码库,扑向你团队中所有那些只想把头探出水面喘口气的工程师。"
+ },
+ {
+  "seg": 26,
+  "start": 143.189,
+  "end": 150.614,
+  "speaker": "Unknown",
+  "en": "Every one of us has felt this pain, this flood of AI-generated code that we now have to review and make sure is healthy for our code base, and we're exhausted by it.",
+  "zh": "我们每个人都感受过这种痛苦,这股 AI 生成代码的洪流,如今我们必须去审查它、确保它对我们的代码库是健康的,我们已经被它搞得精疲力竭。"
+ },
+ {
+  "seg": 27,
+  "start": 151.493,
+  "end": 153.295,
+  "speaker": "Unknown",
+  "en": "And look, there are now code review agents.",
+  "zh": "而且你看,现在已经有了代码审查智能体。"
+ },
+ {
+  "seg": 28,
+  "start": 153.315,
+  "end": 155.137,
+  "speaker": "Unknown",
+  "en": "I'm sure there's a lot of them around this room right now.",
+  "zh": "我敢说现在这个房间里就有不少。"
+ },
+ {
+  "seg": 29,
+  "start": 155.177,
+  "end": 159.281,
+  "speaker": "Unknown",
+  "en": "There are tools designed to help you measure your code base's health and so on.",
+  "zh": "还有那些设计用来帮你衡量代码库健康状况之类的工具。"
+ },
+ {
+  "seg": 30,
+  "start": 159.841,
+  "end": 163.144,
+  "speaker": "Unknown",
+  "en": "And look, the major coding agents will start to pull this stuff in.",
+  "zh": "而且你看,主要的编程智能体会开始把这些东西吸纳进来。"
+ },
+ {
+  "seg": 31,
+  "start": 163.184,
+  "end": 164.345,
+  "speaker": "Unknown",
+  "en": "The models will get better.",
+  "zh": "模型会变得更好。"
+ },
+ {
+  "seg": 32,
+  "start": 164.926,
+  "end": 169.41,
+  "speaker": "Unknown",
+  "en": "Over time, we'll keep putting sandbags down to keep this flood held back, right?",
+  "zh": "随着时间推移,我们会不断垒起沙袋,把这场洪流挡在外面,对吧?"
+ },
+ {
+  "seg": 33,
+  "start": 169.711,
+  "end": 175.136,
+  "speaker": "Unknown",
+  "en": "We're gonna keep finding these local maxima to help ourselves sort of avoid this problem.",
+  "zh": "我们会不断找到这些局部最优解,来帮助自己大致避开这个问题。"
+ },
+ {
+  "seg": 34,
+  "start": 176.853,
+  "end": 183.617,
+  "speaker": "Unknown",
+  "en": "But meanwhile, what's happening is that these code bases, these massive ones that keep the world running, are beginning to decay.",
+  "zh": "但与此同时,实际发生的是,这些代码库,这些维持世界运转的庞大代码库,正在开始腐化。"
+ },
+ {
+  "seg": 35,
+  "start": 184.738,
+  "end": 193.443,
+  "speaker": "Unknown",
+  "en": "Millions of lines of code, tens of thousands of repositories, way too much to fit into a context window, or even just to clone and grep in real time.",
+  "zh": "数百万行代码,数万个代码仓库,多到塞不进一个上下文窗口,甚至多到无法实时 clone 和 grep。"
+ },
+ {
+  "seg": 36,
+  "start": 193.463,
+  "end": 194.344,
+  "speaker": "Unknown",
+  "en": "That's just not possible.",
+  "zh": "那根本不可能做到。"
+ },
+ {
+  "seg": 37,
+  "start": 195.396,
+  "end": 196.758,
+  "speaker": "Unknown",
+  "en": "And this is causing big problems.",
+  "zh": "而这正在造成大问题。"
+ },
+ {
+  "seg": 38,
+  "start": 197.419,
+  "end": 201.043,
+  "speaker": "Unknown",
+  "en": "We're publishing new features, new patches at record speed.",
+  "zh": "我们正以前所未有的速度发布新功能、新补丁。"
+ },
+ {
+  "seg": 39,
+  "start": 201.383,
+  "end": 206.29,
+  "speaker": "Unknown",
+  "en": "There are different coding standards being applied in different places by different agents across the code base.",
+  "zh": "代码库中不同的地方被不同的智能体套用了不同的编码规范。"
+ },
+ {
+  "seg": 40,
+  "start": 206.85,
+  "end": 208.993,
+  "speaker": "Unknown",
+  "en": "There's duplicated code proliferating.",
+  "zh": "有重复代码在蔓延。"
+ },
+ {
+  "seg": 41,
+  "start": 209.333,
+  "end": 212.798,
+  "speaker": "Unknown",
+  "en": "You already have a library that does this, but your agent doesn't know that.",
+  "zh": "你已经有了一个能做这件事的库,但你的智能体不知道。"
+ },
+ {
+  "seg": 42,
+  "start": 214.208,
+  "end": 216.909,
+  "speaker": "Unknown",
+  "en": "There's cross-service dependencies that are becoming more brittle.",
+  "zh": "有跨服务依赖正变得越来越脆弱。"
+ },
+ {
+  "seg": 43,
+  "start": 216.949,
+  "end": 222.911,
+  "speaker": "Unknown",
+  "en": "There are slight deviations in standards that are creating more insidious hidden issues across the code base.",
+  "zh": "标准上的细微偏差,正在整个代码库中制造更隐蔽的潜在问题。"
+ },
+ {
+  "seg": 44,
+  "start": 223.631,
+  "end": 229.132,
+  "speaker": "Unknown",
+  "en": "And maybe more important than anything else here, there are new vulnerabilities being uncovered by agents every single day.",
+  "zh": "而且或许比这里任何其他事情都更重要的是,每天都有智能体发现新的漏洞。"
+ },
+ {
+  "seg": 45,
+  "start": 229.893,
+  "end": 238.135,
+  "speaker": "Unknown",
+  "en": "They require constant, constant oversight and upkeep of all of these massive legacy code bases that nobody wants to think about or deal with.",
+  "zh": "它们需要对所有这些没人愿意去想、也不愿去处理的庞大遗留代码库进行持续的、持续性的监督和维护。"
+ },
+ {
+  "seg": 46,
+  "start": 239.122,
+  "end": 245.086,
+  "speaker": "Unknown",
+  "en": "The job of owning a code base is harder today than it has ever been before.",
+  "zh": "拥有一个代码库这份工作,今天比以往任何时候都更难。"
+ },
+ {
+  "seg": 47,
+  "start": 247.788,
+  "end": 252.19,
+  "speaker": "Unknown",
+  "en": "And at the end of the day, the problem here is actually the volume of code.",
+  "zh": "而归根结底,这里的问题实际上是代码的体量。"
+ },
+ {
+  "seg": 48,
+  "start": 252.851,
+  "end": 255.392,
+  "speaker": "Unknown",
+  "en": "The call is coming from inside the house, right?",
+  "zh": "问题就出在自己家里,对吧?"
+ },
+ {
+  "seg": 49,
+  "start": 255.733,
+  "end": 268.401,
+  "speaker": "Unknown",
+  "en": "The very tools that are speeding all of us up and letting us write more code faster than ever are also the tools that are creating the conditions that will cause these massive code bases that run our world to begin to fail.",
+  "zh": "正是那些让我们所有人提速、让我们比以往任何时候都更快写出更多代码的工具,也正是在制造那些会导致这些支撑我们世界运转的庞大代码库开始崩溃的条件。"
+ },
+ {
+  "seg": 50,
+  "start": 271.11,
+  "end": 280.08,
+  "speaker": "Unknown",
+  "en": "Every day I talk to technology executives at these large companies and they are feeling this so viscerally, the same pain that I imagine many of you are feeling too, right?",
+  "zh": "每天，我都会和这些大公司的技术高管交谈，他们真切地、发自内心地感受到这种痛苦，我想你们很多人也同样感受到了，对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 280.741,
+  "end": 283.884,
+  "speaker": "Unknown",
+  "en": "I want to give my devs the best tools possible.",
+  "zh": "我想给我的开发者尽可能最好的工具。"
+ },
+ {
+  "seg": 52,
+  "start": 284.735,
+  "end": 287.377,
+  "speaker": "Unknown",
+  "en": "But just today I overheard a dev say, I don't know what this code does.",
+  "zh": "但就在今天，我听到一位开发者说，我不知道这段代码是干什么的。"
+ },
+ {
+  "seg": 53,
+  "start": 287.437,
+  "end": 288.218,
+  "speaker": "Unknown",
+  "en": "AI wrote it for me.",
+  "zh": "是 AI 帮我写的。"
+ },
+ {
+  "seg": 54,
+  "start": 289.078,
+  "end": 292.481,
+  "speaker": "Unknown",
+  "en": "This is a tech leader and executive at a top 10 car manufacturer.",
+  "zh": "这是一家排名前十的汽车制造商的技术负责人和高管。"
+ },
+ {
+  "seg": 55,
+  "start": 292.881,
+  "end": 301.368,
+  "speaker": "Unknown",
+  "en": "When you're writing vehicle autopilot code and you have thousands of engineers in your org that you have to manage and you want to enable, this is terrifying.",
+  "zh": "当你在编写车辆自动驾驶代码，而且你组织里有成千上万名你需要管理、需要赋能的工程师时，这太可怕了。"
+ },
+ {
+  "seg": 56,
+  "start": 301.388,
+  "end": 307.373,
+  "speaker": "Unknown",
+  "en": "All right, here we go.",
+  "zh": "好，我们开始吧。"
+ },
+ {
+  "seg": 57,
+  "start": 311.381,
+  "end": 316.284,
+  "speaker": "Unknown",
+  "en": "So what I deeply believe is that these codebase owners deserve better.",
+  "zh": "所以我深信的是，这些代码库的所有者理应得到更好的东西。"
+ },
+ {
+  "seg": 58,
+  "start": 317.104,
+  "end": 320.386,
+  "speaker": "Unknown",
+  "en": "Today's agentic dev tools are not meeting the moment for this.",
+  "zh": "如今的智能体开发工具并没有在这一点上跟上时代。"
+ },
+ {
+  "seg": 59,
+  "start": 321.346,
+  "end": 330.851,
+  "speaker": "Unknown",
+  "en": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+  "zh": "用于查看和理解一个 5 万仓库代码库的基础设施，OpenAI、Anthropic、Cursor 以及其他公司既没有在建，也没有在卖。"
+ },
+ {
+  "seg": 60,
+  "start": 331.232,
+  "end": 333.333,
+  "speaker": "Unknown",
+  "en": "This is a hard and unique problem.",
+  "zh": "这是一个困难且独特的问题。"
+ },
+ {
+  "seg": 61,
+  "start": 334.263,
+  "end": 350.926,
+  "speaker": "Unknown",
+  "en": "Their agents are so unbelievably good at solving the small-scale problems that most developers deal with every day that their demand is growing faster than ever before, and this bigger problem of these code bases beginning to fall apart is going unnoticed.",
+  "zh": "他们的智能体在解决大多数开发者每天面对的小规模问题上好得难以置信，以至于他们的需求以前所未有的速度增长，而这些代码库开始分崩离析这个更大的问题却被忽视了。"
+ },
+ {
+  "seg": 62,
+  "start": 352.083,
+  "end": 364.631,
+  "speaker": "Unknown",
+  "en": "So this session, this is a call, first of all, off to celebrate the people, the owners of these code bases, people around the world who are actually keeping them alive and keeping them running, most of our software engineer peers around the globe.",
+  "zh": "所以这次演讲，首先，是一次致敬，致敬那些人，这些代码库的所有者，全世界那些真正让它们保持活力、保持运行的人们，也就是我们全球大多数软件工程师同行。"
+ },
+ {
+  "seg": 63,
+  "start": 364.712,
+  "end": 366.633,
+  "speaker": "Unknown",
+  "en": "So thank you all so much for what you're doing.",
+  "zh": "所以非常感谢你们所做的一切。"
+ },
+ {
+  "seg": 64,
+  "start": 368.243,
+  "end": 386.155,
+  "speaker": "Unknown",
+  "en": "But this session is also a call to DevTools companies out there, to the agent harness builders, to people who are building the infrastructure for these agents to help build the infrastructure, the ability to go see and understand these massive scale repositories and give that to their agents.",
+  "zh": "但这次演讲也是向那里的 DevTools 公司、向智能体 harness 构建者、向那些为这些智能体构建基础设施的人们发出的呼吁，帮助他们构建基础设施——能够去查看并理解这些超大规模仓库，并把这种能力交给他们的智能体。"
+ },
+ {
+  "seg": 65,
+  "start": 396.053,
+  "end": 400.475,
+  "speaker": "Unknown",
+  "en": "This is a great quote that I heard from a tech leader at one of the top 10 US banks.",
+  "zh": "这是一句我从美国排名前十的银行之一的技术负责人那里听到的精彩引述。"
+ },
+ {
+  "seg": 66,
+  "start": 400.536,
+  "end": 404.238,
+  "speaker": "Unknown",
+  "en": "Tens of trillions of dollars in assets in custody or administration.",
+  "zh": "托管或管理的资产达数十万亿美元。"
+ },
+ {
+  "seg": 67,
+  "start": 405.418,
+  "end": 410.341,
+  "speaker": "Unknown",
+  "en": "Sure, Claude Code can make this change, but I have 90,000 repositories to make it in.",
+  "zh": "当然，Claude Code 可以做出这个修改，但我有 9 万个仓库要做这个修改。"
+ },
+ {
+  "seg": 68,
+  "start": 411.842,
+  "end": 417.785,
+  "speaker": "Unknown",
+  "en": "This is actually a specific quote about a specific supply chain vulnerability, an NPM thing.",
+  "zh": "这实际上是关于一个特定供应链漏洞的具体引述，一个 NPM 的问题。"
+ },
+ {
+  "seg": 69,
+  "start": 418.265,
+  "end": 418.826,
+  "speaker": "Unknown",
+  "en": "Won't get into it.",
+  "zh": "不会展开讲。"
+ },
+ {
+  "seg": 70,
+  "start": 419.678,
+  "end": 430.387,
+  "speaker": "Unknown",
+  "en": "But if you're a bank and you're seeing agents uncover and create these new vulnerabilities at an unprecedented pace, and you're being told to go use Claude Code to solve this, that's a problem.",
+  "zh": "但如果你是一家银行，你看到智能体以前所未有的速度发现并制造这些新漏洞，而你被告知去用 Claude Code 解决这个问题，那就是个问题。"
+ },
+ {
+  "seg": 71,
+  "start": 430.807,
+  "end": 440.876,
+  "speaker": "Unknown",
+  "en": "Good luck doing that in 90,000 repositories, mapping out how these code bases all come together, what's actually living in production across your company, across your product offerings.",
+  "zh": "祝你好运在 9 万个仓库里做到这一点，梳理出这些代码库是如何组合在一起的，你公司里、你各产品线里到底有哪些东西活在生产环境中。"
+ },
+ {
+  "seg": 72,
+  "start": 443.36,
+  "end": 450.204,
+  "speaker": "Unknown",
+  "en": "Because at the end of the day, right, what's really funny about all this is that if we know anything about LLMs, it's that they just love to search.",
+  "zh": "因为说到底，对吧，这一切真正有趣的地方在于，如果说我们对 LLM 有任何了解的话，那就是它们太喜欢搜索了。"
+ },
+ {
+  "seg": 73,
+  "start": 452.305,
+  "end": 454.707,
+  "speaker": "Unknown",
+  "en": "It's like a new hire getting up to speed on the code base.",
+  "zh": "这就像一个新员工在熟悉代码库。"
+ },
+ {
+  "seg": 74,
+  "start": 454.747,
+  "end": 457.008,
+  "speaker": "Unknown",
+  "en": "It's how agents build models of the world.",
+  "zh": "这就是智能体构建世界模型的方式。"
+ },
+ {
+  "seg": 75,
+  "start": 457.968,
+  "end": 464.092,
+  "speaker": "Unknown",
+  "en": "The repo architecture that you're plugging into your agents.md files, like let's be real, that's barely moving the needle here.",
+  "zh": "而你塞进 agents.md 文件里的仓库架构，说实话，这几乎没起什么作用。"
+ },
+ {
+  "seg": 76,
+  "start": 465.012,
+  "end": 470.095,
+  "speaker": "Unknown",
+  "en": "This agent is going to grep, grep, grep, grep, grep, grep, grep, grep, grep its way to code base understanding.",
+  "zh": "这个智能体会通过 grep、grep、grep、grep、grep、grep、grep、grep、grep 一路摸到对代码库的理解。"
+ },
+ {
+  "seg": 77,
+  "start": 470.115,
+  "end": 471.096,
+  "speaker": "Unknown",
+  "en": "That's simply how it works.",
+  "zh": "它就是这么工作的，仅此而已。"
+ },
+ {
+  "seg": 78,
+  "start": 472.615,
+  "end": 474.616,
+  "speaker": "Unknown",
+  "en": "But understanding is a context problem.",
+  "zh": "但理解是一个上下文问题。 [[59a]] 你无法 grep 你根本看不见的东西。"
+ },
+ {
+  "seg": 79,
+  "start": 474.956,
+  "end": 477.458,
+  "speaker": "Unknown",
+  "en": "You can't grep what you literally cannot see.",
+  "zh": "你没法 grep 你根本看不见的东西。"
+ },
+ {
+  "seg": 80,
+  "start": 477.938,
+  "end": 479.959,
+  "speaker": "Unknown",
+  "en": "This is tools and infrastructure that's needed.",
+  "zh": "这是需要工具和基础设施的。"
+ },
+ {
+  "seg": 81,
+  "start": 480.82,
+  "end": 494.848,
+  "speaker": "Unknown",
+  "en": "And the infrastructure to go see and search and really deeply understand a 500 or 5,000 or 50,000 or half a million repo codebase is not being built by the agent builders today.",
+  "zh": "而用于查看、搜索并真正深入理解一个 500、5 千、5 万或 50 万仓库代码库的基础设施，如今的智能体构建者们并没有在建。"
+ },
+ {
+  "seg": 82,
+  "start": 497.411,
+  "end": 500.073,
+  "speaker": "Unknown",
+  "en": "And so that's what we're solving, what we're working on as a company.",
+  "zh": "而这就是我们作为一家公司正在解决的、正在做的事情。"
+ },
+ {
+  "seg": 83,
+  "start": 500.493,
+  "end": 502.614,
+  "speaker": "Unknown",
+  "en": "This is what Sourcegraph is built around, right?",
+  "zh": "这就是 Sourcegraph 围绕构建的东西，对吧？"
+ },
+ {
+  "seg": 84,
+  "start": 503.534,
+  "end": 504.155,
+  "speaker": "Unknown",
+  "en": "Give this a second.",
+  "zh": "给我一秒钟。"
+ },
+ {
+  "seg": 85,
+  "start": 506.136,
+  "end": 509.818,
+  "speaker": "Unknown",
+  "en": "If you'll let me sort of take a moment and predict the future of our industry.",
+  "zh": "如果你们允许我花点时间预测一下我们行业的未来。"
+ },
+ {
+  "seg": 86,
+  "start": 511.579,
+  "end": 514.881,
+  "speaker": "Unknown",
+  "en": "These massive code bases are not going away.",
+  "zh": "这些庞大的代码库不会消失。"
+ },
+ {
+  "seg": 87,
+  "start": 515.801,
+  "end": 517.222,
+  "speaker": "Unknown",
+  "en": "In fact, there will be more code.",
+  "zh": "事实上，代码会更多。"
+ },
+ {
+  "seg": 88,
+  "start": 517.382,
+  "end": 521.685,
+  "speaker": "Unknown",
+  "en": "There will be much, much, much more code out there in the future.",
+  "zh": "未来会有多得多的、多得多、多得多的代码。"
+ },
+ {
+  "seg": 89,
+  "start": 523.584,
+  "end": 534.048,
+  "speaker": "Unknown",
+  "en": "And we believe very deeply that building tools to give agents the ability to actually see and understand and evolve those large code bases is essential for the future.",
+  "zh": "而我们深信，构建工具让智能体真正能够查看、理解并演进那些大型代码库，对未来至关重要。"
+ },
+ {
+  "seg": 90,
+  "start": 536.189,
+  "end": 543.012,
+  "speaker": "Unknown",
+  "en": "And where this comes from at the end of the day is having a graph, that code graph in mind, the foundational graph of your code base",
+  "zh": "而这说到底源自于拥有一张图，那张代码图在脑海中，也就是你代码库的基础图"
+ },
+ {
+  "seg": 91,
+  "start": 543.905,
+  "end": 550.051,
+  "speaker": "Unknown",
+  "en": "Including search and then the actual compiler accurate output if you go and do that analysis.",
+  "zh": "包括搜索，以及如果你去做那种分析，实际编译器精确的输出。"
+ },
+ {
+  "seg": 92,
+  "start": 551.192,
+  "end": 557.297,
+  "speaker": "Unknown",
+  "en": "That is essential to give your agents the ability to go and understand how to make changes effectively.",
+  "zh": "这对于让你的智能体有能力去理解如何有效地做出修改至关重要。"
+ },
+ {
+  "seg": 93,
+  "start": 557.918,
+  "end": 559.659,
+  "speaker": "Unknown",
+  "en": "Visibility is infrastructure.",
+  "zh": "可见性就是基础设施。"
+ },
+ {
+  "seg": 94,
+  "start": 562.001,
+  "end": 563.463,
+  "speaker": "Unknown",
+  "en": "And we actually built a lot on top of this, right?",
+  "zh": "而且我们实际上在这之上构建了很多东西，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 563.483,
+  "end": 564.303,
+  "speaker": "Unknown",
+  "en": "We're not stopping here.",
+  "zh": "我们不会止步于此。"
+ },
+ {
+  "seg": 96,
+  "start": 564.404,
+  "end": 569.768,
+  "speaker": "Unknown",
+  "en": "Actually, just today we launched our new agentic batch changes product into beta.",
+  "zh": "实际上，就在今天，我们把新的智能体批量变更产品发布到了 beta。"
+ },
+ {
+  "seg": 97,
+  "start": 570.564,
+  "end": 581.894,
+  "speaker": "Unknown",
+  "en": "This is a frontier agent, and its job is to let the owner of a massive code base actually execute code changes across hundreds or thousands of repositories at once, starting with a single prompt.",
+  "zh": "这是一个前沿智能体，它的工作是让一个超大规模代码库的所有者，从单个 prompt 出发，真正一次跨数百或数千个仓库执行代码变更。"
+ },
+ {
+  "seg": 98,
+  "start": 583.115,
+  "end": 594.645,
+  "speaker": "Unknown",
+  "en": "This is a product that will iteratively roll out changes across that code base, self-heal, respond to CI status, PR comments, use coding agents where it makes sense, where judgment is needed, use deterministic scripts where it's not.",
+  "zh": "这是一个会在整个代码库中迭代式推出变更的产品，能自我修复、响应 CI 状态和 PR 评论，在有意义、需要判断力的地方使用编码智能体，在不需要的地方使用确定性脚本，"
+ },
+ {
+  "seg": 99,
+  "start": 595.627,
+  "end": 602.97,
+  "speaker": "Unknown",
+  "en": "And provide tracking and auditability to be sure that you've covered 100% of the places where that patch is needed, where that change is needed.",
+  "zh": "并提供追踪和可审计性，确保你覆盖了所有需要那个补丁、需要那个变更的地方的 100%。"
+ },
+ {
+  "seg": 100,
+  "start": 604.67,
+  "end": 608.151,
+  "speaker": "Unknown",
+  "en": "Because like I keep saying here, at the end of the day, this is an infrastructure problem.",
+  "zh": "因为就像我在这里一直说的，归根结底，这是一个基础设施问题。"
+ },
+ {
+  "seg": 101,
+  "start": 609.032,
+  "end": 618.875,
+  "speaker": "Unknown",
+  "en": "When you're putting code out there into the world, you need to make sure that it's actually going to keep your codebase healthy, that it's actually going to be able to adapt to the places where your codebase is beginning to fall apart.",
+  "zh": "当你把代码发布到世界上时，你需要确保它确实能保持你的代码库健康，确保它确实能够适应你的代码库开始崩坏的地方。"
+ },
+ {
+  "seg": 102,
+  "start": 621.942,
+  "end": 633.488,
+  "speaker": "Unknown",
+  "en": "Here's a great quote from an early access user, actually at Mercari, a global shopping tool out of Japan, incredible company, massive code base, hundreds and hundreds of independent microservices running in production.",
+  "zh": "这里有一位早期访问用户的精彩评价，他来自 Mercari，一个来自日本的全球购物工具，了不起的公司，庞大的代码库，成百上千个独立微服务在生产环境中运行。"
+ },
+ {
+  "seg": 103,
+  "start": 635.111,
+  "end": 641.637,
+  "speaker": "Unknown",
+  "en": "This user was using this product to go actually patch a GitHub code injection issue where you have to set environment variables correctly.",
+  "zh": "这位用户当时在用这个产品实际修补一个 GitHub 代码注入问题，那个问题需要正确设置环境变量。"
+ },
+ {
+  "seg": 104,
+  "start": 642.818,
+  "end": 651.746,
+  "speaker": "Unknown",
+  "en": "He ran this on two repos where he knew this issue existed and then said, yeah, go explore the rest of our code base and found 80 other potential vulnerabilities across their code base in other places.",
+  "zh": "他在两个他已知存在这个问题的代码库上运行了它，然后说，好吧，去探索我们其余的代码库吧，结果在他们代码库的其他地方又发现了 80 个潜在漏洞。"
+ },
+ {
+  "seg": 105,
+  "start": 651.766,
+  "end": 653.928,
+  "speaker": "Unknown",
+  "en": "This is like config files.",
+  "zh": "这就像配置文件一样。"
+ },
+ {
+  "seg": 106,
+  "start": 653.948,
+  "end": 655.49,
+  "speaker": "Unknown",
+  "en": "This is basically just going and doing that scan.",
+  "zh": "这基本上就是去做那个扫描。"
+ },
+ {
+  "seg": 107,
+  "start": 656.475,
+  "end": 669.33,
+  "speaker": "Unknown",
+  "en": "Patching them all in one go with a sort of deterministic script that can go make sure it's making that change consistently, effectively across 100 of the places where that risk exists, that is what confidence is all about in the agentic coding era.",
+  "zh": "用一个确定性的脚本一次性把它们全部修补，这个脚本可以确保它在 100 个存在该风险的地方一致、有效地完成那个变更，这就是智能体编程时代“信心”的全部含义。"
+ },
+ {
+  "seg": 108,
+  "start": 672.455,
+  "end": 673.416,
+  "speaker": "Unknown",
+  "en": "So yeah, I'll stop here.",
+  "zh": "所以，是的，我就讲到这里。"
+ },
+ {
+  "seg": 109,
+  "start": 673.716,
+  "end": 693.587,
+  "speaker": "Unknown",
+  "en": "If you're wondering right now about how many repos in your code base, how many forks are there out there, how many copies of repos are there out there, how many repos have your developers brought into your company and are now being plugged in as a library or an API somewhere in your code base that's live in production that you're not aware of, that's the sort of thing that we're here to help.",
+  "zh": "如果你现在正在想，你的代码库里有多少个代码库、外面有多少个 fork、外面有多少份代码库的副本、有多少个代码库是你的开发者带进你公司、现在正作为一个库或 API 接入到你代码库中某个你不知道的、正在生产环境中运行的地方，这正是我们在这里要帮忙的事情。"
+ },
+ {
+  "seg": 110,
+  "start": 694.028,
+  "end": 699.591,
+  "speaker": "Unknown",
+  "en": "If you're wondering what code is deployed right now and how you can go scan it all and see it all and make sure it's all updated, come talk to me.",
+  "zh": "如果你想知道现在部署了什么代码、如何去扫描和查看所有代码并确保它们全部更新，来找我聊聊。"
+ },
+ {
+  "seg": 111,
+  "start": 702.627,
+  "end": 707.969,
+  "speaker": "Unknown",
+  "en": "And tonight, we're actually hosting an event here in SF called Code, Cocktails, and Cutovers.",
+  "zh": "今晚，我们实际上在 SF 举办一场活动，名叫 Code, Cocktails, and Cutovers。"
+ },
+ {
+  "seg": 112,
+  "start": 708.309,
+  "end": 709.57,
+  "speaker": "Unknown",
+  "en": "Come on out, join us.",
+  "zh": "快来吧，加入我们。"
+ },
+ {
+  "seg": 113,
+  "start": 709.61,
+  "end": 710.11,
+  "speaker": "Unknown",
+  "en": "Come find us.",
+  "zh": "来找我们。"
+ },
+ {
+  "seg": 114,
+  "start": 710.13,
+  "end": 711.831,
+  "speaker": "Unknown",
+  "en": "Bring your gnarliest code-based stories.",
+  "zh": "带上你最棘手的代码相关的经历。"
+ },
+ {
+  "seg": 115,
+  "start": 712.291,
+  "end": 718.993,
+  "speaker": "Unknown",
+  "en": "This is where we want to talk and hear from all of you about what you're trying to deal with and how you're dealing with the tidal wave of code that's coming for you.",
+  "zh": "我们就是想在这里和你们所有人聊聊，听听你们正在应对什么、以及你们如何应对那场正向你袭来的代码浪潮。"
+ },
+ {
+  "seg": 116,
+  "start": 721.314,
+  "end": 721.494,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 117,
+  "start": 721.694,
+  "end": 721.975,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 118,
+  "start": 722.135,
+  "end": 722.615,
+  "speaker": "Unknown",
+  "en": "I'll stop there.",
+  "zh": "我就讲到这里。"
+ },
+ {
+  "seg": 119,
+  "start": 722.655,
+  "end": 723.235,
+  "speaker": "Unknown",
+  "en": "Any questions?",
+  "zh": "有什么问题吗？"
+ },
+ {
+  "seg": 120,
+  "start": 725.296,
+  "end": 725.556,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 121,
+  "start": 733.221,
+  "end": 733.925,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

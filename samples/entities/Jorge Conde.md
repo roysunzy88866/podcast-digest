@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":28}</script>
+<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":29}</script>
 
 <script>
 (function(){

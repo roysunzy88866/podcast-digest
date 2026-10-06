@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":419,"智能体授权":1,"Claude Code":95,"token":31,"保险库":1,"OAuth":3,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":424,"智能体授权":1,"Claude Code":96,"token":31,"保险库":1,"OAuth":3,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

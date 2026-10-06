@@ -166,7 +166,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 
 - [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议]]<span class="pd-rz">同公司:Block · 同概念:Goose、MCP、智能体 (agent)</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM、MCP、智能体 (agent)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|「协调税」：AI 每解决一小时的问题，要付三小时的协调成本]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、智能体 (agent)、MCP</span>
 
 </div>
 </div>

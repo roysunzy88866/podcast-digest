@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":20,"智能体":419,"Stripe":48,"vibe coding":45,"微调":30,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":20,"智能体":424,"Stripe":48,"vibe coding":45,"微调":30,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
 
 <script>
 (function(){

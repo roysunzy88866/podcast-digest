@@ -25,7 +25,7 @@ unlisted: true
 
 [[Saronic]] · [[Port Alpha]] · [[造船差距]] · [[自主性]] · [[采购改革]] · [[协同设计]] · [[开源 AI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Saronic":1,"Port Alpha":1,"造船差距":1,"自主性":10,"采购改革":1,"协同设计":2,"开源 AI":2,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Saronic":1,"Port Alpha":1,"造船差距":1,"自主性":10,"采购改革":1,"协同设计":3,"开源 AI":2,"Palantir":20}</script>
 
 <script>
 (function(){

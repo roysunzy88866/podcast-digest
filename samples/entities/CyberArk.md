@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nikesh Arora]] · [[Palo Alto Networks]] · [[Waymo]] · [[Google]] · [[智能体]] · [[主观能动性]] · [[零日漏洞]] · [[护栏]] · [[governance]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"Nikesh Arora":1,"Palo Alto Networks":2,"Waymo":17,"Google":60,"智能体":419,"主观能动性":1,"零日漏洞":2,"护栏":78,"governance":6,"开源":36}</script>
+<script type="application/json" class="pd-epn">{"Nikesh Arora":1,"Palo Alto Networks":2,"Waymo":18,"Google":62,"智能体":424,"主观能动性":1,"零日漏洞":3,"护栏":79,"governance":6,"开源":37}</script>
 
 <script>
 (function(){

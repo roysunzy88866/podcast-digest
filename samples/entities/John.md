@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":17,"创始人-市场契合度":3,"智能体":419,"模型能力的边缘":1,"垂直化":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"YC":17,"创始人-市场契合度":3,"智能体":424,"模型能力的边缘":1,"垂直化":1,"SaaS":21}</script>
 
 <script>
 (function(){

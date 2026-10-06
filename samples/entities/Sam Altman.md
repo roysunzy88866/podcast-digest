@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":27,"智能体":419,"沙箱":79,"对齐失败":1,"推理":80,"权力集中":1,"主观能动性":1,"OpenAI":167,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":27,"智能体":424,"沙箱":79,"对齐失败":1,"推理":81,"权力集中":1,"主观能动性":1,"OpenAI":171,"YC":17}</script>
 
 <script>
 (function(){

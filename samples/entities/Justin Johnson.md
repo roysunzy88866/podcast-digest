@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":12,"Marble":4,"Sam Charrington":5,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":419,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":12,"Marble":4,"Sam Charrington":5,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":424,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

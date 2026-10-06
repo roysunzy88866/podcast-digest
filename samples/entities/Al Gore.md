@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":179,"OpenAI":167,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":25}</script>
+<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":182,"OpenAI":171,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":26}</script>
 
 <script>
 (function(){

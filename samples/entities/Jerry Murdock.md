@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Neoclouds":1,"Fireworks":7,"前沿模型":25,"开源模型":4,"沙箱":79,"智能体":419,"推理":80,"Docker":6,"GPU":22}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Neoclouds":1,"Fireworks":7,"前沿模型":26,"开源模型":4,"沙箱":79,"智能体":424,"推理":81,"Docker":6,"GPU":24}</script>
 
 <script>
 (function(){

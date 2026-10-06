@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Neuralink</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Neuralink">NE</div><div class="pi"><h1 class="pt">Neuralink</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Neuralink">NE</div><div class="pi"><h1 class="pt">Neuralink</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]]**(29:14起):本集说 Max Hodak 曾在此工作约五年,称与判断力极出色的 CEO 共事是最有价值的创业者教育。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(29:14起):本集说 Max 曾在这里为 CEO 工作 5 年,学到了靠口述传统和强化学习校准判断力的经验
+- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(22:03起):本集把它说成:Elon 公开宣称的神经兴趣所在,与 Eddie Chang 等人正在开发让脊椎受伤者行走等技术;Andrew 认为它最终会变成一家生物技术公司,真正目标是‘以非侵入方式读写大脑’。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]] — 作为被讨论公司
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司
+- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Max Hodak]] · [[Science]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
+[[Anthropic]] · [[Max Hodak]] · [[Science]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":2,"Science":2,"Anthropic":179,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":182,"Max Hodak":2,"Science":2,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
 
 <script>
 (function(){

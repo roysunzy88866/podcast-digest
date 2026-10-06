@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":4,"vibe coding":45,"智能体":419,"迭代循环":1,"LLM":56,"本地模型":3,"个人品牌":1,"简报":2,"上下文":26,"Cursor":80}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":4,"vibe coding":45,"智能体":424,"迭代循环":1,"LLM":57,"本地模型":3,"个人品牌":1,"简报":2,"上下文":27,"Cursor":82}</script>
 
 <script>
 (function(){

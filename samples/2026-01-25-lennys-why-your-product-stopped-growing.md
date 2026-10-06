@@ -154,9 +154,9 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 **换个口味**
 
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|「协调税」：AI 每解决一小时的问题，要付三小时的协调成本]]<span class="pd-rz">同概念:NRR、客户流失率 (churn)、LLM</span>
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:定价 (pricing)、A/B 测试 (A/B testing)、B2B、LLM</span>
 - [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同概念:SaaS、LLM</span>
-- [[2026-07-22-rework-start-here-building-a-better-onboarding|Basecamp 5 引导设计：让CEO亲自带客户过产品]]<span class="pd-rz">同公司:37Signals · 同概念:入职引导 (onboarding)</span>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SpaceX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(34:02起):本集将 Cursor 与 SpaceX 做类比，说两者都有快速行动、追求大市场、在不可能的竞争对手脚下获胜的特征
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(37:38起):本集提到其收购了 Cursor
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(10:33起):本集拿它举例说明 Founders Fund 的集中押注策略，说 Founders Fund 第二期基金在 SpaceX 上做了极高集中度的投资
+- **[[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]]**(10:23起):本集把它说成:Anders 借鉴其风险哲学的对象——传统航空航天压低出事概率,而 SpaceX 的思路是把做错的影响降到最低,从而选择更便宜、更易迭代的流程;洛杉矶新航天生态也源自它
 - **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(00:00起):本集称之为软件与硬件的「终极试验场」和高压锅孵化器:Scott 在此亲手构建控制硬件的系统、接住塔等豪赌,并总结其成功关键在于 Elon 愿意在团队身上下巨大赌注。
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(19:10起):本集作为参照提及：贝勒没有 SpaceX 的敞口；主持人以 SpaceX 为例说 5 个月翻 5 倍惊人，并提及其 1.8 万亿美元估值讨论。
 - **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(56:31起):本集称它可能是地球上最令人惊叹的公司，靠快速迭代、接受失败前进；拿 Raptor 发动机三代演进举例：事物需要被修剪，很多管道到第三代全部多余
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
@@ -58,6 +59,7 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
+- [[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]] — 作为被讨论公司
 - [[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]] — 作为被讨论公司
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]] — 作为被讨论公司(提及)
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为被讨论公司
@@ -71,7 +73,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[Cursor]] · [[Stripe]] · [[智能体]] · [[Microsoft]] · [[Meta]] · [[推理]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":167,"Anthropic":179,"NVIDIA":57,"Cursor":80,"Stripe":48,"智能体":419,"Microsoft":29,"Meta":44,"推理":80,"Harry Stebbings":20}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":171,"Anthropic":182,"NVIDIA":58,"Cursor":82,"Stripe":48,"智能体":424,"Microsoft":29,"Meta":45,"推理":81,"Harry Stebbings":20}</script>
 
 <script>
 (function(){

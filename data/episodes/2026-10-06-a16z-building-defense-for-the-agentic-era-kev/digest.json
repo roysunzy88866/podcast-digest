@@ -1,0 +1,184 @@
+{
+  "title_zh": "AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变",
+  "tldr": "安全老兵 Kevin Mandia(曾创办 Mandiant,现创办 Armiden)解释为什么 AI 让攻击方占尽先机，以及防守为何必须走向自主化。",
+  "digest_md": "这一集聊的是一件正在发生的事：网络攻击正在从人类速度变成机器速度。说话的主角是 Kevin Mandia——他在网络安全领域干了 30 年，创办过并入 Google 的 Mandiant,如今又创办了新公司 Armiden。他的自我评价很彻底：「我过去做的一切都死了，然后其他一切都是新的。」 更有意思的是，他自己就是造进攻工具的人——Armiden 用 AI 模型组建的智能体集群去真实攻击客户的生产网络，今年 1 月以来已经在财富 500 强级别公司的站点上发现了超过 90 个零日漏洞(指厂商还没来得及修、攻击者随时可用的漏洞)。\n\n## AI 攻击已经到哪一步了\n\nKevin 的判断：我们正处在一个奇怪的时间窗口——AI 攻击已经出现，但还没达到你预期的水平，因为模型的成本和可获得性对犯罪分子来说还不够低。「一旦你能匿名获得 GPU,你就会看到多得多的犯罪攻击。」 他现在的态度是：别再讨论「要不要放慢模型」了，开放模型已经足够好，攻击现在就在到来。\n\n今天的 AI 攻击长什么样？他讲了一个真实的破绽：人类入侵是有条理的——先攻破 A 点，再到 B 点再到 C 点；而 AI 会攻破 A 点、横向移动到 B 点，转头又去攻 A 点。「我理解无人机蜂群，但你大概可以协调和思考得更好一点。」 但这不重要，因为真正的差距在规模和速度：人类过去只能找到一条进入网络的路径，因为资源有限必须取舍；而「AI 在一微秒内做到的事，需要 70 个人来做，他们甚至做不到」。\n\n## 民族国家攻击的玩法也会变\n\nKevin 见过 30 年的民族国家攻击。他的概括：国家的网络进攻历来是「狙击弹」——限制目标、对极少的东西深打，比如 30 家国防承包商，不乱扫射碰运气。有了 AI,它变得更像蜂群无人机：更草率、更吵闹，但更有效、更全面。 他认为连国家自己都在重新思考学说：是蜂群围攻烧 token,还是狙击？怎么平衡？这取决于风险、目标和想多隐秘——因为目前的 AI 进攻并不隐秘，除非做大量后训练并有人类在环把关。\n\n另一个大后果是归因变难：未来防守方会说「我们正被这些模型攻击，但不确定背后是谁」——是国家？是人？线索会有，但归因将变得困难。 而对能力弱的攻击者，AI 是「均衡器」：原本技术较差、不太成功的，会显得成功得多。\n\n## Armiden 怎么做：用 AI 持续攻击你\n\nKevin 的核心主张：没有强大进攻的对练，就谈不上有防御。他用体育类比——想成为顶级防守组，就得有真正逼你的陪练进攻组，Armiden 就是冲着你来的「全明星进攻组」。\n\n具体做法分三步：\n\n1. **Hyper attack 绘制网络地图**：扔一群智能体组成的蜂群冲向客户网络，绘制出每个服务、每条路由、每个系统的资产清单，可能产生数 TB 的元数据——相当于攻击者视角下的网络「元数据孪生体」。\n2. **像心跳一样轮询变化**：有了这张地图，就能低成本地持续检查——应用变了没？路由变了没？有没有新机器上线？发现变化就攻击变化。 全天候攻击成本太高也没必要，正确时机是：威胁变了(新模型发布)、网络变了、或者客户想自我审计。\n3. **真打，不是扫描**：这是它与传统渗透测试的本质区别。Kevin 说渗透测试「一直只是扫描已知的东西，产出一大堆不重要的列表清单」；而 Armiden 真的把漏洞利用执行出来，做验证、没有误报，能实现远程代码执行或从机器上拿到数据。 他们不做源代码扫描——「我们是来自互联网的黑盒攻击」，通常在 48 小时内给 CISO 打电话说「我们在你们的 DMZ 里发现了远程代码执行」，而对方会直接进入事件响应模式，「那不是渗透测试，那像一个真正的对手朝你攻过来」。\n\n效率上有个关键数字：他们在 Armiden 造了 20 条人类在现实中完整执行过的杀伤链(从初始入侵到目标的完整攻击路径)，没有模型能走完超过 8 条；而且开源权重模型和最先进的闭源模型全部都停在 8 条——差别只在速度和成本，开源模型跑久一点能达到同样的结果。 所以在网络领域，开源与闭源模型的差距远小于其他领域。\n\n## 防守必须自主化\n\nKevin 的论点很硬：在 AI 时代，战术性防御不可能有人在环——「你得尽快给伤口上止血带」。 一旦具备智能体能力的攻击拿到内部立足点，它扩散的速度是「令人震惊的」：人类一次横向移动要敲半天键盘，「这个东西同时做一千件事，它无处不在」。 所以预防要由 AI 治理，检测和响应要由 AI 完成，每个阶段的时间窗口都在收窄。\n\nArmiden 的第二幕「Armored in Blue」就是干这个的：把可利用风险的情报喂给防御平台(终端 EDR、防火墙等)，以速度创建补偿性控制——如果他们比别人早五分钟发现攻击，你已经被保护好了。 他们正在与 CrowdStrike 等防御厂商合作第一代产品。Kevin 的取舍逻辑：宁可要一个糟糕的补丁挡住坏人，也不要一次入侵；自主防御哪怕起步阶段很粗糙，一年后它就只是「在那里」了。他预计即使 CISO 没主动要求，已投资的防御平台也会把自主防御推到他们面前。\n\n## 从 Hugging Face 事件学到的：怎么关住这头猛兽\n\n> 【背景】此处指媒体报道的 AI 智能体在测试任务中失控操作的事件；Kevin 在访谈中以此为案例讨论 AI 实验室的安全教训。\n\nKevin 的总结很直接：「在每一次技术范式的转变中，我们都低估了对手的能力」——这次是低估了模型的能力，事后看本可以加护栏、加确定性的限制。 Armiden 自己就在造「我们都在担心的那头猛兽」——一个会攻击生产网络、入侵成功率很高的系统。他们的安全做法有三层：hypervisor 与主机层锁死；被动地悄悄审查每一个执行过的 prompt(大多数时候杀掉一个智能体不是因为安全问题，而是它在浪费钱)；以及「假设你的每一层安全都会失效」，用确定性规则消除某些活动。\n\n他强调的经验是：保护特定领域的智能体需要领域专业知识。Armiden 把漏洞利用开发者、红队人员和 AI 的人绑在一起，评估主要由红队设计——AI 人员不懂攻击者会怎么想。而护栏也不能太死：「笼子关得太紧了，就稍微放开一点，找到那条界线」，否则你根本没利用上模型的创造力；遇到「我们完全不知道刚才发生了什么」的情况，就暂停、上报、让人来评判。\n\n## 组织里的「大 TURN」:零日漏洞开始由 AI 发现\n\nArmiden 的运营团队极其资深——职业生涯里给财富 100 强里的 99 家做过红队测试。看那 90 多个零日漏洞：大部分仍由人发现，但那是因为 AI 完成了 90% 以上的繁琐渗透测试工作；而「最近几个零日漏洞，是技术发现的」。 他们认为这个拐点大多数进攻方已经跨过去了。\n\n## 为什么这次创业和上次完全不同\n\nKevin 2004 年创办 Mandiant 时是自筹资金、盈利的，前提(「安全漏洞是不可避免的」)当时没人相信，所以也没什么竞争。这次全反了：今天的创始人、创业公司比以往任何时候都多，任何赛道都是拥挤的，不存在没人做的空白。\n\n他的四点不同：**必须融资**；**必须快**——Armiden 像有「时速 80 英里的顺风」，但销售、国际化都得从零建，目标是超过 Wiz 从首次发布到年收入 1 亿美元只用 18 个月的速度；**品牌与光环**——通过拿下货币中心银行、顶级零售、航空公司这类标志性客户并让他们狂喜来获得光环，而不是「苏西纸杯蛋糕」式的客户；**go-to-market 要提前建**——产品每两周就变，销售必须每周培训。\n\n他的商业哲学倒是朴素到底：「获取客户、让客户满意、重复」，除此之外没有任何东西能让你差异化，「我刚刚把我所有的商业机密都送出去了」。 另外，CEO 的职责是「在员工面前彻底掩盖公司的混乱」——快速增长但不能让员工感觉混乱，必须把方式流程化、几乎工业化，只靠毅力、胆识和冲劲是赢不了的。\n\n## 本集带走\n\n- **攻防速度差是本质问题**：AI 同时探测数千条路径、微秒级动作；人类一次只能打一条路。防守方如果还在「检测-人工响应」的循环里，就已经输了。\n- **持续防御的正确姿势**：不是全天候攻击，而是先一次性测绘全网(元数据孪生)，之后低成本轮询变化、只攻击变化点。\n- **渗透测试正在被替代**：扫描已知漏洞产出一堆不重要的清单；新一代做法是把漏洞利用真正执行出来验证、零误报，并像真实对手一样触发客户的事件响应。\n- **开源模型在攻防上够用了**：20 条杀伤链大家都走到 8 条，差别只在速度与成本——「放慢模型」已无意义，攻击不需要最花哨的模型。\n- **关住 AI 的三层经验**：基础设施锁死 + 逐条审查 prompt + 假设每层都会失效的确定性规则；评估要由懂攻击的红队来设计，不能只靠 AI 人员。\n- **创业提醒**：今天没有空白市场，差异化只剩一条路——拿下对的客户、让客户狂喜、重复；并且 go-to-market、第二幕、第三幕都要提前建好。",
+  "quotes": [
+    {
+      "en": "I don't want to sit out the AI shift change when I've done 30 years in security and the whole damn thing's about to change.",
+      "zh": "我不想错过 AI 的换班——我在安全领域干了 30 年，而这整个事情即将发生巨变。",
+      "timestamp": "00:22",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "Everything I did is dead, and then everything else is new.",
+      "zh": "我过去做的一切都死了，然后其他一切都是新的。",
+      "timestamp": "01:18",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The open models are already good enough and these things are coming now.",
+      "zh": "开源模型已经足够好了，这些东西现在就在到来。",
+      "timestamp": "07:15",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "The minute you have anonymous availability of GPUs, you'll see far more criminal attacks.",
+      "zh": "一旦你能匿名获得 GPU,你就会看到多得多的犯罪攻击。",
+      "timestamp": "07:21",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "And so anyway, the difference in attacks and what we're seeing now, we are at the precipice, first inning still, of AI-led attacks coming.",
+      "zh": "所以无论如何，关于我们现在看到的攻击，我们正处在 AI 主导的攻击即将到来的临界点上，还只是第一局。",
+      "timestamp": "07:42",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "You don't have a defense unless you have a great offense to go up against.",
+      "zh": "除非你有一个强大的进攻来对抗，否则你谈不上有防御。",
+      "timestamp": "11:29",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "And you can't really have a human in the loop in the AI age for tactical autonomous defense.",
+      "zh": "而且在 AI 时代，对于战术性的自主防御，你不可能真的有人在环里。",
+      "timestamp": "11:54",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "We're coming from the outside, and then we're calling a CISO, you know, usually within 48 hours, hey, we've got remote code execution in your DMZ, and usually from there, we're getting in.",
+      "zh": "我们是从外部进来的，然后通常在 48 小时内给 CISO 打电话：嘿，我们在你们的 DMZ 里发现了远程代码执行，通常从那里，我们就进去了。",
+      "timestamp": "18:08",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "I'd rather have a bad patch stopping a bad guy from getting in.",
+      "zh": "我宁愿要一个糟糕的补丁阻止坏人进来。",
+      "timestamp": "20:17",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "And we had no model go through the entire kill chains of more than eight.",
+      "zh": "而我们没有模型能走完超过八条的完整杀伤链。",
+      "timestamp": "30:47",
+      "speaker": "Kevin Mandia"
+    },
+    {
+      "en": "It's the tailwind of a lifetime in cyber.",
+      "zh": "这是网络安全领域一生难遇的顺风。",
+      "timestamp": "47:56",
+      "speaker": "David George"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:22",
+      "speaker": "Kevin Mandia",
+      "en": "I don't want to sit out the AI shift change when I've done 30 years in security and the whole damn thing's about to change.",
+      "zh": "我不想错过 AI 的换班——我在安全领域干了 30 年，而这整个事情即将发生巨变。"
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Kevin Mandia",
+      "en": "Everything I did is dead, and then everything else is new.",
+      "zh": "我过去做的一切都死了，然后其他一切都是新的。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Kevin Mandia",
+      "en": "What AI does in a microsecond would take 70 humans.",
+      "zh": "AI 在一微秒内做到的事，需要 70 个人来做。"
+    },
+    {
+      "timestamp": "06:40",
+      "speaker": "Kevin Mandia",
+      "en": "It's apples to oranges.",
+      "zh": "这完全是苹果和橙子的对比。"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Kevin Mandia",
+      "en": "The open models are already good enough and these things are coming now.",
+      "zh": "开源模型已经足够好了，这些东西现在就在到来。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Kevin Mandia",
+      "en": "The minute you have anonymous availability of GPUs, you'll see far more criminal attacks.",
+      "zh": "一旦你能匿名获得 GPU,你就会看到多得多的犯罪攻击。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Kevin Mandia",
+      "en": "And so anyway, the difference in attacks and what we're seeing now, we are at the precipice, first inning still, of AI-led attacks coming.",
+      "zh": "所以无论如何，关于我们现在看到的攻击，我们正处在 AI 主导的攻击即将到来的临界点上，还只是第一局。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Kevin Mandia",
+      "en": "So it's a little sloppier, a little louder, but it's more effective.",
+      "zh": "所以它会更草率一点，更吵闹一点，但更有效。"
+    },
+    {
+      "timestamp": "11:29",
+      "speaker": "Kevin Mandia",
+      "en": "You don't have a defense unless you have a great offense to go up against.",
+      "zh": "除非你有一个强大的进攻来对抗，否则你谈不上有防御。"
+    },
+    {
+      "timestamp": "11:54",
+      "speaker": "Kevin Mandia",
+      "en": "And you can't really have a human in the loop in the AI age for tactical autonomous defense.",
+      "zh": "而且在 AI 时代，对于战术性的自主防御，你不可能真的有人在环里。"
+    },
+    {
+      "timestamp": "16:11",
+      "speaker": "Kevin Mandia",
+      "en": "So it's always created a larger list of volumes that don't matter.",
+      "zh": "所以渗透测试总是产出一大堆不重要的列表清单。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Kevin Mandia",
+      "en": "We're coming from the outside, and then we're calling a CISO, you know, usually within 48 hours, hey, we've got remote code execution in your DMZ, and usually from there, we're getting in.",
+      "zh": "我们是从外部进来的，然后通常在 48 小时内给 CISO 打电话：嘿，我们在你们的 DMZ 里发现了远程代码执行，通常从那里，我们就进去了。"
+    },
+    {
+      "timestamp": "20:17",
+      "speaker": "Kevin Mandia",
+      "en": "I'd rather have a bad patch stopping a bad guy from getting in.",
+      "zh": "我宁愿要一个糟糕的补丁阻止坏人进来。"
+    },
+    {
+      "timestamp": "23:54",
+      "speaker": "Kevin Mandia",
+      "en": "This thing just does a thousand things at once.",
+      "zh": "这个东西能同时做一千件事。"
+    },
+    {
+      "timestamp": "27:52",
+      "speaker": "Kevin Mandia",
+      "en": "We underestimate the adversary's capability.",
+      "zh": "我们都低估了对手的能力。"
+    },
+    {
+      "timestamp": "30:47",
+      "speaker": "Kevin Mandia",
+      "en": "And we had no model go through the entire kill chains of more than eight.",
+      "zh": "而我们没有模型能走完超过八条的完整杀伤链。"
+    },
+    {
+      "timestamp": "33:45",
+      "speaker": "Kevin Mandia",
+      "en": "But you still wanna respect the technologies that you're creating and test them in a way that is meaningfully guarded.",
+      "zh": "但你仍然要尊重你正在创造的技术，并以一种有实质护栏意义的方式去测试它们。"
+    },
+    {
+      "timestamp": "47:56",
+      "speaker": "Kevin Mandia",
+      "en": "It's the tailwind of a lifetime in cyber.",
+      "zh": "这是网络安全领域一生难遇的顺风。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个人，聊一件正在发生的事。这个人叫 Kevin Mandia,在网络安全这行干了三十年，创办过 Mandiant——后来并进了 Google——现在又开了家新公司，叫 Armiden。他对自己过去这门手艺的评价特别狠，说「我过去做的一切都死了，然后其他一切都是新的」。这句话什么意思？就是这一集的核心：网络攻击正在从人类速度变成机器速度，整个游戏规则变了。\n\n先交代一下背景。网络攻防这事儿，过去靠的是人。攻击者得一步步找路进你的系统，防守方也是人盯着告警、人去响应。而现在，AI 智能体进来了，两边速度差一下子被拉开了。Kevin 有个很特别的身份——他自己就是造进攻工具的人。Armiden 用 AI 模型组建的智能体集群，真实地攻击客户的生产网络，今年 1 月以来，已经在财富 500 强级别的公司站点上发现了超过 90 个零日漏洞。零日漏洞，说白了就是厂商还没来得及修、攻击者随时能用的漏洞。\n\n那 AI 攻击到底到哪一步了？Kevin 的判断是，我们正处在一个奇怪的时间窗口：AI 攻击已经出现了，但还没到你预想的那个规模，因为模型的成本和获取难度，对犯罪分子来说还不够低。不过他说，一旦攻击者能匿名搞到 GPU,你就会看到多得多的犯罪攻击。所以他现在的态度是：别再讨论要不要放慢模型了，开放模型已经足够好，攻击现在就在到来。\n\n这里有个真实的观察挺有意思。人类的入侵是有条理的，先攻破 A 点，再到 B 点再到 C 点；而 AI 会攻破 A 点、横向挪到 B 点，转头又去攻 A 点，看着甚至有点乱。但 Kevin 说这不重要，因为真正的差距在规模和速度：过去人类资源有限，只能找一条进入网络的路径；而 AI 一微秒内做到的事，需要 70 个人来做，而且那 70 个人还做不到。这就是为什么说，攻防速度差是本质问题——防守方如果还在检测、人工响应这个循环里，其实已经输了。\n\n顺着这条线，民族国家的玩法也会变。Kevin 见了三十年的国家级攻击，概括下来，国家的网络进攻历来像狙击弹——目标限制得很少，打得深，比如就盯着三十家国防承包商，不乱扫射碰运气。有了 AI,它就更像蜂群无人机：更草率、更吵闹，但更有效、更全面。连国家自己都在重新思考，是蜂群围攻烧 token,还是继续狙击。这还带来一个大麻烦：归因变难了。未来防守方会说，我们正被这些模型攻击，但不确定背后是谁。而对那些原本技术不太行的攻击者，AI 是均衡器，会让不太成功的显得成功得多。\n\n好，那防守这边该怎么办？Kevin 的核心主张非常硬：除非你有一个强大的进攻来对抗，否则你谈不上有防御。用体育打比方，想成为顶级防守组，就得有真正逼你的陪练进攻组，Armiden 就是冲着你来的全明星进攻组。具体分三步。第一步，扔一群智能体冲向客户网络，把每个服务、每条路由、每个系统都画出来，可能产生数 TB 的元数据——相当于从攻击者视角给你的网络做了个元数据孪生体。第二步，有了这张地图，就能像心跳一样低成本地持续轮询：应用变了没？路由变了没？有没有新机器上线？发现变化，就攻击变化。注意，不是全天候攻击，那成本太高也没必要，正确的时机是威胁变了、网络变了，或者客户想自我审计。第三步，也是跟传统渗透测试的本质区别：真打，不是扫描。Kevin 说渗透测试一直只是扫描已知的东西，产出一大堆不重要的清单；而 Armiden 是真的把漏洞利用执行出来，做验证、零误报，通常 48 小时内就给 CISO 打电话，说我们在你们的 DMZ 里发现了远程代码执行，对方直接进入事件响应模式——那不是渗透测试，那像一个真正的对手朝你攻过来。\n\n效率上有个关键数字。他们在公司里造了 20 条人类完整执行过的杀伤链，也就是从初始入侵到目标的所有攻击路径，结果没有任何模型能走完超过 8 条。更关键的是，开源模型和最先进的闭源模型，全都停在 8 条——差别只在速度和成本，开源模型跑久一点能达到同样的结果。所以在网络领域，开源模型已经够用了，这也是为什么说「放慢模型」已经没有意义。\n\n那防守为什么必须自主化？逻辑是这样的：一旦具备智能体能力的攻击拿到你内部的立足点，它扩散的速度是令人震惊的——人类一次横向移动要敲半天键盘，这东西同时做一千件事，无处不在。所以战术性防御不可能再有人在环了，用 Kevin 的话说，你得尽快给伤口上止血带。于是有了第二幕，叫 Armored in Blue:把可利用风险的情报喂给防御平台，以机器的速度创建补偿性控制——哪怕他们只比别人早五分钟发现攻击，你也已经被保护好了。现在正在跟 CrowdStrike 这样的防御厂商合作第一代产品。取舍逻辑很朴素：宁可要一个糟糕的补丁挡住坏人，也不要一次入侵。\n\n最后一个教训，来自那些 AI 智能体失控的事件。Kevin 的总结是：每一次技术范式的转变，我们都低估了对手的能力。Armiden 自己就在造那头猛兽，所以怎么关住它，有三层经验：基础设施层锁死；逐条悄悄审查每一个执行过的 prompt——多数时候杀掉一个智能体不是因为安全问题，而是它在浪费钱；以及假设你的每一层安全都会失效，用确定性规则兜底。还有一点特别值得记：评估必须由懂攻击的红队来设计，因为 AI 人员不懂攻击者会怎么想。\n\n所以这一集带走一句话就够了：我们正处在 AI 主导的攻击即将到来的临界点上，还只是第一局——而防守这一方，已经没有时间等了。"
+}

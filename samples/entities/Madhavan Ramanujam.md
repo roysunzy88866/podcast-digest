@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Intercom":6,"Cursor":80,"Charge Flow":1,"Superhuman":5,"Sierra":7,"Delphi":3,"Slack":31,"Canva":5,"GitHub":29}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Intercom":6,"Cursor":82,"Charge Flow":1,"Superhuman":5,"Sierra":7,"Delphi":3,"Slack":31,"Canva":5,"GitHub":30}</script>
 
 <script>
 (function(){

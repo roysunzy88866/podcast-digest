@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":5,"a16z":18,"Adi":1,"Eleven Labs":9,"Cognition":25,"Vercel":19,"Brex":6,"MidJourney":4,"OpenAI":167}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":5,"a16z":18,"Adi":1,"Eleven Labs":9,"Cognition":25,"Vercel":19,"Brex":6,"MidJourney":4,"OpenAI":171}</script>
 
 <script>
 (function(){

@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Base 10</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Base 10">BA</div><div class="pi"><h1 class="pt">Base 10</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Base 10">BA</div><div class="pi"><h1 class="pt">Base 10</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]]**(00:31起):本集说它是一家 AI 基础设施公司，专注为世界上增长最快的公司提供生产级推理，产品分共享 API、专用推理和训练/后训练三块。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(04:37起):本集说它与 OpenAI 合作,让用户可以用 OpenAI 额度去用开放模型,被视为对开源模型的一场大胜利。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]] — 作为被讨论公司
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Julian]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[GPU 容量]] · [[分布式推理]] · [[Cursor]] · [[Decagon]]
+[[推理]] · [[开源模型]] · [[后训练]] · [[Cursor]] · [[Julian]] · [[Yash]] · [[专用推理]] · [[Applied Compute]] · [[持续学习]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Julian":1,"推理":80,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":80,"Decagon":9}</script>
+<script type="application/json" class="pd-epn">{"推理":81,"开源模型":4,"后训练":1,"Cursor":82,"Julian":1,"Yash":2,"专用推理":1,"Applied Compute":1,"持续学习":1,"OpenAI":171}</script>
 
 <script>
 (function(){

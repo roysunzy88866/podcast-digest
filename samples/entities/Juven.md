@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]]
+[[Jeanne Grosser]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeanne Grosser":1,"Vercel":19,"Stripe":48,"Google":60,"GitHub":29,"Slack":31,"Claude":90,"go-to-market":14,"智能体":419,"产品市场契合":27}</script>
+<script type="application/json" class="pd-epn">{"Jeanne Grosser":1,"Vercel":19,"Stripe":48,"Google":62,"GitHub":30,"Slack":31,"Claude":90,"go-to-market":14,"智能体":424,"产品市场契合":27}</script>
 
 <script>
 (function(){

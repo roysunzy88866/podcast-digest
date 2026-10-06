@@ -1,0 +1,938 @@
+{
+  "episode_id": "2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec",
+  "podcast": "Invest Like the Best",
+  "date": "2026-10-06",
+  "tags": [
+    "神经科学",
+    "大脑读写",
+    "睡眠",
+    "基因编辑",
+    "健康科普"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "andrew-huberman",
+      "type": "person",
+      "role": "host",
+      "name": "Andrew Huberman",
+      "file": "Andrew Huberman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "neuralink",
+      "type": "company",
+      "role": "company",
+      "name": "Neuralink",
+      "file": "Neuralink",
+      "primary": true,
+      "how_described": "本集把它说成:Elon 公开宣称的神经兴趣所在,与 Eddie Chang 等人正在开发让脊椎受伤者行走等技术;Andrew 认为它最终会变成一家生物技术公司,真正目标是‘以非侵入方式读写大脑’。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1323.832,
+            1327.835
+          ],
+          "quote": "Similar-ish to what Neuralink is doing, but removing brain tumors and this kind of thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1362.129,
+            1373.556
+          ],
+          "quote": "Like getting people who are in locked-in syndrome to speak, as Eddie has done, or getting people who have a spinal injury to walk, which Neuralink and Eddie and others are trying to develop technologies to do, that is, that's heroic, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1374.32,
+            1388.79
+          ],
+          "quote": "But ultimately, and I'll go on record saying this, anyone who thinks that Meta, OpenAI, Anthropic, or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1779.811,
+            1789.139
+          ],
+          "quote": "He's now the head neurosurgeon at Neuralink, Matt McDougall, amazing guy, has a little receiver implanted under his skin of his hand between his thumb and his index finger.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1804.328,
+            1807.65
+          ],
+          "quote": "That's very Neuralink-ish and obviously they had much bigger aspirations than that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 843,
+          "t": [
+            3680.318,
+            3685.822
+          ],
+          "quote": "Trying to achieve with Neuralink and he's extremely savvy with respect to like what can be done now, where we need to go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3710.027,
+            3714.313
+          ],
+          "quote": "And people like Eddie Chang, obviously Neuralink's doing this, Matt McDougall and the folks there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它列为『看似 LLM AI 公司、最终都会变成生物技术公司』的巨头之一,并提到它正进入与医学和慈善相关的有趣领域。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            28.68,
+            33.163
+          ],
+          "quote": "OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1374.32,
+            1388.79
+          ],
+          "quote": "But ultimately, and I'll go on record saying this, anyone who thinks that Meta, OpenAI, Anthropic, or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4113.421,
+            4119.609
+          ],
+          "quote": "And I do think OpenAI is heading into some very interesting things that relate to medicine and benevolence there and on and on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集在预测『Meta、OpenAI、Anthropic、Neuralink 都会成为生物技术公司』时被点名,称其对大脑感兴趣、做 AI 的人『多有一个挡位』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            425.195,
+            432.039
+          ],
+          "quote": "Occasionally you'll run into like a Jimmy Iovine or some of the folks doing AI at Meta, and they just seem to have an extra gear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1374.32,
+            1388.79
+          ],
+          "quote": "But ultimately, and I'll go on record saying this, anyone who thinks that Meta, OpenAI, Anthropic, or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集与 Meta、OpenAI 并列,被预测最终会因瞄准『非侵入读写大脑』而变成生物技术公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            28.68,
+            33.163
+          ],
+          "quote": "OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1374.32,
+            1388.79
+          ],
+          "quote": "But ultimately, and I'll go on record saying this, anyone who thinks that Meta, OpenAI, Anthropic, or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 是 Andrew 的忠实兴趣:AI 将学会『滴定』调节大脑刺激强度,自动把动机水平调成方波;并断言『AI 真正的军备竞赛』不在 LLM,而在非侵入读写神经系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            10.047,
+            21.592
+          ],
+          "quote": "Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.836,
+            58.939
+          ],
+          "quote": "That's why so many of the top AI teams you hear about already run on WorkOS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            68.401,
+            76.463
+          ],
+          "quote": "Rogo is the AI platform purpose-built for financial institutions, serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            77.024,
+            81.105
+          ],
+          "quote": "Rogo's AI agents autonomously execute large chunk of your firm's workflows.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            404.662,
+            413.247
+          ],
+          "quote": "But I'd be naive and I'd be lying if I said somebody's starting a company in the AI realm in the Bay Area or elsewhere these days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            425.195,
+            432.039
+          ],
+          "quote": "Occasionally you'll run into like a Jimmy Iovine or some of the folks doing AI at Meta, and they just seem to have an extra gear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            868.694,
+            882.238
+          ],
+          "quote": "I will say, and I don't want to take us too far off course, but for those interested in emerging technologies and AI, in particular neural technologies, I do think that in sleep, reading from and writing to the brain is going to be a huge area.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1374.32,
+            1388.79
+          ],
+          "quote": "But ultimately, and I'll go on record saying this, anyone who thinks that Meta, OpenAI, Anthropic, or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1454.894,
+            1457.237
+          ],
+          "quote": "That's what the real arms race of AI is about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1464.404,
+            1465.746
+          ],
+          "quote": "I'm a big fan of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1473.214,
+            1483.822
+          ],
+          "quote": "But then using AI to be able to understand, okay, this level of activation in this brain area for you, Patrick, is related to a hypermotivated brain state that makes it very hard for you to do anything else the rest of the day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2402.757,
+            2413.08
+          ],
+          "quote": "So sometimes I get a little bit of the blinders on about how other, you know, a lot of people are terrified of AI and I'm told lately that I'm not scared enough, but I acknowledge that people are concerned, afraid they don't understand it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2720.769,
+            2723.91
+          ],
+          "quote": "And then with most likely through AI, you're not gonna be turning a knob.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2830.6,
+            2835.464
+          ],
+          "quote": "Dermatologists, ophthalmologists love the AI and the more measurements better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3658.691,
+            3669.515
+          ],
+          "quote": "Actually, even though I've never met him, I think Dario, even though I disagree with a lot of things I hear from him about AI, I think that it's interesting someone came up through neurosciences in this quite different but related field.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3853.713,
+            3863.579
+          ],
+          "quote": "It does seem like if you really think ahead from the current stuff in AI to where this is all going, of course, inevitably, the intimacy of technology into us is going to increase.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sleep",
+      "type": "concept",
+      "role": "concept",
+      "name": "睡眠 (sleep)",
+      "file": "睡眠",
+      "primary": true,
+      "how_described": "本集主线之一:先诚实评估自己的睡眠需求(Andrew 自己七小时最佳),再谈优化;并给出关思绪、长呼气降心率、扰乱本体感觉三个入睡开关,称大脑读写技术会从睡眠场景起步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            200.448,
+            204.651
+          ],
+          "quote": "Physiologically, I mean, there are examples throughout history of people who seem to require less sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            210.476,
+            218.463
+          ],
+          "quote": "And I think now we've undergone this huge shift whereby everyone understands you have to sleep eventually and you have to know your own sleep requirements.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            224.968,
+            229.292
+          ],
+          "quote": "An honest self-assessment about how much sleep one actually needs to perform well",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            246.877,
+            250.84
+          ],
+          "quote": "Of four to zero hours of sleep and I'm cratered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            258.467,
+            261.469
+          ],
+          "quote": "We know to sleep, we can talk about exercise, caffeine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            281.646,
+            293.095
+          ],
+          "quote": "Setting Elon aside with the understanding that he represents that extreme in terms of energy and sleep requirements being very low, I think what's really happening now is people are hopefully doing this self-assessment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            298.88,
+            309.784
+          ],
+          "quote": "With or without kids, at this stage of my company, at this stage of my career, whatever it is, at this age, how much sleep do I need in order to feel awesome, good enough, or it's not enough?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            413.267,
+            415.869
+          ],
+          "quote": "You're going to sit them down and you go, listen, you really need eight hours of sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            438.342,
+            443.883
+          ],
+          "quote": "And that's the ability to switch off your thoughts, your planning and your concerns at the end of your day and drop into sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            465.271,
+            468.894
+          ],
+          "quote": "So in terms of sleep, there are a couple of prerequisites for sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            477.44,
+            480.903
+          ],
+          "quote": "Alcohol, cannabis, these things impair the quality of your sleep, help you get to sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            680.621,
+            686.583
+          ],
+          "quote": "Believe it or not, there've been studies of what puts babies to sleep and what puts adults to sleep without pharmacology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            686.963,
+            693.664
+          ],
+          "quote": "It turns out that the rocking pacing that we do with babies at a certain rate, parents figure this out on their own, puts them to sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            807.682,
+            814.726
+          ],
+          "quote": "These guys have developed eye masks that measure rapid eye movement, because right now your whoop, your aura, your eighth sleep, they're not measuring REM directly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            842.315,
+            848.159
+          ],
+          "quote": "And then once REM sleep starts, it actually helps amplify the REM stage and you get much more REM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            868.694,
+            882.238
+          ],
+          "quote": "I will say, and I don't want to take us too far off course, but for those interested in emerging technologies and AI, in particular neural technologies, I do think that in sleep, reading from and writing to the brain is going to be a huge area.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            932.214,
+            948.828
+          ],
+          "quote": "Yes, we can do that stuff deliberately, but you can imagine that pretty soon there will be non-invasive stimulation devices that will allow people to do this, but it will start in sleep because we're all kind of comfortable with the idea now of measuring our physiology in sleep, a little bit in waking states, but this is where this is going.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            970.808,
+            983.84
+          ],
+          "quote": "If you're going through grief or psychological stress or trauma healing, if you're trying to start a company and you got kids, or even if you're just trying to work the maximum number of hours and you have four hours to sleep and you're somebody who needs six, you want to be able to hit the pillow and shut it off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            992.683,
+            999.485
+          ],
+          "quote": "But what I'm talking about is people doing a thorough self-assessment of sleep need, ability to turn off thoughts, and then training those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1310.082,
+            1316.327
+          ],
+          "quote": "Well, I think the coolest problem that's also the biggest problem is how we can non-invasively write to the nervous system in sleep and waking states.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1489.266,
+            1494.29
+          ],
+          "quote": "I mean, my eight sleep changes the temperature throughout the night to give me more REM sleep or deep sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1495.911,
+            1498.073
+          ],
+          "quote": "It's just, we're okay with these things in sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1503.175,
+            1514.061
+          ],
+          "quote": "But it's no small thing to dynamically change and measure the degree of change in the nervous system in order to access a given state, sleep or otherwise, better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1848.419,
+            1856.182
+          ],
+          "quote": "If I told you, listen, you're going to be wearing a ring or a band on your wrist that measures your sleep and HRV, that's pretty out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2488.968,
+            2511.449
+          ],
+          "quote": "Right now, we just think all levels of increased heart rate and decreased levels of HRV are bad, but she's discovering that there are certain things in your day, like when you're stressed out doing things that you love, that actually sets you up for better sleep, more focus, that the data have hinted in that direction for a while, but these devices are the sort that she's developed, and she's brought this to police departments, first responders, and eventually this will be a broadly available technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2552.702,
+            2557.047
+          ],
+          "quote": "So you need a lot of access from a wristband and eyeglasses or an eye mask in sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2759.31,
+            2763.857
+          ],
+          "quote": "So you know how much coffee you can drink at a given time of day, given how much sleep you've had.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3064.311,
+            3068.334
+          ],
+          "quote": "You could also do sleep creatine, in particular when sleep deprived.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3070.275,
+            3075.602
+          ],
+          "quote": "But those two things, great night's sleep, plus some caffeine, you're pretty close to Adderall level effects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3076.282,
+            3078.866
+          ],
+          "quote": "It's just that the people taking Adderall aren't getting great sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3584.758,
+            3587.24
+          ],
+          "quote": "We understand slow-wave sleep, deep sleep, N1, N2, N3 sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3588.02,
+            3594.904
+          ],
+          "quote": "Wrote a whole chapter in the book about sleep, its architecture, how temperature changes one or the other, heat up the bed in the morning or the room in the morning, you get more REM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3596.204,
+            3603.809
+          ],
+          "quote": "We know so much about sleep and how to measure and now nudge and maybe even dial in sleep really precisely with these eye mask type tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集讲了让 Andrew『毛骨悚然』的海马体实验:不分顺序一次性激活学习时的同一批神经元(像砸钢琴),动物行为完全相同——说明『回路按特定序列放电』对记忆可能不成立,撼动教科书假设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            89.167,
+            99.141
+          ],
+          "quote": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1920.971,
+            1931.494
+          ],
+          "quote": "We understand a fair amount about memories, although I want to put that on the shelf for a moment because there's an important finding in the memory field that will make you feel like it's in kind of twilight zone, perhaps in neuroscience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2013.196,
+            2021.562
+          ],
+          "quote": "The place where it starts to get murky is at the level of memory, we'll talk about that in a moment, and at the level of thoughts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2031.031,
+            2037.277
+          ],
+          "quote": "But here's the eerie results from the study of the hippocampus in memory that freak me out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2174.722,
+            2184.908
+          ],
+          "quote": "This is problematic for the field of neuroscience because what it says is that this notion of the circuits firing in a particular sequence, at least for memory, it's probably not true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2240.605,
+            2243.287
+          ],
+          "quote": "But once you start getting into memory and thinking,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2268.81,
+            2275.836
+          ],
+          "quote": "But memory, thinking, brain plasticity, these things all rest on the assumption that the temporal order matters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2923.286,
+            2933.914
+          ],
+          "quote": "We now are at the level of tickling specific neurons that are involved in a particular memory or expression of a particular behavior using chemical genetic tags, using light, using sound.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3186.238,
+            3192.161
+          ],
+          "quote": "Yeah, I mean, you could imagine stimulating more memory capacity, but you might give up something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3383.875,
+            3384.595
+          ],
+          "quote": "What about memory?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 782,
+          "t": [
+            3385.276,
+            3392.482
+          ],
+          "quote": "The HIV receptor supposedly is also linked to some aspects of neural circuit formation that are linked to memory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vagal-stimulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "迷走神经刺激 (vagal stimulation)",
+      "file": "迷走神经刺激",
+      "primary": true,
+      "how_described": "本集说它是在皮肤下植入小刺激器刺激迷走神经:Carl Deisseroth 的病例显示逐步加刺激能让有自杀倾向的抑郁症患者实时转向『愿意出门申请工作』;Andrew 预测若侵入性只如打耳洞,创业者会争相想要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            1703.087,
+            1705.287
+          ],
+          "quote": "Like, let's take vagal stimulation, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1705.748,
+            1711.85
+          ],
+          "quote": "Vagal stimulation most people think about as a way to calm down, but most of the vagal pathways are excitatory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1727.022,
+            1729.364
+          ],
+          "quote": "So vagal stimulation increases alertness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1733.888,
+            1737.672
+          ],
+          "quote": "Results in their treatment of their depression by increasing vagal stimulation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "crispr",
+      "type": "concept",
+      "role": "concept",
+      "name": "CRISPR",
+      "file": "CRISPR",
+      "primary": true,
+      "how_described": "本集以贺建奎对双胞胎婴儿删除 HIV 受体事件为线索,讨论基因编辑的伦理:科学界‘要小心,不过成功了吗’的诡异观望,以及胚胎筛查、智商相关筛选早已存在的梯度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 729,
+          "t": [
+            3207.988,
+            3212.55
+          ],
+          "quote": "He announced to the world at a meeting that he had done CRISPR in twin babies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ucsf",
+      "type": "company",
+      "role": "company",
+      "name": "UCSF",
+      "file": "UCSF",
+      "primary": false,
+      "how_described": "本集说嘉宾儿时好友 Eddie Chang 是 UCSF 神经外科主任,他刻画语音计划区的信号并转成电信号,让闭锁综合征患者通过电脑说话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1316.467,
+            1320.85
+          ],
+          "quote": "So my best friend from childhood, Eddie Chang, is chair of neurosurgery at UCSF.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集用『坐进 Waymo 无人车根本没多想』作类比,说明人们对清醒状态下直接测量神经系统这道心理关卡终将习惯。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            2430.369,
+            2431.449
+          ],
+          "quote": "Like I got in a Waymo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hrv",
+      "type": "concept",
+      "role": "concept",
+      "name": "HRV",
+      "file": "HRV",
+      "primary": false,
+      "how_described": "本集说现在可穿戴设备主要靠心率和 HRV 间接推断压力与恢复,而下一道心理关卡是对自主神经系统的直接读取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 413,
+          "t": [
+            1848.419,
+            1856.182
+          ],
+          "quote": "If I told you, listen, you're going to be wearing a ring or a band on your wrist that measures your sleep and HRV, that's pretty out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2442.957,
+            2445.039
+          ],
+          "quote": "Right now we get heart rate, HRV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2445.739,
+            2448.721
+          ],
+          "quote": "And a few other things, but mostly heart rate and HRV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2488.968,
+            2511.449
+          ],
+          "quote": "Right now, we just think all levels of increased heart rate and decreased levels of HRV are bad, but she's discovering that there are certain things in your day, like when you're stressed out doing things that you love, that actually sets you up for better sleep, more focus, that the data have hinted in that direction for a while, but these devices are the sort that she's developed, and she's brought this to police departments, first responders, and eventually this will be a broadly available technology.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

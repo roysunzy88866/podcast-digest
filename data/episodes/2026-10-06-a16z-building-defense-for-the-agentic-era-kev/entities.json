@@ -1,0 +1,644 @@
+{
+  "episode_id": "2026-10-06-a16z-building-defense-for-the-agentic-era-kev",
+  "podcast": "The a16z Show",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "红队测试",
+    "零日漏洞",
+    "创业与增长"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "host",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            82.455,
+            93.001
+          ],
+          "quote": "In this episode, David George sits down with Kevin, founder and CEO of Armiden and the founder of Mandiant, to talk about what happens when cyberattacks move from human speed to machine speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2254.32,
+            2257.543
+          ],
+          "quote": "David George has to find the malware and submit it to us so we get better.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kevin-mandia",
+      "type": "person",
+      "role": "cohost",
+      "name": "Kevin Mandia",
+      "file": "Kevin Mandia",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            71.923,
+            74.967
+          ],
+          "quote": "Kevin Mandia has spent 30 years in cybersecurity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "armiden",
+      "type": "company",
+      "role": "company",
+      "name": "Armiden",
+      "file": "Armiden",
+      "primary": true,
+      "how_described": "本集说它是 Kevin Mandia 新创办的公司，用前沿模型组建的智能体集群真实攻击客户生产网络以发现可利用风险，今年 1 月以来已在财富 500 强客户站点发现超过 90 个零日漏洞，分 Armored in Red（进攻）和 Armored in Blue（自主防御）两幕。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            82.455,
+            93.001
+          ],
+          "quote": "In this episode, David George sits down with Kevin, founder and CEO of Armiden and the founder of Mandiant, to talk about what happens when cyberattacks move from human speed to machine speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            655.645,
+            658.248
+          ],
+          "quote": "So then that is a good segue back to Armiden.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            976.604,
+            982.188
+          ],
+          "quote": "And so the way we wanted to do it at Armiden was we actually can carry the exploit out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1027.677,
+            1039.563
+          ],
+          "quote": "And it's like, all I can tell you is Armiden since January of this year, in 2026, we have found over 90 zero days at customer sites, all in production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1729.345,
+            1734.89
+          ],
+          "quote": "One of the things that we did in our model, I mean, make no mistake, Armiden has made the beast that we're all worried about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2493.713,
+            2502.68
+          ],
+          "quote": "With grit, gut, and moxie, you know, you actually have to proceduralize, almost industrialize the Armiden way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2604.22,
+            2606.22
+          ],
+          "quote": "And that's how I want us to feel at Armiden.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mandiant",
+      "type": "company",
+      "role": "company",
+      "name": "Mandiant",
+      "file": "Mandiant",
+      "primary": true,
+      "how_described": "本集说 Mandiant 是 Kevin 2004 年创办、自筹资金且盈利的安全公司，以响应入侵为生，最终并入了 Google。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            17.679,
+            19.58
+          ],
+          "quote": "You built Mandiant, a great success.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            82.455,
+            93.001
+          ],
+          "quote": "In this episode, David George sits down with Kevin, founder and CEO of Armiden and the founder of Mandiant, to talk about what happens when cyberattacks move from human speed to machine speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            129.175,
+            130.456
+          ],
+          "quote": "Okay, so you built Mandiant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            1949.173,
+            1954.656
+          ],
+          "quote": "We were responding to breaches for a living at Mandiant, and we had to learn what's a cloud breach look like, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2202.756,
+            2214.66
+          ],
+          "quote": "But I look back on Mandiant now, we had a premise nobody actually believed in 04 because our first website said security breaches are inevitable and nobody believed it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2323.306,
+            2327.547
+          ],
+          "quote": "So back to your question, you know, Mandiant was self-funded.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2396.577,
+            2401.641
+          ],
+          "quote": "So same thing with Mandiant, but the differences are this, A, gotta be funded, B,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2472.868,
+            2481.13
+          ],
+          "quote": "At Mandiant's pace, if we were self-funded and profitable with no competition because nobody believed the premise, we didn't get that wobbly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Armiden 用 25,000 个协同工作的智能体绘制并攻击客户网络，AI 智能体像真实对手一样记住并了解你的基础设施，能同时做一千件事、扩散速度令人震惊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            990.33,
+            998.593
+          ],
+          "quote": "And a lot of pen tests are nothing but hit your infrastructure, not with a thinking learning technology that memorizes and knows your infrastructure like an AI agent can,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1130.068,
+            1135.991
+          ],
+          "quote": "With AI and an agent doing it, or in our case, we have lots of different types of agents doing different things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1770.797,
+            1774.42
+          ],
+          "quote": "And the majority of the time, if we kill an agent, it's probably nothing to do with safety.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1774.44,
+            1776.062
+          ],
+          "quote": "It's that the agent's wasting money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1781.527,
+            1785.61
+          ],
+          "quote": "But there were so many layers of validation that the agent was doing the right thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            1982.848,
+            1987.489
+          ],
+          "quote": "Like we log every single thing our agent does, source IP address, time and date and what it did.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zero-day",
+      "type": "concept",
+      "role": "concept",
+      "name": "零日漏洞 (zero day)",
+      "file": "零日漏洞",
+      "primary": true,
+      "how_described": "本集说 Armiden 从今年 1 月以来在客户生产环境发现超过 90 个零日漏洞，且最近的几个零日漏洞已开始由技术（AI）发现，团队认为这个拐点大多数进攻方已经跨过去了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 233,
+          "t": [
+            809.377,
+            813.158
+          ],
+          "quote": "And that's what we had over the weekend, there was a zero day and a popular product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集说红队测试是渗透测试之外的更完整对手模拟，过去成本和人力太高无法常做，有了 AI 智能体现在可以持续进行；Armiden 的运营团队职业生涯里给财富 100 强中的 99 家做过红队测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1116.382,
+            1121.384
+          ],
+          "quote": "And the difference between red teaming and pen testing is pen test to me is a hygiene step.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2115.652,
+            2118.294
+          ],
+          "quote": "15 years on offense, 15 years of red teaming.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pen-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "渗透测试 (pen testing)",
+      "file": "渗透测试",
+      "primary": true,
+      "how_described": "本集说渗透测试一直只是扫描已知的东西、产出一大堆不重要的清单，是一种卫生步骤；Armiden 真正把漏洞利用执行出来、零误报，会随时间取代渗透测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            906.224,
+            913.031
+          ],
+          "quote": "So you would kind of, Armadan, I don't know, a year ago, would probably be placed in the category of pen testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            936.39,
+            937.851
+          ],
+          "quote": "Talk about pen testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            938.191,
+            941.473
+          ],
+          "quote": "What is the historical view of pen testing and why that's not what the future is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            964.015,
+            971.18
+          ],
+          "quote": "It's pen testing to me is always just scanning for what's already known and it doesn't prove whether you're really exploitable or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1002.396,
+            1009.704
+          ],
+          "quote": "It's going to, at least the old versions of pen testing, you know, the Tenable, the Rapid7, the Qualys was more a hygiene sort of thing, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1116.382,
+            1121.384
+          ],
+          "quote": "And the difference between red teaming and pen testing is pen test to me is a hygiene step.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1138.32,
+            1141.021
+          ],
+          "quote": "So I think it will replace pen testing over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2143.79,
+            2151.413
+          ],
+          "quote": "But they're found by humans because we're leveraging AI to do 90 plus percent of the tedial work, which is pen testing, done, automated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2152.413,
+            2158.036
+          ],
+          "quote": "Web app pen testing in creative, articulate way, done, automated for the 98th, 99th percentile.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-defense",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主防御 (autonomous defense)",
+      "file": "自主防御",
+      "primary": true,
+      "how_described": "本集说每个 CISO 的真正目标应是有效的自主响应——战术性防御不可能有人在环，预防由 AI 治理、检测和响应由 AI 完成，宁可要一个糟糕的补丁也不要一次入侵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            714.304,
+            718.827
+          ],
+          "quote": "And you can't really have a human in the loop in the AI age for tactical autonomous defense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1246.798,
+            1251.22
+          ],
+          "quote": "They want to all, you know, shift into the AI age with autonomous defense as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1277.351,
+            1287.355
+          ],
+          "quote": "So you're going to see it happen, even if you're a CISO, you're going to see autonomous defense happen even if you don't ask for it because of the defensive platforms you've already invested in.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开放模型在网络安全上已经足够好——20 条杀伤链开源与闭源模型都只走到 8 条，差别只在速度和成本，所以「放慢模型」的论调已无意义。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            42.805,
+            44.565
+          ],
+          "quote": "The open models are already good enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            435.277,
+            438.638
+          ],
+          "quote": "The open models are already good enough and these things are coming now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1869.552,
+            1873.835
+          ],
+          "quote": "But we kind of let the open models run longer and they got to the same place.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集以 Hugging Face 事件为教训：本可以加护栏和确定性限制却低估了模型能力；笼子关得太紧就稍微放开一点，找到那条界线，否则没利用上模型的创造力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            1684.378,
+            1687.682
+          ],
+          "quote": "And they could have put guardrails on it, some deterministic things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kill-chains",
+      "type": "concept",
+      "role": "concept",
+      "name": "杀伤链 (kill chains)",
+      "file": "杀伤链",
+      "primary": true,
+      "how_described": "本集说 Armiden 造了 20 条人类在现实中完整执行过的杀伤链，没有任何模型能走完超过 8 条，开源与闭源模型全部停在 8 条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 515,
+          "t": [
+            1835.448,
+            1840.829
+          ],
+          "quote": "And we created 20 full kill chains at Armadin that humans have done in the real world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 517,
+          "t": [
+            1847.474,
+            1851.717
+          ],
+          "quote": "And we had no model go through the entire kill chains of more than eight.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": false,
+      "how_described": "本集说 CrowdStrike 著名地把品类从 AV 重新定义为 EDR，并且 Armiden 正在与它合作开发第一代自主防御产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            913.832,
+            917.275
+          ],
+          "quote": "And you and I share history and relationship with George at CrowdStrike.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1239.431,
+            1243.355
+          ],
+          "quote": "And I would say the first generation is we're working with CrowdStrike on it and they know it has to exist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2710.244,
+            2717.047
+          ],
+          "quote": "CrowdStrike, you know, and then the other players that were around it, they redefined the category, but they had to create the category.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wiz",
+      "type": "company",
+      "role": "company",
+      "name": "Wiz",
+      "file": "Wiz",
+      "primary": false,
+      "how_described": "本集说 Wiz 从首次发布到年收入超 1 亿美元只用了 18 个月，Armiden 的目标就是超过这个速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 709,
+          "t": [
+            2450.456,
+            2454.298
+          ],
+          "quote": "Wiz got to over 100 million in AR in 18 months from their first release, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 800,
+          "t": [
+            2717.428,
+            2723.191
+          ],
+          "quote": "In the case of Wiz, part of the reason that it was able to grow so fast is because it was a, oh, bam, hit you like a ton of bricks pressing need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2758.457,
+            2760.119
+          ],
+          "quote": "And I think Wiz did that, so.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

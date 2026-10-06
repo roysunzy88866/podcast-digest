@@ -38,7 +38,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[微调]] · [[Microsoft]] · [[Databricks]] · [[推理能力]] · [[Palantir]] · [[Kimberley Tan]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"智能体":419,"Anthropic":179,"OpenAI":167,"微调":30,"Microsoft":29,"Databricks":21,"推理能力":6,"Palantir":20,"Kimberley Tan":1,"Matt Bornstein":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":424,"Anthropic":182,"OpenAI":171,"微调":30,"Microsoft":29,"Databricks":21,"推理能力":6,"Palantir":20,"Kimberley Tan":1,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

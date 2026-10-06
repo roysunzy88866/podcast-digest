@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]]
+[[Andrew Huberman]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"产品经理":3,"构建者":4,"信息搬运工":1,"判断力":6,"幕僚长应用":1,"AI":28,"LLM":56,"智能体":419,"Skip":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"产品经理":3,"构建者":4,"信息搬运工":1,"判断力":6,"幕僚长应用":1,"AI":29,"LLM":57,"智能体":424,"Skip":1}</script>
 
 <script>
 (function(){

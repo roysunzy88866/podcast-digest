@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]] [[Mali]] [[Barrett Lyon]]
+[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":5,"Hugging Face":29,"NEO":1,"Cotool":1,"智能体":419,"护栏":78,"签名":1,"行为检测":1,"推理":80}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":5,"Hugging Face":29,"NEO":1,"Cotool":1,"智能体":424,"护栏":79,"签名":1,"行为检测":1,"推理":81}</script>
 
 <script>
 (function(){

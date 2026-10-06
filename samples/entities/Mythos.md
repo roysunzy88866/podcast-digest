@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Mythos</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Mythos">MY</div><div class="pi"><h1 class="pt">Mythos</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Mythos">MY</div><div class="pi"><h1 class="pt">Mythos</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(06:19起):本集提到它是 Anthropic 的模型,嘉宾用它演示了编码智能体在抓取不受信任内容时的提示注入鲁棒性问题。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(01:48起):本集把它说成:能自己理解代码库、主动派生其他模型分头干活并验证的「编排时代」模型。
 - **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(16:04起):本集说它是 Anthropic 面向网络安全的模型，圈内质疑其发布更像营销；Murphy 辩护称 Dario 的逻辑是强大的模型必须提前准备，先慢后快
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(06:33起):本集说它是 Anthropic 当时发布的模型,参数量比其他模型大一个数量级,是给行业的「响亮警钟」;Firefox 用它一个月修了比前一年还多的安全漏洞。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念(提及)
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为概念
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[Claude]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Zico Kolter]] · [[Theo Browne]] · [[Julie Bort]] · [[Kat Wu]]
+[[Anthropic]] · [[智能体]] · [[Claude Code]] · [[Claude]] · [[harness]] · [[Slack]] · [[Google]] · [[Lenny]] · [[Zico Kolter]] · [[Theo Browne]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":179,"Claude Code":95,"Claude":90,"智能体":419,"Slack":31,"Lenny":68,"Zico Kolter":1,"Theo Browne":1,"Julie Bort":1,"Kat Wu":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":182,"智能体":424,"Claude Code":96,"Claude":90,"harness":58,"Slack":31,"Google":62,"Lenny":68,"Zico Kolter":1,"Theo Browne":1}</script>
 
 <script>
 (function(){

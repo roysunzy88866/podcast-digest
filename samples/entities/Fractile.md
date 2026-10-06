@@ -25,7 +25,7 @@ unlisted: true
 
 [[Walter Goodwin]] · [[NVIDIA]] · [[Broadcom]] · [[TSMC]] · [[Grok]] · [[Cerebrus]] · [[AMD]] · [[推理]] · [[内存带宽]] · [[ASIC]]
 
-<script type="application/json" class="pd-epn">{"Walter Goodwin":1,"NVIDIA":57,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":80,"内存带宽":1,"ASIC":2}</script>
+<script type="application/json" class="pd-epn">{"Walter Goodwin":1,"NVIDIA":58,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":81,"内存带宽":1,"ASIC":2}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[Kiriti Badam]] · [[Molly Graham]] · [[Aishwarya Reganti]] · [[送出你的乐高]] · [[非确定性]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":419,"OpenAI":167,"Google":60,"Kiriti Badam":1,"Molly Graham":1,"Aishwarya Reganti":1,"送出你的乐高":1,"非确定性":2,"AI":28}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":424,"OpenAI":171,"Google":62,"Kiriti Badam":1,"Molly Graham":1,"Aishwarya Reganti":1,"送出你的乐高":1,"非确定性":2,"AI":29}</script>
 
 <script>
 (function(){

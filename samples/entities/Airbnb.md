@@ -53,7 +53,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Uber]] · [[Ramp]] · [[Anthropic]] · [[Revolut]] · [[创始人模式]] · [[Facebook]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":419,"OpenAI":167,"Uber":16,"Ramp":10,"Anthropic":179,"Revolut":5,"创始人模式":3,"Facebook":16,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":424,"OpenAI":171,"Uber":16,"Ramp":10,"Anthropic":182,"Revolut":5,"创始人模式":3,"Facebook":16,"Stripe":48}</script>
 
 <script>
 (function(){

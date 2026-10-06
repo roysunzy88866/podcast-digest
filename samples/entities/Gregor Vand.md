@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gregor Vand</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gregor Vand">GR</div><div class="pi"><h1 class="pt">Gregor Vand</h1><div class="byl">Software Engineering Daily 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gregor Vand">GR</div><div class="pi"><h1 class="pt">Gregor Vand</h1><div class="byl">Software Engineering Daily 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]] — 作为联合主持
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Hamad Bashir]] · [[Chroma]] · [[ChromaDB]] · [[Context 1]] · [[上下文腐烂]] · [[智能体搜索]] · [[向量搜索]] · [[上下文工程]] · [[小模型]] · [[BYOC]]
+[[Hamad Bashir]] · [[Alon Schindel]] · [[Chroma]] · [[Wiz]] · [[ChromaDB]] · [[Google]] · [[Context 1]] · [[智能体]] · [[上下文腐烂]] · [[harness]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Chroma":1,"ChromaDB":1,"Context 1":1,"上下文腐烂":4,"智能体搜索":4,"向量搜索":5,"上下文工程":16,"小模型":1,"BYOC":1}</script>
+<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Alon Schindel":1,"Chroma":1,"Wiz":2,"ChromaDB":1,"Google":62,"Context 1":1,"智能体":424,"上下文腐烂":4,"harness":58}</script>
 
 <script>
 (function(){

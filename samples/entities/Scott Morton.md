@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":20,"LLVM":1,"Python":5,"vibe coding":45,"CI-CD":16,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":45,"CI-CD":16,"Palantir":20}</script>
 
 <script>
 (function(){

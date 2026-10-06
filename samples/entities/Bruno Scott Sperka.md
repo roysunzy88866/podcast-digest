@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":29,"Terraform":1,"Hashicorp":1,"Kubernetes":16,"开源":36,"智能体":419,"PR":6,"AI":28,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":30,"Terraform":1,"Hashicorp":1,"Kubernetes":16,"开源":37,"智能体":424,"PR":6,"AI":29,"工匠精神":1}</script>
 
 <script>
 (function(){

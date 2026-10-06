@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":22,"token":31,"GPU":22,"推理":80,"商业地产":1,"前沿模型":25,"harness":56,"预训练":8,"后训练":1,"AGI":27}</script>
+<script type="application/json" class="pd-epn">{"数据中心":22,"token":31,"GPU":24,"推理":81,"商业地产":1,"前沿模型":26,"harness":58,"预训练":8,"后训练":1,"AGI":27}</script>
 
 <script>
 (function(){

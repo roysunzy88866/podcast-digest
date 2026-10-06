@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"客户流失率":2,"定价":1,"NRR":3,"渠道饱和":1,"入职引导":2,"定位":2,"大象曲线":1,"SaaS":21,"营销漏斗":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"客户流失率":3,"定价":1,"NRR":4,"渠道饱和":1,"入职引导":2,"定位":2,"大象曲线":1,"SaaS":21,"营销漏斗":1}</script>
 
 <script>
 (function(){

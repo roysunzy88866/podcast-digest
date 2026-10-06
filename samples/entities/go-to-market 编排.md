@@ -25,7 +25,7 @@ unlisted: true
 
 [[Arman Vaziri]] · [[Ramp]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[Snowflake]] · [[Postgres]]
 
-<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":419,"持久化执行":4,"CDP":1,"MCP":78,"护栏":78,"Temporal":4,"Snowflake":19,"Postgres":4}</script>
+<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":424,"持久化执行":4,"CDP":1,"MCP":79,"护栏":79,"Temporal":4,"Snowflake":19,"Postgres":4}</script>
 
 <script>
 (function(){

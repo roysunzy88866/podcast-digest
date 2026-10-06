@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":167,"Anthropic":179,"Amazon":29,"Shopify":17,"Databricks":21,"Snowflake":19,"Salesforce":34,"Workday":5,"智能体":419}</script>
+<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":171,"Anthropic":182,"Amazon":29,"Shopify":17,"Databricks":21,"Snowflake":19,"Salesforce":34,"Workday":5,"智能体":424}</script>
 
 <script>
 (function(){

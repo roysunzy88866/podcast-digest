@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Notion":16,"GTM":1,"智能体":419,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":4,"Salesforce":34,"Gong":3,"Snowflake":19}</script>
+<script type="application/json" class="pd-epn">{"Notion":16,"GTM":1,"智能体":424,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":4,"Salesforce":34,"Gong":3,"Snowflake":19}</script>
 
 <script>
 (function(){

@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
+[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":56,"品味":15,"智能体":419,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":95,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":58,"品味":15,"智能体":424,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":96,"形容词引导设计":1}</script>
 
 <script>
 (function(){

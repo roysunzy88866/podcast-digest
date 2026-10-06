@@ -268,9 +268,9 @@ Hino 学到的最大企业销售经验：别把销售当说服（试图让客户
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|拥有你自己的智能:后训练什么时候才值得做]]<span class="pd-rz">同公司:OpenAI · 同概念:前沿模型 (frontier models)、后训练 (post-training)、套索 (harness)、开放模型 (open models)、推理 (inference)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:前沿模型 (frontier models)、后训练 (post-training)、套索 (harness)、智能体 (agent)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:Factory、Anthropic、OpenAI · 同概念:套索 (harness)、开放模型 (open models)、智能体 (agent)、token</span>
-- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、Microsoft、OpenAI、Meta、Stripe · 同概念:智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

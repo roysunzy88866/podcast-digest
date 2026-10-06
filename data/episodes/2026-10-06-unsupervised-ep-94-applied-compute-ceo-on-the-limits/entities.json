@@ -1,0 +1,1572 @@
+{
+  "episode_id": "2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits",
+  "podcast": "Unsupervised Learning",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 基础设施",
+    "后训练",
+    "强化学习",
+    "开源模型",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "yash",
+      "type": "person",
+      "role": "host",
+      "name": "Yash",
+      "file": "Yash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            33.862,
+            37.625
+          ],
+          "quote": "There's probably no better person to speak with about all these topics than Yash from Applied Compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            44.449,
+            51.233
+          ],
+          "quote": "Yash and I were able to talk about his perspective on a bunch of the top questions around open models today, including when it actually makes sense to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            58.974,
+            67.476
+          ],
+          "quote": "We also talked about when it makes sense to harness optimize versus actually go and post-train, as well as just get Yash's thoughts on a lot of the really interesting things happening in the ecosystem today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            72.837,
+            74.237
+          ],
+          "quote": "Without further ado, here's Yash.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "applied-compute",
+      "type": "company",
+      "role": "company",
+      "name": "Applied Compute",
+      "file": "Applied Compute",
+      "primary": true,
+      "how_described": "本集嘉宾 Yash 创办的公司,帮前沿企业做后训练和推理服务,只聚焦模型层、优化成熟产品背后的模型,愿景是成为一家新的 AI 超大规模厂商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            33.862,
+            37.625
+          ],
+          "quote": "There's probably no better person to speak with about all these topics than Yash from Applied Compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            37.865,
+            44.229
+          ],
+          "quote": "Applied Compute is working with a bunch of the most cutting-edge AI applications on really interesting post-training examples.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            560.219,
+            571.587
+          ],
+          "quote": "I'm curious how you think about, I don't know, five years from now, how many businesses that Applied Compute works with feel like, oh, are data still out of distribution from what the models do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            825.232,
+            829.734
+          ],
+          "quote": "How do you think about, as a CEO, the extent to which you should be, like, working on that problem within the applied compute context?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2692.194,
+            2697.476
+          ],
+          "quote": "That's how we've been thinking about a lot of things that we're building in Applied Compute.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            145.337,
+            150.502
+          ],
+          "quote": "Yeah, so, you know, I, as you know, my background is I actually worked at OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            277.261,
+            289.005
+          ],
+          "quote": "I mean, I think maybe one of the most interesting manifestations of this is, even yesterday, OpenAI announcing, like, this partnership with Base 10, right, where you can kind of use OpenAI credits, almost burn them down on open models through Base 10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            307.338,
+            313.203
+          ],
+          "quote": "I think on the OpenAI side, it's a clear sort of motion towards, hey, we want to be more of a platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            407.821,
+            410.062
+          ],
+          "quote": "Do you think the, like, OpenAI base 10 thing will work?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            420.166,
+            432.711
+          ],
+          "quote": "The tricky thing is, right, like, it makes a lot of sense for an Amazon, for example, to be a marketplace because you have Bedrock and you can run Anthropic models, you run OpenAI models, you can run open models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            434.619,
+            439.082
+          ],
+          "quote": "Is OpenAI going to take it to the extreme where you can run Anthropic models and Gemini models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2454.33,
+            2469.105
+          ],
+          "quote": "Yeah, and I'm sure, like, you know, the entire thesis of this seems to be, like, that type of work is going to be way higher quality than, like, whatever lawyers a data labeling company gets on and tries to, like, you know, create, I think, you know, probably distant memory at this point, but, like, OpenAI, Shutting Off, Cursor, or, like, do you expect that kind of stuff?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2871.74,
+            2875.142
+          ],
+          "quote": "And also when I was at OpenAI, the main thing I worked on was Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3166.316,
+            3180.386
+          ],
+          "quote": "Actually, when I was at OpenAI, we worked with Mercor, and I think they obviously still do, but we worked with them very closely for some of these first agent products like DeepResearch and Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3389.983,
+            3396.929
+          ],
+          "quote": "I mean, like there's even from OpenAI days, there's like all these interesting ways that these models are really clever.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "base-10",
+      "type": "company",
+      "role": "company",
+      "name": "Base 10",
+      "file": "Base 10",
+      "primary": true,
+      "how_described": "本集说它与 OpenAI 合作,让用户可以用 OpenAI 额度去用开放模型,被视为对开源模型的一场大胜利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            277.261,
+            289.005
+          ],
+          "quote": "I mean, I think maybe one of the most interesting manifestations of this is, even yesterday, OpenAI announcing, like, this partnership with Base 10, right, where you can kind of use OpenAI credits, almost burn them down on open models through Base 10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            289.185,
+            293.667
+          ],
+          "quote": "So I think, first of all, we're big admirers of the Base 10 team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            407.821,
+            410.062
+          ],
+          "quote": "Do you think the, like, OpenAI base 10 thing will work?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集以这家法科技公司的定制模型为案例,讲 Applied Compute 如何与团队收集专家评分标准、补合成数据、用基于评分标准的 RL 做训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            2359.458,
+            2368.626
+          ],
+          "quote": "So take, for example, we did this Harvey Review Table custom model that we trained.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2374.27,
+            2388.443
+          ],
+          "quote": "Worked with the Harvey team, were able to collect a bunch of expert rubrics and answers, also supplemented those with synthetic data, and gave the model access to some tools.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到它作为编程领域模型被供应商切断的真实案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 480,
+          "t": [
+            2454.33,
+            2469.105
+          ],
+          "quote": "Yeah, and I'm sure, like, you know, the entire thesis of this seems to be, like, that type of work is going to be way higher quality than, like, whatever lawyers a data labeling company gets on and tries to, like, you know, create, I think, you know, probably distant memory at this point, but, like, OpenAI, Shutting Off, Cursor, or, like, do you expect that kind of stuff?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "company",
+      "role": "company",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": false,
+      "how_described": "本集提到它同样被切断过 API,用来说明供应商风险是真实的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 481,
+          "t": [
+            2469.125,
+            2469.946
+          ],
+          "quote": "And Windsurf before, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2471.067,
+            2472.168
+          ],
+          "quote": "Anthropic with Windsurf, yeah.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集主线:在现成开源模型之上用自有数据继续训练;数据越偏离训练分布越可能带来能力提升,多数人做它是为优化性价比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            37.865,
+            44.229
+          ],
+          "quote": "Applied Compute is working with a bunch of the most cutting-edge AI applications on really interesting post-training examples.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            439.983,
+            446.588
+          ],
+          "quote": "You mentioned kind of this pushing out of the Pareto frontier that post-training enables, and it seems like there's been a ton of really interesting examples of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            463.06,
+            468.363
+          ],
+          "quote": "You know, initial post-training uses I heard about were like, you know, cost and speed feel like tremendously valuable things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            510.971,
+            520.434
+          ],
+          "quote": "Our general take has been like the more out of distribution your data is, the more likely that post training is actually going to give you that capabilities lift.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            534.541,
+            542.867
+          ],
+          "quote": "Your data has to actually be quite differentiated, but most people are actually post-training to basically optimize price performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1294.585,
+            1300.389
+          ],
+          "quote": "But I wonder like, you know, if a frontier lab is post-training on a bunch of like really good, you know, general finance data,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1642.595,
+            1652.503
+          ],
+          "quote": "So we basically see post-training and actually training these custom models as the differentiation and the...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1764.425,
+            1771.954
+          ],
+          "quote": "And so what our view is is that the most post-training actually wins inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2170.429,
+            2174.312
+          ],
+          "quote": "Hey, post-training is a massively underlooked part of the stack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集把它说成一台爬山机器,最难的是定义要爬的那座山;并区分了离线 RL 与用生产推理流量改进模型的在线 RL。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.072,
+            5.333
+          ],
+          "quote": "What we have with RL is we essentially have a hill climbing machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            581.473,
+            584.515
+          ],
+          "quote": "So we're in this paradigm of offline RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            594.443,
+            595.943
+          ],
+          "quote": "RL is reinforcement learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            597.604,
+            603.945
+          ],
+          "quote": "I think a lot of the online RL methodologies are actually using production inference to go and improve your models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            668.145,
+            679.151
+          ],
+          "quote": "Maybe we're putting it in the context of offline RL where there has to be this highly verifiable signal from some math problem or some rubric-based RL problem or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            781.869,
+            790.057
+          ],
+          "quote": "Then there's RL with verifiable rewards where you actually trade data quantity for quality with these replayable environments and some sort of verifier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            795.667,
+            812.68
+          ],
+          "quote": "The answer to your question is there will be more data-efficient methods of training, and that's what a lot of these newer methodologies in online RL or on-policy self-distillation or some of these type of techniques or SAO, these types of things that people are pushing on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            857.108,
+            863.05
+          ],
+          "quote": "RL and these online methodologies are the best things right now, but these will continue to evolve and get better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1021.816,
+            1028.499
+          ],
+          "quote": "And that's a lot of the stuff that we're going and building is how do we actually decrease the cost to go and RL a model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1028.739,
+            1038.564
+          ],
+          "quote": "How can we actually do this automatically and online without you having to go and build hand-tuned RL environments that are fully replayable and things like that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1091.721,
+            1096.304
+          ],
+          "quote": "Goldilocks algorithm over RL, you can actually push the models to like a lot better performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1105.951,
+            1108.833
+          ],
+          "quote": "Yeah, the hardest problems to solve with RL and infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1459.148,
+            1464.871
+          ],
+          "quote": "But as you, you know, I think a lot of folks are trying to figure out how well does RL work in like these non-verifiable domains?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1467.493,
+            1478.856
+          ],
+          "quote": "Yeah, so what I would say is like, you know, RL started, or like the way these projects started and the internal models that were being trained were on highly verifiable domains like math and coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1497.878,
+            1502.862
+          ],
+          "quote": "So like rubric-based RL and this sort of stuff actually works quite well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1530.066,
+            1535.311
+          ],
+          "quote": "No, I think it's actually what we have with RL is we essentially have a hill climbing machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2302.639,
+            2309.863
+          ],
+          "quote": "And I guess in terms of like the building the RL environments today, maybe like I'm sure our listeners would love to hear like what is actually – you can even just take an illustrative example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2321.852,
+            2324.514
+          ],
+          "quote": "Like I said before, RL is just like hill climbing machine, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2346.848,
+            2349.57
+          ],
+          "quote": "Those are kind of the three main things when you're going to do RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2394.189,
+            2397.933
+          ],
+          "quote": "Graded it against the expert answers with, you know, rubric-based RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2503.784,
+            2505.026
+          ],
+          "quote": "Is RL going to generalize?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3085.513,
+            3093.539
+          ],
+          "quote": "In fact, actually, a lot of RL environment companies end up using the models to go and create data that actually feeds back into the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3133.724,
+            3142.432
+          ],
+          "quote": "It's just that the particular RL and data creation company is going to move around a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3147.737,
+            3152.262
+          ],
+          "quote": "Among the RL environment companies today, what makes an RL environment company better than another?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3369.732,
+            3378.215
+          ],
+          "quote": "One thing I thought would be interesting is just like, because you're doing RL all day, a lot of things like models do some crazy reward hacking sometimes when you set these things up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3430.223,
+            3444.312
+          ],
+          "quote": "I think that's honestly why there's so much interest from cyber companies in training RL models and things like that because it's almost the perfect problem to go and just apply optimization pressure to because these models are really great coding priors.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集强调评估是公司的护城河:公开基准一定会被跑分,而专属于你业务的评估标准不外传,本身就是竞争优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.473,
+            18.859
+          ],
+          "quote": "The hardest part is actually defining the hill to climb, which is why evals I think is like a really important thing for companies to A, focus on building and B, actually like safeguard pretty carefully.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1537.296,
+            1553.35
+          ],
+          "quote": "The hardest part is actually defining the hill to climb, which is why evals, I think, is a really important thing for companies to, A, focus on building, and B, actually safeguard pretty carefully.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1575.57,
+            1582.596
+          ],
+          "quote": "So that's why I think like, yeah, like it is really important to actually keep your evals and your employees and all that sort of stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1598.529,
+            1600.83
+          ],
+          "quote": "And so going to the labs and telling them your evals is helpful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3230.995,
+            3245.34
+          ],
+          "quote": "It feels like a lot of this, like, you know, the power companies specific models will be determined by this delta between the, like, ex-bankers that Mercor can recruit and, like, figure out what the tasks are versus, like, the, you know, bankers within JP Morgan and, like, the stuff, the tasks they have and, like, the evals they create.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理是大部分价值捕获发生的地方、将是世界最大的市场之一;训练方式直接影响推理部署怎么搭,两者是一枚硬币的两面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            219.79,
+            223.675
+          ],
+          "quote": "You need to have the infrastructure to post train them, to inference them, to route between them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            447.609,
+            455.935
+          ],
+          "quote": "It feels like, most notably, a lot of application builders have realized, wow, when I do similar workloads at massive scale, that inference bill really runs up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            597.604,
+            603.945
+          ],
+          "quote": "I think a lot of the online RL methodologies are actually using production inference to go and improve your models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            844.862,
+            852.766
+          ],
+          "quote": "You know, large inference deployments where people are serving tens of thousands, hundreds of thousands of users, and then use that production data to go and improve the models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1659.531,
+            1662.813
+          ],
+          "quote": "But really, inference is actually where most of the value capture happens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1693.687,
+            1696.969
+          ],
+          "quote": "The other is if the inference workload is really big, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1713.859,
+            1717.9
+          ],
+          "quote": "So we actually look for large inference workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1726.783,
+            1728.325
+          ],
+          "quote": "You kind of mentioned the inference side of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1728.445,
+            1734.172
+          ],
+          "quote": "Obviously, it feels like the temptation for like any infrastructure company these days is like, you know, having an inference business is pretty nice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1739.218,
+            1740.64
+          ],
+          "quote": "Like a really good inference engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1747.177,
+            1752.219
+          ],
+          "quote": "So first of all, we think inference is going to be like one of the biggest markets in the world, if not the biggest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1764.425,
+            1771.954
+          ],
+          "quote": "And so what our view is is that the most post-training actually wins inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1812.258,
+            1819.081
+          ],
+          "quote": "And the interesting thing you can do is you can both co-optimize your inference and your training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1819.241,
+            1825.723
+          ],
+          "quote": "So, you know, basically the way we train models actually influences how we go and set up inference deployments for customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1835.728,
+            1840.772
+          ],
+          "quote": "Like how would you, you know, if the model, you know, if it was designed that way, how does that influence the inference choices you make?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1843.054,
+            1854.785
+          ],
+          "quote": "So basically like if we are doing like a long horizon tool using agent, the way we sort of like set up the inference deployment or the inference engine is different than if we were doing like a...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1866.049,
+            1873.912
+          ],
+          "quote": "And so having influence on how the models are trained actually can influence how we want to go and set up the inference deployments for very large-scale workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1875.092,
+            1882.476
+          ],
+          "quote": "I'm really curious to dig into this because I feel like there's been this question for a while of, like, how much does creating the model help you run better inference?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1885.557,
+            1891.3
+          ],
+          "quote": "Where the idea was, hey, we train these models so we're able to run, like, you know, inference way more effectively on them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1901.785,
+            1914.097
+          ],
+          "quote": "Yeah, so I think what's happened is basically the kernels that you use for training and inference, you obviously want matches between them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1923.987,
+            1926.209
+          ],
+          "quote": "And a lot of that work translates over to the inference side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1932.795,
+            1938.441
+          ],
+          "quote": "One thing I think is really often overlooked is you can do a bunch of inference optimization and things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1939.409,
+            1943.372
+          ],
+          "quote": "Say you want to cut your inference bill by 10%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1944.033,
+            1953.081
+          ],
+          "quote": "You could do a bunch of inference optimization costs by 10%, or I think these models are actually quite token inefficient for a lot of things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1974.093,
+            1982.417
+          ],
+          "quote": "You can actually influence both of them if you do it with us, which is why we're trying to be the centralized provider for both training and inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1987.759,
+            1988.48
+          ],
+          "quote": "The inference workloads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1988.5,
+            2004.435
+          ],
+          "quote": "And I think back to your original question about inference offerings and how easy they are to spin up, I think what we've seen is actually the main thing to have is capacity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2014.384,
+            2019.267
+          ],
+          "quote": "In fact, I think almost all of the inference clouds have like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2020.234,
+            2032.865
+          ],
+          "quote": "Sunset a lot of their custom inference engines in preference for taking one of these inference engines and doing the workload tuning and performance tuning and maybe having a couple custom kernels in there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2047.818,
+            2050.119
+          ],
+          "quote": "You kind of have a production inference offering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2052.92,
+            2063.065
+          ],
+          "quote": "I think there is a lot of optimization and hard work that goes into making these inference deployments a lot more efficient, faster token speeds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2075.156,
+            2082.738
+          ],
+          "quote": "Production quality model serving going, it's definitely the easier thing to do out of like training and inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2149.62,
+            2162.088
+          ],
+          "quote": "It turns out you can serve them with an inference engine, which is the first piece of software that has achieved real stickiness inside of the AI software stack on top, and you can serve these valuable intelligent tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2163.029,
+            2169.052
+          ],
+          "quote": "Our view is that there's a ton of stuff in that software layer, actually, besides just inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2180.296,
+            2180.876
+          ],
+          "quote": "That's inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2211.367,
+            2212.647
+          ],
+          "quote": "And then above that is inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2244.153,
+            2253.46
+          ],
+          "quote": "So the first step was going from training into inference, but we have a lot of exciting things on the roadmap and things that we want to go and build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2421.616,
+            2429.345
+          ],
+          "quote": "We really come in with the infrastructure and the training team and the inference, you know, production serving and stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2729.972,
+            2744.078
+          ],
+          "quote": "Jev is, like, much—I would say it's, like, much less of a replacement for stuff rather than an enabler for things that we weren't able to do on both training and on, like, inference for, say, for observability or something like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集认为「拥有自己的智能」叙事兴起正是因为开源模型变好、真的能用;每家公司都该投资开源模型基础设施和多模型未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            44.449,
+            51.233
+          ],
+          "quote": "Yash and I were able to talk about his perspective on a bunch of the top questions around open models today, including when it actually makes sense to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            190.172,
+            195.795
+          ],
+          "quote": "I think it really popped up when the open models started getting good and you could actually go and do things with them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            277.261,
+            289.005
+          ],
+          "quote": "I mean, I think maybe one of the most interesting manifestations of this is, even yesterday, OpenAI announcing, like, this partnership with Base 10, right, where you can kind of use OpenAI credits, almost burn them down on open models through Base 10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            368.831,
+            377.497
+          ],
+          "quote": "I think open models take that to an even more extreme where it's like, hey, you can slide along the Pareto curve by picking different open models of different sizes from different families.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            420.166,
+            432.711
+          ],
+          "quote": "The tricky thing is, right, like, it makes a lot of sense for an Amazon, for example, to be a marketplace because you have Bedrock and you can run Anthropic models, you run OpenAI models, you can run open models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1787.792,
+            1793.859
+          ],
+          "quote": "Then they'll think about open models and how to sort of cost-optimize, basically push the Pareto curve out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说前沿模型在基础能力上领先开源模型,但分布外数据上的后训练可以反超;同时供应商风险使其不宜极端依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            476.689,
+            485.134
+          ],
+          "quote": "How do you think about like the current state of being able to post-train to beat Frontier models, like the best mega models at like, you know, capabilities?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            486.775,
+            503.667
+          ],
+          "quote": "The interesting thing that we're seeing is, you know, there's obviously frontier models that are ahead of the open source models on base capabilities, but the fact that you're able to post-train the open weight models means if you have differentiated data, something proprietary to you,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1779.583,
+            1780.324
+          ],
+          "quote": "Frontier models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2637.823,
+            2648.212
+          ],
+          "quote": "Frontier models are amazing, but I didn't expect how much people would care about really cost-optimizing and using the right model for the right task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2648.952,
+            2654.095
+          ],
+          "quote": "Which is interesting because obviously for some of these tasks, like, people were using Frontier models because you got a lot of value.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "out-of-distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布外数据 (out of distribution)",
+      "file": "分布外数据",
+      "primary": true,
+      "how_described": "本集的核心判据:数据越在模型训练分布之外,后训练越可能带来真实能力提升;企业真正的分布外数据是内部产生的判断轨迹。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            504.508,
+            506.149
+          ],
+          "quote": "That's out of distribution of the models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            510.971,
+            520.434
+          ],
+          "quote": "Our general take has been like the more out of distribution your data is, the more likely that post training is actually going to give you that capabilities lift.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            543.027,
+            549.292
+          ],
+          "quote": "On the capability side, I think it's an interesting question of what data remains out of distribution over what period of time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            560.219,
+            571.587
+          ],
+          "quote": "I'm curious how you think about, I don't know, five years from now, how many businesses that Applied Compute works with feel like, oh, are data still out of distribution from what the models do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            615.607,
+            620.648
+          ],
+          "quote": "But generally, the proprietary data that will be out of distribution",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            631.534,
+            632.775
+          ],
+          "quote": "Yeah, that's going to be out of distribution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            633.055,
+            635.477
+          ],
+          "quote": "Extremely out of distribution, right, because they're making that data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            662.26,
+            665.082
+          ],
+          "quote": "The way we think about out-of-distribution data is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1718.18,
+            1726.383
+          ],
+          "quote": "These are typically the best customers for us or very out of distribution data where people are wanting to train on things that are kind of only unique to them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集建议先榨干 harness(围绕模型搭的工具链和调用环境)再做模型优化,八成找上门的问题靠一个好 harness 就能解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.974,
+            67.476
+          ],
+          "quote": "We also talked about when it makes sense to harness optimize versus actually go and post-train, as well as just get Yash's thoughts on a lot of the really interesting things happening in the ecosystem today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1046.648,
+            1051.11
+          ],
+          "quote": "You're still better off going and doing a bunch of context optimization and harness optimization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1051.47,
+            1067.596
+          ],
+          "quote": "But once you reach a point where you've sort of squeezed a lot out of the harness that you've built and the tools that you've made, you actually can still continue to squeeze a lot out of optimizing the policy to use those tools better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1230.978,
+            1234.9
+          ],
+          "quote": "So people are starting there with like harness optimization and context optimization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1270.748,
+            1276.032
+          ],
+          "quote": "Both on the harness and context engineering that they do, but also the models that they put behind those products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1452.784,
+            1458.808
+          ],
+          "quote": "I mean, obviously you've talked about, you know, you should try a lot of the harness optimization stuff first and, you know, a lot of other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2213.907,
+            2216.268
+          ],
+          "quote": "Above that is context and harness and all that sort of stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2253.48,
+            2263.266
+          ],
+          "quote": "What's so interesting is that I imagine when 80% of your pipeline approaches you, you're like, this could probably be solved by a good harness and some data work or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2263.306,
+            2268.39
+          ],
+          "quote": "And so what do you end up doing on the harness optimization side?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2286.395,
+            2293.257
+          ],
+          "quote": "And so our current operating model has actually been, we're not focused on the harness layer or the context layer, we're focused on the model layer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 利用率其实很低、算力处于供应紧缺,真正难的是容量——你得真的有 GPU,规模上去后省下的 1% 会累积成真金白银。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2174.572,
+            2177.654
+          ],
+          "quote": "How do I take GPU compute and turn that into more intelligent tokens?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2228.173,
+            2234.115
+          ],
+          "quote": "You need a GPU fleet that you actually own and operate and all this sort of stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (AI coding)",
+      "file": "AI 编程",
+      "primary": false,
+      "how_described": "本集说把思考委托给编程智能体会得到解释不了的垃圾代码库,应用 AI 执行已想好的设计、重点修炼系统设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 556,
+          "t": [
+            2866.135,
+            2868.557
+          ],
+          "quote": "So to be clear, I'm not against AI coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2869.158,
+            2870.739
+          ],
+          "quote": "I'd imagine you use a fair amount of AI coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2879.126,
+            2881.508
+          ],
+          "quote": "So I'm very excited about AI coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2937.12,
+            2939.162
+          ],
+          "quote": "I'm a big fan of AI coding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集提到可用合成数据生成技术补充训练数据,如把文档反向翻译成问答对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1162.763,
+            1172.165
+          ],
+          "quote": "In terms of like the data available and things like that, you know, there's synthetic data generation techniques to be like, hey, like, can we go and take",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2374.27,
+            2388.443
+          ],
+          "quote": "Worked with the Harvey team, were able to collect a bunch of expert rubrics and answers, also supplemented those with synthetic data, and gave the model access to some tools.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "company",
+      "role": "company",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": false,
+      "how_described": "本集说它是很好的开源推理引擎起点,放一个 vLLM 到 GPU 上挂到 Open Router 差不多就是生产级推理产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            2009.4,
+            2014.223
+          ],
+          "quote": "And the open source projects like VLLM and SGLang are great starting points.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sglang",
+      "type": "company",
+      "role": "company",
+      "name": "SGLang",
+      "file": "SGLang",
+      "primary": false,
+      "how_described": "本集把它与 vLLM 并列为很好的开源推理引擎起点,几乎所有推理云都已改用这类开源引擎做调优。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            2009.4,
+            2014.223
+          ],
+          "quote": "And the open source projects like VLLM and SGLang are great starting points.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

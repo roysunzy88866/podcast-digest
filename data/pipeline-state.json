@@ -214,10 +214,12 @@
     "TRe1u7dHYiA": "2026-10-03-talks-what-makes-open-models-fast-in-productio",
     "bRGyYaE0lxI": "2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr",
     "oUZEt4EiPbk": "2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber",
-    "33Oct2hqGnk": "2026-10-04-talks-agents-that-write-their-own-tools-at-run"
+    "33Oct2hqGnk": "2026-10-04-talks-agents-that-write-their-own-tools-at-run",
+    "Bdrs3uAX0_M": "2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba"
   },
   "blocked": {
-    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
+    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
+    "2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope": 1
   },
   "audioWanted": {
     "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
@@ -232,8 +234,6 @@
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
-    "2026-10-06-a16z-building-defense-for-the-agentic-era-kev": 1,
-    "2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
@@ -299,15 +299,16 @@
     "2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than": "2026-10-06",
     "2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then": "2026-10-06",
     "2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on": "2026-10-06",
-    "2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy": "2026-10-06"
+    "2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy": "2026-10-06",
+    "2026-09-04-yc-the-worlds-largest-electric-aircraft-jus": "2026-10-07"
   },
   "cutoffs": {
     "lennys": "2026-10-05T12:04:54.000Z",
     "pg": "2026-10-05T22:35:16.000Z",
-    "a16z": "2026-10-05T10:00:00.000Z",
+    "a16z": "2026-10-06T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-01T11:30:00.000Z",
-    "trainingdata": "2026-09-15T09:00:00.000Z",
+    "trainingdata": "2026-10-06T09:00:00.000Z",
     "bigtech": "2026-10-05T19:21:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-10-02T10:00:00.000Z",
@@ -319,28 +320,28 @@
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-05T07:07:00.000Z",
     "cogrev": "2026-10-03T13:00:00.000Z",
-    "knowledge": "2026-09-29T10:00:00.000Z",
+    "knowledge": "2026-10-06T10:00:00.000Z",
     "pragmatic": "2026-09-30T16:30:05.000Z",
     "practicalai": "2026-10-01T09:00:00.000Z",
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-09-30T14:48:23.000Z",
-    "unsupervised": "2026-09-03T13:03:11.000Z",
+    "unsupervised": "2026-10-06T12:50:23.000Z",
     "twiml": "2026-09-29T21:56:00.000Z",
-    "eyeonai": "2026-10-02T15:21:00.000Z",
+    "eyeonai": "2026-10-06T14:28:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-10-05T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
-    "ainativedev": "2026-09-29T12:00:00.000Z",
+    "ainativedev": "2026-10-06T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
     "sourcery": "2026-10-05T10:30:00.000Z",
-    "iltb": "2026-09-28T12:05:00.000Z",
+    "iltb": "2026-10-06T08:00:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
-    "sed": "2026-10-01T09:00:00.000Z",
+    "sed": "2026-10-06T09:00:00.000Z",
     "twist": "2026-10-05T22:27:00.000Z",
     "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-01T09:00:00.000Z",
@@ -1091,6 +1092,18 @@
       "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo",
       "pubDate": "2026-08-26T11:02:32.000Z"
+    },
+    {
+      "id": "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com",
+      "reason": "题材不对味:非 AI/科技的泛话题:Charlie Munger 投资访谈,与 AI/科技创业均不沾边(属 ❌ 类①)",
+      "title": "Charlie Munger's Interview with Todd Combs",
+      "pubDate": "2026-10-06T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Legora CTO: Why AI Agents Need More Than a Chat Window",
+      "pubDate": "2026-10-06T12:00:00.000Z"
     }
   ]
 }

@@ -1,0 +1,378 @@
+{
+  "episode_id": "2026-09-04-yc-the-worlds-largest-electric-aircraft-jus",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-09-04",
+  "tags": [
+    "电动航空",
+    "混合动力",
+    "硬件创业",
+    "航空航天",
+    "自制制造"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "anders-forslund",
+      "type": "person",
+      "role": "host",
+      "name": "Anders Forslund",
+      "file": "Anders Forslund",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            35.848,
+            37.088
+          ],
+          "quote": "This is Anders Forslund.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hart-aerospace",
+      "type": "company",
+      "role": "company",
+      "name": "Hart Aerospace",
+      "file": "Hart Aerospace",
+      "primary": true,
+      "how_described": "本集主角:洛杉矶一个 40 人团队,造混合动力电动飞机以降低航空旅行成本,刚完成世界最大电动飞机的首飞(翼展 100 英尺、25,000 磅)。(转写稿中亦写作 Hart Airspace,为同一家公司)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            61.088,
+            63.93
+          ],
+          "quote": "I visited Hart Aerospace's headquarters in LA to find out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            87.307,
+            89.748
+          ],
+          "quote": "How would you describe Hart Aerospace in two sentences?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "electric-motor",
+      "type": "concept",
+      "role": "concept",
+      "name": "电动马达 (electric motor)",
+      "file": "电动马达",
+      "primary": true,
+      "how_described": "本集把它说成:Hart 飞机的核心,只有一个运动部件、没有燃烧和流体,磨损基本为零、可便宜得多地生产,滑行时以十分之一转速运转几乎静音",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            133.525,
+            138.748
+          ],
+          "quote": "An electric motor has essentially only one moving part, no combustion, and doesn't really wear out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            378.741,
+            384.606
+          ],
+          "quote": "We just brought them over, showed them the electric motor we built that was the size of the jet engines we tried to replace.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jet-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "喷气发动机 (jet engine)",
+      "file": "喷气发动机",
+      "primary": true,
+      "how_described": "本集把它说成:有数千个部件、烧着足以熔化金属的燃油;为 30 座和 70 座飞机制造成本相同、磨损与航程无关,把行业推向大飞机长航线,把短途区域飞行服务得很糟糕",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            101.071,
+            103.992
+          ],
+          "quote": "Hart's plane swapped the jet engine for electric motors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            128.881,
+            132.844
+          ],
+          "quote": "A jet engine has thousands of parts and birds' fuel hot enough to melt metal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            139.109,
+            143.351
+          ],
+          "quote": "When you're taxiing with a jet engine, the rest of it is, by definition, is noise.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            166.004,
+            172.186
+          ],
+          "quote": "To understand why this is such a big deal, let's look at what's broken about the jet engine, especially when it comes to short flights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            172.626,
+            177.367
+          ],
+          "quote": "It's as complex to build a jet engine for a 30-seater as it is for a 70-seater, so it costs the same.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            334.728,
+            348.242
+          ],
+          "quote": "Like the 400 kilowatt motor, which was like the size of a small jet engine, that in turn attracted actual, you know, pre-orders and then they came from United and then that attracted more capital and then we started building and now we're building towards the plane.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hybrid",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合动力 (hybrid)",
+      "file": "混合动力",
+      "primary": true,
+      "how_described": "本集把它说成:纯电池飞机要把三分之二电池留给备降储备这一法规难题的答案——加一个约 20% 前期成本的备用涡桨发动机,把航程从纯电动 125 英里扩展到 500 英里,且已处于显著的负绿色溢价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.172,
+            20.183
+          ],
+          "quote": "Its successor, the ES-30, will fly up to 125 miles on battery alone, up to 500 miles as a hybrid, and recharge in about 30 minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            89.788,
+            95.49
+          ],
+          "quote": "We build hybrid electric aircraft, but our mission is to reduce the cost of air travel, and we're building the technology to support that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            599.106,
+            600.988
+          ],
+          "quote": "Their answer is a hybrid engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            615.888,
+            623.432
+          ],
+          "quote": "You can fly up to 125 miles all electrically, and then you fly up to 500 miles with a hybrid system operational range.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            685.43,
+            692.932
+          ],
+          "quote": "The great thing about using hybrid electric is that it's already now at a significant negative green premium.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集把它说成:Anders 借鉴其风险哲学的对象——传统航空航天压低出事概率,而 SpaceX 的思路是把做错的影响降到最低,从而选择更便宜、更易迭代的流程;洛杉矶新航天生态也源自它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            623.672,
+            628.856
+          ],
+          "quote": "That call comes out of the philosophy that Anders borrowed from SpaceX, about how you should treat risk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            715.076,
+            719.537
+          ],
+          "quote": "Somebody doing what SpaceX did with rockets on airplanes just makes sense.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            765.292,
+            768.673
+          ],
+          "quote": "You have the new space ecosystem that's kind of coming from SpaceX.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "type": "concept",
+      "role": "concept",
+      "name": "电池 (battery)",
+      "file": "电池",
+      "primary": true,
+      "how_described": "本集把它说成:飞机的动力来源是八个电池组(约四辆特斯拉的电池量);电池实验室里比较中美韩厂商电芯,桌上最高约 370 瓦时/公斤,几个月内将有 400 水平的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.172,
+            20.183
+          ],
+          "quote": "Its successor, the ES-30, will fly up to 125 miles on battery alone, up to 500 miles as a hybrid, and recharge in about 30 minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            152.277,
+            156.18
+          ],
+          "quote": "And the power source is eight battery packs laid across the floor of the plane.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            515.875,
+            520.797
+          ],
+          "quote": "And the heart of the operation is the battery lab, where the team is choosing to sell for the next aircraft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            522.059,
+            526.461
+          ],
+          "quote": "This is the battery cell lab where we are trying to determine what our cell is going to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            572.187,
+            575.331
+          ],
+          "quote": "The hardest problem had nothing to do with the motor or the battery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            590.299,
+            596.644
+          ],
+          "quote": "So if you build a battery electric aircraft, you kind of have to carry two-thirds of your battery needs to be for reserves.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "united",
+      "type": "company",
+      "role": "company",
+      "name": "United",
+      "file": "United",
+      "primary": false,
+      "how_described": "本集把它说成:从垃圾邮件文件夹里捞出来的大客户——发到 info 邮箱的主动来信被 Clara 识别,看了 400 千瓦电机后基本立刻下了预订单",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            334.728,
+            348.242
+          ],
+          "quote": "Like the 400 kilowatt motor, which was like the size of a small jet engine, that in turn attracted actual, you know, pre-orders and then they came from United and then that attracted more capital and then we started building and now we're building towards the plane.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            366.21,
+            370.814
+          ],
+          "quote": "United Airlines came through an inbound email through our info email.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "boeing-and-airbus",
+      "type": "company",
+      "role": "company",
+      "name": "Boeing and Airbus",
+      "file": "Boeing and Airbus",
+      "primary": false,
+      "how_described": "本集把它说成:Hart 以小团队在挑战这两家巨头都未能做到的事(造出全新设计客机);737 和 A320 那样的窄体机是更大的后续市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            95.89,
+            100.371
+          ],
+          "quote": "With a relatively small team, they're going after something that Boeing and Airbus have not been able to pull off.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

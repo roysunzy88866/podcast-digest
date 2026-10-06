@@ -142,9 +142,9 @@ Klein 承认布鲁塞尔的监管者"全都是好意图",但批评他们倾向�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|「协调税」：AI 每解决一小时的问题，要付三小时的协调成本]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM、开源模型 (open source)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、OpenAI、Salesforce · 同概念:开源模型 (open source)、智能体 (agent)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:前沿模型 (frontier models)、智能体 (agent)、vibe coding</span>
-- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

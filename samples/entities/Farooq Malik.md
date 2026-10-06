@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":419,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":424,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

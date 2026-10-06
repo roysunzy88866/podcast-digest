@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec",
+  "audio_mp3": "https://traffic.megaphone.fm/CLS1239827470.mp3",
+  "duration_sec": 4205.821,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 982,
+  "asr": true,
+  "title_en": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
+  "podcast": "Invest Like the Best",
+  "date": "2026-10-06",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/641962f4-bdcf-11f1-899d-0759b6038cac/image/3bb5360f936fff82e741ce59efaea134.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-07",
+  "added_at": "2026-10-06T19:05:24.492Z",
+  "speaker_map": {
+    "SPEAKER_01": "Andrew Huberman"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Andrew Huberman",
+  "cohosts": [],
+  "title_zh": "神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司",
+  "guest_name": "Andrew Huberman",
+  "guest_title": "斯坦福前终身教授、神经科学家",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/641962f4-bdcf-11f1-899d-0759b6038cac/image/3bb5360f936fff82e741ce59efaea134.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-06T20:27:09.215Z"
+  }
+}

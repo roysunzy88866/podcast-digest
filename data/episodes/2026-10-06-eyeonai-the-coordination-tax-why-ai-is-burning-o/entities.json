@@ -1,0 +1,836 @@
+{
+  "episode_id": "2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o",
+  "podcast": "Eye On A.I.",
+  "date": "2026-10-06",
+  "tags": [
+    "客户服务",
+    "智能体",
+    "AI 落地与衡量",
+    "客户成功",
+    "模型选型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dan-o-connell",
+      "type": "person",
+      "role": "host",
+      "name": "Dan O'Connell",
+      "file": "Dan O'Connell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.01,
+            42.752
+          ],
+          "quote": "So I'm Dan O'Connell, CEO of Front.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "craig",
+      "type": "person",
+      "role": "cohost",
+      "name": "Craig",
+      "file": "Craig",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            43.132,
+            44.073
+          ],
+          "quote": "Thrilled to be here, Craig.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1327.3,
+            1337.123
+          ],
+          "quote": "It is how do you, what is, if you and I are in the same business and we're on the same platform we're writing in, we would want to know what does Dan say and what does Craig say?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2421.577,
+            2430.424
+          ],
+          "quote": "If we think about in the future, it is likely that an agent is doing some work and there's an agent that's sitting next to you helping you, Craig, do work faster and better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "front",
+      "type": "company",
+      "role": "company",
+      "name": "Front",
+      "file": "Front",
+      "primary": true,
+      "how_described": "本集把它说成：一个客户运营平台，把所有渠道的客户对话汇进同一个收件箱式工作区，让人类和智能体协作解决客户问题；一亿美元出头规模、9000 个客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.01,
+            42.752
+          ],
+          "quote": "So I'm Dan O'Connell, CEO of Front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            47.476,
+            48.998
+          ],
+          "quote": "I joined Front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            198.291,
+            222.252
+          ],
+          "quote": "Say I'm shoe manufacturer or a big shoe retail operation, I get front the platform and what do I, do I have like different dependencies like customer service, a receptionist or call answering and then there's that passes it to an LLM that answers and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1161.421,
+            1177.205
+          ],
+          "quote": "And so those are things that we naturally think about here at Front is like if we're powering all of these conversations with customers and they're telling us what is right, what is wrong, what is they're frustrated with for businesses that they're engaging with, we should be able to help the businesses package that information and understand",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2158.068,
+            2160.929
+          ],
+          "quote": "Not just us at front, like every business that's out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2842.016,
+            2867.222
+          ],
+          "quote": "In the same way, do you think it'll come to the day where large enterprises will have agentic systems that are maybe running in trouble and they'll talk directly to Front about the problems they're having, not through a human agent, but just directly to your software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3004.414,
+            3012.74
+          ],
+          "quote": "Front is, you know, obviously a common word, is how do people find you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3012.78,
+            3017.323
+          ],
+          "quote": "If you Google front, you're likely to come up with a lot of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3018.318,
+            3021.94
+          ],
+          "quote": "Stuff that is not your front.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3029.905,
+            3035.009
+          ],
+          "quote": "If you put in front, we do buy our brand keywords, so you'll likely see an ad that is there for us on those pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3042.193,
+            3044.315
+          ],
+          "quote": "You can find us at Front HQ.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "talkiq",
+      "type": "company",
+      "role": "company",
+      "name": "TalkIQ",
+      "file": "TalkIQ",
+      "primary": true,
+      "how_described": "Dan 十年前创建的语音识别公司，做实时转写和理解客户对话，后来卖给了 Dialpad；他称当年等于在一家初创公司里建了四五个初创公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            389.221,
+            400.606
+          ],
+          "quote": "And how different is this from TalkIQ, which I think was the Dialpad, one of the Dialpad products?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            403.094,
+            407.918
+          ],
+          "quote": "So TalkIQ was a speech recognition company that I built.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dialpad",
+      "type": "company",
+      "role": "company",
+      "name": "Dialpad",
+      "file": "Dialpad",
+      "primary": true,
+      "how_described": "本集说它是一家联络中心/电话系统公司，收购了 TalkIQ 并把实时转写技术用于销售与支持电话对话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            44.093,
+            47.096
+          ],
+          "quote": "I know we had a conversation many years ago when I was at Dialpad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            389.221,
+            400.606
+          ],
+          "quote": "And how different is this from TalkIQ, which I think was the Dialpad, one of the Dialpad products?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            408.678,
+            410.54
+          ],
+          "quote": "That's what you sold to Dialpad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            419.306,
+            420.927
+          ],
+          "quote": "And then that was acquired by Dialpad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            420.947,
+            434.438
+          ],
+          "quote": "Dialpad is a contact center business, phone system as well, took that technology and said, look, if we're powering phone conversations, whether those are sales or support conversations, we want to have transcription and understanding of what is happening within those conversations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Front 目前与 Anthropic 和 OpenAI 都有合作，没用开源模型，但对前沿实验室的定价是否随规模下降持观望态度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            681.727,
+            686.451
+          ],
+          "quote": "We have partnerships today with both Anthropic and ChatGPT and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            778.968,
+            789.13
+          ],
+          "quote": "And I, I know that the, the, the government, uh, is, and, and, uh, OpenAI and Anthropic are warning about",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Front 与 OpenAI 有合作关系；同时提到 OpenAI 与政府一起警告不要让中国开源模型主导市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            681.727,
+            686.451
+          ],
+          "quote": "We have partnerships today with both Anthropic and ChatGPT and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            778.968,
+            789.13
+          ],
+          "quote": "And I, I know that the, the, the government, uh, is, and, and, uh, OpenAI and Anthropic are warning about",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线概念：Dan 认为智能体会编织进软件、像队友一样行动（可被 @ 的 AI 队友），未来智能体还会联系其他智能体甚至部署代码解决问题；但协调税也让智能体可能创造更多工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            331.408,
+            340.658
+          ],
+          "quote": "We call it Autopilot, which is Autopilot is an autonomous agent that you can set up on the web or over email, which will automatically be the initiation point for conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1238.923,
+            1249.428
+          ],
+          "quote": "So we infer whether somebody has had a great experience or a less than great experience through their interaction with, whether that's a human or with an AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2421.577,
+            2430.424
+          ],
+          "quote": "If we think about in the future, it is likely that an agent is doing some work and there's an agent that's sitting next to you helping you, Craig, do work faster and better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2430.844,
+            2433.607
+          ],
+          "quote": "And even that agent needs to have all of the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2842.016,
+            2867.222
+          ],
+          "quote": "In the same way, do you think it'll come to the day where large enterprises will have agentic systems that are maybe running in trouble and they'll talk directly to Front about the problems they're having, not through a human agent, but just directly to your software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2992.305,
+            3001.432
+          ],
+          "quote": "And so every time I hear, you know, the, hey, can we get to the agent companies just building agents and talking to agents, I'm like, what do we then do?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coordination-tax",
+      "type": "concept",
+      "role": "concept",
+      "name": "协调税 (coordination tax)",
+      "file": "协调税",
+      "primary": true,
+      "how_described": "本集核心数据：Front 对 700 位负责人的调查发现，每解决一小时问题平均要花约三小时做未被衡量的协调（找人、传上下文、交接），且 40% 以上企业根本不衡量它；AI 越多交接越多，这项税反而可能更重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1440.4,
+            1447.022
+          ],
+          "quote": "Talk, tell me what you mean by coordination tax and define it for someone who's",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1469.976,
+            1471.537
+          ],
+          "quote": "We call it this coordination tax.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1924.367,
+            1935.471
+          ],
+          "quote": "It seems this in particular, this coordination tax, it seems like that's a phenomenon at the early part of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2148.026,
+            2151.767
+          ],
+          "quote": "Or this coordination tax that's showing up because of the benefits from it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2245.184,
+            2251.886
+          ],
+          "quote": "And so this all proliferates in this coordination tax and these handoffs, all of those types of questions that show up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nrr",
+      "type": "concept",
+      "role": "concept",
+      "name": "NRR",
+      "file": "NRR",
+      "primary": true,
+      "how_described": "本集说买 AI 的主叙事不是裁人而是 NRR：调查中绝大多数运营者关注的是提升净收入留存和客户扩张——卓越客户体验→更强留存→更多增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.251,
+            28.84
+          ],
+          "quote": "The vast majority of people are focused on not reducing costs, but how to actually drive, improve NRR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            948.672,
+            966.162
+          ],
+          "quote": "I actually ran a pretty, I'm in the middle of running a pretty interesting survey where you would see the vast majority of people that responded to this survey actually are focused on not reducing costs, but how to actually drive, improve NRR, so net revenue retention and expansion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "churn",
+      "type": "concept",
+      "role": "concept",
+      "name": "流失预测 (churn)",
+      "file": "流失预测",
+      "primary": true,
+      "how_described": "本集说基于平台汇集的客户对话可以预测潜在流失或购买意向；预测模型永远不完美，要的是方向上正确，而最有效的组合是产品使用数据加客户在支持对话里说的话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            154.61,
+            159.011
+          ],
+          "quote": "The gain sites of the world, the vitalies of the world, and the churn zeros.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1096.138,
+            1111.755
+          ],
+          "quote": "One of the advantages of using a platform like this is you collect tremendous amount of data and you can use that data for different predictions, one of which is customer churn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1118.865,
+            1119.906
+          ],
+          "quote": "Customer churn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1147.418,
+            1161.341
+          ],
+          "quote": "I had this notion of like, look, like if you don't understand those conversations, then you can not only identify sentiment, positive or negative sentiment, but you can actually start to then think about highlighting potential churn or potential purchase intent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1198.11,
+            1204.852
+          ],
+          "quote": "So for churn, for example, that presumably is one of the main things that you're looking to prevent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1290.788,
+            1308.262
+          ],
+          "quote": "We haven't yet pulled in product level detail from a customer because again, if you're trying to identify potential churn or upsell, you want to be able to look at product usage combined with what is this person saying when they engage with customer support around that product, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1308.302,
+            1312.866
+          ],
+          "quote": "Those two things I think are really, really important for prediction models, specifically around churn.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说 Front 目前没用开源，但一直在实验测试——如果前沿实验室定价不随规模下降，就得考虑开源路线、微调模型甚至自建模型；Dan 十年前做 TalkIQ 时就常拿开源模型微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            489.851,
+            495.793
+          ],
+          "quote": "And then I think, you know, at that time, like we would take open source models and we would fine tune them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            500.574,
+            515.557
+          ],
+          "quote": "And so, you know, I think it's been really interesting and informative when we fast forward a decade and then see the world that we're in today, where we suddenly see, even in today's market today, people are excited about open source as a way to control costs and perhaps have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            565.613,
+            568.896
+          ],
+          "quote": "It's an open source or open weight model at the moment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            672.202,
+            679.567
+          ],
+          "quote": "And you're using open source to lower the cost, not only for yourself, but for your customers, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            687.352,
+            689.253
+          ],
+          "quote": "We don't use open source today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            749.148,
+            759.675
+          ],
+          "quote": "And so if we don't have conviction that that will play out that way, then it does have us think about, do you go the open source route and do you fine tune models or do you build your own models themselves?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            768.405,
+            778.888
+          ],
+          "quote": "I mean, this, uh, this battle between Chinese open source and us proprietary models is fascinating to watch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            789.767,
+            803.64
+          ],
+          "quote": "You know, don't let these Chinese open models dominate the market because then you become beholden to Chinese companies at some level, even though they're open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "成本、质量、延迟三约束 (cost)",
+      "file": "成本、质量、延迟三约束",
+      "primary": true,
+      "how_described": "Dan 总结模型选型的框架：一切都过三道约束——控制成本、交付卓越体验（质量）、控制延迟，三者通常只能取其二；所以确定性规则和传统 ML 干简单活，前沿模型只留给复杂任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            649.809,
+            654.772
+          ],
+          "quote": "And I think there's always like three constraints on everything, which is how do you control cost?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            672.202,
+            679.567
+          ],
+          "quote": "And you're using open source to lower the cost, not only for yourself, but for your customers, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            705.625,
+            712.01
+          ],
+          "quote": "But again, as things scale, being a CEO and a leader, the cost comes into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            804.556,
+            809.999
+          ],
+          "quote": "But it's pretty hard to argue against the cost differential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1037.642,
+            1053.431
+          ],
+          "quote": "Like there's obviously some businesses that are really cost-centric and think about, you know, I'm not, again, I don't think there's a world where people aren't thinking about costs and thinking about, does that mean that you might need fewer people in certain functions?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1077.625,
+            1084.252
+          ],
+          "quote": "And so again, it's a combination of like cost is top of mind for everybody, especially if they're buying software, they want to see value from it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1595.522,
+            1600.185
+          ],
+          "quote": "They know the cost per dollar per hour of a ticket that comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1633.786,
+            1639.068
+          ],
+          "quote": "There will be the reckoning of costs to say, what does this cost me to go and use this tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1883.51,
+            1888.651
+          ],
+          "quote": "There's always going to be questions around the impact of it and the cost of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2032.912,
+            2034.352
+          ],
+          "quote": "What is the cost of it?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 让「把非结构化对话变成结构化数据再做预测」变容易；同时 Dan 反驳拿一个 LLM 加几个 MCP 服务器和 API 就能缝合六个单点软件的想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            198.291,
+            222.252
+          ],
+          "quote": "Say I'm shoe manufacturer or a big shoe retail operation, I get front the platform and what do I, do I have like different dependencies like customer service, a receptionist or call answering and then there's that passes it to an LLM that answers and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            568.936,
+            577.104
+          ],
+          "quote": "Yeah, I laugh at like the moment in time, like every week there's a different change on the LLM battleground.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2392.689,
+            2401.253
+          ],
+          "quote": "And I would roll my eyes and say, that's a dream that I think somebody thinks that they can go get an LLM and some MCP servers and APIs and tie it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2812.067,
+            2825.352
+          ],
+          "quote": "There, you know, you can go into an LLM that's attached through it or MCP, I'm sorry, uh, to, uh, to one of the frontier models that's connected to, uh, G2's database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2826.133,
+            2832.075
+          ],
+          "quote": "So the, the, you talk to the LLM about recommendations, it has access to the reviews.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集两次顺带提到：Dan 翻白眼说拿 LLM 加一些 MCP 服务器和 API 串联六个软件行不通；主持人举例 G2 通过 MCP 连接前沿模型做软件采购推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 444,
+          "t": [
+            2392.689,
+            2401.253
+          ],
+          "quote": "And I would roll my eyes and say, that's a dream that I think somebody thinks that they can go get an LLM and some MCP servers and APIs and tie it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2812.067,
+            2825.352
+          ],
+          "quote": "There, you know, you can go into an LLM that's attached through it or MCP, I'm sorry, uh, to, uh, to one of the frontier models that's connected to, uh, G2's database.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Rackspace":2,"Hitachi":2,"Anthropic":179,"Hugging Face":29,"工业 AI":3,"物理 AI":10,"LLM":56,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Rackspace":2,"Hitachi":2,"Anthropic":182,"Hugging Face":29,"工业 AI":3,"物理 AI":10,"LLM":57,"生成式 AI":2}</script>
 
 <script>
 (function(){

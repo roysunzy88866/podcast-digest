@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":5,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":5,"发现":2,"网络效应":13,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":5,"发现":2,"网络效应":13,"虚拟形象":2}</script>
 
 <script>
 (function(){

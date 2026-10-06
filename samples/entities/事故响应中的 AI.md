@@ -33,7 +33,7 @@ unlisted: true
 
 [[Anthropic]] · [[可观测性]] · [[SRE]] · [[Simon Maple]] · [[Eric Schwartz]] · [[Liz Fong-Jones]] · [[Traversal]] · [[Honeycomb]] · [[ServiceNow]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":179,"可观测性":37,"SRE":3,"Simon Maple":10,"Eric Schwartz":1,"Liz Fong-Jones":1,"Traversal":2,"Honeycomb":2,"ServiceNow":4,"Google":60}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":182,"可观测性":37,"SRE":3,"Simon Maple":10,"Eric Schwartz":1,"Liz Fong-Jones":1,"Traversal":2,"Honeycomb":2,"ServiceNow":4,"Google":62}</script>
 
 <script>
 (function(){

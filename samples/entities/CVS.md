@@ -27,7 +27,7 @@ unlisted: true
 
 [[产品市场契合]] · [[Joon Sung Park]] · [[AJ Loiacono]] · [[Harry Stebbings]] · [[Judy Health]] · [[Simile]] · [[Capital RX]] · [[智能体]] · [[Cigna]] · [[模拟]]
 
-<script type="application/json" class="pd-epn">{"产品市场契合":27,"Joon Sung Park":1,"AJ Loiacono":1,"Harry Stebbings":20,"Judy Health":1,"Simile":1,"Capital RX":1,"智能体":419,"Cigna":2,"模拟":7}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":27,"Joon Sung Park":1,"AJ Loiacono":1,"Harry Stebbings":20,"Judy Health":1,"Simile":1,"Capital RX":1,"智能体":424,"Cigna":2,"模拟":7}</script>
 
 <script>
 (function(){

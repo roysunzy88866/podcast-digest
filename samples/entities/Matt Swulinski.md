@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Superhuman":5,"Whisper":2,"Victor":2,"Meta":44,"Google":60,"PLG":12,"智能体":419,"ugc":2,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Superhuman":5,"Whisper":2,"Victor":2,"Meta":45,"Google":62,"PLG":12,"智能体":424,"ugc":2,"AEO":5}</script>
 
 <script>
 (function(){

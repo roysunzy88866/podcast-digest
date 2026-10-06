@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":9,"评估":5,"基准测试":18,"智能体":419,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":95,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":9,"评估":5,"基准测试":18,"智能体":424,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":96,"Kiro":4}</script>
 
 <script>
 (function(){

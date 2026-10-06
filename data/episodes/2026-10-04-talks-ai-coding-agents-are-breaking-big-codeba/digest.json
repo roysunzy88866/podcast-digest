@@ -1,0 +1,142 @@
+{
+  "title_zh": "代码巨浪来了:谁来守住让世界运转的大代码库",
+  "tldr": "Sourcegraph CEO Dan Adler 论证:AI 编程工具正在撑坏大型企业代码库,理解超大规模代码的基础设施没人建,而这正是关键缺口。",
+  "digest_md": "这一集是 Sourcegraph CEO Dan Adler 的一场演讲,主题听上去不性感却极其承重:**拥有并维护一个庞大复杂的代码库**。他的核心判断很反直觉:让所有开发者提速的 AI 编程工具,恰恰正在制造让大型代码库开始崩坏的条件——而这背后的问题,现在的智能体公司一个都没在解决。\n\n他开场先把话砸实在:驱动世界运转的软件并不漂亮、也不新,但一切靠它运转 [00:38 Dan Adler]。软件行业 72% 的就业集中在 500 人以上的大公司里,这些公司管理着数千个代码仓库和数十年的代码历史 [00:49 Dan Adler]。你的银行实时拒付、保险公司的双重保险报销比例、Amazon 告诉你袜子到货、飞机用雷达调航迹——全靠这些由数千名工程师花几十年建起来的庞大、老旧、超复杂代码库 [01:18 Dan Adler]。\n\n## 一股代码巨浪正在扑向你的代码库\n\n与此同时,编程智能体写代码比以往更多、更好、更快。他的原话是:「一股代码的巨浪正在向你袭来。它正扑向你的代码库,扑向你团队中所有那些只想把头探出水面喘口气的工程师。」[02:12 Dan Adler] 每个人都在感受这股 AI 生成代码的洪流——必须去审查它、确保它对代码库是健康的,大家已经精疲力竭。当然有代码审查智能体、有衡量代码库健康度的工具,大厂也会继续把这些能力吸纳进来,「我们会不断垒起沙袋把洪流挡在外面」[02:49 Dan Adler]。\n\n但真正发生的事是:那些维持世界运转的庞大代码库,正在开始腐化 [02:56 Dan Adler]。数百万行代码、数万个仓库,多到塞不进一个上下文窗口,甚至无法实时 clone 和 grep。具体症状包括:不同智能体在不同地方套用不同的编码规范;重复代码蔓延——你已经有能做这件事的库,但你的智能体不知道;跨服务依赖越来越脆弱;标准上的细微偏差制造出更隐蔽的潜在问题;而最重要的,是智能体每天都在 uncover 新的漏洞,需要对这些没人愿意碰的遗留代码库做持续监督和维护 [03:17 Dan Adler]。\n\n归根结底,「问题就出在自己家里」——问题就是代码的体量本身:「正是那些让我们所有人提速、让我们比以往任何时候都更快写出更多代码的工具,也正是在制造那些会导致这些支撑我们世界运转的庞大代码库开始崩溃的条件。」[04:15 Dan Adler] 他举了个让人后背发凉的例子:一家排名前十的汽车制造商的技术高管,今天刚听到一位开发者说「我不知道这段代码是干什么的,AI 帮我写的」——当你写的是车辆自动驾驶代码、要管理成千上万名工程师时,这太可怕了 [04:44 Dan Adler]。\n\n## 智能体公司没有在解决这个问题\n\n他深信这些代码库的所有者理应得到更好的东西:「用于查看和理解一个 5 万仓库代码库的基础设施,OpenAI、Anthropic、Cursor 以及其他公司既没有在建,也没有在卖。」[05:21 Dan Adler] 原因很简单:他们的智能体在解决开发者日常的小规模问题上好得难以置信,需求增长太猛,而「这些代码库开始分崩离析这个更大的问题却被忽视了」。\n\n他引用美国前十银行之一技术负责人的原话:「当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。」[06:45 Dan Adler] 那是一个具体的 NPM 供应链漏洞——对一家银行来说,智能体在以前所未有的速度发现并制造新漏洞,而你得到的答案是「去用 Claude Code 解决」,祝你在 9 万个仓库里好运,还得梳理出全公司生产环境里到底有哪些东西在跑。\n\n## 理解是一个上下文问题,你 grep 不了看不见的东西\n\n有人会说:把仓库架构写进 agents.md 不就行了?他直言这几乎没起作用。因为 LLM 「太喜欢搜索了」——这就像新员工靠翻代码熟悉代码库,智能体就是这么构建世界模型的,「这个智能体会通过 grep、grep、grep 一路摸到对代码库的理解」[07:32 Dan Adler]。\n\n但理解是一个上下文问题:「你没法 grep 你根本看不见的东西。」[07:54 Dan Adler] 而用于查看、搜索并真正深入理解一个超大规模代码库的基础设施，如今的智能体构建者们并没有在建 [08:00]。而这需要的正是那张代码图——代码库的基础图，包括搜索，以及编译器精确的分析输出；这是让智能体有能力有效做出修改的关键 [08:56 Dan Adler]。他的一句话主张：「可见性就是基础设施。」[09:17 Dan Adler]\n\n## 落地:跨几千仓库的批量变更智能体\n\nSourcegraph 就是围绕这个建的。演讲当天他们刚把新的「智能体批量变更」产品发布到 beta:一个前沿智能体,让超大规模代码库的所有者从单个 prompt 出发,一次跨数百或数千个仓库执行代码变更 [09:24 Dan Adler]。它会在整个代码库中迭代式推出变更、自我修复、响应 CI 状态和 PR 评论;在需要判断力的地方用编码智能体,在不需要的地方用确定性脚本;并提供追踪和可审计性,确保覆盖了所有需要打补丁的地方的 100%。\n\n他引了早期用户 Mercari(日本的全球购物平台,成百上千个独立微服务跑在生产环境)的实战:用户用它修补一个需要正确设置环境变量的 GitHub 代码注入问题,先在两个已知有问题的仓库上跑,然后让它去探索其余代码库——结果又发现了 80 个潜在漏洞 [10:35 Dan Adler]。然后用一个确定性脚本一次性把约 100 处风险全部一致地修补。「这就是智能体编程时代『信心』的全部含义。」[10:56 Dan Adler]\n\n他结尾的两个预测值得记住:这些庞大代码库不会消失,未来的代码只会多得多的多 [08:31 Dan Adler];而构建工具让智能体真正能查看、理解并演进大型代码库,对行业未来至关重要。\n\n## 本集带走\n\n- **提速率害了代码库**:AI 写码越快,审查、规范漂移、重复代码、跨服务脆弱依赖、新漏洞的维护负担越重——问题根源是代码体量,不是模型不够好。\n- **agents.md 帮不了大代码库**:智能体理解代码靠 grep 式搜索,而 5 万仓库规模根本 grep 不完——可见性(代码图 + 编译器级分析)是必须先建的基础设施。\n- **批量变更要「智能体 + 确定性脚本」混合**:需要判断的地方交给智能体,机械重复的补丁用确定性脚本,再加追踪保证 100% 覆盖。\n- **给自己的代码库做个体检**:你知道自己有多少仓库、多少 fork、多少份代码副本吗?有多少开发者带进来的库正跑在生产环境里而你不知道?他建议先回答这些问题。",
+  "quotes": [
+    {
+      "en": "the software that runs the world is not pretty. It's not new. It's not clean. It's how everything actually works.",
+      "zh": "驱动世界运转的软件并不漂亮,不新,也不干净。但一切实际上都是靠它运转的。",
+      "timestamp": "00:40",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "A tidal wave of code is coming for you.",
+      "zh": "一股代码的巨浪正在向你袭来。",
+      "timestamp": "02:12",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "The very tools that are speeding all of us up and letting us write more code faster than ever are also the tools that are creating the conditions that will cause these massive code bases that run our world to begin to fail.",
+      "zh": "正是那些让我们提速、让我们比以往更快写出更多代码的工具,也正是在制造那些会导致支撑世界运转的庞大代码库开始崩溃的条件。",
+      "timestamp": "04:15",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "I don't know what this code does. AI wrote it for me.",
+      "zh": "我不知道这段代码是干什么的,是 AI 帮我写的。",
+      "timestamp": "04:46",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+      "zh": "用于查看和理解一个 5 万仓库代码库的基础设施,OpenAI、Anthropic、Cursor 以及其他公司既没有在建,也没有在卖。",
+      "timestamp": "05:21",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "Sure, Claude Code can make this change, but I have 90,000 repositories to make it in.",
+      "zh": "当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。",
+      "timestamp": "06:45",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "if we know anything about LLMs, it's that they just love to search.",
+      "zh": "如果说我们对 LLM 有任何了解的话,那就是它们太喜欢搜索了。",
+      "timestamp": "07:26",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "You can't grep what you literally cannot see.",
+      "zh": "你没法 grep 你根本看不见的东西。",
+      "timestamp": "07:54",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "Visibility is infrastructure.",
+      "zh": "可见性就是基础设施。",
+      "timestamp": "09:17",
+      "speaker": "Dan Adler"
+    },
+    {
+      "en": "Patching them all in one go with a sort of deterministic script that can go make sure it's making that change consistently, effectively across 100 of the places where that risk exists, that is what confidence is all about in the agentic coding era.",
+      "zh": "用一个确定性脚本一次性把它们全部修补,确保它在 100 个存在该风险的地方一致、有效地完成变更——这就是智能体编程时代「信心」的全部含义。",
+      "timestamp": "10:56",
+      "speaker": "Dan Adler"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:38",
+      "speaker": "Dan Adler",
+      "en": "the software that runs the world is not pretty. It's not new. It's not clean. It's how everything actually works.",
+      "zh": "驱动世界运转的软件并不漂亮,不新,也不干净。但一切实际上都是靠它运转的。"
+    },
+    {
+      "timestamp": "02:12",
+      "speaker": "Dan Adler",
+      "en": "A tidal wave of code is coming for you.",
+      "zh": "一股代码的巨浪正在向你袭来。"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Dan Adler",
+      "en": "The job of owning a code base is harder today than it has ever been before.",
+      "zh": "拥有一个代码库这份工作,今天比以往任何时候都更难。"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Dan Adler",
+      "en": "The very tools that are speeding all of us up and letting us write more code faster than ever are also the tools that are creating the conditions that will cause these massive code bases that run our world to begin to fail.",
+      "zh": "正是那些让我们提速、让我们比以往更快写出更多代码的工具,也正是在制造那些会导致支撑世界运转的庞大代码库开始崩溃的条件。"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Dan Adler",
+      "en": "I don't know what this code does. AI wrote it for me.",
+      "zh": "我不知道这段代码是干什么的,是 AI 帮我写的。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Dan Adler",
+      "en": "The infrastructure to see and understand a 50,000 repo codebase is not being built or sold by OpenAI, by Anthropic, by Cursor, by the rest of them.",
+      "zh": "用于查看和理解一个 5 万仓库代码库的基础设施,OpenAI、Anthropic、Cursor 以及其他公司既没有在建,也没有在卖。"
+    },
+    {
+      "timestamp": "06:45",
+      "speaker": "Dan Adler",
+      "en": "Sure, Claude Code can make this change, but I have 90,000 repositories to make it in.",
+      "zh": "当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。"
+    },
+    {
+      "timestamp": "07:32",
+      "speaker": "Dan Adler",
+      "en": "if we know anything about LLMs, it's that they just love to search.",
+      "zh": "如果说我们对 LLM 有任何了解的话,那就是它们太喜欢搜索了。"
+    },
+    {
+      "timestamp": "07:54",
+      "speaker": "Dan Adler",
+      "en": "You can't grep what you literally cannot see.",
+      "zh": "你没法 grep 你根本看不见的东西。"
+    },
+    {
+      "timestamp": "08:35",
+      "speaker": "Dan Adler",
+      "en": "In fact, there will be more code. There will be much, much, much more code out there in the future.",
+      "zh": "事实上,代码会更多。未来会有多得多的、多得多的代码。"
+    },
+    {
+      "timestamp": "09:17",
+      "speaker": "Dan Adler",
+      "en": "Visibility is infrastructure.",
+      "zh": "可见性就是基础设施。"
+    },
+    {
+      "timestamp": "10:56",
+      "speaker": "Dan Adler",
+      "en": "Patching them all in one go with a sort of deterministic script that can go make sure it's making that change consistently, effectively across 100 of the places where that risk exists, that is what confidence is all about in the agentic coding era.",
+      "zh": "用一个确定性脚本一次性把它们全部修补,确保它在 100 个存在该风险的地方一致、有效地完成变更——这就是智能体编程时代「信心」的全部含义。"
+    }
+  ],
+  "voice_script": "今天想给你讲一个人,Sourcegraph 的 CEO Dan Adler。这家公司做的生意听起来不太性感——帮大型企业管理他们那些庞大到没人能全看懂的代码库。所以当 AI 编程工具火遍全网的时候,他的视角跟别人不太一样,他要讲的问题是:这些让所有程序员提速的工具,可能正在悄悄撑坏那些真正让世界运转的软件。\n\n先把这个背景垫清楚。我们平时聊 AI 写代码,想到的往往是一个人、一个项目、一个漂亮的仓库。但真实的软件世界不是这样的。Dan Adler 开场就把话砸得很实:驱动世界运转的软件并不漂亮,不新,也不干净,但一切实际上都是靠它运转的。你想想,软件行业 72% 的就业集中在五百人以上的大公司里,这些公司管理着数千个代码仓库和几十年的代码历史。你的银行实时拒付一笔可疑交易,保险公司算出双重保险的报销比例,Amazon 告诉你袜子到货了,飞机靠雷达调整航迹——背后全是这些由几千名工程师花几十年建起来的、庞大、老旧、超级复杂的代码库。\n\n那问题是怎么来的呢?就出在 AI 编程工具本身。智能体写代码比以往更多、更好、更快,于是他说了一句很有画面感的话:一股代码的巨浪正在向你袭来,它正扑向你的代码库,扑向你团队里那些只想把头探出水面喘口气的工程师。每个人都在感受这股 AI 生成代码的洪流——得有人审查它,得确认它对代码库是健康的,大家已经精疲力竭了。\n\n你可能会说,这不是有代码审查智能体吗?有衡量代码库健康度的工具吗?没错,大厂也会继续把这些能力垒起来,就像不断垒沙袋把洪流挡在外面。但真正发生的事情是:那些维持世界运转的庞大代码库,正在开始腐化。你想想具体是什么症状。数百万行代码、数万个仓库,多到塞不进任何一个上下文窗口,甚至没法实时地 clone 和 grep。不同智能体在不同地方套用不同的编码规范;重复代码在蔓延——明明已经有现成的库能做这件事,但智能体不知道;跨服务依赖越来越脆弱;标准上的一点细微偏差,制造出更隐蔽的潜在问题。而最要命的是,智能体每天都在发现新的漏洞,那些没人愿意碰的遗留代码库,需要持续的监督和维护。\n\n所以这里有个很反直觉的判断,值得你记住原话:正是那些让我们所有人提速、让我们比以往任何时候都更快写出更多代码的工具,也正是在制造那些会导致这些支撑世界运转的庞大代码库开始崩溃的条件。听起来抽象?举个例子,让人后背发凉。一家排名前十的汽车制造商的技术高管,今天刚听到手下的开发者说:我不知道这段代码是干什么的,AI 帮我写的。当你写的是车辆自动驾驶代码、要管理成千上万名工程师的时候,这句话有多可怕,你自己品。\n\n那有人就要问了,OpenAI、Anthropic、Cursor 这些公司,难道不会来解决这个问题吗?Dan Adler 的答案很直接:不会。他的原话是,用于查看和理解一个五万仓库代码库的基础设施,这些公司既没有在建,也没有在卖。原因其实很简单:他们的智能体在解决开发者日常的小规模问题上,好得难以置信,需求增长太猛了,而这些代码库开始分崩离析这个更大的问题,就被忽视了。他引用了美国前十银行之一的技术负责人的原话:当然,Claude Code 可以做出这个修改,但我有九万个仓库要做这个修改。那是一个具体的 NPM 供应链漏洞。对一家银行来说,智能体在以前所未有的速度发现新漏洞、也制造新漏洞,而你得到的答案是\"去用 Claude Code 解决\"——祝你在九万个仓库里好运,还得先梳理出全公司生产环境里到底有哪些东西在跑。\n\n接下来一个更根本的问题:那大代码库的理解,到底难在哪?有人会说,把仓库架构写进 agents.md 文件不就行了?实践证明这几乎没起作用。因为大语言模型这个物种,太喜欢搜索了。这就像一个新员工靠翻代码来熟悉代码库,智能体就是这么构建世界模型的——通过 grep、grep、再 grep,一路摸到对代码库的理解。但理解本质上是一个上下文问题。这里有句话特别狠:你没法 grep 你根本看不见的东西。仓库多到搜索不过来的时候,靠搜索建立的理解就是残缺的。而这需要的正是那张代码图——代码库的基础地图,包括搜索,以及编译器级别的精确分析输出,这是让智能体有能力有效做出修改的关键。一句话主张:可见性就是基础设施。\n\n那这个思路落地是什么样?Sourcegraph 就是围绕这个建的。演讲当天,他们刚把新产品\"智能体批量变更\"发布到 beta:让超大规模代码库的所有者,从单个 prompt 出发,一次跨数百甚至数千个仓库执行代码变更。它会在整个代码库里迭代式地推出变更、自我修复、响应 CI 状态和 PR 评论;需要判断力的地方用编码智能体,不需要的地方用确定性脚本;再配上追踪和可审计性,确保所有需要打补丁的地方百分之百覆盖。早期用户 Mercari,就是日本那个全球购物平台,有成百上千个独立微服务跑在生产环境——用它修补一个需要正确设置环境变量的代码注入问题:先在两个已知有问题的仓库上跑,然后让它去探索其余代码库,结果又发现了八十个潜在漏洞,最后用一个确定性脚本,一次性把大约一百处风险全部一致地修补掉。用原话说,这就是智能体编程时代\"信心\"的全部含义。\n\n最后留两个预测,值得记住。第一,这些庞大代码库不会消失,未来的代码只会多得多、多得多。第二,构建工具让智能体真正能查看、理解并演进大型代码库,对行业的未来至关重要。所以不妨先给自己提个问题:你知道自己公司有多少仓库、多少 fork、多少份代码副本吗?有多少开发者带进来的库,正跑在生产环境里而你并不知道?想清楚这个,再谈 AI 时代,才谈得踏实。驱动世界运转的软件不漂亮、不新、也不干净,但一切确实都靠它运转——而在代码巨浪扑过来之前,先得有人看见它。"
+}

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":419,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":78}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":424,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":79}</script>
 
 <script>
 (function(){

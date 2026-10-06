@@ -1,0 +1,1037 @@
+{
+  "episode_id": "2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va",
+  "podcast": "Training Data",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 基础设施",
+    "数据中心",
+    "芯片",
+    "Google",
+    "能源与电力"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "amin-vahdat",
+      "type": "person",
+      "role": "guest",
+      "name": "Amin Vahdat",
+      "file": "Amin Vahdat",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            67.95,
+            75.354
+          ],
+          "quote": "Google alone is expected to spend more than $200 billion on CapEx this year, most of which is going into building data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            77.035,
+            81.478
+          ],
+          "quote": "You were named the head of Google's AI Infra at the end of last year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            90.682,
+            95.563
+          ],
+          "quote": "It's a huge year, for sure, of course, across the industry, including at Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            98.884,
+            106.645
+          ],
+          "quote": "Certainly not at Google, but as you said, I think in the history of humanity in terms of the build-outs and the pace of transformation, really unbelievable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            624.624,
+            626.786
+          ],
+          "quote": "Is good put a Google term or is it an industry term?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            626.966,
+            631.01
+          ],
+          "quote": "It's a Google term, but I think more and more people across the industry are starting to pick it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            775.325,
+            783.45
+          ],
+          "quote": "And then I guess in terms of overall capacity, you've told your teams that Google has to roughly double the serving capacity every six months or so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            937.033,
+            939.694
+          ],
+          "quote": "So Google started building custom silicon more than a decade ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1379.004,
+            1381.905
+          ],
+          "quote": "They're incredible products at Google and Google Cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1398.51,
+            1401.614
+          ],
+          "quote": "What we like to do at Google is give our customers choice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1571.522,
+            1572.683
+          ],
+          "quote": "Well, what about for Google then?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1583.893,
+            1592.58
+          ],
+          "quote": "It's one of the most fun and frankly gratifying parts of being at Google is the opportunity to work really shoulder to shoulder with the DeepMind team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1884.179,
+            1892.163
+          ],
+          "quote": "And in other words, Google Research and DeepMind and Transformers being invented, all of this was happening in these overlapping rooms as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1957.522,
+            1960.845
+          ],
+          "quote": "And it's helping all the workloads at Google go faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2273.805,
+            2280.269
+          ],
+          "quote": "And I've heard that Google's always been at the forefront of the newest in networking, including optical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2284.892,
+            2300.698
+          ],
+          "quote": "You know, we at Google, this was probably 15, 16 years ago, were among the first to bring essentially what's called wave division multiplexing, where you could put multiple signals on a single fiber within the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2642.702,
+            2648.627
+          ],
+          "quote": "We do, our preferred model at Google is always to be utility connected, to be good connected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2876.023,
+            2884.013
+          ],
+          "quote": "You know, at some point, you know, we had a debate, I remember even 10 plus years ago, 15 years ago, big debate at Google, should we just put everything into one data center?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2924.914,
+            2930.939
+          ],
+          "quote": "There's no way anywhere in the country or the world we're going to get the total requirements of Google built in one place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3263.884,
+            3269.086
+          ],
+          "quote": "At Google, we've developed a model development framework called JAX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3402.183,
+            3417.195
+          ],
+          "quote": "So I think that we are, at Google and my team, using it to great effect in terms of our software development capabilities, but also, frankly, tests, rollouts, even helping with design, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3518.112,
+            3523.317
+          ],
+          "quote": "I've seen that Google is thinking about this quite seriously, and you don't need to comment on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3824.53,
+            3826.171
+          ],
+          "quote": "Google is in good hands.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "TPU",
+      "file": "TPU",
+      "primary": true,
+      "how_described": "本集说 TPU 是 Google 2013 年启动的反主流赌注——为语言翻译、语音识别等高收益应用做定制加速器；如今演化为 8i（推理）与 8t（训练）两颗互相兜底的芯片，七八年前的 TPU 仍在 100% 利用率运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            712.955,
+            724.941
+          ],
+          "quote": "Is there a standard reference stack from the accelerator companies, from NVIDIA or from the TPU team of, you know, here is the optimal system to build around our accelerators, and as long as you build to that system, you're good?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            766.76,
+            769.261
+          ],
+          "quote": "Similarly, for the TPU side, we have a reference stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            933.131,
+            936.192
+          ],
+          "quote": "I'd love to talk a bit about the TPU program and co-design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            942.895,
+            945.156
+          ],
+          "quote": "How has the TPU program evolved?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1028.587,
+            1034.173
+          ],
+          "quote": "This was a major, major moment, and that actually completely shifted the TPU program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1358.498,
+            1368.53
+          ],
+          "quote": "Okay, so at this point in time, do your customers view TPU and GPU as roughly fungible equivalents, or is there a certain set of problems that is better suited for one or the other?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1859.763,
+            1871.773
+          ],
+          "quote": "In other words, we talked about TPU-8, I, and AT just now that we announced, but you can imagine that 9, 10, and maybe some others are in concept execution to something else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1984.354,
+            1992.843
+          ],
+          "quote": "The stunning thing is that the TPU architecture at a medium level of detail, not at a super high level of detail, at a medium level of detail,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1993.423,
+            1995.604
+          ],
+          "quote": "Hasn't really changed since TPU v1.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2188.646,
+            2190.708
+          ],
+          "quote": "Yeah, GPU, TPU racks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2198.333,
+            2211.664
+          ],
+          "quote": "If we start putting lots of CPU racks, and it is a question next to the GPUs and TPUs, that means that actually we can't fully specialize to the density and network requirements, let's say, of a TPU rack relative to a CPU rack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2212.585,
+            2214.486
+          ],
+          "quote": "A TPU rack is going to be more dense than a CPU rack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2455.601,
+            2461.983
+          ],
+          "quote": "A TPU has a Taurus topology that connects all the TPUs to one another directly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2466.605,
+            2474.929
+          ],
+          "quote": "One of the things that we can do is if we have a TPU rack that fails, we can replace it with another TPU rack without moving any fiber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3187.085,
+            3190.786
+          ],
+          "quote": "So a TPU, let's say, AT pod might be 9,600 chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3197.289,
+            3205.413
+          ],
+          "quote": "So then we would say, okay, we're going to pull out that pod and we're going to replace it with a, whatever it is, TPU 12 or 13 or 14 pod.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3298.932,
+            3305.055
+          ],
+          "quote": "But if you like PyTorch, we have Torch TPU, where your unmodified models, et cetera, can run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 数据中心 (AI data center)",
+      "file": "AI 数据中心",
+      "primary": true,
+      "how_described": "本集说 AI 数据中心与传统数据中心的根本差别是专门化：结构相似但越来越 purpose-built，与硬件协同设计，一个 AI 机架功率达数百千瓦、未来可能到兆瓦级",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            110.826,
+            114.927
+          ],
+          "quote": "What is an AI data center and how is it different from a non-AI data center?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            115.303,
+            123.549
+          ],
+          "quote": "It's a very good question in that AI data center and a non-AI data center do have a lot of similarities, actually, and they're not radically different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            183.197,
+            187.037
+          ],
+          "quote": "An AI data center oftentimes is going to be more purpose-built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            253.881,
+            264.456
+          ],
+          "quote": "An AI data center likely is going to be much more purpose-built, co-designed with the hardware, even to the point of cooling and power distribution, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "good-put",
+      "type": "concept",
+      "role": "concept",
+      "name": "有效产出 (good put)",
+      "file": "有效产出",
+      "primary": true,
+      "how_described": "本集说 FLOPS 是虚荣指标，Google 用 good put 作为问责标准：真实故障条件下重要工作负载实际交付的性能，还衍生出每瓦有效产出（good put per watt）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            418.44,
+            420.401
+          ],
+          "quote": "Now, that's a measure of good put.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            420.581,
+            421.161
+          ],
+          "quote": "What is good put?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            523.842,
+            526.364
+          ],
+          "quote": "But what is the good put in delivering your answer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            542.578,
+            551.571
+          ],
+          "quote": "delivered good put, not theoretical benchmark throughput or goodness in theory, but actually for a workload for real failure conditions was happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            617.577,
+            623.978
+          ],
+          "quote": "How we hold ourselves accountable is what's the good put that we deliver for the workloads that actually matter in the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            624.624,
+            626.786
+          ],
+          "quote": "Is good put a Google term or is it an industry term?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            882.215,
+            888.319
+          ],
+          "quote": "We also, for us, it's good put per watt, and we can come back to why the watts need to be the denominator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            888.439,
+            891.181
+          ],
+          "quote": "Good put could well be a measure of the intelligence delivered per watt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            891.221,
+            893.382
+          ],
+          "quote": "In other words, good put is a workload-specific metric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1724.893,
+            1739.28
+          ],
+          "quote": "The collaboration with DeepMind in production is significant because we get to work together in maximizing delivered intelligence or delivered good put per watt and we know exactly what's happening in the model and we know exactly what's happening in the hardware and everything in between.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2463.883,
+            2466.164
+          ],
+          "quote": "I talked about throughput and good put earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2558.156,
+            2560.977
+          ],
+          "quote": "You've been talking about good put per watt and other units per watt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "co-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "协同设计 (co-design)",
+      "file": "协同设计",
+      "primary": true,
+      "how_described": "本集说 Google 的硬件与模型由 DeepMind 同一栋楼、常常同一间房协作设计：模型团队可在芯片设计推进中提出数学运算需求，甚至值得为它推迟流片一两周；每层消除阻抗失配，相乘成端到端巨大优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            933.131,
+            936.192
+          ],
+          "quote": "I'd love to talk a bit about the TPU program and co-design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1410.504,
+            1417.012
+          ],
+          "quote": "What is the case for co-design from the chip to the network to the software and then what is the case against co-design?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1417.49,
+            1422.574
+          ],
+          "quote": "Yeah, so there's huge optimization opportunities with co-design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1572.703,
+            1583.732
+          ],
+          "quote": "I'm curious what the working relationship looks like between your team and DeepMind, kind of who's in the room, at what stage of model development, and how are you making decisions together on co-design?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1592.76,
+            1602.248
+          ],
+          "quote": "In terms of co-design of our hardware and models, there's a third element to it in terms of that we also get to extend that with the consumer services and cloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说长程智能体的崛起改变了数据中心需求的形状：没有人在回路限速、交互间隔掉到毫秒级，推理解析跑在 CPU 上并不断抓取上下文，使 CPU、网络、存储需求同时暴涨",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 412,
+          "t": [
+            2056.164,
+            2066.951
+          ],
+          "quote": "Okay, speaking of shifting workloads, it seems like one of the biggest changes in workloads over the last year or so, I think it really started at the beginning of this year, this calendar year was kind of the rise of the long horizon agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "本集说 DeepMind 与硬件团队肩并肩做协同设计，一起摆帕累托前沿、预测模型架构两三年后的走向，还在用 Gemini 为未来的 Gemini 设计硬件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1572.703,
+            1583.732
+          ],
+          "quote": "I'm curious what the working relationship looks like between your team and DeepMind, kind of who's in the room, at what stage of model development, and how are you making decisions together on co-design?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1583.893,
+            1592.58
+          ],
+          "quote": "It's one of the most fun and frankly gratifying parts of being at Google is the opportunity to work really shoulder to shoulder with the DeepMind team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1604.65,
+            1608.754
+          ],
+          "quote": "But with respect to DeepMind, it really is a deep partnership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1724.893,
+            1739.28
+          ],
+          "quote": "The collaboration with DeepMind in production is significant because we get to work together in maximizing delivered intelligence or delivered good put per watt and we know exactly what's happening in the model and we know exactly what's happening in the hardware and everything in between.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1780.196,
+            1784.378
+          ],
+          "quote": "We can then ask our colleagues in DeepMind, where do you see model architectures going?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1838.685,
+            1847.35
+          ],
+          "quote": "I figure the cycle times are probably just slower when you're dealing with hardware than your DeepMind folks get to deal with on the software side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1884.179,
+            1892.163
+          ],
+          "quote": "And in other words, Google Research and DeepMind and Transformers being invented, all of this was happening in these overlapping rooms as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1942.487,
+            1945.951
+          ],
+          "quote": "And so significant portions of the DeepMind team, we're so grateful for it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集提到 Google 正在用 Gemini 为未来的 Gemini 设计硬件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            1827.198,
+            1830.64
+          ],
+          "quote": "We're using Gemini to design hardware for future Geminis as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "optical-circuit-switching",
+      "type": "concept",
+      "role": "concept",
+      "name": "光路交换 (optical circuit switching)",
+      "file": "光路交换",
+      "primary": true,
+      "how_described": "本集说 Google 十五六年前最早引入光路交换：用 MEMS 微镜阵列让光纯在光域走，不动光纤就能重构网络骨干；如今 TPU 机架坏了可毫秒级重定向光路换备用机架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            2305.76,
+            2312.723
+          ],
+          "quote": "At the same time, we introduced technology along with wave division multiplexing called optical circuit switching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2313.582,
+            2324.826
+          ],
+          "quote": "And essentially what optical circuit switching does is, in contrast with traditional electrical packet switching, what it does is it transmits and moves data entirely in the optical domain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2358.207,
+            2362.41
+          ],
+          "quote": "Optical circuit switching says I'm not touching these bits in the electrical domain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "type": "concept",
+      "role": "concept",
+      "name": "专门化 (specialization)",
+      "file": "专门化",
+      "primary": true,
+      "how_described": "本集的核心权衡：对特定工作负载专用化越多，硬件越快越省电但越不灵活；是否进一步专用化归结为负载规模与持久性的算术题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            145.625,
+            150.867
+          ],
+          "quote": "I think that the big difference that we're seeing with AI infrastructure is specialization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            978.804,
+            982.446
+          ],
+          "quote": "It's like the bitter lesson of chips is that specialization never wins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1287.175,
+            1294.3
+          ],
+          "quote": "Depending on the specialization you do, you might get so specialized that you actually limit yourself from being flexible, fungible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1350.29,
+            1352.191
+          ],
+          "quote": "That's the next level of specialization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2190.728,
+            2197.713
+          ],
+          "quote": "This is the key question is going back to this question of optimization and specialization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jax",
+      "type": "concept",
+      "role": "concept",
+      "name": "JAX",
+      "file": "JAX",
+      "primary": false,
+      "how_described": "本集举 JAX 为开放标准的例子：Google 内部爱用 JAX，但客户爱用 PyTorch，所以提供 Torch TPU 让未修改模型直接跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 658,
+          "t": [
+            3263.884,
+            3269.086
+          ],
+          "quote": "At Google, we've developed a model development framework called JAX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3277.611,
+            3282.898
+          ],
+          "quote": "And so one thing we could say is, hey, if you want to run on TPUs, you got to use JAX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3294.01,
+            3297.151
+          ],
+          "quote": "Or we could say, look, if you like JAX, we like JAX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3297.191,
+            3298.432
+          ],
+          "quote": "If you like JAX, you can use it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "type": "concept",
+      "role": "concept",
+      "name": "PyTorch",
+      "file": "PyTorch",
+      "primary": false,
+      "how_described": "本集说客户喜欢 PyTorch，Google 提供 Torch TPU 让未修改的模型在 TPU 上运行，不强制锁定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 662,
+          "t": [
+            3275.11,
+            3276.591
+          ],
+          "quote": "Many of our customers like PyTorch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3298.932,
+            3305.055
+          ],
+          "quote": "But if you like PyTorch, we have Torch TPU, where your unmodified models, et cetera, can run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集说 GPU 比 TPU 更通用，Google 内部使用也对外销售大量 GPU，客户按工作负载在两者间评估选择",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1358.498,
+            1368.53
+          ],
+          "quote": "Okay, so at this point in time, do your customers view TPU and GPU as roughly fungible equivalents, or is there a certain set of problems that is better suited for one or the other?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2184.643,
+            2188.406
+          ],
+          "quote": "So does that mean you're putting more CPUs alongside your GPU racks then?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2188.646,
+            2190.708
+          ],
+          "quote": "Yeah, GPU, TPU racks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 是令人难以置信的全系统公司，给加速器生态提供非常强的参考栈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            712.955,
+            724.941
+          ],
+          "quote": "Is there a standard reference stack from the accelerator companies, from NVIDIA or from the TPU team of, you know, here is the optimal system to build around our accelerators, and as long as you build to that system, you're good?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            735.309,
+            740.51
+          ],
+          "quote": "And I mean, I would say that NVIDIA is an incredible whole systems company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orbital-data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨道数据中心 (orbital data centers)",
+      "file": "轨道数据中心",
+      "primary": true,
+      "how_described": "本集说 Google 正认真推进轨道数据中心这一 moonshot：太空太阳能容量多约 40%、太阳同步轨道光照覆盖 90-100%、可基本去掉电池且无碳，挑战在散热、维修与自由空间激光组网，但'没有根本性致命障碍'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 713,
+          "t": [
+            3514.308,
+            3518.072
+          ],
+          "quote": "Question number one, orbital data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3531.284,
+            3533.326
+          ],
+          "quote": "And what do you think of orbital data centers?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

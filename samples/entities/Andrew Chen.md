@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":18,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":6,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":18,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":7,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

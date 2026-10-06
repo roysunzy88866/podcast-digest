@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]]
+[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":5,"Joe Schmidt":2,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":4,"PLG":12,"Harvey":18}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":5,"Joe Schmidt":2,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":4,"PLG":12,"Harvey":19}</script>
 
 <script>
 (function(){

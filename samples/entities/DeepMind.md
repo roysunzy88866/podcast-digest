@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DeepMind</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DeepMind">DE</div><div class="pi"><h1 class="pt">DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DeepMind">DE</div><div class="pi"><h1 class="pt">DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,10 +23,11 @@ unlisted: true
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(04:04起):嘉宾在 Google 后转到 DeepMind 做研究基础设施,参与给内部大语言模型搭了套比 ChatGPT 早约一年的聊天界面,但未能产品化。
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(08:53起):本集说 Demis、Jeff Dean、John Jumper 等 DeepMind 领导人陆续离开或被请出门，Google 的肢体语言表明它更想做 Google Cloud 而不是下一个 OpenAI
 - **[[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]]**(15:22起):Charlie 引用其「通过学会以超人类水平玩游戏来求解智能」的路线，佐证提出研究方向靠人。
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(26:12起):本集说 DeepMind 与硬件团队肩并肩做协同设计，一起摆帕累托前沿、预测模型架构两三年后的走向，还在用 Gemini 为未来的 Gemini 设计硬件
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为被讨论公司(提及)
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 - [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为被讨论公司(提及)
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[Google]] · [[Harvey]] · [[后训练]] · [[Cursor]] · [[Microsoft]] · [[评估]]
+[[智能体]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Harvey]] · [[后训练]] · [[Cursor]] · [[Microsoft]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":167,"智能体":419,"ChatGPT":98,"Anthropic":179,"Google":60,"Harvey":18,"后训练":1,"Cursor":80,"Microsoft":29,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":424,"OpenAI":171,"Google":62,"Anthropic":182,"ChatGPT":98,"Harvey":19,"后训练":1,"Cursor":82,"Microsoft":29,"Gemini":15}</script>
 
 <script>
 (function(){

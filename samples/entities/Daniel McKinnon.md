@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"评估":5,"PRD":8,"智能体":419,"harness":56,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"评估":5,"PRD":8,"智能体":424,"harness":58,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":80}</script>
 
 <script>
 (function(){
