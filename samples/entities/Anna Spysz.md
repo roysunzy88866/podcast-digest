@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":417,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":77,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":78,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":60}</script>
 
 <script>
 (function(){

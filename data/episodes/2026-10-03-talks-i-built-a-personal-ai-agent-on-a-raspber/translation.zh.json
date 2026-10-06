@@ -1,0 +1,2778 @@
+[
+ {
+  "seg": 0,
+  "start": 12.927,
+  "end": 13.687,
+  "speaker": "Unknown",
+  "en": "How's everybody doing?",
+  "zh": "大家都怎么样?"
+ },
+ {
+  "seg": 1,
+  "start": 15.408,
+  "end": 16.529,
+  "speaker": "Unknown",
+  "en": "Day, what is it?",
+  "zh": "今天是第几天?"
+ },
+ {
+  "seg": 2,
+  "start": 16.649,
+  "end": 18.59,
+  "speaker": "Unknown",
+  "en": "4, 400 something?",
+  "zh": "4,400 多?"
+ },
+ {
+  "seg": 3,
+  "start": 20.191,
+  "end": 23.693,
+  "speaker": "Unknown",
+  "en": "Thank you for bearing with us as we had a little technical difficulty getting started.",
+  "zh": "感谢大家容忍我们开场时遇到的一点技术故障。"
+ },
+ {
+  "seg": 4,
+  "start": 23.793,
+  "end": 25.413,
+  "speaker": "Unknown",
+  "en": "But I am Jeremy Adams.",
+  "zh": "我是 Jeremy Adams。"
+ },
+ {
+  "seg": 5,
+  "start": 25.553,
+  "end": 27.034,
+  "speaker": "Unknown",
+  "en": "I'm from Neo4j.",
+  "zh": "我来自 Neo4j。"
+ },
+ {
+  "seg": 6,
+  "start": 27.394,
+  "end": 28.595,
+  "speaker": "Unknown",
+  "en": "You might have seen our booth.",
+  "zh": "你们可能看到过我们的展位。"
+ },
+ {
+  "seg": 7,
+  "start": 28.935,
+  "end": 30.776,
+  "speaker": "Unknown",
+  "en": "It's kind of right over that way.",
+  "zh": "大概就在那边。"
+ },
+ {
+  "seg": 8,
+  "start": 31.597,
+  "end": 34.878,
+  "speaker": "Unknown",
+  "en": "And we're all about graphs and graph databases.",
+  "zh": "我们是做图和图数据库的。"
+ },
+ {
+  "seg": 9,
+  "start": 34.918,
+  "end": 39.661,
+  "speaker": "Unknown",
+  "en": "Today, I'm going to expand that a little bit to a side project I've been playing with.",
+  "zh": "今天,我想稍微扩展一下,讲讲我一直在玩的一个副业项目。"
+ },
+ {
+  "seg": 10,
+  "start": 40.721,
+  "end": 50.687,
+  "speaker": "Unknown",
+  "en": "Who here has done something with OpenClaw or Hermes Agent or any of your kind of claw of choice?",
+  "zh": "这里有人用 OpenClaw 或 Hermes Agent 或任何你们选择的 claw 做过东西吗?"
+ },
+ {
+  "seg": 11,
+  "start": 51.287,
+  "end": 56.35,
+  "speaker": "Unknown",
+  "en": "Okay, so a lot of, some folks, but most folks are kind of new to the space, which is cool.",
+  "zh": "好的,有一些人,但大多数人对这个领域还比较新,这很好。"
+ },
+ {
+  "seg": 12,
+  "start": 56.81,
+  "end": 64.654,
+  "speaker": "Unknown",
+  "en": "How about things that are more like edge devices, hardware, thinking about like, you know, offline mode kind of stuff?",
+  "zh": "那么更像边缘设备、硬件,考虑离线模式之类的呢?"
+ },
+ {
+  "seg": 13,
+  "start": 64.694,
+  "end": 65.835,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, some interest there.",
+  "zh": "是的,好的,有人感兴趣。"
+ },
+ {
+  "seg": 14,
+  "start": 67.016,
+  "end": 69.377,
+  "speaker": "Unknown",
+  "en": "How about who's experienced with graph?",
+  "zh": "那有谁对图有经验?"
+ },
+ {
+  "seg": 15,
+  "start": 70.389,
+  "end": 72.712,
+  "speaker": "Unknown",
+  "en": "In general, a little bit of graph, some graph people.",
+  "zh": "总体上,懂一点图的,有一些图相关的人。"
+ },
+ {
+  "seg": 16,
+  "start": 73.112,
+  "end": 73.452,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 17,
+  "start": 73.733,
+  "end": 78.798,
+  "speaker": "Unknown",
+  "en": "And who's been doing like building agents with memory and things like that?",
+  "zh": "那有谁在做带记忆之类的智能体构建?"
+ },
+ {
+  "seg": 18,
+  "start": 80.063,
+  "end": 80.883,
+  "speaker": "Unknown",
+  "en": "Oh, OK. Whoa, cool.",
+  "zh": "哦,好的。哇,真棒。"
+ },
+ {
+  "seg": 19,
+  "start": 80.923,
+  "end": 83.284,
+  "speaker": "Unknown",
+  "en": "That's the biggest group so far.",
+  "zh": "这是目前最大的一组。"
+ },
+ {
+  "seg": 20,
+  "start": 83.864,
+  "end": 84.684,
+  "speaker": "Unknown",
+  "en": "And I want to keep it going.",
+  "zh": "我想继续保持这个势头。"
+ },
+ {
+  "seg": 21,
+  "start": 84.704,
+  "end": 92.966,
+  "speaker": "Unknown",
+  "en": "We're going to try and do more things that have to do with statistics of some sort as we get to some findings that we're going to do in a little bit.",
+  "zh": "稍后我们会讲一些发现,到时我们会尝试做一些和统计有关的事情。"
+ },
+ {
+  "seg": 22,
+  "start": 93.486,
+  "end": 103.129,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do in this talk today is talk about this agent memory project that I did that involves a bit of hardware that you can see on my chest.",
+  "zh": "所以我今天这个演讲要讲的是我做过的这个智能体记忆项目,它涉及一些硬件,你们可以看到别在我胸口的设备。"
+ },
+ {
+  "seg": 23,
+  "start": 104.129,
+  "end": 108.99,
+  "speaker": "Unknown",
+  "en": "And as we go through it, we're going to talk about how I also built up",
+  "zh": "随着讲解的进行,我们还会谈到我"
+ },
+ {
+  "seg": 24,
+  "start": 109.61,
+  "end": 113.273,
+  "speaker": "Unknown",
+  "en": "Some software for agent memory and how that all went.",
+  "zh": "同时构建的一些用于智能体记忆的软件,以及这一切的进展如何。"
+ },
+ {
+  "seg": 25,
+  "start": 113.774,
+  "end": 120.579,
+  "speaker": "Unknown",
+  "en": "So this is like the live-est of the live demos I've done with this so far because I'm like literally assembling the pieces in front of you.",
+  "zh": "这是迄今为止我做过的最“现场”的现场演示,因为我简直就是在你们面前现场组装这些部件。"
+ },
+ {
+  "seg": 26,
+  "start": 121.019,
+  "end": 121.64,
+  "speaker": "Unknown",
+  "en": "So let's see.",
+  "zh": "那么我们来看看。"
+ },
+ {
+  "seg": 27,
+  "start": 122.08,
+  "end": 125.163,
+  "speaker": "Unknown",
+  "en": "I have a microphone, a little extra microphone.",
+  "zh": "我有一个麦克风,一个额外的小麦克风。"
+ },
+ {
+  "seg": 28,
+  "start": 125.923,
+  "end": 129.984,
+  "speaker": "Unknown",
+  "en": "Yes, I'm going to be using this to talk to my claw in a second.",
+  "zh": "是的,我马上要用这个来和我的 claw 对话。"
+ },
+ {
+  "seg": 29,
+  "start": 130.144,
+  "end": 132.725,
+  "speaker": "Unknown",
+  "en": "It's not yet powered on, so this is really crazy.",
+  "zh": "它还没开机,所以这真的很疯狂。"
+ },
+ {
+  "seg": 30,
+  "start": 133.185,
+  "end": 140.747,
+  "speaker": "Unknown",
+  "en": "And I've got this, I've got like a capture, a video capture from my HDMI, which is over here.",
+  "zh": "我还有这个,我有一个来自我 HDMI 的采集,视频采集,它在这边。"
+ },
+ {
+  "seg": 31,
+  "start": 140.767,
+  "end": 142.607,
+  "speaker": "Unknown",
+  "en": "I'm going to plug that in.",
+  "zh": "我要把它插上。"
+ },
+ {
+  "seg": 32,
+  "start": 144.048,
+  "end": 144.728,
+  "speaker": "Unknown",
+  "en": "Whoa, somewhere.",
+  "zh": "哇, somewhere。"
+ },
+ {
+  "seg": 33,
+  "start": 145.688,
+  "end": 146.888,
+  "speaker": "Unknown",
+  "en": "Plug that in, okay.",
+  "zh": "插上,好。"
+ },
+ {
+  "seg": 34,
+  "start": 147.229,
+  "end": 148.049,
+  "speaker": "Unknown",
+  "en": "It's not on yet.",
+  "zh": "它还没开。"
+ },
+ {
+  "seg": 35,
+  "start": 149.049,
+  "end": 152.67,
+  "speaker": "Unknown",
+  "en": "I'm also going to, this is the receiver for the USB for the mic.",
+  "zh": "我还要……这是麦克风 USB 的接收器。"
+ },
+ {
+  "seg": 36,
+  "start": 153.92,
+  "end": 155.902,
+  "speaker": "Unknown",
+  "en": "So we hope this works, too, today.",
+  "zh": "所以我们希望今天这个也能正常工作。"
+ },
+ {
+  "seg": 37,
+  "start": 155.922,
+  "end": 158.464,
+  "speaker": "Unknown",
+  "en": "If I can see where it goes.",
+  "zh": "如果我能看到它插哪儿。"
+ },
+ {
+  "seg": 38,
+  "start": 158.484,
+  "end": 158.944,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 39,
+  "start": 159.505,
+  "end": 160.285,
+  "speaker": "Unknown",
+  "en": "Plug that in.",
+  "zh": "插上了。"
+ },
+ {
+  "seg": 40,
+  "start": 160.305,
+  "end": 166.17,
+  "speaker": "Unknown",
+  "en": "I guess that's why they made USB-C. You have to keep flipping the thing over.",
+  "zh": "我猜这就是他们发明 USB-C 的原因。你得不停地把它翻过来翻过去。"
+ },
+ {
+  "seg": 41,
+  "start": 166.59,
+  "end": 166.971,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 42,
+  "start": 167.151,
+  "end": 168.252,
+  "speaker": "Unknown",
+  "en": "So there, that goes in.",
+  "zh": "那么,这里,插进去了。"
+ },
+ {
+  "seg": 43,
+  "start": 168.692,
+  "end": 173.176,
+  "speaker": "Unknown",
+  "en": "And now, I'm going to try and sync these two mics.",
+  "zh": "现在,我要试着同步这两个麦克风。"
+ },
+ {
+  "seg": 44,
+  "start": 173.776,
+  "end": 174.577,
+  "speaker": "Unknown",
+  "en": "OK, they're green.",
+  "zh": "好,它们变绿了。"
+ },
+ {
+  "seg": 45,
+  "start": 174.777,
+  "end": 175.318,
+  "speaker": "Unknown",
+  "en": "That's OK.",
+  "zh": "那没问题。"
+ },
+ {
+  "seg": 46,
+  "start": 175.338,
+  "end": 176.118,
+  "speaker": "Unknown",
+  "en": "So I got a mic there.",
+  "zh": "所以我有一个麦克风了。"
+ },
+ {
+  "seg": 47,
+  "start": 176.659,
+  "end": 177.74,
+  "speaker": "Unknown",
+  "en": "Now for some power.",
+  "zh": "现在接上电源。"
+ },
+ {
+  "seg": 48,
+  "start": 178.48,
+  "end": 180.942,
+  "speaker": "Unknown",
+  "en": "Good old battery power.",
+  "zh": "老式可靠的电池供电。"
+ },
+ {
+  "seg": 49,
+  "start": 181.102,
+  "end": 181.383,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 50,
+  "start": 182.858,
+  "end": 188.6,
+  "speaker": "Unknown",
+  "en": "What I'm going to do really quick, just for fun, before we get into the main presentation, I'm going to show you this trick.",
+  "zh": "我现在要快速做一件事,纯粹为了好玩,在进入正式演讲之前,我要给大家展示这个小技巧。"
+ },
+ {
+  "seg": 51,
+  "start": 189.14,
+  "end": 205.964,
+  "speaker": "Unknown",
+  "en": "So with this weird video capture situation I've got going on, I'm going to go over here to my QuickTime Player, and I'm going to say that I want something that it will not let me do right now.",
+  "zh": "用我现在这个奇怪的视频采集设置,我要到这里的 QuickTime Player,然后说我想做一个它现在不让我做的事情。"
+ },
+ {
+  "seg": 52,
+  "start": 206.004,
+  "end": 209.425,
+  "speaker": "Unknown",
+  "en": "Let me quit QuickTime Player, and let's reopen it.",
+  "zh": "让我退出 QuickTime Player,然后我们重新打开它。"
+ },
+ {
+  "seg": 53,
+  "start": 211.481,
+  "end": 212.202,
+  "speaker": "Unknown",
+  "en": "All right, here we go.",
+  "zh": "好了,来了。"
+ },
+ {
+  "seg": 54,
+  "start": 213.243,
+  "end": 215.825,
+  "speaker": "Unknown",
+  "en": "And let's try and do a new movie recording.",
+  "zh": "我们来试试新建一个影片录制。"
+ },
+ {
+  "seg": 55,
+  "start": 217.486,
+  "end": 218.267,
+  "speaker": "Unknown",
+  "en": "All right, we can see.",
+  "zh": "好了,我们可以看到了。"
+ },
+ {
+  "seg": 56,
+  "start": 218.287,
+  "end": 218.607,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "搞定了。"
+ },
+ {
+  "seg": 57,
+  "start": 218.627,
+  "end": 219.308,
+  "speaker": "Unknown",
+  "en": "You see the claw?",
+  "zh": "你们看到那只爪子了吗?"
+ },
+ {
+  "seg": 58,
+  "start": 219.988,
+  "end": 220.248,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 59,
+  "start": 220.549,
+  "end": 221.369,
+  "speaker": "Unknown",
+  "en": "We don't want to see that.",
+  "zh": "我们不想看到那个爪子。"
+ },
+ {
+  "seg": 60,
+  "start": 221.449,
+  "end": 223.331,
+  "speaker": "Unknown",
+  "en": "We want to see what's on the claw.",
+  "zh": "我们想看到爪子上夹着的东西。"
+ },
+ {
+  "seg": 61,
+  "start": 223.771,
+  "end": 232.178,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do instead is I'm going to use the source will be from the output of this video here.",
+  "zh": "所以我改用的办法是,信号源用这边这个视频的输出。"
+ },
+ {
+  "seg": 62,
+  "start": 232.318,
+  "end": 233.439,
+  "speaker": "Unknown",
+  "en": "All right, so let's power it up.",
+  "zh": "好,我们给它通电。"
+ },
+ {
+  "seg": 63,
+  "start": 234.38,
+  "end": 238.544,
+  "speaker": "Unknown",
+  "en": "And I'll try my best, there we go, to catch it.",
+  "zh": "我会尽力,好了,去抓住它。"
+ },
+ {
+  "seg": 64,
+  "start": 239.443,
+  "end": 240.644,
+  "speaker": "Unknown",
+  "en": "During the boot sequence.",
+  "zh": "在启动过程中。"
+ },
+ {
+  "seg": 65,
+  "start": 240.824,
+  "end": 241.104,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 66,
+  "start": 241.124,
+  "end": 247.587,
+  "speaker": "Unknown",
+  "en": "So I'm going to go here to my, I'm going to change to this USB 3 capture device.",
+  "zh": "所以我要到这里,我要切换到这个 USB 3 采集设备。"
+ },
+ {
+  "seg": 67,
+  "start": 249.568,
+  "end": 253.229,
+  "speaker": "Unknown",
+  "en": "And I'm going to move this around a little bit so we can see it.",
+  "zh": "我要把它挪动一下,好让我们能看到。"
+ },
+ {
+  "seg": 68,
+  "start": 253.809,
+  "end": 263.454,
+  "speaker": "Unknown",
+  "en": "And hopefully, I mean, I can't give you any guarantees, but hopefully what's going to happen is as this guy goes, we're going to see something actually happen.",
+  "zh": "希望——我是说,我没法给你们任何保证,但希望接下来发生的是,随着这个东西启动,我们能真正看到一些画面出现。"
+ },
+ {
+  "seg": 69,
+  "start": 263.474,
+  "end": 266.195,
+  "speaker": "Unknown",
+  "en": "So I'm going to give a little reset to that and back to that.",
+  "zh": "所以我要给它按一下重启,然后回到这个。"
+ },
+ {
+  "seg": 70,
+  "start": 268.545,
+  "end": 270.828,
+  "speaker": "Unknown",
+  "en": "Oh, and we push power on this.",
+  "zh": "哦,我们按下这个的电源键。"
+ },
+ {
+  "seg": 71,
+  "start": 271.328,
+  "end": 272.029,
+  "speaker": "Unknown",
+  "en": "OK, there we go.",
+  "zh": "好,来了。"
+ },
+ {
+  "seg": 72,
+  "start": 272.469,
+  "end": 278.276,
+  "speaker": "Unknown",
+  "en": "All right, so again, hopefully I see power is now flowing through into here.",
+  "zh": "好,再说一次,希望你们能看到,电源现在已经开始输送到这里了。"
+ },
+ {
+  "seg": 73,
+  "start": 278.296,
+  "end": 279.597,
+  "speaker": "Unknown",
+  "en": "OK, oh, something's happening.",
+  "zh": "好,哦,有反应了。"
+ },
+ {
+  "seg": 74,
+  "start": 280.258,
+  "end": 281.539,
+  "speaker": "Unknown",
+  "en": "OK, and.",
+  "zh": "好,然后——"
+ },
+ {
+  "seg": 75,
+  "start": 284.327,
+  "end": 290.11,
+  "speaker": "Unknown",
+  "en": "This gives me high confidence, because I've done this only like one million times, as you can imagine, hacking on this silly thing.",
+  "zh": "这让我信心很足,因为你们可以想象,我大概已经这样搞过一百万次了,一直在折腾这个傻乎乎的小东西。"
+ },
+ {
+  "seg": 76,
+  "start": 290.41,
+  "end": 291.691,
+  "speaker": "Unknown",
+  "en": "OK, Raspberry Pi desktop.",
+  "zh": "好,是 Raspberry Pi 桌面。"
+ },
+ {
+  "seg": 77,
+  "start": 292.091,
+  "end": 292.591,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦,耶。"
+ },
+ {
+  "seg": 78,
+  "start": 292.851,
+  "end": 298.154,
+  "speaker": "Unknown",
+  "en": "So this is a Raspberry Pi 4B, not the latest model, OK?",
+  "zh": "这是一台 Raspberry Pi 4B,不是最新型号,好吧?"
+ },
+ {
+  "seg": 79,
+  "start": 298.754,
+  "end": 300.075,
+  "speaker": "Unknown",
+  "en": "But very serviceable.",
+  "zh": "但非常好用。"
+ },
+ {
+  "seg": 80,
+  "start": 300.435,
+  "end": 307.398,
+  "speaker": "Unknown",
+  "en": "And I was running a 32-bit operating system for a long time until I realized it was 64-bit ARM capable.",
+  "zh": "我很长一段时间里跑的是 32 位操作系统,直到我意识到它是支持 64 位 ARM 的。"
+ },
+ {
+  "seg": 81,
+  "start": 307.459,
+  "end": 308.739,
+  "speaker": "Unknown",
+  "en": "It's pretty cool.",
+  "zh": "挺酷的。"
+ },
+ {
+  "seg": 82,
+  "start": 308.799,
+  "end": 311.981,
+  "speaker": "Unknown",
+  "en": "You can't run everything on this thing, but you can run quite a bit.",
+  "zh": "你不能在这台机器上运行所有东西,但能运行的东西还真不少。"
+ },
+ {
+  "seg": 83,
+  "start": 312.741,
+  "end": 319.045,
+  "speaker": "Unknown",
+  "en": "And we're going to get into exactly what I did put on this to end up getting this presentation together.",
+  "zh": "接下来我们会具体讲我在上面装了什么,才最终把这个演讲做出来的。"
+ },
+ {
+  "seg": 84,
+  "start": 319.685,
+  "end": 319.965,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 85,
+  "start": 320.145,
+  "end": 320.406,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 86,
+  "start": 320.526,
+  "end": 320.746,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 87,
+  "start": 320.766,
+  "end": 321.426,
+  "speaker": "Unknown",
+  "en": "So it's alive.",
+  "zh": "所以它是活的。"
+ },
+ {
+  "seg": 88,
+  "start": 321.446,
+  "end": 324.248,
+  "speaker": "Unknown",
+  "en": "And I've got a little extra Bluetooth keyboard.",
+  "zh": "我还接了一个备用的蓝牙键盘。"
+ },
+ {
+  "seg": 89,
+  "start": 324.268,
+  "end": 325.989,
+  "speaker": "Unknown",
+  "en": "And that's how I can drive things on here.",
+  "zh": "这就是我能在上面操控东西的方式。"
+ },
+ {
+  "seg": 90,
+  "start": 326.049,
+  "end": 328.79,
+  "speaker": "Unknown",
+  "en": "And we will do that in a second.",
+  "zh": "我们等一下就会用到。"
+ },
+ {
+  "seg": 91,
+  "start": 329.711,
+  "end": 335.314,
+  "speaker": "Unknown",
+  "en": "But I mostly just kind of wanted to show you the setup so you could believe that it actually is a real thing.",
+  "zh": "不过我主要就是想让你们看看这个设置,好让你们相信这东西是真的。"
+ },
+ {
+  "seg": 92,
+  "start": 338.631,
+  "end": 339.011,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 93,
+  "start": 339.151,
+  "end": 339.391,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 94,
+  "start": 339.511,
+  "end": 341.132,
+  "speaker": "Unknown",
+  "en": "So now I'm going to get into the presentation.",
+  "zh": "所以现在我要进入正式演讲了。"
+ },
+ {
+  "seg": 95,
+  "start": 341.412,
+  "end": 341.812,
+  "speaker": "Unknown",
+  "en": "We'll come here.",
+  "zh": "我们切到这里。"
+ },
+ {
+  "seg": 96,
+  "start": 341.832,
+  "end": 342.212,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 97,
+  "start": 342.272,
+  "end": 347.873,
+  "speaker": "Unknown",
+  "en": "I'll come back to this pie here in just a second after I open up.",
+  "zh": "我打开之后,马上就会回到这个派(pie)这里。"
+ },
+ {
+  "seg": 98,
+  "start": 347.913,
+  "end": 348.293,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 99,
+  "start": 348.793,
+  "end": 358.375,
+  "speaker": "Unknown",
+  "en": "And just to give you a flavor, this one has NanoClaw, but it also has Docker on here, and I'm running Neo4j on here.",
+  "zh": "先给你们一个直观感受,这台上面有 NanoClaw,但它上面还装了 Docker,而且我还在上面跑着 Neo4j。"
+ },
+ {
+  "seg": 100,
+  "start": 358.395,
+  "end": 361.036,
+  "speaker": "Unknown",
+  "en": "I've got a little Docker-based Neo4j database.",
+  "zh": "我有一个基于 Docker 的小型 Neo4j 数据库。"
+ },
+ {
+  "seg": 101,
+  "start": 361.096,
+  "end": 366.357,
+  "speaker": "Unknown",
+  "en": "OK. Now let's continue with the talk, and we'll get back to the claw in a minute.",
+  "zh": "好。现在我们继续演讲,稍后再回到这只 claw 上来。"
+ },
+ {
+  "seg": 102,
+  "start": 368.097,
+  "end": 368.818,
+  "speaker": "Unknown",
+  "en": "Small claw.",
+  "zh": "小 claw。"
+ },
+ {
+  "seg": 103,
+  "start": 369.218,
+  "end": 371.499,
+  "speaker": "Unknown",
+  "en": "I said small claws are beautiful.",
+  "zh": "我说过,小 claw 是美丽的。"
+ },
+ {
+  "seg": 104,
+  "start": 371.559,
+  "end": 372.58,
+  "speaker": "Unknown",
+  "en": "What did I mean by that?",
+  "zh": "我这话是什么意思?"
+ },
+ {
+  "seg": 105,
+  "start": 373.1,
+  "end": 379.685,
+  "speaker": "Unknown",
+  "en": "Well, there was a lot of hype happening and still is about these personal agents, but I did not want one that was on my laptop.",
+  "zh": "嗯,当时有很多关于这类个人智能体的炒作,现在也还有,但我不想要一个装在我笔记本电脑上的。"
+ },
+ {
+  "seg": 106,
+  "start": 379.805,
+  "end": 380.305,
+  "speaker": "Unknown",
+  "en": "I'm sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 107,
+  "start": 380.325,
+  "end": 381.606,
+  "speaker": "Unknown",
+  "en": "I'm a little conservative.",
+  "zh": "我有点保守。"
+ },
+ {
+  "seg": 108,
+  "start": 381.886,
+  "end": 384.428,
+  "speaker": "Unknown",
+  "en": "I come from the old kind of sysadmin DevOps space.",
+  "zh": "我来自老式的 sysadmin DevOps 领域。"
+ },
+ {
+  "seg": 109,
+  "start": 384.708,
+  "end": 388.29,
+  "speaker": "Unknown",
+  "en": "I'm like, I want to wait for this stuff to be really solid before I do something like that.",
+  "zh": "我就是那种,想等这些东西真正稳固之后再去搞这种事。"
+ },
+ {
+  "seg": 110,
+  "start": 388.731,
+  "end": 389.972,
+  "speaker": "Unknown",
+  "en": "But I also want it to be cheap.",
+  "zh": "但我也想让它便宜。"
+ },
+ {
+  "seg": 111,
+  "start": 390.752,
+  "end": 393.153,
+  "speaker": "Unknown",
+  "en": "Open, hackable, right?",
+  "zh": "开放、可折腾,对吧?"
+ },
+ {
+  "seg": 112,
+  "start": 393.473,
+  "end": 397.514,
+  "speaker": "Unknown",
+  "en": "And for me, I wanted to understand what was happening more than it being feature-rich.",
+  "zh": "而对我来说,我更想理解发生了什么,而不是它功能丰富。"
+ },
+ {
+  "seg": 113,
+  "start": 397.994,
+  "end": 399.034,
+  "speaker": "Unknown",
+  "en": "That was more important to me.",
+  "zh": "那对我更重要。"
+ },
+ {
+  "seg": 114,
+  "start": 399.454,
+  "end": 402.755,
+  "speaker": "Unknown",
+  "en": "And so I went and I saw, like, I live in Portland, Oregon.",
+  "zh": "于是我去看了看,比如,我住在俄勒冈州的波特兰。"
+ },
+ {
+  "seg": 115,
+  "start": 402.795,
+  "end": 403.795,
+  "speaker": "Unknown",
+  "en": "I looked on Craigslist.",
+  "zh": "我在 Craigslist 上搜了搜。"
+ },
+ {
+  "seg": 116,
+  "start": 403.835,
+  "end": 407.396,
+  "speaker": "Unknown",
+  "en": "Somebody is selling a Mac Mini with OpenClaw pre-installed.",
+  "zh": "有人在卖一台预装了 OpenClaw 的 Mac Mini。"
+ },
+ {
+  "seg": 117,
+  "start": 407.416,
+  "end": 408.816,
+  "speaker": "Unknown",
+  "en": "I'm already like, pre-installed?",
+  "zh": "我当时就想,预装?"
+ },
+ {
+  "seg": 118,
+  "start": 408.856,
+  "end": 409.977,
+  "speaker": "Unknown",
+  "en": "That's a red flag.",
+  "zh": "那是个危险信号。"
+ },
+ {
+  "seg": 119,
+  "start": 410.477,
+  "end": 417.438,
+  "speaker": "Unknown",
+  "en": "And Mac Mini could be cool, but I know now it's not going to be $600 anymore with the recent price increases, right?",
+  "zh": "Mac Mini 本来可能挺酷的,但现在我知道,经过最近的涨价,它不再是 600 美元了,对吧?"
+ },
+ {
+  "seg": 120,
+  "start": 417.458,
+  "end": 420.319,
+  "speaker": "Unknown",
+  "en": "So that's not a small claw as far as I'm concerned.",
+  "zh": "所以在我看来,那不是一只小 claw。"
+ },
+ {
+  "seg": 121,
+  "start": 420.679,
+  "end": 434.712,
+  "speaker": "Unknown",
+  "en": "So then I reached back, and this is, I did, I think it's pandemic, or at the end of the pandemic, I did something where I was hacking with this very Raspberry Pi, doing something like measuring the weight of the dishes in your sink to tell you you should wash the dishes.",
+  "zh": "然后我回想起,这是,我想是疫情期间,或者疫情快结束的时候,我用这台一模一样的树莓 Pi 搞过一些东西,做了类似测量你水槽里碗碟重量来告诉你该洗碗了这种事。"
+ },
+ {
+  "seg": 122,
+  "start": 435.152,
+  "end": 438.055,
+  "speaker": "Unknown",
+  "en": "Anyway, you can check out the video there if you like that kind of nonsense.",
+  "zh": "总之,如果你喜欢那种无厘头的东西,可以去看看那个视频。"
+ },
+ {
+  "seg": 123,
+  "start": 438.375,
+  "end": 440.557,
+  "speaker": "Unknown",
+  "en": "But that's this exact guy, and I saw it, and I said,",
+  "zh": "但就是这台家伙,我看到了它,然后我说,"
+ },
+ {
+  "seg": 124,
+  "start": 440.737,
+  "end": 441.978,
+  "speaker": "Unknown",
+  "en": "I have this in the closet.",
+  "zh": "我有一个在柜子里。"
+ },
+ {
+  "seg": 125,
+  "start": 442.339,
+  "end": 443.4,
+  "speaker": "Unknown",
+  "en": "Will it claw?",
+  "zh": "它能 claw 吗?"
+ },
+ {
+  "seg": 126,
+  "start": 443.56,
+  "end": 444.1,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 127,
+  "start": 444.18,
+  "end": 445.341,
+  "speaker": "Unknown",
+  "en": "I should try it and see.",
+  "zh": "我应该试试看。"
+ },
+ {
+  "seg": 128,
+  "start": 445.962,
+  "end": 448.624,
+  "speaker": "Unknown",
+  "en": "And yeah, it claws real good.",
+  "zh": "然后呢,它 claw 得相当好。"
+ },
+ {
+  "seg": 129,
+  "start": 450.846,
+  "end": 452.288,
+  "speaker": "Unknown",
+  "en": "It's not a sticker.",
+  "zh": "那不是个贴纸。"
+ },
+ {
+  "seg": 130,
+  "start": 452.348,
+  "end": 457.853,
+  "speaker": "Unknown",
+  "en": "It's more like me Photoshopping a claw on there that's like, oh, maybe someday.",
+  "zh": "更像是我用 Photoshop 把一只 claw P 上去了,意思是,哦,也许某天吧。"
+ },
+ {
+  "seg": 131,
+  "start": 458.293,
+  "end": 461.916,
+  "speaker": "Unknown",
+  "en": "I could actually do something really cool with this.",
+  "zh": "我真的可以用它做出很酷的东西。"
+ },
+ {
+  "seg": 132,
+  "start": 462.357,
+  "end": 463.498,
+  "speaker": "Unknown",
+  "en": "But you see my old setup.",
+  "zh": "但你看到了我的旧配置。"
+ },
+ {
+  "seg": 133,
+  "start": 463.538,
+  "end": 465.44,
+  "speaker": "Unknown",
+  "en": "I have this external monitor.",
+  "zh": "我有这个外接显示器。"
+ },
+ {
+  "seg": 134,
+  "start": 465.96,
+  "end": 467.381,
+  "speaker": "Unknown",
+  "en": "I've got my external keyboard.",
+  "zh": "我有我的外接键盘。"
+ },
+ {
+  "seg": 135,
+  "start": 467.401,
+  "end": 469.243,
+  "speaker": "Unknown",
+  "en": "There's a mouse-off screen and everything.",
+  "zh": "还有鼠标、屏幕等等一大堆。"
+ },
+ {
+  "seg": 136,
+  "start": 469.503,
+  "end": 471.525,
+  "speaker": "Unknown",
+  "en": "This guy is a game-changer right here.",
+  "zh": "而这家伙就是改变游戏规则的东西。"
+ },
+ {
+  "seg": 137,
+  "start": 471.625,
+  "end": 473.807,
+  "speaker": "Unknown",
+  "en": "It's so sleek now.",
+  "zh": "它现在非常轻薄了。"
+ },
+ {
+  "seg": 138,
+  "start": 474.508,
+  "end": 477.631,
+  "speaker": "Unknown",
+  "en": "It's got onboard Wi-Fi, which is great, or you can plug into wired.",
+  "zh": "它有板载 Wi-Fi,这很棒,或者你也可以插网线。"
+ },
+ {
+  "seg": 139,
+  "start": 477.671,
+  "end": 479.713,
+  "speaker": "Unknown",
+  "en": "So hopefully, I'm actually on the network.",
+  "zh": "所以希望如此,我现在实际上是连在网络上的。"
+ },
+ {
+  "seg": 140,
+  "start": 479.733,
+  "end": 481.094,
+  "speaker": "Unknown",
+  "en": "We'll have to check that in a second.",
+  "zh": "我们得稍后确认一下。"
+ },
+ {
+  "seg": 141,
+  "start": 482.375,
+  "end": 482.455,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 142,
+  "start": 483.434,
+  "end": 487.438,
+  "speaker": "Unknown",
+  "en": "And then in addition, I used NanoClaw.",
+  "zh": "另外我用的是 NanoClaw。"
+ },
+ {
+  "seg": 143,
+  "start": 487.678,
+  "end": 489.08,
+  "speaker": "Unknown",
+  "en": "So I didn't use OpenClaw.",
+  "zh": "所以我没用 OpenClaw。"
+ },
+ {
+  "seg": 144,
+  "start": 489.46,
+  "end": 495.006,
+  "speaker": "Unknown",
+  "en": "I found this other project that more suited my tastes because it was like 15 source files.",
+  "zh": "我找到了另一个更符合我口味的项目,因为它只有大约 15 个源文件。"
+ },
+ {
+  "seg": 145,
+  "start": 495.466,
+  "end": 498.449,
+  "speaker": "Unknown",
+  "en": "And it was quite compact and small number of lines of code.",
+  "zh": "它相当紧凑,代码行数很少。"
+ },
+ {
+  "seg": 146,
+  "start": 498.689,
+  "end": 503.995,
+  "speaker": "Unknown",
+  "en": "It just used Docker containers to run the agent processes so they couldn't run amok on the system.",
+  "zh": "它只是用 Docker 容器来运行智能体进程,这样它们就没法在系统里横冲直撞。"
+ },
+ {
+  "seg": 147,
+  "start": 504.155,
+  "end": 505.996,
+  "speaker": "Unknown",
+  "en": "I was like, OK, this is my kind of thing.",
+  "zh": "我当时就想,好,这就是我喜欢的类型。"
+ },
+ {
+  "seg": 148,
+  "start": 506.336,
+  "end": 507.377,
+  "speaker": "Unknown",
+  "en": "So I said, I'm going for it.",
+  "zh": "所以我说,我要上了。"
+ },
+ {
+  "seg": 149,
+  "start": 508.277,
+  "end": 510.999,
+  "speaker": "Unknown",
+  "en": "And so I liked the other boxes that checked for me.",
+  "zh": "于是我喜欢它为我勾选的其他那些框。"
+ },
+ {
+  "seg": 150,
+  "start": 511.139,
+  "end": 512.68,
+  "speaker": "Unknown",
+  "en": "I could run Linux on here.",
+  "zh": "我可以在上面跑 Linux。"
+ },
+ {
+  "seg": 151,
+  "start": 512.74,
+  "end": 514.481,
+  "speaker": "Unknown",
+  "en": "It's got Docker, I understand.",
+  "zh": "它有 Docker,我明白了。"
+ },
+ {
+  "seg": 152,
+  "start": 515.522,
+  "end": 518.684,
+  "speaker": "Unknown",
+  "en": "It was based on Claude Agent SDK, NanoClaude.",
+  "zh": "它是基于 Claude Agent SDK 做的，NanoClaude。"
+ },
+ {
+  "seg": 153,
+  "start": 518.964,
+  "end": 523.146,
+  "speaker": "Unknown",
+  "en": "And they actually encourage you, modify it, use Claude Code.",
+  "zh": "而且他们真的鼓励你，去修改它，去用 Claude Code。"
+ },
+ {
+  "seg": 154,
+  "start": 523.166,
+  "end": 524.167,
+  "speaker": "Unknown",
+  "en": "We've got skills in there.",
+  "zh": "我们在里面放了技能(skills)。"
+ },
+ {
+  "seg": 155,
+  "start": 524.307,
+  "end": 524.948,
+  "speaker": "Unknown",
+  "en": "Hack on it.",
+  "zh": "去折腾它吧。"
+ },
+ {
+  "seg": 156,
+  "start": 525.028,
+  "end": 525.828,
+  "speaker": "Unknown",
+  "en": "Make it work for you.",
+  "zh": "让它为你所用。"
+ },
+ {
+  "seg": 157,
+  "start": 526.368,
+  "end": 529.41,
+  "speaker": "Unknown",
+  "en": "And use messaging, like Telegram if you want.",
+  "zh": "还可以用消息工具，比如你想要的话用 Telegram。"
+ },
+ {
+  "seg": 158,
+  "start": 529.931,
+  "end": 532.752,
+  "speaker": "Unknown",
+  "en": "But I was like, well, I had WhatsApp on my phone, so I'll just use WhatsApp.",
+  "zh": "但我心想，嗯，我手机上装的是 WhatsApp,所以我就直接用 WhatsApp 了。"
+ },
+ {
+  "seg": 159,
+  "start": 533.072,
+  "end": 533.413,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 160,
+  "start": 534.093,
+  "end": 536.115,
+  "speaker": "Unknown",
+  "en": "So the initial architecture was something like this.",
+  "zh": "所以最初的架构大概是这样的。"
+ },
+ {
+  "seg": 161,
+  "start": 536.536,
+  "end": 544.724,
+  "speaker": "Unknown",
+  "en": "To go from my iPhone or my MacBook, WhatsApp, you know, and then go through and talk to Nanoclaw on this Raspberry Pi.",
+  "zh": "从我的 iPhone 或者我的 MacBook,通过 WhatsApp,你知道吗，然后一路过去，和这台树莓派上的 Nanoclaw 通信。"
+ },
+ {
+  "seg": 162,
+  "start": 544.864,
+  "end": 545.225,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就这么简单。"
+ },
+ {
+  "seg": 163,
+  "start": 545.525,
+  "end": 547.147,
+  "speaker": "Unknown",
+  "en": "And you just had to get, like, a credential.",
+  "zh": "你只需要拿到，比如说，一个凭证。"
+ },
+ {
+  "seg": 164,
+  "start": 547.207,
+  "end": 549.449,
+  "speaker": "Unknown",
+  "en": "You go on the Nanoclaw and you get it to register.",
+  "zh": "你去 Nanoclaw 上，让它注册。"
+ },
+ {
+  "seg": 165,
+  "start": 549.489,
+  "end": 551.271,
+  "speaker": "Unknown",
+  "en": "So now, you know, WhatsApp's in the cloud.",
+  "zh": "这样一来，你知道吗，WhatsApp 就在云端了。"
+ },
+ {
+  "seg": 166,
+  "start": 551.551,
+  "end": 553.573,
+  "speaker": "Unknown",
+  "en": "And this thing can pull messages down from it.",
+  "zh": "而这个东西可以从上面拉取消息。"
+ },
+ {
+  "seg": 167,
+  "start": 554.134,
+  "end": 558.158,
+  "speaker": "Unknown",
+  "en": "And of course, on board, I say we're using Claude stuff in the background.",
+  "zh": "当然，在板子上，我说过我们在后台用的是 Claude 的东西。"
+ },
+ {
+  "seg": 168,
+  "start": 558.479,
+  "end": 559.7,
+  "speaker": "Unknown",
+  "en": "So you got all the power.",
+  "zh": "所以你拥有全部的算力。"
+ },
+ {
+  "seg": 169,
+  "start": 559.72,
+  "end": 563.104,
+  "speaker": "Unknown",
+  "en": "There's no inference, no LLM inference happening on this thing.",
+  "zh": "这上面没有发生推理，没有 LLM 推理。"
+ },
+ {
+  "seg": 170,
+  "start": 563.384,
+  "end": 565.646,
+  "speaker": "Unknown",
+  "en": "I am using the cloud for all that.",
+  "zh": "那些我全都是用云端做的。"
+ },
+ {
+  "seg": 171,
+  "start": 565.927,
+  "end": 570.271,
+  "speaker": "Unknown",
+  "en": "So I've got a big brain, though it's over a wire to the cloud, right?",
+  "zh": "所以我有一个大脑袋，只不过它是通过一根线连到云端的，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 570.972,
+  "end": 573.514,
+  "speaker": "Unknown",
+  "en": "But then I said, well, what can I do with this?",
+  "zh": "然后我说，嗯，我能拿这个做什么呢？"
+ },
+ {
+  "seg": 173,
+  "start": 574.415,
+  "end": 578.638,
+  "speaker": "Unknown",
+  "en": "I've got also in the cloud, I also have Neo4j.",
+  "zh": "在云端我还有一个 Neo4j。"
+ },
+ {
+  "seg": 174,
+  "start": 579.098,
+  "end": 580.92,
+  "speaker": "Unknown",
+  "en": "I've got Neo4j database up there.",
+  "zh": "我在上面有一个 Neo4j 数据库。"
+ },
+ {
+  "seg": 175,
+  "start": 581.28,
+  "end": 585.503,
+  "speaker": "Unknown",
+  "en": "And for the folks here that have never done graph before, this is your graph 101.",
+  "zh": "对于这里从没做过图数据库的朋友们，这就是你们的图数据库入门 101。"
+ },
+ {
+  "seg": 176,
+  "start": 585.784,
+  "end": 586.824,
+  "speaker": "Unknown",
+  "en": "There is a small graph.",
+  "zh": "这就是一个小图。"
+ },
+ {
+  "seg": 177,
+  "start": 587.225,
+  "end": 587.925,
+  "speaker": "Unknown",
+  "en": "And this is a graph.",
+  "zh": "这就是一个图。"
+ },
+ {
+  "seg": 178,
+  "start": 587.945,
+  "end": 589.506,
+  "speaker": "Unknown",
+  "en": "Can you see which ones are the nodes?",
+  "zh": "你们能看出哪些是节点吗？"
+ },
+ {
+  "seg": 179,
+  "start": 590.307,
+  "end": 590.487,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 180,
+  "start": 590.507,
+  "end": 591.107,
+  "speaker": "Unknown",
+  "en": "The round ones.",
+  "zh": "那些圆形的。"
+ },
+ {
+  "seg": 181,
+  "start": 591.148,
+  "end": 593.449,
+  "speaker": "Unknown",
+  "en": "And you see the relationships, the edges between them.",
+  "zh": "然后你们能看到关系，也就是它们之间的边。"
+ },
+ {
+  "seg": 182,
+  "start": 593.929,
+  "end": 597.191,
+  "speaker": "Unknown",
+  "en": "So there's two person nodes and a movie node.",
+  "zh": "所以这里有两个 person(人)节点和一个 movie(电影)节点。"
+ },
+ {
+  "seg": 183,
+  "start": 597.491,
+  "end": 600.372,
+  "speaker": "Unknown",
+  "en": "And Tom Hanks, the person, acted in.",
+  "zh": "Tom Hanks 这个人，出演了。"
+ },
+ {
+  "seg": 184,
+  "start": 600.632,
+  "end": 603.094,
+  "speaker": "Unknown",
+  "en": "Forrest Gump and Robert Zemeckis directed it.",
+  "zh": "《阿甘正传》，而 Robert Zemeckis 导演了它。"
+ },
+ {
+  "seg": 185,
+  "start": 603.654,
+  "end": 604.074,
+  "speaker": "Unknown",
+  "en": "Pretty easy.",
+  "zh": "很简单。"
+ },
+ {
+  "seg": 186,
+  "start": 604.094,
+  "end": 604.434,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 187,
+  "start": 604.515,
+  "end": 605.295,
+  "speaker": "Unknown",
+  "en": "Now you know graphs.",
+  "zh": "现在你们懂图了。"
+ },
+ {
+  "seg": 188,
+  "start": 605.735,
+  "end": 613.04,
+  "speaker": "Unknown",
+  "en": "So I asked in a WhatsApp message once I had this database full of movies and I had my Claude connected.",
+  "zh": "所以当我把这个数据库装满了电影、并且把我的 Claude 连接好之后，我用一条 WhatsApp 消息问它。"
+ },
+ {
+  "seg": 189,
+  "start": 613.06,
+  "end": 615.622,
+  "speaker": "Unknown",
+  "en": "I'm like, hey, tell me what movies Tom Hanks acted in.",
+  "zh": "我说，嘿，告诉我 Tom Hanks 出演过哪些电影。"
+ },
+ {
+  "seg": 190,
+  "start": 616.162,
+  "end": 623.967,
+  "speaker": "Unknown",
+  "en": "And it went through there with an MCP server connecting into my Neo4j instance with the movie database in there.",
+  "zh": "它就通过一个 MCP 服务器连进我的 Neo4j 实例，里面放着那个电影数据库，然后进去查询。"
+ },
+ {
+  "seg": 191,
+  "start": 624.347,
+  "end": 626.048,
+  "speaker": "Unknown",
+  "en": "And then it responded back to me.",
+  "zh": "然后它回复了我。"
+ },
+ {
+  "seg": 192,
+  "start": 626.128,
+  "end": 629.07,
+  "speaker": "Unknown",
+  "en": "It's like, oh, well, first, your stuff's not set up right.",
+  "zh": "它说，哦，首先，你的东西没设置好。"
+ },
+ {
+  "seg": 193,
+  "start": 629.17,
+  "end": 629.731,
+  "speaker": "Unknown",
+  "en": "It's broken.",
+  "zh": "它坏了。"
+ },
+ {
+  "seg": 194,
+  "start": 629.871,
+  "end": 631.692,
+  "speaker": "Unknown",
+  "en": "I'm like, oh, OK, let me fix it.",
+  "zh": "我说，哦，好，我来修一下。"
+ },
+ {
+  "seg": 195,
+  "start": 632.052,
+  "end": 636.655,
+  "speaker": "Unknown",
+  "en": "So I got on the Claude, made sure Auth was working, and then I got a bunch of results back on the right there.",
+  "zh": "于是我上了 Claude,确认认证(Auth)正常工作，然后我在右边拿到了一堆结果。"
+ },
+ {
+  "seg": 196,
+  "start": 637.235,
+  "end": 646.161,
+  "speaker": "Unknown",
+  "en": "And those all came right out of pulling data from the database, feeding it back up through the Claude Agent SDK, forming a response, and sending it back through the WhatsApp channel.",
+  "zh": "这些全都是从数据库里拉取数据，再通过 Claude Agent SDK 回传上去，组织成一个响应，然后通过 WhatsApp 通道发回来得到的。"
+ },
+ {
+  "seg": 197,
+  "start": 646.802,
+  "end": 647.142,
+  "speaker": "Unknown",
+  "en": "Got it?",
+  "zh": "明白了吗？"
+ },
+ {
+  "seg": 198,
+  "start": 647.642,
+  "end": 649.723,
+  "speaker": "Unknown",
+  "en": "So then I was like, well, what else could I do with this?",
+  "zh": "然后我就想，嗯，我还能用这个做什么呢？"
+ },
+ {
+  "seg": 199,
+  "start": 649.743,
+  "end": 657.326,
+  "speaker": "Unknown",
+  "en": "And I'm on the airplane, and I found that even without paying for Wi-Fi, I could use the messaging stuff, and WhatsApp was working.",
+  "zh": "我在飞机上，我发现即使不付费买 Wi-Fi,我也能用消息功能，WhatsApp 是能用的。"
+ },
+ {
+  "seg": 200,
+  "start": 657.586,
+  "end": 660.107,
+  "speaker": "Unknown",
+  "en": "I was like, oh my god, I could talk to Claude right now.",
+  "zh": "我当时的反应是,天哪,我现在就可以和 Claude 对话。"
+ },
+ {
+  "seg": 201,
+  "start": 660.548,
+  "end": 663.089,
+  "speaker": "Unknown",
+  "en": "So I was like, hey, could I do memory?",
+  "zh": "所以我就说,嘿,我能做记忆吗?"
+ },
+ {
+  "seg": 202,
+  "start": 664.029,
+  "end": 670.013,
+  "speaker": "Unknown",
+  "en": "And I said, well, I'm not exactly sure what I want, but I was reading blog posts about this thing called Poll plus O.",
+  "zh": "然后我说,呃,我不太确定我想要什么,但我正在读关于一个叫 Poll plus O 的东西的博客文章。"
+ },
+ {
+  "seg": 203,
+  "start": 670.434,
+  "end": 678.139,
+  "speaker": "Unknown",
+  "en": "So this is a way of doing memory where you just think of like person, object, location, event, and organization, right?",
+  "zh": "所以这是一种做记忆的方式,你只需想着人物、物体、地点、事件和组织,对吧?"
+ },
+ {
+  "seg": 204,
+  "start": 678.519,
+  "end": 680.881,
+  "speaker": "Unknown",
+  "en": "And this actually came from the European policing",
+  "zh": "而这实际上来自欧洲警务"
+ },
+ {
+  "seg": 205,
+  "start": 681.281,
+  "end": 683.644,
+  "speaker": "Unknown",
+  "en": "And those folks have been drawing graphs for a long time.",
+  "zh": "那些人画图已经画了很久了。"
+ },
+ {
+  "seg": 206,
+  "start": 683.684,
+  "end": 687.728,
+  "speaker": "Unknown",
+  "en": "And every one of your favorite cop shows that does a string diagram, right?",
+  "zh": "你的每一部最喜欢的警匪剧,只要做关系图的,对吧?"
+ },
+ {
+  "seg": 207,
+  "start": 688.048,
+  "end": 689.61,
+  "speaker": "Unknown",
+  "en": "And so then I just was on the plane.",
+  "zh": "然后我当时就在飞机上。"
+ },
+ {
+  "seg": 208,
+  "start": 689.63,
+  "end": 693.334,
+  "speaker": "Unknown",
+  "en": "I'm like, hey, can we build a memory system using pole plus O?",
+  "zh": "我就想,嘿,我们能不能用 pole plus O 做一个记忆系统?"
+ },
+ {
+  "seg": 209,
+  "start": 693.394,
+  "end": 694.815,
+  "speaker": "Unknown",
+  "en": "And then it's like, yeah, sure.",
+  "zh": "然后它就说,嗯,当然可以。"
+ },
+ {
+  "seg": 210,
+  "start": 694.835,
+  "end": 695.396,
+  "speaker": "Unknown",
+  "en": "Yeah, we can do it.",
+  "zh": "对,我们能做。"
+ },
+ {
+  "seg": 211,
+  "start": 695.416,
+  "end": 696.937,
+  "speaker": "Unknown",
+  "en": "I'm going to write a skill for that right now.",
+  "zh": "我现在就为此写一个 skill。"
+ },
+ {
+  "seg": 212,
+  "start": 696.978,
+  "end": 698.339,
+  "speaker": "Unknown",
+  "en": "I've got this mount point.",
+  "zh": "我有这个挂载点。"
+ },
+ {
+  "seg": 213,
+  "start": 698.379,
+  "end": 700.021,
+  "speaker": "Unknown",
+  "en": "It'll persist even when you reboot me.",
+  "zh": "即使你重启我,它也会持久保存。"
+ },
+ {
+  "seg": 214,
+  "start": 700.061,
+  "end": 700.501,
+  "speaker": "Unknown",
+  "en": "No problem.",
+  "zh": "没问题。"
+ },
+ {
+  "seg": 215,
+  "start": 700.802,
+  "end": 701.963,
+  "speaker": "Unknown",
+  "en": "I was like, this is amazing.",
+  "zh": "我当时就想,这太神奇了。"
+ },
+ {
+  "seg": 216,
+  "start": 702.303,
+  "end": 705.525,
+  "speaker": "Unknown",
+  "en": "And so now I have this thing where I've got Neo4j in the cloud.",
+  "zh": "所以现在我有这么一个东西,我在云端有 Neo4j。"
+ },
+ {
+  "seg": 217,
+  "start": 705.765,
+  "end": 717.612,
+  "speaker": "Unknown",
+  "en": "I've got this new memory database with this super advanced schema, memories and related things, very early, you know, before Karpathy's wikis and after Obsidian.",
+  "zh": "我有这个新的记忆数据库,带这个超级先进的 schema,记忆和相关的条目,非常早期,你知道,在 Karpathy 的 wiki 之前,在 Obsidian 之后。"
+ },
+ {
+  "seg": 218,
+  "start": 717.652,
+  "end": 718.933,
+  "speaker": "Unknown",
+  "en": "But, you know, you get the idea.",
+  "zh": "但是,你知道,你懂这个意思就行。"
+ },
+ {
+  "seg": 219,
+  "start": 719.293,
+  "end": 720.114,
+  "speaker": "Unknown",
+  "en": "It's that kind of thing.",
+  "zh": "就是那种东西。"
+ },
+ {
+  "seg": 220,
+  "start": 720.394,
+  "end": 725.497,
+  "speaker": "Unknown",
+  "en": "And this is what ends up being in Neo4j, memory nodes that show, like, places I was going.",
+  "zh": "这就是最终进入 Neo4j 里的东西,记忆节点显示,比如,我去过的地方。"
+ },
+ {
+  "seg": 221,
+  "start": 725.517,
+  "end": 730.4,
+  "speaker": "Unknown",
+  "en": "And as I went to do little DevRel events, I was having this thing recorded for me and all that.",
+  "zh": "当我去参加一些小的 DevRel 活动时,我让这个东西替我记录下来,等等。"
+ },
+ {
+  "seg": 222,
+  "start": 730.76,
+  "end": 733.883,
+  "speaker": "Unknown",
+  "en": "So then we can actually jump in and look at this database.",
+  "zh": "所以我们实际上可以跳进去看看这个数据库。"
+ },
+ {
+  "seg": 223,
+  "start": 734.284,
+  "end": 738.888,
+  "speaker": "Unknown",
+  "en": "So I'm going to go over here to the web browser, which I'm already in.",
+  "zh": "所以我要到这里来,到网页浏览器,我已经在里面了。"
+ },
+ {
+  "seg": 224,
+  "start": 739.308,
+  "end": 740.99,
+  "speaker": "Unknown",
+  "en": "But I'm going to go over to this other tab.",
+  "zh": "但我要切到另一个标签页。"
+ },
+ {
+  "seg": 225,
+  "start": 741.29,
+  "end": 743.813,
+  "speaker": "Unknown",
+  "en": "And over here, I've got Neo4j Aura.",
+  "zh": "在这里,我有 Neo4j Aura。"
+ },
+ {
+  "seg": 226,
+  "start": 744.453,
+  "end": 746.015,
+  "speaker": "Unknown",
+  "en": "And I've got this demo instance.",
+  "zh": "我有这个演示实例。"
+ },
+ {
+  "seg": 227,
+  "start": 746.075,
+  "end": 747.496,
+  "speaker": "Unknown",
+  "en": "I'm going to connect to it in Query.",
+  "zh": "我要在 Query 里连接到它。"
+ },
+ {
+  "seg": 228,
+  "start": 747.877,
+  "end": 751.16,
+  "speaker": "Unknown",
+  "en": "And this is where I've been storing all this information kind of over time.",
+  "zh": "这就是我随时间存储所有这些信息的地方。"
+ },
+ {
+  "seg": 229,
+  "start": 751.78,
+  "end": 753.882,
+  "speaker": "Unknown",
+  "en": "And so I'm going to jump in and show you",
+  "zh": "所以我要跳进去给你们展示"
+ },
+ {
+  "seg": 230,
+  "start": 755.213,
+  "end": 757.096,
+  "speaker": "Unknown",
+  "en": "The memory nodes, I got a bunch of stuff.",
+  "zh": "记忆节点,我有一堆东西。"
+ },
+ {
+  "seg": 231,
+  "start": 757.136,
+  "end": 760.12,
+  "speaker": "Unknown",
+  "en": "It's got a little bit of a dumping ground in here, I admit.",
+  "zh": "我承认这里面有一点点像垃圾场。"
+ },
+ {
+  "seg": 232,
+  "start": 760.961,
+  "end": 763.745,
+  "speaker": "Unknown",
+  "en": "And here's the memories.",
+  "zh": "这里是记忆。"
+ },
+ {
+  "seg": 233,
+  "start": 764.085,
+  "end": 767.33,
+  "speaker": "Unknown",
+  "en": "So these are those original memory types that I had in here.",
+  "zh": "所以这些就是我在这里放的那些原始记忆类型。"
+ },
+ {
+  "seg": 234,
+  "start": 767.791,
+  "end": 769.713,
+  "speaker": "Unknown",
+  "en": "And I actually want to show you the memories.",
+  "zh": "我其实想给你们看这些记忆。"
+ },
+ {
+  "seg": 235,
+  "start": 770.094,
+  "end": 771.756,
+  "speaker": "Unknown",
+  "en": "I want to show you all the memories",
+  "zh": "我想给你们展示所有记忆"
+ },
+ {
+  "seg": 236,
+  "start": 772.837,
+  "end": 774.659,
+  "speaker": "Unknown",
+  "en": "As they're connected to other things.",
+  "zh": "它们与其他事物连接的样子。"
+ },
+ {
+  "seg": 237,
+  "start": 775.539,
+  "end": 776.84,
+  "speaker": "Unknown",
+  "en": "And I'm going to run that.",
+  "zh": "我要运行它。"
+ },
+ {
+  "seg": 238,
+  "start": 776.941,
+  "end": 779.402,
+  "speaker": "Unknown",
+  "en": "So you can see more like the connected graph.",
+  "zh": "这样你就能看到更像连接图的样子。"
+ },
+ {
+  "seg": 239,
+  "start": 779.763,
+  "end": 788.93,
+  "speaker": "Unknown",
+  "en": "And as I zoom in on this thing, you can see there's like me going to, there's, you know, talking to a person, going to the Snowflake office in Menlo Park.",
+  "zh": "当我放大这个东西时,你可以看到,比如我去,有,你知道,和某个人交谈,去门洛帕克的 Snowflake 办公室。"
+ },
+ {
+  "seg": 240,
+  "start": 789.29,
+  "end": 792.553,
+  "speaker": "Unknown",
+  "en": "Menlo Park is itself a location in that framework.",
+  "zh": "门洛帕克本身在那个框架里就是一个地点。"
+ },
+ {
+  "seg": 241,
+  "start": 793.053,
+  "end": 797.116,
+  "speaker": "Unknown",
+  "en": "And then I was at a certain AI meetup event, right?",
+  "zh": "然后我参加了一个某个 AI 聚会活动,对吧?"
+ },
+ {
+  "seg": 242,
+  "start": 797.136,
+  "end": 797.817,
+  "speaker": "Unknown",
+  "en": "So it follows.",
+  "zh": "所以它是连贯的。"
+ },
+ {
+  "seg": 243,
+  "start": 797.837,
+  "end": 801.62,
+  "speaker": "Unknown",
+  "en": "And there's people in here like Rebecca, like Jeremy, there's different people.",
+  "zh": "这里面还有像 Rebecca、Jeremy 这样的人,有不同的人。"
+ },
+ {
+  "seg": 244,
+  "start": 801.94,
+  "end": 802.101,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 245,
+  "start": 802.141,
+  "end": 803.524,
+  "speaker": "Unknown",
+  "en": "So this is one way of doing it.",
+  "zh": "所以这是一种做法。"
+ },
+ {
+  "seg": 246,
+  "start": 804.005,
+  "end": 805.388,
+  "speaker": "Unknown",
+  "en": "So then going back over here,",
+  "zh": "然后回到这边,"
+ },
+ {
+  "seg": 247,
+  "start": 807.354,
+  "end": 809.156,
+  "speaker": "Unknown",
+  "en": "We see that we can definitely store memories.",
+  "zh": "我们看到我们确实可以存储记忆。"
+ },
+ {
+  "seg": 248,
+  "start": 809.176,
+  "end": 812.358,
+  "speaker": "Unknown",
+  "en": "Well, what else, I was saying, can I fit on this physical claw?",
+  "zh": "那么,还有什么,我当时说,我能在这个物理爪子上塞进什么东西?"
+ },
+ {
+  "seg": 249,
+  "start": 812.879,
+  "end": 823.388,
+  "speaker": "Unknown",
+  "en": "And somebody was doing, like, they had a microphone out their window, and they were recording all the bird song in the backyard, and there was a bird net model that could tell you that.",
+  "zh": "有人在做的比如说,他们在窗外放了一个麦克风,录下后院所有的鸟鸣,还有一个 bird net 模型可以告诉你那是什么鸟。"
+ },
+ {
+  "seg": 250,
+  "start": 823.408,
+  "end": 825.39,
+  "speaker": "Unknown",
+  "en": "And I was like, oh, whoa, I want to do that.",
+  "zh": "我当时就想，哦，哇，我想做那个。"
+ },
+ {
+  "seg": 251,
+  "start": 825.41,
+  "end": 827.632,
+  "speaker": "Unknown",
+  "en": "And I was like, oh, wait, or maybe I could do voice to text?",
+  "zh": "然后我又想，哦，等等，或者我可以做语音转文字？"
+ },
+ {
+  "seg": 252,
+  "start": 827.972,
+  "end": 828.673,
+  "speaker": "Unknown",
+  "en": "Is that possible?",
+  "zh": "那可能吗？"
+ },
+ {
+  "seg": 253,
+  "start": 829.073,
+  "end": 831.796,
+  "speaker": "Unknown",
+  "en": "So then I was like, sure enough, let me hook up a USB microphone.",
+  "zh": "于是我就想，果然，让我接上一个 USB 麦克风。"
+ },
+ {
+  "seg": 254,
+  "start": 832.236,
+  "end": 832.456,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 255,
+  "start": 832.536,
+  "end": 837.88,
+  "speaker": "Unknown",
+  "en": "And do something like that, and then do some voice-to-text, and do something like that.",
+  "zh": "做点类似的东西，然后做语音转文字，再做点类似的东西。"
+ },
+ {
+  "seg": 256,
+  "start": 838.381,
+  "end": 846.246,
+  "speaker": "Unknown",
+  "en": "And just to get ahead of it, just for fun, I'm going to go ahead and try and use... Oh, that's funny.",
+  "zh": "为了抢先一步，纯粹为了好玩，我要继续尝试用……哦，这挺好笑的。"
+ },
+ {
+  "seg": 257,
+  "start": 846.366,
+  "end": 846.767,
+  "speaker": "Unknown",
+  "en": "Oh, there it is.",
+  "zh": "哦,在这儿。"
+ },
+ {
+  "seg": 258,
+  "start": 846.987,
+  "end": 847.767,
+  "speaker": "Unknown",
+  "en": "The button fell off.",
+  "zh": "按钮掉下来了。"
+ },
+ {
+  "seg": 259,
+  "start": 850.11,
+  "end": 853.233,
+  "speaker": "Unknown",
+  "en": "I made this button, and it's connected into some pins.",
+  "zh": "我做了这个按钮，它连接到一些引脚上。"
+ },
+ {
+  "seg": 260,
+  "start": 853.253,
+  "end": 858.157,
+  "speaker": "Unknown",
+  "en": "This is me getting ahead a little bit, but just in the interest of time, I'm going to go ahead and plug this back in.",
+  "zh": "这算是我稍微超前了一点，不过为了节省时间，我要把它重新插上。"
+ },
+ {
+  "seg": 261,
+  "start": 858.878,
+  "end": 865.363,
+  "speaker": "Unknown",
+  "en": "And what this allows me to do is trigger that model, and I'm going to do some quick recording.",
+  "zh": "这让我可以触发那个模型，我要做一个快速录音。"
+ },
+ {
+  "seg": 262,
+  "start": 865.383,
+  "end": 872.209,
+  "speaker": "Unknown",
+  "en": "I'm saying, I am actually on stage at AI Engineer World Fair delivering the talk I've been preparing for.",
+  "zh": "我说的是，我现在真的在 AI Engineer World Fair 的舞台上，做着我一直在准备的演讲。"
+ },
+ {
+  "seg": 263,
+  "start": 873.325,
+  "end": 875.487,
+  "speaker": "Unknown",
+  "en": "And so these little lights went on.",
+  "zh": "然后这些小灯亮了。"
+ },
+ {
+  "seg": 264,
+  "start": 875.587,
+  "end": 876.648,
+  "speaker": "Unknown",
+  "en": "So it did some recording.",
+  "zh": "所以它做了一些录音。"
+ },
+ {
+  "seg": 265,
+  "start": 876.968,
+  "end": 881.191,
+  "speaker": "Unknown",
+  "en": "Hopefully, we'll be able to look and see if I'm actually online, if we got a message and so forth.",
+  "zh": "希望我们能看看我是否真的在线,是否收到了消息之类的。"
+ },
+ {
+  "seg": 266,
+  "start": 881.531,
+  "end": 882.812,
+  "speaker": "Unknown",
+  "en": "But this is the dream, right?",
+  "zh": "但这就是梦想，对吧？"
+ },
+ {
+  "seg": 267,
+  "start": 882.852,
+  "end": 886.355,
+  "speaker": "Unknown",
+  "en": "And I started doing it with all sorts of microphones, playing around with it.",
+  "zh": "然后我开始用各种麦克风来做这个，玩得不亦乐乎。"
+ },
+ {
+  "seg": 268,
+  "start": 886.815,
+  "end": 889.938,
+  "speaker": "Unknown",
+  "en": "And then I was like, oh, I want to bring this to AI Engineer.",
+  "zh": "然后我就想，哦，我想把这个带到 AI Engineer 来。"
+ },
+ {
+  "seg": 269,
+  "start": 890.058,
+  "end": 894.962,
+  "speaker": "Unknown",
+  "en": "And I want to walk around with these recording little LEDs on it.",
+  "zh": "我想带着这些带录音功能的小 LED 灯到处走。"
+ },
+ {
+  "seg": 270,
+  "start": 895.002,
+  "end": 896.643,
+  "speaker": "Unknown",
+  "en": "And I want to record something.",
+  "zh": "我想录点什么。"
+ },
+ {
+  "seg": 271,
+  "start": 897.023,
+  "end": 899.286,
+  "speaker": "Unknown",
+  "en": "I don't know what I want to record.",
+  "zh": "我不知道我想录什么。"
+ },
+ {
+  "seg": 272,
+  "start": 899.306,
+  "end": 900.528,
+  "speaker": "Unknown",
+  "en": "And I was like, I know what I'll do.",
+  "zh": "然后我就想，我知道我要做什么了。"
+ },
+ {
+  "seg": 273,
+  "start": 900.548,
+  "end": 905.555,
+  "speaker": "Unknown",
+  "en": "I'll go booth to booth, and I'll record what messaging people have up at their booths.",
+  "zh": "我要一个展位一个展位地走，录下人们展位上打出的宣传信息。"
+ },
+ {
+  "seg": 274,
+  "start": 906.136,
+  "end": 908.239,
+  "speaker": "Unknown",
+  "en": "And then I was like, well, let me build this thing.",
+  "zh": "然后我就想，好，让我来构建这个东西。"
+ },
+ {
+  "seg": 275,
+  "start": 908.259,
+  "end": 912.464,
+  "speaker": "Unknown",
+  "en": "And then I actually started working on adding in that kind of capability for recording.",
+  "zh": "然后我真的开始着手添加那种录音功能。"
+ },
+ {
+  "seg": 276,
+  "start": 913.105,
+  "end": 916.367,
+  "speaker": "Unknown",
+  "en": "And then I was like, OK, well, the booths, they got numbers and names.",
+  "zh": "然后我又想，好，这些展位，它们有编号和名字。"
+ },
+ {
+  "seg": 277,
+  "start": 916.447,
+  "end": 917.848,
+  "speaker": "Unknown",
+  "en": "OK, I had to map this out.",
+  "zh": "好，我得把这个规划出来。"
+ },
+ {
+  "seg": 278,
+  "start": 918.149,
+  "end": 921.351,
+  "speaker": "Unknown",
+  "en": "So I was like, I'm just going to create a very simple data model.",
+  "zh": "于是我就想，我就创建一个非常简单的数据模型。"
+ },
+ {
+  "seg": 279,
+  "start": 921.631,
+  "end": 922.752,
+  "speaker": "Unknown",
+  "en": "It's just exhibitors.",
+  "zh": "只有参展商。"
+ },
+ {
+  "seg": 280,
+  "start": 923.292,
+  "end": 924.393,
+  "speaker": "Unknown",
+  "en": "And they're not even connected.",
+  "zh": "它们甚至没有相互连接。"
+ },
+ {
+  "seg": 281,
+  "start": 924.613,
+  "end": 926.074,
+  "speaker": "Unknown",
+  "en": "They're just there in the database.",
+  "zh": "它们只是存在于数据库里。"
+ },
+ {
+  "seg": 282,
+  "start": 926.094,
+  "end": 927.815,
+  "speaker": "Unknown",
+  "en": "So I tried to get as many as I could.",
+  "zh": "所以我尽力获取了尽可能多的数据。"
+ },
+ {
+  "seg": 283,
+  "start": 927.856,
+  "end": 929.457,
+  "speaker": "Unknown",
+  "en": "And there was some data cleaning to do.",
+  "zh": "还有一些数据清洗工作要做。"
+ },
+ {
+  "seg": 284,
+  "start": 929.937,
+  "end": 931.838,
+  "speaker": "Unknown",
+  "en": "And then I was worried.",
+  "zh": "然后我开始担心了。"
+ },
+ {
+  "seg": 285,
+  "start": 931.858,
+  "end": 934.86,
+  "speaker": "Unknown",
+  "en": "I was like, oh, god, conference Wi-Fi is terrible, typically.",
+  "zh": "我就想，哦，天哪，会议的 Wi-Fi 通常都很糟糕。"
+ },
+ {
+  "seg": 286,
+  "start": 935.201,
+  "end": 936.722,
+  "speaker": "Unknown",
+  "en": "So I need an offline mode.",
+  "zh": "所以我需要一个离线模式。"
+ },
+ {
+  "seg": 287,
+  "start": 937.062,
+  "end": 938.523,
+  "speaker": "Unknown",
+  "en": "So then I had this other thing.",
+  "zh": "于是我就有了另一个东西。"
+ },
+ {
+  "seg": 288,
+  "start": 938.543,
+  "end": 940.665,
+  "speaker": "Unknown",
+  "en": "I put Neo4j running on here.",
+  "zh": "我在上面运行了 Neo4j。"
+ },
+ {
+  "seg": 289,
+  "start": 941.405,
+  "end": 943.307,
+  "speaker": "Unknown",
+  "en": "And then I was like, well, I could have this thing.",
+  "zh": "然后我就想，好，我可以有这个东西。"
+ },
+ {
+  "seg": 290,
+  "start": 943.347,
+  "end": 954.896,
+  "speaker": "Unknown",
+  "en": "So if I'm offline, it'll use some regexes and stuff and parse out of the audio, voice to text, the booth number, and maybe it can write a query to insert it in this local database.",
+  "zh": "这样如果我处于离线状态，它就会用一些正则表达式之类的东西，从音频、语音转文字中解析出展位号，也许它还能写一个查询，把数据插入到这个本地数据库里。"
+ },
+ {
+  "seg": 291,
+  "start": 955.516,
+  "end": 967.966,
+  "speaker": "Unknown",
+  "en": "And again, if this thing is up, which at this point I'm not even sure, we're going to try Cypher, my Cypher shell browser.",
+  "zh": "再说一次，如果这个东西是开着的——说实话我现在都不确定——我们要试试 Cypher，我的 Cypher shell 浏览器。"
+ },
+ {
+  "seg": 292,
+  "start": 969.715,
+  "end": 970.795,
+  "speaker": "Unknown",
+  "en": "Oh, I should spell right.",
+  "zh": "哦，我应该拼写正确。"
+ },
+ {
+  "seg": 293,
+  "start": 970.975,
+  "end": 974.576,
+  "speaker": "Unknown",
+  "en": "Let's go Cypher Shell Browser.",
+  "zh": "来吧，Cypher Shell Browser。"
+ },
+ {
+  "seg": 294,
+  "start": 974.916,
+  "end": 983.598,
+  "speaker": "Unknown",
+  "en": "So this is like a little program I wrote to talk to Neo4j databases without a very expensive GUI and things like that.",
+  "zh": "这就像是我写的一个小程序，用来和 Neo4j 数据库通信，而不需要非常昂贵的 GUI 之类的东西。"
+ },
+ {
+  "seg": 295,
+  "start": 983.678,
+  "end": 988.059,
+  "speaker": "Unknown",
+  "en": "And I should be able to match all my exhibitors and return those.",
+  "zh": "我应该能够匹配我所有的参展商并把它们返回。"
+ },
+ {
+  "seg": 296,
+  "start": 988.299,
+  "end": 991.5,
+  "speaker": "Unknown",
+  "en": "So this is talking to the database that's running in here around my neck.",
+  "zh": "所以这是在和运行在我脖子上挂着的这个设备里的数据库通信。"
+ },
+ {
+  "seg": 297,
+  "start": 992.06,
+  "end": 997.344,
+  "speaker": "Unknown",
+  "en": "And as I go in here and I look, I could say, oh, yeah, there's Microsoft, MinMax, CAI, right?",
+  "zh": "当我进到这里查看时，我可以说，哦，是的，这里有 Microsoft、MinMax、CAI，对吧？"
+ },
+ {
+  "seg": 298,
+  "start": 997.364,
+  "end": 1000.646,
+  "speaker": "Unknown",
+  "en": "And so this is me, and I had on these, like, my raw notes.",
+  "zh": "这就是我，我戴着这些，就像，我的原始笔记。"
+ },
+ {
+  "seg": 299,
+  "start": 1000.666,
+  "end": 1003.228,
+  "speaker": "Unknown",
+  "en": "It's like, oh, this is like the raw notes that I took.",
+  "zh": "就像，哦，这就是我记下的原始笔记。"
+ },
+ {
+  "seg": 300,
+  "start": 1003.308,
+  "end": 1006.53,
+  "speaker": "Unknown",
+  "en": "I'm at this booth and blah, blah, blah, right?",
+  "zh": "我在这个展位上，然后怎样怎样，对吧？"
+ },
+ {
+  "seg": 301,
+  "start": 1007.45,
+  "end": 1013.735,
+  "speaker": "Unknown",
+  "en": "And I took that data and then I uploaded it later up into Neo4j in the cloud.",
+  "zh": "然后我拿着那些数据，稍后把它上传到了云端的 Neo4j。"
+ },
+ {
+  "seg": 302,
+  "start": 1014.928,
+  "end": 1020.375,
+  "speaker": "Unknown",
+  "en": "And in the cloud, it looks a little bit different because I've now enriched it.",
+  "zh": "在云端里，它看起来有点不一样，因为我已经对它做了丰富化处理。"
+ },
+ {
+  "seg": 303,
+  "start": 1020.916,
+  "end": 1027.204,
+  "speaker": "Unknown",
+  "en": "And so if we look at this, let's see if I can just move back into Neo4j for a second.",
+  "zh": "所以如果我们看这个，让我看看能不能切回 Neo4j 一下。"
+ },
+ {
+  "seg": 304,
+  "start": 1027.725,
+  "end": 1029.787,
+  "speaker": "Unknown",
+  "en": "And here I'm going to look for exhibitors.",
+  "zh": "这里我要查找参展商。"
+ },
+ {
+  "seg": 305,
+  "start": 1031.151,
+  "end": 1032.232,
+  "speaker": "Unknown",
+  "en": "And here are my exhibitors.",
+  "zh": "这里就是我的参展商。"
+ },
+ {
+  "seg": 306,
+  "start": 1032.813,
+  "end": 1034.974,
+  "speaker": "Unknown",
+  "en": "And the exhibitors, I can click on one.",
+  "zh": "对于这些参展商，我可以点开其中一个。"
+ },
+ {
+  "seg": 307,
+  "start": 1035.155,
+  "end": 1037.537,
+  "speaker": "Unknown",
+  "en": "And you can see they're actually connected to something else.",
+  "zh": "你可以看到它们实际上连接到了别的东西。"
+ },
+ {
+  "seg": 308,
+  "start": 1038.157,
+  "end": 1040.259,
+  "speaker": "Unknown",
+  "en": "So I did load all their data in.",
+  "zh": "所以我确实把它们的全部数据都加载进去了。"
+ },
+ {
+  "seg": 309,
+  "start": 1040.319,
+  "end": 1043.522,
+  "speaker": "Unknown",
+  "en": "So here's got the notes all cleaned up now on them.",
+  "zh": "所以这里它们的笔记现在都清理好了。"
+ },
+ {
+  "seg": 310,
+  "start": 1043.862,
+  "end": 1046.144,
+  "speaker": "Unknown",
+  "en": "But you'll notice that these other things are connected to.",
+  "zh": "但你会注意到这些其他的东西是连接上去的。"
+ },
+ {
+  "seg": 311,
+  "start": 1046.564,
+  "end": 1053.27,
+  "speaker": "Unknown",
+  "en": "And the things that they're connected to is I'm going to put in here they're connected to all sorts of other things.",
+  "zh": "而它们连接到的东西，我要在这里说明，它们连接到了各种各样其他的东西。"
+ },
+ {
+  "seg": 312,
+  "start": 1053.971,
+  "end": 1057.774,
+  "speaker": "Unknown",
+  "en": "And I'm going to put a path through them and return the path.",
+  "zh": "我要穿过它们放一条路径，然后返回这条路径。"
+ },
+ {
+  "seg": 313,
+  "start": 1058.729,
+  "end": 1061.81,
+  "speaker": "Unknown",
+  "en": "And we end up with something like this.",
+  "zh": "最后我们就得到了像这样的东西。"
+ },
+ {
+  "seg": 314,
+  "start": 1062.79,
+  "end": 1067.271,
+  "speaker": "Unknown",
+  "en": "This shows how they're all connected to some other theme nodes.",
+  "zh": "这展示了它们是如何全部连接到一些其他主题节点的。"
+ },
+ {
+  "seg": 315,
+  "start": 1067.671,
+  "end": 1071.812,
+  "speaker": "Unknown",
+  "en": "So at some point, I figured out, oh, look, there's some themes that exist here.",
+  "zh": "所以在某个时候，我发现，哦，看，这里存在一些主题。"
+ },
+ {
+  "seg": 316,
+  "start": 1072.232,
+  "end": 1074.052,
+  "speaker": "Unknown",
+  "en": "Evaluation and observability.",
+  "zh": "评估和可观测性。"
+ },
+ {
+  "seg": 317,
+  "start": 1074.372,
+  "end": 1075.873,
+  "speaker": "Unknown",
+  "en": "BuildKite has that theme.",
+  "zh": "BuildKite 有这个主题。"
+ },
+ {
+  "seg": 318,
+  "start": 1075.913,
+  "end": 1077.413,
+  "speaker": "Unknown",
+  "en": "LangChain has that theme.",
+  "zh": "LangChain 也有这个主题。"
+ },
+ {
+  "seg": 319,
+  "start": 1077.773,
+  "end": 1085.635,
+  "speaker": "Unknown",
+  "en": "So I was like, OK, I've actually generated some knowledge that was maybe novel that maybe nobody has any.",
+  "zh": "所以我就想，好吧，我实际上生成了一些可能新颖的知识，也许没有人有这些知识。"
+ },
+ {
+  "seg": 320,
+  "start": 1086.175,
+  "end": 1087.215,
+  "speaker": "Unknown",
+  "en": "So are there themes?",
+  "zh": "那么存在主题吗？"
+ },
+ {
+  "seg": 321,
+  "start": 1087.355,
+  "end": 1088.236,
+  "speaker": "Unknown",
+  "en": "Yes, there are themes.",
+  "zh": "是的，存在主题。"
+ },
+ {
+  "seg": 322,
+  "start": 1088.516,
+  "end": 1094.097,
+  "speaker": "Unknown",
+  "en": "So this is the data dump that I collected by walking around the booth and figuring out what the themes were.",
+  "zh": "所以这就是我通过在展位间走来走去、搞清楚这些主题是什么而收集到的数据转储。"
+ },
+ {
+  "seg": 323,
+  "start": 1094.637,
+  "end": 1096.377,
+  "speaker": "Unknown",
+  "en": "So there's a whole bunch out there.",
+  "zh": "所以外面有一大堆这样的东西。"
+ },
+ {
+  "seg": 324,
+  "start": 1097.058,
+  "end": 1099.518,
+  "speaker": "Unknown",
+  "en": "And I know I'm just about at my time.",
+  "zh": "我知道我的时间快到了。"
+ },
+ {
+  "seg": 325,
+  "start": 1100.458,
+  "end": 1110.761,
+  "speaker": "Unknown",
+  "en": "The thing I will point out for folks that are interested in talking more, I did subsequently upgrade the agent memory that I have using the agent memory service.",
+  "zh": "对于有兴趣进一步交流的朋友，我要指出的一点是，我后来使用智能体记忆服务升级了我的智能体记忆。"
+ },
+ {
+  "seg": 326,
+  "start": 1110.821,
+  "end": 1115.222,
+  "speaker": "Unknown",
+  "en": "Basically, I wanted to load all of the WhatsApp messages that I ever had.",
+  "zh": "基本上，我想把我曾经有过的所有 WhatsApp 消息都加载进去。"
+ },
+ {
+  "seg": 327,
+  "start": 1116.002,
+  "end": 1117.664,
+  "speaker": "Unknown",
+  "en": "And it's been a while.",
+  "zh": "而且已经有一段时间了。"
+ },
+ {
+  "seg": 328,
+  "start": 1117.684,
+  "end": 1118.885,
+  "speaker": "Unknown",
+  "en": "I've been talking to it, as you see.",
+  "zh": "我一直在和它对话，就像你们看到的那样。"
+ },
+ {
+  "seg": 329,
+  "start": 1119.266,
+  "end": 1123.49,
+  "speaker": "Unknown",
+  "en": "I wanted to upload all of those in there and see if I could get some kind of insights out of those.",
+  "zh": "我想把所有那些消息都上传进去，看看能不能从中得出某种洞察。"
+ },
+ {
+  "seg": 330,
+  "start": 1124.131,
+  "end": 1126.913,
+  "speaker": "Unknown",
+  "en": "And sure enough, I use this Neo4j agent memory service.",
+  "zh": "果然，我使用了这个 Neo4j 智能体记忆服务。"
+ },
+ {
+  "seg": 331,
+  "start": 1127.714,
+  "end": 1131.198,
+  "speaker": "Unknown",
+  "en": "And if you log into this sort of thing, at some point, I just connected it up.",
+  "zh": "如果你登录这类东西，在某个时候，我只是把它连接了起来。"
+ },
+ {
+  "seg": 332,
+  "start": 1131.698,
+  "end": 1134.761,
+  "speaker": "Unknown",
+  "en": "And that allowed me to get a whole bunch of memories.",
+  "zh": "这让我获取了一大堆记忆。"
+ },
+ {
+  "seg": 333,
+  "start": 1135.642,
+  "end": 1139.205,
+  "speaker": "Unknown",
+  "en": "from the conversations and then it distilled them out.",
+  "zh": "从对话中，然后它把它们蒸馏提炼了出来。"
+ },
+ {
+  "seg": 334,
+  "start": 1139.805,
+  "end": 1145.99,
+  "speaker": "Unknown",
+  "en": "And you can see here that I've got all these different things, these conversations that I've had and so forth.",
+  "zh": "你可以在这里看到，我有了所有这些不同的东西，这些我进行过的对话等等。"
+ },
+ {
+  "seg": 335,
+  "start": 1146.791,
+  "end": 1149.453,
+  "speaker": "Unknown",
+  "en": "And this will allow me to browse those memories.",
+  "zh": "这将让我能够浏览那些记忆。"
+ },
+ {
+  "seg": 336,
+  "start": 1150.888,
+  "end": 1157.274,
+  "speaker": "Unknown",
+  "en": "And, for example, all the people I've spoken to, or the locations, the concepts, whatever.",
+  "zh": "比如，所有我跟说过话的人，或者地点、概念， whatever。"
+ },
+ {
+  "seg": 337,
+  "start": 1157.815,
+  "end": 1169.346,
+  "speaker": "Unknown",
+  "en": "So these are all the things that I've been doing, talking about with my claw, and they're all distilled out into memories that are now accessible via an MCP server from this very claw.",
+  "zh": "所以这些都是我一直在跟我的 claw 做的、谈论的事情，它们全都被蒸馏提炼成了记忆，现在可以通过一个 MCP 服务器从这只 claw 直接访问。"
+ },
+ {
+  "seg": 338,
+  "start": 1169.886,
+  "end": 1173.548,
+  "speaker": "Unknown",
+  "en": "So anyway, that gives you some flavor of how this stuff works.",
+  "zh": "所以，总之，这让你们对这些东西如何运作有了一些感性认识。"
+ },
+ {
+  "seg": 339,
+  "start": 1173.688,
+  "end": 1175.989,
+  "speaker": "Unknown",
+  "en": "Please come see us at booth P3 over there.",
+  "zh": "欢迎到那边的 P3 展位来找我们。"
+ },
+ {
+  "seg": 340,
+  "start": 1176.39,
+  "end": 1177.57,
+  "speaker": "Unknown",
+  "en": "I can tell you a lot more.",
+  "zh": "我可以告诉你更多。"
+ },
+ {
+  "seg": 341,
+  "start": 1177.89,
+  "end": 1183.373,
+  "speaker": "Unknown",
+  "en": "If you're just getting started with Graph, you can go to Graph Academy, which is this link right there.",
+  "zh": "如果你刚开始接触 Graph，你可以去 Graph Academy，就是这个链接。"
+ },
+ {
+  "seg": 342,
+  "start": 1183.693,
+  "end": 1185.414,
+  "speaker": "Unknown",
+  "en": "And we've got all these hands-on courses.",
+  "zh": "我们有所有这些动手实践课程。"
+ },
+ {
+  "seg": 343,
+  "start": 1185.514,
+  "end": 1186.915,
+  "speaker": "Unknown",
+  "en": "It's all totally free to use.",
+  "zh": "全都是完全免费使用的。"
+ },
+ {
+  "seg": 344,
+  "start": 1187.215,
+  "end": 1190.777,
+  "speaker": "Unknown",
+  "en": "So please either visit us there or even better at the booth.",
+  "zh": "所以请要么在那里访问我们，或者更好的是在展位上。"
+ },
+ {
+  "seg": 345,
+  "start": 1191.037,
+  "end": 1191.738,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 346,
+  "start": 1199.38,
+  "end": 1199.881,
+  "speaker": "Unknown",
+  "en": "Music .",
+  "zh": "音乐。"
+ }
+]

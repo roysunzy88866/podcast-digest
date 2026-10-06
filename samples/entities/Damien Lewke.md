@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nebulock":1,"CrowdStrike":3,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"POC 流程":1,"产品市场契合":27,"执行发起人":1,"solo founder":1}</script>
+<script type="application/json" class="pd-epn">{"Nebulock":1,"CrowdStrike":3,"客户发现":2,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"POC 流程":1,"产品市场契合":27,"执行发起人":1,"solo founder":1}</script>
 
 <script>
 (function(){

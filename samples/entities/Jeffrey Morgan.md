@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":57,"Docker":5,"Apple":21,"基准测试":18,"OpenRouter":14,"开源模型":4,"编码智能体":27,"智能体":417,"推理":78}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":57,"Docker":6,"Apple":21,"基准测试":18,"OpenRouter":14,"开源模型":4,"编码智能体":27,"智能体":419,"推理":80}</script>
 
 <script>
 (function(){

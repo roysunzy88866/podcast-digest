@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":17,"Waymo driver":1,"智能体":417,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":12,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":17,"Waymo driver":1,"智能体":419,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":12,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

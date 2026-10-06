@@ -39,7 +39,7 @@ unlisted: true
 
 [[Google]] · [[Ranjan Roy]] · [[Willem Avé]] · [[Sophia Du]] · [[Herwig]] · [[Alex]] · [[Square]] · [[Julie Yoo]] · [[Rorik]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Google":60,"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":4,"Herwig":1,"Alex":6,"Square":5,"Julie Yoo":1,"Rorik":1,"OpenAI":165}</script>
+<script type="application/json" class="pd-epn">{"Google":60,"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":4,"Herwig":1,"Alex":6,"Square":5,"Julie Yoo":1,"Rorik":1,"OpenAI":167}</script>
 
 <script>
 (function(){

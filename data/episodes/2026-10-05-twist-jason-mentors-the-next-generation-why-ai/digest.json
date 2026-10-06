@@ -1,0 +1,178 @@
+{
+  "title_zh": "Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle",
+  "tldr": "主持人 Jason 接听三位听众来电，谈金融学生的 AI 优先路线、传记阅读法与客户发现；后半段对话 Aristotle 创始人 Sean Reddy,解释为什么大模型越强反而越不擅长教学。",
+  "digest_md": "这一集是 This Week in Startups 的「Ask Jason」直播问答环节：主持人 Jason 集中回答听众打进来的职业与创业问题，最后请来面向高中生的语音 AI 导师 Aristotle 的联合创始人兼 CEO Sean Reddy 做产品演示。最反直觉的一点来自 Sean:模型越强，教学能力反而在变差。\n\n## 给印度来的金融学生：AI 优先 + 一年十本传记\n\n第一位来电者是即将入读 Fordham 的 Agastya,要主修金融，问在 AI 时代该怎么准备。Jason 的核心建议是「AI first」:不管老师教什么，都先去问 AI「我怎样用 AI 在这件事上变得超人」「关于对账、建模，我有哪些不知道自己不知道的问题」，同时自己搭一套智能体来一对一教自己更高级的内容。\n\n第二个礼物是阅读法：**一个月读一本传记，一年至少十本**，不限商业人物——Michael Ovitz、Bob Iger、Phil Knight 的《Shoe Dog》,甚至 Steve Martin、Robin Williams 的传记。Jason 的论据是：年轻创始人总想约牛人喝咖啡请教，其实根本不用，读传记就够了，四五本就能看懂一个行业几十年怎么长起来的。他还现身说法：自己当年作为布鲁克林穷小子进 Fordham,学费一直拖欠，靠分期付款和一万多美元的 Pell Grants 撑过来——所以别怕被「装进盒子」，「当我是那个布鲁克林小孩的时候，他们试图把我塞进一个盒子里，然后我直接打破了盒子。我把盒子点着了」。\n\n## 如果你明天拿到 50 万美元？\n\n老听众 David(上次来电后被拉进了 All In Summit)问：如果投资人白给你 50 万美元，第一步做什么？Jason 给出三条路：**①投资自己**——买设备、软件、课程，打造技能栈；**②创办公司**；**③存起来做职业投资人**(天使或公开市场)。他自己的答案是：如果 1996 年有人给他 50 万，他会直接办一个邮件通讯然后开始做天使投资。\n\nDavid 想先合租省通勤、拿 25 万做一些天使投注，Jason 再加一条：**与其开公司不如先做小项目**，雇自由职业者也行，关键是把建一家公司的每个杂活都亲手学一遍——报税、谈保密协议、注册公司、做工资单。「通常你去为一个创业者打工，他们会把你放进一个更窄的盒子里……那样你就会变得温顺，也没什么大价值」。\n\n顺便有一个时代观察：今天的 50 万对开公司来说「钱太多了」——2026 年谁需要 50 万来开公司？你需要的只是每月一两万美元的开销。「事实是，大多数大型热门的 AI 模型都能很好地处理你的工作负载」。\n\n## 做医药 AI 工具：客户发现，甚至一点「企业情报」\n\n第三位来电者 Ray 做蛋白质折叠用于药物发现的技术工具，问怎么进入医学领域。Jason 的路线图很实际：**先给这个领域创业公司的创始人发邮件约 20 分钟咖啡**，做「客户发现(customer discovery,即找潜在用户访谈、收集反馈)」——可以送 50 到 100 美元礼品卡换通话，出奇地有效。\n\n他还讲了灰色的招数：成立一个看起来中立的「研究机构」，给会计师、企业人士每小时 100 美元做 30 分钟「产品调研」，把你的真产品混在三四个产品里一起展示拿反馈——连 Ernst & Young 或毕马威都可能给你反馈。他说自己从没做过，但这就是「企业情报」：不偷文件、不违反保密协议就行，甚至可以直接问 LLM「有哪些不违法但又非常巧妙的商业竞争情报技巧」。「总体目标就是：无论你要做什么，都要让自己能出现在客户面前」——而且每次访谈既是反馈来源，也是潜在的第一批客户，一举两得。\n\n## Aristotle:为什么大模型在教学上越变越差\n\n嘉宾环节是重头。Sean Reddy 的 Aristotle 是面向高中生的语音 AI 导师，主打 AP、SAT、IB 等科目。他的核心主张很反直觉：**大实验室赌「扩展通用智能就能扩展教学能力」，但事实恰恰相反，模型在教学上正在变差**。原因：模型为长时程复杂推理和企业问答优化，带来的行为是高冗长度、答案生成极慢、话很多——对编程模型来说，用户不需要理解全部 1200 个步骤；但教学要的是让学生「生产性地挣扎」、动用自己的认知能力真正学到每一步，而不是直接拿答案。「模型在教学方面正在变差。我们正在试图改变这一点」。\n\n**怎么做**：Aristotle 复刻「坐在人类导师旁边」的体验——导师主导议程、从学生身上引出问题、诊断误解。引擎预测的是「下一个最优教学动作」，有时是讲解，有时是沉默、画图、白板高亮、出新题。演示里白板本质是一个代码沙箱，图表实时生成。他们 fork 开源模型、自建 harness 和后训练：针对出题、读白板状态、理解学生语音等子问题分别训练专用模型，因为任务太过多模态，一个通用模型并不合理。\n\n**数据护城河**：没有现成的一对一教学数据——连学习科学文献里都没有「什么是好的教学」的启发式标准(学生一句「嗯」可能代表饿了、无聊或在思考，必须听语音、看上下文才能给标注打正负权重)。所以他们雇了一支导师团队，人工评分数千小时的教学场次来造训练数据。「它确实不存在，但我们不卖。它是我们的」——而且这是 18 岁以下学生数据，必须严格锁死。\n\n**为什么是一对一**：经典的 Bloom 两个标准差问题——Benjamin Bloom 的著名研究发现一对一辅导能带来两个标准差的学习提升，但美国每 52 个学生里不到 1 个有私人导师。商业模型也照搬辅导行业：按次收费、课程包，50 美元/月八次课，199 美元/月无限次(有学生每月上 60 小时以上)——刻意贴近真人辅导的定价，因为质量也贴近了。\n\n**对教育的判断**：美国生均教育支出指数级增长，而数学、读写、一对一教学时间等所有指标都在下降，「我们在越来越差的产品上花费越来越多的钱」。他的愿景是 AI 把「教」这件事解决掉，公立学校回归情感、社交、体育和托儿的功能；有家长告诉他，女儿跟 Aristotle 学三小时比公立学校一个月学得还多。Jason 补充预言：做得成功后会被「拖进」课堂给老师做仪表盘——Khan Academy 就是这么走过来的。\n\n## 本集带走\n\n- **AI first 学习法**：老师教什么，都先问 AI「我如何在这件事上超人」，并自建智能体一对一补高级内容。\n- **传记阅读法**：一月一本、一年至少十本，不限行业——用几十本书代替约牛人喝咖啡。\n- **50 万美元三选一**：投资自己(技能栈)、开公司、或做职业投资人；今天开公司只需每月一两万美元，钱多是干扰。\n- **先做项目再开公司**：报税、NDA、注册、工资单，每个杂活亲手学一遍，别让自己被装进窄盒子。\n- **冷启动客户**：直接邮件约创始人 20 分钟咖啡，或用礼品卡换客户发现访谈；目标是「不惜一切出现在客户面前」。\n- **AI 教育的洞**：通用智能 ≠ 教学能力；好的教学要预测「下一个最优教学动作」(沉默、画图、出新题)，而这类训练数据目前全世界都没有，得自己人工标注。",
+  "quotes": [
+    {
+      "en": "The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity. Unfortunately, that has not been the case.",
+      "zh": "大型实验室下的赌注是，扩展通用智能就会扩展教学能力。不幸的是，情况并非如此。",
+      "timestamp": "45:56",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Models are getting worse at teaching. We're trying to change that.",
+      "zh": "模型在教学方面正在变差。我们正在试图改变这一点。",
+      "timestamp": "47:32",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "We're trying to just deliver in software the one-on-one tutoring experience that has been known to be the best way to learn for literally thousands of years.",
+      "zh": "我们只是想用软件交付一对一辅导体验，而这种体验在字面意义上的几千年来一直被认为是最好的学习方式。",
+      "timestamp": "53:46",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "It does not exist, but we're not selling it. It's ours.",
+      "zh": "它确实不存在，但我们不卖。它是我们的。",
+      "timestamp": "63:43",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "I had a parent tell me yesterday that their daughter feels like she's learned more in three hours with Aristotle than in the last month of public school, which is, on one hand, it's kind of damning for the education system and also really exciting for our product.",
+      "zh": "昨天有一位家长告诉我，他们的女儿觉得她和 Aristotle 学三个小时学到的东西，比过去一个月在公立学校学到的还多，这一方面对教育体系来说有点扎心，另一方面对我们的产品来说也真的令人兴奋。",
+      "timestamp": "64:08",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "So we're spending more and more on worse product.",
+      "zh": "所以我们在越来越差的产品上花费越来越多的钱。",
+      "timestamp": "67:05",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "It's coming from the frontier labs who have learned that every time they put a release out, that their products are incredibly powerful and can hack a system, et cetera. Their usage goes up.",
+      "zh": "它来自前沿实验室，他们已经发现，每当他们发布一个版本，说他们的产品强大得不可思议、能入侵系统等等，他们的使用量就会上升。",
+      "timestamp": "34:40",
+      "speaker": "Jason"
+    },
+    {
+      "en": "They think they're making God in a box and that they're the only ones who can be trusted with God in a box.",
+      "zh": "他们认为自己在制造盒子里的神，而且只有他们才有资格被信任保管盒子里的神。",
+      "timestamp": "35:58",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "en": "What you want to be is unstoppable, that you can do every single thing, from your taxes to negotiating a non-disclosure agreement, from starting an LLC, doing your payroll.",
+      "zh": "你要成为的是不可阻挡的人，你什么都会做，从报税到谈判保密协议，从注册公司到做工资单。",
+      "timestamp": "17:48",
+      "speaker": "Jason"
+    },
+    {
+      "en": "You will be impervious to the number of no's you get at a certain point.",
+      "zh": "在某个时刻，你会对收到的「不」的次数免疫。",
+      "timestamp": "28:58",
+      "speaker": "Jason"
+    },
+    {
+      "en": "And if you start looking at corporate intelligence, and you can just go into any LLM and say, what are corporate intelligence techniques I can use that are not illegal, but that are darn clever?",
+      "zh": "如果你开始研究企业情报，你可以随便进任何一个 LLM 然后说，有哪些不违法但又非常聪明巧妙的商业竞争情报技巧可以用？",
+      "timestamp": "32:29",
+      "speaker": "Jason"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "45:55",
+      "speaker": "Unknown",
+      "en": "The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity. Unfortunately, that has not been the case.",
+      "zh": "大型实验室下的赌注是，扩展通用智能就会扩展教学能力。不幸的是，情况并非如此。"
+    },
+    {
+      "timestamp": "47:34",
+      "speaker": "Unknown",
+      "en": "Models are getting worse at teaching. We're trying to change that.",
+      "zh": "模型在教学方面正在变差。我们正在试图改变这一点。"
+    },
+    {
+      "timestamp": "53:46",
+      "speaker": "Unknown",
+      "en": "We're trying to just deliver in software the one-on-one tutoring experience that has been known to be the best way to learn for literally thousands of years.",
+      "zh": "我们只是想用软件交付一对一辅导体验，而这种体验在字面意义上的几千年来一直被认为是最好的学习方式。"
+    },
+    {
+      "timestamp": "55:07",
+      "speaker": "Unknown",
+      "en": "And the reason why it's framed as Bloom's Two Sigma problem is because less than one out of every 52 students in the US have a personal tutor.",
+      "zh": "它之所以被表述为布鲁姆两个标准差问题，是因为在美国每 52 个学生中不到 1 个拥有私人导师。"
+    },
+    {
+      "timestamp": "63:43",
+      "speaker": "Unknown",
+      "en": "It does not exist, but we're not selling it. It's ours.",
+      "zh": "它确实不存在，但我们不卖。它是我们的。"
+    },
+    {
+      "timestamp": "64:08",
+      "speaker": "Unknown",
+      "en": "I had a parent tell me yesterday that their daughter feels like she's learned more in three hours with Aristotle than in the last month of public school, which is, on one hand, it's kind of damning for the education system and also really exciting for our product.",
+      "zh": "昨天有一位家长告诉我，他们的女儿觉得她和 Aristotle 学三个小时学到的东西，比过去一个月在公立学校学到的还多，这一方面对教育体系来说有点扎心，另一方面对我们的产品来说也真的令人兴奋。"
+    },
+    {
+      "timestamp": "67:05",
+      "speaker": "Unknown",
+      "en": "So we're spending more and more on worse product.",
+      "zh": "所以我们在越来越差的产品上花费越来越多的钱。"
+    },
+    {
+      "timestamp": "34:40",
+      "speaker": "Unknown",
+      "en": "It's coming from the frontier labs who have learned that every time they put a release out, that their products are incredibly powerful and can hack a system, et cetera. Their usage goes up.",
+      "zh": "它来自前沿实验室，他们已经发现，每当他们发布一个版本，说他们的产品强大得不可思议、能入侵系统等等，他们的使用量就会上升。"
+    },
+    {
+      "timestamp": "35:58",
+      "speaker": "Unknown",
+      "en": "They think they're making God in a box and that they're the only ones who can be trusted with God in a box.",
+      "zh": "他们认为自己在制造盒子里的神，而且只有他们才有资格被信任保管盒子里的神。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Unknown",
+      "en": "You don't need to do that. You just read the biographies.",
+      "zh": "你不需要那样做。你只要读那些传记就好了。"
+    },
+    {
+      "timestamp": "17:48",
+      "speaker": "Unknown",
+      "en": "What you want to be is unstoppable, that you can do every single thing, from your taxes to negotiating a non-disclosure agreement, from starting an LLC, doing your payroll.",
+      "zh": "你要成为的是不可阻挡的人，你什么都会做，从报税到谈判保密协议，从注册公司到做工资单。"
+    },
+    {
+      "timestamp": "19:34",
+      "speaker": "Unknown",
+      "en": "What you need is 10K a month, 20K a month, so that you can pay for everything, be comfortable, and have one employee.",
+      "zh": "你需要的是每月 1 万、每月 2 万，这样你就能支付一切，过得舒服，并且雇一个员工。"
+    },
+    {
+      "timestamp": "13:26",
+      "speaker": "Unknown",
+      "en": "If I gave you 500k tomorrow and you had absolutely no obligations, what would you do?",
+      "zh": "如果我明天给你 50 万美元，而且你完全没有任何义务，你会做什么？"
+    },
+    {
+      "timestamp": "28:58",
+      "speaker": "Unknown",
+      "en": "You will be impervious to the number of no's you get at a certain point.",
+      "zh": "在某个时刻，你会对收到的「不」的次数免疫。"
+    },
+    {
+      "timestamp": "33:02",
+      "speaker": "Unknown",
+      "en": "It sounds like no matter what it is, the overall goal is whatever you have to do to get you in front of the customer.",
+      "zh": "听起来不管是什么，总体目标就是：无论你要做什么，都要让自己能出现在客户面前。"
+    },
+    {
+      "timestamp": "32:29",
+      "speaker": "Unknown",
+      "en": "And if you start looking at corporate intelligence, and you can just go into any LLM and say, what are corporate intelligence techniques I can use that are not illegal, but that are darn clever?",
+      "zh": "如果你开始研究企业情报，你可以随便进任何一个 LLM 然后说，有哪些不违法但又非常聪明巧妙的商业竞争情报技巧可以用？"
+    },
+    {
+      "timestamp": "66:02",
+      "speaker": "Unknown",
+      "en": "I mean, American teachers are vastly under-resourced.",
+      "zh": "我是说，美国教师的资源严重不足。"
+    }
+  ],
+  "voice_script": "这一期是 This Week in Startups 的直播问答环节，主持人 Jason 现场接听众电话，回答职业和创业问题，最后还请来一位嘉宾，聊一个挺反直觉的话题：为什么 AI 模型越强，教学生的能力反而越差。先把这位嘉宾交代一下——Aristotle 是一款面向高中生的语音 AI 导师，主打 AP、SAT 这些考试科目，联合创始人兼 CEO 叫 Sean Reddy。稍后细说。先听 Jason 怎么回答来电。\n\n第一个打进来的是个叫 Agastya 的学生，即将入读 Fordham 大学，主修金融，问在 AI 时代该怎么准备。Jason 的建议很直接，就四个字：AI first。不管学校老师教什么，你都先去问 AI——怎么用 AI 在这件事上变得超人？关于对账、建模，有哪些我不知道自己不知道的问题？还可以自己搭一套智能体，一对一教自己更高级的内容。\n\n紧接着是第二个建议，一份阅读法：一个月读一本传记，一年至少十本，而且不限商业人物，演员的、喜剧人的传记都可以读。为什么？Jason 的论据是，年轻创始人总想约行业牛人喝咖啡请教，其实根本不用，读传记就够了，四五本书就能看懂一个行业几十年是怎么长起来的。这段对 Agastya 还有一层特别的意义——Jason 自己当年就是布鲁克林穷小子进的 Fordham,学费一直拖欠，靠分期付款和一万多美元的助学金撑过来的。所以别怕被人装进盒子，原话是：当年他们试图把我塞进一个盒子里，然后我直接把盒子打破了，还点着了。\n\n第二个电话来自老听众 David,问题是：如果投资人白给你五十万美元，第一步做什么？Jason 给出三条路：第一，投资自己，买设备、买软件、上课，把技能栈搭起来；第二，直接创办公司；第三，存起来做职业投资人，做天使或者投公开市场。Jason 自己的答案是，如果一九九六年有人给他五十万，他会直接办一个邮件通讯，然后开始做天使投资。\n\nDavid 说想先合租省点通勤费，拿二十五万做一些小额天使投资。Jason 又加了一条：与其急着开公司，不如先做小项目，雇自由职业者也行，关键是把开一家公司的每个杂活都亲手学一遍——报税、谈保密协议、注册公司、发工资。理由是，你去给创业者打工，往往会被塞进一个更窄的盒子里，人变得温顺，也就没什么大价值了。这里 Jason 还有句时代观察很扎心：今天的五十万对开公司来说钱太多了。二零二六年谁需要五十万来开公司？你需要的只是每月一两万美元的开销，而且现在大多数主流 AI 模型都能很好地扛住你的工作负载。\n\n那如果你做的东西很小众，比如第三位来电者 Ray 那样——用蛋白质折叠技术做药物发现的工具，怎么进入医学这个陌生领域呢？Jason 的路线图很实际：先给这个领域里创业公司的创始人发邮件，约二十分钟咖啡，做客户发现——说白了就是找潜在用户聊天、收集反馈，甚至可以送五十到一百美元的礼品卡换一次通话，出奇地有效。\n\nJason 还讲了个灰色一点的招数，叫企业情报：成立一个看起来中立的「研究机构」，给会计师、企业人士每小时一百美元，请他们做三十分钟的产品调研，然后把你自己的真产品混在三四个产品里一起展示，拿真实反馈——连四大会计师事务所这种大机构都可能给你反馈。Jason 说自己从没做过这一套，但边界很清楚：不偷文件、不违反保密协议，就不算越线，甚至可以直接问大模型，有哪些不违法但很巧妙的竞争情报技巧。总之一句话：无论你要做什么，都要让自己出现在客户面前。而且每次访谈既是反馈来源，也是潜在的第一批客户，一举两得。\n\n好，铺垫了这么多，该说重头戏了——为什么大模型在教学上越变越差？Sean 的核心主张是：大型实验室下的赌注是，扩展通用智能就会扩展教学能力，不幸的是，情况并非如此。原因在于，现在的模型都在为长时程复杂推理和企业问答做优化，带来的行为是话特别多、冗长度很高、生成答案还特别慢。对编程模型来说这不是问题，因为用户不需要理解全部一千两百个步骤，能跑就行。但教学完全是另一回事——教学要的是让学生「生产性地挣扎」，动用自己的脑子真正学懂每一步，而不是直接把答案递过去。Sean 说得很直白：模型在教学方面正在变差，而我们正在试图改变这一点。\n\n那 Aristotle 怎么做？思路是复刻「坐在人类导师旁边」的体验：导师主导议程，从学生身上引出问题，诊断误解。引擎预测的不是下一个答案，而是「下一个最优教学动作」——有时候是讲解，有时候是沉默，有时候是画图、在白板上高亮，或者干脆出新题。演示里那个白板本质上是个代码沙箱，图表实时生成。技术上，团队 fork 开源模型，自建训练框架，针对出题、读白板、理解学生语音这些子问题分别训练专用模型——因为任务太过多模态，一个通用模型并不合理。\n\n这里还有一条更深的护城河：数据。全世界没有现成的一对一教学数据，连学习科学文献里都没有「什么是好的教学」的判断标准。举个例子，学生一句「嗯」，可能是饿了，可能是无聊，也可能是在思考——必须听语音、看上下文才能判断。所以团队雇了一支导师队伍，人工评分数千小时的教学场次来造训练数据。关于这批数据，Sean 有句话很有分量：它确实不存在，但我们不卖，它是我们的。更何况这全是十八岁以下学生的数据，必须严格锁死。\n\n至于为什么死磕一对一——这背后有个经典研究，教育学家 Benjamin Bloom 发现，一对一辅导能带来两个标准差的学习提升，是效果最好的学习方式。但现实是美国每五十二个学生里，连一个有私人导师的都不到。Aristotle 的定价也刻意贴近真人辅导行业：每月五十美元八次课，一百九十九美元无限次——有学生每个月用上六十个小时以上。质量贴近了，价格贴近真人辅导反而合理。\n\n最后是对教育体系的判断，这一段有点扎心。美国的生均教育支出在指数级增长，可数学、读写、一对一教学时间，所有指标都在下降。用 Sean 的原话说：我们在越来越差的产品上花费越来越多的钱。有一位家长告诉 Sean,女儿跟 Aristotle 学三个小时学到的东西，比过去一个月在公立学校学到的还多——这对教育体系来说扎心，对产品来说让人兴奋。Jason 在旁边补了一句预言：这类产品做成功之后，迟早会被拖进课堂给老师做仪表盘，Khan Academy 当年就是这么走过来的。\n\n这一集听下来，两条线其实说的是一件事：不管是学生自学、创业者找客户，还是 AI 做教育，真正管用的都不是更大的通用能力，而是那个具体的人、具体的一对一。就像 Sean 说的，他们只是想用软件交付一对一辅导体验——而这种体验，几千年来一直被认为是最好的学习方式。"
+}

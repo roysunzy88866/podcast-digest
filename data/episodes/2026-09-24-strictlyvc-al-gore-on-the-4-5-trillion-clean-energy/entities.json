@@ -1,0 +1,1066 @@
+{
+  "episode_id": "2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy",
+  "podcast": "StrictlyVC Download",
+  "date": "2026-09-24",
+  "tags": [
+    "气候与能源转型",
+    "AI 数据中心",
+    "清洁能源投资",
+    "太阳能",
+    "AI 安全"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "al-gore",
+      "type": "person",
+      "role": "host",
+      "name": "Al Gore",
+      "file": "Al Gore",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.43,
+            27.518
+          ],
+          "quote": "Today, Alex and I are joined by former Vice President Al Gore and Lila Preston, Co-Head of Growth Equity at Generation Investment Management.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "lila-preston",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lila Preston",
+      "file": "Lila Preston",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.43,
+            27.518
+          ],
+          "quote": "Today, Alex and I are joined by former Vice President Al Gore and Lila Preston, Co-Head of Growth Equity at Generation Investment Management.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1687.181,
+            1689.443
+          ],
+          "quote": "I'd tell them to consult with Lila Preston.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "connie-loizis",
+      "type": "person",
+      "role": "cohost",
+      "name": "Connie Loizis",
+      "file": "Connie Loizis",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            1.063,
+            2.387
+          ],
+          "quote": "Hi, I'm Connie Loizis.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "generation-investment-management",
+      "type": "company",
+      "role": "company",
+      "name": "Generation Investment Management",
+      "file": "Generation Investment Management",
+      "primary": true,
+      "how_described": "本集说它是 Lila Preston 担任增长股权联席主管的投资机构，每年发布可持续发展趋势报告(STR)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.43,
+            27.518
+          ],
+          "quote": "Today, Alex and I are joined by former Vice President Al Gore and Lila Preston, Co-Head of Growth Equity at Generation Investment Management.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 宣布已阻止 Claude 被用于制造生物武器，其内部专家一直试图提醒公众注意先进 AI 的风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            237.371,
+            254.336
+          ],
+          "quote": "And other than Donald Trump, most everybody else in the US is concerned about some of the risks that people inside the industry have raised, both at Anthropic and OpenAI and Elon Musk joined in as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1097.176,
+            1117.208
+          ],
+          "quote": "The growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1168.853,
+            1184.938
+          ],
+          "quote": "But the deeper and more serious concerns are the ones that have been highlighted just again in recent days where, you know, Anthropic announced that it has stopped the use of Claude to make biological weapons.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 内部专家一直在就先进 AI 的威胁向公众发出警告",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            237.371,
+            254.336
+          ],
+          "quote": "And other than Donald Trump, most everybody else in the US is concerned about some of the risks that people inside the industry have raised, both at Anthropic and OpenAI and Elon Musk joined in as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1097.176,
+            1117.208
+          ],
+          "quote": "The growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pivot-bio",
+      "type": "company",
+      "role": "company",
+      "name": "Pivot Bio",
+      "file": "Pivot Bio",
+      "primary": true,
+      "how_described": "本集说它是一家用生物学替代农业中化学的公司，让种植者的氮肥生产不依赖化石原料",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            806.45,
+            814.294
+          ],
+          "quote": "It's a company called Pivot Bio, and it's an example of not relying on fossil feedstocks for the production of nitrogen for growers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            853.524,
+            865.932
+          ],
+          "quote": "And as they adopt these new techniques, including innovations like that mentioned by Lila, produced by Pivot Bio, are making farms more resilient to the",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gridware",
+      "type": "company",
+      "role": "company",
+      "name": "Gridware",
+      "file": "Gridware",
+      "primary": true,
+      "how_described": "本集说它在电线杆上装有传感器，能提供电网监测、转移负荷，缓冲野火等气候风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            1353.827,
+            1363.21
+          ],
+          "quote": "And there's a company like Gridware, which has sensors on utility poles and can provide monitoring, but also ability to shift load and protect",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "volu",
+      "type": "company",
+      "role": "company",
+      "name": "Volu",
+      "file": "Volu",
+      "primary": false,
+      "how_described": "本集说它是欧洲一家帮公用事业把更多可再生能源并入电网的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            1326.763,
+            1332.972
+          ],
+          "quote": "We have companies like Volu over in Europe that are optimizing the ability of utilities to pull more renewables into the grid.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "weka",
+      "type": "company",
+      "role": "company",
+      "name": "Weka",
+      "file": "Weka",
+      "primary": false,
+      "how_described": "本集说它是一家优化存储层的公司，可提升约 10 倍性能、最多减少 90% 的硬件与能源需求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            1311.144,
+            1322.37
+          ],
+          "quote": "For example, Weka is a company that helps to optimize that storage layer, driving up like 10x performance, which reduces the need by up to 90% for the hardware and energy use of the storage",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ifs",
+      "type": "company",
+      "role": "company",
+      "name": "IFS",
+      "file": "IFS",
+      "primary": false,
+      "how_described": "本集说它是 Lila 的投资项目，聚焦重型工业机械的预防性维护，减少停机时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1855.522,
+            1858.743
+          ],
+          "quote": "We have an investment called IFS, which focuses on industrial",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data centers)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集主线之一：Gore 认为所有 AI 数据中心的排放加起来只是全球未覆盖填埋场的一小部分，正确打法是逼其配绿电而非阻止建设",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.898,
+            32.763
+          ],
+          "quote": "In this conversation, we get into the massive energy demands of AI and data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 7,
+          "t": [
+            56.797,
+            74.5
+          ],
+          "quote": "We relatedly talk about the surprising pace of solar adoption, the challenges facing nuclear power, and why advances in AI could ultimately help make industries from agriculture to energy far more efficient, even as those data centers needed to support it face growing opposition.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            111.908,
+            113.229
+          ],
+          "quote": "AI and data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            129.74,
+            133.382
+          ],
+          "quote": "So this fight should really be about forcing data centers to pair with",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            156.09,
+            162.873
+          ],
+          "quote": "And emissions from AI data centers is really focused on that concern.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1081.822,
+            1093.73
+          ],
+          "quote": "Can you explain to people who don't understand what's happening and who do think these data centers are going to poison their communities, whether they have legitimate reasons for concern?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1097.176,
+            1117.208
+          ],
+          "quote": "The growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1132.748,
+            1136.25
+          ],
+          "quote": "We're seeking to power these data centers with fossil fuels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1136.79,
+            1146.415
+          ],
+          "quote": "But if you look at the emissions of all of the AI data centers put together, it's only a fraction of the emissions from uncovered landfills in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1159.89,
+            1168.513
+          ],
+          "quote": "The challenge is to make sure that we optimize the use of renewable energy to power these data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1221.776,
+            1235.143
+          ],
+          "quote": "In some regions, the noise experienced by people near the data centers is an issue, but the deeper concerns are the ones that these experts have been warning us about just in the lab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1252.942,
+            1259.27
+          ],
+          "quote": "I just wanted to add one final piece while we have to, you know, increase the renewable base load power for the data centers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1270.142,
+            1280.808
+          ],
+          "quote": "In the power supply, in building the data centers, green cement, green steel, in the storage optimization software you use, in the optimization of the database design.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            210.859,
+            221.604
+          ],
+          "quote": "The frontier models is one of the two issues most appropriate for a renewed cooperation between the US and China.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1237.805,
+            1252.459
+          ],
+          "quote": "Again, the U.S. and China should adopt a two-issue agenda, solving the climate crisis together and establishing appropriate regulations for the frontier models in AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1479.645,
+            1493.53
+          ],
+          "quote": "And I think they are sincere because they obviously have a front row seat in assessing the rather startling advances being made by the frontier models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集谈模型逃脱禁闭、秘密协作、掩盖踪迹、欺骗行为等案例，以及认知萎缩和对社会机构的冲击，认为这些是比排放更深层的担忧",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.898,
+            32.763
+          ],
+          "quote": "In this conversation, we get into the massive energy demands of AI and data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 7,
+          "t": [
+            56.797,
+            74.5
+          ],
+          "quote": "We relatedly talk about the surprising pace of solar adoption, the challenges facing nuclear power, and why advances in AI could ultimately help make industries from agriculture to energy far more efficient, even as those data centers needed to support it face growing opposition.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            111.908,
+            113.229
+          ],
+          "quote": "AI and data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            145.126,
+            152.029
+          ],
+          "quote": "Well, the list of concerns where advanced AI is concerned is a long list.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            156.09,
+            162.873
+          ],
+          "quote": "And emissions from AI data centers is really focused on that concern.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            196.49,
+            205.876
+          ],
+          "quote": "But of course, there are other concerns related to advanced AI that have been much in the news just in the last few days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            229.028,
+            236.911
+          ],
+          "quote": "The implications of advanced AI for the Communist Party's continued dominance of that country.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            714.395,
+            726.262
+          ],
+          "quote": "And again, we have the benefits of now AI in the mix to potentially do this, but think about, you know, transportation, you know, EVs have been up and one in four of the global automotive fleet is an electric vehicle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            744.671,
+            752.075
+          ],
+          "quote": "Like there's a whole swath of requirements, especially as autonomy meets EVs and thinking about simulation software and physical world AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1136.79,
+            1146.415
+          ],
+          "quote": "But if you look at the emissions of all of the AI data centers put together, it's only a fraction of the emissions from uncovered landfills in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1237.805,
+            1252.459
+          ],
+          "quote": "Again, the U.S. and China should adopt a two-issue agenda, solving the climate crisis together and establishing appropriate regulations for the frontier models in AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1426.358,
+            1431.58
+          ],
+          "quote": "You know, you talked a little bit about President Trump dismissing AI doom warnings.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1532.523,
+            1542.27
+          ],
+          "quote": "coming as a result of AI being applied to the development of new approaches to efficiency and the elimination of energy waste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1772.858,
+            1782.788
+          ],
+          "quote": "Lila mentioned PivotBio, but the revolution in biology is almost as startling as the revolution in AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "renewable-energy",
+      "type": "concept",
+      "role": "concept",
+      "name": "可再生能源 (renewable energy)",
+      "file": "可再生能源",
+      "primary": true,
+      "how_described": "本集说去年全球新增电力生产 86% 是可再生能源(美国 91%)，可再生能源加电池的产量增长已赶上甚至超过全球能源使用增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            280.323,
+            294.137
+          ],
+          "quote": "But, you know, overall, the increased electricity production from renewable energy plus batteries now matches and even exceeds the increase in global energy use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            295.189,
+            309.327
+          ],
+          "quote": "We are seeing the momentum continue to build, and we're seeing the beginnings of displacement of fossil fuels by renewable energy, even as overall energy use increases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1159.89,
+            1168.513
+          ],
+          "quote": "The challenge is to make sure that we optimize the use of renewable energy to power these data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1206.707,
+            1214.532
+          ],
+          "quote": "We need to focus that concern on encouragement to shift over to renewable energy as the source of power.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "solar",
+      "type": "concept",
+      "role": "concept",
+      "name": "太阳能 (solar)",
+      "file": "太阳能",
+      "primary": true,
+      "how_described": "本集称太阳能革命是可持续转型中最耀眼的明星，现在约 0.09 美分，是世界历史上最便宜的电力来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            56.797,
+            74.5
+          ],
+          "quote": "We relatedly talk about the surprising pace of solar adoption, the challenges facing nuclear power, and why advances in AI could ultimately help make industries from agriculture to energy far more efficient, even as those data centers needed to support it face growing opposition.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            362.734,
+            371.6
+          ],
+          "quote": "Just a few days ago, the leadership in Thailand made a dramatic announcement that they're switching from LNG to solar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            372.38,
+            380.286
+          ],
+          "quote": "We've seen the surge in solar panel sales with reports that now were hidden from the public",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            396.316,
+            412.008
+          ],
+          "quote": "Getting back to the U.S. for a second, we have not embraced solar and wind, at least in recent years, and it seems that integrating these power sources into the grid is also becoming a real issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            430.716,
+            439.398
+          ],
+          "quote": "But it's worth remembering the only technology that's come down in price faster than solar electricity is utility scale batteries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            511.253,
+            516.436
+          ],
+          "quote": "So the reliability of solar and wind and batteries",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            982.992,
+            986.815
+          ],
+          "quote": "They've installed so much solar and wind and batteries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            987.215,
+            998.642
+          ],
+          "quote": "A year ago, July, in the peak of their installation, they were installing three gigawatts of solar every day, 93 gigawatts in the month of July alone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1578.109,
+            1589.392
+          ],
+          "quote": "For me personally, the scope and scale of the solar revolution is the breakout star of the sustainability transition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1600.174,
+            1605.438
+          ],
+          "quote": "have been startled by how fast the price of solar has declined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1649.452,
+            1660.365
+          ],
+          "quote": "I think what's encouraging to see, and again, there's steps forward and steps back, but now you have the combination of, say, solar plus battery storage, plus grid optimization, plus, you know, EV charge.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "grid",
+      "type": "concept",
+      "role": "concept",
+      "name": "电网 (grid)",
+      "file": "电网",
+      "primary": true,
+      "how_described": "本集说电网现在是这场能源转型的主要限制因素，挑战已从供应端转向电网韧性、灵活性与互联互通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            396.316,
+            412.008
+          ],
+          "quote": "Getting back to the U.S. for a second, we have not embraced solar and wind, at least in recent years, and it seems that integrating these power sources into the grid is also becoming a real issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            412.528,
+            419.213
+          ],
+          "quote": "What do we need to do to improve our grid in the way that we can accept these power sources?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            454.585,
+            464.194
+          ],
+          "quote": "I was just going to add, Alex, that I believe that the move from the supply being the challenge to the grid resilience being a challenge, we recognize that in the report.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            464.314,
+            474.063
+          ],
+          "quote": "And we talk a lot about the imperative of grid flexibility, interconnection, and the now optimization of the mix because it's increasingly diverse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            701.948,
+            704.749
+          ],
+          "quote": "You know, there's been a lot of focus on the grid.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            704.829,
+            714.275
+          ],
+          "quote": "So both the supply of energy and now grid resilience, as I mentioned, but there's equally massive industries that need to be redesigned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            899.845,
+            913.029
+          ],
+          "quote": "And some of them are accelerating in developing countries with panel solars, you know, the panel technology that can be plugged into a regular household grid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1326.763,
+            1332.972
+          ],
+          "quote": "We have companies like Volu over in Europe that are optimizing the ability of utilities to pull more renewables into the grid.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1341.403,
+            1348.785
+          ],
+          "quote": "So think about the importance of buffering our grid from disruption risks related to climate such as wildfire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1649.452,
+            1660.365
+          ],
+          "quote": "I think what's encouraging to see, and again, there's steps forward and steps back, but now you have the combination of, say, solar plus battery storage, plus grid optimization, plus, you know, EV charge.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "small-modular-reactors",
+      "type": "concept",
+      "role": "concept",
+      "name": "小型模块化反应堆 (small modular reactors)",
+      "file": "小型模块化反应堆",
+      "primary": true,
+      "how_described": "本集引用 Hal Harvey 的名言：新模块化反应堆「更小、更安全、更便宜，而且不存在」；安全工程成本不随规模缩小，早期试点令人失望",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            565.49,
+            575.095
+          ],
+          "quote": "And you may have noticed that some short sellers made a windfall betting against these small modular reactors just a couple of months ago.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "regenerative-agriculture",
+      "type": "concept",
+      "role": "concept",
+      "name": "再生农业 (regenerative agriculture)",
+      "file": "再生农业",
+      "primary": true,
+      "how_described": "本集说它是气候解决方案工具箱中最有效的工具之一，用生物学替代化学、结合机器人与数据科学",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            825.1,
+            832.348
+          ],
+          "quote": "And regenerative agriculture is one of the most effective tools in the toolbox of climate solutions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evs",
+      "type": "concept",
+      "role": "concept",
+      "name": "EVs",
+      "file": "EVs",
+      "primary": true,
+      "how_described": "本集说全球新车销量的四分之一已是电动车，中国上个月新售车辆 65% 是电动车，正朝两年内 82% 迈进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            714.395,
+            726.262
+          ],
+          "quote": "And again, we have the benefits of now AI in the mix to potentially do this, but think about, you know, transportation, you know, EVs have been up and one in four of the global automotive fleet is an electric vehicle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            744.671,
+            752.075
+          ],
+          "quote": "Like there's a whole swath of requirements, especially as autonomy meets EVs and thinking about simulation software and physical world AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            916.41,
+            923.436
+          ],
+          "quote": "Lila mentioned in the transportation market that one in four vehicles sold this year will be EVs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            923.516,
+            932.203
+          ],
+          "quote": "In China, last month, 65% of all new vehicles were EVs, on the way to 82% in the next two years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "green-steel",
+      "type": "concept",
+      "role": "concept",
+      "name": "绿色钢铁 (green steel)",
+      "file": "绿色钢铁",
+      "primary": false,
+      "how_described": "本集说他们领投了正在瑞典北部建设的全球最大绿色钢铁设施，进展令人振奋",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            1270.142,
+            1280.808
+          ],
+          "quote": "In the power supply, in building the data centers, green cement, green steel, in the storage optimization software you use, in the optimization of the database design.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1729.638,
+            1734.885
+          ],
+          "quote": "Yeah, you know, we led the latest investment round in the largest green steel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fossil-fuels",
+      "type": "concept",
+      "role": "concept",
+      "name": "化石燃料 (fossil fuels)",
+      "file": "化石燃料",
+      "primary": true,
+      "how_described": "本集说四年内两次供应中断让世界被残酷提醒化石燃料是不可靠的能源，价格波动急剧上升，正推动各国加速转型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            295.189,
+            309.327
+          ],
+          "quote": "We are seeing the momentum continue to build, and we're seeing the beginnings of displacement of fossil fuels by renewable energy, even as overall energy use increases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            333.669,
+            340.376
+          ],
+          "quote": "That fossil fuels are a very difficult and unreliable source of energy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            354.828,
+            362.634
+          ],
+          "quote": "said just recently, this shows us we can no longer put off the transition away from fossil fuels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            486.695,
+            491.159
+          ],
+          "quote": "And fossil fuels are becoming an intermittent source of energy for many",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1132.748,
+            1136.25
+          ],
+          "quote": "We're seeking to power these data centers with fossil fuels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1788.735,
+            1806.84
+          ],
+          "quote": "top soils, making farms more resilient, increasing yields without such reliance on fossil fuels and synthetic nitrogen fertilizers, which are 90% methane, and without harmful chemicals that end up creating health threats as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "industrial-decarbonization",
+      "type": "concept",
+      "role": "concept",
+      "name": "工业脱碳 (industrial decarbonization)",
+      "file": "工业脱碳",
+      "primary": true,
+      "how_described": "本集说工业脱碳仍是巨大需求，「难减排」行业名单正在缩短——IEA 从十年减排 50% 上调到 65%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1709.021,
+            1711.522
+          ],
+          "quote": "I think industrial decarbonization is still a massive need.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

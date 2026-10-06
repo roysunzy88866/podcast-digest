@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dylan Patel]] · [[OpenAI]] · [[Anthropic]] · [[Meta]] · [[SpaceX]] · [[Google]] · [[NVIDIA]] · [[Jane Street]] · [[ASML]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Dylan Patel":1,"OpenAI":165,"Anthropic":177,"Meta":44,"SpaceX":20,"Google":60,"NVIDIA":57,"Jane Street":1,"ASML":3,"算力":8}</script>
+<script type="application/json" class="pd-epn">{"Dylan Patel":1,"OpenAI":167,"Anthropic":179,"Meta":44,"SpaceX":20,"Google":60,"NVIDIA":57,"Jane Street":1,"ASML":3,"算力":8}</script>
 
 <script>
 (function(){

@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>WhatsApp</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="WhatsApp">WH</div><div class="pi"><h1 class="pt">WhatsApp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="WhatsApp">WH</div><div class="pi"><h1 class="pt">WhatsApp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(04:59起):本集说 WhatsApp 刚刚推出了预写回复功能，Patrick 仍从未发送过这类 AI 预写的内容
 - **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(23:15起):『不用团队和资金就能创业』的落点:在欧洲和日本一切交易都发生在 WhatsApp 上;扎克伯格的路数是围绕核心资产做相邻业务,让 WhatsApp Business 内置 AI 客服和小商业页面,三到六个月做出落地页生成器、CRM 的 80% 功能版。
+- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(08:49起):本集选作智能体的消息通道,因为手机上本来就有;飞机上不买 Wi-Fi 也能用它的消息功能,由此触发搭建记忆系统的想法。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):初版 OpenClaw 胶水层的连接端之一。集里提到在马拉喀什网不好时 WhatsApp 到处都能用，嘉宾大量用它给模型发文字和语音消息来完成翻译、转录。
 
 ## ① 提到它的金句
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[OpenAI]] · [[Harj]] · [[Meta]] · [[Raphael Schaad]] · [[Patrick Collison]] · [[开源模型]] · [[Peter Steinberger]] · [[Stripe]]
+[[智能体]] · [[Claude]] · [[OpenClaw]] · [[OpenAI]] · [[Harj]] · [[Meta]] · [[Jeremy Adams]] · [[Raphael Schaad]] · [[Patrick Collison]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"Claude":90,"OpenAI":165,"Harj":1,"Meta":44,"Raphael Schaad":1,"Patrick Collison":3,"开源模型":4,"Peter Steinberger":3,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"Claude":90,"OpenClaw":22,"OpenAI":167,"Harj":1,"Meta":44,"Jeremy Adams":1,"Raphael Schaad":1,"Patrick Collison":3,"开源模型":4}</script>
 
 <script>
 (function(){

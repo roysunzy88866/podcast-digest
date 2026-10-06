@@ -1,0 +1,1114 @@
+[
+ {
+  "seg": 0,
+  "start": 12.67,
+  "end": 12.91,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.09,
+  "end": 13.811,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.271,
+  "end": 14.911,
+  "speaker": "Unknown",
+  "en": "My name's Connor.",
+  "zh": "我叫 Connor。"
+ },
+ {
+  "seg": 3,
+  "start": 14.931,
+  "end": 19.173,
+  "speaker": "Unknown",
+  "en": "I'm a developer advocate at Crusoe, and I'm joined by my colleagues Nikhil and Young.",
+  "zh": "我是 Crusoe 的开发者布道师,和我一起的还有我的同事 Nikhil 和 Young。"
+ },
+ {
+  "seg": 4,
+  "start": 19.913,
+  "end": 26.517,
+  "speaker": "Unknown",
+  "en": "And we're going to be talking today about the infrastructure we've built at Crusoe and how it handles critical hardware errors.",
+  "zh": "我们今天要讲的是我们在 Crusoe 构建的基础设施,以及它如何处理关键的硬件错误。"
+ },
+ {
+  "seg": 5,
+  "start": 27.077,
+  "end": 32.94,
+  "speaker": "Unknown",
+  "en": "And so our customers, when they're running extremely large-scale training workloads across thousands of GPUs,",
+  "zh": "我们的客户在数千块 GPU 上运行超大规模训练工作负载时,"
+ },
+ {
+  "seg": 6,
+  "start": 33.54,
+  "end": 35.121,
+  "speaker": "Unknown",
+  "en": "GPU failures are inevitable.",
+  "zh": "GPU 故障是不可避免的。"
+ },
+ {
+  "seg": 7,
+  "start": 35.461,
+  "end": 39.722,
+  "speaker": "Unknown",
+  "en": "And so at scale, manual remediation is completely unsustainable.",
+  "zh": "在这种规模下,手动修复是完全不可持续的。"
+ },
+ {
+  "seg": 8,
+  "start": 40.202,
+  "end": 56.367,
+  "speaker": "Unknown",
+  "en": "And so what we'll cover today is how by using both Slurm and Kubernetes, we can provide a robust platform with automated remediation that maintains ease of use for both machine learning engineers running jobs and the platform teams managing the underlying clusters.",
+  "zh": "所以我们今天要讲的是,通过同时使用 Slurm 和 Kubernetes,我们如何提供一个具备自动化修复的稳健平台,同时为运行任务的机器学习工程师和管理底层集群的平台团队保持易用性。"
+ },
+ {
+  "seg": 9,
+  "start": 59.029,
+  "end": 72.734,
+  "speaker": "Unknown",
+  "en": "So to provide a little bit more context on what Crusoe Cloud is, for those of you who haven't heard of us, we provide infrastructure as a service consisting of compute, storage, networking, and the latest-gen GPUs from NVIDIA and AMD.",
+  "zh": "为了给 Crusoe Cloud 提供更多背景信息,对于还没听说过我们的朋友,我们提供基础设施即服务,包括计算、存储、网络,以及来自 NVIDIA 和 AMD 的最新一代 GPU。"
+ },
+ {
+  "seg": 10,
+  "start": 73.354,
+  "end": 84.978,
+  "speaker": "Unknown",
+  "en": "But the focus of this talk will be on the tooling that we've built on top of that to orchestrate these large fleets of GPUs, including our managed Kubernetes service called CMK,",
+  "zh": "但本次演讲的重点将是我们在此之上构建的、用于编排这些大规模 GPU 集群的工具,包括我们名为 CMK 的托管 Kubernetes 服务,"
+ },
+ {
+  "seg": 11,
+  "start": 85.958,
+  "end": 96.502,
+  "speaker": "Unknown",
+  "en": "And our managed Slurm service, which is built on top of CMK and built off of Slinky, which is SkedMD's official open source project for running Slurm on top of Kubernetes.",
+  "zh": "以及我们的托管 Slurm 服务,它构建在 CMK 之上,基于 Slinky 构建,Slinky 是 SkedMD 官方的在 Kubernetes 之上运行 Slurm 的开源项目。"
+ },
+ {
+  "seg": 12,
+  "start": 97.262,
+  "end": 105.865,
+  "speaker": "Unknown",
+  "en": "And this allows us to get the high performance job scheduling of Slurm with the infrastructure resilience features and observability of Kubernetes.",
+  "zh": "这让我们既能获得 Slurm 的高性能任务调度,又能获得 Kubernetes 的基础设施弹性特性和可观测性。"
+ },
+ {
+  "seg": 13,
+  "start": 107.078,
+  "end": 117.745,
+  "speaker": "Unknown",
+  "en": "Including one of the systems we've developed called AutoClusters, which is our system for automatically detecting and replacing failed GPU nodes when a GPU failure has been detected.",
+  "zh": "包括我们开发的其中一个名为 AutoClusters 的系统,它是我们在检测到 GPU 故障时自动检测并替换故障 GPU 节点的系统。"
+ },
+ {
+  "seg": 14,
+  "start": 118.686,
+  "end": 128.933,
+  "speaker": "Unknown",
+  "en": "And so to explain how and why we landed on this architecture, it's helpful to understand where traditional Slurm both excels and falls short, which Jung will get into now.",
+  "zh": "为了解释我们是如何以及为什么选定这个架构的,了解传统 Slurm 的优势和不足会很有帮助,接下来由 Jung 来讲。"
+ },
+ {
+  "seg": 15,
+  "start": 133.35,
+  "end": 133.931,
+  "speaker": "Unknown",
+  "en": "Thanks, Connor.",
+  "zh": "谢谢,Connor。"
+ },
+ {
+  "seg": 16,
+  "start": 134.952,
+  "end": 138.935,
+  "speaker": "Unknown",
+  "en": "Traditionally, I mean, looking at it from the traditional perspective...",
+  "zh": "传统上,我是说,从传统的角度来看……"
+ },
+ {
+  "seg": 17,
+  "start": 141.358,
+  "end": 142.399,
+  "speaker": "Unknown",
+  "en": "Sorry, can you hear me now?",
+  "zh": "抱歉,现在能听到我说话吗?"
+ },
+ {
+  "seg": 18,
+  "start": 142.519,
+  "end": 143.46,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的,没问题。"
+ },
+ {
+  "seg": 19,
+  "start": 143.5,
+  "end": 144.321,
+  "speaker": "Unknown",
+  "en": "I'll just do it like this.",
+  "zh": "我就这样来。"
+ },
+ {
+  "seg": 20,
+  "start": 144.381,
+  "end": 147.604,
+  "speaker": "Unknown",
+  "en": "But basically, traditionally, Slurm was built...",
+  "zh": "基本上,传统上,Slurm 的构建……"
+ },
+ {
+  "seg": 21,
+  "start": 149.209,
+  "end": 167.066,
+  "speaker": "Unknown",
+  "en": "SLURM was built by the researchers for the researchers, universities, labs over 20 years ago, built for high-performance computing, which, as we've observed with our customers and others that are using SLURM today, translates very well to modern AI, specifically around training workloads.",
+  "zh": "SLURM 是由研究人员为研究人员构建的,是 20 多年前为大学、实验室构建的,为高性能计算而生,正如我们从客户和其他今天使用 SLURM 的用户身上观察到的,它非常适合现代 AI,尤其是训练工作负载。"
+ },
+ {
+  "seg": 22,
+  "start": 167.767,
+  "end": 183.749,
+  "speaker": "Unknown",
+  "en": "This idea that when you're running a multi-node training job, you need this idea of tight collective communication across the ranks that you're using, including specific network built for training workloads today.",
+  "zh": "这个概念是,当你运行一个多节点训练任务时,你需要在所使用的各个 rank 之间进行紧密的集合通信,包括今天为训练工作负载专门构建的网络。"
+ },
+ {
+  "seg": 23,
+  "start": 185.362,
+  "end": 192.285,
+  "speaker": "Unknown",
+  "en": "Concepts like gang scheduling, topology awareness, prologue and epilogue for cluster validations.",
+  "zh": "像 gang scheduling、拓扑感知、用于集群验证的 prologue 和 epilogue 这样的概念。"
+ },
+ {
+  "seg": 24,
+  "start": 192.965,
+  "end": 209.652,
+  "speaker": "Unknown",
+  "en": "These are all the features that are readily available with Slurm today that helps researchers run their jobs, essentially running their jobs with tools that are already familiar to them, scripts, sbatch, srun commands, the things that are pretty standard in your Slurm cluster today.",
+  "zh": "这些都是 Slurm 今天现成就有的特性,可以帮助研究人员运行他们的任务,本质上是用他们已经熟悉的工具来运行任务——脚本、sbatch、srun 命令,这些在今天的 Slurm 集群中都是相当标准的。"
+ },
+ {
+  "seg": 25,
+  "start": 211.13,
+  "end": 221.148,
+  "speaker": "Unknown",
+  "en": "Now, where we feel like this is a bit of a shortcoming or falls a little bit short around the modern training is the things that you see on the screen right now.",
+  "zh": "那么,我们觉得它有所欠缺或者说在现代训练方面略显不足的地方,就是你现在在屏幕上看到的这些。"
+ },
+ {
+  "seg": 26,
+  "start": 222.783,
+  "end": 227.644,
+  "speaker": "Unknown",
+  "en": "AI training workloads today are very dynamic, and it doesn't just include training.",
+  "zh": "今天的 AI 训练工作负载是非常动态的,而且它不仅仅包括训练。"
+ },
+ {
+  "seg": 27,
+  "start": 227.744,
+  "end": 241.748,
+  "speaker": "Unknown",
+  "en": "There's a lot of other aspects that your AI labs and other companies are running as part of your AI workloads, including training, post-training, eval, inferences, some of which may or may not even land on your SLURM cluster today.",
+  "zh": "你的 AI 实验室和其他公司作为 AI 工作负载的一部分在运行很多其他方面的工作,包括训练、后训练、评估、推理,其中一些今天可能根本不会落到你的 SLURM 集群上。"
+ },
+ {
+  "seg": 28,
+  "start": 241.848,
+  "end": 248.09,
+  "speaker": "Unknown",
+  "en": "But because of what we've observed as a GPU capacity constraints and other things,",
+  "zh": "但由于我们所观察到的 GPU 容量限制和其他因素,"
+ },
+ {
+  "seg": 29,
+  "start": 248.75,
+  "end": 253.954,
+  "speaker": "Unknown",
+  "en": "Kind of limits you to how you need to be able to be more dynamic around the resources that you have.",
+  "zh": "某种程度上限制了你在拥有的资源上需要能够更加动态。"
+ },
+ {
+  "seg": 30,
+  "start": 254.054,
+  "end": 259.838,
+  "speaker": "Unknown",
+  "en": "Slurm traditionally is pretty static and it's partitioning and other functionalities.",
+  "zh": "Slurm 传统上在其分区和其他功能上是相当静态的。"
+ },
+ {
+  "seg": 31,
+  "start": 260.905,
+  "end": 267.647,
+  "speaker": "Unknown",
+  "en": "The other thing I want to mention is this idea of health checks and maintaining your nodes.",
+  "zh": "我想提到的另一件事是健康检查和维护节点的概念。"
+ },
+ {
+  "seg": 32,
+  "start": 267.827,
+  "end": 270.268,
+  "speaker": "Unknown",
+  "en": "You can make sure your nodes are healthy or not healthy.",
+  "zh": "你可以确认你的节点健康或不健康。"
+ },
+ {
+  "seg": 33,
+  "start": 270.708,
+  "end": 271.908,
+  "speaker": "Unknown",
+  "en": "GPUs do fail.",
+  "zh": "GPU 确实会故障。"
+ },
+ {
+  "seg": 34,
+  "start": 272.048,
+  "end": 273.128,
+  "speaker": "Unknown",
+  "en": "How do you manage that?",
+  "zh": "你如何管理这种情况?"
+ },
+ {
+  "seg": 35,
+  "start": 274.129,
+  "end": 285.272,
+  "speaker": "Unknown",
+  "en": "SLRM obviously has features around it to be able to re-queue the jobs, detect bad nodes using things like Prolog and other open source tools that are now available.",
+  "zh": "SLRM 显然有相关的特性,可以重新排队任务,使用 Prolog 和其他现在可用的开源工具来检测坏节点。"
+ },
+ {
+  "seg": 36,
+  "start": 285.832,
+  "end": 292.955,
+  "speaker": "Unknown",
+  "en": "To be able to do this, it just adds an operational burden that we've seen from customers today.",
+  "zh": "要做到这些,只是增加了我们今天从客户那里看到的运维负担。"
+ },
+ {
+  "seg": 37,
+  "start": 292.975,
+  "end": 299.498,
+  "speaker": "Unknown",
+  "en": "This idea that you have to detect if nodes are bad, you have to drain the nodes when they're bad, you have to kind of work around that.",
+  "zh": "这个概念是,你必须检测节点是否坏了,节点坏时你必须排空节点,你必须想办法绕过它。"
+ },
+ {
+  "seg": 38,
+  "start": 299.918,
+  "end": 304.74,
+  "speaker": "Unknown",
+  "en": "That could either be manual or you need some sort of an automation or scripting to be able to do all of this.",
+  "zh": "这要么是手动的,要么你需要某种自动化或脚本来完成所有这些。"
+ },
+ {
+  "seg": 39,
+  "start": 305.748,
+  "end": 307.209,
+  "speaker": "Unknown",
+  "en": "And the last thing is observability.",
+  "zh": "最后一个是可观测性。"
+ },
+ {
+  "seg": 40,
+  "start": 308.23,
+  "end": 309.811,
+  "speaker": "Unknown",
+  "en": "You know, jobs can fail.",
+  "zh": "你知道,任务可能会失败。"
+ },
+ {
+  "seg": 41,
+  "start": 309.831,
+  "end": 314.615,
+  "speaker": "Unknown",
+  "en": "Jobs can also come with degraded performances for any number of reasons.",
+  "zh": "任务也可能因为各种原因出现性能下降。"
+ },
+ {
+  "seg": 42,
+  "start": 314.796,
+  "end": 316.497,
+  "speaker": "Unknown",
+  "en": "I mean, GPU failure is just one of them.",
+  "zh": "我是说,GPU 故障只是其中之一。"
+ },
+ {
+  "seg": 43,
+  "start": 316.837,
+  "end": 324.644,
+  "speaker": "Unknown",
+  "en": "There's other things like network flaps and other things within your switches that may be causing degraded or failed performance.",
+  "zh": "还有其他情况,比如网络抖动和交换机内的其他问题,可能导致性能下降或故障。"
+ },
+ {
+  "seg": 44,
+  "start": 324.704,
+  "end": 326.265,
+  "speaker": "Unknown",
+  "en": "Slurm knows when a job fails.",
+  "zh": "Slurm 知道任务何时失败。"
+ },
+ {
+  "seg": 45,
+  "start": 326.285,
+  "end": 329.808,
+  "speaker": "Unknown",
+  "en": "It doesn't necessarily be able to tell you everything about why it failed.",
+  "zh": "但它不一定能告诉你关于失败原因的全部信息。"
+ },
+ {
+  "seg": 46,
+  "start": 330.249,
+  "end": 333.691,
+  "speaker": "Unknown",
+  "en": "And that's where the observability comes into key play.",
+  "zh": "这就是可观测性发挥关键作用的地方。"
+ },
+ {
+  "seg": 47,
+  "start": 334.532,
+  "end": 343.737,
+  "speaker": "Unknown",
+  "en": "So all of this kind of encompasses the reason why we built this product that Nikhil is going to go over and sort of describe some of the specifics around Manusler.",
+  "zh": "所以,所有这些概括起来就是我们构建这个产品的原因,Nikhil 将会介绍并描述 Manusler 的一些具体细节。"
+ },
+ {
+  "seg": 48,
+  "start": 351.844,
+  "end": 352.144,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 49,
+  "start": 352.945,
+  "end": 353.385,
+  "speaker": "Unknown",
+  "en": "Thanks, Young.",
+  "zh": "谢谢,Young。"
+ },
+ {
+  "seg": 50,
+  "start": 353.945,
+  "end": 358.327,
+  "speaker": "Unknown",
+  "en": "So yeah, I'm going to be talking about our Crusoe Manage Slurm product.",
+  "zh": "所以，我要讲的是我们的 Crusoe Managed Slurm 产品。"
+ },
+ {
+  "seg": 51,
+  "start": 359.128,
+  "end": 372.435,
+  "speaker": "Unknown",
+  "en": "And like we mentioned before, there's a lot of benefits that Slurm can bring to the training teams and researchers that are building the next best models.",
+  "zh": "就像我们之前提到的，Slurm 能为正在构建下一代最佳模型的训练团队和研究人员带来很多好处。"
+ },
+ {
+  "seg": 52,
+  "start": 372.535,
+  "end": 378.518,
+  "speaker": "Unknown",
+  "en": "But there are some issues with setting up Slurm, managing it, keeping it reliable.",
+  "zh": "但在搭建 Slurm、管理它、保持它的可靠性方面存在一些问题。"
+ },
+ {
+  "seg": 53,
+  "start": 379.598,
+  "end": 383.082,
+  "speaker": "Unknown",
+  "en": "And on the other hand, you have Kubernetes, which is the OS of the cloud.",
+  "zh": "而另一方面，你有 Kubernetes，它是云的操作系统。"
+ },
+ {
+  "seg": 54,
+  "start": 383.583,
+  "end": 386.806,
+  "speaker": "Unknown",
+  "en": "It hides widespread use and familiarity.",
+  "zh": "它隐藏了广泛的使用和熟悉度。"
+ },
+ {
+  "seg": 55,
+  "start": 386.886,
+  "end": 396.116,
+  "speaker": "Unknown",
+  "en": "It's a very mature ecosystem with lots of tools, extensions, and plug-ins for whatever you need to add, whether it be observability, networking, security.",
+  "zh": "它是一个非常成熟的生态系统，拥有大量工具、扩展和插件，可以满足你想要添加的任何东西，无论是可观测性、网络还是安全。"
+ },
+ {
+  "seg": 56,
+  "start": 397.237,
+  "end": 404.82,
+  "speaker": "Unknown",
+  "en": "It helps maintain services with their built-in safe healing, load balancing and auto-scaling that keeps everything running smoothly.",
+  "zh": "它通过内置的自愈、负载均衡和自动扩缩容来帮助维护服务，让一切平稳运行。"
+ },
+ {
+  "seg": 57,
+  "start": 405.581,
+  "end": 415.125,
+  "speaker": "Unknown",
+  "en": "And so we often see that customers will come with us starting with, say, inference running on Kubernetes, and then they want to expand to training.",
+  "zh": "所以我们经常看到，客户找到我们时，先是从比如运行在 Kubernetes 上的推理开始的，然后他们想扩展到训练。"
+ },
+ {
+  "seg": 58,
+  "start": 416.045,
+  "end": 416.826,
+  "speaker": "Unknown",
+  "en": "Or vice versa.",
+  "zh": "或者反过来。"
+ },
+ {
+  "seg": 59,
+  "start": 417.526,
+  "end": 423.969,
+  "speaker": "Unknown",
+  "en": "And so maybe a Kubernetes familiar team struggles with deploying and managing a Slurm cluster.",
+  "zh": "那么也许一个熟悉 Kubernetes 的团队在部署和管理 Slurm 集群时会遇到困难。"
+ },
+ {
+  "seg": 60,
+  "start": 425.25,
+  "end": 435.275,
+  "speaker": "Unknown",
+  "en": "Or the incoming Slurm native training team is unfamiliar with the existing Kubernetes frameworks and adds additional friction that just slows down your team.",
+  "zh": "或者新来的 Slurm 原生训练团队不熟悉现有的 Kubernetes 框架，这会增加额外的摩擦，拖慢你团队的速度。"
+ },
+ {
+  "seg": 61,
+  "start": 436.016,
+  "end": 442.539,
+  "speaker": "Unknown",
+  "en": "And with how fast everyone's trying to get to the next best model and next best product,",
+  "zh": "而且在每个人都争分夺秒想做出下一个最佳模型和下一个最佳产品的当下，"
+ },
+ {
+  "seg": 62,
+  "start": 444.24,
+  "end": 453.204,
+  "speaker": "Unknown",
+  "en": "Teams get set up with the tools they're familiar with, and you end up with two separate infrastructure stacks, which has its own host of extra operational burdens and extra costs.",
+  "zh": "团队会用他们熟悉的工具来搭建环境，最终你就会得到两套独立的基础设施栈，这本身就带来一堆额外的运维负担和额外成本。"
+ },
+ {
+  "seg": 63,
+  "start": 454.024,
+  "end": 459.447,
+  "speaker": "Unknown",
+  "en": "So we decided to build out our Crusoe Managed Slurm on top of Kubernetes.",
+  "zh": "所以我们决定在 Kubernetes 之上构建我们的 Crusoe Managed Slurm。"
+ },
+ {
+  "seg": 64,
+  "start": 460.728,
+  "end": 471.112,
+  "speaker": "Unknown",
+  "en": "So we have our Crusoe Slurm operator, which coordinates with our Crusoe managed Kubernetes platform and the broader Crusoe Cloud, so including storage, networking, et cetera.",
+  "zh": "我们有我们的 Crusoe Slurm operator，它与我们的 Crusoe 托管 Kubernetes 平台以及更广泛的 Crusoe Cloud 协同工作，包括存储、网络等等。"
+ },
+ {
+  "seg": 65,
+  "start": 472.012,
+  "end": 479.275,
+  "speaker": "Unknown",
+  "en": "And CSO manages Slurm users, Slurm partitions, configurations, and storage, so you don't have to do it piecemeal.",
+  "zh": "CSO 管理 Slurm 用户、Slurm 分区、配置和存储，这样你就不必零零碎碎地去做了。"
+ },
+ {
+  "seg": 66,
+  "start": 479.655,
+  "end": 485.438,
+  "speaker": "Unknown",
+  "en": "You just, you know, one command, you create your Slurm cluster, and there it is existing in your Kubernetes cluster.",
+  "zh": "你只需要，你知道，一条命令，就创建了你的 Slurm 集群，它就存在于你的 Kubernetes 集群中了。"
+ },
+ {
+  "seg": 67,
+  "start": 486.258,
+  "end": 491.042,
+  "speaker": "Unknown",
+  "en": "So the benefit is, for the Slurm users, it's just another Slurm cluster.",
+  "zh": "所以好处是，对于 Slurm 用户来说，它只是又一个 Slurm 集群。"
+ },
+ {
+  "seg": 68,
+  "start": 491.262,
+  "end": 493.244,
+  "speaker": "Unknown",
+  "en": "They just need an IP address.",
+  "zh": "他们只需要一个 IP 地址。"
+ },
+ {
+  "seg": 69,
+  "start": 493.304,
+  "end": 495.426,
+  "speaker": "Unknown",
+  "en": "They can SSH with their user.",
+  "zh": "他们可以用自己的用户 SSH 上去。"
+ },
+ {
+  "seg": 70,
+  "start": 496.006,
+  "end": 499.629,
+  "speaker": "Unknown",
+  "en": "And now to them, it's a Slurm cluster with all the bells and whistles that they need.",
+  "zh": "对他们来说，这就是一个具备他们所需全部功能的 Slurm 集群。"
+ },
+ {
+  "seg": 71,
+  "start": 499.709,
+  "end": 502.231,
+  "speaker": "Unknown",
+  "en": "They don't even need to know that Kubernetes is running underneath.",
+  "zh": "他们甚至不需要知道底层运行着 Kubernetes。"
+ },
+ {
+  "seg": 72,
+  "start": 502.992,
+  "end": 510.599,
+  "speaker": "Unknown",
+  "en": "For your platform team and your infrastructure team, the benefit is Slurm is now just another service that plugs into your existing infrastructure.",
+  "zh": "对于你的平台团队和基础设施团队来说，好处是 Slurm 现在只是接入你现有基础设施的又一个服务。"
+ },
+ {
+  "seg": 73,
+  "start": 510.999,
+  "end": 519.126,
+  "speaker": "Unknown",
+  "en": "You don't need to set up an entirely new infrastructure stack, new observability tools, new on-call teams, new runbooks, nothing like that.",
+  "zh": "你不需要搭建一套全新的基础设施栈、新的可观测性工具、新的值班团队、新的 runbook，都不需要。"
+ },
+ {
+  "seg": 74,
+  "start": 519.266,
+  "end": 520.627,
+  "speaker": "Unknown",
+  "en": "It's all built into the same thing.",
+  "zh": "一切都构建在同一个体系里。"
+ },
+ {
+  "seg": 75,
+  "start": 520.667,
+  "end": 522.569,
+  "speaker": "Unknown",
+  "en": "It runs alongside all your other services.",
+  "zh": "它与你所有其他服务并排运行。"
+ },
+ {
+  "seg": 76,
+  "start": 524.723,
+  "end": 531.709,
+  "speaker": "Unknown",
+  "en": "And resources in Slurm, so any jobs, make use of the built-in topology-aware scheduling.",
+  "zh": "而且 Slurm 里的资源，也就是所有作业，可以利用内置的拓扑感知调度。"
+ },
+ {
+  "seg": 77,
+  "start": 532.85,
+  "end": 535.052,
+  "speaker": "Unknown",
+  "en": "And the platform team just sees it as another service.",
+  "zh": "平台团队只是把它看作又一个服务。"
+ },
+ {
+  "seg": 78,
+  "start": 536.63,
+  "end": 541.412,
+  "speaker": "Unknown",
+  "en": "And now, since all your GPUs and hardware are in one cluster, they can move around seamlessly.",
+  "zh": "现在，既然你所有的 GPU 和硬件都在一个集群里，它们可以无缝地移动。"
+ },
+ {
+  "seg": 79,
+  "start": 542.052,
+  "end": 555.338,
+  "speaker": "Unknown",
+  "en": "It enables more interesting tooling and dynamic availability, like when you need to burst your inference service when you're reaching high users, high number of users.",
+  "zh": "这使得更有意思的工具和动态可用性成为可能，比如当你需要给推理服务扩容以应对大量用户、用户数量很高的时候。"
+ },
+ {
+  "seg": 80,
+  "start": 555.838,
+  "end": 562.639,
+  "speaker": "Unknown",
+  "en": "You can take away some of your, or even reallocate some of your hardware from your training cluster to your inference service, or vice versa.",
+  "zh": "你可以把一部分，甚至重新分配一部分你的硬件，从训练集群转到推理服务，或者反过来。"
+ },
+ {
+  "seg": 81,
+  "start": 562.719,
+  "end": 567.74,
+  "speaker": "Unknown",
+  "en": "When your user load goes down, you have all these GPUs sitting idle.",
+  "zh": "当你的用户负载下降时，你有这些 GPU 闲置着。"
+ },
+ {
+  "seg": 82,
+  "start": 568.06,
+  "end": 574.682,
+  "speaker": "Unknown",
+  "en": "That's the perfect time to up your training job or do a larger hero run across more GPUs.",
+  "zh": "那正是加大你的训练作业，或者跨更多 GPU 做一次更大规模的 hero run 的完美时机。"
+ },
+ {
+  "seg": 83,
+  "start": 574.802,
+  "end": 581.943,
+  "speaker": "Unknown",
+  "en": "This is something that's only possible when you have everything in a single infrastructure stack, like Krusa Managed Slurm.",
+  "zh": "这是只有当你把所有东西放在一套基础设施栈里时才可能实现的事情，比如 Crusoe Managed Slurm。"
+ },
+ {
+  "seg": 84,
+  "start": 583.295,
+  "end": 592.058,
+  "speaker": "Unknown",
+  "en": "An additional benefit is now Crucible Managed Slurm can make use of our AutoClusters product, which is our auto remediation for additional hardware errors.",
+  "zh": "另一个好处是，现在 Crucible Managed Slurm 可以使用我们的 AutoClusters 产品，也就是我们针对额外硬件错误的自动修复。"
+ },
+ {
+  "seg": 85,
+  "start": 592.558,
+  "end": 597.9,
+  "speaker": "Unknown",
+  "en": "So Connor is going to walk through that and show a demo of how that works.",
+  "zh": "所以 Connor 将会走一遍这个流程，并演示它是如何工作的。"
+ },
+ {
+  "seg": 86,
+  "start": 603.295,
+  "end": 614.743,
+  "speaker": "Unknown",
+  "en": "So this is an overview of what exactly happens when AutoClusters detects a critical hardware error, in this case an XID79 error, where one of the GPUs is completely unusable.",
+  "zh": "这是 AutoClusters 检测到严重硬件错误时具体发生的事情的概览，在这个案例中是一个 XID79 错误，其中一块 GPU 完全不可用了。"
+ },
+ {
+  "seg": 87,
+  "start": 615.264,
+  "end": 620.948,
+  "speaker": "Unknown",
+  "en": "And so the first thing that happens is that the user is notified, although there's no action required from them.",
+  "zh": "那么发生的第一件事是用户收到通知，尽管他们不需要采取任何行动。"
+ },
+ {
+  "seg": 88,
+  "start": 621.827,
+  "end": 627.332,
+  "speaker": "Unknown",
+  "en": "Then the slurm operator sets that specific node to down and cancels any running jobs.",
+  "zh": "然后 slurm operator 将该特定节点设置为 down，并取消所有正在运行的作业。"
+ },
+ {
+  "seg": 89,
+  "start": 628.173,
+  "end": 641.705,
+  "speaker": "Unknown",
+  "en": "There's then a, the process receives a sigterm signal before being terminated and you have up to two minutes to handle that sigterm to either save your checkpoints or flush your logs before that node is eventually replaced.",
+  "zh": "然后有一个，该进程在终止前会收到一个 sigterm 信号，你有最多两分钟的时间来处理那个 sigterm，可以保存你的 checkpoint 或刷新你的日志，之后该节点最终会被替换。"
+ },
+ {
+  "seg": 90,
+  "start": 642.735,
+  "end": 644.996,
+  "speaker": "Unknown",
+  "en": "The cancel job is automatically re-queued.",
+  "zh": "被取消的作业会自动重新排队。"
+ },
+ {
+  "seg": 91,
+  "start": 645.616,
+  "end": 647.857,
+  "speaker": "Unknown",
+  "en": "And then auto clusters start.",
+  "zh": "然后 auto clusters 启动。"
+ },
+ {
+  "seg": 92,
+  "start": 647.917,
+  "end": 655.16,
+  "speaker": "Unknown",
+  "en": "So first it verifies that no pods on the node have a label that disables automatic replacement.",
+  "zh": "首先它验证该节点上没有任何 pod 带有禁用自动替换的标签。"
+ },
+ {
+  "seg": 93,
+  "start": 656.401,
+  "end": 661.483,
+  "speaker": "Unknown",
+  "en": "Assuming that node can be replaced, the Kubernetes node is then cordoned and drained.",
+  "zh": "假设该节点可以被替换，Kubernetes 节点随后会被 cordon 和 drain。"
+ },
+ {
+  "seg": 94,
+  "start": 662.264,
+  "end": 669.527,
+  "speaker": "Unknown",
+  "en": "And then the unhealthy node is removed from the node pool and replaced with a new healthy node from spare capacity.",
+  "zh": "然后那个不健康的节点会从节点池中移除，并用来自备用容量的新健康节点替换。"
+ },
+ {
+  "seg": 95,
+  "start": 670.228,
+  "end": 677.053,
+  "speaker": "Unknown",
+  "en": "And then a record of the alert and the remediation is logged for the user's reference, but there's still no action required from them.",
+  "zh": "然后该警报和修复的记录会被记录下来供用户参考，但他们仍然不需要采取任何行动。"
+ },
+ {
+  "seg": 96,
+  "start": 677.734,
+  "end": 687.881,
+  "speaker": "Unknown",
+  "en": "And then once that healthy node comes back online, then the slurm job starts, your application code runs to load your model and load your checkpoint and resume training.",
+  "zh": "然后一旦那个健康节点重新上线，slurm 作业就会启动，你的应用代码运行以加载你的模型、加载你的 checkpoint 并恢复训练。"
+ },
+ {
+  "seg": 97,
+  "start": 690.343,
+  "end": 692.004,
+  "speaker": "Unknown",
+  "en": "And so here's what that looks like.",
+  "zh": "那么这就是它的样子。"
+ },
+ {
+  "seg": 98,
+  "start": 695.338,
+  "end": 695.958,
+  "speaker": "Unknown",
+  "en": "In a demo.",
+  "zh": "在一个演示中。"
+ },
+ {
+  "seg": 99,
+  "start": 697.098,
+  "end": 702.38,
+  "speaker": "Unknown",
+  "en": "And so here on the left I'm just using sBatch to launch a PyTorch training script.",
+  "zh": "在左边，我正在使用 sBatch 启动一个 PyTorch 训练脚本。"
+ },
+ {
+  "seg": 100,
+  "start": 702.68,
+  "end": 708.761,
+  "speaker": "Unknown",
+  "en": "On the right is the Crusoe Cloud Console where I have a GPU node pool of two A100 nodes.",
+  "zh": "右边是 Crusoe Cloud 控制台，我在那里有一个包含两个 A100 节点的 GPU 节点池。"
+ },
+ {
+  "seg": 101,
+  "start": 709.981,
+  "end": 717.583,
+  "speaker": "Unknown",
+  "en": "And I'm going to launch this as normal and then what I'm going to do is run a script",
+  "zh": "我会像平常一样启动它，然后我要做的是运行一个脚本"
+ },
+ {
+  "seg": 102,
+  "start": 718.562,
+  "end": 723.985,
+  "speaker": "Unknown",
+  "en": "To tell our backend internal monitoring system that there's been an XID79 error on one of the GPUs.",
+  "zh": "来告诉我们的后端内部监控系统，其中一个 GPU 上出现了 XID79 错误。"
+ },
+ {
+  "seg": 103,
+  "start": 724.525,
+  "end": 725.846,
+  "speaker": "Unknown",
+  "en": "And this will trigger auto-clusters.",
+  "zh": "这会触发 auto-clusters。"
+ },
+ {
+  "seg": 104,
+  "start": 726.786,
+  "end": 731.068,
+  "speaker": "Unknown",
+  "en": "And so we can see immediately the GPU utilization drops.",
+  "zh": "这样我们能立即看到 GPU 利用率下降。"
+ },
+ {
+  "seg": 105,
+  "start": 731.429,
+  "end": 737.272,
+  "speaker": "Unknown",
+  "en": "And so we know that that GPU has gone offline and auto-clusters node replacement starts immediately.",
+  "zh": "于是我们知道那个 GPU 已经下线，auto-clusters 的节点替换立即开始。"
+ },
+ {
+  "seg": 106,
+  "start": 738.192,
+  "end": 747.917,
+  "speaker": "Unknown",
+  "en": "And the full process from detecting a critical hardware error to getting a healthy node back into the node pool takes roughly five minutes with auto-clusters.",
+  "zh": "而使用 auto-clusters，从检测到严重硬件错误到把一个健康节点重新纳入节点池的完整过程大约需要五分钟。"
+ },
+ {
+  "seg": 107,
+  "start": 749.358,
+  "end": 751.8,
+  "speaker": "Unknown",
+  "en": "The rest of the time is mainly application-level code.",
+  "zh": "其余时间主要是应用层面的代码。"
+ },
+ {
+  "seg": 108,
+  "start": 752.421,
+  "end": 758.086,
+  "speaker": "Unknown",
+  "en": "And so in this example, it's a little under 15 minutes from end to end.",
+  "zh": "在这个例子里，端到端总共用了不到 15 分钟。"
+ },
+ {
+  "seg": 109,
+  "start": 758.647,
+  "end": 764.052,
+  "speaker": "Unknown",
+  "en": "And here I'm just showing some of the alerts that the user receives when there's a critical hardware error like this.",
+  "zh": "这里我只是展示当出现这样的严重硬件错误时用户收到的部分警报。"
+ },
+ {
+  "seg": 110,
+  "start": 765.814,
+  "end": 766.694,
+  "speaker": "Unknown",
+  "en": "And so as you'll see,",
+  "zh": "正如你将看到的，"
+ },
+ {
+  "seg": 111,
+  "start": 768.788,
+  "end": 770.61,
+  "speaker": "Unknown",
+  "en": "There's no action required from the user.",
+  "zh": "用户不需要执行任何操作。"
+ },
+ {
+  "seg": 112,
+  "start": 770.65,
+  "end": 772.031,
+  "speaker": "Unknown",
+  "en": "The slurm job will restart.",
+  "zh": "Slurm 作业会重启。"
+ },
+ {
+  "seg": 113,
+  "start": 772.291,
+  "end": 775.575,
+  "speaker": "Unknown",
+  "en": "It'll load the checkpoint and continue training where it left off.",
+  "zh": "它会加载检查点，并从上次中断的地方继续训练。"
+ },
+ {
+  "seg": 114,
+  "start": 776.215,
+  "end": 779.438,
+  "speaker": "Unknown",
+  "en": "And we can see the GPU utilization returns back to normal.",
+  "zh": "我们可以看到 GPU 利用率恢复正常。"
+ },
+ {
+  "seg": 115,
+  "start": 779.458,
+  "end": 782.381,
+  "speaker": "Unknown",
+  "en": "And the total downtime is less than 15 minutes.",
+  "zh": "总停机时间不到 15 分钟。"
+ },
+ {
+  "seg": 116,
+  "start": 783.102,
+  "end": 791.17,
+  "speaker": "Unknown",
+  "en": "And this is much better than having an engineer have to log on in the middle of the night and spend hours debugging something.",
+  "zh": "这比让一名工程师不得不在半夜登录并花几个小时调试问题要好得多。"
+ },
+ {
+  "seg": 117,
+  "start": 791.19,
+  "end": 793.352,
+  "speaker": "Unknown",
+  "en": "All of this is handled automatically on our platform.",
+  "zh": "所有这些都在我们的平台上自动处理。"
+ },
+ {
+  "seg": 118,
+  "start": 798.444,
+  "end": 805.092,
+  "speaker": "Unknown",
+  "en": "Now historically, creating this type of environment has been challenging to merge both Slurm and Kubernetes.",
+  "zh": "从历史上看，创建这种类型的环境一直很难将 Slurm 和 Kubernetes 合并起来。"
+ },
+ {
+  "seg": 119,
+  "start": 805.652,
+  "end": 816.004,
+  "speaker": "Unknown",
+  "en": "And so we're really excited to announce what we call one-click Slurm, where everything that we've talked about in this presentation, this entire environment can be provisioned with just a single command.",
+  "zh": "所以我们非常高兴地宣布我们称之为 one-click Slurm 的东西，在这个演讲中我们谈到的所有内容，整个环境只需一条命令就能完成配置。"
+ },
+ {
+  "seg": 120,
+  "start": 817.315,
+  "end": 825.221,
+  "speaker": "Unknown",
+  "en": "And so this one command includes provisioning the underlying Kubernetes cluster, the Slurm controller, login nodes, and storage.",
+  "zh": "这一条命令包括配置底层的 Kubernetes 集群、Slurm 控制器、登录节点和存储。"
+ },
+ {
+  "seg": 121,
+  "start": 825.782,
+  "end": 830.385,
+  "speaker": "Unknown",
+  "en": "And then adding a GPU node pool is only one command beyond that.",
+  "zh": "而在此基础上，添加一个 GPU 节点池只需要再加一条命令。"
+ },
+ {
+  "seg": 122,
+  "start": 831.246,
+  "end": 838.712,
+  "speaker": "Unknown",
+  "en": "And so this means that engineers can simply SSH in and start running jobs immediately, and AutoClusters is enabled by default.",
+  "zh": "这意味着工程师只需 SSH 进去就可以立即开始运行作业，而且 AutoClusters 默认是启用的。"
+ },
+ {
+  "seg": 123,
+  "start": 842.184,
+  "end": 854.096,
+  "speaker": "Unknown",
+  "en": "So wrapping up, what we covered, starting with the limitations of traditional Slurm, it gives you the high performance job scheduling, but not the automated healing that modern AI infrastructure requires.",
+  "zh": "总结一下，我们讲的内容：从传统 Slurm 的局限性开始，它提供高性能的作业调度，但缺乏现代 AI 基础设施所需的自动修复能力。"
+ },
+ {
+  "seg": 124,
+  "start": 854.917,
+  "end": 864.226,
+  "speaker": "Unknown",
+  "en": "And so by building Slurm on top of Kubernetes, we can enable these advanced features without having either team change their workflows.",
+  "zh": "通过在 Kubernetes 之上构建 Slurm，我们可以在任何一方的团队都不改变工作流的情况下启用这些高级特性。"
+ },
+ {
+  "seg": 125,
+  "start": 865.218,
+  "end": 873.282,
+  "speaker": "Unknown",
+  "en": "Then we covered the full node remediation flow from an error being detected to the Slurm job resuming and the training resuming.",
+  "zh": "接着我们讲了完整的节点修复流程，从检测到错误到 Slurm 作业恢复、训练恢复。"
+ },
+ {
+  "seg": 126,
+  "start": 874.703,
+  "end": 885.108,
+  "speaker": "Unknown",
+  "en": "And so the key takeaways here, first is that traditionally Slurm and the infrastructure that it runs on are two separate systems, but together with Kubernetes,",
+  "zh": "这里的关键要点：第一，传统上 Slurm 和它运行所在的基础设施是两个独立的系统，但与 Kubernetes 结合之后，"
+ },
+ {
+  "seg": 127,
+  "start": 886.592,
+  "end": 897.15,
+  "speaker": "Unknown",
+  "en": "Both systems stay in sync, and so a failed GPU node can get cordoned automatically, and that signal will propagate directly to the Slurm operator.",
+  "zh": "两个系统保持同步，因此一个故障的 GPU 节点可以被自动封锁（cordon），该信号会直接传播到 Slurm operator。"
+ },
+ {
+  "seg": 128,
+  "start": 899.103,
+  "end": 906.249,
+  "speaker": "Unknown",
+  "en": "Also, like I mentioned earlier, neither the platform teams nor the machine learning teams have to change their workloads.",
+  "zh": "另外，就像我之前提到的，无论是平台团队还是机器学习团队都不必改变他们的工作负载。"
+ },
+ {
+  "seg": 129,
+  "start": 906.89,
+  "end": 916.898,
+  "speaker": "Unknown",
+  "en": "Researchers can still use the same commands to launch Slurm, and although Kubernetes is running underneath, researchers never have to SSH into a pod or worry about containers.",
+  "zh": "研究人员仍然可以使用相同的命令来启动 Slurm，虽然 Kubernetes 在底层运行，研究人员永远不需要 SSH 进一个 pod 或操心容器。"
+ },
+ {
+  "seg": 130,
+  "start": 917.739,
+  "end": 926.046,
+  "speaker": "Unknown",
+  "en": "But the Kubernetes teams still get access to the same level of telemetry and observability that they're used to.",
+  "zh": "而 Kubernetes 团队仍然可以获得他们所习惯的同等水平的遥测和可观测性。"
+ },
+ {
+  "seg": 131,
+  "start": 927.734,
+  "end": 943.282,
+  "speaker": "Unknown",
+  "en": "And then lastly, like Nikhil mentioned, the GPU nodes are Kubernetes nodes first, and that means that Slurm is just a workload running on top, and when a Slurm job finishes, those GPU nodes don't have to sit idle waiting for another job.",
+  "zh": "最后，就像 Nikhil 提到的，GPU 节点首先是 Kubernetes 节点，这意味着 Slurm 只是运行在其上的一个工作负载，当一个 Slurm 作业完成时，这些 GPU 节点不必闲置等待下一个作业。"
+ },
+ {
+  "seg": 132,
+  "start": 944.062,
+  "end": 952.467,
+  "speaker": "Unknown",
+  "en": "You can schedule inference pods on those immediately through Kubernetes, because from the platform's perspective, they're still just nodes in a pool.",
+  "zh": "你可以通过 Kubernetes 立即在它们上面调度推理 pod，因为从平台的角度看，它们仍然只是节点池里的节点。"
+ },
+ {
+  "seg": 133,
+  "start": 955.632,
+  "end": 959.655,
+  "speaker": "Unknown",
+  "en": "And so the core idea here is that failures are inevitable.",
+  "zh": "所以这里的核心思想是：故障是不可避免的。"
+ },
+ {
+  "seg": 134,
+  "start": 960.476,
+  "end": 976.888,
+  "speaker": "Unknown",
+  "en": "And so in today's AI landscape, the architecture of infrastructure should be designed in a way so that when there is a critical error, all the right actions are handled autonomously and engineers can focus on building their application and not worrying about the infrastructure.",
+  "zh": "在当今的 AI 格局中，基础设施的架构应该被设计成：当出现严重错误时，所有正确的操作都自主完成，工程师可以专注于构建他们的应用，而不用担心基础设施。"
+ },
+ {
+  "seg": 135,
+  "start": 980.812,
+  "end": 982.974,
+  "speaker": "Unknown",
+  "en": "Hopefully this was an informative talk.",
+  "zh": "希望这是一个有信息量的演讲。"
+ },
+ {
+  "seg": 136,
+  "start": 983.014,
+  "end": 990.139,
+  "speaker": "Unknown",
+  "en": "If you have any questions, feel free to connect with us at boothug12 or on social at crusodev.",
+  "zh": "如果你有任何问题，欢迎在 boothug12 展位或社交媒体 crusodev 上与我们联系。"
+ },
+ {
+  "seg": 137,
+  "start": 991.08,
+  "end": 993.641,
+  "speaker": "Unknown",
+  "en": "And thank you for listening and feel free to ask any questions.",
+  "zh": "感谢各位的聆听，欢迎随时提问。"
+ },
+ {
+  "seg": 138,
+  "start": 994.602,
+  "end": 994.822,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ }
+]

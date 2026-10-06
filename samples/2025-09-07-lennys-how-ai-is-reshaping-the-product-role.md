@@ -190,7 +190,7 @@ Oji的预测：未来几年，很多高主观能动性的人会编写自动化�
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:evals、智能体 (agent)、MCP</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、智能体 (agent)、微调 (fine tune)、推理 (inference)</span>
-- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:evals、智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|会自己造工具的智能体:AWS 元工具化实战]]<span class="pd-rz">同概念:evals、智能体 (agent)、LLM、护栏 (guardrails)</span>
 
 </div>
 </div>

@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Copilot]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Corinne Riley]] · [[Lenny]] · [[Parallel]] · [[Lada Kesseler]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"Copilot":12,"ChatGPT":98,"OpenAI":165,"Anthropic":177,"Cursor":80,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Lada Kesseler":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"Copilot":12,"ChatGPT":98,"OpenAI":167,"Anthropic":179,"Cursor":80,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Lada Kesseler":1}</script>
 
 <script>
 (function(){

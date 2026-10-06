@@ -27,7 +27,7 @@ unlisted: true
 
 [[Samsara]] · [[Matt Turk]] · [[Elena Berger]] · [[Sanjit Biswas]] · [[Joe Schmidt]] · [[物理 AI]] · [[Andy McCall]] · [[护栏]] · [[Lighthouse]] · [[生成式 AI]]
 
-<script type="application/json" class="pd-epn">{"Samsara":2,"Matt Turk":4,"Elena Berger":5,"Sanjit Biswas":1,"Joe Schmidt":2,"物理 AI":10,"Andy McCall":1,"护栏":77,"Lighthouse":1,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Samsara":2,"Matt Turk":4,"Elena Berger":5,"Sanjit Biswas":1,"Joe Schmidt":2,"物理 AI":10,"Andy McCall":1,"护栏":78,"Lighthouse":1,"生成式 AI":2}</script>
 
 <script>
 (function(){

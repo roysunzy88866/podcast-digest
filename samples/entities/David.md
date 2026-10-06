@@ -39,7 +39,7 @@ unlisted: true
 
 [[Kimberly]] · [[Jason]] · [[37Signals]] · [[Basecamp]] · [[客户反馈]] · [[入职引导]] · [[单向门]] · [[路线图]] · [[画中画导览]] · [[移动平均值]]
 
-<script type="application/json" class="pd-epn">{"Kimberly":3,"Jason":4,"37Signals":4,"Basecamp":2,"客户反馈":2,"入职引导":2,"单向门":1,"路线图":1,"画中画导览":1,"移动平均值":1}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"Jason":5,"37Signals":4,"Basecamp":2,"客户反馈":2,"入职引导":2,"单向门":1,"路线图":1,"画中画导览":1,"移动平均值":1}</script>
 
 <script>
 (function(){

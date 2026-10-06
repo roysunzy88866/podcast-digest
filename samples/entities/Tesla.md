@@ -57,7 +57,7 @@ unlisted: true
 
 [[Waymo]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[NVIDIA]] · [[Google]] · [[物理 AI]] · [[Meta]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Waymo":17,"智能体":417,"Anthropic":177,"OpenAI":165,"ChatGPT":98,"NVIDIA":57,"Google":60,"物理 AI":10,"Meta":44,"Cursor":80}</script>
+<script type="application/json" class="pd-epn">{"Waymo":17,"智能体":419,"Anthropic":179,"OpenAI":167,"ChatGPT":98,"NVIDIA":57,"Google":60,"物理 AI":10,"Meta":44,"Cursor":80}</script>
 
 <script>
 (function(){

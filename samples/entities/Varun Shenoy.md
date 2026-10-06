@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":417,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":78,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":12}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":419,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":79,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":12}</script>
 
 <script>
 (function(){

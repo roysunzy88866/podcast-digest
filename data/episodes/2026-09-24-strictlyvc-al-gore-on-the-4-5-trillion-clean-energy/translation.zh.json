@@ -1,0 +1,2266 @@
+[
+ {
+  "seg": 0,
+  "start": 1.063,
+  "end": 2.387,
+  "speaker": "Unknown",
+  "en": "Hi, I'm Connie Loizis.",
+  "zh": "嗨,我是 Connie Loizis。"
+ },
+ {
+  "seg": 1,
+  "start": 2.548,
+  "end": 3.811,
+  "speaker": "Unknown",
+  "en": "And this is Alex Gove.",
+  "zh": "这位是 Alex Gove。"
+ },
+ {
+  "seg": 2,
+  "start": 3.972,
+  "end": 6.098,
+  "speaker": "Unknown",
+  "en": "And this is Strictly VC Download.",
+  "zh": "这里是 Strictly VC Download。"
+ },
+ {
+  "seg": 3,
+  "start": 15.407,
+  "end": 18.069,
+  "speaker": "Unknown",
+  "en": "Hello, and welcome back to Strictly VC Download.",
+  "zh": "大家好,欢迎回到 Strictly VC Download。"
+ },
+ {
+  "seg": 4,
+  "start": 18.43,
+  "end": 27.518,
+  "speaker": "Unknown",
+  "en": "Today, Alex and I are joined by former Vice President Al Gore and Lila Preston, Co-Head of Growth Equity at Generation Investment Management.",
+  "zh": "今天,我和 Alex 请到了前副总统 Al Gore 以及 Generation Investment Management 增长股权联席主管 Lila Preston。"
+ },
+ {
+  "seg": 5,
+  "start": 27.898,
+  "end": 32.763,
+  "speaker": "Unknown",
+  "en": "In this conversation, we get into the massive energy demands of AI and data centers.",
+  "zh": "在这期对话中,我们深入探讨了 AI 和数据中心的巨大能源需求。"
+ },
+ {
+  "seg": 6,
+  "start": 33.203,
+  "end": 56.277,
+  "speaker": "Unknown",
+  "en": "Why Gore thinks the backlash deserves concern but not panic, and where he and Preston see some of the biggest opportunities for investors and founders as the energy transition accelerates even faster than Gore imagined it would, due largely to some unhappy world events, including the war in Ukraine and the fight over the Strait of Hormuz as part of the U.S. war with Iran.",
+  "zh": "为什么 Gore 认为反对浪潮值得担忧但不必恐慌,以及随着能源转型的加速甚至超过 Gore 当初的想象——这主要由于一些令人不快的世界事件,包括乌克兰战争,以及作为美国与伊朗战争一部分的霍尔木兹海峡之争——他和 Preston 看到了投资者和创始人的哪些最大机会。"
+ },
+ {
+  "seg": 7,
+  "start": 56.797,
+  "end": 74.5,
+  "speaker": "Unknown",
+  "en": "We relatedly talk about the surprising pace of solar adoption, the challenges facing nuclear power, and why advances in AI could ultimately help make industries from agriculture to energy far more efficient, even as those data centers needed to support it face growing opposition.",
+  "zh": "我们相应地谈到了太阳能普及的惊人速度、核能面临的挑战,以及为什么 AI 的进步最终可能帮助从农业到能源等各行各业变得更高效,即使支持它所需的数据中心正面临日益增长的反対。"
+ },
+ {
+  "seg": 8,
+  "start": 75.02,
+  "end": 78.981,
+  "speaker": "Unknown",
+  "en": "This has become something of an annual chat with Gore and Preston, one we always enjoy.",
+  "zh": "与 Gore 和 Preston 的对谈某种程度上已成了一年一度的节目,我们总是很享受。"
+ },
+ {
+  "seg": 9,
+  "start": 79.301,
+  "end": 83.042,
+  "speaker": "Unknown",
+  "en": "We hope you enjoy hearing from them too, and we will see you back here next week.",
+  "zh": "我们希望你们也喜欢听他们的分享,我们下周再见。"
+ },
+ {
+  "seg": 10,
+  "start": 87.247,
+  "end": 88.268,
+  "speaker": "Unknown",
+  "en": "Guys, thank you so much.",
+  "zh": "各位,非常感谢。"
+ },
+ {
+  "seg": 11,
+  "start": 88.288,
+  "end": 90.51,
+  "speaker": "Unknown",
+  "en": "I know it's a busy week for you, Lila.",
+  "zh": "我知道这周你们很忙,Lila。"
+ },
+ {
+  "seg": 12,
+  "start": 90.61,
+  "end": 93.192,
+  "speaker": "Unknown",
+  "en": "We were just talking about how crazy your schedules are.",
+  "zh": "我们刚才还在聊你们的日程有多疯狂。"
+ },
+ {
+  "seg": 13,
+  "start": 93.212,
+  "end": 95.394,
+  "speaker": "Unknown",
+  "en": "So thank you both so much for making time for us.",
+  "zh": "所以非常感谢你们两位抽时间给我们。"
+ },
+ {
+  "seg": 14,
+  "start": 95.794,
+  "end": 96.655,
+  "speaker": "Unknown",
+  "en": "I love your report.",
+  "zh": "我很喜欢你们的报告。"
+ },
+ {
+  "seg": 15,
+  "start": 96.975,
+  "end": 98.837,
+  "speaker": "Unknown",
+  "en": "Always fascinating to read through.",
+  "zh": "读起来总是很引人入胜。"
+ },
+ {
+  "seg": 16,
+  "start": 98.857,
+  "end": 105.283,
+  "speaker": "Unknown",
+  "en": "This one certainly sounds, I don't know, more optimistic even than in recent years.",
+  "zh": "这一份听起来,怎么说呢,甚至比近几年的更加乐观。"
+ },
+ {
+  "seg": 17,
+  "start": 105.743,
+  "end": 110.927,
+  "speaker": "Unknown",
+  "en": "But Mr. Gore, I wanted to start with the headlines first, which of course is",
+  "zh": "但是 Gore 先生,我想先从新闻头条开始,那当然就是"
+ },
+ {
+  "seg": 18,
+  "start": 111.908,
+  "end": 113.229,
+  "speaker": "Unknown",
+  "en": "AI and data centers.",
+  "zh": "AI 和数据中心。"
+ },
+ {
+  "seg": 19,
+  "start": 114.11,
+  "end": 115.931,
+  "speaker": "Unknown",
+  "en": "So much focus on this right now.",
+  "zh": "现在对这个的关注太多了。"
+ },
+ {
+  "seg": 20,
+  "start": 116.151,
+  "end": 121.734,
+  "speaker": "Unknown",
+  "en": "You have called the data center backlash a cause for deep concern, but not panic.",
+  "zh": "你曾把对数据中心的反对称为一个值得深切关注但不值得恐慌的问题。"
+ },
+ {
+  "seg": 21,
+  "start": 122.215,
+  "end": 129.559,
+  "speaker": "Unknown",
+  "en": "That the strain on land and water and grids is real, but also that the build out is probably inevitable.",
+  "zh": "对土地、水和电网的压力是真实存在的,但这轮建设也几乎是不可避免的。"
+ },
+ {
+  "seg": 22,
+  "start": 129.74,
+  "end": 133.382,
+  "speaker": "Unknown",
+  "en": "So this fight should really be about forcing data centers to pair with",
+  "zh": "所以这场斗争实际上应该是迫使数据中心与"
+ },
+ {
+  "seg": 23,
+  "start": 133.922,
+  "end": 138.304,
+  "speaker": "Unknown",
+  "en": "Renewable power rather than trying to just stop construction outright.",
+  "zh": "可再生能源配套,而不是试图彻底阻止建设。"
+ },
+ {
+  "seg": 24,
+  "start": 138.584,
+  "end": 142.465,
+  "speaker": "Unknown",
+  "en": "This fight is getting much bigger and escalating really quickly.",
+  "zh": "这场斗争正变得规模大得多,而且升级得非常快。"
+ },
+ {
+  "seg": 25,
+  "start": 142.485,
+  "end": 144.546,
+  "speaker": "Unknown",
+  "en": "What do you make of what's happening out there?",
+  "zh": "你怎么看待外面正在发生的事情?"
+ },
+ {
+  "seg": 26,
+  "start": 145.126,
+  "end": 152.029,
+  "speaker": "Unknown",
+  "en": "Well, the list of concerns where advanced AI is concerned is a long list.",
+  "zh": "嗯,就先进 AI 而言,值得担忧的事项是一长串。"
+ },
+ {
+  "seg": 27,
+  "start": 152.409,
+  "end": 155.75,
+  "speaker": "Unknown",
+  "en": "And the comments that I've made about energy use",
+  "zh": "我关于能源使用"
+ },
+ {
+  "seg": 28,
+  "start": 156.09,
+  "end": 162.873,
+  "speaker": "Unknown",
+  "en": "And emissions from AI data centers is really focused on that concern.",
+  "zh": "和 AI 数据中心排放所发表的评论,正是聚焦于这一担忧。"
+ },
+ {
+  "seg": 29,
+  "start": 163.493,
+  "end": 168.675,
+  "speaker": "Unknown",
+  "en": "And I do think it's not a cause for panic where the emissions are concerned.",
+  "zh": "我确实认为,就排放而言,这不是一个值得恐慌的问题。"
+ },
+ {
+  "seg": 30,
+  "start": 169.315,
+  "end": 176.959,
+  "speaker": "Unknown",
+  "en": "It is a matter of deep concern that some of the hyperscalers are jumping into new methane turbines.",
+  "zh": "一些超大规模云厂商正在跳入新的甲烷涡轮机,这是令人深切担忧的。"
+ },
+ {
+  "seg": 31,
+  "start": 177.459,
+  "end": 180.3,
+  "speaker": "Unknown",
+  "en": "And I much prefer those who are...",
+  "zh": "而我更倾向于那些"
+ },
+ {
+  "seg": 32,
+  "start": 180.86,
+  "end": 184.543,
+  "speaker": "Unknown",
+  "en": "Supplying their energy needs with renewables and batteries.",
+  "zh": "用可再生能源和电池来满足其能源需求的公司。"
+ },
+ {
+  "seg": 33,
+  "start": 184.623,
+  "end": 196.47,
+  "speaker": "Unknown",
+  "en": "And I think there's going to be a continued shift in that direction for a lot of reasons, not least because they're more competitive when they get the cheapest sources of electricity.",
+  "zh": "我认为这个方向上的转变会持续下去,原因有很多,尤其是因为当他们获得最便宜的电力来源时,可再生能源更具竞争力。"
+ },
+ {
+  "seg": 34,
+  "start": 196.49,
+  "end": 205.876,
+  "speaker": "Unknown",
+  "en": "But of course, there are other concerns related to advanced AI that have been much in the news just in the last few days.",
+  "zh": "但当然,还有与先进 AI 相关的其他担忧,就在最近几天成为了新闻焦点。"
+ },
+ {
+  "seg": 35,
+  "start": 206.577,
+  "end": 209.859,
+  "speaker": "Unknown",
+  "en": "And I do think that regulating",
+  "zh": "我确实认为,监管"
+ },
+ {
+  "seg": 36,
+  "start": 210.859,
+  "end": 221.604,
+  "speaker": "Unknown",
+  "en": "The frontier models is one of the two issues most appropriate for a renewed cooperation between the US and China.",
+  "zh": "前沿模型是美中重续合作最合适的两大议题之一。"
+ },
+ {
+  "seg": 37,
+  "start": 222.145,
+  "end": 228.408,
+  "speaker": "Unknown",
+  "en": "Just in the last few days, one high official in China expressed concern about",
+  "zh": "就在最近几天,中国的一位高级官员表达了对"
+ },
+ {
+  "seg": 38,
+  "start": 229.028,
+  "end": 236.911,
+  "speaker": "Unknown",
+  "en": "The implications of advanced AI for the Communist Party's continued dominance of that country.",
+  "zh": "先进 AI 对该党继续主导那个国家的影响的担忧。"
+ },
+ {
+  "seg": 39,
+  "start": 237.371,
+  "end": 254.336,
+  "speaker": "Unknown",
+  "en": "And other than Donald Trump, most everybody else in the US is concerned about some of the risks that people inside the industry have raised, both at Anthropic and OpenAI and Elon Musk joined in as well.",
+  "zh": "而除了 Donald Trump 之外,美国几乎所有人都对业内人士提出的某些风险感到担忧,包括 Anthropic、OpenAI 内部的人,Elon Musk 也加入了这一行列。"
+ },
+ {
+  "seg": 40,
+  "start": 254.897,
+  "end": 255.777,
+  "speaker": "Unknown",
+  "en": "And I think that",
+  "zh": "我认为,"
+ },
+ {
+  "seg": 41,
+  "start": 256.457,
+  "end": 266.724,
+  "speaker": "Unknown",
+  "en": "It's unfortunate that Donald Trump is probably not going to be able to reawaken U.S.-China cooperation.",
+  "zh": "Donald Trump 大概率无法重振美中合作,这很不幸。"
+ },
+ {
+  "seg": 42,
+  "start": 266.844,
+  "end": 268.745,
+  "speaker": "Unknown",
+  "en": "I hope I'm proven wrong about that.",
+  "zh": "我希望我被证明是错的。"
+ },
+ {
+  "seg": 43,
+  "start": 269.225,
+  "end": 273.528,
+  "speaker": "Unknown",
+  "en": "But I think the agenda for the years ahead is very clear.",
+  "zh": "但我认为,未来几年的议程是非常清晰的。"
+ },
+ {
+  "seg": 44,
+  "start": 274.228,
+  "end": 279.772,
+  "speaker": "Unknown",
+  "en": "And I think that the elections coming up in November will also contribute to that shift.",
+  "zh": "而且我认为,11 月即将到来的选举也将推动这一转变。"
+ },
+ {
+  "seg": 45,
+  "start": 280.323,
+  "end": 294.137,
+  "speaker": "Unknown",
+  "en": "But, you know, overall, the increased electricity production from renewable energy plus batteries now matches and even exceeds the increase in global energy use.",
+  "zh": "但是,你知道,总体而言,可再生能源加电池带来的电力产量的增长,现在已经赶上甚至超过了全球能源使用的增长。"
+ },
+ {
+  "seg": 46,
+  "start": 295.189,
+  "end": 309.327,
+  "speaker": "Unknown",
+  "en": "We are seeing the momentum continue to build, and we're seeing the beginnings of displacement of fossil fuels by renewable energy, even as overall energy use increases.",
+  "zh": "我们看到这一势头继续增强,我们看到可再生能源开始取代化石燃料,即使整体能源使用在增加。"
+ },
+ {
+  "seg": 47,
+  "start": 310.268,
+  "end": 313.833,
+  "speaker": "Unknown",
+  "en": "One reason, as this year's sustainability trends report,",
+  "zh": "正如今年的可持续发展趋势报告"
+ },
+ {
+  "seg": 48,
+  "start": 314.433,
+  "end": 326.663,
+  "speaker": "Unknown",
+  "en": "Highlights is that the interruption of oil and gas supplies from the Persian Gulf and now, of course, the Red Sea route is threatened also.",
+  "zh": "所强调的一个原因是,来自波斯湾的石油和天然气供应中断,而现在,红海航线当然也受到了威胁。"
+ },
+ {
+  "seg": 49,
+  "start": 327.064,
+  "end": 333.049,
+  "speaker": "Unknown",
+  "en": "This is the second time in four years that the world has been brutally reminded",
+  "zh": "这是四年来世界第二次被残酷地提醒"
+ },
+ {
+  "seg": 50,
+  "start": 333.669,
+  "end": 340.376,
+  "speaker": "Unknown",
+  "en": "That fossil fuels are a very difficult and unreliable source of energy.",
+  "zh": "化石燃料是一种非常困难且不可靠的能源来源。"
+ },
+ {
+  "seg": 51,
+  "start": 340.516,
+  "end": 344.2,
+  "speaker": "Unknown",
+  "en": "Price volatility has increased dramatically.",
+  "zh": "价格波动性急剧上升。"
+ },
+ {
+  "seg": 52,
+  "start": 344.62,
+  "end": 348.444,
+  "speaker": "Unknown",
+  "en": "The cutoff of supplies, again, the second time in four years.",
+  "zh": "供应中断,这已经是四年内的第二次了。"
+ },
+ {
+  "seg": 53,
+  "start": 349.005,
+  "end": 352.388,
+  "speaker": "Unknown",
+  "en": "This has caused a break in the previous pattern.",
+  "zh": "这打破了以往的模式。"
+ },
+ {
+  "seg": 54,
+  "start": 352.408,
+  "end": 353.85,
+  "speaker": "Unknown",
+  "en": "The president of South Korea",
+  "zh": "韩国总统"
+ },
+ {
+  "seg": 55,
+  "start": 354.828,
+  "end": 362.634,
+  "speaker": "Unknown",
+  "en": "said just recently, this shows us we can no longer put off the transition away from fossil fuels.",
+  "zh": "最近说过,这告诉我们,我们不能再拖延从化石燃料的转型了。"
+ },
+ {
+  "seg": 56,
+  "start": 362.734,
+  "end": 371.6,
+  "speaker": "Unknown",
+  "en": "Just a few days ago, the leadership in Thailand made a dramatic announcement that they're switching from LNG to solar.",
+  "zh": "就在几天前,泰国领导层做出了一个引人注目的宣布,他们将从液化天然气转向太阳能。"
+ },
+ {
+  "seg": 57,
+  "start": 372.38,
+  "end": 380.286,
+  "speaker": "Unknown",
+  "en": "We've seen the surge in solar panel sales with reports that now were hidden from the public",
+  "zh": "我们看到太阳能电池板销量激增,而相关报告此前一直被向公众隐瞒"
+ },
+ {
+  "seg": 58,
+  "start": 384.342,
+  "end": 392.346,
+  "speaker": "Unknown",
+  "en": "Today, the common dowry in Pakistan and parts of Pakistan is now three panels and an inverter.",
+  "zh": "如今,在巴基斯坦及巴基斯坦部分地区,常见的嫁妆已经是三块太阳能板加一台逆变器。"
+ },
+ {
+  "seg": 59,
+  "start": 392.826,
+  "end": 395.708,
+  "speaker": "Unknown",
+  "en": "So I think we're at a real turning point.",
+  "zh": "所以我认为我们正处在一个真正的转折点。"
+ },
+ {
+  "seg": 60,
+  "start": 396.316,
+  "end": 412.008,
+  "speaker": "Unknown",
+  "en": "Getting back to the U.S. for a second, we have not embraced solar and wind, at least in recent years, and it seems that integrating these power sources into the grid is also becoming a real issue.",
+  "zh": "回到美国的话题,我们近年来没有拥抱太阳能和风能,而把这些电源整合进电网似乎也正在成为一个真正的问题。"
+ },
+ {
+  "seg": 61,
+  "start": 412.528,
+  "end": 419.213,
+  "speaker": "Unknown",
+  "en": "What do we need to do to improve our grid in the way that we can accept these power sources?",
+  "zh": "我们需要做什么来改进我们的电网,使其能够接纳这些电源?"
+ },
+ {
+  "seg": 62,
+  "start": 419.613,
+  "end": 430.155,
+  "speaker": "Unknown",
+  "en": "Well, as this year's STR points out, the electrical grids around the world are the principal limiting factor of this transition now.",
+  "zh": "嗯,正如今年的 STR 所指出的,世界各地的电网现在是这场转型的主要限制因素。"
+ },
+ {
+  "seg": 63,
+  "start": 430.716,
+  "end": 439.398,
+  "speaker": "Unknown",
+  "en": "But it's worth remembering the only technology that's come down in price faster than solar electricity is utility scale batteries.",
+  "zh": "但值得记住的是,唯一一个价格下降速度比太阳能电力更快的技术,就是电网级规模的电池。"
+ },
+ {
+  "seg": 64,
+  "start": 440.158,
+  "end": 448.78,
+  "speaker": "Unknown",
+  "en": "And they are now being dotted around many of the grids, even as other improvements are also easing the task",
+  "zh": "如今它们正被散布部署在许多电网中,即使其他改进也在减轻这项任务"
+ },
+ {
+  "seg": 65,
+  "start": 449.5,
+  "end": 454.565,
+  "speaker": "Unknown",
+  "en": "I think of upgrading the grids, but it remains a serious challenge for sure.",
+  "zh": "我想到的是电网升级,但这无疑仍然是一个严峻的挑战。"
+ },
+ {
+  "seg": 66,
+  "start": 454.585,
+  "end": 464.194,
+  "speaker": "Unknown",
+  "en": "I was just going to add, Alex, that I believe that the move from the supply being the challenge to the grid resilience being a challenge, we recognize that in the report.",
+  "zh": "Alex,我正想补充一点,我相信从供应是挑战转变为电网韧性是挑战,我们在报告中认识到了这一点。"
+ },
+ {
+  "seg": 67,
+  "start": 464.314,
+  "end": 474.063,
+  "speaker": "Unknown",
+  "en": "And we talk a lot about the imperative of grid flexibility, interconnection, and the now optimization of the mix because it's increasingly diverse.",
+  "zh": "我们大量讨论了电网灵活性、互联互通的紧迫性,以及如今对能源结构的优化,因为它正变得越来越多元化。"
+ },
+ {
+  "seg": 68,
+  "start": 474.483,
+  "end": 481.89,
+  "speaker": "Unknown",
+  "en": "And that is actually linked to the imperative to move to more renewables, but also secure, durable power sources.",
+  "zh": "这实际上与转向更多可再生能源的紧迫性相关,同时也关系到安全、持久的电源。"
+ },
+ {
+  "seg": 69,
+  "start": 482.411,
+  "end": 486.274,
+  "speaker": "Unknown",
+  "en": "And that's been a core focus of ours also from the investment side.",
+  "zh": "这也是我们从投资角度的一个核心关注点。"
+ },
+ {
+  "seg": 70,
+  "start": 486.695,
+  "end": 491.159,
+  "speaker": "Unknown",
+  "en": "And fossil fuels are becoming an intermittent source of energy for many",
+  "zh": "而化石燃料正在成为许多人眼中一种间歇性的能源来源"
+ },
+ {
+  "seg": 71,
+  "start": 495.205,
+  "end": 498.207,
+  "speaker": "Unknown",
+  "en": "So heavily on exports from the Persian Gulf.",
+  "zh": "高度依赖波斯湾的出口。"
+ },
+ {
+  "seg": 72,
+  "start": 498.727,
+  "end": 510.433,
+  "speaker": "Unknown",
+  "en": "And unfortunately, in too many countries, nuclear is becoming somewhat intermittent as the rivers become too hot and the water levels drop too low.",
+  "zh": "而且不幸的是,在太多国家,核电也正变得有点间歇性,因为河水温度过高、水位过低。"
+ },
+ {
+  "seg": 73,
+  "start": 511.253,
+  "end": 516.436,
+  "speaker": "Unknown",
+  "en": "So the reliability of solar and wind and batteries",
+  "zh": "因此,太阳能、风能和电池的可靠性"
+ },
+ {
+  "seg": 74,
+  "start": 520.304,
+  "end": 526.047,
+  "speaker": "Unknown",
+  "en": "It guarantees that their share of the production of electricity will continue to increase.",
+  "zh": "保证了它们在电力生产中的份额将持续增加。"
+ },
+ {
+  "seg": 75,
+  "start": 526.247,
+  "end": 531.61,
+  "speaker": "Unknown",
+  "en": "86% of all new electricity production worldwide last year was renewables.",
+  "zh": "去年全球所有新增电力生产中有 86% 是可再生能源。"
+ },
+ {
+  "seg": 76,
+  "start": 531.69,
+  "end": 536.773,
+  "speaker": "Unknown",
+  "en": "91% in the U.S. in spite of Donald Trump's best efforts to slow it down.",
+  "zh": "在美国这一比例是 91%,尽管 Donald Trump 尽了最大努力去拖慢它。"
+ },
+ {
+  "seg": 77,
+  "start": 537.192,
+  "end": 538.733,
+  "speaker": "Unknown",
+  "en": "You mentioned nuclear.",
+  "zh": "你提到了核能。"
+ },
+ {
+  "seg": 78,
+  "start": 538.933,
+  "end": 545.415,
+  "speaker": "Unknown",
+  "en": "There's tremendous venture enthusiasm around small nuclear reactors and newer nuclear technologies.",
+  "zh": "围绕小型核反应堆和较新的核技术,存在着巨大的风投热情。"
+ },
+ {
+  "seg": 79,
+  "start": 546.156,
+  "end": 555.939,
+  "speaker": "Unknown",
+  "en": "Do you see this as a real investable opportunity or do the timelines and the regulation and the capital requirements make nuclear particularly difficult?",
+  "zh": "你认为这是一个真正可投资的机会,还是说时间线、监管和资本需求使核能变得特别困难?"
+ },
+ {
+  "seg": 80,
+  "start": 556.4,
+  "end": 564.203,
+  "speaker": "Unknown",
+  "en": "Well, some of the safety engineering required for nuclear doesn't scale down in cost as the output of electricity scales down.",
+  "zh": "嗯,核能所需的某些安全工程,并不会随着发电规模的缩小而相应降低成本。"
+ },
+ {
+  "seg": 81,
+  "start": 565.49,
+  "end": 575.095,
+  "speaker": "Unknown",
+  "en": "And you may have noticed that some short sellers made a windfall betting against these small modular reactors just a couple of months ago.",
+  "zh": "你可能注意到,就在几个月前,一些做空者靠押注做空这些小型模块化反应堆赚了一笔横财。"
+ },
+ {
+  "seg": 82,
+  "start": 575.115,
+  "end": 584.08,
+  "speaker": "Unknown",
+  "en": "Hal Harvey, one of the leading energy experts, has famously said that the new modular reactors are quite amazing.",
+  "zh": "Hal Harvey,能源领域顶尖专家之一,曾有一句名言:新的模块化反应堆相当了不起。"
+ },
+ {
+  "seg": 83,
+  "start": 584.14,
+  "end": 587.541,
+  "speaker": "Unknown",
+  "en": "They're smaller, safer, cheaper, and don't exist.",
+  "zh": "它们更小、更安全、更便宜,而且不存在。"
+ },
+ {
+  "seg": 84,
+  "start": 588.542,
+  "end": 591.023,
+  "speaker": "Unknown",
+  "en": "And I hope they will exist.",
+  "zh": "而且我希望它们会存在。"
+ },
+ {
+  "seg": 85,
+  "start": 591.323,
+  "end": 592.624,
+  "speaker": "Unknown",
+  "en": "And I'm optimistic",
+  "zh": "我是乐观的"
+ },
+ {
+  "seg": 86,
+  "start": 595.862,
+  "end": 600.185,
+  "speaker": "Unknown",
+  "en": "It's still quite a long ways out.",
+  "zh": "但仍然还有相当长的一段路。"
+ },
+ {
+  "seg": 87,
+  "start": 600.546,
+  "end": 603.988,
+  "speaker": "Unknown",
+  "en": "And the early pilots have been disappointing.",
+  "zh": "而且早期的试点项目一直令人失望。"
+ },
+ {
+  "seg": 88,
+  "start": 604.088,
+  "end": 607.411,
+  "speaker": "Unknown",
+  "en": "That's why the short sellers have bet against them successfully.",
+  "zh": "这就是做空者们成功押注做空它们的原因。"
+ },
+ {
+  "seg": 89,
+  "start": 608.011,
+  "end": 613.555,
+  "speaker": "Unknown",
+  "en": "But I recently visited Oak Ridge, Tennessee, where nuclear energy began.",
+  "zh": "但我最近访问了田纳西州的 Oak Ridge,核能就是在那里起步的。"
+ },
+ {
+  "seg": 90,
+  "start": 614.075,
+  "end": 616.137,
+  "speaker": "Unknown",
+  "en": "And there are a hundred different designs.",
+  "zh": "那里有上百种不同的设计。"
+ },
+ {
+  "seg": 91,
+  "start": 619.113,
+  "end": 623.4,
+  "speaker": "Unknown",
+  "en": "They're always to play a significant role at any time very soon.",
+  "zh": "它们总是想要在短期内扮演重要角色。"
+ },
+ {
+  "seg": 92,
+  "start": 623.74,
+  "end": 631.332,
+  "speaker": "Unknown",
+  "en": "Again, I hope they will develop them safely and profitably, but it's quite a ways off in my opinion.",
+  "zh": "再说一次,我希望它们能被安全且有利可图地开发出来,但在我看来还有相当长的路要走。"
+ },
+ {
+  "seg": 93,
+  "start": 631.782,
+  "end": 642.266,
+  "speaker": "Unknown",
+  "en": "Your report says clean energy investment has reached $2.2 trillion annually, but needs to roughly double to $4.5 trillion by the early 2030s.",
+  "zh": "你的报告说清洁能源投资已达到每年 2.2 万亿美元,但需要在 2030 年代初之前大致翻倍至 4.5 万亿美元。"
+ },
+ {
+  "seg": 94,
+  "start": 642.906,
+  "end": 645.667,
+  "speaker": "Unknown",
+  "en": "Where are the biggest investable gaps today?",
+  "zh": "今天最大的可投资缺口在哪里?"
+ },
+ {
+  "seg": 95,
+  "start": 646.007,
+  "end": 650.508,
+  "speaker": "Unknown",
+  "en": "Areas where technology is ready, but the capital still isn't showing up?",
+  "zh": "那些技术已经就绪、但资本仍未到位的领域?"
+ },
+ {
+  "seg": 96,
+  "start": 651.129,
+  "end": 660.992,
+  "speaker": "Unknown",
+  "en": "Well, if you look at the global market, there is now twice as much investment in clean energy as in fossil fuel energy.",
+  "zh": "嗯,如果你看全球市场,现在清洁能源的投资已经是化石能源投资的两倍。"
+ },
+ {
+  "seg": 97,
+  "start": 661.947,
+  "end": 668.236,
+  "speaker": "Unknown",
+  "en": "I expect those trends to continue, but I think that this transition is inevitable.",
+  "zh": "我预计这些趋势会持续下去,但我认为这场转型是不可避免的。"
+ },
+ {
+  "seg": 98,
+  "start": 668.477,
+  "end": 676.108,
+  "speaker": "Unknown",
+  "en": "The remaining question is whether we will accomplish the transition in time to avoid some of the negative tip",
+  "zh": "剩下的问题是,我们是否能及时完成这场转型,以避免一些负面临界点"
+ },
+ {
+  "seg": 99,
+  "start": 678.035,
+  "end": 698.62,
+  "speaker": "Unknown",
+  "en": "Gulfstream, part of the Atlantic meridonal overturning current, like the loss of the warm water coral reef systems, like the transition of the Amazon from a rainforest to a savanna, there are unfortunately eight or nine other major negative tipping points.",
+  "zh": "比如大西洋经向翻转环流中的湾流,比如温水珊瑚礁系统的消失,比如亚马逊从雨林向稀树草原的转变——不幸的是,还有八九个其他重大的负面临界点。"
+ },
+ {
+  "seg": 100,
+  "start": 701.948,
+  "end": 704.749,
+  "speaker": "Unknown",
+  "en": "You know, there's been a lot of focus on the grid.",
+  "zh": "你知道，人们一直非常关注电网。"
+ },
+ {
+  "seg": 101,
+  "start": 704.829,
+  "end": 714.275,
+  "speaker": "Unknown",
+  "en": "So both the supply of energy and now grid resilience, as I mentioned, but there's equally massive industries that need to be redesigned.",
+  "zh": "所以既有能源供应，还有我刚才提到的电网韧性，但也有同样庞大的行业需要被重新设计。"
+ },
+ {
+  "seg": 102,
+  "start": 714.395,
+  "end": 726.262,
+  "speaker": "Unknown",
+  "en": "And again, we have the benefits of now AI in the mix to potentially do this, but think about, you know, transportation, you know, EVs have been up and one in four of the global automotive fleet is an electric vehicle.",
+  "zh": "再说一次，我们现在拥有 AI 参与其中的优势来潜在地实现这一点，但想想看，你知道，交通领域，你知道，电动车一直在上升，全球汽车保有量的四分之一是电动车。"
+ },
+ {
+  "seg": 103,
+  "start": 726.643,
+  "end": 728.424,
+  "speaker": "Unknown",
+  "en": "That's a really good indicator,",
+  "zh": "这是一个非常好的指标,"
+ },
+ {
+  "seg": 104,
+  "start": 728.744,
+  "end": 729.885,
+  "speaker": "Unknown",
+  "en": "Those are new sales.",
+  "zh": "这些是新增销售。"
+ },
+ {
+  "seg": 105,
+  "start": 730.225,
+  "end": 730.725,
+  "speaker": "Unknown",
+  "en": "New sales.",
+  "zh": "新增销售。"
+ },
+ {
+  "seg": 106,
+  "start": 730.765,
+  "end": 731.445,
+  "speaker": "Unknown",
+  "en": "Yes, exactly.",
+  "zh": "是的，正是如此。"
+ },
+ {
+  "seg": 107,
+  "start": 731.745,
+  "end": 736.067,
+  "speaker": "Unknown",
+  "en": "And despite in the U.S. it's maybe slower globally, this is a trend that's taking off.",
+  "zh": "尽管在美国可能慢一些，但在全球范围内，这是一个正在起飞的趋势。"
+ },
+ {
+  "seg": 108,
+  "start": 736.127,
+  "end": 739.289,
+  "speaker": "Unknown",
+  "en": "But now think about all of the infrastructure that's needed around the EV.",
+  "zh": "但现在想想围绕电动车所需要的所有基础设施。"
+ },
+ {
+  "seg": 109,
+  "start": 739.769,
+  "end": 744.651,
+  "speaker": "Unknown",
+  "en": "It's charging, it's battery optimization, it's the software that does preventative maintenance.",
+  "zh": "它是充电，它是电池优化，它是做预防性维护的软件。"
+ },
+ {
+  "seg": 110,
+  "start": 744.671,
+  "end": 752.075,
+  "speaker": "Unknown",
+  "en": "Like there's a whole swath of requirements, especially as autonomy meets EVs and thinking about simulation software and physical world AI.",
+  "zh": "比如有一整片需求，尤其是当自动驾驶遇上电动车时，还要考虑仿真软件和物理世界 AI。"
+ },
+ {
+  "seg": 111,
+  "start": 752.255,
+  "end": 756.257,
+  "speaker": "Unknown",
+  "en": "Think about those pockets of the economy that definitely could benefit from investment.",
+  "zh": "想想经济中那些肯定能从投资中受益的角落。"
+ },
+ {
+  "seg": 112,
+  "start": 756.837,
+  "end": 760.201,
+  "speaker": "Unknown",
+  "en": "The other area within the report I'll cite is around agriculture.",
+  "zh": "我要引用的报告中另一个领域是关于农业的。"
+ },
+ {
+  "seg": 113,
+  "start": 760.401,
+  "end": 774.316,
+  "speaker": "Unknown",
+  "en": "And, you know, we saw with the Strait of Hormuz closure the fact that with 30 percent of nitrogen supply passing through the straits, there was a spike of over 50 percent in the short term after that of nitrogen prices.",
+  "zh": "而且，你知道，我们从霍尔木兹海峡关闭事件中看到，由于全球 30% 的氮供应经过该海峡，此后短期内氮价格上涨了超过 50%。"
+ },
+ {
+  "seg": 114,
+  "start": 774.377,
+  "end": 776.058,
+  "speaker": "Unknown",
+  "en": "And so that really hurts farmers.",
+  "zh": "而这真的伤害了农民。"
+ },
+ {
+  "seg": 115,
+  "start": 776.339,
+  "end": 778.081,
+  "speaker": "Unknown",
+  "en": "Where is the capital flowing to help?",
+  "zh": "资本流向了哪里来提供帮助？"
+ },
+ {
+  "seg": 116,
+  "start": 778.621,
+  "end": 790.27,
+  "speaker": "Unknown",
+  "en": "Farmers with resilient regenerative practices, whether it's using biology instead of chemistry, using advanced robotics, using data sets and computer science to drive yield improvements.",
+  "zh": "帮助农民采用有韧性的再生实践，无论是用生物学替代化学，使用先进机器人，使用数据集和计算机科学来推动产量提升。"
+ },
+ {
+  "seg": 117,
+  "start": 790.33,
+  "end": 794.253,
+  "speaker": "Unknown",
+  "en": "Like these are massive investment opportunities that we see related to these trends.",
+  "zh": "比如这些是我们看到的与这些趋势相关的大量投资机会。"
+ },
+ {
+  "seg": 118,
+  "start": 794.805,
+  "end": 800.247,
+  "speaker": "Unknown",
+  "en": "You mentioned in the report that your firm is invested in a synthetic fertilizer company.",
+  "zh": "你在报告中提到，你们公司投资了一家合成肥料公司。"
+ },
+ {
+  "seg": 119,
+  "start": 800.648,
+  "end": 801.528,
+  "speaker": "Unknown",
+  "en": "Could you elaborate on that?",
+  "zh": "你能详细谈谈吗？"
+ },
+ {
+  "seg": 120,
+  "start": 801.928,
+  "end": 806.39,
+  "speaker": "Unknown",
+  "en": "It's actually a company using biology to replace chemistry in agriculture.",
+  "zh": "它实际上是一家用生物学替代农业中化学的公司。"
+ },
+ {
+  "seg": 121,
+  "start": 806.45,
+  "end": 814.294,
+  "speaker": "Unknown",
+  "en": "It's a company called Pivot Bio, and it's an example of not relying on fossil feedstocks for the production of nitrogen for growers.",
+  "zh": "它是一家叫 Pivot Bio 的公司，它是一个不让种植者的氮肥生产依赖化石原料的例子。"
+ },
+ {
+  "seg": 122,
+  "start": 814.854,
+  "end": 821.817,
+  "speaker": "Unknown",
+  "en": "What's interesting about that is certainly that it is using a fraction of global resources, energy required, as well as production",
+  "zh": "关于这一点有趣的是，它当然只使用了全球资源的一小部分、所需能源，以及生产"
+ },
+ {
+  "seg": 123,
+  "start": 825.1,
+  "end": 832.348,
+  "speaker": "Unknown",
+  "en": "And regenerative agriculture is one of the most effective tools in the toolbox of climate solutions.",
+  "zh": "而再生农业是气候解决方案工具箱中最有效的工具之一。"
+ },
+ {
+  "seg": 124,
+  "start": 832.368,
+  "end": 840.716,
+  "speaker": "Unknown",
+  "en": "There's three times as much carbon in the first meter of topsoil than in all the trees and all the vegetation in the entire world.",
+  "zh": "表层土壤第一米中的碳含量是全世界所有树木和所有植被中碳含量的三倍。"
+ },
+ {
+  "seg": 125,
+  "start": 841.817,
+  "end": 852.944,
+  "speaker": "Unknown",
+  "en": "Heavy plowing and industrial agriculture models have depleted the carbon in soils, making them less fertile, less productive, but farmers are finding it can be restored.",
+  "zh": "重度翻耕和工业化农业模式已经耗尽了土壤中的碳，使它们不再那么肥沃、不再那么高产，但农民们发现它是可以恢复的。"
+ },
+ {
+  "seg": 126,
+  "start": 853.524,
+  "end": 865.932,
+  "speaker": "Unknown",
+  "en": "And as they adopt these new techniques, including innovations like that mentioned by Lila, produced by Pivot Bio, are making farms more resilient to the",
+  "zh": "而且随着他们采用这些新技术，包括 Lila 提到的由 Pivot Bio 生产的那类创新，正在使农场对"
+ },
+ {
+  "seg": 127,
+  "start": 866.012,
+  "end": 882.502,
+  "speaker": "Unknown",
+  "en": "The increasingly destructive extreme events that cause wind and water erosion of topsoil and the polluting of underground water aquifers with nitrates and other chemical residue from industrial agriculture.",
+  "zh": "日益具有破坏性的极端事件更有韧性，这些极端事件导致表层土壤的风蚀和水蚀，以及工业化农业的硝酸盐和其他化学残留物对地下水含水层的污染。"
+ },
+ {
+  "seg": 128,
+  "start": 882.962,
+  "end": 889.206,
+  "speaker": "Unknown",
+  "en": "Do you think there are enough downstream investors who are focused on the same opportunities that you are?",
+  "zh": "你认为有足够多的下游投资者专注于和你相同的机会吗？"
+ },
+ {
+  "seg": 129,
+  "start": 889.942,
+  "end": 897.124,
+  "speaker": "Unknown",
+  "en": "Yes, I think we're seeing an increase in the investments going toward the sustainability transition.",
+  "zh": "是的，我认为我们看到投向可持续性转型的投资在增加。"
+ },
+ {
+  "seg": 130,
+  "start": 897.164,
+  "end": 899.085,
+  "speaker": "Unknown",
+  "en": "We're seeing it all over the world.",
+  "zh": "我们在世界各地都看到这一点。"
+ },
+ {
+  "seg": 131,
+  "start": 899.845,
+  "end": 913.029,
+  "speaker": "Unknown",
+  "en": "And some of them are accelerating in developing countries with panel solars, you know, the panel technology that can be plugged into a regular household grid.",
+  "zh": "其中一些在发展中国家正在加速，比如太阳能板，你知道，那种可以接入普通家庭电网的板技术。"
+ },
+ {
+  "seg": 132,
+  "start": 913.329,
+  "end": 915.77,
+  "speaker": "Unknown",
+  "en": "This is accelerating everywhere.",
+  "zh": "这正在各地加速。"
+ },
+ {
+  "seg": 133,
+  "start": 916.41,
+  "end": 923.436,
+  "speaker": "Unknown",
+  "en": "Lila mentioned in the transportation market that one in four vehicles sold this year will be EVs.",
+  "zh": "Lila 提到在交通市场中，今年售出的车辆中四分之一将是电动车。"
+ },
+ {
+  "seg": 134,
+  "start": 923.516,
+  "end": 932.203,
+  "speaker": "Unknown",
+  "en": "In China, last month, 65% of all new vehicles were EVs, on the way to 82% in the next two years.",
+  "zh": "在中国，上个月，所有新售车辆中有 65% 是电动车，正朝着两年内达到 82% 迈进。"
+ },
+ {
+  "seg": 135,
+  "start": 932.703,
+  "end": 944.273,
+  "speaker": "Unknown",
+  "en": "And if I could add, while I mention China, there have been three significant changes in the last six to eight months, where, first of all, China announced that it no longer wants to be measured",
+  "zh": "如果我可以补充的话，既然我提到中国，过去六到八个月里有三个重大变化，首先，中国宣布它不再希望被衡量"
+ },
+ {
+  "seg": 136,
+  "start": 944.733,
+  "end": 953.555,
+  "speaker": "Unknown",
+  "en": "on the basis of improving carbon intensity, but rather they want to be measured on the basis of actual carbon reductions.",
+  "zh": "的标准是碳强度改善，而是他们希望被衡量的标准是实际的碳减排。"
+ },
+ {
+  "seg": 137,
+  "start": 954.035,
+  "end": 963.118,
+  "speaker": "Unknown",
+  "en": "Secondly, the signals have come from Beijing that China is now willing to provide diplomatic leadership in the world on climate.",
+  "zh": "其次，来自北京的信号表明，中国现在愿意在世界上就气候问题提供外交领导力。"
+ },
+ {
+  "seg": 138,
+  "start": 963.198,
+  "end": 971.12,
+  "speaker": "Unknown",
+  "en": "Previously, they did so only when they were part of a G2 with the US, which helped to produce the Paris Agreement.",
+  "zh": "以前，他们只在与美国组成 G2 的时候这样做过，这帮助促成了《巴黎协定》。"
+ },
+ {
+  "seg": 139,
+  "start": 976.729,
+  "end": 978.73,
+  "speaker": "Unknown",
+  "en": "Which I see is very encouraging.",
+  "zh": "我认为这是非常令人鼓舞的。"
+ },
+ {
+  "seg": 140,
+  "start": 978.75,
+  "end": 980.391,
+  "speaker": "Unknown",
+  "en": "Their emissions appear to a peak.",
+  "zh": "他们的排放似乎达到峰值。"
+ },
+ {
+  "seg": 141,
+  "start": 980.751,
+  "end": 982.492,
+  "speaker": "Unknown",
+  "en": "They're on the way down now.",
+  "zh": "他们现在正处于下降之中。"
+ },
+ {
+  "seg": 142,
+  "start": 982.992,
+  "end": 986.815,
+  "speaker": "Unknown",
+  "en": "They've installed so much solar and wind and batteries.",
+  "zh": "他们安装了如此多的太阳能、风能和电池。"
+ },
+ {
+  "seg": 143,
+  "start": 987.215,
+  "end": 998.642,
+  "speaker": "Unknown",
+  "en": "A year ago, July, in the peak of their installation, they were installing three gigawatts of solar every day, 93 gigawatts in the month of July alone.",
+  "zh": "一年前的七月，在他们安装的高峰期，他们每天安装三吉瓦的太阳能，仅七月份一个月就安装了 93 吉瓦。"
+ },
+ {
+  "seg": 144,
+  "start": 999.182,
+  "end": 1000.663,
+  "speaker": "Unknown",
+  "en": "It's incredible.",
+  "zh": "这令人难以置信。"
+ },
+ {
+  "seg": 145,
+  "start": 1001.664,
+  "end": 1005.626,
+  "speaker": "Unknown",
+  "en": "And we're seeing that kind of leadership now",
+  "zh": "而且我们现在看到那种领导力"
+ },
+ {
+  "seg": 146,
+  "start": 1008.717,
+  "end": 1013.491,
+  "speaker": "Unknown",
+  "en": "that they will be a much more positive force in the years going forward.",
+  "zh": "他们将在未来几年成为一个积极得多的力量。"
+ },
+ {
+  "seg": 147,
+  "start": 1013.933,
+  "end": 1015.076,
+  "speaker": "Unknown",
+  "en": "And the coal plants they've",
+  "zh": "还有他们建的那些燃煤电厂"
+ },
+ {
+  "seg": 148,
+  "start": 1023.83,
+  "end": 1028.053,
+  "speaker": "Unknown",
+  "en": "extreme droughts they've had during the last few years.",
+  "zh": "他们过去几年经历的极端干旱。"
+ },
+ {
+  "seg": 149,
+  "start": 1028.553,
+  "end": 1032.335,
+  "speaker": "Unknown",
+  "en": "So the U.S. is about to change.",
+  "zh": "所以美国即将发生改变。"
+ },
+ {
+  "seg": 150,
+  "start": 1032.475,
+  "end": 1032.896,
+  "speaker": "Unknown",
+  "en": "I hope.",
+  "zh": "我希望如此。"
+ },
+ {
+  "seg": 151,
+  "start": 1033.016,
+  "end": 1035.557,
+  "speaker": "Unknown",
+  "en": "I'm knocking on wood superstitiously here.",
+  "zh": "我在这里迷信地敲敲木头。"
+ },
+ {
+  "seg": 152,
+  "start": 1036.098,
+  "end": 1045.764,
+  "speaker": "Unknown",
+  "en": "But the November elections, according to the prediction markets, may be very beneficial for those in favor of sustainability.",
+  "zh": "但根据预测市场，十一月选举可能对支持可持续发展的人非常有利。"
+ },
+ {
+  "seg": 153,
+  "start": 1046.424,
+  "end": 1051.988,
+  "speaker": "Unknown",
+  "en": "And Donald Trump is now a lame duck, a lamer with each passing hour.",
+  "zh": "而唐纳德·特朗普现在是一只跛脚鸭，每小时都更加跛一些。"
+ },
+ {
+  "seg": 154,
+  "start": 1052.618,
+  "end": 1056.321,
+  "speaker": "Unknown",
+  "en": "Well, those prediction markets seem to get things right a lot of the time.",
+  "zh": "嗯，那些预测市场似乎很多时候都能猜对。"
+ },
+ {
+  "seg": 155,
+  "start": 1056.742,
+  "end": 1062.267,
+  "speaker": "Unknown",
+  "en": "I wanted to go back just really quickly to the data center story because it is so dominant.",
+  "zh": "我想非常快地回到数据中心这个话题，因为它实在太占主导地位了。"
+ },
+ {
+  "seg": 156,
+  "start": 1062.868,
+  "end": 1066.091,
+  "speaker": "Unknown",
+  "en": "You know, you talked a little bit about new methane turbines.",
+  "zh": "你知道，你稍微谈到了新的甲烷涡轮机。"
+ },
+ {
+  "seg": 157,
+  "start": 1066.411,
+  "end": 1070.174,
+  "speaker": "Unknown",
+  "en": "Elon Musk has said he's going to develop a hard-to-make part.",
+  "zh": "埃隆·马斯克说他要开发一个难以制造的部件。"
+ },
+ {
+  "seg": 158,
+  "start": 1070.975,
+  "end": 1081.742,
+  "speaker": "Unknown",
+  "en": "But you also, so you said you're concerned about these methane turbines, which I think is widely true, but you also said that you think maybe people are overreacting to emissions, or I think maybe you said that.",
+  "zh": "但你也，所以你说你担心这些甲烷涡轮机，我认为这在很大程度上是对的，但你也说过你认为也许人们对排放反应过度了，或者我记得你是这么说的。"
+ },
+ {
+  "seg": 159,
+  "start": 1081.822,
+  "end": 1093.73,
+  "speaker": "Unknown",
+  "en": "Can you explain to people who don't understand what's happening and who do think these data centers are going to poison their communities, whether they have legitimate reasons for concern?",
+  "zh": "你能向那些不理解正在发生什么、并且确实认为这些数据中心会毒害他们社区的人解释一下，他们是否有正当的理由感到担忧？"
+ },
+ {
+  "seg": 160,
+  "start": 1097.176,
+  "end": 1117.208,
+  "speaker": "Unknown",
+  "en": "The growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to.",
+  "zh": "美国这么多地方对数据中心日益增长的两党反对，正是由对失业的潜在担忧以及 OpenAI 和 Anthropic 内部的专家一直试图提醒公众注意的其他一些威胁所驱动的。"
+ },
+ {
+  "seg": 161,
+  "start": 1117.228,
+  "end": 1126.013,
+  "speaker": "Unknown",
+  "en": "But where the emissions themselves are concerned, the reason I've said that ought to be viewed with concern but not panic is that",
+  "zh": "但就排放本身而言，我说过它应该引起关注而不是恐慌，原因是"
+ },
+ {
+  "seg": 162,
+  "start": 1132.748,
+  "end": 1136.25,
+  "speaker": "Unknown",
+  "en": "We're seeking to power these data centers with fossil fuels.",
+  "zh": "我们正在寻求用化石燃料为这些数据中心供电。"
+ },
+ {
+  "seg": 163,
+  "start": 1136.79,
+  "end": 1146.415,
+  "speaker": "Unknown",
+  "en": "But if you look at the emissions of all of the AI data centers put together, it's only a fraction of the emissions from uncovered landfills in the world.",
+  "zh": "但如果你把所有 AI 数据中心的排放加在一起看，那只是全球未覆盖填埋场排放的一小部分。"
+ },
+ {
+  "seg": 164,
+  "start": 1146.775,
+  "end": 1151.598,
+  "speaker": "Unknown",
+  "en": "If you look at the expected increase in air conditioning in regions that never felt",
+  "zh": "如果你看看在从未感受过的地区空调预计的增长"
+ },
+ {
+  "seg": 165,
+  "start": 1158.23,
+  "end": 1159.55,
+  "speaker": "Unknown",
+  "en": "There's going to be a build out there.",
+  "zh": "那里将会有一个建设浪潮。"
+ },
+ {
+  "seg": 166,
+  "start": 1159.89,
+  "end": 1168.513,
+  "speaker": "Unknown",
+  "en": "The challenge is to make sure that we optimize the use of renewable energy to power these data centers.",
+  "zh": "挑战在于确保我们优化可再生能源的使用来为这些数据中心供电。"
+ },
+ {
+  "seg": 167,
+  "start": 1168.853,
+  "end": 1184.938,
+  "speaker": "Unknown",
+  "en": "But the deeper and more serious concerns are the ones that have been highlighted just again in recent days where, you know, Anthropic announced that it has stopped the use of Claude to make biological weapons.",
+  "zh": "但更深层、更严重的担忧是最近几天再次被强调的那些，你知道，Anthropic 宣布它已停止使用 Claude 来制造生物武器。"
+ },
+ {
+  "seg": 168,
+  "start": 1185.498,
+  "end": 1188.019,
+  "speaker": "Unknown",
+  "en": "in different countries around the world.",
+  "zh": "在世界各个不同的国家。"
+ },
+ {
+  "seg": 169,
+  "start": 1188.419,
+  "end": 1189.98,
+  "speaker": "Unknown",
+  "en": "These are the kinds of concerns.",
+  "zh": "这些就是那类担忧。"
+ },
+ {
+  "seg": 170,
+  "start": 1190.02,
+  "end": 1203.586,
+  "speaker": "Unknown",
+  "en": "And of course, the threat of cognitive atrophy and the impact on societal institutions, these are matters that really need to be addressed for sure.",
+  "zh": "当然，认知萎缩的威胁以及对社会机构的影响，这些确实是真正需要解决的问题。"
+ },
+ {
+  "seg": 171,
+  "start": 1204.106,
+  "end": 1205.947,
+  "speaker": "Unknown",
+  "en": "But where the emissions are concerned,",
+  "zh": "但就排放而言，"
+ },
+ {
+  "seg": 172,
+  "start": 1206.707,
+  "end": 1214.532,
+  "speaker": "Unknown",
+  "en": "We need to focus that concern on encouragement to shift over to renewable energy as the source of power.",
+  "zh": "我们需要把那种担忧集中在鼓励转向可再生能源作为电力来源上。"
+ },
+ {
+  "seg": 173,
+  "start": 1215.072,
+  "end": 1221.315,
+  "speaker": "Unknown",
+  "en": "Now, the water use is also a concern, but closed-loop systems are gaining in popularity.",
+  "zh": "现在，用水也是一个令人担忧的问题，但闭环系统正变得越来越流行。"
+ },
+ {
+  "seg": 174,
+  "start": 1221.776,
+  "end": 1235.143,
+  "speaker": "Unknown",
+  "en": "In some regions, the noise experienced by people near the data centers is an issue, but the deeper concerns are the ones that these experts have been warning us about just in the lab.",
+  "zh": "在一些地区，数据中心附近人们感受到的噪音是个问题，但更深层的担忧是这些专家一直在警告我们的、仅仅在实验室里就存在的那些。"
+ },
+ {
+  "seg": 175,
+  "start": 1237.805,
+  "end": 1252.459,
+  "speaker": "Unknown",
+  "en": "Again, the U.S. and China should adopt a two-issue agenda, solving the climate crisis together and establishing appropriate regulations for the frontier models in AI.",
+  "zh": "再说一次，美国和中国应该采纳一个双议题议程：共同解决气候危机，以及为 AI 前沿模型建立适当的监管。"
+ },
+ {
+  "seg": 176,
+  "start": 1252.942,
+  "end": 1259.27,
+  "speaker": "Unknown",
+  "en": "I just wanted to add one final piece while we have to, you know, increase the renewable base load power for the data centers.",
+  "zh": "我只是想补充最后一点，同时我们必须增加数据中心的可再生基载电力。"
+ },
+ {
+  "seg": 177,
+  "start": 1259.43,
+  "end": 1269.442,
+  "speaker": "Unknown",
+  "en": "At the same time, there's a lot of innovation activity and investment opportunity in decoupling the energy intensity of compute at every step of the chain.",
+  "zh": "与此同时，在计算链的每一个环节降低能源强度方面，有大量的创新活动和投资机会。"
+ },
+ {
+  "seg": 178,
+  "start": 1269.842,
+  "end": 1270.042,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 179,
+  "start": 1270.142,
+  "end": 1280.808,
+  "speaker": "Unknown",
+  "en": "In the power supply, in building the data centers, green cement, green steel, in the storage optimization software you use, in the optimization of the database design.",
+  "zh": "在电力供应方面，在建造数据中心方面，绿色水泥、绿色钢材，在你使用的存储优化软件方面，在数据库设计的优化方面。"
+ },
+ {
+  "seg": 180,
+  "start": 1280.908,
+  "end": 1282.569,
+  "speaker": "Unknown",
+  "en": "Like there's so many pockets.",
+  "zh": "就是有那么多可以切入的地方。"
+ },
+ {
+  "seg": 181,
+  "start": 1282.689,
+  "end": 1298.277,
+  "speaker": "Unknown",
+  "en": "We think even like demand response across the states, there's an opportunity for investors to really accelerate the efficiency so that as we build, we build with the most resilient and sustainable data center infrastructure possible.",
+  "zh": "我们认为甚至像跨州的需求响应，投资者也有机会真正加速提升效率，这样在我们建设的时候，我们就能以尽可能最有韧性、最可持续的数据中心基础设施来建设。"
+ },
+ {
+  "seg": 182,
+  "start": 1298.717,
+  "end": 1300.218,
+  "speaker": "Unknown",
+  "en": "That's an economic opportunity.",
+  "zh": "这是一个经济机会。"
+ },
+ {
+  "seg": 183,
+  "start": 1300.598,
+  "end": 1303.3,
+  "speaker": "Unknown",
+  "en": "How competitive or not are those spaces right now?",
+  "zh": "这些领域现在竞争激烈程度如何？"
+ },
+ {
+  "seg": 184,
+  "start": 1303.94,
+  "end": 1310.503,
+  "speaker": "Unknown",
+  "en": "So there's quite a few companies, but also places where we've already used our roadmap research to invest behind a few.",
+  "zh": "嗯，有相当多的公司，但在一些地方我们也已经用我们的路线图研究投资支持了几家。"
+ },
+ {
+  "seg": 185,
+  "start": 1311.144,
+  "end": 1322.37,
+  "speaker": "Unknown",
+  "en": "For example, Weka is a company that helps to optimize that storage layer, driving up like 10x performance, which reduces the need by up to 90% for the hardware and energy use of the storage",
+  "zh": "例如，Weka 是一家帮助优化存储层的公司，能提升约 10 倍的性能，从而最多减少 90% 对硬件的需求以及存储的能源消耗"
+ },
+ {
+  "seg": 186,
+  "start": 1324.9,
+  "end": 1326.382,
+  "speaker": "Unknown",
+  "en": "on top of that hardware.",
+  "zh": "在那硬件之上。"
+ },
+ {
+  "seg": 187,
+  "start": 1326.763,
+  "end": 1332.972,
+  "speaker": "Unknown",
+  "en": "We have companies like Volu over in Europe that are optimizing the ability of utilities to pull more renewables into the grid.",
+  "zh": "我们还有像欧洲的 Volu 这样的公司，它们在优化公用事业公司将更多可再生能源并入电网的能力。"
+ },
+ {
+  "seg": 188,
+  "start": 1333.353,
+  "end": 1339.822,
+  "speaker": "Unknown",
+  "en": "So as the grids become more complex, we're going to need better software systems, sort of like control center for that.",
+  "zh": "所以随着电网变得更复杂，我们将需要更好的软件系统，有点像这方面的控制中心。"
+ },
+ {
+  "seg": 189,
+  "start": 1340.282,
+  "end": 1341.383,
+  "speaker": "Unknown",
+  "en": "Companies even at the edge.",
+  "zh": "甚至有处在边缘的公司。"
+ },
+ {
+  "seg": 190,
+  "start": 1341.403,
+  "end": 1348.785,
+  "speaker": "Unknown",
+  "en": "So think about the importance of buffering our grid from disruption risks related to climate such as wildfire.",
+  "zh": "想想缓冲我们的电网免受与气候相关的破坏风险（比如野火）的重要性。"
+ },
+ {
+  "seg": 191,
+  "start": 1349.165,
+  "end": 1353.807,
+  "speaker": "Unknown",
+  "en": "The report shows quite a bit around the advances of global wildfire risk.",
+  "zh": "报告展示了相当多关于全球野火风险加剧的内容。"
+ },
+ {
+  "seg": 192,
+  "start": 1353.827,
+  "end": 1363.21,
+  "speaker": "Unknown",
+  "en": "And there's a company like Gridware, which has sensors on utility poles and can provide monitoring, but also ability to shift load and protect",
+  "zh": "还有一家像 Gridware 这样的公司，在电线杆上装有传感器，可以提供监测，还有转移负荷和保护的能力"
+ },
+ {
+  "seg": 193,
+  "start": 1368.863,
+  "end": 1370.384,
+  "speaker": "Unknown",
+  "en": "And yes, I think these are interesting areas.",
+  "zh": "是的，我认为这些是有意思的领域。"
+ },
+ {
+  "seg": 194,
+  "start": 1370.824,
+  "end": 1377.427,
+  "speaker": "Unknown",
+  "en": "Co-founded by a former lineman who used to climb those poles in Australia, but anyway.",
+  "zh": "由一位曾经在澳大利亚爬过那些电线杆的前线路工共同创立，不过无论如何。"
+ },
+ {
+  "seg": 195,
+  "start": 1377.467,
+  "end": 1377.947,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 196,
+  "start": 1378.227,
+  "end": 1386.871,
+  "speaker": "Unknown",
+  "en": "Mr. Gore, you mentioned that Trump won't be around forever and the political climate may be changing, but it is what it is right now.",
+  "zh": "戈尔先生，你提到特朗普不会永远在任，政治气候可能会变化，但现在就是这样。"
+ },
+ {
+  "seg": 197,
+  "start": 1386.971,
+  "end": 1392.134,
+  "speaker": "Unknown",
+  "en": "And if you're a clean energy founder, how do you make your company politically durable?",
+  "zh": "如果你是一位清洁能源创始人，你如何让你的公司在政治上经得起考验？"
+ },
+ {
+  "seg": 198,
+  "start": 1392.394,
+  "end": 1394.335,
+  "speaker": "Unknown",
+  "en": "How do you insulate it from...",
+  "zh": "你如何使它免受于……"
+ },
+ {
+  "seg": 199,
+  "start": 1395.075,
+  "end": 1400.203,
+  "speaker": "Unknown",
+  "en": "The current administration and what seemed to be changing goals.",
+  "zh": "当前政府以及那些似乎不断变化的目标。"
+ },
+ {
+  "seg": 200,
+  "start": 1400.683,
+  "end": 1409.657,
+  "speaker": "Unknown",
+  "en": "Well, one strategy we've seen quite a bit of in the last year and a half is the one called green hushing where companies",
+  "zh": "嗯，在过去一年半里我们看到相当多的一种策略叫做“绿色噤声”(green hushing),即公司"
+ },
+ {
+  "seg": 201,
+  "start": 1410.197,
+  "end": 1420.551,
+  "speaker": "Unknown",
+  "en": "Some keep their heads down and keep quiet about the sustainability transition, but actually accelerate their pace in moving forward into that transition.",
+  "zh": "有些公司保持低调，对可持续转型保持沉默，但实际上却在加速推进这一转型的步伐。"
+ },
+ {
+  "seg": 202,
+  "start": 1420.951,
+  "end": 1425.978,
+  "speaker": "Unknown",
+  "en": "It's different with different companies, but green hushing has been playing a prominent role.",
+  "zh": "不同公司情况不同，但“绿色噤声”一直扮演着显著的角色。"
+ },
+ {
+  "seg": 203,
+  "start": 1426.358,
+  "end": 1431.58,
+  "speaker": "Unknown",
+  "en": "You know, you talked a little bit about President Trump dismissing AI doom warnings.",
+  "zh": "你知道，你稍微谈到了特朗普总统对 AI 末日警告的不屑一顾。"
+ },
+ {
+  "seg": 204,
+  "start": 1432.14,
+  "end": 1441.183,
+  "speaker": "Unknown",
+  "en": "And I wonder what you both think of the fact that so many investors out there seem to be, well, are you at all surprised by the reaction to these warnings?",
+  "zh": "我想知道你们两位怎么看待这样一个事实：外面有这么多投资者似乎……你们对这些警告所引发的反应感到惊讶吗？"
+ },
+ {
+  "seg": 205,
+  "start": 1441.952,
+  "end": 1454.516,
+  "speaker": "Unknown",
+  "en": "Well, I think we went through a phase where some cynically suspected that the apocalyptic warnings were some kind of bizarre marketing strategy.",
+  "zh": "嗯，我认为我们经历过一个阶段，当时有些人出于讥讽怀疑这些末日般的警告是某种古怪的营销策略。"
+ },
+ {
+  "seg": 206,
+  "start": 1454.916,
+  "end": 1457.537,
+  "speaker": "Unknown",
+  "en": "If that was ever the case, I don't think it is now.",
+  "zh": "即使曾经是这样，我现在不这么认为了。"
+ },
+ {
+  "seg": 207,
+  "start": 1457.837,
+  "end": 1469.761,
+  "speaker": "Unknown",
+  "en": "I do think that Dario Amidai is very sincere, and I think that Sam Altman and Elon Musk were sincere in seconding his warning of a few days ago.",
+  "zh": "我确实认为 Dario Amodei 是非常真诚的，而且我认为 Sam Altman 和 Elon Musk 在附和他几天前的警告时也是真诚的。"
+ },
+ {
+  "seg": 208,
+  "start": 1470.521,
+  "end": 1479.245,
+  "speaker": "Unknown",
+  "en": "I'm reminded of the famous saying from Maya Angelou when she said, when someone tells you who they are, believe them the first time.",
+  "zh": "我想起 Maya Angelou 的名言，她说过：当有人告诉你他们是什么样的人时，第一次就要相信他们。"
+ },
+ {
+  "seg": 209,
+  "start": 1479.645,
+  "end": 1493.53,
+  "speaker": "Unknown",
+  "en": "And I think they are sincere because they obviously have a front row seat in assessing the rather startling advances being made by the frontier models.",
+  "zh": "我认为他们是真诚的，因为他们显然在评估前沿模型所取得的相当惊人的进展方面拥有第一排的座位。"
+ },
+ {
+  "seg": 210,
+  "start": 1494.13,
+  "end": 1498.132,
+  "speaker": "Unknown",
+  "en": "And of course, the recent examples of models",
+  "zh": "当然，最近有一些模型的例子"
+ },
+ {
+  "seg": 211,
+  "start": 1498.632,
+  "end": 1511.239,
+  "speaker": "Unknown",
+  "en": "Escaping confinement, collaborating secretly, covering their tracks, engaging in deceptive behavior, that doesn't inspire a lot of confidence.",
+  "zh": "逃脱禁闭、秘密协作、掩盖踪迹、从事欺骗性行为，这并不能让人产生多少信心。"
+ },
+ {
+  "seg": 212,
+  "start": 1511.959,
+  "end": 1513.68,
+  "speaker": "Unknown",
+  "en": "But I would also point this out.",
+  "zh": "但我也想指出这一点。"
+ },
+ {
+  "seg": 213,
+  "start": 1513.74,
+  "end": 1527.688,
+  "speaker": "Unknown",
+  "en": "You know, Nick Stern, for whom I have a tremendous amount of respect, one of the leading economists in the world at LSE, he and his colleagues published a very influential study just recently",
+  "zh": "你知道，Nick Stern,我对他极为尊敬，他是 LSE 世界领先的经济学家之一，他和他的同事们最近刚发表了一项非常有影响力的研究"
+ },
+ {
+  "seg": 214,
+  "start": 1532.523,
+  "end": 1542.27,
+  "speaker": "Unknown",
+  "en": "coming as a result of AI being applied to the development of new approaches to efficiency and the elimination of energy waste.",
+  "zh": "该研究源于 AI 被应用于开发新的效率方法和消除能源浪费。"
+ },
+ {
+  "seg": 215,
+  "start": 1542.79,
+  "end": 1549.015,
+  "speaker": "Unknown",
+  "en": "I think that his prediction of six to 9% declines in emissions per year",
+  "zh": "我认为他预测排放量每年下降 6% 到 9%"
+ },
+ {
+  "seg": 216,
+  "start": 1554.252,
+  "end": 1559.217,
+  "speaker": "Unknown",
+  "en": "I believe, Nick, he has the reputation to warrant that confidence.",
+  "zh": "我相信 Nick,他的声誉足以支撑那份信心。"
+ },
+ {
+  "seg": 217,
+  "start": 1559.597,
+  "end": 1567.684,
+  "speaker": "Unknown",
+  "en": "I think they're just telling us what they've been saying for a long time and that we're kind of closer to this juncture than maybe they thought we would be at this point.",
+  "zh": "我认为他们只是在告诉我们他们长期以来一直在说的话，而且我们可能比他们原本以为的更接近这个关口了。"
+ },
+ {
+  "seg": 218,
+  "start": 1568.065,
+  "end": 1577.614,
+  "speaker": "Unknown",
+  "en": "Mr. Gore, I also just wanted to ask, you know, big question, but 10 years of this report and Lila, what is the number one trend that's moved furthest from where you expected it to be?",
+  "zh": "Gore 先生，我还想问一下，你知道，这是个大问题，这份报告已经做了十年，Lila,哪一个趋势的进展与你预期的偏离最远？"
+ },
+ {
+  "seg": 219,
+  "start": 1578.109,
+  "end": 1589.392,
+  "speaker": "Unknown",
+  "en": "For me personally, the scope and scale of the solar revolution is the breakout star of the sustainability transition.",
+  "zh": "就我个人而言，太阳能革命的广度和深度是可持续转型中最耀眼的明星。"
+ },
+ {
+  "seg": 220,
+  "start": 1589.752,
+  "end": 1599.434,
+  "speaker": "Unknown",
+  "en": "If you go back and look at the projections from the IEA over the years, and they're excellent, you know, at what they do, but even then,",
+  "zh": "如果你回过头去看 IEA 多年来的预测，他们在自己所做的事情上非常出色，但即便如此，"
+ },
+ {
+  "seg": 221,
+  "start": 1600.174,
+  "end": 1605.438,
+  "speaker": "Unknown",
+  "en": "have been startled by how fast the price of solar has declined.",
+  "zh": "他们也对太阳能价格下降的速度感到吃惊。"
+ },
+ {
+  "seg": 222,
+  "start": 1606.139,
+  "end": 1608.44,
+  "speaker": "Unknown",
+  "en": "0.09 cents now.",
+  "zh": "现在是 0.09 美分。"
+ },
+ {
+  "seg": 223,
+  "start": 1608.781,
+  "end": 1610.362,
+  "speaker": "Unknown",
+  "en": "It's just incredible.",
+  "zh": "这简直令人难以置信。"
+ },
+ {
+  "seg": 224,
+  "start": 1610.422,
+  "end": 1614.285,
+  "speaker": "Unknown",
+  "en": "By far the cheapest source of power in the history of the world.",
+  "zh": "这是迄今为止世界历史上最便宜的电力来源。"
+ },
+ {
+  "seg": 225,
+  "start": 1614.785,
+  "end": 1618.828,
+  "speaker": "Unknown",
+  "en": "One of my friends in Tennessee jokes, he said, if God had intended us to have",
+  "zh": "我在田纳西州的一位朋友开玩笑说，如果上帝打算让我们拥有"
+ },
+ {
+  "seg": 226,
+  "start": 1619.168,
+  "end": 1627.075,
+  "speaker": "Unknown",
+  "en": "A limitless supply of cheap, clean energy, he would have put a, he or she would have put a fusion reactor in the sky.",
+  "zh": "无限供应的廉价清洁能源，他——或者她——就会在天上放一个聚变反应堆。"
+ },
+ {
+  "seg": 227,
+  "start": 1627.475,
+  "end": 1641.527,
+  "speaker": "Unknown",
+  "en": "Well, you know, the joke makes itself because you have this being discovered all over the world and the pace and speed and scope of that particular part of the change has",
+  "zh": "嗯，你知道，这个笑话不言自明，因为你在世界各地都能看到这种被发现，而这一特定变化部分的步伐、速度和广度已经"
+ },
+ {
+  "seg": 228,
+  "start": 1645.006,
+  "end": 1649.412,
+  "speaker": "Unknown",
+  "en": "My position would be around the system interaction of these technology cost down curves.",
+  "zh": "我的立场会围绕这些技术成本下降曲线的系统互动。"
+ },
+ {
+  "seg": 229,
+  "start": 1649.452,
+  "end": 1660.365,
+  "speaker": "Unknown",
+  "en": "I think what's encouraging to see, and again, there's steps forward and steps back, but now you have the combination of, say, solar plus battery storage, plus grid optimization, plus, you know, EV charge.",
+  "zh": "我认为令人鼓舞的是，再说一次，有前进也有后退，但现在你有了这样一种组合，比如说，太阳能加电池储能，加电网优化，加，你知道的，EV 充电。"
+ },
+ {
+  "seg": 230,
+  "start": 1660.466,
+  "end": 1663.489,
+  "speaker": "Unknown",
+  "en": "Like there's actually a whole constellation and it's starting to work together.",
+  "zh": "就像是有一个完整的星群，而且它们开始协同工作了。"
+ },
+ {
+  "seg": 231,
+  "start": 1666.505,
+  "end": 1668.046,
+  "speaker": "Unknown",
+  "en": "We can accelerate this even faster.",
+  "zh": "我们可以让这件事加速得更快。"
+ },
+ {
+  "seg": 232,
+  "start": 1668.186,
+  "end": 1669.187,
+  "speaker": "Unknown",
+  "en": "So that's what we're excited about.",
+  "zh": "所以这就是我们感到兴奋的地方。"
+ },
+ {
+  "seg": 233,
+  "start": 1669.567,
+  "end": 1686.781,
+  "speaker": "Unknown",
+  "en": "As you know, we have an audience of entrepreneurs, and I'm just wondering if a 25-year-old founder came to you today and said, I want to spend the next decade building a company that can become enormous and materially affect the climate problem, what would you tell them to work on?",
+  "zh": "如你所知，我们的听众中有很多创业者，我只是想知道，如果今天有一位 25 岁的创始人来找你说，我想在接下来的十年里打造一家能够变得庞大并对气候问题产生实质性影响的公司，你会告诉他们去做什么？"
+ },
+ {
+  "seg": 234,
+  "start": 1687.181,
+  "end": 1689.443,
+  "speaker": "Unknown",
+  "en": "I'd tell them to consult with Lila Preston.",
+  "zh": "我会告诉他们去咨询 Lila Preston。"
+ },
+ {
+  "seg": 235,
+  "start": 1692.234,
+  "end": 1693.714,
+  "speaker": "Unknown",
+  "en": "There are so many of those, actually.",
+  "zh": "其实这样的例子有很多。"
+ },
+ {
+  "seg": 236,
+  "start": 1694.134,
+  "end": 1698.436,
+  "speaker": "Unknown",
+  "en": "It is an enormous pool of entrepreneurs who are solving these problems at scale.",
+  "zh": "现在有一大批创业者正在大规模地解决这些问题。"
+ },
+ {
+  "seg": 237,
+  "start": 1698.576,
+  "end": 1704.479,
+  "speaker": "Unknown",
+  "en": "I mentioned, you know, simulation software to design how we interact with autonomous vehicles and in the future, robotics.",
+  "zh": "我提到过，你知道的，用于设计我们如何与自动驾驶汽车以及未来机器人交互的仿真软件。"
+ },
+ {
+  "seg": 238,
+  "start": 1704.499,
+  "end": 1708.881,
+  "speaker": "Unknown",
+  "en": "I mean, it is exciting times, so I would hope that they, you know, plug in.",
+  "zh": "我是说，现在是激动人心的时代，所以我希望他们，你知道的，投身其中。"
+ },
+ {
+  "seg": 239,
+  "start": 1709.021,
+  "end": 1711.522,
+  "speaker": "Unknown",
+  "en": "I think industrial decarbonization is still a massive need.",
+  "zh": "我认为工业脱碳仍然是一个巨大的需求。"
+ },
+ {
+  "seg": 240,
+  "start": 1711.562,
+  "end": 1714.383,
+  "speaker": "Unknown",
+  "en": "Buildings, you know, hasn't seen as much innovation.",
+  "zh": "建筑，你知道的，没有看到那么多创新。"
+ },
+ {
+  "seg": 241,
+  "start": 1714.504,
+  "end": 1719.346,
+  "speaker": "Unknown",
+  "en": "Agriculture, we talked about still, you know, biology is moving in with data science, but we can",
+  "zh": "农业，我们谈到过，你知道的，生物学正在与数据科学结合，但我们可以"
+ },
+ {
+  "seg": 242,
+  "start": 1720.206,
+  "end": 1725.092,
+  "speaker": "Unknown",
+  "en": "Create huge, big companies that can solve these problems at a systems level.",
+  "zh": "创建能在系统层面解决这些问题的巨大公司。"
+ },
+ {
+  "seg": 243,
+  "start": 1725.553,
+  "end": 1729.298,
+  "speaker": "Unknown",
+  "en": "So we're excited to support them and help them along the way with our ecosystem any way we can.",
+  "zh": "所以我们很乐意支持他们，并在他们前进的路上尽我们所能用我们的生态体系帮助他们。"
+ },
+ {
+  "seg": 244,
+  "start": 1729.638,
+  "end": 1734.885,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, we led the latest investment round in the largest green steel.",
+  "zh": "是的，你知道，我们领投了最大绿色钢铁公司最新一轮的投资。"
+ },
+ {
+  "seg": 245,
+  "start": 1735.085,
+  "end": 1740.268,
+  "speaker": "Unknown",
+  "en": "It's the largest facility in the world under construction now in Northern Sweden.",
+  "zh": "它是目前正在瑞典北部建设中的世界最大设施。"
+ },
+ {
+  "seg": 246,
+  "start": 1740.728,
+  "end": 1743.069,
+  "speaker": "Unknown",
+  "en": "And the developments are so positive there.",
+  "zh": "那里的进展非常积极。"
+ },
+ {
+  "seg": 247,
+  "start": 1743.109,
+  "end": 1745.25,
+  "speaker": "Unknown",
+  "en": "It's really, really heartening.",
+  "zh": "真的，真的令人振奋。"
+ },
+ {
+  "seg": 248,
+  "start": 1745.73,
+  "end": 1754.595,
+  "speaker": "Unknown",
+  "en": "And the hard to abate sectors that were on the list a few years ago, some of those subsectors are being taken off that list now.",
+  "zh": "而且几年前还在名单上的那些“难减排”行业，其中一些子行业现在正被从那个名单上移除。"
+ },
+ {
+  "seg": 249,
+  "start": 1755.175,
+  "end": 1759.457,
+  "speaker": "Unknown",
+  "en": "You know, the IEA used to say we could reduce emissions by 50% in 10 years.",
+  "zh": "你知道，IEA 曾经说我们可以在 10 年内减排 50%。"
+ },
+ {
+  "seg": 250,
+  "start": 1759.477,
+  "end": 1760.338,
+  "speaker": "Unknown",
+  "en": "Now that's 65% in 10 years.",
+  "zh": "现在，这在 10 年内是 65%。"
+ },
+ {
+  "seg": 251,
+  "start": 1768.193,
+  "end": 1772.798,
+  "speaker": "Unknown",
+  "en": "is one of the areas where we could make a tremendous progress.",
+  "zh": "是我们能够取得巨大进展的领域之一。"
+ },
+ {
+  "seg": 252,
+  "start": 1772.858,
+  "end": 1782.788,
+  "speaker": "Unknown",
+  "en": "Lila mentioned PivotBio, but the revolution in biology is almost as startling as the revolution in AI.",
+  "zh": "Lila 提到了 PivotBio,但生物学的革命几乎和 AI 的革命一样惊人。"
+ },
+ {
+  "seg": 253,
+  "start": 1782.929,
+  "end": 1785.191,
+  "speaker": "Unknown",
+  "en": "And some of those solutions are going",
+  "zh": "而其中一些解决方案正在"
+ },
+ {
+  "seg": 254,
+  "start": 1788.735,
+  "end": 1806.84,
+  "speaker": "Unknown",
+  "en": "top soils, making farms more resilient, increasing yields without such reliance on fossil fuels and synthetic nitrogen fertilizers, which are 90% methane, and without harmful chemicals that end up creating health threats as well.",
+  "zh": "改善表层土壤，让农场更有韧性，在不那么依赖化石燃料和合成氮肥(其中 90% 是甲烷)的情况下提高产量，同时也不使用最终会造成健康威胁的有害化学品。"
+ },
+ {
+  "seg": 255,
+  "start": 1807.3,
+  "end": 1816.062,
+  "speaker": "Unknown",
+  "en": "In terms of industrial building, to what do you attribute that slowdown, that sort of relative lack of, I guess, focus or progress?",
+  "zh": "至于工业建筑，你认为那种放缓、那种相对缺乏——我想说——关注或进展，归因于什么？"
+ },
+ {
+  "seg": 256,
+  "start": 1816.58,
+  "end": 1825.425,
+  "speaker": "Unknown",
+  "en": "Well, building efficiency has been a latent opportunity for many companies for a long time because, you know, it takes time and it takes",
+  "zh": "嗯，建筑效率长期以来一直是许多公司的潜在机会，因为，你知道，这需要时间，而且需要"
+ },
+ {
+  "seg": 257,
+  "start": 1830.398,
+  "end": 1837.239,
+  "speaker": "Unknown",
+  "en": "causing many companies to revisit how they can make their physical plants much more efficient.",
+  "zh": "促使许多公司重新思考如何让它们的实体工厂更加高效。"
+ },
+ {
+  "seg": 258,
+  "start": 1837.459,
+  "end": 1840.06,
+  "speaker": "Unknown",
+  "en": "Lila, you want to take a stab at that one also?",
+  "zh": "Lila,你也想试着回答一下这个问题吗？"
+ },
+ {
+  "seg": 259,
+  "start": 1840.36,
+  "end": 1843.54,
+  "speaker": "Unknown",
+  "en": "I think that there's been less innovation in the built environment.",
+  "zh": "我认为在建筑环境领域的创新一直比较少。 [[252-注：原文如此]] 说真的，这里存在一个委托代理问题，你知道，谁拥有一栋建筑，与谁居住在一栋建筑之间——行为改变的空间就在那里。"
+ },
+ {
+  "seg": 260,
+  "start": 1843.94,
+  "end": 1849.501,
+  "speaker": "Unknown",
+  "en": "Truly, there's an agent principal problem, you know, who owns a building versus who inhabits a building where behavior shifts can lie.",
+  "zh": "确实存在智能体的委托人问题，你知道，就像拥有一个建筑的人和住在一个建筑里的人之间的区别，行为转变可能就藏在这里面。"
+ },
+ {
+  "seg": 261,
+  "start": 1850.281,
+  "end": 1855.182,
+  "speaker": "Unknown",
+  "en": "Again, there's really interesting market opportunities for building optimization software.",
+  "zh": "再说，建筑优化软件领域确实有非常有趣的市场机会。"
+ },
+ {
+  "seg": 262,
+  "start": 1855.522,
+  "end": 1858.743,
+  "speaker": "Unknown",
+  "en": "We have an investment called IFS, which focuses on industrial",
+  "zh": "我们有一个投资项目叫 IFS,它专注于工业"
+ },
+ {
+  "seg": 263,
+  "start": 1859.621,
+  "end": 1866.966,
+  "speaker": "Unknown",
+  "en": "Machinery and focusing on preventative maintenance so that you can reduce downtime and optimize productivity at the manufacturing level.",
+  "zh": "机械，聚焦于预防性维护，这样你就可以减少停机时间，并在制造层面优化生产力。"
+ },
+ {
+  "seg": 264,
+  "start": 1866.986,
+  "end": 1873.831,
+  "speaker": "Unknown",
+  "en": "Like these are really tough, you know, getting into the plumbing of heavy industrial machinery is not easy to do and you have to earn trust.",
+  "zh": "比如这些是非常艰难的，你知道，深入到重型工业机械的“管道”内部并不容易，你必须赢得信任。"
+ },
+ {
+  "seg": 265,
+  "start": 1873.851,
+  "end": 1881.056,
+  "speaker": "Unknown",
+  "en": "And that's where we think the breakout could be is, you know, these very solid technologists who can build trust at every step of that value chain.",
+  "zh": "而我们认为突破可能就出现在这里，你知道，就是那些非常扎实的 technologist,他们能够在那个价值链的每一步都建立信任。"
+ },
+ {
+  "seg": 266,
+  "start": 1881.456,
+  "end": 1882.037,
+  "speaker": "Unknown",
+  "en": "But it takes time.",
+  "zh": "但这需要时间。"
+ },
+ {
+  "seg": 267,
+  "start": 1882.537,
+  "end": 1882.738,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 268,
+  "start": 1882.818,
+  "end": 1883.819,
+  "speaker": "Unknown",
+  "en": "It's just so interesting to me.",
+  "zh": "这对我来说真的很有意思。"
+ },
+ {
+  "seg": 269,
+  "start": 1883.839,
+  "end": 1887.482,
+  "speaker": "Unknown",
+  "en": "It just, it seems like it's such a cyclical sector.",
+  "zh": "它就是，看起来是一个非常周期性的行业。"
+ },
+ {
+  "seg": 270,
+  "start": 1887.683,
+  "end": 1890.325,
+  "speaker": "Unknown",
+  "en": "And I'm kind of, you know, always puzzled by why that is.",
+  "zh": "而我有点，你知道，一直很困惑为什么会这样。"
+ },
+ {
+  "seg": 271,
+  "start": 1890.626,
+  "end": 1891.867,
+  "speaker": "Unknown",
+  "en": "Anyway, guys, thank you so much.",
+  "zh": "总之，各位，非常感谢你们。"
+ },
+ {
+  "seg": 272,
+  "start": 1892.107,
+  "end": 1893.809,
+  "speaker": "Unknown",
+  "en": "Really, really a pleasure to talk to you.",
+  "zh": "真的，真的非常高兴和你们交谈。"
+ },
+ {
+  "seg": 273,
+  "start": 1894.209,
+  "end": 1897.332,
+  "speaker": "Unknown",
+  "en": "Again, I know you're in the middle of a lot in New York right now.",
+  "zh": "再说一次，我知道你们现在在纽约正忙于很多事情。"
+ },
+ {
+  "seg": 274,
+  "start": 1897.392,
+  "end": 1899.234,
+  "speaker": "Unknown",
+  "en": "So thank you again for making time for this.",
+  "zh": "所以再次感谢你们为此抽出时间。"
+ },
+ {
+  "seg": 275,
+  "start": 1899.735,
+  "end": 1900.996,
+  "speaker": "Unknown",
+  "en": "Always a pleasure, Connie.",
+  "zh": "一直都很愉快，Connie。"
+ },
+ {
+  "seg": 276,
+  "start": 1901.236,
+  "end": 1901.517,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 277,
+  "start": 1901.637,
+  "end": 1903.078,
+  "speaker": "Unknown",
+  "en": "Thank you, everybody.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 278,
+  "start": 1903.098,
+  "end": 1903.759,
+  "speaker": "Unknown",
+  "en": "Appreciate it.",
+  "zh": "感激不尽。"
+ },
+ {
+  "seg": 279,
+  "start": 1908.414,
+  "end": 1916.5,
+  "speaker": "Unknown",
+  "en": "The Strictly VC Download podcast is hosted by TechCrunch Editor-in-Chief Connie Loizos and me, Alex Gove of Strictly VC.",
+  "zh": "The Strictly VC Download 播客由 TechCrunch 主编 Connie Loizos 和我——Strictly VC 的 Alex Gove 主持。"
+ },
+ {
+  "seg": 280,
+  "start": 1917.02,
+  "end": 1923.284,
+  "speaker": "Unknown",
+  "en": "Strictly VC Download is produced by Maggie Nye with editing assistance by Teresa Lancansolo and Kel.",
+  "zh": "Strictly VC Download 由 Maggie Nye 制作，剪辑协助来自 Teresa Lancansolo 和 Kel。"
+ },
+ {
+  "seg": 281,
+  "start": 1924.705,
+  "end": 1925.486,
+  "speaker": "Unknown",
+  "en": "Thanks for listening.",
+  "zh": "感谢收听。"
+ },
+ {
+  "seg": 282,
+  "start": 1925.866,
+  "end": 1927.007,
+  "speaker": "Unknown",
+  "en": "We'll see you back here next week.",
+  "zh": "我们下周再见。"
+ }
+]

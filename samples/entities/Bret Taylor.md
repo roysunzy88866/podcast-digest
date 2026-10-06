@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":7,"智能体":417,"基于结果的定价":4,"应用 AI":1,"前沿模型":24,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":78}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":7,"智能体":419,"基于结果的定价":4,"应用 AI":1,"前沿模型":25,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":78}</script>
 
 <script>
 (function(){

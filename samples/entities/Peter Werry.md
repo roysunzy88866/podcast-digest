@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":95,"上下文引擎":4,"智能体":417,"上下文窗口":14,"代码评审智能体":1,"搜索满足感":1,"MCP":78}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":95,"上下文引擎":4,"智能体":419,"上下文窗口":14,"代码评审智能体":1,"搜索满足感":1,"MCP":78}</script>
 
 <script>
 (function(){

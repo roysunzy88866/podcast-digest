@@ -1,0 +1,683 @@
+{
+  "episode_id": "2026-10-05-twist-jason-mentors-the-next-generation-why-ai",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-05",
+  "tags": [
+    "AI 教育",
+    "职业建议",
+    "客户发现",
+    "创业问答",
+    "传记阅读法"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "jason",
+      "type": "person",
+      "role": "host",
+      "name": "Jason",
+      "file": "Jason",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            4.353,
+            11.176
+          ],
+          "quote": "We're in the fall on and we got a full docket and a lot of questions people have been wanting me to do and ask Jason.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 33,
+          "t": [
+            100.972,
+            103.054
+          ],
+          "quote": "Yeah, we're doing we're doing some Ask Jason's.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 100,
+          "t": [
+            248.42,
+            251.442
+          ],
+          "quote": "I need tips on living in New York and dating girls, Jason.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 103,
+          "t": [
+            252.202,
+            253.623
+          ],
+          "quote": "You'll be the next, Jason.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1270.256,
+            1277.823
+          ],
+          "quote": "What you need to start doing is, I want to see you, if you heard my previous caller on today's Ask Jason, I told him to read all the biographies.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1277.843,
+            1285.73
+          ],
+          "quote": "I'm going to give you that same assignment, so I want you to read five biographies, and then when you do your next Ask Jason, I want you to tell me what two things you learned from each.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 502,
+          "t": [
+            1481.914,
+            1482.414
+          ],
+          "quote": "Hi, Jason.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2040.077,
+            2040.658
+          ],
+          "quote": "Hey, Jason.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2551.169,
+            2552.99
+          ],
+          "quote": "All right, another amazing Ask Jason.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2553.15,
+            2557.853
+          ],
+          "quote": "If you would like to be part of the next Ask Jason, tell them, Lon, how they can participate.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2572.14,
+            2574.902
+          ],
+          "quote": "We'll get you on the next episode of Live Ask Jason.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2685.42,
+            2686.14
+          ],
+          "quote": "Thank you, Jason.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "aristotle",
+      "type": "company",
+      "role": "company",
+      "name": "Aristotle",
+      "file": "Aristotle",
+      "primary": true,
+      "how_described": "本集说它是面向高中生的语音 AI 导师、一个专注于人类学习的 AI 实验室；创始人 Sean Reddy 主张模型在教学上正在变差，Aristotle 通过预测「下一个最优教学动作」复刻坐在人类导师旁边的一对一辅导体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 781,
+          "t": [
+            2667.494,
+            2671.777
+          ],
+          "quote": "And today we have the founder of Aristotle on our program.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2671.797,
+            2676.48
+          ],
+          "quote": "His name is Sean Reddy, and he is the co-founder and CEO of Aristotle.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2742.702,
+            2747.544
+          ],
+          "quote": "Yeah, so we describe Aristotle as an AI lab focused on human learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2879.753,
+            2882.393
+          ],
+          "quote": "This is the student dashboard for Aristotle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 848,
+          "t": [
+            2947.024,
+            2953.452
+          ],
+          "quote": "So my Aristotle knows that I'm an engineer living in San Francisco, and so it will teach to that level.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3073.165,
+            3086.876
+          ],
+          "quote": "So Aristotle is generating these diagrams, this text all in real time, driven by the secret sauce of all of this, which is optimal next pedagogical action prediction.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 900,
+          "t": [
+            3161.486,
+            3162.587
+          ],
+          "quote": "Aristotle is.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3380.71,
+            3388.735
+          ],
+          "quote": "We also offer an unlimited access to Aristotle package that gives you and we have students that will do 60 plus hours a month and that comes in at $200.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 991,
+          "t": [
+            3578.594,
+            3582.538
+          ],
+          "quote": "No one is really working on a frontier tutoring harness outside of Aristotle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1015,
+          "t": [
+            3701.131,
+            3706.033
+          ],
+          "quote": "I mean, students and parents, dyslexic students and parents of dyslexic students love Aristotle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            3848.438,
+            3861.79
+          ],
+          "quote": "I had a parent tell me yesterday that their daughter feels like she's learned more in three hours with Aristotle than in the last month of public school, which is, on one hand, it's kind of damning for the education system and also really exciting for our product.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            4096.247,
+            4099.128
+          ],
+          "quote": "So Aristotle is the learning and teaching side of that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            4158.456,
+            4163.958
+          ],
+          "quote": "Tutoring is the best way to learn, and Aristotle gives it to you 24-7, universally accessible, any subject.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "khan-academy",
+      "type": "company",
+      "role": "company",
+      "name": "Khan Academy",
+      "file": "Khan Academy",
+      "primary": true,
+      "how_described": "本集把它作为免费在线学习、并最终「被迫」为老师做课堂仪表盘的先例来讲——Jason 预言 Aristotle 成功后也会走同样的路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 938,
+          "t": [
+            3322.978,
+            3326.439
+          ],
+          "quote": "Well, we've had things like Khan Academy and YouTube videos.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3333.02,
+            3334.32
+          ],
+          "quote": "Khan Academy, obviously free.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4099.188,
+            4108.519
+          ],
+          "quote": "Yeah, and eventually you'll get dragged into making dashboards for teachers and get dragged into the classroom if you're successful at this, which is what happened with Brilliant.org and Khan Academy.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            4116.709,
+            4120.334
+          ],
+          "quote": "And then eventually Khan Academy had these great dashboards.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "brilliant-org",
+      "type": "company",
+      "role": "company",
+      "name": "Brilliant.org",
+      "file": "Brilliant.org",
+      "primary": true,
+      "how_described": "本集说它是 Jason 投资的订阅制学习公司，拥有庞大的订阅用户群，并同样经历了被拉进课堂做仪表盘的过程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 939,
+          "t": [
+            3326.539,
+            3328.919
+          ],
+          "quote": "We're investors in a company called Brilliant.org.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 943,
+          "t": [
+            3334.88,
+            3336.58
+          ],
+          "quote": "Brilliant.org, obviously subscription.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4099.188,
+            4108.519
+          ],
+          "quote": "Yeah, and eventually you'll get dragged into making dashboards for teachers and get dragged into the classroom if you're successful at this, which is what happened with Brilliant.org and Khan Academy.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集围绕《纽约时报》宗教学者与 Anthropic 会面、论证 Claude 拥有灵魂的报道，讨论这是否是监管俘获策略，Jason 称他们在制造「盒子里的神」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 665,
+          "t": [
+            2106.646,
+            2113.211
+          ],
+          "quote": "Did you guys see this religious scholars met with Anthropic story that was in the New York Times the other day?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2118.153,
+            2131.878
+          ],
+          "quote": "In a series of private meetings, Anthropic consulted with various quote about religious scholars, and they wanted to discuss how to instill morality into their AI models and make the case that Claude has a soul.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2137.319,
+            2151.522
+          ],
+          "quote": "At first, I sort of agreed with the, I can't believe I'm saying this, the sort of the David Sachs line that this was just regulatory capture as a strategy and Anthropic, you know, they thought they had control enough of the market and they wanted to shut down new competitors and innovation.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2502.279,
+            2520.92
+          ],
+          "quote": "Predict what's happening at Anthropic or OpenAI with the safety teams and parallel it to the people who built the Manhattan Project and built the bombs because they might have actually had the same regret slash concern slash psychological maladies.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3506.065,
+            3508.927
+          ],
+          "quote": "Cursor felt like Anthropic stole their business, Figma.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在讨论 AI 末日论式宣传的来源与前沿实验室安全团队时顺带提到 OpenAI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 745,
+          "t": [
+            2502.279,
+            2520.92
+          ],
+          "quote": "Predict what's happening at Anthropic or OpenAI with the safety teams and parallel it to the people who built the Manhattan Project and built the bombs because they might have actually had the same regret slash concern slash psychological maladies.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3509.627,
+            3512.93
+          ],
+          "quote": "Claude Design, OpenAI, and many different partners.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 984,
+          "t": [
+            3534.265,
+            3539.551
+          ],
+          "quote": "Including people solving very advanced math problems have had this problem with OpenAI as well.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "ai-tutor",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 导师 (AI tutor)",
+      "file": "AI 导师",
+      "primary": true,
+      "how_described": "本集以 Aristotle 为主线，说 AI 能提供「你所能拥有的最好的导师」，并论述一对一 AI 辅导是最好的学习方式、能规模化 Bloom 两个标准差的提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 783,
+          "t": [
+            2676.66,
+            2680.343
+          ],
+          "quote": "This is a voice AI tutor for high schoolers.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 788,
+          "t": [
+            2687.181,
+            2688.702
+          ],
+          "quote": "We are an AI tutor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            4181.867,
+            4186.609
+          ],
+          "quote": "Truly personal AI tutor and models for AI tutoring help us grow it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "customer-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户发现 (customer discovery)",
+      "file": "客户发现",
+      "primary": true,
+      "how_described": "本集 Jason 建议做技术工具的创业者直接给领域创业公司创始人发邮件约 20 分钟咖啡、用 50-100 美元礼品卡换访谈，强调「不惜一切让自己出现在客户面前」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 545,
+          "t": [
+            1625.579,
+            1635.842
+          ],
+          "quote": "You got to just find the people at these companies who would use the tools and then do what is called customer discovery, where you say, hey, I'm building some tools.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 556,
+          "t": [
+            1678.395,
+            1679.616
+          ],
+          "quote": "So do customer discovery.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 557,
+          "t": [
+            1679.656,
+            1681.817
+          ],
+          "quote": "Go find people who would be the- Customer discovery.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说 Aristotle 把模型作为完整 harness 的组成部分分别做后训练——擅长出数学题、读白板状态、理解学生语音等子问题，因为多模态任务用一个通用模型并不合理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1046,
+          "t": [
+            3864.179,
+            3869.606
+          ],
+          "quote": "So increasingly, we are post-training models as constituents of this full harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            3869.786,
+            3879.379
+          ],
+          "quote": "So post-training models that are amazing at generating math problems, at reading the state of the whiteboard, at understanding students' voices, all of these different constituents are important.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体架构 (multi-agent architecture)",
+      "file": "多智能体架构",
+      "primary": true,
+      "how_described": "本集说因为语言模型不擅长教学，Aristotle 不得不在多智能体架构上做大量工作、观察白板状态，才能把教学体验做好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 965,
+          "t": [
+            3437.009,
+            3442.991
+          ],
+          "quote": "We have to do a lot of work in terms of multi-agent architecture, looking at the status of the whiteboard to do this well.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练数据 (training data)",
+      "file": "训练数据",
+      "primary": true,
+      "how_described": "本集说一对一教学的高质量训练数据全世界根本不存在——连学习科学文献里都没有标准，Aristotle 雇导师团队人工评分数千小时场次来自造，且因涉及 18 岁以下学生数据而严格锁死不卖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1027,
+          "t": [
+            3773.628,
+            3785.473
+          ],
+          "quote": "You have to know where they're at in the context of the session in order to know whether or not the text that preceded that hmm gets a weight positively or negatively in the training data.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1029,
+          "t": [
+            3788.22,
+            3789.722
+          ],
+          "quote": "And so are you making the training data?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "bloom-s-two-sigma-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "布鲁姆两个标准差问题 (Bloom's two-sigma problem)",
+      "file": "布鲁姆两个标准差问题",
+      "primary": true,
+      "how_described": "本集引 Benjamin Bloom 的著名研究：一对一辅导能带来两个标准差的学习提升，但美国每 52 个学生不到 1 个有私人导师，这正是 Aristotle 要规模化解决的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 923,
+          "t": [
+            3254.979,
+            3256.759
+          ],
+          "quote": "There's the famous Bloom's Two Sigma problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3264.362,
+            3266.463
+          ],
+          "quote": "Bloom's two-sigma problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3307.267,
+            3315.913
+          ],
+          "quote": "And the reason why it's framed as Bloom's Two Sigma problem is because less than one out of every 52 students in the US have a personal tutor.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "corporate-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业情报 (corporate intelligence)",
+      "file": "企业情报",
+      "primary": true,
+      "how_described": "本集 Jason 描述了一些不违法的灰色招数：成立中立的「研究机构」付费展示产品拿反馈，称这是企业情报而非企业间谍——不偷文件、不违反保密协议即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            1947.531,
+            1948.951
+          ],
+          "quote": "But there's corporate intelligence.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 618,
+          "t": [
+            1949.071,
+            1958.095
+          ],
+          "quote": "And if you start looking at corporate intelligence, and you can just go into any LLM and say, what are corporate intelligence techniques I can use that are not illegal, but that are darn clever?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "open source model",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

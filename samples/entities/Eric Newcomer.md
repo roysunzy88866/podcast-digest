@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":57,"Hugging Face":29,"开源":36,"蒸馏":1,"推理":78,"新云":3,"前沿模型":24,"垂直 AI":2,"智能体":417}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":57,"Hugging Face":29,"开源":36,"蒸馏":1,"推理":80,"新云":3,"前沿模型":25,"垂直 AI":2,"智能体":419}</script>
 
 <script>
 (function(){

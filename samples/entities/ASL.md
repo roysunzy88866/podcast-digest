@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Benjamin Mann]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[宪法 AI]] · [[智能体]] · [[缩放定律]] · [[对齐]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Benjamin Mann":1,"Anthropic":177,"OpenAI":165,"Claude":90,"Claude Code":95,"宪法 AI":2,"智能体":417,"缩放定律":12,"对齐":17}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Benjamin Mann":1,"Anthropic":179,"OpenAI":167,"Claude":90,"Claude Code":95,"宪法 AI":2,"智能体":419,"缩放定律":12,"对齐":17}</script>
 
 <script>
 (function(){

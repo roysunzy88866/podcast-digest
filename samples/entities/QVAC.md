@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paolo Ardoino]] · [[Tether]] · [[推理]] · [[微调]] · [[BitNet]] · [[LoRa]] · [[数据中心]] · [[去中介化]] · [[智能体]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"推理":78,"微调":30,"BitNet":1,"LoRa":1,"数据中心":21,"去中介化":2,"智能体":417,"GPU":22}</script>
+<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"推理":80,"微调":30,"BitNet":1,"LoRa":1,"数据中心":22,"去中介化":2,"智能体":419,"GPU":22}</script>
 
 <script>
 (function(){

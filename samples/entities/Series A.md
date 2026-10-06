@@ -35,7 +35,7 @@ unlisted: true
 
 [[产品市场契合]] · [[Astro Teller]] · [[Harry Stebbings]] · [[AJ Loiacono]] · [[X]] · [[Matt Murphy]] · [[Judy Health]] · [[Alphabet]] · [[Anthropic]] · [[Capital RX]]
 
-<script type="application/json" class="pd-epn">{"产品市场契合":27,"Astro Teller":1,"Harry Stebbings":20,"AJ Loiacono":1,"X":3,"Matt Murphy":2,"Judy Health":1,"Alphabet":1,"Anthropic":177,"Capital RX":1}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":27,"Astro Teller":1,"Harry Stebbings":20,"AJ Loiacono":1,"X":3,"Matt Murphy":2,"Judy Health":1,"Alphabet":1,"Anthropic":179,"Capital RX":1}</script>
 
 <script>
 (function(){

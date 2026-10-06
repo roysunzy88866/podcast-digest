@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Ian]] · [[Reid Hoffman]] · [[Tonic AI]] · [[对齐]] · [[Textual]] · [[递归自我改进]] · [[Fabricate]] · [[AI 原生公司]] · [[强化学习]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"Ian":1,"Reid Hoffman":1,"Tonic AI":1,"对齐":17,"Textual":1,"递归自我改进":8,"Fabricate":1,"AI 原生公司":1,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"Ian":1,"Reid Hoffman":1,"Tonic AI":1,"对齐":17,"Textual":1,"递归自我改进":8,"Fabricate":1,"AI 原生公司":1,"强化学习":1}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Chase Lochmiller]] [[Jason Kelligan]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Young]] [[Nikhil]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":177,"风险投资":1,"IRR":1,"DPI":1,"股权占比":3,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
+<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":179,"风险投资":1,"IRR":1,"DPI":1,"股权占比":3,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
 
 <script>
 (function(){

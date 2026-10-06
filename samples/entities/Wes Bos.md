@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":4,"vibe coding":45,"智能体":417,"迭代循环":1,"LLM":55,"本地模型":3,"个人品牌":1,"简报":2,"上下文":26,"Cursor":80}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":4,"vibe coding":45,"智能体":419,"迭代循环":1,"LLM":56,"本地模型":3,"个人品牌":1,"简报":2,"上下文":26,"Cursor":80}</script>
 
 <script>
 (function(){

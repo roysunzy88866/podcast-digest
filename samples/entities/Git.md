@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[MCP]] · [[技能]] · [[记忆]] · [[Codex]] · [[OpenClaw]] · [[GrokBot]] · [[Tyler Folkman]] · [[Kay Malcolm]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"Claude":90,"MCP":78,"技能":29,"记忆":22,"Codex":80,"OpenClaw":21,"GrokBot":8,"Tyler Folkman":1,"Kay Malcolm":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"Claude":90,"MCP":78,"技能":29,"记忆":22,"Codex":80,"OpenClaw":22,"GrokBot":8,"Tyler Folkman":1,"Kay Malcolm":1}</script>
 
 <script>
 (function(){

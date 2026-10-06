@@ -205,7 +205,7 @@ jsonLd: |
 
 - [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
 - [[2026-08-28-talks-building-the-engine-while-flying-the-pla|Figma 第一个 MCP server 是怎么三个月做出来的]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
-- [[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时]]<span class="pd-rz">同概念:智能体 (agent)、MCP server、开源 (open source)</span>
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|把 AI 智能体塞进树莓派:给它装上图数据库记忆]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Patrick O'Shaughnessy]] · [[Eric Vishria]] · [[Fireworks]] · [[Sierra]] · [[AWS]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[AI 能力的锯齿状边缘]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Eric Vishria":1,"Fireworks":7,"Sierra":7,"AWS":19,"Cursor":80,"NVIDIA":57,"推理":78,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Eric Vishria":1,"Fireworks":7,"Sierra":7,"AWS":20,"Cursor":80,"NVIDIA":57,"推理":80,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

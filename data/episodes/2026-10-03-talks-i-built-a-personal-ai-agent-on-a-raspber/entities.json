@@ -1,0 +1,687 @@
+{
+  "episode_id": "2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "智能体记忆",
+    "图数据库",
+    "硬件 DIY",
+    "边缘设备",
+    "现场演示"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeremy-adams",
+      "type": "person",
+      "role": "guest",
+      "name": "Jeremy Adams",
+      "file": "Jeremy Adams",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.793,
+            25.413
+          ],
+          "quote": "But I am Jeremy Adams.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "concept",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": true,
+      "how_described": "本集嘉宾所在的公司,做图和图数据库;演讲里云端与树莓派本地都跑着 Neo4j 数据库来存储记忆图谱,还提供智能体记忆服务(agent memory service)把全部 WhatsApp 消息蒸馏成记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.553,
+            27.034
+          ],
+          "quote": "I'm from Neo4j.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            348.793,
+            358.375
+          ],
+          "quote": "And just to give you a flavor, this one has NanoClaw, but it also has Docker on here, and I'm running Neo4j on here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            358.395,
+            361.036
+          ],
+          "quote": "I've got a little Docker-based Neo4j database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            574.415,
+            578.638
+          ],
+          "quote": "I've got also in the cloud, I also have Neo4j.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            579.098,
+            580.92
+          ],
+          "quote": "I've got Neo4j database up there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            616.162,
+            623.967
+          ],
+          "quote": "And it went through there with an MCP server connecting into my Neo4j instance with the movie database in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            702.303,
+            705.525
+          ],
+          "quote": "And so now I have this thing where I've got Neo4j in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            720.394,
+            725.497
+          ],
+          "quote": "And this is what ends up being in Neo4j, memory nodes that show, like, places I was going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            741.29,
+            743.813
+          ],
+          "quote": "And over here, I've got Neo4j Aura.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            938.543,
+            940.665
+          ],
+          "quote": "I put Neo4j running on here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            974.916,
+            983.598
+          ],
+          "quote": "So this is like a little program I wrote to talk to Neo4j databases without a very expensive GUI and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1007.45,
+            1013.735
+          ],
+          "quote": "And I took that data and then I uploaded it later up into Neo4j in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1020.916,
+            1027.204
+          ],
+          "quote": "And so if we look at this, let's see if I can just move back into Neo4j for a second.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1124.131,
+            1126.913
+          ],
+          "quote": "And sure enough, I use this Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线就是个人 AI 智能体:一个挂在胸口的树莓派上跑着的智能体,通过 WhatsApp 对话、调用云端 Claude、记录并查询记忆,『脑子在云端,身体在你身上』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            40.721,
+            50.687
+          ],
+          "quote": "Who here has done something with OpenClaw or Hermes Agent or any of your kind of claw of choice?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            93.486,
+            103.129
+          ],
+          "quote": "So what I'm going to do in this talk today is talk about this agent memory project that I did that involves a bit of hardware that you can see on my chest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            109.61,
+            113.273
+          ],
+          "quote": "Some software for agent memory and how that all went.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            498.689,
+            503.995
+          ],
+          "quote": "It just used Docker containers to run the agent processes so they couldn't run amok on the system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            515.522,
+            518.684
+          ],
+          "quote": "It was based on Claude Agent SDK, NanoClaude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            637.235,
+            646.161
+          ],
+          "quote": "And those all came right out of pulling data from the database, feeding it back up through the Claude Agent SDK, forming a response, and sending it back through the WhatsApp channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1100.458,
+            1110.761
+          ],
+          "quote": "The thing I will point out for folks that are interested in talking more, I did subsequently upgrade the agent memory that I have using the agent memory service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1124.131,
+            1126.913
+          ],
+          "quote": "And sure enough, I use this Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agent memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集称其为这个副业项目的核心:用 Neo4j 图数据库把人物、地点、事件等组织成记忆节点,后来又用 Neo4j 的智能体记忆服务把全部聊天记录蒸馏成可经 MCP 服务器访问的记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            93.486,
+            103.129
+          ],
+          "quote": "So what I'm going to do in this talk today is talk about this agent memory project that I did that involves a bit of hardware that you can see on my chest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            109.61,
+            113.273
+          ],
+          "quote": "Some software for agent memory and how that all went.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1100.458,
+            1110.761
+          ],
+          "quote": "The thing I will point out for folks that are interested in talking more, I did subsequently upgrade the agent memory that I have using the agent memory service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1124.131,
+            1126.913
+          ],
+          "quote": "And sure enough, I use this Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nanoclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "NanoClaw",
+      "file": "NanoClaw",
+      "primary": true,
+      "how_described": "本集说这是嘉宾选中的开源智能体框架:只有约 15 个源文件、代码紧凑,用 Docker 容器跑智能体进程使其无法在系统里横冲直撞,基于 Claude Agent SDK。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            348.793,
+            358.375
+          ],
+          "quote": "And just to give you a flavor, this one has NanoClaw, but it also has Docker on here, and I'm running Neo4j on here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            483.434,
+            487.438
+          ],
+          "quote": "And then in addition, I used NanoClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            536.536,
+            544.724
+          ],
+          "quote": "To go from my iPhone or my MacBook, WhatsApp, you know, and then go through and talk to Nanoclaw on this Raspberry Pi.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            547.207,
+            549.449
+          ],
+          "quote": "You go on the Nanoclaw and you get it to register.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "raspberry-pi",
+      "type": "concept",
+      "role": "concept",
+      "name": "Raspberry Pi",
+      "file": "Raspberry Pi",
+      "primary": true,
+      "how_described": "本集展示的硬件主体:一台 Raspberry Pi 4B 旧板子,上面跑 Docker、NanoClaw 和本地 Neo4j,但不做任何 LLM 推理,所有模型调用走云端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            290.41,
+            291.691
+          ],
+          "quote": "OK, Raspberry Pi desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            292.851,
+            298.154
+          ],
+          "quote": "So this is a Raspberry Pi 4B, not the latest model, OK?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            420.679,
+            434.712
+          ],
+          "quote": "So then I reached back, and this is, I did, I think it's pandemic, or at the end of the pandemic, I did something where I was hacking with this very Raspberry Pi, doing something like measuring the weight of the dishes in your sink to tell you you should wash the dishes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            536.536,
+            544.724
+          ],
+          "quote": "To go from my iPhone or my MacBook, WhatsApp, you know, and then go through and talk to Nanoclaw on this Raspberry Pi.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": true,
+      "how_described": "本集把 MCP 服务器用作让智能体调用外部工具/数据的标准接口:智能体通过它连进 Neo4j 实例查电影数据,最后的记忆也可通过 MCP 服务器从设备直接访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            616.162,
+            623.967
+          ],
+          "quote": "And it went through there with an MCP server connecting into my Neo4j instance with the movie database in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1157.815,
+            1169.346
+          ],
+          "quote": "So these are all the things that I've been doing, talking about with my claw, and they're all distilled out into memories that are now accessible via an MCP server from this very claw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": true,
+      "how_described": "本集说 NanoClaw 用 Docker 容器来运行智能体进程,使它们没法在系统里横冲直撞;树莓派上还跑着一个基于 Docker 的小型 Neo4j 数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            348.793,
+            358.375
+          ],
+          "quote": "And just to give you a flavor, this one has NanoClaw, but it also has Docker on here, and I'm running Neo4j on here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            358.395,
+            361.036
+          ],
+          "quote": "I've got a little Docker-based Neo4j database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            498.689,
+            503.995
+          ],
+          "quote": "It just used Docker containers to run the agent processes so they couldn't run amok on the system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            512.74,
+            514.481
+          ],
+          "quote": "It's got Docker, I understand.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-agent-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Agent SDK",
+      "file": "Claude Agent SDK",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            515.522,
+            518.684
+          ],
+          "quote": "It was based on Claude Agent SDK, NanoClaude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            637.235,
+            646.161
+          ],
+          "quote": "And those all came right out of pulling data from the database, feeding it back up through the Claude Agent SDK, forming a response, and sending it back through the WhatsApp channel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集强调树莓派上没有任何 LLM 推理发生——所有模型调用全走云端,『大脑袋通过一根线连到云端』,这是弱硬件能跑真智能体的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            559.72,
+            563.104
+          ],
+          "quote": "There's no inference, no LLM inference happening on this thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集提到但未选用:嘉宾看到 Craigslist 上预装 OpenClaw 的 Mac Mini 觉得『预装』是危险信号,最终选了更符合口味的 NanoClaw。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            40.721,
+            50.687
+          ],
+          "quote": "Who here has done something with OpenClaw or Hermes Agent or any of your kind of claw of choice?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            403.835,
+            407.396
+          ],
+          "quote": "Somebody is selling a Mac Mini with OpenClaw pre-installed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            487.678,
+            489.08
+          ],
+          "quote": "So I didn't use OpenClaw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "type": "concept",
+      "role": "concept",
+      "name": "WhatsApp",
+      "file": "WhatsApp",
+      "primary": false,
+      "how_described": "本集选作智能体的消息通道,因为手机上本来就有;飞机上不买 Wi-Fi 也能用它的消息功能,由此触发搭建记忆系统的想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            529.931,
+            532.752
+          ],
+          "quote": "But I was like, well, I had WhatsApp on my phone, so I'll just use WhatsApp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            536.536,
+            544.724
+          ],
+          "quote": "To go from my iPhone or my MacBook, WhatsApp, you know, and then go through and talk to Nanoclaw on this Raspberry Pi.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            549.489,
+            551.271
+          ],
+          "quote": "So now, you know, WhatsApp's in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            605.735,
+            613.04
+          ],
+          "quote": "So I asked in a WhatsApp message once I had this database full of movies and I had my Claude connected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            637.235,
+            646.161
+          ],
+          "quote": "And those all came right out of pulling data from the database, feeding it back up through the Claude Agent SDK, forming a response, and sending it back through the WhatsApp channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            649.743,
+            657.326
+          ],
+          "quote": "And I'm on the airplane, and I found that even without paying for Wi-Fi, I could use the messaging stuff, and WhatsApp was working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1110.821,
+            1115.222
+          ],
+          "quote": "Basically, I wanted to load all of the WhatsApp messages that I ever had.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "offline-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "离线模式 (offline mode)",
+      "file": "离线模式",
+      "primary": false,
+      "how_described": "本集说因为会议 Wi-Fi 通常很糟糕,他把 Neo4j 跑在树莓派本地:离线时用正则从语音转文字解析展位号写入本地库,联网后再上传云端做丰富化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            56.81,
+            64.654
+          ],
+          "quote": "How about things that are more like edge devices, hardware, thinking about like, you know, offline mode kind of stuff?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            935.201,
+            936.722
+          ],
+          "quote": "So I need an offline mode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "graph database",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "POLE+O",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

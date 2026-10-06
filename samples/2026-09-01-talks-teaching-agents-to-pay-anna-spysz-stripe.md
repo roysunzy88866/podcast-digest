@@ -105,7 +105,7 @@ jsonLd: |
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同公司:Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|机器人流量已超人类：当 AI 智能体开始自己付钱]]<span class="pd-rz">同公司:Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|会自己造工具的智能体:AWS 元工具化实战]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、系统提示词 (system prompt)</span>
 
 </div>
 <div class="pd-ex">

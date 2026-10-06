@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"go-to-market":14,"OpenAI":165,"ChatGPT Enterprise":1,"Anthropic":177,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
+<script type="application/json" class="pd-epn">{"go-to-market":14,"OpenAI":167,"ChatGPT Enterprise":1,"Anthropic":179,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
 
 <script>
 (function(){

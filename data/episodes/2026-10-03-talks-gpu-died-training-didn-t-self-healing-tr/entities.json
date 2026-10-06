@@ -1,0 +1,973 @@
+{
+  "episode_id": "2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 基础设施",
+    "GPU 集群",
+    "故障自愈",
+    "Kubernetes",
+    "训练调度"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "young",
+      "type": "person",
+      "role": "host",
+      "name": "Young",
+      "file": "Young",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.931,
+            19.173
+          ],
+          "quote": "I'm a developer advocate at Crusoe, and I'm joined by my colleagues Nikhil and Young.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            352.945,
+            353.385
+          ],
+          "quote": "Thanks, Young.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nikhil",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nikhil",
+      "file": "Nikhil",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.931,
+            19.173
+          ],
+          "quote": "I'm a developer advocate at Crusoe, and I'm joined by my colleagues Nikhil and Young.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            334.532,
+            343.737
+          ],
+          "quote": "So all of this kind of encompasses the reason why we built this product that Nikhil is going to go over and sort of describe some of the specifics around Manusler.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            927.734,
+            943.282
+          ],
+          "quote": "And then lastly, like Nikhil mentioned, the GPU nodes are Kubernetes nodes first, and that means that Slurm is just a workload running on top, and when a Slurm job finishes, those GPU nodes don't have to sit idle waiting for another job.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "connor",
+      "type": "person",
+      "role": "cohost",
+      "name": "Connor",
+      "file": "Connor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.271,
+            14.911
+          ],
+          "quote": "My name's Connor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            133.35,
+            133.931
+          ],
+          "quote": "Thanks, Connor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            592.558,
+            597.9
+          ],
+          "quote": "So Connor is going to walk through that and show a demo of how that works.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "crusoe",
+      "type": "company",
+      "role": "company",
+      "name": "Crusoe",
+      "file": "Crusoe",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司,提供基础设施即服务(计算、存储、网络及 NVIDIA/AMD 最新一代 GPU),并在此之上构建了管理大规模 GPU 集群的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.931,
+            19.173
+          ],
+          "quote": "I'm a developer advocate at Crusoe, and I'm joined by my colleagues Nikhil and Young.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            19.913,
+            26.517
+          ],
+          "quote": "And we're going to be talking today about the infrastructure we've built at Crusoe and how it handles critical hardware errors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            59.029,
+            72.734
+          ],
+          "quote": "So to provide a little bit more context on what Crusoe Cloud is, for those of you who haven't heard of us, we provide infrastructure as a service consisting of compute, storage, networking, and the latest-gen GPUs from NVIDIA and AMD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            353.945,
+            358.327
+          ],
+          "quote": "So yeah, I'm going to be talking about our Crusoe Manage Slurm product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            454.024,
+            459.447
+          ],
+          "quote": "So we decided to build out our Crusoe Managed Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            460.728,
+            471.112
+          ],
+          "quote": "So we have our Crusoe Slurm operator, which coordinates with our Crusoe managed Kubernetes platform and the broader Crusoe Cloud, so including storage, networking, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            702.68,
+            708.761
+          ],
+          "quote": "On the right is the Crusoe Cloud Console where I have a GPU node pool of two A100 nodes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "slurm",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slurm",
+      "file": "Slurm",
+      "primary": true,
+      "how_described": "本集说它是 20 多年前为高校高性能计算打造的作业调度系统,擅长 gang scheduling、拓扑感知等训练所需特性,但静态、运维负担重、可观测性差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            40.202,
+            56.367
+          ],
+          "quote": "And so what we'll cover today is how by using both Slurm and Kubernetes, we can provide a robust platform with automated remediation that maintains ease of use for both machine learning engineers running jobs and the platform teams managing the underlying clusters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            85.958,
+            96.502
+          ],
+          "quote": "And our managed Slurm service, which is built on top of CMK and built off of Slinky, which is SkedMD's official open source project for running Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            97.262,
+            105.865
+          ],
+          "quote": "And this allows us to get the high performance job scheduling of Slurm with the infrastructure resilience features and observability of Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            118.686,
+            128.933
+          ],
+          "quote": "And so to explain how and why we landed on this architecture, it's helpful to understand where traditional Slurm both excels and falls short, which Jung will get into now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            144.381,
+            147.604
+          ],
+          "quote": "But basically, traditionally, Slurm was built...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            149.209,
+            167.066
+          ],
+          "quote": "SLURM was built by the researchers for the researchers, universities, labs over 20 years ago, built for high-performance computing, which, as we've observed with our customers and others that are using SLURM today, translates very well to modern AI, specifically around training workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            192.965,
+            209.652
+          ],
+          "quote": "These are all the features that are readily available with Slurm today that helps researchers run their jobs, essentially running their jobs with tools that are already familiar to them, scripts, sbatch, srun commands, the things that are pretty standard in your Slurm cluster today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            227.744,
+            241.748
+          ],
+          "quote": "There's a lot of other aspects that your AI labs and other companies are running as part of your AI workloads, including training, post-training, eval, inferences, some of which may or may not even land on your SLURM cluster today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            254.054,
+            259.838
+          ],
+          "quote": "Slurm traditionally is pretty static and it's partitioning and other functionalities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            324.704,
+            326.265
+          ],
+          "quote": "Slurm knows when a job fails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            353.945,
+            358.327
+          ],
+          "quote": "So yeah, I'm going to be talking about our Crusoe Manage Slurm product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            359.128,
+            372.435
+          ],
+          "quote": "And like we mentioned before, there's a lot of benefits that Slurm can bring to the training teams and researchers that are building the next best models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            372.535,
+            378.518
+          ],
+          "quote": "But there are some issues with setting up Slurm, managing it, keeping it reliable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            417.526,
+            423.969
+          ],
+          "quote": "And so maybe a Kubernetes familiar team struggles with deploying and managing a Slurm cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            425.25,
+            435.275
+          ],
+          "quote": "Or the incoming Slurm native training team is unfamiliar with the existing Kubernetes frameworks and adds additional friction that just slows down your team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            454.024,
+            459.447
+          ],
+          "quote": "So we decided to build out our Crusoe Managed Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            460.728,
+            471.112
+          ],
+          "quote": "So we have our Crusoe Slurm operator, which coordinates with our Crusoe managed Kubernetes platform and the broader Crusoe Cloud, so including storage, networking, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            472.012,
+            479.275
+          ],
+          "quote": "And CSO manages Slurm users, Slurm partitions, configurations, and storage, so you don't have to do it piecemeal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            479.655,
+            485.438
+          ],
+          "quote": "You just, you know, one command, you create your Slurm cluster, and there it is existing in your Kubernetes cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            486.258,
+            491.042
+          ],
+          "quote": "So the benefit is, for the Slurm users, it's just another Slurm cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            496.006,
+            499.629
+          ],
+          "quote": "And now to them, it's a Slurm cluster with all the bells and whistles that they need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            502.992,
+            510.599
+          ],
+          "quote": "For your platform team and your infrastructure team, the benefit is Slurm is now just another service that plugs into your existing infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            524.723,
+            531.709
+          ],
+          "quote": "And resources in Slurm, so any jobs, make use of the built-in topology-aware scheduling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            574.802,
+            581.943
+          ],
+          "quote": "This is something that's only possible when you have everything in a single infrastructure stack, like Krusa Managed Slurm.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            583.295,
+            592.058
+          ],
+          "quote": "An additional benefit is now Crucible Managed Slurm can make use of our AutoClusters product, which is our auto remediation for additional hardware errors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            621.827,
+            627.332
+          ],
+          "quote": "Then the slurm operator sets that specific node to down and cancels any running jobs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            677.734,
+            687.881
+          ],
+          "quote": "And then once that healthy node comes back online, then the slurm job starts, your application code runs to load your model and load your checkpoint and resume training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            770.65,
+            772.031
+          ],
+          "quote": "The slurm job will restart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            798.444,
+            805.092
+          ],
+          "quote": "Now historically, creating this type of environment has been challenging to merge both Slurm and Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            805.652,
+            816.004
+          ],
+          "quote": "And so we're really excited to announce what we call one-click Slurm, where everything that we've talked about in this presentation, this entire environment can be provisioned with just a single command.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            817.315,
+            825.221
+          ],
+          "quote": "And so this one command includes provisioning the underlying Kubernetes cluster, the Slurm controller, login nodes, and storage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            842.184,
+            854.096
+          ],
+          "quote": "So wrapping up, what we covered, starting with the limitations of traditional Slurm, it gives you the high performance job scheduling, but not the automated healing that modern AI infrastructure requires.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            854.917,
+            864.226
+          ],
+          "quote": "And so by building Slurm on top of Kubernetes, we can enable these advanced features without having either team change their workflows.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            865.218,
+            873.282
+          ],
+          "quote": "Then we covered the full node remediation flow from an error being detected to the Slurm job resuming and the training resuming.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            874.703,
+            885.108
+          ],
+          "quote": "And so the key takeaways here, first is that traditionally Slurm and the infrastructure that it runs on are two separate systems, but together with Kubernetes,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            886.592,
+            897.15
+          ],
+          "quote": "Both systems stay in sync, and so a failed GPU node can get cordoned automatically, and that signal will propagate directly to the Slurm operator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            906.89,
+            916.898
+          ],
+          "quote": "Researchers can still use the same commands to launch Slurm, and although Kubernetes is running underneath, researchers never have to SSH into a pod or worry about containers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            927.734,
+            943.282
+          ],
+          "quote": "And then lastly, like Nikhil mentioned, the GPU nodes are Kubernetes nodes first, and that means that Slurm is just a workload running on top, and when a Slurm job finishes, those GPU nodes don't have to sit idle waiting for another job.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集称其为「云的操作系统」,拥有自愈、负载均衡、自动扩缩容等成熟生态;Crusoe 把 Slurm 建在它之上,兼得两者的长处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            40.202,
+            56.367
+          ],
+          "quote": "And so what we'll cover today is how by using both Slurm and Kubernetes, we can provide a robust platform with automated remediation that maintains ease of use for both machine learning engineers running jobs and the platform teams managing the underlying clusters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            73.354,
+            84.978
+          ],
+          "quote": "But the focus of this talk will be on the tooling that we've built on top of that to orchestrate these large fleets of GPUs, including our managed Kubernetes service called CMK,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            85.958,
+            96.502
+          ],
+          "quote": "And our managed Slurm service, which is built on top of CMK and built off of Slinky, which is SkedMD's official open source project for running Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            97.262,
+            105.865
+          ],
+          "quote": "And this allows us to get the high performance job scheduling of Slurm with the infrastructure resilience features and observability of Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            379.598,
+            383.082
+          ],
+          "quote": "And on the other hand, you have Kubernetes, which is the OS of the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            405.581,
+            415.125
+          ],
+          "quote": "And so we often see that customers will come with us starting with, say, inference running on Kubernetes, and then they want to expand to training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            417.526,
+            423.969
+          ],
+          "quote": "And so maybe a Kubernetes familiar team struggles with deploying and managing a Slurm cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            425.25,
+            435.275
+          ],
+          "quote": "Or the incoming Slurm native training team is unfamiliar with the existing Kubernetes frameworks and adds additional friction that just slows down your team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            454.024,
+            459.447
+          ],
+          "quote": "So we decided to build out our Crusoe Managed Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            460.728,
+            471.112
+          ],
+          "quote": "So we have our Crusoe Slurm operator, which coordinates with our Crusoe managed Kubernetes platform and the broader Crusoe Cloud, so including storage, networking, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            479.655,
+            485.438
+          ],
+          "quote": "You just, you know, one command, you create your Slurm cluster, and there it is existing in your Kubernetes cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            499.709,
+            502.231
+          ],
+          "quote": "They don't even need to know that Kubernetes is running underneath.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            656.401,
+            661.483
+          ],
+          "quote": "Assuming that node can be replaced, the Kubernetes node is then cordoned and drained.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            798.444,
+            805.092
+          ],
+          "quote": "Now historically, creating this type of environment has been challenging to merge both Slurm and Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            817.315,
+            825.221
+          ],
+          "quote": "And so this one command includes provisioning the underlying Kubernetes cluster, the Slurm controller, login nodes, and storage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            854.917,
+            864.226
+          ],
+          "quote": "And so by building Slurm on top of Kubernetes, we can enable these advanced features without having either team change their workflows.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            874.703,
+            885.108
+          ],
+          "quote": "And so the key takeaways here, first is that traditionally Slurm and the infrastructure that it runs on are two separate systems, but together with Kubernetes,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            906.89,
+            916.898
+          ],
+          "quote": "Researchers can still use the same commands to launch Slurm, and although Kubernetes is running underneath, researchers never have to SSH into a pod or worry about containers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            917.739,
+            926.046
+          ],
+          "quote": "But the Kubernetes teams still get access to the same level of telemetry and observability that they're used to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            927.734,
+            943.282
+          ],
+          "quote": "And then lastly, like Nikhil mentioned, the GPU nodes are Kubernetes nodes first, and that means that Slurm is just a workload running on top, and when a Slurm job finishes, those GPU nodes don't have to sit idle waiting for another job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            944.062,
+            952.467
+          ],
+          "quote": "You can schedule inference pods on those immediately through Kubernetes, because from the platform's perspective, they're still just nodes in a pool.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autoclusters",
+      "type": "concept",
+      "role": "concept",
+      "name": "AutoClusters",
+      "file": "AutoClusters",
+      "primary": true,
+      "how_described": "本集介绍它是 Crusoe 的自动修复系统:检测到 XID79 等 GPU 硬件错误后自动 cordon/drain 坏节点、换上健康节点,五分钟内完成节点替换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            107.078,
+            117.745
+          ],
+          "quote": "Including one of the systems we've developed called AutoClusters, which is our system for automatically detecting and replacing failed GPU nodes when a GPU failure has been detected.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            583.295,
+            592.058
+          ],
+          "quote": "An additional benefit is now Crucible Managed Slurm can make use of our AutoClusters product, which is our auto remediation for additional hardware errors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            603.295,
+            614.743
+          ],
+          "quote": "So this is an overview of what exactly happens when AutoClusters detects a critical hardware error, in this case an XID79 error, where one of the GPUs is completely unusable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            831.246,
+            838.712
+          ],
+          "quote": "And so this means that engineers can simply SSH in and start running jobs immediately, and AutoClusters is enabled by default.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crusoe-managed-slurm",
+      "type": "concept",
+      "role": "concept",
+      "name": "Crusoe Managed Slurm",
+      "file": "Crusoe Managed Slurm",
+      "primary": true,
+      "how_described": "本集说它是构建在 Kubernetes 之上的托管 Slurm 服务,由 Slurm operator(CSO)统一管理用户、分区、配置和存储,让训练团队和平台团队都无需改变工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            454.024,
+            459.447
+          ],
+          "quote": "So we decided to build out our Crusoe Managed Slurm on top of Kubernetes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu-failure",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU 故障 (GPU failure)",
+      "file": "GPU 故障",
+      "primary": true,
+      "how_described": "本集反复强调数千卡规模下 GPU 故障不可避免,手动修复不可持续,应以自动化架构让故障自主恢复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            107.078,
+            117.745
+          ],
+          "quote": "Including one of the systems we've developed called AutoClusters, which is our system for automatically detecting and replacing failed GPU nodes when a GPU failure has been detected.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            314.796,
+            316.497
+          ],
+          "quote": "I mean, GPU failure is just one of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-node-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "多节点训练 (multi-node training)",
+      "file": "多节点训练",
+      "primary": true,
+      "how_described": "本集说多节点训练需要在各 rank 之间做紧密的集合通信,这是 Slurm 的 gang scheduling、拓扑感知等特性适用的核心场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            167.767,
+            183.749
+          ],
+          "quote": "This idea that when you're running a multi-node training job, you need this idea of tight collective communication across the ranks that you're using, including specific network built for training workloads today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说现代 AI 负载不只训练,还有推理;推理高峰时可从训练集群抽硬件过去,Slurm 作业结束后 GPU 也可立刻调度推理 pod。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            405.581,
+            415.125
+          ],
+          "quote": "And so we often see that customers will come with us starting with, say, inference running on Kubernetes, and then they want to expand to training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            542.052,
+            555.338
+          ],
+          "quote": "It enables more interesting tooling and dynamic availability, like when you need to burst your inference service when you're reaching high users, high number of users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            555.838,
+            562.639
+          ],
+          "quote": "You can take away some of your, or even reallocate some of your hardware from your training cluster to your inference service, or vice versa.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            944.062,
+            952.467
+          ],
+          "quote": "You can schedule inference pods on those immediately through Kubernetes, because from the platform's perspective, they're still just nodes in a pool.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "checkpoint",
+      "type": "concept",
+      "role": "concept",
+      "name": "checkpoint",
+      "file": "checkpoint",
+      "primary": true,
+      "how_described": "本集说进程被终止前收到 sigterm 有两分钟宽限期保存 checkpoint,节点替换后作业自动重新排队、加载 checkpoint 从断点恢复训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            677.734,
+            687.881
+          ],
+          "quote": "And then once that healthy node comes back online, then the slurm job starts, your application code runs to load your model and load your checkpoint and resume training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            772.291,
+            775.575
+          ],
+          "quote": "It'll load the checkpoint and continue training where it left off.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gang-scheduling",
+      "type": "concept",
+      "role": "concept",
+      "name": "gang scheduling",
+      "file": "gang scheduling",
+      "primary": false,
+      "how_described": "本集提到它是 Slurm 现成的特性:把一组节点同时腾出来再一起开跑,契合训练的集合通信需求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            185.362,
+            192.285
+          ],
+          "quote": "Concepts like gang scheduling, topology awareness, prologue and epilogue for cluster validations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

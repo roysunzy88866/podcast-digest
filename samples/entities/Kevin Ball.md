@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Kubernetes]] · [[Emily Hsu]] · [[Yorg Shad]] · [[Andrew Barba]] · [[Scale.ai]] · [[Pinecone]] · [[Shar Dara]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"MCP":78,"Kubernetes":15,"Emily Hsu":1,"Yorg Shad":1,"Andrew Barba":1,"Scale.ai":2,"Pinecone":3,"Shar Dara":1,"Google":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"MCP":78,"Kubernetes":16,"Emily Hsu":1,"Yorg Shad":1,"Andrew Barba":1,"Scale.ai":2,"Pinecone":3,"Shar Dara":1,"Google":60}</script>
 
 <script>
 (function(){

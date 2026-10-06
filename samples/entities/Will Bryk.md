@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":80,"HubSpot":9,"Google":60,"ChatGPT":98,"智能体":417,"搜索":1,"嵌入模型":4,"搜索 API":1,"LLM":55}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":80,"HubSpot":9,"Google":60,"ChatGPT":98,"智能体":419,"搜索":1,"嵌入模型":4,"搜索 API":1,"LLM":56}</script>
 
 <script>
 (function(){

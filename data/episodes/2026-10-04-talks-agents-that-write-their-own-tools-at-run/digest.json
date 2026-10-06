@@ -1,0 +1,142 @@
+{
+  "title_zh": "会自己造工具的智能体:AWS 元工具化实战",
+  "tldr": "AWS 工程师 Sandy 演示 StrandsAgents 框架如何让智能体在运行时自己编写工具、生成子智能体，甚至修复自身代码。",
+  "digest_md": "一个智能体在生产环境里跑着，突然遇到一个没被编程覆盖的场景——订国内机票的应用，用户却要订印度飞香港。按老办法，你得把它停下来、自己修、再重启，来回两周。这一集的讲者 Sandy（AWS 工程师）展示的是另一条路：智能体自己发现问题、自己写工具、自己修复自己。他现场演示了一个“空”智能体——只有 system prompt，三个工具文件全是空的，严格来说什么能力都没有——你让它算个复杂数学方程，它当场写出一个数学计算器工具，然后在**不重启**的情况下立刻调用它给你答案；再让它数一个单词里的字符数，它又当场造出一个字符计数器。\n\n这套思路 Sandy 称为 MetaTooling（元工具化），底层是 AWS 开源并维护的智能体框架 StrandsAgents。它的卖点是“框架与模型解耦”：明天出了新的最先进 LLM，你不用重写 system prompt、不用改架构，换个模型就行，可以拿同一套架构直接试验不同模型的表现。构建元工具化智能体只需要三样东西：\n\n**三种工具 + 一份 system prompt**。Editor 让智能体能写文件；shell 让它看到自己在哪、代码库在哪；load 工具让它在运行时从目录动态加载刚生成的工具——这个功能最初只是个配置开关（`load_tools_from_directory=True`），后来团队干脆把它也做成了一个工具。而 system prompt 的职责是教会智能体“一个好工具长什么样”：用 `@add_tool` 装饰器（一种标记函数身份的语法）声明工具、工具规范怎么写、写到哪个目录，并且**先检查工具是否已存在，不存在才写新的**，避免重复造轮子。全部接起来就一行代码：system prompt 加三个工具。你说“给你自己创建五个随机工具”，它就真的创建五个并开始使用。\n\n**它还能写出自己的智能体。** Sandy 介绍三种智能体协作模式：Swarm（多个子智能体并行分工协作）、graph（一个子智能体的输出交接给下一个）、workflow（以上组合，并行子智能体互相调用、形成节点和图）。这些结构同样可以由智能体自己创建。演示里他只说了一句“帮我规划去夏威夷的行程”——没提任何“去创建智能体”的指令——智能体自己把它拆成航班智能体、活动智能体、行程智能体三个子智能体，调了三次 editor 把它们写出来，然后调用它们给出主要机场、最佳海滩和行程建议。用户改口“我不要夏威夷了”，它就更新自己刚写的智能体重来。Sandy 指出它目前做不到的是访问实时信息，因为没给它接真实世界 API 的工具——但假设加上，你问天气，它就会自己写一个能随时抓取任意地点最新天气的工具。出错时它也能自我修复：跑崩了它识别到“我出错了，让我修复自己”，去修自己刚写的那个工具或智能体。\n\n**能力越大，护栏越重要。** Sandy 强调这是完全自主的行为，因此需要两层保障。评估（evals）有八种，覆盖四个层面：会话层看最终目标达没达成（说订机票是不是真订了）；trace 层看单次回答有没有编造（问余额，答 500 美元，是真的吗）；工具层看用没用对工具、参数对不对（账户 ID 到底是不是 123）；多智能体层看子智能体调用顺序对不对、智能体间通信是否达标。护栏则有四种，第一种最关键：把**代码执行环境**沙箱化——不是那种“智能体在一个容器里与世隔绝”的典型沙箱，而是它生成的代码运行的环境本身被隔离，保证它不会写错地方、删掉你倾尽心血构建的东西。Strands 几周前刚发布了这个功能。再叠加工具权限约束、访问控制、可观测性和遥测数据，你才敢说“我可以放心让它自己思考”。\n\n这个方向指向的是**自我改进、自我进化的智能体**。Sandy 给了个有力的注脚：StrandsAgents 是他们三年前在内部建的，当时“智能体”甚至还不算一个概念，后来因为太好用了干脆开源。Python 版本的 Strands，**自己写出了 TypeScript 版本的 Strands**——它真的更新了自己的源代码。“到某个时候，我确信它们会接管世界，我会处于危险之中。但在那之前，我觉得这太不可思议了。”\n\n## 本集带走\n\n- **元工具化最小配方**：三个工具（editor 写文件、shell 看环境、load 动态加载）+ 一份 system prompt（教它工具长什么样、写到哪、先查重再造），一行代码就能跑起来。\n- **关键开关是运行时加载**：`load_tools_from_directory` 让智能体刚写完的工具不用重启立刻可用——这是“边跑边自愈”的前提。\n- **拆子智能体不用你设计**：告诉它“拆成两到四个子智能体”，它按航班/活动/行程这类职责自己拆、自己写、自己调用，Swarm/graph/workflow 三种模式都可由智能体自建。\n- **上生产前先建评估**：四个层面都要看——最终目标达成、单次回答没编造、工具和参数用对、多智能体协作顺序正确。\n- **护栏第一步是沙箱化代码执行环境**：隔离的不是智能体本身，而是它生成代码的运行环境，防止它写错、删错地方。\n- **术语先说清**：投机解码这类概念不在本集，本集的核心词是“元工具化”——让智能体把“造工具、造智能体”本身当作工具来调用。",
+  "quotes": [
+    {
+      "en": "If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete. Do I want it to delete my data?",
+      "zh": "如果这个元工具或元智能体能派生出工具和智能体，它也能修改和删除。我想让它删除我的数据吗？",
+      "timestamp": "17:11",
+      "speaker": "Sandhya Subramani"
+    },
+    {
+      "en": "And it can solve more capabilities than it has been initially taught to. This is the starting of self-improving agents and the self-evolving agents.",
+      "zh": "而且它能解决比最初被教会的更多的能力。这是自我改进智能体和自我进化智能体的开端。",
+      "timestamp": "18:53",
+      "speaker": "Sandhya Subramani"
+    },
+    {
+      "en": "At some point, I'm convinced they will take over the world and I'm going to be at risk. But until then, I think this is incredible.",
+      "zh": "到某个时候，我确信它们会接管世界，而我会处于危险之中。但在那之前，我觉得这太不可思议了。",
+      "timestamp": "19:03",
+      "speaker": "Sandhya Subramani"
+    },
+    {
+      "en": "And the Python version of strands wrote by itself the TypeScript version of strands.",
+      "zh": "然后 strands 的 Python 版本自己写出了 strands 的 TypeScript 版本。",
+      "timestamp": "19:49",
+      "speaker": "Sandhya Subramani"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:38",
+      "speaker": "Unknown",
+      "en": "But how many agents do you know that can fix code at runtime.",
+      "zh": "但你认识多少能在运行时修复代码的智能体？"
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Unknown",
+      "en": "And it's not just going to create. It's going to let me use this tool that I'm creating right now at runtime without having to rerun it.",
+      "zh": "而且它不只是创建。它会让我在运行时就用上它现在正在创建的这个工具，而不用重新运行。"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Unknown",
+      "en": "So what it's saying is, okay, let me write a tool to count the number of characters you want, because clearly it knows that it does not have the capability to do it.",
+      "zh": "所以它说的是，好，让我写一个工具来数你想要的字符数，因为它显然知道自己没有这个能力。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Unknown",
+      "en": "You don't have to rewrite all of your system prompt. You don't have to rewrite the structure. You don't have to change your entire architecture. You can keep it as it is.",
+      "zh": "你不需要重写你所有的 system prompt，不需要重写结构，不需要更改你的整个架构，你可以保持原样。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "So it also lets you experiment with model performance without really rewriting your entire architecture.",
+      "zh": "所以它还让你可以试验模型性能，而不用真正重写你的整个架构。"
+    },
+    {
+      "timestamp": "09:04",
+      "speaker": "Unknown",
+      "en": "And I'm also telling it, always check if it exists or not. Only if it doesn't exist, then write a new tool.",
+      "zh": "我还告诉它，始终检查它是否存在。只有在它不存在时，才写一个新工具。"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Unknown",
+      "en": "But do you just want it to fail? Do you want it to run into an error? Do you want to give it back to your deployment, to your engineering team, and have a turnaround of two weeks and then come back?",
+      "zh": "但你只是想让它失败吗？你想让它遇到一个错误吗？你想把它交回给你的部署、交给你的工程团队，然后等两周的周转时间再回来吗？"
+    },
+    {
+      "timestamp": "11:46",
+      "speaker": "Unknown",
+      "en": "And so all of this can be created by just the agent itself. We don't need to. We can do it ourselves, but we don't necessarily need to.",
+      "zh": "而所有这些都可以仅由智能体本身创建。我们不需要自己做。我们可以自己做，但我们不一定需要。"
+    },
+    {
+      "timestamp": "13:24",
+      "speaker": "Unknown",
+      "en": "Let me call out the one thing this can't currently do right now is access real-time information because I've been given it a tool that has access to the real-world API, right?",
+      "zh": "让我指出它目前做不到的一件事，就是访问实时信息，因为我没有给它一个可以访问真实世界 API 的工具，对吧？"
+    },
+    {
+      "timestamp": "14:14",
+      "speaker": "Unknown",
+      "en": "And so how amazing is it that you can now have your agent, so now your focus is not just building a good agentic system that can get the job done, you would also maybe want to start thinking about healing, writing self-healing code, about creating an agent that can sort of go over itself, look at what bugs are there and fix itself.",
+      "zh": "所以你能拥有这样的智能体是多么了不起——现在你的重点不仅仅是构建一个能完成工作的好的智能体系统，你可能还想开始考虑修复、编写自愈代码，考虑创建一个能审视自身、查看有哪些 bug 并自我修复的智能体。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Unknown",
+      "en": "With great power also comes great responsibility, even greater responsibility.",
+      "zh": "能力越大，责任也越大，甚至是更大的责任。"
+    },
+    {
+      "timestamp": "17:11",
+      "speaker": "Unknown",
+      "en": "If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete. Do I want it to delete my data?",
+      "zh": "如果这个元工具或元智能体能派生出工具和智能体，它也能修改和删除。我想让它删除我的数据吗？"
+    },
+    {
+      "timestamp": "17:45",
+      "speaker": "Unknown",
+      "en": "We want the environment in which this code is executing to be sandboxed.",
+      "zh": "我们想要的是这段代码执行时所处的环境被沙箱化。"
+    },
+    {
+      "timestamp": "18:53",
+      "speaker": "Unknown",
+      "en": "And it can solve more capabilities than it has been initially taught to. This is the starting of self-improving agents and the self-evolving agents.",
+      "zh": "而且它能解决比最初被教会的更多的能力。这是自我改进智能体和自我进化智能体的开端。"
+    },
+    {
+      "timestamp": "19:03",
+      "speaker": "Unknown",
+      "en": "At some point, I'm convinced they will take over the world and I'm going to be at risk. But until then, I think this is incredible.",
+      "zh": "到某个时候，我确信它们会接管世界，而我会处于危险之中。但在那之前，我觉得这太不可思议了。"
+    },
+    {
+      "timestamp": "19:40",
+      "speaker": "Unknown",
+      "en": "And it was so powerful that we said, you know what, let's just open source it and give it back to the community.",
+      "zh": "它太强大了，所以我们说，你猜怎么着，我们干脆开源，把它回馈给社区。"
+    },
+    {
+      "timestamp": "19:49",
+      "speaker": "Unknown",
+      "en": "And the Python version of strands wrote by itself the TypeScript version of strands.",
+      "zh": "然后 strands 的 Python 版本自己写出了 strands 的 TypeScript 版本。"
+    },
+    {
+      "timestamp": "19:54",
+      "speaker": "Unknown",
+      "en": "So it did update its own source code. It's pretty powerful.",
+      "zh": "所以它确实更新了自己的源代码。它相当强大。"
+    }
+  ],
+  "voice_script": "今天请到的这位，是 AWS 的工程师 Sandy，要聊的话题听起来有点科幻：让智能体自己给自己造工具，自己写子智能体，甚至出错了自己修自己。\n\n先说说这个话题是怎么来的。想象一个很常见的场景：你有一个订机票的智能体在生产环境里跑着，当初只教过它订国内机票。突然有一天，用户说要订一张印度飞香港的票——这个场景没被编程覆盖，智能体处理不了。按老办法，你得把它停下来，自己写代码修复，再重启上线，前后折腾两周。Sandy 展示的是另一条路：智能体自己发现问题、自己写工具、自己解决问题。这套思路有个名字，叫元工具化，说白了，就是把“造工具”这件事本身也变成一个工具，交给智能体去调用。底层用的是 AWS 开源并维护的智能体框架 StrandsAgents。\n\n光说不练没用，来看 Sandy 现场做的演示。他起了一个严格来说什么能力都没有的智能体——只有一份 system prompt，就是告诉智能体该怎么表现的提示词，另外三个工具文件全是空的。然后让这个“空壳”去算一个复杂数学方程。结果呢？它当场自己写出一个数学计算器工具，而且不用重启，立刻调用这个工具，把答案给你。再让它数一个单词里有几个字符，它又当场造出一个字符计数器。整个过程就是这么直接。\n\n那这套东西是怎么搭起来的？其实出奇地简单，只需要三样工具加一份 system prompt。第一个是 editor，让智能体能写文件；第二个是 shell，让它能看到自己在哪个环境里、代码库在哪里；第三个是 load 工具，让它在运行时从目录里动态加载刚生成的工具。这个动态加载的功能最早只是个配置开关，一个叫 load_tools_from_directory 的参数设成 true 就行，后来团队干脆把它也做成了一个工具。这步为什么关键？因为智能体刚写完一个工具，要能不重启立刻用上，才有“边跑边自愈”这回事。而 system prompt 的职责呢，是教会智能体“一个好工具长什么样”——用一种叫装饰器的标记语法声明工具身份、工具规范怎么写、写到哪个目录，而且要先检查这个工具是不是已经存在，不存在才动手写新的，免得重复造轮子。这三样东西全部接起来，就一行代码。你跟它说“给你自己创建五个随机工具”，它就真的创建五个，然后开始用。\n\n能自己造工具已经够惊讶了，但这套思路还能再往下推一层：智能体也能写出自己的智能体。Sandy 介绍了三种智能体协作的模式：Swarm，就是多个子智能体并行分工；graph，是一个子智能体的输出交接给下一个；还有 workflow，把前面的组合起来，并行子智能体互相调用，形成节点和图。关键是，这些结构同样可以由智能体自己创建。演示里只说了一句“帮我规划去夏威夷的行程”——没提任何“去创建智能体”的指令——它自己就把任务拆成了三个子智能体：航班智能体、活动智能体、行程智能体，调了三次 editor 把它们写出来，然后调用它们，给出主要机场、最佳海滩和行程建议。用户改口说不要夏威夷了，它就更新自己刚写的智能体，重新来一遍。当然，现在还做不到的是访问实时信息，因为没给它接真实世界 API 的工具——但假设加上，你问天气，它就会自己写一个随时能抓任意地点最新天气的工具。那要是写出来的东西出错了呢？它也能自我修复：跑崩了，识别到“我出错了，让我修复自己”，然后去修自己刚写的那个工具或智能体。\n\n听到这你可能会想，这么自主的东西，放出去靠谱吗？这正是 Sandy 特别强调的部分：能力越大，护栏越重要。因为这是完全自主的行为，所以需要两层保障。第一层是评估，一共有八种，覆盖四个层面：会话层，看最终目标达没达成，比如你说订机票，它是不是真订了；trace 层，看单次回答有没有编造，问余额它答 500 美元，这个数字是真的吗；工具层，看用没用对工具、参数对不对，比如账户 ID 到底是不是 123；最后是多智能体层，看子智能体调用的顺序对不对、智能体之间的通信是否达标。第二层是护栏，一共四种，其中第一种最关键：把代码执行环境沙箱化。注意，这不是那种“智能体待在一个与世隔绝的容器里”的典型沙箱，而是它生成的代码运行的环境本身被隔离——保证它不会写错地方，不会把你倾尽心血构建的东西给删了。Strands 几周前刚发布这个功能。在这之上，再叠加工具权限约束、访问控制、可观测性和遥测数据，你才敢说一句“我可以放心让它自己思考”。\n\n这个方向最后指向什么？Sandy 给出了答案：自我改进、自我进化的智能体。因为一个能造工具的智能体，能解决比最初被教会的能力更多的事情，这就是自我进化的开端。有个注脚特别有力：StrandsAgents 是他们三年前在内部建的系统，那会儿“智能体”甚至还不算一个概念，后来因为太好用了干脆开源。而现在，Python 版本的 Strands，自己写出了 TypeScript 版本的 Strands——它真的更新了自己的源代码。Sandy 有句话说得挺实在：到某个时候，我确信它们会接管世界，我会处于危险之中。但在那之前，我觉得这太不可思议了。"
+}

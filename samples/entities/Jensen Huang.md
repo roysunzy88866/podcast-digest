@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":57,"深度学习":4,"智能体":417,"沙箱":78,"Condi Rice":1,"harness":56,"Jerry":1,"AMD":5,"前沿模型":24,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":57,"深度学习":4,"智能体":419,"沙箱":79,"Condi Rice":1,"harness":56,"Jerry":1,"AMD":5,"前沿模型":25,"Sega":1}</script>
 
 <script>
 (function(){

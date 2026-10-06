@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":90,"Claude Code":95,"智能体":417,"对抗性智能体":1,"MCP":78,"知识库":2,"技能":29,"vibe coding":45,"红队测试":5}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":90,"Claude Code":95,"智能体":419,"对抗性智能体":1,"MCP":78,"知识库":2,"技能":29,"vibe coding":45,"红队测试":5}</script>
 
 <script>
 (function(){

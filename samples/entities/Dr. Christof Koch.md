@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"意识":1,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":55}</script>
+<script type="application/json" class="pd-epn">{"意识":1,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":56}</script>
 
 <script>
 (function(){

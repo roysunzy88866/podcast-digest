@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/bRGyYaE0lxI.m4a",
+  "duration_sec": 994.822,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 139,
+  "asr": true,
+  "title_en": "GPU Died. Training Didn't: Self-Healing Training at Scale — Crusoe",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "added": "2026-10-06",
+  "added_at": "2026-10-06T06:06:54.585Z",
+  "speaker_map": {
+    "SPEAKER_00": "Young",
+    "SPEAKER_01": "Nikhil",
+    "SPEAKER_02": "Connor"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Young",
+  "cohosts": [
+    "Nikhil",
+    "Connor"
+  ],
+  "title_zh": "在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈",
+  "guest_name": "Connor",
+  "guest_title": "Crusoe 开发者布道师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

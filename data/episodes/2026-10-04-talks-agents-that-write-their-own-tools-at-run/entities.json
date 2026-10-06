@@ -1,0 +1,718 @@
+{
+  "episode_id": "2026-10-04-talks-agents-that-write-their-own-tools-at-run",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "智能体",
+    "MetaTooling",
+    "AI 基础设施",
+    "开源框架",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sandhya-subramani",
+      "type": "person",
+      "role": "guest",
+      "name": "Sandhya Subramani",
+      "file": "Sandhya Subramani",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：能自己发现 bug、自己写工具、自己写子智能体并自我修复的智能体，Sandy 称之为自我改进、自我进化智能体的开端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            61.405,
+            67.068
+          ],
+          "quote": "But imagine if your agent was smart enough to figure out, oh man, there is a bug here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            100.589,
+            103.771
+          ],
+          "quote": "Okay, so I have a simple agent here called agents.py.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.392,
+            109.558
+          ],
+          "quote": "This agent, we can go over the code in a bit, but this agent has nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            122.154,
+            126.756
+          ],
+          "quote": "So technically this agent has no capability by itself, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            157.922,
+            166.948
+          ],
+          "quote": "When I say this, this agent, which technically has nothing available, is going to be calling the three tools that it's got.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            411.489,
+            412.369
+          ],
+          "quote": "Import agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            463.636,
+            470.742
+          ],
+          "quote": "First of all, you need to have a system prompt that tells your agent what a good tool looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            491.83,
+            505.043
+          ],
+          "quote": "I highlighted load tools from directory equals true because that is what enables the agent to start letting it run the tools that it's generated at runtime dynamically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            524.175,
+            528.336
+          ],
+          "quote": "It's got the system prompt, and here I'm saying you are the meta tooling agent that creates",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            593.819,
+            607.947
+          ],
+          "quote": "And the power of this is, like I said, when you're deploying code into production, you might want to wait for the agent to be smart enough to figure out what's wrong and to be able to answer questions for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            618.571,
+            626.392
+          ],
+          "quote": "And your agent gives up because it's not been explicitly programmed to do that, or it's not been trained to have access to be able to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            645.539,
+            650.965
+          ],
+          "quote": "Now, I was speaking about tools that can, this agent that can write its own tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            678.909,
+            686.375
+          ],
+          "quote": "Then you have a graph where the result of one sub-agent gets fed into the other sub-agent, and then there's a handoff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            700.662,
+            705.624
+          ],
+          "quote": "And so all of this can be created by just the agent itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            727.177,
+            729.799
+          ],
+          "quote": "And I'm saying agent is the tool file template.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            738.485,
+            741.325
+          ],
+          "quote": "And this is the tool spec for what an agent should look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            754.85,
+            756.93
+          ],
+          "quote": "Python 3 agent.py.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            776.5,
+            780.022
+          ],
+          "quote": "I'm not even telling it, hey, go make your own agent or go create your own tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            787.726,
+            789.987
+          ],
+          "quote": "So this agent is going to be like, oh, great.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            796.068,
+            803.99
+          ],
+          "quote": "The flight agent, the activities agent, the itinerary agent, and it's calling the editor tool three times, one for each of these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            809.091,
+            811.132
+          ],
+          "quote": "It's creating the activities agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            811.692,
+            814.233
+          ],
+          "quote": "It's created like a flight agent that's doing something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            814.253,
+            815.853
+          ],
+          "quote": "It's created an itinerary agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            854.678,
+            875.882
+          ],
+          "quote": "And so how amazing is it that you can now have your agent, so now your focus is not just building a good agentic system that can get the job done, you would also maybe want to start thinking about healing, writing self-healing code, about creating an agent that can sort of go over itself, look at what bugs are there and fix itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            903.423,
+            908.027
+          ],
+          "quote": "Fix this exact same tool or agent that it's got here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            913.551,
+            914.792
+          ],
+          "quote": "Let me update the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            992.033,
+            995.114
+          ],
+          "quote": "We also want to understand inter-agent dependency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1009.979,
+            1017.802
+          ],
+          "quote": "And you also want to take a deeper dive into what the message is, the inter-agent communication looks like, and if that's up to the mic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1018.662,
+            1024.387
+          ],
+          "quote": "All of this together gives us the full end-to-end agent conversation within a session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1031.993,
+            1038.218
+          ],
+          "quote": "If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1055.809,
+            1065.053
+          ],
+          "quote": "And when I say sandboxing the environment, it's not your typical sandbox where your agent is in one container and you're protecting it from the rest of the world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "strandsagents",
+      "type": "concept",
+      "role": "concept",
+      "name": "StrandsAgents",
+      "file": "StrandsAgents",
+      "primary": true,
+      "how_described": "AWS 开源并维护的智能体框架（agentic harness），框架与模型解耦，三年前内部构建后开源；本集演示其 Python 版本自己写出了 TypeScript 版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            307.135,
+            311.838
+          ],
+          "quote": "And I'm using an open source framework called StrandsAgents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            315.86,
+            325.445
+          ],
+          "quote": "And we at AWS build StrandsAgents as an open source agentic harness that you can use to run your LLMs with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "讲者 Sandy 所在的公司，构建并开源了 StrandsAgents 框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            312.398,
+            315.459
+          ],
+          "quote": "And my name is Sandy, and I work at AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            315.86,
+            325.445
+          ],
+          "quote": "And we at AWS build StrandsAgents as an open source agentic harness that you can use to run your LLMs with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            445.246,
+            456.232
+          ],
+          "quote": "The idea, because this is community-driven, AWS manages it and maintains it for you, people write a lot of pre-built InBit tools, but there's also community-written tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metatooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "元工具化 (MetaTooling)",
+      "file": "元工具化",
+      "primary": true,
+      "how_described": "本集核心想法：让智能体把「造工具」本身当作工具，只需三个工具（editor/shell/load）加一份 system prompt，就能在运行时自己创建并使用新工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            303.433,
+            306.495
+          ],
+          "quote": "This is an idea called MetaTooling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "system prompt",
+      "file": "system prompt",
+      "primary": true,
+      "how_described": "本集说它的职责是教会智能体「一个好工具长什么样」：用 @add_tool 装饰器声明、工具规范怎么写、写到哪个目录，并先查重再造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            109.678,
+            112.582
+          ],
+          "quote": "It's just got a pretty cool system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            113.022,
+            116.507
+          ],
+          "quote": "And then it's calling the system prompt and it's got three tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            341.569,
+            359.298
+          ],
+          "quote": "So the main thing we need here for agents, and I have a slide deck that goes with it, is we need just three types of tools, the editor, the shell, and the load tool, along with the system prompt that lets us implement this function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            382.088,
+            384.63
+          ],
+          "quote": "You don't have to rewrite all of your system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            463.636,
+            470.742
+          ],
+          "quote": "First of all, you need to have a system prompt that tells your agent what a good tool looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            484.773,
+            486.494
+          ],
+          "quote": "And so you call the system prompt there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            524.175,
+            528.336
+          ],
+          "quote": "It's got the system prompt, and here I'm saying you are the meta tooling agent that creates",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            572.82,
+            576.444
+          ],
+          "quote": "System prompt equals system prompt, three different tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            748.788,
+            751.829
+          ],
+          "quote": "System prompt, equal system prompt, three tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时 (runtime)",
+      "file": "运行时",
+      "primary": true,
+      "how_described": "本集反复强调智能体能在运行时动态创建、加载并使用刚写的工具，无需重启——这是「边跑边自愈」的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.251,
+            44.773
+          ],
+          "quote": "That can fix code at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            140.643,
+            143.685
+          ],
+          "quote": "Okay, so in runtime, right now this is running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            177.534,
+            183.256
+          ],
+          "quote": "It's going to let me use this tool that I'm creating right now at runtime without having to rerun it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            491.83,
+            505.043
+          ],
+          "quote": "I highlighted load tools from directory equals true because that is what enables the agent to start letting it run the tools that it's generated at runtime dynamically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            528.696,
+            531.219
+          ],
+          "quote": "Your own tools and custom tools at runtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集强调护栏第一步是把代码执行环境沙箱化——不是智能体所在容器的典型沙箱，而是它生成的代码运行的环境本身被隔离，防止写错删错地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1055.809,
+            1065.053
+          ],
+          "quote": "And when I say sandboxing the environment, it's not your typical sandbox where your agent is in one container and you're protecting it from the rest of the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1071.095,
+            1080.54
+          ],
+          "quote": "And Strands recently launched a feature about, I think, a few weeks ago where we can sandbox the code execution environment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说完全自主的智能体需要四种护栏：沙箱化执行环境、约束工具与权限、访问控制、可观测性与遥测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1046.485,
+            1047.966
+          ],
+          "quote": "I have to have guardrails in place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1048.586,
+            1050.087
+          ],
+          "quote": "Four different types of guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说 StrandsAgents 有八种内置评估，覆盖四个层面：会话层最终目标达成、trace 层是否编造答案、工具层工具与参数是否用对、多智能体层协作顺序与通信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            929.222,
+            930.964
+          ],
+          "quote": "We need A, evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            931.484,
+            934.828
+          ],
+          "quote": "What are some inbuilt evals that TransAgent has?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            935.008,
+            936.771
+          ],
+          "quote": "We have totally eight different evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1104.175,
+            1116.946
+          ],
+          "quote": "All of your evals, your OTAL, your telemetry, all of that data needs to be there in order to be able to say that, hey, reliably and say, hey, I think I can go ahead",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agentic-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agentic systems)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集介绍三种智能体协作模式——Swarm（并行分工）、graph（输出交接）、workflow（组合）——并演示智能体自己拆分并写出航班/活动/行程三个子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            995.494,
+            1004.157
+          ],
+          "quote": "When we're building multi-agentic systems, we want to look at the overall outcome and the overall response, if it's the way you wanted it to be.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集说 StrandsAgents 是跑 LLM 的 harness，可自带模型，出新模型时无需重写 system prompt 或架构，直接替换即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            129.178,
+            133.5
+          ],
+          "quote": "Or it should technically hallucinate because of the LLM that is running under the hood.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            373.105,
+            381.588
+          ],
+          "quote": "Another cool part, because this is a harness, is the fact that if, let's say, tomorrow there's a new state-of-the-art LLM that comes out,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

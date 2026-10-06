@@ -1,0 +1,124 @@
+{
+  "title_zh": "在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈",
+  "tldr": "Crusoe 团队讲解如何在 Kubernetes 之上构建托管 Slurm,让数千卡训练集群在 GPU 故障时自动检测、替换节点、恢复训练，全程无需人工干预。",
+  "digest_md": "训练大模型时，数千块 GPU 里坏几块几乎是必然的——而在这规模下靠工程师手动修，完全撑不住。这一集是 Crusoe 的开发者布道师 Connor 和同事 Nikhil、Young 的技术分享，讲他们如何在 Kubernetes 之上搭 Slurm,让 GPU 硬件故障从「半夜爬起来 debug 几小时」变成「五分钟自动换好节点、训练自己接着跑」。\n\n## Slurm 强在哪，又差在哪\n\nYoung 先讲了为什么业界训练还是离不开 Slurm(20 多年前为高校实验室高性能计算打造的作业调度系统)。它对训练负载非常合适：多节点训练需要在各个 rank 之间做紧密的集合通信，Slurm 现成就有 gang scheduling(把一组节点同时腾出来再一起开跑)、拓扑感知、用于集群验证的 prologue/epilogue,研究人员用熟悉的 sbatch、srun 命令就能跑。\n\n但对现代 AI 工作负载，它有三个短板:\n\n- **太静态**。今天的 AI 不只是训练，还有后训练、评估、推理，加上 GPU 容量紧张，资源需要动态调配——而 Slurm 的分区等功能传统上相当死板。\n- **运维负担重**。GPU 确实会坏。你得检测坏节点、排空节点、绕过它们，要么手动要么自己写自动化脚本，这些全是额外负担。\n- **可观测性差**。Slurm 知道任务失败了，但说不清为什么失败——网络抖动、交换机问题都可能导致性能下降，排查要靠别的工具。\n\n## 在 Kubernetes 上跑 Slurm:两拨人都不用改习惯\n\nNikhil 讲了他们的解法：Crusoe Managed Slurm 直接建在 Kubernetes(云的操作系统，有成熟的自愈、负载均衡、自动扩缩容生态)之上。\n\n他们的 Slurm operator(CSO)统一管理 Slurm 用户、分区、配置和存储——一条命令就建好集群。好处是双向的：\n\n- **对 Slurm 用户**：这就是又一个 Slurm 集群，一个 IP 地址、SSH 上去就能用，他们甚至不需要知道底下跑着 Kubernetes。\n- **对平台团队**：Slurm 只是接入现有基础设施的又一个服务，不用搭新栈、新可观测性工具、新值班团队、新 runbook。\n\n而且所有 GPU 在一个集群里，资源就能动态流转：推理高峰时从训练集群抽硬件过去；用户负载下降、GPU 闲下来时，正好加大训练或跨更多卡做一次大规模 hero run——Nikhil 强调，这只有把所有东西放进同一套基础设施栈才做得到。\n\n## AutoClusters:从故障到恢复训练，全自动\n\nConnor 演示了核心的自动修复流程。当一块 GPU 出现 XID79 错误(该 GPU 完全不可用的严重硬件错误)时：\n\n- 用户收到通知，但**无需任何操作**；\n- Slurm operator 把该节点标记为 down,取消正在运行的作业；进程收到 sigterm 信号，有最多两分钟保存 checkpoint 或刷新日志；\n- 被取消的作业自动重新排队；\n- AutoClusters 确认该节点没有带「禁止自动替换」标签的 pod,然后把 Kubernetes 节点 cordon(封锁不再调度)并 drain(排空)；\n- 坏节点从节点池移除，从备用容量换上一个健康节点，全程记录在案；\n- 新节点上线后，Slurm 作业自动启动，加载模型和 checkpoint,训练从断点继续。\n\nDemo 里，从检测到错误到健康节点回池大约**五分钟**，加上应用层加载模型和 checkpoint,端到端不到 15 分钟，GPU 利用率恢复正常。Connor 的原话：这比让一名工程师半夜登录、花几小时 debug 要好得多。\n\n## 本集带走\n\n- **故障不可避免，架构该负责**：与其指望人不出错，不如把基础设施设计成出错时所有正确动作自主完成，工程师专心写应用。\n- **Slurm 管调度，Kubernetes 管弹性**：两者结合后系统状态保持同步——坏节点被自动 cordon,信号直接传给 Slurm operator,训练团队照用 sbatch/srun,平台团队照用原有的遥测和可观测性。\n- **checkpoint + 自动重排队是自愈的另一半**：节点替换只花五分钟，训练能无缝恢复靠的是 sigterm 宽限期内存 checkpoint、取消的作业自动重新排队。\n- **动态调度价值等于省真金白银**：同一套栈里训练和推理可以互相借硬件，闲时 GPU 立刻投入更大规模的训练。",
+  "quotes": [
+    {
+      "en": "You don't need to set up an entirely new infrastructure stack, new observability tools, new on-call teams, new runbooks, nothing like that.",
+      "zh": "你不需要搭建一套全新的基础设施栈、新的可观测性工具、新的值班团队、新的 runbook,都不需要。",
+      "timestamp": "08:30",
+      "speaker": "Nikhil"
+    },
+    {
+      "en": "When your user load goes down, you have all these GPUs sitting idle. That's the perfect time to up your training job or do a larger hero run across more GPUs.",
+      "zh": "当你的用户负载下降、GPU 都闲着时，那正是加大训练作业、或者跨更多 GPU 做一次更大规模 hero run 的完美时机。",
+      "timestamp": "09:22",
+      "speaker": "Nikhil"
+    },
+    {
+      "en": "The architecture of infrastructure should be designed in a way so that when there is a critical error, all the right actions are handled autonomously and engineers can focus on building their application and not worrying about the infrastructure.",
+      "zh": "基础设施的架构应该被设计成：当出现严重错误时，所有正确的操作都自主完成，工程师可以专注于构建他们的应用，而不用担心基础设施。",
+      "timestamp": "16:04",
+      "speaker": "Connor"
+    },
+    {
+      "en": "And the full process from detecting a critical hardware error to getting a healthy node back into the node pool takes roughly five minutes with auto-clusters.",
+      "zh": "使用 auto-clusters,从检测到严重硬件错误到把一个健康节点重新纳入节点池的完整过程大约需要五分钟。",
+      "timestamp": "12:18",
+      "speaker": "Connor"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:33",
+      "speaker": "Unknown",
+      "en": "GPU failures are inevitable.",
+      "zh": "GPU 故障是不可避免的。"
+    },
+    {
+      "timestamp": "02:29",
+      "speaker": "Unknown",
+      "en": "SLURM was built by the researchers for the researchers, universities, labs over 20 years ago, built for high-performance computing, which translates very well to modern AI, specifically around training workloads.",
+      "zh": "SLURM 是 20 多年前由研究人员为研究人员、大学和实验室构建的，为高性能计算而生，而它非常适配现代 AI,尤其是训练工作负载。"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Unknown",
+      "en": "You have to detect if nodes are bad, you have to drain the nodes when they're bad, you have to kind of work around that. That could either be manual or you need some sort of an automation or scripting to be able to do all of this.",
+      "zh": "你必须检测节点是否坏了，节点坏时必须排空它，还得想办法绕过它。这要么靠手动，要么你得有某种自动化或脚本来完成这一切。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Unknown",
+      "en": "Slurm knows when a job fails. It doesn't necessarily be able to tell you everything about why it failed.",
+      "zh": "Slurm 知道任务何时失败，但它不一定能告诉你失败原因的全部。"
+    },
+    {
+      "timestamp": "08:19",
+      "speaker": "Unknown",
+      "en": "They don't even need to know that Kubernetes is running underneath.",
+      "zh": "他们甚至不需要知道底层运行着 Kubernetes。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Unknown",
+      "en": "You don't need to set up an entirely new infrastructure stack, new observability tools, new on-call teams, new runbooks, nothing like that.",
+      "zh": "你不需要搭建一套全新的基础设施栈、新的可观测性工具、新的值班团队、新的 runbook,都不需要。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Unknown",
+      "en": "When your user load goes down, you have all these GPUs sitting idle. That's the perfect time to up your training job or do a larger hero run across more GPUs.",
+      "zh": "当你的用户负载下降、GPU 都闲着时，那正是加大训练作业、或者跨更多 GPU 做一次更大规模 hero run 的完美时机。"
+    },
+    {
+      "timestamp": "13:03",
+      "speaker": "Unknown",
+      "en": "And this is much better than having an engineer have to log on in the middle of the night and spend hours debugging something.",
+      "zh": "这比让一名工程师不得不在半夜登录、花几个小时调试问题要好得多。"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Unknown",
+      "en": "You can schedule inference pods on those immediately through Kubernetes, because from the platform's perspective, they're still just nodes in a pool.",
+      "zh": "你可以通过 Kubernetes 立即在那些节点上调度推理 pod,因为从平台的角度看，它们仍然只是节点池里的节点。"
+    },
+    {
+      "timestamp": "15:55",
+      "speaker": "Unknown",
+      "en": "And so the core idea here is that failures are inevitable.",
+      "zh": "这里的核心思想是：故障是不可避免的。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Unknown",
+      "en": "The architecture of infrastructure should be designed in a way so that when there is a critical error, all the right actions are handled autonomously and engineers can focus on building their application and not worrying about the infrastructure.",
+      "zh": "基础设施的架构应该被设计成：当出现严重错误时，所有正确的操作都自主完成，工程师可以专注于构建他们的应用，而不用担心基础设施。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Unknown",
+      "en": "You have up to two minutes to handle that sigterm to either save your checkpoints or flush your logs before that node is eventually replaced.",
+      "zh": "你有最多两分钟的时间来处理那个 sigterm,可以保存 checkpoint 或刷新日志，之后该节点最终会被替换。"
+    },
+    {
+      "timestamp": "03:42",
+      "speaker": "Unknown",
+      "en": "AI training workloads today are very dynamic, and it doesn't just include training.",
+      "zh": "今天的 AI 训练工作负载是非常动态的，而且它不仅仅包括训练。"
+    },
+    {
+      "timestamp": "09:02",
+      "speaker": "Unknown",
+      "en": "It enables more interesting tooling and dynamic availability, like when you need to burst your inference service when you're reaching high users, high number of users.",
+      "zh": "这使得更有意思的工具和动态可用性成为可能，比如当用户数量很高、需要给推理服务扩容的时候。"
+    },
+    {
+      "timestamp": "12:18",
+      "speaker": "Unknown",
+      "en": "And the full process from detecting a critical hardware error to getting a healthy node back into the node pool takes roughly five minutes with auto-clusters.",
+      "zh": "使用 auto-clusters,从检测到严重硬件错误到把一个健康节点重新纳入节点池的完整过程大约需要五分钟。"
+    }
+  ],
+  "voice_script": "今天这期,是 Crusoe 团队的一次技术分享,主角是开发者布道师 Connor,还有他的同事 Nikhil 和 Young。他们要讲的事情很具体:怎么在 Kubernetes 之上搭一套 Slurm,让 GPU 坏掉的时候,系统能自动检测、自动换节点、自动把训练接上,全程不用人管。你可能会问,这事儿为什么值得专门讲一期?背景是这样的:训练大模型的时候,几千块 GPU 里坏几块,几乎是必然的。到了这个规模,靠工程师半夜爬起来手动修,根本撑不住。Crusoe 做的事,就是把「半夜 debug 几个小时」变成「五分钟自动换好节点,训练自己接着跑」。\n\n要听懂他们怎么做的,得先明白 Slurm 是个什么东西,为什么业界训练还是离不开它。Young 先交代了这个背景。Slurm 是二十多年前为高校实验室的高性能计算打造的作业调度系统,说白了就是管着一大堆机器、决定哪个任务什么时候在哪台机器上跑的软件。它对训练负载特别合适,原因有三个:多节点训练需要在各个计算单元之间做紧密的集合通信,Slurm 现成就有 gang scheduling,也就是把一组节点同时腾出来、再一起开跑;还有拓扑感知,知道机器之间怎么连的;再加上用于集群验证的 prologue 和 epilogue 机制。而且研究人员用熟悉的 sbatch、srun 命令就能跑,不用学新东西。\n\n但放到现代 AI 工作负载上,Slurm 就暴露出三个短板。第一,太静态。今天的 AI 不只是训练,还有后训练、评估、推理,加上 GPU 容量紧张,资源需要动态调配,可 Slurm 的分区这些功能,传统上相当死板。第二,运维负担重。GPU 确实会坏,你得检测坏节点、排空节点、绕开它们,要么手动干,要么自己写自动化脚本,这些全是额外的负担。第三,可观测性差。Slurm 知道任务失败了,但说不清为什么失败——可能是网络抖动,可能是交换机出问题,排查还得靠别的工具。\n\n那怎么解决?这就引出了 Nikhil 讲的方案:Crusoe Managed Slurm,直接建在 Kubernetes 之上。Kubernetes 你可以理解成云上的操作系统,它有很成熟的自愈、负载均衡、自动扩缩容的生态。他们做了一个 Slurm operator,叫 CSO,统一管理 Slurm 的用户、分区、配置和存储,一条命令就能建好一个集群。\n\n这个方案妙在哪?妙在两拨人都不用改习惯。对 Slurm 用户来说,这就是又一个普通的 Slurm 集群,给你一个 IP 地址,SSH 上去就能用,他们甚至不需要知道底下跑着 Kubernetes。而对平台团队来说,Slurm 只是接入现有基础设施的又一个服务,不用搭全新的栈、新的可观测性工具、新的值班团队、新的 runbook,都不需要。\n\n而且还有一层更大的好处:所有 GPU 在一个集群里,资源就能动态流转。推理高峰的时候,从训练集群抽硬件过去顶一顶;反过来,用户负载下降、GPU 都闲着的时候,那正是加大训练作业、或者跨更多卡做一次更大规模 hero run 的完美时机。Nikhil 特别强调,这种灵活性,只有把所有东西放进同一套基础设施栈,才做得到。\n\n方案讲清楚了,那真出故障的时候,系统到底是怎么自动处理的?这部分由 Connor 演示,也是整期最核心的东西。假设一块 GPU 出现了 XID79 错误——这是最严重的那种硬件错误,这块 GPU 就彻底不能用了。接下来发生一连串动作:用户会收到通知,但不需要做任何操作;Slurm operator 把这个节点标记为 down,取消正在运行的作业;被取消的进程收到 sigterm 信号,有最多两分钟的时间保存 checkpoint 或者刷新日志;作业自动重新排队;然后 AutoClusters 确认这个节点上没有带「禁止自动替换」标签的 pod,再把 Kubernetes 节点封锁起来不再调度,彻底排空;坏节点从节点池移除,从备用容量里换上一个健康节点,整个过程都有记录。新节点上线之后,Slurm 作业自动启动,加载模型和 checkpoint,训练从断点接着跑。\n\n这套流程有多快?Demo 里,从检测到错误,到健康节点重新回到节点池,大约五分钟。加上应用层加载模型和 checkpoint,端到端不到十五分钟,GPU 利用率就恢复正常了。Connor 说了一句很实在的话:这比让一名工程师半夜登录上来,花几个小时 debug,要好得多。\n\n不过这里得补一句:节点替换只花五分钟,训练能无缝恢复,靠的不只是换机器,还有另一半——checkpoint 加自动重排队。正是因为有 sigterm 那段宽限期可以保存 checkpoint,加上被取消的作业会自动重新排队,训练才能从断点接上,不然节点换得再快,训练也得从头来。\n\n这一期听下来,最值得带走的是这个思路:故障是不可避免的,但架构可以负责。与其指望人不出错,不如把基础设施设计成——当出现严重错误时,所有正确的操作都自主完成,工程师可以专注于构建他们的应用,而不用担心基础设施。Slurm 管调度,Kubernetes 管弹性,两者结合,坏节点自动被封锁,训练团队照用 sbatch、srun,平台团队照用原有的遥测和可观测性,谁也不用迁就谁。硬件会坏,这没法改变;但训练不停,这件事是可以被设计出来的。"
+}

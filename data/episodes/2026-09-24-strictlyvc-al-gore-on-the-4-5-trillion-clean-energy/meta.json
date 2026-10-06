@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy",
+  "audio_mp3": "https://pdst.fm/e/traffic.megaphone.fm/TCML6487351364.mp3",
+  "duration_sec": 1927.007,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 283,
+  "asr": true,
+  "title_en": "Al Gore on the $4.5 Trillion Clean Energy Opportunity",
+  "podcast": "StrictlyVC Download",
+  "date": "2026-09-24",
+  "added": "2026-10-06",
+  "added_at": "2026-10-06T07:46:33.476Z",
+  "speaker_map": {
+    "SPEAKER_00": "Al Gore",
+    "SPEAKER_01": "Lila Preston",
+    "SPEAKER_03": "Connie Loizis"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Al Gore",
+  "cohosts": [
+    "Lila Preston",
+    "Connie Loizis"
+  ],
+  "title_zh": "Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会",
+  "guest_name": "Al Gore",
+  "guest_title": "前美国副总统",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

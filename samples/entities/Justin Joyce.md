@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":14,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":417,"多智能体工作流":2,"go-to-market":14,"MCP":78,"可观测性":37,"LLM":55}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":14,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":419,"多智能体工作流":2,"go-to-market":14,"MCP":78,"可观测性":37,"LLM":56}</script>
 
 <script>
 (function(){

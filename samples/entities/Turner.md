@@ -22,7 +22,7 @@ unlisted: true
 
 [[Sequoia]] · [[Chris Olsen]] · [[Ryan Nece]] · [[Path Robotics]] · [[NextLegacy]] · [[LLM]] · [[Nextplay Capital]] · [[云计算]] · [[Legacy Ventures]] · [[真空]]
 
-<script type="application/json" class="pd-epn">{"Sequoia":7,"Chris Olsen":1,"Ryan Nece":1,"Path Robotics":1,"NextLegacy":1,"LLM":55,"Nextplay Capital":1,"云计算":4,"Legacy Ventures":1,"真空":1}</script>
+<script type="application/json" class="pd-epn">{"Sequoia":7,"Chris Olsen":1,"Ryan Nece":1,"Path Robotics":1,"NextLegacy":1,"LLM":56,"Nextplay Capital":1,"云计算":4,"Legacy Ventures":1,"真空":1}</script>
 
 <script>
 (function(){

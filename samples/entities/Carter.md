@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":417,"上下文压缩":1,"RL":12,"蒸馏":1,"KV 缓存":5,"Cognition":25,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":419,"上下文压缩":1,"RL":12,"蒸馏":1,"KV 缓存":5,"Cognition":25,"OpenRouter":14}</script>
 
 <script>
 (function(){

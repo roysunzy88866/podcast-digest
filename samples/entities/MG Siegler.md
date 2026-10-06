@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
+[[Josh Ellman]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":44,"Muse":6,"OpenAI":165,"Dots":3,"Microsoft":29,"Google":60,"Anthropic":177,"Apple":21,"Amazon":29}</script>
+<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":44,"Muse":6,"OpenAI":167,"Dots":3,"Microsoft":29,"Google":60,"Anthropic":179,"Apple":21,"Amazon":29}</script>
 
 <script>
 (function(){

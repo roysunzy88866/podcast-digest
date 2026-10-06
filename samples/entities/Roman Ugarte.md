@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":80,"SpaceXAI":1,"OpenClaw":21,"OpenAI":165,"Anthropic":177,"Codex":80,"Cowork":6,"Salesforce":34,"智能体":417}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":80,"SpaceXAI":1,"OpenClaw":22,"OpenAI":167,"Anthropic":179,"Codex":80,"Cowork":6,"Salesforce":34,"智能体":419}</script>
 
 <script>
 (function(){

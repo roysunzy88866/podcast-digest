@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[TSMC]] · [[Google]] · [[数据中心]] · [[推理]] · [[供应链]] · [[训练]] · [[AWS]] · [[Dylan Patel]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":57,"OpenAI":165,"TSMC":9,"Google":60,"数据中心":21,"推理":78,"供应链":5,"训练":5,"AWS":19,"Dylan Patel":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":57,"OpenAI":167,"TSMC":9,"Google":60,"数据中心":22,"推理":80,"供应链":5,"训练":5,"AWS":20,"Dylan Patel":1}</script>
 
 <script>
 (function(){

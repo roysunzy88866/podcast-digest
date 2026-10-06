@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sandhya Subramani]] [[Sarah Simionescu]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Interactions API":1,"Managed Agents":5,"智能体":417,"函数调用":2,"沙箱":78,"Gemini API":1,"anti-gravity":1}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Interactions API":1,"Managed Agents":5,"智能体":419,"函数调用":2,"沙箱":79,"Gemini API":1,"anti-gravity":1}</script>
 
 <script>
 (function(){

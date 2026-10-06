@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Docker</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Docker">DO</div><div class="pi"><h1 class="pt">Docker</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Docker">DO</div><div class="pi"><h1 class="pt">Docker</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(10:28起):主讲人所在公司：本集说 Docker 过去十年解决了软件从笔记本搬上云的可移植性问题，现在正把这套经验延伸去做智能体安全的运行时。
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(23:13起):本集说 Docker 自己说容器不安全，所以他们在 Docker 沙箱方面取得了巨大成功，是理解沙箱行为的最好公司之一
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(12:38起):Ollama 两位创始人的老东家,他们在 Docker 做了 Docker Desktop、学会什么是好的开发者体验;Docker 当年变现迟缓的教训也被本集引用。
+- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(05:48起):本集说 NanoClaw 用 Docker 容器来运行智能体进程,使它们没法在系统里横冲直撞;树莓派上还跑着一个基于 Docker 的小型 Neo4j 数据库。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(00:27起):本集嘉宾所在公司,推出了新的沙箱产品 SBX(一个微型虚拟机二进制程序),且公司内部每个开发者现在都强制在沙箱里写代码。
 
 ## ① 提到它的金句
@@ -25,21 +26,22 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为被讨论公司
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Anthropic]] · [[MicroVM]] · [[开源模型]] · [[Claude Code]] · [[Codex]] · [[推理]] · [[MCP]] · [[Claude]]
+[[智能体]] · [[沙箱]] · [[推理]] · [[Anthropic]] · [[MicroVM]] · [[开源模型]] · [[MCP 服务器]] · [[Claude Code]] · [[Codex]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"沙箱":78,"Anthropic":177,"MicroVM":2,"开源模型":4,"Claude Code":95,"Codex":80,"推理":78,"MCP":78,"Claude":90}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"沙箱":79,"推理":80,"Anthropic":179,"MicroVM":2,"开源模型":4,"MCP 服务器":2,"Claude Code":95,"Codex":80,"GPU":22}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Young]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":5,"智能体":417,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":4}</script>
+<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":5,"智能体":419,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":4}</script>
 
 <script>
 (function(){

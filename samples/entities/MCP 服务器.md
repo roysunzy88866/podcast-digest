@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Clare Liguori]] · [[Jerry Liu]] · [[Kiro]] · [[LlamaIndex]] · [[Amazon]] · [[LlamaParse]] · [[AWS]] · [[LightParse]] · [[Bedrock]]
 
-<script type="application/json" class="pd-epn">{"智能体":417,"Clare Liguori":1,"Jerry Liu":1,"Kiro":4,"LlamaIndex":2,"Amazon":29,"LlamaParse":1,"AWS":19,"LightParse":1,"Bedrock":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":419,"Clare Liguori":1,"Jerry Liu":1,"Kiro":4,"LlamaIndex":2,"Amazon":29,"LlamaParse":1,"AWS":20,"LightParse":1,"Bedrock":2}</script>
 
 <script>
 (function(){
