@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ramp":10,"go-to-market 编排":1,"智能体":411,"持久化执行":4,"CDP":1,"MCP":76,"护栏":77,"Temporal":4,"Snowflake":19,"Postgres":4}</script>
+<script type="application/json" class="pd-epn">{"Ramp":10,"go-to-market 编排":1,"智能体":417,"持久化执行":4,"CDP":1,"MCP":78,"护栏":77,"Temporal":4,"Snowflake":19,"Postgres":4}</script>
 
 <script>
 (function(){

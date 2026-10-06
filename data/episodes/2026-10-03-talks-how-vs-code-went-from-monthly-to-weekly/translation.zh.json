@@ -1,0 +1,1642 @@
+[
+ {
+  "seg": 0,
+  "start": 12.997,
+  "end": 14.437,
+  "speaker": "Unknown",
+  "en": "Hey.",
+  "zh": "嘿。"
+ },
+ {
+  "seg": 1,
+  "start": 14.577,
+  "end": 16.718,
+  "speaker": "Unknown",
+  "en": "This is a hard tone to follow.",
+  "zh": "这个氛围很难接啊。"
+ },
+ {
+  "seg": 2,
+  "start": 17.038,
+  "end": 17.578,
+  "speaker": "Unknown",
+  "en": "Why did everybody leave?",
+  "zh": "为什么大家都走了？"
+ },
+ {
+  "seg": 3,
+  "start": 17.598,
+  "end": 18.759,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不是。"
+ },
+ {
+  "seg": 4,
+  "start": 18.779,
+  "end": 22.08,
+  "speaker": "Unknown",
+  "en": "This is the rerun of a talk that she gave yesterday upstairs.",
+  "zh": "这是她昨天在楼上那场演讲的重演。"
+ },
+ {
+  "seg": 5,
+  "start": 22.16,
+  "end": 24.16,
+  "speaker": "Unknown",
+  "en": "So this will be better than the one yesterday.",
+  "zh": "所以这会比昨天那场更好。"
+ },
+ {
+  "seg": 6,
+  "start": 24.24,
+  "end": 26.561,
+  "speaker": "Unknown",
+  "en": "So kudos to you for catching this one.",
+  "zh": "所以恭喜你们抓住了这一场。"
+ },
+ {
+  "seg": 7,
+  "start": 27.421,
+  "end": 29.102,
+  "speaker": "Unknown",
+  "en": "I'm working on VS Code.",
+  "zh": "我在做 VS Code。"
+ },
+ {
+  "seg": 8,
+  "start": 29.662,
+  "end": 34.943,
+  "speaker": "Unknown",
+  "en": "And we moved from a monthly release to a weekly release cycle, thanks to AI.",
+  "zh": "多亏了 AI,我们从每月发布改成了每周发布周期。"
+ },
+ {
+  "seg": 9,
+  "start": 34.983,
+  "end": 40.265,
+  "speaker": "Unknown",
+  "en": "And this is about the things we learned, the systems that made this work, not just to shift faster,",
+  "zh": "这是关于我们学到的东西，以及让这一切运转起来的系统，不只是为了更快地交付，"
+ },
+ {
+  "seg": 10,
+  "start": 40.925,
+  "end": 43.425,
+  "speaker": "Unknown",
+  "en": "But actually to ship more effectively.",
+  "zh": "而是实际上更有效地发布。"
+ },
+ {
+  "seg": 11,
+  "start": 43.806,
+  "end": 48.846,
+  "speaker": "Unknown",
+  "en": "So it's not about how we build agents into VS Code, which we can try out anytime.",
+  "zh": "所以这不是关于我们如何把智能体构建进 VS Code,这个你们随时都可以试用。"
+ },
+ {
+  "seg": 12,
+  "start": 48.867,
+  "end": 51.327,
+  "speaker": "Unknown",
+  "en": "You can come by the booth and see us showing of agents.",
+  "zh": "你们可以来展台看我们展示智能体。"
+ },
+ {
+  "seg": 13,
+  "start": 51.947,
+  "end": 56.168,
+  "speaker": "Unknown",
+  "en": "But this is about how we use agents to build the product itself.",
+  "zh": "而是关于我们如何用智能体来构建产品本身。"
+ },
+ {
+  "seg": 14,
+  "start": 56.668,
+  "end": 59.529,
+  "speaker": "Unknown",
+  "en": "And that's VS Code, that's the Copilot CI and other areas.",
+  "zh": "那是 VS Code,那是 Copilot CI 和其他领域。"
+ },
+ {
+  "seg": 15,
+  "start": 60.209,
+  "end": 66.83,
+  "speaker": "Unknown",
+  "en": "But also how as you use agents in more AI, things are breaking and you have to rethink actually how you work.",
+  "zh": "还有，当你们使用更多智能体和 AI 时，很多东西会出问题，你实际上必须重新思考你的工作方式。"
+ },
+ {
+  "seg": 16,
+  "start": 67.678,
+  "end": 71.36,
+  "speaker": "Unknown",
+  "en": "And that's a very small team shipping to over 50 million users.",
+  "zh": "而这是一个非常小的团队，向超过 5000 万用户交付。"
+ },
+ {
+  "seg": 17,
+  "start": 73.041,
+  "end": 79.745,
+  "speaker": "Unknown",
+  "en": "What happened is over the past year is we started tracking already early on this code survival metrics in VS Code.",
+  "zh": "过去一年发生的事情是，我们很早就开始在 VS Code 中跟踪代码存活率指标。"
+ },
+ {
+  "seg": 18,
+  "start": 80.266,
+  "end": 83.808,
+  "speaker": "Unknown",
+  "en": "So that means the percent of agent-written code actually gets committed.",
+  "zh": "也就是说，智能体写的代码中实际被提交的百分比。"
+ },
+ {
+  "seg": 19,
+  "start": 84.368,
+  "end": 92.493,
+  "speaker": "Unknown",
+  "en": "How much kind of garbage has the agent produced that you threw out the window again or didn't trust and that you read it and scrapped?",
+  "zh": "智能体产出了多少垃圾被你又扔出窗外，或者你不信任、读了之后又废弃了？"
+ },
+ {
+  "seg": 20,
+  "start": 93.781,
+  "end": 96.264,
+  "speaker": "Unknown",
+  "en": "So GBT 4.1 started at 55%.",
+  "zh": "GBT 4.1 起步时是 55%。"
+ },
+ {
+  "seg": 21,
+  "start": 97.045,
+  "end": 105.615,
+  "speaker": "Unknown",
+  "en": "But then over time and over improving the harness and new models, Claude Opus 4.6 is now today at 86%.",
+  "zh": "但随着时间推移、随着 harness 的改进和新模型的出现，Claude Opus 4.6 现在达到了 86%。"
+ },
+ {
+  "seg": 22,
+  "start": 106.476,
+  "end": 114.325,
+  "speaker": "Unknown",
+  "en": "And that increase clearly shows developer trust and confidence in shipping AI code faster and more AI code generated.",
+  "zh": "这个增长清楚地表明了开发者对更快交付 AI 代码、生成更多 AI 代码的信任和信心。"
+ },
+ {
+  "seg": 23,
+  "start": 117.028,
+  "end": 118.949,
+  "speaker": "Unknown",
+  "en": "And this success created problems.",
+  "zh": "而这种成功也带来了问题。"
+ },
+ {
+  "seg": 24,
+  "start": 118.989,
+  "end": 123.871,
+  "speaker": "Unknown",
+  "en": "On the VS Code side, we're one of the biggest or their biggest open source project on GitHub.",
+  "zh": "在 VS Code 这边，我们是 GitHub 上最大或最大的开源项目之一。"
+ },
+ {
+  "seg": 25,
+  "start": 124.551,
+  "end": 129.193,
+  "speaker": "Unknown",
+  "en": "So we saw a massive increase in issues because AI helps to file issues.",
+  "zh": "所以我们看到 issue 数量大量增加，因为 AI 帮助提交 issue。"
+ },
+ {
+  "seg": 26,
+  "start": 129.233,
+  "end": 136.396,
+  "speaker": "Unknown",
+  "en": "So we actually see an increase in quality issues, but also the counterpart of more automated low quality issues.",
+  "zh": "所以我们实际上看到质量问题增加了，但同时也伴随着更多自动化的低质量 issue。"
+ },
+ {
+  "seg": 27,
+  "start": 137.156,
+  "end": 143.34,
+  "speaker": "Unknown",
+  "en": "We also see more open PRs by the team, by our own velocity, and by our community.",
+  "zh": "我们还看到更多打开的 PR,来自团队、来自我们自己的速度，以及来自我们的社区。"
+ },
+ {
+  "seg": 28,
+  "start": 144.12,
+  "end": 156.227,
+  "speaker": "Unknown",
+  "en": "An interesting part, we actually see, everybody would assume we see a lot of garbage PRs, but actually the number of community merged PRs is going up as well, which is really amazing that we can unlock more community contributions as well.",
+  "zh": "有趣的一点是，我们实际上——每个人都会以为我们会看到很多垃圾 PR,但实际上社区 PR 被合并的数量也在上升，这真的很了不起，我们也能解锁更多的社区贡献。"
+ },
+ {
+  "seg": 29,
+  "start": 157.548,
+  "end": 164.411,
+  "speaker": "Unknown",
+  "en": "And as part of this new workflow, we actually moved several months ago, we moved from monthly releases, which happened over 10 years.",
+  "zh": "而作为这个新工作流的一部分，我们实际上几个月前——我们从每月发布改了过来，这已经持续了 10 多年。"
+ },
+ {
+  "seg": 30,
+  "start": 164.911,
+  "end": 176.616,
+  "speaker": "Unknown",
+  "en": "Since the inception of VS Code 1.0, we have been shipping a new version of VS Code on a monthly basis, including fun facts like the general release actually ships in February.",
+  "zh": "从 VS Code 1.0 诞生以来，我们一直按月发布新版本的 VS Code,还有一些有趣的事实，比如通用版实际上是在 2 月发布的。"
+ },
+ {
+  "seg": 31,
+  "start": 176.636,
+  "end": 183.279,
+  "speaker": "Unknown",
+  "en": "So when you read the release notes in VS Code, you're wondering why it's February and you're reading the general release notes if you're a month late.",
+  "zh": "所以当你在 VS Code 里读发布说明时，你会奇怪为什么是 2 月，你作为晚了一个月的人却在读通用版的发布说明。"
+ },
+ {
+  "seg": 32,
+  "start": 183.699,
+  "end": 186,
+  "speaker": "Unknown",
+  "en": "No, that's just how we tracked our iterations.",
+  "zh": "不，那只是我们跟踪迭代的方式。"
+ },
+ {
+  "seg": 33,
+  "start": 188.224,
+  "end": 190.626,
+  "speaker": "Unknown",
+  "en": "So that cadence was to match to velocity.",
+  "zh": "所以那个节奏是为了匹配速度。"
+ },
+ {
+  "seg": 34,
+  "start": 191.206,
+  "end": 200.393,
+  "speaker": "Unknown",
+  "en": "But it also showed us that it's not about using more AI as you work day to day, which a lot of companies are pushing.",
+  "zh": "但它也向我们表明，这不只是像很多公司在推动的那样，在日常工作中使用更多 AI。"
+ },
+ {
+  "seg": 35,
+  "start": 200.413,
+  "end": 201.994,
+  "speaker": "Unknown",
+  "en": "You're not token maxing.",
+  "zh": "你不是在刷 token。"
+ },
+ {
+  "seg": 36,
+  "start": 202.014,
+  "end": 204.656,
+  "speaker": "Unknown",
+  "en": "You're not spending every day using AI.",
+  "zh": "你不是每天花时间使用 AI。"
+ },
+ {
+  "seg": 37,
+  "start": 205.256,
+  "end": 214.142,
+  "speaker": "Unknown",
+  "en": "It's about evolving the whole system, how you're shipping software to evolve to actually make better use of AI along the whole process.",
+  "zh": "关键是演进整个系统、你交付软件的方式，从而真正在整个流程中更好地利用 AI。"
+ },
+ {
+  "seg": 38,
+  "start": 215.023,
+  "end": 219.104,
+  "speaker": "Unknown",
+  "en": "And that's what makes this velocity actually work and doesn't just generate more code.",
+  "zh": "这才是让这种速度真正奏效的原因，而不只是生成更多代码。"
+ },
+ {
+  "seg": 39,
+  "start": 221.045,
+  "end": 226.426,
+  "speaker": "Unknown",
+  "en": "I'm breaking this down into the first part, which a lot of people have been experiencing as shipping code faster.",
+  "zh": "我把它拆解成第一部分，很多人都经历过，就是更快地交付代码。"
+ },
+ {
+  "seg": 40,
+  "start": 226.566,
+  "end": 227.566,
+  "speaker": "Unknown",
+  "en": "And that's the easy part.",
+  "zh": "这是容易的部分。"
+ },
+ {
+  "seg": 41,
+  "start": 227.586,
+  "end": 234.888,
+  "speaker": "Unknown",
+  "en": "You have like this 100x engineers that has built this beautiful scale MCP plug-in system, and they're just shipping code like crazy.",
+  "zh": "你有那种 100 倍工程师，构建了漂亮的、可扩展的 MCP 插件系统，然后疯狂地交付代码。"
+ },
+ {
+  "seg": 42,
+  "start": 235.348,
+  "end": 242.55,
+  "speaker": "Unknown",
+  "en": "And slowly, maybe more people in the team adopt the same patterns, and you see a lot more code shipping faster.",
+  "zh": "慢慢地，团队里可能有更多人采用同样的模式，然后你看到更多代码更快地交付。"
+ },
+ {
+  "seg": 43,
+  "start": 243.853,
+  "end": 252.215,
+  "speaker": "Unknown",
+  "en": "And the problem is, once you ship faster, you get into a code review, you get into how do you actually ship high-quality code that doesn't constantly break.",
+  "zh": "而问题在于，一旦你交付得更快，你就会进入代码评审，进入如何真正交付高质量的、不会不断出问题的代码。"
+ },
+ {
+  "seg": 44,
+  "start": 252.856,
+  "end": 257.037,
+  "speaker": "Unknown",
+  "en": "And that's important for us as VS Code because we're shipping binaries to user machines.",
+  "zh": "这对 VS Code 来说很重要，因为我们是向用户机器交付二进制文件的。"
+ },
+ {
+  "seg": 45,
+  "start": 257.077,
+  "end": 261.338,
+  "speaker": "Unknown",
+  "en": "So if something breaks, that recovery is even more costly.",
+  "zh": "所以如果出了问题，恢复的成本会更高。"
+ },
+ {
+  "seg": 46,
+  "start": 262.967,
+  "end": 273.813,
+  "speaker": "Unknown",
+  "en": "But once you hit that velocity with shipping high quality code faster with confidence, how do you actually know you're shipping the right thing or if we should ship this thing?",
+  "zh": "但一旦你达到了那种有信心地更快交付高质量代码的速度，你怎么知道你交付的是对的东西，或者我们是否应该交付这个东西？"
+ },
+ {
+  "seg": 47,
+  "start": 274.353,
+  "end": 287.04,
+  "speaker": "Unknown",
+  "en": "And that's where AI kicks in to actually learn faster in the end and shipping better products, which a lot of people are missing out as they write more code is applying the product taste and applying that learning.",
+  "zh": "这就是 AI 发挥作用的地方，最终更快地学习、交付更好的产品，这是很多人在写更多代码时错过的东西——运用产品品味，运用那种学习。"
+ },
+ {
+  "seg": 48,
+  "start": 289.626,
+  "end": 290.806,
+  "speaker": "Unknown",
+  "en": "So let's start shipping faster.",
+  "zh": "所以让我们开始更快地交付。"
+ },
+ {
+  "seg": 49,
+  "start": 291.727,
+  "end": 294.347,
+  "speaker": "Unknown",
+  "en": "Now that everybody can vibe, we can really all ship faster.",
+  "zh": "现在人人都能 vibe 了，我们真的都可以更快地交付了。"
+ },
+ {
+  "seg": 50,
+  "start": 294.807,
+  "end": 298.328,
+  "speaker": "Unknown",
+  "en": "And the big part is getting your code bases agent ready.",
+  "zh": "而很重要的一部分是让你的代码库为智能体做好准备。"
+ },
+ {
+  "seg": 51,
+  "start": 298.348,
+  "end": 315.872,
+  "speaker": "Unknown",
+  "en": "So that's kind of the no-brainer slide that everybody should have already been doing, is thinking about how to get your code bases agent ready, is creating agents.md that are lightweight enough and give the agents a good kind of map of the code base, where to look at, mapping out that.",
+  "zh": "所以这算是那种不需要动脑子的幻灯片，每个人都应该已经在做的，就是思考如何让你的代码库为智能体做好准备，也就是创建足够轻量的 agents.md，给智能体一个代码库的良好地图，去哪里看，把路径标注出来。"
+ },
+ {
+  "seg": 52,
+  "start": 318.673,
+  "end": 322.695,
+  "speaker": "Unknown",
+  "en": "At your fingertips has a slash in it that gives you a good draft and then you keep entering.",
+  "zh": "At your fingertips 里有一个斜杠，会给你一个不错的草稿，然后你继续输入。"
+ },
+ {
+  "seg": 53,
+  "start": 322.715,
+  "end": 328.237,
+  "speaker": "Unknown",
+  "en": "Those are living documents that should evolve as the agent makes mistakes and works.",
+  "zh": "这些是活文档，应该随着智能体犯错和工作的过程而不断演进。"
+ },
+ {
+  "seg": 54,
+  "start": 329.857,
+  "end": 342.442,
+  "speaker": "Unknown",
+  "en": "And that's where I see a lot of teams that have invested in the developer experience actually gain a lot because once they have good documentation and onboarding for a code base, that is read by the agent as well and that can help the agent as much.",
+  "zh": "而这正是我看到很多在开发者体验上投入的团队真正获益的地方，因为一旦你为一个代码库准备好了好的文档和上手指南，智能体也会阅读它们，这能同样大地帮助智能体。"
+ },
+ {
+  "seg": 55,
+  "start": 344.068,
+  "end": 345.069,
+  "speaker": "Unknown",
+  "en": "Next up, you have skills.",
+  "zh": "接下来，是技能。"
+ },
+ {
+  "seg": 56,
+  "start": 345.649,
+  "end": 348.451,
+  "speaker": "Unknown",
+  "en": "VS Code has always messaged heavily in accessibility.",
+  "zh": "VS Code 一直以来在无障碍性上大力宣传。"
+ },
+ {
+  "seg": 57,
+  "start": 348.491,
+  "end": 358.278,
+  "speaker": "Unknown",
+  "en": "So one skill we added early on was infusing all the accessibility best practices and how we think about accessibility into a skill that everybody will use.",
+  "zh": "所以我们早期添加的一个技能，就是把所有的无障碍最佳实践以及我们关于无障碍性的思考方式，注入到一个所有人都会使用的技能中。"
+ },
+ {
+  "seg": 58,
+  "start": 358.619,
+  "end": 360.2,
+  "speaker": "Unknown",
+  "en": "And that previously was one person",
+  "zh": "而以前这只是一个的人"
+ },
+ {
+  "seg": 59,
+  "start": 360.74,
+  "end": 363.821,
+  "speaker": "Unknown",
+  "en": "That had to then get pulled in or give feedback.",
+  "zh": "必须把他拉进来或者让他给反馈。"
+ },
+ {
+  "seg": 60,
+  "start": 363.841,
+  "end": 369.982,
+  "speaker": "Unknown",
+  "en": "And now that skill was reviewed and is maintained by the kind of area owner of accessibility.",
+  "zh": "而现在这个技能已经过评审，并由无障碍领域的负责人来维护。"
+ },
+ {
+  "seg": 61,
+  "start": 370.542,
+  "end": 375.243,
+  "speaker": "Unknown",
+  "en": "So to bring that accessibility, that short work everywhere into everybody's hands.",
+  "zh": "这样就把无障碍性，那些短小的工作，带到每个人的手中。"
+ },
+ {
+  "seg": 62,
+  "start": 375.903,
+  "end": 384.285,
+  "speaker": "Unknown",
+  "en": "So think how you can encode your expert knowledge to unlock this like few users that might be always asked for this input into a skill.",
+  "zh": "所以想想你如何能把你的专家知识编码成一个技能，去解放那少数几个总是被要求提供这类输入的用户。"
+ },
+ {
+  "seg": 63,
+  "start": 385.58,
+  "end": 396.35,
+  "speaker": "Unknown",
+  "en": "And lastly, once you do it right, for us, in VS Code, the litmus test is, can I, as a PM, effectively Vibe code in the VS Code repo?",
+  "zh": "最后，一旦你把它做对了，对我们来说，在 VS Code，检验标准是：作为一个 PM，我能否有效地在 VS Code 仓库里进行 vibe coding？"
+ },
+ {
+  "seg": 64,
+  "start": 397.391,
+  "end": 397.911,
+  "speaker": "Unknown",
+  "en": "Which I do.",
+  "zh": "我确实这么做。"
+ },
+ {
+  "seg": 65,
+  "start": 399.212,
+  "end": 401.935,
+  "speaker": "Unknown",
+  "en": "And how is that accepted by engineering?",
+  "zh": "工程团队是如何接受它的？"
+ },
+ {
+  "seg": 66,
+  "start": 401.955,
+  "end": 403.256,
+  "speaker": "Unknown",
+  "en": "How much work does it cost?",
+  "zh": "要花费多少工作量？"
+ },
+ {
+  "seg": 67,
+  "start": 403.376,
+  "end": 405.418,
+  "speaker": "Unknown",
+  "en": "Is it out of the box working?",
+  "zh": "是否开箱即用？"
+ },
+ {
+  "seg": 68,
+  "start": 406.078,
+  "end": 408.28,
+  "speaker": "Unknown",
+  "en": "Is it, for me, working locally?",
+  "zh": "对我来说，它能否在本地正常运行？"
+ },
+ {
+  "seg": 69,
+  "start": 408.62,
+  "end": 411.043,
+  "speaker": "Unknown",
+  "en": "Or is it eventually breaking when I ship it?",
+  "zh": "还是在我发布时最终出了问题？"
+ },
+ {
+  "seg": 70,
+  "start": 411.996,
+  "end": 418.841,
+  "speaker": "Unknown",
+  "en": "So a lot of these quality improvements will show in the end that you can allow everybody to be more effective in the repo.",
+  "zh": "所以很多这类质量改进，最终会体现在你能让每个人在仓库里都更高效。"
+ },
+ {
+  "seg": 71,
+  "start": 421.643,
+  "end": 426.687,
+  "speaker": "Unknown",
+  "en": "Another improvement, and that's a massive one, is we switched to TypeScript Go.",
+  "zh": "另一个改进，而且是一个巨大的改进，就是我们切换到了 TypeScript Go。"
+ },
+ {
+  "seg": 72,
+  "start": 428.142,
+  "end": 436.729,
+  "speaker": "Unknown",
+  "en": "And if you've been in any developer code base that takes some time to build or run linting or run CI-CD, you've noticed it's already annoying.",
+  "zh": "如果你待过任何一个需要一些时间来构建、或运行 linting、或运行 CI-CD 的开发者代码库，你已经注意到这已经很烦人了。"
+ },
+ {
+  "seg": 73,
+  "start": 437.289,
+  "end": 438.991,
+  "speaker": "Unknown",
+  "en": "But developers find other ways.",
+  "zh": "但开发者们会找到别的办法。"
+ },
+ {
+  "seg": 74,
+  "start": 439.131,
+  "end": 440.552,
+  "speaker": "Unknown",
+  "en": "They can review a PR.",
+  "zh": "他们可以去评审一个 PR。"
+ },
+ {
+  "seg": 75,
+  "start": 440.592,
+  "end": 444.455,
+  "speaker": "Unknown",
+  "en": "They can context switch into something else while it runs and then do something else.",
+  "zh": "他们可以在它运行的时候切换到别的事情上，然后再做别的。"
+ },
+ {
+  "seg": 76,
+  "start": 444.495,
+  "end": 455.825,
+  "speaker": "Unknown",
+  "en": "But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound.",
+  "zh": "但一旦你让智能体撞上这个，你有 10 个智能体、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。"
+ },
+ {
+  "seg": 77,
+  "start": 456.883,
+  "end": 473.087,
+  "speaker": "Unknown",
+  "en": "And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement.",
+  "zh": "对我们来说，TypeScript Go 让我们的构建获得了 10 倍的提升，在智能体运行的自动化 PR 的规模下，以及它们需要那个 CI-CD 循环来获取反馈以改进代码的情况下，这是一个巨大的提升。"
+ },
+ {
+  "seg": 78,
+  "start": 475.676,
+  "end": 478.619,
+  "speaker": "Unknown",
+  "en": "And that leads to me filing big PRs.",
+  "zh": "而这引出了我提交大 PR 这件事。"
+ },
+ {
+  "seg": 79,
+  "start": 479.299,
+  "end": 488.487,
+  "speaker": "Unknown",
+  "en": "That was beginning of the year to get the Ask Questions tool in, which I believe we really needed, and then bringing it to the team to let them try it out in the product.",
+  "zh": "那是年初的时候，为了把 Ask Questions 工具加进去，我认为我们真的需要它，然后把它带给团队，让他们在产品中试用。"
+ },
+ {
+  "seg": 80,
+  "start": 489.168,
+  "end": 496.734,
+  "speaker": "Unknown",
+  "en": "Within a few weeks, we had a perfectly polished and designed experience based on my initially very scrappy PR.",
+  "zh": "在几周内，基于我最初非常粗糙的 PR，我们就有了一个打磨完善、设计精良的体验。"
+ },
+ {
+  "seg": 81,
+  "start": 497.535,
+  "end": 506.758,
+  "speaker": "Unknown",
+  "en": "But it unblocked these discussions, the participation of everybody else, because we had the ground set laid and the idea and the experience was clear.",
+  "zh": "但它解锁了这些讨论，解锁了所有其他人的参与，因为我们已经把基础铺好了，想法和体验都很清晰。"
+ },
+ {
+  "seg": 82,
+  "start": 506.778,
+  "end": 520.322,
+  "speaker": "Unknown",
+  "en": "Next up, when agents actually work on UI, and we all had this, that the agent gives you UI, and it says it looks perfect, and you open it, and it's all misaligned.",
+  "zh": "接下来，当智能体真正在 UI 上工作时，我们都有过这种经历：智能体给你一个 UI，它说看起来完美，你打开一看，全都错位了。"
+ },
+ {
+  "seg": 83,
+  "start": 520.422,
+  "end": 523.843,
+  "speaker": "Unknown",
+  "en": "Even with SVG, even with the latest models, you still get it.",
+  "zh": "即使有 SVG，即使是最新的模型，你仍然会遇到。"
+ },
+ {
+  "seg": 84,
+  "start": 525.864,
+  "end": 528.486,
+  "speaker": "Unknown",
+  "en": "It's like the number one thing I keep telling everybody now these days.",
+  "zh": "这就像是我现在一直在告诉所有人的头号问题。"
+ },
+ {
+  "seg": 85,
+  "start": 528.686,
+  "end": 541.195,
+  "speaker": "Unknown",
+  "en": "If your agent cannot use your application, your product directly to get this feedback loop of is it all working, then that's a really big investment that pays off every time you work on UI.",
+  "zh": "如果你的智能体无法直接使用你的应用程序、你的产品来获得「一切是否正常工作」的反馈循环，那么这是一项非常值得的投资，每次你做 UI 工作时都会有回报。"
+ },
+ {
+  "seg": 86,
+  "start": 542.516,
+  "end": 544.258,
+  "speaker": "Unknown",
+  "en": "And there's two areas we invested in.",
+  "zh": "我们投入了两个领域。"
+ },
+ {
+  "seg": 87,
+  "start": 545.178,
+  "end": 552.023,
+  "speaker": "Unknown",
+  "en": "One is the component browser, which is an automated build that runs every time VS Code changes something.",
+  "zh": "一个是组件浏览器，它是一个自动化构建，每次 VS Code 有变更时都会运行。"
+ },
+ {
+  "seg": 88,
+  "start": 553.124,
+  "end": 554.025,
+  "speaker": "Unknown",
+  "en": "Let me open this in.",
+  "zh": "让我打开这个。"
+ },
+ {
+  "seg": 89,
+  "start": 555.053,
+  "end": 556.594,
+  "speaker": "Unknown",
+  "en": "This issue as an example.",
+  "zh": "这个 issue 作为一个例子。"
+ },
+ {
+  "seg": 90,
+  "start": 559.936,
+  "end": 562.698,
+  "speaker": "Unknown",
+  "en": "In this case, we added a back button to our customization screen.",
+  "zh": "在这个案例中，我们在自定义设置界面添加了一个返回按钮。"
+ },
+ {
+  "seg": 91,
+  "start": 563.399,
+  "end": 572.505,
+  "speaker": "Unknown",
+  "en": "And because it's changing wide, we actually have this automated process in the back that takes screenshots of every component in VS Code and points out the differences.",
+  "zh": "因为它改变了宽度，我们实际上在后台有这个自动化流程，会截取 VS Code 中每个组件的截图，并指出差异。"
+ },
+ {
+  "seg": 92,
+  "start": 573.225,
+  "end": 582.172,
+  "speaker": "Unknown",
+  "en": "It allows us to detect unexpected changes, like changing one component as the ripple effect of something else moving or some other icon disappearing.",
+  "zh": "它让我们能够检测到意外的变更，比如改变一个组件产生了连锁反应，导致其他东西移动或其他图标消失。"
+ },
+ {
+  "seg": 93,
+  "start": 582.912,
+  "end": 589.639,
+  "speaker": "Unknown",
+  "en": "It allows you to quickly review your PR as well because you also get directly a view in what the PR is actually doing.",
+  "zh": "它也让你能够快速评审你的 PR，因为你还能直接看到这个 PR 实际上在做什么。"
+ },
+ {
+  "seg": 94,
+  "start": 590.36,
+  "end": 592.062,
+  "speaker": "Unknown",
+  "en": "And that's what we ask every developer before.",
+  "zh": "而这就是我们以前要求每个开发者做的。"
+ },
+ {
+  "seg": 95,
+  "start": 592.082,
+  "end": 601.712,
+  "speaker": "Unknown",
+  "en": "We ask them to at least attach a video or a screenshot of what they have been implementing so we don't have to run everything from scratch and we can quickly assess and give feedback.",
+  "zh": "我们要求他们至少附上一个视频或一张他们所实现内容的截图，这样我们就不用从零开始运行一切，就能快速评估并给出反馈。"
+ },
+ {
+  "seg": 96,
+  "start": 602.192,
+  "end": 604.735,
+  "speaker": "Unknown",
+  "en": "And this is now automated with the Component Explorer.",
+  "zh": "而这现在已经被 Component Explorer 自动化了。"
+ },
+ {
+  "seg": 97,
+  "start": 607.625,
+  "end": 609.087,
+  "speaker": "Unknown",
+  "en": "Next up, we have the self-correcting loop.",
+  "zh": "接下来，我们有自我纠错循环。"
+ },
+ {
+  "seg": 98,
+  "start": 609.187,
+  "end": 615.013,
+  "speaker": "Unknown",
+  "en": "Because in VS Code, we run a web browser and open a website, basically.",
+  "zh": "因为在 VS Code 里，我们运行一个网页浏览器，基本上就是打开一个网站。"
+ },
+ {
+  "seg": 99,
+  "start": 615.033,
+  "end": 615.953,
+  "speaker": "Unknown",
+  "en": "That's what VS Code is.",
+  "zh": "这就是 VS Code 的本质。"
+ },
+ {
+  "seg": 100,
+  "start": 616.014,
+  "end": 616.914,
+  "speaker": "Unknown",
+  "en": "It's all HTML.",
+  "zh": "全是 HTML。"
+ },
+ {
+  "seg": 101,
+  "start": 617.455,
+  "end": 621.96,
+  "speaker": "Unknown",
+  "en": "We can actually use Playwright to automate a lot in the browser.",
+  "zh": "我们实际上可以用 Playwright 在浏览器里自动化很多事情。"
+ },
+ {
+  "seg": 102,
+  "start": 622,
+  "end": 628.887,
+  "speaker": "Unknown",
+  "en": "So we have a slash launch skill that would just open up VS Code and give it a specific scenario to click through in VS Code.",
+  "zh": "所以我们有一个 slash launch 技能，它会打开 VS Code，并给它一个具体的场景让它在 VS Code 里点击走一遍。"
+ },
+ {
+  "seg": 103,
+  "start": 629.407,
+  "end": 640.178,
+  "speaker": "Unknown",
+  "en": "So it's a really powerful way to diagnose issues because you can also get the locks along the way, but also validate any fixes you did before and after without you having to click through it.",
+  "zh": "所以这是一种非常强大的诊断问题的方式，因为你还能在过程中拿到日志，而且还能验证你之前和之后做的任何修复，而不需要你亲自点击走一遍。"
+ },
+ {
+  "seg": 104,
+  "start": 640.619,
+  "end": 648.547,
+  "speaker": "Unknown",
+  "en": "So you can just hit launch, move on to the next task, and then come back once the agent verified its work because it can access your application.",
+  "zh": "所以你只需点一下 launch，去做下一个任务，然后等智能体验证完它的工作再回来看，因为它可以访问你的应用。"
+ },
+ {
+  "seg": 105,
+  "start": 649.97,
+  "end": 655.032,
+  "speaker": "Unknown",
+  "en": "And to call out, this is nice because we have Playwright and we are a web app running in Electron.",
+  "zh": "要指出的是，这很方便，因为我们有 Playwright，而且我们是一个跑在 Electron 里的 web 应用。"
+ },
+ {
+  "seg": 106,
+  "start": 655.673,
+  "end": 657.373,
+  "speaker": "Unknown",
+  "en": "But there's many other solutions out there.",
+  "zh": "但市面上还有很多其他方案。"
+ },
+ {
+  "seg": 107,
+  "start": 657.413,
+  "end": 662.216,
+  "speaker": "Unknown",
+  "en": "One of my favorites is Xcode MCP because on my site I work on iOS apps.",
+  "zh": "我最喜欢的一个是 Xcode MCP，因为在我这边我做的是 iOS 应用。"
+ },
+ {
+  "seg": 108,
+  "start": 662.616,
+  "end": 675.321,
+  "speaker": "Unknown",
+  "en": "And once you see Xcode MCP just creating in VS Code without Xcode involvement, just making an iOS app, opening it up, clicking through it, taking screenshots, these moments are magical and give you a really tight feedback loop as well.",
+  "zh": "当你看到 Xcode MCP 只在 VS Code 里、不借助 Xcode 就能创建一个 iOS 应用、打开它、点击走一遍、截图，这些时刻是很神奇的，而且也给你一个非常紧密的反馈循环。"
+ },
+ {
+  "seg": 109,
+  "start": 675.702,
+  "end": 678.743,
+  "speaker": "Unknown",
+  "en": "So there's other tools available for Android as well to make this work.",
+  "zh": "我们之前已经有一个 ML 在其上做排序了。"
+ },
+ {
+  "seg": 110,
+  "start": 681.622,
+  "end": 684.245,
+  "speaker": "Unknown",
+  "en": "Let's talk about code review, which I think is the next big investment.",
+  "zh": "我们来聊聊 code review，我认为这是下一个大的投入方向。"
+ },
+ {
+  "seg": 111,
+  "start": 684.285,
+  "end": 690.854,
+  "speaker": "Unknown",
+  "en": "We know in the past when we enabled code review on GitHub, the automatic GitHub Copilot one, we're not convinced yet.",
+  "zh": "我们知道过去当我们在 GitHub 上启用 code review 时，就是自动的 GitHub Copilot 那个，我们当时还不信服。"
+ },
+ {
+  "seg": 112,
+  "start": 691.174,
+  "end": 694.858,
+  "speaker": "Unknown",
+  "en": "But over the next months and weeks, they have massively improved.",
+  "zh": "但在接下来的几个月和几周里，它们有了 massively 的改进。"
+ },
+ {
+  "seg": 113,
+  "start": 694.939,
+  "end": 696.28,
+  "speaker": "Unknown",
+  "en": "And now it's a mandatory.",
+  "zh": "现在它是强制的了。"
+ },
+ {
+  "seg": 114,
+  "start": 697.181,
+  "end": 713.225,
+  "speaker": "Unknown",
+  "en": "We have a review every time somebody opens a PR, and there's more improvements coming, you actually dial in the effort that a code review does, depending on how much risk you have in this repo, so you have a low, medium, high effort for code reviews, so you can dial in kind of the cost benefit as well.",
+  "zh": "每次有人开 PR 我们都会有一个 review，而且还有更多改进在来的路上，你实际上可以根据这个仓库有多少风险来调节 code review 所下的功夫，所以你有低、中、高三档 code review 的力度，这样你也可以调节成本收益。"
+ },
+ {
+  "seg": 115,
+  "start": 713.665,
+  "end": 721.426,
+  "speaker": "Unknown",
+  "en": "But for us, after a review is done, humans will not even look at PR until all the comments are resolved and addressed.",
+  "zh": "但对我们来说，review 完成之后，在所有评论都被解决和处理完之前，人类甚至不会去看 PR。"
+ },
+ {
+  "seg": 116,
+  "start": 723.387,
+  "end": 724.267,
+  "speaker": "Unknown",
+  "en": "Okay, now we're holding",
+  "zh": "好的，现在我们保住了"
+ },
+ {
+  "seg": 117,
+  "start": 725.521,
+  "end": 726.261,
+  "speaker": "Unknown",
+  "en": "We're shipping faster.",
+  "zh": "我们出货更快了。"
+ },
+ {
+  "seg": 118,
+  "start": 726.361,
+  "end": 727.302,
+  "speaker": "Unknown",
+  "en": "We've got to hold quality.",
+  "zh": "我们必须守住质量。"
+ },
+ {
+  "seg": 119,
+  "start": 728.222,
+  "end": 733.105,
+  "speaker": "Unknown",
+  "en": "And a big signal for us, because we're on GitHub, is of course issues.",
+  "zh": "而对我们来说一个大信号，因为我们在 GitHub 上，当然就是 issues。"
+ },
+ {
+  "seg": 120,
+  "start": 733.125,
+  "end": 734.385,
+  "speaker": "Unknown",
+  "en": "Who has filed a GitHub issue?",
+  "zh": "谁提交过 GitHub issue？"
+ },
+ {
+  "seg": 121,
+  "start": 735.906,
+  "end": 738.167,
+  "speaker": "Unknown",
+  "en": "Who has had problems in VS Code before?",
+  "zh": "谁以前在 VS Code 里遇到过问题？"
+ },
+ {
+  "seg": 122,
+  "start": 739.688,
+  "end": 740.108,
+  "speaker": "Unknown",
+  "en": "Yeah, cool.",
+  "zh": "嗯，很好。"
+ },
+ {
+  "seg": 123,
+  "start": 740.348,
+  "end": 740.809,
+  "speaker": "Unknown",
+  "en": "Kind of similar.",
+  "zh": "差不多类似。"
+ },
+ {
+  "seg": 124,
+  "start": 741.109,
+  "end": 741.549,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 125,
+  "start": 741.629,
+  "end": 744.19,
+  "speaker": "Unknown",
+  "en": "The last crowd had less hands up, so it's good.",
+  "zh": "上一场举手的人更少，所以不错。"
+ },
+ {
+  "seg": 126,
+  "start": 744.45,
+  "end": 746.631,
+  "speaker": "Unknown",
+  "en": "Yeah, so it's a massive, it's a really good signal.",
+  "zh": "是的，所以这是一个海量的、非常好的信号。"
+ },
+ {
+  "seg": 127,
+  "start": 746.671,
+  "end": 755.395,
+  "speaker": "Unknown",
+  "en": "And as I said, we get sometimes even better issues now because of AI and more people with different language backgrounds being able to file very good issues.",
+  "zh": "正如我说的，因为 AI，以及更多不同语言背景的人能够提交非常好的 issue，我们现在有时甚至能拿到更好的 issue。"
+ },
+ {
+  "seg": 128,
+  "start": 756.487,
+  "end": 760.549,
+  "speaker": "Unknown",
+  "en": "But we also get a lot of issues, and previously engineers actually triaged them manually.",
+  "zh": "但我们也会收到大量 issue，以前工程师实际上是手动对它们做分类处理的。"
+ },
+ {
+  "seg": 129,
+  "start": 761.129,
+  "end": 772.414,
+  "speaker": "Unknown",
+  "en": "And now we have AI doing the filtering to get out spam, enriching and translating, in the end assigning area owners for all the issues to raise the signal-to-noise quality of this.",
+  "zh": "现在我们有 AI 来做过滤以剔除垃圾、进行充实和翻译，最后为所有 issue 指派领域负责人，以提升这个东西的信噪质量。"
+ },
+ {
+  "seg": 130,
+  "start": 774.549,
+  "end": 776.15,
+  "speaker": "Unknown",
+  "en": "We also add a human layer to that.",
+  "zh": "我们还在其上加了一层人工。"
+ },
+ {
+  "seg": 131,
+  "start": 776.25,
+  "end": 787.413,
+  "speaker": "Unknown",
+  "en": "Once you are in the issue, because the agent will make mistakes and we need that feedback loop when it makes mistakes, we create a Chrome extension that allows you to fix duplicated issues as well.",
+  "zh": "一旦你进入这个 issue，因为智能体会犯错，而它犯错时我们需要那个反馈循环，我们做了一个 Chrome 扩展，让你也能修复重复的 issue。"
+ },
+ {
+  "seg": 132,
+  "start": 787.773,
+  "end": 795.636,
+  "speaker": "Unknown",
+  "en": "So we have the agent doing the work and we have a feedback loop where humans can still fix it that we can bring back into the agent work up front.",
+  "zh": "所以我们让智能体做这项工作，同时有一个反馈循环，人类仍然可以修复它，然后我们可以把这些带回到前面的智能体工作中。"
+ },
+ {
+  "seg": 133,
+  "start": 796.136,
+  "end": 801.138,
+  "speaker": "Unknown",
+  "en": "That's a really important thing to think about as you have agents doing the work that you get the human feedback as well.",
+  "zh": "当你让智能体做工作时，这一点非常重要要想清楚：你同时也要拿到人类的反馈。"
+ },
+ {
+  "seg": 134,
+  "start": 803.723,
+  "end": 806.604,
+  "speaker": "Unknown",
+  "en": "The other input we have is a lot of error stacks.",
+  "zh": "我们拥有的另一个输入是大量的错误堆栈。"
+ },
+ {
+  "seg": 135,
+  "start": 807.064,
+  "end": 812.146,
+  "speaker": "Unknown",
+  "en": "Every time there's an exception, and most apps will have this, you get an error stack reported.",
+  "zh": "每次有异常时，大多数应用都会有这个，你会收到一个错误堆栈的上报。"
+ },
+ {
+  "seg": 136,
+  "start": 812.726,
+  "end": 814.886,
+  "speaker": "Unknown",
+  "en": "And we actually don't use any external tool for that.",
+  "zh": "而我们实际上没有为此使用任何外部工具。"
+ },
+ {
+  "seg": 137,
+  "start": 814.946,
+  "end": 817.767,
+  "speaker": "Unknown",
+  "en": "It's all in our own data, and we build all the tooling around it.",
+  "zh": "全部都在我们自己的数据里，我们围绕它构建了所有工具。"
+ },
+ {
+  "seg": 138,
+  "start": 818.327,
+  "end": 819.988,
+  "speaker": "Unknown",
+  "en": "And it's mostly, we already had it.",
+  "zh": "而且主要是，我们已经有了它。"
+ },
+ {
+  "seg": 139,
+  "start": 820.148,
+  "end": 822.749,
+  "speaker": "Unknown",
+  "en": "We already had an ML doing sorting on top.",
+  "zh": "我们已经在上面有一套机器学习在做排序了。"
+ },
+ {
+  "seg": 140,
+  "start": 823.509,
+  "end": 827.35,
+  "speaker": "Unknown",
+  "en": "And this is now actually done by a mix of criteria.",
+  "zh": "而现在这实际上是由一套标准混合完成的。"
+ },
+ {
+  "seg": 141,
+  "start": 828.23,
+  "end": 830.071,
+  "speaker": "Unknown",
+  "en": "So one is we collect the raw telemetry.",
+  "zh": "其中之一是我们收集原始遥测数据。"
+ },
+ {
+  "seg": 142,
+  "start": 830.271,
+  "end": 832.892,
+  "speaker": "Unknown",
+  "en": "We filter it down, and it's like 51 billion per day.",
+  "zh": "我们把它过滤下来，大概是每天 510 亿条。"
+ },
+ {
+  "seg": 143,
+  "start": 833.871,
+  "end": 837.452,
+  "speaker": "Unknown",
+  "en": "We filter it down to just error stacks that actually have the full stack.",
+  "zh": "我们把它过滤到只剩那些真正有完整堆栈的错误堆栈。"
+ },
+ {
+  "seg": 144,
+  "start": 837.912,
+  "end": 839.712,
+  "speaker": "Unknown",
+  "en": "Then we group it and bucket it.",
+  "zh": "然后我们对它进行分组和分桶。"
+ },
+ {
+  "seg": 145,
+  "start": 839.752,
+  "end": 841.713,
+  "speaker": "Unknown",
+  "en": "That's more of the fingerprinting exercise.",
+  "zh": "那更像是指纹化的工作。"
+ },
+ {
+  "seg": 146,
+  "start": 842.233,
+  "end": 852.796,
+  "speaker": "Unknown",
+  "en": "And then in the end, after we do all of that, we have 10 issues filed assigned to specific error owners that a PR is auto-created to actually already try to fix the problem.",
+  "zh": "而最后，在我们做完所有这些之后，我们有 10 个被提交并指派给特定错误负责人的 issue，并且会自动创建一个 PR 来实际尝试修复这个问题。"
+ },
+ {
+  "seg": 147,
+  "start": 855.156,
+  "end": 862.198,
+  "speaker": "Unknown",
+  "en": "This is our error page where we see all the stacks, including how many hits and how many users affected, so we can quickly react to anything that's coming.",
+  "zh": "这是我们的错误页面，我们在那里看到所有的堆栈，包括命中次数和受影响的用户数，这样我们就能快速对任何出现的情况做出反应。"
+ },
+ {
+  "seg": 148,
+  "start": 863.973,
+  "end": 869.797,
+  "speaker": "Unknown",
+  "en": "And once we have this working, we get an issue filed and the PR automatically opened.",
+  "zh": "一旦我们把这套跑通，我们就会有一个 issue 被提交、PR 被自动打开。"
+ },
+ {
+  "seg": 149,
+  "start": 870.117,
+  "end": 873.519,
+  "speaker": "Unknown",
+  "en": "This is the issue, this is the error with some initial diagnosis.",
+  "zh": "这是这个 issue，这是这个错误，附带一些初步的诊断。"
+ },
+ {
+  "seg": 150,
+  "start": 874.139,
+  "end": 875.38,
+  "speaker": "Unknown",
+  "en": "And then the PR got opened.",
+  "zh": "然后这个 PR 就被打开了。"
+ },
+ {
+  "seg": 151,
+  "start": 876.881,
+  "end": 880.283,
+  "speaker": "Unknown",
+  "en": "And the agent actually goes in and finds out why this has happened.",
+  "zh": "然后智能体实际上会深入进去，查明这一切发生的原因。"
+ },
+ {
+  "seg": 152,
+  "start": 881.163,
+  "end": 882.184,
+  "speaker": "Unknown",
+  "en": "Who was responsible?",
+  "zh": "谁该负责？"
+ },
+ {
+  "seg": 153,
+  "start": 882.284,
+  "end": 882.904,
+  "speaker": "Unknown",
+  "en": "In this case,",
+  "zh": "在这个案例里，"
+ },
+ {
+  "seg": 154,
+  "start": 884.412,
+  "end": 894.303,
+  "speaker": "Unknown",
+  "en": "Also, Artigo added a change that was connected to this to find find symbols, and then it figured that the on cancellation request wasn't in the RPC protocol.",
+  "zh": "另外，Artigo 添加了一个与此相关的变更，用来查找 find symbols，然后它发现 on cancellation request 不在 RPC 协议中。"
+ },
+ {
+  "seg": 155,
+  "start": 894.864,
+  "end": 899.108,
+  "speaker": "Unknown",
+  "en": "So the agent already opened the PR, we could just merge it, and that's a really great automated way.",
+  "zh": "所以智能体已经打开了 PR，我们只需要合并它，这是一种非常棒的自动化方式。"
+ },
+ {
+  "seg": 156,
+  "start": 899.128,
+  "end": 902.212,
+  "speaker": "Unknown",
+  "en": "You don't care about errors, you just want to get a more stable code base.",
+  "zh": "你不在乎错误，你只想要一个更稳定的代码库。"
+ },
+ {
+  "seg": 157,
+  "start": 905.111,
+  "end": 921.378,
+  "speaker": "Unknown",
+  "en": "So all of this automated, the triage initially, mix of agents and deterministic systems, then the issue is filed, handed off to an agent in the PR, multi-agent system, and in the end we have fixes landing mostly automatically with some human oversight to still approve the PR.",
+  "zh": "所以这一切都是自动化的：最初是分诊，智能体和确定性系统的混合，然后提交 issue，移交给一个智能体生成 PR，多智能体系统，最后我们的修复大部分自动落地，同时保留一些人工监督来批准 PR。"
+ },
+ {
+  "seg": 158,
+  "start": 925.34,
+  "end": 925.6,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "就是这么回事。"
+ },
+ {
+  "seg": 159,
+  "start": 926.995,
+  "end": 931.497,
+  "speaker": "Unknown",
+  "en": "So previously, VS Code did YOLO releases in a way that it was release day.",
+  "zh": "以前，VS Code 在某种程度上是进行 YOLO 式发布的，到了发布日。"
+ },
+ {
+  "seg": 160,
+  "start": 932.017,
+  "end": 932.817,
+  "speaker": "Unknown",
+  "en": "Everything was stable.",
+  "zh": "一切都是稳定的。"
+ },
+ {
+  "seg": 161,
+  "start": 932.837,
+  "end": 933.737,
+  "speaker": "Unknown",
+  "en": "We did our testing.",
+  "zh": "我们做了测试。"
+ },
+ {
+  "seg": 162,
+  "start": 933.817,
+  "end": 935.498,
+  "speaker": "Unknown",
+  "en": "And we shipped the release to 100%.",
+  "zh": "然后我们把发布推送到 100% 的用户。"
+ },
+ {
+  "seg": 163,
+  "start": 935.898,
+  "end": 937.178,
+  "speaker": "Unknown",
+  "en": "We just opened the floodgates.",
+  "zh": "我们直接打开闸门。"
+ },
+ {
+  "seg": 164,
+  "start": 938.059,
+  "end": 940.56,
+  "speaker": "Unknown",
+  "en": "But because of agents, we want to de-risk that process.",
+  "zh": "但因为有了智能体，我们想降低这个流程的风险。"
+ },
+ {
+  "seg": 165,
+  "start": 940.58,
+  "end": 941.84,
+  "speaker": "Unknown",
+  "en": "And we should have probably done it earlier.",
+  "zh": "我们也许本应该更早这么做。"
+ },
+ {
+  "seg": 166,
+  "start": 942.24,
+  "end": 944.041,
+  "speaker": "Unknown",
+  "en": "So now, actually, we do staged rollouts.",
+  "zh": "所以现在，实际上我们做分阶段发布。"
+ },
+ {
+  "seg": 167,
+  "start": 944.821,
+  "end": 948.662,
+  "speaker": "Unknown",
+  "en": "And as we do the rollout, we monitor error locks and issues and everything else.",
+  "zh": "在发布过程中，我们监控错误日志、issue 以及其他所有东西。"
+ },
+ {
+  "seg": 168,
+  "start": 948.702,
+  "end": 956.745,
+  "speaker": "Unknown",
+  "en": "So just like good citizens in a web application, we now apply the same because rollbacks on an install app are so expensive.",
+  "zh": "就像 Web 应用领域的良好公民一样，我们现在也应用同样的做法，因为对已安装应用做回滚的代价太大了。"
+ },
+ {
+  "seg": 169,
+  "start": 958.993,
+  "end": 961.858,
+  "speaker": "Unknown",
+  "en": "Okay, now we have this shipping faster, shipping at quality.",
+  "zh": "好的，现在我们实现了更快地发布、有质量地发布。"
+ },
+ {
+  "seg": 170,
+  "start": 962.259,
+  "end": 968.27,
+  "speaker": "Unknown",
+  "en": "How do we actually do this in a speed that we actually learn faster, which is a bigger challenge with AI?",
+  "zh": "那么我们如何真正做到以更快的速度去学习？这在 AI 时代是一个更大的挑战。"
+ },
+ {
+  "seg": 171,
+  "start": 968.29,
+  "end": 970.794,
+  "speaker": "Unknown",
+  "en": "You actually want to build a better product faster.",
+  "zh": "你实际上是想更快地打造更好的产品。"
+ },
+ {
+  "seg": 172,
+  "start": 972.115,
+  "end": 974.177,
+  "speaker": "Unknown",
+  "en": "So one of the examples is our VSC bench.",
+  "zh": "其中一个例子就是我们的 VSC bench。"
+ },
+ {
+  "seg": 173,
+  "start": 974.718,
+  "end": 983.387,
+  "speaker": "Unknown",
+  "en": "We're shipping an agentic product, so it's important that we have our own evals of our product always at hand and being really easy to extend.",
+  "zh": "我们在发布一个智能体化的产品，所以重要的是我们要有自己的产品评测，随时可用，而且非常容易扩展。"
+ },
+ {
+  "seg": 174,
+  "start": 983.807,
+  "end": 985.068,
+  "speaker": "Unknown",
+  "en": "It's all in the GitHub issue.",
+  "zh": "一切都在 GitHub issue 里。"
+ },
+ {
+  "seg": 175,
+  "start": 985.229,
+  "end": 985.929,
+  "speaker": "Unknown",
+  "en": "It's all in GitHub.",
+  "zh": "一切都在 GitHub 上。"
+ },
+ {
+  "seg": 176,
+  "start": 986.29,
+  "end": 992.897,
+  "speaker": "Unknown",
+  "en": "When we file an issue to add a new scenario, there's actually an agent picking up from a template and bootstrapping the scenario for you.",
+  "zh": "当我们提交一个添加新场景的 issue 时，实际上会有一个智能体从模板接手，为你搭建好该场景的初始框架。"
+ },
+ {
+  "seg": 177,
+  "start": 993.317,
+  "end": 1006.21,
+  "speaker": "Unknown",
+  "en": "So to make it as easy as possible to bring in all the developer scenarios that are coming up in issues through customer conversations through all these channels to bring them back into our evals so we can start hill climbing actually against them.",
+  "zh": "这样就能尽可能轻松地把所有开发者场景——来自 issue、来自客户对话、来自所有这些渠道——收回到我们的评测中，这样我们就可以真正开始针对它们进行爬坡优化。"
+ },
+ {
+  "seg": 178,
+  "start": 1006.83,
+  "end": 1012.015,
+  "speaker": "Unknown",
+  "en": "And then also confirm that it's all improving offline and then an online experimentation.",
+  "zh": "然后还要确认一切在离线评测中确实在改善，接着是在线实验。"
+ },
+ {
+  "seg": 179,
+  "start": 1012.416,
+  "end": 1015.819,
+  "speaker": "Unknown",
+  "en": "So classic product lifecycle for us.",
+  "zh": "这就是我们经典的产品生命周期。"
+ },
+ {
+  "seg": 180,
+  "start": 1018.075,
+  "end": 1020.938,
+  "speaker": "Unknown",
+  "en": "And we see these interesting things in our stack.",
+  "zh": "而且我们在自己的技术栈中看到了这些有趣的事情。"
+ },
+ {
+  "seg": 181,
+  "start": 1021.019,
+  "end": 1022.881,
+  "speaker": "Unknown",
+  "en": "Understanding your evals is critical.",
+  "zh": "理解你的评测是至关重要的。"
+ },
+ {
+  "seg": 182,
+  "start": 1023.542,
+  "end": 1032.953,
+  "speaker": "Unknown",
+  "en": "One experiment we did that you can read about on our blog is that we gave a very simple eval scenario of just write a file with hello world.",
+  "zh": "我们做过一个实验，你可以在我们的博客上读到：我们给出了一个非常简单的评测场景，就是写一个包含 hello world 的文件。"
+ },
+ {
+  "seg": 183,
+  "start": 1033.654,
+  "end": 1037.178,
+  "speaker": "Unknown",
+  "en": "Just testing out our eval harness end to end and how different models react.",
+  "zh": "只是为了端到端地测试我们的评测框架，以及不同模型如何反应。"
+ },
+ {
+  "seg": 184,
+  "start": 1038.423,
+  "end": 1044.149,
+  "speaker": "Unknown",
+  "en": "The same five character file took the most expensive model 70x more tokens.",
+  "zh": "同样一个五个字符的文件，最贵的模型消耗了 70 倍的 token。"
+ },
+ {
+  "seg": 185,
+  "start": 1044.889,
+  "end": 1046.551,
+  "speaker": "Unknown",
+  "en": "And that was not the high reasoning model.",
+  "zh": "而且那还不是高推理档的模型。"
+ },
+ {
+  "seg": 186,
+  "start": 1046.731,
+  "end": 1047.872,
+  "speaker": "Unknown",
+  "en": "You can read more about Unblock.",
+  "zh": "你可以在 Unblock 上读到更多。"
+ },
+ {
+  "seg": 187,
+  "start": 1047.892,
+  "end": 1049.314,
+  "speaker": "Unknown",
+  "en": "We actually don't talk about the models.",
+  "zh": "我们实际上不会谈论具体是哪些模型。"
+ },
+ {
+  "seg": 188,
+  "start": 1049.734,
+  "end": 1055.64,
+  "speaker": "Unknown",
+  "en": "But just that insight in how your models react with your harness is extremely, it's a very important exercise.",
+  "zh": "但仅仅是了解你的模型如何与你的框架互动这个洞察，就极其……这是一项非常重要的练习。"
+ },
+ {
+  "seg": 189,
+  "start": 1058.42,
+  "end": 1067.388,
+  "speaker": "Unknown",
+  "en": "Next up we have prototyping, which I do a lot of because I noticed that I don't actually want to land most of my work into VS Code PRs itself.",
+  "zh": "接下来是原型制作，我经常做这件事，因为我注意到我其实并不想把我的大部分工作直接合入 VS Code 的 PR 本身。"
+ },
+ {
+  "seg": 190,
+  "start": 1067.828,
+  "end": 1073.594,
+  "speaker": "Unknown",
+  "en": "It's a great way to start a conversation, but most often I want to have a quick conversation because now we're meeting on a daily basis.",
+  "zh": "这是开启对话的好方式，但更多时候我只是想要一次快速的交流，因为现在我们每天都在见面。"
+ },
+ {
+  "seg": 191,
+  "start": 1074.688,
+  "end": 1081.17,
+  "speaker": "Unknown",
+  "en": "Where we just want to have very quick feedback loops on here's the idea, here's how it could look like, what if we do this?",
+  "zh": "我们只想要非常快速的反馈循环：这是这个想法，这是它可能的样子，如果我们这样做会怎么样？"
+ },
+ {
+  "seg": 192,
+  "start": 1081.55,
+  "end": 1086.051,
+  "speaker": "Unknown",
+  "en": "Next day you come back with updated prototypes and you just keep having this conversation.",
+  "zh": "第二天你带着更新后的原型回来，然后继续这样的对话。"
+ },
+ {
+  "seg": 193,
+  "start": 1086.451,
+  "end": 1098.674,
+  "speaker": "Unknown",
+  "en": "So much quicker feedback from a month release cycle to weekly to daily sprints where you just keep working on problems and prototypes unlock those deeper discussions and how the experience should look like.",
+  "zh": "反馈快得多——从一个月的发布周期到每周，再到每日冲刺，你就这样持续在问题和原型上工作，原型解锁了那些更深入的讨论，以及体验应该是什么样子。"
+ },
+ {
+  "seg": 194,
+  "start": 1101.988,
+  "end": 1105.091,
+  "speaker": "Unknown",
+  "en": "It also means that we have the durable ownership in the thermal work stream.",
+  "zh": "这也意味着我们在热身工作流中有持久稳定的归属。"
+ },
+ {
+  "seg": 195,
+  "start": 1105.111,
+  "end": 1116.502,
+  "speaker": "Unknown",
+  "en": "As I mentioned, daily sprints, smaller squads, smaller work streams that really prioritize and drive smaller sets of areas to move faster.",
+  "zh": "正如我提到的，每日冲刺、更小的 squad、更小的工作流，真正优先聚焦并驱动一小块领域，以更快地推进。"
+ },
+ {
+  "seg": 196,
+  "start": 1117.685,
+  "end": 1118.605,
+  "speaker": "Unknown",
+  "en": "So try these things.",
+  "zh": "所以去尝试这些事情吧。"
+ },
+ {
+  "seg": 197,
+  "start": 1119.345,
+  "end": 1127.547,
+  "speaker": "Unknown",
+  "en": "Find out where your bottlenecks are to actually ship higher quality, ship faster, and learn faster, and fix that next bottleneck.",
+  "zh": "找出你的瓶颈在哪里，以真正更高质量地发布、更快地发布、更快地学习，然后修复下一个瓶颈。"
+ },
+ {
+  "seg": 198,
+  "start": 1128.227,
+  "end": 1132.789,
+  "speaker": "Unknown",
+  "en": "And don't just tune how you work with agents, but tune how they get feedback.",
+  "zh": "而且不只是调整你如何与智能体协作，还要调整它们如何获得反馈。"
+ },
+ {
+  "seg": 199,
+  "start": 1132.829,
+  "end": 1133.869,
+  "speaker": "Unknown",
+  "en": "How do you build these loops?",
+  "zh": "你如何构建这些循环？"
+ },
+ {
+  "seg": 200,
+  "start": 1135.149,
+  "end": 1143.351,
+  "speaker": "Unknown",
+  "en": "And then figure out, after you have these success moments, how can you improve that feedback loop for the next moment of what's blocking you to move even faster?",
+  "zh": "然后在你拥有这些成功时刻之后，想办法如何改进反馈循环，针对下一个阻碍你的时刻，以便移动得更快？"
+ },
+ {
+  "seg": 201,
+  "start": 1144.291,
+  "end": 1146.852,
+  "speaker": "Unknown",
+  "en": "And it's a constant interest cycle across all these ones.",
+  "zh": "这是一个贯穿所有这些环节的持续循环。"
+ },
+ {
+  "seg": 202,
+  "start": 1149.678,
+  "end": 1150.639,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这些。"
+ },
+ {
+  "seg": 203,
+  "start": 1150.679,
+  "end": 1151.499,
+  "speaker": "Unknown",
+  "en": "Happy to chat now.",
+  "zh": "现在很乐意和大家聊天。"
+ },
+ {
+  "seg": 204,
+  "start": 1152.32,
+  "end": 1153.941,
+  "speaker": "Unknown",
+  "en": "Otherwise, happy coding.",
+  "zh": "否则，祝编码愉快。"
+ }
+]

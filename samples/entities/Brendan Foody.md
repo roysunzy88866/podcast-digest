@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":7,"后训练":1,"验证器":6,"合成数据":8,"超长时程":1,"虚拟同事":1,"RLHF":5,"智能体数据时代":1,"基座模型":2}</script>
+<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":7,"后训练":1,"验证器":7,"合成数据":8,"超长时程":1,"虚拟同事":1,"RLHF":5,"智能体数据时代":1,"基座模型":2}</script>
 
 <script>
 (function(){

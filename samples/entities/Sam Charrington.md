@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Damian Borth]] · [[Max Welling]] · [[Justin Johnson]] · [[Chris Potts]] · [[Greg Burnham]] · [[Hugging Face]] · [[cusp.ai]] · [[World Labs]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"Meta":43,"Damian Borth":1,"Max Welling":1,"Justin Johnson":2,"Chris Potts":1,"Greg Burnham":1,"Hugging Face":29,"cusp.ai":1,"World Labs":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"Meta":44,"Damian Borth":1,"Max Welling":1,"Justin Johnson":2,"Chris Potts":1,"Greg Burnham":1,"Hugging Face":29,"cusp.ai":1,"World Labs":4}</script>
 
 <script>
 (function(){

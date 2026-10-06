@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BENT":1,"gem":2,"智能体":411,"多智能体协调":3,"分布式系统":1,"循环工程":5,"MCP":76,"A2A 协议":2,"Claude":90,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"BENT":1,"gem":2,"智能体":417,"多智能体协调":3,"分布式系统":1,"循环工程":5,"MCP":78,"A2A 协议":2,"Claude":90,"Codex":80}</script>
 
 <script>
 (function(){

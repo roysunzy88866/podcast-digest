@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":175,"Claude":90,"Claude Code":94,"MCP":76,"harness":56,"开源模型":4,"多模型世界":1,"token":31,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":177,"Claude":90,"Claude Code":95,"MCP":78,"harness":56,"开源模型":4,"多模型世界":1,"token":31,"OpenRouter":14}</script>
 
 <script>
 (function(){

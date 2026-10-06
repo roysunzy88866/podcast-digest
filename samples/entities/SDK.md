@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Boris]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[LLM]] · [[GitHub]] · [[JetBrains]] · [[Docker]]
+[[Boris]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[LLM]] · [[GitHub]] · [[VS Code]] · [[JetBrains]]
 
-<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":175,"Claude Code":94,"智能体":411,"ClaudeMD":3,"MCP":76,"LLM":55,"GitHub":29,"JetBrains":2,"Docker":5}</script>
+<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":177,"Claude Code":95,"智能体":417,"ClaudeMD":3,"MCP":78,"LLM":55,"GitHub":29,"VS Code":6,"JetBrains":2}</script>
 
 <script>
 (function(){

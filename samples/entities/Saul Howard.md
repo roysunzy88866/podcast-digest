@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Christopher Lovejoy]] · [[Anthropic]] · [[智能体]] · [[审计轨迹]] · [[交易日志]] · [[对象存储]] · [[零信任]] · [[提示词注入]] · [[PHI]] · [[评估]]
+[[Christopher Lovejoy]] · [[Anthropic]] · [[智能体]] · [[审计轨迹]] · [[交易日志]] · [[事件溯源]] · [[对象存储]] · [[零信任]] · [[提示词注入]] · [[PHI]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":175,"智能体":411,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":177,"智能体":417,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

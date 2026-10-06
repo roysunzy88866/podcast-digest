@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Series A</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Series A">SE</div><div class="pi"><h1 class="pt">Series A</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Series A">SE</div><div class="pi"><h1 class="pt">Series A</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]]**(01:38起):本集顺带提到 X 项目毕业时通常处于 seed 或 Series A 阶段的 Product Market Fit,X 完全接受这一点
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(32:22起):本集说它「是当今最糟糕的位置」:种子到 A 轮时间被极大压缩,几百万 ARR、五个 POC 算不上多大信号,估值却从 5000 万涨到 2 亿
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(17:12起):本集说他们第二年做了 A 轮融资(350 万美元,2018 年 3 月交割),是在财富 500 强客户主动来电之后。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]] — 作为概念(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为概念
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Astro Teller]] · [[Harry Stebbings]] · [[X]] · [[Matt Murphy]] · [[Alphabet]] · [[Anthropic]] · [[Waymo]] · [[Menlo]] · [[Google Brain]] · [[OpenAI]]
+[[产品市场契合]] · [[Astro Teller]] · [[Harry Stebbings]] · [[AJ Loiacono]] · [[X]] · [[Matt Murphy]] · [[Judy Health]] · [[Alphabet]] · [[Anthropic]] · [[Capital RX]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"Harry Stebbings":20,"X":3,"Matt Murphy":2,"Alphabet":1,"Anthropic":175,"Waymo":17,"Menlo":2,"Google Brain":1,"OpenAI":164}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":27,"Astro Teller":1,"Harry Stebbings":20,"AJ Loiacono":1,"X":3,"Matt Murphy":2,"Judy Health":1,"Alphabet":1,"Anthropic":177,"Capital RX":1}</script>
 
 <script>
 (function(){

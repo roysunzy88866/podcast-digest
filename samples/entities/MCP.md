@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>76</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>78</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,6 +32,7 @@ unlisted: true
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
 - **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(10:13起):本集说它是「把企业自己的数据接进模型的连接标准」，Anthropic 做了 MCP 让你连接所有数据，被称为「了不起的突破」
+- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]]**(33:19起):本集说 MCP 开箱自带 OAuth 支持，与 CLI 构成生态里的大战；Ian 的判断是 MCP 和 CLI 不是二选一，还要加上 PAM，三者结合。
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(05:27起):本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用
 - **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(18:19起):本集说 MCP 是让 AI 模型调用外部工具的标准协议,Render 提供 MCP server 让智能体拉日志、部署数据和指标来调试失败的部署,是其头号用途之一。
 - **[[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]]**(09:02起):本集说 MCP 是一种让 AI 智能体调用外部工具的协议，但大多数公共 MCP 服务成功率只有 60%，且协议本身不覆盖治理层、可观测性、DLP 等企业需求
@@ -82,6 +83,7 @@ unlisted: true
 - **[[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]]**(04:13起):本集把它说成:把智能体当作工具调用的协议,完全无状态——想让两个智能体保持状态、有粘性会话,「祝你好运」。
 - **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(00:20起):本集说它是 Anthropic 差不多两年前推出的、安全访问工具和资源、用于智能体与工具交互的标准，被 Claude 和 ChatGPT 采用，社区已有约 1 万到 1.5 万个 MCP 服务器；遭到大量批评，但演讲者认为问题出在 harness 而非协议本身。
 - **[[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]]**(09:29起):本集提到通过 MCP 就能调用 EXA，基本覆盖所有支持 MCP 的提供商
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(03:47起):可扩展的插件系统，100 倍工程师用它疯狂产出代码；也通过 Xcode MCP 让智能体不打开 Xcode 就能创建并截图 iOS 应用
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(31:56起):本集把 MCP 描述为让智能体调用外部工具的标准接口:Notion 做了 MCP 后突然涌入海量智能体流量,你可以暂时把接口按住不发,但这是不可避免的。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(12:10起):本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(02:08起):本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。
@@ -121,7 +123,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*76 集*
+*78 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -144,6 +146,7 @@ unlisted: true
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为概念
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为概念
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为概念
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]] — 作为概念
@@ -194,6 +197,7 @@ unlisted: true
 - [[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]] — 作为概念
 - [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
 - [[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]] — 作为概念(提及)
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为概念
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为概念(提及)
@@ -206,7 +210,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[harness]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"Claude":90,"Anthropic":175,"Codex":80,"Claude Code":94,"护栏":77,"OpenAI":164,"harness":56,"沙箱":76,"Cursor":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"Claude":90,"Anthropic":177,"Codex":80,"Claude Code":95,"护栏":77,"OpenAI":165,"harness":56,"沙箱":78,"Cursor":80}</script>
 
 <script>
 (function(){

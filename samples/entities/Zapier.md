@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zapier</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Zapier">ZA</div><div class="pi"><h1 class="pt">Zapier</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Zapier">ZA</div><div class="pi"><h1 class="pt">Zapier</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(00:03起):本集主角：做了 15 年自动化的平台，现拥有智能体、聊天机器人、MCP 服务器、SDK 和护栏产品的完整 AI 组合；Wade 把它定位为接入用户日常主力工具的 Uber 式工具，而非平台。
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(00:02起):本集主线公司：CEO Wade Foster 展示其 AI 熟练度评分标准、内部 PM 工作方式与个人智能体，并谈其增长与确定性自动化定位
 - **[[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]]**(16:47起):本集最推崇的案例：用智能体生态把站会从每周五次减到两次、入职缩到约两周；人均多创造 15% 价值后以公司史上最大规模招人。
+- **[[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]]**(14:57起):本集把它说成：同类自动化竞品，但 N8N 从第一天就专注强大与灵活（代码节点、自定义记忆、备用模型、自托管），用例一复杂就拉开差距；自托管是 Zapier 的 SaaS 方案给不了的。
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为被讨论公司(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念
 - [[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Salesforce]] · [[n8n]] · [[Wade Foster]] · [[ChatGPT]] · [[MCP]] · [[OpenAI]] · [[Anthropic]] · [[Jan Oberhauser]] · [[Nathan]]
+[[智能体]] · [[n8n]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[Lindy]] · [[工作流]] · [[MCP]] · [[人在回路]] · [[自托管]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"Salesforce":34,"n8n":3,"Wade Foster":2,"ChatGPT":97,"MCP":76,"OpenAI":164,"Anthropic":175,"Jan Oberhauser":1,"Nathan":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"n8n":4,"Salesforce":34,"Jan Oberhauser":2,"Wade Foster":2,"Lindy":4,"工作流":11,"MCP":78,"人在回路":20,"自托管":2}</script>
 
 <script>
 (function(){

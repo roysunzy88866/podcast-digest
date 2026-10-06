@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]] [[Vlad Kyle]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Composio":2,"智能体":411,"MCP":76,"仪表盘":2,"上下文窗口":14,"Claude":90,"Anthropic":175}</script>
+<script type="application/json" class="pd-epn">{"Composio":2,"智能体":417,"MCP":78,"仪表盘":2,"上下文窗口":14,"Claude":90,"Anthropic":177}</script>
 
 <script>
 (function(){

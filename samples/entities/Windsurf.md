@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Windsurf</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Windsurf">WI</div><div class="pi"><h1 class="pt">Windsurf</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Windsurf">WI</div><div class="pi"><h1 class="pt">Windsurf</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]]**(00:23起):本集把它说成:AI 编程编辑器,公司内部用它把构建应用的时间缩短超 40%、写了 80-90% 的软件,目标是把构建技术的时间减少 99%。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(29:51起):本集将其作为数据飞轮的完美例子：先在 Claude 上构建，收集了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型。
 - **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(33:13起):本集说 Graham 此前在 Windsurf（前身 Codeium）负责销售，经 Mamoon 介绍认识 Parag，先投资公司几个月后才正式加入负责规模化 GTM。
+- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(40:37起):本集说 Lada 最早用 Windsurf 的 Agent,但要在它和 IntelliJ 重构工具间来回切换让她不满,最终转向终端。
 - **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(23:24起):本集说公司里大约三分之一的人使用 AI 编码工具，比如 Windsurf
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(15:52起):本集提到 Windsurf 在 YC 圈子里获得大量用户使用，形成了一波运动
 
@@ -25,11 +26,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为被讨论公司
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司(提及)
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为被讨论公司(提及)
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 
@@ -37,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Copilot]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]] · [[Corinne Riley]] · [[Lenny]] · [[Parallel]] · [[Ben]] · [[Sarah Wang]]
+[[智能体]] · [[Copilot]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Corinne Riley]] · [[Lenny]] · [[Parallel]] · [[Lada Kesseler]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"Copilot":12,"ChatGPT":97,"OpenAI":164,"Cursor":80,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Ben":1,"Sarah Wang":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"Copilot":12,"ChatGPT":98,"OpenAI":165,"Anthropic":177,"Cursor":80,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Lada Kesseler":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kirthana Gopalakrishnan]] · [[Google DeepMind]] · [[人形机器人]] · [[VLA]] · [[泛化]] · [[跨载体]] · [[模拟]] · [[遥操作]] · [[世界建模]] · [[ICL]]
 
-<script type="application/json" class="pd-epn">{"Kirthana Gopalakrishnan":1,"Google DeepMind":6,"人形机器人":1,"VLA":3,"泛化":4,"跨载体":1,"模拟":7,"遥操作":1,"世界建模":1,"ICL":1}</script>
+<script type="application/json" class="pd-epn">{"Kirthana Gopalakrishnan":1,"Google DeepMind":7,"人形机器人":1,"VLA":3,"泛化":4,"跨载体":1,"模拟":7,"遥操作":1,"世界建模":1,"ICL":1}</script>
 
 <script>
 (function(){

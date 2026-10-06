@@ -7,28 +7,30 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>n8n</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="n8n">N8</div><div class="pi"><h1 class="pt">n8n</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="n8n">N8</div><div class="pi"><h1 class="pt">n8n</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(69:41起):本集提到 N8N 从 700 万到 1 亿 ARR 的惊人增长，作为 Zapier 新对手
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(16:50起):本集说 N8N 这类开发者在头部消费者中的占比远超平均，是重度用户花钱的主要去向之一。
+- **[[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]]**(00:21起):本集把它说成：一个可视化工作流编排平台，连接工具、LLM 和数据源，靠 AI + 确定性逻辑 + 人工在环让业务关键自动化可靠、安全、可审计地运行；去年收入涨 10 倍、52 亿美元估值、150 万活跃用户。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为被讨论公司
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Zapier]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[Olivia Moore]] · [[工作流]]
+[[智能体]] · [[Zapier]] · [[Jan Oberhauser]] · [[Lindy]] · [[工作流]] · [[人在回路]] · [[自托管]] · [[可审计性]] · [[ChatGPT]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"ChatGPT":97,"OpenAI":164,"Anthropic":175,"Zapier":4,"Salesforce":34,"Jan Oberhauser":1,"Wade Foster":2,"Olivia Moore":2,"工作流":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"Zapier":5,"Jan Oberhauser":2,"Lindy":4,"工作流":11,"人在回路":20,"自托管":2,"可审计性":2,"ChatGPT":98,"OpenAI":165}</script>
 
 <script>
 (function(){

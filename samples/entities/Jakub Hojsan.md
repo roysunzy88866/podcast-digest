@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Josh Goldberg]] [[David Burns]]
+[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Josh Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":80,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":411,"网页搜索":2,"知识截止日期":1,"代码审查":23,"语义搜索":2}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":80,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":417,"网页搜索":2,"知识截止日期":1,"代码审查":24,"语义搜索":2}</script>
 
 <script>
 (function(){

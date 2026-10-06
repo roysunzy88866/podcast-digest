@@ -31,17 +31,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Akash]] · [[Codex]] · [[Cursor]] · [[obsidian]] · [[hey gen]] · [[智能体]] · [[上下文]] · [[护栏]] · [[Figma]] · [[playwright]]
+[[Akash]] · [[Codex]] · [[Cursor]] · [[obsidian]] · [[hey gen]] · [[智能体]] · [[上下文]] · [[护栏]] · [[Figma]] · [[VS Code]]
 
 ## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
+[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"Codex":80,"Cursor":80,"obsidian":1,"hey gen":1,"智能体":411,"上下文":26,"护栏":77,"Figma":22,"playwright":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Codex":80,"Cursor":80,"obsidian":1,"hey gen":1,"智能体":417,"上下文":26,"护栏":77,"Figma":22,"VS Code":6}</script>
 
 <script>
 (function(){

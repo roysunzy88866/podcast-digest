@@ -225,8 +225,8 @@ Olivia 有一张图表对比 Web 2 时代与 AI 原生产品品类：迄今为�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Claude、OpenAI、Town、Google、Meta · 同概念:智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Anthropic、Instinct、Muse、OpenAI、Amazon、ChatGPT、Google、Meta · 同概念:智能体 (agent)、订阅 (subscription)</span>
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手]]<span class="pd-rz">同公司:ChatGPT、Instinct、Muse、OpenClaw、Amazon、Shopify · 同概念:智能体 (agent)</span>
-- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Anthropic、Google · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

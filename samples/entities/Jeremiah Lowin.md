@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":76,"FastMCP":1,"Prefab":1,"智能体":411,"沙箱":76,"生成式 UI":4,"Claude":90}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":78,"FastMCP":1,"Prefab":1,"智能体":417,"沙箱":78,"生成式 UI":4,"Claude":90}</script>
 
 <script>
 (function(){

@@ -159,7 +159,7 @@ Matt 对人才的标准在过去一两年发生了 180 度转变 <button class="
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Google、Meta、ChatGPT · 同概念:PLG、智能体 (agent)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Google、Meta · 同概念:智能体 (agent)</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Google、Meta、Claude Code</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Google、Meta · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

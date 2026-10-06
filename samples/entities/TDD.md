@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TDD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TDD">TD</div><div class="pi"><h1 class="pt">TDD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TDD">TD</div><div class="pi"><h1 class="pt">TDD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,8 +23,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为概念
 - [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]] — 作为概念
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为概念(提及)
 - [[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]] — 作为概念
@@ -33,9 +34,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[护栏]] · [[Eyal Blum]] · [[Robert Lucero]] · [[Brian Hook]] · [[Figma]] · [[Brian Houck]] · [[Moritz Beller]] · [[验证]] · [[Okta]]
+[[智能体]] · [[护栏]] · [[Lada Kesseler]] · [[Eyal Blum]] · [[Robert Lucero]] · [[Brian Hook]] · [[智能体编码]] · [[Figma]] · [[Brian Houck]] · [[Moritz Beller]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"护栏":77,"Eyal Blum":1,"Robert Lucero":1,"Brian Hook":1,"Figma":22,"Brian Houck":1,"Moritz Beller":1,"验证":1,"Okta":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"护栏":77,"Lada Kesseler":1,"Eyal Blum":1,"Robert Lucero":1,"Brian Hook":1,"智能体编码":4,"Figma":22,"Brian Houck":1,"Moritz Beller":1}</script>
 
 <script>
 (function(){

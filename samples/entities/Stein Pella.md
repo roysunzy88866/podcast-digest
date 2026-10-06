@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":411,"人在回路":19,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":417,"人在回路":20,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
 
 <script>
 (function(){

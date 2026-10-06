@@ -182,7 +182,7 @@ Seema 补了一个真实故事：一家财富 500 强公司自建现金回收产
 
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:A16Z、Anthropic、OpenAI · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:A16Z、OpenAI · 同概念:护城河 (moat)、智能体 (agent)</span>
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱]]<span class="pd-rz">同概念:人在回路 (human in the loop)、在位者 (incumbent)、智能体 (agent)</span>
+- [[2026-10-05-pg-n8n-vs-claude-code|被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它]]<span class="pd-rz">同公司:SAP · 同概念:人在回路 (human in the loop)、智能体 (agent)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

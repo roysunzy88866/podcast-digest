@@ -31,7 +31,7 @@ unlisted: true
 
 [[Nicky Pike]] · [[开源]] · [[商业开源]] · [[pull request]] · [[AI 垃圾内容]] · [[智能体]] · [[Vibe hacking]] · [[漏洞]] · [[供应链攻击]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"Nicky Pike":1,"开源":36,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":411,"Vibe hacking":1,"漏洞":1,"供应链攻击":1,"大语言模型":10}</script>
+<script type="application/json" class="pd-epn">{"Nicky Pike":1,"开源":36,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":417,"Vibe hacking":1,"漏洞":1,"供应链攻击":1,"大语言模型":10}</script>
 
 <script>
 (function(){

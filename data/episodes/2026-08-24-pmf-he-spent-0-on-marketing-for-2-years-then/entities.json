@@ -1,0 +1,995 @@
+{
+  "episode_id": "2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-08-24",
+  "tags": [
+    "创业与行业",
+    "产品市场契合",
+    "反向定位",
+    "医疗健康",
+    "GTM 策略"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "aj-loiacono",
+      "type": "person",
+      "role": "host",
+      "name": "AJ Loiacono",
+      "file": "AJ Loiacono",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "judy-health",
+      "type": "company",
+      "role": "company",
+      "name": "Judy Health",
+      "file": "Judy Health",
+      "primary": true,
+      "how_described": "本集说它是一个健康福利管理方,从药品福利(PBM)切入,收固定费用、所有人拿到同样的药价,后来愿景是做「医疗保健的 ERP」;早期名字叫 Capital RX,去年完成 4 亿美元融资、估值超 30 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            325.44,
+            326.88
+          ],
+          "quote": "Like what exactly is Judy Health?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 73,
+          "t": [
+            333.6,
+            337.52
+          ],
+          "quote": "So Judy Health is a health benefit manager.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            358.16,
+            360.48
+          ],
+          "quote": "And so this is what Judy Health provides.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capital-rx",
+      "type": "company",
+      "role": "company",
+      "name": "Capital RX",
+      "file": "Capital RX",
+      "primary": true,
+      "how_described": "本集说这是 Judy Health 公司早期的名字,名字什么都不代表,只是域名可用、没商标纠纷,而且「在医疗行业,你想让人觉得你已经存在了很久」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            360.64,
+            366.24
+          ],
+          "quote": "We started in pharmacy benefits, and the name of the company in the early days was Capital RX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            367.68,
+            371.68
+          ],
+          "quote": "People often say, Oh, like, what was the name Capital RX?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            377.28,
+            382.32
+          ],
+          "quote": "Nobody had any trademark rights on Capital RX, so it was clean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            400.24,
+            404.64
+          ],
+          "quote": "You know, feel like Capital RX, it sounds like consolidated or continental.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            410.08,
+            421.6
+          ],
+          "quote": "But we started as Capital RX, and the concept was let's process these benefits, but unlike our competitors, let's not make money on drugs bed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            534.88,
+            540.64
+          ],
+          "quote": "And so we started as this scrappy company, Capital RX, and the concept was very simple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cvs",
+      "type": "company",
+      "role": "company",
+      "name": "CVS",
+      "file": "CVS",
+      "primary": true,
+      "how_described": "本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 8 强左右),并说它通过垂直整合(拥有药房、返点聚合业务)在同一笔交易上多次收钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            280.48,
+            293.92
+          ],
+          "quote": "CVS, Cigna, and United Healthcare, three publicly traded companies, all of which are, I'm going to say Fortune 8, Fortune 10, Fortune 14, respectively in that range.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            803.04,
+            815.44
+          ],
+          "quote": "And so now you're not just up against three giants, you know, CVS Cigna United, but you're also up against all the people on the payroll of CVS Cigno United.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1304.8,
+            1309.76
+          ],
+          "quote": "So I go back to, you know, our competitors are CVS, Cigna United.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cigna",
+      "type": "company",
+      "role": "company",
+      "name": "Cigna",
+      "file": "Cigna",
+      "primary": true,
+      "how_described": "本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 10 强左右),并与 CVS、United Healthcare 并称主导药品福利市场的三家上市公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            280.48,
+            293.92
+          ],
+          "quote": "CVS, Cigna, and United Healthcare, three publicly traded companies, all of which are, I'm going to say Fortune 8, Fortune 10, Fortune 14, respectively in that range.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            803.04,
+            815.44
+          ],
+          "quote": "And so now you're not just up against three giants, you know, CVS Cigna United, but you're also up against all the people on the payroll of CVS Cigno United.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1304.8,
+            1309.76
+          ],
+          "quote": "So I go back to, you know, our competitors are CVS, Cigna United.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "united-healthcare",
+      "type": "company",
+      "role": "company",
+      "name": "United Healthcare",
+      "file": "United Healthcare",
+      "primary": true,
+      "how_described": "本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 14 强左右),并说对抗的不止三家巨头,还有「所有在它们工资单上的人」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            280.48,
+            293.92
+          ],
+          "quote": "CVS, Cigna, and United Healthcare, three publicly traded companies, all of which are, I'm going to say Fortune 8, Fortune 10, Fortune 14, respectively in that range.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zappos",
+      "type": "company",
+      "role": "company",
+      "name": "Zappos",
+      "file": "Zappos",
+      "primary": false,
+      "how_described": "本集举其呼叫中心理念为例:只要客户愿意,你想和客户在电话上待多久就待多久。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 466,
+          "t": [
+            2263.28,
+            2266
+          ],
+          "quote": "I mean, it's like, I don't know if you remember the Zappos philosophy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oscar-health",
+      "type": "company",
+      "role": "company",
+      "name": "Oscar Health",
+      "file": "Oscar Health",
+      "primary": false,
+      "how_described": "本集主持人问它这类健康福利平台是否是可比对象,AJ 回答说它们切入的是市场另一块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1225.76,
+            1235.2
+          ],
+          "quote": "And is Oscar Health, like are these kind of like health benefits platforms, are those comparables, are those competitors, or are they kind of approaching a different piece of the market, especially like at the beginning?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-benefit-manager",
+      "type": "concept",
+      "role": "concept",
+      "name": "药品福利管理 (pharmacy benefit manager)",
+      "file": "药品福利管理",
+      "primary": true,
+      "how_described": "本集把它说成 Judy Health 从中切入的行当(PBM):传统 PBM 同一种药对不同客户有几百种价格、靠价差和返点赚钱,Judy 反其道收固定费用、全员同一药价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            553.12,
+            566.8
+          ],
+          "quote": "You know, so if a traditional pharmacy benefit manager, someone we compete with, they'll have hundreds of different prices for the same drug, same day, same pharmacy for different customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集把它说成节目的核心主题:AJ 称头两年苦哈哈地向小单位销售、营收 1000-1200 万 ARR 时仍觉得「什么都不是」,直到一家财富 500 强看到他发的帖子直接打来电话,才迎来真正的 PMF 时刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.08,
+            65.6
+          ],
+          "quote": "That's product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            65.76,
+            66.72
+          ],
+          "quote": "Product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            67.84,
+            69.36
+          ],
+          "quote": "I called it the product market fit question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            69.52,
+            70.32
+          ],
+          "quote": "Product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            70.48,
+            71.2
+          ],
+          "quote": "Product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            71.52,
+            72.48
+          ],
+          "quote": "Product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            72.64,
+            73.68
+          ],
+          "quote": "Product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            73.76,
+            76
+          ],
+          "quote": "I mean the name of the show is product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 22,
+          "t": [
+            76.24,
+            78.72
+          ],
+          "quote": "Do you think the product market fit show has product market fit?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 35,
+          "t": [
+            107.68,
+            118
+          ],
+          "quote": "We're gonna, you know, focus as we do on product market fit show, not so much on the second half or whatever, the later part of that journey, but the beginning, which at the end of the day, that's what you got to get right to get everything else.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 38,
+          "t": [
+            122.08,
+            126.88
+          ],
+          "quote": "But before we do any of that, tell me about the product market fit moment for you.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 45,
+          "t": [
+            188.08,
+            201.84
+          ],
+          "quote": "But the whole part of it that I go back to is when we're grinding through this for the first two years, and that may seem like an eternity until you think, like, hey, did we actually nail this and find product market fit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            261.92,
+            265.52
+          ],
+          "quote": "Most founders of 10 million ARR feel like they're well beyond product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1036,
+            1045.84
+          ],
+          "quote": "So we finally felt with kind of the product market fit moment of that end of the second year where we had this inbound call from a prestigious customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1276.96,
+            1285.28
+          ],
+          "quote": "It was my background, plus, I felt as if we had, I think, a very unique business proposition back to the product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1861.04,
+            1882.24
+          ],
+          "quote": "And so that for us was the beginning of everything, which was once we started to scale, once we had that product market fit moment, and then we had this tailwind of what I would say the press, legislative rules coming out, I would say disclosures being required by the Department of Labor that governs self-insurance in the United States.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3155.52,
+            3162.4
+          ],
+          "quote": "What would be a top piece of advice for you for like an early stage founder that's still looking for product market fit?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrated)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说行业巨头不只做管理方,还拥有药房、返点聚合业务,从而「在同一笔交易上多次收钱」,AJ 称这是可怕的利益冲突。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            448,
+            457.36
+          ],
+          "quote": "But also in that moment, the entire industry realizes if I become what's called vertically integrated, I'm not just the administrator, I own the pharmacy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "counterpositioning",
+      "type": "concept",
+      "role": "concept",
+      "name": "反向定位 (counterpositioning)",
+      "file": "反向定位",
+      "primary": true,
+      "how_described": "本集主持人用它概括 Judy 的打法:所有人都在某个商业模式上赚钱,你用一种更对齐的模式做同样甚至更好的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            876,
+            879.28
+          ],
+          "quote": "This is kind of like classic, you know, counterpositioning, if you want to look at it that way.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "bootstrap",
+      "type": "concept",
+      "role": "concept",
+      "name": "自筹资金 (bootstrap)",
+      "file": "自筹资金",
+      "primary": true,
+      "how_described": "本集说因为没人投这种「无法攻破的堡垒」赛道,他们自筹资金起步:从小规模构建开始、授权第三方软件,熬过最初一两年再建自己设想的平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            912.32,
+            913.6
+          ],
+          "quote": "Yeah, you bootstrap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            980.48,
+            989.92
+          ],
+          "quote": "And when you bootstrap, you might have this vision of this powerful platform that's going to process claims and administrate patients and workflows.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场 (go to market)",
+      "file": "进入市场",
+      "primary": true,
+      "how_described": "本集把它说成头两年的零营销打法:不赞助、不参会、不在搜索上花钱,钱全砸在呼叫中心和上门服务上,赌「客户会变成我们最好的品牌大使」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2020.64,
+            2022.08
+          ],
+          "quote": "The first one is really around go to market.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2038.08,
+            2041.12
+          ],
+          "quote": "How did you go to market for the first two years?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "call-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "呼叫中心 (call center)",
+      "file": "呼叫中心",
+      "primary": true,
+      "how_described": "本集说他们自建国内呼叫中心,追求 97% 以上首次呼叫解决率、扔掉平均处理时长指标,因为传统保险客服答不了「为什么是这个价格」,而 Judy 没有秘密。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1183.92,
+            1198.56
+          ],
+          "quote": "You know, it's everything from billing to reimbursement to call center, client management, data and analytics, compliance, hundreds of work streams that in my competitors, many of them doing this stuff manually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2164.4,
+            2169.84
+          ],
+          "quote": "And so the first thing we wanted to do is to make sure we had a world-class call center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2212.96,
+            2225.6
+          ],
+          "quote": "So, what were we doing and investing in is to make sure that one, when someone called 99% of the time, someone who's calling for healthcare into a call center, they're not coming from a happy place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2268.32,
+            2270.24
+          ],
+          "quote": "And this was like in-house call center that you had?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "arr",
+      "type": "concept",
+      "role": "concept",
+      "name": "ARR",
+      "file": "ARR",
+      "primary": false,
+      "how_described": "本集提到 PMF 时刻时他们约 1000 万到 1200 万美元 ARR,AJ 说在医疗行业这个数字「你什么都不是」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            258.72,
+            261.52
+          ],
+          "quote": "Aaron Powell About 10, 12 million ARR at that point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            261.92,
+            265.52
+          ],
+          "quote": "Most founders of 10 million ARR feel like they're well beyond product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 61,
+          "t": [
+            294.16,
+            309.68
+          ],
+          "quote": "And so when you're battling with Titans, yeah, 10 million ARR is okay, but it's nowhere near the scale to one, compete with them directly, but two, attract back what I was saying before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            319.6,
+            321.76
+          ],
+          "quote": "So yeah, 10 million ARR is huge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2022.16,
+            2028.64
+          ],
+          "quote": "I mean, the first two years you got yourself a 10 billion ARR before you really had any inbound, which means presumably all of it was outbound.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "series-a",
+      "type": "concept",
+      "role": "concept",
+      "name": "A 轮融资 (Series A)",
+      "file": "A 轮融资",
+      "primary": false,
+      "how_described": "本集说他们第二年做了 A 轮融资(350 万美元,2018 年 3 月交割),是在财富 500 强客户主动来电之后。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1032.16,
+            1035.92
+          ],
+          "quote": "And then in our second year, we did our Series A.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adjudication",
+      "type": "concept",
+      "role": "concept",
+      "name": "理赔处理 (adjudication)",
+      "file": "理赔处理",
+      "primary": true,
+      "how_described": "本集说 Judy 就是 adjudication 的简称,即理赔处理:数百条管理工作流(资格认定、财务规则、临床规则、账务、呼叫中心等)的和谐运转,而竞争对手很多还在人工拼接不同系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1155.44,
+            1159.92
+          ],
+          "quote": "Judy short for adjudication, which is a fancy word for claim processing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1160.16,
+            1175.28
+          ],
+          "quote": "And so adjudication, in order to do it, just to visualize it, is hundreds of administrative workflows, like eligibility, who's in and out of a plan, plan design, like financial rule sets, what's her copay or coinsurance or out-of-pocket max.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "unions",
+      "type": "concept",
+      "role": "concept",
+      "name": "工会 (unions)",
+      "file": "工会",
+      "primary": true,
+      "how_described": "本集说工会是最好的早期客户:想把成员当家人对待,且市政机构和工会有固定预算、必须精确计算福利可持续性,「在前几年,工会成为了我们业务的核心」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1524.72,
+            1538.64
+          ],
+          "quote": "You know, I often say unions are very good early adopters when it comes to cost savings and service, because one, they want to make sure their membership is treated on a level like family.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1538.96,
+            1546.16
+          ],
+          "quote": "The second part is municipalities and public sector and unions, they have fixed budgets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1574.4,
+            1583.12
+          ],
+          "quote": "You know, corporate America doesn't necessarily have the same sensitivity to price that unions do for the reason I just described.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1583.28,
+            1589.44
+          ],
+          "quote": "And so unions became at the heart of our business the first couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1589.6,
+            1598.56
+          ],
+          "quote": "You know, those first two years, you know, I would say I bleed taft-heartly in the sense that I will forever be very thankful for unions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1604.08,
+            1614.8
+          ],
+          "quote": "And so I understand the importance that benefits play in the public sector and for unions because it is a critical part of their compensation package.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1614.96,
+            1618.88
+          ],
+          "quote": "Oftentimes, you know, unions in public sector have very good benefits.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spread-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "价差定价 (spread pricing)",
+      "file": "价差定价",
+      "primary": true,
+      "how_described": "本集把它说成传统 PBM 的赚钱方式之一:竞争对手宣称服务免费,实际从药品价差里赚钱;ERISA 修正案要求披露后,按客户拆分价差定价等所有收入流「几乎是不可能的」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 393,
+          "t": [
+            1970.48,
+            1986.4
+          ],
+          "quote": "But my competitors had to suddenly contemplate am I going to disclose what I'm making on spread pricing, acquisition costs, 340B, rebates, performance management fees, you know, they like price protection, they have all these revenue streams.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "透明度 (transparency)",
+      "file": "透明度",
+      "primary": true,
+      "how_described": "本集说 2021 年《综合拨款法案》对 ERISA 的修正案要求对医疗保健所有报酬完全披露,2024 年成了「透明度重要的那一年」,所有潜在客户都在问谁是透明的、谁讲道德——这成了 Judy 的一股顺风。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1995.92,
+            2002.08
+          ],
+          "quote": "And so 2024, I often say, was this year in which transparency mattered.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "brand-ambassadors",
+      "type": "concept",
+      "role": "concept",
+      "name": "品牌大使 (brand ambassadors)",
+      "file": "品牌大使",
+      "primary": true,
+      "how_described": "本集说零营销赌的就是客户会变成最好的品牌大使,具体做法包括年度调查里主动问「可以把你作为参考推荐吗」「有兴趣和我们一起参加大会吗」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 426,
+          "t": [
+            2088.8,
+            2091.2
+          ],
+          "quote": "They will become our best brand ambassadors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2129.68,
+            2135.2
+          ],
+          "quote": "So you had what you didn't do, which you didn't spend on marketing, and you try to double down on this customers of brand ambassadors.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2463.6,
+            2468.96
+          ],
+          "quote": "Or are you doing something a little bit more proactive to get them kind of as brand ambassadors talking about you on your behalf?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命 (mission)",
+      "file": "使命",
+      "primary": true,
+      "how_described": "本集把招聘的核心归到使命上:面试时刻意不提、只能等对方自然说出相信改变医疗的使命,并分享自己或家人的医疗糟糕经历——这与成为 A 级人才相关性极高,员工四年留存率约 90%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 534,
+          "t": [
+            2555.6,
+            2558.64
+          ],
+          "quote": "Um, the key you said was really hiring for mission.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2640.4,
+            2653.76
+          ],
+          "quote": "But going back to your question is the piece that we kept finding over and over of people that were just our high performers, like our A players were the people that believed in the mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2712.16,
+            2717.6
+          ],
+          "quote": "You want people, obviously, that care about the mission, but they're willing to solve, like to go beyond.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2722.8,
+            2727.84
+          ],
+          "quote": "And I think those people, what they all have in common, believe in the mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2730.24,
+            2735.76
+          ],
+          "quote": "I'm curious how you tested for either the A-player side, people who are going to go and just fix things, and then the mission piece.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2735.84,
+            2741.2
+          ],
+          "quote": "Like, the problem with interviews is they're fakeable, they're gameable, you know, and especially something like mission.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2764.4,
+            2770.16
+          ],
+          "quote": "So we're trying to set someone up that is going to mention that they believe in the mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2836.48,
+            2841.2
+          ],
+          "quote": "In other words, somebody who cares, who had a personal experience, they believe in the mission, but isn't an A player.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2888.8,
+            2899.84
+          ],
+          "quote": "So if you have someone who's super talented, but they're talking about this personal experience and an appreciation for your mission and business model, we're gonna go places.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2900,
+            2920.56
+          ],
+          "quote": "You know, and I just go back to that there's that high correlation between adoption and being a zealot on the mission and just being an A player because every day they're going in the back of their mind, how do I prevent people from experiencing this, this, this horrible healthcare experience?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2920.88,
+            2929.12
+          ],
+          "quote": "I mean, one of the things is when somebody believes in the mission or at least in the impact of what they're doing, they don't stop thinking about it.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3237.36,
+            3243.68
+          ],
+          "quote": "You need people that go back to believe the mission, and what's fun for them is, in my case, making healthcare better.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

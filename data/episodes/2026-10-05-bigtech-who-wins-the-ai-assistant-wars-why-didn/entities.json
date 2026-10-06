@@ -1,0 +1,2331 @@
+{
+  "episode_id": "2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-10-05",
+  "tags": [
+    "AI 智能体",
+    "个人 AI 助手",
+    "平台竞争",
+    "消费级 vs 企业级",
+    "信任与集成"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "mg-siegler",
+      "type": "person",
+      "role": "host",
+      "name": "MG Siegler",
+      "file": "MG Siegler",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.705,
+            9.39
+          ],
+          "quote": "That's coming up with MG Siegler right after this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 809,
+          "t": [
+            3891.614,
+            3894.478
+          ],
+          "quote": "MG Siegler joins us on the first Monday of every month.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": true,
+      "how_described": "本集说它是智能体/个人助手领域的早期创业公司，不建新应用而是复用你已有的聊天工具发消息，并在后端替你办事，几个月融了三轮、估值可能已达 100 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            152.81,
+            155.851
+          ],
+          "quote": "We have Instinct, which I think you wrote a little bit about in the piece.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 42,
+          "t": [
+            199.807,
+            226.432
+          ],
+          "quote": "Yeah, that post, sort of the impetus behind it was somewhat driven by Instinct, as you mentioned, because I felt like, you know, it feels like months ago already, but even just a few weeks ago, certainly on all the social media feeds, I feel like a lot of VCs in particular were just touting Instinct, which is a new startup in the, you know, agentic and specifically sort of personal assistant use case role.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            271.686,
+            272.526
+          ],
+          "quote": "Instinct is cool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            289.98,
+            292.403
+          ],
+          "quote": "Okay, so instinct, first and foremost.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            293.027,
+            300.376
+          ],
+          "quote": "Again, going back, I feel like the impetus for this piece was basically, I saw instinct blowing up, at least on the social feeds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            326.586,
+            328.128
+          ],
+          "quote": "And so again, so I signed up for Instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            328.268,
+            337.456
+          ],
+          "quote": "Instinct, I feel like first and foremost, there's sort of one of their obvious core breakthroughs is just the fact that all these models now exist, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            385.533,
+            389.558
+          ],
+          "quote": "So fast forward to, you know, what we're seeing with instinct, you know, out of the gates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            411.987,
+            416.729
+          ],
+          "quote": "Instinct, I think, wisely recognized that they could sort of get off the ground running fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            552.344,
+            558.495
+          ],
+          "quote": "Instinct comes out, and then lo and behold, we start this wave of things that come after that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            559.492,
+            567.054
+          ],
+          "quote": "And so, you know, when you tried instinct out in the beginning, in the beginning, I think there was some skepticism that you had about what AI agents could do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 119,
+          "t": [
+            640.549,
+            645.31
+          ],
+          "quote": "And so with a product like this, you know, with what Instinct is offering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1015.588,
+            1020.911
+          ],
+          "quote": "And, you know, my instinct initially, no pun intended, was to talk a little bit about each one, one by one.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1029.135,
+            1033.377
+          ],
+          "quote": "So just to talk through the players, we obviously have Instinct.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1062.926,
+            1071.932
+          ],
+          "quote": "So right now, I think instinct is, it was interesting as, as sort of, you know, again, one of the early movers, first players here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1112.095,
+            1115.397
+          ],
+          "quote": "And we have no financial stake in instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1145.747,
+            1156.091
+          ],
+          "quote": "Instinct is interesting still to me, mainly in the case that they have a shot at doing something interesting as like more of the Switzerland play here, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1188.049,
+            1191.051
+          ],
+          "quote": "And so again, Instinct doesn't have that dynamic right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1611.101,
+            1615.242
+          ],
+          "quote": "And so, whereas we talked about Instinct sort of smartly leveraging",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2281.634,
+            2282.415
+          ],
+          "quote": "You know, there's instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2778.847,
+            2781.208
+          ],
+          "quote": "So it's not like they're an instinct where they're like trying to",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3369.399,
+            3370.319
+          ],
+          "quote": "They don't have an instinct.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3562.435,
+            3569.857
+          ],
+          "quote": "I think it's not doing much for a lot of people, especially when you compare it to Muse and now Dots and Instinct and everything else that's out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3816.714,
+            3832.503
+          ],
+          "quote": "And speaking of acquisitions, maybe to tie it all back into the beginning point is, you know, I would expect that someone will acquire instinct, someone will acquire maybe the town's product, someone will acquire all these other things, basically because, you know, they'll feel like, look, we are",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 以 Muse 押注消费级个人助手，用云端每用户独享的虚拟计算机化解安全顾虑，第一天就带 WhatsApp 集成，且是在没有自家前沿模型（watermelon 未发布）的情况下做到的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            149.908,
+            152.35
+          ],
+          "quote": "Now we have obviously Muse for Meta.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1276.03,
+            1284.773
+          ],
+          "quote": "Maybe the biggest question sort of going forward and in the immediate future because, you know, basically, Muse is obviously Meta's product right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1303.86,
+            1311.964
+          ],
+          "quote": "You know, it's interesting because Meta has other deals with Amazon in place, you know, for things for shopping elements and things like that and advertising for sure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1364.675,
+            1381.101
+          ],
+          "quote": "But just to back up, to go back to, you know, you ask like which one of the current sort of major players right now that have pushed their agents and assistants out there, I feel like I was surprised, honestly, of myself, that I really like Muse, Meta's product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1381.281,
+            1384.462
+          ],
+          "quote": "I'm not, you know, I am not a big Meta person.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1431.941,
+            1435.924
+          ],
+          "quote": "And obviously we've talked about as well the whole meta situation with AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1480.279,
+            1486.325
+          ],
+          "quote": "They knew that people are not going to trust this inherently something from Meta, especially something from Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1502.459,
+            1512.547
+          ],
+          "quote": "But Meta, you know, the Meta AI team, the Super Intelligence Lab, to their credit, they really, I feel like, knocked it out of the park with this early version, at least, of what they launched with Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1513.795,
+            1519.877
+          ],
+          "quote": "So you think that when we think about who's going to win, that Meta has the best chance?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1608.02,
+            1611.081
+          ],
+          "quote": "Something unique that Meta can offer because they own WhatsApp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1616.823,
+            1623.309
+          ],
+          "quote": "iMessage and other chat services, I think that Meta was very smart and launched day one with WhatsApp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1735.379,
+            1739.24
+          ],
+          "quote": "And I thought Meta's response was interesting to that, which is like, yeah, that's the point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1797.315,
+            1802.222
+          ],
+          "quote": "I would imagine that at least Meta is thinking right now",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1869.311,
+            1876.497
+          ],
+          "quote": "Because as you note, OpenAI's play here is much more sort of more business focused than what Meta is going after.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1917.2,
+            1925.587
+          ],
+          "quote": "Because again, as you're noting, like, while Meta is going more straightforward after consumer and Microsoft goes more straightforward after enterprise,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2044.519,
+            2053.103
+          ],
+          "quote": "And obviously Meta has a huge advantage there because they have the multi-billion plus user base of several products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2070.656,
+            2079.142
+          ],
+          "quote": "So it's nothing to sneeze at, but it's not quite meta at the 3 billion plus user scale that they can get this in front of so many different services.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2103.275,
+            2108.397
+          ],
+          "quote": "I just don't have any interest in letting Meta have access to Gmail and Calendar, where for whatever reason,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2140.277,
+            2144.979
+          ],
+          "quote": "Like there is this real concern that Meta is just not to be trusted.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2153.024,
+            2155.846
+          ],
+          "quote": "We have an open AI movie and a Meta movie coming out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2170.203,
+            2181.188
+          ],
+          "quote": "And I believe and I think so this Social Reckoning, which is the the meta, the new meta movie, sort of the unofficial sequel to The Social Network is coming out, I think, later this week.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2241.95,
+            2255.34
+          ],
+          "quote": "In public and who wants to sign up for the meta version of an agent that controls your life versus who wants to sign up for the OpenAI version versus should anyone trust the Anthropic version with all the stuff that they're saying about the end of the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2781.628,
+            2796.265
+          ],
+          "quote": "Fend off Meta's incredibly aggressive distribution attempt, which is not only pushing it, Meta's not only pushing this in its own products, like WhatsApp and Instagram, but it's also, it's got the, it's got ads during NFL football.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2829.155,
+            2839.608
+          ],
+          "quote": "I feel like I'm going to sound like that that one scene in Jurassic Park where I'm like the and I'm the one defending the bloodsucking lawyer, you know, here where it's like, I'm the one defending the meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2842.592,
+            2844.734
+          ],
+          "quote": "Can't believe I'm the one defending meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2847.157,
+            2858.642
+          ],
+          "quote": "One other element that we haven't really even hit on, which is interesting, is that Meta is doing all of this without what is, you know, what they even consider to be a frontier model behind the scenes powering this, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2931.85,
+            2941.298
+          ],
+          "quote": "But again, I just want to put that out there that Meta has been able to do this without having the absolute frontier model, whereas obviously OpenAI does right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2956.771,
+            2959.775
+          ],
+          "quote": "That's Meta's big upcoming model that we're waiting for.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3021.009,
+            3024.93
+          ],
+          "quote": "And so in some ways, it has the opposite trust of what Meta, what we were talking about with Meta, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3098.34,
+            3115.607
+          ],
+          "quote": "But they're clearly going to put up more warnings that even the Mac, which historically has been open to whatever you as a user want to do to it, will potentially now be getting these prompts like, hey, maybe you don't want to give meta access to all of the information on your machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3116.745,
+            3122.246
+          ],
+          "quote": "I wonder if it would be more effective if they would have said maybe you don't want to give Meta all this access or Mark Zuckerberg.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3833.183,
+            3834.763
+          ],
+          "quote": "We're seeing what Meta has done.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "本集说 Muse 是 Meta 的个人助手产品，MG 自称意外地发现它从一开局就做得非常好，被 Amazon 封锁但获得 Shopify 合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.799,
+            6.685
+          ],
+          "quote": "And why didn't Google build its own version of Muse?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 30,
+          "t": [
+            149.908,
+            152.35
+          ],
+          "quote": "Now we have obviously Muse for Meta.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1220.312,
+            1229.221
+          ],
+          "quote": "We obviously saw that Amazon blocked Muse, so MetaMuse can't shop on Amazon for you, but Shopify came in and said, we'll work with you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1261.798,
+            1265.519
+          ],
+          "quote": "And I wonder if some of them are on borrowed time, AKA maybe Muse,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1276.03,
+            1284.773
+          ],
+          "quote": "Maybe the biggest question sort of going forward and in the immediate future because, you know, basically, Muse is obviously Meta's product right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1299.619,
+            1303.14
+          ],
+          "quote": "Even, you know, you mentioned Amazon blocking Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1364.675,
+            1381.101
+          ],
+          "quote": "But just to back up, to go back to, you know, you ask like which one of the current sort of major players right now that have pushed their agents and assistants out there, I feel like I was surprised, honestly, of myself, that I really like Muse, Meta's product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1424.895,
+            1431.701
+          ],
+          "quote": "And so I was surprised by how well and how well done Muse was from the get-go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1502.459,
+            1512.547
+          ],
+          "quote": "But Meta, you know, the Meta AI team, the Super Intelligence Lab, to their credit, they really, I feel like, knocked it out of the park with this early version, at least, of what they launched with Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1531.622,
+            1534.303
+          ],
+          "quote": "So Muse is clearly a consumer application.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1564.444,
+            1567.166
+          ],
+          "quote": "So I guess Muse will be the consumer application.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1599.938,
+            1607.98
+          ],
+          "quote": "Though I also think that Muse has an interesting advantage there in that from day one, they launched with WhatsApp integration, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1662.051,
+            1668.956
+          ],
+          "quote": "I mean, I guess Muse has the virtual machine that it can use, but I think being in your context,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1694.579,
+            1706.826
+          ],
+          "quote": "Muse launched, again, talked about this a second ago, but Muse launched with basically a virtual computer in the cloud that is yours alone and for each individual user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1707.267,
+            1718.834
+          ],
+          "quote": "And it's really a cool implementation down to the point where if you click on your Muse and you can see basically when it's browsing a website and you can obviously take it over.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2099.014,
+            2102.375
+          ],
+          "quote": "And, you know, I know you got this feedback when you wrote about how much you like Muse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2798.367,
+            2799.148
+          ],
+          "quote": "All I see is Muse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2858.702,
+            2863.525
+          ],
+          "quote": "Like, obviously, Muse, Spark, I think it's 1.3 now, might be 1.4, I think it's 1.3.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2865.586,
+            2869.708
+          ],
+          "quote": "And it is powering, you know, this right now, powering Muse right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2870.149,
+            2883.057
+          ],
+          "quote": "But they say any day now that what, quote unquote, watermelon, their actual big time, big frontier version of their Spark models, or sorry, their Muse models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2890.466,
+            2901.481
+          ],
+          "quote": "I mean, like, presumably it will be much better, much more functional at doing certain tasks, but maybe they built Muse in such a way that it is fine just running on, you know, not",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2951.826,
+            2955.569
+          ],
+          "quote": "Do they launch with new functionality for Muse that just blows people's minds?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3366.937,
+            3368.438
+          ],
+          "quote": "They don't have a muse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3562.435,
+            3569.857
+          ],
+          "quote": "I think it's not doing much for a lot of people, especially when you compare it to Muse and now Dots and Instinct and everything else that's out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3571.738,
+            3574.859
+          ],
+          "quote": "Muse is full of fun and whimsy from the avatar on down.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3766.733,
+            3775.355
+          ],
+          "quote": "Hopefully they'll rebrand it, but the Gemini Spark, you know, full on launch and they'll go for it and say like, hey, you saw that cool stuff you could do with Muse and Dots.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 撕裂在消费级与企业级之间：ChatGPT 是面向消费者的庞然大物，但 Anthropic 在商业端超过了他们，Dots 的发布正在实时上演这场公司急转弯。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            156.572,
+            157.912
+          ],
+          "quote": "We have OpenAI Dots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1034.917,
+            1037.599
+          ],
+          "quote": "We have OpenAI's new DOTS product, which they just released.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1284.974,
+            1286.874
+          ],
+          "quote": "DOTS is OpenAI's product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1489.668,
+            1493.172
+          ],
+          "quote": "And to their credit, they got it out the door before even OpenAI did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1493.192,
+            1494.994
+          ],
+          "quote": "And this is OpenAI's business AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1519.917,
+            1526.06
+          ],
+          "quote": "Because I guess there is this growing, and you wrote about this a little bit about DOTS also, which is OpenAI's personal assistant.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1567.546,
+            1578.393
+          ],
+          "quote": "Dots, and you wrote about this last week, despite the fact that Dots has, this is OpenAI's personal assistant, has this like kind of like Sesame Street type feel with its mascots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1644.899,
+            1647.341
+          ],
+          "quote": "Now, DOTS, OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1720.414,
+            1722.776
+          ],
+          "quote": "OpenAI has had a version of that that you could do before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1748.423,
+            1749.843
+          ],
+          "quote": "And I think OpenAI did as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1857.842,
+            1869.291
+          ],
+          "quote": "They'll say they want consumer too, but I think that they'll be happy as long as they can stay in the enterprise lane and sort of snuff out some of the would-be competition from OpenAI in particular.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1869.311,
+            1876.497
+          ],
+          "quote": "Because as you note, OpenAI's play here is much more sort of more business focused than what Meta is going after.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1926.368,
+            1940.233
+          ],
+          "quote": "OpenAI sort of has a hybrid thing, again, with these cutesy figures, which is just this weird dichotomy, as I note in the piece, between what that looks like and what it seems like they're trying to get you to do, which is much more work-oriented.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1972.485,
+            1976.551
+          ],
+          "quote": "Yeah, OpenAI does feel like a little bit stuck between the two different use case.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2054.384,
+            2061.609
+          ],
+          "quote": "And OpenAI has ChatGPT, which of course they bake this in to the ChatGPT super app from the get-go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2079.587,
+            2085.009
+          ],
+          "quote": "And OpenAI will only let you use it if you're part of the pro subscription tier.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2109.037,
+            2116.138
+          ],
+          "quote": "I wouldn't say I feel comfortable giving it to OpenAI, but I feel, I guess, a little bit less of a gag reflex when I connect it to ChatGPT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2181.488,
+            2185.75
+          ],
+          "quote": "And then I think Artificial, which is the OpenAI movie, I think is having its premiere tonight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2241.95,
+            2255.34
+          ],
+          "quote": "In public and who wants to sign up for the meta version of an agent that controls your life versus who wants to sign up for the OpenAI version versus should anyone trust the Anthropic version with all the stuff that they're saying about the end of the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2380.798,
+            2394.443
+          ],
+          "quote": "He said that him and they, that, that OpenAI and Anthropic have fundamentally different worldviews on AI regulation and some AI benefits, that the AI benefits justify accepting some risks.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2417.843,
+            2420.925
+          ],
+          "quote": "Well, Navier Stokes from OpenAI and probably more are on the way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2593.807,
+            2596.608
+          ],
+          "quote": "And OpenAI, everyone else felt like they had to have an answer for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2654.369,
+            2657.491
+          ],
+          "quote": "They weren't distracted by those things that perhaps OpenAI was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2712.988,
+            2719.971
+          ],
+          "quote": "So they're no longer the two different tabs that you click between, which even OpenAI has not done yet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2771.923,
+            2773.744
+          ],
+          "quote": "I think OpenAI is going to win.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2800.469,
+            2807.432
+          ],
+          "quote": "So I think OpenAI does have that 1.2 billion users, people who are there to use AI, people who are more comfortable to use its products.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2931.85,
+            2941.298
+          ],
+          "quote": "But again, I just want to put that out there that Meta has been able to do this without having the absolute frontier model, whereas obviously OpenAI does right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3834.783,
+            3836.364
+          ],
+          "quote": "We're seeing what OpenAI has done.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "company",
+      "role": "company",
+      "name": "Dots",
+      "file": "Dots",
+      "primary": true,
+      "how_described": "本集说 Dots 是 OpenAI 的个人助手，带着《芝麻街》风格吉祥物却实际更偏企业导向，只有每月 100 美元的 pro 订阅能用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            156.572,
+            157.912
+          ],
+          "quote": "We have OpenAI Dots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1034.917,
+            1037.599
+          ],
+          "quote": "We have OpenAI's new DOTS product, which they just released.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1284.974,
+            1286.874
+          ],
+          "quote": "DOTS is OpenAI's product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1519.917,
+            1526.06
+          ],
+          "quote": "Because I guess there is this growing, and you wrote about this a little bit about DOTS also, which is OpenAI's personal assistant.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1567.546,
+            1578.393
+          ],
+          "quote": "Dots, and you wrote about this last week, despite the fact that Dots has, this is OpenAI's personal assistant, has this like kind of like Sesame Street type feel with its mascots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1644.899,
+            1647.341
+          ],
+          "quote": "Now, DOTS, OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1649.342,
+            1656.267
+          ],
+          "quote": "Because you can run it through WhatsApp, but one of the nice things about DOTS is that it takes control of your entire desktop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1966.891,
+            1971.555
+          ],
+          "quote": "And so I feel like DOTS is in some ways playing that out in real time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2063.831,
+            2070.275
+          ],
+          "quote": "They have a billion, Sam Altman said during the Dots unveiling, they're now at 1.2 billion weekly active users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2088.51,
+            2092.732
+          ],
+          "quote": "And I have to say, I just upgraded from 20 a month to 100 a month to be able to use dots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2093.452,
+            2094.632
+          ],
+          "quote": "I really like dots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2728.154,
+            2732.256
+          ],
+          "quote": "And I do feel like Dots in some ways might be pointing at this as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2732.336,
+            2737.778
+          ],
+          "quote": "Like, is Dots actually going to be the eventual total front end of ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2750.927,
+            2757.792
+          ],
+          "quote": "I mean, one of the nice things about dots is you can like sort of continue to throw stuff at it and then it will basically prioritize and work behind the scenes and then",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2807.452,
+            2810.674
+          ],
+          "quote": "And I think DOTS is going to be the one that comes out on top.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3368.638,
+            3369.379
+          ],
+          "quote": "They don't have a dots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3562.435,
+            3569.857
+          ],
+          "quote": "I think it's not doing much for a lot of people, especially when you compare it to Muse and now Dots and Instinct and everything else that's out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3766.733,
+            3775.355
+          ],
+          "quote": "Hopefully they'll rebrand it, but the Gemini Spark, you know, full on launch and they'll go for it and say like, hey, you saw that cool stuff you could do with Muse and Dots.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说 Microsoft 把 Copilot 统一成超级应用，主打企业赛道这一看家本领，守住这条线、掐灭来自 OpenAI 的竞争就满意了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            159.533,
+            162.474
+          ],
+          "quote": "I guess Microsoft has entered the battle in its own way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1038.779,
+            1040.22
+          ],
+          "quote": "We have a new product from Microsoft.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1790.205,
+            1796.814
+          ],
+          "quote": "Port into Apple and Microsoft different APIs on the operating system level to be able to control your computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1842.474,
+            1849.497
+          ],
+          "quote": "Now, you bring into that, obviously, Microsoft, which has more recently come out with the newly unified super app version of Copilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1917.2,
+            1925.587
+          ],
+          "quote": "Because again, as you're noting, like, while Meta is going more straightforward after consumer and Microsoft goes more straightforward after enterprise,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1994.734,
+            2004.102
+          ],
+          "quote": "It's funny, like when I was talking about computer use, you know, hearing your answer about Microsoft reminded me that Microsoft years ago had this product that like watches your desktop and get stuff done for you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2258.562,
+            2264.066
+          ],
+          "quote": "Do we default back to Microsoft because we should trust them or do we go with our old friend Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3838.864,
+            3840.604
+          ],
+          "quote": "Microsoft will see how that goes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.799,
+            6.685
+          ],
+          "quote": "And why didn't Google build its own version of Muse?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 20,
+          "t": [
+            102.85,
+            106.731
+          ],
+          "quote": "Which is Google, although you could argue that some others are there, but Google especially should have it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 69,
+          "t": [
+            360.313,
+            363.114
+          ],
+          "quote": "If you haven't seen it, Google it and look it up on YouTube.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1041.06,
+            1048.543
+          ],
+          "quote": "Let's not go too deep into Google Spark because we're going to talk about why Google missed this moment seemingly after the break.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1239.891,
+            1240.551
+          ],
+          "quote": "Google.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1249.014,
+            1250.774
+          ],
+          "quote": "Google Calendar is obviously the biggest calendar.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1266.388,
+            1273.467
+          ],
+          "quote": "Where Google, which is typically pretty liberal in terms of who it allows to plug in with its services, might just say, yeah, we're not doing that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2258.562,
+            2264.066
+          ],
+          "quote": "Do we default back to Microsoft because we should trust them or do we go with our old friend Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3164.417,
+            3178.282
+          ],
+          "quote": "So let's take a break and come back and talk about the thing that I've really, this whole conversation I've been looking forward to, but I've kind of been chomping at the bit and barely holding back from asking you, why has Google not gotten into this battle?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3302.607,
+            3304.529
+          ],
+          "quote": "This episode is brought to you by Google Chrome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3337.511,
+            3340.876
+          ],
+          "quote": "All right, M.G., so let's talk a little bit about Google, shall we?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3342.955,
+            3352.184
+          ],
+          "quote": "Google always seems to be a little bit far behind on these product releases, and that is also the case here.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3384.409,
+            3385.89
+          ],
+          "quote": "That is Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3511.273,
+            3520.477
+          ],
+          "quote": "It does certain things well because, as you note, they have the integrations to Gmail, to Google Calendar, to everything else, to Google Search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3530.34,
+            3535.522
+          ],
+          "quote": "I mean, I've always had problems with Google from a product perspective, the way that they implement a lot of things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3581.96,
+            3583.881
+          ],
+          "quote": "It's like, that's Google though.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3609.793,
+            3611.594
+          ],
+          "quote": "Is like Google gonna run away with the game?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3668.299,
+            3673.202
+          ],
+          "quote": "The Google Cloud team has different incentives than the Android team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3673.222,
+            3675.543
+          ],
+          "quote": "And the Google Search team has a different incentive than all of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3679.866,
+            3689.094
+          ],
+          "quote": "And I say all that and I but I thought we were over that when we had the unification of Google Brain and DeepMind and that that was going to be the time and it felt like it was working.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3775.635,
+            3781.577
+          ],
+          "quote": "Well, look at what you could do with all the Google services that you already use, like, and you know, basically combat it that way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3787.218,
+            3795.4
+          ],
+          "quote": "You have the trust notion of like, should I put my entire agentic life and the personal assistant in Google's hands when they're just gonna fall behind again in six months?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 靠 Claude Code 和 Cowork 引爆了『把控制权交给 AI』的时刻，却一贯回避消费级、没有个人助手产品，但已把 Claude 与 Cowork 的文本框合并，正朝统一单一聊天框的圣杯迈进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1826.827,
+            1828.568
+          ],
+          "quote": "Anthropic has done super well with that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1949.536,
+            1957.123
+          ],
+          "quote": "But then they of course had to sort of halt the brakes and figure out like, oh my God, Anthropic has passed us in terms of the business side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2210.545,
+            2211.986
+          ],
+          "quote": "We need the Anthropic movie.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2241.95,
+            2255.34
+          ],
+          "quote": "In public and who wants to sign up for the meta version of an agent that controls your life versus who wants to sign up for the OpenAI version versus should anyone trust the Anthropic version with all the stuff that they're saying about the end of the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2380.798,
+            2394.443
+          ],
+          "quote": "He said that him and they, that, that OpenAI and Anthropic have fundamentally different worldviews on AI regulation and some AI benefits, that the AI benefits justify accepting some risks.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2501.928,
+            2506.649
+          ],
+          "quote": "All right, MG, I got to ask you on this one, where is Anthropic here?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2942.138,
+            2945.941
+          ],
+          "quote": "And Anthropic, as we talked about, is not playing in the space right now, but has that model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说 Apple 是黑马：天生握着设备入口，邮件、信息、日历、照片全部内置，甚至能看到你屏幕上的一切，缺的只是用户对 Siri 十多年积累的不信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            352.65,
+            359.953
+          ],
+          "quote": "You know, there was that old famous concept video out of Apple for it was called Knowledge Navigator in the 90s.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            363.134,
+            371.978
+          ],
+          "quote": "It's a great old school video of like this assistant running on a futuristic Apple device, which sort of, you know, is akin to an iPad.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1674.935,
+            1681.24
+          ],
+          "quote": "And I know Apple is starting to have some reservations about this, but just being in WhatsApp doesn't give you that full control.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1790.205,
+            1796.814
+          ],
+          "quote": "Port into Apple and Microsoft different APIs on the operating system level to be able to control your computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2810.714,
+            2815.756
+          ],
+          "quote": "And my dark horse here, of course, wouldn't be a show between us without bringing up Apple.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2815.976,
+            2827.322
+          ],
+          "quote": "I think Apple, which will have device access from the get-go and has shown an interest in being more aggressive on AI products, is the dark horse to pull this off, even if it might be last.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2961.838,
+            2963.441
+          ],
+          "quote": "And then you bring up Apple.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2973.354,
+            2984.138
+          ],
+          "quote": "I still feel like that post holds up where it's like Apple could win and probably will win AI by default just because, again, it's baked into billions of devices automatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2988.96,
+            2994.823
+          ],
+          "quote": "And I know that other key Apple watchers like John Gruber and others have been talking about more recently, which is that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3024.99,
+            3030.131
+          ],
+          "quote": "It's just you don't trust that it's going to, with Apple, you don't trust that Siri's going to work because it hasn't for over a decade.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3058.88,
+            3064.142
+          ],
+          "quote": "The key thing that Apple has, which no one else has, is again, they're on these devices, they have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3082.125,
+            3095.478
+          ],
+          "quote": "So unless you move heaven and earth to basically agree to all of these prompts, which as I think you alluded to earlier, Apple is moving to potentially lock that down more, at least on the Mac in the future.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3128.647,
+            3129.887
+          ],
+          "quote": "Now free on Apple TV+.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3911.575,
+            3916.996
+          ],
+          "quote": "Apple Watch Series 12 measures your heart rate every five seconds with the most accurate heart rate sensing in a wearable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3925.338,
+            3928.258
+          ],
+          "quote": "Hear the story in every heartbeat with Apple Watch Series 12.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3933.079,
+            3935.68
+          ],
+          "quote": "Based on Apple conducted study of heart rate accuracy, August, 2026.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3935.84,
+            3937.88
+          ],
+          "quote": "Visit apple.com slash Apple Watch Series 12.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1220.312,
+            1229.221
+          ],
+          "quote": "We obviously saw that Amazon blocked Muse, so MetaMuse can't shop on Amazon for you, but Shopify came in and said, we'll work with you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1299.619,
+            1303.14
+          ],
+          "quote": "Even, you know, you mentioned Amazon blocking Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1303.86,
+            1311.964
+          ],
+          "quote": "You know, it's interesting because Meta has other deals with Amazon in place, you know, for things for shopping elements and things like that and advertising for sure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1319.268,
+            1322.47
+          ],
+          "quote": "I mean, obviously they have their own competitive products on Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1350.208,
+            1360.073
+          ],
+          "quote": "And so that potentially destroys what has been a huge growth driver, as you well know, for Amazon, becoming one of the major players in advertising based off of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3842.425,
+            3843.385
+          ],
+          "quote": "Where's Amazon, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3843.645,
+            3847.626
+          ],
+          "quote": "Amazon has had Alexa Plus out there for a while now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "personal-assistant",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人助手 (personal assistant)",
+      "file": "个人助手",
+      "primary": true,
+      "how_described": "本集主线：真正的个人 AI 助手体验，破除空白页与贪大求全两个老坑的打法是复用现有聊天习惯加主动提示，成败取决于集成与信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            127.767,
+            142.522
+          ],
+          "quote": "Now, this is not a sentence or not an opening you would have anticipated at the beginning of the month because or beginning of last month, because in September, on the 1st of September, you wrote this, no one has nailed the true personal assistant experience.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 41,
+          "t": [
+            191.727,
+            198.515
+          ],
+          "quote": "And where you think this current moment in the AI personal assistant wars is going to go, and then we'll get into who might win.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 42,
+          "t": [
+            199.807,
+            226.432
+          ],
+          "quote": "Yeah, that post, sort of the impetus behind it was somewhat driven by Instinct, as you mentioned, because I felt like, you know, it feels like months ago already, but even just a few weeks ago, certainly on all the social media feeds, I feel like a lot of VCs in particular were just touting Instinct, which is a new startup in the, you know, agentic and specifically sort of personal assistant use case role.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            337.496,
+            351.989
+          ],
+          "quote": "And so there have been, you know, long time ago, years and years ago, people have been trying to do sort of these personal assistant AI, you know, for everything from way back in the day on PCs, before we had, you know, smartphones even, and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            400.303,
+            411.547
+          ],
+          "quote": "And so it feels like, you know, of course, everyone was going to try to go after what has largely been, you know, what I write about, the holy grail of AI, at least from a consumer perspective, fulfilling this personal assistant need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1049.203,
+            1061.348
+          ],
+          "quote": "But of the players today, and I don't know if I'm missing any, but those seem like the main ones, just break down like which personal assistant is going for what and who do you think comes out on top at the end of this?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1519.917,
+            1526.06
+          ],
+          "quote": "Because I guess there is this growing, and you wrote about this a little bit about DOTS also, which is OpenAI's personal assistant.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1567.546,
+            1578.393
+          ],
+          "quote": "Dots, and you wrote about this last week, despite the fact that Dots has, this is OpenAI's personal assistant, has this like kind of like Sesame Street type feel with its mascots.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2164.861,
+            2168.362
+          ],
+          "quote": "Well, they will face a harder time getting their personal assistant off the ground.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3551.09,
+            3557.653
+          ],
+          "quote": "And I feel like it's pretty key in these early days for a product like this in the AI personal assistant space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3787.218,
+            3795.4
+          ],
+          "quote": "You have the trust notion of like, should I put my entire agentic life and the personal assistant in Google's hands when they're just gonna fall behind again in six months?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论 AI 智能体替用户办事的浪潮：主动提醒账单、优化订阅，以及各家会拒绝让竞争对手的智能体使用自己产品的信息孤岛问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            845.534,
+            858.583
+          ],
+          "quote": "And, you know, in the future, if you have an agent, an AI agent who pings you every once around saying like, hey, I notice you haven't watched, say, HBO Max in a while or Netflix in a while, like, maybe you just wanna like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1880.398,
+            1881.439
+          ],
+          "quote": "They want to be the one agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2241.95,
+            2255.34
+          ],
+          "quote": "In public and who wants to sign up for the meta version of an agent that controls your life versus who wants to sign up for the OpenAI version versus should anyone trust the Anthropic version with all the stuff that they're saying about the end of the world?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "type": "concept",
+      "role": "concept",
+      "name": "集成 (integration)",
+      "file": "集成",
+      "primary": true,
+      "how_described": "本集说集成是这场大战的最终胜负手：你需要邮件、日历、消息的集成，哪家能搞定并保持畅通、不被封锁，将决定这件事最终如何发展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1599.938,
+            1607.98
+          ],
+          "quote": "Though I also think that Muse has an interesting advantage there in that from day one, they launched with WhatsApp integration, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任 (trust)",
+      "file": "信任",
+      "primary": true,
+      "how_described": "本集说信任是成败暗线且方向各异：很多人不愿让 Meta 接入自己的 Gmail 和日历，而 Siri 的问题则相反——它其实已经好用了，但人们因为十多年来一直不行而不敢信任它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            49.544,
+            52.527
+          ],
+          "quote": "How do you know where to look, who to trust, or how much to pay?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 126,
+          "t": [
+            692.734,
+            709.648
+          ],
+          "quote": "That said, I still feel like there needs to be the thing that you tell people, oh yeah, it did this thing for me, and it's sort of the viral word of mouth mechanics, and it gets people both trying out these new products, but also there's a level of trust that's needed for these products, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            711.57,
+            716.673
+          ],
+          "quote": "You've heard from a friend that they're using this product and that they obviously inherently trust it because they're using it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1480.279,
+            1486.325
+          ],
+          "quote": "They knew that people are not going to trust this inherently something from Meta, especially something from Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2225.756,
+            2235.805
+          ],
+          "quote": "Yeah, but yeah, that will be an interesting, the reaction to those movies will be fascinating in the face of trying to get these adoption of these agents for the trust reasons that you're talking about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2241.95,
+            2255.34
+          ],
+          "quote": "In public and who wants to sign up for the meta version of an agent that controls your life versus who wants to sign up for the OpenAI version versus should anyone trust the Anthropic version with all the stuff that they're saying about the end of the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2255.38,
+            2258.142
+          ],
+          "quote": "Should anyone dare trust the Elon Musk version of this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2258.562,
+            2264.066
+          ],
+          "quote": "Do we default back to Microsoft because we should trust them or do we go with our old friend Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3011.407,
+            3020.689
+          ],
+          "quote": "ChatGPT and opening up Claude for queries that you could easily do in this baked-in version of Siri, and you just forget that you can trust it now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3021.009,
+            3024.93
+          ],
+          "quote": "And so in some ways, it has the opposite trust of what Meta, what we were talking about with Meta, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3024.99,
+            3030.131
+          ],
+          "quote": "It's just you don't trust that it's going to, with Apple, you don't trust that Siri's going to work because it hasn't for over a decade.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3030.311,
+            3037.653
+          ],
+          "quote": "And now the fact that it does is good, obviously, but it's still a problem now because they have that trust deficit in another weird way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3222.506,
+            3225.349
+          ],
+          "quote": "AvePoint, the unifying trust layer for AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3781.937,
+            3786.898
+          ],
+          "quote": "And it will probably be a compelling for a little bit, but then now you have another, we go back to the trust notion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3787.218,
+            3795.4
+          ],
+          "quote": "You have the trust notion of like, should I put my entire agentic life and the personal assistant in Google's hands when they're just gonna fall behind again in six months?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅经济 (subscription)",
+      "file": "订阅经济",
+      "primary": false,
+      "how_described": "本集点出多少订阅生意建立在『人们设置完就忘了取消』之上，智能体会提醒你关掉没看的 HBO Max，整个订阅行业都得围绕这个重构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            837.348,
+            843.472
+          ],
+          "quote": "Just imagine how many subscription-based businesses are based off of, you know, the fact that people just don't cancel, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            866.308,
+            870.47
+          ],
+          "quote": "You know, that's one very easy one, but even like any subscription service, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2079.587,
+            2085.009
+          ],
+          "quote": "And OpenAI will only let you use it if you're part of the pro subscription tier.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说 ChatGPT 是 OpenAI 面向消费者的庞然大物，Sam Altman 宣布已有 12 亿周活跃用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1940.473,
+            1949.076
+          ],
+          "quote": "I just felt like that that's indicative of the whole company right now because obviously they built this consumer-facing behemoth in ChatGPT itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2054.384,
+            2061.609
+          ],
+          "quote": "And OpenAI has ChatGPT, which of course they bake this in to the ChatGPT super app from the get-go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2109.037,
+            2116.138
+          ],
+          "quote": "I wouldn't say I feel comfortable giving it to OpenAI, but I feel, I guess, a little bit less of a gag reflex when I connect it to ChatGPT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2732.336,
+            2737.778
+          ],
+          "quote": "Like, is Dots actually going to be the eventual total front end of ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3011.407,
+            3020.689
+          ],
+          "quote": "ChatGPT and opening up Claude for queries that you could easily do in this baked-in version of Siri, and you just forget that you can trust it now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gmail",
+      "type": "company",
+      "role": "company",
+      "name": "Gmail",
+      "file": "Gmail",
+      "primary": false,
+      "how_described": "本集说多数助手产品不连上 Gmail 和日历就基本没法用，而握有它们的 Google 随时可能说『我们不开放了』，让所有竞争对手都活在借来的时间上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1240.571,
+            1248.434
+          ],
+          "quote": "I think most people, well, I don't even want to say most or less, but we have billion plus, maybe billions of people on Gmail.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2103.275,
+            2108.397
+          ],
+          "quote": "I just don't have any interest in letting Meta have access to Gmail and Calendar, where for whatever reason,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3358.371,
+            3366.098
+          ],
+          "quote": "And like we mentioned in the first half, or in the beginning, because we only have a couple more minutes left, they have Gmail, they have Calendar, they have Talent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3511.273,
+            3520.477
+          ],
+          "quote": "It does certain things well because, as you note, they have the integrations to Gmail, to Google Calendar, to everything else, to Google Search.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

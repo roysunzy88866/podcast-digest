@@ -92,7 +92,7 @@ unlisted: true
 
 [[a16z]] · [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]] · [[Gagan Biani]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"a16z":18,"OpenAI":164,"ChatGPT":97,"Codex":80,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1,"Gagan Biani":1,"Martin Casado":5}</script>
+<script type="application/json" class="pd-epn">{"a16z":18,"OpenAI":165,"ChatGPT":98,"Codex":80,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1,"Gagan Biani":1,"Martin Casado":5}</script>
 
 <script>
 (function(){

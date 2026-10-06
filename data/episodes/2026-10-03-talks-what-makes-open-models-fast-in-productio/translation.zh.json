@@ -1,0 +1,2146 @@
+[
+ {
+  "seg": 0,
+  "start": 12.485,
+  "end": 13.546,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us today.",
+  "zh": "感谢大家今天参加。"
+ },
+ {
+  "seg": 1,
+  "start": 14.446,
+  "end": 14.866,
+  "speaker": "Unknown",
+  "en": "I'm Dylan.",
+  "zh": "我是 Dylan。"
+ },
+ {
+  "seg": 2,
+  "start": 14.886,
+  "end": 17.148,
+  "speaker": "Unknown",
+  "en": "I'm here today with my colleague Suji.",
+  "zh": "今天和我同事 Suji 一起来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 17.308,
+  "end": 19.869,
+  "speaker": "Unknown",
+  "en": "So I lead the product marketing for Nibia's token factory.",
+  "zh": "我负责 Nibia 的 token factory 产品营销。"
+ },
+ {
+  "seg": 4,
+  "start": 19.889,
+  "end": 22.411,
+  "speaker": "Unknown",
+  "en": "And I'm here with Suji as a developer advocate.",
+  "zh": "我和 Suji 在一起,他是开发者布道师。"
+ },
+ {
+  "seg": 5,
+  "start": 22.431,
+  "end": 27.094,
+  "speaker": "Unknown",
+  "en": "And we're going to talk a bit about engineering open NLMs for production.",
+  "zh": "我们要聊一下为生产环境工程化开源 NLM。"
+ },
+ {
+  "seg": 6,
+  "start": 28.326,
+  "end": 32.17,
+  "speaker": "Unknown",
+  "en": "So before we jump right in, I want to give a few words about what we're going to cover today.",
+  "zh": "在开始之前,我想简单说一下今天要讲的内容。"
+ },
+ {
+  "seg": 7,
+  "start": 32.75,
+  "end": 49.887,
+  "speaker": "Unknown",
+  "en": "We only have 20 minutes, so we'll try to keep this brief, but we're going to give you a quick intro on who we are, what we do, then talk about what it takes to build the infra for inference, a few words on model shaping optimizations, which are extremely important in what we do, and then we'll talk about model serving optimizations.",
+  "zh": "我们只有 20 分钟,所以会尽量简短。我们会快速介绍一下我们是谁、我们做什么,然后讲构建推理基础设施需要什么,再简单说一下模型塑形优化——这对我们所做的事情极其重要——最后我们会讲模型服务优化。"
+ },
+ {
+  "seg": 8,
+  "start": 52.681,
+  "end": 56.622,
+  "speaker": "Unknown",
+  "en": "But before we jump right in, I just want to give a few words about who we are and what we do.",
+  "zh": "但在开始之前,我只想简单介绍一下我们是谁、我们做什么。"
+ },
+ {
+  "seg": 9,
+  "start": 56.722,
+  "end": 60.883,
+  "speaker": "Unknown",
+  "en": "So we work for Nebius, so specifically Nebius Token Factory.",
+  "zh": "我们为 Nebius 工作,具体来说是 Nebius Token Factory。"
+ },
+ {
+  "seg": 10,
+  "start": 61.403,
+  "end": 64.704,
+  "speaker": "Unknown",
+  "en": "But Nebius is like a full stack AI cloud infrastructure.",
+  "zh": "Nebius 是一个全栈 AI 云基础设施。"
+ },
+ {
+  "seg": 11,
+  "start": 65.624,
+  "end": 73.126,
+  "speaker": "Unknown",
+  "en": "So this means we're actually not only exposing model APIs, we run the actual physical AI layer and infrastructure underneath it.",
+  "zh": "这意味着我们实际上不仅仅提供模型 API,我们还运营底层的实际物理 AI 层和基础设施。"
+ },
+ {
+  "seg": 12,
+  "start": 73.826,
+  "end": 82.388,
+  "speaker": "Unknown",
+  "en": "We have our own data centers, NVIDIA systems, bare metal capacity, managed cloud, and optimizing the serving and the inference through Nebius Token Factory.",
+  "zh": "我们拥有自己的数据中心、NVIDIA 系统、裸金属容量、托管云,并通过 Nebius Token Factory 优化服务和推理。"
+ },
+ {
+  "seg": 13,
+  "start": 83.949,
+  "end": 86.73,
+  "speaker": "Unknown",
+  "en": "Top row here is really about scale and trust.",
+  "zh": "这里上面一排关于规模和信任。"
+ },
+ {
+  "seg": 14,
+  "start": 86.83,
+  "end": 90.912,
+  "speaker": "Unknown",
+  "en": "So we're a publicly traded company on the NASDAQ, headquartered in Amsterdam.",
+  "zh": "我们是一家在纳斯达克上市的公开公司,总部在阿姆斯特丹。"
+ },
+ {
+  "seg": 15,
+  "start": 91.833,
+  "end": 96.615,
+  "speaker": "Unknown",
+  "en": "We're very close with NVIDIA, who made a 2 billion investment in EBS a couple of months ago.",
+  "zh": "我们与 NVIDIA 关系非常紧密,NVIDIA 几个月前向 EBS 投资了 20 亿。"
+ },
+ {
+  "seg": 16,
+  "start": 96.815,
+  "end": 101.058,
+  "speaker": "Unknown",
+  "en": "And we're targeting 5 gigawits of NVIDIA systems by the end of 2030.",
+  "zh": "我们的目标是到 2030 年底达到 5 gigawits 的 NVIDIA 系统。"
+ },
+ {
+  "seg": 17,
+  "start": 103.02,
+  "end": 105.061,
+  "speaker": "Unknown",
+  "en": "Bottom row is really more about the control of the stack.",
+  "zh": "下面一排更多是关于对整个技术栈的控制。"
+ },
+ {
+  "seg": 18,
+  "start": 105.101,
+  "end": 106.881,
+  "speaker": "Unknown",
+  "en": "This is quite a good edge we have.",
+  "zh": "这是我们相当好的一个优势。"
+ },
+ {
+  "seg": 19,
+  "start": 107.262,
+  "end": 112.903,
+  "speaker": "Unknown",
+  "en": "We operate own data centers across the EU and the US, bare metal rather than shared cloud.",
+  "zh": "我们在欧盟和美国运营自己的数据中心,是裸金属而不是共享云。"
+ },
+ {
+  "seg": 20,
+  "start": 113.444,
+  "end": 118.465,
+  "speaker": "Unknown",
+  "en": "We're a very early adopter of NVIDIA Rubin and Bluefield Storage.",
+  "zh": "我们是 NVIDIA Rubin 和 Bluefield Storage 的非常早期的采用者。"
+ },
+ {
+  "seg": 21,
+  "start": 118.946,
+  "end": 125.528,
+  "speaker": "Unknown",
+  "en": "And we were amongst the first European clouds to run both Blackwell Ultra, HGX B300, and GB300 in production.",
+  "zh": "而且我们是最早一批在生产环境同时运行 Blackwell Ultra、HGX B300 和 GB300 的欧洲云。"
+ },
+ {
+  "seg": 22,
+  "start": 126.662,
+  "end": 135.291,
+  "speaker": "Unknown",
+  "en": "We also have strong contracts from Microsoft and Meta agreements that kind of show that the largest AI builders are already building this kind of capacity from us.",
+  "zh": "我们还有来自 Microsoft 和 Meta 的强劲合同,这些协议在一定程度上表明最大的 AI 构建者已经在从我们这里构建这种容量。"
+ },
+ {
+  "seg": 23,
+  "start": 136.693,
+  "end": 138.094,
+  "speaker": "Unknown",
+  "en": "And the last time is quite important.",
+  "zh": "最后一部分非常重要。"
+ },
+ {
+  "seg": 24,
+  "start": 138.194,
+  "end": 142.018,
+  "speaker": "Unknown",
+  "en": "It's really the important bridge to this talk.",
+  "zh": "它是连接到这次演讲的重要桥梁。"
+ },
+ {
+  "seg": 25,
+  "start": 142.078,
+  "end": 146.323,
+  "speaker": "Unknown",
+  "en": "It's the vertical integration from silicon to serving that we rely on.",
+  "zh": "就是我们所依赖的、从硅片到服务的垂直整合。"
+ },
+ {
+  "seg": 26,
+  "start": 148.358,
+  "end": 150.422,
+  "speaker": "Unknown",
+  "en": "So today we're talking about Nibus Token Factory.",
+  "zh": "所以今天我们讲的是 Nibus Token Factory。"
+ },
+ {
+  "seg": 27,
+  "start": 150.482,
+  "end": 154.089,
+  "speaker": "Unknown",
+  "en": "So the idea here is to really engineer AI for products.",
+  "zh": "这里的理念是真正为产品工程化 AI。"
+ },
+ {
+  "seg": 28,
+  "start": 154.229,
+  "end": 158.918,
+  "speaker": "Unknown",
+  "en": "So we're a managed inference company, meaning we deploy these models and optimize them for our customers.",
+  "zh": "我们是一家托管推理公司,也就是说我们为客户部署这些模型并对其进行优化。"
+ },
+ {
+  "seg": 29,
+  "start": 161.18,
+  "end": 165.141,
+  "speaker": "Unknown",
+  "en": "So we noticed a few things today in the market of serving open source LLMs.",
+  "zh": "所以今天我们注意到在开源 LLM 服务市场的一些事情。"
+ },
+ {
+  "seg": 30,
+  "start": 165.441,
+  "end": 169.962,
+  "speaker": "Unknown",
+  "en": "Usually, most AI teams are stuck between choosing two bad options.",
+  "zh": "通常,大多数 AI 团队都被困在两个糟糕的选择之间。"
+ },
+ {
+  "seg": 31,
+  "start": 170.202,
+  "end": 173.963,
+  "speaker": "Unknown",
+  "en": "Closed APIs are really easy to start with, but you often hit a ceiling really fast.",
+  "zh": "封闭 API 起步非常容易,但你往往会很快碰上天花板。"
+ },
+ {
+  "seg": 32,
+  "start": 174.543,
+  "end": 176.783,
+  "speaker": "Unknown",
+  "en": "And you can't really tune the model to your specific use case.",
+  "zh": "而且你无法真正针对你的特定用例调整模型。"
+ },
+ {
+  "seg": 33,
+  "start": 177.263,
+  "end": 178.824,
+  "speaker": "Unknown",
+  "en": "You share the info with everyone else.",
+  "zh": "你和其他所有人共享信息。"
+ },
+ {
+  "seg": 34,
+  "start": 179.324,
+  "end": 185.285,
+  "speaker": "Unknown",
+  "en": "So it kind of operates as a black box, and the costs grow in a straight line with no way to really optimize things.",
+  "zh": "所以它某种程度上像一个黑箱运行,成本直线增长,没有办法真正优化。"
+ },
+ {
+  "seg": 35,
+  "start": 186.334,
+  "end": 187.795,
+  "speaker": "Unknown",
+  "en": "The other option here is self-hosting.",
+  "zh": "另一个选择是自托管。"
+ },
+ {
+  "seg": 36,
+  "start": 188.396,
+  "end": 189.376,
+  "speaker": "Unknown",
+  "en": "Obviously, it's quite fun.",
+  "zh": "显然,这很有趣。"
+ },
+ {
+  "seg": 37,
+  "start": 189.897,
+  "end": 191.258,
+  "speaker": "Unknown",
+  "en": "It gives you full control on the model.",
+  "zh": "它给你对模型的完全控制。"
+ },
+ {
+  "seg": 38,
+  "start": 191.418,
+  "end": 193.1,
+  "speaker": "Unknown",
+  "en": "But it's a massive engineering project.",
+  "zh": "但这是一个巨大的工程项目。"
+ },
+ {
+  "seg": 39,
+  "start": 194,
+  "end": 197.063,
+  "speaker": "Unknown",
+  "en": "So you really need a dedicated team to actually keep it running.",
+  "zh": "所以你真的需要一个专门的团队来让它持续运行。"
+ },
+ {
+  "seg": 40,
+  "start": 197.663,
+  "end": 201.106,
+  "speaker": "Unknown",
+  "en": "And you're usually a month away from production before you even start your actual product.",
+  "zh": "而且在你开始做真正产品之前,通常离生产环境还有一个月的距离。"
+ },
+ {
+  "seg": 41,
+  "start": 201.206,
+  "end": 205.329,
+  "speaker": "Unknown",
+  "en": "So Token Factory is kind of the shift, this third path we identified",
+  "zh": "所以 Token Factory 就是一种转变,是我们发现的第三条路径"
+ },
+ {
+  "seg": 42,
+  "start": 206.25,
+  "end": 213.452,
+  "speaker": "Unknown",
+  "en": "Before you even start on your actual product, you get the control and the performance of self-hosting with the simplicity of a managed inference service.",
+  "zh": "在你开始做真正产品之前,你就获得自托管的控制和性能,以及托管推理服务的简单性。"
+ },
+ {
+  "seg": 43,
+  "start": 213.512,
+  "end": 218.894,
+  "speaker": "Unknown",
+  "en": "So we do the heavy lifting, the hard infrastructure work, and then customers stay focused on their product.",
+  "zh": "所以我们做繁重的工作、困难的基础设施工作,客户则专注于他们的产品。"
+ },
+ {
+  "seg": 44,
+  "start": 219.534,
+  "end": 223.395,
+  "speaker": "Unknown",
+  "en": "This really unlocks three main things, performance, cost, and behavior of the models.",
+  "zh": "这真正解锁了三件主要的事:模型的性能、成本和行为。"
+ },
+ {
+  "seg": 45,
+  "start": 224.415,
+  "end": 233.738,
+  "speaker": "Unknown",
+  "en": "As we've seen, the gap between proprietary and open source models has been closing a lot, and so this is where we kind of operate and we feel comfortable operating, is really not only",
+  "zh": "正如我们所见,专有模型和开源模型之间的差距已经缩小了很多,这就是我们运营的地方,也是我们觉得可以放心运营的地方,不仅仅是"
+ },
+ {
+  "seg": 46,
+  "start": 234.798,
+  "end": 242.225,
+  "speaker": "Unknown",
+  "en": "Relying on the fact that this bridge and this gap is closing down, but also figuring out how you actually make it work in your own production use cases.",
+  "zh": "依赖这个桥梁、这个差距正在缩小这个事实,还要弄清楚你如何真正让它在你自己的生产用例中运作起来。"
+ },
+ {
+  "seg": 47,
+  "start": 245.012,
+  "end": 246.573,
+  "speaker": "Unknown",
+  "en": "So this is really the core of TokenFactory.",
+  "zh": "所以这就是 TokenFactory 的核心。"
+ },
+ {
+  "seg": 48,
+  "start": 246.813,
+  "end": 248.635,
+  "speaker": "Unknown",
+  "en": "We built a full stack JNI platform.",
+  "zh": "我们构建了一个全栈 JNI 平台。"
+ },
+ {
+  "seg": 49,
+  "start": 249.675,
+  "end": 256.48,
+  "speaker": "Unknown",
+  "en": "Most platforms we've seen on the markets either give you inference, training, data tooling, but here we decided to connect everything under one loop.",
+  "zh": "我们在市场上看到的大多数平台要么给你推理、训练、数据工具,但在这里我们决定把所有东西连接到一个循环之下。"
+ },
+ {
+  "seg": 50,
+  "start": 256.82,
+  "end": 259.822,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of tools that kind of unlock this.",
+  "zh": "所以我们有一系列工具可以解锁这一点。"
+ },
+ {
+  "seg": 51,
+  "start": 260.103,
+  "end": 263.365,
+  "speaker": "Unknown",
+  "en": "On the inference side, we allow you to run models in production.",
+  "zh": "在推理这一侧，我们让你可以在生产环境中运行模型。"
+ },
+ {
+  "seg": 52,
+  "start": 263.965,
+  "end": 268.389,
+  "speaker": "Unknown",
+  "en": "So we have 60 plus models on the platform, GLM, Kimi, DeepSea, Quen, you name them.",
+  "zh": "我们在平台上有 60 多个模型，GLM、Kimi、DeepSea、Quen，应有尽有。"
+ },
+ {
+  "seg": 53,
+  "start": 269.931,
+  "end": 271.013,
+  "speaker": "Unknown",
+  "en": "We have dedicated endpoints.",
+  "zh": "我们有专用端点。"
+ },
+ {
+  "seg": 54,
+  "start": 271.033,
+  "end": 273.819,
+  "speaker": "Unknown",
+  "en": "We have different flavors on the models depending if you want to run them fast.",
+  "zh": "根据你是否想跑得快，我们有模型的不同变体。"
+ },
+ {
+  "seg": 55,
+  "start": 274.279,
+  "end": 277.566,
+  "speaker": "Unknown",
+  "en": "We have different tooling like structured outputs, function calling, and batch API.",
+  "zh": "我们有不同的工具，比如结构化输出、函数调用和批处理 API。"
+ },
+ {
+  "seg": 56,
+  "start": 278.782,
+  "end": 280.203,
+  "speaker": "Unknown",
+  "en": "Second layer here is the data lab.",
+  "zh": "这里的第二层是数据实验室。"
+ },
+ {
+  "seg": 57,
+  "start": 280.243,
+  "end": 282.784,
+  "speaker": "Unknown",
+  "en": "So this allows you to really capture and structure the production logs.",
+  "zh": "它让你真正能够捕获生产日志并对其进行结构化。"
+ },
+ {
+  "seg": 58,
+  "start": 283.344,
+  "end": 290.387,
+  "speaker": "Unknown",
+  "en": "So we see a lot of customers actually running these models in production, importing the completions, and wanting a way to kind of slice and dice through these completions.",
+  "zh": "我们看到很多客户实际上在生产中运行这些模型，导入补全结果，并想要一种方式来对这些补全进行切分和分析。"
+ },
+ {
+  "seg": 59,
+  "start": 290.427,
+  "end": 292.208,
+  "speaker": "Unknown",
+  "en": "And this is really what we allow with the data lab.",
+  "zh": "而这正是我们通过数据实验室所实现的。"
+ },
+ {
+  "seg": 60,
+  "start": 292.248,
+  "end": 300.472,
+  "speaker": "Unknown",
+  "en": "So inference log imports, SQL data set filtering, data set versioning, exporting, and then batching these.",
+  "zh": "也就是推理日志导入、SQL 数据集过滤、数据集版本管理、导出，然后对这些进行批处理。"
+ },
+ {
+  "seg": 61,
+  "start": 301.67,
+  "end": 302.932,
+  "speaker": "Unknown",
+  "en": "The third layer is post-training.",
+  "zh": "第三层是后训练。"
+ },
+ {
+  "seg": 62,
+  "start": 302.972,
+  "end": 306.235,
+  "speaker": "Unknown",
+  "en": "So we allow you to kind of fine-tune, distill, optimize these models.",
+  "zh": "我们让你能够对这些模型进行微调、蒸馏和优化。"
+ },
+ {
+  "seg": 63,
+  "start": 306.736,
+  "end": 320.351,
+  "speaker": "Unknown",
+  "en": "So this is a natural follow-up with the data lab, is once you have your logs and your inference and you can generate synthetic data sets, you can bring them all to post-training and use that to kind of either through LoRa or full fine-tuning, make the models much more adapt to the behavior you're expecting from you.",
+  "zh": "这是数据实验室的自然延伸，一旦你有了日志和推理，并且可以生成合成数据集，你就可以把它们全部带到后训练，并通过 LoRa 或全量微调，让模型更适应你期望的行为。"
+ },
+ {
+  "seg": 64,
+  "start": 321.432,
+  "end": 323.053,
+  "speaker": "Unknown",
+  "en": "We also allow model distillation.",
+  "zh": "我们也提供模型蒸馏。"
+ },
+ {
+  "seg": 65,
+  "start": 323.373,
+  "end": 329.937,
+  "speaker": "Unknown",
+  "en": "We do custom spec decoding for customers who need really advanced custom spec decoding tooling.",
+  "zh": "对于真正需要高级自定义投机解码工具的客户，我们提供自定义投机解码。"
+ },
+ {
+  "seg": 66,
+  "start": 330.857,
+  "end": 335.54,
+  "speaker": "Unknown",
+  "en": "We do on-demand and specific quantization and calibration of the model, depending on your preferences.",
+  "zh": "我们根据你的偏好，对模型进行按需的、针对性的量化和校准。"
+ },
+ {
+  "seg": 67,
+  "start": 335.78,
+  "end": 336.861,
+  "speaker": "Unknown",
+  "en": "And we do our GPO.",
+  "zh": "我们还提供我们的 GPO。"
+ },
+ {
+  "seg": 68,
+  "start": 338.617,
+  "end": 340.46,
+  "speaker": "Unknown",
+  "en": "And the fourth layer here is the deployment.",
+  "zh": "第四层是部署。"
+ },
+ {
+  "seg": 69,
+  "start": 340.5,
+  "end": 345.186,
+  "speaker": "Unknown",
+  "en": "So once you run these models, once you train these models, you need a way to deploy them.",
+  "zh": "一旦你运行了这些模型、训练了这些模型，你就需要一种方式来部署它们。"
+ },
+ {
+  "seg": 70,
+  "start": 345.247,
+  "end": 350.694,
+  "speaker": "Unknown",
+  "en": "So this is what allows us to push the models into production on our owned infra.",
+  "zh": "这就是让我们能把模型推送到我们自有基础设施上的生产环境的原因。"
+ },
+ {
+  "seg": 71,
+  "start": 351.985,
+  "end": 356.449,
+  "speaker": "Unknown",
+  "en": "So for most teams, this is usually a choice of different tools that you stitch together.",
+  "zh": "对大多数团队来说，这通常是把不同工具拼接在一起的选择。"
+ },
+ {
+  "seg": 72,
+  "start": 357.149,
+  "end": 360.151,
+  "speaker": "Unknown",
+  "en": "But that creates a lot of friction and need for iteration.",
+  "zh": "但这会产生很多摩擦，也需要大量迭代。"
+ },
+ {
+  "seg": 73,
+  "start": 360.732,
+  "end": 363.234,
+  "speaker": "Unknown",
+  "en": "It slows the need for the ability to iterate here.",
+  "zh": "它拖慢了在这里进行迭代的能力。"
+ },
+ {
+  "seg": 74,
+  "start": 363.454,
+  "end": 369.539,
+  "speaker": "Unknown",
+  "en": "And so what we allow is we need to make the data flow from the inference to the training, and the training flows directly into production.",
+  "zh": "所以我们所实现的是，让数据从推理流向训练，训练又直接流入生产。"
+ },
+ {
+  "seg": 75,
+  "start": 369.559,
+  "end": 372.341,
+  "speaker": "Unknown",
+  "en": "So that allows you to keep a virtuous loop of your product.",
+  "zh": "这让你能够为你的产品保持一个良性循环。"
+ },
+ {
+  "seg": 76,
+  "start": 372.901,
+  "end": 378.426,
+  "speaker": "Unknown",
+  "en": "And that's really what I think is the main difference between running a model and running an actual production AI system.",
+  "zh": "而我认为，这正是运行一个模型和运行一个真正的生产级 AI 系统之间的主要区别。"
+ },
+ {
+  "seg": 77,
+  "start": 383.332,
+  "end": 385.913,
+  "speaker": "Unknown",
+  "en": "So here is this little slide about what we handle so you don't have to.",
+  "zh": "这里有一张小幻灯片，讲的是我们替你处理哪些事情。"
+ },
+ {
+  "seg": 78,
+  "start": 386.854,
+  "end": 389.195,
+  "speaker": "Unknown",
+  "en": "So running models in production is actually quite complicated.",
+  "zh": "在生产环境中运行模型其实相当复杂。"
+ },
+ {
+  "seg": 79,
+  "start": 389.255,
+  "end": 390.055,
+  "speaker": "Unknown",
+  "en": "It takes a lot of work.",
+  "zh": "需要大量的工作。"
+ },
+ {
+  "seg": 80,
+  "start": 390.595,
+  "end": 394.276,
+  "speaker": "Unknown",
+  "en": "And so I think the way we approach the value here is in three main layers.",
+  "zh": "所以我认为我们看待这里的价值的方式分为三个主要层次。"
+ },
+ {
+  "seg": 81,
+  "start": 394.757,
+  "end": 396.057,
+  "speaker": "Unknown",
+  "en": "The first one is the optimization.",
+  "zh": "第一个是优化。"
+ },
+ {
+  "seg": 82,
+  "start": 396.117,
+  "end": 405.381,
+  "speaker": "Unknown",
+  "en": "So we actively tune how models run so the customers get much better speed and lower costs without having to figure out all of that themselves.",
+  "zh": "我们主动调优模型的运行方式，让客户获得更快的速度和更低的成本，而不必自己去弄清楚这一切。"
+ },
+ {
+  "seg": 83,
+  "start": 405.401,
+  "end": 408.242,
+  "speaker": "Unknown",
+  "en": "Like we really do the heavy lifting around the model deployment and optimization.",
+  "zh": "我们真正在模型部署和优化方面承担了繁重的工作。"
+ },
+ {
+  "seg": 84,
+  "start": 408.462,
+  "end": 411.223,
+  "speaker": "Unknown",
+  "en": "And we do allow you to kind of come in and just play with them.",
+  "zh": "我们也允许你进来直接摆弄它们。"
+ },
+ {
+  "seg": 85,
+  "start": 412.642,
+  "end": 417.448,
+  "speaker": "Unknown",
+  "en": "This is all around optimizing latency, throughput, and cost at the actual engine level.",
+  "zh": "这都是在实际引擎层面优化延迟、吞吐和成本。"
+ },
+ {
+  "seg": 86,
+  "start": 417.488,
+  "end": 423.175,
+  "speaker": "Unknown",
+  "en": "Because you could be running the same open source model on different providers and have completely different results in terms of costs.",
+  "zh": "因为同一个开源模型，你在不同提供商上运行，成本方面可能得到完全不同的结果。"
+ },
+ {
+  "seg": 87,
+  "start": 423.515,
+  "end": 426.579,
+  "speaker": "Unknown",
+  "en": "So there's a lot of technical stuff that goes on under the hood to make this work.",
+  "zh": "所以为了让这一切运转起来，底层有大量的技术工作。"
+ },
+ {
+  "seg": 88,
+  "start": 426.599,
+  "end": 428.04,
+  "speaker": "Unknown",
+  "en": "And Suji will cover that in a few minutes.",
+  "zh": "Suji 几分钟后会讲这部分。"
+ },
+ {
+  "seg": 89,
+  "start": 429.243,
+  "end": 430.964,
+  "speaker": "Unknown",
+  "en": "Second layer is the infrastructure.",
+  "zh": "第二层是基础设施。"
+ },
+ {
+  "seg": 90,
+  "start": 431.024,
+  "end": 440.351,
+  "speaker": "Unknown",
+  "en": "So the fact that we actually own the hardware, we keep it running, we own this kind of vertical stack, gives us an edge that most providers don't have.",
+  "zh": "我们实际拥有硬件、让它保持运行、拥有这种垂直技术栈，这给了我们大多数提供商不具备的优势。"
+ },
+ {
+  "seg": 91,
+  "start": 441.432,
+  "end": 444.794,
+  "speaker": "Unknown",
+  "en": "So we really control what the model does.",
+  "zh": "所以我们真正掌控模型的行为。"
+ },
+ {
+  "seg": 92,
+  "start": 445.274,
+  "end": 446.896,
+  "speaker": "Unknown",
+  "en": "We handle everything underneath.",
+  "zh": "我们处理底下的一切。"
+ },
+ {
+  "seg": 93,
+  "start": 447.036,
+  "end": 452.86,
+  "speaker": "Unknown",
+  "en": "And so we just give the customers the full control of the behavior, and we take care of the infrastructure.",
+  "zh": "我们只是把行为的完全控制权交给客户，基础设施由我们来打理。"
+ },
+ {
+  "seg": 94,
+  "start": 453.887,
+  "end": 455.388,
+  "speaker": "Unknown",
+  "en": "Third layer is the enterprise readiness.",
+  "zh": "第三层是企业级就绪。"
+ },
+ {
+  "seg": 95,
+  "start": 455.748,
+  "end": 464.775,
+  "speaker": "Unknown",
+  "en": "I think this is really important here, because running open source seems kind of obvious, but you need a bunch of ways to make sure it works in a secure environment.",
+  "zh": "我认为这一点非常重要，因为运行开源模型看起来似乎很简单，但你需要一系列手段来确保它能在安全的环境中工作。"
+ },
+ {
+  "seg": 96,
+  "start": 464.795,
+  "end": 465.855,
+  "speaker": "Unknown",
+  "en": "So there's a bunch of things here.",
+  "zh": "所以这里有一系列事情。"
+ },
+ {
+  "seg": 97,
+  "start": 466.916,
+  "end": 471.839,
+  "speaker": "Unknown",
+  "en": "Security, compliance, reliability, they're all requirements that all these large companies usually have.",
+  "zh": "安全、合规、可靠性，这些都是这些大公司通常有的要求。"
+ },
+ {
+  "seg": 98,
+  "start": 472.16,
+  "end": 474.942,
+  "speaker": "Unknown",
+  "en": "And they kind of need those before they can ship anything into production.",
+  "zh": "而且他们在把任何东西推上生产环境之前就需要这些。"
+ },
+ {
+  "seg": 99,
+  "start": 475.702,
+  "end": 484.289,
+  "speaker": "Unknown",
+  "en": "And so a lot of AI providers make you figure out all of these through yourself, and our mission here is to really handle all of these so you don't have to.",
+  "zh": "很多 AI 提供商让你自己去解决所有这些问题，而我们的使命就是真正替你处理所有这些，让你不必操心。"
+ },
+ {
+  "seg": 100,
+  "start": 488.63,
+  "end": 492.471,
+  "speaker": "Unknown",
+  "en": "Something that comes up a lot with AI teams is that they start with inference.",
+  "zh": "AI 团队经常遇到的一个情况是，他们从推理开始。"
+ },
+ {
+  "seg": 101,
+  "start": 492.571,
+  "end": 494.152,
+  "speaker": "Unknown",
+  "en": "They just get a model up and running.",
+  "zh": "他们只是把一个模型跑起来。"
+ },
+ {
+  "seg": 102,
+  "start": 494.792,
+  "end": 500.794,
+  "speaker": "Unknown",
+  "en": "And then they realize that pretty quickly that running it is not just as easy as it seems.",
+  "zh": "然后他们很快意识到，把它跑起来并不像看起来那么容易。"
+ },
+ {
+  "seg": 103,
+  "start": 501.694,
+  "end": 504.855,
+  "speaker": "Unknown",
+  "en": "And it's only the beginning of your path through running open source models at scale.",
+  "zh": "而这只是你在大规模运行开源模型之路的起点。"
+ },
+ {
+  "seg": 104,
+  "start": 505.515,
+  "end": 508.436,
+  "speaker": "Unknown",
+  "en": "So they really need to understand how it's actually performing in the real world.",
+  "zh": "所以他们真正需要了解它在真实世界中到底表现如何。"
+ },
+ {
+  "seg": 105,
+  "start": 508.536,
+  "end": 510.237,
+  "speaker": "Unknown",
+  "en": "And this is kind of where we come in.",
+  "zh": "而这差不多就是我们介入的地方。"
+ },
+ {
+  "seg": 106,
+  "start": 511.157,
+  "end": 512.738,
+  "speaker": "Unknown",
+  "en": "They want to improve it over time.",
+  "zh": "他们想随着时间不断改进它。"
+ },
+ {
+  "seg": 107,
+  "start": 512.818,
+  "end": 515.34,
+  "speaker": "Unknown",
+  "en": "They need to redeploy updates without breaking things.",
+  "zh": "他们需要在不破坏现有东西的情况下重新部署更新。"
+ },
+ {
+  "seg": 108,
+  "start": 516.661,
+  "end": 525.467,
+  "speaker": "Unknown",
+  "en": "And that full cycle from running to observing to capturing and to redeploying the model is really what separates team from that ship, like great AI products from team that ship demos.",
+  "zh": "而从运行到观测、到捕获、再到重新部署模型的完整循环，正是区分那些发布出色 AI 产品的团队和那些只发布 demo 的团队的关键。"
+ },
+ {
+  "seg": 109,
+  "start": 525.507,
+  "end": 528.81,
+  "speaker": "Unknown",
+  "en": "And I think that's really important to hear, especially when talking about open source.",
+  "zh": "我认为这一点真的很重要，尤其是在谈论开源的时候。"
+ },
+ {
+  "seg": 110,
+  "start": 529.71,
+  "end": 531.392,
+  "speaker": "Unknown",
+  "en": "And so Token Factory covers that full loop.",
+  "zh": "所以 Token Factory 覆盖了这整个循环。"
+ },
+ {
+  "seg": 111,
+  "start": 532.412,
+  "end": 544.379,
+  "speaker": "Unknown",
+  "en": "Inference to run the models, so as I said, Kimi, DeepSeq, all the main ones, through real-time inference or batch inference, through structured outputs and function calling, and on dedicated endpoints when it's necessary.",
+  "zh": "用推理来运行模型，正如我所说，Kimi、DeepSeq，所有主要的模型，通过实时推理或批量推理，通过结构化输出和函数调用，以及在必要时的专用端点。"
+ },
+ {
+  "seg": 112,
+  "start": 546.471,
+  "end": 560.258,
+  "speaker": "Unknown",
+  "en": "And then moving on to the data lab to collect and analyze the real-world signal, the completions, moving over to post-training to improve and customize the model, and finally moving to the last step, and probably the most important one, which is the deployment, to push updates with full control over the model.",
+  "zh": "然后进入数据实验室，收集和分析真实世界的信号，也就是补全结果，接着转到后训练来改进和定制模型，最后进入最后一步，也可能是最重要的一步，那就是部署，以对模型的完全控制推送更新。"
+ },
+ {
+  "seg": 113,
+  "start": 561.158,
+  "end": 571.583,
+  "speaker": "Unknown",
+  "en": "And it's really important for most of our customers to know how it's running and what chips it's running on, the level of quantization and all that stuff, and that's really where we kind of operate and are comfortable.",
+  "zh": "对我们大多数客户来说，非常重要的就是知道它是如何运行的、运行在什么芯片上、量化级别等等所有这些东西，而这正是我们所擅长并且运作自如的领域。"
+ },
+ {
+  "seg": 114,
+  "start": 573.253,
+  "end": 576.534,
+  "speaker": "Unknown",
+  "en": "Most teams today, we figured, have to stitch different tools together to get this.",
+  "zh": "我们发现，如今大多数团队不得不把不同的工具拼接起来才能做到这一点。"
+ },
+ {
+  "seg": 115,
+  "start": 576.774,
+  "end": 580.776,
+  "speaker": "Unknown",
+  "en": "And we actually built one platform that tries and covers it end to end.",
+  "zh": "而我们实际上构建了一个平台，试图端到端地覆盖这一切。"
+ },
+ {
+  "seg": 116,
+  "start": 580.856,
+  "end": 583.857,
+  "speaker": "Unknown",
+  "en": "So we really see this as a continuous improvement loop.",
+  "zh": "所以我们真的把这看作一个持续改进的循环。"
+ },
+ {
+  "seg": 117,
+  "start": 584.418,
+  "end": 588.679,
+  "speaker": "Unknown",
+  "en": "Every cycle makes your AI more specific, way faster, and much cheaper.",
+  "zh": "每一个循环都让你的 AI 更具体、快得多、也便宜得多。"
+ },
+ {
+  "seg": 118,
+  "start": 590.96,
+  "end": 593.881,
+  "speaker": "Unknown",
+  "en": "And now we'll dive into scaling open models to production.",
+  "zh": "现在我们将深入探讨把开源模型扩展到生产环境。"
+ },
+ {
+  "seg": 119,
+  "start": 594.061,
+  "end": 595.982,
+  "speaker": "Unknown",
+  "en": "And I'll invite Suji on stage to take it over.",
+  "zh": "我将邀请 Suji 上台接手。"
+ },
+ {
+  "seg": 120,
+  "start": 596.002,
+  "end": 602.245,
+  "speaker": "Unknown",
+  "en": "SUJI YANGAROVSKY- All right.",
+  "zh": "SUJI YANGAROVSKY — 好的。"
+ },
+ {
+  "seg": 121,
+  "start": 602.405,
+  "end": 602.925,
+  "speaker": "Unknown",
+  "en": "Thank you, Dylan.",
+  "zh": "谢谢你，Dylan。"
+ },
+ {
+  "seg": 122,
+  "start": 604.831,
+  "end": 605.431,
+  "speaker": "Unknown",
+  "en": "All right, everyone.",
+  "zh": "好，各位。"
+ },
+ {
+  "seg": 123,
+  "start": 605.471,
+  "end": 611.874,
+  "speaker": "Unknown",
+  "en": "So I'll zip through a few of these, but I'm happy to have a discussion afterwards, so come and find us if you have any questions.",
+  "zh": "我会快速过一遍其中一些内容，但我很乐意之后进行讨论，所以如果有任何问题，欢迎来找我们。"
+ },
+ {
+  "seg": 124,
+  "start": 612.874,
+  "end": 618.577,
+  "speaker": "Unknown",
+  "en": "So we believe great inference starts with great models, but that's not enough.",
+  "zh": "所以我们相信，出色的推理始于出色的模型，但这还不够。"
+ },
+ {
+  "seg": 125,
+  "start": 619.217,
+  "end": 622.538,
+  "speaker": "Unknown",
+  "en": "You need great infrastructure behind the scene to get the best performance.",
+  "zh": "你需要在幕后有出色的基础设施才能获得最佳性能。"
+ },
+ {
+  "seg": 126,
+  "start": 623.238,
+  "end": 625.98,
+  "speaker": "Unknown",
+  "en": "And I believe that's what Nebius Token Factory provides.",
+  "zh": "而我相信这正是 Nebius Token Factory 所提供的。"
+ },
+ {
+  "seg": 127,
+  "start": 627.56,
+  "end": 634.083,
+  "speaker": "Unknown",
+  "en": "I get a lot of times I get asked, like, so this is great, you guys host open models, but how good are the open models really?",
+  "zh": "我经常被问到，比如，这很棒，你们托管开源模型，但开源模型到底有多好？"
+ },
+ {
+  "seg": 128,
+  "start": 635.114,
+  "end": 636.855,
+  "speaker": "Unknown",
+  "en": "And I'd like to show you this benchmark here.",
+  "zh": "我想给你们看这个基准测试。"
+ },
+ {
+  "seg": 129,
+  "start": 638.135,
+  "end": 639.536,
+  "speaker": "Unknown",
+  "en": "This is from artificial analysis.",
+  "zh": "这来自 artificial analysis。"
+ },
+ {
+  "seg": 130,
+  "start": 640.236,
+  "end": 644.218,
+  "speaker": "Unknown",
+  "en": "The black ones are proprietary models, and the blue ones are open models.",
+  "zh": "黑色的是专有模型，蓝色的是开源模型。"
+ },
+ {
+  "seg": 131,
+  "start": 644.979,
+  "end": 653.823,
+  "speaker": "Unknown",
+  "en": "And the cool thing you can see here is how the open models are actually very competitive, sometimes even better than a lot of the proprietary models.",
+  "zh": "你在这里能看到的一个很酷的事情是，开源模型实际上非常有竞争力，有时甚至比很多专有模型还要好。"
+ },
+ {
+  "seg": 132,
+  "start": 654.443,
+  "end": 658.625,
+  "speaker": "Unknown",
+  "en": "So the gap between proprietary and open models is very narrow.",
+  "zh": "所以专有模型和开源模型之间的差距非常小。"
+ },
+ {
+  "seg": 133,
+  "start": 659.84,
+  "end": 663.763,
+  "speaker": "Unknown",
+  "en": "So we don't really have to chase proprietary models all the time for the intelligence.",
+  "zh": "所以我们其实不必总是为了智能去追逐专有模型。"
+ },
+ {
+  "seg": 134,
+  "start": 664.203,
+  "end": 672.529,
+  "speaker": "Unknown",
+  "en": "You can just as well choose an open model that's just as smart and also ends up being much cheaper in most cases, which is pretty cool.",
+  "zh": "你完全可以同样选择一个同样聪明的开源模型，而且在大多数情况下最终会便宜得多，这挺酷的。"
+ },
+ {
+  "seg": 135,
+  "start": 672.969,
+  "end": 674.21,
+  "speaker": "Unknown",
+  "en": "So what does it mean for customers?",
+  "zh": "那这对客户意味着什么？"
+ },
+ {
+  "seg": 136,
+  "start": 674.63,
+  "end": 675.611,
+  "speaker": "Unknown",
+  "en": "You get choice, right?",
+  "zh": "你获得了选择权，对吧？"
+ },
+ {
+  "seg": 137,
+  "start": 675.671,
+  "end": 684.537,
+  "speaker": "Unknown",
+  "en": "You can run these open models in any provider, hopefully token factory, but so there's no vendor lock-in and also you end up saving a lot of money on tokenomics.",
+  "zh": "你可以在任何提供商那里运行这些开源模型，希望是 Token Factory，所以没有供应商锁定，而且你在 tokenomics 上最终也能省下很多钱。"
+ },
+ {
+  "seg": 138,
+  "start": 686.549,
+  "end": 689.971,
+  "speaker": "Unknown",
+  "en": "And here's a few examples of models we host.",
+  "zh": "这里是我们托管的一些模型示例。"
+ },
+ {
+  "seg": 139,
+  "start": 690.192,
+  "end": 692.213,
+  "speaker": "Unknown",
+  "en": "The top table is like the large models.",
+  "zh": "上面那张表是大模型。"
+ },
+ {
+  "seg": 140,
+  "start": 692.433,
+  "end": 694.235,
+  "speaker": "Unknown",
+  "en": "We call them sort of the teacher models, right?",
+  "zh": "我们称它们为某种意义上的教师模型，对吧？"
+ },
+ {
+  "seg": 141,
+  "start": 694.295,
+  "end": 697.657,
+  "speaker": "Unknown",
+  "en": "They are very capable, very smart, but also kind of large.",
+  "zh": "它们能力很强、非常聪明，但也比较大。"
+ },
+ {
+  "seg": 142,
+  "start": 698.137,
+  "end": 702.04,
+  "speaker": "Unknown",
+  "en": "You can also use the large teacher models to train the smaller student models.",
+  "zh": "你也可以用大的教师模型来训练更小的学生模型。"
+ },
+ {
+  "seg": 143,
+  "start": 702.34,
+  "end": 705.282,
+  "speaker": "Unknown",
+  "en": "So you sort of see the both large models and small models hosted.",
+  "zh": "所以你们可以看到我们既托管大模型也托管小模型。"
+ },
+ {
+  "seg": 144,
+  "start": 706.343,
+  "end": 712.968,
+  "speaker": "Unknown",
+  "en": "So I want to sort of structure the talk a little bit, sort of from the hardware layer, the serving layer, and the optimizing layer.",
+  "zh": "所以我想把这次演讲稍微组织一下，大致从硬件层、服务层和优化层来讲。"
+ },
+ {
+  "seg": 145,
+  "start": 714.64,
+  "end": 716.402,
+  "speaker": "Unknown",
+  "en": "So Dylan talked a little bit about hardware.",
+  "zh": "Dylan 稍微讲了一些硬件的内容。"
+ },
+ {
+  "seg": 146,
+  "start": 716.562,
+  "end": 718.424,
+  "speaker": "Unknown",
+  "en": "We work very closely with NVIDIA.",
+  "zh": "我们与 NVIDIA 合作非常紧密。"
+ },
+ {
+  "seg": 147,
+  "start": 718.924,
+  "end": 720.045,
+  "speaker": "Unknown",
+  "en": "We get the latest chipsets.",
+  "zh": "我们拿到最新的芯片组。"
+ },
+ {
+  "seg": 148,
+  "start": 720.846,
+  "end": 728.513,
+  "speaker": "Unknown",
+  "en": "And not just the latest, we also optimize kernels and runtimes, so the models run really, really well.",
+  "zh": "而且不只是最新的，我们还优化内核和运行时，让模型运行得非常非常好。"
+ },
+ {
+  "seg": 149,
+  "start": 729.013,
+  "end": 733.157,
+  "speaker": "Unknown",
+  "en": "For example, something like the NVIDIA Floating 0.4 standard, we embraced it.",
+  "zh": "例如，像 NVIDIA Floating 0.4 标准这样的东西，我们拥抱了它。"
+ },
+ {
+  "seg": 150,
+  "start": 733.397,
+  "end": 736.54,
+  "speaker": "Unknown",
+  "en": "It gives us a really good model performance on latest NVIDIA chips.",
+  "zh": "它让我们在最新的 NVIDIA 芯片上获得非常出色的模型性能。"
+ },
+ {
+  "seg": 151,
+  "start": 737.711,
+  "end": 741.617,
+  "speaker": "Unknown",
+  "en": "And if you think about model serving, that kind of takes us to the middle layer.",
+  "zh": "如果你想想模型服务,那就把我们带到了中间层。"
+ },
+ {
+  "seg": 152,
+  "start": 742.378,
+  "end": 744.621,
+  "speaker": "Unknown",
+  "en": "And there are a few optimizations I'll talk about.",
+  "zh": "这里有一些优化,我会讲到。"
+ },
+ {
+  "seg": 153,
+  "start": 746.017,
+  "end": 748.938,
+  "speaker": "Unknown",
+  "en": "Starting with the engines, because you need an engine to serve the model.",
+  "zh": "从引擎说起,因为你需要一个引擎来服务模型。"
+ },
+ {
+  "seg": 154,
+  "start": 749.918,
+  "end": 751.858,
+  "speaker": "Unknown",
+  "en": "We utilize a lot of the open source engines.",
+  "zh": "我们大量使用开源引擎。"
+ },
+ {
+  "seg": 155,
+  "start": 752.639,
+  "end": 756.8,
+  "speaker": "Unknown",
+  "en": "We have our own internal fork that we continuously tweak and optimize.",
+  "zh": "我们有自己的内部 fork,持续地进行调整和优化。"
+ },
+ {
+  "seg": 156,
+  "start": 757.48,
+  "end": 760.801,
+  "speaker": "Unknown",
+  "en": "And we will deploy the model on the best engine possible.",
+  "zh": "我们会把模型部署到最合适的引擎上。"
+ },
+ {
+  "seg": 157,
+  "start": 761.221,
+  "end": 767.442,
+  "speaker": "Unknown",
+  "en": "Not all the models run equally well on all the engines, so we figure out which engines run well and will deploy the models accordingly.",
+  "zh": "并不是所有模型在所有引擎上都能跑得一样好,所以我们弄清楚哪些引擎跑得好,并相应地部署模型。"
+ },
+ {
+  "seg": 158,
+  "start": 767.522,
+  "end": 775.664,
+  "speaker": "Unknown",
+  "en": "So as a customer, you can just use an API, not having to worry about which kind of GPU, which engine, because we take care of all that work behind the scenes.",
+  "zh": "所以作为客户,你只需要用一个 API,不用操心用哪种 GPU、哪个引擎,因为我们在幕后搞定所有这些工作。"
+ },
+ {
+  "seg": 159,
+  "start": 775.724,
+  "end": 775.893,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 160,
+  "start": 778.187,
+  "end": 784.508,
+  "speaker": "Unknown",
+  "en": "And when you have hundreds of thousands of GPUs running models, load balancing and routing becomes an issue.",
+  "zh": "而当你有几十万块 GPU 在跑模型时,负载均衡和路由就成了一个问题。"
+ },
+ {
+  "seg": 161,
+  "start": 785.309,
+  "end": 787.529,
+  "speaker": "Unknown",
+  "en": "So a lot of the time, people say, well, that's easy, right?",
+  "zh": "所以很多时候,人们会说,这很简单,对吧?"
+ },
+ {
+  "seg": 162,
+  "start": 787.549,
+  "end": 792.51,
+  "speaker": "Unknown",
+  "en": "We just put a load balancer in front, send traffic randomly to different GPUs.",
+  "zh": "我们只要在前面放一个负载均衡器,把流量随机发到不同的 GPU 上就行。"
+ },
+ {
+  "seg": 163,
+  "start": 793.39,
+  "end": 796.731,
+  "speaker": "Unknown",
+  "en": "That's not how it works in LLMs, because the workloads are slightly different.",
+  "zh": "但在 LLM 上不是这样工作的,因为工作负载稍有不同。"
+ },
+ {
+  "seg": 164,
+  "start": 797.291,
+  "end": 802.572,
+  "speaker": "Unknown",
+  "en": "For example, just to give you an idea, in the early days of LLM, the inputs were small.",
+  "zh": "举个例子,让你们有个概念,在 LLM 早期,输入很小。"
+ },
+ {
+  "seg": 165,
+  "start": 802.952,
+  "end": 806.033,
+  "speaker": "Unknown",
+  "en": "I could just say write like a one-liner, and the output is all small.",
+  "zh": "我可能只说一句让它写个一行代码,输出也都很小。"
+ },
+ {
+  "seg": 166,
+  "start": 806.773,
+  "end": 809.436,
+  "speaker": "Unknown",
+  "en": "But now we are seeing your input could be pretty large.",
+  "zh": "但现在我们看到输入可能相当大。"
+ },
+ {
+  "seg": 167,
+  "start": 809.456,
+  "end": 816.744,
+  "speaker": "Unknown",
+  "en": "We are sending large code bases using coding agents to do refactor or summarize or analyze.",
+  "zh": "我们在用 coding agent 发送大型代码库去做重构、总结或分析。"
+ },
+ {
+  "seg": 168,
+  "start": 817.144,
+  "end": 821.309,
+  "speaker": "Unknown",
+  "en": "So the output, as you can see, can vary from large to small, large to large.",
+  "zh": "所以输出,如你所见,可以大到小、大到大多样变化。"
+ },
+ {
+  "seg": 169,
+  "start": 821.889,
+  "end": 823.771,
+  "speaker": "Unknown",
+  "en": "And routing them accordingly will give you...",
+  "zh": "相应地做路由会给你……"
+ },
+ {
+  "seg": 170,
+  "start": 824.632,
+  "end": 825.633,
+  "speaker": "Unknown",
+  "en": "It's not trivial.",
+  "zh": "这不是件小事。"
+ },
+ {
+  "seg": 171,
+  "start": 826.354,
+  "end": 831.459,
+  "speaker": "Unknown",
+  "en": "So what we employ is we employ routers that actually are cache aware.",
+  "zh": "所以我们采用的是真正具备缓存感知能力的路由器。"
+ },
+ {
+  "seg": 172,
+  "start": 832.04,
+  "end": 838.727,
+  "speaker": "Unknown",
+  "en": "What I mean by that is like if you look at the left side here, you will see that my cache, like different colors, is kind of fragmented all over.",
+  "zh": "我的意思是,比如你看左边的图,你会看到我的缓存,用不同颜色表示,基本上是碎片化散落各处的。"
+ },
+ {
+  "seg": 173,
+  "start": 839.507,
+  "end": 846.434,
+  "speaker": "Unknown",
+  "en": "So our caching rate isn't all that great because my request is landing randomly at different GPUs that may or may not have the cache.",
+  "zh": "所以我们的缓存命中率不太好,因为我的请求随机落在不同的 GPU 上,而这些 GPU 可能有缓存也可能没有。"
+ },
+ {
+  "seg": 174,
+  "start": 847.175,
+  "end": 851.219,
+  "speaker": "Unknown",
+  "en": "But if you look at the one on the right, you can see that now the cache is much more coherent.",
+  "zh": "但如果你看右边那张图,可以看到现在缓存连贯多了。"
+ },
+ {
+  "seg": 175,
+  "start": 851.399,
+  "end": 852.581,
+  "speaker": "Unknown",
+  "en": "See the colors are kind of together.",
+  "zh": "看颜色基本是聚在一起的。"
+ },
+ {
+  "seg": 176,
+  "start": 853.301,
+  "end": 856.965,
+  "speaker": "Unknown",
+  "en": "And the router knows where the caches are stored, and it will route them accordingly.",
+  "zh": "路由器知道缓存存在哪里,并且会相应地路由。"
+ },
+ {
+  "seg": 177,
+  "start": 857.365,
+  "end": 861.45,
+  "speaker": "Unknown",
+  "en": "So when you actually do the inference, you get pretty good cache and very good speed.",
+  "zh": "所以当你实际做推理时,你能获得很好的缓存和非常快的速度。"
+ },
+ {
+  "seg": 178,
+  "start": 863.972,
+  "end": 868.156,
+  "speaker": "Unknown",
+  "en": "Another thing, and this is something we are really excited about, it's called spec decoding.",
+  "zh": "另一件事,这是我们非常兴奋的东西,叫做 spec decoding。"
+ },
+ {
+  "seg": 179,
+  "start": 869.207,
+  "end": 874.331,
+  "speaker": "Unknown",
+  "en": "So the challenge is LLMs, they generate tokens one by one.",
+  "zh": "挑战在于 LLM 是一个接一个地生成 token 的。"
+ },
+ {
+  "seg": 180,
+  "start": 874.811,
+  "end": 876.212,
+  "speaker": "Unknown",
+  "en": "One, two, three, four, right?",
+  "zh": "一、二、三、四,对吧?"
+ },
+ {
+  "seg": 181,
+  "start": 876.753,
+  "end": 879.715,
+  "speaker": "Unknown",
+  "en": "And then large models take a long time to generate these tokens.",
+  "zh": "而大模型生成这些 token 需要很长时间。"
+ },
+ {
+  "seg": 182,
+  "start": 880.255,
+  "end": 889.483,
+  "speaker": "Unknown",
+  "en": "So the idea for spec decoding is how about we employ a smaller model, which is a lot of the time faster and cheaper, to generate the tokens.",
+  "zh": "所以 spec decoding 的想法是,我们用一个更小的模型来生成 token,它很多时候更快也更便宜,怎么样?"
+ },
+ {
+  "seg": 183,
+  "start": 890.203,
+  "end": 892.484,
+  "speaker": "Unknown",
+  "en": "But then have the large model verify at the end.",
+  "zh": "但最后让大模型来验证。"
+ },
+ {
+  "seg": 184,
+  "start": 893.064,
+  "end": 900.547,
+  "speaker": "Unknown",
+  "en": "So it's kind of like if you're like a senior engineer, you're kind of farming out the work to a junior engineer, so they're kind of doing the heavy lifting, and then you are verifying the work.",
+  "zh": "这有点像你是高级工程师,把工作分派给初级工程师,让他们干重活,然后你来验证工作。"
+ },
+ {
+  "seg": 185,
+  "start": 901.007,
+  "end": 903.148,
+  "speaker": "Unknown",
+  "en": "And this actually surprisingly scales really well.",
+  "zh": "而这实际上出人意料地扩展性很好。"
+ },
+ {
+  "seg": 186,
+  "start": 903.628,
+  "end": 909.991,
+  "speaker": "Unknown",
+  "en": "So the smaller models can generate tokens very quickly, and the large model can verify, and if it's good, we are done.",
+  "zh": "小模型可以非常快地生成 token,大模型可以验证,如果没问题,就完成了。"
+ },
+ {
+  "seg": 187,
+  "start": 910.818,
+  "end": 915.304,
+  "speaker": "Unknown",
+  "en": "If a large model doesn't like the answer, it will actually regenerate the tokens for you.",
+  "zh": "如果大模型不满意这个答案,它会重新生成这些 token。"
+ },
+ {
+  "seg": 188,
+  "start": 915.764,
+  "end": 917.186,
+  "speaker": "Unknown",
+  "en": "So that's kind of the worst-case scenario.",
+  "zh": "所以那算是最坏的情况。"
+ },
+ {
+  "seg": 189,
+  "start": 917.566,
+  "end": 923.273,
+  "speaker": "Unknown",
+  "en": "But most of the time, you will get pretty good performance out of this by mixing in small models and large models.",
+  "zh": "但大多数时候,通过混合使用小模型和大模型,你能获得相当不错的性能。"
+ },
+ {
+  "seg": 190,
+  "start": 923.514,
+  "end": 929,
+  "speaker": "Unknown",
+  "en": "And this is actually a feature we actually baked into Token Factory that gives you pretty good optimization speed.",
+  "zh": "这其实是我们内建到 Token Factory 里的一个功能,能给你非常好的速度优化。"
+ },
+ {
+  "seg": 191,
+  "start": 930.764,
+  "end": 934.246,
+  "speaker": "Unknown",
+  "en": "So one of the things we experimented, we sort of trained draft models.",
+  "zh": "所以我们做过一些实验,我们大致训练了 draft 模型。"
+ },
+ {
+  "seg": 192,
+  "start": 934.726,
+  "end": 936.567,
+  "speaker": "Unknown",
+  "en": "You can train them using synthetic data.",
+  "zh": "你可以用合成数据来训练它们。"
+ },
+ {
+  "seg": 193,
+  "start": 937.087,
+  "end": 941.589,
+  "speaker": "Unknown",
+  "en": "Even if you train them using generic data, we are seeing up to 30% improvement.",
+  "zh": "即使用通用数据训练,我们也看到最多 30% 的提升。"
+ },
+ {
+  "seg": 194,
+  "start": 942.19,
+  "end": 947.072,
+  "speaker": "Unknown",
+  "en": "But it gets even better if you can train the smaller model using your own data.",
+  "zh": "但如果你能用你自己的数据来训练这个小模型,效果还会更好。"
+ },
+ {
+  "seg": 195,
+  "start": 947.392,
+  "end": 948.693,
+  "speaker": "Unknown",
+  "en": "So we did a lot of experiments here.",
+  "zh": "所以我们在这里做了很多实验。"
+ },
+ {
+  "seg": 196,
+  "start": 949.253,
+  "end": 954.616,
+  "speaker": "Unknown",
+  "en": "And launching a feature, you can actually train these draft models almost like with one click.",
+  "zh": "我们在上线一个功能,你几乎可以一键训练这些 draft 模型。"
+ },
+ {
+  "seg": 197,
+  "start": 955.276,
+  "end": 959.438,
+  "speaker": "Unknown",
+  "en": "And we will capture your production data and train the draft models for you, which is pretty cool.",
+  "zh": "我们会捕获你的生产数据并为你训练 draft 模型,这相当酷。"
+ },
+ {
+  "seg": 198,
+  "start": 960.788,
+  "end": 963.891,
+  "speaker": "Unknown",
+  "en": "Another optimization behind the scenes is KVCache.",
+  "zh": "另一个幕后的优化是 KVCache。"
+ },
+ {
+  "seg": 199,
+  "start": 964.412,
+  "end": 971.959,
+  "speaker": "Unknown",
+  "en": "This is probably one of the biggest ROI in doing inference because creating tokens is expensive, especially when you're doing one at a time.",
+  "zh": "这可能是做推理时投资回报率最高的优化之一,因为生成 token 很昂贵,尤其是当你一次只生成一个的时候。"
+ },
+ {
+  "seg": 200,
+  "start": 972.78,
+  "end": 977.204,
+  "speaker": "Unknown",
+  "en": "And the common sense is once you generate a token, it doesn't change.",
+  "zh": "常识是,一旦生成了一个 token,它就不会改变。"
+ },
+ {
+  "seg": 201,
+  "start": 977.885,
+  "end": 981.43,
+  "speaker": "Unknown",
+  "en": "So there's no need to keep regenerating the same token over and over again.",
+  "zh": "所以没必要一次又一次地重复生成同一个 token。"
+ },
+ {
+  "seg": 202,
+  "start": 981.91,
+  "end": 983.953,
+  "speaker": "Unknown",
+  "en": "So the idea is we cache the tokens.",
+  "zh": "所以我们的想法是把这些 token 缓存起来。"
+ },
+ {
+  "seg": 203,
+  "start": 984.013,
+  "end": 989.119,
+  "speaker": "Unknown",
+  "en": "So just to kind of give an example here, let's say this is my prompt, the cat sat on, right?",
+  "zh": "这里举个例子,假设这是我的提示词,\"the cat sat on\",对吧?"
+ },
+ {
+  "seg": 204,
+  "start": 989.179,
+  "end": 992.703,
+  "speaker": "Unknown",
+  "en": "Let's say those are my prompt, and I'm creating the next word.",
+  "zh": "假设那些是我的提示词,我正在生成下一个词。"
+ },
+ {
+  "seg": 205,
+  "start": 993.284,
+  "end": 995.607,
+  "speaker": "Unknown",
+  "en": "And as soon as we create the next token, we cache it.",
+  "zh": "而一旦我们生成了下一个 token,我们就把它缓存起来。"
+ },
+ {
+  "seg": 206,
+  "start": 996.448,
+  "end": 999.33,
+  "speaker": "Unknown",
+  "en": "And the next time we need to look up, we don't have to regenerate it.",
+  "zh": "下次需要查找时,我们不必重新生成它。"
+ },
+ {
+  "seg": 207,
+  "start": 999.35,
+  "end": 1000.411,
+  "speaker": "Unknown",
+  "en": "We just look up the cache.",
+  "zh": "那非常消耗 CPU。"
+ },
+ {
+  "seg": 208,
+  "start": 1000.771,
+  "end": 1001.232,
+  "speaker": "Unknown",
+  "en": "Very easy.",
+  "zh": "非常简单。"
+ },
+ {
+  "seg": 209,
+  "start": 1001.832,
+  "end": 1003.374,
+  "speaker": "Unknown",
+  "en": "And this actually speeds up quite a bit.",
+  "zh": "而这实际上能带来相当大的加速。"
+ },
+ {
+  "seg": 210,
+  "start": 1003.914,
+  "end": 1008.838,
+  "speaker": "Unknown",
+  "en": "So just to kind of give you some ideas, we are seeing speed ups anywhere from 5 to 10x.",
+  "zh": "给大家一些概念,我们看到的加速从 5 倍到 10 倍不等。"
+ },
+ {
+  "seg": 211,
+  "start": 1009.078,
+  "end": 1011.5,
+  "speaker": "Unknown",
+  "en": "Not just 5 to 10%, actually 10x, right?",
+  "zh": "不只是 5% 到 10%,实际上是 10 倍,对吧?"
+ },
+ {
+  "seg": 212,
+  "start": 1011.54,
+  "end": 1013.021,
+  "speaker": "Unknown",
+  "en": "Because caching really works well.",
+  "zh": "因为缓存真的很有效。"
+ },
+ {
+  "seg": 213,
+  "start": 1014.442,
+  "end": 1016.824,
+  "speaker": "Unknown",
+  "en": "The thing about caching is it takes a lot of memory, right?",
+  "zh": "缓存的问题在于它占用很多内存,对吧?"
+ },
+ {
+  "seg": 214,
+  "start": 1016.844,
+  "end": 1020.287,
+  "speaker": "Unknown",
+  "en": "Because, you know, especially with our large inputs and large token windows.",
+  "zh": "因为,你知道,尤其是我们的输入很大、token 窗口很大的时候。"
+ },
+ {
+  "seg": 215,
+  "start": 1021.047,
+  "end": 1024.01,
+  "speaker": "Unknown",
+  "en": "And one thing we've been implementing in Token Factory is",
+  "zh": "我们在 Token Factory 里一直在实现的一件事是——"
+ },
+ {
+  "seg": 216,
+  "start": 1025.173,
+  "end": 1026.013,
+  "speaker": "Unknown",
+  "en": "Then we do caching.",
+  "zh": "当我们做缓存的时候。"
+ },
+ {
+  "seg": 217,
+  "start": 1026.774,
+  "end": 1036.918,
+  "speaker": "Unknown",
+  "en": "We can actually, because GPU memory is very precious, so we can offload caching out of GPU memory automatically, save it in a regular memory, and then bring it back.",
+  "zh": "我们实际上可以,因为 GPU 内存非常宝贵,所以可以自动把缓存从 GPU 内存卸载出去,保存到普通内存里,然后再搬回来。"
+ },
+ {
+  "seg": 218,
+  "start": 1037.278,
+  "end": 1040.099,
+  "speaker": "Unknown",
+  "en": "So we don't throw away the cache we spend a lot of time building.",
+  "zh": "这样我们就不会扔掉花费大量时间构建的缓存。"
+ },
+ {
+  "seg": 219,
+  "start": 1040.62,
+  "end": 1042,
+  "speaker": "Unknown",
+  "en": "We actually offload it and bring it back.",
+  "zh": "我们实际上把它卸载出去,再搬回来。"
+ },
+ {
+  "seg": 220,
+  "start": 1042.18,
+  "end": 1043.481,
+  "speaker": "Unknown",
+  "en": "And all of this is done automatically.",
+  "zh": "而这一切都是自动完成的。"
+ },
+ {
+  "seg": 221,
+  "start": 1043.541,
+  "end": 1045.542,
+  "speaker": "Unknown",
+  "en": "So you don't have to worry about managing cache.",
+  "zh": "所以你不必操心管理缓存。"
+ },
+ {
+  "seg": 222,
+  "start": 1046.102,
+  "end": 1047.843,
+  "speaker": "Unknown",
+  "en": "This is done for you behind the scenes.",
+  "zh": "这些都是在幕后为你完成的。"
+ },
+ {
+  "seg": 223,
+  "start": 1048.808,
+  "end": 1054.475,
+  "speaker": "Unknown",
+  "en": "And this is one of the important optimizations we have done to speed up inference.",
+  "zh": "这是我们为加速推理所做的重要优化之一。"
+ },
+ {
+  "seg": 224,
+  "start": 1055.336,
+  "end": 1057.139,
+  "speaker": "Unknown",
+  "en": "Another one is called decoding.",
+  "zh": "另一个叫做解码。"
+ },
+ {
+  "seg": 225,
+  "start": 1057.419,
+  "end": 1060.663,
+  "speaker": "Unknown",
+  "en": "So the way you think about this is like there are two stages to LLMs.",
+  "zh": "你可以这样想,LLM 有两个阶段。"
+ },
+ {
+  "seg": 226,
+  "start": 1061.124,
+  "end": 1063.547,
+  "speaker": "Unknown",
+  "en": "So one of them is like sort of fill in the context.",
+  "zh": "其中一个有点像填充上下文。"
+ },
+ {
+  "seg": 227,
+  "start": 1063.667,
+  "end": 1065.008,
+  "speaker": "Unknown",
+  "en": "That is very CPU intensive.",
+  "zh": "这是非常消耗 CPU 的。"
+ },
+ {
+  "seg": 228,
+  "start": 1065.649,
+  "end": 1068.291,
+  "speaker": "Unknown",
+  "en": "And another one is actually decoding that is very memory intensive.",
+  "zh": "另一个实际上是解码,非常消耗内存。"
+ },
+ {
+  "seg": 229,
+  "start": 1068.692,
+  "end": 1072.755,
+  "speaker": "Unknown",
+  "en": "And a lot of the time, if you do them in the same GPU, they are kind of computing for resources.",
+  "zh": "很多时候,如果你在同一个 GPU 上做这两件事,它们会互相争抢资源。"
+ },
+ {
+  "seg": 230,
+  "start": 1073.236,
+  "end": 1076.238,
+  "speaker": "Unknown",
+  "en": "So what we have done, we sort of separate those two phases out.",
+  "zh": "所以我们做的就是把这两个阶段分开。"
+ },
+ {
+  "seg": 231,
+  "start": 1076.519,
+  "end": 1078.4,
+  "speaker": "Unknown",
+  "en": "So one GPU set does pre-fill.",
+  "zh": "一组 GPU 做 pre-fill(预填充)。"
+ },
+ {
+  "seg": 232,
+  "start": 1079.001,
+  "end": 1080.922,
+  "speaker": "Unknown",
+  "en": "They are very, you know, compute efficient.",
+  "zh": "它们非常,你知道,计算高效。"
+ },
+ {
+  "seg": 233,
+  "start": 1081.243,
+  "end": 1084.325,
+  "speaker": "Unknown",
+  "en": "And the other one does decoding that's very memory efficient.",
+  "zh": "另一组做解码,非常内存高效。"
+ },
+ {
+  "seg": 234,
+  "start": 1084.746,
+  "end": 1086.687,
+  "speaker": "Unknown",
+  "en": "And then they sort of transfer the KV cache in between.",
+  "zh": "然后它们之间会传输 KV cache。"
+ },
+ {
+  "seg": 235,
+  "start": 1087.208,
+  "end": 1089.35,
+  "speaker": "Unknown",
+  "en": "And we have seen this is actually working out pretty well.",
+  "zh": "我们看到这个方案实际效果相当不错。"
+ },
+ {
+  "seg": 236,
+  "start": 1092.247,
+  "end": 1099.49,
+  "speaker": "Unknown",
+  "en": "And another thing we do, and this is already baked into our platform, we also quantize the models.",
+  "zh": "我们做的另一件事,这已经内置到我们的平台里了,我们还会对模型做量化。"
+ },
+ {
+  "seg": 237,
+  "start": 1100.371,
+  "end": 1102.892,
+  "speaker": "Unknown",
+  "en": "And when we do quantizing, we are reducing the position.",
+  "zh": "当我们做量化时,我们在降低精度。"
+ },
+ {
+  "seg": 238,
+  "start": 1104.013,
+  "end": 1105.313,
+  "speaker": "Unknown",
+  "en": "But we don't want to go too far, right?",
+  "zh": "但我们不想做得太过头,对吧?"
+ },
+ {
+  "seg": 239,
+  "start": 1105.333,
+  "end": 1108.535,
+  "speaker": "Unknown",
+  "en": "Because then your model starts, quality starts getting degrading.",
+  "zh": "因为那样你的模型质量就开始下降了。"
+ },
+ {
+  "seg": 240,
+  "start": 1108.955,
+  "end": 1117.839,
+  "speaker": "Unknown",
+  "en": "So what we do is we do a lot of experiments to figure out what's the sweet spot of quantization so you can run the models efficiently, but not degrade the performance too much.",
+  "zh": "所以我们做的是大量实验,找出量化的最佳平衡点,这样你既能高效运行模型,又不会让性能下降太多。"
+ },
+ {
+  "seg": 241,
+  "start": 1120.237,
+  "end": 1127.082,
+  "speaker": "Unknown",
+  "en": "So all of these things are already built in, and there's a few more, and in the interest of time, I'll wrap this up here.",
+  "zh": "所有这些都已经内置了,还有一些更多内容,为了节省时间,我就到这里收尾。"
+ },
+ {
+  "seg": 242,
+  "start": 1127.702,
+  "end": 1140.872,
+  "speaker": "Unknown",
+  "en": "And these are some of the things we kind of covered, spec decoding, KV cache, and when you do caching, doing routing, that is actually cache aware, and also separating pre-fill and decoding cases.",
+  "zh": "这些就是我们大致讲到的东西,投机解码、KV cache,还有做缓存时进行真正缓存感知的路由,以及把 pre-fill 和解码分开。"
+ },
+ {
+  "seg": 243,
+  "start": 1141.552,
+  "end": 1146.416,
+  "speaker": "Unknown",
+  "en": "And if you're using an API, you may not realize all these blocks going behind the scene, but they are, right?",
+  "zh": "如果你用的是 API,你可能意识不到幕后有这些环节在运作,但它们确实在,对吧?"
+ },
+ {
+  "seg": 244,
+  "start": 1146.456,
+  "end": 1155.042,
+  "speaker": "Unknown",
+  "en": "And this is what makes an inference platform really great to serve, especially the large models we are seeing, like the one trillion models we are seeing.",
+  "zh": "而这正是让一个推理平台真正能出色地提供服务的关键,尤其是对于我们如今看到的大模型,比如万亿参数级别的模型。"
+ },
+ {
+  "seg": 245,
+  "start": 1156.303,
+  "end": 1158.044,
+  "speaker": "Unknown",
+  "en": "And finally, I want to quickly",
+  "zh": "最后,我想快速"
+ },
+ {
+  "seg": 246,
+  "start": 1159.451,
+  "end": 1160.111,
+  "speaker": "Unknown",
+  "en": "Give this out.",
+  "zh": "把这个发给大家。"
+ },
+ {
+  "seg": 247,
+  "start": 1160.551,
+  "end": 1163.652,
+  "speaker": "Unknown",
+  "en": "So probably this is the most important slide of the presentation.",
+  "zh": "这可能是整个演示中最重要的一张幻灯片。"
+ },
+ {
+  "seg": 248,
+  "start": 1164.292,
+  "end": 1167.173,
+  "speaker": "Unknown",
+  "en": "So we can take a quick picture or scan the code.",
+  "zh": "我们可以快速拍张照,或者扫一下二维码。"
+ },
+ {
+  "seg": 249,
+  "start": 1167.893,
+  "end": 1170.094,
+  "speaker": "Unknown",
+  "en": "This will give you some credit on TokenFactory platform.",
+  "zh": "这会给你一些 TokenFactory 平台上的额度。"
+ },
+ {
+  "seg": 250,
+  "start": 1170.594,
+  "end": 1172.815,
+  "speaker": "Unknown",
+  "en": "So we love for you guys to try it out.",
+  "zh": "所以我们非常希望各位去试用一下。"
+ },
+ {
+  "seg": 251,
+  "start": 1173.635,
+  "end": 1178.656,
+  "speaker": "Unknown",
+  "en": "We have all the latest open source models, GLM52, K27s.",
+  "zh": "我们有所有最新的开源模型，GLM52、K27s。"
+ },
+ {
+  "seg": 252,
+  "start": 1179.456,
+  "end": 1180.017,
+  "speaker": "Unknown",
+  "en": "Try them out.",
+  "zh": "去试试吧。"
+ },
+ {
+  "seg": 253,
+  "start": 1180.237,
+  "end": 1184.578,
+  "speaker": "Unknown",
+  "en": "I've been using them a lot for coding lately, and they work really, really well.",
+  "zh": "我最近在编程方面用得很多，它们的效果非常非常好。"
+ },
+ {
+  "seg": 254,
+  "start": 1185.178,
+  "end": 1191.66,
+  "speaker": "Unknown",
+  "en": "So if you're using a cursor or open code, you can very easily incorporate our models for coding work.",
+  "zh": "所以如果你在用 cursor 或 open code，你可以非常容易地把我们的模型整合到你的编程工作中。"
+ },
+ {
+  "seg": 255,
+  "start": 1191.94,
+  "end": 1192.38,
+  "speaker": "Unknown",
+  "en": "Try them out.",
+  "zh": "试试吧。"
+ },
+ {
+  "seg": 256,
+  "start": 1192.581,
+  "end": 1193.041,
+  "speaker": "Unknown",
+  "en": "Let us know.",
+  "zh": "告诉我们。"
+ },
+ {
+  "seg": 257,
+  "start": 1193.501,
+  "end": 1195.261,
+  "speaker": "Unknown",
+  "en": "And there's a Discord channel at the bottom.",
+  "zh": "底部有一个 Discord 频道。"
+ },
+ {
+  "seg": 258,
+  "start": 1195.281,
+  "end": 1196.782,
+  "speaker": "Unknown",
+  "en": "If you have any questions, you can post them there.",
+  "zh": "如果你有任何问题，可以在那里发帖。"
+ },
+ {
+  "seg": 259,
+  "start": 1197.282,
+  "end": 1199.983,
+  "speaker": "Unknown",
+  "en": "Or you can message me or Dylan.",
+  "zh": "或者你可以私信我或 Dylan。"
+ },
+ {
+  "seg": 260,
+  "start": 1200.163,
+  "end": 1201.904,
+  "speaker": "Unknown",
+  "en": "We'll be happy to answer your questions.",
+  "zh": "我们很乐意回答你的问题。"
+ },
+ {
+  "seg": 261,
+  "start": 1203.484,
+  "end": 1204.264,
+  "speaker": "Unknown",
+  "en": "So I'll stop here.",
+  "zh": "那我就讲到这里。"
+ },
+ {
+  "seg": 262,
+  "start": 1204.304,
+  "end": 1205.565,
+  "speaker": "Unknown",
+  "en": "We have, like, 10 seconds.",
+  "zh": "我们大概还有 10 秒钟。"
+ },
+ {
+  "seg": 263,
+  "start": 1207.526,
+  "end": 1208.206,
+  "speaker": "Unknown",
+  "en": "All right, on time.",
+  "zh": "好了，正好准时。"
+ },
+ {
+  "seg": 264,
+  "start": 1208.486,
+  "end": 1209.506,
+  "speaker": "Unknown",
+  "en": "But we'll be around.",
+  "zh": "但我们会在现场。"
+ },
+ {
+  "seg": 265,
+  "start": 1209.606,
+  "end": 1211.347,
+  "speaker": "Unknown",
+  "en": "Please come and talk to us if you have any questions.",
+  "zh": "如果你有什么问题，请过来和我们聊聊。"
+ },
+ {
+  "seg": 266,
+  "start": 1211.407,
+  "end": 1214.388,
+  "speaker": "Unknown",
+  "en": "We'll be happy to chat more and then take your questions.",
+  "zh": "我们很乐意继续交流，然后回答你的问题。"
+ },
+ {
+  "seg": 267,
+  "start": 1215.054,
+  "end": 1215.475,
+  "speaker": "Unknown",
+  "en": "Thank you all.",
+  "zh": "谢谢大家。"
+ }
+]

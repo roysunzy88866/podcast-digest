@@ -1,0 +1,1554 @@
+[
+ {
+  "seg": 0,
+  "start": 12.508,
+  "end": 12.789,
+  "speaker": "Unknown",
+  "en": "Hi, guys.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 12.829,
+  "end": 13.51,
+  "speaker": "Unknown",
+  "en": "My name's Ivan.",
+  "zh": "我叫 Ivan。"
+ },
+ {
+  "seg": 2,
+  "start": 13.65,
+  "end": 15.974,
+  "speaker": "Unknown",
+  "en": "I'm on the Developer Experience team at Google DeepMind.",
+  "zh": "我在 Google DeepMind 的开发者体验团队工作。"
+ },
+ {
+  "seg": 3,
+  "start": 16.174,
+  "end": 20.302,
+  "speaker": "Unknown",
+  "en": "And today, we're covering the brand new Interactions API and our new offering, Managed Agents.",
+  "zh": "今天我们要讲的是全新的 Interactions API 和我们的新产品，Managed Agents。"
+ },
+ {
+  "seg": 4,
+  "start": 20.863,
+  "end": 24.529,
+  "speaker": "Unknown",
+  "en": "And so to take a code from a very famous paper, an interaction is all you need.",
+  "zh": "借用一篇著名论文的说法，一次交互就是你所需要的一切。"
+ },
+ {
+  "seg": 5,
+  "start": 25.518,
+  "end": 31.585,
+  "speaker": "Unknown",
+  "en": "Before we move on to what the Interactions API is and what the new Managed Agents offering is, let's take a trip down memory lane.",
+  "zh": "在我们进入 Interactions API 是什么以及新的 Managed Agents 产品是什么之前，让我们先回顾一下过去。"
+ },
+ {
+  "seg": 6,
+  "start": 31.665,
+  "end": 34.708,
+  "speaker": "Unknown",
+  "en": "And let's kind of trace how models have changed and how we've worked with models.",
+  "zh": "来大致追溯一下模型是如何变化的，以及我们是如何与模型协作的。"
+ },
+ {
+  "seg": 7,
+  "start": 35.569,
+  "end": 39.553,
+  "speaker": "Unknown",
+  "en": "So when we first started working with models, a lot of times you would have a single interaction.",
+  "zh": "当我们刚开始与模型合作时，很多时候你只会进行一次交互。"
+ },
+ {
+  "seg": 8,
+  "start": 39.713,
+  "end": 41.555,
+  "speaker": "Unknown",
+  "en": "You would send a message, tell me a joke.",
+  "zh": "你发送一条消息：给我讲个笑话。"
+ },
+ {
+  "seg": 9,
+  "start": 42.056,
+  "end": 43.117,
+  "speaker": "Unknown",
+  "en": "And then you might get a response.",
+  "zh": "然后你可能会得到一个回复。"
+ },
+ {
+  "seg": 10,
+  "start": 43.137,
+  "end": 46.34,
+  "speaker": "Unknown",
+  "en": "For example, why don't scientists trust atoms?",
+  "zh": "比如，为什么科学家不相信原子？"
+ },
+ {
+  "seg": 11,
+  "start": 46.42,
+  "end": 47.421,
+  "speaker": "Unknown",
+  "en": "Because they make up everything.",
+  "zh": "因为它们编造了一切(make up everything,双关：构成一切/编造)。"
+ },
+ {
+  "seg": 12,
+  "start": 48.289,
+  "end": 53.777,
+  "speaker": "Unknown",
+  "en": "After a while, as models got more and more capable, and they understood more about the world, this became a bit more complicated.",
+  "zh": "过了一段时间，随着模型越来越强大，它们对世界的理解越来越多，这就变得更复杂了一些。"
+ },
+ {
+  "seg": 13,
+  "start": 54.077,
+  "end": 56.861,
+  "speaker": "Unknown",
+  "en": "We wanted to take these models, put them in different applications.",
+  "zh": "我们想把这些模型放到不同的应用中。"
+ },
+ {
+  "seg": 14,
+  "start": 57.341,
+  "end": 59.444,
+  "speaker": "Unknown",
+  "en": "But to do so, we needed them to be reliable.",
+  "zh": "但要做到这一点，我们需要它们是可靠的。"
+ },
+ {
+  "seg": 15,
+  "start": 59.925,
+  "end": 63.109,
+  "speaker": "Unknown",
+  "en": "And so to do so, we invented function calling, where models could create",
+  "zh": "因此，我们发明了函数调用，模型可以创建"
+ },
+ {
+  "seg": 16,
+  "start": 63.77,
+  "end": 66.031,
+  "speaker": "Unknown",
+  "en": "Individual JSON objects with predictable structures.",
+  "zh": "具有可预测结构的独立 JSON 对象。"
+ },
+ {
+  "seg": 17,
+  "start": 66.371,
+  "end": 79.538,
+  "speaker": "Unknown",
+  "en": "Think like how when you want to register for a website, your web page sends a JSON payload to the back end with a username and a password, and that enables the back end server to say, OK, we have a new user, and now we can actually create a new account.",
+  "zh": "想想看，当你想在一个网站上注册时，你的网页会向后端发送一个包含用户名和密码的 JSON 载荷，这让后端服务器可以说：好的，我们有一个新用户，现在我们可以真正创建一个新账户了。"
+ },
+ {
+  "seg": 18,
+  "start": 80.456,
+  "end": 87.925,
+  "speaker": "Unknown",
+  "en": "That made it possible for us to actually use models in different parts of this application, whether it's extracting user information, parsing data, and more.",
+  "zh": "这让我们能够在应用程序的不同部分真正使用模型，无论是提取用户信息、解析数据等等。"
+ },
+ {
+  "seg": 19,
+  "start": 88.625,
+  "end": 92.149,
+  "speaker": "Unknown",
+  "en": "But right now, we're seeing these incredible cups where models are getting more capable.",
+  "zh": "但现在，我们正在看到这些不可思议的 cups,模型正变得越来越强大。"
+ },
+ {
+  "seg": 20,
+  "start": 92.65,
+  "end": 98.056,
+  "speaker": "Unknown",
+  "en": "We're seeing models being able to reason, go for a very extended period of time before they come back to people.",
+  "zh": "我们看到模型能够进行推理，在回到人这里之前可以进行非常长时间的运行。"
+ },
+ {
+  "seg": 21,
+  "start": 98.437,
+  "end": 100.899,
+  "speaker": "Unknown",
+  "en": "And so you're moving from a place where we went from completions",
+  "zh": "所以你正在从一个地方转移，从补全"
+ },
+ {
+  "seg": 22,
+  "start": 101.6,
+  "end": 105.281,
+  "speaker": "Unknown",
+  "en": "Instruction and functions where we might ask, hey, what's the weather in New York City?",
+  "zh": "指令和函数的地方，在那里我们可能会问：嘿，纽约市的天气怎么样？"
+ },
+ {
+  "seg": 23,
+  "start": 105.922,
+  "end": 110.523,
+  "speaker": "Unknown",
+  "en": "And the model has a call weather tool that it can get the data, ingest it, and generate a response.",
+  "zh": "然后模型调用天气工具，它可以获取数据、摄取数据，并生成回复。"
+ },
+ {
+  "seg": 24,
+  "start": 111.063,
+  "end": 113.764,
+  "speaker": "Unknown",
+  "en": "So now a case where models have multiple tools under their belt.",
+  "zh": "所以现在的情况是，模型手上有多个工具。"
+ },
+ {
+  "seg": 25,
+  "start": 114.244,
+  "end": 121.707,
+  "speaker": "Unknown",
+  "en": "They're able to call tools, think and reflect on what the response meant, interact with the environment, and ultimately generate a response.",
+  "zh": "它们能够调用工具，思考并反思回复的含义，与环境交互，并最终生成回复。"
+ },
+ {
+  "seg": 26,
+  "start": 123.103,
+  "end": 125.765,
+  "speaker": "Unknown",
+  "en": "And so this just brings us back to what is an agent.",
+  "zh": "这就把我们带回到一个问题：什么是智能体？"
+ },
+ {
+  "seg": 27,
+  "start": 126.306,
+  "end": 131.27,
+  "speaker": "Unknown",
+  "en": "Fundamentally, if you look at what an agent is, it's really a model that powers a huge chunk of it.",
+  "zh": "从根本上说，如果你看智能体是什么，它实际上是一个模型为其提供了绝大部分能力的东西。"
+ },
+ {
+  "seg": 28,
+  "start": 131.83,
+  "end": 135.213,
+  "speaker": "Unknown",
+  "en": "A lot of people have reduced this to just a language model running in a loop.",
+  "zh": "很多人把它简化为只是一个运行在循环中的语言模型。"
+ },
+ {
+  "seg": 29,
+  "start": 135.853,
+  "end": 137.435,
+  "speaker": "Unknown",
+  "en": "And for most cases, this is true.",
+  "zh": "对于大多数情况来说，这是对的。"
+ },
+ {
+  "seg": 30,
+  "start": 138.095,
+  "end": 144.461,
+  "speaker": "Unknown",
+  "en": "If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away.",
+  "zh": "如果你有一个真正强大的模型，你会发现，随着我们的模型变得越来越强大，很多脚手架已经消失了。"
+ },
+ {
+  "seg": 31,
+  "start": 145.141,
+  "end": 155.734,
+  "speaker": "Unknown",
+  "en": "A lot of models, for example, the latest Opus models or Fable models, are now just immediately just using a bash tool instead of individually specialized tools like an edit file or a read file tool like we used to do.",
+  "zh": "很多模型，例如最新的 Opus 模型或 Fable 模型，现在只是直接使用一个 bash 工具，而不是像我们以前那样使用单独的专用工具，比如编辑文件工具或读取文件工具。"
+ },
+ {
+  "seg": 32,
+  "start": 156.755,
+  "end": 161.841,
+  "speaker": "Unknown",
+  "en": "And so really what we have is a language model that's used to understand the context the user's intent.",
+  "zh": "所以我们真正拥有的，是一个用来理解上下文和用户意图的语言模型。"
+ },
+ {
+  "seg": 33,
+  "start": 162.462,
+  "end": 167.628,
+  "speaker": "Unknown",
+  "en": "That's given a bunch of different functions, all different resources that it then interacts with its environment in.",
+  "zh": "它被给予了一堆不同的函数、各种不同的资源，然后它与它的环境进行交互。"
+ },
+ {
+  "seg": 34,
+  "start": 168.188,
+  "end": 174.836,
+  "speaker": "Unknown",
+  "en": "It has some short-term memory and some long-term memory to keep track of what it's encountered, and then an environment to execute functions in.",
+  "zh": "它有一些短期记忆和一些长期记忆来追踪它遇到过什么，然后有一个可以执行函数的环境。"
+ },
+ {
+  "seg": 35,
+  "start": 175.576,
+  "end": 181.343,
+  "speaker": "Unknown",
+  "en": "If you're building a coding agent, but you don't give it an environment where it can actually execute code, for example, it's not going to be able to do anything.",
+  "zh": "如果你在构建一个编程智能体，但你没有给它一个可以真正执行代码的环境，例如，它将无法做任何事情。"
+ },
+ {
+  "seg": 36,
+  "start": 182.979,
+  "end": 187.401,
+  "speaker": "Unknown",
+  "en": "And so if you'd like to try any of our models, the easiest way to do so is actually with AI Studio.",
+  "zh": "如果你想试用我们的任何模型，最简单的方法实际上是使用 AI Studio。"
+ },
+ {
+  "seg": 37,
+  "start": 188.061,
+  "end": 192.483,
+  "speaker": "Unknown",
+  "en": "And so I'd actually like to point out that my speaker notes today were actually coded on AI Studio.",
+  "zh": "我想指出的是，我今天的演讲备注实际上就是在 AI Studio 上编码的。"
+ },
+ {
+  "seg": 38,
+  "start": 193.004,
+  "end": 195.985,
+  "speaker": "Unknown",
+  "en": "I vibed it out two minutes before this talk.",
+  "zh": "我在这次演讲前两分钟 vibe 出来的。"
+ },
+ {
+  "seg": 39,
+  "start": 197.185,
+  "end": 199.086,
+  "speaker": "Unknown",
+  "en": "You can see the conversation history over here.",
+  "zh": "你可以在这里看到对话历史。"
+ },
+ {
+  "seg": 40,
+  "start": 200.027,
+  "end": 206.51,
+  "speaker": "Unknown",
+  "en": "I literally said, I need a mobile responsive website that I can pass in speaker notes because I found out I wasn't going to be able to use presenter view.",
+  "zh": "我直接说：我需要一个移动端响应式网站，我可以传入演讲备注，因为我发现我将无法使用演示者视图。"
+ },
+ {
+  "seg": 41,
+  "start": 207.15,
+  "end": 209.892,
+  "speaker": "Unknown",
+  "en": "And so what I did, I just gave it some brief instructions.",
+  "zh": "所以我所做的，就是给了它一些简短的指示。"
+ },
+ {
+  "seg": 42,
+  "start": 210.552,
+  "end": 217.177,
+  "speaker": "Unknown",
+  "en": "And before you know it, you have a simple application that you can use without any hassle deployed on a website that's accessible to all.",
+  "zh": "不知不觉间，你就有一个简单的应用程序可以毫无麻烦地使用，部署在一个所有人都能访问的网站上。"
+ },
+ {
+  "seg": 43,
+  "start": 217.978,
+  "end": 220.139,
+  "speaker": "Unknown",
+  "en": "So we have a really generous free tier.",
+  "zh": "所以我们有一个非常慷慨的免费额度。"
+ },
+ {
+  "seg": 44,
+  "start": 220.479,
+  "end": 223.08,
+  "speaker": "Unknown",
+  "en": "For most of my presentations, I've just been using the free tier.",
+  "zh": "对于我的大部分演示，我一直都在使用免费额度。"
+ },
+ {
+  "seg": 45,
+  "start": 223.46,
+  "end": 226.042,
+  "speaker": "Unknown",
+  "en": "I haven't been using my Google Unlimited tokens, thankfully.",
+  "zh": "谢天谢地，我没有使用我的 Google 无限 token。"
+ },
+ {
+  "seg": 46,
+  "start": 226.702,
+  "end": 240.368,
+  "speaker": "Unknown",
+  "en": "And I think it's the best way for you to try our models, whether it's our new speech-to-speech translation models, where you speak in, let's say, English, and it can translate to any language, or you want to try our latest models, like the Gemini 3.5 Flash, et cetera.",
+  "zh": "我认为这是试用我们模型的最好方式，无论是我们新的语音到语音翻译模型，你可以用比如说英语说话，它可以翻译成任何语言，还是你想试用我们最新的模型，比如 Gemini 3.5 Flash 等等。"
+ },
+ {
+  "seg": 47,
+  "start": 240.848,
+  "end": 246.171,
+  "speaker": "Unknown",
+  "en": "It makes it very easy for you to do so with simplified UI toggles to just be able to tune all of the different parameters.",
+  "zh": "它通过简化的 UI 开关让你能够非常轻松地调整所有不同的参数。"
+ },
+ {
+  "seg": 48,
+  "start": 246.951,
+  "end": 248.773,
+  "speaker": "Unknown",
+  "en": "So let's talk about the Interactions API now.",
+  "zh": "那么我们现在来谈谈 Interactions API。"
+ },
+ {
+  "seg": 49,
+  "start": 250.554,
+  "end": 261.263,
+  "speaker": "Unknown",
+  "en": "One of the things that we've seen, especially as we've moved from models to a dynamic where now we have models and agents, is that the kind of workloads that we want to support have changed significantly.",
+  "zh": "我们看到的一件事是，尤其是当我们从模型转向一个现在同时有模型和智能体的格局时，我们想要支持的工作负载类型已经发生了显著变化。"
+ },
+ {
+  "seg": 50,
+  "start": 261.623,
+  "end": 272.332,
+  "speaker": "Unknown",
+  "en": "Through the Gemini API, you have Nano Banana, you have Gemini 3.5 Flash, but you also have very capable agents like the Deep Research agent that's going to run for anywhere from three minutes and more.",
+  "zh": "通过 Gemini API,你有 Nano Banana,你有 Gemini 3.5 Flash,但你也有非常强大的智能体,比如 Deep Research 智能体,它会运行三分钟或更久。"
+ },
+ {
+  "seg": 51,
+  "start": 273.033,
+  "end": 274.013,
+  "speaker": "Unknown",
+  "en": "You interact with it.",
+  "zh": "你与它交互。"
+ },
+ {
+  "seg": 52,
+  "start": 274.053,
+  "end": 275.474,
+  "speaker": "Unknown",
+  "en": "You have some sort of research plan.",
+  "zh": "你有某种研究计划。"
+ },
+ {
+  "seg": 53,
+  "start": 275.754,
+  "end": 277.035,
+  "speaker": "Unknown",
+  "en": "It's going to go out and do its own thing.",
+  "zh": "它会出去自己做自己的事情。"
+ },
+ {
+  "seg": 54,
+  "start": 277.075,
+  "end": 280.396,
+  "speaker": "Unknown",
+  "en": "And it comes back with very deep and detailed research reports.",
+  "zh": "然后它带着非常深入、详细的研究报告回来。"
+ },
+ {
+  "seg": 55,
+  "start": 281.156,
+  "end": 288.239,
+  "speaker": "Unknown",
+  "en": "Now, it's pretty difficult then to think about consuming models and agents through a whole bunch of these different endpoints.",
+  "zh": "现在,要通过一大堆这样不同的端点来消费模型和智能体,是相当困难的。"
+ },
+ {
+  "seg": 56,
+  "start": 288.799,
+  "end": 294.802,
+  "speaker": "Unknown",
+  "en": "Additionally, for a lot of the older kind of API endpoints, a lot of the data was in very deeply nested objects.",
+  "zh": "此外,对于很多较旧的 API 端点来说,很多数据都存在于嵌套很深的对象里。"
+ },
+ {
+  "seg": 57,
+  "start": 295.322,
+  "end": 299.904,
+  "speaker": "Unknown",
+  "en": "And so you can imagine the kind of difficulties that we had ourselves when we were building first party integrations.",
+  "zh": "所以你可以想象,我们自己构建第一方集成时遇到了什么样的困难。"
+ },
+ {
+  "seg": 58,
+  "start": 300.305,
+  "end": 309.61,
+  "speaker": "Unknown",
+  "en": "And we wanted these use cases where you might be able to generate a nano banana image, do some research, generate a VO image from there, or spawn out all these different agentic",
+  "zh": "而我们想要这样的用例:你可能可以生成一张 nano banana 图像,做一些研究,再从那里生成一张 VO 图像,或者派生出所有这些不同的 agentic"
+ },
+ {
+  "seg": 59,
+  "start": 310.53,
+  "end": 312.391,
+  "speaker": "Unknown",
+  "en": "Kind of like agents that go out and do their own thing.",
+  "zh": "类似那种出去自己做自己事情的智能体。"
+ },
+ {
+  "seg": 60,
+  "start": 313.092,
+  "end": 316.073,
+  "speaker": "Unknown",
+  "en": "And so the Interactions API is our sort of solution to this.",
+  "zh": "所以 Interactions API 就是我们对此的解决方案。"
+ },
+ {
+  "seg": 61,
+  "start": 316.474,
+  "end": 326.4,
+  "speaker": "Unknown",
+  "en": "As we look to build an API that can support all of these different use cases and ones that we can build on ourselves, if you look to bring Gemini across the entire surface of the Google ecosystem.",
+  "zh": "我们要构建一个能够支持所有这些不同用例的 API,而且我们自己也能在其上构建,如果你想让 Gemini 铺满 Google 生态系统的整个表面。"
+ },
+ {
+  "seg": 62,
+  "start": 328.327,
+  "end": 331.609,
+  "speaker": "Unknown",
+  "en": "So the best place to get started is just with server-side state.",
+  "zh": "那么最好的入门方式就是从服务端状态开始。"
+ },
+ {
+  "seg": 63,
+  "start": 332.37,
+  "end": 345.479,
+  "speaker": "Unknown",
+  "en": "One of the things that you'll realize, especially if you use the new Gemini series of models, is that we essentially have this thing called thought signatures, where if you interact with the model, if it calls a function, if it gives a response, it's going to pass back a very opaque series of these numbers.",
+  "zh": "你会意识到的一件事,尤其是如果你使用新的 Gemini 系列模型,就是我们本质上有一个叫 thought signatures 的东西,当你与模型交互时,如果它调用一个函数,如果它给出一个响应,它会传回一串非常不透明的数字。"
+ },
+ {
+  "seg": 64,
+  "start": 346.28,
+  "end": 348.702,
+  "speaker": "Unknown",
+  "en": "For a lot of people, manually managing this was very difficult.",
+  "zh": "对很多人来说,手动管理这个非常困难。"
+ },
+ {
+  "seg": 65,
+  "start": 349.062,
+  "end": 355.687,
+  "speaker": "Unknown",
+  "en": "And sometimes when we talk to different startups, we found that they would lose their cash just with a single white space that they mistakenly added in.",
+  "zh": "有时当我们与不同的初创公司交流时,我们发现他们仅仅因为误加了一个空白字符就会丢失缓存。"
+ },
+ {
+  "seg": 66,
+  "start": 356.547,
+  "end": 360.389,
+  "speaker": "Unknown",
+  "en": "So now with the responses API, you can see on the first turn, hi, my name is Phil.",
+  "zh": "所以现在有了 responses API,你可以看到在第一轮,你好,我叫 Phil。"
+ },
+ {
+  "seg": 67,
+  "start": 361.069,
+  "end": 363.35,
+  "speaker": "Unknown",
+  "en": "And in the response, we give you a interaction ID.",
+  "zh": "在响应里,我们给你一个 interaction ID。"
+ },
+ {
+  "seg": 68,
+  "start": 363.971,
+  "end": 372.735,
+  "speaker": "Unknown",
+  "en": "And as long as you give us back that same interaction ID under the parameter previous interaction ID that you see in the second turn, all that context is preserved.",
+  "zh": "只要你在第二轮的参数 previous interaction ID 里把那个相同的 interaction ID 还给我们,所有上下文都会被保留。"
+ },
+ {
+  "seg": 69,
+  "start": 373.495,
+  "end": 379.978,
+  "speaker": "Unknown",
+  "en": "And this is really important with the new Gemini series of models because if you don't give us back those thought signatures, you're going to see a decrease in performance.",
+  "zh": "这对新的 Gemini 系列模型非常重要,因为如果你不把那些 thought signatures 还给我们,你会看到性能下降。"
+ },
+ {
+  "seg": 70,
+  "start": 381.524,
+  "end": 382.704,
+  "speaker": "Unknown",
+  "en": "But what else does this unlock?",
+  "zh": "但这还能解锁什么?"
+ },
+ {
+  "seg": 71,
+  "start": 383.485,
+  "end": 385.766,
+  "speaker": "Unknown",
+  "en": "Here you see a demo built by Vamsi from our team.",
+  "zh": "这里你看到的是我们团队 Vamsi 构建的演示。"
+ },
+ {
+  "seg": 72,
+  "start": 386.026,
+  "end": 394.389,
+  "speaker": "Unknown",
+  "en": "They did an incredible demo where, using a single photo, you could generate with Nano Madonna all these different variations of yourself in different countries and different locations.",
+  "zh": "他们做了一个非常棒的演示,只用一张照片,你就可以用 Nano Madonna 生成你自己在不同国家、不同地点的各种变体。"
+ },
+ {
+  "seg": 73,
+  "start": 395.229,
+  "end": 399.891,
+  "speaker": "Unknown",
+  "en": "Each of these individual photos are a single interaction, but you can think of it from an initial API call.",
+  "zh": "这些单独的照片每一个都是一次 interaction,但你可以把它看作来自一个初始 API 调用。"
+ },
+ {
+  "seg": 74,
+  "start": 399.931,
+  "end": 401.852,
+  "speaker": "Unknown",
+  "en": "It spawns all these different interaction calls.",
+  "zh": "它派生出所有这些不同的 interaction 调用。"
+ },
+ {
+  "seg": 75,
+  "start": 402.472,
+  "end": 409.635,
+  "speaker": "Unknown",
+  "en": "Using those interactions, the same interaction ID, we then generate a video using the interaction ID and the new Omni model that we just launched.",
+  "zh": "使用这些 interactions、同一个 interaction ID,我们随后用 interaction ID 和我们刚发布的新 Omni 模型生成了一个视频。"
+ },
+ {
+  "seg": 76,
+  "start": 410.315,
+  "end": 414.481,
+  "speaker": "Unknown",
+  "en": "Something like this would not have been possible without the Interactions API built by Philip over there.",
+  "zh": "如果没有 Philip 在那边构建的 Interactions API,像这样的东西是不可能的。"
+ },
+ {
+  "seg": 77,
+  "start": 415.423,
+  "end": 419.549,
+  "speaker": "Unknown",
+  "en": "So actually, it's a really incredible piece of work, I will say.",
+  "zh": "所以说实话,这是一件非常了不起的作品,我得说。"
+ },
+ {
+  "seg": 78,
+  "start": 421.108,
+  "end": 426.27,
+  "speaker": "Unknown",
+  "en": "So to give you an example, an idea of what it would take to build something similar, this is all it would take.",
+  "zh": "那么给你举个例子,让你了解构建类似的东西需要什么,这就是所需的全部。"
+ },
+ {
+  "seg": 79,
+  "start": 426.99,
+  "end": 431.232,
+  "speaker": "Unknown",
+  "en": "First you pass in Gemini 3.1 flashlight image, generate an image of me in Venice.",
+  "zh": "首先你传入 Gemini 3.1 flashlight image,生成一张我在威尼斯的图像。"
+ },
+ {
+  "seg": 80,
+  "start": 431.872,
+  "end": 441.395,
+  "speaker": "Unknown",
+  "en": "You take the interaction ID, you chunk it back into the client.interactions.create, and this time you specify that you want the Omni flash model instead that we launched on Wednesday.",
+  "zh": "你拿到 interaction ID,把它塞回 client.interactions.create,这次你指定你想要 Omni flash 模型,就是周三发布的那个。"
+ },
+ {
+  "seg": 81,
+  "start": 441.835,
+  "end": 448.778,
+  "speaker": "Unknown",
+  "en": "And that allows you to now use the same Omni model with the same information, the same kind of images, and the same context throughout all these calls.",
+  "zh": "这让你现在可以在所有这些调用中使用同一个 Omni 模型、同样的信息、同样的图像、同样的上下文。"
+ },
+ {
+  "seg": 82,
+  "start": 449.378,
+  "end": 455.119,
+  "speaker": "Unknown",
+  "en": "It's making it possible to build more complex, rich, and just these very complex agentic applications.",
+  "zh": "它让构建更复杂、更丰富、就是这些非常复杂的 agentic 应用成为可能。"
+ },
+ {
+  "seg": 83,
+  "start": 456.82,
+  "end": 458.38,
+  "speaker": "Unknown",
+  "en": "The same thing occurs with audio generation.",
+  "zh": "同样的事情也发生在音频生成上。"
+ },
+ {
+  "seg": 84,
+  "start": 458.98,
+  "end": 461.901,
+  "speaker": "Unknown",
+  "en": "If you look at the bottom, you see that now we have output.type.",
+  "zh": "如果你看底部,你会看到现在我们有 output.type。"
+ },
+ {
+  "seg": 85,
+  "start": 462.521,
+  "end": 470.443,
+  "speaker": "Unknown",
+  "en": "In the past, you would have to take this very nested object, like .completions, .audio, and it would be very tricky for you to nest it out.",
+  "zh": "在过去,你必须处理这种嵌套很深的对象,比如 .completions、.audio,把它一层层剥出来会非常棘手。"
+ },
+ {
+  "seg": 86,
+  "start": 470.503,
+  "end": 472.264,
+  "speaker": "Unknown",
+  "en": "I can't even remember it off the top of my head.",
+  "zh": "我甚至没法凭记忆想起它来。"
+ },
+ {
+  "seg": 87,
+  "start": 472.824,
+  "end": 476.947,
+  "speaker": "Unknown",
+  "en": "But now every single bit of the outputs that come out are clearly demarcated by a strong type.",
+  "zh": "但现在输出的每一个部分都由一个强类型清晰地划分出来。"
+ },
+ {
+  "seg": 88,
+  "start": 477.547,
+  "end": 482.09,
+  "speaker": "Unknown",
+  "en": "If it's an audio, as you see over here, all you've got to do is just parse it and handle it accordingly.",
+  "zh": "如果它是音频,就像你在这边看到的,你要做的就是解析它并相应地处理。"
+ },
+ {
+  "seg": 89,
+  "start": 483.03,
+  "end": 485.272,
+  "speaker": "Unknown",
+  "en": "But what happens if now I want to generate an image?",
+  "zh": "但如果现在我想生成一张图像呢?"
+ },
+ {
+  "seg": 90,
+  "start": 485.832,
+  "end": 488.654,
+  "speaker": "Unknown",
+  "en": "It's the same method over there, client.interactions.create.",
+  "zh": "还是那边那个方法,client.interactions.create。"
+ },
+ {
+  "seg": 91,
+  "start": 489.674,
+  "end": 494.497,
+  "speaker": "Unknown",
+  "en": "All you've got to do is just modify the response modality and the generation config.",
+  "zh": "你要做的只是修改响应模态和生成配置。"
+ },
+ {
+  "seg": 92,
+  "start": 494.858,
+  "end": 496.579,
+  "speaker": "Unknown",
+  "en": "And now I have an output.type of image.",
+  "zh": "现在我就有了一个 output.type 为 image。"
+ },
+ {
+  "seg": 93,
+  "start": 497.019,
+  "end": 500.121,
+  "speaker": "Unknown",
+  "en": "And this makes it very easy for me to start building and experimenting with Gemini.",
+  "zh": "这让我开始构建和试验 Gemini 变得非常容易。"
+ },
+ {
+  "seg": 94,
+  "start": 501.795,
+  "end": 502.996,
+  "speaker": "Unknown",
+  "en": "The same thing comes with tool use.",
+  "zh": "同样的事情也适用于工具使用。"
+ },
+ {
+  "seg": 95,
+  "start": 503.676,
+  "end": 506.499,
+  "speaker": "Unknown",
+  "en": "You can mix and match different inbuilt tools that wasn't possible before.",
+  "zh": "你可以混搭不同的内置工具,这在以前是不可能的。"
+ },
+ {
+  "seg": 96,
+  "start": 506.699,
+  "end": 512.603,
+  "speaker": "Unknown",
+  "en": "For example, over here, we're trying to get an agent to look up the internet to find the latest security reports for the React application.",
+  "zh": "例如,在这边,我们试图让一个智能体上网查找 React 应用的最新安全报告。"
+ },
+ {
+  "seg": 97,
+  "start": 513.143,
+  "end": 516.966,
+  "speaker": "Unknown",
+  "en": "We've given it access to the same index that Google has with type Google Search.",
+  "zh": "我们给了它访问与 Google 相同索引的能力,类型为 Google Search。"
+ },
+ {
+  "seg": 98,
+  "start": 517.427,
+  "end": 522.771,
+  "speaker": "Unknown",
+  "en": "We've given it the ability to essentially retrieve information from web pages using the URL context tool that we ship with.",
+  "zh": "我们给了它本质上从网页检索信息的能力,使用我们随附的 URL context 工具。"
+ },
+ {
+  "seg": 99,
+  "start": 523.471,
+  "end": 525.673,
+  "speaker": "Unknown",
+  "en": "And we've given it a custom tool here called File Incident.",
+  "zh": "而且我们在这里给了它一个叫 File Incident 的自定义工具。"
+ },
+ {
+  "seg": 100,
+  "start": 526.233,
+  "end": 533.017,
+  "speaker": "Unknown",
+  "en": "The model can reason autonomously on its own, figure out what information it needs, and then actually generate a response to you all in a single API call.",
+  "zh": "模型可以自主地进行推理，弄清楚它需要什么信息，然后真正生成对你的响应，所有这些都在一次 API 调用中完成。"
+ },
+ {
+  "seg": 101,
+  "start": 533.998,
+  "end": 542.704,
+  "speaker": "Unknown",
+  "en": "This makes it very powerful, because now you have models that not only can work with information at the training cut of date, but beyond, because now they have access to the entirety of the internet.",
+  "zh": "这使它非常强大，因为现在你拥有的模型不仅能够基于训练截止日期的信息工作，还能超越它，因为现在它们可以访问整个互联网。"
+ },
+ {
+  "seg": 102,
+  "start": 544.422,
+  "end": 556.871,
+  "speaker": "Unknown",
+  "en": "And all this boils down to the new steps data model that we have, where instead of a world where we have a single message sent to a model and a response, we're going to have very complex things like async tool calls, models working together.",
+  "zh": "这一切都归结于我们新的 steps 数据模型，在我们不再处于“向模型发送单条消息并得到一个响应”的世界，而是会有非常复杂的东西，比如异步工具调用、模型之间协同工作。"
+ },
+ {
+  "seg": 103,
+  "start": 556.911,
+  "end": 560.634,
+  "speaker": "Unknown",
+  "en": "And we want to make sure we have a strong data structure to support this.",
+  "zh": "我们想确保我们有一个强大的数据结构来支持这一点。"
+ },
+ {
+  "seg": 104,
+  "start": 561.215,
+  "end": 564.637,
+  "speaker": "Unknown",
+  "en": "And so we've introduced the steps data model, which replaces the original legacy",
+  "zh": "因此我们推出了 steps 数据模型，它取代了原先遗留的"
+ },
+ {
+  "seg": 105,
+  "start": 565.578,
+  "end": 566.219,
+  "speaker": "Unknown",
+  "en": "Outputs Array.",
+  "zh": "Outputs Array。"
+ },
+ {
+  "seg": 106,
+  "start": 566.579,
+  "end": 576.209,
+  "speaker": "Unknown",
+  "en": "With a type discriminator that makes it very clear at each step what the model output, what the dot signatures were, what the functions called were, and especially when it comes to the content that's being generated.",
+  "zh": "它带有一个类型判别符，可以非常清楚地显示每一步模型输出了什么、点签名是什么、调用了哪些函数，尤其是对于正在生成的内容。"
+ },
+ {
+  "seg": 107,
+  "start": 576.629,
+  "end": 579.432,
+  "speaker": "Unknown",
+  "en": "Earlier, you saw a content.type where it was audio and video.",
+  "zh": "之前你看到了 content.type,它是 audio 和 video。"
+ },
+ {
+  "seg": 108,
+  "start": 579.892,
+  "end": 584.237,
+  "speaker": "Unknown",
+  "en": "And this makes it easy to build these multimodal pipelines in a way that only the Gemini model families can.",
+  "zh": "这使得构建这些多模态流水线变得容易，而这是只有 Gemini 模型家族才能做到的方式。"
+ },
+ {
+  "seg": 109,
+  "start": 585.863,
+  "end": 590.686,
+  "speaker": "Unknown",
+  "en": "The second thing that we've launched is anti-gravity as a remote agent, as what we like to call Manage Agent.",
+  "zh": "我们推出的第二件事是 anti-gravity 作为一个远程智能体，也就是我们喜欢称之为 Manage Agent 的东西。"
+ },
+ {
+  "seg": 110,
+  "start": 591.206,
+  "end": 596.19,
+  "speaker": "Unknown",
+  "en": "So we've standardized around using the anti-gravity harness across all of our Google suite of products.",
+  "zh": "我们已经在整个 Google 产品套件中统一使用 anti-gravity harness。"
+ },
+ {
+  "seg": 111,
+  "start": 596.73,
+  "end": 599.972,
+  "speaker": "Unknown",
+  "en": "In AI Studio, which you saw just now, websites are built with the anti-gravity agent.",
+  "zh": "在你刚才看到的 AI Studio 中，网站是用 anti-gravity 智能体构建的。"
+ },
+ {
+  "seg": 112,
+  "start": 600.392,
+  "end": 603.494,
+  "speaker": "Unknown",
+  "en": "In the anti-gravity application, you're also using the anti-gravity agent.",
+  "zh": "在 anti-gravity 应用程序中，你使用的也是 anti-gravity 智能体。"
+ },
+ {
+  "seg": 113,
+  "start": 603.995,
+  "end": 607.237,
+  "speaker": "Unknown",
+  "en": "Now this is a very capable harness that we've co-trained Gemini on.",
+  "zh": "这是一个非常强大的 harness,我们对 Gemini 进行了联合训练。"
+ },
+ {
+  "seg": 114,
+  "start": 607.737,
+  "end": 612.08,
+  "speaker": "Unknown",
+  "en": "And moving forward, I think you're going to see many gains if you use this harness out of the box.",
+  "zh": "并且向前看，我认为如果你开箱即用地使用这个 harness,你会看到很多收益。"
+ },
+ {
+  "seg": 115,
+  "start": 612.89,
+  "end": 616.052,
+  "speaker": "Unknown",
+  "en": "If you wanted to build a coding agent in the past, you would first have to tune the harness.",
+  "zh": "在过去，如果你想构建一个编码智能体，你首先必须调优 harness。"
+ },
+ {
+  "seg": 116,
+  "start": 616.513,
+  "end": 623.658,
+  "speaker": "Unknown",
+  "en": "Then you have to find a sandbox provider, manage the infrastructure, and then kind of figure out a way how to preserve the context, especially in between runs.",
+  "zh": "然后你必须找到一个沙箱提供商，管理基础设施，然后还得想办法如何保留上下文，尤其是在多次运行之间。"
+ },
+ {
+  "seg": 117,
+  "start": 624.318,
+  "end": 628.381,
+  "speaker": "Unknown",
+  "en": "But with the anti-gravity managed agent, you get a persistent sandbox out of the box.",
+  "zh": "但有了 anti-gravity 托管智能体，你可以开箱即得一个持久化沙箱。"
+ },
+ {
+  "seg": 118,
+  "start": 629.602,
+  "end": 636.167,
+  "speaker": "Unknown",
+  "en": "With a single API call, you get a sandbox that you can keep hitting and treat as a personal claw without any sort of modifications.",
+  "zh": "只需一次 API 调用，你就得到一个可以不断访问、当作个人 claw 来对待的沙箱，无需任何修改。"
+ },
+ {
+  "seg": 119,
+  "start": 637.217,
+  "end": 641.242,
+  "speaker": "Unknown",
+  "en": "You can see an example over here where we want to analyze what's in a GitHub repository.",
+  "zh": "你可以在这里看到一个例子，我们想要分析一个 GitHub 仓库里有什么。"
+ },
+ {
+  "seg": 120,
+  "start": 641.742,
+  "end": 646.328,
+  "speaker": "Unknown",
+  "en": "We then pass it over in an API call over to the anti-gravity agent, and it then boots up",
+  "zh": "然后我们在一次 API 调用中把它传给 anti-gravity 智能体，它随后启动"
+ },
+ {
+  "seg": 121,
+  "start": 647.858,
+  "end": 651.321,
+  "speaker": "Unknown",
+  "en": "A remote sandbox and then starts investigating what the repository's about.",
+  "zh": "一个远程沙箱，然后开始调查这个仓库是关于什么的。"
+ },
+ {
+  "seg": 122,
+  "start": 651.861,
+  "end": 655.003,
+  "speaker": "Unknown",
+  "en": "You can see it calls a list file to get what's in the workspace.",
+  "zh": "你可以看到它调用了一个 list file 来获取工作区里有什么。"
+ },
+ {
+  "seg": 123,
+  "start": 655.103,
+  "end": 656.665,
+  "speaker": "Unknown",
+  "en": "It then reads each individual file.",
+  "zh": "然后它逐个读取每个文件。"
+ },
+ {
+  "seg": 124,
+  "start": 657.125,
+  "end": 658.606,
+  "speaker": "Unknown",
+  "en": "And then it generates a final report.",
+  "zh": "然后它生成一份最终报告。"
+ },
+ {
+  "seg": 125,
+  "start": 659.527,
+  "end": 663.21,
+  "speaker": "Unknown",
+  "en": "All of this is happening in a remote sandbox without any sort of intervention from our site.",
+  "zh": "所有这些都发生在一个远程沙箱中，我们这边不需要任何干预。"
+ },
+ {
+  "seg": 126,
+  "start": 663.69,
+  "end": 667.633,
+  "speaker": "Unknown",
+  "en": "The agent's able to research, reason, and handle all of this autonomously.",
+  "zh": "智能体能够自主地研究、推理并处理这一切。"
+ },
+ {
+  "seg": 127,
+  "start": 669.226,
+  "end": 678.713,
+  "speaker": "Unknown",
+  "en": "We also handle multi-state persistent sandboxes, like what we mentioned earlier, where as long as you preserve the environment ID that will return to you, you're able to route it right back to the original sandbox that you had.",
+  "zh": "我们还处理多状态持久化沙箱，就像我们之前提到的，只要你保留它返回给你的环境 ID,你就能够直接路由回你原来的那个沙箱。"
+ },
+ {
+  "seg": 128,
+  "start": 679.573,
+  "end": 689.62,
+  "speaker": "Unknown",
+  "en": "So these are two primitives that we've given you, the interaction.id, where you're able to preserve and work with context and ensure you're not busting your cache, and the environment ID that enables you to route it to the exact same context.",
+  "zh": "所以这是我们给你的两个原语，interaction.id 让你能够保留并使用上下文，确保你不会击穿你的缓存，而环境 ID 让你能够路由到完全相同的上下文。"
+ },
+ {
+  "seg": 129,
+  "start": 690.401,
+  "end": 692.082,
+  "speaker": "Unknown",
+  "en": "And so this way, you can use the same sandbox.",
+  "zh": "通过这种方式，你可以使用同一个沙箱。"
+ },
+ {
+  "seg": 130,
+  "start": 692.142,
+  "end": 694.524,
+  "speaker": "Unknown",
+  "en": "You don't need to manage any sort of persistence of state.",
+  "zh": "你不需要管理任何状态持久化。"
+ },
+ {
+  "seg": 131,
+  "start": 695.184,
+  "end": 697.226,
+  "speaker": "Unknown",
+  "en": "And all you need to do is just add a few lines of code.",
+  "zh": "你所需要做的只是添加几行代码。"
+ },
+ {
+  "seg": 132,
+  "start": 697.984,
+  "end": 701.328,
+  "speaker": "Unknown",
+  "en": "The other way we've tried to make it easy is for you to be able to load in sources.",
+  "zh": "我们试图让它变得容易的另一种方式，是让你能够加载各种来源。"
+ },
+ {
+  "seg": 133,
+  "start": 701.849,
+  "end": 703.892,
+  "speaker": "Unknown",
+  "en": "A lot of times you might have custom dependencies.",
+  "zh": "很多时候你可能会有自定义依赖。"
+ },
+ {
+  "seg": 134,
+  "start": 703.932,
+  "end": 708.638,
+  "speaker": "Unknown",
+  "en": "You might have .EMD files, helper files that you want to show on this specific sandbox.",
+  "zh": "你可能有 .EMD 文件、你想展示在这个特定沙箱上的辅助文件。"
+ },
+ {
+  "seg": 135,
+  "start": 709.059,
+  "end": 711.141,
+  "speaker": "Unknown",
+  "en": "So we support Google's GCS buckets.",
+  "zh": "所以我们支持 Google 的 GCS 存储桶。"
+ },
+ {
+  "seg": 136,
+  "start": 711.562,
+  "end": 714.306,
+  "speaker": "Unknown",
+  "en": "We support GitHub repositories and inline files.",
+  "zh": "我们支持 GitHub 仓库和内联文件。"
+ },
+ {
+  "seg": 137,
+  "start": 716.6,
+  "end": 720.683,
+  "speaker": "Unknown",
+  "en": "And so what you see over here is a demo whereby it continues off the previous call that we did.",
+  "zh": "你在这里看到的是一个演示，它从我们上一次调用的地方继续。"
+ },
+ {
+  "seg": 138,
+  "start": 721.124,
+  "end": 722.805,
+  "speaker": "Unknown",
+  "en": "We're passing in the environment ID.",
+  "zh": "我们传入了环境 ID。"
+ },
+ {
+  "seg": 139,
+  "start": 723.305,
+  "end": 725.847,
+  "speaker": "Unknown",
+  "en": "And the model has the exact same files right where we left it.",
+  "zh": "而模型拥有和我们离开时完全相同的文件。"
+ },
+ {
+  "seg": 140,
+  "start": 726.648,
+  "end": 735.896,
+  "speaker": "Unknown",
+  "en": "Any sort of packages you install, any sort of files you throw and create, the model has access to it through each and every turn as long as it passes back the interaction ID and the environment ID.",
+  "zh": "你安装的任何软件包、你扔进去或创建的任何文件，模型在每一轮都能访问到，只要它传回 interaction ID 和环境 ID。"
+ },
+ {
+  "seg": 141,
+  "start": 736.797,
+  "end": 740.759,
+  "speaker": "Unknown",
+  "en": "This isn't just a sort of constraint to very simple task with the managed agent.",
+  "zh": "这不仅仅是把托管智能体限制在非常简单的任务上。"
+ },
+ {
+  "seg": 142,
+  "start": 741.159,
+  "end": 751.804,
+  "speaker": "Unknown",
+  "en": "What you're seeing over here is a run where the model burnt over 2 million tokens trying to analyze a repository that we got for a hackathon where someone built from scratch an entire programming language to code reinforcement learning environments.",
+  "zh": "你在这里看到的是一次运行，模型消耗了超过 200 万个 token,试图分析一个我们为一次黑客松拿到的仓库，有人从零开始构建了一门完整的编程语言，用来编写强化学习环境。"
+ },
+ {
+  "seg": 143,
+  "start": 752.324,
+  "end": 757.547,
+  "speaker": "Unknown",
+  "en": "If you've ever used the scratch programming language, it's a drag and drop language where you can kind of get simple characters to move.",
+  "zh": "如果你用过 scratch 编程语言，它是一种拖拽式语言，你可以让简单的角色动起来。"
+ },
+ {
+  "seg": 144,
+  "start": 758.167,
+  "end": 768.495,
+  "speaker": "Unknown",
+  "en": "But over here with a single API call, we're able to analyze an entire repository that has a custom DSL, a web page, a whole bunch of schemas, and an RL training loop running inside HUD.",
+  "zh": "但在这里，通过一次 API 调用，我们能够分析一整个仓库，它包含一门自定义 DSL、一个网页、一大堆模式，以及在 HUD 里运行的一个 RL 训练循环。"
+ },
+ {
+  "seg": 145,
+  "start": 769.196,
+  "end": 777.563,
+  "speaker": "Unknown",
+  "en": "And so it really opens up these kind of opportunities for you to build these very custom and performant agents without you having to handle the underlying infrastructure or tune the harness.",
+  "zh": "所以它真正为你打开了这类机会，让你能够构建这些非常定制化且高性能的智能体，而无需你自己处理底层基础设施或调优 harness。"
+ },
+ {
+  "seg": 146,
+  "start": 778.43,
+  "end": 794.609,
+  "speaker": "Unknown",
+  "en": "The best part about using the anti-gravity agent is that fundamentally, it's the same agent running in your anti-gravity IDE, which means that if you have certain workflows that you've tuned locally, you have skills that you've made sure are great, once you're happy with those skills, you just package it into a single folder,",
+  "zh": "使用 anti-gravity 智能体最棒的地方在于，从根本上说，它和你 anti-gravity IDE 里运行的是同一个智能体，这意味着如果你有一些在本地调优好的工作流，你有一些确保很好用的技能，一旦你对这些技能满意了，你只需要把它打包成一个文件夹，"
+ },
+ {
+  "seg": 147,
+  "start": 795.21,
+  "end": 799.572,
+  "speaker": "Unknown",
+  "en": "We allow you to upload the same way using the sources into a .agents folder.",
+  "zh": "我们允许你以同样的方式，通过 sources 上传到一个 .agents 文件夹。"
+ },
+ {
+  "seg": 148,
+  "start": 800.093,
+  "end": 805.996,
+  "speaker": "Unknown",
+  "en": "And that gives your agent the exact same skills with the same agent harness and the same prompt running locally and in the cloud.",
+  "zh": "这会让你的智能体拥有完全相同的技能，使用相同的智能体 harness 和相同的提示词，在本地和云端运行。"
+ },
+ {
+  "seg": 149,
+  "start": 806.636,
+  "end": 812.159,
+  "speaker": "Unknown",
+  "en": "When you're ready or when you're comfortable with what your agent is doing locally, you can then push it up and everything works as intended.",
+  "zh": "当你准备好了，或者当你对智能体在本地做的事情感到满意时，你就可以把它推送上去，一切都会按预期工作。"
+ },
+ {
+  "seg": 150,
+  "start": 812.999,
+  "end": 817.362,
+  "speaker": "Unknown",
+  "en": "The next question we often get from companies are, hey, I need my agent to be secure.",
+  "zh": "我们经常从公司那里收到的下一个问题是,嘿,我需要我的智能体是安全的。"
+ },
+ {
+  "seg": 151,
+  "start": 818.363,
+  "end": 821.384,
+  "speaker": "Unknown",
+  "en": "What am I going to do if my agent leaks a network credential?",
+  "zh": "如果我的智能体泄露了网络凭据,我该怎么办?"
+ },
+ {
+  "seg": 152,
+  "start": 821.584,
+  "end": 824.145,
+  "speaker": "Unknown",
+  "en": "And to do so, we've implemented a man in the middle proxy.",
+  "zh": "为此,我们实现了一个中间人代理。"
+ },
+ {
+  "seg": 153,
+  "start": 824.705,
+  "end": 825.446,
+  "speaker": "Unknown",
+  "en": "So what does this mean?",
+  "zh": "那么这是什么意思呢?"
+ },
+ {
+  "seg": 154,
+  "start": 826.246,
+  "end": 828.867,
+  "speaker": "Unknown",
+  "en": "A lot of times, you need to make API calls to different providers.",
+  "zh": "很多时候,你需要对不同提供商进行 API 调用。"
+ },
+ {
+  "seg": 155,
+  "start": 829.187,
+  "end": 833.569,
+  "speaker": "Unknown",
+  "en": "Say, the Gemini API, you might need to download private GitHub repositories, et cetera.",
+  "zh": "比如,Gemini API,你可能需要下载私有的 GitHub 仓库,等等。"
+ },
+ {
+  "seg": 156,
+  "start": 834.57,
+  "end": 836.011,
+  "speaker": "Unknown",
+  "en": "We have a proxy that stands in the middle.",
+  "zh": "我们有一个代理站在中间。"
+ },
+ {
+  "seg": 157,
+  "start": 836.451,
+  "end": 841.314,
+  "speaker": "Unknown",
+  "en": "And so any call your model makes, we will look at the header, and we can replace items at will.",
+  "zh": "因此,你的模型发出的任何调用,我们都会查看请求头,并且可以随意替换其中的项目。"
+ },
+ {
+  "seg": 158,
+  "start": 841.754,
+  "end": 849.718,
+  "speaker": "Unknown",
+  "en": "What you see over here is a case where we'll transform every single outbound call to the GitHub API and inject in the token dynamically.",
+  "zh": "你在这里看到的是一个例子,我们会转换每一个发往 GitHub API 的出站调用,并动态注入令牌。"
+ },
+ {
+  "seg": 159,
+  "start": 850.218,
+  "end": 858.002,
+  "speaker": "Unknown",
+  "en": "And so even if the model is somehow prompt injected and leaks your GitHub API token, it's never actually going to see the token.",
+  "zh": "因此,即使模型以某种方式被提示词注入并泄露了你的 GitHub API 令牌,它实际上也永远不会看到这个令牌。"
+ },
+ {
+  "seg": 160,
+  "start": 858.143,
+  "end": 862.565,
+  "speaker": "Unknown",
+  "en": "It's only going to execute code that will run against the GitHub API, and your token is never exposed.",
+  "zh": "它只会执行针对 GitHub API 运行的代码,而你的令牌永远不会暴露。"
+ },
+ {
+  "seg": 161,
+  "start": 864.448,
+  "end": 867.35,
+  "speaker": "Unknown",
+  "en": "Once you're comfortable with how the agent is performing, you set it up well.",
+  "zh": "一旦你对智能体的表现感到满意,你就可以把它设置好。"
+ },
+ {
+  "seg": 162,
+  "start": 868.191,
+  "end": 874.155,
+  "speaker": "Unknown",
+  "en": "We give you two different ways for you to basically configure and set it up as a named agent, much like you've been using the anti-gravity preview agent.",
+  "zh": "我们提供两种不同的方式,让你基本上可以把它配置并设置为一个命名智能体,就像你一直在使用的 anti-gravity preview 智能体一样。"
+ },
+ {
+  "seg": 163,
+  "start": 874.655,
+  "end": 878.718,
+  "speaker": "Unknown",
+  "en": "The first one is to freeze it with a certain set of configured files and network sources.",
+  "zh": "第一种是用一组特定的配置文件和网络源把它冻结。"
+ },
+ {
+  "seg": 164,
+  "start": 879.398,
+  "end": 881.96,
+  "speaker": "Unknown",
+  "en": "That's what you see on the left.",
+  "zh": "那就是你在左边看到的。"
+ },
+ {
+  "seg": 165,
+  "start": 882.16,
+  "end": 888.064,
+  "speaker": "Unknown",
+  "en": "I have a data analyst agent that I'm creating from the anti-gravity preview base agent with some base environment configurations.",
+  "zh": "我有一个数据分析智能体,是我从 anti-gravity preview 基础智能体创建的,带有一些基础环境配置。"
+ },
+ {
+  "seg": 166,
+  "start": 888.144,
+  "end": 889.385,
+  "speaker": "Unknown",
+  "en": "Here are just a GCS skill.",
+  "zh": "这里只是一个 GCS 技能。"
+ },
+ {
+  "seg": 167,
+  "start": 890.275,
+  "end": 895.582,
+  "speaker": "Unknown",
+  "en": "The other way that we allow you to do so is by chatting iteratively with an agent to set up an environment as you like.",
+  "zh": "我们允许你这样做的另一种方式,是通过与一个智能体迭代式地聊天,来按照你的喜好设置环境。"
+ },
+ {
+  "seg": 168,
+  "start": 896.103,
+  "end": 898.386,
+  "speaker": "Unknown",
+  "en": "For example, you might want certain dependencies.",
+  "zh": "例如,你可能想要某些依赖。"
+ },
+ {
+  "seg": 169,
+  "start": 898.406,
+  "end": 899.648,
+  "speaker": "Unknown",
+  "en": "You might want certain packages.",
+  "zh": "你可能想要某些软件包。"
+ },
+ {
+  "seg": 170,
+  "start": 900.249,
+  "end": 903.393,
+  "speaker": "Unknown",
+  "en": "And you can freeze an environment as a specific agent.",
+  "zh": "你可以把一个环境冻结为特定的智能体。"
+ },
+ {
+  "seg": 171,
+  "start": 903.794,
+  "end": 905.776,
+  "speaker": "Unknown",
+  "en": "And all your subsequent calls kind of go through that.",
+  "zh": "然后你后续的调用都会经过它。"
+ },
+ {
+  "seg": 172,
+  "start": 906.457,
+  "end": 909.3,
+  "speaker": "Unknown",
+  "en": "Once you're happy with that, it makes it very easy for you to scale up your workloads.",
+  "zh": "一旦你对此感到满意,扩展你的工作负载就变得非常容易。"
+ },
+ {
+  "seg": 173,
+  "start": 909.821,
+  "end": 913.965,
+  "speaker": "Unknown",
+  "en": "At this point, we support up to 1,000 named agents, which means that you can have all these different configurations.",
+  "zh": "到目前为止,我们支持多达 1,000 个命名智能体,这意味着你可以拥有所有这些不同的配置。"
+ },
+ {
+  "seg": 174,
+  "start": 914.586,
+  "end": 917.028,
+  "speaker": "Unknown",
+  "en": "And you don't pay for any of the storage.",
+  "zh": "而且你不需要为任何存储付费。"
+ },
+ {
+  "seg": 175,
+  "start": 917.489,
+  "end": 918.67,
+  "speaker": "Unknown",
+  "en": "You don't pay for the sandbox.",
+  "zh": "你不需要为沙箱付费。"
+ },
+ {
+  "seg": 176,
+  "start": 919.071,
+  "end": 920.212,
+  "speaker": "Unknown",
+  "en": "You only pay for the model.",
+  "zh": "你只需要为模型付费。"
+ },
+ {
+  "seg": 177,
+  "start": 920.932,
+  "end": 924.516,
+  "speaker": "Unknown",
+  "en": "We've optimized our infrastructure to be very performant to be able to handle a workload like this.",
+  "zh": "我们已经优化了我们的基础设施,使其非常高效,能够处理这样的工作负载。"
+ },
+ {
+  "seg": 178,
+  "start": 925.037,
+  "end": 926.779,
+  "speaker": "Unknown",
+  "en": "And we're pretty excited to see what people are going to build.",
+  "zh": "我们非常期待看到人们将要构建的东西。"
+ },
+ {
+  "seg": 179,
+  "start": 929.141,
+  "end": 932.842,
+  "speaker": "Unknown",
+  "en": "Recently, we've also open-sourced a new Gemini API CLI.",
+  "zh": "最近,我们还开源了一个新的 Gemini API CLI。"
+ },
+ {
+  "seg": 180,
+  "start": 933.342,
+  "end": 940.565,
+  "speaker": "Unknown",
+  "en": "This is a simple CLI that you can use to get started working with the Gemini models to test out the models locally using simple CLI commands.",
+  "zh": "这是一个简单的 CLI,你可以用它来开始使用 Gemini 模型,通过简单的 CLI 命令在本地测试这些模型。"
+ },
+ {
+  "seg": 181,
+  "start": 941.165,
+  "end": 947.207,
+  "speaker": "Unknown",
+  "en": "The other benefit of this is that you're going to be able to iterate on your coding agent or your antigravity agent locally.",
+  "zh": "这样做的另一个好处是,你可以在本地迭代你的编码智能体或你的 antigravity 智能体。"
+ },
+ {
+  "seg": 182,
+  "start": 947.667,
+  "end": 952.989,
+  "speaker": "Unknown",
+  "en": "And once you're ready, it packages it as a single folder and uploads it straight and creates an agent for you.",
+  "zh": "一旦你准备好了,它会把它打包成一个单独的文件夹,直接上传并为你创建一个智能体。"
+ },
+ {
+  "seg": 183,
+  "start": 955.638,
+  "end": 970.133,
+  "speaker": "Unknown",
+  "en": "Lastly, if you're thinking of switching over to the Interactions API, which is where all of our new models will be on, we've also created a new Interactions API skill that you can feed to your favorite coding agent, and that will then basically allow you to do that migration without any issues.",
+  "zh": "最后,如果你正在考虑切换到 Interactions API——我们所有的新模型都将位于其上——我们还创建了一个新的 Interactions API 技能,你可以把它提供给你最喜欢的编码智能体,然后它基本上就能让你毫无问题地完成那次迁移。"
+ },
+ {
+  "seg": 184,
+  "start": 970.533,
+  "end": 978.861,
+  "speaker": "Unknown",
+  "en": "I'm sure you guys have faced issues where you've asked Gemini to implement a specific kind of implementation, and it keeps using Gemini 2.5 Flash or Gemini 2.0.",
+  "zh": "我相信你们都遇到过这样的问题:你让 Gemini 实现某种特定的实现方式,但它一直在使用 Gemini 2.5 Flash 或 Gemini 2.0。"
+ },
+ {
+  "seg": 185,
+  "start": 979.722,
+  "end": 983.705,
+  "speaker": "Unknown",
+  "en": "And so what we do is we make sure we keep up to date the list of all the different models.",
+  "zh": "因此,我们要做的是确保我们保持所有不同模型列表的更新。"
+ },
+ {
+  "seg": 186,
+  "start": 984.205,
+  "end": 985.926,
+  "speaker": "Unknown",
+  "en": "We keep up to date all the different methods.",
+  "zh": "我们保持所有不同方法的更新。"
+ },
+ {
+  "seg": 187,
+  "start": 986.106,
+  "end": 987.427,
+  "speaker": "Unknown",
+  "en": "We provide a good bunch of skills.",
+  "zh": "我们提供了一大堆技能。"
+ },
+ {
+  "seg": 188,
+  "start": 987.547,
+  "end": 996.413,
+  "speaker": "Unknown",
+  "en": "And like Philip mentioned yesterday, we regularly evaluate these and make sure that they're actually doing what we want them to do, which is allowing you to use Gemini and build on Gemini well.",
+  "zh": "而且就像 Philip 昨天提到的,我们定期评估这些内容,并确保它们真正在做我们想让它们做的事情,也就是让你能够很好地使用 Gemini 并在 Gemini 上构建。"
+ },
+ {
+  "seg": 189,
+  "start": 997.054,
+  "end": 998.855,
+  "speaker": "Unknown",
+  "en": "So that's the end of my talk.",
+  "zh": "我的演讲到此结束。"
+ },
+ {
+  "seg": 190,
+  "start": 998.935,
+  "end": 1001.817,
+  "speaker": "Unknown",
+  "en": "Thank you so much for coming by and staying around for the end of the conference.",
+  "zh": "非常感谢大家来到这里,并坚持到会议的最后。"
+ },
+ {
+  "seg": 191,
+  "start": 1001.877,
+  "end": 1003.678,
+  "speaker": "Unknown",
+  "en": "And yeah, I hope you guys get started.",
+  "zh": "是的,我希望你们都能开始上手。"
+ },
+ {
+  "seg": 192,
+  "start": 1003.698,
+  "end": 1005.76,
+  "speaker": "Unknown",
+  "en": "I'll be on the side if you guys have any questions about the new API.",
+  "zh": "如果你们对新的 API 有任何问题,我会在旁边。"
+ },
+ {
+  "seg": 193,
+  "start": 1013.579,
+  "end": 1014.561,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

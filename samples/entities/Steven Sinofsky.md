@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":175,"Theo Jaffe":7,"Martin Casado":5,"Sofia Puccini":4,"OpenAI":164,"监管俘获":3,"Google":59,"precautionary principle":1,"Microsoft":28,"开源":36}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":177,"Theo Jaffe":7,"Martin Casado":5,"Sofia Puccini":4,"OpenAI":165,"监管俘获":3,"Google":60,"precautionary principle":1,"Microsoft":29,"开源":36}</script>
 
 <script>
 (function(){

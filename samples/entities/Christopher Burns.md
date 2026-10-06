@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
+[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"C15T":1,"lead type":1,"智能体":411,"智能体体验":1,"llms.txt":2,"agents.md":2,"WebMCP":2,"node modules":1,"Aura AI":1,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"C15T":1,"lead type":1,"智能体":417,"智能体体验":1,"llms.txt":2,"agents.md":3,"WebMCP":2,"node modules":1,"Aura AI":1,"Stripe":48}</script>
 
 <script>
 (function(){

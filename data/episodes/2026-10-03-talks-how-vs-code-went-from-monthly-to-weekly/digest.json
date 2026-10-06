@@ -1,0 +1,142 @@
+{
+  "title_zh": "VS Code 周更背后：小团队如何用智能体重塑整个发布系统",
+  "tldr": "VS Code 团队成员讲述如何借 AI 从月度发布改为每周发布：让代码库为智能体做好准备、自动代码评审与错误修复，以及更快学习产品反馈的完整方法。",
+  "digest_md": "这一集的演讲者来自 VS Code 团队,做的是 VS Code 和 Copilot CI 相关的工作。他讲的核心不是「怎么把智能体装进产品」,而是一个更少人聊的话题:**怎么用智能体来构建产品本身**。这个团队规模很小,却要向超过 5000 万用户交付软件——而过去一年,多亏了 AI,他们把延续了 10 多年的月度发布周期改成了每周发布。\n\n最有说服力的一个数字:团队很早就开始跟踪「代码存活率」——智能体写的代码中真正被提交的百分比,用来衡量智能体产出了多少被扔掉的垃圾。GPT 4.1 起步时只有 55%,但随着框架(harness,即模型外面套的那层工具环境)的改进和新模型的出现,Claude Opus 4.6 已经达到 86%。这个增长直接反映了开发者对 AI 代码的信任在上升 [01:13 Unknown]。\n\n但成功本身带来了新问题:VS Code 是 GitHub 上最大的开源项目之一,AI 帮人提交 issue 后,issue 数量暴涨,质量参差;团队自己和社区开的 PR 也变多——有意思的是,社区 PR 被合并的数量反而在上升,而不是像所有人以为的那样涌进一堆垃圾 PR。\n\n演讲者的核心主张是:**这不只是「日常多用 AI」,而是要演进整个软件交付系统,让 AI 在全流程中发挥作用**。他把这条路拆成三层:更快地写代码(容易)、有质量地写代码(变难)、更快地学习——最后这层是大多数人错过的。\n\n## 第一步:把代码库改造成智能体能干活的地方\n\n最快出代码的阶段其实不难——总有那种「100 倍工程师」搭好 MCP 插件系统疯狂产出。真正的地基是让代码库「为智能体做好准备」:\n\n- **写 agents.md**:足够轻量、给智能体一张代码库地图(去哪看、怎么走)。它是活文档,要随智能体犯的错不断演进。那些在开发者体验上投入过的团队在这里收益最大——好文档和上手指南,智能体同样会读、同样受益。\n- **把专家知识做成技能(skill)**:VS Code 早期就把无障碍最佳实践整体注入成一个所有人共用的技能,由无障碍负责人评审维护。以前这类事得把唯一的专家拉进来给反馈,现在专业知识被编码进了每个人的工具里。\n- **检验标准很接地气**:「我一个 PM 能不能在 VS Code 仓库里有效地 vibe coding?」演讲者本人就这么干——年初他为了加 Ask Questions 工具提交了一个很粗糙的大 PR,几周内团队就基于它打磨出设计精良的正式体验。粗糙的原型铺好了地基,解锁了所有人的参与和讨论。\n\n## 巨大的一步:切换到 TypeScript Go\n\n任何构建慢、linting 慢、CI-CD 慢的代码库,人类还能靠切出去评审别的 PR 来消化等待;但当你有 10 个、20 个智能体同时撞上同一个瓶颈,**CI-CD 里任何慢的环节都会被复合放大**。切到 TypeScript Go(官方用 Go 语言重写的 TypeScript 编译器)给他们的构建带来了 10 倍提升——在智能体跑自动化 PR、依赖 CI-CD 循环拿反馈改进代码的规模下,这是质的差别。\n\n## 让智能体「看见」UI:两个反馈循环\n\n智能体写 UI 的通病:它说「看起来完美」,你打开一看全是错位——即使最新的模型也逃不掉。演讲者反复强调的头号投资:**如果你的智能体不能直接使用你的产品来获得「一切是否正常」的反馈循环,这是最值得做的投资**,每次做 UI 都有回报。他们做了两件事:\n\n- **组件浏览器**:每次代码变更自动运行,截取 VS Code 中每个组件的截图并标出差异。改一个组件的连锁反应(别的东西移位、图标消失)立刻现形;评审 PR 时也能直接看到改动效果——以前他们要求每个开发者至少附上截图或视频,现在全自动了。\n- **自我纠错循环**:VS Code 本质是跑在 Electron 里的网页应用(全是 HTML),所以可以用 Playwright(浏览器自动化工具)做「slash launch」技能——让智能体打开 VS Code,按指定场景点击走一遍,沿途拿日志,自己验证修复前后是否有效。你点一下 launch 就去做下个任务,等它验证完再回来。类似方案在别的平台也有,演讲者举例 Xcode MCP:不用打开 Xcode 就能创建 iOS 应用、点开、截图,反馈循环非常紧密。\n\n## 代码评审:先机器后人类\n\nGitHub Copilot 的自动代码评审,他们起初并不信服,但几个月里它大幅改进,现在已经是**强制项**:每个 PR 都会被自动评审,而且可以按仓库风险调低、中、高三档力度,权衡成本收益。关键规矩是:**评审的评论没全部解决之前,人类根本不看这个 PR**。\n\n## 守住质量:智能体分诊 issue 和错误堆栈\n\n更快地交付之后,必须守住质量。因为用户装的是二进制,出了问题恢复成本极高,他们还放弃了以前的「YOLO 式发布」(发布日一切测完直接推给 100% 用户),改成分阶段发布,过程中监控错误日志和 issue——像 Web 应用的良好公民一样,因为已安装应用的回滚代价太大。\n\nissue 侧:AI 帮不同语言背景的用户提交了更好的 issue,但量也爆炸了。现在 AI 负责过滤垃圾、充实内容、翻译,并为每个 issue 指派领域负责人;同时保留人工反馈层——他们做了个 Chrome 扩展,让人类能修正智能体分诊的错误(比如标记重复 issue),这些修正再回流到上游的智能体工作里。演讲者特别提醒:**让智能体干活的同时,一定要设计人类反馈的回路**。\n\n更成体系的是错误堆栈流水线,全程自建工具、不用外部服务:每天收集约 510 亿条原始遥测数据,过滤出带完整堆栈的错误,指纹化分组分桶,最后每天产出约 10 个自动提交并指派给错误负责人的 issue,而且**自动创建 PR 尝试修复**。演示的案例里,智能体自己查明了根因(某个取消请求不在 RPC 协议里),开好 PR,人只需要合并。「你不在乎错误,你只想要一个更稳定的代码库。」整条链是:智能体 + 确定性系统做分诊 → 提交 issue → 移交给多智能体系统生成 PR → 修复大部分自动落地,仅保留人工批准。\n\n## 最被忽视的一层:更快地学习\n\n「更快更好地打造产品」——写更多代码时,大多数人错过的恰恰是运用产品品味和产品学习。他们的做法:\n\n- **VSC bench 自建评测**:作为智能体化产品,必须有随手可用、极易扩展的产品评测。想加新评测场景?提交一个 GitHub issue,智能体从模板接手帮你搭好框架——来自 issue、客户对话等各渠道的开发者场景都能低成本收进评测,然后离线爬坡优化,再做在线实验。\n- **理解你的评测至关重要**:他们做过一个实验,评测场景简单到只是「写一个含 hello world 的文件」,仅仅为了端到端测评测框架。结果同样一个五个字符的文件,最贵的模型消耗了 70 倍的 token——而且还不是开最高推理档的模型。了解模型在你的框架里如何反应,是极其重要的练习。\n- **每日原型对话**:演讲者大量做原型,但大多不打算合入主仓库——原型是用来开对话的。团队现在开每日冲刺,小 squad、小工作流聚焦小块领域:今天给你看想法和样子,明天带着更新后的原型回来继续聊。从月度周期到每周再到每日,原型解锁了更深入的体验讨论。\n\n## 本集带走\n\n- **先看代码存活率**:跟踪智能体代码被提交的百分比(他们从 55% 做到 86%),这是衡量「AI 真的提效了还是只是生成了更多垃圾」最直接的单一指标。\n- **给智能体修路,比催它跑得快更值钱**:agents.md 活文档、专家知识做成 skill、把 CI-CD 里每个慢环节提速(他们靠 TypeScript Go 拿到 10 倍构建提升)——因为智能体并行运行时,慢的部分会被复合放大。\n- **让智能体能直接使用你的产品**:UI 截图对比的组件浏览器 + Playwright 式的自我验证循环,每次做 UI 都有回报。\n- **评审流程改成「机器先行」**:自动评审强制覆盖、按风险调力度、评论未解决前人类不看 PR。\n- **给智能体配人工纠错回路**:自动分诊 issue 和错误堆栈(他们做到每天自动提交 issue 并自动开修复 PR),但必须留一条人类能修正并回流的路。\n- **别只调你和智能体的协作,要调它怎么拿到反馈**:自建易扩展的评测(一个 issue 就能加场景)、用小原型驱动每日对话——更快的学习才是 AI 时代真正的瓶颈。",
+  "quotes": [
+    {
+      "en": "But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound.",
+      "zh": "但一旦你让智能体撞上这个，你有 10 个智能体、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。",
+      "timestamp": "07:24",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement.",
+      "zh": "对我们来说，TypeScript Go 让我们的构建获得了 10 倍的提升，在智能体运行的自动化 PR 的规模下，以及它们需要那个 CI-CD 循环来获取反馈以改进代码的情况下，这是一个巨大的提升。",
+      "timestamp": "07:36",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "If your agent cannot use your application, your product directly to get this feedback loop of is it all working, then that's a really big investment that pays off every time you work on UI.",
+      "zh": "如果你的智能体无法直接使用你的应用程序、你的产品来获得「一切是否正常工作」的反馈循环，那么这是一项非常值得的投资，每次你做 UI 工作时都会有回报。",
+      "timestamp": "08:48",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "But for us, after a review is done, humans will not even look at PR until all the comments are resolved and addressed.",
+      "zh": "但对我们来说，review 完成之后，在所有评论都被解决和处理完之前，人类甚至不会去看 PR。",
+      "timestamp": "11:53",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "You don't care about errors, you just want to get a more stable code base.",
+      "zh": "你不在乎错误，你只想要一个更稳定的代码库。",
+      "timestamp": "14:59",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "The same five character file took the most expensive model 70x more tokens.",
+      "zh": "同样一个五个字符的文件，最贵的模型消耗了 70 倍的 token。",
+      "timestamp": "17:18",
+      "speaker": "Harald Kirschner"
+    },
+    {
+      "en": "Find out where your bottlenecks are to actually ship higher quality, ship faster, and learn faster, and fix that next bottleneck.",
+      "zh": "找出你的瓶颈在哪里，以真正更高质量地发布、更快地发布、更快地学习，然后修复下一个瓶颈。",
+      "timestamp": "18:39",
+      "speaker": "Harald Kirschner"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:37",
+      "speaker": "Unknown",
+      "en": "But then over time and over improving the harness and new models, Claude Opus 4.6 is now today at 86%.",
+      "zh": "但随着时间推移、随着 harness 的改进和新模型的出现，Claude Opus 4.6 现在达到了 86%。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Unknown",
+      "en": "It's about evolving the whole system, how you're shipping software to evolve to actually make better use of AI along the whole process.",
+      "zh": "关键是演进整个系统、你交付软件的方式，从而真正在整个流程中更好地利用 AI。"
+    },
+    {
+      "timestamp": "03:25",
+      "speaker": "Unknown",
+      "en": "And that's what makes this velocity actually work and doesn't just generate more code.",
+      "zh": "这才是让这种速度真正奏效的原因，而不只是生成更多代码。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Unknown",
+      "en": "But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound.",
+      "zh": "但一旦你让智能体撞上这个，你有 10 个智能体、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。"
+    },
+    {
+      "timestamp": "07:36",
+      "speaker": "Unknown",
+      "en": "And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement.",
+      "zh": "对我们来说，TypeScript Go 让我们的构建获得了 10 倍的提升，在智能体运行的自动化 PR 的规模下，以及它们需要那个 CI-CD 循环来获取反馈以改进代码的情况下，这是一个巨大的提升。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Unknown",
+      "en": "If your agent cannot use your application, your product directly to get this feedback loop of is it all working, then that's a really big investment that pays off every time you work on UI.",
+      "zh": "如果你的智能体无法直接使用你的应用程序、你的产品来获得「一切是否正常工作」的反馈循环，那么这是一项非常值得的投资，每次你做 UI 工作时都会有回报。"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Unknown",
+      "en": "But for us, after a review is done, humans will not even look at PR until all the comments are resolved and addressed.",
+      "zh": "但对我们来说，review 完成之后，在所有评论都被解决和处理完之前，人类甚至不会去看 PR。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Unknown",
+      "en": "That's a really important thing to think about as you have agents doing the work that you get the human feedback as well.",
+      "zh": "当你让智能体做工作时，这一点非常重要要想清楚：你同时也要拿到人类的反馈。"
+    },
+    {
+      "timestamp": "14:59",
+      "speaker": "Unknown",
+      "en": "You don't care about errors, you just want to get a more stable code base.",
+      "zh": "你不在乎错误，你只想要一个更稳定的代码库。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Unknown",
+      "en": "So previously, VS Code did YOLO releases in a way that it was release day.",
+      "zh": "以前，VS Code 在某种程度上是进行 YOLO 式发布的，到了发布日。"
+    },
+    {
+      "timestamp": "17:01",
+      "speaker": "Unknown",
+      "en": "Understanding your evals is critical.",
+      "zh": "理解你的评测是至关重要的。"
+    },
+    {
+      "timestamp": "17:18",
+      "speaker": "Unknown",
+      "en": "The same five character file took the most expensive model 70x more tokens.",
+      "zh": "同样一个五个字符的文件，最贵的模型消耗了 70 倍的 token。"
+    },
+    {
+      "timestamp": "18:48",
+      "speaker": "Unknown",
+      "en": "And don't just tune how you work with agents, but tune how they get feedback.",
+      "zh": "而且不只是调整你如何与智能体协作，还要调整它们如何获得反馈。"
+    },
+    {
+      "timestamp": "18:39",
+      "speaker": "Unknown",
+      "en": "Find out where your bottlenecks are to actually ship higher quality, ship faster, and learn faster, and fix that next bottleneck.",
+      "zh": "找出你的瓶颈在哪里，以真正更高质量地发布、更快地发布、更快地学习，然后修复下一个瓶颈。"
+    },
+    {
+      "timestamp": "16:12",
+      "speaker": "Unknown",
+      "en": "You actually want to build a better product faster.",
+      "zh": "你实际上是想更快地打造更好的产品。"
+    }
+  ],
+  "voice_script": "今天的主角是 VS Code 团队的一位成员,做的是 VS Code 和 Copilot CI 相关的工作。这一集要聊的话题很有意思:不是怎么把 AI 智能体装进产品里卖给用户,而是一个更少人聊的问题——怎么用智能体来构建产品本身。为什么这事值得听?因为结果摆在那儿:这个团队规模很小,却要向超过五千万用户交付软件,而过去一年,靠着 AI,他们把延续了十多年的月度发布周期,改成了每周发布。\n\n先给一个最有说服力的数字。团队很早就在跟踪一个指标,叫代码存活率——就是智能体写的代码里,真正被提交进去的百分比。说白了,这个数字衡量的是智能体产出了多少被扔掉的垃圾。起步的时候,GPT 4.1 只有百分之五十五。但随着工具环境的改进和新模型的出现,到 Claude Opus 4.6,这个数字已经到了百分之八十六。这个增长直接反映了开发者对 AI 代码的信任在上升。\n\n不过成功本身带来了新麻烦。VS Code 是 GitHub 上最大的开源项目之一,AI 帮人提交 issue 之后,issue 数量暴涨,质量也参差不齐;团队自己和社区提交的代码变更也变多了。有意思的是,社区提交的代码被合并的数量反而在上升,并不是像所有人以为的那样,涌进来一堆垃圾。\n\n于是就有了这位演讲者的核心主张:这不只是日常多AI一点,而是要演进整个软件交付系统,让 AI 在全流程中发挥作用。他把这条路拆成三层——更快地写代码,这一层容易;有质量地写代码,这一层变难了;还有更快地学习,最后这层是大多数人错过的。\n\n那具体怎么干呢?第一步是打地基,把代码库改造成智能体能干活的地方。你可能会想,生成代码不是很快吗?确实,总有那种搭好插件系统疯狂产出的高手,但这不是关键。真正的地基是让代码库为智能体做好准备。具体有两条:一是写一份 agents.md,给智能体一张代码库的地图,告诉它去哪看、怎么走。注意,这是份活文档,要随着智能体犯的错不断演进。那些在开发者体验上投入过的团队,在这里收益最大——因为好文档和上手指南,智能体同样会读、同样受益。二是把专家知识做成技能。VS Code 早期就把无障碍最佳实践整体注入成一个所有人共用的技能,由无障碍负责人评审维护。以前这类事得把唯一的专家拉过来给反馈,现在专业知识被编码进了每个人的工具里。\n\n检验标准也很接地气:一个产品经理,能不能在 VS Code 仓库里有效地用智能体写代码?演讲者本人就这么干。年初为了加一个提问工具,提交了一个很粗糙的大变更,几周内团队就基于它打磨出了设计精良的正式体验。粗糙的原型铺好了地基,解锁了所有人的参与和讨论。\n\n再往下一步,听起来很技术,但背后有个很妙的逻辑:他们把整个代码库切换到了用 Go 语言重写的 TypeScript 编译器,构建速度提升了十倍。为什么非做不可?因为人是可以等的人类等构建的时候,可以切出去评审别人的代码;但当你有十个、二十个智能体同时撞上同一个瓶颈,CI 流程里任何慢的环节都会被复合放大。在智能体跑自动化变更、依赖这条循环拿反馈改进代码的规模下,十倍的构建提升,是质的差别。\n\n接下来是一个更根本的问题:智能体写界面代码有个通病——它说看起来完美,你打开一看全是错位,最新的模型也逃不掉。演讲者反复强调的头号投资是:如果你的智能体不能直接使用你的产品,来获得一切是否正常的反馈循环,这是最值得做的投资,每次做界面工作都会有回报。他们做了两件事。第一件是组件浏览器,每次代码变更自动运行,截取每个组件的截图并标出差异,改动引发的连锁反应立刻现形——以前要求每个开发者附上截图或视频,现在全自动了。第二件是自我纠错循环:VS Code 本质上是个网页应用,所以可以用浏览器自动化工具让智能体自己打开 VS Code,按指定场景点一遍,沿途拿日志,自己验证修复前后是否有效。你点一下启动,就去做下个任务,等它验证完再回来。\n\n代码写得快、看得见了,下一步就是评审。GitHub 的自动代码评审,他们起初并不信服,但几个月里大幅改进,现在已经是强制项:每个变更都自动评审,还能按仓库风险调低、中、高三档力度。关键规矩是——评审的评论没全部解决之前,人类根本不看这个变更。\n\n交付变快之后,质量必须守住。因为用户装的是软件成品,出了问题恢复成本极高,他们放弃了以前那种发布日一切测完直接推给全部用户的做法,改成分阶段发布,过程中监控错误日志和 issue。issue 这边,AI 负责过滤垃圾、充实内容、翻译,并为每个 issue 指派领域负责人。但注意,他们特别保留了人工反馈层:做了个浏览器扩展,让人类能修正智能体分诊的错误,这些修正再回流到智能体的工作里。演讲者特别提醒,让智能体干活的同时,一定要设计人类反馈的回路。\n\n更成体系的是错误堆栈流水线,全程自建工具:每天收集约五百一十亿条原始数据,过滤出带完整堆栈的错误,分组分桶,最后每天产出约十个自动提交的 issue——而且自动创建修复尝试。演示的案例里,智能体自己查明了根因,开好了修复,人只需要合并。有句话说得特别好:你不在乎错误,你只想要一个更稳定的代码库。\n\n最后这层,是最被忽视的:更快地学习。写更多代码的时候,大多数人错过的,恰恰是产品品味和产品学习。他们自建了评测体系,想加新场景,提交一个 issue,智能体就从模板接手帮你搭好框架。理解你的评测也至关重要——他们做过一个实验,评测场景简单到只是写一个含 hello world 的文件,结果同样一个五个字符的文件,最贵的模型消耗了七十倍的 token。另外,演讲者大量做原型,但大多不打算合入主仓库——原型是用来开对话的。团队现在开每日冲刺,今天给你看想法,明天带着更新后的原型回来接着聊。从月度到每周再到每日,原型解锁了更深入的体验讨论。\n\n回头看这一集,最有价值的提醒其实是:别只调你和智能体的协作方式,要调它怎么拿到反馈——把代码库修好路,让智能体直接用你的产品,给机器评审留出人工纠错回路,再用小原型驱动更快的学习。这才是 AI 时代真正的瓶颈。"
+}

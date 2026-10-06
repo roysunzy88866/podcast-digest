@@ -1,0 +1,88 @@
+{
+  "title_zh": "Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体",
+  "tldr": "Google DeepMind 开发者体验团队的 Ivan 介绍全新 Interactions API 与 Managed Agents：服务端状态管理、多模态统一调用、持久化沙箱与令牌安全代理如何让智能体开发大幅简化。",
+  "digest_md": "这一集是 Google DeepMind 开发者体验团队的 Ivan 的一场产品发布演讲，讲的是全新的 Interactions API 和 Managed Agents(托管智能体)——Google 希望用它们解决一个核心痛点：过去调用模型要面对一堆端点、嵌套极深的数据结构，连 Google 自己做第一方集成都被坑过，现在想用一个统一接口把文本、图像、音频、智能体全部打通。\n\n演讲开场先回顾了与模型交互方式的演进：最早是一次性对话(发消息、得回复)；模型变强后，为了让它们可靠地嵌进应用，发明了函数调用——模型按可预测的结构生成 JSON 对象，后端据此执行操作；而现在模型能推理、能长时间自主运行，智能体时代到来。Ivan 对智能体的定义很干脆：很多人把它简化成「一个在循环里运行的语言模型」，大多数情况下这是对的——模型越强，脚手架越少。比如最新的 Opus 模型或 Fable 模型，已经直接用一个 bash 工具，而不是像以前那样给它们配上编辑文件、读取文件等一堆专用工具。\n\n## Interactions API:一个调用，全模态统一\n\nInteractions API 要解决的是工作负载的巨变：通过 Gemini API,你既有轻量的图像模型(Nano Banana)、快模型(Gemini 3.5 Flash),也有会跑三分钟以上的 Deep Research 深度研究智能体——以前这些靠一堆不同的端点、嵌套很深的数据对象，消费起来非常困难。\n\n第一个核心设计是**服务端状态**。新的 Gemini 系列模型有一个叫 thought signatures 的机制：每次调用工具、给出响应，模型都会传回一串不透明的数字，必须原样传回去，否则性能会下降。以前开发者要手动管理这串东西，有初创公司仅仅因为误加了一个空白字符就丢失了整个缓存。现在 API 返回一个 interaction ID,你只要在下一轮的 previous interaction ID 参数里把它传回来，所有上下文——包括那些 thought signatures——自动保留。\n\n这不只是省事，它解锁了跨模态、跨模型的组合玩法。团队演示：先用一张照片生成你站在威尼斯的图像，拿到 interaction ID 塞回 client.interactions.create,换成周三刚发布的 Omni flash 模型，就能在同样的上下文和图像信息上直接生成视频——一个初始调用派生出多个 interaction,再汇成一段视频。整个流程就是两次 API 调用。\n\n数据结构也重新设计了。输出统一用强类型的 output.type 划分：是音频就解析音频，是图像就处理图像；想换模态，还是同一个 client.interactions.create 方法，只改响应模态和生成配置。工具使用上，以前不能混搭的内置工具现在可以组合：比如让智能体同时用 Google Search(与 Google 相同的网页索引)、URL context 工具(从指定网页抓取信息)和一个自定义工具，模型自主推理该查什么，一次 API 调用里全部完成——模型因此能超越训练截止日期，实时访问整个互联网。这一切背后是新的 steps 数据模型，取代原来的 outputs 数组，用类型判别符标清每一步模型输出了什么、调了哪些函数。\n\n## Managed Agents:开箱即得的持久化沙箱智能体\n\n第二个发布是把 anti-gravity(已统一用在 Google 全套产品里的智能体 harness,即包裹模型、给它工具和环境的执行框架)开放为远程托管智能体。过去你自己做一个编码智能体，要先调优 harness、再找沙箱提供商、自己管基础设施、还要想怎么在多次运行之间保留上下文。现在一次 API 调用，就得到一个持久化沙箱，可以反复访问。\n\n和 Interactions API 对应，这里也有第二个原语——**环境 ID**:只要保留它返回的环境 ID,调用就会被路由回原来的那个沙箱，你装过的包、创建过的文件，模型每一轮都能访问。两个 ID 加起来：interaction ID 保上下文不穿缓存，环境 ID 保沙箱状态，你完全不用管持久化，只需几行代码。\n\n这不是只能干轻活。演示里模型消耗超过 200 万 token,一次 API 调用分析完一个黑客松仓库——里面包含一门从零构建的自定义 DSL(领域专用语言)、一个网页、一大堆模式定义和一个跑在 HUD 里的强化学习训练循环。\n\n对个人开发者最实用的一点：云上跑的就是你 anti-gravity IDE 里那个智能体。你在本地调好的技能(skill)打包成一个文件夹，通过 sources 上传到 .agents 文件夹，本地和云端就是同一个 harness、同一套提示词、同样的技能。\n\n## 安全：中间人代理注入令牌\n\n企业最关心的问题——智能体泄露凭据怎么办——Google 的方案是一个中间人代理：智能体发出的每个出站调用都经过它，Google 查看请求头并按需替换内容。演示里是转换所有发往 GitHub API 的调用、动态注入令牌——模型即使被提示词注入(攻击者诱导模型泄露信息)也永远看不到令牌本身，它只是执行针对 GitHub API 的代码，令牌从不暴露。\n\n## 调优与上线\n\n智能体调好之后，有两种方式固化为「命名智能体」：一是用一组固定的配置文件和网络源冻结一个；二是与智能体迭代式聊天、把环境调到你满意，再把整个环境冻结成智能体。目前支持多达 1,000 个命名智能体，而且存储和沙箱都不收费，只按模型用量付费。\n\n周边配套：开源了一个 Gemini API CLI,本地测试模型，调好后自动打包上传、直接创建智能体;还发布了一个 Interactions API 迁移技能，喂给你的编码智能体就能自动完成迁移——Ivan 提到一个常见痛点：让 Gemini 写代码，它总在用 Gemini 2.5 Flash 或 2.0 这些旧版本，这个技能会保持模型列表和方法随时更新。\n\n## 本集带走\n\n- **两个 ID 管住全部状态**：interaction ID 保留对话上下文(不还 thought signatures 性能会掉)、环境 ID 路由回同一个持久化沙箱——自己不用写任何状态持久化代码。\n- **跨模态组合只需改参数**：同一个 client.interactions.create 方法，改响应模态就能从图像切到音频再到视频，interaction ID 一传，上下文跨模型复用。\n- **智能体安全靠代理注入凭据**：出站调用经中间人代理动态注入令牌，模型被提示词注入也拿不到 token。\n- **本地技能直接上云**：anti-gravity 本地调好的技能打包成文件夹上传，云端跑的就是同一个智能体；最多 1,000 个命名智能体免存储费。",
+  "quotes": [
+    {
+      "en": "If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away.",
+      "zh": "如果你有一个真正强大的模型，你会发现，随着模型越来越强大，很多脚手架已经消失了。",
+      "timestamp": "02:18",
+      "speaker": "Ivan Leo"
+    },
+    {
+      "en": "And so even if the model is somehow prompt injected and leaks your GitHub API token, it's never actually going to see the token.",
+      "zh": "因此，即使模型以某种方式被提示词注入并泄露了你的 GitHub API 令牌，它实际上也永远不会看到这个令牌。",
+      "timestamp": "14:10",
+      "speaker": "Ivan Leo"
+    },
+    {
+      "en": "You don't pay for the sandbox. You only pay for the model.",
+      "zh": "你不需要为沙箱付费。你只需要为模型付费。",
+      "timestamp": "15:17",
+      "speaker": "Ivan Leo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:11",
+      "speaker": "Ivan",
+      "en": "A lot of people have reduced this to just a language model running in a loop. And for most cases, this is true.",
+      "zh": "很多人把智能体简化成只是一个运行在循环中的语言模型。对大多数情况来说，这是对的。"
+    },
+    {
+      "timestamp": "02:18",
+      "speaker": "Ivan",
+      "en": "If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away.",
+      "zh": "如果你有一个真正强大的模型，你会发现，随着模型越来越强大，很多脚手架已经消失了。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Ivan",
+      "en": "Sometimes when we talk to different startups, we found that they would lose their cash just with a single white space that they mistakenly added in.",
+      "zh": "有时当我们与不同的初创公司交流时，我们发现他们仅仅因为误加了一个空白字符就会丢失缓存。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Ivan",
+      "en": "And this is really important with the new Gemini series of models because if you don't give us back those thought signatures, you're going to see a decrease in performance.",
+      "zh": "这对新的 Gemini 系列模型非常重要，因为如果你不把那些 thought signatures 还给我们，你会看到性能下降。"
+    },
+    {
+      "timestamp": "08:53",
+      "speaker": "Ivan",
+      "en": "This makes it very powerful, because now you have models that not only can work with information at the training cut of date, but beyond, because now they have access to the entirety of the internet.",
+      "zh": "这使它非常强大，因为现在你拥有的模型不仅能够基于训练截止日期的信息工作，还能超越它，因为现在它们可以访问整个互联网。"
+    },
+    {
+      "timestamp": "10:24",
+      "speaker": "Ivan",
+      "en": "But with the anti-gravity managed agent, you get a persistent sandbox out of the box.",
+      "zh": "但有了 anti-gravity 托管智能体，你可以开箱即得一个持久化沙箱。"
+    },
+    {
+      "timestamp": "14:10",
+      "speaker": "Ivan",
+      "en": "And so even if the model is somehow prompt injected and leaks your GitHub API token, it's never actually going to see the token.",
+      "zh": "因此，即使模型以某种方式被提示词注入并泄露了你的 GitHub API 令牌，它实际上也永远不会看到这个令牌。"
+    },
+    {
+      "timestamp": "15:09",
+      "speaker": "Ivan",
+      "en": "At this point, we support up to 1,000 named agents, which means that you can have all these different configurations.",
+      "zh": "到目前为止，我们支持多达 1,000 个命名智能体，这意味着你可以拥有所有这些不同的配置。"
+    },
+    {
+      "timestamp": "15:17",
+      "speaker": "Ivan",
+      "en": "You don't pay for the sandbox. You only pay for the model.",
+      "zh": "你不需要为沙箱付费。你只需要为模型付费。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Ivan",
+      "en": "I'm sure you guys have faced issues where you've asked Gemini to implement a specific kind of implementation, and it keeps using Gemini 2.5 Flash or Gemini 2.0.",
+      "zh": "我相信你们都遇到过这样的问题：你让 Gemini 实现某种特定的实现方式，但它一直在使用 Gemini 2.5 Flash 或 Gemini 2.0。"
+    }
+  ],
+  "voice_script": "今天要讲的是 Google DeepMind 的一场产品发布。主讲人是 DeepMind 开发者体验团队的 Ivan,发布的是两样新东西：一个叫 Interactions API,一个叫 Managed Agents,托管智能体。这一期要解决的问题特别实在：过去你要调用一个大模型，得面对一堆不同的接口、嵌套极深的数据结构，连 Google 自己做第一方集成的时候都被坑过。所以他们这次想干的事，就是用一个统一的接口，把文本、图像、音频、智能体全部打通。\n\n要理解这件事，得先看一下我们跟模型打交道的方式是怎么一路演变过来的。最早是一次性对话，你发一条消息，模型给你一个回复，完事。后来模型变强了，大家想让它们可靠地嵌进应用里，就发明了函数调用——模型按可预测的结构生成一个 JSON 对象，后端拿到这个结构去执行具体的操作。而到了现在，模型能推理、能长时间自主运行了，智能体时代就来了。\n\n说到智能体，Ivan 的定义很干脆。很多人把它简化成一句话：一个在循环里运行的语言模型。这个说法大多数情况下是对的。这里有个很关键的观察：模型越强，你需要在它外面搭的脚手架就越少。举个例子，最新的 Opus 模型，已经直接用一个 bash 工具就够了，而不是像以前那样，得给它配上编辑文件、读取文件一大堆专用工具。\n\n那 Interactions API 到底解决什么问题呢？问题是工作负载变了。你通过 Gemini API 能用到的东西，既有轻量的图像模型 Nano Banana,也有快的模型 Gemini 3.5 Flash,还有能一口气跑三分钟以上的深度研究智能体。以前这些靠一堆不同的端点和嵌套很深的数据对象来消费，非常困难。\n\n第一个核心设计是服务端状态。这里有个背景要交代：新的 Gemini 系列模型有一个叫 thought signatures 的机制，每次调用工具、给出响应，模型都会传回一串不透明的数字，你必须原样传回去，不然性能会下降。以前开发者要手动管理这串东西，麻烦到什么程度呢？有家初创公司仅仅因为误加了一个空白字符，就丢失了整个缓存。现在呢，API 返回一个 interaction ID,你只要在下一轮的参数里把这个 ID 传回来，所有上下文就自动保留了。\n\n这不只是省事，它解锁了跨模态、跨模型的组合玩法。现场有个演示：先用一张照片，生成一张你站在威尼斯的图像，拿到 interaction ID 之后塞回去，换成周三刚发布的 Omni flash 模型，就能在同样的上下文和图像信息上直接生成视频。一个初始调用派生出多个 interaction,最后汇成一段视频——整个流程就两次 API 调用。\n\n数据结构本身也重新设计了。输出统一用强类型来划分，是音频就解析音频，是图像就处理图像；想换模态，还是同一个方法，只改一下响应模态和生成配置就行。工具使用上也有变化，以前不能混搭的内置工具，现在可以组合了——比如让智能体同时用 Google 搜索、抓取指定网页信息的工具，再加上一个自定义工具，模型自己推理该查什么，一次调用里全部完成。这样模型就能超越训练截止日期，实时访问整个互联网。\n\n那管理状态的麻烦解决了，下一个问题来了：你要真做一个智能体， infrastructure 怎么办？这就是第二个发布，Managed Agents。过去你自己做一个编码智能体，要先调优执行框架、再找沙箱提供商、自己管基础设施，还得想办法在多次运行之间保留上下文。现在一次 API 调用，就得到一个持久化的沙箱，可以反复访问。\n\n跟刚才的 interaction ID 对应，这里有个第二个原语，叫环境 ID。只要保留它返回的环境 ID,调用就会被路由回原来那个沙箱——你装过的包、创建过的文件，模型每一轮都能访问。两个 ID 加起来，interaction ID 保证上下文不出错，环境 ID 保证沙箱状态还在，你完全不用管持久化，几行代码就够。\n\n而且这不是只能干轻活。演示里模型消耗了超过两百万 token,一次 API 调用就分析完了一个黑客松的仓库——那里面包含一门从零构建的自定义语言、一个网页、一大堆模式定义，还有一个强化学习训练循环。\n\n对个人开发者最实用的一点是：云上跑的，就是你在本地 anti-gravity IDE 里那个智能体。你在本地调好的技能，打包成一个文件夹上传上去，本地和云端就是同一个框架、同一套提示词、同样的技能。\n\n那智能体跑起来了，企业最关心的问题跟着就来了：凭据泄露怎么办？总不能把 GitHub 的令牌直接交给模型吧。Google 的方案是一个中间人代理：智能体发出的每个出站调用都经过它，代理查看请求头，按需替换内容。演示里就是把所有发往 GitHub API 的调用转换一遍，动态注入令牌。这样一来，模型即使被提示词注入——也就是攻击者诱导模型泄露信息——它也永远看不到令牌本身，它只是在执行针对 GitHub API 的代码，令牌从不暴露。\n\n最后说说调优和上线。智能体调好之后，有两种方式把它固化成命名智能体：一是用一组固定的配置冻结一个；二是跟智能体迭代式聊天，把环境调到你满意，再把整个环境冻结起来。目前支持多达一千个命名智能体，而且存储和沙箱都不收费，只按模型用量付费。配套还有个开源的命令行工具，本地测试完自动打包上传；另外还发布了一个迁移技能，喂给你的编码智能体就能自动完成迁移——因为很多人发现，让 Gemini 写代码，它老是用旧版本的模型，这个技能会保持模型列表随时更新。\n\n回到这场发布最核心的信息：两个 ID 管住全部状态，一个方法打通所有模态，令牌永远不给模型看。而 Ivan 那句话也许是最好的注脚——如果你有一个真正强大的模型，你会发现，随着模型越来越强大，很多脚手架已经消失了。"
+}

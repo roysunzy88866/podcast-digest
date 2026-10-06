@@ -1,0 +1,160 @@
+{
+  "title_zh": "别指望 AI 一次做对：离心机工作法",
+  "tldr": "首席工程师 Lada Kesseler 分享她与编码智能体协作的实战方法：基本规则、TDD skill、离心机精炼循环，以及对「软件工厂」的清醒判断。",
+  "digest_md": "这一集聊的是：当你几乎把所有工作都交给 AI 之后，怎么把产出质量真正打磨上去。主角是 Logic 2020 的首席工程师 Lada Kesseler——她在一家遍布全美的外包合同公司工作，日常几乎全部用 AI 完成代码、笔记甚至写作。她抛出的第一个反直觉观点是：**无论 AI 产出什么，「第一次就应该很好」这个预期从来都不成立**——真正的问题不是 AI 不行，而是人们带着错误的预期在用它。\n\n## AI 的默认设置是取悦你，先改掉\n\nLada 把 AI 看成一个黑箱：你不知道它内部的心智模型是什么，而且它**是故意被训练来取悦你的**。所以她的对策是在用户级的 Claude MD(即给 Claude 的全局基本规则文件)里写下第一条大规则：「跟我说真话，别骗我，别试图取悦我」——**你几乎必须明确给它许可去反驳你**。效果显著：她开始这么写之后，明显感觉它「对我没那么友好了」，但换来的诚实判断价值大得多(烦人的是，最新的模型如今还会先声明「老实说」，让她哭笑不得)[06:41 Lada Kesseler]。\n\n但基本规则文件不能贪多。她的 Claude MD 只有 72 行，每一行她都清楚为什么在那里——**因为上下文内存是稀缺资源**，把 TDD 流程、全部最佳实践一股脑塞进去，实践中根本行不通。她分两层用：全局基本规则是「契约」，干活时再用斜杠命令/skill 即时强化，第二层在上下文变大时尤其重要。\n\n## 一次只让它做一件事：TDD 要做成 skill,不是一行字\n\n很多人抱怨「TDD 和 AI 不兼容」——但 Lada 一问就发现，他们只是对 AI 说了一句「请做 TDD」,当然不行。**这个东西一次只擅长做一件事**，你不能指望一句「做这个任务，同时遵守我的所有标准」就能强制执行标准。她的 TDD skill 是这么来的：先亲自一步步盯着 AI 做完一个完整的 TDD session,然后让它把整个过程记录成流程，之后每次「清空 session,开始 TDD」,她只盯着出错的地方纠正。\n\nTDD skill 能自动生效，靠的是 skill 文件顶部那段 front matter(写给智能体自己看的元信息)——智能体靠它判断什么时候该调用这个 skill,而不是像旧的 MCP 那样把全部指令堆进上下文搞乱一切。**大多数开发者把 description 当成写给人看的，随手写得太泛，结果多个 skill 描述重叠，智能体就完全没机会选对**[12:12 SPEAKER_04]。为此她还专门建了一个「skill 工厂」，反复迭代 front matter 直到比 Anthropic 默认模板好得多。\n\n同样的道理，她不做「一次全面代码审查」，而是用确定性触发器：检测到长方法、死代码等代码异味就触发一次只做一件事的修复(接智能体、linter 或格式化工具都行)。这与主持人提到的 verifier 思路完全一致——每个验证器只查一件事、确定性触发、跑得很短，合起来的结果好得多也快得多。\n\n## 离心机：把 AI 转得飞快，甩出愚蠢\n\nLada 的核心工作流她称为「精炼循环」，写作用时叫「离心机」：给它目标 → **只让它走一步** → 提交或写进文件 → 让它读回来，对照目标问「够好了吗」→ 再写回。写文章时她用「去冥想」指令让 AI 把第一轮迭代写进文件，这样循环大概七轮，愚蠢的东西就被甩出去了。经过约五轮，结果「听起来比我自己写得更像我」。她说得很直白：写作最终结果好得多，而且里面有太多她自己的工作——引导、否定、指方向，这才是价值的来源[13:10 Lada Kesseler]。\n\n## 你是决策者：反向引导与把 AI 当视觉工具\n\n很多人被 AI 的对话节奏牵着走——它问十个问题，就逐条回答十个。Lada 的建议是**反向引导**：你才是决策者，不必顺从它的路径；不喜欢就一次否定一批，别一条条陪它磨。\n\n更被低估的用法是**把 AI 当视觉工具**。她引用 Craft 大会上演讲者的观点：抱怨比解释你想要什么容易得多——看到东西你才知道自己不要什么。她把选择想象成站在有很多条路的十字路口，**AI 可以零成本让所有备选路径变得可见**：让它自己做选择并用表情符号标出，同时展示所有未被选择的路径及理由，你一眼扫过就能说「不，这个才对，因为……」,顺便拓宽了自己原本看不见的视野[29:33 Lada Kesseler]。她还给高频决策设默认值——默认技术栈是什么，写进规则，不再每次重新决定。\n\n## 测试是信任的锚：TDD 管 agent,BDD 管系统\n\n审查过载怎么办？Lada 的答案是别靠逐行读，靠测试回答一个关键问题：**我的系统到底能不能用？**她有两层测试：\n\n- **TDD 测试**：主要给智能体用，是对现实的交叉校验，不让它偏离现实太远。她对 AI 写测试的信任甚至低于写代码——因为它会「在网上作弊，凑出像犯罪现场一样的测试」。\n- **BDD 测试**(验收级、高层)：写成小白板式的领域语言，极其易于扫读——做 API 就是「这是我的 API,发生了这个，返回了那个」。她用 approval tests(审批测试：先把系统当前输出批准为黄金标准，之后在固定行为的前提下放心重构内部)实现，并且**确保这些高层测试是智能体不能轻易改的**，内部代码则随便它改[33:08 Lada Kesseler]。\n\n## 软件工厂：先造出你能信任的构建块\n\n对「软件工厂」(用智能体流水线式地产出软件)的热潮，Lada 既好奇又警惕。她不喜欢现在流行的「一次性 AI」式做法——智能体生成智能体、skill 生成 skill——因为她看到的是**退化得极其严重的垃圾输出**。她用自己的常量问题测试各种方案，Claude Flow 在她的对比里表现最差。她的逻辑很朴素：**如果你依赖的构建模块并没有做你以为它在做的事，凭什么认为整个系统能运作？**[36:32 Lada Kesseler] 所以她的路线是先造可信任的单个构建块——她现在已经有一个「指哪打哪」的重构流程，正在攻克「可靠地提取知识存进文件」这下一个块，再考虑组装成自动化。Dax 的演讲(试了半年工厂、承认行不通)反而是她最想听的：真正试过的人才有真经验。\n\n至于 AI 为什么不能自己做架构：单一任务范围内它可以不错，但架构是**复杂性管理 + 保持心智模型**的问题——它装不下所有东西，必须在不同架构层面跑多个迭代循环，而「现在我不知道是谁在保持这个心智模型，所以某种程度上只能是我」[25:44 Lada Kesseler]。她说自己正在造一个「建造其他系统的系统」，这可能是可企及的目标，但有几个问题现在还没解决。\n\n## 工具与下一步\n\n工具上她很决绝：曾因 IntelliJ 无与伦比的重构工具而纠结于在 IDE 和 Windsurf 的 Agent 间来回切换，去年 5 月 Claude Code 真正可用后立刻全面转到终端，IDE 现在只是文本编辑器。距离远近取决于风险等级——她现在偏 greenfield(绿地项目)，不需要贴着代码；若在遗留系统里，她会先把测试套件自动化做到极致，把「怎么做出又快又好的测试」教给智能体，再往高层走。\n\n接下来她想研究的：一是把「精炼循环」做得更好，二是 Martin Dilger 的事件建模加事件溯源(不折叠状态、每件事都有事件，行为切成完全隔离的切片再生成代码——重复代码很多但因为从不重叠所以无所谓，聚合视图很多，她对此有顾虑但打算亲试)。\n\n## 本集带走\n\n- **给 AI「许可去反驳」**：默认它被训练来取悦你，在全局规则里明写「说真话、别讨好我」，并接受它变得不那么「友好」的代价。\n- **规则文件当菜单，别当仓库**：上下文内存有限(她的 Claude MD 只 72 行)，全局放契约级规则，流程细节做成 skill,靠写好的 description 让智能体在对的时机自动调用。\n- **一次只让它做一件事**：「做这个任务 + 同时遵守我全部标准」必败；改成 TDD skill、单点 verifier、确定性触发的代码异味修复器。\n- **离心机循环**：目标 → 一步 → 落盘 → 读回对照 → 再来，几轮之后质量远超「指望一次成型」。\n- **让它先把东西摆出来**：看到备选方案(含它自己选了什么、为什么)比凭空描述需求容易得多，抱怨比解释容易。\n- **用测试锚定信任**：TDD 测试管智能体别跑偏，BDD 级审批测试(智能体改不了)回答「系统到底能不能用」，审查压力随之消解。\n- **别急着上软件工厂**：先造出一个个你能信任、敢走开的构建块，工厂才有地基。",
+  "quotes": [
+    {
+      "en": "Whatever AI produces should be good for the first try and never never the case.",
+      "zh": "无论 AI 产出什么，第一次就应该很好——但从来、从来都不是这样。",
+      "timestamp": "00:00",
+      "speaker": "Lada Kesseler"
+    },
+    {
+      "en": "You have to almost give it permission to disagree and fight that in your rules.",
+      "zh": "你几乎必须给它许可去反驳，并在你的规则里对抗那种取悦倾向。",
+      "timestamp": "00:07",
+      "speaker": "Lada Kesseler"
+    },
+    {
+      "en": "And after like five loops of that, I'm at a place where it actually sounds much more like me than I would have done other myself, I think.",
+      "zh": "经过大概五轮这样的循环，我就到了一个它听起来其实比我自己写得更像我自己的地步。",
+      "timestamp": "15:47",
+      "speaker": "Lada Kesseler"
+    },
+    {
+      "en": "Right now they're invisible to me, but AI can make them visible to me at zero cost.",
+      "zh": "现在这些路对我是不可见的，但 AI 可以零成本地让它们对我可见。",
+      "timestamp": "29:42",
+      "speaker": "Lada Kesseler"
+    },
+    {
+      "en": "So absolutely get AI to spin all the stupid out and then do human and and make sure that the AI positions it in a way that's easy for human to follow because it's not easy right now.",
+      "zh": "所以完全可以让 AI 先把所有愚蠢的部分甩出来，然后再做人工审查，并且确保 AI 把东西呈现得让人类容易跟上，因为现在这并不容易。",
+      "timestamp": "31:48",
+      "speaker": "Lada Kesseler"
+    },
+    {
+      "en": "Because like when you have AI write tests, a big danger, like I trust my AI with my tests even less than I trust it with my code.",
+      "zh": "因为当你让 AI 写测试时，一个很大的危险是——我对 AI 写测试的信任甚至低于我对它写代码的信任。",
+      "timestamp": "32:46",
+      "speaker": "Lada Kesseler"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Lada Kesseler",
+      "en": "Whatever AI produces should be good for the first try and never never the case.",
+      "zh": "无论 AI 产出什么，第一次就应该很好——但从来、从来都不是这样。"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Lada Kesseler",
+      "en": "This thing is only good at doing one thing at a time.",
+      "zh": "这个东西只擅长一次做一件事。"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Lada Kesseler",
+      "en": "You have to almost give it permission to disagree and fight that in your rules.",
+      "zh": "你几乎必须给它许可去反驳，并在你的规则里对抗那种取悦倾向。"
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Lada Kesseler",
+      "en": "I call it like a centrifuge.",
+      "zh": "我把它叫做离心机。"
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Lada Kesseler",
+      "en": "It's a bit because the idea is like you spin an eye so fast and stupid comes out.",
+      "zh": "有点是因为，这个想法就像你把 AI 转得飞快，然后愚蠢的东西就被甩出来了。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Lada Kesseler",
+      "en": "Basically, I think about it as like AI comes with defaults that are not very helpful.",
+      "zh": "基本上，我是这么想的：AI 自带一些默认设置，而这些默认设置不太有用。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Lada Kesseler",
+      "en": "And it's also like trained on purpose to please you, right?",
+      "zh": "而且它也是故意被训练来取悦你的，对吧？"
+    },
+    {
+      "timestamp": "10:24",
+      "speaker": "Lada Kesseler",
+      "en": "Uh so thing like so many people are saying, oh, TDD doesn't work with AI.",
+      "zh": "很多人都在说，哦，TDD 跟 AI 不兼容。"
+    },
+    {
+      "timestamp": "15:56",
+      "speaker": "Lada Kesseler",
+      "en": "And after like five loops of that, I'm at a place where it actually sounds much more like me than I would have done other myself, I think.",
+      "zh": "经过大概五轮这样的循环，我就到了一个它听起来其实比我自己写得更像我自己的地步。"
+    },
+    {
+      "timestamp": "17:43",
+      "speaker": "Lada Kesseler",
+      "en": "And I think that's so wrong.",
+      "zh": "而我觉得这错得太离谱了。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Lada Kesseler",
+      "en": "So you can't expect to just enforce your standards like this way.",
+      "zh": "所以你不能指望就这样直接强制执行你的标准。"
+    },
+    {
+      "timestamp": "18:44",
+      "speaker": "Lada Kesseler",
+      "en": "But you don't do it in one go, you do it in many goes.",
+      "zh": "但你不是一口气做完，你是很多口气做完的。"
+    },
+    {
+      "timestamp": "25:06",
+      "speaker": "Lada Kesseler",
+      "en": "We live in the universe where entropy is a thing.",
+      "zh": "我们生活的宇宙里，熵是真实存在的。"
+    },
+    {
+      "timestamp": "29:47",
+      "speaker": "Lada Kesseler",
+      "en": "Right now they're invisible to me, but AI can make them visible to me at zero cost.",
+      "zh": "现在这些路对我是不可见的，但 AI 可以零成本地让它们对我可见。"
+    },
+    {
+      "timestamp": "31:48",
+      "speaker": "Lada Kesseler",
+      "en": "So absolutely get AI to spin all the stupid out and then do human and and make sure that the AI positions it in a way that's easy for human to follow because it's not easy right now.",
+      "zh": "所以完全可以让 AI 先把所有愚蠢的部分甩出来，然后再做人工审查，并且确保 AI 把东西呈现得让人类容易跟上，因为现在这并不容易。"
+    },
+    {
+      "timestamp": "32:41",
+      "speaker": "Lada Kesseler",
+      "en": "Because like when you have AI write tests, a big danger, like I trust my AI with my tests even less than I trust it with my code.",
+      "zh": "因为当你让 AI 写测试时，一个很大的危险是——我对 AI 写测试的信任甚至低于我对它写代码的信任。"
+    },
+    {
+      "timestamp": "36:32",
+      "speaker": "Lada Kesseler",
+      "en": "And the Clot Flow, in my experience, did the worst job of them all.",
+      "zh": "而以我的经验，Claude Flow 是其中做得最差的。"
+    },
+    {
+      "timestamp": "36:40",
+      "speaker": "Lada Kesseler",
+      "en": "But um, but so so I see the problem of like if you if you have the building blocks that you're relying on that are not actually doing the thing you think they should be doing, why why do you think the whole system works?",
+      "zh": "所以我看到了这样一个问题：如果你所依赖的构建模块实际上并没有做你认为它们应该做的事，你为什么认为整个系统是能运作的？"
+    },
+    {
+      "timestamp": "25:44",
+      "speaker": "Lada Kesseler",
+      "en": "Um, so it's it's a problem of complexity management, I think, quite a lot, and also like holding this mental model.",
+      "zh": "所以我认为这在很大程度上是一个复杂性管理的问题，还有保持这个心智模型的问题。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的这个人，叫 Lada Kesseler,是一家叫 Logic 2020 的公司的首席工程师。这家公司做外包合同生意，客户遍布全美。她特别值得听的一点是：她日常的代码、笔记、甚至写作，几乎全部是跟 AI 一起完成的。也就是说，她把 AI 用到了非常深的程度。今天这期讲的就是她这几年磨出来的一套实战方法——当你几乎把所有工作都交给 AI 之后，怎么把产出质量真正打磨上去。\n\n先说一个特别反直觉的观点。她说，很多人用 AI 用得痛苦，根子在一个错误的预期上：总觉得 AI 产出的东西，第一次就应该很好。但现实是，从来、从来都不是这样。真正的问题不是 AI 不行，而是人们带着错误的预期在用它。接受这一点之后，整个用法的思路就不一样了——不是指望它一次做对，而是设计一套流程，让它快速迭代到能用。\n\n那具体怎么动手？她说的第一件事，可能让你有点意外：AI 的默认设置，是取悦你。你不知道这个黑箱内部在想什么，但它确实是故意被训练来顺着你的。所以她的对策，是在给 Claude 的全局规则文件，也就是所谓的 Claude MD 里，写下第一条大规则：跟我说真话，别骗我，别试图取悦我。说白了，你必须明确给它许可去反驳你。效果立竿见影——她明显感觉 AI 对她没那么友好了，但换来的诚实判断，价值大得多。她还哭笑不得地提到，最新的模型现在甚至会先声明一句「老实说」再开口。\n\n不过这个规则文件有个大坑：贪多。她的 Claude MD 一共只有 72 行，每一行她都清楚为什么要在那里。原因很简单，上下文内存是稀缺资源，把测试流程、全部最佳实践一股脑塞进去，实践中根本行不通。她的分法是两层：全局规则文件只放契约级的东西，具体的干活流程做成另一种东西，叫 skill。skill 你可以理解为一条随时能调用的斜杠命令，在干活的时候即时强化规则。上下文越长，这第二层就越重要。\n\n说到 skill,她举了个最典型的例子，就是测试驱动开发，简称 TDD。很多人抱怨 TDD 和 AI 不兼容，她一问就发现，那些人只是对 AI 说了一句「请做 TDD」,当然不行。因为这个东西一次只擅长做一件事，你不能指望一句「做这个任务，同时遵守我全部标准」就能让标准被执行。她的做法是：先亲自盯着 AI 一步步做完一个完整的 TDD 流程，然后让它把整个过程记录下来，变成一个流程文件。以后每次开新任务，就说「清空，开始 TDD」,她只盯着出错的地方纠正。\n\n那这个 skill 怎么做到在合适的时机自动生效呢？靠的是文件顶部那段写给智能体自己看的元信息。智能体靠这段描述判断什么时候该调用这个 skill。这里有个大多数开发者都会犯的错：把那段描述当成写给人看的，随手写得太泛，结果好几个 skill 的描述互相重叠，智能体就完全没机会选对。为此她专门建了一个「skill 工厂」，反复打磨那段描述，直到比 Anthropic 的默认模板好得多。同样的思路也用在代码审查上——她不做一次性的全面审查，而是设确定性触发器：检测到长方法、死代码这类代码异味，就触发一次只做一件事的修复。每个验证器只查一件事，合起来又快又好。\n\n这套「一次一件事」的逻辑，最终汇成她的核心工作流，她管它叫精炼循环，写文章的时候叫「离心机」。流程是：给 AI 一个目标，只让它走一步，然后把结果提交或写进文件，再让它读回来，对照目标问一句「够好了吗」，然后接着来。写文章的时候，她大概转七轮，愚蠢的东西就被甩出去了。她的原话是，经过大概五轮这样的循环，就到了一个地步——AI 写出来的东西，听起来比她自己写得更像她自己。她特别强调，最终结果好，是因为里面有太多她自己的工作：引导、否定、指方向。这才是价值的来源。\n\n顺着这个思路，还有一个她的心法：你是决策者，别被 AI 的对话节奏牵着走。它问十个问题，很多人就老老实实逐条回答十个。她的建议是反向引导——不喜欢就一次否定一批，别一条条陪它磨。还有一个被严重低估的用法，是把 AI 当视觉工具。有人在大会上讲过一个观点：抱怨，比解释你想要什么容易得多，因为看到东西你才知道自己不要什么。她把这个用到了极致：把选择想象成站在有很多条路的十字路口，这些路现在对她是不可见的，但 AI 可以零成本让它们全部可见——让它自己做选择并标出来，同时展示所有没被选的路径和理由，你一眼扫过去就能说，不对，才应该是那个，因为什么什么。\n\n那 AI 产出这么多东西，人怎么审查得过来？她的答案是：别靠逐行读，靠测试。用测试回答一个关键问题——我的系统到底能不能用。她有两层测试。第一层是 TDD 测试，主要给智能体自己用，相当于对现实的交叉校验，不让它跑偏太远。这里她有句话说得特别狠：她对 AI 写测试的信任，甚至低于对它写代码的信任，因为它会在网上作弊，凑出像犯罪现场一样的测试。第二层是更高级别的验收测试，用大白话描述这个系统该有什么行为。她用审批测试来实现——先把系统当前的输出批准为黄金标准，之后只要外部行为不变，内部代码随便 AI 改。关键是，她确保这层测试是智能体不能轻易碰的。\n\n最后聊聊一个更大的话题：软件工厂，就是用智能体流水线式地产出软件。现在这个概念很热，Lada 既好奇又警惕。她不喜欢现在流行的做法——智能体生成智能体，skill 生成 skill——因为她看到的是退化得极其严重的垃圾输出。她的逻辑很朴素：如果你依赖的构建模块，并没有做你以为它在做的事，凭什么认为整个系统能运作？所以她的路线是反过来的：先造出一个个你能信任、敢走开的单个构建块，再去考虑组装自动化。至于 AI 为什么不能自己做架构，她解释说，单一任务范围内它可以不错，但架构是复杂性管理加上保持心智模型的问题，它装不下所有东西。用她的话说，现在她不知道是谁在保持这个心智模型，所以某种程度上，只能是她。\n\n总结一下，这一集的核心其实就一句话：别指望 AI 一次做对——先给它许可去反驳你，一次只让它做一件事，然后用离心机式的循环，把所有愚蠢的部分快速甩出去，最后由你来当那个保持心智模型的决策者。"
+}

@@ -1,0 +1,160 @@
+{
+  "title_zh": "被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它",
+  "tldr": "N8N 创始人兼 CEO Jan Oberhauser 回应「N8N 已死」论，展示可靠性、可审计性如何让它在智能体时代继续 10 倍增长。",
+  "digest_md": "工作流自动化工具 N8N(一种可视化编排平台，能把 LLM、数据源和各种工具连起来跑自动化)在 2025 年是最火的 AI 工具，但最近一条爆火推文问：「还记得 N8N 吗？很快就无关紧要了吧？」这一集请来了 N8N 的 CEO 兼创始人 Jan Oberhauser 回应。他的第一反应是：「我们大概已经被宣布死亡一千次了，这些年杀死我们的一半东西我都记不清了。我们还在这里。」[02:53 Jan Oberhauser]\n\n## N8N 和 Claude Code 根本不是竞品\n\nJan 的核心主张：Claude Code 是通用工具，在终端里跑模型；N8N 是编排层——连接你的工具、LLM 和数据源，提供可视化画布让系统可靠、安全地运行。对业务关键场景尤其重要：在那里你要 100% 确定系统在干什么，不能接受「95% 的时候能正常工作」。「如果你用 Claude Code,它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。」[04:37 Jan Oberhauser]\n\n他看到很多人两者一起用：先用 Claude Code 快速做原型，再迁移到 N8N,原因正是可审计性和自托管能力(数据不出自己基础设施)。他还透露，**有多家模型公司自己也在用 N8N**,包括用于安全和合规场景。\n\n数据上确实不像「已死」：20 万 GitHub 星标、150 万活跃用户、超过 1,200 家企业客户(用的是企业级方案)、300 名社区大使、全世界每天有一场 N8N 社区活动、收入一年涨 10 倍、52 亿美元估值(今年 5 月 SAP 战略投资，SAP 还把 N8N 内置进自家产品，让客户开箱即用地在里面搭智能体自动化，客户还包括梅赛德斯)。\n\n## 现场演示：三个词到底什么意思\n\n主持人要求把「可靠性、可审计性」这些抽象词落到实处，Jan 直接开了产品演示——一个对接 Gmail 和 Google Calendar 的邮件助手：\n\n- **可靠性**：默认用 Claude Sonnet(通过 N8N 自己的网关调用，不用单独注册)，还配了备用模型以防供应商宕机；所有工具节点(收邮件、发邮件)的代码由 N8N 统一编写、测试、维护，API 变了改一次代码全员生效，而不是全世界每个人自己重新实现一遍、各漏各的边界情况。\n- **人工在环(human in the loop)**:「发邮件」这类动作被设成必须事先获得批准才执行。演示里智能体说：「我即将创建一个日历事件，我真的被允许这么做吗？」用户点了「添加事件」它才执行。[18:50 Jan Oberhauser]\n- **可审计性**：每一步执行都能点开看——什么信息发进去、什么信息出来、为什么走这条路。Jan 的对比很尖锐：「用代码，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。」[26:07 Jan Oberhauser] 出错可以调试后从任意数据点重跑工作流的一半。\n- **可交接**：工作流可以邀请队友协作、有版本历史(类似 Git 的发布说明)、可导出、可设审核步骤(改完需批准才能发布)。「即使你不是技术出身，也能走进来看懂：这里有个智能体、系统提示词是什么、用的什么模型。」[21:51 Jan Oberhauser]\n\n构建方式也和 Claude Code 类似：描述想要什么，AI 助手会问澄清问题(用哪个模型等)、思考约八分钟，然后生成完整工作流；你说「扩展一下，支持安排 30 分钟一对一、带 Google 链接、议程写进描述、从 Google 通讯录取联系人」，它几分钟后追加好节点并自动测试运行。\n\n## 独特用例与「AI + 确定性逻辑 + 人工在环」公式\n\n什么场景非 N8N 不可？可靠性安全性越重要越出彩：安全编排(带附件邮件自动扫描、归档、告警)、员工入离职流程(「你不想要只入职了一半的员工，也不想要离职完成度连一半都不到的员工」)、DevOps、监控(SSL 证书到期自动在 Discord/Notion 告警，先 100% 保证通知发生，AI 自动修复放后面)。\n\n他反复强调的公式：**AI + 确定性逻辑 + 人工在环**。「AI 很了不起，但不是解决一切问题的方案。确定性逻辑更便宜、更快、100% 可靠；某些用例你始终要确保有人留在回路里。」[14:12 Jan Oberhauser]\n\n给新手的建议：别追求最疯狂的用例，从「你每天都在做、在多个应用间复制粘贴、感觉在浪费时间」的事开始。有家公司只用 N8N 做员工密码重置，一年省下的时间相当于好几个全职员工。平台上还有一万多个现成模板(按工具、按销售/营销/IT 运维等角色筛选)可以直接填凭证使用。\n\n## Zapier、增长哲学与「撒 AI」vs「AI 为核心」\n\n对 Zapier(CEO Wade Foster 紧接着上期节目)：Jan 很客气，但指出 N8N 从第一天就专注强大与灵活——代码节点随时可回退到代码、可自定义记忆、外置护栏、多模型与备用模型——用例一复杂就拉开差距；自托管更是 Zapier 的 SaaS 方案给不了的。\n\n「撒一点 AI」vs「AI 为核心」是他最清晰的判断：「撒 AI 就是有人告诉你加 AI,你就在某处加个 AI 按钮。我们想的是怎么成为价值链的一部分——不只是往产品里加 AI,而是确保人们真正在它里面构建智能体。」[42:33 Jan Oberhauser] 结果就是去年 10 倍增长；如今 N8N 上 80% 的工作流用了 AI 智能体，主要是老用户在采用——他们是爱折腾的尝鲜者。\n\n增长打法也反常规：取消了销售线索目标、拒绝按席位定价，连自托管免费用户都不转化——「我们在意的只是他们在使用 N8N」。公司现在约 370 人，年底约 500 人，内部目标是「用不到一千名员工达到十亿用户」。他说这是可持续、目前已在盈利才能这么想：「大多数 AI 公司 ARPU 增长很强，但同时亏很多钱，被迫想得非常短期。」病毒式传播也不是买来的：「我们去年变得有病毒式传播，是因为人们对它感到兴奋、从中获得价值，他们想要分享它。」社区是慢功夫但一旦转起来，大部分企业用户都来自社区里的人先私下用、再带进大组织——有的公司内部 N8N 社区超过一千人。\n\n## 370 人的公司怎么做产品、招什么 PM\n\n组织按小队(squad)划分：三到五名工程师、一到两名 PM、一名设计师，汇报线短、开销小。第一位产品负责人是 2021 年 4 月(A 轮同期)招的，Jan 起初贴得极近——「我甚至仍然亲自合并每一个 PR」——后来逐渐抽离，但发现设计团队某些决定偏离方向后意识到「我可能离产品太远了」，于是保留至今的每周设计例会，看他们在探索什么、尽早给反馈。\n\nPM 该跟 CEO 谈什么？方向和探索——很早就能纠正、不浪费时间；别谈「按钮放这里还是那里」。至于 PM 要多懂技术：「越懂技术越好」，连设计师都被要求会用 Claude Code 做函数 demo;他们在找「正在崛起的新星」和真正爱动手的建设者——家里跑家庭自动化的人。evals(评测，系统化测试 AI 输出质量的机制)由专门的「AI Trust Team」负责，还做了内部产品；他认为 evals 被谈论得多、实际用得少，因为「创建起来不太好玩、非常难创建」，这领域还有很大机会。面试时区分「背网上的话」的人和真懂的人，靠问内部真踩过的坑 + 实时协作解题；带回家的任务在 AI 时代已不可信。人才密度是硬要求——「十亿用户不到一千人，你只能要最好的人；不合适就让双方体面地分开」。\n\n## 本集带走\n\n- **AI 编码工具和编排平台是互补不是替代**：快速原型用 Claude Code,业务关键、要可审计、要自托管的用例迁移到 N8N——多家模型公司自己都这么用。\n- **可靠 production AI 的公式 = AI + 确定性逻辑 + 人工在环**：确定性逻辑便宜、快、100% 可靠；发邮件、写库这类动作设置审批节点；监控场景先保证通知 100% 发生，AI 自动修复放后面。\n- **可视化画布的价值在审计**：每步的输入输出、每条路径的决策原因都可检查，出错可从任意数据点重跑——这是「一万行没人检查的生成代码」给不了的。\n- **「撒 AI」加个按钮只带来 10-30% 增长，把 AI 做成价值链核心(让人在你的产品里构建智能体)才有 10 倍**——N8N 的亲身数据。\n- **从小用例起步**：不是最疯狂的用例最有影响力，密码重置这种小事一年能省出好几个全职员工；先用起来再展示给同事，想法会在组织里传染。\n- **可持续盈利才能长期主义**：砍销售线索指标、不追按席位定价、不转化免费用户，只盯采用量——因为不用靠下一轮融资活着。\n- **AI 时代的 PM 要更技术**：能懂架构权衡、能自己用 Claude Code 做 demo、能深入 evals;面试造假靠「内部踩过的坑 + 实时协作解题」来识破。",
+  "quotes": [
+    {
+      "en": "I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years. We're still here.",
+      "zh": "我想我们大概已经被宣布死亡一千次了，这些年里杀死我们的一半东西我都记不清了。我们还在这里。",
+      "timestamp": "02:53",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "it generates literally 10,000 lines of code that nobody can inspect and nobody knows if it's actually doing the right thing.",
+      "zh": "它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。",
+      "timestamp": "04:37",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "Again, with code, you see the input and you see the output of the whole thing. But what really happened in there, you have no idea.",
+      "zh": "用代码的话，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。",
+      "timestamp": "26:07",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "because you don't want to have half on boarded employees or you don't want to have even less than half off boarded employees either.",
+      "zh": "因为你不想要只入职了一半的员工，或者你也不想要离职完成度连一半都不到的员工。",
+      "timestamp": "29:17",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "but literally like last year we grew literally 10X exactly for that reason because we were part of the value chain and we kind of empowered people and we kind of provided real value for them.",
+      "zh": "但实际上，去年我们确实增长了整整 10 倍，正是出于那个原因：因为我们是价值链的一部分，我们赋能了人们，为他们提供了真正的价值。",
+      "timestamp": "43:17",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "like we became not viral because we paid people to talk about us. We became viral last year because we had people being excited about it and then getting a lot of value out of it.",
+      "zh": "我们变得有病毒式传播，不是因为付钱让人谈论我们；我们去年变得有病毒式传播，是因为人们对它感到兴奋，然后从中获得了很大的价值。",
+      "timestamp": "51:31",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "we realized that as long as people As long as the buying side is not done by AI, we cannot do the selling side by AI either. It's still a people game.",
+      "zh": "我们意识到，只要购买方还没由 AI 完成，我们也就无法让销售方由 AI 完成。这仍然是人的游戏。",
+      "timestamp": "49:34",
+      "speaker": "Jan Oberhauser"
+    },
+    {
+      "en": "that obviously makes very clear that talent density is really important. If you have only a thousand people at a certain scale, you can only have the best ones.",
+      "zh": "这显然非常清楚地表明人才密度真的很重要。如果在一定的规模下你只有一千人，你只能要最好的人。",
+      "timestamp": "66:41",
+      "speaker": "Jan Oberhauser"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:53",
+      "speaker": "Jan Oberhauser",
+      "en": "I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years. We're still here.",
+      "zh": "我想我们大概已经被宣布死亡一千次了，这些年里杀死我们的一半东西我都记不清了。我们还在这里。"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Jan Oberhauser",
+      "en": "it generates literally 10,000 lines of code that nobody can inspect and nobody knows if it's actually doing the right thing.",
+      "zh": "它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Jan Oberhauser",
+      "en": "Where you cannot just rely on it's working 95% of the time, It has to be 100% sure that it really works.",
+      "zh": "在这些场景里，你不能只接受它 95% 的时候能正常工作，而必须百分之百确定它真的能工作。"
+    },
+    {
+      "timestamp": "22:14",
+      "speaker": "Jan Oberhauser",
+      "en": "all the things that are simply totally impossible in code because, again, it's just too much output or, again, if it's done 100% by AI, It's a black box.",
+      "zh": "所有这些在代码里完全不可能实现的事情，因为输出实在太多了；而如果它 100% 由 AI 完成，那就是一个黑箱。"
+    },
+    {
+      "timestamp": "22:21",
+      "speaker": "Jan Oberhauser",
+      "en": "but you have no reliability that the thing that worked yesterday is still going to be working tomorrow as well.",
+      "zh": "但你无法保证昨天有效的东西明天也仍然有效。"
+    },
+    {
+      "timestamp": "26:07",
+      "speaker": "Jan Oberhauser",
+      "en": "Again, with code, you see the input and you see the output of the whole thing. But what really happened in there, you have no idea.",
+      "zh": "用代码的话，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Jan Oberhauser",
+      "en": "it's much cheaper to use, so simply if it's much faster and it's 100% reliable. And then you still need human in the loop.",
+      "zh": "确定性逻辑用起来便宜得多，更快，而且 100% 可靠。然后你仍然需要人工在环。"
+    },
+    {
+      "timestamp": "29:17",
+      "speaker": "Jan Oberhauser",
+      "en": "because you don't want to have half on boarded employees or you don't want to have even less than half off boarded employees either.",
+      "zh": "因为你不想要只入职了一半的员工，或者你也不想要离职完成度连一半都不到的员工。"
+    },
+    {
+      "timestamp": "34:38",
+      "speaker": "Jan Oberhauser",
+      "en": "So I think it's not about the craziest one, it's really the one, hey, where can I get started easily?",
+      "zh": "所以我认为重点不在于最疯狂的那个用例，而是那个——嘿，我在哪里可以轻松上手？"
+    },
+    {
+      "timestamp": "42:27",
+      "speaker": "Jan Oberhauser",
+      "en": "hey, here and add this AI button somewhere, it does something with AI.",
+      "zh": "嘿，在这里加个 AI 按钮什么的，它用 AI 做点事——这就是「撒一点 AI」。"
+    },
+    {
+      "timestamp": "43:17",
+      "speaker": "Jan Oberhauser",
+      "en": "but literally like last year we grew literally 10X exactly for that reason because we were part of the value chain and we kind of empowered people and we kind of provided real value for them.",
+      "zh": "但实际上，去年我们确实增长了整整 10 倍，正是出于那个原因：因为我们是价值链的一部分，我们赋能了人们，为他们提供了真正的价值。"
+    },
+    {
+      "timestamp": "45:45",
+      "speaker": "Jan Oberhauser",
+      "en": "they're just losing a lot of money. So it means like you have to kind of show a lot of growth to kind of get more money from investors.",
+      "zh": "他们只是在亏很多钱。所以这意味着你必须展现大量增长，才能从投资者那里拿到更多钱。"
+    },
+    {
+      "timestamp": "51:31",
+      "speaker": "Jan Oberhauser",
+      "en": "like we became not viral because we paid people to talk about us. We became viral last year because we had people being excited about it and then getting a lot of value out of it.",
+      "zh": "我们变得有病毒式传播，不是因为付钱让人谈论我们；我们去年变得有病毒式传播，是因为人们对它感到兴奋，然后从中获得了很大的价值。"
+    },
+    {
+      "timestamp": "46:51",
+      "speaker": "Jan Oberhauser",
+      "en": "And if you're not kind of doing it internally and like you're literally hypocrites, like that's horrible.",
+      "zh": "而如果你自己内部没有这么做，那你简直就是伪君子，那太糟糕了。"
+    },
+    {
+      "timestamp": "49:36",
+      "speaker": "Jan Oberhauser",
+      "en": "we realized that as long as people As long as the buying side is not done by AI, we cannot do the selling side by AI either. It's still a people game.",
+      "zh": "我们意识到，只要购买方还没由 AI 完成，我们也就无法让销售方由 AI 完成。这仍然是人的游戏。"
+    },
+    {
+      "timestamp": "62:22",
+      "speaker": "Jan Oberhauser",
+      "en": "but people don't really use them as much as they should because I think they're probably not very fun to create. They're very hard to create.",
+      "zh": "但人们并没有真正像应该的那样多地使用 evals,因为它们创建起来可能不太好玩，非常难创建。"
+    },
+    {
+      "timestamp": "66:36",
+      "speaker": "Jan Oberhauser",
+      "en": "that obviously makes very clear that talent density is really important. If you have only a thousand people at a certain scale, you can only have the best ones.",
+      "zh": "这显然非常清楚地表明人才密度真的很重要。如果在一定的规模下你只有一千人，你只能要最好的人。"
+    }
+  ],
+  "voice_script": "今天这期聊的是 N8N,一个做工作流自动化的工具。什么是工作流自动化？说白了，就是把你的邮箱、日历、数据库、大语言模型这些东西连起来，让它们自动干活，而 N8N 就是画这张连接图的平台。这一期的主角是 N8N 的创始人兼 CEO Jan Oberhauser。为什么请他来？因为最近有条推文火了，问的是：还记得 N8N 吗？是不是很快就无关紧要了？言下之意，有了 Claude Code 这种 AI 编码工具，你直接让 AI 写代码不就行了，还要这种平台干什么。\n\nJan 的第一反应特别有意思。他说，我们大概已经被宣布死亡一千次了，这些年里杀死我们的一半东西我都记不清了，我们还在这里。而且不只是活着，收入一年涨了十倍，估值五十二亿美元，GitHub 上二十万星标，一百五十万活跃用户。今年五月连 SAP 都做了战略投资，还把 N8N 直接内置进自家产品，客户名单里有梅赛德斯这样的公司。\n\n那问题就来了：Claude Code 那么强，凭什么说 N8N 不但没死，反而更需要了？\n\nJan 的核心主张是，这俩根本不是竞品。Claude Code 是通用工具，在终端里跑模型；而 N8N 是编排层，连接你的工具、模型和数据源，提供一张可视化画布，让整个系统可靠、安全地运行。关键在业务场景。有些事情你必须百分之百确定系统在干什么，不能接受百分之九十五的时候正常。他说了句很扎的话：如果你用 Claude Code,它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。\n\n有意思的是，这两样东西很多人是一起用的。先用 Claude Code 快速做原型，验证完了再迁移到 N8N 上正式跑。迁移的原因就是两个词：可审计、可自托管——数据不出你自己的基础设施。他甚至透露，有多家模型公司自己也在用 N8N,用在安全和合规场景。你品品这个画面：造模型的公司，拿编排平台管自己的流程。\n\n那可靠性、可审计性这些词，落到实处到底是什么意思？主持人在节目里直接要求 Jan 现场演示，做的是一个对接 Gmail 和谷歌日历的邮件助手。\n\n可靠性这块，默认用 Claude Sonnet,但配了备用模型，万一供应商宕机就切换。所有工具节点——收邮件、发邮件这些——代码都由 N8N 统一编写、测试、维护。这个设计很聪明：API 一变，改一次代码全员生效，而不是全世界每个人自己重新实现一遍、各漏各的边界情况。\n\n然后是人工在环。发邮件这种动作，被设置成必须事先获得批准才执行。演示里智能体会自己问：我即将创建一个日历事件，我真的被允许这么做吗？用户点了确认，它才动手。\n\n再看可审计性，这是可视化画布最值钱的地方。每一步执行都能点开看：什么信息发进去，什么信息出来，为什么走这条路。Jan 的对比很尖锐：用代码的话，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。出了错还能调试完，从任意数据点把工作流的一半重新跑。最后是可交接：工作流可以邀请队友协作、有版本历史、可导出、可设审核步骤。按 Jan 的说法，即使你不是技术出身，也能走进来看懂——这里有个智能体，系统提示词是什么，用的什么模型。\n\n那什么场景非 N8N 不可？越是要求可靠和安全的场景越出彩。比如安全编排，带附件的邮件自动扫描、归档、告警；比如员工入离职流程——有句话很实在，你不想要只入职了一半的员工，也不想要离职完成度连一半都不到的员工。还有监控：SSL 证书快到期了，自动在 Discord 或者 Notion 里告警，先用确定性逻辑保证通知百分之百发生，AI 自动修复放在后面。\n\n这里面藏着 Jan 反复强调的一个公式：AI,加确定性逻辑，加人工在环。他的原话是，AI 很了不起，但不是解决一切问题的方案。确定性逻辑更便宜、更快、百分之百可靠；某些用例你始终要确保有人留在回路里。\n\n说到这里，可能你会想到 Zapier 这种同类工具，区别在哪？Jan 说得很客气，但意思清楚：N8N 从第一天就专注强大和灵活——随时可以回退到代码、可自定义记忆、外置护栏、多模型加备用模型。用例一复杂，差距就拉开了。而且自托管这件事，Zapier 那种 SaaS 方案给不了。\n\n增长哲学上，Jan 有个判断我觉得是整期最清晰的：「撒一点 AI」和「以 AI 为核心」是两回事。撒 AI 就是有人告诉你加 AI,你就在某处加个按钮；以 AI 为核心，是想怎么成为价值链的一部分，让人们真正在你的产品里构建智能体。结果是去年十倍增长，现在平台上百分之八十的工作流都用了 AI 智能体，而且主要是老用户在用。\n\n公司的打法也反常规。取消了销售线索目标，拒绝按席位定价，连自托管的免费用户都不去转化——因为他们在意的只是你在使用 N8N。公司现在约三百七十人，内部目标是用不到一千名员工达到十亿用户。凭什么敢这么想？因为已经在盈利，不用靠下一轮融资活着。病毒式传播也不是买来的，按 Jan 的说法，是因为人们对它感到兴奋、从中获得了价值，所以想要分享它。\n\n最后落到公司怎么运转。组织按小队划分，三到五名工程师、一到两名 PM、一名设计师，汇报线短。招 PM 有个鲜明标准：越懂技术越好，连设计师都被要求会用 Claude Code 做函数 demo。面试怎么识破背话术的人？问内部真踩过的坑，再让他实时协作解题——带回家的任务在 AI 时代已经不可信了。\n\n回头看这条主线，其实就一句话：AI 编码工具和编排平台是互补不是替代——快速原型用 Claude Code,业务关键、要审计、要自托管的场景，交给 N8N 这类平台。而这一千次被宣布死亡之后还能十倍增长的答案，Jan 自己早就说出来了：我们还在这里。"
+}

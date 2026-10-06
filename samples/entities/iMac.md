@@ -25,7 +25,7 @@ unlisted: true
 
 [[Steven]] · [[Adam]] · [[GPU]] · [[推理]] · [[光子学]] · [[记忆]] · [[摩尔定律]] · [[大语言模型]] · [[扩展假设]] · [[训练]]
 
-<script type="application/json" class="pd-epn">{"Steven":1,"Adam":2,"GPU":22,"推理":77,"光子学":2,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":5}</script>
+<script type="application/json" class="pd-epn">{"Steven":1,"Adam":2,"GPU":22,"推理":78,"光子学":2,"记忆":22,"摩尔定律":1,"大语言模型":10,"扩展假设":1,"训练":5}</script>
 
 <script>
 (function(){

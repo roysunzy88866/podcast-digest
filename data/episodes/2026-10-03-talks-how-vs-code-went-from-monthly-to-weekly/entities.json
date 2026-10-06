@@ -1,0 +1,676 @@
+{
+  "episode_id": "2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "软件交付",
+    "开发者体验",
+    "代码评审"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "harald-kirschner",
+      "type": "person",
+      "role": "guest",
+      "name": "Harald Kirschner",
+      "file": "Harald Kirschner",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vs-code",
+      "type": "company",
+      "role": "company",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": true,
+      "how_described": "演讲者所在团队维护的产品，GitHub 上最大的开源项目之一，向超过 5000 万用户交付，靠 AI 把 10 多年的月度发布改成了每周发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            27.421,
+            29.102
+          ],
+          "quote": "I'm working on VS Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            43.806,
+            48.846
+          ],
+          "quote": "So it's not about how we build agents into VS Code, which we can try out anytime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            56.668,
+            59.529
+          ],
+          "quote": "And that's VS Code, that's the Copilot CI and other areas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            73.041,
+            79.745
+          ],
+          "quote": "What happened is over the past year is we started tracking already early on this code survival metrics in VS Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            118.989,
+            123.871
+          ],
+          "quote": "On the VS Code side, we're one of the biggest or their biggest open source project on GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            164.911,
+            176.616
+          ],
+          "quote": "Since the inception of VS Code 1.0, we have been shipping a new version of VS Code on a monthly basis, including fun facts like the general release actually ships in February.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            176.636,
+            183.279
+          ],
+          "quote": "So when you read the release notes in VS Code, you're wondering why it's February and you're reading the general release notes if you're a month late.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            252.856,
+            257.037
+          ],
+          "quote": "And that's important for us as VS Code because we're shipping binaries to user machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            345.649,
+            348.451
+          ],
+          "quote": "VS Code has always messaged heavily in accessibility.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            385.58,
+            396.35
+          ],
+          "quote": "And lastly, once you do it right, for us, in VS Code, the litmus test is, can I, as a PM, effectively Vibe code in the VS Code repo?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            545.178,
+            552.023
+          ],
+          "quote": "One is the component browser, which is an automated build that runs every time VS Code changes something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            563.399,
+            572.505
+          ],
+          "quote": "And because it's changing wide, we actually have this automated process in the back that takes screenshots of every component in VS Code and points out the differences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            609.187,
+            615.013
+          ],
+          "quote": "Because in VS Code, we run a web browser and open a website, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            615.033,
+            615.953
+          ],
+          "quote": "That's what VS Code is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            622,
+            628.887
+          ],
+          "quote": "So we have a slash launch skill that would just open up VS Code and give it a specific scenario to click through in VS Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            662.616,
+            675.321
+          ],
+          "quote": "And once you see Xcode MCP just creating in VS Code without Xcode involvement, just making an iOS app, opening it up, clicking through it, taking screenshots, these moments are magical and give you a really tight feedback loop as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            735.906,
+            738.167
+          ],
+          "quote": "Who has had problems in VS Code before?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            926.995,
+            931.497
+          ],
+          "quote": "So previously, VS Code did YOLO releases in a way that it was release day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1058.42,
+            1067.388
+          ],
+          "quote": "Next up we have prototyping, which I do a lot of because I noticed that I don't actually want to land most of my work into VS Code PRs itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot-ci",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot CI",
+      "file": "Copilot CI",
+      "primary": true,
+      "how_described": "演讲者参与的工作领域之一，与 VS Code 并列，是他用智能体构建产品本身的对象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.668,
+            59.529
+          ],
+          "quote": "And that's VS Code, that's the Copilot CI and other areas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：不是把智能体装进产品，而是用智能体构建产品本身——写代码、评审、分诊 issue、修错误堆栈，10-20 个智能体并行运行会把 CI-CD 慢环节复合放大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            80.266,
+            83.808
+          ],
+          "quote": "So that means the percent of agent-written code actually gets committed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            84.368,
+            92.493
+          ],
+          "quote": "How much kind of garbage has the agent produced that you threw out the window again or didn't trust and that you read it and scrapped?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            294.807,
+            298.328
+          ],
+          "quote": "And the big part is getting your code bases agent ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            298.348,
+            315.872
+          ],
+          "quote": "So that's kind of the no-brainer slide that everybody should have already been doing, is thinking about how to get your code bases agent ready, is creating agents.md that are lightweight enough and give the agents a good kind of map of the code base, where to look at, mapping out that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            322.715,
+            328.237
+          ],
+          "quote": "Those are living documents that should evolve as the agent makes mistakes and works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            329.857,
+            342.442
+          ],
+          "quote": "And that's where I see a lot of teams that have invested in the developer experience actually gain a lot because once they have good documentation and onboarding for a code base, that is read by the agent as well and that can help the agent as much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            506.778,
+            520.322
+          ],
+          "quote": "Next up, when agents actually work on UI, and we all had this, that the agent gives you UI, and it says it looks perfect, and you open it, and it's all misaligned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            528.686,
+            541.195
+          ],
+          "quote": "If your agent cannot use your application, your product directly to get this feedback loop of is it all working, then that's a really big investment that pays off every time you work on UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            640.619,
+            648.547
+          ],
+          "quote": "So you can just hit launch, move on to the next task, and then come back once the agent verified its work because it can access your application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            776.25,
+            787.413
+          ],
+          "quote": "Once you are in the issue, because the agent will make mistakes and we need that feedback loop when it makes mistakes, we create a Chrome extension that allows you to fix duplicated issues as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            787.773,
+            795.636
+          ],
+          "quote": "So we have the agent doing the work and we have a feedback loop where humans can still fix it that we can bring back into the agent work up front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            876.881,
+            880.283
+          ],
+          "quote": "And the agent actually goes in and finds out why this has happened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            894.864,
+            899.108
+          ],
+          "quote": "So the agent already opened the PR, we could just merge it, and that's a really great automated way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            905.111,
+            921.378
+          ],
+          "quote": "So all of this automated, the triage initially, mix of agents and deterministic systems, then the issue is filed, handed off to an agent in the PR, multi-agent system, and in the end we have fixes landing mostly automatically with some human oversight to still approve the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            986.29,
+            992.897
+          ],
+          "quote": "When we file an issue to add a new scenario, there's actually an agent picking up from a template and bootstrapping the scenario for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "agents.md",
+      "file": "agents.md",
+      "primary": true,
+      "how_described": "足够轻量、给智能体一张代码库地图的活文档，要随智能体犯错的过程不断演进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            298.348,
+            315.872
+          ],
+          "quote": "So that's kind of the no-brainer slide that everybody should have already been doing, is thinking about how to get your code bases agent ready, is creating agents.md that are lightweight enough and give the agents a good kind of map of the code base, where to look at, mapping out that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-survival",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码存活率 (code survival)",
+      "file": "代码存活率",
+      "primary": true,
+      "how_described": "智能体写的代码中实际被提交的百分比，用来衡量智能体产出了多少垃圾；他们从 GPT 4.1 的 55% 做到 Claude Opus 4.6 的 86%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            73.041,
+            79.745
+          ],
+          "quote": "What happened is over the past year is we started tracking already early on this code survival metrics in VS Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "可扩展的插件系统，100 倍工程师用它疯狂产出代码；也通过 Xcode MCP 让智能体不打开 Xcode 就能创建并截图 iOS 应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            227.586,
+            234.888
+          ],
+          "quote": "You have like this 100x engineers that has built this beautiful scale MCP plug-in system, and they're just shipping code like crazy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            657.413,
+            662.216
+          ],
+          "quote": "One of my favorites is Xcode MCP because on my site I work on iOS apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            662.616,
+            675.321
+          ],
+          "quote": "And once you see Xcode MCP just creating in VS Code without Xcode involvement, just making an iOS app, opening it up, clicking through it, taking screenshots, these moments are magical and give you a really tight feedback loop as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playwright",
+      "type": "concept",
+      "role": "concept",
+      "name": "Playwright",
+      "file": "Playwright",
+      "primary": true,
+      "how_described": "浏览器自动化工具，因为 VS Code 是跑在 Electron 里的网页应用（全是 HTML），他们用它做 slash launch 技能，让智能体打开应用、点击走完场景、拿日志自我验证修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            617.455,
+            621.96
+          ],
+          "quote": "We can actually use Playwright to automate a lot in the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            649.97,
+            655.032
+          ],
+          "quote": "And to call out, this is nice because we have Playwright and we are a web app running in Electron.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "typescript-go",
+      "type": "concept",
+      "role": "concept",
+      "name": "TypeScript Go",
+      "file": "TypeScript Go",
+      "primary": true,
+      "how_described": "官方用 Go 重写的 TypeScript 编译器，给他们的构建带来 10 倍提升——智能体规模下 CI-CD 任何慢环节都会被复合放大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            421.643,
+            426.687
+          ],
+          "quote": "Another improvement, and that's a massive one, is we switched to TypeScript Go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            456.883,
+            473.087
+          ],
+          "quote": "And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "他们视为下一个大投入方向：GitHub Copilot 自动评审起初不被信服，几个月内大幅改进后成为强制项，可按仓库风险调低中高三档力度，评论未解决前人类不看 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            243.853,
+            252.215
+          ],
+          "quote": "And the problem is, once you ship faster, you get into a code review, you get into how do you actually ship high-quality code that doesn't constantly break.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            681.622,
+            684.245
+          ],
+          "quote": "Let's talk about code review, which I think is the next big investment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            684.285,
+            690.854
+          ],
+          "quote": "We know in the past when we enabled code review on GitHub, the automatic GitHub Copilot one, we're not convinced yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            697.181,
+            713.225
+          ],
+          "quote": "We have a review every time somebody opens a PR, and there's more improvements coming, you actually dial in the effort that a code review does, depending on how much risk you have in this repo, so you have a low, medium, high effort for code reviews, so you can dial in kind of the cost benefit as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "自建的 VSC bench 产品评测，提交一个 GitHub issue 智能体就帮你从模板搭好新场景；理解模型在评测框架里的反应至关重要——hello world 实验里最贵模型多耗 70 倍 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            974.718,
+            983.387
+          ],
+          "quote": "We're shipping an agentic product, so it's important that we have our own evals of our product always at hand and being really easy to extend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            993.317,
+            1006.21
+          ],
+          "quote": "So to make it as easy as possible to bring in all the developer scenarios that are coming up in issues through customer conversations through all these channels to bring them back into our evals so we can start hill climbing actually against them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1021.019,
+            1022.881
+          ],
+          "quote": "Understanding your evals is critical.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "staged-rollouts",
+      "type": "concept",
+      "role": "concept",
+      "name": "分阶段发布 (staged rollouts)",
+      "file": "分阶段发布",
+      "primary": false,
+      "how_described": "因为已安装应用回滚代价太大，他们放弃了 YOLO 式发布，改成分阶段发布并在过程中监控错误日志和 issue",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            942.24,
+            944.041
+          ],
+          "quote": "So now, actually, we do staged rollouts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": false,
+      "how_described": "错误堆栈流水线的末端：issue 被移交给多智能体系统生成 PR，修复大部分自动落地，仅保留人工批准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            905.111,
+            921.378
+          ],
+          "quote": "So all of this automated, the triage initially, mix of agents and deterministic systems, then the issue is filed, handed off to an agent in the PR, multi-agent system, and in the end we have fixes landing mostly automatically with some human oversight to still approve the PR.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "electron",
+      "type": "concept",
+      "role": "concept",
+      "name": "Electron",
+      "file": "Electron",
+      "primary": false,
+      "how_described": "VS Code 本质是跑在 Electron 里的网页应用，全是 HTML，所以才能用 Playwright 做自我纠错循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            649.97,
+            655.032
+          ],
+          "quote": "And to call out, this is nice because we have Playwright and we are a web app running in Electron.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

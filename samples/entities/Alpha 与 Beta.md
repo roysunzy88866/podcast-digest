@@ -25,7 +25,7 @@ unlisted: true
 
 [[Matt MacInnis]] · [[Lenny]] · [[Amar]] · [[Rippling]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[产品市场契合]] · [[熵]] · [[幂律分布]]
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":68,"Amar":1,"Rippling":3,"Notion":16,"Apple":20,"刻意人手不足":1,"产品市场契合":26,"熵":3,"幂律分布":3}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":68,"Amar":1,"Rippling":3,"Notion":16,"Apple":21,"刻意人手不足":1,"产品市场契合":27,"熵":3,"幂律分布":3}</script>
 
 <script>
 (function(){

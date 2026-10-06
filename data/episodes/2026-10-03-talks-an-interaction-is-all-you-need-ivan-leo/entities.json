@@ -1,0 +1,711 @@
+{
+  "episode_id": "2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "API 设计",
+    "AI 安全",
+    "多模态"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ivan-leo",
+      "type": "person",
+      "role": "guest",
+      "name": "Ivan Leo",
+      "file": "Ivan Leo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集是 Google DeepMind 开发者体验团队 Ivan 的产品发布演讲,介绍全新的 Interactions API 和 Managed Agents。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.65,
+            15.974
+          ],
+          "quote": "I'm on the Developer Experience team at Google DeepMind.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "interactions-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Interactions API",
+      "file": "Interactions API",
+      "primary": true,
+      "how_described": "本集说它是解决多个端点、嵌套极深数据对象痛点的统一接口:文本、图像、音频、智能体全用同一个 client.interactions.create 方法,靠 interaction ID 在服务端保留上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.174,
+            20.302
+          ],
+          "quote": "And today, we're covering the brand new Interactions API and our new offering, Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.518,
+            31.585
+          ],
+          "quote": "Before we move on to what the Interactions API is and what the new Managed Agents offering is, let's take a trip down memory lane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            246.951,
+            248.773
+          ],
+          "quote": "So let's talk about the Interactions API now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            313.092,
+            316.073
+          ],
+          "quote": "And so the Interactions API is our sort of solution to this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            410.315,
+            414.481
+          ],
+          "quote": "Something like this would not have been possible without the Interactions API built by Philip over there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            955.638,
+            970.133
+          ],
+          "quote": "Lastly, if you're thinking of switching over to the Interactions API, which is where all of our new models will be on, we've also created a new Interactions API skill that you can feed to your favorite coding agent, and that will then basically allow you to do that migration without any issues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Managed Agents",
+      "file": "Managed Agents",
+      "primary": true,
+      "how_described": "本集说它是把 anti-gravity harness 开放为远程托管智能体:一次 API 调用即得持久化沙箱,用环境 ID 路由回同一沙箱,存储和沙箱免费、只按模型用量付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.174,
+            20.302
+          ],
+          "quote": "And today, we're covering the brand new Interactions API and our new offering, Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.518,
+            31.585
+          ],
+          "quote": "Before we move on to what the Interactions API is and what the new Managed Agents offering is, let's take a trip down memory lane.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它定义为「一个在循环里运行的语言模型」,模型越强脚手架越少;从函数调用演进到能推理、长时间自主运行、调用工具与环境交互的智能体时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            123.103,
+            125.765
+          ],
+          "quote": "And so this just brings us back to what is an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            126.306,
+            131.27
+          ],
+          "quote": "Fundamentally, if you look at what an agent is, it's really a model that powers a huge chunk of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            175.576,
+            181.343
+          ],
+          "quote": "If you're building a coding agent, but you don't give it an environment where it can actually execute code, for example, it's not going to be able to do anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            261.623,
+            272.332
+          ],
+          "quote": "Through the Gemini API, you have Nano Banana, you have Gemini 3.5 Flash, but you also have very capable agents like the Deep Research agent that's going to run for anywhere from three minutes and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            506.699,
+            512.603
+          ],
+          "quote": "For example, over here, we're trying to get an agent to look up the internet to find the latest security reports for the React application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            585.863,
+            590.686
+          ],
+          "quote": "The second thing that we've launched is anti-gravity as a remote agent, as what we like to call Manage Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            596.73,
+            599.972
+          ],
+          "quote": "In AI Studio, which you saw just now, websites are built with the anti-gravity agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            600.392,
+            603.494
+          ],
+          "quote": "In the anti-gravity application, you're also using the anti-gravity agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            612.89,
+            616.052
+          ],
+          "quote": "If you wanted to build a coding agent in the past, you would first have to tune the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            624.318,
+            628.381
+          ],
+          "quote": "But with the anti-gravity managed agent, you get a persistent sandbox out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            641.742,
+            646.328
+          ],
+          "quote": "We then pass it over in an API call over to the anti-gravity agent, and it then boots up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            663.69,
+            667.633
+          ],
+          "quote": "The agent's able to research, reason, and handle all of this autonomously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            736.797,
+            740.759
+          ],
+          "quote": "This isn't just a sort of constraint to very simple task with the managed agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            778.43,
+            794.609
+          ],
+          "quote": "The best part about using the anti-gravity agent is that fundamentally, it's the same agent running in your anti-gravity IDE, which means that if you have certain workflows that you've tuned locally, you have skills that you've made sure are great, once you're happy with those skills, you just package it into a single folder,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            800.093,
+            805.996
+          ],
+          "quote": "And that gives your agent the exact same skills with the same agent harness and the same prompt running locally and in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            806.636,
+            812.159
+          ],
+          "quote": "When you're ready or when you're comfortable with what your agent is doing locally, you can then push it up and everything works as intended.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            812.999,
+            817.362
+          ],
+          "quote": "The next question we often get from companies are, hey, I need my agent to be secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            818.363,
+            821.384
+          ],
+          "quote": "What am I going to do if my agent leaks a network credential?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            864.448,
+            867.35
+          ],
+          "quote": "Once you're comfortable with how the agent is performing, you set it up well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            868.191,
+            874.155
+          ],
+          "quote": "We give you two different ways for you to basically configure and set it up as a named agent, much like you've been using the anti-gravity preview agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            882.16,
+            888.064
+          ],
+          "quote": "I have a data analyst agent that I'm creating from the anti-gravity preview base agent with some base environment configurations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            890.275,
+            895.582
+          ],
+          "quote": "The other way that we allow you to do so is by chatting iteratively with an agent to set up an environment as you like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            900.249,
+            903.393
+          ],
+          "quote": "And you can freeze an environment as a specific agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            941.165,
+            947.207
+          ],
+          "quote": "The other benefit of this is that you're going to be able to iterate on your coding agent or your antigravity agent locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            947.667,
+            952.989
+          ],
+          "quote": "And once you're ready, it packages it as a single folder and uploads it straight and creates an agent for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            955.638,
+            970.133
+          ],
+          "quote": "Lastly, if you're thinking of switching over to the Interactions API, which is where all of our new models will be on, we've also created a new Interactions API skill that you can feed to your favorite coding agent, and that will then basically allow you to do that migration without any issues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "函数调用 (function calling)",
+      "file": "函数调用",
+      "primary": true,
+      "how_described": "本集回顾:为了让模型可靠地嵌进应用,发明了函数调用——模型按可预测结构生成 JSON 对象,后端据此执行操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            59.925,
+            63.109
+          ],
+          "quote": "And so to do so, we invented function calling, where models could create",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说过去自建编码智能体要先找沙箱提供商、自己管基础设施;现在 Managed Agents 一次 API 调用就得到可反复访问的持久化沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            616.513,
+            623.658
+          ],
+          "quote": "Then you have to find a sandbox provider, manage the infrastructure, and then kind of figure out a way how to preserve the context, especially in between runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            624.318,
+            628.381
+          ],
+          "quote": "But with the anti-gravity managed agent, you get a persistent sandbox out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            629.602,
+            636.167
+          ],
+          "quote": "With a single API call, you get a sandbox that you can keep hitting and treat as a personal claw without any sort of modifications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            647.858,
+            651.321
+          ],
+          "quote": "A remote sandbox and then starts investigating what the repository's about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            659.527,
+            663.21
+          ],
+          "quote": "All of this is happening in a remote sandbox without any sort of intervention from our site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            669.226,
+            678.713
+          ],
+          "quote": "We also handle multi-state persistent sandboxes, like what we mentioned earlier, where as long as you preserve the environment ID that will return to you, you're able to route it right back to the original sandbox that you had.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            690.401,
+            692.082
+          ],
+          "quote": "And so this way, you can use the same sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            703.932,
+            708.638
+          ],
+          "quote": "You might have .EMD files, helper files that you want to show on this specific sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            917.489,
+            918.67
+          ],
+          "quote": "You don't pay for the sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini API",
+      "file": "Gemini API",
+      "primary": true,
+      "how_described": "本集说通过 Gemini API 既有轻量图像模型、快模型,也有跑三分钟以上的 Deep Research 智能体,是 Interactions API 要统一的既有入口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            261.623,
+            272.332
+          ],
+          "quote": "Through the Gemini API, you have Nano Banana, you have Gemini 3.5 Flash, but you also have very capable agents like the Deep Research agent that's going to run for anywhere from three minutes and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            829.187,
+            833.569
+          ],
+          "quote": "Say, the Gemini API, you might need to download private GitHub repositories, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            929.141,
+            932.842
+          ],
+          "quote": "Recently, we've also open-sourced a new Gemini API CLI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anti-gravity",
+      "type": "concept",
+      "role": "concept",
+      "name": "anti-gravity",
+      "file": "anti-gravity",
+      "primary": true,
+      "how_described": "本集说它是 Google 全套产品统一使用的智能体 harness(包裹模型、给工具和环境的执行框架),与 Gemini 联合训练,现已开放为远程托管智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            585.863,
+            590.686
+          ],
+          "quote": "The second thing that we've launched is anti-gravity as a remote agent, as what we like to call Manage Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            591.206,
+            596.19
+          ],
+          "quote": "So we've standardized around using the anti-gravity harness across all of our Google suite of products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            596.73,
+            599.972
+          ],
+          "quote": "In AI Studio, which you saw just now, websites are built with the anti-gravity agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            600.392,
+            603.494
+          ],
+          "quote": "In the anti-gravity application, you're also using the anti-gravity agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            624.318,
+            628.381
+          ],
+          "quote": "But with the anti-gravity managed agent, you get a persistent sandbox out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            641.742,
+            646.328
+          ],
+          "quote": "We then pass it over in an API call over to the anti-gravity agent, and it then boots up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            778.43,
+            794.609
+          ],
+          "quote": "The best part about using the anti-gravity agent is that fundamentally, it's the same agent running in your anti-gravity IDE, which means that if you have certain workflows that you've tuned locally, you have skills that you've made sure are great, once you're happy with those skills, you just package it into a single folder,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            868.191,
+            874.155
+          ],
+          "quote": "We give you two different ways for you to basically configure and set it up as a named agent, much like you've been using the anti-gravity preview agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            882.16,
+            888.064
+          ],
+          "quote": "I have a data analyst agent that I'm creating from the anti-gravity preview base agent with some base environment configurations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-studio",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Studio",
+      "file": "AI Studio",
+      "primary": false,
+      "how_described": "本集说它是试用模型的最好方式,有慷慨免费额度,Ivan 的演讲备注就是在上面 vibe 出来的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            182.979,
+            187.401
+          ],
+          "quote": "And so if you'd like to try any of our models, the easiest way to do so is actually with AI Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            188.061,
+            192.483
+          ],
+          "quote": "And so I'd actually like to point out that my speaker notes today were actually coded on AI Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            596.73,
+            599.972
+          ],
+          "quote": "In AI Studio, which you saw just now, websites are built with the anti-gravity agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini 3.5 Flash",
+      "file": "Gemini 3.5 Flash",
+      "primary": false,
+      "how_described": "本集说它是 Gemini API 上较快的模型之一,可在 AI Studio 里试用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            226.702,
+            240.368
+          ],
+          "quote": "And I think it's the best way for you to try our models, whether it's our new speech-to-speech translation models, where you speak in, let's say, English, and it can translate to any language, or you want to try our latest models, like the Gemini 3.5 Flash, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            261.623,
+            272.332
+          ],
+          "quote": "Through the Gemini API, you have Nano Banana, you have Gemini 3.5 Flash, but you also have very capable agents like the Deep Research agent that's going to run for anywhere from three minutes and more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

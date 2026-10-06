@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sean Falconer":1,"Render":2,"Stripe":48,"AWS":19,"Kubernetes":15,"智能体":411,"MCP":76,"持久化执行":4,"Temporal":4,"Heroku":2}</script>
+<script type="application/json" class="pd-epn">{"Sean Falconer":1,"Render":2,"Stripe":48,"AWS":19,"Kubernetes":15,"智能体":417,"MCP":78,"持久化执行":4,"Temporal":4,"Heroku":2}</script>
 
 <script>
 (function(){

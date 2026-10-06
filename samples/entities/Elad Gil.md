@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":7,"NewLimit":2,"智能体":411,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":8}</script>
+<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":7,"NewLimit":2,"智能体":417,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":8}</script>
 
 <script>
 (function(){

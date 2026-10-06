@@ -1,0 +1,641 @@
+{
+  "episode_id": "2026-10-03-talks-what-makes-open-models-fast-in-productio",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "推理基础设施",
+    "开源模型",
+    "GPU",
+    "投机解码",
+    "KV Cache"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "nebius",
+      "type": "company",
+      "role": "company",
+      "name": "Nebius",
+      "file": "Nebius",
+      "primary": true,
+      "how_described": "全栈 AI 云基础设施公司:不只提供模型 API,还运营底层数据中心、NVIDIA 系统和裸金属容量,纳斯达克上市,NVIDIA 几个月前向其投资 20 亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.722,
+            60.883
+          ],
+          "quote": "So we work for Nebius, so specifically Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            61.403,
+            64.704
+          ],
+          "quote": "But Nebius is like a full stack AI cloud infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.826,
+            82.388
+          ],
+          "quote": "We have our own data centers, NVIDIA systems, bare metal capacity, managed cloud, and optimizing the serving and the inference through Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            623.238,
+            625.98
+          ],
+          "quote": "And I believe that's what Nebius Token Factory provides.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token-factory",
+      "type": "company",
+      "role": "company",
+      "name": "Token Factory",
+      "file": "Token Factory",
+      "primary": true,
+      "how_described": "Nebius 的托管推理平台,主张第三条路:自托管的控制与性能 + 托管推理的简单性,内建推理、数据实验室、后训练、部署的全栈闭环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.308,
+            19.869
+          ],
+          "quote": "So I lead the product marketing for Nibia's token factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            56.722,
+            60.883
+          ],
+          "quote": "So we work for Nebius, so specifically Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.826,
+            82.388
+          ],
+          "quote": "We have our own data centers, NVIDIA systems, bare metal capacity, managed cloud, and optimizing the serving and the inference through Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            148.358,
+            150.422
+          ],
+          "quote": "So today we're talking about Nibus Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            201.206,
+            205.329
+          ],
+          "quote": "So Token Factory is kind of the shift, this third path we identified",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            529.71,
+            531.392
+          ],
+          "quote": "And so Token Factory covers that full loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            623.238,
+            625.98
+          ],
+          "quote": "And I believe that's what Nebius Token Factory provides.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            675.671,
+            684.537
+          ],
+          "quote": "You can run these open models in any provider, hopefully token factory, but so there's no vendor lock-in and also you end up saving a lot of money on tokenomics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            923.514,
+            929
+          ],
+          "quote": "And this is actually a feature we actually baked into Token Factory that gives you pretty good optimization speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1021.047,
+            1024.01
+          ],
+          "quote": "And one thing we've been implementing in Token Factory is",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集核心主张:开源与专有模型基准差距已非常小,有时甚至更好,大多数情况下便宜得多,没有供应商锁定,不必总为智能追逐封闭 API",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            224.415,
+            233.738
+          ],
+          "quote": "As we've seen, the gap between proprietary and open source models has been closing a lot, and so this is where we kind of operate and we feel comfortable operating, is really not only",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            501.694,
+            504.855
+          ],
+          "quote": "And it's only the beginning of your path through running open source models at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1173.635,
+            1178.656
+          ],
+          "quote": "We have all the latest open source models, GLM52, K27s.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集主线:为生产环境工程化开源模型的推理——托管推理服务、引擎选型、延迟/吞吐/成本的引擎级优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            32.75,
+            49.887
+          ],
+          "quote": "We only have 20 minutes, so we'll try to keep this brief, but we're going to give you a quick intro on who we are, what we do, then talk about what it takes to build the infra for inference, a few words on model shaping optimizations, which are extremely important in what we do, and then we'll talk about model serving optimizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.826,
+            82.388
+          ],
+          "quote": "We have our own data centers, NVIDIA systems, bare metal capacity, managed cloud, and optimizing the serving and the inference through Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            154.229,
+            158.918
+          ],
+          "quote": "So we're a managed inference company, meaning we deploy these models and optimize them for our customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            206.25,
+            213.452
+          ],
+          "quote": "Before you even start on your actual product, you get the control and the performance of self-hosting with the simplicity of a managed inference service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            249.675,
+            256.48
+          ],
+          "quote": "Most platforms we've seen on the markets either give you inference, training, data tooling, but here we decided to connect everything under one loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            260.103,
+            263.365
+          ],
+          "quote": "On the inference side, we allow you to run models in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            292.248,
+            300.472
+          ],
+          "quote": "So inference log imports, SQL data set filtering, data set versioning, exporting, and then batching these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            306.736,
+            320.351
+          ],
+          "quote": "So this is a natural follow-up with the data lab, is once you have your logs and your inference and you can generate synthetic data sets, you can bring them all to post-training and use that to kind of either through LoRa or full fine-tuning, make the models much more adapt to the behavior you're expecting from you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            363.454,
+            369.539
+          ],
+          "quote": "And so what we allow is we need to make the data flow from the inference to the training, and the training flows directly into production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            488.63,
+            492.471
+          ],
+          "quote": "Something that comes up a lot with AI teams is that they start with inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            532.412,
+            544.379
+          ],
+          "quote": "Inference to run the models, so as I said, Kimi, DeepSeq, all the main ones, through real-time inference or batch inference, through structured outputs and function calling, and on dedicated endpoints when it's necessary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            612.874,
+            618.577
+          ],
+          "quote": "So we believe great inference starts with great models, but that's not enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            857.365,
+            861.45
+          ],
+          "quote": "So when you actually do the inference, you get pretty good cache and very good speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            964.412,
+            971.959
+          ],
+          "quote": "This is probably one of the biggest ROI in doing inference because creating tokens is expensive, especially when you're doing one at a time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1048.808,
+            1054.475
+          ],
+          "quote": "And this is one of the important optimizations we have done to speed up inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1146.456,
+            1155.042
+          ],
+          "quote": "And this is what makes an inference platform really great to serve, especially the large models we are seeing, like the one trillion models we are seeing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spec-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (spec decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "小模型先猜着生成 token、大模型最后验证——像高级工程师把活派给初级工程师再用通用数据训练 draft 模型已见最多 30% 提升,用自己的生产数据训练效果更好,可一键完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            323.373,
+            329.937
+          ],
+          "quote": "We do custom spec decoding for customers who need really advanced custom spec decoding tooling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            863.972,
+            868.156
+          ],
+          "quote": "Another thing, and this is something we are really excited about, it's called spec decoding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            880.255,
+            889.483
+          ],
+          "quote": "So the idea for spec decoding is how about we employ a smaller model, which is a lot of the time faster and cheaper, to generate the tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1127.702,
+            1140.872
+          ],
+          "quote": "And these are some of the things we kind of covered, spec decoding, KV cache, and when you do caching, doing routing, that is actually cache aware, and also separating pre-fill and decoding cases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV cache",
+      "file": "KV cache",
+      "primary": true,
+      "how_described": "把已生成 token 的中间结果缓存避免重复计算,本集称之为推理里 ROI 最高的优化,带来 5-10 倍加速,并支持在 GPU 内存与普通内存间自动卸载搬运",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1084.746,
+            1086.687
+          ],
+          "quote": "And then they sort of transfer the KV cache in between.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1127.702,
+            1140.872
+          ],
+          "quote": "And these are some of the things we kind of covered, spec decoding, KV cache, and when you do caching, doing routing, that is actually cache aware, and also separating pre-fill and decoding cases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantization)",
+      "file": "量化",
+      "primary": true,
+      "how_described": "降低模型数值精度换取更快运行,但不能过头否则质量下降;靠大量实验找量化的最佳平衡点,已内置到平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            330.857,
+            335.54
+          ],
+          "quote": "We do on-demand and specific quantization and calibration of the model, depending on your preferences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            561.158,
+            571.583
+          ],
+          "quote": "And it's really important for most of our customers to know how it's running and what chips it's running on, the level of quantization and all that stuff, and that's really where we kind of operate and are comfortable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1108.955,
+            1117.839
+          ],
+          "quote": "So what we do is we do a lot of experiments to figure out what's the sweet spot of quantization so you can run the models efficiently, but not degrade the performance too much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "Token Factory 闭环的第三层:用捕获的生产日志生成合成数据集,通过 LoRA 或全量微调、蒸馏让模型更贴合期望行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            301.67,
+            302.932
+          ],
+          "quote": "The third layer is post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            306.736,
+            320.351
+          ],
+          "quote": "So this is a natural follow-up with the data lab, is once you have your logs and your inference and you can generate synthetic data sets, you can bring them all to post-training and use that to kind of either through LoRa or full fine-tuning, make the models much more adapt to the behavior you're expecting from you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            546.471,
+            560.258
+          ],
+          "quote": "And then moving on to the data lab to collect and analyze the real-world signal, the completions, moving over to post-training to improve and customize the model, and finally moving to the last step, and probably the most important one, which is the deployment, to push updates with full control over the model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "load-balancing",
+      "type": "concept",
+      "role": "concept",
+      "name": "负载均衡 (load balancing)",
+      "file": "负载均衡",
+      "primary": true,
+      "how_described": "几十万块 GPU 跑模型时的真问题:LLM 工作负载输入输出大小差异大,随机路由会让缓存碎片化,他们用缓存感知路由器解决",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            778.187,
+            784.508
+          ],
+          "quote": "And when you have hundreds of thousands of GPUs running models, load balancing and routing becomes an issue.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "Nebius 紧密合作的芯片厂商,向其投资 20 亿美元;Nebius 早期采用 Blackwell Ultra、HGX B300、GB300、Rubin 等最新芯片并优化内核和运行时",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            73.826,
+            82.388
+          ],
+          "quote": "We have our own data centers, NVIDIA systems, bare metal capacity, managed cloud, and optimizing the serving and the inference through Nebius Token Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            91.833,
+            96.615
+          ],
+          "quote": "We're very close with NVIDIA, who made a 2 billion investment in EBS a couple of months ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            96.815,
+            101.058
+          ],
+          "quote": "And we're targeting 5 gigawits of NVIDIA systems by the end of 2030.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            113.444,
+            118.465
+          ],
+          "quote": "We're a very early adopter of NVIDIA Rubin and Bluefield Storage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            716.562,
+            718.424
+          ],
+          "quote": "We work very closely with NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            729.013,
+            733.157
+          ],
+          "quote": "For example, something like the NVIDIA Floating 0.4 standard, we embraced it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            733.397,
+            736.54
+          ],
+          "quote": "It gives us a really good model performance on latest NVIDIA chips.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "后训练层的手段之一:通过 LoRA 或全量微调,用生产数据让模型更适应期望的行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            306.736,
+            320.351
+          ],
+          "quote": "So this is a natural follow-up with the data lab, is once you have your logs and your inference and you can generate synthetic data sets, you can bring them all to post-training and use that to kind of either through LoRa or full fine-tuning, make the models much more adapt to the behavior you're expecting from you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "coding agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

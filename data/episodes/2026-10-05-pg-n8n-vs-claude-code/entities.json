@@ -1,0 +1,999 @@
+{
+  "episode_id": "2026-10-05-pg-n8n-vs-claude-code",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-10-05",
+  "tags": [
+    "工作流自动化",
+    "智能体",
+    "AI 编程工具",
+    "增长与商业化",
+    "AI 时代的 PM"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jan-oberhauser",
+      "type": "person",
+      "role": "host",
+      "name": "Jan Oberhauser",
+      "file": "Jan Oberhauser",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            107.688,
+            110.733
+          ],
+          "quote": " You can use it Today we have on Jan Oberhauser, the CEO and founder of N8N.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "n8n",
+      "type": "company",
+      "role": "company",
+      "name": "N8N",
+      "file": "N8N",
+      "primary": true,
+      "how_described": "本集把它说成：一个可视化工作流编排平台，连接工具、LLM 和数据源，靠 AI + 确定性逻辑 + 人工在环让业务关键自动化可靠、安全、可审计地运行；去年收入涨 10 倍、52 亿美元估值、150 万活跃用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.382,
+            24.397
+          ],
+          "quote": "audible, and you can pass to your teammates, you really need N8N.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            27.131,
+            28.131
+          ],
+          "quote": "Remember N8N?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            30.375,
+            32.277
+          ],
+          "quote": " Do you need N8N anymore?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            47.428,
+            51.311
+          ],
+          "quote": "N8N was literally the hottest AI tool in the world in 2025.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            93.307,
+            96.852
+          ],
+          "quote": " N8N was the hottest tool in my newsletter last year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            107.688,
+            110.733
+          ],
+          "quote": " You can use it Today we have on Jan Oberhauser, the CEO and founder of N8N.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            123.151,
+            126.576
+          ],
+          "quote": " What can N8N do that Claude Code and Cowork can't?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            126.796,
+            131.744
+          ],
+          "quote": "What is the role for N8N this year in 2026 and 2027?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            131.924,
+            136.731
+          ],
+          "quote": "How should you think about using N8N versus these other tools?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            137.031,
+            139.9198888888889
+          ],
+          "quote": "We'll also talk about how They build product at N8N,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            146.719,
+            151.862
+          ],
+          "quote": "So N8N was literally the hottest AI tool in the world in 2025.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            164.45,
+            165.451
+          ],
+          "quote": "Remember N8N?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            167.812,
+            169.715
+          ],
+          "quote": " Do you need N8N anymore?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            499.84,
+            504.444
+          ],
+          "quote": "who I used Lindy personally for some of the similar things I would use N8N for,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            511.749,
+            517.073
+          ],
+          "quote": "Did Cloud Cowork, Cloud Code, the rise of Codex have a noticeable impact on N8N's business?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            917.281,
+            920.862
+          ],
+          "quote": "What does N8N do for that person that they can't do themselves?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1618.264,
+            1622.768
+          ],
+          "quote": "So another thing that you had mentioned that's important about N8N is this idea",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            1710.153,
+            1713.077
+          ],
+          "quote": " What are those use cases that N8N is so unique",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            2390.564,
+            2394.687
+          ],
+          "quote": "So we have to ask the obligatory question, Zapier versus N8N.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2394.747,
+            2397.129
+          ],
+          "quote": "What can N8N do that Zapier can't?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 809,
+          "t": [
+            2608.843,
+            2615.843
+          ],
+          "quote": " I think a pretty crazy stat you guys released is 80% of workflows on N8N now use AI agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 907,
+          "t": [
+            2927.406,
+            2931.9779999999996
+          ],
+          "quote": "But LinkedIn, it seems like a bunch of people are wanting to associate themselves with N8N.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 908,
+          "t": [
+            2932.028,
+            2937.59
+          ],
+          "quote": "And you have like over a thousand people listed working at N8N on LinkedIn.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 909,
+          "t": [
+            2937.65,
+            2940.4759999999997
+          ],
+          "quote": "So how many people really are working at N8N right now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3508.438,
+            3513.526
+          ],
+          "quote": " For N8N, I wanted to just see what are you guys looking for for your PM?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            3545.494,
+            3552.085
+          ],
+          "quote": "How technical do you have to be to be a successful PM at N8N or more broadly",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            3692.872,
+            3696.337
+          ],
+          "quote": "What is the role of evals for PMs at N8N?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3804.355,
+            3806.718
+          ],
+          "quote": "How do they get noticed by N8N?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            4040.374,
+            4045.317
+          ],
+          "quote": "We covered N8N's growth, N8N versus Cloud Code and Zapier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1259,
+          "t": [
+            4045.437,
+            4050.2
+          ],
+          "quote": "We showed you guys how to use N8N to create a personal productivity assistant",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4070.289,
+            4071.49
+          ],
+          "quote": "Obviously, go try N8N.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1273,
+          "t": [
+            4073.973,
+            4076.636
+          ],
+          "quote": " deeper on N8N, which I will link right up here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成：在终端里跑模型的通用编码工具，适合快速做原型，但生成的代码没人能检查，与 N8N 是互补而非竞品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            123.151,
+            126.576
+          ],
+          "quote": " What can N8N do that Claude Code and Cowork can't?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "type": "company",
+      "role": "company",
+      "name": "Zapier",
+      "file": "Zapier",
+      "primary": true,
+      "how_described": "本集把它说成：同类自动化竞品，但 N8N 从第一天就专注强大与灵活（代码节点、自定义记忆、备用模型、自托管），用例一复杂就拉开差距；自托管是 Zapier 的 SaaS 方案给不了的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            897.253,
+            901.217
+          ],
+          "quote": "we put it in the A tier, above Zapier and Make.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            2385.16,
+            2390.504
+          ],
+          "quote": "So your episode is coming right after Wade Foster, CEO and founder of Zapier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            2390.564,
+            2394.687
+          ],
+          "quote": "So we have to ask the obligatory question, Zapier versus N8N.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2394.747,
+            2397.129
+          ],
+          "quote": "What can N8N do that Zapier can't?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            4040.374,
+            4045.317
+          ],
+          "quote": "We covered N8N's growth, N8N versus Cloud Code and Zapier.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：N8N 上 80% 的工作流已使用 AI 智能体，用户可在可视化画布里看到智能体的系统提示词、所用模型和每步执行；「撒 AI 按钮」不如让人们在产品里真正构建智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            521.955,
+            526.341
+          ],
+          "quote": "I think that at some point, OpenAI launched their own agent builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            642.332,
+            643.9431111111111
+          ],
+          "quote": "Their AI agent makes it fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            652.708,
+            657.492
+          ],
+          "quote": "I just ask the agent directly and it tells me They also have an MCP server,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            786.604,
+            791.605
+          ],
+          "quote": "where you can really kind of build your agent automations inside of the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            913,
+            916.921
+          ],
+          "quote": "connect some MCP servers and have a working agent in a couple minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            976.811,
+            983.811
+          ],
+          "quote": "in this case you have here an agent and it gets a response and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1065.695,
+            1068.275
+          ],
+          "quote": "So you can see here the agent did run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1161.452,
+            1165.461
+          ],
+          "quote": "see The prompt here can generate me a workflow agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1314.477,
+            1316.319
+          ],
+          "quote": "hey, actually here is an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1551.042,
+            1555.369
+          ],
+          "quote": "Again, it started here, it called an agent, it called those different tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1577.402,
+            1584.205
+          ],
+          "quote": "between the output of the agent and the output like an additional node that adds,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2047.128,
+            2049.81
+          ],
+          "quote": "that literally tasks contain like an agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2568.265,
+            2570.519
+          ],
+          "quote": "when people think about if I want to build an agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 800,
+          "t": [
+            2570.569,
+            2573.6029999999996
+          ],
+          "quote": "like they should be built, want to build an agent within it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 803,
+          "t": [
+            2583.887,
+            2589.214
+          ],
+          "quote": "to add AI to their product or build an AI agent or And like we want to be",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1126,
+          "t": [
+            3632.618,
+            3637.002
+          ],
+          "quote": "Again, that's why we wanted people actually not just build a basic agent,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集把它说成：N8N 的核心单元——由触发节点、智能体和工具节点组成的可视编排，可分享、有版本历史、可设审核步骤、可从任意数据点重跑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            972.645,
+            976.7610000000001
+          ],
+          "quote": "How generally it works is you get as a trigger node something that starts a workflow",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1061.274,
+            1063.5240000000001
+          ],
+          "quote": "You're not just seeing how the whole workflow is built.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1161.452,
+            1165.461
+          ],
+          "quote": "see The prompt here can generate me a workflow agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1195.484,
+            1200.808
+          ],
+          "quote": " And you can see here literally Again, that's the workflow we were just working at right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1224.974,
+            1229.512
+          ],
+          "quote": "please now extend that workflow, Make sure I can schedule this one-on-one meetings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1257.037,
+            1261.425888888889
+          ],
+          "quote": "for example, like interact with the workflow here, you can still ask questions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1280.586,
+            1285.018
+          ],
+          "quote": "But at the end, what you will see is that it adds additional tools to that workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1509.533,
+            1512.774
+          ],
+          "quote": "the core is this workflow like editor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1517.235,
+            1522.499
+          ],
+          "quote": "where each of these lines and nodes in the workflow is something",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1537.663,
+            1539.135
+          ],
+          "quote": "Again, it is the workflow itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1608.014,
+            1611.878
+          ],
+          "quote": "And then you can literally rerun half of the workflow from the data point,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            1633.253,
+            1634.883
+          ],
+          "quote": "you should also have this workflow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            1639.114,
+            1641.254
+          ],
+          "quote": "You can literally share your workflow with other people",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1675.776,
+            1677.898
+          ],
+          "quote": "a workflow via email if you want to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1689.026,
+            1690.688
+          ],
+          "quote": "please review that workflow,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2314.412,
+            2319.636
+          ],
+          "quote": "So can we see how the AI assistant has done on extending our personal productivity workflow?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2330.283,
+            2332.685
+          ],
+          "quote": "and now we can maybe go into the workflow,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2350.819,
+            2355.003
+          ],
+          "quote": "the process already tries to kind of test the workflow for you and runs it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2377.294,
+            2381.077
+          ],
+          "quote": "But in the end, you're going to get an updated workflow.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人工在环 (human in the loop)",
+      "file": "人工在环",
+      "primary": true,
+      "how_described": "本集把它说成：可靠生产级 AI 的公式之一——发邮件、创建日历事件这类动作被设成必须事先获得用户批准才执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            861.555,
+            862.875
+          ],
+          "quote": "And then you still need human in the loop.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "auditability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可审计性 (auditability)",
+      "file": "可审计性",
+      "primary": true,
+      "how_described": "本集把它说成：可视化画布相对生成代码的关键优势——每步执行的输入输出、为何走某条路径都可点开检查，而代码只能看到整体的输入输出，里面是黑箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            478.362,
+            483.547
+          ],
+          "quote": "security, auditability, reliability, to really understand what those words mean.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1477.247,
+            1480.131
+          ],
+          "quote": " So another word we talked about was auditability.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-host",
+      "type": "concept",
+      "role": "concept",
+      "name": "自托管 (self-host)",
+      "file": "自托管",
+      "primary": true,
+      "how_described": "本集把它说成：N8N 的重要差异点——可跑在用户自己的基础设施上，数据不出门，满足数据隐私与安全需求，也是很多人从 Claude Code 原型迁移到 N8N 的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            1401.687,
+            1404.248
+          ],
+          "quote": "on your infrastructure you can actually self-host it so if you want",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2489.03,
+            2492.9744444444445
+          ],
+          "quote": "but I think obviously if you want to self-host it and things like that,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集把它说成：确保 AI 输出可靠、切换模型时验证性能一致的机制，由专门的 AI Trust Team 负责并有内部产品；被谈论得多、实际用得少，因为难创建，这个领域还有很大机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1145,
+          "t": [
+            3679.701,
+            3683.324
+          ],
+          "quote": "One thing I don't see on this list is evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1146,
+          "t": [
+            3683.504,
+            3685.185
+          ],
+          "quote": "What do you think about evals?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            3689.067,
+            3692.8219999999997
+          ],
+          "quote": " Be owning the evals or at least defining, you know, the golden set.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            3692.872,
+            3696.337
+          ],
+          "quote": "What is the role of evals for PMs at N8N?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            3731.427,
+            3733.23
+          ],
+          "quote": "people have to understand evals very,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1162,
+          "t": [
+            3733.27,
+            3735.693
+          ],
+          "quote": "very deeply and I think actually evals are,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            3756.18,
+            3758.742
+          ],
+          "quote": "Like you can create your own evals in NNN.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1174,
+          "t": [
+            3763.946,
+            3765.1569999999997
+          ],
+          "quote": "and actually create more evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            3769.531,
+            3773.714
+          ],
+          "quote": "evals are the way to actually ensure that especially if you want to switch,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lindy",
+      "type": "company",
+      "role": "company",
+      "name": "Lindy",
+      "file": "Lindy",
+      "primary": false,
+      "how_described": "本集顺带提到：主持人曾采访其创始人，其承认 Claude Cowork 对他们业务影响很大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            498.399,
+            499.78999999999996
+          ],
+          "quote": "I had on the founder of Lindy,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            499.84,
+            504.444
+          ],
+          "quote": "who I used Lindy personally for some of the similar things I would use N8N for,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sap",
+      "type": "company",
+      "role": "company",
+      "name": "SAP",
+      "file": "SAP",
+      "primary": true,
+      "how_described": "本集把它说成：N8N 的战略投资方（52 亿美元估值），还把 N8N 内置进自家产品，让客户开箱即用地在里面构建智能体自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            578.478,
+            581.62
+          ],
+          "quote": "you guys announced your strategic investment from SAP,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            755.189,
+            757.873
+          ],
+          "quote": "It's like, again, talk about SAP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            781.602,
+            786.584
+          ],
+          "quote": "So it means like really it kind of makes NNN this kind of AI layer instead of SAP",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -215,7 +215,7 @@ Benchling 在 12 个月里遭遇了七年的客户流失，那场磨砺里他全
 
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)、预训练 (pre-training)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、后训练 (post-training)</span>
-- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)</span>
+- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|把开源大模型跑进生产环境:推理平台背后的四层优化]]<span class="pd-rz">同公司:NVIDIA · 同概念:后训练 (post-training)、推理 (inference)</span>
 
 </div>
 </div>

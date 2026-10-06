@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OAuth</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OAuth">OA</div><div class="pi"><h1 class="pt">OAuth</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OAuth">OA</div><div class="pi"><h1 class="pt">OAuth</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]]**(26:49起):本集把 OAuth 当作上一代身份基础设施的代表（社交登录、Okta 时代），并讲其阵营正涌现 cross-app access，试图让智能体以智能体身份而非人类转交密钥来认证。
 - **[[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]]**(13:28起):本集提到 2025 年 3 月规范引入 OAuth 后,他们面临本地还是远程 server 的选择,最后选择搁置、先做本地验证产品市场契合。
 - **[[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]]**(06:23起):本集中风险场景的关键:通过 OAuth 按权限范围把保险库里的支付凭证访问权开放给各商家,构建互信的封闭生态。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为概念
 - [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为概念(提及)
 - [[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]] — 作为概念
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Jesse Lumarie]] · [[Jay Mok]] · [[Figma]] · [[Ben Coumes]] · [[MCP 服务器]] · [[PayPal]] · [[评估]] · [[智能体授权]] · [[CodeConnect]]
+[[智能体]] · [[Simon Mayfor]] · [[Jesse Lumarie]] · [[Jay Mok]] · [[Ian Livingstone]] · [[Figma]] · [[Ben Coumes]] · [[Glyfer Johnny]] · [[MCP 服务器]] · [[PayPal]]
 
-<script type="application/json" class="pd-epn">{"智能体":411,"Jesse Lumarie":1,"Jay Mok":1,"Figma":22,"Ben Coumes":1,"MCP 服务器":2,"PayPal":6,"评估":5,"智能体授权":1,"CodeConnect":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"Simon Mayfor":2,"Jesse Lumarie":1,"Jay Mok":1,"Ian Livingstone":1,"Figma":22,"Ben Coumes":1,"Glyfer Johnny":1,"MCP 服务器":2,"PayPal":6}</script>
 
 <script>
 (function(){

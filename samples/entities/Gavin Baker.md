@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]] [[Jason Kelligan]] [[Devin Thomas]]
+[[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]] [[Molly O'Shea]] [[John Collison]] [[Venky Ganesan]] [[Chase Lochmiller]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":5,"NVIDIA":56,"Google":59,"TPU":3,"OpenAI":164,"Anthropic":175,"Broadcom":5,"AMD":5,"Gemini":14,"ChatGPT":97}</script>
+<script type="application/json" class="pd-epn">{"David George":5,"NVIDIA":57,"Google":60,"TPU":3,"OpenAI":165,"Anthropic":177,"Broadcom":5,"AMD":5,"Gemini":14,"ChatGPT":98}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Microsoft]] · [[推理]] · [[Anthropic]] · [[Google]] · [[Amazon]] · [[Sachin Katti]] · [[Ben Thompson]] · [[Martin Casado]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":164,"Microsoft":28,"推理":77,"Anthropic":175,"Google":59,"Amazon":28,"Sachin Katti":1,"Ben Thompson":1,"Martin Casado":5,"Matt Turk":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":165,"Microsoft":29,"推理":78,"Anthropic":177,"Google":60,"Amazon":29,"Sachin Katti":1,"Ben Thompson":1,"Martin Casado":5,"Matt Turk":4}</script>
 
 <script>
 (function(){

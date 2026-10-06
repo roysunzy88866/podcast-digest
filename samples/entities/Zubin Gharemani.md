@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":6,"不确定性":1,"贝叶斯规则":1,"大语言模型":10,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":8}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":7,"不确定性":1,"贝叶斯规则":1,"大语言模型":10,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":8}</script>
 
 <script>
 (function(){

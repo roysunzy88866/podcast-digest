@@ -1,0 +1,1804 @@
+{
+  "episode_id": "2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-08-11",
+  "tags": [
+    "智能体安全",
+    "身份与授权",
+    "OAuth 与 MCP",
+    "同意疲劳",
+    "企业安全"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "simon-mayfor",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Mayfor",
+      "file": "Simon Mayfor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.52,
+            49.68
+          ],
+          "quote": "Join your host, Glyfer Johnny, and me, Simon Mayfor, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ian-livingstone",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ian Livingstone",
+      "file": "Ian Livingstone",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            149.12,
+            157.12
+          ],
+          "quote": "And so to kind of demystify this whole domain and understand how to tackle that, we've got Ian Livingstone, who is the co-founder of Key Card.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "glyfer-johnny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Glyfer Johnny",
+      "file": "Glyfer Johnny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.52,
+            49.68
+          ],
+          "quote": "Join your host, Glyfer Johnny, and me, Simon Mayfor, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "key-card",
+      "type": "company",
+      "role": "company",
+      "name": "Key Card",
+      "file": "Key Card",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            149.12,
+            157.12
+          ],
+          "quote": "And so to kind of demystify this whole domain and understand how to tackle that, we've got Ian Livingstone, who is the co-founder of Key Card.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2189.52,
+            2191.6
+          ],
+          "quote": "I mean, certainly that's something we're trying to do with Key Card.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2278.4,
+            2284.64
+          ],
+          "quote": "Key card can make those determinations for you, and then you get to say, you know what, if it's a delete, I should probably review.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2430.16,
+            2434.48
+          ],
+          "quote": "So I love that, and I love the sort of the dev taste of sort of a bunch of the sort of the key card uh stuff on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2818.56,
+            2823.92
+          ],
+          "quote": "Uh looking forward to seeing you know key card and uh and in general kind of this world uh mature for it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成「每次都是全新的生物」：非确定性、没有善恶观念、跨系统代表人类行动，这打破了上一代身份系统的所有假设，也迫使授权按任务来设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            7.36
+          ],
+          "quote": "Ultimately, the identity question is, how do I ensure when an agent does make a mistake, it doesn't do something catastrophic I didn't intend?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            23.2,
+            31.44
+          ],
+          "quote": "And the final question is how do I know that an agent is performing actions aligned with the intent of whoever set the agent to do something?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            184.96,
+            200.72
+          ],
+          "quote": "I'm super excited to talk about identity and agent and security and this whole bundle of things together today, and uh really help people understand sort of how one is like what's the problem, um, why is this a hot topic, like why is identity, like identity is like kind of boring, it's snooze fest, it's been for years, you know.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            313.6,
+            322.88
+          ],
+          "quote": "And so the fundamental question is how do I know that an agent is performing actions aligned with the intent of whoever set that agent to do something, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            329.92,
+            339.12
+          ],
+          "quote": "You got supply chain security is a part of it, you know, data security is a part of it, uh, but identity is very foundational in thinking through how do I have a secure agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            339.28,
+            344
+          ],
+          "quote": "And it's also foundational to think through how do I enable an agent to be autonomous, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            344.32,
+            353.2
+          ],
+          "quote": "Um, and the more autonomous an agent becomes, or the more autonomous you want an agent to be, the security equation becomes much more difficult to solve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            362.32,
+            372
+          ],
+          "quote": "And then ultimately the identity question is how do I ensure that when an agent does make a mistake, it doesn't do something catastrophic, I didn't intend, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            392.72,
+            409.52
+          ],
+          "quote": "But there's other problems of um how do I, you know, when I use an agent, if I ask an agent to do something, this is very common six months ago, was I asked the agent to optimize a database, a potential path to optimizing a database, it would actually be overright.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            411.84,
+            416.16
+          ],
+          "quote": "It makes it snappy, but that would be deeply unaligned with what the actual user wants that agent to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            444.08,
+            453.6
+          ],
+          "quote": "Or the safeties, like how likely is the agent to uh sort of choose to do a thing that is not a thing that you would have otherwise kind of reasoned and is allowed on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            453.76,
+            464
+          ],
+          "quote": "So I guess there's sort of a broader safety element, and some of that comes down to you know harnesses and context and all that of trying to sort of steer the agent to understand the lines are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            472.64,
+            483.68
+          ],
+          "quote": "One is uh, you know, who is the agent, you know, what is what is the sort of entity, right, that I'm signing it, and and the second is the the uh permissions, you know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            509.84,
+            514.56
+          ],
+          "quote": "Yeah, or another way to think is do I trust an agent be able to have perform this action?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            595.68,
+            601.36
+          ],
+          "quote": "And you know, if I want the agent to do useful things, like if it might not delete all of my inbox, but I'm still getting it to send emails, exactly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 113,
+          "t": [
+            613.12,
+            617.28
+          ],
+          "quote": "So what are the types of agent uh identity conversation that we have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 121,
+          "t": [
+            656.48,
+            674.08
+          ],
+          "quote": "And now the the fundamental challenge is okay, knowing that that's where we came from, how do we move to a world where I want, you know, I'm guide the journey, I want really want this agent to operate in a very long period of time on my behalf, because it's gonna have access to my Gmail or I have access to my Google Drive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            751.6,
+            755.2
+          ],
+          "quote": "Because there's like one question is I've got this agent, it's running on my behalf.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 134,
+          "t": [
+            755.28,
+            758.24
+          ],
+          "quote": "Uh can I know that it is the agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            769.12,
+            773.2
+          ],
+          "quote": "It might be, is my agent talking to another agent to perform actions on its behalf?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 144,
+          "t": [
+            785.12,
+            800.4
+          ],
+          "quote": "Like you know, as it as it comes along, um it might be it's around the communication of when I delegate a task, what is not just the uh the knowledge that it is my agent, but rather what is its scoped permissions right now within this world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 169,
+          "t": [
+            916.64,
+            926.64
+          ],
+          "quote": "And so much about this next generation is it is about authorization, which is how what things can this do, but it's also about what things has this agent seen or done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            936.16,
+            941.36
+          ],
+          "quote": "Actually, maybe I need to go talk to Guy and be like, hey guy, can you review this thing that the agent wants to do before it goes and does it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            954.48,
+            963.12
+          ],
+          "quote": "Because there's gonna be certain tasks that you assign an agent that you're gonna say, you know what, it's totally summarization where I'm pulling in a bunch of context, I'm summarizing a document for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            984,
+            996.24
+          ],
+          "quote": "And every person and organization, depending upon the context of what the agent is, who's using it, and what things it's re-asking, will have a different equate trust equation about what they think is okay for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1018.88,
+            1021.84
+          ],
+          "quote": "One is uh an agent as in an agentic workflow.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1088.32,
+            1099.28
+          ],
+          "quote": "Like, is that uh it's like, hey guy, you just stop using uh the agent like that, like use it in a more methodical fashion and delete that, or or or is there a better model for HUD to head?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1100.8,
+            1114.64
+          ],
+          "quote": "Like what we want to get to is a world where agents, you can assign agent a task, a task maybe something, hey, do like survey the internet and every day come back to me, or survey all of my assets, all of my inbox, and come back to me and tell me what happened, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1120.88,
+            1131.6
+          ],
+          "quote": "You you actually just like I've assigned you, I've given, I've delegated authority to you to perform things on my behalf and work in order for me to delegate to this agent, I and that agent actually, and this is where identity comes in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1131.68,
+            1133.28
+          ],
+          "quote": "We have to be able to identify the agent, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1133.44,
+            1139.04
+          ],
+          "quote": "So it's like I've given FUBAR agent for the contact for this task, this authority.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1180.08,
+            1196.32
+          ],
+          "quote": "Because when you think of like, I love to give the example of um like credit card chargebacks here, because if you ask your agent to perform uh uh a transaction on your behalf, and then you say, hold off a second, I didn't give it access to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1238.16,
+            1244.48
+          ],
+          "quote": "You know, one is uh separate kind of me from my agent and so use identities that are specific for that agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1245.04,
+            1253.2
+          ],
+          "quote": "Two is uh have a set of authorization that is um that is aligned to the task that you've just given uh the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1253.44,
+            1264.4
+          ],
+          "quote": "Uh and I guess three, which relates a little bit to the two, is if you're within like the the second one is easy when you've defined the task up front and it's not a long-lived agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1264.72,
+            1278.4
+          ],
+          "quote": "But when it's a long-lived agent, uh am I right in understanding that uh you're saying there's another kind of bucket of like ephemeral entity, the sort of entity that comes along, which is what is the current task being done?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1364.16,
+            1381.28
+          ],
+          "quote": "It's like I intend for this agent to be able to, you know, complete this type of task, and that allows another system, like an authorization system, to understand hey, this user or this company, right, somebody has assigned a mission to this agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1388,
+            1397.84
+          ],
+          "quote": "So that gives us a way to like think about how the concept of uh an agent's identity and their and the task they're working on travels across systems, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1398.16,
+            1413.04
+          ],
+          "quote": "Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1709.6,
+            1723.6
+          ],
+          "quote": "And then on um, there's a net new protocol called Agent Auth, written by Dick Hart, who um is a net new approach on a protocol to try and solve these quad these mission, session, orientation, and loop and move along with secrets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1767.04,
+            1770.96
+          ],
+          "quote": "This is you authenticating as a human, then giving that key now to the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1771.6,
+            1779.36
+          ],
+          "quote": "Instead, can we sort of create a protocol that allow the agent allows the agents to sort of authenticate as it as an agent and sort of have the appropriate?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1827.12,
+            1836.88
+          ],
+          "quote": "One is everybody, individuals and companies, more companies and individuals, are going to have things that you say, you know, no agent can do this without me being involved, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1881.12,
+            1889.84
+          ],
+          "quote": "The security team then has like a system that reviews it, or should it actually go back to you know the person that's operating on behalf of and says, hey, does Agent try to do this thing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1959.92,
+            1978.96
+          ],
+          "quote": "Uh, and uh and then you have uh uh I guess kind of this sort of new concept, which is you have these missions, you have to give them an identity, which is already like a little bit hard to sort of uh identify where that is, but then also you need to figure out what is the authorization to give them, what are the permissions, which will be a subset of your overall agent identity permissions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2057.44,
+            2076.96
+          ],
+          "quote": "And the question um is to think about what is the agent, what type of tools is the agent need to have access to and what type of agent should I have running in my ecosystem to do that, and how do I integrate that if it's an agent that is operating inside my company, I probably want that to integrate with my IDP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2099.76,
+            2105.68
+          ],
+          "quote": "Um, and there's other things that are designed uh specifically for solving this sort of agent-to-agent communication in a federated manner.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2129.6,
+            2140.16
+          ],
+          "quote": "And then of course you have your I'm building an agent that someone uses, and how does my agent or my MCP or whatever allow users to authenticate so it can carry down identity and access?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2146.4,
+            2151.28
+          ],
+          "quote": "So you in the organization you figure out how do I represent agent identities in my IDP?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2243.52,
+            2278.32
+          ],
+          "quote": "So with the way that we've architected our solution is if I'm you know using cloud code and we give access to some things, I download the keycard CLI, I cut run uh claude or cursor or pie or insert your your harness of choice, keycard, we integrated with the hook system, we then you basically tell keycard, hey, this agent can access these things, and it could be a set of MCPs or it could be a set of CLI tools or tool calls on my behalf, and then we make the from that point on, no longer do you actually have to yes, no, allow always consent dialogue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2284.72,
+            2298.88
+          ],
+          "quote": "And that thing, whether that thing's running on my local device or if it's running um in a sandbox someplace or it's cloud, it works the same way across all so one insertion point to allow your to allow your agent to be evolved into a software factory and have autonomy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2299.12,
+            2312.8
+          ],
+          "quote": "And then if you're on the flip side, I'm trying to build a service, I'm trying to build an agent or a tool that agents can talk to with the latest, greatest protocols without having to be a denity expert, you can use your SDKs, which then allow you to build those types of things that your agents can interact with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2502.16,
+            2510.72
+          ],
+          "quote": "Um, and that's by we do you get there by being able to describe high-level, yeah, like you know what, these are the situations where I'm really not okay with an agent doing something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2564.32,
+            2577.36
+          ],
+          "quote": "Uh you know, and I think the reality of uh uh of of kind of many many aspects of technology is that problems that were a nuisance, but we can kind of kind of get by with uh in the pre-agent era, but they were not great.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2577.44,
+            2582.24
+          ],
+          "quote": "The best teams handle them, and all those are now intolerable in the agent era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2656.88,
+            2672.08
+          ],
+          "quote": "And you'll see lots of companies really want to, because they want to have an agent forward experience, they'll really make interoperability across agent clients like a hive story, which means that like most people will be focused on actually building up net new auth components to support this.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份 (identity)",
+      "file": "身份",
+      "primary": true,
+      "how_described": "本集全场的核心问题：怎么确保智能体执行的操作符合指派它的人的意图。身份问题从大型机时代就有，每一波计算浪潮都在问「谁能何时何地做什么」，而智能体让认证与授权都要重构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            7.36
+          ],
+          "quote": "Ultimately, the identity question is, how do I ensure when an agent does make a mistake, it doesn't do something catastrophic I didn't intend?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            128.24,
+            131.12
+          ],
+          "quote": "And today we're gonna dive into identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 24,
+          "t": [
+            131.2,
+            140.64
+          ],
+          "quote": "You know, identity if you've been sort of exploring the security realm of agentic uh anything really uh has been you know the top uh topic of it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            157.76,
+            163.44
+          ],
+          "quote": "Uh uh that is uh a sort of a really exciting kind of company in the identity space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            163.52,
+            170.32
+          ],
+          "quote": "Uh, but also really Ian is really sharp and deep around explaining things as a whole, and specifically identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            174.96,
+            182.48
+          ],
+          "quote": "So we'll uh we'll learn about identity, we'll learn about what you can do, and we uh we'll hear a little bit about Keycard in the process of it as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            184.96,
+            200.72
+          ],
+          "quote": "I'm super excited to talk about identity and agent and security and this whole bundle of things together today, and uh really help people understand sort of how one is like what's the problem, um, why is this a hot topic, like why is identity, like identity is like kind of boring, it's snooze fest, it's been for years, you know.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            213.44,
+            221.2
+          ],
+          "quote": "Just tell us a little bit about what what are the uh the problems or sort of the you know, give us a bit of a structure for thinking about identity and agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            221.84,
+            226
+          ],
+          "quote": "So I think I think the first step we have to think about is like why is identity even a thing we talk about?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            226.08,
+            230.56
+          ],
+          "quote": "Like if we were to step back, and like identity has been a part of computing for as long as it existed, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            230.64,
+            244.56
+          ],
+          "quote": "The minute you had a mainframe and then I wanted to have multiple users, now you have an identity problem, which is like what files or programs on the system are guy's programs and files, and what files and systems are Ian's, and how does Guy have access to all of Ian stuff, or does Ian have access to all of Guy?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            273.76,
+            280.4
+          ],
+          "quote": "You know, with IAM and identity for for cloud vendors like an AWS and GCP and secrets for all, we've always had these problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            288.56,
+            295.84
+          ],
+          "quote": "And I and you know, the core crux of the identity problem when it comes to agents is this thing is built on like a probabilistic distribution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            329.92,
+            339.12
+          ],
+          "quote": "You got supply chain security is a part of it, you know, data security is a part of it, uh, but identity is very foundational in thinking through how do I have a secure agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            362.32,
+            372
+          ],
+          "quote": "And then ultimately the identity question is how do I ensure that when an agent does make a mistake, it doesn't do something catastrophic, I didn't intend, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            372.16,
+            380.08
+          ],
+          "quote": "And so today, if you've you know have paid attention or have read, there's lots of different agentic problems associated with identity that people talk about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            464.32,
+            467.84
+          ],
+          "quote": "And I guess that's that's not really identity, those are like agentic workflows.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            468,
+            472.32
+          ],
+          "quote": "But then next to that, I think we have sort of two aspects of identity that you touch on there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            483.92,
+            487.52
+          ],
+          "quote": "I guess we talk about authentication and authorization in identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            514.72,
+            521.92
+          ],
+          "quote": "Yeah, it you know, identity and access, uh delegation, uh all these things are fundamental components of that, as they are in every other era of computing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            522.56,
+            532.88
+          ],
+          "quote": "And you know, to a certain extent, you when it comes to identity and access, there you'll have deterministic controls around what agents can do, and you'll have non-deterministic controls.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            613.12,
+            617.28
+          ],
+          "quote": "So what are the types of agent uh identity conversation that we have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            620.8,
+            627.36
+          ],
+          "quote": "And if you look at sort of the identity systems of last generation, like the way I would give a piece of software access to something is I would give it an API key.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            638.8,
+            649.68
+          ],
+          "quote": "And and the issue with shared secrets is they often bound strictly to a specific identity, and they bound specifically strictly to a set of permissions associated with that long-lived secret.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            747.28,
+            751.36
+          ],
+          "quote": "So I I feel like uh uh the word identity is like uh can be a little bit confusing here, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            758.64,
+            762.64
+          ],
+          "quote": "So like I feel when I hear identity, I I think primarily about who is it that is acting.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 147,
+          "t": [
+            805.28,
+            809.36
+          ],
+          "quote": "So is that I guess people like again, the word identity is used for the market on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            815.2,
+            826.08
+          ],
+          "quote": "Because if you look at in the identity world, the cloud when we getting to the cloud was really about can I identify, so authenticate that guy Pajurney is in fact guy Pajerney when Guy goes to Google Drive?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            998,
+            1010.08
+          ],
+          "quote": "So really what you want is you want the uh the identity, or really like this identity plus authorization bundle to be task-based, to be I'm performing a task, this task should have a set of permissions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1120.88,
+            1131.6
+          ],
+          "quote": "You you actually just like I've assigned you, I've given, I've delegated authority to you to perform things on my behalf and work in order for me to delegate to this agent, I and that agent actually, and this is where identity comes in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1143.36,
+            1151.52
+          ],
+          "quote": "It's like this is why we talk about identity is okay, well, in order to give something your authority to do something on your behalf, you both have to be able to be able to identify that thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1196.96,
+            1224.08
+          ],
+          "quote": "How does the intermediary be like, well, actually, no, we have a record uh, in fact, that you did tell FUBAR to go and do this thing, and then you said it could spend up to $500, and it did do that thing, so we're actually not gonna process that chargeback because you did do it with today's identity systems, with what we built in the last generation, you can't differentiate between, well, did Guy give FUBAR that access for this specific task or a different task, or where's FUBAR in the mix?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1310.16,
+            1315.76
+          ],
+          "quote": "We had a system, we gave the system a task, we had to give it an identity, we had to give it uh uh a permission set.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1388,
+            1397.84
+          ],
+          "quote": "So that gives us a way to like think about how the concept of uh an agent's identity and their and the task they're working on travels across systems, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1429.76,
+            1435.52
+          ],
+          "quote": "So this is like a so we have human identities, we have non-human identities, and is there now a mission identity?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1436.72,
+            1445.12
+          ],
+          "quote": "And it's uh ta typically this is a s there's there's in it in you can think of these concepts of inside identity, there's been this concept of session for a long time, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1477.44,
+            1487.12
+          ],
+          "quote": "And if you if you think of it from that perspective, that's how the layer of the complexity of identity systems have are that that agents force for us to be able to solve a lot of these safety concerns across the system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1633.76,
+            1643.36
+          ],
+          "quote": "These are all kind of examples of places where you would sort of centrally define your sort of identity, your authentication, like your system, but then you'd be able to kind of plug that in to many places.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1780.72,
+            1791.28
+          ],
+          "quote": "And that's like a a bit more of a uh uh sort of like a technical path with sort of the correct identity, but it doesn't solve the sort of the the uh the mission sort of identity like problem that we talked about before.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1791.6,
+            1794.24
+          ],
+          "quote": "I guess the sort of the second bucket is more around that sort of mission identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1795.2,
+            1809.76
+          ],
+          "quote": "And for the mission identity, like where is the point in time in which and and and like who is involved in saying, fine, there's a mission, you've done it, but like what are the permissions that are allowed over here?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1959.92,
+            1978.96
+          ],
+          "quote": "Uh, and uh and then you have uh uh I guess kind of this sort of new concept, which is you have these missions, you have to give them an identity, which is already like a little bit hard to sort of uh identify where that is, but then also you need to figure out what is the authorization to give them, what are the permissions, which will be a subset of your overall agent identity permissions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2129.6,
+            2140.16
+          ],
+          "quote": "And then of course you have your I'm building an agent that someone uses, and how does my agent or my MCP or whatever allow users to authenticate so it can carry down identity and access?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2171.12,
+            2185.12
+          ],
+          "quote": "Are the solutions all like some of the problems that you've described are things that I might as an individual or as a team also say, well, within within my sort of processes that I'm running here, I want some sort of mission identity, mission permission definitions on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2485.84,
+            2489.68
+          ],
+          "quote": "But that core new mission identity and permissions are sort of a uh a new entity to create.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2607.12,
+            2614.64
+          ],
+          "quote": "So uh I mean one aspect of it is with all this identity and evolutions of it, you know, what is the transition periods to it and what is immediately carrying and all that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2694.16,
+            2712.88
+          ],
+          "quote": "Both because like there's huge promise, but also because the identity and access systems will upgrade to the point where it allows that interoperability in the enterprise will allow these things to communicate to each other while the security team will have like the things that they need to say uh to keep the company secure, which has often been part of the reason that those systems didn't connect, is because they didn't have a good way to actually manage information sharing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2734.56,
+            2738.16
+          ],
+          "quote": "And that's certainly been the history of identity and access for the last 30 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2812.24,
+            2818.4
+          ],
+          "quote": "Ian, thanks a lot for coming in, you know, kind of demystifying, kind of like helping us uh understand identity uh on it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命 (mission)",
+      "file": "使命",
+      "primary": true,
+      "how_described": "本集说新兴标准里把任务叫「使命」：把用户意图描述成具体的东西，授权系统才能衡量智能体的每个访问请求「是否符合人类意图」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1334.08,
+            1335.84
+          ],
+          "quote": "Um, in literature, it's called a mission.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1335.92,
+            1339.28
+          ],
+          "quote": "Um, is like often in standards that are starting to emerge, there's that concept of a mission.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1339.36,
+            1351.92
+          ],
+          "quote": "And the mission is over time, as users or other people give assigned work for these things to do, you're going to think about here are the missions or the quests I've assigned to this thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1352.4,
+            1356.96
+          ],
+          "quote": "And I as a user will update what that mission is as we learn things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1357.52,
+            1364.08
+          ],
+          "quote": "And really, what that mission is is about describing the user's intent as a concrete thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1364.16,
+            1381.28
+          ],
+          "quote": "It's like I intend for this agent to be able to, you know, complete this type of task, and that allows another system, like an authorization system, to understand hey, this user or this company, right, somebody has assigned a mission to this agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1381.52,
+            1387.84
+          ],
+          "quote": "That mission is something I can measure their requ access requests against and say, is this aligned with human intent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1429.76,
+            1435.52
+          ],
+          "quote": "So this is like a so we have human identities, we have non-human identities, and is there now a mission identity?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1685.6,
+            1694.96
+          ],
+          "quote": "Um, but the fundamental issue is what are the new technologies or techniques that are coming out to help do the session mission per tasking?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1709.6,
+            1723.6
+          ],
+          "quote": "And then on um, there's a net new protocol called Agent Auth, written by Dick Hart, who um is a net new approach on a protocol to try and solve these quad these mission, session, orientation, and loop and move along with secrets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1780.72,
+            1791.28
+          ],
+          "quote": "And that's like a a bit more of a uh uh sort of like a technical path with sort of the correct identity, but it doesn't solve the sort of the the uh the mission sort of identity like problem that we talked about before.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1791.6,
+            1794.24
+          ],
+          "quote": "I guess the sort of the second bucket is more around that sort of mission identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1795.2,
+            1809.76
+          ],
+          "quote": "And for the mission identity, like where is the point in time in which and and and like who is involved in saying, fine, there's a mission, you've done it, but like what are the permissions that are allowed over here?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1847.84,
+            1852.08
+          ],
+          "quote": "And those are easy, because those are like not mission decisions, those are like just ground wide decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1853.84,
+            1859.76
+          ],
+          "quote": "Now, when it comes to mission decisions, this is really where fit patterns like Elm as a judge start to start to emerge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1917.84,
+            1929.6
+          ],
+          "quote": "So the mission componentry, one part of it is getting all the protocols and the functionality in place so that you can sort of federate out what is it that this person said this thing's actually supposed to be doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2171.12,
+            2185.12
+          ],
+          "quote": "Are the solutions all like some of the problems that you've described are things that I might as an individual or as a team also say, well, within within my sort of processes that I'm running here, I want some sort of mission identity, mission permission definitions on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2464.88,
+            2474
+          ],
+          "quote": "But this notion of these mission identities uh and uh uh uh agentically decided uh uh uh permission set for that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2485.84,
+            2489.68
+          ],
+          "quote": "But that core new mission identity and permissions are sort of a uh a new entity to create.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "session",
+      "type": "concept",
+      "role": "concept",
+      "name": "会话 (session)",
+      "file": "会话",
+      "primary": true,
+      "how_described": "本集用这个老概念锚定新模型：过去浏览器 cookie 的会话只回答「你是谁」，现在要回答三个问题——你是谁、你在代表谁行动、为了什么目的，而目的决定它能访问什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1064.72,
+            1072.64
+          ],
+          "quote": "Like I do one thing and then I come back, it's just like I've got this other one, and I oftentimes just sort of run it in like one long session that I walk around.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1436.72,
+            1445.12
+          ],
+          "quote": "And it's uh ta typically this is a s there's there's in it in you can think of these concepts of inside identity, there's been this concept of session for a long time, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1445.2,
+            1456.32
+          ],
+          "quote": "It's like I log into a website, that creates a session, often from you know 1990 to 2000 year web, it's a cookie in your browser, yeah, and that represents some session, and that session helps identify who you are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1456.64,
+            1467.36
+          ],
+          "quote": "And now it's not just a session, isn't just um who you are, it's who are you acting on behalf of, yeah, and it is also for what purpose.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1488.24,
+            1491.68
+          ],
+          "quote": "I love the session analogy because it's something you can kind of relate to on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1685.6,
+            1694.96
+          ],
+          "quote": "Um, but the fundamental issue is what are the new technologies or techniques that are coming out to help do the session mission per tasking?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1709.6,
+            1723.6
+          ],
+          "quote": "And then on um, there's a net new protocol called Agent Auth, written by Dick Hart, who um is a net new approach on a protocol to try and solve these quad these mission, session, orientation, and loop and move along with secrets.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "non-deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "非确定性 (non-deterministic)",
+      "file": "非确定性",
+      "primary": true,
+      "how_described": "本集开场点出的反直觉事实：模型能推理、能对海量数据猜测，非确定性是特性；但从安全角度看它就是 bug——特性和 bug 是同一回事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.48,
+            17.36
+          ],
+          "quote": "Um, and that it is non-deterministic, that's a feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            17.76,
+            21.04
+          ],
+          "quote": "The bug from a security perspective is that it's non-deterministic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            303.68,
+            306.48
+          ],
+          "quote": "Um, and that it is non-deterministic, that's the feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            306.96,
+            312
+          ],
+          "quote": "The bug from a security perspective is that it's non-deterministic and that it's still a feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            522.56,
+            532.88
+          ],
+          "quote": "And you know, to a certain extent, you when it comes to identity and access, there you'll have deterministic controls around what agents can do, and you'll have non-deterministic controls.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "consent-fatigue",
+      "type": "concept",
+      "role": "concept",
+      "name": "同意疲劳 (consent fatigue)",
+      "file": "同意疲劳",
+      "primary": true,
+      "how_described": "本集说「是/否/始终允许」对话框最糟糕的是人们不读直接点「是」，这让安全系统彻底失去信号，也是今天智能体安全最大的挑战之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            1893.44,
+            1899.6
+          ],
+          "quote": "And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "oauth",
+      "type": "concept",
+      "role": "concept",
+      "name": "OAuth",
+      "file": "OAuth",
+      "primary": true,
+      "how_described": "本集把 OAuth 当作上一代身份基础设施的代表（社交登录、Okta 时代），并讲其阵营正涌现 cross-app access，试图让智能体以智能体身份而非人类转交密钥来认证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1609.04,
+            1620.96
+          ],
+          "quote": "And we saw that with the rise of social on the web, you know, with the rise of OAuth, you things like OSero come along and made it really easy for developers to build um social login on their website and user management, which turned out to be a really hard problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1695.12,
+            1700.8
+          ],
+          "quote": "And so in OAuth, you have some movement there that's trying to trying to take over OAuth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1750.4,
+            1753.36
+          ],
+          "quote": "So like the OAuth, so you have the sort of broader challenges.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1753.52,
+            1760.8
+          ],
+          "quote": "One of the projects around OAuth, it's about sort of allowing agents, identifying as agents, not sort of masquerading as humans to use OAuth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2002.72,
+            2013.84
+          ],
+          "quote": "And so we kind of have you know, you have CLI tools which very much have not don't have any really off system built into them, and then you have MCP, which the nice thing about MCP is it comes out of the box with like OAuth support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2013.92,
+            2024.48
+          ],
+          "quote": "So in order to be an MCP, you have to have OAuth support, and that OAuth support um gives a pathway for saying is does this thing actually support some of the concepts that we talked about, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2635.2,
+            2639.84
+          ],
+          "quote": "And so right now we're really sitting on last generations like OAuth like implementations, and it turns out most of them were.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 开箱自带 OAuth 支持，与 CLI 构成生态里的大战；Ian 的判断是 MCP 和 CLI 不是二选一，还要加上 PAM，三者结合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1999.76,
+            2002.56
+          ],
+          "quote": "There's this battle between CLI versus MCP, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2002.72,
+            2013.84
+          ],
+          "quote": "And so we kind of have you know, you have CLI tools which very much have not don't have any really off system built into them, and then you have MCP, which the nice thing about MCP is it comes out of the box with like OAuth support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2013.92,
+            2024.48
+          ],
+          "quote": "So in order to be an MCP, you have to have OAuth support, and that OAuth support um gives a pathway for saying is does this thing actually support some of the concepts that we talked about, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2024.96,
+            2032.16
+          ],
+          "quote": "And there's there's two broad ecosystems where there's solutions that only work for MCP, and then there's some solutions that only work for CLIs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2055.04,
+            2057.2
+          ],
+          "quote": "Um, and then you have sort of MCP only.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2092.16,
+            2099.52
+          ],
+          "quote": "You there's some tools on the market that look like an MCP gateway, which is a common topic, very much designed for MCPs, it's a giant proxy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2129.6,
+            2140.16
+          ],
+          "quote": "And then of course you have your I'm building an agent that someone uses, and how does my agent or my MCP or whatever allow users to authenticate so it can carry down identity and access?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2151.84,
+            2167.92
+          ],
+          "quote": "How do I sort of systematically control access to my systems by routing kind of a you know, blessing some sort of access grantor uh somewhere uh in it and then having it be accessed via CLI or MCP and run along?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2191.76,
+            2200.48
+          ],
+          "quote": "It's trying to empower teams to be able to just quickly and easily pick up agents, but also quickly and easily build their own agents where they're not constrained, whether it's MCP or CLI or a specific scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2202.4,
+            2212.16
+          ],
+          "quote": "And so we sort of look at it's it's actually not MCP and CLI, it's both, but it's also not PAM, it's all three combined.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2640.08,
+            2644.96
+          ],
+          "quote": "Not very good, and we're seeing a lot of that when you know you go use an MCP from some of your favorite providers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "本集说编程智能体的看家本领恰恰是不带任何授权体系的 CLI 工具，这使它们快、但也是安全盲区，是与 MCP 对立的另一大生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1999.76,
+            2002.56
+          ],
+          "quote": "There's this battle between CLI versus MCP, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2002.72,
+            2013.84
+          ],
+          "quote": "And so we kind of have you know, you have CLI tools which very much have not don't have any really off system built into them, and then you have MCP, which the nice thing about MCP is it comes out of the box with like OAuth support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2035.68,
+            2042.96
+          ],
+          "quote": "Because what we know is there's a set of agents, computer use agents, specifically coding agents, that CLI tools are their bread and butter, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2151.84,
+            2167.92
+          ],
+          "quote": "How do I sort of systematically control access to my systems by routing kind of a you know, blessing some sort of access grantor uh somewhere uh in it and then having it be accessed via CLI or MCP and run along?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2191.76,
+            2200.48
+          ],
+          "quote": "It's trying to empower teams to be able to just quickly and easily pick up agents, but also quickly and easily build their own agents where they're not constrained, whether it's MCP or CLI or a specific scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2202.4,
+            2212.16
+          ],
+          "quote": "And so we sort of look at it's it's actually not MCP and CLI, it's both, but it's also not PAM, it's all three combined.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2243.52,
+            2278.32
+          ],
+          "quote": "So with the way that we've architected our solution is if I'm you know using cloud code and we give access to some things, I download the keycard CLI, I cut run uh claude or cursor or pie or insert your your harness of choice, keycard, we integrated with the hook system, we then you basically tell keycard, hey, this agent can access these things, and it could be a set of MCPs or it could be a set of CLI tools or tool calls on my behalf, and then we make the from that point on, no longer do you actually have to yes, no, allow always consent dialogue.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 即裁判 (LM as a judge)",
+      "file": "LLM 即裁判",
+      "primary": true,
+      "how_described": "本集说用推理模型判断某件事是否合理，配合少数硬边界（如删除、超 500 美元交易留给人类），取代手工维护成百上千行策略文件——那正是上一代安全工具部署失败之处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2536.64,
+            2551.12
+          ],
+          "quote": "And that's where like high-level policy combined with like the LM as a judge feature helps people to see, oh, okay, so I'm not sitting there artistically defining hundreds and hundreds and hundreds a line of no policy files, which was you know what we learned.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集说沙箱流行是因为永远无法 100% 知道模型不会做某事，所以要有硬边界保证最坏情况被移除；并提到「云计算的最佳实践现在是智能体的基本要求」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            555.68,
+            558.96
+          ],
+          "quote": "And it's part of this is also the reason why things like sandbox is very popular right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            589.04,
+            591.92
+          ],
+          "quote": "So you there's uh one aspect of it is defining the sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2284.72,
+            2298.88
+          ],
+          "quote": "And that thing, whether that thing's running on my local device or if it's running um in a sandbox someplace or it's cloud, it works the same way across all so one insertion point to allow your to allow your agent to be evolved into a software factory and have autonomy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-auth",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent Auth 协议 (Agent Auth)",
+      "file": "Agent Auth 协议",
+      "primary": false,
+      "how_described": "本集提到 Dick Hart 写的全新协议 Agent Auth，试图把使命、会话、授权一次性解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1709.6,
+            1723.6
+          ],
+          "quote": "And then on um, there's a net new protocol called Agent Auth, written by Dick Hart, who um is a net new approach on a protocol to try and solve these quad these mission, session, orientation, and loop and move along with secrets.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cross-app-access",
+      "type": "concept",
+      "role": "concept",
+      "name": "跨应用访问 (cross-app access)",
+      "file": "跨应用访问",
+      "primary": false,
+      "how_described": "本集说这是 OAuth 阵营刚推出的动向，让智能体以智能体身份认证而不是人类登录后转交密钥，但只解决了问题的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1700.96,
+            1703.36
+          ],
+          "quote": "Some of the stuff that Oxford just came out was called cross-app access.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

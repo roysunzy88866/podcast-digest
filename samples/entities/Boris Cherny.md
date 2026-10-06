@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
+[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":411,"沙箱":76,"Claude Code":94,"Opus 5":4,"Anthropic":175,"系统提示词":8,"评估":5,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"沙箱":78,"Claude Code":95,"Opus 5":4,"Anthropic":177,"系统提示词":8,"评估":5,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/8aVbXXvJUY4.m4a",
+  "duration_sec": 1014.561,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 194,
+  "asr": true,
+  "title_en": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "added": "2026-10-06",
+  "added_at": "2026-10-06T02:08:37.993Z",
+  "speaker_map": {
+    "SPEAKER_00": "Ivan Leo"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Ivan Leo"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体",
+  "guest_name": "Ivan Leo",
+  "guest_title": "Google DeepMind 开发者体验",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

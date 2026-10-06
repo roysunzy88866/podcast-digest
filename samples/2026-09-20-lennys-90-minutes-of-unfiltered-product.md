@@ -192,7 +192,7 @@ Peter 给出的优秀 PM 画像，是三组必须共存的矛盾：**自信近�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Meta、OpenAI、SpaceX</span>
 - [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Meta、OpenAI、SpaceX</span>
-- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:OpenAI、Meta · 同概念:广告 (ads)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:信任 (trust)</span>
 
 </div>
 </div>

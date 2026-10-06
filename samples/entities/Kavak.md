@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anish Acharya]] · [[a16z]] · [[OpenAI]] · [[Anthropic]] · [[Wabi]] · [[Cursor]] · [[Decagon]] · [[Google]] · [[智能体]] · [[循环]]
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"a16z":18,"OpenAI":164,"Anthropic":175,"Wabi":2,"Cursor":80,"Decagon":9,"Google":59,"智能体":411,"循环":10}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"a16z":18,"OpenAI":165,"Anthropic":177,"Wabi":2,"Cursor":80,"Decagon":9,"Google":60,"智能体":417,"循环":10}</script>
 
 <script>
 (function(){

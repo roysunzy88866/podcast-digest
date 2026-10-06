@@ -1,0 +1,982 @@
+{
+  "episode_id": "2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-08-25",
+  "tags": [
+    "AI 编程",
+    "智能体编程",
+    "TDD",
+    "软件工厂",
+    "工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lada-kesseler",
+      "type": "person",
+      "role": "host",
+      "name": "Lada Kesseler",
+      "file": "Lada Kesseler",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agentic-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编程 (agentic coding)",
+      "file": "智能体编程",
+      "primary": true,
+      "how_described": "本集的主线场景:开发者从写代码转向提示智能体、构建循环,整集围绕如何在智能体编程中打磨产出质量展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            30.24,
+            36.88
+          ],
+          "quote": "The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI and agentic coding.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 15,
+          "t": [
+            60.24,
+            63.84
+          ],
+          "quote": "Agentic coding is moving fast enough to give anyone whiplash.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1668.48,
+            1681.12
+          ],
+          "quote": "Um, let's talk about um maybe some other tips of what you think developers uh should be doing, could be doing, that they tend not to uh naturally do in their agentic coding.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:被故意训练来取悦你的黑箱,一次只擅长做一件事,需要靠规则、skill 和测试来引导与校验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            252.88,
+            261.6
+          ],
+          "quote": "So and I find that oftentimes when you actually like working with a coding agent, you also get much better intuition for to how to write a genetic system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            700.08,
+            704.96
+          ],
+          "quote": "And that's the thing actually that's written for the agent for it to know when to invoke it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            705.04,
+            717.52
+          ],
+          "quote": "And the whole point is like, unlike the old MCPs that just you know shopped all the instructions for itself in your context and just garbaged it completely, you have just this little thing over there, and then the agent sees this, they're like, Oh, I have a TDD skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            740.4,
+            744.24
+          ],
+          "quote": "So that's how the agent determines whether it should use that skill or not.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 190,
+          "t": [
+            744.96,
+            749.68
+          ],
+          "quote": "And when you have many, many skills, it's also there to help the agent decide.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 192,
+          "t": [
+            753.44,
+            754.32
+          ],
+          "quote": "The agent's got no chance.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1126.4,
+            1131.52
+          ],
+          "quote": "Um it actually reminds me that so this week we actually um launched Tesla Agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1132.08,
+            1139.28
+          ],
+          "quote": "And and I'll I'll mention this for one reason that um there's a cool, really cool thing that I love called verifies uh in in Tesla Agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1139.84,
+            1143.28
+          ],
+          "quote": "And you can write you can use Tesla Agent to kind of like kick off code reviews.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1164.72,
+            1170.48
+          ],
+          "quote": "Whereas if I was to say to an agent, just do that, it will do it and it will do it well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1213.44,
+            1236.72
+          ],
+          "quote": "Like we're doing something similar, so we have deterministic triggers that detect some code smells, like long method or a dead code, and then it triggers something, and then that that thing can be pluggable, so it can be like, hey, plug an agent to that to be like, hey, here's a prompt to do this for long methods, here's a long method, let's make it better, and here's how recipes so one focused do this, or it may be invoking a linter or a formatter, even right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1300.96,
+            1309.12
+          ],
+          "quote": "Do we just go to the agent and do a do like a you know rapidly rapidly applicate a rapidly developed application first, prototype, then do architecture?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1339.68,
+            1347.52
+          ],
+          "quote": "So it produced me HTML artifacts, and I can I can comment on each individual one, and then I can send all of that feedback to the agent, and it's much easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1349.28,
+            1353.92
+          ],
+          "quote": "So I more and more like I want this whiteboard with agent, and I'm trying to build one as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1409.6,
+            1412.8
+          ],
+          "quote": "Basically, I I take my code and I replace it with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1420.72,
+            1427.52
+          ],
+          "quote": "So whole my whole system is marked down file plus agent, and the agent goes through processes, and I get to experience the user experience from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1442.48,
+            1449.44
+          ],
+          "quote": "And the agent basically can be stand-in for code, for any code whatsoever, yeah, if you want to, but like it won't be deterministic, it won't be good, but I don't need good at this point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1449.68,
+            1453.2
+          ],
+          "quote": "So it's almost like you're you're mocking the current, you're mocking with an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1834,
+            1856.96
+          ],
+          "quote": "So it's very similar to kind of like uh we we're doing a lot right now thinking about uh sorry to bring it back to Tesla Agent, but um in Tesla Agent we have this uh this change risk, and and the key is it will determine or it will try to determine whether a change is high enough risk to be to be raised to say, hey, this needs human review, or whether it can is good enough to do LM review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2451.12,
+            2455.92
+          ],
+          "quote": "Um and uh then I have this Windsurf thing with Agent, where Agent lives, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2521.2,
+            2524.88
+          ],
+          "quote": "Provide the like teach the agent to do the test suit that is just like this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude MD",
+      "file": "Claude MD",
+      "primary": true,
+      "how_described": "本集说它是用户级的基本规则文件(ground rules),Lada 的只有 72 行,因为上下文内存稀缺,只放契约级规则。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            557.28,
+            559.52
+          ],
+          "quote": "Did you mention you put that in your Claude MD or that's the same thing?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 134,
+          "t": [
+            564.72,
+            566.88
+          ],
+          "quote": "But like my Claude MD, I know every line there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            664.4,
+            672.08
+          ],
+          "quote": "So I was expecting a one-liner in your Claude MD that says make sure you always do follow the TDD rules, and then a skill that explains the TDD rules.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "skill",
+      "file": "skill",
+      "primary": true,
+      "how_described": "本集说它是把流程细节从规则文件里拆出来的机制,靠顶部写给智能体自己看的 front matter(description)决定何时被自动调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            594.48,
+            595.92
+          ],
+          "quote": "It's a more skill-like, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            617.04,
+            617.36
+          ],
+          "quote": "It's a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            664.4,
+            672.08
+          ],
+          "quote": "So I was expecting a one-liner in your Claude MD that says make sure you always do follow the TDD rules, and then a skill that explains the TDD rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 177,
+          "t": [
+            693.28,
+            696.32
+          ],
+          "quote": "But um with TDD, basically I have a skill, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            696.4,
+            700
+          ],
+          "quote": "And the skill basically has this uh this little front matter at the top, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            705.04,
+            717.52
+          ],
+          "quote": "And the whole point is like, unlike the old MCPs that just you know shopped all the instructions for itself in your context and just garbaged it completely, you have just this little thing over there, and then the agent sees this, they're like, Oh, I have a TDD skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            732.32,
+            740.08
+          ],
+          "quote": "I'll just write a very lightweight, a very light rate description, and they completely mess up how that skill then gets activated.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            740.4,
+            744.24
+          ],
+          "quote": "So that's how the agent determines whether it should use that skill or not.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 194,
+          "t": [
+            755.6,
+            759.2
+          ],
+          "quote": "That's why I have like a skill factory basically that focuses on that explicitly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            770.48,
+            776.16
+          ],
+          "quote": "So I basically have like a one of the processes in the in the skill factory is like, hey, iterate over this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1186.32,
+            1188.88
+          ],
+          "quote": "And maybe it even points to the standards in this in the skill.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "tdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "TDD",
+      "file": "TDD",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            408.56,
+            417.68
+          ],
+          "quote": "Like you need to be careful to not just put all everything in your history and and your TDD process and your like everything else in there because it also has two not enough memory, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            607.2,
+            608.08
+          ],
+          "quote": "TDD, I think, is the best.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            609.52,
+            615.2
+          ],
+          "quote": "So why is TDD on a TDD is presumably a one-liner in your clawed MD and then Oh it isn't?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 155,
+          "t": [
+            619.92,
+            624.48
+          ],
+          "quote": "Uh so thing like so many people are saying, oh, TDD doesn't work with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            628.16,
+            633.68
+          ],
+          "quote": "And they're like, oh, we just tell it to TDD and it doesn't, because it like duh, it doesn't work, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            640.24,
+            646.32
+          ],
+          "quote": "And basically I just what I did how I got to it is I basically TDD'd with it uh for for like a session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            654.32,
+            657.76
+          ],
+          "quote": "Now I say, hey, clear session, let's TDD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            661.04,
+            662.56
+          ],
+          "quote": "So you you ask it to TDD?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 168,
+          "t": [
+            662.8,
+            663.68
+          ],
+          "quote": "I ask to TDD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            664.4,
+            672.08
+          ],
+          "quote": "So I was expecting a one-liner in your Claude MD that says make sure you always do follow the TDD rules, and then a skill that explains the TDD rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 171,
+          "t": [
+            672.24,
+            675.84
+          ],
+          "quote": "But if you if you're explicitly invoking it to the TDD, you're kind of in control.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 177,
+          "t": [
+            693.28,
+            696.32
+          ],
+          "quote": "But um with TDD, basically I have a skill, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            705.04,
+            717.52
+          ],
+          "quote": "And the whole point is like, unlike the old MCPs that just you know shopped all the instructions for itself in your context and just garbaged it completely, you have just this little thing over there, and then the agent sees this, they're like, Oh, I have a TDD skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            720.56,
+            724.16
+          ],
+          "quote": "So basically I have that, and that's what makes it automatically do TDD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1012.88,
+            1020.48
+          ],
+          "quote": "So let's just put my TDD process, let's just put all my like best practices and do this, and make sure not to screw up and make no mistakes and do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1941.04,
+            1943.04
+          ],
+          "quote": "I have BDD tests, I have TDD tests, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1943.2,
+            1944.8
+          ],
+          "quote": "TDD tests are for Asian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1982.72,
+            1984.72
+          ],
+          "quote": "Um so okay, I have this TDD stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "BDD",
+      "file": "BDD",
+      "primary": true,
+      "how_described": "本集说 BDD 测试是高层的验收级测试,写成小白板式的领域语言、极其易于扫读,用来回答「我的系统到底能不能用」,并确保智能体不能轻易修改它们。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 472,
+          "t": [
+            1941.04,
+            1943.04
+          ],
+          "quote": "I have BDD tests, I have TDD tests, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1988.96,
+            1991.92
+          ],
+          "quote": "And then I have BDD tests about does my system work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2000.64,
+            2006.48
+          ],
+          "quote": "So what I do a lot is like I write BDD level tests, I basically write it like a little whiteboardy domain language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2038.24,
+            2046.56
+          ],
+          "quote": "And your your BDD style tests, is that is that kind of does it use a similar Gherkin style approach to I use approval tests pretty much.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2086.4,
+            2089.76
+          ],
+          "quote": "And I use approval testing for this kind of BDD level test as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "approval-tests",
+      "type": "concept",
+      "role": "concept",
+      "name": "approval tests",
+      "file": "approval tests",
+      "primary": true,
+      "how_described": "本集说审批测试是先把系统当前输出批准为黄金标准、之后在固定行为前提下放心重构内部的技巧,Lada 用它实现 BDD 层级测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 494,
+          "t": [
+            2038.24,
+            2046.56
+          ],
+          "quote": "And your your BDD style tests, is that is that kind of does it use a similar Gherkin style approach to I use approval tests pretty much.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2058.16,
+            2060.32
+          ],
+          "quote": "Yeah, I I use approval tests for that, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2074.4,
+            2077.28
+          ],
+          "quote": "This golden standard, so approval tests, you approve this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "verifier",
+      "file": "verifier",
+      "primary": true,
+      "how_described": "本集说每个验证器只查一件事、在文件上确定性触发、跑得很短,合起来的代码审查结果好得多也快得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1170.88,
+            1177.92
+          ],
+          "quote": "Um now a verifier is very interesting because it takes a very specific thing and sometimes triggers deterministically on various files.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集把它说成:用智能体流水线式产出软件的热潮;Lada 对「一次性 AI」式做法(智能体生成智能体、skill 生成 skill)持警惕,主张先造出可信任的单个构建块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.52,
+            60.08
+          ],
+          "quote": "Tomorrow, you'll be running a software factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2116.48,
+            2124.4
+          ],
+          "quote": "And and I guess if you do, where are you on that journey right now to to becoming a software factory uh worker?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2128.48,
+            2130
+          ],
+          "quote": "No, software factory architect.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2130.16,
+            2132.72
+          ],
+          "quote": "When I said factory, I thought, oh, a factory workers, like a software factory worker.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2133.68,
+            2135.12
+          ],
+          "quote": "Yeah, the agents of the software factory workers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2142.32,
+            2144.48
+          ],
+          "quote": "Does it work like a software factory like we see today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2353.92,
+            2361.68
+          ],
+          "quote": "I I think people who think they can just switch into a software factory uh they're living a dream and they're and they're they're um It's not a good dream, I think.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "event-sourcing",
+      "type": "concept",
+      "role": "concept",
+      "name": "事件溯源 (event sourcing)",
+      "file": "事件溯源",
+      "primary": true,
+      "how_described": "本集说它是 Martin Dilger 流程的一部分:不折叠状态、每件事都有事件,Lada 打算亲试但也担心大量重复代码与聚合视图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 657,
+          "t": [
+            2593.2,
+            2599.44
+          ],
+          "quote": "Uh, another thing that's been on the radar radar for a long time is like this event sourcing and uh event modeling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "event-modeling",
+      "type": "concept",
+      "role": "concept",
+      "name": "事件建模 (event modeling)",
+      "file": "事件建模",
+      "primary": true,
+      "how_described": "本集说它是把流程想清楚、画成示意图、切成完全隔离的切片再生成代码的做法,重复代码很多但因从不重叠所以无所谓。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 657,
+          "t": [
+            2593.2,
+            2599.44
+          ],
+          "quote": "Uh, another thing that's been on the radar radar for a long time is like this event sourcing and uh event modeling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2622.96,
+            2641.04
+          ],
+          "quote": "There's some trade-offs on top of that, but basically what he's doing is he he's doing uh event modeling, which means he thinks through the process and he writes like uh this little like diagrams of what's happening, and then each one is a s like there's slices, so basically this piece of behavior does that, and then he generates the code for them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clot-flow",
+      "type": "concept",
+      "role": "concept",
+      "name": "Clot Flow",
+      "file": "Clot Flow",
+      "primary": false,
+      "how_described": "本集说 Lada 用她的常量问题测试各种工厂式方案,Claude Flow(原文转写作 Clot Flow)在她的对比里表现最差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            2177.04,
+            2181.84
+          ],
+          "quote": "Yeah, I've tried a little bit of this approach, like I I tried like the Clot Flow, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2192.24,
+            2195.76
+          ],
+          "quote": "And the Clot Flow, in my experience, did the worst job of them all.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的 skill 默认 front matter 模板效果不好,Lada 建了 skill 工厂迭代出好得多的版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            67.12,
+            77.44
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netlify, and GitHub cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 138,
+          "t": [
+            571.12,
+            576.96
+          ],
+          "quote": "And then um and unlike system prompts, it feels like um Anthropic just puts a lot of things in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            759.6,
+            762.32
+          ],
+          "quote": "Because I I find that anthropic default one doesn't work very well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "company",
+      "role": "company",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": false,
+      "how_described": "本集说 Lada 最早用 Windsurf 的 Agent,但要在它和 IntelliJ 重构工具间来回切换让她不满,最终转向终端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            2437.12,
+            2444.08
+          ],
+          "quote": "And I was in Windsurf, and immediately I was unhappy because I was uh I'm in love with IntelliJ, or I used to be in love with IntelliJ.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2451.12,
+            2455.92
+          ],
+          "quote": "Um and uh then I have this Windsurf thing with Agent, where Agent lives, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intellij",
+      "type": "company",
+      "role": "company",
+      "name": "IntelliJ",
+      "file": "IntelliJ",
+      "primary": false,
+      "how_described": "本集说它有行业里无与伦比的重构工具,曾是 Lada 留在 IDE 的理由,如今她只把 IDE 当文本编辑器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            2437.12,
+            2444.08
+          ],
+          "quote": "And I was in Windsurf, and immediately I was unhappy because I was uh I'm in love with IntelliJ, or I used to be in love with IntelliJ.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "logic-2020",
+      "type": "company",
+      "role": "company",
+      "name": "Logic 2020",
+      "file": "Logic 2020",
+      "primary": false,
+      "how_described": "本集介绍 Lada 是 Logic 2020 的首席工程师,一家业务遍布全美的小众外包合同公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            143.2,
+            150
+          ],
+          "quote": "Um now, Lada, you are uh uh working as a principal um engineer at Logic 2020, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Claude Code",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

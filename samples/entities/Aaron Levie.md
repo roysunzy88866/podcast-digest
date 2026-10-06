@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":77,"Sofia Puccini":4,"智能体":411,"Theo Jaffe":7,"应用层":4,"Anthropic":175,"LLM 套壳":1,"OpenAI":164}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":78,"Sofia Puccini":4,"智能体":417,"Theo Jaffe":7,"应用层":4,"Anthropic":177,"LLM 套壳":1,"OpenAI":165}</script>
 
 <script>
 (function(){

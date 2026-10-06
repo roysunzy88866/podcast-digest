@@ -175,9 +175,9 @@ n8n 内部也设了 AI 与自动化部门,但职责是赋能而非代建:创建[
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-05-pg-n8n-vs-claude-code|被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它]]<span class="pd-rz">同公司:n8n、Zapier · 同概念:人在回路 (human-in-the-loop)、可审计性 (auditability)、工作流 (workflow)、智能体 (agent)、自托管 (self-host)</span>
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM、开源 (open source)、智能体 (agent)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human-in-the-loop)、护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时]]<span class="pd-rz">同概念:开源 (open source)、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

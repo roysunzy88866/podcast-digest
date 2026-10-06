@@ -33,17 +33,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[SDK]] · [[LLM]] · [[GitHub]] · [[JetBrains]] · [[Docker]]
+[[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[SDK]] · [[LLM]] · [[GitHub]] · [[VS Code]] · [[JetBrains]]
 
 ## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]] [[Josh Goldberg]]
+[[Kath Korevec]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]] [[Jakub Hojsan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":175,"Claude Code":94,"智能体":411,"ClaudeMD":3,"MCP":76,"SDK":1,"LLM":55,"GitHub":29,"JetBrains":2,"Docker":5}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":177,"Claude Code":95,"智能体":417,"ClaudeMD":3,"MCP":78,"SDK":1,"LLM":55,"GitHub":29,"VS Code":6,"JetBrains":2}</script>
 
 <script>
 (function(){

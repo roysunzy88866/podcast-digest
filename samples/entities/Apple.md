@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,10 +30,11 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(00:00起):本集说它发布了首款折叠屏 iPhone Duo(1999 美元起、展开 7.6 英寸),新 CEO John Ternus 主持首场发布会,主持人评价偏冷静:成不成就看双屏价值够不够大,并期待 Ternus 时代全力做健康、交通和本地 AI。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:53起):本集说 Josh 在 Apple 待了近六年参与 Siri 新版本，并以 Apple 每年一版的发布节奏为例，说明带大众踏上新体验的旅程需要节制
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(00:00起):本集以它为选秀对象：主持人认为苹果的收购哲学向来是回购股票加补强式小技术团队收购（Siri、Touch ID 团队），主张新 CEO John Ternus 停止回购、做几次大豪赌，筛选标准是任何能整合进 iPhone、笔记本、手表、AirPods 和门店的东西，并寻求能取代 iPhone 依赖的千亿美元级收入线。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(05:52起):本集说 Apple 是黑马：天生握着设备入口，邮件、信息、日历、照片全部内置，甚至能看到你屏幕上的一切，缺的只是用户对 Siri 十多年积累的不信任。
 
 ## ① 提到它的金句
 
-*8 条*
+*10 条*
 
 ![[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#^q1]]
 
@@ -51,9 +52,13 @@ unlisted: true
 
 ![[2026-09-28-twist-the-5-companies-apple-must-buy#^q4]]
 
+![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q4]]
+
+![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q5]]
+
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -75,14 +80,15 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Lenny]] · [[NVIDIA]] · [[Meta]] · [[Amazon]] · [[推理]]
+[[Google]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Lenny]] · [[Meta]] · [[NVIDIA]] · [[Amazon]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Google":59,"智能体":411,"Anthropic":175,"OpenAI":164,"Microsoft":28,"Lenny":68,"NVIDIA":56,"Meta":43,"Amazon":28,"推理":77}</script>
+<script type="application/json" class="pd-epn">{"Google":60,"智能体":417,"Anthropic":177,"OpenAI":165,"Microsoft":29,"Lenny":68,"Meta":44,"NVIDIA":57,"Amazon":29,"ChatGPT":98}</script>
 
 <script>
 (function(){

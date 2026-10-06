@@ -130,9 +130,9 @@ Okta 的 AI 赋能团队在接入仓库时定了一套就绪标准,分两三类:
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」]]<span class="pd-rz">同概念:智能体 (agent)、身份 (identity)、非确定性 (non-deterministic)、沙箱 (sandbox)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

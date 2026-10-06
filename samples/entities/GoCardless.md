@@ -25,7 +25,7 @@ unlisted: true
 
 [[Y Combinator]] · [[Brex]] · [[智能体]] · [[AI 套壳]] · [[转型]] · [[分发]] · [[主观能动性]] · [[联合创始人]] · [[发布]]
 
-<script type="application/json" class="pd-epn">{"Y Combinator":7,"Brex":6,"智能体":411,"AI 套壳":1,"转型":3,"分发":7,"主观能动性":1,"联合创始人":4,"发布":1}</script>
+<script type="application/json" class="pd-epn">{"Y Combinator":7,"Brex":6,"智能体":417,"AI 套壳":1,"转型":3,"分发":7,"主观能动性":1,"联合创始人":4,"发布":1}</script>
 
 <script>
 (function(){

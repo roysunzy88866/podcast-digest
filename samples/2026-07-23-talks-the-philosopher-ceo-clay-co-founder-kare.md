@@ -189,9 +189,9 @@ Kareem 对自己的内省很直白：童年父母大离婚、跨国辗转，让�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|против药品福利巨头：Judy Health 创始人的产品市场契合之路]]<span class="pd-rz">同概念:透明 (transparency)</span>
 - [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同公司:Clay</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Clay</span>
-- [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人]]<span class="pd-rz">同概念:透明 (transparency)</span>
 
 </div>
 <div class="pd-ex">

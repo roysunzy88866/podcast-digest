@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Ellman]] [[Kath Korevec]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Chase Lochmiller]]
+[[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]] [[John Collison]] [[Tibo Sottiaux]] [[Sarah Simionescu]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":411,"MCP":76,"变革管理":3,"语义视图":1,"技能":28,"反馈回路":3,"护栏":77}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":417,"MCP":78,"变革管理":3,"语义视图":1,"技能":29,"反馈回路":3,"护栏":77}</script>
 
 <script>
 (function(){

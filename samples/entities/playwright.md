@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>playwright</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="playwright">PL</div><div class="pi"><h1 class="pt">playwright</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="playwright">PL</div><div class="pi"><h1 class="pt">playwright</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(19:06起):本集把它说成:一种非常好的自动化测试工具，可用于为网站截图，嘉宾凭经验引导 AI 使用它替代外部截图服务以优化技术选型。
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(10:17起):浏览器自动化工具，因为 VS Code 是跑在 Electron 里的网页应用（全是 HTML），他们用它做 slash launch 技能，让智能体打开应用、点击走完场景、拿日志自我验证修复
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Meng To]] · [[Akash]] · [[Codex]] · [[Cursor]] · [[obsidian]] · [[hey gen]] · [[智能体]] · [[上下文]] · [[护栏]] · [[Figma]]
+[[智能体]] · [[VS Code]] · [[MCP]] · [[Meng To]] · [[Harald Kirschner]] · [[Akash]] · [[Copilot CI]] · [[Codex]] · [[agents.md]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Meng To":1,"Akash":4,"Codex":80,"Cursor":80,"obsidian":1,"hey gen":1,"智能体":411,"上下文":26,"护栏":77,"Figma":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":417,"VS Code":6,"MCP":78,"Meng To":1,"Harald Kirschner":1,"Akash":4,"Copilot CI":1,"Codex":80,"agents.md":3,"Cursor":80}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jonathan Awad]] · [[Baselayer]] · [[产品市场契合]] · [[欺诈数据联盟]] · [[SVB]] · [[YC]] · [[SLA]] · [[客户成功]] · [[互惠]] · [[漏斗顶端]]
 
-<script type="application/json" class="pd-epn">{"Jonathan Awad":1,"Baselayer":1,"产品市场契合":26,"欺诈数据联盟":1,"SVB":3,"YC":17,"SLA":2,"客户成功":1,"互惠":1,"漏斗顶端":1}</script>
+<script type="application/json" class="pd-epn">{"Jonathan Awad":1,"Baselayer":1,"产品市场契合":27,"欺诈数据联盟":1,"SVB":3,"YC":17,"SLA":2,"客户成功":1,"互惠":1,"漏斗顶端":1}</script>
 
 <script>
 (function(){

@@ -128,7 +128,7 @@ Claude Code 能帮你写代码，但它没法替你决定「该写什么代码�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI、Apple、Microsoft · 同概念:AGI</span>
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI、Apple、Microsoft</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、Meta · 同概念:Gemini</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI、Apple、Microsoft</span>
 
 </div>
 <div class="pd-ex">
