@@ -1547,3 +1547,4 @@
 {"ts":"2026-10-05T13:40:02.306Z","action":"prefilter-skip","channel":"axios","videoId":"QV3vUezfly4","title":"Every Democrat who could run for president in 2028","reason":"标题不含必需关键词(full interview)"}
 {"ts":"2026-10-05T13:41:55.505Z","action":"seeded","channel":"aie","videoId":"YXb2Wx1r_Pk","title":"Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal","durationSec":965,"verdict":"对味","reason":"AI agent 商业落地的实操演讲(语义搜索、目录数据富化实验),非论文深水,属频道默认收录的 AI 工程主题"}
 {"ts":"2026-10-05T13:44:15.295Z","action":"seeded","channel":"langchain","videoId":"950byF7njfw","title":"Interrupt NYC: Opening Keynote","durationSec":1930,"verdict":"对味","reason":"agent 实操与 LangChain 产品讲解配真实企业案例(Rogo/Harvey/JPMorgan),属本频道默认收的题材"}
+{"ts":"2026-10-05T13:48:31.181Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
