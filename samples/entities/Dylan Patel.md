@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dylan Patel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Dylan Patel">DY</div><div class="pi"><h1 class="pt">Dylan Patel</h1><div class="byl">Dwarkesh Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Dylan Patel">DY</div><div class="pi"><h1 class="pt">Dylan Patel</h1><div class="byl">Dwarkesh Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条*
+*10 条*
 
 ![[2026-08-25-dwarkesh-dylan-patel-3#^q2]]
 
@@ -19,27 +19,42 @@ unlisted: true
 
 ![[2026-08-25-dwarkesh-dylan-patel-3#^q12]]
 
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q1]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q2]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q3]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q4]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q6]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q7]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q9]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为主持
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Meta]] · [[SpaceX]] · [[Google]] · [[NVIDIA]] · [[Jane Street]] · [[ASML]] · [[Carl Zeiss]] · [[算力]]
+[[OpenAI]] · [[Anthropic]] · [[Meta]] · [[Google]] · [[NVIDIA]] · [[资本支出]] · [[推理]] · [[SpaceX]] · [[SemiAnalysis]] · [[Jane Street]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":174,"Anthropic":184,"Meta":47,"SpaceX":21,"Google":64,"NVIDIA":59,"Jane Street":1,"ASML":3,"Carl Zeiss":1,"算力":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":175,"Anthropic":185,"Meta":48,"Google":65,"NVIDIA":60,"资本支出":7,"推理":83,"SpaceX":21,"SemiAnalysis":1,"Jane Street":1}</script>
 
 <script>
 (function(){

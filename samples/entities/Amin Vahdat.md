@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google":64,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":433,"DeepMind":13,"Gemini":15,"光路交换":1,"专业化":3}</script>
+<script type="application/json" class="pd-epn">{"Google":65,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":434,"DeepMind":14,"Gemini":15,"光路交换":1,"专业化":3}</script>
 
 <script>
 (function(){

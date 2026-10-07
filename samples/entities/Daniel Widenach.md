@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":433,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":80}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":434,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":80}</script>
 
 <script>
 (function(){

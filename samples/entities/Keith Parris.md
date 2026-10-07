@@ -67,11 +67,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":433,"记录系统":7}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":434,"记录系统":7}</script>
 
 <script>
 (function(){

@@ -163,9 +163,9 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:GPU、推理 (inference)、数据中心 (data center)</span>
 - [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:AGI、推理 (inference)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、token、推理 (inference)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:token、前沿模型 (frontier model)</span>
 
 </div>
 <div class="pd-ex">

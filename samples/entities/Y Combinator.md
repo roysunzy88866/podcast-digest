@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[联合创始人]] · [[Amazon]] · [[评估]] · [[OpenAI]] · [[AI]] · [[Uber]] · [[ChatGPT]] · [[Claude]] · [[GoCardless]]
 
-<script type="application/json" class="pd-epn">{"智能体":433,"联合创始人":4,"Amazon":30,"评估":5,"OpenAI":174,"AI":29,"Uber":16,"ChatGPT":99,"Claude":91,"GoCardless":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":434,"联合创始人":4,"Amazon":31,"评估":5,"OpenAI":175,"AI":29,"Uber":16,"ChatGPT":99,"Claude":91,"GoCardless":1}</script>
 
 <script>
 (function(){

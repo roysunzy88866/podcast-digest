@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>30</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>31</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,6 +39,7 @@ unlisted: true
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(00:06起):2017 年收购 Ring 的买家,Jamie 在其麾下待了五年,本集称赞其允许创始人离开后再回来掌舵的胸怀,并说 Ring 在 Amazon 旗下业务已增长远超 10 倍
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(09:29起):本集以 Amazon 拒绝 Muse 在其站点浏览购物为例，说明平台开放度决定智能体能力上限。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(20:20起):本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(13:34起):本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。
 
 ## ① 提到它的金句
 
@@ -56,7 +57,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*30 集*
+*31 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
@@ -88,14 +89,15 @@ unlisted: true
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[Shopify]] · [[NVIDIA]] · [[Meta]] · [[Apple]]
+[[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[NVIDIA]] · [[Meta]] · [[Shopify]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":174,"Anthropic":184,"Google":64,"智能体":433,"Microsoft":29,"ChatGPT":99,"Shopify":17,"NVIDIA":59,"Meta":47,"Apple":22}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":175,"Anthropic":185,"Google":65,"智能体":434,"Microsoft":29,"ChatGPT":99,"NVIDIA":60,"Meta":48,"Shopify":17,"Apple":22}</script>
 
 <script>
 (function(){

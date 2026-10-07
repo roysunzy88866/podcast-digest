@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex Hancock]] · [[Block]] · [[Goose]] · [[Zed]] · [[JetBrains]] · [[MCP]] · [[harness]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Alex Hancock":1,"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"MCP":80,"harness":60,"智能体":433}</script>
+<script type="application/json" class="pd-epn">{"Alex Hancock":1,"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"MCP":81,"harness":60,"智能体":434}</script>
 
 <script>
 (function(){

@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":433,"AX":1,"DX":4,"沙箱":79,"推理":82,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":434,"AX":1,"DX":4,"沙箱":79,"推理":83,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

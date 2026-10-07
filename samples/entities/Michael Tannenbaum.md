@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":47}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":48}</script>
 
 <script>
 (function(){

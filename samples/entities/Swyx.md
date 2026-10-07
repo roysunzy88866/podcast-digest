@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":79,"智能体":433,"推理":82,"Modal":6,"Cognition":25,"Anthropic":184,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":79,"智能体":434,"推理":83,"Modal":6,"Cognition":25,"Anthropic":185,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

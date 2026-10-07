@@ -227,8 +227,8 @@ Dylan 承认这改变了他的看法：到自动化研究员时代，中国的�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、Meta、NVIDIA、OpenAI、SpaceX · 同概念:AGI、CapEx</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Anthropic、Google、Meta、NVIDIA、OpenAI · 同概念:CapEx、推理 (inference)</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、SpaceX · 同概念:AGI、CapEx</span>
-- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Anthropic、Google、Meta、NVIDIA、OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

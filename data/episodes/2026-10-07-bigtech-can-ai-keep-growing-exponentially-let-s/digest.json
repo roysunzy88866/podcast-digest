@@ -1,0 +1,184 @@
+{
+  "title_zh": "AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌",
+  "tldr": "SemiAnalysis 创始人 Dylan Patel 与分析师 Jordan Annos 解析 AI 基建浪潮的真实规模、钱从哪来、会不会崩盘。",
+  "digest_md": "这一集聊的是所有人都关心的问题：AI 需要多大的规模，才能证明数万亿美元基础设施支出的合理性？嘉宾是 SemiAnalysis 的 CEO 兼创始人 Dylan Patel 和技术团队成员 Jordan Annos——SemiAnalysis 是 AI 基础设施领域最有影响力的研究机构。主持人抛出一张在 X 上流传的图：AI 建设占 GDP 的比例年均约 3.6%，比铁路当年的 2.2% 还高 50%，前所未有。Dylan 的第一反应是：「**大家的数字太低了，实际情况比那高得多了**」[02:50 Dylan Patel]。\n\n## 真实规模：不是 3.6%，是 5% 到 6%\n\nDylan 算了一笔账：明年全美国的 CapEx（资本支出，即买地建楼买芯片这些花在资产上的钱）将达到大约 2 万亿美元量级——不只是数据中心和芯片，还包括整个供应链的投资。而美国 GDP 大约 30 万亿出头，所以占比已经到了 5% 到 6%，不是 3% 或 2%[03:00 Dylan Patel]。\n\n为什么比铁路还夸张？因为铁路、光纤的 CapEx 都花在部署国境内，而 AI 基础设施不同：Anthropic 和 OpenAI 服务欧洲的大部分推理，是在美国的数据中心里跑的。全世界的训练在美国做、全世界的推理也大量从美国输出，所以美国的 CapEx 高得反常，容量的经济影响比以往任何一轮物理基建周期都大 [04:01 Dylan Patel]。\n\n## 增长会减速，但华尔街每次都猜错方向\n\nJordan 的 ClusterMax 报告追踪了超大规模云厂商的季度同比 CapEx 增长：2026 年第三季度高达 116%，而华尔街共识预期是四季度跌破 100%、明年一季度降到 70%、之后一路下滑。Jordan 认为到明年年底确实会碰到极限——不是需求没了，而是组织能力和资本跟不上：最大的新兴云厂商和超大规模云厂商很难在已建规模之上再调动资源多建一个吉瓦，也很难在数万亿美元的量级上继续筹到资本 [08:04 Jordan]。另外从数学上讲增速必然放缓：Anthropic 今年营收从不到 100 亿美元涨到超过 1000 亿，是 10 倍增长，但它明年不可能营收一万亿 [08:26 Dylan Patel]。\n\n## 对那些「还不起钱」的警告：大部分算错了\n\n主持人引用了几条悲观判断：高盛称 Meta「背负无法偿还的债务、实施了企业自杀」；Bain 说超大规模云厂商到 2031 年需要每年 6 万亿收入才能盈亏平衡；哥伦比亚大学教授说美国到 2032 年需要每年在 AI 服务上花 3.5 万亿、占 GDP 8.8%，才能证明今天数据中心投资的合理性。Dylan 的回应很直接：**所有这些收入要求数字都算低了** [10:28 Dylan Patel]。\n\n关于 Meta：它任何时候都可以停止买新东西，已有现金流足以轻松支付已签约的所有东西，「想拔插头随时可以拔」[11:43 Dylan Patel]。关于回报周期：基建按会计口径六年折旧（GPU 用六年、数据中心用 15 年），今天花 1 万亿，六年里需要约 1.5 万亿收入、即每年约 2500 亿才能回本。而他的核心判断是：**今天的收入滞后于前几年的投入，错配是建设期的必然**——现在 CapEx 没有每年 10 倍增长，但 AI 实验室的收入刚刚同比涨了 10 倍 [13:02 Dylan Patel]。他甚至认为 Anthropic 已经在「收入减去训练加推理的全部算力成本」意义上盈利，OpenAI 两三个季度内也会到达；Amazon 的全部 AI 基建投资今天都在盈利，AI 还推高了它的毛利率 [13:34 Dylan Patel]。\n\n## 钱从哪来：吃的是资本份额，不是工资单\n\n如果 AI 服务要长成万亿级市场，客户的钱从哪来？Dylan 的框架：一部分来自企业研发预算和售出商品成本里流向 AI 的份额，一部分来自劳动力。他强调劳动力总额未必缩减——经济其他部分涨得太快，以美元计的劳动收入可能平稳甚至缓慢增长。真正被挤压的是**份额**：自 70 年代以来，劳动收入占 GDP 的比重一直在缓慢下降，价值在向资本累积；而 AI 会超级加速这个趋势，因为「AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力」[17:13 Dylan Patel]。\n\n他举了芯片设计做类比：美国芯片设计研发工程师的人数 20 年来基本持平，但这个行业的价值爆炸式增长——NVIDIA、博通都是全球最值钱的公司——靠的是工具的进步。AI 会让全经济所有的芯片（手机、耳机、机器人、传感器）都更好，同样的人数、更高的营收和利润率。「有很多行业都可以复制这种模式」[19:39 Dylan Patel]。\n\n那么知识工作呢？Dylan 把信念分了时间线：只要 AI 强大但还没在几乎所有方面超过人类，最有主观能动性的人能做出最酷的事、对世界产生大得多的影响；而一旦 AI 全面超过人类，「知识工作就完蛋了」[20:32 Dylan Patel]。\n\n## 最大的风险不是需求，而是安全和合同\n\nJordan 澄清了一个常见误解：新云厂商（neocloud，专门给 AI 提供算力的新兴云公司）和 Meta、前沿实验室签的合同，不是按月可以随便取消的——通常是五到六年期限、承购全部容量、约定小时费率。Dylan 说的「随时可停」，针对的是 Meta 这类公司的**自建**园区：建筑成本虽然贵，但只占新芯片项目总成本的一小部分，大头是 HBM、光学器件和 GPU 本身，所以放缓自建在财务上很容易 [22:03 Jordan]。\n\n至于需求崩溃的风险，Jordan 说：「我们现在能做的所有建模基本都表明需求超过供给」[24:37 Jordan]——需求比供给多 10%？50%？还是无限？没人知道，因为以现在能上线的 GPU 供给根本追不上需求。只有等需求极限真正被找到，才谈得上谁该在什么时候放慢。\n\n## NVIDIA 的 5880 亿美元兜底：务实，不是泡沫维持器\n\nSemiAnalysis 追踪到 NVIDIA 正在支持的表外兜底（收入底线、房东担保、可转让租约等）有 5880 亿美元——约为美国 M2 货币供应量的 2.5%。Jordan 的看法：这非常务实。NVIDIA 不想让收入依赖三四家超大规模云厂商，也不想让客户只能在几家手里买芯片，所以它有充分动机扶植一个多样健康的云市场。运作方式是：NVIDIA 签约当投资级承购方帮项目融到钱；至于回流到 NVIDIA 自己内部研究工作负载的算力，只占其总收入的很小一个百分比[42:09 Jordan]，总有别人出更高价，它就把卡卖掉、继续签下一个。「认为 NVIDIA 不会把自己的 GPU 用于服务公司利益的研究，这本身就是错的」[41:58 Jordan]——他们发布过像 Nemotron 这样的模型。而且兜底的不只是芯片，还包括建筑成本、内存供应商、晶圆厂、工业设备等整条供应链。\n\n## 安全：「大多数 NeoCloud 的安全能力很糟糕」\n\nSemiAnalysis 发过一篇这个标题的文章：用开源模型就能入侵几十家新云厂商。Dylan 透露了一次亲身经历：他们测试某个云时，意外看到了同一集群上所有其他客户的数据——存储里有什么、Slurm（一种集群任务调度系统）里排着什么任务——而上面有**情报机构**在跑模型。他们立刻关闭并上报；对方不是美国机构，但来自一个 GDP 排名前十的国家 [45:24 Dylan Patel]。Dylan 还补了一句：如果他们真有恶意，或者那十几家客户里有谁心怀不轨，完全可以直接看到对方在训练什么 [45:50 Dylan Patel]。Jordan 的补充很冷峻：你希望政府机密放在物理隔离的数据中心，但如果全国只有一家设施有 GB300 NVL72，「这是卖方市场」[47:09 Jordan]。\n\n## Oracle 的问号：好云、坏股票，是两回事\n\nClusterMax 3.0 把 GPU 云分成梯队：顶梯队是 CoreWeave 和 Nebius，第二梯队是 Oracle 和 Google Cloud。Jordan 强调 ClusterMax 衡量的只是「你租它的 GPU 用起来有多好」——可靠性、安全、存储、网络、生命周期——**不是股票推荐**。Oracle 就是典型的割裂案例：作为托管集群它是最顶尖的新云之一；但它与 OpenAI 签的巨额合同是固定利润率的，GPU 涨价它吃不到；它融了大量债务吓到市场；更麻烦的是执行——新墨西哥数据中心因为管道铺不进去可能延迟多年，Oracle 宣布不可抗力后股价暴跌。但 Dylan 判断公司本身没问题 [52:08 Dylan Patel]。反差最有趣的是合同结构：Nebius 拥有顶级云厂商中最短的平均合同期限，所以能转身大幅提价吃足红利；CoreWeave 和 Oracle 运营水平同样好，却因为锁死了长期合同而错过。\n\nJordan 对整个行业更悲观的一面是：市场上他们追踪到 323 家供应商，但「不推荐」一档的 logo 比前四档加起来还多。卖方市场里，这些公司的优先级是筹更多钱、建更快、部署更快，而不是打磨服务质量——「人们可以拥有很棒的生意，却不用太担心交付客户真正满意的服务」[54:28 Jordan]。\n\n## Google 的隐忧：DeepMind 算力已是三者最少\n\nGoogle 每年产出的算力显著增长，但流向 DeepMind 的比例在下降——「Thomas Kurian 赢了，Dennis 输了」[56:21 Dylan Patel]。到今年年底，只看算力的话，DeepMind 在它、Anthropic、OpenAI 三者中垫底。Google 的商业模式在演变：向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这本身在损害 DeepMind 的业务。Gemini 的问题是没有利基：没人想要第三、第四或第五好的编程模型，而 Gemini 4 Argon 在编程上和前两三名比还是不行 [57:48 Dylan Patel]。风险在明年：OpenAI 和 Anthropic 各自再加 5 到 10 吉瓦算力，Google 只加几个吉瓦，差距会进一步拉开——到那时，光有人才还能追得上吗？\n\n## 已经在发生的事：好模型先留着自己用\n\n前沿模型留在自己手里、不对外开放，这件事已经开始了。Anthropic 二月就准备好了 Mythos 模型，公开的只有阉割版 Fable，还有只覆盖部分领域、部分能力受限的 Glasswing；OpenAI 的 Astra 完成几个月后才发布，新模型 Bell 只在博客里展示过数学能力、至今没放出。原因很简单：一旦对外，别人就能蒸馏你的模型 [61:05 Dylan Patel]。Dylan 预测接下来几周两家都会赶在 IPO 和竞争压力前发布新模型——但只发「最低可用」的版本，保持对中国模型和开源生态六个月左右的领先，把几个月的进展锁在内部。\n\n## 本集带走\n\n- **规模判断要翻倍看**：那张「AI 基建占 GDP 3.6%」的流传图算低了——真实是约 5-6%，且美国的投入在替全世界训练和推理，这是历史上任何基建周期都没有的形态。\n- **收入滞后是建设期的常态，不等于崩盘**：判断泡沫要看「当前收入 vs 前几年的投入」，而不是「当前收入 vs 当前 CapEx」——按后者看永远都是错配。\n- **最脆弱的环节是安全，不是需求**：开源模型就能入侵几十家新云厂商，连情报机构都在和普通客户共享集群；需求端目前所有建模都显示供不应求。\n- **合同结构决定谁吃到红利**：同样的运营质量下，Nebius 靠最短合同期限大幅提价，CoreWeave 和 Oracle 被长期合同锁死在固定利润率里。\n- **前沿模型的「发布」会越来越保守**：实验室的策略是只放最低可用版本保住开源领先，把最强能力留作内部武器和终端产品（药物发现、编程工具）的弹药。\n- **DeepMind 是被自己的母公司挤压的一方**：Google 把 TPU 和算力大量卖给 Anthropic，到年底 DeepMind 算力在三大实验室中垫底，而 Gemini 缺一个能带动 token 销售的利基。",
+  "quotes": [
+    {
+      "en": "If you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in.",
+      "zh": "看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级——不只是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。",
+      "timestamp": "03:01",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "I think everyone's numbers for revenue requirements are quite low, given where this build out is going to go.",
+      "zh": "考虑到这场建设将走向何方，我认为所有人给出的收入要求数字都相当低。",
+      "timestamp": "10:28",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "Yeah, I mean, if AI revenue is only $3 trillion in 2031, then, yeah, we'll have big problems.",
+      "zh": "是的，如果 AI 收入在 2031 年只有 3 万亿美元，那我们确实会有大麻烦。",
+      "timestamp": "12:09",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "And right now, CapEx is not going up at 10x a year, but revenue just went up 10x year on year for the AI labs.",
+      "zh": "而现在，CapEx 并没有以每年 10 倍的速度增长，但 AI 实验室的收入刚刚同比上涨了 10 倍。",
+      "timestamp": "13:02",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "And so I think people lack the creativity to understand how returns can be viewed beyond the Claude Code subscription and per token pricing regime of today.",
+      "zh": "所以我认为人们缺乏创造力，无法理解在今天的 Claude Code 订阅和按 token 定价模式之外，回报还能如何被看待。",
+      "timestamp": "15:11",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "What AI does is it's going to supercharge that long-term trend of labor share versus capital share because AI tokens are basically just capital in the form of chips and data centers that are sitting there and creating labor.",
+      "zh": "AI 所做的，是超级加速劳动力份额与资本份额之间的长期趋势，因为 AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力。",
+      "timestamp": "17:13",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "Then knowledge work is screwed and actually what matters is people being able to play games and have fun, people being able to act, people being able to do the things that humans do that humans only appreciate in each other if the AI doesn't kill us all.",
+      "zh": "那时知识工作就完蛋了，实际重要的是人们能玩游戏、玩得开心，人们能表演，人们能做那些只有人类才会在彼此身上欣赏的事情——前提是 AI 没把我们全部杀死。",
+      "timestamp": "20:32",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "We don't get to answer that question because we are not able to catch up to demand with the supply of GPUs that you can bring online right now.",
+      "zh": "我们无法回答那个问题，因为以你现在能上线的 GPU 供给，我们没办法追上需求。",
+      "timestamp": "24:52",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Anthropic could even be the first company to be a $10 trillion valuation company in the world.",
+      "zh": "Anthropic 甚至可能成为世界上第一家估值 10 万亿美元的公司。",
+      "timestamp": "26:06",
+      "speaker": "Dylan Patel"
+    },
+    {
+      "en": "And that's a little bit of the dynamic that you see represented there, where people can have these great businesses without actually worrying too much about delivering a great service that their customers really enjoy and recommend to other people.",
+      "zh": "这就是你看到的那种态势的一小部分体现：人们可以拥有很棒的生意，却不用太担心交付一种客户真正满意、并愿意推荐给其他人的出色服务。",
+      "timestamp": "54:16",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Like for Gemini, I mean, nobody wants the third or fourth or fifth best coding model.",
+      "zh": "就 Gemini 来说，我是说，没人想要第三、第四或第五好的编程模型。",
+      "timestamp": "57:48",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "My bet is that we continue to see the minimum viable models released by both OpenAI and Anthropic to keep a lead over Chinese and the rest of the open source ecosystem.",
+      "zh": "我的判断是，我们会继续看到 OpenAI 和 Anthropic 发布最低可用的模型，以保持对中国以及其余开源生态的领先。",
+      "timestamp": "62:42",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:00",
+      "speaker": "Dylan Patel",
+      "en": "If you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in.",
+      "zh": "看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级——不只是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Dylan Patel",
+      "en": "I think everyone's numbers for revenue requirements are quite low, given where this build out is going to go.",
+      "zh": "考虑到这场建设将走向何方，我认为所有人给出的收入要求数字都相当低。"
+    },
+    {
+      "timestamp": "11:43",
+      "speaker": "Dylan Patel",
+      "en": "They could pull the plug whenever they feel like it.",
+      "zh": "他们随时想拔插头都可以。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Dylan Patel",
+      "en": "Yeah, I mean, if AI revenue is only $3 trillion in 2031, then, yeah, we'll have big problems.",
+      "zh": "是的，如果 AI 收入在 2031 年只有 3 万亿美元，那我们确实会有大麻烦。"
+    },
+    {
+      "timestamp": "13:02",
+      "speaker": "Dylan Patel",
+      "en": "And right now, CapEx is not going up at 10x a year, but revenue just went up 10x year on year for the AI labs.",
+      "zh": "而现在，CapEx 并没有以每年 10 倍的速度增长，但 AI 实验室的收入刚刚同比上涨了 10 倍。"
+    },
+    {
+      "timestamp": "15:11",
+      "speaker": "Jordan Annos",
+      "en": "And so I think people lack the creativity to understand how returns can be viewed beyond the Claude Code subscription and per token pricing regime of today.",
+      "zh": "所以我认为人们缺乏创造力，无法理解在今天的 Claude Code 订阅和按 token 定价模式之外，回报还能如何被看待。"
+    },
+    {
+      "timestamp": "17:13",
+      "speaker": "Dylan Patel",
+      "en": "What AI does is it's going to supercharge that long-term trend of labor share versus capital share because AI tokens are basically just capital in the form of chips and data centers that are sitting there and creating labor.",
+      "zh": "AI 所做的，是超级加速劳动力份额与资本份额之间的长期趋势，因为 AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力。"
+    },
+    {
+      "timestamp": "19:39",
+      "speaker": "Dylan Patel",
+      "en": "And that's sort of like, there's many industries where this can get replicated in my view.",
+      "zh": "在我看来，有很多行业都可以复制这种模式。"
+    },
+    {
+      "timestamp": "20:32",
+      "speaker": "Dylan Patel",
+      "en": "Then knowledge work is screwed and actually what matters is people being able to play games and have fun, people being able to act, people being able to do the things that humans do that humans only appreciate in each other if the AI doesn't kill us all.",
+      "zh": "那时知识工作就完蛋了，实际重要的是人们能玩游戏、玩得开心，人们能表演，人们能做那些只有人类才会在彼此身上欣赏的事情——前提是 AI 没把我们全部杀死。"
+    },
+    {
+      "timestamp": "24:37",
+      "speaker": "Jordan Annos",
+      "en": "And as of right now, all of the modeling we can do basically shows that demand outstrips supply.",
+      "zh": "而就目前而言，我们所能做的所有建模基本上都表明需求超过供给。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Jordan Annos",
+      "en": "We don't get to answer that question because we are not able to catch up to demand with the supply of GPUs that you can bring online right now.",
+      "zh": "我们无法回答那个问题，因为以你现在能上线的 GPU 供给，我们没办法追上需求。"
+    },
+    {
+      "timestamp": "26:06",
+      "speaker": "Dylan Patel",
+      "en": "Anthropic could even be the first company to be a $10 trillion valuation company in the world.",
+      "zh": "Anthropic 甚至可能成为世界上第一家估值 10 万亿美元的公司。"
+    },
+    {
+      "timestamp": "28:00",
+      "speaker": "Dylan Patel",
+      "en": "So these things could tear the fabric of society apart.",
+      "zh": "所以这些东西可能会撕裂整个社会的结构。"
+    },
+    {
+      "timestamp": "42:06",
+      "speaker": "Jordan Annos",
+      "en": "But the idea that NVIDIA does not use their own GPUs for research that serves the purposes of their company is itself wrong.",
+      "zh": "但认为 NVIDIA 不会把自己的 GPU 用于服务于公司利益的研究，这本身就是错误的。"
+    },
+    {
+      "timestamp": "54:28",
+      "speaker": "Jordan Annos",
+      "en": "And that's a little bit of the dynamic that you see represented there, where people can have these great businesses without actually worrying too much about delivering a great service that their customers really enjoy and recommend to other people.",
+      "zh": "这就是你看到的那种态势的一小部分体现：人们可以拥有很棒的生意，却不用太担心交付一种客户真正满意、并愿意推荐给其他人的出色服务。"
+    },
+    {
+      "timestamp": "57:48",
+      "speaker": "Dylan Patel",
+      "en": "Like for Gemini, I mean, nobody wants the third or fourth or fifth best coding model.",
+      "zh": "就 Gemini 来说，我是说，没人想要第三、第四或第五好的编程模型。"
+    },
+    {
+      "timestamp": "62:42",
+      "speaker": "Dylan Patel",
+      "en": "My bet is that we continue to see the minimum viable models released by both OpenAI and Anthropic to keep a lead over Chinese and the rest of the open source ecosystem.",
+      "zh": "我的判断是，我们会继续看到 OpenAI 和 Anthropic 发布最低可用的模型，以保持对中国以及其余开源生态的领先。"
+    }
+  ],
+  "voice_script": "今天聊一期信息量特别大的节目。嘉宾是 Dylan Patel 和 Jordan Annos，来自 SemiAnalysis——这是 AI 基础设施领域最有影响力的研究机构，Dylan 是创始人兼 CEO。他们要回答一个所有人都关心的问题：AI 到底需要多大的规模，才能证明这几万亿美元基础设施支出的合理性？换句话说，这轮豪赌，到底是不是泡沫。\n\n事情的起因，是主持人在节目里抛出一张在 X 上流传很广的图。图上说，AI 建设占美国 GDP 的比例，年均大概是百分之三点六，比当年修铁路高峰期的百分之二点二还要高出百分之五十，前所未有。结果 Dylan 的第一反应是：大家的数字太低了，实际情况比那高得多。\n\n高到什么程度？Dylan 算了一笔账。明年，全美国的资本支出——就是买地、建楼、买芯片这些花在资产上的钱——会达到大约两万亿美元的量级。注意，这不只是数据中心和芯片本身，还包括整个供应链上的投资。而美国的 GDP 大概是三十万亿出头，一除下来，占比已经是百分之五到六了，不是百分之三，更不是百分之二。\n\n那为什么这一轮会比铁路还夸张呢？这里有个很关键的背景：当年铁路也好、光纤也好，钱都花在本国境内。但 AI 不一样。Anthropic 和 OpenAI 服务欧洲用户的大部分推理，是在美国的数据中心里跑的；全世界的训练在美国做，全世界的推理也大量从美国输出。所以美国的资本支出高得反常，这些容量的经济影响，比历史上任何一轮物理基建周期都大。\n\n好，规模确认了，那增长还能持续吗？Jordan 追踪超大规模云厂商的季度资本支出增长，发现今年第三季度同比涨了百分之一百一十六。华尔街的共识预期是接下来会一路下滑，跌破百分之一百，再降到七十。Jordan 承认，到明年年底确实会碰到极限——但不是需求没了，而是组织能力和资本跟不上：想再调资源多建一个吉瓦很难，想在几万亿美元的量级上继续筹钱也很难。而且从数学上讲，增速也必然放缓。举个例子，Anthropic 今年营收从不到一百亿美元涨到超过一千亿，是十倍增长，但它明年不可能营收一万亿。\n\n节目里还聊到了几条悲观的判断，比如高盛说 Meta 背负了还不起的债，Bain 说超大规模云厂商到 2031 年需要每年六万亿收入才能盈亏平衡。Dylan 的回应很直接：所有这些收入要求数字，都算低了。\n\n就拿 Meta 来说，它任何时候都可以停止买新东西，已有的现金流足以轻松支付已签约的所有东西，用 Dylan 的话说，想拔插头随时可以拔。再看回报周期：按会计口径，GPU 折旧六年、数据中心十五年，今天花一万亿，六年里需要大约一万五千亿收入、也就是每年两千五百亿才能回本。听起来吓人？Dylan 的核心判断是：今天的收入本来就滞后于前几年的投入，这种错配是建设期的必然。现在资本支出并没有以每年十倍的速度增长，但 AI 实验室的收入刚刚同比上涨了十倍。他甚至认为 Anthropic 已经在收入减去全部算力成本的意义上盈利了，OpenAI 两三个季度内也会到，Amazon 的全部 AI 基建投资今天都在盈利。\n\n那如果 AI 服务真要长成万亿级市场，客户的钱从哪来？Dylan 给了个框架：一部分来自企业研发预算，一部分来自劳动力。但注意，劳动力总额未必缩减，经济其他部分涨得快，以美元计的劳动收入可能还平稳增长。真正被挤压的是份额——劳动收入占 GDP 的比重，从七十年代以来一直在缓慢下降，而 AI 会超级加速这个趋势。因为 AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力。Dylan 举了个类比：美国芯片设计工程师的人数二十年来基本持平，但这个行业价值爆炸式增长，NVIDIA、博通都是全球最值钱的公司，靠的就是工具的进步。AI 会让全经济所有的芯片都更好——手机、耳机、机器人、传感器——同样的人数，更高的营收和利润率。\n\n既然需求看起来不是问题，那最大的风险在哪？答案是安全和合同。先说合同。很多人以为新云厂商和 Meta、前沿实验室签的合同可以随时取消，其实不是——通常是五到六年期限、承购全部容量、约定好费率。Dylan 说的随时可停，针对的是 Meta 这类公司的自建园区：建筑成本虽然贵，但只占新芯片项目总成本的一小部分，大头是芯片本身，所以放缓自建在财务上很容易。至于需求端，Jordan 说得很干脆：我们现在能做的所有建模，基本都表明需求超过供给。\n\n而安全这一块才是真正让人后背发凉的。SemiAnalysis 发过一篇文章，标题就叫大多数新云厂商的安全能力很糟糕——用开源模型就能入侵几十家。Dylan 还讲了一次亲身经历：他们测试某个云的时候，意外看到了同一集群上所有其他客户的数据，上面甚至有情报机构在跑模型。他们立刻关闭并上报，对方不是美国机构，但来自一个 GDP 排名前十的国家。Jordan 补了一句很冷峻的话：你当然希望政府机密放在物理隔离的数据中心，但如果全国只有一家设施有最新的 GB300，这就是卖方市场。\n\n聊回钱。NVIDIA 现在正在支持的表外兜底——收入底线、房东担保这些——有五千八百八十亿美元，差不多是美国 M2 货币供应量的百分之二点五。听起来像泡沫维持器？Jordan 觉得这非常务实：NVIDIA 不想让收入依赖三四家大客户，所以有充分动机扶植一个多样健康的云市场，兜底的不只是芯片，还有整条供应链。运作方式是它签约当承购方帮项目融到钱，回流到自己内部研究的算力只占很小一个百分比，总有别人出更高价，就把卡卖掉，签下一个。\n\n行业里另一个有趣的反差是合同结构。同样运营质量很棒的公司，Nebius 因为平均合同期限最短，能转身大幅提价吃足红利；CoreWeave 和 Oracle 却被长期合同锁死在固定利润率里。Oracle 就是典型的割裂案例：作为托管集群是最顶尖的，但巨额合同是固定利润率、GPU 涨价吃不到，还融了大量债务，新墨西哥数据中心又可能延迟多年，股价暴跌。不过 Dylan 判断公司本身没问题——好云和好股票，是两回事。而更悲观的一面是：他们追踪的三百二十三家供应商里，不推荐那一档的 logo 比前四档加起来还多。卖方市场里，这些公司忙着筹钱、建更快，而不是打磨服务质量。\n\n最后说两个正在发生的事。一是 Google 的隐忧：Google 每年产出的算力在涨，但流向 DeepMind 的比例在下降，到今年年底，DeepMind 的算力在三大实验室里垫底。Gemini 的问题是没有利基——没人想要第三或第四好的编程模型。二是前沿模型越来越不对外放了：Anthropic 二月就准备好了模型，公开的只有阉割版；OpenAI 的模型也是完成几个月后才发布。原因很简单，一旦对外，别人就能蒸馏你的模型。接下来实验室的策略，就是只发最低可用的版本，保住对中国模型和开源生态的领先，把最强能力留作内部武器。\n\n这一集听下来，最值得记住的是这么一句判断：收入滞后是建设期的常态，不等于崩盘——判断泡沫，要看当前收入对前几年的投入，而不是对当前的资本支出。按后一种算法看，永远都是错配。"
+}

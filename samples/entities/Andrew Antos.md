@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"产品市场契合":28,"产品-市场-创始人契合":1,"公司大脑":3,"智能体":433,"MCP":80,"go-to-market":14,"NDA 审查工具":1,"客户之声":1}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":28,"产品-市场-创始人契合":1,"公司大脑":3,"智能体":434,"MCP":81,"go-to-market":14,"NDA 审查工具":1,"客户之声":1}</script>
 
 <script>
 (function(){

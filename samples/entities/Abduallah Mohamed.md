@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":17,"智能体":433,"人在回路":21,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":17,"智能体":434,"人在回路":21,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

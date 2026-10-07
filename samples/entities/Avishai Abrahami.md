@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Wix":4,"Base44":4,"Salesforce":34,"Atlassian":5,"vibe coding":46,"SaaS":21,"回购":1,"股权激励":1,"微调":31}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Wix":4,"Base44":4,"Salesforce":34,"Atlassian":5,"vibe coding":46,"SaaS":21,"回购":1,"股权激励":1,"微调":32}</script>
 
 <script>
 (function(){

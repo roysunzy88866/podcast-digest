@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":20,"ACV":4,"前置部署工程":3,"RFP":1,"智能体":433,"产品市场契合":28}</script>
+<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":20,"ACV":4,"前置部署工程":3,"RFP":1,"智能体":434,"产品市场契合":28}</script>
 
 <script>
 (function(){

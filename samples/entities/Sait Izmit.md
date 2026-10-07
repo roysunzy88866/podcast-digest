@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":433,"MCP":80,"变革管理":4,"语义视图":1,"技能":29,"反馈回路":3,"护栏":80}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":434,"MCP":81,"变革管理":4,"语义视图":1,"技能":29,"反馈回路":3,"护栏":80}</script>
 
 <script>
 (function(){

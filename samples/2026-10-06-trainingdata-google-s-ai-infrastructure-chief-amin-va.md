@@ -229,7 +229,7 @@ Google 十五六年前就是最早在数据中心内用波分复用（一根光�
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Google、DeepMind、NVIDIA · 同概念:Gemini、TPU、GPU</span>
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Google、NVIDIA · 同概念:TPU</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:DeepMind、Google、NVIDIA · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

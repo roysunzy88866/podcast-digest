@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":13,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":174,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":14,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":175,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

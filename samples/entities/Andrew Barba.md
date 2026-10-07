@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":19,"DZero":1,"智能体":433,"评估":5,"技能":29,"MCP":80,"沙箱":79}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":19,"DZero":1,"智能体":434,"评估":5,"技能":29,"MCP":81,"沙箱":79}</script>
 
 <script>
 (function(){

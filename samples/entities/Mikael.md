@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":23,"Hermes":2,"智能体":433,"知识图谱":6,"向量数据库":4,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":23,"Hermes":2,"智能体":434,"知识图谱":6,"向量数据库":4,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

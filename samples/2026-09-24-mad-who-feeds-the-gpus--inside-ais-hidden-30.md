@@ -190,9 +190,9 @@ Renan 小时候痴迷数学，曾花六个月试图证明 P=NP,结论是“我�
 
 **换个口味**
 
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:NVIDIA · 同概念:NeoCloud、推理 (inference)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:XAI · 同概念:推理 (inference)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

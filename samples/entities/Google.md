@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>64</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -75,6 +75,7 @@ unlisted: true
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 
 ## ① 提到它的金句
 
@@ -154,7 +155,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*64 集*
+*65 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -220,14 +221,15 @@ unlisted: true
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[Lenny]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Claude]] · [[Amazon]] · [[NVIDIA]] · [[Apple]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":433,"OpenAI":174,"Anthropic":184,"ChatGPT":99,"Claude":91,"Meta":47,"Amazon":30,"Apple":22,"NVIDIA":59,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":434,"OpenAI":175,"Anthropic":185,"ChatGPT":99,"Meta":48,"Claude":91,"Amazon":31,"NVIDIA":60,"Apple":22,"Lenny":68}</script>
 
 <script>
 (function(){

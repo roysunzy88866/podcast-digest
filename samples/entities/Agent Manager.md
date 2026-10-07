@@ -31,7 +31,7 @@ unlisted: true
 
 [[Kevin Hou]] · [[antigravity]] · [[Gemini]] · [[Google DeepMind]] · [[智能体]] · [[子智能体]] · [[生成式 UI]] · [[边车]] · [[随智能扩展]] · [[智能体编排]]
 
-<script type="application/json" class="pd-epn">{"Kevin Hou":1,"antigravity":1,"Gemini":15,"Google DeepMind":7,"智能体":433,"子智能体":6,"生成式 UI":4,"边车":1,"随智能扩展":1,"智能体编排":1}</script>
+<script type="application/json" class="pd-epn">{"Kevin Hou":1,"antigravity":1,"Gemini":15,"Google DeepMind":7,"智能体":434,"子智能体":6,"生成式 UI":4,"边车":1,"随智能扩展":1,"智能体编排":1}</script>
 
 <script>
 (function(){

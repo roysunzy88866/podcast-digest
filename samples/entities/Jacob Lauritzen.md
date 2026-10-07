@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":5,"智能体":433,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":5,"智能体":434,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":4}</script>
 
 <script>
 (function(){

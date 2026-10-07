@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Salesforce]] · [[go-to-market]] · [[PLG]] · [[Snowflake]] · [[评估]] · [[OpenAI]] · [[前向部署工程师]] · [[Anthropic]] · [[Brian Halligan]]
 
-<script type="application/json" class="pd-epn">{"智能体":433,"Salesforce":34,"go-to-market":14,"PLG":12,"Snowflake":19,"评估":5,"OpenAI":174,"前向部署工程师":2,"Anthropic":184,"Brian Halligan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":434,"Salesforce":34,"go-to-market":14,"PLG":12,"Snowflake":19,"评估":5,"OpenAI":175,"前向部署工程师":2,"Anthropic":185,"Brian Halligan":1}</script>
 
 <script>
 (function(){

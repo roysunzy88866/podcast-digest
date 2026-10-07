@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":2,"光纤":1,"数据中心":22,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":9,"NVIDIA":59}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":2,"光纤":1,"数据中心":23,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":9,"NVIDIA":60}</script>
 
 <script>
 (function(){

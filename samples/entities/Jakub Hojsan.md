@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":82,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":433,"网页搜索":2,"知识截止日期":1,"代码审查":24,"语义搜索":3}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":82,"Cognition":25,"Warp":5,"Exa Agent":1,"智能体":434,"网页搜索":2,"知识截止日期":1,"代码审查":24,"语义搜索":3}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 [[评估]] · [[智能体]] · [[LLM 当裁判]] · [[Lenny]] · [[Vishu]] · [[Fuad]] · [[Hamel Husain]] · [[Clay]] · [[Arise]] · [[Shreya Shankar]]
 
-<script type="application/json" class="pd-epn">{"评估":5,"智能体":433,"LLM 当裁判":10,"Lenny":68,"Vishu":1,"Fuad":1,"Hamel Husain":1,"Clay":7,"Arise":1,"Shreya Shankar":1}</script>
+<script type="application/json" class="pd-epn">{"评估":5,"智能体":434,"LLM 当裁判":10,"Lenny":68,"Vishu":1,"Fuad":1,"Hamel Husain":1,"Clay":7,"Arise":1,"Shreya Shankar":1}</script>
 
 <script>
 (function(){

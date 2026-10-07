@@ -31,7 +31,7 @@ unlisted: true
 
 [[Base44]] · [[Lenny]] · [[Claude Code]] · [[Lovable]] · [[Codex]] · [[Bolt]] · [[智能体]] · [[Replit]] · [[Cursor]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Base44":4,"Lenny":68,"Claude Code":97,"Lovable":19,"Codex":80,"Bolt":3,"智能体":433,"Replit":20,"Cursor":82,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"Base44":4,"Lenny":68,"Claude Code":97,"Lovable":19,"Codex":80,"Bolt":3,"智能体":434,"Replit":20,"Cursor":82,"vibe coding":46}</script>
 
 <script>
 (function(){

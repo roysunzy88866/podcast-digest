@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":27,"智能体":433,"沙箱":79,"对齐失败":1,"推理":82,"权力集中":1,"主观能动性":1,"OpenAI":174,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":27,"智能体":434,"沙箱":79,"对齐失败":1,"推理":83,"权力集中":1,"主观能动性":1,"OpenAI":175,"YC":17}</script>
 
 <script>
 (function(){

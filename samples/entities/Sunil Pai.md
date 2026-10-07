@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":14,"code mode":2,"MCP":80,"智能体":433,"沙箱":79,"可观测性":37,"pie":1,"工具调用":4}</script>
+<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":14,"code mode":2,"MCP":81,"智能体":434,"沙箱":79,"可观测性":37,"pie":1,"工具调用":4}</script>
 
 <script>
 (function(){

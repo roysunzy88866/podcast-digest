@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[MG Siegler]] [[Jeanne Grosser]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":433,"ChatGPT":99,"Claude":91,"Gemini":15,"OpenAI":174,"Anthropic":184,"Muse":6,"Instinct":5}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":434,"ChatGPT":99,"Claude":91,"Gemini":15,"OpenAI":175,"Anthropic":185,"Muse":6,"Instinct":5}</script>
 
 <script>
 (function(){

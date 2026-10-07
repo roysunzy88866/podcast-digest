@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":433,"计算机使用":21,"MCP":80,"Agentic AI Foundation":1,"harness":60,"Claude Code":97,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":434,"计算机使用":21,"MCP":81,"Agentic AI Foundation":1,"harness":60,"Claude Code":97,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

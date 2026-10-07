@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":184,"OpenAI":174,"任务视界":1,"Managed Agents":5,"harness":60,"沙箱":79,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":185,"OpenAI":175,"任务视界":1,"Managed Agents":5,"harness":60,"沙箱":79,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

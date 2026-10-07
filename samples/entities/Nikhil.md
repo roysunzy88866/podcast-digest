@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Young":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":16,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":82}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":16,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":83}</script>
 
 <script>
 (function(){

@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token 定价 (token pricing)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token 定价">TO</div><div class="pi"><h1 class="pt">token 定价 (token pricing)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token 定价">TO</div><div class="pi"><h1 class="pt">token 定价 (token pricing)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(03:52起):本集说 Evans 写 token 定价的文章时并列拆解半导体、移动、光纤、操作系统各自的规律——类比没有预测力,但能告诉你该看什么;并讨论价格崩塌与帕累托曲线上各位置的 ROI。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Jacob Efron]] · [[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[LLM]] · [[基础模型]] · [[AI 编程]] · [[算力扩展]] · [[网络效应]]
 
-<script type="application/json" class="pd-epn">{"Jacob Efron":2,"Benedict Evans":2,"OpenAI":174,"Anthropic":184,"TSMC":9,"LLM":57,"基础模型":6,"AI 编程":7,"算力扩展":2,"网络效应":13}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":2,"Benedict Evans":2,"OpenAI":175,"Anthropic":185,"TSMC":9,"LLM":57,"基础模型":6,"AI 编程":7,"算力扩展":2,"网络效应":13}</script>
 
 <script>
 (function(){

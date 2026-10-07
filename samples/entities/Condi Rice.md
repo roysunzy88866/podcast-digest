@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":59,"AMD":5,"GPU":24,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":7,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":60,"AMD":5,"GPU":25,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":7,"CPU":5}</script>
 
 <script>
 (function(){

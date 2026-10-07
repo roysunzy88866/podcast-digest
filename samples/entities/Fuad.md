@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Arise":1,"语音智能体":2,"OpenInference":1,"OTEL":1,"trace":3,"评估":5,"延迟":7,"智能体":433}</script>
+<script type="application/json" class="pd-epn">{"Arise":1,"语音智能体":2,"OpenInference":1,"OTEL":1,"trace":3,"评估":5,"延迟":7,"智能体":434}</script>
 
 <script>
 (function(){

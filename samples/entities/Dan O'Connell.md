@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig":2,"Front":1,"TalkIQ":1,"Dialpad":1,"Anthropic":184,"OpenAI":174,"智能体":433,"协调税":1,"NRR":4,"客户流失率":3}</script>
+<script type="application/json" class="pd-epn">{"Craig":2,"Front":1,"TalkIQ":1,"Dialpad":1,"Anthropic":185,"OpenAI":175,"智能体":434,"协调税":1,"NRR":4,"客户流失率":3}</script>
 
 <script>
 (function(){

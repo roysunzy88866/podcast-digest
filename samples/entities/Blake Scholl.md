@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":30,"Boeing":2,"FAA":2,"Uber":16,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":31,"Boeing":2,"FAA":2,"Uber":16,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
 
 <script>
 (function(){

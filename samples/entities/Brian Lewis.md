@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":99}</script>
+<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":2,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":99}</script>
 
 <script>
 (function(){

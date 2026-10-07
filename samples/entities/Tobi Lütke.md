@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":17,"River":2,"智能体":433,"Sydney":1,"沙箱":79,"LLM":57,"pull request":5,"超级智能":7,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":17,"River":2,"智能体":434,"Sydney":1,"沙箱":79,"LLM":57,"pull request":5,"超级智能":7,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

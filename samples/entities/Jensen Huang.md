@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":59,"深度学习":4,"智能体":433,"沙箱":79,"Condi Rice":1,"harness":60,"Jerry":1,"AMD":5,"前沿模型":26,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":60,"深度学习":4,"智能体":434,"沙箱":79,"Condi Rice":1,"harness":60,"Jerry":1,"AMD":5,"前沿模型":27,"Sega":1}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":433,"MCP 服务器":2,"AI 网关":1,"智能体身份":1,"幻觉":12,"开源":38,"Databricks":21}</script>
+<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":434,"MCP 服务器":2,"AI 网关":1,"智能体身份":1,"幻觉":12,"开源":38,"Databricks":21}</script>
 
 <script>
 (function(){

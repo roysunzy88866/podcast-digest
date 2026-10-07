@@ -1,0 +1,1804 @@
+{
+  "episode_id": "2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-10-07",
+  "tags": [
+    "AI 基础设施",
+    "AI 泡沫之辩",
+    "GPU 云",
+    "资本支出",
+    "前沿模型"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dylan-patel",
+      "type": "person",
+      "role": "guest",
+      "name": "Dylan Patel",
+      "file": "Dylan Patel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            97.738,
+            110.646
+          ],
+          "quote": "We're joined today by Dylan Patel, the CEO and founder of Semi-Analysis and Jordan Annos, member of the technical staff at Semi-Analysis to talk all about everything going on within the infrastructure build out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2232.673,
+            2238.456
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Dylan Patel and Jordan Annos from SemiAnalysis.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semianalysis",
+      "type": "company",
+      "role": "company",
+      "name": "SemiAnalysis",
+      "file": "SemiAnalysis",
+      "primary": true,
+      "how_described": "本集称它是 AI 基础设施领域最有影响力的研究机构、『AI 基础设施领域的圣经』，两位嘉宾均来自这里，ClusterMax 报告即其出品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2232.673,
+            2238.456
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Dylan Patel and Jordan Annos from SemiAnalysis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2238.777,
+            2240.398
+          ],
+          "quote": "SemiAnalysis, I'm sure you're familiar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2251.544,
+            2255.046
+          ],
+          "quote": "You can also get SemiAnalysis on Substack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2255.226,
+            2257.908
+          ],
+          "quote": "It's newsletter.semianalysis.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2976.262,
+            2986.305
+          ],
+          "quote": "Now, that doesn't mean, on the other hand, hey, at SemiAnalysis in April, we published to our clients that their New Mexico data center was going to be delayed because they weren't going to get the pipelines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3226.007,
+            3234.658
+          ],
+          "quote": "And since we coined the term NeoCloud at SemiAnalysis, that a lot of people have just not made progress towards the things that we were writing about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3772.5,
+            3775.202
+          ],
+          "quote": "The website is semianalysis.com.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它正用收入底线、房东担保、可转让租约等表外兜底（约5880亿美元）扶持新云生态，并认为这是扶植多样化云市场的务实做法而非维持泡沫。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            521.887,
+            537.46
+          ],
+          "quote": "You know, NVIDIA's revenue growth is still 2X year on year, but it's, you know, it's not as much as it was at an earlier point, just because it is definitely harder to grow 2X off the same base, so 3X off the same base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1133.257,
+            1138.32
+          ],
+          "quote": "NVIDIA, Broadcom, as well as like Google and all these other companies that are making their own chips and many others, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2289.175,
+            2294.2
+          ],
+          "quote": "There's a lot of areas we can go in this, Jordan and Dylan, but let's begin with the role of NVIDIA here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2295.501,
+            2303.93
+          ],
+          "quote": "The report, you know, though it spends most of the time on the technical side of things, does go into the fact that NVIDIA is playing a major role",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2315.613,
+            2328.016
+          ],
+          "quote": "And NVIDIA has been backstopping a lot of their businesses with, as you write, revenue floors, landlord guarantees, and leases that it plans to transfer to third parties.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2337.758,
+            2358.025
+          ],
+          "quote": "Jordan, to you on this one, you know, there's the criticism, sort of like the Edzatron criticism of this industry is that NVIDIA is basically funding the demand for all these NeoClouds and without that backstop, you know, this whole thing would basically evaporate",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2358.588,
+            2364.191
+          ],
+          "quote": "Make NVIDIA look a bit smaller and make these NeoClouds non-viable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2368.433,
+            2384.461
+          ],
+          "quote": "Yeah, well, I mean, both in ClusterMax and in another article we did recently called NVIDIA's Backstop Universe, we go into a little bit of the dynamics of what backstops are and how they help the NeoClouds raise the money they need to deploy the GPUs, which then customers are renting pretty strongly at this point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2385.141,
+            2399.925
+          ],
+          "quote": "And the number that we have is that currently we've got tracking of $588 billion of off-balance sheet backstops that NVIDIA is supporting right now, which is one of yet another unbelievable number in the list that we've been going through on this podcast so far.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2401.065,
+            2406.046
+          ],
+          "quote": "I mean, but NVIDIA's revenue is approaching 400, if that's across $500 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2422.011,
+            2427.176
+          ],
+          "quote": "And I mean, the only thing I can say about this is that it just seems really pragmatic from NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2461.095,
+            2472.262
+          ],
+          "quote": "Well, first of all, they need the guarantee that if they raise the money, those creditors are going to see returns, and that requires some sort of investment-grade offtaker, which NVIDIA can serve in many of these cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2474.543,
+            2493.814
+          ],
+          "quote": "But the way it's worked so far is that NVIDIA signs up as that off-taker, and then when it comes time to actually take those GPUs for themselves for their own internal research work, somebody else comes along and wants them more at a higher price, and so then they sell them to those guys, they don't take them for their internal research, and they roll onto the next one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2494.614,
+            2500.057
+          ],
+          "quote": "And for everybody who says that NVIDIA is doing this for some nefarious purpose or to keep some bubble going,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2500.75,
+            2502.872
+          ],
+          "quote": "I'd encourage you to look at the quality of NVIDIA's research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2518.664,
+            2526.09
+          ],
+          "quote": "But the idea that NVIDIA does not use their own GPUs for research that serves the purposes of their company is itself wrong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2529.052,
+            2532.654
+          ],
+          "quote": "This amount of compute is actually not a meaningful portion of NVIDIA's revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2532.854,
+            2539.196
+          ],
+          "quote": "It's a very small percentage of NVIDIA's total revenue that is, you know, going back for their own internal research workloads.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            241.953,
+            251.597
+          ],
+          "quote": "So if you look at, for example, Europe, most of Europe's inference for Anthropic is in America and most of OpenAI's inference in Europe is in America.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            506.794,
+            515.545
+          ],
+          "quote": "You know, this year we have 10x growth, Anthropic going from sub $10 billion of revenue to north of 10, north of 100 billion, so they had 10x growth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            736.637,
+            745.58
+          ],
+          "quote": "But, you know, I'm like of the belief that we can get to like 600, 700 million across OpenAI Anthropic alone by December of next year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            790.143,
+            801.547
+          ],
+          "quote": "And so we've seen Anthropic is now profitable in terms of compute cost minus revenue, or revenue minus compute cost, both training and inference combined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            824.371,
+            828.692
+          ],
+          "quote": "Now, the customers that for them could go insolvent, those customers being OpenAI, Anthropic, et cetera,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            946.759,
+            954.301
+          ],
+          "quote": "Like, you know, let's say OpenAI and Anthropic combined get to $700 billion in revenue next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1416.292,
+            1427.662
+          ],
+          "quote": "Meta or OpenAI or Anthropic who have demand on their consumer facing applications like ChatGPT or Claude Code or Codex or even Muse from Meta, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1523.994,
+            1527.455
+          ],
+          "quote": "Big IPO on the way, which is, of course, the Anthropic IPO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1531.676,
+            1541.279
+          ],
+          "quote": "You said, you can't invest in the Anthropic IPO at $2 trillion because it could be zero and I'm fucked, or it could be 20 trillion, but at 20 trillion, we're all fucked.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1557.883,
+            1560.727
+          ],
+          "quote": "I'm generally extremely bullish Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1560.867,
+            1565.974
+          ],
+          "quote": "I think Anthropic will be a very successful company in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1566.014,
+            1571.301
+          ],
+          "quote": "Anthropic could even be the first company to be a $10 trillion valuation company in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1571.321,
+            1573.123
+          ],
+          "quote": "I'm like that fucking bullish Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1649.768,
+            1673.147
+          ],
+          "quote": "In which case, like, you know, all of this worry of like, whether it's AI kill us all or AI so good that everyone loses their jobs and because distribution of that earnings is going to be heavily leveraged to the people who own Anthropic stock or constituent supply chains of it and not distributed well, then people are going to have disrest and like overthrow governments because all of the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1680.517,
+            1686.125
+          ],
+          "quote": "And therefore, if you believe Anthropic will get to 20 trillion, society as a whole could be fucked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1726.768,
+            1733.031
+          ],
+          "quote": "And I think I would trust Anthropic quite a bit to bring, like I said earlier, a cancer drug to market or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1804.949,
+            1807.511
+          ],
+          "quote": "Anthropic, kind of an interesting business case, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1824.437,
+            1837.742
+          ],
+          "quote": "Talk a little bit because I think the belief here is that a company like Anthropic is a low margin business or at least much less than software, but that doesn't actually seem to be the case and you guys have run the numbers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1838.346,
+            1858.101
+          ],
+          "quote": "I would say like, if you look at like Salesforce, which is probably like one of the greatest SaaS companies out there, you know, I mean, I think like at least like consistently grown to become one of the biggest SaaS companies, their gross margins are like 75% and Anthropic on their inference is doing 75% gross margins, a little bit higher even.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1878.978,
+            1883.182
+          ],
+          "quote": "It took, you know, Anthropic quite a bit less time to get to that strong levels of gross margin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1902.374,
+            1905.676
+          ],
+          "quote": "And Anthropic has near no customer acquisition cost, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3399.484,
+            3409.867
+          ],
+          "quote": "It's actually falling as a percentage, which is really interesting because now if I look at just DeepMind versus Anthropic and OpenAI, DeepMind has the least compute of the three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3444.216,
+            3445.817
+          ],
+          "quote": "No, I mean, they're selling a lot of chips to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3455.043,
+            3463.788
+          ],
+          "quote": "But by definition, you know, helping Anthropic this much with TPUs and helping them this much with these other things is hurting Google DeepMind's business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3488.922,
+            3501.008
+          ],
+          "quote": "And the risk here is what happens next year when OpenAI and Anthropic both attempt to add five to 10 gigawatts of additional compute for their labs and for OpenAI and Anthropic each.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3526.744,
+            3532.908
+          ],
+          "quote": "But also like more and more of the best people just keep getting poached to Anthropic, to OpenAI, and it's Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3553.986,
+            3563.755
+          ],
+          "quote": "And of course, Anthropic makes that model available via API and to go into all these various uses, you know, it's going to have to do more licensing and who knows if they'll be able to do products for all this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3592.187,
+            3595.229
+          ],
+          "quote": "Anthropic had Mythos ready in February.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3618.772,
+            3620.754
+          ],
+          "quote": "And so it's clear that Anthropic has not released new models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3665.409,
+            3670.733
+          ],
+          "quote": "So I think Anthropic will likely release a new model in the coming weeks for their IPO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3721.32,
+            3729.306
+          ],
+          "quote": "I think Anthropic has publicly stated that they are pacing the frontier by keeping themselves restricted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3762.592,
+            3772.24
+          ],
+          "quote": "My bet is that we continue to see the minimum viable models released by both OpenAI and Anthropic to keep a lead over Chinese and the rest of the open source ecosystem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它两三个季度内也会在算力成本意义上盈利，与 Oracle 签了巨额固定利润率合同，且完成的模型 Astra 延迟数月才发布、新模型 Bell 至今未放出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            241.953,
+            251.597
+          ],
+          "quote": "So if you look at, for example, Europe, most of Europe's inference for Anthropic is in America and most of OpenAI's inference in Europe is in America.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            736.637,
+            745.58
+          ],
+          "quote": "But, you know, I'm like of the belief that we can get to like 600, 700 million across OpenAI Anthropic alone by December of next year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            802.207,
+            806.668
+          ],
+          "quote": "And OpenAI gets there within the next couple of quarters, maybe two or three quarters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            824.371,
+            828.692
+          ],
+          "quote": "Now, the customers that for them could go insolvent, those customers being OpenAI, Anthropic, et cetera,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            946.759,
+            954.301
+          ],
+          "quote": "Like, you know, let's say OpenAI and Anthropic combined get to $700 billion in revenue next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1416.292,
+            1427.662
+          ],
+          "quote": "Meta or OpenAI or Anthropic who have demand on their consumer facing applications like ChatGPT or Claude Code or Codex or even Muse from Meta, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2986.605,
+            2992.067
+          ],
+          "quote": "And this was a big issue for OpenAI because OpenAI has contracted a huge data center with them in New Mexico.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3071.673,
+            3076.775
+          ],
+          "quote": "Like one is they signed a ton of AI data center deals with OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3399.484,
+            3409.867
+          ],
+          "quote": "It's actually falling as a percentage, which is really interesting because now if I look at just DeepMind versus Anthropic and OpenAI, DeepMind has the least compute of the three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3488.922,
+            3501.008
+          ],
+          "quote": "And the risk here is what happens next year when OpenAI and Anthropic both attempt to add five to 10 gigawatts of additional compute for their labs and for OpenAI and Anthropic each.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3526.744,
+            3532.908
+          ],
+          "quote": "But also like more and more of the best people just keep getting poached to Anthropic, to OpenAI, and it's Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3621.074,
+            3628.082
+          ],
+          "quote": "OpenAI likewise, Astra was actually done a couple months ago and it only came out like, you know, it took a couple months before they released Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3671.314,
+            3676.978
+          ],
+          "quote": "I think OpenAI will likely have to release a new model in the coming weeks as well just because it's such a competitive environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3762.592,
+            3772.24
+          ],
+          "quote": "My bet is that we continue to see the minimum viable models released by both OpenAI and Anthropic to keep a lead over Chinese and the rest of the open source ecosystem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": true,
+      "how_described": "本集称它是 ClusterMax 第二梯队里服务质量顶尖的新云，但因与 OpenAI 的固定利润率长期合同、大量债务和新墨西哥数据中心管道延误执行问题，出现『好云、坏股票』的割裂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 529,
+          "t": [
+            2850.358,
+            2855.321
+          ],
+          "quote": "I'm more interested in the second tier, and that is Oracle and Google Cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2869.592,
+            2875.517
+          ],
+          "quote": "And then with Oracle, I just have Oracle and then a bunch of question marks because that's kind of how I feel about that company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2891.827,
+            2904.534
+          ],
+          "quote": "But I would love to get your readout on Oracle and whether this has been a smart bet for them and whether they're going to rise in glory or sort of fall in flames like a lot of people anticipate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2969.78,
+            2975.882
+          ],
+          "quote": "But it is an objective fact that we think Oracle is one of the top NeoClouds in terms of quality of service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2996.048,
+            3007.332
+          ],
+          "quote": "And then later, you know, we said it again in May and June, and then most recently, Oracle announced a force measure on it and their stock tanked because of it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3009.373,
+            3024.098
+          ],
+          "quote": "Yes, Oracle is an amazing cloud for their managed cluster, one of the top NeoClouds, but they also at the same time may have execution issues, whether it's regulatory in the case of this New Mexico data center where they can't get the pipeline there or other issues, you know, on their balance sheet, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3064.715,
+            3066.498
+          ],
+          "quote": "But as far as Oracle",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3109.263,
+            3112.045
+          ],
+          "quote": "And so they spooked out, even though Oracle is completely solvent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3148.677,
+            3161.384
+          ],
+          "quote": "Whereas CoreWeave and Oracle, despite having also good cluster management and reliability and security and all this stuff, were not able to take as much advantage because they locked themselves into long-term contracts primarily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3173.557,
+            3180.903
+          ],
+          "quote": "And there's like these top tier groups like we talked about, CoreWeave and Nebius, Oracle, Google Cloud is up there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coreweave",
+      "type": "company",
+      "role": "company",
+      "name": "CoreWeave",
+      "file": "CoreWeave",
+      "primary": true,
+      "how_described": "本集说它与 Nebius 同属 ClusterMax 顶梯队，运营水平好，却因锁死长期合同而错过本轮涨价红利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 528,
+          "t": [
+            2847.497,
+            2850.058
+          ],
+          "quote": "At the top tier is CoreWeave and Nebius.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3148.677,
+            3161.384
+          ],
+          "quote": "Whereas CoreWeave and Oracle, despite having also good cluster management and reliability and security and all this stuff, were not able to take as much advantage because they locked themselves into long-term contracts primarily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3173.557,
+            3180.903
+          ],
+          "quote": "And there's like these top tier groups like we talked about, CoreWeave and Nebius, Oracle, Google Cloud is up there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nebius",
+      "type": "company",
+      "role": "company",
+      "name": "Nebius",
+      "file": "Nebius",
+      "primary": true,
+      "how_described": "本集说它拥有顶级云厂商中最短的平均合同期限，因此能转身大幅提价、吃足卖方市场红利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 528,
+          "t": [
+            2847.497,
+            2850.058
+          ],
+          "quote": "At the top tier is CoreWeave and Nebius.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3134.141,
+            3135.762
+          ],
+          "quote": "Now, you know, they're not Nebius.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3135.802,
+            3141.97
+          ],
+          "quote": "Nebius gets to turn around and they have the shortest average contract length of the top clouds in ClusterMax.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3142.67,
+            3148.037
+          ],
+          "quote": "And so Nebius has been able to turn around and really jack up pricing and take advantage of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3173.557,
+            3180.903
+          ],
+          "quote": "And there's like these top tier groups like we talked about, CoreWeave and Nebius, Oracle, Google Cloud is up there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集针对『Meta 背负无法偿还债务』的批评，说它任何时候都可停止买新东西、现金流足以支付已签约的一切，『想拔插头随时可以拔』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            579.017,
+            582.958
+          ],
+          "quote": "So Goldman Sachs, they say Meta, this is a tweet, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            582.978,
+            588.46
+          ],
+          "quote": "Meta's committed corporate suicide after taking on insurmountable debt that the company will struggle to pay back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            690.892,
+            702.36
+          ],
+          "quote": "As far as statements on Meta, it's like this is just kind of silly because Meta at any point can just stop buying new stuff and their cash flow can easily pay for all the stuff that they've signed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            715.728,
+            719.69
+          ],
+          "quote": "And so as far as like the solvency of Meta, like they're completely solvent, they're completely fine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1261.102,
+            1269.663
+          ],
+          "quote": "And we'd already talked about the fact that there are some contracts that a company like Meta may not have to go through with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1269.923,
+            1278.085
+          ],
+          "quote": "You're obviously looking a lot at the businesses of the neoclouds, which are dependent on companies like Meta actually making good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1283.79,
+            1304.008
+          ],
+          "quote": "Is this sort of an underappreciated risk that like everything looks like fairly fine right now if you speak to one of these neoclouds because they'll tell you that they have the best customers in the world they have the metas and meta will make good on the on the on the promise and they're raising debt based off of this but in reality the risk might be that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1304.288,
+            1307.871
+          ],
+          "quote": "A company like Meta might just decide, yeah, we're not going to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1313.355,
+            1322.541
+          ],
+          "quote": "So I want to be clear about one thing Dylan was talking about there in terms of termination versus what's going on with Meta and the NeoClouds, which is that generally speaking, these hyperscalers",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1354.159,
+            1369.505
+          ],
+          "quote": "What Dylan's referring to with the potential to slow down or pause or cancel projects is more with respect to the self-build sites, which is to say like Meta has massive campuses that are going to serve as more of a base load of capacity going into the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1416.292,
+            1427.662
+          ],
+          "quote": "Meta or OpenAI or Anthropic who have demand on their consumer facing applications like ChatGPT or Claude Code or Codex or even Muse from Meta, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1432.163,
+            1450.673
+          ],
+          "quote": "So they need to ramp up and be prepared to roll this thing out to the billions of monthly active users on the meta, different surfaces that they serve and approaching a billion of monthly active users for ChatGPT and hundreds of millions for Claude Code and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1940.752,
+            1946.498
+          ],
+          "quote": "Yes, there's all this like messaging of like, oh, you know, Meta's cutting spend or Microsoft cutting spend or what have you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3526.744,
+            3532.908
+          ],
+          "quote": "But also like more and more of the best people just keep getting poached to Anthropic, to OpenAI, and it's Meta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "本集说 Google 流向 DeepMind 的算力占比在下降，到年底它在三大实验室中算力垫底，而 Gemini 因缺乏带动 token 销售的利基，编程上比不过前两三名。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 628,
+          "t": [
+            3383.581,
+            3394.583
+          ],
+          "quote": "Google is producing significantly more compute year on year, but the amount that's going to DeepMind is not rising as fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3394.823,
+            3399.384
+          ],
+          "quote": "It's not like, oh, DeepMind had a third of Google's compute, now it still has a third of Google's compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3399.484,
+            3409.867
+          ],
+          "quote": "It's actually falling as a percentage, which is really interesting because now if I look at just DeepMind versus Anthropic and OpenAI, DeepMind has the least compute of the three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3455.043,
+            3463.788
+          ],
+          "quote": "But by definition, you know, helping Anthropic this much with TPUs and helping them this much with these other things is hurting Google DeepMind's business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3472.89,
+            3481.296
+          ],
+          "quote": "So they need to find a niche that drives Gemini token sales if they want DeepMind to continue competing on the frontier of AI research.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1133.257,
+            1138.32
+          ],
+          "quote": "NVIDIA, Broadcom, as well as like Google and all these other companies that are making their own chips and many others, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2850.358,
+            2855.321
+          ],
+          "quote": "I'm more interested in the second tier, and that is Oracle and Google Cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3173.557,
+            3180.903
+          ],
+          "quote": "And there's like these top tier groups like we talked about, CoreWeave and Nebius, Oracle, Google Cloud is up there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3332.988,
+            3338.87
+          ],
+          "quote": "You know, Google, obviously, they've announced they have this Gemini Argon coming out, Gemini 4 Argon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3340.55,
+            3351.163
+          ],
+          "quote": "Is it your view that, you know, there have been some people who have called upon Google to just be, you know, basically a NeoCloud and rent out the TPUs from Google Cloud and the computing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3383.581,
+            3394.583
+          ],
+          "quote": "Google is producing significantly more compute year on year, but the amount that's going to DeepMind is not rising as fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3394.823,
+            3399.384
+          ],
+          "quote": "It's not like, oh, DeepMind had a third of Google's compute, now it still has a third of Google's compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3417.911,
+            3428.218
+          ],
+          "quote": "And so Google, whether or not there's a NeoCloud, what the word NeoCloud even means, does selling tokens of other models count as NeoCloud?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3449.96,
+            3454.622
+          ],
+          "quote": "So I would say like Google's business model is evolving and they want to make money at every layer of the stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3455.043,
+            3463.788
+          ],
+          "quote": "But by definition, you know, helping Anthropic this much with TPUs and helping them this much with these other things is hurting Google DeepMind's business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3501.188,
+            3505.23
+          ],
+          "quote": "And then Google only adds a few gigawatts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3505.371,
+            3509.473
+          ],
+          "quote": "Now their compute deficit, it was Google's way ahead in compute and they were kind of behind.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neocloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "新云 (NeoCloud)",
+      "file": "新云",
+      "primary": true,
+      "how_described": "本集把它说成专门给 AI 提供算力的新兴云公司，是这一轮建设浪潮的世界中心，但『大多数 NeoCloud 的安全能力很糟糕』，且卖方市场让它们疏于打磨服务质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1334.929,
+            1346.036
+          ],
+          "quote": "Generally speaking, they're signing five-year, six-year term links and they're off taking the full capacity and they have a set, you know, hourly rate and total contract value that's very, very attractive to the NeoCloud providers because those guys have gone out",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2539.716,
+            2545.599
+          ],
+          "quote": "So what we're seeing is just that they are supporting NeoCloud's buildup the capacity for the demand from the customers, which is so",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2597.07,
+            2600.093
+          ],
+          "quote": "They'll try taking over a NeoCloud to run more copies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2600.813,
+            2607.318
+          ],
+          "quote": "Thus, NeoCloud should greatly strengthen their cybersecurity and every company with strong cyber models should help with that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2769.818,
+            2776.62
+          ],
+          "quote": "Yeah, we throw around this word sovereign AI and it gets entangled with the concept of a NeoCloud many times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2911.046,
+            2923.69
+          ],
+          "quote": "It is not anything to do with, hey, this NeoCloud is going to build a gigawatt next year or 200 megawatts, which is far more relevant for the stock than how good are they at operating a cluster, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            3036.285,
+            3044.65
+          ],
+          "quote": "And it turns out now there's a lot of other uses for it that people try to ham fist in, whether it's like, hey, we're going to write debt for this NeoCloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3226.007,
+            3234.658
+          ],
+          "quote": "And since we coined the term NeoCloud at SemiAnalysis, that a lot of people have just not made progress towards the things that we were writing about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3340.55,
+            3351.163
+          ],
+          "quote": "Is it your view that, you know, there have been some people who have called upon Google to just be, you know, basically a NeoCloud and rent out the TPUs from Google Cloud and the computing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3417.911,
+            3428.218
+          ],
+          "quote": "And so Google, whether or not there's a NeoCloud, what the word NeoCloud even means, does selling tokens of other models count as NeoCloud?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3432.06,
+            3433.401
+          ],
+          "quote": "So maybe that's a NeoCloud, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3443.376,
+            3444.196
+          ],
+          "quote": "Is that NeoCloud?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "CapEx",
+      "file": "CapEx",
+      "primary": true,
+      "how_described": "本集的核心量纲：明年全美 CapEx 约2万亿美元、占 GDP 5-6%，且收入总是滞后于 CapEx，错配是建设期的必然。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            180.139,
+            193.864
+          ],
+          "quote": "So like, I mean, if you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            194.604,
+            196.625
+          ],
+          "quote": "So you're close to $2 trillion of CapEx.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            211.752,
+            222.097
+          ],
+          "quote": "So sort of my thought process is actually like, oh, wow, these numbers are lower than the actual because people are understating the amount and size of CapEx that's happening in the US and North America and the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            224.147,
+            231.169
+          ],
+          "quote": "And I think like part of this is because, you know, with railroads, your CapEx is in the country that you're deploying it in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            231.59,
+            235.191
+          ],
+          "quote": "With fiber, your CapEx is in the country you're deploying it in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            235.551,
+            241.193
+          ],
+          "quote": "But for AI infrastructure, your CapEx in America is actually a lot of it's being used to serve outside of America uses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            255.879,
+            267.905
+          ],
+          "quote": "And so there is a bit of this like this, this, you know, CapEx in America is actually like much higher as a result because one, you're doing all the training here and then two, you're actually serving other countries from data centers in America.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            309.226,
+            314.392
+          ],
+          "quote": "Where the hyperscaler quarterly year on year CapEx growth is going.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            450.006,
+            455.234
+          ],
+          "quote": "There's a lot of work being done to expand the supply chain in order to be able to accommodate for all of this capex to go into it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            643.386,
+            646.028
+          ],
+          "quote": "How much are people spending on CapEx and then revenue?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            646.308,
+            647.849
+          ],
+          "quote": "And the revenue always trails to CapEx.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            679.612,
+            689.039
+          ],
+          "quote": "So $250 billion of revenue a year for that trillion dollars of capex, or it's going to be something sloped where the first year is much less than the last year is much higher to get the payback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            782.841,
+            789.703
+          ],
+          "quote": "And right now, CapEx is not going up at 10x a year, but revenue just went up 10x year on year for the AI labs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说全世界的推理大量从美国输出——Anthropic 和 OpenAI 服务欧洲的推理大部分在美国数据中心跑，这是美国 CapEx 反常高的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.034,
+            62.557
+          ],
+          "quote": "That's how companies like Razer were able to cut their inference costs by 15 times.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            241.953,
+            251.597
+          ],
+          "quote": "So if you look at, for example, Europe, most of Europe's inference for Anthropic is in America and most of OpenAI's inference in Europe is in America.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            790.143,
+            801.547
+          ],
+          "quote": "And so we've seen Anthropic is now profitable in terms of compute cost minus revenue, or revenue minus compute cost, both training and inference combined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1838.346,
+            1858.101
+          ],
+          "quote": "I would say like, if you look at like Salesforce, which is probably like one of the greatest SaaS companies out there, you know, I mean, I think like at least like consistently grown to become one of the biggest SaaS companies, their gross margins are like 75% and Anthropic on their inference is doing 75% gross margins, a little bit higher even.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3353.206,
+            3358.212
+          ],
+          "quote": "Or do you think that they're still going to use like a large percentage of their compute for model training and inference?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集贯穿主线：GPU 用六年折旧、是芯片项目成本大头，供给追不上需求，NVIDIA 把签下的 GPU 转卖给出价更高者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            287.42,
+            299.043
+          ],
+          "quote": "This is semi-analysis rankings of the GPU cloud systems, basically putting a lot of the hyperscalers and the Neo clouds in tiers, talking a little bit about their performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2277.294,
+            2286.296
+          ],
+          "quote": "And the subhead tells you, you know, it's already kicks off in the right way in the gory detail, the reliability, performance, support, and pricing and security of the GPU cloud providers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2760.147,
+            2766.371
+          ],
+          "quote": "And they were training models and running models for themselves, presumably, because this was a GPU infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说数据中心能用15年、建筑成本只占新芯片项目总成本一小部分，Oracle 新墨西哥数据中心因管道问题可能延迟多年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            609.007,
+            615.029
+          ],
+          "quote": "By 2032, 8.8% of GDP to justify today's massive data center investment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            659.677,
+            667.783
+          ],
+          "quote": "So if I spend a trillion dollars today on AI data center and GPUs, the GPUs are lasting six years, the data centers are lasting 15.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2821.162,
+            2826.886
+          ],
+          "quote": "You would like them to have an AirGap data center, but if there's exactly one facility in the entire country with GB300, NVL72,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2924.07,
+            2930.672
+          ],
+          "quote": "It has nothing to do with, hey, this data center that they said they're going to deliver with this much capacity next year got delayed by three months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2976.262,
+            2986.305
+          ],
+          "quote": "Now, that doesn't mean, on the other hand, hey, at SemiAnalysis in April, we published to our clients that their New Mexico data center was going to be delayed because they weren't going to get the pipelines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2986.605,
+            2992.067
+          ],
+          "quote": "And this was a big issue for OpenAI because OpenAI has contracted a huge data center with them in New Mexico.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2992.327,
+            2995.108
+          ],
+          "quote": "But if these pipelines don't get built, this data center can't go up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3009.373,
+            3024.098
+          ],
+          "quote": "Yes, Oracle is an amazing cloud for their managed cluster, one of the top NeoClouds, but they also at the same time may have execution issues, whether it's regulatory in the case of this New Mexico data center where they can't get the pipeline there or other issues, you know, on their balance sheet, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3071.673,
+            3076.775
+          ],
+          "quote": "Like one is they signed a ton of AI data center deals with OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全 (security)",
+      "file": "安全",
+      "primary": true,
+      "how_described": "本集称安全是这轮建设最脆弱的环节：用开源模型就能入侵几十家新云，SemiAnalysis 甚至意外看到同一集群上情报机构的数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            2022.638,
+            2026.681
+          ],
+          "quote": "Obviously they're going to slow down a little bit when they have these massive security incidents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2134.003,
+            2138.947
+          ],
+          "quote": "As a wide-glove enterprise security service, they protect your people with continuous personal data removal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2277.294,
+            2286.296
+          ],
+          "quote": "And the subhead tells you, you know, it's already kicks off in the right way in the gory detail, the reliability, performance, support, and pricing and security of the GPU cloud providers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2578.292,
+            2590.544
+          ],
+          "quote": "Let's talk about security because, you know, the first image in this report is a quote tweet of an Ilya Suskever post, which was made right after the Hugging Face incident.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2620.205,
+            2628.89
+          ],
+          "quote": "Yeah, so we posted an article titled, Most NeoClouds suck at security, documenting- By the way, the art for that is incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2685.777,
+            2688.578
+          ],
+          "quote": "Which is like, look, most of these clouds are terrible at security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2734.926,
+            2739.329
+          ],
+          "quote": "National, like federal, well, security agencies of governments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3148.677,
+            3161.384
+          ],
+          "quote": "Whereas CoreWeave and Oracle, despite having also good cluster management and reliability and security and all this stuff, were not able to take as much advantage because they locked themselves into long-term contracts primarily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3309.601,
+            3317.623
+          ],
+          "quote": "Like the basic things that fail with respect to security and reliability of being the two top ones are just",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            814.469,
+            822.491
+          ],
+          "quote": "If you look at like Amazon, for example, the biggest builder of AI infrastructure, all of their AI infrastructure investments are profitable today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "frontier model",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

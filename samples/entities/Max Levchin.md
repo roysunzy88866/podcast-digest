@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":7,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":433}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":7,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":434}</script>
 
 <script>
 (function(){

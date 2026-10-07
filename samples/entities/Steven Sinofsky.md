@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":184,"Theo Jaffe":7,"Martin Casado":5,"Sofia Puccini":4,"OpenAI":174,"监管俘获":3,"Google":64,"precautionary principle":1,"Microsoft":29,"开源":38}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":185,"Theo Jaffe":7,"Martin Casado":5,"Sofia Puccini":4,"OpenAI":175,"监管俘获":3,"Google":65,"precautionary principle":1,"Microsoft":29,"开源":38}</script>
 
 <script>
 (function(){

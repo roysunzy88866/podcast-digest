@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":433,"认知投降":2,"认知债务":2,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":80,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":434,"认知投降":2,"认知债务":2,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":80,"Chrome":4}</script>
 
 <script>
 (function(){

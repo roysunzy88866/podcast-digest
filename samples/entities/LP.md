@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Harry Stebbings]] · [[Venky Ganesan]] · [[David Morehead]] · [[Menlo]] · [[捐赠基金]] · [[风险投资]] · [[GP]] · [[IRR]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":184,"OpenAI":174,"Harry Stebbings":20,"Venky Ganesan":1,"David Morehead":1,"Menlo":2,"捐赠基金":1,"风险投资":1,"GP":1,"IRR":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":185,"OpenAI":175,"Harry Stebbings":20,"Venky Ganesan":1,"David Morehead":1,"Menlo":2,"捐赠基金":1,"风险投资":1,"GP":1,"IRR":1}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":29,"开源":38,"前沿模型":26,"本地模型":3,"模型路由":9,"蒸馏":1,"推理":82,"护栏":80,"Anthropic":184,"OpenAI":174}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":29,"开源":38,"前沿模型":27,"本地模型":3,"模型路由":9,"蒸馏":1,"推理":83,"护栏":80,"Anthropic":185,"OpenAI":175}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":184,"Claude 认证架构师考试":1,"智能体":433,"循环":10,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":97}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":185,"Claude 认证架构师考试":1,"智能体":434,"循环":10,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":97}</script>
 
 <script>
 (function(){

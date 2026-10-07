@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":433,"智能体电商":1,"X402":3,"AgentCore Payments":1,"WAF AI Traffic Monetization":1,"AWS":20,"Coinbase":7,"Stripe":48,"Anthropic":184,"护栏":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":434,"智能体电商":1,"X402":3,"AgentCore Payments":1,"WAF AI Traffic Monetization":1,"AWS":20,"Coinbase":7,"Stripe":48,"Anthropic":185,"护栏":80}</script>
 
 <script>
 (function(){

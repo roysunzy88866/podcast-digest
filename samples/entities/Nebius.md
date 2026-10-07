@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nebius</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nebius">NE</div><div class="pi"><h1 class="pt">Nebius</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nebius">NE</div><div class="pi"><h1 class="pt">Nebius</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]]**(00:56起):全栈 AI 云基础设施公司:不只提供模型 API,还运营底层数据中心、NVIDIA 系统和裸金属容量,纳斯达克上市,NVIDIA 几个月前向其投资 20 亿美元
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(47:27起):本集说它拥有顶级云厂商中最短的平均合同期限，因此能转身大幅提价、吃足卖方市场红利。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Token Factory]] · [[开源模型]] · [[推理]] · [[投机解码]] · [[KV 缓存]] · [[量化]] · [[后训练]] · [[负载均衡]] · [[NVIDIA]] · [[微调]]
+[[推理]] · [[NVIDIA]] · [[Token Factory]] · [[Dylan Patel]] · [[开源模型]] · [[SemiAnalysis]] · [[投机解码]] · [[Anthropic]] · [[KV 缓存]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Token Factory":1,"开源模型":4,"推理":82,"投机解码":1,"KV 缓存":5,"量化":4,"后训练":1,"负载均衡":1,"NVIDIA":59,"微调":31}</script>
+<script type="application/json" class="pd-epn">{"推理":83,"NVIDIA":60,"Token Factory":1,"Dylan Patel":2,"开源模型":4,"SemiAnalysis":1,"投机解码":1,"Anthropic":185,"KV 缓存":5,"OpenAI":175}</script>
 
 <script>
 (function(){

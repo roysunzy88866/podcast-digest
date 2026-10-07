@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":7,"NewLimit":2,"智能体":433,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":2,"递归自我改进":8}</script>
+<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":7,"NewLimit":2,"智能体":434,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":2,"递归自我改进":8}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":2,"NVIDIA":59,"ChatGPT":99,"Cognition":25,"Harvey":19,"Fireworks":7,"数据中心":22,"AI 工厂":3,"能源":2}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":2,"NVIDIA":60,"ChatGPT":99,"Cognition":25,"Harvey":19,"Fireworks":7,"数据中心":23,"AI 工厂":3,"能源":2}</script>
 
 <script>
 (function(){

@@ -169,7 +169,7 @@ token 价格指数从五年前每百万 60 美元跌破 1 美元，但 Thomas �
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:token、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:token、推理 (inference)、数据中心 (data center)</span>
-- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、数据中心 (data center)</span>
 
 </div>
 </div>

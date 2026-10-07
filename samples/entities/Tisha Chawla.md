@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":433,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
+<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":434,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
 
 <script>
 (function(){

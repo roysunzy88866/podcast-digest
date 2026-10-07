@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":174,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":175,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
 
 <script>
 (function(){

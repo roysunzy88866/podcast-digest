@@ -149,8 +149,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同概念:试点 (pilot)</span>
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台]]<span class="pd-rz">同概念:企业就绪 (Enterprise Ready)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT</span>
 
 </div>
 <div class="pd-ex">

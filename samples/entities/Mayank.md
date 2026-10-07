@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":2,"Splunk":3,"智能体":433,"代码生成":1,"vibe coding":46,"vibe debugging":1,"部落知识":4}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":2,"Splunk":3,"智能体":434,"代码生成":1,"vibe coding":46,"vibe debugging":1,"部落知识":4}</script>
 
 <script>
 (function(){

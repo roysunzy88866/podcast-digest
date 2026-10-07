@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":184,"Claude Tag":2,"Claude Code":97,"智能体":433,"沙箱":79,"记忆":25,"dreaming":3,"智能体身份":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":185,"Claude Tag":2,"Claude Code":97,"智能体":434,"沙箱":79,"记忆":25,"dreaming":3,"智能体身份":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Scale.ai":2,"Google":64,"企业 AI":1,"智能体":433,"评估":5,"实体消解":1,"人在回路":21,"基准测试":18,"校准":4}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Scale.ai":2,"Google":65,"企业 AI":1,"智能体":434,"评估":5,"实体消解":1,"人在回路":21,"基准测试":18,"校准":4}</script>
 
 <script>
 (function(){

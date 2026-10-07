@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":64,"Airbnb":12,"Y Combinator":7,"智能体":433,"AI":29}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":65,"Airbnb":12,"Y Combinator":7,"智能体":434,"AI":29}</script>
 
 <script>
 (function(){

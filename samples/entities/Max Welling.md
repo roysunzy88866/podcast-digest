@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":433,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":434,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
+[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":433,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":434,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

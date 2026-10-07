@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":433,"X402":3,"微交易":2,"护栏":80,"Nanopayments":1,"Claude Code":97,"Circle Agent Wallet":1,"付费墙":3}</script>
+<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":434,"X402":3,"微交易":2,"护栏":80,"Nanopayments":1,"Claude Code":97,"Circle Agent Wallet":1,"付费墙":3}</script>
 
 <script>
 (function(){

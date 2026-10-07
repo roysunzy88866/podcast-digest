@@ -1,0 +1,881 @@
+{
+  "episode_id": "2026-10-07-cogrev-software-that-never-breaks-outsystems-ce",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-10-07",
+  "tags": [
+    "企业级 AI 平台",
+    "智能体",
+    "token 成本优化",
+    "遗留系统现代化",
+    "平台差异化"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "nathan",
+      "type": "person",
+      "role": "host",
+      "name": "Nathan",
+      "file": "Nathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            197.028,
+            197.648
+          ],
+          "quote": "Thanks, Nathan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 653,
+          "t": [
+            4007.833,
+            4008.534
+          ],
+          "quote": "Cheers, Nathan.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "woodson-martin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Woodson Martin",
+      "file": "Woodson Martin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.912,
+            25.682
+          ],
+          "quote": "Today my guest is Woodson Martin, CEO of OutSystems, the pioneering enterprise software development platform that's helped many of the world's largest companies build and run complex, mission-critical applications since its founding in 2001, and which now specializes in helping those same giants build, orchestrate, and govern agentic systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            185.064,
+            190.506
+          ],
+          "quote": "With that, I hope you enjoy my conversation with Woodson Martin, CEO of OutSystems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            191.987,
+            194.348
+          ],
+          "quote": "Woodson Martin, CEO of OutSystems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4004.429,
+            4007.11
+          ],
+          "quote": "Woodson Martin, thank you for being part of the Cognitive Revolution.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "outsystems",
+      "type": "company",
+      "role": "company",
+      "name": "OutSystems",
+      "file": "OutSystems",
+      "primary": true,
+      "how_described": "本集把它说成:2001 年创立的企业软件开发平台,核心承诺是「更快构建、每次都可靠、永不破坏任何东西」,现在专注帮大型受监管企业构建、编排和治理智能体系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.912,
+            25.682
+          ],
+          "quote": "Today my guest is Woodson Martin, CEO of OutSystems, the pioneering enterprise software development platform that's helped many of the world's largest companies build and run complex, mission-critical applications since its founding in 2001, and which now specializes in helping those same giants build, orchestrate, and govern agentic systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            68.225,
+            90.815
+          ],
+          "quote": "For OutSystems customers, which include Petrobras, Brazil's state-controlled energy company, Vodafone, one of the world's largest mobile carriers, and Toyota, the world's largest carmaker, among many, many others, this new paradigm makes it possible to accelerate product roadmaps to the point that some of them are actually starting to clear what had previously been ever-growing development backlogs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            100.394,
+            107.535
+          ],
+          "quote": "But internally at OutSystems, they've gone from four major feature releases in Q4 to 19 in Q1 and 26 in Q2.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            185.064,
+            190.506
+          ],
+          "quote": "With that, I hope you enjoy my conversation with Woodson Martin, CEO of OutSystems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            191.987,
+            194.348
+          ],
+          "quote": "Woodson Martin, CEO of OutSystems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            203.53,
+            217.693
+          ],
+          "quote": "I wanted to start with kind of a sociological question for you, because in doing my homework, I learned that you took over OutSystems from a legendary founding CEO who had led the business for 24 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            279.819,
+            281.82
+          ],
+          "quote": "On OutSystems as a platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            310.896,
+            313.98
+          ],
+          "quote": "And that's still the core of what OutSystems does today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            389.818,
+            396.769
+          ],
+          "quote": "That's kind of what got me inspired about OutSystems as a business and as an opportunity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            501.321,
+            512.087
+          ],
+          "quote": "And that's because there is an intermediate layer in the OutSystems platform, an abstraction of the intent of the application that you build with an AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            550.817,
+            562.372
+          ],
+          "quote": "You know, role-based access controls, all those things are baked in at the platform level so that every code asset created on OutSystems respects 100% of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            599.614,
+            602.575
+          ],
+          "quote": "And so that's really kind of the secret sauce in OutSystems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            602.955,
+            613.9
+          ],
+          "quote": "When you're building a new system on OutSystems, you're inheriting every piece of your enterprise control plane, if you will, in every code asset that gets generated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            660.65,
+            662.532
+          ],
+          "quote": "In the way that OutSystems is done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2127.311,
+            2132.334
+          ],
+          "quote": "So that's a big part of the value proposition of the OutSystems platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2137.911,
+            2143.513
+          ],
+          "quote": "This episode of The Cognitive Revolution is brought to you by OutSystems, the leading agentic systems platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2144.614,
+            2153.678
+          ],
+          "quote": "OutSystems is helping their customers build, modernize, and operate enterprise systems, starting from any coding tool in a governed agentic engineering model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2168.987,
+            2179.072
+          ],
+          "quote": "It's time to innovate at the speed of AI without compromising quality or control, which is why thousands of enterprises worldwide trust OutSystems for their mission-critical apps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2179.812,
+            2189.657
+          ],
+          "quote": "Teams any size can use OutSystems to build, deploy, and manage AI apps and agents quickly and cost-effectively without compromising reliability and security.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2433.66,
+            2447.468
+          ],
+          "quote": "So if you go, if you're wandering around, if you are a, if you have a bank account almost anywhere in Asia, the chances are pretty good that the app you use to manage your balance and pay your bills runs on OutSystems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2726.703,
+            2737.028
+          ],
+          "quote": "And that's where a platform like OutSystems makes a big difference in processing, frankly, a very different kind of backlog than what it looked like even a few months ago.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2903.341,
+            2906.903
+          ],
+          "quote": "So as OutSystems does go about delivering it, how much...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3559.135,
+            3571.368
+          ],
+          "quote": "But what will the imagination now of creators produce now that AI and platforms like OutSystems remove so many of the typical traditional constraints of building amazing experiences?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3823.357,
+            3826.659
+          ],
+          "quote": "What are you doing at OutSystems and how would you translate that to broader advice?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3982.241,
+            4003.929
+          ],
+          "quote": "Yeah, well, tune in today to the OutSystems World Tour from Las Vegas, where we will be showcasing a lot of these amazing technologies, the latest in the agent experience for OutSystems, which dramatically helps organizations to accelerate trusted delivery of AI systems for their business.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成:企业 AI 转型的核心工作方式——编码智能体操作应用「意图」的抽象层而非代码,受监管企业尚未放开自主智能体跑关键任务,Woodson 还主张每项新工作都要先问是给人还是给智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            130.862,
+            138.865
+          ],
+          "quote": "And a new agent foundry that they're using to suggest new agentic systems to build for customers and forecast the associated ROI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            518.631,
+            520.312
+          ],
+          "quote": "You bring any coding agent you like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            890.841,
+            894.164
+          ],
+          "quote": "A workload to an autonomous agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1146.169,
+            1152.313
+          ],
+          "quote": "I've talked to a couple of entrepreneurs doing work in this domain, you know, basically AI agent insurance type offerings.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1194.184,
+            1202.527
+          ],
+          "quote": "Most engineers today closely follow new model releases, but don't pay nearly as much attention to their agent's most important tool, web search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1211.986,
+            1216.891
+          ],
+          "quote": "Before starting to use Parallel, I calculated that my agent search bill would total roughly $500 this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1247.169,
+            1257.217
+          ],
+          "quote": "So, whether you're building voice agents that need 200-millisecond latency or long-horizon agents that need deep research, adding Parallel to your agent's toolkit is a no-brainer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2026.228,
+            2028.73
+          ],
+          "quote": "agent experience for you as a user.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2028.75,
+            2044.46
+          ],
+          "quote": "You can come on to our site, you can use our IDE, and you can use our mentor directly there, but you could also operate that through MCP services using any coding agent or harness of your choice.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2227.956,
+            2235.881
+          ],
+          "quote": "Before every recording, one agent researches the guest and sends me a suggested outline of questions, complete with links to all sources.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2236.741,
+            2241.404
+          ],
+          "quote": "Meanwhile, another agent scores the overwhelming number of pitches that I'm getting from PR firms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2269.462,
+            2275.266
+          ],
+          "quote": "Each agent works with your tools and business context and remembers useful information across threads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3220.391,
+            3227.597
+          ],
+          "quote": "An agent that simply tells you what to build and forecasts for you the ROI in terms of time savings.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3234.964,
+            3242.25
+          ],
+          "quote": "We reason over that and we say, hey, you might want to think about an agent here for taking this manual job and turning it into an automated one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3296.23,
+            3305.817
+          ],
+          "quote": "But then you also have this like MCP paradigm where I sit in some other software entirely, or maybe I even take a walk and just use voice mode to talk to my agent about it that way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3489.886,
+            3499.244
+          ],
+          "quote": "of the bank with the same agent operating behind the scenes in both contexts, seamlessly carrying the conversation through, recognizing which",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3526.278,
+            3534.043
+          ],
+          "quote": "There's a lot of the workload moves directly into the agent experience.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3666.561,
+            3667.961
+          ],
+          "quote": "I need an agent platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3903.794,
+            3913.878
+          ],
+          "quote": "And so the work I was talking about today about our agent foundry that goes in and inspects your architecture and says, here are opportunities to turn into agentic is another thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3922.741,
+            3924.442
+          ],
+          "quote": "Is that work for an agent or a team?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3982.241,
+            4003.929
+          ],
+          "quote": "Yeah, well, tune in today to the OutSystems World Tour from Las Vegas, where we will be showcasing a lot of these amazing technologies, the latest in the agent experience for OutSystems, which dramatically helps organizations to accelerate trusted delivery of AI systems for their business.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mentor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mentor",
+      "file": "Mentor",
+      "primary": true,
+      "how_described": "本集把它说成:OutSystems 自家的 AI 构建助手/服务,后端挑选并微调了一堆模型驱动,如今实际是一组可在任何地方通过 MCP 服务消费的构建能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            108.095,
+            117.497
+          ],
+          "quote": "And meanwhile, they're rapidly agentifying their own business with major initiatives, including a customer-facing application development assistant, which they call Mentor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            513.268,
+            516.97
+          ],
+          "quote": "You can use our built-in AI assistant called Mentor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2021.299,
+            2023.5
+          ],
+          "quote": "We have a service we call Mentor to do that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2023.6,
+            2025.022
+          ],
+          "quote": "Mentor offers its own",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2028.75,
+            2044.46
+          ],
+          "quote": "You can come on to our site, you can use our IDE, and you can use our mentor directly there, but you could also operate that through MCP services using any coding agent or harness of your choice.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2315.198,
+            2323.066
+          ],
+          "quote": "What have you learned about balancing, and I did go use Mentor on the website, so I have a sense for the experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            3025.467,
+            3031.911
+          ],
+          "quote": "When I tried to mentor a product that you described with the builder experience, I was struck by a couple of things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            3055.987,
+            3061.329
+          ],
+          "quote": "So even building something like Mentor two generations ago, probably pretty tough, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3098.27,
+            3101.212
+          ],
+          "quote": "Certainly like the build of Mentor has been a big lift, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3125.171,
+            3144.777
+          ],
+          "quote": "That, of course, the project has evolved a ton over that time to the point where now, you know, Mentor is really a set of MCP services that can be consumed anywhere to build software reliably that always meets all of your non-functional requirements and helps you stick with your compliance goals and all those things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3272.469,
+            3278.425
+          ],
+          "quote": "The other big question I had around Mentor is, what do you see as a future of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3281.178,
+            3290.105
+          ],
+          "quote": "The mentor experience is the now increasingly familiar AI sidebar that kind of wraps the legacy application, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-foundry",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体铸造厂 (agent foundry)",
+      "file": "智能体铸造厂",
+      "primary": true,
+      "how_described": "本集把它说成:OutSystems 刚发布的新能力,用客户应用组合的遥测数据和数据流做推理,告诉客户该建什么智能体系统、预测节省时间的 ROI,按一个按钮就让 AI 构建出 V1。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            130.862,
+            138.865
+          ],
+          "quote": "And a new agent foundry that they're using to suggest new agentic systems to build for customers and forecast the associated ROI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3903.794,
+            3913.878
+          ],
+          "quote": "And so the work I was talking about today about our agent foundry that goes in and inspects your architecture and says, here are opportunities to turn into agentic is another thing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集把微调说成:OutSystems 在后端挑选并微调了一堆模型来驱动 Mentor 的构建者工作负载,并把调优、蒸馏、模型专用性视为未来平台差异化的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1939.99,
+            1946.995
+          ],
+          "quote": "Do you recommend even going as far as fine-tuning for some of those use cases to really dial in performance on a cost-adjusted basis?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说:今天大多数组织的企业工作负载并不需要前沿模型,几乎没有任何企业工作负载需要;大部分任务用更好的 harness 或低成本模型就能做得同样好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            2066.468,
+            2089.653
+          ],
+          "quote": "Frontier model on top or even an older model on top of those MCP services, you're getting the benefit of a whole bunch of optimization under the covers and a much lighter weight job that your harness needs to or its models need to do to give you the result that you want on our platform.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把 MCP 说成:Mentor 的开放接口形态——客户可以用任何编码智能体或 harness 通过 MCP 服务操作平台,前端模型调用时底层已有大量优化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            2028.75,
+            2044.46
+          ],
+          "quote": "You can come on to our site, you can use our IDE, and you can use our mentor directly there, but you could also operate that through MCP services using any coding agent or harness of your choice.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2066.468,
+            2089.653
+          ],
+          "quote": "Frontier model on top or even an older model on top of those MCP services, you're getting the benefit of a whole bunch of optimization under the covers and a much lighter weight job that your harness needs to or its models need to do to give you the result that you want on our platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3125.171,
+            3144.777
+          ],
+          "quote": "That, of course, the project has evolved a ton over that time to the point where now, you know, Mentor is really a set of MCP services that can be consumed anywhere to build software reliably that always meets all of your non-functional requirements and helps you stick with your compliance goals and all those things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3296.23,
+            3305.817
+          ],
+          "quote": "But then you also have this like MCP paradigm where I sit in some other software entirely, or maybe I even take a walk and just use voice mode to talk to my agent about it that way.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compliance-backlog",
+      "type": "concept",
+      "role": "concept",
+      "name": "合规积压清单 (compliance backlog)",
+      "file": "合规积压清单",
+      "primary": true,
+      "how_described": "本集说:很多客户把智能体系统建好、测好后,它躺在组织的合规积压清单里,卡在「训练数据是否合法获取」等审查上,连 PDF 转结构化数据这类简单工作也被拖慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            847.668,
+            857.99
+          ],
+          "quote": "And it's sitting in a compliance backlog today somewhere in their organization where it's pending the approval of the use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            997.245,
+            1007.912
+          ],
+          "quote": "When it comes to these apps that are built and in this sort of compliance backlog that you describe, and feel free to pick it apart and subdivide your answer, but",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ready",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业级就绪 (enterprise ready)",
+      "file": "企业级就绪",
+      "primary": true,
+      "how_described": "本集说:企业级就绪远不止高正常运行时间,还包括监管、合同、隐私等一整套非功能性要求,以及对多年交付历史的信任积累,这是初创公司很难获得的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            737.478,
+            745.1
+          ],
+          "quote": "And it's maybe the answer to another question I was going to ask you around, what does it mean to be enterprise ready in today's world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            783.772,
+            787.494
+          ],
+          "quote": "And what do you think really is required to be enterprise ready today?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            907.054,
+            910.556
+          ],
+          "quote": "So I think enterprise ready means a lot of things, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            939.086,
+            945.171
+          ],
+          "quote": "So there's a lot when it comes down to what enterprise-ready means in the market.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性代码 (deterministic code)",
+      "file": "确定性代码",
+      "primary": true,
+      "how_described": "本集说:平台从抽象模型确定性地生成代码,同样输入永远同样输出;而且很多企业工作负载用确定性代码比用模型做还便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1789.701,
+            1793.642
+          ],
+          "quote": "And a lot of that stuff can be done with deterministic code cheaper than it can be with a model at all.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "legacy system",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "differentiation",
+      "reason": "专名「differentiation」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}
