@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":5,"免费增值":2,"推理":81,"模板":2,"SEO":8,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":5,"免费增值":2,"推理":82,"模板":2,"SEO":8,"人在回路":21}</script>
 
 <script>
 (function(){

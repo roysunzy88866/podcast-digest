@@ -1,0 +1,937 @@
+{
+  "episode_id": "2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "企业级 AI 架构",
+    "RAG",
+    "微调",
+    "提示词工程",
+    "知识管理"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anant-srivastava",
+      "type": "person",
+      "role": "guest",
+      "name": "Anant Srivastava",
+      "file": "Anant Srivastava",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说 prompt 的职责是行为、语气、智能体的角色设定——小、稳定、可编辑的东西;错误职责是存储事实,塞产品目录会撞上「迷失在中间」问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            42.32,
+            52.485
+          ],
+          "quote": "From the prompt or the context, through the retrieval or memory layer, or by model adaptations such as fine tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            96.367,
+            100.11
+          ],
+          "quote": "The easy thing is go put something in the prompt, like go fix the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            129.742,
+            136.304
+          ],
+          "quote": "Every edit that you make to the prompt decides what behavior lives in the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            175.588,
+            181.693
+          ],
+          "quote": "In a few weeks, the product manager makes some changes to the prompt to fix the tone of the support assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            205.955,
+            207.915
+          ],
+          "quote": "Shuffs the product catalog into the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            245.408,
+            247.889
+          ],
+          "quote": "Oh, the engineer has shoved the product catalog into the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            315.954,
+            317.215
+          ],
+          "quote": "So the first part is prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            318.176,
+            319.257
+          ],
+          "quote": "What is the job of the prompt?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            319.617,
+            329.626
+          ],
+          "quote": "The job of the prompt is behavior, is tone, is the persona of the agent, things that are small, stable, and editable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            331.948,
+            335.071
+          ],
+          "quote": "The wrong job for the prompt is to store facts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            336.272,
+            342.037
+          ],
+          "quote": "You don't put product catalog into the prompt because you are unnecessarily providing context to your model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            349.944,
+            357.767
+          ],
+          "quote": "The diagnostic for prompt is, is the knowledge small, stable, and about how to behave rather than what to know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            361.988,
+            372.172
+          ],
+          "quote": "A concrete example for a good prompt use case is a customer support agent for a product SaaS, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            394.861,
+            397.703
+          ],
+          "quote": "This exact thing belongs to the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            399.1,
+            408.047
+          ],
+          "quote": "And one other thing is prompt is something, I'm not only talking about system prompt, I'm talking about authored instructions for your model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            412.271,
+            414.612
+          ],
+          "quote": "But this is what I mean by prompt here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            443.216,
+            444.316
+          ],
+          "quote": "It cannot be held in your prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            587.59,
+            589.111
+          ],
+          "quote": "And would you stuff it in the prompt?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            589.431,
+            590.992
+          ],
+          "quote": "You don't stuff such things into the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            598.737,
+            606.603
+          ],
+          "quote": "But you wouldn't stuff the entire code base into the prompt or even a part of it if it has no use there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1040.665,
+            1048.312
+          ],
+          "quote": "There can be exceptions to this, but prompt is more about behavior, memory is about what to know and facts, and weights are about how to reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1057.304,
+            1063.349
+          ],
+          "quote": "Your prompt or your context window, your memory, and your fine-tuning needs to circulate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1070.955,
+            1073.777
+          ],
+          "quote": "Your prompt or your context window has information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1082.267,
+            1091.911
+          ],
+          "quote": "Restarting a new session, things get pulled out from the memory into the prompt or context window, and that's when you're going from the memory to the prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说 memory 的职责是让模型立足于最新的、大量的、可溯源的知识,既包括智能体记忆也包括用 RAG 检索的外部记忆;有访问控制的知识必须放记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            42.32,
+            52.485
+          ],
+          "quote": "From the prompt or the context, through the retrieval or memory layer, or by model adaptations such as fine tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            102.412,
+            105.975
+          ],
+          "quote": "Maybe there is something with the memory system or the retrieval system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            137.944,
+            142.745
+          ],
+          "quote": "Every document that you index decides what knowledge is held in the memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            183.854,
+            189.899
+          ],
+          "quote": "After a few weeks, the support team adds refund policy documents to your retrieval on memory systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            190.199,
+            192.141
+          ],
+          "quote": "I'll talk about retrieval and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            192.181,
+            196.544
+          ],
+          "quote": "I'm treating it all as memory, but I'll come to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            418.095,
+            419.997
+          ],
+          "quote": "The second path is memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            421.798,
+            427.423
+          ],
+          "quote": "The job of memory is to ground your model or your agent in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            452.42,
+            455.241
+          ],
+          "quote": "This is what belongs to memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            456.512,
+            466.46
+          ],
+          "quote": "Now, when I use the term memory, people think of agent memory, knowledge that is acquired about people, about a person who is interacting with the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            467.221,
+            470.724
+          ],
+          "quote": "What I'm also referring to here is external memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            482.771,
+            486.932
+          ],
+          "quote": "So I'm talking both about the agent memory and the memory of the enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            488.972,
+            498.014
+          ],
+          "quote": "The wrong job for memory is shoving behavior in or thinking about how to reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            499.844,
+            500.484
+          ],
+          "quote": "With the memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            539.72,
+            541.281
+          ],
+          "quote": "You have got to have that in memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            541.621,
+            553.248
+          ],
+          "quote": "If there is some kind of access control that this user cannot see the other person's information or the data or whatever, you've got to have that knowledge in memory because then you can control who sees what.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            558.251,
+            569.178
+          ],
+          "quote": "A good example for storing something in external memory or memory is a code assistant, which has access to all your repos as an organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            671.502,
+            673.402
+          ],
+          "quote": "All that knowledge belongs to memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            674.143,
+            680.205
+          ],
+          "quote": "It could be external memory, which is your application's database, or it could be your agent memory as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            808.874,
+            814.579
+          ],
+          "quote": "These belong to either your agent memory, not there, but of course your external memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1040.665,
+            1048.312
+          ],
+          "quote": "There can be exceptions to this, but prompt is more about behavior, memory is about what to know and facts, and weights are about how to reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1057.304,
+            1063.349
+          ],
+          "quote": "Your prompt or your context window, your memory, and your fine-tuning needs to circulate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1075.478,
+            1078.04
+          ],
+          "quote": "Some of them becomes durable memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1082.267,
+            1091.911
+          ],
+          "quote": "Restarting a new session, things get pulled out from the memory into the prompt or context window, and that's when you're going from the memory to the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1092.292,
+            1100.936
+          ],
+          "quote": "So a lot of teams have built this architecture, but what people are focusing on building is the right side, the memory to fine-tuning flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1114.61,
+            1120.193
+          ],
+          "quote": "So those things move from your memory to fine-tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1121.314,
+            1125.416
+          ],
+          "quote": "Once you have fine-tuned, so that's memory to weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1137.513,
+            1146.699
+          ],
+          "quote": "You don't have to retrieve certain examples from your memory or external memory each time and provide it to the model because now the model knows the format reflexively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1150.662,
+            1152.383
+          ],
+          "quote": "So that's weights to memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "权重 (weights)",
+      "file": "权重",
+      "primary": true,
+      "how_described": "本集说只有停止变化的东西才属于权重,唯一依据是变化速率;搞错了会把还在移动的边界冻结住——本集事故里产品目录就是在微调时泄漏进权重的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            150.323,
+            156.726
+          ],
+          "quote": "Well, every training sample that you identify will bake something into the weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            263.848,
+            269.83
+          ],
+          "quote": "Well, the product catalog leaked into the weights when you fine-tuned it on your support tickets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            684.866,
+            687.607
+          ],
+          "quote": "Now let's come to the more interesting part, which is weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1040.665,
+            1048.312
+          ],
+          "quote": "There can be exceptions to this, but prompt is more about behavior, memory is about what to know and facts, and weights are about how to reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1121.314,
+            1125.416
+          ],
+          "quote": "Once you have fine-tuned, so that's memory to weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1150.662,
+            1152.383
+          ],
+          "quote": "So that's weights to memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说微调应教模型反射而非事实,诊断标准是信息是否停止变化、人是否收敛,理由只能是能力缺口或省成本,微调后要监控漂移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            42.32,
+            52.485
+          ],
+          "quote": "From the prompt or the context, through the retrieval or memory layer, or by model adaptations such as fine tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            938.164,
+            940.186
+          ],
+          "quote": "You should not be looking at fine-tuning your model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            978.763,
+            982.085
+          ],
+          "quote": "Fine-tuning is, has the information stopped changing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            990.029,
+            992.29
+          ],
+          "quote": "Are you fine-tuning because your model is not capable?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            993.451,
+            995.352
+          ],
+          "quote": "Or are you fine-tuning to save cost?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1057.304,
+            1063.349
+          ],
+          "quote": "Your prompt or your context window, your memory, and your fine-tuning needs to circulate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1092.292,
+            1100.936
+          ],
+          "quote": "So a lot of teams have built this architecture, but what people are focusing on building is the right side, the memory to fine-tuning flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1114.61,
+            1120.193
+          ],
+          "quote": "So those things move from your memory to fine-tuning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把 RAG 作为检索外部记忆的手段,强调代码 RAG 要用基于 AST 的分块并打元数据过滤,否则产出「RAG 糊糊」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            472.269,
+            474.229
+          ],
+          "quote": "Which you retrieve using RAG and all that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            500.884,
+            506.186
+          ],
+          "quote": "Now, of course, you can have a graphical kind of RAG which will help the agent do reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            642.065,
+            656.279
+          ],
+          "quote": "And all that, because that is what is going to help you get the exact data that you need versus creating a rag mush where you are returning a lot of chunks back from the database and then confusing the model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以客户支持智能体、代码助手等为例,讲智能体系统中知识应放在提示词、记忆还是权重,以及智能体如何在循环架构中越做越好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            197.765,
+            204.731
+          ],
+          "quote": "And then, since your agent is not giving you the right answers, an engineer",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            254.785,
+            260.527
+          ],
+          "quote": "Your model or your agent is still giving you product names that don't even exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            319.617,
+            329.626
+          ],
+          "quote": "The job of the prompt is behavior, is tone, is the persona of the agent, things that are small, stable, and editable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            361.988,
+            372.172
+          ],
+          "quote": "A concrete example for a good prompt use case is a customer support agent for a product SaaS, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            375.208,
+            379.991
+          ],
+          "quote": "Now, this agent has a professional tone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            421.798,
+            427.423
+          ],
+          "quote": "The job of memory is to ground your model or your agent in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            456.512,
+            466.46
+          ],
+          "quote": "Now, when I use the term memory, people think of agent memory, knowledge that is acquired about people, about a person who is interacting with the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            476.87,
+            478.71
+          ],
+          "quote": "It's not being managed by your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            482.771,
+            486.932
+          ],
+          "quote": "So I'm talking both about the agent memory and the memory of the enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            500.884,
+            506.186
+          ],
+          "quote": "Now, of course, you can have a graphical kind of RAG which will help the agent do reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            674.143,
+            680.205
+          ],
+          "quote": "It could be external memory, which is your application's database, or it could be your agent memory as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            808.874,
+            814.579
+          ],
+          "quote": "These belong to either your agent memory, not there, but of course your external memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1154.164,
+            1164.211
+          ],
+          "quote": "And so basically, this becomes a loop over a period of time, and the agent gets better at its job by the virtue of doing its job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": false,
+      "how_described": "本集说可以在上下文窗口里加某些重要的东西,且提示词/上下文窗口里的信息会生成信号沉淀为持久化记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            591.072,
+            596.816
+          ],
+          "quote": "You may stuff or you may add certain things that are important in the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1057.304,
+            1063.349
+          ],
+          "quote": "Your prompt or your context window, your memory, and your fine-tuning needs to circulate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1070.955,
+            1073.777
+          ],
+          "quote": "Your prompt or your context window has information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1082.267,
+            1091.911
+          ],
+          "quote": "Restarting a new session, things get pulled out from the memory into the prompt or context window, and that's when you're going from the memory to the prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集开篇就说关键架构决策是知识如何到达推理(inference),并强调推理靠合适的模型,上下文再多也救不了不会推理的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.545,
+            40.327
+          ],
+          "quote": "The key architecture decision is how that knowledge reaches inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lost-in-the-middle",
+      "type": "concept",
+      "role": "concept",
+      "name": "迷失在中间 (lost in the middle)",
+      "file": "迷失在中间",
+      "primary": false,
+      "how_described": "本集说 token 太多时会遇到「迷失在中间」问题,模型对长上下文中段的信息利用率下降,这是不该把产品目录塞进提示词的理由之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            344.683,
+            348.024
+          ],
+          "quote": "And when you have too many tokens, you run into lost in the middle problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

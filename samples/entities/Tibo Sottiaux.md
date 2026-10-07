@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":172,"ChatGPT":98,"智能体":427,"护栏":80,"ChatGPT work":1,"Dots":3,"harness":59,"Notion":16,"Rust":5}</script>
+<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":173,"ChatGPT":99,"智能体":430,"护栏":80,"ChatGPT work":1,"Dots":3,"harness":60,"Notion":16,"Rust":5}</script>
 
 <script>
 (function(){

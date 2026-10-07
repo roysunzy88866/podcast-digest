@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Weights and Biases":1,"ARIA":1,"Weave":1,"智能体":427,"评估":5,"轨迹":4,"沙箱":79,"可观测性":37,"爬坡":2,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Weights and Biases":1,"ARIA":1,"Weave":1,"智能体":430,"评估":5,"轨迹":4,"沙箱":79,"可观测性":37,"爬坡":2,"强化学习":1}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Brian Lewis]] · [[Millennium]] · [[企业就绪]] · [[RBAC]] · [[权限]] · [[遗留架构]] · [[试点]] · [[SLA]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Brian Lewis":1,"Millennium":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":98}</script>
+<script type="application/json" class="pd-epn">{"Brian Lewis":1,"Millennium":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":99}</script>
 
 <script>
 (function(){

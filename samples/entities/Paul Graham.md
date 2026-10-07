@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":17,"OpenAI":172,"ChatGPT":98,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":27,"推理":81,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":17,"OpenAI":173,"ChatGPT":99,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":27,"推理":82,"图灵测试":2}</script>
 
 <script>
 (function(){

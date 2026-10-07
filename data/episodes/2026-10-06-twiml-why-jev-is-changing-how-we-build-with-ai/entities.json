@@ -1,0 +1,2018 @@
+{
+  "episode_id": "2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-10-06",
+  "tags": [
+    "机器学习",
+    "可靠性",
+    "智能体",
+    "后训练",
+    "创业与产品"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            145.978,
+            148.881
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "diogo-almeida",
+      "type": "person",
+      "role": "cohost",
+      "name": "Diogo Almeida",
+      "file": "Diogo Almeida",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            81.419,
+            84.08
+          ],
+          "quote": "Diogo Almeida is co-founder and CEO of TypeSafe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "typesafe",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe",
+      "file": "TypeSafe",
+      "primary": true,
+      "how_described": "本集说是 Diogo Almeida 联合创办并任 CEO 的公司，隐身两年后发布 Jev，目标是让 AI 为机器/软件而非字符串优化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            49.869,
+            56.394
+          ],
+          "quote": "Three weeks ago, TypeSafe came out of stealth with JEV, and it quickly became one of the most talked about new models in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            81.419,
+            84.08
+          ],
+          "quote": "Diogo Almeida is co-founder and CEO of TypeSafe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            858.792,
+            867.199
+          ],
+          "quote": "Worked on a whole bunch of stuff, but really, even when I was working on other things, like I've been obsessed with this question that has led to TypeSafe and JEV.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1326.141,
+            1331.744
+          ],
+          "quote": "Like, was this like, hey, I'm gonna set up TypeSafe and I'm running towards this thing that I already knew about?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 852,
+          "t": [
+            4477.842,
+            4480.623
+          ],
+          "quote": "TypeSafe requires code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4495.231,
+            4497.973
+          ],
+          "quote": "So TypeSafe cannot be used without code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            5389.198,
+            5392.92
+          ],
+          "quote": "We should definitely do this more and great moment in time for TypeSafe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Diogo 曾在此工作四年半、参与 InstructGPT 与 RLHF；也批评其过度拒绝回滚、客服 demo 六年未解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            65.502,
+            70.767
+          ],
+          "quote": "Within days, open source lookalikes were showing up, and even OpenAI has since announced its own response.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            84.46,
+            93.823
+          ],
+          "quote": "Before that, he spent four and a half years at OpenAI, where he was part of the team behind InstructGPT and the RLHF work that helped turn language models into the assistants we use today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            699.068,
+            712.62
+          ],
+          "quote": "There was another RLHF learning to summarize where some people in the OpenAI team, I think Paul also was pivotal for that, taught the models to summarize, like a GPT-2 size model to summarize text better than",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 157,
+          "t": [
+            819.328,
+            821.488
+          ],
+          "quote": "You were at OpenAI for some period of time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            841.856,
+            843.298
+          ],
+          "quote": "And that was OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            846.461,
+            851.747
+          ],
+          "quote": "So I got the honor to actually work on a lot of OpenAI's greatest hits.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1148.568,
+            1153.431
+          ],
+          "quote": "OpenAI has been showing customer service demos since 2020, I believe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1460.678,
+            1466.58
+          ],
+          "quote": "You know, OpenAI just came out with their decisioning model, which is like a small model, you know, post-train for decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1783.55,
+            1791.878
+          ],
+          "quote": "A bunch of other, like I mentioned at Dev Days yesterday, OpenAI announced their decision models, which is I think Terra or a smaller model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2018.984,
+            2040.724
+          ],
+          "quote": "On that note, if you want a fun, embarrassing thing about me, is at the time I had this idea and the aha hit me, I wrote a document in OpenAI entitled, titled, maybe not entitled, titled, we could have had AGI last year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3031.203,
+            3038.729
+          ],
+          "quote": "This hasn't happened recently, but this happened back in the older days when OpenAI had issues with over-refusals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3261.342,
+            3266.387
+          ],
+          "quote": "It would be the equivalent to the OpenAI API outputting logits for every token.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3266.747,
+            3274.735
+          ],
+          "quote": "And then the software developers can choose how they want to chain the sampling algorithm instead of letting OpenAI just handle everything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3282.657,
+            3295.785
+          ],
+          "quote": "And that way they can tune their behavior to what it actually is needed in their system, instead of what, you know, like, OpenAI PM thinks is like a globally okay behavior for everyone using the API or first party product.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集说它是 TypeSafe 出隐三周即爆红的新模型，核心内含一个 LLM（互联网的压缩版），经 RLCD 训练做出校准过的可靠决策，被嘲讽为「不过是分类器」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            49.869,
+            56.394
+          ],
+          "quote": "Three weeks ago, TypeSafe came out of stealth with JEV, and it quickly became one of the most talked about new models in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            75.551,
+            80.415
+          ],
+          "quote": "JEV's real advance isn't speed or cost, it's a different idea of what AI should be optimized for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            94.503,
+            104.526
+          ],
+          "quote": "With Jev, he's now pursuing what he calls machine-native intelligence, models optimized not for generating strings that people consume, but for making reliable decisions that software can act on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            107.947,
+            111.33
+          ],
+          "quote": "The elevator pitch I use for Jev is just where the f*** is all the automation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            292.141,
+            295.163
+          ],
+          "quote": "And I'm hoping that Jev is the first step in that direction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            679.93,
+            684.695
+          ],
+          "quote": "So I won't talk out necessarily about Jev and RLCD right now because...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            786.998,
+            794.04
+          ],
+          "quote": "And Jev, at least, you know, I don't want to toot my own horn too much, but at least from like a excitement perspective was also a gigantic jump.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            858.792,
+            867.199
+          ],
+          "quote": "Worked on a whole bunch of stuff, but really, even when I was working on other things, like I've been obsessed with this question that has led to TypeSafe and JEV.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1257.806,
+            1269.875
+          ],
+          "quote": "And I actually think that, I hope that, and I want to do everything I can that Jev will usher in another golden era of software engineering, kind of like with the early internet creative energy of like building crazy things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1322.919,
+            1326.081
+          ],
+          "quote": "So where did the idea for Jev come from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1381.421,
+            1385.488
+          ],
+          "quote": "I did not know it would be in the shape of Jev, like we've had to get our own...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1398.193,
+            1406.198
+          ],
+          "quote": "And Jev is our, you know, initial foray into that and our best guess of like the 80-20 of maximum usefulness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1406.998,
+            1409.12
+          ],
+          "quote": "When Jev first came out, like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1410.203,
+            1419.17
+          ],
+          "quote": "It seemed like it was a very kind of two disparate reactions to JEV and what it represented.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1445.252,
+            1455.876
+          ],
+          "quote": "But, you know, more specifically, I'd love for you to talk about, you know, in kind of a technical level and with more nuance, like how is JEV different from a classifier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1537.384,
+            1546.151
+          ],
+          "quote": "I actually think if someone told us that we were a zero-shot general classifier for anything, that would be the greatest compliment I've ever been given for Jev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1546.332,
+            1550.395
+          ],
+          "quote": "We have other things too, but for Jev, that would be an incredible description of it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1972.599,
+            1974.54
+          ],
+          "quote": "Yeah, I obviously love Jev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2207,
+            2220.189
+          ],
+          "quote": "We've talked broadly about Jev, and it may be that everyone who's listening to this has already seen it, played with it, knows a bit about it, but in case not, you know, I asked you a bunch of questions before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2297.789,
+            2301.891
+          ],
+          "quote": "Not necessarily, Jev, but like some broader new emerging class of... Yeah, tell me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2322.907,
+            2331.833
+          ],
+          "quote": "So I would say that people's public interface to JEV could be called decision models, but I wouldn't...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2332.133,
+            2336.877
+          ],
+          "quote": "I personally wouldn't call... What's an example of something that JEV would be good for that's not a decision?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2383.416,
+            2392.46
+          ],
+          "quote": "Let's talk a little bit more about kind of the making of, like at the core, there's a model that we won't call a decision model, we'll just call it JEV.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2490.015,
+            2494.101
+          ],
+          "quote": "And even like the Jev can chat stuff, like it's very cute, but it's obviously dumb.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3166.56,
+            3180.504
+          ],
+          "quote": "Does the current JEV product expose those to the user or are those knobs that the JEV engineering team has access to to create this thing that, you know, this decision API that you've published to the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3233.284,
+            3249.491
+          ],
+          "quote": "You know, my cursory look into the Jev API, it's like a very simple API shape, but I've not dug into the docs and looked at all the possible knobs that you give me access to beyond just the decisions that I send in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3376.81,
+            3380.853
+          ],
+          "quote": "Missed so many fads, even though we thought Jev would have been great for a lot of those fads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3381.113,
+            3384.515
+          ],
+          "quote": "Like, holy shit would have been cool to launch Jev the same time as OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3505.945,
+            3512.608
+          ],
+          "quote": "And if I wasn't doing JEV, I would probably be ideally not starting a company, but doing other cool stuff on top of the AI models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3960.982,
+            3968.025
+          ],
+          "quote": "I'm not sure that that answers why a JEV model, like, well, A, do you agree that...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 761,
+          "t": [
+            4025.449,
+            4028.472
+          ],
+          "quote": "Jev, and now here's where you can correct me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4028.492,
+            4035.677
+          ],
+          "quote": "I'm thinking of Jev as more akin to a model and less akin to a harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4073.64,
+            4079.103
+          ],
+          "quote": "As far as models goes, JEV is like extremely early down its curve, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 791,
+          "t": [
+            4183.951,
+            4186.832
+          ],
+          "quote": "With regards to Jev, like, is Jev like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4207.249,
+            4211.45
+          ],
+          "quote": "And what would the harness do in the case of Jev?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4523.297,
+            4547.093
+          ],
+          "quote": "So just kind of to to pull that back, what I'm hearing is that Jev is at its core model and you don't right now see like a role for quote unquote harness between you and the user that you control that's like the while loop thingy or that's fetching external contacts, but rather.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 866,
+          "t": [
+            4547.953,
+            4555.22
+          ],
+          "quote": "Every user is going to embed that JEV model into their code and they're essentially providing the harness that makes sense for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 869,
+          "t": [
+            4558.803,
+            4567.21
+          ],
+          "quote": "I think that higher level abstractions could exist for JEV-like models, but like a harness itself is just, it's a very,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4643.246,
+            4652.015
+          ],
+          "quote": "You know, one interesting potential opportunity for Jev is inside of all of these agendic harnesses or frameworks or whatever we want to call them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 902,
+          "t": [
+            4712.492,
+            4721.575
+          ],
+          "quote": "So, given all of that, like, Jev is meant to be this, like, general technology that understands, like, common sense and can be helpful all over the place.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 943,
+          "t": [
+            4922.037,
+            4932.483
+          ],
+          "quote": "So the agent architecture is potentially very different in a kind of Jev Greenfield world, and you're leaving it as an exercise to the listener or for the listener.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4936.705,
+            4956.432
+          ],
+          "quote": "To look there, pragmatically we need to care about like what actually works in the real world and then you know there might even be limitations of JEV such that it right this is currently JEV 1.13 maybe you need JEV 1.16 to actually get all of this working who knows it's a it's going to be like a wide open really fun world my guess is the future is going to be hybrids.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 997,
+          "t": [
+            5254.669,
+            5268.553
+          ],
+          "quote": "Write a workflow for map producing across your documents in your company brain or whatever is hot these days, but actually it could call JEV models in it because there's a lot of documents and you don't actually want Opus 5.5 to reason over the whole thing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可靠性 (reliability)",
+      "file": "可靠性",
+      "primary": true,
+      "how_described": "本集反复强调「可靠性才是人们付费买的东西」，要把 AI 做到像 SQL 一样可靠到无聊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            446.202,
+            457.473
+          ],
+          "quote": "Like if you optimize super hard in a particular direction, you get certain types of reliability that you lose others because you focused all of your optimization pressure on those things that really matter.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1286.019,
+            1290.78
+          ],
+          "quote": "And in general, the way to get higher reliability is to zoom in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1910.368,
+            1914.61
+          ],
+          "quote": "How do we continue to ship stuff when we have such a high bar for reliability?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1978.463,
+            1982.885
+          ],
+          "quote": "And also, I cannot emphasize enough, reliability is what people are paying for.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1983.205,
+            1984.686
+          ],
+          "quote": "Reliability is what people want.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3384.776,
+            3388.158
+          ],
+          "quote": "It would have been awesome because everyone has like a lot of reliability issues with OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3452.523,
+            3462.227
+          ],
+          "quote": "The thing is that there's ways to bootstrap calibration and reliability and intelligence from all of that the same way that RLVR bootstraps reasoning, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3622.482,
+            3645.499
+          ],
+          "quote": "The perspective that the question came from was one of, you know, as a general principle, like the reliability of responses is governed by kind of mapping the training data and like, you know, the degree to which the thing you're asking is familiar to the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            4130.899,
+            4136.683
+          ],
+          "quote": "And I believe it's going to be a lifelong journey to add every single nine of reliability into the model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4701.639,
+            4710.166
+          ],
+          "quote": "Fast would be cool too, but I would prefer reliability, and a lot of businesses would prefer cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5085.765,
+            5088.807
+          ],
+          "quote": "You set it up very unfairly because you put aside the reliability issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 970,
+          "t": [
+            5091.85,
+            5101.637
+          ],
+          "quote": "And actually, I think that this is a fun hypothetical question because I never not think about reliability, but I actually think that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            5350.328,
+            5358.254
+          ],
+          "quote": "With like the earlier models we have that don't necessarily have our like stamp of reliability, but we think is better than anything else out there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": true,
+      "how_described": "本集说是团队创造的新任务——人类对模型补全的偏好标注，让模型学会取悦人；也是锯齿状能力与校准劣化的来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            84.46,
+            93.823
+          ],
+          "quote": "Before that, he spent four and a half years at OpenAI, where he was part of the team behind InstructGPT and the RLHF work that helped turn language models into the assistants we use today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            483.122,
+            484.463
+          ],
+          "quote": "This is what RLHF does, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            525.136,
+            531.478
+          ],
+          "quote": "And, you know, all of our gains with language models are, you know, RLHF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            686.498,
+            689.06
+          ],
+          "quote": "We can, but let's talk about RLHF, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            689.36,
+            692.963
+          ],
+          "quote": "When we made, there's many definitions of RLHF.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            693.244,
+            697.287
+          ],
+          "quote": "There was the original RLHF that Paul Cristiano did to teach robots to backflip.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 133,
+          "t": [
+            699.068,
+            712.62
+          ],
+          "quote": "There was another RLHF learning to summarize where some people in the OpenAI team, I think Paul also was pivotal for that, taught the models to summarize, like a GPT-2 size model to summarize text better than",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 135,
+          "t": [
+            716.332,
+            725.3
+          ],
+          "quote": "And then there's RLHF, which is what everyone refers to now, which is creating the task of instruction following, like teaching the models to chat and follow instructions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            725.62,
+            729.564
+          ],
+          "quote": "So when I refer to RLHF, this is a task that is being done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            730.165,
+            739.393
+          ],
+          "quote": "And before RLHF existed, there was literally no human feedback data on the internet of the shape that we were looking for because we had to create it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            796.261,
+            799.801
+          ],
+          "quote": "Cause you, you mentioned RLHF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2047.294,
+            2061.468
+          ],
+          "quote": "I still believe the sentiment to it, but like the sentiment inside of it was like one year's worth of time of like the equivalent of an RLHF effort would be sufficient to make this new class of models that are made to be machine native.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2064.422,
+            2066.864
+          ],
+          "quote": "RLHF could have been done in less than a year for sure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2411.793,
+            2418.036
+          ],
+          "quote": "Back before RLHF existed, post-training as a concept did not exist, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2826.3,
+            2840.43
+          ],
+          "quote": "So back to the topic of RLHF, like RLHF is not about PPO on reward model on, you know, like doing first SFT and then reward model training and then on policy training of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2841.527,
+            2846.631
+          ],
+          "quote": "RLHF is about human decisions and your thing is about decisions, calibrated decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2881.098,
+            2884.44
+          ],
+          "quote": "Publishing RLHF was probably really good for the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3396.222,
+            3402.205
+          ],
+          "quote": "They're not perfectly calibrated, but they are way, way more calibrated than RLHF models are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3402.605,
+            3411.41
+          ],
+          "quote": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3916.905,
+            3925.309
+          ],
+          "quote": "RLHF was ridiculously easy to make in general because it was very, very good at writing human pleasing stuff because that is subjective.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 775,
+          "t": [
+            4090.924,
+            4103.254
+          ],
+          "quote": "The RLHF models are very bad at decision-making, so I would guess that R models would be less good at decision-making than the biggest RLVR models, but a lot better than the non-reasoning RLHF models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rlcd",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLCD",
+      "file": "RLCD",
+      "primary": true,
+      "how_described": "本集说是专门为校准决策优化的那类算法，把可调阈值等工程控制权交还给开发者，比 RLHF 难做得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            679.93,
+            684.695
+          ],
+          "quote": "So I won't talk out necessarily about Jev and RLCD right now because...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2001.514,
+            2006.757
+          ],
+          "quote": "You know, we can from there maybe touch on RLCD, which is a big part of your process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2069.647,
+            2073.951
+          ],
+          "quote": "But in hindsight, I think RLCD could not have been done in a year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2394.52,
+            2400.023
+          ],
+          "quote": "And it was created through a process called RLCD post training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2818.394,
+            2825.019
+          ],
+          "quote": "You have an involved process that we won't call post-training, but there is this thing called RLCD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2852.115,
+            2861.862
+          ],
+          "quote": "So like when I talk about RLCD, I talk about like the general class of algorithms that optimize specifically for calibrated decisions because that is what's useful for software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2923.268,
+            2927.031
+          ],
+          "quote": "What is the setting for RLCD?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3016.101,
+            3025.508
+          ],
+          "quote": "So to me RLCD is about exposing the right interface to builders so that they can get the properties they want without just praying to the system message.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3101.905,
+            3107.771
+          ],
+          "quote": "So I see RLCD as really exposing the most native to engineering controls.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3147.326,
+            3164.417
+          ],
+          "quote": "You talked about the RLCD setting being one of you've got some set of inputs and there are the inputs that the user provides, but there's also these knobs that kind of control internal bias in the system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3296.116,
+            3310.846
+          ],
+          "quote": "Which brings me to a question I had about how you do that, and I guess I imagine this is circling back on RLCD, but like historically uncertainty estimation has been like very difficult and",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlvr",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLVR",
+      "file": "RLVR",
+      "primary": true,
+      "how_described": "本集说它本质是在为基准优化、极大破坏模型校准，也是 LLM 很多脆弱性和参差性的来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3402.605,
+            3411.41
+          ],
+          "quote": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3452.523,
+            3462.227
+          ],
+          "quote": "The thing is that there's ways to bootstrap calibration and reliability and intelligence from all of that the same way that RLVR bootstraps reasoning, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3462.247,
+            3468.19
+          ],
+          "quote": "Like in an ideal world, the reasoning of RLVR doesn't come from humans writing the reasoning because it does it differently.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3833.594,
+            3848.746
+          ],
+          "quote": "I actually have a separate blog post I've called, I believe it's called Lies, Damned Lies, and Benchmarks, where I talk about how a lot of the fragility and jaggedness we see of LMs today come from RLVR.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3853.277,
+            3854.638
+          ],
+          "quote": "Generous to RLVR.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 775,
+          "t": [
+            4090.924,
+            4103.254
+          ],
+          "quote": "The RLHF models are very bad at decision-making, so I would guess that R models would be less good at decision-making than the biggest RLVR models, but a lot better than the non-reasoning RLHF models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说后训练可以让某些类型的事情变得可靠，但 RLCD 这类后训练远比想象中难，花了两年隐身期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            498.795,
+            502.359
+          ],
+          "quote": "So post-training can make certain types of things reliable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1835.861,
+            1842.043
+          ],
+          "quote": "At the time we started this, I was probably at worst tied at best at post-training in the world when we started.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2394.52,
+            2400.023
+          ],
+          "quote": "And it was created through a process called RLCD post training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2411.793,
+            2418.036
+          ],
+          "quote": "Back before RLHF existed, post-training as a concept did not exist, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2418.237,
+            2424.66
+          ],
+          "quote": "Like we as a team, we didn't name post-training, but like that we created the concept of post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2452.541,
+            2464.106
+          ],
+          "quote": "Post-training is probably going to be seen as inaccurate in hindsight, but the field doesn't have a terminology yet for what we are doing, so that will probably be revealed more in the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2497.26,
+            2506.248
+          ],
+          "quote": "So when designing the entire pipeline, post-training was a lot easier on top of LLMs because the shape was very similar.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2818.394,
+            2825.019
+          ],
+          "quote": "You have an involved process that we won't call post-training, but there is this thing called RLCD.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "type": "concept",
+      "role": "concept",
+      "name": "校准 (calibration)",
+      "file": "校准",
+      "primary": true,
+      "how_described": "本集说要拥有有意义的旋钮和阈值前提是概率被校准，在乎概率的长尾；并断言 RLHF/RLVR 极大破坏了模型校准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3402.605,
+            3411.41
+          ],
+          "quote": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3452.523,
+            3462.227
+          ],
+          "quote": "The thing is that there's ways to bootstrap calibration and reliability and intelligence from all of that the same way that RLVR bootstraps reasoning, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "classifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类器 (classifier)",
+      "file": "分类器",
+      "primary": true,
+      "how_described": "本集说分类器没有任何问题，「它们就是有用性的形态本身」，Meta 和 Google 靠的就是分类器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            59.757,
+            61.799
+          ],
+          "quote": "Some shrugged and said it was just a classifier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1445.252,
+            1455.876
+          ],
+          "quote": "But, you know, more specifically, I'd love for you to talk about, you know, in kind of a technical level and with more nuance, like how is JEV different from a classifier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1455.916,
+            1459.397
+          ],
+          "quote": "How is it different from an embedding model plus a classifier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1537.384,
+            1546.151
+          ],
+          "quote": "I actually think if someone told us that we were a zero-shot general classifier for anything, that would be the greatest compliment I've ever been given for Jev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1580.74,
+            1588.005
+          ],
+          "quote": "So I think that the classifier thing is like grumpy ML people who kind of don't get it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1688.849,
+            1693.255
+          ],
+          "quote": "Embedding model plus classifier, small models, like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1693.295,
+            1697.04
+          ],
+          "quote": "The thing is, if you put a small model or an embedding model plus a classifier...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2701.94,
+            2709.102
+          ],
+          "quote": "And like, if you think about it as like, like if all you've seen is Twitter and like, oh, it's like this cool new classifier thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说 harness 就是代码，其强大程度只取决于背后的智能；Diogo 甚至完全拒绝 harness 概念，称其为「无马的马车」式思维。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 760,
+          "t": [
+            4009.475,
+            4023.519
+          ],
+          "quote": "Like part of, I think the question is like, or part of where I'm coming from is like, I'm trying to compare model to model, not like harness to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4028.492,
+            4035.677
+          ],
+          "quote": "I'm thinking of Jev as more akin to a model and less akin to a harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4154.995,
+            4162.4
+          ],
+          "quote": "So that last comment of mine prompted another thought, which is like this relationship between model and harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 792,
+          "t": [
+            4188.024,
+            4195.786
+          ],
+          "quote": "Mostly model, a little bit of harness, and a lot of innovation can come by expanding that harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4195.886,
+            4199.107
+          ],
+          "quote": "Is it mostly harness, a little bit of model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 794,
+          "t": [
+            4200.187,
+            4206.969
+          ],
+          "quote": "Is there a similar, does it even make sense to think about that same relationship between model and harness?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4207.249,
+            4211.45
+          ],
+          "quote": "And what would the harness do in the case of Jev?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 797,
+          "t": [
+            4212.491,
+            4217.552
+          ],
+          "quote": "I will actually rename into my terminology real quick that harness is code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4279.036,
+            4296.167
+          ],
+          "quote": "Are you saying that, like, I think, you know, broadly, you know, there's this narrative that, like, Claude was great, but Claude Code was this harness that, you know, used the Claude models and made them a lot more useful to people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4302.254,
+            4316.694
+          ],
+          "quote": "Maybe something like that was coincidental and the harness wasn't really, you know, the step function, but there was some model innovation that allowed the harness to be useful, a data innovation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            4354.25,
+            4356.752
+          ],
+          "quote": "And the problem was not the shape or the harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 823,
+          "t": [
+            4358.893,
+            4362.996
+          ],
+          "quote": "Maybe the right harness can harness the intelligence better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 827,
+          "t": [
+            4370.597,
+            4377.922
+          ],
+          "quote": "That case, it would be remiss to blame the open claw harness because the intelligence can evolve too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 834,
+          "t": [
+            4407.023,
+            4411.565
+          ],
+          "quote": "So I want to say that I don't think it's purely the harness that gave it its capabilities.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4413.507,
+            4418.97
+          ],
+          "quote": "So the thing we're calling harness needs to map the capabilities in the model in order to be useful.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4419.942,
+            4422.564
+          ],
+          "quote": "I would actually not call it harness, per se.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4523.297,
+            4547.093
+          ],
+          "quote": "So just kind of to to pull that back, what I'm hearing is that Jev is at its core model and you don't right now see like a role for quote unquote harness between you and the user that you control that's like the while loop thingy or that's fetching external contacts, but rather.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 866,
+          "t": [
+            4547.953,
+            4555.22
+          ],
+          "quote": "Every user is going to embed that JEV model into their code and they're essentially providing the harness that makes sense for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4555.88,
+            4558.783
+          ],
+          "quote": "And actually I just reject the notion of harness entirely.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 869,
+          "t": [
+            4558.803,
+            4567.21
+          ],
+          "quote": "I think that higher level abstractions could exist for JEV-like models, but like a harness itself is just, it's a very,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4593.08,
+            4595.583
+          ],
+          "quote": "We don't need the same harness everywhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4957.252,
+            4967.462
+          ],
+          "quote": "That slowly add more and more logic because it's very hard to add additional harness logic into like the Claude codes and codexes because their core loop is just a while loop.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集谈智能体在客服、数据录入等事上不可靠，其编排决策可交给 Jev，还提出「没有 KV 缓存你会怎么设计编码智能体」的思想实验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            172.711,
+            193.127
+          ],
+          "quote": "And actually, you know, if you go to, oh man, I don't wanna be taking stabs at people, but like if you go even to Anthropic's website and you try to use their agent, their customer support agent to do anything, it's really great at throwing the FAQ at you, but it is not useful if you want to do something even easier, like changing a credit card, you know?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            898.127,
+            904.389
+          ],
+          "quote": "Guy is talking to Grok and his Tesla asking an agent to build a video.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3739.168,
+            3757.715
+          ],
+          "quote": "But like in the past three months, maybe, like I'm getting closer to being able to say that like we've achieved this, like in the sense of, you know, I can talk to an agent that, you know, you know, conversationally and have it do things in my business like an employee might.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            4260.216,
+            4261.197
+          ],
+          "quote": "The coding agent distribution.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4742.932,
+            4758.815
+          ],
+          "quote": "So number one, I have a blog post about why agents are extremely beholden to their KV caches and why a lot of the design of an agent very obviously comes from the constraint of knowing that the KV cache is extremely expensive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4825.615,
+            4829.017
+          ],
+          "quote": "How would you design a coding agent if KV caching didn't exist?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 943,
+          "t": [
+            4922.037,
+            4932.483
+          ],
+          "quote": "So the agent architecture is potentially very different in a kind of Jev Greenfield world, and you're leaving it as an exercise to the listener or for the listener.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说它发布后几个月没人用，后来出现巨大跃迁，猜测是 Anthropic 把智能体轨迹放进了训练分布——证明问题不在外壳在智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            122.038,
+            135.148
+          ],
+          "quote": "And most people, as far as I can tell, don't really have an answer on why there's like this entire bucket of stuff where AI is not just good, it's like super humanly good, like ChatGPT, DeepResearch, Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4231.103,
+            4247.566
+          ],
+          "quote": "I was not inside the labs at the time, but I'm fairly certain the gigantic jump that happened with Claude Code around November 2025, Claude Code was released months beforehand, and it was not that popular, and then there was a giant jump later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4254.193,
+            4256.354
+          ],
+          "quote": "And I think that is what made Claude Code very good.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 803,
+          "t": [
+            4259.356,
+            4260.196
+          ],
+          "quote": "You mean Claude Code?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4261.457,
+            4262.598
+          ],
+          "quote": "Literally, yes, Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4262.998,
+            4264.579
+          ],
+          "quote": "Or things like Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4279.036,
+            4296.167
+          ],
+          "quote": "Are you saying that, like, I think, you know, broadly, you know, there's this narrative that, like, Claude was great, but Claude Code was this harness that, you know, used the Claude models and made them a lot more useful to people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4324.365,
+            4333.814
+          ],
+          "quote": "When Claude Code was released, technically the shape of Claude Code is very powerful, just like the shape of classifiers is very powerful, but it's only as powerful as the intelligence behind it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 816,
+          "t": [
+            4334.274,
+            4341.04
+          ],
+          "quote": "And as far as I can recall of that time period, Claude Code was like a very niche, weird thing that people didn't use very much.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 833,
+          "t": [
+            4398.337,
+            4406.602
+          ],
+          "quote": "OpenClaw did a really awesome interface jump, just like Claude Code's interface jump was very cool, even if they didn't make the model very good at it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 994,
+          "t": [
+            5242.925,
+            5248.227
+          ],
+          "quote": "Like, actually, if you've seen Claude Code's dynamic workflows, dynamic workflows are super cool.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说它有非常强大的形态和很棒的界面跃迁，但用户饱受可靠性问题之苦——问题不在 harness 在背后的智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 664,
+          "t": [
+            3381.113,
+            3384.515
+          ],
+          "quote": "Like, holy shit would have been cool to launch Jev the same time as OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3384.776,
+            3388.158
+          ],
+          "quote": "It would have been awesome because everyone has like a lot of reliability issues with OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 818,
+          "t": [
+            4346.104,
+            4347.705
+          ],
+          "quote": "A similar thing happened with OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4348.186,
+            4350.627
+          ],
+          "quote": "OpenClaw obviously has a very powerful shape.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4396.176,
+            4398.257
+          ],
+          "quote": "It is not a stab at OpenClaw, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 833,
+          "t": [
+            4398.337,
+            4406.602
+          ],
+          "quote": "OpenClaw did a really awesome interface jump, just like Claude Code's interface jump was very cool, even if they didn't make the model very good at it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4638.422,
+            4641.465
+          ],
+          "quote": "So you've brought up OpenClaw a few times.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集用它举例说明模型在某些事上超级可靠（从无缘无故辱骂人），并问「ChatGPT 感觉起来有多通用」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            122.038,
+            135.148
+          ],
+          "quote": "And most people, as far as I can tell, don't really have an answer on why there's like this entire bucket of stuff where AI is not just good, it's like super humanly good, like ChatGPT, DeepResearch, Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            415.69,
+            421.552
+          ],
+          "quote": "Have you ever seen ChatGPT respond to you rudely or like insulting you for no reason?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 149,
+          "t": [
+            782.757,
+            784.818
+          ],
+          "quote": "You know, ChatGPT was a gigantic jump.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3618.286,
+            3620.326
+          ],
+          "quote": "You know, how general did ChatGPT feel?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3712.477,
+            3719.804
+          ],
+          "quote": "So, you know, like, was ChatGPT general is one way I would like to start the conversation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3764.994,
+            3774.278
+          ],
+          "quote": "AGI and generalization are different concepts, but I'm accepting of the idea of ChatGPT being general, yes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3792.622,
+            3804.063
+          ],
+          "quote": "ChatGPT of today is a lot, even if you do use instant mode, so turn off reasoning, is a lot more refined than ChatGPT of four years ago.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3816.623,
+            3828.57
+          ],
+          "quote": "I mean, if you talk about just ChatGPT, I would imagine that there actually was generalization gains, but ChatGPT already was quite general, and it did a lot of simple stuff quite well, I would argue.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 773,
+          "t": [
+            4081.465,
+            4083.887
+          ],
+          "quote": "It should be treated like an early ChatGPT.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集说它是自动驾驶的金标准，靠分解、抽象、逐个确保可靠的工程取胜，是工程胜利而非 AI 胜利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1015.18,
+            1040.409
+          ],
+          "quote": "I use Waymo as like the gold standard here, no offense to Tesla fans, but like they seem to be safer and also the way they do it is by building like a la software and engineering like reliable systems that they understand the pieces of that have their own like decomposed abstracted parts and make sure those are like unbelievably good while programming in the behavior of the policies you want such that this can generalize outside of distribution.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1190.088,
+            1197.971
+          ],
+          "quote": "It's interesting to me that you call out Waymo versus Tesla in part because",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1205.632,
+            1212.699
+          ],
+          "quote": "Because in one sense, like what differentiates Waymo is that they're not taking a bitter lesson pilled, you know, approach to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1291.561,
+            1297.848
+          ],
+          "quote": "Would Waymo be as successful in San Francisco if they tried to do the whole thing end to end?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            172.711,
+            193.127
+          ],
+          "quote": "And actually, you know, if you go to, oh man, I don't wanna be taking stabs at people, but like if you go even to Anthropic's website and you try to use their agent, their customer support agent to do anything, it's really great at throwing the FAQ at you, but it is not useful if you want to do something even easier, like changing a credit card, you know?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3435.079,
+            3443.385
+          ],
+          "quote": "Look at a lot of Anthropic's early publishing, you know, measuring with what they called PINO, the probability it knows facts.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

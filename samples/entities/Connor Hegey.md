@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":427,"子智能体":6,"harness":59,"提示词缓存":4,"记忆":23,"评估":5,"LLM 当裁判":10,"沙箱":79,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":430,"子智能体":6,"harness":60,"提示词缓存":4,"记忆":25,"评估":5,"LLM 当裁判":10,"沙箱":79,"人在回路":21}</script>
 
 <script>
 (function(){

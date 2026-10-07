@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Olivia Moore]] · [[Max Levchin]] · [[Keith Parris]] · [[Frederick Rankin]] · [[Affirm]] · [[Joe Schmidt]] · [[Stein Pella]] · [[PayPal]] · [[Lightfield]]
 
-<script type="application/json" class="pd-epn">{"智能体":427,"Olivia Moore":2,"Max Levchin":1,"Keith Parris":1,"Frederick Rankin":1,"Affirm":2,"Joe Schmidt":2,"Stein Pella":1,"PayPal":7,"Lightfield":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":430,"Olivia Moore":2,"Max Levchin":1,"Keith Parris":1,"Frederick Rankin":1,"Affirm":2,"Joe Schmidt":2,"Stein Pella":1,"PayPal":7,"Lightfield":2}</script>
 
 <script>
 (function(){

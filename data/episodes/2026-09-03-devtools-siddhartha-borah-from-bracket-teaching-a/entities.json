@@ -1,0 +1,511 @@
+{
+  "episode_id": "2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a",
+  "podcast": "Scaling DevTools",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "企业自动化",
+    "记忆系统",
+    "供应链"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "siddhartha-borah",
+      "type": "person",
+      "role": "host",
+      "name": "Siddhartha Borah",
+      "file": "Siddhartha Borah",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bracket",
+      "type": "company",
+      "role": "company",
+      "name": "Bracket",
+      "file": "Bracket",
+      "primary": true,
+      "how_described": "本集嘉宾 Siddharth 所在公司，构建能学习复杂业务工作的智能体：通过 Zoom 通话边干边教采集隐性上下文，再把学到的知识固化成确定性的可重复工作流，核心产品思路是让智能体理解从未被写下来的工作上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            1.932,
+            4.154
+          ],
+          "quote": "I'm joined today by Siddharth from Bracket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            16.664,
+            20.006
+          ],
+          "quote": "So we are Bracket AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            132.758,
+            139.367
+          ],
+          "quote": "So what Bracket has pioneered and what we have built is a system where you can think of it like you're doing a Zoom call with an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            193.861,
+            208.507
+          ],
+          "quote": "So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            482.506,
+            485.047
+          ],
+          "quote": "Or we call it the bracket brain continuously learn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            637.142,
+            640.984
+          ],
+          "quote": "So it's bracket.ai, B-R-S-C-K-E-T dot A-I.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：编码领域大放异彩的智能体在真实业务里总是最后一公里失败，因为缺乏从未被写下来的复杂工作上下文；Bracket 用学徒式的边干边教让智能体学会这些上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            132.758,
+            139.367
+          ],
+          "quote": "So what Bracket has pioneered and what we have built is a system where you can think of it like you're doing a Zoom call with an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            139.968,
+            143.089
+          ],
+          "quote": "So you can talk to the agent like as you are talking right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            144.03,
+            158.657
+          ],
+          "quote": "You speak to the agent, you share the screen, you actually do the work as you are doing and the agent is listening and kind of asking you back and forth questions and that's how you kind of pass on the context to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            187.518,
+            193.14
+          ],
+          "quote": "So you want an agent whom even if you run like 10,000 times, it works in the same way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            209.947,
+            226.413
+          ],
+          "quote": "So you can think of it like you teach the agent your work by talking to it and then out you get a deterministic repeatable workflow which can work, scale out in a code efficient, in a token efficient way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            299.196,
+            309.225
+          ],
+          "quote": "If you want to do a coding work, if you want to build a feature which spreads across these three repos, and if the agent only has access to one of the repos, he's just going to fail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            310.045,
+            320.955
+          ],
+          "quote": "So what people are more or less realizing is like, okay, they'll check out all the three repos and give the agent the access to all the three repos so that they can explore, figure out where the context is, and then build a feature out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            321.802,
+            336.244
+          ],
+          "quote": "Now, if you think about what that means in the real world, and then in coding, because you have the agent who is able to kind of go through all the three reports together, make sense out of it, he's able to just get the work done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            336.925,
+            356.29
+          ],
+          "quote": "But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            453.619,
+            461.121
+          ],
+          "quote": "How would the agent figure it out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            478.364,
+            481.185
+          ],
+          "quote": "So what we have is a system where the agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            490.91,
+            496.093
+          ],
+          "quote": "The agent knows that, okay, how confident he is of the set of input that he has got, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            503.818,
+            506.139
+          ],
+          "quote": "And we have the concept of agent in a loop, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            506.66,
+            510.662
+          ],
+          "quote": "If the system sees that the environment has changed, it will first fall back to an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            511.362,
+            516.804
+          ],
+          "quote": "And if the agent is not confident to be able to decide on it, we'll pass it back to Maria back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            559.08,
+            567.93
+          ],
+          "quote": "As you're working on, right, there is an agent which is just coming alongside you and taking notes of things, what is interesting, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            595.493,
+            604.34
+          ],
+          "quote": "These were like the hints from whatever hints, like the agent who is the primary agent who is working on that particular work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            607.602,
+            611.524
+          ],
+          "quote": "So that agent will be focusing on what he does best is just helping the user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            612.025,
+            624.033
+          ],
+          "quote": "But behind the scenes, there is this orchestra of agents, which is working behind, finding relevant information and giving it as a hint to the primary agent, so that he can then go and explore what is more meaningful.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说上下文不只是数据，而是「如何执行流程的知识」，有人际因素、分散在组织不同人脑中——哪怕缺 10% 整个工作就完不成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            40.941,
+            44.363
+          ],
+          "quote": "And that's primarily because they don't have the context of complex work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            50.787,
+            58.829
+          ],
+          "quote": "And if you go to an organization, especially around last mile supply chain, a lot of context remains in the end user's head.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            59.509,
+            69.351
+          ],
+          "quote": "So our core product is how do we build a system which can be a teammate, which can understand the context work, which has never been written down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            144.03,
+            158.657
+          ],
+          "quote": "You speak to the agent, you share the screen, you actually do the work as you are doing and the agent is listening and kind of asking you back and forth questions and that's how you kind of pass on the context to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            238.997,
+            250.746
+          ],
+          "quote": "How much of the work do you think has context that is not codified somewhere, you know, like which is in Maria's head?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            258.571,
+            263.375
+          ],
+          "quote": "Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            263.835,
+            272.784
+          ],
+          "quote": "So for most of the workflows that we have seen is like, okay, so people usually when they talk about context, they think that context is the data, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            310.045,
+            320.955
+          ],
+          "quote": "So what people are more or less realizing is like, okay, they'll check out all the three repos and give the agent the access to all the three repos so that they can explore, figure out where the context is, and then build a feature out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            604.94,
+            606.961
+          ],
+          "quote": "We don't want to pollute his context.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集说 Bracket 把教会智能体的知识转换成确定性的、可编码、可验证、可重复的工作流，每次精确运行，纠正一次下次就不用再纠正",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            209.947,
+            226.413
+          ],
+          "quote": "So you can think of it like you teach the agent your work by talking to it and then out you get a deterministic repeatable workflow which can work, scale out in a code efficient, in a token efficient way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            426.023,
+            436.348
+          ],
+          "quote": "So what we have today is kind of a system where we make it so easy for the people to actually convert what they're doing into a workflow that they don't have to do anything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说 Bracket 投入大量精力做精密记忆系统（括号大脑）：人纠正一次就写进记忆、随行记录加夜间「做梦」式整理、带业务本体的知识图谱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            526.888,
+            535.671
+          ],
+          "quote": "And then that gets written down into the memory so that the next time when he sees this new information coming in, at that point he can decide again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            536.791,
+            539.412
+          ],
+          "quote": "And I'm guessing there's lots of challenges around memory because...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            545.735,
+            548.256
+          ],
+          "quote": "And we have a very sophisticated memory system, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "confidence-score",
+      "type": "concept",
+      "role": "concept",
+      "name": "置信度分数 (confidence score)",
+      "file": "置信度分数",
+      "primary": true,
+      "how_described": "本集说智能体对自己收到的输入有多有信心是可以量化的；遇到没见过的输入先回退到一个智能体，智能体也没把握就传回给 Maria 本人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            486.848,
+            490.89
+          ],
+          "quote": "So in this case, we have something like a confidence score, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "本集说 Bracket 有带针对不同业务特定本体的知识图谱，让系统能理解事物的含义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            577.6,
+            580.682
+          ],
+          "quote": "We also have a sophisticated knowledge graph, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            580.842,
+            584.365
+          ],
+          "quote": "And this knowledge graph has an ontology specific to different businesses.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集顺带提到 Claude 刚提出「做梦」概念，而 Bracket 在这个方向已经做了一段时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            549.376,
+            553.338
+          ],
+          "quote": "I think yesterday Claude came up with the concept of dreaming.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

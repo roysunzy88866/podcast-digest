@@ -21,7 +21,7 @@ unlisted: true
 
 [[Ranjan Roy]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[智能体]] · [[前沿模型]] · [[IPO]] · [[开源权重]] · [[Meter]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"OpenAI":172,"Anthropic":183,"Hugging Face":29,"智能体":427,"前沿模型":26,"IPO":5,"开源权重":9,"Meter":4,"ChatGPT":98}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"OpenAI":173,"Anthropic":184,"Hugging Face":29,"智能体":430,"前沿模型":26,"IPO":5,"开源权重":9,"Meter":4,"ChatGPT":99}</script>
 
 <script>
 (function(){

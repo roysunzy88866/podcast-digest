@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":59,"Hugging Face":29,"开源":38,"蒸馏":1,"推理":81,"新云":3,"前沿模型":26,"垂直 AI":2,"智能体":427}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":59,"Hugging Face":29,"开源":38,"蒸馏":1,"推理":82,"新云":3,"前沿模型":26,"垂直 AI":2,"智能体":430}</script>
 
 <script>
 (function(){

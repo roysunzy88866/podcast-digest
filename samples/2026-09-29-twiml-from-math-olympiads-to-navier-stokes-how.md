@@ -228,7 +228,7 @@ AI 的影响还主要在数字世界，但在机器人登场之前，你眼镜�
 
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|编码智能体开始接管机器人：LLM 控制物理世界的前沿]]<span class="pd-rz">同概念:Harness（模型外围脚手架） (harness)、上下文内学习 (in-context learning)</span>
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|Reid Hoffman：聪明的加速主义——继续开发、放慢部署]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同概念:基准测试 (benchmark)</span>
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|让 AI 可靠到像 SQL：Jev 与「机器原生智能」]]<span class="pd-rz">同嘉宾:Sam Charrington · 同概念:Harness（模型外围脚手架） (harness)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RLHF</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RLHF">RL</div><div class="pi"><h1 class="pt">RLHF</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RLHF">RL</div><div class="pi"><h1 class="pt">RLHF</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,30 +16,34 @@ unlisted: true
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(04:16起):本集把它说成:北极星是指令遵循/取悦人类,副作用是模式坍缩——模型变保守失准,导致谄媚、过度自信与幻觉
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(01:23起):本集作为行业叙事起点提及：一切曾归结为 RLHF（用人类反馈训练模型）
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(17:56起):本集讲 Diogo 在 OpenAI 做 RLHF 时对模型泛化能力非常惊喜（用「冥想前吃袜子」这类问题测试），后来模型没成为 AGI、他的「整个世界观崩塌」，由此催生了本集的自动化之问。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(01:24起):本集说是团队创造的新任务——人类对模型补全的偏好标注，让模型学会取悦人；也是锯齿状能力与校准劣化的来源。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2025-12-02-talks-powering-the-ai-law-firm-with-harvey#^q5]]
 
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q14]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]] — 作为概念
 - [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为概念(提及)
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[OpenAI]] · [[后训练]] · [[RL]] · [[Diogo Almeida]] · [[Claude Code]] · [[合成数据]] · [[智能体]] · [[Jev]] · [[Codex]]
+[[OpenAI]] · [[后训练]] · [[智能体]] · [[Diogo Almeida]] · [[Claude Code]] · [[Cursor]] · [[Anthropic]] · [[Jev]] · [[TypeSafe]] · [[合成数据]]
 
-<script type="application/json" class="pd-epn">{"Cursor":82,"OpenAI":172,"后训练":1,"RL":13,"Diogo Almeida":2,"Claude Code":96,"合成数据":9,"智能体":427,"Jev":5,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":173,"后训练":1,"智能体":430,"Diogo Almeida":3,"Claude Code":97,"Cursor":82,"Anthropic":184,"Jev":6,"TypeSafe":4,"合成数据":9}</script>
 
 <script>
 (function(){

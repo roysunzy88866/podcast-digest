@@ -25,7 +25,7 @@ unlisted: true
 
 [[Greg Burnham]] · [[Sam Charrington]] · [[Epoch AI]] · [[AI 能力]] · [[基准测试]] · [[递归自我改进]] · [[研究品味]] · [[上下文学习]] · [[harness]] · [[对齐]]
 
-<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":5,"Epoch AI":1,"AI 能力":1,"基准测试":18,"递归自我改进":8,"研究品味":1,"上下文学习":3,"harness":59,"对齐":17}</script>
+<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":6,"Epoch AI":1,"AI 能力":1,"基准测试":18,"递归自我改进":8,"研究品味":1,"上下文学习":3,"harness":60,"对齐":17}</script>
 
 <script>
 (function(){

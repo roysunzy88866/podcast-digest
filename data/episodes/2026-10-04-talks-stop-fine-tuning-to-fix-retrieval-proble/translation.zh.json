@@ -1,0 +1,1850 @@
+[
+ {
+  "seg": 0,
+  "start": 13.213,
+  "end": 14.694,
+  "speaker": "Unknown",
+  "en": "How do you decide what to put where?",
+  "zh": "你如何决定什么放在哪里?"
+ },
+ {
+  "seg": 1,
+  "start": 18.756,
+  "end": 25.559,
+  "speaker": "Unknown",
+  "en": "For most enterprise AI systems, the interesting engineering problem is not the model itself.",
+  "zh": "对于大多数企业级 AI 系统来说,有趣的工程问题不是模型本身。"
+ },
+ {
+  "seg": 2,
+  "start": 26.54,
+  "end": 29.741,
+  "speaker": "Unknown",
+  "en": "The model consumes tokens and produces tokens.",
+  "zh": "模型消费 token,产出 token。"
+ },
+ {
+  "seg": 3,
+  "start": 31.242,
+  "end": 34.824,
+  "speaker": "Unknown",
+  "en": "Your knowledge lives in files, databases, and APIs.",
+  "zh": "你的知识存在于文件、数据库和 API 中。"
+ },
+ {
+  "seg": 4,
+  "start": 36.545,
+  "end": 40.327,
+  "speaker": "Unknown",
+  "en": "The key architecture decision is how that knowledge reaches inference.",
+  "zh": "关键的架构决策是:这些知识如何到达推理。"
+ },
+ {
+  "seg": 5,
+  "start": 42.32,
+  "end": 52.485,
+  "speaker": "Unknown",
+  "en": "From the prompt or the context, through the retrieval or memory layer, or by model adaptations such as fine tuning.",
+  "zh": "是通过提示词或上下文,通过检索或记忆层,还是通过微调之类的模型适配手段。"
+ },
+ {
+  "seg": 6,
+  "start": 53.705,
+  "end": 62.609,
+  "speaker": "Unknown",
+  "en": "Today, I'm going to argue that this is a decision that most enterprise teams make by accident.",
+  "zh": "今天,我要论证的是:大多数企业团队是靠偶然做出这个决策的。"
+ },
+ {
+  "seg": 7,
+  "start": 64.081,
+  "end": 72.466,
+  "speaker": "Unknown",
+  "en": "And the path to making it on purpose is to recognize that this is not a ladder that you climb.",
+  "zh": "而有意识地做出这个决策的路径,是认识到这不是一个你可以往上爬的梯子。"
+ },
+ {
+  "seg": 8,
+  "start": 73.247,
+  "end": 75.708,
+  "speaker": "Unknown",
+  "en": "These are three different tools for three different jobs.",
+  "zh": "这是三把不同的工具,对应三个不同的工作。"
+ },
+ {
+  "seg": 9,
+  "start": 80.251,
+  "end": 81.672,
+  "speaker": "Unknown",
+  "en": "So how is this an accident?",
+  "zh": "那么这怎么会是偶然呢?"
+ },
+ {
+  "seg": 10,
+  "start": 82.232,
+  "end": 83.513,
+  "speaker": "Unknown",
+  "en": "Well, there are two mechanisms.",
+  "zh": "嗯,有两种机制。"
+ },
+ {
+  "seg": 11,
+  "start": 84.433,
+  "end": 85.374,
+  "speaker": "Unknown",
+  "en": "One is the obvious one.",
+  "zh": "一种是显而易见的。"
+ },
+ {
+  "seg": 12,
+  "start": 85.574,
+  "end": 86.755,
+  "speaker": "Unknown",
+  "en": "The other one, not so much.",
+  "zh": "另一种就没那么明显了。"
+ },
+ {
+  "seg": 13,
+  "start": 88.436,
+  "end": 91.518,
+  "speaker": "Unknown",
+  "en": "So the obvious one is that teams escalate.",
+  "zh": "显而易见的那种是团队在逐级升级。"
+ },
+ {
+  "seg": 14,
+  "start": 93.204,
+  "end": 95.086,
+  "speaker": "Unknown",
+  "en": "You don't get the right answer from your model.",
+  "zh": "你没有从模型那里得到正确的答案。"
+ },
+ {
+  "seg": 15,
+  "start": 96.367,
+  "end": 100.11,
+  "speaker": "Unknown",
+  "en": "The easy thing is go put something in the prompt, like go fix the prompt.",
+  "zh": "最简单的做法是往提示词里放点东西,比如去修一下提示词。"
+ },
+ {
+  "seg": 16,
+  "start": 101.031,
+  "end": 101.591,
+  "speaker": "Unknown",
+  "en": "Still wrong?",
+  "zh": "还是错?"
+ },
+ {
+  "seg": 17,
+  "start": 102.412,
+  "end": 105.975,
+  "speaker": "Unknown",
+  "en": "Maybe there is something with the memory system or the retrieval system.",
+  "zh": "也许是记忆系统或检索系统有问题。"
+ },
+ {
+  "seg": 18,
+  "start": 106.636,
+  "end": 107.657,
+  "speaker": "Unknown",
+  "en": "Let's take a look there.",
+  "zh": "我们去看看那里。"
+ },
+ {
+  "seg": 19,
+  "start": 109.158,
+  "end": 111.28,
+  "speaker": "Unknown",
+  "en": "Even then, if you're wrong, hey, you know what?",
+  "zh": "即便如此,如果你还是不对,嘿,你知道吗?"
+ },
+ {
+  "seg": 20,
+  "start": 111.961,
+  "end": 113.162,
+  "speaker": "Unknown",
+  "en": "Let's fine tune the model.",
+  "zh": "我们来微调一下模型吧。"
+ },
+ {
+  "seg": 21,
+  "start": 113.882,
+  "end": 118.807,
+  "speaker": "Unknown",
+  "en": "Doesn't happen very often, but yes, sometimes teams reach out to fine tune the model.",
+  "zh": "这种情况不常发生,但是的,有时团队确实会去微调模型。"
+ },
+ {
+  "seg": 22,
+  "start": 120.98,
+  "end": 122.3,
+  "speaker": "Unknown",
+  "en": "There is a layer underneath it.",
+  "zh": "在这之下还有一层。"
+ },
+ {
+  "seg": 23,
+  "start": 122.86,
+  "end": 128.382,
+  "speaker": "Unknown",
+  "en": "The teams that are not escalating are still making these decisions every day.",
+  "zh": "那些没有逐级升级的团队,其实每天都在做这些决策。"
+ },
+ {
+  "seg": 24,
+  "start": 129.742,
+  "end": 136.304,
+  "speaker": "Unknown",
+  "en": "Every edit that you make to the prompt decides what behavior lives in the prompt.",
+  "zh": "你对提示词做的每一次编辑,都决定了什么行为存在于提示词中。"
+ },
+ {
+  "seg": 25,
+  "start": 137.944,
+  "end": 142.745,
+  "speaker": "Unknown",
+  "en": "Every document that you index decides what knowledge is held in the memory.",
+  "zh": "你索引的每一份文档,都决定了什么知识被保存在记忆中。"
+ },
+ {
+  "seg": 26,
+  "start": 143.766,
+  "end": 149.167,
+  "speaker": "Unknown",
+  "en": "And every training sample that you bake in",
+  "zh": "而你固化进去的每一个训练样本——"
+ },
+ {
+  "seg": 27,
+  "start": 150.323,
+  "end": 156.726,
+  "speaker": "Unknown",
+  "en": "Well, every training sample that you identify will bake something into the weights.",
+  "zh": "嗯,你选定的每一个训练样本,都会把某些东西固化进权重。"
+ },
+ {
+  "seg": 28,
+  "start": 158.868,
+  "end": 160.448,
+  "speaker": "Unknown",
+  "en": "All these are architecture decisions.",
+  "zh": "这些全都是架构决策。"
+ },
+ {
+  "seg": 29,
+  "start": 160.869,
+  "end": 161.869,
+  "speaker": "Unknown",
+  "en": "None call like that.",
+  "zh": "但没有一个被这样对待。"
+ },
+ {
+  "seg": 30,
+  "start": 162.49,
+  "end": 167.372,
+  "speaker": "Unknown",
+  "en": "Let me make it a little concrete for you all.",
+  "zh": "让我给大家讲得具体一点。"
+ },
+ {
+  "seg": 31,
+  "start": 167.512,
+  "end": 168.993,
+  "speaker": "Unknown",
+  "en": "And I've seen this play out, actually.",
+  "zh": "实际上,我见过这样的情形上演。"
+ },
+ {
+  "seg": 32,
+  "start": 170.794,
+  "end": 173.976,
+  "speaker": "Unknown",
+  "en": "An internal support assistant just released.",
+  "zh": "一个内部支持助手刚刚发布。"
+ },
+ {
+  "seg": 33,
+  "start": 175.588,
+  "end": 181.693,
+  "speaker": "Unknown",
+  "en": "In a few weeks, the product manager makes some changes to the prompt to fix the tone of the support assistant.",
+  "zh": "几周后,产品经理对提示词做了一些修改,来修一修这个支持助手的语气。"
+ },
+ {
+  "seg": 34,
+  "start": 183.854,
+  "end": 189.899,
+  "speaker": "Unknown",
+  "en": "After a few weeks, the support team adds refund policy documents to your retrieval on memory systems.",
+  "zh": "又过了几周,支持团队把退款政策文档加进了你的检索或记忆系统。"
+ },
+ {
+  "seg": 35,
+  "start": 190.199,
+  "end": 192.141,
+  "speaker": "Unknown",
+  "en": "I'll talk about retrieval and memory.",
+  "zh": "我会讲检索和记忆。"
+ },
+ {
+  "seg": 36,
+  "start": 192.181,
+  "end": 196.544,
+  "speaker": "Unknown",
+  "en": "I'm treating it all as memory, but I'll come to that.",
+  "zh": "我把这两者都当作记忆来处理,不过我稍后会回到这一点。"
+ },
+ {
+  "seg": 37,
+  "start": 197.765,
+  "end": 204.731,
+  "speaker": "Unknown",
+  "en": "And then, since your agent is not giving you the right answers, an engineer",
+  "zh": "然后,由于你的智能体没有给你正确的答案,一位工程师"
+ },
+ {
+  "seg": 38,
+  "start": 205.955,
+  "end": 207.915,
+  "speaker": "Unknown",
+  "en": "Shuffs the product catalog into the prompt.",
+  "zh": "把产品目录塞进了提示词。"
+ },
+ {
+  "seg": 39,
+  "start": 209.976,
+  "end": 220.879,
+  "speaker": "Unknown",
+  "en": "And after a few weeks, the machine learning team decides to train the model or fine tune the model on support tickets from six months ago, from up to six months ago.",
+  "zh": "几周后,机器学习团队决定用过去六个月内、最多追溯到六个月前的支持工单来训练模型或微调模型。"
+ },
+ {
+  "seg": 40,
+  "start": 223.779,
+  "end": 226.74,
+  "speaker": "Unknown",
+  "en": "All decisions look fine, look OK, except one, by the way.",
+  "zh": "所有这些决策看起来都没问题,看起来都还行——顺便说一句,除了一条。"
+ },
+ {
+  "seg": 41,
+  "start": 227.92,
+  "end": 231.222,
+  "speaker": "Unknown",
+  "en": "But even I have made such decisions in my journey.",
+  "zh": "但即使是我,在自己的历程中也做过这样的决策。"
+ },
+ {
+  "seg": 42,
+  "start": 231.302,
+  "end": 236.684,
+  "speaker": "Unknown",
+  "en": "I have made such decisions of doing such things without really giving it a lot of thought.",
+  "zh": "我做过这类事情,却并没有真正深思熟虑过。"
+ },
+ {
+  "seg": 43,
+  "start": 239.065,
+  "end": 245.088,
+  "speaker": "Unknown",
+  "en": "So when the new product catalog is launched, it looks easy, right?",
+  "zh": "所以,当新的产品目录发布时,这看起来很简单,对吧?"
+ },
+ {
+  "seg": 44,
+  "start": 245.408,
+  "end": 247.889,
+  "speaker": "Unknown",
+  "en": "Oh, the engineer has shoved the product catalog into the prompt.",
+  "zh": "哦,工程师把产品目录塞进了提示词。"
+ },
+ {
+  "seg": 45,
+  "start": 248.289,
+  "end": 250.07,
+  "speaker": "Unknown",
+  "en": "Let's put the new product catalog there.",
+  "zh": "那我们就把新产品目录也放那里吧。"
+ },
+ {
+  "seg": 46,
+  "start": 251.071,
+  "end": 253.172,
+  "speaker": "Unknown",
+  "en": "And you would think that everything is working fine.",
+  "zh": "然后你会以为一切运转正常。"
+ },
+ {
+  "seg": 47,
+  "start": 254.785,
+  "end": 260.527,
+  "speaker": "Unknown",
+  "en": "Your model or your agent is still giving you product names that don't even exist.",
+  "zh": "但你的模型或你的智能体仍然在给你报一些根本不存在的产品名称。"
+ },
+ {
+  "seg": 48,
+  "start": 261.967,
+  "end": 262.828,
+  "speaker": "Unknown",
+  "en": "How did that happen?",
+  "zh": "这是怎么发生的?"
+ },
+ {
+  "seg": 49,
+  "start": 263.848,
+  "end": 269.83,
+  "speaker": "Unknown",
+  "en": "Well, the product catalog leaked into the weights when you fine-tuned it on your support tickets.",
+  "zh": "嗯,因为当你用支持工单微调时,产品目录已经泄漏进权重里了。"
+ },
+ {
+  "seg": 50,
+  "start": 271.17,
+  "end": 274.651,
+  "speaker": "Unknown",
+  "en": "And that is the accident.",
+  "zh": "而这就是那场事故。"
+ },
+ {
+  "seg": 51,
+  "start": 276.412,
+  "end": 278.713,
+  "speaker": "Unknown",
+  "en": "Your architecture was accumulated.",
+  "zh": "你的架构是累积出来的。"
+ },
+ {
+  "seg": 52,
+  "start": 279.433,
+  "end": 280.533,
+  "speaker": "Unknown",
+  "en": "It was not designed.",
+  "zh": "它不是被设计出来的。"
+ },
+ {
+  "seg": 53,
+  "start": 281.094,
+  "end": 282.134,
+  "speaker": "Unknown",
+  "en": "That is the accident.",
+  "zh": "这就是那场事故。"
+ },
+ {
+  "seg": 54,
+  "start": 283.78,
+  "end": 288.042,
+  "speaker": "Unknown",
+  "en": "It is what six months of normal product work led to.",
+  "zh": "这就是六个月的正常产品工作所导致的结果。"
+ },
+ {
+  "seg": 55,
+  "start": 289.603,
+  "end": 295.565,
+  "speaker": "Unknown",
+  "en": "Nobody owned it, meaning everybody owned a piece of it.",
+  "zh": "没有人负责它，意思是每个人都拥有它的一部分。"
+ },
+ {
+  "seg": 56,
+  "start": 297.926,
+  "end": 300.007,
+  "speaker": "Unknown",
+  "en": "Nobody asked the diagnostic question.",
+  "zh": "没有人问过那个诊断性问题。"
+ },
+ {
+  "seg": 57,
+  "start": 300.347,
+  "end": 306.71,
+  "speaker": "Unknown",
+  "en": "Nobody asked where this thing should live.",
+  "zh": "没有人问过这个东西应该放在哪里。"
+ },
+ {
+  "seg": 58,
+  "start": 307.19,
+  "end": 312.873,
+  "speaker": "Unknown",
+  "en": "Those diagnostic questions are the lens we are going to talk about, and the rest of the talk is about the lens.",
+  "zh": "这些诊断性问题就是我们要讨论的透镜，演讲剩下的部分就是关于这个透镜的。"
+ },
+ {
+  "seg": 59,
+  "start": 315.954,
+  "end": 317.215,
+  "speaker": "Unknown",
+  "en": "So the first part is prompt.",
+  "zh": "那么第一部分是 prompt。"
+ },
+ {
+  "seg": 60,
+  "start": 318.176,
+  "end": 319.257,
+  "speaker": "Unknown",
+  "en": "What is the job of the prompt?",
+  "zh": "prompt 的职责是什么？"
+ },
+ {
+  "seg": 61,
+  "start": 319.617,
+  "end": 329.626,
+  "speaker": "Unknown",
+  "en": "The job of the prompt is behavior, is tone, is the persona of the agent, things that are small, stable, and editable.",
+  "zh": "prompt 的职责是行为、是语气、是智能体的角色设定，是那些小、稳定、可编辑的东西。"
+ },
+ {
+  "seg": 62,
+  "start": 331.948,
+  "end": 335.071,
+  "speaker": "Unknown",
+  "en": "The wrong job for the prompt is to store facts.",
+  "zh": "prompt 的错误职责是存储事实。"
+ },
+ {
+  "seg": 63,
+  "start": 336.272,
+  "end": 342.037,
+  "speaker": "Unknown",
+  "en": "You don't put product catalog into the prompt because you are unnecessarily providing context to your model.",
+  "zh": "你不要把产品目录放进 prompt 里，因为那是在不必要地向你的模型提供上下文，"
+ },
+ {
+  "seg": 64,
+  "start": 343.062,
+  "end": 344.142,
+  "speaker": "Unknown",
+  "en": "and paying the cost for it.",
+  "zh": "并为之付出代价。"
+ },
+ {
+  "seg": 65,
+  "start": 344.683,
+  "end": 348.024,
+  "speaker": "Unknown",
+  "en": "And when you have too many tokens, you run into lost in the middle problem.",
+  "zh": "而且当你有太多 token 时，你会遇到「迷失在中间」(lost in the middle) 问题。"
+ },
+ {
+  "seg": 66,
+  "start": 349.944,
+  "end": 357.767,
+  "speaker": "Unknown",
+  "en": "The diagnostic for prompt is, is the knowledge small, stable, and about how to behave rather than what to know?",
+  "zh": "prompt 的诊断标准是：这个知识是否小、稳定，并且是关于如何表现而非关于知道什么？"
+ },
+ {
+  "seg": 67,
+  "start": 361.988,
+  "end": 372.172,
+  "speaker": "Unknown",
+  "en": "A concrete example for a good prompt use case is a customer support agent for a product SaaS, right?",
+  "zh": "一个好的 prompt 使用场景的具体例子，是一个面向 SaaS 产品的客户支持智能体，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 375.208,
+  "end": 379.991,
+  "speaker": "Unknown",
+  "en": "Now, this agent has a professional tone.",
+  "zh": "这个智能体有专业的语气。"
+ },
+ {
+  "seg": 69,
+  "start": 381.812,
+  "end": 388.657,
+  "speaker": "Unknown",
+  "en": "It offers human escalation after three failures, and it provides you concrete next steps.",
+  "zh": "它在三次失败后提供人工升级，并且为你提供具体的下一步操作。"
+ },
+ {
+  "seg": 70,
+  "start": 390.018,
+  "end": 393.04,
+  "speaker": "Unknown",
+  "en": "None of this changes per query per user.",
+  "zh": "这些内容不会随每次查询、每个用户而改变。"
+ },
+ {
+  "seg": 71,
+  "start": 394.861,
+  "end": 397.703,
+  "speaker": "Unknown",
+  "en": "This exact thing belongs to the prompt.",
+  "zh": "正是这样东西属于 prompt。"
+ },
+ {
+  "seg": 72,
+  "start": 399.1,
+  "end": 408.047,
+  "speaker": "Unknown",
+  "en": "And one other thing is prompt is something, I'm not only talking about system prompt, I'm talking about authored instructions for your model.",
+  "zh": "另外一点是，prompt 是某种东西，我这里不只是在说 system prompt，我说的是你为你的模型撰写的指令。"
+ },
+ {
+  "seg": 73,
+  "start": 408.488,
+  "end": 412.11,
+  "speaker": "Unknown",
+  "en": "So they could also come from MD files, they could also come from other things, right?",
+  "zh": "所以它们也可能来自 MD 文件，也可能来自其他东西，对吧？"
+ },
+ {
+  "seg": 74,
+  "start": 412.271,
+  "end": 414.612,
+  "speaker": "Unknown",
+  "en": "But this is what I mean by prompt here.",
+  "zh": "但这就是我在这里所说的 prompt。"
+ },
+ {
+  "seg": 75,
+  "start": 418.095,
+  "end": 419.997,
+  "speaker": "Unknown",
+  "en": "The second path is memory.",
+  "zh": "第二条路径是 memory。"
+ },
+ {
+  "seg": 76,
+  "start": 421.798,
+  "end": 427.423,
+  "speaker": "Unknown",
+  "en": "The job of memory is to ground your model or your agent in",
+  "zh": "memory 的职责是让你的模型或你的智能体立足于"
+ },
+ {
+  "seg": 77,
+  "start": 428.77,
+  "end": 433.092,
+  "speaker": "Unknown",
+  "en": "In knowledge, that is current, large, and sightable.",
+  "zh": "于那种是最新的、大量的、可溯源的知识。"
+ },
+ {
+  "seg": 78,
+  "start": 433.752,
+  "end": 437.213,
+  "speaker": "Unknown",
+  "en": "Current meaning it changes faster than you can fine-tune.",
+  "zh": "最新的意思是它的变化比你能微调的速度更快。"
+ },
+ {
+  "seg": 79,
+  "start": 437.314,
+  "end": 439.274,
+  "speaker": "Unknown",
+  "en": "It changes every now and then.",
+  "zh": "它时不时地变化。"
+ },
+ {
+  "seg": 80,
+  "start": 441.135,
+  "end": 443.196,
+  "speaker": "Unknown",
+  "en": "Large is because it cannot be held anywhere.",
+  "zh": "大量是因为它无法被存放在任何地方。"
+ },
+ {
+  "seg": 81,
+  "start": 443.216,
+  "end": 444.316,
+  "speaker": "Unknown",
+  "en": "It cannot be held in your prompt.",
+  "zh": "它无法被放进你的 prompt 里。"
+ },
+ {
+  "seg": 82,
+  "start": 445.197,
+  "end": 452.14,
+  "speaker": "Unknown",
+  "en": "And sightable because production AI systems need to be able to point to the source of the knowledge.",
+  "zh": "而可溯源是因为生产级 AI 系统需要能够指出知识的来源。"
+ },
+ {
+  "seg": 83,
+  "start": 452.42,
+  "end": 455.241,
+  "speaker": "Unknown",
+  "en": "This is what belongs to memory.",
+  "zh": "这就是属于 memory 的东西。"
+ },
+ {
+  "seg": 84,
+  "start": 456.512,
+  "end": 466.46,
+  "speaker": "Unknown",
+  "en": "Now, when I use the term memory, people think of agent memory, knowledge that is acquired about people, about a person who is interacting with the agent, right?",
+  "zh": "现在，当我使用 memory 这个词时，人们会想到智能体记忆，即关于人、关于正在与智能体交互的某个人所获取的知识，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 467.221,
+  "end": 470.724,
+  "speaker": "Unknown",
+  "en": "What I'm also referring to here is external memory.",
+  "zh": "我在这里指的还包括外部记忆。"
+ },
+ {
+  "seg": 86,
+  "start": 472.269,
+  "end": 474.229,
+  "speaker": "Unknown",
+  "en": "Which you retrieve using RAG and all that.",
+  "zh": "也就是你用 RAG 之类检索到的那些。"
+ },
+ {
+  "seg": 87,
+  "start": 475.33,
+  "end": 476.47,
+  "speaker": "Unknown",
+  "en": "The different policies, right?",
+  "zh": "各种不同的策略，对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 476.87,
+  "end": 478.71,
+  "speaker": "Unknown",
+  "en": "It's not being managed by your agent.",
+  "zh": "它不是由你的智能体来管理的。"
+ },
+ {
+  "seg": 89,
+  "start": 478.97,
+  "end": 480.791,
+  "speaker": "Unknown",
+  "en": "It is managed by an external application.",
+  "zh": "它是由一个外部应用来管理的。"
+ },
+ {
+  "seg": 90,
+  "start": 481.371,
+  "end": 482.431,
+  "speaker": "Unknown",
+  "en": "That is included here.",
+  "zh": "这也包含在内。"
+ },
+ {
+  "seg": 91,
+  "start": 482.771,
+  "end": 486.932,
+  "speaker": "Unknown",
+  "en": "So I'm talking both about the agent memory and the memory of the enterprise.",
+  "zh": "所以我说的既包括智能体的 memory，也包括企业的 memory。"
+ },
+ {
+  "seg": 92,
+  "start": 488.972,
+  "end": 498.014,
+  "speaker": "Unknown",
+  "en": "The wrong job for memory is shoving behavior in or thinking about how to reason.",
+  "zh": "memory 的错误职责是硬塞行为进去，或者思考如何推理。"
+ },
+ {
+  "seg": 93,
+  "start": 499.844,
+  "end": 500.484,
+  "speaker": "Unknown",
+  "en": "With the memory.",
+  "zh": "利用 memory 来推理。"
+ },
+ {
+  "seg": 94,
+  "start": 500.884,
+  "end": 506.186,
+  "speaker": "Unknown",
+  "en": "Now, of course, you can have a graphical kind of RAG which will help the agent do reasoning.",
+  "zh": "当然，你可以用图谱式的 RAG 来帮助智能体做推理。"
+ },
+ {
+  "seg": 95,
+  "start": 507.207,
+  "end": 507.687,
+  "speaker": "Unknown",
+  "en": "But that's it.",
+  "zh": "但仅此而已。"
+ },
+ {
+  "seg": 96,
+  "start": 507.727,
+  "end": 508.507,
+  "speaker": "Unknown",
+  "en": "That's where you stop.",
+  "zh": "那就是你的止步之处。"
+ },
+ {
+  "seg": 97,
+  "start": 510.168,
+  "end": 512.429,
+  "speaker": "Unknown",
+  "en": "For reasoning, you've got to have the right model.",
+  "zh": "至于推理，你必须有合适的模型。"
+ },
+ {
+  "seg": 98,
+  "start": 513.289,
+  "end": 519.071,
+  "speaker": "Unknown",
+  "en": "Because if your model cannot reason over two or three or five documents, it won't be able to reason over 50 that you provide.",
+  "zh": "因为如果你的模型无法对两三个或五个文档进行推理,那它也无法对你提供的 50 个文档进行推理。"
+ },
+ {
+  "seg": 99,
+  "start": 519.091,
+  "end": 521.492,
+  "speaker": "Unknown",
+  "en": "The more context doesn't help if it is not able to reason.",
+  "zh": "上下文再多也没有帮助，如果它没有能力推理的话。"
+ },
+ {
+  "seg": 100,
+  "start": 522.946,
+  "end": 530.008,
+  "speaker": "Unknown",
+  "en": "So the diagnostic or the question you need to ask is, is the knowledge too large to fit, changing faster than I can retrain?",
+  "zh": "所以诊断方法或者你需要问的问题是,这个知识是不是太大放不下,是不是变化得比我重新训练还快?"
+ },
+ {
+  "seg": 101,
+  "start": 531.189,
+  "end": 538.571,
+  "speaker": "Unknown",
+  "en": "And another important aspect is whether it has some access control, whether it is scope per user.",
+  "zh": "另一个重要的方面是它是否有某种访问控制,是否是按用户划分范围的。"
+ },
+ {
+  "seg": 102,
+  "start": 539.72,
+  "end": 541.281,
+  "speaker": "Unknown",
+  "en": "You have got to have that in memory.",
+  "zh": "你必须把它放在记忆里。"
+ },
+ {
+  "seg": 103,
+  "start": 541.621,
+  "end": 553.248,
+  "speaker": "Unknown",
+  "en": "If there is some kind of access control that this user cannot see the other person's information or the data or whatever, you've got to have that knowledge in memory because then you can control who sees what.",
+  "zh": "如果有某种访问控制,比如这个用户不能看到另一个人的信息或数据之类的,你就必须把那些知识放在记忆里,因为这样你才能控制谁看到什么。"
+ },
+ {
+  "seg": 104,
+  "start": 558.251,
+  "end": 569.178,
+  "speaker": "Unknown",
+  "en": "A good example for storing something in external memory or memory is a code assistant, which has access to all your repos as an organization.",
+  "zh": "把某些东西存到外部记忆或记忆里的一个好例子是代码助手,它可以访问你们组织的所有仓库。"
+ },
+ {
+  "seg": 105,
+  "start": 573.189,
+  "end": 579.115,
+  "speaker": "Unknown",
+  "en": "So would you fine-tune your model to learn the code?",
+  "zh": "那么你会微调你的模型去学习这些代码吗?"
+ },
+ {
+  "seg": 106,
+  "start": 579.575,
+  "end": 579.875,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不会。"
+ },
+ {
+  "seg": 107,
+  "start": 580.116,
+  "end": 581.077,
+  "speaker": "Unknown",
+  "en": "It's a simple one, right?",
+  "zh": "这是个简单的问题,对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 581.297,
+  "end": 582.077,
+  "speaker": "Unknown",
+  "en": "It changes where you are.",
+  "zh": "它在你所在的地方不断变化。"
+ },
+ {
+  "seg": 109,
+  "start": 582.098,
+  "end": 582.758,
+  "speaker": "Unknown",
+  "en": "You wouldn't do that.",
+  "zh": "你不会那么做。"
+ },
+ {
+  "seg": 110,
+  "start": 583.439,
+  "end": 586.422,
+  "speaker": "Unknown",
+  "en": "You'd fine-tune your model to learn reflexes, not facts, typically.",
+  "zh": "通常,你会微调你的模型去学习反射,而不是事实。"
+ },
+ {
+  "seg": 111,
+  "start": 587.59,
+  "end": 589.111,
+  "speaker": "Unknown",
+  "en": "And would you stuff it in the prompt?",
+  "zh": "那你会把它塞进提示词里吗?"
+ },
+ {
+  "seg": 112,
+  "start": 589.211,
+  "end": 589.411,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不会。"
+ },
+ {
+  "seg": 113,
+  "start": 589.431,
+  "end": 590.992,
+  "speaker": "Unknown",
+  "en": "You don't stuff such things into the prompt.",
+  "zh": "你不会把这类东西塞进提示词里。"
+ },
+ {
+  "seg": 114,
+  "start": 591.072,
+  "end": 596.816,
+  "speaker": "Unknown",
+  "en": "You may stuff or you may add certain things that are important in the context window.",
+  "zh": "你可能会塞,或者你可能会在上下文窗口中加入某些重要的东西。"
+ },
+ {
+  "seg": 115,
+  "start": 597.497,
+  "end": 598.317,
+  "speaker": "Unknown",
+  "en": "That's something different.",
+  "zh": "那是另一回事。"
+ },
+ {
+  "seg": 116,
+  "start": 598.737,
+  "end": 606.603,
+  "speaker": "Unknown",
+  "en": "But you wouldn't stuff the entire code base into the prompt or even a part of it if it has no use there.",
+  "zh": "但你不会把整个代码库塞进提示词里,甚至在没用处的时候连一部分都不会塞。"
+ },
+ {
+  "seg": 117,
+  "start": 608.204,
+  "end": 609.384,
+  "speaker": "Unknown",
+  "en": "Now the other important thing is",
+  "zh": "现在另一个重要的事情是"
+ },
+ {
+  "seg": 118,
+  "start": 611.148,
+  "end": 618.514,
+  "speaker": "Unknown",
+  "en": "When you build a rack system, for your code, you need to make sure that you're chunking properly.",
+  "zh": "当你为你的代码构建一个 rack 系统时,你需要确保你正确地做了分块。"
+ },
+ {
+  "seg": 119,
+  "start": 618.735,
+  "end": 622.418,
+  "speaker": "Unknown",
+  "en": "You are using code-aware chunking with the AST, perhaps.",
+  "zh": "你可能在使用基于 AST 的、能感知代码结构的分块。"
+ },
+ {
+  "seg": 120,
+  "start": 623.739,
+  "end": 626.722,
+  "speaker": "Unknown",
+  "en": "And then the other important thing is use filtering.",
+  "zh": "然后另一个重要的事情是使用过滤。"
+ },
+ {
+  "seg": 121,
+  "start": 627.222,
+  "end": 628.103,
+  "speaker": "Unknown",
+  "en": "You should perhaps denormalize",
+  "zh": "你或许应该做反规范化"
+ },
+ {
+  "seg": 122,
+  "start": 630.875,
+  "end": 633.578,
+  "speaker": "Unknown",
+  "en": "Things such as, what is the repo this code is for?",
+  "zh": "一些事情,比如,这段代码是给哪个仓库用的?"
+ },
+ {
+  "seg": 123,
+  "start": 634.058,
+  "end": 638.722,
+  "speaker": "Unknown",
+  "en": "You get a code chunk, you have to create metadata about which repo it belongs to.",
+  "zh": "你拿到一个代码块,你必须创建关于它属于哪个仓库的元数据。"
+ },
+ {
+  "seg": 124,
+  "start": 639.163,
+  "end": 641.705,
+  "speaker": "Unknown",
+  "en": "What are the users who are allowed to commit?",
+  "zh": "哪些用户有权限提交?"
+ },
+ {
+  "seg": 125,
+  "start": 642.065,
+  "end": 656.279,
+  "speaker": "Unknown",
+  "en": "And all that, because that is what is going to help you get the exact data that you need versus creating a rag mush where you are returning a lot of chunks back from the database and then confusing the model.",
+  "zh": "以及所有这些,因为正是这些能帮助你获取你需要的精确数据,而不是制造一堆 rag 糊糊,从数据库返回大量代码块,然后让模型感到困惑。"
+ },
+ {
+  "seg": 126,
+  "start": 659.178,
+  "end": 668.421,
+  "speaker": "Unknown",
+  "en": "So again, the diagnostic is something that's too large to fit, changing the faster than you can retrain the model, and it's scoped at a certain level.",
+  "zh": "所以再说一次,诊断标准是:它太大放不下,它变化得比你重新训练模型还快,并且它是在某个层级上划定范围的。"
+ },
+ {
+  "seg": 127,
+  "start": 668.701,
+  "end": 670.962,
+  "speaker": "Unknown",
+  "en": "It could be a user, it could be a repo, whatever.",
+  "zh": "可以是一个用户,可以是一个仓库,随便什么。"
+ },
+ {
+  "seg": 128,
+  "start": 671.502,
+  "end": 673.402,
+  "speaker": "Unknown",
+  "en": "All that knowledge belongs to memory.",
+  "zh": "所有那样的知识都属于记忆。"
+ },
+ {
+  "seg": 129,
+  "start": 674.143,
+  "end": 680.205,
+  "speaker": "Unknown",
+  "en": "It could be external memory, which is your application's database, or it could be your agent memory as well.",
+  "zh": "它可以是外部记忆,也就是你的应用程序的数据库,也可以是你的智能体记忆。"
+ },
+ {
+  "seg": 130,
+  "start": 684.866,
+  "end": 687.607,
+  "speaker": "Unknown",
+  "en": "Now let's come to the more interesting part, which is weights.",
+  "zh": "现在让我们来到更有意思的部分,也就是权重。"
+ },
+ {
+  "seg": 131,
+  "start": 690.848,
+  "end": 693.269,
+  "speaker": "Unknown",
+  "en": "So what belongs to the weight?",
+  "zh": "那么什么东西属于权重?"
+ },
+ {
+  "seg": 132,
+  "start": 696.809,
+  "end": 698.15,
+  "speaker": "Unknown",
+  "en": "Something that stopped changing.",
+  "zh": "停止变化的东西。"
+ },
+ {
+  "seg": 133,
+  "start": 698.51,
+  "end": 699.71,
+  "speaker": "Unknown",
+  "en": "That is what belongs to the weight.",
+  "zh": "那才是属于权重的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 699.87,
+  "end": 703.971,
+  "speaker": "Unknown",
+  "en": "And the only access that drives this slide is rate of change.",
+  "zh": "而驱动这一幻灯片的唯一依据就是变化速率。"
+ },
+ {
+  "seg": 135,
+  "start": 706.992,
+  "end": 711.973,
+  "speaker": "Unknown",
+  "en": "You can lock in what has stopped changing and perhaps retrain.",
+  "zh": "你可以把停止变化的东西锁定起来,然后或许重新训练。"
+ },
+ {
+  "seg": 136,
+  "start": 711.993,
+  "end": 715.034,
+  "speaker": "Unknown",
+  "en": "I'm not saying just lock in what stopped changing and just go retrain your model.",
+  "zh": "我不是说只要锁定停止变化的东西就马上去重新训练你的模型。"
+ },
+ {
+  "seg": 137,
+  "start": 715.074,
+  "end": 716.734,
+  "speaker": "Unknown",
+  "en": "No, that's not what you do all the time.",
+  "zh": "不,那不是你一直要做的事。"
+ },
+ {
+  "seg": 138,
+  "start": 716.774,
+  "end": 720.455,
+  "speaker": "Unknown",
+  "en": "You have to have a very strong reason to retrain your model.",
+  "zh": "你必须有非常充分的理由才去重新训练你的模型。"
+ },
+ {
+  "seg": 139,
+  "start": 721.781,
+  "end": 724.363,
+  "speaker": "Unknown",
+  "en": "So what you do is you lock in what's changing and then go from there.",
+  "zh": "所以你要做的是锁定停止变化的东西,然后从这里出发。"
+ },
+ {
+  "seg": 140,
+  "start": 725.004,
+  "end": 729.768,
+  "speaker": "Unknown",
+  "en": "But if you get it wrong, then you could freeze a boundary that's still moving, okay?",
+  "zh": "但如果你搞错了,那你可能就会把一个还在移动的边界给冻结住,好吗?"
+ },
+ {
+  "seg": 141,
+  "start": 731.229,
+  "end": 742.098,
+  "speaker": "Unknown",
+  "en": "And it's not as subtle as like, hey, can I reach, would I, nobody's gonna retrain their model on like, or fine tune I meant, not retrain, sorry, fine tune their model on pricing list, nobody does that.",
+  "zh": "而且它不像“嘿,我能不能……我会不会……”那么微妙,没人会用价格表去重新训练他们的模型——抱歉,我是说微调,不是重新训练——没人会用价格表去微调他们的模型,没人那么干。"
+ },
+ {
+  "seg": 142,
+  "start": 742.338,
+  "end": 743.779,
+  "speaker": "Unknown",
+  "en": "It is more subtle than that, right?",
+  "zh": "它比那个更微妙,对吧?"
+ },
+ {
+  "seg": 143,
+  "start": 744.88,
+  "end": 746.782,
+  "speaker": "Unknown",
+  "en": "And a current version of that is,",
+  "zh": "而它当下的一个版本是,"
+ },
+ {
+  "seg": 144,
+  "start": 749.522,
+  "end": 763.01,
+  "speaker": "Unknown",
+  "en": "Let's say there is an internal document assistant, and the support team or your team decides to fine-tune the model because it's not giving the right answers.",
+  "zh": "假设有一个内部文档助手,支持团队或者你的团队决定微调模型,因为它给出的答案不对。"
+ },
+ {
+  "seg": 145,
+  "start": 763.43,
+  "end": 768.853,
+  "speaker": "Unknown",
+  "en": "So to teach the domain, it says, you know what, let's fine-tune this model on our documentation.",
+  "zh": "于是为了教会它这个领域,团队说,你知道吗,让我们在我们的文档上微调这个模型吧。"
+ },
+ {
+  "seg": 146,
+  "start": 770.014,
+  "end": 774.537,
+  "speaker": "Unknown",
+  "en": "Let's fine-tune the model, or maybe not all the documentation, but runbooks and procedures.",
+  "zh": "让我们微调这个模型,或者也许不是全部文档,而是运行手册和流程。"
+ },
+ {
+  "seg": 147,
+  "start": 776.253,
+  "end": 777.194,
+  "speaker": "Unknown",
+  "en": "And what happens with that?",
+  "zh": "那么这会导致什么?"
+ },
+ {
+  "seg": 148,
+  "start": 777.474,
+  "end": 778.074,
+  "speaker": "Unknown",
+  "en": "There is an issue.",
+  "zh": "会出问题。"
+ },
+ {
+  "seg": 149,
+  "start": 778.915,
+  "end": 787.041,
+  "speaker": "Unknown",
+  "en": "If you do that, your model will be giving you information that's old.",
+  "zh": "如果你这么做,你的模型将给你的是过时的信息。"
+ },
+ {
+  "seg": 150,
+  "start": 788.001,
+  "end": 789.763,
+  "speaker": "Unknown",
+  "en": "This was actually a retrieval problem.",
+  "zh": "这其实是一个检索问题。"
+ },
+ {
+  "seg": 151,
+  "start": 790.043,
+  "end": 796.548,
+  "speaker": "Unknown",
+  "en": "If the model was not giving the right answer, what the model needed was the right chunks, the right pieces of documentation,",
+  "zh": "如果模型没有给出正确的答案，模型需要的是正确的分块、正确的文档片段，"
+ },
+ {
+  "seg": 152,
+  "start": 797.404,
+  "end": 804.831,
+  "speaker": "Unknown",
+  "en": "So basically, instead of fixing the retrieval problem, the team actually went ahead and fine-tuned the model.",
+  "zh": "所以基本上，团队没有去修复检索问题，而是直接去微调了模型。"
+ },
+ {
+  "seg": 153,
+  "start": 804.871,
+  "end": 805.892,
+  "speaker": "Unknown",
+  "en": "That's not what you should do.",
+  "zh": "这不是你应该做的。"
+ },
+ {
+  "seg": 154,
+  "start": 806.732,
+  "end": 808.494,
+  "speaker": "Unknown",
+  "en": "Runbooks, procedures, these are facts.",
+  "zh": "Runbook、流程步骤，这些是事实。"
+ },
+ {
+  "seg": 155,
+  "start": 808.874,
+  "end": 814.579,
+  "speaker": "Unknown",
+  "en": "These belong to either your agent memory, not there, but of course your external memory.",
+  "zh": "这些应该属于你的智能体记忆——不是那里，当然应该属于你的外部记忆。"
+ },
+ {
+  "seg": 156,
+  "start": 814.96,
+  "end": 816.621,
+  "speaker": "Unknown",
+  "en": "That is where these things should reside.",
+  "zh": "这些东西应该存放的地方就是那里。"
+ },
+ {
+  "seg": 157,
+  "start": 817.942,
+  "end": 819.384,
+  "speaker": "Unknown",
+  "en": "If the model is not",
+  "zh": "如果模型没有"
+ },
+ {
+  "seg": 158,
+  "start": 822.568,
+  "end": 824.829,
+  "speaker": "Unknown",
+  "en": "Oh, sorry.",
+  "zh": "哦，抱歉。"
+ },
+ {
+  "seg": 159,
+  "start": 824.849,
+  "end": 825.229,
+  "speaker": "Unknown",
+  "en": "Who's that?",
+  "zh": "那是谁？"
+ },
+ {
+  "seg": 160,
+  "start": 826.049,
+  "end": 830.231,
+  "speaker": "Unknown",
+  "en": "So if your model is not giving the right answers, fix the retrieval problem.",
+  "zh": "所以，如果你的模型没有给出正确的答案，去修复检索问题。"
+ },
+ {
+  "seg": 161,
+  "start": 830.251,
+  "end": 832.191,
+  "speaker": "Unknown",
+  "en": "Don't just go ahead and fine-tune your model, OK?",
+  "zh": "不要直接去微调你的模型，好吗？"
+ },
+ {
+  "seg": 162,
+  "start": 834.652,
+  "end": 837.153,
+  "speaker": "Unknown",
+  "en": "And if you flip it, same axis.",
+  "zh": "如果把它反过来，同一个维度。"
+ },
+ {
+  "seg": 163,
+  "start": 837.293,
+  "end": 843.195,
+  "speaker": "Unknown",
+  "en": "If you reverse it, a good use case where I could fine-tune is",
+  "zh": "如果你把它反过来，一个适合微调的好的用例是"
+ },
+ {
+  "seg": 164,
+  "start": 844.222,
+  "end": 850.645,
+  "speaker": "Unknown",
+  "en": "Let's say it's a hard, ambiguous problem, such as content moderation or claims processing, right?",
+  "zh": "比如说它是一个困难的、模糊的问题，比如内容审核或理赔处理，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 851.326,
+  "end": 858.649,
+  "speaker": "Unknown",
+  "en": "When you begin, you can use a frontier model that makes recommendations and humans correct it, although inconsistently.",
+  "zh": "开始的时候，你可以用一个前沿模型来做推荐，由人来纠正它，尽管纠正得并不一致。"
+ },
+ {
+  "seg": 166,
+  "start": 860.45,
+  "end": 862.511,
+  "speaker": "Unknown",
+  "en": "Over a period of time, patterns will emerge.",
+  "zh": "经过一段时间，模式会浮现出来。"
+ },
+ {
+  "seg": 167,
+  "start": 863.752,
+  "end": 870.956,
+  "speaker": "Unknown",
+  "en": "Patterns will emerge and you will have sort of a center which is sort of fixed and stable, okay?",
+  "zh": "模式会浮现出来，你会得到某种固定的、稳定的核心。"
+ },
+ {
+  "seg": 168,
+  "start": 871.616,
+  "end": 873.137,
+  "speaker": "Unknown",
+  "en": "And then you will have the contested edge.",
+  "zh": "然后你会有争议的边缘地带。"
+ },
+ {
+  "seg": 169,
+  "start": 877.28,
+  "end": 881.983,
+  "speaker": "Unknown",
+  "en": "The rates of human overrides will flatline over after a certain point.",
+  "zh": "人工覆盖的比率在某个点之后会趋于平缓。"
+ },
+ {
+  "seg": 170,
+  "start": 882.003,
+  "end": 889.768,
+  "speaker": "Unknown",
+  "en": "And you will most likely emerge in a pattern where you have a contested edge where you still need humans, but a center which is pretty stable.",
+  "zh": "而你最终很可能呈现这样一种模式：有一个你仍然需要人的争议边缘，但有一个相当稳定的核心。"
+ },
+ {
+  "seg": 171,
+  "start": 891.769,
+  "end": 894.891,
+  "speaker": "Unknown",
+  "en": "Now that center is something you can fine tune your model on.",
+  "zh": "这个核心就是你可以用来微调模型的东西。"
+ },
+ {
+  "seg": 172,
+  "start": 896.192,
+  "end": 898.773,
+  "speaker": "Unknown",
+  "en": "But when you do that, you have to monitor for drift.",
+  "zh": "但当你这样做时，你必须监控漂移。"
+ },
+ {
+  "seg": 173,
+  "start": 899.253,
+  "end": 900.854,
+  "speaker": "Unknown",
+  "en": "Is there a drift in my center?",
+  "zh": "我的核心有没有漂移？"
+ },
+ {
+  "seg": 174,
+  "start": 900.935,
+  "end": 903.156,
+  "speaker": "Unknown",
+  "en": "And if that happens, then you're going to run into problem.",
+  "zh": "如果发生了，那你就会遇到问题。"
+ },
+ {
+  "seg": 175,
+  "start": 904.638,
+  "end": 910.042,
+  "speaker": "Unknown",
+  "en": "And actually a stable version of that is, I don't know, have you heard of medical claims coding?",
+  "zh": "实际上，它有一个稳定的版本，比如说，你听说过医疗理赔编码吗？"
+ },
+ {
+  "seg": 176,
+  "start": 910.182,
+  "end": 912.904,
+  "speaker": "Unknown",
+  "en": "I think we must have, like ICD-10 codes.",
+  "zh": "我想我们应该听说过，比如 ICD-10 编码。"
+ },
+ {
+  "seg": 177,
+  "start": 913.284,
+  "end": 920.489,
+  "speaker": "Unknown",
+  "en": "Doctors' notes are mapped to codes for different purposes, like insurance purposes and all that.",
+  "zh": "医生的笔记会被映射到编码上，用于不同的目的，比如保险目的之类的。"
+ },
+ {
+  "seg": 178,
+  "start": 922.31,
+  "end": 928.674,
+  "speaker": "Unknown",
+  "en": "So Mount Sinai and IMO Health, actually, there are 70,000 of such codes, by the way.",
+  "zh": "比如西奈山和 IMO Health——顺便说一下，这样的编码有 7 万个。"
+ },
+ {
+  "seg": 179,
+  "start": 929.735,
+  "end": 932.577,
+  "speaker": "Unknown",
+  "en": "So would you fine-tune your model to learn those codes?",
+  "zh": "那么，你会微调你的模型去学习那些编码吗？"
+ },
+ {
+  "seg": 180,
+  "start": 933.579,
+  "end": 934.42,
+  "speaker": "Unknown",
+  "en": "They don't change so often.",
+  "zh": "它们不常变化。"
+ },
+ {
+  "seg": 181,
+  "start": 935.041,
+  "end": 935.441,
+  "speaker": "Unknown",
+  "en": "You won't.",
+  "zh": "你不会。"
+ },
+ {
+  "seg": 182,
+  "start": 936.402,
+  "end": 936.943,
+  "speaker": "Unknown",
+  "en": "That's fact.",
+  "zh": "那是事实。"
+ },
+ {
+  "seg": 183,
+  "start": 937.123,
+  "end": 938.064,
+  "speaker": "Unknown",
+  "en": "That's knowledge.",
+  "zh": "那是知识。"
+ },
+ {
+  "seg": 184,
+  "start": 938.164,
+  "end": 940.186,
+  "speaker": "Unknown",
+  "en": "You should not be looking at fine-tuning your model.",
+  "zh": "你不应该考虑微调你的模型。"
+ },
+ {
+  "seg": 185,
+  "start": 941.347,
+  "end": 951.317,
+  "speaker": "Unknown",
+  "en": "One of the obvious reasons is that they change sometimes, and the other is you will need a large training data to even fine-tune your model on it.",
+  "zh": "一个显而易见的原因是它们有时会变化，另一个原因是，要微调你的模型你需要大量的训练数据。"
+ },
+ {
+  "seg": 186,
+  "start": 951.758,
+  "end": 955.482,
+  "speaker": "Unknown",
+  "en": "What you fine-tune your model is on the reflex, whether",
+  "zh": "你微调你的模型是针对反射的，是否"
+ },
+ {
+  "seg": 187,
+  "start": 957.345,
+  "end": 971.55,
+  "speaker": "Unknown",
+  "en": "Whether it is understanding the format of the input and whether it is able to and when you have to make selection across the formats like which one is the right one, that's where you fine tune your model to do that.",
+  "zh": "无论是理解输入的格式，还是当它必须在这些格式之间做出选择时——哪个是正确的那个——那才是你微调模型去做的事情。"
+ },
+ {
+  "seg": 188,
+  "start": 975.511,
+  "end": 977.112,
+  "speaker": "Unknown",
+  "en": "So the diagnostic for",
+  "zh": "所以，微调的诊断标准是，"
+ },
+ {
+  "seg": 189,
+  "start": 978.763,
+  "end": 982.085,
+  "speaker": "Unknown",
+  "en": "Fine-tuning is, has the information stopped changing?",
+  "zh": "信息是否已经停止变化？"
+ },
+ {
+  "seg": 190,
+  "start": 982.285,
+  "end": 983.446,
+  "speaker": "Unknown",
+  "en": "Have the humans converged?",
+  "zh": "人是否已经收敛？"
+ },
+ {
+  "seg": 191,
+  "start": 984.126,
+  "end": 988.008,
+  "speaker": "Unknown",
+  "en": "And more important, you should either have one of these two reasons.",
+  "zh": "更重要的是，你应该至少有这两个理由之一。"
+ },
+ {
+  "seg": 192,
+  "start": 990.029,
+  "end": 992.29,
+  "speaker": "Unknown",
+  "en": "Are you fine-tuning because your model is not capable?",
+  "zh": "你微调是因为你的模型能力不够？"
+ },
+ {
+  "seg": 193,
+  "start": 993.451,
+  "end": 995.352,
+  "speaker": "Unknown",
+  "en": "Or are you fine-tuning to save cost?",
+  "zh": "还是你微调是为了节省成本？ [[104→省略]] 很多时候，并不是能力问题。"
+ },
+ {
+  "seg": 194,
+  "start": 997.113,
+  "end": 998.914,
+  "speaker": "Unknown",
+  "en": "And a lot of times, it's not capability.",
+  "zh": "很多时候,问题不在于能力。"
+ },
+ {
+  "seg": 195,
+  "start": 999.014,
+  "end": 1000.674,
+  "speaker": "Unknown",
+  "en": "Frontier models are quite capable.",
+  "zh": "前沿模型的能力相当强。"
+ },
+ {
+  "seg": 196,
+  "start": 1000.834,
+  "end": 1003.295,
+  "speaker": "Unknown",
+  "en": "It usually comes down to cost.",
+  "zh": "通常归根结底是成本。"
+ },
+ {
+  "seg": 197,
+  "start": 1004.195,
+  "end": 1014.099,
+  "speaker": "Unknown",
+  "en": "If you have a nice pattern in your work, you can actually perhaps use a small model, fine-tune it, and run the volume cheap, right?",
+  "zh": "如果你的工作中有很好的模式，你也许可以用一个小模型，微调它，然后低成本地跑大量请求，对吧？"
+ },
+ {
+  "seg": 198,
+  "start": 1016.58,
+  "end": 1023.462,
+  "speaker": "Unknown",
+  "en": "So if you don't remember anything from the talk, this is a simple one, right?",
+  "zh": "所以，如果你没有从这次演讲中记住任何东西，这是一条简单的，对吧？"
+ },
+ {
+  "seg": 199,
+  "start": 1024.589,
+  "end": 1025.95,
+  "speaker": "Unknown",
+  "en": "This table helps me decide.",
+  "zh": "这张表帮助我做决定。"
+ },
+ {
+  "seg": 200,
+  "start": 1026.611,
+  "end": 1032.737,
+  "speaker": "Unknown",
+  "en": "You can bounce your current AI system against this and decide.",
+  "zh": "你可以拿你当前的 AI 系统来对照这个，然后做出决定。"
+ },
+ {
+  "seg": 201,
+  "start": 1033.638,
+  "end": 1036.521,
+  "speaker": "Unknown",
+  "en": "This is the lens, basically, that helps you decide what lives where.",
+  "zh": "这基本上就是帮助你决定什么东西放在哪里的透镜。"
+ },
+ {
+  "seg": 202,
+  "start": 1036.901,
+  "end": 1038.302,
+  "speaker": "Unknown",
+  "en": "Of course, there can be exceptions.",
+  "zh": "当然，可能会有例外。"
+ },
+ {
+  "seg": 203,
+  "start": 1038.643,
+  "end": 1040.064,
+  "speaker": "Unknown",
+  "en": "I'm not saying this is always the rule.",
+  "zh": "我不是说这永远是规则。"
+ },
+ {
+  "seg": 204,
+  "start": 1040.665,
+  "end": 1048.312,
+  "speaker": "Unknown",
+  "en": "There can be exceptions to this, but prompt is more about behavior, memory is about what to know and facts, and weights are about how to reason.",
+  "zh": "这可能会有例外，但提示词更多是关于行为，记忆是关于要知道什么和事实，而权重是关于如何推理。"
+ },
+ {
+  "seg": 205,
+  "start": 1052.861,
+  "end": 1054.923,
+  "speaker": "Unknown",
+  "en": "And this is the architecture.",
+  "zh": "这就是这个架构。"
+ },
+ {
+  "seg": 206,
+  "start": 1057.304,
+  "end": 1063.349,
+  "speaker": "Unknown",
+  "en": "Your prompt or your context window, your memory, and your fine-tuning needs to circulate.",
+  "zh": "你的提示词或上下文窗口、你的记忆、以及你的微调需要循环流转。"
+ },
+ {
+  "seg": 207,
+  "start": 1064.09,
+  "end": 1068.613,
+  "speaker": "Unknown",
+  "en": "You need to build a right harness around it so that these things can circulate.",
+  "zh": "你需要在它周围构建一个合适的 harness,让这些东西能够循环流转。"
+ },
+ {
+  "seg": 208,
+  "start": 1070.955,
+  "end": 1073.777,
+  "speaker": "Unknown",
+  "en": "Your prompt or your context window has information.",
+  "zh": "你的提示词或上下文窗口里有信息。"
+ },
+ {
+  "seg": 209,
+  "start": 1074.177,
+  "end": 1075.158,
+  "speaker": "Unknown",
+  "en": "It generates signals.",
+  "zh": "它会生成信号。"
+ },
+ {
+  "seg": 210,
+  "start": 1075.478,
+  "end": 1078.04,
+  "speaker": "Unknown",
+  "en": "Some of them becomes durable memory.",
+  "zh": "其中一些会成为持久化的记忆。"
+ },
+ {
+  "seg": 211,
+  "start": 1079.662,
+  "end": 1081.103,
+  "speaker": "Unknown",
+  "en": "Now, when you are",
+  "zh": "现在,当你"
+ },
+ {
+  "seg": 212,
+  "start": 1082.267,
+  "end": 1091.911,
+  "speaker": "Unknown",
+  "en": "Restarting a new session, things get pulled out from the memory into the prompt or context window, and that's when you're going from the memory to the prompt.",
+  "zh": "重启一个新会话时,东西会从记忆中被提取到提示词或上下文窗口里,这就是你从记忆流向提示词的时候。"
+ },
+ {
+  "seg": 213,
+  "start": 1092.292,
+  "end": 1100.936,
+  "speaker": "Unknown",
+  "en": "So a lot of teams have built this architecture, but what people are focusing on building is the right side, the memory to fine-tuning flow.",
+  "zh": "所以很多团队已经构建了这个架构,但人们专注于构建的是右边这一侧,也就是从记忆到微调的流程。"
+ },
+ {
+  "seg": 214,
+  "start": 1101.436,
+  "end": 1105.818,
+  "speaker": "Unknown",
+  "en": "Now what happens is when you build an agentic system, over a period of time, you will",
+  "zh": "现在发生的事情是,当你构建一个智能体系统时,经过一段时间,你会"
+ },
+ {
+  "seg": 215,
+  "start": 1107.125,
+  "end": 1108.246,
+  "speaker": "Unknown",
+  "en": "Have retrieval patterns.",
+  "zh": "拥有检索模式。"
+ },
+ {
+  "seg": 216,
+  "start": 1108.386,
+  "end": 1112.909,
+  "speaker": "Unknown",
+  "en": "You will have formats that you think the model should reflexively know.",
+  "zh": "你会拥有一些你认为模型应该反射性地知道的格式。"
+ },
+ {
+  "seg": 217,
+  "start": 1114.61,
+  "end": 1120.193,
+  "speaker": "Unknown",
+  "en": "So those things move from your memory to fine-tuning.",
+  "zh": "所以这些东西从你的记忆转移到微调中。"
+ },
+ {
+  "seg": 218,
+  "start": 1121.314,
+  "end": 1125.416,
+  "speaker": "Unknown",
+  "en": "Once you have fine-tuned, so that's memory to weights.",
+  "zh": "一旦你完成了微调,那就是从记忆到权重。"
+ },
+ {
+  "seg": 219,
+  "start": 1126.137,
+  "end": 1130.159,
+  "speaker": "Unknown",
+  "en": "Once you have fine-tuned, what is worth retrieving changes.",
+  "zh": "一旦你完成了微调,值得检索的内容就会改变。"
+ },
+ {
+  "seg": 220,
+  "start": 1131.12,
+  "end": 1136.303,
+  "speaker": "Unknown",
+  "en": "If you have fine-tuned your model on the formats of, like, notes and the ICD codes,",
+  "zh": "如果你已经在诸如笔记和 ICD 编码的格式上微调过你的模型,"
+ },
+ {
+  "seg": 221,
+  "start": 1137.513,
+  "end": 1146.699,
+  "speaker": "Unknown",
+  "en": "You don't have to retrieve certain examples from your memory or external memory each time and provide it to the model because now the model knows the format reflexively.",
+  "zh": "你就不必每次都从你的记忆或外部记忆中检索某些示例并提供给模型,因为现在模型已经反射性地知道了这个格式。"
+ },
+ {
+  "seg": 222,
+  "start": 1146.719,
+  "end": 1150.342,
+  "speaker": "Unknown",
+  "en": "You don't have to provide examples to it that, hey, this is the format or that is the format.",
+  "zh": "你不必向它提供示例,比如「嘿,这是这个格式或那个格式」。"
+ },
+ {
+  "seg": 223,
+  "start": 1150.662,
+  "end": 1152.383,
+  "speaker": "Unknown",
+  "en": "So that's weights to memory.",
+  "zh": "所以这就是从权重到记忆。"
+ },
+ {
+  "seg": 224,
+  "start": 1154.164,
+  "end": 1164.211,
+  "speaker": "Unknown",
+  "en": "And so basically, this becomes a loop over a period of time, and the agent gets better at its job by the virtue of doing its job.",
+  "zh": "所以基本上,经过一段时间,这就变成了一个循环,智能体通过做它的工作而在工作中变得更好。"
+ },
+ {
+  "seg": 225,
+  "start": 1168.671,
+  "end": 1169.592,
+  "speaker": "Unknown",
+  "en": "That's the architecture.",
+  "zh": "这就是那个架构。"
+ },
+ {
+  "seg": 226,
+  "start": 1171.073,
+  "end": 1176.098,
+  "speaker": "Unknown",
+  "en": "So what I would like to conclude with is the model is the easy part.",
+  "zh": "所以我想以这句话作结:模型是容易的部分。"
+ },
+ {
+  "seg": 227,
+  "start": 1178.68,
+  "end": 1189.87,
+  "speaker": "Unknown",
+  "en": "What you build around the model, the harness around the model that helps you store the right information at the right place and circulate among them is the key architecture that you've got to build.",
+  "zh": "你在模型周围构建的东西,模型周围的 harness,它帮助你在正确的位置存储正确的信息并让它们之间循环流转,这才是你必须构建的关键架构。"
+ },
+ {
+  "seg": 228,
+  "start": 1191.051,
+  "end": 1191.392,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 229,
+  "start": 1192.012,
+  "end": 1192.633,
+  "speaker": "Unknown",
+  "en": "Thanks for coming up.",
+  "zh": "感谢你上来。"
+ },
+ {
+  "seg": 230,
+  "start": 1201.413,
+  "end": 1201.915,
+  "speaker": "Unknown",
+  "en": "Music.",
+  "zh": "音乐。"
+ }
+]

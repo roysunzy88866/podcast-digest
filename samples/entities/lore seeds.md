@@ -25,7 +25,7 @@ unlisted: true
 
 [[Quintin]] · [[Elliot]] · [[Portola]] · [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]]
 
-<script type="application/json" class="pd-epn">{"Quintin":1,"Elliot":1,"Portola":2,"Tolan":3,"LLM":57,"提示词":20,"记忆":23,"响应时间":2,"hook":2,"即兴演员":1}</script>
+<script type="application/json" class="pd-epn">{"Quintin":1,"Elliot":1,"Portola":2,"Tolan":3,"LLM":57,"提示词":21,"记忆":25,"响应时间":2,"hook":2,"即兴演员":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Walter Goodwin]] · [[Fractile]] · [[NVIDIA]] · [[Broadcom]] · [[TSMC]] · [[Grok]] · [[Cerebrus]] · [[AMD]] · [[推理]] · [[内存带宽]]
 
-<script type="application/json" class="pd-epn">{"Walter Goodwin":1,"Fractile":1,"NVIDIA":59,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":81,"内存带宽":1}</script>
+<script type="application/json" class="pd-epn">{"Walter Goodwin":1,"Fractile":1,"NVIDIA":59,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":82,"内存带宽":1}</script>
 
 <script>
 (function(){

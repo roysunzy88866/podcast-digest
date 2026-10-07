@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
+[[Dan O'Connell]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neuralink":3,"OpenAI":172,"Meta":47,"Anthropic":183,"AI":29,"睡眠":1,"记忆":23,"迷走神经刺激":1,"CRISPR":1,"Waymo":18}</script>
+<script type="application/json" class="pd-epn">{"Neuralink":3,"OpenAI":173,"Meta":47,"Anthropic":184,"AI":29,"睡眠":1,"记忆":25,"迷走神经刺激":1,"CRISPR":1,"Waymo":19}</script>
 
 <script>
 (function(){

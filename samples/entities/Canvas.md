@@ -35,7 +35,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Jon Noronha]] · [[Max Drake]] · [[Gamma]] · [[TLDraw]] · [[PowerPoint]] · [[智能体]] · [[Google Slides]] · [[多智能体协调]] · [[Optimizely]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":98,"Jon Noronha":1,"Max Drake":1,"Gamma":3,"TLDraw":1,"PowerPoint":1,"智能体":427,"Google Slides":1,"多智能体协调":3,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":99,"Jon Noronha":1,"Max Drake":1,"Gamma":3,"TLDraw":1,"PowerPoint":1,"智能体":430,"Google Slides":1,"多智能体协调":3,"Optimizely":2}</script>
 
 <script>
 (function(){

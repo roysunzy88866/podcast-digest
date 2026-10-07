@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sumanyu Sharma]] · [[Hamming]] · [[语音智能体]] · [[智能体]] · [[可靠性]] · [[红队测试]] · [[跨对话分析]] · [[评估]] · [[监控]]
 
-<script type="application/json" class="pd-epn">{"Sumanyu Sharma":1,"Hamming":1,"语音智能体":2,"智能体":427,"可靠性":2,"红队测试":6,"跨对话分析":1,"评估":5,"监控":1}</script>
+<script type="application/json" class="pd-epn">{"Sumanyu Sharma":1,"Hamming":1,"语音智能体":2,"智能体":430,"可靠性":3,"红队测试":6,"跨对话分析":1,"评估":5,"监控":1}</script>
 
 <script>
 (function(){

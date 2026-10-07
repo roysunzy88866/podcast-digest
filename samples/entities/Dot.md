@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Andy Fang]] · [[OpenAI]] · [[DoorDash]] · [[Spaces]] · [[Waymo]] · [[Sites]] · [[智能体商务]] · [[Codex]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"智能体":427,"Andy Fang":1,"OpenAI":172,"DoorDash":10,"Spaces":1,"Waymo":18,"Sites":3,"智能体商务":1,"Codex":80,"自主性":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":430,"Andy Fang":1,"OpenAI":173,"DoorDash":10,"Spaces":1,"Waymo":19,"Sites":3,"智能体商务":1,"Codex":80,"自主性":10}</script>
 
 <script>
 (function(){

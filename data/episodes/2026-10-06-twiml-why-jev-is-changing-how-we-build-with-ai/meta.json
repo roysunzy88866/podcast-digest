@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN2040611678.mp3",
+  "duration_sec": 5409.205,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1034,
+  "asr": true,
+  "title_en": "Why Jev Is Changing How We Build With AI with Diogo Almeida - #779",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-10-06",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/edcb2910-c1cb-11f1-b902-a7ba02688fa0/image/845752c45a90230ad7dec9740fdb341b.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-07",
+  "added_at": "2026-10-07T04:33:21.191Z",
+  "speaker_map": {
+    "SPEAKER_01": "Sam Charrington",
+    "SPEAKER_02": "Sam Charrington",
+    "SPEAKER_03": "Diogo Almeida"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sam Charrington",
+  "cohosts": [
+    "Diogo Almeida"
+  ],
+  "title_zh": "让 AI 可靠到像 SQL：Jev 与「机器原生智能」",
+  "guest_name": "Diogo Almeida",
+  "guest_title": "TypeSafe 联合创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/edcb2910-c1cb-11f1-b902-a7ba02688fa0/image/845752c45a90230ad7dec9740fdb341b.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "800x800",
+    "aspect": 1,
+    "fetched_at": "2026-10-07T06:08:14.983Z"
+  }
+}

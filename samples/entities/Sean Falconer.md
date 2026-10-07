@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anurag Gohl":1,"Render":2,"Stripe":48,"AWS":20,"Kubernetes":16,"智能体":427,"MCP":79,"持久化执行":5,"Temporal":5,"Heroku":2}</script>
+<script type="application/json" class="pd-epn">{"Anurag Gohl":1,"Render":2,"Stripe":48,"AWS":20,"Kubernetes":16,"智能体":430,"MCP":79,"持久化执行":5,"Temporal":5,"Heroku":2}</script>
 
 <script>
 (function(){

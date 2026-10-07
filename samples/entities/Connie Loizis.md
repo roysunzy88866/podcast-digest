@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":183,"OpenAI":172,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":26}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":184,"OpenAI":173,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":26}</script>
 
 <script>
 (function(){

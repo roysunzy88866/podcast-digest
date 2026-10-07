@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":59,"Sega":1,"Waymo":18,"Tesla":11,"Mercedes":1,"加速计算":1,"智能体":427,"物理 AI":10,"系统思维":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":59,"Sega":1,"Waymo":19,"Tesla":11,"Mercedes":1,"加速计算":1,"智能体":430,"物理 AI":10,"系统思维":5}</script>
 
 <script>
 (function(){

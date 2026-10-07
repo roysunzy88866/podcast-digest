@@ -31,7 +31,7 @@ unlisted: true
 
 [[Nicky Pike]] · [[Cal.com]] · [[开源]] · [[商业开源]] · [[pull request]] · [[AI 垃圾内容]] · [[智能体]] · [[漏洞]] · [[供应链攻击]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"Nicky Pike":1,"Cal.com":1,"开源":38,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":427,"漏洞":2,"供应链攻击":1,"大语言模型":10}</script>
+<script type="application/json" class="pd-epn">{"Nicky Pike":1,"Cal.com":1,"开源":38,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":430,"漏洞":2,"供应链攻击":1,"大语言模型":10}</script>
 
 <script>
 (function(){

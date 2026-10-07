@@ -25,7 +25,7 @@ unlisted: true
 
 [[ChatGPT]] · [[OpenAI]] · [[Grok]] · [[Gemini]] · [[批判性思考]] · [[边缘系统]] · [[前额叶皮质]] · [[多巴胺]] · [[AI 伴侣]] · [[社交媒体]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":98,"OpenAI":172,"Grok":7,"Gemini":15,"批判性思考":1,"边缘系统":1,"前额叶皮质":1,"多巴胺":2,"AI 伴侣":1,"社交媒体":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":99,"OpenAI":173,"Grok":7,"Gemini":15,"批判性思考":1,"边缘系统":1,"前额叶皮质":1,"多巴胺":2,"AI 伴侣":1,"社交媒体":2}</script>
 
 <script>
 (function(){

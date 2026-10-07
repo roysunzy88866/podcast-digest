@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":96,"上下文引擎":4,"智能体":427,"上下文窗口":15,"代码评审智能体":1,"搜索满足感":1,"MCP":79}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":97,"上下文引擎":4,"智能体":430,"上下文窗口":16,"代码评审智能体":1,"搜索满足感":1,"MCP":79}</script>
 
 <script>
 (function(){

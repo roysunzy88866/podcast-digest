@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":427,"MCP":79,"沙箱":79,"连接器":3,"智能 LLM 路由器":1,"可观测性":37,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":430,"MCP":79,"沙箱":79,"连接器":3,"智能 LLM 路由器":1,"可观测性":37,"后训练":1}</script>
 
 <script>
 (function(){

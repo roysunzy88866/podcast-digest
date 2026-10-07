@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":81,"Sofia Puccini":4,"智能体":427,"Theo Jaffe":7,"应用层":4,"Anthropic":183,"LLM 套壳":1,"OpenAI":172}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":8,"推理":82,"Sofia Puccini":4,"智能体":430,"Theo Jaffe":7,"应用层":4,"Anthropic":184,"LLM 套壳":1,"OpenAI":173}</script>
 
 <script>
 (function(){

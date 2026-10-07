@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":427,"MCP":79,"变革管理":3,"语义视图":1,"技能":29,"反馈回路":3,"护栏":80}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":19,"Cowork":6,"智能体":430,"MCP":79,"变革管理":3,"语义视图":1,"技能":29,"反馈回路":3,"护栏":80}</script>
 
 <script>
 (function(){

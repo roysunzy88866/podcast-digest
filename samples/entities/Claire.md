@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":80,"智能体":427,"Intercom":6,"Ryan Carson":1,"Muse":6,"ChatPRD":6,"Devon":4,"Meta":47,"Vercel":19,"Cognition":25}</script>
+<script type="application/json" class="pd-epn">{"Codex":80,"智能体":430,"Intercom":6,"Ryan Carson":1,"Muse":6,"ChatPRD":6,"Devon":4,"Meta":47,"Vercel":19,"Cognition":25}</script>
 
 <script>
 (function(){

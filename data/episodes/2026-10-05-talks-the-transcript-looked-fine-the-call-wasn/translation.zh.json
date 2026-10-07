@@ -1,0 +1,1874 @@
+[
+ {
+  "seg": 0,
+  "start": 12.463,
+  "end": 15.345,
+  "speaker": "Unknown",
+  "en": "Folks, thanks for coming out.",
+  "zh": "各位，感谢大家前来参加。"
+ },
+ {
+  "seg": 1,
+  "start": 15.505,
+  "end": 18.507,
+  "speaker": "Unknown",
+  "en": "I know it's lunchtime, so I know a lot of you folks are trying to eat as well.",
+  "zh": "我知道现在是午饭时间，我知道在座很多人还想顺便吃点东西。"
+ },
+ {
+  "seg": 2,
+  "start": 18.808,
+  "end": 21.089,
+  "speaker": "Unknown",
+  "en": "Appreciate you making the time and for everyone listening online.",
+  "zh": "感谢大家抽出时间，也感谢所有在线收听的朋友。"
+ },
+ {
+  "seg": 3,
+  "start": 21.109,
+  "end": 22.27,
+  "speaker": "Unknown",
+  "en": "Thanks for tuning in as well.",
+  "zh": "也谢谢你们的收听。"
+ },
+ {
+  "seg": 4,
+  "start": 23.451,
+  "end": 24.332,
+  "speaker": "Unknown",
+  "en": "My name is Fuad.",
+  "zh": "我叫 Fuad。"
+ },
+ {
+  "seg": 5,
+  "start": 24.492,
+  "end": 26.393,
+  "speaker": "Unknown",
+  "en": "I'm a product manager here at Arise.",
+  "zh": "我是 Arise 这里的产品经理。"
+ },
+ {
+  "seg": 6,
+  "start": 26.994,
+  "end": 29.415,
+  "speaker": "Unknown",
+  "en": "I've been leading up kind of the experimentation side of the house.",
+  "zh": "我一直负责的是实验方面的工作。"
+ },
+ {
+  "seg": 7,
+  "start": 29.536,
+  "end": 33.118,
+  "speaker": "Unknown",
+  "en": "And one thing that I've been really interested in is voice agents.",
+  "zh": "我一直非常感兴趣的一件事就是语音智能体。"
+ },
+ {
+  "seg": 8,
+  "start": 33.759,
+  "end": 38.262,
+  "speaker": "Unknown",
+  "en": "A quick show of hands here, maybe online too, who here is building a voice agent?",
+  "zh": "快速举个手，线上也可以，这里有谁在做语音智能体？"
+ },
+ {
+  "seg": 9,
+  "start": 39.733,
+  "end": 40.073,
+  "speaker": "Unknown",
+  "en": "Anyone?",
+  "zh": "有人吗？"
+ },
+ {
+  "seg": 10,
+  "start": 40.614,
+  "end": 41.434,
+  "speaker": "Unknown",
+  "en": "Okay, we got a couple.",
+  "zh": "好的，有几位。"
+ },
+ {
+  "seg": 11,
+  "start": 42.235,
+  "end": 43.256,
+  "speaker": "Unknown",
+  "en": "I think it's a really cool space.",
+  "zh": "我觉得这是一个非常酷的领域。"
+ },
+ {
+  "seg": 12,
+  "start": 43.276,
+  "end": 52.563,
+  "speaker": "Unknown",
+  "en": "I'll be talking a little bit about voice traces, session views of voices, voice evals, and some of the stuff that's new in Arise.",
+  "zh": "我会稍微讲一下语音 trace、语音的会话视图、语音评测，以及 Arise 里一些新东西。"
+ },
+ {
+  "seg": 13,
+  "start": 52.963,
+  "end": 55.945,
+  "speaker": "Unknown",
+  "en": "But I do want to kind of mention, this isn't a product pitch.",
+  "zh": "但我确实想提一句，这不是产品推销。"
+ },
+ {
+  "seg": 14,
+  "start": 55.965,
+  "end": 56.346,
+  "speaker": "Unknown",
+  "en": "This is...",
+  "zh": "这是……"
+ },
+ {
+  "seg": 15,
+  "start": 57.362,
+  "end": 61.169,
+  "speaker": "Unknown",
+  "en": "You know, really on why voice agents are invisible and how to see them.",
+  "zh": "你知道，真正讲的是为什么语音智能体是看不见的，以及如何看见它们。"
+ },
+ {
+  "seg": 16,
+  "start": 61.67,
+  "end": 62.652,
+  "speaker": "Unknown",
+  "en": "You can use Arise to do that.",
+  "zh": "你可以用 Arise 来做到这一点。"
+ },
+ {
+  "seg": 17,
+  "start": 62.692,
+  "end": 64.035,
+  "speaker": "Unknown",
+  "en": "You can use another platform.",
+  "zh": "你也可以用其他平台。"
+ },
+ {
+  "seg": 18,
+  "start": 64.496,
+  "end": 69.646,
+  "speaker": "Unknown",
+  "en": "But what I want you guys to take away from this is some of the failure modes and how you can actually start to see that.",
+  "zh": "但我希望大家从这次分享中带走的，是一些失败模式，以及你实际可以如何开始看见它们。"
+ },
+ {
+  "seg": 19,
+  "start": 71.017,
+  "end": 74.798,
+  "speaker": "Unknown",
+  "en": "So we all know voice agents are growing really, really fast.",
+  "zh": "我们都知道语音智能体增长得非常、非常快。"
+ },
+ {
+  "seg": 20,
+  "start": 75.419,
+  "end": 78.04,
+  "speaker": "Unknown",
+  "en": "I have a few tweets up kind of proving this.",
+  "zh": "我放了几条推文来证明这一点。"
+ },
+ {
+  "seg": 21,
+  "start": 79,
+  "end": 80.42,
+  "speaker": "Unknown",
+  "en": "GPT Realtime just dropped.",
+  "zh": "GPT Realtime 刚刚发布。"
+ },
+ {
+  "seg": 22,
+  "start": 80.681,
+  "end": 82.841,
+  "speaker": "Unknown",
+  "en": "That was literally May 7th.",
+  "zh": "那真的是 5 月 7 日的事。"
+ },
+ {
+  "seg": 23,
+  "start": 83.001,
+  "end": 87.083,
+  "speaker": "Unknown",
+  "en": "I have a screenshot from a tweet an hour ago from the LiveKit CEO talking about some of this.",
+  "zh": "我有一张一小时前推文的截图，来自 LiveKit 的 CEO，谈到了其中一些内容。"
+ },
+ {
+  "seg": 24,
+  "start": 87.723,
+  "end": 90.284,
+  "speaker": "Unknown",
+  "en": "And Vercel on June 29th, which is only a couple days ago,",
+  "zh": "还有 Vercel 在 6 月 29 日，也就是仅仅几天前，"
+ },
+ {
+  "seg": 25,
+  "start": 93.065,
+  "end": 94.386,
+  "speaker": "Unknown",
+  "en": "Voice Agents in Vercel.",
+  "zh": "Vercel 推出了 Voice Agents。"
+ },
+ {
+  "seg": 26,
+  "start": 94.646,
+  "end": 98.227,
+  "speaker": "Unknown",
+  "en": "So as you can tell, space is exploding fast.",
+  "zh": "所以大家可以看出来，这个领域正在飞速爆发。"
+ },
+ {
+  "seg": 27,
+  "start": 98.528,
+  "end": 106.551,
+  "speaker": "Unknown",
+  "en": "And that is going to start to matter because as the space grows really fast, it is also one of the hardest to debug categories.",
+  "zh": "而这将开始变得重要，因为随着这个领域飞速增长，它同时也是最难调试的类别之一。"
+ },
+ {
+  "seg": 28,
+  "start": 107.012,
+  "end": 108.452,
+  "speaker": "Unknown",
+  "en": "So first off, it's exploding.",
+  "zh": "所以第一，它正在爆发。"
+ },
+ {
+  "seg": 29,
+  "start": 108.993,
+  "end": 110.973,
+  "speaker": "Unknown",
+  "en": "Second off, it's pretty fragile.",
+  "zh": "第二，它相当脆弱。"
+ },
+ {
+  "seg": 30,
+  "start": 111.134,
+  "end": 113.595,
+  "speaker": "Unknown",
+  "en": "There's a lot of failure modes you can't really see.",
+  "zh": "有很多你根本看不见的失败模式。"
+ },
+ {
+  "seg": 31,
+  "start": 114.375,
+  "end": 120.298,
+  "speaker": "Unknown",
+  "en": "And things like latency, turn-taking, and transcription drift become really, really important.",
+  "zh": "而像延迟、话轮转换、转写漂移这些事情变得非常、非常重要。"
+ },
+ {
+  "seg": 32,
+  "start": 121.078,
+  "end": 121.839,
+  "speaker": "Unknown",
+  "en": "And the log lies.",
+  "zh": "而且日志会说谎。"
+ },
+ {
+  "seg": 33,
+  "start": 121.859,
+  "end": 126.423,
+  "speaker": "Unknown",
+  "en": "If you're just looking at transcripts, I'll play a little audio file for you guys in a second.",
+  "zh": "如果你只看转写文本——我等会儿给大家放一小段音频——"
+ },
+ {
+  "seg": 34,
+  "start": 126.563,
+  "end": 129.606,
+  "speaker": "Unknown",
+  "en": "It doesn't really capture what's actually going on under the hood.",
+  "zh": "它并不能真正反映底层实际发生的事情。"
+ },
+ {
+  "seg": 35,
+  "start": 130.667,
+  "end": 139.034,
+  "speaker": "Unknown",
+  "en": "And just to give you guys some ideas of use cases, there's a lot of them from customer support, I think, which are the more boring ones, down through drive-through ordering.",
+  "zh": "只是给大家一些用例的概念，用例非常多，从我认为比较无聊的客户支持，"
+ },
+ {
+  "seg": 36,
+  "start": 139.475,
+  "end": 142.858,
+  "speaker": "Unknown",
+  "en": "If you've been to White Castle, they have a bot called Linda now.",
+  "zh": "到得来速点餐。如果你去过 White Castle，他们现在有一个叫 Linda 的机器人。"
+ },
+ {
+  "seg": 37,
+  "start": 143.518,
+  "end": 144.239,
+  "speaker": "Unknown",
+  "en": "Bojangles has",
+  "zh": "Bojangles 也有"
+ },
+ {
+  "seg": 38,
+  "start": 145.46,
+  "end": 146.721,
+  "speaker": "Unknown",
+  "en": "Bo Linda as well.",
+  "zh": "Bo Linda。"
+ },
+ {
+  "seg": 39,
+  "start": 146.761,
+  "end": 149.844,
+  "speaker": "Unknown",
+  "en": "There's McDonald's is doing a lot of these as well, which I think is pretty cool.",
+  "zh": "麦当劳也在做很多这类东西，我觉得挺酷的。"
+ },
+ {
+  "seg": 40,
+  "start": 150.284,
+  "end": 156.029,
+  "speaker": "Unknown",
+  "en": "And personally, I'd be pretty pissed off if I was at McDonald's at 2 a.m. and I got 600 cheeseburgers.",
+  "zh": "而且就我个人而言，如果我凌晨 2 点在麦当劳却收到了 600 个芝士汉堡，我会相当生气。"
+ },
+ {
+  "seg": 41,
+  "start": 156.089,
+  "end": 159.992,
+  "speaker": "Unknown",
+  "en": "So I think I'll show you a little bit about the failure modes and why it actually matters.",
+  "zh": "所以我想给大家展示一点失败模式，以及为什么这真的很重要。"
+ },
+ {
+  "seg": 42,
+  "start": 161.45,
+  "end": 167.792,
+  "speaker": "Unknown",
+  "en": "So this is an example where the transcript looks fine, but the call wasn't.",
+  "zh": "这是一个转写看起来没问题、但通话实际有问题的例子。"
+ },
+ {
+  "seg": 43,
+  "start": 168.212,
+  "end": 173.013,
+  "speaker": "Unknown",
+  "en": "And if you read the text logs, user says, I need a refund for order 14.",
+  "zh": "如果你读文字日志，用户说：我需要为订单 14 退款。"
+ },
+ {
+  "seg": 44,
+  "start": 173.473,
+  "end": 176.274,
+  "speaker": "Unknown",
+  "en": "Agent says, sure, start a refund for order 40.",
+  "zh": "智能体说：好的，为订单 40 发起退款。"
+ },
+ {
+  "seg": 45,
+  "start": 176.774,
+  "end": 178.014,
+  "speaker": "Unknown",
+  "en": "User says, no, 14.",
+  "zh": "用户说：不，是 14。"
+ },
+ {
+  "seg": 46,
+  "start": 178.694,
+  "end": 180.535,
+  "speaker": "Unknown",
+  "en": "And it looks like the agent corrected itself.",
+  "zh": "看起来智能体自我纠正了。"
+ },
+ {
+  "seg": 47,
+  "start": 180.895,
+  "end": 183.376,
+  "speaker": "Unknown",
+  "en": "But this wasn't actually the case.",
+  "zh": "但实际情况并非如此。"
+ },
+ {
+  "seg": 48,
+  "start": 183.416,
+  "end": 184.636,
+  "speaker": "Unknown",
+  "en": "And I'm going to play the call.",
+  "zh": "我来播放这段通话。"
+ },
+ {
+  "seg": 49,
+  "start": 184.656,
+  "end": 185.396,
+  "speaker": "Unknown",
+  "en": "It's AI Generate.",
+  "zh": "它是 AI 生成的。"
+ },
+ {
+  "seg": 50,
+  "start": 185.416,
+  "end": 186.136,
+  "speaker": "Unknown",
+  "en": "Let's see if it works.",
+  "zh": "看看它能不能用。"
+ },
+ {
+  "seg": 51,
+  "start": 186.557,
+  "end": 187.837,
+  "speaker": "Unknown",
+  "en": "I need a refund for order 14.",
+  "zh": "我要给订单 14 退款。"
+ },
+ {
+  "seg": 52,
+  "start": 191.108,
+  "end": 191.469,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 53,
+  "start": 191.749,
+  "end": 193.852,
+  "speaker": "Unknown",
+  "en": "I've started a refund for Order 40.",
+  "zh": "我已经为订单 40 开始退款了。"
+ },
+ {
+  "seg": 54,
+  "start": 194.093,
+  "end": 195.234,
+  "speaker": "Unknown",
+  "en": "No, 14.",
+  "zh": "不对，是 14。"
+ },
+ {
+  "seg": 55,
+  "start": 195.475,
+  "end": 196.817,
+  "speaker": "Unknown",
+  "en": "Your refund is confirmed.",
+  "zh": "您的退款已确认。"
+ },
+ {
+  "seg": 56,
+  "start": 197.883,
+  "end": 208.927,
+  "speaker": "Unknown",
+  "en": "So if you notice in the transcript, if you could hear the audio there, the confirmation on the 40 wasn't actually done by the agent.",
+  "zh": "所以如果你注意看这段转写稿，如果你能听到那边的音频，你会发现对 40 的那次确认实际上并不是由智能体完成的。"
+ },
+ {
+  "seg": 57,
+  "start": 208.947,
+  "end": 209.827,
+  "speaker": "Unknown",
+  "en": "It kind of interrupted.",
+  "zh": "它有点被打断了。"
+ },
+ {
+  "seg": 58,
+  "start": 210.588,
+  "end": 215.409,
+  "speaker": "Unknown",
+  "en": "And there was a big latency spike after the user asked for the initial refund.",
+  "zh": "而且在用户提出初始退款请求之后，出现了很大的延迟尖峰。"
+ },
+ {
+  "seg": 59,
+  "start": 216.41,
+  "end": 225.093,
+  "speaker": "Unknown",
+  "en": "So what actually happened was that 2.4 seconds of dead air before the agent actually responded, the agent talking over the caller.",
+  "zh": "所以实际发生的是，智能体真正回应之前有 2.4 秒的死寂，智能体压过了来电者说话。"
+ },
+ {
+  "seg": 60,
+  "start": 226.193,
+  "end": 231.622,
+  "speaker": "Unknown",
+  "en": "14 misheard and obviously the flat robotic tone is not a great look either.",
+  "zh": "14 被听错了，显然那种平淡的机器人语调也不好看。"
+ },
+ {
+  "seg": 61,
+  "start": 231.683,
+  "end": 233.345,
+  "speaker": "Unknown",
+  "en": "So these are all audio specific issues.",
+  "zh": "所以这些都是音频特有的问题。"
+ },
+ {
+  "seg": 62,
+  "start": 233.485,
+  "end": 237.352,
+  "speaker": "Unknown",
+  "en": "If you just read this from an LM output, you would have no idea anything is going on.",
+  "zh": "如果你只是读 LLM 的输出，你完全不会知道发生了任何问题。"
+ },
+ {
+  "seg": 63,
+  "start": 238.825,
+  "end": 244.446,
+  "speaker": "Unknown",
+  "en": "So what you need to do is you need to see the conversation beyond just the transcript.",
+  "zh": "所以你需要做的是，你需要看到超越转写稿之外的对话。"
+ },
+ {
+  "seg": 64,
+  "start": 244.706,
+  "end": 257.769,
+  "speaker": "Unknown",
+  "en": "So that means the audio, the transcript, and the trace all in one place, the session as a whole, so multiple turns from the user back and forth in the same trace view, and then metrics on those.",
+  "zh": "也就是说，音频、转写稿和追踪全都在一个地方，整个会话作为一个整体，也就是同一追踪视图里用户来回的多个轮次，然后再加上针对这些的指标。"
+ },
+ {
+  "seg": 65,
+  "start": 257.829,
+  "end": 259.67,
+  "speaker": "Unknown",
+  "en": "So what was the latency like?",
+  "zh": "那么延迟是什么样的？"
+ },
+ {
+  "seg": 66,
+  "start": 259.69,
+  "end": 261.11,
+  "speaker": "Unknown",
+  "en": "What was the time to first audio like?",
+  "zh": "首个音频时间是什么样的？"
+ },
+ {
+  "seg": 67,
+  "start": 261.41,
+  "end": 264.111,
+  "speaker": "Unknown",
+  "en": "Were there any interruptions, sentiment analysis, et cetera?",
+  "zh": "有没有打断、情感分析，等等？"
+ },
+ {
+  "seg": 68,
+  "start": 264.511,
+  "end": 268.592,
+  "speaker": "Unknown",
+  "en": "And these are some of the features we've just released at the beginning of this month in Arise AX.",
+  "zh": "这些是我们本月初刚刚在 Arise AX 上发布的一些功能。"
+ },
+ {
+  "seg": 69,
+  "start": 270.313,
+  "end": 286.2,
+  "speaker": "Unknown",
+  "en": "And really the point of this is the same workflows that you're running now to help your coding agents, which are pretty complex processes now with harnesses, evals, handoffs, and sub-agents, tool calls, you want to start to bring some of those best practices into your voice agents as well.",
+  "zh": "而这一点的真正意义在于，你现在为了帮助你的编码智能体而运行的那些工作流——如今它们已经是相当复杂的流程了，有测试框架、评估、交接、子智能体、工具调用——你也要开始把其中的一些最佳实践带入你的语音智能体中。"
+ },
+ {
+  "seg": 70,
+  "start": 287.604,
+  "end": 289.425,
+  "speaker": "Unknown",
+  "en": "So first off, you've got to trace it.",
+  "zh": "所以首先，你必须对它做追踪。"
+ },
+ {
+  "seg": 71,
+  "start": 289.685,
+  "end": 291.386,
+  "speaker": "Unknown",
+  "en": "You've got to see each individual span.",
+  "zh": "你必须看到每一个单独的 span。"
+ },
+ {
+  "seg": 72,
+  "start": 292.307,
+  "end": 296.549,
+  "speaker": "Unknown",
+  "en": "You've got to see the live audio and play it in line from your trace.",
+  "zh": "你必须看到实时音频并能在你的追踪里内联播放它。"
+ },
+ {
+  "seg": 73,
+  "start": 296.569,
+  "end": 301.011,
+  "speaker": "Unknown",
+  "en": "It really matters to have all this data in the same place so you can start to debug things.",
+  "zh": "把所有这些数据放在同一个地方真的很重要，这样你才能开始调试问题。"
+ },
+ {
+  "seg": 74,
+  "start": 301.071,
+  "end": 302.392,
+  "speaker": "Unknown",
+  "en": "You want to see inputs and outputs.",
+  "zh": "你想看到输入和输出。"
+ },
+ {
+  "seg": 75,
+  "start": 302.412,
+  "end": 311.217,
+  "speaker": "Unknown",
+  "en": "You want to see the transcript, obviously, but you also want to see specific metrics, like I mentioned, like time to first token, audio token costs, interruption events.",
+  "zh": "你显然想看到转写稿，但你也想看到具体的指标，就像我提到的，比如首个 token 时间、音频 token 成本、打断事件。"
+ },
+ {
+  "seg": 76,
+  "start": 311.737,
+  "end": 314.098,
+  "speaker": "Unknown",
+  "en": "And then finally, you want to see linkage between these.",
+  "zh": "然后最后，你想看到这些之间的关联。"
+ },
+ {
+  "seg": 77,
+  "start": 314.118,
+  "end": 315.558,
+  "speaker": "Unknown",
+  "en": "You don't want to just see these as a list.",
+  "zh": "你不想只是把它们当成一个列表来看。"
+ },
+ {
+  "seg": 78,
+  "start": 315.958,
+  "end": 318.579,
+  "speaker": "Unknown",
+  "en": "You actually want to see some of the linkage between things, right?",
+  "zh": "你实际上想看到事物之间的某些关联，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 320.58,
+  "end": 335.204,
+  "speaker": "Unknown",
+  "en": "So Arise gives you that one trace view where you can actually play the audio inline, view the transcript, view latency inline, see the conversation turn between the user and the assistant, and see your evals inline as well.",
+  "zh": "所以 Arise 给了你那个单一追踪视图，你可以在其中实际内联播放音频、查看转写稿、内联查看延迟、查看用户和助手之间的对话轮次，还能内联查看你的评估。"
+ },
+ {
+  "seg": 80,
+  "start": 335.684,
+  "end": 338.005,
+  "speaker": "Unknown",
+  "en": "And this gives you a really, really powerful tool to debug.",
+  "zh": "这给了你一个非常非常强大的调试工具。"
+ },
+ {
+  "seg": 81,
+  "start": 340.432,
+  "end": 346.916,
+  "speaker": "Unknown",
+  "en": "Under the hood, what this looks like is we've actually mapped the semantic conventions for audio onto OpenInference.",
+  "zh": "在底层，这看起来是我们在实际上把音频的语义约定映射到了 OpenInference 上。"
+ },
+ {
+  "seg": 82,
+  "start": 347.376,
+  "end": 351.559,
+  "speaker": "Unknown",
+  "en": "So if you guys aren't familiar, Arise was first to market with OpenInference in 2023.",
+  "zh": "如果你们不熟悉的话，Arise 是 2023 年第一个推出 OpenInference 的公司。"
+ },
+ {
+  "seg": 83,
+  "start": 352.399,
+  "end": 362.666,
+  "speaker": "Unknown",
+  "en": "It is the first set of semantic conventions that is completely open source that maps kind of what is happening with GenAI to an OTEL-compliant set of conventions.",
+  "zh": "它是第一套完全开源的语义约定，把 GenAI 正在发生的事情映射到一套符合 OTEL 的约定上。"
+ },
+ {
+  "seg": 84,
+  "start": 363.506,
+  "end": 370.928,
+  "speaker": "Unknown",
+  "en": "And I say this to say it's open source, it's free, and it maps pretty much any of the major foundational models or model providers.",
+  "zh": "我说这个是想说它是开源的、免费的，而且它几乎映射了所有主要的基础模型或模型提供商。"
+ },
+ {
+  "seg": 85,
+  "start": 371.529,
+  "end": 373.889,
+  "speaker": "Unknown",
+  "en": "You guys can go rip this and send it to a Grafana backend.",
+  "zh": "你们可以直接拿去用，把它发到 Grafana 后端。"
+ },
+ {
+  "seg": 86,
+  "start": 374.329,
+  "end": 375.33,
+  "speaker": "Unknown",
+  "en": "Completely free to reuse.",
+  "zh": "完全免费复用。"
+ },
+ {
+  "seg": 87,
+  "start": 375.75,
+  "end": 381.992,
+  "speaker": "Unknown",
+  "en": "Not pitching the product here, just explaining some of the real engineering work it takes to map things like WebSocket events.",
+  "zh": "我不是在这里推销产品，只是在解释这背后需要做的一些真正的工程工作，比如把 WebSocket 事件这类东西映射起来。"
+ },
+ {
+  "seg": 88,
+  "start": 382.592,
+  "end": 385.895,
+  "speaker": "Unknown",
+  "en": "to an easily understandable set of semantic inventions.",
+  "zh": "映射成一套易于理解的语义约定。"
+ },
+ {
+  "seg": 89,
+  "start": 385.915,
+  "end": 395.544,
+  "speaker": "Unknown",
+  "en": "So you can start to see things like the session lifecycle, the audio input, the transcript, conversation items, the output, and then the response lifecycle and token counts as well.",
+  "zh": "这样你就可以开始看到诸如会话生命周期、音频输入、转写稿、对话条目、输出，以及响应生命周期和 token 计数之类的东西。"
+ },
+ {
+  "seg": 90,
+  "start": 396.365,
+  "end": 398.727,
+  "speaker": "Unknown",
+  "en": "And so, yeah, real engineering work went behind this.",
+  "zh": "所以，是的，这背后付出了真正的工程努力。"
+ },
+ {
+  "seg": 91,
+  "start": 398.807,
+  "end": 399.628,
+  "speaker": "Unknown",
+  "en": "It's all open source.",
+  "zh": "它全部是开源的。"
+ },
+ {
+  "seg": 92,
+  "start": 400.348,
+  "end": 402.07,
+  "speaker": "Unknown",
+  "en": "We've mapped all the foundational models for you.",
+  "zh": "我们已经为你映射好了所有的基础模型。"
+ },
+ {
+  "seg": 93,
+  "start": 403.957,
+  "end": 411.541,
+  "speaker": "Unknown",
+  "en": "What this allows you to do is you can now be provider agnostic and have one queryable schema.",
+  "zh": "这让你能做到的是，你现在可以做到提供商无关，并拥有一套可查询的 schema。"
+ },
+ {
+  "seg": 94,
+  "start": 411.601,
+  "end": 424.208,
+  "speaker": "Unknown",
+  "en": "So those semantic inventions normalize these disparate model providers, whether it's OpenAI, real time, or Google with Gemini Live into a set of schema that you can query.",
+  "zh": "所以这些语义约定把这些各不相同的模型提供商——无论是 OpenAI 的 real time 还是 Google 的 Gemini Live——规范化为一套你可以查询的 schema。"
+ },
+ {
+  "seg": 95,
+  "start": 424.349,
+  "end": 431.433,
+  "speaker": "Unknown",
+  "en": "And if you've ever tried to debug at 2 a.m. off of a customer call, you know how important it is to be able to query across thousands",
+  "zh": "而如果你曾经在凌晨 2 点根据一通客户电话进行过调试，你就知道能够在数千"
+ },
+ {
+  "seg": 96,
+  "start": 432.673,
+  "end": 435.154,
+  "speaker": "Unknown",
+  "en": "Millions, even billions of traces that are coming in.",
+  "zh": "甚至数百万、数十亿条进来的追踪中进行查询有多重要。"
+ },
+ {
+  "seg": 97,
+  "start": 435.474,
+  "end": 440.856,
+  "speaker": "Unknown",
+  "en": "You know how important it is to actually get to the part that you need to see, to filter that, to sort by that.",
+  "zh": "你知道真正找到你需要看的那部分、对它进行过滤、按它排序有多重要。"
+ },
+ {
+  "seg": 98,
+  "start": 441.196,
+  "end": 443.337,
+  "speaker": "Unknown",
+  "en": "All that becomes incredibly important.",
+  "zh": "所有这些都变得极其重要。"
+ },
+ {
+  "seg": 99,
+  "start": 443.677,
+  "end": 450.16,
+  "speaker": "Unknown",
+  "en": "And as new models drop, you also want to be able to swap in new providers and make sure that your systems are still functioning.",
+  "zh": "而且随着新模型发布，你也要能够换入新的提供商，并确保你的系统仍在正常运行。"
+ },
+ {
+  "seg": 100,
+  "start": 451.4,
+  "end": 453.421,
+  "speaker": "Unknown",
+  "en": "So no bespoke parsing per vendor.",
+  "zh": "所以不需要针对每个厂商做定制解析。"
+ },
+ {
+  "seg": 101,
+  "start": 453.961,
+  "end": 455.262,
+  "speaker": "Unknown",
+  "en": "It's one auto instrumenter.",
+  "zh": "它是一个自动插桩器。"
+ },
+ {
+  "seg": 102,
+  "start": 455.722,
+  "end": 457.783,
+  "speaker": "Unknown",
+  "en": "It captures every single thing that I just mentioned.",
+  "zh": "它能捕获我刚才提到的每一个细节。"
+ },
+ {
+  "seg": 103,
+  "start": 460.815,
+  "end": 463.336,
+  "speaker": "Unknown",
+  "en": "And then finally, you want to be able to replay the whole conversation.",
+  "zh": "最后，你要能够重放整个对话。"
+ },
+ {
+  "seg": 104,
+  "start": 463.356,
+  "end": 465.676,
+  "speaker": "Unknown",
+  "en": "So I played the audio for you guys in the beginning of this.",
+  "zh": "所以我在开头给大家播放了音频。"
+ },
+ {
+  "seg": 105,
+  "start": 465.836,
+  "end": 477.5,
+  "speaker": "Unknown",
+  "en": "But the session ID is essentially what stitches every turn into the timeline, the full call with every WebSocket event that's submitted, with some tags on whether it's the user or the assistant.",
+  "zh": "但会话 ID 本质上是把每一轮拼接进时间线的东西，也就是完整通话，包含每个被提交的 WebSocket 事件，并带有标记说明是用户还是助手。"
+ },
+ {
+  "seg": 106,
+  "start": 477.78,
+  "end": 480.981,
+  "speaker": "Unknown",
+  "en": "You can actually play the audio in the UI directly from the trace.",
+  "zh": "你可以直接在 UI 中从 trace 里播放音频。"
+ },
+ {
+  "seg": 107,
+  "start": 481.661,
+  "end": 486.062,
+  "speaker": "Unknown",
+  "en": "No external tooling, no exports, just play it straight from the trace.",
+  "zh": "不需要外部工具，不需要导出，直接从 trace 里播放。"
+ },
+ {
+  "seg": 108,
+  "start": 486.762,
+  "end": 488.543,
+  "speaker": "Unknown",
+  "en": "That allows you to see who spoke when,",
+  "zh": "这让你能看到谁在什么时候说话，"
+ },
+ {
+  "seg": 109,
+  "start": 489.517,
+  "end": 496.679,
+  "speaker": "Unknown",
+  "en": "When the agent paused, where it got cut off, where the user got cut off, what tools the agent actually went and called when it did this.",
+  "zh": "智能体什么时候停顿了，它在哪里被打断，用户在哪里被打断，智能体在做这件事时实际调用了哪些工具。"
+ },
+ {
+  "seg": 110,
+  "start": 497.359,
+  "end": 501.961,
+  "speaker": "Unknown",
+  "en": "And so this really starts the paradigm shift, which is you're not just reading transcripts.",
+  "zh": "这才真正开始了范式转变，也就是你不只是在读转写文本。"
+ },
+ {
+  "seg": 111,
+  "start": 501.981,
+  "end": 503.261,
+  "speaker": "Unknown",
+  "en": "You're listening to audio.",
+  "zh": "你在听音频。"
+ },
+ {
+  "seg": 112,
+  "start": 503.301,
+  "end": 507.623,
+  "speaker": "Unknown",
+  "en": "You're really understanding the failure cases from there with the trace open right next to it.",
+  "zh": "你在旁边开着 trace 的情况下，真正理解失败案例。"
+ },
+ {
+  "seg": 113,
+  "start": 508.863,
+  "end": 513.928,
+  "speaker": "Unknown",
+  "en": "And I'll just show you a quick sneak preview of what this looks like in Arise.",
+  "zh": "我来快速给你们预览一下这在 Arise 里是什么样子。"
+ },
+ {
+  "seg": 114,
+  "start": 514.808,
+  "end": 521.474,
+  "speaker": "Unknown",
+  "en": "As you can see here, this is an example of an agent that can call to get a specific weather event.",
+  "zh": "如你所见，这是一个智能体的例子，它可以调用获取特定天气事件的工具。"
+ },
+ {
+  "seg": 115,
+  "start": 521.954,
+  "end": 526.058,
+  "speaker": "Unknown",
+  "en": "You can actually see when the agent kicks off that tool call in line with the rest of the audio.",
+  "zh": "你可以实际看到智能体何时启动那个工具调用，并且与音频的其余部分对齐显示。"
+ },
+ {
+  "seg": 116,
+  "start": 526.698,
+  "end": 530.842,
+  "speaker": "Unknown",
+  "en": "And this allows you to debug failures with that tool call while you're looking at the session audio.",
+  "zh": "这让你能在查看会话音频的同时调试那个工具调用的失败。"
+ },
+ {
+  "seg": 117,
+  "start": 530.902,
+  "end": 538.777,
+  "speaker": "Unknown",
+  "en": "So you're no longer looking at disparate events from distant systems, but you're actually looking at the entire trace tree for everything that happened in that session.",
+  "zh": "所以你不再是查看来自相距遥远的系统的零散事件，而是查看那个会话中发生的一切的完整 trace 树。"
+ },
+ {
+  "seg": 118,
+  "start": 542.093,
+  "end": 544.555,
+  "speaker": "Unknown",
+  "en": "That real session, few issues that we saw, right?",
+  "zh": "那个真实会话，我们看到了几个问题，对吧？"
+ },
+ {
+  "seg": 119,
+  "start": 544.615,
+  "end": 548.377,
+  "speaker": "Unknown",
+  "en": "Turn one, hi, I need help with the order, a refund for order 14.",
+  "zh": "第一轮，你好，我需要帮助处理订单，订单 14 的退款。"
+ },
+ {
+  "seg": 120,
+  "start": 548.757,
+  "end": 555.302,
+  "speaker": "Unknown",
+  "en": "We saw kind of that time to first audio of 2.4 seconds of dead air, which really impacts user experience.",
+  "zh": "我们看到首段音频时间大约有 2.4 秒的空白静默，这严重影响用户体验。"
+ },
+ {
+  "seg": 121,
+  "start": 555.782,
+  "end": 564.648,
+  "speaker": "Unknown",
+  "en": "We saw in turn three that the agent actually spoke over the caller's interaction, which is not a good look for any assistant, especially one that's trying to be helpful.",
+  "zh": "我们在第三轮看到智能体实际上打断了来电者的交互，这对任何助手来说都不是好事，尤其是对一个试图提供帮助的助手。"
+ },
+ {
+  "seg": 122,
+  "start": 565.488,
+  "end": 577.214,
+  "speaker": "Unknown",
+  "en": "And then ultimately, if you look at the tool call, you'll be able to also understand that the refund was processed for order 40 and not 14, which is a huge, huge mistake.",
+  "zh": "最后，如果你看那个工具调用，你还能理解到退款是针对订单 40 处理的，而不是 14，这是一个巨大的、巨大的错误。"
+ },
+ {
+  "seg": 123,
+  "start": 577.394,
+  "end": 581.056,
+  "speaker": "Unknown",
+  "en": "And actually seeing that live in the tool call is really, really important.",
+  "zh": "在工具调用中实时看到这一点真的非常重要。"
+ },
+ {
+  "seg": 124,
+  "start": 581.576,
+  "end": 584.478,
+  "speaker": "Unknown",
+  "en": "And every single one of these things would be invisible in a text log.",
+  "zh": "而且这些事情中的每一件在文本日志中都是不可见的。"
+ },
+ {
+  "seg": 125,
+  "start": 584.978,
+  "end": 592.062,
+  "speaker": "Unknown",
+  "en": "But with the session view, you can actually scrub the audio and find those failure surfaces within the tools, within what the agent is doing as well.",
+  "zh": "但有了会话视图，你实际上可以拖动音频，在工具内部、在智能体正在做的事情中找到那些失败面。"
+ },
+ {
+  "seg": 126,
+  "start": 594.195,
+  "end": 598.457,
+  "speaker": "Unknown",
+  "en": "The next thing I want to talk about real quick is evals that are specific to audio.",
+  "zh": "接下来我想快速谈一下针对音频的 evals。"
+ },
+ {
+  "seg": 127,
+  "start": 598.477,
+  "end": 599.577,
+  "speaker": "Unknown",
+  "en": "So I kind of mentioned a few of them.",
+  "zh": "我已经提到了其中几个。"
+ },
+ {
+  "seg": 128,
+  "start": 600.538,
+  "end": 603.179,
+  "speaker": "Unknown",
+  "en": "I think tonality and sentiment analysis is really important.",
+  "zh": "我认为语调和情感分析非常重要。"
+ },
+ {
+  "seg": 129,
+  "start": 603.719,
+  "end": 608.901,
+  "speaker": "Unknown",
+  "en": "You want to be able to classify user emotion based on the actual audio.",
+  "zh": "你要能够基于实际音频对用户情绪进行分类。"
+ },
+ {
+  "seg": 130,
+  "start": 608.981,
+  "end": 610.302,
+  "speaker": "Unknown",
+  "en": "Transcript can't do this for you.",
+  "zh": "转写文本做不到这一点。"
+ },
+ {
+  "seg": 131,
+  "start": 610.502,
+  "end": 616.024,
+  "speaker": "Unknown",
+  "en": "It's very, very easy to look at a transcript and see that it looks fine.",
+  "zh": "看转写文本非常容易觉得一切正常。"
+ },
+ {
+  "seg": 132,
+  "start": 616.384,
+  "end": 617.624,
+  "speaker": "Unknown",
+  "en": "But tonality really matters.",
+  "zh": "但语调真的很重要。"
+ },
+ {
+  "seg": 133,
+  "start": 618.865,
+  "end": 621.066,
+  "speaker": "Unknown",
+  "en": "Positive, neutral, negative, not just a guess.",
+  "zh": "积极、中性、消极，而不只是猜测。"
+ },
+ {
+  "seg": 134,
+  "start": 621.866,
+  "end": 625.368,
+  "speaker": "Unknown",
+  "en": "Latency is really, really important in audio, and it's important in a few use cases.",
+  "zh": "延迟在音频中真的非常重要，而且它在几个用例中都很重要。"
+ },
+ {
+  "seg": 135,
+  "start": 625.928,
+  "end": 626.789,
+  "speaker": "Unknown",
+  "en": "Models are getting better.",
+  "zh": "模型正在变得更好。"
+ },
+ {
+  "seg": 136,
+  "start": 626.889,
+  "end": 629.19,
+  "speaker": "Unknown",
+  "en": "There's, you know, JEPA architectures, et cetera.",
+  "zh": "有，你知道的，JEPA 架构等等。"
+ },
+ {
+  "seg": 137,
+  "start": 629.57,
+  "end": 633.893,
+  "speaker": "Unknown",
+  "en": "But time to first audio SLAs are still really important for customer service use cases.",
+  "zh": "但首段音频时间 SLA 对于客服用例来说仍然非常重要。"
+ },
+ {
+  "seg": 138,
+  "start": 635.094,
+  "end": 637.235,
+  "speaker": "Unknown",
+  "en": "And you want to be able to flag things that are breaking that.",
+  "zh": "你要能够标记出那些打破这个指标的情况。"
+ },
+ {
+  "seg": 139,
+  "start": 638.314,
+  "end": 644.595,
+  "speaker": "Unknown",
+  "en": "You also want to flag things like I mentioned, like interruptions and accuracy, transcription drift, and the task success.",
+  "zh": "你还想标记我提到过的那些情况，比如打断和准确性、转写漂移，以及任务成功率。"
+ },
+ {
+  "seg": 140,
+  "start": 646.276,
+  "end": 652.397,
+  "speaker": "Unknown",
+  "en": "And you want to be able to run these evals directly against the audio with evals that are based on audio models.",
+  "zh": "你要能够直接针对音频运行这些 evals，使用基于音频模型的 evals。"
+ },
+ {
+  "seg": 141,
+  "start": 653.378,
+  "end": 656.418,
+  "speaker": "Unknown",
+  "en": "So LM as a judge evals on a transcript are only so good.",
+  "zh": "所以基于转写文本的 LM 作为裁判 evals 也只有那么好。"
+ },
+ {
+  "seg": 142,
+  "start": 656.778,
+  "end": 659.179,
+  "speaker": "Unknown",
+  "en": "But actually, evaling the underlying audio is really important.",
+  "zh": "但实际上，对底层音频进行 eval 真的很重要。"
+ },
+ {
+  "seg": 143,
+  "start": 659.219,
+  "end": 664.02,
+  "speaker": "Unknown",
+  "en": "And so we have kind of the tooling available in Arise to be able to do that.",
+  "zh": "我们在 Arise 中有相应的工具可以做到这一点。"
+ },
+ {
+  "seg": 144,
+  "start": 664.06,
+  "end": 668.241,
+  "speaker": "Unknown",
+  "en": "And we're supporting all the major audio platforms as well as they come out with new models.",
+  "zh": "我们也在支持所有主要的音频平台，随着它们推出新模型。"
+ },
+ {
+  "seg": 145,
+  "start": 669.422,
+  "end": 672.104,
+  "speaker": "Unknown",
+  "en": "So again, evals specific to audio really matter.",
+  "zh": "所以再说一次，针对音频的 evals 真的很重要。"
+ },
+ {
+  "seg": 146,
+  "start": 672.264,
+  "end": 675.146,
+  "speaker": "Unknown",
+  "en": "They're not just transcription-based evals.",
+  "zh": "它们不只是基于转写文本的 evals。"
+ },
+ {
+  "seg": 147,
+  "start": 675.386,
+  "end": 688.796,
+  "speaker": "Unknown",
+  "en": "And as you start to scale up, your LM as a judge evals or even move to agent as a judge that are doing complex tasks like, for example, doing RBAC checks and making sure the agent actually accessed the system it was supposed to have access to.",
+  "zh": "而且当你开始扩展你的 LM 作为裁判 evals，甚至转向智能体作为裁判来执行复杂任务时，比如进行 RBAC 检查，确保智能体确实访问了它本应访问的系统，"
+ },
+ {
+  "seg": 148,
+  "start": 689.997,
+  "end": 693.86,
+  "speaker": "Unknown",
+  "en": "Being able to run these agent as a judge workflows in Arise starts to become really important.",
+  "zh": "能够在 Arise 中运行这些智能体作为裁判的工作流开始变得非常重要。"
+ },
+ {
+  "seg": 149,
+  "start": 694.24,
+  "end": 696.102,
+  "speaker": "Unknown",
+  "en": "And we're kind of seeing the industry move away from",
+  "zh": "而且我们正看到行业逐渐远离"
+ },
+ {
+  "seg": 150,
+  "start": 696.582,
+  "end": 708.572,
+  "speaker": "Unknown",
+  "en": "You know, just an LLM as a judge analyzing a transcript or even analyzing audio, but actually accessing tools, accessing third-party systems, and hydrating some of that evaluation information inside of it.",
+  "zh": "你知道,只是把一个 LLM 当作评判者来分析转写文本,甚至分析音频,而是真正地访问工具、访问第三方系统,并在其中补充一些评估信息。"
+ },
+ {
+  "seg": 151,
+  "start": 710.533,
+  "end": 713.996,
+  "speaker": "Unknown",
+  "en": "So really easy to get started with evals in Arise through skills.",
+  "zh": "所以在 Arise 中通过 skills 上手评估真的非常容易。"
+ },
+ {
+  "seg": 152,
+  "start": 714.837,
+  "end": 725.265,
+  "speaker": "Unknown",
+  "en": "It is literally as simple as, hey Claude, create an audio eval for me for sentiment analysis using GPT audio, and catch frustrated user tone on those audio spans.",
+  "zh": "它真的就是简单到,嘿 Claude,帮我用 GPT audio 创建一个音频评估,针对那些音频片段捕捉用户沮丧的语气。"
+ },
+ {
+  "seg": 153,
+  "start": 725.805,
+  "end": 727.847,
+  "speaker": "Unknown",
+  "en": "And Arise will kind of take care of all the rest for you.",
+  "zh": "然后 Arise 会替你打理剩下的所有事情。"
+ },
+ {
+  "seg": 154,
+  "start": 728.347,
+  "end": 742.258,
+  "speaker": "Unknown",
+  "en": "The CLI under the hood is able to query spans, do some trace analysis, filter for the spans that are audio specific, actually create that eval, deploy it, and put it against traces and spans in your actual system.",
+  "zh": "底层的 CLI 能够查询片段、做一些追踪分析、筛选出音频专属的片段,真正创建那个评估、部署它,并把它应用到你的实际系统中的追踪和片段上。"
+ },
+ {
+  "seg": 155,
+  "start": 742.658,
+  "end": 744.18,
+  "speaker": "Unknown",
+  "en": "And this is part of why Arise exists.",
+  "zh": "而这也是 Arise 存在的部分原因。"
+ },
+ {
+  "seg": 156,
+  "start": 744.36,
+  "end": 746.461,
+  "speaker": "Unknown",
+  "en": "Yes, of course, you could do this yourself.",
+  "zh": "是的,当然,你可以自己做这些。"
+ },
+ {
+  "seg": 157,
+  "start": 746.561,
+  "end": 749.284,
+  "speaker": "Unknown",
+  "en": "But when you're trying to query billions of spans,",
+  "zh": "但当你试图查询数十亿个片段,"
+ },
+ {
+  "seg": 158,
+  "start": 750.124,
+  "end": 753.345,
+  "speaker": "Unknown",
+  "en": "With sub-second query latency, it becomes really hard.",
+  "zh": "还要亚秒级的查询延迟时,这就变得非常困难。"
+ },
+ {
+  "seg": 159,
+  "start": 753.665,
+  "end": 756.566,
+  "speaker": "Unknown",
+  "en": "And also deploying these live evals as they come in.",
+  "zh": "还有在实时评估到来时部署它们。"
+ },
+ {
+  "seg": 160,
+  "start": 756.926,
+  "end": 761.908,
+  "speaker": "Unknown",
+  "en": "So you're scoring them while users are actually interacting with your platform is really important.",
+  "zh": "也就是在用户真正与你的平台交互的同时对他们进行评分,这是非常重要的。"
+ },
+ {
+  "seg": 161,
+  "start": 762.368,
+  "end": 772.771,
+  "speaker": "Unknown",
+  "en": "And then the final thing I'll mention is you also want these evals on the spans themselves, because then you start to be able to do really complex querying and filtering across your data.",
+  "zh": "然后我要提的最后一件事是,你还需要这些评估直接作用在片段本身上,因为这样你才能开始对数据做非常复杂的查询和筛选。"
+ },
+ {
+  "seg": 162,
+  "start": 773.151,
+  "end": 775.852,
+  "speaker": "Unknown",
+  "en": "So you're not just looking at a failure and looking up an external system.",
+  "zh": "这样你就不是在看到一个失败之后再去查找一个外部系统。"
+ },
+ {
+  "seg": 163,
+  "start": 776.172,
+  "end": 779.553,
+  "speaker": "Unknown",
+  "en": "You actually have the eval scores in line with the exact audio that you're looking at.",
+  "zh": "你实际上把评估分数与正在查看的那段音频直接对应起来了。"
+ },
+ {
+  "seg": 164,
+  "start": 781.48,
+  "end": 784.062,
+  "speaker": "Unknown",
+  "en": "And that's why some of this is really powerful in Arise.",
+  "zh": "这就是为什么其中一些功能在 Arise 中非常强大。"
+ },
+ {
+  "seg": 165,
+  "start": 784.563,
+  "end": 794.37,
+  "speaker": "Unknown",
+  "en": "Being able to see those eval outputs directly on the spans that are relevant helps you kind of get a full understanding of what is going wrong with the user interaction.",
+  "zh": "能够直接在相关片段上看到那些评估输出,可以帮助你全面理解用户交互到底出了什么问题。"
+ },
+ {
+  "seg": 166,
+  "start": 795.251,
+  "end": 796.912,
+  "speaker": "Unknown",
+  "en": "And then you can kick off workflows from that.",
+  "zh": "然后你可以从中启动工作流。"
+ },
+ {
+  "seg": 167,
+  "start": 796.952,
+  "end": 806.439,
+  "speaker": "Unknown",
+  "en": "So evals and monitors attached to those evals can kick off investigation agents that automatically start to dive into, you know, what tool calls am I misrepresenting?",
+  "zh": "所以评估以及挂载在这些评估上的监控器可以启动调查智能体,自动开始深入研究,你知道的,我在哪些工具调用上表现失真?"
+ },
+ {
+  "seg": 168,
+  "start": 807.7,
+  "end": 809.542,
+  "speaker": "Unknown",
+  "en": "Where is my agent failing?",
+  "zh": "我的智能体在哪里失败了?"
+ },
+ {
+  "seg": 169,
+  "start": 809.662,
+  "end": 814.906,
+  "speaker": "Unknown",
+  "en": "Is it capturing maybe a product surface area that I hadn't coded for?",
+  "zh": "它是否捕捉到了也许是我没有编码过的某个产品面?"
+ },
+ {
+  "seg": 170,
+  "start": 815.006,
+  "end": 817.449,
+  "speaker": "Unknown",
+  "en": "Is there a new edge case I need to code for in my agent?",
+  "zh": "我的智能体里是否有需要编码的新边缘案例?"
+ },
+ {
+  "seg": 171,
+  "start": 817.809,
+  "end": 819.39,
+  "speaker": "Unknown",
+  "en": "Maybe I need to expose a new tool.",
+  "zh": "也许我需要暴露一个新工具。"
+ },
+ {
+  "seg": 172,
+  "start": 819.811,
+  "end": 825.916,
+  "speaker": "Unknown",
+  "en": "All those become possible once you have the results directly on the spans.",
+  "zh": "一旦你把结果直接放在片段上,这一切都变得可能。"
+ },
+ {
+  "seg": 173,
+  "start": 827.405,
+  "end": 831.166,
+  "speaker": "Unknown",
+  "en": "And so I'll just kind of flag and end with this thought.",
+  "zh": "所以我只想指出并以这个想法作为结尾。"
+ },
+ {
+  "seg": 174,
+  "start": 831.526,
+  "end": 837.208,
+  "speaker": "Unknown",
+  "en": "The same loop that you're doing to improve some of these tools like coding agents, we now need to do for voice.",
+  "zh": "你为改进某些这类工具(比如编程智能体)所做的同一个循环,现在我们需要为语音来做。"
+ },
+ {
+  "seg": 175,
+  "start": 837.668,
+  "end": 841.47,
+  "speaker": "Unknown",
+  "en": "And the loop really follows observe, evaluate, and improve.",
+  "zh": "这个循环基本上遵循观察、评估和改进。"
+ },
+ {
+  "seg": 176,
+  "start": 842.01,
+  "end": 848.792,
+  "speaker": "Unknown",
+  "en": "And then from that loop, you can start to get some really, really cool continuous improvement loops within the Arise platform.",
+  "zh": "然后从这个循环出发,你可以在 Arise 平台内开始获得一些非常非常酷的持续改进循环。"
+ },
+ {
+  "seg": 177,
+  "start": 849.132,
+  "end": 851.854,
+  "speaker": "Unknown",
+  "en": "Or within another platform if you choose to use it as well.",
+  "zh": "或者如果你选择使用其他平台,也可以在那个平台内进行。"
+ },
+ {
+  "seg": 178,
+  "start": 852.214,
+  "end": 868.423,
+  "speaker": "Unknown",
+  "en": "And the idea is once you observe and you have the data available to you, then you evaluate and you have the scores in line with your observations, then you can start to kick off fixes, whether they're fixes that you make or whether they're fixes that an agent is automatically making on behalf of you.",
+  "zh": "这个理念是,一旦你完成了观察并且数据可用,然后你进行评估并且评分与你的观察对应,那么你就可以开始启动修复,无论是你自己做的修复,还是由一个智能体代表你自动完成的修复。"
+ },
+ {
+  "seg": 179,
+  "start": 868.963,
+  "end": 871.405,
+  "speaker": "Unknown",
+  "en": "And then you can start to verify and validate those fixes.",
+  "zh": "然后你就可以开始验证和校验这些修复。"
+ },
+ {
+  "seg": 180,
+  "start": 871.825,
+  "end": 874.086,
+  "speaker": "Unknown",
+  "en": "So we just released agent experiments as well in Arise.",
+  "zh": "所以我们刚刚也在 Arise 中发布了智能体实验(agent experiments)。"
+ },
+ {
+  "seg": 181,
+  "start": 874.767,
+  "end": 878.229,
+  "speaker": "Unknown",
+  "en": "Agent experiments, you can think of it kind of like Postman with tracing.",
+  "zh": "智能体实验,你可以把它想象成带追踪功能的 Postman。"
+ },
+ {
+  "seg": 182,
+  "start": 878.889,
+  "end": 883.431,
+  "speaker": "Unknown",
+  "en": "So imagine a world where you have audio streaming in from your users.",
+  "zh": "想象这样一个世界:音频从你的用户那里流入。"
+ },
+ {
+  "seg": 183,
+  "start": 883.751,
+  "end": 884.811,
+  "speaker": "Unknown",
+  "en": "It's automatically traced.",
+  "zh": "它被自动追踪。"
+ },
+ {
+  "seg": 184,
+  "start": 885.252,
+  "end": 889.393,
+  "speaker": "Unknown",
+  "en": "You have live evaluations in the platform that are automatically scoring those interactions.",
+  "zh": "你在平台中有实时评估,会自动为这些交互评分。"
+ },
+ {
+  "seg": 185,
+  "start": 889.874,
+  "end": 907.361,
+  "speaker": "Unknown",
+  "en": "And then you have SRE agents, so not an actual engineer that you hire, but an SRE agent that's looking through the traces, understanding the failure modes, hypothesizing a fix, and then actually standing up a fix for you in dev, replaying those failed traces for you against that fixed endpoint.",
+  "zh": "然后你有 SRE 智能体,不是你雇用的真正工程师,而是一个 SRE 智能体,它查看追踪、理解失败模式、提出修复假设,然后真正在开发环境中为你搭建一个修复方案,把那些失败的追踪针对那个已修复的端点重放。"
+ },
+ {
+  "seg": 186,
+  "start": 908.181,
+  "end": 911.523,
+  "speaker": "Unknown",
+  "en": "Tracing that to validate that the latency actually decreases.",
+  "zh": "对其进行追踪,以验证延迟确实下降了。"
+ },
+ {
+  "seg": 187,
+  "start": 912.063,
+  "end": 913.164,
+  "speaker": "Unknown",
+  "en": "And you wake up in the morning.",
+  "zh": "然后你早上醒来。"
+ },
+ {
+  "seg": 188,
+  "start": 913.684,
+  "end": 914.564,
+  "speaker": "Unknown",
+  "en": "You look at a PR.",
+  "zh": "你看到一个 PR。"
+ },
+ {
+  "seg": 189,
+  "start": 915.125,
+  "end": 916.866,
+  "speaker": "Unknown",
+  "en": "The PR has a description of a problem.",
+  "zh": "这个 PR 里有对一个问题的描述。"
+ },
+ {
+  "seg": 190,
+  "start": 917.006,
+  "end": 919.587,
+  "speaker": "Unknown",
+  "en": "Hey, I found out why the latency was high.",
+  "zh": "嘿,我查明了延迟为什么高。"
+ },
+ {
+  "seg": 191,
+  "start": 919.927,
+  "end": 922.509,
+  "speaker": "Unknown",
+  "en": "Turns out we were not truncating our tool results.",
+  "zh": "结果发现我们没有对工具结果做截断。"
+ },
+ {
+  "seg": 192,
+  "start": 922.929,
+  "end": 925.33,
+  "speaker": "Unknown",
+  "en": "And so we were passing in way too much information to the agent.",
+  "zh": "所以我们传给智能体的信息太多了。"
+ },
+ {
+  "seg": 193,
+  "start": 925.75,
+  "end": 926.871,
+  "speaker": "Unknown",
+  "en": "Context got overloaded.",
+  "zh": "上下文过载了。"
+ },
+ {
+  "seg": 194,
+  "start": 927.391,
+  "end": 929.092,
+  "speaker": "Unknown",
+  "en": "I introduced the truncation algorithm.",
+  "zh": "我引入了截断算法。"
+ },
+ {
+  "seg": 195,
+  "start": 929.552,
+  "end": 930.053,
+  "speaker": "Unknown",
+  "en": "I shipped it.",
+  "zh": "我把它发布上线了。"
+ },
+ {
+  "seg": 196,
+  "start": 930.353,
+  "end": 931.974,
+  "speaker": "Unknown",
+  "en": "I actually stood it up in dev.",
+  "zh": "我实际上在开发环境中把它搭建了起来。"
+ },
+ {
+  "seg": 197,
+  "start": 932.874,
+  "end": 934.695,
+  "speaker": "Unknown",
+  "en": "I tested against the traces that failed.",
+  "zh": "我针对那些失败的追踪做了测试。"
+ },
+ {
+  "seg": 198,
+  "start": 935.095,
+  "end": 936.076,
+  "speaker": "Unknown",
+  "en": "Here's a report card.",
+  "zh": "这是一份成绩单。"
+ },
+ {
+  "seg": 199,
+  "start": 936.616,
+  "end": 937.977,
+  "speaker": "Unknown",
+  "en": "Here's how latency decreased.",
+  "zh": "这是延迟下降的情况。"
+ },
+ {
+  "seg": 200,
+  "start": 938.457,
+  "end": 942.98,
+  "speaker": "Unknown",
+  "en": "And you wake up in the morning and all this is ready for you and you just click approve or deny on the PR.",
+  "zh": "当你早上醒来,所有这些都已为你准备好,你只需在 PR 上点击批准或拒绝。"
+ },
+ {
+  "seg": 201,
+  "start": 943.48,
+  "end": 952.325,
+  "speaker": "Unknown",
+  "en": "That is the future that I think we want to see at Arise where self-healing software and continuous improvement are realities for everyone who's building agents.",
+  "zh": "这就是我认为我们想在 Arise 看到的未来,在那里自愈软件和持续改进对每一个构建智能体的人都成为现实。"
+ },
+ {
+  "seg": 202,
+  "start": 952.845,
+  "end": 956.027,
+  "speaker": "Unknown",
+  "en": "And I think making that possible for voice is really, really important.",
+  "zh": "我认为让这在语音领域成为可能是非常非常重要的。"
+ },
+ {
+  "seg": 203,
+  "start": 957.143,
+  "end": 958.765,
+  "speaker": "Unknown",
+  "en": "So start seeing your agents.",
+  "zh": "所以开始观察你的智能体。"
+ },
+ {
+  "seg": 204,
+  "start": 959.366,
+  "end": 961.028,
+  "speaker": "Unknown",
+  "en": "Add the OpenInference instrumenter.",
+  "zh": "添加 OpenInference instrumenter。"
+ },
+ {
+  "seg": 205,
+  "start": 961.668,
+  "end": 964.011,
+  "speaker": "Unknown",
+  "en": "Open source, free to use, OTEL compliant.",
+  "zh": "开源,免费使用,符合 OTEL 标准。"
+ },
+ {
+  "seg": 206,
+  "start": 964.031,
+  "end": 965.333,
+  "speaker": "Unknown",
+  "en": "You can send it to any backend.",
+  "zh": "你可以把它发送到任何后端。"
+ },
+ {
+  "seg": 207,
+  "start": 966.274,
+  "end": 969.277,
+  "speaker": "Unknown",
+  "en": "So use Arise, don't use Arise, start tracing your audio.",
+  "zh": "所以用 Arise,或者不用 Arise,开始为你的音频做追踪。"
+ },
+ {
+  "seg": 208,
+  "start": 969.938,
+  "end": 973.682,
+  "speaker": "Unknown",
+  "en": "The second part of this is actually starting to do that analysis, and we would recommend Arise to do that.",
+  "zh": "第二部分实际上是开始做那样的分析,我们推荐用 Arise 来做。"
+ },
+ {
+  "seg": 209,
+  "start": 974.243,
+  "end": 975.383,
+  "speaker": "Unknown",
+  "en": "Sign up for your free account.",
+  "zh": "注册你的免费账户。"
+ },
+ {
+  "seg": 210,
+  "start": 975.844,
+  "end": 981.346,
+  "speaker": "Unknown",
+  "en": "I'll have a code up at the end of my presentation for you guys to sign up for a free year of pro.",
+  "zh": "我会在演示结束时放一个兑换码,让你们注册免费一年的 pro。"
+ },
+ {
+  "seg": 211,
+  "start": 982.426,
+  "end": 984.247,
+  "speaker": "Unknown",
+  "en": "But start checking time to first audio.",
+  "zh": "但要开始检查 time to first audio。"
+ },
+ {
+  "seg": 212,
+  "start": 984.287,
+  "end": 985.527,
+  "speaker": "Unknown",
+  "en": "Start checking your interruptions.",
+  "zh": "开始检查你的打断情况。"
+ },
+ {
+  "seg": 213,
+  "start": 986.027,
+  "end": 994.771,
+  "speaker": "Unknown",
+  "en": "And start evaluating how these interactions are actually going and whether they're accomplishing your use cases, whether it's a tone or latency eval.",
+  "zh": "并开始评估这些交互实际进行得如何,以及它们是否在完成你的用例,无论是语气评估还是延迟评估。"
+ },
+ {
+  "seg": 214,
+  "start": 994.911,
+  "end": 998.472,
+  "speaker": "Unknown",
+  "en": "Try using the Arise skills to actually create that eval.",
+  "zh": "试着用 Arise skills 来实际创建那个评估。"
+ },
+ {
+  "seg": 215,
+  "start": 998.512,
+  "end": 1000.633,
+  "speaker": "Unknown",
+  "en": "We have some docs set up for you if you want to follow along.",
+  "zh": "如果你想跟着做,我们为你准备了一些文档。"
+ },
+ {
+  "seg": 216,
+  "start": 1001.073,
+  "end": 1006.895,
+  "speaker": "Unknown",
+  "en": "A bunch of examples and cookbooks ready and bring voice into the same rigor as the rest of your stat.",
+  "zh": "一大堆示例和 cookbook 已就绪,把语音带入与你其余 stat 同等的严谨程度。"
+ },
+ {
+  "seg": 217,
+  "start": 1007.235,
+  "end": 1010.096,
+  "speaker": "Unknown",
+  "en": "You wouldn't be OK with this happening at the coding agent level.",
+  "zh": "你不会接受这种事情发生在 coding agent 层面上。"
+ },
+ {
+  "seg": 218,
+  "start": 1010.476,
+  "end": 1014.998,
+  "speaker": "Unknown",
+  "en": "You wouldn't be OK with it happening for an agent that's able to execute stocks on Robinhood.",
+  "zh": "你不会接受它发生在一个能在 Robinhood 上执行股票操作的智能体身上。"
+ },
+ {
+  "seg": 219,
+  "start": 1015.518,
+  "end": 1021.36,
+  "speaker": "Unknown",
+  "en": "You shouldn't be OK with it, though the stakes might seem a little lower for a McDonald's agent that's ordering you a cheeseburger either.",
+  "zh": "你也不应该接受它,尽管对一个帮你点芝士汉堡的麦当劳智能体来说,利害关系看起来可能稍低一些。"
+ },
+ {
+  "seg": 220,
+  "start": 1022.14,
+  "end": 1024.141,
+  "speaker": "Unknown",
+  "en": "And so I'll end with that.",
+  "zh": "所以我就以这句话结尾。"
+ },
+ {
+  "seg": 221,
+  "start": 1024.805,
+  "end": 1026.407,
+  "speaker": "Unknown",
+  "en": "Please, please keep building.",
+  "zh": "请,请继续构建。"
+ },
+ {
+  "seg": 222,
+  "start": 1026.767,
+  "end": 1029.049,
+  "speaker": "Unknown",
+  "en": "Please connect with me also on Twitter.",
+  "zh": "也请通过 Twitter 联系我。"
+ },
+ {
+  "seg": 223,
+  "start": 1029.069,
+  "end": 1031.292,
+  "speaker": "Unknown",
+  "en": "I still call it Twitter, not X.",
+  "zh": "我还是叫它 Twitter,不叫 X。"
+ },
+ {
+  "seg": 224,
+  "start": 1031.412,
+  "end": 1039.881,
+  "speaker": "Unknown",
+  "en": "On Twitter or LinkedIn, we'd love to kind of talk and hear about some of the use cases you guys are building towards so we can add more evals to our library and make sure this is useful for you.",
+  "zh": "在 Twitter 或 LinkedIn 上,我们很乐意聊聊,听听你们正在构建的一些用例,这样我们可以在我们的评估库中加入更多评估,并确保这对你们有用。"
+ },
+ {
+  "seg": 225,
+  "start": 1040.461,
+  "end": 1043.805,
+  "speaker": "Unknown",
+  "en": "And if you found this talk useful and you want to start investigating your voice agents,",
+  "zh": "如果你发现这个演讲有用,并且想开始研究你的语音智能体,"
+ },
+ {
+  "seg": 226,
+  "start": 1044.305,
+  "end": 1045.705,
+  "speaker": "Unknown",
+  "en": "There is a free code up on the screen.",
+  "zh": "屏幕上有一个免费兑换码。"
+ },
+ {
+  "seg": 227,
+  "start": 1045.745,
+  "end": 1048.006,
+  "speaker": "Unknown",
+  "en": "It gives you a year of Arise Pro for free.",
+  "zh": "它给你免费一年的 Arise Pro。"
+ },
+ {
+  "seg": 228,
+  "start": 1048.626,
+  "end": 1051.827,
+  "speaker": "Unknown",
+  "en": "It's AIEWF2026.",
+  "zh": "兑换码是 AIEWF2026。"
+ },
+ {
+  "seg": 229,
+  "start": 1053.027,
+  "end": 1055.507,
+  "speaker": "Unknown",
+  "en": "And you can get started and start tracing your voice agents.",
+  "zh": "你可以开始上手,开始为你的语音智能体做追踪。"
+ },
+ {
+  "seg": 230,
+  "start": 1055.547,
+  "end": 1056.808,
+  "speaker": "Unknown",
+  "en": "So thank you very much.",
+  "zh": "所以非常感谢。"
+ },
+ {
+  "seg": 231,
+  "start": 1056.848,
+  "end": 1057.668,
+  "speaker": "Unknown",
+  "en": "My name is Fuad Ali.",
+  "zh": "我叫 Fuad Ali。"
+ },
+ {
+  "seg": 232,
+  "start": 1057.748,
+  "end": 1062.009,
+  "speaker": "Unknown",
+  "en": "I'll be available for questions for a couple minutes after, but really appreciate you guys listening.",
+  "zh": "演讲结束后我有几分钟时间可以回答问题,非常感谢大家聆听。"
+ },
+ {
+  "seg": 233,
+  "start": 1062.269,
+  "end": 1062.509,
+  "speaker": "Unknown",
+  "en": "Cheers.",
+  "zh": "干杯。"
+ }
+]

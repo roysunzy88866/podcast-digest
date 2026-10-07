@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Town":5,"Plaid":2,"AI 助手":2,"智能体":427,"网络效应":13,"护城河":14,"模型路由":9,"前沿模型":26,"Anthropic":183}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Town":5,"Plaid":2,"AI 助手":2,"智能体":430,"网络效应":13,"护城河":14,"模型路由":9,"前沿模型":26,"Anthropic":184}</script>
 
 <script>
 (function(){

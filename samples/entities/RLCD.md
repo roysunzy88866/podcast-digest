@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RLCD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RLCD">RL</div><div class="pi"><h1 class="pt">RLCD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RLCD">RL</div><div class="pi"><h1 class="pt">RLCD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(21:15起):嘉宾自创的北极星任务(非新算法):让 AI 对程序化使用可靠、程序在环,与 RLHF「取悦人类」、RLVR「优化基准」并列
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(11:19起):本集说是专门为校准决策优化的那类算法，把可调阈值等工程控制权交还给开发者，比 RLHF 难做得多。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q13]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[System 1 模型]] · [[RLHF]] · [[RLVR]] · [[模式坍缩]] · [[校准]] · [[鲁棒性]] · [[基准测试]]
+[[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLHF]] · [[RLVR]] · [[校准]] · [[OpenAI]] · [[Anthropic]] · [[System 1 模型]] · [[Sam Charrington]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":2,"Jev":5,"TypeSafe":3,"System 1 模型":1,"RLHF":5,"RLVR":2,"模式坍缩":1,"校准":3,"鲁棒性":1,"基准测试":18}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":6,"TypeSafe":4,"RLHF":6,"RLVR":3,"校准":4,"OpenAI":173,"Anthropic":184,"System 1 模型":1,"Sam Charrington":6}</script>
 
 <script>
 (function(){

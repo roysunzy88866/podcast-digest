@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":80,"ChatGPT":98,"Stripe":48,"GitHub":30,"Vercel":19,"Superhuman":5,"智能体":427,"计算机使用":21}</script>
+<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":80,"ChatGPT":99,"Stripe":48,"GitHub":30,"Vercel":19,"Superhuman":5,"智能体":430,"计算机使用":21}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":427,"上下文压缩":1,"RL":13,"蒸馏":1,"KV 缓存":5,"Cognition":25,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":9,"智能体":430,"上下文压缩":1,"RL":13,"蒸馏":1,"KV 缓存":5,"Cognition":25,"OpenRouter":14}</script>
 
 <script>
 (function(){

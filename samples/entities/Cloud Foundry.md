@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Nick]] · [[智能体]] · [[平台即服务]] · [[Tanzu]] · [[buildpack]] · [[agents.md]] · [[MCP]] · [[MCP 网关]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Nick":1,"智能体":427,"平台即服务":1,"Tanzu":1,"buildpack":1,"agents.md":3,"MCP":79,"MCP 网关":3}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Nick":1,"智能体":430,"平台即服务":1,"Tanzu":1,"buildpack":1,"agents.md":3,"MCP":79,"MCP 网关":3}</script>
 
 <script>
 (function(){

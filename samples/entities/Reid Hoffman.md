@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":17,"Brené Brown":1,"递归自我改进":8,"勇敢领导力":1,"智能体":427,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":22}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":17,"Brené Brown":1,"递归自我改进":8,"勇敢领导力":1,"智能体":430,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":22}</script>
 
 <script>
 (function(){

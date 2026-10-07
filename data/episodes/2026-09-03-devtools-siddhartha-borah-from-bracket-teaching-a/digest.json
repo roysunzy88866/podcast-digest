@@ -1,0 +1,94 @@
+{
+  "title_zh": "教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案",
+  "tldr": "Bracket 的 Siddharth 讲如何让智能体学会从未被写下来的复杂业务上下文——跟智能体开个视频通话、边干活边教它。",
+  "digest_md": "这一集在 HeavyBirds Dev Guild 现场，聊的是一个现实问题：智能体在编码领域大放异彩，但在真实业务里总是「最后一公里」失败。嘉宾是来自 Bracket AI 的 Siddharth，他们做的正是让智能体学会企业里那些**从未被写下来的工作上下文** [00:16 说话人1]。\n\n**问题：90% 不等于完成**\n\nSiddharth 的核心判断是：自动化的难点在于，哪怕你已经做到 90%，缺的那 10% 上下文也会让整个工作完不成 [04:11 说话人1]。人们对「上下文」的普遍误解是把它等同于数据，但它其实是**如何执行流程的知识**——里面有人际因素，也有分散在组织不同人身上的隐性知识 [04:23 说话人1]。\n\n他给了一个类比：编码时如果你要构建一个横跨三个代码仓库的功能，而智能体只能访问其中一个仓库，它只会失败。所以人们会检出全部三个仓库给智能体。但放到现实世界，对应的是：一份信息在电子表格里，另一组在 ERP 系统里，还有一个「从未公开的仓库」在人脑子里 [05:36 说话人1]。他认为，构建一个能爬取这三组资源并理解其含义的系统，就是「解锁真正能在现实世界中工作的智能体的圣杯」[06:09 说话人1]。\n\n**方法：像学徒一样，边干边教**\n\n怎么把人脑子里的知识拿出来的？Siddharth 的答案回到了最古老的传授方式——学徒制，「从米开朗基罗到整个人类历史」，导师就是这样教弟子的：通过观察你怎么干活 [06:43 说话人1]。\n\n具体做法是：**你跟智能体开一场 Zoom 通话**。你共享屏幕、像平时一样实际做工作，智能体在旁边听，并来回向你提问——就这样把上下文传递给它 [02:24 说话人1]。对非技术员工（运营、供应链岗位的多数人）来说，这是最自然的表达方式：他们最擅长的就是把活儿干一遍，而不是写文档 [06:30 说话人1]。\n\n**关键一步：把非确定性变成确定性**\n\nLLM 天生具有探索性、非确定性——这既是能力也是挑战。企业需要的是一个跑一万次结果都一致的智能体 [03:07 说话人1]。所以 Bracket 的另一个核心能力是：**把「教会」的知识转换成可编码、可验证、可重复、可靠的确定性工作流**，每次都精确运行，而且以代码高效、token 高效的方式扩展 [03:13 说话人1]。也就是说，你纠正它一次，下次就不用再纠正了。\n\n**遇到意外怎么办：「括号大脑」的记忆体系**\n\n现实世界一定会给你意料之外的东西——一张格式完全不同的发票、一个没预料到的条款 [07:41 说话人1]。Bracket 的应对是一套持续学习系统（他们叫「括号大脑」）：\n\n- **置信度分数**：智能体对自己收到的输入有多有信心，是可以量化的。看到没见过的东西，它会先退回去——系统先回退到一个智能体，智能体也没把握，就传回给 Maria 本人 [08:26 说话人1]。\n- **人纠一次、永久记住**：Maria 说「这是个特殊供应商，我们对它标准更宽松」，系统把这条写进记忆，下次遇到同样的输入就能自己决定 [08:37 说话人1]。\n- **「做梦」机制**：工作时有智能体随行记录有意思的事情，然后另一个系统在夜间或周期性地整理「该把正确的信息放在哪里」——Siddharth 提到 Claude 刚提出「做梦」概念，而他们已经做了一段时间 [09:13 说话人1]。\n- **知识图谱**：带针对不同业务的特定本体，让系统能理解事物的含义 [09:40 说话人1]。\n- **「既视感」系统**：不污染主编排智能体的上下文——幕后有一个「智能体乐团」在后台找相关信息，以提示形式递给主角，让它在真正有价值的地方探索。Siddharth 认为这和人类大脑的工作方式非常相似 [10:24 说话人1]。\n\nBracket 目前即将走出隐身状态 [10:41 说话人1]，这集是个早期预览。\n\n## 本集带走\n\n- **隐性上下文是最后一公里失败的根源**：上下文不只是数据，是「怎么做这件事」的流程知识，而且分散在系统和人脑里——缺 10% 就等于做不成。\n- **最自然的知识采集方式是「边干边教」**：让员工共享屏幕、照常干活，智能体在旁听并来回提问——对非技术员工比写文档有效得多。\n- **教完必须「固化」**：把学到的知识转换成确定性的、可重复的工作流，纠正一次就永久生效，兼顾可靠性、代码效率和 token 效率。\n- **用「置信度 + 分级回退」处理意外**：没把握就先降级给智能体、再降级给人，人纠正一句就写进记忆，下次自动处理。\n- **记忆要分层维护**：随行记录 + 夜间「做梦」式整理 + 业务本体知识图谱 + 幕后乐团式提示系统，别把所有信息塞进主智能体的上下文。",
+  "quotes": [
+    {
+      "en": "A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile.",
+      "zh": "现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。",
+      "timestamp": "00:33",
+      "speaker": "Siddhartha Borah"
+    },
+    {
+      "en": "So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.",
+      "zh": "Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。",
+      "timestamp": "03:13",
+      "speaker": "Siddhartha Borah"
+    },
+    {
+      "en": "I think almost the problem with automation is like even if you're 90% there, right? Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
+      "zh": "我觉得自动化的问题几乎就是，即使你已经做到 90%，只要有 10% 的上下文缺失，整个工作就完成不了，对吧？",
+      "timestamp": "04:12",
+      "speaker": "Siddhartha Borah"
+    },
+    {
+      "en": "But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.",
+      "zh": "但如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是：代替这三个仓库，一份信息在电子表格里，另一组在 ERP 系统里，还有一个从未公开的「仓库」在你脑子里。",
+      "timestamp": "05:36",
+      "speaker": "Siddhartha Borah"
+    },
+    {
+      "en": "Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?",
+      "zh": "他们告诉你这项工作的最好方式，就是他们最擅长的事：直接把活儿干一遍，对吧？",
+      "timestamp": "06:30",
+      "speaker": "Siddhartha Borah"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:33",
+      "speaker": "说话人1",
+      "en": "A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile.",
+      "zh": "现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "说话人1",
+      "en": "So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.",
+      "zh": "Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "说话人1",
+      "en": "I think almost the problem with automation is like even if you're 90% there, right? Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
+      "zh": "我觉得自动化的问题几乎就是，即使你已经做到 90%，只要有 10% 的上下文缺失，整个工作就完成不了，对吧？"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "说话人1",
+      "en": "But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.",
+      "zh": "但如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是：代替这三个仓库，一份信息在电子表格里，另一组在 ERP 系统里，还有一个从未公开的「仓库」在你脑子里。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "说话人1",
+      "en": "And then that we believe is the Holy Grail of unlocking agents that actually work in the real world.",
+      "zh": "而我们相信，这就是解锁真正能在现实世界中工作的智能体的圣杯。"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "说话人1",
+      "en": "Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?",
+      "zh": "他们告诉你这项工作的最好方式，就是他们最擅长的事：直接把活儿干一遍，对吧？"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "说话人1",
+      "en": "And this is the nature of real world, that you will get things which are unexpected.",
+      "zh": "而这就是现实世界的本质：你一定会遇到意料之外的东西。"
+    },
+    {
+      "timestamp": "10:12",
+      "speaker": "说话人1",
+      "en": "But behind the scenes, there is this orchestra of agents, which is working behind, finding relevant information and giving it as a hint to the primary agent, so that he can then go and explore what is more meaningful.",
+      "zh": "但在幕后，有一个智能体乐团在后方工作，寻找相关信息并作为提示提供给主编排智能体，让它可以去探索更有意义的东西。"
+    },
+    {
+      "timestamp": "10:24",
+      "speaker": "说话人1",
+      "en": "And this is, I believe, very similar to how human brain works.",
+      "zh": "而我相信，这和人类大脑的工作方式非常相似。"
+    }
+  ],
+  "voice_script": "今天要讲的这家公司叫 Bracket,来自 Bracket AI 的 Siddharth,在 HeavyBirds Dev Guild 的现场,聊了一个很现实的问题:智能体现在写代码已经很厉害了,可一旦放到真实业务里,总是在最后一公里掉链子。他们做的,就是让智能体学会企业里那些从来没被写下来的工作知识。这期还是早期预览,公司马上要走出隐身状态,但里面讲的思路,已经够琢磨一阵了。\n\n先把问题说清楚。现在编码领域,智能体大放异彩,可放到企业自动化里,成功率就不太好看了。Siddharth 的核心判断是这样的:自动化的难点在于,哪怕你已经做到 90%,只要缺了那 10% 的上下文,整个工作就完不成。这话听着简单,其实戳中了一个普遍的误解——很多人以为上下文就是数据,其实不是。上下文是\"这件事该怎么做\"的流程知识,里面有人际因素,还分散在组织里不同人的脑子里。\n\n举个例子你就明白了。写代码的时候,如果一个功能横跨三个代码仓库,而智能体只能访问其中一个,它必定失败。所以人会怎么干?把三个仓库都检出给它。这个道理放到现实世界一模一样:一份信息躺在电子表格里,另一组在 ERP 系统里,还有一个\"从未公开的仓库\",装在人脑子里。Siddharth 说,能爬取这三组资源并理解其含义的系统,就是解锁真正能在现实世界干活的智能体的圣杯。\n\n那问题来了,人脑子里的知识,怎么拿出来?写文档?对多数业务岗位的人来说根本不现实。Siddharth 的答案特别朴素,回到了最古老的传授方式——学徒制。从米开朗基罗开始,人类历史里的师傅都是这么教弟子的:看你怎么干活。落到产品上,具体做法就是,你跟智能体开一场 Zoom 通话,共享屏幕,像平时一样把活儿实际干一遍,智能体在旁边听,不懂就来回问你。就这么把上下文传过去了。对运营、供应链这些非技术岗位的员工来说,这是最自然的表达方式——他们最擅长的就是把活儿干一遍,而不是写文档。\n\n好,知识教进去了,但这只完成了一半。这里有个更深的问题:大语言模型天生是探索性的、非确定性的。这既是能力,也是挑战。企业要的是什么?是一个跑一万次结果都一致的智能体。所以 Bracket 的另一个核心能力,是把教会的东西转换成可编码、可验证、可重复、可靠的确定性工作流,每次都精确运行,而且在代码效率和 token 效率上都能扩展。说白了就是:你纠正它一次,下次就不用再纠正了。\n\n那现实世界一定会扔过来一些意外——一张格式完全不同的发票,一个没预料到的条款,怎么办?Bracket 搞了一套持续学习系统,他们叫\"括号大脑\",里面有几层设计。\n\n第一层是置信度分数。智能体对自己收到的输入有多有信心,这件事是可以量化的。看到没见过的东西,它不会硬着头皮上,而是先退回去——先降级给另一个智能体,那个智能体也没把握,就传回给当事人本人。\n\n第二层,人纠一次,永久记住。比如当事人说了一句\"这是个特殊供应商,我们对它标准更宽松\",系统就把这条写进记忆,下次遇到同样的输入,自己就能决定了。\n\n第三层挺有意思,叫\"做梦\"机制。干活的时候,有个智能体随行记录有意思的事情,然后另一个系统在夜间或者周期性地整理,决定该把正确的信息放在哪里。Siddharth 提到 Claude 刚提出\"做梦\"这个概念,而他们已经做了一段时间了。\n\n再往上,是带业务特定本体的知识图谱,让系统能理解事物的含义。还有一个\"既视感\"系统:不把所有信息都塞进主编排智能体的上下文里,而是幕后有一个\"智能体乐团\"在后台找相关信息,以提示的形式递给主角,让它在真正有价值的地方去探索。Siddharth 觉得,这跟人类大脑的工作方式非常像。\n\n把整条线串起来看,其实就四步:先承认隐性上下文才是最后一公里失败的根源;然后用最自然的\"边干边教\"把知识采出来;再把学到的东西固化成确定性工作流,纠一次就永久生效;最后用置信度和分级回退去接住意外,再用分层的记忆系统把经验沉淀下来。\n\n Bracket 这期的预览,讲的其实是同一个道理:教会智能体现实世界的活儿,靠的不是更大的模型,而是把 Maria 脑子里那 10% 的上下文,真正搬到系统里去。"
+}

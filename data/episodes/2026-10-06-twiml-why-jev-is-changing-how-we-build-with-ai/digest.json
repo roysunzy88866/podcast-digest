@@ -1,0 +1,214 @@
+{
+  "title_zh": "让 AI 可靠到像 SQL：Jev 与「机器原生智能」",
+  "tldr": "TypeSafe 联合创始人兼 CEO、前 OpenAI RLHF 团队成员 Diogo Almeida 谈 Jev 的核心主张：AI 该为机器可执行的可靠决策而优化，而非生成供人消费的文本。",
+  "digest_md": "这一集聊的是三周前刚出隐、引爆 AI 圈的小模型 Jev——有人耸耸肩说「这不就是个分类器」，有人则把它当成让 AI 真正能自动化落地的关键一步。说话的主角是 Diogo Almeida，TypeSafe 的联合创始人兼 CEO，此前在 OpenAI 待了四年半，是 InstructGPT 和 RLHF（用人类反馈强化学习，让语言模型学会听话的那套方法）背后团队的成员。\n\n他的电梯演讲很直接：「那些该死的自动化到底都在哪儿」[01:47 Diogo Almeida]。在他看来，AI 智慧得令人难以置信——能解数学千禧年大奖难题——却在更换一张信用卡、做会计、跑客服这种事上没用得令人难以置信。为什么？他的答案一句话就能说完：\n\n## 你为什么而优化，就得到什么\n\n「你为什么而优化，就得到什么——这对所有机器学习的事情都成立，对世界上所有的事情大概都成立」[04:55 Diogo Almeida]。今天的 LLM 全都是为「字符串」优化的，而字符串是供人类或其他 LLM 消费的；但会计、数据录入、保险承保这些东西，是供计算机消费的——特定的字段、表单、离散的决策。为字符串优化和为离散决策优化，是非常不同的两件事。「我相信这就是这个差距最大的解释」[05:38 Diogo Almeida]。\n\n主持人反问：ML 本质上就是优化，天天讲代价函数，怎么会是 ML 的人最不懂这个？Diogo 的回答引出了他对 Sutton「苦涩教训」（大致是：算力和扩展比算法更重要）的修正版。\n\n## 数据比算力重要，正确的任务比数据更重要\n\n「我相信数据比算力重要得多」[10:02 Diogo Almeida]——因为算力得有数据可施。而比数据更重要的是「你需要正确的任务」[10:09 Diogo Almeida]。预训练损失今天看是显然的，当年却是很大的信仰飞跃；RLHF 也是——互联网上根本不存在「对两个模型补全的偏好标注」这种形态的数据，是团队的天才洞察硬造出了这个任务。所以「真正能创造一个新任务的人寥寥无几」[10:36 Diogo Almeida]。在 RL 游戏里算力和数据可以互换（on-policy rollout 用算力换数据），Sutton 的说法成立；但推广到现实应用，数据才是比算力更受限的资源。\n\n## 锯齿状能力不是天生的，是优化出来的\n\nLLM 为什么时灵时不灵？Diogo 做了个现场测试：你见过 ChatGPT 无缘无故地辱骂你吗？没有。所以模型在某些事上其实是「超级超级可靠」的。他的论断是：「锯齿状特性并不是 LLM 或 AI 内在的」[07:12 Diogo Almeida]——它来自优化过程：你朝一个方向优化得越猛，就获得那类可靠性、失去别的。\n\n这正是 RLHF 的机制：惩罚越容易施加的事，推理时就越不会发生。不该退款时给了退款，从准确率上看和把脸在键盘上乱按一样是 0%，但你永远不会看到乱按——因为优化压力的不对称性。也因此，「后训练可以让某些类型的事情变得可靠」[08:18 Diogo Almeida]，而「AI 从业者在把期望目标植入模型这件事上，拥有的主观能动性大得超出人们的想象」[08:22 Diogo Almeida]。\n\n顺带他泼了行业一盆冷水：自动驾驶是巨大的工程胜利而非 AI 胜利——Waymo 靠的是把系统分解、抽象、逐个确保可靠。而 AI 圈的愤世嫉俗循环是：做 demo → 融种子轮/A 轮 → 承诺做可靠 → 从没做可靠 → pivot 成 human-in-the-loop。OpenAI 从 2020 年就在展示客服 demo，六年后客服仍未解决。\n\n## Jev 与「分类器」：差的不是接口，是智能\n\n面对「Jev 不过是逻辑回归/嵌入模型加分类器」的嘲讽，Diogo 的回应是：分类器没有任何问题——「它们就是『有用性』的形态本身」[25:15 Diogo Almeida]，Meta 和 Google 靠的就是分类器。「如果有人告诉我们，我们做的是『针对任何东西的零样本通用分类器』，那会是 Jev 得到过的最高赞美」[25:37 Diogo Almeida]。\n\n真正被所有人漏掉的一点（他的团队劝他别外讲）：关键不在接口、不在速度和成本——「如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能」[28:56 Diogo Almeida]。Jev 的核心其实有一个 LLM——互联网的压缩版——这才是零样本能力的来源，而他们做的事是围绕「校准决策」这个任务重新训练它。他自认为起手时是世界顶尖的后训练水平，以为一周搞定，结果在隐身状态下做了两年，还写了一份内部文档叫《我们本来去年就能拥有 AGI》——事后承认，RLHF 一年内能成，RLCD 绝不可能一年内成。\n\n另一个有意的取舍：Jev 刻意在字符串生成上差得多——「能聊天」很可爱但明显很蠢。他想要的标杆是「让 AI 可靠到无聊透顶，就像 SQL」[32:26 Diogo Almeida]，可预测到不用跑 eval 集就敢写查询。「我再怎么强调都不为过：可靠性才是人们付费买的东西」[32:58 Diogo Almeida]。\n\n## RLCD：把工程控制权还给开发者\n\nRLCD（为校准决策而优化的那类算法，区别于为人类偏好优化的 RLHF）要解决什么？用 function calling 类比：客服系统判断「是否转人工」，Walmart 和 Costco 的策略天差地别，但今天的 API 只能让你在提示词里写「请给退款/别给退款」，而不是把可调阈值交给程序员。OpenAI 当年因过度拒绝回滚模型，在他看来就是糟糕决策——「刷新几次有时拒绝有时不拒绝，从工程角度看是疯狂的行为」，为什么没有一个可调阈值？\n\n「RLCD 就是把正确的接口暴露给构建者，让他们能拿到想要的属性，而不只是对着 system message 祈祷」[50:16 Diogo Almeida]。而要有意义的旋钮和阈值，前提是概率被校准——你要在乎概率的长尾，不只是准确率。这里他抛出一个反直觉论断：「RLHF 和 RLVR 极大地破坏了模型的校准，因为要把字符串输出好，你实际上需要极度过度自信」[56:42 Diogo Almeida]——GPT-4 之后模型只发后训练版，校准就此劣化。\n\n## Harness 之辩：智能体的问题不在循环，在背后的智能\n\nClaude Code、OpenClaw 这些「外壳」（harness，即包着模型跑的代码框架）真能点石成金吗？Diogo 说不：Claude Code 发布后几个月都没人用，后来才出现巨大跃迁——他的猜测是 Anthropic 下大注把智能体轨迹放进了训练分布，「你优化什么就得到什么」。形态（分类器、while 循环）本身很强大，「但它的强大程度只取决于背后的智能」。他甚至完全拒绝 harness 这个概念——那是「无马的马车」式思维，试图把智能装扮成人类的样子。\n\n对 Jev 而言：模型被用户嵌进自己的代码，逻辑全归用户、数据全归用户——「总有一天智能会像数据库一样，代码里需要时就调用」。关于智能体编排中的决策交给 Jev，他还留了个思想实验：「如果 KV 缓存不存在，你会怎么设计编码智能体？」——没有只追加的上下文，就能做扇出、过滤、上下文内的层级查找，而不是像到处用全局变量一样囤积历史。\n\n对「是否要退回僵硬工作流」的质疑，他的回答是分场景的：一次性任务当然交给不可靠的 LLM 碰运气；但要规模化、要长期在后台作为依赖运行的东西，前期就值得真正工程化——「待在轨道上是特性」，就像游乐园没有轨道安全带就玩不了最好玩的项目。未来他判断是混合方案：智能体逐步挂接更多真正的软件逻辑，「直到它们变成更多的软件、更少的魔法 while 循环」。\n\n至于泛化：他不同意「业务决策比文本更难泛化」——遵循一个简单业务工作流，和解决数学千禧年难题，他打大赌是后者更难。而通往通用性，RLHF 最容易（取悦人是主观的），RLCD 其次，RLVR（用可验证奖励做强化学习，本质是在为基准优化）最难——这就是为什么他相信 Jev 这条路「离通用更近，而且不像其他模型那样困在收益递减的平台期」。\n\n## 本集带走\n\n- **「你优化什么就得到什么」是理解 AI 长短板的钥匙**：LLM 差不是能力不够，而是全体都在为「供人消费的字符串」优化；会计、客服这类「供机器消费的离散决策」需要新的优化目标。\n- **可靠性可以后天造出来**：锯齿状不是 LLM 的天性，是 RLHF 式不对称优化的产物——反过来，只要为决策这个任务去优化，可靠性同样能被训出来，Jev 的两年隐身期就是证明。\n- **「快和便宜」不是卖点**：小模型加逻辑回归得到的就是小模型的智能；人们真正付费买的是校准过的智能与可靠性，离开这一点，抄接口的模仿者都抄错了重点。\n- **别指望 harness 点石成金**：Claude Code、OpenClaw 的形态早就存在，真正让它们起飞的是把使用轨迹放进训练分布；判断一个智能体产品，要看背后智能而非框架。\n- **给开发者的设计启示**：要做长期后台运行的自动化，前期工程化是值得的（轨道是特性）；而「没有 KV 缓存你会怎么设计智能体」这个思想实验，值得每个做智能体架构的人做一遍。",
+  "quotes": [
+    {
+      "en": "I think AI is just so unbelievably smart, yet so unbelievably useless at the kinds of things you'd really expect it to be useful for.",
+      "zh": "我觉得 AI 智慧得令人难以置信，但在你真正期望它有用的那些事情上，却又无用得令人难以置信。",
+      "timestamp": "01:52",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "So my take on the answer and the nuance of it is that you get what you optimize for, which is just true of all things ML, kind of true of all things in the world, really.",
+      "zh": "所以我对这个答案的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。",
+      "timestamp": "04:55",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And I don't think people realize how much of an agency that AI practitioners have in setting their menu of desiderata into the model.",
+      "zh": "我认为人们没有意识到，AI 从业者在设定他们期望的目标清单并植入模型方面，有多大的主观能动性。",
+      "timestamp": "08:22",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But I believe that data matters a lot more than compute.",
+      "zh": "但我相信，数据比算力重要得多。",
+      "timestamp": "10:02",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And more important than data is you need the right task.",
+      "zh": "而比数据更重要的是，你需要正确的任务。",
+      "timestamp": "10:09",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "So it's actually a rare few that I think can actually make a new task, and that is the you get what you optimize for part of it.",
+      "zh": "所以我认为真正能创造一个新任务的人寥寥无几，这就是「你优化什么就得到什么」的那部分。",
+      "timestamp": "10:36",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "My cynical loop here is make a demo, raise a seed or series A, say that you're going to make it reliable, never end up making that reliable, pivot into a human-in-the-loop version of this thing instead of actually automating the task.",
+      "zh": "我觉得这里愤世嫉俗的循环是：做一个 demo，融一笔种子轮或 A 轮，说你会把它做可靠，最后却从来没有把它做可靠，然后转而做一个 human-in-the-loop 版本的东西，而不是真正把这个任务自动化。",
+      "timestamp": "17:33",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And in general, the way to get higher reliability is to zoom in.",
+      "zh": "而且总体来说，获得更高可靠性的方法是放大聚焦。",
+      "timestamp": "21:26",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I actually think if someone told us that we were a zero-shot general classifier for anything, that would be the greatest compliment I've ever been given for Jev.",
+      "zh": "我其实觉得，如果有人告诉我们，我们做的是「针对任何东西的零样本通用分类器」，那会是 Jev 得到过的最高赞美。",
+      "timestamp": "25:37",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And if you use a logistic regression on top of embeddings or a small model, you get the intelligence of logistic regression on top of embeddings or a small model.",
+      "zh": "而如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。",
+      "timestamp": "28:56",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "You know, like, I want to be a paragon of making AI so reliable that it's boring, like SQL.",
+      "zh": "你知道吗，我想成为的标杆是，让 AI 可靠到无聊透顶，就像 SQL 那样。",
+      "timestamp": "32:26",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And also, I cannot emphasize enough, reliability is what people are paying for.",
+      "zh": "而且，我再怎么强调都不为过，可靠性才是人们付费买的东西。",
+      "timestamp": "32:58",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "So to me RLCD is about exposing the right interface to builders so that they can get the properties they want without just praying to the system message.",
+      "zh": "所以对我来说，RLCD 就是把正确的接口暴露给构建者，让他们可以获得想要的属性，而不只是对着 system message 祈祷。",
+      "timestamp": "50:16",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
+      "zh": "实际上，RLHF 和 RLVR 极大地破坏了模型的校准，因为要想把字符串输出好，你实际上需要极度过度自信。",
+      "timestamp": "56:42",
+      "speaker": "Diogo Almeida"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:47",
+      "speaker": "Diogo Almeida",
+      "en": "The elevator pitch I use for Jev is just where the f*** is all the automation.",
+      "zh": "我用来介绍 Jev 的电梯演讲就是：那些该死的自动化到底都在哪儿。"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Diogo Almeida",
+      "en": "I think AI is just so unbelievably smart, yet so unbelievably useless at the kinds of things you'd really expect it to be useful for.",
+      "zh": "我觉得 AI 智慧得令人难以置信，但在你真正期望它有用的那些事情上，却又无用得令人难以置信。"
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Diogo Almeida",
+      "en": "So my take on the answer and the nuance of it is that you get what you optimize for, which is just true of all things ML, kind of true of all things in the world, really.",
+      "zh": "所以我对这个答案的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。"
+    },
+    {
+      "timestamp": "05:38",
+      "speaker": "Diogo Almeida",
+      "en": "And that I believe is the largest explainer of this gap.",
+      "zh": "而我相信这就是这个差距最大的解释。"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Diogo Almeida",
+      "en": "I would say that jaggedness is not intrinsic to LLMs or AI.",
+      "zh": "我想说，锯齿状特性并不是 LLM 或 AI 内在的。"
+    },
+    {
+      "timestamp": "07:48",
+      "speaker": "Diogo Almeida",
+      "en": "From an accuracy perspective, exactly the same as like mashing your face on the keyboard.",
+      "zh": "从准确性的角度来看，和把你的脸在键盘上乱按是完全一样的。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Diogo Almeida",
+      "en": "And I don't think people realize how much of an agency that AI practitioners have in setting their menu of desiderata into the model.",
+      "zh": "我认为人们没有意识到，AI 从业者在设定他们期望的目标清单并植入模型方面，有多大的主观能动性。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Diogo Almeida",
+      "en": "But I believe that data matters a lot more than compute.",
+      "zh": "但我相信，数据比算力重要得多。"
+    },
+    {
+      "timestamp": "10:09",
+      "speaker": "Diogo Almeida",
+      "en": "And more important than data is you need the right task.",
+      "zh": "而比数据更重要的是，你需要正确的任务。"
+    },
+    {
+      "timestamp": "10:36",
+      "speaker": "Diogo Almeida",
+      "en": "So it's actually a rare few that I think can actually make a new task, and that is the you get what you optimize for part of it.",
+      "zh": "所以我认为真正能创造一个新任务的人寥寥无几，这就是「你优化什么就得到什么」的那部分。"
+    },
+    {
+      "timestamp": "17:33",
+      "speaker": "Diogo Almeida",
+      "en": "My cynical loop here is make a demo, raise a seed or series A, say that you're going to make it reliable, never end up making that reliable, pivot into a human-in-the-loop version of this thing instead of actually automating the task.",
+      "zh": "我觉得这里愤世嫉俗的循环是：做一个 demo，融一笔种子轮或 A 轮，说你会把它做可靠，最后却从来没有把它做可靠，然后转而做一个 human-in-the-loop 版本的东西，而不是真正把这个任务自动化。"
+    },
+    {
+      "timestamp": "19:08",
+      "speaker": "Diogo Almeida",
+      "en": "OpenAI has been showing customer service demos since 2020, I believe.",
+      "zh": "OpenAI 从 2020 年开始就在展示客服 demo，我记得。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Diogo Almeida",
+      "en": "And in general, the way to get higher reliability is to zoom in.",
+      "zh": "而且总体来说，获得更高可靠性的方法是放大聚焦。"
+    },
+    {
+      "timestamp": "25:15",
+      "speaker": "Diogo Almeida",
+      "en": "They are literally the shape of usefulness.",
+      "zh": "它们就是「有用性」的形态本身。"
+    },
+    {
+      "timestamp": "25:37",
+      "speaker": "Diogo Almeida",
+      "en": "I actually think if someone told us that we were a zero-shot general classifier for anything, that would be the greatest compliment I've ever been given for Jev.",
+      "zh": "我其实觉得，如果有人告诉我们，我们做的是「针对任何东西的零样本通用分类器」，那会是 Jev 得到过的最高赞美。"
+    },
+    {
+      "timestamp": "28:56",
+      "speaker": "Diogo Almeida",
+      "en": "And if you use a logistic regression on top of embeddings or a small model, you get the intelligence of logistic regression on top of embeddings or a small model.",
+      "zh": "而如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。"
+    },
+    {
+      "timestamp": "32:26",
+      "speaker": "Diogo Almeida",
+      "en": "You know, like, I want to be a paragon of making AI so reliable that it's boring, like SQL.",
+      "zh": "你知道吗，我想成为的标杆是，让 AI 可靠到无聊透顶，就像 SQL 那样。"
+    },
+    {
+      "timestamp": "32:58",
+      "speaker": "Diogo Almeida",
+      "en": "And also, I cannot emphasize enough, reliability is what people are paying for.",
+      "zh": "而且，我再怎么强调都不为过，可靠性才是人们付费买的东西。"
+    },
+    {
+      "timestamp": "50:16",
+      "speaker": "Diogo Almeida",
+      "en": "So to me RLCD is about exposing the right interface to builders so that they can get the properties they want without just praying to the system message.",
+      "zh": "所以对我来说，RLCD 就是把正确的接口暴露给构建者，让他们可以获得想要的属性，而不只是对着 system message 祈祷。"
+    },
+    {
+      "timestamp": "56:42",
+      "speaker": "Diogo Almeida",
+      "en": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
+      "zh": "实际上，RLHF 和 RLVR 极大地破坏了模型的校准，因为要想把字符串输出好，你实际上需要极度过度自信。"
+    }
+  ],
+  "voice_script": "今天这一集，主角是 Diogo Almeida。这个名字你可能不熟，但他的背景很硬：TypeSafe 的联合创始人兼 CEO,之前在 OpenAI 待了四年半，是 InstructGPT 和 RLHF 背后团队的成员——RLHF 就是用人类反馈强化学习、让语言模型学会听话的那套方法，今天所有大模型都在用。\n\n而这一集聊的，是三周前刚出隐身状态、引爆 AI 圈的小模型 Jev。有人耸耸肩说，这不就是个分类器吗？也有人把它当成让 AI 自动化真正落地的关键一步。Diogo 的立场很直接，他的电梯演讲就是一句话：那些该死的自动化，到底都在哪儿？\n\n这个问题从哪来的？你想想，今天的 AI 智慧得令人难以置信，能解数学千禧年大奖难题；可让它更换一张信用卡、做会计、跑客服，却又没用得令人难以置信。为什么这么割裂？\n\nDiogo 的答案一句话就能说完：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，对世界上所有的事情大概都成立。今天的所有大语言模型，全都是为「字符串」优化的，也就是生成供人阅读、或者供其他模型读的文本。但会计、数据录入、保险承保这些东西，是供计算机消费的——特定的字段、表单、离散的决策。为字符串优化和为离散决策优化，是非常不同的两件事。Diogo 相信，这就是那个差距最大的解释。\n\n主持人当时反问：机器学习本质上就是优化，天天讲代价函数，怎么会是搞 ML 的人最不懂这个？这个问题把对话引向了更深的层面，也就是对那位 Sutton 老先生的「苦涩教训」的修正。苦涩教训的大致意思是，算力和扩展比算法更重要。Diogo 的看法不一样：数据比算力重要得多，因为算力得有数据可施。而比数据更重要的是，你需要正确的任务。RLHF 就是例子——互联网上根本不存在「对两个模型补全的偏好标注」这种形态的数据，是当年团队的天才洞察硬造出了这个任务。所以说，真正能创造一个新任务的人寥寥无几。\n\n那顺着这个逻辑往下推，就会碰到一个大家最关心的问题：大模型为什么时灵时不灵？Diogo 做了个现场测试：你见过 ChatGPT 无缘无故地辱骂你吗？没有。所以模型在某些事上，其实是超级超级可靠的。由此得出一个很重要的论断：锯齿状特性并不是大模型的内在属性，它来自优化过程——你朝一个方向优化得越猛，就获得那类可靠性、失去别的。这背后还有个不对称性：模型不该退款时给了退款，从准确率上看和把脸在键盘上乱按一样，都是零分；但你永远不会看到乱按，因为惩罚越容易施加的事，推理时就越不会发生。所以后训练可以让某些事情变得可靠，而 AI 从业者在把期望目标植入模型这件事上，拥有的主观能动性大得超出人们的想象。\n\n好，理解了这一点，Jev 的故事就好懂了。面对「Jev 不过是逻辑回归加分类器」的嘲讽，Diogo 的回应是：分类器没有任何问题，它们就是「有用性」的形态本身，Meta 和 Google 靠的就是分类器。真正被所有人漏掉的一点是——如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。而 Jev 的核心其实有一个大语言模型，是互联网的压缩版，这才是零样本能力的来源；他们做的事，是围绕「校准决策」这个任务重新训练它。Diogo 自认起手时是世界顶尖的后训练水平，以为一周搞定，结果隐身状态做了两年。\n\n而且 Jev 是有意取舍的：它在聊天上刻意差得多，可预测到不用跑测试集就敢写查询。Diogo 想要的标杆是，让 AI 可靠到无聊透顶，就像 SQL。可靠性才是人们付费买的东西。\n\n落到开发者的层面，这引出了 RLCD——为校准决策优化的算法，区别于为人类偏好优化的 RLHF。拿客服系统判断「是否转人工」举例：沃尔玛和好市多的策略天差地别，但今天的 API 只能让你在提示词里写「请给退款」或「别给退款」，而不是把可调阈值交给程序员。RLCD 要做的，就是把正确的接口暴露给构建者，让他们拿到想要的属性，而不只是对着 system message 祈祷。\n\n最后还有一场关于 harness 的争论——就是包着模型跑的那些代码框架，比如 Claude Code。Diogo 的判断是：框架本身点石不成金，Claude Code 发布后几个月没人用，后来才出现巨大跃迁，猜测是 Anthropic 把智能体轨迹放进了训练分布——你优化什么就得到什么。但形态的强大程度，只取决于背后的智能。未来会是混合方案：智能体逐步挂接更多真正的软件逻辑，直到变成更多的软件、更少的魔法 while 循环。\n\n回到开头那个问题，自动化到底在哪儿？这一集给出的答案是：它不在更聪明的新模型里，而在把优化目标换成「可靠的离散决策」这件事里。你为什么而优化，就得到什么。"
+}

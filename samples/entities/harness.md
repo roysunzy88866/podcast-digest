@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>59</b> 集 · <b>28</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>60</b> 集 · <b>29</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -68,11 +68,12 @@ unlisted: true
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(04:27起):本集说它是调度和包装模型调用的自动化执行框架，基于任务结果在合适时机挑选合适模型，痴迷于 token 成本、能在新模型胜出时当天全量切换，且完全开源。
 - **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(04:12起):本集说 harness 是今年大家讨论的、帮助把智能体投入生产环境的结构，其边界（模型、工具、记忆、护栏是否在内）存在争论。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(39:23起):本集说 harness 是围绕模型搭的编排框架,和模型本身一样重要:好的多智能体 harness 能让普通前沿模型得到接近最强模型(Mythos)的结果。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(66:49起):本集说 harness 就是代码，其强大程度只取决于背后的智能；Diogo 甚至完全拒绝 harness 概念，称其为「无马的马车」式思维。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(00:58起):本集建议先榨干 harness(围绕模型搭的工具链和调用环境)再做模型优化,八成找上门的问题靠一个好 harness 就能解决。
 
 ## ① 提到它的金句
 
-*28 条*
+*29 条*
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
@@ -128,11 +129,13 @@ unlisted: true
 
 ![[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi#^q3]]
 
+![[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble#^q11]]
+
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q7]]
 
 ## ② 出现在这些集
 
-*59 集*
+*60 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -192,6 +195,7 @@ unlisted: true
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
 - [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为概念(提及)
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为概念
 
 ## ③ 关联
@@ -200,7 +204,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[评估]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[护栏]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":427,"Anthropic":183,"Claude Code":96,"沙箱":79,"评估":5,"Codex":80,"OpenAI":172,"MCP":79,"护栏":80,"推理":81}</script>
+<script type="application/json" class="pd-epn">{"智能体":430,"Anthropic":184,"Claude Code":97,"沙箱":79,"评估":5,"Codex":80,"OpenAI":173,"MCP":79,"护栏":80,"推理":82}</script>
 
 <script>
 (function(){
