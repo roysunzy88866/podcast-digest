@@ -24,7 +24,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[RAG]] · [[MCP]] · [[推理]] · [[Flo Crivello]] · [[Inherent Laboratories]] · [[Pete Johnson]] · [[Wade Foster]] · [[Lindy]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"Anthropic":184,"RAG":24,"MCP":79,"推理":82,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1,"Wade Foster":2,"Lindy":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"Anthropic":184,"RAG":24,"MCP":80,"推理":82,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1,"Wade Foster":2,"Lindy":4}</script>
 
 <script>
 (function(){

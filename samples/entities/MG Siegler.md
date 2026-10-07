@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[Kath Korevec]] [[Jan Oberhauser]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":47,"Muse":6,"OpenAI":173,"Dots":3,"Microsoft":29,"Google":64,"Anthropic":184,"Apple":22,"Amazon":30}</script>
+<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":47,"Muse":6,"OpenAI":174,"Dots":3,"Microsoft":29,"Google":64,"Anthropic":184,"Apple":22,"Amazon":30}</script>
 
 <script>
 (function(){

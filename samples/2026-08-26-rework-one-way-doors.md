@@ -122,6 +122,7 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠]]<span class="pd-rz">同嘉宾:Jason</span>
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle]]<span class="pd-rz">同嘉宾:Jason</span>
+- [[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南]]<span class="pd-rz">同概念:股权结构表 (cap table)</span>
 
 </div>
 <div class="pd-ex">

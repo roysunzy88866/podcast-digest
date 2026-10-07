@@ -25,7 +25,7 @@ unlisted: true
 
 [[AJ Loiacono]] · [[Judy Health]] · [[CVS]] · [[Cigna]] · [[United Healthcare]] · [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]] · [[自举]]
 
-<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Judy Health":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":27,"垂直整合":1,"反向定位":1,"自举":2}</script>
+<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Judy Health":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":28,"垂直整合":1,"反向定位":1,"自举":2}</script>
 
 <script>
 (function(){

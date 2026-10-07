@@ -31,7 +31,7 @@ unlisted: true
 
 [[Harald Kirschner]] · [[VS Code]] · [[Copilot CI]] · [[智能体]] · [[agents.md]] · [[代码存活率]] · [[MCP]] · [[playwright]] · [[代码审查]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"Harald Kirschner":1,"VS Code":6,"Copilot CI":1,"智能体":430,"agents.md":3,"代码存活率":1,"MCP":79,"playwright":2,"代码审查":24,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"Harald Kirschner":1,"VS Code":6,"Copilot CI":1,"智能体":433,"agents.md":3,"代码存活率":1,"MCP":80,"playwright":2,"代码审查":24,"评估":5}</script>
 
 <script>
 (function(){

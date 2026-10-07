@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[GPU]] · [[Anthropic]] · [[OpenAI]] · [[Neil Movva]] · [[Alexander Whedon]] · [[Nishant Gupta]] · [[Diogo Almeida]] · [[Patrick O'Shaughnessy]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"推理":82,"GPU":24,"Anthropic":184,"OpenAI":173,"Neil Movva":1,"Alexander Whedon":1,"Nishant Gupta":1,"Diogo Almeida":3,"Patrick O'Shaughnessy":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"推理":82,"GPU":24,"Anthropic":184,"OpenAI":174,"Neil Movva":1,"Alexander Whedon":1,"Nishant Gupta":1,"Diogo Almeida":3,"Patrick O'Shaughnessy":3}</script>
 
 <script>
 (function(){

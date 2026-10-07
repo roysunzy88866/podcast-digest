@@ -1,0 +1,580 @@
+{
+  "episode_id": "2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry",
+  "podcast": "The a16z Show",
+  "date": "2026-10-07",
+  "tags": [
+    "金融基础设施",
+    "抵押贷款",
+    "智能体",
+    "企业级 AI 部署",
+    "创业心法"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "linda-du",
+      "type": "person",
+      "role": "host",
+      "name": "Linda Du",
+      "file": "Linda Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            74.054,
+            87.56
+          ],
+          "quote": "In this episode, A16Z general partner Angela Strange sits down with Valens Linda Du and Andrew Wang to unpack what it took to replace decades of legacy infrastructure in one of the most regulated parts of financial services.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "angela-strange",
+      "type": "person",
+      "role": "cohost",
+      "name": "Angela Strange",
+      "file": "Angela Strange",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            74.054,
+            87.56
+          ],
+          "quote": "In this episode, A16Z general partner Angela Strange sits down with Valens Linda Du and Andrew Wang to unpack what it took to replace decades of legacy infrastructure in one of the most regulated parts of financial services.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "andrew-wang",
+      "type": "person",
+      "role": "cohost",
+      "name": "Andrew Wang",
+      "file": "Andrew Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            74.054,
+            87.56
+          ],
+          "quote": "In this episode, A16Z general partner Angela Strange sits down with Valens Linda Du and Andrew Wang to unpack what it took to replace decades of legacy infrastructure in one of the most regulated parts of financial services.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "valen",
+      "type": "company",
+      "role": "company",
+      "name": "Valen",
+      "file": "Valen",
+      "primary": true,
+      "how_described": "本集主角:先自己变成持牌房贷服务商、把抵押贷款服务基础设施从零重写,如今把这套操作系统(ValenOS)卖给整个行业,已把服务商业务出售给 Carrington 全面转向软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            70.987,
+            73.088
+          ],
+          "quote": "Valen decided to rebuild it from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            88.51,
+            101.158
+          ],
+          "quote": "They discussed why Valen became a mortgage servicer before becoming a software company, how the team turned decades of regulation into code, and why operating the technology themselves was critical to proving a good work at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            229.566,
+            235.248
+          ],
+          "quote": "Maybe, Linda, from a market perspective, describe the state of the world as a mortgage servicing industry before Valen came in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            317.686,
+            326.09
+          ],
+          "quote": "And so maybe if I'm a homeowner and my home is being serviced by one of the incumbents versus Valen, what might I notice from just a human perspective?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            478.275,
+            479.816
+          ],
+          "quote": "So, like, how is that different in Valen?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1098.784,
+            1102.265
+          ],
+          "quote": "Sets up a very nice ontology for where Valen is going next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1229.126,
+            1235.81
+          ],
+          "quote": "Like what it like from a traditionally very low margin business, Valen turned into a high margin business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1268.962,
+            1274.083
+          ],
+          "quote": "And so you built Valen Servicing, I think in the $200 billion, how big?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1314.476,
+            1324.16
+          ],
+          "quote": "Yes, but you're announcing, you know, you guys just recently announced the sale of Valen Mortgage over to Carrington, and now you're taking that OS and selling it into the industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1831.251,
+            1838.316
+          ],
+          "quote": "How does maybe the architecture and how you've set up the Valen platform set up Valen to expand into other sectors?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2008.86,
+            2011.943
+          ],
+          "quote": "So I want to tell a little bit about where Valen is today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2017.689,
+            2026.778
+          ],
+          "quote": "And then just recently, Rhythm confirmed that they're going to transfer 4 million loans over to Valen, which I think is the largest servicing transfer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2076.887,
+            2080.169
+          ],
+          "quote": "So Valen Mortgage subserviced New Res Loans.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2125.007,
+            2130.693
+          ],
+          "quote": "Maybe we want to end on, and anyone who's in New York highly encourage them to visit the Valen office.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2130.713,
+            2136.741
+          ],
+          "quote": "This has got a ton of energy, but what, how would you describe what it's like to work at Valen or what might people find surprising?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2147.276,
+            2154.502
+          ],
+          "quote": "But I think what's really unique about the people at Valen is they're all the type of people where they want to take matters into their own hands.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2243.026,
+            2250.07
+          ],
+          "quote": "It's really a demonstration of, you know, the type of company you have to build, the type of culture you have to build, and really the type of people who thrive and work at Valen.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-servicing",
+      "type": "concept",
+      "role": "concept",
+      "name": "抵押贷款服务 (mortgage servicing)",
+      "file": "抵押贷款服务",
+      "primary": true,
+      "how_described": "本集称它是现存最未被颠覆的行业之一:13 万亿美元消费债务,主要运行在互联网发明之前架构的遗留系统上;房贷发放后几十年的收款、代管税费保险、催收、逾期与止赎等运营工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            61.203,
+            70.267
+          ],
+          "quote": "What is possible today is... Mortgage servicing is a $13 trillion market that still runs in large part on technology designed before the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            122.007,
+            129.654
+          ],
+          "quote": "So Andrew, I think a great place to start would be from your time at Soros and how you decided that mortgage servicing was going to be a really interesting problem to work on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            229.566,
+            235.248
+          ],
+          "quote": "Maybe, Linda, from a market perspective, describe the state of the world as a mortgage servicing industry before Valen came in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            799.669,
+            804.512
+          ],
+          "quote": "For context, mortgage servicing and many of these licenses have pretty much chicken and egg problems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1409.629,
+            1436.783
+          ],
+          "quote": "How beautiful of a problem setup mortgage servicing is for what's about to happen, both with AI, but just like overall enterprise and infrastructure in society, which is to say, what is possible today is you can have these extraordinarily complex cases and you can actually research and basically provide the right set of information to the operators so that they're more and more in a world where they're effectively operating little mini armies of agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1825.367,
+            1830.951
+          ],
+          "quote": "Which segue as well, I know even from the beginning, you both had ambitions broader than mortgage servicing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说运营商人员正走向『指挥小型智能体军团』:几十个智能体可做代管账分析等任务,能编排一组智能体打电话、跑工作流,先模拟试运行,并做冠军挑战者式策略实验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            598.805,
+            606.191
+          ],
+          "quote": "And so that's the part where it's like you can have the world's best customer experience team and the most empathetic call center agent in the world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "记录系统 (system of record)",
+      "file": "记录系统",
+      "primary": true,
+      "how_described": "本集的核心论点之一:遗留系统只存快照、不保真记录历史,算错了钱,再有同理心的客服也救不回体验——不修记录系统就无法修复房主体验;干净的数据本体如今成了 AI 的地基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            606.572,
+            613.798
+          ],
+          "quote": "But if fundamentally you were charged the wrong amount of money because the system of record was flawed, then you can't fix that homeowner experience without fixing the infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1646.285,
+            1655.968
+          ],
+          "quote": "And so whereas before we were laser focused on building the right system of record and the way that humans interact with that system of record is through defined UIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1663.774,
+            1668.638
+          ],
+          "quote": "Now it's like we get to do things like we just build our own harness on top of the system of record.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "escrow",
+      "type": "concept",
+      "role": "concept",
+      "name": "代管账户 (escrow)",
+      "file": "代管账户",
+      "primary": true,
+      "how_described": "本集举例说明旧系统缺陷:escrow 按月预留税费和保险、每年支付;法规本允许把涨幅摊到 36 个月,但旧系统只会按一年硬算,任何变通都要走人工审批。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            486.298,
+            490.52
+          ],
+          "quote": "One of them is there is this concept of the escrow when it comes to mortgages.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            593.882,
+            598.385
+          ],
+          "quote": "It's like the problem will happen five years later when someone's trying to make their escrow payment and it compounds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1036.303,
+            1046.809
+          ],
+          "quote": "Where you basically have to cover their mortgage regulations, you have to cover their debt collection practices, you have to cover their real estate foreclosure practices, you have to cover their privacy practices, their escrow practices.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1548.334,
+            1554.935
+          ],
+          "quote": "Whereas now you can spin up, I think you've got dozens of these different agents that can do like escrow analysis and sort of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "change-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "变革管理 (change management)",
+      "file": "变革管理",
+      "primary": true,
+      "how_described": "Andrew 的最大教训:『六年前我会说这是技术问题,今天我知道这是变革管理问题』——面对成千上万员工、各层各有目标函数的组织,变革在大规模下非常难,却是 AI 时代未来十年最大的价值驱动因素。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            2292.59,
+            2295.993
+          ],
+          "quote": "What I know today is that this is a change management problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2296.414,
+            2304
+          ],
+          "quote": "And so what we've spent the last six to 12 months building is really that change management muscle of just how do you navigate organizations?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": false,
+      "how_described": "本集说不是他们自己宣布达到 PMF,『是市场判定我们达到了』:软件推向市场六个月内签下超 2 亿美元合同,Rhythm 确认转移 400 万笔贷款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            2046.292,
+            2051.174
+          ],
+          "quote": "I would say actually in some ways, Andrew and I didn't decide that we hit product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2051.434,
+            2053.935
+          ],
+          "quote": "The market decided that we hit product market fit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (Generative AI)",
+      "file": "生成式 AI",
+      "primary": false,
+      "how_described": "本集提到公司创立时生成式 AI 还没跑通,如今这套干净数据本体成了 AI 应用的地基,让以前只能自动化的确定性片段扩展到长尾复杂场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.46,
+            56.742
+          ],
+          "quote": "We started the company before Generative AI was really working.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1393.669,
+            1402.792
+          ],
+          "quote": "Maybe, speaking of the bigger opportunity, you started the company before Generative AI was really working.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "non-qm-loans",
+      "type": "concept",
+      "role": "concept",
+      "name": "non-QM 贷款 (non-QM loans)",
+      "file": "non-QM 贷款",
+      "primary": false,
+      "how_described": "本集说他们因拿不到政府主要执照,选择从只需州执照的 non-QM 贷款切入,绕开先有鸡还是先有蛋的牌照困境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            848.176,
+            853.2
+          ],
+          "quote": "It's called, at the time, they're still pretty prevalent today, and they're actually, I think, growing, non-QM loans.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            856.544,
+            860.707
+          ],
+          "quote": "With state licenses, you need to pick the states that people actually make non-QM loans.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            2164.15,
+            2175.498
+          ],
+          "quote": "You know, these people, if you look at the people who've joined on, they have previously worked at or they had offers to go to work at, you know, obviously the standard thing companies, but OpenAI, Anthropic, all those type of things.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fannie-mae",
+      "type": "company",
+      "role": "company",
+      "name": "Fannie Mae",
+      "file": "Fannie Mae",
+      "primary": false,
+      "how_described": "本集说 Valen 的技术六七年里通过了每个州审查和 Fannie Mae、Freddie 等所有审计,以此证明系统的安全性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1174.574,
+            1190.428
+          ],
+          "quote": "And so you get safety because we built a servicer that actually used the technology and proved for the last, you know, six, seven years that it's gone through every state exam, every Fannie Mae audit, Freddie, Ginny, you know, all of the different sort of compliance hoops that you have to get through.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

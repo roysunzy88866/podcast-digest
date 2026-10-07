@@ -47,7 +47,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[数据中心]] · [[推理]] · [[Anthropic]] · [[AMD]] · [[供应链]] · [[Cerebrus]] · [[LLM]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":59,"OpenAI":173,"数据中心":22,"推理":82,"Anthropic":184,"AMD":5,"供应链":5,"Cerebrus":3,"LLM":57,"Microsoft":29}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":59,"OpenAI":174,"数据中心":22,"推理":82,"Anthropic":184,"AMD":5,"供应链":5,"Cerebrus":3,"LLM":57,"Microsoft":29}</script>
 
 <script>
 (function(){

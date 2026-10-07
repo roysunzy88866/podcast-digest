@@ -1,0 +1,137 @@
+===标题===
+一切都是还款服务:重写 13 万亿美元的抵押贷款遗留系统
+===导语===
+a16z 普通合伙人 Angela Strange 对谈 Valon 联合创始人 Andrew Wang 与 Linda Du,讲如何从零重建抵押贷款服务这条最古老的关键基础设施。
+===正文#
+这一集聊的是一个大多数科技公司看不上、但规模大到惊人的行业:抵押贷款服务(mortgage servicing,即房贷放出去之后几十年的收款、代管税费保险、催收、逾期处置等全部运营)。它是一个 13 万亿美元的消费债务市场,却主要运行在一家在位巨头的遗留系统上——那套系统是互联网发明之前设计的,架构可以追溯到 20 世纪 60 年代。a16z 普通合伙人 Angela Strange 请来 Valon 的两位联合创始人:CEO Andrew Wang 和 Linda Du,讲他们为什么选择了一条最痛苦的路——先自己当抵押贷款服务商,把几十年的监管写成代码,再把整套系统作为软件卖给全行业。Andrew 对自己创业起点的总结很妙:「数学变成了系统,系统变成了痛点,于是就有了今天的我们。」
+
+## 一个连 2000 年代技术都没追上的行业
+
+Linda 对这个市场的判断是:抵押贷款大概是现存未被颠覆的行业里排名前三的。别的行业创业是在和现代化在位者抢最后 20% 的份额,而这里「是一个甚至还没赶上 2000 年代技术的行业」——机会是全部,不是零头。
+
+这直接体现在普通房主身上。按时还款的人感觉不到差别,但一旦遭遇变故,落后系统的代价就会出现。Andrew 举了一个例子:遗留系统只保存房贷当下状态的快照,整段历史没有以足够保真度被记录,变更记录被丢在旁边的临时数据库里。于是当一位房主去世、子女想接管贷款时,他们拿不到之前的记录,申报州税、弄清来龙去脉都做不了,只能一遍遍向客服重复「我妈妈去世了,请把信息给我」。更常见的情况是付不起月供:房贷里的 escrow(代管账户,按月预存、按年支付税费和保险)近年因保险和税费暴涨而压力剧增,法规本允许把涨幅摊到 36 个月,但大多数系统只会按一年硬算,于是每一次都要走人工审批。
+
+Angela 总结了这件事的本质:遗留系统的数据模型从根上就无法对今天的世界建模,错误会在五年后 someone 付代管款时才爆发并复利式累积。「你可以拥有世界上最好的客户体验团队和最有同理心的呼叫中心客服,但如果记录系统有缺陷、你被多扣了钱,不修基础设施就无法修复房主的体验。」
+
+## 三条路里选了最痛的一条
+
+进入一个被在位者用旧技术锁死的行业,Valon 把三条路都想过:
+
+- **把软件卖给在位者**(像 Harvey 在法律行业那样)——行不通。行业监管太重,没有服务商敢用一个全新的系统;而且即使签下大牌客户,也只能按对方今天的做法定制,「十年后一觉醒来,你重建了一个遗留系统,只是带了个漂亮的 UI」。
+- **整合收购,买下几家在位者再注入技术**——问题是 IP:在别人的遗留平台上只能一个模块一个模块地换,这会迫使你做出错误的平台设计决策,而且产权理不清。
+- **从头构建整个东西**——他们创办了自己的服务商,软件从第一笔贷款起步、跟着业务一起长到近 100 万笔,「不看任何现成的东西」。
+
+起步要闯三关。第一关是牌照,而且到处是先有鸡还是先有蛋的问题:纽约州和 Fannie、Freddie 等监管方要求你拿执照前先盈利,例外极难拿。他们的解法是从只需要州牌照的 non-QM 贷款(一类非标准贷款)切入,但加州又要求有政府审批才能服务当地贷款,还得证明在催收、客服、付款处理、逾期、止赎每个环节有五年以上经验。整个牌照矩阵层层叠加,业内普遍预期最少三到五年。他们以「创纪录的三年」拿到纽约审批,却始终没拿到在纽约展业的许可——Andrew 甚至因为申请「被弄丢」,亲自跑到监管机构的收发室去核对包裹的物流追踪。
+
+第二关是把监管写进平台:联邦层面有 RESPA、TILA、FDCPA、GLBA、TCPA 一大堆法规,50 个州各有各的抵押贷款、债务催收、止赎、隐私、代管账户规则。他们的做法是像「重构整个法律代码库」一样,从各州条文的派生关系中提炼出一个能统一处理一切的抽象框架,再放进架构里测试。COVID 期间,Andrew 连续六个月每天花 18 个小时读法规、做标注、画示意图。「纯粹是靠毅力、努力、痛苦和煎熬」——Angela 笑称这是「史上最伟大的护城河」。之后还有五六年的测试验证。
+
+第三关是说服资产管理人把高度监管的资产交给一家新公司。这一关他们的答案反而最简单:单位经济性就是产品——技术做得越好、利润空间越大,把利润让给客户,而「所有持有这些房贷资产的资产管理公司都是经济动物」,降价就能让市场屈服。
+
+## 先做服务商,再卖软件:70% 到 80% 的利润率从哪来
+
+「先做服务商」从来不是迂回,而是一开始就写在 A 轮 60 页 PDF 融资稿里的「全面接管计划」。逻辑是:自建服务商让安全性可以被证明——同一套技术跑了六七年,通过了每一个州的审查和 Fannie Mae、Freddie 的审计;紧迫性则靠亲自下场竞争来制造,「你拿着你的软件,直接和未来的软件客户竞争」。结果是效率约为传统同行三倍,把一个盈亏平衡的生意变成大约 70% 到 80% 营业利润率的生意;第一个大客户签约后,飞轮自己转起来——「另外五个大块头会打电话给你说,嘿,你说要卖软件是认真的吗?」
+
+做到约 2000 亿美元未偿本金(UPB)规模后,他们把 Valon Mortgage 卖给了 Carrington,全力转向软件平台。Linda 解释为什么舍得:只做服务商,是把全部技术和超额收益留给自己,「说到底,你其实什么都没有改变,你没有修复核心基础设施的问题」。
+
+市场的验证来得很快:作为软件公司正式推向市场六个月内,签约合同超过 2 亿美元。Rithm(转写稿中的 Rhythm/New Res)决定把 400 万笔贷款——约占市场 10%、据称是有史以来最大规模的服务权转移——转给 Valon,底气正是多年子服务合作中看到的真实运营数据。Linda 还强调了他们的商业模式:一切以结果为导向,「客户每赚一美元、每省一美元,才是我们赚钱的时候」。
+
+## AI 时代:指挥智能体军团
+
+Valon 创立时生成式 AI 还没跑通,而整齐的数据本体让今天的 AI 如鱼得水。Andrew 说,以前只能自动化明确确定性的小片段;现在不仅能自动化长尾的复杂场景,更能「编排一组智能体去打电话联系房主、提供不同的方案、运行不同的工作流」,还能先做小规模模拟试验。一个具体场景:灾难发生后要逐一电话确认房主的还款能力和需求,传统服务商只能打印电子表格、把贷款清单分组分派人手;现在在产品里编排智能体、按地区差异化策略即可,还能做「冠军挑战者」式的对比试验——拿 100 笔贷款试不同策略,看哪种结果更好。这在过去不可能,因为给人类坐席的培训和指令细度撑不起这种迭代。
+
+对内,他们在记录系统之上自建 harness(统一调度模型与工具的框架)加经典聊天界面;对外,房主可以用语音 AI 或聊天 AI 与 ValonOS 交互——人机交互的形态第一次不再局限于「雇一群熟悉 UI 的操作员」。技术上的取舍也带着行业烙印:在抵押贷款领域,正确性远比花样重要,要对齐模型,让 harness 在不知道答案时回答「我不知道」,而不是编一个。
+
+但 Andrew 认为,这一阶段最大的挑战根本不是技术:「六年前我会告诉你这是一个技术问题。我今天知道,这是一个变革管理问题。」成千上万人的组织里,每个人都有略微不同的目标函数,变革要一层层穿过组织,「变革在大规模下真的、真的非常难——但对于我们所处的 AI 时代,它是未来十年最大的价值驱动因素」。能在这种角色里如鱼得水的人,他总结为:高主观能动性、高模糊容忍度、对客户有高同理心,既是最出色的问题解决者、又极其擅长与人打交道。
+
+## 一切都是还款服务
+
+为什么从房贷起步、却不止于房贷?Linda 给出一个视角:贷款服务是所有高度受监管行业的交汇点——任何涉及资金流动、某种监管、再加一个运营环节的生意,底层都是它。往旁边迈一步是商业地产,作为商业房贷服务商你能拿到租户的财务数据,可以像 Toast 借平台做小企业融资那样做信贷;再迈一步是医疗,「收入周期管理不过就是针对医院及其理赔的贷款服务」,而从里面拿到的数据实际上就是全部电子病历。他们先选房贷,只因为它粘性最强、最难最复杂——「为什么不先做这个,然后再去征服其余的。」甚至在住宅服务里,他们也把「收款」重做成了「每月给每位房主打一个电话、建立关系、掌握动态」——这是从前从未有人做过的事。
+
+## 本集带走
+
+- **打不进去,就自己成为行业**:在监管极重的行业卖新软件,没人敢用;收购改造会做出错误的设计决策、留下 IP 隐患。从零自建服务商,让软件跟着真实业务一起长大,是慢但唯一走得通的路。
+- **合规可以是护城河**:逐条读完联邦法规加 50 个州的规则,提炼成统一的抽象框架写进架构,再把后续五六年全部用来测试验证——痛苦本身就是壁垒。
+- **用自己的业务当「安全性的证明」**:先在自己身上承担全部运营风险,通过所有监管审计,再把同一套系统卖给竞争对手;定价上把效率红利让给客户,用真实利润率制造市场紧迫感。
+- **先修记录系统,再谈客户体验**:体验差的根因往往在底层——数据模型建错了世界,再好的客服也救不回被多扣的钱;同样,干净的数据本体是今天智能体编排的前提。
+- **企业级 AI 落地,难在变革管理而非技术**:大组织里人人目标函数不同,要一层层推动;招募具备高主观能动性、高同理心、又懂业务的问题解决者,配结果导向(客户省钱你才赚钱)的合作结构。
+
+> 【背景】Rithm 是美国大型房贷投资与服务公司,转写稿中先后被语音识别写作「Rhythm」和「New Res」,实为同一家。
+
+===金句===
+03:38 | Andrew Wang
+EN | Maybe I would say it started off with math. Math became systems, systems became pain, and here we are today.
+ZH | 也许我应该说,它始于数学。数学变成了系统,系统变成了痛点,于是就有了今天的我们。
+
+04:03 | Linda Du
+EN | The way that I think about it is mortgage is probably top three in terms of undisrupted industries that exist.
+ZH | 我的看法是,抵押贷款大概是现存未被颠覆的行业中排名前三的。
+
+04:56 | Linda Du
+EN | The skill set that people will be hiring for in the next decade is the ability to apply AI.
+ZH | 未来十年人们被招聘所看重的技能,是应用 AI 的能力。
+
+10:06 | Angela Strange
+EN | But if fundamentally you were charged the wrong amount of money because the system of record was flawed, then you can't fix that homeowner experience without fixing the infrastructure.
+ZH | 但如果从根本上讲,因为记录系统有缺陷,你被收取了错误的金额,那么不修复基础设施你就无法修复那个房主的体验。
+
+11:03 | Andrew Wang
+EN | It doesn't work for mortgage because it's so heavily regulated that no servicer is going to use a de novo system.
+ZH | 这在按揭领域行不通,因为它受到的监管太重,没有任何服务商愿意使用一个全新的系统。
+
+11:30 | Andrew Wang
+EN | And so you just run the risk that you wake up 10 years from now and you rebuild the legacy system. With like a really pretty UI.
+ZH | 所以你就要冒这样的风险:十年后一觉醒来,你重建了一个遗留系统,只是带了一个非常漂亮的 UI。
+
+17:00 | Andrew Wang
+EN | But what we ended up doing was reading every single regulation.
+ZH | 但我们最终做的事情,是逐条阅读每一项法规。
+
+18:07 | Andrew Wang
+EN | It was pure grit, effort, pain, suffering, all these different things.
+ZH | 那纯粹是靠毅力、努力、痛苦、煎熬,所有这些。
+
+19:09 | Andrew Wang
+EN | Unit economics and efficiency kind of largely was the product, meaning that the better we made the technology, the more margin we had.
+ZH | 单位经济性和效率基本上就是产品本身,也就是说,我们把技术做得越好,利润空间就越大。
+
+21:04 | Andrew Wang
+EN | But without our own servicer in the beginning, it would have been really hard to generate that.
+ZH | 但如果一开始没有我们自己的服务商,要产生那种效果真的会很难。
+
+22:24 | Linda Du
+EN | And the thing is, is that if you keep it as a servicer, you're keeping all of the technology and the alpha for yourself.
+ZH | 问题是,如果你把它留作一个服务商,你就把所有的技术和超额收益都留给了自己。
+
+23:03 | Angela Strange
+EN | We got to save the world from mainframes.
+ZH | 我们得把世界从大型主机手里救出来。
+
+25:59 | Andrew Wang
+EN | It's a completely different world where before you could only automate things that were clearly deterministic.
+ZH | 这是一个完全不同的世界,以前你只能自动化那些明确是确定性的东西。
+
+26:38 | Andrew Wang
+EN | But really beyond that, it's that you can orchestrate a very wide variety of scenarios for your agents to handle.
+ZH | 但真正超出这一点的是,你可以为你的智能体编排非常广泛多样的场景让它们去处理。
+
+31:39 | Linda Du
+EN | It turns out revenue cycle management is just servicing for hospitals and their claims.
+ZH | 结果发现,收入周期管理不过就是针对医院及其理赔的贷款服务。
+
+34:11 | Linda Du
+EN | Andrew and I didn't decide that we hit product market fit. The market decided that we hit product market fit.
+ZH | 我和 Andrew 并不是我们自己判定我们达到了产品市场契合,是市场判定我们达到了产品市场契合。
+
+35:12 | Linda Du
+EN | It's for every dollar that our customer earns or for every dollar that our customer saves, that's when we earn as well.
+ZH | 也就是说,我们的客户每赚一美元,或者我们的客户每省下一美元,那也是我们赚钱的时候。
+
+38:12 | Andrew Wang
+EN | Six years ago, I would have told you, you know, this is a technology problem. What I know today is that this is a change management problem.
+ZH | 六年前,我会告诉你,这是一个技术问题。我今天知道的是,这是一个变革管理问题。
+
+38:28 | Andrew Wang
+EN | And it turns out change is really, really hard at scale. But it is, I think, for this moment that we're in with AI, the number one biggest value driver for the next decade.
+ZH | 而事实证明,变革在大规模下真的、真的非常难。但我认为,对于我们所处的这个 AI 时代,它是未来十年最大的价值驱动因素。
+
+===END===

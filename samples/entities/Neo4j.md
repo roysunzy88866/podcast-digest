@@ -7,27 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Neo4j</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Neo4j">NE</div><div class="pi"><h1 class="pt">Neo4j</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Neo4j">NE</div><div class="pi"><h1 class="pt">Neo4j</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(12:06起):本集故事里开发者为找关联关系装了 Neo4j，导致 DBA 每周的会议从一个涨到六个
 - **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(00:25起):本集嘉宾所在的公司,做图和图数据库;演讲里云端与树莓派本地都跑着 Neo4j 数据库来存储记忆图谱,还提供智能体记忆服务(agent memory service)把全部 WhatsApp 消息蒸馏成记忆。
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(06:16起):Architect 使用的图数据库，一个实例装九个数据库、用组合查询一起查
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q4]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Kay Malcolm]] · [[Jeremy Adams]] · [[Oracle]] · [[智能体记忆]] · [[harness]] · [[NanoClaw]] · [[记忆]] · [[树莓派]] · [[上下文窗口]]
+[[智能体]] · [[Kay Malcolm]] · [[Jeremy Adams]] · [[Matt Jones]] · [[Oracle]] · [[智能体记忆]] · [[Adyen]] · [[harness]] · [[NanoClaw]] · [[Architect]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"Kay Malcolm":1,"Jeremy Adams":1,"Oracle":9,"智能体记忆":2,"harness":60,"NanoClaw":1,"记忆":25,"树莓派":2,"上下文窗口":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"Kay Malcolm":1,"Jeremy Adams":1,"Matt Jones":1,"Oracle":9,"智能体记忆":2,"Adyen":2,"harness":60,"NanoClaw":1,"Architect":1}</script>
 
 <script>
 (function(){

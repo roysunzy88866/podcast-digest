@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
+[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Conductor":2,"Claude Code":97,"Anthropic":184,"OpenAI":173,"编码智能体":27,"工作流":13,"沙箱":79,"协作":2,"多工作树":1,"上下文":28}</script>
+<script type="application/json" class="pd-epn">{"Conductor":2,"Claude Code":97,"Anthropic":184,"OpenAI":174,"编码智能体":27,"工作流":13,"沙箱":79,"协作":2,"多工作树":1,"上下文":28}</script>
 
 <script>
 (function(){

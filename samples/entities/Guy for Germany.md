@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
+[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Simon Boudrien":1,"Datadog":8,"智能体":430,"评估":5,"上下文":28,"Cursor":82,"开源权重模型":2,"代码审查":24,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Simon Boudrien":1,"Datadog":8,"智能体":433,"评估":5,"上下文":28,"Cursor":82,"开源权重模型":2,"代码审查":24,"上下文腐烂":4}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":184,"智能体":430,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":184,"智能体":433,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

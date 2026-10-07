@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":430,"基于结果的付费":4,"垃圾话":9,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":3}</script>
+<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":433,"基于结果的付费":4,"垃圾话":9,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":3}</script>
 
 <script>
 (function(){

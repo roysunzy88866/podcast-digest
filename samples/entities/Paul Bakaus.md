@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
+[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":60,"品味":15,"智能体":430,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":97,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":60,"品味":15,"智能体":433,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":97,"形容词引导设计":1}</script>
 
 <script>
 (function(){

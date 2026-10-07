@@ -75,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[Salesforce]] · [[Lenny]] · [[前向部署工程师]] · [[Vercel]] · [[Cursor]] · [[产品市场契合]] · [[MCP]] · [[OpenAI]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"Salesforce":34,"Lenny":68,"前向部署工程师":2,"Vercel":19,"Cursor":82,"产品市场契合":27,"MCP":79,"OpenAI":173,"PLG":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"Salesforce":34,"Lenny":68,"前向部署工程师":2,"Vercel":19,"Cursor":82,"产品市场契合":28,"MCP":80,"OpenAI":174,"PLG":12}</script>
 
 <script>
 (function(){

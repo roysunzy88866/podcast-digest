@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>173</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>174</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -181,10 +181,11 @@ unlisted: true
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(00:28起):本集把它列为『看似 LLM AI 公司、最终都会变成生物技术公司』的巨头之一,并提到它正进入与医学和慈善相关的有趣领域。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(01:05起):本集说 Diogo 曾在此工作四年半、参与 InstructGPT 与 RLHF；也批评其过度拒绝回滚、客服 demo 六年未解决。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(02:25起):Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。
+- **[[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]]**(36:04起):本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。
 
 ## ① 提到它的金句
 
-*31 条*
+*32 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -224,6 +225,8 @@ unlisted: true
 
 ![[2026-08-31-dwarkesh-openai-huggingface-narration#^q8]]
 
+![[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl#^q1]]
+
 ![[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo#^q9]]
 
 ![[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef#^q4]]
@@ -250,7 +253,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*173 集*
+*174 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -425,6 +428,7 @@ unlisted: true
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为被讨论公司
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
+- [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -432,7 +436,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"Anthropic":184,"ChatGPT":99,"推理":82,"Google":64,"Cursor":82,"NVIDIA":59,"Codex":80,"Claude":91,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"Anthropic":184,"ChatGPT":99,"推理":82,"Google":64,"Cursor":82,"NVIDIA":59,"Codex":80,"Claude":91,"Stripe":48}</script>
 
 <script>
 (function(){

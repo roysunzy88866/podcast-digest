@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":19,"ChatGPT":99,"物理 AI":10,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":25}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":20,"ChatGPT":99,"物理 AI":10,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":25}</script>
 
 <script>
 (function(){

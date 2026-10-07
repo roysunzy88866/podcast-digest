@@ -25,7 +25,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Harvey]] · [[a16z]] · [[Claude]] · [[Meta]] · [[Decagon]] · [[Eleven Labs]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"OpenAI":173,"Cursor":82,"Harvey":19,"a16z":18,"Claude":91,"Meta":47,"Decagon":9,"Eleven Labs":9,"Anthropic":184}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"OpenAI":174,"Cursor":82,"Harvey":19,"a16z":18,"Claude":91,"Meta":47,"Decagon":9,"Eleven Labs":9,"Anthropic":184}</script>
 
 <script>
 (function(){

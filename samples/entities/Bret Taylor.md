@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":7,"智能体":430,"基于结果的定价":4,"应用 AI":1,"前沿模型":26,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":79}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":7,"智能体":433,"基于结果的定价":4,"应用 AI":1,"前沿模型":26,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":80}</script>
 
 <script>
 (function(){

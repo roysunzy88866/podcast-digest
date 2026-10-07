@@ -1,0 +1,805 @@
+{
+  "episode_id": "2026-10-05-talks-the-transcript-looked-fine-the-call-wasn",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "tags": [
+    "语音智能体",
+    "可观测性",
+    "AI 评估",
+    "追踪与调试",
+    "智能体基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "fuad",
+      "type": "person",
+      "role": "host",
+      "name": "Fuad",
+      "file": "Fuad",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.451,
+            24.332
+          ],
+          "quote": "My name is Fuad.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1056.848,
+            1057.668
+          ],
+          "quote": "My name is Fuad Ali.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "arise",
+      "type": "company",
+      "role": "company",
+      "name": "Arise",
+      "file": "Arise",
+      "primary": true,
+      "how_described": "本集嘉宾 Fuad 所在的公司；讲者介绍其语音 trace 会话视图、音频专属评估、agent experiments（「带追踪的 Postman」）等新功能，并强调演讲不是产品推销。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.492,
+            26.393
+          ],
+          "quote": "I'm a product manager here at Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            43.276,
+            52.563
+          ],
+          "quote": "I'll be talking a little bit about voice traces, session views of voices, voice evals, and some of the stuff that's new in Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            61.67,
+            62.652
+          ],
+          "quote": "You can use Arise to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            264.511,
+            268.592
+          ],
+          "quote": "And these are some of the features we've just released at the beginning of this month in Arise AX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            320.58,
+            335.204
+          ],
+          "quote": "So Arise gives you that one trace view where you can actually play the audio inline, view the transcript, view latency inline, see the conversation turn between the user and the assistant, and see your evals inline as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            347.376,
+            351.559
+          ],
+          "quote": "So if you guys aren't familiar, Arise was first to market with OpenInference in 2023.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            508.863,
+            513.928
+          ],
+          "quote": "And I'll just show you a quick sneak preview of what this looks like in Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            659.219,
+            664.02
+          ],
+          "quote": "And so we have kind of the tooling available in Arise to be able to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            689.997,
+            693.86
+          ],
+          "quote": "Being able to run these agent as a judge workflows in Arise starts to become really important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            710.533,
+            713.996
+          ],
+          "quote": "So really easy to get started with evals in Arise through skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            725.805,
+            727.847
+          ],
+          "quote": "And Arise will kind of take care of all the rest for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            742.658,
+            744.18
+          ],
+          "quote": "And this is part of why Arise exists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            781.48,
+            784.062
+          ],
+          "quote": "And that's why some of this is really powerful in Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            842.01,
+            848.792
+          ],
+          "quote": "And then from that loop, you can start to get some really, really cool continuous improvement loops within the Arise platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            871.825,
+            874.086
+          ],
+          "quote": "So we just released agent experiments as well in Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            943.48,
+            952.325
+          ],
+          "quote": "That is the future that I think we want to see at Arise where self-healing software and continuous improvement are realities for everyone who's building agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            966.274,
+            969.277
+          ],
+          "quote": "So use Arise, don't use Arise, start tracing your audio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            969.938,
+            973.682
+          ],
+          "quote": "The second part of this is actually starting to do that analysis, and we would recommend Arise to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            994.911,
+            998.472
+          ],
+          "quote": "Try using the Arise skills to actually create that eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1045.745,
+            1048.006
+          ],
+          "quote": "It gives you a year of Arise Pro for free.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "voice-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agent)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集主线概念：打电话给你、帮你办事的 AI（如麦当劳、White Castle 点餐机器人），增长极快但「不可见」——转录文本看着正常，实际通话里的延迟、压话、听错等问题全被掩盖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            33.759,
+            38.262
+          ],
+          "quote": "A quick show of hands here, maybe online too, who here is building a voice agent?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openinference",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenInference",
+      "file": "OpenInference",
+      "primary": true,
+      "how_described": "本集说它是 Arise 2023 年首发的完全开源语义约定，把 GenAI 运行时发生的事映射到符合 OTEL 的规范上；本集把音频的语义约定映射到它上面，实现提供商无关的统一可查询 schema。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            340.432,
+            346.916
+          ],
+          "quote": "Under the hood, what this looks like is we've actually mapped the semantic conventions for audio onto OpenInference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            347.376,
+            351.559
+          ],
+          "quote": "So if you guys aren't familiar, Arise was first to market with OpenInference in 2023.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            959.366,
+            961.028
+          ],
+          "quote": "Add the OpenInference instrumenter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "otel",
+      "type": "concept",
+      "role": "concept",
+      "name": "OTEL",
+      "file": "OTEL",
+      "primary": true,
+      "how_described": "本集称 OpenInference 符合 OTEL 规范，是把 GenAI 数据规范化的开放标准基础，可发往 Grafana 等任何后端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            352.399,
+            362.666
+          ],
+          "quote": "It is the first set of semantic conventions that is completely open source that maps kind of what is happening with GenAI to an OTEL-compliant set of conventions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            961.668,
+            964.011
+          ],
+          "quote": "Open source, free to use, OTEL compliant.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪 (trace)",
+      "file": "追踪",
+      "primary": true,
+      "how_described": "本集核心方法：把音频、转录文本、trace 放进同一会话视图，逐个 span 可见、内联播放音频、看工具调用与指标的关联；「日志会说谎」，只有 trace 能揭示真实失败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            244.706,
+            257.769
+          ],
+          "quote": "So that means the audio, the transcript, and the trace all in one place, the session as a whole, so multiple turns from the user back and forth in the same trace view, and then metrics on those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            287.604,
+            289.425
+          ],
+          "quote": "So first off, you've got to trace it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            292.307,
+            296.549
+          ],
+          "quote": "You've got to see the live audio and play it in line from your trace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            320.58,
+            335.204
+          ],
+          "quote": "So Arise gives you that one trace view where you can actually play the audio inline, view the transcript, view latency inline, see the conversation turn between the user and the assistant, and see your evals inline as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            477.78,
+            480.981
+          ],
+          "quote": "You can actually play the audio in the UI directly from the trace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            481.661,
+            486.062
+          ],
+          "quote": "No external tooling, no exports, just play it straight from the trace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            503.301,
+            507.623
+          ],
+          "quote": "You're really understanding the failure cases from there with the trace open right next to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            530.902,
+            538.777
+          ],
+          "quote": "So you're no longer looking at disparate events from distant systems, but you're actually looking at the entire trace tree for everything that happened in that session.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            728.347,
+            742.258
+          ],
+          "quote": "The CLI under the hood is able to query spans, do some trace analysis, filter for the spans that are audio specific, actually create that eval, deploy it, and put it against traces and spans in your actual system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集强调语音需要音频专属评估：基于实际音频做情感/语调分类、首个音频时间 SLA、打断与转录漂移；评估分数挂到 span 上可触发调查智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            714.837,
+            725.265
+          ],
+          "quote": "It is literally as simple as, hey Claude, create an audio eval for me for sentiment analysis using GPT audio, and catch frustrated user tone on those audio spans.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            728.347,
+            742.258
+          ],
+          "quote": "The CLI under the hood is able to query spans, do some trace analysis, filter for the spans that are audio specific, actually create that eval, deploy it, and put it against traces and spans in your actual system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            776.172,
+            779.553
+          ],
+          "quote": "You actually have the eval scores in line with the exact audio that you're looking at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            784.563,
+            794.37
+          ],
+          "quote": "Being able to see those eval outputs directly on the spans that are relevant helps you kind of get a full understanding of what is going wrong with the user interaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            986.027,
+            994.771
+          ],
+          "quote": "And start evaluating how these interactions are actually going and whether they're accomplishing your use cases, whether it's a tone or latency eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            994.911,
+            998.472
+          ],
+          "quote": "Try using the Arise skills to actually create that eval.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集的关键指标：案例里用户请求后出现 2.4 秒死寂，「首个音频时间」的 SLA 对客服用例仍然非常重要，要能标记打破指标的情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            114.375,
+            120.298
+          ],
+          "quote": "And things like latency, turn-taking, and transcription drift become really, really important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            210.588,
+            215.409
+          ],
+          "quote": "And there was a big latency spike after the user asked for the initial refund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            257.829,
+            259.67
+          ],
+          "quote": "So what was the latency like?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            320.58,
+            335.204
+          ],
+          "quote": "So Arise gives you that one trace view where you can actually play the audio inline, view the transcript, view latency inline, see the conversation turn between the user and the assistant, and see your evals inline as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            621.866,
+            625.368
+          ],
+          "quote": "Latency is really, really important in audio, and it's important in a few use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            750.124,
+            753.345
+          ],
+          "quote": "With sub-second query latency, it becomes really hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            908.181,
+            911.523
+          ],
+          "quote": "Tracing that to validate that the latency actually decreases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            917.006,
+            919.587
+          ],
+          "quote": "Hey, I found out why the latency was high.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            936.616,
+            937.977
+          ],
+          "quote": "Here's how latency decreased.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            986.027,
+            994.771
+          ],
+          "quote": "And start evaluating how these interactions are actually going and whether they're accomplishing your use cases, whether it's a tone or latency eval.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复出现的通用概念：从语音智能体、调查智能体、SRE 智能体到「智能体当裁判」，描绘了智能体自动定位失败、提修复、重放验证并提交 PR 的自愈软件图景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            33.759,
+            38.262
+          ],
+          "quote": "A quick show of hands here, maybe online too, who here is building a voice agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            173.473,
+            176.274
+          ],
+          "quote": "Agent says, sure, start a refund for order 40.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            178.694,
+            180.535
+          ],
+          "quote": "And it looks like the agent corrected itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            197.883,
+            208.927
+          ],
+          "quote": "So if you notice in the transcript, if you could hear the audio there, the confirmation on the 40 wasn't actually done by the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            216.41,
+            225.093
+          ],
+          "quote": "So what actually happened was that 2.4 seconds of dead air before the agent actually responded, the agent talking over the caller.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            489.517,
+            496.679
+          ],
+          "quote": "When the agent paused, where it got cut off, where the user got cut off, what tools the agent actually went and called when it did this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            514.808,
+            521.474
+          ],
+          "quote": "As you can see here, this is an example of an agent that can call to get a specific weather event.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            521.954,
+            526.058
+          ],
+          "quote": "You can actually see when the agent kicks off that tool call in line with the rest of the audio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            555.782,
+            564.648
+          ],
+          "quote": "We saw in turn three that the agent actually spoke over the caller's interaction, which is not a good look for any assistant, especially one that's trying to be helpful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            584.978,
+            592.062
+          ],
+          "quote": "But with the session view, you can actually scrub the audio and find those failure surfaces within the tools, within what the agent is doing as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            675.386,
+            688.796
+          ],
+          "quote": "And as you start to scale up, your LM as a judge evals or even move to agent as a judge that are doing complex tasks like, for example, doing RBAC checks and making sure the agent actually accessed the system it was supposed to have access to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            689.997,
+            693.86
+          ],
+          "quote": "Being able to run these agent as a judge workflows in Arise starts to become really important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            807.7,
+            809.542
+          ],
+          "quote": "Where is my agent failing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            815.006,
+            817.449
+          ],
+          "quote": "Is there a new edge case I need to code for in my agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            852.214,
+            868.423
+          ],
+          "quote": "And the idea is once you observe and you have the data available to you, then you evaluate and you have the scores in line with your observations, then you can start to kick off fixes, whether they're fixes that you make or whether they're fixes that an agent is automatically making on behalf of you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            871.825,
+            874.086
+          ],
+          "quote": "So we just released agent experiments as well in Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            874.767,
+            878.229
+          ],
+          "quote": "Agent experiments, you can think of it kind of like Postman with tracing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            889.874,
+            907.361
+          ],
+          "quote": "And then you have SRE agents, so not an actual engineer that you hire, but an SRE agent that's looking through the traces, understanding the failure modes, hypothesizing a fix, and then actually standing up a fix for you in dev, replaying those failed traces for you against that fixed endpoint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            922.929,
+            925.33
+          ],
+          "quote": "And so we were passing in way too much information to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1007.235,
+            1010.096
+          ],
+          "quote": "You wouldn't be OK with this happening at the coding agent level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1010.476,
+            1014.998
+          ],
+          "quote": "You wouldn't be OK with it happening for an agent that's able to execute stocks on Robinhood.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1015.518,
+            1021.36
+          ],
+          "quote": "You shouldn't be OK with it, though the stakes might seem a little lower for a McDonald's agent that's ordering you a cheeseburger either.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "observability",
+      "reason": "专名「observability」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

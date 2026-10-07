@@ -39,17 +39,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Bob Safian]] · [[ON]] · [[light spray]] · [[Clean Cloud 泡沫]] · [[创新]] · [[高端(非奢侈)定位]] · [[运动阶层]] · [[股权替代代言]] · [[合伙制领导]] · [[社会变迁造品牌]]
+[[Bob Safian]] · [[ON]] · [[light spray]] · [[Clean Cloud 泡沫]] · [[创新]] · [[高端(非奢侈)定位]] · [[运动阶层]] · [[股权]] · [[合伙制领导]] · [[社会变迁造品牌]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
+[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权替代代言":1,"合伙制领导":1,"社会变迁造品牌":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权":2,"合伙制领导":1,"社会变迁造品牌":1}</script>
 
 <script>
 (function(){

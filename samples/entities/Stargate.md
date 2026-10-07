@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sachin Katti]] · [[Matt Turk]] · [[OpenAI]] · [[数据中心]] · [[液冷]] · [[Jalapeno]] · [[MRC]] · [[推理]] · [[GPU]] · [[核能]]
 
-<script type="application/json" class="pd-epn">{"Sachin Katti":1,"Matt Turk":4,"OpenAI":173,"数据中心":22,"液冷":1,"Jalapeno":1,"MRC":1,"推理":82,"GPU":24,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Sachin Katti":1,"Matt Turk":4,"OpenAI":174,"数据中心":22,"液冷":1,"Jalapeno":1,"MRC":1,"推理":82,"GPU":24,"核能":1}</script>
 
 <script>
 (function(){

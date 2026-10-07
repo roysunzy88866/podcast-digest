@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Waymo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|《沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人》]]**(42:34起):本集以 Waymo 为机器人/AI 历史参照：垂直整合地收集高质量数据、预训练、再泛化。
 - **[[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|《Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时》]]**(09:32起):本集把它当作 AI 获得真正主观能动性(不靠人介入就能做生死攸关决定)的最直观例子:投入足够的钱、护栏和训练,人就敢坐进去。
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(22:31起):本集提到 Waymo 作为自动驾驶领域的强力玩家之一，讨论它和 Tesla 谁更威胁时认为赢家不会只有两个
+- **[[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|《公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南》]]**(04:16起):本集举的著名大公司分拆案例:Google 分拆了 Waymo,让它独立融资验证估值,并给 AI 人才一种「这会是万亿美元公司」的激励货币。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(61:17起):Molly 判断「哪些工作该交出去」的参照系：任何坐过 Waymo 的人都会意识到开车从根本上就是代码和系统，人类真不擅长被自动化
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(25:20起):本集用 Waymo 数百万英里数据说明它比人类司机安全 10-14 倍，而全美不到 1 万辆，扩散才刚起步。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(40:30起):本集用『坐进 Waymo 无人车根本没多想』作类比,说明人们对清醒状态下直接测量神经系统这道心理关卡终将习惯。
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
@@ -57,6 +58,7 @@ unlisted: true
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为被讨论公司
 - [[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|《Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时》]] — 作为被讨论公司
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
+- [[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|《公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南》]] — 作为被讨论公司(提及)
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
@@ -68,7 +70,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Tesla]] · [[Anthropic]] · [[OpenAI]] · [[Lenny]] · [[物理 AI]] · [[NVIDIA]] · [[推理]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"ChatGPT":99,"Tesla":11,"Anthropic":184,"OpenAI":173,"Lenny":68,"物理 AI":10,"NVIDIA":59,"推理":82,"Google":64}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"ChatGPT":99,"Tesla":11,"Anthropic":184,"OpenAI":174,"Lenny":68,"物理 AI":10,"NVIDIA":59,"推理":82,"Google":64}</script>
 
 <script>
 (function(){

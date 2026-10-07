@@ -31,7 +31,7 @@ unlisted: true
 
 [[Astro Teller]] · [[X]] · [[Alphabet]] · [[Waymo]] · [[Google Brain]] · [[登月项目]] · [[终止标准]] · [[可检验假设]] · [[登月市场匹配]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":3,"Alphabet":1,"Waymo":19,"Google Brain":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":27}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":3,"Alphabet":1,"Waymo":20,"Google Brain":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":28}</script>
 
 <script>
 (function(){

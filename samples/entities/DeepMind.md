@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Harvey]] · [[后训练]] · [[Cursor]] · [[Microsoft]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"OpenAI":173,"Google":64,"Anthropic":184,"ChatGPT":99,"Harvey":19,"后训练":1,"Cursor":82,"Microsoft":29,"Gemini":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"OpenAI":174,"Google":64,"Anthropic":184,"ChatGPT":99,"Harvey":19,"后训练":1,"Cursor":82,"Microsoft":29,"Gemini":15}</script>
 
 <script>
 (function(){

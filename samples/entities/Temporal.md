@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[持久化执行]] · [[护栏]] · [[Kubernetes]] · [[Signal]] · [[人在回路]] · [[工作流]] · [[Postgres]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"智能体":430,"MCP":79,"持久化执行":5,"护栏":80,"Kubernetes":16,"Signal":3,"人在回路":21,"工作流":13,"Postgres":4,"Snowflake":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":433,"MCP":80,"持久化执行":5,"护栏":80,"Kubernetes":16,"Signal":3,"人在回路":21,"工作流":13,"Postgres":4,"Snowflake":19}</script>
 
 <script>
 (function(){

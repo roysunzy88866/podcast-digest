@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":2,"智能体":430,"智能体记忆":2,"NanoClaw":1,"树莓派":2,"MCP 服务器":2,"Docker":6,"Claude Agent SDK":2,"推理":82,"OpenClaw":23}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":3,"智能体":433,"智能体记忆":2,"NanoClaw":1,"树莓派":2,"MCP 服务器":2,"Docker":6,"Claude Agent SDK":2,"推理":82,"OpenClaw":23}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":25,"Neon":3,"Parallel":6,"Devin":4,"智能体":430,"沙箱":79,"突发负载":1,"裸金属":2,"计算机使用":21}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":25,"Neon":3,"Parallel":6,"Devin":4,"智能体":433,"沙箱":79,"突发负载":1,"裸金属":2,"计算机使用":21}</script>
 
 <script>
 (function(){

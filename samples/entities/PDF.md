@@ -25,7 +25,7 @@ unlisted: true
 
 [[Adit Abraham]] · [[Reducto]] · [[智能体]] · [[RAG]] · [[VLM]] · [[OCR]] · [[harness]] · [[评估]] · [[嵌入模型]] · [[目标检测]]
 
-<script type="application/json" class="pd-epn">{"Adit Abraham":1,"Reducto":1,"智能体":430,"RAG":24,"VLM":4,"OCR":3,"harness":60,"评估":5,"嵌入模型":4,"目标检测":2}</script>
+<script type="application/json" class="pd-epn">{"Adit Abraham":1,"Reducto":1,"智能体":433,"RAG":24,"VLM":4,"OCR":3,"harness":60,"评估":5,"嵌入模型":4,"目标检测":2}</script>
 
 <script>
 (function(){

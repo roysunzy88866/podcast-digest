@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aaron Levie]] · [[Box]] · [[智能体]] · [[应用层]] · [[LLM 套壳]] · [[harness]] · [[评估]] · [[开放权重]] · [[MCP]] · [[记录系统]]
 
-<script type="application/json" class="pd-epn">{"Aaron Levie":2,"Box":4,"智能体":430,"应用层":4,"LLM 套壳":1,"harness":60,"评估":5,"开放权重":8,"MCP":79,"记录系统":6}</script>
+<script type="application/json" class="pd-epn">{"Aaron Levie":2,"Box":4,"智能体":433,"应用层":4,"LLM 套壳":1,"harness":60,"评估":5,"开放权重":8,"MCP":80,"记录系统":7}</script>
 
 <script>
 (function(){

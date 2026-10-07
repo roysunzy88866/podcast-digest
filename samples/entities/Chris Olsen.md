@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
+[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":2,"Sequoia":7,"Path Robotics":1,"LLM":57,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":27,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":2,"Sequoia":7,"Path Robotics":1,"LLM":57,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":28,"第一性原理":6}</script>
 
 <script>
 (function(){

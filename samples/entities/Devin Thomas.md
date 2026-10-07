@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Kelligan":1,"Obliteration":1,"护栏":80,"红队测试":6,"开源模型":4,"前沿模型":26,"智能体":430,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Jason Kelligan":1,"Obliteration":1,"护栏":80,"红队测试":6,"开源模型":4,"前沿模型":26,"智能体":433,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
 
 <script>
 (function(){

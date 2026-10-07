@@ -1,0 +1,1541 @@
+{
+  "episode_id": "2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your",
+  "podcast": "Beyond Coding",
+  "date": "2026-10-07",
+  "tags": [
+    "智能体",
+    "图数据库",
+    "内部工具",
+    "数据管道",
+    "MCP"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "matt-jones",
+      "type": "person",
+      "role": "host",
+      "name": "Matt Jones",
+      "file": "Matt Jones",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            56.517,
+            61.481
+          ],
+          "quote": "This is Matt Jones, staff engineer at Adyen, and he built the thing every engineer wants right now.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "adyen",
+      "type": "company",
+      "role": "company",
+      "name": "Adyen",
+      "file": "Adyen",
+      "primary": true,
+      "how_described": "嘉宾 Matt Jones 任职的支付公司（有 20 年历史的代码库），Architect 是其内部系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            56.517,
+            61.481
+          ],
+          "quote": "This is Matt Jones, staff engineer at Adyen, and he built the thing every engineer wants right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1032.748,
+            1040.372
+          ],
+          "quote": "As our team at Adyen, we wanted to start getting a much bigger picture on how the platform really fits together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3444.263,
+            3448.004
+          ],
+          "quote": "We have a team at Adyen who's also looking into knowledge graphs as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "architect",
+      "type": "concept",
+      "role": "concept",
+      "name": "Architect",
+      "file": "Architect",
+      "primary": true,
+      "how_described": "本集主线：Adyen 内部把全公司技术栈放进一个 Neo4j 实例九张图的知识底座，供工程师和智能体查询依赖关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            224.136,
+            231.318
+          ],
+          "quote": "And the good thing with Architect is because it's kind of away from our main modern repo, a little bit more freedom there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            231.838,
+            238.38
+          ],
+          "quote": "So the fact that I was using so many agents at the same time in order to quickly build out Architect...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            376.086,
+            380.73
+          ],
+          "quote": "So we use Neo4j and Architect and, you know, we got a little, we got a container with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            413.463,
+            426.29
+          ],
+          "quote": "And then kind of one of the nice things around this as well is that creates a good foundation for some of the things that Architect will be doing in the future, where we'll start going down the lines of automatically fixing things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            426.93,
+            435.012
+          ],
+          "quote": "It's like we can generate reports in Architect and we can then, well, anti-pattern monitoring and things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            466.614,
+            472.017
+          ],
+          "quote": "I want to get into what architect is, but first, architect is not something you're selling.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            541.574,
+            545.316
+          ],
+          "quote": "And, you know, we, you know, as the days before Architect,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            589.121,
+            592.662
+          ],
+          "quote": "But I mean, yeah, I mean, we'll kind of chat about it a bit more with Architect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            634.756,
+            655.276
+          ],
+          "quote": "And you know, with Adrian, with Architect, we have this factual layer of information where, you know, if an agent needs to know something about our code base, it could go through the code, but that's going to burn tokens, it's going to burn time, or it can just actually make one query to get the code or get the relationships or get the dependencies or whatever from Architect in order to get it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            801.309,
+            805.832
+          ],
+          "quote": "Especially, I mean, when we built Architect and we built the MCP,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            812.377,
+            815.699
+          ],
+          "quote": "And then it's the most used entry point for Architect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            823.363,
+            828.545
+          ],
+          "quote": "And it's like, well, that now has Architect because it turns out Architect has a lot of data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            852.393,
+            856.294
+          ],
+          "quote": "If I ask you what is Architect, because we've named it a few times, how would you define it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            859.154,
+            861.555
+          ],
+          "quote": "So, Architect is...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1119.368,
+            1121.189
+          ],
+          "quote": "And that's kind of where Architect was born.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2023.18,
+            2026.242
+          ],
+          "quote": "specific on with Architect is that we don't own the data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2270.511,
+            2276.433
+          ],
+          "quote": "And it was, you know, it's interesting because Architect was almost like co-written with AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2291.037,
+            2295.819
+          ],
+          "quote": "So all the decisions, every, you know, all of the principles that we have for Architect, it's all there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2337.624,
+            2339.846
+          ],
+          "quote": "So Architect for us has written all in Java.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3155.388,
+            3164.254
+          ],
+          "quote": "So we've built a sub-product of Architect called Sentinel, which is essentially reporting and anti-pattern rule monitoring and things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3453.247,
+            3456.929
+          ],
+          "quote": "And, you know, for us, an architect, it's just like, yeah, it's another ingestion source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3500.713,
+            3506.276
+          ],
+          "quote": "For example, with Architect at the moment, we do generate weekly release notes and we will publish them to Confluence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3971.424,
+            3980.272
+          ],
+          "quote": "You know, we, you know, even with Architect, it's when we were talking to people there, you know, there were mentions that, you know, all service graphs kind of exist here, there, and everywhere.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4005.285,
+            4014.236
+          ],
+          "quote": "And we need to be okay with taking those risks in order to do it because taking a risk like building Architect four years ago was a big risk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4037.318,
+            4040.942
+          ],
+          "quote": "I mean, you know, we build our architect ground up, you know, getting into production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 967,
+          "t": [
+            4350.075,
+            4354.856
+          ],
+          "quote": "I was wondering if you had the idea of building a CLI tool for Architect or any of the internal products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 972,
+          "t": [
+            4371.9,
+            4378.222
+          ],
+          "quote": "I have a direct connection to our Architect MCP, which I'm not supposed to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 978,
+          "t": [
+            4385.105,
+            4401.693
+          ],
+          "quote": "So I've got that one, and then, I don't know, Victoria Metrics, kind of MCP, and that's kind of it, because that allows me to just go, okay, infrastructure, and then grab some metrics, and then that answers most of my questions until I can ingest Prometheus into Architect.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "concept",
+      "role": "concept",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": true,
+      "how_described": "Architect 使用的图数据库，一个实例装九个数据库、用组合查询一起查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            376.086,
+            380.73
+          ],
+          "quote": "So we use Neo4j and Architect and, you know, we got a little, we got a container with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            884.201,
+            891.364
+          ],
+          "quote": "Nine databases inside of this one Neo4j instance, and then we can use Neo4j's composite queries to be able to query all of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1121.209,
+            1133.612
+          ],
+          "quote": "And we first of all started with the service graph and we had a rather large failure to begin with where we initially built it using things like Kafka Connect and then trying to put all of that into Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1153.877,
+            1160.082
+          ],
+          "quote": "It turns out Kafka can't quite deal with that level of volume, especially when it was almost doing one-to-one straight through with Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1296.259,
+            1303.025
+          ],
+          "quote": "So even though we're reading 7 million spans, we're writing something like 4,000 records a second to Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1455.068,
+            1459.25
+          ],
+          "quote": "And then we started having a look at Neo4j and we just saw Neo4j and we were just like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1472.475,
+            1476.297
+          ],
+          "quote": "So we deployed out a small instance of Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2128.92,
+            2140.404
+          ],
+          "quote": "So there's a little bit of skepticism until they saw the first draft, until they actually saw things in a database where, okay, I was writing cipher queries in the Neo4j browser to say, well, look, we can do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2398.268,
+            2408.574
+          ],
+          "quote": "Enum here, and it's using a factory builder in order to define its extractor and its aggregator and its custom Neo4j writer query.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3634.915,
+            3650.742
+          ],
+          "quote": "We would probably do on Confluence, kind of a proof of concept description of what we're trying to do, what is the aim, what is the ambition, what is the long-term vision, and then kind of the drill down of how we get there in the technology that is already approved, or maybe we can't use Neo4j, but we're inspired, so we want to trial with that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "flink",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flink",
+      "file": "Flink",
+      "primary": true,
+      "how_described": "救场的大数据流处理框架，让流水线按 40 分区配 40 消费者实例、可调并行度地处理每秒 700 万 span",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1165.266,
+            1167.547
+          ],
+          "quote": "And then we started looking towards Flink.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1180.016,
+            1180.797
+          ],
+          "quote": "What is Flink?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1181.277,
+            1183.919
+          ],
+          "quote": "So Flink is, it's Apache Flink.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1517.107,
+            1519.269
+          ],
+          "quote": "And he said, have you done this Flink thing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1532.678,
+            1534.839
+          ],
+          "quote": "After that, we were just like, okay, we've got to make Flink work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1561.272,
+            1568.614
+          ],
+          "quote": "So checkpoint is, it's essentially Flink's way of saying, I'm at this point in the Kafka stream, this offset.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1718.62,
+            1721.36
+          ],
+          "quote": "We're still using Flink for it, albeit we're not streaming.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2248.905,
+            2256.847
+          ],
+          "quote": "So once we got Flink in, we then started looking at, okay, well, how can we utilize and tune Flink to the point that we can get something in?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2620.092,
+            2630.997
+          ],
+          "quote": "For us, it was build the Flink container, put the jar inside of the container, create a new tag, and then one of us has to log into Kubernetes and then do a rolling deployment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kafka",
+      "file": "Kafka",
+      "primary": true,
+      "how_described": "最初选型经 Kafka Connect 直通 Neo4j，指向线上每秒 700 万 span 后积压崩溃；后来仍用于反模式问题的智能体分发流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            441.674,
+            453.038
+          ],
+          "quote": "It can go onto a Kafka stream and then, yeah, something, pick it up, run a CLI for an agent to then pick up this change, apply the fix to our repository and then create an MR automatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1121.209,
+            1133.612
+          ],
+          "quote": "And we first of all started with the service graph and we had a rather large failure to begin with where we initially built it using things like Kafka Connect and then trying to put all of that into Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1153.877,
+            1160.082
+          ],
+          "quote": "It turns out Kafka can't quite deal with that level of volume, especially when it was almost doing one-to-one straight through with Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1220.825,
+            1234.556
+          ],
+          "quote": "So it allows us to say something like, well, our Kafka source, if we have 40 partitions, we want parallelism of 40, which means that when we then have 40 instances of this Kafka consumer, which is then reading one for one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1245.839,
+            1247.439
+          ],
+          "quote": "You know, this thing is writing to Kafka.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1247.479,
+            1249.479
+          ],
+          "quote": "This thing is reading from Kafka.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1405.083,
+            1406.764
+          ],
+          "quote": "MirrorMaker uses Kafka Connect under the hood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1406.784,
+            1410.084
+          ],
+          "quote": "So, okay, maybe Kafka Connect could fit because we use that internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1436.04,
+            1439.002
+          ],
+          "quote": "We know we need this thing in the middle, and for now we'll use Kafka Connect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1476.397,
+            1481.759
+          ],
+          "quote": "We deployed out Kafka Connect inside of a container, and we started reading from beta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1491.346,
+            1496.21
+          ],
+          "quote": "Honestly, it's like I've never seen an application give up as quick as Kafka could.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1496.23,
+            1503.736
+          ],
+          "quote": "It literally just built a backlog and it went, no, Kafka Connect just, oh, it was kind of funny in a weird way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1561.272,
+            1568.614
+          ],
+          "quote": "So checkpoint is, it's essentially Flink's way of saying, I'm at this point in the Kafka stream, this offset.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1588.1,
+            1596.062
+          ],
+          "quote": "It's pretty much every consumer from the Kafka stream is going to write its own checkpoint once it's done with a batch that it's doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2221.567,
+            2230.414
+          ],
+          "quote": "We needed a database, great, we just spun up a little container as a POC, and then we built Kafka Connect, which, you know, as I mentioned, failed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3265.876,
+            3284.579
+          ],
+          "quote": "Yeah, somebody agrees with what we flagged in the report, they can go, cool, autofix, job done, and then that gets put onto a Kafka pipeline agent spun up in the background in order to clone the repository, fix, raise the MR, assign it to the team, and then they just need to check it, approve it, and job done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3676.833,
+            3681.295
+          ],
+          "quote": "So when we reach a decision, for example, you said Kafka Connect and it doesn't work, then it's like,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论：智能体查 Architect 拿事实省 token、并行干活要经 Atrium 协调、未来自动修复；「和 AI 共同编写」了 Architect",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            164.474,
+            175.664
+          ],
+          "quote": "So then when another agent starts applying the work as well, they move to a Git Worktree, they register with Atrium, and then they'll see, oh, actually, there's another agent who's touching the files that they do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            259.648,
+            263.57
+          ],
+          "quote": "So I just opened up another agent and I was just like, need a way for everybody to talk to each other.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            319.101,
+            320.381
+          ],
+          "quote": "And then that's a different agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            320.421,
+            322.161
+          ],
+          "quote": "And then you've got another agent for reviewers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            325.322,
+            345.786
+          ],
+          "quote": "Which is then you just kick off the dispatcher which is then essentially orchestrating sub-agents and it will kick off the first and it will tell it what to do and then once the first agent finishes it publishes what it's done and then it'll kick off the next one and then it'll tell the next agent what to do and it will use kind of okay here's the handoff point and then move it on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            357.891,
+            368.68
+          ],
+          "quote": "So the handoffs were a little bit kind of better, but we didn't notice then that there were big messages going into this like little chat app because the first agent was posting everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            369.901,
+            375.105
+          ],
+          "quote": "So we thought, well, okay, why can't we use like agent memory for something like this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            391.926,
+            399.634
+          ],
+          "quote": "So actually then, when the next agent is starting, it'll connect to Atrium, it'll get the memories, and then it knows exactly where it is with the whole context behind it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            441.674,
+            453.038
+          ],
+          "quote": "It can go onto a Kafka stream and then, yeah, something, pick it up, run a CLI for an agent to then pick up this change, apply the fix to our repository and then create an MR automatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            611.708,
+            618.45
+          ],
+          "quote": "Because if I've got an agent and you've got an agent and actually we want to look at the same piece of code, then my agent is going to do something and your agent is going to do something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            634.756,
+            655.276
+          ],
+          "quote": "And you know, with Adrian, with Architect, we have this factual layer of information where, you know, if an agent needs to know something about our code base, it could go through the code, but that's going to burn tokens, it's going to burn time, or it can just actually make one query to get the code or get the relationships or get the dependencies or whatever from Architect in order to get it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2308.411,
+            2326.458
+          ],
+          "quote": "We had to set these frameworks because when we didn't have the frameworks and we were YOLOing it a little bit from the start, we saw one agent was going this direction, another agent was going that direction with it, and okay, they serve the same end goal, but 90% of what they were doing was very consistent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2852.288,
+            2857.633
+          ],
+          "quote": "Does every engineer with their coding agent locally have access to this information?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3265.876,
+            3284.579
+          ],
+          "quote": "Yeah, somebody agrees with what we flagged in the report, they can go, cool, autofix, job done, and then that gets put onto a Kafka pipeline agent spun up in the background in order to clone the repository, fix, raise the MR, assign it to the team, and then they just need to check it, approve it, and job done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3372.354,
+            3390.266
+          ],
+          "quote": "But then how are our guardrails set up to then say, well, actually, if there is an issue that's been raised by an agent and actually that is, whatever, it contains some nefarious purposes and an agent is picking it up and then another agent is verifying it and merging it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            3572.146,
+            3577.667
+          ],
+          "quote": "I'm asking my agent to filter out all the noise and tell me, and I rely on that, kind of the essence of what I need to know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3583.468,
+            3587.249
+          ],
+          "quote": "But there is a filter that is my agent through the information that I'm looking for.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3602.91,
+            3610.257
+          ],
+          "quote": "So agent producing a lot of documentation, another agent reading all of that documentation, summarizing it, and yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3655.984,
+            3659.146
+          ],
+          "quote": "My agent is going to do a lot of research on different types of tooling.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3660.846,
+            3663.868
+          ],
+          "quote": "And then based on that with another agent, we're going to make some decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3754.655,
+            3769.107
+          ],
+          "quote": "So now if we create documentation through our agents and we know that documentation is going to be interpreted through agents, it's going to be text, but it could also be a graph because then it's just a lookup of information that an agent kind of uses to communicate to a human.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3845.68,
+            3856.049
+          ],
+          "quote": "And I don't think really like the human is the best person to go through to dig through all the details, but a human through their agent is like amplified in the amount of information they can look up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3907.558,
+            3913.143
+          ],
+          "quote": "It's like, well, if my agent is going to read a particular ticket that's actually been submitted",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3916.606,
+            3924.433
+          ],
+          "quote": "I'm sure, no, the agent's going to give me a summary of what needed to be done, and then it's going to go and do OpenSpec, you know, apply, and then it's going to create a code wrap, it's going to read it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            4189.507,
+            4196.611
+          ],
+          "quote": "You're getting an agent to build a data source based on a framework that eight other data sources, that eight other ingesters are using in the repository.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 982,
+          "t": [
+            4413.599,
+            4418.883
+          ],
+          "quote": "Because, you know, any tool call, it's like, you know, the agent will first of all do a list of tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 983,
+          "t": [
+            4420.023,
+            4426.928
+          ],
+          "quote": "If that's starting to become a bit long, it's just like, how do you know exactly, well, how does the agent determine exactly which tool it actually needs to do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 998,
+          "t": [
+            4490.004,
+            4506.277
+          ],
+          "quote": "Yeah and tool storms I know are a thing as well where you know okay the agent will make a call and then make a call and then make a call and they do something else and they make a call and then make a call and then make a call and it's just you end up in an infinite loop essentially and the agent then gets confused and context bloats and then it starts hallucinating and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            4553.297,
+            4557.501
+          ],
+          "quote": "Because if we build more specific tools, the agent isn't just going to generate a Cypher query and run it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            4575.948,
+            4582.01
+          ],
+          "quote": "And then as a last kind of thought exercise is we talked about this value of having an agent doing incident response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1015,
+          "t": [
+            4590.492,
+            4598.357
+          ],
+          "quote": "Do you then want that agent having access to MCP tools or would you still want to have that kind of deterministic with either API calls or CLI tools?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "service-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "服务图 (service graph)",
+      "file": "服务图",
+      "primary": true,
+      "how_described": "Architect 的第一张图和起步建议：「服务图是骨架」，回答什么在调用什么，从 trace 摄取调用关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            592.962,
+            604.447
+          ],
+          "quote": "But what we'll tend to see is that the quicker agents can actually recall a lot of this memory, then, you know, whether it's from a code base, from a service graph, from an infrastructure graph, from a DNS graph,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            892.604,
+            906.29
+          ],
+          "quote": "So what that means is, you know, for these eight main databases that we have, we have our service graph, which is ingesting traces from every web app workload that actually emits traces.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            992.215,
+            998.436
+          ],
+          "quote": "For example, our service graph has a connector from each web app or job to a host.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1121.209,
+            1133.612
+          ],
+          "quote": "And we first of all started with the service graph and we had a rather large failure to begin with where we initially built it using things like Kafka Connect and then trying to put all of that into Neo4j.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1363.688,
+            1375.356
+          ],
+          "quote": "So it was about, I think it was maybe September, October last year, that we really started leaning into kind of building a service graph is where it started out from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1669.974,
+            1675.419
+          ],
+          "quote": "So, I mean, just for the service graph, for example, we have an extractor and cleaner job that runs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2206.615,
+            2209.097
+          ],
+          "quote": "It's like we started off with just the service graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2433.162,
+            2450.938
+          ],
+          "quote": "Yeah, so skills is one, and we have been slowly building up a skills library for a, you know, we know we want to add a new span type to the service graph, or we want to add a new file type to the code graph, or we want to add a new ingester for our org graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2614.15,
+            2618.252
+          ],
+          "quote": "But when we started out with the service graph, it was pretty janky.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2725.118,
+            2726.999
+          ],
+          "quote": "Service graph was the biggest value.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2729.34,
+            2737.884
+          ],
+          "quote": "And it was very much one of these ones that we set out with the service graph because we had answers that only a service graph could answer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2772.21,
+            2776.776
+          ],
+          "quote": "So we started at the service graph because it's the skeleton.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2788.009,
+            2790.171
+          ],
+          "quote": "If the service graph isn't there and you've got a code graph...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2794.573,
+            2799.936
+          ],
+          "quote": "So we can always break it down as saying, you know, the service graph is what is happening.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2813.901,
+            2822.065
+          ],
+          "quote": "So service graph is at least where I would recommend starting off because it's also not the hardest to get off the ground.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 792,
+          "t": [
+            3621.328,
+            3626.493
+          ],
+          "quote": "We're saying, okay, we're going to start with a service graph to see if we can have value of that or if there's a lot of connective tissue.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4014.276,
+            4018.261
+          ],
+          "quote": "That would have been a year project in order to probably get a service graph in and tuned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4040.962,
+            4043.884
+          ],
+          "quote": "I think we had the first production version of the service graph in...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "atrium",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atrium",
+      "file": "Atrium",
+      "primary": true,
+      "how_described": "内部副项目：聊天+记忆应用，智能体开工前注册声明要动的文件、互相协调，并接 Neo4j 做智能体记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            144.02,
+            149.904
+          ],
+          "quote": "And then we've also built this internal tool called Atrium to allow agents to communicate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            150.624,
+            154.186
+          ],
+          "quote": "So once something starts a bit of work, it logs into Atrium.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            164.474,
+            175.664
+          ],
+          "quote": "So then when another agent starts applying the work as well, they move to a Git Worktree, they register with Atrium, and then they'll see, oh, actually, there's another agent who's touching the files that they do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            210.85,
+            215.194
+          ],
+          "quote": "And Atrium was built within Agence specifically to solve these kind of parallel...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 66,
+          "t": [
+            277.436,
+            286.246
+          ],
+          "quote": "It's like the instructions for all of Atrium is just make sure you're not stepping on each other's toes, make sure you know if somebody's changing something, what else is being changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            352.807,
+            357.851
+          ],
+          "quote": "When we started out with Atrium, we started having these agents be able to communicate a little bit more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            391.926,
+            399.634
+          ],
+          "quote": "So actually then, when the next agent is starting, it'll connect to Atrium, it'll get the memories, and then it knows exactly where it is with the whole context behind it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2287.296,
+            2290.757
+          ],
+          "quote": "We are, you know, as I mentioned, we've got its memories in Atrium.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2494.163,
+            2502.585
+          ],
+          "quote": "So before about 80% of actions that are being taken, there's a call to Atrium in order to go, I'm about to do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2506.806,
+            2509.527
+          ],
+          "quote": "And Atrium has got a highly curated memory in the background.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "git-worktree",
+      "type": "concept",
+      "role": "concept",
+      "name": "Git worktree",
+      "file": "Git worktree",
+      "primary": true,
+      "how_described": "让四五个并行编码智能体各进独立工作副本、互不污染的工作流基础",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            164.474,
+            175.664
+          ],
+          "quote": "So then when another agent starts applying the work as well, they move to a Git Worktree, they register with Atrium, and then they'll see, oh, actually, there's another agent who's touching the files that they do.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集认真讨论：Architect 最常用入口，但工具膨胀是真问题——结构化数据用 API、探索性场景才用 MCP，很多场景 CLI 更省 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            680.738,
+            702.784
+          ],
+          "quote": "So whilst we do have some tools which are essentially allowing the agents to query any graph the way that they want, we are actually, as part of the MCP tooling, we're then saying to them, well, while you're making this query, also tell us the intent and what the user story is from this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            801.309,
+            805.832
+          ],
+          "quote": "Especially, I mean, when we built Architect and we built the MCP,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            828.605,
+            834.128
+          ],
+          "quote": "So there's all of these different use cases which are creeping in, which just means MCP is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            835.888,
+            845.611
+          ],
+          "quote": "Like, to the point that when people are integrating, the default is via MCP and I have to go, and I have to literally go, Chua, it's like, do you just need an API for this, really?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1831.322,
+            1836.306
+          ],
+          "quote": "So anytime that an engineer makes a change, there's an API call being made, API, not MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3138.677,
+            3148.644
+          ],
+          "quote": "So what we're actually looking to do, and this is kind of what I was mentioning with the MCP and the intent and the user stories, that, well, what are people actually doing with it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4204.014,
+            4218.098
+          ],
+          "quote": "And then anything else you do on top then is, you know, if you want to add a specific MCP tools or extra things in the UI, because again, I'm not a UI developer, so I'm heavily reliant on agents to tell me what looks pretty, rather than just be a blank white HTML page.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 937,
+          "t": [
+            4255.23,
+            4259.991
+          ],
+          "quote": "I had one final thought because I've been talking to people a lot about MCP and MCP tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4260.372,
+            4264.413
+          ],
+          "quote": "If you build something central, I see people are adding kind of MCP capabilities on top of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 948,
+          "t": [
+            4295.856,
+            4301.619
+          ],
+          "quote": "Because, I mean, when you look at the structure of MCP calls under the hood, it's a factor, you know, it looks like a method in Java, really.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 970,
+          "t": [
+            4362.718,
+            4368.459
+          ],
+          "quote": "We have our Gen AI gateway, which services a lot of MCP tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 972,
+          "t": [
+            4371.9,
+            4378.222
+          ],
+          "quote": "I have a direct connection to our Architect MCP, which I'm not supposed to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 978,
+          "t": [
+            4385.105,
+            4401.693
+          ],
+          "quote": "So I've got that one, and then, I don't know, Victoria Metrics, kind of MCP, and that's kind of it, because that allows me to just go, okay, infrastructure, and then grab some metrics, and then that answers most of my questions until I can ingest Prometheus into Architect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            4541.347,
+            4552.837
+          ],
+          "quote": "So maybe having an MCP tool, which can be a little bit more flexible, is a good thing, which is kind of one of the points against us building much more specific tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1015,
+          "t": [
+            4590.492,
+            4598.357
+          ],
+          "quote": "Do you then want that agent having access to MCP tools or would you still want to have that kind of deterministic with either API calls or CLI tools?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            4600.318,
+            4608.483
+          ],
+          "quote": "And I'm saying deterministic even though it's still kind of, there's a non-deterministic aspect, but I feel like the non-deterministic aspect is just amplified more with MCP tools in my head.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sentinel",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sentinel",
+      "file": "Sentinel",
+      "primary": true,
+      "how_described": "Architect 的子产品：每 20 分钟跨所有图跑反模式报告，是自动修复的地基",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 693,
+          "t": [
+            3155.388,
+            3164.254
+          ],
+          "quote": "So we've built a sub-product of Architect called Sentinel, which is essentially reporting and anti-pattern rule monitoring and things like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cypher",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cypher",
+      "file": "Cypher",
+      "primary": false,
+      "how_described": "Neo4j 的查询语言，本集说大多数智能体对它掌握得不错、可直接放权让它自己写查询",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            666.027,
+            674.756
+          ],
+          "quote": "And we do find that most agents have a fairly good grasp on Cypher, so we can kind of give them some freedom.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            4553.297,
+            4557.501
+          ],
+          "quote": "Because if we build more specific tools, the agent isn't just going to generate a Cypher query and run it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            4571.067,
+            4572.927
+          ],
+          "quote": "And nor do you want to write Cypher queries yourself.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "反复出现的主题：查图代替翻代码省 token，固化框架也带来 token 节省",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            717.629,
+            723.411
+          ],
+          "quote": "And from that information, we'll then build a tool specifically for this particular use case to then decrease token usage again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2358.038,
+            2363.964
+          ],
+          "quote": "And that came with token savings as well, because now it doesn't mean that they need to go and build this whole thing from scratch.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "tool storm",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

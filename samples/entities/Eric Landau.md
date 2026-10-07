@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
+[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":10,"多模态":6,"苦涩的教训":10,"产品市场契合":27,"机器学习":4,"数据标注":3,"ChatGPT":99,"Gong":3,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":10,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":99,"Gong":3,"YC":17}</script>
 
 <script>
 (function(){

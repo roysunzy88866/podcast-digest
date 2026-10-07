@@ -11,14 +11,14 @@ description: ON 联合创始人兼联合 CEO David Alleman 谈高端而非奢侈
 host: "[[Bob Safian]]"
 cohosts: ["[[David Alleman]]"]
 companies: ["[[ON]]"]
-concepts: ["[[light spray]]", "[[Clean Cloud 泡沫]]", "[[创新]]", "[[高端(非奢侈)定位]]", "[[运动阶层]]", "[[股权替代代言]]", "[[合伙制领导]]", "[[社会变迁造品牌]]"]
+concepts: ["[[light spray]]", "[[Clean Cloud 泡沫]]", "[[创新]]", "[[高端(非奢侈)定位]]", "[[运动阶层]]", "[[股权]]", "[[合伙制领导]]", "[[社会变迁造品牌]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su#post","headline":"16 年的一夜成名:ON 如何打造未来最高端运动品牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su","mainEntityOfPage":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su","description":"ON 联合创始人兼联合 CEO David Alleman 谈高端而非奢侈的品牌定位、名人合作模式、LightSpray 制鞋创新与创始人亲任 CEO 的考量。","datePublished":"2026-09-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su.jpg","about":[{"@type":"Person","name":"Bob Safian"},{"@type":"Person","name":"David Alleman"},{"@type":"Organization","name":"ON"},{"@type":"Thing","name":"light spray"},{"@type":"Thing","name":"Clean Cloud 泡沫 (clean cloud)"},{"@type":"Thing","name":"创新 (innovation)"},{"@type":"Thing","name":"高端(非奢侈)定位 (premium)"},{"@type":"Thing","name":"运动阶层 (movement class)"},{"@type":"Thing","name":"股权替代代言 (equity)"},{"@type":"Thing","name":"合伙制领导 (partnership)"},{"@type":"Thing","name":"社会变迁造品牌 (societal shift)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"16 年的一夜成名:ON 如何打造未来最高端运动品牌","item":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su#post","headline":"16 年的一夜成名:ON 如何打造未来最高端运动品牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su","mainEntityOfPage":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su","description":"ON 联合创始人兼联合 CEO David Alleman 谈高端而非奢侈的品牌定位、名人合作模式、LightSpray 制鞋创新与创始人亲任 CEO 的考量。","datePublished":"2026-09-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su.jpg","about":[{"@type":"Person","name":"Bob Safian"},{"@type":"Person","name":"David Alleman"},{"@type":"Organization","name":"ON"},{"@type":"Thing","name":"light spray"},{"@type":"Thing","name":"Clean Cloud 泡沫 (clean cloud)"},{"@type":"Thing","name":"创新 (innovation)"},{"@type":"Thing","name":"高端(非奢侈)定位 (premium)"},{"@type":"Thing","name":"运动阶层 (movement class)"},{"@type":"Thing","name":"股权 (equity)"},{"@type":"Thing","name":"合伙制领导 (partnership)"},{"@type":"Thing","name":"社会变迁造品牌 (societal shift)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"16 年的一夜成名:ON 如何打造未来最高端运动品牌","item":"https://talk.solomind.cc/2026-09-12-mos-rapid-response-on-s-16-year-overnight-su"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>16 年的一夜成名:ON 如何打造未来最高端运动品牌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[ON]]
 >
-> **概念** [[light spray]] · [[Clean Cloud 泡沫]] · [[创新]] · [[高端(非奢侈)定位]] · [[运动阶层]] · [[股权替代代言]] · [[合伙制领导]] · [[社会变迁造品牌]]
+> **概念** [[light spray]] · [[Clean Cloud 泡沫]] · [[创新]] · [[高端(非奢侈)定位]] · [[运动阶层]] · [[股权]] · [[合伙制领导]] · [[社会变迁造品牌]]
 
 这一集聊的是一个从零做到接近 40 亿美元品牌的运动品牌——[[ON|ON]],就是那家做「云朵鞋底」、跑者圈里几乎人手一双的瑞士公司。说话的主角是 [[David Alleman|David Alleman]],ON 的联合创始人,今年 5 月刚和联合创始人 Casper 一起接任联合 CEO。主持人 [[Bob Safian|Bob Safian]] 问他的第一个问题就是:你们会不会是「下一个 Nike」?
 
@@ -102,7 +102,7 @@ ON 在 2010 年创立,靠一个激进的鞋底设计起步。但 David 认为,�
 - **[[社会变迁造品牌|社会变迁造品牌]]**:运动从周末活动移向社会中心、「运动阶层」取代「休闲阶层」——响应这种转变的全新品牌,才有机会长大。
 - **高端≠奢侈**:奢侈品靠限制获取,ON 靠创新普及;高端定价支撑创新投入,而不是制造稀缺。
 - **给创新配突击队**:一个「用热熔胶枪喷鞋」的疯狂想法,做法是给设计师配上机器人工程师和材料科学家的五人小队,而不是开会否决——结果是 200 道工序变一步。
-- **用[[股权替代代言|股权替代代言]]费**:请不起顶级明星代言,可以反过来让他入股成为共同创业者——对双方都更绑定。
+- **用[[股权|股权替代代言]]费**:请不起顶级明星代言,可以反过来让他入股成为共同创业者——对双方都更绑定。
 - **新业务按五年酝酿来规划**:零售、服装、网球都是四五年前种下的种子;「一夜成名」背后是 16 年。
 - **逆境的答案是创新不是打折**:面对股价波动,靠把最新创新带入运动来应对,而不是降价。
 
@@ -139,6 +139,18 @@ ON 在 2010 年创立,靠一个激进的鞋底设计起步。但 David 认为,�
 > <span class="qz">而我说,是的,我们是一场 16 年的一夜成名。</span>  
 > *And I'm saying, yes, we've been a 16-year overnight success.*  
 > <span class="qm">—— David Alleman · [18:37]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南]]<span class="pd-rz">同概念:股权替代代言 (equity)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

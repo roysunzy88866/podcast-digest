@@ -7,35 +7,32 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Angela Strange</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Angela Strange">AN</div><div class="pi"><h1 class="pt">Angela Strange</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Angela Strange">AN</div><div class="pi"><h1 class="pt">Angela Strange</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*1 条*
+*3 条*
 
 ![[2026-08-20-a16z-how-global-networks-are-reshaping-startu#^q2]]
 
+![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q1]]
+
+![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q9]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为联合主持
+- [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gabriel Vasquez]] · [[Elena Berger]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[MidJourney]] · [[OpenAI]]
+[[OpenAI]] · [[Gabriel Vasquez]] · [[Linda Du]] · [[Elena Berger]] · [[Andrew Wang]] · [[a16z]] · [[Valen]] · [[Adi]] · [[抵押贷款服务]] · [[Eleven Labs]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":5,"a16z":18,"Adi":1,"Eleven Labs":9,"Cognition":25,"Vercel":19,"Brex":6,"MidJourney":4,"OpenAI":173}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":174,"Gabriel Vasquez":1,"Linda Du":1,"Elena Berger":5,"Andrew Wang":1,"a16z":18,"Valen":1,"Adi":1,"抵押贷款服务":1,"Eleven Labs":9}</script>
 
 <script>
 (function(){

@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Resolve AI]] · [[Splunk]] · [[GitHub]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]] · [[部署监控]]
+[[Resolve AI]] · [[Splunk]] · [[GitHub]] · [[Kafka]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":30,"Slack":31,"智能体":430,"后台智能体":4,"生产上下文":1,"可观测性":37,"沙箱":79,"部署监控":1}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":30,"Kafka":3,"Slack":31,"智能体":433,"后台智能体":4,"生产上下文":1,"可观测性":37,"沙箱":79}</script>
 
 <script>
 (function(){

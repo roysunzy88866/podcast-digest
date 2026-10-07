@@ -1,0 +1,432 @@
+{
+  "episode_id": "2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-03",
+  "tags": [
+    "创业法律",
+    "股权分配",
+    "知识产权",
+    "分拆",
+    "尽职调查"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "becki-degraw",
+      "type": "person",
+      "role": "guest",
+      "name": "Becki DeGraw",
+      "file": "Becki DeGraw",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "equity",
+      "type": "concept",
+      "role": "concept",
+      "name": "股权 (equity)",
+      "file": "股权",
+      "primary": true,
+      "how_described": "本集说分拆的对价通常以股权形式给出,经验值是母公司留 20%、新团队拿 80%;母公司若拿 50% 以上,创始人动力不足,投资人不会买账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            97.472,
+            104.137
+          ],
+          "quote": "And every time I've got a, you know, the one co-founder who's leaving, it doesn't, you know, there's too much equity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            104.217,
+            105.719
+          ],
+          "quote": "The holding company took too much equity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            378.684,
+            381.567
+          ],
+          "quote": "The consideration often takes the form of equity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            383.569,
+            386.591
+          ],
+          "quote": "Sometimes it's a combination of cash and equity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            397.121,
+            400.905
+          ],
+          "quote": "But when it is equity, because that is where oftentimes where the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            716.13,
+            717.53
+          ],
+          "quote": "You give me equity, it's yours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cap-table",
+      "type": "concept",
+      "role": "concept",
+      "name": "股权结构表 (cap table)",
+      "file": "股权结构表",
+      "primary": true,
+      "how_described": "本集举了加速器里的常见惨案:把 25% 股份给做 app 第一版的人且已完全归属,这种「搞坏的 cap table」投资人根本不接;修复方案是 5 万美元现金加两个点普通股并附回购权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            509.5,
+            522.412
+          ],
+          "quote": "Don't break the cap table is, I think, we see it coming into, we will have sometimes somebody comes into the accelerator and they gave 25% of the company to the people who built the app, the first version, fully vested.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ip",
+      "type": "concept",
+      "role": "concept",
+      "name": "IP",
+      "file": "IP",
+      "primary": true,
+      "how_described": "本集说分拆的核心问题是 IP 往后归谁:母公司彻底不要就做完整转让;IP 与母公司业务交织则转让加回授许可(如 Google 云给 YouTube 两年使用许可);离职者绝不能带走在职期间开发的 IP。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            85.955,
+            88.618
+          ],
+          "quote": "So we're gonna do an IP license and we're gonna spin it out that way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            201.052,
+            216.499
+          ],
+          "quote": "That is also a spin-out type situation where instead of negotiating with a company, you're negotiating with the university in terms of what are the terms going to look like, of how am I going to get that IP into a new co and be able to start a new venture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            392.397,
+            396.361
+          ],
+          "quote": "We'll often see those in connection with IP being spun out of universities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            641.228,
+            652.136
+          ],
+          "quote": "And if that's what you're looking for is, or I want this IP along with some other list of assets, how do I get that out of one entity and into another?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            671.731,
+            689.406
+          ],
+          "quote": "In the situation that we were talking about kind of originally of a founder wants to take some IP out of a company and start a new co with it, but that existing entity is, it's in full force, it's staying, it's doing its thing, just this new co is gonna be something different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            690.512,
+            701.336
+          ],
+          "quote": "In that situation, we are thinking a lot about, and this is where getting your lawyer involved from day one is so important, is understanding that IP, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            701.456,
+            704.177
+          ],
+          "quote": "And who is gonna own that IP going forward?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            708.447,
+            709.948
+          ],
+          "quote": "I don't need this IP at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            790.338,
+            792.539
+          ],
+          "quote": "So IP licensing, that's got to be tight.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            844.664,
+            849.808
+          ],
+          "quote": "Like that IP that you want was developed while you were at this existing entity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            876.423,
+            879.525
+          ],
+          "quote": "And there are there's the IP ownership issues, the confidentiality issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            990.378,
+            997.842
+          ],
+          "quote": "And who knows what area it will be in, but you can be sure I will not be taking any of the confidential information from this company or any of the IP I developed while here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1040.488,
+            1045.211
+          ],
+          "quote": "They want to know, they want to see a clean chain of title to that IP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ip-license",
+      "type": "concept",
+      "role": "concept",
+      "name": "IP 许可 (IP license)",
+      "file": "IP 许可",
+      "primary": true,
+      "how_described": "本集说这是一种「雇用式」分拆路径:买方想要团队但直接卖公司可能过不了监管,于是壳公司留着、技术全球许可给买方,团队周一直接到位;如今没那么流行,只在「唯一能达成交易」时才用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            85.955,
+            88.618
+          ],
+          "quote": "So we're gonna do an IP license and we're gonna spin it out that way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fiduciary-duty",
+      "type": "concept",
+      "role": "concept",
+      "name": "受托责任 (fiduciary duty)",
+      "file": "受托责任",
+      "primary": true,
+      "how_described": "本集强调:如果员工还是现有实体的创始董事,分拆会涉及受托责任问题,有冲突时须作为利益相关方回避;在职期间私下筹备新事业本身可能就构成违反受托责任和保密条款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            879.585,
+            886.49
+          ],
+          "quote": "If you were a founder director of existing entity, there may be fiduciary duty issues that you want to make sure are really clear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            916.957,
+            923.378
+          ],
+          "quote": "Get that papered before you start go doing your own thing, because that could actually be breach of fiduciary duty.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "尽职调查 (diligence)",
+      "file": "尽职调查",
+      "primary": true,
+      "how_described": "本集说当你拿到投资人 2000 万美元意向时,头号尽职调查就是这个 IP 有没有干净的所有权链条、它是怎么被分拆出来的——程序做对了完全经得起查,做不对就是原罪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1025.216,
+            1039.428
+          ],
+          "quote": "And if you go through one of these exercises and you get to the other side and you've got new codes set up and you're ready, you've got an investor who says, I want to invest $20 million, guess what the number one diligence exercise is going to be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1046.111,
+            1049.873
+          ],
+          "quote": "And they are going to diligence the heck out of, how did this get spun out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1053.295,
+            1055.676
+          ],
+          "quote": "But that is going to be diligence exercise number one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "safe",
+      "type": "concept",
+      "role": "concept",
+      "name": "SAFE",
+      "file": "SAFE",
+      "primary": false,
+      "how_described": "本集用 SAFE 作对比:分拆文书不会是「一轮 SAFE 下午就搞定」那种活儿,要深入得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            933.741,
+            939.082
+          ],
+          "quote": "It's not going to be one of those things where, hey, I want to take 100K on a safe financing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wilson-sonsini",
+      "type": "company",
+      "role": "company",
+      "name": "Wilson Sonsini",
+      "file": "Wilson Sonsini",
+      "primary": true,
+      "how_described": "本集嘉宾 Becky DeGraw 所在的律所,主持人称她是自己团队来自 Wilson Sonsini(WSGR)的律师,帮他把创业基础讲给观众。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            23.644,
+            28.845
+          ],
+          "quote": "I'm so lucky to have Becky DeGraw from Wilson Sonsini WSGR on my team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集举的著名大公司分拆案例:Google 分拆了 Waymo,让它独立融资验证估值,并给 AI 人才一种「这会是万亿美元公司」的激励货币。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            256.044,
+            263.653
+          ],
+          "quote": "Google has famously spun out Waymo, a very famous Microsoft back in the day, this little site Expedia that was internal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            271.321,
+            280.911
+          ],
+          "quote": "And Waymo needs to be out there on its own raising capital to validate its, from what I understand, the back channel I got was, hey, we need to validate this valuation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "expedia",
+      "type": "company",
+      "role": "company",
+      "name": "Expedia",
+      "file": "Expedia",
+      "primary": false,
+      "how_described": "本集举的另一个著名分拆案例:很久以前 Microsoft 把内部的这个小网站 Expedia 独立了出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            256.044,
+            263.653
+          ],
+          "quote": "Google has famously spun out Waymo, a very famous Microsoft back in the day, this little site Expedia that was internal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "spinout",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

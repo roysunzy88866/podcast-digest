@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":430,"护栏":80,"MCP":79,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":433,"护栏":80,"MCP":80,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":46}</script>
 
 <script>
 (function(){

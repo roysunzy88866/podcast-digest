@@ -31,7 +31,7 @@ unlisted: true
 
 [[Brian Hook]] · [[Moritz Beller]] · [[Meta]] · [[Microsoft Research]] · [[diff 编写时间]] · [[DDM]] · [[智能体]] · [[测试]] · [[TDD]] · [[开发者生产力]]
 
-<script type="application/json" class="pd-epn">{"Brian Hook":1,"Moritz Beller":1,"Meta":47,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"智能体":430,"测试":2,"TDD":4,"开发者生产力":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Hook":1,"Moritz Beller":1,"Meta":47,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"智能体":433,"测试":2,"TDD":4,"开发者生产力":1}</script>
 
 <script>
 (function(){

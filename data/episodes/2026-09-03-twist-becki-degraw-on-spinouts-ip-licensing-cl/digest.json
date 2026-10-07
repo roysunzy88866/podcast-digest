@@ -1,0 +1,172 @@
+{
+  "title_zh": "公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南",
+  "tldr": "Wilson Sonsini 律师 Becky DeGraw 做客 Startup Basics,拆解分拆(spinout)的两种典型场景、母公司与新团队的股权怎么分、IP 归属与尽职调查要点。",
+  "digest_md": "这一集聊的是「分拆」(spinout):一个团队在公司内部做出了一个有成果、但没爆发、也不属于主业的项目,创始人或高管想带它出去单干——这类事每周都在发生。本期来自 This Week in Startups 的「创业基础」系列,主讲人是主持人团队的律师、来自律所 Wilson Sonsini 的 Becky DeGraw,主持人的开场提问是:为什么每次遇到分拆,「股权怎么分」都吵得一塌糊涂?\n\n## 分拆为什么发生,主要有哪几种\n\n最常见的场景就是你刚听到的那种:内部项目做了六到十二个月,有不错的结果但没成为爆款,母公司不想继续投入,而做它的人想继续追。Becky 说,分拆对双方都有合理性——从已验证的技术起步更快;对母公司来说,如果这项技术不符合战略方向、也不打算投钱去养,放手让人去做、自己换一点回报,往往更划算。\n\n另一种常见来源是大学:研发人员在校内做出了发现,需要和大学(而不是公司)谈判,把 IP 拿进一家新公司。大公司层面也有著名案例:Google 分拆了 Waymo,更早以前 Microsoft 把内部的小网站 Expedia 独立了出去。主持人的分析是,分拆背后常有经济原因:Waymo 需要独立融资去验证估值,而且要让 AI 人才相信\"这会是万亿美元级公司\"——因为他们在抢人时面对的是 Anthropic、SpaceX、OpenAI 这些对手,母公司股票当不了这种激励货币。\n\n## 股权怎么分:先做一个思想测试\n\n主持人在和双方创始人谈时喜欢问一个问题:如果这东西分拆后变成独角兽,什么样的条款会让你觉得谈得很好?他给的经验值是:原公司留 20%,新团队拿 80%——也有人谈到 25/75 或 30/70,具体看项目是零收入在亏钱,还是已经有些收入。背后的逻辑是个简单的心算:如果项目做到十亿美元,母公司拿 20% 会觉得自己很精明;但如果它拿了 50%、60%,项目归零,那就是蠢。而对离开的创始人来说,拿到 70%、80%,能组团队、融到资,付出 20% 也不心疼。\n\nBecky 补充:对价通常是股权,也可以是现金、或两者组合;更复杂的结构还有基于里程碑的盈利支付(earnout)和特许权使用费——大学分拆的 IP 里常见后者。而且谈判不只谈百分比:你拿到哪一类股票(普通股还是优先股)、附什么权利(信息知情权、按比例跟投权)、要不要董事会席位或观察员席位,这些是一整个打包。分拆比例没有市场标准区间,变化极大,但有一条硬约束:母公司拿得太大,新公司就完了——投资人要看创始人的动力。如果母公司持有 50% 甚至 80%,创始团队只占小头,创始人就没那么拼,投资人对这家新公司的兴趣会大打折扣。\n\n## 「别搞坏股权结构」:一个真实的修复案例\n\n主持人举了一个加速器里的常见惨案:有人把公司 25% 的股份给了做出 app 第一版的人,而且已完全归属(vest,即股份不再分期解锁、直接归对方)。这种结构投资人根本不会接。他的修复方案:找对方谈,给 5 万美元现金加两个点的普通股,并保留以 1000 万美元估值回购的权利——对方最多能赚 25 万美元,套现走人。他说这个条款一半以上(大概六成)的情况能谈成,但不是百分百管用,所以提前找好律师、想清楚结构才是正道。\n\n## IP 许可型分拆:另一条路,及其代价\n\n第二种场景是「雇用式」交易:买方想要团队,但直接卖公司、卖股份可能过不了监管,于是改成 IP 许可——壳公司留着,技术全球许可给买方,团队周一直接到位。Becky 说这条路现在没那么流行了,因为它会带来一堆其他问题,只有在\"这是达成交易唯一办法\"时才值得动用。\n\n对于更常见的「创始人带 IP 出走、母公司继续经营」的场景,关键问题是 IP 往后归谁、双方还需要不需要它:\n\n- **母公司彻底不要** → 直接做完整转让(assignment),换股权,IP 全归新公司。\n- **IP 和母公司业务交织** → 转让给新公司,但新公司回授(license back)一个许可给母公司继续用。主持人给了一个好理解的例子:假如 Google 分拆 YouTube,但 YouTube 依赖 Google 云的视频分发基础设施,那 Google 没法把基础设施给你,只能给你两年使用许可,两年后你自己选是继续当 Google 云的客户、还是迁去 Amazon。\n\n## 离职前先把文件办妥,别碰旧电脑\n\nBecky 反复强调:想带走 IP 的人,从第一天起就要想清楚「分离」长什么样。你想要的 IP 是在职期间开发的,保密义务、客户名单全都归现有实体;如果你还是创始董事,还涉及受托责任(fiduciary duty,董事要对公司尽忠的法定义务)——有冲突时必须作为利益相关方回避。\n\n最重要的一条:**在开始做自己的事之前,先把分拆文件签好**。边在职边私下筹备新事业,本身可能就构成违反受托责任、违反保密条款。这不是一轮 SAFE(未来按折扣换股的简易融资协议)下午就能搞定的活儿——用主持人的话说,这是一场离婚,连\"孩子\"(员工)怎么分都得谈,而员工没法一周归你、一周归我,这甚至可能成为整个交易谈崩的原因。所以他对每个想分拆的人说:先和自己、再和对方来一次坦诚对话——这么多文书、谈判和坏情绪,值得吗?也许直接走人、花半年去日本滑雪、再从白纸和一台全新 MacBook Pro 开始更省事。\n\n最后是那条他反复叮嘱开发者的规矩:**不要留着公司的 MacBook Pro**。还回去,让他们抹数据。你能带走的只有你脑子里装的东西。为什么这么较真?因为当你拿到投资人 2000 万美元的意向时,头号尽职调查就是:这个 IP 有没有一条干净的所有权链条,它到底是怎么被分拆出来的。只要程序做对了,完全经得起查;做不对,就是原罪。\n\n## 本集带走\n\n- **经验分成**:母公司 20%、新团队 80% 是常见的健康起点;母公司若拿 50% 以上,新公司基本融不到资——投资人买的首先是创始人的动力。\n- **谈判别只盯百分比**:股票类别(普通股/优先股)、信息权、跟投权、董事会席位,是一个必须整体谈的打包。\n- **IP 先问一句\"谁还需要它\"**:母公司彻底不要就完整转让;还要用,就转让+回授许可(附使用年限)。\n- **先签文件、再动工**:在职期间就开始筹备新事业,可能直接违反受托责任和保密条款;干净的分离必须先办妥。\n- **两件别带的东西**:别留公司电脑(还回去让他们抹数据),别带任何保密信息和在职期间开发的 IP——这两样会在未来融资的尽职调查里被翻个底朝天。\n- **想清楚值不值**:分拆是一场\"离婚\",文书多、谈判苦、可能伤感情;干脆利落走人、两年后再创业,有时是更好的选项。",
+  "quotes": [
+    {
+      "en": "OpenAI, we need a currency where people can say, oh, this is going to be a trillion-dollar company. So there is a real reason to spin it out.",
+      "zh": "OpenAI,我们需要一种货币,让人们可以说,哦,这将会是一家万亿美元的公司。所以分拆出来是有实际理由的。",
+      "timestamp": "04:51",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "You would feel great about the terms that we got to. And typically, I tell people, have the existing company keep 20%. Let the new team keep 80%.",
+      "zh": "会让我们最终谈成的条款让你感觉很好?通常,我会告诉人们,让原公司保留 20%。让新团队保留 80%。",
+      "timestamp": "05:07",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Almost universally, if it becomes a billion-dollar outcome, the company that spun it out, getting 20% of a billion-dollar company, you feel pretty smart, pretty savvy for having done that. But if you take 50%, 60%, and it goes to zero, well, you're like, well, that was dumb.",
+      "zh": "几乎无一例外,如果它变成十亿美元的成果,分拆它的公司拿到十亿美元公司的 20%,你会觉得自己做了这件事挺聪明、挺精明的。但如果你拿 50%、60%,而它归零了,你会觉得,那可真蠢。",
+      "timestamp": "05:34",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Don't break the cap table is, I think, we see it coming into, we will have sometimes somebody comes into the accelerator and they gave 25% of the company to the people who built the app, the first version, fully vested. And we have to tell them, you're never going to clear market with investors.",
+      "zh": "「别搞坏股权结构」——有时候有人进入加速器,他们把公司 25% 的股份给了那些做出 app 第一个版本的人,而且已完全归属。我们不得不告诉他们,你永远过不了投资人的市场关。",
+      "timestamp": "08:29",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Get that papered before you start go doing your own thing, because that could actually be breach of fiduciary duty. It could be breach of your confidentiality provisions. Just have the clean separation before you start on the new venture.",
+      "zh": "在你开始做自己的事之前,先把文件办妥,因为那实际上可能构成违反受托责任,可能违反你的保密条款。在你开始新事业之前,先有一个干净的分离。",
+      "timestamp": "15:16",
+      "speaker": "Becki DeGraw"
+    },
+    {
+      "en": "It's a divorce. It's a separation, let's be honest.",
+      "zh": "这是一场离婚。说实话,这是一次分离。",
+      "timestamp": "15:45",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Do not bring anything that you bring with you is what is in your big, beautiful brain. That's it.",
+      "zh": "不要带任何东西进来,你带来的就是你这颗漂亮的大脑里装的东西。就是这样。",
+      "timestamp": "16:58",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:44",
+      "speaker": "Unknown",
+      "en": "The holding company took too much equity. And then every CEO is saying, why can't I leave and get 80% of this new company? This isn't fair.",
+      "zh": "母公司拿走了太多股权。然后每个 CEO 都说,为什么他可以离开还拿到这家新公司 80% 的股权?这不公平。"
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Unknown",
+      "en": "OpenAI, we need a currency where people can say, oh, this is going to be a trillion-dollar company. So there is a real reason to spin it out.",
+      "zh": "OpenAI,我们需要一种货币,让人们可以说,哦,这将会是一家万亿美元的公司。所以分拆出来是有实际理由的。"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Unknown",
+      "en": "You would feel great about the terms that we got to. And typically, I tell people, have the existing company keep 20%. Let the new team keep 80%.",
+      "zh": "会让我们最终谈成的条款让你感觉很好?通常,我会告诉人们,让原公司保留 20%。让新团队保留 80%。"
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Unknown",
+      "en": "Almost universally, if it becomes a billion-dollar outcome, the company that spun it out, getting 20% of a billion-dollar company, you feel pretty smart, pretty savvy for having done that. But if you take 50%, 60%, and it goes to zero, well, you're like, well, that was dumb.",
+      "zh": "几乎无一例外,如果它变成十亿美元的成果,分拆它的公司拿到十亿美元公司的 20%,你会觉得自己做了这件事挺聪明、挺精明的。但如果你拿 50%、60%,而它归零了,你会觉得,那可真蠢。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Unknown",
+      "en": "And I will say there's not a market range. It varies, varies a ton, but I will say if it gets to be too large, that's where you are going to have potential problems going forward in new code.",
+      "zh": "我要说的是,这没有一个市场区间。它变化非常大,但我要说,如果母公司拿的份额太大,那才是你在往后新公司里会遇到潜在问题的地方。"
+    },
+    {
+      "timestamp": "07:49",
+      "speaker": "Unknown",
+      "en": "In order for investors to get excited about NuCo and making an investment in NuCo, they want to know the founders are motivated.",
+      "zh": "为了让投资人对新公司兴奋、愿意投资新公司,他们想知道创始人们是有动力的。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Unknown",
+      "en": "If the old company, I'll call it parent or existing company, has an 80% stake or a 50% stake in the company and the founders have smaller stakes, they're probably less motivated.",
+      "zh": "如果老公司——我姑且叫它母公司或现有公司——在这家公司持有 80% 或 50% 的股份,而创始人们的股份较小,那他们的动力可能就没那么足。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Unknown",
+      "en": "Don't break the cap table is, I think, we see it coming into, we will have sometimes somebody comes into the accelerator and they gave 25% of the company to the people who built the app, the first version, fully vested. And we have to tell them, you're never going to clear market with investors.",
+      "zh": "「别搞坏股权结构」——有时候有人进入加速器,他们把公司 25% 的股份给了那些做出 app 第一个版本的人,而且已完全归属。我们不得不告诉他们,你永远过不了投资人的市场关。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Unknown",
+      "en": "So if it was going to cost them $100,000 to build the app, you're giving them $50,000 in cash and two points in common, and you have the right to buy those back at a $10 million valuation so they can make $250,000",
+      "zh": "所以如果建这个 app 要花他们 10 万美元,你就给他们 5 万美元现金加两个点的普通股,并且你有权以 1000 万美元估值买回那些股份,这样他们能赚到 25 万美元。"
+    },
+    {
+      "timestamp": "09:19",
+      "speaker": "Unknown",
+      "en": "That's why it's important to have a great attorney and think these things through before and understand the basics.",
+      "zh": "这就是为什么有一位出色的律师很重要,并且要提前把这些事情想清楚、理解基本原理。"
+    },
+    {
+      "timestamp": "10:17",
+      "speaker": "Unknown",
+      "en": "Less so, because it does create a lot of other problems. So only in the situations where it's like, this is the only way I can get the deal done, would you kind of resort to that, I think, because there are some negative pieces that go along with it.",
+      "zh": "没那么常见了,因为它确实会带来很多其他问题。只有在那种「这是我能达成交易的唯一办法」的情况下,你才会诉诸这种方式,我认为,因为伴随着它还有一些负面的东西。"
+    },
+    {
+      "timestamp": "11:47",
+      "speaker": "Unknown",
+      "en": "I don't care. I don't need this IP at all. It's going to be a full assignment.",
+      "zh": "我不在乎。我完全不需要这个 IP。那就做一个完整的转让。"
+    },
+    {
+      "timestamp": "12:31",
+      "speaker": "Unknown",
+      "en": "Okay, well, we can't give you our infrastructure, so we'll give you a license to it, and we'll let you use the infrastructure for two years.",
+      "zh": "好吧,我们没法把我们的基础设施给你,所以我们给你一个许可,我们让你使用这套基础设施两年。"
+    },
+    {
+      "timestamp": "15:16",
+      "speaker": "Unknown",
+      "en": "Get that papered before you start go doing your own thing, because that could actually be breach of fiduciary duty. It could be breach of your confidentiality provisions. Just have the clean separation before you start on the new venture.",
+      "zh": "在你开始做自己的事之前,先把文件办妥,因为那实际上可能构成违反受托责任,可能违反你的保密条款。在你开始新事业之前,先有一个干净的分离。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Unknown",
+      "en": "It's a divorce. It's a separation, let's be honest.",
+      "zh": "这是一场离婚。说实话,这是一次分离。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Unknown",
+      "en": "Those are the employees. You're going to have them for one week, I'm going to have them one week. Doesn't work that way.",
+      "zh": "那些就是员工。你带他们一周,我带他们一周。不是那样运作的。"
+    },
+    {
+      "timestamp": "16:38",
+      "speaker": "Unknown",
+      "en": "And I will start with a fresh sheet of paper and a brand new MacBook Pro.",
+      "zh": "我会从一张白纸和一台全新的 MacBook Pro 开始。"
+    },
+    {
+      "timestamp": "16:42",
+      "speaker": "Unknown",
+      "en": "Do not keep your MacBook Pro. I keep telling developers this.",
+      "zh": "不要留着你的 MacBook Pro。我一直在告诉开发者这个。"
+    },
+    {
+      "timestamp": "16:58",
+      "speaker": "Unknown",
+      "en": "Do not bring anything that you bring with you is what is in your big, beautiful brain. That's it.",
+      "zh": "不要带任何东西进来,你带来的就是你这颗漂亮的大脑里装的东西。就是这样。"
+    },
+    {
+      "timestamp": "17:20",
+      "speaker": "Unknown",
+      "en": "They want to know, they want to see a clean chain of title to that IP.",
+      "zh": "他们想知道的、要看的是这个 IP 有一条干净的所有权链条。"
+    }
+  ],
+  "voice_script": "今天聊一个特别实际的话题:分拆,英文叫 spinout。什么意思呢?就是一个团队在公司内部做出了一个项目,这项目有成果、但没爆发、也不属于主业,于是创始人或者高管想带着它出去单干。这种事几乎每周都在发生。今天的主讲人是 Becky DeGraw,她是 Wilson Sonsini 律所的律师,常年在一线处理这类交易。节目开头,主持人就抛了一个问题:为什么每次遇到分拆,聊到股权怎么分,都吵得一塌糊涂?咱们就顺着这个问题,把这件事从头到尾讲明白。\n\n先说说分拆为什么会发生。最常见的场景是这样的:一个内部项目做了六到十二个月,结果不错,但没成为爆款,母公司不想继续投钱,可做这个项目的人还想接着追。这时候分拆对双方其实都合理——新团队能从已经验证过的技术起步,速度快得多;对母公司来说,这项技术不符合自己的战略方向,又不想养,放手让人去做、自己换一点回报,往往更划算。除了公司内部项目,大学也是一个常见来源:研发人员在校内做出了发现,需要跟大学谈判,把知识产权装进一家新公司。大公司层面也有著名的例子,Google 分拆了 Waymo,更早以前 Microsoft 把内部的小网站 Expedia 独立了出去。主持人分析说,这背后常常有经济上的原因。拿 Waymo 来说,它需要独立融资去验证估值,而且要抢人——想想看,它面对的是 Anthropic、SpaceX、OpenAI 这些对手,母公司的股票当不了激励货币。用主持人的话说:OpenAI,我们需要一种货币,让人们可以说,哦,这将会是一家万亿美元的公司。所以分拆出来,是有实际理由的。\n\n好,背景交代清楚了,接下来就是那吵得一塌糊涂的核心问题:股权到底怎么分?主持人在跟双方创始人谈判时,喜欢先做一个思想测试:假如这东西分拆之后变成了独角兽,什么样的条款会让你觉得这单谈得很好?他给出的经验值是,原公司留 20%,新团队拿 80%。也有人谈到 25 对 75,或者 30 对 70,具体看项目是零收入还在亏钱,还是已经有一些收入了。这背后其实是个特别简单的心算:如果项目做到了十亿美元,母公司拿其中 20%,你会觉得自己做了这件事挺精明的;但如果你拿了 50%、60%,结果项目归零了,你会觉得,那可真蠢。反过来,对离开的创始人也一样,拿到 70%、80%,能组团队、能融资,付出 20% 一点也不心疼。\n\nBecky 补充了几点,把这件事讲得更完整。首先,母公司拿到的对价通常是股权,但也可以是现金,或者两者组合;更复杂的结构还有基于里程碑的盈利支付,英文叫 earnout,以及特许权使用费——大学分拆的知识产权里经常能见到后者。另外,谈判不能只盯着百分比。你拿到的是哪一类股票?是普通股还是优先股?附不附信息知情权、按比例跟投权?要不要董事会席位或者观察员席位?这些是一整个打包,得整体谈。还有一条硬约束必须记住:分拆比例没有什么市场标准区间,变化很大,但母公司拿得太大,新公司就完了。假如母公司持有 50% 甚至 80%,创始团队只占小头,创始人就没那么拼了,投资人对这家新公司的兴趣自然大打折扣——因为投资人买的,首先是创始人的那股劲。\n\n说到股权结构,主持人还讲了一个加速器里常见的惨案,这正好能说明为什么结构不能乱来。有人把公司 25% 的股份给了做出 app 第一个版本的人,而且已经完全归属——所谓完全归属,就是股份不再分期解锁,直接归对方了。这种结构,投资人根本不会接。那怎么办?主持人的修复方案是:找对方谈,给 5 万美元现金,加两个点的普通股,再保留一个按 1000 万美元估值回购的权利。这么一算,对方最多能赚 25 万美元,套现走人。他说这个条款大概六成的情况能谈成,但不是百分百管用——所以提前找好律师、想清楚结构,才是正道。\n\n讲完了股权,再看第二种场景,这就要牵扯到知识产权,也就是 IP 了。有一种叫\"雇用式\"的交易:买方其实想要的是团队,但直接卖公司、卖股份可能过不了监管,于是改成 IP 许可——壳公司留着,技术全球许可给买方,团队周一就到位。Becky 说,这条路现在没那么流行了,因为它会带来一堆其他问题,只有在\"这是达成交易唯一办法\"的时候才值得动用。\n\n那更常见的场景呢?创始人带 IP 出走,母公司继续经营。这时候关键问题是:IP 往后归谁?双方还需不需要它?如果母公司彻底不要,那就简单了,直接做完整转让,换股权,IP 全归新公司。但如果 IP 跟母公司的业务是交织在一起的呢?那就转让给新公司,同时新公司回授一个许可给母公司继续用。主持人举了个特别好懂的例子:假如 Google 分拆 YouTube,但 YouTube 依赖 Google 云的视频分发基础设施,Google 总不能把基础设施给你,只能给你一个两年期的使用许可。两年之后,你自己选——是继续当 Google 云的客户,还是迁去 Amazon。\n\n最后这部分,可能是整期最重要的一段:离职前后该怎么做。Becky 反复强调,想带走 IP 的人,从第一天起就要想清楚\"分离\"长什么样。你要的那部分 IP,是在职期间开发的,保密义务、客户名单,全都归现有实体;如果你还是创始董事,还涉及受托责任——说白了,就是董事要对公司尽忠的法定义务,有利益冲突的时候,你必须作为利益相关方回避。所以最重要的一条是:在开始做自己的事之前,先把分拆文件签好。边在职边私下筹备新事业,本身可能就构成违反受托责任、违反保密条款。这不是一轮 SAFE——也就是未来按折扣换股的简易融资协议——一个下午就能搞定的事。用主持人的话说,这是一场离婚,连\"孩子\"、也就是员工怎么分都得谈,而员工没法一周归你、一周归我,这甚至可能成为整个交易谈崩的原因。所以给每个想分拆的人的建议是:先跟自己、再跟对方来一次坦诚对话——这么多文书、谈判和坏情绪,真的值得吗?也许干脆走人、花半年去日本滑雪,再从白纸和一台全新 MacBook Pro 开始,反而更省事。\n\n说到这,还有一条被反复叮嘱的规矩:不要留着公司的 MacBook Pro。还回去,让他们抹数据。你能带走的,只有你脑子里装的东西。为什么这么较真?因为当你拿到投资人 2000 万美元的意向书时,头号尽职调查就是:这个 IP 有没有一条干净的所有权链条,它到底是怎么被分拆出来的。程序做对了,完全经得起查;做不对,那就是原罪,一辈子甩不掉。\n\n把这期收个尾,就一句话:在你开始做自己的事之前,先把文件办妥,先有一个干净的分离——因为这是一场离婚,而离婚分得干净,日后才能各自把日子过好。"
+}

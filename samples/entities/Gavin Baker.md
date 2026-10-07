@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]]
+[[Linda Du]] [[Andrew Wang]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"NVIDIA":59,"Google":64,"TPU":4,"OpenAI":173,"Anthropic":184,"Broadcom":5,"AMD":5,"Gemini":15,"ChatGPT":99}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"NVIDIA":59,"Google":64,"TPU":4,"OpenAI":174,"Anthropic":184,"Broadcom":5,"AMD":5,"Gemini":15,"ChatGPT":99}</script>
 
 <script>
 (function(){

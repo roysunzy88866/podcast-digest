@@ -37,7 +37,7 @@ unlisted: true
 
 [[Diogo Almeida]] · [[智能体]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[校准]] · [[OpenAI]] · [[Anthropic]] · [[System 1 模型]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"智能体":430,"Jev":6,"TypeSafe":4,"RLCD":2,"RLHF":6,"校准":4,"OpenAI":173,"Anthropic":184,"System 1 模型":1}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"智能体":433,"Jev":6,"TypeSafe":4,"RLCD":2,"RLHF":6,"校准":4,"OpenAI":174,"Anthropic":184,"System 1 模型":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,154 @@
+{
+  "title_zh": "支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用",
+  "tldr": "Adyen 资深工程师 Matt Jones 讲述内部工具 Architect：把服务、代码、DNS、基础设施等九张图汇进 Neo4j，支撑智能体并行开发与自动修复的实战。",
+  "digest_md": "这一集的主角是 Matt Jones，支付公司 Adyen 的资深工程师（staff engineer）。他造了一个叫 Architect 的内部系统——本质上是把整个公司的技术栈放进一个超大图数据库，让工程师和智能体随时查询「什么在调用什么、代码在哪、跑在哪个机架上」。它不对外卖，纯粹是内部工具，但它的构建过程几乎就是一份「如何为智能体重建公司知识底座」的实操手册。\n\n## 先说灾难：测试环境全过，上线全崩\n\nArchitect 最早只叫「服务图」：他们想知道全公司到底什么在跟什么通信、有哪些没人知道的东西存在。第一版技术选型走捷径——用 Kafka Connect（Kafka 生态里现成的数据搬运工具）直通 Neo4j。测试和 beta 环境跑得很顺，结果一指向线上：每秒 700 万个 span（链路追踪里的一次调用片段），Kafka 直接积压崩溃。Matt 的原话是「我从没见过一个应用像 Kafka 那样放弃得那么快」。\n\n救场的是同事推荐的 Apache Flink（一个大数据流处理框架）。Flink 让他们能把整条流水线拆成可调并行度的工作负载：40 个 Kafka 分区就配 40 个消费者实例，队列类流量安静的段落调低并行度、把资源让给 API 和数据库流量。关键思路是「读了不等于要存」——每秒读 700 万个 span，实际只关心 web 应用之间的调用关系，过滤聚合后每秒只往 Neo4j 写约 4000 条记录。\n\n> 【背景】Apache Flink 底层的分布式计算引擎曾基于 Akka，后自研更名为 Pekko（Apache Pekko）。\n\n他们还做了一个很「牛仔」的决定：把 Flink 的 checkpoint（检查点，记录流处理到哪个位置、崩溃后从哪恢复）整个关掉。理由很直白：每秒 700 万个 span，漏掉一两个调用根本无所谓，几个小时后它大概率还会再发生。事后看他们并不后悔——至今没观察到明显的数据缺失，而且有后端兜底任务会追踪「这周没出现、上周出现过的调用」，能区分「缺数据」还是「新流程」。\n\n## Architect 到底是什么：一个 Neo4j 实例里的九张图\n\n现在 Architect 是一个 Neo4j 实例里装着九个数据库，用组合查询一起查。核心几张：\n\n- **服务图**：从所有发出 trace 的 web 应用摄取调用关系；\n- **代码图**：轮询 Git，每次 head ref 变化就重建、做分析，追踪到方法级依赖；\n- **DNS 图**：全量 DNS，因为「你调用的 DNS 不总是你最终得到的那一个」；\n- **数据存储拓扑**：集群怎么复制、读副本在哪；\n- **数据图**：所有 Postgres 数据库的 schema、表、字段、主外键；\n- **基础设施图**：硬件、机架、数据中心的物理部署。\n\n图与图之间靠特定字段关联：服务图里「这个 web 应用跑在这台主机」+ 基础设施图里的主机 → 立刻知道这个应用跑在哪个数据中心哪一层哪个机架上。「作为人类，我们已经能看到很多东西了。而智能体能看到的多得多。这很疯狂，也有点吓人。」\n\n对智能体最大的价值是**省 token**：与其让智能体翻代码自己推断依赖关系（不同模型还会推断出不同结果），不如对 Architect 做一次查询直接拿到事实。「我们有了这个事实性的信息层……更少的 token，所有人都更开心。」 大多数智能体对 Cypher（Neo4j 的查询语言）掌握得不错，可以直接放权让它们自己写查询。\n\n## 让智能体并行干活：Git worktree + Atrium\n\nMatt 自己的日常：周一时并排开四五个编码智能体，规格（spec）谈好就一键应用，每个智能体进自己的 Git worktree（独立的工作副本，互不污染）。为了避免它们互相踩脚，他做了个内部工具 **Atrium**——像个聊天应用加记忆应用：每个智能体开工前先注册、声明「我要动这些文件」，另一个智能体碰到相同文件就会看到、互相发消息、协调谁先谁后。Atrium 最初就是个副项目：他发现多个智能体到处冲突、提交时一脸懵，于是「开了另一个智能体，说：需要一种让所有人互相交流的方式」。\n\nAtrium 后来还接上了 Neo4j 做智能体记忆：为每个工作项建一个节点，把所有决策记忆挂上去，下一个智能体启动时取回记忆、带着完整上下文接着干。这个并行能力是未来「自动修复」的地基——Architect 生成反模式报告后，问题可以进 Kafka 流，智能体跑 CLI 接手、改代码、自动创建 MR。\n\n## 意外收获：反向赋能软件开发生命周期\n\n因为代码图能追溯「这个类 → 被这个模块依赖 → 被那个 web 应用使用 → 处理关键支付流程」，他们把它接进了 GitLab 流水线：工程师一改代码，就被告知「你触碰了这些关键流程」。更进一步：支付公司旺季要代码冻结、什么都不敢动，但现在他们知道哪些代码属于高 SLA 的关键流程、哪些只是无关的小改动——关键流程冻结不放行，非关键的小 UI 改动可以照常发布，实现动态闸控。\n\n## 怎么起步：从服务图开始，边 YOLO 边补护栏\n\nMatt 的建议：**从服务图开始**。「服务图是骨架……服务图是正在发生什么，代码图是如何和为什么发生，基础设施图是在哪里发生」，其余的图都是主干之间额外的答案。而且只要有链路追踪，服务图落地门槛最低——抓 trace、过滤到只留 HTTP 调用、低流量起步慢慢积累。\n\n整个系统不是设计出来的，是迭代出来的。「我们基本上就是 YOLO 着把它做好的」——但他们坚持一条原则：**不拥有数据**。「我们无法保证这些数据是正确的，因为我们不拥有它。我们只是把它抓过来拼在一起，给你展示存在于别处的数据的另一种视图。」所以每个数据源都要挨个找拥有它的团队谈接入。说服方式不是愿景演讲，而是先做出 POC：等团队在 Neo4j 浏览器里看到查询结果，各团队就开始「这个能做吗？那个能做吗？」思维打开了。\n\n至于 AI 的角色：「Architect 几乎可以说是和 AI 共同编写的。」几乎每个目录都有 AgentMD，UI 有 DesignMD，决策和原则全存在 Atrium 里对智能体开放。踩过的坑也真实：早期没框架时，两个智能体往不同方向写，90% 代码重复——后来他们把 Java 框架和模式固化，「加一种新 span 类型 = 加一个枚举 + 三个类，完事」。还建了 skills 库；甚至纠结过某件事该用 skill 还是脚本（90% 是复制粘贴），最后选了 skill，因为「智能体写 Cypher 比我强得多」。规模化后的速度：从一月底起基本「一个月加一张图」，每张图从找团队要数据、开防火墙、到智能体按既有框架生成新数据源（约四小时）总共一个月，还能并行做。\n\n## 福也是祸：看见一切的代价\n\n现在每个工程师的本地编码智能体都能查这套系统——而他们正试图收回，至少收紧成受控访问。因为工程师开始看到自己跑在什么硬件上、DNS 查询链是四跳而不是别人的两跳、到 S3 的延迟涨了五毫秒——「每个团队被问的问题都变多了，大家都开始烦我了」。更严肃的是安全：一旦图里开始加入 CVE（已知漏洞编号）、渗透测试结果，就不能人人都看，需要基于权限的策略，防止坏行为者拿到不该拿的数据。\n\n下一站是 **Sentinel**（Architect 的子产品）：每 20 分钟跨所有图跑一次反模式报告，比如「谁在跨数据中心对主库做 select」。而终极形态是自动修复——报告里点一个按钮，Kafka 流水线拉起智能体克隆仓库、修代码、提 MR、分派给团队，人只需批准。Matt 说这就是终点：「拥有既能报告什么需要修复、又能动手去修复的智能体」——这样大家都能多度几次假，在 Slack 里跟智能体说一句「现在把这个修一下」。\n\n但他自己保留了一份警惕：如果智能体提问题、另一个智能体验证合并，恶意代码混进来的护栏在哪？「虽然我们确实想达到人人放手不管的地步，但作为工程师，我认为我们需要保留一定程度的交互。」\n\n## MCP 还是 API/CLI？\n\n一个很实在的讨论：工具膨胀是真问题。智能体一上来先列一堆工具，列表太长就不知道选哪个，还可能陷入「工具风暴」（tool storm：调用循环打转、上下文膨胀、开始幻觉）。Matt 自己的 Gen AI 网关里 90% 的 MCP 工具都被他禁用了。他的分界线：**结构化数据、输入输出明确 → 直接 API；探索性、说不清要问什么 → MCP 更合适**；而越来越多的场景，一个 CLI 脚本就够了，还省 token。主持人反问「事件响应的智能体该用 MCP 还是确定性工具」时，Matt 承认没有答案、还需要测试——但他给出一条经验：**紧急场景（「着火了，帮我查」）智能体非常好用，因为它能同时查大量数据源；可如果一开始就模糊（「好像有点不对劲，你帮我看看？」），结果永远模糊——它会告诉你正在发生 20 件事，而且全都是错的**。\n\n## 本集带走\n\n- **选图从服务图开始**：它回答「什么在调用什么」，是整个平台的骨架；代码图答「如何/为何」，基础设施图答「在哪」，其余都是加分项。\n- **数据管道要「读了就扔」**：每秒 700 万 span 只保留应用间调用关系，过滤聚合后每秒仅写约 4000 条记录进 Neo4j。\n- **省 token 靠事实层**：让智能体查一次图拿依赖关系，而不是各自翻代码推断——又快又准又省钱。\n- **先建约定再放智能体**：固化框架和模式后，「新数据源 = 枚举 + 三个类」，智能体照抄即可；否则两个智能体各写一套、90% 重复。\n- **并行智能体要会互相打招呼**：Git worktree 隔离 + Atrium 注册声明文件、协调冲突，才能五六个同时跑。\n- **高风险决定可以赌，但要算赔率**：四年前做服务图是一年项目，现在从零到生产只要三四个月——「挥棒落空也就损失三四个月，不是一年」。\n- **MCP 不是万金油**：输入输出明确用 API，说不清要什么用 MCP，很多场景一个 CLI 脚本更省 token、还不容易触发工具风暴。",
+  "quotes": [
+    {
+      "en": "So all of a sudden we pointed it at live, 7 million spans a second.",
+      "zh": "突然之间我们把它指向了线上，每秒 700 万个 span。",
+      "timestamp": "19:08",
+      "speaker": "Matt Jones"
+    },
+    {
+      "en": "Honestly, it's like I've never seen an application give up as quick as Kafka could.",
+      "zh": "说实话，我从没见过一个应用像 Kafka 那样放弃得那么快。",
+      "timestamp": "24:51",
+      "speaker": "Matt Jones"
+    },
+    {
+      "en": "Because when we're processing 7 million spans a second, do we care if we missed one or two calls between two web apps?",
+      "zh": "因为当我们每秒处理 700 万个 span 的时候，我们会在乎两个 web 应用之间漏掉一两个调用吗？",
+      "timestamp": "26:49",
+      "speaker": "Matt Jones"
+    },
+    {
+      "en": "So even though we're reading 7 million spans, we're writing something like 4,000 records a second to Neo4j.",
+      "zh": "所以尽管我们每秒读取 700 万个 span，我们每秒写入 Neo4j 的大约只有 4000 条记录。",
+      "timestamp": "21:36",
+      "speaker": "Matt Jones"
+    },
+    {
+      "en": "I was trying to find the skeletons in the closet in a 20-year-old company in a 20-year-old repo.",
+      "zh": "我当时是想在一个有 20 年历史的公司、有 20 年历史的代码库里，找出那些藏在衣柜里的骷髅。",
+      "timestamp": "17:25",
+      "speaker": "Matt Jones"
+    },
+    {
+      "en": "But I have noticed that if I don't use agents, I can't keep up as a single individual anymore.",
+      "zh": "但我注意到，如果我不使用智能体，作为一个单独的个体，我已经跟不上了。",
+      "timestamp": "59:00",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "19:08",
+      "speaker": "Matt Jones",
+      "en": "So all of a sudden we pointed it at live, 7 million spans a second.",
+      "zh": "突然之间我们把它指向了线上，每秒 700 万个 span。"
+    },
+    {
+      "timestamp": "24:51",
+      "speaker": "Matt Jones",
+      "en": "Honestly, it's like I've never seen an application give up as quick as Kafka could.",
+      "zh": "说实话，我从没见过一个应用像 Kafka 那样放弃得那么快。"
+    },
+    {
+      "timestamp": "26:49",
+      "speaker": "Matt Jones",
+      "en": "Because when we're processing 7 million spans a second, do we care if we missed one or two calls between two web apps?",
+      "zh": "因为当我们每秒处理 700 万个 span 的时候，我们会在乎两个 web 应用之间漏掉一两个调用吗？"
+    },
+    {
+      "timestamp": "21:36",
+      "speaker": "Matt Jones",
+      "en": "So even though we're reading 7 million spans, we're writing something like 4,000 records a second to Neo4j.",
+      "zh": "所以尽管我们每秒读取 700 万个 span，我们每秒写入 Neo4j 的大约只有 4000 条记录。"
+    },
+    {
+      "timestamp": "17:25",
+      "speaker": "Matt Jones",
+      "en": "I was trying to find the skeletons in the closet in a 20-year-old company in a 20-year-old repo.",
+      "zh": "我当时是想在一个有 20 年历史的公司、有 20 年历史的代码库里，找出那些藏在衣柜里的骷髅。"
+    },
+    {
+      "timestamp": "16:56",
+      "speaker": "Matt Jones",
+      "en": "And then agents can see way more.",
+      "zh": "而智能体能看到的东西更是多得多。"
+    },
+    {
+      "timestamp": "10:04",
+      "speaker": "Matt Jones",
+      "en": "Then we actually kind of save tokens because this isn't something that they need to figure out all the time.",
+      "zh": "那我们实际上就能省下 token，因为这不是它们每次都需要自己去弄清楚的东西。"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Matt Jones",
+      "en": "So it's like the ability to then go five, six agents at the same time, ah, game changer, because it just means it's features, features, features, features.",
+      "zh": "所以能够同时跑五、六个智能体，啊，这是游戏规则改变者，因为这就意味着功能、功能、功能、功能。"
+    },
+    {
+      "timestamp": "37:50",
+      "speaker": "Matt Jones",
+      "en": "And it was, you know, it's interesting because Architect was almost like co-written with AI.",
+      "zh": "而且这很有意思，因为 Architect 几乎可以说是和 AI 共同编写的。"
+    },
+    {
+      "timestamp": "41:19",
+      "speaker": "Matt Jones",
+      "en": "But it turns out agents are significantly better at writing cipher than I am, so we went with skill.",
+      "zh": "但结果发现智能体写 Cypher 比我强得多，所以我们选了 skill。"
+    },
+    {
+      "timestamp": "44:42",
+      "speaker": "Matt Jones",
+      "en": "Which is half AI, half skills, but a lot of guardrails in place in order to actually stop AI doing too crazy shit.",
+      "zh": "这一半靠 AI，一半靠技能，但要设置大量的护栏，才能真正阻止 AI 搞出太疯狂的烂摊子。"
+    },
+    {
+      "timestamp": "46:34",
+      "speaker": "Matt Jones",
+      "en": "So we can always break it down as saying, you know, the service graph is what is happening.",
+      "zh": "所以我们总是可以这样拆解：服务图是正在发生什么。"
+    },
+    {
+      "timestamp": "67:33",
+      "speaker": "Matt Jones",
+      "en": "So it was, you know, if it was a swing and a miss, then, okay, sure, we've lost three or four months, but we haven't lost a year.",
+      "zh": "所以你知道，如果是一次挥棒落空，那么，好吧，行，我们损失了三四个月，但我们没有损失一年。"
+    },
+    {
+      "timestamp": "49:55",
+      "speaker": "Matt Jones",
+      "en": "Which is why then we need to start implementing a permission-based policy.",
+      "zh": "这就是为什么我们需要开始实施基于权限的策略。"
+    },
+    {
+      "timestamp": "55:02",
+      "speaker": "Matt Jones",
+      "en": "We are taking a shit ton of information and making it a lot of information, which is still a lot of information for people to handle.",
+      "zh": "我们是在把海量的信息变成很多信息，而这对人来说仍然是很多信息。"
+    },
+    {
+      "timestamp": "59:00",
+      "speaker": "Matt Jones",
+      "en": "But I have noticed that if I don't use agents, I can't keep up as a single individual anymore.",
+      "zh": "但我注意到，如果我不使用智能体，作为一个单独的个体，我已经跟不上了。"
+    },
+    {
+      "timestamp": "77:53",
+      "speaker": "Matt Jones",
+      "en": "It'll tell you 20 different things are going on.",
+      "zh": "它会告诉你在发生 20 件不同的事情。"
+    },
+    {
+      "timestamp": "65:28",
+      "speaker": "Matt Jones",
+      "en": "And it's, yeah, why can't we be doing, yeah, more things, restructuring the entire world for AI?",
+      "zh": "而且是，是的，为什么我们不能做更多的事情，为 AI 重构整个世界？"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个支付公司的内部工具。主角叫 Matt Jones，是支付公司 Adyen 的资深工程师，staff engineer。这家公司你可能没听过，但你买东西刷的卡，很可能背后就有它在处理交易。这么一家公司，代码库有二十年的历史，各种服务、数据库、机器，复杂到没人说得清全貌。所以 Matt 带人做了一个叫 Architect 的内部系统，说白了，就是把整个公司的技术栈塞进一个超大图数据库，让工程师和智能体随时去查：什么在调用什么，代码在哪，跑在哪个机架上。这工具不对外卖，但它的搭建过程，几乎就是一份“怎么为智能体重建公司知识底座”的实操手册。咱们就从它踩的第一个坑讲起。\n\nArchitect 最早只叫服务图，目标很简单：搞清楚全公司到底什么在跟什么通信，有没有那些藏在角落里、没人知道存在的东西。第一版做技术选型的时候走了捷径，直接用 Kafka 生态里现成的数据搬运工具，把数据灌进图数据库 Neo4j。测试环境、beta 环境都跑得好好的。结果一指向线上生产环境，突然之间，每秒进来七百万个 span——span 就是链路追踪里的一次调用片段——Kafka 直接积压崩溃。Matt 的原话特别传神：“我从没见过一个应用像 Kafka 那样放弃得那么快。”\n\n那救场的是什么呢？是同事推荐的一个大数据流处理框架，Apache Flink。为什么它能救场？因为它让整条流水线可以拆成能调并行度的工作负载：Kafka 有四十个分区，就配四十个消费者实例；流量安静的时段，把并行度调低，资源让给 API 和数据库流量。但更关键的思路其实是一句话：读了，不等于要存。每秒读七百万个 span，实际上只关心 web 应用之间的调用关系，过滤聚合之后，每秒往 Neo4j 写的大概只有四千条记录。七百万进，四千条留，这就是整个系统的呼吸方式。\n\n顺着这个思路，还有个听起来很“牛仔”的决定：把 Flink 的检查点机制整个关掉。检查点这个东西，是记录流处理到哪个位置、崩溃之后从哪恢复用的。关掉它，意味着丢数据也不找补。理由很直白——每秒七百万个 span，漏掉一两个调用根本无所谓，几个小时后它大概率还会再发生。事后看他们也不后悔，至今没观察到明显的缺失，而且有兜底任务会追踪“这周没出现、上周出现过的调用”，能分清到底是缺了数据，还是来了个新流程。\n\n好，管道稳了，那 Architect 现在到底长什么样？它是 Neo4j 里装着九个数据库，用组合查询一起查。核心几张图是这样的：服务图，记录所有 web 应用之间的调用关系；代码图，轮询 Git，能追踪到方法级的依赖；DNS 图，做全量的，因为“你调用的 DNS 不总是你最终得到的那一个”；还有数据存储拓扑、所有 Postgres 的表结构、以及硬件机架数据中心的物理部署。图和图之间靠字段关联——服务图里知道这个应用跑在这台主机，再连上基础设施图里的主机，立刻就知道这个应用跑在哪个数据中心、哪一层、哪个机架上。Matt 说，作为人类，我们已经能看到很多东西了，而智能体能看到的多得多，这很疯狂，也有点吓人。\n\n那这对智能体最大的价值是什么？省 token。与其让智能体翻代码、自己去推断依赖关系——不同模型还会推断出不同的结果——不如对 Architect 做一次查询，直接拿到事实。大多数智能体对 Neo4j 的查询语言掌握得不错，可以直接放权让它们自己写查询。有了这个事实性的信息层，更少的 token，所有人都更开心。\n\n有了事实层，Matt 自己的工作方式也变了。周一时并排开四五个编码智能体，规格谈好就一键应用，每个智能体进自己独立的 Git 工作副本，互不污染。但几个智能体一起干活，就会互相踩脚——改同一批文件、提交时一脸懵。为了解决这个问题，又做了个内部工具叫 Atrium，像个聊天应用加记忆应用：每个智能体开工前先注册、声明“我要动这些文件”，另一个智能体碰到相同文件就能看到，互相协调谁先谁后。Atrium 还接上了 Neo4j 做记忆，为每个工作项建一个节点，把决策记忆挂上去，下一个智能体启动时取回记忆，带着完整上下文接着干。这套并行能力，就是未来自动修复的地基。\n\n有意思的是，这套系统还反向赋能了整个软件开发生命周期。因为代码图能追溯“这个类被这个模块依赖，被那个 web 应用使用，处理的是关键支付流程”，他们把它接进了 GitLab 流水线：工程师一改代码，立刻被告知“你触碰了这些关键流程”。支付公司旺季要代码冻结，以前是什么都不敢动；现在他们知道哪些代码属于高 SLA 的关键流程、哪些只是无关小改动——关键流程冻结不放行，非关键的小改动照常发布，动态闸控。\n\n如果你想学着做，Matt 的建议很明确：从服务图开始。服务图是骨架，它回答“正在发生什么”；代码图回答“如何和为什么”；基础设施图回答“在哪里”。只要有链路追踪，服务图的落地门槛最低。而且整个系统不是设计出来的，是迭代出来的——用他自己的话说，“我们基本上就是 YOLO 着把它做好的”。但有一条原则他们守得很死：不拥有数据。因为不拥有，就无法保证数据正确，所以只做“别处数据的一种视图”，每个数据源都要挨个找拥有它的团队谈接入。说服方式不是愿景演讲，而是先做出原型——等团队在 Neo4j 浏览器里亲眼看到查询结果，各团队就开始主动问“这个能做吗？那个能做吗？”从一月底起，基本一个月加一张图，还能并行做。\n\n当然，看见一切也是有代价的。现在每个工程师的本地智能体都能查这套系统，他们正试图收紧访问。因为工程师开始看到自己跑在什么硬件上、DNS 链路是四跳而不是别人的两跳——“每个团队被问的问题都变多了”。更严肃的是安全：一旦图里加入已知漏洞、渗透测试结果，就不能人人都看了。\n\n下一站叫 Sentinel，每二十分钟跨所有图跑一次反模式报告，终极形态是自动修复：报告里点个按钮，智能体克隆仓库、修代码、提 MR，人只需要批准。Matt 说这就是终点——拥有既能报告什么需要修复、又能动手去修复的智能体，这样大家都能多度几次假。但他自己保留了一份警惕：如果智能体提问题、另一个智能体验证合并，恶意代码混进来的护栏在哪？虽然想达到人人放手不管的地步，但作为工程师，他认为需要保留一定程度的交互。\n\n最后留一句给你：四年前做服务图是个一年项目，现在从零到生产只要三四个月——挥棒落空，也就损失三四个月，不是一年。这就是这个时代做基础设施的赔率。"
+}

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]]
+[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":9,"智能体控制框架":2,"智能体":430,"智能体记忆":2,"上下文窗口":16,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":79}</script>
+<script type="application/json" class="pd-epn">{"Oracle":9,"智能体控制框架":2,"智能体":433,"智能体记忆":2,"上下文窗口":16,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":80}</script>
 
 <script>
 (function(){
