@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Temporal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Temporal">TE</div><div class="pi"><h1 class="pt">Temporal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Temporal">TE</div><div class="pi"><h1 class="pt">Temporal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(13:15起):本集说它是他们租用的工作流编排服务,处理重试、去重、断点续跑,让团队专注写顺序逻辑,单个格式错误的转录不会拖垮整批。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(10:22起):本集说他们的持久化执行系统围绕 Temporal 构建，把一切表示为持久线程
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(35:31起):本集说 Vercel 的 workflow 基本上是他们版本的 Temporal——把长流程做成可持久化、可恢复的工作流的系统。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(00:24起):本集说它是讲者所在公司的产品，既是软件也是服务，帮助把分布式系统中的故障处理和状态管理标准化，提供持久化执行，GitHub 上免费开源，用托管服务管理状态才付费。
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为被讨论公司
 - [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为被讨论公司
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[护栏]] · [[Kubernetes]] · [[Snowflake]] · [[持久化执行]] · [[Postgres]] · [[Anurag Gohl]] · [[Flora Liu]] · [[Arman Vaziri]]
+[[智能体]] · [[MCP]] · [[持久化执行]] · [[护栏]] · [[Kubernetes]] · [[Signal]] · [[人在回路]] · [[工作流]] · [[Postgres]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"MCP":79,"护栏":79,"Kubernetes":16,"Snowflake":19,"持久化执行":4,"Postgres":4,"Anurag Gohl":1,"Flora Liu":1,"Arman Vaziri":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"MCP":79,"持久化执行":5,"护栏":80,"Kubernetes":16,"Signal":3,"人在回路":21,"工作流":12,"Postgres":4,"Snowflake":19}</script>
 
 <script>
 (function(){

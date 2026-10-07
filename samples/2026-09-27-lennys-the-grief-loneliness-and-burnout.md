@@ -198,8 +198,8 @@ IC 的世界反而清晰，最难的是管理者和领导者。Molly 的建议�
 **顺着「职业与个人成长」挖下去**
 
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南]]<span class="pd-rz">同公司:OpenAI、Google · 同概念:半人马与反向半人马 (centaur)</span>
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司]]<span class="pd-rz">同公司:OpenAI、Waymo · 同概念:AI</span>
-- [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:AI、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

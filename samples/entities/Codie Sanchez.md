@@ -67,11 +67,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Eli Wallen":1,"Contrarian Thinking":1,"BizScout":1,"SBA":1,"收购企业":1,"系统化经营":1,"凭感觉经营（cowboying）":1,"12 个利润杠杆":1,"损益审查":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"Eli Wallen":1,"Contrarian Thinking":1,"BizScout":1,"SBA":1,"收购企业":1,"系统化经营":1,"凭感觉经营（cowboying）":1,"12 个利润杠杆":1,"损益审查":1}</script>
 
 <script>
 (function(){

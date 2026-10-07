@@ -25,7 +25,7 @@ unlisted: true
 
 [[Al Gore]] · [[Lila Preston]] · [[Connie Loizis]] · [[Generation Investment Management]] · [[Anthropic]] · [[OpenAI]] · [[Gridware]] · [[IFS]] · [[数据中心]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":182,"OpenAI":171,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":26}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":183,"OpenAI":172,"Gridware":1,"IFS":2,"数据中心":22,"前沿模型":26}</script>
 
 <script>
 (function(){

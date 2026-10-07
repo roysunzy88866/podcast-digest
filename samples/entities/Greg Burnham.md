@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":5,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":18,"递归自我改进":8,"研究品味":1,"上下文学习":3,"harness":58,"对齐":17}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":5,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":18,"递归自我改进":8,"研究品味":1,"上下文学习":3,"harness":59,"对齐":17}</script>
 
 <script>
 (function(){

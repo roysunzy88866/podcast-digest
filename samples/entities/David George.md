@@ -94,11 +94,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":171,"Stripe":48,"Anthropic":182,"智能体":424,"Cursor":82,"Amazon":29,"NVIDIA":58,"Databricks":21,"Google":62,"CrowdStrike":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":172,"Stripe":48,"Anthropic":183,"智能体":427,"Cursor":82,"Amazon":30,"NVIDIA":59,"Databricks":21,"Google":64,"CrowdStrike":4}</script>
 
 <script>
 (function(){

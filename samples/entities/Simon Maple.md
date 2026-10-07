@@ -36,7 +36,7 @@ unlisted: true
 
 [[智能体]] · [[可观测性]] · [[沙箱]] · [[TESL]] · [[代码审查]] · [[CI-CD]] · [[技能]] · [[Guy Pajani]] · [[上下文]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"可观测性":37,"沙箱":79,"TESL":4,"代码审查":24,"CI-CD":16,"技能":29,"Guy Pajani":3,"上下文":27,"护栏":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"可观测性":37,"沙箱":79,"TESL":4,"代码审查":24,"CI-CD":16,"技能":29,"Guy Pajani":3,"上下文":27,"护栏":80}</script>
 
 <script>
 (function(){

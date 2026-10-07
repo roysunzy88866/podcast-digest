@@ -1,0 +1,1330 @@
+{
+  "episode_id": "2026-09-29-sed-cory-doctorow-on-ai-work-and-power",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-29",
+  "tags": [
+    "AI 泡沫",
+    "劳工与自动化",
+    "开源维护",
+    "AI 经济学",
+    "数字权利"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "cory-doctorow",
+      "type": "person",
+      "role": "host",
+      "name": "Cory Doctorow",
+      "file": "Cory Doctorow",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.264,
+            41.827
+          ],
+          "quote": "Cory Doctorow is a science fiction author, journalist, and technology activist, and a special advisor to the Electronic Frontier Foundation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            149.381,
+            151.102
+          ],
+          "quote": "With me today is Cory Doctorow.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "josh-goldberg",
+      "type": "person",
+      "role": "cohost",
+      "name": "Josh Goldberg",
+      "file": "Josh Goldberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            76.887,
+            84.514
+          ],
+          "quote": "In this episode, Corey joins Josh Goldberg to talk about his latest book, The Reverse Centaur's Guide to Life After AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            100.63,
+            106.616
+          ],
+          "quote": "This episode is hosted by Josh Goldberg, front-end developer at Sentry and open source maintainer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3565.201,
+            3566.582
+          ],
+          "quote": "For SED, this is Josh Goldberg.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "centaur",
+      "type": "concept",
+      "role": "concept",
+      "name": "半人马 (centaur)",
+      "file": "半人马",
+      "primary": true,
+      "how_described": "本集说：自动化理论里由机器辅助的人——人类的头、机器的身体，机器更强更快但不做判断，人类在上面发号施令（用 IDE、拼写检查器甚至骑车都是半人马）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            76.887,
+            84.514
+          ],
+          "quote": "In this episode, Corey joins Josh Goldberg to talk about his latest book, The Reverse Centaur's Guide to Life After AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            85.015,
+            88.318
+          ],
+          "quote": "They discuss the difference between a centaur and a reverse centaur.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            490.342,
+            497.866
+          ],
+          "quote": "And in the book, Reverse Centaur's Guide to Life After AI, I kind of want to walk through it in terms of some of the fun phrases you brought up.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 91,
+          "t": [
+            498.066,
+            499.527
+          ],
+          "quote": "So let's start with reverse centaur.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 92,
+          "t": [
+            499.847,
+            501.908
+          ],
+          "quote": "What is a reverse centaur compared to a centaur?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            608.596,
+            614.457
+          ],
+          "quote": "In automation theory, a centaur is someone assisted by a machine, whether that's you using an IDE or a spell checker,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            614.917,
+            618.398
+          ],
+          "quote": "Or even riding a bicycle, an act that makes you look like an actual centaur.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            659.684,
+            681.426
+          ],
+          "quote": "When things go wrong, you have to work long hours under dreadful conditions doing the worst part of your job under conditions that make it impossible not to make mistakes because you require this automation blindness where you can't spot the errors because most of it's right except when it's really wrong in ways that will kill people and that's reverse centaurism and the reason that matters is because this distinction centaur reverse centaur resolves an otherwise",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            731.555,
+            732.696
+          ],
+          "quote": "One side is a centaur.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            736.677,
+            738.337
+          ],
+          "quote": "The other side is a reverse centaur.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            763.198,
+            779.774
+          ],
+          "quote": "You would think that given this understanding of one form is much more productive and long-lived and effective than the other, and the other form is a reverse centaur, which is a horrifying thing to look at, why is it that so many companies, you bring up in the book examples such as Amazon, are putting us into these slot factories?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2707.08,
+            2711.442
+          ],
+          "quote": "To me, that was probably the most impactful example of a reverse centaur versus a centaur itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3431.422,
+            3435.966
+          ],
+          "quote": "I look forward to the sequel to Reverse Centaur describing post-bubble all the open source models.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "reverse-centaur",
+      "type": "concept",
+      "role": "concept",
+      "name": "反向半人马 (reverse centaur)",
+      "file": "反向半人马",
+      "primary": true,
+      "how_described": "本集说：机器驱使人类、人被征用为机器「不幸的外围设备」，被迫以机器的节奏工作——不只是被机器使用，而是被机器用尽，出了错还要背锅。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            76.887,
+            84.514
+          ],
+          "quote": "In this episode, Corey joins Josh Goldberg to talk about his latest book, The Reverse Centaur's Guide to Life After AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            85.015,
+            88.318
+          ],
+          "quote": "They discuss the difference between a centaur and a reverse centaur.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            490.342,
+            497.866
+          ],
+          "quote": "And in the book, Reverse Centaur's Guide to Life After AI, I kind of want to walk through it in terms of some of the fun phrases you brought up.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 91,
+          "t": [
+            498.066,
+            499.527
+          ],
+          "quote": "So let's start with reverse centaur.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 92,
+          "t": [
+            499.847,
+            501.908
+          ],
+          "quote": "What is a reverse centaur compared to a centaur?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 117,
+          "t": [
+            659.684,
+            681.426
+          ],
+          "quote": "When things go wrong, you have to work long hours under dreadful conditions doing the worst part of your job under conditions that make it impossible not to make mistakes because you require this automation blindness where you can't spot the errors because most of it's right except when it's really wrong in ways that will kill people and that's reverse centaurism and the reason that matters is because this distinction centaur reverse centaur resolves an otherwise",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            736.677,
+            738.337
+          ],
+          "quote": "The other side is a reverse centaur.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            763.198,
+            779.774
+          ],
+          "quote": "You would think that given this understanding of one form is much more productive and long-lived and effective than the other, and the other form is a reverse centaur, which is a horrifying thing to look at, why is it that so many companies, you bring up in the book examples such as Amazon, are putting us into these slot factories?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2707.08,
+            2711.442
+          ],
+          "quote": "To me, that was probably the most impactful example of a reverse centaur versus a centaur itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3431.422,
+            3435.966
+          ],
+          "quote": "I look forward to the sequel to Reverse Centaur describing post-bubble all the open source models.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "inshittification",
+      "type": "concept",
+      "role": "concept",
+      "name": "劣化 (inshittification)",
+      "file": "劣化",
+      "primary": true,
+      "how_described": "本集说 Cory 上一本书的论题：在竞争被排挤、监管被收买、互操作性入市被定为非法的世界里，公司可以把东西做得更糟还留住客户；本集说这已发生在代码层面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            42.487,
+            52.831
+          ],
+          "quote": "He is the author of dozens of books, including the nonfiction InShittification, Why Everything Suddenly Got Worse and What to Do About It, and the novel Picks and Shovels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            559.319,
+            576.666
+          ],
+          "quote": "This is more or less what the thesis of inshittification is, that in a world in which competition has been sidelined, regulators have been captured, workers have been tamed, and new market entry through interoperability has been made illegal by the expansion of IP laws, companies can make worse things and still keep their customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1682.496,
+            1692.001
+          ],
+          "quote": "Well, I would fall back to my work on inshittification here and say that while individuals and startups, they can employ best practices.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-bubble",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 泡沫 (AI bubble)",
+      "file": "AI 泡沫",
+      "primary": true,
+      "how_described": "本集说：AI 是最新的「增长故事」，一个教别的公司不解雇创新、只解雇员工换聊天机器人的「元故事」，且单位经济学糟糕——每代产品亏得比上代更多，泡沫必崩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            799.442,
+            808.648
+          ],
+          "quote": "In particular, I think the AI bubble has to be seen in light of the string of tech bubbles we've lived through and the kind of material basis for those tech bubbles.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1348.158,
+            1353.162
+          ],
+          "quote": "So move on in the flow to talk a little bit more about the AI bubble and especially how it pertains to software developers.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "unit-economics",
+      "type": "concept",
+      "role": "concept",
+      "name": "单位经济学 (unit economics)",
+      "file": "单位经济学",
+      "primary": true,
+      "how_described": "本集说：一项业务每多做一个单位时的表现；AI 是「狗屎般的单位经济学」——每获取一个用户都在资产负债表上砸出一个洞，与 Web 当年每加一个用户都更赚钱完全相反。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            1042.937,
+            1051.342
+          ],
+          "quote": "And you will continue to grow, not by selling more units necessarily, but just by extracting more through every sale, by improving your unit economics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2712.023,
+            2716.145
+          ],
+          "quote": "And I do want to talk to you, Ashley, about what you quote as dogshit unit economics.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3072.983,
+            3079.434
+          ],
+          "quote": "What is dogshit unit economics in AI and what do you think comes after a bubble burst or perhaps even why is the bubble going to burst?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3079.975,
+            3082.956
+          ],
+          "quote": "So AI has bad economics and it has bad unit economics too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3083.416,
+            3089.038
+          ],
+          "quote": "So unit economics, that's how a business performs when it moves another unit, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3136.162,
+            3139.763
+          ],
+          "quote": "And first among those characteristics is good unit economics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3422.976,
+            3424.676
+          ],
+          "quote": "How do you do it when your unit economics suck?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "automation-blindness",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化盲视 (automation blindness)",
+      "file": "自动化盲视",
+      "primary": true,
+      "how_described": "本集说：机器大多数时候正确时，人类无法对罕见的出错保持警觉，就像 TSA 安检员 95% 的时间发现不了红队带过 X 光机的假枪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            659.684,
+            681.426
+          ],
+          "quote": "When things go wrong, you have to work long hours under dreadful conditions doing the worst part of your job under conditions that make it impossible not to make mistakes because you require this automation blindness where you can't spot the errors because most of it's right except when it's really wrong in ways that will kill people and that's reverse centaurism and the reason that matters is because this distinction centaur reverse centaur resolves an otherwise",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2623.641,
+            2632.465
+          ],
+          "quote": "There's this well-understood problem called automation blindness, which is that when a machine usually runs right and you're supposed to be vigilant for the very rare instances in which it runs,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说：vibe coding 的归宿是自用小工具（树莓派连 HomeKit，坏了再 vibe 一个），不适合用于向很多人依赖的大型开源项目提交 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            2449.936,
+            2455.68
+          ],
+          "quote": "I think the place where vibe coding belongs is like you've got a home kit gadget.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾 (slop)",
+      "file": "AI 垃圾",
+      "primary": true,
+      "how_described": "本集说：灌 AI 垃圾 PR 的人对代码如何运行了解很多、对代码如何失败一无所知；药方是删掉 999 个坏补丁，让提交者挑一个真正在意的和维护者一起改。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 389,
+          "t": [
+            2182.665,
+            2189.19
+          ],
+          "quote": "I'm a former independent open source maintainer, and one of the things that pushed me out was the horrendous slew of AI slop span.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2189.41,
+            2195.475
+          ],
+          "quote": "You also mentioned in the book a certain literary magazine, Clark's World, that received just an obscene amount of slop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2199.838,
+            2204.824
+          ],
+          "quote": "SLOP while still giving actual humans or perhaps AI-assisted humans the right of way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2207.227,
+            2217.859
+          ],
+          "quote": "I think that people who SLOP their PRs lack the discernment to distinguish useful code from useless code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "solidarity",
+      "type": "concept",
+      "role": "concept",
+      "name": "团结 (solidarity)",
+      "file": "团结",
+      "primary": true,
+      "how_described": "本集说：历史上只有一种可靠的、持久的让工人获得权力的机制，就是团结——去 Tech Workers Coalition、TechSolidarity，了解如何组建工会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1533.709,
+            1535.31
+          ],
+          "quote": "There's tech solidarity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1613.891,
+            1621.116
+          ],
+          "quote": "There is one reliable, durable mechanism for workers acquiring power in history, and it's solidarity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1622.397,
+            1622.898
+          ],
+          "quote": "Solidarity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1672.529,
+            1675.551
+          ],
+          "quote": "You've given us advice on solidarity, perhaps even unionization.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "encryption",
+      "type": "concept",
+      "role": "concept",
+      "name": "加密 (encryption)",
+      "file": "加密",
+      "primary": true,
+      "how_described": "本集说：NSA 曾把可用加密当军火管制、只允许 50 位的 DES50；EFF 用 Deepcrack 证明其不足，最终靠「代码是表达性言论」打赢官司，让真正能用的加密合法化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1659.08,
+            1662.082
+          ],
+          "quote": "I don't think you get there by banning working encryption.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1675.751,
+            1680.635
+          ],
+          "quote": "How would you advise folks trying to work on what is the right and wrong way to do encryption and data protection?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1699.606,
+            1703.732
+          ],
+          "quote": "forward-looking programs to do quantum-resistant encryption.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1717.73,
+            1729.14
+          ],
+          "quote": "The fact that prohibitions on jailbreaking phones makes them vulnerable because if Apple and Google say that they won't carry them unless they backdoor their encryption, then the majority of their users are going to lose it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1764.811,
+            1768.935
+          ],
+          "quote": "We have an environment where if two companies decide no one should have end-to-end encryption, no one gets it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1772.789,
+            1777.53
+          ],
+          "quote": "But in China, Apple turned off all the working encryption tools for its iOS platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1788.192,
+            1793.674
+          ],
+          "quote": "The encryption at rest, the full disk encryption is defective, has deliberately introduced defects.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1794.174,
+            1796.875
+          ],
+          "quote": "The encryption on the wire also has deliberately introduced defects.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2758.649,
+            2762.232
+          ],
+          "quote": "The NSA had classed, as you said, classed working encryption as ammunition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2763.053,
+            2770.84
+          ],
+          "quote": "And EFF and our fellow fighters for working encryption, privacy, and security raised a lot of arguments about why this was bad.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2771.26,
+            2778.946
+          ],
+          "quote": "The NSA said, all of this parade of horribles you proposed that will happen if we don't have working encryption, they're just hysterics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2779.447,
+            2783.711
+          ],
+          "quote": "We will let you use a cipher called DES50, Defense Encryption Standard of 50 Bits.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2924.765,
+            2930.028
+          ],
+          "quote": "And so since about 1993, it has been legal to have encryption that works.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "switching-costs",
+      "type": "concept",
+      "role": "concept",
+      "name": "转换成本 (switching costs)",
+      "file": "转换成本",
+      "primary": false,
+      "how_described": "本集说：AI 产品转换成本极低——新 Claude 模型明显更强时用户大规模从 ChatGPT 迁走，逼着 OpenAI 不停造新模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 608,
+          "t": [
+            3387.081,
+            3397.005
+          ],
+          "quote": "We can then look at the low switching costs as evidenced by the huge exodus from ChatGPT to Claude when the new Claude model came out that was demonstrably better than ChatGPT.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": false,
+      "how_described": "本集说：自由软件伦理已变成把开源当求职名片的伦理，这也是 AI 垃圾 PR 泛滥的文化土壤之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            100.63,
+            106.616
+          ],
+          "quote": "This episode is hosted by Josh Goldberg, front-end developer at Sentry and open source maintainer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1985.294,
+            1987.775
+          ],
+          "quote": "So this is things like irrevocable open source licenses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2182.665,
+            2189.19
+          ],
+          "quote": "I'm a former independent open source maintainer, and one of the things that pushed me out was the horrendous slew of AI slop span.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2218.912,
+            2228.681
+          ],
+          "quote": "And we have seen the free software ethic become an open source ethic, become a kind of open source as a career calling card ethic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2485.266,
+            2497.317
+          ],
+          "quote": "It's not for submitting PRs to a big open source project that has a lot of people who rely on it and who are going to get right up the maintainer's butt when it stops working for the good reason that they rely on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2549.047,
+            2553.129
+          ],
+          "quote": "And Seth, he worked on a lot of big open source projects where he was thinking things through and so on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3431.422,
+            3435.966
+          ],
+          "quote": "I look forward to the sequel to Reverse Centaur describing post-bubble all the open source models.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "eff",
+      "type": "company",
+      "role": "company",
+      "name": "EFF",
+      "file": "EFF",
+      "primary": true,
+      "how_described": "本集说：Cory 工作了近 25 年的电子前哨基金会，数字权利组织，加入了美国通信工人工会，曾打赢让可用加密合法化的关键一战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            151.203,
+            157.308
+          ],
+          "quote": "Cory is a writer, activist, journalist who has been with the Electronic Frontier Foundation, or EFF, for nearly 25 years.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1535.93,
+            1538.893
+          ],
+          "quote": "At EFF, we're unionized to the Communications Workers of America.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2540.562,
+            2548.486
+          ],
+          "quote": "I had the enormous privilege and pleasure of working with EFF's first ever staff technologist who was a very playful coder named Seth Schoen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2763.053,
+            2770.84
+          ],
+          "quote": "And EFF and our fellow fighters for working encryption, privacy, and security raised a lot of arguments about why this was bad.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2807.91,
+            2817.958
+          ],
+          "quote": "John Gilmore, who was EFF's co-founder, who helped write Solaris, designed the Spark chip, write GCC, and founded the first ISP as well as EFF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2862.229,
+            2867.615
+          ],
+          "quote": "And Cindy Cohen, my former boss, has just retired from EFF and has written a wonderful memoir of this period.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3444.174,
+            3449.279
+          ],
+          "quote": "If you wanted people to find out more about you, your writing, the EFF, where would you direct them on the internet?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3449.659,
+            3452.5
+          ],
+          "quote": "Start at EFF.org, join, be a member.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说：Ed Zitron 拿到的 OpenAI 账目显示推理科目很低、营销科目高得和可口可乐一样；理论是他们把百元大钞一块钱卖掉——低价推理被记成营销开支。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 596,
+          "t": [
+            3323.508,
+            3332.251
+          ],
+          "quote": "So Ed Zitron is a very good AI finance and tech critic, got a hold of a balance sheet from OpenAI, their finances from OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3362.049,
+            3363.69
+          ],
+          "quote": "That's not an evidence for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3397.665,
+            3400.846
+          ],
+          "quote": "Which means that OpenAI doesn't get to just make a model and stop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说：Anthropic 声称盈利，但前提是忽略公认会计准则 GAAP——「以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 576,
+          "t": [
+            3207.042,
+            3215.71
+          ],
+          "quote": "You may have seen Anthropic argue that it was profitable, but if you look closely at that announcement, what you'll find is that Anthropic is only profitable",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3403.608,
+            3407.549
+          ],
+          "quote": "And the day they do, Anthropic has to make a successor to Claude.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说：七巨头里唯一赚钱的是 NVIDIA——它把赚到的钱再借回给另外六家，好让它们买更多 NVIDIA 的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 572,
+          "t": [
+            3184.68,
+            3187.262
+          ],
+          "quote": "The company that is profitable is NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3188.023,
+            3196.051
+          ],
+          "quote": "That's the company that's getting the hundreds of billions of dollars and then loaning it to those six other companies so they can buy more of NVIDIA's products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3196.792,
+            3200.095
+          ],
+          "quote": "From NVIDIA, this is not good.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说：没人比 Mark Zuckerberg 更暴露于 Meta 股价波动，他不是意识形态上想让 Meta 永远增长，只是不想明天就变穷 80%；还用股票给一位程序员开一亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            921.964,
+            927.667
+          ],
+          "quote": "I mean, no one is as exposed to fluctuations in Meta share price as Mark Zuckerberg, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            927.687,
+            930.968
+          ],
+          "quote": "He doesn't want Meta to grow forever for ideological reasons.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            964.775,
+            971.618
+          ],
+          "quote": "Remember when Meta announced its AI superintelligence play and they announced that they were paying a programmer a hundred million dollars?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1012.856,
+            1029.008
+          ],
+          "quote": "And so AI is this latest story about growth, and it's a kind of meta story about growth, not meta in the Facebook sense, meta in the above sense, in the sense that they're also telling other companies how they can grow without doing anything innovative, without coming up with a better product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说：Google 拥有 90% 搜索份额后不再有增长空间，曾靠把搜索做差让人多搜几次多看广告来提高收入（DOJ 反垄断诉讼曝光）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            815.734,
+            819.776
+          ],
+          "quote": "You know, if you're Google and you have a 90% search market share, you don't grow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            819.837,
+            826.081
+          ],
+          "quote": "I mean, you raise a billion humans to maturity and make them Google customers, sure, but Google Classroom is going to take 15 years to produce results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            836.21,
+            841.996
+          ],
+          "quote": "Google was going to do Google Plus and become Facebook, or Facebook was going to do the pivot to video and become YouTube.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1384.717,
+            1391.543
+          ],
+          "quote": "There was a time before Google fired 12,000 workers after doing a stock buyback that would have paid their wages for the next 27 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1717.73,
+            1729.14
+          ],
+          "quote": "The fact that prohibitions on jailbreaking phones makes them vulnerable because if Apple and Google say that they won't carry them unless they backdoor their encryption, then the majority of their users are going to lose it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1903.997,
+            1906.018
+          ],
+          "quote": "We saw this with Google in 2019, 2020.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1906.078,
+            1924.522
+          ],
+          "quote": "This is stuff that came out with the DOJ's successful antitrust prosecution of Google, the so-called search case, where they decided the way they would increase search revenue after hitting 90% market share was by making search worse so that you would have to search more than once and see ads more than once.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1925.482,
+            1929.564
+          ],
+          "quote": "And you see this factional dispute within Google between the revenue side and the tech side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1942.812,
+            1945.273
+          ],
+          "quote": "It's a Google search box that is wired into our servers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集说：AWS 这类大到不能倒、本该像公用事业运营的平台，SRE 承诺却像初创公司；亚马逊仓库工人受伤率是其他仓库工人的三倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            763.198,
+            779.774
+          ],
+          "quote": "You would think that given this understanding of one form is much more productive and long-lived and effective than the other, and the other form is a reverse centaur, which is a horrifying thing to look at, why is it that so many companies, you bring up in the book examples such as Amazon, are putting us into these slot factories?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1498.182,
+            1503.186
+          ],
+          "quote": "Not an Amazon programmer, but an Amazon warehouse worker who's injured at three times the rate of any other warehouse worker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3488.831,
+            3494.153
+          ],
+          "quote": "And you can get my eBooks and my audio books anywhere books are sold, except Amazon won't carry my audio books because they're DRM free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3495.233,
+            3501.14
+          ],
+          "quote": "So you can get them places that aren't Amazon, including from me directly at craphound.com slash shop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集说：在中国 Apple 关闭了 iOS 平台上所有可用的加密工具，因为平台锁死、逆向工程违法，中国人得到的就只有这些。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            248.768,
+            255.312
+          ],
+          "quote": "79, Apple gave all the heads of computer science at all the computer science departments in Ontario Apple II Plus to try for the summer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            260.114,
+            262.836
+          ],
+          "quote": "And so we had an Apple II Plus in 79, 1980, we got a modem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1203.535,
+            1214.741
+          ],
+          "quote": "And I actually wanted to ask about that in this context then, because if every grocery store in a town is getting cheaper prices for their apples, a cent less per apple, that gives them a little bit of a competitive edge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1228.829,
+            1239.896
+          ],
+          "quote": "But let me complicate that story just a little because yet they are getting a penny more per apple and they're losing three cents per apple more in shoplifting because they've replaced all the cashiers with machines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1503.626,
+            1509.21
+          ],
+          "quote": "Not an Apple programmer, but someone assembling an iPhone in China who works in a factory that has a suicide net around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1717.73,
+            1729.14
+          ],
+          "quote": "The fact that prohibitions on jailbreaking phones makes them vulnerable because if Apple and Google say that they won't carry them unless they backdoor their encryption, then the majority of their users are going to lose it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1772.789,
+            1777.53
+          ],
+          "quote": "But in China, Apple turned off all the working encryption tools for its iOS platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1935.067,
+            1937.989
+          ],
+          "quote": "We pay Apple $20 billion a year not to enter the search market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2393.256,
+            2396.177
+          ],
+          "quote": "Like when I was teaching myself Apple basic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2397.163,
+            2399.304
+          ],
+          "quote": "My Apple II Plus did not have a debugger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2404.126,
+            2406.928
+          ],
+          "quote": "And I wrote a debugger for the Apple II.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Replit]] · [[Salesforce]] · [[Uber]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[Harry Stabbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"OpenAI":171,"ChatGPT":98,"Replit":20,"Salesforce":34,"Uber":16,"Anthropic":182,"Cursor":82,"Lenny":68,"Harry Stabbings":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"OpenAI":172,"ChatGPT":98,"Replit":20,"Salesforce":34,"Uber":16,"Anthropic":183,"Cursor":82,"Lenny":68,"Harry Stabbings":2}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
+[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":8,"智能体":424,"代码审查":24,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":4,"TypeScript":2,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":9,"智能体":427,"代码审查":24,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":4,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

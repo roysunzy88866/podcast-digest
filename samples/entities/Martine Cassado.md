@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":21,"Neon":3,"智能体":424,"本体":5,"网络安全":3,"RSI":5,"开源":37,"后训练":1,"harness":58}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":21,"Neon":3,"智能体":427,"本体":5,"网络安全":3,"RSI":5,"开源":38,"后训练":1,"harness":59}</script>
 
 <script>
 (function(){

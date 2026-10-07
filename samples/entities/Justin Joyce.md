@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":14,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":424,"多智能体工作流":2,"go-to-market":14,"MCP":79,"可观测性":37,"LLM":57}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":14,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":427,"多智能体工作流":2,"go-to-market":14,"MCP":79,"可观测性":37,"LLM":57}</script>
 
 <script>
 (function(){

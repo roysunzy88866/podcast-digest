@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":424,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":79,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":62}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":80,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":64}</script>
 
 <script>
 (function(){

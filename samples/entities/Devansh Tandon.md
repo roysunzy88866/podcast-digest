@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Meta":45,"Instagram":7,"YouTube":8,"Spotify":7,"DoorDash":10,"推荐系统":1,"LLM":57,"语义 ID":2,"算力扩展":2,"推理":81}</script>
+<script type="application/json" class="pd-epn">{"Meta":47,"Instagram":7,"YouTube":8,"Spotify":7,"DoorDash":10,"推荐系统":1,"LLM":57,"语义 ID":2,"算力扩展":2,"推理":81}</script>
 
 <script>
 (function(){

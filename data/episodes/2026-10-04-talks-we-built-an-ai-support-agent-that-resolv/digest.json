@@ -1,0 +1,160 @@
+{
+  "title_zh": "每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey",
+  "tldr": "Assembly AI 前置部署工程师 Matt Lawler 讲述如何用 Claude Agent SDK 打造解决 80% 工单的 AI 支持机器人 Joey。",
+  "digest_md": "每天大约有 1,000 个新客户注册你的 API,而你只有一个入职工程师——这是 Assembly AI(一家做语音 AI 基础设施的公司,训练自己的语音转文字模型,Fireflies 之类的会议记录工具用的就是他们的转写)当时面临的处境。说这话的是 Matt Lawler,Assembly AI 的前置部署工程师(Forward Deployed Engineer,一种深入客户现场、直接在客户代码仓库里提交代码、负责从技术到商务全流程的角色)。至少在演讲两天前,他还是公司唯一的 onboarding 工程师。「尽管我很想每天和 1,000 个新注册用户都聊一聊,但这根本不可行。」[02:29 Matt Lawler]\n\n他的解法不是招人,而是造了一个「团队成员」:一个叫 Joey 的 AI 支持机器人。结果相当惊人——上线第一周,端到端解决率就从 10% 冲到 80%,每月成本只有大约 700 美元的 token 和基础设施费。更关键的是这个数字没有注水:「除非你经过 Joey 并让他升级,否则你无法直接联系到人工。所以他现在实际上为我们处理 100% 的入站工单。」[08:38 Matt Lawler] 只有 20% 的对话会升级给真人,而且升级的理由都是真正需要人的:费率变更、数据退出、签协议这类需要法务介入的事。\n\n## 先买现成的,为什么不行的教训\n\n团队最初的直觉和很多公司一样:买个现成的支持机器人,指向文档,让它替我们回答简单问题。结果它只解决了约 10% 的对话——一天 1,000 个对话,机器人接管 100 个,团队仍要处理 900 个工单。更要命的是没法迭代:拿不到 system prompt、拿不到工具、拿不到 RAG(检索增强生成,让模型先搜资料再回答)基础设施,每次要改点什么,供应商就回一句「这个在路线图上」。所以「我们想自己造一个」[05:15 Matt Lawler]。\n\n## Joey 的架构:四块拼图\n\nJoey 构建在 Claude Agent SDK 之上,能管理自己的基础设施、有文件系统、能写代码和调试、能调用工具、甚至能给自己增加新能力——所以他更像一个 FDE 在运作,而不是主流网站上那种标准聊天机器人。架构有四个主要部分:\n\n1. **文档即本地 Markdown。** 用过 Claude 的人都知道 Markdown 是它的好朋友。团队把全部文档以 Markdown 形式检出进仓库,每次文档系统更新,文件自动同步给 Joey——新功能、变更日志、定价、网站主要页面全都包含。一个副产品:就算整个文档站挂了,客户找 Joey 依然能拿到最新内容的实时解答。而且 Joey 能看到每个文件的 URL,可以给客户引用来源,方便对方复核。\n\n2. **检索用 Voyage 的嵌入。** 让 Joey 一开始就拿到最相关的文档,不用花时间搜索、能更快给出答案。因为文档全在本地,遇到需要串联多个资源的问题,他还能以智能体方式深度搜索自己的文件系统。\n\n** 里面全是护栏和「如何与客户打交道」的建议。每次发现 Joey 体验不好或答错了,团队就大规模更新这个文件——「之后在他进行的每一次对话中,他都能表现得更好。」[11:49 Matt Lawler] 这是他们主要的迭代手段。\n\n4. **部署在 Railway 上,追求迭代速度。** 不想起 EC2、不想换实例类型,全扔给 Railway:发现 Joey 在 Slack 上有糟糕对话,快速写个 PR 部署,30 秒内新版本上线。Matt 说他们有过这样的经历:实时监控一场对话、发现 bug、部署修复,同一会话的剩余部分已经被修复版验证——客户根本不知道幕后发生了什么。\n\n## 造出来之后:不能做的事就是路线图\n\nJoey 做不到的事,反过来给了团队一张极清晰的扩展清单。他不能发 BAA(医疗数据的商业伙伴协议)?给他一个可参考的链接。他不能谈定价?现在可以直接跟 Joey 谈判——你告诉他你需要多少小时,他会真给你报一个费率,然后你可以跟他砍价。团队在持续把这些升级项逐个自动化。\n\n## 元层面:用 Joey 吃自己的狗粮\n\n造 Joey 还有一个目的:Assembly 做语音,客户构建语音智能体,那 Joey 本身就该是个语音智能体。本周他们把自家的语音智能体 API 集成进了 Joey——语音进、语音出,一条 WebSocket 连接串起语音转文字、LLM、文字转语音,实时低延迟,自动处理停顿、打断、插话,还自带语音不用另找供应商。现场演示里,Matt 用语音问 Joey「我要做医疗记录产品,得先签 BAA,你能办吗」,Joey 查完给出完整回答:可以自己签标准协议,但需要先有绑定卡片的付费账户,且签了会自动退出模型训练——这种对话在两年前必须由真人处理,客户还得等一条模板回复。\n\nMatt 认为这里面有一层对 FDE 特别重要的东西:理解客户在构建什么的最好方式,是自己亲手构建同样的产品。「我撞过完全相同的墙……我必须搞清楚如何处理延迟、轮次转换、打断处理。我对如何与想用我们语音智能体 API 的客户合作,有了好得多的同理心,因为我真的用过它。」[14:48 Matt Lawler] 你在跟 Joey 聊怎么构建语音智能体时,你已经在体验这个产品本身了。\n\n他的收尾建议:如果你是 FDE,试着独立构建你的客户正在构建的完全相同的产品,别只是等他们来求助、等着替他们清障。同时,把每天接不住的客户需求自动化掉——「你不该成为良好客户体验的瓶颈」[04:12 Matt Lawler],而你暂时自动化不了的部分,就是你团队下一步该做什么的清单。\n\n## 本集带走\n\n- **先自建再优化**:现成支持机器人只解决 10% 的对话,且拿不到 system prompt、工具和 RAG 就无法迭代;自己造才有完全控制权。Joey 用 Claude Agent SDK 搭建,第一周就把解决率做到 80%,月成本约 700 美元。\n- **把业务知识喂成 Markdown 文件**:全部文档本地检出、自动同步,再加一个约 30,000 行的 ClaudeMD 记录护栏和踩坑经验——每次答错就更新它,让之后所有对话都变好。\n- **部署平台选「改起来最快」的**:Railway 上写完 PR 30 秒上线,快到可以边看对话边修 bug,客户无感。\n- **机器人做不到的事 = 你的路线图**:不能发 BAA 就给它链接,不能谈价就给它报价逻辑;升级给人工的 20% 就是下一批要自动化的清单。\n- **FDE 要亲手造客户造的东西**:自己撞一遍延迟、打断处理的墙,才能给客户真正有用的建议——而且顺手做出了产品演示。",
+  "quotes": [
+    {
+      "en": "I would encourage you to take that knowledge that you have as an FTE and try to automate yourself out of a job.",
+      "zh": "我鼓励你把你作为前置部署工程师所掌握的知识拿来,尝试把自己从这份工作中自动化出去。",
+      "timestamp": "03:57",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "If you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience.",
+      "zh": "如果你想规模化交付更好的客户体验,你就不能成为良好客户体验的瓶颈。",
+      "timestamp": "04:07",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "So we built another member of our team rather than hiring one, and we named him Joey.",
+      "zh": "于是我们「造」了另一个团队成员而不是去雇一个,我们给他起名叫 Joey。",
+      "timestamp": "05:18",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "If our entire doc site was down right now, you could go to Joey and still get live answers on all the newest stuff that we've shipped without our team having to actually get involved.",
+      "zh": "如果我们整个文档网站现在挂了,你也可以去找 Joey,仍然能得到关于我们最新发布内容的实时解答,而无需我们团队真正介入。",
+      "timestamp": "06:46",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "We've actually had times where we've actually monitored a live conversation, caught a bug, deployed a fix, and then it's been proved for the rest of the session, and that customer doesn't even have to know that we shipped that fix behind the scenes.",
+      "zh": "实际上有几次,我们实时监控一场对话,发现了一个 bug,部署了修复,然后在会话的剩余时间里它就被验证有效了,而那个客户甚至不需要知道我们在幕后发布了那个修复。",
+      "timestamp": "07:42",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "So we went from 10% to 80% end-to-end resolution rate in just the first week of deploying this build with a pretty naive implementation.",
+      "zh": "在部署这个构建的第一周内,我们就把端到端解决率从 10% 提升到了 80%,而且用的是相当朴素的实现。",
+      "timestamp": "08:09",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "And we did that all for around $700 a month in both token and infrastructure costs.",
+      "zh": "而且我们总共只花了大约每月 700 美元的 token 和基础设施成本就做到了这一切。",
+      "timestamp": "08:17",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "And so the best part is whatever Joey can't do yet gives us a very clear list of what we need to do to continue to scale our team.",
+      "zh": "最好的部分是,Joey 还不能做到的事情,为我们提供了一个非常清晰的清单,告诉我们需要做什么才能继续扩展我们的团队。",
+      "timestamp": "08:57",
+      "speaker": "Matt Lawler"
+    },
+    {
+      "en": "The best way to understand what your customers are building is to actually build their same product yourself.",
+      "zh": "理解你的客户在构建什么,最好的方式就是你自己真正去构建他们的同样产品。",
+      "timestamp": "10:11",
+      "speaker": "Matt Lawler"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:51",
+      "speaker": "Matt Lawler",
+      "en": "I would encourage you to take that knowledge that you have as an FTE and try to automate yourself out of a job.",
+      "zh": "我鼓励你把你作为前置部署工程师所掌握的知识拿来,尝试把自己从这份工作中自动化出去。"
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Matt Lawler",
+      "en": "If you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience.",
+      "zh": "如果你想规模化交付更好的客户体验,你就不能成为良好客户体验的瓶颈。"
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Matt Lawler",
+      "en": "And it only resolved about 10% of the conversations.",
+      "zh": "结果它只解决了大约 10% 的对话。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Matt Lawler",
+      "en": "So we built another member of our team rather than hiring one, and we named him Joey.",
+      "zh": "于是我们「造」了另一个团队成员而不是去雇一个,我们给他起名叫 Joey。"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Matt Lawler",
+      "en": "He's the first line of defense now for every single conversation that happens in bounded assembly, and he's built to be the most infinitely scalable FDE on our team.",
+      "zh": "他现在是 Assembly 内发生的每一个对话的第一道防线,而且他被打造为我们团队上可无限扩展的前置部署工程师。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Matt Lawler",
+      "en": "If our entire doc site was down right now, you could go to Joey and still get live answers on all the newest stuff that we've shipped without our team having to actually get involved.",
+      "zh": "如果我们整个文档网站现在挂了,你也可以去找 Joey,仍然能得到关于我们最新发布内容的实时解答,而无需我们团队真正介入。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Matt Lawler",
+      "en": "We've actually had times where we've actually monitored a live conversation, caught a bug, deployed a fix, and then it's been proved for the rest of the session, and that customer doesn't even have to know that we shipped that fix behind the scenes.",
+      "zh": "实际上有几次,我们实时监控一场对话,发现了一个 bug,部署了修复,然后在会话的剩余时间里它就被验证有效了,而那个客户甚至不需要知道我们在幕后发布了那个修复。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Matt Lawler",
+      "en": "So we went from 10% to 80% end-to-end resolution rate in just the first week of deploying this build with a pretty naive implementation.",
+      "zh": "在部署这个构建的第一周内,我们就把端到端解决率从 10% 提升到了 80%,而且用的是相当朴素的实现。"
+    },
+    {
+      "timestamp": "08:17",
+      "speaker": "Matt Lawler",
+      "en": "And we did that all for around $700 a month in both token and infrastructure costs.",
+      "zh": "而且我们总共只花了大约每月 700 美元的 token 和基础设施成本就做到了这一切。"
+    },
+    {
+      "timestamp": "08:38",
+      "speaker": "Matt Lawler",
+      "en": "So he actually does handle 100% of these inbound tickets for us now.",
+      "zh": "所以他现在实际上为我们处理 100% 的这些入站工单。"
+    },
+    {
+      "timestamp": "08:57",
+      "speaker": "Matt Lawler",
+      "en": "And so the best part is whatever Joey can't do yet gives us a very clear list of what we need to do to continue to scale our team.",
+      "zh": "最好的部分是,Joey 还不能做到的事情,为我们提供了一个非常清晰的清单,告诉我们需要做什么才能继续扩展我们的团队。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Matt Lawler",
+      "en": "The best way to understand what your customers are building is to actually build their same product yourself.",
+      "zh": "理解你的客户在构建什么,最好的方式就是你自己真正去构建他们的同样产品。"
+    },
+    {
+      "timestamp": "11:37",
+      "speaker": "Matt Lawler",
+      "en": "I think it's like a 30,000 line ClaudeMD of all these guardrails and advice on how he should be operating with customers.",
+      "zh": "我记得那大概是一个 30000 行的 ClaudeMD,里面全是各种护栏,以及关于他应该如何与客户打交道的建议。"
+    },
+    {
+      "timestamp": "14:29",
+      "speaker": "Matt Lawler",
+      "en": "If you're an FTE at your company, you need to be dogfooding your own product all the time.",
+      "zh": "如果你是公司的前置部署工程师,你需要一直在做内部自用,不断使用自己的产品。"
+    },
+    {
+      "timestamp": "15:03",
+      "speaker": "Matt Lawler",
+      "en": "It's the exact one that my customers build on, and I can give them better advice because I've actually shipped something with it.",
+      "zh": "那正是我的客户所构建其上的那个 API,而我能给他们更好的建议,因为我真的用它交付过东西。"
+    },
+    {
+      "timestamp": "15:19",
+      "speaker": "Matt Lawler",
+      "en": "But if you're actually working in an FTE capacity, try to build the exact product that your customers are building and do it on your own.",
+      "zh": "但如果你真的是以前置部署工程师的身份工作,试着去构建你的客户正在构建的完全相同的产品,并且自己独立完成。"
+    }
+  ],
+  "voice_script": "今天这期要讲一个特别实在的故事。主角叫 Matt Lawler,是 Assembly AI 的前置部署工程师。Assembly AI 是一家做语音 AI 基础设施的公司,自己训练语音转文字模型,像 Fireflies 这种会议记录工具,背后用的就是它们的转写。前置部署工程师这个角色,说白了就是扎在客户现场、直接进客户代码仓库干活的人,从技术到商务全流程都归他管。\n\n那这期聊什么呢?聊的是一个每家做技术的公司都可能撞上的难题:每天大约有 1,000 个新客户注册你的 API,而你只有一个入职工程师。至少在演讲两天前,Matt 还是公司唯一的 onboarding 工程师。他的原话是,尽管很想每天和这 1,000 个新注册用户都聊一聊,但这根本不可行。\n\n怎么办?他的解法不是招人,而是\"造\"了一个团队成员,一个叫 Joey 的 AI 支持机器人。效果有多离谱?上线第一周,端到端解决率就从 10% 冲到了 80%,用的是相当朴素的实现,每月成本只有大约 700 美元的 token 和基础设施费。更关键的是,这个数字没有注水。Matt 说,除非你经过 Joey 并让它升级,否则你根本没法直接联系到人工。所以现在入站工单 100% 都由 Joey 接,只有 20% 的对话会转给真人,而且都是真正需要人的事:费率变更、数据退出、签协议这种要法务介入的。\n\n那这个 Joey 是怎么来的?为什么当时现成的方案不行?这一段特别值得听。\n\n团队最初的直觉跟很多公司一样:买个现成的支持机器人,指向文档,让它替我们回答简单问题。结果只解决了约 10% 的对话。什么概念?一天 1,000 个对话,机器人接管 100 个,团队还得扛 900 个工单,该崩溃还是崩溃。更要命的是没法迭代:拿不到 system prompt,拿不到工具,拿不到 RAG 基础设施,说白了,检索增强生成,就是让模型先搜资料再回答的那套东西。每次想改点什么,供应商就回一句\"这个在路线图上\"。于是团队决定,自己造一个。\n\nJoey 构建在 Claude Agent SDK 之上。这套 SDK 能管理自己的基础设施、有文件系统、能写代码和调试、能调用工具,甚至能给自己增加新能力。所以它更像一个前置部署工程师在运作,而不是主流网站上那种标准聊天机器人。\n\n架构上有四块拼图,一块一块说。\n\n第一块,文档即本地 Markdown。用过 Claude 的人都知道,Markdown 是它的好朋友。团队把全部文档以 Markdown 形式检出进仓库,每次文档系统更新,文件自动同步给 Joey,新功能、变更日志、定价、网站主要页面全都包含。这里还有个副产品:就算整个文档站挂了,客户找 Joey 依然能拿到关于最新发布内容的实时解答,根本不需要团队介入。而且 Joey 能看到每个文件的 URL,可以给客户引用来源,方便对方复核。\n\n第二块,检索用 Voyage 的嵌入。这样 Joey 一上手就能拿到最相关的文档,不用花时间瞎搜,答案给得更快。而且因为文档全在本地,遇到需要串联多个资源的问题,还能以智能体方式深度搜索自己的文件系统。\n\n第三块,是一个大约 30,000 行的 ClaudeMD,里面全是护栏和\"如何与客户打交道\"的建议。每次发现 Joey 体验不好或者答错了,团队就大规模更新这个文件。这样一来,之后每一次对话都能表现得更好。这是团队最主要的迭代手段。\n\n第四块,部署在 Railway 上,追求的就是迭代速度。不想折腾 EC2,不想换实例类型,全扔给 Railway:发现 Joey 在 Slack 上有糟糕对话,快速写个 PR 部署,30 秒内新版本上线。这里 Matt 讲了个挺妙的经历:有几次实时监控一场对话,发现了一个 bug,部署了修复,然后在会话的剩余时间里修复就被验证有效了,而那个客户甚至不需要知道幕后发生了什么。\n\n好,机器人造出来了,那接下来怎么扩?这里有个很反直觉的思路:Joey 做不到的事,反过来给了团队一张极清晰的路线图。比如它不能发 BAA,就是医疗数据的商业伙伴协议?那给它一个可参考的链接。它不能谈定价?现在你可以直接跟 Joey 谈判,你告诉它需要多少小时,它会真给你报一个费率,你还能砍价。团队就在持续把这些升级项逐个自动化。\n\n最后还有一层更有意思的,算是元层面的事:用 Joey 吃自己的狗粮。Assembly 做语音,客户用它们的 API 构建语音智能体,那 Joey 本身就该是个语音智能体。本周团队把自家的语音智能体 API 集成进了 Joey,语音进、语音出,一条 WebSocket 连接串起语音转文字、大模型、文字转语音,实时低延迟,自动处理停顿、打断、插话,还自带语音,不用另找供应商。现场演示里,Matt 直接用语音问 Joey,说我要做医疗记录产品,得先签 BAA,你能办吗?Joey 查完给出完整回答:可以自己签标准协议,但需要先有绑定卡片的付费账户,而且签了会自动退出模型训练。这种对话在两年前必须由真人处理,客户还得等一条模板回复。\n\nMatt 认为这里面对前置部署工程师特别重要的一点是:理解客户在构建什么的最好方式,是自己亲手构建同样的产品。用他的话说,我撞过完全相同的墙,我必须搞清楚如何处理延迟、轮次转换、打断处理,所以对如何与想用我们语音智能体 API 的客户合作,我有了好得多的同理心,因为我真的用过它。你在跟 Joey 聊怎么构建语音智能体的时候,你其实已经在体验这个产品本身了。\n\n如果只从这期带走一句话,那就是 Matt 的收尾建议:如果你是前置部署工程师,试着独立构建你的客户正在构建的完全相同的产品,别只是等他们来求助、等着替他们清障;同时,把每天接不住的客户需求自动化掉。因为正如他自己说的,如果你想规模化交付更好的客户体验,你就不能成为良好客户体验的瓶颈。"
+}

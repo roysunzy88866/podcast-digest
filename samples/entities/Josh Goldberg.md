@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Josh Goldberg</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Josh Goldberg">JO</div><div class="pi"><h1 class="pt">Josh Goldberg</h1><div class="byl">Software Engineering Daily 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Josh Goldberg">JO</div><div class="pi"><h1 class="pt">Josh Goldberg</h1><div class="byl">Software Engineering Daily 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为联合主持
 - [[2026-10-01-sed-the-state-of-browser-testing|《浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[David Burns]] · [[BrowserStack]] · [[Selenium]] · [[WebDriver]] · [[WebDriver BiDi]] · [[W3C]] · [[开源]] · [[无障碍性]] · [[vibe coding]] · [[可观测性]]
+[[vibe coding]] · [[开源]] · [[Cory Doctorow]] · [[David Burns]] · [[半人马]] · [[BrowserStack]] · [[反向半人马]] · [[Selenium]] · [[劣化]] · [[WebDriver]]
 
-## ④ 也在聊「AI 编程」的人
-
-<div class="pd-peers">
-
-[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"David Burns":1,"BrowserStack":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":37,"无障碍性":4,"vibe coding":45,"可观测性":37}</script>
+<script type="application/json" class="pd-epn">{"vibe coding":46,"开源":38,"Cory Doctorow":1,"David Burns":1,"半人马":3,"BrowserStack":1,"反向半人马":1,"Selenium":1,"劣化":1,"WebDriver":1}</script>
 
 <script>
 (function(){

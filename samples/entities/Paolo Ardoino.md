@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":81,"微调":30,"BitNet":1,"LoRa":1,"数据中心":22,"去中介化":2,"智能体":424,"GPU":24}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":81,"微调":30,"BitNet":1,"LoRa":1,"数据中心":22,"去中介化":2,"智能体":427,"GPU":24}</script>
 
 <script>
 (function(){

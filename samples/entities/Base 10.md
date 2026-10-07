@@ -33,7 +33,7 @@ unlisted: true
 
 [[推理]] · [[开源模型]] · [[后训练]] · [[Cursor]] · [[Julian]] · [[Yash]] · [[专用推理]] · [[Applied Compute]] · [[持续学习]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"推理":81,"开源模型":4,"后训练":1,"Cursor":82,"Julian":1,"Yash":2,"专用推理":1,"Applied Compute":1,"持续学习":1,"OpenAI":171}</script>
+<script type="application/json" class="pd-epn">{"推理":81,"开源模型":4,"后训练":1,"Cursor":82,"Julian":1,"Yash":2,"专用推理":1,"Applied Compute":1,"持续学习":1,"OpenAI":172}</script>
 
 <script>
 (function(){

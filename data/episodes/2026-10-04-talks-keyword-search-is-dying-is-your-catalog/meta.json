@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-04-talks-keyword-search-is-dying-is-your-catalog",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/YXb2Wx1r_Pk.m4a",
+  "duration_sec": 956.16,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 155,
+  "asr": true,
+  "title_en": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "added": "2026-10-07",
+  "added_at": "2026-10-06T21:42:42.941Z",
+  "speaker_map": {
+    "SPEAKER_00": "Nixon Dinh"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Nixon Dinh",
+  "cohosts": [],
+  "title_zh": "智能体来了,你的商品目录还没准备好:PayPal 的实验与心得",
+  "guest_name": "Nixon Dinh",
+  "guest_title": "PayPal 智能体商务产品总监",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

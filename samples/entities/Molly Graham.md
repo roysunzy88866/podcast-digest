@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Huberman]] [[Adam Neumann]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]]
+[[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"送出你的乐高":1,"AI":29,"智能体":424,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"送出你的乐高":1,"AI":29,"智能体":427,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
 
 <script>
 (function(){

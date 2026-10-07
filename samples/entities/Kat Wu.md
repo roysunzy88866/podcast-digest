@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[Charles]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":182,"Claude Code":96,"Co-work":4,"产品品味":1,"智能体":424,"自动化":1,"研究预览版":2,"评估":5,"系统提示词":9}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":183,"Claude Code":96,"Co-work":4,"产品品味":1,"智能体":427,"自动化":1,"研究预览版":2,"评估":5,"系统提示词":9}</script>
 
 <script>
 (function(){

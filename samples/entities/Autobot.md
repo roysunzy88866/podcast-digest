@@ -31,7 +31,7 @@ unlisted: true
 
 [[Simon Maple]] · [[Liz Fong-Jones]] · [[Honeycomb]] · [[Google]] · [[Shopify]] · [[Anthropic]] · [[Claude]] · [[代码审查]] · [[股权占比]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Liz Fong-Jones":1,"Honeycomb":2,"Google":62,"Shopify":17,"Anthropic":182,"Claude":90,"代码审查":24,"股权占比":3,"可观测性":37}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Liz Fong-Jones":1,"Honeycomb":2,"Google":64,"Shopify":17,"Anthropic":183,"Claude":90,"代码审查":24,"股权占比":3,"可观测性":37}</script>
 
 <script>
 (function(){

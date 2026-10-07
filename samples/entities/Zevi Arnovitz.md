@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
+[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Cursor":82,"Claude Code":96,"Bolt":3,"Lovable":19,"Linear":11,"Anthropic":182,"Composer":2,"Base44":4,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Cursor":82,"Claude Code":96,"Bolt":3,"Lovable":19,"Linear":11,"Anthropic":183,"Composer":2,"Base44":4,"Codex":80}</script>
 
 <script>
 (function(){

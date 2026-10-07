@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[Charles]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":29,"AI 助手":2,"推荐引擎":2,"付费用户":1,"创始人模式":3,"Hinge":2,"Tinder":2,"Apple":21}</script>
+<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":29,"AI 助手":2,"推荐引擎":2,"付费用户":1,"创始人模式":3,"Hinge":2,"Tinder":2,"Apple":22}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[John Collison]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":424,"计算机使用":21,"MCP":79,"网络安全":3,"基于使用量的计费":2,"推理":81,"奇点":1}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":427,"计算机使用":21,"MCP":79,"网络安全":3,"基于使用量的计费":2,"推理":81,"奇点":1}</script>
 
 <script>
 (function(){

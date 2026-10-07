@@ -43,7 +43,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[智能体]] · [[Anthropic]] · [[LLM]] · [[Jev]] · [[Ultrafast]] · [[Decisions API]] · [[Greg Brockman]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":171,"ChatGPT":98,"Codex":80,"智能体":424,"Anthropic":182,"LLM":57,"Jev":5,"Ultrafast":2,"Decisions API":3,"Greg Brockman":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":172,"ChatGPT":98,"Codex":80,"智能体":427,"Anthropic":183,"LLM":57,"Jev":5,"Ultrafast":2,"Decisions API":3,"Greg Brockman":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Opus 5.5]] · [[GPT-6 Luna]] · [[Astra]] · [[Fable]] · [[护栏]] · [[缓存]] · [[盲测基准]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":182,"OpenAI":171,"Claude":90,"Opus 5.5":2,"GPT-6 Luna":1,"Astra":7,"Fable":11,"护栏":79,"缓存":1,"盲测基准":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":183,"OpenAI":172,"Claude":90,"Opus 5.5":2,"GPT-6 Luna":1,"Astra":7,"Fable":11,"护栏":80,"缓存":1,"盲测基准":1}</script>
 
 <script>
 (function(){

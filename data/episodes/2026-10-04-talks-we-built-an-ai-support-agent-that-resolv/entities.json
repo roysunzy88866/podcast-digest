@@ -1,0 +1,831 @@
+{
+  "episode_id": "2026-10-04-talks-we-built-an-ai-support-agent-that-resolv",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "客户支持",
+    "语音 AI",
+    "创业与行业"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "matt-lawler",
+      "type": "person",
+      "role": "host",
+      "name": "Matt Lawler",
+      "file": "Matt Lawler",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            34.507,
+            37.569
+          ],
+          "quote": "For anyone who hasn't met me at the booth yet, my name is Matt Lawler.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "assembly-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Assembly AI",
+      "file": "Assembly AI",
+      "primary": true,
+      "how_described": "本集介绍它是提供语音 AI 基础设施的公司，训练自己的语音转文本基础模型（Fireflies 等会议记录工具用的就是他们的转写），每天约有 1,000 个 API 注册。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            37.85,
+            47.638
+          ],
+          "quote": "I'm a Forward Deployed Engineer at Assembly AI, mostly focused on bringing in inbound customers, helping win their business, making sure that they have a good time building with our API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            61.005,
+            73.768
+          ],
+          "quote": "Yeah, so I wanted to make sure I gave you guys an overview of some of the go-to-market engineering stuff that we've been doing at Assembly AI that maybe you can apply to your own FTE team, or maybe you can apply to your company as something that you can do as an easy win for your customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            74.488,
+            79.77
+          ],
+          "quote": "So for a little bit of overview of Assembly AI, in case you haven't heard of us, we provide voice AI infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            87.413,
+            94.636
+          ],
+          "quote": "So if anyone's ever had a Fireflies note-taker join your meeting or something like that, you've already seen a transcript from Assembly AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            133.042,
+            149.428
+          ],
+          "quote": "So Assembly, at our current moment, we see around 1,000 API signups every single day, which is somewhat of the theme of why we were focusing on automation and wanting to build kind of a new support bot for our team, because at least until like two days ago, I was the only onboarding engineer at Assembly AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            647.633,
+            652.301
+          ],
+          "quote": "So now we'll have an Assembly AI phone number so you can get real-time support from Joey whenever you need it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            757.348,
+            759.248
+          ],
+          "quote": "Hi, this is Joey at Assembly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            762.229,
+            764.889
+          ],
+          "quote": "I'm looking to build an ambient medical scribe with Assembly AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            916.692,
+            918.852
+          ],
+          "quote": "Especially if it's a voice agent, build it on Assembly AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "joey",
+      "type": "concept",
+      "role": "concept",
+      "name": "Joey",
+      "file": "Joey",
+      "primary": true,
+      "how_described": "本集主角：Assembly AI 用 Claude Agent SDK 自建的 AI 支持机器人，作为「可无限扩展的 FDE」处理 100% 的入站工单，第一周端到端解决率从 10% 提到 80%，月成本约 700 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            318.103,
+            322.647
+          ],
+          "quote": "So we built another member of our team rather than hiring one, and we named him Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            323.408,
+            332.977
+          ],
+          "quote": "So anyone now who reaches out to us, whether it's on our chat widget on our site, whether you reach out to contact sales, whether you reach out to our support alias, you're going to meet Joey instead of a human.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            374.559,
+            381.481
+          ],
+          "quote": "So if you want to know a little bit of how to build your own Joey, the architecture kind of has four major parts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            393.784,
+            397.245
+          ],
+          "quote": "So we checked all of our docs out as local markdown and gave it to Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            404.906,
+            413.608
+          ],
+          "quote": "So actually what's really cool is if our entire doc site was down right now, you could go to Joey and still get live answers on all the newest stuff that we've shipped without our team having to actually get involved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            457.764,
+            459.985
+          ],
+          "quote": "And within 30 seconds, there's a new live version of Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            473.557,
+            479.622
+          ],
+          "quote": "So Joey is able to basically get updated whenever we want, so we actually have full control over everything that he does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            484.812,
+            488.775
+          ],
+          "quote": "And it's another reason why I wanted to encourage everyone who's here to try and build your own Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            515.321,
+            518.764
+          ],
+          "quote": "You cannot reach a human directly unless you go through Joey and you tell him to escalate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            537.962,
+            544.086
+          ],
+          "quote": "And so the best part is whatever Joey can't do yet gives us a very clear list of what we need to do to continue to scale our team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            549.991,
+            554.055
+          ],
+          "quote": "If he's not able to talk to customers about pricing, well, you can negotiate with Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            569.751,
+            574.856
+          ],
+          "quote": "But the real thing that we wanted to test out by building Joey was we wanted to dog food our own product, too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            588.008,
+            589.568
+          ],
+          "quote": "And so I wanted to give a voice to Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            598.23,
+            599.83
+          ],
+          "quote": "We integrated this into Joey this week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            599.93,
+            604.991
+          ],
+          "quote": "So now if you go onto our site, you can switch to voice mode and you can talk to Joey using just your voice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            619.201,
+            621.642
+          ],
+          "quote": "So we put our voice agent API into Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            647.633,
+            652.301
+          ],
+          "quote": "So now we'll have an Assembly AI phone number so you can get real-time support from Joey whenever you need it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            654.632,
+            656.594
+          ],
+          "quote": "So let's go ahead and talk to Joey a little bit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            681.835,
+            683.737
+          ],
+          "quote": "Get converted to Markdown and get given to Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            728.229,
+            730.33
+          ],
+          "quote": "So let's go ahead and I'll fire up Joey here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            738.565,
+            742.286
+          ],
+          "quote": "So I'm going to simulate this locally because I know probably many of you are going to test Joey after this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            750.487,
+            751.207
+          ],
+          "quote": "You'd meet Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            757.348,
+            759.248
+          ],
+          "quote": "Hi, this is Joey at Assembly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            761.489,
+            761.969
+          ],
+          "quote": "Hey, Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            804.276,
+            804.756
+          ],
+          "quote": "Thanks, Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            821.772,
+            822.812
+          ],
+          "quote": "I enjoy talking to Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            823.273,
+            825.074
+          ],
+          "quote": "I think our customers will enjoy talking to Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            852.749,
+            861.372
+          ],
+          "quote": "So there's kind of a meta layer there where if you're talking to Joey about how to build a voice agent API, you're already using it, and you're already seeing exactly what your product experience could look like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            865.677,
+            869.08
+          ],
+          "quote": "So if there's anything that you should get out of this talk, it's not just that you should build your own Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            912.23,
+            914.551
+          ],
+          "quote": "Go build whether it's your own Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            935.876,
+            942.258
+          ],
+          "quote": "So if anyone has questions on how to build Joey, if you want to check him out at the booth afterwards, our booth is just right over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            943.038,
+            951.26
+          ],
+          "quote": "If anyone has feedback on Joey since this just shipped this week, if you have a weird conversation with him, I'd love to know about it so we can keep making fixes and I can show you how we deploy that live.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (Forward Deployed Engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "本集把它说成：深入客户现场、直接向客户代码仓库提交代码、负责从技术到商务全流程的角色；并建议 FDE 通过自动化把自己「从工作中解放出来」，亲手构建客户在构建的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            37.85,
+            47.638
+          ],
+          "quote": "I'm a Forward Deployed Engineer at Assembly AI, mostly focused on bringing in inbound customers, helping win their business, making sure that they have a good time building with our API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            159.372,
+            163.554
+          ],
+          "quote": "And then for anyone here who doesn't know what a Forward Deployed Engineer is, it's a very catch-all title.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "voice-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agent)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集说 Assembly AI 的客户构建语音智能体，他们自己也把 Joey 做成语音智能体（语音进、语音出，一条 WebSocket 串起语音转文字、LLM、文字转语音），并以此吃自己的狗粮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            80.43,
+            87.353
+          ],
+          "quote": "So we train our own foundation models for speech-to-text primarily, but we're starting to branch into other parts of the voice agent space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            113.668,
+            118.613
+          ],
+          "quote": "And for anyone who's building a voice agent, now you can use us for the entire stack, not just speech-to-text.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            118.893,
+            124.318
+          ],
+          "quote": "So you can use our voice agent API, and we'll string together the speech-to-text, the LLM, and the text-to-speech as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            586.407,
+            587.868
+          ],
+          "quote": "So I wanted to build a voice agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            595.469,
+            597.59
+          ],
+          "quote": "So we have a voice agent API, as I mentioned earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            619.201,
+            621.642
+          ],
+          "quote": "So we put our voice agent API into Joey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            731.191,
+            734.253
+          ],
+          "quote": "We can ask him a pretty typical question, so you can see what our voice agent API is like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            852.749,
+            861.372
+          ],
+          "quote": "So there's kind of a meta layer there where if you're talking to Joey about how to build a voice agent API, you're already using it, and you're already seeing exactly what your product experience could look like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            895.64,
+            902.427
+          ],
+          "quote": "And I think I have a lot better empathy of how to work with customers that want to use our voice agent API because now I've actually used it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            914.591,
+            916.612
+          ],
+          "quote": "Go build whether it's a voice agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            916.692,
+            918.852
+          ],
+          "quote": "Especially if it's a voice agent, build it on Assembly AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-agent-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Agent SDK",
+      "file": "Claude Agent SDK",
+      "primary": true,
+      "how_described": "本集说 Joey 构建在 Claude Agent SDK 之上，因此能管理自己的基础设施、有文件系统、写代码调试、调用工具、给自己增加新能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            352.391,
+            354.292
+          ],
+          "quote": "And he's built on top of the Claude Agent SDK.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说现成的支持机器人拿不到 RAG 基础设施所以无法迭代，是他们决定自建的原因之一；自建后用 Voyage 的嵌入做检索，让 Joey 一开始就拿到最相关的文档。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            306.826,
+            308.867
+          ],
+          "quote": "We didn't have access to the RAG infrastructure.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claudemd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ClaudeMD",
+      "file": "ClaudeMD",
+      "primary": true,
+      "how_described": "本集说他们维护一个约 30,000 行的 ClaudeMD 指令文件，里面全是护栏和如何与客户打交道的建议；每次 Joey 答错就大规模更新它，让之后所有对话都变好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            693.985,
+            697.568
+          ],
+          "quote": "At the same time, all of it is provided as ClaudeMD instructions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            697.668,
+            703.593
+          ],
+          "quote": "I think it's like a 30,000 line ClaudeMD of all these guardrails and advice on how he should be operating with customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            709.257,
+            714.14
+          ],
+          "quote": "We ship an update to this ClaudeMD, and now for every conversation that he has going forward, he's able to be better.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "type": "company",
+      "role": "company",
+      "name": "Railway",
+      "file": "Railway",
+      "primary": true,
+      "how_described": "本集说 Joey 部署在 Railway 上以追求迭代速度：写完 PR 30 秒内新版本上线，快到可以实时监控对话、发现 bug、当场部署修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            442.077,
+            443.138
+          ],
+          "quote": "And then we shipped it on Railway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            447.359,
+            448.84
+          ],
+          "quote": "So we deployed it all on Railway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            715.001,
+            720.304
+          ],
+          "quote": "And it's all contained as a Docker file, and so it's really easy to go and just containerize and deploy him on Railway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            720.804,
+            728.169
+          ],
+          "quote": "And so again, every time we ship an update to this repo, a new version's already live on Railway, and no one had to manually monitor the deployment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "support-bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "支持机器人 (support bot)",
+      "file": "支持机器人",
+      "primary": false,
+      "how_described": "本集说他们先买的现成支持机器人只解决约 10% 的对话，且拿不到 system prompt、工具和 RAG，无法迭代，促使他们自建 Joey。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            133.042,
+            149.428
+          ],
+          "quote": "So Assembly, at our current moment, we see around 1,000 API signups every single day, which is somewhat of the theme of why we were focusing on automation and wanting to build kind of a new support bot for our team, because at least until like two days ago, I was the only onboarding engineer at Assembly AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            272.737,
+            274.859
+          ],
+          "quote": "So we basically bought this off-the-shelf support bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            578.439,
+            583.184
+          ],
+          "quote": "We didn't want to build something that just is kind of this general support bot that anyone can build.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说约 30,000 行的 ClaudeMD 里全是护栏，以及 Joey 应该如何与客户打交道的建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            697.668,
+            703.593
+          ],
+          "quote": "I think it's like a 30,000 line ClaudeMD of all these guardrails and advice on how he should be operating with customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "speech-to-text",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音转文本 (speech-to-text)",
+      "file": "语音转文本",
+      "primary": false,
+      "how_described": "本集说 Assembly AI 主要为语音转文本训练自己的基础模型，Fireflies 之类的会议记录工具用的就是他们的转写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            80.43,
+            87.353
+          ],
+          "quote": "So we train our own foundation models for speech-to-text primarily, but we're starting to branch into other parts of the voice agent space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            113.668,
+            118.613
+          ],
+          "quote": "And for anyone who's building a voice agent, now you can use us for the entire stack, not just speech-to-text.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            118.893,
+            124.318
+          ],
+          "quote": "So you can use our voice agent API, and we'll string together the speech-to-text, the LLM, and the text-to-speech as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            622.442,
+            629.824
+          ],
+          "quote": "It's all speech in, speech out, one WebSocket connection where we string together our speech-to-text model and LLM and text-to-speech, all optimized for voice.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dogfooding",
+      "type": "concept",
+      "role": "concept",
+      "name": "吃自己的狗粮 (dogfooding)",
+      "file": "吃自己的狗粮",
+      "primary": false,
+      "how_described": "本集说造 Joey 的一个目的就是自用测试自家产品：FDE 要亲手构建客户在构建的东西，自己撞过延迟、打断处理的墙，才能给客户真正有用的建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            869.56,
+            874.244
+          ],
+          "quote": "But I think that it's like if you're an FTE at your company, you need to be dogfooding your own product all the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

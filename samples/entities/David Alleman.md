@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dan O'Connell]] [[Andrew Huberman]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]] [[Jonathan Awad]]
+[[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Jeanne Grosser]] [[Juven]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权替代代言":1,"合伙制领导":1,"社会变迁造品牌":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权替代代言":1,"合伙制领导":1,"社会变迁造品牌":1}</script>
 
 <script>
 (function(){

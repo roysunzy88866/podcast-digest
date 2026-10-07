@@ -1,0 +1,628 @@
+{
+  "episode_id": "2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-17",
+  "tags": [
+    "领导力",
+    "组织与文化",
+    "共情与沟通",
+    "AI 时代的领导",
+    "自我觉察"
+  ],
+  "categories": [
+    "组织与领导力",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "jeff-berman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Berman",
+      "file": "Jeff Berman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            129.448,
+            130.609
+          ],
+          "quote": "Hey folks, Jeff Berman here.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "bren-brown",
+      "type": "person",
+      "role": "guest",
+      "name": "Brené Brown",
+      "file": "Brené Brown",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            130.669,
+            141.857
+          ],
+          "quote": "Today, we are revisiting one of our favorite conversations from the 2025 Masters of Scale Summit, Reid Hoffman in conversation with the iconic author, Brene Brown.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 209,
+          "t": [
+            781.184,
+            784.868
+          ],
+          "quote": "More from Reid's conversation with Brene Brown in just a minute.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1523.188,
+            1526.749
+          ],
+          "quote": "Thanks again to Brene Brown for joining us at the Masters of Scale Summit.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "reid-hoffman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Reid Hoffman",
+      "file": "Reid Hoffman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            130.669,
+            141.857
+          ],
+          "quote": "Today, we are revisiting one of our favorite conversations from the 2025 Masters of Scale Summit, Reid Hoffman in conversation with the iconic author, Brene Brown.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "courageous-leadership",
+      "type": "concept",
+      "role": "concept",
+      "name": "勇敢领导力 (courageous leadership)",
+      "file": "勇敢领导力",
+      "primary": true,
+      "how_described": "本集说它是对「你是谁」有深刻认知,并以自律、担当和谦逊来领导,理解「领导是服务他人,而不是被服务」,根基是自我认知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            170.624,
+            178.946
+          ],
+          "quote": "You have a new book out called Strong Ground, which explores many aspects of what you call, and what should be called, courageous leadership.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 38,
+          "t": [
+            179.046,
+            182.267
+          ],
+          "quote": "So, what is courageous leadership?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 40,
+          "t": [
+            184.898,
+            196.807
+          ],
+          "quote": "And to me, courageous leadership is a combination of a deep awareness of who you are and leading with discipline and accountability and humility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            222.387,
+            228.893
+          ],
+          "quote": "Because obviously it's the right aspiration for everyone to get to courageous leadership, but it isn't just a slogan.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 60,
+          "t": [
+            272.31,
+            277.191
+          ],
+          "quote": "I hypothesized early on that the biggest barrier to courageous leadership was fear.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "courage",
+      "type": "concept",
+      "role": "concept",
+      "name": "勇气 (courage)",
+      "file": "勇气",
+      "primary": true,
+      "how_described": "本集认为勇气是可教、可测量、可观察的技能,由四件事组成:清楚价值观、在不确定性中保持正直与脆弱等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            231.615,
+            239.718
+          ],
+          "quote": "I think the biggest finding possibly of my career has been that courage is teachable, measurable, and observable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            289.274,
+            293.255
+          ],
+          "quote": "And I was like, well, if it's not fear, what gets in the way of courage?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            439.381,
+            446.967
+          ],
+          "quote": "And if you don't have the insight or the courage to think about it, I question the sanity of you leading people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1112.758,
+            1119.641
+          ],
+          "quote": "Like, you have to have the courage to say, in this environment, I know very little.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "armor",
+      "type": "concept",
+      "role": "concept",
+      "name": "盔甲 (armor)",
+      "file": "盔甲",
+      "primary": true,
+      "how_described": "本集说盔甲才是阻碍勇气的真正原因:它是我们害怕时自我保护的方式,且通常自己意识不到,如完美主义、微管理、过度果断",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            270.33,
+            271.97
+          ],
+          "quote": "And to not reach for armor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            294.235,
+            294.535
+          ],
+          "quote": "Armor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            299.554,
+            303.596
+          ],
+          "quote": "So one of the things we do with leaders is what's your go-to armor?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            310.74,
+            311.44
+          ],
+          "quote": "That's my armor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            337.412,
+            338.892
+          ],
+          "quote": "And they're like, this is your armor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            339.172,
+            339.813
+          ],
+          "quote": "That is my armor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            348.876,
+            354.018
+          ],
+          "quote": "What's some of the ways to kind of discover that armor and learn how to disarmor yourself?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-empathy",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知共情 (cognitive empathy)",
+      "file": "认知共情",
+      "primary": true,
+      "how_described": "本集把它说成是倾听、回应、让对方感到被看见被听见被相信的共情,「不仅是人际关系的源代码,还是民主的源代码」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            575.702,
+            578.243
+          ],
+          "quote": "There's cognitive empathy and effective empathy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            596.395,
+            607.181
+          ],
+          "quote": "That empathy, that cognitive empathy is not only the source code for relationships, it's the source code of democracy, period.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            648.842,
+            652.966
+          ],
+          "quote": "And a lot of how you describe cognitive empathy for me is how I think about compassion.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 175,
+          "t": [
+            653.447,
+            656.71
+          ],
+          "quote": "So how do you think about the difference in cognitive empathy and compassion?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 233,
+          "t": [
+            919.812,
+            938.866
+          ],
+          "quote": "The entire emotional gamut, because I could see that being stunningly important in leadership education, to just say, let's actually expand your experience of emotional vocabulary, because actually, in fact, if you don't have that kind of sensibility, you can't be compassionate, you can't have cognitive empathy, et cetera.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "affective-empathy",
+      "type": "concept",
+      "role": "concept",
+      "name": "情感共情 (affective empathy)",
+      "file": "情感共情",
+      "primary": true,
+      "how_described": "本集说它是和对方一起把情绪再经历一遍,没有帮助,会导致倦怠,还会削弱同情心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            608.441,
+            611.703
+          ],
+          "quote": "Affective empathy is you call me and I say, what's going on?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compassion",
+      "type": "concept",
+      "role": "concept",
+      "name": "同情 (compassion)",
+      "file": "同情",
+      "primary": true,
+      "how_described": "本集定义为愿意接受世间存在苦难,看到苦难时愿意为此做点什么;共情是同情的一种可教的工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            618.386,
+            620.007
+          ],
+          "quote": "It actually minimizes compassion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            648.842,
+            652.966
+          ],
+          "quote": "And a lot of how you describe cognitive empathy for me is how I think about compassion.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 175,
+          "t": [
+            653.447,
+            656.71
+          ],
+          "quote": "So how do you think about the difference in cognitive empathy and compassion?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 177,
+          "t": [
+            659.484,
+            661.006
+          ],
+          "quote": "Compassion is so brave.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            661.086,
+            671.134
+          ],
+          "quote": "Compassion is the willingness to walk through the world and accept that there's going to be suffering and that when you see it, you're willing to do something about it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            671.495,
+            672.396
+          ],
+          "quote": "That's compassion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            682.645,
+            684.606
+          ],
+          "quote": "Empathy is a tool of compassion.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "emotional-granularity",
+      "type": "concept",
+      "role": "concept",
+      "name": "情绪颗粒度 (emotional granularity)",
+      "file": "情绪颗粒度",
+      "primary": true,
+      "how_described": "本集说它需要 85 到 90 种情绪词汇,而成年人平均只能命名三种;在《Strong Ground》研究里排进未来领导力技能前五",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            710.547,
+            716.253
+          ],
+          "quote": "You know, it's hard because really good empathy requires emotional granularity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            734.425,
+            739.51
+          ],
+          "quote": "And we think there are about 85 to 90 that are important for emotional granularity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1034.933,
+            1037.955
+          ],
+          "quote": "Emotional granularity ended up in the top five.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-awareness",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我觉察 (self-awareness)",
+      "file": "自我觉察",
+      "primary": true,
+      "how_described": "本集说它是勇敢领导力的根基,但如今在高层领导者身上越来越少;有勇气说「我知道得很少」是领导者的首要素质",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            203.071,
+            208.675
+          ],
+          "quote": "And I think it's probably rooted in, above everything else, self-awareness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1041.403,
+            1050.268
+          ],
+          "quote": "Self-awareness, one that I cannot believe has fallen to the wayside, that I see less and less in senior leaders today, systems thinking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1280.414,
+            1292.438
+          ],
+          "quote": "I think the first thing is I so respect a leader who has a self-awareness to say, I'm trying to pause and be strategic and thoughtful and I'm coming out of my skin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1293.199,
+            1299.381
+          ],
+          "quote": "The first thing I would tell you is anyone that has the self-awareness to say that immediately gains my confidence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1330.954,
+            1346.923
+          ],
+          "quote": "It is the job of a leader today in this environment, given the political instability, technology, changing markets, I think the number one job outside of self-awareness of a leader today is to create time where none exists.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "systems-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统思维 (systems thinking)",
+      "file": "系统思维",
+      "primary": true,
+      "how_described": "本集说它是未来领导力技能前五之一,健康系统需要可渗透的边界让数据和反馈自由流入流出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1041.403,
+            1050.268
+          ],
+          "quote": "Self-awareness, one that I cannot believe has fallen to the wayside, that I see less and less in senior leaders today, systems thinking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1442.333,
+            1443.794
+          ],
+          "quote": "Where are you in systems thinking?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-referencing-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我参照系统 (self-referencing system)",
+      "file": "自我参照系统",
+      "primary": true,
+      "how_described": "本集说失去边界渗透性、不再引入外部与内部反馈的组织会变成「我们棒极了、我们什么都知道」的闭环,MIT Sloan 研究中 90% 的 AI 投资失败很大程度源于此",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1090.69,
+            1092.471
+          ],
+          "quote": "You become a self-referencing system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vulnerability",
+      "type": "concept",
+      "role": "concept",
+      "name": "脆弱 (vulnerability)",
+      "file": "脆弱",
+      "primary": true,
+      "how_described": "本集把脆弱简单定义为不确定性、风险和暴露,说勇气的能力在于知道自己何时身处其中而不去抓取盔甲",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            256.725,
+            261.268
+          ],
+          "quote": "The second is the ability to stay in your integrity and vulnerability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            261.868,
+            264.99
+          ],
+          "quote": "Vulnerability is very simply uncertainty, risk, and exposure.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "micromanagement",
+      "type": "concept",
+      "role": "concept",
+      "name": "微管理 (micromanagement)",
+      "file": "微管理",
+      "primary": false,
+      "how_described": "本集嘉宾举例说自己的默认盔甲包括完美主义和微管理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            305.377,
+            308.418
+          ],
+          "quote": "Mine is perfectionism, micromanagement.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

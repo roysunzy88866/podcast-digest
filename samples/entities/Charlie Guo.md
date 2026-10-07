@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":171,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":80,"计算机使用":21,"Realtime 模型":1,"推理能力":6,"工具调用":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":172,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":80,"计算机使用":21,"Realtime 模型":1,"推理能力":6,"工具调用":4}</script>
 
 <script>
 (function(){

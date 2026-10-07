@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tanmai Gopal]] · [[公司大脑]] · [[编码智能体]] · [[智能体]] · [[沙箱]] · [[知识图谱]] · [[wiki]] · [[Claude]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Tanmai Gopal":1,"公司大脑":3,"编码智能体":27,"智能体":424,"沙箱":79,"知识图谱":5,"wiki":1,"Claude":90,"Slack":31}</script>
+<script type="application/json" class="pd-epn">{"Tanmai Gopal":1,"公司大脑":3,"编码智能体":27,"智能体":427,"沙箱":79,"知识图谱":5,"wiki":1,"Claude":90,"Slack":31}</script>
 
 <script>
 (function(){

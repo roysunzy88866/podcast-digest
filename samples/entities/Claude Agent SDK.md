@@ -7,21 +7,26 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Agent SDK</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Agent SDK">CL</div><div class="pi"><h1 class="pt">Claude Agent SDK</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Agent SDK">CL</div><div class="pi"><h1 class="pt">Claude Agent SDK</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## 集里怎么说它
+
+- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]]**(05:52起):本集说 Joey 构建在 Claude Agent SDK 之上，因此能管理自己的基础设施、有文件系统、写代码调试、调用工具、给自己增加新能力。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
+- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeremy Adams]] · [[Neo4j]] · [[智能体]] · [[智能体记忆]] · [[NanoClaw]] · [[树莓派]] · [[MCP 服务器]] · [[Docker]] · [[推理]] · [[OpenClaw]]
+[[Jeremy Adams]] · [[Matt Lawler]] · [[Neo4j]] · [[Assembly AI]] · [[智能体]] · [[Joey]] · [[智能体记忆]] · [[前向部署工程师]] · [[NanoClaw]] · [[语音智能体]]
 
-<script type="application/json" class="pd-epn">{"Jeremy Adams":1,"Neo4j":2,"智能体":424,"智能体记忆":2,"NanoClaw":1,"树莓派":2,"MCP 服务器":2,"Docker":6,"推理":81,"OpenClaw":22}</script>
+<script type="application/json" class="pd-epn">{"Jeremy Adams":1,"Matt Lawler":1,"Neo4j":2,"Assembly AI":1,"智能体":427,"Joey":1,"智能体记忆":2,"前向部署工程师":2,"NanoClaw":1,"语音智能体":2}</script>
 
 <script>
 (function(){

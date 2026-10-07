@@ -1,0 +1,581 @@
+{
+  "episode_id": "2026-10-04-talks-keyword-search-is-dying-is-your-catalog",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "智能体商务",
+    "电商",
+    "语义搜索",
+    "商品目录",
+    "AI 购物"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "nixon-dinh",
+      "type": "person",
+      "role": "host",
+      "name": "Nixon Dinh",
+      "file": "Nixon Dinh",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.611,
+            15.252
+          ],
+          "quote": "I'm Nixon Dinh.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": true,
+      "how_described": "本集主讲人所在公司：其 Agentic Commerce 团队研究 AI 智能体如何重塑购物与支付，并做了商家产品数据丰富（enrichment）实验来观察智能体如何搜索和推荐商品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.352,
+            18.356
+          ],
+          "quote": "I'm the Director of Product for Agentic Commerce at PayPal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            249.691,
+            261.597
+          ],
+          "quote": "And that's also where, as PayPal, we're building towards is continue to build on that trust and move into a world where humans start to delegate more and more of their tasks in commerce and shopping to their agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            322.012,
+            326.843
+          ],
+          "quote": "To go further, I think it's really good to understand why PayPal feels like we are bullish on this opportunity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            942.242,
+            946.244
+          ],
+          "quote": "If you want to learn more about PayPal's Agenda Commerce Services, please visit our booth at P11.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bain-co",
+      "type": "company",
+      "role": "company",
+      "name": "Bain & Co.",
+      "file": "Bain & Co.",
+      "primary": false,
+      "how_described": "本集引用其研究：预测到 2030 年所有商务的 15% 到 25% 将由智能体执行，十年内在线智能体数量将超过人类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            281.572,
+            285.413
+          ],
+          "quote": "The first is through a study at Bain & Co.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到商家把商品目录同步到 Google 等广告平台，但那套规范是为人类搜索建的，不是为智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            469.836,
+            474.119
+          ],
+          "quote": "Most merchants today maybe advertise on Google.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集与 Google、Facebook 并列提到，是商家同步商品目录的广告平台之一，其目录规范同样不为智能体优化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            474.74,
+            479.143
+          ],
+          "quote": "They have a catalog they syndicate to there or maybe to Meta or Facebook or other advertising platforms.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：AI 智能体正在替消费者搜索和推荐商品，未来人类会把越来越多的购物任务委托给智能体；2030 年 15%-25% 的商务将由智能体执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            31.984,
+            37.769
+          ],
+          "quote": "Right now, I'm really excited about helping merchants navigate this shift towards agent-driven commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            286.373,
+            291.894
+          ],
+          "quote": "They project that by 2030, 15% to 25% of all commerce will be executed by an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            390.226,
+            404.199
+          ],
+          "quote": "And what we have found also is that when you do start and interact with an agent first, businesses have tend to see up to four times higher conversion on a completion of an order because now they can get more rich and in-depth data on a product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            431.27,
+            439.352
+          ],
+          "quote": "In the intent era, you have to think through, how do I be discoverable for where an agent is representing my business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            861.582,
+            863.404
+          ],
+          "quote": "Those things are irrelevant to an agent at times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            899.866,
+            905.348
+          ],
+          "quote": "What we had found in some cases, when we over-enriched, the agent tended to hallucinate more, and it underperformed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集核心概念：由 AI 智能体驱动的商务方式，行业预计美国零售将有 1 万亿美元以智能体方式进行，全球 3 万亿到 5 万亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.352,
+            18.356
+          ],
+          "quote": "I'm the Director of Product for Agentic Commerce at PayPal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "concept",
+      "role": "concept",
+      "name": "商品目录 (catalog)",
+      "file": "商品目录",
+      "primary": true,
+      "how_described": "本集论证：现有商家目录是为人类搜索和 Google/Meta 广告平台建的，对智能体难以发现、难以读取，需要先评估目录厚薄再做智能体就绪的准备。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            37.809,
+            45.715
+          ],
+          "quote": "Specifically, what we're going to talk about today is the catalog piece and it being agentic-ready and sharing some of our learnings on this journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            160.92,
+            172.587
+          ],
+          "quote": "It goes through a phase where it's keywords, you're navigating a catalog, there's SEO strategies, and this is what most businesses have optimized towards over the last decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            474.74,
+            479.143
+          ],
+          "quote": "They have a catalog they syndicate to there or maybe to Meta or Facebook or other advertising platforms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            678.051,
+            684.115
+          ],
+          "quote": "I think it's really important for you as a business to understand the kind of catalog data you already have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            685.716,
+            687.337
+          ],
+          "quote": "Do you have a thin catalog?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            687.357,
+            690.2
+          ],
+          "quote": "Do you have a catalog of products that are more spec heavy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            716.037,
+            721.7
+          ],
+          "quote": "The right approach really depends on the catalog you're starting with, and that's the framing we'll build on next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            906.829,
+            917.733
+          ],
+          "quote": "We don't have a concrete recommendation for every business, but a good place to start is just to assess your catalog and figure out the right strategy for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            921.573,
+            924.254
+          ],
+          "quote": "Assess your catalog structure, and more text isn't better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义搜索 (semantic search)",
+      "file": "语义搜索",
+      "primary": true,
+      "how_described": "本集解释：把查询转换成承载意图含义的向量来按含义匹配，很聪明但很模糊，注入太多含义会失去焦点并产生幻觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            565.535,
+            567.856
+          ],
+          "quote": "Like the differences between keyword and semantic search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            606.07,
+            609.211
+          ],
+          "quote": "Whereas with semantic search, it matches based off meaning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            650.781,
+            653.883
+          ],
+          "quote": "Semantic search is just smart, but it's very fuzzy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            668.826,
+            677.571
+          ],
+          "quote": "So now that we understand what semantic search is, it's important to highlight that there is no singular way to really enrich product data for semantic search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "keyword-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "关键词搜索 (keyword search)",
+      "file": "关键词搜索",
+      "primary": true,
+      "how_described": "本集解释：匹配用户输入的字面词，精确、快速、可预测，但会错过意图，搜『慢跑用的鞋类』可能不返回跑鞋。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            568.656,
+            577.879
+          ],
+          "quote": "And it trickles through to the things I talked through earlier with keyword search being very matching the search that a user's entering in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            646.818,
+            649.58
+          ],
+          "quote": "So to sum it up, keyword search is quite precise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            877.642,
+            878.984
+          ],
+          "quote": "Enrichment helps keyword search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enrichment",
+      "type": "concept",
+      "role": "concept",
+      "name": "丰富 (enrichment)",
+      "file": "丰富",
+      "primary": true,
+      "how_described": "本集实验主题：往原始产品数据里填充属性、加深描述、加买家上下文和信任信号。结论是『丰富是有效的』，但内容质量赢、数量输，过度丰富会让智能体产生更多幻觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            641.153,
+            645.597
+          ],
+          "quote": "So there is a balance of how much you want to enrich and how much you want to inject into your enrichment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            696.126,
+            699.589
+          ],
+          "quote": "And so for the experiment though, we thought through different patterns of enrichment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            712.095,
+            715.477
+          ],
+          "quote": "I think the main takeaway from this slide is that enrichment isn't one-size-fits-all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            723.921,
+            727.203
+          ],
+          "quote": "And so here's just an example of enrichment in action for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            800.084,
+            809.849
+          ],
+          "quote": "And so ultimately, at the end of the experiment, our thesis was, generally speaking, does enrichment help boost recommendations?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            877.642,
+            878.984
+          ],
+          "quote": "Enrichment helps keyword search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            917.894,
+            920.575
+          ],
+          "quote": "Just to wrap up, enrichment works.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集把 SEO 作为搜索时代商家优化目录的旧玩法：策略明确；而在智能体的新世界里，优化策略在很大程度上仍不明确。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            160.92,
+            172.587
+          ],
+          "quote": "It goes through a phase where it's keywords, you're navigating a catalog, there's SEO strategies, and this is what most businesses have optimized towards over the last decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            423.347,
+            430.449
+          ],
+          "quote": "In the search era, this was very SEO-based, and you might optimize for a sum address.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            529.534,
+            531.496
+          ],
+          "quote": "In the old SEO world, there was a clear strategy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量 (vector)",
+      "file": "向量",
+      "primary": false,
+      "how_described": "本集解释：语义搜索把查询转换成承载意图含义的向量，向量数据库检索不总是确定性的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            518.976,
+            521.839
+          ],
+          "quote": "Vector database retrieval is also not always deterministic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucinate",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinate)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集警告：语义搜索注入太多含义会失去焦点并产生幻觉，实验中过度丰富数据的商家智能体幻觉更多、表现更差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            630.085,
+            640.613
+          ],
+          "quote": "So the good part about that is it broadens on how you can search, but the downside is if you inject too much meaning, it can lose focus and hallucinate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            899.866,
+            905.348
+          ],
+          "quote": "What we had found in some cases, when we over-enriched, the agent tended to hallucinate more, and it underperformed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

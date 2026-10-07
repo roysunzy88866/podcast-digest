@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Ian Livingstone":1,"Key Card":1,"智能体":424,"身份":5,"使命":2,"会话":1,"非确定性":2,"同意疲劳":1,"OAuth":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Ian Livingstone":1,"Key Card":1,"智能体":427,"身份":5,"使命":2,"会话":1,"非确定性":2,"同意疲劳":1,"OAuth":3}</script>
 
 <script>
 (function(){

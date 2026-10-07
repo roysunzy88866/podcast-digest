@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[对齐]] · [[沙箱]] · [[Hugging Face]] · [[后训练]] · [[推理]] · [[Cursor]] · [[持续学习]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"OpenAI":171,"Anthropic":182,"对齐":17,"沙箱":79,"Hugging Face":29,"后训练":1,"推理":81,"Cursor":82,"持续学习":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"OpenAI":172,"Anthropic":183,"对齐":17,"沙箱":79,"Hugging Face":29,"后训练":1,"推理":81,"Cursor":82,"持续学习":1}</script>
 
 <script>
 (function(){

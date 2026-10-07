@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[Charles]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Apple":21,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":29,"Facebook":16,"General Magic":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":22,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":29,"Facebook":16,"General Magic":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-04-talks-the-human-is-an-async-api-melanie-warric",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/jc3kbZkuHTo.m4a",
+  "duration_sec": 1137.368,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 259,
+  "asr": true,
+  "title_en": "The Human Is an Async API — Melanie Warrick, Temporal",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "added": "2026-10-07",
+  "added_at": "2026-10-06T22:14:50.163Z",
+  "speaker_map": {
+    "SPEAKER_00": "Melanie Warrick"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Melanie Warrick"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "把人类当成一个异步 API:智能体永不下线",
+  "guest_name": "Melanie Warrick",
+  "guest_title": "Temporal 工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

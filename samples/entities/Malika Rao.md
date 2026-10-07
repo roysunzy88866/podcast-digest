@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":424,"判断力":6,"品味":15,"认知协调":1,"案例教学法":1,"智能体工程":2,"可观测性":37,"护栏":79,"金丝雀":2,"代码审查":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"判断力":6,"品味":15,"认知协调":1,"案例教学法":1,"智能体工程":2,"可观测性":37,"护栏":80,"金丝雀":2,"代码审查":24}</script>
 
 <script>
 (function(){

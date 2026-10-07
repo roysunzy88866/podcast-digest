@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":171,"Anthropic":182,"Amazon":29,"Shopify":17,"Databricks":21,"Snowflake":19,"Salesforce":34,"Workday":5,"智能体":424}</script>
+<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":172,"Anthropic":183,"Amazon":30,"Shopify":17,"Databricks":21,"Snowflake":19,"Salesforce":34,"Workday":5,"智能体":427}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kath Korevec]] [[Dan Adler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]] [[Gabriel Spencer-Harper]]
+[[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]] [[Derek Meegan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"John Bai":1,"GrokBot":8,"智能体":424,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":8,"垃圾桶方法":1}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"John Bai":1,"GrokBot":8,"智能体":427,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":8,"垃圾桶方法":1}</script>
 
 <script>
 (function(){

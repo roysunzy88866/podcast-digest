@@ -27,7 +27,7 @@ unlisted: true
 
 [[Marc Andreessen]] · [[Jason]] · [[Lenny]] · [[Aristotle]] · [[AI]] · [[Brilliant.org]] · [[生产力增长]] · [[Anthropic]] · [[一对一辅导]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"Jason":5,"Lenny":68,"Aristotle":1,"AI":29,"Brilliant.org":1,"生产力增长":1,"Anthropic":182,"一对一辅导":1,"OpenAI":171}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"Jason":5,"Lenny":68,"Aristotle":1,"AI":29,"Brilliant.org":1,"生产力增长":1,"Anthropic":183,"一对一辅导":1,"OpenAI":172}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Clare Liguori]] · [[Kiro]] · [[Amazon]] · [[AWS]] · [[Bedrock]] · [[智能体]] · [[前沿开发]] · [[vibe coding]] · [[MCP 服务器]] · [[测试左移]]
 
-<script type="application/json" class="pd-epn">{"Clare Liguori":1,"Kiro":4,"Amazon":29,"AWS":20,"Bedrock":2,"智能体":424,"前沿开发":1,"vibe coding":45,"MCP 服务器":2,"测试左移":1}</script>
+<script type="application/json" class="pd-epn">{"Clare Liguori":1,"Kiro":4,"Amazon":30,"AWS":20,"Bedrock":2,"智能体":427,"前沿开发":1,"vibe coding":46,"MCP 服务器":2,"测试左移":1}</script>
 
 <script>
 (function(){

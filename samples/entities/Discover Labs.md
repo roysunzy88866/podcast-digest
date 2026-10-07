@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Liam Dunne]] · [[Ben Moore]] · [[Reddit]] · [[ChatGPT]] · [[Google]] · [[YouTube]] · [[SEO]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Liam Dunne":1,"Ben Moore":1,"Reddit":7,"ChatGPT":98,"Google":62,"YouTube":8,"SEO":7,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"Liam Dunne":1,"Ben Moore":1,"Reddit":7,"ChatGPT":98,"Google":64,"YouTube":8,"SEO":8,"AEO":5}</script>
 
 <script>
 (function(){

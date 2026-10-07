@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[沙箱]] · [[奖励黑客]] · [[Meter and Redwood Research]] · [[Ajaya Khatra]] · [[评估]] · [[Meter]] · [[评分器]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":171,"Hugging Face":29,"智能体":424,"沙箱":79,"奖励黑客":7,"Meter and Redwood Research":1,"Ajaya Khatra":1,"评估":5,"Meter":4,"评分器":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":172,"Hugging Face":29,"智能体":427,"沙箱":79,"奖励黑客":7,"Meter and Redwood Research":1,"Ajaya Khatra":1,"评估":5,"Meter":4,"评分器":1}</script>
 
 <script>
 (function(){

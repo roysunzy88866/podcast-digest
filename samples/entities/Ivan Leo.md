@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Interactions API":1,"Managed Agents":5,"智能体":424,"函数调用":2,"沙箱":79,"Gemini API":1,"anti-gravity":1}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Interactions API":1,"Managed Agents":5,"智能体":427,"函数调用":2,"沙箱":79,"Gemini API":1,"anti-gravity":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1028 @@
+{
+  "episode_id": "2026-10-04-talks-the-human-is-an-async-api-melanie-warric",
+  "podcast": "精选演讲",
+  "date": "2026-10-04",
+  "tags": [
+    "智能体",
+    "持久化执行",
+    "人类在环",
+    "工作流编排",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "melanie-warrick",
+      "type": "person",
+      "role": "guest",
+      "name": "Melanie Warrick",
+      "file": "Melanie Warrick",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "temporal",
+      "type": "company",
+      "role": "company",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": true,
+      "how_described": "本集说它是讲者所在公司的产品，既是软件也是服务，帮助把分布式系统中的故障处理和状态管理标准化，提供持久化执行，GitHub 上免费开源，用托管服务管理状态才付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.76,
+            26.96
+          ],
+          "quote": "And ultimately, I'm here to talk to you about Temporal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            70.565,
+            77.01
+          ],
+          "quote": "In this specific demo, what I've got up here is showing you we have ADK integrated with Temporal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            90.224,
+            92.528
+          ],
+          "quote": "And Temporal is baked into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            99.939,
+            104.783
+          ],
+          "quote": "Temporal actually helps you track your state and manage that state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            209.679,
+            214.322
+          ],
+          "quote": "That is durable execution with Temporal and ADK integrated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            345.759,
+            347.039
+          ],
+          "quote": "And that's where Temporal comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            347.46,
+            354.223
+          ],
+          "quote": "So Temporal is helping you to standardize your failure handling and your state management in your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            620.836,
+            635.388
+          ],
+          "quote": "And so with the activity, you are basically, for ADK in particular, we have the temporal model class that you will wrap around the model, and then you'll pass it in for ADK to be able to set up that actual agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            637.029,
+            638.29
+          ],
+          "quote": "You apply this temporal model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            712.474,
+            720.223
+          ],
+          "quote": "I'm going to use LangGraph in this example and also ADK because the reality is with Temporal, we can work with multiple frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            815.647,
+            818.607
+          ],
+          "quote": "And Temporal is interwoven throughout.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1105.274,
+            1112.518
+          ],
+          "quote": "I've got up here QR code that will take you to some resources about Temporal as well as some of the demos that I've done, this demo included.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adk",
+      "type": "concept",
+      "role": "concept",
+      "name": "ADK",
+      "file": "ADK",
+      "primary": true,
+      "how_described": "本集说 ADK 是 Google 提供的编排多个智能体的解决方案，demo 里与 Temporal 集成，跑客户与车队智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.565,
+            77.01
+          ],
+          "quote": "In this specific demo, what I've got up here is showing you we have ADK integrated with Temporal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            77.33,
+            83.835
+          ],
+          "quote": "So ADK is a solution that Google is providing to help you orchestrate agents or multiple agents",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            209.679,
+            214.322
+          ],
+          "quote": "That is durable execution with Temporal and ADK integrated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            400.519,
+            405.161
+          ],
+          "quote": "And so this is where an ADK framework would be running inside a workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            620.836,
+            635.388
+          ],
+          "quote": "And so with the activity, you are basically, for ADK in particular, we have the temporal model class that you will wrap around the model, and then you'll pass it in for ADK to be able to set up that actual agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            647.417,
+            650.42
+          ],
+          "quote": "You run your agent like you would with any kind of ADK setup that you're going to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            650.92,
+            655.304
+          ],
+          "quote": "And you also set up a worker and you pass in the Google ADK plugin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            712.474,
+            720.223
+          ],
+          "quote": "I'm going to use LangGraph in this example and also ADK because the reality is with Temporal, we can work with multiple frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            808.845,
+            812.006
+          ],
+          "quote": "I've got the customer and the fleet agents running on ADK.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": true,
+      "how_described": "本集说 LangGraph 是通过构建图来搭建多智能体架构的框架，demo 里跑调度智能体，用 interrupt 从节点中调用出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            712.474,
+            720.223
+          ],
+          "quote": "I'm going to use LangGraph in this example and also ADK because the reality is with Temporal, we can work with multiple frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            726.41,
+            731.276
+          ],
+          "quote": "So in terms of LangGraph, they build out graphs to build out the multiple agents set up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            763.84,
+            767.823
+          ],
+          "quote": "And then, of course, you pass in for the worker the plugin for the LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            770.91,
+            776.012
+          ],
+          "quote": "In terms of LangGraph in particular, we use the interrupt to call out from their nodes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            776.032,
+            777.393
+          ],
+          "quote": "So this is part of LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            777.673,
+            779.854
+          ],
+          "quote": "And also to be fair, LangGraph is more than a framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            812.046,
+            814.346
+          ],
+          "quote": "I've got the dispatch agent running on LangGraph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念：demo 里车队、客户、调度三个智能体协同配送，讲者讲智能体循环、把人类当作对智能体的一个工具（异步 API）来调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            61.278,
+            69.985
+          ],
+          "quote": "We have a fleet agent and a customer agent and a dispatch agent all working in coordination to make sure that the ice cream goes where it needs to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            305.966,
+            307.386
+          ],
+          "quote": "We've got a loop for the fleet agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            307.406,
+            308.807
+          ],
+          "quote": "We've got a loop for the customer agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            308.827,
+            310.408
+          ],
+          "quote": "We've got a loop for the dispatch agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            318.751,
+            326.475
+          ],
+          "quote": "The other one is doing research on the orders with tools like Google Search, while the dispatch agent is taking that input and making decisions with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            405.201,
+            409.143
+          ],
+          "quote": "Your agent could run inside of a workflow because it's a loop, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            449.649,
+            456.251
+          ],
+          "quote": "So the human, granted, we're not tools, but we are a tool to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            620.836,
+            635.388
+          ],
+          "quote": "And so with the activity, you are basically, for ADK in particular, we have the temporal model class that you will wrap around the model, and then you'll pass it in for ADK to be able to set up that actual agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            638.79,
+            647.377
+          ],
+          "quote": "You apply our activity tool to wrap around your tools, and you run your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            647.417,
+            650.42
+          ],
+          "quote": "You run your agent like you would with any kind of ADK setup that you're going to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            696.28,
+            698.041
+          ],
+          "quote": "So I showed you human to agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            698.061,
+            703.826
+          ],
+          "quote": "What I want to show you is what does it look like when the agent comes in and needs the human to be involved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            812.046,
+            814.346
+          ],
+          "quote": "I've got the dispatch agent running on LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            864.54,
+            867.345
+          ],
+          "quote": "And they sent that off to the dispatch agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            868.132,
+            872.213
+          ],
+          "quote": "And the dispatch agent said, hey, OK, I need, oh, well, there you go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            960.555,
+            965.797
+          ],
+          "quote": "And you'll notice that the dispatch agent will, what's happening is that your event log is getting replayed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类在环 (human in the loop)",
+      "file": "人类在环",
+      "primary": true,
+      "how_described": "本集核心命题：人应该作为异步 API 被调用；何时让人在环要逐案例评估犯错的代价，尤其从安全角度，同时警惕警报疲劳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            119.855,
+            126.301
+          ],
+          "quote": "And in this world, sometimes what we'll have in multiple agents is we need to have human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            442.787,
+            449.169
+          ],
+          "quote": "Let's get back to human in the loop, what I wanted to really get across to you about this whole talk.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "workflow",
+      "file": "workflow",
+      "primary": true,
+      "how_described": "本集说 workflow 是 Temporal 三原语之一，跟踪系统各步骤的地方，是确定性的，智能体循环跑在里面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            114.01,
+            119.135
+          ],
+          "quote": "This is the parent workflow for all the activities that are happening for Ziggy right now in its delivery suite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            386.514,
+            391.496
+          ],
+          "quote": "So the three main primitives we tend to talk about are the worker, the workflow, and the activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            394.457,
+            399.999
+          ],
+          "quote": "The workflow is where you're going to be able to keep track of the steps in your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            400.519,
+            405.161
+          ],
+          "quote": "And so this is where an ADK framework would be running inside a workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            405.201,
+            409.143
+          ],
+          "quote": "Your agent could run inside of a workflow because it's a loop, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            493.122,
+            511.008
+          ],
+          "quote": "You're allowing yourself to isolate an event, apply a weight condition, store that in that workflow, in that durability layer, so that if anything fell over in the system, when that system came back up, it would know where it left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            614.711,
+            619.895
+          ],
+          "quote": "Now, I already told you about our primitives of activity, workflow, and worker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            656.184,
+            658.706
+          ],
+          "quote": "So that's setting up your worker workflow and activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            662.489,
+            669.214
+          ],
+          "quote": "And the wait condition is using this asyncIO when it uses a wait to say, like, for that specific workflow, I want you to pause it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            670.775,
+            676.279
+          ],
+          "quote": "But you can keep running the coroutines on that workflow or any other workflows in the system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            677.04,
+            684.285
+          ],
+          "quote": "Meanwhile, that workflow.signal, it will be able to take any kind of input and inject it into a running workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            685.75,
+            694.038
+          ],
+          "quote": "And the workflow will be taken off of your memory or taken off of your system and put in part if it's not running anything at that point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            751.652,
+            754.754
+          ],
+          "quote": "It's step in that process, then that's set up as a workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            784.016,
+            792.92
+          ],
+          "quote": "And then what you're going to do next is use that wait condition in the loop tracking for that interrupt signal to pause that workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            835.743,
+            841.084
+          ],
+          "quote": "The workflow for the whole system is showing that all these agents are doing their job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1065.12,
+            1088.368
+          ],
+          "quote": "At the end of the day, though, what you saw there, what I gave you as an example, whether it's the human initiating it or the computer initiating it, you are seeing that we are using two main primitives in terms of you're applying a weight condition to pause that workflow and a signal from the human to be able to continue the work and say, here's the result, now keep moving forward.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "type": "concept",
+      "role": "concept",
+      "name": "activity",
+      "file": "activity",
+      "primary": true,
+      "how_described": "本集说 activity 是 Temporal 三原语之一，所有与外部交互的东西——模型调用、工具调用都设为 activity，是非确定性的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            386.514,
+            391.496
+          ],
+          "quote": "So the three main primitives we tend to talk about are the worker, the workflow, and the activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            410.243,
+            415.084
+          ],
+          "quote": "Whereas the activity is all the stuff that's interacting with stuff externally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            614.711,
+            619.895
+          ],
+          "quote": "Now, I already told you about our primitives of activity, workflow, and worker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            620.836,
+            635.388
+          ],
+          "quote": "And so with the activity, you are basically, for ADK in particular, we have the temporal model class that you will wrap around the model, and then you'll pass it in for ADK to be able to set up that actual agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            638.79,
+            647.377
+          ],
+          "quote": "You apply our activity tool to wrap around your tools, and you run your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            656.184,
+            658.706
+          ],
+          "quote": "So that's setting up your worker workflow and activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            739.863,
+            745.387
+          ],
+          "quote": "And if you're making any kind of model call, like an Invoke the Model, that would be set up as an activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            745.827,
+            749.791
+          ],
+          "quote": "If you're making any type of other tool call, it would also be set up as an activity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "worker",
+      "type": "concept",
+      "role": "concept",
+      "name": "worker",
+      "file": "worker",
+      "primary": true,
+      "how_described": "本集说 worker 是 Temporal 三原语之一，真正运行代码的地方；demo 里当场杀掉 worker 后系统靠重放事件日志恢复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            386.514,
+            391.496
+          ],
+          "quote": "So the three main primitives we tend to talk about are the worker, the workflow, and the activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            392.016,
+            393.717
+          ],
+          "quote": "The worker is really running that code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            614.711,
+            619.895
+          ],
+          "quote": "Now, I already told you about our primitives of activity, workflow, and worker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            650.92,
+            655.304
+          ],
+          "quote": "And you also set up a worker and you pass in the Google ADK plugin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            656.184,
+            658.706
+          ],
+          "quote": "So that's setting up your worker workflow and activity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            763.84,
+            767.823
+          ],
+          "quote": "And then, of course, you pass in for the worker the plugin for the LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            916.298,
+            920.041
+          ],
+          "quote": "And kill worker.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wait-condition",
+      "type": "concept",
+      "role": "concept",
+      "name": "等待条件 (wait condition)",
+      "file": "等待条件",
+      "primary": true,
+      "how_described": "本集说等待条件用来隔离一个事件、暂停特定的 workflow，只暂停它不占线程，其他协程和 workflow 照常运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            489.981,
+            491.922
+          ],
+          "quote": "You want a wait condition and a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            529.335,
+            532.158
+          ],
+          "quote": "You're going to apply a wait condition and you're going to apply a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            659.787,
+            661.989
+          ],
+          "quote": "And then, similarly, you have your wait condition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            662.489,
+            669.214
+          ],
+          "quote": "And the wait condition is using this asyncIO when it uses a wait to say, like, for that specific workflow, I want you to pause it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            784.016,
+            792.92
+          ],
+          "quote": "And then what you're going to do next is use that wait condition in the loop tracking for that interrupt signal to pause that workflow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "信号 (signal)",
+      "file": "信号",
+      "primary": true,
+      "how_described": "本集说 signal 可在任意时刻接受任意输入并注入到正在运行的 workflow 中，相当于人类回话后让流程继续向前推进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            489.981,
+            491.922
+          ],
+          "quote": "You want a wait condition and a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            511.908,
+            519.651
+          ],
+          "quote": "And you could send a signal at any point, but the whole system could keep running without you necessarily being blocked on that one call to the human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            529.335,
+            532.158
+          ],
+          "quote": "You're going to apply a wait condition and you're going to apply a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            677.04,
+            684.285
+          ],
+          "quote": "Meanwhile, that workflow.signal, it will be able to take any kind of input and inject it into a running workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            707.99,
+            709.752
+          ],
+          "quote": "You're going to use a weight condition and a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            784.016,
+            792.92
+          ],
+          "quote": "And then what you're going to do next is use that wait condition in the loop tracking for that interrupt signal to pause that workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            793.44,
+            799.863
+          ],
+          "quote": "And then the signal will capture whatever the human responds with to the question that's been asked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1065.12,
+            1088.368
+          ],
+          "quote": "At the end of the day, though, what you saw there, what I gave you as an example, whether it's the human initiating it or the computer initiating it, you are seeing that we are using two main primitives in terms of you're applying a weight condition to pause that workflow and a signal from the human to be able to continue the work and say, here's the result, now keep moving forward.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "本集的核心卖点：状态存在服务之外的独立数据存储里，服务挂了事件照样被跟踪排队，恢复时靠重放（replay）事件日志回到中断点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            209.679,
+            214.322
+          ],
+          "quote": "That is durable execution with Temporal and ADK integrated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": false,
+      "how_described": "本集说 harness 是今年大家讨论的、帮助把智能体投入生产环境的结构，其边界（模型、工具、记忆、护栏是否在内）存在争论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            252.612,
+            260.636
+          ],
+          "quote": "Most of this year we've been hearing people tell us about the harness and what the harness is supposed to be to help us get those agents into production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            261.176,
+            265.958
+          ],
+          "quote": "So the harness, I'm not going to sit here and tell you I am the expert on the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            275.243,
+            279.185
+          ],
+          "quote": "I've heard that the harness is possibly the model is part of all of this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "replay",
+      "reason": "专名「replay」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "agentic loop",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

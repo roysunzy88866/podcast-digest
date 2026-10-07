@@ -1,0 +1,2074 @@
+[
+ {
+  "seg": 0,
+  "start": 13.237,
+  "end": 13.597,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.637,
+  "end": 16.718,
+  "speaker": "Unknown",
+  "en": "Well, I'm here to talk to you today about this demo.",
+  "zh": "那么，我今天要和你们讲的是这个演示。"
+ },
+ {
+  "seg": 2,
+  "start": 16.918,
+  "end": 18.418,
+  "speaker": "Unknown",
+  "en": "And I've already stepped outside the box.",
+  "zh": "而且我已经走出了框框。"
+ },
+ {
+  "seg": 3,
+  "start": 18.438,
+  "end": 19.639,
+  "speaker": "Unknown",
+  "en": "They told me not to step outside of.",
+  "zh": "他们告诉我不要走出的框框。"
+ },
+ {
+  "seg": 4,
+  "start": 19.959,
+  "end": 24.72,
+  "speaker": "Unknown",
+  "en": "Anyways, I'm here to talk to you today about an ice cream delivery demo that I've got for you.",
+  "zh": "总之，我今天要给你们讲的是一个冰淇淋配送演示。"
+ },
+ {
+  "seg": 5,
+  "start": 24.76,
+  "end": 26.96,
+  "speaker": "Unknown",
+  "en": "And ultimately, I'm here to talk to you about Temporal.",
+  "zh": "归根结底，我今天要和你们讲的是 Temporal。"
+ },
+ {
+  "seg": 6,
+  "start": 27.04,
+  "end": 37.003,
+  "speaker": "Unknown",
+  "en": "So you're going to hear me pitching about the company that I work for, and specifically in a way that will be about this ice cream delivery that's happening, as you can see online right now.",
+  "zh": "所以你们会听到我为我所工作的公司做宣传，而且会以一种围绕这个冰淇淋配送的方式来讲，就像你们现在在线上看到的那样。"
+ },
+ {
+  "seg": 7,
+  "start": 37.503,
+  "end": 38.564,
+  "speaker": "Unknown",
+  "en": "So what's happening?",
+  "zh": "那么发生了什么呢？"
+ },
+ {
+  "seg": 8,
+  "start": 38.604,
+  "end": 40.225,
+  "speaker": "Unknown",
+  "en": "Well, this is Ziggy.",
+  "zh": "好吧，这是 Ziggy。"
+ },
+ {
+  "seg": 9,
+  "start": 40.725,
+  "end": 41.826,
+  "speaker": "Unknown",
+  "en": "Ziggy's is our mascot.",
+  "zh": "Ziggy 是我们的吉祥物。"
+ },
+ {
+  "seg": 10,
+  "start": 41.886,
+  "end": 42.506,
+  "speaker": "Unknown",
+  "en": "I love Ziggy.",
+  "zh": "我爱 Ziggy。"
+ },
+ {
+  "seg": 11,
+  "start": 42.966,
+  "end": 44.307,
+  "speaker": "Unknown",
+  "en": "And Ziggy has an ice cream store.",
+  "zh": "而且 Ziggy 有一家冰淇淋店。"
+ },
+ {
+  "seg": 12,
+  "start": 44.327,
+  "end": 47.749,
+  "speaker": "Unknown",
+  "en": "Not really, but let's say he does down in the Ferry Building.",
+  "zh": "其实不是真的，但我们就假设他在 Ferry Building 那儿有一家。"
+ },
+ {
+  "seg": 13,
+  "start": 48.049,
+  "end": 50.411,
+  "speaker": "Unknown",
+  "en": "Currently working hard, delivering all kinds of ice cream.",
+  "zh": "目前正在努力工作，配送各种冰淇淋。"
+ },
+ {
+  "seg": 14,
+  "start": 50.731,
+  "end": 53.352,
+  "speaker": "Unknown",
+  "en": "Now what's happening on this screen is that",
+  "zh": "现在这个屏幕上发生的事情是，"
+ },
+ {
+  "seg": 15,
+  "start": 54.593,
+  "end": 60.818,
+  "speaker": "Unknown",
+  "en": "We have multiple agents that are currently coordinating the delivery that's happening for Ziggy's ice cream service.",
+  "zh": "我们有多个智能体正在协调 Ziggy 冰淇淋服务正在进行的配送。"
+ },
+ {
+  "seg": 16,
+  "start": 61.278,
+  "end": 69.985,
+  "speaker": "Unknown",
+  "en": "We have a fleet agent and a customer agent and a dispatch agent all working in coordination to make sure that the ice cream goes where it needs to go.",
+  "zh": "我们有一个车队智能体、一个客户智能体和一个调度智能体，它们协同工作，确保冰淇淋送到该去的地方。"
+ },
+ {
+  "seg": 17,
+  "start": 70.565,
+  "end": 77.01,
+  "speaker": "Unknown",
+  "en": "In this specific demo, what I've got up here is showing you we have ADK integrated with Temporal.",
+  "zh": "在这个特定的演示中，我在这里向你们展示的是我们把 ADK 与 Temporal 集成了。"
+ },
+ {
+  "seg": 18,
+  "start": 77.33,
+  "end": 83.835,
+  "speaker": "Unknown",
+  "en": "So ADK is a solution that Google is providing to help you orchestrate agents or multiple agents",
+  "zh": "ADK 是 Google 提供的一个解决方案，帮助你编排智能体或多个智能体，"
+ },
+ {
+  "seg": 19,
+  "start": 84.456,
+  "end": 89.624,
+  "speaker": "Unknown",
+  "en": "And in this case, it's specifically helping to coordinate the activities in relation to these agents.",
+  "zh": "在这个例子中，它专门帮助协调与这些智能体相关的活动。"
+ },
+ {
+  "seg": 20,
+  "start": 90.224,
+  "end": 92.528,
+  "speaker": "Unknown",
+  "en": "And Temporal is baked into it.",
+  "zh": "而 Temporal 被内建在其中。"
+ },
+ {
+  "seg": 21,
+  "start": 92.588,
+  "end": 98.277,
+  "speaker": "Unknown",
+  "en": "We are integrated into it so that we can help track the state of what's happening with this kind of delivery.",
+  "zh": "我们被集成进去，这样我们就能帮助追踪这种配送正在进行的状态。"
+ },
+ {
+  "seg": 22,
+  "start": 99.939,
+  "end": 104.783,
+  "speaker": "Unknown",
+  "en": "Temporal actually helps you track your state and manage that state.",
+  "zh": "Temporal 实际上帮助你追踪你的状态并管理那个状态。"
+ },
+ {
+  "seg": 23,
+  "start": 104.823,
+  "end": 108.786,
+  "speaker": "Unknown",
+  "en": "And we provide a UI that allows you to see what's going on on that screen.",
+  "zh": "而且我们提供一个 UI，让你能看到那个屏幕上正在发生什么。"
+ },
+ {
+  "seg": 24,
+  "start": 108.826,
+  "end": 110.307,
+  "speaker": "Unknown",
+  "en": "So this is what you're seeing over here.",
+  "zh": "所以这就是你们在那边看到的。"
+ },
+ {
+  "seg": 25,
+  "start": 111.028,
+  "end": 113.89,
+  "speaker": "Unknown",
+  "en": "And in that UI, it's showing you the event history.",
+  "zh": "在那个 UI 里，它向你展示事件历史。"
+ },
+ {
+  "seg": 26,
+  "start": 114.01,
+  "end": 119.135,
+  "speaker": "Unknown",
+  "en": "This is the parent workflow for all the activities that are happening for Ziggy right now in its delivery suite.",
+  "zh": "这是父工作流，包含了 Ziggy 现在在其配送套件中正在进行的所有活动。"
+ },
+ {
+  "seg": 27,
+  "start": 119.855,
+  "end": 126.301,
+  "speaker": "Unknown",
+  "en": "And in this world, sometimes what we'll have in multiple agents is we need to have human in the loop.",
+  "zh": "而在这个世界里，有时我们在多个智能体中需要有人类在环。"
+ },
+ {
+  "seg": 28,
+  "start": 126.762,
+  "end": 132.227,
+  "speaker": "Unknown",
+  "en": "So let's say a customer made an order and the customer said, hey, I think I've changed my mind about that order.",
+  "zh": "比方说，一个客户下了一个订单，然后客户说，嘿，我想我改变主意了。"
+ },
+ {
+  "seg": 29,
+  "start": 132.607,
+  "end": 134.229,
+  "speaker": "Unknown",
+  "en": "So I'm going to submit a change.",
+  "zh": "所以我要提交一个变更。"
+ },
+ {
+  "seg": 30,
+  "start": 134.689,
+  "end": 142.257,
+  "speaker": "Unknown",
+  "en": "And of course, when you do submit that change, depending on how you build it out,",
+  "zh": "当然，当你提交那个变更时，取决于你是怎么构建的，"
+ },
+ {
+  "seg": 31,
+  "start": 142.857,
+  "end": 148.68,
+  "speaker": "Unknown",
+  "en": "It could actually break your system, but heaven forbid you have it break your system when somebody has a change to submit.",
+  "zh": "它实际上可能会破坏你的系统，但天知道你可不希望有人在提交变更时把系统搞坏。"
+ },
+ {
+  "seg": 32,
+  "start": 149.181,
+  "end": 159.426,
+  "speaker": "Unknown",
+  "en": "In this case, we have an order, and this order is currently pausing driver A, and so driver A is waiting for that update to come through.",
+  "zh": "在这个例子里，我们有一个订单，这个订单目前正在暂停司机 A，所以司机 A 正在等待那个更新通过。"
+ },
+ {
+  "seg": 33,
+  "start": 160.627,
+  "end": 170.513,
+  "speaker": "Unknown",
+  "en": "The system is running while this one specific change is only pausing one part of your system, that one change coming from a human.",
+  "zh": "系统在运行，而这一个特定的变更只暂停了你系统的一部分，那个来自人类的变更。"
+ },
+ {
+  "seg": 34,
+  "start": 171.868,
+  "end": 176.332,
+  "speaker": "Unknown",
+  "en": "And another human needs to make a call on whether or not they want to accept that.",
+  "zh": "而另一个人需要对是否接受它做出判断。"
+ },
+ {
+  "seg": 35,
+  "start": 176.732,
+  "end": 177.733,
+  "speaker": "Unknown",
+  "en": "So they say approve.",
+  "zh": "所以他们点了批准。"
+ },
+ {
+  "seg": 36,
+  "start": 178.654,
+  "end": 181.896,
+  "speaker": "Unknown",
+  "en": "And you'll watch that, as I mentioned, the rest of the system kept running.",
+  "zh": "然后你会看到，正如我提到的，系统的其余部分继续运行。"
+ },
+ {
+  "seg": 37,
+  "start": 181.956,
+  "end": 182.777,
+  "speaker": "Unknown",
+  "en": "Orders are coming in.",
+  "zh": "订单不断进来。"
+ },
+ {
+  "seg": 38,
+  "start": 182.797,
+  "end": 183.618,
+  "speaker": "Unknown",
+  "en": "They're being filled.",
+  "zh": "它们正在被完成。"
+ },
+ {
+  "seg": 39,
+  "start": 184.198,
+  "end": 194.847,
+  "speaker": "Unknown",
+  "en": "But in this specific question that came up about changing that order, the update is getting processed and should go through in a second.",
+  "zh": "但在这个关于变更那个订单的具体问题上，更新正在被处理，应该马上就会通过。"
+ },
+ {
+  "seg": 40,
+  "start": 196.232,
+  "end": 197.773,
+  "speaker": "Unknown",
+  "en": "I suspect internet is part of it.",
+  "zh": "我怀疑网络是原因之一。"
+ },
+ {
+  "seg": 41,
+  "start": 198.213,
+  "end": 199.834,
+  "speaker": "Unknown",
+  "en": "You can see it does get processed.",
+  "zh": "你们可以看到它确实被处理了。"
+ },
+ {
+  "seg": 42,
+  "start": 200.034,
+  "end": 200.975,
+  "speaker": "Unknown",
+  "en": "The update is red.",
+  "zh": "更新是红色的。"
+ },
+ {
+  "seg": 43,
+  "start": 201.515,
+  "end": 205.857,
+  "speaker": "Unknown",
+  "en": "And that order will now move on to its next location, which is to the Oracle Park.",
+  "zh": "而那个订单现在会移动到它的下一个地点，也就是 Oracle Park。"
+ },
+ {
+  "seg": 44,
+  "start": 205.877,
+  "end": 208.619,
+  "speaker": "Unknown",
+  "en": "And there goes little a delivering the order for you.",
+  "zh": "那边小 A 就帮你把订单送过去了。"
+ },
+ {
+  "seg": 45,
+  "start": 208.999,
+  "end": 209.619,
+  "speaker": "Unknown",
+  "en": "So there you go.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 46,
+  "start": 209.679,
+  "end": 214.322,
+  "speaker": "Unknown",
+  "en": "That is durable execution with Temporal and ADK integrated.",
+  "zh": "这就是 Temporal 与 ADK 集成实现的持久化执行。"
+ },
+ {
+  "seg": 47,
+  "start": 215.042,
+  "end": 215.423,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 48,
+  "start": 215.603,
+  "end": 219.225,
+  "speaker": "Unknown",
+  "en": "I'm here to talk to you about the human is an async API.",
+  "zh": "我今天要和你们讲的是人类是一个异步 API。"
+ },
+ {
+  "seg": 49,
+  "start": 221.255,
+  "end": 226.296,
+  "speaker": "Unknown",
+  "en": "Let's go into, first off, we've been hearing about agentic loops, right?",
+  "zh": "让我们先进入正题，我们一直听到关于智能体循环的东西，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 226.836,
+  "end": 229.337,
+  "speaker": "Unknown",
+  "en": "You can reason, act, and observe.",
+  "zh": "你可以进行推理、行动和观察。"
+ },
+ {
+  "seg": 51,
+  "start": 229.717,
+  "end": 237.959,
+  "speaker": "Unknown",
+  "en": "That is our whole thing that everybody's been talking about when they're talking about building out these agents and these agents running as autonomously as we possibly can.",
+  "zh": "这就是我们一直在讨论的全部核心，也就是大家在谈论构建这些智能体、并让这些智能体尽可能自主运行时所说的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 238.899,
+  "end": 241.36,
+  "speaker": "Unknown",
+  "en": "There's this kind of loop that we're looking at, right?",
+  "zh": "我们看到的就是这样一种循环，对吧？"
+ },
+ {
+  "seg": 53,
+  "start": 241.46,
+  "end": 245.281,
+  "speaker": "Unknown",
+  "en": "We've heard other words for this where we're thinking, we're acting, we're perceiving.",
+  "zh": "我们听过关于这个的其他说法，比如我们在思考、我们在行动、我们在感知。"
+ },
+ {
+  "seg": 54,
+  "start": 247.221,
+  "end": 249.527,
+  "speaker": "Unknown",
+  "en": "And that's the essence of it.",
+  "zh": "这就是它的本质。"
+ },
+ {
+  "seg": 55,
+  "start": 249.547,
+  "end": 250.509,
+  "speaker": "Unknown",
+  "en": "It can be a for loop.",
+  "zh": "它可以是一个 for 循环。"
+ },
+ {
+  "seg": 56,
+  "start": 250.529,
+  "end": 251.371,
+  "speaker": "Unknown",
+  "en": "It can be a while loop.",
+  "zh": "它可以是一个 while 循环。"
+ },
+ {
+  "seg": 57,
+  "start": 252.612,
+  "end": 260.636,
+  "speaker": "Unknown",
+  "en": "Most of this year we've been hearing people tell us about the harness and what the harness is supposed to be to help us get those agents into production.",
+  "zh": "今年大部分时间，我们一直在听人们讲述 harness（骨架），以及 harness 应该是什么样子，来帮助我们把这些智能体投入生产环境。"
+ },
+ {
+  "seg": 58,
+  "start": 261.176,
+  "end": 265.958,
+  "speaker": "Unknown",
+  "en": "So the harness, I'm not going to sit here and tell you I am the expert on the harness.",
+  "zh": "所以关于 harness，我不会坐在这里告诉你我就是 harness 方面的专家。"
+ },
+ {
+  "seg": 59,
+  "start": 266.659,
+  "end": 274.863,
+  "speaker": "Unknown",
+  "en": "I'm going to tell you from everything I've researched, I'm trying to give you at least a map to a degree of what I understand so far with the understanding that there's a lot of debate about this.",
+  "zh": "我要告诉你的是，根据我所研究的一切，我试图在某种程度上至少给你一张关于我目前理解的地图，同时要理解围绕这个还有很多争论。"
+ },
+ {
+  "seg": 60,
+  "start": 275.243,
+  "end": 279.185,
+  "speaker": "Unknown",
+  "en": "I've heard that the harness is possibly the model is part of all of this.",
+  "zh": "我听说过一种说法，是 harness 里可能包含模型，模型是这一切的一部分。"
+ },
+ {
+  "seg": 61,
+  "start": 279.945,
+  "end": 280.686,
+  "speaker": "Unknown",
+  "en": "Or it's not.",
+  "zh": "或者不包含。"
+ },
+ {
+  "seg": 62,
+  "start": 280.926,
+  "end": 287.312,
+  "speaker": "Unknown",
+  "en": "I think there's debates around whether the model's in it, whether tools are in it, memory's in it, guardrails, security.",
+  "zh": "我认为围绕着模型是否包含在内、工具是否包含在内、记忆是否包含在内、护栏、安全性，都存在争论。"
+ },
+ {
+  "seg": 63,
+  "start": 287.352,
+  "end": 294.86,
+  "speaker": "Unknown",
+  "en": "But ultimately, it's all about getting these agents with structure so that they can work reasonably well when they're put out into production.",
+  "zh": "但归根结底，这一切都是为了让这些智能体具有结构，这样它们在被投入生产环境时才能运转得相当好。"
+ },
+ {
+  "seg": 64,
+  "start": 295.46,
+  "end": 297.903,
+  "speaker": "Unknown",
+  "en": "And part of that picture should be durability.",
+  "zh": "而这幅图景的一部分应该是持久性。"
+ },
+ {
+  "seg": 65,
+  "start": 300.283,
+  "end": 304.365,
+  "speaker": "Unknown",
+  "en": "The system that I showed you, the demo that I just showed you, this is what it is.",
+  "zh": "我给你们展示的那个系统，我刚刚展示的那个演示，它就是这个样子。"
+ },
+ {
+  "seg": 66,
+  "start": 304.565,
+  "end": 305.705,
+  "speaker": "Unknown",
+  "en": "It's got these loops.",
+  "zh": "它有这些循环。"
+ },
+ {
+  "seg": 67,
+  "start": 305.966,
+  "end": 307.386,
+  "speaker": "Unknown",
+  "en": "We've got a loop for the fleet agent.",
+  "zh": "我们有一个给车队智能体（fleet agent）的循环。"
+ },
+ {
+  "seg": 68,
+  "start": 307.406,
+  "end": 308.807,
+  "speaker": "Unknown",
+  "en": "We've got a loop for the customer agent.",
+  "zh": "我们有一个给客户智能体的循环。"
+ },
+ {
+  "seg": 69,
+  "start": 308.827,
+  "end": 310.408,
+  "speaker": "Unknown",
+  "en": "We've got a loop for the dispatch agent.",
+  "zh": "我们有一个给调度智能体的循环。"
+ },
+ {
+  "seg": 70,
+  "start": 311.268,
+  "end": 313.629,
+  "speaker": "Unknown",
+  "en": "The fleet and the customer are doing research.",
+  "zh": "车队和客户在做研究。"
+ },
+ {
+  "seg": 71,
+  "start": 313.909,
+  "end": 318.711,
+  "speaker": "Unknown",
+  "en": "One's doing it on the actual drivers using tools like Google Maps.",
+  "zh": "一个是在使用像 Google Maps 这样的工具对实际的司机做研究。"
+ },
+ {
+  "seg": 72,
+  "start": 318.751,
+  "end": 326.475,
+  "speaker": "Unknown",
+  "en": "The other one is doing research on the orders with tools like Google Search, while the dispatch agent is taking that input and making decisions with it.",
+  "zh": "另一个是在使用像 Google Search 这样的工具对订单做研究，与此同时调度智能体在接收这些输入并用它来做决策。"
+ },
+ {
+  "seg": 73,
+  "start": 328.951,
+  "end": 329.271,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 74,
+  "start": 329.331,
+  "end": 333.753,
+  "speaker": "Unknown",
+  "en": "So that's great that these activities are happening with these three loops.",
+  "zh": "所以这三个循环里的这些活动正在发生，这很棒。"
+ },
+ {
+  "seg": 75,
+  "start": 334.073,
+  "end": 337.795,
+  "speaker": "Unknown",
+  "en": "And we've got the human potentially providing input in part of this structure.",
+  "zh": "而且我们还有人可能在这个结构的一部分中提供输入。"
+ },
+ {
+  "seg": 76,
+  "start": 338.295,
+  "end": 345.419,
+  "speaker": "Unknown",
+  "en": "But what's important is that we need to have some durability in that system to make sure that it stays up and running and doesn't fall over.",
+  "zh": "但重要的是，我们需要在那个系统中拥有一定的持久性，以确保它保持运行而不会崩溃。"
+ },
+ {
+  "seg": 77,
+  "start": 345.759,
+  "end": 347.039,
+  "speaker": "Unknown",
+  "en": "And that's where Temporal comes in.",
+  "zh": "这就是 Temporal 发挥作用的地方。"
+ },
+ {
+  "seg": 78,
+  "start": 347.46,
+  "end": 354.223,
+  "speaker": "Unknown",
+  "en": "So Temporal is helping you to standardize your failure handling and your state management in your system.",
+  "zh": "所以 Temporal 是在帮助你把系统中的故障处理和状态管理标准化。"
+ },
+ {
+  "seg": 79,
+  "start": 355.203,
+  "end": 360.485,
+  "speaker": "Unknown",
+  "en": "Any system, any distributed system, especially any systems with agents, we are going to help you standardize that.",
+  "zh": "任何系统、任何分布式系统，尤其是任何包含智能体的系统，我们都会帮你把那个标准化。"
+ },
+ {
+  "seg": 80,
+  "start": 360.505,
+  "end": 362.706,
+  "speaker": "Unknown",
+  "en": "We're software and we're also a service.",
+  "zh": "我们既是软件，也是一项服务。"
+ },
+ {
+  "seg": 81,
+  "start": 363.146,
+  "end": 370.168,
+  "speaker": "Unknown",
+  "en": "The software itself is creating a lot of primitives that you can just use out of the box and basically apply to your code base.",
+  "zh": "软件本身创建了很多原语，你可以开箱即用，基本上可以直接应用到你的代码库上。"
+ },
+ {
+  "seg": 82,
+  "start": 370.508,
+  "end": 372.669,
+  "speaker": "Unknown",
+  "en": "We come in all kinds of flavors of code.",
+  "zh": "我们支持各种各样的代码。"
+ },
+ {
+  "seg": 83,
+  "start": 373.049,
+  "end": 376.891,
+  "speaker": "Unknown",
+  "en": "So you can use this in Python or TypeScript or Rust.",
+  "zh": "所以你可以在 Python、TypeScript 或 Rust 中使用它。"
+ },
+ {
+  "seg": 84,
+  "start": 377.411,
+  "end": 383.193,
+  "speaker": "Unknown",
+  "en": "But ultimately, we're giving you some standard primitives to apply to your code to be able to make sure your state,",
+  "zh": "但归根结底，我们是在给你一些标准的原语，应用到你的代码上，以便能够确保你的状态——"
+ },
+ {
+  "seg": 85,
+  "start": 384.233,
+  "end": 385.814,
+  "speaker": "Unknown",
+  "en": "Your system is stateful.",
+  "zh": "你的系统是有状态的。"
+ },
+ {
+  "seg": 86,
+  "start": 386.514,
+  "end": 391.496,
+  "speaker": "Unknown",
+  "en": "So the three main primitives we tend to talk about are the worker, the workflow, and the activity.",
+  "zh": "所以我们倾向于谈论的三个主要原语是 worker、workflow 和 activity。"
+ },
+ {
+  "seg": 87,
+  "start": 392.016,
+  "end": 393.717,
+  "speaker": "Unknown",
+  "en": "The worker is really running that code.",
+  "zh": "worker 就是真正在运行那段代码的东西。"
+ },
+ {
+  "seg": 88,
+  "start": 394.457,
+  "end": 399.999,
+  "speaker": "Unknown",
+  "en": "The workflow is where you're going to be able to keep track of the steps in your system.",
+  "zh": "workflow 是你能够跟踪系统中各个步骤的地方。"
+ },
+ {
+  "seg": 89,
+  "start": 400.519,
+  "end": 405.161,
+  "speaker": "Unknown",
+  "en": "And so this is where an ADK framework would be running inside a workflow.",
+  "zh": "所以这就是 ADK 框架会在 workflow 内部运行的地方。"
+ },
+ {
+  "seg": 90,
+  "start": 405.201,
+  "end": 409.143,
+  "speaker": "Unknown",
+  "en": "Your agent could run inside of a workflow because it's a loop, right?",
+  "zh": "你的智能体可以在 workflow 内部运行，因为它是一个循环，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 410.243,
+  "end": 415.084,
+  "speaker": "Unknown",
+  "en": "Whereas the activity is all the stuff that's interacting with stuff externally.",
+  "zh": "而 activity 则是所有与外部事物交互的东西。"
+ },
+ {
+  "seg": 92,
+  "start": 415.164,
+  "end": 421.546,
+  "speaker": "Unknown",
+  "en": "So if you've got a loop, any kind of model call or any kind of tool call, those would be set up as activities.",
+  "zh": "所以如果你有一个循环，任何形式的模型调用或任何形式的工具调用，那些都会被设置为 activity。"
+ },
+ {
+  "seg": 93,
+  "start": 421.566,
+  "end": 422.426,
+  "speaker": "Unknown",
+  "en": "So these are the primitives.",
+  "zh": "这些就是原语。"
+ },
+ {
+  "seg": 94,
+  "start": 422.446,
+  "end": 429.588,
+  "speaker": "Unknown",
+  "en": "So you structure your code with our primitives to be able to track the state of your system.",
+  "zh": "所以你用我们的原语来组织你的代码，以便能够跟踪你系统的状态。"
+ },
+ {
+  "seg": 95,
+  "start": 430.408,
+  "end": 434.089,
+  "speaker": "Unknown",
+  "en": "And we're free and open source at that GitHub URL.",
+  "zh": "而且在那个 GitHub URL 上我们是免费且开源的。"
+ },
+ {
+  "seg": 96,
+  "start": 434.309,
+  "end": 437.95,
+  "speaker": "Unknown",
+  "en": "You pay us if you have us manage your state with our service.",
+  "zh": "如果你让我们的服务来管理你的状态，你就付钱给我们。"
+ },
+ {
+  "seg": 97,
+  "start": 438.03,
+  "end": 439.59,
+  "speaker": "Unknown",
+  "en": "Otherwise, you can host it, self-host it.",
+  "zh": "否则，你可以自己托管、自行部署，"
+ },
+ {
+  "seg": 98,
+  "start": 440.454,
+  "end": 441.121,
+  "speaker": "Unknown",
+  "en": "on your own system.",
+  "zh": "在你自己的系统上。"
+ },
+ {
+  "seg": 99,
+  "start": 442.787,
+  "end": 449.169,
+  "speaker": "Unknown",
+  "en": "Let's get back to human in the loop, what I wanted to really get across to you about this whole talk.",
+  "zh": "让我们回到人机回环（human in the loop），这是我在整个演讲中真正想传达给你们的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 449.649,
+  "end": 456.251,
+  "speaker": "Unknown",
+  "en": "So the human, granted, we're not tools, but we are a tool to the agent.",
+  "zh": "所以人类，没错，我们不是工具，但对智能体来说我们是一个工具。"
+ },
+ {
+  "seg": 101,
+  "start": 456.571,
+  "end": 464.233,
+  "speaker": "Unknown",
+  "en": "And you might think, OK, well, we're going to call the human or we're going to have the human come in and give us some kind of information to pass into this loop.",
+  "zh": "你可能会想，好吧，我们要去呼叫人类，或者让人类进来，提供某种信息传进这个循环。"
+ },
+ {
+  "seg": 102,
+  "start": 464.853,
+  "end": 471.155,
+  "speaker": "Unknown",
+  "en": "If you write it just straight out as a function to say call the human or let the human have an input,",
+  "zh": "如果你直接把它写成一个函数，去说呼叫人类或让人类输入，"
+ },
+ {
+  "seg": 103,
+  "start": 471.875,
+  "end": 473.476,
+  "speaker": "Unknown",
+  "en": "It can become a blocking call.",
+  "zh": "它可能会变成一个阻塞调用。"
+ },
+ {
+  "seg": 104,
+  "start": 474.176,
+  "end": 476.757,
+  "speaker": "Unknown",
+  "en": "And it can get lost if your service went down.",
+  "zh": "而且如果你的服务挂了，它可能会丢失。"
+ },
+ {
+  "seg": 105,
+  "start": 477.337,
+  "end": 481.798,
+  "speaker": "Unknown",
+  "en": "It might lose track of what was going on with that human's engagement.",
+  "zh": "它可能会失去对那个人类参与过程的追踪。"
+ },
+ {
+  "seg": 106,
+  "start": 484.559,
+  "end": 489.941,
+  "speaker": "Unknown",
+  "en": "What you want is these two core primitives to be applied to your code and your agents.",
+  "zh": "你想要的是把这两个核心原语应用到你的代码和你的智能体上。"
+ },
+ {
+  "seg": 107,
+  "start": 489.981,
+  "end": 491.922,
+  "speaker": "Unknown",
+  "en": "You want a wait condition and a signal.",
+  "zh": "你想要一个 wait condition(等待条件)和一个 signal(信号)。"
+ },
+ {
+  "seg": 108,
+  "start": 493.122,
+  "end": 511.008,
+  "speaker": "Unknown",
+  "en": "You're allowing yourself to isolate an event, apply a weight condition, store that in that workflow, in that durability layer, so that if anything fell over in the system, when that system came back up, it would know where it left off.",
+  "zh": "你让自己能够隔离一个事件，应用一个 wait condition(等待条件)，把它存储在那个 workflow 里，在那个持久化层里，这样如果系统里任何东西垮了，当那个系统恢复时，它会知道自己从哪里继续。"
+ },
+ {
+  "seg": 109,
+  "start": 511.908,
+  "end": 519.651,
+  "speaker": "Unknown",
+  "en": "And you could send a signal at any point, but the whole system could keep running without you necessarily being blocked on that one call to the human.",
+  "zh": "而且你可以在任何时刻发送 signal(信号)，但整个系统可以继续运行，而不必阻塞在那一通对人类的调用上。"
+ },
+ {
+  "seg": 110,
+  "start": 522.45,
+  "end": 526.193,
+  "speaker": "Unknown",
+  "en": "The code pretty much is fairly simple in terms of the primitives.",
+  "zh": "就原语而言，代码相当简单。"
+ },
+ {
+  "seg": 111,
+  "start": 526.253,
+  "end": 529.315,
+  "speaker": "Unknown",
+  "en": "And granted, I know this is Python, but it's the same situation.",
+  "zh": "没错，我知道这是 Python,但情况是一样的。"
+ },
+ {
+  "seg": 112,
+  "start": 529.335,
+  "end": 532.158,
+  "speaker": "Unknown",
+  "en": "You're going to apply a wait condition and you're going to apply a signal.",
+  "zh": "你要应用一个 wait condition(等待条件)，你要应用一个 signal(信号)。"
+ },
+ {
+  "seg": 113,
+  "start": 534.583,
+  "end": 536.605,
+  "speaker": "Unknown",
+  "en": "You basically, you're not holding a thread.",
+  "zh": "基本上，你不占着一个线程。"
+ },
+ {
+  "seg": 114,
+  "start": 536.625,
+  "end": 539.728,
+  "speaker": "Unknown",
+  "en": "It's going to survive any kind of crashes.",
+  "zh": "它能在任何类型的崩溃后存活。"
+ },
+ {
+  "seg": 115,
+  "start": 539.988,
+  "end": 544.473,
+  "speaker": "Unknown",
+  "en": "It's got all kinds of built-in primitives like timeouts, for example.",
+  "zh": "它有各种内置原语，比如 timeout(超时)。"
+ },
+ {
+  "seg": 116,
+  "start": 544.513,
+  "end": 551.74,
+  "speaker": "Unknown",
+  "en": "If you're waiting on a human to respond and you want to make sure that it only waits for so long, you can apply timeouts and other types of primitives.",
+  "zh": "如果你在等一个人类回应，而你想确保它只等待这么长时间，你可以应用 timeout(超时)和其他类型的原语。"
+ },
+ {
+  "seg": 117,
+  "start": 553.081,
+  "end": 553.962,
+  "speaker": "Unknown",
+  "en": "And this can scale.",
+  "zh": "而且这是可以扩展的。"
+ },
+ {
+  "seg": 118,
+  "start": 554.423,
+  "end": 558.187,
+  "speaker": "Unknown",
+  "en": "You can have millions of workflows out there parked, and it can keep running.",
+  "zh": "你可以让数百万个 workflow 挂在那里，它还能继续运行。"
+ },
+ {
+  "seg": 119,
+  "start": 559.649,
+  "end": 565.474,
+  "speaker": "Unknown",
+  "en": "So what I want to show you, actually, I'm going to show you some more code, but I'm going to kick off the next demo so that it's up and running.",
+  "zh": "所以我接下来想给你们看的，实际上，我要给你们看更多代码，但我要先启动下一个 demo,让它跑起来。"
+ },
+ {
+  "seg": 120,
+  "start": 565.914,
+  "end": 578.865,
+  "speaker": "Unknown",
+  "en": "And I'll share with all of you, if you haven't already figured this out, my eyes are injured, so I am squinting at times and also realizing that I need additional support here that I did not prepare for.",
+  "zh": "我会分享给你们，如果你们还没看出来，我的眼睛受伤了，所以我有时会眯着眼，也意识到我需要我没准备好的额外支持。"
+ },
+ {
+  "seg": 121,
+  "start": 579.265,
+  "end": 581.287,
+  "speaker": "Unknown",
+  "en": "But that's OK, because I can adapt.",
+  "zh": "但没关系，因为我可以适应。"
+ },
+ {
+  "seg": 122,
+  "start": 581.767,
+  "end": 586.992,
+  "speaker": "Unknown",
+  "en": "All right, so let's get this other example up and running, and then I'm going to tell you a little bit more about the code that's up here.",
+  "zh": "好，那我们把另一个例子跑起来，然后我会多讲讲这上面的代码。"
+ },
+ {
+  "seg": 123,
+  "start": 588.513,
+  "end": 589.874,
+  "speaker": "Unknown",
+  "en": "Let's make sure that's running.",
+  "zh": "让我们确认它在运行。"
+ },
+ {
+  "seg": 124,
+  "start": 591.756,
+  "end": 593.378,
+  "speaker": "Unknown",
+  "en": "I'm resetting my example.",
+  "zh": "我在重置我的示例。"
+ },
+ {
+  "seg": 125,
+  "start": 593.558,
+  "end": 596.901,
+  "speaker": "Unknown",
+  "en": "And of course, it's not going to be as easy peasy as I'd like.",
+  "zh": "当然，事情不会像我希望的那么轻松顺利。"
+ },
+ {
+  "seg": 126,
+  "start": 598.743,
+  "end": 600.605,
+  "speaker": "Unknown",
+  "en": "Also, is everybody hearing me OK?",
+  "zh": "另外，大家都听得清我说话吗？"
+ },
+ {
+  "seg": 127,
+  "start": 600.625,
+  "end": 601.946,
+  "speaker": "Unknown",
+  "en": "I think so.",
+  "zh": "我觉得可以。"
+ },
+ {
+  "seg": 128,
+  "start": 602.287,
+  "end": 602.627,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 129,
+  "start": 604.148,
+  "end": 608.333,
+  "speaker": "Unknown",
+  "en": "It's an interesting condition to be working in this space with the noises around us.",
+  "zh": "在周围这些噪音中在这个空间里工作，是个有趣的状况。"
+ },
+ {
+  "seg": 130,
+  "start": 609.467,
+  "end": 609.827,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 131,
+  "start": 609.927,
+  "end": 611.509,
+  "speaker": "Unknown",
+  "en": "I think it's up and running.",
+  "zh": "我想它跑起来了。"
+ },
+ {
+  "seg": 132,
+  "start": 612.189,
+  "end": 612.449,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 133,
+  "start": 612.509,
+  "end": 614.331,
+  "speaker": "Unknown",
+  "en": "So let's talk a little bit more about the code.",
+  "zh": "那我们再多聊聊代码。"
+ },
+ {
+  "seg": 134,
+  "start": 614.711,
+  "end": 619.895,
+  "speaker": "Unknown",
+  "en": "Now, I already told you about our primitives of activity, workflow, and worker.",
+  "zh": "现在，我已经给你们讲过我们的 activity、workflow 和 worker 这几个原语了。"
+ },
+ {
+  "seg": 135,
+  "start": 620.836,
+  "end": 635.388,
+  "speaker": "Unknown",
+  "en": "And so with the activity, you are basically, for ADK in particular, we have the temporal model class that you will wrap around the model, and then you'll pass it in for ADK to be able to set up that actual agent.",
+  "zh": "对于 activity,基本上，特别是对 ADK 来说，我们有 temporal model 类，你会把它包在模型外面，然后把它传进去，让 ADK 能够搭建那个真正的智能体。"
+ },
+ {
+  "seg": 136,
+  "start": 635.788,
+  "end": 636.588,
+  "speaker": "Unknown",
+  "en": "It's pretty simple.",
+  "zh": "相当简单。"
+ },
+ {
+  "seg": 137,
+  "start": 637.029,
+  "end": 638.29,
+  "speaker": "Unknown",
+  "en": "You apply this temporal model.",
+  "zh": "你应用这个 temporal model。"
+ },
+ {
+  "seg": 138,
+  "start": 638.79,
+  "end": 647.377,
+  "speaker": "Unknown",
+  "en": "You apply our activity tool to wrap around your tools, and you run your agent.",
+  "zh": "你应用我们的 activity tool 去包住你的 tools,然后你运行你的智能体。"
+ },
+ {
+  "seg": 139,
+  "start": 647.417,
+  "end": 650.42,
+  "speaker": "Unknown",
+  "en": "You run your agent like you would with any kind of ADK setup that you're going to do.",
+  "zh": "你运行你的智能体，就像你要做任何一种 ADK 搭建那样。"
+ },
+ {
+  "seg": 140,
+  "start": 650.92,
+  "end": 655.304,
+  "speaker": "Unknown",
+  "en": "And you also set up a worker and you pass in the Google ADK plugin.",
+  "zh": "你还要设置一个 worker,并把 Google ADK plugin 传进去。"
+ },
+ {
+  "seg": 141,
+  "start": 656.184,
+  "end": 658.706,
+  "speaker": "Unknown",
+  "en": "So that's setting up your worker workflow and activity.",
+  "zh": "这就是设置你的 worker、workflow 和 activity。"
+ },
+ {
+  "seg": 142,
+  "start": 659.787,
+  "end": 661.989,
+  "speaker": "Unknown",
+  "en": "And then, similarly, you have your wait condition.",
+  "zh": "然后，类似地，你有你的 wait condition(等待条件)。"
+ },
+ {
+  "seg": 143,
+  "start": 662.489,
+  "end": 669.214,
+  "speaker": "Unknown",
+  "en": "And the wait condition is using this asyncIO when it uses a wait to say, like, for that specific workflow, I want you to pause it.",
+  "zh": "这个 wait condition 用的是 asyncIO,当它使用 wait 时，是说，比如，对那个特定的 workflow,我要你暂停它。"
+ },
+ {
+  "seg": 144,
+  "start": 669.714,
+  "end": 670.735,
+  "speaker": "Unknown",
+  "en": "Don't run any other code.",
+  "zh": "不要运行任何其他代码。"
+ },
+ {
+  "seg": 145,
+  "start": 670.775,
+  "end": 676.279,
+  "speaker": "Unknown",
+  "en": "But you can keep running the coroutines on that workflow or any other workflows in the system.",
+  "zh": "但你可以继续运行那个 workflow 上的 coroutines,或者系统里任何其他 workflow 上的。"
+ },
+ {
+  "seg": 146,
+  "start": 677.04,
+  "end": 684.285,
+  "speaker": "Unknown",
+  "en": "Meanwhile, that workflow.signal, it will be able to take any kind of input and inject it into a running workflow.",
+  "zh": "与此同时，那个 workflow.signal,它能够接受任何类型的输入，并把它注入到一个正在运行的 workflow 中。"
+ },
+ {
+  "seg": 147,
+  "start": 685.75,
+  "end": 694.038,
+  "speaker": "Unknown",
+  "en": "And the workflow will be taken off of your memory or taken off of your system and put in part if it's not running anything at that point.",
+  "zh": "而那个 workflow 会被从你的内存或系统里取出来，如果它那时没有运行任何东西，就会被放进 part(暂停)。"
+ },
+ {
+  "seg": 148,
+  "start": 696.28,
+  "end": 698.041,
+  "speaker": "Unknown",
+  "en": "So I showed you human to agent.",
+  "zh": "所以我给你们看了 human 到 agent。"
+ },
+ {
+  "seg": 149,
+  "start": 698.061,
+  "end": 703.826,
+  "speaker": "Unknown",
+  "en": "What I want to show you is what does it look like when the agent comes in and needs the human to be involved.",
+  "zh": "我想给你们看的是，当 agent 进来、需要 human 参与时是什么样子。"
+ },
+ {
+  "seg": 150,
+  "start": 704.527,
+  "end": 705.548,
+  "speaker": "Unknown",
+  "en": "It's pretty similar.",
+  "zh": "相当类似。"
+ },
+ {
+  "seg": 151,
+  "start": 706.068,
+  "end": 707.69,
+  "speaker": "Unknown",
+  "en": "I'm just going to go ahead and tell you right now.",
+  "zh": "我现在就直接告诉你。"
+ },
+ {
+  "seg": 152,
+  "start": 707.99,
+  "end": 709.752,
+  "speaker": "Unknown",
+  "en": "You're going to use a weight condition and a signal.",
+  "zh": "你会使用一个 wait condition 和一个 signal。"
+ },
+ {
+  "seg": 153,
+  "start": 712.474,
+  "end": 720.223,
+  "speaker": "Unknown",
+  "en": "I'm going to use LangGraph in this example and also ADK because the reality is with Temporal, we can work with multiple frameworks.",
+  "zh": "在这个例子里我会用 LangGraph,还有 ADK,因为现实情况是，有了 Temporal,我们可以和多个框架协作。"
+ },
+ {
+  "seg": 154,
+  "start": 720.283,
+  "end": 721.685,
+  "speaker": "Unknown",
+  "en": "We are framework agnostic.",
+  "zh": "我们对框架不设限。"
+ },
+ {
+  "seg": 155,
+  "start": 722.305,
+  "end": 724.888,
+  "speaker": "Unknown",
+  "en": "We work across a variety of different tools.",
+  "zh": "我们支持各种不同的工具。"
+ },
+ {
+  "seg": 156,
+  "start": 726.41,
+  "end": 731.276,
+  "speaker": "Unknown",
+  "en": "So in terms of LangGraph, they build out graphs to build out the multiple agents set up.",
+  "zh": "所以就 LangGraph 而言，它们通过构建图来搭建多智能体的架构。"
+ },
+ {
+  "seg": 157,
+  "start": 731.796,
+  "end": 737.1,
+  "speaker": "Unknown",
+  "en": "And in this integration, the way we work, you're passing us into each node for your graph.",
+  "zh": "在这个集成里，我们的工作方式是，你把我们传进图的每个节点。"
+ },
+ {
+  "seg": 158,
+  "start": 737.501,
+  "end": 739.442,
+  "speaker": "Unknown",
+  "en": "So you're setting up what the metadata looks like.",
+  "zh": "所以你要设置好元数据的样子。"
+ },
+ {
+  "seg": 159,
+  "start": 739.863,
+  "end": 745.387,
+  "speaker": "Unknown",
+  "en": "And if you're making any kind of model call, like an Invoke the Model, that would be set up as an activity.",
+  "zh": "如果你进行任何类型的模型调用，比如 Invoke the Model,那会被设置为一个 activity。"
+ },
+ {
+  "seg": 160,
+  "start": 745.827,
+  "end": 749.791,
+  "speaker": "Unknown",
+  "en": "If you're making any type of other tool call, it would also be set up as an activity.",
+  "zh": "如果你进行任何其他类型的工具调用，它也会被设置为一个 activity。"
+ },
+ {
+  "seg": 161,
+  "start": 750.111,
+  "end": 751.052,
+  "speaker": "Unknown",
+  "en": "But if it's a step,",
+  "zh": "但如果它是一个步骤，"
+ },
+ {
+  "seg": 162,
+  "start": 751.652,
+  "end": 754.754,
+  "speaker": "Unknown",
+  "en": "It's step in that process, then that's set up as a workflow.",
+  "zh": "是那个流程中的一个步骤，那它就被设置为一个 workflow。"
+ },
+ {
+  "seg": 163,
+  "start": 755.234,
+  "end": 762.9,
+  "speaker": "Unknown",
+  "en": "This is determinism and non-determinism in terms of workflows are deterministic, activities are non-deterministic.",
+  "zh": "这就是确定性与非确定性——workflow 是确定性的，activity 是非确定性的。"
+ },
+ {
+  "seg": 164,
+  "start": 763.84,
+  "end": 767.823,
+  "speaker": "Unknown",
+  "en": "And then, of course, you pass in for the worker the plugin for the LangGraph.",
+  "zh": "然后，当然，你要在 worker 里传入 LangGraph 的插件。"
+ },
+ {
+  "seg": 165,
+  "start": 770.91,
+  "end": 776.012,
+  "speaker": "Unknown",
+  "en": "In terms of LangGraph in particular, we use the interrupt to call out from their nodes.",
+  "zh": "就 LangGraph 而言，我们用 interrupt 从它们的节点中调用出去。"
+ },
+ {
+  "seg": 166,
+  "start": 776.032,
+  "end": 777.393,
+  "speaker": "Unknown",
+  "en": "So this is part of LangGraph.",
+  "zh": "所以这是 LangGraph 的一部分。"
+ },
+ {
+  "seg": 167,
+  "start": 777.673,
+  "end": 779.854,
+  "speaker": "Unknown",
+  "en": "And also to be fair, LangGraph is more than a framework.",
+  "zh": "而且公平地说，LangGraph 不只是一个框架。"
+ },
+ {
+  "seg": 168,
+  "start": 779.874,
+  "end": 781.535,
+  "speaker": "Unknown",
+  "en": "But in this case, I'm using it as a framework.",
+  "zh": "但在这个例子里，我把它当作框架来用。"
+ },
+ {
+  "seg": 169,
+  "start": 781.935,
+  "end": 783.436,
+  "speaker": "Unknown",
+  "en": "But you use interrupt to call out.",
+  "zh": "你用 interrupt 来调用出去。"
+ },
+ {
+  "seg": 170,
+  "start": 784.016,
+  "end": 792.92,
+  "speaker": "Unknown",
+  "en": "And then what you're going to do next is use that wait condition in the loop tracking for that interrupt signal to pause that workflow.",
+  "zh": "接下来你要做的，是在循环追踪中使用那个 wait condition,等待那个 interrupt 信号来暂停那个 workflow。"
+ },
+ {
+  "seg": 171,
+  "start": 793.44,
+  "end": 799.863,
+  "speaker": "Unknown",
+  "en": "And then the signal will capture whatever the human responds with to the question that's been asked.",
+  "zh": "然后 signal 会捕捉人类针对所提问题做出的任何回应。"
+ },
+ {
+  "seg": 172,
+  "start": 800.703,
+  "end": 801.943,
+  "speaker": "Unknown",
+  "en": "OK, let's see what that looks like.",
+  "zh": "好，让我们看看那是什么样子。"
+ },
+ {
+  "seg": 173,
+  "start": 802.644,
+  "end": 805.944,
+  "speaker": "Unknown",
+  "en": "I'm going to bring up my demo and show you as they're running.",
+  "zh": "我要打开我的 demo,给你们看它们运行的样子。"
+ },
+ {
+  "seg": 174,
+  "start": 806.965,
+  "end": 808.785,
+  "speaker": "Unknown",
+  "en": "This is the design that I've got.",
+  "zh": "这就是我设计的方案。"
+ },
+ {
+  "seg": 175,
+  "start": 808.845,
+  "end": 812.006,
+  "speaker": "Unknown",
+  "en": "I've got the customer and the fleet agents running on ADK.",
+  "zh": "我让 customer 和 fleet 智能体运行在 ADK 上。"
+ },
+ {
+  "seg": 176,
+  "start": 812.046,
+  "end": 814.346,
+  "speaker": "Unknown",
+  "en": "I've got the dispatch agent running on LangGraph.",
+  "zh": "我让 dispatch 智能体运行在 LangGraph 上。"
+ },
+ {
+  "seg": 177,
+  "start": 815.647,
+  "end": 818.607,
+  "speaker": "Unknown",
+  "en": "And Temporal is interwoven throughout.",
+  "zh": "而 Temporal 贯穿其中。"
+ },
+ {
+  "seg": 178,
+  "start": 820.328,
+  "end": 821.548,
+  "speaker": "Unknown",
+  "en": "So that's how that's working.",
+  "zh": "这就是它的工作方式。"
+ },
+ {
+  "seg": 179,
+  "start": 822.208,
+  "end": 824.809,
+  "speaker": "Unknown",
+  "en": "Now, let's see if I can show you.",
+  "zh": "现在，让我看看能不能给你们展示。"
+ },
+ {
+  "seg": 180,
+  "start": 827.829,
+  "end": 830.01,
+  "speaker": "Unknown",
+  "en": "In this case, I'm going to drop a high value order.",
+  "zh": "在这个例子里，我要下一笔高价值订单。"
+ },
+ {
+  "seg": 181,
+  "start": 832.022,
+  "end": 834.583,
+  "speaker": "Unknown",
+  "en": "This is an order that will most likely want a human involved.",
+  "zh": "这是一笔很可能需要人类参与的订单。"
+ },
+ {
+  "seg": 182,
+  "start": 835.743,
+  "end": 841.084,
+  "speaker": "Unknown",
+  "en": "The workflow for the whole system is showing that all these agents are doing their job.",
+  "zh": "整个系统的 workflow 显示所有这些智能体都在履行自己的职责。"
+ },
+ {
+  "seg": 183,
+  "start": 841.164,
+  "end": 843.085,
+  "speaker": "Unknown",
+  "en": "They're continuing to keep assessing orders.",
+  "zh": "它们持续地对订单进行评估。"
+ },
+ {
+  "seg": 184,
+  "start": 843.685,
+  "end": 852.027,
+  "speaker": "Unknown",
+  "en": "And the way I've got this set up is I have child workflows that are split off for each order per framework.",
+  "zh": "我设置的方式是，我为每个订单按框架拆分出子 workflow。"
+ },
+ {
+  "seg": 185,
+  "start": 852.668,
+  "end": 856.849,
+  "speaker": "Unknown",
+  "en": "So that special order actually had its own assessment done",
+  "zh": "所以那笔特殊订单实际上有它自己的评估。"
+ },
+ {
+  "seg": 186,
+  "start": 857.829,
+  "end": 864.06,
+  "speaker": "Unknown",
+  "en": "And here we see that the customer and the fleet agents did their work, they did their assessment, they came back with a result.",
+  "zh": "在这里我们看到 customer 和 fleet 智能体完成了它们的工作，做了它们的评估，带着结果回来了。"
+ },
+ {
+  "seg": 187,
+  "start": 864.54,
+  "end": 867.345,
+  "speaker": "Unknown",
+  "en": "And they sent that off to the dispatch agent.",
+  "zh": "然后它们把结果发给了 dispatch 智能体。"
+ },
+ {
+  "seg": 188,
+  "start": 868.132,
+  "end": 872.213,
+  "speaker": "Unknown",
+  "en": "And the dispatch agent said, hey, OK, I need, oh, well, there you go.",
+  "zh": "dispatch 智能体说，嘿，好，我需要——哦，好了，就在这儿。"
+ },
+ {
+  "seg": 189,
+  "start": 874.454,
+  "end": 878.095,
+  "speaker": "Unknown",
+  "en": "I need to get a human involved in this.",
+  "zh": "我需要让人类参与进来。"
+ },
+ {
+  "seg": 190,
+  "start": 878.315,
+  "end": 882.276,
+  "speaker": "Unknown",
+  "en": "So I'm going to go into a pause state while I'm waiting for the human to respond.",
+  "zh": "所以我要进入暂停状态，等待人类的回应。"
+ },
+ {
+  "seg": 191,
+  "start": 882.576,
+  "end": 885.857,
+  "speaker": "Unknown",
+  "en": "And we know that humans are not going to respond in 200 milliseconds.",
+  "zh": "我们知道人类不会在 200 毫秒内回应。"
+ },
+ {
+  "seg": 192,
+  "start": 886.217,
+  "end": 887.357,
+  "speaker": "Unknown",
+  "en": "If you are, that's great.",
+  "zh": "如果你能，那很好。"
+ },
+ {
+  "seg": 193,
+  "start": 887.678,
+  "end": 889.818,
+  "speaker": "Unknown",
+  "en": "Maybe there's, there's probably a couple of people out there who are.",
+  "zh": "可能外面确实有那么几个人能做到。"
+ },
+ {
+  "seg": 194,
+  "start": 890.198,
+  "end": 894.519,
+  "speaker": "Unknown",
+  "en": "But humans are most likely going to take several minutes, maybe days, maybe weeks, maybe longer.",
+  "zh": "但人类很可能需要几分钟，可能几天，可能几周，甚至更久。"
+ },
+ {
+  "seg": 195,
+  "start": 894.599,
+  "end": 895.56,
+  "speaker": "Unknown",
+  "en": "And you can.",
+  "zh": "而且你可以。"
+ },
+ {
+  "seg": 196,
+  "start": 896.5,
+  "end": 901.084,
+  "speaker": "Unknown",
+  "en": "You can because this is just pausing that one specific event.",
+  "zh": "你可以这样做，因为这只是暂停那一个特定的事件。"
+ },
+ {
+  "seg": 197,
+  "start": 901.985,
+  "end": 904.347,
+  "speaker": "Unknown",
+  "en": "And as you can see, the little cars are continuing to keep going.",
+  "zh": "如你所见，那些小车还在继续行驶。"
+ },
+ {
+  "seg": 198,
+  "start": 904.647,
+  "end": 910.793,
+  "speaker": "Unknown",
+  "en": "So now what I'm going to try to do is show you what happens if I was to take this service offline.",
+  "zh": "现在我要做的是给你们展示，如果我把这个服务下线会发生什么。"
+ },
+ {
+  "seg": 199,
+  "start": 911.934,
+  "end": 915.477,
+  "speaker": "Unknown",
+  "en": "So let's make it bigger for all of us.",
+  "zh": "那么我们把它放大一点，让大家都看得清。"
+ },
+ {
+  "seg": 200,
+  "start": 916.298,
+  "end": 920.041,
+  "speaker": "Unknown",
+  "en": "And kill worker.",
+  "zh": "然后杀掉 worker。"
+ },
+ {
+  "seg": 201,
+  "start": 920.462,
+  "end": 920.722,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 202,
+  "start": 921.202,
+  "end": 922.423,
+  "speaker": "Unknown",
+  "en": "So that takes it offline.",
+  "zh": "这样它就下线了。"
+ },
+ {
+  "seg": 203,
+  "start": 925.118,
+  "end": 926.239,
+  "speaker": "Unknown",
+  "en": "You can see it's disconnected.",
+  "zh": "你可以看到它已断开连接。"
+ },
+ {
+  "seg": 204,
+  "start": 927.24,
+  "end": 929.922,
+  "speaker": "Unknown",
+  "en": "Don't mind me as I do this in a very interesting way.",
+  "zh": "别介意我用一种很有趣的方式来做这个。"
+ },
+ {
+  "seg": 205,
+  "start": 929.982,
+  "end": 930.402,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 206,
+  "start": 930.863,
+  "end": 933.725,
+  "speaker": "Unknown",
+  "en": "If I say approve while it's offline.",
+  "zh": "如果我在它离线时点批准。"
+ },
+ {
+  "seg": 207,
+  "start": 934.646,
+  "end": 939.83,
+  "speaker": "Unknown",
+  "en": "So what's happened is, as I mentioned, this is stuff that's happening off of your service.",
+  "zh": "那么发生的情况是，正如我提到的，这些是发生在你的服务之外的事情。"
+ },
+ {
+  "seg": 208,
+  "start": 940.01,
+  "end": 942.112,
+  "speaker": "Unknown",
+  "en": "It's over on its own data store.",
+  "zh": "它在它自己的数据存储上。"
+ },
+ {
+  "seg": 209,
+  "start": 942.533,
+  "end": 945.815,
+  "speaker": "Unknown",
+  "en": "So we can still keep track of that event and queue it.",
+  "zh": "所以我们仍然可以跟踪那个事件并把它排队。"
+ },
+ {
+  "seg": 210,
+  "start": 946.556,
+  "end": 948.037,
+  "speaker": "Unknown",
+  "en": "And then when I bring it back up,",
+  "zh": "然后当我把它重新启动时，"
+ },
+ {
+  "seg": 211,
+  "start": 950.403,
+  "end": 950.844,
+  "speaker": "Unknown",
+  "en": "Yeah, I know.",
+  "zh": "只是从它上次中断的地方重放到那个点，这样它就知道，这是我的当前状态。"
+ },
+ {
+  "seg": 212,
+  "start": 950.864,
+  "end": 953.328,
+  "speaker": "Unknown",
+  "en": "I have this really well organized here for y'all.",
+  "zh": "我为你们把这个整理得非常井井有条。"
+ },
+ {
+  "seg": 213,
+  "start": 953.508,
+  "end": 955.411,
+  "speaker": "Unknown",
+  "en": "But I'm gonna bring it back up and then we're gonna see if it works.",
+  "zh": "但我要把它重新启动，然后我们看看它是否能正常工作。"
+ },
+ {
+  "seg": 214,
+  "start": 955.912,
+  "end": 956.373,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "让我们看看。"
+ },
+ {
+  "seg": 215,
+  "start": 957.154,
+  "end": 957.515,
+  "speaker": "Unknown",
+  "en": "Make it.",
+  "zh": "启动它。"
+ },
+ {
+  "seg": 216,
+  "start": 959.195,
+  "end": 960.095,
+  "speaker": "Unknown",
+  "en": "And it's back online.",
+  "zh": "它重新上线了。"
+ },
+ {
+  "seg": 217,
+  "start": 960.555,
+  "end": 965.797,
+  "speaker": "Unknown",
+  "en": "And you'll notice that the dispatch agent will, what's happening is that your event log is getting replayed.",
+  "zh": "而且你会注意到，调度智能体会——现在发生的是你的事件日志正在被重放。"
+ },
+ {
+  "seg": 218,
+  "start": 965.837,
+  "end": 966.777,
+  "speaker": "Unknown",
+  "en": "It's not redone.",
+  "zh": "不是重新执行。"
+ },
+ {
+  "seg": 219,
+  "start": 966.997,
+  "end": 972.498,
+  "speaker": "Unknown",
+  "en": "It's just replayed up until the point at which it last left off so it knows, here's my current state.",
+  "zh": "它只是重放到它上次中断的地方为止，这样它就知道：这是我的当前状态。"
+ },
+ {
+  "seg": 220,
+  "start": 973.179,
+  "end": 975.939,
+  "speaker": "Unknown",
+  "en": "And this is now the next step in that state.",
+  "zh": "而这是该状态的下一步。"
+ },
+ {
+  "seg": 221,
+  "start": 976.019,
+  "end": 982.641,
+  "speaker": "Unknown",
+  "en": "And it's been queued up to then have that step, know that the person approved it, and that order got assigned.",
+  "zh": "它已经被排队，以便让该步骤知道这个人批准了它，并且那个订单被分配了。"
+ },
+ {
+  "seg": 222,
+  "start": 982.981,
+  "end": 984.462,
+  "speaker": "Unknown",
+  "en": "And it's already been delivered, actually.",
+  "zh": "而且实际上它已经被交付了。"
+ },
+ {
+  "seg": 223,
+  "start": 984.582,
+  "end": 985.362,
+  "speaker": "Unknown",
+  "en": "So there you go.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 224,
+  "start": 986.062,
+  "end": 988.864,
+  "speaker": "Unknown",
+  "en": "That is durability in your system.",
+  "zh": "这就是你系统中的持久性。"
+ },
+ {
+  "seg": 225,
+  "start": 989.485,
+  "end": 992.287,
+  "speaker": "Unknown",
+  "en": "Your system can come down and it can recover.",
+  "zh": "你的系统可以宕机并且可以恢复。"
+ },
+ {
+  "seg": 226,
+  "start": 993.307,
+  "end": 1000.172,
+  "speaker": "Unknown",
+  "en": "And it can have all these other primitives that will help you manage a complex state because these kinds of distributed systems are complex.",
+  "zh": "而且它可以拥有所有这些其他原语来帮助你管理复杂的状态，因为这类分布式系统是复杂的。"
+ },
+ {
+  "seg": 227,
+  "start": 1001.233,
+  "end": 1003.335,
+  "speaker": "Unknown",
+  "en": "All right, last couple things I want to mention.",
+  "zh": "好了，最后还有几件事我想提一下。"
+ },
+ {
+  "seg": 228,
+  "start": 1004.71,
+  "end": 1006.731,
+  "speaker": "Unknown",
+  "en": "When should the human be in the loop?",
+  "zh": "人类什么时候应该在环路中？"
+ },
+ {
+  "seg": 229,
+  "start": 1006.771,
+  "end": 1008.012,
+  "speaker": "Unknown",
+  "en": "This is the real question.",
+  "zh": "这才是真正的问题。"
+ },
+ {
+  "seg": 230,
+  "start": 1008.412,
+  "end": 1009.012,
+  "speaker": "Unknown",
+  "en": "It's a hard one.",
+  "zh": "这是个难题。"
+ },
+ {
+  "seg": 231,
+  "start": 1009.592,
+  "end": 1010.453,
+  "speaker": "Unknown",
+  "en": "I will say this.",
+  "zh": "我会这么说。"
+ },
+ {
+  "seg": 232,
+  "start": 1010.993,
+  "end": 1014.335,
+  "speaker": "Unknown",
+  "en": "The big thing you want to take into consideration is the cost of being wrong is high.",
+  "zh": "你要考虑的最重要的事情是，犯错的代价很高。"
+ },
+ {
+  "seg": 233,
+  "start": 1014.355,
+  "end": 1019.397,
+  "speaker": "Unknown",
+  "en": "It's a case-by-case basis, and we know we're trying to get to autonomy as much as we possibly can.",
+  "zh": "这要逐个案例来看，而且我们知道我们正在尽可能地向自主性靠拢。"
+ },
+ {
+  "seg": 234,
+  "start": 1019.417,
+  "end": 1024.98,
+  "speaker": "Unknown",
+  "en": "We also know these models are probabilistic, and they are hard to get to a place to be reliable.",
+  "zh": "我们也知道这些模型是概率性的，而且很难让它们达到可靠的程度。"
+ },
+ {
+  "seg": 235,
+  "start": 1025,
+  "end": 1027.641,
+  "speaker": "Unknown",
+  "en": "That's why we've got all this stuff happening around harnesses that are interesting.",
+  "zh": "这就是为什么我们周围有这么多围绕 harness 的有趣的事情在发生。"
+ },
+ {
+  "seg": 236,
+  "start": 1027.981,
+  "end": 1030.762,
+  "speaker": "Unknown",
+  "en": "I could go into a whole other conversation about that if you'll want at a later date.",
+  "zh": "如果你们以后想听的话，我可以就此展开一整个单独的对话。"
+ },
+ {
+  "seg": 237,
+  "start": 1031.022,
+  "end": 1033.724,
+  "speaker": "Unknown",
+  "en": "But ultimately, you want to assess the cost of being wrong",
+  "zh": "但归根结底，你要评估犯错的代价"
+ },
+ {
+  "seg": 238,
+  "start": 1034.504,
+  "end": 1035.485,
+  "speaker": "Unknown",
+  "en": "What is that worth to you?",
+  "zh": "这对你来说值多少？"
+ },
+ {
+  "seg": 239,
+  "start": 1035.545,
+  "end": 1037.526,
+  "speaker": "Unknown",
+  "en": "And especially in a security standpoint.",
+  "zh": "尤其是从安全的角度来看。"
+ },
+ {
+  "seg": 240,
+  "start": 1038.106,
+  "end": 1041.648,
+  "speaker": "Unknown",
+  "en": "And we know, like on the other side of this picture, alert fatigue is real.",
+  "zh": "而且我们知道，就像在这幅图景的另一面，警报疲劳是真实存在的。"
+ },
+ {
+  "seg": 241,
+  "start": 1041.828,
+  "end": 1046.751,
+  "speaker": "Unknown",
+  "en": "Like a lot of us are seeing, you know, you just start saying yes, yes, yes, yes, yes, every time it asks you questions.",
+  "zh": "就像我们很多人看到的那样，你知道，每当它问你问题时，你就开始一味地说好、好、好、好、好。"
+ },
+ {
+  "seg": 242,
+  "start": 1046.811,
+  "end": 1049.312,
+  "speaker": "Unknown",
+  "en": "So you're trying to balance between those two.",
+  "zh": "所以你要在这两者之间取得平衡。"
+ },
+ {
+  "seg": 243,
+  "start": 1049.372,
+  "end": 1054.375,
+  "speaker": "Unknown",
+  "en": "And we're trying to get the models better so that you can trust them so that you can address that alert fatigue.",
+  "zh": "而且我们正在努力让模型变得更好，这样你就可以信任它们，这样你就可以解决那个警报疲劳的问题。"
+ },
+ {
+  "seg": 244,
+  "start": 1054.855,
+  "end": 1056.496,
+  "speaker": "Unknown",
+  "en": "But they're still probabilistic models.",
+  "zh": "但它们仍然是概率性模型。"
+ },
+ {
+  "seg": 245,
+  "start": 1057.317,
+  "end": 1060.438,
+  "speaker": "Unknown",
+  "en": "So when should the human be in the loop?",
+  "zh": "那么人类什么时候应该在环路中？"
+ },
+ {
+  "seg": 246,
+  "start": 1060.458,
+  "end": 1062.94,
+  "speaker": "Unknown",
+  "en": "That's the thing you've got to evaluate for the problems that you're solving.",
+  "zh": "这是你要针对你所解决的问题去评估的事情。"
+ },
+ {
+  "seg": 247,
+  "start": 1065.12,
+  "end": 1088.368,
+  "speaker": "Unknown",
+  "en": "At the end of the day, though, what you saw there, what I gave you as an example, whether it's the human initiating it or the computer initiating it, you are seeing that we are using two main primitives in terms of you're applying a weight condition to pause that workflow and a signal from the human to be able to continue the work and say, here's the result, now keep moving forward.",
+  "zh": "不过归根结底，你在那里看到的、我给你们举的这个例子，无论是人类发起的还是计算机发起的，你看到的是我们正在使用两个主要的原语，即你施加一个等待条件来暂停那个工作流，以及一个来自人类的信号来能够继续工作并说，这是结果，现在继续向前推进。"
+ },
+ {
+  "seg": 248,
+  "start": 1090.15,
+  "end": 1094.421,
+  "speaker": "Unknown",
+  "en": "And whether you've actually paused it and taken it offline or you brought it back online.",
+  "zh": "而无论你是真的把它暂停并让它下线，还是把它重新上线。"
+ },
+ {
+  "seg": 249,
+  "start": 1095.584,
+  "end": 1097.789,
+  "speaker": "Unknown",
+  "en": "And I've shown you that we can use multiple frameworks.",
+  "zh": "而且我已经向你们展示了我们可以使用多个框架。"
+ },
+ {
+  "seg": 250,
+  "start": 1100.392,
+  "end": 1100.732,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 251,
+  "start": 1100.812,
+  "end": 1105.134,
+  "speaker": "Unknown",
+  "en": "If you have any questions, I'm going to stick around for a few more minutes.",
+  "zh": "如果你们有任何问题，我会再留几分钟。"
+ },
+ {
+  "seg": 252,
+  "start": 1105.274,
+  "end": 1112.518,
+  "speaker": "Unknown",
+  "en": "I've got up here QR code that will take you to some resources about Temporal as well as some of the demos that I've done, this demo included.",
+  "zh": "我这边有一个二维码，可以带你们去看一些关于 Temporal 的资源，以及我做过的一些演示，包括这次的演示。"
+ },
+ {
+  "seg": 253,
+  "start": 1112.998,
+  "end": 1114.198,
+  "speaker": "Unknown",
+  "en": "This is up on GitHub.",
+  "zh": "这些都放在 GitHub 上。"
+ },
+ {
+  "seg": 254,
+  "start": 1114.839,
+  "end": 1120.201,
+  "speaker": "Unknown",
+  "en": "The slides itself will be up later because, of course, in true form, I've been tweaking them up until now.",
+  "zh": "幻灯片本身稍后会上传，因为按照惯例，我到现在一直在修改它们。"
+ },
+ {
+  "seg": 255,
+  "start": 1120.621,
+  "end": 1123.883,
+  "speaker": "Unknown",
+  "en": "So I'll be posting those up and linking them to the GitHub repo.",
+  "zh": "所以我会把幻灯片发布上去，并链接到 GitHub 仓库。"
+ },
+ {
+  "seg": 256,
+  "start": 1124.303,
+  "end": 1129.905,
+  "speaker": "Unknown",
+  "en": "But yeah, if you have questions, please reach out and have fun building your agentic loops.",
+  "zh": "但是是的，如果你们有问题，请随时联系我，祝你们构建自己的智能体循环愉快。"
+ },
+ {
+  "seg": 257,
+  "start": 1129.925,
+  "end": 1136.247,
+  "speaker": "Unknown",
+  "en": "I'm also curious to hear what problems you're solving with agents and how you're building them autonomously currently, so feel free to find me.",
+  "zh": "我也很想听听你们正在用智能体解决什么问题，以及你们目前是如何自主构建它们的，欢迎来找我。"
+ },
+ {
+  "seg": 258,
+  "start": 1136.827,
+  "end": 1137.368,
+  "speaker": "Unknown",
+  "en": "And thank you.",
+  "zh": "谢谢大家。"
+ }
+]

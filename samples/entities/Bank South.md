@@ -21,7 +21,7 @@ unlisted: true
 
 [[Michael Lee]] · [[Sequence Holdings]] · [[Baldwin]] · [[Atlas]] · [[智能体]] · [[控股公司]] · [[组织物理学]] · [[Palantir]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Michael Lee":1,"Sequence Holdings":1,"Baldwin":1,"Atlas":3,"智能体":424,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":182,"OpenAI":171}</script>
+<script type="application/json" class="pd-epn">{"Michael Lee":1,"Sequence Holdings":1,"Baldwin":1,"Atlas":3,"智能体":427,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":183,"OpenAI":172}</script>
 
 <script>
 (function(){

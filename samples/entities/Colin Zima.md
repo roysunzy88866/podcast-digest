@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[Charles]]
+[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":19,"Databricks":21,"Google":62,"BI":1,"数据模型":1,"语义层":4,"创新者的窘境":4,"产品市场契合":27}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":19,"Databricks":21,"Google":64,"BI":1,"数据模型":1,"语义层":4,"创新者的窘境":4,"产品市场契合":27}</script>
 
 <script>
 (function(){

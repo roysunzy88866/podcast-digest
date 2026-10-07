@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Nikesh Arora]] · [[Annie Lamont]] · [[CyberArk]] · [[Oaks HCFT]] · [[Waymo]] · [[AI]] · [[Google]] · [[大型语言模型]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"Nikesh Arora":1,"Annie Lamont":1,"CyberArk":1,"Oaks HCFT":1,"Waymo":18,"AI":29,"Google":62,"大型语言模型":5,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"Nikesh Arora":1,"Annie Lamont":1,"CyberArk":1,"Oaks HCFT":1,"Waymo":18,"AI":29,"Google":64,"大型语言模型":5,"主观能动性":1}</script>
 
 <script>
 (function(){

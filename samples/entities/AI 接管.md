@@ -37,7 +37,7 @@ unlisted: true
 
 [[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[未对齐]] · [[智能体]] · [[Ryan Greenblatt]] · [[Buck Shlegeris]] · [[Matt Turk]] · [[Jacob Efron]]
 
-<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":171,"Anthropic":182,"Hugging Face":29,"未对齐":2,"智能体":424,"Ryan Greenblatt":2,"Buck Shlegeris":1,"Matt Turk":4,"Jacob Efron":2}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":172,"Anthropic":183,"Hugging Face":29,"未对齐":2,"智能体":427,"Ryan Greenblatt":2,"Buck Shlegeris":1,"Matt Turk":4,"Jacob Efron":2}</script>
 
 <script>
 (function(){

@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":19,"公司文化":3,"招人":4,"信任建立":7,"判断力":6,"自我筛选":1,"自主性":10,"透明":3,"Anthropic":182}</script>
+<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":19,"公司文化":3,"招人":4,"信任建立":7,"判断力":6,"自我筛选":1,"自主性":10,"透明":3,"Anthropic":183}</script>
 
 <script>
 (function(){

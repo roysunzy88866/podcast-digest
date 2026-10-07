@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Elizabeth Stone]] · [[Netflix]] · [[InterPositive]] · [[WorkOS]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Elizabeth Stone":1,"Netflix":5,"InterPositive":1,"WorkOS":9,"智能体":424,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Elizabeth Stone":1,"Netflix":5,"InterPositive":1,"WorkOS":9,"智能体":427,"系统思维":5,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
 
 <script>
 (function(){

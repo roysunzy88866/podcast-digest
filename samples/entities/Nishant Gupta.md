@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Dan O'Connell]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]] [[Molly O'Shea]]
+[[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Yash]] [[Josh Ellman]] [[MG Siegler]] [[Kath Korevec]] [[Jan Oberhauser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":45,"推理":81,"智能体":424,"微服务":1,"GPU":24,"KVCache":4,"批处理":1,"投机解码":1,"可观测性":37}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":47,"推理":81,"智能体":427,"微服务":1,"GPU":24,"KVCache":4,"批处理":1,"投机解码":1,"可观测性":37}</script>
 
 <script>
 (function(){

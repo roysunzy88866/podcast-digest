@@ -79,7 +79,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Figma]] · [[Claude]] · [[护栏]] · [[Anthropic]] · [[MCP]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"ChatGPT":98,"OpenAI":171,"Slack":31,"Figma":22,"Claude":90,"护栏":79,"Anthropic":182,"MCP":79,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"ChatGPT":98,"OpenAI":172,"Slack":31,"Figma":22,"Claude":90,"护栏":80,"Anthropic":183,"MCP":79,"Codex":80}</script>
 
 <script>
 (function(){

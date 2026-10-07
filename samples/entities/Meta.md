@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>47</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -50,8 +50,10 @@ unlisted: true
 - **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(41:17起):本集说 Meta 2010 到 2020 年间的团队最值得为现代广告拍卖机制居功：不只出价最高者赢，而是把广告对用户的自然价值计入出价，并写了很棒的增长手册（L-ness）。
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(06:12起):本集举的实证例子：Meta 训练的 AI 模型吃了约一百万小时真实世界视频后，只需 62 小时真实机器人数据就能控制真机器人，全程无需仿真。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(00:50起):嘉宾所在的团队 Meta Recommendations Research 负责训练驱动 Instagram、Facebook 广告及全家桶应用的前沿模型、LLM 和推荐系统;并以 Reels 观看时长同比 +30% 等财报数据作为幂律扩展曲线的真实例证。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(15:21起):本集说：没人比 Mark Zuckerberg 更暴露于 Meta 股价波动，他不是意识形态上想让 Meta 永远增长，只是不想明天就变穷 80%；还用股票给一位程序员开一亿美元。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(07:21起):本集把它列为五大超大规模云厂商之一,并提到它在路易斯安那与社区合作降低电力成本的真实案例,以及股价低谷跌破 100 美元时没人信其 AR/VR 投入
 - **[[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]]**(01:05起):Moritz 任职的公司,本集主线:他在 Meta 主导了 diff 编写时间(DAT)指标,并观察到 AI 普及后全公司 DAT 同比下降超 40%
+- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(07:54起):本集与 Google、Facebook 并列提到，是商家同步商品目录的广告平台之一，其目录规范同样不为智能体优化。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(07:17起):本集提到 Meta 曾因极其了解用户而以精准定向著称，OpenAI 的实时对话定向可能超过它。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:29起):本集说 Meta 以 Muse 押注消费级个人助手，用云端每用户独享的虚拟计算机化解安全顾虑，第一天就带 WhatsApp 集成，且是在没有自家前沿模型（watermelon 未发布）的情况下做到的。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(07:05起):本集在预测『Meta、OpenAI、Anthropic、Neuralink 都会成为生物技术公司』时被点名,称其对大脑感兴趣、做 AI 的人『多有一个挡位』。
@@ -84,7 +86,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*45 集*
+*47 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -126,8 +128,10 @@ unlisted: true
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念(提及)
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]] — 作为被讨论公司
+- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
@@ -138,7 +142,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Microsoft]] · [[ChatGPT]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":424,"Anthropic":182,"OpenAI":171,"Google":62,"推理":81,"NVIDIA":58,"Claude":90,"Microsoft":29,"ChatGPT":98,"Cursor":82}</script>
+<script type="application/json" class="pd-epn">{"智能体":427,"Anthropic":183,"OpenAI":172,"Google":64,"推理":81,"NVIDIA":59,"Claude":90,"Microsoft":29,"ChatGPT":98,"Cursor":82}</script>
 
 <script>
 (function(){

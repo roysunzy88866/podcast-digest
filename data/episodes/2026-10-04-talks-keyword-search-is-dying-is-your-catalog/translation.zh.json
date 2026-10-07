@@ -1,0 +1,1242 @@
+[
+ {
+  "seg": 0,
+  "start": 12.488,
+  "end": 13.409,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.71,
+  "end": 14.411,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎各位。"
+ },
+ {
+  "seg": 2,
+  "start": 14.611,
+  "end": 15.252,
+  "speaker": "Unknown",
+  "en": "I'm Nixon Dinh.",
+  "zh": "我是 Nixon Dinh。"
+ },
+ {
+  "seg": 3,
+  "start": 15.352,
+  "end": 18.356,
+  "speaker": "Unknown",
+  "en": "I'm the Director of Product for Agentic Commerce at PayPal.",
+  "zh": "我是 PayPal 智能体商务（Agentic Commerce）的产品总监。"
+ },
+ {
+  "seg": 4,
+  "start": 19.558,
+  "end": 26.127,
+  "speaker": "Unknown",
+  "en": "And what that really means is I lead a lot of our efforts on how AI agents are reshaping shopping and payments.",
+  "zh": "这意味着我领导着很多关于 AI 智能体如何重塑购物和支付的工作。"
+ },
+ {
+  "seg": 5,
+  "start": 29.242,
+  "end": 31.924,
+  "speaker": "Unknown",
+  "en": "Most of my career has been on commerce and payments.",
+  "zh": "我的职业生涯大部分时间都在商务和支付领域。"
+ },
+ {
+  "seg": 6,
+  "start": 31.984,
+  "end": 37.769,
+  "speaker": "Unknown",
+  "en": "Right now, I'm really excited about helping merchants navigate this shift towards agent-driven commerce.",
+  "zh": "现在，让我非常兴奋的是帮助商家应对这场向智能体驱动商务的转变。"
+ },
+ {
+  "seg": 7,
+  "start": 37.809,
+  "end": 45.715,
+  "speaker": "Unknown",
+  "en": "Specifically, what we're going to talk about today is the catalog piece and it being agentic-ready and sharing some of our learnings on this journey.",
+  "zh": "具体来说，我们今天要谈的是商品目录（catalog）这一块，以及它如何做到智能体就绪（agentic-ready），并分享我们在这段旅程中的一些心得。"
+ },
+ {
+  "seg": 8,
+  "start": 50.435,
+  "end": 52.376,
+  "speaker": "Unknown",
+  "en": "So I think it's very important.",
+  "zh": "所以我认为这一点非常重要。"
+ },
+ {
+  "seg": 9,
+  "start": 52.396,
+  "end": 53.716,
+  "speaker": "Unknown",
+  "en": "We just kind of level set a little bit.",
+  "zh": "我们先来做一个基本共识的铺垫。"
+ },
+ {
+  "seg": 10,
+  "start": 53.776,
+  "end": 65.2,
+  "speaker": "Unknown",
+  "en": "When we look at the evolution of commerce, we've seen it transform from installed brick-and-mortar transactions to the advent of e-commerce, where this started off quite linear.",
+  "zh": "当我们回顾商务的演变，我们见证了它从实体店面交易转变为电子商务的兴起，而这一切起初是相当线性的。"
+ },
+ {
+  "seg": 11,
+  "start": 65.861,
+  "end": 69.062,
+  "speaker": "Unknown",
+  "en": "A user would simply search and buy from e-commerce sites.",
+  "zh": "用户只是简单地在电商网站上搜索和购买。"
+ },
+ {
+  "seg": 12,
+  "start": 69.802,
+  "end": 78.085,
+  "speaker": "Unknown",
+  "en": "And then through Internet 2.0, we've seen that transform further into more complex channels that involve email, SMS, and now social commerce.",
+  "zh": "然后通过互联网 2.0，我们看到它进一步转变为更复杂的渠道，包括电子邮件、短信，以及现在的社交商务。"
+ },
+ {
+  "seg": 13,
+  "start": 79.67,
+  "end": 82.732,
+  "speaker": "Unknown",
+  "en": "For us, we see AI as the next evolution in that journey.",
+  "zh": "对我们来说，我们把 AI 视为这段旅程的下一次演变。"
+ },
+ {
+  "seg": 14,
+  "start": 83.573,
+  "end": 86.836,
+  "speaker": "Unknown",
+  "en": "And with any evolution, we know two things to be true.",
+  "zh": "而对于任何演变，我们都知道有两件事是真的。"
+ },
+ {
+  "seg": 15,
+  "start": 88.357,
+  "end": 92.86,
+  "speaker": "Unknown",
+  "en": "The first, like all change, it can seem like a threat to a business.",
+  "zh": "第一，像所有变化一样，它对一个企业来说可能看似是一种威胁。"
+ },
+ {
+  "seg": 16,
+  "start": 93.141,
+  "end": 95.763,
+  "speaker": "Unknown",
+  "en": "But on the flip side of that can also be seen as a big opportunity.",
+  "zh": "但反过来看，它也可以被视为一个巨大的机会。"
+ },
+ {
+  "seg": 17,
+  "start": 97.237,
+  "end": 107.385,
+  "speaker": "Unknown",
+  "en": "And the second thing that we know is that whenever we have seen consumer behavior change because of a new technology, commerce tends to evolve alongside with it.",
+  "zh": "我们知道的第二件事是，每当我们看到消费者行为因一项新技术而改变时，商务往往会随之演变。"
+ },
+ {
+  "seg": 18,
+  "start": 108.246,
+  "end": 124.979,
+  "speaker": "Unknown",
+  "en": "And so we are starting to see that now with Argentic, where not only this is a new channel that's enabling merchants to engage with customers in a very deeply personalized way, but also how customers are searching and finding products is changing.",
+  "zh": "所以我们现在开始看到这种情况在 Agentic 领域发生，这不仅是一个新渠道，让商家能够以非常深度的个性化方式与客户互动，而且客户搜索和发现产品的方式也在发生变化。"
+ },
+ {
+  "seg": 19,
+  "start": 126.12,
+  "end": 139.245,
+  "speaker": "Unknown",
+  "en": "Now is really the time that merchants are starting to look to invest on how to change with their customers and succeed in the agentic era.",
+  "zh": "现在正是商家开始考虑投资于如何与客户一起改变、并在智能体时代取得成功的时候。"
+ },
+ {
+  "seg": 20,
+  "start": 140.945,
+  "end": 148.948,
+  "speaker": "Unknown",
+  "en": "Earlier I touched on how the consumer behavior is starting to change, but I just want to dive deeper a little bit on this.",
+  "zh": "之前我提到了消费者行为开始发生变化，但我想再深入探讨一下这一点。"
+ },
+ {
+  "seg": 21,
+  "start": 149.988,
+  "end": 154.91,
+  "speaker": "Unknown",
+  "en": "When we think about consumer shopping,",
+  "zh": "当我们思考消费者购物时，"
+ },
+ {
+  "seg": 22,
+  "start": 156.617,
+  "end": 159.879,
+  "speaker": "Unknown",
+  "en": "That behavior up until today has been now what we're calling the search era.",
+  "zh": "截至今日，那种行为一直处于我们现在所说的搜索时代（search era）。"
+ },
+ {
+  "seg": 23,
+  "start": 160.92,
+  "end": 172.587,
+  "speaker": "Unknown",
+  "en": "It goes through a phase where it's keywords, you're navigating a catalog, there's SEO strategies, and this is what most businesses have optimized towards over the last decade.",
+  "zh": "它经历了一个以关键词为特征的阶段，你在浏览商品目录，有 SEO 策略，而这是过去十年大多数企业所优化的方向。"
+ },
+ {
+  "seg": 24,
+  "start": 173.508,
+  "end": 179.952,
+  "speaker": "Unknown",
+  "en": "And while for many businesses this worked, this model put the burden on the shopper to really find what they needed.",
+  "zh": "虽然对很多企业来说这行之有效，但这种模式把真正找到自己所需东西的负担放在了购物者身上。"
+ },
+ {
+  "seg": 25,
+  "start": 183.06,
+  "end": 186.162,
+  "speaker": "Unknown",
+  "en": "Now what we're seeing is that we're moving into this phase called the intent error.",
+  "zh": "现在我们看到的是，我们正在进入一个称为意图错误（intent error）的阶段。"
+ },
+ {
+  "seg": 26,
+  "start": 187.042,
+  "end": 197.526,
+  "speaker": "Unknown",
+  "en": "So instead of typing keywords like, I want school supplies, I might say something like, you know, my daughter's starting school in September in fifth grade and I need to shop back to school.",
+  "zh": "所以，与其输入像「我想要学习用品」这样的关键词，我可能会说，你知道的，我女儿九月要上五年级了，我需要采购返校用品。"
+ },
+ {
+  "seg": 27,
+  "start": 198.687,
+  "end": 201.248,
+  "speaker": "Unknown",
+  "en": "And that's a very completely different interaction.",
+  "zh": "这是一个完全不同的交互方式。"
+ },
+ {
+  "seg": 28,
+  "start": 204.049,
+  "end": 210.832,
+  "speaker": "Unknown",
+  "en": "So you are now expressing your needs in your own words and AI is now asked to meet you where you are.",
+  "zh": "所以你现在用自己的话表达你的需求，而 AI 被要求在你所在之处满足你。"
+ },
+ {
+  "seg": 29,
+  "start": 212.108,
+  "end": 215.45,
+  "speaker": "Unknown",
+  "en": "And so the brands are coming to you instead of you having to go find them.",
+  "zh": "品牌来找你，而不是你不得不去找它们。"
+ },
+ {
+  "seg": 30,
+  "start": 216.57,
+  "end": 219.411,
+  "speaker": "Unknown",
+  "en": "And that's a very, very different interaction model.",
+  "zh": "这是一个非常、非常不同的交互模型。"
+ },
+ {
+  "seg": 31,
+  "start": 220.672,
+  "end": 225.314,
+  "speaker": "Unknown",
+  "en": "And most businesses now are starting to find that they need to set themselves up for this interaction model.",
+  "zh": "现在大多数企业开始发现，他们需要为这种交互模型做好准备。"
+ },
+ {
+  "seg": 32,
+  "start": 229.856,
+  "end": 236.139,
+  "speaker": "Unknown",
+  "en": "So what we believe will happen next is after we go through the intent error,",
+  "zh": "所以我们相信接下来会发生的是，在我们经历意图错误（intent error）之后，"
+ },
+ {
+  "seg": 33,
+  "start": 237.485,
+  "end": 242.267,
+  "speaker": "Unknown",
+  "en": "What will have to happen is customers need to start trusting the recommendations that they're getting from the agents.",
+  "zh": "必须发生的是，客户需要开始信任他们从智能体那里得到的推荐。"
+ },
+ {
+  "seg": 34,
+  "start": 243.308,
+  "end": 249.051,
+  "speaker": "Unknown",
+  "en": "And once that trust starts to build, we do start to believe that they will start delegating more and more actions to their agents.",
+  "zh": "一旦这种信任开始建立，我们确实开始相信，他们会开始把越来越多的操作委托给他们的智能体。"
+ },
+ {
+  "seg": 35,
+  "start": 249.691,
+  "end": 261.597,
+  "speaker": "Unknown",
+  "en": "And that's also where, as PayPal, we're building towards is continue to build on that trust and move into a world where humans start to delegate more and more of their tasks in commerce and shopping to their agents.",
+  "zh": "而这也是我们作为 PayPal 正在构建的方向，即持续建立那种信任，并迈向一个人类开始在商务和购物中把越来越多的任务委托给他们的智能体的世界。"
+ },
+ {
+  "seg": 36,
+  "start": 266.449,
+  "end": 274.711,
+  "speaker": "Unknown",
+  "en": "So although we talk about this delegation era and we think it sounds like it's so far into the future, you might be asking why this matters now.",
+  "zh": "所以，虽然我们谈论这个委托时代（delegation era），并且我们认为它听起来像是非常遥远的未来，但你可能会问，为什么这件事现在就很重要。"
+ },
+ {
+  "seg": 37,
+  "start": 275.711,
+  "end": 280.792,
+  "speaker": "Unknown",
+  "en": "And so we have a couple of pretty big data points that we want to share to really underscore why this matters.",
+  "zh": "所以我们有一些相当大的数据点想分享，以真正强调为什么这很重要。"
+ },
+ {
+  "seg": 38,
+  "start": 281.572,
+  "end": 285.413,
+  "speaker": "Unknown",
+  "en": "The first is through a study at Bain & Co.",
+  "zh": "第一个是通过贝恩公司（Bain & Co.）的一项研究。"
+ },
+ {
+  "seg": 39,
+  "start": 286.373,
+  "end": 291.894,
+  "speaker": "Unknown",
+  "en": "They project that by 2030, 15% to 25% of all commerce will be executed by an agent.",
+  "zh": "他们预测，到 2030 年，所有商务的 15% 到 25% 将由智能体执行。"
+ },
+ {
+  "seg": 40,
+  "start": 293.291,
+  "end": 297.672,
+  "speaker": "Unknown",
+  "en": "And furthermore, within a decade, agents are predicted to outnumber humans online.",
+  "zh": "此外，在十年内，智能体在线数量预计将超过人类。"
+ },
+ {
+  "seg": 41,
+  "start": 298.812,
+  "end": 304.794,
+  "speaker": "Unknown",
+  "en": "And so these numbers don't just indicate that this is not meaningful now.",
+  "zh": "所以这些数字并不仅仅表明这件事现在没有意义。"
+ },
+ {
+  "seg": 42,
+  "start": 304.914,
+  "end": 314.957,
+  "speaker": "Unknown",
+  "en": "It is a very marginal shift that businesses can't ignore, and that this is a very structural transformation happening in the entire e-commerce ecosystem.",
+  "zh": "这是一种企业无法忽视的、非常重大的转变，而且这是发生在整个电子商务生态系统中的一场非常结构性的转型。"
+ },
+ {
+  "seg": 43,
+  "start": 322.012,
+  "end": 326.843,
+  "speaker": "Unknown",
+  "en": "To go further, I think it's really good to understand why PayPal feels like we are bullish on this opportunity.",
+  "zh": "再进一步说，我认为很好地理解为什么 PayPal 觉得我们对这个机会非常看好，是很有价值的。"
+ },
+ {
+  "seg": 44,
+  "start": 330.715,
+  "end": 335.616,
+  "speaker": "Unknown",
+  "en": "As an industry, we expect to be some very tangible opportunities coming forward.",
+  "zh": "作为一个行业，我们预计会出现一些非常切实的机会。"
+ },
+ {
+  "seg": 45,
+  "start": 335.876,
+  "end": 342.478,
+  "speaker": "Unknown",
+  "en": "We expect $1 trillion of commerce to happen in US retail to be agentic.",
+  "zh": "我们预计美国零售业将有 1 万亿美元的商务以智能体方式进行。"
+ },
+ {
+  "seg": 46,
+  "start": 343.098,
+  "end": 345.638,
+  "speaker": "Unknown",
+  "en": "And then we expect that to be $3 trillion to $5 trillion globally.",
+  "zh": "而且我们预计在全球范围内这个数字将达到 3 万亿到 5 万亿美元。"
+ },
+ {
+  "seg": 47,
+  "start": 346.358,
+  "end": 353.84,
+  "speaker": "Unknown",
+  "en": "And what we have seen is that there are over 2 billion users projected to use AI to start their shopping journey over the next few years.",
+  "zh": "我们所看到的是，预计在未来几年，将有超过 20 亿用户使用 AI 来开启他们的购物之旅。"
+ },
+ {
+  "seg": 48,
+  "start": 360.659,
+  "end": 365.021,
+  "speaker": "Unknown",
+  "en": "When we think through this, what does this actually mean for businesses and merchants?",
+  "zh": "当我们思考这些时，这对企业和商家来说究竟意味着什么？"
+ },
+ {
+  "seg": 49,
+  "start": 367.062,
+  "end": 377.326,
+  "speaker": "Unknown",
+  "en": "When we talk to our customers and what we talk to our partners, what we've seen is six, what they've reported is that over 693% referral traffic from AI engines.",
+  "zh": "当我们与客户和合作伙伴交谈时，我们看到的是六个——他们报告的是超过 693% 来自 AI 引擎的推荐流量（referral traffic）。"
+ },
+ {
+  "seg": 50,
+  "start": 378.687,
+  "end": 384.549,
+  "speaker": "Unknown",
+  "en": "And when we did consumer studies, we found that 39% of US shoppers are already using AI for shopping today.",
+  "zh": "而且当我们做消费者调研时,我们发现 39% 的美国购物者今天已经在使用 AI 购物。"
+ },
+ {
+  "seg": 51,
+  "start": 385.93,
+  "end": 388.751,
+  "speaker": "Unknown",
+  "en": "And I'm sure many of you have probably defaulted to that pattern today.",
+  "zh": "我相信你们当中很多人今天可能已经默认采用了这种方式。"
+ },
+ {
+  "seg": 52,
+  "start": 390.226,
+  "end": 404.199,
+  "speaker": "Unknown",
+  "en": "And what we have found also is that when you do start and interact with an agent first, businesses have tend to see up to four times higher conversion on a completion of an order because now they can get more rich and in-depth data on a product.",
+  "zh": "我们还发现,当你开始并率先与智能体互动时,企业往往能看到高达四倍的订单完成转化率,因为现在他们可以获得更丰富、更深入的产品数据。"
+ },
+ {
+  "seg": 53,
+  "start": 410.405,
+  "end": 410.726,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以"
+ },
+ {
+  "seg": 54,
+  "start": 413.758,
+  "end": 421.565,
+  "speaker": "Unknown",
+  "en": "With that all happening and the traffic moving, we want to break this down further onto what this really means deeper for merchants.",
+  "zh": "随着这一切的发生以及流量的转移,我们想进一步拆解这对商家来说到底意味着什么。"
+ },
+ {
+  "seg": 55,
+  "start": 423.347,
+  "end": 430.449,
+  "speaker": "Unknown",
+  "en": "In the search era, this was very SEO-based, and you might optimize for a sum address.",
+  "zh": "在搜索时代,这非常基于 SEO,你可能会针对一个 sum address 做优化。"
+ },
+ {
+  "seg": 56,
+  "start": 431.27,
+  "end": 439.352,
+  "speaker": "Unknown",
+  "en": "In the intent era, you have to think through, how do I be discoverable for where an agent is representing my business?",
+  "zh": "在意图时代,你必须想清楚,当智能体在代表我的业务时,我如何才能被它发现?"
+ },
+ {
+  "seg": 57,
+  "start": 440.133,
+  "end": 447.155,
+  "speaker": "Unknown",
+  "en": "And then in the delegation era, we need to think through how I can convert that demand safely and in a trusted way.",
+  "zh": "然后在委托时代,我们需要想清楚如何安全、可信地转化这些需求。"
+ },
+ {
+  "seg": 58,
+  "start": 451.261,
+  "end": 460.629,
+  "speaker": "Unknown",
+  "en": "And so the challenge becomes to think through is like as commerce moves to AI agents, how do you as a business be visible where the consumers interact?",
+  "zh": "所以挑战变成了:随着商务转向 AI 智能体,作为企业,你如何在消费者互动的地方保持可见?"
+ },
+ {
+  "seg": 59,
+  "start": 465.833,
+  "end": 469.095,
+  "speaker": "Unknown",
+  "en": "The issue with this is that catalogs weren't really built for agents.",
+  "zh": "问题在于,商品目录并不是为智能体构建的。"
+ },
+ {
+  "seg": 60,
+  "start": 469.836,
+  "end": 474.119,
+  "speaker": "Unknown",
+  "en": "Most merchants today maybe advertise on Google.",
+  "zh": "如今大多数商家可能在 Google 上投放广告。"
+ },
+ {
+  "seg": 61,
+  "start": 474.74,
+  "end": 479.143,
+  "speaker": "Unknown",
+  "en": "They have a catalog they syndicate to there or maybe to Meta or Facebook or other advertising platforms.",
+  "zh": "他们有一个商品目录,会同步到那里,或者同步到 Meta 或 Facebook 或其他广告平台。"
+ },
+ {
+  "seg": 62,
+  "start": 480.148,
+  "end": 481.868,
+  "speaker": "Unknown",
+  "en": "But the spec wasn't built for agents.",
+  "zh": "但这个规范并不是为智能体构建的。"
+ },
+ {
+  "seg": 63,
+  "start": 482.669,
+  "end": 490.351,
+  "speaker": "Unknown",
+  "en": "And so agents now, it's not optimized for agents to discover products.",
+  "zh": "所以对智能体来说,它并没有针对智能体发现产品做优化。"
+ },
+ {
+  "seg": 64,
+  "start": 491.031,
+  "end": 493.351,
+  "speaker": "Unknown",
+  "en": "It's not as readable for agents as well.",
+  "zh": "它对智能体的可读性也不够好。"
+ },
+ {
+  "seg": 65,
+  "start": 493.691,
+  "end": 495.592,
+  "speaker": "Unknown",
+  "en": "And they're really just built for human search.",
+  "zh": "它们其实只是为人类搜索而构建的。"
+ },
+ {
+  "seg": 66,
+  "start": 498.253,
+  "end": 499.693,
+  "speaker": "Unknown",
+  "en": "And then to compound that even more,",
+  "zh": "而且更糟糕的是,"
+ },
+ {
+  "seg": 67,
+  "start": 501.258,
+  "end": 505.202,
+  "speaker": "Unknown",
+  "en": "The models that agents use are still, for the most part, a black box.",
+  "zh": "智能体所使用的模型在大多数情况下仍然是个黑盒。"
+ },
+ {
+  "seg": 68,
+  "start": 505.983,
+  "end": 509.767,
+  "speaker": "Unknown",
+  "en": "Agents can use different varying models to make their decisions.",
+  "zh": "智能体可以使用不同的模型来做出决策。"
+ },
+ {
+  "seg": 69,
+  "start": 511.549,
+  "end": 517.855,
+  "speaker": "Unknown",
+  "en": "Different models use different ranking and recommendations and algorithms to determine their recommendation.",
+  "zh": "不同的模型使用不同的排名、推荐和算法来确定它们的推荐结果。"
+ },
+ {
+  "seg": 70,
+  "start": 518.976,
+  "end": 521.839,
+  "speaker": "Unknown",
+  "en": "Vector database retrieval is also not always deterministic.",
+  "zh": "向量数据库检索也不总是确定性的。"
+ },
+ {
+  "seg": 71,
+  "start": 522.827,
+  "end": 528.673,
+  "speaker": "Unknown",
+  "en": "And because of all of this, how do you decide as a business what model do you optimize for?",
+  "zh": "由于所有这些原因,作为企业,你该如何决定针对哪个模型做优化?"
+ },
+ {
+  "seg": 72,
+  "start": 529.534,
+  "end": 531.496,
+  "speaker": "Unknown",
+  "en": "In the old SEO world, there was a clear strategy.",
+  "zh": "在旧的 SEO 世界里,有一个明确的策略。"
+ },
+ {
+  "seg": 73,
+  "start": 531.556,
+  "end": 534.779,
+  "speaker": "Unknown",
+  "en": "In this new world, the strategies still remain largely unclear.",
+  "zh": "在这个新世界里,策略在很大程度上仍然不明确。"
+ },
+ {
+  "seg": 74,
+  "start": 538.363,
+  "end": 538.703,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "于是,"
+ },
+ {
+  "seg": 75,
+  "start": 539.821,
+  "end": 540.741,
+  "speaker": "Unknown",
+  "en": "What do you do when you don't know?",
+  "zh": "当你不知道答案的时候,你会怎么做?"
+ },
+ {
+  "seg": 76,
+  "start": 541.622,
+  "end": 542.682,
+  "speaker": "Unknown",
+  "en": "You run experiments.",
+  "zh": "你做实验。"
+ },
+ {
+  "seg": 77,
+  "start": 543.342,
+  "end": 545.243,
+  "speaker": "Unknown",
+  "en": "And so we ran some experiments.",
+  "zh": "所以我们做了一些实验。"
+ },
+ {
+  "seg": 78,
+  "start": 545.283,
+  "end": 548.083,
+  "speaker": "Unknown",
+  "en": "We enriched some of our merchant product data.",
+  "zh": "我们丰富了部分商家的产品数据。"
+ },
+ {
+  "seg": 79,
+  "start": 548.523,
+  "end": 554.445,
+  "speaker": "Unknown",
+  "en": "And we ran experiments to see how agents searched and recommended products.",
+  "zh": "我们做了实验,观察智能体如何搜索和推荐产品。"
+ },
+ {
+  "seg": 80,
+  "start": 558.986,
+  "end": 564.328,
+  "speaker": "Unknown",
+  "en": "And before I get into the experiments that we ran, I think it's very good to level set with everyone how",
+  "zh": "在我讲我们做的实验之前,我觉得很有必要先和大家统一一下认知,"
+ },
+ {
+  "seg": 81,
+  "start": 565.535,
+  "end": 567.856,
+  "speaker": "Unknown",
+  "en": "Like the differences between keyword and semantic search.",
+  "zh": "就是关键词搜索和语义搜索之间的区别。"
+ },
+ {
+  "seg": 82,
+  "start": 568.656,
+  "end": 577.879,
+  "speaker": "Unknown",
+  "en": "And it trickles through to the things I talked through earlier with keyword search being very matching the search that a user's entering in.",
+  "zh": "这会延伸到我之前讲的内容:关键词搜索就是非常匹配用户输入的搜索词。"
+ },
+ {
+  "seg": 83,
+  "start": 578.56,
+  "end": 581.481,
+  "speaker": "Unknown",
+  "en": "So in a classic search, it might match literal words.",
+  "zh": "所以在经典搜索中,它可能匹配字面上的词。"
+ },
+ {
+  "seg": 84,
+  "start": 582.861,
+  "end": 584.642,
+  "speaker": "Unknown",
+  "en": "For example, I'm searching for blue running shoes.",
+  "zh": "比如我搜索蓝色跑鞋。"
+ },
+ {
+  "seg": 85,
+  "start": 585.302,
+  "end": 587.663,
+  "speaker": "Unknown",
+  "en": "And you only get results that contain those words.",
+  "zh": "而你只会得到包含这些词的结果。"
+ },
+ {
+  "seg": 86,
+  "start": 589.545,
+  "end": 593.246,
+  "speaker": "Unknown",
+  "en": "The good part about this, it's very precise, it's fast, it's predictable.",
+  "zh": "好处是,它非常精确、快速、可预测。"
+ },
+ {
+  "seg": 87,
+  "start": 593.966,
+  "end": 596.447,
+  "speaker": "Unknown",
+  "en": "But the downside is it misses intent.",
+  "zh": "但缺点是它会错过意图。"
+ },
+ {
+  "seg": 88,
+  "start": 597.567,
+  "end": 601.349,
+  "speaker": "Unknown",
+  "en": "And so if you ever search footwear for jogging, it may not even return those shoes.",
+  "zh": "所以如果你搜索\"慢跑用的鞋类\",它可能甚至不会返回那些鞋。"
+ },
+ {
+  "seg": 89,
+  "start": 603.649,
+  "end": 605.35,
+  "speaker": "Unknown",
+  "en": "And that's only simply because of words that match.",
+  "zh": "而这仅仅是因为词语匹配的原因。"
+ },
+ {
+  "seg": 90,
+  "start": 606.07,
+  "end": 609.211,
+  "speaker": "Unknown",
+  "en": "Whereas with semantic search, it matches based off meaning.",
+  "zh": "而语义搜索则是基于含义来匹配的。"
+ },
+ {
+  "seg": 91,
+  "start": 611.493,
+  "end": 616.837,
+  "speaker": "Unknown",
+  "en": "What it does is it converts the query into vectors that create meanings of intent.",
+  "zh": "它做的是把查询转换成向量,从而构建意图的含义。"
+ },
+ {
+  "seg": 92,
+  "start": 617.618,
+  "end": 627.366,
+  "speaker": "Unknown",
+  "en": "And so you might type something, oh, I'm searching for something comfortable for marathon training, and you might find your running shoes, even though none of those words exist in the search query.",
+  "zh": "所以你可能会输入,哦,我在找适合马拉松训练穿的舒适的东西,然后你可能就找到了你的跑鞋,尽管搜索查询里这些词一个都不存在。"
+ },
+ {
+  "seg": 93,
+  "start": 630.085,
+  "end": 640.613,
+  "speaker": "Unknown",
+  "en": "So the good part about that is it broadens on how you can search, but the downside is if you inject too much meaning, it can lose focus and hallucinate.",
+  "zh": "好处是它拓宽了你可以搜索的方式,但缺点是如果注入太多含义,它可能会失去焦点并产生幻觉。"
+ },
+ {
+  "seg": 94,
+  "start": 641.153,
+  "end": 645.597,
+  "speaker": "Unknown",
+  "en": "So there is a balance of how much you want to enrich and how much you want to inject into your enrichment.",
+  "zh": "所以在丰富多少、以及往丰富内容里注入多少之间,存在一个平衡。"
+ },
+ {
+  "seg": 95,
+  "start": 646.818,
+  "end": 649.58,
+  "speaker": "Unknown",
+  "en": "So to sum it up, keyword search is quite precise.",
+  "zh": "总结一下,关键词搜索相当精确。"
+ },
+ {
+  "seg": 96,
+  "start": 649.94,
+  "end": 650.7,
+  "speaker": "Unknown",
+  "en": "It's very literal.",
+  "zh": "它非常字面。"
+ },
+ {
+  "seg": 97,
+  "start": 650.781,
+  "end": 653.883,
+  "speaker": "Unknown",
+  "en": "Semantic search is just smart, but it's very fuzzy.",
+  "zh": "语义搜索很聪明,但它非常模糊。"
+ },
+ {
+  "seg": 98,
+  "start": 655.519,
+  "end": 659.001,
+  "speaker": "Unknown",
+  "en": "And realistically, the real answer isn't an either or.",
+  "zh": "现实中,真正的答案并不是二选一。"
+ },
+ {
+  "seg": 99,
+  "start": 659.321,
+  "end": 663.724,
+  "speaker": "Unknown",
+  "en": "It's combining both, which is exactly what our hybrid approach does.",
+  "zh": "而是把两者结合起来,这正是我们的混合方案所做的。"
+ },
+ {
+  "seg": 100,
+  "start": 664.444,
+  "end": 665.645,
+  "speaker": "Unknown",
+  "en": "And that's kind of where we're headed next.",
+  "zh": "而这就是我们接下来要讲的方向。"
+ },
+ {
+  "seg": 101,
+  "start": 668.826,
+  "end": 677.571,
+  "speaker": "Unknown",
+  "en": "So now that we understand what semantic search is, it's important to highlight that there is no singular way to really enrich product data for semantic search.",
+  "zh": "现在我们理解了语义搜索是什么，很重要的一点是要强调，没有唯一一种方式来为语义搜索丰富产品数据。"
+ },
+ {
+  "seg": 102,
+  "start": 678.051,
+  "end": 684.115,
+  "speaker": "Unknown",
+  "en": "I think it's really important for you as a business to understand the kind of catalog data you already have.",
+  "zh": "我认为作为一家企业，非常重要的一点是理解你已有的目录数据是什么样的。"
+ },
+ {
+  "seg": 103,
+  "start": 685.716,
+  "end": 687.337,
+  "speaker": "Unknown",
+  "en": "Do you have a thin catalog?",
+  "zh": "你的目录是不是很单薄？"
+ },
+ {
+  "seg": 104,
+  "start": 687.357,
+  "end": 690.2,
+  "speaker": "Unknown",
+  "en": "Do you have a catalog of products that are more spec heavy?",
+  "zh": "你的目录里的产品是不是规格参数居多？"
+ },
+ {
+  "seg": 105,
+  "start": 690.841,
+  "end": 695.305,
+  "speaker": "Unknown",
+  "en": "Depending on where your business is today, you should think through what you might want to enrich.",
+  "zh": "根据你今天的业务状况，你应该想清楚你可能想要丰富哪些内容。"
+ },
+ {
+  "seg": 106,
+  "start": 696.126,
+  "end": 699.589,
+  "speaker": "Unknown",
+  "en": "And so for the experiment though, we thought through different patterns of enrichment.",
+  "zh": "那么在这个实验中，我们思考了几种不同的丰富模式。"
+ },
+ {
+  "seg": 107,
+  "start": 700.49,
+  "end": 709.819,
+  "speaker": "Unknown",
+  "en": "And I won't go through all of them in detail, but things around like filling attributes, making sure there's description depth, make sure there's buyer context and trust signals and even some product identity.",
+  "zh": "我不会逐一详细讲，但包括比如填充属性、确保描述有深度、确保有买家上下文和信任信号，甚至还有一些产品身份信息。"
+ },
+ {
+  "seg": 108,
+  "start": 712.095,
+  "end": 715.477,
+  "speaker": "Unknown",
+  "en": "I think the main takeaway from this slide is that enrichment isn't one-size-fits-all.",
+  "zh": "我认为这一页幻灯片的主要要点是，丰富并不是一刀切的。"
+ },
+ {
+  "seg": 109,
+  "start": 716.037,
+  "end": 721.7,
+  "speaker": "Unknown",
+  "en": "The right approach really depends on the catalog you're starting with, and that's the framing we'll build on next.",
+  "zh": "正确的方法真的取决于你起步时的目录，这也是我们接下来会沿用的框架。"
+ },
+ {
+  "seg": 110,
+  "start": 723.921,
+  "end": 727.203,
+  "speaker": "Unknown",
+  "en": "And so here's just an example of enrichment in action for us.",
+  "zh": "这里就是我们实践中丰富的一个例子。"
+ },
+ {
+  "seg": 111,
+  "start": 730.344,
+  "end": 735.146,
+  "speaker": "Unknown",
+  "en": "Example we're starting with, we have men's shoe model 8543 that's blue.",
+  "zh": "我们举的例子是，一开始有一款男鞋型号 8543,是蓝色的。"
+ },
+ {
+  "seg": 112,
+  "start": 736.941,
+  "end": 742.086,
+  "speaker": "Unknown",
+  "en": "And then the description will be blue running shoes, available multiple sizes.",
+  "zh": "然后描述是蓝色跑鞋，多尺码有售。"
+ },
+ {
+  "seg": 113,
+  "start": 742.207,
+  "end": 743.608,
+  "speaker": "Unknown",
+  "en": "There's an attribute that's blue.",
+  "zh": "有一个属性是蓝色。"
+ },
+ {
+  "seg": 114,
+  "start": 744.289,
+  "end": 746.191,
+  "speaker": "Unknown",
+  "en": "Keyword matches maybe blue running a shoe.",
+  "zh": "关键词匹配可能是蓝色跑鞋。"
+ },
+ {
+  "seg": 115,
+  "start": 746.911,
+  "end": 751.777,
+  "speaker": "Unknown",
+  "en": "And then for semantic, there's very little context for that.",
+  "zh": "而对于语义搜索来说，几乎没有上下文。"
+ },
+ {
+  "seg": 116,
+  "start": 752.71,
+  "end": 756.992,
+  "speaker": "Unknown",
+  "en": "When you enrich, now we might have the title as a men's lightweight running shoe.",
+  "zh": "当你做了丰富之后，现在标题可能是男士轻量跑鞋。"
+ },
+ {
+  "seg": 117,
+  "start": 757.992,
+  "end": 759.333,
+  "speaker": "Unknown",
+  "en": "The description is now more enriched.",
+  "zh": "描述现在更丰富了。"
+ },
+ {
+  "seg": 118,
+  "start": 759.413,
+  "end": 760.013,
+  "speaker": "Unknown",
+  "en": "It's cushioned.",
+  "zh": "有缓震。"
+ },
+ {
+  "seg": 119,
+  "start": 760.053,
+  "end": 760.753,
+  "speaker": "Unknown",
+  "en": "It's breathable.",
+  "zh": "有透气。"
+ },
+ {
+  "seg": 120,
+  "start": 761.873,
+  "end": 764.334,
+  "speaker": "Unknown",
+  "en": "There are further attributes we've pumped into that as well.",
+  "zh": "我们还往里填充了更多属性。"
+ },
+ {
+  "seg": 121,
+  "start": 764.354,
+  "end": 766.515,
+  "speaker": "Unknown",
+  "en": "So there's true to size.",
+  "zh": "比如尺码标准。"
+ },
+ {
+  "seg": 122,
+  "start": 766.675,
+  "end": 768.656,
+  "speaker": "Unknown",
+  "en": "There's materials mesh.",
+  "zh": "材质是网面。"
+ },
+ {
+  "seg": 123,
+  "start": 768.736,
+  "end": 770.737,
+  "speaker": "Unknown",
+  "en": "We also put in some reviews here as well.",
+  "zh": "我们还放进来一些评论。"
+ },
+ {
+  "seg": 124,
+  "start": 770.777,
+  "end": 773.198,
+  "speaker": "Unknown",
+  "en": "So enrich that with some review data.",
+  "zh": "也就是用一些评论数据来丰富它。"
+ },
+ {
+  "seg": 125,
+  "start": 774.018,
+  "end": 779.22,
+  "speaker": "Unknown",
+  "en": "And now what the search sees is it matches running, it matches training, it matches meshes.",
+  "zh": "现在搜索看到的是，它匹配跑步，匹配训练，匹配网面。"
+ },
+ {
+  "seg": 126,
+  "start": 779.24,
+  "end": 780.58,
+  "speaker": "Unknown",
+  "en": "There's a lot more that it matches.",
+  "zh": "它能匹配的东西多得多。"
+ },
+ {
+  "seg": 127,
+  "start": 781.48,
+  "end": 786.642,
+  "speaker": "Unknown",
+  "en": "So with semantic, there's a lot of rich meaning that's put there to kind of enhance the search.",
+  "zh": "所以对语义搜索来说，这里放进了大量丰富的语义信息来增强搜索。"
+ },
+ {
+  "seg": 128,
+  "start": 788.803,
+  "end": 796.065,
+  "speaker": "Unknown",
+  "en": "And so here, some of the examples we've used was attribute filling or buyer context or even the trust signals around the reviews as well.",
+  "zh": "我们用到的例子包括属性填充、买家上下文，甚至还有围绕评论的信任信号。"
+ },
+ {
+  "seg": 129,
+  "start": 800.084,
+  "end": 809.849,
+  "speaker": "Unknown",
+  "en": "And so ultimately, at the end of the experiment, our thesis was, generally speaking, does enrichment help boost recommendations?",
+  "zh": "最终，在实验结束时，我们的假设是，一般来说，丰富是否有助于提升推荐？"
+ },
+ {
+  "seg": 130,
+  "start": 810.709,
+  "end": 813.29,
+  "speaker": "Unknown",
+  "en": "And at its core, yes, it does.",
+  "zh": "从本质上讲，是的，确实有帮助。"
+ },
+ {
+  "seg": 131,
+  "start": 815.851,
+  "end": 821.474,
+  "speaker": "Unknown",
+  "en": "What we saw was an unenriched baseline, like when it went head to head, it just completely underperformed.",
+  "zh": "我们看到未丰富的基线，当正面对比时，表现完全不佳。"
+ },
+ {
+  "seg": 132,
+  "start": 821.934,
+  "end": 826.236,
+  "speaker": "Unknown",
+  "en": "We found that merchants with the thinnest catalogs tend to gain the most.",
+  "zh": "我们发现目录最单薄的商家往往获益最大。"
+ },
+ {
+  "seg": 133,
+  "start": 826.296,
+  "end": 829.278,
+  "speaker": "Unknown",
+  "en": "Merchants with weak product data also had the most room to improve.",
+  "zh": "产品数据较弱的商家也有最大的提升空间。"
+ },
+ {
+  "seg": 134,
+  "start": 831.476,
+  "end": 845.808,
+  "speaker": "Unknown",
+  "en": "But I think what we needed to also understand is that it's all about content quality that drives the results, and it's not the schema that actually, and actually piling on unstructured data can actually dilute the signal as well.",
+  "zh": "但我认为我们还需要理解的是，真正驱动结果的是内容质量，而不是 schema,而且实际上堆砌非结构化数据反而会稀释信号。"
+ },
+ {
+  "seg": 135,
+  "start": 846.689,
+  "end": 849.752,
+  "speaker": "Unknown",
+  "en": "And so what do we mean by unstructured data?",
+  "zh": "那么我们所说的非结构化数据是什么意思？"
+ },
+ {
+  "seg": 136,
+  "start": 849.852,
+  "end": 854.436,
+  "speaker": "Unknown",
+  "en": "We just don't want to stuff the context of anything, any words we want.",
+  "zh": "我们并不想把任何东西、任何随意的文字塞进上下文里。"
+ },
+ {
+  "seg": 137,
+  "start": 854.456,
+  "end": 856.657,
+  "speaker": "Unknown",
+  "en": "We don't want to put any boilerplate messaging around.",
+  "zh": "我们也不想放任何模板化的套话。"
+ },
+ {
+  "seg": 138,
+  "start": 858.599,
+  "end": 861.422,
+  "speaker": "Unknown",
+  "en": "Potential, like, you know, welcome to our store, we're a family-owned business.",
+  "zh": "比如，你知道的，类似“欢迎来到我们的店铺，我们是家族企业”这样的。"
+ },
+ {
+  "seg": 139,
+  "start": 861.582,
+  "end": 863.404,
+  "speaker": "Unknown",
+  "en": "Those things are irrelevant to an agent at times.",
+  "zh": "这些东西有时对智能体来说是无关的。"
+ },
+ {
+  "seg": 140,
+  "start": 863.864,
+  "end": 867.668,
+  "speaker": "Unknown",
+  "en": "And so how you enrich what you structure into the data really, really matters as well.",
+  "zh": "所以你如何丰富、你把什么结构放进数据里，真的、真的非常重要。"
+ },
+ {
+  "seg": 141,
+  "start": 871.932,
+  "end": 876.476,
+  "speaker": "Unknown",
+  "en": "And so just general speaking, a sum of our learnings was",
+  "zh": "简单来说，我们的一些学习总结是"
+ },
+ {
+  "seg": 142,
+  "start": 877.642,
+  "end": 878.984,
+  "speaker": "Unknown",
+  "en": "Enrichment helps keyword search.",
+  "zh": "丰富有助于关键词搜索。"
+ },
+ {
+  "seg": 143,
+  "start": 879.344,
+  "end": 883.489,
+  "speaker": "Unknown",
+  "en": "Semantic retrieval requires a very different set of data structures.",
+  "zh": "语义检索需要一套非常不同的数据结构。"
+ },
+ {
+  "seg": 144,
+  "start": 884.531,
+  "end": 890.058,
+  "speaker": "Unknown",
+  "en": "But there is a balance to how much you want to enrich to improve semantic retrieval.",
+  "zh": "但要丰富到什么程度来改善语义检索，是有一个平衡点的。"
+ },
+ {
+  "seg": 145,
+  "start": 890.458,
+  "end": 894.383,
+  "speaker": "Unknown",
+  "en": "And while this is only one set of experiments, we did find that enriching",
+  "zh": "虽然这只是一组实验，但我们确实发现丰富"
+ },
+ {
+  "seg": 146,
+  "start": 896.345,
+  "end": 898.585,
+  "speaker": "Unknown",
+  "en": "Head-to-head, always improved recommendations.",
+  "zh": "在正面对比中，总是能改善推荐。"
+ },
+ {
+  "seg": 147,
+  "start": 899.866,
+  "end": 905.348,
+  "speaker": "Unknown",
+  "en": "What we had found in some cases, when we over-enriched, the agent tended to hallucinate more, and it underperformed.",
+  "zh": "我们在某些情况下发现，当我们过度丰富时，智能体往往会产生更多幻觉，而且表现更差。"
+ },
+ {
+  "seg": 148,
+  "start": 906.829,
+  "end": 917.733,
+  "speaker": "Unknown",
+  "en": "We don't have a concrete recommendation for every business, but a good place to start is just to assess your catalog and figure out the right strategy for that.",
+  "zh": "我们没有针对每家企业的具体建议，但一个好的起点就是评估你的目录，然后为它找到正确的策略。"
+ },
+ {
+  "seg": 149,
+  "start": 917.894,
+  "end": 920.575,
+  "speaker": "Unknown",
+  "en": "Just to wrap up, enrichment works.",
+  "zh": "最后总结一下，丰富是有效的。"
+ },
+ {
+  "seg": 150,
+  "start": 921.573,
+  "end": 924.254,
+  "speaker": "Unknown",
+  "en": "Assess your catalog structure, and more text isn't better.",
+  "zh": "评估你的商品目录结构,内容多并不等于好。"
+ },
+ {
+  "seg": 151,
+  "start": 924.894,
+  "end": 938.18,
+  "speaker": "Unknown",
+  "en": "Structured quality content is the one thing that wins out, and AI will reward content quality and not brands, but it does optimize for other trust signals as well.",
+  "zh": "结构化的优质内容才是真正能胜出的东西,AI 会奖励内容质量而不是品牌,但它也会为其他信任信号做优化。"
+ },
+ {
+  "seg": 152,
+  "start": 941.142,
+  "end": 941.982,
+  "speaker": "Unknown",
+  "en": "So thank you, everyone.",
+  "zh": "所以,谢谢大家。"
+ },
+ {
+  "seg": 153,
+  "start": 942.242,
+  "end": 946.244,
+  "speaker": "Unknown",
+  "en": "If you want to learn more about PayPal's Agenda Commerce Services, please visit our booth at P11.",
+  "zh": "如果你想进一步了解 PayPal 的 Agenda Commerce Services,请访问我们在 P11 的展位。"
+ },
+ {
+  "seg": 154,
+  "start": 955.256,
+  "end": 956.16,
+  "speaker": "Unknown",
+  "en": "Let's go.",
+  "zh": "我们开始吧。"
+ }
+]

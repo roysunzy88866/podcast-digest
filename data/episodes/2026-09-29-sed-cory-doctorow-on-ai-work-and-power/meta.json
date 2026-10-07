@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-29-sed-cory-doctorow-on-ai-work-and-power",
+  "audio_mp3": "https://media.transistor.fm/9bb7f061/fba9fff5.mp3",
+  "duration_sec": 3570.505,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 654,
+  "asr": true,
+  "title_en": "Cory Doctorow on AI, Work, and Power",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-29",
+  "added": "2026-10-07",
+  "added_at": "2026-10-07T00:18:12.692Z",
+  "speaker_map": {
+    "SPEAKER_02": "Cory Doctorow",
+    "SPEAKER_04": "Josh Goldberg"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Cory Doctorow",
+  "cohosts": [
+    "Josh Goldberg"
+  ],
+  "title_zh": "Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南",
+  "guest_name": "Cory Doctorow",
+  "guest_title": "EFF 特别顾问",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}
