@@ -19,7 +19,7 @@
 //     判据理由:C15 浓缩闸门保证新产出必过 styleErrs;存量 57/57 实测全不合规(2026-07-30 底账)
 //     → 零误跳、零新增状态,判据与浓缩卡点同一份代码,永不漂移。57 集长 run 中途挂,重跑只补没刷完的。
 // 个别集回刷失败不炸整批(回滚后照常发布老版),末尾汇总账;调用方随后统一 rebuild + gate-all。
-import { readdirSync, existsSync, copyFileSync, unlinkSync, readFileSync, realpathSync } from "node:fs";
+import { readdirSync, existsSync, copyFileSync, unlinkSync, readFileSync, writeFileSync, realpathSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
@@ -118,6 +118,15 @@ export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = fals
       exec({ FORCE: "1" }, "scripts/voice-script.mjs", rel);
       for (const f of ["audio.mp3", "audio.meta.json"]) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); }
       if (!exec({}, "scripts/tts.mjs", rel)) throw new Error("音频重合成失败");
+    }
+    if (noAudio) {
+      // 2026-10-08 用户「只把文本重写一下就好」:沿用旧口播稿 → 音频源文本指纹不变,旧音频继续有效,
+      //   不触发重配音、也不让 gate-audio 判「音频陈旧」拦住日常发布(重浓缩产出的 digest 不带 voice_script)。
+      const old = JSON.parse(readFileSync(join(dir, "digest.json.bak"), "utf8"));
+      if (old.voice_script) {
+        const cur = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8"));
+        writeFileSync(join(dir, "digest.json"), JSON.stringify({ ...cur, voice_script: old.voice_script }, null, 2));
+      }
     }
     cleanup();
     return { id, status: "refreshed" };

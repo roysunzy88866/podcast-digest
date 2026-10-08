@@ -1,0 +1,144 @@
+# C42 · 只重写文字(2026-10-08 用户「帮我把最近 3 天的内容都重写一遍」→「你就把文本转成文本,重写一下就好」)。
+# 已上站的集用新写手(DIGEST_V3)重写精华文字:复用已有转写/翻译,不重配音(沿用旧口播稿,音频不变)。
+# 独立并发组,不排日常跑批的队;多路并行;最后一步统一回仓 + 触发独立部署通道上站。
+# 每集照旧过金句/事实层闸门,过不了自动退回老版本(refresh-digests.mjs 的回滚)。
+name: 只重写文字(新写手)
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "重写这一天(北京日,含)之后上站的集,如 2026-10-06"
+        required: false
+      ids:
+        description: "或直接给逗号分隔集 id(给了就不看 since)"
+        required: false
+      shards:
+        description: "并行几路"
+        required: false
+        default: "5"
+
+concurrency:
+  group: rewrite-text
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write # 末尾触发 deploy-site.yml
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        env:
+          SINCE: ${{ github.event.inputs.since }}
+          IDS: ${{ github.event.inputs.ids }}
+          SHARDS: ${{ github.event.inputs.shards }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, glob, os
+          since, ids, n = os.environ.get("SINCE", ""), os.environ.get("IDS", ""), int(os.environ.get("SHARDS") or 5)
+          if ids:
+              pick = [i.strip() for i in ids.split(",") if i.strip()]
+          else:
+              pick = []
+              for m in sorted(glob.glob("data/episodes/*/meta.json")):
+                  d = json.load(open(m))
+                  if since and d.get("added", "") >= since and os.path.exists(f"samples/{d['id']}.md"):
+                      pick.append(d["id"])
+          shards = [",".join(pick[k::n]) for k in range(n) if pick[k::n]]
+          print("matrix=" + json.dumps({"ids": shards}))
+          PY
+          cat "$GITHUB_OUTPUT"
+
+  rewrite:
+    needs: plan
+    if: ${{ needs.plan.outputs.matrix != '{"ids": []}' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 装 glm-ask + node deps
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          cp tools/glm-ask "$HOME/.local/bin/glm-ask"
+          chmod +x "$HOME/.local/bin/glm-ask"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          npm install --no-audit --no-fund
+      - name: 重写(新写手,只改文字)
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          DIGEST_V3: "1"
+          IDS: ${{ matrix.ids }}
+        run: node scripts/refresh-digests.mjs --ids "$IDS" --force --no-audio
+      - name: 打包本路产物
+        if: always()
+        env:
+          IDS: ${{ matrix.ids }}
+        run: |
+          mkdir -p out
+          for id in ${IDS//,/ }; do
+            mkdir -p "out/$id"
+            for f in digest.json meta.json judge-report.json repair-report.json; do
+              [ -f "data/episodes/$id/$f" ] && cp "data/episodes/$id/$f" "out/$id/" || true
+            done
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rewrite-${{ strategy.job-index }}
+          path: out/
+
+  publish:
+    needs: rewrite
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 刷到 origin/main 最新
+        run: git fetch origin main && git reset --hard origin/main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: rewrite-*
+          path: out
+          merge-multiple: true
+      - name: 放回仓库 + 重建集页/实体页
+        run: |
+          npm install --no-audit --no-fund
+          cp -R out/. data/episodes/
+          node scripts/build-entities.mjs
+          node scripts/build-pages.mjs
+      - name: 回仓(重试 3 次,失败响亮)
+        run: |
+          git config user.name "c7b-bot"
+          git config user.email "c7b-bot@users.noreply.github.com"
+          git add data/episodes samples 2>/dev/null || true
+          git commit -m "[C42 🤖] 只重写文字:新写手重写已上站集(沿用旧音频) (US-4)" || { echo "无改动可提交"; exit 0; }
+          git reset --hard HEAD
+          ok=""
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then ok=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            echo "回仓第 $i 次失败,5s 后重试"; sleep 5
+          done
+          [ -n "$ok" ] || { echo "::error::回仓连败 3 次,重写结果将随 runner 销毁"; exit 1; }
+      - name: 触发独立部署通道上站
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-site.yml --ref main

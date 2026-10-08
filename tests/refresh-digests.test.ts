@@ -147,6 +147,23 @@ describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多
   });
 });
 
+describe("refreshOne · 只改文字时沿用旧口播稿(2026-10-08 用户「把文本重写一下就好」)", () => {
+  it("★★★ --no-audio:新稿带上旧口播稿 → 音频指纹不变,不重配、不判音频陈旧", () => {
+    const { base, id, dir } = makeEpisode({ ...legacyDigest, voice_script: "旧口播稿" });
+    const exec = (_env: any, script: string) => {
+      if (script.includes("condense.mjs")) writeFileSync(join(dir, "digest.json"), JSON.stringify({ ...conformantDigest, writer: "v3" }));
+      return true;
+    };
+    const r = refreshOne(id, { episodesDir: base, exec, noAudio: true });
+    expect(r.status).toBe("refreshed");
+    const d = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8"));
+    expect(d.writer).toBe("v3");
+    expect(d.digest_md).toBe(conformantDigest.digest_md);
+    expect(d.voice_script).toBe("旧口播稿");
+    rmSync(base, { recursive: true, force: true });
+  });
+});
+
 describe("refreshOne · 闸门一分不降:败 → 回滚老版,老音频不动", () => {
   it("★ 金句闸门未过 → rolledback:digest 还原、旧音频原样(失败在 tts 之前不乱删)", () => {
     const { base, id, dir } = makeEpisode(legacyDigest);
