@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":3,"Codex":80,"OpenAI":175,"智能体":434,"提示词注入":1,"护栏":80,"上下文工程":16,"Symfony":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":3,"Codex":80,"OpenAI":176,"智能体":436,"提示词注入":1,"护栏":81,"上下文工程":16,"Symfony":1,"规范":2}</script>
 
 <script>
 (function(){

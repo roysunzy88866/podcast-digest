@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Block":3,"Goose":2,"智能体":434,"MCP":81,"康威定律":2,"职能型架构":1,"LLM":57,"开源模型":4,"Anthropic":185}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Block":3,"Goose":2,"智能体":436,"MCP":81,"康威定律":2,"职能型架构":1,"LLM":57,"开源模型":4,"Anthropic":186}</script>
 
 <script>
 (function(){

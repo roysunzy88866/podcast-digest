@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[沙箱]] · [[Claude]] · [[ChatGPT]] · [[John Willett]] · [[Ivan Burazin]] · [[Vincent Wendy]] · [[Daksh Gupta]] · [[Rogo]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"Cursor":82,"沙箱":79,"Claude":91,"ChatGPT":99,"John Willett":1,"Ivan Burazin":1,"Vincent Wendy":1,"Daksh Gupta":1,"Rogo":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"Cursor":83,"沙箱":80,"Claude":91,"ChatGPT":100,"John Willett":1,"Ivan Burazin":1,"Vincent Wendy":1,"Daksh Gupta":1,"Rogo":2}</script>
 
 <script>
 (function(){

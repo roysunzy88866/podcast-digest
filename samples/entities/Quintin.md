@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":57,"提示词":21,"记忆":25,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":57,"提示词":21,"记忆":26,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){

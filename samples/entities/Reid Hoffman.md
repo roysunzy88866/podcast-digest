@@ -64,7 +64,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":17,"Brené Brown":1,"递归自我改进":8,"勇敢领导力":1,"智能体":434,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":17,"Brené Brown":1,"递归自我改进":8,"勇敢领导力":1,"智能体":436,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
 
 <script>
 (function(){

@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-05-talks-from-vibes-to-production-evaluating-and",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/F0TNSmbo5hE.m4a",
+  "duration_sec": 2521.71,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 448,
+  "asr": true,
+  "title_en": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "added": "2026-10-08",
+  "added_at": "2026-10-07T23:39:26.042Z",
+  "speaker_map": {
+    "SPEAKER_00": "Laurie Voss"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Laurie Voss"
+  ],
+  "host": null,
+  "cohosts": []
+}

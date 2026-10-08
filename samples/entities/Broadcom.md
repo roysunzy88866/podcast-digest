@@ -39,7 +39,7 @@ unlisted: true
 
 [[NVIDIA]] · [[数据中心]] · [[推理]] · [[OpenAI]] · [[TSMC]] · [[AMD]] · [[缩放定律]] · [[GPU]] · [[ASIC]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":60,"数据中心":23,"推理":83,"OpenAI":175,"TSMC":9,"AMD":5,"缩放定律":12,"GPU":25,"ASIC":2,"Microsoft":29}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":60,"数据中心":23,"推理":83,"OpenAI":176,"TSMC":9,"AMD":5,"缩放定律":12,"GPU":25,"ASIC":2,"Microsoft":29}</script>
 
 <script>
 (function(){

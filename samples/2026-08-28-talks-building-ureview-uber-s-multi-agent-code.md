@@ -128,8 +128,8 @@ uReview 的评审栈分四层:单文件评审器(通用逻辑 bug 检查)、多�
 **换个口味**
 
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (guardrails)、智能体 (agent)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>

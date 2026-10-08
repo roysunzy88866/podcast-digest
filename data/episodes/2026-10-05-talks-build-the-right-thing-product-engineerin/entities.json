@@ -1,0 +1,735 @@
+{
+  "episode_id": "2026-10-05-talks-build-the-right-thing-product-engineerin",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "产品工程",
+    "想法验证",
+    "职业转型"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "kent-c-dodds",
+      "type": "person",
+      "role": "guest",
+      "name": "Kent C. Dodds",
+      "file": "Kent C. Dodds",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            35.589,
+            39.174
+          ],
+          "quote": "My name is Kent C. Dodds, and we're just going to get started because we have two hours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：正在拉平实现层面竞技场的自动追踪装置——写代码已比自己好，但不会喊「等等，我们把系统搞得太臃肿了」，放慢脚步、有意识决定往产品里加什么仍是人的责任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            296.315,
+            306.982
+          ],
+          "quote": "All right, yeah, we all get back from Christmas break or maybe on Christmas break, you're using your agent and you realize, oh my goodness, this thing is better at coding than I am.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            341.31,
+            345.933
+          ],
+          "quote": "You don't need that because you're an experienced software engineer and you can direct the agent to go build the right thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1033.58,
+            1036.761
+          ],
+          "quote": "If that's you, you look an awful lot like an agent to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1121.162,
+            1127.345
+          ],
+          "quote": "He says that the default place for our new coding agent abilities to go to is work on the wrong things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1144.841,
+            1148.043
+          ],
+          "quote": "No, it's just so easy, because the agent's not gonna say, hold up, hold up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1957.723,
+            1963.387
+          ],
+          "quote": "I certainly wouldn't be doing any coding challenges where I say, no, you are not allowed to use an agent to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1965.788,
+            1969.231
+          ],
+          "quote": "Like, how awful is it to work at your company that I can't use an AI agent?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品工程师 (product engineer)",
+      "file": "产品工程师",
+      "primary": true,
+      "how_described": "本集把它说成：把对客户需求的理解与正在做出的技术选择连接起来的工程师——决定数据模型、工作流形态、可观测性、约束、故障模式和最小切片，一半活在技术里、一半活在客户的家里；没有产品感的工程师会随智能体变更能干而容易被取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1053.526,
+            1063.374
+          ],
+          "quote": "So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1286.803,
+            1290.747
+          ],
+          "quote": "So let's talk about where the line is between a product engineer and a product manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1292.848,
+            1305.614
+          ],
+          "quote": "Okay, so your job as a product engineer is to connect the customers, the understanding what the customer needs to the technical choices that are being made so that you don't paint yourself into a corner and you don't overbuild.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1443.97,
+            1448.292
+          ],
+          "quote": "So in his mind, a product engineer lives half in the technology and half in the customer's house.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1468.581,
+            1479.537
+          ],
+          "quote": "So being able to attach what the human actually needs to that technical expertise you have, that's what makes a product engineer a product engineer, not a product manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1690.721,
+            1698.984
+          ],
+          "quote": "There is a line between product manager and product engineer, and both of them need to really understand the actual problems that the user has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1703.64,
+            1712.342
+          ],
+          "quote": "One of the things that you are doing as a product engineer is building a system for your underlings to be successful in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2095.48,
+            2113.425
+          ],
+          "quote": "That communication layer should be very tight and your engineers should also not be siloed from other engineers in the organization because one important thing for a product engineer to do is not only look at their slice of the application but also step back and see at least their neighbors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2174.191,
+            2187.302
+          ],
+          "quote": "Well, in my estimation, if you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2857.697,
+            2878.509
+          ],
+          "quote": "And if that feature request doesn't come with some sort of validation of why this exists, then you as a product engineer need to go back to the PM and say, I need to understand a little bit more about why this exists, for not only to validate that this is gonna be worth engineering time, but also for some of the other questions that we're gonna talk about here in a second.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3092.21,
+            3095.893
+          ],
+          "quote": "Three main things that distinguish a product engineer from a product manager, do we need both?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3098.915,
+            3106.48
+          ],
+          "quote": "So yeah, kind of talked about this a little bit, but I would say that the product engineer is the one that's, I'm not sure if I'm gonna get three, but I'll just say a bunch of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3107.34,
+            3109.341
+          ],
+          "quote": "Product Engineer is the one that is actually in the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3158.135,
+            3175.769
+          ],
+          "quote": "That's probably the number one thing that distinguishes a product engineer from the product manager is just that technical expertise and understanding of the system, which a product manager could probably just talk to an AI about over and over and over again to kind of ramp themselves up, but they should actually be doing other stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3183.214,
+            3192.42
+          ],
+          "quote": "So I am, oh, sorry, I am self-employed, so I do not have a product manager or a product engineer or a CFO or what, like, I just work for myself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "implementation",
+      "type": "concept",
+      "role": "concept",
+      "name": "实现 (implementation)",
+      "file": "实现",
+      "primary": true,
+      "how_described": "本集把它说成：已商品化、不再稀缺的事情——AI 改变了稀缺资源，行业正从「能不能构建它」转向「它是否值得构建」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            354.939,
+            359.322
+          ],
+          "quote": "So existential crisis for me, who needs to learn implementation details anymore?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            656.215,
+            664.057
+          ],
+          "quote": "When AI agents level the implementation playing field, which they are actively doing, then the differentiator becomes building the right thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            846.917,
+            849.778
+          ],
+          "quote": "It's no longer scarce to do implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            967.871,
+            984.037
+          ],
+          "quote": "Now, I wouldn't say that we can take our tools that we have today and give it to a non-technical person and expect them to build real software that can be maintained and last for 35 years or whatever, but it's possible we get to that point, and the fact is that the implementation playing field is leveling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1029.358,
+            1033.419
+          ],
+          "quote": "But guess what you look like when you're just taking a ticket and turning it into an implementation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1049.082,
+            1053.046
+          ],
+          "quote": "So very replaceable to just turn a ticket into an implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1053.526,
+            1063.374
+          ],
+          "quote": "So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2191.285,
+            2200.288
+          ],
+          "quote": "It does seem like if all you're doing is listening to somebody tell you what to do and then turning that into a code implementation, that part seems like it's pretty replaceable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2703.352,
+            2709.595
+          ],
+          "quote": "Some of us are just like, yeah, I got into software engineering because I never have to talk to anybody and I can just take my Jira ticket and turn it into implementation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mom-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "mom test",
+      "file": "mom test",
+      "primary": true,
+      "how_described": "本集把它说成：早期想法验证的核心方法——别让用户评估你的想法或替你诊断问题，不问「你愿意付多少钱」这类未来问题（那只是钓恭维），而是问过去的具体行为：上次发生是什么时候、你用什么变通办法、付出了什么代价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 542,
+          "t": [
+            2227.843,
+            2229.144
+          ],
+          "quote": "How many of you have heard of the mom test?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2369.691,
+            2371.011
+          ],
+          "quote": "Oh, you've read the mom test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2433.606,
+            2435.347
+          ],
+          "quote": "I saw somebody holding up the mom test book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2441.37,
+            2445.391
+          ],
+          "quote": "I also carry my mom test book with me everywhere I go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2445.452,
+            2447.212
+          ],
+          "quote": "Yeah, so this is the mom test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2744.6,
+            2765.411
+          ],
+          "quote": "So the output is like actual evidence rather than somebody just saying oh yeah that's a good idea and this is why it's called the mom test because your mom of course she loves you and she's gonna be like yeah of course this is wonderful I would absolutely use it and so now you have two users yourself and your mom or dad or whatever and that's wonderful good for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2962.775,
+            2973.418
+          ],
+          "quote": "So the validation of the idea and the mom test questions we talked about earlier, that is telling you whether it's worth solving the problem in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3041.286,
+            3043.068
+          ],
+          "quote": "So why product engineers need the mom test?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "type": "concept",
+      "role": "concept",
+      "name": "想法验证 (validation)",
+      "file": "想法验证",
+      "primary": true,
+      "how_described": "本集把它说成：不只是 PM 的工作——功能请求若没附带「为什么存在」的验证，产品工程师应回去问 PM 要答案；理解请求从哪来，决定你做什么技术权衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 541,
+          "t": [
+            2220.638,
+            2227.823
+          ],
+          "quote": "So, what I want you to leave with is frameworks for early idea validation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2311.14,
+            2315.882
+          ],
+          "quote": "Okay, so let's talk about early idea validation for the just get in the workshop app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2841.877,
+            2843.98
+          ],
+          "quote": "So project validation, really important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2857.697,
+            2878.509
+          ],
+          "quote": "And if that feature request doesn't come with some sort of validation of why this exists, then you as a product engineer need to go back to the PM and say, I need to understand a little bit more about why this exists, for not only to validate that this is gonna be worth engineering time, but also for some of the other questions that we're gonna talk about here in a second.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2903.071,
+            2913.198
+          ],
+          "quote": "Okay, well I'm gonna spend a little bit more time and attention to detail while still like balancing the MVP style like let's just get some validation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2962.775,
+            2973.418
+          ],
+          "quote": "So the validation of the idea and the mom test questions we talked about earlier, that is telling you whether it's worth solving the problem in the first place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "smallest-slice",
+      "type": "concept",
+      "role": "concept",
+      "name": "最小切片 (smallest slice)",
+      "file": "最小切片",
+      "primary": true,
+      "how_described": "本集把它说成：你能做的、能证明你为目标受众解决了某个问题的最小限度的事情——Wayne 团队花一年做微服务没人用，本可以两周上线手动集成先测市场；Instagram 当初砍掉签到只留分享照片就是同一个道理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1306.154,
+            1311.536
+          ],
+          "quote": "So you're gonna decide on the data model and the workflow shape, observability, constraints, failure modes, and the smallest slice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1327.326,
+            1331.11
+          ],
+          "quote": "So this is one of my favorite, the smallest slice thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workaround",
+      "type": "concept",
+      "role": "concept",
+      "name": "变通办法 (workaround)",
+      "file": "变通办法",
+      "primary": true,
+      "how_described": "本集把它说成：金子般的信号——如果对方已经在花大量精力和金钱用变通办法绕过问题，这是问题值得解决的有力证据；反之「不记得上次是什么时候、后来放弃了」也是信号，只是不是你要的那个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 642,
+          "t": [
+            2534.481,
+            2547.166
+          ],
+          "quote": "But yeah, the questions of what did you do instead, what is your workaround, and how much did it cost you because a solution like this doesn't exist, you do not talk about the solution at this stage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mvp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MVP",
+      "file": "MVP",
+      "primary": false,
+      "how_described": "本集在问答里被提及：多少功能算太多是个错误的问题，真正的问题是你能证明为目标受众解决问题的最小限度是什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            1866.719,
+            1869.702
+          ],
+          "quote": "How many features are too many for an MVP?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2903.071,
+            2913.198
+          ],
+          "quote": "Okay, well I'm gonna spend a little bit more time and attention to detail while still like balancing the MVP style like let's just get some validation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "user-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "用户体验 (user experience)",
+      "file": "用户体验",
+      "primary": false,
+      "how_described": "本集说 Don Norman 在苹果时发明了这个词，并以三里岛事件论证「用户错误是不存在的」——问题出在系统上，系统设计者要为系统负责。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1771.531,
+            1777.619
+          ],
+          "quote": "And he has so much, he, this is the guy who invented the term user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2063.173,
+            2064.853
+          ],
+          "quote": "There's a bad user experience right there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集说它是 Michael 做的身份认证平台——他在构建前大量采访客户，问「没有解决方案你正在损失什么」，据此决定做成托管而非本地部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            1630.26,
+            1632.241
+          ],
+          "quote": "Who here knows Michael at WorkOS?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1632.541,
+            1653.714
+          ],
+          "quote": "This guy rocks, and WorkOS is really cool, but he, WorkOS is an authentication platform, and he was deciding, okay, so with this new platform, do I make it like a on-prem thing, like I sell you a license, now you can run this authentication thing on-prem, or do I make it like an open source thing with like a commercial arm or whatever?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2728.13,
+            2740.598
+          ],
+          "quote": "And one thing that Michael did, actually, in our conversation, he was talking to so many people, validating his idea before he built WorkOS, and he would ask them, what are they losing out by not having a solution to this?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opencode",
+      "type": "company",
+      "role": "company",
+      "name": "OpenCode",
+      "file": "OpenCode",
+      "primary": false,
+      "how_described": "本集说它是 Dax Rad 创造的编码工具，其创造者警告：新的编码智能体能力默认都会流向「做错误的事情」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1113.539,
+            1116.16
+          ],
+          "quote": "Dax Rad, creator of OpenCode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1117.121,
+            1118.461
+          ],
+          "quote": "How many people use OpenCode, by the way?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1118.921,
+            1120.862
+          ],
+          "quote": "Yeah, OpenCode's pretty cool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集说产品高管 Rita Kozlov 来自 Cloudflare——她指出原型很快就能做出「看起来能用」的表面，但不可扩展、没处理边界情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1181.661,
+            1189.726
+          ],
+          "quote": "She is a, oh shoot, what, a director of product or a VP of product, I think, at Cloudflare.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sunk-cost-fallacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "沉没成本谬误 (sunk cost fallacy)",
+      "file": "沉没成本谬误",
+      "primary": false,
+      "how_described": "本集引 Aaron Francis 的警告：你可以极其快速地做错误的事情还感觉取得巨大进展，陷得越深越停不下来——沉没成本谬误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 337,
+          "t": [
+            1259.654,
+            1261.435
+          ],
+          "quote": "Sunk cost fallacy is not a thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Robert Lucero]] · [[Brian Houck]] · [[Okta]] · [[智能体]] · [[沙箱]] · [[护栏]] · [[身份]] · [[非确定性]] · [[服务账号]] · [[AI 采用]]
 
-<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Brian Houck":1,"Okta":1,"智能体":434,"沙箱":79,"护栏":80,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":1}</script>
+<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Brian Houck":1,"Okta":1,"智能体":436,"沙箱":80,"护栏":81,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":1}</script>
 
 <script>
 (function(){

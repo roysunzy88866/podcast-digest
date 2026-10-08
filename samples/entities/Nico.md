@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":22,"GitHub":30,"Notion":16,"Slack":31,"智能体":434,"提示词":21,"代码":1,"代码层":1,"Make":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":22,"GitHub":30,"Notion":16,"Slack":31,"智能体":436,"提示词":21,"代码":1,"代码层":1,"Make":2}</script>
 
 <script>
 (function(){

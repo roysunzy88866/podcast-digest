@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 

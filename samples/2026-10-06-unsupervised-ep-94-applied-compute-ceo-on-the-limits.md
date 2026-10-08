@@ -210,7 +210,7 @@ Yash 认为不一定每家都要去预训练,但**每家公司内部都存在值
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI · 同概念:harness、前沿模型 (frontier models)、后训练 (post-training)、开源模型 (open models)、推理 (inference)</span>
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同公司:Harvey · 同概念:harness、RL、后训练 (post-training)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:harness、前沿模型 (frontier models)、后训练 (post-training)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:Harvey、OpenAI · 同概念:harness、后训练 (post-training)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

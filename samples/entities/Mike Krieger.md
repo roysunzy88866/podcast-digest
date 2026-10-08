@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":185,"Claude":91,"Claude Code":97,"tag":1,"Instagram":7,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":434,"代码审查":24}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"Claude":91,"Claude Code":97,"tag":1,"Instagram":7,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":436,"代码审查":24}</script>
 
 <script>
 (function(){

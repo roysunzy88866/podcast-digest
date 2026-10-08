@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>175</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>176</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -175,6 +175,7 @@ unlisted: true
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(00:43起):本集说 OpenAI 广告年化运行率已达 10 亿美元，此前需要很多年才能达到；收购了 OpenClaw 团队、推出 DOTS，在现有聊天界面之外发布的东西不太成功，做硬件也一切更慢。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:36起):本集说 OpenAI 撕裂在消费级与企业级之间：ChatGPT 是面向消费者的庞然大物，但 Anthropic 在商业端超过了他们，Dots 的发布正在实时上演这场公司急转弯。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(01:03起):本集在 OpenAI Dev Day 现场录制;Kath 是 OpenAI sites 产品负责人,sites 发布两个月在 OpenAI 内部爆发式增长,连主题演讲幻灯片都是 ChatGPT 站点
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(04:47起):本集提到 OpenAI 是模型供应商之一,并说网关回退时可直接切到 OpenAI。
 - **[[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]]**(38:43起):本集顺带提到 Menlo 因坚持对创业者的双向承诺而没有投 OpenAI，并以其销售拿三四千万美元离场引出「金钱揭示人」的讨论。
 - **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(41:42起):本集在讨论 AI 末日论式宣传的来源与前沿实验室安全团队时顺带提到 OpenAI。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(11:21起):本集说 Front 与 OpenAI 有合作关系；同时提到 OpenAI 与政府一起警告不要让中国开源模型主导市场。
@@ -256,7 +257,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*175 集*
+*176 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -425,6 +426,7 @@ unlisted: true
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
 - [[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]] — 作为被讨论公司(提及)
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
@@ -440,7 +442,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"Anthropic":185,"ChatGPT":99,"推理":83,"Google":65,"Cursor":82,"NVIDIA":60,"Codex":80,"Claude":91,"Meta":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"Anthropic":186,"ChatGPT":100,"推理":83,"Google":65,"Cursor":83,"NVIDIA":60,"Codex":80,"Claude":91,"Meta":48}</script>
 
 <script>
 (function(){

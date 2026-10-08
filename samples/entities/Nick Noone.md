@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":20,"前置部署工程":3,"智能体":434,"数据治理":1,"反网络效应":1,"本体":5,"语义搜索":3}</script>
+<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":20,"前置部署工程":3,"智能体":436,"数据治理":1,"反网络效应":1,"本体":5,"语义搜索":3}</script>
 
 <script>
 (function(){

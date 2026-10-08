@@ -115,8 +115,8 @@ Isola 的核心论点(他自己原话很糙,大意是):先海量化地生成轨�
 **顺着「智能体」挖下去**
 
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)、轨迹 (traces)、Claude Code、沙箱 (sandbox)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

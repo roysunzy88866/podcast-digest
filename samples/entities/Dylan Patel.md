@@ -54,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":175,"Anthropic":185,"Meta":48,"Google":65,"NVIDIA":60,"资本支出":7,"推理":83,"SpaceX":21,"SemiAnalysis":1,"Jane Street":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":176,"Anthropic":186,"Meta":48,"Google":65,"NVIDIA":60,"资本支出":7,"推理":83,"SpaceX":21,"SemiAnalysis":1,"Jane Street":1}</script>
 
 <script>
 (function(){

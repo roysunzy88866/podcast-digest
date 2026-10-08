@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":434,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":21,"Anthropic":185,"OpenAI":175}</script>
+<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":436,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":21,"Anthropic":186,"OpenAI":176}</script>
 
 <script>
 (function(){

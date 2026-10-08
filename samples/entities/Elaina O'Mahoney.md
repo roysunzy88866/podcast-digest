@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mural":1,"视觉协作":1,"共享上下文":1,"智能体":434,"令牌":5,"原型":8,"前置部署员工":1,"Slack":31,"Linear":11,"Notion":16}</script>
+<script type="application/json" class="pd-epn">{"Mural":1,"视觉协作":1,"共享上下文":1,"智能体":436,"令牌":5,"原型":8,"前置部署员工":1,"Slack":31,"Linear":11,"Notion":16}</script>
 
 <script>
 (function(){

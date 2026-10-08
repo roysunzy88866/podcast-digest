@@ -164,7 +164,7 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
 - [[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
-- [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、评测标准 (evals)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
 
 </div>
 <div class="pd-ex">

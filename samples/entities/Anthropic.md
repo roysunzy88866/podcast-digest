@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>185</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>186</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -185,6 +185,7 @@ unlisted: true
 - **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(05:21起):本集顺带提到 Anthropic 等智能体公司没有在解决大型代码库理解与维护的问题。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(29:46起):本集说 Anthropic 名言「不做广告」，靠激进订阅策略在付费订阅者数量上超过 Gemini；与 OpenAI 一样，在现有聊天界面之外的产品发布上都不太成功。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(30:26起):本集说 Anthropic 靠 Claude Code 和 Cowork 引爆了『把控制权交给 AI』的时刻，却一贯回避消费级、没有个人助手产品，但已把 Claude 与 Cowork 的文本框合并，正朝统一单一聊天框的圣杯迈进。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(04:47起):本集提到 Anthropic 作为模型供应商,harness 应能切换到它的模型;并举例 Anthropic 宕机时网关切走流量。
 - **[[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]]**(25:23起):本集说 Menlo 持有 Anthropic 不到 2% 的股份，且它是 Menlo 唯一一家单笔持仓达到基金 20% 上限的公司，是通过随新数据逐步加仓（ladder up）建成的仓位。
 - **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(35:06起):本集围绕《纽约时报》宗教学者与 Anthropic 会面、论证 Claude 拥有灵魂的报道，讨论这是否是监管俘获策略，Jason 称他们在制造「盒子里的神」。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(11:21起):本集说 Front 目前与 Anthropic 和 OpenAI 都有合作，没用开源模型，但对前沿实验室的定价是否随规模下降持观望态度。
@@ -260,7 +261,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*185 集*
+*186 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -441,6 +442,7 @@ unlisted: true
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
 - [[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]] — 作为被讨论公司
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
@@ -454,7 +456,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[推理]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"OpenAI":175,"Claude Code":97,"Cursor":82,"Claude":91,"推理":83,"NVIDIA":60,"Google":65,"Meta":48,"沙箱":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"OpenAI":176,"Claude Code":97,"Cursor":83,"Claude":91,"推理":83,"NVIDIA":60,"Google":65,"Meta":48,"沙箱":80}</script>
 
 <script>
 (function(){

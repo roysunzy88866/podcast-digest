@@ -129,9 +129,9 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:LangChain · 同概念:harness、后训练 (post-training)、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:harness、前沿模型 (frontier models)、后训练 (post-training)、智能体 (agent)</span>
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:LangChain、Google · 同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

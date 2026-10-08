@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>WorkOS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="WorkOS">WO</div><div class="pi"><h1 class="pt">WorkOS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="WorkOS">WO</div><div class="pi"><h1 class="pt">WorkOS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,10 +20,11 @@ unlisted: true
 - **[[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]]**(06:27起):本集赞助商。被描述为提供单点登录、SCIM、RBAC、审计日志等企业级功能 API 的现代开发者平台，本质上就像企业功能的 Stripe。
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(01:25起):本集片头广告中提及，提供企业级功能（如安全认证、审计日志）的开箱即用 API。
 - **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(01:19起):本集嘉宾 Ryan 所在的公司，运行「产品工程文化」（团队里没有产品经理），并自建了 TARS/Horizon 两套系统来构建与众不同的软件工厂。
+- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]]**(27:10起):本集说它是 Michael 做的身份认证平台——他在构建前大量采访客户，问「没有解决方案你正在损失什么」，据此决定做成托管而非本地部署。
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
@@ -34,14 +35,15 @@ unlisted: true
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为被讨论公司(提及)
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为被讨论公司
+- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Slack]] · [[Claude Code]] · [[Cursor]] · [[Meta]] · [[Codex]] · [[Co-work]] · [[Ramp]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Slack]] · [[Claude Code]] · [[Cursor]] · [[Meta]] · [[Codex]] · [[Co-work]] · [[Ramp]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":185,"智能体":434,"Slack":31,"Claude Code":97,"Cursor":82,"Meta":48,"Codex":80,"Co-work":4,"Ramp":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":436,"Anthropic":186,"Slack":31,"Claude Code":97,"Cursor":83,"Meta":48,"Codex":80,"Co-work":4,"Ramp":10}</script>
 
 <script>
 (function(){

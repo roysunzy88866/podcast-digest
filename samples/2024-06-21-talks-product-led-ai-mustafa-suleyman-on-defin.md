@@ -179,7 +179,7 @@ Mustafa 给出了三条具体标准：
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI · 同概念:RLAIF、智能体 (agent)、后训练 (post-training)</span>
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:OpenAI · 同概念:后训练 (post-training)、微调 (fine-tuning)、智能体 (agent)</span>
 
 </div>
 </div>

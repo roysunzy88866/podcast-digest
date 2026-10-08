@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":30,"Terraform":1,"Hashicorp":1,"Kubernetes":16,"开源":38,"智能体":434,"PR":6,"AI":29,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":30,"Terraform":1,"Hashicorp":1,"Kubernetes":16,"开源":38,"智能体":436,"PR":6,"AI":29,"工匠精神":1}</script>
 
 <script>
 (function(){

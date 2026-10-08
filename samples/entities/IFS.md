@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Kriti Sharma]] · [[Al Gore]] · [[Craig Smith]] · [[Lila Preston]] · [[Nexus Black]] · [[Connie Loizis]] · [[William Grant]] · [[Generation Investment Management]] · [[Boston Dynamics]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":185,"Kriti Sharma":1,"Al Gore":1,"Craig Smith":1,"Lila Preston":1,"Nexus Black":1,"Connie Loizis":1,"William Grant":1,"Generation Investment Management":1,"Boston Dynamics":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"Kriti Sharma":1,"Al Gore":1,"Craig Smith":1,"Lila Preston":1,"Nexus Black":1,"Connie Loizis":1,"William Grant":1,"Generation Investment Management":1,"Boston Dynamics":3}</script>
 
 <script>
 (function(){

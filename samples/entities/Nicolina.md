@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"Charles":1,"Together AI":1,"智能体":434,"技能":29,"上下文":28,"PRD":8,"沙箱":79,"harness":60,"MCP 服务器":2}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Charles":1,"Together AI":1,"智能体":436,"技能":29,"上下文":28,"PRD":8,"沙箱":80,"harness":61,"MCP 服务器":2}</script>
 
 <script>
 (function(){

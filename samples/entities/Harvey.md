@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Harvey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(14:17起):本集以 Harvey 所在的法律市场说明应用层机会：比编程落后约 12 个月、处于起飞期，产品最后细节和地推是实验室不会做的脏活。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(34:13起):被引为正在微调模型的垂直 AI 公司例子，用来引出 Leo 的模型策略对比
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(50:45起):本集提到它在法律领域尝试类似 Cognition 的做法——用私有数据自训模型。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(01:52起):本集提到 Harvey 为专门任务微调模型,在法律领域有最佳表现。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(39:19起):本集以这家法科技公司的定制模型为案例,讲 Applied Compute 如何与团队收集专家评分标准、补合成数据、用基于评分标准的 RL 做训练。
 
 ## ① 提到它的金句
@@ -43,7 +44,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为被讨论公司
@@ -63,15 +64,16 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Cursor]] · [[Anthropic]] · [[后训练]] · [[推理]] · [[前沿模型]] · [[NVIDIA]] · [[DeepMind]] · [[评估]]
+[[智能体]] · [[OpenAI]] · [[Cursor]] · [[Anthropic]] · [[后训练]] · [[推理]] · [[前沿模型]] · [[NVIDIA]] · [[评估]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"OpenAI":175,"Cursor":82,"Anthropic":185,"后训练":1,"推理":83,"前沿模型":27,"NVIDIA":60,"DeepMind":14,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"OpenAI":176,"Cursor":83,"Anthropic":186,"后训练":1,"推理":83,"前沿模型":27,"NVIDIA":60,"评估":5,"微调":33}</script>
 
 <script>
 (function(){

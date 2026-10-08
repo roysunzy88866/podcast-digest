@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":434,"编排器":4,"护栏":80,"循环":10,"规则":2,"police 文件":1,"vibe coding":46,"vibe engineering":1,"技能文件":4,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"编排器":4,"护栏":81,"循环":10,"规则":2,"police 文件":1,"vibe coding":46,"vibe engineering":1,"技能文件":4,"Codex":80}</script>
 
 <script>
 (function(){

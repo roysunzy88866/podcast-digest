@@ -25,7 +25,7 @@ unlisted: true
 
 [[Venky Ganesan]] · [[Menlo]] · [[Anthropic]] · [[风险投资]] · [[IRR]] · [[股权占比]] · [[仓位管理（position sizing）]] · [[反身性]] · [[估值上调（markup）]] · [[稀释]]
 
-<script type="application/json" class="pd-epn">{"Venky Ganesan":1,"Menlo":2,"Anthropic":185,"风险投资":1,"IRR":1,"股权占比":3,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
+<script type="application/json" class="pd-epn">{"Venky Ganesan":1,"Menlo":2,"Anthropic":186,"风险投资":1,"IRR":1,"股权占比":3,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
 
 <script>
 (function(){

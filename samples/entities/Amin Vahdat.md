@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google":65,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":434,"DeepMind":14,"Gemini":15,"光路交换":1,"专业化":3}</script>
+<script type="application/json" class="pd-epn">{"Google":65,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":436,"DeepMind":14,"Gemini":15,"光路交换":1,"专业化":3}</script>
 
 <script>
 (function(){

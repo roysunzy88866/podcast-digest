@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DX":4,"智能体":434,"开发者体验":1,"DORA":3,"PR 大小":1,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":5,"Spotify":7}</script>
+<script type="application/json" class="pd-epn">{"DX":4,"智能体":436,"开发者体验":1,"DORA":3,"PR 大小":1,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":5,"Spotify":7}</script>
 
 <script>
 (function(){

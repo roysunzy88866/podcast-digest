@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":5,"智能体":434,"主动性":2,"算力":8,"推理":83,"信任建立":7,"幻觉":12,"抽成率":1,"口碑":3,"Muse":6}</script>
+<script type="application/json" class="pd-epn">{"Instinct":5,"智能体":436,"主动性":2,"算力":8,"推理":83,"信任建立":7,"幻觉":12,"抽成率":1,"口碑":3,"Muse":6}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":434,"Claude Code":97,"Codex":80,"Cursor":82,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":436,"Claude Code":97,"Codex":80,"Cursor":83,"vibe coding":46}</script>
 
 <script>
 (function(){

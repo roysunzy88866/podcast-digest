@@ -126,7 +126,7 @@ jsonLd: |
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding</span>
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同嘉宾:Lenny · 同概念:评估 (evals)、vibe coding</span>
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|拥有你自己的智能:后训练什么时候才值得做]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)、评估 (evals)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

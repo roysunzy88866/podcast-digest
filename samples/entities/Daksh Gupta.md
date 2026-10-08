@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":434,"pull request":5,"代码审查":24,"沙箱":79,"Codex":80,"Devin":4,"Claude":91,"Cursor":82,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":436,"pull request":5,"代码审查":24,"沙箱":80,"Codex":80,"Devin":4,"Claude":91,"Cursor":83,"vibe coding":46}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":434,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":185}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":436,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":186}</script>
 
 <script>
 (function(){

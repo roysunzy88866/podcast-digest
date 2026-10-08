@@ -62,7 +62,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":185,"Lovable":19,"OpenRouter":14,"ChatGPT":99,"Harry Stebbings":20,"Julie Bort":1,"Menlo":2,"Claude":91,"OpenAI":175,"Claude Code":97}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"Lovable":19,"OpenRouter":14,"ChatGPT":100,"Harry Stebbings":20,"Julie Bort":1,"Menlo":2,"Claude":91,"OpenAI":176,"Claude Code":97}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloudflare</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]]**(12:03起):本集提到后端部分跑在 Cloudflare 上,一笔带过。
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(00:08起):本集以 CEO Matthew Prince 的视角介绍它:给全球很大一部分网站提供防护与加速、看得清全网流量构成的公司;正在推动默认屏蔽 Google 抓取广告/订阅制网站内容、建微支付基础设施,并用 Workers 和 isolates 等更轻量的技术为 1000 倍智能体流量做准备。
 - **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(05:39起):本集说 Cloudflare 在去年年底引入 CodeMode，但其实现与自家平台绑死，除了示例没多少人真在用。
+- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]]**(19:41起):本集说产品高管 Rita Kozlov 来自 Cloudflare——她指出原型很快就能做出「看起来能用」的表面，但不可扩展、没处理边界情况。
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为被讨论公司
 - [[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]] — 作为被讨论公司
@@ -56,6 +57,7 @@ unlisted: true
 - [[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司
 - [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为被讨论公司
+- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -63,7 +65,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[推理]] · [[OpenAI]] · [[MCP]] · [[Cursor]] · [[Google]] · [[可观测性]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"Anthropic":185,"沙箱":79,"推理":83,"OpenAI":175,"MCP":81,"Cursor":82,"Google":65,"可观测性":37,"Claude":91}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"Anthropic":186,"沙箱":80,"推理":83,"OpenAI":176,"MCP":81,"Cursor":83,"Google":65,"可观测性":38,"Claude":91}</script>
 
 <script>
 (function(){

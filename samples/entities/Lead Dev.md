@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ken]] · [[Dave Fletcher]] · [[Honeycomb]] · [[AI 编程工具]] · [[可观测性]] · [[CI-CD]] · [[技术债务]] · [[AI 优先]] · [[DevTools]]
 
-<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"Honeycomb":2,"AI 编程工具":2,"可观测性":37,"CI-CD":16,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"Honeycomb":2,"AI 编程工具":2,"可观测性":38,"CI-CD":16,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

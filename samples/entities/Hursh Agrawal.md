@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":434,"编码智能体":27,"前沿模型":27,"Claude Code":97,"管理者日程":1,"评估":5,"爬坡":2,"沙箱":79}</script>
+<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":436,"编码智能体":27,"前沿模型":27,"Claude Code":97,"管理者日程":1,"评估":5,"爬坡":2,"沙箱":80}</script>
 
 <script>
 (function(){

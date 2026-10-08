@@ -36,11 +36,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":185,"智能体":434,"提示词":21,"自动模式":3,"沙箱":79,"评估":5,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"智能体":436,"提示词":21,"自动模式":3,"沙箱":80,"评估":5,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
 
 <script>
 (function(){

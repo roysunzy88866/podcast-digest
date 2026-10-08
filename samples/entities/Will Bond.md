@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":434,"可观测性":37,"护栏":80,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":436,"可观测性":38,"护栏":81,"内环与外环":1}</script>
 
 <script>
 (function(){

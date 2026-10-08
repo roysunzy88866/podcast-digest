@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":9,"智能体":434,"推理时":1,"LLM 当裁判":10,"判断力":6,"探针":3,"Creativity API":1,"brand API":1}</script>
+<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":9,"智能体":436,"推理时":1,"LLM 当裁判":10,"判断力":6,"探针":3,"Creativity API":1,"brand API":1}</script>
 
 <script>
 (function(){

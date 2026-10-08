@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":1,"基于断言的测试":1,"代码覆盖率":1,"确定性":4,"pull request":5}</script>
+<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":2,"基于断言的测试":1,"代码覆盖率":1,"确定性":4,"pull request":5}</script>
 
 <script>
 (function(){

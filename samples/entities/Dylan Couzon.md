@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Quadrants":1,"记忆":25,"向量搜索":5,"嵌入":4,"开放权重模型":1,"超级智能":7,"推理":83,"智能体":434,"HNSW":2}</script>
+<script type="application/json" class="pd-epn">{"Quadrants":1,"记忆":26,"向量搜索":5,"嵌入":4,"开放权重模型":1,"超级智能":7,"推理":83,"智能体":436,"HNSW":2}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DeepAgents</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DeepAgents">DE</div><div class="pi"><h1 class="pt">DeepAgents</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DeepAgents">DE</div><div class="pi"><h1 class="pt">DeepAgents</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]]**(03:33起):本集说它是 LangChain 推出的跨模型通用、更通用用途版本的 Claude Code,是可自定义的 harness,带模型配置文件概念,能根据所用模型在不同文件编辑实现之间切换。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(09:29起):本集说 DeepAgents 是最新的开源开箱即用智能体 harness,借鉴编码智能体做法,带文件系统和沙箱的执行环境、用压缩做上下文管理;Managed Deep Agents 则把它与托管基础设施合成一个「公司 harness」。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harrison Chase]] · [[LangChain]] · [[LangSmith Engine]] · [[Harbor]] · [[Claude Code]] · [[Codex]] · [[harness]] · [[智能体]] · [[上下文]] · [[评估]]
+[[LangChain]] · [[harness]] · [[智能体]] · [[评估]] · [[可观测性]] · [[沙箱]] · [[微调]] · [[Harrison Chase]] · [[LangSmith]] · [[LangSmith Engine]]
 
-<script type="application/json" class="pd-epn">{"Harrison Chase":1,"LangChain":8,"LangSmith Engine":1,"Harbor":1,"Claude Code":97,"Codex":80,"harness":60,"智能体":434,"上下文":28,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"LangChain":9,"harness":61,"智能体":436,"评估":5,"可观测性":38,"沙箱":80,"微调":33,"Harrison Chase":1,"LangSmith":3,"LangSmith Engine":1}</script>
 
 <script>
 (function(){

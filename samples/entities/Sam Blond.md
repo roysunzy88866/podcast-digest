@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":6,"Zenefits":1,"EchoSign":1,"Salesforce":34,"go-to-market":14,"智能体":434,"记录系统":7,"单点解决方案":2,"创新者的窘境":4}</script>
+<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":6,"Zenefits":1,"EchoSign":1,"Salesforce":34,"go-to-market":14,"智能体":436,"记录系统":7,"单点解决方案":2,"创新者的窘境":4}</script>
 
 <script>
 (function(){

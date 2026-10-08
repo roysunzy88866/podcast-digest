@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>governance</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="governance">GO</div><div class="pi"><h1 class="pt">governance</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="governance">GO</div><div class="pi"><h1 class="pt">governance</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar|《模型已经够好了，为什么智能体还只能写代码？》]]**(12:29起):六个原语之一:本集主张提示词不是护栏(会在上下文压缩中丢掉),真正的墙须建两层——智能体之外的确定性访问控制,加自然语言策略约束权限内行为。
 - **[[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]]**(01:38起):本集核心主张：让 AI 触达每个人的难点不在技术而在治理——『关键不在于提供 AI，而在于提供正确的治理结构，让每个人都可以放心去使用 AI，并知道它会为他们做正确的事』。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(03:32起):本集反复强调：智能体必须知道哪些数据能访问、能共享、存到哪，不能不懂各国税务要求就做财务结账；治理是 SAP 50 年的积累。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(07:14起):本集说治理是「拥有你的智能」第三支柱,对内部智能体尤其关键:知道有多少智能体在跑、控成本、管权限。
 
 ## ① 提到它的金句
 
@@ -38,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|《Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时》]] — 作为概念
 - [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|《AI 原生组织如何运行在 Skills 之上》]] — 作为概念
@@ -46,14 +47,15 @@ unlisted: true
 - [[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar|《模型已经够好了，为什么智能体还只能写代码？》]] — 作为概念
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]] — 作为概念
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Anthropic]] · [[护栏]] · [[技能]] · [[LLM]] · [[开源]] · [[harness]] · [[MCP 服务器]] · [[Claude Code]]
+[[智能体]] · [[沙箱]] · [[Anthropic]] · [[护栏]] · [[harness]] · [[开源]] · [[技能]] · [[LLM]] · [[OpenAI]] · [[MCP 服务器]]
 
-<script type="application/json" class="pd-epn">{"智能体":434,"沙箱":79,"Anthropic":185,"护栏":80,"技能":29,"LLM":57,"开源":38,"harness":60,"MCP 服务器":2,"Claude Code":97}</script>
+<script type="application/json" class="pd-epn">{"智能体":436,"沙箱":80,"Anthropic":186,"护栏":81,"harness":61,"开源":38,"技能":29,"LLM":57,"OpenAI":176,"MCP 服务器":2}</script>
 
 <script>
 (function(){

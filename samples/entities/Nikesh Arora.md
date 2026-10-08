@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":20,"Google":65,"智能体":434,"主观能动性":1,"零日漏洞":3,"护栏":80,"governance":6,"开源":38}</script>
+<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":20,"Google":65,"智能体":436,"主观能动性":1,"零日漏洞":3,"护栏":81,"governance":7,"开源":38}</script>
 
 <script>
 (function(){

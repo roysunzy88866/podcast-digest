@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]]
+[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":434,"决策层":1,"上下文工程":16,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":5}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":436,"决策层":1,"上下文工程":16,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":5}</script>
 
 <script>
 (function(){

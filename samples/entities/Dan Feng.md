@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]] [[Zilvinas]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":82,"代码审查":24,"幻觉":12,"护栏":80,"招聘":1,"迭代周期":1}</script>
+<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":83,"代码审查":24,"幻觉":12,"护栏":81,"招聘":1,"迭代周期":1}</script>
 
 <script>
 (function(){

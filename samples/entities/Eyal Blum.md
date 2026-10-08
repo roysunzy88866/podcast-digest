@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"智能体":434,"验证":1,"规划（而非提示）":1,"TDD":4,"测试金字塔":1,"护栏":80,"Playwright MCP":2,"云端智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"智能体":436,"验证":2,"规划（而非提示）":1,"TDD":4,"测试金字塔":1,"护栏":81,"Playwright MCP":2,"云端智能体":1}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[NVIDIA]] · [[开放模型]] · [[物理 AI]] · [[世界模型]] · [[模拟]] · [[智能体]] · [[推理]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"NVIDIA":60,"开放模型":1,"物理 AI":10,"世界模型":12,"模拟":7,"智能体":434,"推理":83,"LLM":57}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"NVIDIA":60,"开放模型":1,"物理 AI":10,"世界模型":12,"模拟":7,"智能体":436,"推理":83,"LLM":57}</script>
 
 <script>
 (function(){

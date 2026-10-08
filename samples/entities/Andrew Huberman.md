@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neuralink":3,"OpenAI":175,"Meta":48,"Anthropic":185,"AI":29,"睡眠":1,"记忆":25,"迷走神经刺激":1,"CRISPR":1,"Waymo":20}</script>
+<script type="application/json" class="pd-epn">{"Neuralink":3,"OpenAI":176,"Meta":48,"Anthropic":186,"AI":29,"睡眠":1,"记忆":26,"迷走神经刺激":1,"CRISPR":1,"Waymo":20}</script>
 
 <script>
 (function(){

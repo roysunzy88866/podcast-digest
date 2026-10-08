@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hiral Shah":1,"DocuSign":1,"NVIDIA":60,"Nemotron":5,"表格提取":1,"智能体":434,"OCR":3,"量化":4,"VLM":4,"vLLM":6}</script>
+<script type="application/json" class="pd-epn">{"Hiral Shah":1,"DocuSign":1,"NVIDIA":60,"Nemotron":5,"表格提取":1,"智能体":436,"OCR":3,"量化":4,"VLM":4,"vLLM":6}</script>
 
 <script>
 (function(){

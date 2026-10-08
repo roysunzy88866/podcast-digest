@@ -157,8 +157,8 @@ Patrick 把行业实践分成五个类别，索引是手工建的(因为社交�
 **换个口味**
 
 - [[2026-08-22-talks-coding-agents-don-t-scale-themselves-nei|黑灯工厂来了:赢的不是单人玩家,是会改组织的团队]]<span class="pd-rz">同嘉宾:Patrick Debois · 同概念:harness、上下文 (context)、持续学习 (continuous learning)、智能体 (agent)、暗工厂 (dark factory)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:harness、可观测性 (observability)、智能体 (agent)、评估 (evals)、护栏 (guardrails)</span>
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:harness、上下文 (context)、可观测性 (observability)、智能体 (agent)</span>
-- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:可观测性 (observability)、智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 </div>

@@ -1,0 +1,6458 @@
+[
+ {
+  "seg": 0,
+  "start": 13.114,
+  "end": 13.694,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.714,
+  "end": 14.615,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "嘿，各位。"
+ },
+ {
+  "seg": 2,
+  "start": 14.855,
+  "end": 16.335,
+  "speaker": "Unknown",
+  "en": "We have, like, the line.",
+  "zh": "我们有，那条队伍。"
+ },
+ {
+  "seg": 3,
+  "start": 16.756,
+  "end": 17.716,
+  "speaker": "Unknown",
+  "en": "Steven, hey.",
+  "zh": "Steven,嘿。"
+ },
+ {
+  "seg": 4,
+  "start": 18.276,
+  "end": 24.579,
+  "speaker": "Unknown",
+  "en": "We have a line that goes, like, all the way over here and a bottleneck right here that we're all engineers.",
+  "zh": "我们有一条队伍一直排到那边，而我们这里有个瓶颈——我们都是工程师。"
+ },
+ {
+  "seg": 5,
+  "start": 24.619,
+  "end": 27.38,
+  "speaker": "Unknown",
+  "en": "We should be able to figure out how to solve this problem.",
+  "zh": "我们应该能想出怎么解决这个问题。"
+ },
+ {
+  "seg": 6,
+  "start": 28.14,
+  "end": 28.901,
+  "speaker": "Unknown",
+  "en": "No, just kidding.",
+  "zh": "不，开玩笑的。"
+ },
+ {
+  "seg": 7,
+  "start": 29.021,
+  "end": 30.944,
+  "speaker": "Unknown",
+  "en": "I don't want to step on anybody's toes.",
+  "zh": "我不想多管闲事。"
+ },
+ {
+  "seg": 8,
+  "start": 31.384,
+  "end": 35.189,
+  "speaker": "Unknown",
+  "en": "But if somebody wants to figure out what app he's using and help him get them through, that would be sweet.",
+  "zh": "不过如果有人愿意看看他在用什么 App，帮他让大家快点进来，那就太好了。"
+ },
+ {
+  "seg": 9,
+  "start": 35.589,
+  "end": 39.174,
+  "speaker": "Unknown",
+  "en": "My name is Kent C. Dodds, and we're just going to get started because we have two hours.",
+  "zh": "我叫 Kent C. Dodds，我们直接开始吧，因为我们有两个小时。"
+ },
+ {
+  "seg": 10,
+  "start": 39.354,
+  "end": 41.196,
+  "speaker": "Unknown",
+  "en": "I think we actually have plenty of time.",
+  "zh": "我觉得其实时间很充裕。"
+ },
+ {
+  "seg": 11,
+  "start": 42.518,
+  "end": 46.383,
+  "speaker": "Unknown",
+  "en": "But I don't want to have you all just waiting around.",
+  "zh": "但我不想让大家干等着。"
+ },
+ {
+  "seg": 12,
+  "start": 47.464,
+  "end": 58.336,
+  "speaker": "Unknown",
+  "en": "As people are filing in, be friendly, and if you've got a seat next to you, wave them over and let them in, because I am not certain that we're going to be able to fit everybody who is in line in this room.",
+  "zh": "趁大家进场的时候，友好一点，如果你旁边有空位，招手叫他们过来让他们坐下，因为我不确定排队的人是不是都能挤进这个房间。"
+ },
+ {
+  "seg": 13,
+  "start": 58.757,
+  "end": 63.822,
+  "speaker": "Unknown",
+  "en": "So we do want to get every seat filled up so people are able to make it in here.",
+  "zh": "所以我们确实想把每个座位都坐满，这样大家都能进来。"
+ },
+ {
+  "seg": 14,
+  "start": 64.923,
+  "end": 72.246,
+  "speaker": "Unknown",
+  "en": "I am just thrilled, and honestly, I don't want to say I'm shocked, because that reveals some level of uncertainty on my part.",
+  "zh": "我非常激动，说实话，我不想说我震惊了，因为那会显得我有些不确定。"
+ },
+ {
+  "seg": 15,
+  "start": 72.667,
+  "end": 79.73,
+  "speaker": "Unknown",
+  "en": "So we won't say shocked, but I'm thrilled that you all are here to talk about",
+  "zh": "所以我们不说震惊，但你们大家能来这里聊"
+ },
+ {
+  "seg": 16,
+  "start": 80.29,
+  "end": 81.27,
+  "speaker": "Unknown",
+  "en": "Building the right thing.",
+  "zh": "打造正确的东西，"
+ },
+ {
+  "seg": 17,
+  "start": 82.01,
+  "end": 82.831,
+  "speaker": "Unknown",
+  "en": "Product engineering.",
+  "zh": "产品工程，我真的很激动。"
+ },
+ {
+  "seg": 18,
+  "start": 83.171,
+  "end": 91.333,
+  "speaker": "Unknown",
+  "en": "Before we get into that, to give people a little bit of time to come in, I want, by a raise of hands, I want to understand who I'm talking to.",
+  "zh": "在我们开始之前，为了给大家一点进场的时间，我想通过举手来了解一下我在跟什么人说话。"
+ },
+ {
+  "seg": 19,
+  "start": 91.713,
+  "end": 102.075,
+  "speaker": "Unknown",
+  "en": "So how many of you would consider yourself at your company, you are like individual contributor, you're maybe not writing the code anymore, who's doing that, but you're like directing the agents to write code?",
+  "zh": "那么，你们当中有多少人在公司里算是个人贡献者，你可能已经不亲自写代码了，是别人在写，但你在指挥智能体写代码？"
+ },
+ {
+  "seg": 20,
+  "start": 102.816,
+  "end": 103.096,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 21,
+  "start": 103.456,
+  "end": 104.816,
+  "speaker": "Unknown",
+  "en": "I kind of figured most of you would be that.",
+  "zh": "我大概猜到你们大多数会是这种。"
+ },
+ {
+  "seg": 22,
+  "start": 105.096,
+  "end": 107.137,
+  "speaker": "Unknown",
+  "en": "What if you were somebody who leads those people?",
+  "zh": "那如果你是带领这些人的人呢？"
+ },
+ {
+  "seg": 23,
+  "start": 107.357,
+  "end": 108.057,
+  "speaker": "Unknown",
+  "en": "And you can be both.",
+  "zh": "你可以两者都是。"
+ },
+ {
+  "seg": 24,
+  "start": 108.887,
+  "end": 109.928,
+  "speaker": "Unknown",
+  "en": "Okay, awesome.",
+  "zh": "好的，很棒。"
+ },
+ {
+  "seg": 25,
+  "start": 110.248,
+  "end": 112.369,
+  "speaker": "Unknown",
+  "en": "What if you were only somebody who leads those people?",
+  "zh": "那如果你只是带领这些人的人呢？"
+ },
+ {
+  "seg": 26,
+  "start": 112.389,
+  "end": 114.95,
+  "speaker": "Unknown",
+  "en": "Okay, okay, we got a couple managers.",
+  "zh": "好的，好的，我们有几位经理。"
+ },
+ {
+  "seg": 27,
+  "start": 115.15,
+  "end": 117.572,
+  "speaker": "Unknown",
+  "en": "All right, what about like product owners?",
+  "zh": "那么，比如产品负责人呢？"
+ },
+ {
+  "seg": 28,
+  "start": 117.772,
+  "end": 119.353,
+  "speaker": "Unknown",
+  "en": "Anybody consider themselves a product owner?",
+  "zh": "有人认为自己是产品负责人吗？"
+ },
+ {
+  "seg": 29,
+  "start": 119.493,
+  "end": 120.954,
+  "speaker": "Unknown",
+  "en": "Okay, sweet.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 30,
+  "start": 121.074,
+  "end": 122.294,
+  "speaker": "Unknown",
+  "en": "Any CEOs in here?",
+  "zh": "这里有 CEO 吗？"
+ },
+ {
+  "seg": 31,
+  "start": 122.495,
+  "end": 123.315,
+  "speaker": "Unknown",
+  "en": "Who's a CEO?",
+  "zh": "谁是 CEO？"
+ },
+ {
+  "seg": 32,
+  "start": 123.895,
+  "end": 126.357,
+  "speaker": "Unknown",
+  "en": "I was just gonna be like, hey, that's cool for being the chief.",
+  "zh": "我本来还想说，嘿，当首席真酷。"
+ },
+ {
+  "seg": 33,
+  "start": 128.598,
+  "end": 129.478,
+  "speaker": "Unknown",
+  "en": "All right, sweet.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 34,
+  "start": 129.638,
+  "end": 131.8,
+  "speaker": "Unknown",
+  "en": "And how many, who has traveled the farthest?",
+  "zh": "还有，谁过来的路途最远？"
+ },
+ {
+  "seg": 35,
+  "start": 131.84,
+  "end": 134.821,
+  "speaker": "Unknown",
+  "en": "I talked to a group of guys over here who traveled from India.",
+  "zh": "我跟这边一群从印度过来的朋友聊过。"
+ },
+ {
+  "seg": 36,
+  "start": 135.262,
+  "end": 137.103,
+  "speaker": "Unknown",
+  "en": "Anybody travel farther from India?",
+  "zh": "有人比从印度过来得更远的吗？"
+ },
+ {
+  "seg": 37,
+  "start": 139.39,
+  "end": 140.071,
+  "speaker": "Unknown",
+  "en": "Oh, Melbourne.",
+  "zh": "哦，墨尔本。"
+ },
+ {
+  "seg": 38,
+  "start": 140.391,
+  "end": 140.731,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 39,
+  "start": 141.152,
+  "end": 143.453,
+  "speaker": "Unknown",
+  "en": "That is one continent I have yet to set foot in.",
+  "zh": "那是我还没踏足过的大陆之一。"
+ },
+ {
+  "seg": 40,
+  "start": 143.634,
+  "end": 144.534,
+  "speaker": "Unknown",
+  "en": "Would like to one day.",
+  "zh": "希望有一天能去。"
+ },
+ {
+  "seg": 41,
+  "start": 145.455,
+  "end": 146.016,
+  "speaker": "Unknown",
+  "en": "Melbourne is nice.",
+  "zh": "墨尔本很不错。"
+ },
+ {
+  "seg": 42,
+  "start": 146.056,
+  "end": 148.478,
+  "speaker": "Unknown",
+  "en": "My sister actually lived in Melbourne for a while.",
+  "zh": "我姐姐实际上在墨尔本住过一段时间。"
+ },
+ {
+  "seg": 43,
+  "start": 148.678,
+  "end": 149.258,
+  "speaker": "Unknown",
+  "en": "She liked it.",
+  "zh": "她挺喜欢的。"
+ },
+ {
+  "seg": 44,
+  "start": 149.538,
+  "end": 150.039,
+  "speaker": "Unknown",
+  "en": "Big bugs.",
+  "zh": "虫子很大。"
+ },
+ {
+  "seg": 45,
+  "start": 152.281,
+  "end": 153.882,
+  "speaker": "Unknown",
+  "en": "Anyone else come from really far away?",
+  "zh": "还有其他人从很远的地方来的吗？"
+ },
+ {
+  "seg": 46,
+  "start": 153.902,
+  "end": 156.104,
+  "speaker": "Unknown",
+  "en": "Yeah, over here.",
+  "zh": "是的，这边。"
+ },
+ {
+  "seg": 47,
+  "start": 157.461,
+  "end": 158.001,
+  "speaker": "Unknown",
+  "en": "Germany.",
+  "zh": "德国。"
+ },
+ {
+  "seg": 48,
+  "start": 158.182,
+  "end": 158.502,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 49,
+  "start": 160.324,
+  "end": 165.988,
+  "speaker": "Unknown",
+  "en": "I was going to be in Germany next week, but I'm in a play with my kids, and so I had to cancel.",
+  "zh": "我本来下周要去德国的，但我和我的孩子们要参演一部戏剧，所以不得不取消了。"
+ },
+ {
+  "seg": 50,
+  "start": 166.129,
+  "end": 166.949,
+  "speaker": "Unknown",
+  "en": "Finding Neverland.",
+  "zh": "《寻找梦幻岛》。"
+ },
+ {
+  "seg": 51,
+  "start": 166.969,
+  "end": 167.93,
+  "speaker": "Unknown",
+  "en": "I'm not a main character.",
+  "zh": "我不是主角。"
+ },
+ {
+  "seg": 52,
+  "start": 168.11,
+  "end": 169.572,
+  "speaker": "Unknown",
+  "en": "That's for next play, maybe.",
+  "zh": "那要等下一场戏了，也许吧。"
+ },
+ {
+  "seg": 53,
+  "start": 171.153,
+  "end": 172.374,
+  "speaker": "Unknown",
+  "en": "Anybody else from far away?",
+  "zh": "还有其他人来自很远的地方吗？"
+ },
+ {
+  "seg": 54,
+  "start": 172.394,
+  "end": 174.456,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "有。"
+ },
+ {
+  "seg": 55,
+  "start": 175.517,
+  "end": 176.157,
+  "speaker": "Unknown",
+  "en": "Brazil!",
+  "zh": "巴西！"
+ },
+ {
+  "seg": 56,
+  "start": 176.337,
+  "end": 177.318,
+  "speaker": "Unknown",
+  "en": "Oh, whoa, dude, what are you?",
+  "zh": "哦，哇，老兄，你在干什么呢？"
+ },
+ {
+  "seg": 57,
+  "start": 177.518,
+  "end": 178.479,
+  "speaker": "Unknown",
+  "en": "Oh, no, the game just ended.",
+  "zh": "哦，不，比赛刚结束。"
+ },
+ {
+  "seg": 58,
+  "start": 178.519,
+  "end": 178.96,
+  "speaker": "Unknown",
+  "en": "Who won?",
+  "zh": "谁赢了？"
+ },
+ {
+  "seg": 59,
+  "start": 180.422,
+  "end": 180.923,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 60,
+  "start": 180.963,
+  "end": 182.824,
+  "speaker": "Unknown",
+  "en": "OK. Good for you guys.",
+  "zh": "好吧。恭喜你们。"
+ },
+ {
+  "seg": 61,
+  "start": 182.924,
+  "end": 184.125,
+  "speaker": "Unknown",
+  "en": "That was an interesting game.",
+  "zh": "那是一场挺有意思的比赛。"
+ },
+ {
+  "seg": 62,
+  "start": 184.145,
+  "end": 184.666,
+  "speaker": "Unknown",
+  "en": "1-1.",
+  "zh": "1 比 1。"
+ },
+ {
+  "seg": 63,
+  "start": 185.447,
+  "end": 186.428,
+  "speaker": "Unknown",
+  "en": "That was for a long time.",
+  "zh": "有很长时间都是这个比分。"
+ },
+ {
+  "seg": 64,
+  "start": 186.948,
+  "end": 187.428,
+  "speaker": "Unknown",
+  "en": "Very cool.",
+  "zh": "太酷了。"
+ },
+ {
+  "seg": 65,
+  "start": 187.468,
+  "end": 187.989,
+  "speaker": "Unknown",
+  "en": "How exciting.",
+  "zh": "多令人激动啊。"
+ },
+ {
+  "seg": 66,
+  "start": 188.069,
+  "end": 189.11,
+  "speaker": "Unknown",
+  "en": "Congratulations, Brazil.",
+  "zh": "恭喜巴西。"
+ },
+ {
+  "seg": 67,
+  "start": 190.871,
+  "end": 195.395,
+  "speaker": "Unknown",
+  "en": "OK. Let's, dang, this stinks that everybody's not in.",
+  "zh": "好了。唉，可惜不是每个人都进来了。"
+ },
+ {
+  "seg": 68,
+  "start": 195.436,
+  "end": 200.5,
+  "speaker": "Unknown",
+  "en": "But it's so exciting that so many people are interested in learning how to build the right thing.",
+  "zh": "但有这么多人有兴趣学习如何构建正确的东西，真是太令人兴奋了。"
+ },
+ {
+  "seg": 69,
+  "start": 200.54,
+  "end": 201.621,
+  "speaker": "Unknown",
+  "en": "But let's get right into it.",
+  "zh": "我们直接进入正题吧。"
+ },
+ {
+  "seg": 70,
+  "start": 202.762,
+  "end": 205.144,
+  "speaker": "Unknown",
+  "en": "Here is my clicker not working.",
+  "zh": "我的翻页器不好使了。"
+ },
+ {
+  "seg": 71,
+  "start": 205.164,
+  "end": 205.785,
+  "speaker": "Unknown",
+  "en": "Let me plug it in.",
+  "zh": "让我把它插上。"
+ },
+ {
+  "seg": 72,
+  "start": 210.92,
+  "end": 211.14,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 73,
+  "start": 214.842,
+  "end": 217.104,
+  "speaker": "Unknown",
+  "en": "Oh, there's an on switch on this clicker.",
+  "zh": "哦，这个翻页器上有个开关。"
+ },
+ {
+  "seg": 74,
+  "start": 218.104,
+  "end": 218.424,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 75,
+  "start": 219.605,
+  "end": 219.885,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "行。"
+ },
+ {
+  "seg": 76,
+  "start": 220.445,
+  "end": 221.366,
+  "speaker": "Unknown",
+  "en": "Here's my thesis.",
+  "zh": "这是我的论点。"
+ },
+ {
+  "seg": 77,
+  "start": 221.786,
+  "end": 225.789,
+  "speaker": "Unknown",
+  "en": "This is the reason that I am talking about this.",
+  "zh": "这就是我要讲这个话题的原因。"
+ },
+ {
+  "seg": 78,
+  "start": 225.929,
+  "end": 229.611,
+  "speaker": "Unknown",
+  "en": "Well, actually, to back it up, here, I'll just back up, since we have a little bit more time.",
+  "zh": "哦，其实，先退一下，我先往回退一点，因为我们还有一点时间。"
+ },
+ {
+  "seg": 79,
+  "start": 230.011,
+  "end": 235.254,
+  "speaker": "Unknown",
+  "en": "To give you a little backstory on myself, I have been developing software for over a decade.",
+  "zh": "给你们讲一点我自己的背景，我从事软件开发已经超过十年了。"
+ },
+ {
+  "seg": 80,
+  "start": 235.774,
+  "end": 240.18,
+  "speaker": "Unknown",
+  "en": "Professionally, I graduated from my university, BYU, in 2014.",
+  "zh": "从职业角度说，我 2014 年从我的大学 BYU 毕业。"
+ },
+ {
+  "seg": 81,
+  "start": 240.801,
+  "end": 243.124,
+  "speaker": "Unknown",
+  "en": "So it's been 12 years since then.",
+  "zh": "所以从那以后已经 12 年了。"
+ },
+ {
+  "seg": 82,
+  "start": 243.144,
+  "end": 249.372,
+  "speaker": "Unknown",
+  "en": "And then I'd been developing software as, like, you know, part-time before that a little bit.",
+  "zh": "而在那之前，我也做过一些兼职的软件开发之类的。"
+ },
+ {
+  "seg": 83,
+  "start": 249.412,
+  "end": 253.417,
+  "speaker": "Unknown",
+  "en": "So yeah, about a half a decade I've been doing software development.",
+  "zh": "所以呢，我大概做了有五年半的软件开发。"
+ },
+ {
+  "seg": 84,
+  "start": 254.178,
+  "end": 263.465,
+  "speaker": "Unknown",
+  "en": "And through all of that, I very quickly got into teaching, whether that was teaching on the side, or eventually in 2019, I went full-time teacher.",
+  "zh": "在这整个过程中，我很快就投入了教学，无论是一边工作一边教学，还是最终在 2019 年，我成为了一名全职教师。"
+ },
+ {
+  "seg": 85,
+  "start": 263.906,
+  "end": 275.315,
+  "speaker": "Unknown",
+  "en": "And that has always been, for me, about teaching experienced software engineers how to, or rather, accelerating the acquisition of experience for experienced software engineers.",
+  "zh": "而这对我来说一直就是，教有经验的软件工程师如何——或者说，为有经验的软件工程师加速获取经验。"
+ },
+ {
+  "seg": 86,
+  "start": 275.375,
+  "end": 276.756,
+  "speaker": "Unknown",
+  "en": "So you don't know how to write tests?",
+  "zh": "所以你不会写测试？"
+ },
+ {
+  "seg": 87,
+  "start": 276.796,
+  "end": 278.537,
+  "speaker": "Unknown",
+  "en": "Well, great, I'm gonna teach you how to write tests.",
+  "zh": "好极了，我来教你写测试。"
+ },
+ {
+  "seg": 88,
+  "start": 278.858,
+  "end": 279.658,
+  "speaker": "Unknown",
+  "en": "You don't know React?",
+  "zh": "你不会 React？"
+ },
+ {
+  "seg": 89,
+  "start": 279.718,
+  "end": 280.659,
+  "speaker": "Unknown",
+  "en": "Great, I'll teach you React.",
+  "zh": "好，我教你 React。"
+ },
+ {
+  "seg": 90,
+  "start": 280.679,
+  "end": 281.52,
+  "speaker": "Unknown",
+  "en": "You don't know Fullstack?",
+  "zh": "你不会全栈？"
+ },
+ {
+  "seg": 91,
+  "start": 281.56,
+  "end": 282.721,
+  "speaker": "Unknown",
+  "en": "I'll teach you Fullstack development.",
+  "zh": "我教你全栈开发。"
+ },
+ {
+  "seg": 92,
+  "start": 283.581,
+  "end": 289.065,
+  "speaker": "Unknown",
+  "en": "And something happened this year that gave some of us a bit of a fright.",
+  "zh": "然后今年发生了一件事，让我们其中一些人有点害怕。"
+ },
+ {
+  "seg": 93,
+  "start": 289.305,
+  "end": 293.748,
+  "speaker": "Unknown",
+  "en": "I know for myself I had two existential crises this year.",
+  "zh": "就我自己而言，我今年经历了两次存在主义危机。"
+ },
+ {
+  "seg": 94,
+  "start": 294.049,
+  "end": 295.57,
+  "speaker": "Unknown",
+  "en": "How many people can relate to that?",
+  "zh": "有多少人能产生共鸣？"
+ },
+ {
+  "seg": 95,
+  "start": 296.315,
+  "end": 306.982,
+  "speaker": "Unknown",
+  "en": "All right, yeah, we all get back from Christmas break or maybe on Christmas break, you're using your agent and you realize, oh my goodness, this thing is better at coding than I am.",
+  "zh": "好吧，是的，我们都从圣诞假期回来——或者也许就在圣诞假期里——你用着你的智能体，然后你意识到，天哪，这家伙写代码比我强。"
+ },
+ {
+  "seg": 96,
+  "start": 307.102,
+  "end": 311.304,
+  "speaker": "Unknown",
+  "en": "Or, okay, maybe it's not quite, but it's gotten a lot better.",
+  "zh": "或者，好吧，也许还没到那个程度，但它已经进步了很多。"
+ },
+ {
+  "seg": 97,
+  "start": 311.505,
+  "end": 322.111,
+  "speaker": "Unknown",
+  "en": "And so my existential crisis was not only am I a software engineer actually building software, but I'm teaching experienced engineers how to get experience in technology they don't have experience in yet.",
+  "zh": "所以我的存在主义危机不仅仅是——我不但真的是一名软件工程师、真的在构建软件，而且我还在教有经验的工程师如何在他们尚未有经验的技术上获取经验。"
+ },
+ {
+  "seg": 98,
+  "start": 322.732,
+  "end": 324.393,
+  "speaker": "Unknown",
+  "en": "But now who needs to learn React?",
+  "zh": "但现在还有谁需要学 React？"
+ },
+ {
+  "seg": 99,
+  "start": 325.113,
+  "end": 334.663,
+  "speaker": "Unknown",
+  "en": "Like, that's just not a, like, if you're an experienced software engineer and you're like, oh, I've done some Vue before or whatever, oh, this project uses React, you don't need a React course for that.",
+  "zh": "就是说，那已经不是一个——就是，如果你是一个有经验的软件工程师，然后你说，哦，我以前用过一点 Vue 之类的，哦，这个项目用的是 React，那你不需要为此上一个 React 课程。"
+ },
+ {
+  "seg": 100,
+  "start": 334.783,
+  "end": 339.708,
+  "speaker": "Unknown",
+  "en": "And me just saying that means I lose money because you could go buy my React course.",
+  "zh": "而我这么说意味着我要亏钱了，因为你可以去买我的 React 课程。"
+ },
+ {
+  "seg": 101,
+  "start": 339.748,
+  "end": 340.91,
+  "speaker": "Unknown",
+  "en": "But I'm telling you right now,",
+  "zh": "但我现在就要告诉你，"
+ },
+ {
+  "seg": 102,
+  "start": 341.31,
+  "end": 345.933,
+  "speaker": "Unknown",
+  "en": "You don't need that because you're an experienced software engineer and you can direct the agent to go build the right thing.",
+  "zh": "你不需要那个，因为你是一个有经验的软件工程师，你可以指挥智能体去构建正确的东西。"
+ },
+ {
+  "seg": 103,
+  "start": 345.993,
+  "end": 348.435,
+  "speaker": "Unknown",
+  "en": "You don't need to know what use state is.",
+  "zh": "你不需要知道 useState 是什么。"
+ },
+ {
+  "seg": 104,
+  "start": 348.455,
+  "end": 350.156,
+  "speaker": "Unknown",
+  "en": "Who cares about any of that anymore?",
+  "zh": "谁还在乎那些东西？"
+ },
+ {
+  "seg": 105,
+  "start": 350.656,
+  "end": 354.539,
+  "speaker": "Unknown",
+  "en": "As long as you have the right building blocks, you can build really anything now.",
+  "zh": "只要你拥有正确的构建模块，你现在几乎可以构建任何东西。"
+ },
+ {
+  "seg": 106,
+  "start": 354.939,
+  "end": 359.322,
+  "speaker": "Unknown",
+  "en": "So existential crisis for me, who needs to learn implementation details anymore?",
+  "zh": "所以对我来说是一场存在危机，还有谁需要去学实现细节呢？"
+ },
+ {
+  "seg": 107,
+  "start": 360.463,
+  "end": 369.99,
+  "speaker": "Unknown",
+  "en": "And so I came down to, yeah, maybe I should just pull up, I have this other talk while everybody's coming in, so you're gonna get a little bit of that one.",
+  "zh": "于是我归结到，好吧，也许我应该直接调出，我有另一个演讲，趁大家还在入场，所以你们会听到那场的一点内容。"
+ },
+ {
+  "seg": 108,
+  "start": 371.667,
+  "end": 373.029,
+  "speaker": "Unknown",
+  "en": "That is sort of related.",
+  "zh": "那个演讲多少有点相关。"
+ },
+ {
+  "seg": 109,
+  "start": 373.069,
+  "end": 376.333,
+  "speaker": "Unknown",
+  "en": "So we'll just do the first part of this one.",
+  "zh": "所以我们就做这一场的第一部分。"
+ },
+ {
+  "seg": 110,
+  "start": 376.914,
+  "end": 379.136,
+  "speaker": "Unknown",
+  "en": "So this is the work.",
+  "zh": "那么这就是工作。"
+ },
+ {
+  "seg": 111,
+  "start": 379.397,
+  "end": 381.219,
+  "speaker": "Unknown",
+  "en": "It's standing up on these two stands.",
+  "zh": "它立在这两个支架上。"
+ },
+ {
+  "seg": 112,
+  "start": 381.379,
+  "end": 384.383,
+  "speaker": "Unknown",
+  "en": "If you don't get the work all the way across, then it's gonna fall over.",
+  "zh": "如果你不把工作完整地架到对面，它就会倒下来。"
+ },
+ {
+  "seg": 113,
+  "start": 384.903,
+  "end": 389.689,
+  "speaker": "Unknown",
+  "en": "Our tools, your IDE, your CI, whatever, and then here's the work that you do.",
+  "zh": "我们的工具，你的 IDE、你的 CI，等等，然后这里是你所做的工作。"
+ },
+ {
+  "seg": 114,
+  "start": 390.089,
+  "end": 390.83,
+  "speaker": "Unknown",
+  "en": "And over time,",
+  "zh": "而随着时间推移，"
+ },
+ {
+  "seg": 115,
+  "start": 392.411,
+  "end": 398.775,
+  "speaker": "Unknown",
+  "en": "Our agents have just been eating into the work that we do, which is wonderful because it means that we have less work that we have to do.",
+  "zh": "我们的智能体一直在蚕食我们所做的工作，这很美妙，因为这意味着我们要做的工作更少了。"
+ },
+ {
+  "seg": 116,
+  "start": 398.835,
+  "end": 401.636,
+  "speaker": "Unknown",
+  "en": "We can accomplish more to get more done.",
+  "zh": "我们可以完成更多，把更多事情做成。"
+ },
+ {
+  "seg": 117,
+  "start": 401.876,
+  "end": 403.237,
+  "speaker": "Unknown",
+  "en": "It's awesome.",
+  "zh": "这太棒了。"
+ },
+ {
+  "seg": 118,
+  "start": 404.297,
+  "end": 407.459,
+  "speaker": "Unknown",
+  "en": "But yeah, it makes you ask yourself, what do you actually do?",
+  "zh": "但是，是的，这会让你问自己，你到底在做什么？"
+ },
+ {
+  "seg": 119,
+  "start": 407.639,
+  "end": 415.043,
+  "speaker": "Unknown",
+  "en": "And here's just total overwhelm of what's prompt engineering and reasoning and loop engineering and flow engineering.",
+  "zh": "这里是铺天盖地的提示词工程、推理、循环工程、流程工程。"
+ },
+ {
+  "seg": 120,
+  "start": 415.183,
+  "end": 418.405,
+  "speaker": "Unknown",
+  "en": "All of these different things that we're supposed to learn, right?",
+  "zh": "所有这些我们都应该去学的东西，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 418.925,
+  "end": 420.766,
+  "speaker": "Unknown",
+  "en": "As an educator, I look at that and I think,",
+  "zh": "作为一名教育者，我看着这些就在想，"
+ },
+ {
+  "seg": 122,
+  "start": 421.739,
+  "end": 424.921,
+  "speaker": "Unknown",
+  "en": "Yes, I could make bank on just every other week.",
+  "zh": "是的，我可以每两周就大赚一笔。"
+ },
+ {
+  "seg": 123,
+  "start": 425.182,
+  "end": 426.523,
+  "speaker": "Unknown",
+  "en": "I do another course.",
+  "zh": "我再做一个课程。"
+ },
+ {
+  "seg": 124,
+  "start": 426.603,
+  "end": 429.725,
+  "speaker": "Unknown",
+  "en": "You come, and I'll teach you how we do things this week.",
+  "zh": "你来了，我教你这周我们怎么做事情。"
+ },
+ {
+  "seg": 125,
+  "start": 430.245,
+  "end": 432.367,
+  "speaker": "Unknown",
+  "en": "And then I'll see you in two weeks, because it's going to be different.",
+  "zh": "然后两周后再见，因为到时候又会不一样了。"
+ },
+ {
+  "seg": 126,
+  "start": 432.387,
+  "end": 434.168,
+  "speaker": "Unknown",
+  "en": "And I'm going to make so much money off of this.",
+  "zh": "我会从这里赚到好多钱。"
+ },
+ {
+  "seg": 127,
+  "start": 435.149,
+  "end": 442.054,
+  "speaker": "Unknown",
+  "en": "As much as I love making money, and I do have six kids I have to take care of, yeah, I'm not into that.",
+  "zh": "尽管我很喜欢赚钱，而且我确实有六个孩子要养活，是的，我不干那种事。"
+ },
+ {
+  "seg": 128,
+  "start": 442.374,
+  "end": 454.223,
+  "speaker": "Unknown",
+  "en": "I would much rather teach you durable skills that you can learn and use long term so you don't have to keep coming back to your dealer or whatever.",
+  "zh": "我更愿意教你那些持久的技能，你可以长期学习和使用，这样你就不用一直回到你的毒贩那里，或者随便什么。"
+ },
+ {
+  "seg": 129,
+  "start": 455.424,
+  "end": 458.686,
+  "speaker": "Unknown",
+  "en": "So we don't know what the future's going to look like.",
+  "zh": "所以我们不知道未来会是什么样子。"
+ },
+ {
+  "seg": 130,
+  "start": 458.826,
+  "end": 459.947,
+  "speaker": "Unknown",
+  "en": "It could look like that.",
+  "zh": "它可能是那样。"
+ },
+ {
+  "seg": 131,
+  "start": 460.167,
+  "end": 460.928,
+  "speaker": "Unknown",
+  "en": "It could look like this.",
+  "zh": "也可能是这样。"
+ },
+ {
+  "seg": 132,
+  "start": 460.988,
+  "end": 462.529,
+  "speaker": "Unknown",
+  "en": "We really just have no idea.",
+  "zh": "我们真的完全不知道。"
+ },
+ {
+  "seg": 133,
+  "start": 466.048,
+  "end": 475.934,
+  "speaker": "Unknown",
+  "en": "The fact is that there is a possible, we can argue this, but there is a possible future where the work is actually completely done by AGI, right?",
+  "zh": "事实是，存在一种可能的——我们可以争论这一点——存在一种可能的未来，工作实际上完全由 AGI 完成，对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 476.774,
+  "end": 481.617,
+  "speaker": "Unknown",
+  "en": "If you think that that is impossible, then I'd love to have a conversation with you about predicting the future.",
+  "zh": "如果你认为那是不可能的，那我很乐意和你聊一聊关于预测未来的话题。"
+ },
+ {
+  "seg": 135,
+  "start": 482.617,
+  "end": 491.482,
+  "speaker": "Unknown",
+  "en": "But I think that this is definitely possible, but it's not very useful to plan for this because who knows what the world is gonna look like if we eventually get to that point.",
+  "zh": "但我认为这绝对是可能的，不过为这个做规划没什么用，因为谁知道等我们最终到达那个节点时，世界会是什么样子。"
+ },
+ {
+  "seg": 136,
+  "start": 492.823,
+  "end": 495.284,
+  "speaker": "Unknown",
+  "en": "What is humanity at that point?",
+  "zh": "那时候的人类是什么？"
+ },
+ {
+  "seg": 137,
+  "start": 495.344,
+  "end": 498.726,
+  "speaker": "Unknown",
+  "en": "So let's take it a step back from that.",
+  "zh": "所以让我们从那里往后退一步。"
+ },
+ {
+  "seg": 138,
+  "start": 498.766,
+  "end": 501.428,
+  "speaker": "Unknown",
+  "en": "So it's doing almost everything, but not everything.",
+  "zh": "那么就是它几乎做所有事，但不是所有事。"
+ },
+ {
+  "seg": 139,
+  "start": 501.808,
+  "end": 503.089,
+  "speaker": "Unknown",
+  "en": "Okay, so it's gonna fall over.",
+  "zh": "好的，所以它要倒下来了。"
+ },
+ {
+  "seg": 140,
+  "start": 503.449,
+  "end": 505.01,
+  "speaker": "Unknown",
+  "en": "It can't fill in that last little gap.",
+  "zh": "它填不上最后那一小段缝隙。"
+ },
+ {
+  "seg": 141,
+  "start": 505.03,
+  "end": 508.713,
+  "speaker": "Unknown",
+  "en": "So there will be a piece that is us filling in that last little slice.",
+  "zh": "所以会有一部分是我们来填补最后那一小块。"
+ },
+ {
+  "seg": 142,
+  "start": 508.733,
+  "end": 513.336,
+  "speaker": "Unknown",
+  "en": "So as I'm thinking about, okay, what do I do as an educator, my interest is that.",
+  "zh": "所以当我在思考，好吧，作为教育者我该做什么，我的兴趣就在那里。"
+ },
+ {
+  "seg": 143,
+  "start": 513.356,
+  "end": 516.017,
+  "speaker": "Unknown",
+  "en": "Okay, let's fast forward time all the way to the future.",
+  "zh": "好吧，让我们把时间快进到未来。"
+ },
+ {
+  "seg": 144,
+  "start": 516.037,
+  "end": 518.159,
+  "speaker": "Unknown",
+  "en": "AGI is here and it's doing everything.",
+  "zh": "AGI 已经到来，它在做所有事。"
+ },
+ {
+  "seg": 145,
+  "start": 518.479,
+  "end": 519.7,
+  "speaker": "Unknown",
+  "en": "Take one step back from that.",
+  "zh": "从那一步往后退一步。"
+ },
+ {
+  "seg": 146,
+  "start": 520.42,
+  "end": 525.481,
+  "speaker": "Unknown",
+  "en": "What is that slice that humans are still doing as software engineers that is still valuable?",
+  "zh": "人类作为软件工程师仍然在做的那一块、仍然有价值的是什么？"
+ },
+ {
+  "seg": 147,
+  "start": 525.881,
+  "end": 528.022,
+  "speaker": "Unknown",
+  "en": "And that is where I came to judgment.",
+  "zh": "而那就是我得出「判断力」这个答案的地方。"
+ },
+ {
+  "seg": 148,
+  "start": 528.702,
+  "end": 533.163,
+  "speaker": "Unknown",
+  "en": "Being able to tell, and not even just judgment, but product engineering in general.",
+  "zh": "能够判断——甚至不只是判断力，而是产品工程的整体。"
+ },
+ {
+  "seg": 149,
+  "start": 533.523,
+  "end": 535.084,
+  "speaker": "Unknown",
+  "en": "Being able to tell what to build.",
+  "zh": "能够判断该构建什么。"
+ },
+ {
+  "seg": 150,
+  "start": 535.124,
+  "end": 537.664,
+  "speaker": "Unknown",
+  "en": "What's the right thing that we should be working on?",
+  "zh": "我们应该做的正确的事情是什么?"
+ },
+ {
+  "seg": 151,
+  "start": 538.904,
+  "end": 540.325,
+  "speaker": "Unknown",
+  "en": "And the metaphor that I like for this,",
+  "zh": "而我喜欢的那个比喻,"
+ },
+ {
+  "seg": 152,
+  "start": 541.245,
+  "end": 541.865,
+  "speaker": "Unknown",
+  "en": "Gosh, okay.",
+  "zh": "天哪,好吧。"
+ },
+ {
+  "seg": 153,
+  "start": 542.286,
+  "end": 550.07,
+  "speaker": "Unknown",
+  "en": "The metaphor that I like for this, and I'll actually bring this up in the talk, the official workshop later, is an archer with arrows.",
+  "zh": "我喜欢的这个比喻,我稍后在正式的研讨会演讲里也会提到它,就是一个拿着箭的弓箭手。"
+ },
+ {
+  "seg": 154,
+  "start": 550.431,
+  "end": 569.703,
+  "speaker": "Unknown",
+  "en": "So you've got your arrows, and you've gotten really good at, like, your product manager tells you, hit that target, and you're like, okay, great, and you aim, you take account the wind, everything, and you hit the target, you're like this dude who is aiming to hit the target through that ring, which is just, and he does it, I just, like, wow.",
+  "zh": "你有你的箭,而且你已经变得非常擅长,比如说,你的产品经理告诉你,射中那个靶子,然后你说,好的,太好了,你瞄准,你把风等等因素都考虑进去,然后你射中了靶子,你就像那个瞄准穿过那个环射中靶子的家伙,这真的,他做到了,我只能说,哇。"
+ },
+ {
+  "seg": 155,
+  "start": 570.523,
+  "end": 571.805,
+  "speaker": "Unknown",
+  "en": "Can you imagine being that good?",
+  "zh": "你能想象自己有那么厉害吗?"
+ },
+ {
+  "seg": 156,
+  "start": 572.146,
+  "end": 574.409,
+  "speaker": "Unknown",
+  "en": "Some of you are that good as software engineers.",
+  "zh": "你们当中有些人作为软件工程师就是这么厉害。"
+ },
+ {
+  "seg": 157,
+  "start": 574.87,
+  "end": 575.932,
+  "speaker": "Unknown",
+  "en": "But see, here's the problem.",
+  "zh": "但是你看,问题在这里。"
+ },
+ {
+  "seg": 158,
+  "start": 576.993,
+  "end": 588.578,
+  "speaker": "Unknown",
+  "en": "The problem is that we have gotten our arrows changed, and now you don't have to be that good to hit the target because, and I realize I'm doing some hand-waving.",
+  "zh": "问题在于我们的箭已经被换掉了,现在你不必那么厉害也能射中靶子,因为,而且我意识到我在做一些含糊其辞。"
+ },
+ {
+  "seg": 159,
+  "start": 588.598,
+  "end": 592.52,
+  "speaker": "Unknown",
+  "en": "Yes, we all know that agents make mistakes, yada, yada, but look at the trajectory.",
+  "zh": "是的,我们都知道智能体会犯错,等等等等,但看看这个发展轨迹。"
+ },
+ {
+  "seg": 160,
+  "start": 593.001,
+  "end": 594.481,
+  "speaker": "Unknown",
+  "en": "They're like homing devices now.",
+  "zh": "它们现在就像自动追踪装置一样。"
+ },
+ {
+  "seg": 161,
+  "start": 595.262,
+  "end": 602.545,
+  "speaker": "Unknown",
+  "en": "And so now not only can you hit any of those targets with ease, but you can actually hit way more targets than you ever possibly could have imagined before.",
+  "zh": "所以现在你不仅能轻松射中任何一个靶子,而且你实际上能射中比以前所能想象的要多得多的靶子。"
+ },
+ {
+  "seg": 162,
+  "start": 603.506,
+  "end": 605.907,
+  "speaker": "Unknown",
+  "en": "And the trick is the fact that",
+  "zh": "而诀窍在于这个事实"
+ },
+ {
+  "seg": 163,
+  "start": 606.867,
+  "end": 613.91,
+  "speaker": "Unknown",
+  "en": "Because of, well, actually, this has always been the case, all the targets are not created equal.",
+  "zh": "因为,嗯,其实一直都是这样,所有靶子并不是生来平等的。"
+ },
+ {
+  "seg": 164,
+  "start": 615.091,
+  "end": 620.233,
+  "speaker": "Unknown",
+  "en": "And so knowing which one of those targets is the valuable thing to hit, that's the differentiator.",
+  "zh": "所以知道那些靶子中哪一个是值得射中的有价值的靶子,这才是差异化的关键。"
+ },
+ {
+  "seg": 165,
+  "start": 620.773,
+  "end": 626.595,
+  "speaker": "Unknown",
+  "en": "Okay, I think that's as much as a, oh yeah, this is, if you have seen Robin Hood Men in Tights, you know this reference.",
+  "zh": "好的,我觉得这就差不多,哦对了,这个是,如果你看过《罗宾汉:王袍加身》这部电影,你就知道这个梗。"
+ },
+ {
+  "seg": 166,
+  "start": 626.635,
+  "end": 629.517,
+  "speaker": "Unknown",
+  "en": "If you haven't, then I'm not gonna show it anyway, so don't worry.",
+  "zh": "如果你没看过,反正我也不会放出来,所以别担心。"
+ },
+ {
+  "seg": 167,
+  "start": 630.577,
+  "end": 630.817,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 168,
+  "start": 631.398,
+  "end": 632.579,
+  "speaker": "Unknown",
+  "en": "We've got enough people in the room.",
+  "zh": "房间里来的人够多了。"
+ },
+ {
+  "seg": 169,
+  "start": 632.619,
+  "end": 634.16,
+  "speaker": "Unknown",
+  "en": "I'm going to get officially started.",
+  "zh": "我要正式开始了。"
+ },
+ {
+  "seg": 170,
+  "start": 634.22,
+  "end": 636.001,
+  "speaker": "Unknown",
+  "en": "So thank you all for joining.",
+  "zh": "所以感谢大家的到来。"
+ },
+ {
+  "seg": 171,
+  "start": 637.422,
+  "end": 639.283,
+  "speaker": "Unknown",
+  "en": "We're going to talk about that skill.",
+  "zh": "我们要谈论的就是那个技能。"
+ },
+ {
+  "seg": 172,
+  "start": 639.323,
+  "end": 640.824,
+  "speaker": "Unknown",
+  "en": "This is what I call the durable skill.",
+  "zh": "这就是我所说的持久技能。"
+ },
+ {
+  "seg": 173,
+  "start": 640.944,
+  "end": 645.007,
+  "speaker": "Unknown",
+  "en": "It's the last skill that the last software engineer needs.",
+  "zh": "它是最后一个软件工程师所需要的最后一项技能。"
+ },
+ {
+  "seg": 174,
+  "start": 645.127,
+  "end": 646.448,
+  "speaker": "Unknown",
+  "en": "It's the last thing that you need to learn.",
+  "zh": "它是你需要学习的最后一样东西。"
+ },
+ {
+  "seg": 175,
+  "start": 647.088,
+  "end": 651.271,
+  "speaker": "Unknown",
+  "en": "And if AI learns this skill, then I don't know what we're going to do.",
+  "zh": "而如果 AI 学会了这项技能,那我就不知道我们该怎么办了。"
+ },
+ {
+  "seg": 176,
+  "start": 651.712,
+  "end": 652.372,
+  "speaker": "Unknown",
+  "en": "But it's not this.",
+  "zh": "但它不是这个。"
+ },
+ {
+  "seg": 177,
+  "start": 655.094,
+  "end": 656.075,
+  "speaker": "Unknown",
+  "en": "This is the thesis.",
+  "zh": "这就是论点。"
+ },
+ {
+  "seg": 178,
+  "start": 656.215,
+  "end": 664.057,
+  "speaker": "Unknown",
+  "en": "When AI agents level the implementation playing field, which they are actively doing, then the differentiator becomes building the right thing.",
+  "zh": "当 AI 智能体拉平了实现层面的竞技场,而它们正在积极地这样做,那么差异化的关键就变成了构建正确的东西。"
+ },
+ {
+  "seg": 179,
+  "start": 664.077,
+  "end": 666.438,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗?"
+ },
+ {
+  "seg": 180,
+  "start": 666.618,
+  "end": 666.998,
+  "speaker": "Unknown",
+  "en": "I'll stop.",
+  "zh": "我会停下来。"
+ },
+ {
+  "seg": 181,
+  "start": 667.018,
+  "end": 668.259,
+  "speaker": "Unknown",
+  "en": "I see some people taking photos.",
+  "zh": "我看到有些人在拍照。"
+ },
+ {
+  "seg": 182,
+  "start": 668.319,
+  "end": 669.859,
+  "speaker": "Unknown",
+  "en": "This is the slide to take a photo of.",
+  "zh": "这就是要拍照的那张幻灯片。"
+ },
+ {
+  "seg": 183,
+  "start": 669.879,
+  "end": 670.74,
+  "speaker": "Unknown",
+  "en": "This is my thesis.",
+  "zh": "这是我的论点。"
+ },
+ {
+  "seg": 184,
+  "start": 670.76,
+  "end": 673.201,
+  "speaker": "Unknown",
+  "en": "The entire workshop depends on this slide.",
+  "zh": "整个研讨会都取决于这张幻灯片。"
+ },
+ {
+  "seg": 185,
+  "start": 673.981,
+  "end": 676.122,
+  "speaker": "Unknown",
+  "en": "I'll bring it up a couple times later.",
+  "zh": "我稍后还会几次提到它。"
+ },
+ {
+  "seg": 186,
+  "start": 676.322,
+  "end": 676.622,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 187,
+  "start": 677.91,
+  "end": 679.051,
+  "speaker": "Unknown",
+  "en": "I hear some of you chuckling.",
+  "zh": "我听到你们有些人在笑。"
+ },
+ {
+  "seg": 188,
+  "start": 679.091,
+  "end": 680.433,
+  "speaker": "Unknown",
+  "en": "How many of you know what this slide is?",
+  "zh": "你们有多少人知道这张幻灯片是什么?"
+ },
+ {
+  "seg": 189,
+  "start": 680.453,
+  "end": 681.674,
+  "speaker": "Unknown",
+  "en": "Have you seen this slide before?",
+  "zh": "你们以前见过这张幻灯片吗?"
+ },
+ {
+  "seg": 190,
+  "start": 682.154,
+  "end": 682.554,
+  "speaker": "Unknown",
+  "en": "Really?",
+  "zh": "真的吗?"
+ },
+ {
+  "seg": 191,
+  "start": 682.755,
+  "end": 684.056,
+  "speaker": "Unknown",
+  "en": "Oh, okay, got a couple.",
+  "zh": "哦,好的,有几个人见过。"
+ },
+ {
+  "seg": 192,
+  "start": 684.316,
+  "end": 685.257,
+  "speaker": "Unknown",
+  "en": "This is very exciting.",
+  "zh": "这非常令人兴奋。"
+ },
+ {
+  "seg": 193,
+  "start": 686.018,
+  "end": 687.379,
+  "speaker": "Unknown",
+  "en": "I do this in every one of my talks.",
+  "zh": "我在我每一场演讲里都这么做。"
+ },
+ {
+  "seg": 194,
+  "start": 687.419,
+  "end": 689.1,
+  "speaker": "Unknown",
+  "en": "I'm going to invite you to please stand.",
+  "zh": "我要邀请大家请起立。"
+ },
+ {
+  "seg": 195,
+  "start": 689.28,
+  "end": 691.122,
+  "speaker": "Unknown",
+  "en": "If you're physically able to join us, please do.",
+  "zh": "如果你身体条件允许的话,请起立。"
+ },
+ {
+  "seg": 196,
+  "start": 692.523,
+  "end": 700.37,
+  "speaker": "Unknown",
+  "en": "Your blood needs to flow in your body for your brain to operate at peak efficiency, which you will need for the next two hours.",
+  "zh": "你的血液需要在身体里流动,你的大脑才能以最高效率运转,而接下来两个小时你会需要它。"
+ },
+ {
+  "seg": 197,
+  "start": 701.207,
+  "end": 701.707,
+  "speaker": "Unknown",
+  "en": "Hour and a half.",
+  "zh": "一个半小时。"
+ },
+ {
+  "seg": 198,
+  "start": 702.328,
+  "end": 704.169,
+  "speaker": "Unknown",
+  "en": "So I want you to put your arms out in front of you like this.",
+  "zh": "所以我要你们像这样把手臂伸到身前。"
+ },
+ {
+  "seg": 199,
+  "start": 704.389,
+  "end": 705.529,
+  "speaker": "Unknown",
+  "en": "Don't hit anybody, please.",
+  "zh": "请不要打到任何人。"
+ },
+ {
+  "seg": 200,
+  "start": 706.09,
+  "end": 707.811,
+  "speaker": "Unknown",
+  "en": "Squat down like this and come back up.",
+  "zh": "像这样蹲下去，然后站起来。"
+ },
+ {
+  "seg": 201,
+  "start": 708.291,
+  "end": 709.432,
+  "speaker": "Unknown",
+  "en": "This is called exercise.",
+  "zh": "这叫做锻炼。"
+ },
+ {
+  "seg": 202,
+  "start": 711.233,
+  "end": 712.033,
+  "speaker": "Unknown",
+  "en": "This is an air squat.",
+  "zh": "这是一个徒手深蹲。"
+ },
+ {
+  "seg": 203,
+  "start": 712.053,
+  "end": 714.555,
+  "speaker": "Unknown",
+  "en": "We'll do 12 of them together, and you need to count out loud with me.",
+  "zh": "我们一起做 12 个，你需要跟我一起大声数数。"
+ },
+ {
+  "seg": 204,
+  "start": 714.615,
+  "end": 716.636,
+  "speaker": "Unknown",
+  "en": "If you're not counting loud enough, I will start over.",
+  "zh": "如果你数得不够大声，我就重新开始。"
+ },
+ {
+  "seg": 205,
+  "start": 716.996,
+  "end": 717.236,
+  "speaker": "Unknown",
+  "en": "Ready?",
+  "zh": "准备好了吗？"
+ },
+ {
+  "seg": 206,
+  "start": 718.477,
+  "end": 718.657,
+  "speaker": "Unknown",
+  "en": "One.",
+  "zh": "一。"
+ },
+ {
+  "seg": 207,
+  "start": 719.017,
+  "end": 719.437,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 208,
+  "start": 719.617,
+  "end": 720.218,
+  "speaker": "Unknown",
+  "en": "Two.",
+  "zh": "二。"
+ },
+ {
+  "seg": 209,
+  "start": 720.518,
+  "end": 721.859,
+  "speaker": "Unknown",
+  "en": "Great, that threat really worked.",
+  "zh": "很好，那个威胁真的管用。"
+ },
+ {
+  "seg": 210,
+  "start": 721.979,
+  "end": 722.319,
+  "speaker": "Unknown",
+  "en": "Three.",
+  "zh": "三。"
+ },
+ {
+  "seg": 211,
+  "start": 722.879,
+  "end": 723.34,
+  "speaker": "Unknown",
+  "en": "Four.",
+  "zh": "你知道，这太有趣了。"
+ },
+ {
+  "seg": 212,
+  "start": 724.26,
+  "end": 724.6,
+  "speaker": "Unknown",
+  "en": "Five.",
+  "zh": "五。"
+ },
+ {
+  "seg": 213,
+  "start": 724.62,
+  "end": 725.461,
+  "speaker": "Unknown",
+  "en": "You're doing so great.",
+  "zh": "你们做得太棒了。"
+ },
+ {
+  "seg": 214,
+  "start": 725.561,
+  "end": 726.542,
+  "speaker": "Unknown",
+  "en": "I see smiles.",
+  "zh": "我看到笑容了。"
+ },
+ {
+  "seg": 215,
+  "start": 726.582,
+  "end": 727.283,
+  "speaker": "Unknown",
+  "en": "You love this.",
+  "zh": "你们喜欢这个。"
+ },
+ {
+  "seg": 216,
+  "start": 727.463,
+  "end": 728.224,
+  "speaker": "Unknown",
+  "en": "Seven.",
+  "zh": "七。"
+ },
+ {
+  "seg": 217,
+  "start": 728.244,
+  "end": 729.164,
+  "speaker": "Unknown",
+  "en": "Eight.",
+  "zh": "八。"
+ },
+ {
+  "seg": 218,
+  "start": 729.224,
+  "end": 730.586,
+  "speaker": "Unknown",
+  "en": "And you can go really deep if you want.",
+  "zh": "想蹲多深都可以蹲得很深。"
+ },
+ {
+  "seg": 219,
+  "start": 730.746,
+  "end": 731.306,
+  "speaker": "Unknown",
+  "en": "Nine.",
+  "zh": "九。"
+ },
+ {
+  "seg": 220,
+  "start": 732.107,
+  "end": 732.307,
+  "speaker": "Unknown",
+  "en": "Ten.",
+  "zh": "十。"
+ },
+ {
+  "seg": 221,
+  "start": 732.327,
+  "end": 733.188,
+  "speaker": "Unknown",
+  "en": "You know, this is so fun.",
+  "zh": "你知道,这太有趣了。"
+ },
+ {
+  "seg": 222,
+  "start": 733.208,
+  "end": 733.708,
+  "speaker": "Unknown",
+  "en": "Let's start over.",
+  "zh": "我们重新开始吧。"
+ },
+ {
+  "seg": 223,
+  "start": 734.249,
+  "end": 734.449,
+  "speaker": "Unknown",
+  "en": "One.",
+  "zh": "一。"
+ },
+ {
+  "seg": 224,
+  "start": 734.529,
+  "end": 735.049,
+  "speaker": "Unknown",
+  "en": "No, just kidding.",
+  "zh": "不，开个玩笑。"
+ },
+ {
+  "seg": 225,
+  "start": 735.57,
+  "end": 735.85,
+  "speaker": "Unknown",
+  "en": "Twelve.",
+  "zh": "十二。"
+ },
+ {
+  "seg": 226,
+  "start": 735.89,
+  "end": 736.751,
+  "speaker": "Unknown",
+  "en": "And then stretch over your head.",
+  "zh": "然后在头顶上方伸展。"
+ },
+ {
+  "seg": 227,
+  "start": 737.511,
+  "end": 738.372,
+  "speaker": "Unknown",
+  "en": "And then over to one side.",
+  "zh": "然后倒向一侧。"
+ },
+ {
+  "seg": 228,
+  "start": 738.692,
+  "end": 739.333,
+  "speaker": "Unknown",
+  "en": "Head over to the other.",
+  "zh": "头再倒向另一侧。"
+ },
+ {
+  "seg": 229,
+  "start": 740.134,
+  "end": 740.514,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 230,
+  "start": 740.634,
+  "end": 740.894,
+  "speaker": "Unknown",
+  "en": "Sweet.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 231,
+  "start": 741.455,
+  "end": 742.155,
+  "speaker": "Unknown",
+  "en": "Go ahead and sit down.",
+  "zh": "请坐下吧。"
+ },
+ {
+  "seg": 232,
+  "start": 742.215,
+  "end": 742.916,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 233,
+  "start": 743.697,
+  "end": 745.118,
+  "speaker": "Unknown",
+  "en": "Your body needs blood flow.",
+  "zh": "你的身体需要血液循环。"
+ },
+ {
+  "seg": 234,
+  "start": 745.138,
+  "end": 745.819,
+  "speaker": "Unknown",
+  "en": "Yes, that's right.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 235,
+  "start": 750.029,
+  "end": 752.89,
+  "speaker": "Unknown",
+  "en": "If you're starting to feel a little sluggish, it is after lunch.",
+  "zh": "如果你开始觉得有点无精打采，现在是午饭后。"
+ },
+ {
+  "seg": 236,
+  "start": 752.95,
+  "end": 756.571,
+  "speaker": "Unknown",
+  "en": "So if you're starting to feel a little sluggish halfway through, just stand up, do it.",
+  "zh": "所以如果你在中途开始觉得有点无精打采，就站起来做一下。"
+ },
+ {
+  "seg": 237,
+  "start": 756.631,
+  "end": 758.032,
+  "speaker": "Unknown",
+  "en": "We all know what's going on.",
+  "zh": "我们都知道是怎么回事。"
+ },
+ {
+  "seg": 238,
+  "start": 758.272,
+  "end": 758.772,
+  "speaker": "Unknown",
+  "en": "It's fine.",
+  "zh": "没关系的。"
+ },
+ {
+  "seg": 239,
+  "start": 759.032,
+  "end": 760.913,
+  "speaker": "Unknown",
+  "en": "There are some seats up here in the front.",
+  "zh": "前面这里有一些座位。"
+ },
+ {
+  "seg": 240,
+  "start": 760.953,
+  "end": 763.094,
+  "speaker": "Unknown",
+  "en": "So if you're standing in the back, it's not awkward.",
+  "zh": "所以如果你站在后面，不会有尴尬的感觉。"
+ },
+ {
+  "seg": 241,
+  "start": 763.374,
+  "end": 764.954,
+  "speaker": "Unknown",
+  "en": "I already told them to be friendly to you.",
+  "zh": "我已经跟他们说要对你们友好。"
+ },
+ {
+  "seg": 242,
+  "start": 765.214,
+  "end": 766.935,
+  "speaker": "Unknown",
+  "en": "So they will be friendly.",
+  "zh": "所以他们会很友好的。"
+ },
+ {
+  "seg": 243,
+  "start": 767.595,
+  "end": 773.118,
+  "speaker": "Unknown",
+  "en": "All right, we are going to, for the workshop, we're gonna be working through an example product, an example app.",
+  "zh": "好了，接下来，在这个工作坊中，我们将通过一个示例产品、一个示例应用来进行实操。"
+ },
+ {
+  "seg": 244,
+  "start": 773.578,
+  "end": 781.381,
+  "speaker": "Unknown",
+  "en": "And so this is a QR code where you can submit your ideas for what that should be and upvote other people's ideas.",
+  "zh": "这是一个二维码，你可以提交你希望它是什么样的想法，并给其他人的想法点赞。"
+ },
+ {
+  "seg": 245,
+  "start": 782.562,
+  "end": 787.504,
+  "speaker": "Unknown",
+  "en": "I'm running a big risk because it means I wasn't able to practice the specifics of what we're doing.",
+  "zh": "我在冒很大的风险，因为这意味着我没能练习我们要做的具体内容。"
+ },
+ {
+  "seg": 246,
+  "start": 787.544,
+  "end": 795.288,
+  "speaker": "Unknown",
+  "en": "So I'm gonna need a lot of feedback from you on the different, how we apply the frameworks we're gonna be talking about.",
+  "zh": "所以我需要你们就我们如何应用将要讨论的框架，给我大量反馈。"
+ },
+ {
+  "seg": 247,
+  "start": 795.868,
+  "end": 797.649,
+  "speaker": "Unknown",
+  "en": "to the example app that we come up with.",
+  "zh": "应用到我们想出来的示例应用上。"
+ },
+ {
+  "seg": 248,
+  "start": 797.989,
+  "end": 803.552,
+  "speaker": "Unknown",
+  "en": "And then also, this is the same QR code, and this is how we're gonna do Q&A.",
+  "zh": "另外，这是同一个二维码，这就是我们进行问答的方式。"
+ },
+ {
+  "seg": 249,
+  "start": 803.992,
+  "end": 805.212,
+  "speaker": "Unknown",
+  "en": "So I will be doing Q&A.",
+  "zh": "所以我会来做问答。"
+ },
+ {
+  "seg": 250,
+  "start": 806.013,
+  "end": 816.798,
+  "speaker": "Unknown",
+  "en": "You can upvote each other's questions all there, and I will put this same QR code at the bottom of every slide, so if you think of a question later, then you can scan it.",
+  "zh": "你们可以在上面互相点赞彼此的问题，我会把同一个二维码放在每一页幻灯片的底部，所以如果你之后想到了问题，就可以扫码提交。"
+ },
+ {
+  "seg": 251,
+  "start": 818.774,
+  "end": 821.716,
+  "speaker": "Unknown",
+  "en": "And I'll come back to the example app that you come up with.",
+  "zh": "而且回头我会讲你们提出来的那个示例应用。"
+ },
+ {
+  "seg": 252,
+  "start": 821.777,
+  "end": 833.568,
+  "speaker": "Unknown",
+  "en": "Feel free to, if you think of any ideas, or actually, as we're working through this, I want you to be thinking about your own application, taking notes about how these frameworks apply to your own application as well.",
+  "zh": "随时欢迎，如果你想到任何点子，或者实际上，在我们推进的过程中，我希望你思考你自己的应用，并做笔记看这些框架如何适用于你自己的应用。"
+ },
+ {
+  "seg": 253,
+  "start": 833.968,
+  "end": 839.653,
+  "speaker": "Unknown",
+  "en": "And I'll be asking you for examples of how you've applied it to your own application.",
+  "zh": "我会要求你们举例说明你们是如何把它应用到自己应用上的。"
+ },
+ {
+  "seg": 254,
+  "start": 839.693,
+  "end": 841.155,
+  "speaker": "Unknown",
+  "en": "So I'm expecting you to do that.",
+  "zh": "所以我期待你们这么做。"
+ },
+ {
+  "seg": 255,
+  "start": 842.396,
+  "end": 846.217,
+  "speaker": "Unknown",
+  "en": "Okay, so the premise here is AI changes the scarce resource.",
+  "zh": "好，这里的立足点是 AI 改变了稀缺资源。"
+ },
+ {
+  "seg": 256,
+  "start": 846.917,
+  "end": 849.778,
+  "speaker": "Unknown",
+  "en": "It's no longer scarce to do implementation.",
+  "zh": "做实现不再是稀缺的了。"
+ },
+ {
+  "seg": 257,
+  "start": 850.298,
+  "end": 853.838,
+  "speaker": "Unknown",
+  "en": "That is a commoditized thing now.",
+  "zh": "那现在是一件已经商品化的事情。"
+ },
+ {
+  "seg": 258,
+  "start": 854.459,
+  "end": 855.899,
+  "speaker": "Unknown",
+  "en": "Again, I'm being a little hand-wavy.",
+  "zh": "再说一次，我这里说得有点笼统。"
+ },
+ {
+  "seg": 259,
+  "start": 855.999,
+  "end": 864.521,
+  "speaker": "Unknown",
+  "en": "I realize that agents aren't perfect and they make mistakes, but we are in a place where agents are getting really, really good and they're only getting better.",
+  "zh": "我知道智能体并不完美，它们会犯错，但我们所处的时代智能体已经非常非常出色，而且只会越来越好。"
+ },
+ {
+  "seg": 260,
+  "start": 864.601,
+  "end": 869.602,
+  "speaker": "Unknown",
+  "en": "So the more valuable thing is deciding what to build, whether it's worth building in the first place.",
+  "zh": "所以更有价值的事情是决定构建什么，以及它一开始是否值得构建。"
+ },
+ {
+  "seg": 261,
+  "start": 870.502,
+  "end": 873.366,
+  "speaker": "Unknown",
+  "en": "And that applies not only to entire apps.",
+  "zh": "而这不仅仅适用于整个应用。"
+ },
+ {
+  "seg": 262,
+  "start": 873.466,
+  "end": 879.113,
+  "speaker": "Unknown",
+  "en": "Like, if you're here and you're like, well, Kent, I work at an enterprise, and it's like internal staff.",
+  "zh": "比如，如果你在这里想的是，好吧 Kent，我在一家企业工作，而且是面向内部员工的。"
+ },
+ {
+  "seg": 263,
+  "start": 880.095,
+  "end": 881.677,
+  "speaker": "Unknown",
+  "en": "I'm not working on new apps every day.",
+  "zh": "我不是每天都在做新应用。"
+ },
+ {
+  "seg": 264,
+  "start": 881.717,
+  "end": 882.718,
+  "speaker": "Unknown",
+  "en": "That's not what this is about.",
+  "zh": "这不是本次演讲要讨论的重点。"
+ },
+ {
+  "seg": 265,
+  "start": 882.738,
+  "end": 885.181,
+  "speaker": "Unknown",
+  "en": "And in fact, I'm more interested in your use case than the startups.",
+  "zh": "事实上，比起创业公司，我对你的用例更感兴趣。"
+ },
+ {
+  "seg": 266,
+  "start": 886.463,
+  "end": 890.846,
+  "speaker": "Unknown",
+  "en": "I'm interested in both, but all these principles we'll talk about apply to both of those.",
+  "zh": "两者我都感兴趣，但我们要谈的所有这些原则对两者都适用。"
+ },
+ {
+  "seg": 267,
+  "start": 891.386,
+  "end": 893.868,
+  "speaker": "Unknown",
+  "en": "So we're moving from can we build it to is it worth building.",
+  "zh": "所以我们正从“我们能不能构建它”转向“它是否值得构建”。"
+ },
+ {
+  "seg": 268,
+  "start": 894.268,
+  "end": 905.576,
+  "speaker": "Unknown",
+  "en": "What's interesting about that is that has always been important, and the best software engineers, the most valuable software engineers at any company were the ones that could answer this question, could help the business get to this answer.",
+  "zh": "这一点有意思的地方在于，它一直都很重要，而最好的软件工程师、任何公司里最有价值的软件工程师，都是那些能够回答这个问题、能帮助企业得出这个答案的人。"
+ },
+ {
+  "seg": 269,
+  "start": 905.596,
+  "end": 906.837,
+  "speaker": "Unknown",
+  "en": "We'll talk about that a little bit, too.",
+  "zh": "我们稍后也会谈谈这一点。"
+ },
+ {
+  "seg": 270,
+  "start": 908.017,
+  "end": 909.738,
+  "speaker": "Unknown",
+  "en": "So we already talked about the arrow metaphor.",
+  "zh": "我们之前已经讲过箭头的比喻了。"
+ },
+ {
+  "seg": 271,
+  "start": 909.758,
+  "end": 915.102,
+  "speaker": "Unknown",
+  "en": "For those of you who missed it, we've gotten really, really good at hitting targets with the agents that we have now.",
+  "zh": "对于错过这部分的人来说：用我们现在的智能体，我们已经非常非常擅长命中目标了。"
+ },
+ {
+  "seg": 272,
+  "start": 915.302,
+  "end": 924.568,
+  "speaker": "Unknown",
+  "en": "There are tons more targets we could possibly hit, and so the real question is which one of the targets we should actually try to aim for, because...",
+  "zh": "还有非常非常多的目标可供我们命中，所以真正的问题是我们应该真正瞄准哪一个目标，因为……"
+ },
+ {
+  "seg": 273,
+  "start": 926.228,
+  "end": 931.313,
+  "speaker": "Unknown",
+  "en": "Maybe you do have infinite money, but I don't, and I can't aim for every one of those targets.",
+  "zh": "也许你确实有无限的资金，但我没有，我没办法瞄准每一个目标。"
+ },
+ {
+  "seg": 274,
+  "start": 931.433,
+  "end": 938.26,
+  "speaker": "Unknown",
+  "en": "And even if you tried, you would probably overwhelm your users anyway, and that would be like a failure mode to use the AI.",
+  "zh": "而且即使你尝试了，你也很可能让用户不堪重负，而那会是使用 AI 的一种失败模式。"
+ },
+ {
+  "seg": 275,
+  "start": 938.56,
+  "end": 942.304,
+  "speaker": "Unknown",
+  "en": "I never used the words failure mode until AI started saying that to me.",
+  "zh": "在 AI 开始对我说“失败模式”这个词之前，我从来没用过这个词。"
+ },
+ {
+  "seg": 276,
+  "start": 942.965,
+  "end": 944.246,
+  "speaker": "Unknown",
+  "en": "But that would be another failure mode.",
+  "zh": "但那会是另一种失败模式。"
+ },
+ {
+  "seg": 277,
+  "start": 945.707,
+  "end": 955.718,
+  "speaker": "Unknown",
+  "en": "So I'm gonna actually be referencing a podcast that I've been running for the last couple months quite a lot in this workshop because they're just really, really smart people and I really like their takes.",
+  "zh": "所以在这个工作坊里，我会相当频繁地引用我这几个月一直在运营的一档播客，因为那些人真的非常非常聪明，我真的很喜欢他们的观点。"
+ },
+ {
+  "seg": 278,
+  "start": 956.159,
+  "end": 957.32,
+  "speaker": "Unknown",
+  "en": "So this is Ben Elegvedu.",
+  "zh": "这位是 Ben Elegvedu。"
+ },
+ {
+  "seg": 279,
+  "start": 957.34,
+  "end": 958.641,
+  "speaker": "Unknown",
+  "en": "This is an upcoming episode.",
+  "zh": "这是一期即将播出的节目。"
+ },
+ {
+  "seg": 280,
+  "start": 958.681,
+  "end": 967.431,
+  "speaker": "Unknown",
+  "en": "He said, it's once development becomes cheap and easy and enables anybody to be able to do it, especially non-technical people, then it's really about the ideas that you have.",
+  "zh": "他说过，一旦开发变得廉价和容易，并且让任何人都能做到，尤其是非技术人员，那么真正的重点就在于你拥有的想法。"
+ },
+ {
+  "seg": 281,
+  "start": 967.871,
+  "end": 984.037,
+  "speaker": "Unknown",
+  "en": "Now, I wouldn't say that we can take our tools that we have today and give it to a non-technical person and expect them to build real software that can be maintained and last for 35 years or whatever, but it's possible we get to that point, and the fact is that the implementation playing field is leveling.",
+  "zh": "当然，我不会说我们能把今天的工具交给一个非技术人员，并指望他们构建出可以维护、能延续 35 年或更久的真正的软件，但有可能我们会到达那个点，而事实是，实现的竞技场正在变得平坦。"
+ },
+ {
+  "seg": 282,
+  "start": 984.258,
+  "end": 995.042,
+  "speaker": "Unknown",
+  "en": "It's in the process of that, so ideas have always been one of the most valuable parts of it, and then, of course, there's execution, but ideas are becoming more valuable relative to that execution.",
+  "zh": "这个过程正在进行中，所以想法一直都是其中最有价值的部分之一，然后当然还有执行，但相对于执行而言，想法正变得更有价值。"
+ },
+ {
+  "seg": 283,
+  "start": 996.282,
+  "end": 999.043,
+  "speaker": "Unknown",
+  "en": "Julius, I'm not sure how to say Julius's name.",
+  "zh": "Julius，我不太确定 Julius 的名字怎么念。"
+ },
+ {
+  "seg": 284,
+  "start": 999.063,
+  "end": 999.643,
+  "speaker": "Unknown",
+  "en": "Sorry, Julius.",
+  "zh": "抱歉，Julius。"
+ },
+ {
+  "seg": 285,
+  "start": 999.663,
+  "end": 1001.244,
+  "speaker": "Unknown",
+  "en": "It's Marming, I think.",
+  "zh": "我想是叫 Marming。"
+ },
+ {
+  "seg": 286,
+  "start": 1002.104,
+  "end": 1012.107,
+  "speaker": "Unknown",
+  "en": "He works on T3 code and a bunch of other T3 universe stuff, but he said that the hard question is deciding whether a feature is worth having or what the long-term consequences are.",
+  "zh": "他做 T3 code 以及 T3 宇宙的其他一堆东西，但他说过，困难的问题在于决定一个功能是否值得拥有，以及它的长期后果是什么。"
+ },
+ {
+  "seg": 287,
+  "start": 1012.227,
+  "end": 1015.728,
+  "speaker": "Unknown",
+  "en": "That is an important part of ownership that we'll talk about here as well.",
+  "zh": "这是所有权（ownership）中很重要的一部分，我们在这里也会谈到。"
+ },
+ {
+  "seg": 288,
+  "start": 1017.412,
+  "end": 1024.295,
+  "speaker": "Unknown",
+  "en": "So it's easy to build to spec and think that, okay, yeah, I'm a software engineer, I build to spec, that's what I do.",
+  "zh": "所以按照规格构建很容易，然后想，好吧，是的，我是软件工程师，我按规格构建，这就是我的工作。"
+ },
+ {
+  "seg": 289,
+  "start": 1025.096,
+  "end": 1028.737,
+  "speaker": "Unknown",
+  "en": "Hand it off and then say my job is done, let me go grab the other thing.",
+  "zh": "交付之后就说我的工作完成了，让我去拿下一个任务吧。"
+ },
+ {
+  "seg": 290,
+  "start": 1029.358,
+  "end": 1033.419,
+  "speaker": "Unknown",
+  "en": "But guess what you look like when you're just taking a ticket and turning it into an implementation?",
+  "zh": "但你猜怎么着,当你只是拿着一张工单把它变成一个实现时,你看起来像什么?"
+ },
+ {
+  "seg": 291,
+  "start": 1033.58,
+  "end": 1036.761,
+  "speaker": "Unknown",
+  "en": "If that's you, you look an awful lot like an agent to me.",
+  "zh": "如果那就是你，在我看来你非常像一个智能体。"
+ },
+ {
+  "seg": 292,
+  "start": 1037.581,
+  "end": 1039.862,
+  "speaker": "Unknown",
+  "en": "Oh, we're gonna play some music, I guess.",
+  "zh": "哦，我们好像要播放点什么音乐。"
+ },
+ {
+  "seg": 293,
+  "start": 1042.437,
+  "end": 1042.857,
+  "speaker": "Unknown",
+  "en": "Turn that off.",
+  "zh": "把它关掉。"
+ },
+ {
+  "seg": 294,
+  "start": 1043.258,
+  "end": 1045.099,
+  "speaker": "Unknown",
+  "en": "I think there's a little play button on this thing.",
+  "zh": "我记得这上面有个播放按钮。"
+ },
+ {
+  "seg": 295,
+  "start": 1045.119,
+  "end": 1047.421,
+  "speaker": "Unknown",
+  "en": "I've never seen what that does until now.",
+  "zh": "直到现在我才知道那个按钮是干什么的。"
+ },
+ {
+  "seg": 296,
+  "start": 1049.082,
+  "end": 1053.046,
+  "speaker": "Unknown",
+  "en": "So very replaceable to just turn a ticket into an implementation.",
+  "zh": "所以，仅仅把一张工单变成一个实现，是非常容易被替代的。"
+ },
+ {
+  "seg": 297,
+  "start": 1053.526,
+  "end": 1063.374,
+  "speaker": "Unknown",
+  "en": "So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.",
+  "zh": "所以一名产品工程师能够认识到，即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。"
+ },
+ {
+  "seg": 298,
+  "start": 1063.734,
+  "end": 1065.496,
+  "speaker": "Unknown",
+  "en": "And that's not just your PM's job.",
+  "zh": "而这不只是你 PM 的工作。"
+ },
+ {
+  "seg": 299,
+  "start": 1066.928,
+  "end": 1070.251,
+  "speaker": "Unknown",
+  "en": "Okay, and then Wayne Allen, brilliant guy, this was an awesome episode.",
+  "zh": "好的，然后是 Wayne Allen，非常聪明的人，那是一期很棒的节目。"
+ },
+ {
+  "seg": 300,
+  "start": 1070.391,
+  "end": 1076.015,
+  "speaker": "Unknown",
+  "en": "He said that the product concern is building the right thing and the engineering concern seems to be building the thing right.",
+  "zh": "他说产品关注点是「做对的东西」，而工程关注点似乎是「把东西做对」。"
+ },
+ {
+  "seg": 301,
+  "start": 1076.956,
+  "end": 1084.262,
+  "speaker": "Unknown",
+  "en": "However, building the right thing is downstream of building the, sorry, I said this wrong on the podcast too when I repeated it too.",
+  "zh": "然而，做对的东西是做……抱歉，我说错了，我在播客里重复这一点的时候也说错了。"
+ },
+ {
+  "seg": 302,
+  "start": 1084.882,
+  "end": 1087.845,
+  "speaker": "Unknown",
+  "en": "Building the thing right is downstream of building the right thing.",
+  "zh": "把东西做对是做对的东西的下游。"
+ },
+ {
+  "seg": 303,
+  "start": 1088.625,
+  "end": 1100.172,
+  "speaker": "Unknown",
+  "en": "So it is very much in your interest as an engineer who wants your company to be successful so that you can continue to receive a paycheck and take your kids out to get milkshakes that night or whatever, you know, with the money that you get.",
+  "zh": "所以，作为一个希望公司成功的工程师，这非常符合你的利益——这样你才能继续领到工资，才能在那天晚上用你挣的钱带孩子去买奶昔之类的。"
+ },
+ {
+  "seg": 304,
+  "start": 1100.192,
+  "end": 1109.138,
+  "speaker": "Unknown",
+  "en": "It's in your best interest to make sure that the upstream activities are coming down so that you have something that's actually going to be valuable to work on.",
+  "zh": "确保上游的活动能够传导下来，让你有真正有价值的工作可做，这是符合你的最佳利益的。"
+ },
+ {
+  "seg": 305,
+  "start": 1110.378,
+  "end": 1112.559,
+  "speaker": "Unknown",
+  "en": "Okay, whoops, there we go.",
+  "zh": "好，哎呀，好了。"
+ },
+ {
+  "seg": 306,
+  "start": 1113.539,
+  "end": 1116.16,
+  "speaker": "Unknown",
+  "en": "Dax Rad, creator of OpenCode.",
+  "zh": "Dax Rad,OpenCode 的创造者。"
+ },
+ {
+  "seg": 307,
+  "start": 1117.121,
+  "end": 1118.461,
+  "speaker": "Unknown",
+  "en": "How many people use OpenCode, by the way?",
+  "zh": "顺便问一句，有多少人在用 OpenCode?"
+ },
+ {
+  "seg": 308,
+  "start": 1118.921,
+  "end": 1120.862,
+  "speaker": "Unknown",
+  "en": "Yeah, OpenCode's pretty cool.",
+  "zh": "是的，OpenCode 挺酷的。"
+ },
+ {
+  "seg": 309,
+  "start": 1121.162,
+  "end": 1127.345,
+  "speaker": "Unknown",
+  "en": "He says that the default place for our new coding agent abilities to go to is work on the wrong things.",
+  "zh": "他说，我们新的编码智能体能力默认都会流向「做错误的事情」。"
+ },
+ {
+  "seg": 310,
+  "start": 1127.645,
+  "end": 1129.466,
+  "speaker": "Unknown",
+  "en": "Products go from good to bad faster than ever.",
+  "zh": "产品从好变坏的速度比以往任何时候都快。"
+ },
+ {
+  "seg": 311,
+  "start": 1129.506,
+  "end": 1132.227,
+  "speaker": "Unknown",
+  "en": "How many people have noticed some of the products you use getting worse?",
+  "zh": "有多少人注意到你在用的一些产品正在变糟？"
+ },
+ {
+  "seg": 312,
+  "start": 1133.055,
+  "end": 1133.955,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "是吧？"
+ },
+ {
+  "seg": 313,
+  "start": 1134.116,
+  "end": 1134.796,
+  "speaker": "Unknown",
+  "en": "I relate to that.",
+  "zh": "我对此深有同感。"
+ },
+ {
+  "seg": 314,
+  "start": 1135.016,
+  "end": 1136.677,
+  "speaker": "Unknown",
+  "en": "The products that I build are getting worse.",
+  "zh": "我做的产品也在变糟。"
+ },
+ {
+  "seg": 315,
+  "start": 1136.737,
+  "end": 1137.197,
+  "speaker": "Unknown",
+  "en": "No, just kidding.",
+  "zh": "不，开玩笑的。"
+ },
+ {
+  "seg": 316,
+  "start": 1137.477,
+  "end": 1140.259,
+  "speaker": "Unknown",
+  "en": "Hopefully they're not the products you build, of course.",
+  "zh": "当然，希望变糟的不是你们做的产品。"
+ },
+ {
+  "seg": 317,
+  "start": 1140.339,
+  "end": 1142.64,
+  "speaker": "Unknown",
+  "en": "No, nobody in this room is doing that.",
+  "zh": "不，这个房间里没有人会那样做。"
+ },
+ {
+  "seg": 318,
+  "start": 1143.38,
+  "end": 1144.401,
+  "speaker": "Unknown",
+  "en": "It's just everybody else.",
+  "zh": "那都是别人家的事。"
+ },
+ {
+  "seg": 319,
+  "start": 1144.841,
+  "end": 1148.043,
+  "speaker": "Unknown",
+  "en": "No, it's just so easy, because the agent's not gonna say, hold up, hold up.",
+  "zh": "不，这真的太容易了，因为智能体不会说：「等等，等等，"
+ },
+ {
+  "seg": 320,
+  "start": 1148.403,
+  "end": 1151.405,
+  "speaker": "Unknown",
+  "en": "Like, I think that we're expanding the system too bad or whatever.",
+  "zh": "我觉得我们在把系统搞得太糟了」之类的。"
+ },
+ {
+  "seg": 321,
+  "start": 1151.805,
+  "end": 1161.631,
+  "speaker": "Unknown",
+  "en": "They might in the future, but no, like, it is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.",
+  "zh": "它们将来可能会，但现在不会，所以，放慢脚步、有意识地决定我们要往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。"
+ },
+ {
+  "seg": 322,
+  "start": 1162.072,
+  "end": 1172.718,
+  "speaker": "Unknown",
+  "en": "And the problem is that agents accelerate bad practices throughout the code base and really do need to be wrangled in, as Shande is talking about here as well.",
+  "zh": "而问题在于，智能体会加速整个代码库中的坏实践，确实需要被约束住，Shande 在这里也谈到了这一点。"
+ },
+ {
+  "seg": 323,
+  "start": 1172.778,
+  "end": 1175.2,
+  "speaker": "Unknown",
+  "en": "So you can move bad faster if you're not careful.",
+  "zh": "所以如果你不小心，你就能更快地把坏东西做出来。"
+ },
+ {
+  "seg": 324,
+  "start": 1176.777,
+  "end": 1180.42,
+  "speaker": "Unknown",
+  "en": "And Rita Kozlov, I just recorded this episode last week with her.",
+  "zh": "还有 Rita Kozlov,我上周刚和她录了一期节目。"
+ },
+ {
+  "seg": 325,
+  "start": 1181.661,
+  "end": 1189.726,
+  "speaker": "Unknown",
+  "en": "She is a, oh shoot, what, a director of product or a VP of product, I think, at Cloudflare.",
+  "zh": "她是……哎呀，是什么来着，我想是 Cloudflare 的产品总监或产品副总裁。"
+ },
+ {
+  "seg": 326,
+  "start": 1190.487,
+  "end": 1192.568,
+  "speaker": "Unknown",
+  "en": "She's a higher up and she's a wonderful, wonderful person.",
+  "zh": "她是一位高层，而且她是个非常非常好的人。"
+ },
+ {
+  "seg": 327,
+  "start": 1193.189,
+  "end": 1200.434,
+  "speaker": "Unknown",
+  "en": "But she said that it's very easy to get the look and feel like really quickly and just decide, you know what, why don't I just ship this?",
+  "zh": "但她说，快速做出外观和感觉是非常容易的，然后就会想：「你猜怎么着，我干脆直接把这个发出去算了？」"
+ },
+ {
+  "seg": 328,
+  "start": 1200.594,
+  "end": 1201.955,
+  "speaker": "Unknown",
+  "en": "So she's on the management,",
+  "zh": "所以她是管理层，"
+ },
+ {
+  "seg": 329,
+  "start": 1203.496,
+  "end": 1205.378,
+  "speaker": "Unknown",
+  "en": "And it's really easy to feel like, oh, I can just ship this.",
+  "zh": "而且很容易产生「哦，我可以直接把这个发出去」的感觉。"
+ },
+ {
+  "seg": 330,
+  "start": 1205.418,
+  "end": 1212.084,
+  "speaker": "Unknown",
+  "en": "But then she says, you can build something that on the surface layer feels functional, but it's not actually scalable, doesn't address edge cases.",
+  "zh": "但接着她说，你可以做出一个在表面层面上看起来功能可用的东西，但它实际上不可扩展、没有处理边界情况。"
+ },
+ {
+  "seg": 331,
+  "start": 1212.845,
+  "end": 1222.154,
+  "speaker": "Unknown",
+  "en": "And the real key, and this is where we come in as product engineers, is to actually take ownership of that, to look at the prototype and be like, yeah, I'm gonna throw this away.",
+  "zh": "而真正的关键，这也是我们作为产品工程师的用武之地，是真正接管这件事，看着原型然后说：「对，我要把它扔掉。"
+ },
+ {
+  "seg": 332,
+  "start": 1223.415,
+  "end": 1233.14,
+  "speaker": "Unknown",
+  "en": "Cursor, whatever, re-implement this in two hours, and it'll, you know, with my framing, my systems thinking and everything, so that I can take ownership and accountability over it.",
+  "zh": "用 Cursor 或者别的什么，两个小时重新实现一遍，用我的框架、我的系统思维等等，这样我就能对它拥有主导权和问责权。」"
+ },
+ {
+  "seg": 333,
+  "start": 1233.16,
+  "end": 1246.507,
+  "speaker": "Unknown",
+  "en": "And the reason that matters is because if you know that you're going to be paged at two in the morning to deal with issues, then you're gonna take a lot of care in the system, in the playground that you create for your agents to make sure that they're successful when they're implementing things.",
+  "zh": "这之所以重要，是因为如果你知道自己会在凌晨两点被叫起来处理问题，你就会非常用心地打造系统、打造你为智能体创建的游乐场，确保它们在实现功能时能够成功。"
+ },
+ {
+  "seg": 334,
+  "start": 1247.287,
+  "end": 1252.07,
+  "speaker": "Unknown",
+  "en": "And Aaron Francis, you can do the wrong thing incredibly fast and feel like you're making a ton of progress.",
+  "zh": "还有 Aaron Francis 说的，你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。"
+ },
+ {
+  "seg": 335,
+  "start": 1252.17,
+  "end": 1253.23,
+  "speaker": "Unknown",
+  "en": "How many people relate to that?",
+  "zh": "有多少人对此有共鸣？"
+ },
+ {
+  "seg": 336,
+  "start": 1253.891,
+  "end": 1259.193,
+  "speaker": "Unknown",
+  "en": "Yeah, so, so bad because you get so far into it and you're like, I can't stop now.",
+  "zh": "是啊，太严重了，因为你已经陷得那么深，你会想：「我现在停不下来了。」"
+ },
+ {
+  "seg": 337,
+  "start": 1259.654,
+  "end": 1261.435,
+  "speaker": "Unknown",
+  "en": "Sunk cost fallacy is not a thing.",
+  "zh": "沉没成本谬误是不存在的。"
+ },
+ {
+  "seg": 338,
+  "start": 1262.055,
+  "end": 1270.399,
+  "speaker": "Unknown",
+  "en": "And yeah, so how to do the right thing incredibly fast or at least directionally correct rather than 10,000 lines of code a day on the wrong freaking thing.",
+  "zh": "是的，所以关键是如何极其快速地做正确的事情，或者至少是方向上正确的，而不是每天在错误的事情上写一万行该死的代码。"
+ },
+ {
+  "seg": 339,
+  "start": 1270.419,
+  "end": 1271.66,
+  "speaker": "Unknown",
+  "en": "It's so irritating.",
+  "zh": "这太让人恼火了。"
+ },
+ {
+  "seg": 340,
+  "start": 1272.685,
+  "end": 1276.99,
+  "speaker": "Unknown",
+  "en": "So a question that I get often, we're gonna get to the interactive bits here in just a second.",
+  "zh": "这是一个我经常被问到的问题，我们马上就会进入互动环节。"
+ },
+ {
+  "seg": 341,
+  "start": 1277.01,
+  "end": 1284.84,
+  "speaker": "Unknown",
+  "en": "I just wanna establish things so nobody leaves the room, that we are not, I'm not saying, now it's time for you to all be product managers.",
+  "zh": "我只是想把一些事情先讲清楚，免得有人带着误解离开这个房间——我不是说，现在到了你们全都去当产品经理的时候了。"
+ },
+ {
+  "seg": 342,
+  "start": 1285.161,
+  "end": 1286.502,
+  "speaker": "Unknown",
+  "en": "That is not what I'm saying at all.",
+  "zh": "我完全不是那个意思。"
+ },
+ {
+  "seg": 343,
+  "start": 1286.803,
+  "end": 1290.747,
+  "speaker": "Unknown",
+  "en": "So let's talk about where the line is between a product engineer and a product manager.",
+  "zh": "那么我们来谈谈产品工程师和产品经理之间的界限在哪里。"
+ },
+ {
+  "seg": 344,
+  "start": 1292.848,
+  "end": 1305.614,
+  "speaker": "Unknown",
+  "en": "Okay, so your job as a product engineer is to connect the customers, the understanding what the customer needs to the technical choices that are being made so that you don't paint yourself into a corner and you don't overbuild.",
+  "zh": "好，你作为产品工程师的工作，是把客户、把对客户需求的理解，与正在做出的技术选择连接起来，这样你才不会把自己逼进死角，也不会过度构建。"
+ },
+ {
+  "seg": 345,
+  "start": 1306.154,
+  "end": 1311.536,
+  "speaker": "Unknown",
+  "en": "So you're gonna decide on the data model and the workflow shape, observability, constraints, failure modes, and the smallest slice.",
+  "zh": "所以你要决定数据模型和工作流的形态、可观测性、约束、故障模式，以及最小切片。"
+ },
+ {
+  "seg": 346,
+  "start": 1311.656,
+  "end": 1320.88,
+  "speaker": "Unknown",
+  "en": "All of these things are technical decisions that you make and you make them better by understanding the upstream where requests are coming in, where the ideas are coming from.",
+  "zh": "所有这些都是你做出的技术决策，而通过理解上游——请求从哪里来、想法从哪里来——你能把这些决策做得更好。"
+ },
+ {
+  "seg": 347,
+  "start": 1323.122,
+  "end": 1323.682,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 1324.223,
+  "end": 1327.286,
+  "speaker": "Unknown",
+  "en": "And we'll dive into each one of these a little bit more here in a second.",
+  "zh": "我们马上会更深入地逐一讨论这些。"
+ },
+ {
+  "seg": 349,
+  "start": 1327.326,
+  "end": 1331.11,
+  "speaker": "Unknown",
+  "en": "So this is one of my favorite, the smallest slice thing.",
+  "zh": "那么，这是我最喜欢的一个，「最小切片」这件事。"
+ },
+ {
+  "seg": 350,
+  "start": 1331.871,
+  "end": 1332.832,
+  "speaker": "Unknown",
+  "en": "I just, I love this.",
+  "zh": "我就是,我太喜欢这个了。"
+ },
+ {
+  "seg": 351,
+  "start": 1333.412,
+  "end": 1335.835,
+  "speaker": "Unknown",
+  "en": "So how many of you have seen this before?",
+  "zh": "那么在座的有多少人以前见过这个?"
+ },
+ {
+  "seg": 352,
+  "start": 1335.855,
+  "end": 1337.376,
+  "speaker": "Unknown",
+  "en": "I'm not sharing anything new, right?",
+  "zh": "我讲的不是什么新东西,对吧?"
+ },
+ {
+  "seg": 353,
+  "start": 1337.456,
+  "end": 1337.657,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 354,
+  "start": 1338.177,
+  "end": 1341.6,
+  "speaker": "Unknown",
+  "en": "So you got your waterfall, okay, by the end, we'll have something useful.",
+  "zh": "你有你的瀑布式开发,好,到最后,我们会有一些有用的东西。"
+ },
+ {
+  "seg": 355,
+  "start": 1341.72,
+  "end": 1344.803,
+  "speaker": "Unknown",
+  "en": "In Agile, it's like we got useful, useful, but it's different every single time.",
+  "zh": "他当时在一家做电话线路之类的公司里制造这些小型计算机,所以他为那个爬上电线杆去修东西的人开发这些软件。"
+ },
+ {
+  "seg": 356,
+  "start": 1344.823,
+  "end": 1346.845,
+  "speaker": "Unknown",
+  "en": "We gotta rebuild it from scratch almost every time.",
+  "zh": "我们几乎每次都得从头重新构建。"
+ },
+ {
+  "seg": 357,
+  "start": 1347.246,
+  "end": 1357.235,
+  "speaker": "Unknown",
+  "en": "In AI, it's like, here's the whole thing, and your job is to whittle it down to the actually useful thing that you're trying to accomplish here.",
+  "zh": "在 AI 里,就像是,这里是整个东西,而你的工作就是把它削减成你在这里真正想要完成的有用的东西。"
+ },
+ {
+  "seg": 358,
+  "start": 1357.355,
+  "end": 1361.619,
+  "speaker": "Unknown",
+  "en": "What's interesting, actually, this image also makes me think of how Instagram started.",
+  "zh": "其实有意思的是,这张图还让我想起了 Instagram 是怎么起家的。"
+ },
+ {
+  "seg": 359,
+  "start": 1362.119,
+  "end": 1369.666,
+  "speaker": "Unknown",
+  "en": "Instagram was originally an app called Bourbon, which was basically a Foursquare clone, so they were having people check in to things.",
+  "zh": "Instagram 最初是一个叫 Bourbon 的应用,基本上是个 Foursquare 的克隆,所以他们是让人们在各种地方签到。"
+ },
+ {
+  "seg": 360,
+  "start": 1369.686,
+  "end": 1371.788,
+  "speaker": "Unknown",
+  "en": "I think it was alcohol-related.",
+  "zh": "我记得它是和酒有关的。"
+ },
+ {
+  "seg": 361,
+  "start": 1371.988,
+  "end": 1375.031,
+  "speaker": "Unknown",
+  "en": "I don't drink alcohol, so I don't know that world very well, but I think that's what it was all.",
+  "zh": "我不喝酒,所以我对那个世界不太了解,但我想就是那么回事。"
+ },
+ {
+  "seg": 362,
+  "start": 1375.151,
+  "end": 1377.453,
+  "speaker": "Unknown",
+  "en": "Bourbon, that's, yeah, I'm just kidding.",
+  "zh": "Bourbon,对,开个玩笑。"
+ },
+ {
+  "seg": 363,
+  "start": 1378.614,
+  "end": 1393.955,
+  "speaker": "Unknown",
+  "en": "But yeah, so they realized after watching user behavior that the only feature anybody really cared about was sharing photos, and so they just gutted everything else and just made it about sharing photos, and they had a pretty nice exit, so good for them.",
+  "zh": "不过是的,他们通过观察用户行为意识到,所有人真正在意的唯一功能就是分享照片,于是他们把其他所有东西都砍掉了,只专注于分享照片,后来他们退出得相当漂亮,所以为他们高兴。"
+ },
+ {
+  "seg": 364,
+  "start": 1395.922,
+  "end": 1402.985,
+  "speaker": "Unknown",
+  "en": "Okay, Uncle Bob was also on the podcast just last week and he had this experience as a software engineer.",
+  "zh": "好的,Uncle Bob 上周也上了这个播客,他有这样一段软件工程师的经历。"
+ },
+ {
+  "seg": 365,
+  "start": 1403.305,
+  "end": 1414.19,
+  "speaker": "Unknown",
+  "en": "He was working making these little mini computers for a company that did like telephone lines and stuff and so he'd make these software for the guy who would go up the telephone pole to fix stuff.",
+  "zh": "他当时在为一家做电话线路之类业务的公司制造这些小型迷你计算机,所以他要为那些爬上电线杆去修理东西的人开发这些软件。"
+ },
+ {
+  "seg": 366,
+  "start": 1414.87,
+  "end": 1417.552,
+  "speaker": "Unknown",
+  "en": "And his boss said, have you ever been on the track?",
+  "zh": "他的老板问他,你上过电线杆吗?"
+ },
+ {
+  "seg": 367,
+  "start": 1417.572,
+  "end": 1419.434,
+  "speaker": "Unknown",
+  "en": "Have you ever, like, seen what it's like?",
+  "zh": "你有没有,比如说,见过那是什么样的?"
+ },
+ {
+  "seg": 368,
+  "start": 1419.454,
+  "end": 1436.166,
+  "speaker": "Unknown",
+  "en": "He's like, no, okay, well, you're getting on the track, you're going out, and he said it totally changed the way that he thinks about building software for people, because that guy's up there trying to use the software while he's hanging off of this pole, and he's realizing, okay, so there's like 30 things I can think of to improve this software to make it easier for that guy to use this.",
+  "zh": "他说,没有,好吧,那你要上电线杆了,你要出去,他说这彻底改变了他为用户构建软件的思考方式,因为那个人挂在电线杆上,还得一边用软件,他这才意识到,好吧,我能想到大约 30 件可以改进这个软件的事,让它对那个人来说更易用。"
+ },
+ {
+  "seg": 369,
+  "start": 1437.327,
+  "end": 1437.607,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 370,
+  "start": 1438.608,
+  "end": 1443.41,
+  "speaker": "Unknown",
+  "en": "Seeing your users use your software is humbling, to say the least.",
+  "zh": "看着你的用户使用你的软件,至少可以说是令人谦卑的。"
+ },
+ {
+  "seg": 371,
+  "start": 1443.97,
+  "end": 1448.292,
+  "speaker": "Unknown",
+  "en": "So in his mind, a product engineer lives half in the technology and half in the customer's house.",
+  "zh": "所以在他看来,产品工程师一半活在技术里,一半活在客户的家里。"
+ },
+ {
+  "seg": 372,
+  "start": 1448.632,
+  "end": 1450.433,
+  "speaker": "Unknown",
+  "en": "There's a deeply human side to product engineering.",
+  "zh": "产品工程有一份深深的人性的一面。"
+ },
+ {
+  "seg": 373,
+  "start": 1450.793,
+  "end": 1454.194,
+  "speaker": "Unknown",
+  "en": "His podcast episode is coming out, I think, tomorrow or the next week.",
+  "zh": "他的那期播客,我记得是明天或者下周就会发布。"
+ },
+ {
+  "seg": 374,
+  "start": 1454.234,
+  "end": 1459.277,
+  "speaker": "Unknown",
+  "en": "So if you're interested in hearing more from him, or really any, every one of these episodes is really good.",
+  "zh": "所以如果你有兴趣听他更多的内容,或者实际上,每一期节目都非常棒。"
+ },
+ {
+  "seg": 375,
+  "start": 1459.297,
+  "end": 1460.597,
+  "speaker": "Unknown",
+  "en": "You should definitely check it out.",
+  "zh": "你绝对应该去看看。"
+ },
+ {
+  "seg": 376,
+  "start": 1460.957,
+  "end": 1467.1,
+  "speaker": "Unknown",
+  "en": "Had Grady Booch on a couple weeks ago, and he also feels that engineering judgment comes from technical experience married to",
+  "zh": "几周前我们请了 Grady Booch,他也认为工程判断力来自技术经验与——"
+ },
+ {
+  "seg": 377,
+  "start": 1468.581,
+  "end": 1479.537,
+  "speaker": "Unknown",
+  "en": "So being able to attach what the human actually needs to that technical expertise you have, that's what makes a product engineer a product engineer, not a product manager.",
+  "zh": "结合,也就是能够把人类真正需要的东西与你拥有的技术专长结合起来,这才是让产品工程师成为产品工程师、而不是产品经理的原因。"
+ },
+ {
+  "seg": 378,
+  "start": 1482.311,
+  "end": 1483.852,
+  "speaker": "Unknown",
+  "en": "Okay, like I said, we've got a ton of these.",
+  "zh": "好的,就像我说的,我们有一大堆这样的内容。"
+ },
+ {
+  "seg": 379,
+  "start": 1483.912,
+  "end": 1486.994,
+  "speaker": "Unknown",
+  "en": "I'm probably over-indexed on the number of quotes.",
+  "zh": "我可能在引用的数量上有点过度倾斜了。"
+ },
+ {
+  "seg": 380,
+  "start": 1487.334,
+  "end": 1488.635,
+  "speaker": "Unknown",
+  "en": "But Ronin is awesome, too.",
+  "zh": "但 Ronin 也很棒。"
+ },
+ {
+  "seg": 381,
+  "start": 1489.435,
+  "end": 1490.576,
+  "speaker": "Unknown",
+  "en": "It's about launching a product.",
+  "zh": "重点在于发布产品。"
+ },
+ {
+  "seg": 382,
+  "start": 1490.636,
+  "end": 1491.877,
+  "speaker": "Unknown",
+  "en": "It's not about the cool API.",
+  "zh": "而不在于那些炫酷的 API。"
+ },
+ {
+  "seg": 383,
+  "start": 1492.077,
+  "end": 1500.603,
+  "speaker": "Unknown",
+  "en": "And in fact, there are so many instances that I can think of where somebody will come to me and just talk about their solution all the time.",
+  "zh": "事实上,我能想到非常多的例子,有人跑来找我,一直在讲他们的解决方案。"
+ },
+ {
+  "seg": 384,
+  "start": 1500.903,
+  "end": 1501.263,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦,哇。"
+ },
+ {
+  "seg": 385,
+  "start": 1501.983,
+  "end": 1507.345,
+  "speaker": "Unknown",
+  "en": "It does this and it does that and it does this and it does that and I'm thinking none of those things matter to me whatsoever.",
+  "zh": "它能做这个,能做那个,能做这个,能做那个,而我心里想的是,这些东西对我来说一点都不重要。"
+ },
+ {
+  "seg": 386,
+  "start": 1508.786,
+  "end": 1516.208,
+  "speaker": "Unknown",
+  "en": "Okay, that's kind of cool but I already do this one thing and it's not so much better that I want to switch from my current workflow to that thing.",
+  "zh": "好吧,这个是挺酷的,但我已经在用某个东西做这件事了,它还没有好到我愿意从现在的工作流切换过去。"
+ },
+ {
+  "seg": 387,
+  "start": 1516.588,
+  "end": 1525.991,
+  "speaker": "Unknown",
+  "en": "And it's just so clear to me that these people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.",
+  "zh": "而且对我来说非常清楚的是,这些人对自己的解决方案兴奋过头,以至于完全迷失了他们本来要为用户解决的问题的主线。"
+ },
+ {
+  "seg": 388,
+  "start": 1527.892,
+  "end": 1537.562,
+  "speaker": "Unknown",
+  "en": "It's really easy to fall into that as an engineer, and therefore, a great way for you to stand out as an engineer at your company is to be a product-minded engineer.",
+  "zh": "作为工程师,很容易掉进这个陷阱,因此,让你在公司里作为工程师脱颖而出的一大方式,就是成为一个有产品思维的工程师。"
+ },
+ {
+  "seg": 389,
+  "start": 1538.082,
+  "end": 1546.39,
+  "speaker": "Unknown",
+  "en": "So you have the technical capabilities, but you also understand what the user is ultimately trying to do and what your company is trying to do to solve their problems.",
+  "zh": "也就是说,你既具备技术能力,同时你也理解用户最终想做什么,以及你的公司想做什么来解决他们的问题。"
+ },
+ {
+  "seg": 390,
+  "start": 1547.251,
+  "end": 1554.642,
+  "speaker": "Unknown",
+  "en": "So, a lot of the decisions that we make as engineers shape what the product ends up being.",
+  "zh": "所以,我们作为工程师做出的很多决策,塑造了产品最终的样子。"
+ },
+ {
+  "seg": 391,
+  "start": 1556.565,
+  "end": 1561.732,
+  "speaker": "Unknown",
+  "en": "And the reason that is so important is because changing architecture is really expensive.",
+  "zh": "而这一点之所以如此重要,是因为改变架构的成本非常高。"
+ },
+ {
+  "seg": 392,
+  "start": 1562.213,
+  "end": 1576.328,
+  "speaker": "Unknown",
+  "en": "You might think, well, no, Kent, it's literally just like, I don't know, a million tokens and I can be from one database to another or I can be from monorepo to microservices or monolith to microservices or whatever.",
+  "zh": "你可能会想,唉,不是吧,Kent,这不就是,我说不好,一百万个 token 的事嘛,我就能从一个数据库迁到另一个,或者从 monorepo 迁到微服务,或者从单体迁到微服务,随便什么。"
+ },
+ {
+  "seg": 393,
+  "start": 1577.529,
+  "end": 1587.36,
+  "speaker": "Unknown",
+  "en": "Depending on the size of your app, maybe that is the case, but it is really expensive on the way that it impacts the rest of the team and on the way it impacts the user.",
+  "zh": "取决于你应用的规模,也许确实是这样,但它真正昂贵的成本在于它对团队其他人的影响,以及它对用户的影响。"
+ },
+ {
+  "seg": 394,
+  "start": 1588.561,
+  "end": 1599.633,
+  "speaker": "Unknown",
+  "en": "Change is expensive, and if you say, okay, well, it's just a couple million tokens, what if I could hire you or I could hire somebody who made the right choice the first time because they understand the product?",
+  "zh": "变更是昂贵的,如果你说,好吧,不过是几百万个 token 的事,那如果我雇的你,或者我雇的某个人,能因为他们理解产品而第一次就做出正确的选择呢?"
+ },
+ {
+  "seg": 395,
+  "start": 1600.033,
+  "end": 1603.895,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm gonna hire the person who can do it right the first time and cost me less.",
+  "zh": "是的,我会雇那个能第一次就做对、而且让我花更少钱的人。"
+ },
+ {
+  "seg": 396,
+  "start": 1604.155,
+  "end": 1605.316,
+  "speaker": "Unknown",
+  "en": "So it's all about the primitives.",
+  "zh": "所以一切都关乎原语。"
+ },
+ {
+  "seg": 397,
+  "start": 1605.436,
+  "end": 1606.957,
+  "speaker": "Unknown",
+  "en": "This is Reese.",
+  "zh": "这是 Reese。"
+ },
+ {
+  "seg": 398,
+  "start": 1606.997,
+  "end": 1610.679,
+  "speaker": "Unknown",
+  "en": "He works, actually, he just made a startup.",
+  "zh": "他在——实际上,他刚创办了一家创业公司。"
+ },
+ {
+  "seg": 399,
+  "start": 1610.879,
+  "end": 1613.06,
+  "speaker": "Unknown",
+  "en": "Really cool dude.",
+  "zh": "非常酷的家伙。"
+ },
+ {
+  "seg": 400,
+  "start": 1613.501,
+  "end": 1616.482,
+  "speaker": "Unknown",
+  "en": "He's saying it's all about having the right primitives that you can build upon.",
+  "zh": "他说,这全在于要有正确的原语让你可以在其上构建。"
+ },
+ {
+  "seg": 401,
+  "start": 1616.502,
+  "end": 1620.585,
+  "speaker": "Unknown",
+  "en": "It's really difficult to build a really great solution on top of those wrong primitives.",
+  "zh": "在错误的原语之上构建一个真正出色的解决方案是非常困难的。"
+ },
+ {
+  "seg": 402,
+  "start": 1620.905,
+  "end": 1623.246,
+  "speaker": "Unknown",
+  "en": "So your engineering expertise matters.",
+  "zh": "所以你的工程专长很重要。"
+ },
+ {
+  "seg": 403,
+  "start": 1623.846,
+  "end": 1626.308,
+  "speaker": "Unknown",
+  "en": "Hopefully that, you know what, dang.",
+  "zh": "希望你们明白了要点。"
+ },
+ {
+  "seg": 404,
+  "start": 1627.158,
+  "end": 1630.04,
+  "speaker": "Unknown",
+  "en": "This is going, I gotta talk about Michael.",
+  "zh": "这个要讲,我得聊聊 Michael。"
+ },
+ {
+  "seg": 405,
+  "start": 1630.26,
+  "end": 1632.241,
+  "speaker": "Unknown",
+  "en": "Who here knows Michael at WorkOS?",
+  "zh": "这里谁知道 WorkOS 的 Michael?"
+ },
+ {
+  "seg": 406,
+  "start": 1632.541,
+  "end": 1653.714,
+  "speaker": "Unknown",
+  "en": "This guy rocks, and WorkOS is really cool, but he, WorkOS is an authentication platform, and he was deciding, okay, so with this new platform, do I make it like a on-prem thing, like I sell you a license, now you can run this authentication thing on-prem, or do I make it like an open source thing with like a commercial arm or whatever?",
+  "zh": "这家伙很棒,WorkOS 也真的很酷,他呢,WorkOS 是一个身份认证平台,他当时在决定,好,有了这个新平台,我是把它做成一个本地部署的东西,就像我卖给你一个许可证,现在你可以把这个身份认证的东西在本地运行,还是把它做成一个开源的东西,再配上一个商业化的部门之类的?"
+ },
+ {
+  "seg": 407,
+  "start": 1654.074,
+  "end": 1665.524,
+  "speaker": "Unknown",
+  "en": "And after interviewing and talking with a lot of customers, he realized, oh, no, if there is some sort of security problem, then we need to push out a fix immediately, and we can't wait for people to upgrade some NPM package for that.",
+  "zh": "在采访并和很多客户交谈之后,他意识到,哦,不行,如果出现某种安全问题,那我们就需要立即推送一个修复,而我们不能等着人们去升级某个 NPM 包。"
+ },
+ {
+  "seg": 408,
+  "start": 1665.844,
+  "end": 1668.827,
+  "speaker": "Unknown",
+  "en": "And so, therefore, I will make it a hosted solution.",
+  "zh": "所以,我决定把它做成一个托管解决方案。"
+ },
+ {
+  "seg": 409,
+  "start": 1669.207,
+  "end": 1681.117,
+  "speaker": "Unknown",
+  "en": "And so, your technical expertise and understanding, married to the understanding of the user and the actual problems, is going to make a significant impact on the direction that you take the product.",
+  "zh": "因此,你的技术专长和理解,与对用户及实际问题的理解相结合,将对你产品方向的抉择产生重大影响。"
+ },
+ {
+  "seg": 410,
+  "start": 1682.158,
+  "end": 1683.058,
+  "speaker": "Unknown",
+  "en": "Oh, gosh.",
+  "zh": "哦,天哪。"
+ },
+ {
+  "seg": 411,
+  "start": 1683.198,
+  "end": 1683.959,
+  "speaker": "Unknown",
+  "en": "You know what?",
+  "zh": "你知道吗?"
+ },
+ {
+  "seg": 412,
+  "start": 1684.479,
+  "end": 1688.42,
+  "speaker": "Unknown",
+  "en": "It's been way too long since you've actually done anything, so we're gonna skip over this.",
+  "zh": "你已经太久没真正做过任何事情了,所以我们跳过这一段。"
+ },
+ {
+  "seg": 413,
+  "start": 1689.441,
+  "end": 1690.501,
+  "speaker": "Unknown",
+  "en": "Hopefully you get the point.",
+  "zh": "希望你明白了这个要点。"
+ },
+ {
+  "seg": 414,
+  "start": 1690.721,
+  "end": 1698.984,
+  "speaker": "Unknown",
+  "en": "There is a line between product manager and product engineer, and both of them need to really understand the actual problems that the user has.",
+  "zh": "产品经理和产品工程师之间有一条界线,而他们两者都需要真正理解用户面临的实际问题。"
+ },
+ {
+  "seg": 415,
+  "start": 1699.584,
+  "end": 1701.025,
+  "speaker": "Unknown",
+  "en": "So, one of the...",
+  "zh": "所以,其中一个……"
+ },
+ {
+  "seg": 416,
+  "start": 1703.64,
+  "end": 1712.342,
+  "speaker": "Unknown",
+  "en": "One of the things that you are doing as a product engineer is building a system for your underlings to be successful in.",
+  "zh": "你作为产品工程师要做的事情之一,就是为你的下属构建一个能让他们成功的系统。"
+ },
+ {
+  "seg": 417,
+  "start": 1714.462,
+  "end": 1722.504,
+  "speaker": "Unknown",
+  "en": "Even years ago, before we had AI agents, you would have a team lead, and their job was to make sure that that system that you're working in is very efficient for you.",
+  "zh": "甚至在多年前,在我们还没有 AI 智能体之前,你会有一个团队主管,他们的工作就是确保你所在工作的那个系统对你来说非常高效。"
+ },
+ {
+  "seg": 418,
+  "start": 1722.564,
+  "end": 1728.845,
+  "speaker": "Unknown",
+  "en": "So you've got good testing, you've got good architecture, it's very obvious which LEGO blocks to put together to build out different features.",
+  "zh": "这样你就有良好的测试,有良好的架构,哪些乐高积木该拼在一起来构建不同的功能非常显而易见。"
+ },
+ {
+  "seg": 419,
+  "start": 1728.905,
+  "end": 1730.225,
+  "speaker": "Unknown",
+  "en": "These primitives are very important.",
+  "zh": "这些原语非常重要。"
+ },
+ {
+  "seg": 420,
+  "start": 1730.925,
+  "end": 1741.089,
+  "speaker": "Unknown",
+  "en": "We are now all team leads over however many agents you're able to run at once, and it's your job to make sure that that playground is a really nice playground and they don't make a ton of mistakes.",
+  "zh": "我们现在都成了团队主管,管着你能同时运行的那若干个智能体,你的工作就是确保那个游乐场是一个非常棒的游乐场,让它们不会犯一大堆错误。"
+ },
+ {
+  "seg": 421,
+  "start": 1741.169,
+  "end": 1745.431,
+  "speaker": "Unknown",
+  "en": "Okay, I'm gonna skip ahead, here we go.",
+  "zh": "好,我要往前跳了,来。"
+ },
+ {
+  "seg": 422,
+  "start": 1745.771,
+  "end": 1751.994,
+  "speaker": "Unknown",
+  "en": "And, gosh, I really wanna get you all doing stuff here really quick, so I don't wanna miss anything.",
+  "zh": "还有,天哪,我真的想很快就让你们动起手来,所以我不想漏掉任何东西。"
+ },
+ {
+  "seg": 423,
+  "start": 1752.874,
+  "end": 1754.315,
+  "speaker": "Unknown",
+  "en": "Oh, hmm.",
+  "zh": "哦,嗯。"
+ },
+ {
+  "seg": 424,
+  "start": 1755.275,
+  "end": 1760.017,
+  "speaker": "Unknown",
+  "en": "Okay, there's so many things that you miss if you don't have product understanding,",
+  "zh": "好,如果你没有产品理解,你会漏掉太多东西,"
+ },
+ {
+  "seg": 425,
+  "start": 1761.939,
+  "end": 1763.181,
+  "speaker": "Unknown",
+  "en": "I just, I gotta tell this story.",
+  "zh": "我 just,我得讲这个故事。"
+ },
+ {
+  "seg": 426,
+  "start": 1763.461,
+  "end": 1764.382,
+  "speaker": "Unknown",
+  "en": "Who knows Don Norman?",
+  "zh": "谁知道 Don Norman?"
+ },
+ {
+  "seg": 427,
+  "start": 1764.743,
+  "end": 1765.624,
+  "speaker": "Unknown",
+  "en": "Ever heard of Don Norman?",
+  "zh": "听说过 Don Norman 吗?"
+ },
+ {
+  "seg": 428,
+  "start": 1765.684,
+  "end": 1767.046,
+  "speaker": "Unknown",
+  "en": "This guy, legend.",
+  "zh": "这家伙,传奇人物。"
+ },
+ {
+  "seg": 429,
+  "start": 1767.266,
+  "end": 1769.449,
+  "speaker": "Unknown",
+  "en": "He's 90 years old, he comes on my podcast.",
+  "zh": "他 90 岁了,他上了我的播客。"
+ },
+ {
+  "seg": 430,
+  "start": 1769.609,
+  "end": 1771.451,
+  "speaker": "Unknown",
+  "en": "Like, that, first of all, is pretty wild.",
+  "zh": "就比如说,首先,这本身就相当惊人。"
+ },
+ {
+  "seg": 431,
+  "start": 1771.531,
+  "end": 1777.619,
+  "speaker": "Unknown",
+  "en": "And he has so much, he, this is the guy who invented the term user experience.",
+  "zh": "而且他有很多,他,这个人就是发明了「用户体验」这个词的人。"
+ },
+ {
+  "seg": 432,
+  "start": 1778.3,
+  "end": 1778.981,
+  "speaker": "Unknown",
+  "en": "When he was at Apple.",
+  "zh": "当时他在苹果。"
+ },
+ {
+  "seg": 433,
+  "start": 1779.141,
+  "end": 1782.104,
+  "speaker": "Unknown",
+  "en": "So like, yeah, kind of a cool dude.",
+  "zh": "所以,是的,算是个挺酷的家伙。"
+ },
+ {
+  "seg": 434,
+  "start": 1782.264,
+  "end": 1784.046,
+  "speaker": "Unknown",
+  "en": "And just a delight to work with.",
+  "zh": "而且和他合作非常愉快。"
+ },
+ {
+  "seg": 435,
+  "start": 1784.086,
+  "end": 1788.971,
+  "speaker": "Unknown",
+  "en": "Well, how many of you are familiar with the Three Mile Island incident?",
+  "zh": "那么,你们有多少人熟悉三里岛事件?"
+ },
+ {
+  "seg": 436,
+  "start": 1789.151,
+  "end": 1791.514,
+  "speaker": "Unknown",
+  "en": "Okay, 1979 in Pennsylvania.",
+  "zh": "好,1979 年在宾夕法尼亚州。"
+ },
+ {
+  "seg": 437,
+  "start": 1791.674,
+  "end": 1792.795,
+  "speaker": "Unknown",
+  "en": "There's a nuclear reactor.",
+  "zh": "有一个核反应堆。"
+ },
+ {
+  "seg": 438,
+  "start": 1793.235,
+  "end": 1794.497,
+  "speaker": "Unknown",
+  "en": "Something terrible goes wrong.",
+  "zh": "出了严重的问题。"
+ },
+ {
+  "seg": 439,
+  "start": 1795.317,
+  "end": 1798.459,
+  "speaker": "Unknown",
+  "en": "And there's a coolant issue and whatever.",
+  "zh": "有一个冷却剂问题之类的。"
+ },
+ {
+  "seg": 440,
+  "start": 1799.02,
+  "end": 1806.244,
+  "speaker": "Unknown",
+  "en": "It was a technical issue and these operators made some bad decisions based off of the technical problems they were experiencing.",
+  "zh": "那是一个技术问题,而这些操作员基于他们所经历的技术问题做出了一些糟糕的决定。"
+ },
+ {
+  "seg": 441,
+  "start": 1806.744,
+  "end": 1809.466,
+  "speaker": "Unknown",
+  "en": "So they bring in Don to come and be like, what happened?",
+  "zh": "于是他们请 Don 来,问他:发生了什么?"
+ },
+ {
+  "seg": 442,
+  "start": 1809.526,
+  "end": 1812.208,
+  "speaker": "Unknown",
+  "en": "Why did these operators make such a terrible decision?",
+  "zh": "为什么这些操作员做出了如此糟糕的决定?"
+ },
+ {
+  "seg": 443,
+  "start": 1813.108,
+  "end": 1815.309,
+  "speaker": "Unknown",
+  "en": "And he looked at the problem totally differently.",
+  "zh": "而他以完全不同的方式看待这个问题。"
+ },
+ {
+  "seg": 444,
+  "start": 1815.389,
+  "end": 1816.229,
+  "speaker": "Unknown",
+  "en": "He said, you know what?",
+  "zh": "他说,你知道吗?"
+ },
+ {
+  "seg": 445,
+  "start": 1816.389,
+  "end": 1817.87,
+  "speaker": "Unknown",
+  "en": "Actually, it was not their fault.",
+  "zh": "其实,那不是他们的错。"
+ },
+ {
+  "seg": 446,
+  "start": 1818.01,
+  "end": 1818.49,
+  "speaker": "Unknown",
+  "en": "They're smart.",
+  "zh": "他们很聪明。"
+ },
+ {
+  "seg": 447,
+  "start": 1819.13,
+  "end": 1819.79,
+  "speaker": "Unknown",
+  "en": "They're competent.",
+  "zh": "他们很有能力。"
+ },
+ {
+  "seg": 448,
+  "start": 1820.27,
+  "end": 1821.411,
+  "speaker": "Unknown",
+  "en": "The problem was the system.",
+  "zh": "问题出在系统上。"
+ },
+ {
+  "seg": 449,
+  "start": 1821.471,
+  "end": 1822.451,
+  "speaker": "Unknown",
+  "en": "The system was wrong.",
+  "zh": "系统是错的。"
+ },
+ {
+  "seg": 450,
+  "start": 1822.771,
+  "end": 1824.092,
+  "speaker": "Unknown",
+  "en": "User error does not exist.",
+  "zh": "用户错误是不存在的。"
+ },
+ {
+  "seg": 451,
+  "start": 1824.252,
+  "end": 1825.372,
+  "speaker": "Unknown",
+  "en": "That is his assertion.",
+  "zh": "那是他的论断。"
+ },
+ {
+  "seg": 452,
+  "start": 1825.692,
+  "end": 1830.854,
+  "speaker": "Unknown",
+  "en": "So if you want to learn more from Don, the Design of Everyday Things is like the canonical book.",
+  "zh": "所以如果你想从 Don 那里学到更多,《设计心理学》(The Design of Everyday Things) 就是那本经典之书。"
+ },
+ {
+  "seg": 453,
+  "start": 1830.894,
+  "end": 1832.615,
+  "speaker": "Unknown",
+  "en": "You absolutely should read or listen to that.",
+  "zh": "你绝对应该去读它或者听它。"
+ },
+ {
+  "seg": 454,
+  "start": 1833.235,
+  "end": 1836.096,
+  "speaker": "Unknown",
+  "en": "And he also wrote Design for a Better World, also really...",
+  "zh": "他还写了《为一个更好的世界而设计》(Design for a Better World),也非常……"
+ },
+ {
+  "seg": 455,
+  "start": 1837.096,
+  "end": 1839.018,
+  "speaker": "Unknown",
+  "en": "Great initiative there too.",
+  "zh": "那也是很棒的举措。"
+ },
+ {
+  "seg": 456,
+  "start": 1839.398,
+  "end": 1840.299,
+  "speaker": "Unknown",
+  "en": "Sorry, I had to jump.",
+  "zh": "抱歉,我必须跳一下。"
+ },
+ {
+  "seg": 457,
+  "start": 1841.22,
+  "end": 1844.383,
+  "speaker": "Unknown",
+  "en": "This guy is fabulous and really understands users.",
+  "zh": "这个人非常了不起,而且真正理解用户。"
+ },
+ {
+  "seg": 458,
+  "start": 1845.023,
+  "end": 1855.173,
+  "speaker": "Unknown",
+  "en": "Okay, so before we get into talking about the specific app and the frameworks that we're gonna get into, I wanted to double check if there are any questions.",
+  "zh": "好的,那么在我们开始谈论具体的 app 以及我们即将讲到的那些框架之前,我想再确认一下有没有什么问题。"
+ },
+ {
+  "seg": 459,
+  "start": 1855.213,
+  "end": 1858.296,
+  "speaker": "Unknown",
+  "en": "So let me pull those up.",
+  "zh": "让我把问题调出来。"
+ },
+ {
+  "seg": 460,
+  "start": 1859.531,
+  "end": 1864.276,
+  "speaker": "Unknown",
+  "en": "And we'll get to our example software here in just a second.",
+  "zh": "我们马上就会讲到我们的示例软件。"
+ },
+ {
+  "seg": 461,
+  "start": 1865.297,
+  "end": 1866.639,
+  "speaker": "Unknown",
+  "en": "We've got one question in here.",
+  "zh": "这里有一个问题。"
+ },
+ {
+  "seg": 462,
+  "start": 1866.719,
+  "end": 1869.702,
+  "speaker": "Unknown",
+  "en": "How many features are too many for an MVP?",
+  "zh": "一个 MVP 有多少功能才算太多?"
+ },
+ {
+  "seg": 463,
+  "start": 1870.623,
+  "end": 1876.769,
+  "speaker": "Unknown",
+  "en": "That depends on, like, tons of factors, but I would actually say that that is the wrong question.",
+  "zh": "这取决于非常多的因素,但我实际上会说这是一个错误的问题。"
+ },
+ {
+  "seg": 464,
+  "start": 1877.67,
+  "end": 1891.621,
+  "speaker": "Unknown",
+  "en": "The question is, and we'll get into some of the frameworks here in a little bit that will kind of help answer this, but the question really is, what is the minimal thing that you can do to demonstrate that you solve a problem for your target audience?",
+  "zh": "问题应该是——我们稍后会讲到一些框架,它们多少能帮助回答这个问题——但真正的问题是,你能做的、能够证明你为目标受众解决了某个问题的最小限度的事情是什么?"
+ },
+ {
+  "seg": 465,
+  "start": 1892.422,
+  "end": 1898.526,
+  "speaker": "Unknown",
+  "en": "And in particular, if you're entering a space that's already overcrowded, you want to niche down as well on that target audience.",
+  "zh": "尤其是,如果你要进入一个已经过度拥挤的领域,你还要在那个目标受众上进一步细分收窄。"
+ },
+ {
+  "seg": 466,
+  "start": 1898.847,
+  "end": 1905.712,
+  "speaker": "Unknown",
+  "en": "So we'll talk a little bit more about this, but since there are no other questions on here, does anybody have a question that they didn't put on here but they want to ask?",
+  "zh": "所以我们会再多聊一点这个,不过既然这里没有其他问题了,有没有人有问题没写在这里但想问的?"
+ },
+ {
+  "seg": 467,
+  "start": 1907.429,
+  "end": 1909.351,
+  "speaker": "Unknown",
+  "en": "Go ahead, you can just yell it and I will repeat it.",
+  "zh": "来吧,你直接喊出来,我来复述。"
+ },
+ {
+  "seg": 468,
+  "start": 1910.352,
+  "end": 1911.292,
+  "speaker": "Unknown",
+  "en": "Oh, we've got a couple.",
+  "zh": "哦,我们收到了几个。"
+ },
+ {
+  "seg": 469,
+  "start": 1911.393,
+  "end": 1912.333,
+  "speaker": "Unknown",
+  "en": "Is there a link to my slides?",
+  "zh": "有我的幻灯片链接吗?"
+ },
+ {
+  "seg": 470,
+  "start": 1912.414,
+  "end": 1913.314,
+  "speaker": "Unknown",
+  "en": "There will be at the end.",
+  "zh": "最后会有。"
+ },
+ {
+  "seg": 471,
+  "start": 1914.976,
+  "end": 1924.544,
+  "speaker": "Unknown",
+  "en": "Right now it's localhost, so I can't, but at the very end there is actually a link to the slides, so ha ha, you have to stay or watch it later.",
+  "zh": "现在它还是 localhost,所以我发不了,但到最后确实会有幻灯片的链接,所以哈哈,你得留到最后,或者以后再看回放。"
+ },
+ {
+  "seg": 472,
+  "start": 1927.327,
+  "end": 1930.53,
+  "speaker": "Unknown",
+  "en": "How do you evaluate software engineers in the hiring process for product engineering?",
+  "zh": "在产品工程师的招聘过程中,你如何评估软件工程师?"
+ },
+ {
+  "seg": 473,
+  "start": 1930.93,
+  "end": 1931.971,
+  "speaker": "Unknown",
+  "en": "Okay, so I,",
+  "zh": "好的,所以我——"
+ },
+ {
+  "seg": 474,
+  "start": 1934.665,
+  "end": 1935.806,
+  "speaker": "Unknown",
+  "en": "This is a great question.",
+  "zh": "这是一个很好的问题。"
+ },
+ {
+  "seg": 475,
+  "start": 1936.967,
+  "end": 1941.029,
+  "speaker": "Unknown",
+  "en": "Hiring is really, really tough, to say the thing that everybody knows already.",
+  "zh": "招聘真的非常非常难,说一句大家都已经知道的话。"
+ },
+ {
+  "seg": 476,
+  "start": 1945.933,
+  "end": 1950.936,
+  "speaker": "Unknown",
+  "en": "Having really good technical expertise, as I explained, is still very important.",
+  "zh": "拥有非常扎实的技术专长,正如我所解释的,仍然非常重要。"
+ },
+ {
+  "seg": 477,
+  "start": 1951.757,
+  "end": 1954.359,
+  "speaker": "Unknown",
+  "en": "I would not be doing coding challenges at all.",
+  "zh": "我完全不会做编程挑战题。"
+ },
+ {
+  "seg": 478,
+  "start": 1955.059,
+  "end": 1955.92,
+  "speaker": "Unknown",
+  "en": "That is, like,",
+  "zh": "那就是,就像,"
+ },
+ {
+  "seg": 479,
+  "start": 1957.723,
+  "end": 1963.387,
+  "speaker": "Unknown",
+  "en": "I certainly wouldn't be doing any coding challenges where I say, no, you are not allowed to use an agent to do this.",
+  "zh": "我肯定不会做任何这样的编程挑战,即说“不,你不允许使用智能体来完成这个”。"
+ },
+ {
+  "seg": 480,
+  "start": 1963.447,
+  "end": 1965.668,
+  "speaker": "Unknown",
+  "en": "Like, what are you hiring them to do?",
+  "zh": "比如,你到底雇他们是来干什么的?"
+ },
+ {
+  "seg": 481,
+  "start": 1965.788,
+  "end": 1969.231,
+  "speaker": "Unknown",
+  "en": "Like, how awful is it to work at your company that I can't use an AI agent?",
+  "zh": "比如,在你们公司工作得有多糟糕啊,我连 AI 智能体都不能用?"
+ },
+ {
+  "seg": 482,
+  "start": 1969.251,
+  "end": 1969.591,
+  "speaker": "Unknown",
+  "en": "Goodness.",
+  "zh": "天哪。"
+ },
+ {
+  "seg": 483,
+  "start": 1969.991,
+  "end": 1972.313,
+  "speaker": "Unknown",
+  "en": "So, no, instead, you're gonna be talking about systems.",
+  "zh": "所以,不,相反,你会去谈论系统。"
+ },
+ {
+  "seg": 484,
+  "start": 1973.313,
+  "end": 1997.986,
+  "speaker": "Unknown",
+  "en": "You're going to be talking about how to, in fact, I would probably take a couple of the things that we're gonna do here in a second, and I would just ask them, like, here's an example, what are the questions that you're going to ask to figure out what the core problem is, and then once they say, okay, yeah, you got what the core problem is, now, from there, what are the system implications from that discovery of the core problem?",
+  "zh": "你要谈论如何——事实上,我可能会拿我们一会儿要做的其中的几件事,然后直接问他们,比如,这里有个例子,你会问哪些问题来弄清楚核心问题是什么,然后一旦他们说,好的,是的,你弄清楚了核心问题是什么,那么接下来,从那个核心问题的发现出发,有哪些系统层面的影响?"
+ },
+ {
+  "seg": 485,
+  "start": 1998.586,
+  "end": 2000.907,
+  "speaker": "Unknown",
+  "en": "That would be how my interview for that would go.",
+  "zh": "我对这个岗位的面试就会是这样进行的。"
+ },
+ {
+  "seg": 486,
+  "start": 2001.067,
+  "end": 2001.748,
+  "speaker": "Unknown",
+  "en": "That's a great question.",
+  "zh": "这是个很好的问题。"
+ },
+ {
+  "seg": 487,
+  "start": 2003.088,
+  "end": 2003.688,
+  "speaker": "Unknown",
+  "en": "I lost it.",
+  "zh": "我弄丢了那个问题。"
+ },
+ {
+  "seg": 488,
+  "start": 2004.169,
+  "end": 2004.369,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 489,
+  "start": 2004.949,
+  "end": 2009.514,
+  "speaker": "Unknown",
+  "en": "When you stop talking to customers and start building, I think that you do both constantly, always.",
+  "zh": "当你停止和客户交谈、开始构建的时候——我认为你要持续地、永远地同时做这两件事。"
+ },
+ {
+  "seg": 490,
+  "start": 2009.894,
+  "end": 2010.795,
+  "speaker": "Unknown",
+  "en": "You do not stop.",
+  "zh": "你不要停下来。"
+ },
+ {
+  "seg": 491,
+  "start": 2011.396,
+  "end": 2013.838,
+  "speaker": "Unknown",
+  "en": "It's a feedback loop that continues to go.",
+  "zh": "它是一个持续运转的反馈循环。"
+ },
+ {
+  "seg": 492,
+  "start": 2014.219,
+  "end": 2019.524,
+  "speaker": "Unknown",
+  "en": "We'll get into this a little bit as we go further on in the workshop here as well.",
+  "zh": "随着工作坊继续深入,我们也会稍微讲到这一点。"
+ },
+ {
+  "seg": 493,
+  "start": 2020.545,
+  "end": 2022.987,
+  "speaker": "Unknown",
+  "en": "Not only what to build, but how to get users to use it.",
+  "zh": "不仅是构建什么,还有如何让用户去使用它。"
+ },
+ {
+  "seg": 494,
+  "start": 2023.068,
+  "end": 2024.329,
+  "speaker": "Unknown",
+  "en": "Traction is the new moat.",
+  "zh": "牵引力(traction)就是新的护城河。"
+ },
+ {
+  "seg": 495,
+  "start": 2025.73,
+  "end": 2028.012,
+  "speaker": "Unknown",
+  "en": "Okay, so I don't actually talk about this specifically.",
+  "zh": "好的,这个我实际上没有专门讲。"
+ },
+ {
+  "seg": 496,
+  "start": 2028.072,
+  "end": 2031.215,
+  "speaker": "Unknown",
+  "en": "Distribution is definitely a difficult problem.",
+  "zh": "分发显然是一个困难的问题。"
+ },
+ {
+  "seg": 497,
+  "start": 2031.275,
+  "end": 2033.657,
+  "speaker": "Unknown",
+  "en": "You just get Theo to talk about it on his YouTube channel.",
+  "zh": "你只要让 Theo 在他的 YouTube 频道上谈谈它就行了。"
+ },
+ {
+  "seg": 498,
+  "start": 2033.817,
+  "end": 2034.337,
+  "speaker": "Unknown",
+  "en": "That's the answer.",
+  "zh": "那就是答案。"
+ },
+ {
+  "seg": 499,
+  "start": 2034.498,
+  "end": 2035.438,
+  "speaker": "Unknown",
+  "en": "No, just kidding.",
+  "zh": "不,开个玩笑。"
+ },
+ {
+  "seg": 500,
+  "start": 2035.919,
+  "end": 2037.84,
+  "speaker": "Unknown",
+  "en": "Yeah, that actually is a really difficult one.",
+  "zh": "是的，这确实是一个很难的问题。"
+ },
+ {
+  "seg": 501,
+  "start": 2038.241,
+  "end": 2045.007,
+  "speaker": "Unknown",
+  "en": "I have heard that people will just spend an unreasonable amount of money on marketing and advertisement, and that seems to work for them.",
+  "zh": "我听说有人会在营销和广告上花多得离谱的钱，而那似乎对他们有效。"
+ },
+ {
+  "seg": 502,
+  "start": 2046.568,
+  "end": 2054.99,
+  "speaker": "Unknown",
+  "en": "Yeah, this is not something we're really going to talk about, and I'm not prepared to answer, so sorry to not be all that helpful with that one.",
+  "zh": "是的，这不是我们真正要谈的话题，我也没准备好回答，所以抱歉在这个问题上帮不上什么忙。"
+ },
+ {
+  "seg": 503,
+  "start": 2056.511,
+  "end": 2060.412,
+  "speaker": "Unknown",
+  "en": "Okay, oh, did I just mark one that I didn't answer?",
+  "zh": "好的，哦，我是不是刚标记了一个我没回答的问题？"
+ },
+ {
+  "seg": 504,
+  "start": 2060.552,
+  "end": 2061.492,
+  "speaker": "Unknown",
+  "en": "What did that question say?",
+  "zh": "那个问题写的是什么？"
+ },
+ {
+  "seg": 505,
+  "start": 2061.992,
+  "end": 2062.892,
+  "speaker": "Unknown",
+  "en": "I think it moved on me.",
+  "zh": "我觉得它自己动了。"
+ },
+ {
+  "seg": 506,
+  "start": 2063.173,
+  "end": 2064.853,
+  "speaker": "Unknown",
+  "en": "There's a bad user experience right there.",
+  "zh": "这就是糟糕的用户体验。"
+ },
+ {
+  "seg": 507,
+  "start": 2065.033,
+  "end": 2067.114,
+  "speaker": "Unknown",
+  "en": "Somebody who works at Slido can go fix that.",
+  "zh": "Slido 的哪位员工可以去把它修一下。"
+ },
+ {
+  "seg": 508,
+  "start": 2068.334,
+  "end": 2068.554,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 509,
+  "start": 2070.404,
+  "end": 2072.286,
+  "speaker": "Unknown",
+  "en": "I'll answer like three more questions, then we'll move on.",
+  "zh": "我会再回答大概三个问题，然后我们继续。"
+ },
+ {
+  "seg": 510,
+  "start": 2072.426,
+  "end": 2075.671,
+  "speaker": "Unknown",
+  "en": "Would you recommend product managers stay in product teams and product engineers?",
+  "zh": "你会建议产品经理留在产品团队和产品工程师团队里吗？"
+ },
+ {
+  "seg": 511,
+  "start": 2075.931,
+  "end": 2076.612,
+  "speaker": "Unknown",
+  "en": "Oh, goodness.",
+  "zh": "哦，天哪。"
+ },
+ {
+  "seg": 512,
+  "start": 2077.073,
+  "end": 2086.065,
+  "speaker": "Unknown",
+  "en": "As far as organization is concerned, often applications end up looking a lot like their org chart, so I would, huh.",
+  "zh": "就组织架构而言，应用程序往往最终看起来很像它们的组织架构图，所以我会，呃。"
+ },
+ {
+  "seg": 513,
+  "start": 2089.018,
+  "end": 2095.38,
+  "speaker": "Unknown",
+  "en": "I definitely feel personally that your product manager should be very integrated with engineering.",
+  "zh": "我个人确实认为，你的产品经理应该与工程部门高度整合。"
+ },
+ {
+  "seg": 514,
+  "start": 2095.48,
+  "end": 2113.425,
+  "speaker": "Unknown",
+  "en": "That communication layer should be very tight and your engineers should also not be siloed from other engineers in the organization because one important thing for a product engineer to do is not only look at their slice of the application but also step back and see at least their neighbors.",
+  "zh": "那个沟通层应该非常紧密，而且你的工程师也不应该和组织里的其他工程师隔离开来，因为产品工程师要做的一件重要的事，不仅是看自己所负责的那一片应用，还要退一步，至少看看自己的相邻部分。"
+ },
+ {
+  "seg": 515,
+  "start": 2114.025,
+  "end": 2120.934,
+  "speaker": "Unknown",
+  "en": "Because if you don't, then you'll end up building things that are already solved for you by other primitives that are within the organization.",
+  "zh": "因为如果你不这么做，你就会造出一些其实组织里其他基础组件已经替你解决的问题。"
+ },
+ {
+  "seg": 516,
+  "start": 2121.635,
+  "end": 2124.699,
+  "speaker": "Unknown",
+  "en": "And so you're just rebuilding those same things.",
+  "zh": "于是你就只是在重复造那些相同的东西。"
+ },
+ {
+  "seg": 517,
+  "start": 2124.739,
+  "end": 2129.505,
+  "speaker": "Unknown",
+  "en": "So you need to at least go one neighbor out and one neighbor up and down.",
+  "zh": "所以你至少要往外看一个邻居，上下也要各看一个邻居。"
+ },
+ {
+  "seg": 518,
+  "start": 2130.145,
+  "end": 2133.087,
+  "speaker": "Unknown",
+  "en": "And this is actually the same with programming languages.",
+  "zh": "而这其实和编程语言是一个道理。"
+ },
+ {
+  "seg": 519,
+  "start": 2133.147,
+  "end": 2146.694,
+  "speaker": "Unknown",
+  "en": "Like, if you're a React developer, then you need to understand how JavaScript and the browser work so that you can use React effectively, even though you're not necessarily using all of the features that are included there because the framework is doing that for you.",
+  "zh": "比如，如果你是一个 React 开发者，那你就需要理解 JavaScript 和浏览器是怎么工作的，这样才能有效地使用 React，即使你不一定用上了其中包含的所有功能，因为框架会替你处理那些。"
+ },
+ {
+  "seg": 520,
+  "start": 2147.034,
+  "end": 2148.095,
+  "speaker": "Unknown",
+  "en": "So it's the same sort of idea.",
+  "zh": "所以是一样的道理。"
+ },
+ {
+  "seg": 521,
+  "start": 2149.836,
+  "end": 2151.677,
+  "speaker": "Unknown",
+  "en": "Tip, highlight the questions that bring the focus.",
+  "zh": "提示：高亮能带来焦点的问题。"
+ },
+ {
+  "seg": 522,
+  "start": 2151.757,
+  "end": 2152.457,
+  "speaker": "Unknown",
+  "en": "How do I highlight?",
+  "zh": "我怎么高亮？"
+ },
+ {
+  "seg": 523,
+  "start": 2152.497,
+  "end": 2153.318,
+  "speaker": "Unknown",
+  "en": "Do I just click on it?",
+  "zh": "我直接点它就行吗？"
+ },
+ {
+  "seg": 524,
+  "start": 2155.377,
+  "end": 2158.183,
+  "speaker": "Unknown",
+  "en": "All right, we're doing a product lesson right now.",
+  "zh": "好了，我们现在正在上一堂产品课。"
+ },
+ {
+  "seg": 525,
+  "start": 2158.945,
+  "end": 2160.248,
+  "speaker": "Unknown",
+  "en": "That is a useful tip.",
+  "zh": "这是个有用的提示。"
+ },
+ {
+  "seg": 526,
+  "start": 2160.288,
+  "end": 2161.129,
+  "speaker": "Unknown",
+  "en": "It seems like a good idea.",
+  "zh": "这看起来是个好主意。"
+ },
+ {
+  "seg": 527,
+  "start": 2161.149,
+  "end": 2161.951,
+  "speaker": "Unknown",
+  "en": "Oh, is that what that is?",
+  "zh": "哦，原来是那个？"
+ },
+ {
+  "seg": 528,
+  "start": 2162.051,
+  "end": 2162.713,
+  "speaker": "Unknown",
+  "en": "All right, there we go.",
+  "zh": "好了，就这样。"
+ },
+ {
+  "seg": 529,
+  "start": 2163.422,
+  "end": 2164.003,
+  "speaker": "Unknown",
+  "en": "User error.",
+  "zh": "用户操作失误。"
+ },
+ {
+  "seg": 530,
+  "start": 2164.483,
+  "end": 2165.384,
+  "speaker": "Unknown",
+  "en": "No, it's not.",
+  "zh": "不，不是。"
+ },
+ {
+  "seg": 531,
+  "start": 2165.544,
+  "end": 2166.344,
+  "speaker": "Unknown",
+  "en": "It doesn't exist.",
+  "zh": "那功能不存在。"
+ },
+ {
+  "seg": 532,
+  "start": 2167.986,
+  "end": 2170.688,
+  "speaker": "Unknown",
+  "en": "Okay, so if I highlight it, okay, that's cool.",
+  "zh": "好的，如果我高亮它，好，很酷。"
+ },
+ {
+  "seg": 533,
+  "start": 2170.728,
+  "end": 2173.43,
+  "speaker": "Unknown",
+  "en": "Should all engineers be product engineers?",
+  "zh": "所有工程师都应该成为产品工程师吗？"
+ },
+ {
+  "seg": 534,
+  "start": 2174.191,
+  "end": 2187.302,
+  "speaker": "Unknown",
+  "en": "Well, in my estimation, if you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
+  "zh": "嗯，在我看来，如果你不是产品工程师，如果你没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。"
+ },
+ {
+  "seg": 535,
+  "start": 2187.562,
+  "end": 2189.183,
+  "speaker": "Unknown",
+  "en": "I don't want to be alarmist or whatever,",
+  "zh": "我不想危言耸听或者怎样，"
+ },
+ {
+  "seg": 536,
+  "start": 2191.285,
+  "end": 2200.288,
+  "speaker": "Unknown",
+  "en": "It does seem like if all you're doing is listening to somebody tell you what to do and then turning that into a code implementation, that part seems like it's pretty replaceable.",
+  "zh": "但看起来如果你所做的只是听别人告诉你该做什么，然后把它转化为代码实现，这一部分似乎相当容易被取代。"
+ },
+ {
+  "seg": 537,
+  "start": 2200.488,
+  "end": 2206.269,
+  "speaker": "Unknown",
+  "en": "If you don't understand the product, then the system you build will not solve the user's problem well.",
+  "zh": "如果你不理解产品，那么你构建的系统就不会很好地解决用户的问题。"
+ },
+ {
+  "seg": 538,
+  "start": 2206.789,
+  "end": 2212.451,
+  "speaker": "Unknown",
+  "en": "Okay, I think we will come back to these questions as they're voted up a little bit more later.",
+  "zh": "好的，我想等这些问题被投更多票之后，我们稍后会再回到这些问题。"
+ },
+ {
+  "seg": 539,
+  "start": 2212.491,
+  "end": 2213.991,
+  "speaker": "Unknown",
+  "en": "So, after...",
+  "zh": "那么，在……"
+ },
+ {
+  "seg": 540,
+  "start": 2216.295,
+  "end": 2220.618,
+  "speaker": "Unknown",
+  "en": "Quite a while into the workshop, we're gonna finally talk about what the workshop is gonna be talking about.",
+  "zh": "工作坊进行了相当长一段时间之后，我们终于要谈谈这个工作坊要讲什么了。"
+ },
+ {
+  "seg": 541,
+  "start": 2220.638,
+  "end": 2227.823,
+  "speaker": "Unknown",
+  "en": "So, what I want you to leave with is frameworks for early idea validation.",
+  "zh": "所以，我希望你们带走的是早期想法验证的框架。"
+ },
+ {
+  "seg": 542,
+  "start": 2227.843,
+  "end": 2229.144,
+  "speaker": "Unknown",
+  "en": "How many of you have heard of the mom test?",
+  "zh": "你们有多少人听说过 mom test？"
+ },
+ {
+  "seg": 543,
+  "start": 2229.705,
+  "end": 2231.526,
+  "speaker": "Unknown",
+  "en": "Okay, sweet, so we'll be talking about that a little bit.",
+  "zh": "好，很好，我们会稍微讲一下那个。"
+ },
+ {
+  "seg": 544,
+  "start": 2232.107,
+  "end": 2234.508,
+  "speaker": "Unknown",
+  "en": "Framing user request jobs theory, anybody?",
+  "zh": "框定用户请求的 jobs theory，有人听过吗？"
+ },
+ {
+  "seg": 545,
+  "start": 2234.528,
+  "end": 2236.57,
+  "speaker": "Unknown",
+  "en": "Okay, sweet.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 546,
+  "start": 2236.59,
+  "end": 2238.892,
+  "speaker": "Unknown",
+  "en": "And prioritizing software changes, Kano model.",
+  "zh": "还有软件变更的优先级排序，Kano model。"
+ },
+ {
+  "seg": 547,
+  "start": 2239.632,
+  "end": 2246.338,
+  "speaker": "Unknown",
+  "en": "Okay, yeah, so one of you raised your hand three times, so I invite you to come up and you can talk about this.",
+  "zh": "好，是的，你们中有一个人举了三次手，所以我邀请你上台来，你可以讲讲这个。"
+ },
+ {
+  "seg": 548,
+  "start": 2246.398,
+  "end": 2247.88,
+  "speaker": "Unknown",
+  "en": "No, just kidding.",
+  "zh": "不，开个玩笑。"
+ },
+ {
+  "seg": 549,
+  "start": 2247.98,
+  "end": 2249.461,
+  "speaker": "Unknown",
+  "en": "Okay, so here we go.",
+  "zh": "好，我们开始。"
+ },
+ {
+  "seg": 550,
+  "start": 2249.521,
+  "end": 2250.522,
+  "speaker": "Unknown",
+  "en": "This is the dangerous thing.",
+  "zh": "这就是危险的地方。"
+ },
+ {
+  "seg": 551,
+  "start": 2250.582,
+  "end": 2254.526,
+  "speaker": "Unknown",
+  "en": "What is the idea that we're going to be framing things around?",
+  "zh": "我们要围绕什么想法来展开？"
+ },
+ {
+  "seg": 552,
+  "start": 2254.626,
+  "end": 2255.727,
+  "speaker": "Unknown",
+  "en": "And this is a risk.",
+  "zh": "这是有风险的。"
+ },
+ {
+  "seg": 553,
+  "start": 2255.787,
+  "end": 2259.07,
+  "speaker": "Unknown",
+  "en": "I've never given this talk before, so this might go really, really poorly.",
+  "zh": "我以前从没做过这个演讲，所以可能会搞砸得很惨。"
+ },
+ {
+  "seg": 554,
+  "start": 2259.991,
+  "end": 2261.953,
+  "speaker": "Unknown",
+  "en": "Hopefully not, but let's look at...",
+  "zh": "希望不会，不过我们来看看……"
+ },
+ {
+  "seg": 555,
+  "start": 2262.921,
+  "end": 2271.423,
+  "speaker": "Unknown",
+  "en": "What we got, the top voted, ooh, with fire, is an app that gets people into conference workshop sessions.",
+  "zh": "我们拿到了，得票最高的，哦，加火，是一个能让人们进入会议工作坊环节的应用。"
+ },
+ {
+  "seg": 556,
+  "start": 2271.483,
+  "end": 2274.144,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, I literally am going to do that.",
+  "zh": "是啊，好，我真的就要做这个了。"
+ },
+ {
+  "seg": 557,
+  "start": 2274.464,
+  "end": 2277.144,
+  "speaker": "Unknown",
+  "en": "Okay, what should we call it?",
+  "zh": "好，我们应该叫它什么？"
+ },
+ {
+  "seg": 558,
+  "start": 2277.525,
+  "end": 2281.586,
+  "speaker": "Unknown",
+  "en": "What's our short, how about lightning lane workshop?",
+  "zh": "我们的简称，叫闪电通道工作坊怎么样？"
+ },
+ {
+  "seg": 559,
+  "start": 2282.806,
+  "end": 2284.906,
+  "speaker": "Unknown",
+  "en": "Call back to Disneyland, right?",
+  "zh": "呼应迪士尼乐园，对吧？"
+ },
+ {
+  "seg": 560,
+  "start": 2285.026,
+  "end": 2285.867,
+  "speaker": "Unknown",
+  "en": "Lightning lanes, yeah.",
+  "zh": "闪电通道，对。"
+ },
+ {
+  "seg": 561,
+  "start": 2286.307,
+  "end": 2287.487,
+  "speaker": "Unknown",
+  "en": "Lightning lane.",
+  "zh": "闪电通道。"
+ },
+ {
+  "seg": 562,
+  "start": 2289.472,
+  "end": 2291.553,
+  "speaker": "Unknown",
+  "en": "Oh, there, that's so good, just get in.",
+  "zh": "哦，有了，这太棒了，就叫 Just Get In。"
+ },
+ {
+  "seg": 563,
+  "start": 2292.213,
+  "end": 2292.913,
+  "speaker": "Unknown",
+  "en": "Oh, I love that.",
+  "zh": "哦，我喜欢这个。"
+ },
+ {
+  "seg": 564,
+  "start": 2294.974,
+  "end": 2295.654,
+  "speaker": "Unknown",
+  "en": "Just get in.",
+  "zh": "Just Get In。"
+ },
+ {
+  "seg": 565,
+  "start": 2296.235,
+  "end": 2299.896,
+  "speaker": "Unknown",
+  "en": "I don't know, like, are some of you thinking, like, weird things?",
+  "zh": "我不知道，你们中是不是有人在想一些奇怪的东西？"
+ },
+ {
+  "seg": 566,
+  "start": 2300.576,
+  "end": 2301.717,
+  "speaker": "Unknown",
+  "en": "The workshop.",
+  "zh": "工作坊。"
+ },
+ {
+  "seg": 567,
+  "start": 2303.757,
+  "end": 2304.918,
+  "speaker": "Unknown",
+  "en": "Man, you sick people.",
+  "zh": "天哪,你们这些病态的人。"
+ },
+ {
+  "seg": 568,
+  "start": 2307.239,
+  "end": 2308.359,
+  "speaker": "Unknown",
+  "en": "I just heard everybody laughing.",
+  "zh": "我刚听到所有人都在笑。"
+ },
+ {
+  "seg": 569,
+  "start": 2308.379,
+  "end": 2309.219,
+  "speaker": "Unknown",
+  "en": "I'm like, why are they laughing?",
+  "zh": "我心想，他们为什么在笑？"
+ },
+ {
+  "seg": 570,
+  "start": 2309.379,
+  "end": 2310.4,
+  "speaker": "Unknown",
+  "en": "Oh, okay, gosh.",
+  "zh": "哦，好吧，天哪。"
+ },
+ {
+  "seg": 571,
+  "start": 2311.14,
+  "end": 2315.882,
+  "speaker": "Unknown",
+  "en": "Okay, so let's talk about early idea validation for the just get in the workshop app.",
+  "zh": "好，那我们来聊聊 Just Get In The Workshop 应用的早期想法验证。"
+ },
+ {
+  "seg": 572,
+  "start": 2318.17,
+  "end": 2319.011,
+  "speaker": "Unknown",
+  "en": "How do we validate this?",
+  "zh": "我们怎么验证这个想法？"
+ },
+ {
+  "seg": 573,
+  "start": 2319.091,
+  "end": 2320.412,
+  "speaker": "Unknown",
+  "en": "All right, throw out some questions.",
+  "zh": "好，抛出一些问题吧。"
+ },
+ {
+  "seg": 574,
+  "start": 2321.452,
+  "end": 2322.333,
+  "speaker": "Unknown",
+  "en": "You're at a conference.",
+  "zh": "你在参加会议。"
+ },
+ {
+  "seg": 575,
+  "start": 2322.393,
+  "end": 2327.077,
+  "speaker": "Unknown",
+  "en": "This is the perfect place to talk about the Just Get In The Workshop app.",
+  "zh": "这里正是聊 Just Get In The Workshop 应用的完美场所。"
+ },
+ {
+  "seg": 576,
+  "start": 2327.097,
+  "end": 2328.357,
+  "speaker": "Unknown",
+  "en": "So you've got all these people.",
+  "zh": "你看到这么多人在排队。"
+ },
+ {
+  "seg": 577,
+  "start": 2328.377,
+  "end": 2331.059,
+  "speaker": "Unknown",
+  "en": "You're standing in line, and you're like, ah, this is so awful.",
+  "zh": "你站在队伍里，心想，啊，这也太糟了。"
+ },
+ {
+  "seg": 578,
+  "start": 2331.58,
+  "end": 2334.942,
+  "speaker": "Unknown",
+  "en": "What are the questions that you're asking people to validate that your idea is a good idea?",
+  "zh": "你会问人们哪些问题来验证你的想法是个好想法？"
+ },
+ {
+  "seg": 579,
+  "start": 2335.563,
+  "end": 2336.123,
+  "speaker": "Unknown",
+  "en": "Just throw them out.",
+  "zh": "直接说出来吧。"
+ },
+ {
+  "seg": 580,
+  "start": 2336.243,
+  "end": 2337.204,
+  "speaker": "Unknown",
+  "en": "Raise your hand if you want to.",
+  "zh": "想说的请举手。"
+ },
+ {
+  "seg": 581,
+  "start": 2337.244,
+  "end": 2337.444,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "嗯？"
+ },
+ {
+  "seg": 582,
+  "start": 2339.586,
+  "end": 2340.807,
+  "speaker": "Unknown",
+  "en": "Why do we need an app for that?",
+  "zh": "为什么我们需要一个应用来做这个？"
+ },
+ {
+  "seg": 583,
+  "start": 2341.507,
+  "end": 2343.749,
+  "speaker": "Unknown",
+  "en": "OK, so ask them, is it a problem?",
+  "zh": "好，那就是问他们，这是个问题吗？"
+ },
+ {
+  "seg": 584,
+  "start": 2344.149,
+  "end": 2344.709,
+  "speaker": "Unknown",
+  "en": "Is this a problem?",
+  "zh": "这是个问题吗？"
+ },
+ {
+  "seg": 585,
+  "start": 2344.729,
+  "end": 2344.83,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 586,
+  "start": 2346.978,
+  "end": 2347.999,
+  "speaker": "Unknown",
+  "en": "How long have you been waiting?",
+  "zh": "你等了多久了？"
+ },
+ {
+  "seg": 587,
+  "start": 2348.119,
+  "end": 2349.121,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "好，可以。"
+ },
+ {
+  "seg": 588,
+  "start": 2349.381,
+  "end": 2351.383,
+  "speaker": "Unknown",
+  "en": "That's getting really close to a really good question.",
+  "zh": "这个问题已经非常接近一个非常好的问题了。"
+ },
+ {
+  "seg": 589,
+  "start": 2351.724,
+  "end": 2352.304,
+  "speaker": "Unknown",
+  "en": "Other questions?",
+  "zh": "还有别的问题吗？"
+ },
+ {
+  "seg": 590,
+  "start": 2353.746,
+  "end": 2354.247,
+  "speaker": "Unknown",
+  "en": "Sorry, what?",
+  "zh": "抱歉，什么？"
+ },
+ {
+  "seg": 591,
+  "start": 2355.989,
+  "end": 2356.91,
+  "speaker": "Unknown",
+  "en": "Why are you waiting?",
+  "zh": "你为什么要排队等？"
+ },
+ {
+  "seg": 592,
+  "start": 2357.33,
+  "end": 2358.652,
+  "speaker": "Unknown",
+  "en": "Oh, okay, yeah, that's a good question, yeah.",
+  "zh": "哦，好，对，这是个好问题，是的。"
+ },
+ {
+  "seg": 593,
+  "start": 2361.556,
+  "end": 2363.178,
+  "speaker": "Unknown",
+  "en": "Oh, could there be a preregistration?",
+  "zh": "哦，能不能搞预登记？"
+ },
+ {
+  "seg": 594,
+  "start": 2363.218,
+  "end": 2366.301,
+  "speaker": "Unknown",
+  "en": "Like, yeah, wouldn't it be better if this was a preregistration thing?",
+  "zh": "比如说，对，如果这是个预登记的东西不是更好吗？"
+ },
+ {
+  "seg": 595,
+  "start": 2366.381,
+  "end": 2366.582,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 596,
+  "start": 2369.691,
+  "end": 2371.011,
+  "speaker": "Unknown",
+  "en": "Oh, you've read the mom test.",
+  "zh": "哦，你读过《妈妈测试》。"
+ },
+ {
+  "seg": 597,
+  "start": 2371.031,
+  "end": 2371.732,
+  "speaker": "Unknown",
+  "en": "All right, all right.",
+  "zh": "好，好。"
+ },
+ {
+  "seg": 598,
+  "start": 2371.752,
+  "end": 2373.672,
+  "speaker": "Unknown",
+  "en": "He said, when was the last time you were stuck?",
+  "zh": "他说，你上一次被困住是什么时候？"
+ },
+ {
+  "seg": 599,
+  "start": 2373.772,
+  "end": 2376.033,
+  "speaker": "Unknown",
+  "en": "Yeah, that's okay, okay.",
+  "zh": "对，可以，好。"
+ },
+ {
+  "seg": 600,
+  "start": 2376.093,
+  "end": 2376.753,
+  "speaker": "Unknown",
+  "en": "What else do we have?",
+  "zh": "我们还有什么？"
+ },
+ {
+  "seg": 601,
+  "start": 2376.773,
+  "end": 2381.014,
+  "speaker": "Unknown",
+  "en": "Sorry, say that again?",
+  "zh": "抱歉，能再说一遍吗？"
+ },
+ {
+  "seg": 602,
+  "start": 2381.034,
+  "end": 2383.095,
+  "speaker": "Unknown",
+  "en": "What's the max time?",
+  "zh": "最长时间是多少？"
+ },
+ {
+  "seg": 603,
+  "start": 2383.115,
+  "end": 2385.156,
+  "speaker": "Unknown",
+  "en": "Oh, what's the max time we're expected to wait?",
+  "zh": "哦，我们预期要等待的最长时间是多少？"
+ },
+ {
+  "seg": 604,
+  "start": 2385.316,
+  "end": 2385.896,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "对，好的。"
+ },
+ {
+  "seg": 605,
+  "start": 2388.002,
+  "end": 2389.043,
+  "speaker": "Unknown",
+  "en": "Are there any open seats?",
+  "zh": "还有空位吗？"
+ },
+ {
+  "seg": 606,
+  "start": 2389.323,
+  "end": 2389.964,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "是的，好的。"
+ },
+ {
+  "seg": 607,
+  "start": 2389.984,
+  "end": 2408.979,
+  "speaker": "Unknown",
+  "en": "Okay, so these are some questions that you might think, okay, if they, what you're looking for, or what we naturally are looking for is somebody to say, oh yeah, this is a huge problem for me, I definitely want some, I would spend just untold sums of money to be able to get in the workshop really quickly and easily.",
+  "zh": "好的，这些是一些你可能想过的问题，也就是说，如果你想找的，或者说我们自然而然想找的，是有人会说：哦对，这对我来说是个大问题，我绝对想要，我愿意花不计其数的钱来快速轻松地进入研讨会。"
+ },
+ {
+  "seg": 608,
+  "start": 2409.459,
+  "end": 2410.5,
+  "speaker": "Unknown",
+  "en": "I think you had another question.",
+  "zh": "我想你还有另一个问题。"
+ },
+ {
+  "seg": 609,
+  "start": 2417.458,
+  "end": 2419.479,
+  "speaker": "Unknown",
+  "en": "Oh yeah, how's your experience been while waiting?",
+  "zh": "哦对，你等待时的体验怎么样？"
+ },
+ {
+  "seg": 610,
+  "start": 2419.559,
+  "end": 2425.922,
+  "speaker": "Unknown",
+  "en": "So you're trying to like get a sense for that overarching experience, yeah, and that can be a good input into the solution.",
+  "zh": "所以你是想了解那种整体性的体验，对，这可以作为解决方案的一个很好的输入。"
+ },
+ {
+  "seg": 611,
+  "start": 2427.583,
+  "end": 2428.864,
+  "speaker": "Unknown",
+  "en": "Is this a solved problem?",
+  "zh": "这是不是一个已经被解决的问题？"
+ },
+ {
+  "seg": 612,
+  "start": 2429.184,
+  "end": 2433.506,
+  "speaker": "Unknown",
+  "en": "Oh yeah, like have you heard of an app that could really have sped this process up?",
+  "zh": "哦对，比如你听说过某个能真正加快这个流程的应用吗？"
+ },
+ {
+  "seg": 613,
+  "start": 2433.606,
+  "end": 2435.347,
+  "speaker": "Unknown",
+  "en": "I saw somebody holding up the mom test book.",
+  "zh": "我看到有人举起了《Mom Test》那本书。"
+ },
+ {
+  "seg": 614,
+  "start": 2435.387,
+  "end": 2437.548,
+  "speaker": "Unknown",
+  "en": "You literally have it in your, unbelievable.",
+  "zh": "你真的把它带在身上了，难以置信。"
+ },
+ {
+  "seg": 615,
+  "start": 2439.489,
+  "end": 2441.19,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 616,
+  "start": 2441.37,
+  "end": 2445.391,
+  "speaker": "Unknown",
+  "en": "I also carry my mom test book with me everywhere I go.",
+  "zh": "我也是走到哪儿都带着我的《Mom Test》。"
+ },
+ {
+  "seg": 617,
+  "start": 2445.452,
+  "end": 2447.212,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is the mom test.",
+  "zh": "是的，这就是《Mom Test》。"
+ },
+ {
+  "seg": 618,
+  "start": 2447.252,
+  "end": 2450.974,
+  "speaker": "Unknown",
+  "en": "You don't want to ask users to evaluate your idea or diagnose the problem for you.",
+  "zh": "你不要让用户去评估你的想法，或者替你诊断问题。"
+ },
+ {
+  "seg": 619,
+  "start": 2451.594,
+  "end": 2458.357,
+  "speaker": "Unknown",
+  "en": "This actually, this is so common, and it's so hard, because when you think of an idea, you start thinking, okay,",
+  "zh": "这其实，这太常见了，而且太难了，因为当你想到一个点子时，你开始想：好，"
+ },
+ {
+  "seg": 620,
+  "start": 2458.937,
+  "end": 2461.539,
+  "speaker": "Unknown",
+  "en": "So we will make it a mobile app.",
+  "zh": "所以我们要做成一个移动应用。"
+ },
+ {
+  "seg": 621,
+  "start": 2461.579,
+  "end": 2463.06,
+  "speaker": "Unknown",
+  "en": "Obviously, they have to install it on their phone.",
+  "zh": "显然，他们得装到手机上。"
+ },
+ {
+  "seg": 622,
+  "start": 2463.14,
+  "end": 2464.381,
+  "speaker": "Unknown",
+  "en": "Oh, wait, no.",
+  "zh": "哦，等等，不对。"
+ },
+ {
+  "seg": 623,
+  "start": 2464.581,
+  "end": 2466.422,
+  "speaker": "Unknown",
+  "en": "Maybe it's a one-time use thing.",
+  "zh": "也许这只是一次性使用的东西。"
+ },
+ {
+  "seg": 624,
+  "start": 2466.442,
+  "end": 2467.943,
+  "speaker": "Unknown",
+  "en": "So we'll also make a website.",
+  "zh": "那我们再做一个网站。"
+ },
+ {
+  "seg": 625,
+  "start": 2468.404,
+  "end": 2474.428,
+  "speaker": "Unknown",
+  "en": "And then we're going to integrate with all of the different providers of all these different things.",
+  "zh": "然后我们要和所有这些东西的各种不同提供商做集成。"
+ },
+ {
+  "seg": 626,
+  "start": 2474.448,
+  "end": 2480.972,
+  "speaker": "Unknown",
+  "en": "And so then you start talking with people, and you say, would it be easier if it was already integrated with the app?",
+  "zh": "然后你开始跟人聊，你说：如果它已经和应用集成好了，会不会更方便？"
+ },
+ {
+  "seg": 627,
+  "start": 2481.012,
+  "end": 2484.034,
+  "speaker": "Unknown",
+  "en": "And maybe the conference had a link to it, or maybe it was integrated.",
+  "zh": "也许会议有个链接指向它，或者也许它被集成进去了。"
+ },
+ {
+  "seg": 628,
+  "start": 2484.354,
+  "end": 2485.976,
+  "speaker": "Unknown",
+  "en": "And so you're talking about the solution.",
+  "zh": "于是你在谈论的是解决方案，"
+ },
+ {
+  "seg": 629,
+  "start": 2486.656,
+  "end": 2497.499,
+  "speaker": "Unknown",
+  "en": "to your specific solution with this potential possible user before they've even agreed that this is a problem worth solving, okay?",
+  "zh": "是在跟这个潜在用户谈你的特定解决方案，而他们甚至还没认同这是一个值得解决的问题，明白吗？"
+ },
+ {
+  "seg": 630,
+  "start": 2498.479,
+  "end": 2501.9,
+  "speaker": "Unknown",
+  "en": "So here are a couple of the weak questions that may sound a little familiar.",
+  "zh": "这里是几个可能听起来有点耳熟的弱问题。"
+ },
+ {
+  "seg": 631,
+  "start": 2502.28,
+  "end": 2503.2,
+  "speaker": "Unknown",
+  "en": "Would you use this?",
+  "zh": "你会用这个吗？"
+ },
+ {
+  "seg": 632,
+  "start": 2503.92,
+  "end": 2506.121,
+  "speaker": "Unknown",
+  "en": "Is this a problem in the first place?",
+  "zh": "这到底是不是个问题？"
+ },
+ {
+  "seg": 633,
+  "start": 2506.241,
+  "end": 2507.041,
+  "speaker": "Unknown",
+  "en": "What is the problem?",
+  "zh": "问题是什么？"
+ },
+ {
+  "seg": 634,
+  "start": 2507.161,
+  "end": 2508.081,
+  "speaker": "Unknown",
+  "en": "Help me define the problem.",
+  "zh": "帮我定义一下这个问题。"
+ },
+ {
+  "seg": 635,
+  "start": 2508.241,
+  "end": 2511.562,
+  "speaker": "Unknown",
+  "en": "Some better questions are, tell me about the last time this happened.",
+  "zh": "更好的问题是：跟我说说上次这种情况发生时的事情。"
+ },
+ {
+  "seg": 636,
+  "start": 2512.462,
+  "end": 2513.844,
+  "speaker": "Unknown",
+  "en": "And what did you do instead?",
+  "zh": "然后你当时是怎么做替代的？"
+ },
+ {
+  "seg": 637,
+  "start": 2514.124,
+  "end": 2515.785,
+  "speaker": "Unknown",
+  "en": "And what did it cost you to do that?",
+  "zh": "那样做让你付出了什么代价？"
+ },
+ {
+  "seg": 638,
+  "start": 2516.146,
+  "end": 2528.257,
+  "speaker": "Unknown",
+  "en": "Now, for ours, none of us, I think, would actually, I don't know, you all paid to come here to the conference, so there is some amount of, like, I'm waiting, I'm missing the first 20 minutes of this talk that I actually paid to attend.",
+  "zh": "就我们的例子来说，我想我们没有人真的，我不知道，你们都是花钱来参加这个大会的，所以确实有那么一点，比如我在等待，我错过了这场我付了钱来听的演讲的前 20 分钟。"
+ },
+ {
+  "seg": 639,
+  "start": 2528.797,
+  "end": 2530.199,
+  "speaker": "Unknown",
+  "en": "Don't get mad at Sean.",
+  "zh": "别怪 Sean。"
+ },
+ {
+  "seg": 640,
+  "start": 2530.299,
+  "end": 2530.899,
+  "speaker": "Unknown",
+  "en": "These things happen.",
+  "zh": "这种事情难免发生。"
+ },
+ {
+  "seg": 641,
+  "start": 2531.82,
+  "end": 2532.64,
+  "speaker": "Unknown",
+  "en": "Sean's a friend of mine.",
+  "zh": "Sean 是我的朋友。"
+ },
+ {
+  "seg": 642,
+  "start": 2534.481,
+  "end": 2547.166,
+  "speaker": "Unknown",
+  "en": "But yeah, the questions of what did you do instead, what is your workaround, and how much did it cost you because a solution like this doesn't exist, you do not talk about the solution at this stage.",
+  "zh": "不过对，那些关于“你当时是怎么替代的”“你的变通办法是什么”“因为没有这样的解决方案你付出了多少代价”的问题——在这个阶段，你完全不要谈解决方案。"
+ },
+ {
+  "seg": 643,
+  "start": 2547.346,
+  "end": 2548.907,
+  "speaker": "Unknown",
+  "en": "It's so hard not to, but you don't.",
+  "zh": "这真的很难忍住不谈，但你就是不能谈。"
+ },
+ {
+  "seg": 644,
+  "start": 2549.447,
+  "end": 2550.728,
+  "speaker": "Unknown",
+  "en": "Instead, you start with",
+  "zh": "相反，你要从这些入手："
+ },
+ {
+  "seg": 645,
+  "start": 2551.748,
+  "end": 2552.629,
+  "speaker": "Unknown",
+  "en": "What did you do before?",
+  "zh": "你之前是怎么做的？"
+ },
+ {
+  "seg": 646,
+  "start": 2553.369,
+  "end": 2554.109,
+  "speaker": "Unknown",
+  "en": "What is the past?",
+  "zh": "过去是什么样的？"
+ },
+ {
+  "seg": 647,
+  "start": 2554.209,
+  "end": 2556.19,
+  "speaker": "Unknown",
+  "en": "You do not want to ask them future questions.",
+  "zh": "你不要问他们关于未来的问题。"
+ },
+ {
+  "seg": 648,
+  "start": 2556.27,
+  "end": 2557.811,
+  "speaker": "Unknown",
+  "en": "Nobody can tell the future.",
+  "zh": "没有人能预知未来。"
+ },
+ {
+  "seg": 649,
+  "start": 2558.091,
+  "end": 2559.331,
+  "speaker": "Unknown",
+  "en": "You don't want to say, would you pay?",
+  "zh": "你不要问：你愿意付钱吗？"
+ },
+ {
+  "seg": 650,
+  "start": 2559.611,
+  "end": 2560.552,
+  "speaker": "Unknown",
+  "en": "How much would you pay?",
+  "zh": "你愿意付多少钱？"
+ },
+ {
+  "seg": 651,
+  "start": 2561.012,
+  "end": 2561.352,
+  "speaker": "Unknown",
+  "en": "Whatever.",
+  "zh": "随便吧。"
+ },
+ {
+  "seg": 652,
+  "start": 2562.873,
+  "end": 2569.355,
+  "speaker": "Unknown",
+  "en": "Often what that turns into is somebody's like, I kind of want to get out of this conversation and I'm just going to say yes to everything that they say.",
+  "zh": "通常这会变成有人说，我有点想结束这个对话，所以他们说什么我都答应。"
+ },
+ {
+  "seg": 653,
+  "start": 2569.615,
+  "end": 2571.896,
+  "speaker": "Unknown",
+  "en": "And in the book they call this complimenting.",
+  "zh": "在书里他们把这称为恭维。"
+ },
+ {
+  "seg": 654,
+  "start": 2571.936,
+  "end": 2573.377,
+  "speaker": "Unknown",
+  "en": "So you're fishing for compliments.",
+  "zh": "所以你是在钓恭维。"
+ },
+ {
+  "seg": 655,
+  "start": 2576.522,
+  "end": 2587.419,
+  "speaker": "Unknown",
+  "en": "So Don Norman said don't ask somebody what's the problem because they'll tell you the symptoms and often they will actually tell you solutions as well and their solutions will be just as ill-formed as your own and maybe even more so.",
+  "zh": "所以 Don Norman 说，不要问别人问题是什么，因为他们会告诉你症状，而且他们通常还会告诉你解决方案，而他们的解决方案会和你自己的一样不成形，甚至可能更糟。"
+ },
+ {
+  "seg": 656,
+  "start": 2588.521,
+  "end": 2590.984,
+  "speaker": "Unknown",
+  "en": "So you don't want to just ask generally what is the problem.",
+  "zh": "所以你不要只是泛泛地问问题是什么。"
+ },
+ {
+  "seg": 657,
+  "start": 2591.425,
+  "end": 2593.386,
+  "speaker": "Unknown",
+  "en": "You want to ask about specific behavior.",
+  "zh": "你要问具体的行为。"
+ },
+ {
+  "seg": 658,
+  "start": 2593.506,
+  "end": 2595.687,
+  "speaker": "Unknown",
+  "en": "So tell me about the last time this happened.",
+  "zh": "比如，跟我说说上一次这种情况发生的时候。"
+ },
+ {
+  "seg": 659,
+  "start": 2596.027,
+  "end": 2596.547,
+  "speaker": "Unknown",
+  "en": "What happened?",
+  "zh": "发生了什么？"
+ },
+ {
+  "seg": 660,
+  "start": 2596.827,
+  "end": 2598.508,
+  "speaker": "Unknown",
+  "en": "Give me specifics.",
+  "zh": "给我讲讲具体细节。"
+ },
+ {
+  "seg": 661,
+  "start": 2598.568,
+  "end": 2599.348,
+  "speaker": "Unknown",
+  "en": "Who was involved?",
+  "zh": "有谁 involved？"
+ },
+ {
+  "seg": 662,
+  "start": 2599.768,
+  "end": 2601.429,
+  "speaker": "Unknown",
+  "en": "What made it annoying enough to remember?",
+  "zh": "是什么让它烦人到让你记住了？"
+ },
+ {
+  "seg": 663,
+  "start": 2601.449,
+  "end": 2608.972,
+  "speaker": "Unknown",
+  "en": "Now, our example is kind of funny, because if you're in line, you're literally experiencing the problem right now, so it's a little visceral.",
+  "zh": "现在，我们的例子有点好笑，因为如果你在排队，你此时此刻就在经历这个问题，所以会有点切身。"
+ },
+ {
+  "seg": 664,
+  "start": 2609.232,
+  "end": 2611.593,
+  "speaker": "Unknown",
+  "en": "But most of the time, you're not, like,",
+  "zh": "但大多数时候，你不是这样的，比如，"
+ },
+ {
+  "seg": 665,
+  "start": 2612.533,
+  "end": 2621.417,
+  "speaker": "Unknown",
+  "en": "Your idea to solve somebody's problem, they're not actively experiencing that problem right at that very moment, so it's not necessarily going to be so much, well, tell me the last time it happened.",
+  "zh": "你解决某人问题的想法，他们并不在那个时刻正在经历那个问题，所以不一定会是，嗯，跟我说说上一次发生是什么时候。"
+ },
+ {
+  "seg": 666,
+  "start": 2621.437,
+  "end": 2622.337,
+  "speaker": "Unknown",
+  "en": "Well, it's happening right now.",
+  "zh": "嗯，它现在正在发生。"
+ },
+ {
+  "seg": 667,
+  "start": 2622.397,
+  "end": 2624.358,
+  "speaker": "Unknown",
+  "en": "Like, maybe it is, and that's a pretty good signal.",
+  "zh": "比如，也许确实是，而那就是一个相当好的信号。"
+ },
+ {
+  "seg": 668,
+  "start": 2624.718,
+  "end": 2628.059,
+  "speaker": "Unknown",
+  "en": "Then you're going to be able to get some really direct answers to that.",
+  "zh": "那样你就能从中得到非常直接的回答。"
+ },
+ {
+  "seg": 669,
+  "start": 2628.439,
+  "end": 2631.961,
+  "speaker": "Unknown",
+  "en": "But often, you're going to have to let them think back about like, oh,",
+  "zh": "但通常，你得让他们回想一下，比如，哦，"
+ },
+ {
+  "seg": 670,
+  "start": 2632.361,
+  "end": 2634.605,
+  "speaker": "Unknown",
+  "en": "Yeah, why was this so bad, and who was involved?",
+  "zh": "对，为什么这件事这么糟，涉及了哪些人？"
+ },
+ {
+  "seg": 671,
+  "start": 2634.625,
+  "end": 2636.869,
+  "speaker": "Unknown",
+  "en": "What made it annoying enough that I can even remember?",
+  "zh": "是什么让它烦人到连我都能记得住？"
+ },
+ {
+  "seg": 672,
+  "start": 2637.29,
+  "end": 2643.942,
+  "speaker": "Unknown",
+  "en": "If they can't remember, that's a signal, and it's not the one that you want it to be, but you want that signal, that's for sure.",
+  "zh": "如果他们记不住，那是一个信号，而且不是你想要的那个信号，但你肯定想要那个信号。"
+ },
+ {
+  "seg": 673,
+  "start": 2644.893,
+  "end": 2647.115,
+  "speaker": "Unknown",
+  "en": "So you want to know what they do instead.",
+  "zh": "所以你要知道他们现在用的是什么替代办法。"
+ },
+ {
+  "seg": 674,
+  "start": 2647.255,
+  "end": 2648.356,
+  "speaker": "Unknown",
+  "en": "So what are the workarounds?",
+  "zh": "那么，有哪些变通方案？"
+ },
+ {
+  "seg": 675,
+  "start": 2648.456,
+  "end": 2650.638,
+  "speaker": "Unknown",
+  "en": "Oops, back up.",
+  "zh": "哎呀，退回去。"
+ },
+ {
+  "seg": 676,
+  "start": 2650.758,
+  "end": 2651.518,
+  "speaker": "Unknown",
+  "en": "How much does it cost?",
+  "zh": "成本是多少？"
+ },
+ {
+  "seg": 677,
+  "start": 2651.558,
+  "end": 2653.46,
+  "speaker": "Unknown",
+  "en": "How often is this happening to them?",
+  "zh": "这种情况多久发生一次？"
+ },
+ {
+  "seg": 678,
+  "start": 2654.461,
+  "end": 2658.564,
+  "speaker": "Unknown",
+  "en": "How much effort are they putting into solving this problem already?",
+  "zh": "他们已经在解决这个问题上投入了多少精力？"
+ },
+ {
+  "seg": 679,
+  "start": 2658.884,
+  "end": 2660.085,
+  "speaker": "Unknown",
+  "en": "And that is gold.",
+  "zh": "而那就是金子。"
+ },
+ {
+  "seg": 680,
+  "start": 2660.525,
+  "end": 2661.146,
+  "speaker": "Unknown",
+  "en": "That is...",
+  "zh": "那是……"
+ },
+ {
+  "seg": 681,
+  "start": 2663.05,
+  "end": 2666.292,
+  "speaker": "Unknown",
+  "en": "This is really strong evidence that this is a problem worth solving.",
+  "zh": "这是很有力的证据，证明这是一个值得解决的问题。 [[662→682]] 如果他们已经在投入大量精力、花大量金钱，用某种变通办法来解决这个问题，那真的是一个很好的机会。"
+ },
+ {
+  "seg": 682,
+  "start": 2666.372,
+  "end": 2673.637,
+  "speaker": "Unknown",
+  "en": "If they're already putting a bunch of effort and paying a bunch of money to solve this problem with some work around, that's a really good opportunity.",
+  "zh": "如果他们已经在投入大量精力、花大量钱用某种变通办法来解决这个问题，那就是一个非常好的机会。"
+ },
+ {
+  "seg": 683,
+  "start": 2674.118,
+  "end": 2676.839,
+  "speaker": "Unknown",
+  "en": "If they are like, yeah, I don't remember the last time.",
+  "zh": "如果他们是那种，嗯，我不记得上一次是什么时候了。"
+ },
+ {
+  "seg": 684,
+  "start": 2676.899,
+  "end": 2677.76,
+  "speaker": "Unknown",
+  "en": "I know it's happened.",
+  "zh": "我知道它发生过。"
+ },
+ {
+  "seg": 685,
+  "start": 2678.26,
+  "end": 2679.281,
+  "speaker": "Unknown",
+  "en": "Yeah, I don't really remember.",
+  "zh": "对，我不太记得了。"
+ },
+ {
+  "seg": 686,
+  "start": 2680.022,
+  "end": 2681.402,
+  "speaker": "Unknown",
+  "en": "And I just, I kind of gave up.",
+  "zh": "而且我就是，我基本上放弃了。"
+ },
+ {
+  "seg": 687,
+  "start": 2682.463,
+  "end": 2683.784,
+  "speaker": "Unknown",
+  "en": "That's a pretty good signal, too.",
+  "zh": "那也是一个相当好的信号。"
+ },
+ {
+  "seg": 688,
+  "start": 2684.264,
+  "end": 2689.986,
+  "speaker": "Unknown",
+  "en": "That's a signal that they're probably not gonna pay and change their workflows or whatever to get a solution.",
+  "zh": "那是一个信号，表明他们很可能不会付钱、也不会改变他们的工作流程或其他什么来获得一个解决方案。"
+ },
+ {
+  "seg": 689,
+  "start": 2691.807,
+  "end": 2699.931,
+  "speaker": "Unknown",
+  "en": "The point here is that the software engineers, we've gotten kind of used to just sitting in our corner, well, some of us.",
+  "zh": "这里的重点是，我们软件工程师，已经有点习惯了就坐在自己的角落里，好吧，我们中的一些人是这样。"
+ },
+ {
+  "seg": 690,
+  "start": 2700.231,
+  "end": 2702.392,
+  "speaker": "Unknown",
+  "en": "I'm kind of an extrovert, so I like to talk to people.",
+  "zh": "我算是外向型的人，所以我喜欢和人交谈。 [[690→691]] 我们中的一些人就是那种，对，我做软件工程就是因为从来不用跟任何人说话，我只要拿到我的 Jira 票然后把它变成实现就行。"
+ },
+ {
+  "seg": 691,
+  "start": 2703.352,
+  "end": 2709.595,
+  "speaker": "Unknown",
+  "en": "Some of us are just like, yeah, I got into software engineering because I never have to talk to anybody and I can just take my Jira ticket and turn it into implementation.",
+  "zh": "我们有些人就是这么想的：对，我做软件工程就是因为永远不用跟任何人说话，我只要拿着我的 Jira 工单把它变成实现就行。"
+ },
+ {
+  "seg": 692,
+  "start": 2710.755,
+  "end": 2713.616,
+  "speaker": "Unknown",
+  "en": "I'm sorry, that's not the way that software engineering ever was.",
+  "zh": "很抱歉，软件工程从来都不是那样的。"
+ },
+ {
+  "seg": 693,
+  "start": 2713.797,
+  "end": 2715.637,
+  "speaker": "Unknown",
+  "en": "The best software engineers were not that way.",
+  "zh": "最好的软件工程师不是那样的。"
+ },
+ {
+  "seg": 694,
+  "start": 2716.898,
+  "end": 2726.142,
+  "speaker": "Unknown",
+  "en": "I mean, you could churn out some pretty amazing code, don't get me wrong, but the software engineer who really talks to people and understands their problems is the one who's gonna build a system that can solve those problems better.",
+  "zh": "我是说，你确实可以产出非常惊艳的代码，别误会，但真正与人交谈并理解他们问题的软件工程师，才是那个能构建出更好地解决这些问题的系统的人。"
+ },
+ {
+  "seg": 695,
+  "start": 2728.13,
+  "end": 2740.598,
+  "speaker": "Unknown",
+  "en": "And one thing that Michael did, actually, in our conversation, he was talking to so many people, validating his idea before he built WorkOS, and he would ask them, what are they losing out by not having a solution to this?",
+  "zh": "而且有一件事 Michael 确实做了，在我们的对话中，他在构建 WorkOS 之前和非常多的人交谈，验证他的想法，他会问他们，没有这个问题的解决方案，他们正在损失什么？"
+ },
+ {
+  "seg": 696,
+  "start": 2740.898,
+  "end": 2742.239,
+  "speaker": "Unknown",
+  "en": "What's the cost of not doing that?",
+  "zh": "不这么做的成本是什么？"
+ },
+ {
+  "seg": 697,
+  "start": 2742.799,
+  "end": 2743.98,
+  "speaker": "Unknown",
+  "en": "And that worked out for him.",
+  "zh": "这对他来说很奏效。"
+ },
+ {
+  "seg": 698,
+  "start": 2744.6,
+  "end": 2765.411,
+  "speaker": "Unknown",
+  "en": "So the output is like actual evidence rather than somebody just saying oh yeah that's a good idea and this is why it's called the mom test because your mom of course she loves you and she's gonna be like yeah of course this is wonderful I would absolutely use it and so now you have two users yourself and your mom or dad or whatever and that's wonderful good for you.",
+  "zh": "所以产出是实际的证据，而不是某人只是说，哦对，这是个好主意，而这也就是为什么它叫妈妈测试（mom test），因为你的妈妈，当然她爱你，她会说，对，当然，这太棒了，我绝对会用它，于是现在你就有了两个用户，你自己和你的妈妈或爸爸或随便谁，那太好了，恭喜你。"
+ },
+ {
+  "seg": 699,
+  "start": 2767.172,
+  "end": 2771.235,
+  "speaker": "Unknown",
+  "en": "So here's a fun story from Wayne.",
+  "zh": "所以这里有一个来自 Wayne 的有趣故事。"
+ },
+ {
+  "seg": 700,
+  "start": 2771.335,
+  "end": 2772.416,
+  "speaker": "Unknown",
+  "en": "He lives down in Australia.",
+  "zh": "他住在澳大利亚。"
+ },
+ {
+  "seg": 701,
+  "start": 2772.456,
+  "end": 2775.018,
+  "speaker": "Unknown",
+  "en": "He works for a real estate company down there.",
+  "zh": "他在那边的一家房地产公司工作。"
+ },
+ {
+  "seg": 702,
+  "start": 2775.718,
+  "end": 2781.182,
+  "speaker": "Unknown",
+  "en": "And they were building a product that was kind of an experiment in this bigger organization.",
+  "zh": "他们当时在做一个产品，这在这个更大的组织里算是一种实验。"
+ },
+ {
+  "seg": 703,
+  "start": 2781.342,
+  "end": 2782.864,
+  "speaker": "Unknown",
+  "en": "He was on a team that was building this product.",
+  "zh": "他所在团队正在构建这个产品。"
+ },
+ {
+  "seg": 704,
+  "start": 2783.704,
+  "end": 2788.81,
+  "speaker": "Unknown",
+  "en": "And in the process of that, they ended up building a really high-scale thing.",
+  "zh": "在这个过程中，他们最终做出了一个规模非常高的东西。"
+ },
+ {
+  "seg": 705,
+  "start": 2788.83,
+  "end": 2794.317,
+  "speaker": "Unknown",
+  "en": "And they, in fact, decided, what if every single person in Australia logged in at the exact same time?",
+  "zh": "他们实际上决定，如果澳大利亚的每一个人在同一时刻登录会怎样？"
+ },
+ {
+  "seg": 706,
+  "start": 2794.597,
+  "end": 2796.019,
+  "speaker": "Unknown",
+  "en": "We need to make sure that we handle that.",
+  "zh": "我们得确保能处理那种情况。"
+ },
+ {
+  "seg": 707,
+  "start": 2796.94,
+  "end": 2799.022,
+  "speaker": "Unknown",
+  "en": "And they spent a year working on this.",
+  "zh": "所以他们不仅不需要处理全澳大利亚的人，甚至不需要处理澳大利亚的一个人。"
+ },
+ {
+  "seg": 708,
+  "start": 2799.082,
+  "end": 2800.864,
+  "speaker": "Unknown",
+  "en": "It was like microservices, the whole thing.",
+  "zh": "就是微服务那一整套东西。"
+ },
+ {
+  "seg": 709,
+  "start": 2802.526,
+  "end": 2815.314,
+  "speaker": "Unknown",
+  "en": "And after it was 1.2 million Australian dollars that they spent on this, which is like almost 900,000 US dollars, they ended up like nobody used it.",
+  "zh": "而在他们花掉 120 万澳元之后，差不多接近 90 万美元，结果却没有人使用它。"
+ },
+ {
+  "seg": 710,
+  "start": 2815.674,
+  "end": 2816.574,
+  "speaker": "Unknown",
+  "en": "Not a single person.",
+  "zh": "一个人都没有。"
+ },
+ {
+  "seg": 711,
+  "start": 2816.634,
+  "end": 2822.498,
+  "speaker": "Unknown",
+  "en": "So like not only did they not have to handle every person in Australia, they didn't even have to handle one person in Australia.",
+  "zh": "所以说他们不仅不用处理澳大利亚的每一个人,他们甚至连澳大利亚的一个人都不用处理。"
+ },
+ {
+  "seg": 712,
+  "start": 2822.678,
+  "end": 2823.999,
+  "speaker": "Unknown",
+  "en": "Nobody ended up using this thing.",
+  "zh": "最终没有人使用这个东西。"
+ },
+ {
+  "seg": 713,
+  "start": 2824.899,
+  "end": 2833.248,
+  "speaker": "Unknown",
+  "en": "And so he told me that something he learned from that is we probably could have launched something in two weeks, not a year, and done the integration manually.",
+  "zh": "所以他告诉我，他从中学到的是，我们本来也许可以两周内上线点什么，而不是一年，然后手动完成集成。"
+ },
+ {
+  "seg": 714,
+  "start": 2833.428,
+  "end": 2835.531,
+  "speaker": "Unknown",
+  "en": "Integration's always the most painful part anyway.",
+  "zh": "反正集成一直是最痛苦的部分。"
+ },
+ {
+  "seg": 715,
+  "start": 2836.391,
+  "end": 2841.457,
+  "speaker": "Unknown",
+  "en": "And we could have tested the market, learned a lot of things very, very quickly, and not invested a whole team to work on this.",
+  "zh": "我们本可以测试市场，非常非常快地学到很多东西，而不用投入整个团队来做这个。"
+ },
+ {
+  "seg": 716,
+  "start": 2841.877,
+  "end": 2843.98,
+  "speaker": "Unknown",
+  "en": "So project validation, really important.",
+  "zh": "所以项目验证非常重要。"
+ },
+ {
+  "seg": 717,
+  "start": 2844.2,
+  "end": 2847.244,
+  "speaker": "Unknown",
+  "en": "And it's, again, not just the PM's job to do this.",
+  "zh": "而且，这again不只是 PM 的工作。"
+ },
+ {
+  "seg": 718,
+  "start": 2847.725,
+  "end": 2853.112,
+  "speaker": "Unknown",
+  "en": "It's your job to really understand, okay, so this, and we're not just talking about startups here either.",
+  "zh": "真正理解这一点是你自己的工作，好，我们这里也不仅仅是在谈创业公司。"
+ },
+ {
+  "seg": 719,
+  "start": 2853.132,
+  "end": 2856.436,
+  "speaker": "Unknown",
+  "en": "This is a product feature that you've been asked to do.",
+  "zh": "这是一个你被要求做的产品功能。"
+ },
+ {
+  "seg": 720,
+  "start": 2857.697,
+  "end": 2878.509,
+  "speaker": "Unknown",
+  "en": "And if that feature request doesn't come with some sort of validation of why this exists, then you as a product engineer need to go back to the PM and say, I need to understand a little bit more about why this exists, for not only to validate that this is gonna be worth engineering time, but also for some of the other questions that we're gonna talk about here in a second.",
+  "zh": "如果这个功能请求没有附带某种关于它为什么存在的验证，那么你作为一个产品工程师就需要回去找 PM 说，我需要多了解一点为什么这个东西存在，这不仅是为了验证它是否值得投入工程时间，也是为了我们马上要谈到的其他一些问题。"
+ },
+ {
+  "seg": 721,
+  "start": 2879.601,
+  "end": 2888.224,
+  "speaker": "Unknown",
+  "en": "But part of that is understanding where this request is coming from will help you shape the system that you use to build it.",
+  "zh": "但其中一部分是，理解这个请求从哪里来，会帮助你塑造你用来构建它的系统。"
+ },
+ {
+  "seg": 722,
+  "start": 2888.584,
+  "end": 2892.585,
+  "speaker": "Unknown",
+  "en": "Is this just like a one-off experiment or is this something that's gonna be core to our business?",
+  "zh": "这只是一次性的实验，还是会成为我们业务核心的东西？"
+ },
+ {
+  "seg": 723,
+  "start": 2892.925,
+  "end": 2895.806,
+  "speaker": "Unknown",
+  "en": "I'm going to make different technical trade-offs based on that.",
+  "zh": "我会基于此做出不同的技术权衡。"
+ },
+ {
+  "seg": 724,
+  "start": 2895.906,
+  "end": 2897.787,
+  "speaker": "Unknown",
+  "en": "Like how much investment do I need to spend?",
+  "zh": "比如我需要投入多少？"
+ },
+ {
+  "seg": 725,
+  "start": 2898.247,
+  "end": 2900.229,
+  "speaker": "Unknown",
+  "en": "Should I spend a year working on this?",
+  "zh": "我应该花一年时间做这个吗？"
+ },
+ {
+  "seg": 726,
+  "start": 2900.289,
+  "end": 2903.011,
+  "speaker": "Unknown",
+  "en": "Is this like the business will go out of business if we don't have this?",
+  "zh": "是不是如果我们没有这个东西，业务就会倒闭？"
+ },
+ {
+  "seg": 727,
+  "start": 2903.071,
+  "end": 2913.198,
+  "speaker": "Unknown",
+  "en": "Okay, well I'm gonna spend a little bit more time and attention to detail while still like balancing the MVP style like let's just get some validation.",
+  "zh": "好吧，那我会在细节上多花一点时间和注意力，同时仍然平衡 MVP 风格的那种“我们先拿到一些验证再说”。"
+ },
+ {
+  "seg": 728,
+  "start": 2915.8,
+  "end": 2916.041,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 729,
+  "start": 2917.722,
+  "end": 2918.923,
+  "speaker": "Unknown",
+  "en": "I'm really glad I grabbed that water.",
+  "zh": "我真庆幸拿了那瓶水。"
+ },
+ {
+  "seg": 730,
+  "start": 2920.817,
+  "end": 2922.238,
+  "speaker": "Unknown",
+  "en": "Yeah, this is something Michael did as well.",
+  "zh": "是的，Michael 也做过这种事。"
+ },
+ {
+  "seg": 731,
+  "start": 2923.038,
+  "end": 2926.04,
+  "speaker": "Unknown",
+  "en": "Very easy, yeah, gosh, this is so relatable.",
+  "zh": "很容易，是啊，天哪，这太有共鸣了。"
+ },
+ {
+  "seg": 732,
+  "start": 2926.1,
+  "end": 2934.364,
+  "speaker": "Unknown",
+  "en": "It's very easy to convince yourself that something is a good idea, just sitting in your room by yourself, hacking on it for weeks and weeks and weeks, so you need to show it to people.",
+  "zh": "自己一个人坐在房间里，一连几周几周地埋头捣鼓一个东西，很容易说服自己这是个好点子，所以你需要把它拿给别人看。"
+ },
+ {
+  "seg": 733,
+  "start": 2934.804,
+  "end": 2935.804,
+  "speaker": "Unknown",
+  "en": "How many people relate to that?",
+  "zh": "有多少人对此有共鸣？"
+ },
+ {
+  "seg": 734,
+  "start": 2936.144,
+  "end": 2937.945,
+  "speaker": "Unknown",
+  "en": "Just like, yeah.",
+  "zh": "就是，是啊。"
+ },
+ {
+  "seg": 735,
+  "start": 2938.366,
+  "end": 2939.466,
+  "speaker": "Unknown",
+  "en": "It's fun, right?",
+  "zh": "挺好玩的，对吧？"
+ },
+ {
+  "seg": 736,
+  "start": 2939.826,
+  "end": 2941.147,
+  "speaker": "Unknown",
+  "en": "Like why you gotta rain my parade?",
+  "zh": "就像你干嘛要扫我的兴？"
+ },
+ {
+  "seg": 737,
+  "start": 2941.307,
+  "end": 2942.487,
+  "speaker": "Unknown",
+  "en": "I'm having fun doing this thing.",
+  "zh": "我做这个做得很开心。"
+ },
+ {
+  "seg": 738,
+  "start": 2942.768,
+  "end": 2946.109,
+  "speaker": "Unknown",
+  "en": "And then you go show it to somebody and they don't get it, so you don't wanna talk about it.",
+  "zh": "然后你拿给别人看，他们没搞懂，于是你就不想谈它了。"
+ },
+ {
+  "seg": 739,
+  "start": 2946.129,
+  "end": 2947.29,
+  "speaker": "Unknown",
+  "en": "You just wanna work on it yourself.",
+  "zh": "你只想自己继续做。"
+ },
+ {
+  "seg": 740,
+  "start": 2948.21,
+  "end": 2949.751,
+  "speaker": "Unknown",
+  "en": "That was a signal right there.",
+  "zh": "那本身就是一个信号。"
+ },
+ {
+  "seg": 741,
+  "start": 2951.231,
+  "end": 2955.973,
+  "speaker": "Unknown",
+  "en": "If they don't get why you're so excited about it, then that, yeah, you want to pay attention to that feeling.",
+  "zh": "如果他们没搞懂你为什么对它这么兴奋，那，是啊，你要留意那种感觉。"
+ },
+ {
+  "seg": 742,
+  "start": 2957.073,
+  "end": 2960.074,
+  "speaker": "Unknown",
+  "en": "And then we need to close the loop with user feedback.",
+  "zh": "接下来我们要用用户反馈来闭合这个循环。"
+ },
+ {
+  "seg": 743,
+  "start": 2960.094,
+  "end": 2962.395,
+  "speaker": "Unknown",
+  "en": "This is part of shrinking things down.",
+  "zh": "这也是把事情缩小的一部分。"
+ },
+ {
+  "seg": 744,
+  "start": 2962.775,
+  "end": 2973.418,
+  "speaker": "Unknown",
+  "en": "So the validation of the idea and the mom test questions we talked about earlier, that is telling you whether it's worth solving the problem in the first place.",
+  "zh": "所以点子的验证以及我们之前谈到的 Mom Test 问题，那是在告诉你这个问题本身值不值得解决。"
+ },
+ {
+  "seg": 745,
+  "start": 2973.819,
+  "end": 2974.759,
+  "speaker": "Unknown",
+  "en": "And now we're getting into",
+  "zh": "而现在我们要进入"
+ },
+ {
+  "seg": 746,
+  "start": 2975.339,
+  "end": 2978.081,
+  "speaker": "Unknown",
+  "en": "How do you know whether your solution is doing that effectively?",
+  "zh": "你怎么知道你的解决方案是否有效地做到了这一点？"
+ },
+ {
+  "seg": 747,
+  "start": 2978.361,
+  "end": 2981.784,
+  "speaker": "Unknown",
+  "en": "And Ruben says that user feedback is how you do that.",
+  "zh": "Ruben 说，用户反馈就是你做到这一点的方式。"
+ },
+ {
+  "seg": 748,
+  "start": 2982.264,
+  "end": 2985.687,
+  "speaker": "Unknown",
+  "en": "And also what Michael was doing and Wayne as well.",
+  "zh": "这也是 Michael 在做的，Wayne 也是。"
+ },
+ {
+  "seg": 749,
+  "start": 2985.787,
+  "end": 2989.53,
+  "speaker": "Unknown",
+  "en": "So you try to get something, some prototype to those early users.",
+  "zh": "所以你要设法把一个东西、某个原型交到那些早期用户手里。"
+ },
+ {
+  "seg": 750,
+  "start": 2989.85,
+  "end": 2999.477,
+  "speaker": "Unknown",
+  "en": "Early adopters are like totally fine, especially if the solution that you build has a ton of gaping holes, then yeah, they're gonna be like pretty,",
+  "zh": "早期采用者是完全没问题的，尤其是如果你构建的解决方案有大量明显的漏洞，那没错，他们会相当——"
+ },
+ {
+  "seg": 751,
+  "start": 3001.388,
+  "end": 3004.111,
+  "speaker": "Unknown",
+  "en": "Their reaction to that is gonna tell you a lot.",
+  "zh": "他们对此的反应会告诉你很多。"
+ },
+ {
+  "seg": 752,
+  "start": 3004.631,
+  "end": 3015.101,
+  "speaker": "Unknown",
+  "en": "If there are a lot of gaping holes but it gets them almost there or just gets them over to what they're trying to do and they're still excited about it, that is very significant.",
+  "zh": "如果有很多明显的漏洞，但它几乎能让他们达成目标，或者刚好能让他们做到想做的事，而他们仍然为之兴奋，那是非常有意义的。"
+ },
+ {
+  "seg": 753,
+  "start": 3015.441,
+  "end": 3020.546,
+  "speaker": "Unknown",
+  "en": "If it doesn't quite get them there and they kind of give up early or something and they're like, ah, I don't know, I could just,",
+  "zh": "如果它没能让他们达成目标，而他们很早就放弃了之类的，然后说，啊，我不知道，我其实可以直接——"
+ },
+ {
+  "seg": 754,
+  "start": 3020.986,
+  "end": 3024.409,
+  "speaker": "Unknown",
+  "en": "You know, I had a couple of these paper cut issues and so I stopped.",
+  "zh": "你知道，我遇到了几个这种小刺问题，所以我就停用了。"
+ },
+ {
+  "seg": 755,
+  "start": 3024.689,
+  "end": 3026.09,
+  "speaker": "Unknown",
+  "en": "Okay, that's a really good signal too.",
+  "zh": "好，那也是一个非常好的信号。"
+ },
+ {
+  "seg": 756,
+  "start": 3026.971,
+  "end": 3034.277,
+  "speaker": "Unknown",
+  "en": "The problems that are really worth solving are the ones where people will just run through the glass cutting themselves and they're like, I made it!",
+  "zh": "真正值得解决的问题，是那些人们会直接冲破玻璃、划伤自己，然后说「我做到了！」的问题。"
+ },
+ {
+  "seg": 757,
+  "start": 3035.02,
+  "end": 3037.202,
+  "speaker": "Unknown",
+  "en": "Now that's what you're trying to go for.",
+  "zh": "这才是你要追求的东西。"
+ },
+ {
+  "seg": 758,
+  "start": 3037.462,
+  "end": 3040.666,
+  "speaker": "Unknown",
+  "en": "And getting early user feedback through prototypes helps a lot with that.",
+  "zh": "而通过原型获取早期用户反馈对这一点帮助很大。"
+ },
+ {
+  "seg": 759,
+  "start": 3041.286,
+  "end": 3043.068,
+  "speaker": "Unknown",
+  "en": "So why product engineers need the mom test?",
+  "zh": "那么为什么产品工程师需要《The Mom Test》?"
+ },
+ {
+  "seg": 760,
+  "start": 3043.128,
+  "end": 3051.477,
+  "speaker": "Unknown",
+  "en": "Because that helps you translate what the PM is saying into the shape of the system that you build and select the appropriate architecture",
+  "zh": "因为它能帮你把 PM 所说的话转化为你所构建系统的形态，并选择合适的架构。"
+ },
+ {
+  "seg": 761,
+  "start": 3052.177,
+  "end": 3060.923,
+  "speaker": "Unknown",
+  "en": "Especially understanding what do users do now or what do our potential customers do now to solve this problem can help you determine the architectural shape.",
+  "zh": "尤其是理解用户现在在做什么、或者我们的潜在客户现在在做什么来解决这个问题，可以帮助你确定架构形态。"
+ },
+ {
+  "seg": 762,
+  "start": 3061.003,
+  "end": 3068.948,
+  "speaker": "Unknown",
+  "en": "Okay, so there's a lot of opportunity here and there's gonna be a lot of downtime so we need to pay attention to how we do migrations or whatever.",
+  "zh": "好，那么这里有很多机会，而且会有很多空闲时间，所以我们需要注意我们怎么做迁移之类的。"
+ },
+ {
+  "seg": 763,
+  "start": 3070.565,
+  "end": 3076.152,
+  "speaker": "Unknown",
+  "en": "Okay, and yeah, it's very easy to end up building the wrong abstraction without that context.",
+  "zh": "好，是的，没有那种背景，你很容易最终构建出错误的抽象。"
+ },
+ {
+  "seg": 764,
+  "start": 3076.672,
+  "end": 3078.014,
+  "speaker": "Unknown",
+  "en": "So I'm gonna pause really quick.",
+  "zh": "那我要快速暂停一下。"
+ },
+ {
+  "seg": 765,
+  "start": 3078.354,
+  "end": 3080.297,
+  "speaker": "Unknown",
+  "en": "We'll see what questions you all have.",
+  "zh": "我们来看看你们都有什么问题。"
+ },
+ {
+  "seg": 766,
+  "start": 3081.258,
+  "end": 3084.061,
+  "speaker": "Unknown",
+  "en": "So far, the most upvoted ones are the ones I'm gonna focus on.",
+  "zh": "到目前为止，票数最高的问题是我要重点关注的。"
+ },
+ {
+  "seg": 767,
+  "start": 3086.524,
+  "end": 3087.325,
+  "speaker": "Unknown",
+  "en": "And back here, here we go.",
+  "zh": "回到这边，好了。"
+ },
+ {
+  "seg": 768,
+  "start": 3088.708,
+  "end": 3091.93,
+  "speaker": "Unknown",
+  "en": "So three main things that, let's just highlight that, there we go.",
+  "zh": "三个主要的东西，我们把它高亮一下，好了。"
+ },
+ {
+  "seg": 769,
+  "start": 3092.21,
+  "end": 3095.893,
+  "speaker": "Unknown",
+  "en": "Three main things that distinguish a product engineer from a product manager, do we need both?",
+  "zh": "区分产品工程师和产品经理的三个主要点，我们需要两者都有吗?"
+ },
+ {
+  "seg": 770,
+  "start": 3096.393,
+  "end": 3098.174,
+  "speaker": "Unknown",
+  "en": "Ooh, the three main things.",
+  "zh": "哦，三个主要点。"
+ },
+ {
+  "seg": 771,
+  "start": 3098.915,
+  "end": 3106.48,
+  "speaker": "Unknown",
+  "en": "So yeah, kind of talked about this a little bit, but I would say that the product engineer is the one that's, I'm not sure if I'm gonna get three, but I'll just say a bunch of things.",
+  "zh": "那是的，有点谈过这个了，但我会说产品工程师是那个……我不确定我能不能凑出三个，但我就说一堆吧。"
+ },
+ {
+  "seg": 772,
+  "start": 3107.34,
+  "end": 3109.341,
+  "speaker": "Unknown",
+  "en": "Product Engineer is the one that is actually in the code.",
+  "zh": "产品工程师是那个真正在代码里的人。"
+ },
+ {
+  "seg": 773,
+  "start": 3109.361,
+  "end": 3118.706,
+  "speaker": "Unknown",
+  "en": "You may not necessarily be looking at the code anymore, but you are thinking about the system, and you're thinking about the data types that are available, the primitives that you have available.",
+  "zh": "你可能不一定还在看代码了，但你在思考系统，你在思考可用的数据类型、你可用的原语。"
+ },
+ {
+  "seg": 774,
+  "start": 3118.846,
+  "end": 3128.651,
+  "speaker": "Unknown",
+  "en": "Oh, we do have, like, a cron job system, but there are some problems with that, and you understand what those constraints are, and what the limitations of your current infrastructure are.",
+  "zh": "哦，我们确实有，比如，一个定时任务系统，但它有一些问题，你理解那些约束是什么，以及你当前基础设施的限制是什么。"
+ },
+ {
+  "seg": 775,
+  "start": 3129.231,
+  "end": 3135.715,
+  "speaker": "Unknown",
+  "en": "You understand what the available primitives are that, and so when a request comes in, and you understand what's trying to be solved here,",
+  "zh": "你理解有哪些可用的原语，所以当一个需求进来，你理解这里要解决的是什么，"
+ },
+ {
+  "seg": 776,
+  "start": 3136.215,
+  "end": 3156.754,
+  "speaker": "Unknown",
+  "en": "You can categorize that into whether it fits in the existing architecture or if you need to expand beyond that and understanding that the ultimate user goal or the job to be done, foreshadowing, that is going to help you decide whether we should actually expand the system with a couple more primitives or if you can reuse existing ones.",
+  "zh": "你可以把它归类，判断它是适合现有架构，还是需要扩展超出它，并且理解最终的用户目标或要完成的任务(埋个伏笔)，这将帮助你决定是否真的应该用几个新的原语来扩展系统，还是可以复用现有的。"
+ },
+ {
+  "seg": 777,
+  "start": 3158.135,
+  "end": 3175.769,
+  "speaker": "Unknown",
+  "en": "That's probably the number one thing that distinguishes a product engineer from the product manager is just that technical expertise and understanding of the system, which a product manager could probably just talk to an AI about over and over and over again to kind of ramp themselves up, but they should actually be doing other stuff.",
+  "zh": "这可能是区分产品工程师和产品经理的第一要素，就是那种技术专长和对系统的理解，产品经理或许可以一遍又一遍地跟 AI 聊来让自己上手，但他们其实应该去做别的事情。"
+ },
+ {
+  "seg": 778,
+  "start": 3177.73,
+  "end": 3182.894,
+  "speaker": "Unknown",
+  "en": "Yeah, I would say, to answer the question, do we need both, this is actually interesting.",
+  "zh": "是的，回答这个问题，我们需要两者都有吗，这其实很有意思。"
+ },
+ {
+  "seg": 779,
+  "start": 3183.214,
+  "end": 3192.42,
+  "speaker": "Unknown",
+  "en": "So I am, oh, sorry, I am self-employed, so I do not have a product manager or a product engineer or a CFO or what, like, I just work for myself.",
+  "zh": "那么，哦，抱歉，我是自由职业者，所以我没有产品经理、没有产品工程师、没有 CFO 什么的，我就是给自己打工。"
+ },
+ {
+  "seg": 780,
+  "start": 3192.54,
+  "end": 3196.283,
+  "speaker": "Unknown",
+  "en": "I am all the things, and you start a startup, often it's just like three of you.",
+  "zh": "我身兼所有角色，而你创办一家初创公司的时候，通常就是你们三个人。"
+ },
+ {
+  "seg": 781,
+  "start": 3196.503,
+  "end": 3200.964,
+  "speaker": "Unknown",
+  "en": "Sometimes all three of you are technical or maybe one of you is the business person or whatever.",
+  "zh": "有时你们三个都是技术出身，或者也许你们中有一个是商务的人之类的。"
+ },
+ {
+  "seg": 782,
+  "start": 3201.344,
+  "end": 3206.286,
+  "speaker": "Unknown",
+  "en": "And as the company grows, you eventually start divvying out those responsibilities and you have multiple jobs.",
+  "zh": "随着公司成长，你最终开始分摊那些职责，你有多个职位。"
+ },
+ {
+  "seg": 783,
+  "start": 3206.666,
+  "end": 3208.267,
+  "speaker": "Unknown",
+  "en": "So yeah, do we need both?",
+  "zh": "所以是的，我们需要两者都有吗?"
+ },
+ {
+  "seg": 784,
+  "start": 3208.327,
+  "end": 3215.549,
+  "speaker": "Unknown",
+  "en": "It highly depends on where you're at in the process of your scaling of your business and whether you ever want to get there.",
+  "zh": "这高度取决于你在业务扩张过程中所处的阶段，以及你是否想要到达那里。"
+ },
+ {
+  "seg": 785,
+  "start": 3215.649,
+  "end": 3225.592,
+  "speaker": "Unknown",
+  "en": "So I think that now you can actually build a much bigger business without splitting out into a much bigger organization than you used to.",
+  "zh": "所以我认为现在你真的可以在不拆分成一个大得多的组织的情况下，构建一个比以前大得多的业务。"
+ },
+ {
+  "seg": 786,
+  "start": 3226.772,
+  "end": 3227.273,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 787,
+  "start": 3228.214,
+  "end": 3231.076,
+  "speaker": "Unknown",
+  "en": "Okay, how small do you think teams... Oh, literally just said that.",
+  "zh": "好，你觉得团队可以多小……哦，我刚刚刚好说过这个。"
+ },
+ {
+  "seg": 788,
+  "start": 3231.797,
+  "end": 3233.619,
+  "speaker": "Unknown",
+  "en": "Pretty small.",
+  "zh": "相当小。"
+ },
+ {
+  "seg": 789,
+  "start": 3233.719,
+  "end": 3235.84,
+  "speaker": "Unknown",
+  "en": "I don't know how I can give you a more specific answer to that.",
+  "zh": "我不知道我还能怎么给你一个更具体的答案。"
+ },
+ {
+  "seg": 790,
+  "start": 3237.202,
+  "end": 3240.905,
+  "speaker": "Unknown",
+  "en": "Okay, how would people get promoted from junior to senior in the age of AI?",
+  "zh": "好，在 AI 时代，人们如何从初级晋升到高级?"
+ },
+ {
+  "seg": 791,
+  "start": 3242.827,
+  "end": 3244.588,
+  "speaker": "Unknown",
+  "en": "Well, huh.",
+  "zh": "嗯，哈。"
+ },
+ {
+  "seg": 792,
+  "start": 3245.809,
+  "end": 3247.311,
+  "speaker": "Unknown",
+  "en": "I'm not sure how to answer this question.",
+  "zh": "我不确定怎么回答这个问题。"
+ },
+ {
+  "seg": 793,
+  "start": 3247.871,
+  "end": 3248.212,
+  "speaker": "Unknown",
+  "en": "I think...",
+  "zh": "我觉得……"
+ },
+ {
+  "seg": 794,
+  "start": 3249.308,
+  "end": 3255.773,
+  "speaker": "Unknown",
+  "en": "Juniors and seniors are both, like we're all ultimately trying to do the same thing.",
+  "zh": "初级和高级都是……我们最终都在做同一件事。"
+ },
+ {
+  "seg": 795,
+  "start": 3256.233,
+  "end": 3267.362,
+  "speaker": "Unknown",
+  "en": "Even all the way back before AI, the junior was just trying to emulate the senior as much as they could until they suddenly, or over time, become a senior engineer.",
+  "zh": "甚至追溯到 AI 出现之前，初级工程师就是尽可能地模仿高级工程师，直到他们突然地，或者说随着时间推移，变成高级工程师。"
+ },
+ {
+  "seg": 796,
+  "start": 3267.602,
+  "end": 3269.883,
+  "speaker": "Unknown",
+  "en": "And I think that nothing about that has changed.",
+  "zh": "而且我认为这方面什么都没有改变。"
+ },
+ {
+  "seg": 797,
+  "start": 3270.484,
+  "end": 3274.106,
+  "speaker": "Unknown",
+  "en": "As far as like actually getting promoted, that's just gonna be a conversation with your person.",
+  "zh": "而且我认为这一点没有任何改变。"
+ },
+ {
+  "seg": 798,
+  "start": 3275.227,
+  "end": 3280.231,
+  "speaker": "Unknown",
+  "en": "I should actually stop really quick because I'm just noticing people walking out and my timer went to zero.",
+  "zh": "我应该真的快速停一下，因为我注意到有人在离场，而且我的计时器归零了。"
+ },
+ {
+  "seg": 799,
+  "start": 3280.551,
+  "end": 3282.453,
+  "speaker": "Unknown",
+  "en": "This session is a two hour session.",
+  "zh": "这个环节是两个小时。"
+ },
+ {
+  "seg": 800,
+  "start": 3282.493,
+  "end": 3285.435,
+  "speaker": "Unknown",
+  "en": "It's just back to back and I'm planning on just going straight through.",
+  "zh": "就是一个接一个,我打算直接讲到底。"
+ },
+ {
+  "seg": 801,
+  "start": 3285.795,
+  "end": 3289.498,
+  "speaker": "Unknown",
+  "en": "But if there are other sessions you wanted to see, you're welcome to stand up and leave.",
+  "zh": "但如果你还有其他想看的场次,欢迎起身离开。"
+ },
+ {
+  "seg": 802,
+  "start": 3289.818,
+  "end": 3293.221,
+  "speaker": "Unknown",
+  "en": "I will just take a mental image of you and frown at you in the hallway later.",
+  "zh": "我只会在脑子里给你拍张照,晚点在走廊里对你皱眉。"
+ },
+ {
+  "seg": 803,
+  "start": 3294.541,
+  "end": 3295.502,
+  "speaker": "Unknown",
+  "en": "Just kidding, I won't do that.",
+  "zh": "开玩笑的,我不会那么做。"
+ },
+ {
+  "seg": 804,
+  "start": 3295.562,
+  "end": 3301.827,
+  "speaker": "Unknown",
+  "en": "You're welcome to take off if there was another session you wanted to go to because there are so many good ones.",
+  "zh": "如果你想去别的场次,尽管离开,因为好场次实在太多了。"
+ },
+ {
+  "seg": 805,
+  "start": 3308.461,
+  "end": 3309.645,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 806,
+  "start": 3309.685,
+  "end": 3310.589,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]
