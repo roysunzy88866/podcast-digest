@@ -98,6 +98,8 @@ export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = fals
     if (!exec({ FORCE: "1" }, "scripts/condense.mjs", rel)) throw new Error("重浓缩失败");
     if (!exec({}, "scripts/judge-quotes.mjs", rel)) throw new Error("判官失败");
     if (!exec({}, "scripts/repair-quotes.mjs", rel)) throw new Error("金句修复失败");
+    // C42:与新集同一条链 —— 写完轻量修(新写手:引语核对/人名统一/重点标注;开关没开时脚本自己跳过)。best-effort,不判失败
+    exec({}, "scripts/polish-zh.mjs", rel);
     if (!exec({}, "scripts/gate.mjs", rel)) throw new Error("金句三联闸门未过");
     if (!exec({}, "scripts/gate-facts.mjs", rel)) {
       // 单点救稿回路(与 processEpisode 同款):修没修好都以重验为准

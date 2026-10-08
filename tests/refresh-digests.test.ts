@@ -100,7 +100,7 @@ describe("refreshOne · 断点续跑:已合规集零动作跳过", () => {
 });
 
 describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多一步不少)", () => {
-  it("★★★ 链 = FORCE 浓缩→判官→金句规整→gate→gate-facts→tts;不碰取源/翻译/实体/嘉宾", () => {
+  it("★★★ 链 = FORCE 浓缩→判官→金句规整→轻量修→gate→gate-facts→tts;不碰取源/翻译/实体/嘉宾", () => {
     const { base, id, dir } = makeEpisode(legacyDigest);
     const { calls, exec } = recorder();
     const r = refreshOne(id, { episodesDir: base, exec });
@@ -110,6 +110,7 @@ describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多
       "scripts/condense.mjs",
       "scripts/judge-quotes.mjs",
       "scripts/repair-quotes.mjs",
+      "scripts/polish-zh.mjs", // C42:写完轻量修(引语核对等),与新集同链
       "scripts/gate.mjs",
       "scripts/gate-facts.mjs",
       "scripts/voice-script.mjs", // C38:digest 变了 → 重生成口播稿,再配新音频(best-effort)
