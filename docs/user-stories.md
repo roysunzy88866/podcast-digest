@@ -2955,3 +2955,27 @@ Feature: 新写手一口气写成精华
     When  polish-zh
     Then  不调用逐节改写、补小标题、拆句改写
 ```
+
+## C43 · 对标跨国串门 · 它选过的期必收 · US-4 · 2026-10-09 用户明示目标 [standard-change: 用户授权 2026-10-09]
+> ADR 0029。测试 tests/cgc-align.test.ts。
+```gherkin
+Feature: 每天每期跟跨国串门对齐
+  Scenario: 它选了一期我们订过的节目,标题不同(它用 YouTube 标题)
+    Given 它的简介写「克隆了:The Knowledge Project Podcast · Bill Ackman: People are Going to Lose… 原内容更新时间:2026-09-29」
+    When  对齐找原集
+    Then  在 Knowledge Project feed 里按原日期 ±2 天找到唯一一期;库里已有则记「已收」
+  Scenario: 它选了一期我们没订的节目
+    Given 原集在 Apple 播客目录里(标题 ≥0.75、节目名对上、原日期 ±3 天)
+    When  对齐
+    Then  记成对齐专用源(不日常轮询),这一期不过判官直接做;事实层/金句闸门照旧
+  Scenario: 只在 YouTube 上
+    Given 播客目录里找不到
+    When  对齐
+    Then  写进 YouTube 队列;Mac mini 巡航搜到标题对上的视频就落种(标 must),云端不过判官
+  Scenario: 认不准不硬猜
+    Given 原标题不到 3 个词,或 feed 里原日期附近有两期以上
+    Then  不按它认;网络没查成则下班再试,不判「没有」
+  Scenario: 合集不对齐
+    Given 多集混剪 / 整套系列 / 超过 4 小时
+    Then  记「合集/超长,不对齐」
+```

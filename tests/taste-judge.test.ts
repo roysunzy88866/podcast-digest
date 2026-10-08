@@ -142,7 +142,7 @@ describe("W2 · 判官留痕(放行与拒绝都记;此前只记拒绝,过审的�
     const rp = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     expect((rp.match(/appendJudgeLog\(judgeLogEntry\(/g) ?? []).length).toBe(2);
     expect(rp).toContain('path: "new"');
-    expect(rp).toContain('function processBackfillPicks(pairs, state, { path = "topup" } = {})'); // C40:补回复用时传 path="redo"
+    expect(rp).toContain('function processBackfillPicks(pairs, state, { path = "topup", must = false } = {})'); // C40:补回复用时传 path="redo";C43:对齐传 path="cgc", must
     expect(rp).toMatch(/judgeLogEntry\(\{[^}]*\bpath\b/);
     expect(rp).toContain('"data/judge-log.jsonl"');
   });

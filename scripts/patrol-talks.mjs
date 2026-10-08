@@ -22,13 +22,14 @@
 //   node scripts/patrol-talks.mjs --limit 3        # 本轮最多落种 3 条(首跑积压太多时手动分批)
 //
 // 纯逻辑(解析/过滤/去重/判定)全部导出供单测;副作用只在 main()。
-import { readFileSync, existsSync, readdirSync, appendFileSync, mkdirSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, appendFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { xmlUnescape } from "./build-feed.mjs"; // isMain 守卫,import 无副作用
 import { JUDGE_MAX_TOKENS, JUDGE_FRESHNESS_DAYS } from "./taste-judge.mjs"; // 单一真相:两个判官共用一个 token 预算(drift #82:两处各写一份必然再次跑偏)
-import { BACKFILL_MAX_AGE_DAYS, bjDay, findTitleDuplicate } from "./run-pipeline.mjs"; // drift #104:演讲巡航与播客补历史共用同一个新鲜窗口(isMain 守卫,import 无副作用)
+import { BACKFILL_MAX_AGE_DAYS, bjDay, findTitleDuplicate } from "./run-pipeline.mjs";
+import { titleSim } from "./cgc-align.mjs"; // C43 跨国串门对齐(YouTube 那一半) // drift #104:演讲巡航与播客补历史共用同一个新鲜窗口(isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SUBS_FILE = join(ROOT, "data/talk-subscriptions.json");
@@ -441,6 +442,47 @@ function gitFinalize() {
   return false;
 }
 
+// ══ C43 · 跨国串门对齐的 YouTube 那一半(云端在播客目录里找不到原集的,记在 data/cgc-youtube.json)══
+// 本机 yt-dlp 搜「频道名 + 原标题」,标题对上(≥0.75,或 ≥0.6 且频道名对上)就落种,种子标 must(云端不过判官)。
+// 进度记 data/talks-seed/cgc-youtube-done.json(放在巡航自己提交的目录里,不和云端写的队列文件抢)。
+export const CGC_YT_QUEUE = "data/cgc-youtube.json";
+export const CGC_YT_DONE = "data/talks-seed/cgc-youtube-done.json";
+
+/** yt-dlp 搜索结果里挑原视频;对不上返回 null(不猜)。 */
+export function pickCgcVideo(entries, want) {
+  let best = null, bs = 0;
+  for (const v of entries ?? []) {
+    const t = titleSim(want.title, v.title);
+    const ok = t >= 0.75 || (t >= 0.6 && want.show && titleSim(want.show, v.channel ?? v.uploader ?? "") >= 0.5);
+    if (ok && t > bs) { bs = t; best = v; }
+  }
+  return best;
+}
+
+function cgcYoutubePass(account) {
+  const qf = join(ROOT, CGC_YT_QUEUE), df = join(ROOT, CGC_YT_DONE);
+  if (!existsSync(qf)) return;
+  const done = existsSync(df) ? JSON.parse(readFileSync(df, "utf8")) : {};
+  const todo = JSON.parse(readFileSync(qf, "utf8")).filter((x) => !done[x.guid]);
+  if (!todo.length) return;
+  console.log(`\n══ 跨国串门对齐(YouTube):${todo.length} 期待找`);
+  for (const w of todo) {
+    const r = sh("yt-dlp", ["--flat-playlist", "--dump-single-json", `ytsearch8:${`${w.show} ${w.title}`.trim().slice(0, 150)}`], { env: childProxyEnv() });
+    if (r.status !== 0) { console.error(`   ⚠️ 搜索失败(下轮再试):${w.title}`); continue; }
+    const v = pickCgcVideo(JSON.parse(r.stdout).entries, w);
+    if (!v) { done[w.guid] = { status: "YouTube 也没找到", day: bjDay() }; console.log(`   ✗ 没找到:${w.title}`); continue; }
+    const seed = sh("node", [join(ROOT, "scripts/seed-talk.mjs"), `https://www.youtube.com/watch?v=${v.id}`], { env: childProxyEnv(), stdio: ["ignore", "inherit", "inherit"] });
+    const sp = join(SEED_DIR, v.id, "seed.json");
+    if (seed.status !== 0 || !existsSync(sp) || !JSON.parse(readFileSync(sp, "utf8")).audio_asset_url) { account.failed++; continue; }
+    writeFileSync(sp, JSON.stringify({ ...JSON.parse(readFileSync(sp, "utf8")), must: true, cgc: w.guid }, null, 2) + "\n");
+    done[w.guid] = { status: "已落种", videoId: v.id, day: bjDay() };
+    logEvent({ action: "seeded", channel: "cgc", videoId: v.id, title: v.title, verdict: "对齐必收", reason: `跨国串门选过:${w.cgcTitle ?? w.title}` });
+    account.seeded++;
+    console.log(`   ⬇️ 已落种 ${v.id}「${v.title}」`);
+  }
+  writeFileSync(df, JSON.stringify(done, null, 2) + "\n");
+}
+
 async function main() {
   const argv = process.argv.slice(2);
   const flags = new Set(argv);
@@ -605,6 +647,8 @@ async function main() {
       account.failed++;
     }
   }
+
+  if (!smoke && !recheckStuck) cgcYoutubePass(account);
 
   console.log(`\n══ 巡航收账:落种 ${account.seeded} / 不对味 ${account.rejected} / 预过滤 ${account.prefiltered} / 失败可重试 ${account.failed} / 去重 ${account.deduped}`);
   if (judgeSample > 0) {

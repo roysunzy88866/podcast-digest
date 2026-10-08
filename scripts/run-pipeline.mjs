@@ -20,6 +20,7 @@ import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, 
 // C34 品味判官(有 isMain 守卫,import 无副作用):开始处理**之前**按品味档案判一次题材,
 // 偏题的直接不做 —— 省下 2-4 小时转写,也不再让「222 纳米杀菌灯」那类内容做完才被发现。
 import { judgeEpisodeTaste, judgeLogEntry } from "./taste-judge.mjs";
+import { CGC_FEED, CGC_WINDOW_DAYS, parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, dayGap, ourSourceFor, cgcKey } from "./cgc-align.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -138,6 +139,15 @@ export const SOURCES = [
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
   { key: "talks", name: "精选演讲", seedDir: "data/talks-seed", asr: "whisperx", manual: true },
 ];
+// C43 · 跨国串门对齐发现的「我们没订的节目」(Apple 目录查得 feed)。只为对齐那几期而存在:
+// alignOnly → 不进日常新集轮询(activeSources 排除),但 sourceForId 能从 id 反查回来(补活/重试/音频中转要用)。
+export const CGC_SOURCES_FILE = "data/cgc-sources.json";
+try {
+  for (const s of JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), "..", CGC_SOURCES_FILE), "utf8"))) {
+    if (s?.key && s?.feedUrl && !SOURCES.some((x) => x.key === s.key)) SOURCES.push({ ...s, asr: "whisperx", alignOnly: true });
+  }
+} catch { /* 还没有对齐出新节目 → 无动态源 */ }
+
 
 /** 参与「每日顶量补历史」的源(drift #58 用户「多拉不同源历史档」)。
  *  lennys 走 vendored archiveFile(Substack www feed 浅);这些**非 Substack 源 feed 本身够深**
@@ -548,6 +558,7 @@ export function selectBackfillRecent(items, { n, sinceISO, existingIds, source, 
  * cron 行为的机器保证仍收在这一个函数里,别散到调用点。
  */
 export function activeSources(all, { onlyKey, talks, autoTalks } = {}) {
+  all = all.filter((s) => !s.alignOnly); // C43:对齐专用源不轮询新集
   if (onlyKey) return all.filter((s) => s.key === onlyKey);
   if (talks) return all.filter((s) => s.manual);
   return all.filter((s) => !s.manual || (autoTalks && s.seedDir));
@@ -609,6 +620,7 @@ export function talkItemFromSeed(seed) {
     hasAudio: true,
     enclosureUrl: seed.audio_asset_url ?? null,
     durationSec: seed.duration_sec ?? 0,
+    ...(seed.must ? { must: true } : {}), // C43:跨国串门对齐落的种子 = 必收(不过判官)
   };
 }
 
@@ -1263,6 +1275,13 @@ async function main() {
     totalSkipped += r.skipped;
   }
 
+  // C43 跨国串门对齐:它选过的期必收,排在顶量之前(用户 2026-10-09 目标「每期都对齐」)。开关 CGC_ALIGN=1。守卫同顶量。
+  if (process.env.CGC_ALIGN === "1" && flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
+    const r = await alignPass(state, { dryRun });
+    totalClean += r.clean;
+    totalSkipped += r.skipped;
+  }
+
   // C23 每日顶量(ADR 0021):当天(UTC)入库不足 → 倒序补历史到 ~DAILY_TARGET。
   // **只在 cron 班触发**(pipeline.yml 对 schedule 事件一律传 --daily-topup,2026-08-18 起四班全开):判当天(UTC)入库够不够目标,不够就补;
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
@@ -1480,7 +1499,7 @@ function libraryTitlesFromCompleted(completed) {
 /** 逐集处理顶量选中的集:与 processSource 同口径(失真隔离 / [1301] 放弃 / 转瞬留半成品),但无 cutoff。 */
 /** 处理一批补历史候选。C33 起吃 [{item, source}] 对 —— 因为一批里可以混多个源
  *  (跨源统一按最新排序后挑出来的,见 selectBackfillGlobal)。 */
-function processBackfillPicks(pairs, state, { path = "topup" } = {}) {
+function processBackfillPicks(pairs, state, { path = "topup", must = false } = {}) {
   // C32:补历史同受时间预算约束(它和新集抢的是同一个 6h 作业)
   let clean = 0;
   let skipped = 0;
@@ -1505,7 +1524,8 @@ function processBackfillPicks(pairs, state, { path = "topup" } = {}) {
     }
     processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
-    const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
+    // C43:跨国串门选过的期 = 必收(用户 2026-10-09「他转出来的都是我想要的」)→ 不过题材/时效判官,只留痕
+    const taste = must ? { ok: true, why: "跨国串门对齐:必收(不过判官)", verdict: { verdict: "对齐必收" } } : judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
     appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path, result: taste })); // W2 留痕(C40:补回走 path="redo")
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
@@ -1634,6 +1654,115 @@ async function redoPass(state, { dryRun }) {
   for (const { id, oldId } of pairs) if (skippedNow.has(id) || doneNow.has(id)) state.redoDone[oldId] = bjDay();
   writeState(state);
   console.log(`   补回本班:上站 ${r.clean} / 再拦 ${pairs.filter((p) => skippedNow.has(p.id)).length} / 留队 ${pairs.filter((p) => !state.redoDone[p.oldId]).length}`);
+  return r;
+}
+
+// ══ C43 · 跨国串门对齐(2026-10-09 用户:「让每天每期的内容都能跟他对齐」)══
+// 每班读它的 RSS,近 14 天上的每一期:找到英文原节目那一期 → 不过判官直接做(processBackfillPicks must)。
+// 找原集:①我们已订的源 → 在该源 feed 里按标题找;②Apple 播客目录按「节目名+原标题」搜单集(标题与节目名都要对上)
+// → 节目没订过就记成对齐专用源(data/cgc-sources.json);③都找不到(多是只在 YouTube 的频道)→ 记 data/cgc-youtube.json 交本机巡航。
+// 进度记 state.cgcAlign[guid](终态:已收/合集/做完/找不到…);转瞬失败与预算见底留到下班。
+export const CGC_PER_SHIFT = 4;
+
+/** Apple 播客目录搜单集 → 命中条目 | null(确实没有)| undefined(网络没查成,下班再试,不能当「没有」)。 */
+async function appleEpisode(e, fetchImpl = fetch) {
+  for (const term of [`${e.show} ${e.origTitle}`.trim(), e.origTitle]) {
+    if (!term) continue;
+    let hits;
+    try {
+      const r = await fetchImpl(`https://itunes.apple.com/search?entity=podcastEpisode&limit=10&term=${encodeURIComponent(term.slice(0, 120))}`);
+      hits = (await r.json()).results ?? [];
+    } catch { return undefined; }
+    // 标题 ≥0.75(0.6 实测把另一场 Ray Dalio 访谈认成它)+ 节目名对上 + 原日期 ±3 天(知道日期时);短标题必须有节目名
+    const ok = hits.filter((h) => h.episodeUrl && titleSim(e.origTitle, h.trackName) >= 0.75
+      && (e.show ? titleSim(e.show, h.collectionName) >= 0.5 : e.origTitle.split(/\s+/).length >= 3)
+      && (!e.origISO || dayGap(h.releaseDate, e.origISO) <= 3));
+    if (ok.length) return ok[0];
+  }
+  return null;
+}
+
+const words3 = (t) => String(t ?? "").trim().split(/\s+/).length >= 3;
+
+/** 一期它的选题 → {pair} | {status}(终态)| null(这班没查成,下班再试)。 */
+export async function resolveCgc(e, { sources, getFeed, apple = appleEpisode, completedTitles = [] }) {
+  if (isCompilation(e)) return { status: "合集/超长,不对齐" };
+  if (!e.origTitle) return { status: "简介里没写原节目" };
+  if (words3(e.origTitle) && completedTitles.some((t) => titleSim(e.origTitle, t) >= 0.8)) return { status: "已收" };
+  const our = ourSourceFor(e.show, sources.filter((s) => !s.seedDir));
+  if (our) {
+    const items = await getFeed(our);
+    if (!items) return null; // 我们自己的源 feed 没抓下来 → 下班再试(别误判成「没有播客版」)
+    const item = findByTitle(items, e.origTitle) ?? (e.origISO ? findByDate(items, e.origISO) : null);
+    if (item) return { pair: { item, source: our } };
+  }
+  const h = await apple(e);
+  if (h === undefined) return null; // 目录没查成 → 下班再试
+  if (!h) return { youtube: true };
+  const item = { title: h.trackName, link: h.trackViewUrl ?? "", pubDateISO: new Date(h.releaseDate).toISOString(), hasAudio: true, enclosureUrl: h.episodeUrl, durationSec: Math.round((h.trackTimeMillis ?? 0) / 1000) || undefined };
+  const source = our ?? sources.find((s) => s.feedUrl === h.feedUrl) ?? { key: cgcKey(h.collectionName), name: h.collectionName, feedUrl: h.feedUrl, asr: "whisperx", alignOnly: true, isNew: true };
+  return { pair: { item, source } };
+}
+
+export async function alignPass(state, { dryRun }) {
+  let xml;
+  try { xml = await fetchFeed(CGC_FEED); } catch (e) { console.error(`   ⚠️ 跨国串门 feed 抓取失败,下班再试:${e.message}`); return { clean: 0, skipped: 0 }; }
+  const floor = new Date(Date.now() - CGC_WINDOW_DAYS * 864e5).toISOString();
+  state.cgcAlign = state.cgcAlign ?? {};
+  const todo = parseCgcFeed(xml).filter((e) => e.pubISO >= floor && !state.cgcAlign[e.guid]);
+  if (!todo.length) return { clean: 0, skipped: 0 };
+  console.log(`\n══ C43 跨国串门对齐:它近 ${CGC_WINDOW_DAYS} 天有 ${todo.length} 期待对齐(本班最多做 ${CGC_PER_SHIFT} 期)`);
+  const feeds = new Map();
+  const getFeed = async (src) => {
+    if (!feeds.has(src.key)) { try { feeds.set(src.key, parseFeed(await fetchFeed(src.feedUrl))); } catch { feeds.set(src.key, null); } }
+    return feeds.get(src.key);
+  };
+  const completed = completedIds();
+  const completedTitles = libraryTitlesFromCompleted(completed);
+  const mark = (e, status, id) => { if (!dryRun) state.cgcAlign[e.guid] = { status, id, title: e.title, day: bjDay() }; console.log(`   · ${e.title.slice(0, 40)} → ${status}${id ? ` (${id})` : ""}`); };
+  const pairs = [];
+  const yt = [];
+  for (const e of todo) {
+    if (pairs.length >= CGC_PER_SHIFT) break;
+    const r = await resolveCgc(e, { sources: SOURCES, getFeed, completedTitles });
+    if (!r) continue;
+    if (r.status) { mark(e, r.status); continue; }
+    if (r.youtube) { yt.push({ guid: e.guid, show: e.show, title: e.origTitle, cgcTitle: e.title, pubISO: e.pubISO }); mark(e, "找不到播客版 → 交本机 YouTube"); continue; }
+    const id = deriveId(r.pair.item, r.pair.source);
+    if (completed.includes(id)) { mark(e, "已收", id); continue; }
+    pairs.push({ ...r.pair, id, e });
+  }
+  if (!dryRun && yt.length) {
+    const f = join(ROOT, "data/cgc-youtube.json");
+    const q = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : [];
+    writeFileSync(f, JSON.stringify([...q, ...yt.filter((x) => !q.some((y) => y.guid === x.guid))], null, 2) + "\n");
+  }
+  if (dryRun) { pairs.forEach((p) => console.log(`   → 对齐候选 ${p.id}(${p.source.name})`)); return { clean: 0, skipped: 0 }; }
+  // 新节目落 cgc-sources.json(id → 源反查要用);旧拦截让位(它选过 = 必收)
+  const newSrc = pairs.map((p) => p.source).filter((s) => s.isNew);
+  if (newSrc.length) {
+    const f = join(ROOT, CGC_SOURCES_FILE);
+    const cur = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : [];
+    for (const s of newSrc) {
+      delete s.isNew;
+      if (!cur.some((c) => c.key === s.key)) cur.push({ key: s.key, name: s.name, feedUrl: s.feedUrl });
+      if (!SOURCES.some((x) => x.key === s.key)) SOURCES.push(s);
+    }
+    writeFileSync(f, JSON.stringify(cur, null, 2) + "\n");
+  }
+  const ids = new Set(pairs.map((p) => p.id));
+  state.skipped = (state.skipped ?? []).filter((x) => !ids.has(x.id));
+  for (const id of ids) { clearBlocked(state, id); clearTransient(state, id); }
+  writeState(state);
+  const r = processBackfillPicks(pairs.map(({ item, source }) => ({ item, source })), state, { path: "cgc", must: true });
+  const doneNow = new Set(completedIds());
+  const skippedNow = new Map((state.skipped ?? []).map((x) => [x.id, x.reason]));
+  for (const p of pairs) {
+    if (doneNow.has(p.id)) mark(p.e, "做完上站", p.id);
+    else if (skippedNow.has(p.id)) mark(p.e, `没做成:${String(skippedNow.get(p.id)).slice(0, 60)}`, p.id);
+    // 其余(转瞬失败/预算见底)不记,下班再来
+  }
+  writeState(state);
   return r;
 }
 
@@ -1933,7 +2062,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
     // C34 → W5 挪到预算检查**之前**:判官是标题级、几百 token 的免费一问,偏题 = 终态(retry:false),cutoff 可推进过它。
     // 病根:cogrev 那集 154 分「AI in the AM weekly highlights」本是 ❌ 聚合简报,却因预算检查在前、每班在它这儿停手,
     // 判官永远没机会拒掉它(08-16 起每班白占 3 个名额)。
-    const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
+    const taste = item.must ? { ok: true, why: "跨国串门对齐:必收(不过判官)", verdict: { verdict: "对齐必收" } } : judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则);C43 对齐种子必收
     appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path: "new", result: taste })); // W2 留痕
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
