@@ -25,7 +25,7 @@ unlisted: true
 
 [[Young]] · [[Nikhil]] · [[Connor]] · [[Crusoe]] · [[Slurm]] · [[Kubernetes]] · [[AutoClusters]] · [[GPU 故障]] · [[多节点训练]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":16,"AutoClusters":1,"GPU 故障":1,"多节点训练":1,"推理":83}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":17,"AutoClusters":1,"GPU 故障":1,"多节点训练":1,"推理":83}</script>
 
 <script>
 (function(){

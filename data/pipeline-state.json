@@ -222,11 +222,12 @@
     "qflLT3SoVbw": "2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble",
     "42Bz0TUfeOQ": "2026-10-05-talks-the-transcript-looked-fine-the-call-wasn",
     "950byF7njfw": "2026-10-05-talks-interrupt-nyc-opening-keynote",
-    "_fHTqOs5wQA": "2026-10-05-talks-build-the-right-thing-product-engineerin"
+    "_fHTqOs5wQA": "2026-10-05-talks-build-the-right-thing-product-engineerin",
+    "F0TNSmbo5hE": "2026-10-05-talks-from-vibes-to-production-evaluating-and",
+    "fz6-NS7qpZc": "2026-10-05-talks-how-i-learned-to-stop-worrying-and-love"
   },
   "blocked": {
-    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
-    "2026-10-05-talks-from-vibes-to-production-evaluating-and": 1
+    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {
     "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
@@ -244,7 +245,7 @@
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
-    "2026-10-07-pragmatic-building-resilient-systems-with-sam": 1
+    "2026-10-07-pragmatic-building-resilient-systems-with-sam": 2
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -355,7 +356,7 @@
     "iltb": "2026-10-06T08:00:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
     "sed": "2026-10-06T09:00:00.000Z",
-    "twist": "2026-10-05T22:27:00.000Z",
+    "twist": "2026-10-08T00:49:00.000Z",
     "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-06T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
@@ -1129,6 +1130,24 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Why Every Traded Personal Agents for One Company Agent",
       "pubDate": "2026-10-07T17:11:13.000Z"
+    },
+    {
+      "id": "2026-10-07-twist-jason-mentors-the-next-generation-why-ai",
+      "reason": "跨源重复:与库内《Jason Mentors The Next Generation + Why AI Is Bad at Teaching (Aristotle Interview) | E2346》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "Jason Mentors The Next Generation + Why AI Is Bad at Teaching (Aristotle Interview) | E2346",
+      "pubDate": "2026-10-07T21:51:00.000Z"
+    },
+    {
+      "id": "2026-10-08-twist-what-vcs-really-think-about-personal-ai",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "What VCs Really Think About Personal AI Agents | E2347",
+      "pubDate": "2026-10-08T00:49:00.000Z"
+    },
+    {
+      "id": "2026-10-05-talks-from-vibes-to-production-evaluating-and",
+      "reason": "内容审查拦下([1301] GLM 拒译敏感内容,连拦 2 次已放弃)",
+      "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
+      "pubDate": "2026-10-05T00:00:00.000Z"
     }
   ]
 }

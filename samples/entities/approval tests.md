@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lada Kesseler]] · [[智能体编码]] · [[智能体]] · [[Claude MD]] · [[技能]] · [[TDD]] · [[BDD]] · [[验证器]] · [[软件工厂]] · [[事件溯源]]
 
-<script type="application/json" class="pd-epn">{"Lada Kesseler":1,"智能体编码":4,"智能体":436,"Claude MD":2,"技能":29,"TDD":4,"BDD":1,"验证器":7,"软件工厂":1,"事件溯源":2}</script>
+<script type="application/json" class="pd-epn">{"Lada Kesseler":1,"智能体编码":4,"智能体":437,"Claude MD":2,"技能":29,"TDD":4,"BDD":1,"验证器":7,"软件工厂":1,"事件溯源":2}</script>
 
 <script>
 (function(){

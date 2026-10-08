@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":57,"GPU":25,"OpenAI":176,"开源运动":1,"编码智能体":27,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":57,"GPU":26,"OpenAI":176,"开源运动":1,"编码智能体":27,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

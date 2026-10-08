@@ -31,7 +31,7 @@ unlisted: true
 
 [[Paolo Ardoino]] · [[Tether]] · [[QVAC]] · [[推理]] · [[微调]] · [[BitNet]] · [[数据中心]] · [[去中介化]] · [[智能体]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"QVAC":1,"推理":83,"微调":33,"BitNet":1,"数据中心":23,"去中介化":2,"智能体":436,"GPU":25}</script>
+<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"QVAC":1,"推理":83,"微调":33,"BitNet":1,"数据中心":23,"去中介化":2,"智能体":437,"GPU":26}</script>
 
 <script>
 (function(){

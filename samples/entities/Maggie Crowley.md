@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":436,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":21,"Anthropic":186,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":437,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":21,"Anthropic":186,"OpenAI":176}</script>
 
 <script>
 (function(){

@@ -54,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":436,"harness":61,"上下文":28,"护栏":81,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":437,"harness":61,"上下文":28,"护栏":81,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
 
 <script>
 (function(){

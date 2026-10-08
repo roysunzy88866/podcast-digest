@@ -170,7 +170,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":186,"OpenAI":176,"智能体":436,"推理":83,"GPU":25,"Google":65,"Cursor":83,"Meta":48,"开源":38,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"OpenAI":176,"智能体":437,"推理":83,"GPU":26,"Google":65,"Cursor":83,"Meta":48,"开源":38,"数据中心":23}</script>
 
 <script>
 (function(){

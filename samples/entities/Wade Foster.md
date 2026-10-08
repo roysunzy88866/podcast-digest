@@ -62,7 +62,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zapier":5,"MCP":81,"智能体":436,"Salesforce":34,"Nathan":5,"AI 熟练度":2,"确定性代码":2,"编码智能体":27,"Automation Bench":1,"确定性":4}</script>
+<script type="application/json" class="pd-epn">{"Zapier":5,"MCP":81,"智能体":437,"Salesforce":34,"Nathan":5,"AI 熟练度":2,"确定性代码":2,"编码智能体":27,"Automation Bench":1,"确定性":4}</script>
 
 <script>
 (function(){

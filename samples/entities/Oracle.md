@@ -51,7 +51,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[资本支出]] · [[Claude]] · [[Meta]] · [[护栏]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":436,"Google":65,"Anthropic":186,"Codex":80,"资本支出":7,"Claude":91,"Meta":48,"护栏":81,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":437,"Google":65,"Anthropic":186,"Codex":80,"资本支出":7,"Claude":91,"Meta":48,"护栏":81,"数据中心":23}</script>
 
 <script>
 (function(){

@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":5,"每瓦特有价值工作":1,"智能体":436,"harness":61,"RLHF":6,"RL":13}</script>
+<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":5,"每瓦特有价值工作":1,"智能体":437,"harness":61,"RLHF":6,"RL":13}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1447 @@
+{
+  "episode_id": "2026-10-05-talks-how-i-learned-to-stop-worrying-and-love",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "tags": [
+    "沙箱",
+    "智能体",
+    "AI 基础设施",
+    "开发者工具",
+    "基础设施运维"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "matt-brockman",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Brockman",
+      "file": "Matt Brockman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "e2b",
+      "type": "company",
+      "role": "company",
+      "name": "E2B",
+      "file": "E2B",
+      "primary": true,
+      "how_described": "本集嘉宾 Matt 所在的公司，自我介绍「我们做沙箱」：目标 100 毫秒内启动沙箱，基于 Firecracker VM 做内存+文件系统快照，开源、Go 后端、Python/JS SDK，尚不支持 GPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            33.615,
+            34.876
+          ],
+          "quote": "I'm an engineer from E2B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            127.341,
+            128.582
+          ],
+          "quote": "So you have to log into E2B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            171.619,
+            173.96
+          ],
+          "quote": "Okay, so just a little bit about E2B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            340.42,
+            344.823
+          ],
+          "quote": "For E2B, most of what we do is that you're starting from everything already running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            464.714,
+            475.384
+          ],
+          "quote": "So most of the AI agents know the E2B SDK, and so what you'll be able to do is grab your sandbox ID that you get for each of the levels, give it to your agent, and let the agent just figure out how to write the code for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            630.622,
+            635.924
+          ],
+          "quote": "Oh, that is our helper, one of our go-to-market people from E2B back there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            695.087,
+            695.988
+          ],
+          "quote": "You'll have to log into E2B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            757.706,
+            759.227
+          ],
+          "quote": "Yes, you do need to sign up for E2B to use this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            939.905,
+            948.81
+          ],
+          "quote": "For E2B, the way that we construct our URLs is basically the port that you're talking to dash the Sandbox ID.E2B.app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1086.634,
+            1090.276
+          ],
+          "quote": "For those of us that are jumping ahead, you can take the sandbox ID, you can create an E2B API key,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1091.937,
+            1101.404
+          ],
+          "quote": "And then your local codex, Claude Code, whatever, it can be like, hey, stuck these in an environmental file, use E2B to go talk to the sandbox and solve the challenge for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3055.193,
+            3055.694
+          ],
+          "quote": "Do you use E2B?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3071.385,
+            3072.185
+          ],
+          "quote": "Woohoo, E2B, great.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集主线：让特定用户的代码（尤其智能体代码）在隔离环境里运行、不干扰其他用户和宿主机密钥的环境；大量篇幅讲其生命周期、快照、孤儿进程与规模化运维。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            124.98,
+            127.081
+          ],
+          "quote": "If you go there, that'll give you a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            134.645,
+            141.248
+          ],
+          "quote": "So what we put together for you is a bunch of different challenges that are issues that you run into running a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            156.192,
+            169.527
+          ],
+          "quote": "So at this point, feel free to start going through the instructions, figuring out how to hack away, or if you actually wanna listen to me drone on about sandboxes, you can do that instead and then go do the sandbox, start the CTF with me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            273.517,
+            280.683
+          ],
+          "quote": "So it's when you go into a sandbox, you're working and like when you close your laptop, you open your laptop again, you're back into your state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            345.684,
+            356.153
+          ],
+          "quote": "So for instance, when we have our templates, which we'll talk about in a bit, what you're doing is you start your processes and then those processes are already running when you come back to the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            435.937,
+            437.257
+          ],
+          "quote": "It's just like, hey, I've got one sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            464.714,
+            475.384
+          ],
+          "quote": "So most of the AI agents know the E2B SDK, and so what you'll be able to do is grab your sandbox ID that you get for each of the levels, give it to your agent, and let the agent just figure out how to write the code for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            545.738,
+            548.52
+          ],
+          "quote": "All right, so what we're inside of here is already a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            574.565,
+            577.071
+          ],
+          "quote": "So inside of the sandbox what we're doing is we're spawning a web server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            587.366,
+            589.867
+          ],
+          "quote": "It's basically, can you find out the sandbox ID that you're inside of?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            590.968,
+            593.309
+          ],
+          "quote": "Now, we have a bunch of instructions for how to get that from the sandbox itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            595.79,
+            598.692
+          ],
+          "quote": "Now, in the URL, we actually have the ID of the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            624.479,
+            626.1
+          ],
+          "quote": "Well, everyone's gonna have different sandbox IDs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            812.427,
+            815.489
+          ],
+          "quote": "Everything's running remotely in the sandbox, so hopefully we don't need much back and forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            882.768,
+            889.212
+          ],
+          "quote": "So once we're here, we should have this URL now that our first sandbox is gonna spawn for us, and then we can just go straight to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            915.442,
+            917.143
+          ],
+          "quote": "And then, so who was able to find out their Sandbox ID?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            920.246,
+            922.268
+          ],
+          "quote": "Who was not able to find out their Sandbox ID but is still here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            923.789,
+            925.951
+          ],
+          "quote": "Who is too embarrassed to say that they couldn't find their Sandbox ID?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            928.84,
+            931.141
+          ],
+          "quote": "And again, so we can just pull the Sandbox ID out of the URL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            932.262,
+            935.063
+          ],
+          "quote": "This ID basically is an identifier for the Sandbox, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            935.103,
+            939.865
+          ],
+          "quote": "So once you have a Sandbox, you're gonna want an identifier so that you can go back to that Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            939.905,
+            948.81
+          ],
+          "quote": "For E2B, the way that we construct our URLs is basically the port that you're talking to dash the Sandbox ID.E2B.app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            948.83,
+            954.873
+          ],
+          "quote": "And that way, whenever you spin up Sandbox, you can expose services listening to those ports and then get comms open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            963.468,
+            973.634
+          ],
+          "quote": "So one of the things that happens is once you've got users in a sandbox, you've got AI writing code, a lot of the times what will happen is the AI will write something that does something that you're not expecting it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            980.738,
+            986.821
+          ],
+          "quote": "So what we can do is we can start this sandbox, and you'll see up here, right, we're now inside of a new sandbox, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            986.841,
+            989.783
+          ],
+          "quote": "So we got a new sandbox specifically for this project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            994.588,
+            1000.233
+          ],
+          "quote": "If we want to restart a sandbox, we've got this fancy button over here to reload, and then it'll reload it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1010.643,
+            1014.706
+          ],
+          "quote": "We've got this terminal here that let's just connect a PTY session to a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1024.118,
+            1038.302
+          ],
+          "quote": "And so what we've done is we started a VM, ran a bunch of processes to start to capture the flag, and then we saved this as this template, which means all of you are basically taking that sandbox that I'd started before, and then you're starting it where I'd resumed it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1070.104,
+            1079.71
+          ],
+          "quote": "So this up here is just the template ID that we're spawning, and then now that we have the sandbox ID, when we reload this, we'll go back to the same page over and over again, and we can connect to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1086.634,
+            1090.276
+          ],
+          "quote": "For those of us that are jumping ahead, you can take the sandbox ID, you can create an E2B API key,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1091.937,
+            1101.404
+          ],
+          "quote": "And then your local codex, Claude Code, whatever, it can be like, hey, stuck these in an environmental file, use E2B to go talk to the sandbox and solve the challenge for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1137.521,
+            1140.142
+          ],
+          "quote": "This is opening another PTY into the local sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1223.942,
+            1225.083
+          ],
+          "quote": "So we get a new sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1232.643,
+            1234.706
+          ],
+          "quote": "You've got an agent running code in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1234.746,
+            1236.468
+          ],
+          "quote": "You're running code in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1279.79,
+            1282.531
+          ],
+          "quote": "Then we can go into our sandbox, show what's using up our memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1334.115,
+            1335.396
+          ],
+          "quote": "You can see we're in a new sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1663.025,
+            1667.068
+          ],
+          "quote": "All right, so what we can do, right, and that's where the great thing about sandbox is you can restart them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1668.488,
+            1675.893
+          ],
+          "quote": "Right, so if you go back into here, when you clicked on the start sandbox, we can reload the snapshot by clicking on this reload button up here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1722.395,
+            1724.498
+          ],
+          "quote": "You're able to create a sandbox relatively quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1741.539,
+            1743.241
+          ],
+          "quote": "This is just the terminal showing the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1743.661,
+            1748.885
+          ],
+          "quote": "Most of the time when people interact with this, it's all programmatic, so you have a web server that's going in programmatically and running code in the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1749.385,
+            1757.351
+          ],
+          "quote": "Purely for demonstration purposes and also for debugging purposes, being able to quickly go into the browser and pull up a sandbox can be useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1875.648,
+            1880.731
+          ],
+          "quote": "Our next set of tutorials are going to get us into actually looking at the Sandbox lifecycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1891.36,
+            1898.902
+          ],
+          "quote": "Or actually, if they're doing, anyway, TLDR, for sandboxes, a lot of what you're doing is looking around the lifecycle of the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1901.023,
+            1907.865
+          ],
+          "quote": "So one is, let's say you've got thousands of users, or tens of thousands of users, and you're like, I want to give every single one of these guys a sandbox when they come to my application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1908.405,
+            1910.666
+          ],
+          "quote": "Well, how long should that sandbox last?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1911.486,
+            1916.968
+          ],
+          "quote": "Intuitively, it's like, hey, I'll give them the sandbox, they land on my webpage, I'll give them the sandbox for 20 minutes, if they don't use it, I'll shut it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1917.688,
+            1926.718
+          ],
+          "quote": "But if you've got thousands of users and they're only gonna use it once or maybe not even interact with the sandbox, you're wasting a whole lot of resources spinning up sandboxes that no one's ever gonna use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1936.626,
+            1944.911
+          ],
+          "quote": "In that case, what you wanna be able to do is you wanna be able to have the sandbox there, have it be able to run their initial command, and then have it go away once they've done the command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            1948.453,
+            1950.455
+          ],
+          "quote": "You wanna have that sandbox come back once they're there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1951.035,
+            1955.378
+          ],
+          "quote": "So that's where, for the sandbox lifecycle, you need to make sure that you're basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1986.363,
+            1995.809
+          ],
+          "quote": "So with this task, what we're going to do is we're going to take an approach to our sandbox management where what we're going to do is we're going to give sandboxes a really long time to live.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1995.829,
+            2002.134
+          ],
+          "quote": "We're going to say, hey, when a user comes in and runs a command, we want that sandbox to run for as long as we want it to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2002.734,
+            2014.602
+          ],
+          "quote": "But once the sandbox finishes its task, we're going to give it a very short timeout so it'll stick around in case they give it another command, but then it'll shut itself down and then that way we can free up those resources to spin up another sandbox for somebody else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2067.774,
+            2072.878
+          ],
+          "quote": "And this is all simulated because we're not going to have you guys actually wait an hour for a task to run in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2073.258,
+            2080.023
+          ],
+          "quote": "And what we'll do afterwards is we'll say, hey, I want this sandbox to only stick around for a minute, and then it should shut down afterwards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2085.652,
+            2101.4
+          ],
+          "quote": "We're cheating, but that's basically what the goal is here, is thinking about when we've got a sandbox that we're just gonna have it do a task, we want it to stay around as long as the task is gonna take, but then afterwards, once we get that result back, we can be like, hey, have it go away later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2161.886,
+            2166.888
+          ],
+          "quote": "And so what you want to do is you want to give the sandbox a long life cycle so it can complete that task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2193.222,
+            2201.346
+          ],
+          "quote": "And so it's all these things you end up dealing with like a speed versus cost trade-off, where if a sandbox is running, things are fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2214.893,
+            2219.656
+          ],
+          "quote": "But like for something like Claude, you don't know when the AI is gonna come back to reuse that sandbox, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2221.897,
+            2225.999
+          ],
+          "quote": "And it uses the sandbox and it's gonna, so that's where it's, yeah.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2231.843,
+            2238.447
+          ],
+          "quote": "Yeah, okay, so if you're talking demons where it's like you want something that's persistent and long running, sandbox may not be the best thing to do there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2239.828,
+            2242.91
+          ],
+          "quote": "You can definitely have a sandbox that you're like, run it for a day, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2248.273,
+            2254.517
+          ],
+          "quote": "But again, we're running all this stuff inside of a sandbox right now, inside of multiple sandboxes, so you can definitely run web service inside of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2276.301,
+            2283.486
+          ],
+          "quote": "But that's kind of where a lot of people are using these things is that you can give the AI sandbox, say, hey, let's install the base dependencies like you would with your GitHub actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2352.181,
+            2359.102
+          ],
+          "quote": "So definitely when you're coming back and reusing the same sandbox over and over again, you're gonna run into orphans, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2371.265,
+            2373.386
+          ],
+          "quote": "And that can kill performance in the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2401.597,
+            2404.859
+          ],
+          "quote": "Actually, I think a lot of sandbox management ends up being killing orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2439.344,
+            2447.572
+          ],
+          "quote": "So right here we can see we hopped into the sandbox and we've got three orphans that are alive, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2551.616,
+            2558.084
+          ],
+          "quote": "So next thing for sandbox management that we want to cover real quick is our workspaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2566.768,
+            2572.095
+          ],
+          "quote": "Here, we're kind of coming into, we've done this at naive approach to the sandbox management, that we're just round robining the sandboxes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2572.495,
+            2576.881
+          ],
+          "quote": "So rather than keeping track of what user gets one sandbox, we're just,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2577.582,
+            2580.044
+          ],
+          "quote": "You know, you come in, you get a sandbox, and then, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2591.07,
+            2596.354
+          ],
+          "quote": "So instead of giving us a round-robin sandbox assignment, we're going to keep track by user of what sandbox to get.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2663.295,
+            2666.137
+          ],
+          "quote": "And so all we're gonna need to do is we've got this assign sandbox function down here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2698.124,
+            2701.085
+          ],
+          "quote": "We've already got this function here that's gonna get us the sandbox ID from a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2702.066,
+            2704.207
+          ],
+          "quote": "So we'll say sandbox ID equals that thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2726.523,
+            2730.925
+          ],
+          "quote": "But so all we're going to do is we're going to assign the sandbox ID here and we'll return the sandbox ID.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2742.888,
+            2746.149
+          ],
+          "quote": "Otherwise, we'll have to create new sandboxes for everybody and return that sandbox ID.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2751.526,
+            2760.892
+          ],
+          "quote": "Basically, what we want to do is all we need, the point of this is just saying we want to keep track of what user had what sandbox, so you're creating a map of user to sandbox ID.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2767.617,
+            2777.464
+          ],
+          "quote": "So kind of starting with, hey, we're not keeping track of any of our sandboxes, so now it's like, hey, each user's gonna have a dedicated sandbox so they can rerun code in the same sandbox every time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2853.073,
+            2860.557
+          ],
+          "quote": "And so now that we're actually adding our sandbox ID to the assignments, we should then pass.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3082.337,
+            3095.34
+          ],
+          "quote": "Gotcha, yeah, and so we are, part of what we do is we try to make it so you don't run into issues, but your user, you're always gonna run into something where it's, something is happening on the sandbox, you need to hop in, debug it, and figure out why is this thing breaking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3209.495,
+            3213.939
+          ],
+          "quote": "And I guess, so yeah, that's where the sandbox solution might not be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3324.339,
+            3328.483
+          ],
+          "quote": "But yeah, so for your question on Claude, right, so you can run Claude in sandbox, it's pretty easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3347.385,
+            3353.746
+          ],
+          "quote": "Right, so yeah, you can run Claude in a sandbox, right, you can run Codex in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3400.406,
+            3407.531
+          ],
+          "quote": "So basically the sandbox, you clicked on a thing and said, hey, start a new sandbox from this template.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3421.02,
+            3425.944
+          ],
+          "quote": "But yeah, definitely that's kind of cool that you can get that inception that you have a sandbox and then it can spawn more things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3470.5,
+            3477.582
+          ],
+          "quote": "Here I had a template, and 200 of you guys were able to then reuse that same sandbox without too much of a, yeah.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成「云端能自主干活的 AI」，会写代码、执行任务，直接跑在本机或服务器上很危险（耗尽 CPU、删文件、读密钥），所以需要放进沙箱；还谈到智能体对状态恢复的期待（以为时间没流逝）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            294.194,
+            301.999
+          ],
+          "quote": "Agents especially, right, so you've got an agent working away, maybe it has to go do some sort of process elsewhere, and then it wants to come back to the state it was in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            302.72,
+            308.844
+          ],
+          "quote": "For the agent, it kind of doesn't know the time has passed, and so it's expecting everything to be exactly the way it was when it left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            464.714,
+            475.384
+          ],
+          "quote": "So most of the AI agents know the E2B SDK, and so what you'll be able to do is grab your sandbox ID that you get for each of the levels, give it to your agent, and let the agent just figure out how to write the code for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1232.643,
+            1234.706
+          ],
+          "quote": "You've got an agent running code in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1731.649,
+            1737.959
+          ],
+          "quote": "You don't have any funny characters that if I have some coding agent go and scrape this or things like that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3053.652,
+            3054.233
+          ],
+          "quote": "Agent workloads?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3354.166,
+            3361.287
+          ],
+          "quote": "Basically, these give us places where you can have agents run remotely or locally you can have the agent talk to it and you get the same thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snapshot",
+      "type": "concept",
+      "role": "concept",
+      "name": "快照 (snapshot)",
+      "file": "快照",
+      "primary": true,
+      "how_described": "本集说快照是沙箱体验的核心：对内存和文件系统一起快照、存到存储，恢复时一切原样回来；E2B 的模板本质就是「做了快照的虚拟机」，坏了可一键从快照重启。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            283.446,
+            286.508
+          ],
+          "quote": "So we try to snapshot the memory, snapshot the file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1668.488,
+            1675.893
+          ],
+          "quote": "Right, so if you go back into here, when you clicked on the start sandbox, we can reload the snapshot by clicking on this reload button up here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "template",
+      "type": "concept",
+      "role": "concept",
+      "name": "模板 (template)",
+      "file": "模板",
+      "primary": true,
+      "how_described": "本集把 E2B 模板描述为「预先跑好进程、存成快照的虚拟机」：Matt 启动一个 VM 跑好夺旗赛进程存成模板，全场两百人复用同一个沙箱的副本，也是朝 Docker 式标准化生态走的一步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1020.236,
+            1023.397
+          ],
+          "quote": "So a template for us is that snapshotted VM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1024.118,
+            1038.302
+          ],
+          "quote": "And so what we've done is we started a VM, ran a bunch of processes to start to capture the flag, and then we saved this as this template, which means all of you are basically taking that sandbox that I'd started before, and then you're starting it where I'd resumed it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1070.104,
+            1079.71
+          ],
+          "quote": "So this up here is just the template ID that we're spawning, and then now that we have the sandbox ID, when we reload this, we'll go back to the same page over and over again, and we can connect to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2967.037,
+            2970.158
+          ],
+          "quote": "So here, basically, we've got a template cache and a runtime cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2971.058,
+            2975.139
+          ],
+          "quote": "So this is where, when we build our templates, we're gonna have a cache that we're putting our template information to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3333.562,
+            3340.724
+          ],
+          "quote": "So the same way that we spun up these guys, we can just be like template equals, I think Claude should spin us up a Claude code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3400.406,
+            3407.531
+          ],
+          "quote": "So basically the sandbox, you clicked on a thing and said, hey, start a new sandbox from this template.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3470.5,
+            3477.582
+          ],
+          "quote": "Here I had a template, and 200 of you guys were able to then reuse that same sandbox without too much of a, yeah.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orphans",
+      "type": "concept",
+      "role": "concept",
+      "name": "孤儿进程 (orphans)",
+      "file": "孤儿进程",
+      "primary": true,
+      "how_described": "本集说反复复用同一个沙箱必然积累孤儿进程（启动后没人管的进程），越攒越多拖垮性能；Matt 的金句：「很多沙箱管理工作最终就是在杀孤儿进程。」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 529,
+          "t": [
+            2352.181,
+            2359.102
+          ],
+          "quote": "So definitely when you're coming back and reusing the same sandbox over and over again, you're gonna run into orphans, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2393.469,
+            2397.63
+          ],
+          "quote": "So a lot of times what you have to do is you have to come in and try to figure out how do I kill my orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2401.597,
+            2404.859
+          ],
+          "quote": "Actually, I think a lot of sandbox management ends up being killing orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2425.67,
+            2429.714
+          ],
+          "quote": "Here is a demo of how to go find our orphans, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2429.774,
+            2439.324
+          ],
+          "quote": "And so we have our code here that we can, in this nifty terminal, we can go ahead and we can run some code to figure out how many orphans we have, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2439.344,
+            2447.572
+          ],
+          "quote": "So right here we can see we hopped into the sandbox and we've got three orphans that are alive, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2467.5,
+            2471.762
+          ],
+          "quote": "But for simplicity's sake, here we're gonna be able to easily find them by just looking for orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2499.784,
+            2505.365
+          ],
+          "quote": "But, so right, we're gonna kill 448, then we can run our script again, see how many orphans we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2505.545,
+            2508.806
+          ],
+          "quote": "Now we know there's two running, all right, so we still got our two orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2883.476,
+            2890.139
+          ],
+          "quote": "So remember how I told you about how we learned about the... We learned about the orphans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2890.739,
+            2892.14
+          ],
+          "quote": "Well, we have quite a few orphans running now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "type": "concept",
+      "role": "concept",
+      "name": "生命周期 (lifecycle)",
+      "file": "生命周期",
+      "primary": true,
+      "how_described": "本集用一整段讲沙箱生命周期管理：任务期给长超时（如一小时），任务完成立刻把超时调到一分钟让沙箱自动关闭回收资源；速度与成本的权衡——运行快但贵、暂停便宜不计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 433,
+          "t": [
+            1875.648,
+            1880.731
+          ],
+          "quote": "Our next set of tutorials are going to get us into actually looking at the Sandbox lifecycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1891.36,
+            1898.902
+          ],
+          "quote": "Or actually, if they're doing, anyway, TLDR, for sandboxes, a lot of what you're doing is looking around the lifecycle of the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1951.035,
+            1955.378
+          ],
+          "quote": "So that's where, for the sandbox lifecycle, you need to make sure that you're basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2297.501,
+            2306.383
+          ],
+          "quote": "Okay, so anyway, so for here, go back to our lifecycle, right, real quick, what we wanna do is basically we wanna give it a really long runtime, right, so here we're gonna give it an hour.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": false,
+      "how_described": "本集用 Docker 作对比：Docker 启动镜像要先构建再执行启动命令，E2B 则是从「一切已在运行」的快照状态恢复；答疑里听众问沙箱会不会出现 Docker 那样的生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            329.83,
+            332.373
+          ],
+          "quote": "Like if you think about Docker, when you start a Docker image,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3435.211,
+            3440.935
+          ],
+          "quote": "Do you see that there will be like a Docker ecosystem of sandboxes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3445.786,
+            3446.627
+          ],
+          "quote": "Is it gonna be like Docker?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Firecracker",
+      "file": "Firecracker",
+      "primary": false,
+      "how_described": "本集答疑中提到 E2B 基于 Firecracker（AWS 开源的轻量级虚拟机技术）构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 747,
+          "t": [
+            3362.26,
+            3365.664
+          ],
+          "quote": "But yeah, as far as Cube, so we are Firecracker based.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集说 E2B 目前调度跑在 Nomad 上、正在往 Kubernetes 迁移，但 K8s 有一些尚未解决的技术问题；另有听众问 Kubernetes 下存储随时间的修剪，Matt 说是活跃难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 723,
+          "t": [
+            3243.682,
+            3248.826
+          ],
+          "quote": "OK. Something Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3251.649,
+            3252.41
+          ],
+          "quote": "Cloud in Kubernetes?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集答疑中听众想把代码分发到分布式 GPU 上算，Matt 直说 E2B 目前不支持 GPU，他们用 VM，GPU 场景下沙箱方案可能不合适。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 715,
+          "t": [
+            3215.14,
+            3218.843
+          ],
+          "quote": "Although why would you need sandboxes for that as opposed to just having the GPU?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

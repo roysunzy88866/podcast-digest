@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":186,"OpenAI":176,"任务视界":1,"Managed Agents":5,"harness":61,"沙箱":80,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":186,"OpenAI":176,"任务视界":1,"Managed Agents":5,"harness":61,"沙箱":81,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

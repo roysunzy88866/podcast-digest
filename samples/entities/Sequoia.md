@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[Turner]] · [[Microsoft]] · [[SpaceX]] · [[投资组合构建]] · [[McKinsey]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":436,"Anthropic":186,"Salesforce":34,"Harry Stebbings":20,"Turner":2,"Microsoft":29,"SpaceX":21,"投资组合构建":2,"McKinsey":6,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"智能体":437,"Anthropic":186,"Salesforce":34,"Harry Stebbings":20,"Turner":2,"Microsoft":29,"SpaceX":21,"投资组合构建":2,"McKinsey":6,"OpenAI":176}</script>
 
 <script>
 (function(){

@@ -65,7 +65,7 @@ unlisted: true
 
 [[智能体]] · [[Daniel Whitenack]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[MCP]] · [[Hugging Face]] · [[LLM]] · [[Claude Code]] · [[世界模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":436,"Daniel Whitenack":10,"Anthropic":186,"OpenAI":176,"护栏":81,"MCP":81,"Hugging Face":29,"LLM":57,"Claude Code":97,"世界模型":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":437,"Daniel Whitenack":10,"Anthropic":186,"OpenAI":176,"护栏":81,"MCP":81,"Hugging Face":29,"LLM":57,"Claude Code":97,"世界模型":12}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Neoclouds]] · [[Fireworks]] · [[前沿模型]] · [[开源模型]] · [[沙箱]] · [[智能体]] · [[推理]] · [[Docker]] · [[GPU]]
+[[Harry Stebbings]] · [[Neoclouds]] · [[Fireworks]] · [[前沿模型]] · [[开源模型]] · [[沙箱]] · [[智能体]] · [[推理]] · [[Docker]] · [[E2B]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Neoclouds":1,"Fireworks":7,"前沿模型":27,"开源模型":4,"沙箱":80,"智能体":436,"推理":83,"Docker":6,"GPU":25}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Neoclouds":1,"Fireworks":7,"前沿模型":27,"开源模型":4,"沙箱":81,"智能体":437,"推理":83,"Docker":7,"E2B":3}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":16,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":83}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":17,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":83}</script>
 
 <script>
 (function(){

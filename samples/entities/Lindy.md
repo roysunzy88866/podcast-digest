@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[vibe coding]] · [[Zapier]] · [[n8n]] · [[Andrew Wilkinson]] · [[Flo Crivello]] · [[Wade Foster]] · [[Jan Oberhauser]] · [[Lenny]] · [[Nathan]]
 
-<script type="application/json" class="pd-epn">{"智能体":436,"vibe coding":46,"Zapier":5,"n8n":4,"Andrew Wilkinson":1,"Flo Crivello":1,"Wade Foster":2,"Jan Oberhauser":2,"Lenny":68,"Nathan":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":437,"vibe coding":46,"Zapier":5,"n8n":4,"Andrew Wilkinson":1,"Flo Crivello":1,"Wade Foster":2,"Jan Oberhauser":2,"Lenny":68,"Nathan":5}</script>
 
 <script>
 (function(){

@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":17,"创始人-市场契合度":3,"智能体":436,"模型能力的边缘":1,"垂直化":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"YC":17,"创始人-市场契合度":3,"智能体":437,"模型能力的边缘":1,"垂直化":1,"SaaS":21}</script>
 
 <script>
 (function(){

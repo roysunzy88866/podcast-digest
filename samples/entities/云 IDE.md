@@ -25,7 +25,7 @@ unlisted: true
 
 [[Eric Simons]] · [[Bolt]] · [[StackBlitz]] · [[vibe coding]] · [[智能体]] · [[开放权重]] · [[开源]] · [[按用量定价]] · [[按席位收费]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Eric Simons":1,"Bolt":3,"StackBlitz":1,"vibe coding":46,"智能体":436,"开放权重":8,"开源":38,"按用量定价":4,"按席位收费":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"Eric Simons":1,"Bolt":3,"StackBlitz":1,"vibe coding":46,"智能体":437,"开放权重":8,"开源":38,"按用量定价":4,"按席位收费":1,"SaaS":21}</script>
 
 <script>
 (function(){

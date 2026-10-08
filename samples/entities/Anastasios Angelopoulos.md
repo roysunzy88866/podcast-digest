@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":5,"基准测试":18,"开源":38,"智能体":436,"Kimi":2,"排行榜":2,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":5,"基准测试":18,"开源":38,"智能体":437,"Kimi":2,"排行榜":2,"OpenAI":176}</script>
 
 <script>
 (function(){

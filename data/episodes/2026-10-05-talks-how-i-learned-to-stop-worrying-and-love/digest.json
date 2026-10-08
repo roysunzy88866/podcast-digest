@@ -1,0 +1,112 @@
+{
+  "title_zh": "沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维",
+  "tldr": "E2B 工程师 Matt 以一场夺旗赛(CTF)工作坊，带你上手智能体沙箱：快照启动、生命周期管理、孤儿进程与磁盘爆满的实战排查。",
+  "digest_md": "这一集不是访谈，而是一场动手工作坊：E2B 工程师 Matt(他开场自我介绍「我是 Matt,E2B 的一名工程师,我们做沙箱」)在一场线下活动里，带着全场听众用一场夺旗赛(Capture the Flag,CTF,一关一关解题解锁下一关的形式)实战演练「运行智能体沙箱时会遇到的真实问题」。所有关卡都跑在沙箱里——用他自己的话说，「沙箱套沙箱，层层往下都是沙箱」。\n\n## 沙箱是什么，为什么要沙箱\n\nMatt 先把概念讲清：沙箱(sandbox)就是让你能运行特定用户的代码、而不会干扰其他用户的环境。传统 web 技术栈里用户只是看静态页面；而现在有了智能体(agent,能自主干活的 AI),它要写代码、执行任务，直接跑在你自己电脑上很危险——Claude Code、Codex 这类工具给它全部权限，它可能耗尽 CPU、派生一堆进程、删掉不该删的东西、甚至去读环境变量里的密钥。放到服务器上也有同样的问题：服务器上有你的密钥和环境。所以要把智能体的代码放进隔离的沙箱里跑。[02:56 Unknown]\n\nE2B 对沙箱有几个核心设计。第一是快：他们的目标是 100 毫秒内启动一个沙箱，这样你可以同时跑很多个。[04:19 Unknown] 第二是快照：像合上笔记本再打开、一切还在原处一样，他们对内存和文件系统都做快照，暂停时全部存到存储里，恢复时原样回来。这对智能体尤其重要——智能体不知道时间流逝了，它回来时期待一切和离开时一模一样，快照能大幅减少报错。[05:02 Unknown]\n\n实现方式也和 Docker 不同：Docker 启动镜像时要先构建、再执行启动命令；E2B 是先把进程都跑起来，然后连内存带磁盘整体存进 RAM 做快照，之后每次都「从一切已在运行的状态」恢复。所以他们的模板(template)本质上就是一个「做了快照的虚拟机」——Matt 提前启动一个 VM、跑好夺旗赛的进程、存成模板，全场两百人等于同时复用同一个沙箱的不同副本。他点出这种玩法的使用场景：数据科学里一个数据框要跑五个实验，fork 成五个沙箱并行跑就行。[17:04 Unknown]\n\n另外 E2B 是开源的，后端主要用 Go 写(所以他现场顺带招 Go 工程师)，SDK 有 Python 和 JavaScript 两版。\n\n## 夺旗赛：四个入门关卡\n\n前几关不用写代码，练的是 Linux 基本功，对应「让 AI 在沙箱里跑代码时最常见的故障」：\n\n- **CPU 失控进程**：AI 写出的代码经常吃满 CPU。用 top 类工具看到有个进程占了 99.7% 的 CPU,找到进程 ID,kill 掉,过关。[19:14 Unknown]\n- **内存爆掉**：同样思路，查什么占了内存、杀掉。Matt 顺带讲了资源权衡：CPU 多跑得快、CPU 少跑得慢；而管大规模实例集群时，你能用的 CPU 和内存是有配额限制的，要想着怎么把内存利用率压到最低。[20:57 Unknown]\n- **磁盘填满**：所有资源都是有限的，迟早有东西会把磁盘撑爆。用提示区给的脚本扫出是 /temp 下一个 512 兆的 .bin 文件占满了空间，把路径贴进检查器、点清理即可。这一关 Matt 自己现场演示翻车了两次(本该贴路径却把文件删了)，靠「重新加载快照按钮」一键重来——他顺势强调：沙箱的好处就是坏了随时能从快照重启一个新副本。[26:36 Unknown]\n\n小插曲：现场 Wi-Fi 出了问题，Matt 分享的偏方是「连上后断开重连，就会从一格信号变五格——我也不知道为什么管用」。\n\n## 进阶：沙箱生命周期管理\n\n简单关卡之后，教程转入沙箱生命周期——Matt 说，沙箱运维的很多工作就是围绕「沙箱该活多久」展开的。[31:31 Unknown]\n\n**生命周期权衡**：假设你有几千上万个用户，每人来了都给一个沙箱——如果大多数人进来试一下就走，你就是在为永远没人用的沙箱烧资源。但也有人跑长任务(数据科学、网页抓取)，你不知道任务会跑多久。他给出的策略是：给沙箱足够长的运行时间让任务跑完(比如一小时)，任务一旦完成就把超时调到一分钟——短超时期间用户还能下指令，之后沙箱自动关闭，资源释放给别人。[33:06 Unknown] 他总结成速度与成本的权衡：沙箱在运行，速度快但贵；暂停了就便宜(暂停的不计费，可以挂很多个)；如果 CPU 配额有限，能同时跑的沙箱数就上不去。[36:33 Unknown] 有听众问长驻服务怎么办，他答：想要持久化、长期运行的守护进程，沙箱可能不是最佳选择——能跑一天，但有更便宜、更传统的做法；在沙箱里跑 web 服务完全可行，只是在 CDN 那类优化上不到位。[37:11 Unknown]\n\n**孤儿进程**：反复复用同一个沙箱，一定会积累孤儿进程(你启动后走开、没人管的进程)，越攒越多，拖垮性能。他给了本集最有共鸣的一句判断：「实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。」[40:01 Unknown] 关卡里三个孤儿进程都叫 orphan worker(他承认现实中进程不会起这么好找的名字),逐个 kill,页面检测到清干净就给下一关的钥匙。相关问题是沙箱本身也会「失管」：启动的沙箱必须跟踪，丢了跟踪就要想办法找出那些不再管理的沙箱、回收资源。[40:12 Unknown]\n\n**工作区(用户与沙箱的绑定)**：第一道写代码的题。朴素的沙箱管理是轮询分发——谁来了给一个，不记录归属。要改成按用户绑定：用一个 assignments 字典做「用户 → 沙箱 ID」的映射，来过的用户每次回到同一个专属沙箱。Matt 说生产上的正规做法是落数据库，把分配记录持久化，方便回头查「是不是给用户重复分配了太多沙箱」。[44:01 Unknown] 他现场写代码还让自己的测试挂了一次(忘了把新沙箱 ID 写回 assignments),被听众当场指出。\n\n**文件系统权限**：Claude Code 和 Codex 都有这个概念——你不希望智能体写文件系统的每个角落。通常写在 agents.md 里约定，这一关直接硬编码：模板缓存设只读，运行时缓存才可写，让程序写对位置。[48:41 Unknown]\n\n之后还有约八关，现场投票决定不再逐关走，改成自由答疑。\n\n## 答疑：边界、瓶颈与生态\n\n几个有信息量的问答：\n\n- **GPU**：有听众想把本地代码分发到一堆分布式 GPU 上算完再传回来。Matt 直说：E2B 目前不支持 GPU,他们用的是 VM,很多人用容器；GPU 上跑的话沙箱方案可能不合适。[53:22 Unknown]\n- **规模改变问题性质**：他点出沙箱最怪的一点——只跑一两个时，问题是「为什么这一两个挂了」；一旦规模化到成百上千，问题变成日志开销、怎么追踪和分配、单机最多能承载多少沙箱通信。他准备这个工作坊时就发现：「很多问题都是在大规模下才发生的。」[07:04 Unknown]\n- **存储**：有 Kubernetes 用户问资源怎么修剪、存储随时间怎么处理——他说这正是 E2B 当前在攻坚的活跃难题，尤其是压缩。[54:25 Unknown]\n- **底层**：E2B 基于 Firecracker(AWS 开源的轻量级虚拟机技术),目前调度跑在 Nomad 上，正在往 Kubernetes 迁移，但 K8s 有一些他们还没完全解决的技术问题。[56:02 Unknown]\n- **生态会不会像 Docker**:他答，这一切太早了——「这些 AI 智能体才存在多久？大概两年。LLM 即服务，五年。没人知道这个生态会变成什么样，但可以肯定的是，当人们构建出很酷的东西时，我们会倾向于围绕它们标准化。」他们的模板就是往这个方向走的一步：一个模板，两百人直接复用。[57:29 Unknown]\n- **网络与密钥**：沙箱可以设网络规则；如果沙箱能访问密钥，必须限制它能往外发什么——这是便利性与安全性的权衡。[58:33 Unknown]\n\n## 本集带走\n\n- **智能体代码别直接跑在本机或生产服务器上**：它会吃满 CPU、删东西、读环境变量里的密钥，隔离沙箱是标准解法。\n- **快照是沙箱体验的核心**：内存 + 文件系统一起快照，暂停/恢复对智能体透明(它以为时间没流逝)，出错少了，坏了也能一键重开。\n- **生命周期策略记一条**：任务期给长超时(能跑多久给多久)，任务完成立刻把超时调短，让沙箱自动回收。\n- **复用型沙箱的日常 = 杀孤儿进程 + 追踪沙箱归属**：反复恢复旧状态的好处是「一切都在你离开的位置」，坏处是没清理的东西也都在；用户↔沙箱映射要落库持久化，方便审计。\n- **E2B 的技术底座**：基于 Firecracker 的 VM、Go 后端、Python/JS SDK、模板 = 预先跑好进程的快照虚拟机；尚不支持 GPU。\n- **规模改变问题**：一两个沙箱时排查单点故障，规模化后真正的战场是日志、配额、网络承载和存储压缩。",
+  "quotes": [
+    {
+      "en": "Actually, I think a lot of sandbox management ends up being killing orphans.",
+      "zh": "实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。",
+      "timestamp": "40:01",
+      "speaker": "Matt Brockman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:56",
+      "speaker": "Matt",
+      "en": "Sandboxes are basically let you run user-specific code without messing with other users, right?",
+      "zh": "沙箱基本上就是让你可以运行特定用户的代码，而不会干扰其他用户，对吧？"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Matt",
+      "en": "E to B, we aim to spin up sandboxes in less than 100 milliseconds, so that way you can run multiple things at the same time.",
+      "zh": "E2B 的目标是 100 毫秒内启动沙箱，这样你就可以同时运行多个东西。"
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Matt",
+      "en": "And so by snapshotting everything and making it so that everything is still there when it comes back, it makes it so you get less errors.",
+      "zh": "通过对所有东西做快照，并让它回来时一切都在原处，就能让你少出错。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Matt",
+      "en": "One of the challenges that we had when coming up with, hey, how do we demo some of the issues that we run into sandboxes is a lot of issues happen at scale.",
+      "zh": "我们在设计「如何演示沙箱问题」时遇到的一个挑战是：很多问题都是在大规模下才发生的。"
+    },
+    {
+      "timestamp": "18:31",
+      "speaker": "Matt",
+      "en": "You should always review what the AI does.",
+      "zh": "你应该始终审查 AI 做了什么。"
+    },
+    {
+      "timestamp": "31:57",
+      "speaker": "Matt",
+      "en": "But if you've got thousands of users and they're only gonna use it once or maybe not even interact with the sandbox, you're wasting a whole lot of resources spinning up sandboxes that no one's ever gonna use.",
+      "zh": "但如果你有几千个用户，而他们只用一次、甚至根本不和沙箱交互，那你就是在浪费大量资源去启动那些永远没人会用的沙箱。"
+    },
+    {
+      "timestamp": "36:33",
+      "speaker": "Matt",
+      "en": "And so it's all these things you end up dealing with like a speed versus cost trade-off, where if a sandbox is running, things are fast.",
+      "zh": "所以你最终要处理的就是速度与成本的权衡：沙箱在运行，速度就快。"
+    },
+    {
+      "timestamp": "36:42",
+      "speaker": "Matt",
+      "en": "If it's paused, it's cheap because you can have as many of them, you know, you can have lots of them paused and not be paying for them.",
+      "zh": "如果它被暂停了，那就很便宜——你可以挂任意多个暂停的沙箱而不用为它们付费。"
+    },
+    {
+      "timestamp": "37:28",
+      "speaker": "Matt",
+      "en": "But again, we're running all this stuff inside of a sandbox right now, inside of multiple sandboxes, so you can definitely run web service inside of them.",
+      "zh": "不过再说一次，我们现在就是把所有这些东西都跑在沙箱里、跑在多个沙箱里，所以你完全可以在里面运行 Web 服务。"
+    },
+    {
+      "timestamp": "39:43",
+      "speaker": "Matt",
+      "en": "So it's the advantage of resuming this old state, things are fast, things are where you left them, downside is things are where they left them if you haven't cleaned up after yourself.",
+      "zh": "恢复旧状态的好处是，一切都很快，东西都在你离开时的位置；坏处是，如果你没清理干净，东西也都在它们离开时的位置。"
+    },
+    {
+      "timestamp": "40:01",
+      "speaker": "Matt",
+      "en": "Actually, I think a lot of sandbox management ends up being killing orphans.",
+      "zh": "实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。"
+    },
+    {
+      "timestamp": "40:12",
+      "speaker": "Matt",
+      "en": "And if you lose track of your sandboxes, you need to figure out how do I go find the sandboxes that I'm not managing anymore and make sure that I remove those resources.",
+      "zh": "如果你丢失了对沙箱的跟踪，你就需要想办法找到那些你不再管理的沙箱，并确保移除那些资源。"
+    },
+    {
+      "timestamp": "53:22",
+      "speaker": "Matt",
+      "en": "But yeah, definitely if you're running on GPUs, EDB doesn't do GPUs.",
+      "zh": "不过是的，如果你要在 GPU 上运行，E2B 不做 GPU。"
+    },
+    {
+      "timestamp": "55:11",
+      "speaker": "Matt",
+      "en": "But yeah, I think all of this is very early and nobody knows where it's gonna go.",
+      "zh": "不过，我觉得这一切都非常早期，没人知道它会走向哪里。"
+    },
+    {
+      "timestamp": "57:29",
+      "speaker": "Matt",
+      "en": "So like these AI agents are what, like two years old, LLMs as a service, five years old.",
+      "zh": "比如，这些 AI 智能体才存在多久？大概两年。LLM 即服务，五年。"
+    },
+    {
+      "timestamp": "57:37",
+      "speaker": "Matt",
+      "en": "Nobody knows what the ecosystem's gonna look like, but definitely as people build cool things, we tend to standardize around them, share how to do it, and then that leads to, yeah.",
+      "zh": "没有人知道这个生态会变成什么样，但可以肯定的是，当人们构建出很酷的东西时，我们会倾向于围绕它们标准化、分享怎么做，然后这就会带来——是的。"
+    }
+  ],
+  "voice_script": "今天咱们听一场不太一样的节目，它不是访谈，而是一场动手工作坊。主讲人叫 Matt，是 E2B 的一名工程师，开场自我介绍就说得很直白：我们是做沙箱的。整场活动，E2B 是带着全场两百个听众，用一场夺旗赛来实战演练运行智能体沙箱时会遇到的真实问题。夺旗赛就是 CTF，一关一关解题、过关才能解锁下一关的那种形式。而所有关卡都跑在沙箱里，用 Matt 自己的话说，沙箱套沙箱，层层往下都是沙箱。\n\n那先把最基本的问题讲清楚：沙箱到底是什么，为什么现在人人都需要它。沙箱，说白了就是一个隔离环境，让你能运行特定用户的代码，而不会干扰到其他人。为什么这事儿现在变得这么要紧？因为以前的 web 技术栈里，用户来了也就是看看静态页面，没什么风险。可现在有了智能体，就是能自主干活的 AI。它要写代码、要执行任务。你想想，Claude Code、Codex 这类工具给它全部权限，让它直接跑在你自己电脑上会怎样？它可能耗尽你的 CPU，派生一堆进程，删掉不该删的东西，甚至去读环境变量里的密钥。放到服务器上也是一样的麻烦，服务器上有你的密钥和你的环境。所以结论就很自然了：要把智能体的代码放进隔离的沙箱里跑。\n\n接下来就引出一个好问题：同样是隔离，E2B 的做法跟 Docker 有什么不一样？先说他们对沙箱的两个核心设计。第一是快，目标是 100 毫秒内启动一个沙箱，这样你可以同时跑很多个。第二是快照。这个比喻很形象：就像合上笔记本再打开，一切还在原处。E2B 对内存和文件系统都做快照，暂停的时候全部存到存储里，恢复的时候原样回来。这对智能体尤其重要，因为智能体不知道时间流逝了，它回来时期待一切和离开时一模一样，有了快照就能大幅减少报错。\n\n实现方式上，Docker 启动镜像要先构建、再执行启动命令；E2B 是反过来，先把进程都跑起来，然后连内存带磁盘整体存进 RAM 做快照，之后每次都从一切已在运行的状态恢复。所以他们说的模板，本质上就是一个做了快照的虚拟机。这场工作坊就是现成的例子：Matt 提前启动一个虚拟机，跑好夺旗赛的进程，存成模板，于是全场两百人等于同时复用同一个沙箱的不同副本。这种玩法在数据科学里也很实用，比如一个数据框要跑五个实验，fork 成五个沙箱并行跑就行。顺带一提，E2B 是开源的，后端主要用 Go 写，SDK 有 Python 和 JavaScript 两版。\n\n好，背景垫完了，那就进入正题：前几个关卡练的是什么。有意思的是，前几关根本不用写代码，练的是 Linux 基本功，而对应的全是让 AI 在沙箱里跑代码时最常见的故障。第一关，CPU 失控进程。AI 写出的代码经常吃满 CPU，这一关就是用 top 这类工具看到有个进程占了 99.7% 的 CPU，找到进程 ID，kill 掉，过关。第二关是内存爆掉，思路一样，查什么占了内存，杀掉。Matt 顺带讲了资源权衡：CPU 多跑得快，CPU 少跑得慢；而管大规模实例集群的时候，你能用的 CPU 和内存是有配额限制的，得想着怎么把内存利用率压到最低。第三关是磁盘填满，所有资源都是有限的，迟早有东西会把磁盘撑爆。这一关扫出来是 temp 目录下一个 512 兆的 .bin 文件占满了空间。有个好玩的插曲：Matt 现场演示翻车了两次，本该贴路径却把文件删了，靠重新加载快照的按钮一键重来。这正好顺势说明了沙箱的好处——坏了，随时能从快照重启一个新副本。\n\n简单关卡过了之后，教程就转入更深一层的主题：沙箱的生命周期。Matt 有一句话很到位——沙箱运维的很多工作，就是围绕沙箱该活多久展开的。先说这个权衡怎么来。假设你有几千上万个用户，每人来了都给一个沙箱。如果大多数人进来试一下就走，那你就是在为永远没人再用的沙箱烧资源。但也有人跑长任务，比如数据科学、网页抓取，你又不知道任务会跑多久。他给的策略是：给沙箱足够长的运行时间让任务跑完，比如一小时；任务一旦完成，就把超时调到一分钟。短超时期间用户还能下指令，之后沙箱自动关闭，资源释放给别人。归根结底，这是速度和成本的权衡：沙箱在运行，速度快但贵；暂停了就便宜，暂停的不计费，可以挂很多个。有听众问长驻服务怎么办，他答得很实在：想要持久化、长期运行的守护进程，沙箱可能不是最佳选择，能跑一天，但有更便宜、更传统的做法。\n\n顺着生命周期往下走，就碰到一个所有复用型沙箱都躲不掉的坑：孤儿进程。什么叫孤儿进程？就是你启动之后走开、没人管的进程。反复复用同一个沙箱，这东西一定越攒越多，最后拖垮性能。关于这个，Matt 给了本集最有共鸣的一句判断：实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。关卡里三个孤儿进程都叫 orphan worker，逐个 kill 就能过关——他也承认，现实中进程不会起这么好找的名字。跟它配套的问题是沙箱本身也会失管：启动的沙箱必须跟踪，丢了跟踪，就要想办法找出那些不再受管理的沙箱，把资源回收回来。\n\n那怎么让来过的用户每次都回到自己那个沙箱呢？这就到了第一道写代码的题：工作区，也就是用户和沙箱的绑定。朴素的沙箱管理是轮询分发，谁来了给一个，不记录归属。要改成按用户绑定，思路是用一个字典做用户到沙箱 ID 的映射，来过的用户每次回到同一个专属沙箱。生产上的正规做法是落数据库，把分配记录持久化，方便回头查是不是给用户重复分配了太多沙箱。这关 Matt 现场写代码还让自己的测试挂了一次，忘了把新沙箱 ID 写回映射，被听众当场指出。之后还有一关文件系统权限，Claude Code 和 Codex 都有这个概念——你不希望智能体写文件系统的每个角落，通常写在 agents.md 里约定，这一关是直接硬编码：模板缓存设只读，运行时缓存才可写。\n\n再往后还有约八关，现场投票决定不逐关走了，改成自由答疑。答疑里有几段信息量很大。有人想把本地代码分发到一堆分布式 GPU 上算完再传回来，Matt 直说：E2B 目前不支持 GPU，他们用的是虚拟机，GPU 上跑的话沙箱方案可能不合适。还有人问底层，E2B 基于 Firecracker，就是 AWS 开源的轻量级虚拟机技术，目前调度跑在 Nomad 上，正在往 Kubernetes 迁移。那这个生态会不会像 Docker 那样长出标准？他的回答是这一切太早了：这些 AI 智能体才存在多久？大概两年。没人知道这个生态会变成什么样，但可以肯定的是，当人们构建出很酷的东西时，我们会倾向于围绕它们标准化。\n\n最后，把这一集能带走的东西归拢一下。第一，智能体的代码别直接跑在本机或生产服务器上，隔离沙箱是标准解法。第二，快照是沙箱体验的核心，内存和文件系统一起快照，出错少了，坏了也能一键重开。第三，生命周期策略记一条：任务期给长超时，任务完成立刻把超时调短，让沙箱自动回收。第四，复用型沙箱的日常，就是杀孤儿进程加追踪沙箱归属。而 Matt 那句话，恰恰把这份日常说得最透——很多沙箱管理工作，最终就是在杀孤儿进程。"
+}

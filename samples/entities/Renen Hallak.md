@@ -67,7 +67,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":60,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":436,"推理":83}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":60,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":437,"推理":83}</script>
 
 <script>
 (function(){

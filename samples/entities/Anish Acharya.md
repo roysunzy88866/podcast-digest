@@ -132,7 +132,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":436,"OpenAI":176,"Cursor":83,"护城河":14,"编码智能体":27,"Anthropic":186,"a16z":18,"Decagon":9,"循环":10,"个人智能体":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":437,"OpenAI":176,"Cursor":83,"护城河":14,"编码智能体":27,"Anthropic":186,"a16z":18,"Decagon":9,"循环":10,"个人智能体":2}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":436,"ChatGPT":100,"Claude":91,"Gemini":15,"OpenAI":176,"Anthropic":186,"Muse":6,"Instinct":5}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":437,"ChatGPT":100,"Claude":91,"Gemini":15,"OpenAI":176,"Anthropic":186,"Muse":6,"Instinct":5}</script>
 
 <script>
 (function(){

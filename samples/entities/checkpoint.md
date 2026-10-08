@@ -31,7 +31,7 @@ unlisted: true
 
 [[Young]] · [[Nikhil]] · [[Connor]] · [[Crusoe]] · [[Slurm]] · [[Kubernetes]] · [[AutoClusters]] · [[Crusoe Managed Slurm]] · [[GPU 故障]] · [[多节点训练]]
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":16,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":17,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1}</script>
 
 <script>
 (function(){
