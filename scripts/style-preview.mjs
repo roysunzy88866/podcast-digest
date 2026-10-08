@@ -14,7 +14,7 @@ const ids = String(process.argv[2] ?? "").split(",").map((s) => s.trim()).filter
 if (!ids.length || ids.some((id) => !/^\d{4}-\d{2}-\d{2}-[0-9a-z-]+$/.test(id))) { console.error("用法: node scripts/style-preview.mjs <id1>,<id2>(只收集 id)"); process.exit(2); }
 
 const page = (d, body) => `# ${d.title_zh ?? ""}\n\n> ${d.tldr ?? ""}\n\n${body}\n`;
-for (const id of ids) {
+episodes: for (const id of ids) {
   const src = join(ROOT, "data/episodes", id);
   if (!existsSync(join(src, "translation.zh.json"))) { console.error(`跳过 ${id}:仓库里没有译文`); continue; }
   const work = join(OUT, "work", id);
@@ -26,7 +26,12 @@ for (const id of ids) {
   const env = { ...process.env, READABLE_V2: "1", ...(v3 ? { DIGEST_V3: "1" } : {}) };
   for (const step of ["condense.mjs", "polish-zh.mjs", ...(v3 ? ["gate-facts.mjs"] : [])]) {
     const r = spawnSync("node", [join(ROOT, "scripts", step), work], { cwd: ROOT, stdio: "inherit", env });
-    if (r.status !== 0 && step !== "gate-facts.mjs") { console.error(`❌ ${id} ${step} 失败`); process.exit(1); }
+    if (r.status !== 0 && step !== "gate-facts.mjs") {
+      const bad = join(work, ".digest-raw.bad.txt"); // 坏输出带进产物包,排障不用重跑
+      if (existsSync(bad)) cpSync(bad, join(OUT, `${id}.bad.txt`));
+      console.error(`❌ ${id} ${step} 失败`);
+      continue episodes;
+    }
     if (step === "gate-facts.mjs") console.log(`事实层核对:${r.status === 0 ? "全过" : "没过(见上)"}`);
   }
   const neu = JSON.parse(readFileSync(join(work, "digest.json"), "utf8"));

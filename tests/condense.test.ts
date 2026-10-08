@@ -317,10 +317,15 @@ describe("C42 · 新写手:文章 + 金句拼回分段格式(用户 2026-10-08 �
     expect(obj.quotes).toHaveLength(4);
     expect(obj.digest_md).toContain("## 她为什么不怕老板?");
   });
-  it("★★ 缺标题或缺导语 → 不认(交重试);金句段外面多写的话剥掉", () => {
+  it("★★★ 导语冒号全角也认(云端实证:只认半角 → 4 次全判格式失败);加粗/引用写法也认", () => {
+    expect(parseArticle(`# 标题\n导语：Jennifer Ferro 讲公共媒体。\n${body}`)!.tldr).toBe("Jennifer Ferro 讲公共媒体。");
+    expect(parseArticle(`# 标题\n**导语**：一句话。\n${body}`)!.tldr).toBe("一句话。");
+    expect(parseArticle(`# 标题\n> 导语:一句话。\n${body}`)!.body.startsWith("这是开场。")).toBe(true);
+  });
+  it("★★ 缺标题 → 不认;缺导语 → 用正文第一句顶上;金句段外面多写的话剥掉", () => {
     expect(parseArticle(body)).toBeNull();
-    expect(parseArticle(`# 标题\n${body}`)).toBeNull();
-    expect(parseSections(composeV3(`导语:x\n${body}`, quotes))).toBeNull();
+    expect(parseArticle(`# 标题\n${body}`)!.tldr).toBe("这是开场。");
+    expect(parseSections(composeV3(`导语:x\n${body}`, quotes))).toBeNull(); // 没标题
     expect(parseSections(composeV3(article, "好的,下面是金句:\n" + quotes))!.quotes).toHaveLength(4);
   });
 });

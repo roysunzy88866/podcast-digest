@@ -235,10 +235,15 @@ const WRITER_MODEL = process.env.WRITER_MODEL || "glm-5.3";
 export function parseArticle(text) {
   const t = String(text ?? "").replace(/\r\n/g, "\n").trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim();
   const title = t.match(/^#\s+(.+)$/m);
-  const lead = t.match(/^导语[::]\s*(.+)$/m);
-  if (!title || !lead) return null;
-  const body = t.slice(Math.max(title.index + title[0].length, lead.index + lead[0].length)).trim();
-  return body ? { title_zh: title[1].trim(), tldr: lead[1].trim(), body } : null;
+  if (!title) return null;
+  // 冒号全角半角都认(云端实证:模型写「导语:」→ 只认半角时 4 次全判格式失败);也认 **导语**: / > 导语:
+  const lead = t.match(/^[>\s*]*导语\**\s*[:：]\s*(.+)$/m);
+  const body = t.slice(Math.max(title.index + title[0].length, lead ? lead.index + lead[0].length : 0)).trim();
+  if (!body) return null;
+  // 没写导语 → 用正文第一句(≤80 字)顶上,不为一行导语整篇重写
+  const first = (body.match(/^[^#>\n][^。!?\n]*[。!?]/) ?? [])[0];
+  const tldr = lead ? lead[1].trim() : first && first.length <= 80 ? first.trim() : null;
+  return tldr ? { title_zh: title[1].trim(), tldr, body } : null;
 }
 
 /** 拼回分段格式;金句段只取块内容(模型多写的分隔符剥掉)。写手输出不合格 → 原样返回让 parseSections 判失败、走重试。 */
