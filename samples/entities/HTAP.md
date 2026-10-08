@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(27:50起):行业过去十年的“圣杯”设想：试图构建单一数据库引擎同时处理交易和分析。本集指出这种妥协往往导致两边都做不好，既缺乏专有生态系统，性能也无法两头兼顾，因此才催生了只统一存储的 LTAP 方案。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(55:49起):本集说「两引擎一份数据」的理想 HTAP 架构几十年没起飞,原因是组织而非工程:运营侧和分析师都想要各自领域最好的系统
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(55:49起):本集说「两引擎一份数据」的理想 HTAP 架构几十年没起飞,原因是组织而非工程:运营侧和分析师都想要各自领域最好的系统
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 

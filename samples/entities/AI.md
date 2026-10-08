@@ -1087,7 +1087,7 @@ unlisted: true
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q9]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q13]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q10]]
 
 ## ② 出现在这些集
 

@@ -200,7 +200,7 @@ Atrium 还用 Neo4j 做了智能体记忆，新智能体上线时能直接拿到
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:MCP、Neo4j、智能体 (agent)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同概念:MCP、Neo4j、智能体 (agent)</span>
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同概念:MCP、智能体 (agent)、Kafka</span>
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司]]<span class="pd-rz">同概念:MCP、智能体 (agent)、token</span>
 

@@ -86,7 +86,7 @@ Hugging Face 发现异常后的应对同样耐人寻味。他们试图用闭源�
 
 **顺着「AI 安全」挖下去**
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-31-dwarkesh-openai-huggingface-narration|一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 

@@ -198,7 +198,7 @@ Box 没有因为 AI 少招工程师，反而在想办法多招。「我们有几
 
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|三大新模型同日发布，现场盲测见真章]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Fable</span>
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Opus 5、Fable</span>
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、蒸馏 (distillation)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、蒸馏 (distillation)</span>
 
 </div>
 </div>

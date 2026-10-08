@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(11:43起):本集说非结构化销售数据经分块、嵌入后放进 TurboPuffer，供智能体做向量/属性/关键词组合搜索
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(59:00起):本集说它是唯一一家做得非常好的向量数据库公司,高度专精于以远超其他所有人的性价比做向量搜索
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(59:00起):本集说它是唯一一家做得非常好的向量数据库公司,高度专精于以远超其他所有人的性价比做向量搜索
 
 ## ① 提到它的金句
 
@@ -25,7 +25,7 @@ unlisted: true
 *2 集*
 
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

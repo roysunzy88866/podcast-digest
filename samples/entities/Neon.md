@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(22:20起):本集提到它是一家数据库提供商(且完全押注 S3 基础设施),与 Daytona 面临着相同的问题:需要应对极其不可预测的、尖峰式的突发计算负载。
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(15:34起):本集提及其为提供无服务器 Postgres 的公司，采用计算与存储分离架构，每天发起 1300 万个数据库。其架构启发了 Databricks 的沙箱与 LTAP 存储，区别在于 Neon 不需要持久化的本地磁盘，而编程沙箱需要本地状态持久化。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(63:47起):本集说它是中立第三方测试中智能体首选的 Postgres 数据库（并入 Databricks 的 LakeBase），Neon 团队执迷于『怎么对智能体最好』——亚秒级启动、秒级克隆、轻量分支；其上超过 90% 新建数据库由智能体而非人类创建。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(04:18起):本集说 Databricks 收购 Neon 时有个数据:智能体创建的 Neon 数据库分支比例从 30% 涨到 80%
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(04:18起):本集说 Databricks 收购 Neon 时有个数据:智能体创建的 Neon 数据库分支比例从 30% 涨到 80%
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -237,7 +237,7 @@ AI 的影响还主要在数字世界，但在机器人登场之前，你眼镜�
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:Harness（模型外围脚手架） (harness)、对齐 (alignment)</span>
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
 
 </div>
 </div>

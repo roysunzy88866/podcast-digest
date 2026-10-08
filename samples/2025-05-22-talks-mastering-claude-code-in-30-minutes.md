@@ -151,7 +151,7 @@ Boris 说自己是普通用户，一次跑一个 Claude。但他看到的高级�
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agentic)、MCP</span>
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:MCP</span>
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
 
 </div>
 </div>

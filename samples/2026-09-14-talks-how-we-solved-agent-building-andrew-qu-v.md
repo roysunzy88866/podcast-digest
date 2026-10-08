@@ -132,7 +132,7 @@ Andrew 的核心主张是： 他们之前实测过许多资金充足的垂直智
 
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、Next.js</span>
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:Snowflake、智能体 (agent)、沙箱 (sandbox)、语义层 (semantic layer)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同概念:Snowflake、智能体 (agent)、沙箱 (sandbox)、语义层 (semantic layer)</span>
 
 </div>
 <div class="pd-ex">

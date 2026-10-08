@@ -488,9 +488,9 @@ unlisted: true
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q9]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q7]]
 
-![[2026-10-08-mad-what-happens-when-billions-of-ai-agents#^q8]]
+![[2026-10-08-mad-what-happens-when-billions-of-ai-agents#^q4]]
 
 ## ② 出现在这些集
 

@@ -114,7 +114,7 @@ Turbo Puffer 的解法是把不同司法辖区做成不同命名空间：欧盟�
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:Postgres、向量搜索 (vector search)、智能体 (agent)、RAG</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同概念:Postgres、向量搜索 (vector search)、智能体 (agent)、RAG</span>
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆]]<span class="pd-rz">同概念:向量搜索 (vector search)、智能体 (agent)、RAG</span>
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|Legora：三个非律师如何造出法律AI操作系统]]<span class="pd-rz">同公司:Legora · 同概念:智能体 (agent)</span>
 

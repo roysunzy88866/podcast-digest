@@ -200,7 +200,7 @@ Jason 问了一个所有投资人都在想的问题：脚下地板会不会塌�
 
 **换个口味**
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI、NVIDIA · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI、NVIDIA · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI、Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 

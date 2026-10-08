@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为主持
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为主持
 
 ## ③ 他谈到的
 

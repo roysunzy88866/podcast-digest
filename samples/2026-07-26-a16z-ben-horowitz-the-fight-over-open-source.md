@@ -151,7 +151,7 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
 
 **换个口味**
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:护栏 (guardrails)、蒸馏 (distillation)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:护栏 (guardrails)、蒸馏 (distillation)</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weights)、护栏 (guardrails)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:蒸馏 (distillation)</span>
 

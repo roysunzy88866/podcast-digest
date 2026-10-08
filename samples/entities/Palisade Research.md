@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(02:38起):嘉宾担任执行总监的研究机构，专门研究 AI 智能体的黑客能力和行为，试图就此警告公众。
+- **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]]**(02:38起):嘉宾担任执行总监的研究机构，专门研究 AI 智能体的黑客能力和行为，试图就此警告公众。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为被讨论公司
 
 ## ③ 关联
 

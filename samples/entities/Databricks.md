@@ -31,7 +31,7 @@ unlisted: true
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:51起):被一句话提及：SAP 数据平台的以数据为导向的合作伙伴之一，做零拷贝数据共享。
 - **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(09:29起):本集在回顾上一份生物科技公司职位时顺带提到：「我们最后成了一个彻头彻尾的 AWS 用户，我买了 Databricks」。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:59起):本集举 Databricks 为「创始人搞出下一件事」的范例：成长基金首笔投资七年后营收反而加速，还会参与争夺 AI 的抽象层。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(04:18起):本集多次提及:Databricks 收购 Neon(智能体创建分支比例 30%→80% 的数据来源),今年宣布 Lakebase 的 HTAP 故事,被认为最有希望做成混合事务分析
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(04:18起):本集多次提及:Databricks 收购 Neon(智能体创建分支比例 30%→80% 的数据来源),今年宣布 Lakebase 的 HTAP 故事,被认为最有希望做成混合事务分析
 
 ## ① 提到它的金句
 
@@ -68,7 +68,7 @@ unlisted: true
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
 - [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -35,7 +35,7 @@ unlisted: true
 - **[[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]]**(03:07起):本集说智能体的记忆命名空间由 RAG 支撑,但加 RAG 记忆仍得不到想要的长期行为
 - **[[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble|《知识该放哪？提示词、记忆还是微调？》]]**(07:52起):本集把 RAG 作为检索外部记忆的手段,强调代码 RAG 要用基于 AST 的分块并打元数据过滤,否则产出「RAG 糊糊」
 - **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(05:06起):本集说现成的支持机器人拿不到 RAG 基础设施所以无法迭代，是他们决定自建的原因之一；自建后用 Voyage 的嵌入做检索，让 Joey 一开始就拿到最相关的文档。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(00:34起):本集说两年前「数据库+AI」就等于 RAG 和向量数据库——用相似性搜索给聊天机器人补上下文,如今重点已转向智能体直接操作数据库
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(00:34起):本集说两年前「数据库+AI」就等于 RAG 和向量数据库——用相似性搜索给聊天机器人补上下文,如今重点已转向智能体直接操作数据库
 
 ## ① 提到它的金句
 
@@ -73,7 +73,7 @@ unlisted: true
 - [[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]] — 作为概念
 - [[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble|《知识该放哪？提示词、记忆还是微调？》]] — 作为概念
 - [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为概念
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 

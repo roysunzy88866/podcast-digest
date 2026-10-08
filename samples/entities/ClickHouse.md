@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]]**(41:25起):本集提到团队试过 ClickHouse 做存储但撑不住用例,读了『数量多到难为情的 ClickHouse 源代码』仍无解,最终在全员上线 Brainstore 那晚『ClickHouse 死掉了』。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(00:29起):本集说 ClickHouse 是极快的实时分析型 OLAP 数据库,2016 年问世时好得像 vaporware;Andy 加入它创立 ClickHouse Labs,允许他做真研究并在真实生产系统上验证
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(00:29起):本集说 ClickHouse 是极快的实时分析型 OLAP 数据库,2016 年问世时好得像 vaporware;Andy 加入它创立 ClickHouse Labs,允许他做真研究并在真实生产系统上验证
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司(提及)
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

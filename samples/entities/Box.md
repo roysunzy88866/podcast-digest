@@ -50,7 +50,7 @@ unlisted: true
 
 ![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q12]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q7]]
 
 ## ② 出现在这些集
 

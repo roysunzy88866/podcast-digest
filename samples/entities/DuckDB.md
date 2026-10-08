@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]]**(02:00起):本集说它是一个很棒的开源数据库,由荷兰的 DuckDB Labs 维护,MotherDuck 围绕它构建 SaaS 服务并贡献了约 1000 个提交
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(20:49起):本集说 DuckDB 源自 CWI(与 VectorWise 同源),拥有类似 ClickHouse 的列式架构;智能体在嵌入式场景下会推荐它
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(20:49起):本集说 DuckDB 源自 CWI(与 VectorWise 同源),拥有类似 ClickHouse 的列式架构;智能体在嵌入式场景下会推荐它
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]] — 作为被讨论公司
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

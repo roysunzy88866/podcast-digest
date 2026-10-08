@@ -125,7 +125,7 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Databricks、Neon、Snowflake · 同概念:HTAP、智能体 (agent)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同公司:Databricks、Neon、Snowflake · 同概念:HTAP、智能体 (agent)</span>
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文]]<span class="pd-rz">同公司:Databricks、Neon · 同概念:智能体 (agent)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Databricks · 同概念:智能体 (agent)、微调 (fine tuning)</span>
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(37:52起):本集说 DBA 的传统角色会被降级,很多工作可被自动化,但角色不会消失——他们转向数据建模这类更高级的活动
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(37:52起):本集说 DBA 的传统角色会被降级,很多工作可被自动化,但角色不会消失——他们转向数据建模这类更高级的活动
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 

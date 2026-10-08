@@ -1,7 +1,7 @@
 {
-  "title_zh": "智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则",
-  "tldr": "卡内基梅隆大学教授、ClickHouse Labs 创始人 Andy Pavlo 解析智能体如何改变数据库：护栏、10-100 倍流量、自调优与图数据库败局。",
-  "digest_md": "数据库学界最接近「神」的人聊了聊智能体怎么把数据库世界搅得天翻地覆。说话的人是 Andy Pavlo,卡内基梅隆大学教授,他的免费课程教会了一整代工程师(也顺带「教会」了 AI 模型——他问模型数据库问题时,模型引用的结果就是他自己),最近他加入 ClickHouse 创立了 ClickHouse Labs。全集最反直觉的一点:**智能体时代数据库需要的不是新发明,而是那些被新人们遗忘的老功夫**。「对不了解数据库历史的人来说,这就是个蛮荒西部」,他说,「多年来我们一直有能力确保人们不做蠢事,比如删掉一张表——这些控制手段一直存在,只是每个人都想重新发明轮子。」\n\n## 向量数据库的时代结束了,但向量搜索没有\n\n两年前「数据库+AI」等于向量数据库和 RAG(用相似性搜索给大模型补上下文)。Andy 认为向量数据库其实 2016 年就有了,只是 ChatGPT 爆火后正好派上用场。但它的护城河从来不大:「归根结底,它只是一个索引。一年之内,几乎每个数据库厂商都有自己的向量索引,现在这已经成了标准入场筹码。」 你仍然会用向量搜索增强智能体,只是不再需要一个只能干这个的专门数据库。例外是超专精玩家:「我所知道的做得非常好的那家向量数据库公司是 TurboPuffer,他们高度专精于以远超其他所有人的性价比做向量搜索。」\n\n## 智能体正在创建海量数据库,而且会闯祸\n\n智能体和数据库关系最大的变化是「分支」:给生产数据库做快照副本,让编码智能体在副本上改 schema、跑测试,验证过了再上线,不碰生产。Databricks 收购 Neon 时有个数据:智能体创建的数据库分支比例从 30% 涨到 80%。 但没有护栏就会出事——那个著名的案例:有人用 Replit 构建应用,Replit 智能体跑进数据库删了大量文件。「每个月都有故事说某人的生产数据库没了,因为智能体删了不该删的东西。」 他的药方很朴素:把智能体当刚学步的幼儿,用分支建沙箱、设好权限。人们偷懒用全公司同一个密码、再把密码给智能体,之后还纳闷为什么出事。\n\n体量层面他预判「冲击数据库的查询数量会有潜在的 10 到 100 倍增长」——人类只在醒着时操作,一次做一件事,智能体 24 小时不间断,每人可以带数百个。 但说实话,他也不知道智能体的查询模式和人类相比是更复杂还是更浅:有人说智能体的 SQL 一次只读一两张表,远不如 BI 工具里的复杂连接。「这还有待观察,这也是我正在研究的东西。」\n\n## 「一切都是数据库」:文件系统 vs 数据库之争是个伪问题\n\n被问到智能体记忆该用文件系统还是数据库,他的回答斩钉截铁:「什么是文件系统?它就是一个数据库,对吧?一切都是数据库。」 一个目录加一堆 JSON 文件是数据库,他女儿三岁时每天在笔记本上记温度、「合上本子提交保存」也是数据库。真正的区别只在于保障:「数据库系统提供了文件系统也能提供的某些保障,而跨多个智能体的共享状态就是其中之一。」 智能体输入的上下文反正都是人类可读文本,来源无所谓——但 SQLite 那种安全保证,文件系统给不了。「说到底,每个人都应该把所有东西放进数据库系统里。」\n\n至于模型会推荐什么数据库:几乎总是 Postgres,因为预训练数据集里全是它。他透露有两家数据库公司问过他,怎么让智能体优先推荐自家产品而不是 Postgres——「这基本上就像 SEO,去找那些构建模型的人谈,别来找我。」\n\n## 图数据库:「没有任何理由让人真的想用它们」\n\n这是全集火力最猛的一段。Andy 在 Hacker News 上和人有个赌局:如果 2030 年图数据库市场超过关系型数据库,他就穿「我爱图数据库」的 T 恤、印在驾照上、挂官网直到死。「现在是 2026 年,还剩四年。这不会发生。我非常有把握。」 他的论据:图遍历本质上就是对表做自连接,关系型数据库只要把遍历放在服务器端做(SQL 2023 标准已加入属性图查询,Oracle 已支持),就能轻松跑赢 Neo4j——「说你比 Neo4j 快,就好比说你比某个坐轮椅的人跑得快。」\n\n## AI 给数据库:从 vibe code 整个数据库到 15 分钟调优\n\n反向呢?「智能体基本上可以实现任何你现在想构建的数据库系统。」 一年前智能体还完不成他 CMU 课程的完整项目(Opus 4 发布后「打开了闸门」——课程材料全开源在 GitHub 上,训练数据管够)。数据库圈的老话是「三年做出前 90%,剩下 10% 再花七年」,而他认为现在「人们可以用 vibe coding 构建出整个数据库系统,肯定有公司正在这么做」。他的「数据库的数据库」追踪开源项目的提交,超过 60% 的开源数据库系统已有智能体联署的提交。\n\n他十年前的「自动驾驶数据库」项目(Peloton)当时卡在缺训练数据——生产库上不能乱试,预发布环境硬件和负载又从不一样。LLM 改变了这一点:它们读遍了网上所有调优博客、文档和最佳实践。「LLM 能让你走完大约 85% 的路,」而且定制模型要训练几小时才出的最优配置,LLM 15 分钟就能给出「足够好」的答案——对大多数人足够了。 一个扎心的发现:太多人跑的是云平台的默认配置,「他们会告诉我们,哦,我们以为 Amazon 在帮我们调优。我说,不,他们没有。」\n\n## HTAP、GPU 数据库与市场的「停滞」\n\nDatabricks 收购 Neon、Snowflake 和 ClickHouse 都加 Postgres 服务——交易型(OLTP)与分析型(OLAP)正在合流。Andy 的判断:该不该都做?该。但「两引擎一份数据」的理想 HTAP 架构几十年没起飞,原因是组织而非工程:「公司里运营侧的人不想要那种操作做得还行、分析也做得还行的东西,他们想要最好的操作型数据系统——不管好坏,现在那就是 Postgres。」 先做分析、后加事务(Databricks、ClickHouse 路线)是他眼中更聪明的打法,虽然「我无法证明为什么」。\n\nGPU 数据库曾有一轮(2010 年代)因「必须把整个数据库塞进显存」而熄火,如今 NVIDIA 吞并了一批苦苦挣扎的玩家、全力押注,ClickHouse 也在研究。他持保留态度:「GPU 是所有硬件里最贵、最难拿到的,现在你要说你的整个设备都跑在 GPU 上?至少短期内我不知道这说不说得通。」 他自己在新硬件上的履历也确实惨——为 Intel Optane 持久内存做的研究,产品线被砍;为存内处理芯片做的研究,公司被 Qualcomm 收购后项目被砍。\n\n对市场「停滞」的说法,他的回应是参照系错了:相对于 AI,一切都显得停滞——「就好比抓一只猎豹,喂一堆可卡因,再塞进法拉利。人们开发这些东西的速度简直是疯了。」 但数据库的根本不会变:「数据的形态不会发生巨变,以至于要求我们推翻关于数据库的全部已知。就像你不会为了替换一加一等于二而发明一套新的算术。关系模型本身就是表示数据的基础。」 一个疯狂的畅想:不再为每个应用配通用数据库,而是「为这一件事 vibe code 一个完全契合的数据系统」并让高度特化可持续——这可能是下一个大的研究问题。\n\n至于他为什么离开学术界去 ClickHouse Labs:美国科研经费不再,而且「现在招一个博士生意味着什么——当智能体差不多能产出东西、和我这个教授一起写论文的时候」。 ClickHouse 允许他做真研究、失败也没关系,而且能在真实生产系统上验证想法——「而不是我写完论文后指望有人来采纳」。\n\n## 本集带走\n\n- **给智能体配护栏,用的是老办法**:分支(生产库快照副本)+ 权限控制,让智能体在沙箱里改代码、跑测试,验证后再上线——别重新发明轮子,数据库几十年的保护机制直接暴露给智能体就行。\n- **别用全公司同一个密码跑智能体**:最常见的灾难根源不是技术,是偷懒的权限管理。\n- **智能体记忆:直接上数据库**:文件系统也是数据库但缺保障;跨多智能体共享状态、SQLite 式的安全写入,数据库系统都原生提供。\n- **text-to-SQL 可行但要砸钱**:裸用现成工具约 60% 准确率;一家大银行投入多年和数百万美元建语义层后做到 99.5%——可行,但不便宜。\n- **LLM 调优数据库能到 85%**:15 分钟出「足够好」的配置;先检查自己是不是还在跑云平台默认配置——那是最大的低垂果实。\n- **图数据库别赌**:图遍历就是服务器端自连接,SQL 标准已支持属性图查询;Andy 押 2030 年图数据库市场不会超过关系型。\n- **数据库公司的胜负手在数据库外面**:底层架构大家已经趋同(Snowflake/Vectorwise 那一套成了基本门槛),真正拉开差距的是 UI、开发者体验、数据摄取和互操作。",
+  "title_zh": "当几十亿个AI智能体冲向你的数据库",
+  "tldr": "数据库名师 Andy Pavlo 做客 The MAD Podcast,聊智能体时代数据库的变与不变。",
+  "digest_md": "Andy Pavlo 是 Carnegie Mellon 大学的教授，他的数据库课程免费放在网上，教出了一代工程师——顺带也把 AI 模型教了出来。他最近离开学界，加入 ClickHouse 创办 ClickHouse Labs。这次他和主持人 Matt Turk 聊了一个很实际的问题：当智能体开始创建、读写、甚至删除数据库时，这个世界会发生什么？\n\n## 智能体为什么需要自己建数据库？\n\n两年前大家谈“数据库 + AI”,想的还是向量数据库和检索增强。但风向变了:Databricks 收购 Neon 时披露，智能体创建的数据库分支已占了绝大多数。\n\n分支是什么？简单说，就是给生产数据库拍一个快照，让开发者(现在是智能体)在副本上随便折腾，验证没问题再上线。现在公司让编程智能体写新功能，智能体需要沙箱试错，分支需求自然暴涨。\n\n更根本的是，智能体会对世界采取行动。你让它做一个应用，应用背后终究是一个数据库，所以它就得建一个。\n\n## “每个月都有人丢掉生产数据库”\n\n智能体也会删库。播客里提到一个公开案例：有人用 Replit 的智能体开发，结果智能体进数据库删了大量文件。[07:39 Unknown]\n\nAndy 的态度很不客气：这是“不懂数据库历史的西部荒野”。他把智能体比作幼儿：你不能让幼儿不装护栏就在楼梯上乱跑。要不了人盯着一个个点批准，否则无法扩展到几百个智能体同时干活。[08:32 Unknown]\n\n他并不认为智能体需要全新的护栏：数据库暴露的接口就那么多，能约束人类就能约束智能体。\n\n## 流量会涨多少？可能 10 到 100 倍\n\n人类用手机每小时只能做一件事，智能体却可以 24 小时运转。Andy 把数据库的历史分成四波：办公室电脑、互联网、手机，现在是智能体。[12:26 Unknown] 每一波都带来流量暴涨，这一波可能让查询量增加 10 到 100 倍。\n\n但有个悬而未决的问题：==智能体的查询是更浅还是更深==？有人的观察是，智能体往往一次只读一两个表，反而比人类在 Tableau 里做复杂连接更简单。Andy 说他正在研究这个问题。\n\n## 文件系统也是数据库？\n\n关于智能体记忆该用文件系统还是数据库，Andy 的回答干脆利落：文件系统就是数据库，一切都是数据库。他女儿三岁时，父女俩每天在本子上记温度，然后合上本子“提交”，那也是数据库。[15:42 Unknown]\n\n区别在保障。数据库系统能提供安全性和多智能体之间的共享状态，这是普通文件做不到的。他的结论：所有东西都应该放进数据库系统。\n\n## 让智能体选数据库？先搞定“新 SEO”\n\n有个有趣的细节：两家数据库公司找过 Andy,问怎么让智能体推荐自家产品而不是 Postgres。[19:09 Unknown] 他拒绝了——这本质上是一种针对模型的搜索引擎优化。\n\n因为模型是用网上的人类文字训练的，所以如今你让智能体从零建应用，十有八九会推荐 Postgres。Andy 自己的烦恼恰好相反：他问数据库问题，模型引用回来的是他自己的课件。他甚至得专门声明“不要引用 Andy Pavlo 或 Carnegie Mellon”,结果模型转头引用了另一所大学——用的还是他的课件。\n\n## 自然语言转 SQL,终于能用了？\n\n从 70 年代起就有人做“说人话生成 SQL”,一直没成。现在有转机：一家大银行告诉 Andy,现成工具的准确率只有 60%,但投入多年时间和数百万美元构建丰富的语义层后，做到了 99.5%。[24:24 Unknown]\n\n当然，这是“有无限钱的银行”才玩得起的。普通人下载开箱即用的工具，达不到这个水平。\n\n## AI 能写出整个数据库吗？\n\n能。一年前，智能体还做不完 Carnegie Mellon 的数据库课程项目；Anthropic 发布 Opus 4 之后，智能体几乎不用提示就能完成全部作业。[29:38 Unknown] 数据库圈有句老话：做一个数据库要 10 年，前 3 年做 90%,后 7 年磨剩下的 10%。但现在，只要引导得当，可以“氛围编程”出一个数据库系统。\n\n数据也印证了这点：Andy 维护着一个“数据库的数据库”网站，每晚抓取开源数据库的提交记录，发现超过 60% 的开源数据库系统有来自智能体的提交。[30:37 Unknown]\n\n数据库自身的调优也在被 AI 接管。他之前创业做自动调优，最大瓶颈是缺训练数据；大模型出现后，靠网上浩瀚的调优文章就能达到 85% 的效果，15 分钟出结果，而自训练模型要几小时。他还发现，大量用户的数据库一直跑在云厂商的出厂默认配置上——AI 来摘这些低垂的果实，收益立竿见影。\n\n## 为什么他去了 ClickHouse\n\n美国大学的科研经费不如从前，而 ClickHouse 允许他做真正的、可能失败的纯研究——这在此前接触的公司里从没出现过。[43:30 Unknown] 他形容这次合作像说唱组合 Run the Jewels:两个各自成名的人凑在一起，就像第一次把花生酱和果酱抹在一起。\n\n顺带一提，2016 年 ClickHouse 刚发布时，Andy一度怀疑它是假的：列式存储、向量化执行、压缩，一个开源系统凭空全都会，太好了不像真的。后来证明是真的，而那套架构如今已是行业标配。\n\n## 图数据库和向量数据库，还值得看好吗？\n\nAndy 对图数据库火力全开。他打赌：如果 2030 年图数据库市场超过关系型数据库，他就穿上“我爱图数据库”的T恤当证件照，用到去世那天。[60:40 Unknown] 他的依据是：**图遍历本质上是表的自连接**，SQL 标准在 2023 年已加入属性图查询，在服务器端做遍历，关系型数据库完全可以跑赢专门的图数据库。\n\n向量数据库不会消失，但护城河不大——当年一年之内所有数据库厂商都加上了向量索引。活得好的路径有两条：变成像 Postgres 那样的通用系统，或者像 Elasticsearch 那样做旁挂的专门系统。他点名 TurboPuffer 是目前做得最好的那家。\n\n## 本集带走\n\n- 智能体可能带来 10 到 100 倍的数据库查询量增长，但它们的查询模式是否与人类不同，尚无定论。\n- 自然语言转 SQL 需要重金打造语义层才能达到 99.5% 的准确率；超过 60% 的开源数据库已含有智能体写的代码。\n- 图数据库被 Andy 看衰：SQL 新标准已支持图查询，专用图数据库没有性能优势；向量数据库则需转型求存。\n- 数据库的底层架构不会推倒重来，竞争的胜负手在周边：开发体验、数据接入、可观测性这些“脚手架”上的东西。",
   "quotes": [
     {
       "en": "Every month there's a story where someone lost their production database because the agent deleted something.",
@@ -10,21 +10,21 @@
       "speaker": "Andy Pavlo"
     },
     {
-      "en": "It's just like, you know, taking a cheetah, giving a bunch of cocaine and putting in a Ferrari.",
-      "zh": "就好比，你知道，抓一只猎豹，喂一堆可卡因，然后塞进一辆法拉利。",
-      "timestamp": "00:09",
-      "speaker": "Andy Pavlo"
-    },
-    {
       "en": "But like the moat, if you will, wasn't that big because at the end of the day, it's just an index.",
-      "zh": "但它的护城河并没有那么大，因为归根结底，它只是一个索引。",
+      "zh": "但是比如说护城河，如果你愿意这么叫的话，并没有那么大，因为归根结底，它只是一个索引。",
       "timestamp": "03:31",
       "speaker": "Andy Pavlo"
     },
     {
-      "en": "Those controls exist, it's just everyone wants to re-event the wheel and people learn the hard way of just doing what's already been done in the past.",
-      "zh": "这些控制手段是存在的，只是每个人都想重新发明轮子，然后人们就吃了苦头，才学会去做那些过去早就做过的事。",
-      "timestamp": "08:11",
+      "en": "And within a year, pretty much every single database vendor had their own vector index. And now it's become sort of standard table stakes.",
+      "zh": "而在一年之内，几乎每一个数据库厂商都有了他们自己的向量索引。现在这已经变成了某种意义上的标准入场筹码。",
+      "timestamp": "03:35",
+      "speaker": "Andy Pavlo"
+    },
+    {
+      "en": "For years, we've had the capabilities to make sure people don't do things they shouldn't be doing, like stupid things like dropping a table or deleting records. Those controls exist, it's just everyone wants to re-event the wheel and people learn the hard way of just doing what's already been done in the past.",
+      "zh": "多年来，我们一直有能力确保人们不做不该做的事，比如那些蠢事，像删掉一张表或者删除记录。这些控制手段是存在的，只是每个人都想重新发明轮子，然后人们就吃了苦头，才学会去做那些过去早就做过的事。",
+      "timestamp": "08:03",
       "speaker": "Andy Pavlo"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "en": "So I think there's going to be potentially a 10 to 100x increase in volume in the number of queries that are going to hit up against databases.",
-      "zh": "所以我认为冲击数据库的查询数量将会有潜在的 10 到 100 倍增长。",
+      "zh": "所以我认为将会潜在地有 10 到 100 倍的流量增长，体现在将冲击数据库的查询数量上。",
       "timestamp": "13:51",
       "speaker": "Andy Pavlo"
     },
@@ -46,15 +46,33 @@
       "speaker": "Andy Pavlo"
     },
     {
-      "en": "But they said through this, providing a more rich semantic layer, a context layer, over multiple years and millions and millions of dollars to make this work, they were able to get it up to like 99.5%, which is insane.",
-      "zh": "但他们说，通过提供一个更丰富的语义层、一个上下文层，投入了好几年的时间以及数百万数百万美元，他们能把准确率提高到 99.5% 左右，这太疯狂了。",
-      "timestamp": "24:51",
+      "en": "And I will say, I can't say who, I've had two database companies ask me how to get their database to be recommended first by an agent over Postgres.",
+      "zh": "我要说的是，我不能说是谁，有两家数据库公司问过我，怎么让智能体在推荐时优先推荐他们的数据库而不是 Postgres。",
+      "timestamp": "18:58",
       "speaker": "Andy Pavlo"
     },
     {
-      "en": "So, yeah, no, I, I, I think that the agents are very capable, you know, with enough tokens, of course, and then with enough guidance, people can, you can build, Vibecode, entire database system.",
-      "zh": "所以，是的，我认为智能体非常有能力，当然要有足够的 token，再加上足够的引导，人们可以用 vibe coding 构建出整个数据库系统。",
-      "timestamp": "29:45",
+      "en": "It's basically like SEO. How do you get the agent to learn like, hey, I should use my database X instead of Postgres.",
+      "zh": "这基本上就像 SEO。怎么让智能体学会，嘿，我应该用我的数据库 X 而不是 Postgres。",
+      "timestamp": "19:20",
+      "speaker": "Andy Pavlo"
+    },
+    {
+      "en": "I have not seen any benchmarks that show graph databases, the native graph databases, outperform the relational databases systems when those related systems have the right constructs in SQL or the API so that you can do graph traversal all on the server side and not go back and forth.",
+      "zh": "我还没见过任何基准测试表明图数据库——原生图数据库——能在那些关系型数据库系统拥有正确的 SQL 或 API 构造、从而让你完全在服务器端做图遍历、不用来回往返的情况下，胜过关系型数据库系统。",
+      "timestamp": "22:23",
+      "speaker": "Andy Pavlo"
+    },
+    {
+      "en": "Yeah, the old adage from database systems is that it takes 10 years, but it's a system. You can build the first 90% in three years and then the remaining 10% takes the next seven years.",
+      "zh": "是的，数据库系统领域有句老话：需要十年，但它是一个系统。你可以在三年里构建出前 90%，然后剩下的 10% 要花接下来七年。",
+      "timestamp": "29:34",
+      "speaker": "Andy Pavlo"
+    },
+    {
+      "en": "Our models oftentimes would take hours and hours to train, assuming you had enough training data, to produce the pristine optimal configuration, but the elements can come in just like in 15 minutes, produce something that was good enough, and that's good enough for most people.",
+      "zh": "我们的模型通常需要训练好几个小时——前提是你有足够的训练数据——才能产生最完美的最优配置，但 LLM 只要 15 分钟就能进来，产出一个足够好的东西，而对大多数人来说这就够了。",
+      "timestamp": "34:31",
       "speaker": "Andy Pavlo"
     },
     {
@@ -62,164 +80,129 @@
       "zh": "超过 60% 的开源数据库系统的提交来自智能体。",
       "timestamp": "30:37",
       "speaker": "Andy Pavlo"
-    },
-    {
-      "en": "Our models oftentimes would take hours and hours to train, assuming you had enough training data, to produce the pristine optimal configuration, but the elements can come in just like in 15 minutes, produce something that was good enough, and that's good enough for most people.",
-      "zh": "我们的模型通常需要训练好几个小时——前提是你有足够的训练数据——才能产生最完美的最优配置，但 LLM 只要 15 分钟就能产出一个足够好的东西，而对大多数人来说这就够了。",
-      "timestamp": "34:31",
-      "speaker": "Andy Pavlo"
-    },
-    {
-      "en": "I'm pretty comfortable.",
-      "zh": "我非常有把握（2030 年图数据库市场不会超过关系型数据库）。",
-      "timestamp": "60:50",
-      "speaker": "Andy Pavlo"
-    },
-    {
-      "en": "That's like, like Neo4j is like saying you're faster than Neo4j is like saying I'm faster than, you know, somebody maybe like that's, you know, that's in a wheelchair, right?",
-      "zh": "说你比 Neo4j 快，就好比说你比某个坐轮椅的人跑得还快，对吧？",
-      "timestamp": "61:25",
-      "speaker": "Andy Pavlo"
-    },
-    {
-      "en": "So, like, graph database is, I think, a horrible idea.",
-      "zh": "所以，图数据库，我认为，是个糟糕的主意。",
-      "timestamp": "62:12",
-      "speaker": "Andy Pavlo"
-    },
-    {
-      "en": "I don't think there's gonna be a massive change in what data looks like that requires us to throw everything away that we've known about databases.",
-      "zh": "我不认为数据的形态会发生巨变，以至于要求我们把关于数据库的已知知识全部推翻。",
-      "timestamp": "70:17",
-      "speaker": "Andy Pavlo"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "00:06",
-      "speaker": "Unknown",
+      "timestamp": "00:03",
+      "speaker": "Andy Pavlo",
       "en": "Every month there's a story where someone lost their production database because the agent deleted something.",
       "zh": "每个月都有故事说某个智能体删了点东西，导致别人丢了生产数据库。"
     },
     {
       "timestamp": "00:06",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "It's the Wild West for people that don't know the history of databases.",
       "zh": "对不了解数据库历史的人来说，这就是个蛮荒西部。"
     },
     {
-      "timestamp": "00:09",
-      "speaker": "Unknown",
-      "en": "It's just like, you know, taking a cheetah, giving a bunch of cocaine and putting in a Ferrari.",
-      "zh": "就好比，你知道，抓一只猎豹，喂一堆可卡因，然后塞进一辆法拉利。"
-    },
-    {
       "timestamp": "03:31",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "But like the moat, if you will, wasn't that big because at the end of the day, it's just an index.",
-      "zh": "但它的护城河并没有那么大，因为归根结底，它只是一个索引。"
+      "zh": "但是比如说护城河，如果你愿意这么叫的话，并没有那么大，因为归根结底，它只是一个索引。"
     },
     {
-      "timestamp": "08:11",
-      "speaker": "Unknown",
-      "en": "Those controls exist, it's just everyone wants to re-event the wheel and people learn the hard way of just doing what's already been done in the past.",
-      "zh": "这些控制手段是存在的，只是每个人都想重新发明轮子，然后人们就吃了苦头，才学会去做那些过去早就做过的事。"
+      "timestamp": "03:35",
+      "speaker": "Andy Pavlo",
+      "en": "And within a year, pretty much every single database vendor had their own vector index. And now it's become sort of standard table stakes.",
+      "zh": "而在一年之内，几乎每一个数据库厂商都有了他们自己的向量索引。现在这已经变成了某种意义上的标准入场筹码。"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Andy Pavlo",
+      "en": "It's just the, you don't need to have a specialized one database that can only do that.",
+      "zh": "只是你不再需要一个只能做那件事的专门数据库了。"
+    },
+    {
+      "timestamp": "07:25",
+      "speaker": "Andy Pavlo",
+      "en": "There's Jason Lankin that was trying to build something with Replit, and I think the Replit agent went to the database and deleted a lot of files, which then subsequently Replit made the right adjustments.",
+      "zh": "有个 Jason Lankin 想用 Replit 构建一个东西，Replit 的智能体跑到数据库里删除了大量文件，之后 Replit 做出了正确的调整。"
+    },
+    {
+      "timestamp": "08:03",
+      "speaker": "Andy Pavlo",
+      "en": "For years, we've had the capabilities to make sure people don't do things they shouldn't be doing, like stupid things like dropping a table or deleting records. Those controls exist, it's just everyone wants to re-event the wheel and people learn the hard way of just doing what's already been done in the past.",
+      "zh": "多年来，我们一直有能力确保人们不做不该做的事，比如那些蠢事，像删掉一张表或者删除记录。这些控制手段是存在的，只是每个人都想重新发明轮子，然后人们就吃了苦头，才学会去做那些过去早就做过的事。"
     },
     {
       "timestamp": "09:31",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "People get lazy, they use the same password across entire company, organization, and then they give the same password to the agent and now wonder why the agent started doing things they shouldn't do.",
       "zh": "人们会偷懒，整个公司、整个组织用同一个密码，然后又把同一个密码给了智能体，之后还纳闷为什么智能体开始做不该做的事。"
     },
     {
       "timestamp": "13:51",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "So I think there's going to be potentially a 10 to 100x increase in volume in the number of queries that are going to hit up against databases.",
-      "zh": "所以我认为冲击数据库的查询数量将会有潜在的 10 到 100 倍增长。"
+      "zh": "所以我认为将会潜在地有 10 到 100 倍的流量增长，体现在将冲击数据库的查询数量上。"
+    },
+    {
+      "timestamp": "15:30",
+      "speaker": "Andy Pavlo",
+      "en": "What is a file system? It's a database, right? Everything's a database, right?",
+      "zh": "什么是文件系统？它就是一个数据库，对吧？一切都是数据库，对吧？"
     },
     {
       "timestamp": "16:47",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "So at the end of the day, everybody should be putting everything in a database system.",
       "zh": "所以说到底，每个人都应该把所有东西放进数据库系统里。"
     },
     {
-      "timestamp": "18:17",
-      "speaker": "Unknown",
-      "en": "But the database system provides certain guarantees and luxuries, if you will, that a file system can provide, and shared state is one of them across multiple agents.",
-      "zh": "但是数据库系统提供了某些保障和便利，这是文件系统也能提供的，而跨多个智能体的共享状态就是其中之一。"
+      "timestamp": "18:58",
+      "speaker": "Andy Pavlo",
+      "en": "And I will say, I can't say who, I've had two database companies ask me how to get their database to be recommended first by an agent over Postgres.",
+      "zh": "我要说的是，我不能说是谁，有两家数据库公司问过我，怎么让智能体在推荐时优先推荐他们的数据库而不是 Postgres。"
     },
     {
       "timestamp": "19:20",
-      "speaker": "Unknown",
-      "en": "It's basically like SEO.",
-      "zh": "这基本上就像 SEO。"
+      "speaker": "Andy Pavlo",
+      "en": "It's basically like SEO. How do you get the agent to learn like, hey, I should use my database X instead of Postgres.",
+      "zh": "这基本上就像 SEO。怎么让智能体学会，嘿，我应该用我的数据库 X 而不是 Postgres。"
     },
     {
-      "timestamp": "22:19",
-      "speaker": "Unknown",
-      "en": "I don't think you need one.",
-      "zh": "我不觉得你需要一个（图数据库）。"
+      "timestamp": "22:17",
+      "speaker": "Andy Pavlo",
+      "en": "I have not seen any benchmarks that show graph databases, the native graph databases, outperform the relational databases systems when those related systems have the right constructs in SQL or the API so that you can do graph traversal all on the server side and not go back and forth.",
+      "zh": "我还没见过任何基准测试表明图数据库——原生图数据库——能在那些关系型数据库系统拥有正确的 SQL 或 API 构造、从而让你完全在服务器端做图遍历、不用来回往返的情况下，胜过关系型数据库系统。"
     },
     {
       "timestamp": "24:51",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "But they said through this, providing a more rich semantic layer, a context layer, over multiple years and millions and millions of dollars to make this work, they were able to get it up to like 99.5%, which is insane.",
-      "zh": "但他们说，通过提供一个更丰富的语义层、一个上下文层，投入了好几年的时间以及数百万数百万美元，他们能把准确率提高到 99.5% 左右，这太疯狂了。"
+      "zh": "但他们说，通过提供一个更丰富的语义层、一个上下文层，投入了好几年的时间以及数百万数百万美元才让这个东西跑起来，他们能把准确率提高到 99.5% 左右，这太疯狂了。"
     },
     {
       "timestamp": "29:34",
-      "speaker": "Unknown",
-      "en": "Yeah, the old adage from database systems is that it takes 10 years, but it's a system.",
-      "zh": "是的，数据库系统领域有句老话：需要十年，但它是一个系统。"
+      "speaker": "Andy Pavlo",
+      "en": "Yeah, the old adage from database systems is that it takes 10 years, but it's a system. You can build the first 90% in three years and then the remaining 10% takes the next seven years.",
+      "zh": "是的，数据库系统领域有句老话：需要十年，但它是一个系统。你可以在三年里构建出前 90%，然后剩下的 10% 要花接下来七年。"
     },
     {
-      "timestamp": "29:45",
-      "speaker": "Unknown",
-      "en": "So, yeah, no, I, I, I think that the agents are very capable, you know, with enough tokens, of course, and then with enough guidance, people can, you can build, Vibecode, entire database system.",
-      "zh": "所以，是的，我认为智能体非常有能力，当然要有足够的 token，再加上足够的引导，人们可以用 vibe coding 构建出整个数据库系统。"
+      "timestamp": "34:16",
+      "speaker": "Andy Pavlo",
+      "en": "And so on the research side, what we found is the LLMs can get you maybe 85% of the way there and tuning certain things.",
+      "zh": "所以在研究这边，我们发现 LLM 能让你在调优某些东西时走完大约 85% 的路。"
+    },
+    {
+      "timestamp": "34:31",
+      "speaker": "Andy Pavlo",
+      "en": "Our models oftentimes would take hours and hours to train, assuming you had enough training data, to produce the pristine optimal configuration, but the elements can come in just like in 15 minutes, produce something that was good enough, and that's good enough for most people.",
+      "zh": "我们的模型通常需要训练好几个小时——前提是你有足够的训练数据——才能产生最完美的最优配置，但 LLM 只要 15 分钟就能进来，产出一个足够好的东西，而对大多数人来说这就够了。"
     },
     {
       "timestamp": "30:37",
-      "speaker": "Unknown",
+      "speaker": "Andy Pavlo",
       "en": "Over 60% of the open source database systems have commits coming from agents.",
       "zh": "超过 60% 的开源数据库系统的提交来自智能体。"
     },
     {
-      "timestamp": "34:31",
-      "speaker": "Unknown",
-      "en": "Our models oftentimes would take hours and hours to train, assuming you had enough training data, to produce the pristine optimal configuration, but the elements can come in just like in 15 minutes, produce something that was good enough, and that's good enough for most people.",
-      "zh": "我们的模型通常需要训练好几个小时——前提是你有足够的训练数据——才能产生最完美的最优配置，但 LLM 只要 15 分钟就能产出一个足够好的东西，而对大多数人来说这就够了。"
-    },
-    {
-      "timestamp": "35:29",
-      "speaker": "Unknown",
-      "en": "And they would tell us, oh, we thought Amazon was tuning this for us.",
-      "zh": "他们会告诉我们，哦，我们以为 Amazon 在帮我们调优。"
-    },
-    {
-      "timestamp": "60:50",
-      "speaker": "Unknown",
-      "en": "I'm pretty comfortable.",
-      "zh": "我非常有把握（2030 年图数据库市场不会超过关系型数据库）。"
-    },
-    {
-      "timestamp": "61:25",
-      "speaker": "Unknown",
-      "en": "That's like, like Neo4j is like saying you're faster than Neo4j is like saying I'm faster than, you know, somebody maybe like that's, you know, that's in a wheelchair, right?",
-      "zh": "说你比 Neo4j 快，就好比说你比某个坐轮椅的人跑得还快，对吧？"
-    },
-    {
-      "timestamp": "62:12",
-      "speaker": "Unknown",
-      "en": "So, like, graph database is, I think, a horrible idea.",
-      "zh": "所以，图数据库，我认为，是个糟糕的主意。"
-    },
-    {
-      "timestamp": "70:27",
-      "speaker": "Unknown",
-      "en": "I don't think there's gonna be a massive change in what data looks like that requires us to throw everything away that we've known about databases.",
-      "zh": "我不认为数据的形态会发生巨变，以至于要求我们把关于数据库的已知知识全部推翻。"
+      "timestamp": "56:46",
+      "speaker": "Andy Pavlo",
+      "en": "And for better or worse, that's Postgres now, right? And best is not always in terms of performance. It could be a variety of reasons why it's considered the best.",
+      "zh": "而不管好坏，现在那就是 Postgres，对吧？而且最好并不总是指性能方面。可能有多方面的原因使它被认为是最好的。"
     }
   ],
   "voice_script": "今天要讲的人，是 Andy Pavlo,卡内基梅隆大学的教授，数据库学界公认的顶号人物。他的免费课程教会了一整代工程师，甚至可以说教会了 AI——他现在问大模型数据库问题，模型引用的答案往往就是他自己写的教材。最近他离开学术界，加入了 ClickHouse,创立了 ClickHouse Labs。这一期聊的问题是：智能体来了，数据库的规则会被怎么改写？为什么这个问题重要？因为编码智能体现在会自己建数据库、改表结构、跑查询，数据库世界的玩法正在被搅得天翻地覆。\n\n而全集最反直觉的一点，恰恰是：智能体时代需要的不是什么新发明，而是那些被新人们遗忘的老功夫。Andy 说，对不了解数据库历史的人来说，这就像个蛮荒西部——多年来数据库一直有能力确保人们不做蠢事，比如删掉一张表，这些控制手段一直存在，只是每个人都想重新发明轮子，然后吃了苦头，才学会去做那些过去早就做过的事。\n\n先说一个已经发生的大变化：向量数据库的时代结束了，但向量搜索没有。两年前，数据库加 AI 就等于向量数据库，用来给大模型补上下文。但 Andy 说，归根结底，它只是一个索引，护城河从来不大。一年之内，几乎每个数据库厂商都做出了自己的向量索引，这已经成了标准入场筹码。你仍然会用向量搜索来增强智能体，只是不再需要一个只能干这个的专门数据库。例外是像 TurboPuffer 这种超专精玩家，靠极致性价比把一件事做到最好。\n\n那智能体和数据库的关系，具体变成了什么样？最大的变化叫「分支」：给生产数据库拍个快照副本，让智能体在副本上改表结构、跑测试，验证过了再上线，完全不碰生产环境。Databricks 收购 Neon 时有个数据，智能体创建的数据库分支比例从百分之三十涨到了百分之八十。但没有护栏就会出事——有个著名案例，有人用 Replit 构建应用，结果智能体跑进数据库，删了大量文件。Andy 说，每个月都有故事，说某人的生产数据库没了，因为智能体删了不该删的东西。药方其实很朴素：把智能体当成刚学步的幼儿，用分支建沙箱、设好权限。人们偷懒，全公司用同一个密码，再把密码给智能体，之后还纳闷为什么出事。\n\n量级上的变化更夸张。人类只在醒着时操作，一次做一件事；智能体二十四小时不间断，每人还能带几百个。所以冲击数据库的查询数量，会有潜在的十到一百倍增长。不过查询模式会更复杂还是更浅，还有待观察。\n\n被问到智能体的记忆该用文件系统还是数据库，Andy 的回答斩钉截铁：什么是文件系统？它就是一个数据库，一切都是数据库。真正的区别只在保障——跨多个智能体的共享状态、SQLite 那种安全写入，数据库系统原生就有，文件系统给不了。所以结论是，每个人都应该把所有东西放进数据库里。至于模型会推荐什么数据库？几乎总是 Postgres,因为预训练数据里全是它。\n\n火力最猛的一段是图数据库。Andy 在 Hacker News 上和人打赌：如果 2030 年图数据库市场超过关系型数据库，就穿上「我爱图数据库」的 T 恤、印在驾照上。现在是 2026 年，还剩四年，非常有把握不会发生。论据是：图遍历本质上就是对表做自连接，关系型数据库把遍历放到服务器端做，就能轻松跑赢 Neo4j——说自己比 Neo4j 快，就好比说你比某个坐轮椅的人跑得快。\n\n反过来看，AI 能给数据库什么？一年前智能体还完不成他课程的完整项目，现在人们已经可以用 vibe coding 构建出整个数据库系统，肯定有公司正在这么做。十年前的「自动驾驶数据库」项目，卡在缺训练数据；而 LLM 读遍了网上所有调优博客和文档，能走完大约百分之八十五的路——定制的调优模型要训练几小时，LLM 十五分钟就能给出足够好的答案。这里有个扎心的发现：太多人跑的是云平台默认配置，还以为 Amazon 在帮自己调优。不，人家没有。\n\n市场会因此剧变吗？Andy 说参照系错了——相对 AI,一切都显得停滞，就好比抓一只猎豹，喂一堆可卡因，再塞进法拉利。但数据库的根本不会变：关系模型本身就是表示数据的基础，就像你不会为了替换一加一等于二，去发明一套新的算术。所以回到开头那句话：智能体时代，数据库需要的不是新发明，而是把那些保护机制，直接交给智能体用。"

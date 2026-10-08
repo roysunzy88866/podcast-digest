@@ -19,7 +19,7 @@ unlisted: true
 
 ![[2026-09-16-a16z-the-ai-native-crm-pmervpt#^q14]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q7]]
 
 ## ② 出现在这些集
 

@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(16:40起):本集说 Chess.com 训练了一个 Slack 机器人做 text to SQL 分析，解决数据请求频道里'南非有多少订阅者''上个月谜题玩了多久'这类一次性问题，不需要数据分析师排队；副作用是问题量爆增，因为人们不好意思问人的问题对着机器人就敢问了。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(24:05起):本集说 text-to-SQL 从 70 年代就在尝试,裸用现成工具约 60% 准确率,一家大银行砸多年时间和数百万美元建语义层后做到 99.5%——可行但不便宜
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(24:05起):本集说 text-to-SQL 从 70 年代就在尝试,裸用现成工具约 60% 准确率,一家大银行砸多年时间和数百万美元建语义层后做到 99.5%——可行但不便宜
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 

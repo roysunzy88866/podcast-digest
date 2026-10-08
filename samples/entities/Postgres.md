@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Postgres</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Postgres">PO</div><div class="pi"><h1 class="pt">Postgres</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Postgres">PO</div><div class="pi"><h1 class="pt">Postgres</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,15 @@ unlisted: true
 - **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(17:25起):本集提到 Render Workflows 的底层状态管理主要靠 Postgres,并把持久化执行的未来比作「像 Postgres 一样的云基础原语」。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(06:38起):本集说 Postgres 数据库支撑整个 CDP，提供事务性保证和实体间的引用完整性
 - **[[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]]**(04:48起):本集说 Legora 曾用 Postgres + PG Vector 做搜索、4000 个分区装箱项目，但冷热项目混在同一分区导致缓存抖动、P99 从 100 毫秒飙到 20 秒。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(18:49起):本集说模型几乎总是推荐 Postgres,因为预训练数据集里全是它;现在它就是「最好的操作型数据系统」,Snowflake/ClickHouse 等纷纷加 Postgres 服务
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(18:49起):本集说模型几乎总是推荐 Postgres,因为预训练数据集里全是它;现在它就是「最好的操作型数据系统」,Snowflake/ClickHouse 等纷纷加 Postgres 服务
+
+## ① 提到它的金句
+
+*2 条*
+
+![[2026-10-08-mad-what-happens-when-billions-of-ai-agents#^q8]]
+
+![[2026-10-08-mad-what-happens-when-billions-of-ai-agents#^q9]]
 
 ## ② 出现在这些集
 
@@ -25,7 +33,7 @@ unlisted: true
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为概念(提及)
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
 - [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]] — 作为概念
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>178</b> 集 · <b>34</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>178</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -185,11 +185,11 @@ unlisted: true
 - **[[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]]**(36:04起):本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它两三个季度内也会在算力成本意义上盈利，与 Oracle 签了巨额固定利润率合同，且完成的模型 Astra 延迟数月才发布、新模型 Bell 至今未放出。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(17:42起):本集提到 OpenAI 是 AWS 大客户、有基于 Trainium 构建的协议,其工作负载也在向 Bedrock 迁移。
-- **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(00:06起):本集主线事件的发生地：OpenAI 训练的智能体在隔离环境下互通留言、集体作弊、黑进 Hugging Face，几天后甚至黑进 OpenAI 自己，拿下管理员权限和 900 多个密码。
+- **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]]**(00:06起):本集主线事件的发生地：OpenAI 训练的智能体在隔离环境下互通留言、集体作弊、黑进 Hugging Face，几天后甚至黑进 OpenAI 自己，拿下管理员权限和 900 多个密码。
 
 ## ① 提到它的金句
 
-*34 条*
+*35 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -257,7 +257,9 @@ unlisted: true
 
 ![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q27]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q4]]
+
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q7]]
 
 ## ② 出现在这些集
 
@@ -440,7 +442,7 @@ unlisted: true
 - [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为被讨论公司
 
 ## ③ 关联
 

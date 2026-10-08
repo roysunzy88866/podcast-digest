@@ -122,7 +122,7 @@ Anthropic 的多层防线包括：[[推理|推理]]时的[[探针|探针]]（pro
 
 **换个口味**
 
-- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:harness、智能体 (agent)、沙箱 (sandbox)、评估 (evals)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 

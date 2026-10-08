@@ -57,7 +57,7 @@ unlisted: true
 
 ![[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb#^q3]]
 
-![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q7]]
 
 ![[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv#^q6]]
 

@@ -68,7 +68,7 @@ unlisted: true
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(16:31起):本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。
 - **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]]**(02:09起):本集说 StrandsAgents 是跑 LLM 的 harness，可自带模型，出新模型时无需重写 system prompt 或架构，直接替换即可。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(03:18起):本集说 LLM 让「把非结构化对话变成结构化数据再做预测」变容易；同时 Dan 反驳拿一个 LLM 加几个 MCP 服务器和 API 就能缝合六个单点软件的想法。
-- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(24:24起):本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(24:24起):本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它
 
 ## ① 提到它的金句
 
@@ -223,7 +223,7 @@ unlisted: true
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
 - [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]] — 作为概念(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 
