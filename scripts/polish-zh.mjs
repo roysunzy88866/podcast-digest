@@ -395,7 +395,8 @@ export function enInTranscript(en, transcriptText) {
 
 function glmQuotes(transcriptText, quotes) {
   const input = `【文字稿】\n${transcriptText}\n\n【引语】\n${quotes.map((q, i) => `[[${i}]] ${q.inner}`).join("\n")}`;
-  const r = spawnSync("glm-ask", ["--system", QUOTE_SYSTEM, "--max-tokens", "4000", input], { encoding: "utf8", timeout: 300000, maxBuffer: 16 * 1024 * 1024 });
+  // 900 秒:2 小时以上长访谈全文 15 万字符,300 秒云端实证超时(Dwarkesh 集)→ 真原话的引号也被一并去掉
+  const r = spawnSync("glm-ask", ["--system", QUOTE_SYSTEM, "--max-tokens", "4000", input], { encoding: "utf8", timeout: 900000, maxBuffer: 16 * 1024 * 1024 });
   if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
   const m = new Map();
   for (const line of String(r.stdout).split("\n")) {

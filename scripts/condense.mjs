@@ -238,7 +238,10 @@ export function parseArticle(text) {
   if (!title) return null;
   // 冒号全角半角都认(云端实证:模型写「导语:」→ 只认半角时 4 次全判格式失败);也认 **导语**: / > 导语:
   const lead = t.match(/^[>\s*]*导语\**\s*[:：]\s*(.+)$/m);
-  const body = t.slice(Math.max(title.index + title[0].length, lead ? lead.index + lead[0].length : 0)).trim();
+  let body = t.slice(Math.max(title.index + title[0].length, lead ? lead.index + lead[0].length : 0)).trim();
+  // 云端实证(3 期 3 次):写手常给开场段也安一个「## 小标题」→ styleErrs 判「正文以小标题开头」整篇重写(白烧 2–3 分钟)。
+  // 开场那一个小标题机械去掉(只删标题行,正文一字不动),开场段照旧当钩子。
+  body = body.replace(/^##[^\n]*\n+(?=[^#\n])/, "");
   if (!body) return null;
   // 没写导语 → 用正文第一句(≤80 字)顶上,不为一行导语整篇重写
   const first = (body.match(/^[^#>\n][^。!?\n]*[。!?]/) ?? [])[0];

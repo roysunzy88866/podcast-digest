@@ -322,6 +322,11 @@ describe("C42 · 新写手:文章 + 金句拼回分段格式(用户 2026-10-08 �
     expect(parseArticle(`# 标题\n**导语**：一句话。\n${body}`)!.tldr).toBe("一句话。");
     expect(parseArticle(`# 标题\n> 导语:一句话。\n${body}`)!.body.startsWith("这是开场。")).toBe(true);
   });
+  it("★★★ 开场段被安了小标题 → 只去掉那一行,正文一字不动(云端实证 3/3 期首次都因此整篇重写)", () => {
+    const a = parseArticle(`# 标题\n导语:一句话。\n## 开场\n\n${body}`)!;
+    expect(a.body).toBe(body);
+    expect(styleErrs(a.body)).toEqual([]);
+  });
   it("★★ 缺标题 → 不认;缺导语 → 用正文第一句顶上;金句段外面多写的话剥掉", () => {
     expect(parseArticle(body)).toBeNull();
     expect(parseArticle(`# 标题\n${body}`)!.tldr).toBe("这是开场。");
