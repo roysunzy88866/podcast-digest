@@ -334,3 +334,17 @@ describe("C42 · 新写手:文章 + 金句拼回分段格式(用户 2026-10-08 �
     expect(parseSections(composeV3(article, "好的,下面是金句:\n" + quotes))!.quotes).toHaveLength(4);
   });
 });
+
+import { withRateLimitRetry } from "../scripts/condense.mjs";
+describe("C42 · 智谱限流先等再试(5 路并行实证:30 多集一开写就被 429 拒掉整集回滚)", () => {
+  it("★★★ 限流 → 等待后重试成功;非限流错误立刻抛;限流次数用尽才抛", async () => {
+    const waited: number[] = [];
+    const sleep = async (s: number) => { waited.push(s); };
+    let n = 0;
+    const r = await withRateLimitRetry(async () => { if (n++ < 2) throw new Error("glm-ask exit 1: [HTTP 429] 1302 速率限制"); return "ok"; }, { sleep, log: () => {} });
+    expect(r).toBe("ok");
+    expect(waited).toEqual([30, 60]);
+    await expect(withRateLimitRetry(async () => { throw new Error("glm-ask exit 1: [HTTP 500]"); }, { sleep, log: () => {} })).rejects.toThrow("500");
+    await expect(withRateLimitRetry(async () => { throw new Error("HTTP 429"); }, { sleep, waits: [1], log: () => {} })).rejects.toThrow("429");
+  });
+});

@@ -14,7 +14,24 @@ const MAX_RETRY = 3;
 const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
 
 // maxTokens 16000:长集浓缩输出较大,给足余量防截断(短集到不了上限,无影响)。
+// 智谱限流(HTTP 429 / 1302「账户已达到速率限制」)→ 等一会儿再试,不当失败(2026-10-08 只重写文字 5 路并行实证:
+// 49 集里 30 多集一开写就被限流拒掉、整集回滚)。退避 30/60/120/240 秒,第 5 次仍限流才抛。
+export async function withRateLimitRetry(fn, { waits = [30, 60, 120, 240], sleep = (s) => new Promise((r) => setTimeout(r, s * 1000)), log = console.error } = {}) {
+  for (let i = 0; ; i++) {
+    try { return await fn(); }
+    catch (e) {
+      if (i >= waits.length || !/HTTP 429|\b1302\b|速率限制/.test(String(e.message))) throw e;
+      log(`  ⏳ 智谱限流,${waits[i]} 秒后重试(第 ${i + 1}/${waits.length} 次)`);
+      await sleep(waits[i]);
+    }
+  }
+}
+
 function glmAsk(system, input, maxTokens = 16000, model = process.env.CONDENSE_MODEL) {
+  return withRateLimitRetry(() => glmAskOnce(system, input, maxTokens, model));
+}
+
+function glmAskOnce(system, input, maxTokens, model) {
   return new Promise((res, rej) => {
     // CONDENSE_MODEL 可单独 pin 浓缩模型(不设=走 glm-ask 默认);用于试/切模型而不动全局默认。
     const args = [...(model ? ["--model", model] : []), "--system", system, "--max-tokens", String(maxTokens)];

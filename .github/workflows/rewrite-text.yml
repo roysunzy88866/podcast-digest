@@ -14,9 +14,9 @@ on:
         description: "或直接给逗号分隔集 id(给了就不看 since)"
         required: false
       shards:
-        description: "并行几路"
+        description: "并行几路(智谱免费额度有频率上限,5 路实测被限流,默认 2)"
         required: false
-        default: "5"
+        default: "2"
 
 concurrency:
   group: rewrite-text
@@ -42,7 +42,7 @@ jobs:
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json, glob, os
-          since, ids, n = os.environ.get("SINCE", ""), os.environ.get("IDS", ""), int(os.environ.get("SHARDS") or 5)
+          since, ids, n = os.environ.get("SINCE", ""), os.environ.get("IDS", ""), int(os.environ.get("SHARDS") or 2)
           if ids:
               pick = [i.strip() for i in ids.split(",") if i.strip()]
           else:
@@ -50,7 +50,9 @@ jobs:
               for m in sorted(glob.glob("data/episodes/*/meta.json")):
                   d = json.load(open(m))
                   if since and d.get("added", "") >= since and os.path.exists(f"samples/{d['id']}.md"):
-                      pick.append(d["id"])
+                      try: w = json.load(open(f"data/episodes/{d['id']}/digest.json")).get("writer")
+                      except Exception: w = None
+                      if w != "v3": pick.append(d["id"])  # 已是新写手的稿不重写(补跑只跑剩下的)
           shards = [",".join(pick[k::n]) for k in range(n) if pick[k::n]]
           print("matrix=" + json.dumps({"ids": shards}))
           print(f"count={len(pick)}")
