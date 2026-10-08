@@ -775,3 +775,29 @@ describe("5d-C · 源侧补认「.2」→0.2、「nines」→9(真案例:2026-09
     expect(nums("maybe 2.2 times").has(2.2)).toBe(true);
   });
 });
+
+import { cnToNumber, extractChineseNumbers, checkVagueNumbers, checkProse as checkProseC42 } from "../scripts/gate-facts.mjs";
+describe("C42 · 中文写的数字与约数(盲测实证:豆包「百分之五」核对 0 条、Flash「三十来年」、Sonnet「几十个频道」)", () => {
+  it("★★★ 中文数字换算", () => {
+    expect(cnToNumber("一千五百万")).toBe(15000000);
+    expect(cnToNumber("一百四十")).toBe(140);
+    expect(cnToNumber("十二")).toBe(12);
+    expect(cnToNumber("一亿两千万")).toBe(120000000);
+  });
+  it("★★★ 只抽 ≥10 的;跳过一两/三四约数、千万/万一、月份", () => {
+    const raws = extractChineseNumbers("占百分之五,待了三十来年,一个人,一两次,千万别,十一月发布,十二到十五家").map((n) => n.raw);
+    expect(raws).toEqual(["百分之五", "三十", "十二", "十五"]);
+  });
+  it("★★★ 约数要原稿有对应说法", () => {
+    const tokens = new Set(["dozens", "of", "stations"]);
+    expect(checkVagueNumbers("有几十个电台", tokens)[0].pass).toBe(true);
+    expect(checkVagueNumbers("干了数百年", tokens)[0].pass).toBe(false);
+  });
+  it("★★★ 只对新写手的稿硬拦(存量 668 集里 89 集会被「几十」打红,存量不动)", () => {
+    const ctx = buildFactIndex([{ text: "federal funding is 5% of our budget", start: 0, end: 5, speaker: "S" }], { speaker_map: {} }, { entities: [] });
+    const md = "联邦拨款占预算的百分之五十,她干了数十年。";
+    expect(checkProseC42(md, ctx, { entities: [] }).failures.filter((f: any) => f.kind === "D17-数字")).toHaveLength(0);
+    const strict = checkProseC42(md, ctx, { entities: [] }, { cnNumbers: true }).failures.filter((f: any) => f.kind === "D17-数字").map((f: any) => f.raw);
+    expect(strict).toEqual(["百分之五十", "数十"]);
+  });
+});

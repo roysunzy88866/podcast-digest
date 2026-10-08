@@ -369,6 +369,59 @@ export function addHeadings(md, { propose = glmHeadings, ctx = "", known = new S
   return { md: out, added };
 }
 
+// ══ 引号只给原话(C42 · 2026-10-08 盲测实证:GLM 简化版在「本集带走」里编了整句引语,事实层只查专名/数字查不出)══
+// 正文里每一处整句引语「…」交 GLM 找它对应的英文原句(必须逐字抄);程序再核这句英文真在原稿里。
+// 找不到 / 抄的不是原文 / 调用失败 → 去掉引号(话留着,变成转述),不删字、不加字。
+const QUOTE_SYSTEM = `下面是一期英文播客的文字稿,以及一篇中文文章里加了引号、声称是嘉宾原话的句子(每条前有编号)。
+逐条判断:这句中文是不是忠实翻译了文字稿里某人真说过的一句(或连续几句)话?
+- 是:输出「[[编号]] 」+ 从文字稿里逐字复制的那句英文原话(一个字都不许改)。
+- 不是(文字稿里没有这句话、或意思被改了、或是作者自己的概括):输出「[[编号]] 无」。
+只输出这些行,不要解释。`;
+
+const normEn = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/** 正文里的整句引语(带句读、或 ≥10 汉字)及其位置;「本集带走」也查。 */
+export function bodyQuotes(md) {
+  return [...String(md).matchAll(/「([^「」\n]+)」/g)]
+    .filter((m) => /[,，。!！?？;；]/.test(m[1]) || visibleHanCount(m[1]) >= 10)
+    .map((m) => ({ start: m.index, end: m.index + m[0].length, inner: m[1] }));
+}
+
+/** 这句英文是不是原稿里的话:归一化后 ≥4 个词,且是原稿全文的连续片段。 */
+export function enInTranscript(en, transcriptText) {
+  const e = normEn(en);
+  return e.split(" ").length >= 4 && ` ${normEn(transcriptText)} `.includes(` ${e} `);
+}
+
+function glmQuotes(transcriptText, quotes) {
+  const input = `【文字稿】\n${transcriptText}\n\n【引语】\n${quotes.map((q, i) => `[[${i}]] ${q.inner}`).join("\n")}`;
+  const r = spawnSync("glm-ask", ["--system", QUOTE_SYSTEM, "--max-tokens", "4000", input], { encoding: "utf8", timeout: 300000, maxBuffer: 16 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}: ${(r.stderr || "").slice(0, 160)}`);
+  const m = new Map();
+  for (const line of String(r.stdout).split("\n")) {
+    const g = line.match(/^\s*\[\[(\d+)\]\]\s?(.*)$/);
+    if (g) m.set(Number(g[1]), g[2].trim());
+  }
+  return m;
+}
+
+/** 核不实的引语去引号。返回 {md, kept, unquoted:[inner]}。调用失败 = 全部去引号(判不了 = 不当原话)。 */
+export function verifyQuotes(md, transcriptText, { find = glmQuotes, log = () => {} } = {}) {
+  const qs = bodyQuotes(md);
+  if (!qs.length) return { md: String(md), kept: 0, unquoted: [] };
+  let got;
+  try { got = find(transcriptText, qs); } catch (e) { log(`  ✗ 引语核对调 GLM 失败(全部按转述处理):${e.message}`); got = new Map(); }
+  let out = String(md);
+  const unquoted = [];
+  for (const [i, q] of [...qs.entries()].reverse()) {
+    const en = got.get(i);
+    if (en && en !== "无" && enInTranscript(en, transcriptText)) continue;
+    out = out.slice(0, q.start) + q.inner + out.slice(q.end);
+    unquoted.push(q.inner);
+  }
+  return { md: out, kept: qs.length - unquoted.length, unquoted: unquoted.reverse() };
+}
+
 const SYSTEM = `你是中文科技编辑。下面每条是一篇中文精华正文里的一句话,括号里标了问题:
 - 「英文」:句中普通英文单词改成中文(人名、公司名、产品名、约定俗成的技术词如 token/API 照留英文);
 - 「过长」:这句超过 60 字,拆成两三个短句,每句 40 字左右。
@@ -386,7 +439,7 @@ function glm(input) {
   return m;
 }
 
-export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis, edit = glmEdit, heads = glmHeadings } = {}) {
+export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pickEmphasis = glmEmphasis, edit = glmEdit, heads = glmHeadings, findQuotes = glmQuotes } = {}) {
   const dPath = resolve(dir, "digest.json");
   const digest = JSON.parse(readFileSync(dPath, "utf8"));
   const meta = existsSync(resolve(dir, "meta.json")) ? JSON.parse(readFileSync(resolve(dir, "meta.json"), "utf8")) : {};
@@ -406,7 +459,19 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
 
   // ⓪ 编辑通读(讲给外行听;逐节守门,失败退回该节)
   let md = String(next.digest_md ?? "");
-  {
+  // C42:新写手(writer=v3)一口气写成,不再逐节改写/补小标题/拆句(补丁感正是用户嫌的);只核引语 + 人名统一 + 重点标注
+  const v3 = digest.writer === "v3";
+  let unq = [];
+  let quoted = null; // 去完引号的稿:后面整批回滚时退到这里,不退回带假引语的原稿
+  if (v3) {
+    const tr = JSON.parse(readFileSync(resolve(dir, "transcript.en.json"), "utf8"));
+    const r = verifyQuotes(md, tr.map((x) => x.text ?? "").join(" "), { find: findQuotes, log });
+    md = r.md;
+    unq = r.unquoted;
+    quoted = md;
+    log(`  ✎ 引语核对:保留 ${r.kept} 处原话,${unq.length} 处对不上原稿 → 去引号改转述`);
+    for (const x of unq) log(`     去引号:${x.slice(0, 40)}`);
+  } else {
     const writeMd = (m) => writeFileSync(dPath, JSON.stringify({ ...next, digest_md: m }));
     const knownText = [meta.title_en, ...(meta.guests ?? []), meta.host, next.title_zh, next.tldr].filter(Boolean).join(" ");
     const r = plainEdit(md, { dir, ctx: `${next.title_zh ?? ""}。${next.tldr ?? ""}`, gate, edit, baseKeys: beforeKeys, write: writeMd, log, knownText });
@@ -419,8 +484,8 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
     if (h.added) log(`  ✎ 补小标题:新增 ${h.added} 个`);
   }
 
-  // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子
-  const issues = sentenceIssues(md);
+  // ②③ 夹杂英文 / 长句 → GLM 只改被标出的句子(新写手不走)
+  const issues = v3 ? [] : sentenceIssues(md);
   const done = [];
   for (let k = 0; k < issues.length; k += 20) {
     const batch = issues.slice(k, k + 20);
@@ -446,13 +511,13 @@ export function polish(dir, { log = console.log, ask = glm, gate = gateFacts, pi
   next.digest_md = md;
 
   const plainChanged = md !== String(digest.digest_md ?? "");
-  if (!names.length && !done.length && !emph.length && !plainChanged) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
+  if (!names.length && !done.length && !emph.length && !plainChanged && !unq.length) { log(`  可读性修:无需改动(标出 ${issues.length} 句,改写 0 句被接受)`); return { changed: false }; }
   // 守门:事实层不许冒出新失败,否则整批回滚
   writeFileSync(dPath, JSON.stringify(next));
   const after = gate(dir);
   const fresh = after.failures.filter((f) => !beforeKeys.has(String(f.raw ?? f.name ?? f.reason)));
   if (fresh.length) {
-    writeFileSync(dPath, JSON.stringify(digest));
+    writeFileSync(dPath, JSON.stringify(quoted == null ? digest : { ...digest, digest_md: quoted }));
     log(`  ✗ 可读性修带出 ${fresh.length} 条新事实层失败 → 整批回滚`);
     return { changed: false, rolledBack: true };
   }
@@ -464,7 +529,7 @@ const isMain = (() => { try { return process.argv[1] && realpathSync(process.arg
 if (isMain) {
   const dir = process.argv[2];
   if (!dir) { console.error("用法: node scripts/polish-zh.mjs <集目录>"); process.exit(2); }
-  if (process.env.READABLE_V2 !== "1") { console.log("可读性修:READABLE_V2 未开(等用户看样张认可),跳过"); process.exit(0); }
+  if (process.env.READABLE_V2 !== "1" && process.env.DIGEST_V3 !== "1") { console.log("可读性修:READABLE_V2 / DIGEST_V3 都未开,跳过"); process.exit(0); }
   try { polish(resolve(dir)); } catch (e) { console.error(`⚠️ 可读性修异常(不阻塞发布):${e.message}`); }
   process.exit(0);
 }

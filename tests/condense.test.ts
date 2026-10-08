@@ -301,3 +301,26 @@ describe("drift #93 · 金句 EN| 前缀缺失 + ===正文--- 分隔符(关思�
     expect(r.quotes[0].en).toBe("only line");
   });
 });
+
+import { parseArticle, composeV3, validate } from "../scripts/condense.mjs";
+describe("C42 · 新写手:文章 + 金句拼回分段格式(用户 2026-10-08 两轮盲测选 GLM-5.3 一口气写)", () => {
+  const body = "这是开场。\n\n## 她为什么不怕老板?\n\n" + "正文内容讲清楚了。".repeat(40) + "\n\n## 本集带走\n\n- 一条";
+  const article = `# 公共媒体不该无聊\n导语:KCRW 台长 Jennifer Ferro 讲公共媒体怎么活下去。\n${body}`;
+  const quotes = "===金句===\n" + [1, 2, 3, 4].map((i) => `0${i}:00 | Jennifer Ferro\nEN | We try to lean to the chocolate cake ${i}.\nZH | 我们尽量偏向巧克力蛋糕 ${i}。`).join("\n\n") + "\n===END===";
+  it("★★★ 写手输出解析出标题/导语/正文;拼回后 parseSections + validate 全过", () => {
+    const a = parseArticle(article)!;
+    expect(a.title_zh).toBe("公共媒体不该无聊");
+    expect(a.tldr).toBe("KCRW 台长 Jennifer Ferro 讲公共媒体怎么活下去。");
+    expect(a.body.startsWith("这是开场。")).toBe(true);
+    const obj = parseSections(composeV3(article, quotes))!;
+    expect(validate(obj)).toEqual([]);
+    expect(obj.quotes).toHaveLength(4);
+    expect(obj.digest_md).toContain("## 她为什么不怕老板?");
+  });
+  it("★★ 缺标题或缺导语 → 不认(交重试);金句段外面多写的话剥掉", () => {
+    expect(parseArticle(body)).toBeNull();
+    expect(parseArticle(`# 标题\n${body}`)).toBeNull();
+    expect(parseSections(composeV3(`导语:x\n${body}`, quotes))).toBeNull();
+    expect(parseSections(composeV3(article, "好的,下面是金句:\n" + quotes))!.quotes).toHaveLength(4);
+  });
+});

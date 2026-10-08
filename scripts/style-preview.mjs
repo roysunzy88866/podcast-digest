@@ -21,10 +21,13 @@ for (const id of ids) {
   mkdirSync(dirname(work), { recursive: true });
   cpSync(src, work, { recursive: true });
   const old = JSON.parse(readFileSync(join(src, "digest.json"), "utf8"));
-  const env = { ...process.env, READABLE_V2: "1" };
-  for (const step of ["condense.mjs", "polish-zh.mjs"]) {
+  // C42:MODE=v3 → 新写手(GLM-5.3 读英文原稿一口气写)+ 轻量修,再跑一遍事实层核对看结果
+  const v3 = process.env.MODE === "v3";
+  const env = { ...process.env, READABLE_V2: "1", ...(v3 ? { DIGEST_V3: "1" } : {}) };
+  for (const step of ["condense.mjs", "polish-zh.mjs", ...(v3 ? ["gate-facts.mjs"] : [])]) {
     const r = spawnSync("node", [join(ROOT, "scripts", step), work], { cwd: ROOT, stdio: "inherit", env });
-    if (r.status !== 0) { console.error(`❌ ${id} ${step} 失败`); process.exit(1); }
+    if (r.status !== 0 && step !== "gate-facts.mjs") { console.error(`❌ ${id} ${step} 失败`); process.exit(1); }
+    if (step === "gate-facts.mjs") console.log(`事实层核对:${r.status === 0 ? "全过" : "没过(见上)"}`);
   }
   const neu = JSON.parse(readFileSync(join(work, "digest.json"), "utf8"));
   writeFileSync(join(OUT, `${id}.旧.md`), page(old, segmentBody(old.digest_md)));

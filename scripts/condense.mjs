@@ -14,10 +14,9 @@ const MAX_RETRY = 3;
 const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
 
 // maxTokens 16000:长集浓缩输出较大,给足余量防截断(短集到不了上限,无影响)。
-function glmAsk(system, input, maxTokens = 16000) {
+function glmAsk(system, input, maxTokens = 16000, model = process.env.CONDENSE_MODEL) {
   return new Promise((res, rej) => {
     // CONDENSE_MODEL 可单独 pin 浓缩模型(不设=走 glm-ask 默认);用于试/切模型而不动全局默认。
-    const model = process.env.CONDENSE_MODEL;
     const args = [...(model ? ["--model", model] : []), "--system", system, "--max-tokens", String(maxTokens)];
     const p = spawn("glm-ask", args, {
       stdio: ["pipe", "pipe", "pipe"],
@@ -227,6 +226,37 @@ export async function condenseWithRetry({ sys, input, ask, maxRetry = MAX_RETRY,
   return obj;
 }
 
+// ══ C42 / ADR 0028 新写法(2026-10-08 用户两轮盲测:GLM-5.3 一口气写 ≈ Claude 手写,现流水线最差)══
+// 正文:GLM-5.3 读英文原稿、按一页要求(prompts/write-digest.md)一口气写完;金句:另一次调用照旧规矩单独挑。
+// 两段拼回原分段格式,复用 parseSections/validate/styleErrs/缓存 —— 下游 digest.json 格式不变。开关 DIGEST_V3=1。
+const WRITER_MODEL = process.env.WRITER_MODEL || "glm-5.3";
+
+/** 写手输出(`# 标题` / `导语:…` / 正文)→ {title_zh, tldr, body};缺一样 → null(交重试)。 */
+export function parseArticle(text) {
+  const t = String(text ?? "").replace(/\r\n/g, "\n").trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim();
+  const title = t.match(/^#\s+(.+)$/m);
+  const lead = t.match(/^导语[::]\s*(.+)$/m);
+  if (!title || !lead) return null;
+  const body = t.slice(Math.max(title.index + title[0].length, lead.index + lead[0].length)).trim();
+  return body ? { title_zh: title[1].trim(), tldr: lead[1].trim(), body } : null;
+}
+
+/** 拼回分段格式;金句段只取块内容(模型多写的分隔符剥掉)。写手输出不合格 → 原样返回让 parseSections 判失败、走重试。 */
+export function composeV3(articleRaw, quotesRaw) {
+  const a = parseArticle(articleRaw);
+  if (!a) return String(articleRaw ?? "");
+  const q = String(quotesRaw ?? "").replace(/^[\s\S]*?===\s*金句\s*[=#-]+[ \t]*\n/, "").replace(/\n?===\s*END[\s\S]*$/, "").trim();
+  return `===标题===\n${a.title_zh}\n===导语===\n${a.tldr}\n===正文===\n${a.body}\n===金句===\n${q}\n===END===`;
+}
+
+/** 金句单挑的 system:沿用 condense.md 的金句规矩原文(A/A2/B 三节)+ 只出金句段的格式。 */
+function quotesSystem(isAsr) {
+  const full = readFileSync(resolve(ROOT, "prompts/condense.md"), "utf8");
+  const rules = full.slice(full.indexOf("## 金句(quotes)硬规矩"), full.indexOf("## 输出格式"));
+  return `你从一期播客的双语对齐转写稿里挑金句候选。\n\n${rules}\n## 输出格式\n只输出下面这一段,不要别的:\n===金句===\nmm:ss | 说话人\nEN | 逐字复制转写稿的英文原话\nZH | 忠实翻译原意\n\n(每条严格三行,条与条之间空一行,撒网 15-20 条)\n===END===` +
+    (isAsr ? "\n\n---\n" + readFileSync(resolve(ROOT, "prompts/condense-asr.md"), "utf8") : "");
+}
+
 // ── 先校验后写(与 judge-quotes / repair-quotes 同一纪律;C2 交付物审计:本脚本此前是唯一没照做的)──
 //   此前三重毛病(审计给了干净复现):
 //   ① writeFileSync(digest.json) 在校验之前 → 坏输出把仓库里的好稿冲掉才 exit 1
@@ -252,7 +282,9 @@ async function main() {
   const bilingual = tr.filter((s, i) => !blocked.has(s.seg ?? i)).map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en} ‖ ${s.zh}`).join("\n");
   const INPUT = `以下是本集完整双语对齐转写稿(每段:[时间戳 说话人] 英文 ‖ 中文)。整读后按 system 要求浓缩输出 JSON。\n\n${bilingual}`;
 
-  const cacheFile = resolve(ROOT, DIR, ".digest-raw.txt");
+  const v3 = process.env.DIGEST_V3 === "1";
+  // C42:新写法单独一份缓存 —— 不吃旧写法的缓存(重做/补活的集带着旧缓存,吃了就成「旧稿打新标」)
+  const cacheFile = resolve(ROOT, DIR, v3 ? ".digest-raw.v3.txt" : ".digest-raw.txt");
   const badCacheFile = resolve(ROOT, DIR, ".digest-raw.bad.txt");
   let obj = null;
 
@@ -270,11 +302,23 @@ async function main() {
     }
   }
 
+  // C42:新写法 —— 写手读英文原稿,金句另挑,两段拼回分段格式后走同一套校验/缓存
+  const english = tr.filter((s, i) => !blocked.has(s.seg ?? i)).map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en}`).join("\n");
+  const meta0 = existsSync(metaPath0) ? JSON.parse(readFileSync(metaPath0, "utf8")) : {};
+  const askV3 = async (_sys, nudge) => {
+    // 重试提示换成写手听得懂的话(原 nudge 讲的是旧分隔符格式)
+    const why = (String(nudge).match(/原因:(.*?)。请照/) ?? [])[1];
+    const retry = why ? `\n\n【上一次的稿子没通过检查,原因:${why}。请照要求和输出格式重写。】` : "";
+    const article = await glmAsk(readFileSync(resolve(ROOT, "prompts/write-digest.md"), "utf8"), `节目:${meta0.podcast ?? ""}\n英文标题:${meta0.title_en ?? ""}\n\n${english}${retry}`, 32000, WRITER_MODEL);
+    const quotes = await glmAsk(quotesSystem(isAsr), `以下是本集完整双语对齐转写稿(每段:[时间戳 说话人] 英文 ‖ 中文)。\n\n${bilingual}`);
+    return composeV3(article, quotes);
+  };
+
   if (!obj) {
     obj = await condenseWithRetry({
       sys: SYS,
-      input: INPUT,
-      ask: glmAsk,
+      input: v3 ? "" : INPUT,
+      ask: v3 ? askV3 : glmAsk,
       label: ` ${tr.length} 段双语稿`,
       saveGood: (raw) => writeFileSync(cacheFile, raw), // ← 只缓存合格产物
       saveBad: (raw) => writeFileSync(badCacheFile, raw), // 坏输出单独留档排障,**不参与缓存命中**
@@ -288,6 +332,7 @@ async function main() {
   }
 
   // 到这里必定已通过校验,才写、才敢打 ✅
+  if (v3) obj.writer = "v3"; // C42:标记新写手的稿 → gate-facts 对它加查中文数字/约数,polish-zh 走新写法的轻量修
   writeFileSync(resolve(ROOT, DIR, "digest.json"), JSON.stringify(obj, null, 2));
   // C5.1:中文标题写回 meta.title_zh(列表卡/集页/feed 的显示标题;refresh 翻新存量同样走这里)
   const metaPath = resolve(ROOT, DIR, "meta.json");

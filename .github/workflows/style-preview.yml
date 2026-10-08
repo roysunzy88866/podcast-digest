@@ -7,7 +7,7 @@ on:
         description: "逗号分隔的集 id"
         required: true
       mode:
-        description: "v2=新写法重做(默认) / plain=写手对照实验 B 版(一页要求、读英文原稿一口气写)"
+        description: "v2=新写法重做(默认) / plain=写手对照实验 B 版 / v3=新写手正式版(C42)"
         required: false
         default: "v2"
 permissions:
@@ -15,7 +15,7 @@ permissions:
 jobs:
   preview:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

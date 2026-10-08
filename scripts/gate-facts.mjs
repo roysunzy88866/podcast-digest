@@ -414,6 +414,64 @@ export function extractDigestNumbers(md) {
 }
 
 /**
+ * C42 · 中文写的数字(硬拦)。[standard-change: 用户授权 2026-10-08,换写手验收标准 ②]
+ * 两轮写手盲测实证:豆包把数字全写成中文(百分之五/一千五百万)→ 上面的阿拉伯数字抽取「数字 0 条」照过;
+ * DeepSeek Flash 自推「待了三十来年」也漏过。只收 ≥10 的(「一个/两人/三件事」这类小数是日常说法,硬拦必天天误报),
+ * 跳过不带单位的连写(一两/三四 = 约数)和「千万/万一」这类非数字用法。
+ */
+const CN_D = { 零: 0, 〇: 0, 一: 1, 二: 2, 两: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
+const CN_U = { 十: 10, 百: 100, 千: 1000 };
+export function cnToNumber(str) {
+  let big = 0, sec = 0, d = 0;
+  for (const ch of String(str)) {
+    if (ch in CN_D) d = CN_D[ch];
+    else if (ch in CN_U) { sec += (d || 1) * CN_U[ch]; d = 0; }
+    else if (ch === "万") { big += (sec + d) * 1e4; sec = 0; d = 0; }
+    else if (ch === "亿") { big = (big + sec + d) * 1e8; sec = 0; d = 0; }
+  }
+  return big + sec + d;
+}
+const CN_NUM_SKIP = new Set(["千万", "万一", "万万", "一一", "千千万万"]);
+export function extractChineseNumbers(md) {
+  const out = [];
+  const text = String(md);
+  const push = (raw, v, idx, len) => {
+    // 中文常把 1500 万写成「一千五百万」、原稿是 15 million → 缩放后的几种「前缀值」任一命中即过(同阿拉伯数字的万/亿口径)
+    const values = [v, ...[1e3, 1e4, 1e6, 1e8, 1e9].filter((k) => v >= k && v % k === 0).map((k) => v / k)];
+    out.push({ value: v, values, raw, ctx: text.slice(Math.max(0, idx - 14), idx + len + 14).replace(/\n/g, " ") });
+  };
+  for (const m of text.matchAll(/百分之([零〇一二两三四五六七八九十百千]+)/g)) push(m[0], cnToNumber(m[1]), m.index, m[0].length);
+  const rest = text.replace(/百分之[零〇一二两三四五六七八九十百千]+/g, (x) => " ".repeat(x.length));
+  for (const m of rest.matchAll(/[零〇一二两三四五六七八九十百千万亿]{2,}/g)) {
+    const raw = m[0];
+    if (CN_NUM_SKIP.has(raw) || /^[零〇一二两三四五六七八九]+$/.test(raw)) continue;
+    const v = cnToNumber(raw);
+    if (v <= 12 && rest[m.index + raw.length] === "月") continue; // 十一月/十二月 是月份名,原稿写 November
+    if (v >= 10) push(raw, v, m.index, raw.length);
+  }
+  return out;
+}
+
+/** C42 · 约数要有原稿依据(硬拦,同上授权):「数十年/几十个/几百万」原稿得真有 dozens/hundreds/millions 这类说法,
+ *  否则就是模型自己估的(盲测实证:Sonnet「几十个频道」原话是约 80 个;Gemini「数十年」原稿无)。其余模糊量词仍只提醒。 */
+const VAGUE_HARD = [
+  [/[几数][十百千]?亿/, ["billion", "billions"]],
+  [/[几数][十百千]?万/, ["thousand", "thousands", "million", "millions"]],
+  [/[几数]千/, ["thousand", "thousands"]],
+  [/[几数]百/, ["hundred", "hundreds"]],
+  [/[几数]十/, ["dozen", "dozens", "tens"]],
+];
+export function checkVagueNumbers(md, tokens) {
+  const out = [];
+  for (const m of String(md).matchAll(/[几数][十百千]?[十百千万亿]/g)) {
+    const rule = VAGUE_HARD.find(([re]) => re.test(m[0]));
+    const hit = rule[1].some((w) => tokens.has(w));
+    out.push({ raw: m[0], pass: hit, reason: hit ? null : `约数「${m[0]}」原稿里没有对应说法(${rule[1].join("/")}),疑为自行估算` });
+  }
+  return out;
+}
+
+/**
  * 时间戳的分秒是**溯源坐标不是事实数字**(D8 单独查)→ D17 数字比对前剔掉。
  *
  * ⚠️ 只剥**时间本身**,绝不剥整个括号。首版剥的是整块 `\[[^\]]*\d{1,2}:\d{2}[^\]]*\]`,
@@ -633,7 +691,7 @@ const REAL_PROPER_NOUNS = new Set([
  * @param md 完整待检文本(D8 时间戳查全文,含【背景】)
  * @returns { nounResults, numResults, tsResults, vague, failures }
  */
-export function checkProse(md, ctx, aliases) {
+export function checkProse(md, ctx, aliases, { cnNumbers = false } = {}) {
   // D17 作用域:去【背景】(声明过的 AI 补充)、去时间戳坐标、去数字成语(都不是对本集的事实断言)
   const body = stripNumericIdioms(stripTimestamps(stripBackground(md)));
 
@@ -664,7 +722,8 @@ export function checkProse(md, ctx, aliases) {
   }
 
   // ② D17 确定数字(硬拦)
-  const numResults = extractDigestNumbers(body).map((n) => {
+  // C42:中文数字/约数硬拦只对新写手的稿生效(存量 668 集里 89 集会被「几十」等打红,存量不动)
+  const numResults = [...extractDigestNumbers(body), ...(cnNumbers ? extractChineseNumbers(body) : [])].map((n) => {
     const hit = (n.values ?? [n.value]).some((v) => ctx.numbers.has(v));
     return { ...n, pass: hit, reason: hit ? null : `数字 ${n.raw} 未在真相源出现(疑编造)` };
   });
@@ -680,6 +739,7 @@ export function checkProse(md, ctx, aliases) {
   const failures = [
     ...nounResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-专名", ...r })),
     ...numResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
+    ...(cnNumbers ? checkVagueNumbers(body, ctx.tokens) : []).filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
     ...tsResults.filter((r) => !r.pass).map((r) => ({ kind: "D8-时间戳", ...r })),
   ];
   return { nounResults, nounSoft, numResults, tsResults, vague, speakerWarn, failures };
@@ -712,7 +772,7 @@ export function gateFacts(dir, { aliasesPath } = {}) {
     return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest_md 为空 —— 判不了 = 不过" }] };
 
   // 核心比对(与实体 how_described 共用同一份组合,防漂移)
-  const { nounResults, nounSoft, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases);
+  const { nounResults, nounSoft, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases, { cnNumbers: digest.writer === "v3" });
 
   // change 2(用户 AskUserQuestion 选「坏集只隔离」):实体 how_described 事实层**逐集**跑(与导读同源 checkProse),
   // 一条实体描述编造数字/专名 = 本集失真 → 本集不过、交 main 隔离,不漏到批级实体层一条连坐整批(run 29801188491:04-05 Anthropic「190亿」)。

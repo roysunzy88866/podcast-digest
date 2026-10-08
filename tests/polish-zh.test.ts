@@ -269,3 +269,42 @@ describe("C41 · 编辑通读:模型抄回输入标签(样张实证 KCRW 冒出�
     expect(editVerdict(orig, "## 新标题\n" + orig)).toMatch(/新加了标题行/);
   });
 });
+
+import { verifyQuotes, enInTranscript, bodyQuotes } from "../scripts/polish-zh.mjs";
+describe("C42 · 引号只给原话(盲测实证:GLM 简化版带走里编了整句引语)", () => {
+  const T = "We try to lean to the chocolate cake. Just because it's public doesn't mean it needs to be boring.";
+  const md = "她说:「我们尽量偏向巧克力蛋糕。」\n\n- 「你是替我们所有人守护真相的人。」\n- 名词「过桥基金」不算引语";
+  it("★★★ 找到原句且逐字在原稿 → 保留;对不上/模型说无/模型编英文 → 去引号,字一个不少", () => {
+    const find = () => new Map([[0, "We try to lean to the chocolate cake."], [1, "You are the guardian of truth for all of us."]]);
+    const r = verifyQuotes(md, T, { find });
+    expect(r.md).toContain("「我们尽量偏向巧克力蛋糕。」");
+    expect(r.md).toContain("- 你是替我们所有人守护真相的人。");
+    expect(r.unquoted).toEqual(["你是替我们所有人守护真相的人。"]);
+    expect(bodyQuotes(md)).toHaveLength(2); // 短名词引号不算引语
+  });
+  it("★★★ 调用失败 → 全部按转述去引号(判不了 = 不当原话)", () => {
+    const r = verifyQuotes(md, T, { find: () => { throw new Error("x"); } });
+    expect(r.kept).toBe(0);
+    expect(r.md).not.toMatch(/「[^」]*。」/);
+  });
+  it("★★ 英文原句判定:≥4 词、整词连续出现", () => {
+    expect(enInTranscript("doesn't mean it needs to be boring", T)).toBe(true);
+    expect(enInTranscript("cake", T)).toBe(false);
+    expect(enInTranscript("it needs to be fun", T)).toBe(false);
+  });
+});
+
+describe("C42 · 新写手的稿只做轻量修:不逐节改写、不补小标题、不拆句", () => {
+  it("★★★ writer=v3 → edit/heads/ask 都不调;核引语 + 重点标注照做", () => {
+    const dir = mkdtempSync(join(tmpdir(), "pd-polish-v3-"));
+    const t = "We try to lean to the chocolate cake.";
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify([{ text: t, start: 0, end: 9, words: t.split(" ").map((w, i) => ({ word: w, start: i, end: i + 1, speaker: "S" })) }]));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify({ id: "x", speaker_map: {} }));
+    writeFileSync(join(dir, "digest.json"), JSON.stringify({ writer: "v3", tldr: "t", title_zh: "t", digest_md: "她说「我们尽量偏向巧克力蛋糕,而不是西兰花。」这句话 funding 很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长。", quotes: [] }));
+    const boom = () => { throw new Error("不该调"); };
+    const r = polish(dir, { log: () => {}, pickEmphasis: () => [], edit: boom, heads: boom, ask: boom, findQuotes: () => new Map([[0, "无"]]) });
+    expect(r.changed).toBe(true);
+    const out = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8")).digest_md;
+    expect(out).toContain("她说我们尽量偏向巧克力蛋糕,而不是西兰花。这句话");
+  });
+});
