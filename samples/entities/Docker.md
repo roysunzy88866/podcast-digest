@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(12:38起):Ollama 两位创始人的老东家,他们在 Docker 做了 Docker Desktop、学会什么是好的开发者体验;Docker 当年变现迟缓的教训也被本集引用。
 - **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(05:48起):本集说 NanoClaw 用 Docker 容器来运行智能体进程,使它们没法在系统里横冲直撞;树莓派上还跑着一个基于 Docker 的小型 Neo4j 数据库。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(00:27起):本集嘉宾所在公司,推出了新的沙箱产品 SBX(一个微型虚拟机二进制程序),且公司内部每个开发者现在都强制在沙箱里写代码。
-- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]]**(05:29起):本集用 Docker 作对比：Docker 启动镜像要先构建再执行启动命令，E2B 则是从「一切已在运行」的快照状态恢复；答疑里听众问沙箱会不会出现 Docker 那样的生态。
+- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(05:29起):本集用 Docker 作对比：Docker 启动镜像要先构建再执行启动命令，E2B 则是从「一切已在运行」的快照状态恢复；答疑里听众问沙箱会不会出现 Docker 那样的生态。
 
 ## ① 提到它的金句
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为被讨论公司
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
-- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]] — 作为概念(提及)
+- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
 
 ## ③ 关联
 

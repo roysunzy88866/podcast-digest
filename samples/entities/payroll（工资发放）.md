@@ -17,7 +17,7 @@ unlisted: true
 
 *1 条*
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q9]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q6]]
 
 ## ② 出现在这些集
 

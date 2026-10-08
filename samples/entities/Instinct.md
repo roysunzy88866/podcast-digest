@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(02:54起):本集主线:Noah 一年前创办的公司,做一个没有 App 的个人助理——只有一部手机和一台电脑,可以给它发短信、邮件、打电话,它也会主动打给你;年交易量已接近超 10 亿美元,最新一轮融资约 10 亿美元、估值约 100 亿美元。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(02:41起):最近引爆科技推特的通用消费级智能体，免费的、占主导地位的产品之一，用智能体网络的方式让智能体在幕后代表用户交流
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(06:33起):本集说 Instinct 是另一大消费助手，约 10 万用户、日增 10%，前三周 40% 的用户绑了信用卡，首月平均消费超 1000 美元。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:32起):本集说它是智能体/个人助手领域的早期创业公司，不建新应用而是复用你已有的聊天工具发消息，并在后端替你办事，几个月融了三轮、估值可能已达 100 亿美元。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:32起):本集说它是智能体/个人助手领域的早期创业公司，不建新应用而是复用你已有的聊天工具发消息，并在后端替你办事，几个月融了三轮、估值可能已达 100 亿美元。
 
 ## ① 提到它的金句
 
@@ -39,7 +39,7 @@ unlisted: true
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联
 

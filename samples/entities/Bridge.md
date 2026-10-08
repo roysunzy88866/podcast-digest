@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(11:52起):本集说 Bridge 是 Stripe 过去几年收购的公司之一，Zach 在领导 Bridge 相关工作。
 - **[[2026-08-18-generalist-38x-in-ten-months-inside-one-of-fintechs|《稳定币是把现金的好处找回来：RAIN CEO Farouk 谈货币的重建》]]**(59:37起):本集顺带提到 Stripe 收购了 Bridge，作为其对稳定币领域兴趣的证据，一笔带过。
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(11:42起):本集说 Bridge 是 Stripe 在 crypto 领域的收购,团队 crypto-native,给 Stripe 文化注入了这种特质。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(11:42起):本集说 Bridge 是 Stripe 在 crypto 领域的收购,团队 crypto-native,给 Stripe 文化注入了这种特质。
 
 ## ① 提到它的金句
 
@@ -29,7 +29,7 @@ unlisted: true
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
 - [[2026-08-18-generalist-38x-in-ten-months-inside-one-of-fintechs|《稳定币是把现金的好处找回来：RAIN CEO Farouk 谈货币的重建》]] — 作为概念(提及)
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联
 

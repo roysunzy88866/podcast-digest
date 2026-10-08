@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(01:47起):本集反复强调数千卡规模下 GPU 故障不可避免,手动修复不可持续,应以自动化架构让故障自主恢复。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(01:47起):本集反复强调数千卡规模下 GPU 故障不可避免,手动修复不可持续,应以自动化架构让故障自主恢复。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 
 ## ③ 关联
 

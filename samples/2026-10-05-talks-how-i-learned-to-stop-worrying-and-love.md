@@ -1,12 +1,12 @@
 ---
-title: 沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维
+title: 让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏
 podcast: 精选演讲
 date: 2026-10-08
 source_url: undefined
 duration: "59:18"
 type: episode
 cover: "#64748b"
-description: E2B 工程师 Matt 以一场夺旗赛(CTF)工作坊，带你上手智能体沙箱：快照启动、生命周期管理、孤儿进程与磁盘爆满的实战排查。
+description: E2B 工程师 Matt Brockman 用一场闯关式工作坊，讲清 AI 时代为什么需要沙盒、以及管好沙盒到底有多难。
 guests: ["[[Matt Brockman]]"]
 companies: ["[[E2B]]"]
 concepts: ["[[沙箱]]", "[[智能体]]", "[[快照]]", "[[模板]]", "[[孤儿进程]]", "[[生命周期]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love#post","headline":"沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love","description":"E2B 工程师 Matt 以一场夺旗赛(CTF)工作坊，带你上手智能体沙箱：快照启动、生命周期管理、孤儿进程与磁盘爆满的实战排查。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Brockman"},{"@type":"Organization","name":"E2B"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"快照 (snapshot)"},{"@type":"Thing","name":"模板 (template)"},{"@type":"Thing","name":"孤儿进程 (orphans)"},{"@type":"Thing","name":"生命周期 (lifecycle)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维","item":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love#post","headline":"让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love","description":"E2B 工程师 Matt Brockman 用一场闯关式工作坊，讲清 AI 时代为什么需要沙盒、以及管好沙盒到底有多难。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Brockman"},{"@type":"Organization","name":"E2B"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"快照 (snapshot)"},{"@type":"Thing","name":"模板 (template)"},{"@type":"Thing","name":"孤儿进程 (orphans)"},{"@type":"Thing","name":"生命周期 (lifecycle)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏","item":"https://talk.solomind.cc/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维
+# 让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏
 
 <div class="pd-byl"><b>Matt Brockman</b> · E2B 工程师 · 2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-talks-how-i-learned-to-stop-worrying-and-love.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。</div><div class="a">— Matt Brockman <button class="pd-ts" data-t="40:01" data-who="Matt Brockman" data-en="Actually, I think a lot of sandbox management ends up being killing orphans." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">别只让它替你写代码。</div><div class="a">— Matt Brockman <button class="pd-ts" data-t="18:29" data-who="Matt Brockman" data-en="Don't just let it code for you." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Matt Brockman]]
@@ -35,113 +35,95 @@ jsonLd: |
 >
 > **概念** [[沙箱]] · [[智能体]] · [[快照]] · [[模板]] · [[孤儿进程]] · [[生命周期]]
 
-这一集不是访谈，而是一场动手工作坊：
+如果你用过 Codex 或 Claude Code,你可能已经体验过让 AI 在自己电脑上随便跑的恐怖：
 
-[[E2B|E2B]] 工程师 Matt(他开场自我介绍「我是 Matt,E2B 的一名工程师,我们做[[沙箱|沙箱]]」)在一场线下活动里，带着全场听众用一场夺旗赛(Capture the Flag,CTF,一关一关解题解锁下一关的形式)实战演练「运行[[智能体|智能体]]沙箱时会遇到的真实问题」。
+它可能吃光你的处理器、删掉不该删的文件、甚至读取你的环境变量。
 
-所有关卡都跑在沙箱里——用他自己的话说，「沙箱套沙箱，层层往下都是沙箱」。
+[[Matt Brockman|Matt Brockman]] 是 [[E2B|E2B]] 的工程师，这家公司做的事叫沙盒——一个隔离的环境，让不受信任的代码在里头随便折腾，而不伤害外面的人和系统。
 
-## 沙箱是什么，为什么要沙箱
+在这场工作坊里，他带着现场观众玩了一场夺旗游戏：解开一关，才能进入下一关。每一关，都是运行沙盒时会真实踩到的坑。
 
-Matt 先把概念讲清：沙箱(sandbox)就是让你能运行特定用户的代码、而不会干扰其他用户的环境。传统 web 技术栈里用户只是看静态页面；
+## 沙盒到底是什么，为什么 AI 时代突然需要它
 
-而现在有了智能体(agent,能自主干活的 AI),它要写代码、执行任务，直接跑在你自己电脑上很危险——Claude Code、Codex 这类工具给它全部权限，它可能耗尽 CPU、派生一堆进程、删掉不该删的东西、甚至去读环境变量里的密钥。
+传统网站是静态的：用户看页面，服务器跑自己的代码，两边泾渭分明。
 
-放到服务器上也有同样的问题：服务器上有你的密钥和环境。所以要把智能体的代码放进隔离的沙箱里跑。<button class="pd-ts" data-t="02:56" data-who="嘉宾" data-en="So what are sandboxes? Sandboxes are basically let you run user-specific code without messing with other users, right? So a lot of the time, with your traditional web stack, you'd be like, hey, here's a web page." aria-label="回原文"></button>
+但现在情况变了——你有一批用户想跑自己的代码，更麻烦的是，AI [[智能体|智能体]]也开始写代码、跑代码。
 
-E2B 对沙箱有几个核心设计。第一是快：他们的目标是 100 毫秒内启动一个沙箱，这样你可以同时跑很多个。<button class="pd-ts" data-t="04:19" data-who="嘉宾" data-en="Also, one thing that's a little bit different, the way that we view sandboxes and other things, is that sandboxes, you want to be able to very quickly spin these up." aria-label="回原文"></button> 第二是[[快照|快照]]：
+直接在本地跑？风险前面说了。放到服务器上？服务器上有你的密钥、你的环境，一样危险。
 
-像合上笔记本再打开、一切还在原处一样，他们对内存和文件系统都做快照，暂停时全部存到存储里，恢复时原样回来。
+沙盒的思路是：给这些代码一个一次性的、隔离的小房间，跑完就丢，怎么折腾都出不了门。<button class="pd-ts" data-t="03:08" data-who="嘉宾" data-en="You can go do stuff. You know, maybe you had users that could code, and what they wanted to be able to do is use something like CoLab, where you go in there and you can, you know, play around." aria-label="回原文"></button>
 
-这对智能体尤其重要——智能体不知道时间流逝了，它回来时期待一切和离开时一模一样，快照能大幅减少报错。<button class="pd-ts" data-t="05:02" data-who="嘉宾" data-en="Agents especially, right, so you've got an agent working away, maybe it has to go do some sort of process elsewhere, and then it wants to come back to the state it was in." aria-label="回原文"></button>
+E2B 的核心指标是速度：他们的目标是不到 100 毫秒就能启动一个沙盒。这个数字很关键，因为你可能需要同时跑几十上百个。
 
-实现方式也和 Docker 不同：Docker 启动镜像时要先构建、再执行启动命令；
+## 沙盒的秘诀：先启动，再拍快照
 
-E2B 是先把进程都跑起来，然后连内存带磁盘整体存进 RAM 做快照，之后每次都「从一切已在运行的状态」恢复。
+和 Docker 的思路不同。Docker 镜像启动时才执行启动命令，一步步搭环境；
 
-所以他们的[[模板|模板]](template)本质上就是一个「做了快照的虚拟机」——Matt 提前启动一个 VM、跑好夺旗赛的进程、存成模板，全场两百人等于同时复用同一个沙箱的不同副本。
+E2B 则是反过来——先把所有进程跑起来，然后把内存和文件系统整体拍成[[快照|快照]]存下来，之后随时从这个状态恢复。<button class="pd-ts" data-t="05:22" data-who="嘉宾" data-en="So yeah, the way our approach to these sandboxes is basically we start the processes first and then we, as I just said before, we're saving the disk in RAM and we're resuming sandboxes from that state." aria-label="回原文"></button>
 
-他点出这种玩法的使用场景：数据科学里一个数据框要跑五个实验，fork 成五个沙箱并行跑就行。<button class="pd-ts" data-t="17:04" data-who="嘉宾" data-en="So a template for us is that snapshotted VM. And so what we've done is we started a VM, ran a bunch of processes to start to capture the flag, and then we saved this as this template, which means all of you are basically taking that sandbox that I'd started before, and then you're starting it where I'd resumed it, right?" aria-label="回原文"></button>
+这带来一个很实用的能力：暂停和恢复。
 
-另外 E2B 是开源的，后端主要用 Go 写(所以他现场顺带招 Go 工程师)，SDK 有 Python 和 JavaScript 两版。
+智能体出去干别的活，回来时房间还是它离开时的样子，它甚至不知道时间过去了，出错率自然就低。<button class="pd-ts" data-t="05:02" data-who="嘉宾" data-en="Agents especially, right, so you've got an agent working away, maybe it has to go do some sort of process elsewhere, and then it wants to come back to the state it was in." aria-label="回原文"></button>
 
-## 夺旗赛：四个入门关卡
+这个快照就是 E2B 说的[[模板|模板]]。Matt 之前把整个工作坊环境跑起来、存成模板，现场直接复制出大约 200 份给观众用。
 
-前几关不用写代码，练的是 Linux 基本功，对应「让 AI 在沙箱里跑代码时最常见的故障」：
+同理，做数据科学的人可以把一个装好数据的状态分叉成 5 份，并行跑 5 个实验。
 
-- **CPU 失控进程**：AI 写出的代码经常吃满 CPU。用 top 类工具看到有个进程占了 99.7% 的 CPU,找到进程 ID,kill 掉,过关。<button class="pd-ts" data-t="19:14" data-who="嘉宾" data-en="We've got instructions how to find what's taking up CPU, right? And so we can list here, hey, what's going on? And we have this process up here that's been running for a bit, taking up 99.7% of our CPU that we probably should kill." aria-label="回原文"></button>
-- **内存爆掉**：同样思路，查什么占了内存、杀掉。Matt 顺带讲了资源权衡：CPU 多跑得快、CPU 少跑得慢；而管大规模实例集群时，你能用的 CPU 和内存是有配额限制的，要想着怎么把内存利用率压到最低。<button class="pd-ts" data-t="20:57" data-who="嘉宾" data-en="Let's say, you know, there's a tradeoff between if you have multiple CPUs, you're gonna run faster, fewer CPUs is gonna go slower. Also in terms of resource utilization, one of the things that you start to run into with fleets is you have limited quotas on how many CPUs and how much RAM you're able to have for your instances." aria-label="回原文"></button>
-- **磁盘填满**：所有资源都是有限的，迟早有东西会把磁盘撑爆。用提示区给的脚本扫出是 /temp 下一个 512 兆的 .bin 文件占满了空间，把路径贴进检查器、点清理即可。这一关 Matt 自己现场演示翻车了两次(本该贴路径却把文件删了)，靠「重新加载快照按钮」一键重来——他顺势强调：沙箱的好处就是坏了随时能从快照重启一个新副本。<button class="pd-ts" data-t="26:36" data-who="嘉宾" data-en="Disk fill path. OK, one second. So you've gotten to disk fill level four?" aria-label="回原文"></button>
+## AI 写的代码，最喜欢干的三件坏事
 
-小插曲：现场 Wi-Fi 出了问题，Matt 分享的偏方是「连上后断开重连，就会从一格信号变五格——我也不知道为什么管用」。
+工作坊的前几关不需要写代码，全是排查真实故障。
 
-## 进阶：沙箱生命周期管理
+第一件：吃光处理器。AI 写出的程序经常出现一个进程占着 99.7% 的处理器不放，你得学会找到它、杀掉它。<button class="pd-ts" data-t="18:19" data-who="嘉宾" data-en="And then your local codex, Claude Code, whatever, it can be like, hey, stuck these in an environmental file, use E2B to go talk to the sandbox and solve the challenge for me." aria-label="回原文"></button>
 
-简单关卡之后，教程转入沙箱[[生命周期|生命周期]]——Matt 说，沙箱运维的很多工作就是围绕「沙箱该活多久」展开的。<button class="pd-ts" data-t="31:31" data-who="嘉宾" data-en="We're shutting it down for you. Or actually, if they're doing, anyway, TLDR, for sandboxes, a lot of what you're doing is looking around the lifecycle of the sandbox." aria-label="回原文"></button>
+第二件：撑爆内存。沙盒的处理器和内存都是有限额的，尤其当你管理成百上千个沙盒时，配额就是钱。
 
-**生命周期权衡**：
+第三件：塞满磁盘。同样是找到那个占了几百兆的文件，删掉，腾出空间。
 
-假设你有几千上万个用户，每人来了都给一个沙箱——如果大多数人进来试一下就走，你就是在为永远没人用的沙箱烧资源。
+这三件事听起来简单，但 Matt 说，准备这个工作坊时他们自己就反复踩坑——AI 写的代码总是「做出你意料之外的事」。
 
-但也有人跑长任务(数据科学、网页抓取)，你不知道任务会跑多久。他给出的策略是：
+## 管一千个沙盒，麻烦才刚刚开始
 
-给沙箱足够长的运行时间让任务跑完(比如一小时)，任务一旦完成就把超时调到一分钟——短超时期间用户还能下指令，之后沙箱自动关闭，资源释放给别人。<button class="pd-ts" data-t="33:06" data-who="嘉宾" data-en="So it's how do you get that trade-off between how long you keep the sandboxes sitting around versus not eating money into the sun? So with this task, what we're going to do is we're going to take an approach to our sandbox management where what we're going to do is we're going to give sandboxes a really long time to live." aria-label="回原文"></button>
+一个沙盒很好管。几百上千个，问题就换了模样。
 
-他总结成速度与成本的权衡：沙箱在运行，速度快但贵；暂停了就便宜(暂停的不计费，可以挂很多个)；
+最典型的是[[生命周期|生命周期]]：沙盒开多久？给太久，资源浪费钱；关太快，用户回来还得重跑一遍。
 
-如果 CPU 配额有限，能同时跑的沙箱数就上不去。<button class="pd-ts" data-t="36:33" data-who="嘉宾" data-en="Yeah, speed matters, right? And so it's all these things you end up dealing with like a speed versus cost trade-off, where if a sandbox is running, things are fast." aria-label="回原文"></button> 有听众问长驻服务怎么办，他答：
+Matt 给出的策略是分两段——任务运行期间给足时间(比如一小时)，任务一结束就把超时缩到一分钟：
 
-想要持久化、长期运行的守护进程，沙箱可能不是最佳选择——能跑一天，但有更便宜、更传统的做法；
+用户可能还会发下一条命令，稍等片刻；没有就自动关掉，把资源让给别人。<button class="pd-ts" data-t="33:15" data-who="嘉宾" data-en="So with this task, what we're going to do is we're going to take an approach to our sandbox management where what we're going to do is we're going to give sandboxes a really long time to live." aria-label="回原文"></button>
 
-在沙箱里跑 web 服务完全可行，只是在 CDN 那类优化上不到位。<button class="pd-ts" data-t="37:11" data-who="嘉宾" data-en="And it uses the sandbox and it's gonna, so that's where it's, yeah. Yeah, okay, so if you're talking demons where it's like you want something that's persistent and long running, sandbox may not be the best thing to do there." aria-label="回原文"></button>
+另一个高频问题是[[孤儿进程|孤儿进程]]。
 
-**[[孤儿进程|孤儿进程]]**：反复复用同一个沙箱，一定会积累孤儿进程(你启动后走开、没人管的进程)，越攒越多，拖垮性能。
+因为沙盒会暂停再恢复，而不是每次换新环境，那些忘了清理的进程会一直躺在那儿，越积越多，拖垮性能。
 
-他给了本集最有共鸣的一句判断：「实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。」
+Matt 的原话很直白：很多沙盒管理工作，归根结底就是杀孤儿进程。<button class="pd-ts" data-t="40:03" data-who="嘉宾" data-en="Actually, I think a lot of sandbox management ends up being killing orphans. You end up with, a lot of the time also is related to this, is when you start up sandboxes, you need to keep track of them." aria-label="回原文"></button>
 
-<button class="pd-ts" data-t="40:01" data-who="嘉宾" data-en="So a lot of times what you have to do is you have to come in and try to figure out how do I kill my orphans. Actually, I think a lot of sandbox management ends up being killing orphans." aria-label="回原文"></button> 关卡里三个孤儿进程都叫 orphan worker(他承认现实中进程不会起这么好找的名字),逐个 kill,页面检测到清干净就给下一关的钥匙。
+还有路由问题：最天真的做法是来一个用户发一个新沙盒，结果没人用的沙盒堆成山。
 
-相关问题是沙箱本身也会「失管」：启动的沙箱必须跟踪，丢了跟踪就要想办法找出那些不再管理的沙箱、回收资源。<button class="pd-ts" data-t="40:12" data-who="嘉宾" data-en="You end up with, a lot of the time also is related to this, is when you start up sandboxes, you need to keep track of them. And if you lose track of your sandboxes, you need to figure out how do I go find the sandboxes that I'm not managing anymore and make sure that I remove those resources." aria-label="回原文"></button>
+正确做法是记好哪个用户配哪个沙盒，重复利用。
 
-**工作区(用户与沙箱的绑定)**：第一道写代码的题。朴素的沙箱管理是轮询分发——谁来了给一个，不记录归属。
+## 现场观众都在拿沙盒干什么
 
-要改成按用户绑定：用一个 assignments 字典做「用户 → 沙箱 ID」的映射，来过的用户每次回到同一个专属沙箱。
+提问环节很能说明行业现状。有人在生产环境跑智能体工作负载；
 
-Matt 说生产上的正规做法是落数据库，把分配记录持久化，方便回头查「是不是给用户重复分配了太多沙箱」。<button class="pd-ts" data-t="44:01" data-who="嘉宾" data-en="We want to change our code so instead of being round robin, we're going to assign this to users. The way that you do it normally is you'll have a database keeping track of, hey, here's all my users, here's all the active sandboxes for each of the users." aria-label="回原文"></button>
+有人想把本地代码分发到一堆 GPU 上并行处理再把结果传回来——Matt 坦承 E2B 目前不支持 GPU;有人问 Kubernetes,他透露 E2B 基于 Firecracker,目前跑在 Nomad 上，迁移到 Kubernetes 还有技术问题没解决。<button class="pd-ts" data-t="56:06" data-who="嘉宾" data-en="But yeah, as far as Cube, so we are Firecracker based. And so we're trying, there's some technical issues with Cube that we have that we haven't quite solved. So right now we're running Nomad, but working on getting into Cube, yeah." aria-label="回原文"></button>
 
-他现场写代码还让自己的测试挂了一次(忘了把新沙箱 ID 写回 assignments),被听众当场指出。
+被问到沙盒生态会不会像 Docker 那样形成标准，他的回答很诚实：
 
-**文件系统权限**：Claude Code 和 Codex 都有这个概念——你不希望智能体写文件系统的每个角落。
-
-通常写在 agents.md 里约定，这一关直接硬编码：模板缓存设只读，运行时缓存才可写，让程序写对位置。<button class="pd-ts" data-t="48:41" data-who="嘉宾" data-en="All right, so I think, Yeah, both Claude Code and Codex have this, is that a lot of times you don't want your agents writing to every single part of your file system." aria-label="回原文"></button>
-
-之后还有约八关，现场投票决定不再逐关走，改成自由答疑。
-
-## 答疑：边界、瓶颈与生态
-
-几个有信息量的问答：
-
-- **GPU**：有听众想把本地代码分发到一堆分布式 GPU 上算完再传回来。Matt 直说：E2B 目前不支持 GPU,他们用的是 VM,很多人用容器；GPU 上跑的话沙箱方案可能不合适。<button class="pd-ts" data-t="53:22" data-who="嘉宾" data-en="So each machine can only be talking to so many sandboxes at a time. But yeah, definitely if you're running on GPUs, EDB doesn't do GPUs. And I guess, so yeah, that's where the sandbox solution might not be." aria-label="回原文"></button>
-- **规模改变问题性质**：他点出沙箱最怪的一点——只跑一两个时，问题是「为什么这一两个挂了」；一旦规模化到成百上千，问题变成日志开销、怎么追踪和分配、单机最多能承载多少沙箱通信。他准备这个工作坊时就发现：「很多问题都是在大规模下才发生的。」<button class="pd-ts" data-t="07:04" data-who="嘉宾" data-en="We would have liked it. One of the challenges that we had when coming up with, hey, how do we demo some of the issues that we run into sandboxes is a lot of issues happen at scale." aria-label="回原文"></button>
-- **存储**：有 Kubernetes 用户问资源怎么修剪、存储随时间怎么处理——他说这正是 E2B 当前在攻坚的活跃难题，尤其是压缩。<button class="pd-ts" data-t="54:25" data-who="嘉宾" data-en="Yes. So one of his questions is how do you deal with the storage over time? So how do you prune the resources that you develop?" aria-label="回原文"></button>
-- **底层**：E2B 基于 Firecracker(AWS 开源的轻量级虚拟机技术),目前调度跑在 Nomad 上，正在往 Kubernetes 迁移，但 K8s 有一些他们还没完全解决的技术问题。<button class="pd-ts" data-t="56:02" data-who="嘉宾" data-en="Basically, these give us places where you can have agents run remotely or locally you can have the agent talk to it and you get the same thing. But yeah, as far as Cube, so we are Firecracker based." aria-label="回原文"></button>
-- **生态会不会像 Docker**:他答，这一切太早了——「这些 AI 智能体才存在多久？大概两年。LLM 即服务，五年。没人知道这个生态会变成什么样，但可以肯定的是，当人们构建出很酷的东西时，我们会倾向于围绕它们标准化。」他们的模板就是往这个方向走的一步：一个模板，两百人直接复用。<button class="pd-ts" data-t="57:29" data-who="嘉宾" data-en="And I mean all of this is early, right? So like these AI agents are what, like two years old, LLMs as a service, five years old. Nobody knows what the ecosystem's gonna look like, but definitely as people build cool things, we tend to standardize around them, share how to do it, and then that leads to, yeah." aria-label="回原文"></button>
-- **网络与密钥**：沙箱可以设网络规则；如果沙箱能访问密钥，必须限制它能往外发什么——这是便利性与安全性的权衡。<button class="pd-ts" data-t="58:33" data-who="嘉宾" data-en="Because running in the cloud is just a pain, but as far as like, and so yeah, actually, we're doing a lot of local development. Yeah, so I mean, that's where, so our sandboxes have different rules that you can set for the network." aria-label="回原文"></button>
+AI 智能体才两岁，没人知道生态会长成什么样，但模板这种做好一份、大家复用的机制，指了一个方向。
 
 ## 本集带走
 
-- **智能体代码别直接跑在本机或生产服务器上**：它会吃满 CPU、删东西、读环境变量里的密钥，隔离沙箱是标准解法。
-- **快照是沙箱体验的核心**：内存 + 文件系统一起快照，暂停/恢复对智能体透明(它以为时间没流逝)，出错少了，坏了也能一键重开。
-- **生命周期策略记一条**：任务期给长超时(能跑多久给多久)，任务完成立刻把超时调短，让沙箱自动回收。
-- **复用型沙箱的日常 = 杀孤儿进程 + 追踪沙箱归属**：反复恢复旧状态的好处是「一切都在你离开的位置」，坏处是没清理的东西也都在；用户↔沙箱映射要落库持久化，方便审计。
-- **E2B 的技术底座**：基于 Firecracker 的 VM、Go 后端、Python/JS SDK、模板 = 预先跑好进程的快照虚拟机；尚不支持 GPU。
-- **规模改变问题**：一两个沙箱时排查单点故障，规模化后真正的战场是日志、配额、网络承载和存储压缩。
+- 沙盒是隔离环境，让 AI 和用户跑的代码不伤害宿主系统，E2B 能在 100 毫秒内启动一个。
+- E2B 的思路是先把进程全部跑起来再整体拍快照，恢复时一切如旧，智能体出错更少；快照可以直接复制给上百人使用。
+- AI 写的代码最常见的三种事故：吃光处理器、撑爆内存、塞满磁盘——前几关闯关内容全是这个。
+- 管理大量沙盒的核心权衡是生命周期：任务期间给足时间，任务结束就设短超时自动回收。
+- 沙盒会暂停恢复而非每次重建，所以孤儿进程会积累，日常运维的很大一部分就是找到并清理它们。
 
 <div class="pd-sec pd-sec-q">全部金句 <span>1 条</span></div>
 
-> <span class="qz">实际上，我觉得很多沙箱管理工作最终就是在杀孤儿进程。</span>  
-> *Actually, I think a lot of sandbox management ends up being killing orphans.*  
-> <span class="qm">—— Matt Brockman · [40:01]</span> ^q1
+> <span class="qz">别只让它替你写代码。</span>  
+> *Don't just let it code for you.*  
+> <span class="qm">—— Matt Brockman · [18:29]</span> ^q1
 
 <div class="pd-sec">接着看</div>
 

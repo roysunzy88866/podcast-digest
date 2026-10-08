@@ -38,7 +38,7 @@ unlisted: true
 - **[[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem|《HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略》]]**(00:50起):本集提及嘉宾曾在 Amazon 待六年,并谈 Amazon 因 Prime 护城河拒绝与消费级智能体合作
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(00:06起):2017 年收购 Ring 的买家,Jamie 在其麾下待了五年,本集称赞其允许创始人离开后再回来掌舵的胸怀,并说 Ring 在 Amazon 旗下业务已增长远超 10 倍
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(09:29起):本集以 Amazon 拒绝 Muse 在其站点浏览购物为例，说明平台开放度决定智能体能力上限。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(20:20起):本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(20:20起):本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(13:34起):本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。
 
 ## ① 提到它的金句
@@ -88,7 +88,7 @@ unlisted: true
 - [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]] — 作为被讨论公司
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

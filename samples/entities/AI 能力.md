@@ -55,7 +55,7 @@ unlisted: true
 
 ![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q2]]
 
-![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q3]]
+![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q2]]
 
 ## ② 出现在这些集
 

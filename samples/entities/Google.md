@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -71,15 +71,15 @@ unlisted: true
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(13:20起):本集讲它在 2010 年前后主动洽谈收购 JustinTV，理由是 YouTube 占据互联网视频、直播只是一个小功能，面试了整个团队后说「你们的团队不够好」转身走人——Justin 称之为最泄气的一击，也成了 Twitch 诞生的导火索。
 - **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(07:49起):本集提到商家把商品目录同步到 Google 等广告平台，但那套规范是为人类搜索建的，不是为智能体。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(28:08起):本集以 Google 为「在位者不愿蚕食旧界面」的经典例子：没为 AI 时代重造 Docs 和 Gmail；其 Nano、Banana 等图像模型也抢走了独立图像生成器的散户流量。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(00:03起):本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
-- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 
 ## ① 提到它的金句
 
-*36 条*
+*37 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -153,6 +153,8 @@ unlisted: true
 
 ![[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat#^q5]]
 
+![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q6]]
+
 ## ② 出现在这些集
 
 *65 集*
@@ -217,9 +219,9 @@ unlisted: true
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司
 - [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为被讨论公司(提及)
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 

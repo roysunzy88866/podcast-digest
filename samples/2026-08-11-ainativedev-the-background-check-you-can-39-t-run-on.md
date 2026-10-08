@@ -1,5 +1,5 @@
 ---
-title: 智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」
+title: 给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎
 podcast: The AI-Native Dev
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "47:41"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on.jpg"
-description: Key Card 联合创始人 Ian Livingstone 解释为什么智能体把身份安全重新变成热点：任务级授权、使命（mission）概念与告别同意疲劳。
+description: "Key Card 联合创始人 Ian Livingstone 做客 The AI-Native Dev,讲清智能体时代的身份与授权难题。"
 host: "[[Simon Mayfor]]"
 cohosts: ["[[Ian Livingstone]]", "[[Glyfer Johnny]]"]
 companies: ["[[Key Card]]"]
@@ -18,18 +18,18 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on#post","headline":"智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on","description":"Key Card 联合创始人 Ian Livingstone 解释为什么智能体把身份安全重新变成热点：任务级授权、使命（mission）概念与告别同意疲劳。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on.jpg","about":[{"@type":"Person","name":"Simon Mayfor"},{"@type":"Person","name":"Ian Livingstone"},{"@type":"Person","name":"Glyfer Johnny"},{"@type":"Organization","name":"Key Card"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"身份 (identity)"},{"@type":"Thing","name":"使命 (mission)"},{"@type":"Thing","name":"会话 (session)"},{"@type":"Thing","name":"非确定性 (non-deterministic)"},{"@type":"Thing","name":"同意疲劳 (consent fatigue)"},{"@type":"Thing","name":"OAuth"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"LLM 即裁判 (LM as a judge)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」","item":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on#post","headline":"给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on","description":"Key Card 联合创始人 Ian Livingstone 做客 The AI-Native Dev,讲清智能体时代的身份与授权难题。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on.jpg","about":[{"@type":"Person","name":"Simon Mayfor"},{"@type":"Person","name":"Ian Livingstone"},{"@type":"Person","name":"Glyfer Johnny"},{"@type":"Organization","name":"Key Card"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"身份 (identity)"},{"@type":"Thing","name":"使命 (mission)"},{"@type":"Thing","name":"会话 (session)"},{"@type":"Thing","name":"非确定性 (non-deterministic)"},{"@type":"Thing","name":"同意疲劳 (consent fatigue)"},{"@type":"Thing","name":"OAuth"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"LLM 即裁判 (LM as a judge)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎","item":"https://talk.solomind.cc/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」
+# 给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎
 
 <div class="pd-byl"><b>Ian Livingstone</b> · Key Card 联合创始人 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">因为特性和缺陷是同一回事。最后的问题是：我怎么知道智能体执行的操作，符合设置它去做某件事的那个人的意图？</div><div class="a">— Ian Livingstone <button class="pd-ts" data-t="00:21" data-who="Ian Livingstone" data-en="Yeah, because the feature and the bug are the same. And the final question is how do I know that an agent is performing actions aligned with the intent of whoever set the agent to do something?" aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">这正是今天完全不存在的问题：如果你去 ABOS，让你的智能体代表你与 ABOS 交谈，ABUS 实际上完全没办法知道智能体正在执行的动作是否与你的初始请求一致。</div><div class="a">— Ian Livingstone <button class="pd-ts" data-t="23:18" data-who="Ian Livingstone" data-en="Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Simon Mayfor]] · [[Ian Livingstone]] · [[Glyfer Johnny]]
@@ -38,146 +38,97 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[身份]] · [[使命]] · [[会话]] · [[非确定性]] · [[同意疲劳]] · [[OAuth]] · [[MCP]] · [[CLI]] · [[LLM 即裁判]]
 
-这一集聊的是[[智能体|智能体]]（agent）安全里最基础的一环——[[身份|身份]]（identity）。主角是 [[Ian Livingstone|Ian Livingstone]]，身份安全公司 [[Key Card|Key Card]] 的联合创始人，主持是安全圈的资深从业者 Guy。
+AI [[智能体|智能体]]会替你发邮件、改数据库、花钱办事。但你怎么知道它在做的事，是你真正想让它做的？
 
-Ian 开场就点出一个反直觉的事实：大模型最迷人的特性和最大的安全漏洞是同一件事——[[非确定性|非确定性]]。
+[[Ian Livingstone|Ian Livingstone]] 是[[身份|身份]]安全创业公司 [[Key Card|Key Card]] 的联合创始人，曾创办过其他安全公司。
 
-模型能推理、能对海量数据做猜测，这是特性；但从安全角度看，「它不可预测」本身就是 bug。
+在这期对话里，他把“智能体的身份问题”拆开揉碎，讲给不搞安全的开发者听。
 
-所以智能体时代身份问题的根本问句是：**我怎么知道一个智能体执行的操作，符合指派它的那个人的意图？** <button class="pd-ts" data-t="04:48" data-who="Ian Livingstone" data-en="And so agents, like many things, as we introduce new functionality and capability like platform shift, we have to reassess our security model. And I and you know, the core crux of the identity problem when it comes to agents is this thing is built on like a probabilistic distribution." aria-label="回原文"></button>
+## 为什么智能体让老办法失效了？
 
-## 老身份系统为什么不够用了
+每一轮计算平台变革都会带来新的安全问题：大型机有了多用户，就有了“谁能访问谁的文件”；
 
-身份问题不是新东西——从大型机时代起，每一波计算浪潮都在问「谁能何时何地做什么」。
+互联网带来了电子商务和加密协议；云计算带来了密钥管理。智能体也一样，但它有个前所未有的特点：不确定性。
 
-上一代的答案是 API key 和共享密钥：把一个长期有效的密钥交给一个服务，它就永久绑定一组权限。
+Ian 的说法很妙：智能体基于概率分布，能推理、能猜测，这本来是功能；但从安全角度看，这恰恰也是缺陷。功能和缺陷是同一件事 <button class="pd-ts" data-t="05:12" data-who="Ian Livingstone" data-en="The bug from a security perspective is that it's non-deterministic and that it's still a feature. So the feature and the bug are the same. And so the fundamental question is how do I know that an agent is performing actions aligned with the intent of whoever set that agent to do something, right?" aria-label="回原文"></button>。
 
-问题在于密钥一旦泄露，拿到它的人就等于拿到了那个身份。
+过去你给一段程序权限，它基本就照着做。智能体不一样——你让它优化数据库，它可能认为把库整个清空重 来最“优化”。
 
-最近 Light LM 那类供应链攻击，实际攻击路径就是从磁盘上偷长期有效的 API 密钥去窃取数据 <button class="pd-ts" data-t="06:20" data-who="Ian Livingstone" data-en="And so today, if you've you know have paid attention or have read, there's lots of different agentic problems associated with identity that people talk about. One of them would be you have supply chain attacks that result in database passwords and keys being leaked, like the most recent Light LM and attacks, that the actual attack factor was how do I take long-lived API keys off of disk and use those to exfiltrate data." aria-label="回原文"></button>。
+这不是它恶意，而是它没有判断对错的能力，每次运行都是一个全新语境下的全新生物。
 
-但智能体带来的真正变化有两个。第一，人类和新生物不同：
+## 人可以查背景，智能体查不了
 
-人会「背景调查式地被信任」——你信任一个员工不会恶意破坏公司，因为他在乎工作；
+为什么以前云计算时代不用太操心授权？
 
-而智能体是「每次都是全新的生物」，没有善恶观念，也表达不了「我知道还是不知道」 <button class="pd-ts" data-t="14:31" data-who="Ian Livingstone" data-en="So that implicitly we can we can trust that guy is going to operate with high intent and not be malicious, right? And part is because it's the same guy that will sort of come into the next task and then S that things in the next task while the agents are basically a brand new creature every time." aria-label="回原文"></button>。
+Ian 用了一个招聘的比喻：公司雇人前会做背景调查、打电话给推荐人，确认这个人值得信任。
 
-第二，过去「认证了你是谁」基本就够了，可以放心给宽泛权限；
+人也有长期的声誉顾虑——被开除对他是大灾难，所以他天然有动机好好干活。
 
-现在授权必须**按任务**来——我让智能体总结一份文档，它可以读所有东西；但它要做一笔超过 500 美元的交易，可能就得人类拍板 <button class="pd-ts" data-t="16:06" data-who="Ian Livingstone" data-en="That's totally fine. But the minute you want to go and do a high, maybe a transaction with a cost of over $500, definitely that's a maybe that's when a human has to say, you know what, I don't trust agents to make decisions on my behalf over $500, or organization may say, I don't trust agents to have access to customer data at all." aria-label="回原文"></button>。
+智能体完全没有这些。它不在乎后果，没有“做错事会很惨”的概念，而且每次任务都是新的上下文。
 
-Ian 用自动驾驶分级来类比这条「自主性曲线」：从前 ChatGPT 时代的零级，到 Tab 补全的副驾驶一级，再到 Cursor/Claude Code 这类智能体的二级。问题是：
+所以老逻辑——“只要确认是这个人，就给他宽泛权限”——在智能体身上彻底失效 <button class="pd-ts" data-t="14:31" data-who="Ian Livingstone" data-en="So that implicitly we can we can trust that guy is going to operate with high intent and not be malicious, right? And part is because it's the same guy that will sort of come into the next task and then S that things in the next task while the agents are basically a brand new creature every time." aria-label="回原文"></button>。
 
-**只要人类必须不停地点「是/否/始终允许」，就永远没有真正的自主性**——而且大多数人根本不读那个对话框，直接点「是」，这就是「[[同意疲劳|同意疲劳]]」，它让安全系统彻底失去信号 <button class="pd-ts" data-t="31:33" data-who="Ian Livingstone" data-en="Right? And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right? Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it." aria-label="回原文"></button>。
+现在必须反过来：根据你派给智能体的具体任务，动态决定它能碰什么。让它总结文档？随便读。让它花钱超过 500 美元？
 
-## 身份的三层：会话、使命、按任务的权限
+必须人工确认。每个组织、每个人的信任边界都不一样。
 
-Guy 帮着把这话题拆成了几层，Ian 逐一展开：
+## 三层身份：你是谁、替谁干活、干什么活
 
-1. **智能体自己的身份**：下游系统必须能区分「这是 Guy 的请求」还是「这是 Guy 的智能体 FUBAR 的请求」，并区别对待。他爱举信用卡拒付的例子：你让智能体花 500 美元买了东西，回头你说「我没授权」，中间方需要有一条记录证明「你确实给了 FUBAR 这个任务、这个额度」——今天的身份系统完全做不到这种区分 <button class="pd-ts" data-t="19:40" data-who="Ian Livingstone" data-en="And certainly those systems want to treat an access request or a request based from Guy differently than they do from FUBAR. Because when you think of like, I love to give the example of um like credit card chargebacks here, because if you ask your agent to perform uh uh a transaction on your behalf, and then you say, hold off a second, I didn't give it access to do that." aria-label="回原文"></button>。
-2. **按任务的授权**：任务在新兴标准里的名字叫「[[使命|使命]]（mission）」——把用户的意图描述成一个具体的东西，授权系统才能衡量智能体的每个访问请求「是否符合人类意图」 <button class="pd-ts" data-t="22:14" data-who="Ian Livingstone" data-en="Current literature, you'll find that what you and I are talking about, like I think tasks is very understandable for us to think about is like, oh yeah, I assigned this thing a job or a task to go do, and I went and did it on behalf, and maybe that task is repeats every 30 days, or it takes a long time to do that task." aria-label="回原文"></button>。这解决的是一个今天完全不存在的能力：你让智能体去找某个服务办事，那个服务根本无从知道它做的事和你的原始请求是否一致。
-3. **长生命周期智能体的临时实体**：智能体每次都是全新生物、完全不同的上下文，权限得从「当下这个任务」推断出来，人类不可能每次介入 <button class="pd-ts" data-t="21:44" data-who="Ian Livingstone" data-en="Is that right? So the first one and the second one are a scale problem of a thing that we had before. We had a system, we gave the system a task, we had to give it an identity, we had to give it uh uh a permission set." aria-label="回原文"></button>。
+Ian 把问题拆成三层。第一层是“这个智能体是谁”——它得有自己的身份，不能借你的账号乱窜。
 
-Ian 用一个老概念来锚定它：**[[会话|会话]]（session）**。当年登录网站会创建一个会话（浏览器里的 cookie），它代表你是谁；
+第二层是“它替谁办事”，也就是代理关系。
 
-现在的会话要回答三个问题——你是谁、你在代表谁行动、为了什么目的，而「目的」决定了它能访问什么 <button class="pd-ts" data-t="24:05" data-who="Ian Livingstone" data-en="And it's uh ta typically this is a s there's there's in it in you can think of these concepts of inside identity, there's been this concept of session for a long time, right?" aria-label="回原文"></button>。
+第三层最有意思：任务本身也需要身份。
 
-## 方案版图：从找影子到修黄金路径
+在 emerging 的标准里，这个概念叫“任务(mission)”——用户给智能体指派了一项任务，这个任务的描述随请求一起传给下游系统，下游就能判断：
 
-Ian 给安全人员的思考框架是两条线：一是**治理**——找到你的「影子智能体」（那些正在发生而你不知道的智能体行为），量化风险；
+这个请求和当初的授权匹配吗？
 
-二是**黄金路径**——给开发者一条安全又好用的通路，把东西从影子引到路上。
+Ian 用信用卡拒付打比方：你让智能体替你交易，事后又不认账，系统得能拿出记录证明“你确实授权了它，而且说了最多花 500 美元”。
 
-上一代两者各有代表：[[OAuth|OAuth]] 时代出现了让社交登录变简单的产品，内部工作流有 Okta，云时代有 Vault 和 Terraform 帮你配 IAM、存长期密钥。
+今天的身份体系做不到这一点——如果智能体替你访问某个服务，那个服务根本没法核对它的动作是否符合你的原始意图 <button class="pd-ts" data-t="23:18" data-who="Ian Livingstone" data-en="So that gives us a way to like think about how the concept of uh an agent's identity and their and the task they're working on travels across systems, right? Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all." aria-label="回原文"></button>。
 
-而智能体跨系统工作、代表客户或你自己、藏在技术栈里跑，把这些假设全打破了 <button class="pd-ts" data-t="27:36" data-who="Ian Livingstone" data-en="Right. Um now with the change to with the rise of agents, agents basically break a lot of assumptions of how all those things work together because they kind of work across different systems." aria-label="回原文"></button>。
+## 别让“确认弹窗”毁掉一切
 
-正在涌现的新技术有两类协议：
+现在的工具靠什么管智能体？弹窗。每做一步都问你“确定吗？”。Ian 直言这是 consent fatigue(确认疲劳)的温床——你根本不会读弹窗，只会一路点“是” <button class="pd-ts" data-t="31:39" data-who="Ian Livingstone" data-en="And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right? Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it." aria-label="回原文"></button>。
 
-OAuth 阵营的 cross-app access（让智能体以智能体身份认证，而不是人类登录后把密钥转交给它），以及 Dick Hart 写的全新协议 Agent Auth，试图把使命、会话、授权一次性解决 <button class="pd-ts" data-t="28:15" data-who="Ian Livingstone" data-en="Um, but the fundamental issue is what are the new technologies or techniques that are coming out to help do the session mission per tasking? And so in OAuth, you have some movement there that's trying to trying to take over OAuth." aria-label="回原文"></button>。
+他的思路是：设几条铁律，比如“删除数据必须我本人批准”；其余情况，让一个“AI 当裁判”的判断系统来决定这次请求合不合理。
 
-工具层面则分裂成 [[CLI|CLI]] 与 [[MCP|MCP]] 两大生态：
+裁判拿不准时，再升级给人。裁判判断得越准，打断你的次数越少，信任越高，智能体能获得的自主权就越大。
 
-MCP 开箱自带 OAuth 支持，但编程智能体的看家本领恰恰是不带授权体系的 CLI 工具——市场上有只管 MCP 的网关（本质是个大代理）、有管智能体间通信的方案，还有上一代的特权访问管理（PAM）。
+这个思路有个重要的历史教训：上一代安全工具之所以部署失败，就是因为要人工手写成百上千行策略文件。
 
-Ian 的判断是：不是二选一，而是三者结合 <button class="pd-ts" data-t="36:42" data-who="Ian Livingstone" data-en="We're trying to build it across. And so we sort of look at it's it's actually not MCP and CLI, it's both, but it's also not PAM, it's all three combined. And how you bring these different identities, these different postures into one system that's really easy to adopt and build with is how we think about the problem, and that's where we're coming from." aria-label="回原文"></button>。
+这次不能再走老路。
 
-## Key Card 的做法与判断
+## 协议在变，格局未定
 
-Key Card 的切入点是开发者体验：下载 Key Card 的 CLI，与你选的 harness（Claude Code、Cursor 等）通过 hook 系统集成，然后告诉它「这个智能体可以访问这些 MCP / CLI 工具 / 工具调用」。
+工具层面，生态正分裂成两大阵营：命令行工具和 [[MCP|MCP]](MCP 协议天生自带 [[OAuth|OAuth]] 支持)。有些安全方案只支持一边。
 
-之后那个「是/否/始终允许」对话框就消失了——Key Card 替你做判断，你只保留极少数硬规则，比如「删除操作我要亲自审」 <button class="pd-ts" data-t="37:23" data-who="Ian Livingstone" data-en="Yeah, absolutely. So with the way that we've architected our solution is if I'm you know using cloud code and we give access to some things, I download the keycard CLI, I cut run uh claude or cursor or pie or insert your your harness of choice, keycard, we integrated with the hook system, we then you basically tell keycard, hey, this agent can access these things, and it could be a set of MCPs or it could be a set of CLI tools or tool calls on my behalf, and then we make the from that point on, no longer do you actually have to yes, no, allow always consent dialogue." aria-label="回原文"></button>。
+Key Card 的定位是两边通吃，再加上传统的特权访问管理——三样合一。
 
-关键设计是**高层级策略 + LLM as a judge（用一个推理模型判断某事是否合理）**：
+协议层面也有新动作:OAuth 社区新推出了 cross-app access,让智能体能以智能体的身份认证，而不是伪装成人类；
 
-你只声明少数绝对不可接受的红线（对 Ian 来说是删除），其余交给系统裁量。
+Ian 的预测是：
 
-这样你就不用像上一代安全工具那样，手工维护成百上千行策略文件——Ian 说，那正是上一代安全工具部署失败的地方 <button class="pd-ts" data-t="42:14" data-who="Ian Livingstone" data-en="And you know, one of the biggest challenges with that talking to a lot of in the enterprise, or even individual devs, is this is great. Like conceptually it's great, but like how do I roll this out?" aria-label="回原文"></button>。
+三年内，新协议会真正落地，智能体会让整个互联网变得“即插即用”，企业内部的信息孤岛会因身份系统升级而被打通。
 
-对未来的预测，Ian 相当乐观：
+驱动力来自企业——职场智能体的采用速度和回报远超家用场景，而大企业客户会拿着预算逼供应商实现安全标准。
 
-三年内新协议会真正部署，互操作性会成为智能体优先体验的卖点，企业里因「写策略太难」而形成的孤筒会被打破。
-
-驱动力是企业和 ROI：
-
-这一代智能体在工作场景的采用速度和回报远高于家用——这与以往技术扩散的方向相反，所以会倒逼安全栈演进得比通常快得多 <button class="pd-ts" data-t="45:13" data-who="Ian Livingstone" data-en="Both because like there's huge promise, but also because the identity and access systems will upgrade to the point where it allows that interoperability in the enterprise will allow these things to communicate to each other while the security team will have like the things that they need to say uh to keep the company secure, which has often been part of the reason that those systems didn't connect, is because they didn't have a good way to actually manage information sharing." aria-label="回原文"></button>。
-
-他还有一句贯穿全场的经验之谈：「云计算的最佳实践，现在是智能体的基本要求。」
+这个模式，过去 30 年一直如此。
 
 ## 本集带走
 
-- **特性和 bug 是同一件事**：非确定性既是模型能力来源也是安全漏洞，所以安全的目标不是让模型不犯错，而是确保犯错时不发生灾难。
-- **授权要按任务走**：别给智能体宽泛的长期权限；给每个任务一个「使命」描述，授权系统才能判断每次请求是否符合你的意图。
-- **少数硬边界 + 系统裁量**：只把真正不可接受的少数动作（如删除、超限额交易）留给人类，其余交给用模型自动评判类系统判断，才能既自主又避免同意疲劳。
-- **必须区分人和智能体**：下游服务要能识别请求来自谁、代表谁、为了什么目的——这才能支撑信用卡拒付这类争议的仲裁。
-- **工具选型别站队 CLI 或 MCP**：两类生态各有盲区，编程智能体离不开 CLI，MCP 自带 OAuth 只是起点。
-- **部署失败的教训**：需要手工维护海量策略文件的安全系统注定推不广；高层级描述 + 自动判断才是能落地的形态。
+- 智能体的不确定性既是功能也是缺陷，安全的核心问题变成：如何确保它的动作符合授权者的真实意图
+- 对人可以“查背景后给宽权限”，对智能体必须按任务动态授权——任务本身需要可传递的身份
+- 靠“确定吗”弹窗管理智能体会导致确认疲劳，需要硬边界加 AI 裁判的组合
+- 新协议(cross-app access、Agent Auth)正在出现，但格局远未定型；企业需求是推动标准落地的最大力量
+- Key Card 的做法：同时支持命令行和 MCP,让开发者从个人用起，再扩展到团队和全公司
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>1 条</span></div>
 
-> <span class="qz">因为特性和缺陷是同一回事。最后的问题是：我怎么知道智能体执行的操作，符合设置它去做某件事的那个人的意图？</span>  
-> *Yeah, because the feature and the bug are the same. And the final question is how do I know that an agent is performing actions aligned with the intent of whoever set the agent to do something?*  
-> <span class="qm">—— Ian Livingstone · [00:21]</span> ^q1
-
-> <span class="qz">一个智能体越自主，或者你越希望它自主，安全等式就变得越难解。</span>  
-> *Um, and the more autonomous an agent becomes, or the more autonomous you want an agent to be, the security equation becomes much more difficult to solve.*  
-> <span class="qm">—— Ian Livingstone · [05:44]</span> ^q2
-
-> <span class="qz">我要的不是一条护栏规则，我要的是围绕它能做什么的硬边界。这也是沙箱现在这么流行的部分原因：我永远无法 100% 确定模型不会这么做。</span>  
-> *I want to guard, like I don't want a guard rule, I want to I want a hard boundary around what it can do. And it's part of this is also the reason why things like sandbox is very popular right now. It's like I can never 100% know the model may not do this.*  
-> <span class="qm">—— Ian Livingstone · [09:11]</span> ^q3
-
-> <span class="qz">所以问题是：当人类必须不断处于循环中时，你不可能有自主性——这正是这些访问系统发挥作用的地方。</span>  
-> *And so the question is you can't have autonomy when the human has to constantly be in the loop, which is where these access systems come in.*  
-> <span class="qm">—— Ian Livingstone · [12:03]</span> ^q4
-
-> <span class="qz">这些全都不存在，因为上一代的安全姿态不需要构建这些，而现在我们需要了。</span>  
-> *None of that, none of that existed because we actually didn't have to build that for last generation security posture, and now we we do.*  
-> <span class="qm">—— Ian Livingstone · [20:24]</span> ^q5
-
-> <span class="qz">这正是今天完全不存在的能力：你让你的智能体代表你去找某个服务办事，那个服务根本无从知道智能体正在执行的动作，是否与你的初始请求一致。</span>  
+> <span class="qz">这正是今天完全不存在的问题：如果你去 ABOS，让你的智能体代表你与 ABOS 交谈，ABUS 实际上完全没办法知道智能体正在执行的动作是否与你的初始请求一致。</span>  
 > *Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all.*  
-> <span class="qm">—— Ian Livingstone · [23:18]</span> ^q6
-
-> <span class="qz">现在这个会话不仅仅是你自己是谁，还是你在代表谁行动，同时也是为了什么目的。</span>  
-> *And now it's not just a session, isn't just um who you are, it's who are you acting on behalf of, yeah, and it is also for what purpose.*  
-> <span class="qm">—— Ian Livingstone · [24:16]</span> ^q7
-
-> <span class="qz">我们今天在智能体安全方面面临的最大挑战，是如何避免最终出现同意疲劳。「是、否、始终允许」这种对话框最糟糕的地方就是，你只是点「是」，因为你根本不会去读它。</span>  
-> *And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right? Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it.*  
-> <span class="qm">—— Ian Livingstone · [31:33]</span> ^q8
-
-> <span class="qz">这一直是安全领域最大的挑战之一：怎么才能让安全系统只在问题真正相关时才拉响警报。否则你就会失去所有信号。</span>  
-> *And that's always been one of the biggest challenges in security is how do I have a security system that is only sounds the alarm when a program is relevant. Exactly. Otherwise you lose all the signal.*  
-> <span class="qm">—— Ian Livingstone · [31:47]</span> ^q9
-
-> <span class="qz">我经常对人说：云计算的最佳实践，现在是智能体的基本要求。我们见过那些沙箱和云环境等等，这一点仍然成立。</span>  
-> *I often I often say to people the the best practices of cloud are now base requirements for agents, and we've certainly seen those sandboxes and cloud environments and everything, and that's still true about that.*  
-> <span class="qm">—— Ian Livingstone · [43:02]</span> ^q10
-
-> <span class="qz">我认为这个智能体时代特别独特的地方在于：工作中的智能体被采用的速度远快于家用的智能体，ROI 也高得多。这是我们以前见过的一些事情的倒置，但现在确实如此。</span>  
-> *And I think what's unique about this era of agents specifically is we're seeing agents at work be adopted much faster with much higher degrees of ROI than agents at home. And you know, that's an inversion of some things we've seen previously, um, but it's certainly true now.*  
-> <span class="qm">—— Ian Livingstone · [46:07]</span> ^q11
+> <span class="qm">—— Ian Livingstone · [23:18]</span> ^q1
 
 <div class="pd-sec">接着看</div>
 

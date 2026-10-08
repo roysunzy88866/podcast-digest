@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(10:21起):本集说 Mercari 是来自日本的全球购物平台,拥有庞大代码库和成百上千个独立微服务,是其批量变更产品的早期用户,用它修补代码注入漏洞时又发现了 80 个潜在漏洞。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(10:21起):本集说 Mercari 是来自日本的全球购物平台,拥有庞大代码库和成百上千个独立微服务,是其批量变更产品的早期用户,用它修补代码注入漏洞时又发现了 80 个潜在漏洞。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为被讨论公司
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为被讨论公司
 
 ## ③ 关联
 

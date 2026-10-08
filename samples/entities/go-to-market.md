@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|《三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学》]]**(01:56起):本集主线：创业公司怎么从零搭起销售机器——招人、制造声量、漏斗顶端、创意营销、教客户怎么买，都是 go-to-market 机器的组成部分。
 - **[[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]]**(15:47起):Eric 主要从 go-to-market 视角讲述组织演进：销售、客户管理、支持等职能如何随公司长大而专业化、垂直化。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(51:15起):本集提到招聘中的 Go to Market(市场推广/商业化)团队也会做面试挑战项目,让他们一起解决棘手客户的问题来作为评估。
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(33:40起):本集把它说成头两年的零营销打法:不赞助、不参会、不在搜索上花钱,钱全砸在呼叫中心和上门服务上,赌「客户会变成我们最好的品牌大使」。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(33:40起):本集把它说成头两年的零营销打法:不赞助、不参会、不在搜索上花钱,钱全砸在呼叫中心和上门服务上,赌「客户会变成我们最好的品牌大使」。
 - **[[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|《AI 改写药物研发，而他只投五家公司》]]**(19:46起):本集说这是嘉宾多年投资最想早点知道的一课：无论技术多酷，归根结底要回到好的市场，进入市场那侧至少和技术一样难，甚至更难。
 - **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(00:50起):本集核心命题:传统 go-to-market 方式无法规模化,存在上下文差距与专家差距,需要三支柱(规模化分析、推送洞察、自助服务)来改造。
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:13起):本集主张工程师可以把 go-to-market 当成一个工程问题、尤其是一个 AI 工程问题来做，其本质是一个数据问题：需要智能体可以据此行动的、关于你的世界的实时模型。
@@ -60,7 +60,7 @@ unlisted: true
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|《三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学》]] — 作为概念
 - [[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]] — 作为概念
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为概念(提及)
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为概念
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为概念
 - [[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|《AI 改写药物研发，而他只投五家公司》]] — 作为概念
 - [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为概念
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念

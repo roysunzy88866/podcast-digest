@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(26:15起):本集作为嘉宾当前工作环境，是上述智能体工作流的实际落地场景，拥有 1400 名工程师、巨型 monorepo 等规模化约束
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(00:56起):嘉宾 Matt Jones 任职的支付公司（有 20 年历史的代码库），Architect 是其内部系统
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(00:56起):嘉宾 Matt Jones 任职的支付公司（有 20 年历史的代码库），Architect 是其内部系统
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为被讨论公司(提及)
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为被讨论公司
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -1,20 +1,12 @@
 {
   "kept": [
     {
-      "i": 1,
+      "i": 2,
       "timestamp": "02:58",
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "02:58",
-      "spkWas": "Yash"
-    },
-    {
-      "i": 2,
-      "timestamp": "04:16",
-      "speaker": "Yash",
-      "trimmed": false,
-      "tsWas": "04:16",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
     },
     {
       "i": 3,
@@ -22,7 +14,7 @@
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "08:30",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
     },
     {
       "i": 4,
@@ -30,7 +22,7 @@
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "10:04",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
     },
     {
       "i": 5,
@@ -38,23 +30,23 @@
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "13:36",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
     },
     {
       "i": 6,
       "timestamp": "14:59",
       "speaker": "Yash",
       "trimmed": false,
-      "tsWas": "15:07",
-      "spkWas": "Yash"
+      "tsWas": "14:59",
+      "spkWas": "Unknown"
     },
     {
       "i": 7,
-      "timestamp": "17:31",
-      "speaker": "Yash",
+      "timestamp": "19:48",
+      "speaker": "SPEAKER_01",
       "trimmed": false,
-      "tsWas": "17:31",
-      "spkWas": "Yash"
+      "tsWas": "19:48",
+      "spkWas": "Unknown"
     },
     {
       "i": 8,
@@ -62,64 +54,86 @@
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "20:51",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
     },
     {
       "i": 9,
-      "timestamp": "23:55",
+      "timestamp": "25:30",
       "speaker": "Yash",
       "trimmed": false,
-      "tsWas": "23:59",
-      "spkWas": "Yash"
+      "tsWas": "25:30",
+      "spkWas": "Unknown"
     },
     {
       "i": 10,
-      "timestamp": "24:49",
+      "timestamp": "26:03",
       "speaker": "Yash",
       "trimmed": false,
-      "tsWas": "24:49",
-      "spkWas": "Yash"
+      "tsWas": "26:03",
+      "spkWas": "Unknown"
     },
     {
       "i": 11,
-      "timestamp": "25:37",
+      "timestamp": "27:39",
       "speaker": "Yash",
       "trimmed": false,
-      "tsWas": "25:37",
-      "spkWas": "Yash"
+      "tsWas": "27:39",
+      "spkWas": "Unknown"
     },
     {
       "i": 12,
-      "timestamp": "26:24",
-      "speaker": "Yash",
-      "trimmed": false,
-      "tsWas": "26:24",
-      "spkWas": "Yash"
-    },
-    {
-      "i": 13,
-      "timestamp": "26:44",
-      "speaker": "Yash",
-      "trimmed": false,
-      "tsWas": "26:44",
-      "spkWas": "Yash"
-    },
-    {
-      "i": 14,
       "timestamp": "29:24",
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "29:24",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 13,
+      "timestamp": "36:10",
+      "speaker": "Yash",
+      "trimmed": false,
+      "tsWas": "36:10",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 14,
+      "timestamp": "43:57",
+      "speaker": "Yash",
+      "trimmed": false,
+      "tsWas": "43:57",
+      "spkWas": "Unknown"
     },
     {
       "i": 15,
+      "timestamp": "48:45",
+      "speaker": "Yash",
+      "trimmed": false,
+      "tsWas": "48:45",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 16,
       "timestamp": "48:59",
       "speaker": "Yash",
       "trimmed": false,
       "tsWas": "48:59",
-      "spkWas": "Yash"
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 17,
+      "timestamp": "51:43",
+      "speaker": "Yash",
+      "trimmed": false,
+      "tsWas": "51:43",
+      "spkWas": "Unknown"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "短句(3词<6)在转写稿命中 2 处,无法唯一锚定时间戳/说话人,不猜",
+      "en": "Your employees are not fungible."
+    }
+  ]
 }

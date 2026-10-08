@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(11:17起):本集说进程被终止前收到 sigterm 有两分钟宽限期保存 checkpoint,节点替换后作业自动重新排队、加载 checkpoint 从断点恢复训练。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(11:17起):本集说进程被终止前收到 sigterm 有两分钟宽限期保存 checkpoint,节点替换后作业自动重新排队、加载 checkpoint 从断点恢复训练。
 
 ## ① 提到它的金句
 
@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 
 ## ③ 关联
 

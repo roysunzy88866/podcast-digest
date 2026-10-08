@@ -128,7 +128,7 @@ Saroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、轨迹 (trace)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、轨迹 (trace)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
 - [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)、评估 (eval)、沙箱 (sandbox)</span>
 

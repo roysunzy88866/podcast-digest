@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(11:38起):本集说 Metronome 是 Stripe 去年收购的相邻公司，其 CEO Scott Woody 在 Stripe 发展得很好，现在领导 Metronome 和计费工作。
 - **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(00:15起):本集说 Metronome 是按用量计费领域的顶级平台,为 OpenAI 和 Anthropic 计量所有 API 调用,今年早些时候被 Stripe 以其历史上最大一笔交易收购;现场用它搭了个模仿 Lovable 定价模式的演示计费引擎。
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(11:42起):本集说 Metronome 是 Stripe 收购的用量计费公司,因为 AI 推理成本让每家 AI 产品公司都需要基于用量的计费。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(11:42起):本集说 Metronome 是 Stripe 收购的用量计费公司,因为 AI 推理成本让每家 AI 产品公司都需要基于用量的计费。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联
 

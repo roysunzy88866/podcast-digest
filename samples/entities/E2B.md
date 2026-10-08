@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(51:17起):被推荐作为沙箱供应商
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(23:23起):本集说 E2B 凭借云端沙箱取得成功，是与 Docker 并列的理解沙箱行为的最好公司之一
-- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]]**(00:33起):本集嘉宾 Matt 所在的公司，自我介绍「我们做沙箱」：目标 100 毫秒内启动沙箱，基于 Firecracker VM 做内存+文件系统快照，开源、Go 后端、Python/JS SDK，尚不支持 GPU。
+- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(00:33起):本集嘉宾 Matt 所在的公司，自我介绍「我们做沙箱」：目标 100 毫秒内启动沙箱，基于 Firecracker VM 做内存+文件系统快照，开源、Go 后端、Python/JS SDK，尚不支持 GPU。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
-- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]] — 作为被讨论公司
+- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -14,7 +14,7 @@ unlisted: true
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(24:48起):本集把它说成:衡量客户扩张的指标。嘉宾提到,即使从 1 万扩张到 10 万会有惊人的 NRR 数据,但这通常是不可辩护的,客户根本不会买单这么夸张的阶跃式涨价。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(53:11起):本集将它作为诊断框架的第三步，指出若 NRR 大于 100% 才能抵消流失做大公司；但同时也提出反直觉警示——因为基数（logo 数）流失时，剩下的老客户再怎么升级套餐也很难填补窟窿，不能被漂亮的 NRR 掩盖了大批客户逃离的事实
 - **[[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]]**(15:36起):本集提到通过分析 mid-market 里 NRR 高、GRR 高的垂直领域来找到富矿利基，作为打入企业市场的起点
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(00:22起):本集说买 AI 的主叙事不是裁人而是 NRR：调查中绝大多数运营者关注的是提升净收入留存和客户扩张——卓越客户体验→更强留存→更多增长。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(00:22起):本集说买 AI 的主叙事不是裁人而是 NRR：调查中绝大多数运营者关注的是提升净收入留存和客户扩张——卓越客户体验→更强留存→更多增长。
 
 ## ① 提到它的金句
 
@@ -29,7 +29,7 @@ unlisted: true
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 - [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]] — 作为概念(提及)
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为概念
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念
 
 ## ③ 关联
 

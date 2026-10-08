@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为主持
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为主持
 
 ## ③ 他谈到的
 

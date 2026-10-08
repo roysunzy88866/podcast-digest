@@ -160,7 +160,7 @@ unlisted: true
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为被讨论公司
 - [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司(提及)
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 

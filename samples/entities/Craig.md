@@ -13,14 +13,14 @@ unlisted: true
 
 *1 条*
 
-![[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#^q1]]
+![[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#^q2]]
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为联合主持
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为联合主持
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为联合主持
 
 ## ③ 他谈到的
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(00:40起):本集说它是 20 多年前为高校高性能计算打造的作业调度系统,擅长 gang scheduling、拓扑感知等训练所需特性,但静态、运维负担重、可观测性差。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(00:40起):本集说它是 20 多年前为高校高性能计算打造的作业调度系统,擅长 gang scheduling、拓扑感知等训练所需特性,但静态、运维负担重、可观测性差。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 
 ## ③ 关联
 

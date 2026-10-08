@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(44:36起):本集以 Aristotle 为主线，说 AI 能提供「你所能拥有的最好的导师」，并论述一对一 AI 辅导是最好的学习方式、能规模化 Bloom 两个标准差的提升。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(44:36起):本集以 Aristotle 为主线，说 AI 能提供「你所能拥有的最好的导师」，并论述一对一 AI 辅导是最好的学习方式、能规模化 Bloom 两个标准差的提升。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为概念
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为概念
 
 ## ③ 关联
 

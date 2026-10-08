@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]]**(02:10起):嘉宾 Mike Lewis 任首席 AI 架构师的端到端组织绩效与转型合作伙伴，客户包括 Google、礼来、武田、美国空军等财富 100 强企业，帮助全球最大组织应对 AI 颠覆。
+- **[[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]]**(02:10起):嘉宾 Mike Lewis 任首席 AI 架构师的端到端组织绩效与转型合作伙伴，客户包括 Google、礼来、武田、美国空军等财富 100 强企业，帮助全球最大组织应对 AI 颠覆。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]] — 作为被讨论公司
+- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]] — 作为被讨论公司
 
 ## ③ 关联
 

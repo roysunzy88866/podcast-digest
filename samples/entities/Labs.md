@@ -64,9 +64,9 @@ unlisted: true
 
 ![[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb#^q4]]
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q1]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q10]]
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q7]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q14]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q4]]
 

@@ -156,7 +156,7 @@ Paula 透露，从去年年底开始，[[Claude|Claude]] 在他们 iOS 应用里
 
 **顺着「智能体」挖下去**
 
-- [[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、记忆 (memory)、Claude</span>
+- [[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、记忆 (memory)、Claude</span>
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈]]<span class="pd-rz">同概念:智能体 (agent)、检索 (retrieval)、记忆 (memory)、Claude</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:Claude、智能体 (agent)、记忆 (memory)</span>
 

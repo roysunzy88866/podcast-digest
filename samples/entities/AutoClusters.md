@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(01:47起):本集介绍它是 Crusoe 的自动修复系统:检测到 XID79 等 GPU 硬件错误后自动 cordon/drain 坏节点、换上健康节点,五分钟内完成节点替换。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(01:47起):本集介绍它是 Crusoe 的自动修复系统:检测到 XID79 等 GPU 硬件错误后自动 cordon/drain 坏节点、换上健康节点,五分钟内完成节点替换。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 
 ## ③ 关联
 

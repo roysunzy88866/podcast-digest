@@ -13,13 +13,13 @@ unlisted: true
 
 - **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(19:02起):本集演示中提到的一个流水线组件。智能体在监控「结账服务替换货币服务」的部署时，会顺着因果链去查 Kafka 流水线是否健康。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(06:28起):本集提实时事件（如邮件）被导入 Kafka topic 再消费回流到 Postgres
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(07:21起):最初选型经 Kafka Connect 直通 Neo4j，指向线上每秒 700 万 span 后积压崩溃；后来仍用于反模式问题的智能体分发流
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(07:21起):最初选型经 Kafka Connect 直通 Neo4j，指向线上每秒 700 万 span 后积压崩溃；后来仍用于反模式问题的智能体分发流
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q2]]
+![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q7]]
 
 ## ② 出现在这些集
 
@@ -27,7 +27,7 @@ unlisted: true
 
 - [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司(提及)
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 
 ## ③ 关联
 

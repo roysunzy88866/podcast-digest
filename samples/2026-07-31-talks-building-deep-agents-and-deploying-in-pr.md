@@ -113,7 +113,7 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:LangChain · 同概念:harness、LangGraph、护栏 (guardrails)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain · 同概念:harness、LangGraph、护栏 (guardrails)</span>
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同公司:LangChain · 同概念:harness、文件系统 (file system)、深度智能体 (deep agents)、LangGraph、中间件 (middleware)</span>
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain · 同概念:harness、中间件 (middleware)、Claude Code、Codex、子智能体 (sub-agents)</span>
 

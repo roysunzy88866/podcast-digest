@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 14 强左右),并说对抗的不止三家巨头,还有「所有在它们工资单上的人」。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 14 强左右),并说对抗的不止三家巨头,还有「所有在它们工资单上的人」。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为被讨论公司
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为被讨论公司
 
 ## ③ 关联
 

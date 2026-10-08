@@ -1,91 +1,127 @@
 {
-  "title_zh": "教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案",
-  "tldr": "Bracket 的 Siddharth 讲如何让智能体学会从未被写下来的复杂业务上下文——跟智能体开个视频通话、边干活边教它。",
-  "digest_md": "这一集在 HeavyBirds Dev Guild 现场，聊的是一个现实问题：智能体在编码领域大放异彩，但在真实业务里总是「最后一公里」失败。嘉宾是来自 Bracket AI 的 Siddharth，他们做的正是让智能体学会企业里那些**从未被写下来的工作上下文** [00:16 说话人1]。\n\n**问题：90% 不等于完成**\n\nSiddharth 的核心判断是：自动化的难点在于，哪怕你已经做到 90%，缺的那 10% 上下文也会让整个工作完不成 [04:11 说话人1]。人们对「上下文」的普遍误解是把它等同于数据，但它其实是**如何执行流程的知识**——里面有人际因素，也有分散在组织不同人身上的隐性知识 [04:23 说话人1]。\n\n他给了一个类比：编码时如果你要构建一个横跨三个代码仓库的功能，而智能体只能访问其中一个仓库，它只会失败。所以人们会检出全部三个仓库给智能体。但放到现实世界，对应的是：一份信息在电子表格里，另一组在 ERP 系统里，还有一个「从未公开的仓库」在人脑子里 [05:36 说话人1]。他认为，构建一个能爬取这三组资源并理解其含义的系统，就是「解锁真正能在现实世界中工作的智能体的圣杯」[06:09 说话人1]。\n\n**方法：像学徒一样，边干边教**\n\n怎么把人脑子里的知识拿出来的？Siddharth 的答案回到了最古老的传授方式——学徒制，「从米开朗基罗到整个人类历史」，导师就是这样教弟子的：通过观察你怎么干活 [06:43 说话人1]。\n\n具体做法是：**你跟智能体开一场 Zoom 通话**。你共享屏幕、像平时一样实际做工作，智能体在旁边听，并来回向你提问——就这样把上下文传递给它 [02:24 说话人1]。对非技术员工（运营、供应链岗位的多数人）来说，这是最自然的表达方式：他们最擅长的就是把活儿干一遍，而不是写文档 [06:30 说话人1]。\n\n**关键一步：把非确定性变成确定性**\n\nLLM 天生具有探索性、非确定性——这既是能力也是挑战。企业需要的是一个跑一万次结果都一致的智能体 [03:07 说话人1]。所以 Bracket 的另一个核心能力是：**把「教会」的知识转换成可编码、可验证、可重复、可靠的确定性工作流**，每次都精确运行，而且以代码高效、token 高效的方式扩展 [03:13 说话人1]。也就是说，你纠正它一次，下次就不用再纠正了。\n\n**遇到意外怎么办：「括号大脑」的记忆体系**\n\n现实世界一定会给你意料之外的东西——一张格式完全不同的发票、一个没预料到的条款 [07:41 说话人1]。Bracket 的应对是一套持续学习系统（他们叫「括号大脑」）：\n\n- **置信度分数**：智能体对自己收到的输入有多有信心，是可以量化的。看到没见过的东西，它会先退回去——系统先回退到一个智能体，智能体也没把握，就传回给 Maria 本人 [08:26 说话人1]。\n- **人纠一次、永久记住**：Maria 说「这是个特殊供应商，我们对它标准更宽松」，系统把这条写进记忆，下次遇到同样的输入就能自己决定 [08:37 说话人1]。\n- **「做梦」机制**：工作时有智能体随行记录有意思的事情，然后另一个系统在夜间或周期性地整理「该把正确的信息放在哪里」——Siddharth 提到 Claude 刚提出「做梦」概念，而他们已经做了一段时间 [09:13 说话人1]。\n- **知识图谱**：带针对不同业务的特定本体，让系统能理解事物的含义 [09:40 说话人1]。\n- **「既视感」系统**：不污染主编排智能体的上下文——幕后有一个「智能体乐团」在后台找相关信息，以提示形式递给主角，让它在真正有价值的地方探索。Siddharth 认为这和人类大脑的工作方式非常相似 [10:24 说话人1]。\n\nBracket 目前即将走出隐身状态 [10:41 说话人1]，这集是个早期预览。\n\n## 本集带走\n\n- **隐性上下文是最后一公里失败的根源**：上下文不只是数据，是「怎么做这件事」的流程知识，而且分散在系统和人脑里——缺 10% 就等于做不成。\n- **最自然的知识采集方式是「边干边教」**：让员工共享屏幕、照常干活，智能体在旁听并来回提问——对非技术员工比写文档有效得多。\n- **教完必须「固化」**：把学到的知识转换成确定性的、可重复的工作流，纠正一次就永久生效，兼顾可靠性、代码效率和 token 效率。\n- **用「置信度 + 分级回退」处理意外**：没把握就先降级给智能体、再降级给人，人纠正一句就写进记忆，下次自动处理。\n- **记忆要分层维护**：随行记录 + 夜间「做梦」式整理 + 业务本体知识图谱 + 幕后乐团式提示系统，别把所有信息塞进主智能体的上下文。",
-  "quotes": [
-    {
-      "en": "A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile.",
-      "zh": "现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。",
-      "timestamp": "00:33",
-      "speaker": "Siddhartha Borah"
-    },
-    {
-      "en": "So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.",
-      "zh": "Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。",
-      "timestamp": "03:13",
-      "speaker": "Siddhartha Borah"
-    },
-    {
-      "en": "I think almost the problem with automation is like even if you're 90% there, right? Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
-      "zh": "我觉得自动化的问题几乎就是，即使你已经做到 90%，只要有 10% 的上下文缺失，整个工作就完成不了，对吧？",
-      "timestamp": "04:12",
-      "speaker": "Siddhartha Borah"
-    },
-    {
-      "en": "But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.",
-      "zh": "但如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是：代替这三个仓库，一份信息在电子表格里，另一组在 ERP 系统里，还有一个从未公开的「仓库」在你脑子里。",
-      "timestamp": "05:36",
-      "speaker": "Siddhartha Borah"
-    },
-    {
-      "en": "Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?",
-      "zh": "他们告诉你这项工作的最好方式，就是他们最擅长的事：直接把活儿干一遍，对吧？",
-      "timestamp": "06:30",
-      "speaker": "Siddhartha Borah"
-    }
-  ],
+  "title_zh": "智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来",
+  "tldr": "Brackett 创始人 Siddhartha Borah 讲如何让智能体学会那些只存在于员工脑中的业务知识。",
+  "digest_md": "在 Heavybit DevGuild 活动现场，Scaling DevTools 播客请到了 Brackett 的 Siddhartha Borah。他的公司专攻一件事：让智能体学会企业里最复杂、也最没被记录下来的那部分工作。\n\n## 为什么智能体总在“最后一公里”失败？\n\nSiddhartha 观察，如今很多智能体系统在最后一步掉链子。原因是缺上下文——真实工作往往跨系统、跨人，大量关键信息只存在一线员工的脑子里。\n\n他举了个例子：Maria 每天处理承运商的发票，周末统一付款。但她知道有个供应商会在下周一才批量更新账单。这个特例没人记录过，只在她脑子里。智能体遇到时就会出错 [00:50 Siddhartha]。\n\n更麻烦的是，自动化有一条残酷的规律：**哪怕你做到了 90%，剩下 10% 的上下文缺失，整个工作照样完不成** [04:11 Siddhartha]。\n\n## 三个仓库的比喻：问题到底出在哪\n\n写代码的人容易理解这个类比。假设一个功能横跨 3 个代码仓库，智能体只能访问其中 1 个，它必然失败。所以现在大家的做法是把 3 个仓库都给它。\n\n现实世界一样：一条信息在电子表格里，一条在 ERP 系统里，第三条在你脑子里。==怎么让系统能同时“爬”这三种资源并理解它们==？他认为这是解锁真实世界智能体的圣杯 [05:06 Siddhartha]。\n\n## 怎么教？让员工像带徒弟一样“演示”\n\nBrackett 的方案可以想象成和智能体开一场视频会议：你说话、共享屏幕、照常干活，智能体在旁边听，随时提问。**上下文就在这个过程中传递过去** [02:12 Siddhartha]。\n\n这个思路并不新鲜。从 Michelangelo 时代到人类历史的很长一段，师傅带徒弟就是靠看着干活学会的。对于供应链运营这类非技术岗员工，最好的表达方式就是直接做 [06:39 Siddhartha]。\n\n## 教会之后，怎么保证它每次都做得一样？\n\n大语言模型有个特点：每次输出都可能不一样。这在探索时是优点，在企业里是大问题。Siddhartha 说，**你要的是一个跑 1 万次结果都一样的智能体** [03:03 Siddhartha]。\n\nBrackett 的做法是把学到的知识转换成可编码、可验证、可重复的系统。纠正它一次，下次就不用再纠正了。\n\n## 遇到没见过的情况怎么办？\n\n突然来了一张格式完全不同的发票，这正是现实世界的常态。Brackett 给智能体设计了置信度：发现输入和以前见过的不一样，它先回退给另一个智能体判断；那个智能体也没把握，就交还给 Maria。Maria 解释一句“这家供应商规则更宽松”，系统就把它写进记忆，下次自己就能处理 [08:06 Siddhartha]。\n\n## 记忆系统：还有一套“既视感”机制\n\n记忆是他们投入最多的方向。有一个智能体专门在旁边记笔记，还有一套类似 Claude 昨天提出的“做梦”机制，在夜间或固定周期整理信息该放在哪里，配合针对不同行业的知识图谱。\n\n最有意思的是他们所谓“既视感”系统：主智能体专心帮用户干活，不让杂乱信息污染它的上下文；幕后则有一群智能体组成的“乐队”在找相关信息，把结果作为提示递给主智能体。**Siddhartha 认为这很接近人脑的工作方式** [09:55 Siddhartha]。\n\nBrackett 目前即将走出隐身状态，更多消息可以在 bracket.ai 上看到。\n\n## 本集带走\n\n- 智能体常败在最后一公里：缺的不是数据，而是只存在于员工脑中、从未写下来的流程知识。\n- 自动化的残酷规律：90% 的上下文 + 缺 10%，等于整个工作都做不成。\n- 教智能体最自然的方式是“演示”——像师傅带徒弟，边干边讲。\n- 企业需要确定性：学到的知识要转换成可重复执行的工作流，纠正一次即可。\n- 遇到没见过的输入，靠置信度逐级回退到人，人解释一次后系统记入长期记忆。",
+  "quotes": [],
+  "writer": "v3",
   "quotes_candidates": [
     {
       "timestamp": "00:33",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile.",
-      "zh": "现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。"
+      "zh": "现在出现了很多智能体系统，但我们看到的是，很多智能体在最后一公里失败了。"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Unknown",
+      "en": "Most of the work happens across systems, across people.",
+      "zh": "大部分工作发生在跨系统、跨人员之间。"
+    },
+    {
+      "timestamp": "00:50",
+      "speaker": "Unknown",
+      "en": "And if you go to an organization, especially around last mile supply chain, a lot of context remains in the end user's head.",
+      "zh": "如果你走进一个组织，尤其是在最后一公里供应链领域，很多上下文仍然留在终端用户的脑子里。"
+    },
+    {
+      "timestamp": "00:59",
+      "speaker": "Unknown",
+      "en": "So our core product is how do we build a system which can be a teammate, which can understand the context work, which has never been written down.",
+      "zh": "所以我们的核心产品是，如何构建一个可以成为队友的系统，它能够理解从未被写下来的工作上下文。"
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Unknown",
+      "en": "So you want an agent whom even if you run like 10,000 times, it works in the same way.",
+      "zh": "所以你想要一个智能体，即使你运行一万次，它也以同样的方式工作。"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Unknown",
+      "en": "They're non-deterministic. And that being a feature is also a challenge for us.",
+      "zh": "它们是非确定性的。而这作为一个特性，同时也是我们的一个挑战。"
     },
     {
       "timestamp": "03:13",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.",
-      "zh": "Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。"
+      "zh": "所以 Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。"
     },
     {
       "timestamp": "04:11",
-      "speaker": "说话人1",
-      "en": "I think almost the problem with automation is like even if you're 90% there, right? Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
-      "zh": "我觉得自动化的问题几乎就是，即使你已经做到 90%，只要有 10% 的上下文缺失，整个工作就完成不了，对吧？"
+      "speaker": "Unknown",
+      "en": "Yeah, I think almost the problem with automation is like even if you're 90% there, right?",
+      "zh": "是的，我觉得自动化的问题几乎就是，即使你已经做到 90%，对吧？"
+    },
+    {
+      "timestamp": "04:18",
+      "speaker": "Unknown",
+      "en": "Even if there's 10% of the context which is missing, the whole work doesn't get done, right?",
+      "zh": "即使有 10% 的上下文缺失，整个工作就完成不了，对吧？"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Unknown",
+      "en": "So for most of the workflows that we have seen is like, okay, so people usually when they talk about context, they think that context is the data, right? But it's not exactly just the data.",
+      "zh": "对于我们见过的大多数工作流来说，当人们谈论上下文时，他们认为上下文就是数据，对吧？但它其实并不只是数据。"
     },
     {
       "timestamp": "05:36",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.",
-      "zh": "但如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是：代替这三个仓库，一份信息在电子表格里，另一组在 ERP 系统里，还有一个从未公开的「仓库」在你脑子里。"
+      "zh": "但现在，如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是，代替这三个仓库，你可以想象其中一份信息在电子表格里，另一组信息在 ERP 系统里，然后还有一个从未公开的「仓库」在你脑子里。"
     },
     {
       "timestamp": "06:09",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "And then that we believe is the Holy Grail of unlocking agents that actually work in the real world.",
       "zh": "而我们相信，这就是解锁真正能在现实世界中工作的智能体的圣杯。"
     },
     {
       "timestamp": "06:30",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?",
-      "zh": "他们告诉你这项工作的最好方式，就是他们最擅长的事：直接把活儿干一遍，对吧？"
+      "zh": "那就是他们告诉你工作的最好方式，他们最擅长的方式，就是直接去做这份工作，对吧？"
+    },
+    {
+      "timestamp": "06:43",
+      "speaker": "Unknown",
+      "en": "You have seen that this is how apprentices, a long time like from Michelangelo to like whole history of humankind, right? This is how the mentors kind of teach the disciples, right?",
+      "zh": "你见过，这就是学徒的方式，很久以来，从米开朗基罗到整个人类历史，对吧？导师就是这样教导弟子的，对吧？"
+    },
+    {
+      "timestamp": "07:41",
+      "speaker": "Unknown",
+      "en": "This is really the crux of the real world problem because all of a sudden an invoice comes from a vendor which is completely in a different format or comes with an article which was not expected.",
+      "zh": "这确实是现实世界问题的症结所在，因为突然间一张发票来自一个完全不同格式的供应商，或者附带了一个没预料到的条款。"
     },
     {
       "timestamp": "07:53",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "And this is the nature of real world, that you will get things which are unexpected.",
-      "zh": "而这就是现实世界的本质：你一定会遇到意料之外的东西。"
+      "zh": "而这就是现实世界的本质，你会得到意料之外的东西。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "And also another thing that we are kind of doing, which is quite innovative, is the ability to kind of, we call it the déjà vu system, right?",
+      "zh": "还有另一件我们正在做的事情，相当有创新性，就是能够——我们称之为既视感系统，对吧？"
+    },
+    {
+      "timestamp": "10:04",
+      "speaker": "Unknown",
+      "en": "We don't want to pollute his context.",
+      "zh": "我们不想污染他的上下文。"
     },
     {
       "timestamp": "10:12",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "But behind the scenes, there is this orchestra of agents, which is working behind, finding relevant information and giving it as a hint to the primary agent, so that he can then go and explore what is more meaningful.",
-      "zh": "但在幕后，有一个智能体乐团在后方工作，寻找相关信息并作为提示提供给主编排智能体，让它可以去探索更有意义的东西。"
+      "zh": "但在幕后，有一个智能体乐团在后方工作，寻找相关信息并作为提示提供给主编排智能体，这样他就可以去探索更有意义的东西。"
     },
     {
       "timestamp": "10:24",
-      "speaker": "说话人1",
+      "speaker": "Unknown",
       "en": "And this is, I believe, very similar to how human brain works.",
       "zh": "而我相信，这和人类大脑的工作方式非常相似。"
     }

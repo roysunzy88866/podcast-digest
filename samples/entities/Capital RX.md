@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(06:00起):本集说这是 Judy Health 公司早期的名字,名字什么都不代表,只是域名可用、没商标纠纷,而且「在医疗行业,你想让人觉得你已经存在了很久」。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(06:00起):本集说这是 Judy Health 公司早期的名字,名字什么都不代表,只是域名可用、没商标纠纷,而且「在医疗行业,你想让人觉得你已经存在了很久」。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为被讨论公司
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为被讨论公司
 
 ## ③ 关联
 

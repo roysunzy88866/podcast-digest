@@ -182,13 +182,13 @@ unlisted: true
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(00:56起):本集用它的账单说明 token 成本失控：印度一家公司一个月在 Anthropic 上花 5 亿美元，Uber CTO 四个月用掉其全年预算。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(04:13起):本集引用 Anthropic 的说法：LLM 并不擅长指出问题的根本原因是什么。
 - **[[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]]**(08:35起):本集提到 Anthropic 刚发了篇博客,讲某个中国模型(尤其是 obliterated 版本)在网络安全方面有多强。
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(05:21起):本集顺带提到 Anthropic 等智能体公司没有在解决大型代码库理解与维护的问题。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(05:21起):本集顺带提到 Anthropic 等智能体公司没有在解决大型代码库理解与维护的问题。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(29:46起):本集说 Anthropic 名言「不做广告」，靠激进订阅策略在付费订阅者数量上超过 Gemini；与 OpenAI 一样，在现有聊天界面之外的产品发布上都不太成功。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(30:26起):本集说 Anthropic 靠 Claude Code 和 Cowork 引爆了『把控制权交给 AI』的时刻，却一贯回避消费级、没有个人助手产品，但已把 Claude 与 Cowork 的文本框合并，正朝统一单一聊天框的圣杯迈进。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(04:47起):本集提到 Anthropic 作为模型供应商,harness 应能切换到它的模型;并举例 Anthropic 宕机时网关切走流量。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(30:26起):本集说 Anthropic 靠 Claude Code 和 Cowork 引爆了『把控制权交给 AI』的时刻，却一贯回避消费级、没有个人助手产品，但已把 Claude 与 Cowork 的文本框合并，正朝统一单一聊天框的圣杯迈进。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(04:47起):本集提到 Anthropic 作为模型供应商,harness 应能切换到它的模型;并举例 Anthropic 宕机时网关切走流量。
 - **[[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]]**(25:23起):本集说 Menlo 持有 Anthropic 不到 2% 的股份，且它是 Menlo 唯一一家单笔持仓达到基金 20% 上限的公司，是通过随新数据逐步加仓（ladder up）建成的仓位。
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(35:06起):本集围绕《纽约时报》宗教学者与 Anthropic 会面、论证 Claude 拥有灵魂的报道，讨论这是否是监管俘获策略，Jason 称他们在制造「盒子里的神」。
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(11:21起):本集说 Front 目前与 Anthropic 和 OpenAI 都有合作，没用开源模型，但对前沿实验室的定价是否随规模下降持观望态度。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(35:06起):本集围绕《纽约时报》宗教学者与 Anthropic 会面、论证 Claude 拥有灵魂的报道，讨论这是否是监管俘获策略，Jason 称他们在制造「盒子里的神」。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(11:21起):本集说 Front 目前与 Anthropic 和 OpenAI 都有合作，没用开源模型，但对前沿实验室的定价是否随规模下降持观望态度。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(00:28起):本集与 Meta、OpenAI 并列,被预测最终会因瞄准『非侵入读写大脑』而变成生物技术公司。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(02:52起):本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(04:01起):本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。
@@ -253,7 +253,7 @@ unlisted: true
 
 ![[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a#^q2]]
 
-![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q5]]
+![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q9]]
 
@@ -438,14 +438,14 @@ unlisted: true
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]] — 作为被讨论公司(提及)
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为被讨论公司(提及)
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为被讨论公司(提及)
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]] — 作为被讨论公司
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司(提及)
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司(提及)
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司

@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(06:19起):本集提到它是 Anthropic 的模型,嘉宾用它演示了编码智能体在抓取不受信任内容时的提示注入鲁棒性问题。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(01:48起):本集把它说成:能自己理解代码库、主动派生其他模型分头干活并验证的「编排时代」模型。
 - **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(16:04起):本集说它是 Anthropic 面向网络安全的模型，圈内质疑其发布更像营销；Murphy 辩护称 Dario 的逻辑是强大的模型必须提前准备，先慢后快
-- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(06:33起):本集说它是 Anthropic 当时发布的模型,参数量比其他模型大一个数量级,是给行业的「响亮警钟」;Firefox 用它一个月修了比前一年还多的安全漏洞。
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(06:33起):本集说它是 Anthropic 当时发布的模型,参数量比其他模型大一个数量级,是给行业的「响亮警钟」;Firefox 用它一个月修了比前一年还多的安全漏洞。
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为概念
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为概念
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为概念
 
 ## ③ 关联
 

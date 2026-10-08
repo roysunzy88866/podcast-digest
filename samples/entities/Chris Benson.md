@@ -52,7 +52,7 @@ unlisted: true
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为主持
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为主持
-- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]] — 作为联合主持
+- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]] — 作为联合主持
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为联合主持
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为主持
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为联合主持

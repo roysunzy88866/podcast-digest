@@ -19,7 +19,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]] — 作为嘉宾
+- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

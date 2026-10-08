@@ -129,7 +129,7 @@ AI 带来的生产力提升，恰恰出现在入门级就业开始萎缩的那�
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同概念:前沿模型 (frontier models)、开源模型 (open models)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:世界模型 (world model)</span>
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|拥有你自己的智能:后训练什么时候才值得做]]<span class="pd-rz">同概念:前沿模型 (frontier models)、开源模型 (open models)</span>
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|每家公司都该有自己的AI模型吗？]]<span class="pd-rz">同概念:前沿模型 (frontier models)、开源模型 (open models)</span>
 
 </div>
 <div class="pd-ex">

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(07:34起):本集说它是构建在 Kubernetes 之上的托管 Slurm 服务,由 Slurm operator(CSO)统一管理用户、分区、配置和存储,让训练团队和平台团队都无需改变工作流。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(07:34起):本集说它是构建在 Kubernetes 之上的托管 Slurm 服务,由 Slurm operator(CSO)统一管理用户、分区、配置和存储,让训练团队和平台团队都无需改变工作流。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 
 ## ③ 关联
 

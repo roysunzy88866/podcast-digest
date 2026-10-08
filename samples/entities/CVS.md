@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]]**(14:56起):本集说 CVS 是 Simile 的客户之一，其洞察副总裁 Shree 被描述为极具前瞻性、雄心勃勃且非常努力
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 8 强左右),并说它通过垂直整合(拥有药房、返点聚合业务)在同一笔交易上多次收钱。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 8 强左右),并说它通过垂直整合(拥有药房、返点聚合业务)在同一笔交易上多次收钱。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为被讨论公司(提及)
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为被讨论公司
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为被讨论公司
 
 ## ③ 关联
 

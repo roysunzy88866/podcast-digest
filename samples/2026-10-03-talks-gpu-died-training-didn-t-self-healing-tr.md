@@ -1,12 +1,12 @@
 ---
-title: "在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈"
+title: GPU 坏了，训练不用停：Crusoe 的自愈式训练平台
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "16:34"
 type: episode
 cover: "#64748b"
-description: "Crusoe 团队讲解如何在 Kubernetes 之上构建托管 Slurm,让数千卡训练集群在 GPU 故障时自动检测、替换节点、恢复训练，全程无需人工干预。"
+description: Crusoe 的三位工程师讲解如何用 Slurm 加 Kubernetes 搭建大规模训练集群，让 GPU 故障自动修复、训练自动续跑。
 host: "[[Young]]"
 cohosts: ["[[Nikhil]]", "[[Connor]]"]
 companies: ["[[Crusoe]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr#post","headline":"在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr","description":"Crusoe 团队讲解如何在 Kubernetes 之上构建托管 Slurm,让数千卡训练集群在 GPU 故障时自动检测、替换节点、恢复训练，全程无需人工干预。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Young"},{"@type":"Person","name":"Nikhil"},{"@type":"Person","name":"Connor"},{"@type":"Organization","name":"Crusoe"},{"@type":"Thing","name":"Slurm"},{"@type":"Thing","name":"Kubernetes"},{"@type":"Thing","name":"AutoClusters"},{"@type":"Thing","name":"Crusoe Managed Slurm"},{"@type":"Thing","name":"GPU 故障 (GPU failure)"},{"@type":"Thing","name":"多节点训练 (multi-node training)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"checkpoint"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈","item":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr#post","headline":"GPU 坏了，训练不用停：Crusoe 的自愈式训练平台","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr","description":"Crusoe 的三位工程师讲解如何用 Slurm 加 Kubernetes 搭建大规模训练集群，让 GPU 故障自动修复、训练自动续跑。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Young"},{"@type":"Person","name":"Nikhil"},{"@type":"Person","name":"Connor"},{"@type":"Organization","name":"Crusoe"},{"@type":"Thing","name":"Slurm"},{"@type":"Thing","name":"Kubernetes"},{"@type":"Thing","name":"AutoClusters"},{"@type":"Thing","name":"Crusoe Managed Slurm"},{"@type":"Thing","name":"GPU 故障 (GPU failure)"},{"@type":"Thing","name":"多节点训练 (multi-node training)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"checkpoint"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"GPU 坏了，训练不用停：Crusoe 的自愈式训练平台","item":"https://talk.solomind.cc/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU 坏了，训练不用停：Crusoe 的自愈式训练平台</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈
+# GPU 坏了，训练不用停：Crusoe 的自愈式训练平台
 
 <div class="pd-byl"><b>Connor</b> · Crusoe 开发者布道师 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">你不需要搭建一套全新的基础设施栈、新的可观测性工具、新的值班团队、新的 runbook,都不需要。</div><div class="a">— Nikhil <button class="pd-ts" data-t="08:30" data-who="Nikhil" data-en="You don't need to set up an entirely new infrastructure stack, new observability tools, new on-call teams, new runbooks, nothing like that." aria-label="回原文"></button></div></div>
+
 
 > [!info] 关联
 > **人物** [[Young]] · [[Nikhil]] · [[Connor]]
@@ -37,74 +37,81 @@ jsonLd: |
 >
 > **概念** [[Slurm]] · [[Kubernetes]] · [[AutoClusters]] · [[Crusoe Managed Slurm]] · [[GPU 故障]] · [[多节点训练]] · [[推理]] · [[checkpoint]]
 
-训练大模型时，数千块 GPU 里坏几块几乎是必然的——而在这规模下靠工程师手动修，完全撑不住。
+在几千块 GPU 上训练大模型，**GPU 出故障不是意外，而是必然**。
 
-这一集是 [[Crusoe|Crusoe]] 的开发者布道师 [[Connor|Connor]] 和同事 [[Nikhil|Nikhil]]、[[Young|Young]] 的技术分享，讲他们如何在 [[Kubernetes|Kubernetes]] 之上搭 [[Slurm|Slurm]],让 GPU 硬件故障从「半夜爬起来 debug 几小时」变成「五分钟自动换好节点、训练自己接着跑」。
+[[Crusoe|Crusoe]] 是一家提供 GPU 云服务的公司，三位工程师 [[Connor|Connor]]、[[Young|Young]] 和 [[Nikhil|Nikhil]] 在这场演讲里讲了他们的做法：
 
-## Slurm 强在哪，又差在哪
+把高性能计算调度器 [[Slurm|Slurm]] 跑在 [[Kubernetes|Kubernetes]] 上，再加上一套叫 [[AutoClusters|AutoClusters]] 的自动修复系统，GPU 坏了不用人管，训练 15 分钟内恢复。
 
-Young 先讲了为什么业界训练还是离不开 Slurm(20 多年前为高校实验室高性能计算打造的作业调度系统)。它对训练负载非常合适：
+## 训练为什么偏爱 Slurm?
 
-[[多节点训练|多节点训练]]需要在各个 rank 之间做紧密的集合通信，Slurm 现成就有 gang scheduling(把一组节点同时腾出来再一起开跑)、拓扑感知、用于集群验证的 prologue/epilogue,研究人员用熟悉的 sbatch、srun 命令就能跑。
+Slurm 是 20 多年前大学和实验室的研究人员为高性能计算造的调度器。它天生适合[[多节点训练|多节点训练]]任务：
 
-但对现代 AI 工作负载，它有三个短板:
+要跑一个分布在多台机器上的训练，各个节点之间需要紧密的集合通信，还要有帮派调度（所有节点要么一起启动、要么不启动）、拓扑感知（知道哪些机器离得近）这些能力，Slurm 全都有 <button class="pd-ts" data-t="02:47" data-who="Young" data-en="SLURM was built by the researchers for the researchers, universities, labs over 20 years ago, built for high-performance computing, which, as we've observed with our customers and others that are using SLURM today, translates very well to modern AI, specifically around training workloads." aria-label="回原文"></button>。
 
-- **太静态**。今天的 AI 不只是训练，还有后训练、评估、[[推理|推理]]，加上 GPU 容量紧张，资源需要动态调配——而 Slurm 的分区等功能传统上相当死板。
-- **运维负担重**。GPU 确实会坏。你得检测坏节点、排空节点、绕过它们，要么手动要么自己写自动化脚本，这些全是额外负担。
-- **可观测性差**。Slurm 知道任务失败了，但说不清为什么失败——网络抖动、交换机问题都可能导致性能下降，排查要靠别的工具。
+研究人员也熟悉它。写个脚本，用 sbatch、srun 命令提交任务，和在实验室里干活一模一样。
 
-## 在 Kubernetes 上跑 Slurm:两拨人都不用改习惯
+## 但 Slurm 有三个短板
 
-Nikhil 讲了他们的解法：[[Crusoe Managed Slurm|Crusoe Managed Slurm]] 直接建在 Kubernetes(云的操作系统，有成熟的自愈、负载均衡、自动扩缩容生态)之上。
+第一个是太静态。今天的 AI 工作负载很杂：训练、后训练、评测、[[推理|推理]]，资源需求变化很快，而 Slurm 的分区划分传统上是固定的 <button class="pd-ts" data-t="04:14" data-who="Young" data-en="Kind of limits you to how you need to be able to be more dynamic around the resources that you have. Slurm traditionally is pretty static and it's partitioning and other functionalities." aria-label="回原文"></button>。
 
-他们的 Slurm operator(CSO)统一管理 Slurm 用户、分区、配置和存储——一条命令就建好集群。好处是双向的：
+第二个是运维负担。GPU 会坏，发现坏节点、排空它、重新排队任务，这些事 Slurm 有工具能做，但要么靠人工，要么自己写自动化脚本。
 
-- **对 Slurm 用户**：这就是又一个 Slurm 集群，一个 IP 地址、SSH 上去就能用，他们甚至不需要知道底下跑着 Kubernetes。
-- **对平台团队**：Slurm 只是接入现有基础设施的又一个服务，不用搭新栈、新可观测性工具、新值班团队、新 runbook。
+第三个是可观测性。Slurm 知道任务失败了，但说不清为什么失败——是 GPU 坏了，还是网络抖动？这就得靠监控体系来补。
 
-而且所有 GPU 在一个集群里，资源就能动态流转：推理高峰时从训练集群抽硬件过去；
+## 为什么把 Slurm 搬到 Kubernetes 上？
 
-用户负载下降、GPU 闲下来时，正好加大训练或跨更多卡做一次大规模 hero run——Nikhil 强调，这只有把所有东西放进同一套基础设施栈才做得到。
+另一方面，Kubernetes 是云上的操作系统，生态成熟，自带自愈、负载均衡、自动扩缩容。
 
-## AutoClusters:从故障到恢复训练，全自动
+很多客户的情况是：推理团队用 Kubernetes，训练团队用 Slurm，两套基础设施并行，运维和成本都翻倍 <button class="pd-ts" data-t="07:24" data-who="Nikhil" data-en="And with how fast everyone's trying to get to the next best model and next best product, Teams get set up with the tools they're familiar with, and you end up with two separate infrastructure stacks, which has its own host of extra operational burdens and extra costs." aria-label="回原文"></button>。
 
-Connor 演示了核心的自动修复流程。当一块 GPU 出现 XID79 错误(该 GPU 完全不可用的严重硬件错误)时：
+Crusoe 的方案是在他们的托管 Kubernetes 服务 CMK 之上构建托管 Slurm（底层用了 Slinky，即 SkedMD 开源的在 Kubernetes 上跑 Slurm 的项目）。
 
-- 用户收到通知，但**无需任何操作**；
-- Slurm operator 把该节点标记为 down,取消正在运行的作业；进程收到 sigterm 信号，有最多两分钟保存 [[checkpoint|checkpoint]] 或刷新日志；
-- 被取消的作业自动重新排队；
-- [[AutoClusters|AutoClusters]] 确认该节点没有带「禁止自动替换」标签的 pod,然后把 Kubernetes 节点 cordon(封锁不再调度)并 drain(排空)；
-- 坏节点从节点池移除，从备用容量换上一个健康节点，全程记录在案；
-- 新节点上线后，Slurm 作业自动启动，加载模型和 checkpoint,训练从断点继续。
+对研究人员来说，它就是一个普通的 Slurm 集群：拿到 IP 地址、SSH 登录、照常提交任务，根本不用知道底下是 Kubernetes <button class="pd-ts" data-t="08:11" data-who="Nikhil" data-en="So the benefit is, for the Slurm users, it's just another Slurm cluster. They just need an IP address. They can SSH with their user." aria-label="回原文"></button>。
 
-Demo 里，从检测到错误到健康节点回池大约**五分钟**，加上应用层加载模型和 checkpoint,端到端不到 15 分钟，GPU 利用率恢复正常。
+对平台团队来说，Slurm 只是一个普通服务，复用现有的监控和值班体系。
 
-Connor 的原话：这比让一名工程师半夜登录、花几小时 debug 要好得多。
+一个额外的好处：所有 GPU 在同一个池子里，可以灵活调配。
+
+比如推理流量高峰时把训练集群的部分 GPU 划给推理，流量下来、GPU 闲置时，再拿去跑更大规模的训练 <button class="pd-ts" data-t="09:15" data-who="Nikhil" data-en="It enables more interesting tooling and dynamic availability, like when you need to burst your inference service when you're reaching high users, high number of users." aria-label="回原文"></button>。
+
+## GPU 真坏了，会发生什么？
+
+AutoClusters 处理的关键场景之一是 XID79 错误——某块 GPU 完全不可用。**整个流程是全自动的** <button class="pd-ts" data-t="10:03" data-who="Connor" data-en="So Connor is going to walk through that and show a demo of how that works. So this is an overview of what exactly happens when AutoClusters detects a critical hardware error, in this case an XID79 error, where one of the GPUs is completely unusable." aria-label="回原文"></button>：
+
+1. 用户收到通知，但不需要做任何事；
+2. Slurm 操作器把坏节点标记为下线，取消正在跑的任务，进程收到终止信号，有最多两分钟时间保存检查点或输出日志；
+5. 新节点上线后，任务重启，加载检查点，从断点继续训练。
+
+## 现场演示：全程不到 15 分钟
+
+Connor 做了现场演示：在两个 A100 节点上跑 PyTorch 训练，然后人为触发一个 XID79 错误。GPU 利用率立刻掉下来，节点替换随即启动。
+
+从检测到硬件错误、换上健康节点，AutoClusters 只花大约 5 分钟，其余时间是应用层加载模型和检查点，**端到端总停机时间不到 15 分钟** <button class="pd-ts" data-t="12:18" data-who="Connor" data-en="And so we know that that GPU has gone offline and auto-clusters node replacement starts immediately. And the full process from detecting a critical hardware error to getting a healthy node back into the node pool takes roughly five minutes with auto-clusters." aria-label="回原文"></button>。
+
+对比一下没有这套系统的情形：工程师半夜被叫起来，花几个小时排查问题。
+
+## 一条命令建好整个环境
+
+过去把 Slurm 和 Kubernetes 融在一起很麻烦。
+
+Crusoe 宣布了一键 Slurm：一条命令就配好 Kubernetes 集群、Slurm 控制器、登录节点和存储，再加一条命令就能加上 GPU 节点池，AutoClusters 默认开启 <button class="pd-ts" data-t="13:25" data-who="Connor" data-en="Now historically, creating this type of environment has been challenging to merge both Slurm and Kubernetes. And so we're really excited to announce what we call one-click Slurm, where everything that we've talked about in this presentation, this entire environment can be provisioned with just a single command." aria-label="回原文"></button>。
+
+核心想法可以归结为一句话：
+
+**故障不可避免，基础设施的架构应该保证关键错误发生时，所有该做的事都自动完成**，让工程师专注于应用本身，而不是半夜爬起来修机器 <button class="pd-ts" data-t="16:00" data-who="Connor" data-en="And so the core idea here is that failures are inevitable. And so in today's AI landscape, the architecture of infrastructure should be designed in a way so that when there is a critical error, all the right actions are handled autonomously and engineers can focus on building their application and not worrying about the infrastructure." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **故障不可避免，架构该负责**：与其指望人不出错，不如把基础设施设计成出错时所有正确动作自主完成，工程师专心写应用。
-- **Slurm 管调度，Kubernetes 管弹性**：两者结合后系统状态保持同步——坏节点被自动 cordon,信号直接传给 Slurm operator,训练团队照用 sbatch/srun,平台团队照用原有的遥测和可观测性。
-- **checkpoint + 自动重排队是自愈的另一半**：节点替换只花五分钟，训练能无缝恢复靠的是 sigterm 宽限期内存 checkpoint、取消的作业自动重新排队。
-- **动态调度价值等于省真金白银**：同一套栈里训练和推理可以互相借硬件，闲时 GPU 立刻投入更大规模的训练。
+- 在几千块 GPU 的规模上，[[GPU 故障|GPU 故障]]是常态，人工修复不可持续
+- Slurm 提供高性能调度，但缺自动化修复和可观测性；Kubernetes 正好补上
+- 把 Slurm 跑在 Kubernetes 上，研究人员照常用 sbatch，平台团队照常用现有监控，两边都不用改工作流
+- AutoClusters 全自动换掉坏节点，从故障到恢复训练，全程不到 15 分钟
+- GPU 统一在一个节点池里，可以在训练和推理之间动态调配，避免闲置浪费
 
-<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>0 条</span></div>
 
-> <span class="qz">你不需要搭建一套全新的基础设施栈、新的可观测性工具、新的值班团队、新的 runbook,都不需要。</span>  
-> *You don't need to set up an entirely new infrastructure stack, new observability tools, new on-call teams, new runbooks, nothing like that.*  
-> <span class="qm">—— Nikhil · [08:30]</span> ^q1
 
-> <span class="qz">当你的用户负载下降、GPU 都闲着时，那正是加大训练作业、或者跨更多 GPU 做一次更大规模 hero run 的完美时机。</span>  
-> *When your user load goes down, you have all these GPUs sitting idle. That's the perfect time to up your training job or do a larger hero run across more GPUs.*  
-> <span class="qm">—— Nikhil · [09:22]</span> ^q2
-
-> <span class="qz">基础设施的架构应该被设计成：当出现严重错误时，所有正确的操作都自主完成，工程师可以专注于构建他们的应用，而不用担心基础设施。</span>  
-> *The architecture of infrastructure should be designed in a way so that when there is a critical error, all the right actions are handled autonomously and engineers can focus on building their application and not worrying about the infrastructure.*  
-> <span class="qm">—— Connor · [16:04]</span> ^q3
-
-> <span class="qz">使用 auto-clusters,从检测到严重硬件错误到把一个健康节点重新纳入节点池的完整过程大约需要五分钟。</span>  
-> *And the full process from detecting a critical hardware error to getting a healthy node back into the node pool takes roughly five minutes with auto-clusters.*  
-> <span class="qm">—— Connor · [12:18]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

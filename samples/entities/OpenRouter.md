@@ -24,7 +24,7 @@ unlisted: true
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(19:42起):本集把它作为整合碎片化模型与服务商的例子:开发者去一个地方就能接入众多模型并统一付费,是「策展」机遇的代表。
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(00:18起):本集主角:开发者一站式调用各家大模型的 API 路由与市场平台,把供应商向 SKU 发布、消费者订阅的市场结构套在模型上,后被 Stripe 收购。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说它是 AI 模型聚合与路由平台、一个高效的市场，帮企业避免模型锁定、压低成本；刚被 Stripe 收购，Alex 称未来支付和推理会融合。
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(11:42起):本集说 Stripe 收购它赌的是企业内部会同时用多个模型并按用户生命周期价值路由,『据我们所知他们走得最靠前』。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(11:42起):本集说 Stripe 收购它赌的是企业内部会同时用多个模型并按用户生命周期价值路由,『据我们所知他们走得最靠前』。
 
 ## ① 提到它的金句
 
@@ -53,7 +53,7 @@ unlisted: true
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为被讨论公司
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联
 

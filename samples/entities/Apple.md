@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,11 +31,11 @@ unlisted: true
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:53起):本集说 Josh 在 Apple 待了近六年参与 Siri 新版本，并以 Apple 每年一版的发布节奏为例，说明带大众踏上新体验的旅程需要节制
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(00:00起):本集以它为选秀对象：主持人认为苹果的收购哲学向来是回购股票加补强式小技术团队收购（Siri、Touch ID 团队），主张新 CEO John Ternus 停止回购、做几次大豪赌，筛选标准是任何能整合进 iPhone、笔记本、手表、AirPods 和门店的东西，并寻求能取代 iPhone 依赖的千亿美元级收入线。
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(04:08起):本集说：在中国 Apple 关闭了 iOS 平台上所有可用的加密工具，因为平台锁死、逆向工程违法，中国人得到的就只有这些。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(05:52起):本集说 Apple 是黑马：天生握着设备入口，邮件、信息、日历、照片全部内置，甚至能看到你屏幕上的一切，缺的只是用户对 Siri 十多年积累的不信任。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(05:52起):本集说 Apple 是黑马：天生握着设备入口，邮件、信息、日历、照片全部内置，甚至能看到你屏幕上的一切，缺的只是用户对 Siri 十多年积累的不信任。
 
 ## ① 提到它的金句
 
-*10 条*
+*9 条*
 
 ![[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#^q1]]
 
@@ -54,8 +54,6 @@ unlisted: true
 ![[2026-09-28-twist-the-5-companies-apple-must-buy#^q4]]
 
 ![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q4]]
-
-![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q5]]
 
 ## ② 出现在这些集
 
@@ -82,7 +80,7 @@ unlisted: true
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司(提及)
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联
 

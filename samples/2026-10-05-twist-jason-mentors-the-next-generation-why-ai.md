@@ -1,5 +1,5 @@
 ---
-title: "Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle"
+title: 一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药
 podcast: This Week in Startups
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "70:31"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-05-twist-jason-mentors-the-next-generation-why-ai.jpg"
-description: "主持人 Jason 接听三位听众来电，谈金融学生的 AI 优先路线、传记阅读法与客户发现；后半段对话 Aristotle 创始人 Sean Reddy,解释为什么大模型越强反而越不擅长教学。"
+description: Jason Calacanis 连线印度新生和 NYU 学生给创业建议，再对话 Aristotle 创始人，谈为什么 AI 越强反而越不会教人。
 host: "[[Jason]]"
 companies: ["[[Aristotle]]", "[[Khan Academy]]", "[[Brilliant.org]]"]
 concepts: ["[[AI 导师]]", "[[客户发现]]", "[[后训练]]", "[[多智能体架构]]", "[[训练数据]]", "[[布鲁姆两个标准差问题]]", "[[企业情报]]"]
@@ -17,18 +17,18 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-10-05-twist-jason-mentors-the-next-generation-why-ai.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai#post","headline":"Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai","description":"主持人 Jason 接听三位听众来电，谈金融学生的 AI 优先路线、传记阅读法与客户发现；后半段对话 Aristotle 创始人 Sean Reddy,解释为什么大模型越强反而越不擅长教学。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-twist-jason-mentors-the-next-generation-why-ai.jpg","about":[{"@type":"Person","name":"Jason"},{"@type":"Organization","name":"Aristotle"},{"@type":"Organization","name":"Khan Academy"},{"@type":"Organization","name":"Brilliant.org"},{"@type":"Thing","name":"AI 导师 (AI tutor)"},{"@type":"Thing","name":"客户发现 (customer discovery)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"多智能体架构 (multi-agent architecture)"},{"@type":"Thing","name":"训练数据 (training data)"},{"@type":"Thing","name":"布鲁姆两个标准差问题 (Bloom's two-sigma problem)"},{"@type":"Thing","name":"企业情报 (corporate intelligence)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle","item":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai#post","headline":"一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai","description":"Jason Calacanis 连线印度新生和 NYU 学生给创业建议，再对话 Aristotle 创始人，谈为什么 AI 越强反而越不会教人。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-twist-jason-mentors-the-next-generation-why-ai.jpg","about":[{"@type":"Person","name":"Jason"},{"@type":"Organization","name":"Aristotle"},{"@type":"Organization","name":"Khan Academy"},{"@type":"Organization","name":"Brilliant.org"},{"@type":"Thing","name":"AI 导师 (AI tutor)"},{"@type":"Thing","name":"客户发现 (customer discovery)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"多智能体架构 (multi-agent architecture)"},{"@type":"Thing","name":"训练数据 (training data)"},{"@type":"Thing","name":"布鲁姆两个标准差问题 (Bloom's two-sigma problem)"},{"@type":"Thing","name":"企业情报 (corporate intelligence)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药","item":"https://talk.solomind.cc/2026-10-05-twist-jason-mentors-the-next-generation-why-ai"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle
+# 一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药
 
 <div class="pd-byl">2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-twist-jason-mentors-the-next-generation-why-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">大型实验室下的赌注是，扩展通用智能就会扩展教学能力。不幸的是，情况并非如此。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="45:56" data-who="嘉宾" data-en="The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity. Unfortunately, that has not been the case." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我在等某个有野心的年轻人在学校里就做出这样的东西。那会改变你的一切。</div><div class="a">— Jason <button class="pd-ts" data-t="05:44" data-who="Jason" data-en="I'm waiting for some ambitious kid who does that while they're at school. And that will change everything for you." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Jason]]
@@ -37,162 +37,209 @@ jsonLd: |
 >
 > **概念** [[AI 导师]] · [[客户发现]] · [[后训练]] · [[多智能体架构]] · [[训练数据]] · [[布鲁姆两个标准差问题]] · [[企业情报]]
 
-这一集是 This Week in Startups 的「Ask [[Jason|Jason]]」直播问答环节：
+这期节目分两半。前半段，[[Jason|Jason]] 在 This Week in Startups 上接听两位年轻来电者：
 
-主持人 Jason 集中回答听众打进来的职业与创业问题，最后请来面向高中生的语音 [[AI 导师|AI 导师]] [[Aristotle|Aristotle]] 的联合创始人兼 CEO Sean Reddy 做产品演示。
+一位即将入学 Fordham 大学的印度学生，一位 NYU 学生，话题从读什么书、怎么创业，聊到「给你 50 万美元你会怎么花」。
 
-最反直觉的一点来自 Sean:模型越强，教学能力反而在变差。
+后半段是 [[Aristotle|Aristotle]] 创始人 Sean Reddy 的访谈——这家公司做 AI 语音家教，核心判断有点反直觉：AI 越强大，反而越不擅长教学。
 
-## 给印度来的金融学生：AI 优先 + 一年十本传记
+> 【背景】Jason Calacanis 是 This Week in Startups 的主持人。
 
-第一位来电者是即将入读 Fordham 的 Agastya,要主修金融，问在 AI 时代该怎么准备。
+## 一年读十本传记，为什么是这个建议？
 
-Jason 的核心建议是「AI first」:不管老师教什么，都先去问 AI「我怎样用 AI 在这件事上变得超人」「关于对账、建模，我有哪些不知道自己不知道的问题」，同时自己搭一套智能体来一对一教自己更高级的内容。
+Agastya 即将进入 Fordham 读金融，问 Jason 在 AI 时代该怎么准备。Jason 开出的方子有两条。
 
-第二个礼物是阅读法：**一个月读一本传记，一年至少十本**，不限商业人物——Michael Ovitz、Bob Iger、Phil Knight 的《Shoe Dog》,甚至 Steve Martin、Robin Williams 的传记。Jason 的论据是：
+第一条是把自己变成 AI 优先的人：
 
-年轻创始人总想约牛人喝咖啡请教，其实根本不用，读传记就够了，四五本就能看懂一个行业几十年怎么长起来的。
+老师教什么，就先问 AI 怎么用这些知识变成超人，同时自己造一些一对一教学的智能体，超前学习建模等进阶内容。
 
-他还现身说法：
+他还希望有学生在校期间就独立做研究，比如分析 Kleiner Perkins 在 80、90 年代的全部投资，研究它过早退出 Apple 和 Cisco 的决策，算出如果持股到今天回报会是多少 <button class="pd-ts" data-t="05:11" data-who="嘉宾" data-en="And then look at history. So when you come out, you're well-rounded. I'm waiting for somebody to come out and say, yeah, you know, I really want to be in venture capital." aria-label="回原文"></button>。
 
-自己当年作为布鲁克林穷小子进 Fordham,学费一直拖欠，靠分期付款和一万多美元的 Pell Grants 撑过来——所以别怕被「装进盒子」，「当我是那个布鲁克林小孩的时候，他们试图把我塞进一个盒子里，然后我直接打破了盒子。
+第二条更有意思：每月读一本传记，一年十本，听有声书也算数。Jason 开了一份跨行业书单——Michael Ovitz 的 CAA 传记、Bob Iger 的自传、Phil Knight 的《Shoe Dog》、黑泽明自传、Steve Martin 的《Born Standing Up》。
 
-我把盒子点着了」。
+他的理由是：年轻创业者总想约前辈喝咖啡取经，其实根本不需要，**传记就是浓缩的经验** <button class="pd-ts" data-t="07:07" data-who="嘉宾" data-en="You know, making sneakers in Japan was a big deal. This is the greatest gift ever because what young founders try to do is they try to get in touch with somebody like me, more important than me, and they try to say, oh, can I have coffee to learn?" aria-label="回原文"></button>。
 
-## 如果你明天拿到 50 万美元？
+读得杂一点，你在面试时会比所有同班同学更见多识广，别人给你贴的标签也会自动失效。
 
-老听众 David(上次来电后被拉进了 All In Summit)问：如果投资人白给你 50 万美元，第一步做什么？
+## 白捡 50 万美元，应该怎么花？
 
-Jason 给出三条路：**①投资自己**——买设备、软件、课程，打造技能栈；**②创办公司**；**③存起来做职业投资人**(天使或公开市场)。
+第二位来电的 David 在 All In Summit 上认识了一位纽约创业者，对方问他：如果明天给你 50 万美元、没有任何义务，你会做什么？
 
-他自己的答案是：如果 1996 年有人给他 50 万，他会直接办一个邮件通讯然后开始做天使投资。
+Jason 的框架很清晰：钱只有几个去处——投资自己的技能、开公司、投给市场或别人当投资人。
 
-David 想先合租省通勤、拿 25 万做一些天使投注，Jason 再加一条：
+但如果回到 1996 年有人给他 50 万，他会直接办杂志，或者干脆当科技行业的天使投资人 <button class="pd-ts" data-t="15:28" data-who="嘉宾" data-en="So if I had 500 and I could do it all over again, somebody gave me 500K in 1996, I would have started my magazine and instead of having no money, Except my credit cards, I would have had money and would have taken out the first year of struggle, or I would have become an angel investor." aria-label="回原文"></button>。
 
-**与其开公司不如先做小项目**，雇自由职业者也行，关键是把建一家公司的每个杂活都亲手学一遍——报税、谈保密协议、注册公司、做工资单。
+他特别提醒：别拿钱砸第一个想法去开公司。
 
-「通常你去为一个创业者打工，他们会把你放进一个更窄的盒子里……那样你就会变得温顺，也没什么大价值」。
+更好的做法是做一堆小项目，外包一些环节，把开公司的每个环节都亲手过一遍——从注册公司、发工资到谈保密协议。
 
-顺便有一个时代观察：今天的 50 万对开公司来说「钱太多了」——2026 年谁需要 50 万来开公司？你需要的只是每月一两万美元的开销。
+因为在老板手下做事，你只会被塞进一个越来越窄的盒子里，永远学不到全貌。真正值钱的是成为什么都能干的人。
 
-「事实是，大多数大型热门的 AI 模型都能很好地处理你的工作负载」。
+而且今天的 50 万其实太多了。他说 2026 年开公司根本不需要这么多，每月一两万美元、加一名员工就够，**钱太多反而变成干扰**。
 
-## 做医药 AI 工具：客户发现，甚至一点「企业情报」
+## 做科研工具的人，怎么找到第一个客户？
 
-第三位来电者 Ray 做蛋白质折叠用于药物发现的技术工具，问怎么进入医学领域。Jason 的路线图很实际：
+第三位来电者 Ray 做蛋白质折叠用于药物发现的工具，不熟悉医药行业，问怎么切入。Jason 的答案朴素得惊人：
 
-**先给这个领域创业公司的创始人发邮件约 20 分钟咖啡**，做「[[客户发现|客户发现]](customer discovery,即找潜在用户访谈、收集反馈)」——可以送 50 到 100 美元礼品卡换通话，出奇地有效。
+直接给制药公司的从业者发邮件，约 20 分钟咖啡，任何时候任何地点都行——这叫[[客户发现|客户发现]]，即当面拿真实用户反馈。
 
-他还讲了灰色的招数：
+他还讲了些更激进的路数：
 
-成立一个看起来中立的「研究机构」，给会计师、企业人士每小时 100 美元做 30 分钟「产品调研」，把你的真产品混在三四个产品里一起展示拿反馈——连 Ernst & Young 或毕马威都可能给你反馈。
+有人设一个研究机构当幌子，付 100 美元请目标公司的专家做 30 分钟访谈，一次给对方看几个产品（其中一个才是自己的），顺便收反馈。
 
-他说自己从没做过，但这就是「[[企业情报|企业情报]]」：
+Jason 说他没干过，但听说过。底线是不碰商业间谍、不诱导别人违反保密协议 <button class="pd-ts" data-t="32:29" data-who="嘉宾" data-en="But there's corporate intelligence. And if you start looking at corporate intelligence, and you can just go into any LLM and say, what are corporate intelligence techniques I can use that are not illegal, but that are darn clever?" aria-label="回原文"></button>。
 
-不偷文件、不违反保密协议就行，甚至可以直接问 LLM「有哪些不违法但又非常巧妙的商业竞争情报技巧」。「总体目标就是：
+核心逻辑只有一个：客户调研的每一步，都在为将来卖货铺路，受访者很可能就是你的第一批客户。
 
-无论你要做什么，都要让自己能出现在客户面前」——而且每次访谈既是反馈来源，也是潜在的第一批客户，一举两得。
+## AI 为什么反而越来越不会教人？
 
-## Aristotle:为什么大模型在教学上越变越差
+后半段的嘉宾 Sean Reddy 是 Aristotle 的联合创始人兼 CEO。这家公司做 13 到 18 岁学生的语音 AI 家教，网站是 HeyAristotle.com。
 
-嘉宾环节是重头。Sean Reddy 的 Aristotle 是面向高中生的语音 AI 导师，主打 AP、SAT、IB 等科目。
+他抛出的判断和大多数人直觉相反：**AI 在变强，但在教学上正在变差** <button class="pd-ts" data-t="45:55" data-who="嘉宾" data-en="The reason why you need a lab to do this is because AI is actually not getting better at teaching. It's actually getting worse. The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity." aria-label="回原文"></button>。
 
-他的核心主张很反直觉：**大实验室赌「扩展通用智能就能扩展教学能力」，但事实恰恰相反，模型在教学上正在变差**。原因：
+原因是大厂的路线是把通用智能越做越强，优化方向是长链条复杂推理、企业问答、编程。
 
-模型为长时程复杂推理和企业问答优化，带来的行为是高冗长度、答案生成极慢、话很多——对编程模型来说，用户不需要理解全部 1200 个步骤；
+这些任务的产物是废话多、回答慢、直接给答案。写代码时，AI 不需要你理解 1200 步里的每一步；
 
-但教学要的是让学生「生产性地挣扎」、动用自己的认知能力真正学到每一步，而不是直接拿答案。「模型在教学方面正在变差。
+但教学恰恰相反——老师必须让学生自己经历有效的挣扎，每一步都想明白，而不是把活儿全外包给 AI。
 
-我们正在试图改变这一点」。
+Aristotle 的解法是自己建了一套引擎，核心是预测「下一个最优教学动作」<button class="pd-ts" data-t="51:27" data-who="嘉宾" data-en="So Aristotle is generating these diagrams, this text all in real time, driven by the secret sauce of all of this, which is optimal next pedagogical action prediction." aria-label="回原文"></button>。
 
-**怎么做**：Aristotle 复刻「坐在人类导师旁边」的体验——导师主导议程、从学生身上引出问题、诊断误解。
+这个词听起来玄，其实人类好老师天天在做：学生卡住时，有时该讲解，有时该沉默几秒，有时该画图，有时该换一道例题。
 
-引擎预测的是「下一个最优教学动作」，有时是讲解，有时是沉默、画图、白板高亮、出新题。
+语言模型默认只会一种反应——输出文字解释。
 
-演示里白板本质是一个代码沙箱，图表实时生成。他们 fork 开源模型、自建 harness 和[[后训练|后训练]]：
+Aristotle 训练的模型会判断此时此刻该用哪种方式，还在白板上实时画图，让学生感觉就像坐在真人家教旁边。
 
-针对出题、读白板状态、理解学生语音等子问题分别训练专用模型，因为任务太过多模态，一个通用模型并不合理。
+## 一对一教学是千年来最好的学习方式，但只有五十二分之一的人享受过
 
-**数据护城河**：
+Sean 提到了教育学的著名研究 Bloom's Two Sigma：教育学者 Benjamin Bloom 发现，一对一辅导能把学习效果提升两个标准差——也就是从中等生直接变成尖子生。
 
-没有现成的一对一教学数据——连学习科学文献里都没有「什么是好的教学」的启发式标准(学生一句「嗯」可能代表饿了、无聊或在思考，必须听语音、看上下文才能给标注打正负权重)。
+问题是美国每 52 个学生里不到 1 个有私人家教，所以这被称为一个问题：**最好的方法无法规模化** <button class="pd-ts" data-t="54:16" data-who="嘉宾" data-en="There's the famous Bloom's Two Sigma problem. Well, oh, tell us what that is, since people are going to right now typing it in saying, what's the Bloom's problem?" aria-label="回原文"></button>。
 
-所以他们雇了一支导师团队，人工评分数千小时的教学场次来造[[训练数据|训练数据]]。「它确实不存在，但我们不卖。
+这也是 Jason 认为教育系统不公平的根源：有钱请家教的孩子天然碾压其他人。而 AI 家教第一次让这件事有了普及的可能。
 
-它是我们的」——而且这是 18 岁以下学生数据，必须严格锁死。
+商业模式像传统家教：按次收费，8 节课约每月 50 美元，无限使用约每月 200 美元。不便宜，因为质量确实接近真人。
 
-**为什么是一对一**：
+Sean 转述一位家长的话：女儿跟 Aristotle 学 3 小时，比在公立学校一个月学到的还多 <button class="pd-ts" data-t="63:08" data-who="嘉宾" data-en="That data simply does not exist right now. And so are you making the training data? Are you working with any of the data labs to do it?" aria-label="回原文"></button>。
 
-经典的 Bloom 两个标准差问题——Benjamin Bloom 的著名研究发现一对一辅导能带来两个标准差的学习提升，但美国每 52 个学生里不到 1 个有私人导师。
+## 防御大厂的关键：别人没有的教学数据
 
-商业模型也照搬辅导行业：
+Jason 追问了一个尖锐问题：如果只是套壳调用大模型，OpenAI 转身自己做家教怎么办？Cursor 和 Figma 都吃过这个亏。
 
-按次收费、课程包，50 美元/月八次课，199 美元/月无限次(有学生每月上 60 小时以上)——刻意贴近真人辅导的定价，因为质量也贴近了。
+Sean 的回答分三层。第一，没有任何大厂在做家教模型和家教框架，这个赛道目前只有他们。
 
-**对教育的判断**：
+第二，他们在自建行业内第一套「什么是一对一好教学」的评测标准——学习科学文献里连启发式规则都没有，因为一个学生说嗯可能是饿了、无聊了，也可能是在思考，必须结合语音和上下文判断 <button class="pd-ts" data-t="60:00" data-who="嘉宾" data-en="Two, we are building our own internal set of benchmarks and evals, which are the first of its kind, defining what is good one-on-one human-to-AI instruction. This doesn't exist." aria-label="回原文"></button>。
 
-美国生均教育支出指数级增长，而数学、读写、一对一教学时间等所有指标都在下降，「我们在越来越差的产品上花费越来越多的钱」。
+第三，**他们有一个真人导师团队，人工批注数千小时的教学录音来造[[训练数据|训练数据]]**。
 
-他的愿景是 AI 把「教」这件事解决掉，公立学校回归情感、社交、体育和托儿的功能；
+这些是 18 岁以下学生的数据，他们承诺绝不外售，只用来训练自己的模型 <button class="pd-ts" data-t="63:46" data-who="嘉宾" data-en="It does not exist, but we're not selling it. It's ours. We're going to make our product amazing with it." aria-label="回原文"></button>。
 
-有家长告诉他，女儿跟 Aristotle 学三小时比公立学校一个月学得还多。
+他还透露公司在做[[后训练|后训练]]：
 
-Jason 补充预言：做得成功后会被「拖进」课堂给老师做仪表盘——[[Khan Academy|Khan Academy]] 就是这么走过来的。
+分别训练擅长出数学题、读白板状态、理解学生语音的多个模型，再组合进教学引擎，而不是指望一个通用模型包打天下。
+
+## 学校会被替代吗？
+
+Jason 问了所有家长关心的问题：孩子都跟 AI 学了，一天上八小时学干嘛？
+
+Sean 自己毕业于拉斯维加斯一所经费严重不足的公立学校，对美国教育看得很透：
+
+每个学生的支出指数级上涨，数学、阅读等各项成果却在下滑——**花的钱越来越多，产品越来越差** <button class="pd-ts" data-t="66:42" data-who="嘉宾" data-en="And so I think one of the challenges here is that The product that the public sector is putting out there is not great in most geographies and is getting worse. There's a very famous graph out there about the exponential increase in per student education expenditure in the U.S. and decreasing outcomes along every meaningful access, one-on-one teaching time, math, literacy, reading comprehension, and so on." aria-label="回原文"></button>。
+
+他的愿景是分工：AI 负责把知识和课程解决掉，按每个学生的节奏个性化交付；
+
+学校则腾出来做 AI 干不了的事——情感、社交、体育教育。
+
+他给老师的类比是：想象有一个深度了解你每个学生的助教，在课外帮他们补课。
+
+他自己的双胞胎在蒙特梭利学校，他相信那种重社交、重真实世界的模式就是方向。
 
 ## 本集带走
 
-- **AI first 学习法**：老师教什么，都先问 AI「我如何在这件事上超人」，并自建智能体一对一补高级内容。
-- **传记阅读法**：一月一本、一年至少十本，不限行业——用几十本书代替约牛人喝咖啡。
-- **50 万美元三选一**：投资自己(技能栈)、开公司、或做职业投资人；今天开公司只需每月一两万美元，钱多是干扰。
-- **先做项目再开公司**：报税、NDA、注册、工资单，每个杂活亲手学一遍，别让自己被装进窄盒子。
-- **冷启动客户**：直接邮件约创始人 20 分钟咖啡，或用礼品卡换客户发现访谈；目标是「不惜一切出现在客户面前」。
-- **AI 教育的洞**：通用智能 ≠ 教学能力；好的教学要预测「下一个最优教学动作」(沉默、画图、出新题)，而这类训练数据目前全世界都没有，得自己人工标注。
+- 一年读十本传记（听书也算），是年轻人最划算的自我投资，比约前辈喝咖啡有用得多。
+- 拿到一笔钱别急着开公司，先做一堆小项目，把开公司的每个环节都亲手学一遍。
+- 模型越强不等于越会教：教学需要判断下一步该讲、该画图还是该闭嘴，这和直接给答案是两条技术路线。
+- Bloom 的研究证明一对一辅导效果拔群，但每 52 个美国学生里不到 1 个享受过，AI 家教第一次让它有了普及的可能。
+- 垂直 AI 公司的护城河可以是独家数据：Aristotle 靠人工批注数千小时教学录音，造出了世界上不存在的训练集。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>19 条</span></div>
 
-> <span class="qz">大型实验室下的赌注是，扩展通用智能就会扩展教学能力。不幸的是，情况并非如此。</span>  
-> *The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity. Unfortunately, that has not been the case.*  
-> <span class="qm">—— 嘉宾 · [45:56]</span> ^q1
+> <span class="qz">我在等某个有野心的年轻人在学校里就做出这样的东西。那会改变你的一切。</span>  
+> *I'm waiting for some ambitious kid who does that while they're at school. And that will change everything for you.*  
+> <span class="qm">—— Jason · [05:44]</span> ^q1
 
-> <span class="qz">模型在教学方面正在变差。我们正在试图改变这一点。</span>  
-> *Models are getting worse at teaching. We're trying to change that.*  
-> <span class="qm">—— 嘉宾 · [47:32]</span> ^q2
+> <span class="qz">这是有史以来最棒的礼物，因为年轻创始人试图做的事情是，他们试图联系上像我这样的人，或者比我更重要的人，然后试图说：哦，我能约杯咖啡请教一下吗？</span>  
+> *This is the greatest gift ever because what young founders try to do is they try to get in touch with somebody like me, more important than me, and they try to say, oh, can I have coffee to learn?*  
+> <span class="qm">—— Jason · [07:08]</span> ^q2
 
-> <span class="qz">我们只是想用软件交付一对一辅导体验，而这种体验在字面意义上的几千年来一直被认为是最好的学习方式。</span>  
-> *We're trying to just deliver in software the one-on-one tutoring experience that has been known to be the best way to learn for literally thousands of years.*  
-> <span class="qm">—— 嘉宾 · [53:46]</span> ^q3
+> <span class="qz">别害怕去读那些和你的行业毫无关系的人的传记。</span>  
+> *And don't be scared to read biographies of people who have nothing to do with your industry.*  
+> <span class="qm">—— Jason · [07:22]</span> ^q3
 
-> <span class="qz">它确实不存在，但我们不卖。它是我们的。</span>  
-> *It does not exist, but we're not selling it. It's ours.*  
-> <span class="qm">—— 嘉宾 · [63:43]</span> ^q4
+> <span class="qz">当我是那个布鲁克林小孩的时候，他们试图把我塞进一个盒子里，然后我直接打破了盒子。我把盒子点着了。</span>  
+> *When I was the kid from Brooklyn, they tried to keep me in a box, and then I just broke the box. I lit the box on fire.*  
+> <span class="qm">—— Jason · [08:14]</span> ^q4
 
-> <span class="qz">昨天有一位家长告诉我，他们的女儿觉得她和 Aristotle 学三个小时学到的东西，比过去一个月在公立学校学到的还多，这一方面对教育体系来说有点扎心，另一方面对我们的产品来说也真的令人兴奋。</span>  
-> *I had a parent tell me yesterday that their daughter feels like she's learned more in three hours with Aristotle than in the last month of public school, which is, on one hand, it's kind of damning for the education system and also really exciting for our product.*  
-> <span class="qm">—— 嘉宾 · [64:08]</span> ^q5
+> <span class="qz">因为有时候时间才是你没有的东西。</span>  
+> *Because sometimes time is what you don't have.*  
+> <span class="qm">—— Jason · [14:10]</span> ^q5
 
-> <span class="qz">所以我们在越来越差的产品上花费越来越多的钱。</span>  
-> *So we're spending more and more on worse product.*  
-> <span class="qm">—— 嘉宾 · [67:05]</span> ^q6
-
-> <span class="qz">它来自前沿实验室，他们已经发现，每当他们发布一个版本，说他们的产品强大得不可思议、能入侵系统等等，他们的使用量就会上升。</span>  
-> *It's coming from the frontier labs who have learned that every time they put a release out, that their products are incredibly powerful and can hack a system, et cetera. Their usage goes up.*  
-> <span class="qm">—— Jason · [34:40]</span> ^q7
-
-> <span class="qz">他们认为自己在制造盒子里的神，而且只有他们才有资格被信任保管盒子里的神。</span>  
-> *They think they're making God in a box and that they're the only ones who can be trusted with God in a box.*  
-> <span class="qm">—— 嘉宾 · [35:58]</span> ^q8
-
-> <span class="qz">你要成为的是不可阻挡的人，你什么都会做，从报税到谈判保密协议，从注册公司到做工资单。</span>  
+> <span class="qz">你要成为的是不可阻挡的人，你什么都会做，从报税到谈判保密协议，从注册 LLC 到做工资单。</span>  
 > *What you want to be is unstoppable, that you can do every single thing, from your taxes to negotiating a non-disclosure agreement, from starting an LLC, doing your payroll.*  
-> <span class="qm">—— Jason · [17:48]</span> ^q9
+> <span class="qm">—— Jason · [17:48]</span> ^q6
+
+> <span class="qz">2026 年谁需要 50 万美元来开公司？</span>  
+> *Who needs 500 grand to start a company in 2026?*  
+> <span class="qm">—— 嘉宾 · [19:32]</span> ^q7
+
+> <span class="qz">你知道，他们在大公司每天真正工作三个小时，然后五点二十九分打卡走人，站在电梯口等着。</span>  
+> *You know, they put in three hours a day of work at these big companies and then they punch out at 5.29 and they're at the elevator banks.*  
+> <span class="qm">—— Jason · [27:36]</span> ^q8
 
 > <span class="qz">在某个时刻，你会对收到的「不」的次数免疫。</span>  
 > *You will be impervious to the number of no's you get at a certain point.*  
-> <span class="qm">—— Jason · [28:58]</span> ^q10
+> <span class="qm">—— Jason · [28:58]</span> ^q9
 
-> <span class="qz">如果你开始研究企业情报，你可以随便进任何一个 LLM 然后说，有哪些不违法但又非常聪明巧妙的商业竞争情报技巧可以用？</span>  
-> *And if you start looking at corporate intelligence, and you can just go into any LLM and say, what are corporate intelligence techniques I can use that are not illegal, but that are darn clever?*  
-> <span class="qm">—— Jason · [32:29]</span> ^q11
+> <span class="qz">它来自前沿实验室，他们已经发现，每当他们发布一个版本，说他们的产品强大得不可思议、能入侵系统等等，他们的使用量就会上升。</span>  
+> *It's coming from the frontier labs who have learned that every time they put a release out, that their products are incredibly powerful and can hack a system, et cetera. Their usage goes up.*  
+> <span class="qm">—— Jason · [34:40]</span> ^q10
+
+> <span class="qz">他们认为自己在制造盒子里的神，而且只有他们才有资格被信任保管盒子里的神。</span>  
+> *They think they're making God in a box and that they're the only ones who can be trusted with God in a box.*  
+> <span class="qm">—— 嘉宾 · [35:58]</span> ^q11
+
+> <span class="qz">我从来没有一次在和聊天机器人或 AI 的接触中觉得这东西是活的。</span>  
+> *I've never once had an encounter with a chatbot or an AI where it made me think like this thing is alive.*  
+> <span class="qm">—— 嘉宾 · [39:48]</span> ^q12
+
+> <span class="qz">他们处于一种精神失常状态。这是一种可以理解的精神失常。</span>  
+> *They're in a psychosis. It's an understandable psychosis.*  
+> <span class="qm">—— Jason · [40:44]</span> ^q13
+
+> <span class="qz">它实际上变得更差了。大型实验室下的赌注是，扩展通用智能就会扩展教学能力。不幸的是，情况并非如此。</span>  
+> *It's actually getting worse. The bet that the big labs have made is that scaling general intelligence is going to scale pedagogical capacity. Unfortunately, that has not been the case.*  
+> <span class="qm">—— 嘉宾 · [45:55]</span> ^q14
+
+> <span class="qz">模型在教学方面正在变差。</span>  
+> *Models are getting worse at teaching.*  
+> <span class="qm">—— 嘉宾 · [47:32]</span> ^q15
+
+> <span class="qz">我们只是想用软件交付一对一辅导体验，而这种体验在字面意义上的几千年来一直被认为是最好的学习方式。</span>  
+> *We're trying to just deliver in software the one-on-one tutoring experience that has been known to be the best way to learn for literally thousands of years.*  
+> <span class="qm">—— 嘉宾 · [53:46]</span> ^q16
+
+> <span class="qz">昨天有一位家长告诉我，他们的女儿觉得她和 Aristotle 学三个小时学到的东西，比过去一个月在公立学校学到的还多，这一方面对教育体系来说有点扎心，另一方面对我们的产品来说也真的令人兴奋。</span>  
+> *I had a parent tell me yesterday that their daughter feels like she's learned more in three hours with Aristotle than in the last month of public school, which is, on one hand, it's kind of damning for the education system and also really exciting for our product.*  
+> <span class="qm">—— 嘉宾 · [64:08]</span> ^q17
+
+> <span class="qz">公共部门推出的产品在大多数地区都不太好，而且还在变得更糟。</span>  
+> *The product that the public sector is putting out there is not great in most geographies and is getting worse.*  
+> <span class="qm">—— 嘉宾 · [66:42]</span> ^q18
+
+> <span class="qz">所以我们在越来越差的产品上花费越来越多的钱。</span>  
+> *So we're spending more and more on worse product.*  
+> <span class="qm">—— 嘉宾 · [67:05]</span> ^q19
 
 <div class="pd-sec">接着看</div>
 

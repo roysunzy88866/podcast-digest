@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(40:37起):本集说 Lada 最早用 Windsurf 的 Agent,但要在它和 IntelliJ 重构工具间来回切换让她不满,最终转向终端。
 - **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(23:24起):本集说公司里大约三分之一的人使用 AI 编码工具，比如 Windsurf
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(15:52起):本集提到 Windsurf 在 YC 圈子里获得大量用户使用，形成了一波运动
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(41:09起):本集提到它同样被切断过 API,用来说明供应商风险是真实的。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(41:09起):本集提到它同样被切断过 API,用来说明供应商风险是真实的。
 
 ## ① 提到它的金句
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为被讨论公司(提及)
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

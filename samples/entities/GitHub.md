@@ -39,7 +39,7 @@ unlisted: true
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):仅在片头广告里作为 AI DevCon 演讲方被列名，本集未讨论。
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(01:36起):本集说 GitHub 的 Copilot 评审员已完成 6000 万次评审,占 GitHub 全部代码评审的五分之一以上,机器评审已是主流默认。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(45:01起):本集说 NVIDIA 把核心开放模型资源、示例 recipe 和 cookbook 放在 GitHub 上，帮助开发者学习他人的用法。
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(10:35起):本集提到 Mercari 用批量变更产品修补一个 GitHub 代码注入漏洞(需正确设置环境变量)。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(10:35起):本集提到 Mercari 用批量变更产品修补一个 GitHub 代码注入漏洞(需正确设置环境变量)。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(25:53起):本集在列举她当年按三条标准筛选出的、有兴趣加入的五家公司时顺带提到(Stripe、GitHub、Slack)。
 
 ## ① 提到它的金句
@@ -86,7 +86,7 @@ unlisted: true
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司(提及)
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念(提及)
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为概念(提及)
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为概念(提及)
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

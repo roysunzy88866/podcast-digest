@@ -101,7 +101,7 @@ unlisted: true
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(07:47起):本集提到他们半年前在 Claude Code 上花得太多，才被迫自己造 harness。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集说 Claude Code、Codex、Cursor 这些工具「非常出色，但它们会带来更多代码和更多复杂性」，也提到团队用它们搭基于规则的自动化循环，但遇到没见过的新情况就失效。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(01:35起):本集用它做了黑自己的演示:五个提示词就让它找出浏览器历史、银行数据等 PII,以此说明在提示词层设防不管用、需要沙箱隔离。
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(06:45起):本集引某银行技术负责人原话:「当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。」
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(06:45起):本集引某银行技术负责人原话:「当然,Claude Code 可以做出这个修改,但我有 9 万个仓库要做这个修改。」
 - **[[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]]**(02:03起):本集把它说成：在终端里跑模型的通用编码工具，适合快速做原型，但生成的代码没人能检查，与 N8N 是互补而非竞品。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(02:02起):本集说它发布后几个月没人用，后来出现巨大跃迁，猜测是 Anthropic 把智能体轨迹放进了训练分布——证明问题不在外壳在智能。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
@@ -132,7 +132,7 @@ unlisted: true
 
 ![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q2]]
 
-![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
+![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q7]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
 
@@ -233,7 +233,7 @@ unlisted: true
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念(提及)
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为概念(提及)
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为概念(提及)
 - [[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]] — 作为被讨论公司
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司

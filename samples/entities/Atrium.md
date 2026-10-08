@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(03:08起):本集介绍 Justin 在 2019 年访谈时刚把法律科技公司 Atrium 做完 B 轮 6500 万美元融资，不到一年后关闭。
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(02:24起):内部副项目：聊天+记忆应用，智能体开工前注册声明要动的文件、互相协调，并接 Neo4j 做智能体记忆
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(02:24起):内部副项目：聊天+记忆应用，智能体开工前注册声明要动的文件、互相协调，并接 Neo4j 做智能体记忆
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 
 ## ③ 关联
 

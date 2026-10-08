@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(00:04起):Meta 刚发布的个人智能体及硬件 Muse charm（有摄像头和多个麦克风）；嘉宾的犀利论断是它更多是为了现实世界数据收集、喂给 Zuckerberg 的元宇宙，Shopify 拥抱了它而 Amazon 屏蔽了它
 - **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(00:26起):本集说 Muse 的用户体验对消费者更友好、头像超可爱,消费场景 Claire 觉得它比 dot 更好上手。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(06:33起):本集说 Muse 是最大的消费助手之一，前 12 天约 50 万下载、25 万活跃用户，但与 Threads 同期 1600 万下载相比仍有差距；被 Amazon 拒绝在其站点购物，已与 Shopify 等几百家产品合作。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(00:03起):本集说 Muse 是 Meta 的个人助手产品，MG 自称意外地发现它从一开局就做得非常好，被 Amazon 封锁但获得 Shopify 合作。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Muse 是 Meta 的个人助手产品，MG 自称意外地发现它从一开局就做得非常好，被 Amazon 封锁但获得 Shopify 合作。
 
 ## ① 提到它的金句
 
@@ -33,7 +33,7 @@ unlisted: true
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -13,8 +13,6 @@ unlisted: true
 
 *5 条*
 
-![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q1]]
-
 ![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q2]]
 
 ![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q3]]
@@ -23,11 +21,13 @@ unlisted: true
 
 ![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q5]]
 
+![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q6]]
+
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为联合主持
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为联合主持
 
 ## ③ 他谈到的
 

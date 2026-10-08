@@ -1,12 +1,12 @@
 ---
-title: "拥有你的智能:LangChain 的三大支柱与全新发布"
+title: 模型不再是护城河，谁在围绕模型建「自己的智能」
 podcast: 精选演讲
 date: 2026-10-08
 source_url: undefined
 duration: "32:03"
 type: episode
 cover: "#64748b"
-description: "LangChain 在 Interrupt 纽约大会的主题演讲:为什么企业要「拥有自己的智能」,以及围绕运行时、可观测性、智能层的一系列新发布。"
+description: LangChain 创始人在 Interrupt NYC 大会开场演讲，讲为什么「拥有你的智能」成了 2026 年 AI 应用的关键词。
 companies: ["[[LangChain]]", "[[LangSmith]]", "[[LangGraph]]", "[[DeepAgents]]"]
 concepts: ["[[智能体]]", "[[harness]]", "[[拥有你的智能]]", "[[评估]]", "[[轨迹数据]]", "[[trace]]", "[[微调]]", "[[后训练]]", "[[决策模型]]", "[[护栏]]", "[[模型路由]]", "[[LLM 网关]]", "[[红队测试]]", "[[可观测性]]", "[[governance]]"]
 category: 智能体
@@ -14,135 +14,151 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote#post","headline":"拥有你的智能:LangChain 的三大支柱与全新发布","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote","description":"LangChain 在 Interrupt 纽约大会的主题演讲:为什么企业要「拥有自己的智能」,以及围绕运行时、可观测性、智能层的一系列新发布。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"LangSmith"},{"@type":"Organization","name":"LangGraph"},{"@type":"Organization","name":"DeepAgents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"拥有你的智能 (owning your intelligence)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"轨迹数据 (trajectory)"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"决策模型 (decision model)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"模型路由 (model routing)"},{"@type":"Thing","name":"LLM 网关 (LLM gateway)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"governance"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"拥有你的智能:LangChain 的三大支柱与全新发布","item":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote#post","headline":"模型不再是护城河，谁在围绕模型建「自己的智能」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote","description":"LangChain 创始人在 Interrupt NYC 大会开场演讲，讲为什么「拥有你的智能」成了 2026 年 AI 应用的关键词。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"LangSmith"},{"@type":"Organization","name":"LangGraph"},{"@type":"Organization","name":"DeepAgents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"拥有你的智能 (owning your intelligence)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"轨迹数据 (trajectory)"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"决策模型 (decision model)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"模型路由 (model routing)"},{"@type":"Thing","name":"LLM 网关 (LLM gateway)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"governance"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"模型不再是护城河，谁在围绕模型建「自己的智能」","item":"https://talk.solomind.cc/2026-10-05-talks-interrupt-nyc-opening-keynote"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>拥有你的智能:LangChain 的三大支柱与全新发布</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>模型不再是护城河，谁在围绕模型建「自己的智能」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 拥有你的智能:LangChain 的三大支柱与全新发布
+# 模型不再是护城河，谁在围绕模型建「自己的智能」
 
 <div class="pd-byl">2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-talks-interrupt-nyc-opening-keynote.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">模型本身正在变得有些商品化,真正起作用的是围绕模型的这一切,尤其是数据。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="03:32" data-who="嘉宾" data-en="the models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data" aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">模型本身正在变得有些商品化，而真正起作用的是围绕模型的这一切，尤其是数据。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="03:32" data-who="嘉宾" data-en="The models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[LangChain]] · [[LangSmith]] · [[LangGraph]] · [[DeepAgents]]
 >
 > **概念** [[智能体]] · [[harness]] · [[拥有你的智能]] · [[评估]] · [[轨迹数据]] · [[trace]] · [[微调]] · [[后训练]] · [[决策模型]] · [[护栏]] · [[模型路由]] · [[LLM 网关]] · [[红队测试]] · [[可观测性]] · [[governance]]
 
-这一集是 [[LangChain|LangChain]] 在其开发者大会 Interrupt(首次在纽约举办)上的开场主题演讲。
+[[LangChain|LangChain]] 是最早的大模型应用框架之一，比 ChatGPT 还早一个月问世。
 
-核心话题是一个正在业内流行的说法——「[[拥有你的智能|拥有你的智能]]」(owning your intelligence):公司不再只是调用别人的模型,而是在模型内部和周围构建大量领域专属的东西,让 AI 真正成为自己产品的护城河。
+在纽约举办的首届 Interrupt 大会上，创始人做了一场开场主题演讲，回顾了过去三年从原型到[[智能体|智能体]]的演变，并发布了一串新产品。
 
-演讲抛出的核心判断是:**模型本身正在商品化,真正的差异化在模型之外——尤其是数据**:无论是你喂给模型的实际上下文,还是你烘焙进执行框架里的领域专属逻辑。
+整场演讲围绕一个核心判断：**模型本身正在被商品化，真正的差异化在模型之外**。
 
-「拥有智能」之所以此刻爆发,有三个原因:token 成本大幅上升,企业要掌控 ROI;开源权重模型越来越好,既能省钱又能定制;以及上面这条——模型趋同,周边才是壁垒。
+## 过去三年发生了什么？
 
-## 三个支柱:可控、复利、治理
+演讲者给了一条清晰的时间线：2023 年大家在搭原型；2024 年一些简单应用上了生产环境，但都只是单次调用大模型；
 
-LangChain 把「拥有智能」拆成三个核心支柱:
+2025 年开始探索智能体；到了今年，智能体已经真正改变了应用层 <button class="pd-ts" data-t="00:08" data-who="嘉宾" data-en="Welcome to Interrupt, everyone. Isn't this awesome? This is crazy." aria-label="回原文"></button>。
 
-**第一,开放且可控的 harness**(harness 即执行框架——把模型和领域上下文接线连接、让模型在正确的时间看到正确上下文的那一层)。
+他举了几个例子。Rogo 为金融领域做了专门的智能体运行框架和[[模型路由|模型路由]]；Harvey [[微调|微调]]出了法律领域表现最好的模型；
 
-它必须是**模型中立的**:这既是进攻——最好的新模型一出来(无论来自 OpenAI、Anthropic 还是 TypeSafe),你能立刻切换过去;也是防御——不被单一供应商锁定、任其涨价。
+JPMorgan Chase 则在内部围绕模型定制框架，服务于他们的 Jarvis 流水线。
 
-控制手段包括开源的 [[LangGraph|LangGraph]](用有向图编排[[智能体|智能体]]流程)、新的 [[DeepAgents|DeepAgents]],以及往核心智能体循环里注入决策的 middleware。
+这些公司的共同点是：不是简单套壳，而是围绕模型建了大量领域专属的东西——这就是他要讲的[[拥有你的智能|拥有你的智能]]。
 
-**第二,复利式增长**。
+## 为什么现在人人都在谈拥有你的智能？
 
-发布一个智能体离成功还很远,关键是把用户使用中的错误和经验不断喂回去——人工改代码改 prompt 也好,用记忆或 prompt 优化工具自动化也好。
+三个原因。第一，token 成本在飞涨，公司花在 AI 上的钱越来越多，自然要求可控的投资回报 <button class="pd-ts" data-t="02:53" data-who="嘉宾" data-en="First, token costs are rising a lot. People are spending more and more on AI and so as they do so they want to make sure that they're getting the proper ROI and being able to control and monitor token costs is really important and so owning your intelligence in that regard is a key factor." aria-label="回原文"></button>。
 
-演讲里最有力的一句方法论是:**如果你能比任何人都更好地定义你的领域里什么算「好」,你就能为那个领域构建出最好的智能体**——具体做法就是用 evals([[评估|评估]]集)定义「好」,然后在 evals 上爬山。
+第二，开源模型越来越强，不仅便宜，还能做[[后训练|后训练]]和深度定制。第三，也是最重要的：
 
-**第三,[[governance|治理]]**。这对内部智能体尤其关键:你得知道有多少智能体在跑、能控成本、能管权限——不同的人只能访问他该访问的东西。
+模型本身正在被商品化，真正的差异化来自模型外围的东西——你喂给它的上下文数据、你写进框架里的领域逻辑。
 
-支撑这三支柱的组织形态也变了:核心平台工程师做底座,其外是「智能体工程师」——数据科学家、工程师、机器学习工程师的奇怪混合体,一种全新技能组合;最外圈是领域专家,他们往往才是最该决定「什么算好」的人,所以平台必须能触达非开发者。
+## 通往拥有智能的三大支柱
 
-流程上则是「构建→测试→部署→监控」,再把监控所得带回构建的迭代闭环。
+第一是开放可控的框架。它必须模型中立——进攻上说，新模型一出你就能马上切换；防守上说，不会被单一供应商锁死涨价 <button class="pd-ts" data-t="04:47" data-who="嘉宾" data-en="This is both offensive and defensive. When the best new model comes out, whether it's from OpenAI or Anthropic or TypeSafe with some of their dev models, you want to be able to switch your harness to that as quickly as possible." aria-label="回原文"></button>。
 
-## 运行时:智能体三件套 + 新发布
+第二是复利。
 
-一个智能体由三部分组成:**业务逻辑**(指令、工具、技能、钩子——金融智能体和法律智能体的技能截然不同,这是你要提供的)、**harness**、以及**基础设施**(持久执行、安全访问工具、运行智能体写的代码——很多非编码智能体也在写代码、访问模型)。
+上线一个智能体离成功还很远，你要观察它怎么被使用、在哪里犯错，然后不断迭代——可能是人工改提示词，也可能是自动的记忆和优化机制。
 
-DeepAgents 是最新的开源开箱即用 harness,大量借鉴编码智能体的做法:带文件系统和沙箱的执行环境、用压缩做上下文管理,但目的是让你构建领域专属智能体。
+他的原话大意是：**谁能最好地定义自己领域里什么是好，谁就能做出该领域最好的智能体** <button class="pd-ts" data-t="06:32" data-who="嘉宾" data-en="Or more automatically, whether that's with memory or prompt optimization things, this compounding loop is really important to build into your systems and to own." aria-label="回原文"></button>。
 
-而 **Managed Deep Agents** 把 harness 和托管基础设施合成一个——你只提供业务逻辑就能上生产,演讲称之为「公司 harness」,让组织内部构建和共享智能体变得非常容易。
+第三是[[governance|治理]]。公司内部跑着一堆智能体时，你得知道它们有多少、成本多少、权限对不对。
 
-本次新发布三件事:一是**认证原语**——内部智能体最难的恰恰是认证:智能体连 Notion 或 Jira 时,是以用户身份还是固定服务身份连接?
+## 人和流程也得跟着变
 
-新引入 connections(工具级认证)、agent identity(整体定义为用户权限还是服务权限)、channels(比如 Slack 共享频道里你和同事都发消息,用谁的认证、对哪些运行生效,全部内置处理)。
+组织上，他看到 3 层人：最里层是平台工程师，提供工具给其他人用；
 
-二是**用户级记忆**——此前只有智能体级记忆,现在能记住每个个别用户的偏好。
+中间是智能体工程师——一种数据科学家、工程师和机器学习工程师的混合新角色；
 
-三是**内置工具**——通过 parallel 接入网页搜索,不用再单独申请 API 密钥。
+外围是业务专家，他们往往最清楚什么是好，所以平台得能触达这些不写代码的人 <button class="pd-ts" data-t="08:08" data-who="嘉宾" data-en="Outside of that, we see agent engineers. So this is a great term to describe the weird hybrid mix of data scientist and engineer and machine learning engineer that makes up the people who are driving these agents." aria-label="回原文"></button>。
 
-另一个新物种是**[[决策模型|决策模型]]**。
+流程上，智能体开发是一个循环：构建、测试、部署、监控，再把监控发现的问题带回构建环节。
 
-周末刚发布的 Jev 是个新型模型:你发给它一个状态和一串问题,它对问题评分——布尔值、分数或分类选择都行——**它不能生成文本,但能做决策**。
+## 一个智能体由三块组成
 
-虽受限,用处很大:评估(智能体运行中实时评分、实时抓错)、[[护栏|护栏]](传统护栏的致命缺点是加延迟,低延迟护栏就非常强大)、以及[[模型路由|模型路由]](选哪个模型、加载哪些技能或工具)。
+技术层面，他把智能体拆成三部分。业务逻辑（指令、工具、技能）由你自己写；
 
-JEV 发布后开源决策模型已大规模爆发,[[LangSmith|LangSmith]] 网关除了 Jev 还托管了一个开源决策模型 semif。
+框架负责把模型和领域上下文接好线，让模型在对的时机看到对的信息；
 
-**LangSmith [[LLM 网关|LLM 网关]]**(一两个月前 beta)的主张很直接:出于治理和成本控制,你应该把**所有** AI 流量——包括 Codex、Claude Code、Cursor 这些编码智能体的——都路由到统一网关。
+基础设施则负责上云——持久化执行、安全访问工具、运行模型生成的代码等。
 
-核心功能:按团队、用户、API 密钥设消费限额;速率限制;模型出错时回退到其他提供商;即将推出的**有状态回退**——发现 Anthropic 宕机,接下来 10 到 30 分钟直接切 OpenAI,不用再试。
+他们最新的开源框架 [[DeepAgents|DeepAgents]] 就是一个现成的框架，借鉴了编程智能体的做法：
 
-格式上统一规范为 OpenAI 和 Anthropic 消息格式,也支持直接透传以第一时间用上新功能。
+带沙盒文件系统和上下文压缩，专门用来做领域智能体。
 
-## 可观测性:轨迹成为核心原语
+今天还发布了 Managed Deep Agents，把框架和托管基础设施打包，新增了身份认证机制、用户级记忆，以及通过 Parallel 内置的联网搜索。
 
-[[可观测性|可观测性]]是复利循环的燃料,而 **trace**([[trace|追踪记录]])是这个循环的核心——它是记录系统,展示智能体每一步做了什么。
+## Jev 开创的决策模型值得关注
 
-原有三级原语:run 是一次 LLM 调用,trace 是智能体的一次调用,thread 是多轮交互下的一系列 trace。
+演讲里最有新意的判断是关于 Jev 这个周末刚发布的新模型类型。
 
-但现在有了更有用的标准:**trajectory([[轨迹数据|轨迹]])**——如今大多数智能体都是在循环里跑 LLM、编译出一个消息列表,这个列表是标准格式,可以到处复用。
+**它不生成文本，只做决策：你给它一个状态和一组问题，它返回布尔判断、分数或分类选择** <button class="pd-ts" data-t="16:03" data-who="嘉宾" data-en="And so what exactly is Jev? It's a decision model. What does that mean?" aria-label="回原文"></button>。
 
-LangSmith trajectories 带来三大好处:调试快得多——数千次迭代的复杂 trace 原本很难解析,新 UI 把冗长的工具调用压缩展示,像用编码智能体一样一眼扫过;标注简单了——看得清才好留反馈;以及**让[[后训练|后训练]]模型容易得多**——后端解析各种 SDK 和编码智能体传来的复杂格式,统一暴露成标准 trajectory,可直接用于[[微调|微调]]。
+这类[[决策模型|决策模型]]的用武之地：给智能体的输出实时打分、在环[[评估|评估]]、低延迟的[[护栏|护栏]]、以及路由——决定该用哪个模型、哪个工具。
 
-微调 = 数据 + 推理训练基础设施,LangSmith 要把两者接起来:新发布的 **SmithTune CLI** 让你选择 traces、筛出相关部分、预处理成微调就绪的数据,然后传入 Fireworks 或 Base 10 做实际训练,再评估,产出优化过的模型。
+开源社区在 Jev 之后涌现了一大批同类模型，[[LangSmith|LangSmith]] 的网关会托管这些。
 
-存储层是自研的 SmithDB——专为智能体工作负载打造,摄取、存储、查询都快得多。
+## 数据飞轮：从轨迹到微调
 
-另发布了 **LangSmith custom apps**:可以理解为 lovable,但针对你已经在 LangSmith 上的数据——对话式生成完全自定义的可视化应用,LangChain 甚至开源了自己的设计系统供底层编码智能体使用,且内置团队共享与 RBAC/ABAC 权限边界。
+观测层面，他们把过去按「单次调用—调用链—会话」记录的数据，升级成[[轨迹数据|轨迹]]这个新标准格式——因为现在的智能体基本都是在循环中跑大模型、累积一段消息列表，这个格式更贴近真实行为。
 
-## 智能层:Engine v2 替 AI 工程师干活
+轨迹的两大好处：调试界面更友好，标注反馈更容易；更重要的是它天然适合微调。
 
-最上层是 **LangSmith Engine**:一个坐在追踪记录之上的后台引擎,基本做了 AI 工程师会做的所有事——看问题、聚类、建看板、用代码修复、加评估器、往数据集加样本。
+配套发布的 LangSmith Fine-Tuning 和 SmithTune 命令行工具，让你直接从轨迹数据筛选、预处理，送到 Fireworks 或 Base 10 训练，产出定制模型。
 
-本次发布的 Engine v2 三个亮点:
+## 让 AI 工程师的部分工作自动化
 
-- **主动验证修复**:Engine 在 trace 里发现问题后,会在你的部署上起一个预览分支,确认问题真实存在,做出修复、再起分支验证修复有效,然后把全部证据打包成一个 issue 呈现给你。
-- **[[红队测试|红队测试]]**:以前 Engine 只能从真实流量里被动发现问题,现在它能主动模拟各种问题和假设去打你的部署,识别哪些产生坏结果——学到了不该学的、产出了坏结果、偏离了品牌调性——然后标记给你。这也解决了「创建评估集非常痛苦」的老问题,而且可以在智能体上线之前就用。
-- **性能与成本**:更善于发现和修复问题,同时便宜了很多。
+压轴的是 LangSmith Engine v2。这是一个跑在轨迹数据之上的引擎，干的正是 AI 工程师干的事：发现问题、聚类、生成修复代码、补充评估器。
 
-Engine 已扫描超过 7000 万条 trace、检测出超过 21,000 个问题,被很多增长最快的 AI 公司用来压缩迭代周期——演讲强调:**构建智能体时,迭代周期就是一切**。
+新版本有两个亮点：一是它会主动测试自己的修复——在部署上开预览分支验证问题真实存在、修复确实有效 <button class="pd-ts" data-t="28:10" data-who="嘉宾" data-en="First, I want to call out that Engine can now test its fixes proactively. So what exactly does this mean? So this integrates really nicely with LangSmith deployments, which we talked about in the runtime." aria-label="回原文"></button>；
 
-Engine v2 即刻上线,自托管版(自带密钥)将随一两周内的 v17 发布。
+二是[[红队测试|红队测试]]，在上线前主动模拟各种刁钻输入，找出智能体会失败的场景，顺便生成初始评估数据集。
 
-收尾回到主线:运行时(开源 + 托管部署)、可观测性与评估(trajectory 更智能体原生、custom apps 更可定制、数据用于调优)、智能层(扫描 trace 和红队只是开始)——这一切都是为了帮你构建领域专属智能体,真正拥有你的智能。
+数据也很硬：Engine 已经扫描了超过 7000 万条轨迹，检测出超过 21000 个问题，v2 现已上线。
 
 ## 本集带走
 
-- **模型会趋同,周边定胜负**:把差异化押在数据、上下文和烘焙进 harness 的领域逻辑上,而不是押在某个模型上。
-- **harness 必须模型中立**:新模型一出立刻能切换——既是进攻也是防御,避免被单一供应商锁价。
-- **用 evals 定义「好」,再爬山**:谁能更好地定义自己领域里什么算最好,谁就能构建那个领域最好的智能体;智能体的成功靠发布后「监控→回灌构建」的复利循环。
-- **决策模型是新物种**:不能生成文本、只做决策的模型,适合评估、低延迟护栏和路由——别用前沿大模型干这些小事。
-- **所有 AI 流量走统一网关**:包括编码智能体的流量,才能做成本限额、速率限制和有状态的供应商回退。
-- **trajectory 是新标准格式**:统一轨迹让调试、人工标注、微调数据三者共用同一份消息列表。
-- **让引擎替你迭代**:自动发现、验证、修复、红队测试,把「迭代周期就是一切」的循环压到最短。
+- 模型正在被商品化，差异化在模型外围：领域上下文、专属框架和数据。
+- 拥有你的智能的三大支柱：开放可控的框架、能复利迭代的闭环、严格的治理。
+- 智能体开发是循环而非一次性交付：构建—测试—部署—监控—回流改进。
+- Jev 代表的决策模型新类别值得关注：不生成文本，只做判断，适合评估、护栏和路由。
+- 微调的门槛在快速降低：从生产轨迹直接筛数据、训练、评估的流水线已经打通。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>2 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
-> <span class="qz">模型本身正在变得有些商品化,真正起作用的是围绕模型的这一切,尤其是数据。</span>  
-> *the models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data*  
+> <span class="qz">模型本身正在变得有些商品化，而真正起作用的是围绕模型的这一切，尤其是数据。</span>  
+> *The models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data.*  
 > <span class="qm">—— 嘉宾 · [03:32]</span> ^q1
 
-> <span class="qz">如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好,你就能为那个领域构建出最好的智能体。</span>  
+> <span class="qz">第一，我们认为 harness 需要是模型中立的，也就是你不应该被耦合到某个特定的模型上。</span>  
+> *One, we think the harness needs to be model neutral, so you shouldn't be coupled to a particular model.*  
+> <span class="qm">—— 嘉宾 · [04:40]</span> ^q2
+
+> <span class="qz">如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好，你就能为那个领域构建出最好的智能体。</span>  
 > *If you can define what better and what best looks like for your domain better than anyone else, you will be able to build the best agent for that domain.*  
-> <span class="qm">—— 嘉宾 · [06:32]</span> ^q2
+> <span class="qm">—— 嘉宾 · [06:32]</span> ^q3
+
+> <span class="qz">还是更自动化的方式，比如用记忆或 prompt 优化之类的工具，这个复利循环非常重要，要构建到你的系统中并由你掌控。</span>  
+> *Or more automatically, whether that's with memory or prompt optimization things, this compounding loop is really important to build into your systems and to own.*  
+> <span class="qm">—— 嘉宾 · [06:23]</span> ^q4
+
+> <span class="qz">我们看到很多智能体在写代码，即使它们不是编码智能体。</span>  
+> *And we see a lot of agents writing code, even if they're not coding agents.*  
+> <span class="qm">—— 嘉宾 · [12:10]</span> ^q5
+
+> <span class="qz">护栏的一个缺点是它总会增加延迟。如果现在我们能以非常低延迟的方式加入护栏，那会非常酷、非常强大。</span>  
+> *One of the downsides of guardrails is that it always adds latency. If now we can add them in a really low latency way, that's really cool and powerful.*  
+> <span class="qm">—— 嘉宾 · [17:20]</span> ^q6
+
+> <span class="qz">当你在构建智能体时，迭代周期就是一切。</span>  
+> *That iteration cycle is everything when you're building agents.*  
+> <span class="qm">—— 嘉宾 · [30:21]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

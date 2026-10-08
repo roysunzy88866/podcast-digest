@@ -1,5 +1,5 @@
 ---
-title: AI 熟练度不是阶梯：真正该押注的是「非技术构建者」
+title: "别急着让全员学AI:先找到那个「会搭工具的人」"
 podcast: Practical AI
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "56:06"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-25-practicalai-ai-proficiency-from-users-to-builders.jpg"
-description: Tier One Performance 首席 AI 架构师 Mike Lewis 重返节目，用 L0-L3 熟练度框架拆解企业 AI 转型，主张公司该押注的不是全员普及，而是每个团队里懂业务的那一个「非技术构建者」。
+description: "Tier One Performance 首席AI架构师 Mike Lewis 回到 Practical AI,讲企业如何分级使用AI、哪些人根本不用学。"
 host: "[[Daniel Whitenack]]"
 cohosts: ["[[Chris Benson]]", "[[Mike Lewis]]"]
 companies: ["[[Tier One Performance]]", "[[Claude]]"]
@@ -18,18 +18,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-25-practicalai-ai-proficiency-from-users-to-builders.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders#post","headline":"AI 熟练度不是阶梯：真正该押注的是「非技术构建者」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders","description":"Tier One Performance 首席 AI 架构师 Mike Lewis 重返节目，用 L0-L3 熟练度框架拆解企业 AI 转型，主张公司该押注的不是全员普及，而是每个团队里懂业务的那一个「非技术构建者」。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-practicalai-ai-proficiency-from-users-to-builders.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Mike Lewis"},{"@type":"Organization","name":"Tier One Performance"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"非技术构建者 (non-technical builder)"},{"@type":"Thing","name":"L0"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"组织转型 (transformation)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"AI 熟练度不是阶梯：真正该押注的是「非技术构建者」","item":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders#post","headline":"别急着让全员学AI:先找到那个「会搭工具的人」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders","description":"Tier One Performance 首席AI架构师 Mike Lewis 回到 Practical AI,讲企业如何分级使用AI、哪些人根本不用学。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-practicalai-ai-proficiency-from-users-to-builders.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Mike Lewis"},{"@type":"Organization","name":"Tier One Performance"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"非技术构建者 (non-technical builder)"},{"@type":"Thing","name":"L0"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"组织转型 (transformation)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"别急着让全员学AI:先找到那个「会搭工具的人」","item":"https://talk.solomind.cc/2026-08-25-practicalai-ai-proficiency-from-users-to-builders"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 熟练度不是阶梯：真正该押注的是「非技术构建者」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别急着让全员学AI:先找到那个「会搭工具的人」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 熟练度不是阶梯：真正该押注的是「非技术构建者」
+# 别急着让全员学AI:先找到那个「会搭工具的人」
 
 <div class="pd-byl"><b>Mike Lewis</b> · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-25-practicalai-ai-proficiency-from-users-to-builders.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">然而，很多高管正在仓促应对和恐慌，他们在说：嘿，你猜怎么着？我们要成为 AI 赋能的了。我们公司的每个人都需要在某个日期之前会说 AI,不然这里就没有你的位置。</div><div class="a">— Mike Lewis <button class="pd-ts" data-t="19:49" data-who="Mike Lewis" data-en="Yet, I think a lot of executives are scrambling and panicking, and they're saying, Hey, guess what? We're going to be AI enabled. We're going to be AI activated. Everyone in our company needs to speak AI by ex date, or there's not a place for you here." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">就像：不要去操心我影响范围之外的事情。所以，你知道，也许在 AI 这个球体的边缘正在发生一件大事，但现实是，如果我没有影响力，或者它不影响我与客户互动的方式，那我就直接忽略它。</div><div class="a">— Mike Lewis <button class="pd-ts" data-t="07:18" data-who="Mike Lewis" data-en="It's like, do not concern myself with things outside of my sphere of influence. So, you know, there may be this big thing going on at the edge of the AI sphere, but the reality is like, if I if I don't have influence or if it doesn't impact, like, the way I'm interacting with my clients, if it's not, then I just ignore it." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Daniel Whitenack]] · [[Chris Benson]] · [[Mike Lewis]]
@@ -38,174 +38,105 @@ jsonLd: |
 >
 > **概念** [[非技术构建者]] · [[L0]] · [[智能体]] · [[组织转型]]
 
-这一集的主角 [[Mike Lewis|Mike Lewis]] 是 [[Tier One Performance|Tier One Performance]] 的首席 AI 架构师——那家公司专门帮 Google、礼来、武田、美国空军这类几乎全是财富 100 强的巨型组织做转型。
+[[Mike Lewis|Mike Lewis]] 的履历很特别：他画了近二十年肖像画，经营一家美术公司，直到 2016 年申请成为 OpenAI 的 DALL·E 商业艺术测试用户，才算入了行。
 
-他的人生轨迹本身就很反常规：
+他后来靠给医疗记录公司做语言模型起家，公司被 [[Tier One Performance|Tier One Performance]] 收购。如今他作为首席AI架构师，服务对象包括 Google、Eli Lilly、Takeda、美国空军这类客户。
 
-从大学毕业到 2016 年，他做了将近二十年的肖像画家，直到听说 OpenAI 的 DALL E 模型、申请成为商业艺术 beta 测试员，才误打误撞爱上语言模型，建起一家小公司后被 Tier One 收购。
+## AI 熟练度分四级，关键在第二级
 
-他反复强调，正因为自己在 AI 行业没有「浑浊漫长的历史」、没有对每件事的预设观点，反而看得更清楚 <button class="pd-ts" data-t="05:25" data-who="Mike Lewis" data-en="In your kind of day to day, obviously, you're hearing a lot of things both from customers that you're working with, the the news cycle, the things from, you know, Anthropic, OpenAI, Hugging Face, whoever that that's coming out with things. What what does your process look like, or or how do you feel like your your rhythms day to day help you kind of isolate some of that signal, maybe kind of distill down some of what you should be paying attention to? Any any suggestions? I I think it's something on all of our minds, certainly on my mind." aria-label="回原文"></button>。
+Mike 用的分级框架来自 Peter Yang 的一篇文章，把员工分成 [[L0|L0]] 到 L3:L0 是不用AI的人，L1 是普通用户(离不开它的那批人)，L2 是非技术建造者，L3 是能影响整个企业的专家。<button class="pd-ts" data-t="13:34" data-who="Mike Lewis" data-en="I'm kind of skimming my screen here for the details on it. But basically, it was called Your New Job is to Onboard AI Agents, How AI Native Companies Actually Operate. And they just had this way of thinking through the L0 through L3. So I didn't invent that. I read it in that subject." aria-label="回原文"></button>
 
-而这一集最反直觉的一点是：企业 AI 转型做不出成果，问题往往不在工具，而在于**公司把力气花错了人身上**。
+大多数公司的做法是把力气花在把 L0 转化成 L1。
 
-Mike 的主张是——别再追求「全员 AI 化」，把资源集中投给每个团队里唯一一个懂业务的「[[非技术构建者|非技术构建者]]」，回报大到可以直接算成钱 <button class="pd-ts" data-t="31:34" data-who="Mike Lewis" data-en="Right now, the wrong people are in the driver's seat. We call them the AI excited. The AI excited are the ones who are getting all the attention in the company. They're running down the hall screaming words like nano banana and methos class models, and everyone's just like, Well, they must be the person who should be building things, when in reality, what we see, Daniel, is these people who maybe by definition are often distractible and not very focused on the work, don't know exactly how to align an agent to work in a way that is absolutely uncanny to what the smartest and best and most qualified SMEs inside of that function would call good or accurate or what we want done. And so we say we want to start with, it doesn't need to be this me necessarily, but it needs to be someone who, in the Venn diagram, can replicate the work the company needs done in the way they do it, that honors the brand, and has the aptitude to learn these models, the interest." aria-label="回原文"></button>。
+但 Mike 认为，**真正值得投入的是从 L1 到 L2 的那一跳**——找到懂业务的人，让他们搭建能长期运行、且「以极其神似的方式复刻公司工作」的解决方案。<button class="pd-ts" data-t="14:36" data-who="Mike Lewis" data-en="The idea of a non technical builder, we're all focusing on converting L zeros, people who are disengaged, and we'll unpack what that is, I think, we need to, because there's so much important stuff there. And they're trying to get people from L zero to L one, and L one is what everyone knows. It's the user. It's the one who's like, I couldn't live without this. And they kind of feel like it ends here, and then that leap, the big jump from like, okay, someone who uses AI to, wait a minute, no, this is a non technical builder." aria-label="回原文"></button>
 
-## L0-L3：从一篇他 98% 不同意的文章里捡到的框架
+## L0 不是一种人，而是五种
 
-这个框架不是他发明的。他读了 Peter Yang 的一篇 Substack 文章《你的新工作是给 AI [[智能体|智能体]]做入职培训：AI 原生公司实际如何运营》，里面有 [[L0|L0]] 到 L3 的分类：
+把不用AI的人一律贴上落后标签是错的。Mike 把 L0 细分成五类 <button class="pd-ts" data-t="21:31" data-who="Mike Lewis" data-en="It would be in the way. And I started doing research on the concept of L zero, people who are disengaged, and I realized there are multiple buckets. So when we talk about an L zero, it's not a thing. So an L0 is not just someone who doesn't use AI. I found five major categories." aria-label="回原文"></button>：
 
-L0 是完全不用 AI 的人，L1 是离不开它的普通用户，L3 是在整个企业范围内产生影响力的人。
+- 表演型用户：培训时点头、登录过一次、交过一次对话，照旧干活；
+- 不感兴趣的人：个人电脑当年在办公室的普及曲线，和现在AI的几乎一样，急也没用；
+- 太忙的人：往往是公司最高绩效的骨干，别去打扰他们；
+- 害怕丢工作的人：很多人以为用AI干活，AI 就会学会取代自己，这几乎从不成立；
+- 对质量失望的人：这一类最值得高管倾听。
 
-真正把他「从椅子上震下来」的是 L2 的概念——非技术构建者：
+第五类尤其重要。Mike 遇到过一位做营销文案的员工，抱怨AI的产出「不够好，人做得更好」——而她是对的。
 
-一个不懂编程、却能构建出持久解决方案、以惊人的逼真度模拟公司实际工作的人 <button class="pd-ts" data-t="13:34" data-who="Mike Lewis" data-en="I'm kind of skimming my screen here for the details on it. But basically, it was called Your New Job is to Onboard AI Agents, How AI Native Companies Actually Operate. And they just had this way of thinking through the L0 through L3. So I didn't invent that. I read it in that subject." aria-label="回原文"></button>。
+从没一个AI专家真正坐下来听过她的意见。<button class="pd-ts" data-t="25:07" data-who="Mike Lewis" data-en="They should lean forward in their seat, they should realize, do not dismiss these people. If they are resistant to AI, there could be some very valid reasons why. And I met a person at a company who, her complaint was, It's not good enough for what I have to produce for my work. And she kind of showed me, and she's just like, Humans do this better. And it was a marketing role." aria-label="回原文"></button>
 
-他坦承自己不同意那篇文章 98% 的内容，只是死死抓住了这个命名，因为「我们都在专注转化 L0,但真正该聚焦的是 L0 到 L2 那次大跳跃」<button class="pd-ts" data-t="18:45" data-who="Mike Lewis" data-en="So there's that kind of L zeros and maybe some L ones. How do you get over that process as you're trying to bring everybody into this to kind of level up through those? Any thoughts? Can you kind of throw that in as you're talking about your process?" aria-label="回原文"></button>。
+## 不用AI就开除适得其反
 
-还有一条他特别强调的态度：这不是阶梯。
+那篇分级文章的原型公司 Ramp 规定：在限定日期内没被系统评估为 L1 的 L0，可以直接解雇。Mike 说这让他心碎 <button class="pd-ts" data-t="19:05" data-who="Mike Lewis" data-en="Yeah. I love that you're asking me about L zeros, because the reality is we try to move an L zero. Here's the thing. The article I mentioned, the Substack article, I disagreed with 98% of what I read in that article. I just latched onto the concept of an L two, a nontechnical builder." aria-label="回原文"></button>。
 
-「我不认为 L1 比 L0 更好，也不认为 L2 比 L1 更好」，它只是组织内部对如何使用这套工具箱的不同分工 <button class="pd-ts" data-t="25:39" data-who="Mike Lewis" data-en="It was copy generation. It was some other stuff, and she was just right. And it may not stay true forever, but no one had ever actually just, no AI expert had ever just sat and listened to her, and I walked away from that conversation with just a brand new perspective on how much value there is to mine from the group of people who say, It's not ready to do this work yet. Or either it's not, or they need better tools or better training, but you can't really do that until you listen first. And I also don't think about it like a ladder." aria-label="回原文"></button>。
+他反问：==你能想象公司宣布年底前人人都要精通 Smart Sheets,否则走人吗==？
 
-## 「到日期前学会 AI,否则走人」是错的
+他读过的 200 页研究里很多是关于学习本身的：威胁式表达会拖慢学习。
 
-很多高管的恐慌式命令——「每个人都要在某个日期前会说 AI」——Mike 认为既残忍又低效。
+把人逼到墙角说「学，否则没你的位置」，效果不如说「如果你有兴趣，我们一起摸索」。
 
-他读过的 200 页学习科学研究(他真的带着去参加了一个单身派对，全读完了)显示：**威胁式框定确实会减缓采纳**。
+## 挑 L2,先看公司基因，不看技术能力
 
-把人逼到墙角说「学这个不然没你的位置」，学习效果远不如「如果你感兴趣，我们一起搞清楚」<button class="pd-ts" data-t="20:04" data-who="Mike Lewis" data-en="This is It's just another This technology like that. Yet, I think a lot of executives are scrambling and panicking, and they're saying, Hey, guess what? We're going to be AI enabled. We're going to be AI activated. Everyone in our company needs to speak AI by ex date, or there's not a place for you here." aria-label="回原文"></button>。而且他拿个人电脑对比：
+Tier One 筛选 L2 候选人时，最先看的不是AI天赋，而是公司DNA：
 
-PC 在办公室的采用曲线和今天的 AI 几乎一模一样，当年没人恐慌，它自己解决了——因为 AI 和 CRM 不同，每个人回家就能免费注册一个 ChatGPT,普及是自然发生的 <button class="pd-ts" data-t="22:14" data-who="Mike Lewis" data-en="And hey, they're still getting their job done. There's the disinterested. I think the moment when this hit me the hardest was when I was looking at all the research and I saw a chart that showed the adoption rates of personal computers in the office space, back when PCs were first released, and AI, and there's almost the exact same adoption curve over the same period of time. It looks like it's happening at the same rate. And when I saw that, I thought, how silly is it to think back to that?" aria-label="回原文"></button>。
+这个人懂不懂公司的活儿，知道该为表格里哪个单元格较劲，交付的成果像不像公司想要的样子。<button class="pd-ts" data-t="30:07" data-who="Mike Lewis" data-en="So they have some aptitude for AI. No. We really don't even kind of start with any sort of technical aptitude assessment. What we care most about is company DNA. Do they understand the work in an uncanny way to the company?" aria-label="回原文"></button>
 
-## L0 根本不是一个东西：五个类别
+Mike 的观察是，现在坐在驾驶座上的往往是AI兴奋者——在走廊里喊着最新模型名字的人。
 
-Mike 研究后发现，L0 至少分五类，应对方式完全不同：
+但他们通常不够专注，做不出资深业务专家会认可的东西。
 
-- **表演型用户**：培训都参加、点头、登录过、提交过一条对话，然后照旧干活——但工作照样完成了。
-- **不感兴趣的**：疏离但无害，随他去。
-- **太忙的**：恰恰常是公司最高绩效者，在自己的节奏里太关键，Tier One 甚至不希望他们分心琢磨 AI——「管他们用不用 AI 干嘛呢」<button class="pd-ts" data-t="22:45" data-who="Mike Lewis" data-en="Like everyone didn't run home and create a smart sheet account because you know, like they just gotta have one. And so, you know, but the disinterested are still detached there. Okay. Here's another bucket. The too busy." aria-label="回原文"></button>。这也是「用 AI 否则走人」口号最尴尬的地方：喊口号的高管环顾四周，看到的抵制者常常就是最强的人。
-- **畏惧失业的**：他们误以为用 AI 干活，AI 会学会他们的事然后取代自己——这几乎从来不是真的。对他们可以说实话：你确实可能丢工作，但不会是 AI 取代你，而是那个愿意用 AI 的同事取代你 <button class="pd-ts" data-t="24:01" data-who="Mike Lewis" data-en="What do we do? What do we do about the job fearful? First of all, very often these people don't really understand how the tool work, and they're under impression that if they use AI to do their work, it's going to learn how to do what they do and replace them. And that's almost never true. I mean, just if you kind of know how these things work, I mean, maybe self driving cars." aria-label="回原文"></button>。
-- **对质量失望的**：这一类最该让高管竖起耳朵。这个群体在研究里徘徊在 60% 左右——十个人里有六个。Mike 遇到过一位营销岗女士，抱怨「对我工作中必须产出的东西来说，它不够好」，给他演示后他承认她完全是对的。关键在于：从来没有任何 AI 专家真正坐下来听过她的意见。这些人要么说中了 AI 真实的能力边界，要么需要更好的工具或培训——但你必须先倾听才能知道是哪种 <button class="pd-ts" data-t="24:44" data-who="Mike Lewis" data-en="I could think of a few examples of like, the AI is actually learning from watching us, but my vote doesn't really impact whether or not it's gonna replace that profession someday. So I think with the job fearful, there's an opportunity to help them see like, Hey, you might be in the middle of a self fulfilling prophecy here. If you continue to push back against this, you might lose your job, but it won't be because the AI replaced you, because Joe, who's willing to use AI, will replace you. So that's one way to address an L0, but another one, and this is actually six out of 10 people that we talk to, and I've seen this number in research hover around sixty percent in more than one place, are the quality disappointed. This is where I think every executive's ears should turn on." aria-label="回原文"></button>。
+还有一条经验：每个团队只要一个 L2。两个 L2 反而互相掣肘，不如一个 L2 带几个 L1 和若干 L0。
 
-## 选 L2 不看技术天赋，看「公司 DNA」
+而且每个 L2 手边要有一个 L3 把关——L2 让产出神似，L3 让它可靠、不违规。<button class="pd-ts" data-t="32:11" data-who="Mike Lewis" data-en="And though, Daniel, we only want one of those on each team. We find that it is not a one plus one equals two thing. Too many chefs in the kitchen, if you have two L twos on a team, they are not necessarily as good as just an L two, a few L ones, some L zeros. And we wanna make sure every L two, every non technical builder has an L three within arm's reach so that they can double check the work. The L2 can make it uncanny, but the L3 can make it scalable, durable, make a thing that won't break, or doesn't break laws, or violate governance policies." aria-label="回原文"></button>
 
-Tier One 有一套评估流程甄别 L2 候选人，但第一步不是任何技术能力测试。
+## 一笔 400 万美元的活，3 小时做完
 
-他们最看重的是：这个人是否以不可思议的精准度理解公司的工作——「他知道该为电子表格里的哪一个单元格去争吗？
+Mike 举了个正在做的项目：一家全球前四的制药公司，几千份文档需要转换格式，报价 400 万美元，需要业务专家参与。
 
-他知道公司希望以什么方式交付工作吗？」<button class="pd-ts" data-t="29:55" data-who="Mike Lewis" data-en="I wouldn't focus too much on that. When we talk about L2s, so at tier one, we have a process for assessing and identifying quality L2 candidates. Now, Daniel, I'm gonna work my way backwards to your actual question from here. So the idea is with an L2, this is a person who you might think, Oh, great. How do you assess them?" aria-label="回原文"></button>。
+一个 L2 看了一眼，判断「这像个 [[Claude|Claude]] skill 就能干的活」，3 小时内搭好，把文档拖进去，出来的结果几乎正是他们想要的——还能上千份并发跑。<button class="pd-ts" data-t="38:25" data-who="Mike Lewis" data-en="So with one of my clients, let's just say one of the top four pharma companies in the world, they were sitting on a stack of, I can't remember how many thousand documents, they needed converted to look from to look like this to look like this. And I probably can't say too much more about that project, but it was a $4,000,000 job. It was a $4,000,000 job. They knew exactly how much it would cost to convert each one, and it requires SMEs. And an L2 took a look at it and said, This feels like a Claude skill." aria-label="回原文"></button>
 
-原因：现在「错的人在驾驶座上」。
+这才是高管能算清账的价值：不是数员工花了多少 token,而是让懂行的人 spotted 机会，让头痛直接消失。Mike 的团队管这叫帮人洗衣服。
 
-获得所有关注的是「AI 兴奋者」——沿走廊大喊新模型名词的那批人——但他们往往注意力分散、不懂如何把智能体对齐到该领域最优秀的专家(SME,即领域内最懂行的资深员工)所认可的「好」和「准确」上 <button class="pd-ts" data-t="30:28" data-who="Mike Lewis" data-en="Do they know which cell of a spreadsheet to fight over? Do they know how to deliver the work in a way that the company wants to deliver? Is their work style uncanny to what we want? That is absolutely necessary before we screen anyone for L2 training candidacy. And here's the reason why." aria-label="回原文"></button>。
+## 对未来就业焦虑，他的答案是：不操那个心
 
-好的 L2 该做到：产出的东西让 SME 不抱怨、感觉贴近团队一贯的工作风格、不需要保姆式看护。
+被问到==员工会不会变成AI编队的管理者==，Mike 坦率地说：「我已经决定不再担心这件事了。」
 
-而且他还在做一件更深的事：**把隐性知识转化为成文的流程**——「一旦模型被对齐，你就有了文档，哪怕它以代码形式存在」。
+<button class="pd-ts" data-t="48:06" data-who="Mike Lewis" data-en="It's all good. I've decided to stop worrying about it. I don't even think about it anymore. Maybe it's just because I don't fully understand the question. I think I do. I spent probably two years inside of all of these organizations trying to lead and organize and implement enablement and activation campaigns." aria-label="回原文"></button> 他花了大约两年在企业里推行各种赋能计划，最后感觉像看水顺流而下——该往哪流就往哪流。
 
-这是每个行业劳动力老龄化、「别被公交车撞 guy」一走工厂就停摆的解药 <button class="pd-ts" data-t="35:27" data-who="Mike Lewis" data-en="Depending on what your answer is, can you kind of give me a course correction, or can you kind of go down that path and explain it more? Because I am pretty keen on that idea." aria-label="回原文"></button>。
+他进会议室时对恐惧者的开场白很直接：你的工作确实会变，但对所有人来说永远如此，跟AI无关。
 
-两个配套纪律：**每个团队只要一个 L2**——两个 L2 不如一个 L2 加几个 L1 和一些 L0,厨房里厨师太多；
+研究还表明，事后回头看，颠覆从没像预想中那么难适应。<button class="pd-ts" data-t="45:06" data-who="Mike Lewis" data-en="And maybe some of this, it might sound a little heartless, but it comes out of the research, is that disruption is always, it turns out in hindsight, it was not as hard to adapt to as you thought it was going to be, and you adapt more quickly than you thought you could. And so, this is just documented truth. But it never feels that way. I think I'm just the weird bird who really likes the idea of uprooting my entire career and just trying something new. You know?" aria-label="回原文"></button>
 
-以及**每个 L2 手边必须够得着一个 L3**,L2 保证贴合业务，L3 保证可扩展、可持久、不违法、不违反治理政策 <button class="pd-ts" data-t="31:34" data-who="Mike Lewis" data-en="Right now, the wrong people are in the driver's seat. We call them the AI excited. The AI excited are the ones who are getting all the attention in the company. They're running down the hall screaming words like nano banana and methos class models, and everyone's just like, Well, they must be the person who should be building things, when in reality, what we see, Daniel, is these people who maybe by definition are often distractible and not very focused on the work, don't know exactly how to align an agent to work in a way that is absolutely uncanny to what the smartest and best and most qualified SMEs inside of that function would call good or accurate or what we want done. And so we say we want to start with, it doesn't need to be this me necessarily, but it needs to be someone who, in the Venn diagram, can replicate the work the company needs done in the way they do it, that honors the brand, and has the aptitude to learn these models, the interest." aria-label="回原文"></button>。
-
-至于 L1,让他们自然发生就好，公司算不出「邮件处理更快」省了多少钱，那是会自己解决的事。
-
-## 一个 400 万美元的活，三小时干完
-
-这套打法为什么值钱？Mike 举了一个正在做的项目：
-
-某世界前四的制药公司积压了几千份需要格式转换的文档，每份转换都需专家经手，整个活报价 400 万美元。
-
-一个 L2 看了一眼说「这感觉像一个 [[Claude|Claude]] skill」(Claude 的一种自定义技能封装)，三个小时建好，把一份文档拖进去，另一头出来的几乎正是想要的结果——而且可以一千份并发，整件事几小时内完成，用的还是已经付过费的 Claude <button class="pd-ts" data-t="37:53" data-who="Mike Lewis" data-en="And I know it feels like everything is shifting beneath our feet, but the reality is we will be doing the same things before tomorrow. Whenever I talk to AI teams, it feels like what they want to build is agents. What they want to build is tools. But if you actually go look inside of the work at companies, they don't, they're not thinking about AI. They're thinking about this particular problem in front of them." aria-label="回原文"></button>。
-
-他的结论：
-
-投资回报不会从 token 消耗量里找到，而会在你**有意识组建的团队**里找到——团队里有懂行的人能发现 AI 机会、让业务的头疼问题直接消失。
-
-他们管这叫「帮他们把衣服洗了」<button class="pd-ts" data-t="38:56" data-who="Mike Lewis" data-en="Had the Claude skill built within three hours, we drug one of their documents onto that skill, out the other end, squirted almost exactly what we were hoping these things would look like at the end of the process. Of course, everyone's jaw hit their desk. Wait a minute. You're telling me that was gonna be $4,000,000 It needs to be done. And now our Claude, which we've already paid for, you you just drag them on, wait, you can also run a thousand concurrently, and this whole thing could be done in hours?" aria-label="回原文"></button>。
-
-## 「更快」不总是更好，以及他不再想的事
-
-被问到 F1 进站类比、员工会不会都升格为「编排者」时，Mike 的回答出人意料：**我已经决定不再为此担忧了**。
-
-他花了两年在这些组织里推动赋能与激活，最后感觉就像「看着水流过一条河，它会流向它要流的方向」。
-
-人们用过这些工具一两次、看到结果后适应得非常快，他能做的是竭尽所能让他们用上，除此之外他不在乎。
-
-他真正在乎的只有一件事：能不能找到那个 L2,把他装备起来，并能量出前后差异 <button class="pd-ts" data-t="48:06" data-who="Mike Lewis" data-en="It's all good. I've decided to stop worrying about it. I don't even think about it anymore. Maybe it's just because I don't fully understand the question. I think I do. I spent probably two years inside of all of these organizations trying to lead and organize and implement enablement and activation campaigns." aria-label="回原文"></button>。
-
-同理，「更快」也不总是更好——在一个由大量部件组成的系统里，单独把一个环节提速，只会给周围一切制造鞭击效应和焦虑；
-
-「更便宜」有时甚至都不重要。很多公司真正兴奋的是**新涌现的工作类型**：什么是现在能做、而以前人脑真的做不好的事？<button class="pd-ts" data-t="49:53" data-who="Mike Lewis" data-en="What I care about is, can I find that l two? Can we get them equipped and activated? And and and synergizing that's a better word than that. Effectively cooperating and contributing inside of their team in a way that like, I wanna know the difference before and after. And and so it's not just that, you know maybe the pit crew thing was a distraction for me because I was I was focused on like, well, it's faster now, and it drives me nuts when people say, I want things faster." aria-label="回原文"></button>
-
-## 他最近的战斗口号：顶着砖墙推
-
-收尾时 Mike 给了普通员工一句 rallying cry:大企业里每个人都已有一两个 AI 工具，它们彼此配合得不好、本身也不一定好用，大多数人试一下发现不顺手就放弃了。
-
-而他反复看到见效的是：**那些愿意顶着砖墙推、推、再推的人身上有巨大的价值**。
-
-当 Claude 告诉你某件事不可能时，让它发挥创造力、想替代方案。
-
-在接下来两三四年五年、所有褶皱被熨平之前，创造性解决方案会极其值钱 <button class="pd-ts" data-t="53:39" data-who="Mike Lewis" data-en="Yeah. I think I think the thing that's been most exciting to me as an idea or a rallying cry when it comes to the rank and file inside of organizations, or with leaders who look at me and say, Where is their energy? Where is their momentum? One idea that I've had lately, and I've seen pay off over and over and over is the reality inside of most of these massive organizations, mostly I'm talking about big business now, is that everyone's got a toolkit in place. Like, if you're, you know, Eddie Punch Clock, Procter and Gamble, you probably have access to one, two, or three AI tools, and they don't work well together, and they don't necessarily work well." aria-label="回原文"></button>。
+他真正关心的只有可衡量的事：能不能找到那个 L2,把他们装备起来，让团队做事有看得见的前后差别。
 
 ## 本集带走
 
-- **别全员强推，先找 L2**:每个高绩效团队选一个「非技术构建者」，选拔标准不是技术天赋，而是对公司业务 DNA 的深刻理解——他 know 该为哪个单元格去争、工作风格与公司想要的无缝契合。
-- **L0 分五类，别一刀切**：表演型、不感兴趣、太忙的高绩效者、畏惧失业的、对质量失望的。最后一类占六成、最该倾听——他们的抵制可能说中了 AI 真实的能力短板。
-- **威胁式命令适得其反**：「某日期前学会 AI 否则走人」被学习科学证明会减缓采纳；对怕失业的人，实话是——取代你的不是 AI,是会用 AI 的同事。
-- **一个团队只要一个 L2,且手边要有 L3**:L2 保证产出贴合业务、顺带把隐性知识变成成文文档；L3 保证可扩展、合规、不会坏。
-- **算 ROI 别看 token,看「消失的头疼」**：价值出现在团队里的战略之人发现 AI 机会、把 400 万美元的人工作业变成三小时构建的 skill 那一刻。
-- **工具不完美也别放弃**：在治理和限制的砖墙前继续推、逼 Claude 给出创造性方案，是未来几年最稀缺的能力。
+- 员工AI熟练度分 L0–L3,最大的价值跃迁是从会用到会搭工具的 L2,而不是把不感兴趣的人变成用户。
+- L0 至少有五类，其中对质量失望的人往往说对了，值得认真听。
+- 挑 L2 先看是否深谙公司业务，技术能力其次；每个团队一个就够。
+- 威胁式推广(不学就走人)会拖慢学习；L2 把隐性知识变成可复用的流程文档，顺便解决关键人离职难题。
+- 真正能算清的投资回报，来自让懂行的人消灭具体而昂贵的痛点，比如那个 3 小时替代 400 万美元的文档转换。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
-> <span class="qz">然而，很多高管正在仓促应对和恐慌，他们在说：嘿，你猜怎么着？我们要成为 AI 赋能的了。我们公司的每个人都需要在某个日期之前会说 AI,不然这里就没有你的位置。</span>  
-> *Yet, I think a lot of executives are scrambling and panicking, and they're saying, Hey, guess what? We're going to be AI enabled. We're going to be AI activated. Everyone in our company needs to speak AI by ex date, or there's not a place for you here.*  
-> <span class="qm">—— Mike Lewis · [19:49]</span> ^q1
+> <span class="qz">就像：不要去操心我影响范围之外的事情。所以，你知道，也许在 AI 这个球体的边缘正在发生一件大事，但现实是，如果我没有影响力，或者它不影响我与客户互动的方式，那我就直接忽略它。</span>  
+> *It's like, do not concern myself with things outside of my sphere of influence. So, you know, there may be this big thing going on at the edge of the AI sphere, but the reality is like, if I if I don't have influence or if it doesn't impact, like, the way I'm interacting with my clients, if it's not, then I just ignore it.*  
+> <span class="qm">—— Mike Lewis · [07:18]</span> ^q1
 
-> <span class="qz">所以威胁式框定确实会减缓采纳。</span>  
-> *So threat framing actually does slow down adoption.*  
-> <span class="qm">—— Mike Lewis · [20:12]</span> ^q2
+> <span class="qz">我不认为 L1 比 L0 更好，我也不认为 L2 比 L1 更好。实际上，我不那样看。我只是把它看作一个组织内部对思考这套工具箱的不同方式的划分。</span>  
+> *I don't think an L1 is better than an L0, and I don't think an L2 is better than an L1. Actually, I don't see it that way. I just see it as kind of a division within an organization for how different ways of thinking about the toolkit.*  
+> <span class="qm">—— Mike Lewis · [25:39]</span> ^q2
 
-> <span class="qz">一边有人陷入恐慌，就因为他们公司里的人还没搞明白个人电脑。它自己解决了，因为最终每个人都有一台，而 AI 现在也在发生同样的事情。</span>  
-> *And one is in a panic because the people in their company haven't figured out personal computers now. It took care of itself because everyone wound up with one, and the same thing is happening with AI.*  
-> <span class="qm">—— Mike Lewis · [22:14]</span> ^q3
+> <span class="qz">现在，错的人在驾驶座上。我们称他们为「AI 兴奋者」。AI 兴奋者是公司里获得所有关注的人。</span>  
+> *Right now, the wrong people are in the driver's seat. We call them the AI excited. The AI excited are the ones who are getting all the attention in the company.*  
+> <span class="qm">—— Mike Lewis · [30:28]</span> ^q3
 
-> <span class="qz">而且我觉得，对于那些在沟通中说「用 AI,否则你走人」的人来说，这也很难受，因为他们可以环顾四周，看到那些人——很多时候，恰恰是公司里一些最高绩效者——并不真的在乎这个，因为他们有自己的节奏。</span>  
-> *And I think that is also really hard for the people who are here in communication, Use AI or you're out of here, and then they can look around and see the people who like, very often, it's some of the highest performers in the company who don't really care about it because they're in a rhythm.*  
-> <span class="qm">—— Mike Lewis · [23:01]</span> ^q4
+> <span class="qz">我们发现这不是一加一等于二的事。厨房里厨师太多了，如果一个团队里有两个 L2,他们不一定比一个 L2、几个 L1、一些 L0 更好。</span>  
+> *We find that it is not a one plus one equals two thing. Too many chefs in the kitchen, if you have two L twos on a team, they are not necessarily as good as just an L two, a few L ones, some L zeros.*  
+> <span class="qm">—— Mike Lewis · [31:38]</span> ^q4
 
-> <span class="qz">他们应该在座位上身体前倾，意识到：不要轻视这些人。如果他们抵制 AI,背后可能有非常正当的理由。</span>  
-> *They should lean forward in their seat, they should realize, do not dismiss these people. If they are resistant to AI, there could be some very valid reasons why.*  
-> <span class="qm">—— Mike Lewis · [24:44]</span> ^q5
-
-> <span class="qz">那么他们对 AI 有某种天赋吧？不。我们甚至基本不会从任何形式的技术天赋评估开始。我们最关心的是公司 DNA。</span>  
-> *So they have some aptitude for AI. No. We really don't even kind of start with any sort of technical aptitude assessment. What we care most about is company DNA.*  
-> <span class="qm">—— Mike Lewis · [29:55]</span> ^q6
-
-> <span class="qz">他们知道该为电子表格里的哪一个单元格去争吗？</span>  
-> *Do they know which cell of a spreadsheet to fight over?*  
-> <span class="qm">—— Mike Lewis · [30:07]</span> ^q7
-
-> <span class="qz">现在，错的人在驾驶座上。我们称他们为「AI 兴奋者」。</span>  
-> *Right now, the wrong people are in the driver's seat. We call them the AI excited.*  
-> <span class="qm">—— Mike Lewis · [30:28]</span> ^q8
-
-> <span class="qz">三个小时内就把 Claude skill 建好了，我们把他们的其中一份文档拖到那个 skill 上，另一头出来的，几乎正是我们希望这些东西在流程结束时看起来的样子。</span>  
-> *Had the Claude skill built within three hours, we drug one of their documents onto that skill, out the other end, squirted almost exactly what we were hoping these things would look like at the end of the process.*  
-> <span class="qm">—— Mike Lewis · [38:25]</span> ^q9
-
-> <span class="qz">当你开始有意识地在团队里放进几个懂得如何发现 AI 机会、并让头疼问题直接消失的战略性的人时，你才会找到它。我们称之为「帮他们把衣服洗了」。</span>  
-> *You're gonna find it when you start intentionally forming teams with a couple of strategic people in there who know how to spot an AI opportunity and just make the headache vanish. We call it doing their laundry.*  
-> <span class="qm">—— Mike Lewis · [39:10]</span> ^q10
-
-> <span class="qz">在 Tier One,我们会说，「更快」不总是更好，尤其当它是一个由一大堆部件组成的系统，而你只是给那个快部件周围的一切都制造了鞭击效应和焦虑。</span>  
-> *At tier one, we say, like, faster's not always better, especially when it's a it's it's a system with a whole bunch of parts, and you've just created whiplash and angst for everything around that fast piece.*  
-> <span class="qm">—— Mike Lewis · [49:53]</span> ^q11
-
-> <span class="qz">而我正在意识到的是，那些愿意顶着砖墙推、推、再推的人，身上有巨大的、巨大的价值。</span>  
-> *And I think the thing I'm realizing is that there is massive, massive value in the people who are willing to lean against the brick wall and push and push and push.*  
-> <span class="qm">—— Mike Lewis · [53:51]</span> ^q12
+> <span class="qz">每当我与 AI 团队交谈时，感觉他们想构建的是智能体。他们想构建的是工具。但如果你真的走进公司内部去看那些工作，他们没在想 AI。他们在想眼前这个具体的问题。</span>  
+> *Whenever I talk to AI teams, it feels like what they want to build is agents. What they want to build is tools. But if you actually go look inside of the work at companies, they don't, they're not thinking about AI. They're thinking about this particular problem in front of them.*  
+> <span class="qm">—— Mike Lewis · [37:39]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

@@ -13,13 +13,13 @@ unlisted: true
 
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(12:06起):本集故事里开发者为找关联关系装了 Neo4j，导致 DBA 每周的会议从一个涨到六个
 - **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(00:25起):本集嘉宾所在的公司,做图和图数据库;演讲里云端与树莓派本地都跑着 Neo4j 数据库来存储记忆图谱,还提供智能体记忆服务(agent memory service)把全部 WhatsApp 消息蒸馏成记忆。
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(06:16起):Architect 使用的图数据库，一个实例装九个数据库、用组合查询一起查
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(06:16起):Architect 使用的图数据库，一个实例装九个数据库、用组合查询一起查
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q4]]
+![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q2]]
 
 ## ② 出现在这些集
 
@@ -27,7 +27,7 @@ unlisted: true
 
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 
 ## ③ 关联
 

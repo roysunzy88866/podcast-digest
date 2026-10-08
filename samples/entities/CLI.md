@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:24起):Dan 断言人们「速通了 CLI 时代」，当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。
-- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]]**(33:19起):本集说编程智能体的看家本领恰恰是不带任何授权体系的 CLI 工具，这使它们快、但也是安全盲区，是与 MCP 对立的另一大生态。
+- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]]**(33:19起):本集说编程智能体的看家本领恰恰是不带任何授权体系的 CLI 工具，这使它们快、但也是安全盲区，是与 MCP 对立的另一大生态。
 - **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(01:56起):本集说 CLI 天生具备渐进式加载、默认当作代码运行（自带 CodeMode）、Shell 被 40 年训练数据打磨这三个优势；但它是没有标准输出协议、无法注入凭证的本地黑盒，只适合本地接口。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:35起):Unix 命令行工具的统称。嘉宾认为它正是取代 MCP 的未来，因为机器人“真的很擅长 Unix”，可以即插即用即调多少个都行，而不像 MCP 那样复杂还需要重启配置。
 
@@ -27,7 +27,7 @@ unlisted: true
 *4 集*
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
-- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为概念
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]] — 作为概念
 - [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 

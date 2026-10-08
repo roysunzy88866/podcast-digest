@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar|《模型已经够好了，为什么智能体还只能写代码？》]]**(12:29起):六个原语之一:本集主张提示词不是护栏(会在上下文压缩中丢掉),真正的墙须建两层——智能体之外的确定性访问控制,加自然语言策略约束权限内行为。
 - **[[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]]**(01:38起):本集核心主张：让 AI 触达每个人的难点不在技术而在治理——『关键不在于提供 AI，而在于提供正确的治理结构，让每个人都可以放心去使用 AI，并知道它会为他们做正确的事』。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(03:32起):本集反复强调：智能体必须知道哪些数据能访问、能共享、存到哪，不能不懂各国税务要求就做财务结账；治理是 SAP 50 年的积累。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(07:14起):本集说治理是「拥有你的智能」第三支柱,对内部智能体尤其关键:知道有多少智能体在跑、控成本、管权限。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(07:14起):本集说治理是「拥有你的智能」第三支柱,对内部智能体尤其关键:知道有多少智能体在跑、控成本、管权限。
 
 ## ① 提到它的金句
 
@@ -47,7 +47,7 @@ unlisted: true
 - [[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar|《模型已经够好了，为什么智能体还只能写代码？》]] — 作为概念
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]] — 作为概念
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为概念
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为概念
 
 ## ③ 关联
 

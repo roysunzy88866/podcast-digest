@@ -50,7 +50,7 @@ unlisted: true
 
 ![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q5]]
 
-![[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#^q4]]
+![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q6]]
 
 ## ② 出现在这些集
 

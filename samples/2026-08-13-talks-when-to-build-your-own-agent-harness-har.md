@@ -132,7 +132,7 @@ OpenAI 和 Anthropic 在编程上都很强，却落在相当不同的文件编�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:DeepAgents、LangChain · 同概念:harness、可观测性 (observability)、智能体 (agent)、评估 (evals)、微调 (fine tuning)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:DeepAgents、LangChain · 同概念:harness、可观测性 (observability)、智能体 (agent)、评估 (evals)、微调 (fine tuning)</span>
 - [[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮]]<span class="pd-rz">同公司:Claude Code · 同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)、追踪记录 (traces)、沙箱 (sandbox)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)、沙箱 (sandbox)</span>
 

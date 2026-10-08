@@ -90,9 +90,9 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(01:56起):本集把 Cursor 列入人们爱用的第一方编程产品，说它同样处在爆炸半径中心且非常棒。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Codex 并列提及的编码工具，会带来更多代码和复杂性。
 - **[[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]]**(07:55起):本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(05:21起):本集顺带提到 Cursor 等公司在解决开发者日常小规模问题上好得难以置信,却忽视了大型代码库崩坏的问题。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(18:35起):本集提到 Cursor 是编码智能体之一,其 AI 流量也应路由到统一网关以做治理和成本控制。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(40:54起):本集提到它作为编程领域模型被供应商切断的真实案例。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(05:21起):本集顺带提到 Cursor 等公司在解决开发者日常小规模问题上好得难以置信,却忽视了大型代码库崩坏的问题。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(18:35起):本集提到 Cursor 是编码智能体之一,其 AI 流量也应路由到统一网关以做治理和成本控制。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(40:54起):本集提到它作为编程领域模型被供应商切断的真实案例。
 
 ## ① 提到它的金句
 
@@ -126,7 +126,7 @@ unlisted: true
 
 ![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q2]]
 
-![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q5]]
+![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
 
 ## ② 出现在这些集
 
@@ -212,9 +212,9 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]] — 作为被讨论公司(提及)
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为被讨论公司(提及)
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司(提及)
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为被讨论公司(提及)
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(00:44起):本集说它是一家联络中心/电话系统公司，收购了 TalkIQ 并把实时转写技术用于销售与支持电话对话。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(00:44起):本集说它是一家联络中心/电话系统公司，收购了 TalkIQ 并把实时转写技术用于销售与支持电话对话。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
 
 ## ③ 关联
 

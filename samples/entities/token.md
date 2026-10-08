@@ -42,7 +42,7 @@ unlisted: true
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(63:10起):Anjney 的大局判断:token 是正在互联网上传输的新的价值单位,未来 10 年整个互联网价值链都得应对——token 越值钱,越多坏人想染指。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(10:14起):本集把 token 当成 AI 经济的核心计量：卖方(前沿实验室)收入巨大，但真正要盯的是买方企业是否拿到效率提升；还说经济将在美元和 token 之间震荡，token 会成为新形式货币。
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(01:20起):本集核心论点：按每 token 定价是错觉，要按「同任务、同质量」的任务成本比较模型——每 token 便宜的模型任务成本可能贵好几倍（705 美元 vs 148 美元）。
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(11:57起):反复出现的主题：查图代替翻代码省 token，固化框架也带来 token 节省
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(11:57起):反复出现的主题：查图代替翻代码省 token，固化框架也带来 token 节省
 
 ## ① 提到它的金句
 
@@ -175,7 +175,7 @@ unlisted: true
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为概念
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为概念
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念(提及)
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念(提及)
 
 ## ③ 关联
 

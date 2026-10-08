@@ -159,7 +159,7 @@ OpenAI 正在百倍规模重演——先向消费者卖订阅，卖了很多但�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Meta、Microsoft、NVIDIA、OpenAI</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon、Anthropic、Google、Meta、Microsoft、OpenAI · 同概念:推理 (inference)</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Meta、Microsoft、OpenAI</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Meta、Microsoft、OpenAI</span>
 
 </div>
 <div class="pd-ex">

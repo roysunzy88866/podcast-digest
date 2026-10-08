@@ -1,12 +1,12 @@
 ---
-title: 教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案
+title: 智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来
 podcast: Scaling DevTools
 date: 2026-10-07
 source_url: undefined
 duration: "10:56"
 type: episode
 cover: "#64748b"
-description: Bracket 的 Siddharth 讲如何让智能体学会从未被写下来的复杂业务上下文——跟智能体开个视频通话、边干活边教它。
+description: Brackett 创始人 Siddhartha Borah 讲如何让智能体学会那些只存在于员工脑中的业务知识。
 host: "[[Siddhartha Borah]]"
 companies: ["[[Bracket]]"]
 concepts: ["[[智能体]]", "[[上下文]]", "[[工作流]]", "[[记忆]]", "[[置信度分数]]", "[[知识图谱]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a#post","headline":"教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a","description":"Bracket 的 Siddharth 讲如何让智能体学会从未被写下来的复杂业务上下文——跟智能体开个视频通话、边干活边教它。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Siddhartha Borah"},{"@type":"Organization","name":"Bracket"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"置信度分数 (confidence score)"},{"@type":"Thing","name":"知识图谱 (knowledge graph)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案","item":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a#post","headline":"智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a","description":"Brackett 创始人 Siddhartha Borah 讲如何让智能体学会那些只存在于员工脑中的业务知识。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Siddhartha Borah"},{"@type":"Organization","name":"Bracket"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"置信度分数 (confidence score)"},{"@type":"Thing","name":"知识图谱 (knowledge graph)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来","item":"https://talk.solomind.cc/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案
+# 智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来
 
 <div class="pd-byl"><b>Siddhartha Borah</b> · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。</div><div class="a">— Siddhartha Borah <button class="pd-ts" data-t="00:33" data-who="Siddhartha Borah" data-en="A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile." aria-label="回原文"></button></div></div>
+
 
 > [!info] 关联
 > **人物** [[Siddhartha Borah]]
@@ -35,89 +35,79 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[上下文]] · [[工作流]] · [[记忆]] · [[置信度分数]] · [[知识图谱]]
 
-这一集在 HeavyBirds Dev Guild 现场，聊的是一个现实问题：[[智能体|智能体]]在编码领域大放异彩，但在真实业务里总是「最后一公里」失败。
+在 Heavybit DevGuild 活动现场，Scaling DevTools 播客请到了 Brackett 的 [[Siddhartha Borah|Siddhartha Borah]]。他的公司专攻一件事：让[[智能体|智能体]]学会企业里最复杂、也最没被记录下来的那部分工作。
 
-嘉宾是来自 [[Bracket|Bracket]] AI 的 Siddharth，他们做的正是让智能体学会企业里那些**从未被写下来的工作[[上下文|上下文]]** <button class="pd-ts" data-t="00:16" data-who="说话人1" data-en="And could you tell us a bit about what you're working on? Definitely. So we are Bracket AI." aria-label="回原文"></button>。
+## 为什么智能体总在“最后一公里”失败？
 
-**问题：90% 不等于完成**
+Siddhartha 观察，如今很多智能体系统在最后一步掉链子。
 
-Siddharth 的核心判断是：自动化的难点在于，哪怕你已经做到 90%，缺的那 10% 上下文也会让整个工作完不成 <button class="pd-ts" data-t="04:11" data-who="说话人1" data-en="How much of the work do you think has context that is not codified somewhere, you know, like which is in Maria's head? Yeah, I think almost the problem with automation is like even if you're 90% there, right?" aria-label="回原文"></button>。
+原因是缺[[上下文|上下文]]——真实工作往往跨系统、跨人，大量关键信息只存在一线员工的脑子里。
 
-人们对「上下文」的普遍误解是把它等同于数据，但它其实是**如何执行流程的知识**——里面有人际因素，也有分散在组织不同人身上的隐性知识 <button class="pd-ts" data-t="04:23" data-who="说话人1" data-en="Even if there's 10% of the context which is missing, the whole work doesn't get done, right? So for most of the workflows that we have seen is like, okay, so people usually when they talk about context, they think that context is the data, right?" aria-label="回原文"></button>。
+他举了个例子：Maria 每天处理承运商的发票，周末统一付款。但她知道有个供应商会在下周一才批量更新账单。
 
-他给了一个类比：编码时如果你要构建一个横跨三个代码仓库的功能，而智能体只能访问其中一个仓库，它只会失败。
+这个特例没人记录过，只在她脑子里。智能体遇到时就会出错 <button class="pd-ts" data-t="00:50" data-who="Siddhartha" data-en="Most of the work happens across systems, across people. And if you go to an organization, especially around last mile supply chain, a lot of context remains in the end user's head." aria-label="回原文"></button>。
 
-所以人们会检出全部三个仓库给智能体。
+更麻烦的是，自动化有一条残酷的规律：**哪怕你做到了 90%，剩下 10% 的上下文缺失，整个工作照样完不成** <button class="pd-ts" data-t="04:11" data-who="Siddhartha" data-en="How much of the work do you think has context that is not codified somewhere, you know, like which is in Maria's head? Yeah, I think almost the problem with automation is like even if you're 90% there, right?" aria-label="回原文"></button>。
 
-但放到现实世界，对应的是：一份信息在电子表格里，另一组在 ERP 系统里，还有一个「从未公开的仓库」在人脑子里 <button class="pd-ts" data-t="05:36" data-who="说话人1" data-en="Now, if you think about what that means in the real world, and then in coding, because you have the agent who is able to kind of go through all the three reports together, make sense out of it, he's able to just get the work done." aria-label="回原文"></button>。
+## 三个仓库的比喻：问题到底出在哪
 
-他认为，构建一个能爬取这三组资源并理解其含义的系统，就是「解锁真正能在现实世界中工作的智能体的圣杯」<button class="pd-ts" data-t="06:09" data-who="说话人1" data-en="Nobody has done it before. And then that we believe is the Holy Grail of unlocking agents that actually work in the real world. And what we have found based on a lot of customers, getting feedback from them is the easiest way" aria-label="回原文"></button>。
+写代码的人容易理解这个类比。假设一个功能横跨 3 个代码仓库，智能体只能访问其中 1 个，它必然失败。
 
-**方法：像学徒一样，边干边教**
+所以现在大家的做法是把 3 个仓库都给它。
 
-怎么把人脑子里的知识拿出来的？
+现实世界一样：一条信息在电子表格里，一条在 ERP 系统里，第三条在你脑子里。==怎么让系统能同时“爬”这三种资源并理解它们==？
 
-Siddharth 的答案回到了最古老的传授方式——学徒制，「从米开朗基罗到整个人类历史」，导师就是这样教弟子的：通过观察你怎么干活 <button class="pd-ts" data-t="06:43" data-who="说话人1" data-en="And this is not as a concept, not new, right? You have seen that this is how apprentices, a long time like from Michelangelo to like whole history of humankind, right?" aria-label="回原文"></button>。
+他认为这是解锁真实世界智能体的圣杯 <button class="pd-ts" data-t="05:06" data-who="Siddhartha" data-en="If you want to do a coding work, if you want to build a feature which spreads across these three repos, and if the agent only has access to one of the repos, he's just going to fail." aria-label="回原文"></button>。
 
-具体做法是：**你跟智能体开一场 Zoom 通话**。
+## 怎么教？让员工像带徒弟一样“演示”
 
-你共享屏幕、像平时一样实际做工作，智能体在旁边听，并来回向你提问——就这样把上下文传递给它 <button class="pd-ts" data-t="02:24" data-who="说话人1" data-en="So you can talk to the agent like as you are talking right now. You speak to the agent, you share the screen, you actually do the work as you are doing and the agent is listening and kind of asking you back and forth questions and that's how you kind of pass on the context to the agent." aria-label="回原文"></button>。
+Brackett 的方案可以想象成和智能体开一场视频会议：你说话、共享屏幕、照常干活，智能体在旁边听，随时提问。
 
-对非技术员工（运营、供应链岗位的多数人）来说，这是最自然的表达方式：他们最擅长的就是把活儿干一遍，而不是写文档 <button class="pd-ts" data-t="06:30" data-who="说话人1" data-en="Which is true for most of the people who works in like operations supply chain, right? Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?" aria-label="回原文"></button>。
+**上下文就在这个过程中传递过去** <button class="pd-ts" data-t="02:12" data-who="Siddhartha" data-en="So how do you teach a system about some of those nuances? So what Bracket has pioneered and what we have built is a system where you can think of it like you're doing a Zoom call with an agent." aria-label="回原文"></button>。
 
-**关键一步：把非确定性变成确定性**
+这个思路并不新鲜。从 Michelangelo 时代到人类历史的很长一段，师傅带徒弟就是靠看着干活学会的。
 
-LLM 天生具有探索性、非确定性——这既是能力也是挑战。企业需要的是一个跑一万次结果都一致的智能体 <button class="pd-ts" data-t="03:07" data-who="说话人1" data-en="And that being a feature is also a challenge for us. So you want an agent whom even if you run like 10,000 times, it works in the same way. So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time." aria-label="回原文"></button>。
+对于供应链运营这类非技术岗员工，最好的表达方式就是直接做 <button class="pd-ts" data-t="06:39" data-who="Siddhartha" data-en="Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right? And this is not as a concept, not new, right?" aria-label="回原文"></button>。
 
-所以 Bracket 的另一个核心能力是：
+## 教会之后，怎么保证它每次都做得一样？
 
-**把「教会」的知识转换成可编码、可验证、可重复、可靠的确定性[[工作流|工作流]]**，每次都精确运行，而且以代码高效、token 高效的方式扩展 <button class="pd-ts" data-t="03:13" data-who="说话人1" data-en="So you want an agent whom even if you run like 10,000 times, it works in the same way. So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time." aria-label="回原文"></button>。
+大语言模型有个特点：每次输出都可能不一样。这在探索时是优点，在企业里是大问题。
 
-也就是说，你纠正它一次，下次就不用再纠正了。
+Siddhartha 说，**你要的是一个跑 1 万次结果都一样的智能体** <button class="pd-ts" data-t="03:03" data-who="Siddhartha" data-en="They're non-deterministic. And that being a feature is also a challenge for us. So you want an agent whom even if you run like 10,000 times, it works in the same way." aria-label="回原文"></button>。
 
-**遇到意外怎么办：「括号大脑」的[[记忆|记忆]]体系**
+Brackett 的做法是把学到的知识转换成可编码、可验证、可重复的系统。纠正它一次，下次就不用再纠正了。
 
-现实世界一定会给你意料之外的东西——一张格式完全不同的发票、一个没预料到的条款 <button class="pd-ts" data-t="07:41" data-who="说话人1" data-en="How would the agent figure it out? This is really the crux of the real world problem because all of a sudden an invoice comes from a vendor which is completely in a different format or comes with an article which was not expected." aria-label="回原文"></button>。
+## 遇到没见过的情况怎么办？
 
-Bracket 的应对是一套持续学习系统（他们叫「括号大脑」）：
+突然来了一张格式完全不同的发票，这正是现实世界的常态。
 
-- **[[置信度分数|置信度分数]]**：智能体对自己收到的输入有多有信心，是可以量化的。看到没见过的东西，它会先退回去——系统先回退到一个智能体，智能体也没把握，就传回给 Maria 本人 <button class="pd-ts" data-t="08:26" data-who="说话人1" data-en="And we have the concept of agent in a loop, right? If the system sees that the environment has changed, it will first fall back to an agent. And if the agent is not confident to be able to decide on it, we'll pass it back to Maria back." aria-label="回原文"></button>。
-- **人纠一次、永久记住**：Maria 说「这是个特殊供应商，我们对它标准更宽松」，系统把这条写进记忆，下次遇到同样的输入就能自己决定 <button class="pd-ts" data-t="08:37" data-who="说话人1" data-en="And if the agent is not confident to be able to decide on it, we'll pass it back to Maria back. And the next time Maria comes and then she says, okay, this is a special vendor for whom we have more relaxed norms, the system remembers it." aria-label="回原文"></button>。
-- **「做梦」机制**：工作时有智能体随行记录有意思的事情，然后另一个系统在夜间或周期性地整理「该把正确的信息放在哪里」——Siddharth 提到 Claude 刚提出「做梦」概念，而他们已经做了一段时间 <button class="pd-ts" data-t="09:13" data-who="说话人1" data-en="I think yesterday Claude came up with the concept of dreaming. We have been working on this for quite some time now. So we have a system where like..." aria-label="回原文"></button>。
-- **[[知识图谱|知识图谱]]**：带针对不同业务的特定本体，让系统能理解事物的含义 <button class="pd-ts" data-t="09:40" data-who="说话人1" data-en="We also have a sophisticated knowledge graph, right? And this knowledge graph has an ontology specific to different businesses. So it makes sense of things." aria-label="回原文"></button>。
-- **「既视感」系统**：不污染主编排智能体的上下文——幕后有一个「智能体乐团」在后台找相关信息，以提示形式递给主角，让它在真正有价值的地方探索。Siddharth 认为这和人类大脑的工作方式非常相似 <button class="pd-ts" data-t="10:24" data-who="说话人1" data-en="But behind the scenes, there is this orchestra of agents, which is working behind, finding relevant information and giving it as a hint to the primary agent, so that he can then go and explore what is more meaningful." aria-label="回原文"></button>。
+Brackett 给智能体设计了置信度：发现输入和以前见过的不一样，它先回退给另一个智能体判断；那个智能体也没把握，就交还给 Maria。
 
-Bracket 目前即将走出隐身状态 <button class="pd-ts" data-t="10:41" data-who="说话人1" data-en="So it's bracket.ai, B-R-S-C-K-E-T dot A-I. We are right now, like very soon coming out of stealth, right? So there'll be plenty of more interesting things to talk about." aria-label="回原文"></button>，这集是个早期预览。
+Maria 解释一句“这家供应商规则更宽松”，系统就把它写进[[记忆|记忆]]，下次自己就能处理 <button class="pd-ts" data-t="08:06" data-who="Siddhartha" data-en="And they learn from different signals. So in this case, we have something like a confidence score, right? The agent knows that, okay, how confident he is of the set of input that he has got, right?" aria-label="回原文"></button>。
+
+## 记忆系统：还有一套“既视感”机制
+
+记忆是他们投入最多的方向。
+
+有一个智能体专门在旁边记笔记，还有一套类似 Claude 昨天提出的“做梦”机制，在夜间或固定周期整理信息该放在哪里，配合针对不同行业的[[知识图谱|知识图谱]]。
+
+最有意思的是他们所谓“既视感”系统：主智能体专心帮用户干活，不让杂乱信息污染它的上下文；
+
+幕后则有一群智能体组成的“乐队”在找相关信息，把结果作为提示递给主智能体。**Siddhartha 认为这很接近人脑的工作方式** <button class="pd-ts" data-t="09:55" data-who="Siddhartha" data-en="And also another thing that we are kind of doing, which is quite innovative, is the ability to kind of, we call it the déjà vu system, right? These were like the hints from whatever hints, like the agent who is the primary agent who is working on that particular work." aria-label="回原文"></button>。
+
+Brackett 目前即将走出隐身状态，更多消息可以在 bracket.ai 上看到。
 
 ## 本集带走
 
-- **隐性上下文是最后一公里失败的根源**：上下文不只是数据，是「怎么做这件事」的流程知识，而且分散在系统和人脑里——缺 10% 就等于做不成。
-- **最自然的知识采集方式是「边干边教」**：让员工共享屏幕、照常干活，智能体在旁听并来回提问——对非技术员工比写文档有效得多。
-- **教完必须「固化」**：把学到的知识转换成确定性的、可重复的工作流，纠正一次就永久生效，兼顾可靠性、代码效率和 token 效率。
-- **用「置信度 + 分级回退」处理意外**：没把握就先降级给智能体、再降级给人，人纠正一句就写进记忆，下次自动处理。
-- **记忆要分层维护**：随行记录 + 夜间「做梦」式整理 + 业务本体知识图谱 + 幕后乐团式提示系统，别把所有信息塞进主智能体的上下文。
+- 智能体常败在最后一公里：缺的不是数据，而是只存在于员工脑中、从未写下来的流程知识。
+- 自动化的残酷规律：90% 的上下文 + 缺 10%，等于整个工作都做不成。
+- 教智能体最自然的方式是“演示”——像师傅带徒弟，边干边讲。
+- 企业需要确定性：学到的知识要转换成可重复执行的[[工作流|工作流]]，纠正一次即可。
+- 遇到没见过的输入，靠置信度逐级回退到人，人解释一次后系统记入长期记忆。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>0 条</span></div>
 
-> <span class="qz">现在出现了很多智能体系统，但我们看到的是很多智能体在最后一公里失败了。</span>  
-> *A lot of agents' systems have come up, but what we have seen is that a lot of agents fail in the last mile.*  
-> <span class="qm">—— Siddhartha Borah · [00:33]</span> ^q1
 
-> <span class="qz">Bracket 还开创了这样一种能力，把学到的知识转换成一个可编码、可验证、可重复、可靠的系统，每次都精确地运行。</span>  
-> *So what Bracket has also pioneered is the ability to kind of convert the learned knowledge into a codifiable, verifiable, repeatable, and reliable system which works exactly every time.*  
-> <span class="qm">—— Siddhartha Borah · [03:13]</span> ^q2
-
-> <span class="qz">我觉得自动化的问题几乎就是，即使你已经做到 90%，只要有 10% 的上下文缺失，整个工作就完成不了，对吧？</span>  
-> *I think almost the problem with automation is like even if you're 90% there, right? Even if there's 10% of the context which is missing, the whole work doesn't get done, right?*  
-> <span class="qm">—— Siddhartha Borah · [04:12]</span> ^q3
-
-> <span class="qz">但如果把这个转换到现实世界，你在现实世界智能体上看不到太多成功的原因是：代替这三个仓库，一份信息在电子表格里，另一组在 ERP 系统里，还有一个从未公开的「仓库」在你脑子里。</span>  
-> *But now, if you convert that to real world, the reason why you don't see a lot of success in real world agent is because instead of these three repos, you can think that one of the information is in a spreadsheet, another set of information is in an ERP system, and then another repo which is never out there is in your head.*  
-> <span class="qm">—— Siddhartha Borah · [05:36]</span> ^q4
-
-> <span class="qz">他们告诉你这项工作的最好方式，就是他们最擅长的事：直接把活儿干一遍，对吧？</span>  
-> *Is that the best way for them to tell you about the work is by then what they do best is by just doing the work, right?*  
-> <span class="qm">—— Siddhartha Borah · [06:30]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

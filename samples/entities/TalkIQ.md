@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(06:29起):Dan 十年前创建的语音识别公司，做实时转写和理解客户对话，后来卖给了 Dialpad；他称当年等于在一家初创公司里建了四五个初创公司。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(06:29起):Dan 十年前创建的语音识别公司，做实时转写和理解客户对话，后来卖给了 Dialpad；他称当年等于在一家初创公司里建了四五个初创公司。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
 
 ## ③ 关联
 

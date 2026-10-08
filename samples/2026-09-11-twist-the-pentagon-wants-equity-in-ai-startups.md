@@ -131,7 +131,7 @@ Tibo 的总结是这个演示里最值得记住的一句：这之所以有效，
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Apple、Anthropic、Codex、Google、OpenAI · 同概念:智能体 (agent)、token</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Apple、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Apple、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI · 同概念:人在回路 (human in the loop)、智能体 (agent)</span>
 
 </div>

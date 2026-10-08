@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(05:05起):John Willett 联合创办的公司,做面向金融的 AI,使命是为华尔街打造第一个人工智能级别的分析师,客户是大型投行、私募股权、对冲基金等。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(01:40起):本集提到 Rogo 构建了带模型路由的专用 harness,为金融领域提供特定领域智能体。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(01:40起):本集提到 Rogo 构建了带模型路由的专用 harness,为金融领域提供特定领域智能体。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

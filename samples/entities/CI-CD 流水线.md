@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(30:59起):本集说扫描范围不能只有 Web 资产,还要覆盖 GitHub 仓库和 CI/CD 流水线——最近的供应链攻击证明这些都是攻击面。
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(30:59起):本集说扫描范围不能只有 Web 资产,还要覆盖 GitHub 仓库和 CI/CD 流水线——最近的供应链攻击证明这些都是攻击面。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为概念
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为概念
 
 ## ③ 关联
 

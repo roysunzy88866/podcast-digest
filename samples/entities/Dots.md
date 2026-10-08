@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(00:05起):本集把它说成：OpenAI 在 Dev Day 发布的个人后台智能体产品，Sam 的 dot（Dottie）替他挡掉非紧急事务、找回清晨深度工作、甚至整夜想他没搜到的东西。
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(03:29起):本集主角产品:一个 7×24 小时工作、理解你的目标和偏好、从反馈学习的常驻智能体;架构上 harness 不跑在你的机器上,它有自己的『计算机』,可连接任意多设备,专门的 dot 跑在带护栏和监控的 Mac mini 上。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:36起):本集说 Dots 是 OpenAI 的个人助手，带着《芝麻街》风格吉祥物却实际更偏企业导向，只有每月 100 美元的 pro 订阅能用。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:36起):本集说 Dots 是 OpenAI 的个人助手，带着《芝麻街》风格吉祥物却实际更偏企业导向，只有每月 100 美元的 pro 订阅能用。
 
 ## ① 提到它的金句
 
@@ -29,7 +29,7 @@ unlisted: true
 
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联
 

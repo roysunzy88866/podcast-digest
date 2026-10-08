@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(00:13起):本集把它说成:围绕「让智能体看到并理解超大规模代码库」而构建的公司,刚发布智能体批量变更(agentic batch changes)产品到 beta。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(00:13起):本集把它说成:围绕「让智能体看到并理解超大规模代码库」而构建的公司,刚发布智能体批量变更(agentic batch changes)产品到 beta。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为被讨论公司
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为被讨论公司
 
 ## ③ 关联
 

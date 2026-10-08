@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]]**(01:23起):本集介绍的平台四大支柱之一:可以在不同模型之间轻松切换、尝试最新最好的模型。
 - **[[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]]**(00:50起):本集主题：架在应用与模型供应商之间的入口点/中间件，负责路由、认证、回退、速率限制和治理；其核心是可用性、延迟、护栏、成本四者的取舍。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(12:28起):本集说出于治理和成本控制,所有 AI 流量(含编码智能体的)应路由到统一网关,提供消费限额、速率限制和有状态的供应商回退。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(12:28起):本集说出于治理和成本控制,所有 AI 流量(含编码智能体的)应路由到统一网关,提供消费限额、速率限制和有状态的供应商回退。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]] — 作为概念
 - [[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]] — 作为概念
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为概念
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为概念
 
 ## ③ 关联
 

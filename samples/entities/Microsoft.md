@@ -39,7 +39,7 @@ unlisted: true
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(09:33起):本集说微软是前置部署工程玩法的 OG，几十年前就在做。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(07:21起):本集把它列为五大超大规模云厂商之一(2026 年合计 CapEx 约 7800 亿美元),并说 Microsoft、Google、Amazon 合计有约 1.7 万亿美元的云积压订单
 - **[[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem|《HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略》]]**(09:19起):本集评价其在企业 AI 集成上做得最好:Copilot 取得很大进展,HP 内部也尽量利用其开箱即用能力
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:39起):本集说 Microsoft 把 Copilot 统一成超级应用，主打企业赛道这一看家本领，守住这条线、掐灭来自 OpenAI 的竞争就满意了。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:39起):本集说 Microsoft 把 Copilot 统一成超级应用，主打企业赛道这一看家本领，守住这条线、掐灭来自 OpenAI 的竞争就满意了。
 
 ## ① 提到它的金句
 
@@ -87,7 +87,7 @@ unlisted: true
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem|《HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略》]] — 作为被讨论公司(提及)
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联
 

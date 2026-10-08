@@ -11,19 +11,19 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(44:27起):本集说它是面向高中生的语音 AI 导师、一个专注于人类学习的 AI 实验室；创始人 Sean Reddy 主张模型在教学上正在变差，Aristotle 通过预测「下一个最优教学动作」复刻坐在人类导师旁边的一对一辅导体验。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(44:27起):本集说它是面向高中生的语音 AI 导师、一个专注于人类学习的 AI 实验室；创始人 Sean Reddy 主张模型在教学上正在变差，Aristotle 通过预测「下一个最优教学动作」复刻坐在人类导师旁边的一对一辅导体验。
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q5]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q17]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(00:33起):本集嘉宾 Yash 创办的公司,帮前沿企业做后训练和推理服务,只聚焦模型层、优化成熟产品背后的模型,愿景是成为一家新的 AI 超大规模厂商。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(00:33起):本集嘉宾 Yash 创办的公司,帮前沿企业做后训练和推理服务,只聚焦模型层、优化成熟产品背后的模型,愿景是成为一家新的 AI 超大规模厂商。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 
 ## ③ 关联
 

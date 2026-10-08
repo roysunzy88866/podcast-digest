@@ -36,7 +36,7 @@ unlisted: true
 
 ![[2026-09-26-yc-robot-use-agents-why-general-purpose-mod#^q1]]
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q7]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q10]]
 
 ## ② 出现在这些集
 

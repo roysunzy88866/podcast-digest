@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]]**(00:31起):本集说它是一家 AI 基础设施公司，专注为世界上增长最快的公司提供生产级推理，产品分共享 API、专用推理和训练/后训练三块。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(04:37起):本集说它与 OpenAI 合作,让用户可以用 OpenAI 额度去用开放模型,被视为对开源模型的一场大胜利。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(04:37起):本集说它与 OpenAI 合作,让用户可以用 OpenAI 额度去用开放模型,被视为对开源模型的一场大胜利。
 
 ## ① 提到它的金句
 
@@ -25,7 +25,7 @@ unlisted: true
 *2 集*
 
 - [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]] — 作为被讨论公司
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 
 ## ③ 关联
 

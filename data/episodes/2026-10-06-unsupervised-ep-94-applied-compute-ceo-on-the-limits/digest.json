@@ -1,207 +1,304 @@
 {
-  "title_zh": "拥有你自己的智能:后训练什么时候才值得做",
-  "tldr": "Applied Compute 创始人 Yash 谈企业自训模型的时机、评估护城河与「多模型未来」,以及为什么后训练赢得推理。",
-  "digest_md": "「拥有自己的智能」——训练自己的模型、不依赖大实验室——最近成了 AI 圈最热的叙事。这一集的 Unsupervised Learning 播客里,主持人 Jacob Efron 和 Applied Compute 的创始人 Yash 聊透了这个话题。Yash 曾在 OpenAI 工作、参与过 Codex,现在他的公司专门帮前沿企业做后训练(在现成开源模型之上用自己的数据继续训练)和推理服务。\n\n## 「拥有智能」的真实理由:不是怕实验室作恶,而是控制权\n\n主持人先抛出常见的几种担忧:实验室随时可能撤走 API、会做产品跟你竞争、会用你的数据训练。Yash 的回答出人意料地克制:他不觉得实验室是恶意的——「这些公司都是由很棒的人组成的」,有合同义务、有大量保护数据的工程投入。真正的理由是**灵活性和控制权**:模型在哪里跑、怎么部署、针对成本还是延迟还是特定领域去优化。「拥有自己的智能」这个叙事真正兴起,就是开源模型开始变好、你真的能用它们做事的时候。[02:58 Yash]\n\n但供应商风险是真实的:模型从产品里被下架已经发生过不止一次,尤其在编程领域(Cursor、Windsurf 都被切断过)。随着实验室越来越深入垂直行业,「尚不清楚他们是否会继续服务那些与他们直接竞争的公司」。所以 Yash 的结论是:最安全、最持久的优势,是投资全栈能力,不对任何一组模型有极端依赖。[04:16 Yash]\n\nOpenAI 与 Base 10 的合作(可以用 OpenAI 额度去用开放模型)在他看来是个明确信号:这是多模型的未来,客户要选择权和灵活性,OpenAI 想成为企业用 AI 的入口——「这对开源模型来说是一场大胜利」。\n\n## 后训练什么时候真能带来能力提升?关键看数据偏离多远\n\n前沿模型在基础能力上确实领先,但后训练的杠杆在于:**你的数据越偏离模型的训练分布(即分布外数据),后训练越可能带来真正的能力提升**。[08:30 Yash] 不过他也坦言,大多数人做后训练其实是为了优化性价比——拿一个更便宜的模型训练到与前沿持平,成本却好得多,「有时你就能因此服务更多用户」。\n\n那五年后,还有多少企业的数据是分布外的?Yash 的诚实回答是:训练范式本身会变。现在是离线 RL(强化学习,从经验中学习)时代:从数据供应商采购高质量数据集,专门爬山优化,得到一个在特定领域「非常尖峭」的模型。而下一阶段是**在线 RL——用生产推理的流量反过来改进模型,模型用得越多越好**,那将是大多数企业固化自身判断专长的方式。[10:04 Yash] 企业里真正分布外的数据是什么?是公司内部产生的判断轨迹:每家公司对风险的阈值、运营模式、专长和历史数据都不同,这些塑造了它们独有的决策方式。制药公司是极端例子——专注一个疾病领域、自己跑实验、自己产生奖励信号,当然该有自己的模型;而银行之间的差异就微妙得多。\n\n## RL 是一台爬山机器,评估才是护城河\n\nYash 给了全集最浓缩的一个判断:「我们在 RL 上真正拥有的,本质上是一台爬山机器。最难的部分其实是定义要爬的那座山。」[25:30 Yash] 所以评估(evals)对公司至关重要——一要专注构建,二要小心保护。逻辑很锋利:公开基准一定会被跑分,而如果你的评估专门衡量「你的业务怎么运作」,那么**不告诉别人好坏的标准长什么样,本身就是竞争优势**。「你的员工不是可以随意替换的,你不会乐意让他们去另一家公司干活。对这些模型来说也是同样的道理。」[26:24 Yash] 这里有个张力:头部应用公司既想找实验室要能力,又怕泄露来之不易的洞见——正因如此,Yash 认为每家公司都该投资开源模型基础设施和多模型未来。\n\n不可验证的领域怎么办?他的经验是:把不可验证任务转化成「可代理验证」就出奇地好使——基于评分标准(rubric)的 RL,给模型一个专家答案、对照打分,就是相当好的代理。不同公司专家不同,优化出的模型可以非常不同。\n\n具体怎么做 RL?Yash 拆成三件事:**正确的任务、正确的环境(模型能访问哪些工具)、正确的验证器(怎么判定好坏)**。他们和法科技公司 Harvey 合作的定制模型就是这套流程:与团队收集专家评分标准和答案、补合成数据、给模型一些工具,再用基于评分标准的 RL 对照专家答案打分。构建训练数据的方式和构建评估的方式,本质是同一件事。\n\n## 先榨干 harness,再动模型\n\n很多问题其实不用训练就能解决。Yash 明确建议:**先做上下文优化和 harness 优化(围绕模型搭的工具链和调用环境),把能榨的榨干;之后优化策略(模型如何做判断和推理)还能继续榨出很多**。[17:31 Yash] 他的公司干脆只聚焦模型层:「我们不做从零到一的智能体构建,我们优化成熟产品背后的模型」——找上门的商机里八成大概靠一个好 harness 就能解决,他们只挑高价值场景:要么能力提升极其值钱(制药、网络安全、芯片),要么推理负载巨大——效率提升分摊到数十亿、数万亿 token 上,价值极高。\n\n一个反直觉的省钱思路:与其做推理优化砍 10% 账单,不如**把模型的 token 效率提高 10%**——同样的事少花 token,在保持评测表现不变的前提下削减账单。「这两件事是一枚硬币的两面」,这也是他们想同时做训练和推理的理由:训练方式直接影响推理部署怎么搭(比如训练一个重度工具调用的模型做工具调用并行化,推理架构就按这个来设计,预填充和解码甚至可以用不同芯片做分离式部署)。\n\n至于推理引擎本身,反而没那么高的壁垒:vLLM、SGLang 这些开源项目是很好的起点,几乎所有推理云都已停用自研引擎、改用开源引擎做调优。「如果你有一些 GPU,在上面放一个 vLLM,挂到 Open Router 上,你差不多就有了一个生产级推理产品。」真正难的是容量——你得真的有 GPU——以及规模上去之后,成千上万芯片上省下的 1% 会累积成真金白银。[33:08 Yash]\n\n## Satya 说每家公司该有自己的模型,他信一半\n\nSatya 说过「世界上有多少家公司,就该有多少个模型」。Yash 认为不一定每家都要去预训练,但**每家公司内部都存在值得捕捉的闭环反馈系统**。他公司的核心论点是一个上下限框架:「如果每个人都用同样的模型,伟大的模型为大家设定了下限,但你如何优化模型、构建出色的 AI 系统,那才设定上限。」[20:51 Yash] 供应紧缺放大了这件事的价值:算力有限,谁能从模型和算力里挤出更多,谁就能做更多事——「如果我能以比竞争对手便宜 10 倍的成本做成某件事,那就是差异化,就是我能在竞争中击败他们的东西。」\n\n## 本集带走\n\n- **判断要不要后训练,先问数据偏离多远**:数据越在模型训练分布之外,能力提升越真实;数据不够差异化,就只为性价比优化——用便宜模型追平前沿、成本大降。\n- **顺序别搞反**:先做提示词、上下文和 harness 优化,榨干之后,再动模型权重,继续优化「模型怎么用这些工具」。\n- **把评估当核心资产**:RL 只是爬山机器,难的是定义那座山。专属于你业务的评估别外传——它是模型能力的天花板,也是竞争对手拿不走的东西。\n- **做 RL 三件套**:想清楚任务是什么、模型能用哪些工具、怎么判定好坏;构建训练数据和构建评估是同一件事。\n- **省钱可以从模型下手**:把模型 token 效率提高一成,等效于推理账单降一成,训练和推理是一枚硬币的两面。\n- **AI 编程的正确姿势**:把思考委托给智能体会得到你解释不了的垃圾代码库;用 AI 执行你已想好的设计,重点修炼系统设计——他们面试就让人放开用 AI 写,然后追问「你为什么这样构建、考虑过哪些权衡」,答「Claude 做的」不算过。",
+  "title_zh": "每家公司都该有自己的AI模型吗？",
+  "tldr": "Applied Compute 创始人 Yash 谈后训练、强化学习的真实能力边界，以及为什么最懂训练的人最终会赢下推理。",
+  "digest_md": "AI圈最近流行一个说法：企业要拥有自己的智能，不要被几家头部实验室卡住脖子。Yash 是 Applied Compute 的创始人，曾在 OpenAI 参与 Codex 项目，现在专门帮企业做开源模型的后训练和部署。这期 Unsupervised Learning 播客里，他聊了哪些担忧是真的、哪些被夸大了，以及强化学习到底能做什么。\n\n## 担心实验室使坏？真正的问题是控制权\n\nYash 不太认同那些阴谋论式的担忧——实验室偷你的数据、随时掐断接口。这些公司有合同约束，也有大量工程投入保护数据。他认为拥有自己的智能真正的含义是灵活性和控制权：模型跑在哪里、怎么部署、优化成本还是延迟、针对哪个领域优化。要做到这些，你必须拿到模型的权重。[03:31 Yash]\n\n但依赖单一供应商的风险确实存在。模型被从产品里撤下的事已经发生过不止一次，尤其在编程领域。随着实验室自己往垂直领域做产品，它们还会不会继续服务自己的直接竞争对手，是个问号。\n\n## OpenAI 和 Base 10 合作说明了什么\n\n就在这期节目录制前不久，OpenAI 宣布和 Base 10 合作，用户可以把 OpenAI 的额度花在开源模型上。Yash 认为这是个明确信号：未来是多模型的，客户要选择权。他打趣说，唯一的悬念是 OpenAI 会不会走极端，连 Anthropic 和 Gemini 的模型也让你跑。\n\n> 【背景】Base 10 是一家投资机构；此合作让企业的 OpenAI 承诺额度可以用于 Base 10 部署的开源模型。\n\n他还观察到舆论的转变：几个月前大家只谈最强最大的模型，现在谈的是成本和性能的权衡曲线——不是每个任务都需要超大模型。\n\n## 后训练什么时候能超越头部模型\n\n答案是：**当你的数据足够独特的时候**。Yash 的经验法则是，你的数据越是分布外——也就是通用模型没见过的——后训练带来的能力提升越明显。比如制药公司专注某个疾病领域的实验数据，天然就是独家的。\n\n但更常见的动机是省钱：把一个便宜的小模型训练到和头部模型相当的水平，成本却低得多。在大规模使用场景下，这省下的钱相当可观。他甚至说，很多公司后训练纯粹就是在优化性价比。[08:52 Yash]\n\n## 强化学习其实是一台爬山机器\n\nYash 有个很好用的比喻：**强化学习本质上是一台爬山机器，最难的其实是定义那座山**——也就是评判标准。这也是为什么评测体系对企业如此重要，而且要严加保密：公开的基准都会被人针对，如果你把什么算好告诉了全世界，等于帮竞争对手训练。[00:02 Yash]\n\n有个冷知识：强化学习并不只适用于有标准答案的数学题。没有唯一答案的任务，只要让专家给出参考答案、拿模型的表现去对照打分，效果也相当不错。而不同公司的专家判断不同，训出来的模型就不同——这就是企业自有模型的价值所在。\n\n他的另一个警告很生动：你的员工不是可以随意替换的，你不会愿意他们跑去别家公司干活。模型也一样。[00:18 Yash]\n\n## 什么样的公司值得自训模型\n\nYash 的公司只挑两类客户：要么数据极其独特，比如制药、网络安全、芯片公司；要么推理工作量巨大，把优化收益摊到海量用户和海量请求上，价值同样惊人。\n\n他认为「世界上有多少公司就该有多少模型」这个愿景方向是对的，但每家公司未必都要从头训练。核心是每家公司内部都有值得捕捉的闭环反馈系统。他区分了两类任务：流程性的、按部就班的任务，通用模型会越来越好地直接覆盖；而依赖判断力的任务，才需要持续迭代训练。[16:02 Yash]\n\n## 为什么最懂训练的人会赢下推理\n\n这是全片最有趣的观点：**后训练做得最多的人，会赢下推理市场**。逻辑是，花的钱最多、规模最大的工作负载，恰恰是后训练收益最大的地方。而且训练和推理可以共同优化——训练时知道模型擅长什么，部署时就能针对性地配置集群。比如一个重度使用工具的长任务智能体，部署方式和重文本生成的工作负载完全不同。\n\n他举了个例子：你可以优化推理引擎省 10% 的账单，也可以把模型训得少用 10% 的词元，效果一样。两条路是同一枚硬币的两面。\n\n## 采访里最反直觉的一条建议\n\nYash 在 OpenAI 时主要做 Codex，但他注意到自己认识的最优秀的工程师都是 AI 出现之前学会写代码的。他的观点不是反对 AI 编程，而是反对把思考外包给智能体：你可以用工具执行你想好的方案，但不能靠它替你思考，否则会得到一堆自己都解释不了的垃圾代码库。\n\n他们公司的面试方式很有意思：让候选人随便用 AI，但会追问每一个设计决策——为什么这样建、权衡了什么。如果答案是Claude 写的，那就麻烦了。[49:09 Yash]\n\n## 本集带走\n\n- 企业自训模型的核心价值不是防实验室使坏，而是拿到成本、延迟和领域优化的控制权。\n- 强化学习是爬山机器，最难的是定义山——评测体系是企业最该建、也最该保密的资产。\n- 数据越分布外，后训练的能力提升越明显；大部分公司目前是在优化性价比而非能力。\n- 后训练做得最深的人会赢下推理市场，因为训练和推理可以协同优化。\n- 用 AI 工具没问题，但不能把思考外包给它——面试时要能解释每一个设计决策。",
   "quotes": [
     {
       "en": "But I do think the idea of owning your intelligence really is about flexibility and control.",
-      "zh": "但我确实认为,拥有自己的智能这个理念真正的核心在于灵活性和控制权。",
+      "zh": "但我确实认为，拥有自己的智能这个理念真正的核心在于灵活性和控制权。",
       "timestamp": "02:58",
       "speaker": "Yash"
     },
     {
-      "en": "And so the safest, most durable thing that you can go and do and the advantage you can build up, I think, is investing in the full stack to be able to make models that are powering your products, that are intelligent, that are doing the things that you want, and not having extreme vendor dependence on any one set of models or companies.",
-      "zh": "所以你能做的最安全、最持久的事,以及你能建立起来的优势,我认为是投资于全栈,能够打造驱动你产品的智能模型,让它们做你想做的事,而不是对任何一组模型或公司有极端的供应商依赖。",
-      "timestamp": "04:16",
-      "speaker": "Yash"
-    },
-    {
       "en": "Our general take has been like the more out of distribution your data is, the more likely that post training is actually going to give you that capabilities lift.",
-      "zh": "我们的总体看法是,你的数据越偏离分布,后训练就越有可能真正给你带来那种能力提升。",
+      "zh": "我们的总体看法是，你的数据越偏离分布，后训练就越有可能真正给你带来那种能力提升。",
       "timestamp": "08:30",
       "speaker": "Yash"
     },
     {
       "en": "That is actually going to be how most enterprises codify their judgment expertise by basically the more they use the model, the better that it gets.",
-      "zh": "那实际上将会是大多数企业固化判断专长的方式——基本上就是模型用得越多,它就变得越好。",
+      "zh": "那实际上将会是大多数企业把他们的判断专长固化的方式——基本上就是模型用得越多，它就变得越好。",
       "timestamp": "10:04",
       "speaker": "Yash"
     },
     {
       "en": "What's blocking continual learning is basically, like, extremely data-efficient training from sparse rewards, which is an unsolved problem.",
-      "zh": "阻碍持续学习的,基本上就是从稀疏奖励中做到极其省数据的训练,这是一个未解决的问题。",
+      "zh": "阻碍持续学习的，基本上就是从稀疏奖励中做到极其省数据的训练，这是一个未解决的问题。",
       "timestamp": "13:36",
       "speaker": "Yash"
     },
     {
       "en": "Yeah, I think we are pretty confident that the future looks like a non-static set of weights.",
-      "zh": "是的,我非常有信心,未来看起来像一组非静态的权重。",
+      "zh": "是的，我非常有信心，未来看起来像一组非静态的权重。",
       "timestamp": "14:59",
       "speaker": "Yash"
     },
     {
-      "en": "But once you reach a point where you've sort of squeezed a lot out of the harness that you've built and the tools that you've made, you actually can still continue to squeeze a lot out of optimizing the policy to use those tools better.",
-      "zh": "但一旦你从构建的 harness 和制作的工具里榨取得差不多之后,你实际上仍然可以通过优化策略来更好地使用那些工具,继续榨取很多。",
-      "timestamp": "17:31",
-      "speaker": "Yash"
+      "en": "Satya came out and said that there should be as many models in the world as there are firms in the world.",
+      "zh": "Satya 公开说过，世界上有多少家公司，就应该有多少个模型。",
+      "timestamp": "19:48",
+      "speaker": "SPEAKER_01"
     },
     {
       "en": "If everybody is using the same model, like great models sort of set the floor for everybody, but then how you go and optimize those models and build really amazing AI systems, that's what's going to set the ceiling.",
-      "zh": "如果每个人都用同样的模型,那么伟大的模型为大家设定了下限,但接下来你如何去优化那些模型并构建真正出色的 AI 系统,那才是设定上限的东西。",
+      "zh": "如果每个人都用同样的模型，那么伟大的模型为大家设定了下限，但接下来你如何去优化那些模型并构建真正出色的 AI 系统，那才是设定上限的东西。",
       "timestamp": "20:51",
       "speaker": "Yash"
     },
     {
-      "en": "If I can do something 10x cheaper than my competitor, that is differentiation and that is something that I can actually win against them out on the competitive landscape.",
-      "zh": "如果我能以比竞争对手便宜 10 倍的成本做成某件事,那就是差异化,那就是我在竞争格局中真正能击败他们的东西。",
-      "timestamp": "23:55",
+      "en": "No, I think it's actually what we have with RL is we essentially have a hill climbing machine.",
+      "zh": "不，我觉得我们在 RL 上真正拥有的，本质上是一台爬山机器。",
+      "timestamp": "25:30",
       "speaker": "Yash"
     },
     {
-      "en": "It is surprisingly easy to hill climb on non-verifiable domains if you turn them into some proxy verifiable domain.",
-      "zh": "如果你把不可验证的领域转化成某种可代理验证的领域,在上面爬山优化会出奇地容易。",
-      "timestamp": "24:49",
+      "en": "Particular to how your business operates and you want to make your models really good at that, it's actually to your advantage not to tell everybody else what good and bad looks like so people can go and make their things really good at that.",
+      "zh": "特定于你的业务运作方式的东西，并且你想让你的模型在这上面变得非常强，那么不告诉其他所有人好和坏长什么样，其实是对你有利的，这样别人就无法把他们的东西在那方面做得非常强。",
+      "timestamp": "26:03",
       "speaker": "Yash"
     },
     {
-      "en": "The hardest part is actually defining the hill to climb, which is why evals, I think, is a really important thing for companies to, A, focus on building, and B, actually safeguard pretty carefully.",
-      "zh": "最难的部分其实是定义要爬的那座山,这就是为什么我认为评估对公司来说非常重要——一要专注于构建它,二要非常小心地保护它。",
-      "timestamp": "25:37",
-      "speaker": "Yash"
-    },
-    {
-      "en": "Your employees are not fungible. You would not like be comfortable with them going to another company and doing work there. Same thing with these models.",
-      "zh": "你的员工不是可以随意替换的,你不会乐意让他们去另一家公司干活。对这些模型来说也是同样的道理。",
-      "timestamp": "26:24",
-      "speaker": "Yash"
-    },
-    {
-      "en": "And it's a tough position, which is why I think investing in open model infrastructure, investing in a multi-model future is something absolutely every company should be doing because you're kind of caught between a rock and a hard place.",
-      "zh": "这是一个艰难的处境,这就是为什么我认为投资开源模型基础设施、投资多模型未来,是每一家公司都绝对应该做的事,因为你有点左右为难。",
-      "timestamp": "26:44",
+      "en": "But really, inference is actually where most of the value capture happens.",
+      "zh": "但实际上，推理才是大部分价值捕获发生的地方。",
+      "timestamp": "27:39",
       "speaker": "Yash"
     },
     {
       "en": "And so what our view is is that the most post-training actually wins inference.",
-      "zh": "所以我们的观点是,后训练实际上赢得推理。",
+      "zh": "所以我们的观点是，后训练实际上赢得推理。",
       "timestamp": "29:24",
       "speaker": "Yash"
     },
     {
+      "en": "Hey, post-training is a massively underlooked part of the stack.",
+      "zh": "后训练是这个技术栈里被严重忽视的一部分。",
+      "timestamp": "36:10",
+      "speaker": "Yash"
+    },
+    {
+      "en": "Frontier models are amazing, but I didn't expect how much people would care about really cost-optimizing and using the right model for the right task.",
+      "zh": "前沿模型很了不起，但我没想到人们会如此在意真正地把成本优化好，为正确的任务使用正确的模型。",
+      "timestamp": "43:57",
+      "speaker": "Yash"
+    },
+    {
+      "en": "It's much more important to get the frameworks and design right than any of the actual coding.",
+      "zh": "把框架和设计搞对，比任何实际的编码都重要得多。",
+      "timestamp": "48:45",
+      "speaker": "Yash"
+    },
+    {
       "en": "You can't delegate your thinking away and basically rely on it as a crutch because then you get these massive slop code bases that you can't actually explain.",
-      "zh": "你不能把自己的思考委托出去、 basically 把它当拐杖,因为那样你会得到这些庞大的、你根本解释不了的垃圾代码库。",
+      "zh": "你不能把自己的思考委托出去、把它当作拐杖，因为那样你会得到这些庞大的、你根本解释不了的垃圾代码库。",
       "timestamp": "48:59",
+      "speaker": "Yash"
+    },
+    {
+      "en": "So for data companies, I think the main thing to get really good at is pivoting, like going from each paradigm to the next.",
+      "zh": "所以对数据公司来说，我认为最需要擅长的事情就是转型，也就是从一个范式转到下一个范式。",
+      "timestamp": "51:43",
       "speaker": "Yash"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "02:58",
-      "speaker": "Yash",
-      "en": "But I do think the idea of owning your intelligence really is about flexibility and control.",
-      "zh": "但我确实认为,拥有自己的智能这个理念真正的核心在于灵活性和控制权。"
+      "timestamp": "00:02",
+      "speaker": "Unknown",
+      "en": "What we have with RL is we essentially have a hill climbing machine.",
+      "zh": "我们拥有的 RL 本质上是一台爬山机器。"
     },
     {
-      "timestamp": "04:16",
-      "speaker": "Yash",
-      "en": "And so the safest, most durable thing that you can go and do and the advantage you can build up, I think, is investing in the full stack to be able to make models that are powering your products, that are intelligent, that are doing the things that you want, and not having extreme vendor dependence on any one set of models or companies.",
-      "zh": "所以你能做的最安全、最持久的事,以及你能建立起来的优势,我认为是投资于全栈,能够打造驱动你产品的智能模型,让它们做你想做的事,而不是对任何一组模型或公司有极端的供应商依赖。"
+      "timestamp": "00:18",
+      "speaker": "Unknown",
+      "en": "Your employees are not fungible.",
+      "zh": "你的员工不是可以随意替换的。"
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Unknown",
+      "en": "But I do think the idea of owning your intelligence really is about flexibility and control.",
+      "zh": "但我确实认为，拥有自己的智能这个理念真正的核心在于灵活性和控制权。"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Unknown",
+      "en": "It's not clear whether they'll continue serving companies that they're directly competing against.",
+      "zh": "尚不清楚他们是否会继续服务那些与他们直接竞争的公司。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Unknown",
+      "en": "But also, you know, what our core thesis is, is you can move that Pareto curve out.",
+      "zh": "但同时，我们的核心论点是，你可以把那条帕累托曲线向外推移。"
     },
     {
       "timestamp": "08:30",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "Our general take has been like the more out of distribution your data is, the more likely that post training is actually going to give you that capabilities lift.",
-      "zh": "我们的总体看法是,你的数据越偏离分布,后训练就越有可能真正给你带来那种能力提升。"
+      "zh": "我们的总体看法是，你的数据越偏离分布，后训练就越有可能真正给你带来那种能力提升。"
     },
     {
       "timestamp": "10:04",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "That is actually going to be how most enterprises codify their judgment expertise by basically the more they use the model, the better that it gets.",
-      "zh": "那实际上将会是大多数企业固化判断专长的方式——基本上就是模型用得越多,它就变得越好。"
+      "zh": "那实际上将会是大多数企业把他们的判断专长固化的方式——基本上就是模型用得越多，它就变得越好。"
     },
     {
       "timestamp": "13:36",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "What's blocking continual learning is basically, like, extremely data-efficient training from sparse rewards, which is an unsolved problem.",
-      "zh": "阻碍持续学习的,基本上就是从稀疏奖励中做到极其省数据的训练,这是一个未解决的问题。"
+      "zh": "阻碍持续学习的，基本上就是从稀疏奖励中做到极其省数据的训练，这是一个未解决的问题。"
     },
     {
-      "timestamp": "15:07",
-      "speaker": "Yash",
+      "timestamp": "14:59",
+      "speaker": "Unknown",
       "en": "Yeah, I think we are pretty confident that the future looks like a non-static set of weights.",
-      "zh": "是的,我非常有信心,未来看起来像一组非静态的权重。"
+      "zh": "是的，我非常有信心，未来看起来像一组非静态的权重。"
     },
     {
-      "timestamp": "17:31",
-      "speaker": "Yash",
-      "en": "But once you reach a point where you've sort of squeezed a lot out of the harness that you've built and the tools that you've made, you actually can still continue to squeeze a lot out of optimizing the policy to use those tools better.",
-      "zh": "但一旦你从构建的 harness 和制作的工具里榨取得差不多之后,你实际上仍然可以通过优化策略来更好地使用那些工具,继续榨取很多。"
+      "timestamp": "17:18",
+      "speaker": "Unknown",
+      "en": "And so what we see happening is the cost to post-train and actually adjust the weight is falling.",
+      "zh": "所以我们看到的情况是，后训练并真正调整权重的成本正在下降。"
+    },
+    {
+      "timestamp": "19:48",
+      "speaker": "Unknown",
+      "en": "Satya came out and said that there should be as many models in the world as there are firms in the world.",
+      "zh": "Satya 公开说过，世界上有多少家公司，就应该有多少个模型。"
     },
     {
       "timestamp": "20:51",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "If everybody is using the same model, like great models sort of set the floor for everybody, but then how you go and optimize those models and build really amazing AI systems, that's what's going to set the ceiling.",
-      "zh": "如果每个人都用同样的模型,那么伟大的模型为大家设定了下限,但接下来你如何去优化那些模型并构建真正出色的 AI 系统,那才是设定上限的东西。"
+      "zh": "如果每个人都用同样的模型，那么伟大的模型为大家设定了下限，但接下来你如何去优化那些模型并构建真正出色的 AI 系统，那才是设定上限的东西。"
     },
     {
-      "timestamp": "23:59",
-      "speaker": "Yash",
-      "en": "If I can do something 10x cheaper than my competitor, that is differentiation and that is something that I can actually win against them out on the competitive landscape.",
-      "zh": "如果我能以比竞争对手便宜 10 倍的成本做成某件事,那就是差异化,那就是我在竞争格局中真正能击败他们的东西。"
+      "timestamp": "23:55",
+      "speaker": "Unknown",
+      "en": "If I can do something 10x cheaper than my competitor,",
+      "zh": "如果我能以比竞争对手便宜 10 倍的成本做成某件事，"
     },
     {
-      "timestamp": "24:49",
-      "speaker": "Yash",
-      "en": "It is surprisingly easy to hill climb on non-verifiable domains if you turn them into some proxy verifiable domain.",
-      "zh": "如果你把不可验证的领域转化成某种可代理验证的领域,在上面爬山优化会出奇地容易。"
+      "timestamp": "25:30",
+      "speaker": "Unknown",
+      "en": "No, I think it's actually what we have with RL is we essentially have a hill climbing machine.",
+      "zh": "不，我觉得我们在 RL 上真正拥有的，本质上是一台爬山机器。"
     },
     {
-      "timestamp": "25:37",
-      "speaker": "Yash",
-      "en": "The hardest part is actually defining the hill to climb, which is why evals, I think, is a really important thing for companies to, A, focus on building, and B, actually safeguard pretty carefully.",
-      "zh": "最难的部分其实是定义要爬的那座山,这就是为什么我认为评估对公司来说非常重要——一要专注于构建它,二要非常小心地保护它。"
+      "timestamp": "26:03",
+      "speaker": "Unknown",
+      "en": "Particular to how your business operates and you want to make your models really good at that, it's actually to your advantage not to tell everybody else what good and bad looks like so people can go and make their things really good at that.",
+      "zh": "特定于你的业务运作方式的东西，并且你想让你的模型在这上面变得非常强，那么不告诉其他所有人好和坏长什么样，其实是对你有利的，这样别人就无法把他们的东西在那方面做得非常强。"
     },
     {
-      "timestamp": "26:24",
-      "speaker": "Yash",
-      "en": "Your employees are not fungible. You would not like be comfortable with them going to another company and doing work there. Same thing with these models.",
-      "zh": "你的员工不是可以随意替换的,你不会乐意让他们去另一家公司干活。对这些模型来说也是同样的道理。"
-    },
-    {
-      "timestamp": "26:44",
-      "speaker": "Yash",
-      "en": "And it's a tough position, which is why I think investing in open model infrastructure, investing in a multi-model future is something absolutely every company should be doing because you're kind of caught between a rock and a hard place.",
-      "zh": "这是一个艰难的处境,这就是为什么我认为投资开源模型基础设施、投资多模型未来,是每一家公司都绝对应该做的事,因为你有点左右为难。"
+      "timestamp": "27:39",
+      "speaker": "Unknown",
+      "en": "But really, inference is actually where most of the value capture happens.",
+      "zh": "但实际上，推理才是大部分价值捕获发生的地方。"
     },
     {
       "timestamp": "29:24",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "And so what our view is is that the most post-training actually wins inference.",
-      "zh": "所以我们的观点是,后训练实际上赢得推理。"
+      "zh": "所以我们的观点是，后训练实际上赢得推理。"
+    },
+    {
+      "timestamp": "30:05",
+      "speaker": "Unknown",
+      "en": "Because that's actually where the most gains are to be had, and it's kind of power law between all the other use cases.",
+      "zh": "因为那实际上是收益最大的地方，而其他所有用例之间大致呈幂律分布。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Unknown",
+      "en": "Say you want to cut your inference bill by 10%.",
+      "zh": "比如你想把你的推理账单砍掉 10%。"
     },
     {
       "timestamp": "32:54",
-      "speaker": "Yash",
-      "en": "You can actually influence both of them if you do it with us, which is why we're trying to be the centralized provider for both training and inference.",
-      "zh": "如果你和我们合作,你实际上可以同时影响两者,这也是为什么我们想成为训练和推理的集中式提供商。"
+      "speaker": "Unknown",
+      "en": "So I think one of the things that we've been able to tell customers is, hey, these things are two sides of the same coin.",
+      "zh": "所以我认为我们能告诉客户的事情之一是：这两件事是一枚硬币的两面。"
     },
     {
-      "timestamp": "34:27",
-      "speaker": "Yash",
-      "en": "Because 1% of savings across tons and tons of chips actually adds up.",
-      "zh": "因为在成千上万的芯片上省下的 1% 实际上会累积起来。"
+      "timestamp": "36:10",
+      "speaker": "Unknown",
+      "en": "Hey, post-training is a massively underlooked part of the stack.",
+      "zh": "后训练是这个技术栈里被严重忽视的一部分。"
     },
     {
       "timestamp": "41:17",
-      "speaker": "Yash",
-      "en": "So especially as companies start to move more into the application layer and build their own competitive products with their largest consumers of their models, I wouldn't be surprised if it happened more.",
-      "zh": "所以尤其当公司开始更多地向应用层移动,并与它们模型的最大消费者一起构建自己的竞争产品时,如果这种事发生得更多,我不会感到惊讶。"
+      "speaker": "Unknown",
+      "en": "Competitive dynamics are real and their incentives are real.",
+      "zh": "竞争动态是真实的，它们的激励也是真实的。"
+    },
+    {
+      "timestamp": "42:51",
+      "speaker": "Unknown",
+      "en": "is how real Jevin's paradox is.",
+      "zh": "杰文斯悖论有多么真实。"
+    },
+    {
+      "timestamp": "43:57",
+      "speaker": "Unknown",
+      "en": "Frontier models are amazing, but I didn't expect how much people would care about really cost-optimizing and using the right model for the right task.",
+      "zh": "前沿模型很了不起，但我没想到人们会如此在意真正地把成本优化好，为正确的任务使用正确的模型。"
+    },
+    {
+      "timestamp": "45:24",
+      "speaker": "Unknown",
+      "en": "So it's highly multiplicative.",
+      "zh": "所以它是高度乘法性的。"
+    },
+    {
+      "timestamp": "48:45",
+      "speaker": "Unknown",
+      "en": "It's much more important to get the frameworks and design right than any of the actual coding.",
+      "zh": "把框架和设计搞对，比任何实际的编码都重要得多。"
     },
     {
       "timestamp": "48:59",
-      "speaker": "Yash",
+      "speaker": "Unknown",
       "en": "You can't delegate your thinking away and basically rely on it as a crutch because then you get these massive slop code bases that you can't actually explain.",
-      "zh": "你不能把自己的思考委托出去、 basically 把它当拐杖,因为那样你会得到这些庞大的、你根本解释不了的垃圾代码库。"
+      "zh": "你不能把自己的思考委托出去、把它当作拐杖，因为那样你会得到这些庞大的、你根本解释不了的垃圾代码库。"
+    },
+    {
+      "timestamp": "51:43",
+      "speaker": "Unknown",
+      "en": "So for data companies, I think the main thing to get really good at is pivoting, like going from each paradigm to the next.",
+      "zh": "所以对数据公司来说，我认为最需要擅长的事情就是转型，也就是从一个范式转到下一个范式。"
+    },
+    {
+      "timestamp": "53:12",
+      "speaker": "Unknown",
+      "en": "So models are a function of data.",
+      "zh": "模型是数据的函数。"
+    },
+    {
+      "timestamp": "53:31",
+      "speaker": "Unknown",
+      "en": "Because when you're going in training, you're not actually using that much data, right?",
+      "zh": "因为当你去做训练时，你实际使用的数据量并没有那么多，对吧？"
+    },
+    {
+      "timestamp": "55:30",
+      "speaker": "Unknown",
+      "en": "Well, I think, I think there's just a lot of, I mean, running a bank is like, it's like a thousand layer cake, right?",
+      "zh": "嗯，我觉得，运营一家银行就像一个一千层的蛋糕，对吧？"
+    },
+    {
+      "timestamp": "55:55",
+      "speaker": "Unknown",
+      "en": "Codifying those into models is actually quite difficult.",
+      "zh": "把这些经验固化到模型里其实相当困难。"
+    },
+    {
+      "timestamp": "56:39",
+      "speaker": "Unknown",
+      "en": "They find the path of least resistance.",
+      "zh": "它们会找到阻力最小的路径。"
     }
   ],
   "voice_script": "今天这一期,咱们聊一个最近在 AI 圈特别火的说法,叫「拥有你自己的智能」。说白了,就是企业不再只依赖大实验室的模型,而是自己动手训练模型。聊这个话题的人叫 Yash,Applied Compute 的创始人,之前在 OpenAI 工作过,参与过 Codex,现在他的公司专门帮前沿企业做后训练和推理服务。后训练是个什么概念呢?就是拿一个现成的开源模型,用你自己的数据在上面继续训练,让它变成你的模型。这期播客的核心问题就一个:企业到底什么时候值得这么干?\n\n先说说为什么这个话题现在火。很多人担心实验室作恶:随时撤走 API、跟你抢生意、偷偷用你的数据训练。有意思的是,Yash 的回答反而很克制。他觉得这些公司都是由很棒的人组成的,有合同义务,也有大量保护数据的工程投入,谈不上恶意。真正让他觉得该拥有自己模型的原因,是灵活性和控制权——模型在哪儿跑、怎么部署、是优化成本还是优化延迟,这些你得自己说了算。而「拥有自己的智能」这个叙事真正兴起,恰好就是开源模型开始变好、你真能拿它们干活的时候。\n\n不过供应商风险确实存在,不是杞人忧天。模型从产品里被下架的事已经发生过不止一次,尤其在编程领域,Cursor 和 Windsurf 都被切断过。而且实验室越来越往垂直行业里扎,以后还愿不愿意服务跟自己直接竞争的公司,真不好说。所以 Yash 的结论是:最安全、最持久的优势,是投资全栈能力,不对任何一组模型有极端依赖。OpenAI 跟 Base 10 的合作——你可以用 OpenAI 的额度去用开放模型——在他看来就是个明确信号:这是一个多模型的未来,客户要的是选择权。这对开源模型来说,是一场大胜利。\n\n那具体到什么时候,后训练真能带来能力上的提升?这里有个关键判断:你的数据越偏离模型的训练分布——也就是分布外数据越多——后训练越可能带来真正的新能力。要是你的数据没那么特殊,那大多数人做后训练,其实图的是性价比:拿个便宜的模型训练到跟前沿水平持平,成本低一大截,有时你就能因此服务更多用户。\n\n那五年之后,还有多少企业的数据是分布外的呢?Yash 的回答很诚实:训练范式本身会变。现在是离线强化学习的时代,从数据供应商那买高质量数据集,专门去优化,得到一个在特定领域「非常尖峭」的模型。而下一阶段是在线 RL——用生产环境的真实流量反过来改进模型,模型用得越多就越好。这会是大多数企业固化自身判断专长的方式。因为企业里真正分布外的数据,是公司内部产生的判断轨迹:每家公司对风险的阈值、运营模式、历史积累都不一样,这些塑造了它们独有的决策方式。制药公司是极端例子——专注一个疾病领域,自己跑实验、自己产生奖励信号,当然该有自己的模型;而两家银行之间的差异,就微妙得多了。\n\n说到这儿,就引出这一期最浓缩的一个判断:「我们在 RL 上真正拥有的,本质上是一台爬山机器。最难的部分其实是定义要爬的那座山。」什么叫定义山?就是评估。公开基准一定会被大家跑分刷掉,但如果你的评估专门衡量你自己的业务怎么运作,那不告诉别人好坏的标准长什么样,本身就是竞争优势。Yash 打了个比方:你的员工不是可以随意替换的,你不会乐意让他们去另一家公司干活,对这些模型来说也是同样的道理。这也是为什么每家公司都该投资开源基础设施——因为你既想找实验室要能力,又不想泄露来之不易的洞见。那些不好验证的任务怎么办?把不可验证变成「可代理验证」就出奇地好使:给模型一个专家答案,对照打分,这就是很好的代理。他们和法科技公司 Harvey 合作的定制模型,走的就是这套流程:收集专家评分标准和答案,补些合成数据,给模型配上工具,再用基于评分标准的 RL 去打分。想清楚任务是什么、模型能用哪些工具、怎么判定好坏,这三件事就是 RL 的全部。\n\n但顺序千万别搞反。Yash 明确建议:先做上下文和 harness 优化——harness 就是围绕模型搭的工具链和调用环境——把能榨的榨干,之后优化模型怎么做判断,还能继续榨出很多。找上门的商机里,八成靠一个好 harness 就能解决。所以他的公司只挑两种高价值场景:要么能力提升极其值钱,比如制药、网络安全、芯片;要么推理负载巨大,效率提升摊到数十亿 token 上,价值极高。这里还有个反直觉的省钱思路:与其做推理优化砍 10% 的账单,不如把模型的 token 效率提高 10%,让模型干同样的事少花 token。这两件事是一枚硬币的两面,训练方式直接影响推理架构怎么搭。\n\n最后回到 Satya 那句话:「世界上有多少家公司,就该有多少个模型。」Yash 信一半——不一定每家都要去预训练,但每家公司内部都存在值得捕捉的闭环反馈系统。他有个上下限框架:如果每个人都用同样的模型,伟大的模型为大家设定了下限,但你如何优化模型、构建出色的 AI 系统,那才设定上限。算力紧缺的今天,谁能从同样的模型里挤出更多,谁就能在竞争中赢。\n\n所以这一集说到底就是一句话:RL 是一台爬山机器,人人都有,但那座山得你自己定义——保护好定义好坏的标准,才是别人拿不走的护城河。"

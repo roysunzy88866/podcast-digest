@@ -1,135 +1,172 @@
 {
-  "title_zh": "拥有你的智能:LangChain 的三大支柱与全新发布",
-  "tldr": "LangChain 在 Interrupt 纽约大会的主题演讲:为什么企业要「拥有自己的智能」,以及围绕运行时、可观测性、智能层的一系列新发布。",
-  "digest_md": "这一集是 LangChain 在其开发者大会 Interrupt(首次在纽约举办)上的开场主题演讲。核心话题是一个正在业内流行的说法——「拥有你的智能」(owning your intelligence):公司不再只是调用别人的模型,而是在模型内部和周围构建大量领域专属的东西,让 AI 真正成为自己产品的护城河。\n\n演讲抛出的核心判断是:**模型本身正在商品化,真正的差异化在模型之外——尤其是数据**:无论是你喂给模型的实际上下文,还是你烘焙进执行框架里的领域专属逻辑。「拥有智能」之所以此刻爆发,有三个原因:token 成本大幅上升,企业要掌控 ROI;开源权重模型越来越好,既能省钱又能定制;以及上面这条——模型趋同,周边才是壁垒。\n\n## 三个支柱:可控、复利、治理\n\nLangChain 把「拥有智能」拆成三个核心支柱:\n\n**第一,开放且可控的 harness**(harness 即执行框架——把模型和领域上下文接线连接、让模型在正确的时间看到正确上下文的那一层)。它必须是**模型中立的**:这既是进攻——最好的新模型一出来(无论来自 OpenAI、Anthropic 还是 TypeSafe),你能立刻切换过去;也是防御——不被单一供应商锁定、任其涨价。控制手段包括开源的 LangGraph(用有向图编排智能体流程)、新的 DeepAgents,以及往核心智能体循环里注入决策的 middleware。\n\n**第二,复利式增长**。发布一个智能体离成功还很远,关键是把用户使用中的错误和经验不断喂回去——人工改代码改 prompt 也好,用记忆或 prompt 优化工具自动化也好。演讲里最有力的一句方法论是:**如果你能比任何人都更好地定义你的领域里什么算「好」,你就能为那个领域构建出最好的智能体**——具体做法就是用 evals(评估集)定义「好」,然后在 evals 上爬山。\n\n**第三,治理**。这对内部智能体尤其关键:你得知道有多少智能体在跑、能控成本、能管权限——不同的人只能访问他该访问的东西。\n\n支撑这三支柱的组织形态也变了:核心平台工程师做底座,其外是「智能体工程师」——数据科学家、工程师、机器学习工程师的奇怪混合体,一种全新技能组合;最外圈是领域专家,他们往往才是最该决定「什么算好」的人,所以平台必须能触达非开发者。流程上则是「构建→测试→部署→监控」,再把监控所得带回构建的迭代闭环。\n\n## 运行时:智能体三件套 + 新发布\n\n一个智能体由三部分组成:**业务逻辑**(指令、工具、技能、钩子——金融智能体和法律智能体的技能截然不同,这是你要提供的)、**harness**、以及**基础设施**(持久执行、安全访问工具、运行智能体写的代码——很多非编码智能体也在写代码、访问模型)。\n\nDeepAgents 是最新的开源开箱即用 harness,大量借鉴编码智能体的做法:带文件系统和沙箱的执行环境、用压缩做上下文管理,但目的是让你构建领域专属智能体。而 **Managed Deep Agents** 把 harness 和托管基础设施合成一个——你只提供业务逻辑就能上生产,演讲称之为「公司 harness」,让组织内部构建和共享智能体变得非常容易。本次新发布三件事:一是**认证原语**——内部智能体最难的恰恰是认证:智能体连 Notion 或 Jira 时,是以用户身份还是固定服务身份连接?新引入 connections(工具级认证)、agent identity(整体定义为用户权限还是服务权限)、channels(比如 Slack 共享频道里你和同事都发消息,用谁的认证、对哪些运行生效,全部内置处理)。二是**用户级记忆**——此前只有智能体级记忆,现在能记住每个个别用户的偏好。三是**内置工具**——通过 parallel 接入网页搜索,不用再单独申请 API 密钥。\n\n另一个新物种是**决策模型**。周末刚发布的 Jev 是个新型模型:你发给它一个状态和一串问题,它对问题评分——布尔值、分数或分类选择都行——**它不能生成文本,但能做决策**。虽受限,用处很大:评估(智能体运行中实时评分、实时抓错)、护栏(传统护栏的致命缺点是加延迟,低延迟护栏就非常强大)、以及模型路由(选哪个模型、加载哪些技能或工具)。JEV 发布后开源决策模型已大规模爆发,LangSmith 网关除了 Jev 还托管了一个开源决策模型 semif。\n\n**LangSmith LLM 网关**(一两个月前 beta)的主张很直接:出于治理和成本控制,你应该把**所有** AI 流量——包括 Codex、Claude Code、Cursor 这些编码智能体的——都路由到统一网关。核心功能:按团队、用户、API 密钥设消费限额;速率限制;模型出错时回退到其他提供商;即将推出的**有状态回退**——发现 Anthropic 宕机,接下来 10 到 30 分钟直接切 OpenAI,不用再试。格式上统一规范为 OpenAI 和 Anthropic 消息格式,也支持直接透传以第一时间用上新功能。\n\n## 可观测性:轨迹成为核心原语\n\n可观测性是复利循环的燃料,而 **trace**(追踪记录)是这个循环的核心——它是记录系统,展示智能体每一步做了什么。原有三级原语:run 是一次 LLM 调用,trace 是智能体的一次调用,thread 是多轮交互下的一系列 trace。但现在有了更有用的标准:**trajectory(轨迹)**——如今大多数智能体都是在循环里跑 LLM、编译出一个消息列表,这个列表是标准格式,可以到处复用。\n\nLangSmith trajectories 带来三大好处:调试快得多——数千次迭代的复杂 trace 原本很难解析,新 UI 把冗长的工具调用压缩展示,像用编码智能体一样一眼扫过;标注简单了——看得清才好留反馈;以及**让后训练模型容易得多**——后端解析各种 SDK 和编码智能体传来的复杂格式,统一暴露成标准 trajectory,可直接用于微调。\n\n微调 = 数据 + 推理训练基础设施,LangSmith 要把两者接起来:新发布的 **SmithTune CLI** 让你选择 traces、筛出相关部分、预处理成微调就绪的数据,然后传入 Fireworks 或 Base 10 做实际训练,再评估,产出优化过的模型。存储层是自研的 SmithDB——专为智能体工作负载打造,摄取、存储、查询都快得多。另发布了 **LangSmith custom apps**:可以理解为 lovable,但针对你已经在 LangSmith 上的数据——对话式生成完全自定义的可视化应用,LangChain 甚至开源了自己的设计系统供底层编码智能体使用,且内置团队共享与 RBAC/ABAC 权限边界。\n\n## 智能层:Engine v2 替 AI 工程师干活\n\n最上层是 **LangSmith Engine**:一个坐在追踪记录之上的后台引擎,基本做了 AI 工程师会做的所有事——看问题、聚类、建看板、用代码修复、加评估器、往数据集加样本。本次发布的 Engine v2 三个亮点:\n\n- **主动验证修复**:Engine 在 trace 里发现问题后,会在你的部署上起一个预览分支,确认问题真实存在,做出修复、再起分支验证修复有效,然后把全部证据打包成一个 issue 呈现给你。\n- **红队测试**:以前 Engine 只能从真实流量里被动发现问题,现在它能主动模拟各种问题和假设去打你的部署,识别哪些产生坏结果——学到了不该学的、产出了坏结果、偏离了品牌调性——然后标记给你。这也解决了「创建评估集非常痛苦」的老问题,而且可以在智能体上线之前就用。\n- **性能与成本**:更善于发现和修复问题,同时便宜了很多。\n\nEngine 已扫描超过 7000 万条 trace、检测出超过 21,000 个问题,被很多增长最快的 AI 公司用来压缩迭代周期——演讲强调:**构建智能体时,迭代周期就是一切**。Engine v2 即刻上线,自托管版(自带密钥)将随一两周内的 v17 发布。\n\n收尾回到主线:运行时(开源 + 托管部署)、可观测性与评估(trajectory 更智能体原生、custom apps 更可定制、数据用于调优)、智能层(扫描 trace 和红队只是开始)——这一切都是为了帮你构建领域专属智能体,真正拥有你的智能。\n\n## 本集带走\n\n- **模型会趋同,周边定胜负**:把差异化押在数据、上下文和烘焙进 harness 的领域逻辑上,而不是押在某个模型上。\n- **harness 必须模型中立**:新模型一出立刻能切换——既是进攻也是防御,避免被单一供应商锁价。\n- **用 evals 定义「好」,再爬山**:谁能更好地定义自己领域里什么算最好,谁就能构建那个领域最好的智能体;智能体的成功靠发布后「监控→回灌构建」的复利循环。\n- **决策模型是新物种**:不能生成文本、只做决策的模型,适合评估、低延迟护栏和路由——别用前沿大模型干这些小事。\n- **所有 AI 流量走统一网关**:包括编码智能体的流量,才能做成本限额、速率限制和有状态的供应商回退。\n- **trajectory 是新标准格式**:统一轨迹让调试、人工标注、微调数据三者共用同一份消息列表。\n- **让引擎替你迭代**:自动发现、验证、修复、红队测试,把「迭代周期就是一切」的循环压到最短。",
+  "title_zh": "模型不再是护城河，谁在围绕模型建「自己的智能」",
+  "tldr": "LangChain 创始人在 Interrupt NYC 大会开场演讲，讲为什么「拥有你的智能」成了 2026 年 AI 应用的关键词。",
+  "digest_md": "LangChain 是最早的大模型应用框架之一，比 ChatGPT 还早一个月问世。在纽约举办的首届 Interrupt 大会上，创始人做了一场开场主题演讲，回顾了过去三年从原型到智能体的演变，并发布了一串新产品。整场演讲围绕一个核心判断：**模型本身正在被商品化，真正的差异化在模型之外**。\n\n## 过去三年发生了什么？\n\n演讲者给了一条清晰的时间线：2023 年大家在搭原型；2024 年一些简单应用上了生产环境，但都只是单次调用大模型；2025 年开始探索智能体；到了今年，智能体已经真正改变了应用层 [00:08 Unknown]。\n\n他举了几个例子。Rogo 为金融领域做了专门的智能体运行框架和模型路由；Harvey 微调出了法律领域表现最好的模型；JPMorgan Chase 则在内部围绕模型定制框架，服务于他们的 Jarvis 流水线。这些公司的共同点是：不是简单套壳，而是围绕模型建了大量领域专属的东西——这就是他要讲的拥有你的智能。\n\n## 为什么现在人人都在谈拥有你的智能？\n\n三个原因。第一，token 成本在飞涨，公司花在 AI 上的钱越来越多，自然要求可控的投资回报 [02:53 Unknown]。第二，开源模型越来越强，不仅便宜，还能做后训练和深度定制。第三，也是最重要的：模型本身正在被商品化，真正的差异化来自模型外围的东西——你喂给它的上下文数据、你写进框架里的领域逻辑。\n\n## 通往拥有智能的三大支柱\n\n第一是开放可控的框架。它必须模型中立——进攻上说，新模型一出你就能马上切换；防守上说，不会被单一供应商锁死涨价 [04:47 Unknown]。\n\n第二是复利。上线一个智能体离成功还很远，你要观察它怎么被使用、在哪里犯错，然后不断迭代——可能是人工改提示词，也可能是自动的记忆和优化机制。他的原话大意是：**谁能最好地定义自己领域里什么是好，谁就能做出该领域最好的智能体** [06:32 Unknown]。\n\n第三是治理。公司内部跑着一堆智能体时，你得知道它们有多少、成本多少、权限对不对。\n\n## 人和流程也得跟着变\n\n组织上，他看到 3 层人：最里层是平台工程师，提供工具给其他人用；中间是智能体工程师——一种数据科学家、工程师和机器学习工程师的混合新角色；外围是业务专家，他们往往最清楚什么是好，所以平台得能触达这些不写代码的人 [08:08 Unknown]。\n\n流程上，智能体开发是一个循环：构建、测试、部署、监控，再把监控发现的问题带回构建环节。\n\n## 一个智能体由三块组成\n\n技术层面，他把智能体拆成三部分。业务逻辑（指令、工具、技能）由你自己写；框架负责把模型和领域上下文接好线，让模型在对的时机看到对的信息；基础设施则负责上云——持久化执行、安全访问工具、运行模型生成的代码等。\n\n他们最新的开源框架 DeepAgents 就是一个现成的框架，借鉴了编程智能体的做法：带沙盒文件系统和上下文压缩，专门用来做领域智能体。今天还发布了 Managed Deep Agents，把框架和托管基础设施打包，新增了身份认证机制、用户级记忆，以及通过 Parallel 内置的联网搜索。\n\n## Jev 开创的决策模型值得关注\n\n演讲里最有新意的判断是关于 Jev 这个周末刚发布的新模型类型。**它不生成文本，只做决策：你给它一个状态和一组问题，它返回布尔判断、分数或分类选择** [16:03 Unknown]。\n\n这类决策模型的用武之地：给智能体的输出实时打分、在环评估、低延迟的护栏、以及路由——决定该用哪个模型、哪个工具。开源社区在 Jev 之后涌现了一大批同类模型，LangSmith 的网关会托管这些。\n\n## 数据飞轮：从轨迹到微调\n\n观测层面，他们把过去按「单次调用—调用链—会话」记录的数据，升级成轨迹这个新标准格式——因为现在的智能体基本都是在循环中跑大模型、累积一段消息列表，这个格式更贴近真实行为。\n\n轨迹的两大好处：调试界面更友好，标注反馈更容易；更重要的是它天然适合微调。配套发布的 LangSmith Fine-Tuning 和 SmithTune 命令行工具，让你直接从轨迹数据筛选、预处理，送到 Fireworks 或 Base 10 训练，产出定制模型。\n\n## 让 AI 工程师的部分工作自动化\n\n压轴的是 LangSmith Engine v2。这是一个跑在轨迹数据之上的引擎，干的正是 AI 工程师干的事：发现问题、聚类、生成修复代码、补充评估器。新版本有两个亮点：一是它会主动测试自己的修复——在部署上开预览分支验证问题真实存在、修复确实有效 [28:10 Unknown]；二是红队测试，在上线前主动模拟各种刁钻输入，找出智能体会失败的场景，顺便生成初始评估数据集。\n\n数据也很硬：Engine 已经扫描了超过 7000 万条轨迹，检测出超过 21000 个问题，v2 现已上线。\n\n## 本集带走\n\n- 模型正在被商品化，差异化在模型外围：领域上下文、专属框架和数据。\n- 拥有你的智能的三大支柱：开放可控的框架、能复利迭代的闭环、严格的治理。\n- 智能体开发是循环而非一次性交付：构建—测试—部署—监控—回流改进。\n- Jev 代表的决策模型新类别值得关注：不生成文本，只做判断，适合评估、护栏和路由。\n- 微调的门槛在快速降低：从生产轨迹直接筛数据、训练、评估的流水线已经打通。",
   "quotes": [
     {
-      "en": "the models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data",
-      "zh": "模型本身正在变得有些商品化,真正起作用的是围绕模型的这一切,尤其是数据。",
+      "en": "The models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data.",
+      "zh": "模型本身正在变得有些商品化，而真正起作用的是围绕模型的这一切，尤其是数据。",
       "timestamp": "03:32",
       "speaker": "SPEAKER_00"
     },
     {
+      "en": "One, we think the harness needs to be model neutral, so you shouldn't be coupled to a particular model.",
+      "zh": "第一，我们认为 harness 需要是模型中立的，也就是你不应该被耦合到某个特定的模型上。",
+      "timestamp": "04:40",
+      "speaker": "SPEAKER_00"
+    },
+    {
       "en": "If you can define what better and what best looks like for your domain better than anyone else, you will be able to build the best agent for that domain.",
-      "zh": "如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好,你就能为那个领域构建出最好的智能体。",
+      "zh": "如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好，你就能为那个领域构建出最好的智能体。",
       "timestamp": "06:32",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Or more automatically, whether that's with memory or prompt optimization things, this compounding loop is really important to build into your systems and to own.",
+      "zh": "还是更自动化的方式，比如用记忆或 prompt 优化之类的工具，这个复利循环非常重要，要构建到你的系统中并由你掌控。",
+      "timestamp": "06:23",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And we see a lot of agents writing code, even if they're not coding agents.",
+      "zh": "我们看到很多智能体在写代码，即使它们不是编码智能体。",
+      "timestamp": "12:10",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "One of the downsides of guardrails is that it always adds latency. If now we can add them in a really low latency way, that's really cool and powerful.",
+      "zh": "护栏的一个缺点是它总会增加延迟。如果现在我们能以非常低延迟的方式加入护栏，那会非常酷、非常强大。",
+      "timestamp": "17:20",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "That iteration cycle is everything when you're building agents.",
+      "zh": "当你在构建智能体时，迭代周期就是一切。",
+      "timestamp": "30:21",
       "speaker": "SPEAKER_00"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "02:16",
+      "timestamp": "01:29",
       "speaker": "Unknown",
-      "en": "all of these are examples of companies taking the model, building a lot of stuff around it to make it truly theirs, and the phrase that has been going around to really exemplify all of this is owning your intelligence.",
-      "zh": "所有这些都是公司拿到模型之后、围绕它构建大量东西让它真正成为自己产品的例子,而最近流传的一个用来概括这一切的说法,就是「拥有你的智能」。"
+      "en": "And so we're seeing that these domain-specific agents, they're not just wrappers, they're providing real value to folks.",
+      "zh": "于是我们看到，这些特定领域的智能体不只是套壳，它们在为人们提供真正的价值。"
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "So all of these are examples of companies taking the model, building a lot of stuff around it to make it truly theirs, and the phrase that has been going around to really exemplify all of this is owning your intelligence.",
+      "zh": "所以这些都是公司在拿到模型之后，围绕它构建大量东西、让它真正成为自己产品的例子，而最近流传的一个用来概括这一切的说法，就是「拥有你的智能」。"
     },
     {
       "timestamp": "03:28",
       "speaker": "Unknown",
-      "en": "the models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data",
-      "zh": "模型本身正在变得有些商品化,真正起作用的是围绕模型的这一切,尤其是数据。"
+      "en": "The models themselves are becoming somewhat commoditized and it's all of this stuff around the model, in particular the data.",
+      "zh": "模型本身正在变得有些商品化，而真正起作用的是围绕模型的这一切，尤其是数据。"
     },
     {
-      "timestamp": "04:45",
+      "timestamp": "04:40",
       "speaker": "Unknown",
-      "en": "This is both offensive and defensive.",
-      "zh": "这既是进攻也是防御。"
+      "en": "One, we think the harness needs to be model neutral, so you shouldn't be coupled to a particular model.",
+      "zh": "第一，我们认为 harness 需要是模型中立的，也就是你不应该被耦合到某个特定的模型上。"
     },
     {
       "timestamp": "05:01",
       "speaker": "Unknown",
       "en": "You don't want to get locked into a single model provider so that they can raise rates and things like that.",
-      "zh": "你不希望被锁定在单一模型供应商那里,以至于他们可以随意涨价之类。"
+      "zh": "你不希望被锁定在单一模型供应商那里，以至于他们可以随意涨价之类。"
     },
     {
       "timestamp": "06:32",
       "speaker": "Unknown",
       "en": "If you can define what better and what best looks like for your domain better than anyone else, you will be able to build the best agent for that domain.",
-      "zh": "如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好,你就能为那个领域构建出最好的智能体。"
+      "zh": "如果你能比任何人都更好地定义对你的领域来说什么更好、什么是最好，你就能为那个领域构建出最好的智能体。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Unknown",
+      "en": "Or more automatically, whether that's with memory or prompt optimization things, this compounding loop is really important to build into your systems and to own.",
+      "zh": "还是更自动化的方式，比如用记忆或 prompt 优化之类的工具，这个复利循环非常重要，要构建到你的系统中并由你掌控。"
     },
     {
       "timestamp": "08:08",
       "speaker": "Unknown",
       "en": "So this is a great term to describe the weird hybrid mix of data scientist and engineer and machine learning engineer that makes up the people who are driving these agents.",
-      "zh": "「智能体工程师」是个很好的术语,用来描述由数据科学家、工程师和机器学习工程师组成的奇怪混合体,正是这些人驱动着这些智能体。"
+      "zh": "这是一个很好的术语，用来描述由数据科学家、工程师和机器学习工程师组成的奇怪混合体，正是这些人驱动着这些智能体。"
     },
     {
-      "timestamp": "12:48",
+      "timestamp": "12:10",
       "speaker": "Unknown",
-      "en": "So managed deep agents basically takes this harness and the managed infrastructure and combines it into one.",
-      "zh": "managed deep agents 基本上是把这个 harness 和托管基础设施结合成一个。"
-    },
-    {
-      "timestamp": "13:41",
-      "speaker": "Unknown",
-      "en": "It's connecting either on behalf of the user or as the agent's kind of fixed set of identity.",
-      "zh": "它是以用户身份连接,还是以智能体那种固定的身份集合连接。"
+      "en": "And we see a lot of agents writing code, even if they're not coding agents.",
+      "zh": "我们看到很多智能体在写代码，即使它们不是编码智能体。"
     },
     {
       "timestamp": "14:29",
       "speaker": "Unknown",
       "en": "If I message it in a shared public channel and my coworker messages it, whose auth does it use?",
-      "zh": "如果我在一个共享的公共频道里给它发消息,而我的同事也给它发消息,它用谁的认证?"
+      "zh": "如果我在一个共享的公共频道里给它发消息，而我的同事也给它发消息，它用谁的认证？"
     },
     {
       "timestamp": "16:18",
       "speaker": "Unknown",
       "en": "It can't generate text, but it can make decisions.",
-      "zh": "它不能生成文本,但它可以做决策。"
+      "zh": "它不能生成文本，但它可以做决策。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Unknown",
+      "en": "But there's also a ton of other decisions that need to be made, and that's where we think a decision model can be really helpful.",
+      "zh": "但还有大量其他需要做出的决策，而我们正是因此认为决策模型会非常有用。"
     },
     {
       "timestamp": "17:20",
       "speaker": "Unknown",
-      "en": "One of the downsides of guardrails is that it always adds latency.",
-      "zh": "护栏的一个缺点是它总会增加延迟。"
+      "en": "One of the downsides of guardrails is that it always adds latency. If now we can add them in a really low latency way, that's really cool and powerful.",
+      "zh": "护栏的一个缺点是它总会增加延迟。如果现在我们能以非常低延迟的方式加入护栏，那会非常酷、非常强大。"
     },
     {
-      "timestamp": "18:42",
+      "timestamp": "17:45",
       "speaker": "Unknown",
-      "en": "We think you should be routing all of it through a single element gateway.",
-      "zh": "我们认为你应该把所有流量都路由到一个统一的网关。"
+      "en": "There's been a massive explosion in these open source decision models since JEV launched.",
+      "zh": "自从 JEV 发布以来，这些开源决策模型出现了大规模爆发。"
+    },
+    {
+      "timestamp": "18:35",
+      "speaker": "Unknown",
+      "en": "Again, we think you should be routing all of your traffic for governance and cost control reasons.",
+      "zh": "我们再次认为，出于治理和成本控制的原因，你应该把你的所有流量都路由出去。"
     },
     {
       "timestamp": "19:18",
       "speaker": "Unknown",
       "en": "So if you notice that requests are failing and Anthropic might be down, you don't even try them for the future.",
-      "zh": "如果你注意到请求在失败,而 Anthropic 可能宕机了,那么未来你甚至不用再尝试它。"
+      "zh": "也就是如果你注意到请求在失败，而 Anthropic 可能宕机了，那么未来你甚至不用再尝试它。"
     },
     {
-      "timestamp": "20:46",
+      "timestamp": "20:35",
       "speaker": "Unknown",
-      "en": "And this is what we're calling trajectories.",
-      "zh": "这就是我们所说的 trajectories(轨迹)。"
-    },
-    {
-      "timestamp": "22:29",
-      "speaker": "Unknown",
-      "en": "A third big benefit that we think is this actually makes it much easier for post-training models.",
-      "zh": "我们认为第三个重要好处是,这实际上让模型的后训练容易得多。"
+      "en": "So these are all really useful primitives, but it's become pretty clear over the past year or so that there's a more useful standard for how to represent what agents do.",
+      "zh": "这些都是非常有用的原语，但在过去一年左右的时间里，有一点已经变得很清楚，那就是存在一个更有用的标准来表示智能体的行为。"
     },
     {
       "timestamp": "25:31",
       "speaker": "Unknown",
       "en": "So LangSmith custom apps you can basically think of as lovable but for your data that's already on LangSmith.",
-      "zh": "LangSmith custom apps 你基本上可以把它理解为 lovable,但针对的是你已经在 LangSmith 上的数据。"
+      "zh": "LangSmith custom apps 你基本上可以把它理解为 lovable，但针对的是你已经在 LangSmith 上的数据。"
     },
     {
-      "timestamp": "28:47",
+      "timestamp": "29:40",
       "speaker": "Unknown",
-      "en": "So previously, Engine only identified issues that existed in traces that people were sending to it that were happening in the wild.",
-      "zh": "以前,Engine 只能识别人们发送给它的、在真实环境中发生的追踪记录里已存在的问题。"
-    },
-    {
-      "timestamp": "30:15",
-      "speaker": "Unknown",
-      "en": "It's used by a lot of the fastest growing AI companies out there to really speed up that iteration cycle.",
-      "zh": "很多增长最快的 AI 公司都在使用它,以真正加快迭代周期。"
+      "en": "So we've heard for a while that creating evals is really hard and really painful. And so this helps automate a lot of that.",
+      "zh": "我们已经听到一段时间了，创建评估非常困难、非常痛苦。所以这有助于自动化其中的很多工作。"
     },
     {
       "timestamp": "30:21",
       "speaker": "Unknown",
       "en": "That iteration cycle is everything when you're building agents.",
-      "zh": "当你在构建智能体时,迭代周期就是一切。"
+      "zh": "当你在构建智能体时，迭代周期就是一切。"
     }
   ],
   "voice_script": "今天这一期,主角是 LangChain,一家做智能体开发工具的公司。内容是它在自家开发者大会 Interrupt 上的开场主题演讲——这个大会是第一次在纽约办。整场演讲围绕一个正在业内流行的说法展开:拥有你的智能。意思是,公司不再只是调用别人的模型,而是在模型周围构建大量领域专属的东西,让 AI 真正成为自己产品的护城河。\n\n为什么这个话题现在爆发?演讲给出了判断:模型本身正在商品化,真正的差异化在模型之外,尤其是数据——你喂给模型的上下文,以及烘焙进执行框架里的领域逻辑。再加上 token 成本大幅上涨,企业要掌控投入产出比;开源权重模型越来越好,既能省钱又能定制。模型趋同了,周边才是壁垒。\n\n那怎么\"拥有\"智能?LangChain 把它拆成三个支柱。第一是开放且可控的 harness。harness 就是执行框架,把模型和领域上下文接起来,让模型在正确的时间看到正确的东西。它必须模型中立——这既是进攻,最好的新模型一出来,不管来自谁家,你立刻能切换过去;也是防御,不被单一供应商锁定、任其涨价。第二是复利式增长。发布一个智能体离成功还很远,关键是把用户使用中的错误和经验不断喂回去。有句话很值得记住:如果你能比任何人都更好地定义你的领域里什么算好,你就能为那个领域构建出最好的智能体。具体做法,就是用评估集定义\"好\",然后在评估集上爬山。第三是治理,尤其是内部智能体——你得知道有多少智能体在跑,能控成本、能管权限。\n\n主线讲完了,那这些理念落成了哪些具体发布?可以按三层来看。最底下是运行时。最新的开源 harness 叫 DeepAgents,大量借鉴编码智能体的做法,带文件系统、沙箱和上下文压缩,目的是让你构建领域专属智能体。托管的版本更进一步,你只提供业务逻辑就能上生产,演讲管这叫\"公司 harness\"。围绕它的新发布有三件:认证原语,解决智能体连 Notion、Jira 时到底用谁的身份这个问题;用户级记忆,能记住每个用户的偏好;以及内置工具,网页搜索不用再单独申请密钥。\n\n运行时之上还有个新物种,特别有意思——决策模型。周末刚发布的 Jev 就是这样:你给它一个状态和一串问题,它对问题打分,但不能生成文本。听着受限,用处很大:评估、低延迟护栏、模型路由。传统护栏的致命缺点是加延迟,而这东西延迟很低,就很强。\n\n再往上是可观测性。这是复利循环的燃料,核心是 trace,也就是记录智能体每一步做了什么。现在有个更有用的标准:trajectory,轨迹。大多数智能体都是在循环里跑出一个消息列表,这个列表是标准格式,可以到处复用——调试更快、标注更容易,还能直接拿去微调。新发布的 SmithTune CLI 就是干这个的:选 trace、筛出相关部分、做成微调数据,传给 Fireworks 或 Base 10 训练,再评估,产出更好的模型。\n\n最上层是智能层,LangSmith Engine。这是个坐在追踪记录之上的后台引擎,基本把 AI 工程师会干的活都干了。v2 有三个亮点:主动验证修复——发现问题后自己起分支确认、修复、再验证,把全部证据打包成一个 issue 给你;红队测试——主动模拟各种攻击去打你的部署,而且智能体上线之前就能用,顺便解决了创建评估集很痛苦的老问题;还有性能和成本,更准也更便宜。目前 Engine 已经扫描了超过七千万条 trace,检测出超过两万一千个问题。演讲里反复强调一句话:构建智能体,迭代周期就是一切。\n\n所以回头看,运行时、可观测性、智能层,这三层拼在一起,讲的是同一件事:模型会趋同,周边定胜负。把差异化押在你的数据和领域逻辑上,别押在某个模型上——这才叫真正拥有你的智能。"

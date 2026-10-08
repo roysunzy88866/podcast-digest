@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]]**(40:50起):本集说 Wiz 从首次发布到年收入超 1 亿美元只用了 18 个月，Armiden 的目标就是超过这个速度。
-- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(01:09起):本集介绍它是一个云安全平台,2026 年被 Google 收购;嘉宾在其中负责 AI 与威胁研究,用 AI 做攻击面扫描与自动修复。
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集介绍它是一个云安全平台,2026 年被 Google 收购;嘉宾在其中负责 AI 与威胁研究,用 AI 做攻击面扫描与自动修复。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]] — 作为被讨论公司(提及)
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为被讨论公司
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司
 
 ## ③ 关联
 

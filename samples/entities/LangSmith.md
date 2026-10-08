@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(05:12起):本集提到他们之前的智能体就已经部署在 LangSmith 上了，这使得他们能很方便地插入新框架并做 A/B 测试。
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(01:36起):本集提到 Unify 最早的东西构建在 LangSmith 之上做追踪,现在也用它来跑评估。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(10:09起):本集称 LangSmith 是 LangChain 的商业化平台,覆盖运行时部署、可观测性与评估,以及坐在这两者之上的智能层(Engine)。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(10:09起):本集称 LangSmith 是 LangChain 的商业化平台,覆盖运行时部署、可观测性与评估,以及坐在这两者之上的智能层(Engine)。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念(提及)
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司(提及)
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(21:41起):本集提到它在非营利方面大力推动 AI 辅导
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(55:22起):本集把它作为免费在线学习、并最终「被迫」为老师做课堂仪表盘的先例来讲——Jason 预言 Aristotle 成功后也会走同样的路。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(55:22起):本集把它作为免费在线学习、并最终「被迫」为老师做课堂仪表盘的先例来讲——Jason 预言 Aristotle 成功后也会走同样的路。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司
 
 ## ③ 关联
 

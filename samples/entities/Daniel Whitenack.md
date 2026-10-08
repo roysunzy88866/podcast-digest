@@ -42,7 +42,7 @@ unlisted: true
 - [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]] — 作为主持
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为联合主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为联合主持
-- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]] — 作为主持
+- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]] — 作为主持
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为主持
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为主持
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为主持

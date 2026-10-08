@@ -170,7 +170,7 @@ Axios 与 [[OpenAI|OpenAI]] 有内容授权协议，授权 [[ChatGPT|ChatGPT]] �
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude、Google、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Anthropic、Google · 同概念:智能体 (agent)</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Google、OpenAI、Anthropic、ChatGPT · 同概念:智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Google、OpenAI、Anthropic、ChatGPT · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

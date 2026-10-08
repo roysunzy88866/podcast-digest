@@ -168,7 +168,7 @@ Andrew 最大的心态转变:「十年前我以为大多数事会渐进式起作
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|против药品福利巨头：Judy Health 创始人的产品市场契合之路]]<span class="pd-rz">同概念:go to market、产品市场匹配 (product market fit)</span>
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|两年零营销预算，他撕开了三家巨头的地盘]]<span class="pd-rz">同概念:go to market、产品市场匹配 (product market fit)</span>
 - [[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|AI 改写药物研发，而他只投五家公司]]<span class="pd-rz">同概念:go to market、智能体 (agents)</span>
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|当智能体学会替你操作电脑：聊天即新浏览器]]<span class="pd-rz">同概念:MCP、智能体 (agents)</span>
 

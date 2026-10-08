@@ -29,8 +29,8 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(14:17起):本集以 Harvey 所在的法律市场说明应用层机会：比编程落后约 12 个月、处于起飞期，产品最后细节和地推是实验室不会做的脏活。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(34:13起):被引为正在微调模型的垂直 AI 公司例子，用来引出 Leo 的模型策略对比
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(50:45起):本集提到它在法律领域尝试类似 Cognition 的做法——用私有数据自训模型。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(01:52起):本集提到 Harvey 为专门任务微调模型,在法律领域有最佳表现。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(39:19起):本集以这家法科技公司的定制模型为案例,讲 Applied Compute 如何与团队收集专家评分标准、补合成数据、用基于评分标准的 RL 做训练。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(01:52起):本集提到 Harvey 为专门任务微调模型,在法律领域有最佳表现。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(39:19起):本集以这家法科技公司的定制模型为案例,讲 Applied Compute 如何与团队收集专家评分标准、补合成数据、用基于评分标准的 RL 做训练。
 
 ## ① 提到它的金句
 
@@ -64,8 +64,8 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 
 ## ③ 关联
 

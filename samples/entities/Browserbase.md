@@ -13,8 +13,8 @@ unlisted: true
 
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(51:30起):被推荐用于浏览器管理，评价为'excellent for browser management'
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(31:34起):本集说智能体可以去采用 Browserbase，并在 Stripe 做过演示——通过智能体使用 BrowserBase Live 来填写 NCAA 竞猜表。
-- **[[2026-10-02-talks-why-99-accurate-browser-agents-still-fai|《浏览器智能体上生产：为什么每步 99% 成功率还不够》]]**(00:49起):嘉宾所在公司,本集说它帮助客户为他们的用户部署浏览器自动化,客户往往代表其用户在网页上执行操作
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(19:46起):本集说 Collison 对 BrowserBase 这类做计算机使用的公司特别兴奋,它们让智能体真正能用电脑,是 Stripe 上增长很快的公司。
+- **[[2026-10-02-talks-why-99-accurate-browser-agents-still-fai|《为什么99%准确率的浏览器智能体还是会失败》]]**(00:49起):嘉宾所在公司,本集说它帮助客户为他们的用户部署浏览器自动化,客户往往代表其用户在网页上执行操作
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(19:46起):本集说 Collison 对 BrowserBase 这类做计算机使用的公司特别兴奋,它们让智能体真正能用电脑,是 Stripe 上增长很快的公司。
 
 ## ② 出现在这些集
 
@@ -22,8 +22,8 @@ unlisted: true
 
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
-- [[2026-10-02-talks-why-99-accurate-browser-agents-still-fai|《浏览器智能体上生产：为什么每步 99% 成功率还不够》]] — 作为被讨论公司
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
+- [[2026-10-02-talks-why-99-accurate-browser-agents-still-fai|《为什么99%准确率的浏览器智能体还是会失败》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联
 

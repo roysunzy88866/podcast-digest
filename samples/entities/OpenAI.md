@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>176</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>176</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -171,23 +171,23 @@ unlisted: true
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一（和 Anthropic 一起），用模型能力给自己产品加超能力
 - **[[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]]**(03:06起):本集举例说 Hugging Face 无权访问 OpenAI 最新模型来防御其攻击,并提到 OpenAI 爬虫访问他人系统引发争议。
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(05:11起):本集嘉宾是 OpenAI Codex 负责人,集里把 OpenAI 内部描绘成大量自下而上、给员工极高自主权、拥有超过 120 名前 YC 创始人的『超级初创公司』,为 12 亿人打造产品。
-- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]]**(05:21起):本集顺带提到 OpenAI 等公司既没在建也没在卖用于理解和查看 5 万仓库代码库的基础设施。
+- **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(05:21起):本集顺带提到 OpenAI 等公司既没在建也没在卖用于理解和查看 5 万仓库代码库的基础设施。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(00:43起):本集说 OpenAI 广告年化运行率已达 10 亿美元，此前需要很多年才能达到；收购了 OpenClaw 团队、推出 DOTS，在现有聊天界面之外发布的东西不太成功，做硬件也一切更慢。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:36起):本集说 OpenAI 撕裂在消费级与企业级之间：ChatGPT 是面向消费者的庞然大物，但 Anthropic 在商业端超过了他们，Dots 的发布正在实时上演这场公司急转弯。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:36起):本集说 OpenAI 撕裂在消费级与企业级之间：ChatGPT 是面向消费者的庞然大物，但 Anthropic 在商业端超过了他们，Dots 的发布正在实时上演这场公司急转弯。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(01:03起):本集在 OpenAI Dev Day 现场录制;Kath 是 OpenAI sites 产品负责人,sites 发布两个月在 OpenAI 内部爆发式增长,连主题演讲幻灯片都是 ChatGPT 站点
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(04:47起):本集提到 OpenAI 是模型供应商之一,并说网关回退时可直接切到 OpenAI。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(04:47起):本集提到 OpenAI 是模型供应商之一,并说网关回退时可直接切到 OpenAI。
 - **[[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]]**(38:43起):本集顺带提到 Menlo 因坚持对创业者的双向承诺而没有投 OpenAI，并以其销售拿三四千万美元离场引出「金钱揭示人」的讨论。
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(41:42起):本集在讨论 AI 末日论式宣传的来源与前沿实验室安全团队时顺带提到 OpenAI。
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(11:21起):本集说 Front 与 OpenAI 有合作关系；同时提到 OpenAI 与政府一起警告不要让中国开源模型主导市场。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(41:42起):本集在讨论 AI 末日论式宣传的来源与前沿实验室安全团队时顺带提到 OpenAI。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(11:21起):本集说 Front 与 OpenAI 有合作关系；同时提到 OpenAI 与政府一起警告不要让中国开源模型主导市场。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(00:28起):本集把它列为『看似 LLM AI 公司、最终都会变成生物技术公司』的巨头之一,并提到它正进入与医学和慈善相关的有趣领域。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(01:05起):本集说 Diogo 曾在此工作四年半、参与 InstructGPT 与 RLHF；也批评其过度拒绝回滚、客服 demo 六年未解决。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(02:25起):Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(02:25起):Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。
 - **[[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]]**(36:04起):本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(04:01起):本集说它两三个季度内也会在算力成本意义上盈利，与 Oracle 签了巨额固定利润率合同，且完成的模型 Astra 延迟数月才发布、新模型 Bell 至今未放出。
 
 ## ① 提到它的金句
 
-*33 条*
+*32 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -247,11 +247,9 @@ unlisted: true
 
 ![[2026-10-04-lennys-openais-head-of-chatgpt-were-entering#^q7]]
 
-![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q5]]
+![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q6]]
-
-![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q3]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q12]]
 
@@ -422,17 +420,17 @@ unlisted: true
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]] — 作为被讨论公司(提及)
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
-- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《代码巨浪来了:谁来守住让世界运转的大代码库》]] — 作为被讨论公司(提及)
+- [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司(提及)
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]] — 作为被讨论公司(提及)
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司(提及)
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为被讨论公司
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司(提及)
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为被讨论公司
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 - [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 

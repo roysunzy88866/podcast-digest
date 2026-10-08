@@ -152,7 +152,7 @@ Arjun 用「阿拉丁有四个愿望」的框架，讲要让持续学习跑起�
 **顺着「智能体」挖下去**
 
 - [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同公司:Harvey · 同概念:RL、后训练 (post-training)、持续学习 (continual learning)、智能体 (agent)</span>
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同公司:Trajectory、Harvey · 同概念:harness、后训练 (post-training)、智能体 (agent)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:Trajectory、Harvey · 同概念:harness、后训练 (post-training)、智能体 (agent)</span>
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:Harvey · 同概念:后训练 (post-training)、智能体 (agent)、评估 (eval)</span>
 
 </div>

@@ -23,8 +23,6 @@ unlisted: true
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q5]]
 
-![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q6]]
-
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q7]]
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q8]]
@@ -43,12 +41,14 @@ unlisted: true
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q15]]
 
+![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q16]]
+
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为主持
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为主持
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为主持
 
 ## ③ 他谈到的
 

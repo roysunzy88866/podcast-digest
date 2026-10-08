@@ -1,5 +1,5 @@
 ---
-title: 「协调税」：AI 每解决一小时的问题，要付三小时的协调成本
+title: AI没有消灭客服，反而让他们更累了？
 podcast: Eye On A.I.
 date: 2026-10-07
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "51:06"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o.jpg"
-description: "Front CEO Dan O'Constraint 谈客户运营平台：AI 与人类如何同台服务客户，以及智能体越多、协调负担越重的反直觉发现。"
+description: "Front 首席执行官 Dan O'Connell 讲 AI 时代的客服行业：为什么买 AI 不等于裁人，以及「协作税」如何悄悄烧掉你最好的员工。"
 host: "[[Dan O'Connell]]"
 cohosts: ["[[Craig]]"]
 companies: ["[[Front]]", "[[TalkIQ]]", "[[Dialpad]]", "[[Anthropic]]", "[[OpenAI]]"]
@@ -18,18 +18,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#post","headline":"「协调税」：AI 每解决一小时的问题，要付三小时的协调成本","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o","description":"Front CEO Dan O'Constraint 谈客户运营平台：AI 与人类如何同台服务客户，以及智能体越多、协调负担越重的反直觉发现。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o.jpg","about":[{"@type":"Person","name":"Dan O'Connell"},{"@type":"Person","name":"Craig"},{"@type":"Organization","name":"Front"},{"@type":"Organization","name":"TalkIQ"},{"@type":"Organization","name":"Dialpad"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"协调税 (coordination tax)"},{"@type":"Thing","name":"NRR"},{"@type":"Thing","name":"客户流失率 (churn)"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"成本 (cost)"},{"@type":"Thing","name":"LLM"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"「协调税」：AI 每解决一小时的问题，要付三小时的协调成本","item":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#post","headline":"AI没有消灭客服，反而让他们更累了？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o","description":"Front 首席执行官 Dan O'Connell 讲 AI 时代的客服行业：为什么买 AI 不等于裁人，以及「协作税」如何悄悄烧掉你最好的员工。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o.jpg","about":[{"@type":"Person","name":"Dan O'Connell"},{"@type":"Person","name":"Craig"},{"@type":"Organization","name":"Front"},{"@type":"Organization","name":"TalkIQ"},{"@type":"Organization","name":"Dialpad"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"协调税 (coordination tax)"},{"@type":"Thing","name":"NRR"},{"@type":"Thing","name":"客户流失率 (churn)"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"成本 (cost)"},{"@type":"Thing","name":"LLM"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI没有消灭客服，反而让他们更累了？","item":"https://talk.solomind.cc/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>「协调税」：AI 每解决一小时的问题，要付三小时的协调成本</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI没有消灭客服，反而让他们更累了？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 「协调税」：AI 每解决一小时的问题，要付三小时的协调成本
+# AI没有消灭客服，反而让他们更累了？
 
 <div class="pd-byl"><b>Dan O'Connell</b> · Front CEO · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">你说根据调查，大约每解决一小时的问题，就要付出三小时的协调。</div><div class="a">— Craig <button class="pd-ts" data-t="25:24" data-who="Craig" data-en="And you say that there's roughly from the survey, three hours of coordination for every hour of resolution." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">你从中学到的是，你要做到方向上正确，而不是完美。</div><div class="a">— Dan O&#39;Connell <button class="pd-ts" data-t="20:50" data-who="Dan O'Connell" data-en="And so like what you learn in that is you want to be directionally right as opposed to perfect." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Dan O'Connell]] · [[Craig]]
@@ -38,146 +38,105 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[协调税]] · [[NRR]] · [[客户流失率]] · [[开源]] · [[成本]] · [[LLM]]
 
-这一集聊的是 AI 时代客户服务怎么变。
+[[Dan O'Connell|Dan O'Connell]] 是客户运营平台 [[Front|Front]] 的首席执行官，这家公司年收入超过 1 亿美元，服务 9000 家客户。
 
-主角是 [[Dan O'Connell|Dan O'Connell]]，客户运营平台 [[Front|Front]] 的 CEO——他之前创办语音识别公司 [[TalkIQ|TalkIQ]] 卖给了 [[Dialpad|Dialpad]]，是客户服务这个圈子的老兵。他抛出的最反直觉的数字是：
+他十年前创办过一家语音识别公司并卖给了 [[Dialpad|Dialpad]]，如今在 Front 做的事情，是让人类和 AI [[智能体|智能体]]在同一个平台上一起服务客户。
 
-根据 Front 对 700 位客户支持、客服、客户管理负责人的调查，团队**每解决一小时的问题，平均要花约三小时做协调**——找人对、传上下文、同步进展这些「没被衡量的脏活」。
+这次访谈里最扎心的发现是：AI 干得越多，人和人之间要交接的活儿也越多。
 
-AI 越普及，这个「[[协调税|协调税]]」反而可能越重。
+## 客户运营平台到底是个什么东西？
 
-## 平台长什么样：收件箱 + 双智能体
+Front 想做的，是所有客户对话的统一工作台。客户发邮件、发短信、在网页上聊天、打电话，所有对话都进到一个类似 Slack 或 Gmail 的收件箱里。
 
-Front 自称「客户运营平台」，核心是一个类似 Gmail 或 Slack 的工作区：
+Front 有两个 AI 角色：一个叫 Autopilot，是完全自主的智能体，客户在网上提问时它先接，解决不了再转给人；
 
-所有渠道的客户对话——邮件、网页聊天、SMS、电话——全部汇进同一个收件箱，团队在里面分类、分诊、回复。
+另一个叫 Copilot，是员工的助手，帮人更快完成任务。Dan 透露，下个月会推出AI 队友：在对话里直接@它，让它干活，而不用打开侧边栏。<button class="pd-ts" data-t="23:16" data-who="Dan O'Connell" data-en="And what we're really focused on right now is how do we bring that agentic layer to be completely woven into the platform and to act like a teammate on your behalf?" aria-label="回原文"></button>
 
-它与传统帮助台/工单平台竞争，也与客户成功平台这类产品竞争。
+## AI 会取代客服团队吗？恰恰相反
 
-[[智能体|智能体]]分两层：一个是 **Autopilot**——部署在网页或邮件上的自主智能体，直接作为对话的第一响应人，解决不了就升级、路由给人类；
+两年前市场很兴奋，觉得 AI 可以自动化掉大部分客服，然后把团队裁掉。Dan 说，实际发生的事情不一样。
 
-另一个是 **Copilot**——给人当队友的副驾驶，帮你更快更好地完成服务客户的任务。
+他正在做一项针对创始人、首席执行官和支持团队负责人的调查，目前收到的约 20 份回复里，**绝大多数人关心的不是降低成本，而是如何提升净收入留存和客户扩展**。<button class="pd-ts" data-t="16:06" data-who="Dan O'Connell" data-en="I actually ran a pretty, I'm in the middle of running a pretty interesting survey where you would see the vast majority of people that responded to this survey actually are focused on not reducing costs, but how to actually drive, improve NRR, so net revenue retention and expansion." aria-label="回原文"></button>
 
-高价值的客户关系，Front 的理念是让真人先接手，而不是让 AI 一上来就应付。
+逻辑很简单：AI 把琐碎的活干了，人被重新部署到更高价值的工作上——比如跟进有流失风险的客户，或者做增购。
 
-下个月他们要发布「AI 队友」：你可以在对话里 @ 它们让它干活，而不是打开侧边栏去找 Copilot。
+他说，市场上那种买 AI、裁人员的叙事，和一线管理者的真实想法并不一致。
 
-Dan 认为这会成为所有软件的普遍形态——「智能体编织进软件里、像队友一样行动，而不是一个你要专门前往的目的地」。
+## 协作税：三小时协调换一小时解决
 
-## 模型选择：三约束，不是一个模型打天下
+这是全场最惊人的数字。
 
-十年前做 TalkIQ 时，Dan 说他们等于「在一家初创公司里建了四五个初创公司」——自己做语音识别模型、自己做机器学习、自己做 AI 工具，因为那个时代没有现成的平台。
+Front 调查了 700 名客服和客户管理负责人，发现**每解决一小时的实际问题，背后要花大约三小时在协调上**——找人、交接、解释背景。
 
-这段经历直接影响今天 Front 的研发决策。
+而超过 40% 的企业根本不衡量这件事。<button class="pd-ts" data-t="28:31" data-who="Dan O'Connell（引用调查数字）" data-en="Where can AI even have a positive impact on that tax and that coordination to make things easier for people? The surveys showed that a little over 40% don't measure coordination." aria-label="回原文"></button>
 
-现在的打法是分层的：确定性的规则处理规则性的事，传统机器学习和 NLP 模型做分类，前沿模型只留给真正复杂的任务。
+为什么会这样？一张工单进来，第一个人答不上，就得找第二个、第三个人，每个人都要拿到完整上下文：
 
-「不是最大的模型就适合所有事」，比如摘要这种基础任务根本不需要最大的前沿模型。
+客户是谁、之前反映过什么、合同是不是快到期了。这些交接没人记录、没人负责，就是所谓的协作税。
 
-Dan 总结一切都要过三道约束：**成本、质量、延迟**——三者通常只能取其二。
+更讽刺的是：AI 智能体干得越多，需要移交给人的场景和要传递的上下文也越多，协作税可能不降反升。
 
-Front 目前与 [[Anthropic|Anthropic]] 和 [[OpenAI|OpenAI]] 都有合作，没有用[[开源|开源模型]]，但一直在实验测试，尤其因为「如果前沿实验室的定价不一定因规模而下降，你就得考虑走开源路线、微调模型，甚至自建模型」。
+调查里那些 AI 用得最狠的公司，对技术的满意度高达 4.5 分以上，但同时报告了更多的协调问题。
 
-## 买 AI ≠ 裁人：客户才是主叙事
+## 最好的员工正在被烧坏
 
-两年前市场流行的叙事是「AI 自动化掉大部分支持工作、裁掉支持团队」。Dan 说对话已经变了。
+协作税的代价是人。
 
-他正在做一项针对创始人、CEO 和支持负责人的调查，约 20 份回复里，绝大多数人关注的不是削减成本，而是**如何提升 [[NRR|NRR]]（净收入留存，即留住老客户并扩大其在户消费）和客户扩张**。
+Dan 观察到一个共同点：优秀员工希望工具解决明确的问题，但现实是——新工具不断出现，大家要不断学习新的工作方式。
 
-逻辑是：卓越的客户体验 → 更强的客户留存 → 更多的增长机会。裁人不是目标。
+更重的是预期压力：既然老板觉得AI 给了你超能力，那你就应该能扛更多。
 
-普遍的动态是「自动化补救性的琐碎任务，把人重新配置到更高价值的工作上」——比如处理追加销售、接手有流失风险的客户。
+这些错位的期待会逼走不只是最好的员工，还包括那些干得踏实的员工。<button class="pd-ts" data-t="31:53" data-who="Dan O'Connell" data-en="And I think the survey highlights that that's a very real threat to a business, right? Is you may lose not just the best employees, but employees that are doing solid work because the expectations aren't necessarily aligned." aria-label="回原文"></button>
 
-他不认为「一人公司、全靠智能体运营」会成为普遍形态：
+他的建议是：**上任何 AI 之前，先想清楚它解决什么问题、怎么衡量效果**。
 
-「让商业迷人又有趣的地方在于你可以和人们一起构建东西」，而且大额软件采购（5 万美元甚至 100 万美元的支票）时，你希望自己在和一个真人打交道。
+客服行业恰好是指标最齐全的领域——每个工单的成本、响应速度都一清二楚，AI 的投入产出完全可以算清楚。
 
-## 流失预测：方向正确，不追求完美
+## 别指望用六套软件拼出好体验
 
-由于平台汇集了所有客户对话，天然的用武之地是预测。Dan 十年前做语音识别时就相信：
+Dan 对缝合怪方案毫不客气：
 
-能实时理解客户对话，就能理解企业的几乎每一个问题——营销信息有没有共鸣、销售有没有讲某个功能、客户的正面/负面情绪、潜在的流失或购买意向。
+一个企业用聊天机器人、工单系统、Slack、销售工具各一套，然后指望用大模型加一堆 API 把它们串起来——他会翻白眼，说这是做梦。<button class="pd-ts" data-t="39:52" data-who="Dan O'Connell" data-en="And then you're like, I believe that I can go and get these six pieces of software to actually work together. And I would roll my eyes and say, that's a dream that I think somebody thinks that they can go get an LLM and some MCP servers and APIs and tie it up." aria-label="回原文"></button>
 
-[[LLM|LLM]] 现在让「把非结构化对话变成结构化数据再做预测」变得容易。
+他的判断是：未来企业会围绕更少的系统整合，**客户相关的团队和智能体最终会汇聚到一个平台上，共享全部上下文**。
 
-关于准确度，他的态度很务实：预测模型永远不会绝对完美，你要的是**方向上正确，而不是完美**。
+> 【背景】Front 成立于 2013 年，最初的产品是共享收件箱——让团队像在 Slack 里聊天一样处理邮件，不必再互相转发。
 
-目前 Front 看的是对话信号，还没接入产品使用数据——而「产品使用情况 + 客户在支持对话里说的话」这两者结合，才是[[客户流失率|流失预测]]模型最该看的。
+## 五年后还需要客服部门吗？
 
-## 协调税：AI 越多，交接越多
+Dan 认为界限会持续模糊。就像工程师、产品经理、设计师的职责正在合并到更小的团队一样，客服职能也会演变：
 
-这集最大的信息量在这。调查显示：略超 40% 的企业根本不衡量协调工作——「人们不知道自己不知道的东西，不衡量就没有人负责」。
+AI 干掉琐碎工作后，有客户知识和行业理解的人会被转去做增购、做高风险账户维护。
 
-更反直觉的是：AI 优先的组织对技术满意度最高（约 4.5/5），但同时报告了**更多**协调问题。Dan 的解释是：
+那 AI 之间直接对话呢——比如企业的智能体直接找 Front 的智能体解决问题，完全绕过人类？
 
-智能体体验确实解决了更多事情，但也创造了更多工作——每多一次 AI 解决不了需要交接的情况，就多一次交接、多一份要共享的上下文。
+Dan 说他完全相信这会发生，甚至智能体会直接部署代码来修问题，但时间上不是未来几年。
 
-如果不上来就想清楚 AI 在解决什么问题、能不能衡量它的产出，「你把智能体扔到这个问题上，它们很可能会创造更多的工作」。
+他还不相信所有公司会变成一个人加一堆智能体的全自动公司：
 
-协调具体指什么？一个支持工单进来，第一个人答不了，要找谁？上报给谁？对方有没有全部联系方式和账户历史？
-
-这个客户是不是马上要续约？这些问题每天在企业里蔓延，就是协调税的本体。
-
-倦怠的共性线索也在这一点：
-
-最优秀的员工希望工具解决明确的问题，但变革管理带来了真实复杂性——他们要学新工具、新工作方式，甚至因为「AI 给了你超能力」的预期而接到更多请求。
-
-调查显示企业可能因此失去的不只是明星员工，还有扎实干活的员工。
-
-## 未来的赌注：更少的系统 + AI 对 AI
-
-Dan 的判断有两层。短期：
-
-软件世界会整合坍缩成更少的平台，「人们不会继续买单点解决方案然后指望把它们拼接起来」——他直接翻白眼：
-
-「有人觉得拿一个 LLM、几个 MCP 服务器和 API 就能把六个软件串起来，那是行不通的。」
-
-长期：他「由衷相信」有生之年会看到智能体主动联系其他智能体解决问题、甚至部署代码来修复问题——就像嘉宾举的例子：
-
-药企给 FDA 提交的 AI 生成文件，FDA 那边也是 AI 在解析，总有一天文档本身都不需要了。
-
-但他认为时间线不是未来几年，「所有事情都比它们最终呈现的样子要难一点」。
+生意的乐趣就在于和人一起做事，买 5 万美元甚至 100 万美元软件的人，也想和真人打交道。<button class="pd-ts" data-t="49:49" data-who="Dan O'Connell" data-en="And if you're writing checks for $50,000 pieces of software or a million dollars for pieces of software, whatever it is that you're selling, I think you want to know that you're talking and engaging with a human on those pieces." aria-label="回原文"></button>
 
 ## 本集带走
 
-- **每解决 1 小时，协调 3 小时**：Front 对 700 位负责人的调查发现，团队间交接和上下文共享的隐性成本是解决时间的约三倍，且 40% 以上企业根本不衡量它——不衡量就没人负责。
-- **AI 落地前先想清楚「它解决什么问题、怎么衡量」**：否则智能体只是创造更多交接、更多工作，协调税不降反升。
-- **买 AI 的主叙事是 NRR 不是裁员**：一线运营者关注的是客户体验→留存→扩张；普遍做法是自动化琐碎任务、把人挪到高价值工作，而非直接替换。
-- **模型选型按三约束分层**：成本、质量、延迟三者取其二；确定性规则和传统 ML 干简单活，前沿模型只留给复杂任务，摘要类任务不必上最大模型。
-- **预测模型求「方向正确」而非完美**：流失预测最有效的组合是产品使用数据 + 客户在支持对话里说的话。
-- **别指望 LLM + MCP 服务器缝合六个单点软件**：Dan 认为客户服务软件会整合到更少、更智能体化的统一平台上。
+- 买 AI 不等于裁人：多数客服买家的真实目标是留住客户、扩大收入，而不是砍人头。
+- 协作税真实存在：每 1 小时解决客户问题，背后是约 3 小时的协调交接，而超过 40% 的企业根本不衡量它。
+- AI 干得越多、交接越多：智能体解决不了的问题要移交给人类，上下文传递的工作量随之上升。
+- 上 AI 前先想清楚两件事：解决什么问题、如何衡量效果——客服是指标最全、最容易算清投入产出的领域。
+- 五年后的客服部门不会消失，但职能会模糊：懂客户的人会被重新部署到增购和保客等更高价值的工作上。
 
-> 【背景】NRR（Net Revenue Retention，净收入留存）是 SaaS 行业常用指标，衡量现有客户（含追加购买、剔除流失）带来的收入留存率，超过 100% 表示老客户群整体在扩张。
-
-<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
-
-> <span class="qz">你说根据调查，大约每解决一小时的问题，就要付出三小时的协调。</span>  
-> *And you say that there's roughly from the survey, three hours of coordination for every hour of resolution.*  
-> <span class="qm">—— Craig · [25:24]</span> ^q1
-
-> <span class="qz">而我认为我们今天发现的是，有时这些智能体体验确实能解决更多事情，但同时也会创造更多工作。</span>  
-> *And I think what we're finding today is sometimes those agentic experiences can actually solve more things, but also create more work.*  
-> <span class="qm">—— Dan O'Connell · [34:49]</span> ^q2
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">你从中学到的是，你要做到方向上正确，而不是完美。</span>  
-> *So like what you learn in that is you want to be directionally right as opposed to perfect.*  
-> <span class="qm">—— Dan O'Connell · [20:50]</span> ^q3
+> *And so like what you learn in that is you want to be directionally right as opposed to perfect.*  
+> <span class="qm">—— Dan O'Connell · [20:50]</span> ^q1
 
-> <span class="qz">所以非常有趣的是，市场上有这样一种说法：你买了 AI，它就解决你所有的问题，那就意味着你要裁人。</span>  
-> *And so it's really interesting that, again, there's like this notion in the market of you buy AI and it solves all your problems and that means that you cut people.*  
-> <span class="qm">—— Dan O'Connell · [16:06]</span> ^q4
+> <span class="qz">你说根据调查，大约每解决一小时就要付出三小时的协调。</span>  
+> *And, and you say that there's roughly from the survey, three hours of coordination for every hour of resolution.*  
+> <span class="qm">—— Craig · [25:24]</span> ^q2
 
-> <span class="qz">而如果我们推动了效率，那很可能意味着我们应该拥有更多的人，增长由此而来。</span>  
-> *And if we drive efficiency, that likely means that we should have more people and growth comes from that.*  
-> <span class="qm">—— Dan O'Connell · [15:06]</span> ^q5
-
-> <span class="qz">我真的非常相信，这个领域会慢慢开始整合并坍缩成更少的软件。</span>  
-> *I really much believe that this universe will slowly start to consolidate and collapse into fewer pieces of software.*  
-> <span class="qm">—— Dan O'Connell · [42:28]</span> ^q6
-
-> <span class="qz">我认为人们不知道自己不知道的东西。而如果你不衡量它，那就没有人对它负责。</span>  
-> *I think people don't know what they don't know. And if you don't measure it, then there's no accountability to it.*  
-> <span class="qm">—— Dan O'Connell · [29:04]</span> ^q7
+> <span class="qz">我由衷地相信，我们会拥有主动联系其他智能体来解决问题的智能体，甚至更进一步，去部署代码来解决那些环节上的问题。</span>  
+> *I wholeheartedly believe that we will have agents that are reaching out to other agents to solve problems and then even take it a step further, go and deploy code to solve the problem on those pieces.*  
+> <span class="qm">—— Dan O'Connell · [48:19]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

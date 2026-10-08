@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]]**(32:54起):本集说 SAST 是不运行代码、基于语言解析和代码流图找已知漏洞模式的静态分析工具,技术极难;AI 能找到 SAST 多年漏掉的问题。
+- **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(32:54起):本集说 SAST 是不运行代码、基于语言解析和代码流图找已知漏洞模式的静态分析工具,技术极难;AI 能找到 SAST 多年漏掉的问题。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《AI 把漏洞利用窗口压到两小时,防御者为何仍占上风》]] — 作为概念
+- [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为概念
 
 ## ③ 关联
 

@@ -116,7 +116,7 @@ Rafael 的核心质问是：所有东西都能在网上找到时，为什么要�
 **换个口味**
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同概念:世界模型 (world models)</span>
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle]]<span class="pd-rz">同概念:训练数据 (training data)</span>
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药]]<span class="pd-rz">同概念:训练数据 (training data)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Meta、NVIDIA</span>
 
 </div>

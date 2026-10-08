@@ -157,7 +157,7 @@ Josh 看产品的整个漏斗:①价值能否一句话讲清、让人扬眉;②�
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Apple、ChatGPT、Google · 同概念:智能体 (agent)、网络效应 (network effect)</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Apple、Amazon、ChatGPT、Google · 同概念:信任 (trust)、智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Apple、Amazon、ChatGPT、Google · 同概念:信任 (trust)、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Gemini · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>

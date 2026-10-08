@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为被讨论公司
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]] — 作为被讨论公司
 
 ## ③ 关联
 

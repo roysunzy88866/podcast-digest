@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]]**(03:33起):本集说它是 LangChain 推出的跨模型通用、更通用用途版本的 Claude Code,是可自定义的 harness,带模型配置文件概念,能根据所用模型在不同文件编辑实现之间切换。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(09:29起):本集说 DeepAgents 是最新的开源开箱即用智能体 harness,借鉴编码智能体做法,带文件系统和沙箱的执行环境、用压缩做上下文管理;Managed Deep Agents 则把它与托管基础设施合成一个「公司 harness」。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(09:29起):本集说 DeepAgents 是最新的开源开箱即用智能体 harness,借鉴编码智能体做法,带文件系统和沙箱的执行环境、用压缩做上下文管理;Managed Deep Agents 则把它与托管基础设施合成一个「公司 harness」。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]] — 作为被讨论公司
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司
 
 ## ③ 关联
 

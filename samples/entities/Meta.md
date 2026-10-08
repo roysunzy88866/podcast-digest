@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>48</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>48</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -55,13 +55,13 @@ unlisted: true
 - **[[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]]**(01:05起):Moritz 任职的公司,本集主线:他在 Meta 主导了 diff 编写时间(DAT)指标,并观察到 AI 普及后全公司 DAT 同比下降超 40%
 - **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(07:54起):本集与 Google、Facebook 并列提到，是商家同步商品目录的广告平台之一，其目录规范同样不为智能体优化。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(07:17起):本集提到 Meta 曾因极其了解用户而以精准定向著称，OpenAI 的实时对话定向可能超过它。
-- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]]**(02:29起):本集说 Meta 以 Muse 押注消费级个人助手，用云端每用户独享的虚拟计算机化解安全顾虑，第一天就带 WhatsApp 集成，且是在没有自家前沿模型（watermelon 未发布）的情况下做到的。
+- **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:29起):本集说 Meta 以 Muse 押注消费级个人助手，用云端每用户独享的虚拟计算机化解安全顾虑，第一天就带 WhatsApp 集成，且是在没有自家前沿模型（watermelon 未发布）的情况下做到的。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(07:05起):本集在预测『Meta、OpenAI、Anthropic、Neuralink 都会成为生物技术公司』时被点名,称其对大脑感兴趣、做 AI 的人『多有一个挡位』。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(09:39起):本集针对『Meta 背负无法偿还债务』的批评，说它任何时候都可停止买新东西、现金流足以支付已签约的一切，『想拔插头随时可以拔』。
 
 ## ① 提到它的金句
 
-*11 条*
+*10 条*
 
 ![[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon#^q10]]
 
@@ -82,8 +82,6 @@ unlisted: true
 ![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q1]]
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q6]]
-
-![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q3]]
 
 ## ② 出现在这些集
 
@@ -134,7 +132,7 @@ unlisted: true
 - [[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]] — 作为被讨论公司
 - [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席》]] — 作为被讨论公司
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
 

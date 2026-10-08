@@ -168,7 +168,7 @@ jsonLd: |
 
 - [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年]]<span class="pd-rz">同概念:Product Market Fit</span>
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|Omni 创始人：丢掉五笔交易后怎么找到产品市场契合]]<span class="pd-rz">同概念:Product Market Fit</span>
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|против药品福利巨头：Judy Health 创始人的产品市场契合之路]]<span class="pd-rz">同概念:Product Market Fit</span>
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|两年零营销预算，他撕开了三家巨头的地盘]]<span class="pd-rz">同概念:Product Market Fit</span>
 
 </div>
 <div class="pd-ex">

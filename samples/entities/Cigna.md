@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(49:09起):本集提到的一家健康保险公司，指出其为了故意拖延而只寄纸质支票的商业动态，以及它需要维持网络内好医生满意度的博弈。
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 10 强左右),并与 CVS、United Healthcare 并称主导药品福利市场的三家上市公司。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(04:40起):本集把它列为 Judy Health 的三个竞争对手巨头之一(财富 10 强左右),并与 CVS、United Healthcare 并称主导药品福利市场的三家上市公司。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为被讨论公司
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为被讨论公司
 
 ## ③ 关联
 

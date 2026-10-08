@@ -27,8 +27,8 @@ aliases: ["K8s", "k8s"]
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(06:15起):本集仅在介绍 Cloud Foundry 历史时顺带一提它比 Kubernetes 和 Docker 还早。
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(44:48起):本集一笔带过：与 Linux 内核并列的「关键项目」例子，讨论谁为自动审查 token 买单时提到。
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(10:41起):本集说 Teleport 的容器跑在 Google 机房的 Kubernetes 集群里、合上笔记本也继续运行；未来自动发布要检查 pod 是否崩溃、健康检查是否通过。
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(00:40起):本集称其为「云的操作系统」,拥有自愈、负载均衡、自动扩缩容等成熟生态;Crusoe 把 Slurm 建在它之上,兼得两者的长处。
-- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]]**(54:03起):本集说 E2B 目前调度跑在 Nomad 上、正在往 Kubernetes 迁移，但 K8s 有一些尚未解决的技术问题；另有听众问 Kubernetes 下存储随时间的修剪，Matt 说是活跃难题。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(00:40起):本集称其为「云的操作系统」,拥有自愈、负载均衡、自动扩缩容等成熟生态;Crusoe 把 Slurm 建在它之上,兼得两者的长处。
+- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(54:03起):本集说 E2B 目前调度跑在 Nomad 上、正在往 Kubernetes 迁移，但 K8s 有一些尚未解决的技术问题；另有听众问 Kubernetes 下存储随时间的修剪，Matt 说是活跃难题。
 
 ## ① 提到它的金句
 
@@ -57,8 +57,8 @@ aliases: ["K8s", "k8s"]
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念(提及)
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为概念
-- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]] — 作为概念(提及)
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
+- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
 
 ## ③ 关联
 

@@ -188,7 +188,7 @@ Anish 给出账：以真正雄心勃勃的方式做这件事，估算成本约�
 **顺着「智能体」挖下去**
 
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:ChatGPT、Instinct、Muse、OpenClaw、Amazon、Shopify · 同概念:智能体 (agent)</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Amazon、Instinct、Muse、ChatGPT · 同概念:智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Amazon、Instinct、Muse、ChatGPT · 同概念:智能体 (agent)</span>
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|个人助理 Instinct:零界面、十亿美元交易与每天10%的增长]]<span class="pd-rz">同公司:Instinct、ChatGPT、Muse · 同概念:主动性 (proactivity)、智能体 (agent)、iMessage</span>
 
 </div>

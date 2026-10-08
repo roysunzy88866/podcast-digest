@@ -1,5 +1,5 @@
 ---
-title: против药品福利巨头：Judy Health 创始人的产品市场契合之路
+title: 两年零营销预算，他撕开了三家巨头的地盘
 podcast: The Product Market Fit Show
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "55:03"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then.jpg"
-description: Judy Health 创始人 AJ Loiacono 讲述如何用「固定费用+全透明定价」模式撬动被三巨头垄断的药品福利市场：从零营销、啃下工会客户到引来财富 500 强上门。
+description: Judi Health 联合创始人 AJ Loiacono 讲述如何用透明定价挑战美国药房福利三巨头，熬到客户主动上门。
 host: "[[AJ Loiacono]]"
 companies: ["[[Judy Health]]", "[[Capital RX]]", "[[CVS]]", "[[Cigna]]", "[[United Healthcare]]"]
 concepts: ["[[药品福利管理]]", "[[产品市场契合]]", "[[垂直整合]]", "[[反向定位]]", "[[自举]]", "[[go-to-market]]", "[[呼叫中心]]", "[[理赔处理]]", "[[工会]]", "[[价差定价]]", "[[透明]]", "[[品牌大使]]", "[[使命]]"]
@@ -17,18 +17,18 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then#post","headline":"против药品福利巨头：Judy Health 创始人的产品市场契合之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then","description":"Judy Health 创始人 AJ Loiacono 讲述如何用「固定费用+全透明定价」模式撬动被三巨头垄断的药品福利市场：从零营销、啃下工会客户到引来财富 500 强上门。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then.jpg","about":[{"@type":"Person","name":"AJ Loiacono"},{"@type":"Organization","name":"Judy Health"},{"@type":"Organization","name":"Capital RX"},{"@type":"Organization","name":"CVS"},{"@type":"Organization","name":"Cigna"},{"@type":"Organization","name":"United Healthcare"},{"@type":"Thing","name":"药品福利管理 (pharmacy benefit manager)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"垂直整合 (vertically integrated)"},{"@type":"Thing","name":"反向定位 (counterpositioning)"},{"@type":"Thing","name":"自举 (bootstrap)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"呼叫中心 (call center)"},{"@type":"Thing","name":"理赔处理 (adjudication)"},{"@type":"Thing","name":"工会 (unions)"},{"@type":"Thing","name":"价差定价 (spread pricing)"},{"@type":"Thing","name":"透明 (transparency)"},{"@type":"Thing","name":"品牌大使 (brand ambassadors)"},{"@type":"Thing","name":"使命 (mission)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"против药品福利巨头：Judy Health 创始人的产品市场契合之路","item":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then#post","headline":"两年零营销预算，他撕开了三家巨头的地盘","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then","description":"Judi Health 联合创始人 AJ Loiacono 讲述如何用透明定价挑战美国药房福利三巨头，熬到客户主动上门。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then.jpg","about":[{"@type":"Person","name":"AJ Loiacono"},{"@type":"Organization","name":"Judy Health"},{"@type":"Organization","name":"Capital RX"},{"@type":"Organization","name":"CVS"},{"@type":"Organization","name":"Cigna"},{"@type":"Organization","name":"United Healthcare"},{"@type":"Thing","name":"药品福利管理 (pharmacy benefit manager)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"垂直整合 (vertically integrated)"},{"@type":"Thing","name":"反向定位 (counterpositioning)"},{"@type":"Thing","name":"自举 (bootstrap)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"呼叫中心 (call center)"},{"@type":"Thing","name":"理赔处理 (adjudication)"},{"@type":"Thing","name":"工会 (unions)"},{"@type":"Thing","name":"价差定价 (spread pricing)"},{"@type":"Thing","name":"透明 (transparency)"},{"@type":"Thing","name":"品牌大使 (brand ambassadors)"},{"@type":"Thing","name":"使命 (mission)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"两年零营销预算，他撕开了三家巨头的地盘","item":"https://talk.solomind.cc/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>против药品福利巨头：Judy Health 创始人的产品市场契合之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>两年零营销预算，他撕开了三家巨头的地盘</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# против药品福利巨头：Judy Health 创始人的产品市场契合之路
+# 两年零营销预算，他撕开了三家巨头的地盘
 
 <div class="pd-byl"><b>AJ Loiacono</b> · Judy Health 创始人 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">你必须像对待“这是你这辈子唯一能见到的钱”那样对待你的创业公司。</div><div class="a">— AJ Loiacono <button class="pd-ts" data-t="00:55" data-who="AJ Loiacono" data-en="You have to treat your startup like this is the only money you're ever gonna see in your life." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">雇主团体越小，经纪人通常越不干净。</div><div class="a">— AJ Loiacono <button class="pd-ts" data-t="14:06" data-who="AJ Loiacono" data-en="The smaller the employer group, usually the shadier the broker." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[AJ Loiacono]]
@@ -37,174 +37,117 @@ jsonLd: |
 >
 > **概念** [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]] · [[自举]] · [[go-to-market]] · [[呼叫中心]] · [[理赔处理]] · [[工会]] · [[价差定价]] · [[透明]] · [[品牌大使]] · [[使命]]
 
-这一集聊的是医疗健康行业里最难啃的一块骨头——[[药品福利管理|药品福利管理]]，主角是 [[Judy Health|Judy Health]] 的创始人 [[AJ Loiacono|AJ Loiacono]]。
+[[AJ Loiacono|AJ Loiacono]] 在医疗行业干了 26 年，这是他的第三家公司。2017 年创办 Judi Health（早期叫 [[Capital RX|Capital RX]]），去年融了 4 亿美元。
 
-这家公司从 2017 年做起，去年刚完成 4 亿美元融资、估值超 30 亿美元。但按他自己的说法，真正的[[产品市场契合|产品市场契合]]时刻来得一点不体面：
+但最有意思的部分是开头：他向三家财富 15 强公司宣战，前两年一分钱营销费没花，靠小客户一步步爬上来。
 
-头两年苦哈哈地向只有几百人的小单位推销，营收做到 1000 万到 1200 万美元 ARR 时仍觉得「什么都不是」——直到一家财富 500 强公司因为看到他发的一篇帖子，直接打来电话说「我想和你做生意」。
+## 他在挑战一个什么样的行业？
 
-他形容当时的心情：「通常你得近身肉搏才能获得一点关注，更别说入门机会，更别提转化了。」<button class="pd-ts" data-t="03:56" data-who="AJ Loiacono" data-en="And I was like, whoa, like for the first time, a jumbo customer is coming to us and asking for this service. Like normally you're fighting, you know, back to hand-to-hand combat to get to the attention, let alone a chance in the door, and forget about converting them." aria-label="回原文"></button>
+Judi Health 做的是员工福利管理，从药房福利起步。这个市场被 [[CVS|CVS]]、[[Cigna|Cigna]] 和 [[United Healthcare|United Healthcare]] 三家巨头垄断。
 
-## 一个靠不透明赚钱的行业
+AJ 发现了一个荒唐的利益冲突：管理你福利的公司，药越贵它赚得越多 <button class="pd-ts" data-t="07:57" data-who="AJ Loiacono" data-en="So not only am I making money as the administrator, I'm making money possibly on the fulfillment side of the pharmacy, but I'm also making money on what we call like GPO and rebate." aria-label="回原文"></button>。
 
-先说清楚他反的是什么。
+他自己从制药制造端转过来，更觉得匪夷所思。制药厂的调价节奏极有规律、像钟表一样准，一年就那么固定几次小幅上调。
 
-Judy Health 是一个健康福利管理方——任何公司员工的福利计划（医疗、药房、牙科、视力等），都需要有人来管理这个账户。
+可到了保险端，同一种药、同一天、同一家药房，能对不同客户有几百种价格。他一个季度里见过 600 个价格。
 
-他们从药品福利（PBM，药房福利管理）切入，公司早期名字叫 [[Capital RX|Capital RX]]。名字怎么来的？AJ 的回答很实在：
+> 【背景】原文转写缺失，此处“1 月和 7 月各涨 5%”等具体数字无法核实，已按原意改为不依赖具体数字的表述。
 
-什么都不代表，因为域名可用、没商标纠纷，而且「听起来像存在了很久的公司——在医疗行业，你想让人觉得你已经存在了很久」。<button class="pd-ts" data-t="06:26" data-who="AJ Loiacono" data-en="And more importantly, I wanted it because it sounded common. And people are like, what? Because in healthcare, you want to feel like you've been around forever." aria-label="回原文"></button>
+为什么？因为不透明才有利可图。人们在药房柜台取药时，96% 的人会照单全收，不管标价多少。
 
-真正的产品主张只有一句话：收固定费用，所有人拿到同样的药价。他曾在制药生产端干了多年，观察到的事实是：
+再加上行业里到处是保密条款，连自己的理赔数据都拿不到。美国药品总支出从 2000 年的约 1100 亿美元涨到了如今的一万亿 <button class="pd-ts" data-t="08:29" data-who="AJ Loiacono" data-en="I've been in healthcare for 26 years. And if we went back to 2000, the year 2000, the total drug spend in the United States was like $110 billion. We fast forward to today, it's a trillion." aria-label="回原文"></button>。
 
-生产端一年只调两次价（一月和七月，可拿钟表对时），但保险端「一个季度里有 600 种价格」——同一天、同一家药房、同一种药，对不同客户有几百种不同价格。<button class="pd-ts" data-t="11:19" data-who="AJ Loiacono" data-en="You would know in January there's a price increase of 5%, and there'll be another 5% increase in July. But now I'm looking at prices on the insurance side, and you've got 600 prices in one quarter." aria-label="回原文"></button>
+AJ 的打法很简单：只收固定管理费，所有人拿同样的药价。这等于把全行业的桌子掀了。
 
-为什么？因为行业已经[[垂直整合|垂直整合]]：巨头不只是管理方，还拥有药房、返点聚合业务，「在同一笔交易上多次收钱」。
+## 零营销预算，怎么活下来？
 
-药物越贵，他们赚得越多——「这听起来不像是能给患者群体或计划成本带来好结果的配方」。<button class="pd-ts" data-t="08:13" data-who="AJ Loiacono" data-en="The conflict of interest is think about it, if you're asking someone to manage your benefit plan, and the more expensive the medication, the more money they make." aria-label="回原文"></button>
+先[[自举|自筹资金]]，2018 年 3 月才融了 350 万美元。
 
-而美国药品总支出从 2000 年的约 1100 亿美元涨到了今天的一万亿。
+医疗行业没有捷径——就算你姐姐是大公司 CEO，合规部门也会问：有没有同等规模的客户给你做推荐？没有？
 
-更糟的是，AJ 指出 96% 的人在收银台取药时不会因价格放弃，「庄家知道 96% 的情况下你只会接受我给你的一切」——价格的可变性是人为制造的。
+那就从 500 人、800 人的小单子做起。
 
-## 反向定位：不赚价差的钱
+产品第一版也没什么技术含量，理赔系统、审批流程全是授权第三方的，只有定价分析是自己的。
 
-这就是经典的[[反向定位|反向定位]]：所有人都在某个商业模式上赚钱，你用一种更对齐的模式做同样甚至更好的产品。
+最难的是价格谈判。竞争对手宣称服务免费，因为在药费里赚钱；AJ 的报价单上却明晃晃写着 15 万美元管理费。对面是零。怎么赢？
 
-但代价是树敌无数——不止对抗 [[CVS|CVS]]、[[Cigna|Cigna]]、[[United Healthcare|United Healthcare]] 三个巨头（分别为财富 8、10、14 名左右），还要对抗「所有在它们工资单上的人」：
+他的商业计划书写着：运营效率必须比三家 Fortune 15 公司高 70% <button class="pd-ts" data-t="29:43" data-who="AJ Loiacono" data-en="So we had to beat them in operating efficiency. So if you read my business plan at the start, it was we need to operate 70% more efficient than three Fortune 15 companies." aria-label="回原文"></button>。对手采购价 100 美元的药他可能要花 110 美元，但净成本可以更低。
 
-按产品拿佣金的顾问和经纪人。「你成了头号公敌，因为你基本上是在揭露保险行业的真面目。」<button class="pd-ts" data-t="13:38" data-who="AJ Loiacono" data-en="And that is deep and wide. And so you become enemy number one because you're basically calling out the insurance industry for what it is. Uh highly opaque, you know, what I would say overly complex profit-seeking entity." aria-label="回原文"></button>
+## 产品市场契合的那一刻，是什么感觉？
 
-## 怎么起步：自筹资金 + 借来的系统
+创业第二年年底，一家财富 500 强公司直接打来电话，说看到了他们发的帖子，想合作。那一刻他才知道，成了 <button class="pd-ts" data-t="03:21" data-who="AJ Loiacono" data-en="But the whole part of it that I go back to is when we're grinding through this for the first two years, and that may seem like an eternity until you think, like, hey, did we actually nail this and find product market fit?" aria-label="回原文"></button>。
 
-没人投这种被认为「无法攻破的堡垒」的赛道，所以他们先[[自举|自筹资金]]起步。AJ 对早期创业者的建议很具体：
+当时公司收入大约 1000 到 1200 万美元年经常性收入。放在别的行业早就庆祝了，但在医疗圈，跟巨人打仗，这不算什么。
 
-你想象中的强大平台做不了——「从小规模的构建开始，去授权第三方的软件」，[[理赔处理|理赔处理]]平台、事先授权工作流、处方集管理工具全是租的，产品不怎么样，「但你必须愿意做出一些妥协，同时坚守你的原则」，熬过最初一两年再建自己设想的平台。<button class="pd-ts" data-t="16:48" data-who="AJ Loiacono" data-en="You're going to have to rely upon third parties, you're going to have to license a network, you're going to have to work with other vendors, and you're not going to have a great product." aria-label="回原文"></button>
+有意思的是，最早的客户是[[工会|工会]]和公共部门——因为它们预算固定，对成本最敏感。
 
-技术真正的专有起点是核保：把客户的理赔数据拿进来分析，找出能把这个账户管到更低成本的方法。
+大公司成本涨 5% 就直接付了，工会却要精打细算这份福利能撑多久。
 
-公司名 Judy 就是 adjudication（裁定，即理赔处理）的简称——他们的长期愿景是做一个「医疗保健的 ERP」：
+## 客户口碑是唯一的营销
 
-把资格认定、财务规则、临床规则、账务、[[呼叫中心|呼叫中心]]等数百条工作流放进一个和谐运转的平台，而竞争对手很多还在人工拼接不同系统。
+前两年营销支出是零，不赞助、不参展、不投广告。逻辑是：把服务做到极致，客户自己会替你说话 <button class="pd-ts" data-t="34:06" data-who="AJ Loiacono" data-en="Well, first of all, super lean. I was just telling a story this morning where we had to put a press release out, I think, for next week. And normally that costs like $2,000." aria-label="回原文"></button>。
 
-今天公司约 1600 名员工，其中 500 人是产品和工程。
+具体怎么做？建一个自建的国内[[呼叫中心|呼叫中心]]，放弃考核通话时长，客服可以跟客户聊 10 分钟，目标是 97% 以上一次通话解决问题。
 
-## 早期客户：工会是最早的盟友
+传统保险的客服根本回答不了为什么这个药是这个价，因为连他们自己都看不懂 600 种价格。JudI 没有秘密，什么都答得上来。
 
-在没有任何案例的情况下怎么卖出？靠的是团队经验：「我在这行干了 18 年……我会告诉你一些你从没听过的事情。」
+然后是笨功夫：每年上门给每个客户做年度回顾。AJ 和同事开着租的车跑遍宾州、马里兰、特拉华。
 
-他们能在数据里指出客户的成本到底从哪来——「你告诉了我一些我从未听说过的东西，我愿意冒这个险」。<button class="pd-ts" data-t="24:31" data-who="AJ Loiacono" data-en="And so we were able to make observations in the data that I think was incredibly valuable to the customers, enough to overcome. They're like, okay, you're telling me something I haven't heard." aria-label="回原文"></button>
+到第 78 次的时候，你只想赶个早班飞机回来。
 
-而最好的早期客户是[[工会|工会]]。原因有二：工会想把成员当家人一样对待；
+但即便公司如今服务数百个客户、上千名员工，他本人仍然亲自管理两个最早的老客户账号，因为这能拿到最直接、最真实的反馈。
 
-且市政机构和工会有固定预算，成本涨 5% 不像财富 500 强那样直接付了——他们必须精确计算福利的可持续性。
+现在公司更系统了：每年做客户满意度调查，问卷里直接问两件事——能不能把你用作推荐客户？愿不愿意一起上行业会议panel？
 
-「在前几年，工会成为了我们业务的核心。」AJ 甚至说自己母亲就是参加工会的公立学校教师。
+大公司员工往往不敢开口，但总有人愿意，主动去找到这些人。
 
-定价模式上有个残酷细节：
+## 招人只看一样东西：信不信这件事
 
-竞争对手宣称「服务免费」（他们从药品价差里赚钱），所以对比表上他们那一栏是零，Judy 要收 15 万美元管理费。
+前 40 名员工 AJ 全程参与面试。四年下来员工留存率约 90%，他归功于一条：招真正相信[[使命|使命]]的人。
 
-「如果人们只是粗略浏览演示文稿，很难和一个零竞争，但净成本算下来是对我们有利的。」
+面试里怎么测？不主动问。
 
-<button class="pd-ts" data-t="29:00" data-who="AJ Loiacono" data-en="And my competitors will have a zero. Let me tell you, it's hard to compete with a zero if people are just glossing through a presentation, but the net cost was working out in our favor." aria-label="回原文"></button> 早期拿药成本也更高（对手 100 美元、他们 110 美元），所以商业计划书里写的是：
+等你把话题铺开，看候选人会不会自己提起使命，会不会讲一个自己或家人在医疗系统里吃过的苦头。
 
-运营效率必须比三家财富 15 强公司高 70%，才能在净成本上正面对抗。
+主动说了，还讲了亲身经历，大概率就是对的 <button class="pd-ts" data-t="46:03" data-who="AJ Loiacono" data-en="So in the early days, I will be fair, is we wouldn't bring up the question or ask about it. Like, why did you know? So we're trying to set someone up that is going to mention that they believe in the mission." aria-label="回原文"></button>。
 
-## 一股突如其来的顺风
+他还借用了奥巴马的说法来分级：D 级员工看到问题不吭声；C 级员工报告问题；B 级员工带着方案来；
 
-> 【背景】2021 年，《综合拨款法案》（CAA）加入了对 ERISA（《雇员退休投资储蓄法案》，管理 401k、养老金和自保）的修正案，要求对医疗保健的所有报酬完全披露；2022 年是宽限期，2023 年开始要求上报。
+A 级员工直接把问题修好了，你甚至不知道出过问题 <button class="pd-ts" data-t="44:30" data-who="AJ Loiacono" data-en="High performer in my world is I say this all the time. D players see a problem and say nothing. Hopefully, most companies don't have any of those people." aria-label="回原文"></button>。
 
-2024 年，我常说，「是[[透明|透明度]]重要的那一年」<button class="pd-ts" data-t="33:15" data-who="" data-en="And so that's when I think the consulting industry started to ask more questions. And so 2024, I often say, was this year in which transparency mattered. Like suddenly people were like, at a large scale, our potential customers were all asking the same question." aria-label="回原文"></button>。突然之间，大规模上，所有潜在客户都在问同一个问题：谁是透明的？谁是讲道德的？
+找人靠一度人脉。他找实施负责人时，问遍熟人你共事过最好的实施人员是谁，三个人说了同一个名字——Karen Durker。
 
-谁是好的合作伙伴？而这让我们加速得更多[33:29-33:34 AJ Loiacono]。
+她当时并不资深，还嫌公司太小不想来，最后被丈夫劝了才加入，如今带着上百人的团队。
 
-而在此之前，对手要么不做披露、要么交示例数据，因为要按客户拆分[[价差定价|价差定价]]、返点、绩效管理费等所有收入流「几乎是不可能的」。
+## 给创始人的最后一句忠告
 
-## 零营销，把客户变成品牌大使
+别沉迷于让公司显得光鲜的东西——网站设计、标志用哪个蓝色、披萨星期五。
 
-头两年他们做的是零营销：不赞助、不参会、不在搜索上花钱，连 2000 美元的新闻稿都自己写。
+把创业当成你这辈子能拿到的最后一笔钱来花，包括时间，因为时间买不到、存不了、也换不回来。
 
-钱全部花在服务水平上，赌的是「客户会变成我们最好的[[品牌大使|品牌大使]]」。<button class="pd-ts" data-t="34:48" data-who="AJ Loiacono" data-en="And then our customers will become our brand managers. They will become our best brand ambassadors. They will be more than willing to tell other people what a great job we do." aria-label="回原文"></button> 具体做法很「笨重」：
-
-- **自建国内呼叫中心**，追求 97% 以上的首次呼叫解决率，把「平均处理时长」这个考核指标直接扔掉——电话想讲多久讲多久（他举了 Zappos 的理念）。因为传统保险客服根本答不了「为什么是这个价格」——同一种药有 600 种价格；而 Judy 没有秘密，每个问题都必须回答。
-- **上门服务**：客户要求上门过评审就去，他和同事开着租来的车跑遍宾夕法尼亚、马里兰、特拉华——「这不光鲜，也不性感」。
-- **CEO 亲自做客户经理**：直到今天 AJ 还亲手管着两个最老的账户。「我有一条直达反馈的通道——什么在起作用，什么没有，什么让他们夜不能寐。」<button class="pd-ts" data-t="40:18" data-who="AJ Loiacono" data-en="And people are like, why would you, as the CEO, be an account manager? And I go, Because I have a direct line to the feedback, what's working, what's not, what keeps them up at night, what could we do better?" aria-label="回原文"></button>
-- **主动要转介**：年度客户调查里固定问两个问题——「可以把你作为参考推荐吗」和「有兴趣和我们一起参加大会吗」，主动找到那些被允许且愿意发声的客户。
-
-## 招聘：只信使命自发表白的人
-
-四年员工留存率约 90%，方法围绕[[使命|使命]]。他给员工分了级（借自奥巴马的说法）：D 级玩家看到问题什么也不说；C 级上报给经理；
-
-B 级给出 A 或 B 两个解决方案；「而 A 级玩家看到问题就直接修好了，我甚至从来不知道那是个问题」。<button class="pd-ts" data-t="00:30" data-who="AJ Loiacono" data-en="You could do A or B to solve for this. The A players see something and fix it, and I never knew it even was a problem. If you've never done your own business, I think a lot of people that I speak with get caught in this trap of they get super excited about the things that kind of glamorize your business, like the website design and the we should have pizza Fridays." aria-label="回原文"></button>
-
-怎么测使命？他的答案是：**不能问，只能等对方自己说**。
-
-面试时刻意不提这个话题，听两样东西——对方是否自然提到相信改变医疗的使命，以及是否主动分享了自己或家人在医疗系统的糟糕经历。
-
-「他们不希望任何人再经历他们家人经历过的事。那么我们大概率就找到了一个赢家。」
-
-<button class="pd-ts" data-t="46:57" data-who="AJ Loiacono" data-en="They don't want anyone to experience what they or their family or their loved one or dependent went through. Then we have a winner, most likely. Not always, but very, very high probability." aria-label="回原文"></button> 而 A 级特质没法在面试里测，只能「经过烈火考验」——但他观察到相信使命和成为 A 级之间相关性极高，因为这种人每天脑海里都在想怎么让别人不再经历糟糕的医疗体验。
-
-找人渠道是「一度人脉」：只招自己共事过、或自己尊敬的人共事过的人。
-
-他找实施负责人时到处问「你共事过最厉害的实施人员是谁」，三个不同的人说出同一个名字——Karen Durker，如今是负责全公司实施的执行副总裁。
-
-他特别强调要区分「Sal 特别棒」和「Sal 是喝酒特别棒的伴儿」。
-
-## 给早期创始人的建议
-
-把创业公司当成「你这辈子唯一能见到的钱」来花。删掉所有光鲜的东西——网站设计、logo 用哪种 Pantone 蓝、周五披萨日。
-
-时间是最宝贵的资产（他引 Peter Drucker：买不到、存不住、换不回来）。「没有 B 轮，没有 C 轮。
-
-我们必须把这些钱花得就像它是房间里仅剩的氧气一样。这种程度的财务纪律和时间纪律，人们没有给予足够的重视。」<button class="pd-ts" data-t="54:12" data-who="AJ Loiacono" data-en="There's no series B, there's no series C. We need to spend this money as if it's the only oxygen left in the room. And it it that level of financial discipline and time discipline, I don't think people appreciate enough." aria-label="回原文"></button>
+他的原话：我们要像这是房间里最后一点氧气那样花钱。<button class="pd-ts" data-t="54:06" data-who="AJ Loiacono" data-en="And so that's what I want to spend. All of our time, effort, and budget. There's no safety net." aria-label="回原文"></button>
 
 ## 本集带走
 
-- **在守旧行业用商业模式反向定位**：不赚价差、只收固定管理费、全员同一药价——把对手的利益冲突变成你的卖点，等监管（披露新规）来替你敲门。
-- **没有案例时卖团队认知**：客户不冒险买没经验的产品，但会为「你告诉我成本从哪来」这类别人给不了的洞察冒一次险。
-- **零营销换服务**：把钱全砸在呼叫中心和上门服务上，让客户成为品牌大使；调查问卷里主动埋「可否做参考推荐」和「可否同台」两个问题。
-- **招聘测使命别开口问**：等候选人自然说出使命认同和亲身的医疗糟糕经历；前 40 人只用一度人脉——但要区分「很棒的同事」和「很棒的酒友」。
-- **花预算像花最后一口氧气**：砍掉一切光鲜支出，包括自己浪费时间在「酷」的事情上。
+- 医疗行业没有捷径，只能从小客户一步步爬，每一步都是下一个客户的敲门砖
+- 靠不透明赚钱的行业里，透明本身就是最强的竞争武器
+- 零营销预算的策略是：把钱全砸进服务，让客户成为你的[[品牌大使|品牌大使]]
+- 招 A 级玩家的秘诀是找真信使命的人——不问，等他们自己讲出亲身经历
+- 把创业资金当成最后一笔钱来花，砍掉一切只为好看存在的开销
 
-<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
-> <span class="qz">你必须像对待“这是你这辈子唯一能见到的钱”那样对待你的创业公司。</span>  
-> *You have to treat your startup like this is the only money you're ever gonna see in your life.*  
-> <span class="qm">—— AJ Loiacono · [00:55]</span> ^q1
+> <span class="qz">雇主团体越小，经纪人通常越不干净。</span>  
+> *The smaller the employer group, usually the shadier the broker.*  
+> <span class="qm">—— AJ Loiacono · [14:06]</span> ^q1
 
-> <span class="qz">所以是的，1000 万美元的 ARR 是巨大的。在医疗保健行业，你什么都不是。</span>  
-> *So yeah, 10 million ARR is huge. In healthcare, you're nothing.*  
-> <span class="qm">—— AJ Loiacono · [05:19]</span> ^q2
+> <span class="qz">我们就是不干这些。我的想法是，让我们把钱花在确保我们以最高水平的服务运营上。然后我们的客户会变成我们的品牌管理者，变成我们最好的品牌大使。</span>  
+> *We just wouldn't do it. And my thought was let's spend the money to make sure we operate at the highest level of service. And then our customers will become our brand managers. They will become our best brand ambassadors.*  
+> <span class="qm">—— AJ Loiacono · [34:37]</span> ^q2
 
-> <span class="qz">我觉得这是一个可怕的利益冲突。想想看，如果你请某人来管理你的福利计划，而药物越贵，他们赚的钱就越多。</span>  
-> *I felt this was a horrible conflict of interest. The conflict of interest is think about it, if you're asking someone to manage your benefit plan, and the more expensive the medication, the more money they make.*  
-> <span class="qm">—— AJ Loiacono · [08:01]</span> ^q3
-
-> <span class="qz">如果我们回到 2000 年，美国的药物总支出大约是 1100 亿美元。快进到今天，是一万亿。</span>  
-> *And if we went back to 2000, the year 2000, the total drug spend in the United States was like $110 billion. We fast forward to today, it's a trillion.*  
-> <span class="qm">—— AJ Loiacono · [08:29]</span> ^q4
-
-> <span class="qz">一个传统的药房福利管理者，我们的竞争对手之一，同一天、同一家药房、同一种药，对不同客户会有几百种不同的价格。</span>  
-> *A traditional pharmacy benefit manager, someone we compete with, they'll have hundreds of different prices for the same drug, same day, same pharmacy for different customers.*  
-> <span class="qm">—— AJ Loiacono · [09:14]</span> ^q5
-
-> <span class="qz">这就是我的领悟：谁喜欢不透明和可变性？是那些追求最高盈利水平的人。</span>  
-> *Well, this is what I realized is who loves opacity and variability, people that are seeking the highest level of profitability.*  
-> <span class="qm">—— AJ Loiacono · [11:34]</span> ^q6
-
-> <span class="qz">所以你成了头号公敌，因为你基本上是在揭露保险行业的真面目。</span>  
-> *And so you become enemy number one because you're basically calling out the insurance industry for what it is.*  
-> <span class="qm">—— AJ Loiacono · [13:38]</span> ^q7
-
-> <span class="qz">所以我把平均处理时长这个考核指标扔出了窗外。</span>  
-> *So I threw average handle time out the window.*  
-> <span class="qm">—— AJ Loiacono · [37:34]</span> ^q8
-
-> <span class="qz">没有安全网。没有 B 轮，没有 C 轮。我们必须把这些钱花得就像它是房间里仅剩的氧气一样。</span>  
-> *There's no safety net. There's no series B, there's no series C. We need to spend this money as if it's the only oxygen left in the room.*  
-> <span class="qm">—— AJ Loiacono · [54:08]</span> ^q9
+> <span class="qz">而我会说，你必须把你的初创公司当作这是你这辈子唯一能看到的一笔钱来对待，每一笔开支都是，包括你的时间，因为我常这么说，时间是我们最宝贵的资产。我买不到它，存不住它，也换不回来。</span>  
+> *And I'm like, you have to treat your startup like this is the only money you're ever gonna see in your life, and that every single expense, including your time, because and I say this time is our most valuable asset. I can't buy it, I can't store it, can't replace it.*  
+> <span class="qm">—— AJ Loiacono · [53:23]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

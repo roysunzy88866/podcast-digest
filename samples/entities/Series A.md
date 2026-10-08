@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]]**(01:38起):本集顺带提到 X 项目毕业时通常处于 seed 或 Series A 阶段的 Product Market Fit,X 完全接受这一点
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(32:22起):本集说它「是当今最糟糕的位置」:种子到 A 轮时间被极大压缩,几百万 ARR、五个 POC 算不上多大信号,估值却从 5000 万涨到 2 亿
-- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]]**(17:12起):本集说他们第二年做了 A 轮融资(350 万美元,2018 年 3 月交割),是在财富 500 强客户主动来电之后。
+- **[[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]]**(17:12起):本集说他们第二年做了 A 轮融资(350 万美元,2018 年 3 月交割),是在财富 500 强客户主动来电之后。
 
 ## ① 提到它的金句
 
@@ -29,7 +29,7 @@ unlisted: true
 
 - [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]] — 作为概念(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为概念
-- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《против药品福利巨头：Judy Health 创始人的产品市场契合之路》]] — 作为概念(提及)
+- [[2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then|《两年零营销预算，他撕开了三家巨头的地盘》]] — 作为概念(提及)
 
 ## ③ 关联
 

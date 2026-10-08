@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(03:44起):本集主线：Adyen 内部把全公司技术栈放进一个 Neo4j 实例九张图的知识底座，供工程师和智能体查询依赖关系
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(03:44起):本集主线：Adyen 内部把全公司技术栈放进一个 Neo4j 实例九张图的知识底座，供工程师和智能体查询依赖关系
 
 ## ① 提到它的金句
 
@@ -35,7 +35,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 
 ## ③ 关联
 

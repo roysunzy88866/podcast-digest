@@ -18,7 +18,7 @@ aliases: ["AI coding"]
 - **[[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|《Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时》]]**(03:49起):本集认为从实际效果看最大的 AI 用例就是编程:每个人都在用 AI 编程,某些情况下已超越人类,用例和生产力论证都已确立。
 - **[[2026-09-11-a16z-what-it-takes-to-build-a-startup-andrew|《厨房餐桌上的创业：小科技的真实生存状态》]]**(11:46起):本集把它说成:两三人小团队的标准分工之一——偏技术和产品的创始人大量用 AI 编程,这样就不用外包代码或雇一堆年轻人写代码,先让生意活下来再扩张。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(03:24起):本集说编程是目前企业端唯一真正起作用的场景，3000 万程序员贡献了绝大部分收入，实验室会专注编程及其爆炸半径； Stripe 等公司觉得写代码效率回报非常高。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(47:46起):本集说把思考委托给编程智能体会得到解释不了的垃圾代码库,应用 AI 执行已想好的设计、重点修炼系统设计。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(47:46起):本集说把思考委托给编程智能体会得到解释不了的垃圾代码库,应用 AI 执行已想好的设计、重点修炼系统设计。
 
 ## ① 提到它的金句
 
@@ -48,7 +48,7 @@ aliases: ["AI coding"]
 - [[2026-08-17-sourcery-nikesh-arora--ceo-palo-alto-networks-pan|《Palo Alto CEO 谈 AI 攻击时代:修复漏洞从 55 天压到 4 小时》]] — 作为概念
 - [[2026-09-11-a16z-what-it-takes-to-build-a-startup-andrew|《厨房餐桌上的创业：小科技的真实生存状态》]] — 作为概念
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为概念
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为概念(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念(提及)
 
 ## ③ 关联
 

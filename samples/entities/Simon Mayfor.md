@@ -13,7 +13,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为主持
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]] — 作为主持
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]] — 作为主持
 
 ## ③ 他谈到的

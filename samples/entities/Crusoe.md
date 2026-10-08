@@ -11,14 +11,14 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]]**(00:14起):本集嘉宾所在公司,提供基础设施即服务(计算、存储、网络及 NVIDIA/AMD 最新一代 GPU),并在此之上构建了管理大规模 GPU 集群的工具。
+- **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(00:14起):本集嘉宾所在公司,提供基础设施即服务(计算、存储、网络及 NVIDIA/AMD 最新一代 GPU),并在此之上构建了管理大规模 GPU 集群的工具。
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(00:45起):本集主角公司:造「AI 工厂」的垂直整合基础设施公司,完成 39 亿美元 F 轮、估值 309 亿美元,卖数据中心、GPU 和 token 三样东西。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《在 Kubernetes 上跑 Slurm:让 GPU 故障自动自愈》]] — 作为被讨论公司
+- [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为被讨论公司
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司
 
 ## ③ 关联

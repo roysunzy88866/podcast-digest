@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(11:52起):本集说 Privy 是一家钱包基础设施公司，被 Stripe 收购，其成员 Asta 现在领导加密货币的工程工作。
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(11:42起):本集说 Privy 与 Bridge 同属加密支付收购,团队 crypto-native,这种特质 Stripe 自己很难快速长出来。
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(11:42起):本集说 Privy 与 Bridge 同属加密支付收购,团队 crypto-native,这种特质 Stripe 自己很难快速长出来。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为被讨论公司
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联
 

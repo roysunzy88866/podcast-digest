@@ -1,177 +1,136 @@
 {
-  "title_zh": "智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」",
-  "tldr": "Key Card 联合创始人 Ian Livingstone 解释为什么智能体把身份安全重新变成热点：任务级授权、使命（mission）概念与告别同意疲劳。",
-  "digest_md": "这一集聊的是智能体（agent）安全里最基础的一环——身份（identity）。主角是 Ian Livingstone，身份安全公司 Key Card 的联合创始人，主持是安全圈的资深从业者 Guy。Ian 开场就点出一个反直觉的事实：大模型最迷人的特性和最大的安全漏洞是同一件事——非确定性。模型能推理、能对海量数据做猜测，这是特性；但从安全角度看，「它不可预测」本身就是 bug。所以智能体时代身份问题的根本问句是：**我怎么知道一个智能体执行的操作，符合指派它的那个人的意图？** [04:48 Ian Livingstone]\n\n## 老身份系统为什么不够用了\n\n身份问题不是新东西——从大型机时代起，每一波计算浪潮都在问「谁能何时何地做什么」。上一代的答案是 API key 和共享密钥：把一个长期有效的密钥交给一个服务，它就永久绑定一组权限。问题在于密钥一旦泄露，拿到它的人就等于拿到了那个身份。最近 Light LM 那类供应链攻击，实际攻击路径就是从磁盘上偷长期有效的 API 密钥去窃取数据 [06:20 Ian Livingstone]。\n\n但智能体带来的真正变化有两个。第一，人类和新生物不同：人会「背景调查式地被信任」——你信任一个员工不会恶意破坏公司，因为他在乎工作；而智能体是「每次都是全新的生物」，没有善恶观念，也表达不了「我知道还是不知道」 [14:31 Ian Livingstone]。第二，过去「认证了你是谁」基本就够了，可以放心给宽泛权限；现在授权必须**按任务**来——我让智能体总结一份文档，它可以读所有东西；但它要做一笔超过 500 美元的交易，可能就得人类拍板 [16:06 Ian Livingstone]。\n\nIan 用自动驾驶分级来类比这条「自主性曲线」：从前 ChatGPT 时代的零级，到 Tab 补全的副驾驶一级，再到 Cursor/Claude Code 这类智能体的二级。问题是：**只要人类必须不停地点「是/否/始终允许」，就永远没有真正的自主性**——而且大多数人根本不读那个对话框，直接点「是」，这就是「同意疲劳」，它让安全系统彻底失去信号 [31:33 Ian Livingstone]。\n\n## 身份的三层：会话、使命、按任务的权限\n\nGuy 帮着把这话题拆成了几层，Ian 逐一展开：\n\n1. **智能体自己的身份**：下游系统必须能区分「这是 Guy 的请求」还是「这是 Guy 的智能体 FUBAR 的请求」，并区别对待。他爱举信用卡拒付的例子：你让智能体花 500 美元买了东西，回头你说「我没授权」，中间方需要有一条记录证明「你确实给了 FUBAR 这个任务、这个额度」——今天的身份系统完全做不到这种区分 [19:40 Ian Livingstone]。\n2. **按任务的授权**：任务在新兴标准里的名字叫「使命（mission）」——把用户的意图描述成一个具体的东西，授权系统才能衡量智能体的每个访问请求「是否符合人类意图」 [22:14 Ian Livingstone]。这解决的是一个今天完全不存在的能力：你让智能体去找某个服务办事，那个服务根本无从知道它做的事和你的原始请求是否一致。\n3. **长生命周期智能体的临时实体**：智能体每次都是全新生物、完全不同的上下文，权限得从「当下这个任务」推断出来，人类不可能每次介入 [21:44 Ian Livingstone]。\n\nIan 用一个老概念来锚定它：**会话（session）**。当年登录网站会创建一个会话（浏览器里的 cookie），它代表你是谁；现在的会话要回答三个问题——你是谁、你在代表谁行动、为了什么目的，而「目的」决定了它能访问什么 [24:05 Ian Livingstone]。\n\n## 方案版图：从找影子到修黄金路径\n\nIan 给安全人员的思考框架是两条线：一是**治理**——找到你的「影子智能体」（那些正在发生而你不知道的智能体行为），量化风险；二是**黄金路径**——给开发者一条安全又好用的通路，把东西从影子引到路上。上一代两者各有代表：OAuth 时代出现了让社交登录变简单的产品，内部工作流有 Okta，云时代有 Vault 和 Terraform 帮你配 IAM、存长期密钥。而智能体跨系统工作、代表客户或你自己、藏在技术栈里跑，把这些假设全打破了 [27:36 Ian Livingstone]。\n\n正在涌现的新技术有两类协议：OAuth 阵营的 cross-app access（让智能体以智能体身份认证，而不是人类登录后把密钥转交给它），以及 Dick Hart 写的全新协议 Agent Auth，试图把使命、会话、授权一次性解决 [28:15 Ian Livingstone]。工具层面则分裂成 CLI 与 MCP 两大生态：MCP 开箱自带 OAuth 支持，但编程智能体的看家本领恰恰是不带授权体系的 CLI 工具——市场上有只管 MCP 的网关（本质是个大代理）、有管智能体间通信的方案，还有上一代的特权访问管理（PAM）。Ian 的判断是：不是二选一，而是三者结合 [36:42 Ian Livingstone]。\n\n## Key Card 的做法与判断\n\nKey Card 的切入点是开发者体验：下载 Key Card 的 CLI，与你选的 harness（Claude Code、Cursor 等）通过 hook 系统集成，然后告诉它「这个智能体可以访问这些 MCP / CLI 工具 / 工具调用」。之后那个「是/否/始终允许」对话框就消失了——Key Card 替你做判断，你只保留极少数硬规则，比如「删除操作我要亲自审」 [37:23 Ian Livingstone]。关键设计是**高层级策略 + LLM as a judge（用一个推理模型判断某事是否合理）**：你只声明少数绝对不可接受的红线（对 Ian 来说是删除），其余交给系统裁量。这样你就不用像上一代安全工具那样，手工维护成百上千行策略文件——Ian 说，那正是上一代安全工具部署失败的地方 [42:14 Ian Livingstone]。\n\n对未来的预测，Ian 相当乐观：三年内新协议会真正部署，互操作性会成为智能体优先体验的卖点，企业里因「写策略太难」而形成的孤筒会被打破。驱动力是企业和 ROI：这一代智能体在工作场景的采用速度和回报远高于家用——这与以往技术扩散的方向相反，所以会倒逼安全栈演进得比通常快得多 [45:13 Ian Livingstone]。他还有一句贯穿全场的经验之谈：「云计算的最佳实践，现在是智能体的基本要求。」\n\n## 本集带走\n\n- **特性和 bug 是同一件事**：非确定性既是模型能力来源也是安全漏洞，所以安全的目标不是让模型不犯错，而是确保犯错时不发生灾难。\n- **授权要按任务走**：别给智能体宽泛的长期权限；给每个任务一个「使命」描述，授权系统才能判断每次请求是否符合你的意图。\n- **少数硬边界 + 系统裁量**：只把真正不可接受的少数动作（如删除、超限额交易）留给人类，其余交给用模型自动评判类系统判断，才能既自主又避免同意疲劳。\n- **必须区分人和智能体**：下游服务要能识别请求来自谁、代表谁、为了什么目的——这才能支撑信用卡拒付这类争议的仲裁。\n- **工具选型别站队 CLI 或 MCP**：两类生态各有盲区，编程智能体离不开 CLI，MCP 自带 OAuth 只是起点。\n- **部署失败的教训**：需要手工维护海量策略文件的安全系统注定推不广；高层级描述 + 自动判断才是能落地的形态。",
+  "title_zh": "给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎",
+  "tldr": "Key Card 联合创始人 Ian Livingstone 做客 The AI-Native Dev,讲清智能体时代的身份与授权难题。",
+  "digest_md": "AI 智能体会替你发邮件、改数据库、花钱办事。但你怎么知道它在做的事，是你真正想让它做的？Ian Livingstone 是身份安全创业公司 Key Card 的联合创始人，曾创办过其他安全公司。在这期对话里，他把“智能体的身份问题”拆开揉碎，讲给不搞安全的开发者听。\n\n## 为什么智能体让老办法失效了？\n\n每一轮计算平台变革都会带来新的安全问题：大型机有了多用户，就有了“谁能访问谁的文件”；互联网带来了电子商务和加密协议；云计算带来了密钥管理。智能体也一样，但它有个前所未有的特点：不确定性。\n\nIan 的说法很妙：智能体基于概率分布，能推理、能猜测，这本来是功能；但从安全角度看，这恰恰也是缺陷。功能和缺陷是同一件事 [05:12 Ian Livingstone]。\n\n过去你给一段程序权限，它基本就照着做。智能体不一样——你让它优化数据库，它可能认为把库整个清空重 来最“优化”。这不是它恶意，而是它没有判断对错的能力，每次运行都是一个全新语境下的全新生物。\n\n## 人可以查背景，智能体查不了\n\n为什么以前云计算时代不用太操心授权？Ian 用了一个招聘的比喻：公司雇人前会做背景调查、打电话给推荐人，确认这个人值得信任。人也有长期的声誉顾虑——被开除对他是大灾难，所以他天然有动机好好干活。\n\n智能体完全没有这些。它不在乎后果，没有“做错事会很惨”的概念，而且每次任务都是新的上下文。所以老逻辑——“只要确认是这个人，就给他宽泛权限”——在智能体身上彻底失效 [14:31 Ian Livingstone]。\n\n现在必须反过来：根据你派给智能体的具体任务，动态决定它能碰什么。让它总结文档？随便读。让它花钱超过 500 美元？必须人工确认。每个组织、每个人的信任边界都不一样。\n\n## 三层身份：你是谁、替谁干活、干什么活\n\nIan 把问题拆成三层。第一层是“这个智能体是谁”——它得有自己的身份，不能借你的账号乱窜。第二层是“它替谁办事”，也就是代理关系。\n\n第三层最有意思：任务本身也需要身份。在 emerging 的标准里，这个概念叫“任务(mission)”——用户给智能体指派了一项任务，这个任务的描述随请求一起传给下游系统，下游就能判断：这个请求和当初的授权匹配吗？\n\nIan 用信用卡拒付打比方：你让智能体替你交易，事后又不认账，系统得能拿出记录证明“你确实授权了它，而且说了最多花 500 美元”。今天的身份体系做不到这一点——如果智能体替你访问某个服务，那个服务根本没法核对它的动作是否符合你的原始意图 [23:18 Ian Livingstone]。\n\n## 别让“确认弹窗”毁掉一切\n\n现在的工具靠什么管智能体？弹窗。每做一步都问你“确定吗？”。Ian 直言这是 consent fatigue(确认疲劳)的温床——你根本不会读弹窗，只会一路点“是” [31:39 Ian Livingstone]。\n\n他的思路是：设几条铁律，比如“删除数据必须我本人批准”；其余情况，让一个“AI 当裁判”的判断系统来决定这次请求合不合理。裁判拿不准时，再升级给人。裁判判断得越准，打断你的次数越少，信任越高，智能体能获得的自主权就越大。\n\n这个思路有个重要的历史教训：上一代安全工具之所以部署失败，就是因为要人工手写成百上千行策略文件。这次不能再走老路。\n\n## 协议在变，格局未定\n\n工具层面，生态正分裂成两大阵营：命令行工具和 MCP(MCP 协议天生自带 OAuth 支持)。有些安全方案只支持一边。Key Card 的定位是两边通吃，再加上传统的特权访问管理——三样合一。\n\n协议层面也有新动作:OAuth 社区新推出了 cross-app access,让智能体能以智能体的身份认证，而不是伪装成人类；\n\nIan 的预测是：三年内，新协议会真正落地，智能体会让整个互联网变得“即插即用”，企业内部的信息孤岛会因身份系统升级而被打通。驱动力来自企业——职场智能体的采用速度和回报远超家用场景，而大企业客户会拿着预算逼供应商实现安全标准。这个模式，过去 30 年一直如此。\n\n## 本集带走\n\n- 智能体的不确定性既是功能也是缺陷，安全的核心问题变成：如何确保它的动作符合授权者的真实意图\n- 对人可以“查背景后给宽权限”，对智能体必须按任务动态授权——任务本身需要可传递的身份\n- 靠“确定吗”弹窗管理智能体会导致确认疲劳，需要硬边界加 AI 裁判的组合\n- 新协议(cross-app access、Agent Auth)正在出现，但格局远未定型；企业需求是推动标准落地的最大力量\n- Key Card 的做法：同时支持命令行和 MCP,让开发者从个人用起，再扩展到团队和全公司",
   "quotes": [
     {
-      "en": "Yeah, because the feature and the bug are the same. And the final question is how do I know that an agent is performing actions aligned with the intent of whoever set the agent to do something?",
-      "zh": "因为特性和缺陷是同一回事。最后的问题是：我怎么知道智能体执行的操作，符合设置它去做某件事的那个人的意图？",
-      "timestamp": "00:21",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "Um, and the more autonomous an agent becomes, or the more autonomous you want an agent to be, the security equation becomes much more difficult to solve.",
-      "zh": "一个智能体越自主，或者你越希望它自主，安全等式就变得越难解。",
-      "timestamp": "05:44",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "I want to guard, like I don't want a guard rule, I want to I want a hard boundary around what it can do. And it's part of this is also the reason why things like sandbox is very popular right now. It's like I can never 100% know the model may not do this.",
-      "zh": "我要的不是一条护栏规则，我要的是围绕它能做什么的硬边界。这也是沙箱现在这么流行的部分原因：我永远无法 100% 确定模型不会这么做。",
-      "timestamp": "09:11",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "And so the question is you can't have autonomy when the human has to constantly be in the loop, which is where these access systems come in.",
-      "zh": "所以问题是：当人类必须不断处于循环中时，你不可能有自主性——这正是这些访问系统发挥作用的地方。",
-      "timestamp": "12:03",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "None of that, none of that existed because we actually didn't have to build that for last generation security posture, and now we we do.",
-      "zh": "这些全都不存在，因为上一代的安全姿态不需要构建这些，而现在我们需要了。",
-      "timestamp": "20:24",
-      "speaker": "Ian Livingstone"
-    },
-    {
       "en": "Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all.",
-      "zh": "这正是今天完全不存在的能力：你让你的智能体代表你去找某个服务办事，那个服务根本无从知道智能体正在执行的动作，是否与你的初始请求一致。",
+      "zh": "这正是今天完全不存在的问题：如果你去 ABOS，让你的智能体代表你与 ABOS 交谈，ABUS 实际上完全没办法知道智能体正在执行的动作是否与你的初始请求一致。",
       "timestamp": "23:18",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "And now it's not just a session, isn't just um who you are, it's who are you acting on behalf of, yeah, and it is also for what purpose.",
-      "zh": "现在这个会话不仅仅是你自己是谁，还是你在代表谁行动，同时也是为了什么目的。",
-      "timestamp": "24:16",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right? Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it.",
-      "zh": "我们今天在智能体安全方面面临的最大挑战，是如何避免最终出现同意疲劳。「是、否、始终允许」这种对话框最糟糕的地方就是，你只是点「是」，因为你根本不会去读它。",
-      "timestamp": "31:33",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "And that's always been one of the biggest challenges in security is how do I have a security system that is only sounds the alarm when a program is relevant. Exactly. Otherwise you lose all the signal.",
-      "zh": "这一直是安全领域最大的挑战之一：怎么才能让安全系统只在问题真正相关时才拉响警报。否则你就会失去所有信号。",
-      "timestamp": "31:47",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "I often I often say to people the the best practices of cloud are now base requirements for agents, and we've certainly seen those sandboxes and cloud environments and everything, and that's still true about that.",
-      "zh": "我经常对人说：云计算的最佳实践，现在是智能体的基本要求。我们见过那些沙箱和云环境等等，这一点仍然成立。",
-      "timestamp": "43:02",
-      "speaker": "Ian Livingstone"
-    },
-    {
-      "en": "And I think what's unique about this era of agents specifically is we're seeing agents at work be adopted much faster with much higher degrees of ROI than agents at home. And you know, that's an inversion of some things we've seen previously, um, but it's certainly true now.",
-      "zh": "我认为这个智能体时代特别独特的地方在于：工作中的智能体被采用的速度远快于家用的智能体，ROI 也高得多。这是我们以前见过的一些事情的倒置，但现在确实如此。",
-      "timestamp": "46:07",
       "speaker": "Ian Livingstone"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "00:07",
+      "timestamp": "00:14",
       "speaker": "Ian Livingstone",
-      "en": "This thing is built on like a probistic distribution. The feature is that it can reason and it can guess over large amounts of data, right? Um, and that it is non-deterministic, that's a feature. The bug from a security perspective is that it's non-deterministic.",
-      "zh": "这个东西是建立在一种概率分布之上的。它的特性在于它能推理、能对海量数据进行猜测，而且它是非确定性的——这是特性。而从安全角度看，缺陷恰恰是它是非确定性的。"
+      "en": "Um, and that it is non-deterministic, that's a feature.",
+      "zh": "嗯，而且它是非确定性的，这是一个特性。"
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Ian Livingstone",
+      "en": "The bug from a security perspective is that it's non-deterministic.",
+      "zh": "而从安全角度看，缺陷恰恰是它是非确定性的。"
     },
     {
       "timestamp": "00:21",
       "speaker": "Ian Livingstone",
-      "en": "Yeah, because the feature and the bug are the same. And the final question is how do I know that an agent is performing actions aligned with the intent of whoever set the agent to do something?",
-      "zh": "因为特性和缺陷是同一回事。最后的问题是：我怎么知道智能体执行的操作，符合设置它去做某件事的那个人的意图？"
+      "en": "Yeah, because the feature and the bug are the same.",
+      "zh": "是啊，因为特性和缺陷是同一回事。"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Ian Livingstone",
+      "en": "Like it's been like every wave of computing introduces this question of well, who can do what, when, and where?",
+      "zh": "就像是每一波计算浪潮都引入了这个问题：谁能在何时何地做什么？"
     },
     {
       "timestamp": "05:44",
       "speaker": "Ian Livingstone",
       "en": "Um, and the more autonomous an agent becomes, or the more autonomous you want an agent to be, the security equation becomes much more difficult to solve.",
-      "zh": "一个智能体越自主，或者你越希望它自主，安全等式就变得越难解。"
+      "zh": "呃，一个智能体越自主，或者你越希望一个智能体自主，安全等式就变得越难解。"
     },
     {
-      "timestamp": "09:11",
+      "timestamp": "06:02",
       "speaker": "Ian Livingstone",
-      "en": "I want to guard, like I don't want a guard rule, I want to I want a hard boundary around what it can do. And it's part of this is also the reason why things like sandbox is very popular right now. It's like I can never 100% know the model may not do this.",
-      "zh": "我要的不是一条护栏规则，我要的是围绕它能做什么的硬边界。这也是沙箱现在这么流行的部分原因：我永远无法 100% 确定模型不会这么做。"
+      "en": "And then ultimately the identity question is how do I ensure that when an agent does make a mistake, it doesn't do something catastrophic, I didn't intend, right?",
+      "zh": "而最终，身份问题是，我如何确保当一个智能体确实犯了错时，它不会做出我没打算做的灾难性的事情，对吧？"
     },
     {
-      "timestamp": "10:38",
+      "timestamp": "06:51",
       "speaker": "Ian Livingstone",
-      "en": "It was like we built a world based on shared secrets. Right. And and the issue with shared secrets is they often bound strictly to a specific identity, and they bound specifically strictly to a set of permissions associated with that long-lived secret.",
-      "zh": "就像是，我们建立了一个基于共享密钥的世界。而共享密钥的问题在于，它们通常严格绑定到特定身份，也严格绑定到与那个长期密钥相关联的一组权限。"
+      "en": "It makes it snappy, but that would be deeply unaligned with what the actual user wants that agent to do.",
+      "zh": "它让事情变得麻利，但那会与用户真正希望那个智能体去做的事情严重不一致。"
     },
     {
-      "timestamp": "14:31",
+      "timestamp": "07:12",
       "speaker": "Ian Livingstone",
-      "en": "Exactly, a brand new creature every time, a completely different context, and they're they don't have um they have no sense of is this good or wrong. Like they're not malicious, yeah. They they just don't know, and there isn't a way for them to say it, do I know or do I not know, right?",
-      "zh": "没错，每次都是全新的生物，完全不同的上下文，它们对这是好是坏没有任何感觉。它们并不怀有恶意——它们只是不知道，而且没有办法表达「我是知道还是不知道」。"
+      "en": "And that's a very different model than we've had previously.",
+      "zh": "而这是一个与我们以前拥有的非常不同的模型。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Ian Livingstone",
+      "en": "But from a security equation, you want to say, well, there's a set of things I just want to never happen.",
+      "zh": "但从安全等式的角度，你想说，好吧，有一组事情我就是想让它永远不发生。"
+    },
+    {
+      "timestamp": "10:35",
+      "speaker": "Ian Livingstone",
+      "en": "It was like we built a world based on shared secrets.",
+      "zh": "就像是，我们建立了一个基于共享密钥的世界。"
     },
     {
       "timestamp": "12:03",
       "speaker": "Ian Livingstone",
-      "en": "And so the question is you can't have autonomy when the human has to constantly be in the loop, which is where these access systems come in.",
-      "zh": "所以问题是：当人类必须不断处于循环中时，你不可能有自主性——这正是这些访问系统发挥作用的地方。"
+      "en": "And so the question is you can't have autonomy when the human has to constantly be in the loop, which is where these access systems come in, which is saying, as I go up the autonomy ladder, so as we want to get to this sort of self-driving car analogy, there's a trust and safety equation then associated with that, which is how do I keep this thing driving on the road instead of like driving off the road off the cliff or whatever has to be done.",
+      "zh": "所以问题是，当人类必须不断处于循环中时，你不可能有自主性，这就是这些访问系统发挥作用的地方，也就是说，当我沿着自主性阶梯向上走，就像我们想达到那种自动驾驶汽车的类比一样，随之而来的是一个信任与安全的等式，即我如何让这个东西在路上行驶，而不是驶出道路、冲下悬崖或者别的什么必须处理的事情。"
     },
     {
-      "timestamp": "19:40",
+      "timestamp": "14:39",
       "speaker": "Ian Livingstone",
-      "en": "How does the intermediary be like, well, actually, no, we have a record uh, in fact, that you did tell FUBAR to go and do this thing, and then you said it could spend up to $500, and it did do that thing, so we're actually not gonna process that chargeback",
-      "zh": "中间方怎么说呢？实际上我们有记录：你确实让 FUBAR 去做了这件事，你说过它最多可以花 500 美元，它也确实做了，所以我们不会处理那笔拒付。"
+      "en": "Exactly, a brand new creature every time, a completely different context, and they're they don't have um they have no sense of is this good or wrong.",
+      "zh": "没错，每次都是全新的生物，完全不同的上下文，它们没有——它们对于这是好的还是错的没有任何感觉。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "Ian Livingstone",
+      "en": "And so much of if we're if what we're trying to do is to basically turn software into the Waymo experience, so much of it is like, how do we, as the models improve, how do we over time give them more autonomy, but with the same substrate system?",
+      "zh": "所以，如果我们想要的基本上是把软件变成 Waymo 体验，那么很大程度上就是，随着模型改进，我们如何随时间给它们更多自主性，但用的是同一个底层系统？"
     },
     {
       "timestamp": "20:24",
       "speaker": "Ian Livingstone",
       "en": "None of that, none of that existed because we actually didn't have to build that for last generation security posture, and now we we do.",
-      "zh": "这些全都不存在，因为上一代的安全姿态不需要构建这些，而现在我们需要了。"
-    },
-    {
-      "timestamp": "22:37",
-      "speaker": "Ian Livingstone",
-      "en": "And really, what that mission is is about describing the user's intent as a concrete thing.",
-      "zh": "说到底，「使命」的本质就是把用户的意图描述成一个具体的东西。"
+      "zh": "这些都不存在，因为我们上一代的安全姿态其实不需要构建那些，而现在我们需要了。"
     },
     {
       "timestamp": "23:18",
       "speaker": "Ian Livingstone",
       "en": "Which is the issue that doesn't exist at all today is if you go to ABOS and you ask your agent to talk to ABOS on your behalf, ABUS has actually no way to know whether you what the action that the agent is performing was aligned with what your initial request was at all.",
-      "zh": "这正是今天完全不存在的能力：你让你的智能体代表你去找某个服务办事，那个服务根本无从知道智能体正在执行的动作，是否与你的初始请求一致。"
-    },
-    {
-      "timestamp": "24:16",
-      "speaker": "Ian Livingstone",
-      "en": "And now it's not just a session, isn't just um who you are, it's who are you acting on behalf of, yeah, and it is also for what purpose.",
-      "zh": "现在这个会话不仅仅是你自己是谁，还是你在代表谁行动，同时也是为了什么目的。"
+      "zh": "这正是今天完全不存在的问题：如果你去 ABOS，让你的智能体代表你与 ABOS 交谈，ABUS 实际上完全没办法知道智能体正在执行的动作是否与你的初始请求一致。"
     },
     {
       "timestamp": "31:33",
       "speaker": "Ian Livingstone",
-      "en": "And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right? Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it.",
-      "zh": "我们今天在智能体安全方面面临的最大挑战，是如何避免最终出现同意疲劳。「是、否、始终允许」这种对话框最糟糕的地方就是，你只是点「是」，因为你根本不会去读它。"
+      "en": "And the biggest challenge we have today when it comes to age genetic security is how do we actually not end up with consent fatigue, right?",
+      "zh": "而我们今天在智能体安全方面面临的最大挑战是，我们如何真正避免最终出现同意疲劳，对吧？"
     },
     {
-      "timestamp": "31:55",
+      "timestamp": "31:39",
       "speaker": "Ian Livingstone",
-      "en": "And that's always been one of the biggest challenges in security is how do I have a security system that is only sounds the alarm when a program is relevant. Exactly. Otherwise you lose all the signal.",
-      "zh": "这一直是安全领域最大的挑战之一：怎么才能让安全系统只在问题真正相关时才拉响警报。否则你就会失去所有信号。"
+      "en": "Like the worst part about the yes, no allow always product dialogue is you just click yes because I'm not gonna read it.",
+      "zh": "比如「是、否、始终允许」这种产品对话框最糟糕的地方就是，你只是点「是」，因为我不会去读它。"
     },
     {
-      "timestamp": "42:16",
+      "timestamp": "31:47",
       "speaker": "Ian Livingstone",
-      "en": "And that's where like high-level policy combined with like the LM as a judge feature helps people to see, oh, okay, so I'm not sitting there artistically defining hundreds and hundreds and hundreds a line of no policy files, which was you know what we learned. I think a lot of security tools in the last generation is that that's where deployment went and failed.",
-      "zh": "这正是高层级策略结合「LLM 作为裁判」功能发挥作用的地方，帮助人们看到：哦，好吧，我不用坐在那里手工定义成百上千行的禁止策略文件——上一代很多安全工具的教训就是，部署正是走向失败的地方。"
+      "en": "And that's always been one of the biggest challenges in security is how do I have a security system that is only sounds the alarm when a program is relevant.",
+      "zh": "而这一直是安全领域最大的挑战之一：我怎么才能拥有一个只在问题相关时才拉响警报的安全系统。"
+    },
+    {
+      "timestamp": "42:44",
+      "speaker": "Glyfer Johnny",
+      "en": "Uh you know, and I think the reality of uh uh of of kind of many many aspects of technology is that problems that were a nuisance, but we can kind of kind of get by with uh in the pre-agent era, but they were not great.",
+      "zh": "呃你知道，我认为技术的很多很多方面的现实是，那些在前智能体时代只是麻烦、我们大致能凑合过去的问题，但它们并不好。"
     },
     {
       "timestamp": "43:02",
       "speaker": "Ian Livingstone",
       "en": "I often I often say to people the the best practices of cloud are now base requirements for agents, and we've certainly seen those sandboxes and cloud environments and everything, and that's still true about that.",
-      "zh": "我经常对人说：云计算的最佳实践，现在是智能体的基本要求。我们见过那些沙箱和云环境等等，这一点仍然成立。"
-    },
-    {
-      "timestamp": "46:07",
-      "speaker": "Ian Livingstone",
-      "en": "And I think what's unique about this era of agents specifically is we're seeing agents at work be adopted much faster with much higher degrees of ROI than agents at home. And you know, that's an inversion of some things we've seen previously, um, but it's certainly true now.",
-      "zh": "我认为这个智能体时代特别独特的地方在于：工作中的智能体被采用的速度远快于家用的智能体，ROI 也高得多。这是我们以前见过的一些事情的倒置，但现在确实如此。"
+      "zh": "我经常对人说，云计算的最佳实践现在是智能体的基本要求，我们肯定见过那些沙箱和云环境等等，这一点仍然成立。"
     }
   ],
   "voice_script": "今天咱们聊一个听起来有点冷门、但其实跟你息息相关的话题：智能体时代的身份安全。主角叫 Ian Livingstone，是身份安全公司 Key Card 的联合创始人，主持人是安全圈的资深从业者 Guy。这一期他们聊的核心问题就一句话：让 AI 替你干活之前，你得先搞清楚它是谁、它能干什么、它干的事到底是不是你想让它干的。\n\n为什么这个问题现在突然变热了？先从 AI 最大的一个特性说起。Ian 一开场就点出一个反直觉的事实：大模型最迷人的地方，恰恰也是它最大的安全漏洞——非确定性。说白了，就是这个模型能推理、能对海量数据做猜测，这是它聪明的来源；但从安全角度看，\"它不可预测\"本身就是个 bug。所以智能体时代身份问题的根本问句变成了：我怎么知道一个智能体执行的操作，符合指派它的那个人的意图？\n\n要理解为什么老办法行不通了，得先回头看一眼历史。身份问题其实不是新东西，从大型机时代起，每一波计算浪潮都在问\"谁能、在什么时候、在什么地方、做什么事\"。上一代的答案是 API key 和共享密钥——把一个长期有效的密钥交给一个服务，它就永久绑定一组权限。这有个致命的问题：密钥一旦泄露，拿到它的人就等于拿到了那个身份。最近 Light LM 那类供应链攻击，实际攻击路径就是从磁盘上偷长期有效的 API 密钥去窃取数据。\n\n那智能体带来的真正变化是什么？有两个。第一个是人类和智能体本质不同。人可以\"背景调查式地被信任\"——你信任一个员工不会恶意破坏公司，因为他在乎自己的工作；而智能体是每次都是全新的生物，没有善恶观念，也表达不出\"我知道还是不知道\"。第二个变化更关键：过去只要认证了你是谁，基本就够了，可以放心给宽泛权限；现在授权必须按任务来。举个例子，你让智能体总结一份文档，它可以读所有东西；但它要做一笔超过五百美元的交易，可能就得人类拍板。\n\nIan 用自动驾驶的分级来类比这条\"自主性曲线\"：从前 ChatGPT 时代的零级，到 Tab 补全这种副驾驶一级，再到 Cursor、Claude Code 这类智能体的二级。这里有个死结：只要人类必须不停地点\"是、否、始终允许\"，就永远没有真正的自主性。而且说实话，大多数人根本不读那个弹出来的对话框，直接点\"是\"。这就是所谓的\"同意疲劳\"，它让整个安全系统彻底失去了信号。\n\n既然老办法不行，那新框架长什么样？Guy 帮着把这话题拆成了几层，Ian 逐一展开。第一层是智能体自己的身份——下游系统必须能区分\"这是 Guy 本人发来的请求\"，还是\"这是 Guy 的智能体 FUBAR 发来的请求\"，并且区别对待。Ian 爱举信用卡拒付的例子：你让智能体花五百美元买了东西，回头你说\"我没授权\"，中间方需要有一条记录证明\"你确实给了 FUBAR 这个任务、这个额度\"——而今天的身份系统完全做不到这种区分。\n\n第二层是按任务的授权。任务在新兴标准里有个名字，叫\"使命\"，mission——就是把用户的意图描述成一个具体的东西，授权系统才能衡量智能体的每一个访问请求，是不是符合人类意图。这解决的是一个今天完全不存在的能力：你让智能体去找某个服务办事，那个服务根本无从知道它做的事和你的原始请求是否一致。第三层是长生命周期智能体的临时实体——既然智能体每次都是全新生物、上下文完全不同，权限就得从当下这个任务推断出来，人类不可能每次都介入。\n\nIan 用一个老概念来锚定这一切：会话。当年你登录网站，浏览器会创建一个会话，也就是 cookie，它代表你是谁；现在的会话要回答三个问题——你是谁、你在代表谁行动、为了什么目的。而\"目的\"这一个答案，就决定了它能访问什么。\n\n那安全从业者该怎么办？Ian 给了个思考框架，两条线。一条叫治理——找到你的\"影子智能体\"，就是那些正在发生、但你完全不知道的智能体行为，把风险量化出来；另一条叫黄金路径——给开发者一条又安全又好用的通路，把那些影子行为引到路上来。上一代这两者各有代表：OAuth 时代出现了让社交登录变简单的产品，企业内部工作流有 Okta，云时代有 Vault 和 Terraform 帮你配置权限、存密钥。但智能体跨系统工作、代表客户或者你自己、藏在技术栈里悄悄跑，把这些假设全打破了。\n\n新的技术也在涌现。一类是 OAuth 阵营的 cross-app access，让智能体以智能体的身份去认证，而不是人类登录后把密钥转交给它；还有 Dick Hart 写的全新协议 Agent Auth，试图把使命、会话、授权一次性解决。工具层面则分裂成 CLI 和 MCP 两大生态——MCP 开箱自带 OAuth 支持，但编程智能体的看家本领恰恰是不带授权体系的 CLI 工具。市面上有只管 MCP 的网关、有管智能体间通信的方案、还有上一代的特权访问管理。Ian 的判断是：别站队，三者结合。\n\n聊到这里，就能看懂 Key Card 自己的做法了。切入点是开发者体验：下载它的命令行工具，跟你选的开发工具通过 hook 系统集成，然后告诉它\"这个智能体可以访问这些工具\"。之后，那个让人烦到麻木的\"是、否、始终允许\"对话框就消失了——Key Card 替你做判断，你只保留极少数硬规则，比如\"删除操作我要亲自审\"。关键设计是高层级策略加模型自动评判：你只声明少数绝对不可接受的红线，其余交给系统裁量。这样就不用像上一代安全工具那样，手工维护成百上千行策略文件——Ian 说，那正是上一代安全工具部署失败的地方。\n\n最后聊聊未来。Ian 相当乐观：三年内新协议会真正部署，互操作性会成为智能体体验的卖点，企业里那些因为\"写策略太难\"而形成的孤筒会被打破。驱动力是企业和投资回报——这一代智能体在工作场景的采用速度和回报远高于家用，这跟以往技术扩散的方向正好相反，所以会倒逼安全栈演进得比通常快得多。\n\n Ian 还留了句贯穿全场的话，就拿它收尾：云计算的最佳实践，现在是智能体的基本要求。"

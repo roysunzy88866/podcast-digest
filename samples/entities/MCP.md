@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>81</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>81</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,7 +32,7 @@ unlisted: true
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
 - **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(10:13起):本集说它是「把企业自己的数据接进模型的连接标准」，Anthropic 做了 MCP 让你连接所有数据，被称为「了不起的突破」
-- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]]**(33:19起):本集说 MCP 开箱自带 OAuth 支持，与 CLI 构成生态里的大战；Ian 的判断是 MCP 和 CLI 不是二选一，还要加上 PAM，三者结合。
+- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]]**(33:19起):本集说 MCP 开箱自带 OAuth 支持，与 CLI 构成生态里的大战；Ian 的判断是 MCP 和 CLI 不是二选一，还要加上 PAM，三者结合。
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(05:27起):本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用
 - **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(18:19起):本集说 MCP 是让 AI 模型调用外部工具的标准协议,Render 提供 MCP server 让智能体拉日志、部署数据和指标来调试失败的部署,是其头号用途之一。
 - **[[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]]**(09:02起):本集说 MCP 是一种让 AI 智能体调用外部工具的协议，但大多数公共 MCP 服务成功率只有 60%，且协议本身不覆盖治理层、可观测性、DLP 等企业需求
@@ -86,15 +86,15 @@ unlisted: true
 - **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(03:47起):可扩展的插件系统，100 倍工程师用它疯狂产出代码；也通过 Xcode MCP 让智能体不打开 Xcode 就能创建并截图 iOS 应用
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(31:56起):本集把 MCP 描述为让智能体调用外部工具的标准接口:Notion 做了 MCP 后突然涌入海量智能体流量,你可以暂时把接口按住不发,但这是不可避免的。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(12:10起):本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』
-- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]]**(02:08起):本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(39:52起):本集两次顺带提到：Dan 翻白眼说拿 LLM 加一些 MCP 服务器和 API 串联六个软件行不通；主持人举例 G2 通过 MCP 连接前沿模型做软件采购推荐。
-- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]]**(11:20起):本集认真讨论：Architect 最常用入口，但工具膨胀是真问题——结构化数据用 API、探索性场景才用 MCP，很多场景 CLI 更省 token
+- **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(02:08起):本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(39:52起):本集两次顺带提到：Dan 翻白眼说拿 LLM 加一些 MCP 服务器和 API 串联六个软件行不通；主持人举例 G2 通过 MCP 连接前沿模型做软件采购推荐。
+- **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(11:20起):本集认真讨论：Architect 最常用入口，但工具膨胀是真问题——结构化数据用 API、探索性场景才用 MCP，很多场景 CLI 更省 token
 - **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]]**(33:48起):本集把 MCP 说成:Mentor 的开放接口形态——客户可以用任何编码智能体或 harness 通过 MCP 服务操作平台,前端模型调用时底层已有大量优化。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
 
-*14 条*
+*15 条*
 
 ![[2026-08-21-talks-building-blocks-for-uber-s-software-fact#^q5]]
 
@@ -119,6 +119,8 @@ unlisted: true
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q7]]
 
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q11]]
+
+![[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your#^q5]]
 
 ![[2026-singju-openclaw-80apps#^q4]]
 
@@ -149,7 +151,7 @@ unlisted: true
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
-- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为概念
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]] — 作为概念
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为概念
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为概念
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]] — 作为概念
@@ -204,9 +206,9 @@ unlisted: true
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为概念
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为概念(提及)
-- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联创 John Collison:智能体商务是一次彻底的重构》]] — 作为概念
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为概念(提及)
-- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《支付公司 Adyen 造了个“全知图数据库”：让智能体看清每一行代码和每一次调用》]] — 作为概念
+- [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为概念
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念(提及)
+- [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 - [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 

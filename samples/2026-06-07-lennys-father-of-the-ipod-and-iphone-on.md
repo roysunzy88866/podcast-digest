@@ -149,7 +149,7 @@ Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Apple、OpenAI · 同概念:智能体 (agent)、ChatGPT</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Anthropic、Apple、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Anthropic、Apple、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

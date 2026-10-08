@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(13:57起):本集说 trace 是事件序列日志的工程术语，包含系统提示词、工具调用、用户对话等完整交互记录，是错误分析的基本数据单元。
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(01:41起):本集把它说成：智能体运行记录，量大到不可能人工全看；生产 traces 被引擎批量分析加人工翻看，并要反哺离线 eval。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(20:26起):本集说 trace 是复利学习循环的记录系统,展示智能体每一步做了什么,Engine 就坐在追踪记录之上工作。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(20:26起):本集说 trace 是复利学习循环的记录系统,展示智能体每一步做了什么,Engine 就坐在追踪记录之上工作。
 - **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]]**(04:04起):本集核心方法：把音频、转录文本、trace 放进同一会话视图，逐个 span 可见、内联播放音频、看工具调用与指标的关联；「日志会说谎」，只有 trace 能揭示真实失败。
 
 ## ① 提到它的金句
@@ -34,7 +34,7 @@ unlisted: true
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为概念
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为概念
 - [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]] — 作为概念
 
 ## ③ 关联

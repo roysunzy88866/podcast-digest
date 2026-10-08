@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]]**(07:48起):本集提到它是一种高性能推理服务框架，Nemotron Parse 可以通过它部署
 - **[[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]]**(01:33起):本集把 vLLM 作为模型服务框架和推理服务运行时的例子,并用它说明优化四象限框架可迁移到各种技术栈
 - **[[2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen|《智能体推理不是聊天加量：Friendly AI 重建推理云》]]**(05:54起):本集说 Friendly AI 团队早年的工作启发了这个被广泛使用的开源推理框架;深度研究示例也以解释 vLLM 中的 spec decoding 框架为任务。
-- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]]**(33:29起):本集说它是很好的开源推理引擎起点,放一个 vLLM 到 GPU 上挂到 Open Router 差不多就是生产级推理产品。
+- **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(33:29起):本集说它是很好的开源推理引擎起点,放一个 vLLM 到 GPU 上挂到 Open Router 差不多就是生产级推理产品。
 
 ## ② 出现在这些集
 
@@ -27,7 +27,7 @@ unlisted: true
 - [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]] — 作为概念(提及)
 - [[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]] — 作为概念(提及)
 - [[2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen|《智能体推理不是聊天加量：Friendly AI 重建推理云》]] — 作为概念(提及)
-- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《拥有你自己的智能:后训练什么时候才值得做》]] — 作为被讨论公司(提及)
+- [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

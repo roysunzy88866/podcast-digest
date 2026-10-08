@@ -47,7 +47,7 @@ unlisted: true
 
 ![[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you#^q11]]
 
-![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q1]]
+![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q14]]
 
 ## ② 出现在这些集
 

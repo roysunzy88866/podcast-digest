@@ -19,7 +19,7 @@ unlisted: true
 
 ![[2026-09-28-twist-the-5-companies-apple-must-buy#^q7]]
 
-![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q5]]
+![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q4]]
 
 ## ② 出现在这些集
 

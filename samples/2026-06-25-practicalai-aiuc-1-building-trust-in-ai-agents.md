@@ -154,7 +154,7 @@ Emil 提了三件事 <button class="pd-ts" data-t="40:08" data-who="Emil Lassen"
 
 **换个口味**
 
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:智能体 (agent)、红队测试 (red teaming)、可观测性 (observability)、护栏 (guardrails)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同概念:智能体 (agent)、红队测试 (red teaming)、可观测性 (observability)、护栏 (guardrails)</span>
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)</span>
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]]**(55:26起):本集说它是 Jason 投资的订阅制学习公司，拥有庞大的订阅用户群，并同样经历了被拉进课堂做仪表盘的过程。
+- **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(55:26起):本集说它是 Jason 投资的订阅制学习公司，拥有庞大的订阅用户群，并同样经历了被拉进课堂做仪表盘的过程。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《Ask Jason:读传记、50万怎么花，与 AI 导师 Aristotle》]] — 作为被讨论公司
+- [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>91</b> 集 · <b>53</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>91</b> 集 · <b>52</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -55,7 +55,7 @@ unlisted: true
 - **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(20:13起):本集演示中提到可在沙箱里运行，内部原型中的主智能体也只有 Anthropic/Claude 权限。
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(29:06起):本集提到 Claude 作为可能给企业提供智能体的供应商之一，TrustWise 对其是不可知的
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(31:15起):本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。
-- **[[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]]**(37:53起):本集用它举例：一个 L2 判断 400 万美元的文档格式转换「这感觉像一个 Claude skill」，三小时建好、复用已付费的 Claude 一千份并发完成；Mike 还说当 Claude 告诉你某事不可能时，要让它发挥创造力想替代方案。
+- **[[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]]**(37:53起):本集用它举例：一个 L2 判断 400 万美元的文档格式转换「这感觉像一个 Claude skill」，三小时建好、复用已付费的 Claude 一千份并发完成；Mike 还说当 Claude 告诉你某事不可能时，要让它发挥创造力想替代方案。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(40:15起):本集仅在列举模型公司需要新鲜推理时数据以在产品中展示时，与 ChatGPT 一并提及
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(40:15起):本集顺带提到 Claude，说模型公司希望在推理期间获得新鲜数据以便在 ChatGPT 或 Claude 这类产品中展示
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(17:19起):本集举例提到前置部署员工使用 Claude 或 Codex 等工具来完成工作流自动化
@@ -71,7 +71,7 @@ unlisted: true
 - **[[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]]**(13:12起):本集现场演示让 Claude 一句提示『创建一个三层的组织架构图』即渲染出不错的图表,作为完全开放路线的例子
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(11:40起):本集说她用 Claude 的项目功能为每个客户和专栏搭建上下文，还跟 Claude 聊着把复合工程插件改造成了写作插件
 - **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(10:38起):本集说现在每个 PR 都长得差不多——都是 Claude、Claude Code 或 Codex 写的
-- **[[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|《教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案》]]**(09:09起):本集顺带提到 Claude 刚提出「做梦」概念，而 Bracket 在这个方向已经做了一段时间
+- **[[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|《智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来》]]**(09:09起):本集顺带提到 Claude 刚提出「做梦」概念，而 Bracket 在这个方向已经做了一段时间
 - **[[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]]**(00:49起):反复作为参照：Claude tag 有按频道记忆、知识锁死在频道里成孤岛；Claude Code 是「编码智能体干一切」架构的代表；PromptQL tag 是其不锁死 Claude 的替代方案。
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(03:45起):本集反复使用的 AI 工具：通过 .claude 目录加载技能、用 hooks 在会话收尾时强制触发改进循环、用 slash loop 做定时循环；Tyler 还吐槽 Opus 5 特别啰嗦。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(34:36起):本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。
@@ -104,7 +104,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*53 条*
+*52 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -151,8 +151,6 @@ unlisted: true
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q3]]
 
 ![[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#^q4]]
-
-![[2026-08-25-practicalai-ai-proficiency-from-users-to-builders#^q9]]
 
 ![[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m#^q3]]
 
@@ -202,13 +200,13 @@ unlisted: true
 
 ![[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a#^q2]]
 
-![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
+![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q7]]
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
 
 ![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q3]]
 
-![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q2]]
+![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q4]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
 
@@ -261,7 +259,7 @@ unlisted: true
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为概念(提及)
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
-- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《AI 熟练度不是阶梯：真正该押注的是「非技术构建者」》]] — 作为被讨论公司
+- [[2026-08-25-practicalai-ai-proficiency-from-users-to-builders|《别急着让全员学AI:先找到那个「会搭工具的人」》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
@@ -277,7 +275,7 @@ unlisted: true
 - [[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]] — 作为被讨论公司(提及)
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
 - [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为被讨论公司(提及)
-- [[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|《教会智能体「Maria 脑子里的活」：Bracket 的现实世界自动化方案》]] — 作为概念(提及)
+- [[2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a|《智能体为什么总在最后一步搞砸？因为工作诀窍从来没被写下来》]] — 作为概念(提及)
 - [[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]] — 作为被讨论公司(提及)
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司

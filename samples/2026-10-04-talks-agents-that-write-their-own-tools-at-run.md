@@ -129,7 +129,7 @@ Python 版本的 Strands，**自己写出了 TypeScript 版本的 Strands**—�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 

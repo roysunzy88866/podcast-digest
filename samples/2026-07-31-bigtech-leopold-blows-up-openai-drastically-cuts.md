@@ -123,7 +123,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、NVIDIA、OpenAI、Amazon、Anthropic、Google</span>
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、NVIDIA、OpenAI、Amazon、Anthropic、Google</span>
-- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|个人 AI 助手大战开打:Meta、OpenAI 混战,Google 为何缺席]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、OpenAI、Amazon、Anthropic、Google</span>
+- [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、OpenAI、Amazon、Anthropic、Google</span>
 
 </div>
 <div class="pd-ex">

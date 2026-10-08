@@ -19,7 +19,7 @@ unlisted: true
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(03:28起):本集把它说成：Clay 用来持久化、版本化管理 eval 结果以及跑在线评估器和用例分类器的平台。
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(15:59起):本集提到他们在销售冻结期间重建平台，使其能适配不断变化的智能体工作流框架，如 LangChain。
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(15:54起):本集引用 LangChain 一年内重新架构了他们的 OpenDeep Research 三次,作为行业在向「文件驱动智能体」方向收敛的证据。
-- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]]**(00:53起):本集是 LangChain 在 Interrupt 开发者大会的开场主题演讲,把公司使命定为帮开发者「拥有你的智能」,通过开源库和 LangSmith 平台提供运行时、可观测性与智能层。
+- **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(00:53起):本集是 LangChain 在 Interrupt 开发者大会的开场主题演讲,把公司使命定为帮开发者「拥有你的智能」,通过开源库和 LangSmith 平台提供运行时、可观测性与智能层。
 
 ## ① 提到它的金句
 
@@ -39,7 +39,7 @@ unlisted: true
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《拥有你的智能:LangChain 的三大支柱与全新发布》]] — 作为被讨论公司
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]]**(26:49起):本集把 OAuth 当作上一代身份基础设施的代表（社交登录、Okta 时代），并讲其阵营正涌现 cross-app access，试图让智能体以智能体身份而非人类转交密钥来认证。
+- **[[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]]**(26:49起):本集把 OAuth 当作上一代身份基础设施的代表（社交登录、Okta 时代），并讲其阵营正涌现 cross-app access，试图让智能体以智能体身份而非人类转交密钥来认证。
 - **[[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]]**(13:28起):本集提到 2025 年 3 月规范引入 OAuth 后,他们面临本地还是远程 server 的选择,最后选择搁置、先做本地验证产品市场契合。
 - **[[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]]**(06:23起):本集中风险场景的关键:通过 OAuth 按权限范围把保险库里的支付凭证访问权开放给各商家,构建互信的封闭生态。
 
@@ -19,7 +19,7 @@ unlisted: true
 
 *3 集*
 
-- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《智能体时代的身份问题：让 AI 替你干活之前，先搞清楚「它是谁、它能干什么」》]] — 作为概念
+- [[2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on|《给 AI 智能体做“背景调查”：为什么身份是智能体安全的第一道坎》]] — 作为概念
 - [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为概念(提及)
 - [[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]] — 作为概念
 

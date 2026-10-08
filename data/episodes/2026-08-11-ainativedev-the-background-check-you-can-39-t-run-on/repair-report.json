@@ -1,104 +1,13 @@
 {
   "kept": [
     {
-      "i": 2,
-      "timestamp": "00:21",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "00:21",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 3,
-      "timestamp": "05:44",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "05:44",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 4,
-      "timestamp": "09:11",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "09:11",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 6,
-      "timestamp": "12:03",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "12:03",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 7,
-      "timestamp": "20:24",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "20:24",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 8,
+      "i": 1,
       "timestamp": "23:18",
       "speaker": "Ian Livingstone",
       "trimmed": false,
       "tsWas": "23:18",
       "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 9,
-      "timestamp": "24:16",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "24:16",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 10,
-      "timestamp": "31:33",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "31:33",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 11,
-      "timestamp": "31:47",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "31:55",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 12,
-      "timestamp": "43:02",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "43:02",
-      "spkWas": "Ian Livingstone"
-    },
-    {
-      "i": 13,
-      "timestamp": "46:07",
-      "speaker": "Ian Livingstone",
-      "trimmed": false,
-      "tsWas": "46:07",
-      "spkWas": "Ian Livingstone"
     }
   ],
-  "dropped": [
-    {
-      "i": 1,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "This thing is built on like a probistic distribution. The feature is that it can reason and it can guess over large amounts of data, right? Um, and that it is non-deterministic, that's a feature. The bug from a security perspective is that it's non-deterministic."
-    },
-    {
-      "i": 5,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "Exactly, a brand new creature every time, a completely different context, and they're they don't have um they have no sense of is this good or wrong. Like they're not malicious, yeah. They they just don't know, and there isn't a way for them to say it, do I know or do I not know, right?"
-    }
-  ]
+  "dropped": []
 }
