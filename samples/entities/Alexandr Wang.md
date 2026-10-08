@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":4,"Meta":48,"MuseSpark":1,"开源模型":4,"智能体":441,"多智能体设置":1,"训练数据":3,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":5,"Meta":48,"MuseSpark":1,"开源模型":4,"智能体":441,"多智能体设置":1,"训练数据":3,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

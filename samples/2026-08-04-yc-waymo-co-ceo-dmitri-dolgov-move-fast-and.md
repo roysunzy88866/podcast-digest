@@ -192,7 +192,7 @@ AI 界有个著名原则叫"苦涩的教训"——利用海量算力和数据的
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)、物理 AI (physical AI)</span>
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)</span>
+- [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|投了18年「物理AI」的人，怎么看眼下的机器人热潮]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
 
 </div>
 </div>

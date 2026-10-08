@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":5,"发现":2,"网络效应":13,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Whatnot":4,"直播购物":2,"市场":4,"信任与安全":2,"规则引擎":1,"大型语言模型":5,"发现":2,"网络效应":14,"虚拟形象":2}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":62,"AMD":5,"GPU":27,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":7,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":62,"AMD":5,"GPU":28,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":8,"CPU":5}</script>
 
 <script>
 (function(){

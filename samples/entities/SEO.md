@@ -57,7 +57,7 @@ unlisted: true
 
 [[Google]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[LLM]] · [[推理]] · [[爬取]] · [[Lenny]] · [[HubSpot]] · [[Andrew]]
 
-<script type="application/json" class="pd-epn">{"Google":65,"智能体":441,"ChatGPT":100,"OpenAI":178,"LLM":58,"推理":85,"爬取":3,"Lenny":68,"HubSpot":9,"Andrew":3}</script>
+<script type="application/json" class="pd-epn">{"Google":65,"智能体":441,"ChatGPT":100,"OpenAI":179,"LLM":58,"推理":86,"爬取":3,"Lenny":68,"HubSpot":9,"Andrew":3}</script>
 
 <script>
 (function(){

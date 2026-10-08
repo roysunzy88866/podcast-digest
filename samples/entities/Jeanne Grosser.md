@@ -41,7 +41,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]] [[Matteo Franceschetti]]
+[[Alyssa Ravasio]] [[Bilal Zuberi]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]]
 
 </div>
 

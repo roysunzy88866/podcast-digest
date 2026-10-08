@@ -35,7 +35,7 @@ unlisted: true
 
 [[Bob Safian]] · [[Jim Farley]] · [[BYD]] · [[Tesla]] · [[Xiaomi]] · [[UEV]] · [[EV]] · [[混动]] · [[二手车市场]] · [[电气化]]
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"Jim Farley":1,"BYD":1,"Tesla":11,"Xiaomi":2,"UEV":1,"EV":1,"混动":2,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"Jim Farley":1,"BYD":1,"Tesla":12,"Xiaomi":2,"UEV":1,"EV":1,"混动":2,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

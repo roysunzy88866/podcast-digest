@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":189,"OpenAI":178,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":23,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":189,"OpenAI":179,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":23,"前沿模型":27}</script>
 
 <script>
 (function(){

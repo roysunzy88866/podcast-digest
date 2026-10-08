@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemma 4</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemma 4">GE</div><div class="pi"><h1 class="pt">Gemma 4</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemma 4">GE</div><div class="pi"><h1 class="pt">Gemma 4</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]]**(06:37起):本集说这是 Google 上周发布的模型,跑在 Cerebras 上生成页面平均 1.1 秒;并论证这类任务不需要大模型,小而快的模型反而更合适。
+- **[[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]]**(04:55起):本集说 Gemma 4 是 Google 最新的开放模型家族，有 20 亿到 310 亿参数多种尺寸，Apache 2 许可证可下载、商用、微调；最大的两个版本表现超过体积大一个数量级的模型，可直接在浏览器和手机上本地运行。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]] — 作为概念
+- [[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Carlos Sanchez]] · [[智能体网站]] · [[超个性化]] · [[推理]] · [[Cerebras]] · [[Adobe Experience Manager]] · [[Adobe]] · [[PromptFoo]] · [[OneLabs]] · [[LLM]]
+[[推理]] · [[Carlos Sanchez]] · [[Paige Bailey]] · [[智能体网站]] · [[DeepMind]] · [[超个性化]] · [[Google AI Edge Gallery]] · [[Cerebras]] · [[Managed Agents]] · [[Adobe Experience Manager]]
 
-<script type="application/json" class="pd-epn">{"Carlos Sanchez":1,"智能体网站":1,"超个性化":1,"推理":85,"Cerebras":1,"Adobe Experience Manager":1,"Adobe":5,"PromptFoo":1,"OneLabs":1,"LLM":58}</script>
+<script type="application/json" class="pd-epn">{"推理":86,"Carlos Sanchez":1,"Paige Bailey":1,"智能体网站":1,"DeepMind":15,"超个性化":1,"Google AI Edge Gallery":1,"Cerebras":1,"Managed Agents":6,"Adobe Experience Manager":1}</script>
 
 <script>
 (function(){

@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":46,"垃圾话":9,"团结":1}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":47,"垃圾话":9,"团结":1}</script>
 
 <script>
 (function(){

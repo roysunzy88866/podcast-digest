@@ -143,9 +143,9 @@ Gibbon 对机器人行业的判断：单点的机器人方案(某一家机械臂
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|投了18年「物理AI」的人，怎么看眼下的机器人热潮]]<span class="pd-rz">同概念:机器人技术 (robotics)、物理 AI (physical AI)</span>
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|Travis Kalanick：为什么把下一家公司赌在工业AI]]<span class="pd-rz">同概念:物理 AI (physical AI)、自动化 (automation)</span>
 - [[2026-09-29-sourcery-the-3b-company-trying-to-beat-amazon-pri|Stored 创始人 Sean：Amazon 的产品其实是配送，我们要为剩下三分之二的电商拉平差距]]<span class="pd-rz">同公司:Amazon · 同概念:机器人技术 (robotics)</span>
-- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon · 同概念:机器人技术 (robotics)</span>
 
 </div>
 <div class="pd-ex">

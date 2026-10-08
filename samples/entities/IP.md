@@ -41,7 +41,7 @@ unlisted: true
 
 [[Becki DeGraw]] · [[股权]] · [[股权结构表]] · [[IP 许可]] · [[受托责任]] · [[尽职调查]] · [[Wilson Sonsini]] · [[Waymo]]
 
-<script type="application/json" class="pd-epn">{"Becki DeGraw":1,"股权":2,"股权结构表":2,"IP 许可":1,"受托责任":1,"尽职调查":1,"Wilson Sonsini":1,"Waymo":20}</script>
+<script type="application/json" class="pd-epn">{"Becki DeGraw":1,"股权":2,"股权结构表":2,"IP 许可":1,"受托责任":1,"尽职调查":1,"Wilson Sonsini":1,"Waymo":21}</script>
 
 <script>
 (function(){

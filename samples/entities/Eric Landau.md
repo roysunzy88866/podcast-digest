@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":10,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":100,"Gong":3,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":100,"Gong":3,"YC":17}</script>
 
 <script>
 (function(){

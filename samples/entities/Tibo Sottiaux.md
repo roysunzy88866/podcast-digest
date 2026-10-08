@@ -68,7 +68,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":178,"ChatGPT":100,"智能体":441,"护栏":84,"ChatGPT work":1,"Dots":3,"harness":61,"Notion":16,"Rust":5}</script>
+<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":179,"ChatGPT":100,"智能体":441,"护栏":84,"ChatGPT work":1,"Dots":3,"harness":61,"Notion":16,"Rust":5}</script>
 
 <script>
 (function(){

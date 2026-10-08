@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neros":1,"Anduril":4,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":5,"瓶颈":2,"国防科技":1,"飞行测试":1}</script>
+<script type="application/json" class="pd-epn">{"Neros":1,"Anduril":5,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":5,"瓶颈":2,"国防科技":1,"飞行测试":1}</script>
 
 <script>
 (function(){

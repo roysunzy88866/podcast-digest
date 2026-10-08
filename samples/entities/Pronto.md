@@ -27,7 +27,7 @@ unlisted: true
 
 [[Travis Kalanick]] · [[Atoms]] · [[工业 AI]] · [[自主性]] · [[Ben Horowitz]] · [[物理 AI]] · [[Uber]] · [[套件]] · [[a16z]] · [[线控驾驶]]
 
-<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Atoms":2,"工业 AI":3,"自主性":10,"Ben Horowitz":6,"物理 AI":10,"Uber":16,"套件":1,"a16z":18,"线控驾驶":1}</script>
+<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Atoms":2,"工业 AI":3,"自主性":10,"Ben Horowitz":6,"物理 AI":11,"Uber":16,"套件":1,"a16z":18,"线控驾驶":1}</script>
 
 <script>
 (function(){

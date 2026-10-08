@@ -25,7 +25,7 @@ unlisted: true
 
 [[Cory Doctorow]] · [[Josh Goldberg]] · [[半人马]] · [[反向半人马]] · [[劣化]] · [[AI 泡沫]] · [[单位经济]] · [[自动化盲视]] · [[vibe coding]] · [[垃圾话]]
 
-<script type="application/json" class="pd-epn">{"Cory Doctorow":1,"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":46,"垃圾话":9}</script>
+<script type="application/json" class="pd-epn">{"Cory Doctorow":1,"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":47,"垃圾话":9}</script>
 
 <script>
 (function(){

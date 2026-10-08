@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":7,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
+<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":8,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
 
 <script>
 (function(){

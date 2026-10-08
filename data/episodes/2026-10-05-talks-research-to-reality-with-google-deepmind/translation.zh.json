@@ -1,0 +1,722 @@
+[
+ {
+  "seg": 0,
+  "start": 12.798,
+  "end": 16.379,
+  "speaker": "Unknown",
+  "en": "trickle in from other locations, and then we'll get started pretty shortly.",
+  "zh": "从其他地点陆续赶来，然后我们很快就开始。"
+ },
+ {
+  "seg": 1,
+  "start": 17.379,
+  "end": 20.62,
+  "speaker": "Unknown",
+  "en": "Ideally, there will be some time for lots and lots of live demos.",
+  "zh": "理想情况下，会留出很多很多现场演示的时间。"
+ },
+ {
+  "seg": 2,
+  "start": 21.26,
+  "end": 27.001,
+  "speaker": "Unknown",
+  "en": "So you'll ideally learn some of the things about our new models, how to use them as part of your projects.",
+  "zh": "所以你们理想情况下会学到一些关于我们新模型的东西，以及如何在你们的项目中使用它们。"
+ },
+ {
+  "seg": 3,
+  "start": 27.821,
+  "end": 30.081,
+  "speaker": "Unknown",
+  "en": "And then there also should be time for questions.",
+  "zh": "然后也应该会有提问的时间。"
+ },
+ {
+  "seg": 4,
+  "start": 30.141,
+  "end": 37.043,
+  "speaker": "Unknown",
+  "en": "But it also seems like we'll have a small enough audience where if you ask questions throughout the duration of the presentation, we can also do that.",
+  "zh": "但看起来我们的听众规模也会足够小，所以如果你们在演示过程中随时提问，我们也可以这样做。"
+ },
+ {
+  "seg": 5,
+  "start": 38.303,
+  "end": 41.746,
+  "speaker": "Unknown",
+  "en": "So end goal is to make this as useful as possible for all of y'all.",
+  "zh": "所以最终目标是让这次分享对你们所有人尽可能有用。"
+ },
+ {
+  "seg": 6,
+  "start": 42.407,
+  "end": 43.047,
+  "speaker": "Unknown",
+  "en": "My name is Paige.",
+  "zh": "我叫 Paige。"
+ },
+ {
+  "seg": 7,
+  "start": 43.067,
+  "end": 47.811,
+  "speaker": "Unknown",
+  "en": "I work at DeepMind and excited to show y'all what we've been working on too.",
+  "zh": "我在 DeepMind 工作，很高兴向大家展示我们一直在做的东西。"
+ },
+ {
+  "seg": 8,
+  "start": 54.277,
+  "end": 57.459,
+  "speaker": "Unknown",
+  "en": "And as mentioned, we'll get started in just another couple of minutes.",
+  "zh": "如前所述，我们再过几分钟就开始。"
+ },
+ {
+  "seg": 9,
+  "start": 57.499,
+  "end": 59.581,
+  "speaker": "Unknown",
+  "en": "It looks like people are still getting scanned at the door.",
+  "zh": "看起来大家还在门口接受扫描检票。"
+ },
+ {
+  "seg": 10,
+  "start": 158.725,
+  "end": 159.506,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 11,
+  "start": 159.626,
+  "end": 160.446,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 12,
+  "start": 161.106,
+  "end": 161.487,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 13,
+  "start": 161.587,
+  "end": 162.687,
+  "speaker": "Unknown",
+  "en": "So greetings, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 14,
+  "start": 162.747,
+  "end": 164.028,
+  "speaker": "Unknown",
+  "en": "As mentioned, my name is Paige.",
+  "zh": "如前所述，我叫 Paige。"
+ },
+ {
+  "seg": 15,
+  "start": 164.168,
+  "end": 168.951,
+  "speaker": "Unknown",
+  "en": "If you have questions throughout the duration of the presentation, please feel free to raise your hand and shout them out.",
+  "zh": "如果你们在演示过程中有问题，请随时举手并大声提出来。"
+ },
+ {
+  "seg": 16,
+  "start": 169.511,
+  "end": 176.495,
+  "speaker": "Unknown",
+  "en": "Ideally, we'll be able to take some as I kind of careen along doing live demos.",
+  "zh": "理想情况下，在我一路跌跌撞撞做现场演示的过程中，我们能回答一些问题。"
+ },
+ {
+  "seg": 17,
+  "start": 177.255,
+  "end": 184.74,
+  "speaker": "Unknown",
+  "en": "I also want to give kind of the requisite caveat at the very beginning that DeepMind's entire mission",
+  "zh": "我还想在一开始就给出必要的说明，DeepMind 的整个使命"
+ },
+ {
+  "seg": 18,
+  "start": 185.58,
+  "end": 188.704,
+  "speaker": "Unknown",
+  "en": "is to build AI responsibly and for the benefit of humanity.",
+  "zh": "是负责任地构建 AI，并造福人类。"
+ },
+ {
+  "seg": 19,
+  "start": 188.864,
+  "end": 197.875,
+  "speaker": "Unknown",
+  "en": "So trying to cast as much light as we can in this world that increasingly has shade.",
+  "zh": "所以，我们试图在这个阴影日益浓重的世界里，尽可能多地投射光明。"
+ },
+ {
+  "seg": 20,
+  "start": 198.476,
+  "end": 205.043,
+  "speaker": "Unknown",
+  "en": "This translates to things like alpha folds, much of the work that we do with our open models, including MedGemma,",
+  "zh": "这体现为像 alpha folds 这样的东西，以及我们对开放模型所做的许多工作，包括 MedGemma，"
+ },
+ {
+  "seg": 21,
+  "start": 206.064,
+  "end": 213.767,
+  "speaker": "Unknown",
+  "en": "And a lot of our robotics and science use cases, as well as things like AI for math, AI for frontier research.",
+  "zh": "还有我们的很多机器人和科学用例，以及像 AI for math、AI for frontier research 这样的东西。"
+ },
+ {
+  "seg": 22,
+  "start": 213.867,
+  "end": 221.669,
+  "speaker": "Unknown",
+  "en": "So in general, everything that I show you today is being used for those projects that are deeply, deeply embedded in AI for science.",
+  "zh": "所以总的来说，我今天向你们展示的一切，都被深度、深度地嵌入在 AI for science 的那些项目中使用。"
+ },
+ {
+  "seg": 23,
+  "start": 222.51,
+  "end": 234.754,
+  "speaker": "Unknown",
+  "en": "And if any of y'all work in the AI for science space, please feel free to send questions and ask afterwards about how you can use AI to kind of transform and accelerate that good work.",
+  "zh": "如果你们中有人在 AI for science 领域工作，请随时提问，并在之后询问你如何使用 AI 来转变和加速那些有意义的工作。"
+ },
+ {
+  "seg": 24,
+  "start": 236.426,
+  "end": 240.988,
+  "speaker": "Unknown",
+  "en": "I don't think it's a secret that Google has been a little bit busy over the course of the last few months.",
+  "zh": "我认为这不是什么秘密：Google 在过去几个月里一直有点忙。"
+ },
+ {
+  "seg": 25,
+  "start": 241.008,
+  "end": 245.47,
+  "speaker": "Unknown",
+  "en": "It feels like we've been releasing new models, new features, new products every single week.",
+  "zh": "感觉我们每周都在发布新模型、新功能、新产品。"
+ },
+ {
+  "seg": 26,
+  "start": 246.571,
+  "end": 256.455,
+  "speaker": "Unknown",
+  "en": "Most notably, just recently we released a computer use API, which we'll be talking about a little bit, something called Managed Agents, which gives you the ability to take",
+  "zh": "最值得注意的是，就在最近我们发布了一个 computer use API，我们稍后会谈到它，还有一个叫 Managed Agents 的东西，它让你能够把"
+ },
+ {
+  "seg": 27,
+  "start": 257.336,
+  "end": 272.816,
+  "speaker": "Unknown",
+  "en": "Kind of a higher order task, describe it in a natural language and have a fleet of agents execute on it in a Linux workstation, like a sandbox environment where you can add skills, you can add kind of dependencies that get pulled in along the way and a whole bunch more.",
+  "zh": "一种更高阶的任务，用自然语言描述它，然后让一群智能体在一个 Linux 工作站上执行它，就像一个沙箱环境，你可以在其中添加技能，可以添加沿途被拉入的依赖项，还有一大堆更多功能。"
+ },
+ {
+  "seg": 28,
+  "start": 273.776,
+  "end": 278.218,
+  "speaker": "Unknown",
+  "en": "And then also our speech-to-speech translation API, which we'll take a look at in a second.",
+  "zh": "还有我们的语音到语音翻译 API，我们马上会看一下。"
+ },
+ {
+  "seg": 29,
+  "start": 278.898,
+  "end": 294.745,
+  "speaker": "Unknown",
+  "en": "And one of the things that I really, really love about Google is that not only are we shipping frontier models, so you might have heard about Gemini 3.5 Flash, which got released at I.O., but we've also been focused pretty significantly on our open model releases.",
+  "zh": "我非常非常喜欢 Google 的一点是，我们不仅在发布前沿模型，所以你们可能听说过在 I.O. 上发布的 Gemini 3.5 Flash，而且我们也非常专注于我们的开放模型发布。"
+ },
+ {
+  "seg": 30,
+  "start": 295.566,
+  "end": 297.987,
+  "speaker": "Unknown",
+  "en": "So how many folks in the room have heard of Gemma 4?",
+  "zh": "那么在座有多少人听说过 Gemma 4？"
+ },
+ {
+  "seg": 31,
+  "start": 300.087,
+  "end": 300.907,
+  "speaker": "Unknown",
+  "en": "Quite a few hands.",
+  "zh": "相当多的手举起来了。"
+ },
+ {
+  "seg": 32,
+  "start": 300.947,
+  "end": 302.468,
+  "speaker": "Unknown",
+  "en": "That's excellent.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 33,
+  "start": 302.648,
+  "end": 303.268,
+  "speaker": "Unknown",
+  "en": "Gemma4.",
+  "zh": "Gemma4。"
+ },
+ {
+  "seg": 34,
+  "start": 304.368,
+  "end": 305.468,
+  "speaker": "Unknown",
+  "en": "Oh, yes, absolutely.",
+  "zh": "哦，是的，当然。"
+ },
+ {
+  "seg": 35,
+  "start": 305.488,
+  "end": 305.988,
+  "speaker": "Unknown",
+  "en": "Go for it.",
+  "zh": "请讲。"
+ },
+ {
+  "seg": 36,
+  "start": 306.988,
+  "end": 309.889,
+  "speaker": "Unknown",
+  "en": "Gemma4 is our open model family.",
+  "zh": "Gemma4 是我们的开放模型家族。"
+ },
+ {
+  "seg": 37,
+  "start": 309.929,
+  "end": 311.189,
+  "speaker": "Unknown",
+  "en": "It's the latest iteration.",
+  "zh": "它是最新的迭代版本。"
+ },
+ {
+  "seg": 38,
+  "start": 311.809,
+  "end": 313.85,
+  "speaker": "Unknown",
+  "en": "We have many different sizes available.",
+  "zh": "我们有多种不同的大小可用。"
+ },
+ {
+  "seg": 39,
+  "start": 313.97,
+  "end": 316.51,
+  "speaker": "Unknown",
+  "en": "So there's a 2 billion parameter, a 4 billion.",
+  "zh": "所以有 20 亿参数、40 亿的版本。"
+ },
+ {
+  "seg": 40,
+  "start": 316.55,
+  "end": 318.951,
+  "speaker": "Unknown",
+  "en": "We just released a 12 billion parameter.",
+  "zh": "我们刚刚发布了 120 亿参数的版本。"
+ },
+ {
+  "seg": 41,
+  "start": 319.671,
+  "end": 326.852,
+  "speaker": "Unknown",
+  "en": "And then we also have a 26 billion and a 31 billion mixture of experts and dense model, respectively.",
+  "zh": "然后我们还有 260 亿和 310 亿的版本，分别是混合专家模型和稠密模型。"
+ },
+ {
+  "seg": 42,
+  "start": 327.732,
+  "end": 330.034,
+  "speaker": "Unknown",
+  "en": "They are useful for a lot of things.",
+  "zh": "它们在很多事情上都很有用。"
+ },
+ {
+  "seg": 43,
+  "start": 330.054,
+  "end": 341.22,
+  "speaker": "Unknown",
+  "en": "And they're also Apache 2 licensed, which means you can download them, use them as part of your company, fine tune them, and kind of expand on them however you feel like would be most useful.",
+  "zh": "而且它们采用 Apache 2 许可证，这意味着你可以下载它们，在你公司内部使用它们，对它们进行微调，并以任何你觉得最有用的方式对它们进行扩展。"
+ },
+ {
+  "seg": 44,
+  "start": 342.021,
+  "end": 345.343,
+  "speaker": "Unknown",
+  "en": "And this Gemma universe is actually pretty cool to see.",
+  "zh": "而这个 Gemma 宇宙实际上看起来相当酷。"
+ },
+ {
+  "seg": 45,
+  "start": 346.223,
+  "end": 347.524,
+  "speaker": "Unknown",
+  "en": "in terms of people building.",
+  "zh": "就人们在其上进行构建而言。"
+ },
+ {
+  "seg": 46,
+  "start": 348.225,
+  "end": 353.289,
+  "speaker": "Unknown",
+  "en": "I hate slides, so we're going to see how few slides I can get through today.",
+  "zh": "我讨厌幻灯片，所以我们今天要看看我能用多少的幻灯片讲完。"
+ },
+ {
+  "seg": 47,
+  "start": 354.41,
+  "end": 364.299,
+  "speaker": "Unknown",
+  "en": "But this is an example of something that someone from the community has built using Gemma 4 and Fable 5 before it was taken off the market to rewrite some of the kernels.",
+  "zh": "但这是一个例子，社区里的某个人使用 Gemma 4 以及之前的 Fable 5 构建的东西，用来重写一些内核。"
+ },
+ {
+  "seg": 48,
+  "start": 365.52,
+  "end": 368.042,
+  "speaker": "Unknown",
+  "en": "You can load the model directly within the browser.",
+  "zh": "你可以直接在浏览器中加载这个模型。"
+ },
+ {
+  "seg": 49,
+  "start": 368.222,
+  "end": 372.606,
+  "speaker": "Unknown",
+  "en": "So this is loading Gemma directly in the browser, using it via WebAssembly.",
+  "zh": "所以这是直接在浏览器中加载 Gemma，通过 WebAssembly 使用它。"
+ },
+ {
+  "seg": 50,
+  "start": 372.786,
+  "end": 373.727,
+  "speaker": "Unknown",
+  "en": "It's sandboxed.",
+  "zh": "它是沙箱化的。"
+ },
+ {
+  "seg": 51,
+  "start": 374.627,
+  "end": 379.709,
+  "speaker": "Unknown",
+  "en": "And then it can do things that feel pretty magical, right?",
+  "zh": "然后它就能做一些看起来相当神奇的事情,对吧?"
+ },
+ {
+  "seg": 52,
+  "start": 379.909,
+  "end": 383.291,
+  "speaker": "Unknown",
+  "en": "So this model is currently running completely locally.",
+  "zh": "所以这个模型目前是完全在本地运行的。"
+ },
+ {
+  "seg": 53,
+  "start": 384.211,
+  "end": 389.013,
+  "speaker": "Unknown",
+  "en": "And if I say something to the effect of create a table with emoji,",
+  "zh": "如果我说类似创建一个带 emoji 的表格这样的话,"
+ },
+ {
+  "seg": 54,
+  "start": 390.761,
+  "end": 403.306,
+  "speaker": "Unknown",
+  "en": "Comparing and contrasting all of the Harry Potter books based on which are the funniest and most exciting.",
+  "zh": "根据哪个最有趣、最刺激来比较和对比所有哈利·波特书籍。"
+ },
+ {
+  "seg": 55,
+  "start": 404.907,
+  "end": 420.033,
+  "speaker": "Unknown",
+  "en": "Make sure to give me recommendations on which to read and also maybe incorporate Harry Potter in the methods of rationality.",
+  "zh": "务必给我阅读推荐,还有也许把《哈利·波特与理性之道》也纳入进来。"
+ },
+ {
+  "seg": 56,
+  "start": 425.623,
+  "end": 431.072,
+  "speaker": "Unknown",
+  "en": "And then you get kind of a response that feels almost instantaneous.",
+  "zh": "然后你得到的响应感觉几乎是即时的。"
+ },
+ {
+  "seg": 57,
+  "start": 432.327,
+  "end": 437.831,
+  "speaker": "Unknown",
+  "en": "You have kind of the Deathly Hollows, Half-Blood Prince order, the Phoenix Goblet of Fire, et cetera.",
+  "zh": "你会看到大致是《死亡圣器》《混血王子》《凤凰社》《火焰杯》等等这样的排序。"
+ },
+ {
+  "seg": 58,
+  "start": 438.772,
+  "end": 446.077,
+  "speaker": "Unknown",
+  "en": "I'm not sure if I agree with the ranking, but that's a pretty interesting comparison.",
+  "zh": "我不确定我是否同意这个排名,但这是一个相当有趣的对比。"
+ },
+ {
+  "seg": 59,
+  "start": 447.018,
+  "end": 452.922,
+  "speaker": "Unknown",
+  "en": "And then also, since it is local to the machine, none of your data is getting sent elsewhere.",
+  "zh": "而且还有一点,由于它是在本机本地运行的,你的任何数据都不会被发送到别处。"
+ },
+ {
+  "seg": 60,
+  "start": 453.343,
+  "end": 454.924,
+  "speaker": "Unknown",
+  "en": "This is not using an API.",
+  "zh": "这不是在使用 API。"
+ },
+ {
+  "seg": 61,
+  "start": 455.204,
+  "end": 460.488,
+  "speaker": "Unknown",
+  "en": "It's just something that's running locally in the browser with Transformers.js and the Gemma 4 model.",
+  "zh": "它只是通过 Transformers.js 和 Gemma 4 模型在浏览器里本地运行的东西。"
+ },
+ {
+  "seg": 62,
+  "start": 461.108,
+  "end": 472.177,
+  "speaker": "Unknown",
+  "en": "Gemma 4 is also pretty cool in the sense that you can use Google AI Edge Gallery in order to analyze some of the model capabilities that we have on device.",
+  "zh": "Gemma 4 还有一个很酷的地方,你可以使用 Google AI Edge Gallery 来分析我们在设备上拥有的部分模型能力。"
+ },
+ {
+  "seg": 63,
+  "start": 472.877,
+  "end": 476.04,
+  "speaker": "Unknown",
+  "en": "You can download it and use it with Android and with iOS.",
+  "zh": "你可以下载它,在 Android 和 iOS 上使用。"
+ },
+ {
+  "seg": 64,
+  "start": 476.9,
+  "end": 484.286,
+  "speaker": "Unknown",
+  "en": "And it includes everything from kind of taking images and describing them to automatically transcribing audio in multiple languages.",
+  "zh": "它包含的功能从拍摄图像并描述它们,到自动转录多种语言的音频都有。"
+ },
+ {
+  "seg": 65,
+  "start": 484.306,
+  "end": 485.387,
+  "speaker": "Unknown",
+  "en": "I believe Gemma supports",
+  "zh": "我相信 Gemma 支持"
+ },
+ {
+  "seg": 66,
+  "start": 485.947,
+  "end": 487.908,
+  "speaker": "Unknown",
+  "en": "Over 140 different languages.",
+  "zh": "超过 140 种不同的语言。"
+ },
+ {
+  "seg": 67,
+  "start": 488.909,
+  "end": 492.371,
+  "speaker": "Unknown",
+  "en": "And then also testing it out with function calling directly on device.",
+  "zh": "还有直接在设备上测试 function calling。"
+ },
+ {
+  "seg": 68,
+  "start": 493.352,
+  "end": 500.096,
+  "speaker": "Unknown",
+  "en": "If you haven't had a chance to take a look at the Google AI Edge Gallery, we have a collection of skills as well.",
+  "zh": "如果你还没机会看看 Google AI Edge Gallery,我们还有一组技能。"
+ },
+ {
+  "seg": 69,
+  "start": 501.097,
+  "end": 503.759,
+  "speaker": "Unknown",
+  "en": "So things like building games, doing haikus,",
+  "zh": "比如构建游戏、写俳句,"
+ },
+ {
+  "seg": 70,
+  "start": 504.699,
+  "end": 515.781,
+  "speaker": "Unknown",
+  "en": "Asking queries about weather, being able to schedule events on your calendar for you that are all available to use just with this AI Edge Gallery app completely for free and just with locally installed models.",
+  "zh": "询问天气相关的问题、能够在你的日历上为你安排日程,这些全都可以在这个 AI Edge Gallery 应用中免费使用,而且只用本地安装的模型。"
+ },
+ {
+  "seg": 71,
+  "start": 517.141,
+  "end": 520.382,
+  "speaker": "Unknown",
+  "en": "So if you haven't downloaded it, definitely try it out.",
+  "zh": "所以如果你还没下载它,一定要试试。"
+ },
+ {
+  "seg": 72,
+  "start": 520.902,
+  "end": 532.024,
+  "speaker": "Unknown",
+  "en": "There's also a way to use the kind of accelerator on your local device in order to power the model and do all of the inference work as opposed to just the fallback to the CPU.",
+  "zh": "还有一种方法是使用你本地设备上的那种加速器来为模型提供算力并完成所有推理工作,而不是仅仅回退到 CPU。"
+ },
+ {
+  "seg": 73,
+  "start": 533.067,
+  "end": 545.238,
+  "speaker": "Unknown",
+  "en": "So if you do have something like a Pixel 10 or a higher-end mobile device, you're already able to use Gemma locally for all of that work, which is quite cool.",
+  "zh": "所以如果你有像 Pixel 10 或更高端的移动设备,你现在已经能够在本地用 Gemma 完成所有这些工作了,这相当酷。"
+ },
+ {
+  "seg": 74,
+  "start": 547.34,
+  "end": 553.426,
+  "speaker": "Unknown",
+  "en": "Gemma 4, just to give a recap or to place how the model performance versus size",
+  "zh": "Gemma 4,简单回顾一下或者定位一下模型性能与大小"
+ },
+ {
+  "seg": 75,
+  "start": 554.202,
+  "end": 554.762,
+  "speaker": "Unknown",
+  "en": "Shapes up.",
+  "zh": "的对比情况。"
+ },
+ {
+  "seg": 76,
+  "start": 556.002,
+  "end": 563.084,
+  "speaker": "Unknown",
+  "en": "This is the two kind of largest versions of Gemma that I had mentioned before, the 31B and the 26B.",
+  "zh": "这是我之前提到过的两个最大的 Gemma 版本,31B 和 26B。"
+ },
+ {
+  "seg": 77,
+  "start": 563.964,
+  "end": 571.866,
+  "speaker": "Unknown",
+  "en": "They're quite small in comparison to some other models that are on the market, but they're performing way above what you might expect.",
+  "zh": "与市面上其他一些模型相比,它们相当小,但它们的表现远超你的预期。"
+ },
+ {
+  "seg": 78,
+  "start": 572.807,
+  "end": 577.368,
+  "speaker": "Unknown",
+  "en": "So more than models that are in order of magnitude or larger than their size.",
+  "zh": "甚至超过那些比它们大一个数量级或更大的模型。"
+ },
+ {
+  "seg": 79,
+  "start": 577.928,
+  "end": 581.871,
+  "speaker": "Unknown",
+  "en": "This is great because it kind of translates into a cost savings perspective.",
+  "zh": "这很棒,因为它从成本节约的角度也说得通。"
+ },
+ {
+  "seg": 80,
+  "start": 582.272,
+  "end": 585.674,
+  "speaker": "Unknown",
+  "en": "You don't have to worry about distributed inference for local models.",
+  "zh": "对于本地模型,你不必担心分布式推理。"
+ },
+ {
+  "seg": 81,
+  "start": 586.495,
+  "end": 589.558,
+  "speaker": "Unknown",
+  "en": "You don't have to worry about as large of a GPU footprint.",
+  "zh": "你不必担心那么大的 GPU 占用。"
+ },
+ {
+  "seg": 82,
+  "start": 590.138,
+  "end": 597.264,
+  "speaker": "Unknown",
+  "en": "And it's really intended to run super, super well on a single commodity GPU as opposed to needing something a little bit more fully featured.",
+  "zh": "它真正的意图是在单个消费级 GPU 上运行得超级、超级好,而不需要功能更齐全的东西。"
+ },
+ {
+  "seg": 83,
+  "start": 597.744,
+  "end": 602.068,
+  "speaker": "Unknown",
+  "en": "You can also run Gemma, some of the variants on even things like jets and nanos.",
+  "zh": "你还可以在诸如 jets 和 nanos 之类的东西上运行 Gemma 的一些变体。"
+ },
+ {
+  "seg": 84,
+  "start": 602.688,
+  "end": 606.614,
+  "speaker": "Unknown",
+  "en": "And for 12B and below, you can run it locally on your laptop.",
+  "zh": "而 12B 及以下的版本,你可以在你的笔记本上本地运行。"
+ },
+ {
+  "seg": 85,
+  "start": 606.674,
+  "end": 609.357,
+  "speaker": "Unknown",
+  "en": "2B can even fit handily on mobile devices.",
+  "zh": "2B 甚至可以轻松装进移动设备。"
+ },
+ {
+  "seg": 86,
+  "start": 610.299,
+  "end": 612.622,
+  "speaker": "Unknown",
+  "en": "We've also released quantized versions.",
+  "zh": "我们还发布了量化版本。"
+ },
+ {
+  "seg": 87,
+  "start": 612.942,
+  "end": 617.569,
+  "speaker": "Unknown",
+  "en": "So the model that we saw at the very beginning that was running so, so blazingly fast.",
+  "zh": "所以我们一开始看到的那个运行得如此、如此飞快的模型,"
+ },
+ {
+  "seg": 88,
+  "start": 618.318,
+  "end": 621.219,
+  "speaker": "Unknown",
+  "en": "was using some of the QAT checkpoints that we have for Gemma.",
+  "zh": "使用的是我们为 Gemma 提供的一些 QAT 检查点。"
+ },
+ {
+  "seg": 89,
+  "start": 622.479,
+  "end": 634.223,
+  "speaker": "Unknown",
+  "en": "And the QAT checkpoints are quite small when you take a look, even less than a single gigabyte in size for the kind of 2 billion parameter version.",
+  "zh": "而且看一下你会发现,QAT 检查点相当小,那种 20 亿参数版本甚至不到一个 GB 的大小。"
+ }
+]

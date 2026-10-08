@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"股权":2,"股权结构表":2,"IP":1,"IP 许可":1,"受托责任":1,"尽职调查":1,"Wilson Sonsini":1,"Waymo":20}</script>
+<script type="application/json" class="pd-epn">{"股权":2,"股权结构表":2,"IP":1,"IP 许可":1,"受托责任":1,"尽职调查":1,"Wilson Sonsini":1,"Waymo":21}</script>
 
 <script>
 (function(){

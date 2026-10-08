@@ -1,0 +1,131 @@
+{
+  "title_zh": "在浏览器里跑大模型：DeepMind 带来的开源新玩具",
+  "tldr": "Google DeepMind 的 Paige Bailey 演讲加现场演示，介绍开源模型 Gemma 4 如何在浏览器、手机上本地运行。",
+  "digest_md": "Paige Bailey 是 Google DeepMind 的工程师。这场演讲几乎没有幻灯片，她一边现场演示，一边介绍 Google 近几个月密集发布的新东西：新的 API、新的智能体服务，以及重点——开源模型家族 Gemma 4。她开场还强调，DeepMind 的使命是负责任地发展 AI、造福人类，相关工作包括 MedGemma，以及数学、机器人等科学场景的应用 [03:05 Paige]。\n\n> 【背景】原文提到 \"alpha folds\"，按上下文应指 DeepMind 的蛋白质结构预测系统 AlphaFold。\n\n## 模型怎么塞进浏览器里跑？\n\n演示的开场很抓人：Gemma 4 被直接加载进浏览器，通过 WebAssembly 在沙盒里完全本地运行。她现场输入一个指令——用表情符号做表格，比较《哈利·波特》系列各本书哪个最搞笑、最刺激，并给出阅读建议。模型几乎瞬间给出了完整排名 [06:30 Paige]。\n\n关键在于：数据不出你的电脑。它不调用任何云服务，全靠 Transformers.js 加 Gemma 4 在本地完成。\n\n## 手机上也能跑，还不花钱\n\nGoogle AI Edge Gallery 是一个免费应用，支持 Android 和 iOS，可以把 Gemma 装到设备上。功能包括识别和描述图片、用超过 140 种语言转录音频、在设备上直接做函数调用 [08:05 Paige]。\n\n应用里还内置了一堆技能：写俳句、做游戏、查天气、帮你往日历里排日程。如果你的手机有像 Pixel 10 这样的高端芯片，模型推理可以走硬件加速器，而不是退回 CPU 慢慢算 [08:53 Paige]。\n\n## 小模型，凭什么打得过大模型？\n\nGemma 4 有多个尺寸：20 亿、40 亿、120 亿参数版本，还有 260 亿和 310 亿两种版本。**最大两个版本看起来不大，表现却超过了体积比它们大一个数量级的模型** [09:23 Paige]。\n\n这直接翻译成成本优势：不需要分布式推理，不需要大片 GPU，一块普通显卡就能跑得很好。120 亿参数以下的版本可以在笔记本电脑上本地运行，20 亿参数版本塞进手机绰绰有余。\n\n而且这些模型采用 Apache 2 许可证——下载、商用、微调、魔改，都随你 [05:30 Paige]。\n\n## 想更快？还有压缩版\n\n开头演示里那个快得惊人的浏览器模型，用的是量化（QAT）检查点——相当于把模型体积压缩。**20 亿参数的量化版本，不到 1 GB** [10:12 Paige]。这也是小设备上能流畅跑模型的秘密之一。\n\n## 本集带走\n\n- Gemma 4 是 Google 的开源模型家族，从 20 亿到 310 亿参数多种尺寸，Apache 2 许可证可自由商用\n- 模型可以完全在浏览器和手机上本地运行，数据不出设备\n- 小尺寸模型表现超过大它一个数量级的模型，一块普通显卡就够用\n- 量化版本不到 1 GB，让手机和笔记本电脑也能流畅运行\n- 想上手可以直接下载免费的 Google AI Edge Gallery 应用体验",
+  "quotes": [
+    {
+      "en": "They're quite small in comparison to some other models that are on the market, but they're performing way above what you might expect.",
+      "zh": "与市面上其他一些模型相比，它们相当小，但它们的表现远超你的预期。",
+      "timestamp": "09:23",
+      "speaker": "Paige Bailey"
+    },
+    {
+      "en": "So trying to cast as much light as we can in this world that increasingly has shade.",
+      "zh": "所以，我们试图在这个阴影日益浓重的世界里，尽可能多地投射光明。",
+      "timestamp": "03:08",
+      "speaker": "Paige Bailey"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "It feels like we've been releasing new models, new features, new products every single week.",
+      "zh": "感觉我们每周都在发布新模型、新功能、新产品。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Unknown",
+      "en": "one of the things that I really, really love about Google is that not only are we shipping frontier models, so you might have heard about Gemini 3.5 Flash, which got released at I.O., but we've also been focused pretty significantly on our open model releases.",
+      "zh": "我非常非常喜欢 Google 的一点是，我们不仅在发布前沿模型，比如你们可能听说过的在 I.O. 上发布的 Gemini 3.5 Flash，我们也非常专注于开放模型的发布。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "It's sandboxed. And then it can do things that feel pretty magical, right?",
+      "zh": "它是沙箱化的。然后它就能做一些看起来相当神奇的事情，对吧？"
+    },
+    {
+      "timestamp": "07:27",
+      "speaker": "Unknown",
+      "en": "And then also, since it is local to the machine, none of your data is getting sent elsewhere.",
+      "zh": "而且还有一点，由于它是在本机本地运行的，你的任何数据都不会被发送到别处。"
+    },
+    {
+      "timestamp": "09:23",
+      "speaker": "Unknown",
+      "en": "They're quite small in comparison to some other models that are on the market, but they're performing way above what you might expect.",
+      "zh": "与市面上其他一些模型相比，它们相当小，但它们的表现远超你的预期。"
+    },
+    {
+      "timestamp": "09:32",
+      "speaker": "Unknown",
+      "en": "So more than models that are in order of magnitude or larger than their size.",
+      "zh": "甚至超过那些比它们大一个数量级或更大的模型。"
+    },
+    {
+      "timestamp": "09:42",
+      "speaker": "Unknown",
+      "en": "You don't have to worry about distributed inference for local models. You don't have to worry about as large of a GPU footprint.",
+      "zh": "对于本地模型，你不必担心分布式推理，也不必担心那么大的 GPU 占用。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Unknown",
+      "en": "And it's really intended to run super, super well on a single commodity GPU as opposed to needing something a little bit more fully featured.",
+      "zh": "它真正的意图是在单个消费级 GPU 上运行得超级好，而不需要功能更齐全的设备。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Unknown",
+      "en": "2B can even fit handily on mobile devices.",
+      "zh": "2B 甚至可以轻松装进移动设备。"
+    },
+    {
+      "timestamp": "10:22",
+      "speaker": "Unknown",
+      "en": "And the QAT checkpoints are quite small when you take a look, even less than a single gigabyte in size for the kind of 2 billion parameter version.",
+      "zh": "而且你会发现 QAT 检查点相当小，那种 20 亿参数的版本甚至不到一个 GB。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Unknown",
+      "en": "And they're also Apache 2 licensed, which means you can download them, use them as part of your company, fine tune them, and kind of expand on them however you feel like would be most useful.",
+      "zh": "而且它们采用 Apache 2 许可证，这意味着你可以下载它们，在公司内部使用、微调，并以任何你觉得最有用的方式扩展它们。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Unknown",
+      "en": "Over 140 different languages.",
+      "zh": "超过 140 种不同的语言。"
+    },
+    {
+      "timestamp": "07:35",
+      "speaker": "Unknown",
+      "en": "It's just something that's running locally in the browser with Transformers.js and the Gemma 4 model.",
+      "zh": "它只是通过 Transformers.js 和 Gemma 4 模型在浏览器里本地运行的东西。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "So this is loading Gemma directly in the browser, using it via WebAssembly.",
+      "zh": "所以这是直接在浏览器中加载 Gemma，通过 WebAssembly 使用它。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Unknown",
+      "en": "that are all available to use just with this AI Edge Gallery app completely for free and just with locally installed models.",
+      "zh": "这些全都可以在这个 AI Edge Gallery 应用中完全免费使用，而且只用本地安装的模型。"
+    },
+    {
+      "timestamp": "08:53",
+      "speaker": "Unknown",
+      "en": "So if you do have something like a Pixel 10 or a higher-end mobile device, you're already able to use Gemma locally for all of that work, which is quite cool.",
+      "zh": "所以如果你有像 Pixel 10 或更高端的移动设备，你现在已经能够在本地用 Gemma 完成所有这些工作了，这相当酷。"
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Unknown",
+      "en": "So trying to cast as much light as we can in this world that increasingly has shade.",
+      "zh": "所以，我们试图在这个阴影日益浓重的世界里，尽可能多地投射光明。"
+    },
+    {
+      "timestamp": "09:37",
+      "speaker": "Unknown",
+      "en": "This is great because it kind of translates into a cost savings perspective.",
+      "zh": "这很棒，因为它从成本节约的角度也说得通。"
+    }
+  ],
+  "voice_script": "今天带你认识一个新玩具，来自 Google DeepMind。讲这件事的人叫 Paige Bailey，是 DeepMind 的工程师。这场演讲特别的地方在于，几乎没有幻灯片，全靠现场演示——一边动手操作，一边介绍 Google 近几个月密集发布的新东西：新的 API、新的智能体服务，还有今天的主角，开源模型家族 Gemma 4。开场她还强调了一句，DeepMind 的使命是负责任地发展 AI、造福人类，相关的工作包括面向医疗的 MedGemma，还有数学、机器人这些科学场景的应用，背后的蛋白质结构预测系统 AlphaFold 也是出自这家机构。\n\n那这场演讲最抓人的演示是什么呢？Gemma 4 被直接加载进了浏览器，通过 WebAssembly 在沙盒里完全本地运行。WebAssembly 你可以理解成浏览器里的一块安全隔离区，代码只能在里面跑。然后现场输入了一个指令：用表情符号做表格，比较《哈利·波特》系列各本书哪个最搞笑、最刺激，还要给出阅读建议。模型几乎瞬间给出了完整排名。\n\n这里的关键不是快，而是数据不出你的电脑。整个过程不调用任何云服务，全靠 Transformers.js 加上 Gemma 4 在本地完成。也就是说，你的提问、你的数据，从头到尾都留在你自己手里。\n\n那你可能会问，浏览器能跑，手机行不行？还真行。Google 有一个免费应用，叫 Google AI Edge Gallery，安卓和 iOS 都支持，可以把 Gemma 直接装到设备上。功能包括识别和描述图片、用超过一百四十种语言转录音频，还能在设备上直接做函数调用。应用里还内置了一堆现成的技能：写俳句、做游戏、查天气，帮你往日历里排日程。而且如果你的手机是像 Pixel 10 这样的高端芯片，模型推理可以走硬件加速器，不用退回 CPU 慢慢算。\n\n听到这，你可能会好奇：模型塞进手机和浏览器，那得做得多小？小了之后还能好用吗？这就引出 Gemma 4 最值得说的一点。\n\nGemma 4 有多个尺寸：20 亿、40 亿、120 亿参数的版本，还有 260 亿和 310 亿两种。有意思的是，最大的两个版本看起来不大，表现却超过了体积比它们大一个数量级的模型。用 Paige Bailey 自己的话说，与市面上其他一些模型相比，它们相当小，但表现远超你的预期。\n\n这件事直接翻译成成本优势：不需要分布式推理，不需要大片 GPU，一块普通显卡就能跑得很好。具体到日常设备上，120 亿参数以下的版本可以在笔记本电脑上本地运行，20 亿参数的版本塞进手机绰绰有余。更开放的是，这些模型采用 Apache 2 许可证——下载、商用、微调、魔改，都随你。\n\n那开头演示里那个快得惊人的浏览器模型，又是怎么做到的？答案是量化，英文叫 QAT，说白了就是把模型的体积压缩。压缩到什么程度？20 亿参数的量化版本，不到 1 GB。这也是小设备上能流畅跑模型的秘密之一。\n\n所以这一集你能带走的就是：Gemma 4 是 Google 的开源模型家族，从 20 亿到 310 亿参数有多种尺寸，Apache 2 许可证可以自由商用；它能完全在浏览器和手机上本地运行，数据不出设备；小尺寸版本的表现能超过大它一个数量级的模型，一块普通显卡就够用；量化版本不到 1 GB，手机和笔记本都能流畅跑。想上手的话，直接下载免费的 Google AI Edge Gallery 就行。就像 Paige Bailey 说的，我们试图在这个阴影日益浓重的世界里，尽可能多地投射光明。"
+}

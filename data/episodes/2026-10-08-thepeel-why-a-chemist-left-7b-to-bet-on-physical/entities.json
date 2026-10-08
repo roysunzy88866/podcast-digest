@@ -1,0 +1,814 @@
+{
+  "episode_id": "2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical",
+  "podcast": "The Peel",
+  "date": "2026-10-08",
+  "tags": [
+    "物理 AI",
+    "机器人",
+    "风险投资",
+    "国防科技",
+    "硬件创业"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "turner",
+      "type": "person",
+      "role": "host",
+      "name": "Turner",
+      "file": "Turner",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.565,
+            6.226
+          ],
+          "quote": "Thank you, Turner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            599.859,
+            609.605
+          ],
+          "quote": "To skip the waitlist, head to flex.one and use my code Turner to get an additional 100,000 points worth $1,000 after spending your first $10,000 with Flex Elite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            4772.062,
+            4779.726
+          ],
+          "quote": "But also those guys are basically saying, why am I letting all these other LPs who want to invest in the company come through Turner?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bilal-zuberi",
+      "type": "person",
+      "role": "cohost",
+      "name": "Bilal Zuberi",
+      "file": "Bilal Zuberi",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把它说成：AI 与物理世界的交汇——用 AI 改造能源、制造、国防等实体产业，是嘉宾整个投资主题的核心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            18.793,
+            27.238
+          ],
+          "quote": "I think probably the most interesting place to start is you have been investing in what we now call, you know, physical AI for 18 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            61.735,
+            73.588
+          ],
+          "quote": "So number one, many thanks to Jensen Huang, who I think in January 2025 put up this chart that now people have seen many times where he says there's, you know, AI, then agentic AI, and then physical AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            73.608,
+            76.07
+          ],
+          "quote": "And I was like, oh my God, the future is physical AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            108.721,
+            117.045
+          ],
+          "quote": "The way Jensen describes physical AI, it feels like a little bit more narrow around robotics and autonomy and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1164.149,
+            1168.811
+          ],
+          "quote": "So I think that's what you're seeing, especially in physical AI, that people are like, okay, this is very interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1970.385,
+            1975.369
+          ],
+          "quote": "These companies are getting into physical AI because they feel like there's going to be large markets that they can open up there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1985.557,
+            1989.042
+          ],
+          "quote": "The same thing will happen in the physical AI space, not just robotic, but broadly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1462,
+          "t": [
+            5873.915,
+            5877.758
+          ],
+          "quote": "If you like this conversation, share it with a friend who's building something in physical AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说机器人从硬编码的确定性路径变成了用 AI 概率性实时规划动作、且方案能泛化的新形态，大量资本因此涌入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            108.721,
+            117.045
+          ],
+          "quote": "The way Jensen describes physical AI, it feels like a little bit more narrow around robotics and autonomy and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1067.293,
+            1074.498
+          ],
+          "quote": "And then the third thing that happened was that in the world of robotics, everything was very deterministic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1075.447,
+            1082.193
+          ],
+          "quote": "And by robotics, I mean, broadly speaking, it's, it was, you know, you had to almost hard code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1174.734,
+            1182.939
+          ],
+          "quote": "If you go back to Kiva Systems, the early robotics company that Amazon bought, it was like literally markers on the ground that the robots were tracking and following and doing things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1266.789,
+            1270.571
+          ],
+          "quote": "I mean, a robotics actuator company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1271.391,
+            1279.554
+          ],
+          "quote": "So these guys have to buy the technology from the outside if they're going to use robotics and automation and AI in their workflows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1806.725,
+            1813.847
+          ],
+          "quote": "Or like foundry robotics, do manufacturing in the field or do cleaning, you know, or do, you know, logistics or whatever it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1876.545,
+            1888.272
+          ],
+          "quote": "It's easy if somebody's building a fundamental model around manufacturing or robotics or something, you ping somebody at Berkeley or Stanford or MIT and they're like, yeah, yeah, this professor is very well known.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2045.736,
+            2050.458
+          ],
+          "quote": "I mean, look, so let's just take robotics, you know, and I don't want to just harp on robotics, but let's take robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2074.544,
+            2076.245
+          ],
+          "quote": "Well, you know, look, and robotics is harder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2076.305,
+            2079.946
+          ],
+          "quote": "And I think some of these benchmarks are, you know, there's no good evaluation models in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2080.166,
+            2082.646
+          ],
+          "quote": "There's no good benchmarks in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2760.902,
+            2769.606
+          ],
+          "quote": "I feel like in tech, I feel like the average sense in tech still is just like, oh, this robotics hype is just all, it's like all hype and it's a bubble and it's gonna die.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deployment-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "部署层 (deployment layer)",
+      "file": "部署层",
+      "primary": true,
+      "how_described": "本集说它是技术栈分层后投资最不足、最被低估的一层——真正把机器人放到现场干活，靠现场脏活拿到让模型可靠的真实世界数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1459.965,
+            1470.296
+          ],
+          "quote": "So you can be at the infrastructure layer, chip layer, model layer, data layer, application layer, deployment layer, post-training layer, all of that stuff, RL, all of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1682.567,
+            1700.037
+          ],
+          "quote": "But I fundamentally believe that while all these layers of the stack are very important and we have invested across the stack, across many industries, the most under-invested in area and I think the most interesting area right now is at the deployment layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1993.348,
+            1997.314
+          ],
+          "quote": "All of those things are going to matter, and that's going to be the deployment layer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": true,
+      "how_described": "本集以自动驾驶为例：把同一条真实道路模拟出夜晚、暴雨、传感器遮挡等百万种情况，是 Applied Intuition 的立足点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            1513.377,
+            1515.58
+          ],
+          "quote": "But, you know, you see this thing around simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1519.244,
+            1524.027
+          ],
+          "quote": "And yes, I'll grow from there, but Applied Intuition was an autonomous car simulation company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1593.098,
+            1594.699
+          ],
+          "quote": "So it wasn't like a gaming simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2007.566,
+            2017.376
+          ],
+          "quote": "Like even for simulation engines to work, you have to have enough data in the field to be able to have good physics and good simulation models that can, you know, then take that and multiply it many fold.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sbir-mill",
+      "type": "concept",
+      "role": "concept",
+      "name": "SBIR 工厂 (SBIR mill)",
+      "file": "SBIR 工厂",
+      "primary": true,
+      "how_described": "本集说它是专门写提案、反复拿政府小额创新资助却从不真做商业化的生意，如今政府已变成真正的直接客户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            940.548,
+            955.664
+          ],
+          "quote": "The second thing that happened was that government was seen as a SBIR mill that would give you small grants that would help you do some development of some really big idea, but never became a customer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consensus-investing",
+      "type": "concept",
+      "role": "concept",
+      "name": "共识投资 (consensus investing)",
+      "file": "共识投资",
+      "primary": true,
+      "how_described": "本集说行业所有人涌向同几家热门公司：有的公司业务没进展、注册个商标、因三个知名机构投了估值就暴涨",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1254,
+          "t": [
+            5186.502,
+            5187.703
+          ],
+          "quote": "You mean consensus investing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            5188.063,
+            5189.064
+          ],
+          "quote": "Consensus investing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "management-fees",
+      "type": "concept",
+      "role": "concept",
+      "name": "管理费 (management fees)",
+      "file": "管理费",
+      "primary": true,
+      "how_described": "本集算了一笔账：募一只 100 亿美元基金、十年光靠 2% 管理费就能锁定 20 亿美元收入，甚至足以造出亿万富翁——这是行业激励扭曲的根源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1310,
+          "t": [
+            5396.997,
+            5397.957
+          ],
+          "quote": "Just the management fees?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1311,
+          "t": [
+            5397.977,
+            5398.958
+          ],
+          "quote": "Just the management fees alone.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集在讲技术栈分层时列出的层之一：现场部署后针对具体任务和复杂性做后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1459.965,
+            1470.296
+          ],
+          "quote": "So you can be at the infrastructure layer, chip layer, model layer, data layer, application layer, deployment layer, post-training layer, all of that stuff, RL, all of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-glass",
+      "type": "company",
+      "role": "company",
+      "name": "Red Glass",
+      "file": "Red Glass",
+      "primary": true,
+      "how_described": "本集介绍它是嘉宾离开 Lux 后创办的 1.5 亿美元基金，主题是 AI 与物理世界，名字取自红色（热情勇气）与玻璃（透明、火中锻造）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            2118.124,
+            2121.446
+          ],
+          "quote": "Now, let me do a little advertising for red glass, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2451.914,
+            2455.716
+          ],
+          "quote": "Look, you know, the Red Glass name, it's sort of funny, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2466.424,
+            2467.745
+          ],
+          "quote": "So my children are like, just call it Red Glass.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3210.804,
+            3219.831
+          ],
+          "quote": "Because I think you, today at Red Glass, you're kind of formation through Series A, which to different people, that means different things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lux-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Lux Capital",
+      "file": "Lux Capital",
+      "primary": true,
+      "how_described": "本集说它是嘉宾工作了 18 年、管理规模 70 亿美元的大基金，嘉宾用它解释大基金管理费模式的诱惑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            29.159,
+            32.504
+          ],
+          "quote": "You were at a pretty large fund, Lux Capital.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "applied-intuition",
+      "type": "company",
+      "role": "company",
+      "name": "Applied Intuition",
+      "file": "Applied Intuition",
+      "primary": true,
+      "how_described": "本集把它说成估值 150 亿美元的自动驾驶仿真公司：从给大车企做真实物理的仿真工具起步，再长成平台和应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            890.077,
+            906.17
+          ],
+          "quote": "Starting with, obviously, Elon Musk back in those days and then moving on and, you know, founders of Nest and then Palmer Luckey who created Oculus and, you know, and a bunch of, you know, Aurora and then Applied Intuition and Anduril and, you know, all these companies that we now know about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1504.628,
+            1510.514
+          ],
+          "quote": "And then came, you know, Applied Intuition, which is now a already a $15 billion company doing really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1519.244,
+            1524.027
+          ],
+          "quote": "And yes, I'll grow from there, but Applied Intuition was an autonomous car simulation company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1606.233,
+            1609.338
+          ],
+          "quote": "Applied intuition was like, you know, look, Waymo can do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3296.781,
+            3300.603
+          ],
+          "quote": "Like from investments you made in the past that people might be able to like, like applied intuition?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3301.903,
+            3303.344
+          ],
+          "quote": "Applied intuition was very simple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 947,
+          "t": [
+            3954.402,
+            3965.61
+          ],
+          "quote": "You know, this founder that I, you know, told you was a very competitive round that I invested in, conversations were around go to market and the lessons learned from applied intuition or nominal in others and how did they apply to their particular world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集说它花数十亿美元、十几年在真实道路上昼夜收集驾驶数据，并对比仿真路线说明数据的两种来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1537.293,
+            1546.397
+          ],
+          "quote": "And, you know, if you're a Waymo, you spend billions of dollars and have many cars that we have seen for the last 10, 15 years running around roads collecting data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1606.233,
+            1609.338
+          ],
+          "quote": "Applied intuition was like, you know, look, Waymo can do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1716.777,
+            1721.6
+          ],
+          "quote": "It's a little bit like at some point Waymo had to say, we're going to build a car and we're going to drive.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anduril",
+      "type": "company",
+      "role": "company",
+      "name": "Anduril",
+      "file": "Anduril",
+      "primary": false,
+      "how_described": "本集把它列为新一代硅谷式硬件创始人的代表——招人快、融资快、敢打破行业惯例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            890.077,
+            906.17
+          ],
+          "quote": "Starting with, obviously, Elon Musk back in those days and then moving on and, you know, founders of Nest and then Palmer Luckey who created Oculus and, you know, and a bunch of, you know, Aurora and then Applied Intuition and Anduril and, you know, all these companies that we now know about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集说它是新领域早期必须做全栈的例子——Elon Musk 造车连车门锁供应商都要自己找",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            659.947,
+            661.048
+          ],
+          "quote": "Tesla is a very old company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1427.986,
+            1429.527
+          ],
+          "quote": "Or Tesla per se, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1480.325,
+            1489.032
+          ],
+          "quote": "Early, there's Tesla, then came all these autonomous startups, autonomous car startups that were all building their own company, like Zoox and Cruise and all of these companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1492.936,
+            1495.478
+          ],
+          "quote": "We just do it better than Tesla and this way and that way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1609.738,
+            1611.08
+          ],
+          "quote": "Maybe Tesla can do that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提它是从不在乎收入的研究实验室如今被迫操心真金白银、并进军物理 AI 的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            444.601,
+            451.687
+          ],
+          "quote": "Don't take me wrong, like Vinod Coastline and others who funded OpenAI, it was not commercial, it was a non-profit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1968.303,
+            1970.305
+          ],
+          "quote": "Should OpenAI become that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 908,
+          "t": [
+            3824.697,
+            3827.379
+          ],
+          "quote": "Yeah, because didn't they invest in like OpenAI early?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3905.972,
+            3911.173
+          ],
+          "quote": "You know, like we are building the next Stripe, the next Databricks, the next OpenAI, the next Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 985,
+          "t": [
+            4139.795,
+            4142.016
+          ],
+          "quote": "I'm not saying, you know, hey, I just left OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            4142.056,
+            4144.216
+          ],
+          "quote": "I have a lot of friends who are leaving OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            4675.261,
+            4679.265
+          ],
+          "quote": "I would have guessed it was like a—I would have guessed like OpenAI or like a big tech company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            4882.202,
+            4891.891
+          ],
+          "quote": "I'm not an expert at this, but I don't know how I would feel if I was at OpenAI, I mean, if I was a founder at OpenAI and my big investor also had money in Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

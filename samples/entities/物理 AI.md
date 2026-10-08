@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]]**(04:41起):本集把它说成:必须在物理世界中直接做出决定的 AI。它和聊天机器人不同,必须比以往部署的机器学习系统少犯错得多才能在现实中自主运行。
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(05:42起):本集定义为可大规模做机器人技术；嘉宾判断商业用途机器人会先产生冲击，通用机器人面向人类环境是下一道战线，现在谁都有机会赢。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(08:04起):本集把物理 AI 定义为部署在物理设备中、会扰动物理世界状态并完成任务的 AI，涵盖汽车、工厂自动化、机器人、农业、建筑等垂直领域；它带来实时、安全、批大小为 1 的推理约束，终极指标是每瓦特智能。
+- **[[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]]**(00:18起):本集把它说成：AI 与物理世界的交汇——用 AI 改造能源、制造、国防等实体产业，是嘉宾整个投资主题的核心
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]] — 作为概念
@@ -42,14 +43,15 @@ unlisted: true
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为概念
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念
+- [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Tesla]] · [[推理]] · [[工业 AI]] · [[苦涩的教训]] · [[NVIDIA]] · [[护栏]] · [[世界模型]]
+[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[推理]] · [[Applied Intuition]] · [[工业 AI]] · [[苦涩的教训]] · [[NVIDIA]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Waymo":20,"智能体":441,"ChatGPT":100,"Tesla":11,"推理":85,"工业 AI":3,"苦涩的教训":10,"NVIDIA":62,"护栏":84,"世界模型":12}</script>
+<script type="application/json" class="pd-epn">{"Waymo":21,"智能体":441,"Tesla":12,"ChatGPT":100,"推理":86,"Applied Intuition":2,"工业 AI":3,"苦涩的教训":10,"NVIDIA":62,"护栏":84}</script>
 
 <script>
 (function(){

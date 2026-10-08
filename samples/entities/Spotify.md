@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Meta]] · [[微调]] · [[推理]] · [[GitHub]] · [[Instagram]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"ChatGPT":100,"OpenAI":178,"Slack":31,"Meta":48,"微调":33,"推理":85,"GitHub":30,"Instagram":7,"Claude":91}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"ChatGPT":100,"OpenAI":179,"Slack":31,"Meta":48,"微调":33,"推理":86,"GitHub":30,"Instagram":7,"Claude":91}</script>
 
 <script>
 (function(){

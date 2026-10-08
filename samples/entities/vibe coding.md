@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>46</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>47</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -56,6 +56,7 @@ unlisted: true
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(40:49起):本集说：vibe coding 的归宿是自用小工具（树莓派连 HomeKit，坏了再 vibe 一个），不适合用于向很多人依赖的大型开源项目提交 PR。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):本集讨论的『SaaS 末日论』叙事：人人能用自然语言提示自己写一个 SAP；Klein 用 ERP 的数据复杂度反驳。
 - **[[2026-10-01-sed-the-state-of-browser-testing|《浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学》]]**(01:10起):本集警告 vibe coding（只写提示词凭感觉拿代码）会让没写过软件的人缺乏安全直觉，「凭感觉把生产数据库搞垮」，建议初级工程师少用 AI、原型上线前必须重写或过安全检查。
+- **[[2026-10-08-mos-building-a-marketplace-from-scratch-with|《从订不到营地，到做出露营界的 Airbnb》]]**(06:32起):本集顺带一提：Alyssa 2013 年去 Dev Bootcamp 学写代码是在 vibe coding 出现之前，如果有 Codex 一切会快得多。
 
 ## ① 提到它的金句
 
@@ -79,7 +80,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*46 集*
+*47 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -127,6 +128,7 @@ unlisted: true
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为概念
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
 - [[2026-10-01-sed-the-state-of-browser-testing|《浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学》]] — 作为概念
+- [[2026-10-08-mos-building-a-marketplace-from-scratch-with|《从订不到营地，到做出露营界的 Airbnb》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -134,7 +136,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Anthropic]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[ChatGPT]] · [[护栏]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"Anthropic":189,"OpenAI":178,"Lenny":68,"Claude":91,"Claude Code":97,"ChatGPT":100,"护栏":84,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"Anthropic":189,"OpenAI":179,"Lenny":68,"Claude":91,"Claude Code":97,"ChatGPT":100,"护栏":84,"Codex":80}</script>
 
 <script>
 (function(){

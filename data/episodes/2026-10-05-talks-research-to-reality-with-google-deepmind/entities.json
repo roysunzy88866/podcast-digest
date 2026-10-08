@@ -1,0 +1,445 @@
+{
+  "episode_id": "2026-10-05-talks-research-to-reality-with-google-deepmind",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "tags": [
+    "开源模型",
+    "本地推理",
+    "边缘计算",
+    "模型量化",
+    "现场演示"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "paige-bailey",
+      "type": "person",
+      "role": "guest",
+      "name": "Paige Bailey",
+      "file": "Paige Bailey",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            43.067,
+            47.811
+          ],
+          "quote": "I work at DeepMind and excited to show y'all what we've been working on too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            177.255,
+            184.74
+          ],
+          "quote": "I also want to give kind of the requisite caveat at the very beginning that DeepMind's entire mission",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemma-4",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemma 4",
+      "file": "Gemma 4",
+      "primary": true,
+      "how_described": "本集说 Gemma 4 是 Google 最新的开放模型家族，有 20 亿到 310 亿参数多种尺寸，Apache 2 许可证可下载、商用、微调；最大的两个版本表现超过体积大一个数量级的模型，可直接在浏览器和手机上本地运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            295.566,
+            297.987
+          ],
+          "quote": "So how many folks in the room have heard of Gemma 4?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            354.41,
+            364.299
+          ],
+          "quote": "But this is an example of something that someone from the community has built using Gemma 4 and Fable 5 before it was taken off the market to rewrite some of the kernels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            455.204,
+            460.488
+          ],
+          "quote": "It's just something that's running locally in the browser with Transformers.js and the Gemma 4 model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            461.108,
+            472.177
+          ],
+          "quote": "Gemma 4 is also pretty cool in the sense that you can use Google AI Edge Gallery in order to analyze some of the model capabilities that we have on device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            547.34,
+            553.426
+          ],
+          "quote": "Gemma 4, just to give a recap or to place how the model performance versus size",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google-ai-edge-gallery",
+      "type": "concept",
+      "role": "concept",
+      "name": "Google AI Edge Gallery",
+      "file": "Google AI Edge Gallery",
+      "primary": true,
+      "how_described": "本集说这是一个免费应用，支持 Android 和 iOS，可把 Gemma 装到设备上，功能包括图片描述、140 多种语言音频转录、设备上直接 function calling，还内置写俳句、做游戏、查天气、排日历等技能，只用本地安装的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            461.108,
+            472.177
+          ],
+          "quote": "Gemma 4 is also pretty cool in the sense that you can use Google AI Edge Gallery in order to analyze some of the model capabilities that we have on device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            493.352,
+            500.096
+          ],
+          "quote": "If you haven't had a chance to take a look at the Google AI Edge Gallery, we have a collection of skills as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Managed Agents",
+      "file": "Managed Agents",
+      "primary": false,
+      "how_described": "本集说这是 Google 刚发布的服务：用自然语言描述高阶任务，让一群智能体在 Linux 工作站的沙箱环境里执行，可添加技能和依赖项。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            246.571,
+            256.455
+          ],
+          "quote": "Most notably, just recently we released a computer use API, which we'll be talking about a little bit, something called Managed Agents, which gives you the ability to take",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use API",
+      "file": "computer use API",
+      "primary": false,
+      "how_described": "本集说这是 Google 最近发布的 API，演讲中提到稍后会谈到它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            246.571,
+            256.455
+          ],
+          "quote": "Most notably, just recently we released a computer use API, which we'll be talking about a little bit, something called Managed Agents, which gives you the ability to take",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open model)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说 Google 不仅发布前沿模型，也非常专注于开放模型发布；Gemma 4 采用 Apache 2 许可证，可自由下载、商用、微调和扩展，社区已在其上构建各种项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            278.898,
+            294.745
+          ],
+          "quote": "And one of the things that I really, really love about Google is that not only are we shipping frontier models, so you might have heard about Gemini 3.5 Flash, which got released at I.O., but we've also been focused pretty significantly on our open model releases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            306.988,
+            309.889
+          ],
+          "quote": "Gemma4 is our open model family.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 Gemma 4 通过 WebAssembly 直接在浏览器中加载运行，是沙箱化的，完全本地运行、数据不出设备；Managed Agents 也是在沙箱环境中执行任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            257.336,
+            272.816
+          ],
+          "quote": "Kind of a higher order task, describe it in a natural language and have a fleet of agents execute on it in a Linux workstation, like a sandbox environment where you can add skills, you can add kind of dependencies that get pulled in along the way and a whole bunch more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说高端手机可以用本地硬件加速器完成所有推理工作而非回退到 CPU；Gemma 4 小尺寸的优势是不需要分布式推理、GPU 占用小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            520.902,
+            532.024
+          ],
+          "quote": "There's also a way to use the kind of accelerator on your local device in order to power the model and do all of the inference work as opposed to just the fallback to the CPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            582.272,
+            585.674
+          ],
+          "quote": "You don't have to worry about distributed inference for local models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 Gemma 4 不需要大片 GPU 占用，真正的设计意图是在单个消费级 GPU 上运行得超级好，12B 及以下版本甚至可以在笔记本上本地运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            586.495,
+            589.558
+          ],
+          "quote": "You don't have to worry about as large of a GPU footprint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            590.138,
+            597.264
+          ],
+          "quote": "And it's really intended to run super, super well on a single commodity GPU as opposed to needing something a little bit more fully featured.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "quantized",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantized)",
+      "file": "量化",
+      "primary": true,
+      "how_described": "本集说开场演示里那个飞快的浏览器模型用的是 QAT（量化感知训练）检查点，20 亿参数版本的量化检查点甚至不到 1 GB，是小设备上流畅跑模型的秘密。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            610.299,
+            612.622
+          ],
+          "quote": "We've also released quantized versions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "webassembly",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebAssembly",
+      "file": "WebAssembly",
+      "primary": false,
+      "how_described": "本集说 Gemma 可以直接在浏览器中通过 WebAssembly 加载和使用，且是沙箱化的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            368.222,
+            372.606
+          ],
+          "quote": "So this is loading Gemma directly in the browser, using it via WebAssembly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transformers-js",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformers.js",
+      "file": "Transformers.js",
+      "primary": false,
+      "how_described": "本集说浏览器里的演示是通过 Transformers.js 和 Gemma 4 模型在本地运行，不调用任何 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            455.204,
+            460.488
+          ],
+          "quote": "It's just something that's running locally in the browser with Transformers.js and the Gemma 4 model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "function calling",
+      "file": "function calling",
+      "primary": false,
+      "how_described": "本集说 Google AI Edge Gallery 支持直接在设备上测试 function calling。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            488.909,
+            492.371
+          ],
+          "quote": "And then also testing it out with function calling directly on device.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mixture-of-experts",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合专家模型 (mixture of experts)",
+      "file": "混合专家模型",
+      "primary": false,
+      "how_described": "本集说 Gemma 4 的 260 亿版本是混合专家模型，310 亿版本是稠密模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            319.671,
+            326.852
+          ],
+          "quote": "And then we also have a 26 billion and a 31 billion mixture of experts and dense model, respectively.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini 3.5 Flash",
+      "file": "Gemini 3.5 Flash",
+      "primary": false,
+      "how_described": "本集说 Google 不仅发开放模型，也在发前沿模型，比如在 I.O. 上发布的 Gemini 3.5 Flash。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            278.898,
+            294.745
+          ],
+          "quote": "And one of the things that I really, really love about Google is that not only are we shipping frontier models, so you might have heard about Gemini 3.5 Flash, which got released at I.O., but we've also been focused pretty significantly on our open model releases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "medgemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "MedGemma",
+      "file": "MedGemma",
+      "primary": false,
+      "how_described": "本集说 MedGemma 是 DeepMind 开放模型工作中体现「负责任构建 AI」使命的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            198.476,
+            205.043
+          ],
+          "quote": "This translates to things like alpha folds, much of the work that we do with our open models, including MedGemma,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

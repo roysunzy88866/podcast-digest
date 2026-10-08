@@ -268,7 +268,7 @@ UMI 数据带传感器、比人类数据精确但受传感器拖累不够可扩�
 
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 - [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路]]<span class="pd-rz">同公司:Google DeepMind</span>
-- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同概念:仿真 (simulation)</span>
+- [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|投了18年「物理AI」的人，怎么看眼下的机器人热潮]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 
 </div>
 </div>

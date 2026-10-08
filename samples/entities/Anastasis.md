@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":12,"视频生成":1,"缩放定律":12,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":12,"界面世界模型":1}</script>
+<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":12,"视频生成":1,"缩放定律":12,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":13,"界面世界模型":1}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[MCP]] · [[OpenAI]] · [[Anthropic]] · [[Claude]] · [[Harvey]] · [[11 Labs]] · [[Codex]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"MCP":82,"OpenAI":178,"Anthropic":189,"Claude":91,"Harvey":20,"11 Labs":4,"Codex":80,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"MCP":82,"OpenAI":179,"Anthropic":189,"Claude":91,"Harvey":20,"11 Labs":4,"Codex":80,"前沿模型":27}</script>
 
 <script>
 (function(){

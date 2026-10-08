@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Fireworks":7,"Cursor":83,"NVIDIA":62,"Anthropic":189,"OpenRouter":14,"Meta":48,"专用智能":1,"AGI":27,"推理":85}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Fireworks":7,"Cursor":83,"NVIDIA":62,"Anthropic":189,"OpenRouter":14,"Meta":48,"专用智能":1,"AGI":27,"推理":86}</script>
 
 <script>
 (function(){

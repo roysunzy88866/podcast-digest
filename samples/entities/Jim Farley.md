@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"Ford":1,"BYD":1,"Tesla":11,"Xiaomi":2,"UEV":1,"EV":1,"混动":2,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"Ford":1,"BYD":1,"Tesla":12,"Xiaomi":2,"UEV":1,"EV":1,"混动":2,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

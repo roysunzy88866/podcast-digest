@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":46,"CI-CD":16,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":47,"CI-CD":16,"Palantir":20}</script>
 
 <script>
 (function(){

@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":21,"Amazon":32,"智能体":441,"GPU":27,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":84,"Firecracker":3}</script>
+<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":21,"Amazon":32,"智能体":441,"GPU":28,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":85,"Firecracker":3}</script>
 
 <script>
 (function(){

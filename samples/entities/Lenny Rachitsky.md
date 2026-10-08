@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]]
+[[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":12,"Medium":1,"Stripe":48,"简报":2,"播客":1,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":13,"Medium":1,"Stripe":48,"简报":2,"播客":1,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

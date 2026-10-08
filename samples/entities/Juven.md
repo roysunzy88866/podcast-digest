@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeanne Grosser]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Keith Peiris]] [[Matteo Franceschetti]]
+[[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]]
 
 </div>
 

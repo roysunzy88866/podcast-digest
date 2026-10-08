@@ -1,0 +1,597 @@
+{
+  "episode_id": "2026-10-08-mos-building-a-marketplace-from-scratch-with",
+  "podcast": "Masters of Scale",
+  "date": "2026-10-08",
+  "tags": [
+    "创业故事",
+    "市场平台",
+    "网络效应",
+    "商业模式",
+    "创始人健康"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "alyssa-ravasio",
+      "type": "person",
+      "role": "host",
+      "name": "Alyssa Ravasio",
+      "file": "Alyssa Ravasio",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 585,
+          "t": [
+            1978.145,
+            1980.226
+          ],
+          "quote": "Thanks again to Alyssa Ravasio for joining us.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "hipcamp",
+      "type": "company",
+      "role": "company",
+      "name": "HipCamp",
+      "file": "HipCamp",
+      "primary": true,
+      "how_described": "本集主线：Alyssa 创办的露营预订平台，覆盖超 50 万个地点、订出数百万次行程，是公共营地、商业营地和私人土地三个领域最大的搜索和预订平台，核心北极星指标是「户外过夜数」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            87.852,
+            101.538
+          ],
+          "quote": "With us today is Alyssa Rovasio, who is the founder and CEO of HipCamp, which, if you are camping, is the way to book your spot with, I think, over a half million locations now, millions of trips booked.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 45,
+          "t": [
+            154.994,
+            156.736
+          ],
+          "quote": "You started HipCamp in 2013, is that right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 62,
+          "t": [
+            216.676,
+            231.183
+          ],
+          "quote": "So the first version of HIPCAMP, which is called California Camping, by the way, was really just about pulling together that fragmented information and creating a space for campers to help each other learn about what's good to know about each campground.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            251.911,
+            262.214
+          ],
+          "quote": "I had worked at a couple of startups before HipCamp and I'd learned a ton, but had also learned as part of that time that I was really wanting to run my own company and kind of be my own boss.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            359.687,
+            369.33
+          ],
+          "quote": "How did you actually get HipCamp off the ground, both from a, how were you financing it, and how did you get a website or an app in consumers' hands?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 154,
+          "t": [
+            504.262,
+            506.804
+          ],
+          "quote": "And they had tweeted out, you know, go check out HipCamp.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            846.633,
+            850.117
+          ],
+          "quote": "How did you approach the scaling of the private land component of HIPCAMP?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1439.35,
+            1443.836
+          ],
+          "quote": "And so it's really those three pillars together that have, um, created the HipCamp of today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            1854.77,
+            1858.494
+          ],
+          "quote": "And I'm giving you this letter because HipCamp makes it junk mail now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": true,
+      "how_described": "本集把它说成投资人每次融资都会问的「如果它明天也做这个怎么办」的假想竞争者；Alyssa 的回答是露营与找酒店替代品是不同心态和品牌，Airbnb 要进入需换品牌、换产品、换整套打法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            158.338,
+            161.702
+          ],
+          "quote": "So it's post-launch of Airbnb, math is right.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 48,
+          "t": [
+            162.082,
+            166.528
+          ],
+          "quote": "Was part of it like, let's just do Airbnb for camping, or did you have a different vision for what this would be?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1085.23,
+            1093.592
+          ],
+          "quote": "I imagine being on your board or an investor in your company and asking the question, what happens if Airbnb wakes up tomorrow and says they're going to do the same thing?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1133.13,
+            1138.153
+          ],
+          "quote": "Well, and also you're at a scale now where the build by partner analysis for Airbnb would be very different than it was then.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rei",
+      "type": "company",
+      "role": "company",
+      "name": "REI",
+      "file": "REI",
+      "primary": false,
+      "how_described": "本集提到旧金山 Brannan 街的 REI 门口允许 Alyssa 摆小桌发贴纸做地推。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            450.219,
+            451.76
+          ],
+          "quote": "Big shout out to REI on Brannan.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "市场平台 (marketplace)",
+      "file": "市场平台",
+      "primary": true,
+      "how_described": "本集把 Hipcamp 的本质讲成市场平台：先靠搜索引擎聚拢需求，再被用户痛点逼出供给端答案，规模本身是市场平台最深的护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            553.493,
+            555.174
+          ],
+          "quote": "You're not a marketplace.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1138.193,
+            1140.814
+          ],
+          "quote": "Yeah, I mean, scale is the ultimate moat for a marketplace, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1954.945,
+            1974.184
+          ],
+          "quote": "Well, I'm so proud that we get to have you on Masters of Scale telling this story and using technology really to make people's lives better on both sides of your marketplace and give people the opportunity to use technology, to put technology away, connect with each other, connect with nature and build better lives in a better country.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "本集说网络效应太神奇：每多一单位供给让每位露营者体验更好，每多一位露营者让每位地主体验更好，这是商业模式最令人兴奋之处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1140.854,
+            1147.117
+          ],
+          "quote": "Like network effects are amazing and it's just, it's so fun to build a business that I couldn't imagine",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "supply",
+      "type": "concept",
+      "role": "concept",
+      "name": "供需 (supply)",
+      "file": "供需",
+      "primary": true,
+      "how_described": "本集说问题的根源是供给不足：现有营地在很多地方已满负荷，是真实的稀缺；私人土地模式就是把匮乏系统转变为丰饶、从根源解决供给。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            694.007,
+            695.208
+          ],
+          "quote": "There's not enough supply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            724.425,
+            727.729
+          ],
+          "quote": "And really what you realized was there was a supply-demand problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 271,
+          "t": [
+            850.338,
+            856.784
+          ],
+          "quote": "Yeah, so we kind of used the public existing campgrounds, which were public data, as a way to bootstrap supply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            856.804,
+            857.905
+          ],
+          "quote": "We were like, ah, we have supply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            859.947,
+            864.371
+          ],
+          "quote": "And so as we added private land, it was really just about more supply, better supply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            864.411,
+            865.372
+          ],
+          "quote": "This supply you can book.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            865.973,
+            868.014
+          ],
+          "quote": "This supply is beautiful and private.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1147.917,
+            1158.483
+          ],
+          "quote": "Feeling this level of enthusiasm for the business we're building if I didn't understand and see every day how every unit of supply we add makes it better for every camper and every camper we add makes it better for every host.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1213.976,
+            1214.617
+          ],
+          "quote": "Now we have supply.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "business-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业模式 (business model)",
+      "file": "商业模式",
+      "primary": true,
+      "how_described": "本集讲了在纸质桌布餐厅上列出所有可能商业模式、并用「20 年后大获成功会改变什么」这一长期视角筛选，最终选出私人土地的过程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            674.298,
+            677.9
+          ],
+          "quote": "business model was wildly successful 10 years from now, 20 years from now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1158.503,
+            1164.226
+          ],
+          "quote": "Like that to me, that scale, that network effect is what, you know, that's what's so exciting about the business model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应之外的市场平台增长 (scale)",
+      "file": "网络效应之外的市场平台增长",
+      "primary": false,
+      "how_described": "本集说规模是市场平台的终极护城河，如今 Hipcamp 的体量已让 Airbnb 的「自建还是合作」分析大不相同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.588,
+            18.27
+          ],
+          "quote": "So you can move faster, adapt faster, and scale AI with confidence.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.281,
+            31.625
+          ],
+          "quote": "I really had a good understanding of scale and the internet, but then it was combining that with nature and the outdoors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            102.118,
+            104.159
+          ],
+          "quote": "This is a really interesting scale story.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 31,
+          "t": [
+            104.279,
+            106.079
+          ],
+          "quote": "Welcome to Masters of Scale.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 97,
+          "t": [
+            338.722,
+            346.304
+          ],
+          "quote": "I really had a good understanding of scale and the internet and how this new technology can totally change and will totally change how the world works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            696.008,
+            700.451
+          ],
+          "quote": "And in doing so created this amazing model that could scale recreation for conservation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            925.966,
+            930.81
+          ],
+          "quote": "Masters of the Scale Summit returns October 20th to 22nd in San Francisco.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 298,
+          "t": [
+            963.862,
+            969.487
+          ],
+          "quote": "Be in the room this year and walk away feeling it's possible to scale your next great idea.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1011.629,
+            1014.271
+          ],
+          "quote": "Just go to linkedin.com slash scale.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1014.611,
+            1017.194
+          ],
+          "quote": "That's linkedin.com slash scale.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1035.131,
+            1039.353
+          ],
+          "quote": "If you're building for global scale, get a business bank account that lets your money move instantly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1079.575,
+            1083.237
+          ],
+          "quote": "Learn more at creativeplanning.com slash masters of scale.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1133.13,
+            1138.153
+          ],
+          "quote": "Well, and also you're at a scale now where the build by partner analysis for Airbnb would be very different than it was then.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1138.193,
+            1140.814
+          ],
+          "quote": "Yeah, I mean, scale is the ultimate moat for a marketplace, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1158.503,
+            1164.226
+          ],
+          "quote": "Like that to me, that scale, that network effect is what, you know, that's what's so exciting about the business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1436.726,
+            1439.31
+          ],
+          "quote": "Um, we essentially created and have really been able to scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1954.945,
+            1974.184
+          ],
+          "quote": "Well, I'm so proud that we get to have you on Masters of Scale telling this story and using technology really to make people's lives better on both sides of your marketplace and give people the opportunity to use technology, to put technology away, connect with each other, connect with nature and build better lives in a better country.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 582,
+          "t": [
+            1974.504,
+            1976.066
+          ],
+          "quote": "It's wonderful having you on Masters of Scale.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2054.346,
+            2066.41
+          ],
+          "quote": "If you listen to Rapid Response on Masters of Scale, you may be missing half the show because every Friday we release a second Rapid Response exclusively in the Rapid Response feed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2132.475,
+            2134.977
+          ],
+          "quote": "Masters of Scale is a Wait What original.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集顺带一提：Alyssa 2013 年去 Dev Bootcamp 学写代码是在 vibe coding 出现之前，如果有 Codex 一切会快得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            392.476,
+            393.776
+          ],
+          "quote": "This is before vibe coding.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

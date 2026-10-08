@@ -25,7 +25,7 @@ unlisted: true
 
 [[Barrett Lyon]] · [[Joel de la Garza]] · [[DocsNet]] · [[VPN]] · [[点对点通信]] · [[运营商级 NAT]] · [[智能体]] · [[推理]] · [[广告追踪]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Barrett Lyon":1,"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":441,"推理":85,"广告追踪":1,"LLM":58}</script>
+<script type="application/json" class="pd-epn">{"Barrett Lyon":1,"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":441,"推理":86,"广告追踪":1,"LLM":58}</script>
 
 <script>
 (function(){

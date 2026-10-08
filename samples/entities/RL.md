@@ -65,7 +65,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[Cursor]] · [[推理能力]] · [[Harvey]] · [[推理]] · [[Redwood Research]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":178,"Anthropic":189,"后训练":1,"Cursor":83,"推理能力":6,"Harvey":20,"推理":85,"Redwood Research":4,"GPU":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":179,"Anthropic":189,"后训练":1,"Cursor":83,"推理能力":6,"Harvey":20,"推理":86,"Redwood Research":4,"GPU":28}</script>
 
 <script>
 (function(){

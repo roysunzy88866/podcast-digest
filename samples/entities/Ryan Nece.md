@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":2,"NextLegacy":1,"Nextplay Capital":1,"Legacy Ventures":1,"NFL":1,"幂律分布":3,"风险投资":1,"新兴管理人":2,"carry（业绩分成）":1,"耳语网络":1}</script>
+<script type="application/json" class="pd-epn">{"Turner":3,"NextLegacy":1,"Nextplay Capital":1,"Legacy Ventures":1,"NFL":1,"幂律分布":3,"风险投资":1,"新兴管理人":2,"carry（业绩分成）":1,"耳语网络":1}</script>
 
 <script>
 (function(){

@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"UiPath":2,"Anthropic":189,"OpenAI":178,"NVIDIA":62,"Fireworks":7,"Hugging Face":30,"智能体":441,"编码智能体":27,"开源":38}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"UiPath":2,"Anthropic":189,"OpenAI":179,"NVIDIA":62,"Fireworks":7,"Hugging Face":30,"智能体":441,"编码智能体":27,"开源":38}</script>
 
 <script>
 (function(){

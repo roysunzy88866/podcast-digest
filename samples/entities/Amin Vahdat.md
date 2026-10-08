@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google":65,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":441,"DeepMind":14,"Gemini":15,"光路交换":1,"专业化":3}</script>
+<script type="application/json" class="pd-epn">{"Google":65,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":441,"DeepMind":15,"Gemini":15,"光路交换":1,"专业化":3}</script>
 
 <script>
 (function(){

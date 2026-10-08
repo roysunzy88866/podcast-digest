@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Applied Intuition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Applied Intuition">AP</div><div class="pi"><h1 class="pt">Applied Intuition</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Applied Intuition">AP</div><div class="pi"><h1 class="pt">Applied Intuition</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(01:15起):本集说它是一家价值 150 亿美元的物理 AI 公司,给汽车、拖拉机、潜艇等大型车辆和机器添加 AI,全球前 20 大汽车制造商中有 18 家是其客户。
+- **[[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]]**(14:50起):本集把它说成估值 150 亿美元的自动驾驶仿真公司：从给大车企做真实物理的仿真工具起步，再长成平台和应用
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司
+- [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Qasar Younis]] · [[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[Tesla]] · [[Waymo]] · [[ChatGPT]] · [[Huawei]]
+[[物理 AI]] · [[Tesla]] · [[Waymo]] · [[OpenAI]] · [[Lenny]] · [[Turner]] · [[Qasar Younis]] · [[Bilal Zuberi]] · [[自动驾驶]] · [[机器人]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Qasar Younis":1,"物理 AI":10,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":11,"Waymo":20,"ChatGPT":100,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"物理 AI":11,"Tesla":12,"Waymo":21,"OpenAI":179,"Lenny":68,"Turner":3,"Qasar Younis":1,"Bilal Zuberi":1,"自动驾驶":1,"机器人":13}</script>
 
 <script>
 (function(){

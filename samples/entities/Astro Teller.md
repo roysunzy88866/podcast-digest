@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"X":3,"Alphabet":1,"Waymo":20,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":28}</script>
+<script type="application/json" class="pd-epn">{"X":3,"Alphabet":1,"Waymo":21,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":28}</script>
 
 <script>
 (function(){

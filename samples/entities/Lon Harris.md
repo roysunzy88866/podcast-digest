@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Uber]] · [[GrokBot]] · [[annotated.com]] · [[Justin Kan]] · [[系统胜过目标]] · [[vibe coding]] · [[Alex Wilhelm]] · [[Harvey]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":178,"Uber":16,"GrokBot":8,"annotated.com":1,"Justin Kan":1,"系统胜过目标":1,"vibe coding":46,"Alex Wilhelm":1,"Harvey":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":179,"Uber":16,"GrokBot":8,"annotated.com":1,"Justin Kan":1,"系统胜过目标":1,"vibe coding":47,"Alex Wilhelm":1,"Harvey":20}</script>
 
 <script>
 (function(){
