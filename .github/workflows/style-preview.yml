@@ -6,6 +6,10 @@ on:
       ids:
         description: "逗号分隔的集 id"
         required: true
+      mode:
+        description: "v2=新写法重做(默认) / plain=写手对照实验 B 版(一页要求、读英文原稿一口气写)"
+        required: false
+        default: "v2"
 permissions:
   contents: read
 jobs:
@@ -31,9 +35,12 @@ jobs:
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           IDS: ${{ github.event.inputs.ids }}
-        run: node scripts/style-preview.mjs "$IDS"
+          MODE: ${{ github.event.inputs.mode }}
+        run: |
+          if [ "$MODE" = "plain" ]; then node scripts/plain-write.mjs "$IDS"; else node scripts/style-preview.mjs "$IDS"; fi
       - uses: actions/upload-artifact@v4
         with:
           name: style-preview
           path: |
             preview/*.md
+            preview/*.txt
