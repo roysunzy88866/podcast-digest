@@ -777,6 +777,7 @@ describe("5d-C · 源侧补认「.2」→0.2、「nines」→9(真案例:2026-09
 });
 
 import { cnToNumber, extractChineseNumbers, checkVagueNumbers, checkProse as checkProseC42 } from "../scripts/gate-facts.mjs";
+import { locateFailureOffset } from "../scripts/repair-facts.mjs";
 describe("C42 · 中文写的数字与约数(盲测实证:豆包「百分之五」核对 0 条、Flash「三十来年」、Sonnet「几十个频道」)", () => {
   it("★★★ 中文数字换算", () => {
     expect(cnToNumber("一千五百万")).toBe(15000000);
@@ -792,6 +793,10 @@ describe("C42 · 中文写的数字与约数(盲测实证:豆包「百分之五�
     const tokens = new Set(["dozens", "of", "stations"]);
     expect(checkVagueNumbers("有几十个电台", tokens)[0].pass).toBe(true);
     expect(checkVagueNumbers("干了数百年", tokens)[0].pass).toBe(false);
+    // 带上下文:同篇两处「几十」时删句兜底靠它认出是哪一处(云端实证缺 ctx → 定位不唯一 → 整集退回)
+    const md = "第一段有几十个电台在抢。第二段说几十个工程师在写。";
+    const two = checkVagueNumbers(md, new Set());
+    expect(two.map((v: any) => locateFailureOffset(md, v))).toEqual([4, 16]); // 两处各认各的,开头那处也不认错
   });
   it("★★★ 只对新写手的稿硬拦(存量 668 集里 89 集会被「几十」打红,存量不动)", () => {
     const ctx = buildFactIndex([{ text: "federal funding is 5% of our budget", start: 0, end: 5, speaker: "S" }], { speaker_map: {} }, { entities: [] });

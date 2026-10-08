@@ -438,7 +438,7 @@ export function extractChineseNumbers(md) {
   const push = (raw, v, idx, len) => {
     // 中文常把 1500 万写成「一千五百万」、原稿是 15 million → 缩放后的几种「前缀值」任一命中即过(同阿拉伯数字的万/亿口径)
     const values = [v, ...[1e3, 1e4, 1e6, 1e8, 1e9].filter((k) => v >= k && v % k === 0).map((k) => v / k)];
-    out.push({ value: v, values, raw, ctx: text.slice(Math.max(0, idx - 14), idx + len + 14).replace(/\n/g, " ") });
+    out.push({ value: v, values, raw, ctx: text.slice(Math.max(0, idx - 14), idx + len + 14).replace(/\n/g, " "), ctxAt: idx - Math.max(0, idx - 14) });
   };
   for (const m of text.matchAll(/百分之([零〇一二两三四五六七八九十百千]+)/g)) push(m[0], cnToNumber(m[1]), m.index, m[0].length);
   const rest = text.replace(/百分之[零〇一二两三四五六七八九十百千]+/g, (x) => " ".repeat(x.length));
@@ -463,10 +463,14 @@ const VAGUE_HARD = [
 ];
 export function checkVagueNumbers(md, tokens) {
   const out = [];
-  for (const m of String(md).matchAll(/[几数][十百千]?[十百千万亿]/g)) {
+  const text = String(md);
+  for (const m of text.matchAll(/[几数][十百千]?[十百千万亿]/g)) {
     const rule = VAGUE_HARD.find(([re]) => re.test(m[0]));
     const hit = rule[1].some((w) => tokens.has(w));
-    out.push({ raw: m[0], pass: hit, reason: hit ? null : `约数「${m[0]}」原稿里没有对应说法(${rule[1].join("/")}),疑为自行估算` });
+    // ctx:同一篇出现两次「几十」时,删句兜底靠上下文认出是哪一处(云端实证:缺 ctx → 定位不唯一 → 整集退回)
+    const a = Math.max(0, m.index - 14);
+    const ctx = text.slice(a, m.index + m[0].length + 14).replace(/\n/g, " ");
+    out.push({ raw: m[0], ctx, ctxAt: m.index - a, pass: hit, reason: hit ? null : `约数「${m[0]}」原稿里没有对应说法(${rule[1].join("/")}),疑为自行估算` });
   }
   return out;
 }

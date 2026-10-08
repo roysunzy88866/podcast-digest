@@ -80,8 +80,9 @@ export function locateFailureOffset(md, f) {
   const ctx = String(f.ctx ?? "");
   if (ctx) {
     // raw 在 ctx 里的位置:闸门截 ctx 时 raw 前留了约 14 字 → 取离 14 最近的那次出现
-    let best = -1;
-    for (let i = ctx.indexOf(target); i >= 0; i = ctx.indexOf(target, i + 1)) if (best < 0 || Math.abs(i - 14) < Math.abs(best - 14)) best = i;
+    // C42:闸门给了 raw 在 ctx 里的确切位置(ctxAt)就用它;否则按「前面约 14 字」猜(在正文开头那几个字里会猜错)
+    let best = Number.isInteger(f.ctxAt) && ctx.startsWith(target, f.ctxAt) ? f.ctxAt : -1;
+    if (best < 0) for (let i = ctx.indexOf(target); i >= 0; i = ctx.indexOf(target, i + 1)) if (best < 0 || Math.abs(i - 14) < Math.abs(best - 14)) best = i;
     if (best >= 0) {
       for (const r of [Infinity, 12, 8, 5, 3]) {
         const a = Math.max(0, best - r), b = Math.min(ctx.length, best + target.length + r);
