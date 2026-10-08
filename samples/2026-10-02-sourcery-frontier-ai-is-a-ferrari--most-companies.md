@@ -148,7 +148,7 @@ Jonathan 的「最热观点」：确保 AI 不断前进的最好方式，是**�
 
 - [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)、泛化 (generalization)、蒸馏 (distillation)</span>
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同概念:奖励作弊 (reward hacking)、对齐 (alignment)、智能体 (agent)、泛化 (generalization)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:开放权重模型 (open weight models)、护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同概念:对齐 (alignment)、护栏 (guardrails)、智能体 (agent)、蒸馏 (distillation)</span>
 
 </div>
 <div class="pd-ex">

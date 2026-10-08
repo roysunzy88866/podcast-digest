@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Cory Doctorow]] · [[Jason Lemkin]] · [[Josh Goldberg]] · [[SaaStr]] · [[半人马]] · [[Replit]] · [[反向半人马]] · [[Vercel]] · [[劣化]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Cory Doctorow":1,"Jason Lemkin":2,"Josh Goldberg":2,"SaaStr":1,"半人马":3,"Replit":20,"反向半人马":1,"Vercel":19,"劣化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Cory Doctorow":1,"Jason Lemkin":2,"Josh Goldberg":2,"SaaStr":1,"半人马":3,"Replit":21,"反向半人马":1,"Vercel":19,"劣化":1}</script>
 
 <script>
 (function(){

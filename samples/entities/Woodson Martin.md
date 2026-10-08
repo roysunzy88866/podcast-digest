@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":437,"Mentor":1,"智能体铸造厂":1,"微调":33,"前沿模型":27,"MCP":81,"合规积压清单":1,"企业就绪":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":441,"Mentor":1,"智能体铸造厂":1,"微调":33,"前沿模型":27,"MCP":82,"合规积压清单":1,"企业就绪":2}</script>
 
 <script>
 (function(){

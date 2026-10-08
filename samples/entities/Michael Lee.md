@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":437,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":186,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":441,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":189,"OpenAI":178}</script>
 
 <script>
 (function(){

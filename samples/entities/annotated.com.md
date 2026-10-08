@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lon Harris]] · [[vibe coding]] · [[数据标注]] · [[Chrome 扩展]] · [[赏金]] · [[社交网络]] · [[风险投资]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"vibe coding":46,"数据标注":3,"Chrome 扩展":1,"赏金":1,"社交网络":2,"风险投资":1,"Snowflake":19}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"vibe coding":46,"数据标注":3,"Chrome 扩展":1,"赏金":1,"社交网络":2,"风险投资":1,"Snowflake":20}</script>
 
 <script>
 (function(){

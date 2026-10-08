@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[n8n]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[Lindy]] · [[工作流]] · [[MCP]] · [[人在回路]] · [[自托管]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"n8n":4,"Salesforce":34,"Jan Oberhauser":2,"Wade Foster":2,"Lindy":4,"工作流":13,"MCP":81,"人在回路":21,"自托管":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"n8n":4,"Salesforce":34,"Jan Oberhauser":2,"Wade Foster":2,"Lindy":4,"工作流":13,"MCP":82,"人在回路":21,"自托管":2}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"UiPath":2,"Anthropic":186,"OpenAI":176,"NVIDIA":60,"Fireworks":7,"Hugging Face":29,"智能体":437,"编码智能体":27,"开源":38}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"UiPath":2,"Anthropic":189,"OpenAI":178,"NVIDIA":62,"Fireworks":7,"Hugging Face":30,"智能体":441,"编码智能体":27,"开源":38}</script>
 
 <script>
 (function(){

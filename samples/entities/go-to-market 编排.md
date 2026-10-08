@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Arman Vaziri]] · [[Ramp]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[Snowflake]] · [[Kafka]]
+[[Arman Vaziri]] · [[Ramp]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[TurboPuffer]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":437,"持久化执行":5,"CDP":1,"MCP":81,"护栏":81,"Temporal":5,"Snowflake":19,"Kafka":3}</script>
+<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":441,"持久化执行":5,"CDP":1,"MCP":82,"护栏":84,"Temporal":5,"TurboPuffer":2,"Snowflake":20}</script>
 
 <script>
 (function(){

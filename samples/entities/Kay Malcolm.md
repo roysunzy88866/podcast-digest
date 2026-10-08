@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":10,"智能体":437,"harness":61,"记忆":26,"上下文窗口":16,"护栏":81,"检索":4,"Codex":80,"Git":4,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"Oracle":11,"智能体":441,"harness":61,"记忆":26,"上下文窗口":16,"护栏":84,"检索":4,"Codex":80,"Git":4,"OpenAI":178}</script>
 
 <script>
 (function(){

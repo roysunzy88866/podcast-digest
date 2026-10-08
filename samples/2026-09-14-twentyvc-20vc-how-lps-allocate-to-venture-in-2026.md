@@ -154,9 +154,9 @@ David 用棒球队比喻他对 GP 的要求：你是三垒手就守三垒——�
 
 **换个口味**
 
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
 
 </div>
 </div>

@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Elena Berger]] · [[Sarah Wang]] · [[Simon Mo]] · [[Martin Casado]] · [[vLLM]] · [[Copilot]] · [[开源权重]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"Cursor":83,"Elena Berger":5,"Sarah Wang":4,"Simon Mo":1,"Martin Casado":5,"vLLM":6,"Copilot":12,"开源权重":9,"Microsoft":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"Elena Berger":5,"Sarah Wang":4,"Simon Mo":1,"Martin Casado":5,"vLLM":6,"Copilot":12,"开源权重":9,"Microsoft":29}</script>
 
 <script>
 (function(){

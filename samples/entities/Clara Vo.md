@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Lindquist":1,"Jev":6,"TypeSafe AI":1,"LLM":57,"函数调用":2,"智能体":437,"置信度分数":2,"路由器":1,"实时":2,"浏览器使用":9}</script>
+<script type="application/json" class="pd-epn">{"John Lindquist":1,"Jev":6,"TypeSafe AI":1,"LLM":58,"函数调用":2,"智能体":441,"置信度分数":2,"路由器":1,"实时":2,"浏览器使用":9}</script>
 
 <script>
 (function(){

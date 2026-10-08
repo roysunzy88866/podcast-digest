@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":437,"可观测性":38,"护栏":81,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":16,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":441,"可观测性":38,"护栏":84,"内环与外环":1}</script>
 
 <script>
 (function(){

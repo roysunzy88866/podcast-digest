@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Jonathan]] [[Mali]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Jonathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Kelligan":1,"Obliteration":1,"护栏":81,"红队测试":7,"开源模型":4,"前沿模型":27,"智能体":437,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Jason Kelligan":1,"Obliteration":1,"护栏":84,"红队测试":7,"开源模型":4,"前沿模型":27,"智能体":441,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
 
 <script>
 (function(){

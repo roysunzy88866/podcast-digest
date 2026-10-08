@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]]
+[[Reef Frerichs]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Webflow":2,"Slack":31,"Box":4,"智能体":437,"护栏":81,"产品市场契合":28}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Webflow":2,"Slack":31,"Box":4,"智能体":441,"护栏":84,"产品市场契合":28}</script>
 
 <script>
 (function(){

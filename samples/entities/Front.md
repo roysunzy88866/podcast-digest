@@ -65,7 +65,7 @@ unlisted: true
 
 [[Dan O'Connell]] · [[Craig]] · [[TalkIQ]] · [[Dialpad]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[协调税]] · [[NRR]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"Dan O'Connell":1,"Craig":2,"TalkIQ":1,"Dialpad":1,"Anthropic":186,"OpenAI":176,"智能体":437,"协调税":1,"NRR":4,"客户流失率":3}</script>
+<script type="application/json" class="pd-epn">{"Dan O'Connell":1,"Craig":2,"TalkIQ":1,"Dialpad":1,"Anthropic":189,"OpenAI":178,"智能体":441,"协调税":1,"NRR":4,"客户流失率":3}</script>
 
 <script>
 (function(){

@@ -147,7 +147,7 @@ Navin 认为现在只有两件事真正跑通了：搜索问答(让人变强)和
 
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)、训练 (training)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:SaaS、推理 (inference)、智能体 (agent)</span>
-- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:NVIDIA · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

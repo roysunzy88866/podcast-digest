@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体网站":1,"超个性化":1,"推理":83,"Cerebras":1,"Gemma 4":1,"Adobe Experience Manager":1,"Adobe":5,"PromptFoo":1,"OneLabs":1,"LLM":57}</script>
+<script type="application/json" class="pd-epn">{"智能体网站":1,"超个性化":1,"推理":85,"Cerebras":1,"Gemma 4":1,"Adobe Experience Manager":1,"Adobe":5,"PromptFoo":1,"OneLabs":1,"LLM":58}</script>
 
 <script>
 (function(){

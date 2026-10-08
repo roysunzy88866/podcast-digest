@@ -25,7 +25,7 @@ unlisted: true
 
 [[Fuad]] · [[语音智能体]] · [[OpenInference]] · [[OTEL]] · [[trace]] · [[评估]] · [[延迟]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Fuad":1,"语音智能体":2,"OpenInference":1,"OTEL":1,"trace":4,"评估":5,"延迟":7,"智能体":437}</script>
+<script type="application/json" class="pd-epn">{"Fuad":1,"语音智能体":2,"OpenInference":1,"OTEL":1,"trace":4,"评估":5,"延迟":7,"智能体":441}</script>
 
 <script>
 (function(){

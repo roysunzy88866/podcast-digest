@@ -235,9 +235,9 @@ Dylan 承认这改变了他的看法：到自动化研究员时代，中国的�
 
 **换个口味**
 
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:递归自我改进 (recursive self-improvement)、推理 (inference)</span>
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、算力 (compute)</span>
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课]]<span class="pd-rz">同公司:Meta、OpenAI、SpaceX</span>
-- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)、算力 (compute)、出口管制 (export controls)</span>
 
 </div>
 </div>

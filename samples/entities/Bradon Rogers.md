@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greg":1,"Island":1,"智能体":437,"护栏":81,"MCP":81,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"Greg":1,"Island":1,"智能体":441,"护栏":84,"MCP":82,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":46}</script>
 
 <script>
 (function(){

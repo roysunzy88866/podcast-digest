@@ -32,7 +32,7 @@ unlisted: true
 
 [[Charles Gorintin]] · [[Zilvinas]] · [[Alan]] · [[Kimchi]] · [[Mistral]] · [[Cast.AI]] · [[Stripe]] · [[Anthropic]] · [[OpenAI]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Zilvinas":1,"Alan":1,"Kimchi":1,"Mistral":7,"Cast.AI":1,"Stripe":48,"Anthropic":186,"OpenAI":176,"Claude":91}</script>
+<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Zilvinas":1,"Alan":1,"Kimchi":1,"Mistral":7,"Cast.AI":1,"Stripe":48,"Anthropic":189,"OpenAI":178,"Claude":91}</script>
 
 <script>
 (function(){

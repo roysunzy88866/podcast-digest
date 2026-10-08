@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":186,"Claude":91,"Claude Code":97,"MCP":81,"harness":61,"开源模型":4,"多模型世界":1,"token":32,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":189,"Claude":91,"Claude Code":97,"MCP":82,"harness":61,"开源模型":4,"多模型世界":1,"token":32,"OpenRouter":14}</script>
 
 <script>
 (function(){

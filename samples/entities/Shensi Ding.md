@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":437,"MCP":81,"沙箱":81,"连接器":3,"智能 LLM 路由器":1,"可观测性":38,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":441,"MCP":82,"沙箱":84,"连接器":3,"智能 LLM 路由器":1,"可观测性":38,"后训练":1}</script>
 
 <script>
 (function(){

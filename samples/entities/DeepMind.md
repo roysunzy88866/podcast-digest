@@ -51,7 +51,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Harvey]] · [[后训练]] · [[Amazon]] · [[NVIDIA]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":437,"Google":65,"Anthropic":186,"ChatGPT":100,"Harvey":20,"后训练":1,"Amazon":31,"NVIDIA":60,"Cursor":83}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":178,"智能体":441,"Google":65,"Anthropic":189,"ChatGPT":100,"Harvey":20,"后训练":1,"Amazon":32,"NVIDIA":62,"Cursor":83}</script>
 
 <script>
 (function(){

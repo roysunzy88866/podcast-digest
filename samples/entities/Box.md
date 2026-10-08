@@ -48,6 +48,8 @@ unlisted: true
 
 ![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q11]]
 
+![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q6]]
+
 ## ② 出现在这些集
 
 *4 集*
@@ -63,7 +65,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Aaron Levie]] · [[护栏]] · [[开放权重]] · [[推理]] · [[Jeetu Patel]] · [[Jessica Fain]] · [[Sofia Puccini]] · [[应用层]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":437,"Aaron Levie":2,"护栏":81,"开放权重":8,"推理":83,"Jeetu Patel":1,"Jessica Fain":1,"Sofia Puccini":4,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":441,"Aaron Levie":2,"护栏":84,"开放权重":9,"推理":85,"Jeetu Patel":1,"Jessica Fain":1,"Sofia Puccini":4,"应用层":4}</script>
 
 <script>
 (function(){

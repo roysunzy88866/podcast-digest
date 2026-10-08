@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":437,"harness":61,"上下文":28,"护栏":81,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":441,"harness":61,"上下文":28,"护栏":84,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
 
 <script>
 (function(){

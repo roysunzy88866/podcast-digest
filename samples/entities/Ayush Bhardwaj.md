@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":437,"应用垂直 AI":1,"专有数据":2,"可观测性":38,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"应用垂直 AI":1,"专有数据":2,"可观测性":38,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":21}</script>
 
 <script>
 (function(){

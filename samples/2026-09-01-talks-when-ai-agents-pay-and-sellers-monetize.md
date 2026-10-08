@@ -130,8 +130,8 @@ AWS 在 Bedrock 套件下发布了 [[AgentCore Payments|AgentCore Payments]]，�
 **顺着「智能体」挖下去**
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同公司:AWS、Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:AWS、Anthropic · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-01-talks-teaching-agents-to-pay-anna-spysz-stripe|让 AI 智能体替我买耳机：一场智能体商务的完整实操]]<span class="pd-rz">同公司:Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an|给 AI 智能体发一个钱包：Circle 的纳米支付方案]]<span class="pd-rz">同概念:X402、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

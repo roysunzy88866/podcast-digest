@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Stripe]] · [[Anthropic]] · [[Replit]] · [[Patrick Collison]] · [[Swyx]] · [[David George]] · [[Olivia Moore]] · [[Amjad Masad]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"OpenAI":176,"Stripe":48,"Anthropic":186,"Replit":20,"Patrick Collison":3,"Swyx":2,"David George":6,"Olivia Moore":2,"Amjad Masad":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":178,"Stripe":48,"Anthropic":189,"Replit":21,"Patrick Collison":3,"Swyx":2,"David George":6,"Olivia Moore":2,"Amjad Masad":4}</script>
 
 <script>
 (function(){

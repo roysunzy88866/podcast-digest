@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":9,"灾难性遗忘":3,"持续反向传播":1,"大语言模型":10,"智能体":437,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":9,"灾难性遗忘":3,"持续反向传播":1,"大语言模型":10,"智能体":441,"强化学习":1}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":20,"Cursor":83,"NVIDIA":60,"推理":83,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":21,"Cursor":83,"NVIDIA":62,"推理":85,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[推理]] · [[Young]] · [[Chase Lochmiller]] · [[Nikhil]] · [[Harry Stebbings]] · [[Connor]] · [[NVIDIA]] · [[Slurm]] · [[ChatGPT]] · [[Kubernetes]]
 
-<script type="application/json" class="pd-epn">{"推理":83,"Young":1,"Chase Lochmiller":1,"Nikhil":1,"Harry Stebbings":20,"Connor":1,"NVIDIA":60,"Slurm":1,"ChatGPT":100,"Kubernetes":17}</script>
+<script type="application/json" class="pd-epn">{"推理":85,"Young":1,"Chase Lochmiller":1,"Nikhil":1,"Harry Stebbings":20,"Connor":1,"NVIDIA":62,"Slurm":1,"ChatGPT":100,"Kubernetes":17}</script>
 
 <script>
 (function(){

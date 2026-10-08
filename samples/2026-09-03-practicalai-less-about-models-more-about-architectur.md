@@ -140,8 +140,8 @@ Rackspace 的定位是「从芯片到成果」：与 AMD 合作、自有数据�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、推理 (inference)、生成式 AI (generative AI)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic · 同概念:推理 (inference)、评估 (eval)、护栏 (guardrails)</span>
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:LLM、生成式 AI (generative AI)、护栏 (guardrails)</span>
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同概念:物理 AI (physical AI)、生成式 AI (generative AI)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":437,"沙箱":81,"护栏":81,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":441,"沙箱":84,"护栏":84,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

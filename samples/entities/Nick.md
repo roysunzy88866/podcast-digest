@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":10,"Chris Benson":11,"智能体":437,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":81,"MCP 网关":3}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"智能体":441,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":82,"MCP 网关":3}</script>
 
 <script>
 (function(){

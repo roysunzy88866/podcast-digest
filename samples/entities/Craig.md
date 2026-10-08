@@ -28,7 +28,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[MCP]] · [[Tim Sanders]] · [[Dan O'Connell]] · [[G2]] · [[Front]] · [[ChatGPT]] · [[TalkIQ]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":437,"MCP":81,"Tim Sanders":1,"Dan O'Connell":1,"G2":1,"Front":1,"ChatGPT":100,"TalkIQ":1,"Gemini":15}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":178,"智能体":441,"MCP":82,"Tim Sanders":1,"Dan O'Connell":1,"G2":1,"Front":1,"ChatGPT":100,"TalkIQ":1,"Gemini":15}</script>
 
 <script>
 (function(){

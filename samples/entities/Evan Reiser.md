@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Vineet Edupuganti":1,"Abnormal":1,"Cogent Security":1,"智能体":437,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Vineet Edupuganti":1,"Abnormal":1,"Cogent Security":1,"智能体":441,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":21}</script>
 
 <script>
 (function(){

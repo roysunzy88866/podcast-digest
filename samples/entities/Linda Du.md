@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Angela Strange":2,"Andrew Wang":1,"Valen":1,"抵押贷款服务":1,"智能体":437,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":28,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Angela Strange":2,"Andrew Wang":1,"Valen":1,"抵押贷款服务":1,"智能体":441,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":28,"生成式 AI":2}</script>
 
 <script>
 (function(){

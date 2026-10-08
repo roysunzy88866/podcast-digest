@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Parallel":6,"Amazon":31,"Shopify":17,"OpenAI":176,"Perplexity":9,"智能体":437,"网页搜索":2,"推理":83,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Parallel":6,"Amazon":32,"Shopify":17,"OpenAI":178,"Perplexity":9,"智能体":441,"网页搜索":2,"推理":85,"开源模型":4}</script>
 
 <script>
 (function(){

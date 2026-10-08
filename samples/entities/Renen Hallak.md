@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":60,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":437,"推理":83}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":5,"VastData":1,"NVIDIA":62,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":441,"推理":85}</script>
 
 <script>
 (function(){

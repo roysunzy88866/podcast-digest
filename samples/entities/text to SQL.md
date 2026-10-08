@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>text to SQL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="text to SQL">TE</div><div class="pi"><h1 class="pt">text to SQL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="text to SQL">TE</div><div class="pi"><h1 class="pt">text to SQL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(16:40起):本集说 Chess.com 训练了一个 Slack 机器人做 text to SQL 分析，解决数据请求频道里'南非有多少订阅者''上个月谜题玩了多久'这类一次性问题，不需要数据分析师排队；副作用是问题量爆增，因为人们不好意思问人的问题对着机器人就敢问了。
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(24:05起):本集说 text-to-SQL 从 70 年代就在尝试,裸用现成工具约 60% 准确率,一家大银行砸多年时间和数百万美元建语义层后做到 99.5%——可行但不便宜
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Albert Cheng]] · [[Lenny]] · [[Duolingo]] · [[Grammarly]] · [[Chess.com]] · [[探索与利用]] · [[用户留存]] · [[免费增值]] · [[实验]] · [[复活用户]]
+[[LLM]] · [[Albert Cheng]] · [[Andy Pavlo]] · [[Lenny]] · [[Matt Turk]] · [[Duolingo]] · [[智能体]] · [[Grammarly]] · [[护栏]] · [[Chess.com]]
 
-<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Lenny":68,"Duolingo":4,"Grammarly":2,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":2,"实验":2,"复活用户":1}</script>
+<script type="application/json" class="pd-epn">{"LLM":58,"Albert Cheng":1,"Andy Pavlo":1,"Lenny":68,"Matt Turk":5,"Duolingo":4,"智能体":441,"Grammarly":2,"护栏":84,"Chess.com":2}</script>
 
 <script>
 (function(){

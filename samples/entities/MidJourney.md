@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Elena Berger]] · [[a16z]] · [[Eleven Labs]] · [[Cognition]] · [[Stripe]] · [[Shopify]] · [[Gabriel Vasquez]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":437,"Anthropic":186,"Elena Berger":5,"a16z":18,"Eleven Labs":9,"Cognition":25,"Stripe":48,"Shopify":17,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":178,"智能体":441,"Anthropic":189,"Elena Berger":5,"a16z":18,"Eleven Labs":9,"Cognition":25,"Stripe":48,"Shopify":17,"Gabriel Vasquez":1}</script>
 
 <script>
 (function(){

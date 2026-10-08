@@ -132,8 +132,8 @@ Tom Hanks 出演了《阿甘正传》,Robert Zemeckis 导演了它——两个 p
 **顺着「智能体」挖下去**
 
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:Docker、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Neo4j · 同概念:智能体 (agent)、智能体记忆 (agent memory)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

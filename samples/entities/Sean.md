@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":31,"机器人":12,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":32,"机器人":12,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

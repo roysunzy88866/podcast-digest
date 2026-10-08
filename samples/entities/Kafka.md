@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Justin Smith]] · [[Arman Vaziri]] · [[Matt Jones]] · [[Resolve AI]] · [[Ramp]] · [[Adyen]] · [[Splunk]] · [[go-to-market 编排]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"MCP":81,"Justin Smith":1,"Arman Vaziri":1,"Matt Jones":1,"Resolve AI":2,"Ramp":10,"Adyen":2,"Splunk":3,"go-to-market 编排":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"MCP":82,"Justin Smith":1,"Arman Vaziri":1,"Matt Jones":1,"Resolve AI":2,"Ramp":10,"Adyen":2,"Splunk":3,"go-to-market 编排":1}</script>
 
 <script>
 (function(){

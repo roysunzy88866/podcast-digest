@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Atallah":2,"OpenRouter":14,"Stripe":48,"Anthropic":186,"Discord":6,"OpenAI":176,"MidJourney":4,"OpenSea":1,"Mistral":7,"开放权重":8}</script>
+<script type="application/json" class="pd-epn">{"Alex Atallah":2,"OpenRouter":14,"Stripe":48,"Anthropic":189,"Discord":6,"OpenAI":178,"MidJourney":4,"OpenSea":1,"Mistral":7,"开放权重":9}</script>
 
 <script>
 (function(){

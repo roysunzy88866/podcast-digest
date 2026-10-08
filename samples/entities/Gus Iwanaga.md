@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":4,"编排器":4,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":81,"沙箱":81}</script>
+<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":4,"编排器":4,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":82,"沙箱":84}</script>
 
 <script>
 (function(){

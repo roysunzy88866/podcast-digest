@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":176,"ChatGPT":100,"智能体":437,"护栏":81,"ChatGPT work":1,"Dots":3,"harness":61,"Notion":16,"Rust":5}</script>
+<script type="application/json" class="pd-epn">{"Codex":80,"OpenAI":178,"ChatGPT":100,"智能体":441,"护栏":84,"ChatGPT work":1,"Dots":3,"harness":61,"Notion":16,"Rust":5}</script>
 
 <script>
 (function(){

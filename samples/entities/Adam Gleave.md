@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":9,"护栏":81,"探针":3,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":9,"护栏":84,"探针":3,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
 
 <script>
 (function(){

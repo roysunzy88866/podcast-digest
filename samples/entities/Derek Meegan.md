@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Browserbase":4,"浏览器智能体":1,"智能体":437,"工具调用":4,"计算机使用":21,"无障碍树":1,"可观测性":38,"模型成本":1,"反机器人机制":1,"技能":29}</script>
+<script type="application/json" class="pd-epn">{"Browserbase":4,"浏览器智能体":1,"智能体":441,"工具调用":4,"计算机使用":21,"无障碍树":1,"可观测性":38,"模型成本":1,"反机器人机制":1,"技能":29}</script>
 
 <script>
 (function(){

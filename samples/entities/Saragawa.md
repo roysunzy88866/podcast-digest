@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":29,"Azure":3,"GitHub":30,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":61,"轨迹":4,"智能体":437}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":29,"Azure":3,"GitHub":30,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":61,"轨迹":4,"智能体":441}</script>
 
 <script>
 (function(){

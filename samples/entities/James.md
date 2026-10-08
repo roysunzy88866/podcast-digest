@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":437,"沙箱":81,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":5,"Anthropic":186,"Cloudflare":15,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":441,"沙箱":84,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":5,"Anthropic":189,"Cloudflare":15,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

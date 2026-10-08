@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":19,"Anthropic":186,"Discord":6,"Twitter":7,"智能体":437,"红队测试":7,"提示词注入":1,"越狱":2}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":20,"Anthropic":189,"Discord":6,"Twitter":7,"智能体":441,"红队测试":7,"提示词注入":1,"越狱":2}</script>
 
 <script>
 (function(){

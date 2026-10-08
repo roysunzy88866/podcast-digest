@@ -137,9 +137,9 @@ Harry 分享了一个用例：他用智能体监控欧洲各国公司注册机�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Amazon、OpenAI · 同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon、OpenAI、Shopify · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:OpenAI · 同概念:对齐 (alignment)、护栏 (guardrails)、智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

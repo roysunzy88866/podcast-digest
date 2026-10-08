@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":437,"计算机使用":21,"MCP":81,"网络安全":3,"基于使用量的计费":2,"推理":83,"奇点":1}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":441,"计算机使用":21,"MCP":82,"网络安全":3,"基于使用量的计费":2,"推理":85,"奇点":1}</script>
 
 <script>
 (function(){

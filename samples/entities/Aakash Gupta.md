@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":91,"Claude Code":97,"智能体":437,"对抗性智能体":1,"MCP":81,"知识库":2,"技能":29,"vibe coding":46,"红队测试":7}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":91,"Claude Code":97,"智能体":441,"对抗性智能体":1,"MCP":82,"知识库":2,"技能":29,"vibe coding":46,"红队测试":7}</script>
 
 <script>
 (function(){

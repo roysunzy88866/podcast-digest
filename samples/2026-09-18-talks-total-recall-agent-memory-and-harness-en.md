@@ -113,9 +113,9 @@ harness 的第一层是存储：记忆到底放哪。从一月起业界一直在
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同嘉宾:Oracle · 同概念:MCP、RAG、智能体 (agent)、智能体记忆 (agent memory)、语义层 (semantic layer)</span>
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:RAG、智能体 (agent)、语义层 (semantic layer)、MCP</span>
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈]]<span class="pd-rz">同嘉宾:Oracle · 同公司:Codex · 同概念:上下文窗口 (context window)、智能体 (agent)</span>
-- [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG、上下文窗口 (context window)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

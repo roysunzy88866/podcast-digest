@@ -1,0 +1,1199 @@
+{
+  "episode_id": "2026-10-08-a16z-building-the-cloud-for-an-agentic-world",
+  "podcast": "The a16z Show",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 基础设施",
+    "云计算",
+    "智能体",
+    "自研芯片",
+    "GPU 供给"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "raguraguram",
+      "type": "person",
+      "role": "host",
+      "name": "Raguraguram",
+      "file": "Raguraguram",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            65.802,
+            76.068
+          ],
+          "quote": "In this episode, E16Z's Raguraguram sits down with Matt to unpack what's driving one of the largest infrastructure build-outs in history and how AI is changing the cloud itself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "matt-garman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Garman",
+      "file": "Matt Garman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.177,
+            64.922
+          ],
+          "quote": "Amazon plans to spend $220 billion in capital this year, and AWS CEO Matt Garman says they don't anticipate slowing down anytime soon.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.654,
+            3.395
+          ],
+          "quote": "Agented workflows tend to perform better on AWS than anywhere else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            21.643,
+            26.725
+          ],
+          "quote": "From the very beginning of when we launched AWS, startups have been the lifeblood of the core of what we do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            56.177,
+            64.922
+          ],
+          "quote": "Amazon plans to spend $220 billion in capital this year, and AWS CEO Matt Garman says they don't anticipate slowing down anytime soon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            76.788,
+            87.513
+          ],
+          "quote": "They discuss how AWS decides who gets scarce GPU capacity, the shifting bottlenecks from power and ships to memory and construction, and the company's bet on custom silicon like Tranium.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            93.815,
+            104.26
+          ],
+          "quote": "And that shares what AWS is seeing inside its own teams, where agents now write code and engineers increasingly manage teams of agents, accelerating how quickly new products can be built.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            186.122,
+            187.883
+          ],
+          "quote": "Trying to now get all of that to move into AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            196.249,
+            201.533
+          ],
+          "quote": "And today, the AWS cloud service, I mean, as you reflect on the evolution, what stands out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            211.189,
+            216.352
+          ],
+          "quote": "So I actually interned for AWS in 2005 when we were first kind of was an internal project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            218.053,
+            223.156
+          ],
+          "quote": "And my project was actually to come up with an analysis of who we thought AWS would be most interesting to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            226.838,
+            233.142
+          ],
+          "quote": "And so from the very beginning of when we launched AWS, startups have been the lifeblood of the core of what we do for a number of reasons.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            233.242,
+            237.064
+          ],
+          "quote": "One is the value proposition is just so attractive, what AWS provides to startups.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            258.028,
+            266.551
+          ],
+          "quote": "Today, we estimate that maybe 30-40% of AWS revenue comes from companies that was a one-time startup in AWS's lifetime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            378.66,
+            387.507
+          ],
+          "quote": "I am set up so that when I have more than three employees, this thing is going to work in scale, which is a lot of times why they like AWS as opposed to just going to a NeoCloud or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            473.398,
+            481.201
+          ],
+          "quote": "It's called AWS Context that allows you to build a context layer so that agents can actually more easily find all of the data they want across your various data lakes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            481.661,
+            494.725
+          ],
+          "quote": "And so whether you have your data stored in Aurora or you have it in S3 or you have it in somewhere else in AWS can kind of build this context layer where when people aren't necessarily going to access data in that way, but agents actually are happy to go across lots of those different things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            519.444,
+            523.308
+          ],
+          "quote": "That's why agentic workflows tend to perform better on AWS than anywhere else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            540.093,
+            546.735
+          ],
+          "quote": "So has there been a lot of thinking that, and obviously they did the documentation, has there been a lot of thinking on the AWS",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            571.397,
+            579.585
+          ],
+          "quote": "We find the vast majority of our customers will go and tell their coding agent, whether it's Kiro, whether it's Claude, whether it's Codex, they'll say, I want to build on AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            597.898,
+            603.943
+          ],
+          "quote": "But I do think that there are some things that we're doing where if you're brand new, you don't already have an AWS, you already haven't set up your IAM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            627.458,
+            630.74
+          ],
+          "quote": "And so what we've actually launched is if you go create a new AWS account today,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            643.501,
+            655.69
+          ],
+          "quote": "And within less than 30 seconds, you're up and running and can be operating a full AWS account, which is, you know, for those type of systems, much more what the agents want to be able to do because they don't want to have to go through all of that setting up your VPCs and your",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            681.454,
+            687.276
+          ],
+          "quote": "You can easily come just, you're, you're already in a real AWS account and you can actually then go and do all of those things later when you need them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1198.752,
+            1210.036
+          ],
+          "quote": "When did your CapEx cross, I mean, pure AWS, I mean, Amazon was a bigger company, cross like, let's call it even 1 billion or 10 billion a year?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1237.095,
+            1240.158
+          ],
+          "quote": "And obviously, the AWS business is a good one that we like to invest in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1308.17,
+            1318.116
+          ],
+          "quote": "For one, I think we have a lot less risk on one particular customer, but also because we have that rich set of services, like AWS is where people really are coming to launch their production workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1424.942,
+            1427.402
+          ],
+          "quote": "The potential for AWS is really, really large.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1966.985,
+            1973.232
+          ],
+          "quote": "It's actually a fascinating story, and I think it's a great example of where Amazon AWS will innovate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2617.512,
+            2626.678
+          ],
+          "quote": "It's why you've seen so many FDE teams kind of spin up and AWS's and our partners are really leaning into the FDE motion to go and help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2794.013,
+            2799.758
+          ],
+          "quote": "And now, as people move from proof of concepts to production, vast majority of them are landing in AWS on Bedrock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2873.012,
+            2877.013
+          ],
+          "quote": "But actually, like, if you go look at where are people doing that, they actually do it in SageMaker on AWS today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3061.206,
+            3062.687
+          ],
+          "quote": "So with the AWS itself,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3184.032,
+            3188.533
+          ],
+          "quote": "I think you can see this where, you know, AWS has always been known for rolling out features really quickly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3273.13,
+            3285.815
+          ],
+          "quote": "And so thinking about how do you both operate and maintain the things that you built while being agile and flexible to move around on an organization that's as big as AWS is active things that we're experimenting with and playing with.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.177,
+            64.922
+          ],
+          "quote": "Amazon plans to spend $220 billion in capital this year, and AWS CEO Matt Garman says they don't anticipate slowing down anytime soon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1198.752,
+            1210.036
+          ],
+          "quote": "When did your CapEx cross, I mean, pure AWS, I mean, Amazon was a bigger company, cross like, let's call it even 1 billion or 10 billion a year?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1966.985,
+            1973.232
+          ],
+          "quote": "It's actually a fascinating story, and I think it's a great example of where Amazon AWS will innovate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3088.524,
+            3093.665
+          ],
+          "quote": "And so we rolled out Amazon Quick to every single Amazon employee.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:智能体正在改写云的设计假设——瞬态数据库、计算沙箱、智能体专用权限、尾部延迟敏感、亚 30 秒开户;AWS 内部『智能体写所有代码,工程师管理智能体团队』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.555,
+            8.117
+          ],
+          "quote": "Compute sandboxes, gateways, agent permissions versus people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            571.397,
+            579.585
+          ],
+          "quote": "We find the vast majority of our customers will go and tell their coding agent, whether it's Kiro, whether it's Claude, whether it's Codex, they'll say, I want to build on AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            784.244,
+            790.006
+          ],
+          "quote": "And for the agent use case, that's, that's arguably, or maybe not arguably like over-engineered for, for what we need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            856.988,
+            871.33
+          ],
+          "quote": "And so compute sandboxes, gateways, agent permissions versus people or service role permissions, a lot of those are things that we have built and are building and thinking actively about because they are just brand new building blocks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            891.038,
+            895.62
+          ],
+          "quote": "You may want to get very fine-grained commissions of what an agent's able to do from a sandbox, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2437.417,
+            2444.661
+          ],
+          "quote": "I think what we originally saw was that enterprises had a workflow and they're saying, great, I would have an agent go do the same workflow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2445.662,
+            2455.769
+          ],
+          "quote": "And what we encourage them to really do is think, not just replicate, you know, Bob does step one, two, three, four, five, so agent is going to do one step one, two, three, four, five, and then Bob's going to check it at the end.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2457.31,
+            2461.693
+          ],
+          "quote": "You want to actually step back and say, if I want to accomplish something, how can an agent do it differently?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2530.503,
+            2545.438
+          ],
+          "quote": "To help enterprises feel like their systems are secure and that they can trust an agent to make a decision, that they can have the right guardrails, that it can have the right permissions on their data, that it's not going to delete production systems, that it's not going to make tragic mistakes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2553.221,
+            2557.182
+          ],
+          "quote": "Like you don't actually want an agent to just go crazy and accidentally delete a production database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2812.127,
+            2819.333
+          ],
+          "quote": "Agent core, we build these building blocks so it's easier to build agents with any of the models that you want, whether they're in Bedrock or out of Bedrock, for that matter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2967.624,
+            2974.627
+          ],
+          "quote": "And so we spend a lot of time with our customers thinking about how do you think about safe agent deployment and get better over time?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3202.277,
+            3204.419
+          ],
+          "quote": "Agent first, the agents write all of the code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 是最稀缺资源,AWS 刻意不做『全部卖给前沿实验室』的分配,约 60% 的申请最终以某种形式获批,并计划买入 200 万块 NVIDIA GPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            76.788,
+            87.513
+          ],
+          "quote": "They discuss how AWS decides who gets scarce GPU capacity, the shifting bottlenecks from power and ships to memory and construction, and the company's bet on custom silicon like Tranium.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            962.738,
+            968.961
+          ],
+          "quote": "I mean, obviously, you guys are running massive GPU farms and increasing it every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1097.194,
+            1110.905
+          ],
+          "quote": "And so what we do is we actually do allocate and we basically say, okay, we're going to keep, you're right, we could sell every single GPU or AI accelerator we had to probably just the big frontier labs and call it a day.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "trainium",
+      "type": "concept",
+      "role": "concept",
+      "name": "Trainium",
+      "file": "Trainium",
+      "primary": true,
+      "how_described": "AWS 自研芯片,第三代 Trainium 3 已在市、容量卖到明年年底;本集称它从绝对性能和性价比看可能是当下市场上最好的推理芯片,Bedrock 大部分推理流量跑在它上面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 503,
+          "t": [
+            2272.901,
+            2283.13
+          ],
+          "quote": "Originally, we had a chip called Inferentia for Inference and Trainium for Training, and then as the models got bigger and bigger, and it turns out you actually want to run the inference on these really large systems, it turns out that...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "graviton",
+      "type": "concept",
+      "role": "concept",
+      "name": "Graviton",
+      "file": "Graviton",
+      "primary": true,
+      "how_described": "本集说 Graviton 是从 Nitro 卸载卡上的 ARM 内核长出的服务器芯片,便宜 20%、性能好 20%,前 100 大客户 90% 以上在用,是『客户降低账单最简单的一条路』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 443,
+          "t": [
+            1953.991,
+            1958.676
+          ],
+          "quote": "And since then, Graviton made tremendous progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2108.38,
+            2110.182
+          ],
+          "quote": "And we did that first with Graviton.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2118.364,
+            2137.571
+          ],
+          "quote": "And so we went down the path and, and Graviton, you know, and part of what we did is we looked and saw that there's the, the slope of, you know, ARM cores were getting faster and where the, you saw the power utilization and the graph where they, and you knew the intercept was going to happen for where this architecture was going to be really good for, for parts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2141.393,
+            2144.914
+          ],
+          "quote": "So we did that with Graviton, and Graviton's been a runaway hit at this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2146.035,
+            2148.516
+          ],
+          "quote": "Have you been public about what percent of your fleet is Graviton?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2148.536,
+            2156.219
+          ],
+          "quote": "We land more Graviton ships every year than any other type.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2168.383,
+            2178.53
+          ],
+          "quote": "So that's an easy value proposition that, and I think the vast majority, something like 90 plus percent of our top 100 customers all use Graviton in some way, shape or form across their fleets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2182.292,
+            2185.955
+          ],
+          "quote": "It's been the single easiest way that customers lower their bill is to move to Graviton.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bedrock",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bedrock",
+      "file": "Bedrock",
+      "primary": true,
+      "how_described": "AWS 的模型托管服务,本集强调其差异化是保证数据永不离开你的 VPC、模型提供商永远看不到你的提示词;企业从概念验证走向生产时绝大多数落在 Bedrock 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            452.602,
+            455.823
+          ],
+          "quote": "So we have things like AgentCore and Bedrock and pieces like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2238.445,
+            2242.269
+          ],
+          "quote": "The majority of traffic on Bedrock all runs on Terranium.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2314.189,
+            2319.751
+          ],
+          "quote": "And as I said, Bedrock, it drives much of the Bedrock inference today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2717.634,
+            2720.115
+          ],
+          "quote": "And so from the very beginning, it's why we built Bedrock like we did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2724.598,
+            2730.521
+          ],
+          "quote": "And so if you're running inside of Bedrock, your data doesn't go back to the model provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2735.723,
+            2741.526
+          ],
+          "quote": "And so that is why enterprises kind of run, they prefer to run on top of Bedrock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2750.411,
+            2755.073
+          ],
+          "quote": "And it's why you see OpenAI workloads migrating to Bedrock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2757.675,
+            2771.483
+          ],
+          "quote": "I mean, so whether you're using open models or closed frontier models, I think Bedrock is a great solution that our customers told us, by the way, like, you know, we, if you remember three years ago, I got a lot of heat.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2773.184,
+            2774.244
+          ],
+          "quote": "Yeah, Bedrock is a good name.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2794.013,
+            2799.758
+          ],
+          "quote": "And now, as people move from proof of concepts to production, vast majority of them are landing in AWS on Bedrock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2812.127,
+            2819.333
+          ],
+          "quote": "Agent core, we build these building blocks so it's easier to build agents with any of the models that you want, whether they're in Bedrock or out of Bedrock, for that matter.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是智能体时代全新的云构建块之一,细粒度规定智能体能做什么;大量沙箱创业公司都在用 AWS 的 Firecracker。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            891.038,
+            895.62
+          ],
+          "quote": "You may want to get very fine-grained commissions of what an agent's able to do from a sandbox, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            895.64,
+            898.582
+          ],
+          "quote": "You actually want a sandbox that you want to...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            914.978,
+            917.779
+          ],
+          "quote": "In fact, a lot of the sandbox companies, startups use Firepower.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Firecracker",
+      "file": "Firecracker",
+      "primary": true,
+      "how_described": "AWS 的微型虚拟机,约 10 年前发明、并非为智能体而生,但启动快、安全边界好、虚拟化开销小,意外成了行业标配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            909.653,
+            914.398
+          ],
+          "quote": "Unfortunately, we've done a lot of work with Firecracker, our kind of micro VMs,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集反复谈推理:AWS 大部分用量来自核心计算、存储与推理;Trainium 虽名为训练芯片却成了最好的推理芯片之一,驱动 Bedrock 大部分推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1321.878,
+            1325.919
+          ],
+          "quote": "Either core compute and storage and inference, which is part of that application.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2257.828,
+            2262.232
+          ],
+          "quote": "The name suggests it's a training chip, but everybody's using it for inference, too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2272.901,
+            2283.13
+          ],
+          "quote": "Originally, we had a chip called Inferentia for Inference and Trainium for Training, and then as the models got bigger and bigger, and it turns out you actually want to run the inference on these really large systems, it turns out that...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2283.37,
+            2292.036
+          ],
+          "quote": "It turns out that Terranium is actually maybe the best inference chip on the market right now from an absolute performance and cost performance point of view.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2310.907,
+            2314.129
+          ],
+          "quote": "And so we're, you know, we use it a ton for, for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2314.189,
+            2319.751
+          ],
+          "quote": "And as I said, Bedrock, it drives much of the Bedrock inference today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2877.093,
+            2880.454
+          ],
+          "quote": "They actually host the inference via SageMaker.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (eval)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说企业落地智能体的最大短板是不会做 eval——持续测试循环、数据打标签、生产度量与回测防漂移,『今天没有谁真的特别擅长』,这也是 FDE 服务存在的理由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 568,
+          "t": [
+            2582.597,
+            2589.019
+          ],
+          "quote": "So are enterprises learning how to do eval systems and so on and so forth to keep the agents...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2599.361,
+            2604.703
+          ],
+          "quote": "How do you have your data labeled in such a way that it actually even makes sense that the eval can actually kind of...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2659.562,
+            2667.728
+          ],
+          "quote": "And in 45 days, do work where we can teach them how to make an eval, teach them how to get their data in a labeled way, work alongside with them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2866.27,
+            2868.551
+          ],
+          "quote": "They actually have a good eval to actually prove that that's true.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说企业要信任自主智能体,就得配好护栏、权限、是否有人在回路,确保智能体不会删掉生产数据库、不犯悲剧性错误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 558,
+          "t": [
+            2530.503,
+            2545.438
+          ],
+          "quote": "To help enterprises feel like their systems are secure and that they can trust an agent to make a decision, that they can have the right guardrails, that it can have the right permissions on their data, that it's not going to delete production systems, that it's not going to make tragic mistakes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2958.576,
+            2961.28
+          ],
+          "quote": "How do you make sure that you have the right set of guardrails?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weights)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说企业用开放权重模型混入专有数据做后训练、微调并蒸馏,能以更低价格得到更好的模型,大多数人今天在 SageMaker 上做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 625,
+          "t": [
+            2832.397,
+            2842.119
+          ],
+          "quote": "You talk about open weights models though, I do think that there's a scenario that I'm excited about where we're really ramping up our support of open weights models and trying to build a good",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2852.647,
+            2863.67
+          ],
+          "quote": "Meaningful proprietary data that if they could mix in, you know, do some post-training, do some fine-tuning to an open weights model that they could distill down, they can actually get a better performing model at a lower price.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2902.208,
+            2904.549
+          ],
+          "quote": "And to test across different open-weights models, things like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集称 Anthropic 是 AWS 大客户与前沿实验室代表,与 AWS 有基于 Trainium 构建的协议,且工作负载在 Bedrock 上快速增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 496,
+          "t": [
+            2242.369,
+            2251.097
+          ],
+          "quote": "And we have great deals with both Anthropic and OpenAI to build on top of Terranium, as well as a set of smaller startups.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2755.113,
+            2757.655
+          ],
+          "quote": "It's why you see Anthropic really growing really rapidly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到 OpenAI 是 AWS 大客户、有基于 Trainium 构建的协议,其工作负载也在向 Bedrock 迁移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1062.475,
+            1070.224
+          ],
+          "quote": "And so we're great partners with the large frontier labs, the Anthropics and OpenAI and Meta and other large customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2242.369,
+            2251.097
+          ],
+          "quote": "And we have great deals with both Anthropic and OpenAI to build on top of Terranium, as well as a set of smaller startups.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2750.411,
+            2755.073
+          ],
+          "quote": "And it's why you see OpenAI workloads migrating to Bedrock.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sagemaker",
+      "type": "concept",
+      "role": "concept",
+      "name": "SageMaker",
+      "file": "SageMaker",
+      "primary": true,
+      "how_described": "本集说 SageMaker 正获得新生:从模型构建平台变成企业做后训练、微调、蒸馏开放权重模型并托管推理的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 630,
+          "t": [
+            2869.191,
+            2870.851
+          ],
+          "quote": "Most people are doing that in SageMaker today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2873.012,
+            2877.013
+          ],
+          "quote": "But actually, like, if you go look at where are people doing that, they actually do it in SageMaker on AWS today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2877.093,
+            2880.454
+          ],
+          "quote": "They actually host the inference via SageMaker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2880.654,
+            2882.134
+          ],
+          "quote": "SageMaker is getting a new lease of life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2893.702,
+            2896.604
+          ],
+          "quote": "And so that is, SageMaker is a great place of doing that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tail-latencies",
+      "type": "concept",
+      "role": "concept",
+      "name": "尾部延迟 (tail latencies)",
+      "file": "尾部延迟",
+      "primary": true,
+      "how_described": "本集说智能体非常在意 P999 这类尾部延迟、会被它卡住,而人不在乎——这正是智能体化工作流在 AWS 上表现最好的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            505.252,
+            513.8
+          ],
+          "quote": "They actually care a lot about tail latencies, which is interesting, where people don't always care about the P999 S3 latency, like agents do care and get blocked by that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

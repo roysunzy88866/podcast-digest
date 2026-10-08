@@ -1,0 +1,657 @@
+{
+  "episode_id": "2026-10-08-practicalai-narrative-intelligence-and-the-human-adv",
+  "podcast": "Practical AI",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 与个人成长",
+    "叙事智能",
+    "领导力与身份",
+    "创业心态",
+    "AI 采纳与智能体"
+  ],
+  "categories": [
+    "职业与个人成长",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            56.365
+          ],
+          "quote": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            56.365
+          ],
+          "quote": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "reef-frerichs",
+      "type": "person",
+      "role": "cohost",
+      "name": "Reef Frerichs",
+      "file": "Reef Frerichs",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            58.39,
+            89.1
+          ],
+          "quote": "It's, it's going great. You know, the the story continues. There's there's ups and ups and downs along the way, and, you know, very, very blessed overall and and really blessed today to have an episode that I've been looking forward to recording for some time. Back in in part of our journey as a company, we were going through an accelerator program with Intel called Intel Ignite. And through that program, met our guest today, Reef Frerichs, is a lot of things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "narrative-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "叙事智能 (narrative intelligence)",
+      "file": "叙事智能",
+      "primary": true,
+      "how_described": "本集核心概念：把你的独特自我提取到你的故事里，并实时地演变它——不同于会让人卡住的讲故事，创始人和领导者需要持续更新自己故事的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            426.335,
+            454.935
+          ],
+          "quote": "And that really is what sort of informed, you know, what I'm calling right now a little bit around narrative intelligence, but it's really about how extract your unique self into your story and evolve it in real time. Because with AI, everybody's, you know, excited about AI, but also fearful of AI. And so there's this constant back and forth. And so how do you continuously adapt is is sort of what happens throughout all of the coaching and and work I'm doing right now.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 25,
+          "t": [
+            454.935,
+            473.1
+          ],
+          "quote": "You you mentioned... So I'm kinda coming in cold with... You you and Daniel have been through this experience together and stuff. You mentioned narrative intelligence, and could you kind of take me through what that means a little bit? You've referenced it, but I'm not sure I'm there yet, and then maybe kinda...",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 27,
+          "t": [
+            482.845,
+            503.395
+          ],
+          "quote": "on So it's obviously artificial intelligence, you know, was sort of, you know, started thinking about it, and, you know, the more we were diving into some of the research and work, we started realizing, like, we live inside stories. So much of our decision making, our choices, everything's... From the moment we wake up, we're inside of a story. Right? And so I started looking at, like, you know, narrative intelligence.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 29,
+          "t": [
+            520.17,
+            549.51
+          ],
+          "quote": "And so as I started, you know, interviewing people and working with people, I started thinking what what could become more real time around, like, what could become narrative intelligence? Storytelling has its place, obviously, and for a leader or founder raising money, talk pitching a customer. But a lot of times, storytelling, people get stuck in the stories and they don't evolve them. And so that's when I started thinking like, things are changing for a startup founder every day. And there's there's new information and there's new there's new audiences.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 34,
+          "t": [
+            593.155,
+            610.1
+          ],
+          "quote": "A lot of interesting perspectives, questions, curious about what you were just asking. What is this narrative intelligence and how are you, you know, coaching it? And so what it really came out of all of that is people are afraid about the future. They're they're trying to... A lot of them are in transitions from one career.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1012.23505,
+            1060.67
+          ],
+          "quote": "There were ideas as you were talking that were resonating like I was going, Well, I do this and I do that, and I think that's helped my... This obviously helps at work. This thing has helped at home as we're using different models and chats, all the things, and so agents these days. What are some of the things, like if you're trying to get focused now on developing narrative intelligence, and you want to use tools in a more focused way to help yourself develop your story, as you've discussed, Can you kind of focus me? Can you kind of take me a path on what that means, and instead of me just kind of doing whatever I'm doing eclectically, kind of give strategy.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 100,
+          "t": [
+            1797.92,
+            1852.71
+          ],
+          "quote": "I love how Reed in this episode is helping us understand narrative intelligence, how we can keep up in this rapidly changing world of AI. And part of that is us as individuals, as leaders, as organizations taking ownership of where we are in our AI adoption and AI journey. And I see so frequently that organizations are not prepared for this next phase of autonomous agents, where organizations will have a fleet of agents operating with agency in company infrastructure with access to critical systems. That's why I'm so privileged to be leading an amazing team of folks over at Prediction Guard. I founded the company three and a half years ago, and we provide an AI control plane that you run-in your infrastructure to keep sovereign control over the agents operating in your infrastructure.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 102,
+          "t": [
+            1901.3099,
+            1952.315
+          ],
+          "quote": "Well, Reed, you you started to go this direction, which I'm really curious about this this idea of identity and the identities that we take on and the roles that that we're... You know, what what we're trying to achieve in terms of of outcome. And I think this brings up this tension where people are trying to figure out what is my uniquely human role within the world of AI, what is kinda preserved that artificial intelligence doesn't do, and maybe narrative intelligence and other forms of my own, you know, identity and role does, you know, does stay there. And I love, you know, I love that you're on coming from your background kind of through storytelling, through acting, all of these things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "storytelling",
+      "type": "concept",
+      "role": "concept",
+      "name": "讲故事 (storytelling)",
+      "file": "讲故事",
+      "primary": true,
+      "how_described": "本集把它与叙事智能对照：对融资、路演有用，但人们常卡在自己的故事里不去演变；也是 Reef 从影视行业进入科技世界的通道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            334.655,
+            344.815
+          ],
+          "quote": "Sure. And, like, that storytelling piece, how has that evolved to connect with with the with the tech world, with, you know, some of your current ventures?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 29,
+          "t": [
+            520.17,
+            549.51
+          ],
+          "quote": "And so as I started, you know, interviewing people and working with people, I started thinking what what could become more real time around, like, what could become narrative intelligence? Storytelling has its place, obviously, and for a leader or founder raising money, talk pitching a customer. But a lot of times, storytelling, people get stuck in the stories and they don't evolve them. And so that's when I started thinking like, things are changing for a startup founder every day. And there's there's new information and there's new there's new audiences.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 102,
+          "t": [
+            1901.3099,
+            1952.315
+          ],
+          "quote": "Well, Reed, you you started to go this direction, which I'm really curious about this this idea of identity and the identities that we take on and the roles that that we're... You know, what what we're trying to achieve in terms of of outcome. And I think this brings up this tension where people are trying to figure out what is my uniquely human role within the world of AI, what is kinda preserved that artificial intelligence doesn't do, and maybe narrative intelligence and other forms of my own, you know, identity and role does, you know, does stay there. And I love, you know, I love that you're on coming from your background kind of through storytelling, through acting, all of these things.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 146,
+          "t": [
+            2585.61,
+            2595.53
+          ],
+          "quote": "So I I go back to... To answer your question, I go back to a lot of the dreams and sorta vision I had around storytelling and how to how to move people.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "own-author-and-act",
+      "type": "concept",
+      "role": "concept",
+      "name": "拥有、书写、行动 (own, author, and act)",
+      "file": "拥有、书写、行动",
+      "primary": true,
+      "how_described": "Reef 从表演训练、教练、心理学和神经科学提炼的三步过程：每天承认自己所处位置、书写下一章、迈出第一个哪怕很小的行动——行动最难，因为不确定性挡路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            656.26,
+            684.95
+          ],
+          "quote": "And what I really came up with is a three step process, which is own, author, and act. You know, show up each day and own where you're at, whether you like it or not or whether you're neutral on it, but own where you are in your journey. You know, look at ways that you can extract the learnings forward and then author this next chapter, this next phase for you. It could be that week, that quarter, that next milestone, but learn to author it. And what I found in the coaching was a lot of times it required a little reframing of your story.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 39,
+          "t": [
+            697.355,
+            722.24
+          ],
+          "quote": "I don't think I can do this. And she was from another country, and she just had a lot of fear around it. And again, as we dove deeper into the work, she just really needed to kind of reframe her story and where she was to that point. And what she started to realize is she she gained a lot of confidence and saw that she could become CEO. And so own, author, and act, and act is the hardest thing because oftentimes, we don't step into that first action step.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "reframing",
+      "type": "concept",
+      "role": "concept",
+      "name": "重新框架 (reframing)",
+      "file": "重新框架",
+      "primary": true,
+      "how_described": "本集说书写新篇章往往需要对故事做重新框架——例中那位女创始人重新看待自己的来路后，才看见自己可以成为 CEO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            656.26,
+            684.95
+          ],
+          "quote": "And what I really came up with is a three step process, which is own, author, and act. You know, show up each day and own where you're at, whether you like it or not or whether you're neutral on it, but own where you are in your journey. You know, look at ways that you can extract the learnings forward and then author this next chapter, this next phase for you. It could be that week, that quarter, that next milestone, but learn to author it. And what I found in the coaching was a lot of times it required a little reframing of your story.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "impostor-syndrome",
+      "type": "concept",
+      "role": "concept",
+      "name": "冒名顶替综合征 (impostor syndrome)",
+      "file": "冒名顶替综合征",
+      "primary": true,
+      "how_described": "本集说它人人都有：'如果你没有冒名顶替综合征，那你可能哪里有问题'，应对之道是接纳并把它常态化，而非消除。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            726.505,
+            738.745
+          ],
+          "quote": "One quick follow-up on that. I'm curious, does... When when you're saying that, the notion of impostor syndrome came to mind, and does that does that play into into this process?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 42,
+          "t": [
+            738.745,
+            750.63
+          ],
+          "quote": "A 100. A 100%. And I think impostor syndrome... I don't know one founder or or pretty much anybody who hasn't had gone through impostor syndrome. If you don't have impostor syndrome, there might be something wrong with you, as my feeling.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 43,
+          "t": [
+            750.63,
+            775.46
+          ],
+          "quote": "But I think the more you can embrace impostor syndrome and normalize it, that this is going to happen. I mean, if you're start if you're taking the risk to start a company and going through the hell that it takes to become to be an entrepreneur, to be a founder, because it is. It's always like 10 times harder, longer, everything. I'm sure Daniel's nodding over there, because it's never easy. If it is easy, you probably just got lucky.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 44,
+          "t": [
+            775.62,
+            786.055
+          ],
+          "quote": "Got a lottery You a lottery ticket or something, but so embracing impostor syndrome and me... Immediately recognizing that that's gonna be part of the journey is probably the best way to approach it.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "拥有 (ownership)",
+      "file": "拥有",
+      "primary": true,
+      "how_described": "本集反复讨论的主线：Daniel 坦承没拥有自己在技术上的真实位置、守着旧标准反而成了公司使命的负债；Reef 辅导的 AI 公司干脆把团队工作叫做 the ownership project。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            1259.13,
+            1287.25
+          ],
+          "quote": "And I'm not really owning the reality of where the technology is and what's possible with it. So I'm actually... So let's say our company wants to get to this place like you're talking about. We have values that are important to us, and we have a mission of what we're trying to achieve. I'm actually a liability then towards that mission because I'm not I'm not acting out of humility or a real ownership of what the the reality.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 73,
+          "t": [
+            1311.865,
+            1323.6599
+          ],
+          "quote": "It's an AI company, but we're calling it now the ownership project because so much of these leaders... I mean, you know how it is. When you're going from these early stages, you're in survival mode for so much of it. Right? You're just trying to survive.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1353.09,
+            1372.9149
+          ],
+          "quote": "I've gotta pretend like I know it all, you know, because they're... They they think that's the norm. But really, when they can open up and say, hey, you know, this this is an area I'm learning too, you know, so we can learn together, I think can be can be very valuable as well. So, yeah, ownership is such a big topic. Right now, I'm finding it coming up in almost every team and and group I'm coaching with.",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 100,
+          "t": [
+            1797.92,
+            1852.71
+          ],
+          "quote": "I love how Reed in this episode is helping us understand narrative intelligence, how we can keep up in this rapidly changing world of AI. And part of that is us as individuals, as leaders, as organizations taking ownership of where we are in our AI adoption and AI journey. And I see so frequently that organizations are not prepared for this next phase of autonomous agents, where organizations will have a fleet of agents operating with agency in company infrastructure with access to critical systems. That's why I'm so privileged to be leading an amazing team of folks over at Prediction Guard. I founded the company three and a half years ago, and we provide an AI control plane that you run-in your infrastructure to keep sovereign control over the agents operating in your infrastructure.",
+          "speaker": "Sponsor"
+        }
+      ]
+    },
+    {
+      "id": "emotional-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "情商 (emotional intelligence)",
+      "file": "情商",
+      "primary": true,
+      "how_described": "本集说在恐惧和分心无处不在的当下，情商技能比以往更关键：自我觉察、活在当下、自我调节、学会回应而非应激反应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            1660.24,
+            1678.525
+          ],
+          "quote": "I understand, Chris. I feel like we all can relate to that, and that's where, again, coming back to being human and trying to understand the meaning, all the meaning underneath all of this is key. So that's where I think, like, those emotional intelligence skills are so critical now now more than ever. Right? How do I become more self aware?",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 96,
+          "t": [
+            1733.075,
+            1764.495
+          ],
+          "quote": "To call call yourself that. And that's where I go back to, like, if you can make leadership your identity, even if you're not the CEO at a company, that's fine. Make yourself a leader and figure out, like, what steps I wanna take to continuously evolve. But I guess to answer your question, I I really rely a lot on those emotional intelligence skills. How do I how do I show more empathy, ask more questions, listen, maybe if I'm really frustrated or I don't agree with the person I'm I'm working with, how can I respond rather than react?",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "hero-s-journey",
+      "type": "concept",
+      "role": "concept",
+      "name": "英雄之旅 (hero's journey)",
+      "file": "英雄之旅",
+      "primary": false,
+      "how_described": "本集借 Joseph Campbell 的经典框架说'我们全都活在英雄之旅中'——被召唤、跨越门槛、回到真实自我。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            610.1,
+            630.66
+          ],
+          "quote": "We had one guy there who was one of the top guys at NASA, and he was like, I'm trying to change my career now, and I'm trying to transition in this next stage of life. And so what it really told me was it's kinda like the classic hero's journey. If you're familiar with Joseph Campbell or what's pretty much in every Yeah. Every movie is it's kinda like we're all living that hero's journey. You know, we're in the...",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值观 (values)",
+      "file": "价值观",
+      "primary": true,
+      "how_described": "本集说保持专注的办法是从价值观入手：定义你重视什么，找到个人与公司价值观的对齐点，深入到'为什么'，再从想要的结果往回倒推步骤。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            1063.495,
+            1100.525
+          ],
+          "quote": "of the hardest things, Chris, I think for all of us. It's one the things I think I gravitated into coaching because I needed it for myself. I mean, you know, we get distracted and we're maybe excited about some personal development or some book or some growth at one point, and then we're quickly back off of that. So, you know, what I found to be very helpful with coaching founders, and even for myself, is really getting focused on your values, like really defining, like, what do you value? And if you're working at a company, like, you know, a technology company or whatever, or you're a founder, really establishing where can I align my personal values with the company values, you know, where?",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1100.525,
+            1143.9401
+          ],
+          "quote": "Because that alignment is everything, and and it goes deeper into the why. You know, we've all heard about the talks about the why, but it really is true. I mean, yeah, you'd have to get to the what and how, but really with the why, for your own personal why, where you see yourself going, understanding the company why, wherever you're working, is is hugely valuable because I think what that does is keep you focused, back to your question about focus, it keeps you focused on how you're gonna stay motivated, how you're gonna stay passionate, you know, what is the purpose here, what is the goal? So it's kind of like values is sort of the core foundation, and then looking at the track to the outcome, like, and then work back from that. Like, what outcome does the company foresee, or what outcome do I want in my personal life?",
+          "speaker": "Reed"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1259.13,
+            1287.25
+          ],
+          "quote": "And I'm not really owning the reality of where the technology is and what's possible with it. So I'm actually... So let's say our company wants to get to this place like you're talking about. We have values that are important to us, and we have a mission of what we're trying to achieve. I'm actually a liability then towards that mission because I'm not I'm not acting out of humility or a real ownership of what the the reality.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "atomic-habits",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atomic Habits",
+      "file": "Atomic Habits",
+      "primary": false,
+      "how_described": "Reef 最爱的书之一：用很小的习惯在一年里复利地提升自己——与'1 月 1 号立目标、2 月 1 号放弃'相对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            1168.555,
+            1182.8599
+          ],
+          "quote": "So just making realistic. That book Atomic Habits is one of my favorite books. Ever... A lot of people have read that, but that's a really great way to look at how you can be... You compound yourself over the course of the year with really small habits.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "intel-ignite",
+      "type": "company",
+      "role": "company",
+      "name": "Intel Ignite",
+      "file": "Intel Ignite",
+      "primary": true,
+      "how_described": "英特尔的加速器项目，Daniel 与 Reef 在此相识；Reef 在那里负责项目筛选、看大量路演，意识到自己能在讲故事上帮忙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            58.39,
+            89.1
+          ],
+          "quote": "It's, it's going great. You know, the the story continues. There's there's ups and ups and downs along the way, and, you know, very, very blessed overall and and really blessed today to have an episode that I've been looking forward to recording for some time. Back in in part of our journey as a company, we were going through an accelerator program with Intel called Intel Ignite. And through that program, met our guest today, Reef Frerichs, is a lot of things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "prediction-guard",
+      "type": "company",
+      "role": "company",
+      "name": "Prediction Guard",
+      "file": "Prediction Guard",
+      "primary": false,
+      "how_described": "Daniel 创立并任 CEO 的公司，提供运行在客户自己基础设施中的 AI 控制平面，让组织对智能体保持主权控制（本集以赞助段落出现）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            56.365
+          ],
+          "quote": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 100,
+          "t": [
+            1797.92,
+            1852.71
+          ],
+          "quote": "I love how Reed in this episode is helping us understand narrative intelligence, how we can keep up in this rapidly changing world of AI. And part of that is us as individuals, as leaders, as organizations taking ownership of where we are in our AI adoption and AI journey. And I see so frequently that organizations are not prepared for this next phase of autonomous agents, where organizations will have a fleet of agents operating with agency in company infrastructure with access to critical systems. That's why I'm so privileged to be leading an amazing team of folks over at Prediction Guard. I founded the company three and a half years ago, and we provide an AI control plane that you run-in your infrastructure to keep sovereign control over the agents operating in your infrastructure.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 149,
+          "t": [
+            2628.355,
+            2648.7102
+          ],
+          "quote": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+          "speaker": "Narrator"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "type": "company",
+      "role": "company",
+      "name": "Framer",
+      "file": "Framer",
+      "primary": false,
+      "how_described": "本集赞助商：AI 网站构建器，帮助团队快速发布可用于生产环境的网站。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            931.495,
+            985.115
+          ],
+          "quote": "In this world where content is being produced so quickly and people are being bombarded by so much, it's critical that for your website, for your brand, for your landing pages, you produce something that looks handcrafted but is still extremely fast to ship. And our partner, Framer, is enabling just this. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/practicalai for 30% off a Framer Pro annual plan.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 53,
+          "t": [
+            985.115,
+            990.475
+          ],
+          "quote": "That's framer.com/practicalai. Rules and restrictions may apply.",
+          "speaker": "Sponsor"
+        }
+      ]
+    },
+    {
+      "id": "the-lesson",
+      "type": "company",
+      "role": "company",
+      "name": "The Lesson",
+      "file": "The Lesson",
+      "primary": true,
+      "how_described": "Reef 创办并正在重新构想的品牌：想象一个能像看 Netflix 剧集那样进入人们故事和生活的世界，让人连接、讲故事、成为不同的身份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            2540.415,
+            2585.61
+          ],
+          "quote": "Reimagine the brand I started called The Lesson, which is really like, imagine like a world that almost felt like, you know, you could tap into people's stories and lives almost like you do a Netflix show or whatever. It doesn't have to be necessarily a long form, But imagine ways that we can connect, we can tell stories, we can become, you know, again, these different identities in a way that becomes just really beautiful and rich to see. And to where we feel kind of part of something bigger and and and as a whole. And I and I I say that only, I hope that's a world that we can get to, but it's certainly with the tools that are out there right now, it certainly seems like there will be some extraordinary ways to, you know, lift humanity in the future. And it might be a lot here a lot sooner than we think.",
+          "speaker": "Reed"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提及人们已在使用'不同的模型和聊天，还有智能体'；Daniel 还建议初学者围绕自己热爱的事物构建第一个智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            1852.71,
+            1899.415
+          ],
+          "quote": "You can manage the supply chain on which those agents operate, the scoping of what they can access. You can institute runtime controls over the agent behavior, and you have a full set of operational components that help you keep track of agents that have been quarantined, agents that have gone off script investigations into agent behavior. I would encourage you to check out what we're doing at predictionguard.com/practicalai. Book a time with myself and the team to help help you understand what we're doing and really explore how you can adopt agents without losing control. That's predictionguard.com/practicalai. Again, predictionguard.com/practicalai.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 136,
+          "t": [
+            2428.645,
+            2437.9253
+          ],
+          "quote": "Yeah. I I love that. I I always recommend the same for, like, technical people trying to get into it. Maybe they're building their first agent. They're like, well, what do I do?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "ai-adoption",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 采用 (AI adoption)",
+      "file": "AI 采用",
+      "primary": true,
+      "how_described": "本集以 Daniel 带团队采用 AI 被卡住为例：领导者不拥有自己在技术上的真实位置，就会在对齐和工具选择上止步；组织需要一起学、打破筒仓。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            1797.92,
+            1852.71
+          ],
+          "quote": "I love how Reed in this episode is helping us understand narrative intelligence, how we can keep up in this rapidly changing world of AI. And part of that is us as individuals, as leaders, as organizations taking ownership of where we are in our AI adoption and AI journey. And I see so frequently that organizations are not prepared for this next phase of autonomous agents, where organizations will have a fleet of agents operating with agency in company infrastructure with access to critical systems. That's why I'm so privileged to be leading an amazing team of folks over at Prediction Guard. I founded the company three and a half years ago, and we provide an AI control plane that you run-in your infrastructure to keep sovereign control over the agents operating in your infrastructure.",
+          "speaker": "Sponsor"
+        }
+      ]
+    },
+    {
+      "id": "getting-replaced",
+      "type": "concept",
+      "role": "concept",
+      "name": "被取代的恐惧 (getting replaced)",
+      "file": "被取代的恐惧",
+      "primary": true,
+      "how_described": "本集说'我会被取代吗'横跨大多数行业，连好莱坞也人人如此；实用应对是军事式提问：此时此刻，我能控制什么？",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            1449.025,
+            1479.9049
+          ],
+          "quote": "I know with some of the people I'm talking to, like in Hollywood, there's a guest I just had on Eric Shamlin, and he's kind of an expert around technology and AI in Hollywood, all the studios and stuff. And, oh my god, like, yeah, it's it's it's amazing. You know, everybody thinks they're getting replaced. And so, yeah, I think there's a... I think for your role, it's gonna be a lot of like your coaching, having the coach and manage and and listen to people and and really just kind of bring it back to what's practical right now in today's current time, knowing that there's a lot can change.",
+          "speaker": "Reed"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "essence and identity",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

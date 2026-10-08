@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":176,"Anthropic":186,"Hugging Face":29,"对齐":17,"奖励黑客":7,"智能体":437,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":7}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":178,"Anthropic":189,"Hugging Face":30,"对齐":18,"奖励黑客":7,"智能体":441,"Matt Turk":5,"Theo Jaffe":7,"Google DeepMind":7}</script>
 
 <script>
 (function(){

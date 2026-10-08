@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"意识":1,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":57}</script>
+<script type="application/json" class="pd-epn">{"意识":1,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":58}</script>
 
 <script>
 (function(){

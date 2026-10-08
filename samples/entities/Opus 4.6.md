@@ -31,7 +31,7 @@ unlisted: true
 
 [[Alexander Whedon]] · [[SubQuadratic]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[KVCache]] · [[Transformer]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":16,"智能体":437,"RAG":24,"预训练":8,"DeepSeek Sparse Attention":1,"KVCache":4,"Transformer":8}</script>
+<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":16,"智能体":441,"RAG":25,"预训练":8,"DeepSeek Sparse Attention":1,"KVCache":4,"Transformer":8}</script>
 
 <script>
 (function(){

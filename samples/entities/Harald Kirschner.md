@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VS Code":6,"Copilot CI":1,"智能体":437,"agents.md":3,"代码存活率":1,"MCP":81,"playwright":2,"TypeScript Go":1,"代码审查":24,"评估":5}</script>
+<script type="application/json" class="pd-epn">{"VS Code":6,"Copilot CI":1,"智能体":441,"agents.md":3,"代码存活率":1,"MCP":82,"playwright":2,"TypeScript Go":1,"代码审查":24,"评估":5}</script>
 
 <script>
 (function(){

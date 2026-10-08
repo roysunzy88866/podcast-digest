@@ -162,8 +162,8 @@ Matt 认为这里面有一层对 FDE 特别重要的东西:理解客户在构建
 **顺着「智能体」挖下去**
 
 - [[2026-09-26-talks-long-horizon-agents-need-experiments-not|给 AI 村庄装上自动研究循环：长时程智能体的实验配方]]<span class="pd-rz">同概念:RAG、护栏 (guardrails)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:RAG、护栏 (guardrails)</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:RAG</span>
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:前置部署工程师 (Forward Deployed Engineer)</span>
 
 </div>
 <div class="pd-ex">

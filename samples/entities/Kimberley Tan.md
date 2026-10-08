@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":9,"智能体":437,"开源模型":4,"微调":33,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":9,"智能体":441,"开源模型":4,"微调":33,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
 
 <script>
 (function(){

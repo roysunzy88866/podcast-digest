@@ -25,7 +25,7 @@ unlisted: true
 
 [[Merve Noyan]] · [[视觉语言模型]] · [[Hugging Face]] · [[智能体]] · [[零样本分割]] · [[目标检测]] · [[Transformers]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Merve Noyan":1,"视觉语言模型":1,"Hugging Face":29,"智能体":437,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":33}</script>
+<script type="application/json" class="pd-epn">{"Merve Noyan":1,"视觉语言模型":1,"Hugging Face":30,"智能体":441,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":33}</script>
 
 <script>
 (function(){

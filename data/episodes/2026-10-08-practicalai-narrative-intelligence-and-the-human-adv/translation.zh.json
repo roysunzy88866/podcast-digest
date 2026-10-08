@@ -1,0 +1,1210 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.73,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客，在这里我们剖析人工智能的真实世界应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让人工智能技术变得实用、高效，并且人人可及。无论你是开发者、商业领袖，还是只是对热点背后的技术感到好奇，你都没来错地方。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，及时了解新一期节目、幕后内容和 AI 洞察。你可以在 practicalai.fm 上了解更多信息。"
+ },
+ {
+  "seg": 1,
+  "start": 35.81,
+  "end": 37.41,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.489998,
+  "end": 56.365,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+  "zh": "欢迎收听 Practical AI 播客的另一期节目。我是 Daniel Whitenack，我是 Prediction Guard 的 CEO，和我在一起的照例是我的联合主持人 Chris Benson，他是一位 AI 与自主系统首席研究工程师。你最近怎么样，Chris？"
+ },
+ {
+  "seg": 3,
+  "start": 56.365,
+  "end": 58.205,
+  "speaker": "Chris Benson",
+  "en": "Hey. Doing good today, Daniel. How's it going?",
+  "zh": "嘿。今天挺好的，Daniel。你呢？"
+ },
+ {
+  "seg": 4,
+  "start": 58.39,
+  "end": 89.1,
+  "speaker": "Daniel Whitenack",
+  "en": "It's, it's going great. You know, the the story continues. There's there's ups and ups and downs along the way, and, you know, very, very blessed overall and and really blessed today to have an episode that I've been looking forward to recording for some time. Back in in part of our journey as a company, we were going through an accelerator program with Intel called Intel Ignite. And through that program, met our guest today, Reef Frerichs, is a lot of things.",
+  "zh": "我，我挺好的。你知道，故事还在继续。一路上总有起起落落，总的来说我非常、非常幸运，今天尤其幸运，能有一期我期待录制已久的一期节目。在我们公司旅程的一段经历中，我们参加了英特尔的一个名为 Intel Ignite 的加速器项目。通过那个项目，我们认识了今天的嘉宾 Reef Frerichs，他的身份很多。"
+ },
+ {
+  "seg": 5,
+  "start": 89.1,
+  "end": 110.355,
+  "speaker": "Daniel Whitenack",
+  "en": "He he... He's doing so much amazing amazing stuff in in his journey from a new podcast that he has out, inner story. He does leadership coaching, involved with MIT and startups and all sorts of things, and has kind of a background in in acting and in media. So welcome to the show, Reed. It's great to have you here.",
+  "zh": "他他……他在自己的旅程中做着非常多了不起的事情，从一档他新推出的播客 inner story 开始。他做领导力教练，与 MIT 以及初创公司等各种事物有交集，而且有表演和媒体方面的背景。欢迎来到节目，Reed。很高兴你能来。"
+ },
+ {
+  "seg": 6,
+  "start": 110.355,
+  "end": 112.355,
+  "speaker": "Reef Frerichs",
+  "en": "Thank you so much, Daniel and Chris. Appreciate it.",
+  "zh": "非常感谢，Daniel 和 Chris。我很感激。"
+ },
+ {
+  "seg": 7,
+  "start": 112.57001,
+  "end": 123.05,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. And and, obviously, that's... You know, I I love your story because you've flexed into all of these things. You're you're always being creative.",
+  "zh": "是啊。而且，很明显，那……你知道，我喜欢你的故事，因为你拓展到了所有这些领域。你总是在发挥创造力。"
+ },
+ {
+  "seg": 8,
+  "start": 123.05,
+  "end": 155.09001,
+  "speaker": "Daniel Whitenack",
+  "en": "You're... I think in in in our experience together, I've appreciated so much how you've helped me think about, you know, my own journey as an entrepreneur entrepreneur, the story of our company. Now I know, you know, you're thinking about topics, of course, related to AI like everyone is and what our unique role is, you know, as humans in that. But we'll we'll get into all of that, but I'm wondering if you could just share a little bit of your your story with us and kind of, at at a high level, how you ended up where where you're at.",
+  "zh": "你……我想在我们一起共事的经历中，我非常感激你帮助我思考我作为创业者、我们公司的故事这一旅程。我知道，你当然也在思考与 AI 相关的话题，就像每个人一样，以及作为人类我们在其中的独特角色。不过我们稍后会深入讨论所有这些，我想知道你能否先和我们分享一点你的故事，大致讲讲你是怎么走到今天这个位置的。"
+ },
+ {
+  "seg": 9,
+  "start": 155.17,
+  "end": 170.57501,
+  "speaker": "Reef Frerichs",
+  "en": "Well well, thank you. I I find myself sharing this story much more. And the best way to frame it is it is a windy path because it... You know, I look back and you think, like, you're always, like, taking, like, inventory. Like, is this all working?",
+  "zh": "嗯，谢谢。我发现我自己越来越多地分享这个故事。最好的表述方式是，这是一条曲折的道路，因为……你知道，我回顾过去，你会想，就像总是在盘点，就像，这一切都顺利吗？"
+ },
+ {
+  "seg": 10,
+  "start": 170.57501,
+  "end": 180.31,
+  "speaker": "Reef Frerichs",
+  "en": "Like, is this my story really making sense? Like, who am I? Like, how many times do you ask these questions to yourself over time? But actually, it wasn't until that Intel program. I was so...",
+  "zh": "就像，我的故事真的讲得通吗？就像，我是谁？随着时间推移，你会问自己多少次这些问题？但实际上，直到那个英特尔项目之前都没有答案。我当时太……"
+ },
+ {
+  "seg": 11,
+  "start": 180.31,
+  "end": 203.84,
+  "speaker": "Reef Frerichs",
+  "en": "I shared this last month at at a Harvard class we were teaching. Basically, I was so nervous in that program when I first started because it was so much about deep tech and engineers and AI was starting to really come up, and I was going, oh my god. Like, what am I doing here? You know? I graduated at UT in business, and I went off and had a acting career for a little while and then got into producing and media and startups.",
+  "zh": "上个月在一门我们授课的哈佛课程上我分享过这一点。基本上，那个项目刚开始的时候我特别紧张，因为它全是关于深科技、工程师的，AI 也开始真正兴起，而我在想，天哪。就像，我在这里干什么？你知道，我在 UT（德克萨斯大学）商学院毕业，然后出去做了一段时间演员，之后进入了制片、媒体和初创公司领域。"
+ },
+ {
+  "seg": 12,
+  "start": 203.84,
+  "end": 223.265,
+  "speaker": "Reef Frerichs",
+  "en": "And I was kind of just trying to figure out, like, you know, what am I doing around these really smart people? Like like yourself, Daniel. I mean, it's like, you know, a lot of half the room was PhDs. And then we started talking and introducing ourselves, and I started seeing pitches. I was I was running deal flow when I first started at Intel, and so I got to see a ton of pitches.",
+  "zh": "而且我当时有点在试图弄明白，就像，你知道，我在这些非常聪明的人身边做什么？就像你一样，Daniel。我是说，就像，你知道，房间里一半的人是博士。然后我们开始交谈、互相介绍，我开始看路演。我当时刚加入英特尔时负责项目筛选（deal flow），所以我看了大量的路演。"
+ },
+ {
+  "seg": 13,
+  "start": 223.265,
+  "end": 245.595,
+  "speaker": "Reef Frerichs",
+  "en": "I mean, we saw, you know, pretty much most of the top companies going in The US would would come through at some point, and we'd meet them. And and the one thing I kinda came away with one, I think I can help with story. Maybe I can help out a little here. Started thinking of their their pitch a little bit like almost like a movie, and I thought, gosh, you know, maybe I can contribute here. So that kind of at least allowed me sort of the lane in to this world.",
+  "zh": "我是说，我们基本上看到，你知道，进入美国的大多数顶级公司都会在某个时候来，我们会与他们见面。而我从中得到的一点感悟是，第一，我想我可以在讲故事方面帮上忙。也许我能在这一点上出点力。我开始把他们的路演想得有点像一部电影，然后我想，天哪，你知道，也许我可以在这里有所贡献。所以这至少让我有了一条进入这个世界的通道。"
+ },
+ {
+  "seg": 14,
+  "start": 245.595,
+  "end": 271.37,
+  "speaker": "Reef Frerichs",
+  "en": "And then once you get into it, you start to realize, like, there's just so much to it because founders are just becoming leaders, they're always becoming. You're you're constantly learning and adapting, especially now. So that really, you know, was sort of the ignition for me to really learn more about leadership coaching, my own journey as a founder, which I was sitting there going, why is this happening to me? You know, all the things that you go through as a founder, but it just evolves. Right?",
+  "zh": "然后一旦你进入其中，你开始意识到，就像，这里有太多东西了，因为创始人正在成为领导者，他们总是在成长。你在不断地学习和适应，尤其是现在。所以那真的，你知道，成了我深入学习领导力教练的导火索，还有我作为创始人自己的旅程，我当时坐在那里想，为什么这些事会发生在我身上？你知道，作为创始人你要经历的所有那些事情，但它就是在不断演变。对吧？"
+ },
+ {
+  "seg": 15,
+  "start": 271.37,
+  "end": 272.57,
+  "speaker": "Reef Frerichs",
+  "en": "It's always evolving.",
+  "zh": "它总是在演变。"
+ },
+ {
+  "seg": 16,
+  "start": 272.57,
+  "end": 297.02,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I love that perspective. I think I resonate so much with it because, you know, I I don't think it's it's talked about a lot in terms of how startups and entrepreneurship and those that are building tech companies that, you know, ventures are are in a big way how culture is shaped. Right? And and how people are are shaped.",
+  "zh": "是啊。我很喜欢这个视角。我觉得它非常引起我的共鸣，因为，你知道，我觉得人们不太常谈论初创公司、创业精神以及那些打造科技公司、风险投资的企业在多大程度上塑造了文化。对吧？以及人是如何被塑造的。"
+ },
+ {
+  "seg": 17,
+  "start": 297.02,
+  "end": 310.125,
+  "speaker": "Daniel Whitenack",
+  "en": "And I I think that's overlooked often in terms of... You know, obviously, people are... You know, it's I I hope for a good financial outcome for myself and and what I'm doing. I I think that's a reasonable part of it. Sure.",
+  "zh": "而且我认为这一点经常被忽视，在于……你知道，很明显，人们……你知道，我希望我自己和我在做的事情有一个好的财务结果。我觉得那是其中合理的一部分。当然。"
+ },
+ {
+  "seg": 18,
+  "start": 310.20502,
+  "end": 334.655,
+  "speaker": "Daniel Whitenack",
+  "en": "Also there... There's a much broader story of of of why we're doing what we're doing. And maybe that maybe that brings us a little bit to some of our topic about... Especially how how that culture is shifting around AI specifically. But, again, before we get into that, maybe you could just share a little bit about a couple of the things that you're involved with now.",
+  "zh": "但还有……还有一个更宏大的故事，关于我们为什么在做我们正在做的事。也许这能稍微引出我们的一些话题，特别是围绕 AI 的文化是如何转变的。不过，在进入那个话题之前，也许你可以简单分享一下你现在参与的一些事情。"
+ },
+ {
+  "seg": 19,
+  "start": 334.655,
+  "end": 344.815,
+  "speaker": "Daniel Whitenack",
+  "en": "Sure. And, like, that storytelling piece, how has that evolved to connect with with the with the tech world, with, you know, some of your current ventures?",
+  "zh": "好的。比如那个讲故事的元素，它是如何演变并与科技世界、与你现在的一些事业联系起来的？"
+ },
+ {
+  "seg": 20,
+  "start": 344.91,
+  "end": 378.33002,
+  "speaker": "Reef Frerichs",
+  "en": "Great question. So where I am right now is I'm primarily executive coaching or leadership coaching at MIT's business school, the Sloan Fellows program primarily, and then also with some startups, usually right around the Series A, Series B level primarily, and now coaching their teams. And it's been fascinating getting into coaching teams because you learn a lot more of the different perspective going on within the startup and kinda how people are feeling, how they're trying to evolve as leaders. With MIT, what's been interesting is you have... There's a lot of international students, and specifically, a lot of the ones I get.",
+  "zh": "好问题。我现在主要是在 MIT 商学院做高管教练或领导力教练，主要是 Sloan Fellows 项目，另外还和一些初创公司合作，通常主要是在 A 轮、B 轮左右，现在也给他们的团队做教练。深入团队教练这件事非常迷人，因为你能更多地了解到初创公司内部不同的视角，以及人们的感受、他们如何努力成长为领导者。在 MIT，有趣的是你会有……有很多国际学生，特别是我接触到的很多学生。"
+ },
+ {
+  "seg": 21,
+  "start": 378.33002,
+  "end": 395.215,
+  "speaker": "Reef Frerichs",
+  "en": "They all come here kinda wanting to be an American entrepreneur. So they're always like, can you can you can you help me tell my story like this? I'll give me, like, a video or an example. It'll be somebody, you know, probably really famous in in in the tech world. But but I always find, like, that's such...",
+  "zh": "他们都怀着一种想成为美国创业者的心态来到这里。所以他们总是像，你能你能帮我用这种方式讲我的故事吗？给我一个视频或一个例子。例子会是科技界某个，你知道，大概很有名的人。但我总是发现，就像，那是如此……"
+ },
+ {
+  "seg": 22,
+  "start": 395.215,
+  "end": 406.02002,
+  "speaker": "Reef Frerichs",
+  "en": "Like, they have fear coming here. They're trying to stand out. They're trying to find their unique positioning. But oftentimes, when we get into their story, their story is so fascinating. It's usually...",
+  "zh": "就像，他们带着恐惧来到这里。他们想脱颖而出。他们想找到自己的独特定位。但很多时候，当我们深入他们的故事时，他们的故事如此迷人。通常是……"
+ },
+ {
+  "seg": 23,
+  "start": 406.9,
+  "end": 426.335,
+  "speaker": "Reef Frerichs",
+  "en": "There's usually a ton of, like, obstacles for them to even get to, you know, MIT, obviously. They come from, you know, a lot of backgrounds that, you know, took a lot of resilience, a lot of overcoming, And there's this... All this gold in their story that they're basically trying to hide. And it's so... A lot of the process is trying to extract out that unique positioning.",
+  "zh": "通常有大量的障碍要克服，才能走到，你知道，MIT，显然。他们来自，你知道，各种背景，这些背景需要很多韧性、很多克服困难的经历。而他们故事里有这种……所有这些宝藏，而他们基本上是在试图隐藏它。这非常……很多过程就是在努力提取出那种独特的定位。"
+ },
+ {
+  "seg": 24,
+  "start": 426.335,
+  "end": 454.935,
+  "speaker": "Reef Frerichs",
+  "en": "And that really is what sort of informed, you know, what I'm calling right now a little bit around narrative intelligence, but it's really about how extract your unique self into your story and evolve it in real time. Because with AI, everybody's, you know, excited about AI, but also fearful of AI. And so there's this constant back and forth. And so how do you continuously adapt is is sort of what happens throughout all of the coaching and and work I'm doing right now.",
+  "zh": "而这真正塑造了我现在称之为「叙事智能」（narrative intelligence）的概念，但它本质上是关于如何把你的独特自我提取到你的故事中，并实时地演变它。因为对于 AI，每个人，你知道，既兴奋又恐惧。所以存在这种不断的来回摇摆。因此，如何持续适应，就是我目前所有的教练和工作中贯穿始终的东西。"
+ },
+ {
+  "seg": 25,
+  "start": 454.935,
+  "end": 473.1,
+  "speaker": "Chris Benson",
+  "en": "You you mentioned... So I'm kinda coming in cold with... You you and Daniel have been through this experience together and stuff. You mentioned narrative intelligence, and could you kind of take me through what that means a little bit? You've referenced it, but I'm not sure I'm there yet, and then maybe kinda...",
+  "zh": "你提到……所以我有点是一头雾水地进来的……你和 Daniel 一起经历过这段经历什么的。你提到了叙事智能，你能带我了解一下它的含义吗？你提到过它，但我不确定我理解了，然后也许……"
+ },
+ {
+  "seg": 26,
+  "start": 473.1,
+  "end": 482.845,
+  "speaker": "Chris Benson",
+  "en": "And you also mentioned kind of in the same breath AI, so could you kind of, like, what's the relationship? You know, I don't understand at this point. So I'll leave that to you",
+  "zh": "你还在同一口气里提到了 AI，所以你能，就像，说说它们之间的关系吗？你知道，在这一点上我还不太明白。所以我把这个留给你。"
+ },
+ {
+  "seg": 27,
+  "start": 482.845,
+  "end": 503.395,
+  "speaker": "Reef Frerichs",
+  "en": "on So it's obviously artificial intelligence, you know, was sort of, you know, started thinking about it, and, you know, the more we were diving into some of the research and work, we started realizing, like, we live inside stories. So much of our decision making, our choices, everything's... From the moment we wake up, we're inside of a story. Right? And so I started looking at, like, you know, narrative intelligence.",
+  "zh": "嗯，很显然人工智能，你知道，有点是，你知道，我开始思考它，然后，你知道，我们越是深入研究一些研究和作品，我们就开始意识到，就像，我们生活在故事之中。我们的决策、我们的选择，一切都是……从我们醒来的那一刻起，我们就在一个故事里。对吧？所以我开始研究，就像，你知道，叙事智能。"
+ },
+ {
+  "seg": 28,
+  "start": 503.395,
+  "end": 520.17,
+  "speaker": "Reef Frerichs",
+  "en": "There's been different people that have looked at it. And really, I think the one I saw article I saw was back around MIT and Harvard, different engineers trying to learn how to talk to each other. And so they formed, a group around it. So that led me to think, okay. What else what else is here given the current times with AI?",
+  "zh": "有不同的人研究过它。而且真的，我记得我看到的那篇文章大约是 MIT 和哈佛的不同工程师试图学会如何彼此交流。于是他们围绕它成立了一个小组。这让我开始思考，好的。鉴于当下 AI 的时代，还有什么东西在这里？"
+ },
+ {
+  "seg": 29,
+  "start": 520.17,
+  "end": 549.51,
+  "speaker": "Reef Frerichs",
+  "en": "And so as I started, you know, interviewing people and working with people, I started thinking what what could become more real time around, like, what could become narrative intelligence? Storytelling has its place, obviously, and for a leader or founder raising money, talk pitching a customer. But a lot of times, storytelling, people get stuck in the stories and they don't evolve them. And so that's when I started thinking like, things are changing for a startup founder every day. And there's there's new information and there's new there's new audiences.",
+  "zh": "所以当我开始，你知道，采访别人并与别人共事时，我开始思考什么可能变得更实时，比如，什么可以成为叙事智能？讲故事显然有它的位置，对于领导者或正在融资的创始人、给客户做路演来说。但很多时候，讲故事的人卡在故事里，不去演变它。所以那时我开始想，就像，初创公司创始人每天都面临变化。有新信息，还有新的受众。"
+ },
+ {
+  "seg": 30,
+  "start": 549.51,
+  "end": 558.865,
+  "speaker": "Reef Frerichs",
+  "en": "And how do you just continuously evolve it? So that's sort of where I I started. So I I pitched it. I did my first talk at at South by Southwest last year. And I was so nervous.",
+  "zh": "你要如何持续演变它？所以那大概就是我开始的地方。所以我把它推广了。我去年在 South by Southwest 做了我的第一次演讲。我当时特别紧张。"
+ },
+ {
+  "seg": 31,
+  "start": 558.865,
+  "end": 568.865,
+  "speaker": "Reef Frerichs",
+  "en": "I was going in there. I was in the green room, and I remember the guy from, like, Ted Lasso, if you've seen that show, is in there. And he's sitting there, and I'm, so nervous. I'm, oh my god. There's, like, people around here.",
+  "zh": "我走进去的时候。我在后台休息室（green room）里，我记得那个《Ted Lasso》的演员，如果你看过那部剧的话，就在里面。他坐在那里，而我紧张极了，我在想，天哪。周围都是人。"
+ },
+ {
+  "seg": 32,
+  "start": 568.865,
+  "end": 579.32996,
+  "speaker": "Reef Frerichs",
+  "en": "Is anybody gonna show up in my room? You know? So I had like... This was a new format they started this past year called core conversation. So I was really excited, but I really didn't know if anybody was gonna show up.",
+  "zh": "会有人来到我的场子吗？你知道？所以我就像……这是他们去年开始的一种新形式，叫做 core conversation（核心对话）。所以我很兴奋，但我真的不知道会不会有人来。"
+ },
+ {
+  "seg": 33,
+  "start": 579.32996,
+  "end": 593.075,
+  "speaker": "Reef Frerichs",
+  "en": "So I started peeking outside the door going, gosh, I wonder if anybody's gonna show up in this room. And luckily, it was it was sold out. We... It was, like, 50 people. So I'm not talking like a 400 person theater, but it was a really good conversation.",
+  "zh": "所以我开始从门缝往外偷看，心想，天哪，不知道会不会有人来这个场子。幸运的是，它满座了。我们……大概 50 个人。所以我说的不是一个 400 人的剧场，但那是一场非常好的对话。"
+ },
+ {
+  "seg": 34,
+  "start": 593.155,
+  "end": 610.1,
+  "speaker": "Reef Frerichs",
+  "en": "A lot of interesting perspectives, questions, curious about what you were just asking. What is this narrative intelligence and how are you, you know, coaching it? And so what it really came out of all of that is people are afraid about the future. They're they're trying to... A lot of them are in transitions from one career.",
+  "zh": "我们那里有一位曾经是 NASA 顶层人物之一的人，他说，我现在正试图改变我的职业，我正试图过渡到人生的下一个阶段。所以这真正告诉我的是，它有点像经典的英雄之旅。如果你熟悉 Joseph Campbell，或者基本上每一部电影里都有的那个。是啊。每部电影，它有点像我们全都活在那个英雄之旅中。你知道，我们在……"
+ },
+ {
+  "seg": 35,
+  "start": 610.1,
+  "end": 630.66,
+  "speaker": "Reef Frerichs",
+  "en": "We had one guy there who was one of the top guys at NASA, and he was like, I'm trying to change my career now, and I'm trying to transition in this next stage of life. And so what it really told me was it's kinda like the classic hero's journey. If you're familiar with Joseph Campbell or what's pretty much in every Yeah. Every movie is it's kinda like we're all living that hero's journey. You know, we're in the...",
+  "zh": "我们那里有个人,是 NASA 的顶尖人物之一,他说,我现在正想改变我的职业,正想在人生的下一个阶段转型。所以这真正告诉我的是,这有点像经典的英雄之旅。如果你熟悉 Joseph Campbell,或者基本上每一部——对。每一部电影里都有的那种,就是说我们其实都活在那种英雄之旅里。你知道,我们处在那个……"
+ },
+ {
+  "seg": 36,
+  "start": 630.66,
+  "end": 656.26,
+  "speaker": "Reef Frerichs",
+  "en": "You know, whether it's the call, we're being called into some adventure or action, or we're going through the threshold, or whether we're turning back home or we're trying to get back to our true self. There's all these kind of periods we go through. So as I dove deeper into it, I pulled a lot of my acting that I coaching I received. I was fortunate to train with some of the top acting coaches in LA. And then coaching, psychology, neuroscience, I started trying to pull, extract different things from it.",
+  "zh": "你知道，无论是被召唤，我们被召唤进入某场冒险或行动，还是我们正在跨越门槛，还是我们要转返回家，或者我们正在努力回到真实的自我。我们会经历所有这些阶段。所以当我更深入地钻研它时，我提取了很多我接受过的表演训练和教练。我很幸运在 LA 和一些顶级的表演教练训练过。然后是教练技术、心理学、神经科学，我开始试着从中提取不同的东西。"
+ },
+ {
+  "seg": 37,
+  "start": 656.26,
+  "end": 684.95,
+  "speaker": "Reef Frerichs",
+  "en": "And what I really came up with is a three step process, which is own, author, and act. You know, show up each day and own where you're at, whether you like it or not or whether you're neutral on it, but own where you are in your journey. You know, look at ways that you can extract the learnings forward and then author this next chapter, this next phase for you. It could be that week, that quarter, that next milestone, but learn to author it. And what I found in the coaching was a lot of times it required a little reframing of your story.",
+  "zh": "而我最终提炼出的是一个三步过程，即「拥有（own）」「书写（author）」和「行动（act）」。你知道，每天出现，承认你所处的位置，无论你喜欢它、不喜欢它，还是对它持中立态度，但要承认你在旅程中所处的位置。你要找到方法把学到的东西向前提取出来，然后书写属于你的下一个篇章、下一个阶段。可以是那一周、那个季度、下一个里程碑，但要学会书写它。而在教练工作中我发现，很多时候这需要对你的故事做一些重新框架。"
+ },
+ {
+  "seg": 38,
+  "start": 685.35004,
+  "end": 697.355,
+  "speaker": "Reef Frerichs",
+  "en": "We had a founder, I think it was in Daniel's cohort, that I remember working with, and she was... She didn't think she could be the CEO. She was really, like... She was really nervous. She kept telling me every day in the first couple weeks of the program, I really shouldn't be CEO.",
+  "zh": "我们有一位创始人，我记得是在 Daniel 那一期学员里，我和她合作过，而她……她觉得自己不能当 CEO。她真的，就像……她真的很紧张。在项目的前几周里，她每天都跟我说，我真的不应该当 CEO。"
+ },
+ {
+  "seg": 39,
+  "start": 697.355,
+  "end": 722.24,
+  "speaker": "Reef Frerichs",
+  "en": "I don't think I can do this. And she was from another country, and she just had a lot of fear around it. And again, as we dove deeper into the work, she just really needed to kind of reframe her story and where she was to that point. And what she started to realize is she she gained a lot of confidence and saw that she could become CEO. And so own, author, and act, and act is the hardest thing because oftentimes, we don't step into that first action step.",
+  "zh": "我觉得我做不了这个。她来自另一个国家，她对此有很多恐惧。而同样地，当我们深入这项工作时，她只是真的需要重新框架她的故事以及她走到今天的位置。然后她开始意识到，她获得了大量信心，并看到她可以成为 CEO。所以就是「拥有、书写、行动」，而「行动」是最难的，因为很多时候，我们不会迈出那第一个行动步骤。"
+ },
+ {
+  "seg": 40,
+  "start": 722.24,
+  "end": 726.505,
+  "speaker": "Reef Frerichs",
+  "en": "As small as it may be, we often let, you know, uncertainty get in the way.",
+  "zh": "无论它有多小，我们常常让，你知道，不确定性挡住去路。"
+ },
+ {
+  "seg": 41,
+  "start": 726.505,
+  "end": 738.745,
+  "speaker": "Chris Benson",
+  "en": "One quick follow-up on that. I'm curious, does... When when you're saying that, the notion of impostor syndrome came to mind, and does that does that play into into this process?",
+  "zh": "快速追问一下。我很好奇，当你这么说的时候，我想到了冒名顶替综合征（impostor syndrome）的概念，它在这整个过程中有扮演什么角色吗？"
+ },
+ {
+  "seg": 42,
+  "start": 738.745,
+  "end": 750.63,
+  "speaker": "Reef Frerichs",
+  "en": "A 100. A 100%. And I think impostor syndrome... I don't know one founder or or pretty much anybody who hasn't had gone through impostor syndrome. If you don't have impostor syndrome, there might be something wrong with you, as my feeling.",
+  "zh": "百分之百有。百分之百。而且我觉得冒名顶替综合征……我不知道有哪个创始人，或者基本上任何一个人，没有经历过冒名顶替综合征。如果你没有冒名顶替综合征，那你可能哪里有问题，这是我的感觉。"
+ },
+ {
+  "seg": 43,
+  "start": 750.63,
+  "end": 775.46,
+  "speaker": "Reef Frerichs",
+  "en": "But I think the more you can embrace impostor syndrome and normalize it, that this is going to happen. I mean, if you're start if you're taking the risk to start a company and going through the hell that it takes to become to be an entrepreneur, to be a founder, because it is. It's always like 10 times harder, longer, everything. I'm sure Daniel's nodding over there, because it's never easy. If it is easy, you probably just got lucky.",
+  "zh": "但我认为你越能接纳冒名顶替综合征并把它常态化，认为这就是会发生的。我是说，如果你在冒险去创办一家公司，经历成为创业者、成为创始人所必须经历的那些煎熬，因为它确实如此。它总是像难十倍、时间长得多的那种。我相信 Daniel 在那边点头呢，因为它从来都不容易。如果它容易，你可能只是运气好。"
+ },
+ {
+  "seg": 44,
+  "start": 775.62,
+  "end": 786.055,
+  "speaker": "Reef Frerichs",
+  "en": "Got a lottery You a lottery ticket or something, but so embracing impostor syndrome and me... Immediately recognizing that that's gonna be part of the journey is probably the best way to approach it.",
+  "zh": "中了张彩票什么的。所以，接纳冒名顶替综合征，并且……立即认识到它会是旅程的一部分，可能是应对它的最佳方式。"
+ },
+ {
+  "seg": 45,
+  "start": 786.055,
+  "end": 811.30505,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I I definitely resonate with that a a ton, and I I wanna get I I wanna get to, like, each of these phases that you talked about and kinda tie it in also to, like, our our journey with AI Yeah. More generally. I think that would be really interesting. However, before we do that, maybe just like may...",
+  "zh": "是啊。我在非常多方面都有共鸣，我我想我要……我想触及你谈到的每一个阶段，并把它也和我们的旅程联系起来，与 AI Yeah，更广泛地联系起来。我觉得那会非常有趣。不过在那之前，也许就像……"
+ },
+ {
+  "seg": 46,
+  "start": 811.30505,
+  "end": 828.82,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe it's, like, framed as a simple question, but I think there's a lot behind it. Like, what... I guess my question is why should people care about their own journey or expressing their own their their own story, like, at a high at a high level? Like, what Sure. What is...",
+  "zh": "也许可以用一个简单的问题来表述，但我认为它背后有很多东西。比如，什么……我想我的问题是，人们为什么应该关心自己的旅程、表达自己的故事，在大致的高层面上？比如，什么……什么是……"
+ },
+ {
+  "seg": 47,
+  "start": 828.82,
+  "end": 833.13995,
+  "speaker": "Daniel Whitenack",
+  "en": "What does that do maybe for for the person and those in their environment?",
+  "zh": "这对那个人以及他们周围的环境，也许会有什么作用？"
+ },
+ {
+  "seg": 48,
+  "start": 833.13995,
+  "end": 861.93005,
+  "speaker": "Reef Frerichs",
+  "en": "Well, I would just say it simply is the one unique thing you know you have is your story and your journey. And we often... You know, I saw a statistic the other day that we have 60,000 thoughts a day, and I think 80% of them are negative. But learning to start shifting the mindset and and realizing, like, with AI, I mean, everybody has their different, you know, perspectives on AI and where it's going and how fast and and what it's gonna do. But at the very least, we can all pretty much recognize it's very powerful.",
+  "zh": "嗯，我只想简单地这样说：你确定自己拥有的唯一独特的东西，就是你的故事和你的旅程。而我们常常……你知道，前几天我看到一个统计数据，说我们每天有 60,000 个念头，而其中 80% 是负面的。但学着开始转变心态，并意识到，就像，关于 AI，我是说，每个人对 AI、它将走向何方、速度多快、它会做什么都有各自不同的观点。但至少，我们基本上都能认识到它非常强大。"
+ },
+ {
+  "seg": 49,
+  "start": 862.155,
+  "end": 895.235,
+  "speaker": "Reef Frerichs",
+  "en": "It's game changing. We're at a pivotal moment in history. And so all the more reason for you to, you know, double down on yourself and figure out ways to evolve yourself, mean, to adapt, to personally grow, to become the leader you want to become, to, you know, embrace AI and use AI that's practical for you. And no pun intended, but basically use AI in a way that can help help accelerate your personal growth, you know, as leaders, as people, as family members, as dad or or wife or brother, sister, whoever. I mean, it's...",
+  "zh": "它是改变游戏规则的。我们正处在一个历史性的关键时刻。所以，这就更有理由让你，你知道，在自己身上加倍下注，想办法进化自己，我是说，去适应、去个人成长、去成为你想成为的领导者，去，你知道，拥抱 AI 并使用对你实用的 AI。而且这不是一语双关（与 Practical 呼应），但基本上是以一种能帮助加速你个人成长的方式来使用 AI，你知道，作为领导者、作为人、作为家庭成员、作为爸爸或妻子或兄弟、姐妹，无论谁。我是说，它……"
+ },
+ {
+  "seg": 50,
+  "start": 895.235,
+  "end": 917.46,
+  "speaker": "Reef Frerichs",
+  "en": "And that's the other big thing is once I've I found quickly with founders, Daniel, I'm sure you can attest to this, is it quickly becomes... It's hard to turn off, like, you're a founder, and then you kinda come home and it's... You had to kinda turn it off. But eventually, it all kind of becomes one and the same. Leader you are at work quickly evolves to the leader you are at home and in your personal life.",
+  "zh": "而这是另一件大事,就是我和创始人们合作时很快就发现的,Daniel,我相信你可以证实这一点,就是它很快变成……很难关掉,比如说,你是一个创始人,然后你回到家,它还是……你必须得把它关掉。但最终,这一切都变得合二为一。你在工作中是的那种领导者,很快演变成你在家中、在个人生活中的那种领导者。"
+ },
+ {
+  "seg": 51,
+  "start": 917.46,
+  "end": 929.895,
+  "speaker": "Reef Frerichs",
+  "en": "And so the more you can quickly align those two and learn to just become a leader, as accept the fact that this is an identity I wanna become in all aspects of my life, I think is important.",
+  "zh": "所以,你越能快速地把这两者对齐,学会只是成为一个领导者,接受这样一个事实:这是我想在我生活方方面面成为的一种身份,我认为这很重要。"
+ },
+ {
+  "seg": 52,
+  "start": 931.495,
+  "end": 985.115,
+  "speaker": "Sponsor",
+  "en": "In this world where content is being produced so quickly and people are being bombarded by so much, it's critical that for your website, for your brand, for your landing pages, you produce something that looks handcrafted but is still extremely fast to ship. And our partner, Framer, is enabling just this. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/practicalai for 30% off a Framer Pro annual plan.",
+  "zh": "在这个内容被如此快速生产、人们被如此多信息轰炸的世界里,对你的网站、你的品牌、你的落地页来说,关键是要做出看起来是手工打造、但发布速度仍然极快的东西。我们的合作伙伴 Framer 正是在实现这一点。Framer 是 AI 网站构建器,帮助创作者、团队和企业比以往更快地发布可用于生产环境的网站,同时把每个细节都做对。以全新的节奏,在一个地方完成提示、检查、编辑和发布。了解如何通过 Framer 专家从你的网站获得更多价值,或今天就在 framer.com/practicalai 免费开始构建,Framer Pro 年度计划可享七折优惠。"
+ },
+ {
+  "seg": 53,
+  "start": 985.115,
+  "end": 990.475,
+  "speaker": "Sponsor",
+  "en": "That's framer.com/practicalai. Rules and restrictions may apply.",
+  "zh": "网址是 framer.com/practicalai。规则和限制可能适用。"
+ },
+ {
+  "seg": 54,
+  "start": 992.66003,
+  "end": 1012.23505,
+  "speaker": "Chris Benson",
+  "en": "To read, you definitely have... You got me hooked on this. I'm curious. And and I think both Daniel and myself and and others list... You know, listening or watching the show were probably using a set of tools, and to some degree we're probably doing some of that, I'm guessing.",
+  "zh": "Reed,你 definitely……你把我吸引住了。我很好奇。我觉得 Daniel、我自己还有其他……你知道,正在收听或观看节目的听众,可能都在用一套工具,而且在某种程度上,我猜我们可能也在做一些这样的事情。"
+ },
+ {
+  "seg": 55,
+  "start": 1012.23505,
+  "end": 1060.67,
+  "speaker": "Chris Benson",
+  "en": "There were ideas as you were talking that were resonating like I was going, Well, I do this and I do that, and I think that's helped my... This obviously helps at work. This thing has helped at home as we're using different models and chats, all the things, and so agents these days. What are some of the things, like if you're trying to get focused now on developing narrative intelligence, and you want to use tools in a more focused way to help yourself develop your story, as you've discussed, Can you kind of focus me? Can you kind of take me a path on what that means, and instead of me just kind of doing whatever I'm doing eclectically, kind of give strategy.",
+  "zh": "你在讲话时,有一些想法让我产生了共鸣,我当时在想,嗯,我做了这个,我做了那个,我觉得这对我的……这显然在工作上有帮助。这件事在家里也有帮助,因为我们在用不同的模型和聊天,以及现在所有的这些,还有智能体。有哪些事情,比如说,如果你现在想专注于发展叙事智能,并且想以更专注的方式使用工具来帮助自己发展你的故事,就像你讨论过的那样,你能不能让我专注起来?你能不能给我指一条路径,让我明白这意味着什么,而不是让我随性地东做一点西做一点,给我一个策略。"
+ },
+ {
+  "seg": 56,
+  "start": 1060.67,
+  "end": 1063.495,
+  "speaker": "Chris Benson",
+  "en": "Me Okay, yes. And that's one",
+  "zh": "Me,好的,可以。而那是"
+ },
+ {
+  "seg": 57,
+  "start": 1063.495,
+  "end": 1100.525,
+  "speaker": "Reef Frerichs",
+  "en": "of the hardest things, Chris, I think for all of us. It's one the things I think I gravitated into coaching because I needed it for myself. I mean, you know, we get distracted and we're maybe excited about some personal development or some book or some growth at one point, and then we're quickly back off of that. So, you know, what I found to be very helpful with coaching founders, and even for myself, is really getting focused on your values, like really defining, like, what do you value? And if you're working at a company, like, you know, a technology company or whatever, or you're a founder, really establishing where can I align my personal values with the company values, you know, where?",
+  "zh": "最难的事情之一,Chris,我认为对我们所有人都是。这也是我认为我投身教练工作的原因之一,因为我自己需要它。我是说,你知道,我们会分心,我们可能一时对某种个人发展、某本书或某种成长感到兴奋,然后很快就又放弃了。所以,你知道,我在辅导创始人、甚至对我自己来说,我发现非常有帮助的是,真正专注于你的价值观,真正去定义,你重视什么?如果你在一家公司工作,比如一家科技公司或其他什么公司,或者你是一个创始人,真正去确立我能在哪里把我的个人价值观与公司价值观对齐,你知道,在哪里?"
+ },
+ {
+  "seg": 58,
+  "start": 1100.525,
+  "end": 1143.9401,
+  "speaker": "Reef Frerichs",
+  "en": "Because that alignment is everything, and and it goes deeper into the why. You know, we've all heard about the talks about the why, but it really is true. I mean, yeah, you'd have to get to the what and how, but really with the why, for your own personal why, where you see yourself going, understanding the company why, wherever you're working, is is hugely valuable because I think what that does is keep you focused, back to your question about focus, it keeps you focused on how you're gonna stay motivated, how you're gonna stay passionate, you know, what is the purpose here, what is the goal? So it's kind of like values is sort of the core foundation, and then looking at the track to the outcome, like, and then work back from that. Like, what outcome does the company foresee, or what outcome do I want in my personal life?",
+  "zh": "因为那种对齐就是一切,而且它深入到「为什么」。你知道,我们都听过关于「为什么」的讨论,但它确实是真实的。我是说,是的,你得搞清楚「是什么」和「怎么做」,但真正关键的是「为什么」,你自己的个人「为什么」,你看到自己要走向哪里,理解你所在公司的「为什么」,这是非常有价值的,因为我认为这样做能让你保持专注,回到你关于专注的问题,它让你专注于你要如何保持动力、你要如何保持热情,你知道,这里的目的是什么,目标是什么?所以这有点像价值观是核心基础,然后看通往结果的轨道,然后从结果往回推。比如,公司预见的结果是什么,或者我想在个人生活中得到什么结果?"
+ },
+ {
+  "seg": 59,
+  "start": 1143.9401,
+  "end": 1168.555,
+  "speaker": "Reef Frerichs",
+  "en": "And then working back to what are those steps I can step into. So that's really been, I think, the best. And the biggest thing I found is just keeping it super simple and realistic, because I can't tell how many times I've done this personally and and and just fallen off and gone, oh gosh, you know, I set these goals and, you know, it sounded great at January 1. But, you know, by February 1, I'm already like, what's going on here? I'm not doing hardly any of this stuff.",
+  "zh": "然后往回推到我能够踏入的那些步骤。所以这真的,我觉得,是最好的。而我发现最重要的一点就是保持非常简单和现实,因为我都数不清我自己有多少次这样做过,然后又掉下来,然后说,哦天哪,你知道,我设了这些目标,一月一号的时候听起来很棒。但到了二月一号,我就已经在想,这是怎么回事?我几乎什么都没做。"
+ },
+ {
+  "seg": 60,
+  "start": 1168.555,
+  "end": 1182.8599,
+  "speaker": "Reef Frerichs",
+  "en": "So just making realistic. That book Atomic Habits is one of my favorite books. Ever... A lot of people have read that, but that's a really great way to look at how you can be... You compound yourself over the course of the year with really small habits.",
+  "zh": "所以就是让它变得现实。《Atomic Habits》(掌控习惯)那本书是我最喜欢的书之一,有史以来……很多人都读过它,但那是一种非常好的视角,来看你如何可以……在一年当中用非常小的习惯来复利地提升自己。"
+ },
+ {
+  "seg": 61,
+  "start": 1182.86,
+  "end": 1183.2599,
+  "speaker": "Reef Frerichs",
+  "en": "You know?",
+  "zh": "你知道吗?"
+ },
+ {
+  "seg": 62,
+  "start": 1183.2599,
+  "end": 1184.5399,
+  "speaker": "Chris Benson",
+  "en": "Mhmm. I've read the book,",
+  "zh": "Mhmm。我读过那本书,"
+ },
+ {
+  "seg": 63,
+  "start": 1184.5399,
+  "end": 1186.005,
+  "speaker": "Daniel Whitenack",
+  "en": "so good.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 64,
+  "start": 1186.005,
+  "end": 1188.885,
+  "speaker": "Chris Benson",
+  "en": "Definitely definitely a good one. Danny, were you about to say something?",
+  "zh": "绝对绝对是一本好书。Danny,你刚才是不是想说什么?"
+ },
+ {
+  "seg": 65,
+  "start": 1188.885,
+  "end": 1210.46,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Reed, I I think you kind of started out the... You you mentioned those three steps. The first one was own. I've been thinking about that as you and Chris have been talking, and it it really resonated with me in relation to how myself and our team and maybe how I've led in the adoption of AI on our team.",
+  "zh": "是的。Reed,我觉得你差不多是从那个……你提到了那三个步骤。第一个是「拥有(own)」。在你和 Chris 交谈的时候,我一直在想这一点,它真的让我产生了共鸣,关系到我自己、我们的团队,以及也许我在团队采用 AI 的过程中是如何领导的。"
+ },
+ {
+  "seg": 66,
+  "start": 1210.46,
+  "end": 1244.225,
+  "speaker": "Daniel Whitenack",
+  "en": "And I think where we have been blocked and maybe not not aligned like you're talking about to where we need to go with AI, how we need to adopt those tools, which tools we adopt, etcetera, has been maybe when I've kind of led more, I... I've not owned where where I am with the technology and what I don't know and what I'm, you know, comfortable with or or not comfortable with. I've thought a lot over the past year about, my own humility, right, around like, oh, I have these certain code standards. Right? Yeah.",
+  "zh": "而且我认为我们一直被卡住的地方,也许没有像你说的那样对齐到我们在 AI 上需要走向的方向、我们需要如何采用那些工具、我们采用哪些工具等等,也许是当我更多地在主导的时候,我……我没有「拥有」我自己在这项技术上的位置、我不知道的东西、我舒适的或不舒适的东西。过去一年我想了很多,关于我自己的谦逊,对吧,关于,哦,我有这些特定的代码标准,对吧?是的。"
+ },
+ {
+  "seg": 67,
+  "start": 1244.2251,
+  "end": 1258.145,
+  "speaker": "Daniel Whitenack",
+  "en": "And, our team... And I have these standards around how a software development life cycle should happen. Right? And I and I know in my pride or, you know, whatever that that is that this is the way it should go.",
+  "zh": "而且,我们的团队……而且我对软件开发生命周期应该怎样进行有这些标准,对吧?而且我知道,出于我的骄傲或者别的什么,我觉得事情就应该这样走。"
+ },
+ {
+  "seg": 68,
+  "start": 1258.5701,
+  "end": 1259.13,
+  "speaker": "Reef Frerichs",
+  "en": "Mhmm.",
+  "zh": "Mhmm。"
+ },
+ {
+  "seg": 69,
+  "start": 1259.13,
+  "end": 1287.25,
+  "speaker": "Daniel Whitenack",
+  "en": "And I'm not really owning the reality of where the technology is and what's possible with it. So I'm actually... So let's say our company wants to get to this place like you're talking about. We have values that are important to us, and we have a mission of what we're trying to achieve. I'm actually a liability then towards that mission because I'm not I'm not acting out of humility or a real ownership of what the the reality.",
+  "zh": "而我没有真正「拥有」这项技术所处的现实以及它能实现什么的现实。所以我实际上是……比如说,我们公司想到达你所说的那个地方。我们有对我们重要的价值观,我们有一个我们试图实现的使命。那么相对于那个使命,我实际上是一个负债,因为我没有出于谦逊或对现实的真正「拥有」去行动。"
+ },
+ {
+  "seg": 70,
+  "start": 1287.25,
+  "end": 1293.3301,
+  "speaker": "Daniel Whitenack",
+  "en": "Is that partially what you mean by that? It is. Curious your reflection on on that experience, I guess.",
+  "zh": "这是不是部分你说那个的意思?是的。我很好奇你对那个经历的反思。"
+ },
+ {
+  "seg": 71,
+  "start": 1293.3301,
+  "end": 1299.73,
+  "speaker": "Reef Frerichs",
+  "en": "Yes. Well, first of all, don't beat yourself up, Daniel. Yeah. This is very common. And I think part of it is is because you're the leader.",
+  "zh": "是的。嗯,首先,别太自责,Daniel。是的。这非常常见。而且我认为部分原因是因为你是领导者。"
+ },
+ {
+  "seg": 72,
+  "start": 1299.73,
+  "end": 1311.7849,
+  "speaker": "Reef Frerichs",
+  "en": "You're the CEO, so you're trying to show certainty. You're... You have a a tremendous background, and and you're super smart. But, like, I think that really is it. Because what I'm finding with teams right now, we actually have one team I'm coaching.",
+  "zh": "你是 CEO,所以你在试图展现确定性。你……你有非常深厚的背景,而且你超级聪明。但是,我认为这真的是关键所在。因为我在现在的团队中发现,我们实际上有一个我正在辅导的团队。"
+ },
+ {
+  "seg": 73,
+  "start": 1311.865,
+  "end": 1323.6599,
+  "speaker": "Reef Frerichs",
+  "en": "It's an AI company, but we're calling it now the ownership project because so much of these leaders... I mean, you know how it is. When you're going from these early stages, you're in survival mode for so much of it. Right? You're just trying to survive.",
+  "zh": "这是一家 AI 公司,但我们现在把它叫做「拥有项目(ownership project)」,因为这么多这样的领导者……我是说,你知道那种情况。当你从早期阶段走过来,你在其中很长一段时间都处于生存模式,对吧?你只是在努力活下去。"
+ },
+ {
+  "seg": 74,
+  "start": 1323.74,
+  "end": 1353.09,
+  "speaker": "Reef Frerichs",
+  "en": "And then all of a sudden, you, you know, you either hit that point where you're starting to grow revenue and you get some investment, and now you're expected to really grow, and everybody's gotta grow. A lot of these leaders, some of them haven't been in leadership positions. So everybody's now learning together. And I think what you pointed out is really key for the CEO founder especially is to to be more open when they can about, like, what they don't know. I can't tell many times I think founders just naturally want to say, hey, I...",
+  "zh": "然后突然之间,你知道,你要么到了开始有收入增长、拿到一些投资的那个点,现在大家都期望你真正地增长,而且每个人都得成长。很多这样的领导者,其中一些人没有做过领导岗位。所以现在所有人都在一起学习。而我认为你指出的这一点对 CEO 创始人尤其关键,就是在他们能够的时候,对他们不知道的东西更加开放。我都数不清有多少次,我觉得创始人自然而然地想说,嘿,我……"
+ },
+ {
+  "seg": 75,
+  "start": 1353.09,
+  "end": 1372.9149,
+  "speaker": "Reef Frerichs",
+  "en": "I've gotta pretend like I know it all, you know, because they're... They they think that's the norm. But really, when they can open up and say, hey, you know, this this is an area I'm learning too, you know, so we can learn together, I think can be can be very valuable as well. So, yeah, ownership is such a big topic. Right now, I'm finding it coming up in almost every team and and group I'm coaching with.",
+  "zh": "我得假装我什么都知道,你知道,因为他们……他们认为那是常态。但真的,当他们能够敞开并说,嘿,你知道,这也是我正在学习的领域,你知道,所以我们可以一起学习,我认为这也可能非常有价值。所以,是的,「拥有」现在是一个非常大的话题。我发现它几乎出现在我辅导的每一个团队和群体中。"
+ },
+ {
+  "seg": 76,
+  "start": 1373.12,
+  "end": 1390.195,
+  "speaker": "Reef Frerichs",
+  "en": "Because also, they need they need the rest of the team to take initiative and, you know, whether it's AI tools they're learning or anything that's happening, I mean, it's happening so fast that whatever anybody can bring to the table and share and move forward, they'll all the better. Right? It's no longer helpful to be siloed.",
+  "zh": "因为同时,他们需要他们需要团队的其他人采取主动性,你知道,无论是他们在学习的 AI 工具还是发生的任何事情,我是说,这一切发生得太快了,任何人能拿到桌面上来分享并推动前进的东西,都会让整体更好,对吧?各自孤立地待在筒仓里已经不再有用了。"
+ },
+ {
+  "seg": 77,
+  "start": 1390.515,
+  "end": 1408.76,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. And do you think that that connects with then, let's say, a person in... Like, you were talking about people considering their roles. Even if they're not, let's say, the CEO or in that position, people are constantly being fed, like, your your role might not be here.",
+  "zh": "是的,是的。那你认为这会不会接着联系到,比如说,一个处于……的人,就像你谈到人们在考虑他们的角色。即使他们不是,比如说,CEO 或处于那个位置,人们不断地被告知,比如,你的角色可能不在这里。"
+ },
+ {
+  "seg": 78,
+  "start": 1408.76,
+  "end": 1420.445,
+  "speaker": "Daniel Whitenack",
+  "en": "You you know, you need to adapt. You... Like, all of these things. And it's really hard to embrace that that sort of reality. I'm not saying it is the reality for everyone.",
+  "zh": "你,你知道,你需要适应。你……比如,所有这些事情。而要拥抱那种现实真的很难。我不是说它对每个人都是现实。"
+ },
+ {
+  "seg": 79,
+  "start": 1420.605,
+  "end": 1428.2051,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? But I don't know. That brings up emotions for sure in terms of people's relationship to AI and what it could mean.",
+  "zh": "对吧?但我不知道。这肯定会引发情绪,涉及到人们与 AI 的关系以及它可能意味着什么。"
+ },
+ {
+  "seg": 80,
+  "start": 1428.2051,
+  "end": 1448.705,
+  "speaker": "Reef Frerichs",
+  "en": "That's a big part of it. And I think especially as you would know, I think a lot of engineers, like, you know, in in the day where everybody was told, go become learn how to code, you know, and this is the path. This is like the in in for a lot of reasons, is such a great path. But now every there's a lot of people now looking like, am I gonna get replaced? And I think that's happening across most industries.",
+  "zh": "这是很大的一部分。而且我认为,尤其像你会知道的那样,很多工程师,比如,你知道,在每个人都被告知「去学编程、学会写代码」的年代,你知道,这就是那条路径。这条路径出于很多原因,是一条很棒的入行路径。但现在有很多人在看,我会被取代吗?而且我认为这正在大多数行业中发生。"
+ },
+ {
+  "seg": 81,
+  "start": 1449.025,
+  "end": 1479.9049,
+  "speaker": "Reef Frerichs",
+  "en": "I know with some of the people I'm talking to, like in Hollywood, there's a guest I just had on Eric Shamlin, and he's kind of an expert around technology and AI in Hollywood, all the studios and stuff. And, oh my god, like, yeah, it's it's it's amazing. You know, everybody thinks they're getting replaced. And so, yeah, I think there's a... I think for your role, it's gonna be a lot of like your coaching, having the coach and manage and and listen to people and and really just kind of bring it back to what's practical right now in today's current time, knowing that there's a lot can change.",
+  "zh": "我知道和我交谈的一些人,比如在好莱坞,我刚有一位嘉宾 Eric Shamlin,他算是好莱坞科技和 AI 方面的专家,涉及所有制片厂之类的。而且,哦天哪,是的,真是令人惊叹。你知道,每个人都觉得他们要被取代了。所以,是的,我认为对你的角色来说,会有很多像你的辅导工作,去辅导和管理、去倾听人们,并且真的把它带回到当下、当前时间中实际可行的事情上,同时知道有很多东西可能会改变。"
+ },
+ {
+  "seg": 82,
+  "start": 1480.945,
+  "end": 1489.025,
+  "speaker": "Reef Frerichs",
+  "en": "But what what can you control right now? It's sort of the old, like, military. What can I control in this moment? You know? So I think that's that's really helpful.",
+  "zh": "但是现在你能控制的是什么?这有点像古老的,比如,军事里说的。此时此刻我能控制什么?你知道,所以我认为这真的很有帮助。"
+ },
+ {
+  "seg": 83,
+  "start": 1489.025,
+  "end": 1498.48,
+  "speaker": "Reef Frerichs",
+  "en": "But... Yeah. And it it really... It's also requiring a lot of your your teammates to start learning it, looking at ways that maybe they can wear another hat. And I know they're probably going, gosh.",
+  "zh": "但是……是的。而且它真的……它也要求你的很多队友开始学习它,去寻找也许他们可以戴上另一顶帽子的方式。而且我知道他们可能在想,天哪。"
+ },
+ {
+  "seg": 84,
+  "start": 1498.48,
+  "end": 1523.37,
+  "speaker": "Reef Frerichs",
+  "en": "You know, I signed up for this startup, and I thought the role was this when I signed up, and it's changed, and I'm taking on all these roles. But that's also part of how you learn. I mean, one of the things I coach with with some of the people at MIT are considering two tracks. Am I going to go try to interview and get a job with Google, hopefully, or Facebook or Meta or whoever? Or, you know, do I want to start my own business or go work for a startup for a while?",
+  "zh": "你知道,我加入这家创业公司的时候,以为我加入时的角色是这个,但它变了,我正在承担所有这些角色。但这也是你学习的一部分。我是说,我辅导 MIT 的一些人时,他们正在考虑两条路径。我是要去尝试面试、希望拿到 Google、或 Facebook、或 Meta 或谁的 Offer?还是说,我想自己创业,或者先去一家创业公司工作一段时间?"
+ },
+ {
+  "seg": 85,
+  "start": 1523.4501,
+  "end": 1539.6749,
+  "speaker": "Reef Frerichs",
+  "en": "And and that's one of the pros you try to get across is like, you may not make as much money, there might not be as much certainty. But guess what, you can learn a lot quickly, you can take on a lot of different roles quickly. So it's a great thing to understand as you're approaching that.",
+  "zh": "而这是你试图传达的优点之一,就是,你可能赚不了那么多钱,可能没有那么多的确定性。但你猜怎么着,你可以很快地学到很多东西,你可以很快地承担很多不同的角色。所以在你走向那条路的时候,理解这一点是很棒的事。"
+ },
+ {
+  "seg": 86,
+  "start": 1539.755,
+  "end": 1595.205,
+  "speaker": "Chris Benson",
+  "en": "And I'd like to actually extend this, because you're actually going where I was gonna ask you anyway, and it's like we are in, for better or for worse, kind of the most fantastic moment in history, when, you know, where things have changed, and, you know, the notion of who we are and our identities are changing, the work we're doing on a day to day basis, how we get it done. I know speaking for myself, I am, with the new possibilities that the tooling creates, I'm more productive right now than I've ever been in my entire life. And I'm learning what to do with that. There's an adjustment of extra capacity. And so you mentioned about in startups, people will come in and say, Well, I came in on this role, but maybe it's time to pivot my role within the startup.",
+  "zh": "而且我其实想延伸这个话题,因为你正好说到我本来就要问你的地方,就是说,不管好坏,我们正处于历史上最不可思议的时刻之一,你知道,一切都在变化,你知道,我们是谁、我们的身份的概念在变化,我们日常做的工作、我们如何把它完成。就我自己而言,凭借工具带来的新可能性,我现在比我一生中任何时候都更有生产力。而我在学习怎么运用它。这是一种额外容量的调整。所以你提到在创业公司里,人们会加入进来说,嗯,我当初是以这个角色进来的,但也许是时候在创业公司内部转变我的角色了。"
+ },
+ {
+  "seg": 87,
+  "start": 1595.205,
+  "end": 1597.9249,
+  "speaker": "Chris Benson",
+  "en": "But I think that's happening in all organizations",
+  "zh": "但我认为这正在所有组织中发生"
+ },
+ {
+  "seg": 88,
+  "start": 1597.9249,
+  "end": 1598.6449,
+  "speaker": "Reef Frerichs",
+  "en": "right now. You",
+  "zh": "现在。你"
+ },
+ {
+  "seg": 89,
+  "start": 1600.6449,
+  "end": 1636.41,
+  "speaker": "Chris Benson",
+  "en": "can have very large, well established organizations that are having the same situation with the new capabilities coming in, and so that is continuing to accelerate. And so given the fact that our day to day reality is accelerating along this trend, and therefore it's not even the rate of learning being the same. Tomorrow, you have to learn more than you've learned today, and the next day, you're gonna have to learn more and have a greater ability to pivot in your own world.",
+  "zh": "可以有非常大型的、根基深厚的组织,随着新能力的到来,它们也在经历同样的情况,所以这是在持续加速。所以鉴于我们的日常现实正沿着这个趋势加速,因此学习的速率甚至不再是恒定的。明天,你必须比今天学得更多,再过一天,你又得学得更多,并且在你自己的世界里要有更大的转变能力。"
+ },
+ {
+  "seg": 90,
+  "start": 1636.41,
+  "end": 1636.8899,
+  "speaker": "Daniel Whitenack",
+  "en": "Yes,",
+  "zh": "是的,"
+ },
+ {
+  "seg": 91,
+  "start": 1636.89,
+  "end": 1660.08,
+  "speaker": "Chris Benson",
+  "en": "yes. So I love the framework that you've taken, but I'm throwing this challenge at you for the folks that are out there. As we're all living that, which obviously generates some of the fear that you've been talking about, how do you manage that in the process as the acceleration continues? Because I'm certainly struggling with that in my own life. Well, I think it's",
+  "zh": "是的。所以我很喜欢你采用的框架,但我把这个挑战抛给你,面向外面的人们。当我们都活在那种状态里——它显然产生了你一直在谈论的那些恐惧——随着加速继续,你如何在这个过程中管理它?因为我自己在生活中确实也在为此挣扎。嗯,我觉得"
+ },
+ {
+  "seg": 92,
+  "start": 1660.24,
+  "end": 1678.525,
+  "speaker": "Reef Frerichs",
+  "en": "I understand, Chris. I feel like we all can relate to that, and that's where, again, coming back to being human and trying to understand the meaning, all the meaning underneath all of this is key. So that's where I think, like, those emotional intelligence skills are so critical now now more than ever. Right? How do I become more self aware?",
+  "zh": "我理解,Chris。我觉得我们所有人都能对此感同身受,而这正是,再次地,回到作为人的层面,去理解意义,所有这一切之下的意义,是关键。所以这就是为什么我认为,那些情商技能现在如此关键,比以往任何时候都更关键,对吧?我如何变得更有自我觉察?"
+ },
+ {
+  "seg": 93,
+  "start": 1678.525,
+  "end": 1699.5851,
+  "speaker": "Reef Frerichs",
+  "en": "How do I stay more present? You know, how do I learn to self regulate in situations when there's fear everywhere? There's distraction, there's feels like the world's overwhelming. One day you're up and excited because you're you're you're working on with collater chat chat GPT and everything's like, oh, you're feeling great about yourself. And then the next minute you feel like, oh, gosh, like, I feel like I'm this small, and I I have no place here.",
+  "zh": "我如何更活在当下?你知道,当到处都是恐惧时,我如何学会自我调节?有分心,有……感觉世界令人不堪重负。某一天你很兴奋,因为你在和 ChatGPT 之类的东西一起工作,一切都像,哦,你对自己感觉很好。然后下一分钟你觉得,哦,天哪,我觉得我这么渺小,我在这里没有位置。"
+ },
+ {
+  "seg": 94,
+  "start": 1699.5851,
+  "end": 1714.3899,
+  "speaker": "Reef Frerichs",
+  "en": "So it's... I think a lot of those skills are really important to develop. And I also think you mentioned identity. I think it's important to look at identity different. I mean, there's essence, right, who I am really am, who you really are deep down, like, what makes you you.",
+  "zh": "所以这是……我认为很多那些技能真的非常重要去发展。而且我还觉得你提到了身份。我认为换个角度看身份很重要。我是说,有本质(essence),对吧,我真正是谁,你内心深处真正是谁,比如,是什么让你成为你。"
+ },
+ {
+  "seg": 95,
+  "start": 1714.3899,
+  "end": 1733.075,
+  "speaker": "Reef Frerichs",
+  "en": "But then there's identity, and identity can can involve. And I think a lot of people don't try on enough identities at times. So for example, I saw this quote the other day where somebody said, you know, I never thought of myself as an athlete, but I am starting to go to the gym three days a week, and I'm starting to do things. And it's like, I think I'm an athlete. And I'm like, yeah.",
+  "zh": "但然后还有身份(identity),而身份可以涉及……而且我觉得很多人有时不够多地去尝试不同的身份。比如,前几天我看到一句引用,有人说,你知道,我从来没把自己看作运动员,但我开始每周去健身房三次,我开始做一些事情。然后是,我想我是个运动员。然后我就说,是的。"
+ },
+ {
+  "seg": 96,
+  "start": 1733.075,
+  "end": 1764.495,
+  "speaker": "Reef Frerichs",
+  "en": "To call call yourself that. And that's where I go back to, like, if you can make leadership your identity, even if you're not the CEO at a company, that's fine. Make yourself a leader and figure out, like, what steps I wanna take to continuously evolve. But I guess to answer your question, I I really rely a lot on those emotional intelligence skills. How do I how do I show more empathy, ask more questions, listen, maybe if I'm really frustrated or I don't agree with the person I'm I'm working with, how can I respond rather than react?",
+  "zh": "去这样称呼自己。而这正是我回到那个点的地方,如果你能把领导力变成你的身份,即使你不是一家公司的 CEO,那也没关系。让自己成为一个领导者,并弄清楚,比如,我想采取哪些步骤来持续进化。但回到你的问题,我 guess,我非常依赖那些情商技能。我如何展现更多共情、问更多问题、倾听,也许当我真的很沮丧、或者我不同意和我一起工作的人时,我如何能够回应而非应激反应?"
+ },
+ {
+  "seg": 97,
+  "start": 1764.85,
+  "end": 1771.0898,
+  "speaker": "Reef Frerichs",
+  "en": "You know, sometimes you do have to react. Right? You're just... You're gonna step out in front on the street, and you don't wanna get hit by a bus. You're gonna react.",
+  "zh": "你知道,有时候你确实必须应激反应,对吧?你就是……你要走到街上,你不想被公交车撞到。你会应激反应。"
+ },
+ {
+  "seg": 98,
+  "start": 1771.25,
+  "end": 1789.3451,
+  "speaker": "Reef Frerichs",
+  "en": "But sometimes you can respond. Right? You're maybe getting... You're not getting the answer you want or you're not reaching the objective you want in the conversation, but you can maybe take a step back and learn to respond differently. Those are some of the things that I think will be very, very valuable right now in work.",
+  "zh": "但有时候你可以回应,对吧?你也许……你没有得到你想要的答案,或者你在对话中没有达到你想要的目标,但你可以也许退一步,学会以不同的方式回应。我认为这些就是现在在工作中会非常、非常有价值的一些事情。"
+ },
+ {
+  "seg": 99,
+  "start": 1789.3451,
+  "end": 1796.72,
+  "speaker": "Reef Frerichs",
+  "en": "But it's but it's scary. I'm not gonna I'm not gonna say, like, everybody I'm coaching right now is pretty much in the same boat where all... Everybody's kinda trying to figure it out.",
+  "zh": "但是它……但是它很可怕。我不会说,比如,我现在辅导的每个人几乎都在同一条船上,就是……每个人都差不多在试图搞明白这件事。"
+ },
+ {
+  "seg": 100,
+  "start": 1797.92,
+  "end": 1852.71,
+  "speaker": "Sponsor",
+  "en": "I love how Reed in this episode is helping us understand narrative intelligence, how we can keep up in this rapidly changing world of AI. And part of that is us as individuals, as leaders, as organizations taking ownership of where we are in our AI adoption and AI journey. And I see so frequently that organizations are not prepared for this next phase of autonomous agents, where organizations will have a fleet of agents operating with agency in company infrastructure with access to critical systems. That's why I'm so privileged to be leading an amazing team of folks over at Prediction Guard. I founded the company three and a half years ago, and we provide an AI control plane that you run-in your infrastructure to keep sovereign control over the agents operating in your infrastructure.",
+  "zh": "我很喜欢 Reed 在这一集里帮助我们理解叙事智能，我们如何能在这个快速变化的 AI 世界中跟上步伐。其中一部分就是我们作为个人、作为领导者、作为组织，对我们的 AI 采纳和 AI 旅程所处的位置承担起责任。我经常看到，组织们并没有为自主智能体的下一个阶段做好准备，届时组织将拥有一支在具有主观能动性的状态下运作的智能体队伍，它们在公司基础设施中运行并可以访问关键系统。这就是为什么我非常荣幸能在 Prediction Guard 领导一支出色的团队。我在三年半前创立了这家公司，我们提供一个运行在你自己基础设施中的 AI 控制平面，让你对基础设施中运行的智能体保持主权控制。"
+ },
+ {
+  "seg": 101,
+  "start": 1852.71,
+  "end": 1899.415,
+  "speaker": "Sponsor",
+  "en": "You can manage the supply chain on which those agents operate, the scoping of what they can access. You can institute runtime controls over the agent behavior, and you have a full set of operational components that help you keep track of agents that have been quarantined, agents that have gone off script investigations into agent behavior. I would encourage you to check out what we're doing at predictionguard.com/practicalai. Book a time with myself and the team to help help you understand what we're doing and really explore how you can adopt agents without losing control. That's predictionguard.com/practicalai. Again, predictionguard.com/practicalai.",
+  "zh": "你可以管理这些智能体运行所依赖的供应链、它们可以访问的范围。你可以对智能体行为实施运行时控制，而且你拥有一整套运营组件，帮助你追踪被隔离的智能体、偏离既定脚本的智能体以及对智能体行为的调查。我建议你去看看我们在 predictionguard.com/practicalai 上正在做的事情。预约我自己和团队的时间，帮助我们帮助你理解我们在做什么，并真正探索你如何在不失控的情况下采纳智能体。网址是 predictionguard.com/practicalai。再说一次，predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 102,
+  "start": 1901.3099,
+  "end": 1952.315,
+  "speaker": "Daniel Whitenack",
+  "en": "Well, Reed, you you started to go this direction, which I'm really curious about this this idea of identity and the identities that we take on and the roles that that we're... You know, what what we're trying to achieve in terms of of outcome. And I think this brings up this tension where people are trying to figure out what is my uniquely human role within the world of AI, what is kinda preserved that artificial intelligence doesn't do, and maybe narrative intelligence and other forms of my own, you know, identity and role does, you know, does stay there. And I love, you know, I love that you're on coming from your background kind of through storytelling, through acting, all of these things.",
+  "zh": "好的，Reed，你你开始往这个方向走了，我对此真的很好奇，这个关于身份认同的想法，以及我们所承担的身份和角色，我们…你知道，我们想要实现什么样的结果。我认为这引出了一个张力，人们正试图弄清楚，在 AI 的世界里，我独特的人类角色是什么，什么是被保留下来的人工智能不会做的，也许叙事智能以及我自己其他形式的身份和角色，你知道，确实会保留在那里。我很喜欢，你知道，我很喜欢你能来，带着你通过讲故事、通过表演等等的背景。"
+ },
+ {
+  "seg": 103,
+  "start": 1952.315,
+  "end": 1977.505,
+  "speaker": "Daniel Whitenack",
+  "en": "I I love the Tolkien letter where he's talking about this idea of, like, as humans, we are sub creators and we, you know, we look around us and the... This kind of ultimate beauty is the sub creation that that we each are able to do. I'm wondering, in your mind, what does that that look like? May... Maybe even for yourself, as you're as you're thinking about...",
+  "zh": "我我很喜欢托尔金的那封信，他在信中谈到这个想法，比如，作为人类，我们是次级创造者，我们，你知道，我们环顾四周，这种终极之美就是我们每个人都能做到的次级创造。我想知道，在你看来，那是什么样子？也…也许甚至对你自己而言，当你正在思考…"
+ },
+ {
+  "seg": 104,
+  "start": 1977.505,
+  "end": 1997.37,
+  "speaker": "Daniel Whitenack",
+  "en": "Like, you're obviously entering into new ventures. You're doing new things with podcasts and and other things that that you're working on right now. What what is this what is this idea of creation and creativity and, like, the uniquely human element of that? What does that mean to you now given everything that's happening with AI?",
+  "zh": "比如，你显然正在进入新的冒险。你正在用播客和你现在正在做的其他事情做新的事情。这个关于创造和创造力的想法，以及其中独特的人类元素，对你来说意味着什么，鉴于 AI 正在发生的一切？"
+ },
+ {
+  "seg": 105,
+  "start": 1997.37,
+  "end": 2011.415,
+  "speaker": "Reef Frerichs",
+  "en": "Great question, Daniel. I would say right now, at first, I was I was probably like most people, a little bit worried about, like, what AI... What's this... What does this mean for me and my identities I I currently have? Now I look at it from a completely different lens.",
+  "zh": "好问题，Daniel。我想说，现在，起初，我可能和大多数人一样，有点担心，比如，AI…这是什么…这对我和我目前拥有的身份意味着什么？现在我用一个完全不同的视角来看待它。"
+ },
+ {
+  "seg": 106,
+  "start": 2011.8401,
+  "end": 2025.465,
+  "speaker": "Reef Frerichs",
+  "en": "I love that book. I don't know if you've read it by Rick Rubin, The Creative Act. But, like, if you really start to think, like, step back from it, it's never been better to be a creator, an innovator, a human. Right? When you really think of the tools and...",
+  "zh": "我很喜欢那本书。我不知道你是否读过 Rick Rubin 的《The Creative Act》。但是，比如，如果你真的开始思考，退后一步看，做一个创造者、一个创新者、一个人，从未有过比现在更好的时代。对吧？当你真正想到那些工具和…"
+ },
+ {
+  "seg": 107,
+  "start": 2025.465,
+  "end": 2042.99,
+  "speaker": "Reef Frerichs",
+  "en": "That are out there, we don't... You know, before there's so many different, you know, barriers to get there, you know, whether you had to get get a certain job, go to maybe a certain school, had to have the certain skills, but now there's... It's never been better to learn these things. And so when I... And that's a great quote or...",
+  "zh": "那些现存的工具，我们不用…你知道，以前有太多不同的障碍，你知道，无论你是必须得到某份特定的工作，去上某所特定的学校，必须拥有特定的技能，但现在有…学习这些东西从未有过比现在更好的时机。所以当我…而那是一句很棒的话，或者…"
+ },
+ {
+  "seg": 108,
+  "start": 2042.99,
+  "end": 2056.605,
+  "speaker": "Reef Frerichs",
+  "en": "That you mentioned, but I think of it right now as, like, almost anything's possible. And that's a great feeling. We'll have to be reeled back in at times, but it's a great place to allow your... Allow yourself to go creatively and think, like, who do I want to become? What do I want to do?",
+  "zh": "补充：这是一个成为创造者或创新者的真正伟大的时代。所以…是的。所以我…现在，比如，当我想到我正在做的工作时，我只是把每一天都看作我在学习。"
+ },
+ {
+  "seg": 109,
+  "start": 2056.605,
+  "end": 2068.365,
+  "speaker": "Reef Frerichs",
+  "en": "You know, what stories do I want to tell? What things do I want to build? What people do I want to work with? I think it's now it's it's just a really awesome time to be from in that... Go back.",
+  "zh": "你知道，我想讲什么故事？我想构建什么东西？我想和什么人一起工作？我觉得现在是，现在是处在这其中…的真正美好的时代。回到话题。"
+ },
+ {
+  "seg": 110,
+  "start": 2068.55,
+  "end": 2079.67,
+  "speaker": "Reef Frerichs",
+  "en": "It's just a really great time to be a creator or an innovator. And so... Yeah. So I... Right now, like, when I think of, like, the work I'm doing, it's just I I look at it just every day as like I'm learning.",
+  "zh": "(注：上一条编号应为 [[110]]) 而且你越是能踏入那种纯粹的成长心态——我想要好奇，我想要提问，我想要专注当下，我只想学习——你每天都以学习者的身份踏入其中，那就是一个很棒的状态，因为每…一切都以一种我们从未想象过的方式在变化。所以…是的。"
+ },
+ {
+  "seg": 111,
+  "start": 2079.67,
+  "end": 2097.78,
+  "speaker": "Reef Frerichs",
+  "en": "And the more you can step into just the growth mindset of just I wanna be curious, I wanna ask questions, I wanna be present, and I just wanna learn, and you step into that every day as a learner, it's it's a great place to be because every... Everything's changing in a way that, you know, we've never imagined before. So... Yeah.",
+  "zh": "(注：上一条编号应为 [[111]]) 是的。只是随口说个例子，这个…我我不知道这是否是在…向我们的听众透露太多，但我我还可以接受稍微脆弱一点。所以上周末，我参加了印第安纳大脚怪大会，那在各个方面都太精彩了。"
+ },
+ {
+  "seg": 112,
+  "start": 2097.78,
+  "end": 2113.875,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Just anecdotally, this... I I don't know if this is real... Revealing too much to to our audience, but I'm I'm okay with being being a little vulnerable. So this last weekend, was at the Indiana Bigfoot conference, which was just amazing, in every way.",
+  "zh": "我我会强烈推荐参加，如果如果你在那个地区的话。"
+ },
+ {
+  "seg": 113,
+  "start": 2113.875,
+  "end": 2117.7148,
+  "speaker": "Daniel Whitenack",
+  "en": "Would I would highly recommend attending if if you're in the area.",
+  "zh": "这是为为鞋码大于十三的人准备的。对吧？"
+ },
+ {
+  "seg": 114,
+  "start": 2117.7148,
+  "end": 2121.2349,
+  "speaker": "Chris Benson",
+  "en": "This is for for people with shoe sizes greater than thirteen. Right?",
+  "zh": "对。是的。没错。是的。所以，我是说，不过只是随口说个例子，我当时在那里，比如…"
+ },
+ {
+  "seg": 115,
+  "start": 2121.2349,
+  "end": 2126.63,
+  "speaker": "Daniel Whitenack",
+  "en": "Right. Yes. Exactly. Yeah. So so, I mean, just anecdotally, though, I was there, like...",
+  "zh": "我去年去了，今年我也去了。听到那里的人，你知道，无论那是多么冷门的小众文化话题，他们正沉浸其中，他们思考如何应用 AI 来发挥创造力、做研究、探索这些素材，比如做这种搜索，比如积累这些，制作地图，做所有这些事情。这一切…即使一年前，显然也有趣又酷，但他们并没有以那种方式谈论与…相同的可能性。我知道那是一件很随机的事，但我认为它与你所说的相呼应，无论你是，你知道，一名软件工程师，还是印第安纳大脚怪研究组织的一员，能够，能够创造性地思考并应用，你知道，你所…你所…老兄。"
+ },
+ {
+  "seg": 116,
+  "start": 2126.63,
+  "end": 2189.8499,
+  "speaker": "Daniel Whitenack",
+  "en": "So I went last year, and I was there this year. And to hear the people there that were, you know, whatever random subculture topic that that that is and and they're into, the ways that they're thinking about applying AI to be creative, to do their research, and explore this, material, and, like, do this searching, and, like, accumulate this, and create maps and do all these things. That all... Even a year ago, was obviously fun and cool, but they weren't talking in that way about maybe some of the same possibilities with And I know that's a very random thing, but I think it connects with what you were saying that it's never it's never better whether you're, you know, a software engineer or you're a member of the Indiana Bigfoot Research Organization Yeah. To to be able to, like, think creatively and and apply, you know, what what you're what you're you, man.",
+  "zh": "(注：上一条编号应为 [[117]]) 是的。就是这样。想法"
+ },
+ {
+  "seg": 117,
+  "start": 2189.8499,
+  "end": 2191.37,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. There you go. Thought",
+  "zh": "(注：应为 [[118]]) 我还以为我了解你呢。所以…嘿。"
+ },
+ {
+  "seg": 118,
+  "start": 2191.77,
+  "end": 2193.3699,
+  "speaker": "Chris Benson",
+  "en": "I knew you. So... Hey.",
+  "zh": "(注：应为 [[119]]) 嘿。而且，Daniel，你知道我制作过一部大脚怪电影，对吧？"
+ },
+ {
+  "seg": 119,
+  "start": 2193.3699,
+  "end": 2196.49,
+  "speaker": "Reef Frerichs",
+  "en": "Hey. And and, Daniel, you knew I produced a Bigfoot film, don't you?",
+  "zh": "(注：应为 [[120]]) 哦，太棒了。我我还不知道。是的。我得去看看那部片的演职员表。"
+ },
+ {
+  "seg": 120,
+  "start": 2196.775,
+  "end": 2201.975,
+  "speaker": "Daniel Whitenack",
+  "en": "Oh, that's amazing. I didn't I didn't know. Yeah. I'll have to look at the credits of that one.",
+  "zh": "(注：应为 [[121]]) 是的。所以那…那是…我当时…我花了很长时间接触大脚怪研究。"
+ },
+ {
+  "seg": 121,
+  "start": 2201.975,
+  "end": 2205.4949,
+  "speaker": "Reef Frerichs",
+  "en": "Yeah. So that was... It's... I was... I spent a lot of time around Bigfoot research.",
+  "zh": "(注：应为 [[122]]) 我真希望我们当时有今天的这些工具。没错。我和一个叫 Eduardo Sanchez 的人合作了。他是…他是《女巫布莱尔》的导演、创作者，他有一个很棒的、非常好的剧本，写了好多年。"
+ },
+ {
+  "seg": 122,
+  "start": 2205.4949,
+  "end": 2217.6401,
+  "speaker": "Reef Frerichs",
+  "en": "I wish we had the tools we have today. Exactly. I partnered with a a a guy named Eduardo Sanchez. He was... He's the director, creator of the Blair Witch Project, and he had this great, really great script for years.",
+  "zh": "(注：应为 [[123]]) 那是一个大预算剧本，他一直试图把它拍出来，有过不同的主演人选。总之，我们在某个时候决定，就去做它的低预算版本，把它推出去，因为他对大脚怪非常有热情。所以，是的，我有一段时间掉进了那个世界。但正如你所说，更有理由相信，是的，你可以是一名软件工程师，同时业余可以是一名音乐家。你可以是一个讲故事的人。"
+ },
+ {
+  "seg": 123,
+  "start": 2217.6401,
+  "end": 2237.865,
+  "speaker": "Reef Frerichs",
+  "en": "It was a big budget script that he was trying to get made, had different attachments. Anyways, we decided at some point just to, like, go do the the low budget version of it to get it out there because he was so passionate about Bigfoot. So, yeah, I fell into that world for a while. But to your point, all the more reason that, yeah, you can be a software engineer and on the side, you can be a a musician. You can be a storyteller.",
+  "zh": "(注：应为 [[124]]) 你可以创造故事世界。你可以成为作家，如今你想做什么都可以。我认为意识到这一点很重要，利用现有的这些工具。"
+ },
+ {
+  "seg": 124,
+  "start": 2237.865,
+  "end": 2244.84,
+  "speaker": "Reef Frerichs",
+  "en": "You can create story worlds. You can be an author, you can do whatever you want nowadays. And I think that's important to realize with these tools that are out there.",
+  "zh": "(注：应为 [[125]]) 我很好奇，随着我们绕回这次对话，我想问，有很多人，我认为当然当你和我们三个人交谈时，我觉得很容易把我们带上这条路，去做这件事。我有点像是，嘿，我有点在做一些事情，但我需要你来帮我聚焦之类的。你怎么用更难的方式触达人们？外面有一整个世界的人，他们感到被落下了。是的。"
+ },
+ {
+  "seg": 125,
+  "start": 2244.84,
+  "end": 2275.74,
+  "speaker": "Chris Benson",
+  "en": "I'm curious, as circle around on the conversation, and I wanted to ask, there are a lot of people, I think certainly when you talk to the three of us, I think it's easy to get us onto this path, to do this. I was kind of like, Hey, I'm kind of doing some things, but I need you to focus me and stuff. How do you get people in a harder sense? There's a whole world of people out there who are feeling left behind. Yes.",
+  "zh": "(注：应为 [[126]]) 而且他们不做 AI 播客。他们不听 AI 播客，也不看 AI 播客。他们就像一辈子那样，按老样子在这个世界上苦苦奔波。我推测——我没有这方面的数据——但这可能是外面的绝大多数人。"
+ },
+ {
+  "seg": 126,
+  "start": 2275.74,
+  "end": 2294.185,
+  "speaker": "Chris Benson",
+  "en": "And they're not doing AI podcasts. They're not listening to AI podcasts or watching AI podcasts. And they are kind of grinding through the world as they have been doing their whole lives. And that speculates, I don't have data on this, but that's probably the majority of people out there.",
+  "zh": "(注：应为 [[127]]) 而且"
+ },
+ {
+  "seg": 127,
+  "start": 2294.185,
+  "end": 2294.425,
+  "speaker": "Reef Frerichs",
+  "en": "And",
+  "zh": "(注：应为 [[128]]) 你怎么触达他们？我不认为这是一件快速又超级容易的事情，但你怎么让他们迈出第一步或前两步？这这是一个很棒的问题，你像是说，因为我们前方有一个未来，而且不只是我们。是大量的普通大众。你会怎么做，我知道我在问一个非常难的挑战。"
+ },
+ {
+  "seg": 128,
+  "start": 2296.97,
+  "end": 2319.245,
+  "speaker": "Chris Benson",
+  "en": "how do you get them? I don't imagine it's a quick and super easy thing, but how do you get them to take the first step or two? It's It's a way great where you're like, because we have a future going forward here, and it's not just us. It is a whole lot of people in the masses. How would you, recognizing it's all, I'm asking a really hard challenge, I know that.",
+  "zh": "(注：应为 [[129]]) 你怎么让人们说，我愿意迈向一个更大的、不同的世界的第一步？"
+ },
+ {
+  "seg": 129,
+  "start": 2319.245,
+  "end": 2326.205,
+  "speaker": "Chris Benson",
+  "en": "How do you get people to say, I'll take a first step into a larger, different world?",
+  "zh": "(注：应为 [[130]]) 这是一个很好的问题。谢谢你问这个，Chris。我这么说是因为我觉得我自己正在亲身经历，不仅是家庭成员，你知道，我的父母，甚至是和我同龄的人，也许处于，你知道，比如，我在德克萨斯长大，而且…我甚至喜欢和我指导的不同公司交谈，比如，他们的客户在制造业，或者他们位于，你知道，农村城市，他们说，周围有很多恐惧，比如，他们不喜欢 AI，或者，或者他们有点，他们非常担心，也许他们在读新闻。所以我觉得最近我发现有效的一件事是，把它变得超级简单和实用，融入…"
+ },
+ {
+  "seg": 130,
+  "start": 2326.37,
+  "end": 2360.63,
+  "speaker": "Reef Frerichs",
+  "en": "That's a great question. Thanks for asking that, Chris. And I say that because I feel like I'm living it with not only family members, you know, my parents or people that are even my age that maybe are in, you know, like, I grew up in Texas and... But I even like talking to different companies I'm coaching, like, their their customers are in manufacturing, or they're in, you know, rural cities, and they're like, and he said, there's a lot of fear around like, they don't like AI or they're, or they're a little bit, they're so worried about it, maybe they're reading the news. And so I think one thing I found to work just recently is make it super simple and practical that fits...",
+  "zh": "(注：应为 [[131]]) 融入他们现在的生活。比如，你喜欢做饭吗？有没有你能想出来的食谱？有没有…有没有你想发现的餐厅，你知道，你可以很容易地让他们开始，你知道，提问、写提示词，然后他们开始…"
+ },
+ {
+  "seg": 131,
+  "start": 2360.63,
+  "end": 2375.665,
+  "speaker": "Reef Frerichs",
+  "en": "Integrates into their life as it is. So for example, do you like to cook? Is there a recipe you can come up with? There's... Is there a restaurant you wanna discover, you know, that you can kind of easily get them into, you know, asking questions, prompting, and then they start to get...",
+  "zh": "(注：应为 [[132]]) 就像是…你知道，它是旧版互联网的一个好得多的版本，但重点是，我认为一旦他们开始看到它对他们有用，比如前几天，或者夏天的时候，我们正在计划一次旅行，比如一次重聚旅行。而且，总之，我的…我只是…我的父母太…"
+ },
+ {
+  "seg": 132,
+  "start": 2375.665,
+  "end": 2390.89,
+  "speaker": "Reef Frerichs",
+  "en": "It's just like the... You know, it's a much better version of the Internet from old, but the point being is, I think once they start to see it work for them, like the other day or over the summer, we were planning a trip, like a reunion trip. And and, anyways, my... I just... My parents are so...",
+  "zh": "(注：应为 [[133]]) 太害怕 AI 了，他们说，哦，我不喜欢世界上正在发生的事情。然后我们开始做这个。我们开始计划这次旅行，几分钟之内，我们就有了，比如一份行程单，列出了我们想去的所有特别棒的地方，然后这…突然间，激发了他们的好奇心，他们变得有创造力了。那么，如果我们问这个呢？"
+ },
+ {
+  "seg": 133,
+  "start": 2390.89,
+  "end": 2408.445,
+  "speaker": "Reef Frerichs",
+  "en": "Were so afraid of AI, and they were like, oh, I don't like what's going on in the world. And then we started doing this. We started planning out this trip, and within a matter of minutes, we had, like, an itinerary of all the really cool places we wanna do, and it just... All of a sudden, the sparked their curiosity, they got creative. Well, what if we ask this?",
+  "zh": "(注：应为 [[134]]) 你能问问它这个问题吗？不知不觉中，你开始意识到，比如，嘿。说到底它其实挺简单的，只要你愿意开始。所以我想…我想回答你的问题，你越是能向他们提出那些把它与他们的兴趣或想做事情关联起来的问题，这这…这就是我发现更有效的方法。"
+ },
+ {
+  "seg": 134,
+  "start": 2408.445,
+  "end": 2427.8,
+  "speaker": "Reef Frerichs",
+  "en": "Can you ask it this question? And before you know it, you start to realize, like, hey. It's it's pretty simple at the end of the day if you just wanna start. And so I think I think to answer your question, the more you can ask questions to them that kind of ties it back to what they're interested in or motivated to do, the the bet... That's what I found to be better.",
+  "zh": "(注：应为 [[135]]) 好建议。"
+ },
+ {
+  "seg": 135,
+  "start": 2427.8,
+  "end": 2428.4402,
+  "speaker": "Chris Benson",
+  "en": "Good advice.",
+  "zh": "(注：应为 [[136]]) 是的。我我很喜欢这个。我我对，比如，技术人员想要入门的，也总是推荐同样的方法。也许他们正在构建他们的第一个智能体。他们说，那我该做什么？"
+ },
+ {
+  "seg": 136,
+  "start": 2428.645,
+  "end": 2437.9253,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I love that. I I always recommend the same for, like, technical people trying to get into it. Maybe they're building their first agent. They're like, well, what do I do?",
+  "zh": "(注：应为 [[137]]) 我有…我的问题通常是，那么，你对什么感兴趣？比如，是…你知道，随便什么。交易加密货币，或者，比如，收集，你知道，宝可梦卡…"
+ },
+ {
+  "seg": 137,
+  "start": 2438.165,
+  "end": 2450.8599,
+  "speaker": "Daniel Whitenack",
+  "en": "I have... My question is often, well, what are you interested in? Like, is it Yeah. You know, whatever. Trading crypto or, like, collecting, you know, Pokemon card...",
+  "zh": "(注：应为 [[138]]) 或者，创造一个与你热爱的事物相关的东西。对吧？而而那更有用。"
+ },
+ {
+  "seg": 138,
+  "start": 2450.8599,
+  "end": 2456.46,
+  "speaker": "Daniel Whitenack",
+  "en": "Or, create something that's related to the thing that you're passionate about. Right? And and that's more useful.",
+  "zh": "(注：应为 [[139]]) 这期的就是大脚怪。"
+ },
+ {
+  "seg": 139,
+  "start": 2456.7651,
+  "end": 2458.445,
+  "speaker": "Chris Benson",
+  "en": "Bigfoot for this episode.",
+  "zh": "(注：应为 [[140]]) 没错。是的。非常需要做研究。"
+ },
+ {
+  "seg": 140,
+  "start": 2458.445,
+  "end": 2461.645,
+  "speaker": "Daniel Whitenack",
+  "en": "Exactly. Yeah. Much research needed.",
+  "zh": "(注：应为 [[141]]) 我们这周结束前能找到大脚怪吗？"
+ },
+ {
+  "seg": 141,
+  "start": 2461.885,
+  "end": 2464.3652,
+  "speaker": "Reef Frerichs",
+  "en": "Are we gonna find Bigfoot by the end of the week?",
+  "zh": "(注：应为 [[142]]) 我希望如此，你知道，除非除非它是跨维度生物。是的。那那多半就找不到了。不过，是的。这一直很棒，Reed。"
+ },
+ {
+  "seg": 142,
+  "start": 2464.925,
+  "end": 2477.0798,
+  "speaker": "Daniel Whitenack",
+  "en": "I hope so, you know, unless unless it's an interdimensional being. Yeah. And then then probably not. But, yeah. This this has been great, Reed.",
+  "zh": "(注：应为 [[143]]) 我我也许想，随着我们接近尾声，我们经常问我们的我们的嘉宾，当你展望未来，你知道，任何在你看来合理的时间段，你知道，接下来的几个月、明年，无论是什么，什么…什么是你脑海中最重要的，围绕…它可以是你在这一领域正在思考的一系列挑战。它可以是，比如，你很兴奋去深入探索和研究的东西，你看到这些事情的发展方向。有什么想到的吗，比如，当你一天结束时，你在思考那些向前推进的事情，什么会浮现在脑海？"
+ },
+ {
+  "seg": 143,
+  "start": 2477.0798,
+  "end": 2517.805,
+  "speaker": "Daniel Whitenack",
+  "en": "I I wanna maybe, like, as we get closer to to an end here, we often ask our our guests kind of as you look to the future, you know, that whatever time period that makes sense in your mind, you know, the next few months, the next year, whatever that is, what... What's kind of at the top of your mind around... It it could be a set of challenges that you're thinking about in in this area. It could be, like, something you're excited to dig into and explore more where where you see some of these things going. Does anything come to mind in terms of, yeah, when you end the day and you're you're thinking about those things moving forward, what what comes to mind?",
+  "zh": "(注：应为 [[144]]) 好问题。你知道，我想我有点梦想家，Daniel。我一直都是，你知道，我想这是我我进入电影行业的原因之一，我当时有点内向，而且我我非常喜欢体育，但我真的想要，比如，学会表达自己。所以我总是回到人们讲述自己故事的方式上。我我设想一个世界，而且我我已开始重…"
+ },
+ {
+  "seg": 144,
+  "start": 2517.805,
+  "end": 2540.415,
+  "speaker": "Reef Frerichs",
+  "en": "Great question. I, you know, I think I'm a little bit of a dreamer, Daniel. I've always been, you know, I think it's one of the reasons I I got into film was I was sort of an introvert and I I was really into sports, but I really wanted to, like, learn to express myself. So I always come back to ways that people can tell their story. I I envision a world and I've I've I've started to re...",
+  "zh": "(注：应为 [[145]]) 重新构想我创办的名为 The Lesson 的品牌，这真的就像是，想象一个几乎感觉像这样的世界，你知道，你可以像看 Netflix 剧集一样进入人们的故事和生活。它不一定必须是长篇形式，但想象我们可以连接的方式，我们可以讲故事的方式，我们可以再次以某种方式成为这些不同的身份，以一种变得真正美好和丰富的方式去观看。并且让我们感觉自己仿佛是某个更大整体的一部分。而而我我这么说只是，我希望那是一个我们能抵达的世界，但以现在现存的这些工具来看，它当然看起来会有一些非凡的方式来，你知道，在未来提升人类。而且它可能来得比我们想象的快得多。"
+ },
+ {
+  "seg": 145,
+  "start": 2540.415,
+  "end": 2585.61,
+  "speaker": "Reef Frerichs",
+  "en": "Reimagine the brand I started called The Lesson, which is really like, imagine like a world that almost felt like, you know, you could tap into people's stories and lives almost like you do a Netflix show or whatever. It doesn't have to be necessarily a long form, But imagine ways that we can connect, we can tell stories, we can become, you know, again, these different identities in a way that becomes just really beautiful and rich to see. And to where we feel kind of part of something bigger and and and as a whole. And I and I I say that only, I hope that's a world that we can get to, but it's certainly with the tools that are out there right now, it certainly seems like there will be some extraordinary ways to, you know, lift humanity in the future. And it might be a lot here a lot sooner than we think.",
+  "zh": "(注：应为 [[146]]) 所以我我回到…为了回答你的问题，我回到我围绕讲故事以及如何如何打动人心的许多梦想和愿景。"
+ },
+ {
+  "seg": 146,
+  "start": 2585.61,
+  "end": 2595.53,
+  "speaker": "Reef Frerichs",
+  "en": "So I I go back to... To answer your question, I go back to a lot of the dreams and sorta vision I had around storytelling and how to how to move people.",
+  "zh": "(注：应为 [[147]]) 太好了。那么，我我希望将来能邀请你回到节目中，来来谈谈所有这些事情。正如你所强调的，未来的样子会与我们所能预测的不同，这不是需要害怕的事情，而是需要拥抱的事情，并，让它成为你故事的一部分。很高兴你能加入我们并与我们分享。感谢你的到来，Reed。"
+ },
+ {
+  "seg": 147,
+  "start": 2595.53,
+  "end": 2618.73,
+  "speaker": "Daniel Whitenack",
+  "en": "That's great. Well, I I hope to have you back on the back on the show in the future to to talk through all of those things. And as you've highlighted, things will look different in the future than we can even predict and not something to be afraid of, but something to lean into and, make part of your story. Happy that you could join us and share that with us. Thanks for joining, Reed.",
+  "zh": "(注：应为 [[148]] 非常感谢你，Daniel。谢谢你，Chris。我真的很感激。谢谢。"
+ },
+ {
+  "seg": 148,
+  "start": 2618.73,
+  "end": 2621.69,
+  "speaker": "Reef Frerichs",
+  "en": "Thank you so much, Daniel. Thank you, Chris. I really appreciate it. Thank you.",
+  "zh": "(注：应为 [[149]] 好了。这就是我们本周的节目。如果你还没有浏览过我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 进展相关的洞见，我们非常欢迎你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 149,
+  "start": 2628.355,
+  "end": 2648.7102,
+  "speaker": "Narrator",
+  "en": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+  "zh": "好了,这就是本周的节目。如果你还没看过我们的网站,请访问 practicalai.fm,并在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 动态相关的洞察,我们非常欢迎你加入讨论。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 150,
+  "start": 2648.9502,
+  "end": 2658.2727,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "欢迎访问 predictionguard.com 了解他们。另外,感谢 Breakmaster Cylinder 提供的节拍,也感谢你的收听。本期就到这里,下周我们会再次与你相见。"
+ }
+]

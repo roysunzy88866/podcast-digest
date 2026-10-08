@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":31,"AI":29,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
+<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":32,"AI":29,"构建者":4,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
 
 <script>
 (function(){

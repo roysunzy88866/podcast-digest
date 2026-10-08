@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bedrock</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Bedrock">BE</div><div class="pi"><h1 class="pt">Bedrock</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bedrock">BE</div><div class="pi"><h1 class="pt">Bedrock</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(06:52起):本集说亚马逊产品很棒的一点是你可以通过 Bedrock 选择很多不同的模型
 - **[[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]]**(02:22起):本集说它是 AWS 的模型托管服务,托管 Claude、GPT 这类 LLM;其 Mantle 团队用 6 个人 76 天重建了新的推理数据平面,是 Amazon 内第一支「前沿开发者」探路者团队。
+- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(07:32起):AWS 的模型托管服务,本集强调其差异化是保证数据永不离开你的 VPC、模型提供商永远看不到你的提示词;企业从概念验证走向生产时绝大多数落在 Bedrock 上。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]] — 作为概念
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Kiro]] · [[Michael Giannangelli]] · [[Clare Liguori]] · [[Nova]] · [[Amazon]] · [[模型路由]] · [[AWS]] · [[评估]] · [[前沿开发]]
+[[智能体]] · [[评估]] · [[Amazon]] · [[Kiro]] · [[AWS]] · [[Anthropic]] · [[OpenAI]] · [[Michael Giannangelli]] · [[Clare Liguori]] · [[Raguraguram]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"Kiro":4,"Michael Giannangelli":1,"Clare Liguori":1,"Nova":1,"Amazon":31,"模型路由":10,"AWS":20,"评估":5,"前沿开发":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"评估":5,"Amazon":32,"Kiro":4,"AWS":21,"Anthropic":189,"OpenAI":178,"Michael Giannangelli":1,"Clare Liguori":1,"Raguraguram":1}</script>
 
 <script>
 (function(){

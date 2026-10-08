@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":2,"Anthropic":186,"William Grant":1,"Boston Dynamics":3,"智能体":437,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":2,"Anthropic":189,"William Grant":1,"Boston Dynamics":3,"智能体":441,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

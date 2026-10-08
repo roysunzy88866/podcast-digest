@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-08-mad-what-happens-when-billions-of-ai-agents",
+  "audio_mp3": "https://anchor.fm/s/f2ee4948/podcast/play/127084935/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433665610-44100-2-a2e92ad5e51b2.mp3",
+  "duration_sec": 4605.974,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 947,
+  "asr": true,
+  "title_en": "What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)",
+  "podcast": "The MAD Podcast",
+  "date": "2026-10-08",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40657026/40657026-1768486187830-f8f544fbc7c46.jpg",
+  "added": "2026-10-08",
+  "added_at": "2026-10-08T14:46:11.175Z",
+  "speaker_map": {
+    "SPEAKER_00": "Andy Pavlo",
+    "SPEAKER_01": "Matt Turk"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Andy Pavlo",
+  "cohosts": [
+    "Matt Turk"
+  ],
+  "title_zh": "智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则",
+  "guest_name": "Andy Pavlo",
+  "guest_title": "卡内基梅隆大学教授",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40657026/40657026-1768486187830-f8f544fbc7c46.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-08T15:18:52.349Z"
+  }
+}

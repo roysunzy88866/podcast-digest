@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>60</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>62</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -70,10 +70,12 @@ unlisted: true
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(16:06起):Crusoe 的长期合作伙伴,Chase 通过看它的芯片路线图(150/200 瓦到 600 瓦)判断功率密度上升会改变数据中心形态。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(11:52起):本集说 NVIDIA 是令人难以置信的全系统公司，给加速器生态提供非常强的参考栈
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(08:41起):本集说它正用收入底线、房东担保、可转让租约等表外兜底（约5880亿美元）扶持新云生态，并认为这是扶植多样化云市场的务实做法而非维持泡沫。
+- **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(97:19起):本集提到它成为世界最有价值公司，是超级智能浪潮的体现；Jensen 被评价为不相信超级智能、只看到智能体有用。
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(64:09起):本集说 NVIDIA 吞并了一批苦苦挣扎的 GPU 数据库公司(含 HeavyDB)、全力押注 GPU 数据库,动机显然是多卖 GPU
 
 ## ① 提到它的金句
 
-*12 条*
+*13 条*
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
 
@@ -99,9 +101,11 @@ unlisted: true
 
 ![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q7]]
 
+![[2026-10-08-a16z-building-the-cloud-for-an-agentic-world#^q1]]
+
 ## ② 出现在这些集
 
-*60 集*
+*62 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -163,14 +167,16 @@ unlisted: true
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司(提及)
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":186,"OpenAI":176,"智能体":437,"推理":83,"GPU":26,"Google":65,"Cursor":83,"Meta":48,"开源":38,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":189,"智能体":441,"OpenAI":178,"推理":85,"GPU":27,"Google":65,"Cursor":83,"Meta":48,"开源":38,"数据中心":23}</script>
 
 <script>
 (function(){

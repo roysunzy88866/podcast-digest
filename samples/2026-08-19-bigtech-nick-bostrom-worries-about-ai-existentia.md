@@ -111,9 +111,9 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)、递归自我改进 (recursive self-improvement)、护栏 (guardrails)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
 - [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|丰裕的概率：为什么「先担心安全」是本末倒置]]<span class="pd-rz">同概念:AI 安全 (AI safety)、对齐 (alignment)、超级智能 (superintelligence)、智能体 (agent)</span>
-- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

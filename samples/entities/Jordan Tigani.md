@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":19,"open core":1,"数据仓库":3,"智能体":437,"仪表盘":2}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":2,"DuckDB Labs":1,"BigQuery":1,"Snowflake":20,"open core":1,"数据仓库":3,"智能体":441,"仪表盘":2}</script>
 
 <script>
 (function(){

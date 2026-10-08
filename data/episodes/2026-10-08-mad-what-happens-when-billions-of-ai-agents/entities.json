@@ -1,0 +1,2251 @@
+{
+  "episode_id": "2026-10-08-mad-what-happens-when-billions-of-ai-agents",
+  "podcast": "The MAD Podcast",
+  "date": "2026-10-08",
+  "tags": [
+    "数据库",
+    "智能体",
+    "AI 基础设施",
+    "HTAP",
+    "text-to-SQL"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "andy-pavlo",
+      "type": "person",
+      "role": "host",
+      "name": "Andy Pavlo",
+      "file": "Andy Pavlo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            16.185,
+            17.426
+          ],
+          "quote": "That is Andy Pavlo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1201.626,
+            1207.23
+          ],
+          "quote": "And then I have to say, also don't cite, don't cite Andy Pavlo or any Carnegie Mellon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            46.693,
+            49.075
+          ],
+          "quote": "I'm Matt Turk, and this is the Matt Podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4586.74,
+            4587.781
+          ],
+          "quote": "Hi, it's Matt Turk again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:智能体正在创建数据库、做分支、闯祸删生产库,并把冲击数据库的查询量推高 10 到 100 倍;要像对待刚学步的幼儿一样给它配护栏和沙箱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            3.594,
+            6.557
+          ],
+          "quote": "Every month there's a story where someone lost their production database because the agent deleted something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            276.344,
+            279.086
+          ],
+          "quote": "What does that mean, an agent creating a database?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            279.566,
+            282.629
+          ],
+          "quote": "Why does an agent need to create a database in the first place?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            315.906,
+            323.932
+          ],
+          "quote": "But then you want to have either a human developer or an agent be able to start trying out new things, make changes to the application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            413.11,
+            417.493
+          ],
+          "quote": "An agent needs to create a database because agents take actions on the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            417.713,
+            422.996
+          ],
+          "quote": "And if you ask an agent to create an application, an application at the end of the day is still a database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            423.056,
+            432.541
+          ],
+          "quote": "Yeah, so it's certainly, like, if you say, like, if you created this from scratch, then yes, your coding agent, you give the prompt, say a billion applications does this, then yes, it will create a database right away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            438.304,
+            439.845
+          ],
+          "quote": "But yes, the agent can now create databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            459.595,
+            471.84
+          ],
+          "quote": "There's Jason Lankin that was trying to build something with Replit, and I think the Replit agent went to the database and deleted a lot of files, which then subsequently Replit made the right adjustments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            552.517,
+            567.863
+          ],
+          "quote": "So if you have the right guardrails through branching or whatever means you want to create these sandboxes, you can avoid disasters like every month there's a story where someone lost their production database because the agent deleted something or did something they shouldn't do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            571.984,
+            581.468
+          ],
+          "quote": "People get lazy, they use the same password across entire company, organization, and then they give the same password to the agent and now wonder why the agent started doing things they shouldn't do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            806.446,
+            815.591
+          ],
+          "quote": "And then furthermore, unlike like a web app, they're usually going to be, you could argue like, you know, how's this agent really different than like IoT devices or cell phones now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            858.45,
+            870.678
+          ],
+          "quote": "I've seen some people say, well, the type of queries that the agent would generate or SQL queries the agent would generate is actually more shallow because it's just trying to like maybe read one or two tables at a time, try to figure out what's in there versus like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            910.858,
+            929.451
+          ],
+          "quote": "Some fantastic stuff in there that I want to go back to in a minute, but there is a concept of agent memory that seems to be a little bit of a battleground right now with on the one hand file systems and on the other hand databases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1024.328,
+            1033.454
+          ],
+          "quote": "Does the world of multi-agents, sub-agents, agent swarms, does that require",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1062.663,
+            1067.449
+          ],
+          "quote": "I haven't seen anything where the agent, it's like, it's part of its memory lookup is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1104.332,
+            1109.555
+          ],
+          "quote": "Have you seen the agent world converge towards a specific type of database?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1109.855,
+            1117.46
+          ],
+          "quote": "Are you asking in terms of using it for memory or having an agent choose one particular data system over another when they build an application?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1138.953,
+            1148.783
+          ],
+          "quote": "And I will say, I can't say who, I've had two database companies ask me how to get their database to be recommended first by an agent over Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1161.092,
+            1164.895
+          ],
+          "quote": "How do you get the agent to learn like, hey, I should use my database X instead of Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1464.151,
+            1486.987
+          ],
+          "quote": "I actually was talking to somebody from a very large bank yesterday who said they now have a text-to-SQL interface, but in the initial implementation of it, they were doing something off the shelf and then they further refined it a little bit further in-house, but it was about 60% accuracy, meaning like the LLM or the agent could produce the right SQL query to produce the right answer 60% of the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1513.386,
+            1521.99
+          ],
+          "quote": "So the agent has enough information to derive the right SQL query from the question you're asking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1558.182,
+            1566.249
+          ],
+          "quote": "A standard way to specify what you want the request to be from the agent to whatever data system you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1718.475,
+            1722.335
+          ],
+          "quote": "The agent basically do all our assignments without very little prompting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1829.265,
+            1832.387
+          ],
+          "quote": "You don't know whether it's actually being generated from an agent, but most people don't do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2564.412,
+            2566.754
+          ],
+          "quote": "An agent can kind of do a lot of things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2566.954,
+            2575.682
+          ],
+          "quote": "Do you need to have as many PhD students working on stuff when like an agent can produce things and work with me as the professor to write papers and things like that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3028.161,
+            3042.053
+          ],
+          "quote": "So I think the, going back to the agent stuff, the agent stuff seems really interesting too, that like people are using this to observe the information, the telemetry that these agents are generating and be able to react to them in real time and ask questions about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4281.858,
+            4289.802
+          ],
+          "quote": "I think the agent itself is super interesting and I think getting better performance is always going to be, at least from my perspective, a fun challenge, just things we can pursue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说智能体时代数据库最需要的就是护栏——用分支建沙箱、设权限,防止智能体删表删记录;这些控制手段数据库界几十年来一直存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            509.827,
+            511.408
+          ],
+          "quote": "Guardrails, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            512.048,
+            521.914
+          ],
+          "quote": "It's like, you know, you wouldn't have a new child, a new toddler, and just like not put up the guardrails so they don't fall down the stairs or put their finger in the socket, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            552.517,
+            567.863
+          ],
+          "quote": "So if you have the right guardrails through branching or whatever means you want to create these sandboxes, you can avoid disasters like every month there's a story where someone lost their production database because the agent deleted something or did something they shouldn't do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            568.203,
+            571.924
+          ],
+          "quote": "With the right guardrails in place, you can assure that these things don't happen, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            581.808,
+            585.59
+          ],
+          "quote": "Should those be the same guardrails as what currently exists?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            621.255,
+            630.484
+          ],
+          "quote": "But the level of sophistication of what those guardrails could be beyond just like don't run delete or update on a table, the level of sophistication",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1660.9,
+            1663.281
+          ],
+          "quote": "Like, so the guardrails we were talking about before,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说让智能体在自己沙箱里、在生产库快照副本上改代码跑测试,验证后再上线,就不会碰坏生产数据库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            404.966,
+            408.128
+          ],
+          "quote": "And so you want them to run in their own sandbox, you can make a snapshot of the database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "branching",
+      "type": "concept",
+      "role": "concept",
+      "name": "分支 (branching)",
+      "file": "分支",
+      "primary": true,
+      "how_described": "本集解释分支是对生产数据库做快照副本、让变更先进副本再上线的机制;Databricks 收购 Neon 后智能体创建的分支比例从 30% 涨到 80%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            282.729,
+            285.631
+          ],
+          "quote": "The creation of a database and then there's branching of an existing database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            291.717,
+            293.039
+          ],
+          "quote": "So what does branching mean?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            293.139,
+            305.598
+          ],
+          "quote": "So branching is when you have a database and you want to make a sort of copy and write snapshot of that database and have it look like two unique databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            346.527,
+            355.052
+          ],
+          "quote": "So what branching allows you to do is it allows you to make a snapshot of the real database, have all the changes that you make go to the snapshot and not affect the production database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            396.481,
+            400.543
+          ],
+          "quote": "So it's mostly being this branching capability is used for development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            408.148,
+            410.309
+          ],
+          "quote": "So the branching capability is super useful for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            552.517,
+            567.863
+          ],
+          "quote": "So if you have the right guardrails through branching or whatever means you want to create these sandboxes, you can avoid disasters like every month there's a story where someone lost their production database because the agent deleted something or did something they shouldn't do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集说向量数据库 2016 年就有了,ChatGPT 爆火后恰逢其时,但它护城河不大——归根结底只是一个索引,一年内人人都有向量索引,已成标准入场筹码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            142.767,
+            160.535
+          ],
+          "quote": "The vector database market is interesting because they were early in the space, but they were really pushing the idea that you want to do this, you know, the approximate similarity search on vectors or embeddings instead of doing an exact search that database systems have traditionally done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            180.464,
+            189.648
+          ],
+          "quote": "And the magic of approximate nearest neighbor search, where these vector embedding searches in a vector database is that you can look up things based on the semantics of...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3540.691,
+            3544.694
+          ],
+          "quote": "The one Vector database company that I know is doing very well is TurboPuffer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3555.784,
+            3562.191
+          ],
+          "quote": "So I don't think that the vector database is going to go away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3607.733,
+            3610.691
+          ],
+          "quote": "I've seen predictions that like, oh, Postgres is going to die at the hands of a vector database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集说向量搜索仍会被用来增强智能体,只是不再需要专门数据库;例外是超专精、性价比极高的 TurboPuffer",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            34.221,
+            38.145
+          ],
+          "quote": "Now, not long ago, databases in AI meant vector search and RAG.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3508.084,
+            3513.887
+          ],
+          "quote": "I think it'll be around now that, you know, everybody else and their brother has a vector search capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3546.055,
+            3555.064
+          ],
+          "quote": "And they are hyper specialized in doing vector search at a cost performance ratio that's much better than everyone else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3596.27,
+            3603.472
+          ],
+          "quote": "And if you want the raw best performance of vector search, in some cases, you may have to go to one of these specialized systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说两年前「数据库+AI」就等于 RAG 和向量数据库——用相似性搜索给聊天机器人补上下文,如今重点已转向智能体直接操作数据库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            34.221,
+            38.145
+          ],
+          "quote": "Now, not long ago, databases in AI meant vector search and RAG.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            91.896,
+            101.363
+          ],
+          "quote": "There was a whole era of vector databases and this whole idea that you need to do RAG in connection with chatbot searches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            119.988,
+            126.754
+          ],
+          "quote": "In terms of being in the zeitgeist of AI and databases, probably two years ago is when the RAG vector came into play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1074.118,
+            1076.04
+          ],
+          "quote": "Again, that's going back to the RAG or the vector-based stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "text-to-sql",
+      "type": "concept",
+      "role": "concept",
+      "name": "text-to-SQL",
+      "file": "text-to-SQL",
+      "primary": true,
+      "how_described": "本集说 text-to-SQL 从 70 年代就在尝试,裸用现成工具约 60% 准确率,一家大银行砸多年时间和数百万美元建语义层后做到 99.5%——可行但不便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1445.806,
+            1460.59
+          ],
+          "quote": "I've been skeptical of the academic literature and the research publications on various frameworks that do text-to-SQL because oftentimes the benchmarks that are showing, Spider and a couple other ones, like these are well-known benchmarks that you know the models are trained on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1464.151,
+            1486.987
+          ],
+          "quote": "I actually was talking to somebody from a very large bank yesterday who said they now have a text-to-SQL interface, but in the initial implementation of it, they were doing something off the shelf and then they further refined it a little bit further in-house, but it was about 60% accuracy, meaning like the LLM or the agent could produce the right SQL query to produce the right answer 60% of the time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义层 (semantic layer)",
+      "file": "语义层",
+      "primary": true,
+      "how_described": "本集说大银行靠提供更丰富的语义层/上下文层,才把 text-to-SQL 准确率提到 99.5%;语义层是让智能体推导出正确 SQL 的关键投入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1491.83,
+            1503.804
+          ],
+          "quote": "But they said through this, providing a more rich semantic layer, a context layer, over multiple years and millions and millions of dollars to make this work, they were able to get it up to like 99.5%, which is insane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1506.202,
+            1512.865
+          ],
+          "quote": "I think that's a viable thing now if you invest the time to have the right semantic layer and the context information you need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 基本就是个 REST 接口、Anthropic 搞出来后被大家采纳为标准;不是魔法子弹但够好了,护栏对 SQL 和 MCP 请求一视同仁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1394.381,
+            1395.581
+          ],
+          "quote": "Let's talk about MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1396.462,
+            1403.666
+          ],
+          "quote": "So over the last year or so, it seems like everybody, every database provider added an MCP server to their offering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1538.23,
+            1541.878
+          ],
+          "quote": "So now in terms of MCP, the Model Context Protocol, like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1549.654,
+            1553.978
+          ],
+          "quote": "And every time, there's every so often, there's a hacker news post saying like, MCP's dead or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1566.309,
+            1570.472
+          ],
+          "quote": "And then that data system that receives the MCP request, it's their job to convert it into",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1578.275,
+            1590.5
+          ],
+          "quote": "But usually it's either, you know, oftentimes it's a strict translation of what being passed to you and not like trying to derive the semantic meaning of the MCP request because MCP request has to be somewhat well-defined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1592.72,
+            1593.68
+          ],
+          "quote": "I have no problem with MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1637.563,
+            1651.833
+          ],
+          "quote": "If the request came from, like, SQL from a traditional application client using JDBC or ODPC, like, you know, the network protocols or terminals for these different data systems, it's no different if it comes from that versus, you know, a REST request with MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1664.282,
+            1667.565
+          ],
+          "quote": "They're the same if it's coming in as SQL versus the same as coming in MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "graph-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "图数据库 (graph database)",
+      "file": "图数据库",
+      "primary": true,
+      "how_described": "本集火力全开:图遍历本质上是对表做自连接,SQL 2023 标准已支持属性图查询,关系型数据库可轻松跑赢 Neo4j;Andy 押 2030 年图数据库市场不会超过关系型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 732,
+          "t": [
+            3627.67,
+            3639.52
+          ],
+          "quote": "I say I have an outstanding bet with somebody on Hacker News where they said that by the year 2030, the graph database market was going to be, was going to overcome the larger in the relational database market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3708.121,
+            3720.232
+          ],
+          "quote": "What you will lose against a graph database if you're doing the graph traversal with the client side and server side, meaning like, you know, I got to figure out what the next node I want to go look at, go back to the client, and that sides of the next node to go traverse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3732.844,
+            3735.867
+          ],
+          "quote": "So, like, graph database is, I think, a horrible idea.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU 数据库 (GPU database)",
+      "file": "GPU 数据库",
+      "primary": true,
+      "how_described": "本集说 2010 年代那轮 GPU 数据库因「必须把整个数据库塞进显存」熄火,NVIDIA 现在吞并一批玩家全力押注;但 GPU 是最贵最难拿的硬件,短期内说不通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 760,
+          "t": [
+            3748.141,
+            3750.484
+          ],
+          "quote": "What is a GPU database and what is your prediction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3750.644,
+            3763.606
+          ],
+          "quote": "So GPU database is a data system where the execution end for queries is offloaded to GPU running on PCIe or running in the same box or another box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3849.901,
+            3858.804
+          ],
+          "quote": "And then there was, in the last year or so, NVIDIA has basically gobbled up a bunch of these GPU database companies that were kind of like struggling along.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "htap",
+      "type": "concept",
+      "role": "concept",
+      "name": "HTAP",
+      "file": "HTAP",
+      "primary": true,
+      "how_described": "本集说「两引擎一份数据」的理想 HTAP 架构几十年没起飞,原因是组织而非工程:运营侧和分析师都想要各自领域最好的系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 671,
+          "t": [
+            3349.048,
+            3353.818
+          ],
+          "quote": "I mean, people have been wanting these HTAP systems or these hybrid systems since the very beginning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1464.151,
+            1486.987
+          ],
+          "quote": "I actually was talking to somebody from a very large bank yesterday who said they now have a text-to-SQL interface, but in the initial implementation of it, they were doing something off the shelf and then they further refined it a little bit further in-house, but it was about 60% accuracy, meaning like the LLM or the agent could produce the right SQL query to produce the right answer 60% of the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2132.365,
+            2142.616
+          ],
+          "quote": "There's enough people that are maybe running with a DOL configuration, which is that thing's just terrible, don't do that, where like an LLM could come and take care of some low-hanging fruit and provide some meaningful improvements for people in a short amount of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3074.698,
+            3080.641
+          ],
+          "quote": "It bought LangFuse for LLM observability, bought other things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "relational-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "关系模型 (relational model)",
+      "file": "关系模型",
+      "primary": true,
+      "how_described": "本集说关系模型本身就是表示数据的基础,就像你不会为替换一加一等于二发明新算术;数据的形态不会巨变到要求推翻全部已知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            1889.849,
+            1901.032
+          ],
+          "quote": "I mean, since the creation of the relational model and relational databases in the 1970s, people have been trying to do auto-tuning for indexes, partitioning keys, charting keys, and tuning knobs and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4233.406,
+            4236.568
+          ],
+          "quote": "The relational model itself is the foundation of how you wanna represent data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agent memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集论断「一切都是数据库」:文件系统也是数据库,但数据库系统提供跨多智能体共享状态、SQLite 式安全写入等保障,所以记忆应该放进数据库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            910.858,
+            929.451
+          ],
+          "quote": "Some fantastic stuff in there that I want to go back to in a minute, but there is a concept of agent memory that seems to be a little bit of a battleground right now with on the one hand file systems and on the other hand databases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dba",
+      "type": "concept",
+      "role": "concept",
+      "name": "DBA",
+      "file": "DBA",
+      "primary": true,
+      "how_described": "本集说 DBA 的传统角色会被降级,很多工作可被自动化,但角色不会消失——他们转向数据建模这类更高级的活动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 458,
+          "t": [
+            2272.633,
+            2278.275
+          ],
+          "quote": "I would say that the traditional role of a DBA, as we've known in the past, I think that's going to be relegated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clickhouse",
+      "type": "company",
+      "role": "company",
+      "name": "ClickHouse",
+      "file": "ClickHouse",
+      "primary": true,
+      "how_described": "本集说 ClickHouse 是极快的实时分析型 OLAP 数据库,2016 年问世时好得像 vaporware;Andy 加入它创立 ClickHouse Labs,允许他做真研究并在真实生产系统上验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            29.958,
+            33.861
+          ],
+          "quote": "And he recently made some waves by joining ClickHouse to found ClickHouse Labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            77.627,
+            80.048
+          ],
+          "quote": "I will say my contract with ClickHouse does allow me to talk about Larry Ellison.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            844.942,
+            847.283
+          ],
+          "quote": "We've seen the same thing at ClickHouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1298.594,
+            1299.955
+          ],
+          "quote": "You could use ClickHouse, things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1318.69,
+            1321.212
+          ],
+          "quote": "And that's where, you know, ClickHouse shines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1321.292,
+            1323.854
+          ],
+          "quote": "And we'll talk about ClickHouse more later.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2155.046,
+            2159.247
+          ],
+          "quote": "So yes, we can work for the ClickHouse or CockroachDBs of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2177.454,
+            2187.243
+          ],
+          "quote": "For my courses, even if you're not going to go off and become a database system engineer, like go work on the internals of ClickHouse or Cockroach or Postgres, at the end of the day, everyone's going to interact with the database system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2530.852,
+            2536.555
+          ],
+          "quote": "So that takes us in some way to ClickHouse and ClickHouse Labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2537.275,
+            2541.417
+          ],
+          "quote": "You joined ClickHouse recently to start ClickHouse Labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2607.086,
+            2609.268
+          ],
+          "quote": "And then when I talked to the ClickHouse people,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2705.393,
+            2705.954
+          ],
+          "quote": "The ClickHouse,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2708.303,
+            2719.315
+          ],
+          "quote": "The kind of stuff I want to do is directly relevant to what ClickHouse wants to do, not just on the ClickHouse system itself, but also now they have a Postgres offering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2754.535,
+            2763.06
+          ],
+          "quote": "While we're at it, let's talk about ClickHouse a little bit in which, for disclosure, we are very proud investors here at FirstMark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2763.08,
+            2772.507
+          ],
+          "quote": "I think I read somewhere that in 2016, you were concerned that ClickHouse was possibly vaporware because it was a little too good to be true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2883.517,
+            2885.858
+          ],
+          "quote": "So I would say the architecture of ClickHouse,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2978.12,
+            2984.466
+          ],
+          "quote": "So when ClickHouse came out of the gate, like, hey, we have all this stuff based on all this research that people have done before, it was amazing, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2984.706,
+            2994.614
+          ],
+          "quote": "And since then, DuckDB has something similar, pullers from the guys in Amsterdam, Firebolt started off as a fork at ClickHouse and they rewrote a bunch of stuff inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3014.209,
+            3017.592
+          ],
+          "quote": "And one of the things I think ClickHouse has done really well over the years is just...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3022.737,
+            3025.519
+          ],
+          "quote": "And what use cases are you seeing for ClickHouse?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3057.228,
+            3063.234
+          ],
+          "quote": "Like that, I think the combination of doing those two things is puts ClickHouse in a unique position.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3063.514,
+            3068.356
+          ],
+          "quote": "And ClickHouse has been on a journey to expand its product offering, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3086.663,
+            3090.628
+          ],
+          "quote": "I mean, somebody asked me like, why, why did I join ClickHouse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3102.017,
+            3107.28
+          ],
+          "quote": "No, like, honestly, before I decided to do ClickHouse, they were doing things at the business level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3107.68,
+            3110.222
+          ],
+          "quote": "Like, so this is ClickHouse Incorporated, not ClickHouse, the system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3154.68,
+            3159.683
+          ],
+          "quote": "So one thing that ClickHouse has done, as you mentioned, was adding",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3236.658,
+            3244.241
+          ],
+          "quote": "I think the, again, I realize I'm saying this and I'm biased because I'm at ClickHouse, but like you look at like what Databricks did, you look at like what,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3246.143,
+            3249.685
+          ],
+          "quote": "What ClickHouse has done, to me that appears that's the right path to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3289.316,
+            3290.857
+          ],
+          "quote": "ClickHouse right now is separate services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3291.317,
+            3296.882
+          ],
+          "quote": "What the, you know, but they have a fast path to get the data out of the OTP side from Postgres into ClickHouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3299.907,
+            3323.136
+          ],
+          "quote": "What Databricks announced this year was their LTAP engine or LTAP story for their Lakebase where you can run your transactions on Postgres or Lakebase or Neon and then have the OLAP engine be able to read that data directly so that you don't have to make two copies of it in the way ClickHouse does or other systems do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3440.208,
+            3444.555
+          ],
+          "quote": "And so ClickHouse could potentially pursue the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3655.836,
+            3677.027
+          ],
+          "quote": "No, it's always been a niche market, and I think that, because my perspective on the research side, the research shows that if you do certain things in implementing the engine, which ClickHouse does do, DuckDB does some of this as well, there's certain, there's things you can do that allow you to do the traversals of grass, which essentially just joins, self-joins on the table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3925.235,
+            3929.556
+          ],
+          "quote": "And so at ClickHouse, we've been potentially looking at this as well, but it's research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3930.736,
+            3940.106
+          ],
+          "quote": "It's interesting to see whether how much you have to do translation between how ClickHouse expects things and how CUDA wants things to be the data layout and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4060.187,
+            4070.929
+          ],
+          "quote": "This is one of the things I'm trying to figure out at ClickHouse is like, you know, we talked about this in the very beginning, like, are agentic workloads significantly different than what humans or what existing applications do now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4130.401,
+            4135.303
+          ],
+          "quote": "Then there was the emergence of Databricks, Snowflake, now ClickHouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4308.455,
+            4311.859
+          ],
+          "quote": "ClickHouse, Postgres, Umbra from the Germans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4454.36,
+            4456.88
+          ],
+          "quote": "Yes, ClickHouse has room for improvement, we can improve that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4458.713,
+            4466.278
+          ],
+          "quote": "But like I said, the architecture, the high level of what ClickHouse is doing is similar to what Snowflake did in 2013.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 913,
+          "t": [
+            4494.44,
+            4495.861
+          ],
+          "quote": "And then one of the things that ClickHouse is actually",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 916,
+          "t": [
+            4505.226,
+            4516.438
+          ],
+          "quote": "So the core kernels of the system, like that certainly improved, but the fundamentals of what ClickHouse is doing versus other systems, the smallest level, they're pretty similar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 919,
+          "t": [
+            4519.521,
+            4522.382
+          ],
+          "quote": "And I think ClickHouse does some things well, things can do better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4568.104,
+            4571.246
+          ],
+          "quote": "I was floating it out there to see what ClickHouse would be okay with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集多次提及:Databricks 收购 Neon(智能体创建分支比例 30%→80% 的数据来源),今年宣布 Lakebase 的 HTAP 故事,被认为最有希望做成混合事务分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            258.608,
+            271.319
+          ],
+          "quote": "So maybe a year ago when Databricks acquired Neon, there was a stat that I believe said that the number or the percentage of agents creating Neon databases went from 30% to 80%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1293.71,
+            1295.211
+          ],
+          "quote": "Okay, you could use Snowflake or Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2994.854,
+            2997.937
+          ],
+          "quote": "And now they have all these things, like Databricks has their own version engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3165.63,
+            3169.795
+          ],
+          "quote": "So Databricks bought Neon, Snowflake made an acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3236.658,
+            3244.241
+          ],
+          "quote": "I think the, again, I realize I'm saying this and I'm biased because I'm at ClickHouse, but like you look at like what Databricks did, you look at like what,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3299.907,
+            3323.136
+          ],
+          "quote": "What Databricks announced this year was their LTAP engine or LTAP story for their Lakebase where you can run your transactions on Postgres or Lakebase or Neon and then have the OLAP engine be able to read that data directly so that you don't have to make two copies of it in the way ClickHouse does or other systems do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3425.44,
+            3434.422
+          ],
+          "quote": "I think, though, Databricks might be in a good position to potentially pull this off because they already have that sort of market from the analytical side, machine learning side,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4130.401,
+            4135.303
+          ],
+          "quote": "Then there was the emergence of Databricks, Snowflake, now ClickHouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4466.298,
+            4470.02
+          ],
+          "quote": "Databricks is basically copying existing ideas as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 921,
+          "t": [
+            4524.463,
+            4526.224
+          ],
+          "quote": "Same in the Databricks and the other guys.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neon",
+      "type": "company",
+      "role": "company",
+      "name": "Neon",
+      "file": "Neon",
+      "primary": true,
+      "how_described": "本集说 Databricks 收购 Neon 时有个数据:智能体创建的 Neon 数据库分支比例从 30% 涨到 80%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            258.608,
+            271.319
+          ],
+          "quote": "So maybe a year ago when Databricks acquired Neon, there was a stat that I believe said that the number or the percentage of agents creating Neon databases went from 30% to 80%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3165.63,
+            3169.795
+          ],
+          "quote": "So Databricks bought Neon, Snowflake made an acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3299.907,
+            3323.136
+          ],
+          "quote": "What Databricks announced this year was their LTAP engine or LTAP story for their Lakebase where you can run your transactions on Postgres or Lakebase or Neon and then have the OLAP engine be able to read that data directly so that you don't have to make two copies of it in the way ClickHouse does or other systems do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "company",
+      "role": "company",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": true,
+      "how_described": "本集说模型几乎总是推荐 Postgres,因为预训练数据集里全是它;现在它就是「最好的操作型数据系统」,Snowflake/ClickHouse 等纷纷加 Postgres 服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1129.264,
+            1135.27
+          ],
+          "quote": "And so, you know, if I say I'm building a new application, chances are it's probably going to recommend Postgres at this point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1138.953,
+            1148.783
+          ],
+          "quote": "And I will say, I can't say who, I've had two database companies ask me how to get their database to be recommended first by an agent over Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1161.092,
+            1164.895
+          ],
+          "quote": "How do you get the agent to learn like, hey, I should use my database X instead of Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1239.405,
+            1249.093
+          ],
+          "quote": "So I think that, I mean, she originally questioned, like, I think for OOTP, I haven't tried this in a while, but usually it spits back, hey, we should use Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1261.383,
+            1265.566
+          ],
+          "quote": "But in terms of OOTP, it almost always says use Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1364.275,
+            1366.296
+          ],
+          "quote": "Postgres was supposed to support it this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1388.377,
+            1391.459
+          ],
+          "quote": "Postgres often should be the first choice for many of these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1972.441,
+            1974.322
+          ],
+          "quote": "MySQL, Postgres, Oracle, and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1987.85,
+            1992.512
+          ],
+          "quote": "And a lot of things we learn from trying to optimize MySQL and Postgres, we end up building in our own system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2109.145,
+            2119.214
+          ],
+          "quote": "Well, it would matter a lot more, but for most people, actually, one of the things I was surprised so much was like when we had the startup and trying to do this auto-tuning stuff for Postgres MySQL, is how many people- That was auto-tuned, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2177.454,
+            2187.243
+          ],
+          "quote": "For my courses, even if you're not going to go off and become a database system engineer, like go work on the internals of ClickHouse or Cockroach or Postgres, at the end of the day, everyone's going to interact with the database system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2708.303,
+            2719.315
+          ],
+          "quote": "The kind of stuff I want to do is directly relevant to what ClickHouse wants to do, not just on the ClickHouse system itself, but also now they have a Postgres offering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2719.656,
+            2725.942
+          ],
+          "quote": "There's a bunch of stuff we've done in the past on Postgres, and now we can start looking at real data, trying to put some of these things in production workloads and help people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3115.145,
+            3121.889
+          ],
+          "quote": "Like, having a Postgres offering, not just a single, you know, OLAP engine that's really good, not starting in the L2P space, having the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3160.243,
+            3165.59
+          ],
+          "quote": "A Postgres service, a managed Postgres service, it seems that it's a clear trend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3206.833,
+            3219.292
+          ],
+          "quote": "Obviously maintaining these things is still a challenge, but the bar of entry of deploying a Postgres offering has certainly been reduced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3291.317,
+            3296.882
+          ],
+          "quote": "What the, you know, but they have a fast path to get the data out of the OTP side from Postgres into ClickHouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3299.907,
+            3323.136
+          ],
+          "quote": "What Databricks announced this year was their LTAP engine or LTAP story for their Lakebase where you can run your transactions on Postgres or Lakebase or Neon and then have the OLAP engine be able to read that data directly so that you don't have to make two copies of it in the way ClickHouse does or other systems do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3403.454,
+            3405.655
+          ],
+          "quote": "And for better or worse, that's Postgres now, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3484.023,
+            3485.464
+          ],
+          "quote": "But Postgres is the best of breed now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3486.753,
+            3495.197
+          ],
+          "quote": "In many cases, so like betting on your front end as a Postgres deployment that is compatible with Postgres, that might overcome that issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3565.857,
+            3578.254
+          ],
+          "quote": "They'll have to become either a general purpose system, like a Postgres, like a MySQL, where they become the system of record, where you're storing your...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3607.733,
+            3610.691
+          ],
+          "quote": "I've seen predictions that like, oh, Postgres is going to die at the hands of a vector database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4308.455,
+            4311.859
+          ],
+          "quote": "ClickHouse, Postgres, Umbra from the Germans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4395.924,
+            4398.545
+          ],
+          "quote": "A lot of the energy is going to be focused on Postgres in the short term.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集说 Snowflake 确立了现代分析数据库的架构,其成功一半在数据库周围的东西——UI、开发者体验、数据摄取;如今也加了 Postgres 服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1293.71,
+            1295.211
+          ],
+          "quote": "Okay, you could use Snowflake or Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2947.644,
+            2950.046
+          ],
+          "quote": "come from the work done at Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2950.406,
+            2962.757
+          ],
+          "quote": "And prior to Snowflake, there was another system called VectorWise, or X100, sorry, MonadyDB or X100, which then became commercialized as VectorWise from CWI, which is the same school where DuckDB was built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3002.237,
+            3009.224
+          ],
+          "quote": "is predicated or based upon the work done from Snowflake and Vectorwise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3165.63,
+            3169.795
+          ],
+          "quote": "So Databricks bought Neon, Snowflake made an acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4130.401,
+            4135.303
+          ],
+          "quote": "Then there was the emergence of Databricks, Snowflake, now ClickHouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4458.713,
+            4466.278
+          ],
+          "quote": "But like I said, the architecture, the high level of what ClickHouse is doing is similar to what Snowflake did in 2013.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4472.601,
+            4485.149
+          ],
+          "quote": "And what really matters, and one of the things that Snowflake did right, was part of the success, is like, it's the stuff around the database system, like the user interface, developer experience, like, you know, building to ingest data, interoperate with other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4522.422,
+            4524.183
+          ],
+          "quote": "Snowflake does some things well, can do things better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "turbopuffer",
+      "type": "company",
+      "role": "company",
+      "name": "TurboPuffer",
+      "file": "TurboPuffer",
+      "primary": true,
+      "how_described": "本集说它是唯一一家做得非常好的向量数据库公司,高度专精于以远超其他所有人的性价比做向量搜索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 712,
+          "t": [
+            3540.691,
+            3544.694
+          ],
+          "quote": "The one Vector database company that I know is doing very well is TurboPuffer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集引用著名案例:有人用 Replit 构建应用,Replit 智能体跑进数据库删了大量文件——没护栏的智能体会闯祸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            459.595,
+            471.84
+          ],
+          "quote": "There's Jason Lankin that was trying to build something with Replit, and I think the Replit agent went to the database and deleted a lot of files, which then subsequently Replit made the right adjustments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "company",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": true,
+      "how_described": "本集说关系型数据库在服务器端做遍历就能轻松跑赢 Neo4j——「说你比 Neo4j 快,就好比说你比某个坐轮椅的人跑得快」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 728,
+          "t": [
+            3614.799,
+            3621.885
+          ],
+          "quote": "Graph databases, we mentioned at the beginning, so, you know, not to pick on them, but like Neo4j has been around for 20 years now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3677.447,
+            3684.691
+          ],
+          "quote": "You can implement those things very, very efficiently, and you can easily outperform Neo4j, and that's kind of a kicking,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3685.717,
+            3693.986
+          ],
+          "quote": "That's like, like Neo4j is like saying you're faster than Neo4j is like saying I'm faster than, you know, somebody maybe like that's, you know, that's in a wheelchair, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sqlite",
+      "type": "company",
+      "role": "company",
+      "name": "SQLite",
+      "file": "SQLite",
+      "primary": true,
+      "how_described": "本集说 SQLite 以安全写入保障著称,与其用文件系统费力管理写入安全,不如直接用 SQLite——它本来就做这些",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            994.64,
+            995.7
+          ],
+          "quote": "Like SQLite is famous for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            995.74,
+            1006.002
+          ],
+          "quote": "Why would you want to use a file system and try to manage whether you're writing things correctly and safely and that you can multiple changes and commit this, versus like just SQLite just does it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1249.313,
+            1257.7
+          ],
+          "quote": "Unless you say something, like, very specific, like, you know, oh, I'm gonna run on embedded devices, then it'll say use DuckDB or SQLite or something like that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 吞并了一批苦苦挣扎的 GPU 数据库公司(含 HeavyDB)、全力押注 GPU 数据库,动机显然是多卖 GPU",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            3849.901,
+            3858.804
+          ],
+          "quote": "And then there was, in the last year or so, NVIDIA has basically gobbled up a bunch of these GPU database companies that were kind of like struggling along.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3863.782,
+            3872.774
+          ],
+          "quote": "But they also picked up HeavyDB and so NVIDIA's all going all in on this now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3907.431,
+            3909.971
+          ],
+          "quote": "They're now on leave at NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3952.739,
+            3958.502
+          ],
+          "quote": "Publicly, I can say this, like, NVIDIA's obviously pushing this because it'll sell more GPUs, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": true,
+      "how_described": "本集说 Oracle 支持 SQL 2023 的属性图查询、是该扩展的大力推动者;其商业库行存列存各存一份,称为 Fractured Mirror 方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1363.114,
+            1363.855
+          ],
+          "quote": "Oracle supports it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1972.441,
+            1974.322
+          ],
+          "quote": "MySQL, Postgres, Oracle, and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3364.101,
+            3373.226
+          ],
+          "quote": "And like the major commercial vendors like Oracle, SQL Server, they'll store two copies, one in the road store and the column store, it's called Fractured Mirror Approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3726.098,
+            3727.099
+          ],
+          "quote": "Oracle has this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 880,
+          "t": [
+            4348.056,
+            4353.637
+          ],
+          "quote": "I mean, Oracle is a lot more than just a database company, but he's still the core product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "duckdb",
+      "type": "company",
+      "role": "company",
+      "name": "DuckDB",
+      "file": "DuckDB",
+      "primary": true,
+      "how_described": "本集说 DuckDB 源自 CWI(与 VectorWise 同源),拥有类似 ClickHouse 的列式架构;智能体在嵌入式场景下会推荐它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1249.313,
+            1257.7
+          ],
+          "quote": "Unless you say something, like, very specific, like, you know, oh, I'm gonna run on embedded devices, then it'll say use DuckDB or SQLite or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1295.932,
+            1298.574
+          ],
+          "quote": "Okay, you could use DuckDB or, you know, do you want to run on-prem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2950.406,
+            2962.757
+          ],
+          "quote": "And prior to Snowflake, there was another system called VectorWise, or X100, sorry, MonadyDB or X100, which then became commercialized as VectorWise from CWI, which is the same school where DuckDB was built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2984.706,
+            2994.614
+          ],
+          "quote": "And since then, DuckDB has something similar, pullers from the guys in Amsterdam, Firebolt started off as a fork at ClickHouse and they rewrote a bunch of stuff inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3655.836,
+            3677.027
+          ],
+          "quote": "No, it's always been a niche market, and I think that, because my perspective on the research side, the research shows that if you do certain things in implementing the engine, which ClickHouse does do, DuckDB does some of this as well, there's certain, there's things you can do that allow you to do the traversals of grass, which essentially just joins, self-joins on the table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3916.173,
+            3920.694
+          ],
+          "quote": "And so they, it supports like, you know, taking DuckDB queries and running that down on the GPU.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 MCP 出自 Anthropic;Opus 4 发布「打开了闸门」,智能体从此能完成 CMU 数据库课程的全部项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            383.853,
+            385.914
+          ],
+          "quote": "Anthropic just shows up when you're running testing as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1544.35,
+            1549.094
+          ],
+          "quote": "I think this came out of Anthropic and then everyone sort of quickly adopted it as the standard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1713.254,
+            1718.455
+          ],
+          "quote": "I think it was Opus 4, whatever Anthropic put out last year, then that just opened the floodgate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

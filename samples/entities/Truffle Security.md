@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dylan]] · [[Firas]] · [[Joel de la Garza]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[软件供应链]] · [[零日漏洞]] · [[NPM 蠕虫]]
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":5,"Socket":1,"Hugging Face":29,"NPM":3,"前沿模型":27,"软件供应链":2,"零日漏洞":3,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":5,"Socket":1,"Hugging Face":30,"NPM":3,"前沿模型":27,"软件供应链":2,"零日漏洞":3,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

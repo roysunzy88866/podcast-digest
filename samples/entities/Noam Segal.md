@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]]
+[[Reef Frerichs]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]]
 
 </div>
 

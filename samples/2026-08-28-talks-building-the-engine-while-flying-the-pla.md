@@ -151,7 +151,7 @@ MCP 规范在推进，但各客户端支持节奏差异很大：Claude Desktop �
 
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Figma、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|仪表盘已死：智能体才是新用户]]<span class="pd-rz">同公司:Claude · 同概念:上下文窗口 (context window)、智能体 (agent)</span>
-- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同概念:eval、智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic · 同概念:eval、智能体 (agent)</span>
 
 </div>
 </div>

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":23,"token":32,"GPU":26,"推理":83,"商业地产":1,"前沿模型":27,"harness":61,"预训练":8,"后训练":1,"AGI":27}</script>
+<script type="application/json" class="pd-epn">{"数据中心":23,"token":32,"GPU":27,"推理":85,"商业地产":1,"前沿模型":27,"harness":61,"预训练":8,"后训练":1,"AGI":27}</script>
 
 <script>
 (function(){

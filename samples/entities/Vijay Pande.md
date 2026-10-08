@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":437,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":441,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
 
 <script>
 (function(){

@@ -115,8 +115,8 @@ Armand 强调，前面那些垂直构建正是多团队、多渠道分发的地�
 **换个口味**
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同公司:Temporal · 同概念:MCP、护栏 (guardrails)、持久化执行 (durable execution)、智能体 (agent)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Postgres、Snowflake、TurboPuffer · 同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)、human in the loop</span>
-- [[2026-07-13-eyeonai-inside-the-enterprise-browser-rebuilding|企业浏览器 Island：给智能体戴上企业级护栏]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>

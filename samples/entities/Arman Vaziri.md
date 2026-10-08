@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ramp]] · [[go-to-market 编排]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[Snowflake]] · [[Kafka]]
+[[Ramp]] · [[go-to-market 编排]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[TurboPuffer]] · [[Snowflake]]
 
 ## ④ 也在聊「增长与销售」的人
 
@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ramp":10,"go-to-market 编排":1,"智能体":437,"持久化执行":5,"CDP":1,"MCP":81,"护栏":81,"Temporal":5,"Snowflake":19,"Kafka":3}</script>
+<script type="application/json" class="pd-epn">{"Ramp":10,"go-to-market 编排":1,"智能体":441,"持久化执行":5,"CDP":1,"MCP":82,"护栏":84,"Temporal":5,"TurboPuffer":2,"Snowflake":20}</script>
 
 <script>
 (function(){

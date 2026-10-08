@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":17,"Brené Brown":1,"递归自我改进":8,"勇敢领导力":1,"智能体":437,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":18,"Brené Brown":1,"递归自我改进":9,"勇敢领导力":1,"智能体":441,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
 
 <script>
 (function(){

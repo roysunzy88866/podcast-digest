@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":29,"大型语言模型":5,"智能体":437,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
+<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":29,"大型语言模型":5,"智能体":441,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
 
 <script>
 (function(){

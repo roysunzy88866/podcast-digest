@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":48,"Stripe Projects":2,"OpenAI":176,"Anthropic":186,"Lovable":19,"HubSpot":9,"智能体":437,"编码智能体":27,"vibe coding":46}</script>
+<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":48,"Stripe Projects":2,"OpenAI":178,"Anthropic":189,"Lovable":19,"HubSpot":9,"智能体":441,"编码智能体":27,"vibe coding":46}</script>
 
 <script>
 (function(){

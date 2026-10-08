@@ -170,7 +170,7 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Redwood Research、Hugging Face、OpenAI · 同概念:奖励黑客 (reward hacking)、对齐 (alignment)</span>
 - [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同公司:Redwood Research、Hugging Face、OpenAI · 同概念:AI 接管 (AI takeover)、未对齐 (misalignment)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

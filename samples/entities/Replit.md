@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Replit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(17:51起):本集说 Replit 正处在编程爆炸半径正中心但运转得非常好，印证「这一切都会成功」。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(01:05起):本集说 Amjad 正把 Replit 变成企业内部的「独立层」：在你和模型之间加间接层、以最便宜价格拿最好的 token，并在云之上加抽象层；内部大量训练专门化小模型。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(38:18起):本集以 Replit 为「消费公司这么快变企业公司」的例子：PLG 增长成功后被拉进企业。
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(07:39起):本集引用著名案例:有人用 Replit 构建应用,Replit 智能体跑进数据库删了大量文件——没护栏的智能体会闯祸
 
 ## ① 提到它的金句
 
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -63,14 +64,15 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Cursor]] · [[vibe coding]] · [[Lenny]] · [[Lovable]] · [[Stripe]] · [[护城河]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[vibe coding]] · [[Lenny]] · [[Lovable]] · [[LLM]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"OpenAI":176,"Anthropic":186,"ChatGPT":100,"Cursor":83,"vibe coding":46,"Lenny":68,"Lovable":19,"Stripe":48,"护城河":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"Anthropic":189,"OpenAI":178,"ChatGPT":100,"Cursor":83,"vibe coding":46,"Lenny":68,"Lovable":19,"LLM":58,"Stripe":48}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lon Harris]] · [[GrokBot]] · [[智能体]] · [[系统胜过目标]] · [[OpenAI]] · [[Harvey]] · [[Kimi K3]] · [[开源]] · [[前沿模型]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"GrokBot":8,"智能体":437,"系统胜过目标":1,"OpenAI":176,"Harvey":20,"Kimi K3":3,"开源":38,"前沿模型":27,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"GrokBot":8,"智能体":441,"系统胜过目标":1,"OpenAI":178,"Harvey":20,"Kimi K3":3,"开源":38,"前沿模型":27,"后训练":1}</script>
 
 <script>
 (function(){

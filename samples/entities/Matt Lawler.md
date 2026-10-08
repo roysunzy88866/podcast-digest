@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":24,"ClaudeMD":4,"Railway":1,"护栏":81,"内部试用":3}</script>
+<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":25,"ClaudeMD":4,"Railway":1,"护栏":84,"内部试用":3}</script>
 
 <script>
 (function(){

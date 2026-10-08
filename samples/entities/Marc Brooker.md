@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"AWS":20,"智能体":437,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"AWS":21,"智能体":441,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daniel Whitenack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 主持</div><div class="nums">本站收录 <b>10</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 主持</div><div class="nums">本站收录 <b>11</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -35,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]] — 作为主持
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为主持
@@ -47,6 +47,7 @@ unlisted: true
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为主持
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为主持
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为主持
+- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -54,7 +55,7 @@ unlisted: true
 
 [[Chris Benson]] · [[智能体]] · [[护栏]] · [[LLM]] · [[Anthropic]] · [[OpenAI]] · [[Hugging Face]] · [[MCP]] · [[世界模型]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":11,"智能体":437,"护栏":81,"LLM":57,"Anthropic":186,"OpenAI":176,"Hugging Face":29,"MCP":81,"世界模型":12,"提示词注入":1}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":12,"智能体":441,"护栏":84,"LLM":58,"Anthropic":189,"OpenAI":178,"Hugging Face":30,"MCP":82,"世界模型":12,"提示词注入":1}</script>
 
 <script>
 (function(){

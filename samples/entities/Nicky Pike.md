@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cal.com":1,"开源":38,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":437,"Vibe hacking":1,"漏洞":2,"供应链攻击":1,"大语言模型":10}</script>
+<script type="application/json" class="pd-epn">{"Cal.com":1,"开源":38,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":441,"Vibe hacking":1,"漏洞":2,"供应链攻击":1,"大语言模型":10}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":15,"code mode":2,"MCP":81,"智能体":437,"沙箱":81,"可观测性":38,"pie":1,"工具调用":4}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":15,"code mode":2,"MCP":82,"智能体":441,"沙箱":84,"可观测性":38,"pie":1,"工具调用":4}</script>
 
 <script>
 (function(){

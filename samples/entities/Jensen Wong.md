@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":60,"OpenAI":176,"Anthropic":186,"TSMC":9,"Microsoft":29,"Palantir":20,"开源模型":4,"封闭模型":2,"沙箱":81}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":62,"OpenAI":178,"Anthropic":189,"TSMC":9,"Microsoft":29,"Palantir":20,"开源模型":4,"封闭模型":2,"沙箱":84}</script>
 
 <script>
 (function(){

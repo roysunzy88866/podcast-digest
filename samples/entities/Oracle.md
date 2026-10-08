@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Oracle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(04:50起):主讲人所在公司,本集推介其 Oracle DBFS(带 ACID 一致性的数据库文件系统)、Agent Memory Package(OAMP)、融合数据库,以及 OCI Generative AI Service(自称「企业版 Open Router」)。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(12:20起):本集作为发票流程推回目标的企业系统被顺带提及（推回 SAP 或 Oracle）
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(47:30起):本集称它是 ClusterMax 第二梯队里服务质量顶尖的新云，但因与 OpenAI 的固定利润率长期合同、大量债务和新墨西哥数据中心管道延误执行问题，出现『好云、坏股票』的割裂。
+- **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(22:43起):本集说 Oracle 支持 SQL 2023 的属性图查询、是该扩展的大力推动者;其商业库行存列存各存一份,称为 Fractured Mirror 方法
 
 ## ① 提到它的金句
 
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]] — 作为被讨论公司
@@ -44,14 +45,15 @@ unlisted: true
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为嘉宾
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[资本支出]] · [[Claude]] · [[Meta]] · [[护栏]] · [[数据中心]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[资本支出]] · [[Claude]] · [[NVIDIA]] · [[RAG]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":176,"智能体":437,"Google":65,"Anthropic":186,"Codex":80,"资本支出":7,"Claude":91,"Meta":48,"护栏":81,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"OpenAI":178,"Anthropic":189,"Google":65,"Codex":80,"资本支出":7,"Claude":91,"NVIDIA":62,"RAG":25,"护栏":84}</script>
 
 <script>
 (function(){

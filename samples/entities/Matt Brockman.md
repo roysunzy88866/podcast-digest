@@ -25,17 +25,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[E2B]] · [[沙箱]] · [[智能体]] · [[快照]] · [[模板]] · [[孤儿进程]] · [[生命周期]] · [[Docker]] · [[Kubernetes]] · [[GPU]]
+[[E2B]] · [[沙箱]] · [[智能体]] · [[快照]] · [[模板]] · [[孤儿进程]] · [[生命周期]] · [[Docker]] · [[Firecracker]] · [[Kubernetes]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"E2B":3,"沙箱":81,"智能体":437,"快照":1,"模板":1,"孤儿进程":1,"生命周期":2,"Docker":7,"Kubernetes":17,"GPU":26}</script>
+<script type="application/json" class="pd-epn">{"E2B":3,"沙箱":84,"智能体":441,"快照":1,"模板":1,"孤儿进程":1,"生命周期":2,"Docker":7,"Firecracker":3,"Kubernetes":17}</script>
 
 <script>
 (function(){

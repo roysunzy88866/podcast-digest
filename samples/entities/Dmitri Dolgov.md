@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":20,"Waymo driver":1,"智能体":437,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":12,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":20,"Waymo driver":1,"智能体":441,"物理 AI":10,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":12,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

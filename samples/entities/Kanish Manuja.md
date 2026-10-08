@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":7,"护栏":81,"提示词注入":1,"推理模型":6,"fail open":1,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":7,"护栏":84,"提示词注入":1,"推理模型":6,"fail open":1,"负载卸载":1}</script>
 
 <script>
 (function(){

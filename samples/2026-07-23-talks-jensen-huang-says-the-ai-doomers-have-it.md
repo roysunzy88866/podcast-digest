@@ -113,17 +113,17 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:Nemotron、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI、Microsoft、NVIDIA · 同概念:开放模型 (open models)、智能体 (agent)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Anthropic、NVIDIA · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、护栏 (guardrails)</span>
 
 </div>
 </div>

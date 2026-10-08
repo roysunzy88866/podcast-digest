@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":46,"智能体":437,"开放权重":8,"开源":38,"按用量定价":4,"按席位收费":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":46,"智能体":441,"开放权重":9,"开源":38,"按用量定价":4,"按席位收费":1,"SaaS":21}</script>
 
 <script>
 (function(){

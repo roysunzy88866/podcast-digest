@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":57,"上下文":28,"轮牧":1,"vibe coder":2,"知识库":2}</script>
+<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":58,"上下文":28,"轮牧":1,"vibe coder":2,"知识库":2}</script>
 
 <script>
 (function(){

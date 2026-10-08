@@ -198,8 +198,8 @@ Ed 预计 2027 年左右事情会失速 <button class="pd-ts" data-t="130:25" da
 **换个口味**
 
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:LLM、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":437,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":81,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":84,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":65}</script>
 
 <script>
 (function(){

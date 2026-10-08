@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hamming":1,"Citizen":1,"语音智能体":2,"智能体":437,"可靠性":3,"红队测试":7,"跨对话分析":1,"评估":5,"监控":1}</script>
+<script type="application/json" class="pd-epn">{"Hamming":1,"Citizen":1,"语音智能体":2,"智能体":441,"可靠性":3,"红队测试":7,"跨对话分析":1,"评估":5,"监控":1}</script>
 
 <script>
 (function(){

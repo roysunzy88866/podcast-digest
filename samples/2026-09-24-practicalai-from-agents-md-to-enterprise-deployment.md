@@ -114,8 +114,8 @@ Nick 预测企业团队结构和角色会剧变，新角色会被创造出来。
 **顺着「智能体」挖下去**
 
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)、记忆服务 (memory)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:LLM、MCP、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:LLM、MCP、智能体 (agent)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

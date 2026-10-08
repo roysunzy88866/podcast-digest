@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sourcegraph":1,"Mercari":1,"智能体":437,"智能体批量变更":1,"代码库":1,"上下文窗口":16,"代码图":1,"确定性脚本":1,"OpenAI":176,"Anthropic":186}</script>
+<script type="application/json" class="pd-epn">{"Sourcegraph":1,"Mercari":1,"智能体":441,"智能体批量变更":1,"代码库":1,"上下文窗口":16,"代码图":1,"确定性脚本":1,"OpenAI":178,"Anthropic":189}</script>
 
 <script>
 (function(){

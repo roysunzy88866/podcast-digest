@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]] [[Jonathan]]
+[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]] [[Devin Thomas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":186,"OpenAI":176,"Claude":91,"Claude Code":97,"宪法 AI":2,"智能体":437,"缩放定律":12,"对齐":17,"超级智能":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":189,"OpenAI":178,"Claude":91,"Claude Code":97,"宪法 AI":2,"智能体":441,"缩放定律":12,"对齐":18,"超级智能":8}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":437,"自主性":10,"强化学习":1,"世界模型":12,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":441,"自主性":10,"强化学习":1,"世界模型":12,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
 
 <script>
 (function(){

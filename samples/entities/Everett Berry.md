@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":437,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":5,"Salesforce":34}</script>
+<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":441,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":5,"Salesforce":34}</script>
 
 <script>
 (function(){

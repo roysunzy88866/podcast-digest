@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nebius]] · [[开源模型]] · [[推理]] · [[投机解码]] · [[KV 缓存]] · [[量化]] · [[后训练]] · [[负载均衡]] · [[NVIDIA]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Nebius":2,"开源模型":4,"推理":83,"投机解码":1,"KV 缓存":5,"量化":4,"后训练":1,"负载均衡":1,"NVIDIA":60,"微调":33}</script>
+<script type="application/json" class="pd-epn">{"Nebius":2,"开源模型":4,"推理":85,"投机解码":1,"KV 缓存":5,"量化":4,"后训练":1,"负载均衡":1,"NVIDIA":62,"微调":33}</script>
 
 <script>
 (function(){

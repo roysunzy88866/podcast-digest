@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]] [[Alon Schindel]] [[Amin Vahdat]] [[Diogo Almeida]]
+[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":186,"智能体":437,"harness":61,"沙箱":81,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":38}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":189,"智能体":441,"harness":61,"沙箱":84,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":38}</script>
 
 <script>
 (function(){

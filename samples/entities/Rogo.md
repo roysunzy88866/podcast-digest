@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[ChatGPT]] · [[John Willett]] · [[LangChain]] · [[Foundation]] · [[LangSmith]] · [[Basis]] · [[LangGraph]] · [[Greylock]]
 
-<script type="application/json" class="pd-epn">{"智能体":437,"Cursor":83,"ChatGPT":100,"John Willett":1,"LangChain":9,"Foundation":2,"LangSmith":3,"Basis":1,"LangGraph":7,"Greylock":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"ChatGPT":100,"John Willett":1,"LangChain":9,"Foundation":2,"LangSmith":3,"Basis":1,"LangGraph":7,"Greylock":2}</script>
 
 <script>
 (function(){

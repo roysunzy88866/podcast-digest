@@ -163,8 +163,8 @@ Ali 强调别忘了上行侧：Crisis Text Line 用大模型检测青少年的�
 **顺着「智能体」挖下去**
 
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同公司:Anthropic、Databricks · 同概念:开源模型 (open source)、智能体 (agent)、本体 (ontology)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Databricks、Neon、Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:harness、后训练 (post-training)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、后训练 (post-training)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

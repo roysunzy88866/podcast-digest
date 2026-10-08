@@ -128,8 +128,8 @@ Michael 说现在瓶颈已经不在工程工时了 <button class="pd-ts" data-t=
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Codex、OpenAI · 同概念:智能体 (agent)、模型路由 (model routing)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、Bedrock、OpenAI · 同概念:智能体 (agent)、评估 (eval)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、评估 (eval)</span>
-- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、评估 (eval)</span>
 
 </div>
 <div class="pd-ex">

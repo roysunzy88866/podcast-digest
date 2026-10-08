@@ -164,9 +164,9 @@ Pete 把 LLM 应用架构的演进讲成补短板的历史：ChatGPT 刚出来�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Anthropic · 同概念:RAG、向量搜索 (vector search)、智能体 (agent)、MCP</span>
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|AWS 杰出工程师：智能体时代，难的不是写代码，是写规格]]<span class="pd-rz">同概念:RAG、智能体 (agent)、智能体记忆 (agentic memory)</span>
 - [[2026-08-29-talks-agents-are-where-microservices-were-in-2|Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层]]<span class="pd-rz">同概念:RAG、智能体 (agent)、MCP</span>
-- [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|差距不再是智能，而是上下文：给智能体造一个「上下文引擎」]]<span class="pd-rz">同概念:RAG、智能体 (agent)、MCP</span>
 
 </div>
 <div class="pd-ex">

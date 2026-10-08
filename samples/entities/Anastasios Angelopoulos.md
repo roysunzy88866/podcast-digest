@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":5,"基准测试":18,"开源":38,"智能体":437,"Kimi":2,"排行榜":2,"OpenAI":176}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":5,"基准测试":18,"开源":38,"智能体":441,"Kimi":2,"排行榜":2,"OpenAI":178}</script>
 
 <script>
 (function(){

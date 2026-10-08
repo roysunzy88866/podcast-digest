@@ -165,8 +165,8 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 **换个口味**
 
 - [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议]]<span class="pd-rz">同公司:Block · 同概念:Goose、MCP、智能体 (agent)</span>
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Anthropic、Databricks、Snowflake · 同概念:LLM、MCP、智能体 (agent)</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM、MCP、智能体 (agent)</span>
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|AI没有消灭客服，反而让他们更累了？]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、智能体 (agent)、MCP</span>
 
 </div>
 </div>

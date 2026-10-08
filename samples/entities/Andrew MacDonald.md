@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]] [[Luana Lopes Lara]] [[Amin Vahdat]] [[Diogo Almeida]] [[Yash]]
+[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Reef Frerichs]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]] [[Dan O'Connell]] [[Andrew Huberman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Uber":16,"Uber One":1,"自主性":10,"智能体":437,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Uber":16,"Uber One":1,"自主性":10,"智能体":441,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

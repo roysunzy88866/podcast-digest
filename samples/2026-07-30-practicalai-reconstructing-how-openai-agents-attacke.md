@@ -86,18 +86,18 @@ Hugging Face 发现异常后的应对同样耐人寻味。他们试图用闭源�
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI、GLM 5.2 · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)、护栏 (guardrails)</span>
 
 </div>
 </div>

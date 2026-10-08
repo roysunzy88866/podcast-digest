@@ -137,9 +137,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同公司:Snowflake · 同概念:MCP、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同公司:Snowflake · 同概念:MCP、智能体 (agent)、护栏 (guardrails)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:MCP、智能体 (agent)、护栏 (guardrails)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Snowflake · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
