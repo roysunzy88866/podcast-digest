@@ -1,12 +1,12 @@
 ---
-title: "会自己造工具的智能体:AWS 元工具化实战"
+title: "智能体自己造工具、自己修 Bug:AWS 工程师现场演示"
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "20:20"
 type: episode
 cover: "#64748b"
-description: AWS 工程师 Sandy 演示 StrandsAgents 框架如何让智能体在运行时自己编写工具、生成子智能体，甚至修复自身代码。
+description: AWS 的 Sandhya Subramani 演示了一个能在运行中自己写工具、自己造子智能体、甚至自己修 Bug 的智能体框架。
 guests: ["[[Sandhya Subramani]]"]
 companies: ["[[AWS]]"]
 concepts: ["[[智能体]]", "[[StrandsAgents]]", "[[元工具化]]", "[[系统提示词]]", "[[运行时]]", "[[沙箱]]", "[[护栏]]", "[[评估]]", "[[多智能体系统]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run#post","headline":"会自己造工具的智能体:AWS 元工具化实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run","description":"AWS 工程师 Sandy 演示 StrandsAgents 框架如何让智能体在运行时自己编写工具、生成子智能体，甚至修复自身代码。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sandhya Subramani"},{"@type":"Organization","name":"AWS"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"StrandsAgents"},{"@type":"Thing","name":"元工具化 (MetaTooling)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"运行时 (runtime)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"多智能体系统 (multi-agentic systems)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"会自己造工具的智能体:AWS 元工具化实战","item":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run#post","headline":"智能体自己造工具、自己修 Bug:AWS 工程师现场演示","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run","description":"AWS 的 Sandhya Subramani 演示了一个能在运行中自己写工具、自己造子智能体、甚至自己修 Bug 的智能体框架。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sandhya Subramani"},{"@type":"Organization","name":"AWS"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"StrandsAgents"},{"@type":"Thing","name":"元工具化 (MetaTooling)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"运行时 (runtime)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"多智能体系统 (multi-agentic systems)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"智能体自己造工具、自己修 Bug:AWS 工程师现场演示","item":"https://talk.solomind.cc/2026-10-04-talks-agents-that-write-their-own-tools-at-run"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>会自己造工具的智能体:AWS 元工具化实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体自己造工具、自己修 Bug:AWS 工程师现场演示</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 会自己造工具的智能体:AWS 元工具化实战
+# 智能体自己造工具、自己修 Bug:AWS 工程师现场演示
 
 <div class="pd-byl"><b>Sandhya Subramani</b> · AWS 工程师 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-04-talks-agents-that-write-their-own-tools-at-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果这个元工具或元智能体能派生出工具和智能体，它也能修改和删除。我想让它删除我的数据吗？</div><div class="a">— Sandhya Subramani <button class="pd-ts" data-t="17:11" data-who="Sandhya Subramani" data-en="If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete. Do I want it to delete my data?" aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">让我写一个工具来数你想要的字符数，因为它显然知道自己没有这个能力。</div><div class="a">— Sandhya Subramani <button class="pd-ts" data-t="04:00" data-who="Sandhya Subramani" data-en="Let me write a tool to count the number of characters you want, because clearly it knows that it does not have the capability to do it." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Sandhya Subramani]]
@@ -35,92 +35,103 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[StrandsAgents]] · [[元工具化]] · [[系统提示词]] · [[运行时]] · [[沙箱]] · [[护栏]] · [[评估]] · [[多智能体系统]]
 
-一个[[智能体|智能体]]在生产环境里跑着，突然遇到一个没被编程覆盖的场景——订国内机票的应用，用户却要订印度飞香港。
+你的 Claude Code、Cursor 当然也能写代码。但你有没有想过：如果一个系统已经在生产环境跑着，突然报错了怎么办？
 
-按老办法，你得把它停下来、自己修、再重启，来回两周。
+现在的做法通常是把服务停掉，人工修复，重启，折腾一圈。
 
-这一集的讲者 Sandy（[[AWS|AWS]] 工程师）展示的是另一条路：智能体自己发现问题、自己写工具、自己修复自己。
+[[Sandhya Subramani|Sandhya Subramani]] 在 [[AWS|AWS]] 的这场演讲里展示的是另一条路——[[智能体|智能体]]在运行中发现出错，自己写工具把自己修好 <button class="pd-ts" data-t="01:12" data-who="嘉宾" data-en="I need to fix myself. And it realizes what it can do to fix itself, writes its own tools, all writes its own agents, and fixes itself. How cool would that be, right?" aria-label="回原文"></button>。她管这个思路叫 MetaTooling。
 
-他现场演示了一个“空”智能体——只有 [[系统提示词|system prompt]]，三个工具文件全是空的，严格来说什么能力都没有——你让它算个复杂数学方程，它当场写出一个数学计算器工具，然后在**不重启**的情况下立刻调用它给你答案；
+## 一个什么都不会的智能体，怎么自己学会计算？
 
-再让它数一个单词里的字符数，它又当场造出一个字符计数器。
+开场演示很有冲击力。她跑起一个智能体，工具目录是空的——理论上它什么都做不了，甚至该胡说八道才对。
 
-这套思路 Sandy 称为 MetaTooling（[[元工具化|元工具化]]），底层是 AWS 开源并维护的智能体框架 [[StrandsAgents|StrandsAgents]]。它的卖点是“框架与模型解耦”：
+然后她输入一个数学问题，智能体发现没有现成工具，就当场写了一个计算器工具，写完立刻用，不用重启程序。
 
-明天出了新的最先进 LLM，你不用重写 system prompt、不用改架构，换个模型就行，可以拿同一套架构直接试验不同模型的表现。
+接着她又随手输入一段字符，让它数有几个字母，智能体又当场写了个字符计数工具 <button class="pd-ts" data-t="03:36" data-who="嘉宾" data-en="So now it's calling that math calculator tool that it just wrote by itself and it's giving me the answer. Not just that, right? So let's say I give it something completely out of the blue and I say, cool, whatever." aria-label="回原文"></button>。
 
-构建元工具化智能体只需要三样东西：
+关键在于：**这些能力不是预先编好的，是智能体在被问到的那一刻自己造出来的**。
 
-**三种工具 + 一份 system prompt**。Editor 让智能体能写文件；shell 让它看到自己在哪、代码库在哪；
+## 实现只需要三个工具加一段提示词
 
-load 工具让它在[[运行时|运行时]]从目录动态加载刚生成的工具——这个功能最初只是个配置开关（`load_tools_from_directory=True`），后来团队干脆把它也做成了一个工具。
+背后的框架叫 Strands Agents,是 AWS 开源的智能体运行框架，你可以接入自己的模型。换新模型时不用重写架构，直接替换就行 <button class="pd-ts" data-t="06:22" data-who="嘉宾" data-en="Another cool part, because this is a harness, is the fact that if, let's say, tomorrow there's a new state-of-the-art LLM that comes out, You don't have to rewrite all of your system prompt." aria-label="回原文"></button>。
 
-而 system prompt 的职责是教会智能体“一个好工具长什么样”：
+实现 MetaTooling 只需要三样东西：
 
-用 `@add_tool` 装饰器（一种标记函数身份的语法）声明工具、工具规范怎么写、写到哪个目录，并且**先检查工具是否已存在，不存在才写新的**，避免重复造轮子。
+编辑器工具(让它能写文件)、命令行工具(让它知道环境里有什么)、加载工具(让它能动态加载刚写好的工具)。
 
-全部接起来就一行代码：system prompt 加三个工具。你说“给你自己创建五个随机工具”，它就真的创建五个并开始使用。
+再加一段系统提示词，告诉它一个好工具长什么样、该写到哪个目录、以及一条重要规则——先检查工具是否已存在，不存在才新写 <button class="pd-ts" data-t="09:09" data-who="嘉宾" data-en="And I'm also telling it, always check if it exists or not. Only if it doesn't exist, then write a new tool. And I'm telling it." aria-label="回原文"></button>。
 
-**它还能写出自己的智能体。** Sandy 介绍三种智能体协作模式：
+核心代码只要五行。
 
-Swarm（多个子智能体并行分工协作）、graph（一个子智能体的输出交接给下一个）、workflow（以上组合，并行子智能体互相调用、形成节点和图）。
+## 只会订国内机票？用户要飞国际，它自己想办法
 
-这些结构同样可以由智能体自己创建。
+为什么这有用？
 
-演示里他只说了一句“帮我规划去夏威夷的行程”——没提任何“去创建智能体”的指令——智能体自己把它拆成航班智能体、活动智能体、行程智能体三个子智能体，调了三次 editor 把它们写出来，然后调用它们给出主要机场、最佳海滩和行程建议。
+她举了个例子：假设你的应用只会订国内机票，突然有个用户要从印度飞香港，传统智能体会直接放弃——它没被训练过这个。
 
-用户改口“我不要夏威夷了”，它就更新自己刚写的智能体重来。
+你是想让用户吃个报错，还是等工程团队排期两周？**有了自我造工具的能力，智能体可以当场补上这块短板** <button class="pd-ts" data-t="10:18" data-who="嘉宾" data-en="But let's say you have one user who's saying, no, no, I want a flight ticket from, I don't know, India to Hong Kong. And your agent gives up because it's not been explicitly programmed to do that, or it's not been trained to have access to be able to do that." aria-label="回原文"></button>。
 
-Sandy 指出它目前做不到的是访问实时信息，因为没给它接真实世界 API 的工具——但假设加上，你问天气，它就会自己写一个能随时抓取任意地点最新天气的工具。
+## 它不光造工具，还能造出一支小团队
 
-出错时它也能自我修复：跑崩了它识别到“我出错了，让我修复自己”，去修自己刚写的那个工具或智能体。
+更进一步：智能体能不能写别的智能体？可以。
 
-**能力越大，[[护栏|护栏]]越重要。** Sandy 强调这是完全自主的行为，因此需要两层保障。[[评估|评估]]（evals）有八种，覆盖四个层面：
+演讲里她只输入了一句「帮我在夏威夷规划行程」，智能体自己拆解任务，创建了三个子智能体——航班、活动、行程——分别写好再调用它们，最后给出包含主要机场和最佳海滩的完整规划 <button class="pd-ts" data-t="13:16" data-who="嘉宾" data-en="Here, I'm going to be printing out, I'm going to be creating these into three focus sub-agents. The flight agent, the activities agent, the itinerary agent, and it's calling the editor tool three times, one for each of these." aria-label="回原文"></button>。
 
-会话层看最终目标达没达成（说订机票是不是真订了）；trace 层看单次回答有没有编造（问余额，答 500 美元，是真的吗）；
+如果给它接上实时数据的接口，它还能自己写一个查天气的工具。
 
-工具层看用没用对工具、参数对不对（账户 ID 到底是不是 123）；多智能体层看子智能体调用顺序对不对、智能体间通信是否达标。
+要是让它改目的地，**它会自己更新已有的智能体，而不是推倒重来**。
 
-护栏则有四种，第一种最关键：
+在更长的演示环节里，她甚至会故意把系统弄坏，让智能体自己发现报错、自己修复。
 
-把**代码执行环境**[[沙箱|沙箱]]化——不是那种“智能体在一个容器里与世隔绝”的典型沙箱，而是它生成的代码运行的环境本身被隔离，保证它不会写错地方、删掉你倾尽心血构建的东西。
+## 能量越大，越得拴住：评估和护栏不可少
 
-Strands 几周前刚发布了这个功能。再叠加工具权限约束、访问控制、可观测性和遥测数据，你才敢说“我可以放心让它自己思考”。
+但 Sandhya 反复强调，**这种自主性风险很高**。一个能创建工具和智能体的系统，理论上也能改写和删除你的东西。她列出两层保障。
 
-这个方向指向的是**自我改进、自我进化的智能体**。
+第一层是[[评估|评估]]。框架内置 8 类评估：任务层面看最终目标有没有达成；对话层面看回答是否有帮助、是不是编造的；
 
-Sandy 给了个有力的注脚：StrandsAgents 是他们三年前在内部建的，当时“智能体”甚至还不算一个概念，后来因为太好用了干脆开源。
+工具层面看有没有用对工具、参数填没填错；[[多智能体系统|多智能体系统]]里还要看子智能体的调用顺序和相互通信是否正常 <button class="pd-ts" data-t="16:49" data-who="嘉宾" data-en="You want to make sure that it's calling the different tools and the different sub-agents in the right sequence. And you also want to take a deeper dive into what the message is, the inter-agent communication looks like, and if that's up to the mic." aria-label="回原文"></button>。
 
-Python 版本的 Strands，**自己写出了 TypeScript 版本的 Strands**——它真的更新了自己的源代码。“到某个时候，我确信它们会接管世界，我会处于危险之中。
+第二层是四类[[护栏|护栏]]：
 
-但在那之前，我觉得这太不可思议了。”
+环境隔离(把执行代码的环境本身[[沙箱|沙箱]]化，而不是只隔离智能体)、限制可用工具、限制权限和访问者，以及完整的可观测性——所有遥测数据都要留痕 <button class="pd-ts" data-t="17:29" data-who="嘉宾" data-en="Four different types of guardrails. The first one is your environment. We need to make sure that we're sandboxing the environment." aria-label="回原文"></button>。
+
+## 最有趣的一件事：开源框架自己写了自己的另一个版本
+
+结尾有个彩蛋。Strands Agents 三年前诞生于 AWS 内部，后来开源，先有 Python 版本。然后，Python 版本的 Strands 自己写出了 TypeScript 版本 <button class="pd-ts" data-t="19:49" data-who="嘉宾" data-en="And we wrote the Python version of strands. And the Python version of strands wrote by itself the TypeScript version of strands. So it did update its own source code." aria-label="回原文"></button>。
+
+也就是说，这个关于「智能体更新自己源代码」的愿景，已经真实发生过一次了。
+
+Sandhya 的结论是：**这是自我改进、自我进化的智能体的起点**。她还开玩笑说，总有一天它们会接管世界——但在那之前，这一切精彩得很。
 
 ## 本集带走
 
-- **元工具化最小配方**：三个工具（editor 写文件、shell 看环境、load 动态加载）+ 一份 system prompt（教它工具长什么样、写到哪、先查重再造），一行代码就能跑起来。
-- **关键开关是运行时加载**：`load_tools_from_directory` 让智能体刚写完的工具不用重启立刻可用——这是“边跑边自愈”的前提。
-- **拆子智能体不用你设计**：告诉它“拆成两到四个子智能体”，它按航班/活动/行程这类职责自己拆、自己写、自己调用，Swarm/graph/workflow 三种模式都可由智能体自建。
-- **上生产前先建评估**：四个层面都要看——最终目标达成、单次回答没编造、工具和参数用对、多智能体协作顺序正确。
-- **护栏第一步是沙箱化代码执行环境**：隔离的不是智能体本身，而是它生成代码的运行环境，防止它写错、删错地方。
-- **术语先说清**：投机解码这类概念不在本集，本集的核心词是“元工具化”——让智能体把“造工具、造智能体”本身当作工具来调用。
+- MetaTooling 的核心：智能体在[[运行时|运行时]]自己写工具、自己加载使用，不需要重启或人工干预
+- 实现只需三件套——编辑器、命令行、加载工具——加一段定义好工具模板的系统提示词
+- 智能体还能自我拆解任务，创建并调用子智能体，形成多智能体协作
+- 自主性带来风险：必须配套 8 类评估和沙箱、权限、工具限制、可观测性四类护栏
+- Strands Agents 的 Python 版本已亲手写出了自己的 TypeScript 版本——自更新代码不再是设想
 
-<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
-> <span class="qz">如果这个元工具或元智能体能派生出工具和智能体，它也能修改和删除。我想让它删除我的数据吗？</span>  
-> *If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete. Do I want it to delete my data?*  
-> <span class="qm">—— Sandhya Subramani · [17:11]</span> ^q1
+> <span class="qz">让我写一个工具来数你想要的字符数，因为它显然知道自己没有这个能力。</span>  
+> *Let me write a tool to count the number of characters you want, because clearly it knows that it does not have the capability to do it.*  
+> <span class="qm">—— Sandhya Subramani · [04:00]</span> ^q1
+
+> <span class="qz">现在你的重点不仅仅是构建一个能完成工作的好的智能体系统，你可能还想开始考虑编写自愈代码，考虑创建一个能审视自身、查看有哪些 bug 并自我修复的智能体。</span>  
+> *So now your focus is not just building a good agentic system that can get the job done, you would also maybe want to start thinking about healing, writing self-healing code, about creating an agent that can sort of go over itself, look at what bugs are there and fix itself.*  
+> <span class="qm">—— Sandhya Subramani · [14:20]</span> ^q2
+
+> <span class="qz">如果这个元工具或元智能体能派生出工具和智能体，它也能修改和删除。</span>  
+> *If this meta tooling or this meta agent can spin off tools and agents, it can also modify and delete.*  
+> <span class="qm">—— Sandhya Subramani · [17:11]</span> ^q3
 
 > <span class="qz">而且它能解决比最初被教会的更多的能力。这是自我改进智能体和自我进化智能体的开端。</span>  
 > *And it can solve more capabilities than it has been initially taught to. This is the starting of self-improving agents and the self-evolving agents.*  
-> <span class="qm">—— Sandhya Subramani · [18:53]</span> ^q2
+> <span class="qm">—— Sandhya Subramani · [18:53]</span> ^q4
 
-> <span class="qz">到某个时候，我确信它们会接管世界，而我会处于危险之中。但在那之前，我觉得这太不可思议了。</span>  
-> *At some point, I'm convinced they will take over the world and I'm going to be at risk. But until then, I think this is incredible.*  
-> <span class="qm">—— Sandhya Subramani · [19:03]</span> ^q3
-
-> <span class="qz">然后 strands 的 Python 版本自己写出了 strands 的 TypeScript 版本。</span>  
-> *And the Python version of strands wrote by itself the TypeScript version of strands.*  
-> <span class="qm">—— Sandhya Subramani · [19:49]</span> ^q4
+> <span class="qz">我们写了 Strands 的 Python 版本。然后 Strands 的 Python 版本自己写出了 Strands 的 TypeScript 版本。</span>  
+> *And we wrote the Python version of strands. And the Python version of strands wrote by itself the TypeScript version of strands.*  
+> <span class="qm">—— Sandhya Subramani · [19:45]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -130,7 +141,7 @@ Python 版本的 Strands，**自己写出了 TypeScript 版本的 Strands**—�
 **顺着「智能体」挖下去**
 
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:AWS · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|拥有你的智能:LangChain 的三大支柱与全新发布]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
+- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)、LLM</span>
 
 </div>

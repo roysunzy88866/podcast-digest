@@ -30,7 +30,7 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(00:00起):本集说它发布了首款折叠屏 iPhone Duo(1999 美元起、展开 7.6 英寸),新 CEO John Ternus 主持首场发布会,主持人评价偏冷静:成不成就看双屏价值够不够大,并期待 Ternus 时代全力做健康、交通和本地 AI。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:53起):本集说 Josh 在 Apple 待了近六年参与 Siri 新版本，并以 Apple 每年一版的发布节奏为例，说明带大众踏上新体验的旅程需要节制
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(00:00起):本集以它为选秀对象：主持人认为苹果的收购哲学向来是回购股票加补强式小技术团队收购（Siri、Touch ID 团队），主张新 CEO John Ternus 停止回购、做几次大豪赌，筛选标准是任何能整合进 iPhone、笔记本、手表、AirPods 和门店的东西，并寻求能取代 iPhone 依赖的千亿美元级收入线。
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(04:08起):本集说：在中国 Apple 关闭了 iOS 平台上所有可用的加密工具，因为平台锁死、逆向工程违法，中国人得到的就只有这些。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(04:08起):本集说：在中国 Apple 关闭了 iOS 平台上所有可用的加密工具，因为平台锁死、逆向工程违法，中国人得到的就只有这些。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(05:52起):本集说 Apple 是黑马：天生握着设备入口，邮件、信息、日历、照片全部内置，甚至能看到你屏幕上的一切，缺的只是用户对 Siri 十多年积累的不信任。
 
 ## ① 提到它的金句
@@ -79,7 +79,7 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司(提及)
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 
 ## ③ 关联

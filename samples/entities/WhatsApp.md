@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(04:59起):本集说 WhatsApp 刚刚推出了预写回复功能，Patrick 仍从未发送过这类 AI 预写的内容
 - **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(23:15起):『不用团队和资金就能创业』的落点:在欧洲和日本一切交易都发生在 WhatsApp 上;扎克伯格的路数是围绕核心资产做相邻业务,让 WhatsApp Business 内置 AI 客服和小商业页面,三到六个月做出落地页生成器、CRM 的 80% 功能版。
-- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(08:49起):本集选作智能体的消息通道,因为手机上本来就有;飞机上不买 Wi-Fi 也能用它的消息功能,由此触发搭建记忆系统的想法。
+- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]]**(08:49起):本集选作智能体的消息通道,因为手机上本来就有;飞机上不买 Wi-Fi 也能用它的消息功能,由此触发搭建记忆系统的想法。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):初版 OpenClaw 胶水层的连接端之一。集里提到在马拉喀什网不好时 WhatsApp 到处都能用，嘉宾大量用它给模型发文字和语音消息来完成翻译、转录。
 
 ## ① 提到它的金句
@@ -28,7 +28,7 @@ unlisted: true
 
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念(提及)
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

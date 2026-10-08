@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>100</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>100</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -105,14 +105,14 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(04:02起):本集说长时程任务和记忆的大量研究已直接上线到 ChatGPT, dots 的能力最终也会装进 ChatGPT 服务 12 亿用户;与 ChatGPT 登录绑定的合作已有 16 个伙伴。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(00:04起):本集说它是全球占主导地位的消费级 AI 产品，网页端领先 Claude 约 6 倍、Gemini 约 2 倍，变现遥遥领先，广告年化运行率已达 10 亿美元，且因极其了解用户，定向投放可能超过 Meta。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(32:20起):本集说 ChatGPT 是 OpenAI 面向消费者的庞然大物，Sam Altman 宣布已有 12 亿周活跃用户。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(00:15起):本集把它说成:sites 是『用 ChatGPT 和 Codex 构建的东西』;sites 正试验把推理带进站点,让玩家在游戏里直接唤起 ChatGPT 去改东西
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(00:15起):本集把它说成:sites 是『用 ChatGPT 和 Codex 构建的东西』;sites 正试验把推理带进站点,让玩家在游戏里直接唤起 ChatGPT 去改东西
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(03:58起):本集说 LangChain 的创立比 ChatGPT 早一个月,真正起飞是在人们想要「我行业专用的那个」之后。
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(02:02起):本集用它举例说明模型在某些事上超级可靠（从无缘无故辱骂人），并问「ChatGPT 感觉起来有多通用」。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:02起):本集用它举例说明模型在某些事上超级可靠（从无缘无故辱骂人），并问「ChatGPT 感觉起来有多通用」。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
 
-*23 条*
+*22 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -157,8 +157,6 @@ aliases: ["chat gpt", "ChatGPD"]
 ![[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl#^q10]]
 
 ![[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w#^q1]]
-
-![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q1]]
 
 ## ② 出现在这些集
 
@@ -260,9 +258,9 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司(提及)
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念(提及)
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

@@ -24,9 +24,9 @@ unlisted: true
 
 ![[2026-09-14-talks-agents-without-code-skills-yaml-and-file#^q1]]
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q2]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q4]]
 
-![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q4]]
+![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q5]]
 
 ## ② 出现在这些集
 

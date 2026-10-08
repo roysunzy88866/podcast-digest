@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(19:27起):本集把它说成：设计师用来搭配 Claude Code 微调前端细节的 IDE 编辑器。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(24:49起):本集把它说成:传统的代码编辑器，过去常与 Figma 搭配使用，但受限于单一任务和单一光标，正被基于聊天的 AI 产品取代。
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:56起):本集提到 VS Code 是 Microsoft 拥有的编辑器，Cursor 选择直接 fork 它来做独立产品
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(00:27起):演讲者所在团队维护的产品，GitHub 上最大的开源项目之一，向超过 5000 万用户交付，靠 AI 把 10 多年的月度发布改成了每周发布
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(00:27起):演讲者所在团队维护的产品，GitHub 上最大的开源项目之一，向超过 5000 万用户交付，靠 AI 把 10 多年的月度发布改成了每周发布
 
 ## ② 出现在这些集
 
@@ -26,7 +26,7 @@ unlisted: true
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为被讨论公司(提及)
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为被讨论公司
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为被讨论公司
 
 ## ③ 关联
 

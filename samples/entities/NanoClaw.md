@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(05:48起):本集说这是嘉宾选中的开源智能体框架:只有约 15 个源文件、代码紧凑,用 Docker 容器跑智能体进程使其无法在系统里横冲直撞,基于 Claude Agent SDK。
+- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]]**(05:48起):本集说这是嘉宾选中的开源智能体框架:只有约 15 个源文件、代码紧凑,用 Docker 容器跑智能体进程使其无法在系统里横冲直撞,基于 Claude Agent SDK。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]]**(00:17起):Nebius 的托管推理平台,主张第三条路:自托管的控制与性能 + 托管推理的简单性,内建推理、数据实验室、后训练、部署的全栈闭环
+- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]]**(00:17起):Nebius 的托管推理平台,主张第三条路:自托管的控制与性能 + 托管推理的简单性,内建推理、数据实验室、后训练、部署的全栈闭环
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为被讨论公司
+- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]] — 作为被讨论公司
 
 ## ③ 关联
 

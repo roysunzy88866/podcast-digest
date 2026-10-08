@@ -1,12 +1,12 @@
 ---
-title: 日志会说谎：语音智能体的失败，你听得见却看不见
+title: "文字稿看着没问题,通话却出事了——语音智能体的调试困境"
 podcast: 精选演讲
 date: 2026-10-07
 source_url: undefined
 duration: "17:42"
 type: episode
 cover: "#64748b"
-description: Arise 产品经理 Fuad Ali 讲解语音智能体为何是「最难调试的类目」，以及如何用 trace、会话视图和音频评估看见那些文本日志里隐形的失败。
+description: Arize 产品经理 Fuad Ali 演讲，讲语音智能体为什么是最难调试的 AI 应用，以及怎么看见那些被文字稿掩盖的故障。
 host: "[[Fuad]]"
 companies: ["[[Arise]]"]
 concepts: ["[[语音智能体]]", "[[OpenInference]]", "[[OTEL]]", "[[trace]]", "[[评估]]", "[[延迟]]", "[[智能体]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#post","headline":"日志会说谎：语音智能体的失败，你听得见却看不见","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn","description":"Arise 产品经理 Fuad Ali 讲解语音智能体为何是「最难调试的类目」，以及如何用 trace、会话视图和音频评估看见那些文本日志里隐形的失败。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Fuad"},{"@type":"Organization","name":"Arise"},{"@type":"Thing","name":"语音智能体 (voice agent)"},{"@type":"Thing","name":"OpenInference"},{"@type":"Thing","name":"OTEL"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"智能体 (agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"日志会说谎：语音智能体的失败，你听得见却看不见","item":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#post","headline":"文字稿看着没问题,通话却出事了——语音智能体的调试困境","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn","description":"Arize 产品经理 Fuad Ali 演讲，讲语音智能体为什么是最难调试的 AI 应用，以及怎么看见那些被文字稿掩盖的故障。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Fuad"},{"@type":"Organization","name":"Arise"},{"@type":"Thing","name":"语音智能体 (voice agent)"},{"@type":"Thing","name":"OpenInference"},{"@type":"Thing","name":"OTEL"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"智能体 (agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"文字稿看着没问题,通话却出事了——语音智能体的调试困境","item":"https://talk.solomind.cc/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>日志会说谎：语音智能体的失败，你听得见却看不见</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>文字稿看着没问题,通话却出事了——语音智能体的调试困境</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 日志会说谎：语音智能体的失败，你听得见却看不见
+# 文字稿看着没问题,通话却出事了——语音智能体的调试困境
 
 <div class="pd-byl"><b>Fuad</b> · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-talks-the-transcript-looked-fine-the-call-wasn.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">而且日志会说谎。如果你只看转录文本——我马上给大家放一段音频——它并不能真正捕捉到引擎盖下实际发生的事情。</div><div class="a">— Fuad <button class="pd-ts" data-t="02:01" data-who="Fuad" data-en="And the log lies. If you're just looking at transcripts, I'll play a little audio file for you guys in a second. It doesn't really capture what's actually going on under the hood." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">尽管对一个帮你点芝士汉堡的麦当劳智能体来说，赌注看起来可能低一些，但你也不应该接受它。</div><div class="a">— Fuad <button class="pd-ts" data-t="16:55" data-who="Fuad" data-en="You shouldn't be OK with it, though the stakes might seem a little lower for a McDonald's agent that's ordering you a cheeseburger either." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Fuad]]
@@ -35,127 +35,73 @@ jsonLd: |
 >
 > **概念** [[语音智能体]] · [[OpenInference]] · [[OTEL]] · [[trace]] · [[评估]] · [[延迟]] · [[智能体]]
 
-这一集是一场技术演讲，主角是 [[Fuad|Fuad]] Ali——[[Arise|Arise]] 的产品经理，负责实验方向的产品。
+[[语音智能体|语音智能体]]正在爆发式增长：GPT Realtime 刚发布，Vercel 也刚上线语音[[智能体|智能体]]功能。
 
-他聊的是[[语音智能体|语音智能体]](打电话给你、跟你说话办事的 AI):这个领域正爆发式增长，但有一个致命问题——**它是不可见的**。
+但从 White Castle 的点餐机器人 Linda 到 McDonald's 的自动化点单，这个领域有一个致命问题——它极其脆弱，而且很多故障你根本看不见 <button class="pd-ts" data-t="01:38" data-who="说话人未标明" data-en="So as you can tell, space is exploding fast. And that is going to start to matter because as the space grows really fast, it is also one of the hardest to debug categories." aria-label="回原文"></button>。
 
-文字日志看起来一切正常，实际通话却一塌糊涂。
+## 为什么说“日志在撒谎”？
 
-他开场甩出的例子很直观：White Castle 有个叫 Linda 的点餐机器人，Bojangles、麦当劳也在做类似的东西。
+[[Fuad|Fuad]] 放了一段 AI 生成的通话录音：用户说“我要给订单 14 退款”，智能体回答“好的，已开始为订单 40 办理退款”，用户纠正“不，是 14”，然后确认完成。
 
-但想象一下，你凌晨两点在麦当劳，机器人给你下了 600 个芝士汉堡的订单——「我会相当恼火」。
+单看文字稿，你会以为智能体正确纠正了自己。但听音频就会发现真相：智能体在用户说完之后沉默了 2.4 秒；
 
-语音[[智能体|智能体]]一旦出错， stakes 比聊天机器人高得多：它直接对真实世界执行动作。
+它抢在用户话音未落时就开口说话，把用户打断；把 14 听成了 40；而且语气平板机械。退款实际办在了订单 40 上——一个严重错误。
 
-## 转录文本没问题，通话却砸了：一段「看不见的失败」
+这些全是音频层面的问题。「**如果你只是读模型的文字输出，你完全不知道出了什么事**」<button class="pd-ts" data-t="03:53" data-who="说话人未标明" data-en="So these are all audio specific issues. If you just read this from an LM output, you would have no idea anything is going on. So what you need to do is you need to see the conversation beyond just the transcript." aria-label="回原文"></button>。
 
-Fuad 放了一段 AI 生成的退款通话录音。
+## 要看见通话，而不是读通话
 
-看文字日志：用户说「我要给订单 14 退款」，智能体回「好的，已为订单 40 启动退款」，用户纠正「不，是 14」,智能体说「您的退款已确认」。
+Fuad 的核心主张是：
 
-**看起来智能体自我纠正了**——但听了音频才知道真相完全不是这样:
+**调试语音智能体，必须把音频、文字稿和调用链放在同一个界面里看**，再加上具体指标——首音频响应时间、[[延迟|延迟]]、打断事件、情绪分析等等。
 
-- 用户提出退款后，智能体响应前有 **2.4 秒的死寂**，极伤用户体验；
-- 智能体**抢在来电者说完之前开口**(互相压话)；
-- 「14」被听成了「40」;
-- 用户纠正之后，那句「您的退款已确认」其实没有真正确认 14——**退款最终还是按订单 40 处理的**，一个巨大的错误；
-- 平淡的机器人式语调也不好看。
+他用了一个类比：
 
-他的结论：这些都是**音频特有的问题**，如果你只读 LLM 的输出，你完全不会知道发生了任何问题。
+如果你凌晨两点在排查一通客户电话，能在几十亿条调用记录里快速过滤、排序、定位到出问题的那一段，才是关键 <button class="pd-ts" data-t="07:04" data-who="说话人未标明" data-en="So those semantic inventions normalize these disparate model providers, whether it's OpenAI, real time, or Google with Gemini Live into a set of schema that you can query." aria-label="回原文"></button>。
 
-「而且日志会说谎」——转录文本根本捕捉不到引擎盖下实际发生的事。
+实现上，Arize 把音频的语义约定映射到了开源的 [[OpenInference|OpenInference]] 规范上。
 
-## 解法：把音频、转录、trace 放进同一个视图
+这套规范是开放免费的，可以把 OpenAI、Google 等不同供应商的模型统一成一个可查询的数据结构，不用为每家单独写解析代码。
 
-Fuad 给出的核心方法是：
+## 评估也要针对音频，而不是文字稿
 
-你要看到**超越文字记录的对话**——音频、转录文本、trace([[trace|追踪]]链路，记录每一次调用的完整过程)三者放在同一个会话视图里，同一视图能看到用户来回的多个轮次，再叠上指标：
+只对文字稿做大模型打分是不够的。语气和情绪必须基于原始音频来判断——正面的、中性的还是负面的，不能靠猜。
 
-[[延迟|延迟]]、首个音频耗时、打断事件、情感分析。
+首音频延迟在客服场景里仍是硬指标，打断、转写漂移、任务是否成功，也都值得直接对着音频跑[[评估|评估]] <button class="pd-ts" data-t="10:53" data-who="说话人未标明" data-en="And you want to be able to run these evals directly against the audio with evals that are based on audio models. So LM as a judge evals on a transcript are only so good." aria-label="回原文"></button>。
 
-具体要做到几件事：
+更进一步的思路是“智能体当裁判”：
 
-1. **逐个 span 可见**(span 即追踪链路里的每一段操作)，并且能从 trace 里直接内联播放音频，不需要外部工具、不需要导出;
-2. **看输入输出和指标**：首个 token 耗时、音频 token 成本、打断事件；
-3. **看关联，不是列表**：谁在什么时候说话、智能体何时停顿、哪里被打断、当时实际调用了哪些工具——工具调用的失败要能对着会话音频一起看。
+不只分析对话，而是真的去访问工具和第三方系统，检查智能体是不是按权限访问了该访问的东西。
 
-底层实现上，Arise 把音频的语义约定映射到了 [[OpenInference|OpenInference]] 上——这是 Arise 在 2023 年首发的一套完全开源、符合 [[OTEL|OTEL]] 规范的语义约定，把 GenAI 运行时发生的事映射成统一的规范。
+## 终极目标：自我修复的软件
 
-关键价值是**提供商无关**：
+Fuad 描绘了一个闭环：观察、评估、改进。
 
-不管你用 OpenAI 的 realtime 还是 Google 的 Gemini Live,都被规范化成同一套可查询的 schema(数据结构)，不需要针对每个厂商做定制解析，一个自动插桩器捕获全部数据。
+他举例说，一个运维智能体可以自动排查高延迟问题——比如发现工具返回的结果没有截断，导致上下文过载——然后自动写好修复、部署到开发环境，把之前失败的调用重放一遍验证效果。
 
-Fuad 强调这套东西开源免费，「你们可以拿去直接用，发到 Grafana 后端」，这不是产品推销。他给出的理由很实际：
+「你早上醒来，看到一个 PR，里面写着问题的来龙去脉和修复报告，你只需要点批准或拒绝」<button class="pd-ts" data-t="15:43" data-who="前后，说话人未标明" data-en="And you wake up in the morning and all this is ready for you and you just click approve or deny on the PR. That is the future that I think we want to see at Arise where self-healing software and continuous improvement are realities for everyone who's building agents." aria-label="回原文"></button>。
 
-如果你曾在凌晨两点根据一通客户电话调试，你就知道能在数十亿条涌入的 trace 里过滤、排序、直达你需要看的那一条有多重要。
+他的收尾提醒很直白：你能接受一个执行股票交易的智能体犯这种错吗？不能。
 
-## 只针对文字的评估不够，要有音频专属评估
-
-第二个重点是[[评估|评估]](eval)。文字层面的「LLM 当裁判」评估效果有限，语音需要专属指标:
-
-- **语调与情感分析**：基于实际音频对用户情绪分类(积极/中性/消极)，转录文本做不到这一点——转录「看起来没问题」太容易了，但语调真的很重要；
-- **延迟**：尤其「首个音频时间」的 SLA,对客服用例仍然非常关键，要能标记打破指标的情况；
-- **打断、转录漂移、任务成功率**。
-
-而且评估要**直接对底层音频跑**，用基于音频模型的评估。
-
-随着规模扩大，还要从「LLM 当裁判」走向「智能体当裁判」——让评估方真正访问工具、第三方系统做 RBAC 权限检查，验证智能体实际访问的确实是它有权访问的系统，把评估信息实时补全进来。
-
-上手可以简单到一句话：
-
-「嘿 Claude,帮我创建一个音频评估，用 GPT audio 做情感分析，在这些音频片段上捕捉用户沮丧的语气」——剩下的由 CLI 查询 span、筛选音频片段、创建并部署评估，直接挂到真实系统的 trace 上。
-
-评估分数要直接挂在 span 上，这样才能做复杂查询筛选，并且评估挂上监控器之后可以自动触发**调查智能体**，去深挖：
-
-哪些工具调用呈现得不对？智能体在哪失败？是不是碰到了没编码过的产品面？需要暴露新工具吗？
-
-## 终局：让语音拥有和编码智能体同样的「观察-评估-改进」循环
-
-Fuad 最后点题：你为改进编码智能体所做的同一个循环——**观察、评估、改进**——现在必须为语音来做。他描绘了这样一幅图景：
-
-用户音频流入、自动被追踪、实时评估自动打分，然后一个 SRE 智能体(不是你雇的工程师)翻看追踪、理解故障模式、提出修复假设、在 dev 环境搭好修复、用失败的 trace 重放验证延迟确实降了。
-
-你早上醒来，看到一个 PR,里面写着：「我发现了延迟高的原因——原来我们没有截断工具结果，给智能体传了太多信息，上下文过载。
-
-我引入了截断算法，上线并在 dev 里验证，针对失败的 trace 做了测试，这是成绩单和延迟下降数据。」你只需要点批准或拒绝。
-
-这就是他说的「自愈软件」。
-
-为此 Arise 刚发布了「智能体实验」(agent experiments),他形容为「带追踪的 Postman」。
-
-他的收尾劝告：
-
-这种失败，你不会接受它发生在 coding agent 层面，不会接受它发生在能执行股票交易的智能体身上——**哪怕只是帮你点芝士汉堡的麦当劳智能体，你也不应该接受**。
-
-用不用 Arise 都行，但请开始追踪你的音频。
-
-> 【背景】OpenInference 与 OTEL:OTEL(OpenTelemetry)是业界通用的可观测性开放标准；OpenInference 是把 GenAI/LLM 的调用过程映射到这套标准的开源语义约定。「插桩器」(instrumenter)指自动埋点、把运行数据上报的工具。
+那一个帮你点芝士汉堡的 McDonald's 智能体，也不该被放过。
 
 ## 本集带走
 
-- **别只看转录文本排障**：延迟尖峰、压话、听错数字、语调问题，这些音频特有的失败在文字日志里全部隐形——那段退款通话的文字记录「看起来正常」，实际钱退错了订单。
-- **把音频、转录、trace 合到一个会话视图**：能从 trace 里直接内联播放音频、看每个 span、看工具调用时刻，才谈得上真正调试。
-- **统一 schema 换供应商不用改代码**：用开源的 OpenInference 语义约定把不同模型厂商的语音数据规范化，避免给每家写定制解析。
-- **评估要跑在音频上，不是文字上**：情感/语调分类、首个音频时间 SLA、打断、转录漂移，都得基于实际音频测；评估分数挂到 span 上才能触发自动化。
-- **套用编码智能体的成熟循环**：观察→评估→改进，让调查智能体和 SRE 智能体自动定位失败、提修复、用失败 trace 重放验证——人只负责批准 PR。
+- 语音智能体的很多故障（延迟、打断、听错数字、语气）在文字稿里完全不可见，必须听音频、看调用链才能发现。
+- 调试语音要把音频、文字稿、[[trace|追踪]]和指标放在同一视图，并统一成可查询的开源数据规范（OpenInference）。
+- 评估要基于音频本身：情绪、语气、首音频延迟、打断事件，而不只是对文字稿打分。
+- “观察—评估—改进”的闭环可以做到自动化：智能体自动定位故障、提出修复、重放验证，人只做最终审批。
+- 对语音智能体的质量标准应该向编码智能体看齐，点汉堡的智能体也不该出错。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>2 条</span></div>
 
-> <span class="qz">而且日志会说谎。如果你只看转录文本——我马上给大家放一段音频——它并不能真正捕捉到引擎盖下实际发生的事情。</span>  
-> *And the log lies. If you're just looking at transcripts, I'll play a little audio file for you guys in a second. It doesn't really capture what's actually going on under the hood.*  
-> <span class="qm">—— Fuad · [02:01]</span> ^q1
+> <span class="qz">尽管对一个帮你点芝士汉堡的麦当劳智能体来说，赌注看起来可能低一些，但你也不应该接受它。</span>  
+> *You shouldn't be OK with it, though the stakes might seem a little lower for a McDonald's agent that's ordering you a cheeseburger either.*  
+> <span class="qm">—— Fuad · [16:55]</span> ^q1
 
-> <span class="qz">不再只是用一个 LLM 当裁判去分析转录文本甚至音频，而是实际访问工具、访问第三方系统，并把评估信息实时补全进来。</span>  
-> *You know, just an LLM as a judge analyzing a transcript or even analyzing audio, but actually accessing tools, accessing third-party systems, and hydrating some of that evaluation information inside of it.*  
-> <span class="qm">—— Fuad · [11:36]</span> ^q2
-
-> <span class="qz">它真的简单到就是：「嘿 Claude,帮我创建一个音频评估，用 GPT audio 做情感分析，在这些音频片段上捕捉用户沮丧的语气。」</span>  
-> *It is literally as simple as, hey Claude, create an audio eval for me for sentiment analysis using GPT audio, and catch frustrated user tone on those audio spans.*  
-> <span class="qm">—— Fuad · [11:54]</span> ^q3
-
-> <span class="qz">你不会接受这种事发生在编码智能体层面，不会接受它发生在能执行股票交易的智能体身上——哪怕对一个帮你点芝士汉堡的麦当劳智能体来说赌注看似低一些，你也不应该接受它。</span>  
-> *You wouldn't be OK with this happening at the coding agent level. You wouldn't be OK with it happening for an agent that's able to execute stocks on Robinhood. You shouldn't be OK with it, though the stakes might seem a little lower for a McDonald's agent that's ordering you a cheeseburger either.*  
-> <span class="qm">—— Fuad · [16:47]</span> ^q4
+> <span class="qz">而且就我个人而言，如果我凌晨 2 点在麦当劳，结果收到 600 个芝士汉堡，我会相当恼火。</span>  
+> *And personally, I'd be pretty pissed off if I was at McDonald's at 2 a.m. and I got 600 cheeseburgers.*  
+> <span class="qm">—— Fuad · [02:30]</span> ^q2
 
 <div class="pd-sec">接着看</div>
 

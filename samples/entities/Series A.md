@@ -21,7 +21,7 @@ unlisted: true
 
 ![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q1]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q7]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q14]]
 
 ## ② 出现在这些集
 

@@ -1,5 +1,5 @@
 ---
-title: 勇气可以练：Brene Brown 谈勇敢领导力
+title: 勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能
 podcast: Masters of Scale
 date: 2026-10-07
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "28:39"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev.jpg"
-description: 研究勇气与脆弱的研究者 Brene Brown 在 Masters of Scale 峰会与 Reid Hoffman 对谈：为什么阻碍勇气的不是恐惧，而是盔甲。
+description: 研究者 Brené Brown 与 Reid Hoffman 对谈，讲勇气为何可教可测，以及 AI 时代领导者最需要的五种能力。
 host: "[[Jeff Berman]]"
 guests: ["[[Brené Brown]]"]
 cohosts: ["[[Reid Hoffman]]"]
@@ -18,12 +18,12 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#post","headline":"勇气可以练：Brene Brown 谈勇敢领导力","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev","mainEntityOfPage":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev","description":"研究勇气与脆弱的研究者 Brene Brown 在 Masters of Scale 峰会与 Reid Hoffman 对谈：为什么阻碍勇气的不是恐惧，而是盔甲。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev.jpg","about":[{"@type":"Person","name":"Jeff Berman"},{"@type":"Person","name":"Brené Brown"},{"@type":"Person","name":"Reid Hoffman"},{"@type":"Thing","name":"勇敢领导力 (courageous leadership)"},{"@type":"Thing","name":"勇气 (courage)"},{"@type":"Thing","name":"盔甲 (armor)"},{"@type":"Thing","name":"认知共情 (cognitive empathy)"},{"@type":"Thing","name":"情感共情 (affective empathy)"},{"@type":"Thing","name":"同情 (compassion)"},{"@type":"Thing","name":"情绪颗粒度 (emotional granularity)"},{"@type":"Thing","name":"自我觉察 (self-awareness)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"自我参照系统 (self-referencing system)"},{"@type":"Thing","name":"漏洞 (vulnerability)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"勇气可以练：Brene Brown 谈勇敢领导力","item":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#post","headline":"勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev","mainEntityOfPage":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev","description":"研究者 Brené Brown 与 Reid Hoffman 对谈，讲勇气为何可教可测，以及 AI 时代领导者最需要的五种能力。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev.jpg","about":[{"@type":"Person","name":"Jeff Berman"},{"@type":"Person","name":"Brené Brown"},{"@type":"Person","name":"Reid Hoffman"},{"@type":"Thing","name":"勇敢领导力 (courageous leadership)"},{"@type":"Thing","name":"勇气 (courage)"},{"@type":"Thing","name":"盔甲 (armor)"},{"@type":"Thing","name":"认知共情 (cognitive empathy)"},{"@type":"Thing","name":"情感共情 (affective empathy)"},{"@type":"Thing","name":"同情 (compassion)"},{"@type":"Thing","name":"情绪颗粒度 (emotional granularity)"},{"@type":"Thing","name":"自我觉察 (self-awareness)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"自我参照系统 (self-referencing system)"},{"@type":"Thing","name":"漏洞 (vulnerability)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能","item":"https://talk.solomind.cc/2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>勇气可以练：Brene Brown 谈勇敢领导力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 勇气可以练：Brene Brown 谈勇敢领导力
+# 勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能
 
 <div class="pd-byl"><b>Brené Brown</b> · 《Strong Ground》作者 · 2026-10-07</div>
 
@@ -36,163 +36,179 @@ jsonLd: |
 >
 > **概念** [[勇敢领导力]] · [[勇气]] · [[盔甲]] · [[认知共情]] · [[情感共情]] · [[同情]] · [[情绪颗粒度]] · [[自我觉察]] · [[系统思维]] · [[自我参照系统]] · [[漏洞]]
 
-这一集是 Masters of Scale 峰会现场对谈：
+在 2025 年的 Masters of Scale 峰会上，LinkedIn 联合创始人 [[Reid Hoffman|Reid Hoffman]] 和一位畅销书作者、研究者坐到了一起。
 
-主持人 [[Reid Hoffman|Reid Hoffman]] 对话研究者、《Strong Ground》作者 Brene Brown,聊她所说的「[[勇敢领导力|勇敢领导力]]」——对「你是谁」有深刻认知，并以自律、担当和谦逊来领导，理解「领导是服务他人，而不是被服务」。
+这位研究者刚出版新书 Strong Ground，研究的是她所说的“勇敢的领导力”。
 
-她认为这一切的根基是自我认知 <button class="pd-ts" data-t="03:02" data-who="Brene Brown" data-en="So, what is courageous leadership? Well, I heard the word humility during the introduction. And to me, courageous leadership is a combination of a deep awareness of who you are and leading with discipline and accountability and humility." aria-label="回原文"></button>。
+这场对谈不长，但信息密度极高：为什么恐惧不是[[勇气|勇气]]的敌人、共情为什么被误解、以及 AI 时代 CEO 最该练的几项“慢功夫”。
 
-## 阻碍勇气的不是恐惧，是盔甲
+## 勇气不是天赋，是四项可以练的技能
 
-Brene 认为自己职业生涯最大的发现是：
+Brown 说，她职业生涯里最大的发现是：勇气是可教、可测量、可观察的 <button class="pd-ts" data-t="03:51" data-who="Brown" data-en="Yeah, it's interesting. I think the biggest finding possibly of my career has been that courage is teachable, measurable, and observable. It's a skill set that's made up of four things." aria-label="回原文"></button>。
 
-**[[勇气|勇气]]是可教的、可测量的、可观察的**，它是一项由四件事组成的技能——第一是清楚自己的价值观，并评估行为是否与之对齐(有价值观是一回事，落地执行并让组织为之负责是另一回事)；
+它由四样东西组成：把价值观说清楚，并检查自己的行为是否对得上；在[[漏洞|脆弱]]中保持正直；还有后面会谈到的几项能力。
 
-第二是在不确定性、风险和暴露中保持正直与[[漏洞|脆弱]]，且不去抓取「[[盔甲|盔甲]]」<button class="pd-ts" data-t="03:51" data-who="Brene Brown" data-en="Yeah, it's interesting. I think the biggest finding possibly of my career has been that courage is teachable, measurable, and observable. It's a skill set that's made up of four things." aria-label="回原文"></button>。
+她给“脆弱”下了个很实的定义：不确定、风险和暴露。
 
-盔甲是关键概念。她早期假设勇敢领导力的最大障碍是恐惧，但受研究的领导者们告诉她：
+也就是说，每个人每天都活在脆弱里，问题是你能不能察觉，并且不去抓那些自我保护的“[[盔甲|盔甲]]”。
 
-别把从不害怕的人列进勇敢者名单，「我每天都在害怕」。
+## 挡住勇气的不是恐惧，是你的“盔甲”
 
-真正阻碍勇气的是**盔甲——我们害怕时自我保护的方式，而且通常自己意识不到**<button class="pd-ts" data-t="04:54" data-who="Brene Brown" data-en="And I was like, well, if it's not fear, what gets in the way of courage? Armor. It's how we self-protect when we're afraid that's usually out of our awareness." aria-label="回原文"></button>。
+Brown 最初假设[[勇敢领导力|勇敢领导力]]的最大障碍是恐惧。但她研究的领导者直接告诉她：别把不害怕的人列进勇敢名单，“我每天都在害怕” <button class="pd-ts" data-t="04:43" data-who="Brown" data-en="And when we went back to some of the leaders we were studying, they literally said some version of this to us. If you're going to make a list of brave leaders who are never afraid, don't put me on the list." aria-label="回原文"></button>。
 
-她自己的盔甲是完美主义、微管理，以及「过度果断」：
+真正挡路的是盔甲——害怕时下意识的自我保护。
 
-会议里直接拍板「关掉、换人、改预算」，事后才发现这些不是好决定——团队甚至说，你这样的时候我们什么都不记下来。
+她自己的盔甲是完美主义、微观管理，以及“过度果断”：开会时一句“关掉这个项目、换团队、改预算”，事后才发现这些决定未必对。
 
-怎么发现自己的盔甲？她说大多数人其实心里知道，不用问别人；
+她的团队甚至学会了在她这个状态时不做任何记录，因为知道这些指令不作数。
 
-如果非要问，**别问你的下属**——权力落差会让对方没法告诉你「你到底是怎么个混蛋法」<button class="pd-ts" data-t="06:01" data-who="Brene Brown" data-en="I mean, if you want to ask someone, I wouldn't ask someone that works for you. Because there's a power differential there that could make it super cringey for that person to describe exactly how you're an asshole." aria-label="回原文"></button>。
+怎么发现自己的盔甲？Brown 说大多数人其实自己知道，不需要去问下属——下属碍于权力关系也不敢说实话。
 
-而如果你既没有洞察力也没有勇气去审视「我害怕的时候会不会变得可怕」，她会质疑你领导别人的理智——「因为我们是什么样的人，决定了我们如何领导」<button class="pd-ts" data-t="07:28" data-who="Brene Brown" data-en="Yeah. To be honest with you, because who we are is how we lead. And if you're not willing to have the humility to look into, can I get scary when I'm scared?" aria-label="回原文"></button>。
+如果你连审视自己的勇气都没有，她会质疑你带人的资格，因为“我们是什么样的人，就会是什么样的领导” <button class="pd-ts" data-t="07:28" data-who="Brown" data-en="Yeah. To be honest with you, because who we are is how we lead. And if you're not willing to have the humility to look into, can I get scary when I'm scared?" aria-label="回原文"></button>。
 
-## 共情的两种：一种有益，一种导致倦怠
+## 共情被骂冤了：要分清两种共情
 
-面对当下「CEO 该不该有同理心」的潮流反复，Brene 给出两层回应。第一层很直白：
+针对当下舆论对共情的贬低，Brown 有两点回应。
 
-如果我的领导计划里包含伤害别人，尤其是弱势群体，我自然会反对并贬低共情——因为我不需要你的反驳和抵抗 <button class="pd-ts" data-t="09:05" data-who="Brene Brown" data-en="One is just honest. Look, if my leadership plan includes hurting people, especially vulnerable populations, I'm gonna be against empathy. I'm gonna diminish and devalue empathy if part of my plan is to be hurtful because I don't need your pushback and your resistance." aria-label="回原文"></button>。
+第一很直白：如果你的领导方案本身就包含伤害某些人群，你当然希望大家别共情、别抵制。
 
-第二层是研究上的区分：
+第二，共情本身被误解了。
 
-**[[认知共情|认知共情]]**是听你说完、回应你，让你感到被看见、被听见、被相信——她称之为「不仅是人际关系的源代码，还是民主的源代码」<button class="pd-ts" data-t="09:56" data-who="Brene Brown" data-en="And we have a conversation and you feel seen and heard and believed. That empathy, that cognitive empathy is not only the source code for relationships, it's the source code of democracy, period." aria-label="回原文"></button>。
+**[[认知共情|认知共情]]是：你告诉我你很难受，我听懂了、反映回去**，你感到被看见——她称之为“关系的源代码，也是民主的源代码” <button class="pd-ts" data-t="09:56" data-who="Brown" data-en="And we have a conversation and you feel seen and heard and believed. That empathy, that cognitive empathy is not only the source code for relationships, it's the source code of democracy, period." aria-label="回原文"></button>。
 
-而**[[情感共情|情感共情]]**是和对方一起把情绪再经历一遍，那没有帮助，会导致倦怠，还会削弱[[同情|同情]]心。
+而[[情感共情|情感共情]]是你打电话来，我把你的痛苦也感受一遍——这不有用，会导致倦怠。
 
-有益的做法是分清什么是有益的共情、什么不是。
+她还区分了共情与慈悲：慈悲是明知世上有苦难、看见了就愿意做点什么的勇气；共情只是慈悲的工具之一。
 
-至于同情，她的定义是：
+## 大多数人只有三个情绪词，这远远不够
 
-愿意接受世界上存在苦难(你的和我的)，并且看到苦难时愿意为此做点什么——「共情是同情的一种工具，一种可教的工具」<button class="pd-ts" data-t="11:22" data-who="Brene Brown" data-en="And when I see it, I'll be moved to do something about it. Empathy is a tool of compassion. It's a teachable tool." aria-label="回原文"></button>。
+Brown 的研究显示，美国的成年人平均只能准确识别三种情绪：开心、难过、生气。而重要的情绪大约有 85 到 90 种 <button class="pd-ts" data-t="12:12" data-who="Brown" data-en="Emotional lexicon, which is hard because our research shows that adults in this country can name and accurately identify about three emotions, happy, sad, and pissed off." aria-label="回原文"></button>。
 
-## 情绪颗粒度：为什么三个桶不够用
+这不是文字游戏。治疗师有句行话：“**说不出它的名字，就驯服不了它**。”
 
-好的共情需要「[[情绪颗粒度|情绪颗粒度]]」——丰富的情绪词汇库。
+失败和挫折之后，团队要重新站起来，前提是能准确说出自己正在经历什么。
 
-但她的研究显示，成年人能命名并准确识别的情绪大约只有三种：快乐、悲伤、愤怒；而真正重要的情绪有 85 到 90 种 <button class="pd-ts" data-t="12:01" data-who="Brene Brown" data-en="It requires the ability to have a pretty robust... Emotional lexicon, which is hard because our research shows that adults in this country can name and accurately identify about three emotions, happy, sad, and pissed off." aria-label="回原文"></button>。
+所以在她的高管训练里，会让人从情绪清单里挑两三种去深入学习——挑那些正在阻碍团队从失败中恢复的情绪。
 
-把人生一切体验简化成三个桶，就丢掉了敬畏、惊奇、失望、悲恸、痛苦——那些真正定义人类精神的东西。
+## AI 时代领导者的五种能力，以及“把球停在胸口”
 
-治疗师的话是：「如果你无法命名它，你就无法驯服它」——无法准确命名你正在经历的，就很难从中走出来 <button class="pd-ts" data-t="16:54" data-who="Brene Brown" data-en="I mean, I hate this because it rhymes, so it makes it seem less important. But there is something that therapists often say, which is if you can't name it, you can't tame it." aria-label="回原文"></button>。
+在 Strong Ground 的研究里，未来领导力的五大可操作技能是：[[自我觉察|自我觉察]]、情绪粒度、[[系统思维|系统思维]]，等等。
 
-这直接关系到领导力：在《Strong Ground》的研究里，「未来领导力的可操作技能组合」前五名中，情绪颗粒度排进了前列。
+其中系统思维的衰退让她担心，因为健康系统的前提是边界可渗透、反馈能进出。
 
-她合作的高管挑选想深入学习的情绪，往往是那些阻碍团队在失败和挫折后重新站起来的情绪——因为CEO 不可能既纠正问题、又替每个人重建价值感，每个人都要能靠自己站起来 <button class="pd-ts" data-t="16:05" data-who="Brene Brown" data-en="So they're often picking emotions that are preventing their team for getting back on their feet after failure, disappointment, and setback. Because one of the things that you see, especially among CEOs today, is not if, but when there's a failure and a setback and a disappointment," aria-label="回原文"></button>。
+一旦边界封闭，组织就变成[[自我参照系统|自我参照系统]]——“我们好吗？好。需要了解更多吗？不用。”
 
-## 系统思维与「自我参照系统」
+她引用 MIT Sloan 刚发布的研究：AI 投资 90% 没有回报，很多就坏在这种自我参照上 <button class="pd-ts" data-t="18:22" data-who="Brown" data-en="You know, the MIT Sloan research that just came out. Investments in AI, 90% failure, no return on investment. And a lot of that is because of self-referencing systems." aria-label="回原文"></button>。
 
-前五名里还有一个她感叹正在高层领导者身上越来越少见的：**[[自我觉察|自我觉察]]**；
+她用少儿足球作比喻：五岁孩子见到高速飞来的球，会把脚抬到头那么高去踢，球直接飞出场外。
 
-以及**[[系统思维|系统思维]]**——健康系统的前提是可渗透的边界，让好的数据和反馈自由流入流出。
+有经验的球员会把球收进胸口，让球落地、踩住、抬头看全场，然后把球传到前锋“将要到达”的位置。
 
-一旦团队或组织失去边界的渗透性、不再持续引入外部和内部反馈，系统会变成「[[自我参照系统|自我参照系统]]」：我们做得好吗？棒极了。
+现在很多 CEO 就是那个五岁孩子。
 
-需要了解更多吗？我们什么都知道 <button class="pd-ts" data-t="18:10" data-who="Brene Brown" data-en="Two things happen to a system, whether we're talking about a cell or a tech team. You become a self-referencing system. And so what you end up doing is, are we good?" aria-label="回原文"></button>。
+她合作的一些 CEO 正在努力“把球停在胸口”：
 
-她引用 MIT Sloan 刚出的研究——对 AI 的投资 90% 失败、没有投资回报——并指出很大一部分原因就是自我参照系统。
+让 AI 战略对齐业务战略、给“带人一起转型”留够预算——但同时“怕得要死，因为所有人都在狂奔” <button class="pd-ts" data-t="20:45" data-who="Brown" data-en="And I'm trying to make sure that my budget line for bringing the humans along is also substantial. But I'm scared shitless because everyone else is moving so fast that I don't feel like I have time to settle the ball or look down the pitch." aria-label="回原文"></button>。
 
-你必须有勇气说：在这个环境里，我知道得很少 <button class="pd-ts" data-t="18:32" data-who="Brene Brown" data-en="And a lot of that is because of self-referencing systems. Like, you have to have the courage to say, in this environment, I know very little. In times of disruption, people try to persuade themselves all under control." aria-label="回原文"></button>。
+Brown 说，能坦白说出这句话的领导者，反而立刻赢得她的信任。
 
-## 把球停在胸口：在颠覆期「创造本不存在的时间」
+## 领导者今天的第一要务：在没有时间的地方造出时间
 
-对于「AI 变化太快、我吓得要死、没时间停下来思考」的 CEO,Brene 用了足球的比喻：五岁小孩看到高空来球会抬脚猛踢，球飞出场地；
+Hoffman 补了一句很关键的框定：你的优化目标不是“快速响应”，而是“智能地快速响应” <button class="pd-ts" data-t="24:22" data-who="Hoffman" data-en="And part of it is to realize that while it's moving very fast and you cannot create more time, your fitness function is not response at speed. Your fitness function is intelligent response at speed, right?" aria-label="回原文"></button>。
 
-成熟球员会把球停到胸口、控住、望向球场远处——不是前锋现在在哪，而是前锋**将会**在哪——然后把球踢向那里 <button class="pd-ts" data-t="19:41" data-who="Brene Brown" data-en="Both my kids played at that young age. As soccer players get more experience, what they end up doing when the ball comes in really high and fast is they take the ball into their chest." aria-label="回原文"></button>。
+这正是“紧迫感”和“有产出的紧迫感”、“冒险”和“战略性冒险”的区别。
 
-现在缺的正是这套技能：CEO 们在用尽全力朝头部高度猛踢。
+Brown 说，面对政治不稳定、技术剧变和市场变化，领导者在自我觉察之外的头号工作，是“在没有时间的地方创造时间” <button class="pd-ts" data-t="22:10" data-who="Brown" data-en="I want to see strategic risk-taking. It is the job of a leader today in this environment, given the political instability, technology, changing markets, I think the number one job outside of self-awareness of a leader today is to create time where none exists." aria-label="回原文"></button>。
 
-她的第一个回应是：
+顶尖运动员看起来像是在放慢比赛节奏，其实他们靠的是预判、时间和情境三种觉察力——橄榄球四分卫口袋里的那种感知力：
 
-任何有自知之明说出「我在努力停下来但坐立不安」的领导者，立刻赢得她的信任——因为当今世界发生的很多事，都在资深领导者的觉察范围之外 <button class="pd-ts" data-t="21:33" data-who="Brene Brown" data-en="I think the first thing is I so respect a leader who has a self-awareness to say, I'm trying to pause and be strategic and thoughtful and I'm coming out of my skin." aria-label="回原文"></button>。
+读一片你看不见的球场。
 
-第二个回应更根本：**在今天这个环境里，领导者除自我觉察之外的首要工作，是创造本不存在的时间**<button class="pd-ts" data-t="22:10" data-who="Brene Brown" data-en="I want to see strategic risk-taking. It is the job of a leader today in this environment, given the political instability, technology, changing markets, I think the number one job outside of self-awareness of a leader today is to create time where none exists." aria-label="回原文"></button>。
+她把这套能力总结为一个缩写梗：不需要 GSD（把事干完），需要 GSSD——把有战略意义的事干完 <button class="pd-ts" data-t="24:49" data-who="Brown" data-en="What I actually need is a GSSD, get strategic shit done. Yes. Because what you're seeing right now, and I'm curious if you're seeing this, you're seeing action over impact." aria-label="回原文"></button>。
 
-天赋运动员看起来让球慢了下来，其实并没有创造更多时间，而是拥有预判性意识、时间性意识和情境意识这组复杂技能——用橄榄球的话说叫「口袋感知」：
-
-读懂你看不见的球场。
-
-但要的是「有生产力的紧迫感」和「战略性的冒险」，不是速度本身：适应度函数不是「以速度响应」，而是「以速度做出智能响应」<button class="pd-ts" data-t="24:22" data-who="Brene Brown" data-en="And part of it is to realize that while it's moving very fast and you cannot create more time, your fitness function is not response at speed. Your fitness function is intelligent response at speed, right?" aria-label="回原文"></button>。
-
-她面试时听到「我是把事情搞定(GSD)型的人」的回答是：我不需要这个，我需要的是 GSSD——把战略性的事搞定。
-
-因为现在太多的是行动多于影响力。
+> 【背景】Brené Brown 是休斯顿大学的研究教授，以研究脆弱、勇气、羞耻著称，著有《Daring Greatly》等畅销书；Reid Hoffman 是 LinkedIn 联合创始人、Greylock 合伙人。Masters of Scale 是他主持的创业播客。
 
 ## 本集带走
 
-- **先找盔甲，再谈勇气**：阻碍勇气的不是恐惧本身，而是害怕时无意识的自我保护——完美主义、微管理、「过度果断」都是。多数人自己心里有数，但别去问下属。
-- **区分两种共情**：认知共情(倾听、回应、让人被看见)是关系与领导力的源代码；和对方一起沉溺情绪的情感共情导致倦怠。练习前者，警惕后者。
-- **扩充情绪词汇**：成年人平均只会认三种情绪，而情绪颗粒度需要 85 到 90 种。命名不了的就无法驯服，团队跌倒后也爬不起来。
-- **警惕自我参照系统**：不再引入外部反馈的组织会变成「我们很棒、我们什么都知道」的闭环——大部分 AI 投资失败正源于此。有勇气说「我知道得很少」。
-- **创造本不存在的时间**：球来了别朝头部高度猛踢，停在胸口、看清前锋将到的位置再传球。要的不是速度响应，而是智能响应——GSSD,不是 GSD。
+- 勇气不是天生性格，而是可教、可测的技能组合，核心是自我觉察。
+- 勇气的最大障碍不是恐惧，而是恐惧触发的“盔甲”——先弄清自己的默认盔甲是什么。
+- 分清认知共情（听懂并反映回去）与情感共情（跟着一起难受），前者是关系的源代码，后者导致倦怠。
+- 扩充情绪词汇量是硬技能：只有三个词（开心、难过、生气）远远不够。
+- AI 时代领导者的头号任务是“造出时间”：把球收进胸口再传，追求智能的快速响应，而不是单纯的动作快。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>18 条</span></div>
 
 > <span class="qz">我认为我这辈子可能最大的发现就是：勇气是可教的、可测量的、可观察的。</span>  
 > *I think the biggest finding possibly of my career has been that courage is teachable, measurable, and observable.*  
 > <span class="qm">—— Brené Brown · [03:51]</span> ^q1
 
-> <span class="qz">盔甲就是我们害怕时自我保护的方式，通常我们自己意识不到。</span>  
-> *It's how we self-protect when we're afraid that's usually out of our awareness.*  
-> <span class="qm">—— Brené Brown · [04:54]</span> ^q2
+> <span class="qz">如果你要列一个从不害怕的勇敢领导者名单，别把我列进去。我每天都在害怕。</span>  
+> *If you're going to make a list of brave leaders who are never afraid, don't put me on the list. I'm afraid every day.*  
+> <span class="qm">—— Brené Brown · [04:43]</span> ^q2
+
+> <span class="qz">盔甲。就是我们害怕时自我保护的方式，通常我们自己意识不到。</span>  
+> *Armor. It's how we self-protect when we're afraid that's usually out of our awareness.*  
+> <span class="qm">—— Brené Brown · [04:54]</span> ^q3
 
 > <span class="qz">因为那里存在权力落差，会让对方非常尴尬，没法精确描述你到底是怎么个混蛋法。</span>  
 > *Because there's a power differential there that could make it super cringey for that person to describe exactly how you're an asshole.*  
-> <span class="qm">—— Brené Brown · [06:01]</span> ^q3
+> <span class="qm">—— Brené Brown · [06:01]</span> ^q4
+
+> <span class="qz">如果你没有那样的洞察力或勇气去思考这个问题，我会质疑你领导别人的理智性。</span>  
+> *And if you don't have the insight or the courage to think about it, I question the sanity of you leading people.*  
+> <span class="qm">—— Brené Brown · [07:19]</span> ^q5
 
 > <span class="qz">那种共情，那种认知共情，不仅是人际关系的源代码，它还是民主的源代码，就是这样。</span>  
 > *That empathy, that cognitive empathy is not only the source code for relationships, it's the source code of democracy, period.*  
-> <span class="qm">—— Brené Brown · [09:56]</span> ^q4
+> <span class="qm">—— Brené Brown · [09:56]</span> ^q6
+
+> <span class="qz">那会导致倦怠。它实际上会削弱同情心。</span>  
+> *That leads to burnout. It actually minimizes compassion.*  
+> <span class="qm">—— Brené Brown · [10:17]</span> ^q7
+
+> <span class="qz">同情是非常勇敢的。同情是愿意行走在世界上，接受会有苦难存在，而当你看到苦难时，你愿意为此做点什么。</span>  
+> *Compassion is so brave. Compassion is the willingness to walk through the world and accept that there's going to be suffering and that when you see it, you're willing to do something about it.*  
+> <span class="qm">—— Brené Brown · [10:59]</span> ^q8
 
 > <span class="qz">共情是同情的一种工具。</span>  
 > *Empathy is a tool of compassion.*  
-> <span class="qm">—— Brené Brown · [11:22]</span> ^q5
+> <span class="qm">—— Brené Brown · [11:22]</span> ^q9
 
 > <span class="qz">情绪词汇库，这很难，因为我们的研究显示，这个国家的成年人能够命名并准确识别的情绪大约只有三种：快乐、悲伤和愤怒。</span>  
 > *Emotional lexicon, which is hard because our research shows that adults in this country can name and accurately identify about three emotions, happy, sad, and pissed off.*  
-> <span class="qm">—— Brené Brown · [12:01]</span> ^q6
+> <span class="qm">—— Brené Brown · [12:01]</span> ^q10
+
+> <span class="qz">我需要每个人靠自己站起来，因为我无法既纠正正在发生的事情，又提醒你自己的价值。</span>  
+> *I need everybody to get back up on their own because I cannot both correct what's happening and remind you of your value.*  
+> <span class="qm">—— Brené Brown · [16:18]</span> ^q11
 
 > <span class="qz">但治疗师们经常说一句话，那就是：如果你无法命名它，你就无法驯服它。</span>  
 > *But there is something that therapists often say, which is if you can't name it, you can't tame it.*  
-> <span class="qm">—— Brené Brown · [16:54]</span> ^q7
+> <span class="qm">—— Brené Brown · [16:54]</span> ^q12
+
+> <span class="qz">对 AI 的投资，90% 失败，没有投资回报。而其中很大一部分原因就是自我参照系统。</span>  
+> *Investments in AI, 90% failure, no return on investment. And a lot of that is because of self-referencing systems.*  
+> <span class="qm">—— Brené Brown · [18:22]</span> ^q13
 
 > <span class="qz">就是说，你必须有勇气去说，在这个环境里，我知道得很少。</span>  
 > *Like, you have to have the courage to say, in this environment, I know very little.*  
-> <span class="qm">—— Brené Brown · [18:32]</span> ^q8
+> <span class="qm">—— Brené Brown · [18:32]</span> ^q14
 
 > <span class="qz">你看到 CEO 和 C 级高管们用尽全力朝头部高度猛踢球，而不是把球停在胸口、控住球、喘口气、有战略地望向球场远处。</span>  
 > *You have CEOs and C-suite leaders kicking the ball at head height as hard as they can, not bringing the ball into their chest, settling the ball, taking a breath, looking strategically down the pitch.*  
-> <span class="qm">—— Brené Brown · [20:09]</span> ^q9
+> <span class="qm">—— Brené Brown · [20:09]</span> ^q15
 
-> <span class="qz">我要告诉你的第一件事是，任何有自知之明能说出那番话的人，立刻就会赢得我的信任。</span>  
-> *The first thing I would tell you is anyone that has the self-awareness to say that immediately gains my confidence.*  
-> <span class="qm">—— Brené Brown · [21:33]</span> ^q10
+> <span class="qz">但我吓得要死，因为其他所有人都动得太快，我觉得自己没有时间把球稳住或者看清整个球场。</span>  
+> *But I'm scared shitless because everyone else is moving so fast that I don't feel like I have time to settle the ball or look down the pitch.*  
+> <span class="qm">—— Brené Brown · [20:45]</span> ^q16
 
-> <span class="qz">在当今这个环境中，领导者今天的工作——除了自知之明之外——首要工作就是创造本不存在的时间。</span>  
-> *I think the number one job outside of self-awareness of a leader today is to create time where none exists.*  
-> <span class="qm">—— Brené Brown · [22:19]</span> ^q11
+> <span class="qz">在当今这个环境中，鉴于政治不稳定、技术、变化的市场，领导者今天的工作——除了自知之明之外——首要工作就是创造本不存在的时间。</span>  
+> *It is the job of a leader today in this environment, given the political instability, technology, changing markets, I think the number one job outside of self-awareness of a leader today is to create time where none exists.*  
+> <span class="qm">—— Brené Brown · [22:10]</span> ^q17
 
 > <span class="qz">我真正需要的是一个 GSSD,把战略性的破事干完。</span>  
 > *What I actually need is a GSSD, get strategic shit done.*  
-> <span class="qm">—— Brené Brown · [24:46]</span> ^q12
+> <span class="qm">—— Brené Brown · [24:46]</span> ^q18
 
 <div class="pd-sec">接着看</div>
 

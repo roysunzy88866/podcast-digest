@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]]**(05:07起):AWS 开源并维护的智能体框架（agentic harness），框架与模型解耦，三年前内部构建后开源；本集演示其 Python 版本自己写出了 TypeScript 版本。
+- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]]**(05:07起):AWS 开源并维护的智能体框架（agentic harness），框架与模型解耦，三年前内部构建后开源；本集演示其 Python 版本自己写出了 TypeScript 版本。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]] — 作为概念
+- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]] — 作为概念
 
 ## ③ 关联
 

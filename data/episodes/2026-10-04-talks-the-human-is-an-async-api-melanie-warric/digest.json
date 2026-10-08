@@ -1,51 +1,76 @@
 {
-  "title_zh": "把人类当成一个异步 API:智能体永不下线",
-  "tldr": "Temporal 演讲者用冰淇淋配送智能体演示，讲解如何用等待条件与信号实现人机协同与持久化执行。",
-  "digest_md": "这一集是一段技术演讲：讲者是 Temporal 的一位工程师(具体姓名未提及)，他带来一个冰淇淋配送演示——Ziggy(他们公司的吉祥物)的冰淇淋店要靠多个智能体协调配送——而真正想讲的核心命题是：**在智能体系统里，「人类」应该被当作一个异步 API 来调用，而且这套系统必须具备持久化执行能力，服务挂了也不能丢状态。**\n\n## 演示在演什么：三个智能体送冰淇淋\n\n开场 demo 里，配送由三个智能体协同完成：一个车队智能体(用 Google Maps 研究司机)、一个客户智能体(用 Google Search 研究订单)、一个调度智能体(接收前两者的输出做决策)。底层是 Google 的 ADK(一个编排多个智能体的框架)与 Temporal 的集成——Temporal 负责追踪和管理整个流程的状态，并提供一个 UI 展示事件历史。\n\n演示里最出彩的一幕是「人类在环」：客户提交一笔订单变更，系统**只暂停这条订单对应的那个环节**，等另一个人点「批准」，其余订单照常进出、配送照常进行。\n\n## Temporal 的三个原语：worker、workflow、activity\n\nTemporal 是软件也是服务，支持 Python、TypeScript、Rust,在 GitHub 上免费开源；如果用它托管服务来管理状态才付费，也可以自行部署。它解决的是任何分布式系统都绕不开的问题：把故障处理和状态管理标准化。\n\n三个核心原语的分工:\n- **worker**:真正运行代码的地方;\n- **workflow**:跟踪系统中各步骤的地方，智能体的循环就跑在 workflow 里，它是**确定性**的;\n- **activity**:所有与外部交互的东西——模型调用、工具调用都设成 activity,它是**非确定性**的。\n\n对 ADK 的集成方式很轻：用 temporal model 类包住模型、用 activity tool 包住工具，再给 worker 传一个 Google ADK 插件即可。对 LangGraph(通过构建图来搭建多智能体的框架)则是把 Temporal 传进图的每个节点：模型调用和工具调用设为 activity,流程中的一个步骤设为 workflow,并用 LangGraph 自带的 interrupt(中断)从节点里调用出去。讲者特别强调 Temporal 对框架不设限，demo 里就是 ADK 跑客户与车队智能体、LangGraph 跑调度智能体，Temporal 贯穿其中。\n\n## 核心方法：等待条件 + 信号 = 人类是异步 API\n\n这是全场最想传达的东西。如果你直接把「呼叫人类」写成一个函数调用，它会变成一个**阻塞调用**——服务一旦挂了，这个人类的参与过程就追踪丢了。\n\n正确做法是用两个核心原语:\n- **wait condition(等待条件)**：隔离出某个事件，暂停那个特定的 workflow——注意只暂停它，不占线程，workflow 上的其他协程和系统里其他 workflow 照常跑;\n- **signal(信号)**：可以在任意时刻接受任意输入，注入到正在运行的 workflow 中，相当于人类回话后「喏，结果在这儿，继续往前推」。\n\n这套机制自带给超时等内置原语——等人类回应时可以设「最多等多久」;而且能扩展到数百万个挂起的 workflow。\n\n**服务挂了也不怕**，这是持久化执行的杀手锏。demo 里讲者当场杀掉 worker,趁离线点下「批准」：因为状态存在 Temporal 自己的数据存储里、不在你的服务上，事件照样被跟踪和排队；worker 重新上线后，事件日志被**重放**(replay)——注意不是重新执行，只是重放到上次中断的地方，系统就知道「这是我的当前状态」，然后批准生效、订单分配、顺利送达。暂停可以横跨任意长的时间——「人类不会在 200 毫秒内回应」，可能是几分钟、几天甚至几周，都无所谓，因为被暂停的只是那一个特定事件。\n\n## 那到底什么时候该让人在环？\n\n讲者说这才是真正难的问题，答案是逐案例评估，核心判据是**犯错的代价高不高**，尤其从安全角度衡量。另一面是真实存在的「警报疲劳」——很多人被问多了就开始一味点「好、好、好」，所以要在两者之间找平衡。模型是概率性的，很难达到完全可靠，所以这个权衡得针对你解决的具体问题自己评估。\n\n最后收束全场：不管是人发起还是机器发起，套路都是同两个原语——等待条件暂停 workflow,人类信号让工作继续。\n\n## 本集带走\n\n- **别把「问人类」写成普通函数调用**：那是阻塞调用，服务一崩参与过程就丢。用「等待条件 + 信号」两个原语替代——前者暂停特定 workflow,后者随时把人类的回应注入正在运行的流程。\n- **只暂停出问题的那一格**：一笔订单变更只冻结该订单的子 workflow,其余订单和配送照常跑，等待可以横跨几分钟到几周。\n- **状态放在你的服务之外**：持久化层在独立数据存储上，worker 被杀、服务下线都不丢事件；恢复时靠重放事件日志(不是重新执行)回到中断点，排队中的批准自动生效。\n- **框架可以混用**:ADK 跑一部分智能体、LangGraph 跑另一部分，模型调用/工具调用设为非确定性的 activity,流程步骤设为确定性的 workflow,Temporal 负责贯穿追踪状态。\n- **人在环的判据是「犯错的代价」**：代价高的环节加人审，同时警惕警报疲劳，逐案例权衡，别一刀切追求全自主。",
+  "title_zh": "人是一个异步接口:冰淇淋配送背后的智能体架构",
+  "tldr": "Temporal 的 Melanie Warrick 用一个冰淇淋配送演示,讲清了多智能体系统里人类该何时介入、系统该怎么兜底。",
+  "digest_md": "演讲者 Melanie Warrick 来自 Temporal 公司。她没有讲玄乎的概念,而是现场演示了一个冰淇淋配送系统:多个智能体协同调度,人类随时插手改单,甚至当众把服务杀掉再重启,订单照样不丢。整场演讲的核心观点藏在她那句标题里——人在智能体系统里,应该被当成一个异步接口来对待。\n\n## 冰淇淋配送是怎么跑起来的?\n\n演示的主角是吉祥物 Ziggy,假设它在旧金山 Ferry Building 开了一家冰淇淋店。配送由3个智能体协同完成：车队智能体负责查司机和路线(用 Google Maps),客服智能体负责查订单(用 Google Search),调度智能体则综合这些输入做决策 [05:11]。\n\n这套系统把 Google 的 ADK(一个用来编排多智能体的框架)和 Temporal 集成在一起。Temporal 负责记录和管理整个系统的状态,并提供一个界面,让你能看到每个事件的来龙去脉。\n\n## 客户改单,系统为什么不用停下来?\n\n现场演示了一个常见场景:客户下单后突然反悔,提交了一个修改。此时系统只暂停了这一个订单对应的司机,其他订单照常接收、照常配送。另一个人(比如客服)审核后点批准,更新就生效了,那辆车继续开往 Oracle Park [02:56 Unknown]。\n\n这里的关键在于:一次人工介入只暂停系统的很小一部分,而不是把整个流程卡死。这就是她说的持久执行(durable execution)。\n\n## 为什么直接调用人类是坑?\n\n进入正题。她说,人类当然不是工具,但对智能体来说,人就是一个工具 [07:29 Unknown]。麻烦在于,如果你在代码里直接写一个函数去调用人类,就会产生一个阻塞式调用:系统停在那里等人回话。更糟的是,如果这时候服务挂了,这个等待中的人工交互就丢了,系统不知道自己进行到哪一步。\n\n她给的答案是两个原语:等待条件(wait condition)和信号(signal)。用等待条件把某个事件单独隔离并暂停,状态存进持久层;等人类回复时发一个信号进来,注入正在运行的流程 [08:09 Unknown]。这样即使系统崩溃重启,它也知道从哪里继续,而且不占用线程。\n\n这些能力是现成的，还内置超时等机制——如果你在等一个人类回应，想确保它只等待有限的时间，就可以应用超时和其他原语。她说这套东西可以扩展到数百万个暂停中的流程同时挂着 [09:13 Unknown]。\n\n## 当众杀掉服务,订单还能恢复吗?\n\n第二个演示更大胆。她丢进一个高价值订单,系统按设计让调度智能体暂停,等人来批准。人类的反应时间是几分钟、几天甚至几周,但那只车流照常跑着 [14:46 Unknown]。\n\n然后她直接执行了 kill worker,把服务下线。趁着离线状态,她点了批准。再把服务拉起来——事件日志被重放(不是重做),系统恢复到崩溃前的状态,知道有人已经批准,订单立刻分配出去,甚至已经送到了 [16:00 Unknown]。\n\n架构上她故意混用了两个框架:客服和车队智能体跑在 ADK 上,调度智能体跑在 LangGraph 上。她想强调 Temporal 是框架无关的,哪个都能接 [12:00 Unknown]。\n\n## 到底什么时候该让人介入?\n\n这是全场最诚实的一段。她承认这是个难题,没有公式,只能逐案判断。**核心标准是:出错的代价有多高** [16:50 Unknown]。\n\n一边是风险——模型本质上是概率性的,很难做到完全可靠,尤其是安全相关的事,值得人把一道关。另一边是警报疲劳——如果系统事事都来问你,你就会开始无意识地一路点是、是、是,人工审核形同虚设。她建议在这两者之间权衡,并且坦承模型还在变好,但眼下仍是概率模型 [17:18 Unknown]。\n\n无论由人发起还是由智能体发起介入,底层做法都一样:等待条件暂停流程,人类的信号让它继续往前走。\n\n## 本集带走\n\n- 把人当成智能体系统里的异步接口:等待条件暂停、信号恢复,不要写阻塞式的调用人类。\n- 人工介入只应暂停系统的一小部分,其余流程照常运行。\n- Temporal 的三个核心原语:worker(跑代码)、workflow(跟踪步骤,确定性)、activity(外部交互,非确定性),支持 Python、TypeScript、Rust。\n- 系统崩溃后靠事件日志重放恢复状态,不是从头重做——她现场杀掉服务做了验证。\n- 是否让人介入,看出错的代价有多大,同时警惕什么都问导致的警报疲劳。",
   "quotes": [
     {
       "en": "I'm here to talk to you about the human is an async API.",
-      "zh": "我今天要和你们讲的是：人类是一个异步 API。",
+      "zh": "我今天要讲的主题是：人类就是一个异步 API。",
       "timestamp": "03:35",
       "speaker": "Melanie Warrick"
     },
     {
+      "en": "So the human, granted, we're not tools, but we are a tool to the agent.",
+      "zh": "所以人类，没错，我们不是工具，但对智能体来说我们是一个工具。",
+      "timestamp": "07:29",
+      "speaker": "Melanie Warrick"
+    },
+    {
       "en": "You can have millions of workflows out there parked, and it can keep running.",
-      "zh": "你可以让数百万个 workflow 挂在那里，它还能继续运行。",
+      "zh": "你可以让数百万个工作流挂在那里，它还能继续运行。",
       "timestamp": "09:14",
       "speaker": "Melanie Warrick"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
       "timestamp": "03:35",
       "speaker": "Unknown",
       "en": "I'm here to talk to you about the human is an async API.",
-      "zh": "我今天要和你们讲的是：人类是一个异步 API。"
+      "zh": "我今天要讲的主题是：人类就是一个异步 API。"
     },
     {
-      "timestamp": "05:38",
+      "timestamp": "07:29",
       "speaker": "Unknown",
-      "en": "But what's important is that we need to have some durability in that system to make sure that it stays up and running and doesn't fall over.",
-      "zh": "但重要的是，我们需要在那个系统中拥有一定的持久性，以确保它保持运行而不会崩溃。"
+      "en": "So the human, granted, we're not tools, but we are a tool to the agent.",
+      "zh": "所以人类，没错，我们不是工具，但对智能体来说我们是一个工具。"
+    },
+    {
+      "timestamp": "07:51",
+      "speaker": "Unknown",
+      "en": "It can become a blocking call.",
+      "zh": "它可能会变成一个阻塞调用。"
     },
     {
       "timestamp": "08:09",
       "speaker": "Unknown",
       "en": "You want a wait condition and a signal.",
-      "zh": "你想要的是一个等待条件和一个信号。"
+      "zh": "你想要的是一个等待条件（wait condition）和一个信号（signal）。"
+    },
+    {
+      "timestamp": "08:31",
+      "speaker": "Unknown",
+      "en": "And you could send a signal at any point, but the whole system could keep running without you necessarily being blocked on that one call to the human.",
+      "zh": "而且你可以在任何时刻发送信号，但整个系统可以继续运行，而不必阻塞在那一通对人类的调用上。"
     },
     {
       "timestamp": "08:54",
       "speaker": "Unknown",
       "en": "You basically, you're not holding a thread.",
-      "zh": "基本上，你不占着一个线程。"
+      "zh": "基本上，你不需要占住一个线程。"
+    },
+    {
+      "timestamp": "08:56",
+      "speaker": "Unknown",
+      "en": "It's going to survive any kind of crashes.",
+      "zh": "它能在任何类型的崩溃后存活下来。"
     },
     {
       "timestamp": "09:14",
       "speaker": "Unknown",
       "en": "You can have millions of workflows out there parked, and it can keep running.",
-      "zh": "你可以让数百万个 workflow 挂在那里，它还能继续运行。"
+      "zh": "你可以让数百万个工作流挂在那里，它还能继续运行。"
     },
     {
       "timestamp": "12:00",
@@ -57,7 +82,7 @@
       "timestamp": "12:35",
       "speaker": "Unknown",
       "en": "This is determinism and non-determinism in terms of workflows are deterministic, activities are non-deterministic.",
-      "zh": "这就是确定性与非确定性——workflow 是确定性的，activity 是非确定性的。"
+      "zh": "这就是确定性与非确定性——工作流是确定性的，活动是非确定性的。"
     },
     {
       "timestamp": "14:42",
@@ -75,7 +100,7 @@
       "timestamp": "16:00",
       "speaker": "Unknown",
       "en": "And you'll notice that the dispatch agent will, what's happening is that your event log is getting replayed.",
-      "zh": "你会注意到，调度智能体会——现在发生的是你的事件日志正在被重放。"
+      "zh": "而且你会注意到，调度智能体——现在发生的是你的事件日志正在被重放。"
     },
     {
       "timestamp": "16:05",
@@ -87,13 +112,7 @@
       "timestamp": "16:29",
       "speaker": "Unknown",
       "en": "Your system can come down and it can recover.",
-      "zh": "你的系统可以宕机并且可以恢复。"
-    },
-    {
-      "timestamp": "16:46",
-      "speaker": "Unknown",
-      "en": "This is the real question.",
-      "zh": "这才是真正的问题。"
+      "zh": "你的系统可以宕机，并且可以恢复。"
     },
     {
       "timestamp": "16:50",
@@ -111,19 +130,19 @@
       "timestamp": "17:18",
       "speaker": "Unknown",
       "en": "And we know, like on the other side of this picture, alert fatigue is real.",
-      "zh": "而且我们知道，就像在这幅图景的另一面，警报疲劳是真实存在的。"
+      "zh": "而且我们知道，在这幅图景的另一面，警报疲劳是真实存在的。"
+    },
+    {
+      "timestamp": "17:21",
+      "speaker": "Unknown",
+      "en": "Like a lot of us are seeing, you know, you just start saying yes, yes, yes, yes, yes, every time it asks you questions.",
+      "zh": "就像我们很多人看到的那样，每当它问你问题时，你就开始一味地说好、好、好、好、好。"
     },
     {
       "timestamp": "17:34",
       "speaker": "Unknown",
       "en": "But they're still probabilistic models.",
       "zh": "但它们仍然是概率性模型。"
-    },
-    {
-      "timestamp": "18:44",
-      "speaker": "Unknown",
-      "en": "But yeah, if you have questions, please reach out and have fun building your agentic loops.",
-      "zh": "如果你们有问题，请随时联系我，祝你们构建自己的智能体循环愉快。"
     }
   ],
   "voice_script": "今天这期是一场技术演讲，讲的是智能体系统里一个特别实际的问题：怎么让人参与到机器的自动化流程里，而且服务挂了也不丢状态。讲的人是 Temporal 的一位工程师，Temporal 是一家做持久化执行的公司——说白了，就是让你的程序不管怎么崩、怎么重启，状态都能找回来。这场演讲有个非常有意思的命题，原话是：人类是一个异步 API。听起来有点抽象，别急，我用一个冰淇淋配送的例子，把这条线给你讲明白。\n\n先说演示在演什么。Temporal 公司有个吉祥物叫 Ziggy,演示就设定成 Ziggy 的冰淇淋店，要靠多个智能体协调配送。具体是三个智能体：一个车队智能体，用 Google Maps 去研究司机；一个客户智能体，用 Google Search 去研究订单；还有一个调度智能体，接收前两者的输出，做最终决策。底层用 Google 的 ADK,那是一个编排多个智能体的框架，再和 Temporal 集成。Temporal 负责追踪和管理整个流程的状态，还提供一个界面，能看到完整的事件历史。\n\n演示里最出彩的一幕，是人类在环。客户提交了一笔订单变更，系统并没有停下来等人工处理，而是只暂停这笔订单对应的那个环节，等另一个人点一下批准。注意，只有这一个环节被冻结，其他订单照常进出，配送照常进行。\n\n那这个能力是怎么实现的？这里得先交代一下 Temporal 的三个核心原语。第一个叫 worker,就是真正运行代码的地方。第二个叫 workflow,是跟踪系统中各个步骤的地方，智能体的循环就跑在这里面，它是确定性的。第三个叫 activity,所有和外部打交道的东西都放这里——模型调用、工具调用，都属于 activity,它是非确定性的。对框架的集成方式也很轻：比如对 ADK,用一个类把模型包起来、用工具包装住工具，再给 worker 传一个插件就行；对 LangGraph——就是那种通过构建图来搭建多智能体的框架——则是把 Temporal 传进图的每个节点。而且演讲者特别强调，Temporal 对框架不设限，demo 里就是 ADK 跑客户和车队智能体，LangGraph 跑调度智能体，Temporal 贯穿其中。\n\n好，铺垫完了，就引出全场最想传达的核心：怎么正确地让人类参与进来。直觉上，你可能会把呼叫人类写成一个普通的函数调用——但这就坏事了。这会变成一个阻塞调用，服务一旦挂掉，这个人参与的过程就彻底追踪丢了，状态没了。\n\n正确的做法是用两个原语。第一个叫等待条件，它的作用是把某个事件隔离出来，暂停那一个特定的 workflow——注意，只暂停它，不占线程，同一个流程里的其他协程、系统里其他 workflow,都照常跑。第二个叫信号，它可以在任意时刻接受任意输入，注入到正在运行的流程里。相当于人类回话之后说一句：喏，结果在这儿，继续往前推。\n\n那服务中途挂了怎么办？这正是持久化执行的杀手锏。演示里，演讲者当场把 worker 杀掉，趁离线的时候点了批准。因为状态存在 Temporal 自己的独立数据存储里，不在你的服务上，所以事件照样被跟踪、排队。等 worker 重新上线，事件日志会被重放——注意这个词，是重放，不是重新执行，只是重放到上次中断的地方，系统就知道这是我的当前状态。然后批准生效，订单分配，顺利送达。而且暂停可以横跨任意长的时间。用演讲者的话说，人类不会在两百毫秒内回应，可能是几分钟、几天甚至几周，都无所谓，因为被暂停的只是那一个特定事件。他还说了一句：你可以让数百万个 workflow 挂在那里，它还能继续运行。\n\n讲到这儿，自然会引出最后一个问题：那到底什么时候才该让人在环？演讲者说，这才是真正难的问题，没有标准答案，要逐案例评估。核心判据就一条：犯错的代价高不高，尤其是从安全角度衡量。但另一面，还有一个真实存在的坑，叫警报疲劳——问人问得太频繁，人就开始一味地点好、好、好，审核就形同虚设了。所以要在两者之间找平衡。模型是概率性的，很难做到完全可靠，这个权衡只能针对你解决的具体问题自己评估。\n\n所以你看，最后收束全场，其实就一句话：不管是人发起还是机器发起，套路都是同两个原语——等待条件把流程暂停，人类信号让工作继续。把人类当成一个异步 API,智能体才能真正永不下线。"

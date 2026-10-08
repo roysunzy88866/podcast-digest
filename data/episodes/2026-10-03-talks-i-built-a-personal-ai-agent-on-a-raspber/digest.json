@@ -1,99 +1,124 @@
 {
-  "title_zh": "把 AI 智能体塞进树莓派:给它装上图数据库记忆",
-  "tldr": "Neo4j 的 Jeremy Adams 现场演示:一台旧树莓派跑个人 AI 智能体,接 WhatsApp、连 Claude,再用图数据库给智能体装上可查询的记忆。",
-  "digest_md": "这一集是 Neo4j 的 Jeremy Adams 在 AI Engineer 大会上的一场现场演示演讲——Neo4j 是做图数据库的公司,他本人在里面做开发者关系(DevRel)。他讲的是一个副业项目:把自己的一台旧树莓派(Raspberry Pi,一种信用卡大小的廉价小电脑)改造成一个随身携带的个人 AI 智能体,还现场从包里掏出设备、接电、开机给大家看。最抓人的点是:这个挂在脖子上、几十美元的小设备,跑着一个真正的智能体——脑子在云端,身体在你身上,还带着一个用图数据库搭起来的「记忆系统」,连展会 Wi-Fi 断了都能照常干活。\n\n## 为什么不放在笔记本上:他要的是「小而透明」\n\n市面上个人智能体的炒作很多,但 Adams 明确说他不想要一个装在笔记本电脑里的。他自称来自老式的系统管理员/DevOps 世界,偏保守,想等这些东西真正稳固了再往主力机上装 [06:13 Jeremy Adams]。他的需求清单是:便宜、开放、可折腾,而且——比功能丰富更重要的——**他要能理解这东西到底在干什么** [06:33 Jeremy Adams]。\n\n他先在 Craigslist(分类信息网站)上看到有人卖预装了 OpenClaw 的 Mac Mini,直接被「预装」两个字劝退,觉得那是个危险信号,而且涨价之后也不便宜了。于是他翻出柜子里那台疫情时期拿来做过「称水槽碗碟重量提醒洗碗」实验的树莓派 4B,心想:它能跑智能体吗?试了试——跑得相当好 [07:25 Jeremy Adams]。\n\n软件他没选 OpenClaw,选了另一个更合口味的项目 **NanoClaw**:只有约 15 个源文件,代码量很小,最关键的是**用 Docker 容器来跑智能体进程,这样它们就没法在系统里横冲直撞** [08:18 Jeremy Adams]。它基于 Claude Agent SDK,官方还鼓励你去改代码、加技能(skills)、按自己的需求折腾。消息通道他选了 WhatsApp,因为手机上本来就有。\n\n> 【背景】Claude Agent SDK 是 Anthropic 提供的智能体开发工具包。\n\n## 架构:脑子在云端,身体在脖子上\n\n初始架构简单得出奇:iPhone 或 MacBook 上发 WhatsApp 消息 → 云端 → 树莓派上的 NanoClaw,就这一条链路,只需要注册一个凭证。板子上跑着 Docker,里面还装了一个 Neo4j 数据库。\n\n要点是:**这块板子上不跑任何 LLM 推理**——所有模型调用全走云端 [09:19 Jeremy Adams]。用他的话说,他有一个大脑袋,只不过是通过一根线连到云端的 [09:25 Jeremy Adams]。这也是这套方案能在如此弱的硬件上跑通的关键:树莓派只负责编排、存储和设备 IO,重活全交给云。\n\n## 图数据库记忆:从电影查询到 POLE+O\n\n对没接触过图的观众,他给了个快速入门:图就是节点(圆形,比如「人」「电影」)加边(它们之间的关系,比如「出演了」「导演了」)。Tom Hanks 出演了《阿甘正传》,Robert Zemeckis 导演了它——两个 person 节点、一个 movie 节点,三条边,这就是图。\n\n他把一个装满电影数据的 Neo4j(云端实例)接上智能体，在 WhatsApp 里问「Tom Hanks 出演过哪些电影」，智能体通过一个 MCP 服务器(让智能体调用外部工具/数据的标准接口)连进数据库查询再回话——第一次还先回复说「你那边的配置坏了」，他修好认证之后就拿到了正确结果 [10:32 Jeremy Adams]。\n\n真正的转折发生在飞机上:他发现不买机上 Wi-Fi 也能用 WhatsApp 的消息功能,立刻意识到自己随时能和云端智能体对话 [10:57 Jeremy Adams],于是当场发消息让它搭一个记忆系统。他用了 POLE+O 这套建模法——把记忆组织成人物、物体、地点、事件、组织五类节点——这套方法源自欧洲警务系统,警匪剧里那张人物关系图就是这么画的 [11:18 Jeremy Adams]。智能体当场写了个 skill,还提醒他数据挂在持久化挂载点上,重启也不会丢。\n\n从此他去参加各种开发者活动,智能体都替他记录:去了哪儿、和谁聊了什么。在 Neo4j 的浏览界面里放大看,能看到「去了门洛帕克的 Snowflake 办公室→参加某个 AI 聚会→和 Rebecca、Jeremy 这些人交谈」这样连成一片的记忆图谱。\n\n## 离线模式与展位巡游:真硬件才有真问题\n\n为了让演示更狠,他给自己加了一个任务:带着设备一个展位一个展位地走,录下各家展位的宣传信息。于是问题来了——**会议 Wi-Fi 通常很糟糕,所以他必须做离线模式** [15:31 Jeremy Adams]。他的解法是把 Neo4j 直接跑在树莓派本地:离线时用正则表达式从语音转文字里解析出展位号,写查询插进本地库,联网后再上传云端做丰富化处理。他还自己焊了个接在树莓派引脚上的实体按钮来触发录音——演示当天按钮都掉下来了,他捏着线头照样录了一句「我现在真的在 AI Engineer 大会的舞台上做着我准备了很久的演讲」。\n\n巡游的数据后来真挖出了东西:他把各家展位的笔记清洗后存进云端 Neo4j,发现参展商可以连到「评估与可观测性」这样的主题节点上——BuildKite、LangChain 都挂在这个主题下。他的结论是:**自己生成了一些可能是全新的、别人都没有的知识** [17:57 Jeremy Adams]——一段没人整理过的、大会主题的图谱。\n\n## 记忆的第二次升级:把全部聊天记录变成图谱\n\n演讲最后他提到,后来又用 Neo4j 的智能体记忆服务把系统升级了一轮:把自己历史上所有的 WhatsApp 消息全部导入,让服务从对话中蒸馏提炼出一堆记忆,再按人、地点、概念等维度组织好 [18:55 Jeremy Adams]。这些记忆现在可以通过一个 MCP 服务器从这只「爪子」上直接访问——也就是说,这个挂在胸前的树莓派,已经带着他全部社交记忆在跑 [19:17 Jeremy Adams]。\n\n## 本集带走\n\n- **弱硬件 + 云端大脑是随身智能体的现实解法**:树莓派上不跑任何 LLM 推理,只做编排、存储和设备 IO,模型调用全走云,几十美元的设备就能跑真智能体。\n- **用容器圈住智能体**:他选 NanoClaw 就因为智能体进程全跑在 Docker 容器里,坏不了宿主机——对不想把智能体放上主力机的人,这是低风险的入门方式。\n- **记忆用图来建:POLE+O 五类节点**(人物/物体/地点/事件/组织),源自欧洲警务的关系图方法;智能体自己就能写成 skill,配合 MCP 服务器随时查询。\n- **离线兜底思路**:本地跑一个数据库,离线时用正则从语音转文字里抠出结构化信息先存本地,联网后再上传云端做丰富化。\n- **图谱能挖出新知识**:把散落的现场笔记连到主题节点后,他发现了各家公司共享的主题聚类(如「评估与可观测性」)——这是把记忆结构化之后才可能出现的洞察。",
+  "title_zh": "把 AI 助手挂在脖子上：一块树莓派的随身记忆实验",
+  "tldr": "Neo4j 的 Jeremy Adams 演讲：用一块 Raspberry Pi 4B 挂在胸前，做一个便宜、可折腾的个人 AI 智能体。",
+  "digest_md": "来自 Neo4j 的 Jeremy Adams 在 AI Engineer 大会上做了一个相当“活”的现场演示：他从口袋里掏出电池、插上麦克风、接好视频采集线，当场启动挂在自己胸前的一台 Raspberry Pi 4B，讲他如何用这块小主板搭出一个带长期记忆的个人 AI 助手。整个过程像一个爱折腾的老系统管理员的手记——便宜、开放、能自己看懂每一行代码，比功能丰富更重要。\n\n## 为什么不直接用笔记本电脑跑？\n\nJeremy 的态度很明确：他对那些跑在笔记本电脑上的个人智能体不放心。他来自老派的系统管理员和运维圈子，习惯等一项技术足够成熟再上手。他还在 Craigslist 上看到有人卖预装了 OpenClaw 的 Mac Mini，他的第一反应是“预装？这本身就是个危险信号”，而且涨价之后 Mac Mini 也不再便宜。\n\n他想要的东西有四个特点：**便宜、开放、可折腾，而且能看懂内部在干什么**。于是他想起了衣柜里那台疫情期间玩过的树莓派，决定试试。“它到底能不能跑智能体？我不知道。我应该试一下看看。”结论是：跑得很好。\n\n## 小小的“爪子”到底装了什么？\n\n这块 Raspberry Pi 4B 不是最新型号，但足够用。他一开始甚至跑了很久 32 位系统，后来才发现它支持 64 位 ARM。上面装了 Docker，跑着容器化的 Neo4j 图数据库，还有他选定的智能体框架 NanoClaw——他没用更出名的 OpenClaw，而是选了这个只有大约 15 个源文件的项目，代码量小，用 Docker 容器跑智能体进程，防止它们在系统里乱来。它基于 Claude Agent SDK，鼓励用户修改和扩展。\n\n整个架构其实很朴素：手机上的 WhatsApp 发消息，树莓派上的 NanoClaw 接收处理，**真正的语言模型推理全部发生在云端**。用他的话说，大脑很大，“只不过这个大脑是通过一根线连到云端的”。树莓派本地不做任何推理。\n\n## 图数据库到底是什么？\n\n给没用过图的读者补一句：**图数据库就是用圆圈和连线存数据**。圆圈叫节点，连线叫关系。比如“Tom Hanks（人）参演了《阿甘正传》（电影）”，就是两个节点加一条边。就这么简单，现在你懂图了。\n\n他的第一个实验是让 WhatsApp 里的助手查询云端的 Neo4j 电影库。第一次问“Tom Hanks 演过什么电影”，助手居然先回他：你的配置有问题，认证没弄好。修好之后，答案才正常返回。整个过程通过一个 MCP 服务器连进数据库，再把结果拼成回复送回 WhatsApp。\n\n## 在飞机上，没有 Wi-Fi，做出了记忆系统\n\n最有意思的一段发生在飞机上。他发现即使不买机上 Wi-Fi，WhatsApp 消息照样能发——也就是说，他可以在三万英尺上跟胸前的助手对话。于是他开始琢磨记忆这件事。\n\n他采用的框架叫 POLE+O，说穿了就是五类东西：人物、物体、地点、事件、组织。这个框架来自欧洲警务系统——警匪剧里侦探在墙上钉照片、拉红线的那块板子，本质上就是一张图。他让助手当场写一个技能，把这五类实体存进 Neo4j，重启也不丢。“我说，这太神奇了。”\n\n从此他去参加各种开发者活动，去过的地点、聊过的人、参加的活动，都自动变成了图上的节点：去过 Menlo Park 的 Snowflake 办公室，Menlo Park 本身是一个地点节点，活动是另一个节点，人和事全部连在一起。\n\n## 挂着它逛展位，居然逛出了新知识\n\n大会前他又加了一样东西：USB 麦克风加语音转文字，还焊了一个物理按钮触发录音。他的计划是挂着这台设备在会场里一个展位一个展位地逛，把各家的宣传语录下来。\n\n考虑到会场 Wi-Fi 通常靠不住，他做了一个离线模式：把 Neo4j 直接跑在胸前的树莓派上，离线时用正则表达式从语音转文字的结果里解析出展位号，写进本地数据库，回头有网了再同步到云端。他还顺手写了一个叫 Cypher Shell Browser 的小工具，不用昂贵的图形界面就能查询数据库。现场演示时，他真的查出了 Microsoft 等展商的原始笔记。\n\n真正的惊喜在云端。他把逛展收集的数据导入后做了关联分析，发现展商们可以按主题连成网络：BuildKite 和 LangChain 都挂着“评估与可观测”这个主题节点。他说，这一刻他“**实际上生成了一些可能是新的、也许没有任何人掌握过的知识**”——整个会场的展商格局，被一台挂在他脖子上的树莓派画成了一张图。\n\n## 下一步：把全部聊天记录变成可检索的记忆\n\n演讲结尾他提到，后来用 Neo4j 的 agent memory service 把自己历年的 WhatsApp 对话全部导入，系统自动把这些对话蒸馏成结构化的记忆——聊过的人、去过的地点、讨论过的概念，全部可以通过 MCP 服务器被胸前的这台设备随时查询。一个人的对话史，变成了一张可浏览的记忆图谱。\n\n## 本集带走\n\n- 个人 AI 助手不一定要跑在笔记本电脑上：一块 Raspberry Pi 4B 加 WhatsApp 加云端模型，就是一套便宜、开放、看得见内部逻辑的方案。\n- 大脑和身体可以分离：树莓派只负责消息通道和本地存储，语言模型推理全在云端。\n- POLE+O（人物、物体、地点、事件、组织）来自欧洲警务的线索分析法，很适合做智能体的长期记忆结构。\n- 离线模式很关键：会场、飞机上 Wi-Fi 靠不住，本地跑一个数据库，回头再同步。\n- 逛展位录下来的零散笔记，经过图数据库关联之后，能提炼出别人没有的全局知识。",
   "quotes": [
     {
-      "en": "So I've got a big brain, though it's over a wire to the cloud, right?",
-      "zh": "所以我有一个大脑袋,只不过它是通过一根线连到云端的,对吧?",
-      "timestamp": "09:25",
+      "en": "And for me, I wanted to understand what was happening more than it being feature-rich.",
+      "zh": "对我来说，我更想理解发生了什么，而不是它功能丰富。",
+      "timestamp": "06:33",
       "speaker": "Jeremy Adams"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
+    {
+      "timestamp": "06:13",
+      "speaker": "Jeremy Adams",
+      "en": "Well, there was a lot of hype happening and still is about these personal agents, but I did not want one that was on my laptop.",
+      "zh": "嗯，当时有很多关于这类个人智能体的炒作，现在也还有，但我不想要一个装在我笔记本电脑上的。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Jeremy Adams",
+      "en": "I'm like, I want to wait for this stuff to be really solid before I do something like that.",
+      "zh": "我就是那种，想等这些东西真正稳固之后再去搞这种事的人。"
+    },
     {
       "timestamp": "06:33",
       "speaker": "Jeremy Adams",
       "en": "And for me, I wanted to understand what was happening more than it being feature-rich.",
-      "zh": "对我来说,我更想理解这东西到底在发生什么,而不是它功能有多丰富。"
+      "zh": "对我来说，我更想理解发生了什么，而不是它功能丰富。"
     },
     {
-      "timestamp": "08:18",
+      "timestamp": "06:48",
+      "speaker": "Jeremy Adams",
+      "en": "That's a red flag.",
+      "zh": "那是个危险信号。"
+    },
+    {
+      "timestamp": "07:57",
       "speaker": "Jeremy Adams",
       "en": "It just used Docker containers to run the agent processes so they couldn't run amok on the system.",
-      "zh": "它只是用 Docker 容器来运行智能体进程,这样它们就没法在系统里横冲直撞。"
+      "zh": "它只是用 Docker 容器来运行智能体进程，这样它们就没法在系统里横冲直撞。"
     },
     {
-      "timestamp": "09:19",
+      "timestamp": "09:23",
       "speaker": "Jeremy Adams",
       "en": "There's no inference, no LLM inference happening on this thing. I am using the cloud for all that.",
-      "zh": "这台设备上没有任何推理,没有 LLM 推理发生。那些我全都是用云端做的。"
+      "zh": "这台机器上没有发生推理，没有 LLM 推理，那些我全都是用云端做的。"
     },
     {
       "timestamp": "09:25",
       "speaker": "Jeremy Adams",
       "en": "So I've got a big brain, though it's over a wire to the cloud, right?",
-      "zh": "所以我有一个大脑袋,只不过它是通过一根线连到云端的,对吧?"
+      "zh": "所以我有一个大脑袋，只不过它是通过一根线连到云端的，对吧？"
     },
     {
-      "timestamp": "10:57",
+      "timestamp": "11:38",
       "speaker": "Jeremy Adams",
-      "en": "I was like, oh my god, I could talk to Claude right now.",
-      "zh": "我当时的反应是,天哪,我现在就可以和 Claude 对话。"
+      "en": "It'll persist even when you reboot me.",
+      "zh": "即使你重启我，它也会持久保存。"
     },
     {
-      "timestamp": "11:18",
+      "timestamp": "11:45",
       "speaker": "Jeremy Adams",
-      "en": "And this actually came from the European policing",
-      "zh": "而这实际上来自欧洲警务系统。"
+      "en": "I've got this new memory database with this super advanced schema, memories and related things, very early, you know, before Karpathy's wikis and after Obsidian.",
+      "zh": "我有这个新的记忆数据库，带这个超级先进的 schema,记忆和相关条目，非常早期，你知道，在 Karpathy 的 wiki 之前，在 Obsidian 之后。"
     },
     {
-      "timestamp": "15:31",
+      "timestamp": "11:23",
       "speaker": "Jeremy Adams",
-      "en": "I was like, oh, god, conference Wi-Fi is terrible, typically.",
-      "zh": "我就想,哦,天哪,会议的 Wi-Fi 通常都很糟糕。"
+      "en": "And every one of your favorite cop shows that does a string diagram, right?",
+      "zh": "你最喜欢的每一部警匪剧，只要做关系图的，对吧？"
     },
     {
       "timestamp": "17:57",
       "speaker": "Jeremy Adams",
-      "en": "I've actually generated some knowledge that was maybe novel that maybe nobody has any.",
-      "zh": "我实际上生成了一些可能新颖的知识,也许没有人有这些知识。"
+      "en": "So I was like, OK, I've actually generated some knowledge that was maybe novel that maybe nobody has any.",
+      "zh": "所以我就想，好吧，我实际上生成了一些可能新颖的知识，也许没有人有这些知识。"
+    },
+    {
+      "timestamp": "15:31",
+      "speaker": "Jeremy Adams",
+      "en": "I was like, oh, god, conference Wi-Fi is terrible, typically. So I need an offline mode.",
+      "zh": "我就想，哦，天哪，会议的 Wi-Fi 通常都很糟糕，所以我需要一个离线模式。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Jeremy Adams",
+      "en": "So if I'm offline, it'll use some regexes and stuff and parse out of the audio, voice to text, the booth number, and maybe it can write a query to insert it in this local database.",
+      "zh": "这样如果我处于离线状态，它就会用一些正则表达式之类的东西，从音频语音转文字中解析出展位号，也许还能写一个查询，把数据插入这个本地数据库。"
     },
     {
       "timestamp": "18:30",
       "speaker": "Jeremy Adams",
       "en": "Basically, I wanted to load all of the WhatsApp messages that I ever had.",
-      "zh": "基本上,我想把我曾经有过的所有 WhatsApp 消息都加载进去。"
+      "zh": "基本上，我想把我曾经有过的所有 WhatsApp 消息都加载进去。"
     },
     {
       "timestamp": "19:17",
       "speaker": "Jeremy Adams",
       "en": "So these are all the things that I've been doing, talking about with my claw, and they're all distilled out into memories that are now accessible via an MCP server from this very claw.",
-      "zh": "所以这些都是我一直在跟我的 claw 做的、谈论的事情,它们全都被蒸馏提炼成了记忆,现在可以通过一个 MCP 服务器从这只 claw 直接访问。"
+      "zh": "这些都是我一直在跟我的 claw 做的、谈论的事情，它们全都被蒸馏提炼成了记忆，现在可以通过一个 MCP 服务器从这只 claw 直接访问。"
     },
     {
-      "timestamp": "10:16",
+      "timestamp": "05:00",
       "speaker": "Jeremy Adams",
-      "en": "And it went through there with an MCP server connecting into my Neo4j instance with the movie database in there.",
-      "zh": "它就通过一个 MCP 服务器连进我的 Neo4j 实例,里面放着那个电影数据库。"
+      "en": "I was running a 32-bit operating system for a long time until I realized it was 64-bit ARM capable.",
+      "zh": "我很长一段时间里跑的是 32 位操作系统，直到我意识到它是支持 64 位 ARM 的。"
     },
     {
-      "timestamp": "10:26",
+      "timestamp": "04:44",
       "speaker": "Jeremy Adams",
-      "en": "It's like, oh, well, first, your stuff's not set up right.",
-      "zh": "它说,哦,首先,你的东西没设置好。"
+      "en": "This gives me high confidence, because I've done this only like one million times, as you can imagine, hacking on this silly thing.",
+      "zh": "这让我信心很足，因为你们可以想象，我大概已经这样搞过一百万次了，一直在折腾这个傻乎乎的小东西。"
     },
     {
-      "timestamp": "11:36",
+      "timestamp": "07:25",
       "speaker": "Jeremy Adams",
-      "en": "I've got this mount point.",
-      "zh": "我有这个挂载点。"
-    },
-    {
-      "timestamp": "14:55",
-      "speaker": "Jeremy Adams",
-      "en": "I don't know what I want to record.",
-      "zh": "我不知道我想录什么。"
+      "en": "And yeah, it claws real good.",
+      "zh": "然后呢，它 claw 得相当好。"
     }
   ],
   "voice_script": "今天这一集,讲的是一个特别实在、也特别好玩的现场演示。主讲人是 Jeremy Adams,来自 Neo4j——就是那家做图数据库的公司,本人负责开发者关系。这一集要聊的问题一句话就能说清:能不能用一台几十美元的旧树莓派,做一个随身携带的个人 AI 智能体,还给它装上一套可以查询的记忆系统。答案是能,而且现场掏出设备、接电、开机,当着大家的面跑给你看。\n\n先把背景垫一下。市面上个人智能体的炒作很多,但 Adams 明确说,他不想要一个装在笔记本电脑里的。为什么?因为他自称来自老式的系统管理员和 DevOps 世界,偏保守,想等这些东西真正稳固了再往主力机上装。需求清单很简单:便宜、开放、可折腾,而且比功能丰富更重要的——他得能理解这东西到底在干什么。\n\n选设备的过程也挺有意思。先是在分类信息网站上看到有人卖预装了 OpenClaw 的 Mac Mini,结果被\"预装\"两个字劝退,觉得这是个危险信号,涨价之后也不便宜了。于是翻出柜子里那台疫情时期拿来做过\"称水槽碗碟重量提醒洗碗\"实验的树莓派 4B,心想:它能跑智能体吗?试了试,跑得相当好。\n\n软件上选了另一个项目,叫 NanoClaw,比 OpenClaw 更合口味。为什么?第一,只有大约 15 个源文件,代码量很小,看得懂;第二,也是关键——智能体进程全部跑在 Docker 容器里。容器是什么意思?说白了就是把智能体关在一个圈起来的笼子里,坏了也坏不到宿主机,没法在系统里横冲直撞。再加上它基于 Claude Agent SDK,就是 Anthropic 提供的智能体开发工具包,官方还鼓励你改代码、加技能。消息通道选了 WhatsApp,因为手机上本来就有,省事。\n\n那架构长什么样呢?简单得出奇:手机上发 WhatsApp 消息,走云端,到达树莓派上的 NanoClaw,就这一条链路,只需要注册一个凭证。但这里有个要点必须说清楚:这块板子上不跑任何模型推理,所有大模型的调用全走云端。Adams 有句话说得特别形象:我有一个大脑袋,只不过它是通过一根线连到云端的。这也是整套方案能在这么弱的硬件上跑通的关键——树莓派只负责编排、存储和设备输入输出,重活全交给云。\n\n好,脑子解决了,接下来是记忆。这里得先给没接触过图的听众补一句:图就是节点加边。节点是圆形,比如\"人\"和\"电影\";边是它们之间的关系,比如\"出演了\"\"导演了\"。Tom Hanks 出演了《阿甘正传》,Robert Zemeckis 导演了它——两个\"人\"节点、一个\"电影\"节点,三条边,这就是图。把一个装满电影数据的 Neo4j 云端实例接上智能体,在 WhatsApp 里问\"Tom Hanks 出演过哪些电影\",智能体通过一个叫 MCP 服务器的标准接口连进数据库查询再回话。第一次还闹了个笑话,先回一句\"你那边的配置坏了\",修好认证之后,正确结果就出来了。\n\n真正的转折发生在飞机上。Adams 发现不买机上 Wi-Fi 也能用 WhatsApp 的消息功能,立刻意识到自己随时能和云端智能体对话,于是当场发消息,让它搭一个记忆系统。记忆怎么建模?用了一套叫 POLE+O 的方法——把记忆组织成人物、物体、地点、事件、组织这五类节点。这套方法源自欧洲警务系统,警匪剧里那张人物关系图就是这么画的。智能体当场就写了个技能模块,还提醒他数据挂在持久化挂载点上,重启也不会丢。从此去参加各种开发者活动,智能体都替他记录:去了哪儿、和谁聊了什么。在 Neo4j 的浏览界面里放大看,能看到\"去了门洛帕克的 Snowflake 办公室,参加某个 AI 聚会,和 Rebecca、Jeremy 这些人交谈\"——这样连成一片的记忆图谱,看着还挺震撼的。\n\n为了让演示更狠,又给自己加了个任务:带着设备一个展位一个展位地走,录下各家展位的宣传信息。这一下问题就来了——会议 Wi-Fi 通常很糟糕,所以必须做离线模式。解法是把 Neo4j 直接跑在树莓派本地:离线的时候,用正则表达式从语音转的文字里解析出展位号,写查询插进本地库,联网之后再上传云端做丰富化处理。录音怎么触发?自己焊了个接在树莓派引脚上的实体按钮。演示当天按钮都掉下来了,捏着线头照样录了一句\"我现在真的在 AI Engineer 大会的舞台上做着我准备了很久的演讲\"。\n\n巡游的数据后来真挖出了东西。把各家展位的笔记清洗后存进云端,发现参展商可以连到\"评估与可观测性\"这样的主题节点上,BuildKite、LangChain 都挂在这个主题下。用 Adams 自己的结论说:自己生成了一些可能是全新的、别人都没有的知识——一段没人整理过的、大会主题的图谱。你看,把散落的笔记结构化之后,这种洞察才会自己冒出来。\n\n演讲最后还提了一轮升级:用 Neo4j 的智能体记忆服务,把历史上所有的 WhatsApp 消息全部导入,让服务从对话里蒸馏提炼出一堆记忆,再按人、地点、概念这些维度组织好。这些记忆现在可以通过 MCP 服务器从这台设备上直接访问。也就是说,这个挂在胸前的树莓派,已经带着一个人的全部社交记忆在跑了。\n\n所以这集最大的启发其实就一句:随身智能体的现实解法,不是把脑子塞进小设备里,而是弱硬件加上云端大脑——身体在你身上,大脑通过一根线连到云上,记忆则用图好好地存着。"

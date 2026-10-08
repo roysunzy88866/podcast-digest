@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]]**(22:33起):本集说它在电线杆上装有传感器，能提供电网监测、转移负荷，缓冲野火等气候风险
+- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(22:33起):本集说它在电线杆上装有传感器，能提供电网监测、转移负荷，缓冲野火等气候风险
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为被讨论公司
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为被讨论公司
 
 ## ③ 关联
 

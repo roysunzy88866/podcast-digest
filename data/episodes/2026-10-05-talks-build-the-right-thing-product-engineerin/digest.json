@@ -1,231 +1,244 @@
 {
-  "title_zh": "当 AI 会写代码，工程师的最后一项技能是“做对的东西”",
-  "tldr": "开发者教育者 Kent C. Dodds 主张：智能体拉平了实现门槛后，工程师的核心价值转向产品工程——判断该构建什么，并讲了他验证想法的具体方法。",
-  "digest_md": "这一集是 Kent C. Dodds 的一场工作坊演讲。Kent 做了十几年软件开发，2019 年起全职做开发者教育，专门帮有经验的工程师加速获取新经验——他自己的课程就教 React、测试、全栈这些具体技术。而今年他经历了两次“存在主义危机”： Christmas 假期里用智能体写代码时，他意识到这东西写得比自己好——那还有谁需要上他的 React 课？他自己承认：“你不需要知道 useState 是什么，谁还在乎那些东西？”\n\n由此他提出全场核心论点：**当 AI 智能体拉平了实现层面的竞技场（它们正在这么做），差异化的关键就变成了构建正确的东西** [10:56 Kent C. Dodds]。他打了比方：过去工程师像神箭手，产品经理说“射中那个靶子”，你考虑风速、瞄准、命中——现在箭被换成了自动追踪装置，谁都能轻松命中。但靶子从来不是生来平等的，**知道哪个靶子值得射，才是差异化的关键** [10:15 Kent C. Dodds]。\n\n## “把工单变成实现”的工程师，看起来非常像智能体\n\n实现已经商品化了，稀缺资源从“能不能做出来”变成了“值不值得做”。Kent 引用了他播客里多位嘉宾的判断：OpenCode 的创造者 Dax Rad 说，新的编码智能体能力默认都会流向“做错误的事情”——产品从好变坏的速度比以往任何时候都快，因为智能体不会喊“等等，我们把系统搞得太臃肿了”，放慢脚步、有意识决定往产品里加什么，是人的责任 [19:11 Kent C. Dodds]。Cloudflare 产品高管 Rita Kozlov 补充：原型很快就能做出“看起来能用”的表面，但不可扩展、没处理边界情况——产品工程师的用武之地是看着原型说“我要扔掉它，用我的系统思维两小时重写一遍”，因为知道自己会凌晨两点被叫起来修问题，你就会认真打造智能体的游乐场。Aaron Francis 的警告最扎心：“你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展”——陷得越深越停不下来，沉没成本谬误。\n\n Wayne Allen 那句话值得记：产品关注点是“做对的东西”，工程关注点是“把东西做对”，而**后者是前者的下游**——确保上游的价值判断传导下来，符合工程师自己的利益。\n\n## 产品工程师 vs 产品经理：界限在哪\n\nKent 强调他不是让所有工程师转行做 PM。产品工程师的工作是**把对客户需求的理解与正在做出的技术选择连接起来**：定数据模型和工作流形态、可观测性、约束、故障模式、最小切片 [21:46 Kent C. Dodds]。区分两者的第一要素是技术专长和对系统的理解——你真正了解可用的原语（数据类型、定时任务系统、基础设施的限制），所以需求进来时，你能判断它是塞进现有架构，还是值得扩展系统。发明“用户体验”一词的 Don Norman 讲过一个更根本的原则：三里岛核事故后他研究得出，操作员聪明且有能力，问题出在系统上——**“用户错误是不存在的”**，系统设计者要为系统负责。\n\n还有一个工程直觉：架构变更很贵。“不就几百万个 token 的事吗”——但真正的成本在于它对团队其他人和用户的影响。如果你理解产品、第一次就做对选择，你就是更值得雇的人。\n\n## 怎么验证一个想法：The Mom Test\n\n工作坊用现场生成的点子做实操：一个解决大会工作坊排队的应用。Kent 的核心方法是《The Mom Test》（书名源自“你妈会说你任何点子都好”，所以别去问喜欢你的人）：\n\n- **别让用户评估你的想法、别替你诊断问题**。最常见的错误是拿着自己的解决方案去问“如果它已经和应用集成了会不会更方便”——对方还没认同这是个值得解决的问题，你就在推销方案了。\n- **别问未来问题**。“你愿意付多少钱？”通常只会换来想赶紧结束对话的人敷衍的“是”。书里管这叫“钓恭维”。\n- **问过去的具体行为**：“跟我说说上次这种情况发生时的事”“当时你用什么变通办法？”“那样做让你付出了什么代价？”“多久发生一次？”Don Norman 说别泛泛问“问题是什么”，用户只会告诉你症状和同样不成形的解决方案。\n- **金子般的信号**：对方已经在花大量精力和金钱用变通办法绕这个问题——这是问题值得解决的有力证据；反过来，“我不记得上次是什么时候了，后来就放弃了”也是信号，只是不是你要的那个。\n\n播客嘉宾 Michael 在做身份认证平台 WorkOS 之前采访了大量客户，问“没有解决方案你正在损失什么”，据此决定做成托管而非本地部署——因为安全问题必须立即推送修复，不能等用户升级 NPM 包。反例是 Wayne 在澳大利亚房地产公司的教训：团队为“全澳大利亚的人同时登录”做了整整一年微服务，花掉 120 万澳元（约 90 万美元），结果**一个人都没用**。他的复盘：本来两周就能上线个简版、手动做集成、快速测市场。\n\n## 每个产品决策都在塑造系统\n\n理解请求从哪来，决定你做什么技术权衡：这是一次性实验还是业务核心？值得花一年吗？没有它业务会倒闭吗？答案不同，投入完全不同。而且验证不只是 PM 的工作——如果功能请求没附带“为什么存在”的验证，产品工程师应该回去问 PM 要答案。\n\n现场问答里 Kent 还给了两条：招聘产品工程师时，他完全不会做禁止用智能体的编程挑战——“你到底雇他们是来干什么的？”；替代方案是给一个例子，问候选人会提哪些问题找到核心问题、以及从核心问题出发有哪些系统层面的影响。至于“所有工程师都该成为产品工程师吗”——他说得很直白：如果你的全部工作就是听别人指示然后变成代码实现，随着智能体变得更能干，这部分相当容易被取代 [36:31 Kent C. Dodds]。\n\n## 本集带走\n\n- **稀缺资源变了**：实现已商品化，价值从“能不能做出来”转向“值不值得做”——这从“最重要的工程师”时代就一直重要，只是现在人人必须会。\n- **验证想法只问过去、不问未来**：“上次发生是什么时候？你当时怎么替代的？付出了什么代价？”绝不谈自己的方案，绝不问“你愿意付多少钱”。\n- **对方已有的变通投入是金子**：他们已经在花时间花钱绕过这个问题 = 值得做；他们记不得、早放弃了 = 别做。\n- **把原型扔掉重写是一种能力**：表面能用的原型 ≠ 可扩展的系统，愿意为它负责（凌晨两点被叫起来的是你）才配做技术选型。\n- **先上线最小切片**：两周上线加手动集成，好过一年微服务换零用户；Instagram 当初砍掉签到只留分享照片，就是同一个道理。\n- **面试别考禁用 AI 的编程题**：考“你怎么找到核心问题、它带来哪些系统影响”，才是产品工程师要的技能。===金句===\n10:56 | Kent C. Dodds\nEN | When AI agents level the implementation playing field, which they are actively doing, then the differentiator becomes building the right thing.\nZH | 当 AI 智能体拉平了实现层面的竞技场——而它们正在积极这样做——差异化的关键就变成了构建正确的东西。\n\n10:40 | Kent C. Dodds\nEN | It's the last skill that the last software engineer needs. It's the last thing that you need to learn.\nZH | 它是最后一个软件工程师所需要的最后一项技能，是你需要学习的最后一样东西。\n\n10:20 | Kent C. Dodds\nEN | And so knowing which one of those targets is the valuable thing to hit, that's the differentiator.\nZH | 所以，知道那些靶子中哪一个是值得命中的有价值靶子，这才是差异化的关键。\n\n14:06 | Kent C. Dodds\nEN | So, the premise here is AI changes the scarce resource. It's no longer scarce to do implementation. That is a commoditized thing now.\nZH | 立足点在这里：AI 改变了稀缺资源。做实现不再是稀缺的了，那现在是一件已经商品化的事情。\n\n14:54 | Kent C. Dodds\nEN | So we're moving from can we build it to is it worth building.\nZH | 我们正从“我们能不能构建它”转向“它是否值得构建”。\n\n17:13 | Kent C. Dodds\nEN | If that's you, you look an awful lot like an agent to me.\nZH | 如果那就是你——只是拿一张工单把它变成实现——在我看来你非常像一个智能体。\n\n17:33 | Kent C. Dodds\nEN | So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.\nZH | 一名产品工程师能够认识到：即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。\n\n18:47 | Kent C. Dodds\nEN | He says that the default place for our new coding agent abilities to go to is work on the wrong things. Products go from good to bad faster than ever.\nZH | 他说，我们新的编码智能体能力默认都会流向“做错误的事情”。产品从好变坏的速度比以往任何时候都快。\n\n19:11 | Kent C. Dodds\nEN | They might in the future, but no, like, it is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.\nZH | 智能体将来可能会这么做，但现在不会——所以，放慢脚步、有意识地决定往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。\n\n20:52 | Kent C. Dodds\nEN | And Aaron Francis, you can do the wrong thing incredibly fast and feel like you're making a ton of progress.\nZH | Aaron Francis 说：你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。\n\n31:32 | Kent C. Dodds\nEN | And in particular, if you're entering a space that's already overcrowded, you want to niche down as well on that target audience.\nZH | 尤其是，如果你要进入一个已经过度拥挤的领域，你还要在那个目标受众上进一步细分收窄。\n\n42:36 | Kent C. Dodds\nEN | You do not want to ask them future questions. Nobody can tell the future.\nZH | 你不要问他们关于未来的问题。没有人能预知未来。\n\n44:26 | Kent C. Dodds\nEN | If they're already putting a bunch of effort and paying a bunch of money to solve this problem with some work around, that's a really good opportunity.\nZH | 如果他们已经在投入大量精力、花大量钱用某种变通办法来解决这个问题，那就是一个非常好的机会。\n\n50:26 | Kent C. Dodds\nEN | The problems that are really worth solving are the ones where people will just run through the glass cutting themselves and they're like, I made it!\nZH | 真正值得解决的问题，是那些人们会直接冲破玻璃、划伤自己，然后说「我做到了！」的问题。\n\n47:04 | Kent C. Dodds\nEN | So like not only did they not have to handle every person in Australia, they didn't even have to handle one person in Australia. Nobody ended up using this thing.\nZH | 所以说他们不仅不用处理澳大利亚的每一个人，他们甚至连澳大利亚的一个人都不用处理——最终没有人使用这个东西。\n\n47:13 | Kent C. Dodds\nEN | So he told me that something he learned from that is we probably could have launched something in two weeks, not a year, and done the integration manually.\nZH | 所以他告诉我，他从中学到的是：我们本来也许可以两周内上线点什么，而不是一年，然后手动完成集成。\n\n25:38 | Kent C. Dodds\nEN | And it's just so clear to me that these people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.\nZH | 对我来说非常清楚的是，这些人对自己的解决方案兴奋过头，以至于完全迷失了他们本来要为用户解决的问题的主线。\n\n32:49 | Kent C. Dodds\nEN | Like, how awful is it to work at your company that I can't use an AI agent? Goodness.\nZH | 在你们公司工作得有多糟糕啊，我连 AI 智能体都不能用？天哪。\n\n36:14 | Kent C. Dodds\nEN | Well, in my estimation, if you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.\nZH | 在我看来，如果你不是产品工程师，没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。\n\n45:16 | Kent C. Dodds\nEN | But the software engineer who really talks to people and understands their problems is the one who's gonna build a system that can solve those problems better.\nZH | 但真正与人交谈并理解他们问题的软件工程师，才是那个能构建出更好地解决这些问题的系统的人。",
+  "title_zh": "当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」",
+  "tldr": "资深工程师与讲师 Kent C. Dodds 讲解：AI 拉平了实现能力后，工程师的价值在于判断该做什么。",
+  "digest_md": "Kent C. Dodds 写了十多年软件，2014 年从 BYU 毕业，2019 年起全职做技术教育。这场工作坊上，他讲了 AI 时代软件工程师最需要的一项耐久技能——产品工程（product engineering）：不是把东西做出来，而是判断什么东西值得做。\n\n## 代码不值钱了，判断力才值钱\n\nDodds 的核心论断只有一句话：**当 AI 智能体拉平了实现的门槛，差异化就变成了做对的东西**[11:00 Unknown]。\n\n他自己的经历就是注脚。他的工作是教有经验的工程师学新技术，但今年圣诞假期他用了 AI 智能体后经历了两次存在危机：这东西写代码比我强。一个写过 Vue 的有经验工程师，换到 React 项目根本不需要买课——指挥智能体干活就行，谁还在乎 useState 是什么。\n\n他用射箭打比方：过去工程师苦练箭术，指哪打哪；现在的箭像装了制导装置，谁都能命中。但靶子并不等值，真正的本事是知道哪个靶子值得打。\n\n## 只会把工单变成代码的人，长得像智能体\n\nDodds 引用了他播客里多位嘉宾的话。Wayne Allen 说，产品关心的是做对的东西，工程关心的是把东西做对，而后者是前端的下游。Julius Marming 则指出，难的是判断一个功能值不值得做、长期后果是什么。\n\n如果有人问你什么就做什么，把一张工单变成一段实现——Dodds 说得直白：那你在老板眼里「看起来太像一个智能体了」，非常容易被替代[17:13 Unknown]。\n\nDax Rad（OpenCode 作者）的警告更扎心：新的编码智能体默认会去做错误的事情，产品变烂的速度比以往任何时候都快。智能体会加速坏实践在代码库里蔓延，你得主动勒住它。\n\n## 产品工程师和产品经理的界线在哪？\n\nDodds 强调他不是让大家转行当产品经理。产品工程师的工作，是把对用户需求的理解连接到技术决策上：数据模型、工作流形状、可观测性、约束条件、失败模式、最小切片。\n\n这些决策为什么重要？因为改架构很贵。你也许觉得换数据库「不就是几百万个 token 的事」，但对团队和用户的影响是真实成本。老板更愿意雇那个因为懂产品而第一次就做对的人。\n\nUncle Bob 讲过自己的经历：他给爬电线杆的修理工写软件，老板让他亲自上现场，看他挂在杆子上用软件，当场想到 30 个改进点。Grady Booch 的总结是：工程判断力来自技术经验和对人真实需求的结合。\n\nInstagram 是最小切片的经典案例：它最早叫 Bourbon，是个签到应用，团队观察用户行为后发现大家只在乎分享照片，于是砍掉其他一切。结果众所周知。\n\n## 想验证想法？别问你会用吗\n\n工作坊现场观众投票选了一个练习题目：一个帮人快速挤进会议工作坊的应用。Dodds 带着大家用《The Mom Test》的方法验证它。\n\n核心原则：不要让用户评估你的想法，也别让他们替你诊断问题。坏问题包括「你会用吗？」「这是个问题吗？」——对方往往只想结束对话，什么都说是。书里管这叫讨恭维。\n\n好问题问的是过去，不是未来[41:48 Unknown]：\n- 上一次遇到这事是什么时候？具体发生了什么？\n- 你当时怎么办的？绕过它的办法是什么？\n- 这个变通办法花了你多少钱、多少精力？\n\n最强的信号是：用户已经在花钱花力气用笨办法解决问题——那就是机会。如果他记不清上次是什么时候、甚至干脆放弃了，那也是个信号，只是不是你想要的那个。\n\nDodds 还引 Don Norman 的观点：别问问题是什么，用户会告诉你症状，还会给你方案，而他们的方案跟你的方案一样不靠谱。Norman 提出用户错误不存在——出错的往往是系统。1979 年三里岛核事故后他去调查，结论是操作员聪明称职，错在设计。\n\n## 花了一年、120 万澳元，做出来没人用\n\nWayne Allen 在澳洲一家房地产公司的教训值得每个人记住：团队花了整整一年做微服务架构，确保「全澳大利亚人同时登录都撑得住」，花了 120 万澳元（约合 90 万美元）——最后没有一个人用这个产品 [46:39 Unknown]。\n\n他的反思是：**本可以两周就上线，集成先手动做，先测市场**。项目验证不只是产品经理的事。如果一条功能需求没有附带任何验证依据，产品工程师就该回去问清楚：这是一次性实验，还是业务命脉？这直接决定你在技术上做怎样的取舍。\n\n还有一条实用的：一个人闷头做几周最容易自我说服这想法真棒。拿给人看，如果对方不明白你为什么这么兴奋，注意那个感觉——那就是信号。\n\n## 本集带走\n\n- 当 AI 让实现变得廉价，稀缺资源变成了判断什么值得做，这是 Dodds 认为工程师最后需要学的技能。\n- 只把工单转成代码的工程师，在组织眼里和智能体没有区别；理解用户问题的工程师才难被替代。\n- 验证想法时问过去，不问未来：上次发生是什么时候？你怎么绕过去的？花了多少代价？\n- 用户已经在花大钱用笨办法解决的问题，才是真机会；记不起来上次何时发生的，不是。\n- 先上最小切片测市场，再谈架构—— Wayne Allen 的团队花 120 万澳元、一年时间，换来的产品无人使用。",
   "quotes": [
     {
-      "en": "When AI agents level the implementation playing field, which they are actively doing, then the differentiator becomes building the right thing.",
-      "zh": "当 AI 智能体拉平了实现层面的竞技场——而它们正在积极这样做——差异化的关键就变成了构建正确的东西。",
-      "timestamp": "10:56",
+      "en": "AI changes the scarce resource. It's no longer scarce to do implementation.",
+      "zh": "AI 改变了稀缺资源。做实现不再是稀缺的了。",
+      "timestamp": "14:04",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "And so knowing which one of those targets is the valuable thing to hit, that's the differentiator.",
-      "zh": "所以，知道那些靶子中哪一个是值得命中的有价值靶子，这才是差异化的关键。",
-      "timestamp": "10:15",
-      "speaker": "Kent C. Dodds"
-    },
-    {
-      "en": "So, the premise here is AI changes the scarce resource. It's no longer scarce to do implementation. That is a commoditized thing now.",
-      "zh": "立足点在这里：AI 改变了稀缺资源。做实现不再是稀缺的了，那现在是一件已经商品化的事情。",
-      "timestamp": "14:03",
+      "en": "So the more valuable thing is deciding what to build, whether it's worth building in the first place.",
+      "zh": "所以更有价值的事情是决定构建什么，以及它一开始是否值得构建。",
+      "timestamp": "14:24",
       "speaker": "Kent C. Dodds"
     },
     {
       "en": "So we're moving from can we build it to is it worth building.",
-      "zh": "我们正从“我们能不能构建它”转向“它是否值得构建”。",
+      "zh": "所以我们正从「我们能不能构建它」转向「它是否值得构建」。",
       "timestamp": "14:51",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "If that's you, you look an awful lot like an agent to me.",
-      "zh": "如果那就是你——只是拿一张工单把它变成实现——在我看来你非常像一个智能体。",
-      "timestamp": "17:13",
+      "en": "Ideas are becoming more valuable relative to that execution.",
+      "zh": "相对于执行而言，想法正变得更有价值。",
+      "timestamp": "16:31",
       "speaker": "Kent C. Dodds"
     },
     {
       "en": "So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.",
-      "zh": "一名产品工程师能够认识到：即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。",
+      "zh": "所以一名产品工程师能够认识到，即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。",
       "timestamp": "17:33",
       "speaker": "Kent C. Dodds"
     },
     {
+      "en": "Building the thing right is downstream of building the right thing.",
+      "zh": "把东西做对是做对的东西的下游。",
+      "timestamp": "18:04",
+      "speaker": "Kent C. Dodds"
+    },
+    {
       "en": "He says that the default place for our new coding agent abilities to go to is work on the wrong things. Products go from good to bad faster than ever.",
-      "zh": "他说，我们新的编码智能体能力默认都会流向“做错误的事情”。产品从好变坏的速度比以往任何时候都快。",
+      "zh": "他说，我们新的编码智能体能力默认都会流向「做错误的事情」。产品从好变坏的速度比以往任何时候都快。",
       "timestamp": "18:41",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "They might in the future, but no, like, it is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.",
-      "zh": "智能体将来可能会这么做，但现在不会——所以，放慢脚步、有意识地决定往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。",
-      "timestamp": "19:11",
+      "en": "It is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.",
+      "zh": "所以，放慢脚步、有意识地决定我们要往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。",
+      "timestamp": "19:14",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "And Aaron Francis, you can do the wrong thing incredibly fast and feel like you're making a ton of progress.",
-      "zh": "Aaron Francis 说：你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。",
-      "timestamp": "20:47",
+      "en": "So you can move bad faster if you're not careful.",
+      "zh": "所以如果你不小心，你就能更快地把坏东西做出来。",
+      "timestamp": "19:32",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "And in particular, if you're entering a space that's already overcrowded, you want to niche down as well on that target audience.",
-      "zh": "尤其是，如果你要进入一个已经过度拥挤的领域，你还要在那个目标受众上进一步细分收窄。",
-      "timestamp": "31:32",
+      "en": "If you know that you're going to be paged at two in the morning to deal with issues, then you're gonna take a lot of care in the system, in the playground that you create for your agents to make sure that they're successful when they're implementing things.",
+      "zh": "这之所以重要，是因为如果你知道自己会在凌晨两点被叫起来处理问题，你就会非常用心地打造系统、打造你为智能体创建的游乐场，确保它们在实现功能时能够成功。",
+      "timestamp": "20:35",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "If they're already putting a bunch of effort and paying a bunch of money to solve this problem with some work around, that's a really good opportunity.",
-      "zh": "如果他们已经在投入大量精力、花大量钱用某种变通办法来解决这个问题，那就是一个非常好的机会。",
-      "timestamp": "44:26",
+      "en": "You can do the wrong thing incredibly fast and feel like you're making a ton of progress.",
+      "zh": "你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。",
+      "timestamp": "20:48",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "The problems that are really worth solving are the ones where people will just run through the glass cutting themselves and they're like, I made it!",
-      "zh": "真正值得解决的问题，是那些人们会直接冲破玻璃、划伤自己，然后说「我做到了！」的问题。",
-      "timestamp": "50:26",
+      "en": "These people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.",
+      "zh": "这些人对自己的解决方案兴奋过头，以至于完全迷失了他们本来要为用户解决的问题的主线。",
+      "timestamp": "25:18",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "So like not only did they not have to handle every person in Australia, they didn't even have to handle one person in Australia. Nobody ended up using this thing.",
-      "zh": "所以说他们不仅不用处理澳大利亚的每一个人，他们甚至连澳大利亚的一个人都不用处理——最终没有人使用这个东西。",
-      "timestamp": "46:56",
+      "en": "A great way for you to stand out as an engineer at your company is to be a product-minded engineer.",
+      "zh": "让你在公司里作为工程师脱颖而出的一大方式，就是成为一个有产品思维的工程师。",
+      "timestamp": "25:31",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "So he told me that something he learned from that is we probably could have launched something in two weeks, not a year, and done the integration manually.",
-      "zh": "所以他告诉我，他从中学到的是：我们本来也许可以两周内上线点什么，而不是一年，然后手动完成集成。",
-      "timestamp": "47:05",
+      "en": "One of the things that you are doing as a product engineer is building a system for your underlings to be successful in.",
+      "zh": "你作为产品工程师要做的事情之一，就是为你的下属构建一个能让他们成功的系统。",
+      "timestamp": "28:23",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "And it's just so clear to me that these people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.",
-      "zh": "对我来说非常清楚的是，这些人对自己的解决方案兴奋过头，以至于完全迷失了他们本来要为用户解决的问题的主线。",
-      "timestamp": "25:16",
+      "en": "User error does not exist.",
+      "zh": "用户错误是不存在的。",
+      "timestamp": "30:22",
       "speaker": "Kent C. Dodds"
     },
     {
-      "en": "Well, in my estimation, if you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
-      "zh": "在我看来，如果你不是产品工程师，没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。",
-      "timestamp": "36:14",
-      "speaker": "Kent C. Dodds"
-    },
-    {
-      "en": "But the software engineer who really talks to people and understands their problems is the one who's gonna build a system that can solve those problems better.",
-      "zh": "但真正与人交谈并理解他们问题的软件工程师，才是那个能构建出更好地解决这些问题的系统的人。",
-      "timestamp": "45:19",
+      "en": "If you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
+      "zh": "在我看来，如果你不是产品工程师，如果你没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。",
+      "timestamp": "36:15",
       "speaker": "Kent C. Dodds"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "10:56",
+      "timestamp": "14:02",
       "speaker": "Kent C. Dodds",
-      "en": "When AI agents level the implementation playing field, which they are actively doing, then the differentiator becomes building the right thing.",
-      "zh": "当 AI 智能体拉平了实现层面的竞技场——而它们正在积极这样做——差异化的关键就变成了构建正确的东西。"
+      "en": "AI changes the scarce resource. It's no longer scarce to do implementation.",
+      "zh": "AI 改变了稀缺资源。做实现不再是稀缺的了。"
     },
     {
-      "timestamp": "10:40",
+      "timestamp": "14:24",
       "speaker": "Kent C. Dodds",
-      "en": "It's the last skill that the last software engineer needs. It's the last thing that you need to learn.",
-      "zh": "它是最后一个软件工程师所需要的最后一项技能，是你需要学习的最后一样东西。"
+      "en": "So the more valuable thing is deciding what to build, whether it's worth building in the first place.",
+      "zh": "所以更有价值的事情是决定构建什么，以及它一开始是否值得构建。"
     },
     {
-      "timestamp": "10:20",
-      "speaker": "Kent C. Dodds",
-      "en": "And so knowing which one of those targets is the valuable thing to hit, that's the differentiator.",
-      "zh": "所以，知道那些靶子中哪一个是值得命中的有价值靶子，这才是差异化的关键。"
-    },
-    {
-      "timestamp": "14:06",
-      "speaker": "Kent C. Dodds",
-      "en": "So, the premise here is AI changes the scarce resource. It's no longer scarce to do implementation. That is a commoditized thing now.",
-      "zh": "立足点在这里：AI 改变了稀缺资源。做实现不再是稀缺的了，那现在是一件已经商品化的事情。"
-    },
-    {
-      "timestamp": "14:54",
+      "timestamp": "14:51",
       "speaker": "Kent C. Dodds",
       "en": "So we're moving from can we build it to is it worth building.",
-      "zh": "我们正从“我们能不能构建它”转向“它是否值得构建”。"
+      "zh": "所以我们正从「我们能不能构建它」转向「它是否值得构建」。"
+    },
+    {
+      "timestamp": "16:24",
+      "speaker": "Kent C. Dodds",
+      "en": "Ideas are becoming more valuable relative to that execution.",
+      "zh": "相对于执行而言，想法正变得更有价值。"
     },
     {
       "timestamp": "17:13",
       "speaker": "Kent C. Dodds",
       "en": "If that's you, you look an awful lot like an agent to me.",
-      "zh": "如果那就是你——只是拿一张工单把它变成实现——在我看来你非常像一个智能体。"
+      "zh": "如果那就是你，在我看来你非常像一个智能体。"
     },
     {
       "timestamp": "17:33",
       "speaker": "Kent C. Dodds",
       "en": "So a product engineer is able to recognize that you can still fail after finishing the implementation if it doesn't produce customer value.",
-      "zh": "一名产品工程师能够认识到：即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。"
+      "zh": "所以一名产品工程师能够认识到，即使完成了实现，如果它不能产生客户价值，你仍然可能是失败的。"
     },
     {
-      "timestamp": "18:47",
+      "timestamp": "18:04",
+      "speaker": "Kent C. Dodds",
+      "en": "Building the thing right is downstream of building the right thing.",
+      "zh": "把东西做对是做对的东西的下游。"
+    },
+    {
+      "timestamp": "18:41",
       "speaker": "Kent C. Dodds",
       "en": "He says that the default place for our new coding agent abilities to go to is work on the wrong things. Products go from good to bad faster than ever.",
-      "zh": "他说，我们新的编码智能体能力默认都会流向“做错误的事情”。产品从好变坏的速度比以往任何时候都快。"
+      "zh": "他说，我们新的编码智能体能力默认都会流向「做错误的事情」。产品从好变坏的速度比以往任何时候都快。"
     },
     {
       "timestamp": "19:11",
       "speaker": "Kent C. Dodds",
-      "en": "They might in the future, but no, like, it is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.",
-      "zh": "智能体将来可能会这么做，但现在不会——所以，放慢脚步、有意识地决定往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。"
+      "en": "It is our responsibility to slow down and be intentional about what we're adding to our product so it doesn't bloat up to something too ridiculous.",
+      "zh": "所以，放慢脚步、有意识地决定我们要往产品里加什么，以免它膨胀得过于荒谬，这是我们的责任。"
     },
     {
-      "timestamp": "20:52",
+      "timestamp": "19:32",
       "speaker": "Kent C. Dodds",
-      "en": "And Aaron Francis, you can do the wrong thing incredibly fast and feel like you're making a ton of progress.",
-      "zh": "Aaron Francis 说：你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。"
+      "en": "So you can move bad faster if you're not careful.",
+      "zh": "所以如果你不小心，你就能更快地把坏东西做出来。"
     },
     {
-      "timestamp": "31:32",
+      "timestamp": "20:33",
       "speaker": "Kent C. Dodds",
-      "en": "And in particular, if you're entering a space that's already overcrowded, you want to niche down as well on that target audience.",
-      "zh": "尤其是，如果你要进入一个已经过度拥挤的领域，你还要在那个目标受众上进一步细分收窄。"
+      "en": "If you know that you're going to be paged at two in the morning to deal with issues, then you're gonna take a lot of care in the system, in the playground that you create for your agents to make sure that they're successful when they're implementing things.",
+      "zh": "这之所以重要，是因为如果你知道自己会在凌晨两点被叫起来处理问题，你就会非常用心地打造系统、打造你为智能体创建的游乐场，确保它们在实现功能时能够成功。"
     },
     {
-      "timestamp": "42:36",
+      "timestamp": "20:47",
       "speaker": "Kent C. Dodds",
-      "en": "You do not want to ask them future questions. Nobody can tell the future.",
-      "zh": "你不要问他们关于未来的问题。没有人能预知未来。"
+      "en": "You can do the wrong thing incredibly fast and feel like you're making a ton of progress.",
+      "zh": "你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。"
     },
     {
-      "timestamp": "44:26",
+      "timestamp": "21:02",
       "speaker": "Kent C. Dodds",
-      "en": "If they're already putting a bunch of effort and paying a bunch of money to solve this problem with some work around, that's a really good opportunity.",
-      "zh": "如果他们已经在投入大量精力、花大量钱用某种变通办法来解决这个问题，那就是一个非常好的机会。"
+      "en": "How to do the right thing incredibly fast or at least directionally correct rather than 10,000 lines of code a day on the wrong freaking thing.",
+      "zh": "关键是如何极其快速地做正确的事情，或者至少是方向上正确的，而不是每天在错误的事情上写一万行该死的代码。"
+    },
+    {
+      "timestamp": "25:16",
+      "speaker": "Kent C. Dodds",
+      "en": "These people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.",
+      "zh": "这些人对自己的解决方案兴奋过头，以至于完全迷失了他们本来要为用户解决的问题的主线。"
+    },
+    {
+      "timestamp": "25:27",
+      "speaker": "Kent C. Dodds",
+      "en": "A great way for you to stand out as an engineer at your company is to be a product-minded engineer.",
+      "zh": "让你在公司里作为工程师脱颖而出的一大方式，就是成为一个有产品思维的工程师。"
+    },
+    {
+      "timestamp": "26:28",
+      "speaker": "Kent C. Dodds",
+      "en": "Change is expensive, and if you say, okay, well, it's just a couple million tokens, what if I could hire you or I could hire somebody who made the right choice the first time because they understand the product?",
+      "zh": "变更是昂贵的，如果你说，好吧，不过是几百万个 token 的事，那如果我雇的你，或者我雇的某个人，能因为他们理解产品而第一次就做出正确的选择呢？"
+    },
+    {
+      "timestamp": "26:56",
+      "speaker": "Kent C. Dodds",
+      "en": "It's really difficult to build a really great solution on top of those wrong primitives.",
+      "zh": "在错误的原语之上构建一个真正出色的解决方案是非常困难的。"
+    },
+    {
+      "timestamp": "28:23",
+      "speaker": "Kent C. Dodds",
+      "en": "One of the things that you are doing as a product engineer is building a system for your underlings to be successful in.",
+      "zh": "你作为产品工程师要做的事情之一，就是为你的下属构建一个能让他们成功的系统。"
+    },
+    {
+      "timestamp": "28:50",
+      "speaker": "Kent C. Dodds",
+      "en": "We are now all team leads over however many agents you're able to run at once, and it's your job to make sure that that playground is a really nice playground and they don't make a ton of mistakes.",
+      "zh": "我们现在都成了团队主管，管着你能同时运行的那若干个智能体，你的工作就是确保那个游乐场是一个非常棒的游乐场，让它们不会犯一大堆错误。"
+    },
+    {
+      "timestamp": "30:22",
+      "speaker": "Kent C. Dodds",
+      "en": "User error does not exist.",
+      "zh": "用户错误是不存在的。"
+    },
+    {
+      "timestamp": "36:14",
+      "speaker": "Kent C. Dodds",
+      "en": "If you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
+      "zh": "在我看来，如果你不是产品工程师，如果你没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。"
+    },
+    {
+      "timestamp": "40:47",
+      "speaker": "Kent C. Dodds",
+      "en": "You don't want to ask users to evaluate your idea or diagnose the problem for you.",
+      "zh": "你不要让用户去评估你的想法，或者替你诊断问题。"
     },
     {
       "timestamp": "50:26",
       "speaker": "Kent C. Dodds",
       "en": "The problems that are really worth solving are the ones where people will just run through the glass cutting themselves and they're like, I made it!",
       "zh": "真正值得解决的问题，是那些人们会直接冲破玻璃、划伤自己，然后说「我做到了！」的问题。"
-    },
-    {
-      "timestamp": "47:04",
-      "speaker": "Kent C. Dodds",
-      "en": "So like not only did they not have to handle every person in Australia, they didn't even have to handle one person in Australia. Nobody ended up using this thing.",
-      "zh": "所以说他们不仅不用处理澳大利亚的每一个人，他们甚至连澳大利亚的一个人都不用处理——最终没有人使用这个东西。"
-    },
-    {
-      "timestamp": "47:13",
-      "speaker": "Kent C. Dodds",
-      "en": "So he told me that something he learned from that is we probably could have launched something in two weeks, not a year, and done the integration manually.",
-      "zh": "所以他告诉我，他从中学到的是：我们本来也许可以两周内上线点什么，而不是一年，然后手动完成集成。"
-    },
-    {
-      "timestamp": "25:38",
-      "speaker": "Kent C. Dodds",
-      "en": "And it's just so clear to me that these people are so excited about their solution that they've totally lost the plot of the problem that they're trying to solve for users.",
-      "zh": "对我来说非常清楚的是，这些人对自己的解决方案兴奋过头，以至于完全迷失了他们本来要为用户解决的问题的主线。"
-    },
-    {
-      "timestamp": "32:49",
-      "speaker": "Kent C. Dodds",
-      "en": "Like, how awful is it to work at your company that I can't use an AI agent? Goodness.",
-      "zh": "在你们公司工作得有多糟糕啊，我连 AI 智能体都不能用？天哪。"
-    },
-    {
-      "timestamp": "36:14",
-      "speaker": "Kent C. Dodds",
-      "en": "Well, in my estimation, if you're not a product engineer, if you don't have product sense or design sense, that's going to be really easy to replace you as the agents continue to get competent.",
-      "zh": "在我看来，如果你不是产品工程师，没有产品感或设计感，那么随着智能体持续变得更能干，你会非常容易被取代。"
-    },
-    {
-      "timestamp": "45:16",
-      "speaker": "Kent C. Dodds",
-      "en": "But the software engineer who really talks to people and understands their problems is the one who's gonna build a system that can solve those problems better.",
-      "zh": "但真正与人交谈并理解他们问题的软件工程师，才是那个能构建出更好地解决这些问题的系统的人。"
     }
   ],
   "voice_script": "今天要讲的人叫 Kent C. Dodds，做了十几年软件开发，2019 年起全职做开发者教育，专门帮有经验的工程师加速获取新经验，课程教 React、测试、全栈这些具体技术。但今年，这位教 React 教了这么多年的人，经历了一场存在主义危机。圣诞假期里，用智能体写代码的时候，突然意识到：这东西写得比自己好。那问题来了，还有谁需要上他的 React 课？他自己也承认，你不需要知道 useState 是什么了，谁还在乎那些东西？\n\n这期工作坊演讲，就是这场危机逼出来的思考，核心论点一句话：当 AI 智能体拉平了实现层面的竞技场，而它们正在积极这么做，差异化的关键就变成了构建正确的东西。\n\n打了个比方。过去工程师像神箭手，产品经理说射中那个靶子，你考虑风速、瞄准、命中，这是一身真功夫。现在呢，箭被换成了自动追踪装置，谁都能轻松命中。但靶子从来不是生来平等的，知道哪个靶子值得射，这才是差异化的关键。\n\n用 Kent 的话说，立足点在这里：AI 改变了稀缺资源。做实现不再是稀缺的，那是一件已经商品化的事情。稀缺资源从“能不能做出来”，变成了“值不值得做”。我们正从“我们能不能构建它”，转向“它是否值得构建”。\n\n顺着这个逻辑往下推一步，就会发现一个有点扎心的事实：如果工程师的全部工作，就是拿一张工单把它变成实现，Kent 的原话是，在我看来你非常像一个智能体。因为这事智能体干得越来越快、越来越便宜。\n\n而且智能体有个天然缺陷。播客嘉宾、OpenCode 的创造者 Dax Rad 判断说，新的编码智能体能力，默认都会流向做错误的事情。产品从好变坏的速度比以往任何时候都快——因为智能体不会喊“等等，我们把系统搞得太臃肿了”。放慢脚步、有意识地决定往产品里加什么，免得它膨胀得过于荒谬，这是人的责任。Cloudflare 产品高管 Rita Kozlov 补充说，原型很快就能做出看起来能用的表面，但不可扩展、没处理边界情况。产品工程师的用武之地，就是看着原型说：我要扔掉它，用我的系统思维两小时重写一遍。为什么愿意这么干？因为知道自己会凌晨两点被叫起来修问题，你就会认真打造智能体的游乐场。Aaron Francis 的警告最扎心：你可以极其快速地做错误的事情，还感觉自己取得了巨大的进展。而且陷得越深越停不下来，这就是沉没成本谬误。\n\n那产品工程师到底和产品经理有什么区别？先说明，Kent 不是让所有工程师转行做 PM。产品工程师做的事，是把对客户需求的理解与正在做出的技术选择连接起来：定数据模型和工作流形态、可观测性、约束、故障模式、最小切片。区分两者的第一要素是技术专长和对系统的理解——你真正了解可用的原语，数据类型、定时任务系统、基础设施的限制，所以需求进来时，你能判断它是塞进现有架构，还是值得扩展系统。别忘了，架构变更很贵，表面上是“不就几百万个 token 的事吗”，真正的成本在于对团队其他人和用户的影响。如果你理解产品、第一次就做对选择，你就是更值得雇的人。这里还有一句值得记住的话，来自 Wayne Allen：产品关注点是做对的东西，工程关注点是把东西做对，而后者是前者的下游——确保上游的价值判断传导下来，符合工程师自己的利益。\n\n好，那怎么判断一个东西“值得做”？工作坊现场用了一个点子做实操——一个解决大会工作坊排队的应用。方法来自一本书，叫 The Mom Test。书名源自一个常识：你妈会说你任何点子都好，所以别去问喜欢你的人。方法有几条铁律。\n\n第一条，别让用户评估你的想法、别替你诊断问题。最常见的错误，是拿着自己的解决方案去问“如果它已经和应用集成了会不会更方便”——对方还没认同这是个值得解决的问题，你已经在推销方案了。Kent 看到过太多这样的人，对自己的解决方案兴奋过头，完全迷失了本来要为用户解决的问题的主线。\n\n第二条，别问未来问题。没有人能预知未来。“你愿意付多少钱？”通常只会换来想赶紧结束对话的人敷衍一个“是”。书里管这叫钓恭维。\n\n那该问什么？问过去的具体行为。“跟我说说上次这种情况发生时的事”“当时你用什么变通办法？”“那样做让你付出了什么代价？”“多久发生一次？”别泛泛问“问题是什么”，用户只会告诉你症状，和同样不成形的解决方案。\n\n那什么信号说明这个问题真的值得做？金子般的信号是：对方已经在花大量精力和金钱，用变通办法绕这个问题。这是问题值得解决的有力证据。Kent 有句话特别形象：真正值得解决的问题，是那些人们会直接冲破玻璃、划伤自己，然后说“我做到了”的问题。反过来，“我不记得上次是什么时候了，后来就放弃了”——这也是信号，只是不是你要的那个。\n\n实操效果怎么样？正反两个例子都在精华里。正面的是播客嘉宾 Michael，在做身份认证平台 WorkOS 之前采访了大量客户，问“没有解决方案你正在损失什么”，据此决定做成托管而非本地部署——因为安全问题必须立即推送修复，不能等用户升级 NPM 包。反例是 Wayne 在澳大利亚房地产公司的教训：团队为了“全澳大利亚的人同时登录”，做了整整一年微服务，花掉 120 万澳元，结果一个人都没用。复盘时悟出的教训是：本来两周就能上线个简版，手动做集成，快速测市场。\n\n再往深一层：验证不只是 PM 的工作。每个产品决策都在塑造系统——这是一次性实验还是业务核心？值得花一年吗？没有它业务会倒闭吗？答案不同，投入完全不同。如果功能请求没附带“为什么存在”的验证，产品工程师应该回去问 PM 要答案。\n\n最后是现场问答里的两条。招聘产品工程师时，Kent 完全不会做禁止用智能体的编程挑战——你到底雇他们是来干什么的？替代方案是给一个例子，问候选人会提哪些问题找到核心问题，以及从核心问题出发有哪些系统层面的影响。至于所有工程师是不是都该成为产品工程师，说得相当直白：如果你的全部工作就是听别人指示然后变成代码实现，随着智能体变得更能干，这部分相当容易被取代。\n\n所以回到开头那场存在主义危机：教 React 的课可能真会过时，但“判断该构建什么”这件事，越做不了，越值钱。这正是那句话——当 AI 智能体拉平了实现层面的竞技场，构建正确的东西，就是最后一个软件工程师所需要学习的最后一项技能。"

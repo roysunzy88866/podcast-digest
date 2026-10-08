@@ -1,12 +1,12 @@
 ---
-title: "知识该放提示词、记忆还是权重?别靠偶然做架构决策"
+title: 知识该放哪？提示词、记忆还是微调？
 podcast: 精选演讲
 date: 2026-10-07
 source_url: undefined
 duration: "20:01"
 type: episode
 cover: "#64748b"
-description: "一位 AI 工程演讲者论证:企业 AI 系统中知识该进提示词、记忆还是权重,不该靠逐级试错偶然决定,并给出诊断框架与循环架构。"
+description: Anant Srivastava 讲企业 AI 系统的架构决策：提示词管行为、记忆管事实、微调管反射。
 guests: ["[[Anant Srivastava]]"]
 concepts: ["[[提示词]]", "[[记忆]]", "[[权重]]", "[[微调]]", "[[RAG]]", "[[智能体]]"]
 category: 智能体
@@ -14,12 +14,12 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble#post","headline":"知识该放提示词、记忆还是权重?别靠偶然做架构决策","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble","description":"一位 AI 工程演讲者论证:企业 AI 系统中知识该进提示词、记忆还是权重,不该靠逐级试错偶然决定,并给出诊断框架与循环架构。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Anant Srivastava"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"权重 (weights)"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"智能体 (agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"知识该放提示词、记忆还是权重?别靠偶然做架构决策","item":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble#post","headline":"知识该放哪？提示词、记忆还是微调？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble","description":"Anant Srivastava 讲企业 AI 系统的架构决策：提示词管行为、记忆管事实、微调管反射。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Anant Srivastava"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"权重 (weights)"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"智能体 (agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"知识该放哪？提示词、记忆还是微调？","item":"https://talk.solomind.cc/2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>知识该放提示词、记忆还是权重?别靠偶然做架构决策</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>知识该放哪？提示词、记忆还是微调？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 知识该放提示词、记忆还是权重?别靠偶然做架构决策
+# 知识该放哪？提示词、记忆还是微调？
 
 <div class="pd-byl"><b>Anant Srivastava</b> · 2026-10-07</div>
 
@@ -32,147 +32,145 @@ jsonLd: |
 >
 > **概念** [[提示词]] · [[记忆]] · [[权重]] · [[微调]] · [[RAG]] · [[智能体]]
 
-对于大多数企业级 AI 系统来说,真正有趣的工程问题不是模型本身——模型无非是消费 token、产出 token。
+企业 AI 系统里，真正难的工程问题往往不是模型本身。模型只是吃进文字、吐出文字，而你的知识散落在文件、数据库和接口里。
 
-你的知识存在于文件、数据库和 API 里,关键架构决策是:这些知识如何到达推理?
+[[Anant Srivastava|Anant Srivastava]] 在这场演讲里提出一个核心观点：
 
-是放进[[提示词|提示词]]或上下文,通过检索或[[记忆|记忆]]层,还是用[[微调|微调]]这类模型适配手段。
+知识如何到达模型——是放进[[提示词|提示词]]、放进检索和[[记忆|记忆]]层，还是通过[[微调|微调]]写进模型[[权重|权重]]——大多数团队是稀里糊涂决定的，而这不是一条越爬越高的梯子，而是3种工具，对应3种不同的工作。
 
-这一集的演讲者提出一个尖锐的判断:**大多数企业团队是靠偶然做出这个决策的**——知识放哪里不是被设计出来的,而是六个月正常产品工作累积出来的。
+## 团队是怎么意外做出架构决策的？
 
-**为什么会是偶然?两种机制。
+路径一很常见：模型答错了，先改提示词；还不对，就去查检索系统；再不行，干脆微调模型。
 
-** 显而易见的一种是团队逐级升级:模型答得不对,最简单的做法是去修提示词;还错,去看看记忆系统或检索系统;再不行,「那我们微调一下模型吧」。
+更隐蔽的是路径二：即使没人明确升级方案，团队其实每天都在做这类决策。改一次提示词，就把一部分行为放进了提示词；
 
-另一种更隐蔽:即使不主动升级的团队,其实每天都在做这些决策——你对提示词的每一次编辑、你索引的每一份文档、你固化进训练集的每一个样本,全都是架构决策,但没有一个被当成架构决策来对待。
+索引一份文档，就把一部分知识放进了记忆；挑一批训练样本，就把一些东西烧进了模型权重。
 
-**一场真实的事故**:一个内部支持助手刚发布,几周后产品经理改提示词修语气,又几周后支持团队把退款政策文档加进检索系统,然后一位工程师把产品目录塞进了提示词,最后机器学习团队用过去六个月的支持工单微调了模型。
+这些都是架构决策，只是没人这么称呼它。
 
-每一步看起来都没问题。
+他举了一个自己见过的真实剧本：一个内部客服助手上线后，产品经理改提示词调语气；
 
-但当新产品目录发布、大家顺手把它更新进提示词时,[[智能体|智能体]]却在报一些根本不存在的产品名——因为旧产品目录已经在你用支持工单微调时**泄漏进了[[权重|权重]]**。
+客服团队往检索系统里加退款政策文档；工程师把产品目录整个塞进提示词；
 
-没人负责整体,等于每个人都只拥有一块;没人问过那个诊断性问题:这个东西应该放在哪里?
+最后机器学习团队用半年前的客服工单微调模型。
 
-## 提示词:管行为,不管事实
+每一步单看都合理，但当新产品目录上线、替换掉提示词里的旧目录后，助手仍然报出根本不存在的产品名——因为旧目录在微调时渗进了模型权重。
 
-提示词的职责是行为、语气、智能体的角色设定——那些**小、稳定、可编辑**的东西。
+这就是那个意外：**架构是被半年里的日常工作一点点堆出来的，不是设计出来的**。
 
-它的错误职责是存储事实:把产品目录塞进提示词,是在不必要地给模型提供上下文并为之付出代价,而且 token 太多会撞上「迷失在中间」问题(模型对长上下文中段的信息利用率下降)。
+没有人为整体负责，也没人问过那个诊断性的问题——这个东西到底该放在哪。
 
-诊断标准:这个知识是否小、稳定,并且是关于「如何表现」而非「知道什么」?
+## 提示词的职责：行为、语气、人设
 
-好的例子是面向 SaaS 产品的客户支持智能体:专业语气、三次失败后转人工、给出具体下一步——这些不随查询和用户变化,正属于提示词。
+**提示词该放的是行为类内容：语气、人设、做事方式**——特点是体量小、稳定、便于随时修改。
 
-注意这里的提示词不只是 system prompt,包括你为模型撰写的一切指令(MD 文件之类也算)。
+提示词不该存事实。
 
-## 记忆:管最新的、大量的、可溯源的知识
+把产品目录塞进提示词，等于白白给模型塞上下文、为此付费，而且上下文太长还会碰到迷失在中间的问题——模型对放在长文本中部的信息视而不见。
 
-记忆的职责是让模型立足于**当前、大量、可溯源**的知识:「当前」指变化比你能微调的速度还快;「大量」指放不进提示词;「可溯源」指生产级系统需要能指出知识的来源。
+判断标准很简单：这段知识是不是小而稳定，而且讲的是该怎么表现而不是该知道什么。
 
-这里的记忆既包括智能体记忆(关于交互者的知识),也包括用 [[RAG|RAG]] 检索的外部记忆(由外部应用管理的企业知识)。
+比如一个 SaaS 产品的客服代理：专业语气、失败3次后转人工、给出具体下一步——这些每次对话都一样，就该住在提示词里。
 
-记忆的错误职责是硬塞行为或指望它帮模型推理——图谱式 RAG 顶多帮一点,如果模型推不动两三个文档,给它 50 个文档的上下文也没用。
+## 记忆的职责：大、常变、可引用
 
-诊断标准:知识是不是太大放不下?变化是不是比重新训练还快?是否按用户或仓库划定了范围、需要访问控制?
+记忆（包括通过检索增强接入的外部知识库，和代理自己对用户的记忆）该放的是当前、庞大、可引用的知识。
 
-有访问控制的知识必须放记忆,因为这样你才能控制谁看到什么。
+当前，指变化速度比你微调的节奏还快；庞大，指塞不进提示词；可引用，指生产系统的答案必须能指出来源。
 
-好例子是能访问组织所有代码仓库的代码助手:你不会微调模型去学代码(它一直在变),也不会把整个代码库塞进提示词——通常你微调模型是让它学**反射,而不是事实**。
+记忆不该承担行为，更不该指望靠堆上下文来补推理能力。「如果模型连推理3份文档都做不到，给它50份也没用」。
 
-构建代码 RAG 时,要用基于 AST(代码语法树)的、能感知代码结构的分块,并给每个代码块打上元数据:属于哪个仓库、哪些用户有提交权限——否则你会制造一锅「RAG 糊糊」,从数据库返回大量代码块把模型搞糊涂。
+推理不行，该换模型。
 
-## 权重:只放停止变化的东西
+另外，凡是涉及权限控制的知识——这个用户不能看那个用户的数据——必须放记忆层，因为只有在那里才能控制谁看到什么。
 
-什么属于权重?**停止变化的东西**——唯一依据是变化速率。
+好的例子是代码助手：它可以访问公司全部代码仓库。==你会微调模型去记住代码吗==？不会，代码天天在变。
 
-而且必须有非常充分的理由才去重新训练;搞错了就会把一个还在移动的边界冻结住。
+你会把整个代码库塞进提示词吗？也不会。这里他给了两条实操建议：用基于抽象语法树的代码感知分块来做切分；
 
-反例:内部文档助手答不对,团队决定用运行手册和流程文档微调模型来「教会它这个领域」——但运行手册和流程是事实,属于外部记忆;答不对其实是检索问题,该修的是检索,不是微调(微调完你得到的是过时信息)。
+给每个代码块做反规范化处理，标注它属于哪个仓库、谁能提交——用元数据过滤，才能取到真正需要的块，而不是返回一堆检索糊，把模型都搞糊涂。
 
-另一个反例:医疗理赔编码(ICD-10 这类把医生笔记映射到编码的体系,有 7 万个编码)——你会微调模型去学它们吗?
+## 微调的职责：只固化不再变化的东西
 
-不会,那是事实和知识,而且微调需要大量训练数据;你微调的是**反射**:理解输入格式、在多种格式间做出正确选择。
+权重里该放什么？答案出人意料地简单：已经停止变化的东西。决定性的唯一指标是变化速度。
 
-正例:内容审核或理赔处理这类困难、模糊的问题。
+但要小心，问题往往比「没人会拿价格表去微调」更隐蔽。
 
-先用前沿模型做推荐、人来纠正(尽管纠正得不一致),一段时间后模式浮现——会出现一个相当稳定的「核心」和一个仍需人工的「争议边缘」,人工覆盖率在某个点之后趋于平缓。
+一个常见翻车现场：内部文档助手答得不好，团队决定教它领域知识，于是拿文档、操作手册和流程规范去微调。
 
-那个稳定的核心就是可以微调的东西,但微调后必须持续监控核心有没有漂移。
+结果模型开始输出过时的信息。其实那本来是个检索问题——模型缺的是对的文档片段，团队却去微调了模型。
 
-微调的诊断标准:**信息是否已停止变化?人是否已收敛?
+他的建议直白：如果模型答不对，去修检索问题，别急着自己去微调模型。
 
-** 更重要的是,你得有这两个理由之一:是因为模型能力不够,还是为了省成本?
+反过来的正例是内容审核、理赔处理这类模糊难题：起步时用前沿模型给建议，人工纠错。
 
-很多时候不是能力问题——前沿模型已经很强,通常归根结底是成本:如果你的工作模式清晰,可以用小模型微调后低成本跑大量请求。
+一段时间后模式浮现——中间一大块变得稳定，人工改判率趋平；剩下一条仍有争议的边缘地带需要人。
 
-## 一张表和一套循环架构
+那个稳定的中心，才是可以拿去微调的素材。微调之后还要监控漂移：中心一旦移动，麻烦就来了。
 
-如果只能记住一样东西,就是这张「透镜」表:提示词关于行为,记忆关于知道什么和事实,权重关于如何推理。
+医疗理赔编码是个更具体的例子。Mount Sinai 和 IMO Health 的场景里，医生笔记要映射到 ICD-10 编码，共约 70000 个编码。
 
-可以拿你当前的 AI 系统对照它来做决策(当然允许例外)。
+编码本身是事实、偶尔还会变、还得海量训练数据才学得动——不该微调。
 
-更进一步,这三者不该是静态划分,而要**循环流转**:提示词/上下文窗口里的信息生成信号,其中一些沉淀为持久化记忆;新会话启动时,记忆又被提取进提示词;而智能体系统运行一段时间后会浮现检索模式和「模型应该反射性知道」的格式,这些从记忆转入微调(记忆→权重);微调完成后又反过来改变什么值得检索——模型已反射性掌握笔记和 ICD 编码的格式后,你就不必每次从记忆里检索示例喂给它了(权重→记忆)。
+该微调的是反射：让模型熟悉输入的格式、 reflexively 在格式之间做出正确选择。
 
-整个系统因此形成一个循环,智能体通过做它的工作而在工作中变得更好。
+微调前先问自己两个问题之一：是模型能力不够，还是为了省钱？
 
-结语一句话:**模型是容易的部分**。
+很多时候不是能力问题——前沿模型已经很强，通常是为了成本：有了稳定的模式，可以用小模型微调后便宜地跑量。
 
-你在模型周围构建的 harness——帮你在正确的位置存储正确的信息、并让信息在三者之间循环流转的那一层——才是你必须构建的关键架构。
+## 三者不是梯子，而是一个循环
+
+一张表总结：提示词管行为，记忆管知道什么，权重管怎么推理。
+
+但架构不止是静态分工，还是流动的。
+
+上下文窗口里的信息会产生信号，有些沉淀为记忆；新会话开始时，记忆又被取出、注入上下文。
+
+随着系统运行，那些模型应该条件反射式掌握的格式和模式，会从记忆沉淀到微调；
+
+而微调完成后，模型已经内化了格式，你就不用每次都检索示例塞给它了——什么值得检索也随之改变。
+
+久而久之这成了循环：代理靠干活本身，越干越熟练。
+
+他的结论是：**模型是容易的部分，真正要造的是模型外面那层挽具**——把对的信息放到对的地方，并让它们流动起来。
 
 ## 本集带走
 
-- **别靠升级路径做架构**:修提示词→改检索→微调的逐级试错,会让知识在不知不觉中「泄漏进权重」;每一次提示词编辑、文档索引、训练样本选择,都要当成架构决策来问「这该放在哪里」。
-- **提示词放行为**:小、稳定、关于「如何表现」的内容(语气、角色、流程规则);事实和产品目录塞进提示词是花钱买「迷失在中间」。
-- **记忆放事实**:太大放不下、变化比微调快、需要按用户/仓库做访问控制的知识;RAG 要做代码感知分块 + 元数据过滤,否则产出「RAG 糊糊」。
-- **权重只放停止变化的东西**:用「信息是否停止变化、人是否收敛」判断;微调只该为两个理由——能力缺口或省成本(用小模型微调后低成本跑量);微调后持续监控漂移。
-- **三者要成循环**:上下文沉淀为记忆、模式从记忆转入权重、微调反过来减少检索——围绕模型建 harness,而不是围着模型修修补补。
+- 知识放哪里要按职责判断：提示词放行为，记忆放事实，微调固化已停止变化的模式和反射。
+- 决定微调与否的核心指标是变化速度；答案不对先修检索，别急着微调。
+- 涉及权限控制的知识必须留在记忆层，才能控制谁看到什么。
+- 架构是循环不是梯子：上下文沉淀为记忆，稳定的模式沉淀为权重，微调后又改变该检索什么。
+- 每次改提示词、索引文档、挑训练样本，都是在做架构决策——只是大多数团队没意识到。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">今天,我要论证的是:大多数企业团队是靠偶然做出这个决策的。</span>  
 > *Today, I'm going to argue that this is a decision that most enterprise teams make by accident.*  
 > <span class="qm">—— Anant Srivastava · [00:53]</span> ^q1
 
-> <span class="qz">你的架构是累积出来的,不是被设计出来的。这就是那场事故。</span>  
-> *Your architecture was accumulated. It was not designed. That is the accident.*  
-> <span class="qm">—— Anant Srivastava · [04:36]</span> ^q2
+> <span class="qz">嗯,因为当你用支持工单微调时,产品目录已经泄漏进权重里了。</span>  
+> *Well, the product catalog leaked into the weights when you fine-tuned it on your support tickets.*  
+> <span class="qm">—— Anant Srivastava · [04:23]</span> ^q2
 
-> <span class="qz">提示词的错误职责是存储事实。</span>  
+> <span class="qz">没有人负责它,意思是每个人都拥有它的一部分。</span>  
+> *Nobody owned it, meaning everybody owned a piece of it.*  
+> <span class="qm">—— Anant Srivastava · [04:49]</span> ^q3
+
+> <span class="qz">prompt 的错误职责是存储事实。</span>  
 > *The wrong job for the prompt is to store facts.*  
-> <span class="qm">—— Anant Srivastava · [05:31]</span> ^q3
-
-> <span class="qz">因为如果你的模型无法对两三个或五个文档进行推理,那它也无法对你提供的 50 个文档进行推理。</span>  
-> *Because if your model cannot reason over two or three or five documents, it won't be able to reason over 50 that you provide.*  
-> <span class="qm">—— Anant Srivastava · [08:33]</span> ^q4
+> <span class="qm">—— Anant Srivastava · [05:31]</span> ^q4
 
 > <span class="qz">通常,你会微调你的模型去学习反射,而不是事实。</span>  
 > *You'd fine-tune your model to learn reflexes, not facts, typically.*  
 > <span class="qm">—— Anant Srivastava · [09:43]</span> ^q5
 
-> <span class="qz">以及所有这些——因为正是这些能帮助你获取你需要的精确数据,而不是制造一锅 RAG 糊糊,从数据库返回大量代码块然后让模型感到困惑。</span>  
-> *And all that, because that is what is going to help you get the exact data that you need versus creating a rag mush where you are returning a lot of chunks back from the database and then confusing the model.*  
-> <span class="qm">—— Anant Srivastava · [10:42]</span> ^q6
-
-> <span class="qz">而你最终很可能呈现这样一种模式:有一个你仍然需要人的争议边缘,但有一个相当稳定的核心。</span>  
-> *And you will most likely emerge in a pattern where you have a contested edge where you still need humans, but a center which is pretty stable.*  
-> <span class="qm">—— Anant Srivastava · [14:42]</span> ^q7
-
-> <span class="qz">很多时候,问题不在于能力。前沿模型的能力相当强,通常归根结底是成本。</span>  
-> *And a lot of times, it's not capability. Frontier models are quite capable. It usually comes down to cost.*  
-> <span class="qm">—— Anant Srivastava · [16:37]</span> ^q8
-
-> <span class="qz">这可能会有例外,但提示词更多是关于行为,记忆是关于要知道什么和事实,而权重是关于如何推理。</span>  
-> *There can be exceptions to this, but prompt is more about behavior, memory is about what to know and facts, and weights are about how to reason.*  
-> <span class="qm">—— Anant Srivastava · [17:20]</span> ^q9
+> <span class="qz">微调的诊断标准是:信息是否已经停止变化?</span>  
+> *Fine-tuning is, has the information stopped changing?*  
+> <span class="qm">—— Anant Srivastava · [16:18]</span> ^q6
 
 > <span class="qz">所以我想以这句话作结:模型是容易的部分。</span>  
 > *So what I would like to conclude with is the model is the easy part.*  
-> <span class="qm">—— Anant Srivastava · [19:31]</span> ^q10
-
-> <span class="qz">你在模型周围构建的东西——模型周围的 harness,它帮助你在正确的位置存储正确的信息并让它们之间循环流转——这才是你必须构建的关键架构。</span>  
-> *What you build around the model, the harness around the model that helps you store the right information at the right place and circulate among them is the key architecture that you've got to build.*  
-> <span class="qm">—— Anant Srivastava · [19:38]</span> ^q11
+> <span class="qm">—— Anant Srivastava · [19:31]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

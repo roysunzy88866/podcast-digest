@@ -41,7 +41,7 @@ unlisted: true
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(10:59起):本集说 Slack 是 Eve 最重要的渠道之一，Vercel 自称「一家 Slack 公司」，对话式智能体主要走 Slack。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(01:32起):本集说工厂工作在公开的 Slack 频道里启动和围观，多次重新提示等人工交互也计入度量
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(25:53起):本集在列举她当年按三条标准筛选出的公司名单时顺带提到。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(00:30起):本集说站点看她来自哪个 Slack 频道、推断她是 sites 团队的人;Kath 明令禁止模型替她在 Slack 上署名发消息以守护自己的声音
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(00:30起):本集说站点看她来自哪个 Slack 频道、推断她是 sites 团队的人;Kath 明令禁止模型替她在 Slack 上署名发消息以守护自己的声音
 
 ## ① 提到它的金句
 
@@ -95,7 +95,7 @@ unlisted: true
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司(提及)
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司(提及)
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

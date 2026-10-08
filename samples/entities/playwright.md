@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(19:06起):本集把它说成:一种非常好的自动化测试工具，可用于为网站截图，嘉宾凭经验引导 AI 使用它替代外部截图服务以优化技术选型。
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(10:17起):浏览器自动化工具，因为 VS Code 是跑在 Electron 里的网页应用（全是 HTML），他们用它做 slash launch 技能，让智能体打开应用、点击走完场景、拿日志自我验证修复
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(10:17起):浏览器自动化工具，因为 VS Code 是跑在 Electron 里的网页应用（全是 HTML），他们用它做 slash launch 技能，让智能体打开应用、点击走完场景、拿日志自我验证修复
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为概念
 
 ## ③ 关联
 

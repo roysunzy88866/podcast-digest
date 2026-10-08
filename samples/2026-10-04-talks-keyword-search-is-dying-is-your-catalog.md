@@ -1,12 +1,12 @@
 ---
-title: "智能体来了,你的商品目录还没准备好:PayPal 的实验与心得"
+title: 关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗
 podcast: 精选演讲
 date: 2026-10-07
 source_url: undefined
 duration: "15:56"
 type: episode
 cover: "#64748b"
-description: "PayPal 智能体商务产品总监 Nixon Dinh 讲解为什么商品目录必须为 AI 智能体重建,并分享数据丰富实验:内容质量胜过品牌。"
+description: PayPal 代理商务产品负责人 Nixon Dinh 讲解 AI 代理如何重塑购物，以及商家该怎么改造商品目录。
 host: "[[Nixon Dinh]]"
 companies: ["[[PayPal]]"]
 concepts: ["[[智能体]]", "[[智能体商务]]", "[[Catalog]]", "[[语义搜索]]", "[[关键词搜索]]", "[[丰富]]", "[[SEO]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog#post","headline":"智能体来了,你的商品目录还没准备好:PayPal 的实验与心得","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog","description":"PayPal 智能体商务产品总监 Nixon Dinh 讲解为什么商品目录必须为 AI 智能体重建,并分享数据丰富实验:内容质量胜过品牌。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Nixon Dinh"},{"@type":"Organization","name":"PayPal"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体商务 (agentic commerce)"},{"@type":"Thing","name":"Catalog"},{"@type":"Thing","name":"语义搜索 (semantic search)"},{"@type":"Thing","name":"关键词搜索 (keyword search)"},{"@type":"Thing","name":"丰富 (enrichment)"},{"@type":"Thing","name":"SEO"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"智能体来了,你的商品目录还没准备好:PayPal 的实验与心得","item":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog#post","headline":"关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog","description":"PayPal 代理商务产品负责人 Nixon Dinh 讲解 AI 代理如何重塑购物，以及商家该怎么改造商品目录。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Nixon Dinh"},{"@type":"Organization","name":"PayPal"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体商务 (agentic commerce)"},{"@type":"Thing","name":"Catalog"},{"@type":"Thing","name":"语义搜索 (semantic search)"},{"@type":"Thing","name":"关键词搜索 (keyword search)"},{"@type":"Thing","name":"丰富 (enrichment)"},{"@type":"Thing","name":"SEO"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗","item":"https://talk.solomind.cc/2026-10-04-talks-keyword-search-is-dying-is-your-catalog"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体来了,你的商品目录还没准备好:PayPal 的实验与心得</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 智能体来了,你的商品目录还没准备好:PayPal 的实验与心得
+# 关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗
 
 <div class="pd-byl"><b>Nixon Dinh</b> · PayPal 智能体商务产品总监 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-04-talks-keyword-search-is-dying-is-your-catalog.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">他们预测,到 2030 年,所有商务的 15% 到 25% 将由智能体执行。</div><div class="a">— Nixon Dinh <button class="pd-ts" data-t="04:46" data-who="Nixon Dinh" data-en="They project that by 2030, 15% to 25% of all commerce will be executed by an agent." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">所以你现在用自己的话表达你的需求，而 AI 被要求在你所在之处满足你。</div><div class="a">— Nixon Dinh <button class="pd-ts" data-t="03:24" data-who="Nixon Dinh" data-en="So you are now expressing your needs in your own words and AI is now asked to meet you where you are." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Nixon Dinh]]
@@ -35,132 +35,113 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[智能体商务]] · [[Catalog]] · [[语义搜索]] · [[关键词搜索]] · [[丰富]] · [[SEO]]
 
-这一集聊的是一个正在发生但很多人还没察觉的变化:当消费者开始让 AI [[智能体|智能体]]替他们搜索和推荐商品,商家的[[Catalog|商品目录]](catalog)——就是那份描述你卖什么东西的数据——根本没为这个时代准备好。
+[[PayPal|PayPal]] 负责代理商务（Agentic Commerce）的产品总监 [[Nixon Dinh|Nixon Dinh]]，在一场演讲中分享了 PayPal 做的一组实验：
 
-说这话的人是 [[Nixon Dinh|Nixon Dinh]],[[PayPal|PayPal]] [[智能体商务|智能体商务]](Agentic Commerce)的产品总监,职业生涯一直在商务和支付领域,现在专门负责 AI 智能体如何重塑购物与支付。
+把商家的商品数据加料之后，AI 代理会不会更愿意推荐你的商品？答案是会，但有个前提——**加得对，而不是加得多**。
 
-先说他给出的最扎心的一组数字:贝恩公司(Bain & Co.)预测,到 2030 年,所有商务的 15% 到 25% 将由智能体执行;而且十年之内,在线的智能体数量预计会超过人类 <button class="pd-ts" data-t="04:46" data-who="Nixon Dinh" data-en="The first is through a study at Bain &amp; Co. They project that by 2030, 15% to 25% of all commerce will be executed by an agent. And furthermore, within a decade, agents are predicted to outnumber humans online." aria-label="回原文"></button>。
+## 购物行为正在从搜索时代走向意图时代
 
-行业层面还预计美国零售业将有 1 万亿美元的商务以智能体方式进行,全球是 3 万亿到 5 万亿美元,未来几年有超过 20 亿用户会用 AI 来开启购物之旅 <button class="pd-ts" data-t="05:35" data-who="Nixon Dinh" data-en="As an industry, we expect to be some very tangible opportunities coming forward. We expect $1 trillion of commerce to happen in US retail to be agentic. And then we expect that to be $3 trillion to $5 trillion globally." aria-label="回原文"></button>。
+过去十年，网购的逻辑是关键词：用户输入蓝色跑鞋，在目录里翻找，靠搜索引擎优化找到结果。
 
-这些数字说明这不是边际变化,而是整个电商生态的结构性转型。
+这套模式的负担全在购物者身上——你得自己想办法找到想要的东西。
 
-## 消费者行为的三个时代
+现在情况在变。Dinh 把这叫做**从搜索时代进入意图时代**：你不再敲关键词，而是直接说「我女儿九月上五年级，我要买开学用品」。
 
-要理解为什么,得看购物方式正在怎么变。Nixon 把它分成三个阶段:
+AI 需要理解你的处境，品牌主动来找你，而不是你去找品牌。<button class="pd-ts" data-t="03:07" data-who="嘉宾" data-en="Now what we're seeing is that we're moving into this phase called the intent error. So instead of typing keywords like, I want school supplies, I might say something like, you know, my daughter's starting school in September in fifth grade and I need to shop back to school." aria-label="回原文"></button>
 
-**搜索时代(search era)**:用户敲关键词、自己翻商品目录,商家做 [[SEO|SEO]] 优化。
+## 数字说明这不是遥远未来
 
-这套模式过去十年行之有效,但它把「找到自己需要的东西」这个负担压在了购物者身上 <button class="pd-ts" data-t="02:40" data-who="Nixon Dinh" data-en="That behavior up until today has been now what we're calling the search era. It goes through a phase where it's keywords, you're navigating a catalog, there's SEO strategies, and this is what most businesses have optimized towards over the last decade." aria-label="回原文"></button>。
+Bain & Co 的研究预测，到 2030 年，15% 到 25% 的交易将由 AI 代理完成，十年内代理数量可能超过在线的人类。
 
-**意图时代(intent era)**:现在正在发生。
+行业预计美国零售中有 1 万亿美元的交易会走代理渠道，全球是 3 到 5 万亿美元。<button class="pd-ts" data-t="05:35" data-who="嘉宾" data-en="As an industry, we expect to be some very tangible opportunities coming forward. We expect $1 trillion of commerce to happen in US retail to be agentic. And then we expect that to be $3 trillion to $5 trillion globally." aria-label="回原文"></button>
 
-你不再输入「学习用品」,而是说「我女儿九月上五年级了,我要采购返校用品」——你用自己的话表达需求,AI 被要求在你所在之处满足你,品牌来找你,而不是你去找品牌。
+更现实的信号：PayPal 的商家报告来自 AI 引擎的推荐流量增长了 693%；消费者调研显示 **39% 的美国购物者已经在用 AI 购物**；
 
-这是完全不同的交互模型 <button class="pd-ts" data-t="03:24" data-who="Nixon Dinh" data-en="And that's a very completely different interaction. So you are now expressing your needs in your own words and AI is now asked to meet you where you are. And so the brands are coming to you instead of you having to go find them." aria-label="回原文"></button>。
+而且如果购物旅程从与代理对话开始，订单完成率最高可达原来的 4 倍。<button class="pd-ts" data-t="06:07" data-who="嘉宾" data-en="When we think through this, what does this actually mean for businesses and merchants? When we talk to our customers and what we talk to our partners, what we've seen is six, what they've reported is that over 693% referral traffic from AI engines." aria-label="回原文"></button>
 
-**委托时代(delegation era)**:接下来。一旦客户开始信任智能体的推荐,他们就会把越来越多的购物操作委托给智能体。
+## 问题：商品目录根本不是为 AI 造的
 
-PayPal 自己就在朝这个方向构建——持续建立信任,让人类把商务任务越来越多地交给智能体 <button class="pd-ts" data-t="04:09" data-who="Nixon Dinh" data-en="And once that trust starts to build, we do start to believe that they will start delegating more and more actions to their agents. And that's also where, as PayPal, we're building towards is continue to build on that trust and move into a world where humans start to delegate more and more of their tasks in commerce and shopping to their agents." aria-label="回原文"></button>。
+大多数商家的[[Catalog|商品目录]]是为 Google、Meta 这类广告平台设计的，规范里从来没考虑过让 AI 代理读懂。
 
-流量转移已经有实证:PayPal 的客户和合作伙伴报告,来自 AI 引擎的推荐流量增长了超过 693%;消费者调研显示 39% 的美国购物者已经在用 AI 购物;而且率先与智能体互动的企业,订单完成转化率最高能到四倍,因为智能体能获取更[[丰富|丰富]]深入的产品数据 <button class="pd-ts" data-t="06:18" data-who="Nixon Dinh" data-en="When we talk to our customers and what we talk to our partners, what we've seen is six, what they've reported is that over 693% referral traffic from AI engines." aria-label="回原文"></button>。
+代理用什么模型、怎么排序、怎么推荐，对商家来说基本是黑盒——不同模型用不同算法，向量检索的结果也不总是确定的。
 
-## 问题:目录不是为智能体建的
+旧世界的搜索引擎优化有明确打法，新世界的策略还很模糊。<button class="pd-ts" data-t="08:21" data-who="嘉宾" data-en="And then to compound that even more, The models that agents use are still, for the most part, a black box. Agents can use different varying models to make their decisions." aria-label="回原文"></button>
 
-那么商家该怎么办?
+不知道怎么办？做实验。PayPal 于是动手给商家商品数据做增强，观察代理怎么搜索和推荐。
 
-在搜索时代,玩法是 SEO;在意图时代,你得让代表你业务的智能体能「发现」你;在委托时代,你得安全、可信地转化这些需求 <button class="pd-ts" data-t="07:11" data-who="Nixon Dinh" data-en="In the search era, this was very SEO-based, and you might optimize for a sum address. In the intent era, you have to think through, how do I be discoverable for where an agent is representing my business?" aria-label="回原文"></button>。
+## 关键词搜索和语义搜索是两回事
 
-挑战就是:消费者在哪里互动,你就要在哪里保持可见。
+[[关键词搜索|关键词搜索]]匹配字面：搜蓝色跑鞋，只有包含这些词的结果会出来。
 
-麻烦在于,现有目录做不到。
+精确、快、可预测，但会漏掉意图——搜慢跑鞋类可能找不到那双跑鞋，因为词对不上。
 
-大多数商家把目录同步给 Google、Meta 这些广告平台,但那套规范是为人类搜索建的,不是为智能体——智能体难以发现产品,读起来也不友好 <button class="pd-ts" data-t="07:45" data-who="Nixon Dinh" data-en="And so the challenge becomes to think through is like as commerce moves to AI agents, how do you as a business be visible where the consumers interact? The issue with this is that catalogs weren't really built for agents." aria-label="回原文"></button>。
+[[语义搜索|语义搜索]]匹配含义：查询被转成代表意图的向量，搜「马拉松训练穿起来舒服的东西」，跑鞋也能被找到，哪怕一个词都没对上。
 
-更麻烦的是,智能体背后的模型大多还是黑盒:不同模型用不同的排名、推荐和算法,向量数据库检索(按语义相似度找数据的方式)也不总是确定性的。
+好处是覆盖面广，坏处是意义注太多会失焦，模型甚至会开始胡编。<button class="pd-ts" data-t="10:06" data-who="嘉宾" data-en="And that's only simply because of words that match. Whereas with semantic search, it matches based off meaning. What it does is it converts the query into vectors that create meanings of intent." aria-label="回原文"></button>
 
-旧的 SEO 世界有明确策略,新世界的策略在很大程度上还不明确 <button class="pd-ts" data-t="08:49" data-who="Nixon Dinh" data-en="And because of all of this, how do you decide as a business what model do you optimize for? In the old SEO world, there was a clear strategy. In this new world, the strategies still remain largely unclear." aria-label="回原文"></button>。
+Dinh 的结论是：**两者不是二选一，要结合起来用**。
 
-不知道答案怎么办?做实验。
+## PayPal 的实验：加料有效，但别加过头
 
-## 实验前的共识:关键词搜索 vs 语义搜索
+实验的做法是给商品数据补充属性、加深描述、加入买家场景、信任信号（比如评论）和产品身份。
 
-PayPal 丰富了部分商家的产品数据,观察智能体如何搜索和推荐。
+举个例子：原来是男鞋 8543，蓝色，多尺码；增强后变成男士轻量跑鞋，缓震、透气、网面材质、尺码标准，再附上评论数据。
 
-先要分清两种搜索:[[关键词搜索|关键词搜索]]匹配字面上的词,精确、快、可预测,但错过意图——你搜「慢跑用的鞋类」,它可能不会返回跑鞋,只因词不匹配。
+这样一来，跑鞋、训练、网面这些语义都能被匹配到。<button class="pd-ts" data-t="12:10" data-who="嘉宾" data-en="And so here's just an example of enrichment in action for us. Example we're starting with, we have men's shoe model 8543 that's blue. And then the description will be blue running shoes, available multiple sizes." aria-label="回原文"></button>
 
-[[语义搜索|语义搜索]]则把查询转换成承载意图含义的向量(一组表达语义的数字),你搜「适合马拉松训练的舒适的东西」也能找到跑鞋,哪怕查询里一个相关词都没有。
+结果：和未增强的基线对比，**增强后的数据在推荐中总是胜出**。
 
-但它模糊,注入太多含义会失去焦点并产生幻觉 <button class="pd-ts" data-t="10:30" data-who="Nixon Dinh" data-en="And so you might type something, oh, I'm searching for something comfortable for marathon training, and you might find your running shoes, even though none of those words exist in the search query." aria-label="回原文"></button>。
+而且越瘦的目录收益越大——原本商品数据薄弱的商家，提升空间最大。<button class="pd-ts" data-t="13:35" data-who="嘉宾" data-en="And at its core, yes, it does. What we saw was an unenriched baseline, like when it went head to head, it just completely underperformed. We found that merchants with the thinnest catalogs tend to gain the most." aria-label="回原文"></button>
 
-一句话:关键词很字面,语义很聪明但很模糊——答案不是二选一,而是两者结合的混合方案 <button class="pd-ts" data-t="10:59" data-who="Nixon Dinh" data-en="And realistically, the real answer isn't an either or. It's combining both, which is exactly what our hybrid approach does. And that's kind of where we're headed next." aria-label="回原文"></button>。
+但有两个警告。第一，赢的是内容质量，不是数据格式，更不是字数。
 
-## 实验结果:丰富有效,但多≠好
+第二，塞太多非结构化内容反而会稀释信号——「欢迎光临本店，我们是家族企业」这类套话对代理毫无用处，过度增强时代理更容易胡编，表现反而变差。<button class="pd-ts" data-t="14:50" data-who="嘉宾" data-en="But there is a balance to how much you want to enrich to improve semantic retrieval. And while this is only one set of experiments, we did find that enriching Head-to-head, always improved recommendations." aria-label="回原文"></button>
 
-丰富(enrichment)的意思是往原始数据里补充信息:填充属性、加深描述、加买家上下文和信任信号、补充产品身份信息。
+## 商家现在该做什么
 
-一个实际例子:原始数据是「男鞋型号 8543,蓝色跑鞋,多尺码有售」——对语义搜索来说几乎没有上下文。
+Dinh 给的起点很朴素：先评估自己的目录。你的商品数据是偏薄还是参数齐全？
 
-丰富之后,标题变成「男士轻量跑鞋」,描述加上缓震、透气、网面材质、尺码标准,还放进评论数据。
+不同起点对应不同的增强策略，没有放之四海皆准的方案。
 
-现在搜索能匹配跑步、训练、网面等大量语义 <button class="pd-ts" data-t="12:32" data-who="Nixon Dinh" data-en="And then for semantic, there's very little context for that. When you enrich, now we might have the title as a men's lightweight running shoe. The description is now more enriched." aria-label="回原文"></button>。
-
-实验结论,原话是「丰富是有效的」<button class="pd-ts" data-t="15:17" data-who="Nixon Dinh" data-en="We don't have a concrete recommendation for every business, but a good place to start is just to assess your catalog and figure out the right strategy for that." aria-label="回原文"></button>:
-
-- 正面对比时,未丰富的基线完全跑输;**目录最单薄的商家获益最大**,产品数据弱的商家提升空间也最大 <button class="pd-ts" data-t="13:41" data-who="Nixon Dinh" data-en="What we saw was an unenriched baseline, like when it went head to head, it just completely underperformed. We found that merchants with the thinnest catalogs tend to gain the most." aria-label="回原文"></button>。
-- 但真正驱动结果的是**内容质量,不是 schema(数据的结构规范)**——堆砌非结构化数据反而会稀释信号。像「欢迎来到我们的店铺,我们是家族企业」这种模板套话,对智能体来说常常是无关噪音 <button class="pd-ts" data-t="13:51" data-who="Nixon Dinh" data-en="Merchants with weak product data also had the most room to improve. But I think what we needed to also understand is that it's all about content quality that drives the results, and it's not the schema that actually, and actually piling on unstructured data can actually dilute the signal as well." aria-label="回原文"></button>。
-- 丰富有助于关键词搜索,但语义检索需要一套很不一样的数据结构,而且丰富到什么程度有平衡点:某些情况下**过度丰富会让智能体产生更多幻觉、表现更差** <button class="pd-ts" data-t="14:59" data-who="Nixon Dinh" data-en="Head-to-head, always improved recommendations. What we had found in some cases, when we over-enriched, the agent tended to hallucinate more, and it underperformed." aria-label="回原文"></button>。
-- 没有一刀切的方案——正确的做法取决于你起步时目录长什么样,好的起点是先评估自己的目录,再定策略 <button class="pd-ts" data-t="11:52" data-who="Nixon Dinh" data-en="And I won't go through all of them in detail, but things around like filling attributes, making sure there's description depth, make sure there's buyer context and trust signals and even some product identity." aria-label="回原文"></button>。
+一句话总结他的演讲：增强有效，评估目录结构，更多文字不等于更好——AI 奖励的是结构化的高质量内容，而不是品牌名气。<button class="pd-ts" data-t="15:17" data-who="嘉宾" data-en="We don't have a concrete recommendation for every business, but a good place to start is just to assess your catalog and figure out the right strategy for that." aria-label="回原文"></button>
 
 ## 本集带走
 
-- **智能体商务的量级已经不容忽视**:贝恩预测 2030 年 15%-25% 的商务由智能体执行,十年内在线智能体数量将超过人类——这是结构性转型,不是边际变化。
-- **你现有目录是为人类搜索建的**:同步给 Google/Meta 的那套规范,智能体难以发现、难以读取,需要专门为语义检索准备数据。
-- **先评估自己目录的「厚薄」再动手**:目录越单薄、数据越弱,丰富带来的提升越大;丰富模式(属性填充、描述深度、买家上下文、信任信号)要按起点选,没有一刀切。
-- **内容质量赢,内容数量输**:结构化的优质内容才能改善推荐,模板化套话和堆砌文字会稀释信号;过度丰富还会让智能体幻觉更多、表现更差。
-- **AI 奖励内容质量,不奖励品牌**:这是个新玩家的机会窗口,但信任信号同样在优化范围内,别只顾产品描述。
+- 到 2030 年，15%–25% 的交易预计将由 AI 代理完成；39% 的美国购物者已在用 AI 购物。
+- 购物正从关键词搜索转向意图表达，品牌要让代理能代表自己被发现。
+- 大多数商品目录是为人类搜索和广告平台设计的，AI 代理读不好。
+- PayPal 实验：增强商品数据（属性、描述、评论、信任信号）能稳定提升被推荐的概率；目录越薄收益越大。
+- 内容质量是关键——塞套话和垃圾文本会稀释信号，过度增强甚至让 AI 胡编。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
-> <span class="qz">他们预测,到 2030 年,所有商务的 15% 到 25% 将由智能体执行。</span>  
+> <span class="qz">所以你现在用自己的话表达你的需求，而 AI 被要求在你所在之处满足你。</span>  
+> *So you are now expressing your needs in your own words and AI is now asked to meet you where you are.*  
+> <span class="qm">—— Nixon Dinh · [03:24]</span> ^q1
+
+> <span class="qz">他们预测，到 2030 年，所有商务的 15% 到 25% 将由智能体执行。</span>  
 > *They project that by 2030, 15% to 25% of all commerce will be executed by an agent.*  
-> <span class="qm">—— Nixon Dinh · [04:46]</span> ^q1
+> <span class="qm">—— Nixon Dinh · [04:46]</span> ^q2
 
-> <span class="qz">此外,在十年内,智能体在线数量预计将超过人类。</span>  
+> <span class="qz">此外，在十年内，智能体在线数量预计将超过人类。</span>  
 > *And furthermore, within a decade, agents are predicted to outnumber humans online.*  
-> <span class="qm">—— Nixon Dinh · [04:53]</span> ^q2
+> <span class="qm">—— Nixon Dinh · [04:53]</span> ^q3
 
 > <span class="qz">我们预计美国零售业将有 1 万亿美元的商务以智能体方式进行。</span>  
 > *We expect $1 trillion of commerce to happen in US retail to be agentic.*  
-> <span class="qm">—— Nixon Dinh · [05:35]</span> ^q3
+> <span class="qm">—— Nixon Dinh · [05:35]</span> ^q4
 
-> <span class="qz">当我们与客户和合作伙伴交谈时,他们报告的是超过 693% 来自 AI 引擎的推荐流量。</span>  
-> *when we talk to our customers and what we talk to our partners, what we've seen is six, what they've reported is that over 693% referral traffic from AI engines.*  
-> <span class="qm">—— Nixon Dinh · [06:07]</span> ^q4
-
-> <span class="qz">我们还发现,当你率先与智能体互动时,企业往往能看到高达四倍的订单完成转化率,因为现在他们可以获得更丰富、更深入的产品数据。</span>  
-> *And what we have found also is that when you do start and interact with an agent first, businesses have tend to see up to four times higher conversion on a completion of an order because now they can get more rich and in-depth data on a product.*  
-> <span class="qm">—— Nixon Dinh · [06:30]</span> ^q5
-
-> <span class="qz">所以你现在用自己的话表达你的需求,而 AI 被要求在你所在之处满足你。</span>  
-> *So you are now expressing your needs in your own words and AI is now asked to meet you where you are.*  
-> <span class="qm">—— Nixon Dinh · [03:24]</span> ^q6
-
-> <span class="qz">我们发现目录最单薄的商家往往获益最大。</span>  
-> *We found that merchants with the thinnest catalogs tend to gain the most.*  
-> <span class="qm">—— Nixon Dinh · [13:41]</span> ^q7
-
-> <span class="qz">但我认为我们还需要理解的是,真正驱动结果的是内容质量,而不是 schema,而且实际上堆砌非结构化数据反而会稀释信号。</span>  
+> <span class="qz">但我认为我们还需要理解的是，真正驱动结果的是内容质量，而不是 schema，而且实际上堆砌非结构化数据反而会稀释信号。</span>  
 > *But I think what we needed to also understand is that it's all about content quality that drives the results, and it's not the schema that actually, and actually piling on unstructured data can actually dilute the signal as well.*  
-> <span class="qm">—— Nixon Dinh · [13:51]</span> ^q8
+> <span class="qm">—— Nixon Dinh · [13:51]</span> ^q5
 
-> <span class="qz">我们在某些情况下发现,当我们过度丰富时,智能体往往会产生更多幻觉,而且表现更差。</span>  
+> <span class="qz">我们在某些情况下发现，当我们过度丰富数据时，智能体往往会产生更多幻觉，而且表现更差。</span>  
 > *What we had found in some cases, when we over-enriched, the agent tended to hallucinate more, and it underperformed.*  
-> <span class="qm">—— Nixon Dinh · [14:59]</span> ^q9
+> <span class="qm">—— Nixon Dinh · [14:59]</span> ^q6
 
-> <span class="qz">结构化的优质内容才是真正能胜出的东西,AI 会奖励内容质量而不是品牌,但它也会为其他信任信号做优化。</span>  
+> <span class="qz">结构化的优质内容才是真正能胜出的东西，AI 会奖励内容质量而不是品牌，但它也会为其他信任信号做优化。</span>  
 > *Structured quality content is the one thing that wins out, and AI will reward content quality and not brands, but it does optimize for other trust signals as well.*  
-> <span class="qm">—— Nixon Dinh · [15:24]</span> ^q10
+> <span class="qm">—— Nixon Dinh · [15:24]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

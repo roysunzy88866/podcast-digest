@@ -20,7 +20,7 @@ unlisted: true
 - **[[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]]**(06:27起):本集赞助商。被描述为提供单点登录、SCIM、RBAC、审计日志等企业级功能 API 的现代开发者平台，本质上就像企业功能的 Stripe。
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(01:25起):本集片头广告中提及，提供企业级功能（如安全认证、审计日志）的开箱即用 API。
 - **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(01:19起):本集嘉宾 Ryan 所在的公司，运行「产品工程文化」（团队里没有产品经理），并自建了 TARS/Horizon 两套系统来构建与众不同的软件工厂。
-- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]]**(27:10起):本集说它是 Michael 做的身份认证平台——他在构建前大量采访客户，问「没有解决方案你正在损失什么」，据此决定做成托管而非本地部署。
+- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]]**(27:10起):本集说它是 Michael 做的身份认证平台——他在构建前大量采访客户，问「没有解决方案你正在损失什么」，据此决定做成托管而非本地部署。
 
 ## ② 出现在这些集
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为被讨论公司(提及)
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为被讨论公司
-- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]] — 作为被讨论公司(提及)
+- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

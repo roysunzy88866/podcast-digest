@@ -148,7 +148,7 @@ Notion 的业务在自助增长和销售辅助之间流转,客户也不断在两
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|把人类当成一个异步 API:智能体永不下线]]<span class="pd-rz">同公司:Temporal · 同概念:信号 (signal)、智能体 (agent)</span>
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|人是一个异步接口:冰淇淋配送背后的智能体架构]]<span class="pd-rz">同公司:Temporal · 同概念:信号 (signal)、智能体 (agent)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Snowflake · 同概念:信号 (signal)、智能体 (agent)、护栏 (guardrails)</span>
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同公司:Notion · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 

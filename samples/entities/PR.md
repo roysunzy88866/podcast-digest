@@ -46,9 +46,9 @@ unlisted: true
 
 ![[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co#^q4]]
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q4]]
-
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q8]]
+
+![[2026-10-05-pg-n8n-vs-claude-code#^q9]]
 
 ## ② 出现在这些集
 

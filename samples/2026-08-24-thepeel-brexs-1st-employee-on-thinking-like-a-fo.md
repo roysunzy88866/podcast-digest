@@ -163,7 +163,7 @@ Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类
 
 - [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法]]<span class="pd-rz">同概念:区块链 (blockchain)、代币化 (tokenization)</span>
 - [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Stripe · 同概念:市场平台 (marketplace)</span>
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战]]<span class="pd-rz">同公司:Brex、SVB</span>
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人]]<span class="pd-rz">同公司:Brex、SVB</span>
 
 </div>
 <div class="pd-ex">

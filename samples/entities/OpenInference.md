@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]]**(05:40起):本集说它是 Arise 2023 年首发的完全开源语义约定，把 GenAI 运行时发生的事映射到符合 OTEL 的规范上；本集把音频的语义约定映射到它上面，实现提供商无关的统一可查询 schema。
+- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]]**(05:40起):本集说它是 Arise 2023 年首发的完全开源语义约定，把 GenAI 运行时发生的事映射到符合 OTEL 的规范上；本集把音频的语义约定映射到它上面，实现提供商无关的统一可查询 schema。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]] — 作为概念
+- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]] — 作为概念
 
 ## ③ 关联
 

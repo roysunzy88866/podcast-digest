@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(05:26起):全球上市公司、美国最大的金融科技公司之一,是 Baselayer 最初 50 个客户之一,签下七位数合同。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(05:26起):全球上市公司、美国最大的金融科技公司之一,是 Baselayer 最初 50 个客户之一,签下七位数合同。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司
 
 ## ③ 关联
 

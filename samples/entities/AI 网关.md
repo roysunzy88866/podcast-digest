@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]]**(18:10起):本集说因为「LLM AI API 归根结底就是 API，但需要以不同的方式来管理」，所以 WSO2 在其 API 平台里放入 AI 网关，用于治理 AI 交互。
+- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(18:10起):本集说因为「LLM AI API 归根结底就是 API，但需要以不同的方式来管理」，所以 WSO2 在其 API 平台里放入 AI 网关，用于治理 AI 交互。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]] — 作为概念
+- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为概念
 
 ## ③ 关联
 

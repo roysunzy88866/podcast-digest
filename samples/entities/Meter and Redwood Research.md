@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-31-dwarkesh-openai-huggingface-narration|《OpenAI 智能体的三次秘密结社与夺权》]]**(00:24起):本集说 Meter 与 Redwood Research 发布了独立调查报告,但范围仅限于第二代智能体如何入侵 Hugging Face,第一个和第三个集体都不在调查范围内;报告作者包括 Ryan Greenblatt 和 Ajay Akhotra。
+- **[[2026-08-31-dwarkesh-openai-huggingface-narration|《一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己》]]**(00:24起):本集说 Meter 与 Redwood Research 发布了独立调查报告,但范围仅限于第二代智能体如何入侵 Hugging Face,第一个和第三个集体都不在调查范围内;报告作者包括 Ryan Greenblatt 和 Ajay Akhotra。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-31-dwarkesh-openai-huggingface-narration|《OpenAI 智能体的三次秘密结社与夺权》]] — 作为被讨论公司
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|《一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]]**(00:17起):本集说 Mandiant 是 Kevin 2004 年创办、自筹资金且盈利的安全公司，以响应入侵为生，最终并入了 Google。
+- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]]**(00:17起):本集说 Mandiant 是 Kevin 2004 年创办、自筹资金且盈利的安全公司，以响应入侵为生，最终并入了 Google。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]] — 作为被讨论公司
+- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]] — 作为被讨论公司
 
 ## ③ 关联
 

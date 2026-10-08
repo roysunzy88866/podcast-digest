@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(36:38起):本集将 LangGraph 作为开放框架/智能体控制框架的代表之一，你可以在里面互换模型
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(02:29起):本集提到旧版的 Scout 1.0 解析图就是在这个框架下构建的，图里的每个节点都有各自的模型和评估。
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(28:17起):本集提到 LangGraph 作为智能体编排框架的例子之一，TrustWise 对其是不可知的
-- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(11:52起):本集说 LangGraph 是通过构建图来搭建多智能体架构的框架，demo 里跑调度智能体，用 interrupt 从节点中调用出去。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(11:52起):本集说 LangGraph 是通过构建图来搭建多智能体架构的框架，demo 里跑调度智能体，用 interrupt 从节点中调用出去。
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(05:26起):本集说 LangGraph 是一个用有向图编排智能体流程的开源框架,是构建可控 harness 的一种方式。
 
 ## ② 出现在这些集
@@ -28,7 +28,7 @@ unlisted: true
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念(提及)
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为概念
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司
 
 ## ③ 关联

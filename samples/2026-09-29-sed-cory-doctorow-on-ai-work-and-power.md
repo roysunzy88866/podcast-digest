@@ -1,12 +1,12 @@
 ---
-title: "Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南"
+title: AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路
 podcast: Software Engineering Daily
 date: 2026-10-07
 source_url: undefined
 duration: "59:30"
 type: episode
 cover: "#64748b"
-description: 科幻作家、EFF 特别顾问 Cory Doctorow 提出「反向半人马」概念：同样的 AI 工具为何有人如虎添翼、有人被机器榨干，以及 AI 泡沫为何必崩。
+description: 科幻作家、电子前哨基金会老将 Cory Doctorow 讲透为什么同一个 AI 工具，有人如虎添翼，有人被榨干。
 host: "[[Cory Doctorow]]"
 cohosts: ["[[Josh Goldberg]]"]
 companies: ["[[EFF]]", "[[OpenAI]]", "[[Anthropic]]", "[[NVIDIA]]"]
@@ -17,18 +17,18 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power#post","headline":"Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power","mainEntityOfPage":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power","description":"科幻作家、EFF 特别顾问 Cory Doctorow 提出「反向半人马」概念：同样的 AI 工具为何有人如虎添翼、有人被机器榨干，以及 AI 泡沫为何必崩。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Cory Doctorow"},{"@type":"Person","name":"Josh Goldberg"},{"@type":"Organization","name":"EFF"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"半人马 (centaur)"},{"@type":"Thing","name":"反向半人马 (reverse centaur)"},{"@type":"Thing","name":"劣化 (inshittification)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"单位经济 (unit economics)"},{"@type":"Thing","name":"自动化盲视 (automation blindness)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"团结 (solidarity)"},{"@type":"Thing","name":"加密 (encryption)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南","item":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power#post","headline":"AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power","mainEntityOfPage":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power","description":"科幻作家、电子前哨基金会老将 Cory Doctorow 讲透为什么同一个 AI 工具，有人如虎添翼，有人被榨干。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Cory Doctorow"},{"@type":"Person","name":"Josh Goldberg"},{"@type":"Organization","name":"EFF"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"半人马 (centaur)"},{"@type":"Thing","name":"反向半人马 (reverse centaur)"},{"@type":"Thing","name":"劣化 (inshittification)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"单位经济 (unit economics)"},{"@type":"Thing","name":"自动化盲视 (automation blindness)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"团结 (solidarity)"},{"@type":"Thing","name":"加密 (encryption)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路","item":"https://talk.solomind.cc/2026-09-29-sed-cory-doctorow-on-ai-work-and-power"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南
+# AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路
 
 <div class="pd-byl"><b>Cory Doctorow</b> · EFF 特别顾问 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-09-29-sed-cory-doctorow-on-ai-work-and-power.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">人被征用，沦为机器一个不幸的外围设备，被迫以机器的节奏和耐力工作——机器比你更快、更强、更有耐力——于是你不只是被机器使用，而是被机器用尽。</div><div class="a">— Cory Doctorow <button class="pd-ts" data-t="10:39" data-who="Cory Doctorow" data-en="The human conscripted to be an unfortunate peripheral to the machine, being worked at the pace and to the endurance of the machine, which is faster, stronger, and has more endurance than you, not just being used by a machine then, but being used up by the machine." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">有一种狂热就是匆忙地改 pitch deck 把新东西加进去，以至于只要公司发布了人们使用的产品，就会把这种完全多余的附加功能硬塞到人们使用的产品上，常常极大地损害产品，有时甚至给公司带来致命的损害。</div><div class="a">— Cory Doctorow <button class="pd-ts" data-t="06:41" data-who="Cory Doctorow" data-en="There has been a kind of mania for hastily changing the pitch deck to include the new thing and to the extent that the company has shipped a product that people use to bolt this entirely superfluous add-on to a product that people use often to its great detriment and sometimes to the fatal detriment of the company." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Cory Doctorow]] · [[Josh Goldberg]]
@@ -37,236 +37,201 @@ jsonLd: |
 >
 > **概念** [[半人马]] · [[反向半人马]] · [[劣化]] · [[AI 泡沫]] · [[单位经济]] · [[自动化盲视]] · [[vibe coding]] · [[垃圾话]] · [[团结]] · [[加密]]
 
-这一集聊的是 [[Cory Doctorow|Cory Doctorow]] 的新书《The Reverse Centaur's Guide to Life After AI》。Cory 是科幻作家、记者，也是数字权利组织 [[EFF|EFF]](电子前哨基金会)的特别顾问，在科技政策一线干了近 25 年；
+[[Cory Doctorow|Cory Doctorow]] 写科幻小说，也写科技评论，在 Electronic Frontier Foundation（[[EFF|EFF]]）工作了近 25 年。他做客 Software Engineering Daily，和主持人 [[Josh Goldberg|Josh Goldberg]] 聊他的新书《The Reverse Centaur's Guide to Life After AI》。
 
-他上一本书写的是「[[劣化|劣化]]」(enshittification)——平台如何把东西做得越来越烂还能留住用户。
+整场对话围绕一个核心问题：==AI 到底是解放了打工人，还是把打工人变成了机器的零件==？
 
-这一集他把同一套分析用到了 AI 上，主持人是 Sentry 前端开发者、开源维护者 [[Josh Goldberg|Josh Goldberg]]。
+他的答案取决于一个关键区分——谁说了算。
 
-> 【背景】「半人马」原指希腊神话中人首马身的生物；书中借用它比喻「人指挥机器」的人机协作形态。
+## 什么是半人马和反向半人马？
 
-## 半人马与反向半人马：同样的 AI,两种命运
+Doctorow 的书名来自自动化理论里的一个比喻。[[半人马|半人马]]是人骑在马上：人头负责判断，马身负责力气。
 
-Cory 的核心概念来自自动化理论：
+放到工作里，就是人用工具——IDE、拼写检查器、甚至自行车——机器快而有力，但方向由人定。
 
-**[[半人马|半人马]]**(centaur)是人辅助于机器——人的头、机器的身体，机器更强更快更有耐力，但不做判断、不指挥行动，人类在上面发号施令。
+[[反向半人马|反向半人马]]正好反过来：机器骑在人身上。人被当成机器的外设，按机器的速度和强度干活。
 
-你用 IDE、拼写检查器、甚至骑自行车，都是半人马。而**[[反向半人马|反向半人马]]**(reverse centaur)是反过来：
+Doctorow 的描述很残酷：你的 99 个同事被裁掉，你留下来给 AI 批改作业，一个人顶替所有人，出了错还由你背锅 <button class="pd-ts" data-t="10:53" data-who="嘉宾" data-en="The human conscripted to be an unfortunate peripheral to the machine, being worked at the pace and to the endurance of the machine, which is faster, stronger, and has more endurance than you, not just being used by a machine then, but being used up by the machine." aria-label="回原文"></button>。
 
-机器驱使人，人被征用为机器的一个「不幸的外围设备」，被迫以机器的节奏工作——你不只是被机器使用，而是被机器**用尽**：
+这个区分解释了一个怪现象：为什么同样熟练、同样可靠的两批人，对 AI 的体验截然相反。
 
-99 个同事被裁，你一个人给 AI 的产出打分并顶替所有人的活，出了错还要背锅 <button class="pd-ts" data-t="10:35" data-who="Cory Doctorow" data-en="The body is taking orders. The reverse center, the corollary here, is the machine driving the human. The human conscripted to be an unfortunate peripheral to the machine, being worked at the pace and to the endurance of the machine, which is faster, stronger, and has more endurance than you, not just being used by a machine then, but being used up by the machine." aria-label="回原文"></button>。
+一批人说自己产出前所未有地好，另一批人说技术债堆到了天上——Doctorow 提到有人做民航软件，说再也别坐飞机了<button class="pd-ts" data-t="11:54" data-who="嘉宾" data-en="And then you have other workers, equally skilled, equally accomplished, equally reliable, narrating their experience who say, my God, you would not believe how much tech debt we are producing and the scale that we're producing it at." aria-label="回原文"></button>。
 
-这个区分解决了一个看似无解的悖论：
+不是有人撒谎，也不是有人不会用工具。一边是半人马，自己决定 AI 用在工作流的哪个环节；
 
-为什么同样技艺娴熟的程序员，有人兴奋地说 AI 让产出好到难以想象，有人惊呼「你不敢相信我们在制造多少技术债，我在民航业，千万别坐飞机了」？
+另一边是反向半人马，被按着头以更差的质量、更快的速度、更糟的条件下产出。
 
-答案不是谁在撒谎、谁更会用 AI——**一边是半人马，自己决定工作流里哪些环节适合用 AI;另一边是反向半人马，在更差的条件、更快的节奏下生产更劣质的产出** <button class="pd-ts" data-t="12:13" data-who="Cory Doctorow" data-en="One side is a centaur. They're deciding where in their workflow AI makes sense. The other side is a reverse centaur." aria-label="回原文"></button>。
+用他的话说：「**重要的不是这些玩意儿能做什么，而是它们为谁做、对谁做**。」<button class="pd-ts" data-t="12:29" data-who="嘉宾" data-en="And that is why this tool can produce these very contradictory accounts. from the field, and it validates, I think, the most important aphorism about science fiction, which is that the important thing is not what gadgets do, it's who they do it for and who they do it to." aria-label="回原文"></button>
 
-这正是科幻写作的第一格言：重要的不是机器能做什么，而是它为谁做、又对谁做。
+## 为什么公司明知工具不好用还要硬上？
 
-底层逻辑是劳工与资本的老冲突：当**劳工**推动自动化，通常是为了提升产出质量；
+如果反向半人马模式产出更差、隐患更大，公司为什么还要推？
 
-当**资本**推动自动化，通常是为了提高吞吐量，牺牲质量和员工福祉——尤其在垄断市场里，你可以生产劣质产出而不用担心销量 <button class="pd-ts" data-t="08:31" data-who="Cory Doctorow" data-en="There's actually a pretty rich literature. One of the truisms of that literature is that when labor drives uptake of automation, it is typically in service to improving the quality of the outputs." aria-label="回原文"></button>。
+Doctorow 给出的答案是：**只要客户跑不掉，降低工资支出、提高吞吐量就是划算的生意**。
 
-Cory 提到，Web 泡沫时期商业媒体的标题是「CEO 们怎么应付那些用过 Web、指望 workplace 也有 Web 的年轻人」；
+这背后是他著名的enshittification理论：在竞争缺位、监管被俘获、劳动者被驯服的市场里，公司可以把产品做得更差，客户也不会流失。
 
-今天同样的媒体却在问「CEO 怎么说服认为 AI 是胡扯的员工用 AI」——完全颠倒。
+他把 Google 拿出来当例子：
 
-## 为什么公司明知更差还强推？
+司法部的反垄断案披露，Google 在拿到 90% 搜索份额后，为了增加广告展示次数，选择了把搜索做差——让你不得不多搜几次。
 
-因为增长停滞对上市公司是致命的。股价是对未来收益的索取权：
+内部的反对者说，自己连母亲的葬礼都没错过，不是为了把搜索做差的，但营收派赢了 <button class="pd-ts" data-t="31:37" data-who="嘉宾" data-en="It doesn't matter how much moral injury you experience when your boss orders you to unshittify your product if it's clearly going to be more profitable to do it." aria-label="回原文"></button>。
 
-增长的公司股价高，停止增长的公司立刻「被高估」，引发恐慌性抛售——而高管薪酬大头是股票，Meta 停止增长的那天 Mark Zuckerberg 就会一夜变穷 80%。
+超市收银台是另一个例子。
 
-「他不是出于意识形态想让 Meta 永远增长，他只是不想明天就变穷 80%。」<button class="pd-ts" data-t="15:30" data-who="Cory Doctorow" data-en="He doesn't want Meta to grow forever for ideological reasons. He just doesn't want to become 80% poorer tomorrow. It's like a completely rational material, non-ideological phenomenon." aria-label="回原文"></button> 而且增长中公司的股票是硬通货：
+用机器换掉收银员，苹果确实便宜了一分钱，但失窃多亏了三分钱，于是商品锁进有机玻璃柜，让顾客排长队等仅剩的两名店员开门。
 
-可以用来收购、用来挖人——Meta 给一位程序员「一亿美元」时，付的不是钞票，是股票；
+省下的钱，最后由公众和顾客的时间埋单。
 
-「股票是你在公司现场造的，在电子表格里敲几个零就有了；你要自己印一百美元钞票，会被铐走。」<button class="pd-ts" data-t="16:26" data-who="Cory Doctorow" data-en="You have to get them from a customer or a creditor or maybe an investor. Stock you make on the premises, you just type zeros into a spreadsheet and you've got $100 million worth of stock." aria-label="回原文"></button>
+## AI 泡沫的燃料：不是信仰，是股价
 
-于是每代科技巨头都要编一个新增长故事：Google 做 Google Plus 变 Facebook、Facebook 转型视频变 YouTube、NFT、元宇宙、Web3……
+Doctorow 认为 AI 热潮必须放在一串科技泡沫的脉络里看。巨头们增长到头了——Google 搜索份额 90%，再往上没有空间。
 
-AI 是最新的一个，而且是个「元故事」——它还教别的公司怎么不靠任何创新就增长：
+而**一家公司一旦停止增长，股价就撑不住，因为股票是对未来收益的索取权**。
 
-「解雇所有员工换成聊天机器人，省下的工资你和 Sam Altman 分。」<button class="pd-ts" data-t="17:18" data-who="Cory Doctorow" data-en="What they're saying is, we're just gonna let you fire all your workers and replace them with chatbots. And you're gonna split the wage savings between you and Sam Altman." aria-label="回原文"></button>
+他强调这不是意识形态问题，而是赤裸裸的物质利益。
 
-杂货店案例是这套逻辑的现实注脚：
+Meta 的股价波动，没有人比 Mark Zuckerberg 更敏感——他不想让 AI 故事讲不下去，只是不想一夜之间财富缩水 80% <button class="pd-ts" data-t="15:21" data-who="嘉宾" data-en="Well, that's a 50, 70, 80% drop in your net worth. I mean, no one is as exposed to fluctuations in Meta share price as Mark Zuckerberg, right? He doesn't want Meta to grow forever for ideological reasons." aria-label="回原文"></button>。
 
-用自助收银机替掉收银员，每颗苹果多赚一分钱，却因没人防小偷每颗多亏三分，然后让公众为盗损买单、让顾客用排队时间买单。
+而且高股价的公司可以用股票收购、用股票雇人——股票是在自己办公室里往表格里敲零就能造出来的。
 
-「有些管理风潮假定公司收支会改善，其始作俑者却不可思议地对那个完全可以预见的结局感到惊讶。」<button class="pd-ts" data-t="21:16" data-who="Cory Doctorow" data-en="You know, there's this joke about economists that if an economist sees a $20 bill on the ground, they won't pick it up because if it was really there, someone would have already picked it up because, you know, as we say in economics, there's no such thing as a free lunch." aria-label="回原文"></button>
+所以 AI 成了一个关于增长的故事，还是一个元故事：
 
-## 程序员的出路：别指望「被喜欢」，指望团结
+AI 公司告诉所有老板，你们不用创新、不用做更好的产品，只要裁掉员工换成聊天机器人，省下的工资你分一半，Sam Altman 分一半 <button class="pd-ts" data-t="17:14" data-who="嘉宾" data-en="Or coming up with a better process or finding a way to innovate. What they're saying is, we're just gonna let you fire all your workers and replace them with chatbots." aria-label="回原文"></button>。
 
-有听众问：被管理者逼着用 AI、按代码行数被考核的开发者能怎么办？Cory 的回答是先看清历史：
+讲故事的人兴奋，听故事的老板也兴奋，泡沫自然就大。
 
-硅谷工程师曾经享受的免费康普茶和按摩，不是老板喜欢你，而是当时每个工程师平均能为公司利润增加一百万美元、人手不够，你辞职就有一百万美元跟着走出门。
+## AI 的账，根本算不过来
 
-现在供应追上了需求，五十万次裁员之后，公司愿意忍受更多宕机和缺陷——「劣化」发生到了代码层面，AWS 这类「大到不能倒、本该像公用事业一样运营」的平台，SRE 承诺却像初创公司 <button class="pd-ts" data-t="24:11" data-who="Cory Doctorow" data-en="At the code level and not just at the service delivery level. You see this in system-wide outages in AWS and lots of other platforms that are theoretically too big to fail and supposed to be run like utilities and instead are being run like startups in terms of the SRE commitments." aria-label="回原文"></button>。
+Doctorow 对 AI 的经济模型毫不客气。早期互联网也亏钱，但每个新用户、每次访问都让整个行业更赚钱。
 
-音乐家组建工会不是因为他们是「劳工中的王子」，而是因为他们被残酷剥削后奋起抗争。
+AI 相反：**每多一个用户，资产负债表就多一个窟窿**；每一代模型都比上一代亏得更多 <button class="pd-ts" data-t="52:38" data-who="嘉宾" data-en="This is very different from AI. Every AI user that an AI company acquires knocks another hole in their balance sheet. Every time that user comes back, the balance sheet bleeds more red ink." aria-label="回原文"></button>。
 
-看看老板今天怎么对待不需要讨好的工人——受伤率是其他仓库工人三倍的 Amazon 仓库工、工厂围着防自杀网的 iPhone 组装工、在肯尼亚标注血腥内容落下一生心理创伤的数据标注工——「你就能看到，如果能，他们会怎么对你。」
+标普 500 里有 7 家公司占了 35% 的权重，其中 6 家在 AI 上亏着数千亿美元，唯一赚钱的是 [[NVIDIA|NVIDIA]]——它把赚来的钱再借给那 6 家，让它们继续买自己的产品。
 
-<button class="pd-ts" data-t="25:22" data-who="Cory Doctorow" data-en="Not someone who programs AI, but someone in Kenya who does the AI data cleaning and who ends up with lifelong psychological trauma because of the tagging they're supposed to be doing of extreme and gore content." aria-label="回原文"></button> 出路是组织：Tech Workers Coalition、TechSolidarity,或者像 EFF 那样加入美国通信工人工会。
+[[Anthropic|Anthropic]] 声称盈利，但那是绕开了通行的会计准则之后的算法，用他的话说，等于宣布「我们盈利的方式太酷了，普通数学表达不出来」<button class="pd-ts" data-t="53:49" data-who="嘉宾" data-en="So fundamentally what they've said is we're profitable in such a cool way you can't express it with normal math. And they can't tell us which math they're profitable by, just that there is a math under which they're profitable." aria-label="回原文"></button>。
 
-好消息是，想入会的美国工人比近几十年任何时候都多，工会的现金储备也是史上最高。
+科技评论人 Ed Zitron 拿到 [[OpenAI|OpenAI]] 的财务数据后发现一个疑点：推理成本那一栏确实很低，但营销开支高得和 Coca-Cola 一个量级。
 
-「历史上只有一种可靠的、持久的让工人获得权力的机制，就是[[团结|团结]]。就是这样。团结。」<button class="pd-ts" data-t="26:53" data-who="Cory Doctorow" data-en="Wanting it badly is not enough. There is one reliable, durable mechanism for workers acquiring power in history, and it's solidarity. That's it." aria-label="回原文"></button>
+Doctorow 认同他的推断：OpenAI 是把一百美元的钞票一美元一张地卖出去，然后把这笔亏空记在营销账上 <button class="pd-ts" data-t="56:03" data-who="嘉宾" data-en="That's not an evidence for OpenAI. Ed's theory, which I think is true, is that they have taken a bunch of hundred dollar bills and sold them for a dollar each. By giving people really cheap inference." aria-label="回原文"></button>。
 
-## 开源维护者的 AI 垃圾，和 vibe coding 的正确归宿
+再算上用户在 ChatGPT 和 Claude 之间说走就走的低转换成本，模型必须不停地重做，资本开支每三五年重来一遍——这生意他看不出来怎么翻身。
 
-关于灌满 PR 的 [[垃圾话|AI 垃圾]](slop):Cory 认为灌垃圾的人「对代码如何运行了解很多，对代码如何失败一无所知」——他们不知道自己的代码很烂。
+## 程序员能做什么？答案还是团结
 
-过去一个糊涂蛋提交一个坏补丁，维护者会告诉他为什么不行，他还能学到怎么写好补丁；
+主持人问：软件工程师没法像音乐家那样组建行业大工会，老板还逼着用 AI、按代码行数考核，怎么办？
 
-「而我们现在做的是，给了笨蛋们不是做一个坏补丁、而是做 1000 个坏补丁的能力。」<button class="pd-ts" data-t="39:05" data-who="Cory Doctorow" data-en="In the same way that writing good bug reports or anything else, it's like it's not a thing you're born knowing how to do. And what we've done is we've taken dopes and we've given the ability not to make one bad patch but to make 1,000 bad patches." aria-label="回原文"></button> 他的药方是文化性的：
+Doctorow 先泼了盆冷水。
 
-删掉 999 个，让提交者挑出他真正在意的那一个，维护者像对待任何新手一样和他(必要时连同他的 AI 助手)一起把它改到能用；
+当年硅谷工程师有免费康普茶、有按摩，不是因为老板喜欢你，是因为你平均每人给公司带来一百万美元，门口有 10 个老板等着挖你。
 
-只想攒简历数字的，请出门。
+如今行业裁员 50 万人之后，行情变了。
 
-写代码本身当然是乐趣——Cory 讲了 EFF 第一位专职技术专家 Seth Schoen 把解密 DVD 的 DeCSS 重写成「函数式、图灵完备的俳句」的故事，那段代码分发在当年属于重罪，而写诗本身违法正是作者的论点：
+但他的反驳也很直接：音乐家组成工会，不是因为他们是劳动贵族，而是因为他们被残酷剥削，然后他们斗争出了工会 <button class="pd-ts" data-t="24:38" data-who="嘉宾" data-en="And you say tech workers are not in a position to unionize like musicians. Musicians didn't unionize because they were the princes of labor, who their bosses had no choice but to take what they were offered from their workforce." aria-label="回原文"></button>。
 
-政府把创作文学定为重罪，是对第一修正案的公然冒犯。
+看看老板们怎么对待仓库工人、富士康工人、做 AI 数据标注的肯尼亚工人，就知道他们如果能那样对你，一定会那样对你。
 
-但要点是：**软件工程与写代码的区别，就是思考一个系统与思考几行代码的区别** <button class="pd-ts" data-t="42:08" data-who="Cory Doctorow" data-en="It's thinking and figuring out how the problem works and understanding how it works as part of a system. The difference between software engineering and coding is the difference between thinking about a system and thinking about some lines of code." aria-label="回原文"></button>。
+好消息是，想要加入工会的美国劳动者比有记忆以来任何时候都多，工会的现金储备也达到历史最高。
 
-LLM 让你更快完成工作的一部分，却让其余部分(调试、QA、代码审查)更难跟上——因为「[[自动化盲视|自动化盲视]]」：
+他点名了 Tech Workers Coalition 和 Tech Solidarity，EFF 自己也加入了 Communications Workers of America。他的结论斩钉截铁：**历史上劳动者获得权力只有一个可靠耐久的机制，就是[[团结|团结]]** <button class="pd-ts" data-t="27:01" data-who="嘉宾" data-en="There is one reliable, durable mechanism for workers acquiring power in history, and it's solidarity. That's it. Solidarity." aria-label="回原文"></button>。
 
-机器大多数时候正确时，人类无法对罕见的出错保持警觉，就像 TSA 安检员 95% 的时间发现不了红队带过 X 光机的假枪。
+## 给开源维护者：AI 垃圾投稿怎么处理？
 
-放射科的对比是他全书最有冲击力的例子：
+主持人自己就是被 AI 灌水逼走的开源维护者。Doctorow 的分析是：用 AI 糟蹋代码的人，「**懂很多代码怎么工作，却完全不懂代码怎么失败**」<button class="pd-ts" data-t="37:23" data-who="嘉宾" data-en="I think the problem is they don't know that their code sucks. And I guess it's because they understand a lot about how code works and nothing about how code fails." aria-label="回原文"></button>。
 
-一边是放射科医生照常读片、AI 不同意时提醒「再看看这张」——还是那份工作，只是保真度更高；
+你让 AI 打的补丁在自己机器上没问题，但 5% 的用户用非罗马字符、用某个表情符号时就崩了——这些是你自己看不见的坑。
 
-另一边是十分之九的同事被裁、剩下的人要复核一百倍数量的「AI 已判定无癌」的片子——AI 错 3% 就全部漏掉、人就会死。
+他的建议不是骂人，而是回到老办法：
 
-「这不是机器的技术能力问题，是机器的社会性安排问题：它为谁做、对谁做。」<button class="pd-ts" data-t="44:37" data-who="Cory Doctorow" data-en="So if your programmer using AI to write code in a way that does not require superhuman vigilance, you know, an example might be in radiology, the difference between a radiologist who examines x-rays and gets a second opinion from the AI when the AI disagrees and says, check that x-ray again." aria-label="回原文"></button>
+让投稿人从 1000 个补丁里挑出他真正在乎的那 1 个，维护者带着他一起把补丁做通，像带任何一个新手一样给这份体面；
 
-[[vibe coding|vibe coding]](全凭感觉指挥 AI 生成代码)的归宿是自用的小工具：树莓派连 HomeKit 配件，坏了就再 vibe 一个，像当年写 Visual Basic 解决自家小店需求的人。
+只想要简历上凑数字的，请出门右转。
 
-「它不适合用于向一个很多人依赖的大型开源项目提交 PR。」<button class="pd-ts" data-t="41:25" data-who="Cory Doctorow" data-en="That's what VibeCoding's for. It's not for submitting PRs to a big open source project that has a lot of people who rely on it and who are going to get right up the maintainer's butt when it stops working for the good reason that they rely on." aria-label="回原文"></button>
+至于氛围编程（[[vibe coding|vibe coding]]）适合哪里？适合你自己的树莓派、自己的智能家居小工具——坏了只影响你自己。
 
-## 顺带一课：代码即言论
-
-书里还讲了 EFF 如何为「能用的[[加密|加密]]」打赢关键一战：
-
-NSA 曾把加密当军火管制，只允许 50 位的 DES50——「安全到坏人破不了，又没安全到我们破不了」。
-
-EFF 联合创始人 John Gilmore 造了台 25 万美元的机器 Deepcrack,两个半小时暴力破解全部 DES50,没用；
-
-最后是律师 Cindy Cohen 提出激进主张——**代码是表达性言论，受第一修正案保护**——代表研究生 Daniel J. Bernstein 一路打到上诉法院全胜。
-
-从那以后，真正能用的加密才是合法的，我们今天保护一切的东西就源于这一言论自由传统 <button class="pd-ts" data-t="48:36" data-who="Cory Doctorow" data-en="And we went to court on his behalf and the judge agreed with us that this math that he was producing, this code he was producing was a form of expressive speech and that the First Amendment protected it." aria-label="回原文"></button>。
-
-所以对「给 AI 模型的代码设限」，Cory 的态度是：
-
-不愿意降低对代码限制的审查标准——况且你打算让世界上每个 Git 服务器都执行下架令吗？不现实。
-
-## 「狗屎般的单位经济学」：泡沫为什么必崩
-
-Cory 对 [[AI 泡沫|AI 泡沫]]的判断落脚在财务上。泡沫辩护者说「Web 当年也亏钱」，但这在逻辑上不成立：「总体来看，亏钱是亏更多钱的预测因子。」
-
-<button class="pd-ts" data-t="51:56" data-who="Cory Doctorow" data-en="But for that to be like a valid logical construct, it would have to be the case that losing money was itself a predictor of making money. And broadly, losing money is a predictor of losing more money." aria-label="回原文"></button> Web 当年每新增一个用户、每一次访问、每一代技术都让整个行业更赚钱；
-
-AI 相反——「AI 公司每获取一个用户，都在资产负债表上又砸出一个洞；用户每回来一次就多流一分红字；
-
-每一代 AI 都比上一代亏得更多。这是我们有史以来亏钱亏得最狠的东西。」<button class="pd-ts" data-t="52:51" data-who="Cory Doctorow" data-en="Every generation of AI loses more money than the previous generation of AI. It's the money-losingest thing we've ever done. And we're losing a lot of money to it." aria-label="回原文"></button>
-
-数字摆在那：
-
-「七巨头」占标普 500 的 35%,六家在亏数千亿美元，唯一赚钱的是 [[NVIDIA|NVIDIA]]——而且它把赚到的钱再借回给那六家，好让它们买更多 NVIDIA 的产品。
-
-[[Anthropic|Anthropic]] 声称盈利，但前提是忽略公认会计准则(GAAP):「它们的说法本质上是：
-
-我们以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它。」<button class="pd-ts" data-t="53:44" data-who="Cory Doctorow" data-en="If you ignore the generally accepted accounting practices, GAAP, the gold standard for figuring out whether a business is profitable. So fundamentally what they've said is we're profitable in such a cool way you can't express it with normal math." aria-label="回原文"></button>
-
-至于「推理成本在下降」：
-
-AI 评论人 Ed Zitron 拿到的 [[OpenAI|OpenAI]] 账目显示，推理科目确实很低，但营销科目高得和可口可乐一样——可口可乐的营销花销你数广告牌就能数出来，OpenAI 的却是黑箱。
-
-Ed 的理论(我认为对)是：「他们拿了一大堆百元大钞，然后每张一块钱卖掉了」——靠超低价推理获客，只是把它记成营销开支 <button class="pd-ts" data-t="56:10" data-who="Cory Doctorow" data-en="Ed's theory, which I think is true, is that they have taken a bunch of hundred dollar bills and sold them for a dollar each. By giving people really cheap inference." aria-label="回原文"></button>。
-
-再往前算：转换成本极低(Claude 新模型明显更强时，用户大规模从 ChatGPT 迁走)，逼着 OpenAI 不停造新模型、Anthropic 不停造后继者；资产三到五年就要更换；
-
-一万亿的支出对五千万的营收。「我不认为这门生意有未来，至少按他们现在运营的方式没有。」<button class="pd-ts" data-t="57:06" data-who="Cory Doctorow" data-en="I don't think you do. I don't think that business has a future, at least not the way they're running it. I look forward to the sequel to Reverse Centaur describing post-bubble all the open source models." aria-label="回原文"></button>
+不适合往成千上万人依赖的开源项目里塞请求。
 
 ## 本集带走
 
-- **先分清自己是半人马还是反向半人马**：决定工作流里哪些环节用 AI 的人，和被迫给 AI 产出打分、替 99 个被裁同事背锅的人，用的是同样的工具。判断标准不是技术，是谁在指挥。
-- **公司强推劣质流程不是蠢，是财务**：增长停滞=股价崩=高管净资产蒸发=股票这个「现场印的硬通货」失效。理解这一点，才能理解 AI 为什么是它们的救命故事。
-- **别等老板善待你**：硅谷工程师当年的待遇来自稀缺，不来自喜爱。历史上唯一可靠的工人权力机制是团结——去了解 Tech Workers Coalition 和 TechSolidarity。
-- **AI 补丁的正确姿势**：别一次提交 1000 个，挑一个你真正在意的，和维护者一起改到能用；vibe coding 留给自己的小工具，别污染公共项目。
-- **软件工程 ≠ 写代码**：LLM 加速的是工作中不重要的那一半，而自动化盲视意味着量大之后，人反而无法守住出错的那 3%。
-- **AI 泡沫的账本**：每代产品亏得比上代更多、推理低价被记成营销费、转换成本极低逼着无休止烧钱——这与 Web 当年「每加一个用户都更赚钱」的路径完全相反。
+- 同一个 AI 工具，人主导时是半人马，人被机器驱使时是反向半人马——产出、体验、后果完全不同。
+- 公司强推低效流程的动机不是效率，而是股价：停止增长的公司会被抛售，AI 是最新一个关于增长的故事。
+- AI 的单位经济是反的：用户越多亏得越多，每代模型比上一代更烧钱，盈利公告往往绕开了通行会计准则。
+- 劳动者获得权力的历史答案只有一个：团结。可以关注 Tech Workers Coalition、Tech Solidarity 和 EFF。
+- 对开源维护者：让投稿人挑出真正在乎的那一个补丁，一起把它做好——给人学习的体面，不给灌水的机会。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>18 条</span></div>
 
-> <span class="qz">人被征用，沦为机器一个不幸的外围设备，被迫以机器的节奏和耐力工作——机器比你更快、更强、更有耐力——于是你不只是被机器使用，而是被机器用尽。</span>  
+> <span class="qz">有一种狂热就是匆忙地改 pitch deck 把新东西加进去，以至于只要公司发布了人们使用的产品，就会把这种完全多余的附加功能硬塞到人们使用的产品上，常常极大地损害产品，有时甚至给公司带来致命的损害。</span>  
+> *There has been a kind of mania for hastily changing the pitch deck to include the new thing and to the extent that the company has shipped a product that people use to bolt this entirely superfluous add-on to a product that people use often to its great detriment and sometimes to the fatal detriment of the company.*  
+> <span class="qm">—— Cory Doctorow · [06:41]</span> ^q1
+
+> <span class="qz">他们找到了一颗低垂的果实。结果那是一片满是低垂果实的果园。</span>  
+> *They found a piece of low-hanging fruit. It turned out to be an orchard full of low-hanging fruit.*  
+> <span class="qm">—— Cory Doctorow · [07:29]</span> ^q2
+
+> <span class="qz">当你拥有资本驱动的自动化时，它通常是为了提高吞吐量，往往以牺牲质量和员工福祉为代价。</span>  
+> *When you have capital-driven automation, it's typically in service to increasing throughput, often at the expense of quality and worker wellbeing.*  
+> <span class="qm">—— Cory Doctorow · [09:03]</span> ^q3
+
+> <span class="qz">这差不多就是「劣化」这个论题的核心：在一个竞争被排挤、监管者被收买、工人被驯服、而通过互操作性进入新市场被知识产权法的扩张定为非法的世界里，公司可以把东西做得更糟，却仍然留住客户。</span>  
+> *This is more or less what the thesis of inshittification is, that in a world in which competition has been sidelined, regulators have been captured, workers have been tamed, and new market entry through interoperability has been made illegal by the expansion of IP laws, companies can make worse things and still keep their customers.*  
+> <span class="qm">—— Cory Doctorow · [09:19]</span> ^q4
+
+> <span class="qz">人类被征用，沦为机器一个不幸的外围设备，被迫以机器的节奏和耐力来工作——机器比你更快、更强壮、更有耐力——于是你不只是被机器使用，而是被机器用尽。</span>  
 > *The human conscripted to be an unfortunate peripheral to the machine, being worked at the pace and to the endurance of the machine, which is faster, stronger, and has more endurance than you, not just being used by a machine then, but being used up by the machine.*  
-> <span class="qm">—— Cory Doctorow · [10:39]</span> ^q1
+> <span class="qm">—— Cory Doctorow · [10:39]</span> ^q5
 
-> <span class="qz">他们在更糟的条件下、以更快的速度，生产着更劣质的产出。</span>  
-> *They are producing inferior outputs at a faster pace under worse conditions.*  
-> <span class="qm">—— Cory Doctorow · [12:18]</span> ^q2
+> <span class="qz">然后你又有另一些工人，同样技艺娴熟、同样有成就、同样叙述可靠地讲述他们的经历，他们说，天哪，你简直不敢相信我们正在制造多少技术债，以及我们制造它的规模。</span>  
+> *And then you have other workers, equally skilled, equally accomplished, equally reliable, narrating their experience who say, my God, you would not believe how much tech debt we are producing and the scale that we're producing it at.*  
+> <span class="qm">—— Cory Doctorow · [11:44]</span> ^q6
 
-> <span class="qz">我认为它验证了关于科幻小说最重要的一句格言：重要的不是那些装置能做什么，而是它们为谁做、又对谁做。</span>  
-> *It validates, I think, the most important aphorism about science fiction, which is that the important thing is not what gadgets do, it's who they do it for and who they do it to.*  
-> <span class="qm">—— Cory Doctorow · [12:30]</span> ^q3
+> <span class="qz">另一边是反向半人马。他们在更糟糕的条件下、以更快的速度，生产着更劣质的产出。</span>  
+> *The other side is a reverse centaur. They are producing inferior outputs at a faster pace under worse conditions.*  
+> <span class="qm">—— Cory Doctorow · [12:16]</span> ^q7
 
-> <span class="qz">他只是不想明天就变穷 80%。</span>  
-> *He just doesn't want to become 80% poorer tomorrow.*  
-> <span class="qm">—— Cory Doctorow · [15:30]</span> ^q4
+> <span class="qz">而且我认为，它验证了关于科幻小说最重要的一句格言：重要的不是那些装置能做什么，而是它们为谁做、又对谁做。</span>  
+> *And it validates, I think, the most important aphorism about science fiction, which is that the important thing is not what gadgets do, it's who they do it for and who they do it to.*  
+> <span class="qm">—— Cory Doctorow · [12:30]</span> ^q8
 
-> <span class="qz">股票是你在公司现场就能造出来的，只需要在电子表格里敲几个零，你就有了价值一亿美元的股票。</span>  
-> *Stock you make on the premises, you just type zeros into a spreadsheet and you've got $100 million worth of stock.*  
-> <span class="qm">—— Cory Doctorow · [16:26]</span> ^q5
+> <span class="qz">你知道，如果你是 Google，拥有 90% 的搜索市场份额，你是不会再增长的。</span>  
+> *You know, if you're Google and you have a 90% search market share, you don't grow.*  
+> <span class="qm">—— Cory Doctorow · [13:35]</span> ^q9
 
-> <span class="qz">他们说的是：我们就要让你解雇你所有的员工，用聊天机器人取代他们。</span>  
-> *What they're saying is, we're just gonna let you fire all your workers and replace them with chatbots.*  
-> <span class="qm">—— Cory Doctorow · [17:14]</span> ^q6
+> <span class="qz">股票是你在公司现场就能造出来的，你只需要在电子表格里敲几个零，你就有了价值一亿美元的股票。如果你试图在公司现场自己印一百美元的钞票，他们会给你戴上手铐把你带走。</span>  
+> *Stock you make on the premises, you just type zeros into a spreadsheet and you've got $100 million worth of stock. If you try to make your own $100 bills on the premises, they will take you away in handcuffs.*  
+> <span class="qm">—— Cory Doctorow · [16:26]</span> ^q10
 
-> <span class="qz">强烈的愿望是不够的。</span>  
-> *Wanting it badly is not enough.*  
-> <span class="qm">—— Cory Doctorow · [26:51]</span> ^q7
+> <span class="qz">就像有时候感觉我们的政策制定者和商业决策者如此缺乏物体恒存性，他们连躲猫猫的游戏都会输。</span>  
+> *Like it just sometimes feels like our policy makers and our business decision makers have so little object permanence that they would lose a game of peekaboo.*  
+> <span class="qm">—— Cory Doctorow · [22:03]</span> ^q11
 
-> <span class="qz">历史上只有一种可靠的、持久的机制能让工人获得权力，那就是团结。</span>  
+> <span class="qz">曾经有一段时间，谷歌在完成了一轮回购之后解雇了 12000 名员工，而那轮回购的钱本可以支付他们未来 27 年的工资。</span>  
+> *There was a time before Google fired 12,000 workers after doing a stock buyback that would have paid their wages for the next 27 years.*  
+> <span class="qm">—— Cory Doctorow · [23:04]</span> ^q12
+
+> <span class="qz">他们这么做是因为硅谷工程师平均每人能为公司利润增加一百万美元，而这样的人手不够。</span>  
+> *They did it because Silicon Valley engineers added an average of a million dollars each to their firm's bottom line and there weren't enough of them.*  
+> <span class="qm">—— Cory Doctorow · [23:38]</span> ^q13
+
+> <span class="qz">你就能看到，如果他们能这么做，你的老板会对你做什么。</span>  
+> *You can see what your bosses would do to you if they could.*  
+> <span class="qm">—— Cory Doctorow · [25:22]</span> ^q14
+
+> <span class="qz">在历史上，只有一种可靠的、持久的机制能让工人获得权力，那就是团结。</span>  
 > *There is one reliable, durable mechanism for workers acquiring power in history, and it's solidarity.*  
-> <span class="qm">—— Cory Doctorow · [26:53]</span> ^q8
+> <span class="qm">—— Cory Doctorow · [26:53]</span> ^q15
 
-> <span class="qz">而现在，你只被允许快速行动、搞坏穷人和弱者的东西。我认为我们应该快速行动，搞坏国王。</span>  
-> *Right now, you're only allowed to move fast and break poor and weak people's things. I think we should move fast and break kings.*  
-> <span class="qm">—— Cory Doctorow · [35:43]</span> ^q9
+> <span class="qz">而且我认为这样尝试造成的附带损害是灾难性的。正如我们在电子前哨基金会所说，强烈的愿望是不够的。</span>  
+> *And I think the collateral damage from trying is catastrophic. As we say at the Electronic Frontier Foundation, wanting it badly is not enough.*  
+> <span class="qm">—— Cory Doctorow · [27:42]</span> ^q16
 
-> <span class="qz">而我们做的是，给了笨蛋们一种能力：不是只做一个坏补丁，而是做 1000 个坏补丁。</span>  
-> *And what we've done is we've taken dopes and we've given the ability not to make one bad patch but to make 1,000 bad patches.*  
-> <span class="qm">—— Cory Doctorow · [39:05]</span> ^q10
+> <span class="qz">正如 Bruce Schneier 所说，任何人都能设计出一个好到自己都想不出破解办法的安全系统。但这不意味着它真的有效。只意味着它对比你笨的人有效。</span>  
+> *And as Bruce Schneier says, anyone can devise a security system that works so well that they themselves can't think of a way of breaking it. It doesn't mean that it works. It just means it works on people stupider than you.*  
+> <span class="qm">—— Cory Doctorow · [29:00]</span> ^q17
 
-> <span class="qz">软件工程与写代码之间的区别，就是思考一个系统与思考几行代码之间的区别。</span>  
-> *The difference between software engineering and coding is the difference between thinking about a system and thinking about some lines of code.*  
-> <span class="qm">—— Cory Doctorow · [42:08]</span> ^q11
-
-> <span class="qz">总体来看，亏钱是亏更多钱的预测因子。</span>  
-> *And broadly, losing money is a predictor of losing more money.*  
-> <span class="qm">—— Cory Doctorow · [51:56]</span> ^q12
-
-> <span class="qz">这是我们有史以来亏钱亏得最狠的东西。</span>  
-> *It's the money-losingest thing we've ever done.*  
-> <span class="qm">—— Cory Doctorow · [52:51]</span> ^q13
-
-> <span class="qz">所以它们本质上是说：我们以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它。</span>  
-> *So fundamentally what they've said is we're profitable in such a cool way you can't express it with normal math.*  
-> <span class="qm">—— Cory Doctorow · [53:44]</span> ^q14
-
-> <span class="qz">Ed 的理论——我认为是对的——是他们拿了一大堆百元大钞，然后每张一块钱卖掉了。</span>  
-> *Ed's theory, which I think is true, is that they have taken a bunch of hundred dollar bills and sold them for a dollar each.*  
-> <span class="qm">—— Cory Doctorow · [56:03]</span> ^q15
-
-> <span class="qz">我不认为这门生意有未来，至少按照他们现在运营的方式没有。</span>  
-> *I don't think that business has a future, at least not the way they're running it.*  
-> <span class="qm">—— Cory Doctorow · [57:06]</span> ^q16
+> <span class="qz">你还必须身处一个做错事比做对事赚得更少的环境。</span>  
+> *You also have to exist in an environment where doing the wrong thing makes you less money than doing the right thing.*  
+> <span class="qm">—— Cory Doctorow · [32:42]</span> ^q18
 
 <div class="pd-sec">接着看</div>
 

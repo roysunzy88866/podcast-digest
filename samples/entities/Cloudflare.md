@@ -24,8 +24,8 @@ unlisted: true
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用其 Project Think 论文和 Durable Objects、agents SDK，说 Cloudflare 栈对智能体很棒但会带来平台锁定，因为 Cloudflare 的生意是让你在它的云上运行
 - **[[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]]**(12:03起):本集提到后端部分跑在 Cloudflare 上,一笔带过。
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(00:08起):本集以 CEO Matthew Prince 的视角介绍它:给全球很大一部分网站提供防护与加速、看得清全网流量构成的公司;正在推动默认屏蔽 Google 抓取广告/订阅制网站内容、建微支付基础设施,并用 Workers 和 isolates 等更轻量的技术为 1000 倍智能体流量做准备。
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(05:39起):本集说 Cloudflare 在去年年底引入 CodeMode，但其实现与自家平台绑死，除了示例没多少人真在用。
-- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]]**(19:41起):本集说产品高管 Rita Kozlov 来自 Cloudflare——她指出原型很快就能做出「看起来能用」的表面，但不可扩展、没处理边界情况。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(05:39起):本集说 Cloudflare 在去年年底引入 CodeMode，但其实现与自家平台绑死，除了示例没多少人真在用。
+- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]]**(19:41起):本集说产品高管 Rita Kozlov 来自 Cloudflare——她指出原型很快就能做出「看起来能用」的表面，但不可扩展、没处理边界情况。
 
 ## ① 提到它的金句
 
@@ -56,8 +56,8 @@ unlisted: true
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为被讨论公司(提及)
 - [[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为被讨论公司
-- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]] — 作为被讨论公司(提及)
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为被讨论公司
+- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

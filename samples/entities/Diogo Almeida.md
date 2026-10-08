@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Diogo Almeida</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Diogo Almeida">DI</div><div class="pi"><h1 class="pt">Diogo Almeida</h1><div class="byl">Latent Space 嘉宾</div><div class="nums">本站收录 <b>3</b> 集 · <b>39</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Diogo Almeida">DI</div><div class="pi"><h1 class="pt">Diogo Almeida</h1><div class="byl">Latent Space 嘉宾</div><div class="nums">本站收录 <b>3</b> 集 · <b>66</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*39 条*
+*66 条*
 
 ![[2026-09-21-latent-jev#^q1]]
 
@@ -91,13 +91,67 @@ unlisted: true
 
 ![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q14]]
 
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q15]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q16]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q17]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q18]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q19]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q20]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q21]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q22]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q23]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q24]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q25]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q26]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q27]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q28]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q29]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q30]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q31]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q32]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q33]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q34]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q35]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q36]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q37]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q38]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q39]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q40]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q41]]
+
 ## ② 出现在这些集
 
 *3 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为嘉宾
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为联合主持
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为联合主持
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为联合主持
 
 ## ③ 他谈到的
 

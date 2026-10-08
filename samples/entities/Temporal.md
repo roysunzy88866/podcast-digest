@@ -15,13 +15,13 @@ unlisted: true
 - **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(13:15起):本集说它是他们租用的工作流编排服务,处理重试、去重、断点续跑,让团队专注写顺序逻辑,单个格式错误的转录不会拖垮整批。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(10:22起):本集说他们的持久化执行系统围绕 Temporal 构建，把一切表示为持久线程
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(35:31起):本集说 Vercel 的 workflow 基本上是他们版本的 Temporal——把长流程做成可持久化、可恢复的工作流的系统。
-- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(00:24起):本集说它是讲者所在公司的产品，既是软件也是服务，帮助把分布式系统中的故障处理和状态管理标准化，提供持久化执行，GitHub 上免费开源，用托管服务管理状态才付费。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(00:24起):本集说它是讲者所在公司的产品，既是软件也是服务，帮助把分布式系统中的故障处理和状态管理标准化，提供持久化执行，GitHub 上免费开源，用托管服务管理状态才付费。
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q5]]
+![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q7]]
 
 ## ② 出现在这些集
 
@@ -31,7 +31,7 @@ unlisted: true
 - [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为被讨论公司
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为被讨论公司
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为被讨论公司
 
 ## ③ 关联
 

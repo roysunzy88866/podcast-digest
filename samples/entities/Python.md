@@ -25,7 +25,7 @@ unlisted: true
 
 ![[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p#^q5]]
 
-![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q4]]
+![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q5]]
 
 ## ② 出现在这些集
 

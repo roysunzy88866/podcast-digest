@@ -1,5 +1,5 @@
 ---
-title: 企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台
+title: 永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发
 podcast: The Cognitive Revolution
 date: 2026-10-08
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "70:11"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce.jpg"
-description: OutSystems CEO Woodson Martin 谈企业软件平台如何让编码智能体交付永不崩溃的系统，以及 token 成本、合规治理与行业竞争格局。
+description: OutSystems 新任 CEO Woodson Martin 讲述 AI 如何把企业软件交付提速数倍，以及为什么大多数企业任务根本用不着最贵的模型。
 host: "[[Nathan]]"
 cohosts: ["[[Woodson Martin]]"]
 companies: ["[[OutSystems]]"]
@@ -18,18 +18,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#post","headline":"企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce","description":"OutSystems CEO Woodson Martin 谈企业软件平台如何让编码智能体交付永不崩溃的系统，以及 token 成本、合规治理与行业竞争格局。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce.jpg","about":[{"@type":"Person","name":"Nathan"},{"@type":"Person","name":"Woodson Martin"},{"@type":"Organization","name":"OutSystems"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Mentor"},{"@type":"Thing","name":"智能体铸造厂 (agent foundry)"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"合规积压清单 (compliance backlog)"},{"@type":"Thing","name":"企业就绪 (Enterprise Ready)"},{"@type":"Thing","name":"确定性代码 (deterministic code)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台","item":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#post","headline":"永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce","description":"OutSystems 新任 CEO Woodson Martin 讲述 AI 如何把企业软件交付提速数倍，以及为什么大多数企业任务根本用不着最贵的模型。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce.jpg","about":[{"@type":"Person","name":"Nathan"},{"@type":"Person","name":"Woodson Martin"},{"@type":"Organization","name":"OutSystems"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Mentor"},{"@type":"Thing","name":"智能体铸造厂 (agent foundry)"},{"@type":"Thing","name":"微调 (fine-tuning)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"合规积压清单 (compliance backlog)"},{"@type":"Thing","name":"企业就绪 (Enterprise Ready)"},{"@type":"Thing","name":"确定性代码 (deterministic code)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发","item":"https://talk.solomind.cc/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台
+# 永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发
 
 <div class="pd-byl"><b>Woodson Martin</b> · OutSystems CEO · 2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-07-cogrev-software-that-never-breaks-outsystems-ce.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">当 AI 能为我们构建所有这些东西时，我们构建的速度、我们管理的海量内容，这种「永不出错」的特质反而变得更加重要。</div><div class="a">— Woodson Martin <button class="pd-ts" data-t="06:15" data-who="Woodson Martin" data-en="When AI can build all this stuff for us, the pace at which we build, the sheer volume of stuff we're managing, like that never breaks feature turns out to be even more important." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">对于这类强化系统和受监管行业来说，这种信任是初创公司很难获得的东西，无论你的技术有多酷。</div><div class="a">— Woodson Martin <button class="pd-ts" data-t="12:04" data-who="Woodson Martin" data-en="for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Nathan]] · [[Woodson Martin]]
@@ -38,137 +38,125 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[Mentor]] · [[智能体铸造厂]] · [[微调]] · [[前沿模型]] · [[MCP]] · [[合规积压清单]] · [[企业就绪]] · [[确定性代码]]
 
-[[OutSystems|OutSystems]] 是一家 2001 年创立的企业软件开发平台，客户包括 Petrobras、Vodafone、Toyota 这样的巨头。
+[[Woodson Martin|Woodson Martin]] 在 Salesforce 干了 18 年，2025 年接手 [[OutSystems|OutSystems]]——一家成立于 2001 年的企业软件开发平台，客户包括 Petrobras、Vodafone 和 Toyota。在 The Cognitive Revolution 这期访谈里，他聊了 AI 时代的企业软件：
 
-执掌它 24 年的创始 CEO Paolo Rosado 在 2025 年把位子交给了 [[Woodson Martin|Woodson Martin]]——一个在 Salesforce 待了 18 年、干过营销、产品、甚至人力资源的老将。
+什么才叫企业级、为什么最贵的模型往往是浪费、以及大公司的技术积压清单正在发生什么变化。
 
-这期访谈，他就从这次交接聊起，谈到了一个反直觉的判断：AI 时代最值钱的不是生成代码的能力，而是「永不出错」。
+## AI 写代码很快，怎么保证不出事?
 
-## 平台的秘方：中间那层抽象
+OutSystems 的创始人 Paolo 在当时的愿景很简单：更快地构建软件，可靠地交付，并且随着业务节奏演进——不破坏任何东西。
 
-Woodson 说 OutSystems 用 AI 的方式和市面上的做法很不一样。关键在于平台里有一个中间层——应用「意图」的抽象。你随便带什么编码[[智能体|智能体]]来都行：
+> 【背景】Paolo 即 OutSystems 创始人兼 CEO Paulo Rosado。
 
-Claude Code、Codex、或他们自家的 AI 助手 [[Mentor|Mentor]],但这些智能体操作的不是代码，而是这个抽象模型；然后由平台**确定性地**生成代码。
+<button class="pd-ts" data-t="05:02" data-who="Woodson Martin" data-en="And his vision was simple. Build faster, reliably every time, and evolve software at the pace of the business without breaking anything. And that's still the core of what OutSystems does today." aria-label="回原文"></button>
 
-(确定性生成，意思是同样的输入永远产出同样的结果，不走概率。)
+这在 AI 时代反而更重要了。Woodson 说，他们的做法和市面上大多数工具不同：
 
-好处是：安全、基于角色的访问控制这些企业级要求全部内置在平台层面，生成的每一个代码资产 100% 遵守；
+平台里有一个中间层，AI 编程工具——无论是 Claude Code、Codex 还是自家的助手 [[Mentor|Mentor]]——操纵的不是代码，而是应用意图的抽象模型。
 
-而且会自动复用你已有的成果——已满足 GDPR、HIPAA 合规的成熟系统不会被反复重新发明、再走一遍合规流程，而是在上面加新能力，一次推上生产就全部正常工作。
+最后按下按钮，确定性地产出代码，安全、权限控制这些要求在平台层面就自动满足，还会自动复用已有组件。<button class="pd-ts" data-t="08:21" data-who="Woodson Martin" data-en="Yeah, we take a pretty different approach here to AI for software development than most things on the market today. And that's because there is an intermediate layer in the OutSystems platform, an abstraction of the intent of the application that you build with an AI." aria-label="回原文"></button>
 
-「当你在 OutSystems 上构建一个新系统时，你生成的每一个代码资产都在继承你的整个企业控制平面。」
+他的比喻是：直接让 AI 从零写一个应用，就像每次都重新发明轮子，还得重新过一遍合规审查。
 
-当 AI 把构建速度和代码量推到前所未有的水平，这种「永不破坏」的特质反而更重要了。
+而在一个复杂企业里，你希望的是站在已经通过 GDPR 或 HIPAA 合规的系统上叠加新能力。
 
-## 企业级就绪 ≠ 高正常运行时间
+## 什么才叫企业级？不只是正常运行时间
 
-主持人问到：Anthropic、OpenAI 的正常运行时间按传统标准并不出色，企业不也照用吗？
+主持人提到一个观察：增长最快的 AI 公司，比如 Anthropic 和 OpenAI,按传统标准，正常运行时间其实并不出色。==那企业客户到底要什么==？
 
-Woodson 的回答是：[[企业就绪|企业级就绪]]远不止系统可用，还有一整套非功能性要求——监管、合同、隐私。一个很现实的现象：
+Woodson 的回答很实在：几乎没有受监管的企业今天敢让自主[[智能体|智能体]]跑关键业务。
 
-很多客户已经把智能体系统建好、测好、兴奋不已，结果它躺在组织的[[合规积压清单|合规积压清单]]里，卡在「底层那个 AI 模型的训练数据是否合法获取」这类审查上。
+他见过不少客户，智能体系统已经建好、测好，团队也很兴奋——但卡在合规审批队列里，等待某个具体 AI 模型获准使用。
 
-有时候那活儿只是从 PDF 里读数据转成结构化数据，照样被拖慢。
+障碍可能细致到：要搞清楚训练这个模型的数据是不是合法取得的。<button class="pd-ts" data-t="14:07" data-who="Woodson Martin" data-en="And I've got customers who are well down – and I think this is true, by the way, of a lot of technology providers – customers who are well down the path of an agentic system they have built and designed and tested and they're super excited about." aria-label="回原文"></button>
 
-这是审慎还是因循守旧？「肯定两者都有。」
+他甚至见过这种情况：一个智能体只是把 PDF 里的数据转成结构化数据，也要走完这套流程。
 
-给内部员工做 IT 资源分配的风险，和给贷款审批做决策——后者要能向监管者证明每一步怎么做的——风险等级完全不同。
+所以企业级意味着一大堆非功能性要求——监管、合同、隐私，模型来源问题是新添的一项，其他多数在 AI 之前就存在。
 
-至于 AI 智能体保险这类新东西，他觉得是好想法、可能成为解锁点，但客户还没开始采用——对受监管行业来说，它又是另一件「未经证实的东西」。
+## 交付速度暴增：一个季度从 4 个功能到 26 个
 
-## token 账单：峰值已过，路由是关键
+OutSystems 自己就是 AI 提速的活案例：去年第四季度发布了 4 个主要功能，今年第一季度变成 19 个，第二季度 26 个。<button class="pd-ts" data-t="28:12" data-who="Woodson Martin" data-en="So think software engineering, a big part of what we do, shipping software products. I think we shipped four major features in Q4 last year, 19 in Q1 and 26 in Q2 this year." aria-label="回原文"></button>
 
-OutSystems 自己的数据很有说服力：去年四季度发布 4 个主要功能，今年一季度 19 个，二季度 26 个——全是重大新能力，不是小修小补。
+但有意思的是，他们在 6 月达到 token 支出峰值后，支出反而开始下降，现在甚至低于三季度预测。
 
-token 消耗也随之激增，峰值在六月、七月。但他们学到一件事：**大部分工作用一个更好的 harness 就能做得同样好，而且便宜得多**。
+秘诀是自建了工具链和模型路由网关——不是所有任务都需要最贵的模型。
 
-他们自建了充满自家上下文的 harness 和一个 LLM 网关(路由器)，把不需要[[前沿模型|前沿模型]]的任务改路由到低成本模型。
+Woodson 的判断很直白：**今天的企业任务，几乎没有需要[[前沿模型|前沿模型]]的**。
 
-结果如今实际消耗比三季度预测还低。
+多数企业运营类工作用三年前的模型就够，有些干脆用[[确定性代码|确定性代码]]更便宜。<button class="pd-ts" data-t="29:17" data-who="Woodson Martin" data-en="So we've actually seen, we're actually burning less today than we'd forecast in Q3 because of optimizations largely that we've been able to do. So I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads." aria-label="回原文"></button>
 
-他的一个关键判断：「对今天大多数组织来说，他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。」
+他还提到，今年 2、3 月每个 CFO 都收到了 token 账单，那是全行业的清醒时刻，微软、Meta、Uber 都在往回收。
 
-大部分企业 AI 能真正推进的工作负载其实很「无聊」，很多东西用[[确定性代码|确定性代码]]比用模型还便宜。
+## 老系统的积压清单，终于开始清了
 
-今年二三月份每个 CFO 都收到 token 账单，Microsoft、Meta、Uber 都公开踩了刹车——但 Woodson 认为可以回到「一切充分利用 AI」的状态，只是要聪明地做，这正是平台该帮你干的事。
+最让 Woodson 兴奋的变化是：以前人人都不敢碰的老系统——COBOL、AS400、Lotus Notes——终于排上了日程。
 
-OutSystems 在后端自己挑选并[[微调|微调]]了一堆模型驱动 Mentor,客户哪怕用前沿模型通过 [[MCP|MCP]] 服务调用，底层也已经有大量优化，要干的活轻得多。
+有保险公司把 60 年历史的案件管理系统现代化，**原来规划 6 年，现在 6 个月**。<button class="pd-ts" data-t="43:13" data-who="Woodson Martin" data-en="I think probably the most exciting thing happening for me is that projects that everybody was always afraid to put on the backlog Like these old legacy systems, the COBOL, the AS400, the Lotus Notes and stuff, they're finally getting their day because it's now possible with AI operating and accelerating the work at every phase of the very complicated process, by the way, just even understanding what these old legacy systems do, translating those into new requirements that are modernized where we take old laborious work, turn it into agentic work." aria-label="回原文"></button>
 
-## backlog 正在消失，但换了一种形态
+另一面是自助服务的兴起：以前做个数据看板要排队等 IT 部门，现在自己让 Claude 从电子表格生成一个。
 
-最让 Woodson 兴奋的变化：
+代价是标准化和集成的丢失，需要事后清理——而这恰好是平台公司的机会。
 
-那些大家一直不敢碰的遗留系统——60 年的 COBOL、AS400、Lotus Notes——终于迎来出头之日，因为 AI 能加速从理解旧系统、翻译成新需求到测试上线的每个阶段。
+## 软件会长什么样？地图不会变成聊天
 
-有保险公司把原计划六年的案件管理系统现代化改成了六个月。
+主持人问，未来软件是不是都会变成对话？
 
-另一个变化是自助服务：「嘿 Claude,拿这个电子表格做个仪表盘」——以前要排进别人 backlog 的活，现在自己就搞定。
+Woodson 用 Google 地图举例：他可以问 AI 怎么走，但还是想知道周围世界长什么样、路上会经过什么——对话体验替代不了。<button class="pd-ts" data-t="56:02" data-who="Woodson Martin" data-en="So like I think about the Google Maps question. Google Maps is one of the most useful things on my phone. I use it every single day, whether it's to look up a place to order a pizza or it's to navigate me to a destination where I'm driving or walking around a foreign city that I don't know well." aria-label="回原文"></button>
 
-代价是标准化和集成会散架，之后需要清理——而平台正是接住这种「新型 backlog」的地方。
+他们在用户大会上演示过一个场景：
 
-OutSystems 还刚发布了一个「[[智能体铸造厂|智能体铸造厂]]」：
+用户在 Claude 里聊家里装修，聊到缺钱，助手提示已预批 3 万美元贷款额度，用户同意后，对话无缝流转到银行的移动应用——同一个智能体在两个场景背后工作，已经知道你是老客户，不用再交银行流水。
 
-用客户应用组合的遥测数据和数据流做推理，直接告诉客户该建什么智能体系统、预测省下多少时间的 ROI,按一个按钮就能让 AI 构建出 V1。
+## 竞争加剧时，靠专业化取胜
 
-因为「做什么仍然是最难的问题」——能力已经不是瓶颈了。
+很多平台正急着把所有积木块凑齐，广告牌上五家公司写着同样五个字，只换 logo。Woodson 说行业确实陷入了千篇一律。
 
-## 大家都长成同一个超级平台，怎么赢？
+但他认为**最终胜出靠的是专业化**——在受监管行业积累的那些「基础清单之外的 37 个功能」，以及在银行、保险、政府、医疗、能源等领域多年的专长。
 
-Woodson 承认行业正在趋同：旧金山高速公路上的广告牌写着完全相同的五个词，只是 logo 不同。
+会有大家都需要的通用基础构件，然后就看你在调优、蒸馏和模型专用性上真正擅长什么。<button class="pd-ts" data-t="61:34" data-who="Woodson Martin" data-en="So how will we differentiate in the future? I think it's gonna be really, ultimately, it's gonna be specialization, right? There's gonna be a common set of building blocks everybody needs." aria-label="回原文"></button>
 
-对话式体验让大家的「海面」一模一样，差异藏在海面之下——背后是什么系统、什么数据、怎么交互。他的答案是：
+对新人他格外乐观：
 
-通用基础构件大家都会有，**差异化最终靠专业化**——调优、蒸馏、模型专用性及配套成本结构，加上行业和工作流层面的专项优化。
-
-OutSystems 的护城河就是受监管行业里那些「不在基础清单上、但不做就跨不过门槛」的积累——他举例说有 37 项这类功能——以及多年在银行、保险、政府、医疗、运输物流、能源领域建成的专业化能力。
-
-## 看好「AI 泡透了的」年轻人
-
-Woodson 明确说他非常看好初级人才：过去五年原生沉浸在新技术里的人，能把 AI 优先的视角和做法带进组织。
-
-但现有组织还没建好另一半基础设施——把这些人导入行业专业知识、让技能真正派上用场。
-
-OutSystems 自己在向 FDE(前置部署工程师)模式靠拢，把入职培训改造成智能体化、即用即学的形式，而且对每一项新工作都要先问：
-
-这是给人的，还是给智能体(或团队)的？
+过去 5 年在新技术里泡大的年轻人才，带着 AI 优先的思维方式，能推动组织加速创新——虽然他们还需要学习行业知识。<button class="pd-ts" data-t="63:47" data-who="Woodson Martin" data-en="What are you doing at OutSystems and how would you translate that to broader advice? Yeah, I'm super bullish on junior talent, on people who grew up, whose last five years have basically been native to all these new technologies where they can bring those in to organizations, our customers, our partners, our own organization, and really drive accelerated innovation." aria-label="回原文"></button>
 
 ## 本集带走
 
-- **让智能体操作「意图」而非代码**：把安全、访问控制、合规内置在平台抽象层，由平台确定性生成代码，是「AI 快 + 永不出错」能同时成立的结构性做法。
-- **别为一切买单前沿模型**：绝大多数企业工作负载用旧模型甚至确定性代码就够；自建带上下文的 harness 和 LLM 路由器，是 token 账单从峰值回落的主要手段。
-- **建系统时选能轻松换模型的平台**：能力提升或价格下降时随时切换，别把工作流焊死在某一个模型上。
-- **瓶颈已经从「怎么建」转移到「建什么」**：用真实遥测数据推理该把哪些手工流程智能体化、并预测 ROI,比多雇几个开发者更值钱。
-- **同质化时代的差异化 = 原语之上的专业化**：行业深耕、监管门槛、调优蒸馏和成本结构，而不是功能清单的长短。
+- AI 编程时代，不破坏任何东西反而更重要：让 AI 操纵抽象模型而非直接写代码，安全与合规在平台层自动保证。
+- 大多数企业任务不需要前沿模型——配好模型路由和工具链，交付量翻数倍的同时，token 开支还能降下来。
+- 合规审批正卡住大量企业智能体项目，包括只用 AI 读 PDF 这种低风险场景；企业级的定义远不止正常运行时间。
+- 60 年历史的遗留系统现代化从 6 年缩到 6 个月，技术积压清单第一次开始真正缩短。
+- 竞争同质化之下，差异化来自行业专业化；而对 AI 原生的年轻人才，应该大胆下注。
 
 <div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
-> <span class="qz">当 AI 能为我们构建所有这些东西时，我们构建的速度、我们管理的海量内容，这种「永不出错」的特质反而变得更加重要。</span>  
-> *When AI can build all this stuff for us, the pace at which we build, the sheer volume of stuff we're managing, like that never breaks feature turns out to be even more important.*  
-> <span class="qm">—— Woodson Martin · [06:15]</span> ^q1
-
-> <span class="qz">对于这类强化系统和受监管行业来说，随时间建立起来的信任声誉，是初创公司很难获得的东西，无论你的技术有多酷。</span>  
-> *The reputation that you build up over time for that kind of trust for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.*  
-> <span class="qm">—— Woodson Martin · [12:00]</span> ^q2
-
-> <span class="qz">大型企业的组织内部僵化过程是真实存在的，组织需要挑战并打破它才能进步。</span>  
-> *The calcification processes inside organizations is real in large enterprises and is something that organizations need to challenge and break in order to advance.*  
-> <span class="qm">—— Woodson Martin · [17:08]</span> ^q3
+> <span class="qz">对于这类强化系统和受监管行业来说，这种信任是初创公司很难获得的东西，无论你的技术有多酷。</span>  
+> *for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.*  
+> <span class="qm">—— Woodson Martin · [12:04]</span> ^q1
 
 > <span class="qz">这类系统太多了，那种认为我们在某个时点达到静止状态、一切都完美安全的想法，我认为是白日梦。</span>  
-> *There's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.*  
-> <span class="qm">—— Woodson Martin · [26:26]</span> ^q4
+> *And there's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.*  
+> <span class="qm">—— Woodson Martin · [26:26]</span> ^q2
 
-> <span class="qz">我认为对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。</span>  
-> *I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.*  
-> <span class="qm">—— Woodson Martin · [29:18]</span> ^q5
+> <span class="qz">但我们学到的一件事是，实际上我们当时做的那些事情，大部分用一个更好的 harness 就能做得同样好，而且便宜得多。</span>  
+> *But one of the things that we've learned is actually most of those things that we were doing, we could do just as well, a lot cheaper, with a better harness.*  
+> <span class="qm">—— Woodson Martin · [28:35]</span> ^q3
 
-> <span class="qz">而且其中很多东西用确定性代码来做，比用模型做还要便宜。</span>  
-> *And a lot of that stuff can be done with deterministic code cheaper than it can be with a model at all.*  
-> <span class="qm">—— Woodson Martin · [29:49]</span> ^q6
+> <span class="qz">所以我认为，对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。</span>  
+> *So I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.*  
+> <span class="qm">—— Woodson Martin · [29:17]</span> ^q4
 
-> <span class="qz">比如这些老旧的遗留系统、COBOL、AS400、Lotus Notes 之类的，它们终于迎来了出头之日，因为现在 AI 可以在这个非常复杂的过程的每个阶段运作并加速工作。</span>  
-> *Like these old legacy systems, the COBOL, the AS400, the Lotus Notes and stuff, they're finally getting their day because it's now possible with AI operating and accelerating the work at every phase of the very complicated process.*  
-> <span class="qm">—— Woodson Martin · [43:15]</span> ^q7
+> <span class="qz">项目了，不再计划成六年的事，我们现在要在六个月内完成。</span>  
+> *Project, instead of planning it as a six-year thing, we're now gonna do it in six months.*  
+> <span class="qm">—— Woodson Martin · [44:13]</span> ^q5
+
+> <span class="qz">我确实认为存在一个很大的可能性：我们今天所知的很多软件，会被小部件化，变成出现在对话流中的小东西，对吧?</span>  
+> *I do think there's a real significant chance that a lot of software as we know it today is just widgetized into little things that show up in the flow of conversation, right?*  
+> <span class="qm">—— Woodson Martin · [55:47]</span> ^q6
+
+> <span class="qz">因为大家都有同样的原语，因为你需要原语，但你必须在原语之上做专业化。</span>  
+> *Because everybody has the same primitives because you need primitives, but you got to have specialization on top.*  
+> <span class="qm">—— Woodson Martin · [62:08]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

@@ -68,7 +68,7 @@ unlisted: true
 
 ![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q14]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q4]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q3]]
 
 ## ② 出现在这些集
 

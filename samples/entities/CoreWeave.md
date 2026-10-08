@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(11:28起):本集将其作为新云（neocloud，提供云端算力租赁的平台）的典型代表提及，它既是 Situational Awareness 基金的多头持仓，也是在数据中心之上提供服务的公司。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(77:49起):本集将其作为 NeoCloud（建数据中心出租 GPU 的公司）的例子，说 NVIDIA 先签 13 亿美元回租合同当'客户证明'，帮它从银行拿到钱，而普通小企业贷款却被扒一层皮。
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(47:27起):本集说它与 Nebius 同属 ClusterMax 顶梯队，运营水平好，却因锁死长期合同而错过本轮涨价红利。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(47:27起):本集说它与 Nebius 同属 ClusterMax 顶梯队，运营水平好，却因锁死长期合同而错过本轮涨价红利。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 
 ## ③ 关联
 

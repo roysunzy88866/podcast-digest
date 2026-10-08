@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(47:46起):本集提到在斯德哥尔摩创业时，Spotify 和 Klarna 是最大的科技成功故事，是他们早期的偶像和参照系。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(01:47起):本集说 semantic ID 与生成式检索的想法已在 Spotify 等公司走向规模化生产;并举其「提示词歌单」作为可交互推荐的行业案例。
 - **[[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]]**(18:05起):本集案例：为 SRE 建了智能体，从 runbook 和事件上下文汇总修复步骤推进沟通频道，事故发生时即刻有上下文。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(12:46起):本集说 Kath 的 Spotify 被两个孩子接管(Bluey 和芝麻街);她把它当播放器接进 heavy rotation 网站,每周一自动生成播放列表
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(12:46起):本集说 Kath 的 Spotify 被两个孩子接管(Bluey 和芝麻街);她把它当播放器接进 heavy rotation 网站,每周一自动生成播放列表
 
 ## ① 提到它的金句
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]] — 作为被讨论公司(提及)
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司(提及)
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

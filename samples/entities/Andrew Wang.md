@@ -13,15 +13,15 @@ unlisted: true
 
 *2 条*
 
-![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q3]]
+![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q1]]
 
-![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q11]]
+![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q6]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《一切都是服务:从零重写 13 万亿的房贷老基建》]] — 作为联合主持
+- [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]] — 作为联合主持
 
 ## ③ 他谈到的
 

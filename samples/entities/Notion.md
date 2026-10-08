@@ -26,7 +26,7 @@ unlisted: true
 - **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(00:15起):本集讲的平台:人和智能体共同思考的协作大脑,也是 Notion 自家 GTM 系统的上下文层——「我们在用 Notion 来发展 Notion」。
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(06:43起):本集说 Notion 在系统中充当几乎只读的看板，分 top of mind、this week、inbox 三块，是优先级和焦点的唯一真相源，所有操作通过 CoWork 完成
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(13:08起):本集举 Notion 为例:它与 OpenAI 深度合作,做了 MCP 后突然涌入海量智能体流量,系统压力大增,要想清楚经济账。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(00:30起):本集说事故指挥站点接到 Notion 后,能直接打开运行手册和响应指南;Kath 也常去 Notion 协作
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(00:30起):本集说事故指挥站点接到 Notion 后,能直接打开运行手册和响应指南;Kath 也常去 Notion 协作
 
 ## ① 提到它的金句
 
@@ -71,7 +71,7 @@ unlisted: true
 - [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为被讨论公司
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司(提及)
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司(提及)
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

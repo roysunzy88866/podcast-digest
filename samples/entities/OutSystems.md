@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]]**(00:02起):本集把它说成:2001 年创立的企业软件开发平台,核心承诺是「更快构建、每次都可靠、永不破坏任何东西」,现在专注帮大型受监管企业构建、编排和治理智能体系统。
+- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]]**(00:02起):本集把它说成:2001 年创立的企业软件开发平台,核心承诺是「更快构建、每次都可靠、永不破坏任何东西」,现在专注帮大型受监管企业构建、编排和治理智能体系统。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为被讨论公司
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为被讨论公司
 
 ## ③ 关联
 

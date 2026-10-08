@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>82</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>82</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -81,21 +81,21 @@ unlisted: true
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(27:56起):本集说一个能访问 MCP 的机器人可以识别并翻转正确的特性开关来修复生产问题；并提到 MCP 中介访问、最小权限是 AI 安全保障的实践。
 - **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(16:39起):本集顺带提到：日历等服务都在函数调用或 MCP 背后，可以接进 Jev 应用；也提到有的工具会挑选用哪个 MCP。
 - **[[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]]**(04:13起):本集把它说成:把智能体当作工具调用的协议,完全无状态——想让两个智能体保持状态、有粘性会话,「祝你好运」。
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(00:20起):本集说它是 Anthropic 差不多两年前推出的、安全访问工具和资源、用于智能体与工具交互的标准，被 Claude 和 ChatGPT 采用，社区已有约 1 万到 1.5 万个 MCP 服务器；遭到大量批评，但演讲者认为问题出在 harness 而非协议本身。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(00:20起):本集说它是 Anthropic 差不多两年前推出的、安全访问工具和资源、用于智能体与工具交互的标准，被 Claude 和 ChatGPT 采用，社区已有约 1 万到 1.5 万个 MCP 服务器；遭到大量批评，但演讲者认为问题出在 harness 而非协议本身。
 - **[[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]]**(09:29起):本集提到通过 MCP 就能调用 EXA，基本覆盖所有支持 MCP 的提供商
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(03:47起):可扩展的插件系统，100 倍工程师用它疯狂产出代码；也通过 Xcode MCP 让智能体不打开 Xcode 就能创建并截图 iOS 应用
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(03:47起):可扩展的插件系统，100 倍工程师用它疯狂产出代码；也通过 Xcode MCP 让智能体不打开 Xcode 就能创建并截图 iOS 应用
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(31:56起):本集把 MCP 描述为让智能体调用外部工具的标准接口:Notion 做了 MCP 后突然涌入海量智能体流量,你可以暂时把接口按住不发,但这是不可避免的。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(12:10起):本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(12:10起):本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(02:08起):本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(39:52起):本集两次顺带提到：Dan 翻白眼说拿 LLM 加一些 MCP 服务器和 API 串联六个软件行不通；主持人举例 G2 通过 MCP 连接前沿模型做软件采购推荐。
 - **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(11:20起):本集认真讨论：Architect 最常用入口，但工具膨胀是真问题——结构化数据用 API、探索性场景才用 MCP，很多场景 CLI 更省 token
-- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]]**(33:48起):本集把 MCP 说成:Mentor 的开放接口形态——客户可以用任何编码智能体或 harness 通过 MCP 服务操作平台,前端模型调用时底层已有大量优化。
+- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]]**(33:48起):本集把 MCP 说成:Mentor 的开放接口形态——客户可以用任何编码智能体或 harness 通过 MCP 服务操作平台,前端模型调用时底层已有大量优化。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(23:14起):本集说 MCP 基本就是个 REST 接口、Anthropic 搞出来后被大家采纳为标准;不是魔法子弹但够好了,护栏对 SQL 和 MCP 请求一视同仁
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
 
-*15 条*
+*16 条*
 
 ![[2026-08-21-talks-building-blocks-for-uber-s-software-fact#^q5]]
 
@@ -113,7 +113,9 @@ unlisted: true
 
 ![[2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin#^q1]]
 
-![[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#^q6]]
+![[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#^q1]]
+
+![[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#^q5]]
 
 ![[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#^q7]]
 
@@ -201,16 +203,16 @@ unlisted: true
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念(提及)
 - [[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]] — 作为概念
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为概念
 - [[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]] — 作为概念(提及)
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为概念
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为概念
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为概念(提及)
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为概念(提及)
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为概念
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念(提及)
 - [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
-- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为概念
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 

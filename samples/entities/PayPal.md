@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]]**(01:05起):本集两位嘉宾所在的公司,做智能体支付,推出审批令牌等企业支付基础设施,并希望充当可信凭证提供方。
 - **[[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]]**(00:57起):本集回顾它的意外起点:Max 本想做低功耗芯片上的加密,发现快速加解密小量数据把你引向支付;它的重大创新是『完全不在乎匿名性』;人才辈出靠刻意筛选创业者加彼此见过对方压力下的真实底层版本。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:29起):本集说与 Stripe 的收购交易告吹，传言一方出价 60 多、一方要 70 多，死了之前先别说它死。
-- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(00:15起):本集主讲人所在公司：其 Agentic Commerce 团队研究 AI 智能体如何重塑购物与支付，并做了商家产品数据丰富（enrichment）实验来观察智能体如何搜索和推荐商品。
+- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]]**(00:15起):本集主讲人所在公司：其 Agentic Commerce 团队研究 AI 智能体如何重塑购物与支付，并做了商家产品数据丰富（enrichment）实验来观察智能体如何搜索和推荐商品。
 
 ## ① 提到它的金句
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]] — 作为被讨论公司
 - [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司(提及)
-- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为被讨论公司
+- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -65,21 +65,21 @@ unlisted: true
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:13起):本集说『我们网上搜索的根本方式已经永远地彻底改变了』——Josh 已经很久没用 Google 搜索，改用 Claude/GPT/Gemini
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(02:35起):Molly 见证乐高建议起源的地方：她 2007 年加入时约一万名员工，她的部门九个月内从 25 人涨到 125 人，第一次经历真正的快速规模化
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(02:48起):本集提到 Liz 从 Google 的 SRE 起步、管理过 Bigtable SRE 团队；并说 Linux 内核的自动审查机器人 Sashiko 完全由 Google 付费。
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(13:35起):本集说：Google 拥有 90% 搜索份额后不再有增长空间，曾靠把搜索做差让人多搜几次多看广告来提高收入（DOJ 反垄断诉讼曝光）。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(13:35起):本集说：Google 拥有 90% 搜索份额后不再有增长空间，曾靠把搜索做差让人多搜几次多看广告来提高收入（DOJ 反垄断诉讼曝光）。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(10:32起):本集说 Google 搜索至今有韧性,是因为变现最高的广告词(买保险、找酒店)恰恰是 AI 还无法替用户执行行动的场景;且与 Meta 各自在发达市场每用户每年赚 200 美元以上
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(06:08起):本集用它的例子说明能耗约束:Google 与阿姆斯特丹谈判三年拿不到电网,最后把数据中心计划搬到比利时。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(13:20起):本集讲它在 2010 年前后主动洽谈收购 JustinTV，理由是 YouTube 占据互联网视频、直播只是一个小功能，面试了整个团队后说「你们的团队不够好」转身走人——Justin 称之为最泄气的一击，也成了 Twitch 诞生的导火索。
-- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(07:49起):本集提到商家把商品目录同步到 Google 等广告平台，但那套规范是为人类搜索建的，不是为智能体。
+- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]]**(07:49起):本集提到商家把商品目录同步到 Google 等广告平台，但那套规范是为人类搜索建的，不是为智能体。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(28:08起):本集以 Google 为「在位者不愿蚕食旧界面」的经典例子：没为 AI 时代重造 Docs 和 Gmail；其 Nano、Banana 等图像模型也抢走了独立图像生成器的散户流量。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
-- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 
 ## ① 提到它的金句
 
-*37 条*
+*41 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -149,11 +149,19 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q4]]
 
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q9]]
+
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q12]]
+
 ![[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat#^q1]]
 
 ![[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat#^q5]]
 
 ![[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn#^q6]]
+
+![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q2]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q15]]
 
 ## ② 出现在这些集
 
@@ -213,17 +221,17 @@ unlisted: true
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司(提及)
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司(提及)
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司
-- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为被讨论公司(提及)
+- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司(提及)
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 
 ## ③ 关联
 

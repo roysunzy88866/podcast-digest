@@ -42,7 +42,7 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q2]]
 
-![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q2]]
+![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q3]]
 
 ## ② 出现在这些集
 

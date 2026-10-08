@@ -129,7 +129,7 @@ jsonLd: |
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|VS Code 周更背后：小团队如何用智能体重塑整个发布系统]]<span class="pd-rz">同概念:agents.md、智能体 (agent)</span>
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|VS Code 团队如何靠 AI 把月更改成周更]]<span class="pd-rz">同概念:agents.md、智能体 (agent)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:智能体 (agent)</span>
 - [[2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean|Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 

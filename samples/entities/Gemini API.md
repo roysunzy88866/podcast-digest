@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]]**(04:21起):本集说通过 Gemini API 既有轻量图像模型、快模型,也有跑三分钟以上的 Deep Research 智能体,是 Interactions API 要统一的既有入口。
+- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(04:21起):本集说通过 Gemini API 既有轻量图像模型、快模型,也有跑三分钟以上的 Deep Research 智能体,是 Interactions API 要统一的既有入口。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]] — 作为概念
+- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
 
 ## ③ 关联
 

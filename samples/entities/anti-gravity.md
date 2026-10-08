@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]]**(09:45起):本集说它是 Google 全套产品统一使用的智能体 harness(包裹模型、给工具和环境的执行框架),与 Gemini 联合训练,现已开放为远程托管智能体。
+- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(09:45起):本集说它是 Google 全套产品统一使用的智能体 harness(包裹模型、给工具和环境的执行框架),与 Gemini 联合训练,现已开放为远程托管智能体。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]] — 作为概念
+- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
 
 ## ③ 关联
 

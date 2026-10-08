@@ -11,19 +11,19 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(07:01起):官方用 Go 重写的 TypeScript 编译器，给他们的构建带来 10 倍提升——智能体规模下 CI-CD 任何慢环节都会被复合放大
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(07:01起):官方用 Go 重写的 TypeScript 编译器，给他们的构建带来 10 倍提升——智能体规模下 CI-CD 任何慢环节都会被复合放大
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q2]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q4]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为概念
 
 ## ③ 关联
 

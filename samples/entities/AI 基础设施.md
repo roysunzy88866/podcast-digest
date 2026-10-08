@@ -84,9 +84,9 @@ unlisted: true
 
 ![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q11]]
 
-![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q7]]
+![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q5]]
 
-![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q6]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q3]]
 
 ## ② 出现在这些集
 

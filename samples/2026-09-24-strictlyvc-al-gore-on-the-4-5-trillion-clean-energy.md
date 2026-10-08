@@ -1,12 +1,12 @@
 ---
-title: Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会
+title: 戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口
 podcast: StrictlyVC Download
 date: 2026-10-06
 source_url: undefined
 duration: "32:07"
 type: episode
 cover: "#64748b"
-description: 前美国副总统 Al Gore 与 Generation Investment Management 增长股权联席主管 Lila Preston 谈 AI 能源需求、太阳能提速与清洁能源投资机会。
+description: 美国前副总统 Al Gore 与投资人 Lila Preston 聊 AI 耗电、核能困境和清洁能源最值得投的机会。
 host: "[[Al Gore]]"
 cohosts: ["[[Lila Preston]]", "[[Connie Loizis]]"]
 companies: ["[[Generation Investment Management]]", "[[Anthropic]]", "[[OpenAI]]", "[[Pivot Bio]]", "[[Gridware]]"]
@@ -17,18 +17,18 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#post","headline":"Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy","mainEntityOfPage":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy","description":"前美国副总统 Al Gore 与 Generation Investment Management 增长股权联席主管 Lila Preston 谈 AI 能源需求、太阳能提速与清洁能源投资机会。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Al Gore"},{"@type":"Person","name":"Lila Preston"},{"@type":"Person","name":"Connie Loizis"},{"@type":"Organization","name":"Generation Investment Management"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Pivot Bio"},{"@type":"Organization","name":"Gridware"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"可再生能源 (renewable energy)"},{"@type":"Thing","name":"太阳能 (solar)"},{"@type":"Thing","name":"电网 (grid)"},{"@type":"Thing","name":"小型模块化反应堆 (small modular reactors)"},{"@type":"Thing","name":"再生农业 (regenerative agriculture)"},{"@type":"Thing","name":"EVs"},{"@type":"Thing","name":"化石燃料 (fossil fuels)"},{"@type":"Thing","name":"工业脱碳 (industrial decarbonization)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会","item":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#post","headline":"戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy","mainEntityOfPage":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy","description":"美国前副总统 Al Gore 与投资人 Lila Preston 聊 AI 耗电、核能困境和清洁能源最值得投的机会。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Al Gore"},{"@type":"Person","name":"Lila Preston"},{"@type":"Person","name":"Connie Loizis"},{"@type":"Organization","name":"Generation Investment Management"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Pivot Bio"},{"@type":"Organization","name":"Gridware"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"可再生能源 (renewable energy)"},{"@type":"Thing","name":"太阳能 (solar)"},{"@type":"Thing","name":"电网 (grid)"},{"@type":"Thing","name":"小型模块化反应堆 (small modular reactors)"},{"@type":"Thing","name":"再生农业 (regenerative agriculture)"},{"@type":"Thing","name":"EVs"},{"@type":"Thing","name":"化石燃料 (fossil fuels)"},{"@type":"Thing","name":"工业脱碳 (industrial decarbonization)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口","item":"https://talk.solomind.cc/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会
+# 戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口
 
 <div class="pd-byl"><b>Al Gore</b> · 前美国副总统 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">一些超大规模云厂商正在跳入新的甲烷涡轮机,这是令人深切担忧的。</div><div class="a">— Al Gore <button class="pd-ts" data-t="02:49" data-who="Al Gore" data-en="It is a matter of deep concern that some of the hyperscalers are jumping into new methane turbines." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">但值得记住的是，唯一一个价格下降速度比太阳能电力更快的技术，就是电网级规模的电池。</div><div class="a">— Al Gore <button class="pd-ts" data-t="07:10" data-who="Al Gore" data-en="But it's worth remembering the only technology that's come down in price faster than solar electricity is utility scale batteries." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Al Gore]] · [[Lila Preston]] · [[Connie Loizis]]
@@ -37,136 +37,153 @@ jsonLd: |
 >
 > **概念** [[数据中心]] · [[前沿模型]] · [[AI]] · [[可再生能源]] · [[太阳能]] · [[电网]] · [[小型模块化反应堆]] · [[再生农业]] · [[EVs]] · [[化石燃料]] · [[工业脱碳]]
 
-这一集是 TechCrunch 主编 Connie Loizos 与 Strictly VC 的 Alex Gove 对谈两位老朋友:前美国副总统 [[Al Gore|Al Gore]],以及 [[Generation Investment Management|Generation Investment Management]] 增长股权联席主管 [[Lila Preston|Lila Preston]],聊的是他们每年一度的可持续发展趋势报告。
+美国前副总统 [[Al Gore|Al Gore]] 和 [[Generation Investment Management|Generation Investment Management]] 增长股权业务联席主管 [[Lila Preston|Lila Preston]] 做客 StrictlyVC Download，聊他们今年的可持续发展趋势报告。
 
-最反直觉的一个数字是:把所有 [[AI|AI]] [[数据中心|数据中心]]的排放加在一起,也只相当于全球未覆盖填埋场排放的一小部分——Gore 据此说,数据中心的排放问题「值得深切关注,但不值得恐慌」。
+核心信息很明确：**能源转型的速度比 Gore 自己预想的还快**，而 [[AI|AI]] 的电力需求与其说是危机，不如说是把资金推向正确方向的机会。
 
-## 数据中心之争:关注,但不恐慌
+## 数据中心该怕的不是排放，而是用什么发电？
 
-Gore 认为,美国各地对数据中心日益增长的两党反对,背后真正的驱动力是对失业的担忧,以及 [[OpenAI|OpenAI]]、[[Anthropic|Anthropic]] 内部专家反复警告的其他 AI 风险,而不只是排放。
+很多人担心 AI [[数据中心|数据中心]]会毒害社区，Gore 的态度是「值得深切关注，但不必恐慌」<button class="pd-ts" data-t="02:02" data-who="Gore" data-en="You have called the data center backlash a cause for deep concern, but not panic. That the strain on land and water and grids is real, but also that the build out is probably inevitable." aria-label="回原文"></button>。
 
-就排放本身而言,真正让他担忧的是一些超大规模云厂商在转向新的甲烷涡轮机;他更倾向于用[[可再生能源|可再生能源]]加电池来供电的公司,而且认为这个方向会持续下去,因为可再生能源拿到的是最便宜的电力来源。
+他给了一个很直观的对比：把全球所有 AI 数据中心的排放加起来，还不到世界上那些没加盖的垃圾填埋场的排放量 <button class="pd-ts" data-t="18:52" data-who="Gore" data-en="But where the emissions themselves are concerned, the reason I've said that ought to be viewed with concern but not panic is that We're seeking to power these data centers with fossil fuels." aria-label="回原文"></button>。
 
-真正的深层担忧在别处:Anthropic 宣布已阻止 Claude 被用于制造生物武器,还有模型「逃脱禁闭、秘密协作、掩盖踪迹、从事欺骗行为」的案例,以及认知萎缩、对社会机构的冲击。
+真正让他担心的，是一些超大规模云服务商开始跳去新建甲烷燃气轮机。
 
-Gore 的主张是:美国和中国应该采纳一个双议题议程——共同应对气候危机,加上为 AI [[前沿模型|前沿模型]]建立监管,这是美中重续合作最合适的两大议题。
+他更欣赏那些用[[可再生能源|可再生能源]]加电池来供电的公司——而且这不只是情怀：谁拿到最便宜的电，谁就更有竞争力 <button class="pd-ts" data-t="03:00" data-who="Gore" data-en="And I much prefer those who are... Supplying their energy needs with renewables and batteries. And I think there's going to be a continued shift in that direction for a lot of reasons, not least because they're more competitive when they get the cheapest sources of electricity." aria-label="回原文"></button>。
 
-Lila 补充了投资视角:在为数据中心增加可再生基载电力的同时,在计算链每一个环节降低能源强度上都有大量机会——绿色水泥、绿色钢材、存储优化软件、数据库设计优化、跨州需求响应。
+所以这场围绕数据中心的争执，重点不该是阻止建设，而是逼着它们配套可再生能源。
 
-## 转折点已到:地缘政治反推加速
+至于 AI 的深层风险——比如模型逃脱沙箱、暗中协作、掩盖行踪、欺骗人类——Gore 认为这些才是更要紧的问题，并建议美中把共同应对气候危机和监管前沿 AI 模型列为两国合作的两大议题 <button class="pd-ts" data-t="20:37" data-who="Gore" data-en="In some regions, the noise experienced by people near the data centers is an issue, but the deeper concerns are the ones that these experts have been warning us about just in the lab." aria-label="回原文"></button>。
 
-一个关键变化是:[[化石燃料|化石燃料]]正在变成「不可靠」的代名词。
+## 为什么说化石燃料不可靠了？
 
-波斯湾油气供应中断、红海航线受威胁,这是四年内世界第二次被残酷提醒化石燃料的脆弱性。
+过去四年里，世界被两次粗暴地提醒：[[化石燃料|化石燃料]]供应非常脆弱 <button class="pd-ts" data-t="05:33" data-who="Gore" data-en="This is the second time in four years that the world has been brutally reminded That fossil fuels are a very difficult and unreliable source of energy. Price volatility has increased dramatically." aria-label="回原文"></button>。波斯湾的油气供应中断、红海航线受威胁，油价剧烈波动。
 
-Gore 引用韩国总统的话「我们不能再拖延转型」,以及泰国的宣布——从液化天然气转向[[太阳能|太阳能]]。
+韩国总统最近表态，这证明我们不能再拖延摆脱化石燃料；泰国几天前也宣布从液化天然气转向[[太阳能|太阳能]] <button class="pd-ts" data-t="06:02" data-who="Gore" data-en="said just recently, this shows us we can no longer put off the transition away from fossil fuels. Just a few days ago, the leadership in Thailand made a dramatic announcement that they're switching from LNG to solar." aria-label="回原文"></button>。
 
-最生动的细节:在巴基斯坦部分地区,如今常见的嫁妆已经是三块太阳能板加一台逆变器。
+太阳能普及的速度超出所有人预料。Gore 举了个例子：在巴基斯坦部分地区，如今常见的嫁妆是三块太阳能板加一个逆变器 <button class="pd-ts" data-t="06:24" data-who="Gore" data-en="We've seen the surge in solar panel sales with reports that now were hidden from the public Today, the common dowry in Pakistan and parts of Pakistan is now three panels and an inverter." aria-label="回原文"></button>。
 
-数字层面:去年全球新增电力生产中 86% 是可再生能源,美国是 91%——尽管 Trump 尽了最大努力拖慢。
+去年全球新增发电能力中 86% 是可再生能源，美国的比例是 91% <button class="pd-ts" data-t="08:46" data-who="Gore" data-en="It guarantees that their share of the production of electricity will continue to increase. 86% of all new electricity production worldwide last year was renewables." aria-label="回原文"></button>。
 
-可再生能源加电池的电力产量增长,已经赶上甚至超过全球能源使用的增长,可再生能源开始真正取代化石燃料。
+> 【背景】Generation Investment Management 是 Al Gore 于 2004 年联合创立、聚焦可持续投资的资产管理公司，每年发布可持续发展趋势报告（STR）。
 
-## 太阳能是「最耀眼的明星」
+## 核电是不是好的投资标的？
 
-Gore 说,这份报告做了十年,偏离预期最远的趋势就是太阳能革命的规模——连 IEA(国际能源署)这样专业的预测机构都被价格下降速度惊到。
+小型模块化核反应堆最近在创投圈很热，但 Gore 泼了冷水。
 
-太阳能电力现在约 0.09 美分,是迄今世界历史上最便宜的电力来源。
+他引用能源专家 Hal Harvey 的名言：新型模块化反应堆确实神奇——**更小、更安全、更便宜，而且不存在**<button class="pd-ts" data-t="09:44" data-who="Gore" data-en="Hal Harvey, one of the leading energy experts, has famously said that the new modular reactors are quite amazing. They're smaller, safer, cheaper, and don't exist." aria-label="回原文"></button>。
 
-他引用朋友的说法:如果上帝打算给我们无限供应的廉价清洁能源,就会在天上放一个聚变反应堆。
+问题在于核电的安全工程成本不会随发电规模缩小而等比下降。
 
-Lila 看到的是这些成本下降曲线的**系统互动**:太阳能 + 电池储能 + [[电网|电网]]优化 + 电动车充电,一个完整的星群开始协同工作。
+早期试点项目令人失望，几个月前有做空机构押注小型反应堆公司大赚了一笔 <button class="pd-ts" data-t="09:25" data-who="Gore" data-en="Well, some of the safety engineering required for nuclear doesn't scale down in cost as the output of electricity scales down. And you may have noticed that some short sellers made a windfall betting against these small modular reactors just a couple of months ago." aria-label="回原文"></button>。
 
-中国是极端案例:一年前的七月高峰期,每天安装三吉瓦太阳能,仅七月一个月就装了 93 吉瓦;上个月新售车辆中 65% 是电动车,正朝着两年内 82% 迈进。
+他去过核能诞生地 Oak Ridge，那里有一百种设计，但他认为核电要发挥重要作用还很遥远。
 
-她还指出中国过去六到八个月的三个重大变化:从衡量碳强度改善改为衡量实际碳减排、愿意单独提供气候外交领导力、排放似乎已见顶回落。
+## 4.5 万亿美元缺口，钱该流向哪里？
 
-## 核能:热情很高,路还很长
+报告说清洁能源投资目前是每年 2.2 万亿美元，到 2030 年代初需要翻倍到约 4.5 万亿美元 <button class="pd-ts" data-t="10:31" data-who="主持人" data-en="Again, I hope they will develop them safely and profitably, but it's quite a ways off in my opinion. Your report says clean energy investment has reached $2.2 trillion annually, but needs to roughly double to $4.5 trillion by the early 2030s." aria-label="回原文"></button>。
 
-面对风投圈对[[小型模块化反应堆|小型模块化反应堆]]的热情,Gore 泼了冷水:核能所需的某些安全工程,并不会随发电规模缩小而降低成本。
+全球清洁能源投资已经是化石能源投资的两倍 <button class="pd-ts" data-t="11:01" data-who="Gore" data-en="Well, if you look at the global market, there is now twice as much investment in clean energy as in fossil fuel energy. I expect those trends to continue, but I think that this transition is inevitable." aria-label="回原文"></button>。
 
-几个月前做空者靠押注做空小型模块化反应堆赚了横财,早期试点令人失望。
+Preston 指出了几个资本还没充分到位的方向。
 
-他引用能源专家 Hal Harvey 的名言:新的模块化反应堆「更小、更安全、更便宜,而且不存在」。
+交通：全球每卖出四辆新车就有一辆是电动车，围绕它的充电、电池优化、预测性维护软件都是机会 <button class="pd-ts" data-t="12:06" data-who="Preston" data-en="And again, we have the benefits of now AI in the mix to potentially do this, but think about, you know, transportation, you know, EVs have been up and one in four of the global automotive fleet is an electric vehicle." aria-label="回原文"></button>。
 
-他希望它们被安全且有利可图地开发出来,但认为还有相当长的路。
+农业：霍尔木兹海峡中断导致 30% 的氮肥供应受阻，氮肥价格短期暴涨超过 50%，农民急需替代方案 <button class="pd-ts" data-t="12:40" data-who="Preston" data-en="The other area within the report I'll cite is around agriculture. And, you know, we saw with the Strait of Hormuz closure the fact that with 30 percent of nitrogen supply passing through the straits, there was a spike of over 50 percent in the short term after that of nitrogen prices." aria-label="回原文"></button>。
 
-另外,核电在太多国家正变得「间歇性」——因为河水太热、水位太低。
+他们投的 [[Pivot Bio|Pivot Bio]] 就是用生物技术替代化学氮肥，不再依赖化石原料 <button class="pd-ts" data-t="13:21" data-who="Preston" data-en="Could you elaborate on that? It's actually a company using biology to replace chemistry in agriculture. It's a company called Pivot Bio, and it's an example of not relying on fossil feedstocks for the production of nitrogen for growers." aria-label="回原文"></button>。
 
-## 资本该去哪里:2.2 万亿到 4.5 万亿的缺口
+Gore 补充说，地表一米厚的土壤里储存的碳，是全世界所有树木和植被的三倍，工业化农业把土壤碳耗掉了，而[[再生农业|再生农业]]可以把它补回来 <button class="pd-ts" data-t="13:52" data-who="Gore" data-en="And regenerative agriculture is one of the most effective tools in the toolbox of climate solutions. There's three times as much carbon in the first meter of topsoil than in all the trees and all the vegetation in the entire world." aria-label="回原文"></button>。
 
-报告测算:清洁能源投资已达每年 2.2 万亿美元(已是化石能源投资的两倍),但需要在 2030 年代初之前翻倍至约 4.5 万亿。
+## 数据中心本身也藏着生意
 
-Lila 点出几块「技术已就绪、资本还没到位」的领域:
+除了给数据中心配可再生能源，还有一整条降低计算能耗的产业链 <button class="pd-ts" data-t="20:59" data-who="Preston" data-en="I just wanted to add one final piece while we have to, you know, increase the renewable base load power for the data centers. At the same time, there's a lot of innovation activity and investment opportunity in decoupling the energy intensity of compute at every step of the chain." aria-label="回原文"></button>：绿色水泥、绿色钢材来建机房；
 
-- **电网韧性**:从供应挑战转向电网韧性挑战,核心是灵活性、互联互通和多元化能源结构优化。她投了 [[Gridware|Gridware]]——在电线杆上装传感器,既监测也转移负荷,缓冲野火等气候风险;还有欧洲的 Volu,帮公用事业把更多可再生能源并入电网。
-- **农业**:霍尔木兹海峡关闭后,全球 30% 的氮供应经过该海峡,氮价短期暴涨超 50%,重创农民。机会在[[再生农业|再生农业]]——用生物学替代化学、机器人、数据科学。她投了 [[Pivot Bio|Pivot Bio]],一家用生物学替代化学、让氮肥不依赖化石原料的公司。Gore 补充:表层土壤第一米的碳含量是全球所有树木植被的三倍,再生农业是最有效的气候工具之一。
-- **交通与[[工业脱碳|工业脱碳]]**:全球新车销量的四分之一已是电动车,围绕它的充电、电池优化、预防性维护软件、自动驾驶仿真软件都是机会。工业建筑领域的创新偏少,原因是委托代理问题——拥有建筑的人和住建筑的人不是同一人,行为改变难落地;建筑优化软件和重工业预防性维护(如她的投资项目 IFS)是切入点,但需要时间赢得信任。他们还领投了正在瑞典北部建设的全球最大绿色钢铁设施。
+Weka 这类公司优化存储层，性能提升 10 倍，能把存储硬件和能耗需求最多降低 90% <button class="pd-ts" data-t="21:51" data-who="Preston" data-en="So there's quite a few companies, but also places where we've already used our roadmap research to invest behind a few. For example, Weka is a company that helps to optimize that storage layer, driving up like 10x performance, which reduces the need by up to 90% for the hardware and energy use of the storage" aria-label="回原文"></button>；欧洲的 Volu 帮[[电网|电网]]运营商接入更多可再生能源；
 
-## AI 本身可能是解药
+[[Gridware|Gridware]] 在电线杆上装传感器，监测并防范山火风险——它的联合创始人以前就是在澳大利亚爬电线杆的线路工人 <button class="pd-ts" data-t="22:33" data-who="Preston" data-en="The report shows quite a bit around the advances of global wildfire risk. And there's a company like Gridware, which has sensors on utility poles and can provide monitoring, but also ability to shift load and protect" aria-label="回原文"></button>。
 
-Nick Stern(伦敦政经学院的经济学家)团队的最新研究预测：得益于 AI 应用于效率提升和消除能源浪费，排放量可能每年下降 6% 到 9%。
+## 25 岁的创业者该干什么？
 
-Gore 说生物学革命「几乎和 AI 革命一样惊人」。
+如果今天一个 25 岁的创始人想用十年建一家能实质影响气候的大公司，Gore 开玩笑说去咨询 Lila Preston<button class="pd-ts" data-t="28:07" data-who="Gore" data-en="As you know, we have an audience of entrepreneurs, and I'm just wondering if a 25-year-old founder came to you today and said, I want to spend the next decade building a company that can become enormous and materially affect the climate problem, what would you tell them to work on?" aria-label="回原文"></button>。
 
-对 AI 末日警告，他引用 Maya Angelou:当有人告诉你他们是什么样的人时，第一次就要相信他们——Anthropic 的 CEO、Sam Altman、Elon Musk 都是真诚的，因为他们对前沿模型的进展有第一排的座位。
+Preston 给出的清单是：[[工业脱碳|工业脱碳]]、建筑（这个领域创新最少，有机主和使用者分离的激励错位问题）、以及用数据科学改造的农业 <button class="pd-ts" data-t="28:29" data-who="Preston" data-en="I mean, it is exciting times, so I would hope that they, you know, plug in. I think industrial decarbonization is still a massive need. Buildings, you know, hasn't seen as much innovation." aria-label="回原文"></button>。
 
-> 【背景】文中「Anthropic 的 CEO」指 Dario Amodei。
+Gore 还提到他们领投了全球最大的绿色钢铁项目，正在瑞典北部建设 <button class="pd-ts" data-t="28:55" data-who="Gore" data-en="Yeah, you know, we led the latest investment round in the largest green steel. It's the largest facility in the world under construction now in Northern Sweden. And the developments are so positive there." aria-label="回原文"></button>。过去被视为难减排的行业，有些正在从名单上被划掉。
 
-## 给 25 岁创始人的建议
+国际能源署以前说十年能减排 50%，现在这个数字是 65% <button class="pd-ts" data-t="29:15" data-who="Gore" data-en="And the hard to abate sectors that were on the list a few years ago, some of those subsectors are being taken off that list now. You know, the IEA used to say we could reduce emissions by 50% in 10 years." aria-label="回原文"></button>。
 
-Lila 的建议:投身进去。
+## 最超预期的一件事：太阳能
 
-工业脱碳仍是巨大需求,建筑领域创新不足,农业正迎来生物学与数据科学的结合——「我们可以在系统层面创建解决这些问题的巨大公司」。
+做了十年报告，哪个趋势走得最远？Gore 毫不犹豫：太阳能革命的规模和速度 <button class="pd-ts" data-t="26:18" data-who="Gore" data-en="Mr. Gore, I also just wanted to ask, you know, big question, but 10 years of this report and Lila, what is the number one trend that's moved furthest from where you expected it to be?" aria-label="回原文"></button>。
 
-Gore 补充:「难减排」行业的名单正在缩短——IEA 过去说十年可减排 50%,现在这个数字是 65%。
+**太阳能价格如今降到了 0.09 美分，是世界历史上最便宜的电力来源** <button class="pd-ts" data-t="26:46" data-who="Gore" data-en="have been startled by how fast the price of solar has declined. 0.09 cents now. It's just incredible." aria-label="回原文"></button>。他讲了个田纳西州朋友的笑话：
+
+如果上帝想让我们拥有无限便宜的清洁能源，就会在天上放一个核聚变反应堆——而太阳本身就是。
+
+Preston 最兴奋的则是各条技术成本下降曲线开始互相咬合：太阳能加储能、电网优化、电动车充电，整个系统开始协同运转 <button class="pd-ts" data-t="27:25" data-who="Preston" data-en="Well, you know, the joke makes itself because you have this being discovered all over the world and the pace and speed and scope of that particular part of the change has" aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **数据中心的正确打法是「逼它配绿电」,不是阻止建设**:排放总量其实不大(小于全球未覆盖填埋场),真正该盯的是别让它转向甲烷涡轮机,以及 AI 安全这类更深层的风险。
-- **化石燃料的「不可靠」正在变成转型的推手**:四年内两次供应中断让韩国、泰国等国加速转向太阳能——地缘政治在替可再生能源做广告。
-- **太阳能已是史上最便宜的电力**,且全球新增电力的 86%(美国 91%)是可再生能源;限制因素已从供应端转移到电网韧性与灵活性。
-- **投资缺口在「技术就绪、资本未到」处**:电网软件、再生农业(生物替代化学)、电动车配套基础设施、工业与建筑脱碳、绿色钢铁。
-- **小型核反应堆别太当真**:安全成本不随规模缩小而降,早期试点令人失望,连做空者都赢了——离可用还有相当长的路。
-- **美中双议题议程**:Gore 认为气候合作与前沿模型监管是两国最该也最适合重启合作的两大议题。
+- AI 数据中心的排放总量其实不大，关键之争在于逼它们配套可再生能源，而不是上甲烷燃气轮机
+- 地缘冲突两次打断化石燃料供应，反而加速了全球能源转型
+- 小型核反应堆被 Gore 视为遥远的机会：更小、更安全、更便宜，而且不存在
+- 清洁能源投资需从每年 2.2 万亿美元翻倍到 4.5 万亿美元，农业、建筑、工业脱碳是资本缺口最大的方向
+- 太阳能是世界历史上最便宜的电力，去年全球新增发电能力 86% 来自可再生能源
 
-<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
-> <span class="qz">一些超大规模云厂商正在跳入新的甲烷涡轮机,这是令人深切担忧的。</span>  
-> *It is a matter of deep concern that some of the hyperscalers are jumping into new methane turbines.*  
-> <span class="qm">—— Al Gore · [02:49]</span> ^q1
-
-> <span class="qz">它们更小、更安全、更便宜,而且不存在。</span>  
-> *They're smaller, safer, cheaper, and don't exist.*  
-> <span class="qm">—— Al Gore · [09:44]</span> ^q2
-
-> <span class="qz">如今,在巴基斯坦部分地区,常见的嫁妆已经是三块太阳能板加一台逆变器。</span>  
-> *Today, the common dowry in Pakistan and parts of Pakistan is now three panels and an inverter.*  
-> <span class="qm">—— Al Gore · [06:24]</span> ^q3
+> <span class="qz">但值得记住的是，唯一一个价格下降速度比太阳能电力更快的技术，就是电网级规模的电池。</span>  
+> *But it's worth remembering the only technology that's come down in price faster than solar electricity is utility scale batteries.*  
+> <span class="qm">—— Al Gore · [07:10]</span> ^q1
 
 > <span class="qz">去年全球所有新增电力生产中有 86% 是可再生能源。</span>  
 > *86% of all new electricity production worldwide last year was renewables.*  
-> <span class="qm">—— Al Gore · [08:46]</span> ^q4
+> <span class="qm">—— Al Gore · [08:46]</span> ^q2
 
-> <span class="qz">但如果你把所有 AI 数据中心的排放加在一起看,那只是全球未覆盖填埋场排放的一小部分。</span>  
+> <span class="qz">它们更小、更安全、更便宜，而且不存在。</span>  
+> *They're smaller, safer, cheaper, and don't exist.*  
+> <span class="qm">—— Al Gore · [09:44]</span> ^q3
+
+> <span class="qz">你知道，我们从霍尔木兹海峡关闭事件中看到，由于全球 30% 的氮供应经过该海峡，此后短期内氮价格上涨了超过 50%。</span>  
+> *And, you know, we saw with the Strait of Hormuz closure the fact that with 30 percent of nitrogen supply passing through the straits, there was a spike of over 50 percent in the short term after that of nitrogen prices.*  
+> <span class="qm">—— 嘉宾 · [12:40]</span> ^q4
+
+> <span class="qz">表层土壤第一米中的碳含量是全世界所有树木和所有植被中碳含量的三倍。</span>  
+> *There's three times as much carbon in the first meter of topsoil than in all the trees and all the vegetation in the entire world.*  
+> <span class="qm">—— Al Gore · [13:52]</span> ^q5
+
+> <span class="qz">在中国，上个月，所有新售车辆中有 65% 是电动车，正朝着两年内达到 82% 迈进。</span>  
+> *In China, last month, 65% of all new vehicles were EVs, on the way to 82% in the next two years.*  
+> <span class="qm">—— Al Gore · [15:23]</span> ^q6
+
+> <span class="qz">而唐纳德·特朗普现在是一只跛脚鸭，每小时都更加跛一些。</span>  
+> *And Donald Trump is now a lame duck, a lamer with each passing hour.*  
+> <span class="qm">—— Al Gore · [17:26]</span> ^q7
+
+> <span class="qz">但如果你把所有 AI 数据中心的排放加在一起看，那只是全球未覆盖填埋场排放的一小部分。</span>  
 > *But if you look at the emissions of all of the AI data centers put together, it's only a fraction of the emissions from uncovered landfills in the world.*  
-> <span class="qm">—— Al Gore · [18:56]</span> ^q5
+> <span class="qm">—— Al Gore · [18:56]</span> ^q8
 
-> <span class="qz">再说一次,美国和中国应该采纳一个双议题议程:共同解决气候危机,以及为 AI 前沿模型建立适当的监管。</span>  
-> *Again, the U.S. and China should adopt a two-issue agenda, solving the climate crisis together and establishing appropriate regulations for the frontier models in AI.*  
-> <span class="qm">—— Al Gore · [20:37]</span> ^q6
+> <span class="qz">我想起 Maya Angelou 的名言，她说过：当有人告诉你他们是什么样的人时，第一次就要相信他们。</span>  
+> *I'm reminded of the famous saying from Maya Angelou when she said, when someone tells you who they are, believe them the first time.*  
+> <span class="qm">—— Al Gore · [24:30]</span> ^q9
 
-> <span class="qz">逃脱禁闭、秘密协作、掩盖踪迹、从事欺骗性行为,这并不能让人产生多少信心。</span>  
+> <span class="qz">逃脱禁闭、秘密协作、掩盖踪迹、从事欺骗性行为，这并不能让人产生多少信心。</span>  
 > *Escaping confinement, collaborating secretly, covering their tracks, engaging in deceptive behavior, that doesn't inspire a lot of confidence.*  
-> <span class="qm">—— Al Gore · [24:58]</span> ^q7
+> <span class="qm">—— Al Gore · [24:58]</span> ^q10
+
+> <span class="qz">就我个人而言，太阳能革命的广度和深度是可持续转型中最耀眼的明星。</span>  
+> *For me personally, the scope and scale of the solar revolution is the breakout star of the sustainability transition.*  
+> <span class="qm">—— Al Gore · [26:18]</span> ^q11
 
 > <span class="qz">这是迄今为止世界历史上最便宜的电力来源。</span>  
 > *By far the cheapest source of power in the history of the world.*  
-> <span class="qm">—— Al Gore · [26:50]</span> ^q8
+> <span class="qm">—— Al Gore · [26:50]</span> ^q12
 
-> <span class="qz">一年前的七月,在他们安装的高峰期,他们每天安装三吉瓦的太阳能,仅七月份一个月就安装了 93 吉瓦。</span>  
-> *A year ago, July, in the peak of their installation, they were installing three gigawatts of solar every day, 93 gigawatts in the month of July alone.*  
-> <span class="qm">—— Al Gore · [16:27]</span> ^q9
+> <span class="qz">Lila 提到了 PivotBio,但生物学的革命几乎和 AI 的革命一样惊人。</span>  
+> *Lila mentioned PivotBio, but the revolution in biology is almost as startling as the revolution in AI.*  
+> <span class="qm">—— Al Gore · [29:32]</span> ^q13
 
 <div class="pd-sec">接着看</div>
 

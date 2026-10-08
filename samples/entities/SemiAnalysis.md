@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(37:12起):本集称它是 AI 基础设施领域最有影响力的研究机构、『AI 基础设施领域的圣经』，两位嘉宾均来自这里，ClusterMax 报告即其出品。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(37:12起):本集称它是 AI 基础设施领域最有影响力的研究机构、『AI 基础设施领域的圣经』，两位嘉宾均来自这里，ClusterMax 报告即其出品。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 
 ## ③ 关联
 

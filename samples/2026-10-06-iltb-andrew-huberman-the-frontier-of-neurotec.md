@@ -1,5 +1,5 @@
 ---
-title: "神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司"
+title: "斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司"
 podcast: Invest Like the Best
 date: 2026-10-07
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "70:05"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec.jpg"
-description: "斯坦福前终身教授、神经科学家 Andrew 谈高能量者的睡眠与关机技巧,并断言 AI 巨头终将竞逐「写入大脑」的神经技术。"
+description: "Andrew Huberman 与 Patrick O'Shaughnessy 畅谈精力管理、入睡技巧,以及神经科技的下一个十年。"
 host: "[[Andrew Huberman]]"
 companies: ["[[Neuralink]]", "[[OpenAI]]"]
 concepts: ["[[AI]]", "[[睡眠]]", "[[记忆]]", "[[迷走神经刺激]]", "[[CRISPR]]"]
@@ -17,18 +17,18 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#post","headline":"神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec","description":"斯坦福前终身教授、神经科学家 Andrew 谈高能量者的睡眠与关机技巧,并断言 AI 巨头终将竞逐「写入大脑」的神经技术。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec.jpg","about":[{"@type":"Person","name":"Andrew Huberman"},{"@type":"Organization","name":"Neuralink"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"睡眠 (sleep)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"迷走神经刺激 (vagal stimulation)"},{"@type":"Thing","name":"CRISPR"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司","item":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#post","headline":"斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec","description":"Andrew Huberman 与 Patrick O'Shaughnessy 畅谈精力管理、入睡技巧,以及神经科技的下一个十年。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec.jpg","about":[{"@type":"Person","name":"Andrew Huberman"},{"@type":"Organization","name":"Neuralink"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"睡眠 (sleep)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"迷走神经刺激 (vagal stimulation)"},{"@type":"Thing","name":"CRISPR"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司","item":"https://talk.solomind.cc/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司
+# 斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司
 
 <div class="pd-byl"><b>Andrew Huberman</b> · 斯坦福前终身教授、神经科学家 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以稀释自己、以为自己只需要四五个小时，因为 Elon 只需要四五个小时，那是荒谬的。</div><div class="a">— Andrew Huberman <button class="pd-ts" data-t="03:38" data-who="Andrew Huberman" data-en="So to dilute oneself into thinking you only need four or five hours because Elon only needs four or five hours, that's ridiculous." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">因为 Elon 只需要四五个小时，就催眠自己以为自己只需要四五个小时，那是荒谬的。</div><div class="a">— Andrew Huberman <button class="pd-ts" data-t="03:38" data-who="Andrew Huberman" data-en="So to dilute oneself into thinking you only need four or five hours because Elon only needs four or five hours, that's ridiculous." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Andrew Huberman]]
@@ -37,180 +37,169 @@ jsonLd: |
 >
 > **概念** [[AI]] · [[睡眠]] · [[记忆]] · [[迷走神经刺激]] · [[CRISPR]]
 
-这一集的嘉宾是 Andrew——斯坦福大学前终身教授、神经科学家(他在访谈中提到的身份线索：
+斯坦福神经科学家、Huberman Lab 播客主持人 [[Andrew Huberman|Andrew Huberman]],做客 Invest Like the Best,聊的话题从怎么在最忙的人生阶段不垮掉一路聊到往大脑里写入信号。
 
-在 Stanford 拿到终身教职、曾长期运营实验室、后转向公众健康科普)。> 【背景】Andrew 全名 [[Andrew Huberman|Andrew Huberman]],是知名健康科普播客 Huberman Lab 的主理人；访谈主持人是 Patrick O'Shaughnessy(Positive Sum CEO)。
+这场对话信息密度极高,也藏着他对 [[AI|AI]] 行业的一个大胆预测。
 
-本集从一个反直觉的预测展开：
+## 最有才华的人，瓶颈变成了精力
 
-所有人都以为 Meta、[[OpenAI|OpenAI]]、Anthropic、Elon 的 [[Neuralink|Neuralink]] 是 [[AI|AI]] 公司，Andrew 说，它们每一家最终都会变成生物技术公司——因为真正的目标是「以非侵入的方式，从大脑读取信息、向大脑写入信息」<button class="pd-ts" data-t="23:13" data-who="Andrew" data-en="is perhaps going to be surprised at this prediction. Every single one of those is going to be a biotech company. They're all interested in the brain." aria-label="回原文"></button>。
+主持人 Patrick 开场提出一个观察：
 
-## 高能量的人靠什么
+过去是世界上最顶尖的人嫌别人跟不上，现在反了过来——技术放大了他们的能力，真正稀缺的成了精力本身。
 
-主持人抛出的起点是：现在最顶尖的人才瓶颈不再是机会，而是**能量**——如果这些人能维持更多能量、不耗尽自己，回报会极高。
+Huberman 的建议朴素得出奇：先诚实地搞清楚自己需要多少[[睡眠|睡眠]]。
 
-Andrew 的回答很实在：首先要对自己的[[睡眠|睡眠]]需求做诚实的自我评估。
+他自己 7 小时状态最好，6 小时也没问题，连续两晚只睡 4 小时以下就彻底垮掉。
 
-「稀释自己、以为自己只需要四五个小时，因为 Elon 只需要四五个小时，那是荒谬的。」
+别因为 Elon 只睡四五个小时，就骗自己也行——Elon 在这方面没有同行者 <button class="pd-ts" data-t="03:07" data-who="Huberman" data-en="And I don't think he has any peers in that regard. In fact, one of the best multi-billionaire investors from the Bay Area who may have gone to Stanford and may have been part of the PayPal early team has asked me, how is it that Elon does this?" aria-label="回原文"></button>。
 
-他自己是个人的量化样本：睡七小时状态最佳；八小时反而有点昏沉；六小时可以应付；连续两晚只睡四小时以下就会垮掉。
+他还提醒，要区分两种人：一种是靠大量兴奋剂硬撑、表面高产其实在红线运转的人；
 
-其次他点出一个没人谈的事实：有些人天生就有更多能量，能长时间专注、快速切换任务——但关键要问那个人的**内在状态**：
+另一种是真正天生多一个档位的极少数。看清自己是哪一种，比模仿别人重要。
 
-有人是踩着红线硬撑(靠大量兴奋剂或硬扛)，晚上关不掉大脑、系统无法复位；有人则真的「多一个挡位」。
+## 忙碌一天之后，怎么让大脑熄火
 
-他还为尼古丁正名又设限：
+Patrick 坦白自己最大的问题：==从兴奋的一天切换到能入睡的状态，要花 4 个小时==。Huberman 给出了入睡的 3 个条件，并且每个都有具体做法。
 
-它确实能带来专注而放松的状态，但要获得认知增强效果，就不能长期使用，而是偶尔低剂量脉冲式刺激。
+第一，关掉思绪。大脑天生爱预测和计划，但你可以把注意力切换到纯粹的感觉上——脚、腿、呼吸、房间里的声音，来回转移。
 
-对创业者的务实建议也很不「养生」：
+他特意强调这不是冥想：冥想把注意力钉在一处，这里恰恰要不断游走，把感知拉回当下 <button class="pd-ts" data-t="09:31" data-who="Huberman" data-en="This is not meditation because meditation has you do something very different. Meditation has you focus all of your attention on your breathing or all of your attention on some region behind your forehead or your hands or whatever." aria-label="回原文"></button>。
 
-从零到创业头四年(或读医学院)，目标就是「别死掉」——尽可能多干事，别因伤病损害自己，之后再逐步插入休息与优化。
+第二，降低心率。方法是长呼气：缓缓把气吐尽，再被动吸气。原理是呼气时心脏体积变小，大脑会发出信号让心跳慢下来。
 
-「但如果我说要让湾区创业的人先保证八小时睡眠、做抗阻训练和呼吸练习，那是天真的。」
+清醒时想减压，同样管用。
 
-## 关掉思绪的三个开关
+第三，忘掉四肢的位置。
 
-主持人自称最大的问题是「降挡」：从兴奋的一天到能入睡，有时要四个小时。Andrew 给出的方法论分三步，顺序无所谓，理想是一起做：
+听起来最玄，但研究发现，按特定频率摇晃的床能让成年人快速入睡——因为摇晃会让闭着的眼球产生补偿性运动，干扰负责身体位置感的神经回路。
 
-1. **关掉思绪**。大脑天生爱预测接下来要发生什么，所以关念头是一种技能。方法是把注意力迁到「纯粹的感觉」上：身体表面、呼吸、房间里的声音，在脚、腿、呼吸、声音之间来回迁移。他特别强调这不是冥想——冥想是把注意力聚焦在某一点，这个练习恰恰是**迁移**注意力，把自己从思考和计划拉回当下的知觉。
+既然没人摇你，可以闭眼后主动缓慢转动眼球：左右、上下、顺时针、逆时针。
 
-2. **降心率**。长长的呼气会通过「呼吸性窦性心律不齐」机制放慢心率(这名字听着危险，实则有益)：呼气时心脏容积变小，大脑经迷走神经发出信号让心脏减速。所以想入睡或减压，就做长长的呼气直到肺排空，吸气只是被动的。
+一个 MIT 团队正在开发能直接测量快速眼动睡眠、还能通过耳后微电流刺激帮你入睡的眼罩，Huberman 试过，效果很好，预计 7 到 12 个月后上市 <button class="pd-ts" data-t="13:15" data-who="Huberman" data-en="And the reason I went to the literature on rocking of babies and adults to fall asleep is because a group out of MIT approached me and they said, we'd like you to try this eye mask." aria-label="回原文"></button>。
 
-3. **忘掉四肢在空间中的位置(本体感觉)**。这里有三条路：老派的是摇晃——研究发现以特定频率摇晃的床能让成人很快入睡，原理是左右移动时眼睑下会产生代偿性眼动，眼动经脑干和小脑调控平衡与本体感觉；「古怪」的是主动模拟这种眼动：闭眼把眼球慢慢左右、上下、画圈转动，扰乱这个回路，你就忘掉了身体姿势；第三是新技术——MIT 团队做了一个眼罩，通过耳后微量刺激直接驱动眼外肌产生缓慢眼动，让人很快入睡，还能放大 REM(快速眼动)睡眠阶段。他试过，白天晚上都有效，距发布约七到十二个月，并笑称「真希望自己有这家公司的股份」。
+## AI 巨头，其实都在盯着你的大脑
 
-## 健康科普圈是「一场灾难」
+Huberman 抛出全场最大胆的判断：「**每一个都会变成生物科技公司**。」
 
-谈到自己所在的领域，Andrew 措辞激烈：「围绕健康和长寿的公众讨论简直是一场灾难，那是一群小丑，人们还在加倍加注这种作秀。」
+Meta、[[OpenAI|OpenAI]]、Anthropic、Elon 手里的 [[Neuralink|Neuralink]]——别把他们只当成 AI 公司，真正的目标是「以非侵入方式读写大脑」<button class="pd-ts" data-t="23:15" data-who="Huberman" data-en="Every single one of those is going to be a biotech company. They're all interested in the brain. You talk to any of those guys, they may not have formal training in it, but they understand a lot of neuroscience." aria-label="回原文"></button>。他称之为 AI 领域真正的军备竞赛。
 
-入场门槛基本为零——秀个腹肌、声称纯天然就有粉丝；而他来自一个「博士学位都远远不够」的领域。
+现在我们用咖啡因、冷水澡、呼吸法这些钝器调节状态，将来可能是戴上眼镜、由设备精确刺激某个脑区：
 
-他的判断是「获得关注很容易，保持尊重很难」，并预测：
+工作时调到高度专注，走路回家时调成放松，让能量输出变成接近方波的形状。
 
-健康优化赛道的公众热度会先经历一波下行(人们觉得每天要做的事太多、太古怪了)，然后一批有科学、医学、药理学训练的严肃从业者会浮出水面。
+他举了两个已落地的例子。一是抑郁症治疗：
 
-他估计未来一两年会是这个领域的「低噪声期」，而他自己的新书《Protocols》写的全是「确信无疑」的东西——交卷之后他要转向新领域了。
+在颈部皮肤下植入比一便士还小一点的[[迷走神经刺激|迷走神经刺激]]器，他的同事 Carl Deisseroth 曾一边和一位有自杀倾向的患者交谈，一边调大刺激，患者当场从绝望状态转为愿意出门去申请工作 <button class="pd-ts" data-t="29:02" data-who="Huberman" data-en="You can actually see this in real time. There's an amazing thing that my colleague, Carl Deisseroth, one of the greatest bioengineers alive, has talked about where he's talking to a patient and she's suicidally depressed." aria-label="回原文"></button>。
 
-## 真正的军备竞赛：向大脑写入
+二是 Neuralink 的首席神经外科医生 Matt McDougall，自己在虎口皮下植入了一个小小的接收器当门钥匙——就为了体验「皮肤下有个能为你做事的小设备」是什么感觉。
 
-「最酷的问题同时也是最大的问题：如何在睡眠和清醒状态下，非侵入性地向神经系统写入。」他解释了两条路径。
+Huberman 预测，12 个月内会有 20% 的创业者圈子开始问：「如果它只是像打个耳洞那样有侵入性，也许我想要一个小小的迷走神经刺激器」<button class="pd-ts" data-t="30:07" data-who="Huberman" data-en="That's very Neuralink-ish and obviously they had much bigger aspirations than that. But I think within 12 months, 20% of the entrepreneurial world will be Asking, huh, if it's only as invasive as getting a piercing, yeah, maybe I want a little vagal stimulator." aria-label="回原文"></button>。
 
-读取可以从刺入神经元的胞内记录，到打开颅骨的电极阵列，再到只能测皮层表面的 fMRI、EEG——侵入越深，精度越高。
+> 【背景】Carl Deisseroth 是斯坦福生物工程学教授，Huberman 称其为「在世最伟大的生物工程师之一」。
 
-写入目前主要靠药物：
+更远的图景听来科幻：
 
-镇静剂提高神经元的激活阈值，咖啡因、尼古丁、Adderall 等兴奋剂降低阈值——但所有这些都非常「钝」，因为受体遍布全脑，所以才有性功能、体重等副作用。
+注射一种改造过的病毒作为载体，让特定神经元表达感光或感声的通道，然后戴顶帽子，用穿透颅骨的光或超声精确地点亮这些神经元——想提高动力就刺激相关回路，用完关掉。
 
-精确的写入正在到来。他举了同事 Carl Deisseroth 的例子：
+他甚至想到用基因开关加药物锁的双重保险来防止滥用。
 
-对一位有自杀倾向的抑郁症患者逐步增加颈部皮下[[迷走神经刺激|迷走神经刺激]]器的刺激，患者实时地从抑郁状态转变为谈论「愿意出门去申请一份工作了」。
+## 记忆研究里一个让人不安的发现
 
-他判断，植入式设备是下一个方向——「如果侵入性只像打个耳洞，也许我就想要一个小小的迷走神经刺激器」；
+脑科学界有个少有人公开讨论的麻烦。教科书说，[[记忆|记忆]]依赖于神经元按特定顺序依次放电，像弹一首曲子。
 
-他甚至预测十二个月内，相当一部分创业者会开始问这个问题。更远一步的形态是：
+Mark Mayford 和利根川进实验室做过关键实验：
 
-注射携带动光敏通道基因的病毒(病毒只是载体，不会致病)，戴上帽子，用可穿透颅骨的长波长光或超声波定向激活特定神经元，再由 AI 自动「滴定」调节强度——把你的动机水平调成方波。
+给学习任务中活跃的神经元打上化学标签，之后重新激活它们，动物会重现那个行为——这符合预期。
 
-听起来吓人？「我知道这听起来很可怕，但对想做的人来说，这绝对会发生。」
+但对照组才是重点：把这些神经元同时全部激活（相当于在钢琴上乱砸所有琴键），或者倒序激活，行为竟然一模一样 <button class="pd-ts" data-t="36:11" data-who="Huberman" data-en="You get a very different sound coming out of the piano. Turns out you get the exact same behavior. This is problematic for the field of neuroscience because what it says is that this notion of the circuits firing in a particular sequence, at least for memory, it's probably not true." aria-label="回原文"></button>。
 
-安全设计可以像逻辑门一样叠加(比如必须同时服药才生效)。
+这意味着，至少对记忆而言，**放电的时间顺序可能根本不重要**。
 
-他也看好清醒状态下的直接测量：
+这既让写入变简单（不用管顺序，激活对的那批神经元就行），又很危险——同一批神经元同时参与大量其他感知和行为，乱刺激可能让整个系统失控。
 
-他此前的博士后 Melissa Yilmaz 正在做一个小袖带，直接读取自主神经系统活动，区分「坏压力」与「做热爱之事时的高唤醒」——后者其实带来更好的睡眠和专注。
+## 健康科普圈太吵，他自己准备退一步
 
-下一个心理关卡，是从心率、HRV(心率变异性)这类间接指标，走向对神经系统的直接读取——就像人们从「手机是不是在偷听」到习以为常，就像他坐进 Waymo 无人车时「根本没多想」。
+Huberman 对健康与长寿领域的公共讨论评价毫不客气：就是一场灾难，**准入门槛约等于零**——秀出腹肌、承认或否认用药，就能有追随者 <button class="pd-ts" data-t="18:25" data-who="Huberman" data-en="I mean, I feel like the public discourse around health and longevity is a fucking disaster. It is a bunch of clowns and people are doubling and tripling down on the theatrics." aria-label="回原文"></button>。
 
-## 教科书可能错了：海马体的诡异实验
+他认为这个领域正走向低谷：人们已经疲惫于每天做太多优化，觉得整个圈子变得怪异。
 
-这是全集中最让 Andrew「毛骨悚然」的部分。[[记忆|记忆]]领域的经典实验：
+但他预测随后会有一批受过严格训练的博士和医生入场，做严肃的科普。
 
-标记动物学习任务时参与的那批神经元，之后以相同序列重新激活，动物会完美重现该行为——好像神经网络放电的**时间顺序**就是记忆本身。
+他自己的新书 Protocols 算是交出的论文，之后他想转向研究清醒状态的脑科学——我们对睡眠分期已经很了解，却说不清「我现在这种警觉又专注的状态」到底是什么。
 
-但关键的对照实验发现：
+## 一个关于跟着好奇心走的收尾
 
-把同一批神经元**不分顺序地一次性全部激活**，就像砸钢琴而不是弹曲子——动物做出的行为完全相同。
+被问到别人为他做过的最善良的事，他讲了读研时的故事。
 
-「这对神经科学是个问题：至少对记忆而言，『回路按特定序列放电』的观念很可能不成立。」
+他先加入了一个热门实验室，却总在深夜溜进另一个自己真正着迷的实验室做实验。
 
-而记忆、思考、大脑可塑性全部建立在「时间顺序重要」的假设上，每本教科书都这么写。
+那位导师 Barbara Chapman 找到他说：你没选我没关系，但决定你成败的只有一件事——「你到底有多想知道手头这些问题的答案」<button class="pd-ts" data-t="65:41" data-who="Huberman" data-en="And she said, but you just seem to really love this stuff. And the only thing that's really going to determine your success is how badly do you want to know the answers to the questions that you're working on?" aria-label="回原文"></button>。
 
-这有两面：
+他换了实验室，发了 8 篇一作论文，一路走到斯坦福终身教职。
 
-对神经技术是利好——写入也许不需要那么高的时间精度，想让人走路，激活相关脑区，身体自己会搞定(他的朋友、UCSF 神经外科主任 Eddie Chang 让闭锁综合征患者通过电脑说话，靠的正是刻画语音计划区的信号再转成电信号)；
-
-但也是巨大的理解空白——我们连「思想是什么」都没有模型，任何一本神经科学教科书里都找不到一章讲「思想是如何产生的」，而同一批神经元被大量知觉与行为复用，乱刺激可能让系统陷入混乱。
-
-## 没人再敢谈的那件事
-
-访谈后半段聊到基因编辑：
-
-几年前，一位在斯坦福做过博士后、后回国建实验室的科学家宣布对双胞胎婴儿做了 [[CRISPR|CRISPR]],删除了 HIV 受体。
-
-当时科学界出现一种诡异的社会学现象——深挖出的邮件显示，同行们的态度大致是「要小心，不过……成功了吗？」
-
-，每个人都在观望、准备撇清。最终世界判定这在伦理上是坏的，他的实验室被撤、本人消失。但 Andrew 补了一句耐人寻味的现状：
-
-据说此人如今在德州奥斯汀有一个实验室(他反复强调不知真假)——「他证明了谈论这件事是危险的，所以这种事还在世界各地的实验室里发生，只是没人谈论。」
-
-胚胎筛查、基因检测、甚至与智商相关的筛选，梯度早已存在，「你可以看到这正走向何方」。
-
-他自认「更多的是兴奋而非担忧，前提是人们在认真讨论它」——好在社交媒体时代没有什么能长久保密。
+他总结那条建议：成功取决于你把真实的好奇心和工作匹配得多准。他还补了一句：让 Metallica 去演 Grateful Dead 的歌是荒谬的——你只能做你自己。
 
 ## 本集带走
 
-- **先诚实评估，再谈优化**：搞清自己真实需要几小时睡眠、状态何时最佳，别拿「Elon 只睡四五个小时」骗自己；创业头几年的标准是别把自己搞垮，之后再插入休息和训练。
-- **入睡三开关**：迁移注意力到纯感觉(不是冥想式聚焦)、长呼气到底以激活迷走神经降心率、闭眼缓慢转动眼球扰乱本体感觉回路——三者顺序随意，组合使用。
-- **兴奋剂关不掉大脑**：咖啡因、尼古丁、Adderall 都在提高全脑转速，靠它们硬撑的人夜里无法复位；一晚好觉加少量咖啡因，已接近 Adderall 级别的专注效果。
-- **AI 巨头的终局是大脑读写**：非侵入、高时空精度的读写技术(超声、光、植入式刺激器)是 Andrew 眼中真正的军备竞赛，而它会从睡眠场景起步，因为人们对睡眠监测已经习以为常。
-- **警惕工具的「钝」**：所有药物和电刺激都非特异，因为受体遍布全脑；方向必然是越来越高特异性——晨光、SSRI、裸盖菇素本质上都是钝工具的今日形态。
-- **跟随你真正的好奇心**：导师当年那句改变他一生的话——「真正决定你成功的唯一因素，是你有多想知道你正在研究的问题的答案」；不为「成功」而背离好奇，是一种缓慢的死亡。
+- 精力管理的第一步是诚实评估自己的睡眠需求，别拿极少数天生少睡的人当模板。
+- 快速入睡三要素：把注意力切换到纯粹感觉、长呼气降心率、闭眼转眼球干扰位置感。
+- Huberman 的预测：Meta、OpenAI、Anthropic、Neuralink 终将围绕非侵入式读写大脑竞争，这才是 AI 军备竞赛的真正主题。
+- 记忆实验显示神经元放电顺序可能不重要——这既简化了写入大脑，也带来失控风险。
+- 择业最准的原则：把真实的好奇心和工作精确匹配，反着来是一种慢死。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
-> <span class="qz">所以稀释自己、以为自己只需要四五个小时，因为 Elon 只需要四五个小时，那是荒谬的。</span>  
+> <span class="qz">因为 Elon 只需要四五个小时，就催眠自己以为自己只需要四五个小时，那是荒谬的。</span>  
 > *So to dilute oneself into thinking you only need four or five hours because Elon only needs four or five hours, that's ridiculous.*  
 > <span class="qm">—— Andrew Huberman · [03:38]</span> ^q1
 
+> <span class="qz">我是说，我感觉围绕健康和长寿的公众讨论简直是一场灾难。那是一群小丑，而且人们还在加倍、三倍地加注这种作秀。</span>  
+> *I mean, I feel like the public discourse around health and longevity is a fucking disaster. It is a bunch of clowns and people are doubling and tripling down on the theatrics.*  
+> <span class="qm">—— Andrew Huberman · [18:21]</span> ^q2
+
 > <span class="qz">获得关注非常容易，保持尊重却很难。</span>  
 > *It's very easy to get attention. It's very hard to keep respect.*  
-> <span class="qm">—— Andrew Huberman · [20:15]</span> ^q2
+> <span class="qm">—— Andrew Huberman · [20:15]</span> ^q3
 
-> <span class="qz">它们每一家都将成为一家生物技术公司。</span>  
-> *Every single one of those is going to be a biotech company.*  
-> <span class="qm">—— Andrew Huberman · [23:13]</span> ^q3
+> <span class="qz">嗯，我认为最酷的问题同时也是最大的问题是，我们如何在睡眠和清醒状态下非侵入性地写入神经系统。</span>  
+> *Well, I think the coolest problem that's also the biggest problem is how we can non-invasively write to the nervous system in sleep and waking states.*  
+> <span class="qm">—— Andrew Huberman · [21:50]</span> ^q4
 
 > <span class="qz">目标是能够以非侵入性的方式从你的大脑读取和写入。</span>  
 > *The goal is to be able to read and write from your brain non-invasively.*  
-> <span class="qm">—— Andrew Huberman · [23:24]</span> ^q4
+> <span class="qm">—— Andrew Huberman · [23:24]</span> ^q5
 
-> <span class="qz">但记忆、思考、大脑可塑性，这些全都建立在时间顺序很重要的假设之上。</span>  
-> *But memory, thinking, brain plasticity, these things all rest on the assumption that the temporal order matters.*  
-> <span class="qm">—— Andrew Huberman · [37:48]</span> ^q5
+> <span class="qz">而这就是接下来会到来的东西。人们在想的是多肽，我们要做什么？我不担心多肽。我想植入式设备才是接下来的方向。</span>  
+> *And that's coming next. People are thinking like peptides, what are we gonna do? I'm not worried about peptides. I'm thinking implantable devices is where it's gonna go next.*  
+> <span class="qm">—— Andrew Huberman · [30:25]</span> ^q6
 
-> <span class="qz">我认为在清醒状态下直接测量神经系统是下一道心理关卡。</span>  
-> *I think measurement of the nervous system directly in waking states is the next mental hurdle.*  
-> <span class="qm">—— Andrew Huberman · [40:34]</span> ^q6
+> <span class="qz">但记忆、思考、大脑可塑性，这些全都建立在时间顺序很重要的假设之上。而显然它并不重要。</span>  
+> *But memory, thinking, brain plasticity, these things all rest on the assumption that the temporal order matters. And apparently it doesn't.*  
+> <span class="qm">—— Andrew Huberman · [37:48]</span> ^q7
 
-> <span class="qz">最关键的是，人们会有多大的意愿，把整个大脑设置为对非侵入式控制敞开脆弱性？</span>  
-> *The big one is how willing are people going to be to set up their entire brain for a vulnerability to non-invasive control?*  
-> <span class="qm">—— Andrew Huberman · [42:39]</span> ^q7
+> <span class="qz">公众获得更多自己健康数据的途径，正在让医学界的一些领域感到恐慌。</span>  
+> *The public gaining more access to their own health data is scaring some sectors of medicine.*  
+> <span class="qm">—— Andrew Huberman · [47:03]</span> ^q8
 
-> <span class="qz">只是没人谈论它，因为他证明了谈论这件事是危险的。</span>  
-> *It's just no one's talking about it because he proved that it's dangerous to talk about.*  
-> <span class="qm">—— Andrew Huberman · [55:03]</span> ^q8
+> <span class="qz">所以那些实验还有另一层，神经科学界每个人都知道但没人谈论的层面，那就是，他是不是真的既想让那些孩子对 HIV 感染免疫，又想让他们变得超级聪明？</span>  
+> *So there was this other layer of those experiments that everyone knew in the neuroscience community but wasn't talking about, which was, was he actually trying to both render those kids immune from HIV infection but also make them super smart?*  
+> <span class="qm">—— Andrew Huberman · [56:32]</span> ^q9
 
-> <span class="qz">一旦他们真正动手接触大脑，他们就会意识到这不是一台计算机。</span>  
-> *As soon as they sink their hands into a brain, they realize this is not a computer.*  
-> <span class="qm">—— Andrew Huberman · [61:40]</span> ^q9
-
-> <span class="qz">最大的悲剧是，人们不朝着自己真正的好奇心方向前进，因为他们试图所谓的「成功」。</span>  
-> *The big tragedy is when people don't go in the direction of their genuine curiosity because they're trying to quote unquote succeed.*  
-> <span class="qm">—— Andrew Huberman · [68:56]</span> ^q10
+> <span class="qz">所以在很多方面，那些过去只是搞工程的技术人员，正在变成神经科学家。</span>  
+> *So in a lot of ways, the technologists who used to just engineer stuff, like they're becoming neuroscientists.*  
+> <span class="qm">—— Andrew Huberman · [61:26]</span> ^q10
 
 > <span class="qz">而真正决定你成功的唯一因素，就是你有多想知道你正在研究的问题的答案。</span>  
 > *And the only thing that's really going to determine your success is how badly do you want to know the answers to the questions that you're working on?*  
 > <span class="qm">—— Andrew Huberman · [65:41]</span> ^q11
+
+> <span class="qz">而是他有能力无视别人说他应该做什么。</span>  
+> *It's his ability to ignore what people say about what he should be doing.*  
+> <span class="qm">—— Andrew Huberman · [68:18]</span> ^q12
+
+> <span class="qz">最大的悲剧是，人们不朝着自己真正的好奇心方向前进，因为他们试图所谓的「成功」。</span>  
+> *The big tragedy is when people don't go in the direction of their genuine curiosity because they're trying to quote unquote succeed.*  
+> <span class="qm">—— Andrew Huberman · [68:56]</span> ^q13
 
 <div class="pd-sec">接着看</div>
 
@@ -219,7 +208,7 @@ Andrew 的回答很实在：首先要对自己的[[睡眠|睡眠]]需求做诚�
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:AI</span>
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:AI</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:OpenAI、Anthropic、Meta</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:OpenAI、Anthropic、Meta</span>
 

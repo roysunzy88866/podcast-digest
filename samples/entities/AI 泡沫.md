@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(19:03起):本集指出当前是一个所有人同时都在采购的罕见窗口期（某类别潜在采购比例从 3%-5% 飙升至 50% 以上），这是 AI 泡沫的一个版本，会结束，但彻底改变了目前的销售运转方式。
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(13:19起):本集说：AI 是最新的「增长故事」，一个教别的公司不解雇创新、只解雇员工换聊天机器人的「元故事」，且单位经济学糟糕——每代产品亏得比上代更多，泡沫必崩。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(13:19起):本集说：AI 是最新的「增长故事」，一个教别的公司不解雇创新、只解雇员工换聊天机器人的「元故事」，且单位经济学糟糕——每代产品亏得比上代更多，泡沫必崩。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为概念
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为概念
 
 ## ③ 关联
 

@@ -11,14 +11,14 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]]**(05:52起):本集说 Joey 构建在 Claude Agent SDK 之上，因此能管理自己的基础设施、有文件系统、写代码调试、调用工具、给自己增加新能力。
+- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(05:52起):本集说 Joey 构建在 Claude Agent SDK 之上，因此能管理自己的基础设施、有文件系统、写代码调试、调用工具、给自己增加新能力。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念
-- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]] — 作为概念
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念
+- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为概念
 
 ## ③ 关联
 

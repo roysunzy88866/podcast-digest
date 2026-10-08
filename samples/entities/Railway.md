@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]]**(07:22起):本集说 Joey 部署在 Railway 上以追求迭代速度：写完 PR 30 秒内新版本上线，快到可以实时监控对话、发现 bug、当场部署修复。
+- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(07:22起):本集说 Joey 部署在 Railway 上以追求迭代速度：写完 PR 30 秒内新版本上线，快到可以实时监控对话、发现 bug、当场部署修复。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]] — 作为被讨论公司
+- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为被讨论公司
 
 ## ③ 关联
 

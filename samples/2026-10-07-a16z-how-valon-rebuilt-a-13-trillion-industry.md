@@ -1,12 +1,12 @@
 ---
-title: "一切都是服务:从零重写 13 万亿的房贷老基建"
+title: 13万亿美元的美国房贷，跑在互联网诞生前的老系统上
 podcast: The a16z Show
 date: 2026-10-07
 source_url: undefined
 duration: "40:19"
 type: episode
 cover: "#64748b"
-description: "Valen 联合创始人 Linda Du 与 Andrew Wang 讲述如何把互联网诞生前设计的抵押贷款服务系统从零重写、把几十年法规变成代码,以及 AI 带来的新可能。"
+description: Valon创始人Andrew Wang和Linda Du向a16z的Angela Strange讲述他们如何从零重建房贷服务行业，再转身卖软件。
 host: "[[Linda Du]]"
 cohosts: ["[[Angela Strange]]", "[[Andrew Wang]]"]
 companies: ["[[Valen]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#post","headline":"一切都是服务:从零重写 13 万亿的房贷老基建","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry","description":"Valen 联合创始人 Linda Du 与 Andrew Wang 讲述如何把互联网诞生前设计的抵押贷款服务系统从零重写、把几十年法规变成代码,以及 AI 带来的新可能。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Linda Du"},{"@type":"Person","name":"Angela Strange"},{"@type":"Person","name":"Andrew Wang"},{"@type":"Organization","name":"Valen"},{"@type":"Thing","name":"抵押贷款服务 (mortgage servicing)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"记录系统 (system of record)"},{"@type":"Thing","name":"代管账户 (escrow)"},{"@type":"Thing","name":"变革管理 (change management)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"一切都是服务:从零重写 13 万亿的房贷老基建","item":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#post","headline":"13万亿美元的美国房贷，跑在互联网诞生前的老系统上","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry","description":"Valon创始人Andrew Wang和Linda Du向a16z的Angela Strange讲述他们如何从零重建房贷服务行业，再转身卖软件。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Linda Du"},{"@type":"Person","name":"Angela Strange"},{"@type":"Person","name":"Andrew Wang"},{"@type":"Organization","name":"Valen"},{"@type":"Thing","name":"抵押贷款服务 (mortgage servicing)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"记录系统 (system of record)"},{"@type":"Thing","name":"代管账户 (escrow)"},{"@type":"Thing","name":"变革管理 (change management)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"13万亿美元的美国房贷，跑在互联网诞生前的老系统上","item":"https://talk.solomind.cc/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一切都是服务:从零重写 13 万亿的房贷老基建</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>13万亿美元的美国房贷，跑在互联网诞生前的老系统上</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 一切都是服务:从零重写 13 万亿的房贷老基建
+# 13万亿美元的美国房贷，跑在互联网诞生前的老系统上
 
 <div class="pd-byl"><b>Andrew Wang</b> · Valen 联合创始人 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">抵押贷款是现存未被颠覆的行业中排名前三的。</div><div class="a">— Angela Strange <button class="pd-ts" data-t="00:00" data-who="Angela Strange" data-en="Mortgage is top three in terms of undisrupted industries that exist." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">事实证明，收入周期管理不过就是医院的贷款服务。</div><div class="a">— Andrew Wang <button class="pd-ts" data-t="00:40" data-who="Andrew Wang" data-en="It turns out revenue cycle management is just servicing for hospitals." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Linda Du]] · [[Angela Strange]] · [[Andrew Wang]]
@@ -37,157 +37,161 @@ jsonLd: |
 >
 > **概念** [[抵押贷款服务]] · [[智能体]] · [[记录系统]] · [[代管账户]] · [[变革管理]]
 
-[[抵押贷款服务|抵押贷款服务]](mortgage servicing,即房贷发放后长达几十年的收款、代管税费保险、催收、逾期处理等运营工作)是现存最未被颠覆的行业之一:这是 13 万亿美元的消费债务,主要运行在一家在位巨头的遗留系统上,而那套系统架构于 20 世纪 60 年代——比互联网还早 <button class="pd-ts" data-t="00:30" data-who="Linda Du" data-en="Not just with the way that servicing should be done generally, but customer specific. It's $13 trillion of consumer debt that basically runs on a single incumbent that built their legacy system before the internet was invented." aria-label="回原文"></button><button class="pd-ts" data-t="09:22" data-who="Andrew Wang" data-en="Being able to offer that right experience, really automated and really give comfort to the homeowners in their time of need, that is really important for a servicer and that ultimately builds the best customer relationship." aria-label="回原文"></button>。
+在美国，房贷余额高达13万亿美元，但这个市场大部分仍运行在一家老公司的系统上——那套系统在互联网诞生之前就建好了。
 
-聊这件事的人是 [[Valen|Valen]] 的两位联合创始人:[[Linda Du|Linda Du]] 和 [[Andrew Wang|Andrew Wang]],主持人是 a16z 普合伙人 [[Angela Strange|Angela Strange]]。
+Valon的两位创始人[[Andrew Wang|Andrew Wang]]和[[Linda Du|Linda Du]]做了一件听起来不太理智的事：
 
-Valen 的选择极其激进:不是给旧系统做软件,而是自己先变成一家持牌房贷服务商,把整套基础设施从零写一遍,如今再把这套操作系统卖给整个行业。
+先自己申请牌照、做一家房贷服务商，从零写出整套软件，然后把服务商卖掉，只卖软件。
 
-Andrew 入行的起点有点意外:他完全没有金融背景,当初被抵押贷款吸引,是因为里面居然有大量随机微积分(用数学描述随机波动的分支)。
+最近Rhythm宣布把400万笔贷款转到Valon平台，接近市场的10%。
 
-结果入职后发现,提前还款模型里的数学「全靠拍脑袋」,猜个数字就行。
+## 为什么说这个行业落后到令人发指
 
-真正让他看到机会的是对账:在 Soros 做投资时,他发现行业里海量资金、海量分录,账从来对不上,只好自己写对账系统。
+Linda Du的说法是，房贷大概是未被颠覆行业的前三名。
 
-用他自己的话总结:「数学变成了系统,系统变成了痛点,于是就有了今天的我们」<button class="pd-ts" data-t="02:24" data-who="Andrew Wang" data-en="And so my general interest in finance was actually just in math. And what people don't really know about mortgages, which is just like a very random esoteric fact, is that it's actually a place where there's a lot of stochastic calculus." aria-label="回原文"></button><button class="pd-ts" data-t="03:40" data-who="Andrew Wang" data-en="Maybe I would say it started off with math. Math became systems, systems became pain, and here we are today. Excellent." aria-label="回原文"></button>。
+别的行业是创业公司和现代 incumbents 抢最后20%的市场，而这里整个行业连2000年代的技术水平都还没到。<button class="pd-ts" data-t="03:55" data-who="Linda Du" data-en="Maybe, Linda, from a market perspective, describe the state of the world as a mortgage servicing industry before Valen came in. Yeah. The way that I think about it is mortgage is probably top three in terms of undisrupted industries that exist." aria-label="回原文"></button>
 
-## 糟糕体验的根源在管道
+这种落后会直接砸到普通房主头上。
 
-按时还款的普通人感觉不到差别,但一旦生活出事,旧系统的缺陷就暴露无遗。
+Andrew举了个例子：借款人去世、子女想接手房子时，老系统根本没有完整保存贷款的历史记录，只存了当前时点的快照。
 
-遗留系统只保存房贷当下的「快照」,不以足够的保真度记录完整历史——比如借款人去世后子女想接管贷款、要申报州税、要查之前的记录,系统直接告诉你:历史被切断了,你没有权限 <button class="pd-ts" data-t="05:58" data-who="Andrew Wang" data-en="So here's an example of this. One of the key problems with some of the legacy systems is that they don't really model and really capture all of the context associated with the life of the mortgage." aria-label="回原文"></button>。
+子女为了报遗产税、查清历史，得一遍遍打电话解释我妈去世了，系统却说历史到某个时间点为止，后面的查不到。<button class="pd-ts" data-t="05:58" data-who="Andrew Wang" data-en="So here's an example of this. One of the key problems with some of the legacy systems is that they don't really model and really capture all of the context associated with the life of the mortgage." aria-label="回原文"></button>
 
-再比如房贷中的 escrow([[代管账户|代管账户]],按月预留税费和保险、每年统一支付):如今保险费和税费暴涨,法规和投资者标准本允许把涨幅摊到 36 个月,但旧系统只会按一年硬算,于是任何变通都要走人工审批 <button class="pd-ts" data-t="08:06" data-who="Andrew Wang" data-en="Yeah, there's all sorts of variations of this, again. One of them is there is this concept of the escrow when it comes to mortgages. It basically contains both taxes and insurance that need to be paid over time." aria-label="回原文"></button>。
+再比如每年代缴的房产税和保险费（行话叫 escrow）。
 
-Linda 的判断很直接:你可以有全世界最好的客服团队和最有同理心的呼叫中心,但如果[[记录系统|记录系统]]本身有缺陷、算错了钱,不修基础设施就修不好房主的体验 <button class="pd-ts" data-t="09:58" data-who="Andrew Wang" data-en="It's like the problem will happen five years later when someone's trying to make their escrow payment and it compounds. And so that's the part where it's like you can have the world's best customer experience team and the most empathetic call center agent in the world." aria-label="回原文"></button>。
+近年保险费和税大涨，房主一次性扛不住，按规定其实可以分摊到36个月偿还，但老系统的设计只会平摊到12个月，超出部分要走层层人工审批。
 
-而现有软件老到什么程度?
+Andrew说，**就算你有全世界最有同理心的客服，如果系统本身算错了钱**，不换底层基础设施就没法修好体验。<button class="pd-ts" data-t="09:22" data-who="Andrew Wang" data-en="Being able to offer that right experience, really automated and really give comfort to the homeowners in their time of need, that is really important for a servicer and that ultimately builds the best customer relationship." aria-label="回原文"></button>
 
-它架构出来的时候,数据模型根本无法为今天的世界建模,问题不会当周爆发,而是五年后 someone 交代管款时以复利方式引爆 <button class="pd-ts" data-t="09:34" data-who="Andrew Wang" data-en="And I think it's hard for people to conceptualize how old the existing software is because you have to think about it like when these technology systems were architected, this was the 1960s." aria-label="回原文"></button>。
+## 三条路里，他们挑了最疼的那条
 
-## 为什么选了最痛的一条路
+进入这种行业通常有三种打法：把软件卖给老公司；收购几家老公司再注入技术；或者从头把整套东西自己建一遍。
 
-起步时他们认真权衡过三条路:一、做软件卖给在位者——行不通,行业监管太重,没有服务商敢用全新系统,而且就算签下大客户,也只能按对方现有的做法定制,「十年后一觉醒来,你重建了一个遗留系统,只是带了个很漂亮的 UI」<button class="pd-ts" data-t="11:17" data-who="Andrew Wang" data-en="But really, option one, which is just building, you know, a traditional normal software company, it doesn't work for mortgage because it's so heavily regulated that no servicer is going to use a de novo system." aria-label="回原文"></button>;二、收购整合再注入技术——会被迫做出错误的平台设计决策,还有 IP 问题;三、自己办服务商、软件从零写起,软件随着业务从一笔贷款长到近百万笔一起演进 <button class="pd-ts" data-t="10:27" data-who="Andrew Wang" data-en="And the flip side of these technologically behind incumbent-driven large industries is they can be very hard to break into, right? And so, you know, we had three options." aria-label="回原文"></button>。
+前两条路都被否了。
 
-这条路最痛的部分是牌照:很多审批有先有鸡还是先有蛋的问题——比如纽约州要求你拿执照前先盈利。
+卖给老公司行不通，因为这个行业监管太严，没有服务商敢用一家新公司的系统。
 
-他们从 only 需要州执照的 non-QM 贷款(一种不符合政府标准贷款条件的贷款类型)切入,而加州还要求你有房地产经纪资格,并证明五年以上横跨催收、客服、付款处理、逾期、止赎各环节的经验。
+而且就算签下一个大客户，你只能按对方的做法做，十年后醒来发现你重建了一套遗留系统，只是界面更好看。
 
-各种审批层层叠加,业内预计最少三到五年。
+收购路线则有知识产权问题：老系统的代码不属于你。<button class="pd-ts" data-t="10:55" data-who="Andrew Wang" data-en="Yeah. We went through all three options. And just to be clear, the path that we went down was the last one because it is the most painful and it takes the longest." aria-label="回原文"></button>
 
-他们的「纪录」是:三年拿到纽约审批——然后发现自己始终没拿到在纽约开展业务的许可;申请被漏审一次,时钟就往回重置三到六个月,Andrew 甚至为此跑去监管机构的收发室,亲手把丢失的申请包裹找出来 <button class="pd-ts" data-t="13:25" data-who="Andrew Wang" data-en="For context, mortgage servicing and many of these licenses have pretty much chicken and egg problems. One of the key requirements is if they tell you, you actually need to be profitable before you get a license." aria-label="回原文"></button><button class="pd-ts" data-t="15:43" data-who="Andrew Wang" data-en="Because I'll give you the classic one, which, by the way, is a funny one. We actually got the approval for New York in a record time of, I want to say, three years." aria-label="回原文"></button>。
+于是他们选了第三条：**自己申请牌照做服务商，软件从第一笔贷款开始跟着业务一起长大**，最终做到了近百万笔贷款。
 
-把法规变成代码,则是另一场苦役:联邦层面的 RESPA、TILA、FDCPA、GLBA、TCPA,外加 50 个州各自的房贷、催收、止赎、隐私、代管法规。
+## 拿个牌照，最长要三到五年
 
-做法像「重构整个法律代码库」——很多州的法条相互衍生,你要抽象出一个能统一处理的框架。
+牌照是个鸡生蛋的难题。纽约州等监管机构要求你先盈利才能拿牌照。
 
-COVID 期间 Andrew 每天读法规、做标注、画示意图,一天 18 小时,连续六个月,之后还有五六年测试验证。痛苦本身成了护城河 <button class="pd-ts" data-t="17:03" data-who="Andrew Wang" data-en="But what we ended up doing was reading every single regulation. So there's a whole bunch of federal regulations. There's, you know, RESPA, there's TILA, there's FDCPA, there's GLBA, there's TCPA." aria-label="回原文"></button><button class="pd-ts" data-t="17:56" data-who="Andrew Wang" data-en="But what really worked for us, quite honestly, was the fact that COVID happened. And when COVID happened, I spent 18 hours a day For six months straight, just every day sitting there reading regulation and like annotating and basically coming up with the schematics." aria-label="回原文"></button>。
+他们只能先从只需要州牌照的非合格贷款（non-QM）做起，而加州这类大州的州牌照又有各种前置条件：
 
-## 先做服务商,再卖软件
+要找到持牌的房地产经纪人帮忙，要证明团队在催收、客服、支付处理、止赎等每个环节都有五年以上经验。
 
-自己运营服务商解决了企业销售最难的两件事:安全性(这套技术六七年里通过了每个州的审查和 Fannie Mae、Freddie 等所有审计)和紧迫性。
+**整个审批链条层层叠加，业内预计最快也要三到五年**。
 
-服务商业务的单位经济性就是产品:效率就是利润。
+有个好笑的细节：纽约的申请如果材料被监管方弄丢或驳回，时钟会倒退三到六个月。
 
-结果是效率约为同业三倍,把一个盈亏平衡的生意变成 70%-80% 营业利润率的生意,再让利给客户——「当你降价时,你就能让市场屈服」,持有房贷资产的资产管理公司都是经济动物 <button class="pd-ts" data-t="19:26" data-who="Andrew Wang" data-en="And that just requires the technology, you know, being good. From a software perspective, we think about it internally as it's really, you always have to balance safety and urgency." aria-label="回原文"></button><button class="pd-ts" data-t="20:43" data-who="Andrew Wang" data-en="So we are about three times as efficient. And so you take this breakeven business and you turn it into sort of a 70%, 80% operating margin business. And that margin is what we used initially to create that urgency." aria-label="回原文"></button>。
+Andrew有一次被告知材料缺失，他直接杀到对方办公室的收发室，靠快递单号把包裹找了出来。
 
-第一个大客户签约后,另外五个大块头主动打电话来问「你们卖软件是认真的吗」,飞轮就转起来了。
+即便如此，纽约的牌照花了创纪录的三年才批下来。<button class="pd-ts" data-t="15:43" data-who="Andrew Wang" data-en="Because I'll give you the classic one, which, by the way, is a funny one. We actually got the approval for New York in a record time of, I want to say, three years." aria-label="回原文"></button>
 
-而在规模约 2000 亿美元未偿本金(UPB)时,他们按 A 轮融资演示文稿里那 60 页的「接管计划」,把 Valen Mortgage 卖给了 Carrington,全面转向软件。
+## 把几十年的法规，逐条读成代码
 
-理由是:留着自己做服务商,技术和超额收益都只归自己,「你其实什么都没有改变,你没有修复核心基础设施的问题」<button class="pd-ts" data-t="21:48" data-who="Linda Du" data-en="Like, you guys, like, you know, are selling this thing and say, this is always what we've been meaning to do, but we actually share our Series A deck with our... Well, to be fair, you had an incredibly detailed Series A deck." aria-label="回原文"></button><button class="pd-ts" data-t="22:24" data-who="Linda Du" data-en="But for us, it always came back to, every conversation ended with, we actually want to change the industry. And the thing is, is that if you keep it as a servicer, you're keeping all of the technology and the alpha for yourself." aria-label="回原文"></button>。
+拿到牌照只是开始。接下来是把监管变成软件：联邦层面有RESPA、TILA、FDCPA等一堆法规，50个州各有自己的房贷、催收、止赎、隐私、escrow规则。
 
-市场验证了判断:作为软件公司正式推向市场六个月内,签下超过 2 亿美元的合同;最近 Rhythm 确认转移 400 万笔贷款给 Valen——几乎是市场的 10%,史无前例的服务权转移。
+他们的做法简单粗暴——把每一条法规读完，找出各州法条之间的派生关系，搭出一个能覆盖所有情况的抽象框架。<button class="pd-ts" data-t="17:00" data-who="Andrew Wang" data-en="Greatest moat of all time, pain and suffering. But what we ended up doing was reading every single regulation. So there's a whole bunch of federal regulations." aria-label="回原文"></button>
 
-Linda 强调,不是他们自己宣布达到产品市场契合,「是市场判定我们达到了」<button class="pd-ts" data-t="34:11" data-who="Linda Du" data-en="I would say actually in some ways, Andrew and I didn't decide that we hit product market fit. The market decided that we hit product market fit. And so just to give you a sense of just sort of the pent up demand in the industry, I think within six months of us officially going to market as a software company, we signed over $200 million of deals." aria-label="回原文"></button><button class="pd-ts" data-t="33:37" data-who="Angela Strange" data-en="So you built the servicer, recently announced, sold the servicer to sell the software platform. And then just recently, Rhythm confirmed that they're going to transfer 4 million loans over to Valen, which I think is the largest servicing transfer." aria-label="回原文"></button>。
+Andrew形容这是在给整个法律体系做重构。疫情期间，他连续六个月每天18小时读法规、做标注、画架构图。
 
-## AI 之后:指挥智能体军团
+这之后的五六年就是不断测试。他说得很坦白：**这种痛苦本身成了最好的护城河**。
 
-公司创立时生成式 AI 还没跑通,如今这套干净的数据本体成了 AI 的地基。
+## 先做服务商证明自己，再卖软件收割市场
 
-以前只能自动化明确确定性的小片段;现在几十个[[智能体|智能体]]可以做代管账分析等任何人手任务,连长尾的复杂场景也能编排。
+做了服务商，好处是省下来的成本可以直接变成价格优势。
 
-Andrew 举了个例子:灾难发生时,服务商要给受影响房主逐一致电、确认还款能力、提供救助方案——传统做法是打印电子表格、把贷款清单分给几组人「自己搞定」;现在可以在产品里直接编排一组智能体去打电话、跑工作流,还能先模拟试运行 <button class="pd-ts" data-t="23:29" data-who="Andrew Wang" data-en="What is possible today that wouldn't have been in your Series A pitch deck? How beautiful of a problem setup mortgage servicing is for what's about to happen, both with AI, but just like overall enterprise and infrastructure in society, which is to say, what is possible today is you can have these extraordinarily complex cases and you can actually research and basically provide the right set of information to the operators so that they're more and more in a world where they're effectively operating little mini armies of agents." aria-label="回原文"></button><button class="pd-ts" data-t="24:40" data-who="Andrew Wang" data-en="The only way to do that today as a normal servicer is you basically print out a spreadsheet and you hand a list of loans to one group of people and hand another list of loans to another people and you say, I want you to do A, I want you to do B, and I want you to go figure it out." aria-label="回原文"></button>。
+Valon的效率大约是同行的3倍，把一个原本盈亏平衡的生意做到了70%–80%的运营利润率。<button class="pd-ts" data-t="20:40" data-who="Andrew Wang" data-en="Like what was the economic difference that everyone kind of perked up in the industry? Yeah. So we are about three times as efficient." aria-label="回原文"></button>
 
-更重要的是「冠军挑战者」式实验:拿 100 笔贷款试不同策略、不同通知,看哪种结果更好——这在依赖培训人类客服的时代根本不可能。
+资产管理公司都是逐利的，价格一低，市场就投降了。
 
-这把行业从千篇一律的同质化,变成每家服务商都能按自己的方式处理具体场景 <button class="pd-ts" data-t="26:30" data-who="Andrew Wang" data-en="You know, automate a much, much higher percentage of tasks, the long tail, the really complex scenarios. But really beyond that, it's that you can orchestrate a very wide variety of scenarios for your agents to handle." aria-label="回原文"></button>。
+而卖软件时，安全和紧迫都有了：
 
-这套能力也指向更大的版图。Linda 的核心论断:「一切都是服务」——它是支撑一切涉及资金流动、监管和运营的底层关键基础设施。
+安全在于他们自己运营服务商六七年，通过了每个州的检查、Fannie Mae、Freddie 等机构的审计——运营风险自己扛过；
 
-往旁边一步是商业地产(服务商能拿到租户的财务数据,可以像 Toast 用平台做小企业贷那样切入);再宽一步是医疗:炙手可热的收入周期管理公司,「不过就是医院的贷款服务」,顺手能拿到全部电子病历。
+紧迫则来自他们的服务商直接在市场上和未来客户竞争。
 
-他们先选房贷,因为它最粘、最难、最复杂——先啃最硬的,其余的「从这里开始就变容易了」<button class="pd-ts" data-t="30:46" data-who="Linda Du" data-en="Maybe I'll start off with a little known fact, which is servicing is like the nexus of all these different highly regulated enterprises. The fun fact I always like to go through with people is that people think servicing must be residential or maybe loan servicing." aria-label="回原文"></button><button class="pd-ts" data-t="31:39" data-who="Linda Du" data-en="But if you take another step and you say, okay, let me think about this even more broadly, then you even have things like, You know healthcare where there's revenue cycle management companies people get very excited about those type of companies and it turns out revenue cycle management is just servicing for hospitals and their claims and you know they're handling their patients and the data that you get from that is you know effectively all electronic medical records." aria-label="回原文"></button><button class="pd-ts" data-t="33:15" data-who="Linda Du" data-en="It's the underlying critical infrastructure that supports basically anything that has money movements, some sort of regulation, and then an operational component." aria-label="回原文"></button>。
+结果就是飞轮效应：签下第一个大客户后，另外五家大公司主动打来电话。
 
-给企业客户部署 AI 的最大教训来自[[变革管理|变革管理]]。Andrew 说:「六年前我会告诉你这是个技术问题。
+去年他们宣布把Valon Mortgage卖给Carrington，正式转为纯软件公司。Linda说这不是转向，而是A轮融资文件里写好的计划——那是一份60页的PDF总攻计划。
 
-我今天知道,这是一个变革管理问题」——面对成千上万员工、每层各有目标函数的组织,「变革在大规模下真的非常难」,但这正是 AI 时代未来十年最大的价值驱动因素。
+为什么不干脆做一家大服务商？她说，留着技术自己用，你什么也没改变，没有解决基础设施的根本问题。<button class="pd-ts" data-t="22:05" data-who="Linda Du" data-en="Yes, but you're announcing, you know, you guys just recently announced the sale of Valen Mortgage over to Carrington, and now you're taking that OS and selling it into the industry." aria-label="回原文"></button>
 
-能在这种角色里胜出的人:高主观能动性、高模糊容忍度、对客户高同理心,既是一流的问题解决者,又擅长与人打交道 <button class="pd-ts" data-t="38:12" data-who="Andrew Wang" data-en="Six years ago, I would have told you, you know, this is a technology problem. What I know today is that this is a change management problem. And so what we've spent the last six to 12 months building is really that change management muscle of just how do you navigate organizations?" aria-label="回原文"></button><button class="pd-ts" data-t="38:47" data-who="Andrew Wang" data-en="Yeah. I would say high agency, high ambiguity, high empathy for the customer. And then the ability to kind of really think from different points of view on what the objective function is and then figure out what is the global thing that everyone's trying to do, bridge that, and then actually come up with a solution." aria-label="回原文"></button>。
+公司使命也很直白：把这个世界从大型机和遗留软件里拯救出来。
 
-至于团队,Linda 说加入 Valen 的人本可以去 OpenAI、Anthropic——他们意识到底层模型的问题自会有人解决,而他们想亲手解决这个真正重要的问题;管理团队约 75%-80% 是待了五年以上的人 <button class="pd-ts" data-t="36:04" data-who="Linda Du" data-en="Because, and I've had this conversation with so many of the people who've both joined, and I've asked people who, prior to us, actually, I forget why people were joining." aria-label="回原文"></button><button class="pd-ts" data-t="37:13" data-who="Linda Du" data-en="Really, when we look at the way that our company has been built and formed, I mean... I want to say like their entire, probably 75, 80% of our like management team is filled with people who've been here for five plus years." aria-label="回原文"></button>。
+## AI改变了什么：从能自动化到能编排
+
+公司成立时生成式AI还不成气候。
+
+现在，Andrew说最大的变化是：**以前只能自动化确定性强的任务，现在可以编排一组[[智能体|智能体]]去处理复杂场景**。
+
+比如灾后要给受灾房主逐一打电话了解情况，传统做法是打印出表格、把贷款名单分给不同的人各做各的；
+
+现在可以直接在产品里说，派一批智能体打电话、提供不同方案、跑不同的工作流，还能先做模拟推演。<button class="pd-ts" data-t="23:29" data-who="Andrew Wang" data-en="What is possible today that wouldn't have been in your Series A pitch deck? How beautiful of a problem setup mortgage servicing is for what's about to happen, both with AI, but just like overall enterprise and infrastructure in society, which is to say, what is possible today is you can have these extraordinarily complex cases and you can actually research and basically provide the right set of information to the operators so that they're more and more in a world where they're effectively operating little mini armies of agents." aria-label="回原文"></button>
+
+对房主端，交互方式也在变：可以用语音AI、聊天AI，而不只是固定界面。
+
+Linda认为这让每个服务商都能做自己最擅长的版本，而不是0利润下只能一刀切。
+
+技术侧，房贷场景对正确性要求极高——宁可让模型说不知道，也不能编造答案。
+
+Andrew最兴奋的是建一套持续学习的设施：不停跑评估，确保模型朝着对的方向、甚至对特定客户定制的方向持续改进。<button class="pd-ts" data-t="29:56" data-who="Andrew Wang" data-en="And so these things change quite dynamically. And that's a very, very challenging problem because you can't say, well, here's like the bounded problem is how we're going to solve it and we're going to optimize over a very, very clear function." aria-label="回原文"></button>
+
+## 一切皆服务，房贷只是第一站
+
+Andrew的观察是，服务商是各种强监管企业的交汇点。往商业地产走，你能拿到租户的财务数据；
+
+往医疗走，医院的收入周期管理本质上就是医院的服务——处理账单、理赔、患者，拿到的是全部电子病历。
+
+他说，一切皆服务：凡是有资金流动、有监管、有运营环节的东西，底层都是这类基础设施。**房贷只是最粘、最难的，所以先啃它**。<button class="pd-ts" data-t="30:39" data-who="Andrew Wang" data-en="How does maybe the architecture and how you've set up the Valen platform set up Valen to expand into other sectors? Maybe I'll start off with a little known fact, which is servicing is like the nexus of all these different highly regulated enterprises." aria-label="回原文"></button>
+
+市场也给了回报：转为软件公司后六个月内，签了超过2亿美元的合同。是市场替他们宣告了产品与市场的匹配。<button class="pd-ts" data-t="33:57" data-who="Linda Du" data-en="Yeah. So what I would say is that in general, as we were, you know, there's always a timing component to anything, right? And" aria-label="回原文"></button>
+
+最后一点经验：
+
+Andrew原以为这是技术问题，六年之后他知道这是[[变革管理|变革管理]]问题——大组织里几千人各有各的目标函数，让改变发生才是最难的，也是AI时代未来十年最大的价值来源。
+
+能在这种角色里活下来的人，是高主动性、高同理心、既会解题又会与人打交道的那种人。<button class="pd-ts" data-t="38:12" data-who="Andrew Wang" data-en="Six years ago, I would have told you, you know, this is a technology problem. What I know today is that this is a change management problem. And so what we've spent the last six to 12 months building is really that change management muscle of just how do you navigate organizations?" aria-label="回原文"></button>
 
 ## 本集带走
 
-- **先变从业者,再卖工具**:监管重到没人敢用新系统时,自己做持牌服务商,让技术在真实运营、真实审计里被验证,再用效率优势(同业三倍、70%-80% 利润率)降价逼市场转向。
-- **法规可以当代码库重构**:几十年的联邦+50 州法规相互衍生,逐条读完、抽象出统一框架写进架构,痛苦本身构成护城河。
-- **记录系统决定体验上限**:只存快照不存历史、数据模型错误,客服再有同理心也救不回被算错钱的房主。
-- **AI 的增量在编排与实验**:从自动化确定性片段,到智能体打电话跑工作流、先模拟再上线、冠军挑战者式对比策略。
-- **企业部署 AI 是变革管理问题**,不是技术问题;关键人才是高能动性 + 高同理心 + 双重能力强的问题解决者。
+- 美国13万亿美元房贷市场大量运行在互联网诞生前的单一遗留系统上，落后会以房主的真实痛苦形式显现
+- Valon先自己做服务商、从1笔贷款长到近百万笔，用运营业绩证明软件，再卖掉服务商转型纯软件公司
+- 牌照审批层层叠加最快要三到五年，把联邦加50州的法规逐条读成代码，这种痛苦成了护城河
+- AI让复杂、非确定性的长尾工作流第一次可以被编排自动化，但要靠底层数据[[记录系统|记录系统]]先建对
+- 一切皆服务：医疗收入周期管理就是医院的服务，同样的基础设施逻辑可以扩展到很多强监管行业
 
-<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
-> <span class="qz">抵押贷款是现存未被颠覆的行业中排名前三的。</span>  
-> *Mortgage is top three in terms of undisrupted industries that exist.*  
-> <span class="qm">—— Angela Strange · [00:00]</span> ^q1
+> <span class="qz">事实证明，收入周期管理不过就是医院的贷款服务。</span>  
+> *It turns out revenue cycle management is just servicing for hospitals.*  
+> <span class="qm">—— Andrew Wang · [00:40]</span> ^q1
 
-> <span class="qz">这是 13 万亿美元的消费者债务,基本上运行在一家单一的现有巨头身上,而这家公司的遗留系统是在互联网发明之前构建的。</span>  
-> *It's $13 trillion of consumer debt that basically runs on a single incumbent that built their legacy system before the internet was invented.*  
-> <span class="qm">—— Linda Du · [00:30]</span> ^q2
-
-> <span class="qz">数学变成了系统,系统变成了痛点,于是就有了今天的我们。</span>  
-> *Math became systems, systems became pain, and here we are today.*  
-> <span class="qm">—— Andrew Wang · [03:40]</span> ^q3
+> <span class="qz">这是 13 万亿美元的消费债务，基本上主要运行在一家单一的在位巨头身上，而他们的遗留系统是在互联网发明之前构建的。</span>  
+> *It's $13 trillion of consumer debt that basically runs on, for the most part, a single incumbent that built their legacy system before the internet was invented.*  
+> <span class="qm">—— Linda Du · [04:04]</span> ^q2
 
 > <span class="qz">这是一个甚至还没赶上 2000 年代技术的行业。</span>  
 > *This is an industry that hasn't even caught up to 2000s technology yet.*  
-> <span class="qm">—— Linda Du · [04:23]</span> ^q4
+> <span class="qm">—— Linda Du · [04:23]</span> ^q3
 
-> <span class="qz">我们总是告诉团队的是,未来十年人们被招聘所看重的技能,是应用 AI 的能力。</span>  
+> <span class="qz">我们总是告诉团队的是，未来十年人们被招聘所看重的技能，是应用 AI 的能力。</span>  
 > *And what we always tell the team is that the skill set that people will be hiring for in the next decade is the ability to apply AI.*  
-> <span class="qm">—— Linda Du · [04:49]</span> ^q5
+> <span class="qm">—— Linda Du · [04:49]</span> ^q4
 
-> <span class="qz">但如果从根本上讲,因为记录系统有缺陷,你被收取了错误的金额,那么不修复基础设施你就无法修复那个房主的体验。</span>  
-> *But if fundamentally you were charged the wrong amount of money because the system of record was flawed, then you can't fix that homeowner experience without fixing the infrastructure.*  
-> <span class="qm">—— Linda Du · [10:06]</span> ^q6
+> <span class="qz">所以你就要冒这样的风险：十年后一觉醒来，你重建了一个遗留系统。</span>  
+> *And so you just run the risk that you wake up 10 years from now and you rebuild the legacy system.*  
+> <span class="qm">—— Linda Du · [11:30]</span> ^q5
 
-> <span class="qz">所以你就要冒这样的风险:十年后一觉醒来,你重建了一个遗留系统,只是带了一个非常漂亮的 UI。</span>  
-> *And so you just run the risk that you wake up 10 years from now and you rebuild the legacy system. With like a really pretty UI.*  
-> <span class="qm">—— Linda Du · [11:30]</span> ^q7
-
-> <span class="qz">所以归根结底,当你降价时,你就能让市场屈服。</span>  
-> *And so at the end of the day, it's like when you lower price, it's like you can get the market to capitulate.*  
-> <span class="qm">—— Linda Du · [19:18]</span> ^q8
-
-> <span class="qz">不,但这就像 Jensen 那句话:你的竞争对手不是 AI,而是比你更快用上 AI 的竞争对手。</span>  
-> *No, but it's like Jensen's quote of it's not like AI that's your competition, it's your competition using AI faster.*  
-> <span class="qm">—— Angela Strange · [20:22]</span> ^q9
-
-> <span class="qz">于是你把这个盈亏平衡的生意,变成一个大约 70%、80% 营业利润率的生意。</span>  
-> *And so you take this breakeven business and you turn it into sort of a 70%, 80% operating margin business.*  
-> <span class="qm">—— Linda Du · [20:43]</span> ^q10
-
-> <span class="qz">它真的把这个世界从一个高度同质化的世界,变成了一个专业化得多、真正有风味驱动的世界。</span>  
-> *It really turns the world from one that is really commoditized to one that is much more specialized and really flavor driven.*  
-> <span class="qm">—— Andrew Wang · [25:31]</span> ^q11
-
-> <span class="qz">我和 Andrew 并不是我们自己判定我们达到了产品市场契合。是市场判定我们达到了产品市场契合。</span>  
-> *Andrew and I didn't decide that we hit product market fit. The market decided that we hit product market fit.*  
-> <span class="qm">—— Linda Du · [34:07]</span> ^q12
-
-> <span class="qz">六年前,我会告诉你,这是一个技术问题。我今天知道的是,这是一个变革管理问题。</span>  
-> *Six years ago, I would have told you, you know, this is a technology problem. What I know today is that this is a change management problem.*  
-> <span class="qm">—— Linda Du · [38:08]</span> ^q13
+> <span class="qz">史上最伟大的护城河，痛苦和煎熬。</span>  
+> *Greatest moat of all time, pain and suffering.*  
+> <span class="qm">—— Andrew Wang · [16:57]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 

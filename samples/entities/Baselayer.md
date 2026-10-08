@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(01:46起):本集主角 Jonathan Awad 创办的欺诈数据联盟公司,2024 年 4 月上线,30 人团队做到八位数收入,刚融 2000 万美元 A 轮。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(01:46起):本集主角 Jonathan Awad 创办的欺诈数据联盟公司,2024 年 4 月上线,30 人团队做到八位数收入,刚融 2000 万美元 A 轮。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司
 
 ## ③ 关联
 

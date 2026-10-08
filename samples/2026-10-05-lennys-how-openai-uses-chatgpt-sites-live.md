@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常"
+title: 当AI能替你建网站：一个OpenAI产品负责人的花式用法
 podcast: "Lenny's Podcast"
 date: 2026-10-06
 source_url: https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live
@@ -7,7 +7,7 @@ duration: "35:38"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live.jpg"
-description: OpenAI Sites 产品负责人 Kath Korevec 在 Dev Day 现场演示她如何用 sites 搭事故指挥台、每周自动生成歌单、做可扩展的用户共建游戏。
+description: OpenAI Sites 产品负责人 Kath Korevec 在 DevDay 现场演示：从事故指挥中心到每周自动歌单，ChatGPT 现在能建的不只是网页。
 host: "[[Kath Korevec]]"
 companies: ["[[OpenAI]]", "[[ChatGPT]]", "[[Codex]]", "[[Sites]]"]
 concepts: ["[[连接器]]", "[[技能]]", "[[计算机使用]]", "[[推理]]"]
@@ -17,18 +17,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#post","headline":"OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live","description":"OpenAI Sites 产品负责人 Kath Korevec 在 Dev Day 现场演示她如何用 sites 搭事故指挥台、每周自动生成歌单、做可扩展的用户共建游戏。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live","about":[{"@type":"Person","name":"Kath Korevec"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Sites"},{"@type":"Thing","name":"连接器 (connectors)"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"推理 (inference)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常","item":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#post","headline":"当AI能替你建网站：一个OpenAI产品负责人的花式用法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live","description":"OpenAI Sites 产品负责人 Kath Korevec 在 DevDay 现场演示：从事故指挥中心到每周自动歌单，ChatGPT 现在能建的不只是网页。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live","about":[{"@type":"Person","name":"Kath Korevec"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Sites"},{"@type":"Thing","name":"连接器 (connectors)"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"推理 (inference)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"当AI能替你建网站：一个OpenAI产品负责人的花式用法","item":"https://talk.solomind.cc/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当AI能替你建网站：一个OpenAI产品负责人的花式用法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常
+# 当AI能替你建网站：一个OpenAI产品负责人的花式用法
 
 <div class="pd-byl"><b>Kath Korevec</b> · OpenAI Sites 产品负责人 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-lennys-how-openai-uses-chatgpt-sites-live.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">今天主题演讲屏幕上你看到的全部幻灯片,其实都是用它做的。那就是一个 ChatGPT 站点。</div><div class="a">— Kath Korevec <button class="pd-ts" data-t="01:57" data-who="Kath Korevec" data-en="We used it actually for all of the slides that you saw today that were on screen during the keynote. That was a ChatGPT site." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">说「你可以进入这个游戏并创造东西」是一回事；说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="20:47" data-who="嘉宾" data-en="It's one thing to say, like, you can go into this game and you can create things. It's another thing to say, like, download this skill and Codex will build into the game for you." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Kath Korevec]]
@@ -39,133 +39,121 @@ jsonLd: |
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live)
 
-这一集录自 [[OpenAI|OpenAI]] Dev Day 现场,主角是 [[Kath Korevec|Kath Korevec]]——OpenAI [[Sites|sites]](用 [[ChatGPT|ChatGPT]] 和 [[Codex|Codex]] 搭出来、一键托管上线的网站)的产品负责人。
+在 [[OpenAI|OpenAI]] 的 DevDay 活动现场，主持人和 [[Kath Korevec|Kath Korevec]] 聊了一场。
 
-她最颠覆的一个用法听起来很「浪费」:因为大脑运转方式和别人不一样,她会为某一周的日程单独建一个站点,把日历按出差的歪理重新组织一遍,周末一到就整个扔掉——然后下周再建一个新的 <button class="pd-ts" data-t="00:40" data-who="Kath Korevec" data-en="My brain works in different ways than other people. And I might just want like a different view of Google Calendar for the day or for the week. I might be like going on a business trip and I just want like things organized differently." aria-label="回原文"></button><button class="pd-ts" data-t="10:51" data-who="Kath Korevec" data-en="it's cool to be able to think about like, OK, my brain works in different ways than other people. And I might just want like a different view of Google Calendar for the day or for the week." aria-label="回原文"></button>。
+Kath 是 OpenAI 的产品负责人，负责两个月前刚上线的 Sites 功能——让 [[ChatGPT|ChatGPT]] 里的 [[Codex|Codex]] 帮你把软件建好，还顺手解决部署上线的问题。
 
-建一个网站像写一张便利贴一样便宜,这是整集的底层前提。
+这场对话更像两个玩家的晒宝大会：从严肃的工作工具，一路聊到被孩子毁掉的 Spotify 算法，和一个可以无限扩展的地牢游戏。
 
-## 事故指挥台:连接器 + 「各看各的数据」
+## Sites 到底是什么？
 
-sites 发布两个月,在 OpenAI 内部已经爆发式增长,连今天 Dev Day 主题演讲屏幕上的全部幻灯片都是一个 ChatGPT 站点 <button class="pd-ts" data-t="01:50" data-who="Kath Korevec" data-en="We've been using it at OpenAI for... We launched it two months ago, and we internally have just kind of seen it explode. And we used it actually for all of the slides that you saw today that were on screen" aria-label="回原文"></button><button class="pd-ts" data-t="02:02" data-who="Kath Korevec" data-en="And we used it actually for all of the slides that you saw today that were on screen during the keynote. That was a ChatGPT site." aria-label="回原文"></button>。
+简单说：**你用自然语言描述想要的软件，Codex 负责写代码，Sites 负责把它放到网上**，不需要自己折腾服务器和部署。
 
-Kath 现场演示了她的 sites 团队自用的事故指挥总览(事故指挥,指线上出故障时统筹响应的机制)。
+Kath 说，当初做 Sites 就是想给软件找个落脚的地方 <button class="pd-ts" data-t="01:54" data-who="Kath Korevec" data-en="We launched it two months ago, and we internally have just kind of seen it explode. And we used it actually for all of the slides that you saw today that were on screen" aria-label="回原文"></button>。
 
-她建它的动机很实在:她是产品经理,大部分时间在开会、到处跑,既没时间也不想深挖每起事故,更不想跑去烦团队问「这事故怎么样了」——她想待在后台,让工程师不被打扰地解决问题,同时自己能看清全局、逐分钟跟进 <button class="pd-ts" data-t="03:39" data-who="Kath Korevec" data-en="that are happening at that time. And the reason why I built this is because I'm a product manager and I spend a lot of my time with the team," aria-label="回原文"></button>。
+OpenAI 内部用法已经很多样。今天的主题演讲幻灯片就是用一个 ChatGPT Site 做的。
 
-技术上,这是 Dev Day 当天刚发布的 plugins and sites 能力:任何登录你站点的人,可以用**他们自己**连接的插件(连接器,即打通 Notion、Slack、日历这类外部工具的数据通道),所以每个人在同一个站点里只看到自己的数据 <button class="pd-ts" data-t="02:29" data-who="Kath Korevec" data-en="we just launched something today, which is plugins and sites, which Sam talked about at the keynote. And what that does is it will allow anyone to come to your site and use their connected plugins." aria-label="回原文"></button>。
+更实用的是，Sites 自带数据库和存储（D1 数据、R2 存储桶），支持多人协作编辑，可以做出真正的内部工具，不只是摆设。
 
-这个站点接到她的 Notion 和 Slack 后,会看她来自哪个 Slack 频道,推断出「你是 sites 团队的人」,于是展示 sites 团队的事故时间线、拉入正在处理的人、还能从 Notion 里直接打开运行手册和响应指南 <button class="pd-ts" data-t="03:08" data-who="Kath Korevec" data-en="of my connectors. And it actually looks at which Slack channel I'm coming from and approving. And so I approve my site's private, my site's feedback, all of my site's Slack channels." aria-label="回原文"></button>。
+## 最有意思的新功能：每个访客看到自己的数据
 
-换成 Codex 团队或身份团队的人打开同一个站点,看到的就是各自团队的内容 <button class="pd-ts" data-t="08:25" data-who="Kath Korevec" data-en="but they're going to see content based on what their team is. And so if it's like the Codex team or if it's the identity team or something, this site picks up where they're coming from," aria-label="回原文"></button>。
+DevDay 当天刚发布的，是插件和 Sites 的结合。原理是：你访问一个站点时，它会读取你授权的 Notion、Slack、日历等连接，你看到的只有你自己的数据。
 
-数据团队接数据仓库、财务团队管敏感数据都特别喜欢这种模式——访问者自带数据授权,开发者完全不用碰 API 密钥这类东西 <button class="pd-ts" data-t="08:46" data-who="Kath Korevec" data-en="into their data warehouse, for example, or for finance teams. People with sensitive data across different roles and responsibilities really like this tool because the people who are visiting" aria-label="回原文"></button>。
+Kath 演示了她团队用的事故指挥中心。她是产品经理，团队处理线上事故时，她不想在旁边一直问现在怎么样了。
 
-怎么让 Codex 建出这种站?
+这个站点会自动拉取 Slack 里的时间线、Notion 里的应急手册、相关团队成员，让她能安静地跟进度，精确到分钟。
 
-她的「魔法咒语」是一句话:**「can you use plugins in sites to build this site」(你能在 sites 里用插件来建这个站吗)**——「自带连接器」这个词组一出现,Codex 就知道该用连接器而不是静态内容 <button class="pd-ts" data-t="07:44" data-who="Kath Korevec" data-en="Or it might just build it out and then walk you through what it did and ask for some feedback. Or you can use, my magic word is like, bring your own connector. Can you use plugins in sites to build this site?" aria-label="回原文"></button>。
+关键在于：**同一张页面，每个人看到的是自己团队的数据**。
 
-## sites 当基础设施:最后一公里 + 良性循环
+站点会识别你来自哪个 Slack 频道，推断你属于哪个团队，然后展示对应内容。
 
-主持人把话题引向一个大多数人想不到的角度:sites 不只是「放 vibe coding 产出的原型的地方」,它本身就是基础设施 <button class="pd-ts" data-t="05:57" data-who="嘉宾" data-en="Yeah, so I want to pause for folks because I think a lot of people, especially when sites first came out, were like, okay, great. I have a place to like put my vibe-coded thing." aria-label="回原文"></button>。
+数据团队、财务团队这类权限敏感的部门特别喜欢这一点——访问者自带权限边界，不用担心谁看到了不该看的东西 <button class="pd-ts" data-t="08:35" data-who="Kath Korevec" data-en="pulls in that data that's specific to you. And we see this being really useful for data teams who are plugging into their data warehouse, for example, or for finance teams." aria-label="回原文"></button>。
 
-Kath 解释了来龙去脉:做 sites 的原因之一就是大家让 Codex 建网站时,产物只存在本地,还得自己费劲折腾 DevOps(部署运维那摊事),所以团队决定把「从本地机器把东西放到线上」这最后一公里接管掉 <button class="pd-ts" data-t="11:27" data-who="Kath Korevec" data-en="that you think is interesting that like most people wouldn't presume? The cool thing about sites is that, okay, so we built it to be able to put software someplace that you build with Codex." aria-label="回原文"></button>。
+目前可用的连接器大约有 60 个，还在不断增加。她最常用的就是 Slack、Notion、Google 日历这些「团队在哪协作就去哪」的工具。
 
-结果用户拿它干的不只是建网站:托管数据、跑 eval(评测)、构建插件,甚至今天刚宣布的——通过 sites 托管 MCP 插件,再用到自己的站点里。
+## 软件开始用完即扔
 
-她管这叫良性循环:sites 既能建网站,又能当跑这些插件的基建 <button class="pd-ts" data-t="12:00" data-who="Kath Korevec" data-en="building websites, but then also building plugins and hosting data and running evals because it is very powerful." aria-label="回原文"></button>。
+Kath 提出一个很妙的用法：临时软件。
 
-工具底盘也不含糊:sites 自带 D1 数据库、R2 存储,全都可部署,还支持共同编辑 <button class="pd-ts" data-t="10:33" data-who="Kath Korevec" data-en="You can have full internal tools with it and deep buildouts. Sites does come with D1 data. It has an R2 bucket." aria-label="回原文"></button>。目前可用的连接器大约 60 个,还在持续增加 <button class="pd-ts" data-t="09:24" data-who="Kath Korevec" data-en="Um, there are some others that, uh, there, I think there are about 60 or so that we have, um, in the, in working right now in the tool and we're adding more all the time." aria-label="回原文"></button>。
+她下周要出差，就给那一周建一个专属站点，把日程按自己喜欢的方式重新组织，「周末结束就把它扔掉」<button class="pd-ts" data-t="10:48" data-who="Kath Korevec" data-en="I think it's just like for me, it's cool to be able to think about like, OK, my brain works in different ways than other people." aria-label="回原文"></button>。
 
-## 被孩子占领的 Spotify:周一早上 8 点的自动化
+本质上，**这是让软件适应人，而不是人去适应软件**。你不用迁就某个现成产品的固定结构，可以完全按自己的思维方式定制。
 
-转到生活场景。Kath 的 Spotify 被两个孩子接管了,大部分是 Bluey 和芝麻街(偶尔也有 Michael Jackson)<button class="pd-ts" data-t="13:07" data-who="Kath Korevec" data-en="OK, so my Spotify has been taken over by my children. And yeah, I mean, some of it's Michael Jackson," aria-label="回原文"></button>。
+很多人会为一次旅行快速建一个站点，比如巴黎地铁怎么坐的导航指南。
 
-而她工作忙、是两个孩子的妈、还是幼儿园家长代表,根本没精力跟进新音乐,但又爱在工作时听歌 <button class="pd-ts" data-t="13:51" data-who="Kath Korevec" data-en="and what people are voting on because I wanted to discover new stuff. Like I am very, very bad at keeping up with music. I have a demanding job." aria-label="回原文"></button>。
+## 被孩子毁掉的算法，怎么办
 
-她的解法是一个 heavy rotation 网站:她写了几个 markdown 文件指示 sites 该怎么做——要移动端友好、要极简、还要去 Reddit 上看热门播放列表里大家在分享和投票什么,因为她想发现新东西。
+聊完工作，话题转向两位家长共同的痛点：Spotify 推荐算法已经被孩子的儿歌污染了。Kath 的歌单里全是 Bluey 和芝麻街。
 
-她让整个过程用 [[计算机使用|computer use]](让模型直接操作电脑界面)去 Reddit 爬内容,设成自动化,每周一早上 8 点跑一次,生成一个播放列表,播放器直接用 Spotify,还能顺带引用她本地 Apple Music 里的歌 <button class="pd-ts" data-t="13:22" data-who="Kath Korevec" data-en="OK, so the way this thing works is I wanted it to be I wanted it to be mobile friendly. And so I have so I have a couple of different MD files that I wrote up to instruct sites on how I wanted this thing to come about." aria-label="回原文"></button><button class="pd-ts" data-t="14:02" data-who="Kath Korevec" data-en="Like I just have too much going on, but I love listening to music while I'm at work. So I so I have it go to Reddit and use computer use to look at what people are sharing." aria-label="回原文"></button>。
+她的解法是自己建了一个本周重播站点。
 
-现场点开播放的就是一首她从没听过的歌——昨天刚拉进来的,而且「显然不是 Bluey」<button class="pd-ts" data-t="14:42" data-who="Kath Korevec" data-en="So I don't know. I've never heard this song before, but it's a cool one that I get to listen to for the week because it pulled" aria-label="回原文"></button>。
+它每周一早上 8 点自动运行，用计算机操作能力去 Reddit 看大家在投票分享什么热门歌单，然后参考她本地的 Apple Music 曲库，自动生成一周的新歌播放列表——播放器直接调用 Spotify。
 
-## 用户共建的地牢游戏:用 skill 分发「往我游戏里盖房间」
+她形容自己是「两个孩子的妈妈、幼儿园的家委」，根本没时间追新歌，这个工具替她完成了发现 <button class="pd-ts" data-t="13:53" data-who="Kath Korevec" data-en="Like I am very, very bad at keeping up with music. I have a demanding job. I'm a mother of two." aria-label="回原文"></button>。
 
-游戏环节是整集最好玩的部分。
+## 游戏也能这么玩：地牢由社区共建
 
-Kath 建了「最大的用户创建地牢爬行游戏」(dungeon crawler,一种在地下城里探险打怪的游戏),地图是旧金山 Alamo Square,玩家进去杀泰迪熊 <button class="pd-ts" data-t="17:34" data-who="Kath Korevec" data-en="So it'd be cool, like maybe later on we can share this and see what people do. But basically, okay, so I built the largest user-created dungeon crawler. And what this does is you can go in, you can play it, you can pick whatever your player is." aria-label="回原文"></button>。
+她做了一个号称「最长的用户共创地牢探险游戏」。
 
-关键设计:她想让别人往游戏里**加自己的房间**。
+玩法本身普通，但分发机制很新：她发布了一个叫 Dungeon Sight 的技能（[[技能|skill]]），里面定义了房间的尺寸、玩家、操作方式等规则。
 
-她发布了一个叫 Dungeon Sight 的 [[技能|skill]](技能,一段可安装的说明书),里面定义了房间的尺寸、玩家是什么、控制方式等等。
+任何人下载这个技能，用 Astra 模型说一句我想在月球表面或我想在火山里，就能生成自己的房间，加到游戏里。
 
-任何人装上这个 skill,就能用 Astra 指挥它生成自己想要的房间——月球表面、火山口,随便 <button class="pd-ts" data-t="18:27" data-who="Kath Korevec" data-en="And what I did was I also wanted people to build their own rooms. And so I put instructions here about how to use a skill called Dungeon Sight, which I can release and everything." aria-label="回原文"></button>。
+主持人指出，这是一种全新的分发模式：不是让用户进游戏里编辑，而是让他们下载一个技能，让 Codex 替他们往游戏里写内容 <button class="pd-ts" data-t="20:57" data-who="嘉宾" data-en="It's another thing to say, like, download this skill and Codex will build into the game for you. And I don't know. I'm sure you're like me where I am just constantly like." aria-label="回原文"></button>。
 
-她今天早上现做的例子:因为儿子在看《怪奇物语》动画,她一句话生成了该主题的地下城房间,连「空心月亮」这种设定都是模型自己想出来的 <button class="pd-ts" data-t="19:04" data-who="Kath Korevec" data-en="I want to be in a volcano or whatever you want. So what I did this morning is my son has been watching. The cartoon for Stranger Things." aria-label="回原文"></button>。
+主持人自己也用 Astra Ultra Fast 做了个 3D 游戏测试：在月球飞船上，输入Pip 需要双层床，模型当场把双层床建出来了。
 
-主持人指出这里有个前所未有的分发模式:不是「进游戏里创造」,而是「下载这个 skill,Codex 会替你往游戏里构建」——你甚至可能根本不打开游戏本体,只在 Codex 里干活 <button class="pd-ts" data-t="20:37" data-who="嘉宾" data-en="But when you get this live and... One, I think this is really interesting as it's a skill to distribute like usage for a game, which is like a user experience I haven't heard before." aria-label="回原文"></button>。
+代价是新模型速度快了 8 倍，但贵了 6 倍——她孩子在一旁不停提需求，她感慨那是「眼睁睁看着美元飞出门」。
 
-至于怎么知道有没有人真的往里加房间?
+## 创造力的门槛，真的在降
 
-Kath 说作为开发者只能看到访问量这种轻量分析,看不到谁在用 skill;她打算学 awesome lists 的路子,靠 Twitter 话题标签让大家 @她分享,让社区有机生长,而不是建一套中心化机制——「我不需要社区以 AGI 的方式聚集起来,我更想就这样见到这些人」<button class="pd-ts" data-t="21:34" data-who="Kath Korevec" data-en="the analytics side of this? No, I don't as the app developer. So I do have access to some pretty lightweight analytics." aria-label="回原文"></button><button class="pd-ts" data-t="22:29" data-who="Kath Korevec" data-en="I don't need it to be. I don't need the community to come together in an AGI way. I'd rather just like meet the people." aria-label="回原文"></button>。
+主持人回忆自己 13 岁时接受报纸采访，说想当游戏开发者，后来却没能入行——因为把一个好点子做成产品所需的技能门槛太高。
 
-她也顺手上线了 awesomesites.ai,收录网友用 sites 做的能弹的钢琴、海德拉巴巴士图集、帮你在巴黎坐地铁的一次性导航站、Minecraft 仿制品等等 <button class="pd-ts" data-t="30:19" data-who="Kath Korevec" data-en="Okay, so I basically took awesome lists and I built awesome sites. I asked the community, what are some of the sites that you guys have been building? And use hashtag awesome sites, DM me, send it to me in Twitter, send it to me however you want." aria-label="回原文"></button>。
+而过去几个月，新模型让她离真正做出来近了一大步 <button class="pd-ts" data-t="27:53" data-who="嘉宾" data-en="It was like the number one thing that I there's like this very adorable clipping. My friend's mom worked for the local newspaper, so she would just like interview all of us so she could get her column out." aria-label="回原文"></button>。
 
-## 把推理带进站点:给孩子设游戏额度
+她还做了一个实时素描应用：你在画布上画一座小山，AI 在旁边补上一只蜗牛；你画一张脸，它变成热气球。
 
-两人都提前试了 ultra fast(发布的新模型模式,快八倍、贵六倍),各自搭了 3D 房间游戏。
+Kath 说这正是做 Sites 的初衷之一：让人能创造性地表达自己。
 
-主持人的游戏里输入「Pip needs bunk beds」,双层床就直接建出来了;她吐槽孩子不断要求「让水母跳草裙舞」「给它个宝宝」,「这可都是白花花的银子往外流啊,孩子」<button class="pd-ts" data-t="24:19" data-who="嘉宾" data-en="And like just forecasting the future, what was really cool is you were able to type like Pip needs bunk beds and then Astro Ultra Fast just like built the bunk beds." aria-label="回原文"></button><button class="pd-ts" data-t="25:04" data-who="Kath Korevec" data-en="I mean, I said it was like a terrible use of a thousand dollars or whatever I spent. My kids were like, make the jellyfish a hula dancer. Give the jellyfish" aria-label="回原文"></button>。
+模型变快也在加速创意。主持人的观察很真实：**当处理过程卡顿时，创意就被打断了**；越能保持心流状态，想法就越多。
 
-Kath 透露了 sites 正在试验的方向:把[[推理|推理]]带进站点——让玩家在游戏里直接唤起 ChatGPT 去改东西。
+## 最后一问：会对AI发火吗
 
-她的想象是:给孩子设一笔「游戏额度」,孩子自己在游戏里说「我想要双层床」「把船变成章鱼」,用自己那份额度完成对话 <button class="pd-ts" data-t="25:54" data-who="Kath Korevec" data-en="Yeah. One of the things we're playing around with sites is this ability to bring your inference into the site." aria-label="回原文"></button><button class="pd-ts" data-t="26:42" data-who="Kath Korevec" data-en="the game can bring their inference in. Imagine you give your kids an allowance of, like, you have however much to spend on this game. And you can go and ask for it yourself." aria-label="回原文"></button>。
+会。Kath 说自己平时很有礼貌，对 AI 也说请和谢谢，但当它开始自作主张——尤其是替她发邮件、替她说话时——她会严厉制止。
 
-主持人补了一层观察:模型越快,创造力越不中断——「我的很多创造力会因为线程处理时的分心而被压制」,模型响应越快,人越能保持心流 <button class="pd-ts" data-t="29:16" data-who="嘉宾" data-en="It's really, really fun. I also just think the faster the models get, the more kind of like acceleration towards creativity you get." aria-label="回原文"></button>。
+她的底线很清晰：那是我的声音，AI 可以帮她研究和起草，但不能署着她的名发出去 <button class="pd-ts" data-t="33:06" data-who="Kath Korevec" data-en="but if it starts making assumptions, like especially if it starts emailing or talking to people for me, I get so mad and I'll just say, do not do that." aria-label="回原文"></button>。
 
-她自己进科技行业就是因为 13 岁想做游戏设计师,但把一个好点子做成产品的创意技能门槛太高;过去三到六个月的新模型,第一次让她觉得离「把想象的东西做出来」这么近 <button class="pd-ts" data-t="27:43" data-who="嘉宾" data-en="I just again, like I think getting creative with stuff that you could never build before I got into tech because I wanted to be a game designer." aria-label="回原文"></button>。
+顺便一提，她的 AI 头像叫 Mogwai，和她的迷你哈士奇同名。
 
 ## 本集带走
 
-- **让 Codex 接连接器的咒语**:在建站提示里直接写「自带连接器 / 用插件建这个站」,并说明「这是给团队协作用的」,模型就会主动调用连接器,而不是做出一堆静态页面。
-- **「同一个站点,各看各的数据」是敏感数据场景的解法**:站点登录时让每个访问者批准自己的连接授权,内容按访问者的团队/身份渲染——财务、数据仓库这类场景不需要开发者碰任何 API 密钥。
-- **一次性软件真的可以用完就扔**:出差那一周建个专用的日历/导航站点,周末删掉;一次性建站成本已经低到不值得复用。
-- **skill 可以当游戏的扩展分发机制**:把房间规格、玩家、控制方式写进 skill 发布出去,玩家用模型生成自己的关卡再分享——不进游戏本体也能扩展游戏。
-- **守护自己的声音**:Kath 明令禁止模型替她署名发邮件和 Slack,发了就严厉训斥一次——研究和写作让 Codex 帮忙,但落款的每一个字必须是自己的。
+- Sites 不只是放原型的静态网页：它带数据库、存储、多人协作，能承载真正的内部工具
+- 新发布的插件功能让「同一个站点，每人看到自己的数据」成为可能——权限跟着访问者走，适合数据、财务等敏感团队
+- 软件正在变得用完即扔：为一次出差、一周歌单、一趟旅行临时建一个，不需要就删
+- 技能（skill）正在成为新的应用分发方式：用户下载技能，让 AI 替自己往游戏或应用里写内容
+- 模型越快，创意越多——处理等待时间打断的不只是流程，还有灵感
 
-<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
-> <span class="qz">今天主题演讲屏幕上你看到的全部幻灯片,其实都是用它做的。那就是一个 ChatGPT 站点。</span>  
-> *We used it actually for all of the slides that you saw today that were on screen during the keynote. That was a ChatGPT site.*  
-> <span class="qm">—— Kath Korevec · [01:57]</span> ^q1
-
-> <span class="qz">我的魔法咒语就是,自带连接器。</span>  
-> *My magic word is like, bring your own connector.*  
-> <span class="qm">—— Kath Korevec · [07:46]</span> ^q2
-
-> <span class="qz">所以我会为那一周建一个 site,然后在那一周结束时把它扔掉。这感觉棒极了。</span>  
-> *And so I'll build a site for that week and then I'll throw it away at the end of the week. And it's wonderful.*  
-> <span class="qm">—— Kath Korevec · [11:05]</span> ^q3
-
-> <span class="qz">说「你可以进入这个游戏并创造东西」是一回事。说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。</span>  
+> <span class="qz">说「你可以进入这个游戏并创造东西」是一回事；说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。</span>  
 > *It's one thing to say, like, you can go into this game and you can create things. It's another thing to say, like, download this skill and Codex will build into the game for you.*  
-> <span class="qm">—— 嘉宾 · [20:47]</span> ^q4
+> <span class="qm">—— 嘉宾 · [20:47]</span> ^q1
 
-> <span class="qz">我不需要社区以 AGI 的方式聚集起来。我更想就这样见到这些人。也许我在这方面比较老派。</span>  
-> *I don't need the community to come together in an AGI way. I'd rather just like meet the people. Maybe I'm old school like that.*  
-> <span class="qm">—— Kath Korevec · [22:29]</span> ^q5
+> <span class="qz">人们在谈论生成式 UI,但用的是一种非常枯燥的 SaaS 方式，比如表单会按你想要的方式推进，或者你会有这些小组件。我觉得这种游戏式的生成式世界 UI 会非常有趣。</span>  
+> *people are talking about generative UI in this like very kind of like boring SaaS way where it's like your forms will like progress how you want or you'll have these like widgets. I think this like generative world UI of games is going to be really interesting.*  
+> <span class="qm">—— 嘉宾 · [25:25]</span> ^q2
 
-> <span class="qz">我就说,孩子,这可都是白花花的银子往外流啊。</span>  
-> *And I was like, there's just dollars going out the doors, kid.*  
-> <span class="qm">—— 嘉宾 · [25:10]</span> ^q6
+> <span class="qz">就是这些硬技能——要把一个好点子变成产品所需的技能门槛太高了。</span>  
+> *And it's just like the hard skills, the creative skills required to get even a good idea into production are so high.*  
+> <span class="qm">—— 嘉宾 · [28:03]</span> ^q3
 
-> <span class="qz">比如我的很多创造力会因为线程处理时的分心而被压制。</span>  
-> *Like a lot of my creativity gets stamped down by being distracted when my thread is processing.*  
-> <span class="qm">—— 嘉宾 · [29:22]</span> ^q7
+> <span class="qz">比如我的很多创造力会因为线程处理时的分心而被压制。所以你越能让我保持某种心流状态，就越好。</span>  
+> *Like a lot of my creativity gets stamped down by being distracted when my thread is processing. So the more you can keep me... Sort of like in flow state, the better.*  
+> <span class="qm">—— 嘉宾 · [29:22]</span> ^q4
 
-> <span class="qz">我用它做我的研究。我用它帮我写作,但我不喜欢它替我写作。</span>  
-> *I use it to do my research. I use it to help me write, but I don't like it writing for me.*  
-> <span class="qm">—— Kath Korevec · [33:42]</span> ^q8
+> <span class="qz">我用它帮我写作，但我不喜欢它替我写作。</span>  
+> *I use it to help me write, but I don't like it writing for me.*  
+> <span class="qm">—— Kath Korevec · [33:44]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

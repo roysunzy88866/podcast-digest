@@ -17,7 +17,7 @@ unlisted: true
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]] — 作为主持
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为主持
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为主持
-- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为主持
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为主持
 
 ## ③ 他谈到的
 

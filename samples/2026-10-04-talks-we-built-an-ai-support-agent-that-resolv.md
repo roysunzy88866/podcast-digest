@@ -1,12 +1,12 @@
 ---
-title: 每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey
+title: "一个AI客服解决了80%的工单，成本每月700美元"
 podcast: 精选演讲
 date: 2026-10-07
 source_url: undefined
 duration: "16:08"
 type: episode
 cover: "#64748b"
-description: "Assembly AI 前置部署工程师 Matt Lawler 讲述如何用 Claude Agent SDK 打造解决 80% 工单的 AI 支持机器人 Joey。"
+description: "AssemblyAI 的前线部署工程师 Matt Lawler 讲他们如何自建AI客服 Joey，把工单解决率从10%提到80%。"
 host: "[[Matt Lawler]]"
 companies: ["[[Assembly AI]]", "[[Railway]]"]
 concepts: ["[[Joey]]", "[[前向部署工程师]]", "[[语音智能体]]", "[[Claude Agent SDK]]", "[[RAG]]", "[[ClaudeMD]]"]
@@ -16,18 +16,18 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#post","headline":"每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv","description":"Assembly AI 前置部署工程师 Matt Lawler 讲述如何用 Claude Agent SDK 打造解决 80% 工单的 AI 支持机器人 Joey。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Lawler"},{"@type":"Organization","name":"Assembly AI"},{"@type":"Organization","name":"Railway"},{"@type":"Thing","name":"Joey"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"语音智能体 (voice agent)"},{"@type":"Thing","name":"Claude Agent SDK"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"ClaudeMD"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey","item":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#post","headline":"一个AI客服解决了80%的工单，成本每月700美元","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv","description":"AssemblyAI 的前线部署工程师 Matt Lawler 讲他们如何自建AI客服 Joey，把工单解决率从10%提到80%。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Lawler"},{"@type":"Organization","name":"Assembly AI"},{"@type":"Organization","name":"Railway"},{"@type":"Thing","name":"Joey"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"语音智能体 (voice agent)"},{"@type":"Thing","name":"Claude Agent SDK"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"ClaudeMD"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"一个AI客服解决了80%的工单，成本每月700美元","item":"https://talk.solomind.cc/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一个AI客服解决了80%的工单，成本每月700美元</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey
+# 一个AI客服解决了80%的工单，成本每月700美元
 
 <div class="pd-byl"><b>Matt Lawler</b> · Assembly AI 前置部署工程师 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-04-talks-we-built-an-ai-support-agent-that-resolv.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我鼓励你把你作为前置部署工程师所掌握的知识拿来,尝试把自己从这份工作中自动化出去。</div><div class="a">— Matt Lawler <button class="pd-ts" data-t="03:57" data-who="Matt Lawler" data-en="I would encourage you to take that knowledge that you have as an FTE and try to automate yourself out of a job." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">如果你想要在规模化下交付更好的客户体验，你就不能成为良好客户体验的瓶颈。</div><div class="a">— Matt Lawler <button class="pd-ts" data-t="04:07" data-who="Matt Lawler" data-en="If you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Matt Lawler]]
@@ -36,123 +36,113 @@ jsonLd: |
 >
 > **概念** [[Joey]] · [[前向部署工程师]] · [[语音智能体]] · [[Claude Agent SDK]] · [[RAG]] · [[ClaudeMD]]
 
-每天大约有 1,000 个新客户注册你的 API,而你只有一个入职工程师——这是 [[Assembly AI|Assembly AI]](一家做语音 AI 基础设施的公司,训练自己的语音转文字模型,Fireflies 之类的会议记录工具用的就是他们的转写)当时面临的处境。
+如果你给 AssemblyAI 的客服发消息，回复你的不会是人，而是一个叫 [[Joey|Joey]] 的AI。它记得你之前聊过什么，能写代码、调试、自己给自己加新能力。
 
-说这话的是 [[Matt Lawler|Matt Lawler]],Assembly AI 的[[前向部署工程师|前置部署工程师]](Forward Deployed Engineer,一种深入客户现场、直接在客户代码仓库里提交代码、负责从技术到商务全流程的角色)。
+它每周7天、每天24小时在线，解决了公司80%的客服工单，每月成本只有约700美元。
 
-至少在演讲两天前,他还是公司唯一的 onboarding 工程师。「尽管我很想每天和 1,000 个新注册用户都聊一聊,但这根本不可行。」<button class="pd-ts" data-t="02:29" data-who="Matt Lawler" data-en="So Assembly, at our current moment, we see around 1,000 API signups every single day, which is somewhat of the theme of why we were focusing on automation and wanting to build kind of a new support bot for our team, because at least until like two days ago, I was the only onboarding engineer at Assembly AI." aria-label="回原文"></button>
+AssemblyAI 做的是语音AI基础设施，自研语音转文字的基础模型。你开会时见过的 Fireflies 会议记录机器人，用的就是他们的转录。
 
-他的解法不是招人,而是造了一个「团队成员」:一个叫 [[Joey|Joey]] 的 AI 支持机器人。
+他们现在也提供完整的[[语音智能体|语音智能体]]方案——把语音识别、大模型、语音合成串成一条服务。
 
-结果相当惊人——上线第一周,端到端解决率就从 10% 冲到 80%,每月成本只有大约 700 美元的 token 和基础设施费。
+## 问题：每天1000个新注册，只有一个工程师接待
 
-更关键的是这个数字没有注水:「除非你经过 Joey 并让他升级,否则你无法直接联系到人工。
+演讲者 [[Matt Lawler|Matt Lawler]] 的职位是 Forward Deployed Engineer（前线部署工程师），这类人直接嵌到客户那边，理解需求、写代码、每周开几次会，是客户在技术和商务上的唯一对接人。
 
-所以他现在实际上为我们处理 100% 的入站工单。」
+这种模式服务好，但撑不住量。AssemblyAI 每天有约1000个API新注册，而直到演讲前两天，他是公司唯一的接入工程师。
 
-<button class="pd-ts" data-t="08:38" data-who="Matt Lawler" data-en="You cannot reach a human directly unless you go through Joey and you tell him to escalate. So he actually does handle 100% of these inbound tickets for us now. And he only escalates 20% of them to a human for the right reasons." aria-label="回原文"></button> 只有 20% 的对话会升级给真人,而且升级的理由都是真正需要人的:费率变更、数据退出、签协议这类需要法务介入的事。
+他想跟每个新客户都聊，但物理上不可能。
 
-## 先买现成的,为什么不行的教训
+他的结论是：前线工程师的日常工作，应该是想办法把自己自动化掉——「**你不能成为好客户体验的瓶颈**」<button class="pd-ts" data-t="04:12" data-who="嘉宾" data-en="If you want to serve your customers better, if you want to work with them more, and if you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience." aria-label="回原文"></button>。
 
-团队最初的直觉和很多公司一样:买个现成的支持机器人,指向文档,让它替我们回答简单问题。
+## 第一次尝试：买现成的机器人，只解决了10%
 
-结果它只解决了约 10% 的对话——一天 1,000 个对话,机器人接管 100 个,团队仍要处理 900 个工单。
+团队的第一反应和大多数人一样：买个现成的客服机器人，指向文档，让它替人回答简单问题。
 
-更要命的是没法迭代:拿不到 system prompt、拿不到工具、拿不到 [[RAG|RAG]](检索增强生成,让模型先搜资料再回答)基础设施,每次要改点什么,供应商就回一句「这个在路线图上」。
+**结果它只解决了约10%的对话**。按每天1000个对话算，机器人接了100个，剩下900个还是人处理。
 
-所以「我们想自己造一个」<button class="pd-ts" data-t="05:15" data-who="Matt Lawler" data-en="And that didn't quite work for us. So we wanted to build our own. So we built another member of our team rather than hiring one, and we named him Joey." aria-label="回原文"></button>。
+更糟的是没法快速迭代——系统提示词、工具、检索基础设施都掌握在供应商手里，每次要改点什么，得到的答复都是在路线图上了<button class="pd-ts" data-t="05:14" data-who="嘉宾" data-en="So anytime we needed to change something, we'd go to this vendor and they'd say, well, it's on the roadmap. And that didn't quite work for us. So we wanted to build our own." aria-label="回原文"></button>。
 
-## Joey 的架构:四块拼图
+## 自己造一个：Joey 是怎么搭起来的
 
-Joey 构建在 [[Claude Agent SDK|Claude Agent SDK]] 之上,能管理自己的基础设施、有文件系统、能写代码和调试、能调用工具、甚至能给自己增加新能力——所以他更像一个 FDE 在运作,而不是主流网站上那种标准聊天机器人。
+于是他们决定自己建，取名 Joey——相当于给团队加了个新成员，而不是招一个人。所有来找 AssemblyAI 的人，先见的都是 Joey。
 
-架构有四个主要部分:
+他基于 [[Claude Agent SDK|Claude Agent SDK]] 构建，接入 Pylon 来管理对话、记住每个客户。架构上有四个要点：
 
-1. **文档即本地 Markdown。** 用过 Claude 的人都知道 Markdown 是它的好朋友。团队把全部文档以 Markdown 形式检出进仓库,每次文档系统更新,文件自动同步给 Joey——新功能、变更日志、定价、网站主要页面全都包含。一个副产品:就算整个文档站挂了,客户找 Joey 依然能拿到最新内容的实时解答。而且 Joey 能看到每个文件的 URL,可以给客户引用来源,方便对方复核。
+一是文档全在本地。所有文档以 Markdown 格式存在 Joey 自己的文件系统里，文档一更新就自动同步。
 
-2. **检索用 Voyage 的嵌入。** 让 Joey 一开始就拿到最相关的文档,不用花时间搜索、能更快给出答案。因为文档全在本地,遇到需要串联多个资源的问题,他还能以智能体方式深度搜索自己的文件系统。
+哪怕官网文档挂了，Joey 照样能回答最新功能的问题，还能附上出处链接。
 
-** 里面全是护栏和「如何与客户打交道」的建议。
+二是检索用 Voyage 的向量嵌入，把最相关的文档先摆到前面，回答更快。
 
-每次发现 Joey 体验不好或答错了,团队就大规模更新这个文件——「之后在他进行的每一次对话中,他都能表现得更好。」
+三是部署在 [[Railway|Railway]] 上，不用管服务器。团队看到 Joey 在某次对话里出了问题，写个拉取请求，30秒内新版本就上线了。
 
-<button class="pd-ts" data-t="11:49" data-who="Matt Lawler" data-en="And this is what we majorly update whenever we see that he had a bad experience with a customer or gave a wrong answer. We ship an update to this ClaudeMD, and now for every conversation that he has going forward, he's able to be better." aria-label="回原文"></button> 这是他们主要的迭代手段。
+他们甚至在现场盯着一次对话、发现漏洞、修复上线，客户全程不知情。
 
-4. **部署在 [[Railway|Railway]] 上,追求迭代速度。** 不想起 EC2、不想换实例类型,全扔给 Railway:发现 Joey 在 Slack 上有糟糕对话,快速写个 PR 部署,30 秒内新版本上线。Matt 说他们有过这样的经历:实时监控一场对话、发现 bug、部署修复,同一会话的剩余部分已经被修复版验证——客户根本不知道幕后发生了什么。
+四是行为规则写在一个约3万行的 [[ClaudeMD|ClaudeMD]] 指令文件里。每次他答错，团队就更新这个文件，让他在之后的每次对话里都变得更好。
 
-## 造出来之后:不能做的事就是路线图
+## 成果：80%的工单无人参与就解决了
 
-Joey 做不到的事,反过来给了团队一张极清晰的扩展清单。他不能发 BAA(医疗数据的商业伙伴协议)?给他一个可参考的链接。
+上线第一周，**端到端解决率就从10%涨到80%，每月的令牌加基础设施成本约700美元** <button class="pd-ts" data-t="08:17" data-who="嘉宾" data-en="So we went from 10% to 80% end-to-end resolution rate in just the first week of deploying this build with a pretty naive implementation. And we did that all for around $700 a month in both token and infrastructure costs." aria-label="回原文"></button>。
 
-他不能谈定价?现在可以直接跟 Joey 谈判——你告诉他你需要多少小时,他会真给你报一个费率,然后你可以跟他砍价。
+这不是挑简单工单凑出来的数字：想找人工，必须先过 Joey 这关，由他决定是否升级。
 
-团队在持续把这些升级项逐个自动化。
+他实际处理100%的进站工单，只把约20%转给人——多是改费率、数据退出、签协议这类确实需要人或法务介入的事。
 
-## 元层面:用 Joey 吃自己的狗粮
+Joey 做不了的事，正好构成一份清晰的待办清单，告诉团队接下来该自动化什么。
 
-造 Joey 还有一个目的:Assembly 做语音,客户构建[[语音智能体|语音智能体]],那 Joey 本身就该是个语音智能体。
+比如定价，现在已经可以直接和 Joey 谈：告诉他你要多少小时，他会报价，你还可以还价。
 
-本周他们把自家的语音智能体 API 集成进了 Joey——语音进、语音出,一条 WebSocket 连接串起语音转文字、LLM、文字转语音,实时低延迟,自动处理停顿、打断、插话,还自带语音不用另找供应商。
+## 更深一层：用自己的产品，才真正懂客户
 
-现场演示里,Matt 用语音问 Joey「我要做医疗记录产品,得先签 BAA,你能办吗」,Joey 查完给出完整回答:可以自己签标准协议,但需要先有绑定卡片的付费账户,且签了会自动退出模型训练——这种对话在两年前必须由真人处理,客户还得等一条模板回复。
+AssemblyAI 做语音智能体，所以这周他们给 Joey 加上了语音模式——用自家的语音智能体API，一条 WebSocket 连接搞定语音识别、大模型和语音合成，实时低延迟，能处理打断和插话。
 
-Matt 认为这里面有一层对 FDE 特别重要的东西:理解客户在构建什么的最好方式,是自己亲手构建同样的产品。
+不久后还会接上电话号码。
 
-「我撞过完全相同的墙……我必须搞清楚如何处理延迟、轮次转换、打断处理。
+这里有个巧妙的设计：客户用语音向 Joey 请教怎么建语音智能体时，本身就在体验这个产品。
 
-我对如何与想用我们语音智能体 API 的客户合作,有了好得多的同理心,因为我真的用过它。」
-
-<button class="pd-ts" data-t="14:48" data-who="Matt Lawler" data-en="Any new feature that you launch, any new product that you offer, you need to be teaching your customers with all the knowledge that you've built from actually using and building and trying to ship the same product." aria-label="回原文"></button> 你在跟 Joey 聊怎么构建语音智能体时,你已经在体验这个产品本身了。
-
-他的收尾建议:如果你是 FDE,试着独立构建你的客户正在构建的完全相同的产品,别只是等他们来求助、等着替他们清障。
-
-同时,把每天接不住的客户需求自动化掉——「你不该成为良好客户体验的瓶颈」<button class="pd-ts" data-t="04:12" data-who="Matt Lawler" data-en="If you want to serve your customers better, if you want to work with them more, and if you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience." aria-label="回原文"></button>,而你暂时自动化不了的部分,就是你团队下一步该做什么的清单。
+演讲者说，前线工程师不管跟客户嵌得多深，**理解客户最好的方式是把客户在做的产品自己亲手做一遍**——他为了给 Joey 加语音，亲历了延迟、轮换、打断处理这些坑，现在能给客户更实在的建议 <button class="pd-ts" data-t="15:02" data-who="嘉宾" data-en="And I think I have a lot better empathy of how to work with customers that want to use our voice agent API because now I've actually used it. I've used the same API." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **先自建再优化**:现成支持机器人只解决 10% 的对话,且拿不到 system prompt、工具和 RAG 就无法迭代;自己造才有完全控制权。Joey 用 Claude Agent SDK 搭建,第一周就把解决率做到 80%,月成本约 700 美元。
-- **把业务知识喂成 Markdown 文件**:全部文档本地检出、自动同步,再加一个约 30,000 行的 [[ClaudeMD|ClaudeMD]] 记录护栏和踩坑经验——每次答错就更新它,让之后所有对话都变好。
-- **部署平台选「改起来最快」的**:Railway 上写完 PR 30 秒上线,快到可以边看对话边修 bug,客户无感。
-- **机器人做不到的事 = 你的路线图**:不能发 BAA 就给它链接,不能谈价就给它报价逻辑;升级给人工的 20% 就是下一批要自动化的清单。
-- **FDE 要亲手造客户造的东西**:自己撞一遍延迟、打断处理的墙,才能给客户真正有用的建议——而且顺手做出了产品演示。
+- 现成的客服机器人只解决了10%的工单，且因为改不了提示词和工具，无法迭代
+- 自建的 Joey 第一周就把解决率提到80%，每月成本约700美元，100%工单先进他手里
+- 文档本地 Markdown 化 + 约3万行行为指令文件 + 30秒部署，是快速迭代的关键
+- AI做不了的事就是团队的自动化路线图：定价谈判、协议签署正在逐步交给 Joey
+- 用自己的产品建 Joey，等于亲手走了一遍客户的路，能给出好得多的建议
 
-<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
-> <span class="qz">我鼓励你把你作为前置部署工程师所掌握的知识拿来,尝试把自己从这份工作中自动化出去。</span>  
-> *I would encourage you to take that knowledge that you have as an FTE and try to automate yourself out of a job.*  
-> <span class="qm">—— Matt Lawler · [03:57]</span> ^q1
-
-> <span class="qz">如果你想规模化交付更好的客户体验,你就不能成为良好客户体验的瓶颈。</span>  
+> <span class="qz">如果你想要在规模化下交付更好的客户体验，你就不能成为良好客户体验的瓶颈。</span>  
 > *If you want to deliver a better customer experience at scale, you can't be the bottleneck to having a good customer experience.*  
-> <span class="qm">—— Matt Lawler · [04:07]</span> ^q2
+> <span class="qm">—— Matt Lawler · [04:07]</span> ^q1
 
-> <span class="qz">于是我们「造」了另一个团队成员而不是去雇一个,我们给他起名叫 Joey。</span>  
+> <span class="qz">于是我们「造」了另一个团队成员而不是去雇一个，我们给他起名叫 Joey。</span>  
 > *So we built another member of our team rather than hiring one, and we named him Joey.*  
-> <span class="qm">—— Matt Lawler · [05:18]</span> ^q3
+> <span class="qm">—— Matt Lawler · [05:18]</span> ^q2
 
-> <span class="qz">如果我们整个文档网站现在挂了,你也可以去找 Joey,仍然能得到关于我们最新发布内容的实时解答,而无需我们团队真正介入。</span>  
-> *If our entire doc site was down right now, you could go to Joey and still get live answers on all the newest stuff that we've shipped without our team having to actually get involved.*  
-> <span class="qm">—— Matt Lawler · [06:46]</span> ^q4
-
-> <span class="qz">实际上有几次,我们实时监控一场对话,发现了一个 bug,部署了修复,然后在会话的剩余时间里它就被验证有效了,而那个客户甚至不需要知道我们在幕后发布了那个修复。</span>  
+> <span class="qz">实际上有几次，我们实时监控一场对话，发现了一个 bug，部署了修复，然后在会话的剩余时间里它就被验证有效了，而那个客户甚至不需要知道我们在幕后发布了那个修复。</span>  
 > *We've actually had times where we've actually monitored a live conversation, caught a bug, deployed a fix, and then it's been proved for the rest of the session, and that customer doesn't even have to know that we shipped that fix behind the scenes.*  
-> <span class="qm">—— Matt Lawler · [07:42]</span> ^q5
+> <span class="qm">—— Matt Lawler · [07:42]</span> ^q3
 
-> <span class="qz">在部署这个构建的第一周内,我们就把端到端解决率从 10% 提升到了 80%,而且用的是相当朴素的实现。</span>  
+> <span class="qz">所以，在部署这个构建的第一周内，我们就把端到端解决率从 10% 提升到了 80%，而且用的是相当朴素的实现。</span>  
 > *So we went from 10% to 80% end-to-end resolution rate in just the first week of deploying this build with a pretty naive implementation.*  
-> <span class="qm">—— Matt Lawler · [08:09]</span> ^q6
+> <span class="qm">—— Matt Lawler · [08:09]</span> ^q4
 
 > <span class="qz">而且我们总共只花了大约每月 700 美元的 token 和基础设施成本就做到了这一切。</span>  
 > *And we did that all for around $700 a month in both token and infrastructure costs.*  
-> <span class="qm">—— Matt Lawler · [08:17]</span> ^q7
+> <span class="qm">—— Matt Lawler · [08:17]</span> ^q5
 
-> <span class="qz">最好的部分是,Joey 还不能做到的事情,为我们提供了一个非常清晰的清单,告诉我们需要做什么才能继续扩展我们的团队。</span>  
-> *And so the best part is whatever Joey can't do yet gives us a very clear list of what we need to do to continue to scale our team.*  
-> <span class="qm">—— Matt Lawler · [08:57]</span> ^q8
-
-> <span class="qz">理解你的客户在构建什么,最好的方式就是你自己真正去构建他们的同样产品。</span>  
+> <span class="qz">理解你的客户在构建什么，最好的方式就是你自己真正去构建他们的同样产品。</span>  
 > *The best way to understand what your customers are building is to actually build their same product yourself.*  
-> <span class="qm">—— Matt Lawler · [10:11]</span> ^q9
+> <span class="qm">—— Matt Lawler · [10:11]</span> ^q6
+
+> <span class="qz">我记得那大概是一个 30000 行的 ClaudeMD，里面全是各种护栏，以及关于他应该如何与客户打交道的建议。</span>  
+> *I think it's like a 30,000 line ClaudeMD of all these guardrails and advice on how he should be operating with customers.*  
+> <span class="qm">—— Matt Lawler · [11:37]</span> ^q7
+
+> <span class="qz">所以这里面有一种元层面的东西：当你在和 Joey 聊如何构建语音智能体 API 时，你已经在使用它了，你已经亲眼看到你的产品体验会是什么样子。</span>  
+> *So there's kind of a meta layer there where if you're talking to Joey about how to build a voice agent API, you're already using it, and you're already seeing exactly what your product experience could look like.*  
+> <span class="qm">—— Matt Lawler · [14:12]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 

@@ -29,7 +29,7 @@ unlisted: true
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(06:01起):本集把它列为智能体获取组织上下文的连接器之一:通过 Snowflake 或 Databricks 数据仓库的连接器。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(20:00起):本集说 Databricks 用智能路由(为每个任务选合适的模型)做到比最强单一模型多解决问题、成本低 35%;也是私募市场前六大巨头之一,靠大额新产品押注带来营收加速
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:51起):被一句话提及：SAP 数据平台的以数据为导向的合作伙伴之一，做零拷贝数据共享。
-- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]]**(09:29起):本集在回顾上一份生物科技公司职位时顺带提到：「我们最后成了一个彻头彻尾的 AWS 用户，我买了 Databricks」。
+- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(09:29起):本集在回顾上一份生物科技公司职位时顺带提到：「我们最后成了一个彻头彻尾的 AWS 用户，我买了 Databricks」。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:59起):本集举 Databricks 为「创始人搞出下一件事」的范例：成长基金首笔投资七年后营收反而加速，还会参与争夺 AI 的抽象层。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(04:18起):本集多次提及:Databricks 收购 Neon(智能体创建分支比例 30%→80% 的数据来源),今年宣布 Lakebase 的 HTAP 故事,被认为最有希望做成混合事务分析
 
@@ -66,7 +66,7 @@ unlisted: true
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
-- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]] — 作为被讨论公司(提及)
+- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 

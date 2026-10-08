@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(05:45起):本集说是 Cloudflare 去年年底引入的思路，把 MCP 工具不当函数、而当代码来对待；因为模型写代码、调代码比调用工具更强，工具调用是真实训练数据中不存在的人工构造。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(05:45起):本集说是 Cloudflare 去年年底引入的思路，把 MCP 工具不当函数、而当代码来对待；因为模型写代码、调代码比调用工具更强，工具调用是真实训练数据中不存在的人工构造。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为概念
 
 ## ③ 关联
 

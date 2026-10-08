@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]]**(04:40起):美国商品期货交易委员会：Kalshi 花四年与它合作搞清楚如何受监管地推出产品、后来赢下对它的诉讼，还与它共同开发监视系统。
+- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]]**(04:40起):美国商品期货交易委员会：Kalshi 花四年与它合作搞清楚如何受监管地推出产品、后来赢下对它的诉讼，还与它共同开发监视系统。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]] — 作为被讨论公司
+- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]] — 作为被讨论公司
 
 ## ③ 关联
 

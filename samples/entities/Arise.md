@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]]**(00:24起):本集嘉宾 Fuad 所在的公司；讲者介绍其语音 trace 会话视图、音频专属评估、agent experiments（「带追踪的 Postman」）等新功能，并强调演讲不是产品推销。
+- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]]**(00:24起):本集嘉宾 Fuad 所在的公司；讲者介绍其语音 trace 会话视图、音频专属评估、agent experiments（「带追踪的 Postman」）等新功能，并强调演讲不是产品推销。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]] — 作为被讨论公司
+- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]] — 作为被讨论公司
 
 ## ③ 关联
 

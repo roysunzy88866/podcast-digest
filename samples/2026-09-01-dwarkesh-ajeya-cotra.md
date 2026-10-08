@@ -176,7 +176,7 @@ Ajaya 最后指出，这件事可能"是我们关于失控所能得到的最清�
 
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)</span>
-- [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:Artifactory、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:Artifactory、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

@@ -85,7 +85,7 @@ unlisted: true
 
 ![[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad#^q11]]
 
-![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q5]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q27]]
 
 ## ② 出现在这些集
 

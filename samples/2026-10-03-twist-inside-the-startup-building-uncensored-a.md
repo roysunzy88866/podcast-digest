@@ -195,7 +195,7 @@ Jason 的判断是：
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、红队测试 (red teaming)</span>
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同概念:前沿模型 (frontier models)、开源模型 (open source models)</span>
-- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变]]<span class="pd-rz">同概念:护栏 (guardrails)、红队测试 (red teaming)</span>
+- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|当网络攻击从人类速度变成机器速度，防御也必须自动化]]<span class="pd-rz">同概念:护栏 (guardrails)、红队测试 (red teaming)</span>
 
 </div>
 <div class="pd-ex">

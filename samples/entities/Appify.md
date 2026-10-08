@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(00:24起):本集说演讲者 Jan Cern 是 Apify 的创始人兼 CEO，本集发布的 MCPC 与 Connector Evals 是他们的作品。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(00:24起):本集说演讲者 Jan Cern 是 Apify 的创始人兼 CEO，本集发布的 MCPC 与 Connector Evals 是他们的作品。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为被讨论公司
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为被讨论公司
 
 ## ③ 关联
 

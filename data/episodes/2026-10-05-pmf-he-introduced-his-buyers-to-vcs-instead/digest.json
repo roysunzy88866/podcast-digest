@@ -1,7 +1,7 @@
 {
-  "title_zh": "连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战",
-  "tldr": "Baselayer CEO Jonathan Awad 讲述二次创业、靠欺诈数据联盟撬动大金融机构，并拆解冷启动外联、赢得企业买家信任的具体打法。",
-  "digest_md": "这一集聊的是 B2B 创业公司怎么从零拿下大企业客户。主角 Jonathan Awad 是 Baselayer 的联合创始人兼 CEO，公司刚融了 2000 万美元 A 轮——而这家公司 2024 年 4 月才上线第一个产品，团队只有 30 个人，却做到了八位数的收入。他最反直觉的主张是：早期客户买的根本不是你的产品，买的是你这个人；想签下大公司，先别急着讲产品，先想办法对买家「有价值」。\n\n## PMF 的那一刻：连续 20 单，一单没丢\n\n「我认为在证据量没到压倒性之前，你不能正当地说自己找到了 product market fit。」Jonathan 说，他们大概就在一年之内——次年初——达到了 product market fit，而且他不觉得在那之前能正当地下这个结论。这种速度也体现在他们对客户的响应上：他给自己定了内部 SLA，必须在 20 分钟内通过 Slack 和邮件回复客户，而他本人常常冲着一两分钟去。最初那批真正的前几个客户对他们超级耐心、给了大量反馈，也看到了他们动作有多快。[07:15 Jonathan Awad]\n\n他把这归功于两件事：一是 CTO Tim 和工程团队把产品做得足够耐用、企业级可用；二是他定了一条「内部 SLA——客户在 Slack 和邮件里的消息，20 分钟内必须回复」，他自己冲着一两分钟去。这来自他的投行背景：「在投行这太正常了。SLA 20 分钟，SLA 两分钟。怎么，你在睡觉？谁允许你睡觉了？」[09:55 Jonathan Awad] 主持人 Pablo 补充了一个观点：客户成功是所有增长手段里最在你掌控之内的——每个人都能做到 20 分钟回复，但它对留存和转介绍的影响是巨大的。Jonathan 的公式是：期望与现实之间的差值就是「幸福差值」，而且「你回复得越快，你能蒙混过关的就越多」——一小时内回一句「收到了，我们在处理」就够了，隔一天再这么说就没人买账。[09:45 Jonathan Awad]\n\n## 起点：十五年金融老兵，二次创业\n\nJonathan 在金融服务领域干了 15 年：JP Morgan、UBS、Lazard 做并购，然后第一次创业做房地产碎片化交易——给大楼「IPO」，做成四栋、融了约 3000 万美元，还持牌做成了全世界仅 12 家之一的另类交易系统（ATS，类似交易所但监管口径不同的交易平台）。后来 COVID 摧毁商业地产，公司在谈 B 轮时把公司卖了。他是首席投资官而非 CEO，于是成了「首次当 CEO 的二次创业者」。\n\n> 【背景】CEO 和其他高管的区别：Jonathan 引用 Elon Musk 的说法——CEO 的工作就是处理所有问题，事情顺利的部分交给优秀的人做得更好就行。他和 Tim 把公司一刀切两半：工程、产品、设计全归 Tim（Jonathan 连 GitHub 权限都没有），其余一切归他。\n\n2021 年他在一家身份与反欺诈公司做销售，八个月签了 95 单、一年经手四五百单，客户反复问「能不能做这个」，他写了 PRD 提回公司却被驳回。2023 年初他裸辞——当时连点子都没有——追着 Tim 说干就干。Tim 的条件是：你至少融到 300 万美元我就加入。\n\n## 点子：欺诈数据联盟\n\n他们打给了七八十个金融圈朋友问「你们最需要什么」，共同答案是同一件「不可能的事」：欺诈联盟（fraud consortium）。逻辑很简单——你去 Brex 申请账户因欺诈被封，Brex 不会告诉 Ramp，你就换个地方继续。每家机构手里都有欺诈名单（不含个人可识别信息，法律上可以共享），但彼此绝不互通。Baselayer 的想法是像给 AI 公司供标注数据那样，把上百家机构的欺诈数据汇总、给企业打标签，每一家都因此受益。Tim 承诺：给我专有的标注数据，我们就做出市场上最好的风险模型。\n\n关于别人「为什么要第一个交数据」，他的解法是：**凑一批人同时上线，就没有谁是第一个**。他们一次上线了五个产品、约 15 家客户，没人需要当出头鸟。\n\n## 融资插曲：SVB 崩盘那一周\n\n他按教科书流程提前一个月排好了 75 家基金的会议，按周分段。结果第一周周四，硅谷银行（SVB）崩了——所有风投和被投公司的钱都存在那里。第二、三周 40% 的会议被取消。「我想，我是不是刚用光了我整个人脉网络，还告诉了所有人我在融资？」[28:50 Jonathan Awad] 那个周六他经历了人生第一次恐慌发作。投资人 Anamitra 自己的钱还困在 SVB 和第一共和银行里，仍然决定领投。「不，我们领投这一轮。我不在乎。我们会想办法的。」三周推进下来，陆续拿到了一些 commit。\n\n> 【背景】按闸门要求，原稿中「约 1500 万美元意向、取了其中 400 万」为编造数字已移除；原文只提到拿到了一些 commit、Anamitra 决定领投。\n\n## 怎么搞定数据共享？先疯狂外联，再「给」\n\n要撬动上百家机构，Jonathan 的做法就是把外联量拉到夸张的程度：「我一天发出成百上千条消息……人们完全低估了这个规模。」[30:39 Jonathan Awad] 他的原则：**你不能开口就要东西**——你得先跟人叙旧、对他有用，人类天生互惠，之后自然会帮你。具体做法包括：随身备着三四张市场地图（行业玩家全景图）随时发人、办活动把买家和 VC、高盛合伙人、LVMH 高管这类「认识一下很酷的人」聚在一起、帮人找工作、甚至介绍对象。\n\n**他最得意的 hack（做过约 40 次）**：和买家聊深之后问「你有没有想过当创始人？」大部分企业买家都有这个心结，他就把认识的 VC 引荐给他们——「每当他们说愿意，我们 100% 会合作。从来没有失败过。」[46:45 Jonathan Awad] 心理机制也很妙：对方从你这拿了多个 VC 引荐，就会希望你在圈内对他是正面评价，反而更要把你的产品用好、买下来。\n\n## 漏斗底部的信任：客户在冒被开除的风险\n\n他提醒：企业买家买你的东西「80%、90% 的情况下得不到报酬」——不升职、不加钱，出了灾难性问题还可能被开除。[45:26 Jonathan Awad] 所以早期人们买的是创始人。你要做的就是在产品之外持续给予、不求回报：「你付出得越多，你得到的就越多。从某人那里得到东西的最好方式，就是给他们比你想要的十倍还多的东西。」[52:31 Jonathan Awad]\n\n他也公开说了一句很多人只敢私下说的：卖网络效应类产品时，「如果你不愿意稍微美化一下真相，你永远不会成功」——没人用过你的产品，就没人会用你的产品，这是个死循环。[56:18 Jonathan Awad] 但界限分明：**对客户可以模糊（比如暗示「我们在和 Stripe 谈」），对投资人绝对不行**——点名一个没投你的投资人，圈内传话极快，会反咬你一口，他的朋友们栽过这个跟头。\n\n## 状态管理：swag selling\n\n最后是他的心态工具：公寓里到处贴着便利贴写自我肯定的话。「如果你没有超级积极的自我对话，你做不成。」[59:36 Jonathan Awad] 他还自创了「swag selling」（Sell Without Acting Greedy，不显得贪婪地销售）：我们做的东西很棒，你想要就好，不想要我也不在乎，别人都在用、我们忙得很——这种不卑不亢的气场恰恰是撑过销售每一天所必需的。\n\n## 本集带走\n\n- **回复速度就是竞争力**：给客户定 20 分钟 SLA、自己冲一两分钟；回得越快，一句「收到了，在处理」就够，还能大幅提升留存和转介绍。\n- **PMF 要等压倒性证据**：不是一两个客户说好，而是像连续赢 20 单这种「无法否认」的证据量。\n- **网络型产品冷启动**：凑 15-20 家机构同时上线，没人当第一个；顺手问「你们还想要什么」，一次带上五个产品。\n- **外联做量 + 先给后要**：每天成百上千条消息；不开口要东西，先发市场地图、做引荐、帮找工作，互惠会自己回来。\n- **最快的信任 hack**：问买家「想不想当创始人」，愿意的话引荐 VC 给他——Jonathan 做了约 40 次，没失败过一次。\n- **撒谎红线**：对客户可以合理模糊「谁在用」，对投资人绝对不许点名未落定的投资方。",
+  "title_zh": "20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人",
+  "tldr": "Baselayer 联合创始人兼 CEO Jonathan Awad 讲述如何用“疯狂给出去”的方法拿下连续20笔订单，并在硅谷银行倒闭当周完成融资。",
+  "digest_md": "金融科技公司 Baselayer 的联合创始人 Jonathan Awad 创业约3年，刚完成2000万美元的 A 轮融资，团队只有30人。他的方法说出来简单到近乎笨拙：拼命认识人、拼命给人好处，然后等回报自己回来。以下是这次访谈里最值得听的部分。\n\n## 产品市场契合的那一刻：连赢20单\n\nJonathan 判断产品成立的时刻很具体：他和团队翻看客户管理系统时发现，连续赢了 20 单、一单没输，这大概是在最初的 20、30 单之后。早期的一些单子可能没那么可复制，但之后就是一单接一单地拿下，不管对手是谁、场景怎么变，全都赢了。而且客户都不小——从五位数做到六位数，前 50 个客户里就有一笔 7 位数的大单，来自全球上市金融科技巨头、美国乃至世界最大的 fintech 之一 FIS。\n\n他的另一个硬指标：公司至今只流失过一个客户。\n\n## 客户凭什么信你？20分钟必须回复\n\nJonathan 有条内部规矩：客户在 Slack 和邮件上的问题，必须在20分钟内回应。这来自他做投资银行的经历——投行里两分钟回复是常态。\n\n他的逻辑是，**客户满意度等于现实减去预期**。哪怕还没解决问题，一句“收到了，马上处理”就足够让人安心。而且回得越快，能说的话越少、得到的宽容越多：一分钟后说“我们在处理”完全成立，拖一天再说这话就招人烦了 [09:45 Jonathan Awad]。\n\n## 他是怎么起步的？先辞职，再想做什么\n\nJonathan 在金融行业做了15年，先后待过 JP Morgan、UBS、Lazard，也创过业——那家公司把4栋楼“上市”成了可交易的证券，融资约3000万美元，后来在新冠冲击商业地产后卖掉。\n\n2021年前后，他在一家身份与反欺诈公司做销售，8个月签了约95单，接触了几百个客户，攒下大量人脉和需求。他想把客户提的想法在公司内部推动，被反复拒绝后，他决定自己干，2023年初辞职，那时候连做什么都还没定。\n\n他的联合创始人、CTO Tim 的加入也颇为戏剧性：两人经共同朋友介绍，在出租车上聊创业聊得投缘。Jonathan 追了一年后打电话说“我把工作辞了，你也辞吧”，Tim 当时正陪父母在开曼群岛度假，他妈妈说“绝对不行，你根本不了解这个人”。Tim 的妥协条件是：你至少融到300万美元，我就加入 [21:12 Jonathan Awad]。\n\n## 融资撞上硅谷银行倒闭\n\n2022年市场已经很差，他们2023年才开始融资：安排了75家机构，把会议提前一个月排好、按周分组。结果第一周的星期四，硅谷银行崩了。\n\n那一夜所有通过硅谷银行的转账中断，紧接着 First Republic 也出事，第二、三周的会被取消了40%。Jonathan 在那个周六经历了人生第一次恐慌发作——他刚把自己全部人脉都动员起来，却撞上二十年一遇的金融危机。\n\n但总有投资人敢下注。Anamitra（A4 Capital）周五见面、周日表态：“我们领投这一轮，不管怎样都能解决。”\n\n## 产品是反欺诈联盟，冷启动怎么破？\n\nBaselayer 的核心想法来自客户的“刁难”：做一个反欺诈联盟。欺诈者在 Brex 被封号，转身就去 Ramp 继续行骗，因为各家机构互不通气，向政府提交的可疑活动报告（SARS）去年有500万份，只有4%被实际处理 [24:14 Jonathan Awad]。\n\n把上百家银行、放贷机构、支付公司的欺诈数据（不含个人隐私信息）汇总起来给机器学习建模，Tim 的判断是：**给他独有的标注数据，就能做出市场上最好的风控模型**。\n\n==难题是谁愿意第一个交出数据==。解法有三步：\n\n第一，他做了几套 Figma 假界面，当成真产品演示给客户听反馈。\n\n第二，同时拉上一群人，“没有人是第一个”——最后一次性带着5个产品、约15个客户一起上线 [55:33 Jonathan Awad]。\n\n第三，他承认对客户要“适度修饰事实”：“如果你不愿意稍微润色一下真相，你永远不会成功。”暗示在跟 Stripe 之类的大公司谈，没人真去核实。但他划了条红线：对投资人绝对不能这么干，投资人圈子互通消息，报名字拉虎皮会立刻反噬 [58:05 Jonathan Awad]。\n\n## 拓客的笨功夫：一天几百条消息\n\nJonathan 不太依赖冷邮件，他的做法是回到所有人脉——包括只有一面之缘、隔了两层关系的人。核心原则是：不能一上来就要东西，得先叙旧、先提供价值。人类天生讲互惠。\n\n他随身备着三四张行业市场地图，随时复制粘贴发给对方，对方往往觉得特别有用。这个过程有漫长的“加载期”，所以今天就得开始发第一条消息——时钟总要从某刻开始走 [32:33 Jonathan Awad]。\n\n代价是恐怖的工作量：他翻出自己的日历，光开会就有每周40到60小时，还不算准备和跟进。他自称一周工作100小时，靠咖啡因和药物撑着，睡6小时，健身5天，其他一切都砍掉了。他的原话是：如果你没熬过通宵，说明你的盘子还不够满。\n\n## 最狠的一招：把买家介绍给投资人\n\n卖大企业产品有个死结：买家买对了不一定升职，买错了可能被开除，凭什么赌你一个初创公司？\n\nJonathan 发现，很多企业的决策者心里都藏着一个创业梦。他只问一句：有没有想过当创始人？然后把认识的 VC 介绍给他们。\n\n他做了大约40次，只要对方说“好”，之后100%会跟他合作，无一例外 [48:44 Jonathan Awad]。而且回报是复利的：他帮过的人换了工作、去了新公司，还会回头找他——那些 VC 以后要了解这个人，也可能来问 Jonathan 的意见，所以对方反而更需要维护和他的关系。\n\n他甚至因此成了几家基金的项目的“星探”，自己也投了其中一些。他的总结是：**先付出，别指望回报，想要什么就先给出10倍的价值**。\n\n## 本集带走\n\n- 产品市场契合可以很具体：连赢20单、前50个客户里出现7位数订单，比任何感觉都可靠。\n- 20分钟的回复时限是每个公司都能做到的事，也是客户留存的杠杆：回得越快，得到的宽容越多。\n- 网络型产品冷启动的解法是“没人第一个”：攒够一群客户和多个产品，一起上线。\n- 最强的销售技巧是先付出——介绍 VC、介绍工作、发行业地图，做到40次成交率100%。\n- 对客户可以适度修饰事实，对投资人绝对不行，这是两条完全不同的红线。",
   "quotes": [
     {
       "en": "People in the beginning are buying the founder. They're buying you.",
@@ -10,9 +10,9 @@
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence.",
-      "zh": "我认为在证据量没到压倒性之前，你不能正当地感觉自己达到了 product market fit。",
-      "timestamp": "08:06",
+      "en": "The badge of honor is like, whoa, you have 20 people and you're doing all this.",
+      "zh": "荣誉勋章变成了，哇，你只有 20 个人却能做成这一切。",
+      "timestamp": "03:03",
       "speaker": "Jonathan Awad"
     },
     {
@@ -22,39 +22,45 @@
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "And you take that punch in the face with a smile because feedback is a gift.",
-      "zh": "你带着微笑挨那一记迎面拳，因为反馈是礼物。",
-      "timestamp": "09:29",
+      "en": "the faster you reply, the more you can get away with what you just said.",
+      "zh": "你回复得越快，你就越能像你刚说的那样“蒙混过关”。",
+      "timestamp": "09:38",
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "You can't just ask for something. That's the problem. You have to catch up with them. And be useful to them. And be valuable to them.",
-      "zh": "你不能只是开口要东西。问题就在这。你得和他们叙旧。对他们有用。对他们有价值。",
-      "timestamp": "32:00",
+      "en": "every single problem is your problem if you're a CEO, which means you're always waking up with that heart, like beating out of your chest because inevitably something's not working.",
+      "zh": "如果你是 CEO，每一个问题都是你的问题，这意味着你每天醒来心都像要跳出胸口，因为总有什么东西不灵了。",
+      "timestamp": "15:33",
+      "speaker": "Pablo Srugo"
+    },
+    {
+      "en": "You can always raise more money. You cannot raise more time.",
+      "zh": "你总能融到更多钱。你无法融到更多时间。",
+      "timestamp": "35:10",
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "if we don't work with extreme urgency, we have zero chance of accomplishing X goal.",
-      "zh": "如果我们不带着极端的紧迫感工作，我们实现 X 目标的机会是零。",
-      "timestamp": "35:20",
-      "speaker": "Jonathan Awad"
-    },
-    {
-      "en": "If you're not doing any all-nighters, you don't have enough on your plate.",
-      "zh": "如果你一个通宵都没熬过，那说明你手头的事情不够多。",
+      "en": "If you're not doing any all-nighters, you don't have enough on your plate. You're not loading yourself up with enough people to get back to, things to respond to, things to build.",
+      "zh": "如果你一个通宵都没熬过，那说明你手头的事情不够多。你没有给自己安排足够多要回复的人、要响应的事情、要构建的东西。",
       "timestamp": "40:42",
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "80% of the time, 90% of the time, they're not going to get paid to buy your thing.",
-      "zh": "80% 的时间、90% 的时间，他们买你的东西是得不到报酬的。",
-      "timestamp": "45:43",
+      "en": "CEO's job is to build and sustain momentum.",
+      "zh": "CEO 的工作是建立并保持动量。",
+      "timestamp": "42:45",
       "speaker": "Jonathan Awad"
     },
     {
-      "en": "If you're not willing to massage the truth a little, you will never succeed.",
-      "zh": "如果你不愿意稍微美化一下真相，你永远不会成功。",
-      "timestamp": "56:33",
+      "en": "People in the beginning are buying the founder. They're buying you. So if you're just only talking about your product,",
+      "zh": "一开始人们买的是创始人。他们买的是你。所以如果你只是只谈你的产品，",
+      "timestamp": "46:37",
+      "speaker": "Jonathan Awad"
+    },
+    {
+      "en": "You have to just give and expect nothing. And that's the hack, if that makes sense. You just keep giving, giving, giving, giving, giving.",
+      "zh": "你就只管付出，不求回报。这就是那个技巧，如果你能理解的话。你就是不断地给予、给予、给予、给予、给予。",
+      "timestamp": "52:31",
       "speaker": "Jonathan Awad"
     },
     {
@@ -62,9 +68,22 @@
       "zh": "如果你没有超级积极的自我对话，你做不成。",
       "timestamp": "59:51",
       "speaker": "Jonathan Awad"
+    },
+    {
+      "en": "I came up with this concept called swag selling, which is sell without acting greedy, S-W-A-G, but with swag and with confidence.",
+      "zh": "我提出了一个叫 swag selling 的概念，就是不表现贪婪地销售（Sell Without Acting Greedy），S-W-A-G，但同时带着气场和自信。",
+      "timestamp": "60:48",
+      "speaker": "Jonathan Awad"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Jonathan Awad",
+      "en": "we realized that we had just won the last 20 deals in a row.",
+      "zh": "我们意识到我们刚刚连续赢了最近 20 单。"
+    },
     {
       "timestamp": "00:00",
       "speaker": "Jonathan Awad",
@@ -72,16 +91,28 @@
       "zh": "一开始人们买的是创始人。他们买的是你。"
     },
     {
-      "timestamp": "07:15",
+      "timestamp": "03:17",
       "speaker": "Jonathan Awad",
-      "en": "I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence.",
-      "zh": "我认为在证据量没到压倒性之前，你不能正当地感觉自己达到了 product market fit。"
+      "en": "The badge of honor is like, whoa, you have 20 people and you're doing all this.",
+      "zh": "荣誉勋章变成了，哇，你只有 20 个人却能做成这一切。"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Jonathan Awad",
+      "en": "We're 30 people. We lost eight figures in revenue with 20 people.",
+      "zh": "我们 30 人。我们用 20 个人做到了八位数的收入。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Jonathan Awad",
+      "en": "I have an internal SLA of we need to get back to customers on Slack and email in under 20 minutes.",
+      "zh": "我有一个内部的 SLA：我们必须在 20 分钟内通过 Slack 和邮件回复客户。"
     },
     {
       "timestamp": "08:15",
       "speaker": "Jonathan Awad",
-      "en": "it's financial services, right? So financial services, they're not going to make a one month, two month decision, two week decision.",
-      "zh": "这是金融服务，对吧？金融服务不会做一个一两个月的决定、两周的决定。"
+      "en": "I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence.",
+      "zh": "我认为在没有这种压倒性的证据量之前，你真的不能正当地感觉自己达到了 product market fit。"
     },
     {
       "timestamp": "09:04",
@@ -92,59 +123,53 @@
     {
       "timestamp": "09:25",
       "speaker": "Jonathan Awad",
-      "en": "And you take that punch in the face with a smile because feedback is a gift.",
-      "zh": "你带着微笑挨那一记迎面拳，因为反馈是礼物。"
+      "en": "And the faster you reply, the more you can get away with what you just said.",
+      "zh": "你回复得越快，你就越能像你刚说的那样“蒙混过关”。"
     },
     {
       "timestamp": "13:44",
       "speaker": "Jonathan Awad",
-      "en": "the CEO's job is to deal with all of the problems.",
-      "zh": "CEO 的工作就是处理所有的问题。"
+      "en": "I literally don't have access to our GitHub. I think that's a hilarious thing to say as a CEO.",
+      "zh": "我甚至没有我们 GitHub 的访问权限。作为一个 CEO，我觉得这么说很搞笑。"
     },
     {
-      "timestamp": "23:00",
-      "speaker": "Jonathan Awad",
-      "en": "And there's this common thread of, well, here's this extremely difficult thing that I don't think you can do. But if you did, I'm down. And that was a fraud consortium.",
-      "zh": "有一个共同的主线：好吧，这里有一件极其困难的事，我觉得你做不到。但如果你做到了，我就加入。那就是欺诈联盟。"
+      "timestamp": "15:18",
+      "speaker": "Pablo Srugo",
+      "en": "every single problem is your problem if you're a CEO, which means you're always waking up with that heart, like beating out of your chest because inevitably something's not working.",
+      "zh": "如果你是 CEO，每一个问题都是你的问题，这意味着你每天醒来心都像要跳出胸口，因为总有什么东西不灵了。"
     },
     {
-      "timestamp": "28:50",
+      "timestamp": "21:32",
       "speaker": "Jonathan Awad",
-      "en": "My first panic attack ever was that Saturday.",
-      "zh": "我人生中第一次恐慌发作就是那个周六。"
-    },
-    {
-      "timestamp": "30:39",
-      "speaker": "Jonathan Awad",
-      "en": "You can't just ask for something. That's the problem. You have to catch up with them. And be useful to them. And be valuable to them.",
-      "zh": "你不能只是开口要东西。问题就在这。你得和他们叙旧。对他们有用。对他们有价值。"
+      "en": "In May of 2022, everything dropped, everything dropped.",
+      "zh": "2022 年 5 月，一切都跌了，一切都跌了。"
     },
     {
       "timestamp": "35:30",
       "speaker": "Jonathan Awad",
-      "en": "if we don't work with extreme urgency, we have zero chance of accomplishing X goal.",
-      "zh": "如果我们不带着极端的紧迫感工作，我们实现 X 目标的机会是零。"
+      "en": "You can always raise more money. You cannot raise more time.",
+      "zh": "你总能融到更多钱。你无法融到更多时间。"
     },
     {
       "timestamp": "40:41",
       "speaker": "Jonathan Awad",
-      "en": "If you're not doing any all-nighters, you don't have enough on your plate.",
-      "zh": "如果你一个通宵都没熬过，那说明你手头的事情不够多。"
+      "en": "If you're not doing any all-nighters, you don't have enough on your plate. You're not loading yourself up with enough people to get back to, things to respond to, things to build.",
+      "zh": "如果你一个通宵都没熬过，那说明你手头的事情不够多。你没有给自己安排足够多要回复的人、要响应的事情、要构建的东西。"
     },
     {
       "timestamp": "42:45",
       "speaker": "Jonathan Awad",
-      "en": "He just knows that urgency is everything. Time is everything.",
-      "zh": "他就是知道紧迫性就是一切。时间就是一切。"
+      "en": "CEO's job is to build and sustain momentum.",
+      "zh": "CEO 的工作是建立并保持动量。"
     },
     {
-      "timestamp": "45:26",
+      "timestamp": "46:29",
       "speaker": "Jonathan Awad",
-      "en": "80% of the time, 90% of the time, they're not going to get paid to buy your thing.",
-      "zh": "80% 的时间、90% 的时间，他们买你的东西是得不到报酬的。"
+      "en": "People in the beginning are buying the founder. They're buying you. So if you're just only talking about your product,",
+      "zh": "一开始人们买的是创始人。他们买的是你。所以如果你只是只谈你的产品，"
     },
     {
-      "timestamp": "46:45",
+      "timestamp": "48:57",
       "speaker": "Jonathan Awad",
       "en": "And I'm telling you, whenever they say yes, it's 100% of the time we work together. It's never failed. Not one time.",
       "zh": "我告诉你，每当他们说愿意，我们 100% 的情况下都会合作。从来没有失败过。一次都没有。"
@@ -152,14 +177,20 @@
     {
       "timestamp": "52:31",
       "speaker": "Jonathan Awad",
-      "en": "You have to just give and expect nothing. And that's the hack, if that makes sense.",
-      "zh": "你就只管付出，不求回报。这就是那个技巧，如果你能理解的话。"
+      "en": "You have to just give and expect nothing. And that's the hack, if that makes sense. You just keep giving, giving, giving, giving, giving.",
+      "zh": "你就只管付出，不求回报。这就是那个技巧，如果你能理解的话。你就是不断地给予、给予、给予、给予、给予。"
     },
     {
       "timestamp": "56:18",
       "speaker": "Jonathan Awad",
       "en": "If you're not willing to massage the truth a little, you will never succeed.",
       "zh": "如果你不愿意稍微美化一下真相，你永远不会成功。"
+    },
+    {
+      "timestamp": "56:18",
+      "speaker": "Jonathan Awad",
+      "en": "So if the answer is a catch-22, circular loop, you will never get out of the loop.",
+      "zh": "所以如果答案是一个第二十二条军规式的循环，你永远走不出这个循环。"
     },
     {
       "timestamp": "59:36",
@@ -170,8 +201,8 @@
     {
       "timestamp": "60:48",
       "speaker": "Jonathan Awad",
-      "en": "I came up with this concept called swag selling, which is sell without acting greedy",
-      "zh": "我提出了一个叫 swag selling 的概念，就是不表现贪婪地销售。"
+      "en": "I came up with this concept called swag selling, which is sell without acting greedy, S-W-A-G, but with swag and with confidence.",
+      "zh": "我提出了一个叫 swag selling 的概念，就是不表现贪婪地销售（Sell Without Acting Greedy），S-W-A-G，但同时带着气场和自信。"
     }
   ],
   "voice_script": "今天这期,咱们聊一家很特别的公司,和一个很会卖东西的人。\n\n主角叫 Jonathan Awad,是 Baselayer 的联合创始人兼 CEO。这家公司什么水平呢?2024 年 4 月才上线第一个产品,团队只有 30 个人,收入已经做到八位数,最近还融了 2000 万美元的 A 轮。Jonathan 本人在金融圈干了 15 年,在 JP Morgan、UBS、Lazard 做过并购,还做成过全世界仅 12 家之一的另类交易系统。所以这不是一个新手在讲理论,是一个老兵在讲实战——讲的 就是 B2B 创业公司怎么从零拿下大企业客户。\n\n先说说这个点子是怎么来的。2021 年,Jonathan 在一家身份与反欺诈公司做销售,八个月签了 95 单,客户反复问他能不能做某个新东西,写成需求提回公司,却被驳回了。到 2023 年初,干脆裸辞——当时连点子都没有——拉上老搭档 Tim 一起干。Tim 的条件很简单:你至少融到 300 万美元,我就加入。\n\n那做什么呢?他们打给七八十个金融圈的朋友,就问一个问题:你们最需要什么?答案出奇地一致,全指向同一件\"不可能的事\"——欺诈数据联盟。逻辑是这样的:你去 Brex 申请账户,因为欺诈被封了,Brex 不会告诉 Ramp,你就换个地方继续骗。每家机构手里都有欺诈名单——不含个人可识别信息,法律上可以共享——但彼此绝不互通。Baselayer 的想法,就是把上百家机构的欺诈数据汇总起来,给企业打标签,每一家都因此受益。Tim 放了句话:给我专有的标注数据,我们就做出市场上最好的风险模型。\n\n但这里有个死结:别人凭什么第一个把数据交给你?解法特别聪明——凑一批人同时上线,就没有谁是第一个。结果一次上线了五个产品、大约 15 家客户,谁都不用当出头鸟。\n\n产品有了,客户从哪来?Jonathan 的做法是把外联量拉到夸张的程度:一天发出成百上千条消息。用他的话说,人们完全低估了这个规模。而且有 条铁原则:你不能开口就要东西。你得先跟人叙旧,对他有用,对他有价值——人类天生互惠,之后自然会帮你。具体怎么给呢?随身备着三四张市场地图,随时发人;办活动,把买家和 VC、高盛合伙人这类\"认识一下很酷的人\"聚在一起;帮人找工作,甚至介绍对象。\n\n还有一个最得意的招数,做过大约 40 次:跟买家聊深之后,问一句——你有没有想过当创始人?大部分企业买家心里都有这个结,愿意的话,就把认识的 VC 引荐给他。Jonathan 说,每当对方说愿意,100% 会合作,从来没失败过。这背后的心理机制也很妙:对方从你这儿拿了多个 VC 引荐,自然希望你 在圈子里对他评价是正面的,反而更要把你的产品用好、买下来。\n\n说到这儿,就得讲到企业销售最根本的一点:信任。企业买家买你的东西,80%、90% 的情况下是得不到报酬的——不升职、不加钱,出了大问题还可能被开除。所以早期人们买的根本不是产品,买的是创始人,买的是你这个人。你要做的,就是在产品之外持续给予、不求回报。Jonathan 有句话说得很有劲:从某人那里得到东西的最好方式,就是给他们比你想要的十倍还多的东西。\n\n那产品本身怎么站稳脚跟?他们的 PMF——就是产品和市场匹配——来得很快,大概一年之内就到了。但 Jonathan 对此有个很严格的标准:在证据量没到压倒性之前,你不能正当地说自己找到了 product market fit。什么叫压倒性证据?连续赢下 20 单,一单没丢,这就是。而支撑这个速度的,一是 Tim 和工程团队把产品做得足够耐用,二是一条内部 SLA——客户在 Slack 和邮件里的消息,20 分钟内必须回复,而 Jonathan 本人常常冲着一两分钟去。这条规矩来自投行背景:在投行,20 分钟回复太正常了,两分钟也常见——怎么,你在睡觉?谁允许你睡觉了?主持人 Pablo 补了一句:客户成功是所有增长手段里最在你掌控之内的,每个人都能做到 20 分钟回复,但对留存和转介绍的影响巨大。Jonathan 还有 个公式:期望与现实之间的差值,就是幸福差值——你回复得越快,你能蒙混过关的就越多。一小时内回一句\"收到了,我们在处理\"就够了,隔一天再这么说,就没人买账了。\n\n当然,这条路也不是一帆风顺。融资的时候,Jonathan 按教科书流程提前一个月排好了 75 家基金的会议。结果第一周的周四,硅谷银行崩了——所有风投和被投公司的钱都存在那里,第二、三周 40% 的会议被取消。那个周六,Jonathan 经历了人生第一次恐慌发作,心想:我是不是刚用光了我整个人脉网络,还告诉了所有人我在融资?好在投资人 Anamitra 自己的钱还困在银行里,仍然决定领投:不,我们领投这一轮,我不在乎,我们会想办法的。三周推进下来,陆续拿到了一些 commit。\n\n聊到这儿,还有两件事值得单独说说。一是说话的分寸。Jonathan 公开讲了一句很多人只敢私下说的话:卖网络效应类产品时,如果你不愿意稍微美化一下真相,你永远不会成功——没人用过你的产品,就没人会用你的产品,这是个死循环。但界限必须分明:对客户可以合理模糊,比如暗示\"我们在和 Stripe 谈\";对投资人绝对不行,点名一个没投你的投资人,圈内传话极快,会反咬你一口,身边的朋友就栽过这个跟头。\n\n二是心态。Jonathan 的公寓里到处贴着便利贴,写自我肯定的话——如果 没有超级积极的自我对话,你做不成。还自创了一个词,叫 swag selling,直译就是\"不显得贪婪地销售\":我们做的东西很棒,你想要就好,不想要我也不在乎,别人都在用、我们忙得很。这种不卑不亢的气场,恰恰是撑过销售每一天所必需的。\n\n最后收在 Jonathan 自己的一句话上,也是这一集最核心的一课:你付出得越多,你得到的就越多——想签下大公司,先别急着讲产品,先想办法对买家有价值,因为一开始,人们买的不是你的产品,买的是你。"

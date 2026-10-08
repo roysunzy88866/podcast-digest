@@ -1,12 +1,12 @@
 ---
-title: 首席 AI 官生存指南：科学家、架构师、教练
+title: 首席AI官到底在干什么？一位从业者的亲历拆解
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "22:03"
 type: episode
 cover: "#64748b"
-description: WSO2 首席 AI 官 Rania 分享这个新职位的真实工作内容：如何拆解职责、衡量什么、以及为什么它因公司和人而天差地别。
+description: WSO2 首席AI官 Rania Khalaf 结合近两年亲身经历，讲透这个新角色的三种面目与衡量之道。
 guests: ["[[Rania Khalaf]]"]
 companies: ["[[WSO2]]"]
 concepts: ["[[首席 AI 官]]", "[[智能体]]", "[[MCP 服务器]]", "[[AI 网关]]", "[[智能体身份]]"]
@@ -16,18 +16,18 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect#post","headline":"首席 AI 官生存指南：科学家、架构师、教练","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect","mainEntityOfPage":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect","description":"WSO2 首席 AI 官 Rania 分享这个新职位的真实工作内容：如何拆解职责、衡量什么、以及为什么它因公司和人而天差地别。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Rania Khalaf"},{"@type":"Organization","name":"WSO2"},{"@type":"Thing","name":"首席 AI 官 (chief AI officer)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP 服务器 (MCP server)"},{"@type":"Thing","name":"AI 网关 (AI gateway)"},{"@type":"Thing","name":"智能体身份 (agent identity)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"首席 AI 官生存指南：科学家、架构师、教练","item":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect#post","headline":"首席AI官到底在干什么？一位从业者的亲历拆解","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect","mainEntityOfPage":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect","description":"WSO2 首席AI官 Rania Khalaf 结合近两年亲身经历，讲透这个新角色的三种面目与衡量之道。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Rania Khalaf"},{"@type":"Organization","name":"WSO2"},{"@type":"Thing","name":"首席 AI 官 (chief AI officer)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP 服务器 (MCP server)"},{"@type":"Thing","name":"AI 网关 (AI gateway)"},{"@type":"Thing","name":"智能体身份 (agent identity)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"首席AI官到底在干什么？一位从业者的亲历拆解","item":"https://talk.solomind.cc/2026-09-30-talks-the-chief-ai-officer-scientist-architect"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>首席 AI 官生存指南：科学家、架构师、教练</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>首席AI官到底在干什么？一位从业者的亲历拆解</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 首席 AI 官生存指南：科学家、架构师、教练
+# 首席AI官到底在干什么？一位从业者的亲历拆解
 
 <div class="pd-byl"><b>Rania Khalaf</b> · WSO2 首席 AI 官 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-09-30-talks-the-chief-ai-officer-scientist-architect.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以对于这种情况，你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者，对吧？</div><div class="a">— Rania Khalaf <button class="pd-ts" data-t="06:56" data-who="Rania Khalaf" data-en="So for that, you don't need deep AI knowledge, but you need to understand the business really well and be a very strong operator, right?" aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">这个职位的棘手之处在于：太好了，我有一位 AI 官，但 AI 无处不在，对吧？这有点像在说「数字化」，或者说是电力。</div><div class="a">— Rania Khalaf <button class="pd-ts" data-t="02:31" data-who="Rania Khalaf" data-en="So the tricky thing about this role is, like, it's so great, okay, I have an AI officer, but there's AI in everything, right? It's kind of like saying digital or, I don't know, electricity." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Rania Khalaf]]
@@ -36,165 +36,137 @@ jsonLd: |
 >
 > **概念** [[首席 AI 官]] · [[智能体]] · [[MCP 服务器]] · [[AI 网关]] · [[智能体身份]]
 
-这一集是一场关于「[[首席 AI 官|首席 AI 官]]」(Chief AI Officer)这个新职位的实战分享，讲者 Rania 在这个职位上干了将近两年、做过它的一些变体约五年，她此前在 IBM 研究院待了 20 年、管理全球研究 AI 组织的大约三分之一，现在在开源软件公司 [[WSO2|WSO2]] 任首席 AI 官。
+[[Rania Khalaf|Rania Khalaf]] 在 IBM Research 干了 20 年，带过全球研究部门里三分之一的 AI 组织。后来她去了一家生物技术公司做AI负责人，如今是开源软件公司 [[WSO2|WSO2]] 的首席AI官。
 
-她开场甩的第一个数据就把这个职位的爆发速度摆出来了：
+这个职位太新了，不同公司里干的事天差地别。她用一场演讲，把自己摸出来的门道讲了个明白。
 
-据她引用的 IBM 研究，设这个职位的公司 2024 年是 11%,之后一年是 26%,「现在」已经是 76%——相隔一年的几期研究，曲线陡得吓人。<button class="pd-ts" data-t="02:17" data-who="Rania" data-en="But the really interesting things is you see like even these IBM studies one year apart. So it was like 11% in 2024, 26% in 25, and now 76%. So the tricky thing about this role is, like, it's so great, okay, I have an AI officer, but there's AI in everything, right?" aria-label="回原文"></button>
+## 为什么说这个职位没法统一定义？
 
-但这个职位棘手就棘手在：AI 无处不在。
+Rania 开场就问听众：谁的公司有专门管 AI 的人？答案是少数。
 
-「这有点像在说数字化，或者说电力——它存在于一切事物之中，它可以成为很多东西，这可能会让人非常不知所措。」
+但麻烦在于，AI 就像当年的“数字化”或者电力，渗透在一切业务里。
 
-<button class="pd-ts" data-t="02:37" data-who="Rania" data-en="So the tricky thing about this role is, like, it's so great, okay, I have an AI officer, but there's AI in everything, right? It's kind of like saying digital or, I don't know, electricity." aria-label="回原文"></button> 所以她的核心经验是：必须有很强的自律，把它拆成三个重点领域。
+同一个头衔，可能是管预算的项目管理员，也可能是重塑公司战略的人。
 
-## 三个角色：科学家、架构师、教练
+到底干什么，取决于公司类型、AI 成熟度，以及坐在那个位置上的人本身——很多公司甚至是先看中人，再为这个人定职责。
 
-**科学家**——探索、实验、构建。Rania 的判断很坚决：
+## 科学家、架构师、教练：一个角色，三副面孔
 
-在技术移动得这么快的 AI 世界里，「你必须始终让你的团队中有一部分人在实验、了解新东西、尝试它们，并看看它们如何适配，我不认为有什么办法可以绕过这一点」。<button class="pd-ts" data-t="05:59" data-who="Rania" data-en="So for the scientists, like even at one set, you don't have to have a PhD, you're just exploring heavily. I do believe in this AI world that's moving so, so quickly, you have to always have some of your team experimenting and understanding what's new and trying it out and seeing how it fits, right?" aria-label="回原文"></button>
+Rania 的办法是把工作拆成三块。
 
-这个角色的另一端则是创造者-发明者，深入到发明新算法的层面。
+科学家是探索和实验。她坚持团队里永远要有人去试新东西，因为这个领域变化太快，“没有别的办法” <button class="pd-ts" data-t="06:10" data-who="嘉宾" data-en="I do believe in this AI world that's moving so, so quickly, you have to always have some of your team experimenting and understanding what's new and trying it out and seeing how it fits, right?" aria-label="回原文"></button>。
 
-**架构师**——也在构建，但更多做战略。
+下限是不需要博士学位的摸索，上限是真正的发明创造。
 
-这里有一个她自己都被惊讶到的发现：她收到过一封「面向首席 AI 高管的 AI 教育」的邮件，第一反应是「等等，什么？
+架构师是建东西加定战略。
 
-你不了解 AI 怎么得到这份工作的？」
+如果公司卖软件，你影响的是产品路线；如果不卖软件，你既要用 AI 省钱提效，也要用它开辟新的收入来源。
 
-<button class="pd-ts" data-t="06:34" data-who="Rania" data-en="And I'm like, wait, what? How do you get this job if you don't know about AI? And then I realized that there are some companies that they have someone in the role that really understands the business and they're really a steward." aria-label="回原文"></button> 后来她明白了：有些公司的首席 AI 官其实是个「管家」——管预算、给项目排优先级、分配资源、做项目管理、汇报结果。
+这个角色的跨度也大：一端是懂业务、管预算、排优先级的“管家”，不需要多深的 AI 功底；
 
-「你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者。」
+另一端是 Rania 自己这种，重塑整个公司的战略和产品。
 
-<button class="pd-ts" data-t="06:56" data-who="Rania" data-en="So they have a budget and they're trying to understand, you know, people propose projects and they're trying to understand which projects will bring enough value and they prioritize and they allocate budget and they project manage them and they report out, right?" aria-label="回原文"></button> 而另一端是她自己在做的事：塑造整个公司的战略，重新发明生产力方式、产品、战略和 go-to-market。
+教练是她入行时最意外的一块。她原以为靠技术说话，结果发现要花大量时间对内对外做布道——给员工讲、给客户讲、反复讲。
 
-**教练**——这个角色让她意外。「教练这个角色让我挺意外的。
+她现在大量时间在做客户的“可信顾问”：不推销产品，只聊对方有什么难题、她会怎么想，自家的东西不合适就推荐别家的 <button class="pd-ts" data-t="05:11" data-who="嘉宾" data-en="Well, while you fix it, I'll say a few more words. Right? So the conversation I have with them is more of a trusted advisor." aria-label="回原文"></button>。
 
-我忘了你真的必须花大量时间去布道、教育、分享、过度沟通你在做的事情」——不仅对员工，还对客户。<button class="pd-ts" data-t="04:19" data-who="Rania" data-en="I had spent 20 years in IBM Research, running about a third of the global research AI organization, and when I took my first job in this role, I forgot that you have to really spend a lot of time" aria-label="回原文"></button> 一个实操细节：
+> 【背景】WSO2 是一家有约 20 年历史的开源软件公司，年经常性收入约 1.5 亿美元，主业是 API 平台、集成平台、身份和访问管理，产品覆盖 90 多个国家。
 
-让员工自己去发现幻觉(模型一本正经编造事实的现象)这类问题，「你可以解释到你口干舌燥，但人们只有亲身经历过才会相信」。<button class="pd-ts" data-t="07:28" data-who="Rania" data-en="You're coaching the different teams, the employees about how to use things. You want them to discover for themselves things like hallucination, because you can explain until you're blue in the face, but people don't believe it until they experience it." aria-label="回原文"></button>
+## 同一个人，两份截然不同的工作
 
-公司 AI 成熟度越高，教练工作越向外——对客户、对社区。
+她讲了两段亲身经历作对比。
 
-她还用 Claude 和 Gemini 分析了这个职位上的人群简历和招聘帖，结果验证了：这个职位长什么样，真的取决于人本身。<button class="pd-ts" data-t="08:07" data-who="Rania" data-en="And these are some of the areas it found. So this validates that really it's the person. So the row is the type of persona and their skill set, and then the columns are the sliders." aria-label="回原文"></button>
+在剑桥地区那家做农业的生物技术独角兽，公司用 CRISPR 基因编辑改造玉米、大豆和小麦，让它们更高产、更省水。
 
-## 她自己的两段经历：同一个职位，两份完全不同的工作
+但验证一次基因编辑要花 10 年和大片土地，所以需要 AI 帮科学家提更好的假设。
 
-离开 IBM 后，她加入剑桥地区一家做农业的生物科技独角兽，用 CRISPR(一种精准修改基因的技术)改造玉米、大豆、小麦。
+她去了之后，公司看她“是个搞计算机的”，顺手把 IT、数据工程甚至网络安全都塞给了她——职责远远超出了“一起做 AI” <button class="pd-ts" data-t="09:19" data-who="嘉宾" data-en="So they're like, we're also going to give you IT, and please hire a CISO. And we had no data engineers. So that mandate grew very quickly, very far beyond the let's build AI together." aria-label="回原文"></button>。
 
-做基因实验要 10 年时间和大量土地来验证，所以「帮助科学家对要做什么编辑做出更好的假设」就成了 AI 进门的方式。<button class="pd-ts" data-t="08:57" data-who="Rania" data-en="So you needed methods to help the scientists make better hypothesis of what edits to make, right? So that was the way in the door for the AI and data part. And then when I got there, they were like, oh, Rania, you are like a computer person." aria-label="回原文"></button>
+那里的 AI 也不总是高精尖。科学家猜想玉米胚胎的大小能预测基因编辑的成败，但人工测量太贵。
 
-结果职责迅速膨胀——公司里没什么工程技术人员，IT 也交给了她，还要雇 CISO(首席安全官)。
+Rania 硕士学的是计算机视觉，一看：根本不用机器学习，一个基础的斑点检测算法就够了 <button class="pd-ts" data-t="12:06" data-who="嘉宾" data-en="And I did my master's in computer vision, so I looked at that. I was like, well, yeah, sure, we can use AI, but you just need like blob detection. You don't need any machine learning, right?" aria-label="回原文"></button>。简单算法，效果很好。
 
-她最后把公司做成了彻头彻尾的 AWS 用户、买了 Databricks,一边给基因发现写新算法，一边做从 Box 迁到 Microsoft 这类 IT 活。
+而在 WSO2,她的配比大约是 20% 科学家、60% 架构师、20% 教练。公司约 75% 是技术人员，好奇心旺盛，对内几乎不用教，她的辅导主要朝外面向客户。
 
-「挺有意思的，但不是我的乐趣和热情所在。」<button class="pd-ts" data-t="09:52" data-who="Rania" data-en="And then I spent my engineer's time building new algorithms for gene discovery and moving from Box to Microsoft and, you know, things like that, the IT side, which..." aria-label="回原文"></button>
+## 别数 token:衡量 AI 成熟度要看什么？
 
-一个很好的例子说明「AI 官」该知道什么时候不用 AI:科学家假设玉米胚的大小能预测基因编辑下一步的成功率，但人工测量太贵，来找她要 AI。
+有人请她统计 token 用量来证明“我们做了多少 AI”,她拒绝了——太容易造假 <button class="pd-ts" data-t="12:55" data-who="嘉宾" data-en="So I get asked a lot what I measure. Someone asked me to measure tokens to see how much AI we do, and I said no, because it's so easily hackable. OK, it's easy to measure it, but I didn't want to." aria-label="回原文"></button>。她真正看的是这几样：
 
-她硕士读的是计算机视觉，一看就说：
+一是全员的 AI 素养。是只有卓越中心那几个人会，还是市场、工程各部门都有自己的 Builder?
 
-「当然可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，你只需要基础计算机视觉。」
+她现在的做法是每个产品线都设一个 AI 负责人。
 
-<button class="pd-ts" data-t="12:06" data-who="Rania" data-en="And I did my master's in computer vision, so I looked at that. I was like, well, yeah, sure, we can use AI, but you just need like blob detection. You don't need any machine learning, right?" aria-label="回原文"></button> 用一个极简单的算法，效果非常好。而基因发现那部分，才真正用了 BERT 之类的模型。
+二是采纳的深度。是只拿来润色邮件、补全代码，还是整个工作流被重构？有的团队已经让 AI [[智能体|智能体]]和人类并肩干活了。
 
-现在在 WSO2,她的配比大约是 20% 科学家、60% 架构师、20% 教练。<button class="pd-ts" data-t="10:13" data-who="Rania" data-en="So that was a very different experience and a very different skill set of what you do there, but also the AI there was also fundamentally changing how the company operates and its ability to have great success, right?" aria-label="回原文"></button>
+三是工具的普及度，公司是否统一采购了工具。四是“生成式引擎优化”——大模型能不能搜到你们、看懂你们是干什么的。
 
-公司约 75% 是技术人员、员工极好奇，「如果你不好奇，你可能待不了多久」——所以她几乎不用向内辅导，大量做向外辅导。
+她提到一个有意思的观察：
 
-她总结判断这个职位的三个维度：这家公司是否售卖软件？人员构成是否主要技术？以及处在 AI 旅程的哪个阶段？<button class="pd-ts" data-t="12:40" data-who="Rania" data-en="So this is a bit like I was trying to put it a bit on a grid of how do we think about it and really in my view with my experience having been like at IBM and at the biotech startup and now at WSO2 those are the dimensions I think about, right?" aria-label="回原文"></button>
+有人的说法是，现在的网页是写给大模型看的，人类已经读不了了，那就干脆让自己的模型读完再总结，以后只跟真人说话 <button class="pd-ts" data-t="15:01" data-who="嘉宾" data-en="And that's where also someone just yesterday, right, they're like, the web has become for agents, like, it's unreadable for humans anymore because everything's being written, assuming an LLM is reading it and it's so frustrating." aria-label="回原文"></button>。
 
-## 衡量什么：拒绝 token 数
+对软件产品，她还有一套：
 
-有人让她衡量 token 消耗来看「用了多少 AI」,她拒绝了：「它太容易被操纵了」。<button class="pd-ts" data-t="12:55" data-who="Rania" data-en="So I get asked a lot what I measure. Someone asked me to measure tokens to see how much AI we do, and I said no, because it's so easily hackable. OK, it's easy to measure it, but I didn't want to." aria-label="回原文"></button>
+所有产品都要能被智能体调用，文档要让大模型读得懂，定价改成按用量计费，免得智能体把按坐席收费的模式冲垮。
 
-她看的是这几样：**员工 AI 素养**——是不是只有少数人懂 AI、聚在一个卓越中心里，人人做事都得找他们？
+她还提醒：你衡量什么，大家就会优化什么，而且这套指标应该随公司阶段不断更换。
 
-还是市场部、各个工程团队都有「构建者」？
+## 想做这个角色，先想清楚三件事
 
-她现在的结构是：小型中央 AI 团队 + 每个产品设一位 AI 负责人 + 每个产品团队都有人做 AI 能力。<button class="pd-ts" data-t="13:39" data-who="Rania" data-en="Or again, are you holding all of those? Now I have a small central AI team that kind of works with everybody, but I have an AI lead in every single product, and every product team has folks working on the AI capabilities in it, right?" aria-label="回原文"></button>
+Rania 的收尾建议很实在。
 
-**采用程度**——是只做清理邮件、代码补全这种简单任务，还是改变整个工作流，或者像她几个团队那样配上「[[智能体|智能体]]员工」(可实例化、和团队并肩工作的智能体)，这是一个光谱。<button class="pd-ts" data-t="14:04" data-who="Rania" data-en="Or are you changing an entire workflow for a better outcome? Or, like, we have a couple of our teams that have put agentic employees, right? So you have these agents that you can instantiate, and they work alongside the team, right?" aria-label="回原文"></button>
+这个职位没有银弹，要看公司情况，而且**必须和 CEO 有牢固的互信**，因为你得横跨公司各个部门去推动事情 <button class="pd-ts" data-t="20:11" data-who="嘉宾" data-en="You have to work very closely with others. I suggest if you try something like this, you have very strong backing and relationship with the CEO because you're going to have to work very closely with a lot of other parts of the company." aria-label="回原文"></button>。
 
-**工具可用性**，以及 **GEO 可见性**(生成式引擎优化)——LLM 能找到你们吗？搜索时它们知道你们是做什么的吗？她笑引昨天有人吐槽：
+她见过的组合五花八门：有的 AI 深度公司，首席产品官和首席AI官干脆是同一个人；
 
-网页已经变成给智能体看的了、对人类不可读，「所以我打算让我的 LLM 替我阅读和总结，从今以后我只和人类交流」。<button class="pd-ts" data-t="15:01" data-who="Rania" data-en="And that's where also someone just yesterday, right, they're like, the web has become for agents, like, it's unreadable for humans anymore because everything's being written, assuming an LLM is reading it and it's so frustrating." aria-label="回原文"></button>
+也有的非软件公司让 HR 负责人转任管 AI——理由竟然是“智能体也是员工，所以归人事管”。台下听到这里一片笑声。
 
-她的核心提醒：「要好好思考你衡量什么，因为你衡量什么就会得到什么。你一旦开始衡量某个东西，所有人都会为它去优化。」
+最后她给了个职业建议：想想你擅长什么、热爱什么、世界需要什么、什么能换来报酬，找四者的交集。
 
-<button class="pd-ts" data-t="17:34" data-who="Rania" data-en="But think a lot about it because you really get what you measure. You start measuring something, everyone's going to optimize for that. So just a few words about WSO2." aria-label="回原文"></button> 而且这份清单应该随时间变化。
+这个职位还在流动成形中，如果你有机会做，把它塑造成让自己站在中心、做得开心的样子；
 
-## 在软件公司做 AI 战略：让产品能被智能体使用
-
-对 WSO2(约 20 年历史、ARR 约 1.5 亿美元、100% 开源、产品覆盖六大洲 90 多个国家)来说，战略主线是：让所有产品「能被智能体和 LLM 消费」。
-
-去年给所有产品加了对智能体、LLM 和工具的一等支持；
-
-今年确保每个产品都能被智能体使用——每个东西都要有 [[MCP 服务器|MCP server]](让智能体调用工具的标准接口)、skills 和 CLI 等。<button class="pd-ts" data-t="15:23" data-who="Rania" data-en="And then we wanted all our products to be agent and LLM consumable. So the docs need to be LLM consumable. Last year, we added first-class support for agents, LLMs, and tools to all our products." aria-label="回原文"></button>
-
-还有「智能体防备型定价」：按席位收费的模式，当智能体把消费量打爆时会发生什么？所以他们的定价全部基于消费量。<button class="pd-ts" data-t="15:40" data-who="Rania" data-en="So everything needs to have an MCP server and skills and CLI, et cetera. Agent-proof pricing, so we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based." aria-label="回原文"></button>
-
-再加上自用自家技术栈并闭环反馈——她听说有的公司强制客户用产品却没人接反馈，「希望我们不仅让人们使用我们的东西，而且是在他们喜欢、并且产品对他们有帮助的时候使用」。<button class="pd-ts" data-t="16:05" data-who="Rania" data-en="Somebody told me, like, oh, I met so-and-so company, which I won't name, and they make us use our product, and it would be great, except nobody takes any feedback, right, to make the product better." aria-label="回原文"></button>
-
-具体到产品：LLM AI API 归根结底就是 API,但需要不同的管理方式——所以在 API 平台里放 [[AI 网关|AI 网关]]；
-
-身份平台本来就会为人类做强大的身份和访问管理，那么现在为智能体做，于是有了[[智能体身份|智能体身份]]；
-
-今年发布了智能体平台，整合这一切、管理智能体的整个生命周期。<button class="pd-ts" data-t="18:39" data-who="Rania" data-en="And the way we started was saying, we're going to extend out into what AIs need, right? So LLM AI APIs are APIs at the end of the day, but they need to be managed differently." aria-label="回原文"></button>
-
-科学家侧，小研究团队今年发了三篇论文，其中两篇是和斯里兰卡本科生的合作、那是他们人生第一篇论文，还拿了一个最佳论文奖。<button class="pd-ts" data-t="19:22" data-who="Rania" data-en="I'm very proud we have these three publications this year. Two of them are with undergrads in Sri Lanka. That is their first publication ever." aria-label="回原文"></button>
-
-## 收尾的实在建议
-
-没有银弹，一切取决于公司。
-
-她想给的第一条建议：**必须有 CEO 的强力支持和紧密关系**，「因为你将不得不和公司里很多其他部门非常紧密地合作」。<button class="pd-ts" data-t="20:11" data-who="Rania" data-en="You have to work very closely with others. I suggest if you try something like this, you have very strong backing and relationship with the CEO because you're going to have to work very closely with a lot of other parts of the company." aria-label="回原文"></button>
-
-她还见过各种变体：AI 前瞻的公司里首席产品官和首席 AI 官是同一个人；
-
-也有非软件公司让 HR 负责人变成 AI 负责人——理由是「智能体是劳动力，HR 来管理它们」。「我不知道我对此是什么感受。」<button class="pd-ts" data-t="20:48" data-who="Rania" data-en="I don't know how I feel about that, but yeah, I know. I'm like, I'm okay. So it's just interesting things are happening." aria-label="回原文"></button>
-
-最后她送给想走这条路的人一个框架：想想你擅长什么、热爱什么、世界需要什么、你能靠什么获得报酬，找到交集。
-
-因为这个职位仍然非常流动，如果你对它感兴趣，试着把它塑造成以你为中心、让你快乐的形状。<button class="pd-ts" data-t="21:30" data-who="Rania" data-en="When I think about that, even for me, like, to take this role, I was trying to think, okay, you know, what I'm, somebody had given me this advice, like, think about what are you good at, and what do you love, what the world needs, and what you can be paid for, and try to find something at the intersection." aria-label="回原文"></button>
+不喜欢的部分，看看能不能交给别人，或者换一家更契合的公司。
 
 ## 本集带走
 
-- **把职位拆成三个角色来管理**：科学家(探索实验)、架构师(战略+构建)、教练(布道辅导)，按公司类型和自身技能定配比，别试图眉毛胡子一把抓。
-- **先用简单方法，再上 AI**:测玉米胚只需要基础计算机视觉、不需要机器学习——AI 官的价值恰恰在于知道什么时候不用 AI。
-- **别用 token 数当指标**：太容易被操纵；看员工 AI 素养(各职能部门都有构建者吗)、采用深度(简单任务还是整条工作流还是智能体员工)、工具可用性、GEO 可见性。你衡量什么就会得到什么。
-- **让产品能被智能体消费**：文档要 LLM 可读，产品配 MCP server 和 CLI;定价改按消费量，不然智能体一来按席位收费就被打爆。
-- **接这个职位前先锁定 CEO 支持**：这个角色必须横跨全公司协作，没有上面撑腰做不动。
+- 首席AI官没有统一定义：公司类型、AI 成熟度、任职者的背景，共同决定了这个角色实际干什么。
+- 这个角色可以拆成三块——科学家(探索)、架构师(建与定战略)、教练(对内外布道)，配比因公司而异。
+- 别用 token 用量衡量 AI 成效，太容易造假；要看全员 AI 素养、采纳深度、工具普及和市场影响力。
+- 软件公司要让产品能被智能体调用，并改成按用量计费，否则按坐席收费的模式会被智能体冲垮。
+- 做这个角色需要 CEO 的强力支持，并且要主动把它塑造成符合自己擅长与热爱的样子。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
-> <span class="qz">所以对于这种情况，你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者，对吧？</span>  
+> <span class="qz">这个职位的棘手之处在于：太好了，我有一位 AI 官，但 AI 无处不在，对吧？这有点像在说「数字化」，或者说是电力。</span>  
+> *So the tricky thing about this role is, like, it's so great, okay, I have an AI officer, but there's AI in everything, right? It's kind of like saying digital or, I don't know, electricity.*  
+> <span class="qm">—— Rania Khalaf · [02:31]</span> ^q1
+
+> <span class="qz">所以对于这种情况，你不需要深厚的 AI 知识，但你非常需要理解业务，并且是一个非常强的运营者。</span>  
 > *So for that, you don't need deep AI knowledge, but you need to understand the business really well and be a very strong operator, right?*  
-> <span class="qm">—— Rania Khalaf · [06:56]</span> ^q1
+> <span class="qm">—— Rania Khalaf · [06:56]</span> ^q2
 
 > <span class="qz">你希望他们自己去发现诸如幻觉之类的事情，因为你可以解释到你口干舌燥，但人们只有亲身经历过才会相信。</span>  
 > *You want them to discover for themselves things like hallucination, because you can explain until you're blue in the face, but people don't believe it until they experience it.*  
-> <span class="qm">—— Rania Khalaf · [07:28]</span> ^q2
+> <span class="qm">—— Rania Khalaf · [07:28]</span> ^q3
 
-> <span class="qz">我说，嗯，对，当然，我们可以用 AI,但你只需要斑点检测之类的东西，你不需要任何机器学习，对吧？</span>  
+> <span class="qz">我说，嗯，对，当然，我们可以用 AI，但你只需要斑点检测之类的东西。你不需要任何机器学习，对吧？</span>  
 > *I was like, well, yeah, sure, we can use AI, but you just need like blob detection. You don't need any machine learning, right?*  
-> <span class="qm">—— Rania Khalaf · [12:06]</span> ^q3
+> <span class="qm">—— Rania Khalaf · [12:06]</span> ^q4
 
-> <span class="qz">有人让我衡量 token 来看我们用了多少 AI,我说不，因为它太容易被操纵了。</span>  
+> <span class="qz">有人让我衡量 token 来看我们用了多少 AI，我说不，因为它太容易被操纵了。</span>  
 > *Someone asked me to measure tokens to see how much AI we do, and I said no, because it's so easily hackable.*  
-> <span class="qm">—— Rania Khalaf · [12:55]</span> ^q4
+> <span class="qm">—— Rania Khalaf · [12:55]</span> ^q5
 
-> <span class="qz">他说，所以我打算让我的 LLM 替我阅读和总结，从今以后我只和人类交流，对吧？</span>  
-> *He's like, so I'm just going to have my LLMs read and summarize for me and I'm only going to talk to humans from now on, right?*  
-> <span class="qm">—— Rania Khalaf · [15:01]</span> ^q5
+> <span class="qz">网页已经变成给智能体看的了，对人类来说已经不可读了，因为所有东西都是假设 LLM 会去读而写的，这太让人沮丧了。</span>  
+> *The web has become for agents, like, it's unreadable for humans anymore because everything's being written, assuming an LLM is reading it and it's so frustrating.*  
+> <span class="qm">—— Rania Khalaf · [14:53]</span> ^q6
+
+> <span class="qz">智能体防备型定价：我们都听说过 SaaS 已死这种说法，如果你按席位定价之类的，那当智能体来了、把消费量彻底打爆的时候会发生什么？所以我们的定价全是基于消费量的。</span>  
+> *Agent-proof pricing, so we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based.*  
+> <span class="qm">—— Rania Khalaf · [15:40]</span> ^q7
 
 > <span class="qz">但要好好思考这个问题，因为你衡量什么就会得到什么。你一旦开始衡量某个东西，所有人都会为它去优化。</span>  
 > *But think a lot about it because you really get what you measure. You start measuring something, everyone's going to optimize for that.*  
-> <span class="qm">—— Rania Khalaf · [17:32]</span> ^q6
-
-> <span class="qz">我们都听说过 SaaS 已死这种说法，如果你按席位定价之类的，那当智能体来了、把消费量彻底打爆的时候会发生什么，所以我们的定价全是基于消费量的。</span>  
-> *So we've all heard this whole SaaS is dead, and if you price per seed and whatever, what happens when the agents come and blow it out of the water, the consumption, so our pricing is all consumption-based.*  
-> <span class="qm">—— Rania Khalaf · [15:40]</span> ^q7
+> <span class="qm">—— Rania Khalaf · [17:32]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 
@@ -205,7 +177,7 @@ jsonLd: |
 
 - [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
 - [[2026-08-28-talks-building-the-engine-while-flying-the-pla|Figma 第一个 MCP server 是怎么三个月做出来的]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|把 AI 智能体塞进树莓派:给它装上图数据库记忆]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|把 AI 助手挂在脖子上：一块树莓派的随身记忆实验]]<span class="pd-rz">同概念:MCP server、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

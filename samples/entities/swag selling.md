@@ -7,17 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>swag selling</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="swag selling">SW</div><div class="pi"><h1 class="pt">swag selling</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="swag selling">SW</div><div class="pi"><h1 class="pt">swag selling</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(60:48起):Jonathan 自创概念(Sell Without Acting Greedy):「我们做的东西很棒,你想要就好,不想要我也不在乎」,用这种不卑不亢的自信气场撑过销售的每一天。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(60:48起):Jonathan 自创概念(Sell Without Acting Greedy):「我们做的东西很棒,你想要就好,不想要我也不在乎」,用这种不卑不亢的自信气场撑过销售的每一天。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead#^q12]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为概念
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为概念
 
 ## ③ 关联
 

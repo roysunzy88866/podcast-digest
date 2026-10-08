@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(42:28起):本集说 SVB 崩溃时 Brex 内部很混乱，Michael 作为 COO 拍板把资金从 SVB 转出，随后 Brex 的银行产品吸引超十亿美元存款。
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(32:28起):本集讲 SVB 倒闭正逢发薪周：Gusto 因一直用多家银行做支付处理而未受影响，并主动为被影响的客户垫付工资
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(00:18起):硅谷银行,本集讲它恰在 Jonathan 融资第一周的周四崩盘,导致第二、三周 40% 的投资人会议被取消,他自己因此经历了人生第一次恐慌发作。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(00:18起):硅谷银行,本集讲它恰在 Jonathan 融资第一周的周四崩盘,导致第二、三周 40% 的投资人会议被取消,他自己因此经历了人生第一次恐慌发作。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为被讨论公司
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司
 
 ## ③ 关联
 

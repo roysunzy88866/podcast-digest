@@ -2,44 +2,106 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "13:51",
-      "speaker": "Amin Vahdat",
+      "timestamp": "00:59",
+      "speaker": "SPEAKER_01",
       "trimmed": false,
-      "tsWas": "13:51",
-      "spkWas": "Amin Vahdat"
+      "tsWas": "00:59",
+      "spkWas": "Unknown"
     },
     {
       "i": 2,
-      "timestamp": "24:31",
+      "timestamp": "01:38",
       "speaker": "Amin Vahdat",
       "trimmed": false,
-      "tsWas": "24:31",
-      "spkWas": "Amin Vahdat"
+      "tsWas": "01:38",
+      "spkWas": "Unknown"
     },
     {
       "i": 3,
-      "timestamp": "29:05",
+      "timestamp": "04:13",
       "speaker": "Amin Vahdat",
       "trimmed": false,
-      "tsWas": "29:05",
-      "spkWas": "Amin Vahdat"
+      "tsWas": "04:13",
+      "spkWas": "Unknown"
     },
     {
       "i": 4,
-      "timestamp": "43:00",
+      "timestamp": "10:42",
       "speaker": "Amin Vahdat",
       "trimmed": false,
-      "tsWas": "42:55",
-      "spkWas": "Amin Vahdat"
+      "tsWas": "10:42",
+      "spkWas": "Unknown"
     },
     {
       "i": 5,
+      "timestamp": "10:57",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "10:57",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 6,
+      "timestamp": "13:33",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "13:33",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 7,
+      "timestamp": "16:18",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "16:18",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 8,
+      "timestamp": "24:54",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "24:54",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 10,
+      "timestamp": "43:00",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "43:00",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 11,
       "timestamp": "56:08",
       "speaker": "SPEAKER_01",
       "trimmed": false,
       "tsWas": "56:08",
-      "spkWas": "Amin Vahdat"
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 12,
+      "timestamp": "57:16",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "57:16",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 13,
+      "timestamp": "59:34",
+      "speaker": "Amin Vahdat",
+      "trimmed": false,
+      "tsWas": "59:34",
+      "spkWas": "Unknown"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 9,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "The stunning thing is that the TPU architecture at a medium level of detail, not at a super high level of detail, at a medium level of detail, has actually not changed all that much since TPU v1."
+    }
+  ]
 }

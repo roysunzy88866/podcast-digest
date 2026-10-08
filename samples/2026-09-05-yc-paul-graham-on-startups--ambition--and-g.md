@@ -152,7 +152,7 @@ YC 最初的想法只是做一家**天使投资公司**——当时有做巨额�
 
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Reddit · 同概念:推理 (inference)</span>
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:AGI</span>
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:推理 (inference)</span>
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|当AI能替你建网站：一个OpenAI产品负责人的花式用法]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 </div>

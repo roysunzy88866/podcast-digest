@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(00:56起):演讲者参与的工作领域之一，与 VS Code 并列，是他用智能体构建产品本身的对象
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(00:56起):演讲者参与的工作领域之一，与 VS Code 并列，是他用智能体构建产品本身的对象
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为被讨论公司
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为被讨论公司
 
 ## ③ 关联
 

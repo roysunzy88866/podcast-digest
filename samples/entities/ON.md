@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ON</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>651</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>658</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*651 条*
+*658 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q3]]
 
@@ -731,7 +731,9 @@ unlisted: true
 
 ![[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan#^q6]]
 
-![[2026-08-31-dwarkesh-openai-huggingface-narration#^q3]]
+![[2026-08-31-dwarkesh-openai-huggingface-narration#^q6]]
+
+![[2026-08-31-dwarkesh-openai-huggingface-narration#^q9]]
 
 ![[2026-08-31-founders-431-how-henry-singleton-worked#^q7]]
 
@@ -793,7 +795,7 @@ unlisted: true
 
 ![[2026-09-04-talks-open-models-change-the-economics-of-ai#^q6]]
 
-![[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus#^q11]]
+![[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus#^q14]]
 
 ![[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr#^q2]]
 
@@ -997,6 +999,12 @@ unlisted: true
 
 ![[2026-09-17-dwarkesh-noam-brown#^q16]]
 
+![[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#^q2]]
+
+![[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#^q11]]
+
+![[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#^q13]]
+
 ![[2026-09-17-sed-scaling-agent-workloads-at-vercel#^q2]]
 
 ![[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be#^q2]]
@@ -1071,6 +1079,8 @@ unlisted: true
 
 ![[2026-09-24-sed-chroma-and-agentic-retrieval#^q7]]
 
+![[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#^q6]]
+
 ![[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding#^q2]]
 
 ![[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f#^q5]]
@@ -1143,7 +1153,11 @@ unlisted: true
 
 ![[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif#^q4]]
 
-![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q5]]
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q1]]
+
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q10]]
+
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q17]]
 
 ![[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi#^q1]]
 
@@ -1178,8 +1192,6 @@ unlisted: true
 ![[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob#^q3]]
 
 ![[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob#^q6]]
-
-![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q5]]
 
 ![[2026-09-30-talks-the-death-of-the-code-review-what-the-da#^q1]]
 
@@ -1229,7 +1241,7 @@ unlisted: true
 
 ![[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee#^q2]]
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q3]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q5]]
 
 ![[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you#^q12]]
 
@@ -1243,9 +1255,9 @@ unlisted: true
 
 ![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q5]]
 
-![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q8]]
+![[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble#^q2]]
 
-![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q4]]
+![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q7]]
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q1]]
 
@@ -1255,10 +1267,6 @@ unlisted: true
 
 ![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q4]]
 
-![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q1]]
-
-![[2026-10-05-pg-n8n-vs-claude-code#^q4]]
-
 ![[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead#^q7]]
 
 ![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q3]]
@@ -1266,14 +1274,6 @@ unlisted: true
 ![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q8]]
 
 ![[2026-10-05-talks-build-the-right-thing-product-engineerin#^q7]]
-
-![[2026-10-05-talks-build-the-right-thing-product-engineerin#^q10]]
-
-![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q1]]
-
-![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q3]]
-
-![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q4]]
 
 ![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q4]]
 
@@ -1283,21 +1283,35 @@ unlisted: true
 
 ![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q19]]
 
+![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q3]]
+
 ![[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o#^q3]]
 
-![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q5]]
+![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q2]]
+
+![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q7]]
 
 ![[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec#^q11]]
 
-![[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope#^q1]]
-
 ![[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope#^q4]]
 
-![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q2]]
+![[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope#^q5]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q2]]
+![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q4]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q10]]
+![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q12]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q4]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q6]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q11]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q27]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q37]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q41]]
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q15]]
 
@@ -1309,7 +1323,9 @@ unlisted: true
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q1]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q4]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q14]]
+
+![[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#^q7]]
 
 ![[2026-10-08-a16z-building-the-cloud-for-an-agentic-world#^q6]]
 

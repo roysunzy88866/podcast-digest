@@ -31,7 +31,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为联合主持
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为联合主持
 
 ## ③ 他谈到的
 

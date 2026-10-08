@@ -40,7 +40,7 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q1]]
 
-![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q3]]
+![[2026-09-29-sed-cory-doctorow-on-ai-work-and-power#^q8]]
 
 ![[2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch#^q1]]
 

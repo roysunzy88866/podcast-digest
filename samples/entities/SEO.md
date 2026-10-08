@@ -18,7 +18,7 @@ unlisted: true
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(18:48起):本集说前 AI 时代存在大量迎合懒人同时做 SEO 成功的聚合页面，而内容方会继续花钱做 SEO 吸引人类流量但同时切断智能体访问
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(32:06起):本集直说:随着 10 条蓝色链接时代终结,排名和 SEO 已不再重要,旧的 SEO 手册对智能体商务的未来行不通,必须发明新的商业模式。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(03:07起):本集认为 SEO 没死，只是领域变大了：站内、站外、技术三份工作不变，变的是战术优先级；但行业缺统计素养，多在不显著的波动上浪费工时。
-- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]]**(02:40起):本集把 SEO 作为搜索时代商家优化目录的旧玩法：策略明确；而在智能体的新世界里，优化策略在很大程度上仍不明确。
+- **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]]**(02:40起):本集把 SEO 作为搜索时代商家优化目录的旧玩法：策略明确；而在智能体的新世界里，优化策略在很大程度上仍不明确。
 
 ## ① 提到它的金句
 
@@ -47,7 +47,7 @@ unlisted: true
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为概念
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
-- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《智能体来了,你的商品目录还没准备好:PayPal 的实验与心得》]] — 作为概念
+- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]] — 作为概念
 
 ## ③ 关联
 

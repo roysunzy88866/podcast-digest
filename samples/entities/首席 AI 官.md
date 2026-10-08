@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]]**(00:21起):本集主线概念：一个爆发中的新职位（设该职位的公司从 2024 年 11% 涨到如今 76%），含义因公司类型、AI 成熟度和个人背景而天差地别；Rania 把它拆成科学家、架构师、教练三个角色，并建议接任前先锁定 CEO 支持。
+- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(00:21起):本集主线概念：一个爆发中的新职位（设该职位的公司从 2024 年 11% 涨到如今 76%），含义因公司类型、AI 成熟度和个人背景而天差地别；Rania 把它拆成科学家、架构师、教练三个角色，并建议接任前先锁定 CEO 支持。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]] — 作为概念
+- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为概念
 
 ## ③ 关联
 

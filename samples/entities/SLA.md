@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-29-talks-which-ai-startups-actually-land-enterpri|《企业为什么只签下 5% 的 AI 演示：对冲基金买方的大实话》]]**(11:07起):本集把真正的 SLA 和联系得上的支持工程师列为可靠性要求，没有 SLA、路线图或状态页是反面案例。
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(00:18起):Jonathan 在 Baselayer 定的内部规矩:客户在 Slack 和邮件里的消息 20 分钟内必须回复、他自己冲一两分钟去;源自投行的「SLA 20 分钟、SLA 两分钟」文化。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(00:18起):Jonathan 在 Baselayer 定的内部规矩:客户在 Slack 和邮件里的消息 20 分钟内必须回复、他自己冲一两分钟去;源自投行的「SLA 20 分钟、SLA 两分钟」文化。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-29-talks-which-ai-startups-actually-land-enterpri|《企业为什么只签下 5% 的 AI 演示：对冲基金买方的大实话》]] — 作为概念(提及)
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为概念
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为概念
 
 ## ③ 关联
 

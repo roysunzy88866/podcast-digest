@@ -1,12 +1,12 @@
 ---
-title: Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体
+title: 一次交互就够了：Google DeepMind 的新 API 到底想解决什么
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "16:54"
 type: episode
 cover: "#64748b"
-description: Google DeepMind 开发者体验团队的 Ivan 介绍全新 Interactions API 与 Managed Agents：服务端状态管理、多模态统一调用、持久化沙箱与令牌安全代理如何让智能体开发大幅简化。
+description: Google DeepMind 开发者体验团队的 Ivan 介绍了全新的 Interactions API 和 Managed Agents。
 guests: ["[[Ivan Leo]]"]
 companies: ["[[Google DeepMind]]"]
 concepts: ["[[Interactions API]]", "[[Managed Agents]]", "[[智能体]]", "[[函数调用]]", "[[沙箱]]", "[[Gemini API]]", "[[anti-gravity]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#post","headline":"Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo","description":"Google DeepMind 开发者体验团队的 Ivan 介绍全新 Interactions API 与 Managed Agents：服务端状态管理、多模态统一调用、持久化沙箱与令牌安全代理如何让智能体开发大幅简化。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ivan Leo"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"Interactions API"},{"@type":"Thing","name":"Managed Agents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"函数调用 (function calling)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"Gemini API"},{"@type":"Thing","name":"anti-gravity"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体","item":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#post","headline":"一次交互就够了：Google DeepMind 的新 API 到底想解决什么","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo","description":"Google DeepMind 开发者体验团队的 Ivan 介绍了全新的 Interactions API 和 Managed Agents。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ivan Leo"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"Interactions API"},{"@type":"Thing","name":"Managed Agents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"函数调用 (function calling)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"Gemini API"},{"@type":"Thing","name":"anti-gravity"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"一次交互就够了：Google DeepMind 的新 API 到底想解决什么","item":"https://talk.solomind.cc/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一次交互就够了：Google DeepMind 的新 API 到底想解决什么</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体
+# 一次交互就够了：Google DeepMind 的新 API 到底想解决什么
 
 <div class="pd-byl"><b>Ivan Leo</b> · Google DeepMind 开发者体验 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果你有一个真正强大的模型，你会发现，随着模型越来越强大，很多脚手架已经消失了。</div><div class="a">— Ivan Leo <button class="pd-ts" data-t="02:18" data-who="Ivan Leo" data-en="If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">如果你有一个真正强大的模型，你会发现，随着模型变得越来越强大，很多脚手架已经消失了。</div><div class="a">— Ivan Leo <button class="pd-ts" data-t="02:18" data-who="Ivan Leo" data-en="If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Ivan Leo]]
@@ -35,112 +35,105 @@ jsonLd: |
 >
 > **概念** [[Interactions API]] · [[Managed Agents]] · [[智能体]] · [[函数调用]] · [[沙箱]] · [[Gemini API]] · [[anti-gravity]]
 
-这一集是 [[Google DeepMind|Google DeepMind]] 开发者体验团队的 Ivan 的一场产品发布演讲，讲的是全新的 [[Interactions API|Interactions API]] 和 [[Managed Agents|Managed Agents]](托管[[智能体|智能体]])——Google 希望用它们解决一个核心痛点：
+[[Google DeepMind|Google DeepMind]] 开发者体验团队的 Ivan 在一场演讲中，介绍了刚发布的 [[Interactions API|Interactions API]] 和 [[Managed Agents|Managed Agents]]。他借用著名论文的标题打了个比方：an interaction is all you need——一次交互就够了。
 
-过去调用模型要面对一堆端点、嵌套极深的数据结构，连 Google 自己做第一方集成都被坑过，现在想用一个统一接口把文本、图像、音频、智能体全部打通。
+这篇演讲讲清楚了 AI 应用开发正在从一问一答走向长时间自主干活的[[智能体|智能体]]，以及平台方为此重新设计了什么。
 
-演讲开场先回顾了与模型交互方式的演进：最早是一次性对话(发消息、得回复)；
+## 从讲笑话到自主干活，模型用法变了什么
 
-模型变强后，为了让它们可靠地嵌进应用，发明了[[函数调用|函数调用]]——模型按可预测的结构生成 JSON 对象，后端据此执行操作；
+Ivan 先回顾了历程。最早就是单次交互：你发一句讲个笑话，模型回一个笑话。
 
-而现在模型能推理、能长时间自主运行，智能体时代到来。
+后来模型要接进各种应用，就必须可靠，于是有了 function calling——模型输出结构化的 JSON 对象，就像注册网站时浏览器发给后端的用户名密码一样，后端能直接处理 <button class="pd-ts" data-t="01:03" data-who="嘉宾" data-en="And so to do so, we invented function calling, where models could create Individual JSON objects with predictable structures. Think like how when you want to register for a website, your web page sends a JSON payload to the back end with a username and a password, and that enables the back end server to say, OK, we have a new user, and now we can actually create a new account." aria-label="回原文"></button>。
 
-Ivan 对智能体的定义很干脆：很多人把它简化成「一个在循环里运行的语言模型」，大多数情况下这是对的——模型越强，脚手架越少。
+现在又进入新阶段：模型手里有多个工具，能调用、能反思结果、能和环境互动，最后才给出答案。
 
-比如最新的 Opus 模型或 Fable 模型，已经直接用一个 bash 工具，而不是像以前那样给它们配上编辑文件、读取文件等一堆专用工具。
+很多人把智能体简化成「一个语言模型在循环里跑」，Ivan 说这在大多数情况下是对的——模型越强，外围的脚手架越少。
 
-## Interactions API:一个调用，全模态统一
+最新的模型已经不再用单独的读文件改文件工具，而是直接用 bash 一把梭 <button class="pd-ts" data-t="02:25" data-who="嘉宾" data-en="If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away. A lot of models, for example, the latest Opus models or Fable models, are now just immediately just using a bash tool instead of individually specialized tools like an edit file or a read file tool like we used to do." aria-label="回原文"></button>。
 
-Interactions API 要解决的是工作负载的巨变：
+但一个智能体光有模型不够，还需要记忆和执行环境。
 
-通过 [[Gemini API|Gemini API]],你既有轻量的图像模型(Nano Banana)、快模型(Gemini 3.5 Flash),也有会跑三分钟以上的 Deep Research 深度研究智能体——以前这些靠一堆不同的端点、嵌套很深的数据对象，消费起来非常困难。
+他说，**如果你要造一个写代码的智能体，却不给它一个能真正执行代码的环境，它什么都干不了** <button class="pd-ts" data-t="03:02" data-who="嘉宾" data-en="If you're building a coding agent, but you don't give it an environment where it can actually execute code, for example, it's not going to be able to do anything." aria-label="回原文"></button>。
 
-第一个核心设计是**服务端状态**。新的 Gemini 系列模型有一个叫 thought signatures 的机制：
+## Interactions API:用一个入口调用所有模型和智能体
 
-每次调用工具、给出响应，模型都会传回一串不透明的数字，必须原样传回去，否则性能会下降。
+问题在于：==现在的 [[Gemini API|Gemini API]] 里既有 Nano Banana 这样的图像模型，也有 Deep Research== 这种一跑就是 3 分钟以上、自己去查资料再交出深度报告的智能体。
 
-以前开发者要手动管理这串东西，有初创公司仅仅因为误加了一个空白字符就丢失了整个缓存。
+开发者要通过一堆不同的接口去调用它们，而且老接口返回的数据嵌套极深，连 Google 自己做内部集成都觉得麻烦 <button class="pd-ts" data-t="04:48" data-who="嘉宾" data-en="Now, it's pretty difficult then to think about consuming models and agents through a whole bunch of these different endpoints. Additionally, for a lot of the older kind of API endpoints, a lot of the data was in very deeply nested objects." aria-label="回原文"></button>。
 
-现在 API 返回一个 interaction ID,你只要在下一轮的 previous interaction ID 参数里把它传回来，所有上下文——包括那些 thought signatures——自动保留。
+Interactions API 就是解决这个问题的：一个入口，统一支持所有模型和智能体。
 
-这不只是省事，它解锁了跨模态、跨模型的组合玩法。团队演示：
+第一个核心设计是服务端状态。
 
-先用一张照片生成你站在威尼斯的图像，拿到 interaction ID 塞回 client.interactions.create,换成周三刚发布的 Omni flash 模型，就能在同样的上下文和图像信息上直接生成视频——一个初始调用派生出多个 interaction,再汇成一段视频。
+新版 Gemini 模型会在响应里传回一串不透明的思维签名数字，很多开发者手动管理时容易出错——Ivan 说他们接触过一些初创公司，就因为多打了一个空格，缓存就失效了 <button class="pd-ts" data-t="05:49" data-who="嘉宾" data-en="For a lot of people, manually managing this was very difficult. And sometimes when we talk to different startups, we found that they would lose their cash just with a single white space that they mistakenly added in." aria-label="回原文"></button>。
 
-整个流程就是两次 API 调用。
+现在只要把上一轮返回的 interaction ID 原样传回去，所有上下文都自动保留。对新的 Gemini 模型来说，不传回思维签名会导致性能下降。
 
-数据结构也重新设计了。
+另一个改进是输出结构。以前取个音频结果要一层层往下挖嵌套对象，Ivan 说他自己都背不出来；
 
-输出统一用强类型的 output.type 划分：是音频就解析音频，是图像就处理图像；想换模态，还是同一个 client.interactions.create 方法，只改响应模态和生成配置。
+现在每一段输出都有明确的类型标记，是音频就按音频处理 <button class="pd-ts" data-t="07:52" data-who="嘉宾" data-en="I can't even remember it off the top of my head. But now every single bit of the outputs that come out are clearly demarcated by a strong type. If it's an audio, as you see over here, all you've got to do is just parse it and handle it accordingly." aria-label="回原文"></button>。
 
-工具使用上，以前不能混搭的内置工具现在可以组合：
+工具调用也支持混搭：同一个请求里可以让模型用 Google 搜索、读网页、再调用你自定义的工具。
 
-比如让智能体同时用 Google Search(与 Google 相同的网页索引)、URL context 工具(从指定网页抓取信息)和一个自定义工具，模型自主推理该查什么，一次 API 调用里全部完成——模型因此能超越训练截止日期，实时访问整个互联网。
+现场演示了一个案例：用一张照片，先生成你在威尼斯等多个国家版本的图像，每次生成都是一个交互；
 
-这一切背后是新的 steps 数据模型，取代原来的 outputs 数组，用类型判别符标清每一步模型输出了什么、调了哪些函数。
+再用同一个 interaction ID 调新发布的 Omni 模型，把这些图串成视频。
 
-## Managed Agents:开箱即得的持久化沙箱智能体
+## Managed Agents:不用自己搭沙箱的远程智能体
 
-第二个发布是把 [[anti-gravity|anti-gravity]](已统一用在 Google 全套产品里的智能体 harness,即包裹模型、给它工具和环境的执行框架)开放为远程托管智能体。
+第二个发布是 Managed Agents，基于 Google 内部统一使用的 [[anti-gravity|anti-gravity]] 智能体框架。
 
-过去你自己做一个编码智能体，要先调优 harness、再找[[沙箱|沙箱]]提供商、自己管基础设施、还要想怎么在多次运行之间保留上下文。
+Ivan 说，过去你要造一个写代码的智能体，得先调教框架，再找[[沙箱|沙箱]]服务商，管基础设施，还得想办法在多次运行之间保留上下文 <button class="pd-ts" data-t="10:16" data-who="嘉宾" data-en="If you wanted to build a coding agent in the past, you would first have to tune the harness. Then you have to find a sandbox provider, manage the infrastructure, and then kind of figure out a way how to preserve the context, especially in between runs." aria-label="回原文"></button>。
 
-现在一次 API 调用，就得到一个持久化沙箱，可以反复访问。
+现在**一次 API 调用，你就得到一个持久沙箱，可以把它当成自己的开发环境反复使用**。演示中，他们让智能体分析一个 GitHub 仓库：
 
-和 Interactions API 对应，这里也有第二个原语——**环境 ID**:只要保留它返回的环境 ID,调用就会被路由回原来的那个沙箱，你装过的包、创建过的文件，模型每一轮都能访问。
+它自己列出文件、逐个读取、最后生成报告，全程在远程沙箱里自主完成，不需要人工干预 <button class="pd-ts" data-t="10:47" data-who="嘉宾" data-en="We then pass it over in an API call over to the anti-gravity agent, and it then boots up A remote sandbox and then starts investigating what the repository's about." aria-label="回原文"></button>。
 
-两个 ID 加起来：interaction ID 保上下文不穿缓存，环境 ID 保沙箱状态，你完全不用管持久化，只需几行代码。
+这里的关键原语是两个 ID：interaction ID 保存上下文，environment ID 让你每次都能路由回原来那个沙箱。装过的包、建过的文件，只要把 ID 传回去就都在 <button class="pd-ts" data-t="12:06" data-who="嘉宾" data-en="And the model has the exact same files right where we left it. Any sort of packages you install, any sort of files you throw and create, the model has access to it through each and every turn as long as it passes back the interaction ID and the environment ID." aria-label="回原文"></button>。
 
-这不是只能干轻活。
+能力上限也不低。
 
-演示里模型消耗超过 200 万 token,一次 API 调用分析完一个黑客松仓库——里面包含一门从零构建的自定义 DSL(领域专用语言)、一个网页、一大堆模式定义和一个跑在 HUD 里的强化学习训练循环。
+他们展示了一次运行，模型烧掉超过 200 万个 token，分析了一个黑客松项目——有人从零写了一门编程语言，包含自定义 DSL、网页、各种 schema 和跑在 HUD 里的强化学习训练循环 <button class="pd-ts" data-t="12:21" data-who="嘉宾" data-en="This isn't just a sort of constraint to very simple task with the managed agent. What you're seeing over here is a run where the model burnt over 2 million tokens trying to analyze a repository that we got for a hackathon where someone built from scratch an entire programming language to code reinforcement learning environments." aria-label="回原文"></button>。
 
-对个人开发者最实用的一点：云上跑的就是你 anti-gravity IDE 里那个智能体。
+## 安全和规模化：最多 1000 个命名智能体
 
-你在本地调好的技能(skill)打包成一个文件夹，通过 sources 上传到 .agents 文件夹，本地和云端就是同一个 harness、同一套提示词、同样的技能。
+企业最担心的是安全问题：==智能体要是把网络凭证泄出去了怎么办==？他们的方案是一个中间人代理。
 
-## 安全：中间人代理注入令牌
+模型发出的每个请求都会经过代理，代理可以动态替换请求头里的内容。
 
-企业最关心的问题——智能体泄露凭据怎么办——Google 的方案是一个中间人代理：
+比如对 GitHub API 的调用，代理会动态注入 token——**即使模型被提示注入攻击诱导泄露，它也根本接触不到 token 本身** <button class="pd-ts" data-t="14:18" data-who="嘉宾" data-en="And so even if the model is somehow prompt injected and leaks your GitHub API token, it's never actually going to see the token. It's only going to execute code that will run against the GitHub API, and your token is never exposed." aria-label="回原文"></button>。
 
-智能体发出的每个出站调用都经过它，Google 查看请求头并按需替换内容。
+配置好的智能体可以冻结成命名智能体，目前支持最多 1000 个。存储和沙箱都不收费，你只为模型调用付费 <button class="pd-ts" data-t="15:09" data-who="嘉宾" data-en="Once you're happy with that, it makes it very easy for you to scale up your workloads. At this point, we support up to 1,000 named agents, which means that you can have all these different configurations." aria-label="回原文"></button>。
 
-演示里是转换所有发往 GitHub API 的调用、动态注入令牌——模型即使被提示词注入(攻击者诱导模型泄露信息)也永远看不到令牌本身，它只是执行针对 GitHub API 的代码，令牌从不暴露。
+最后还有两个配套工具：开源的 Gemini API CLI,可以本地测试模型、迭代智能体，满意后一键打包上传；
 
-## 调优与上线
-
-智能体调好之后，有两种方式固化为「命名智能体」：一是用一组固定的配置文件和网络源冻结一个；
-
-二是与智能体迭代式聊天、把环境调到你满意，再把整个环境冻结成智能体。
-
-目前支持多达 1,000 个命名智能体，而且存储和沙箱都不收费，只按模型用量付费。
-
-周边配套：
-
-开源了一个 Gemini API CLI,本地测试模型，调好后自动打包上传、直接创建智能体;还发布了一个 Interactions API 迁移技能，喂给你的编码智能体就能自动完成迁移——Ivan 提到一个常见痛点：
-
-让 Gemini 写代码，它总在用 Gemini 2.5 Flash 或 2.0 这些旧版本，这个技能会保持模型列表和方法随时更新。
+以及一个 Interactions API 迁移技能包，喂给你喜欢的编程智能体，就能避免它迁移时还固执地用旧版模型。
 
 ## 本集带走
 
-- **两个 ID 管住全部状态**：interaction ID 保留对话上下文(不还 thought signatures 性能会掉)、环境 ID 路由回同一个持久化沙箱——自己不用写任何状态持久化代码。
-- **跨模态组合只需改参数**：同一个 client.interactions.create 方法，改响应模态就能从图像切到音频再到视频，interaction ID 一传，上下文跨模型复用。
-- **智能体安全靠代理注入凭据**：出站调用经中间人代理动态注入令牌，模型被提示词注入也拿不到 token。
-- **本地技能直接上云**：anti-gravity 本地调好的技能打包成文件夹上传，云端跑的就是同一个智能体；最多 1,000 个命名智能体免存储费。
+- 智能体的本质越来越接近一个强模型在循环里跑，模型越强，外围脚手架越少
+- Interactions API 用一个入口统一调用所有模型和智能体，interaction ID 让上下文和服务端状态自动保留
+- outputs 的嵌套结构被 steps 数据模型取代，每步输出都有明确类型标记，多模态管线更好搭了
+- Managed Agents 提供持久远程沙箱，environment ID 路由回原环境，烧掉 200 万 token 的仓库分析也能一次调用完成
+- 安全靠中间人代理动态注入凭证，模型永远接触不到 token;命名智能体最多 1000 个，只按模型调用付费
 
-<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
-> <span class="qz">如果你有一个真正强大的模型，你会发现，随着模型越来越强大，很多脚手架已经消失了。</span>  
+> <span class="qz">如果你有一个真正强大的模型，你会发现，随着模型变得越来越强大，很多脚手架已经消失了。</span>  
 > *If you have a really capable model, you'll find that as we've got models that become more and more capable, a lot of the scaffolding has fallen away.*  
 > <span class="qm">—— Ivan Leo · [02:18]</span> ^q1
 
+> <span class="qz">有时我们与不同的初创公司交流时，发现他们仅仅因为误加了一个空白字符就会丢失缓存。</span>  
+> *And sometimes when we talk to different startups, we found that they would lose their cash just with a single white space that they mistakenly added in.*  
+> <span class="qm">—— Ivan Leo · [05:49]</span> ^q2
+
+> <span class="qz">这一切都归结于我们新的 steps 数据模型——我们不再处于“向模型发送单条消息并得到一个响应”的世界，而是会有非常复杂的东西，比如异步工具调用、模型之间协同工作。</span>  
+> *And all this boils down to the new steps data model that we have, where instead of a world where we have a single message sent to a model and a response, we're going to have very complex things like async tool calls, models working together.*  
+> <span class="qm">—— Ivan Leo · [09:04]</span> ^q3
+
 > <span class="qz">因此，即使模型以某种方式被提示词注入并泄露了你的 GitHub API 令牌，它实际上也永远不会看到这个令牌。</span>  
 > *And so even if the model is somehow prompt injected and leaks your GitHub API token, it's never actually going to see the token.*  
-> <span class="qm">—— Ivan Leo · [14:10]</span> ^q2
-
-> <span class="qz">你不需要为沙箱付费。你只需要为模型付费。</span>  
-> *You don't pay for the sandbox. You only pay for the model.*  
-> <span class="qm">—— Ivan Leo · [15:17]</span> ^q3
+> <span class="qm">—— Ivan Leo · [14:10]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

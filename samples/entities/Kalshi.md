@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]]**(02:47起):本集主角：受联邦监管的预测市场交易所，用户互相交易、平台只收手续费，两年估值从 50 亿美元涨到 220 亿，正以小企业对冲为增长最快的业务之一。
+- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]]**(02:47起):本集主角：受联邦监管的预测市场交易所，用户互相交易、平台只收手续费，两年估值从 50 亿美元涨到 220 亿，正以小企业对冲为增长最快的业务之一。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]] — 作为被讨论公司
+- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]] — 作为被讨论公司
 
 ## ③ 关联
 

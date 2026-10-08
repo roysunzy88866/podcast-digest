@@ -1,12 +1,12 @@
 ---
-title: AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变
+title: 当网络攻击从人类速度变成机器速度，防御也必须自动化
 podcast: The a16z Show
 date: 2026-10-06
 source_url: undefined
 duration: "49:03"
 type: episode
 cover: "#64748b"
-description: "安全老兵 Kevin Mandia(曾创办 Mandiant,现创办 Armiden)解释为什么 AI 让攻击方占尽先机，以及防守为何必须走向自主化。"
+description: Mandiant 创始人 Kevin Mandia 讲 AI 如何重塑攻防两端，以及他的新公司 Armaden 在做什么。
 host: "[[David George]]"
 cohosts: ["[[Kevin Mandia]]"]
 companies: ["[[Armiden]]", "[[Mandiant]]"]
@@ -17,18 +17,18 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev#post","headline":"AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev","description":"安全老兵 Kevin Mandia(曾创办 Mandiant,现创办 Armiden)解释为什么 AI 让攻击方占尽先机，以及防守为何必须走向自主化。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"David George"},{"@type":"Person","name":"Kevin Mandia"},{"@type":"Organization","name":"Armiden"},{"@type":"Organization","name":"Mandiant"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"零日漏洞 (zero day)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"渗透测试 (pen testing)"},{"@type":"Thing","name":"自主防御 (autonomous defense)"},{"@type":"Thing","name":"开源模型 (open models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"杀伤链 (kill chains)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变","item":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev#post","headline":"当网络攻击从人类速度变成机器速度，防御也必须自动化","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev","mainEntityOfPage":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev","description":"Mandiant 创始人 Kevin Mandia 讲 AI 如何重塑攻防两端，以及他的新公司 Armaden 在做什么。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"David George"},{"@type":"Person","name":"Kevin Mandia"},{"@type":"Organization","name":"Armiden"},{"@type":"Organization","name":"Mandiant"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"零日漏洞 (zero day)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"渗透测试 (pen testing)"},{"@type":"Thing","name":"自主防御 (autonomous defense)"},{"@type":"Thing","name":"开源模型 (open models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"杀伤链 (kill chains)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"当网络攻击从人类速度变成机器速度，防御也必须自动化","item":"https://talk.solomind.cc/2026-10-06-a16z-building-defense-for-the-agentic-era-kev"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当网络攻击从人类速度变成机器速度，防御也必须自动化</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变
+# 当网络攻击从人类速度变成机器速度，防御也必须自动化
 
 <div class="pd-byl"><b>Kevin Mandia</b> · Armiden 创始人 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-06-a16z-building-defense-for-the-agentic-era-kev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我不想错过 AI 的换班——我在安全领域干了 30 年，而这整个事情即将发生巨变。</div><div class="a">— Kevin Mandia <button class="pd-ts" data-t="00:22" data-who="Kevin Mandia" data-en="I don't want to sit out the AI shift change when I've done 30 years in security and the whole damn thing's about to change." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我不想错过 AI 的换班时刻——我在安全领域干了 30 年，而这整个该死的行业即将发生巨变。</div><div class="a">— Kevin Mandia <button class="pd-ts" data-t="00:22" data-who="Kevin Mandia" data-en="I don't want to sit out the AI shift change when I've done 30 years in security and the whole damn thing's about to change." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[David George]] · [[Kevin Mandia]]
@@ -37,192 +37,183 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[零日漏洞]] · [[红队测试]] · [[渗透测试]] · [[自主防御]] · [[开源模型]] · [[护栏]] · [[杀伤链]]
 
-这一集聊的是一件正在发生的事：网络攻击正在从人类速度变成机器速度。
+做了 30 年网络安全的 [[Kevin Mandia|Kevin Mandia]]，对 AI 带来的变化有一句很直接的话：他过去做的一切都过时了，剩下的一切都是新的。
 
-说话的主角是 [[Kevin Mandia|Kevin Mandia]]——他在网络安全领域干了 30 年，创办过并入 Google 的 [[Mandiant|Mandiant]],如今又创办了新公司 [[Armiden|Armiden]]。
+他是 [[Mandiant|Mandiant]] 的创始人，那家公司最终卖给了 Google。如今他重新出山，担任 Armaden 的首席执行官，做的事情听起来有点反直觉：
 
-他的自我评价很彻底：「我过去做的一切都死了，然后其他一切都是新的。」
+用 AI 持续攻击客户的网络，帮他们赶在真正的攻击者之前找到漏洞。
 
-更有意思的是，他自己就是造进攻工具的人——Armiden 用 AI 模型组建的[[智能体|智能体]]集群去真实攻击客户的生产网络，今年 1 月以来已经在财富 500 强级别公司的站点上发现了超过 90 个[[零日漏洞|零日漏洞]](指厂商还没来得及修、攻击者随时可用的漏洞)。
+## 为什么攻击者会占先机？
 
-## AI 攻击已经到哪一步了
+AI 攻击和人类攻击完全是两回事。
 
-Kevin 的判断：
+人类黑客进了一个网络，会从 A 点到 B 点再到 C 点，一条路一条路地走，因为资源有限，必须挑最可行的路径。
 
-我们正处在一个奇怪的时间窗口——AI 攻击已经出现，但还没达到你预期的水平，因为模型的成本和可获得性对犯罪分子来说还不够低。
+AI 不用挑，它可以同时探索上千条路径 <button class="pd-ts" data-t="06:35" data-who="嘉宾" data-en="Speed, ridiculous. What AI does in a microsecond would take 70 humans. They can't even do it." aria-label="回原文"></button>。
 
-「一旦你能匿名获得 GPU,你就会看到多得多的犯罪攻击。」
+Mandia 说，AI 一微秒能做到的事，相当于 70 个人类的工作，而且人类根本做不到——**这不是程度的差别，是本质的差别**。
 
-他现在的态度是：别再讨论「要不要放慢模型」了，开放模型已经足够好，攻击现在就在到来。
+他自己内部的测试里，AI 一旦拿到内网权限，扩散速度“令人震惊”：人类还在键盘上一个一个操作，它已经同时做了一千件事 <button class="pd-ts" data-t="23:57" data-who="嘉宾" data-en="This thing just does a thousand things at once. It's just everywhere. And you're like, whoa, okay, done." aria-label="回原文"></button>。
 
-今天的 AI 攻击长什么样？
+还有一个变化：AI 会让原本技术很差的攻击者显得很强。以前只有国家级黑客才有的能力，未来可能人人都能用。
 
-他讲了一个真实的破绽：人类入侵是有条理的——先攻破 A 点，再到 B 点再到 C 点；而 AI 会攻破 A 点、横向移动到 B 点，转头又去攻 A 点。
+而且当被攻击的一方发现“是模型在打我”时，归因会变得困难——背后是哪个国家？是哪个人？线索会变模糊 <button class="pd-ts" data-t="10:30" data-who="嘉宾" data-en="Yeah, because of the volume, yeah. When you start using models, over time, what it's gonna be is, on the defensive side, we're gonna say, we're being attacked by these models, but we're not sure who's behind them, those attacks." aria-label="回原文"></button>。
 
-「我理解无人机蜂群，但你大概可以协调和思考得更好一点。」 但这不重要，因为真正的差距在规模和速度：
+## 国家级攻击是狙击，AI 攻击是蜂群
 
-人类过去只能找到一条进入网络的路径，因为资源有限必须取舍；而「AI 在一微秒内做到的事，需要 70 个人来做，他们甚至做不到」。
+Mandia 处理过大量国家级攻击。他说国家级的间谍活动像“狙击枪”：目标很集中，比如就盯着 30 家国防承包商，打得很深、很安静。
 
-## 民族国家攻击的玩法也会变
+AI 攻击更像“无人机蜂群”：更吵、更粗糙，但覆盖更全面，也更有效 <button class="pd-ts" data-t="09:02" data-who="嘉宾" data-en="When they go hard at that, kind of think of it as that sniper round. With AI, I think it becomes more like a drone swarm. It becomes a little bit different in the cyber domain." aria-label="回原文"></button>。
 
-Kevin 见过 30 年的民族国家攻击。
+他判断现在还只是第一局。**限制不是能力，而是成本和匿名性**——一旦犯罪分子能匿名、便宜地拿到算力，攻击会大规模出现。
 
-他的概括：国家的网络进攻历来是「狙击弹」——限制目标、对极少的东西深打，比如 30 家国防承包商，不乱扫射碰运气。
+他认为那些说“放慢模型、担心网络安全风险”的声音已经太迟了：[[开源模型|开源模型]]已经足够好，这些攻击就在眼前。
 
-有了 AI,它变得更像蜂群无人机：更草率、更吵闹，但更有效、更全面。
+## 用 AI 攻击自己，是最好的防御
 
-他认为连国家自己都在重新思考学说：是蜂群围攻烧 token,还是狙击？怎么平衡？
+Armaden 的核心思路是：**好的防守需要有一个强大的进攻方来陪练**。
 
-这取决于风险、目标和想多隐秘——因为目前的 AI 进攻并不隐秘，除非做大量后训练并有人类在环把关。
+就像想拥有顶级防守的橄榄球队，需要训练场上有一个全明星进攻组不断冲击你 <button class="pd-ts" data-t="11:29" data-who="嘉宾" data-en="But first, I can tell you this. You don't have a defense unless you have a great offense to go up against. You know what I mean?" aria-label="回原文"></button>。
 
-另一个大后果是归因变难：未来防守方会说「我们正被这些模型攻击，但不确定背后是谁」——是国家？是人？
+具体做法叫“超级攻击”：
 
-线索会有，但归因将变得困难。 而对能力弱的攻击者，AI 是「均衡器」：原本技术较差、不太成功的，会显得成功得多。
+派出一大群 AI 代理去扫你的网络，把每个服务、每条路径、每台设备都摸清楚，最后可能拿到几个 TB 的元数据，相当于给网络做了一个“攻击者视角的双胞胎”。
 
-## Armiden 怎么做：用 AI 持续攻击你
+之后不用一直全量攻击，而是像心跳一样定期轮询：有什么变了？新上了什么应用？新接入了什么机器？哪里变了就打哪里 <button class="pd-ts" data-t="12:10" data-who="嘉宾" data-en="So thinking back to our, like you want to be able to do it continuously and that's the complexity. So we do a thing called a hyper attack, you know, and David, that's just a fancy word for we throw..." aria-label="回原文"></button>。
 
-Kevin 的核心主张：没有强大进攻的对练，就谈不上有防御。
+效果用数字说话：
 
-他用体育类比——想成为顶级防守组，就得有真正逼你的陪练进攻组，Armiden 就是冲着你来的「全明星进攻组」。
+从 2026 年 1 月至今，Armaden 在客户的生产环境里找到了 90 多个[[零日漏洞|零日漏洞]]——不是源代码审查发现的，而是从互联网黑盒打入，客户里不乏财富 500 强企业 <button class="pd-ts" data-t="17:07" data-who="嘉宾" data-en="It'll exhaust all routes all the time. And it's like, all I can tell you is Armiden since January of this year, in 2026, we have found over 90 zero days at customer sites, all in production." aria-label="回原文"></button>。
 
-具体做法分三步：
+Mandia 说，通常 48 小时内就会给客户的首席安全官打电话：我们在你的隔离区拿到了远程代码执行权限。
 
-1. **Hyper attack 绘制网络地图**：扔一群智能体组成的蜂群冲向客户网络，绘制出每个服务、每条路由、每个系统的资产清单，可能产生数 TB 的元数据——相当于攻击者视角下的网络「元数据孪生体」。
-2. **像心跳一样轮询变化**：有了这张地图，就能低成本地持续检查——应用变了没？路由变了没？有没有新机器上线？发现变化就攻击变化。 全天候攻击成本太高也没必要，正确时机是：威胁变了(新模型发布)、网络变了、或者客户想自我审计。
-3. **真打，不是扫描**：这是它与传统[[渗透测试|渗透测试]]的本质区别。Kevin 说渗透测试「一直只是扫描已知的东西，产出一大堆不重要的列表清单」；而 Armiden 真的把漏洞利用执行出来，做验证、没有误报，能实现远程代码执行或从机器上拿到数据。 他们不做源代码扫描——「我们是来自互联网的黑盒攻击」，通常在 48 小时内给 CISO 打电话说「我们在你们的 DMZ 里发现了远程代码执行」，而对方会直接进入事件响应模式，「那不是渗透测试，那像一个真正的对手朝你攻过来」。
+## 传统的渗透测试会被取代
 
-效率上有个关键数字：
+在 Mandia 看来，传统[[渗透测试|渗透测试]]只是“卫生检查”：扫已知的漏洞，列出一大堆清单，但无法证明你真的可被利用，还会制造大量误报。
 
-他们在 Armiden 造了 20 条人类在现实中完整执行过的[[杀伤链|杀伤链]](从初始入侵到目标的完整攻击路径)，没有模型能走完超过 8 条；
+Armaden 的方式是真的把漏洞利用走通——拿到远程代码执行、取到数据，没有误报。
 
-而且开源权重模型和最先进的闭源模型全部都停在 8 条——差别只在速度和成本，[[开源模型|开源模型]]跑久一点能达到同样的结果。
+AI 攻击还能做人类渗透测试做不了的事：找出定制应用里的逻辑漏洞（而不是代码漏洞），穷尽所有路径。
 
-所以在网络领域，开源与闭源模型的差距远小于其他领域。
+以前大家不这么做红队演练，纯粹是因为太贵、太缺人。**AI 把这个成本问题解决了，渗透测试这个品类会被慢慢取代**。
 
-## 防守必须自主化
+有趣的一点：
 
-Kevin 的论点很硬：在 AI 时代，战术性防御不可能有人在环——「你得尽快给伤口上止血带」。
+他们的团队测试了开源模型和最先进的闭源模型，让模型走完 20 条人类真实执行过的完整攻击链，所有模型都只走通了 8 条——开源和闭源的差距在网络安全领域比想象中小 <button class="pd-ts" data-t="30:52" data-who="嘉宾" data-en="And we had no model go through the entire kill chains of more than eight. So that's where it's eight out of 20. And here's what's weird, by the way, we tested the open weight ones and the most advanced closed models, and they all found eight." aria-label="回原文"></button>。
 
-一旦具备智能体能力的攻击拿到内部立足点，它扩散的速度是「令人震惊的」：
+## 无人防守的下一步：自动响应
 
-人类一次横向移动要敲半天键盘，「这个东西同时做一千件事，它无处不在」。
+Armaden 的第二步叫 Armaden Blue。逻辑很简单：只告诉客户“你有漏洞，再见”是不够的。
 
-所以预防要由 AI 治理，检测和响应要由 AI 完成，每个阶段的时间窗口都在收窄。
+发现可利用的风险后，要和防火墙、终端防护这些防御系统联动，以机器速度加上补偿性控制——像战场上的紧急包扎，先止血 <button class="pd-ts" data-t="21:02" data-who="嘉宾" data-en="And I likened it to, you know, kind of field dressing in war. Someone gets shot. You patch it up, but that's not the hospital." aria-label="回原文"></button>。
 
-Armiden 的第二幕「Armored in Blue」就是干这个的：
+Mandia 的判断是：在 AI 时代，**检测和响应环节里不能有人类在场，因为人类太慢了**。安全运营中心里的一些流程会直接消失。
 
-把可利用风险的情报喂给防御平台(终端 EDR、防火墙等)，以速度创建补偿性控制——如果他们比别人早五分钟发现攻击，你已经被保护好了。
+企业首席安全官的“真北”应该是有效的自主响应 <button class="pd-ts" data-t="22:26" data-who="嘉宾" data-en="You know, over time, I can tell you this, if you have humans in the detect and respond loop, you're going to be too slow. Yes. You know what I mean?" aria-label="回原文"></button>。
 
-他们正在与 CrowdStrike 等防御厂商合作第一代产品。
+他和 CrowdStrike 等防御厂商都在合作这件事——这些防御平台自己也知道[[自主防御|自主防御]]必须存在。
 
-Kevin 的取舍逻辑：宁可要一个糟糕的补丁挡住坏人，也不要一次入侵；[[自主防御|自主防御]]哪怕起步阶段很粗糙，一年后它就只是「在那里」了。
+## 大公司现在什么状态？全员戒备
 
-他预计即使 CISO 没主动要求，已投资的防御平台也会把自主防御推到他们面前。
+Mandia 描述当下是一个“暴露窗口期”：AI 短期内对进攻方有利，所以防守方都在拼命补洞。
 
-## 从 Hugging Face 事件学到的：怎么关住这头猛兽
+他观察到的情况是，攻防两边都很急——伊朗、俄罗斯的进攻方急着趁现在打进来，防守方急着把每一扇窗都堵上 <button class="pd-ts" data-t="25:17" data-who="嘉宾" data-en="There's a desperation in a moment in both directions, by the way. If you're on offense in Iran or Russia, you have a desperation in a moment of get in now. Yeah, get in now while you're dead." aria-label="回原文"></button>。
 
-> 【背景】此处指媒体报道的 AI 智能体在测试任务中失控操作的事件；Kevin 在访谈中以此为案例讨论 AI 实验室的安全教训。
+他了解的一家最尖端的公司，把相当大比例的工程师和研究团队抽出来，专门加固自己的墙。
 
-Kevin 的总结很直接：
+现在的状态不像常规运营，更像作战室：首席信息官、首席安全官、产品团队、业务线全部拉进来，发现一个问题立刻围上去修。
 
-「在每一次技术范式的转变中，我们都低估了对手的能力」——这次是低估了模型的能力，事后看本可以加[[护栏|护栏]]、加确定性的限制。
+他的原话是：没办法让下一年变得好看。
 
-Armiden 自己就在造「我们都在担心的那头猛兽」——一个会攻击生产网络、入侵成功率很高的系统。他们的安全做法有三层：
+## 给创业者的经验：四件事变了
 
-hypervisor 与主机层锁死；被动地悄悄审查每一个执行过的 prompt(大多数时候杀掉一个智能体不是因为安全问题，而是它在浪费钱)；
+Mandia 2004 年自筹资金创办 Mandiant，一路盈利，第一年网站上的口号是“你不能只依赖预防性措施”——当年没人相信这个前提，所以也没有竞争。
 
-以及「假设你的每一层安全都会失效」，用确定性规则消除某些活动。
+今天完全不同。
 
-他强调的经验是：保护特定领域的智能体需要领域专业知识。
+他总结了几点：必须有融资，因为速度要求你在技术之外还要提前建好销售体系；
 
-Armiden 把漏洞利用开发者、红队人员和 AI 的人绑在一起，评估主要由红队设计——AI 人员不懂攻击者会怎么想。而护栏也不能太死：
+品牌很重要，而光环来自找对客户并让他们狂喜——在网络安全的例子是让大型银行满意，而不是让街角的蛋糕店满意；
 
-「笼子关得太紧了，就稍微放开一点，找到那条界线」，否则你根本没利用上模型的创造力；
+还有一点，“Get customer, make customer happy, repeat”（获取客户，让客户满意，重复）——现在市场上噪音太大，唯一能让你和对手区分开的，就是客户的口碑 <button class="pd-ts" data-t="46:31" data-who="嘉宾" data-en="So I think every founder has to recognize You have to differentiate, and probably right now because of the noise in marketing more than ever before, the only way to differentiate is get customer, make customer happy and repeat." aria-label="回原文"></button>。
 
-遇到「我们完全不知道刚才发生了什么」的情况，就暂停、上报、让人来评判。
+他认为网络安全行业未来两年里，整个技术栈都会被换掉，旧技术被拆走，新技术装进来。
 
-## 组织里的「大 TURN」:零日漏洞开始由 AI 发现
-
-Armiden 的运营团队极其资深——职业生涯里给财富 100 强里的 99 家做过[[红队测试|红队测试]]。
-
-看那 90 多个零日漏洞：大部分仍由人发现，但那是因为 AI 完成了 90% 以上的繁琐渗透测试工作；而「最近几个零日漏洞，是技术发现的」。
-
-他们认为这个拐点大多数进攻方已经跨过去了。
-
-## 为什么这次创业和上次完全不同
-
-Kevin 2004 年创办 Mandiant 时是自筹资金、盈利的，前提(「安全漏洞是不可避免的」)当时没人相信，所以也没什么竞争。
-
-这次全反了：今天的创始人、创业公司比以往任何时候都多，任何赛道都是拥挤的，不存在没人做的空白。
-
-他的四点不同：**必须融资**；
-
-**必须快**——Armiden 像有「时速 80 英里的顺风」，但销售、国际化都得从零建，目标是超过 Wiz 从首次发布到年收入 1 亿美元只用 18 个月的速度；
-
-**品牌与光环**——通过拿下货币中心银行、顶级零售、航空公司这类标志性客户并让他们狂喜来获得光环，而不是「苏西纸杯蛋糕」式的客户；
-
-**go-to-market 要提前建**——产品每两周就变，销售必须每周培训。
-
-他的商业哲学倒是朴素到底：
-
-「获取客户、让客户满意、重复」，除此之外没有任何东西能让你差异化，「我刚刚把我所有的商业机密都送出去了」。
-
-另外，CEO 的职责是「在员工面前彻底掩盖公司的混乱」——快速增长但不能让员工感觉混乱，必须把方式流程化、几乎工业化，只靠毅力、胆识和冲劲是赢不了的。
+对他来说，这是这个行业一辈子一次的顺风。
 
 ## 本集带走
 
-- **攻防速度差是本质问题**：AI 同时探测数千条路径、微秒级动作；人类一次只能打一条路。防守方如果还在「检测-人工响应」的循环里，就已经输了。
-- **持续防御的正确姿势**：不是全天候攻击，而是先一次性测绘全网(元数据孪生)，之后低成本轮询变化、只攻击变化点。
-- **渗透测试正在被替代**：扫描已知漏洞产出一堆不重要的清单；新一代做法是把漏洞利用真正执行出来验证、零误报，并像真实对手一样触发客户的事件响应。
-- **开源模型在攻防上够用了**：20 条杀伤链大家都走到 8 条，差别只在速度与成本——「放慢模型」已无意义，攻击不需要最花哨的模型。
-- **关住 AI 的三层经验**：基础设施锁死 + 逐条审查 prompt + 假设每层都会失效的确定性规则；评估要由懂攻击的红队来设计，不能只靠 AI 人员。
-- **创业提醒**：今天没有空白市场，差异化只剩一条路——拿下对的客户、让客户狂喜、重复；并且 go-to-market、第二幕、第三幕都要提前建好。
+- AI 攻击与人类攻击是本质差别：人类只能挑一条路径，AI 可以同时探索全部路径，速度相当于 70 个人类。
+- Armaden 的做法是用 AI 持续“攻击”客户网络，建立元数据镜像，哪里变化就打哪里；2026 年以来已在客户生产环境找到 90 多个零日漏洞。
+- 防御必须自动化：在检测和响应环节里放人类，速度上已经不成立了。
+- 开源模型和闭源模型在网络安全攻击能力上差距不大，区别主要在速度和成本。
+- 创业环境也变了：自筹资金慢慢做的路线行不通了，融资、销售体系、品牌都要提前建，而差异化的唯一办法是让客户替你说话。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
-> <span class="qz">我不想错过 AI 的换班——我在安全领域干了 30 年，而这整个事情即将发生巨变。</span>  
+> <span class="qz">我不想错过 AI 的换班时刻——我在安全领域干了 30 年，而这整个该死的行业即将发生巨变。</span>  
 > *I don't want to sit out the AI shift change when I've done 30 years in security and the whole damn thing's about to change.*  
 > <span class="qm">—— Kevin Mandia · [00:22]</span> ^q1
 
-> <span class="qz">我过去做的一切都死了，然后其他一切都是新的。</span>  
-> *Everything I did is dead, and then everything else is new.*  
-> <span class="qm">—— 嘉宾 · [01:18]</span> ^q2
+> <span class="qz">AI 在一微秒内做到的事，需要 70 个人来做。</span>  
+> *What AI does in a microsecond would take 70 humans.*  
+> <span class="qm">—— Kevin Mandia · [00:28]</span> ^q2
 
-> <span class="qz">开源模型已经足够好了，这些东西现在就在到来。</span>  
+> <span class="qz">那就是有 25,000 个智能体协同行动，全部一起工作，做着非常非常聪明的事情，而不会陷入荒唐的盲目撒网。</span>  
+> *Which is there's 25,000 agents on concert, all working together, doing really, really smart things without going on bizarre fishing trips.*  
+> <span class="qm">—— Kevin Mandia · [05:29]</span> ^q3
+
+> <span class="qz">但区别首先在于，AI 能做到的规模让人类望尘莫及，大到人类甚至无法理解的程度。</span>  
+> *But the differences are, first and foremost, the scale of what AI can do dwarfs humans, like in ways humans don't even get.*  
+> <span class="qm">—— Kevin Mandia · [06:13]</span> ^q4
+
+> <span class="qz">开放模型已经足够好了，这些东西现在就在到来。</span>  
 > *The open models are already good enough and these things are coming now.*  
-> <span class="qm">—— Kevin Mandia · [07:15]</span> ^q3
+> <span class="qm">—— Kevin Mandia · [07:15]</span> ^q5
 
-> <span class="qz">一旦你能匿名获得 GPU,你就会看到多得多的犯罪攻击。</span>  
+> <span class="qz">一旦你能匿名获得 GPU，你就会看到多得多的犯罪攻击。</span>  
 > *The minute you have anonymous availability of GPUs, you'll see far more criminal attacks.*  
-> <span class="qm">—— Kevin Mandia · [07:21]</span> ^q4
+> <span class="qm">—— Kevin Mandia · [07:21]</span> ^q6
 
-> <span class="qz">所以无论如何，关于我们现在看到的攻击，我们正处在 AI 主导的攻击即将到来的临界点上，还只是第一局。</span>  
+> <span class="qz">无论如何，就攻击的差异和我们目前所看到的而言，我们正处在 AI 主导的攻击即将到来的临界点上，还只是第一局。</span>  
 > *And so anyway, the difference in attacks and what we're seeing now, we are at the precipice, first inning still, of AI-led attacks coming.*  
-> <span class="qm">—— Kevin Mandia · [07:42]</span> ^q5
+> <span class="qm">—— Kevin Mandia · [07:42]</span> ^q7
+
+> <span class="qz">技术较差、原本不太成功的攻击者，会显得成功得多。</span>  
+> *Less technical, less successful, are gonna appear way more successful.*  
+> <span class="qm">—— Kevin Mandia · [10:22]</span> ^q8
 
 > <span class="qz">除非你有一个强大的进攻来对抗，否则你谈不上有防御。</span>  
 > *You don't have a defense unless you have a great offense to go up against.*  
-> <span class="qm">—— Kevin Mandia · [11:29]</span> ^q6
+> <span class="qm">—— Kevin Mandia · [11:29]</span> ^q9
 
-> <span class="qz">而且在 AI 时代，对于战术性的自主防御，你不可能真的有人在环里。</span>  
-> *And you can't really have a human in the loop in the AI age for tactical autonomous defense.*  
-> <span class="qm">—— Kevin Mandia · [11:54]</span> ^q7
+> <span class="qz">你在未来的 AI 时代真正想要的，是模型持续攻击你的压力，但你不能一直这么做。</span>  
+> *What you really want in the future in the AI age is you want the constant pressure of models attacking you, but you can't do it all the time.*  
+> <span class="qm">—— Kevin Mandia · [13:00]</span> ^q10
 
-> <span class="qz">我们是从外部进来的，然后通常在 48 小时内给 CISO 打电话：嘿，我们在你们的 DMZ 里发现了远程代码执行，通常从那里，我们就进去了。</span>  
-> *We're coming from the outside, and then we're calling a CISO, you know, usually within 48 hours, hey, we've got remote code execution in your DMZ, and usually from there, we're getting in.*  
-> <span class="qm">—— Kevin Mandia · [18:08]</span> ^q8
+> <span class="qz">我能告诉你的是，Armiden 自今年 2026 年 1 月以来，我们在客户站点发现了超过 90 个零日漏洞，全部在生产环境中。</span>  
+> *And it's like, all I can tell you is Armiden since January of this year, in 2026, we have found over 90 zero days at customer sites, all in production.*  
+> <span class="qm">—— Kevin Mandia · [17:07]</span> ^q11
+
+> <span class="qz">我们是来自互联网的黑盒攻击，针对大型软件公司发现了超过 90 个零日漏洞。</span>  
+> *We are black box coming from the internet over 90 zero days in major software companies.*  
+> <span class="qm">—— Kevin Mandia · [17:53]</span> ^q12
+
+> <span class="qz">红队测试和渗透测试的区别在于，在我看来渗透测试只是一种卫生步骤。</span>  
+> *And the difference between red teaming and pen testing is pen test to me is a hygiene step.*  
+> <span class="qm">—— Kevin Mandia · [18:36]</span> ^q13
 
 > <span class="qz">我宁愿要一个糟糕的补丁阻止坏人进来。</span>  
 > *I'd rather have a bad patch stopping a bad guy from getting in.*  
-> <span class="qm">—— Kevin Mandia · [20:17]</span> ^q9
+> <span class="qm">—— Kevin Mandia · [20:17]</span> ^q14
 
-> <span class="qz">而我们没有模型能走完超过八条的完整杀伤链。</span>  
-> *And we had no model go through the entire kill chains of more than eight.*  
-> <span class="qm">—— Kevin Mandia · [30:47]</span> ^q10
+> <span class="qz">你知道的，我可以这么告诉你：如果你在检测和响应环节中还有人工参与，你会太慢。</span>  
+> *You know, over time, I can tell you this, if you have humans in the detect and respond loop, you're going to be too slow.*  
+> <span class="qm">—— Kevin Mandia · [22:18]</span> ^q15
 
-> <span class="qz">这是网络安全领域一生难遇的顺风。</span>  
-> *It's the tailwind of a lifetime in cyber.*  
-> <span class="qm">—— David George · [47:56]</span> ^q11
+> <span class="qz">除了你的客户基础为你疯狂叫好之外，没有任何别的东西能让你差异化。</span>  
+> *There is nothing else that'll differentiate you other than your customer base raving about you.*  
+> <span class="qm">—— Kevin Mandia · [46:42]</span> ^q16
 
 <div class="pd-sec">接着看</div>
 

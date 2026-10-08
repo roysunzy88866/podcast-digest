@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(53:27起):本集以贺建奎对双胞胎婴儿删除 HIV 受体事件为线索,讨论基因编辑的伦理:科学界‘要小心,不过成功了吗’的诡异观望,以及胚胎筛查、智商相关筛选早已存在的梯度。
+- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(53:27起):本集以贺建奎对双胞胎婴儿删除 HIV 受体事件为线索,讨论基因编辑的伦理:科学界‘要小心,不过成功了吗’的诡异观望,以及胚胎筛查、智商相关筛选早已存在的梯度。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为概念
+- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为概念
 
 ## ③ 关联
 

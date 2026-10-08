@@ -1,12 +1,12 @@
 ---
-title: AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌
+title: AI基建狂潮比你想的更大，而且还没到头
 podcast: Big Technology Podcast
 date: 2026-10-08
 source_url: undefined
 duration: "63:22"
 type: episode
 cover: "#64748b"
-description: SemiAnalysis 创始人 Dylan Patel 与分析师 Jordan Annos 解析 AI 基建浪潮的真实规模、钱从哪来、会不会崩盘。
+description: SemiAnalysis 创始人 Dylan Patel 和分析师 Jordan Nanos 讲清 AI 基建投入的真实规模、钱从哪来、以及谁可能先倒下。
 guests: ["[[Dylan Patel]]"]
 companies: ["[[SemiAnalysis]]", "[[NVIDIA]]", "[[Anthropic]]", "[[OpenAI]]", "[[Oracle]]", "[[CoreWeave]]", "[[Nebius]]", "[[Meta]]", "[[DeepMind]]", "[[Google]]"]
 concepts: ["[[新云]]", "[[资本支出]]", "[[推理]]", "[[GPU]]", "[[数据中心]]", "[[安全]]"]
@@ -15,18 +15,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#post","headline":"AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s","description":"SemiAnalysis 创始人 Dylan Patel 与分析师 Jordan Annos 解析 AI 基建浪潮的真实规模、钱从哪来、会不会崩盘。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Dylan Patel"},{"@type":"Organization","name":"SemiAnalysis"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Oracle"},{"@type":"Organization","name":"CoreWeave"},{"@type":"Organization","name":"Nebius"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"DeepMind"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"新云 (NeoCloud)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"安全 (security)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌","item":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#post","headline":"AI基建狂潮比你想的更大，而且还没到头","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s","mainEntityOfPage":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s","description":"SemiAnalysis 创始人 Dylan Patel 和分析师 Jordan Nanos 讲清 AI 基建投入的真实规模、钱从哪来、以及谁可能先倒下。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Dylan Patel"},{"@type":"Organization","name":"SemiAnalysis"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Oracle"},{"@type":"Organization","name":"CoreWeave"},{"@type":"Organization","name":"Nebius"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"DeepMind"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"新云 (NeoCloud)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"安全 (security)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI基建狂潮比你想的更大，而且还没到头","item":"https://talk.solomind.cc/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI基建狂潮比你想的更大，而且还没到头</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌
+# AI基建狂潮比你想的更大，而且还没到头
 
 <div class="pd-byl"><b>Dylan Patel</b> · SemiAnalysis CEO · 2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级——不只是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。</div><div class="a">— Dylan Patel <button class="pd-ts" data-t="03:01" data-who="Dylan Patel" data-en="If you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级，不仅仅是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。</div><div class="a">— Dylan Patel <button class="pd-ts" data-t="03:01" data-who="Dylan Patel" data-en="if you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Dylan Patel]]
@@ -35,224 +35,229 @@ jsonLd: |
 >
 > **概念** [[新云]] · [[资本支出]] · [[推理]] · [[GPU]] · [[数据中心]] · [[安全]]
 
-这一集聊的是所有人都关心的问题：AI 需要多大的规模，才能证明数万亿美元基础设施支出的合理性？
+Alex 的 Big Technology Podcast 这期请来了 [[SemiAnalysis|SemiAnalysis]] 的创始人 [[Dylan Patel|Dylan Patel]] 和团队成员 Jordan Nanos。
 
-嘉宾是 [[SemiAnalysis|SemiAnalysis]] 的 CEO 兼创始人 [[Dylan Patel|Dylan Patel]] 和技术团队成员 Jordan Annos——SemiAnalysis 是 AI 基础设施领域最有影响力的研究机构。
+这家研究机构被主持人称为 AI 基础设施领域的圣经，两人合著的 [[GPU|GPU]] 云服务商评级报告 ClusterMax 3.0 是行业买家的重要参考。
 
-主持人抛出一张在 X 上流传的图：AI 建设占 GDP 的比例年均约 3.6%，比铁路当年的 2.2% 还高 50%，前所未有。
+这一小时的对话，回答了所有人都在问的问题：==这场几万亿美元的基建狂潮，到底能不能自己养活自己==？
 
-Dylan 的第一反应是：「**大家的数字太低了，实际情况比那高得多了**」<button class="pd-ts" data-t="02:50" data-who="Dylan Patel" data-en="I'd love to hear your perspective on just how big this is, whether that's the right way to look at it, and then what it means if we're building out something this big." aria-label="回原文"></button>。
+## 这轮基建到底有多大？比你看到的图表还大
 
-## 真实规模：不是 3.6%，是 5% 到 6%
+最近流行一张图，把 AI 基建比作当年的铁路和高速公路，说它占美国 GDP 约 3.6%，比铁路时代的 2.2% 还高出一半。
 
-Dylan 算了一笔账：
+Dylan 的第一反应是：这些数字太低了。
 
-明年全美国的 [[资本支出|CapEx]]（资本支出，即买地建楼买芯片这些花在资产上的钱）将达到大约 2 万亿美元量级——不只是[[数据中心|数据中心]]和芯片，还包括整个供应链的投资。
+他估算，明年美国的资本开支将在 2 万亿美元量级——不只[[数据中心|数据中心]]和芯片，还包括整条供应链。
 
-而美国 GDP 大约 30 万亿出头，所以占比已经到了 5% 到 6%，不是 3% 或 2%<button class="pd-ts" data-t="03:00" data-who="Dylan Patel" data-en="Yeah, yeah. So like, I mean, if you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in." aria-label="回原文"></button>。
+叠加约 30 万亿美元的 GDP，**实际占比可能是 5% 或 6%**。<button class="pd-ts" data-t="03:00" data-who="Dylan" data-en="Yeah, yeah. So like, I mean, if you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in." aria-label="回原文"></button>
 
-为什么比铁路还夸张？
+为什么偏高？
 
-因为铁路、光纤的 CapEx 都花在部署国境内，而 AI 基础设施不同：[[Anthropic|Anthropic]] 和 [[OpenAI|OpenAI]] 服务欧洲的大部分[[推理|推理]]，是在美国的数据中心里跑的。
+因为铁路和光纤的钱花在哪个国家，就服务哪个国家；而 AI 不一样——欧洲用户用的 [[Anthropic|Anthropic]] 和 [[OpenAI|OpenAI]] [[推理|推理]]，大多跑在美国的数据中心里。
 
-全世界的训练在美国做、全世界的推理也大量从美国输出，所以美国的 CapEx 高得反常，容量的经济影响比以往任何一轮物理基建周期都大 <button class="pd-ts" data-t="04:01" data-who="Dylan Patel" data-en="But for AI infrastructure, your CapEx in America is actually a lot of it's being used to serve outside of America uses. Right. So if you look at, for example, Europe, most of Europe's inference for Anthropic is in America and most of OpenAI's inference in Europe is in America." aria-label="回原文"></button>。
+美国建的房子，服务的是全世界的需求。
 
-## 增长会减速，但华尔街每次都猜错方向
+## 华尔街又低估了，但这次是双向的
 
-Jordan 的 ClusterMax 报告追踪了超大规模云厂商的季度同比 CapEx 增长：
+Jordan 指出一个有趣的现象：
 
-2026 年第三季度高达 116%，而华尔街共识预期是四季度跌破 100%、明年一季度降到 70%、之后一路下滑。
+2026 年第三季度，超大规模云厂商的资本开支同比增长 116%，而华尔街的一致预期是之后逐季降到 100% 以下、再到 70% 多。
 
-Jordan 认为到明年年底确实会碰到极限——不是需求没了，而是组织能力和资本跟不上：
+这又是老套路——基数已经这么大，不可能再翻倍了吧？
 
-最大的新兴云厂商和超大规模云厂商很难在已建规模之上再调动资源多建一个吉瓦，也很难在数万亿美元的量级上继续筹到资本 <button class="pd-ts" data-t="08:04" data-who="Jordan" data-en="One is like, it becomes really hard for the biggest neoclouds in hyperscalers to just organize and marshal the resources required to build another gigawatt on top of what they're already trying to build, for example." aria-label="回原文"></button>。
+Dylan 打了个比方：问一个小孩能想到的最大数字，小孩说 1100。而现实是，我们已经在万亿了。<button class="pd-ts" data-t="06:24" data-who="Dylan" data-en="Wait, Jordan, before you answer seriously, it's like when you ask a kid, what's the biggest number they can think of? And they say like, 1100, right? And it's like, no, no, no, no, we're at a trillion, babe." aria-label="回原文"></button>（他补了一句，这个小孩是华尔街。）
 
-另外从数学上讲增速必然放缓：Anthropic 今年营收从不到 100 亿美元涨到超过 1000 亿，是 10 倍增长，但它明年不可能营收一万亿 <button class="pd-ts" data-t="08:26" data-who="Dylan Patel" data-en="I would say the other thing is like, by definition, the numbers have to shrink. You know, this year we have 10x growth, Anthropic going from sub $10 billion of revenue to north of 10, north of 100 billion, so they had 10x growth." aria-label="回原文"></button>。
+但 Jordan 也承认，**增长终会减速**，原因很实际：最大的云厂商很难在已建的 gigawatt 之外再组织资源多建一个；
 
-## 对那些「还不起钱」的警告：大部分算错了
+数万亿美元级别的融资本身就难。另外从数学上讲，Anthropic 收入刚涨了 10 倍，不可能明年再涨 10 倍——总收入不可能凭空到 1 万亿美元。
 
-主持人引用了几条悲观判断：高盛称 [[Meta|Meta]]「背负无法偿还的债务、实施了企业自杀」；
+## 要多少收入才回本？看看账怎么算
 
-Bain 说超大规模云厂商到 2031 年需要每年 6 万亿收入才能盈亏平衡；
+外界有不少惊人估算：贝恩说超大规模厂商 2031 年前需要每年 6 万亿美元收入才能打平；
 
-哥伦比亚大学教授说美国到 2032 年需要每年在 AI 服务上花 3.5 万亿、占 GDP 8.8%，才能证明今天数据中心投资的合理性。
+一位哥大教授说美国需要每年 3.5 万亿美元的 AI 服务支出。Dylan 的回答是：**所有人的收入预估都偏低，实际收入会远超这些数字**。
 
-Dylan 的回应很直接：**所有这些收入要求数字都算低了** <button class="pd-ts" data-t="10:28" data-who="Dylan Patel" data-en="Yes. I mean, I think I think everyone's numbers for revenue requirements are quite low, given where this build out is going to go. I think I think it's going to go like I think revenue will be much higher than that by 2031, for example." aria-label="回原文"></button>。
+他的算法很简单：
 
-关于 Meta：它任何时候都可以停止买新东西，已有现金流足以轻松支付已签约的所有东西，「想拔插头随时可以拔」<button class="pd-ts" data-t="11:43" data-who="Dylan Patel" data-en="As far as statements on Meta, it's like this is just kind of silly because Meta at any point can just stop buying new stuff and their cash flow can easily pay for all the stuff that they've signed." aria-label="回原文"></button>。
+数据中心资产按 6 年折旧（建筑实际能用 15 年），今天投入 1 万亿美元，6 年内需要约 1.5 万亿美元收入回本，也就是每年 2500 亿美元。
 
-关于回报周期：基建按会计口径六年折旧（[[GPU|GPU]] 用六年、数据中心用 15 年），今天花 1 万亿，六年里需要约 1.5 万亿收入、即每年约 2500 亿才能回本。
+而 AI 收入天然滞后于资本开支——今天的收入对应的是几年前建的设施。<button class="pd-ts" data-t="11:14" data-who="Dylan" data-en="But that means definitionally in terms of revenue, either I could assume it's a straight line, right? So then over the six years, I need to call it 1.5 trillion of revenue." aria-label="回原文"></button>
 
-而他的核心判断是：
+他给的数字：Anthropic 的收入减去训练加推理的算力成本，已经转正盈利；OpenAI 两三个季度内也会到。
 
-**今天的收入滞后于前几年的投入，错配是建设期的必然**——现在 CapEx 没有每年 10 倍增长，但 AI 实验室的收入刚刚同比涨了 10 倍 <button class="pd-ts" data-t="13:02" data-who="Dylan Patel" data-en="Because that AI revenue for today is really based on the infrastructure you spent in prior years. And right now, CapEx is not going up at 10x a year, but revenue just went up 10x year on year for the AI labs." aria-label="回原文"></button>。
+两家公司合计的收入还会继续高速增长，到 2027 年底可能达到非常可观的规模。
 
-他甚至认为 Anthropic 已经在「收入减去训练加推理的全部算力成本」意义上盈利，OpenAI 两三个季度内也会到达；
+至于[[Meta|Meta]] 借了还不完的债这类说法，Dylan 直斥荒唐——Meta 随时可以停止买新东西，现有现金流足以覆盖已签的合同，随时可以踩刹车。
 
-Amazon 的全部 AI 基建投资今天都在盈利，AI 还推高了它的毛利率 <button class="pd-ts" data-t="13:34" data-who="Dylan Patel" data-en="So I think those companies are already breaking even. If you look at like Amazon, for example, the biggest builder of AI infrastructure, all of their AI infrastructure investments are profitable today." aria-label="回原文"></button>。
+> 【背景】Dylan Patel 曾公开预测：两家公司明年年底合计收入可能达 6000 亿到 7000 亿美元，2027 年底甚至可能到 1.5 万亿美元。此数字未在本段原文中出现，仅供参考。
 
-## 钱从哪来：吃的是资本份额，不是工资单
+## 这么多钱，最终从谁的口袋里出？
 
-如果 AI 服务要长成万亿级市场，客户的钱从哪来？
+如果 AI 服务支出在 2025 年已占 GDP 的 8.8%（仅次于医疗的 18% 和食品的 9.1%），钱从哪来？
 
-Dylan 的框架：一部分来自企业研发预算和售出商品成本里流向 AI 的份额，一部分来自劳动力。
+Dylan 的答案指向一条几十年的老趋势：劳动收入占 GDP 的份额自 70 年代以来持续下滑，价值越来越多地归于资本。
 
-他强调劳动力总额未必缩减——经济其他部分涨得太快，以美元计的劳动收入可能平稳甚至缓慢增长。真正被挤压的是**份额**：
+**AI 会把这条线加速**——因为 AI 的 token 本质上就是资本（芯片和数据中心）在生产劳动。
 
-自 70 年代以来，劳动收入占 GDP 的比重一直在缓慢下降，价值在向资本累积；
+他不认为劳动的绝对金额会缩水，而是整个经济长得太快，劳动份额被稀释。<button class="pd-ts" data-t="17:13" data-who="Dylan" data-en="In reality, a lot more of the value is accruing to capital. What AI does is it's going to supercharge that long-term trend of labor share versus capital share because AI tokens are basically just capital in the form of chips and data centers that are sitting there and creating labor." aria-label="回原文"></button>
 
-而 AI 会超级加速这个趋势，因为「AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力」<button class="pd-ts" data-t="17:13" data-who="Dylan Patel" data-en="In reality, a lot more of the value is accruing to capital. What AI does is it's going to supercharge that long-term trend of labor share versus capital share because AI tokens are basically just capital in the form of chips and data centers that are sitting there and creating labor." aria-label="回原文"></button>。
+他举的例子是芯片设计：美国芯片设计工程师数量 20 年基本持平，但行业价值爆炸式增长——[[NVIDIA|NVIDIA]]、Broadcom 都来自这个池子。
 
-他举了芯片设计做类比：
+工具变强，同样的人做出更值钱的东西。他认为很多行业都能复制这个模式。
 
-美国芯片设计研发工程师的人数 20 年来基本持平，但这个行业的价值爆炸式增长——[[NVIDIA|NVIDIA]]、博通都是全球最值钱的公司——靠的是工具的进步。
+Jordan 补充了想象空间：
 
-AI 会让全经济所有的芯片（手机、耳机、机器人、传感器）都更好，同样的人数、更高的营收和利润率。
+如果这些公司真能做出最好的模型，能做几乎所有知识工作，收入来源就不会只是按 token 卖 Claude Code——可以是抗癌药、自动驾驶、机器人。
 
-「有很多行业都可以复制这种模式」<button class="pd-ts" data-t="19:39" data-who="Dylan Patel" data-en="You do it with the same number of people, revenue grows, margins grow, everything looks fantastic, right? And that's sort of like, there's many industries where this can get replicated in my view." aria-label="回原文"></button>。
+到那时候，回本根本不是问题。
 
-那么知识工作呢？Dylan 把信念分了时间线：
+## 真正的风险不是需求消失，而是安全和烂服务商
 
-只要 AI 强大但还没在几乎所有方面超过人类，最有主观能动性的人能做出最酷的事、对世界产生大得多的影响；
+说到什么会掀翻这桌牌，Jordan 的判断是：**目前所有建模都显示需求超过供给**，甚至不知道超多少，因为 GPU 供应根本追不上需求。
 
-而一旦 AI 全面超过人类，「知识工作就完蛋了」<button class="pd-ts" data-t="20:32" data-who="Dylan Patel" data-en="Now in the case where AI is just better than everyone, that could change drastically. Then knowledge work is screwed and actually what matters is people being able to play games and have fun, people being able to act, people being able to do the things that humans do that humans only appreciate in each other if the AI doesn't kill us all." aria-label="回原文"></button>。
+要预测拐点，得先找到经济对智能的需求上限——目前还没找到。<button class="pd-ts" data-t="24:31" data-who="Jordan" data-en="I mean, in order for us to forecast some sort of change in the demand supply curve there, you'd really need to see demand slow. There are hard constraints on how many chips you can produce, how many data centers you can build, and how fast this stuff is going to come online." aria-label="回原文"></button>
 
-## 最大的风险不是需求，而是安全和合同
+更紧迫的问题反而是[[安全|安全]]。Dylan 讲了一个亲身经历：
 
-Jordan 澄清了一个常见误解：
+他们本无意间在某家 GPU 云上看到了其他全部客户的存储内容——其中还包括某个 GDP 排名前十国家的情报机构的工作。
 
-[[新云|新云]]厂商（neocloud，专门给 AI 提供算力的新兴云公司）和 Meta、前沿实验室签的合同，不是按月可以随便取消的——通常是五到六年期限、承购全部容量、约定小时费率。
+他们立刻报告并退出。开源模型（他点名中国的 GLM 5.3）可以黑进几十家这类云服务商。
 
-Dylan 说的「随时可停」，针对的是 Meta 这类公司的**自建**园区：
+Ilya 也发推警告：[[新云|新云]]的安全太弱，下次失控的智能体可能会试图占领一家新云来复制自己。<button class="pd-ts" data-t="43:11" data-who="附近 Dylan" data-en="Let's talk about security because, you know, the first image in this report is a quote tweet of an Ilya Suskever post, which was made right after the Hugging Face incident." aria-label="回原文"></button>
 
-建筑成本虽然贵，但只占新芯片项目总成本的一小部分，大头是 HBM、光学器件和 GPU 本身，所以放缓自建在财务上很容易 <button class="pd-ts" data-t="22:03" data-who="Jordan" data-en="So I want to be clear about one thing Dylan was talking about there in terms of termination versus what's going on with Meta and the NeoClouds, which is that generally speaking, these hyperscalers" aria-label="回原文"></button>。
+> 【背景】Ilya 指 Ilya Sutskever，OpenAI 联合创始人、前首席科学家。
 
-至于需求崩溃的风险，Jordan 说：「我们现在能做的所有建模基本都表明需求超过供给」<button class="pd-ts" data-t="24:37" data-who="Jordan" data-en="There are hard constraints on how many chips you can produce, how many data centers you can build, and how fast this stuff is going to come online. And as of right now, all of the modeling we can do basically shows that demand outstrips supply." aria-label="回原文"></button>——需求比供给多 10%？50%？还是无限？
+另一层风险是质量。他们的 ClusterMax 报告追踪了 323 家 GPU 云提供商，能进推荐档的寥寥无几。
 
-没人知道，因为以现在能上线的 GPU 供给根本追不上需求。只有等需求极限真正被找到，才谈得上谁该在什么时候放慢。
+Jordan 说这令人沮丧：这是卖方市场，大家忙着融资、建楼、装芯片，没人在乎服务质量，而及格线其实简单得要命。
 
-## NVIDIA 的 5880 亿美元兜底：务实，不是泡沫维持器
+## NVIDIA 在暗中撑着整个市场
 
-SemiAnalysis 追踪到 NVIDIA 正在支持的表外兜底（收入底线、房东担保、可转让租约等）有 5880 亿美元——约为美国 M2 货币供应量的 2.5%。Jordan 的看法：这非常务实。
+报告披露了一个惊人数字：
 
-NVIDIA 不想让收入依赖三四家超大规模云厂商，也不想让客户只能在几家手里买芯片，所以它有充分动机扶植一个多样健康的云市场。
+NVIDIA 目前支持的表外担保总额达 5880 亿美元——包括收入兜底、租赁担保、要转给第三方的租约，帮新云们拿到投资级融资。
 
-运作方式是：NVIDIA 签约当投资级承购方帮项目融到钱；
+这相当于美国 M2 货币供应量的约 2.5%。<button class="pd-ts" data-t="39:45" data-who="Jordan" data-en="Yeah, well, I mean, both in ClusterMax and in another article we did recently called NVIDIA's Backstop Universe, we go into a little bit of the dynamics of what backstops are and how they help the NeoClouds raise the money they need to deploy the GPUs, which then customers are renting pretty strongly at this point." aria-label="回原文"></button>
 
-至于回流到 NVIDIA 自己内部研究工作负载的算力，只占其总收入的很小一个百分比<button class="pd-ts" data-t="42:09" data-who="Jordan" data-en="And then the dynamic that we've seen is that This amount of compute is actually not a meaningful portion of NVIDIA's revenue. It's a very small percentage of NVIDIA's total revenue that is, you know, going back for their own internal research workloads." aria-label="回原文"></button>，总有别人出更高价，它就把卡卖掉、继续签下一个。
+有人批评这是 NVIDIA 自己制造需求、吹大泡沫。Jordan 的辩护是：**NVIDIA 只是不想只依赖三四家超大规模厂商，想要一个多元健康的市场**。
 
-「认为 NVIDIA 不会把自己的 GPU 用于服务公司利益的研究，这本身就是错的」<button class="pd-ts" data-t="41:58" data-who="Jordan" data-en="We think there should be a diverse ecosystem. But the idea that NVIDIA does not use their own GPUs for research that serves the purposes of their company is itself wrong." aria-label="回原文"></button>——他们发布过像 Nemotron 这样的模型。
+实际操作中，NVIDIA 签约兜底后，往往还没轮到自用，就有客户出更高的价买走，它再滚动到下一个项目。
 
-而且兜底的不只是芯片，还包括建筑成本、内存供应商、晶圆厂、工业设备等整条供应链。
+而且它兜底的不只是芯片——还有厂房建设、内存供应商、晶圆厂。
 
-## 安全：「大多数 NeoCloud 的安全能力很糟糕」
+## 巨头们的不同处境：Oracle 的尴尬与 Google 的掉队
 
-SemiAnalysis 发过一篇这个标题的文章：用开源模型就能入侵几十家新云厂商。Dylan 透露了一次亲身经历：
+ClusterMax 金字塔顶端是 [[CoreWeave|CoreWeave]] 和 [[Nebius|Nebius]]，第二档里有 [[Oracle|Oracle]] 和 [[Google|Google]] Cloud。Dylan 特意区分：这个排名衡量的是租 GPU 的体验好不好，不是股票推荐。
 
-他们测试某个云时，意外看到了同一集群上所有其他客户的数据——存储里有什么、Slurm（一种集群任务调度系统）里排着什么任务——而上面有**情报机构**在跑模型。
+Oracle 的处境很拧巴：服务品质顶级，但去年和 OpenAI 签的是固定利润率的大单，GPU 涨价的红利吃不到；
 
-他们立刻关闭并上报；对方不是美国机构，但来自一个 GDP 排名前十的国家 <button class="pd-ts" data-t="45:24" data-who="Dylan Patel" data-en="And there were intelligence agencies, right? So we immediately closed out, reported it to them, were like, yo. Which intelligence agencies?" aria-label="回原文"></button>。
+新墨西哥数据中心因管道问题可能延期数年（这直接卡住 OpenAI 的合同）；再加上发债过多吓到了市场。
 
-Dylan 还补了一句：如果他们真有恶意，或者那十几家客户里有谁心怀不轨，完全可以直接看到对方在训练什么 <button class="pd-ts" data-t="45:50" data-who="Dylan Patel" data-en="I'm losing my mind here that that was possible. Yeah, it's like if we were malicious, and by the way, there were probably a dozen other customers, and maybe one of them was malicious, we could have just seen what they were training." aria-label="回原文"></button>。
+相比之下，Nebius 合同期最短，趁供不应求大幅提价，赚得盆满钵满。<button class="pd-ts" data-t="52:15" data-who="附近 Dylan" data-en="Now, you know, they're not Nebius. Nebius gets to turn around and they have the shortest average contract length of the top clouds in ClusterMax. And so Nebius has been able to turn around and really jack up pricing and take advantage of this." aria-label="回原文"></button>
 
-Jordan 的补充很冷峻：你希望政府机密放在物理隔离的数据中心，但如果全国只有一家设施有 GB300 NVL72，「这是卖方市场」<button class="pd-ts" data-t="47:09" data-who="Jordan" data-en="You would like them to have an AirGap data center, but if there's exactly one facility in the entire country with GB300, NVL72, I mean, it's a seller's market. Goodness." aria-label="回原文"></button>。
+Google 则在悄悄掉队。Dylan 观察到，Google 分配给 [[DeepMind|DeepMind]] 的算力占比在下降——按年底算，DeepMind 拥有的算力已经少于 Anthropic 和 OpenAI。讽刺的是，Thomas Kurian（云业务负责人）赢了，DeepMind 输了。
 
-## Oracle 的问号：好云、坏股票，是两回事
+而且 Gemini 4 Argon 在编程上仍不如头部两三家，最优秀的人才还在被 Anthropic、OpenAI 和 Meta 持续挖走。
 
-ClusterMax 3.0 把 GPU 云分成梯队：顶梯队是 [[CoreWeave|CoreWeave]] 和 [[Nebius|Nebius]]，第二梯队是 [[Oracle|Oracle]] 和 [[Google|Google]] Cloud。
+他直言：没人想要第三、第四好的编程模型，Google 得找到自己的利基。<button class="pd-ts" data-t="57:46" data-who="附近 Dylan" data-en="But by definition, you know, helping Anthropic this much with TPUs and helping them this much with these other things is hurting Google DeepMind's business. They need to find a niche, man." aria-label="回原文"></button>
 
-Jordan 强调 ClusterMax 衡量的只是「你租它的 GPU 用起来有多好」——可靠性、[[安全|安全]]、存储、网络、生命周期——**不是股票推荐**。Oracle 就是典型的割裂案例：
+## 实验室已经学会藏牌了
 
-作为托管集群它是最顶尖的新云之一；但它与 OpenAI 签的巨额合同是固定利润率的，GPU 涨价它吃不到；它融了大量债务吓到市场；
+一个容易被忽略的变化：前沿实验室不再第一时间发布最强模型。
 
-更麻烦的是执行——新墨西哥数据中心因为管道铺不进去可能延迟多年，Oracle 宣布不可抗力后股价暴跌。但 Dylan 判断公司本身没问题 <button class="pd-ts" data-t="52:08" data-who="Dylan Patel" data-en="But the main one being this New Mexico site that has delayed potentially multiple years because of this pipeline issue. And so, you know, these things can have very negative impacts on the stock, but I think the company is still fine." aria-label="回原文"></button>。
+Dylan 举例，Anthropic 的 Mythos 今年 2 月就做好了，公开发布的只是缩水版 Fable；OpenAI 的 Astra 完成后也压了几个月才放，性能更强的 Bell 展示了数学能力却至今未发布。<button class="pd-ts" data-t="59:52" data-who="附近 Dylan" data-en="So, I mean, I think we've already seen this, right? Anthropic had Mythos ready in February. Their model safety cards noted that they have two other models since Mythos that have released." aria-label="回原文"></button>
 
-反差最有趣的是合同结构：Nebius 拥有顶级云厂商中最短的平均合同期限，所以能转身大幅提价吃足红利；
+原因不难理解：模型一旦放出，就会被蒸馏、被抄袭。留着内部用，可以支撑自家更高价值的产品。
 
-CoreWeave 和 Oracle 运营水平同样好，却因为锁死了长期合同而错过。
+所谓控制前沿节奏，Dylan 认为很大程度上只是姿态——Dario 不敢慢，因为不信任 Sam；Sam 也不能慢，因为中国就在身后。
 
-Jordan 对整个行业更悲观的一面是：市场上他们追踪到 323 家供应商，但「不推荐」一档的 logo 比前四档加起来还多。
+他预计未来实验室会持续只发布最低可行模型，刚好保持对开源生态的领先。
 
-卖方市场里，这些公司的优先级是筹更多钱、建更快、部署更快，而不是打磨服务质量——「人们可以拥有很棒的生意，却不用太担心交付客户真正满意的服务」<button class="pd-ts" data-t="54:28" data-who="Jordan" data-en="And that's a little bit of the dynamic that you see represented there, where people can have these great businesses without actually worrying too much about delivering a great service that their customers really enjoy and recommend to other people." aria-label="回原文"></button>。
+## Anthropic 两万亿估值意味着什么
 
-## Google 的隐忧：DeepMind 算力已是三者最少
+Dylan 曾发推调侃：Anthropic 以 2 万亿美元上市，你没法投资——它可能归零，也可能值 20 万亿，但真到 20 万亿，大家都完了。他解释这不是纯玩笑：
 
-Google 每年产出的算力显著增长，但流向 [[DeepMind|DeepMind]] 的比例在下降——「Thomas Kurian 赢了，Dennis 输了」<button class="pd-ts" data-t="56:21" data-who="Dylan Patel" data-en="This is sort of, you know, one of the things that we made a joke about, like, maybe not even a joke, but just a statement that Thomas Kurian won and Dennis lost, right?" aria-label="回原文"></button>。到今年年底，只看算力的话，DeepMind 在它、Anthropic、OpenAI 三者中垫底。
+如果 Anthropic 做到 20 万亿美元估值，意味着数万亿美元的收入集中到极少数股东手里，财富分配严重失衡，社会结构可能被撕裂。<button class="pd-ts" data-t="27:11" data-who="附近 Dylan" data-en="Are they at like $2, $3, $4 trillion, a $20 trillion valuation, $2, $3, $4 trillion revenue? And at that point, what is the state of AI? If on a $150 billion global economy or trillion-dollar economy, they're generating multiple trillion dollars of revenue and by far the largest company in the world, like AI's capabilities are freaking insane." aria-label="回原文"></button>
 
-Google 的商业模式在演变：向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这本身在损害 DeepMind 的业务。
+Jordan 倒没那么悲观：
 
-Gemini 的问题是没有利基：没人想要第三、第四或第五好的编程模型，而 Gemini 4 Argon 在编程上和前两三名比还是不行 <button class="pd-ts" data-t="57:48" data-who="Dylan Patel" data-en="They need to find a niche, man. Like for Gemini, I mean, nobody wants the third or fourth or fifth best coding model. So they need to find a niche that drives Gemini token sales if they want DeepMind to continue competing on the frontier of AI research." aria-label="回原文"></button>。
+如果真到那个规模，收入不会来自按 token 计费的订阅，而是来自新药、自动驾驶这类实实在在的价值——就像 GLP-1 减肥药热潮带来的巨大价值那样。
 
-风险在明年：OpenAI 和 Anthropic 各自再加 5 到 10 吉瓦算力，Google 只加几个吉瓦，差距会进一步拉开——到那时，光有人才还能追得上吗？
-
-## 已经在发生的事：好模型先留着自己用
-
-前沿模型留在自己手里、不对外开放，这件事已经开始了。
-
-Anthropic 二月就准备好了 Mythos 模型，公开的只有阉割版 Fable，还有只覆盖部分领域、部分能力受限的 Glasswing；
-
-OpenAI 的 Astra 完成几个月后才发布，新模型 Bell 只在博客里展示过数学能力、至今没放出。原因很简单：一旦对外，别人就能蒸馏你的模型 <button class="pd-ts" data-t="61:05" data-who="Dylan Patel" data-en="They're kind of keeping that but in reality they kept months of progress internal only because the moment you make it external people can distill it and all these other things." aria-label="回原文"></button>。
-
-Dylan 预测接下来几周两家都会赶在 IPO 和竞争压力前发布新模型——但只发「最低可用」的版本，保持对中国模型和开源生态六个月左右的领先，把几个月的进展锁在内部。
+> 【背景】GLP-1 类减肥药的主要厂商之一为礼来公司(Eli Lilly)。
 
 ## 本集带走
 
-- **规模判断要翻倍看**：那张「AI 基建占 GDP 3.6%」的流传图算低了——真实是约 5-6%，且美国的投入在替全世界训练和推理，这是历史上任何基建周期都没有的形态。
-- **收入滞后是建设期的常态，不等于崩盘**：判断泡沫要看「当前收入 vs 前几年的投入」，而不是「当前收入 vs 当前 CapEx」——按后者看永远都是错配。
-- **最脆弱的环节是安全，不是需求**：开源模型就能入侵几十家新云厂商，连情报机构都在和普通客户共享集群；需求端目前所有建模都显示供不应求。
-- **合同结构决定谁吃到红利**：同样的运营质量下，Nebius 靠最短合同期限大幅提价，CoreWeave 和 Oracle 被长期合同锁死在固定利润率里。
-- **前沿模型的「发布」会越来越保守**：实验室的策略是只放最低可用版本保住开源领先，把最强能力留作内部武器和终端产品（药物发现、编程工具）的弹药。
-- **DeepMind 是被自己的母公司挤压的一方**：Google 把 TPU 和算力大量卖给 Anthropic，到年底 DeepMind 算力在三大实验室中垫底，而 Gemini 缺一个能带动 token 销售的利基。
+- AI 基建占美国经济的比重可能已达 5–6%，超过历史上铁路、光纤等任何一轮基建周期，因为美国的数据中心还在服务全球需求。
+- 回本在发生：Anthropic 的收入已覆盖训练加推理的算力成本，OpenAI 几个季度内也会到；Meta 财务上完全健康，可随时踩刹车。
+- 钱最终来自劳动份额的进一步下降——AI 本质上是资本在替代劳动生产，赌的是经济总量增长快到让劳动的绝对收入不缩水。
+- NVIDIA 用 5880 亿美元表外担保支撑着新云生态，动机是客户多元化而非制造泡沫。
+- 最现实的近期风险不是需求崩塌，而是新云糟糕的网络安全和普遍低劣的服务质量。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
-> <span class="qz">看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级——不只是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。</span>  
-> *If you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in.*  
+> <span class="qz">看明年，全美国的 CapEx 将达到大约 2 万亿美元的量级，不仅仅是数据中心和芯片，还包括人们正在投资的供应链的其余所有部分。</span>  
+> *if you look at like next year, CapEx across the US will be on the order of $2 trillion, not just data centers and chips, but also all the rest of the supply chain that people are investing in.*  
 > <span class="qm">—— Dylan Patel · [03:01]</span> ^q1
 
-> <span class="qz">考虑到这场建设将走向何方，我认为所有人给出的收入要求数字都相当低。</span>  
-> *I think everyone's numbers for revenue requirements are quite low, given where this build out is going to go.*  
-> <span class="qm">—— Dylan Patel · [10:28]</span> ^q2
+> <span class="qz">这些数字比实际要低，因为人们正在低估美国、北美以及全世界正在发生的 CapEx 的数量和规模。</span>  
+> *these numbers are lower than the actual because people are understating the amount and size of CapEx that's happening in the US and North America and the world.*  
+> <span class="qm">—— Dylan Patel · [03:34]</span> ^q2
 
-> <span class="qz">是的，如果 AI 收入在 2031 年只有 3 万亿美元，那我们确实会有大麻烦。</span>  
-> *Yeah, I mean, if AI revenue is only $3 trillion in 2031, then, yeah, we'll have big problems.*  
-> <span class="qm">—— Dylan Patel · [12:09]</span> ^q3
+> <span class="qz">你正处在一个这样的阶段：容量的经济影响比以往任何一轮物理基础设施投资周期都要大得多。</span>  
+> *you're sort of at this stage where capacity is much, the economic impact of it is much larger than any other sort of physical infrastructure investment cycle ever before.*  
+> <span class="qm">—— Dylan Patel · [04:30]</span> ^q3
 
-> <span class="qz">而现在，CapEx 并没有以每年 10 倍的速度增长，但 AI 实验室的收入刚刚同比上涨了 10 倍。</span>  
-> *And right now, CapEx is not going up at 10x a year, but revenue just went up 10x year on year for the AI labs.*  
-> <span class="qm">—— Dylan Patel · [13:02]</span> ^q4
+> <span class="qz">在 2026 年第三季度，增长率达到同比 116%，这非常惊人。</span>  
+> *in the third quarter of 2026, the growth is at 116% year over year, which is astonishing.*  
+> <span class="qm">—— 嘉宾 · [05:15]</span> ^q4
 
-> <span class="qz">所以我认为人们缺乏创造力，无法理解在今天的 Claude Code 订阅和按 token 定价模式之外，回报还能如何被看待。</span>  
-> *And so I think people lack the creativity to understand how returns can be viewed beyond the Claude Code subscription and per token pricing regime of today.*  
-> <span class="qm">—— 嘉宾 · [15:11]</span> ^q5
+> <span class="qz">你不可能既有三位数的增长，又让二阶导数进一步加速。</span>  
+> *you can't just have triple digit growth and accelerate the second derivative.*  
+> <span class="qm">—— 嘉宾 · [07:40]</span> ^q5
 
-> <span class="qz">AI 所做的，是超级加速劳动力份额与资本份额之间的长期趋势，因为 AI token 基本上就是以芯片和数据中心形式存在的资本，坐在那里创造着劳动力。</span>  
+> <span class="qz">所以我们看到 Anthropic 现在在收入减去算力成本的意义上已经盈利了，训练和推理加在一起。</span>  
+> *And so we've seen Anthropic is now profitable in terms of compute cost minus revenue, or revenue minus compute cost, both training and inference combined.*  
+> <span class="qm">—— Dylan Patel · [13:10]</span> ^q6
+
+> <span class="qz">我认为人们缺乏创造力，无法理解在今天的 Claude Code 订阅和按 token 定价模式之外，回报还能如何被看待。</span>  
+> *I think people lack the creativity to understand how returns can be viewed beyond the Claude Code subscription and per token pricing regime of today.*  
+> <span class="qm">—— 嘉宾 · [15:11]</span> ^q7
+
+> <span class="qz">很多人抱怨说，哦，美国经济很糟糕，然而，哦，看，经济规模更大了，这实际上是因为，劳动力的经济份额缩小了，这就是原因。</span>  
+> *a lot of the strife that people say, oh, America's economy sucks, and yet, oh, look, the economy is bigger, is actually, well, labor's share of economy has shrank, and that's why.*  
+> <span class="qm">—— Dylan Patel · [16:59]</span> ^q8
+
+> <span class="qz">AI 所做的，就是它会超级加速劳动力份额与资本份额之间的这个长期趋势，因为 AI token 基本上只是以芯片和数据中心形式存在的资本，它们坐在那里创造着劳动力。</span>  
 > *What AI does is it's going to supercharge that long-term trend of labor share versus capital share because AI tokens are basically just capital in the form of chips and data centers that are sitting there and creating labor.*  
-> <span class="qm">—— Dylan Patel · [17:13]</span> ^q6
+> <span class="qm">—— Dylan Patel · [17:13]</span> ^q9
 
-> <span class="qz">那时知识工作就完蛋了，实际重要的是人们能玩游戏、玩得开心，人们能表演，人们能做那些只有人类才会在彼此身上欣赏的事情——前提是 AI 没把我们全部杀死。</span>  
-> *Then knowledge work is screwed and actually what matters is people being able to play games and have fun, people being able to act, people being able to do the things that humans do that humans only appreciate in each other if the AI doesn't kill us all.*  
-> <span class="qm">—— Dylan Patel · [20:32]</span> ^q7
-
-> <span class="qz">我们无法回答那个问题，因为以你现在能上线的 GPU 供给，我们没办法追上需求。</span>  
-> *We don't get to answer that question because we are not able to catch up to demand with the supply of GPUs that you can bring online right now.*  
-> <span class="qm">—— 嘉宾 · [24:52]</span> ^q8
+> <span class="qz">在芯片设计领域工作的美国研发工程师数量在 20 年里基本持平，然而相关经济体却爆炸式增长。</span>  
+> *The number of American R&D engineers working in chip design has been basically flat for 20 years, and yet the economy for it has exploded.*  
+> <span class="qm">—— Dylan Patel · [18:36]</span> ^q10
 
 > <span class="qz">Anthropic 甚至可能成为世界上第一家估值 10 万亿美元的公司。</span>  
 > *Anthropic could even be the first company to be a $10 trillion valuation company in the world.*  
-> <span class="qm">—— Dylan Patel · [26:06]</span> ^q9
+> <span class="qm">—— Dylan Patel · [26:06]</span> ^q11
 
-> <span class="qz">这就是你看到的那种态势的一小部分体现：人们可以拥有很棒的生意，却不用太担心交付一种客户真正满意、并愿意推荐给其他人的出色服务。</span>  
-> *And that's a little bit of the dynamic that you see represented there, where people can have these great businesses without actually worrying too much about delivering a great service that their customers really enjoy and recommend to other people.*  
-> <span class="qm">—— 嘉宾 · [54:16]</span> ^q10
+> <span class="qz">所以这些东西可能会撕裂整个社会的结构。</span>  
+> *So these things could tear the fabric of society apart.*  
+> <span class="qm">—— Dylan Patel · [27:56]</span> ^q12
+
+> <span class="qz">鉴于他们所处的竞赛，他们能做的放缓非常少。</span>  
+> *there's like very little pacing they can do given the race that they're in.*  
+> <span class="qm">—— Dylan Patel · [33:29]</span> ^q13
+
+> <span class="qz">卖方市场的态势意味着这些公司的优先事项是能筹集到尽可能多的钱、能尽可能快地建数据中心、能尽可能快地部署芯片，而不是去打磨底层服务的真正质量。</span>  
+> *the dynamic of it being a seller's market means that the priority for these companies is how can they raise as much money as they can, how can they build data centers as fast as they can, and how can they deploy chips as fast as they can, rather than working on the true quality of the underlying service.*  
+> <span class="qm">—— 嘉宾 · [54:03]</span> ^q14
+
+> <span class="qz">但从定义上讲，用 TPU 帮 Anthropic 这么多、在这些其他事情上帮他们这么多，是在损害 Google DeepMind 的业务。</span>  
+> *But by definition, you know, helping Anthropic this much with TPUs and helping them this much with these other things is hurting Google DeepMind's business.*  
+> <span class="qm">—— Dylan Patel · [57:35]</span> ^q15
 
 > <span class="qz">就 Gemini 来说，我是说，没人想要第三、第四或第五好的编程模型。</span>  
 > *Like for Gemini, I mean, nobody wants the third or fourth or fifth best coding model.*  
-> <span class="qm">—— 嘉宾 · [57:48]</span> ^q11
-
-> <span class="qz">我的判断是，我们会继续看到 OpenAI 和 Anthropic 发布最低可用的模型，以保持对中国以及其余开源生态的领先。</span>  
-> *My bet is that we continue to see the minimum viable models released by both OpenAI and Anthropic to keep a lead over Chinese and the rest of the open source ecosystem.*  
-> <span class="qm">—— 嘉宾 · [62:42]</span> ^q12
+> <span class="qm">—— 嘉宾 · [57:48]</span> ^q16
 
 <div class="pd-sec">接着看</div>
 

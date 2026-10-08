@@ -132,11 +132,11 @@ unlisted: true
 
 ![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q1]]
 
-![[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#^q2]]
+![[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#^q4]]
 
-![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q7]]
+![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q5]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q7]]
 
 ![[2026-singju-openclaw-80apps#^q2]]
 

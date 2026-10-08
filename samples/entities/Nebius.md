@@ -11,15 +11,15 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]]**(00:56起):全栈 AI 云基础设施公司:不只提供模型 API,还运营底层数据中心、NVIDIA 系统和裸金属容量,纳斯达克上市,NVIDIA 几个月前向其投资 20 亿美元
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(47:27起):本集说它拥有顶级云厂商中最短的平均合同期限，因此能转身大幅提价、吃足卖方市场红利。
+- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]]**(00:56起):全栈 AI 云基础设施公司:不只提供模型 API,还运营底层数据中心、NVIDIA 系统和裸金属容量,纳斯达克上市,NVIDIA 几个月前向其投资 20 亿美元
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(47:27起):本集说它拥有顶级云厂商中最短的平均合同期限，因此能转身大幅提价、吃足卖方市场红利。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为被讨论公司
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 
 ## ③ 关联
 

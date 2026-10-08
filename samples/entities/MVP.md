@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(27:34起):本集说不是 MVP 变更小了，而是你能更快到达 MVP——因为构建更快、迭代更快、工程工具好得多了
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(69:56起):本集把 MVP 与 minimum lovable product 对比：能用、直观只是 MVP 门槛，可爱还要加上『令人愉悦』——产品能预判你脑子里的问题
-- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]]**(31:06起):本集在问答里被提及：多少功能算太多是个错误的问题，真正的问题是你能证明为目标受众解决问题的最小限度是什么。
+- **[[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]]**(31:06起):本集在问答里被提及：多少功能算太多是个错误的问题，真正的问题是你能证明为目标受众解决问题的最小限度是什么。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为概念(提及)
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
-- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当 AI 会写代码，工程师的最后一项技能是“做对的东西”》]] — 作为概念(提及)
+- [[2026-10-05-talks-build-the-right-thing-product-engineerin|《当AI会写代码，工程师还剩什么？Kent C. Dodds 谈「做对的东西」》]] — 作为概念(提及)
 
 ## ③ 关联
 

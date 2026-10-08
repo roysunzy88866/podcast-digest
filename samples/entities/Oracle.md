@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Oracle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,14 +20,12 @@ unlisted: true
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(34:40起):本集说创建 oracle（判断「做出来的东西对不对」的标准）是人类工作大量所在之处；像实现 GZIP 可完全形式化，做客户 UI 就得用更开放式的评估。
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(04:50起):主讲人所在公司,本集推介其 Oracle DBFS(带 ACID 一致性的数据库文件系统)、Agent Memory Package(OAMP)、融合数据库,以及 OCI Generative AI Service(自称「企业版 Open Router」)。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(12:20起):本集作为发票流程推回目标的企业系统被顺带提及（推回 SAP 或 Oracle）
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(47:30起):本集称它是 ClusterMax 第二梯队里服务质量顶尖的新云，但因与 OpenAI 的固定利润率长期合同、大量债务和新墨西哥数据中心管道延误执行问题，出现『好云、坏股票』的割裂。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(47:30起):本集称它是 ClusterMax 第二梯队里服务质量顶尖的新云，但因与 OpenAI 的固定利润率长期合同、大量债务和新墨西哥数据中心管道延误执行问题，出现『好云、坏股票』的割裂。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(22:43起):本集说 Oracle 支持 SQL 2023 的属性图查询、是该扩展的大力推动者;其商业库行存列存各存一份,称为 Fractured Mirror 方法
 
 ## ① 提到它的金句
 
-*2 条*
-
-![[2026-08-31-dwarkesh-openai-huggingface-narration#^q1]]
+*1 条*
 
 ![[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai#^q5]]
 
@@ -44,7 +42,7 @@ unlisted: true
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为概念
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为嘉宾
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 
 ## ③ 关联

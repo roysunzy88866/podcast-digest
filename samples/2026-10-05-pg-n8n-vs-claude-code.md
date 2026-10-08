@@ -1,5 +1,5 @@
 ---
-title: 被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它
+title: 被判「死刑」一千次的公司：n8n 创始人谈为什么它没死
 podcast: Product Growth Podcast
 date: 2026-10-06
 source_url: https://www.news.aakashg.com/p/n8n-vs-claude-code
@@ -7,7 +7,7 @@ duration: "68:30"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-05-pg-n8n-vs-claude-code.jpg"
-description: N8N 创始人兼 CEO Jan Oberhauser 回应「N8N 已死」论，展示可靠性、可审计性如何让它在智能体时代继续 10 倍增长。
+description: n8n 创始人 Jan Oberhauser 回应「n8n 已过时」的质疑，拆解它和 Claude Code、Zapier 的区别，以及 10 倍增长背后的反常识打法。
 host: "[[Jan Oberhauser]]"
 companies: ["[[n8n]]", "[[Claude Code]]", "[[Zapier]]", "[[SAP]]"]
 concepts: ["[[智能体]]", "[[工作流]]", "[[人在回路]]", "[[可审计性]]", "[[自托管]]", "[[评估]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-05-pg-n8n-vs-claude-code.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code#post","headline":"被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code","description":"N8N 创始人兼 CEO Jan Oberhauser 回应「N8N 已死」论，展示可靠性、可审计性如何让它在智能体时代继续 10 倍增长。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-pg-n8n-vs-claude-code.jpg","isBasedOn":"https://www.news.aakashg.com/p/n8n-vs-claude-code","about":[{"@type":"Person","name":"Jan Oberhauser"},{"@type":"Organization","name":"n8n"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Zapier"},{"@type":"Organization","name":"SAP"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"人在回路 (human in the loop)"},{"@type":"Thing","name":"可审计性 (auditability)"},{"@type":"Thing","name":"自托管 (self-host)"},{"@type":"Thing","name":"评估 (evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它","item":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code#post","headline":"被判「死刑」一千次的公司：n8n 创始人谈为什么它没死","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code","description":"n8n 创始人 Jan Oberhauser 回应「n8n 已过时」的质疑，拆解它和 Claude Code、Zapier 的区别，以及 10 倍增长背后的反常识打法。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-pg-n8n-vs-claude-code.jpg","isBasedOn":"https://www.news.aakashg.com/p/n8n-vs-claude-code","about":[{"@type":"Person","name":"Jan Oberhauser"},{"@type":"Organization","name":"n8n"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Zapier"},{"@type":"Organization","name":"SAP"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"人在回路 (human in the loop)"},{"@type":"Thing","name":"可审计性 (auditability)"},{"@type":"Thing","name":"自托管 (self-host)"},{"@type":"Thing","name":"评估 (evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"被判「死刑」一千次的公司：n8n 创始人谈为什么它没死","item":"https://talk.solomind.cc/2026-10-05-pg-n8n-vs-claude-code"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>被判「死刑」一千次的公司：n8n 创始人谈为什么它没死</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它
+# 被判「死刑」一千次的公司：n8n 创始人谈为什么它没死
 
 <div class="pd-byl"><b>Jan Oberhauser</b> · N8N 创始人兼 CEO · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-pg-n8n-vs-claude-code.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我想我们大概已经被宣布死亡一千次了，这些年里杀死我们的一半东西我都记不清了。我们还在这里。</div><div class="a">— Jan Oberhauser <button class="pd-ts" data-t="02:53" data-who="Jan Oberhauser" data-en="I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years. We're still here." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我想我们大概已经被宣布死亡一千次了。这些年里杀死我们的一半东西我都记不清了。</div><div class="a">— Jan Oberhauser <button class="pd-ts" data-t="02:53" data-who="Jan Oberhauser" data-en="I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Jan Oberhauser]]
@@ -39,142 +39,145 @@ jsonLd: |
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/n8n-vs-claude-code)
 
-[[工作流|工作流]]自动化工具 [[n8n|N8N]](一种可视化编排平台，能把 LLM、数据源和各种工具连起来跑自动化)在 2025 年是最火的 AI 工具，但最近一条爆火推文问：
+2025 年还是全球最火的 AI 工具，2026 年初就有人发帖宣布它已经无关紧要了。
 
-「还记得 N8N 吗？很快就无关紧要了吧？」这一集请来了 N8N 的 CEO 兼创始人 [[Jan Oberhauser|Jan Oberhauser]] 回应。
+n8n 的创始人兼 CEO [[Jan Oberhauser|Jan Oberhauser]] 做客 Product Growth Podcast,正面回应了这场死亡讨论，还现场演示了产品，聊了招聘和增长。
 
-他的第一反应是：「我们大概已经被宣布死亡一千次了，这些年杀死我们的一半东西我都记不清了。我们还在这里。」<button class="pd-ts" data-t="02:53" data-who="Jan Oberhauser" data-en="probably important to call out that we, I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years." aria-label="回原文"></button>
+这场对话值得一看的原因很简单：他的很多打法，和眼下 AI 公司的通行做法完全相反。
 
-## N8N 和 Claude Code 根本不是竞品
+## 被杀死一千次，为什么还活着？
 
-Jan 的核心主张：[[Claude Code|Claude Code]] 是通用工具，在终端里跑模型；N8N 是编排层——连接你的工具、LLM 和数据源，提供可视化画布让系统可靠、安全地运行。
+「我们大概被宣布死亡过一千次了，我连一半杀死我们的东西都记不清了。」Jan 这样开场 <button class="pd-ts" data-t="00:33" data-who="Jan Oberhauser" data-en="Do you need N8N anymore? I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years." aria-label="回原文"></button>。
 
-对业务关键场景尤其重要：在那里你要 100% 确定系统在干什么，不能接受「95% 的时候能正常工作」。
+他提醒说，把同类工具放进 Google 趋势里看，曲线都差不多——先被炒过头，再回落到正常水平。
 
-「如果你用 Claude Code,它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。」<button class="pd-ts" data-t="04:37" data-who="Jan Oberhauser" data-en="Like if you have something like a cloud code, it generates literally 10,000 lines of code that nobody can inspect and nobody knows if it's actually doing the right thing." aria-label="回原文"></button>
+数据倒是支撑他的底气：GitHub 星标超过 20 万，150 万活跃用户，1200 个企业版客户，**去年收入增长 10 倍，最近还拿了 [[SAP|SAP]] 的战略投资，估值 52 亿美元** <button class="pd-ts" data-t="05:34" data-who="Jan Oberhauser" data-en="because that's again where we really shine. And also if you look like in our stats online, you still see like crazy growth, like we cross. 200,000 GitHub stars recently." aria-label="回原文"></button>。
 
-他看到很多人两者一起用：先用 Claude Code 快速做原型，再迁移到 N8N,原因正是[[可审计性|可审计性]]和[[自托管|自托管]]能力(数据不出自己基础设施)。
+## n8n 和 Claude Code 到底是不是竞争关系？
 
-他还透露，**有多家模型公司自己也在用 N8N**,包括用于安全和合规场景。
+那条 viral 推文的意思是：有了 [[Claude Code|Claude Code]] 这种通用编程工具，谁还需要 n8n?Jan 的回答是：**两者是不同产品，很多人两个都用**。
 
-数据上确实不像「已死」：
+Claude Code 能快速做原型，但生成的是上万行没人能检查的代码。
 
-20 万 GitHub 星标、150 万活跃用户、超过 1,200 家企业客户(用的是企业级方案)、300 名社区大使、全世界每天有一场 N8N 社区活动、收入一年涨 10 倍、52 亿美元估值(今年 5 月 [[SAP|SAP]] 战略投资，SAP 还把 N8N 内置进自家产品，让客户开箱即用地在里面搭[[智能体|智能体]]自动化，客户还包括梅赛德斯)。
+而 n8n 是一个可视化画布，每个节点都能看清输入输出，适合业务关键场景——尤其是技术和非技术人员要协作的时候 <button class="pd-ts" data-t="03:33" data-who="Jan Oberhauser" data-en="very different products. It's like you need both in the end. Cloud Code is more like the genetic tool." aria-label="回原文"></button>。
 
-## 现场演示：三个词到底什么意思
+他观察到常见路径是：先用 Claude Code 快速起步，再迁移到 n8n,图的就是可审计和稳定。
 
-主持人要求把「可靠性、可审计性」这些抽象词落到实处，Jan 直接开了产品演示——一个对接 Gmail 和 Google Calendar 的邮件助手：
+还有一点出人意料：好几家大模型公司自己也在内部用 n8n,主要用在安全合规场景 <button class="pd-ts" data-t="05:20" data-who="Jan Oberhauser" data-en="And also one important thing to be aware of, actually, multiple of the model companies are using Aniden as well. And I think that also makes sense because in the end you want to use the right tool" aria-label="回原文"></button>。
 
-- **可靠性**：默认用 Claude Sonnet(通过 N8N 自己的网关调用，不用单独注册)，还配了备用模型以防供应商宕机；所有工具节点(收邮件、发邮件)的代码由 N8N 统一编写、测试、维护，API 变了改一次代码全员生效，而不是全世界每个人自己重新实现一遍、各漏各的边界情况。
-- **[[人在回路|人工在环]](human in the loop)**:「发邮件」这类动作被设成必须事先获得批准才执行。演示里智能体说：「我即将创建一个日历事件，我真的被允许这么做吗？」用户点了「添加事件」它才执行。<button class="pd-ts" data-t="18:50" data-who="Jan Oberhauser" data-en="You can see it's not doing anything further. And now it says, I'm about to create a calendar event with a certain information. Am I actually allowed to do that?" aria-label="回原文"></button>
-- **可审计性**：每一步执行都能点开看——什么信息发进去、什么信息出来、为什么走这条路。Jan 的对比很尖锐：「用代码，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。」<button class="pd-ts" data-t="26:07" data-who="Jan Oberhauser" data-en="And you can literally identify everything the AI really did for you. Again, with code, you see the input and you see the output of the whole thing. But what really happened in there, you have no idea." aria-label="回原文"></button> 出错可以调试后从任意数据点重跑工作流的一半。
-- **可交接**：工作流可以邀请队友协作、有版本历史(类似 Git 的发布说明)、可导出、可设审核步骤(改完需批准才能发布)。「即使你不是技术出身，也能走进来看懂：这里有个智能体、系统提示词是什么、用的什么模型。」<button class="pd-ts" data-t="21:51" data-who="Jan Oberhauser" data-en="even if you're not technical, you can still at least go in here and kind of very easily understand, hey, actually here is an agent." aria-label="回原文"></button>
+## 可靠性和可审计具体指什么？
 
-构建方式也和 Claude Code 类似：描述想要什么，AI 助手会问澄清问题(用哪个模型等)、思考约八分钟，然后生成完整工作流；
+现场演示最能说明问题。Jan 展示了一个连接 Google 日历和 Gmail 的助手。
 
-你说「扩展一下，支持安排 30 分钟一对一、带 Google 链接、议程写进描述、从 Google 通讯录取联系人」，它几分钟后追加好节点并自动测试运行。
+整个流程是节点式的：代理调用哪个模型、用了什么工具、记忆里存了什么，一步步都能点开看。
 
-## 独特用例与「AI + 确定性逻辑 + 人工在环」公式
+出错了节点会标红，可以从中间任意一步重跑。
 
-什么场景非 N8N 不可？可靠性安全性越重要越出彩：
+发送邮件、创建日程这类动作，可以设置成必须人工批准才执行——演示里助手要建会议前，会先停下来问一句允许吗<button class="pd-ts" data-t="17:15" data-who="Jan Oberhauser" data-en="So we have here this human loop step. They can define literally like only execute So you can select that tool if you got approval before." aria-label="回原文"></button>。
 
-安全编排(带附件邮件自动扫描、归档、告警)、员工入离职流程(「你不想要只入职了一半的员工，也不想要离职完成度连一半都不到的员工」)、DevOps、监控(SSL 证书到期自动在 Discord/Notion 告警，先 100% 保证通知发生，AI 自动修复放后面)。
+「用代码，你只看到输入和输出，中间发生了什么你完全不知道。」Jan 说，而在 n8n 里，你可以追查它为什么走了某条路 <button class="pd-ts" data-t="26:07" data-who="Jan Oberhauser" data-en="And you can literally identify everything the AI really did for you. Again, with code, you see the input and you see the output of the whole thing. But what really happened in there, you have no idea." aria-label="回原文"></button>。
 
-他反复强调的公式：**AI + 确定性逻辑 + 人工在环**。「AI 很了不起，但不是解决一切问题的方案。
+另一个可靠性的来源：
 
-确定性逻辑更便宜、更快、100% 可靠；某些用例你始终要确保有人留在回路里。」<button class="pd-ts" data-t="14:12" data-who="Jan Oberhauser" data-en="What you really want is kind of... Kind of link AI with deterministic logic, because again," aria-label="回原文"></button>
+每个工具节点(比如取邮件)的代码是 n8n 统一维护、统一测试的，接口一变，改一次全体受益，不用每个用户自己重新实现。
 
-给新手的建议：别追求最疯狂的用例，从「你每天都在做、在多个应用间复制粘贴、感觉在浪费时间」的事开始。
+## AI 该撒上还是该做进核心？
 
-有家公司只用 N8N 做员工密码重置，一年省下的时间相当于好几个全职员工。
+n8n 成立在 ChatGPT 之前。Jan 坦言当时有点害怕，但很快做了判断：在产品上撒一点 AI——加个 AI 按钮——只能带来 10% 到 30% 的增长；
 
-平台上还有一万多个现成模板(按工具、按销售/营销/IT 运维等角色筛选)可以直接填凭证使用。
+而让 n8n 变成人们构建 AI 代理的地方，成为价值链的一部分，才有质变 <button class="pd-ts" data-t="42:23" data-who="Jan Oberhauser" data-en="What does it mean to sprinkle AI on top versus make it core? Sprinkly AI on top is what I see is like somebody tells you add AI and you say, hey, here and add this AI button somewhere, it does something with AI." aria-label="回原文"></button>。
 
-## Zapier、增长哲学与「撒 AI」vs「AI 为核心」
+结果之一：现在 n8n 上 80% 的[[工作流|工作流]]用到了 AI 代理，而且主要是老用户自发采用的——他们的用户本来就爱折腾新东西 <button class="pd-ts" data-t="43:28" data-who="Jan Oberhauser" data-en="of provided real value for them. I think a pretty crazy stat you guys released is 80% of workflows on N8N now use AI agents. Obviously that would have been zero at the beginning of 2023." aria-label="回原文"></button>。
 
-对 [[Zapier|Zapier]](CEO Wade Foster 紧接着上期节目)：
+## 增长打法有多反常识？
 
-Jan 很客气，但指出 N8N 从第一天就专注强大与灵活——代码节点随时可回退到代码、可自定义记忆、外置护栏、多模型与备用模型——用例一复杂就拉开差距；
+n8n 的几条选择，几乎条条和行业惯例对着干：
 
-自托管更是 Zapier 的 SaaS 方案给不了的。
+- 取消了潜在客户线索的考核指标，放弃按座位收费。
+- 不催免费用户付费、不推动[[自托管|自托管]]用户转成云服务付费。Jan 说他们只在乎用户在用，「我们不在乎他们现在付不付钱」<button class="pd-ts" data-t="47:53" data-who="Jan Oberhauser" data-en="focus on how do we get people that currently don't pay us to use our free version that self-hosts us to our hosted solution that we actually earn revenues. There's nothing we're doing at all because it doesn't matter for us." aria-label="回原文"></button>。
+- 不买病毒式增长。去年火起来，是因为用户真的从产品里拿到了价值，主动去讲。
 
-「撒一点 AI」vs「AI 为核心」是他最清晰的判断：「撒 AI 就是有人告诉你加 AI,你就在某处加个 AI 按钮。
+为什么敢这么干？**因为公司是盈利的，不急着向投资人证明什么，可以想长期的事**。
 
-我们想的是怎么成为价值链的一部分——不只是往产品里加 AI,而是确保人们真正在它里面构建智能体。」
+而很多 AI 公司一边猛涨收入一边大笔亏损，只能被短期数字推着走 <button class="pd-ts" data-t="45:05" data-who="Jan Oberhauser" data-en="to get more money tomorrow and then the whole cycle repeats because of the way and it is built like we are actually Sustainable, like right now, we're actually creating a profit." aria-label="回原文"></button>。
 
-<button class="pd-ts" data-t="42:33" data-who="Jan Oberhauser" data-en="Where I see again, what we have with it is like really think about like how can we become part of the value chain?" aria-label="回原文"></button> 结果就是去年 10 倍增长；如今 N8N 上 80% 的工作流用了 AI 智能体，主要是老用户在采用——他们是爱折腾的尝鲜者。
+社区是长期主义的最大回报：全世界平均每天都有 n8n 社区活动，9 月单月就有 50 多场。
 
-增长打法也反常规：取消了销售线索目标、拒绝按席位定价，连自托管免费用户都不转化——「我们在意的只是他们在使用 N8N」。
+大部分企业客户就是从社区里来的——员工自己先用，觉得好，再带回公司。有些大公司内部甚至形成了上千人的 n8n 社区 <button class="pd-ts" data-t="52:48" data-who="Jan Oberhauser" data-en="So I can actually automate things there and then do the first internal use case. Then they get other people excited. We have literally communities inside of Large orgs that are like over" aria-label="回原文"></button>。
 
-公司现在约 370 人，年底约 500 人，内部目标是「用不到一千名员工达到十亿用户」。
+## 10 亿用户，不到 1000 名员工
 
-他说这是可持续、目前已在盈利才能这么想：「大多数 AI 公司 ARPU 增长很强，但同时亏很多钱，被迫想得非常短期。」
+n8n 目前约 370 人，年底预计 500 人左右。内部分子小队：3 到 5 名工程师、1 到 2 名产品经理、1 名设计师，跑得快、开销小 <button class="pd-ts" data-t="53:29" data-who="Jan Oberhauser" data-en="How do you structure your product team? Right now we have like squads, which are like between three and five engineers. One to two PMs and one designer." aria-label="回原文"></button>。
 
-病毒式传播也不是买来的：「我们去年变得有病毒式传播，是因为人们对它感到兴奋、从中获得价值，他们想要分享它。」
+**他们内部目标是：10 亿用户配不到 1000 名员工**。逻辑很直白——客户来找你是想让组织更高效，自己不先做到就是伪君子。
 
-社区是慢功夫但一旦转起来，大部分企业用户都来自社区里的人先私下用、再带进大组织——有的公司内部 N8N 社区超过一千人。
+原来的目标是「10 亿美元收入配不到 500 人」，后来改成用户数，因为收入目标容易让内外误解成只想着钱 <button class="pd-ts" data-t="50:15" data-who="Jan Oberhauser" data-en="hey, it's just about money. And we kind of wanted to be very clear saying, hey, it's not about money, it's about adoption. That's why kind of this value switching away from ARR" aria-label="回原文"></button>。
 
-## 370 人的公司怎么做产品、招什么 PM
+至于企业销售，短期内还是人的生意，客户不会不跟人聊就签下几十万美元的合同 <button class="pd-ts" data-t="49:36" data-who="Jan Oberhauser" data-en="we did much more on the enterprise side of things and we realized that as long as people As long as the buying side is not done by AI, we cannot do the selling side by AI either." aria-label="回原文"></button>。
 
-组织按小队(squad)划分：三到五名工程师、一到两名 PM、一名设计师，汇报线短、开销小。
+## 他想要什么样的产品经理？
 
-第一位产品负责人是 2021 年 4 月(A 轮同期)招的，Jan 起初贴得极近——「我甚至仍然亲自合并每一个 PR」——后来逐渐抽离，但发现设计团队某些决定偏离方向后意识到「我可能离产品太远了」，于是保留至今的每周设计例会，看他们在探索什么、尽早给反馈。
+答案可能不让人意外：越技术越好。不只产品经理，**连设计师都要求会用 Claude Code、能做功能演示**。
 
-PM 该跟 CEO 谈什么？方向和探索——很早就能纠正、不浪费时间；别谈「按钮放这里还是那里」。至于 PM 要多懂技术：
+公司有个价值观叫建造者文化，他们喜欢家里跑着家庭自动化、会为这种事兴奋的人 <button class="pd-ts" data-t="59:13" data-who="Jan Oberhauser" data-en="an AI PM these days? Like the experience we made is the more technical the better and honestly almost every role we hired." aria-label="回原文"></button>。
 
-「越懂技术越好」，连设计师都被要求会用 Claude Code 做函数 demo;他们在找「正在崛起的新星」和真正爱动手的建设者——家里跑家庭自动化的人。
+怎么在面试里分出真懂和背网络热词？n8n 的优势是自己内部踩过这些坑，知道该问什么。
 
-evals([[评估|评测]]，系统化测试 AI 输出质量的机制)由专门的「AI Trust Team」负责，还做了内部产品；
+而且在家做题已经不靠谱——不知道是不是 AI 帮忙做的——所以他们更看重现场一起解决问题的环节 <button class="pd-ts" data-t="64:06" data-who="Jan Oberhauser" data-en="And then how do they succeed in the interviews? Like there's so many different types of AIPM interviews these days. What are you guys running?" aria-label="回原文"></button>。
 
-他认为 evals 被谈论得多、实际用得少，因为「创建起来不太好玩、非常难创建」，这领域还有很大机会。
+关于评估(eval),他直言这东西大家谈得多、真用得少，因为又难做又不有趣。n8n 内部有个专门的 AI 信任团队负责，还做了内部工具。
 
-面试时区分「背网上的话」的人和真懂的人，靠问内部真踩过的坑 + 实时协作解题；带回家的任务在 AI 时代已不可信。
-
-人才密度是硬要求——「十亿用户不到一千人，你只能要最好的人；不合适就让双方体面地分开」。
+他希望更多人真正去建评估，尤其换模型时，评估是快速确认性能不掉链子的唯一办法 <button class="pd-ts" data-t="61:36" data-who="Jan Oberhauser" data-en="What is the role of evals for PMs at N8N? We actually have an own team. It's called the AI Trust Team, which actually owns them." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **AI 编码工具和编排平台是互补不是替代**：快速原型用 Claude Code,业务关键、要可审计、要自托管的用例迁移到 N8N——多家模型公司自己都这么用。
-- **可靠 production AI 的公式 = AI + 确定性逻辑 + 人工在环**：确定性逻辑便宜、快、100% 可靠；发邮件、写库这类动作设置审批节点；监控场景先保证通知 100% 发生，AI 自动修复放后面。
-- **可视化画布的价值在审计**：每步的输入输出、每条路径的决策原因都可检查，出错可从任意数据点重跑——这是「一万行没人检查的生成代码」给不了的。
-- **「撒 AI」加个按钮只带来 10-30% 增长，把 AI 做成价值链核心(让人在你的产品里构建智能体)才有 10 倍**——N8N 的亲身数据。
-- **从小用例起步**：不是最疯狂的用例最有影响力，密码重置这种小事一年能省出好几个全职员工；先用起来再展示给同事，想法会在组织里传染。
-- **可持续盈利才能长期主义**：砍销售线索指标、不追按席位定价、不转化免费用户，只盯采用量——因为不用靠下一轮融资活着。
-- **AI 时代的 PM 要更技术**：能懂架构权衡、能自己用 Claude Code 做 demo、能深入 evals;面试造假靠「内部踩过的坑 + 实时协作解题」来识破。
+- 被杀死一千次的 n8n 依然增长：收入一年涨 10 倍，1200 个企业客户，估值 52 亿美元。
+- 它和 Claude Code 是互补而非替代：后者适合快速原型，前者适合要稳定、可审计、要交给团队的业务关键流程。
+- 撒 AI只能带来 10%–30% 的增长，成为价值链的一部分才有 10 倍空间。
+- 盈利让它可以反着行业惯例打：不考核线索、不按座位收费、不逼免费用户掏钱。
+- 内部目标：10 亿用户配不到 1000 名员工——招人只招最技术、最爱动手建造的那批。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
-> <span class="qz">我想我们大概已经被宣布死亡一千次了，这些年里杀死我们的一半东西我都记不清了。我们还在这里。</span>  
-> *I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years. We're still here.*  
+> <span class="qz">我想我们大概已经被宣布死亡一千次了。这些年里杀死我们的一半东西我都记不清了。</span>  
+> *I think we have been called dead probably a thousand times. I don't remember half of the things that killed us over the years.*  
 > <span class="qm">—— Jan Oberhauser · [02:53]</span> ^q1
 
 > <span class="qz">它真的会生成一万行代码，没有人能检查，也没有人知道它到底是不是在做对的事情。</span>  
 > *it generates literally 10,000 lines of code that nobody can inspect and nobody knows if it's actually doing the right thing.*  
 > <span class="qm">—— Jan Oberhauser · [04:37]</span> ^q2
 
-> <span class="qz">用代码的话，你只能看到整个东西的输入和输出，但里面到底发生了什么，你完全不知道。</span>  
-> *Again, with code, you see the input and you see the output of the whole thing. But what really happened in there, you have no idea.*  
-> <span class="qm">—— Jan Oberhauser · [26:07]</span> ^q3
+> <span class="qz">字面意义上，全世界每天有一场 N8N 社区活动。</span>  
+> *There's literally one NNN community event worldwide every day.*  
+> <span class="qm">—— Jan Oberhauser · [05:57]</span> ^q3
 
-> <span class="qz">因为你不想要只入职了一半的员工，或者你也不想要离职完成度连一半都不到的员工。</span>  
-> *because you don't want to have half on boarded employees or you don't want to have even less than half off boarded employees either.*  
-> <span class="qm">—— Jan Oberhauser · [29:17]</span> ^q4
+> <span class="qz">这字面上就是我们的使命定义：给每一个使用电脑和技术的普通人超能力。</span>  
+> *That's literally our mission is defined to give everybody who uses a computer and tech superpowers.*  
+> <span class="qm">—— Jan Oberhauser · [07:39]</span> ^q4
 
-> <span class="qz">但实际上，去年我们确实增长了整整 10 倍，正是出于那个原因：因为我们是价值链的一部分，我们赋能了人们，为他们提供了真正的价值。</span>  
-> *but literally like last year we grew literally 10X exactly for that reason because we were part of the value chain and we kind of empowered people and we kind of provided real value for them.*  
-> <span class="qm">—— Jan Oberhauser · [43:17]</span> ^q5
+> <span class="qz">我觉得在某个时候，OpenAI 推出了他们自己的 agent builder。我觉得最好的一周就是被他们干掉的那一周。</span>  
+> *I think that at some point, OpenAI launched their own agent builder. I think the best week ever is when we got killed by them.*  
+> <span class="qm">—— Jan Oberhauser · [08:41]</span> ^q5
 
-> <span class="qz">我们变得有病毒式传播，不是因为付钱让人谈论我们；我们去年变得有病毒式传播，是因为人们对它感到兴奋，然后从中获得了很大的价值。</span>  
-> *like we became not viral because we paid people to talk about us. We became viral last year because we had people being excited about it and then getting a lot of value out of it.*  
-> <span class="qm">—— Jan Oberhauser · [51:31]</span> ^q6
+> <span class="qz">我以前以为我有留存问题。结果发现我有的是信息传达问题。</span>  
+> *I used to think I had a retention problem. Turns out I had a messaging problem.*  
+> <span class="qm">—— Jan Oberhauser · [10:01]</span> ^q6
 
-> <span class="qz">我们意识到，只要购买方还没由 AI 完成，我们也就无法让销售方由 AI 完成。这仍然是人的游戏。</span>  
+> <span class="qz">而我们设定了这个内部目标，就是我们想用不到一千名员工达到十亿用户。</span>  
+> *And we set this internal goal like we want to reach a billion users with less than a thousand employees.*  
+> <span class="qm">—— Jan Oberhauser · [46:23]</span> ^q7
+
+> <span class="qz">我们意识到，只要购买方还没有由 AI 完成，我们也就无法让销售方由 AI 完成。这仍然是人的游戏。</span>  
 > *we realized that as long as people As long as the buying side is not done by AI, we cannot do the selling side by AI either. It's still a people game.*  
-> <span class="qm">—— Jan Oberhauser · [49:34]</span> ^q7
+> <span class="qm">—— Jan Oberhauser · [49:34]</span> ^q8
+
+> <span class="qz">我甚至仍然亲自合并每一个 PR。</span>  
+> *I literally still merged every PR.*  
+> <span class="qm">—— Jan Oberhauser · [55:17]</span> ^q9
 
 > <span class="qz">这显然非常清楚地表明人才密度真的很重要。如果在一定的规模下你只有一千人，你只能要最好的人。</span>  
 > *that obviously makes very clear that talent density is really important. If you have only a thousand people at a certain scale, you can only have the best ones.*  
-> <span class="qm">—— Jan Oberhauser · [66:41]</span> ^q8
+> <span class="qm">—— Jan Oberhauser · [66:41]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 

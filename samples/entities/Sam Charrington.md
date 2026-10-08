@@ -24,7 +24,7 @@ unlisted: true
 - [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]] — 作为主持
 - [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为主持
 - [[2026-09-29-twiml-from-math-olympiads-to-navier-stokes-how|《AI 能解千年数学难题了，但它还不会「想出新点子」》]] — 作为联合主持
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为主持
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为主持
 
 ## ③ 他谈到的
 

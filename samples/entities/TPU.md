@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(08:25起):本集说 TPU 是今天唯一能替代 NVIDIA 训练的芯片、可能也是最好的推理替代品，Google 花了三代才做对；若 Google 开始对外卖 TPU，未来三年会有一批高知名度 ASIC 项目被取消。
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：2013 年 Jeff 做「算盘数学」算出 Google 语音识别扛不住 CPU 开销，于是造了极度专用于低精度密集线性代数的芯片，几年后能效比 CPU/GPU 高 30-80 倍、延迟低 20-30 倍。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(38:37起):本集把它说成:Google 自研的、专为机器学习定制的优质芯片,被 Google 囤积供自家用
-- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(11:52起):本集说 TPU 是 Google 2013 年启动的反主流赌注——为语言翻译、语音识别等高收益应用做定制加速器；如今演化为 8i（推理）与 8t（训练）两颗互相兜底的芯片，七八年前的 TPU 仍在 100% 利用率运行
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(11:52起):本集说 TPU 是 Google 2013 年启动的反主流赌注——为语言翻译、语音识别等高收益应用做定制加速器；如今演化为 8i（推理）与 8t（训练）两颗互相兜底的芯片，七八年前的 TPU 仍在 100% 利用率运行
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为概念
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]]**(00:16起):本集说它是解决多个端点、嵌套极深数据对象痛点的统一接口:文本、图像、音频、智能体全用同一个 client.interactions.create 方法,靠 interaction ID 在服务端保留上下文。
+- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(00:16起):本集说它是解决多个端点、嵌套极深数据对象痛点的统一接口:文本、图像、音频、智能体全用同一个 client.interactions.create 方法,靠 interaction ID 在服务端保留上下文。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]] — 作为概念
+- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
 
 ## ③ 关联
 

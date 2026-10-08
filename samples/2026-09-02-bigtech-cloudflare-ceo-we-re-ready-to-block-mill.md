@@ -151,7 +151,7 @@ Prince 这一年新的担忧从小媒体扩大到小企业。逻辑是：品牌�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|智能体来了,你的商品目录还没准备好:PayPal 的实验与心得]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)、智能体商务 (agentic commerce)</span>
+- [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)、智能体商务 (agentic commerce)</span>
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
 

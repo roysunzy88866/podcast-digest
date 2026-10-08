@@ -37,9 +37,9 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 ![[2026-09-27-talks-software-engineering-is-becoming-factory#^q6]]
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q1]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q3]]
 
-![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q2]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q4]]
 
 ## ② 出现在这些集
 

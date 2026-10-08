@@ -1,51 +1,52 @@
 {
-  "title_zh": "企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台",
-  "tldr": "OutSystems CEO Woodson Martin 谈企业软件平台如何让编码智能体交付永不崩溃的系统，以及 token 成本、合规治理与行业竞争格局。",
-  "digest_md": "OutSystems 是一家 2001 年创立的企业软件开发平台，客户包括 Petrobras、Vodafone、Toyota 这样的巨头。执掌它 24 年的创始 CEO Paolo Rosado 在 2025 年把位子交给了 Woodson Martin——一个在 Salesforce 待了 18 年、干过营销、产品、甚至人力资源的老将。这期访谈，他就从这次交接聊起，谈到了一个反直觉的判断：AI 时代最值钱的不是生成代码的能力，而是「永不出错」。\n\n## 平台的秘方：中间那层抽象\n\nWoodson 说 OutSystems 用 AI 的方式和市面上的做法很不一样。关键在于平台里有一个中间层——应用「意图」的抽象。你随便带什么编码智能体来都行：Claude Code、Codex、或他们自家的 AI 助手 Mentor,但这些智能体操作的不是代码，而是这个抽象模型；然后由平台**确定性地**生成代码。(确定性生成，意思是同样的输入永远产出同样的结果，不走概率。)\n\n好处是：安全、基于角色的访问控制这些企业级要求全部内置在平台层面，生成的每一个代码资产 100% 遵守；而且会自动复用你已有的成果——已满足 GDPR、HIPAA 合规的成熟系统不会被反复重新发明、再走一遍合规流程，而是在上面加新能力，一次推上生产就全部正常工作。「当你在 OutSystems 上构建一个新系统时，你生成的每一个代码资产都在继承你的整个企业控制平面。」\n\n当 AI 把构建速度和代码量推到前所未有的水平，这种「永不破坏」的特质反而更重要了。\n\n## 企业级就绪 ≠ 高正常运行时间\n\n主持人问到：Anthropic、OpenAI 的正常运行时间按传统标准并不出色，企业不也照用吗？Woodson 的回答是：企业级就绪远不止系统可用，还有一整套非功能性要求——监管、合同、隐私。一个很现实的现象：很多客户已经把智能体系统建好、测好、兴奋不已，结果它躺在组织的合规积压清单里，卡在「底层那个 AI 模型的训练数据是否合法获取」这类审查上。 有时候那活儿只是从 PDF 里读数据转成结构化数据，照样被拖慢。\n\n这是审慎还是因循守旧？「肯定两者都有。」给内部员工做 IT 资源分配的风险，和给贷款审批做决策——后者要能向监管者证明每一步怎么做的——风险等级完全不同。 至于 AI 智能体保险这类新东西，他觉得是好想法、可能成为解锁点，但客户还没开始采用——对受监管行业来说，它又是另一件「未经证实的东西」。\n\n## token 账单：峰值已过，路由是关键\n\nOutSystems 自己的数据很有说服力：去年四季度发布 4 个主要功能，今年一季度 19 个，二季度 26 个——全是重大新能力，不是小修小补。token 消耗也随之激增，峰值在六月、七月。但他们学到一件事：**大部分工作用一个更好的 harness 就能做得同样好，而且便宜得多**。 他们自建了充满自家上下文的 harness 和一个 LLM 网关(路由器)，把不需要前沿模型的任务改路由到低成本模型。结果如今实际消耗比三季度预测还低。\n\n他的一个关键判断：「对今天大多数组织来说，他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。」 大部分企业 AI 能真正推进的工作负载其实很「无聊」，很多东西用确定性代码比用模型还便宜。今年二三月份每个 CFO 都收到 token 账单，Microsoft、Meta、Uber 都公开踩了刹车——但 Woodson 认为可以回到「一切充分利用 AI」的状态，只是要聪明地做，这正是平台该帮你干的事。OutSystems 在后端自己挑选并微调了一堆模型驱动 Mentor,客户哪怕用前沿模型通过 MCP 服务调用，底层也已经有大量优化，要干的活轻得多。\n\n## backlog 正在消失，但换了一种形态\n\n最让 Woodson 兴奋的变化：那些大家一直不敢碰的遗留系统——60 年的 COBOL、AS400、Lotus Notes——终于迎来出头之日，因为 AI 能加速从理解旧系统、翻译成新需求到测试上线的每个阶段。有保险公司把原计划六年的案件管理系统现代化改成了六个月。 另一个变化是自助服务：「嘿 Claude,拿这个电子表格做个仪表盘」——以前要排进别人 backlog 的活，现在自己就搞定。代价是标准化和集成会散架，之后需要清理——而平台正是接住这种「新型 backlog」的地方。\n\nOutSystems 还刚发布了一个「智能体铸造厂」：用客户应用组合的遥测数据和数据流做推理，直接告诉客户该建什么智能体系统、预测省下多少时间的 ROI,按一个按钮就能让 AI 构建出 V1。 因为「做什么仍然是最难的问题」——能力已经不是瓶颈了。\n\n## 大家都长成同一个超级平台，怎么赢？\n\nWoodson 承认行业正在趋同：旧金山高速公路上的广告牌写着完全相同的五个词，只是 logo 不同。 对话式体验让大家的「海面」一模一样，差异藏在海面之下——背后是什么系统、什么数据、怎么交互。他的答案是：通用基础构件大家都会有，**差异化最终靠专业化**——调优、蒸馏、模型专用性及配套成本结构，加上行业和工作流层面的专项优化。OutSystems 的护城河就是受监管行业里那些「不在基础清单上、但不做就跨不过门槛」的积累——他举例说有 37 项这类功能——以及多年在银行、保险、政府、医疗、运输物流、能源领域建成的专业化能力。\n\n## 看好「AI 泡透了的」年轻人\n\nWoodson 明确说他非常看好初级人才：过去五年原生沉浸在新技术里的人，能把 AI 优先的视角和做法带进组织。但现有组织还没建好另一半基础设施——把这些人导入行业专业知识、让技能真正派上用场。OutSystems 自己在向 FDE(前置部署工程师)模式靠拢，把入职培训改造成智能体化、即用即学的形式，而且对每一项新工作都要先问：这是给人的，还是给智能体(或团队)的？\n\n## 本集带走\n\n- **让智能体操作「意图」而非代码**：把安全、访问控制、合规内置在平台抽象层，由平台确定性生成代码，是「AI 快 + 永不出错」能同时成立的结构性做法。\n- **别为一切买单前沿模型**：绝大多数企业工作负载用旧模型甚至确定性代码就够；自建带上下文的 harness 和 LLM 路由器，是 token 账单从峰值回落的主要手段。\n- **建系统时选能轻松换模型的平台**：能力提升或价格下降时随时切换，别把工作流焊死在某一个模型上。\n- **瓶颈已经从「怎么建」转移到「建什么」**：用真实遥测数据推理该把哪些手工流程智能体化、并预测 ROI,比多雇几个开发者更值钱。\n- **同质化时代的差异化 = 原语之上的专业化**：行业深耕、监管门槛、调优蒸馏和成本结构，而不是功能清单的长短。",
+  "title_zh": "永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发",
+  "tldr": "OutSystems 新任 CEO Woodson Martin 讲述 AI 如何把企业软件交付提速数倍，以及为什么大多数企业任务根本用不着最贵的模型。",
+  "digest_md": "Woodson Martin 在 Salesforce 干了 18 年，2025 年接手 OutSystems——一家成立于 2001 年的企业软件开发平台，客户包括 Petrobras、Vodafone 和 Toyota。在 The Cognitive Revolution 这期访谈里，他聊了 AI 时代的企业软件：什么才叫企业级、为什么最贵的模型往往是浪费、以及大公司的技术积压清单正在发生什么变化。\n\n## AI 写代码很快，怎么保证不出事?\n\nOutSystems 的创始人 Paolo 在当时的愿景很简单：更快地构建软件，可靠地交付，并且随着业务节奏演进——不破坏任何东西。\n\n> 【背景】Paolo 即 OutSystems 创始人兼 CEO Paulo Rosado。\n\n[05:02 Woodson Martin]\n\n这在 AI 时代反而更重要了。Woodson 说，他们的做法和市面上大多数工具不同：平台里有一个中间层，AI 编程工具——无论是 Claude Code、Codex 还是自家的助手 Mentor——操纵的不是代码，而是应用意图的抽象模型。最后按下按钮，确定性地产出代码，安全、权限控制这些要求在平台层面就自动满足，还会自动复用已有组件。[08:21 Woodson Martin]\n\n他的比喻是：直接让 AI 从零写一个应用，就像每次都重新发明轮子，还得重新过一遍合规审查。而在一个复杂企业里，你希望的是站在已经通过 GDPR 或 HIPAA 合规的系统上叠加新能力。\n\n## 什么才叫企业级？不只是正常运行时间\n\n主持人提到一个观察：增长最快的 AI 公司，比如 Anthropic 和 OpenAI,按传统标准，正常运行时间其实并不出色。==那企业客户到底要什么==？\n\nWoodson 的回答很实在：几乎没有受监管的企业今天敢让自主智能体跑关键业务。他见过不少客户，智能体系统已经建好、测好，团队也很兴奋——但卡在合规审批队列里，等待某个具体 AI 模型获准使用。障碍可能细致到：要搞清楚训练这个模型的数据是不是合法取得的。[14:07 Woodson Martin]\n\n他甚至见过这种情况：一个智能体只是把 PDF 里的数据转成结构化数据，也要走完这套流程。所以企业级意味着一大堆非功能性要求——监管、合同、隐私，模型来源问题是新添的一项，其他多数在 AI 之前就存在。\n\n## 交付速度暴增：一个季度从 4 个功能到 26 个\n\nOutSystems 自己就是 AI 提速的活案例：去年第四季度发布了 4 个主要功能，今年第一季度变成 19 个，第二季度 26 个。[28:12 Woodson Martin]\n\n但有意思的是，他们在 6 月达到 token 支出峰值后，支出反而开始下降，现在甚至低于三季度预测。秘诀是自建了工具链和模型路由网关——不是所有任务都需要最贵的模型。\n\nWoodson 的判断很直白：**今天的企业任务，几乎没有需要前沿模型的**。多数企业运营类工作用三年前的模型就够，有些干脆用确定性代码更便宜。[29:17 Woodson Martin] 他还提到，今年 2、3 月每个 CFO 都收到了 token 账单，那是全行业的清醒时刻，微软、Meta、Uber 都在往回收。\n\n## 老系统的积压清单，终于开始清了\n\n最让 Woodson 兴奋的变化是：以前人人都不敢碰的老系统——COBOL、AS400、Lotus Notes——终于排上了日程。有保险公司把 60 年历史的案件管理系统现代化，**原来规划 6 年，现在 6 个月**。[43:13 Woodson Martin]\n\n另一面是自助服务的兴起：以前做个数据看板要排队等 IT 部门，现在自己让 Claude 从电子表格生成一个。代价是标准化和集成的丢失，需要事后清理——而这恰好是平台公司的机会。\n\n## 软件会长什么样？地图不会变成聊天\n\n主持人问，未来软件是不是都会变成对话？Woodson 用 Google 地图举例：他可以问 AI 怎么走，但还是想知道周围世界长什么样、路上会经过什么——对话体验替代不了。[56:02 Woodson Martin]\n\n他们在用户大会上演示过一个场景：用户在 Claude 里聊家里装修，聊到缺钱，助手提示已预批 3 万美元贷款额度，用户同意后，对话无缝流转到银行的移动应用——同一个智能体在两个场景背后工作，已经知道你是老客户，不用再交银行流水。\n\n## 竞争加剧时，靠专业化取胜\n\n很多平台正急着把所有积木块凑齐，广告牌上五家公司写着同样五个字，只换 logo。Woodson 说行业确实陷入了千篇一律。但他认为**最终胜出靠的是专业化**——在受监管行业积累的那些「基础清单之外的 37 个功能」，以及在银行、保险、政府、医疗、能源等领域多年的专长。会有大家都需要的通用基础构件，然后就看你在调优、蒸馏和模型专用性上真正擅长什么。[61:34 Woodson Martin]\n\n对新人他格外乐观：过去 5 年在新技术里泡大的年轻人才，带着 AI 优先的思维方式，能推动组织加速创新——虽然他们还需要学习行业知识。[63:47 Woodson Martin]\n\n## 本集带走\n\n- AI 编程时代，不破坏任何东西反而更重要：让 AI 操纵抽象模型而非直接写代码，安全与合规在平台层自动保证。\n- 大多数企业任务不需要前沿模型——配好模型路由和工具链，交付量翻数倍的同时，token 开支还能降下来。\n- 合规审批正卡住大量企业智能体项目，包括只用 AI 读 PDF 这种低风险场景；企业级的定义远不止正常运行时间。\n- 60 年历史的遗留系统现代化从 6 年缩到 6 个月，技术积压清单第一次开始真正缩短。\n- 竞争同质化之下，差异化来自行业专业化；而对 AI 原生的年轻人才，应该大胆下注。",
   "quotes": [
     {
-      "en": "When AI can build all this stuff for us, the pace at which we build, the sheer volume of stuff we're managing, like that never breaks feature turns out to be even more important.",
-      "zh": "当 AI 能为我们构建所有这些东西时，我们构建的速度、我们管理的海量内容，这种「永不出错」的特质反而变得更加重要。",
-      "timestamp": "06:15",
+      "en": "for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.",
+      "zh": "对于这类强化系统和受监管行业来说，这种信任是初创公司很难获得的东西，无论你的技术有多酷。",
+      "timestamp": "12:04",
       "speaker": "Woodson Martin"
     },
     {
-      "en": "The reputation that you build up over time for that kind of trust for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.",
-      "zh": "对于这类强化系统和受监管行业来说，随时间建立起来的信任声誉，是初创公司很难获得的东西，无论你的技术有多酷。",
-      "timestamp": "12:00",
-      "speaker": "Woodson Martin"
-    },
-    {
-      "en": "The calcification processes inside organizations is real in large enterprises and is something that organizations need to challenge and break in order to advance.",
-      "zh": "大型企业的组织内部僵化过程是真实存在的，组织需要挑战并打破它才能进步。",
-      "timestamp": "17:08",
-      "speaker": "Woodson Martin"
-    },
-    {
-      "en": "There's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.",
+      "en": "And there's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.",
       "zh": "这类系统太多了，那种认为我们在某个时点达到静止状态、一切都完美安全的想法，我认为是白日梦。",
       "timestamp": "26:26",
       "speaker": "Woodson Martin"
     },
     {
-      "en": "I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.",
-      "zh": "我认为对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。",
-      "timestamp": "29:18",
+      "en": "But one of the things that we've learned is actually most of those things that we were doing, we could do just as well, a lot cheaper, with a better harness.",
+      "zh": "但我们学到的一件事是，实际上我们当时做的那些事情，大部分用一个更好的 harness 就能做得同样好，而且便宜得多。",
+      "timestamp": "28:35",
       "speaker": "Woodson Martin"
     },
     {
-      "en": "And a lot of that stuff can be done with deterministic code cheaper than it can be with a model at all.",
-      "zh": "而且其中很多东西用确定性代码来做，比用模型做还要便宜。",
-      "timestamp": "29:49",
+      "en": "So I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.",
+      "zh": "所以我认为，对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。",
+      "timestamp": "29:17",
       "speaker": "Woodson Martin"
     },
     {
-      "en": "Like these old legacy systems, the COBOL, the AS400, the Lotus Notes and stuff, they're finally getting their day because it's now possible with AI operating and accelerating the work at every phase of the very complicated process.",
-      "zh": "比如这些老旧的遗留系统、COBOL、AS400、Lotus Notes 之类的，它们终于迎来了出头之日，因为现在 AI 可以在这个非常复杂的过程的每个阶段运作并加速工作。",
-      "timestamp": "43:15",
+      "en": "Project, instead of planning it as a six-year thing, we're now gonna do it in six months.",
+      "zh": "项目了，不再计划成六年的事，我们现在要在六个月内完成。",
+      "timestamp": "44:13",
+      "speaker": "Woodson Martin"
+    },
+    {
+      "en": "I do think there's a real significant chance that a lot of software as we know it today is just widgetized into little things that show up in the flow of conversation, right?",
+      "zh": "我确实认为存在一个很大的可能性：我们今天所知的很多软件，会被小部件化，变成出现在对话流中的小东西，对吧?",
+      "timestamp": "55:47",
+      "speaker": "Woodson Martin"
+    },
+    {
+      "en": "Because everybody has the same primitives because you need primitives, but you got to have specialization on top.",
+      "zh": "因为大家都有同样的原语，因为你需要原语，但你必须在原语之上做专业化。",
+      "timestamp": "62:08",
       "speaker": "Woodson Martin"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
       "timestamp": "05:02",
@@ -60,31 +61,37 @@
       "zh": "当 AI 能为我们构建所有这些东西时，我们构建的速度、我们管理的海量内容，这种「永不出错」的特质反而变得更加重要。"
     },
     {
-      "timestamp": "10:02",
+      "timestamp": "09:32",
       "speaker": "Woodson Martin",
-      "en": "When you're building a new system on OutSystems, you're inheriting every piece of your enterprise control plane, if you will, in every code asset that gets generated.",
-      "zh": "当你在 OutSystems 上构建一个新系统时，你生成的每一个代码资产都在继承你的整个企业控制平面，可以这么说。"
+      "en": "And in a complex enterprise where I've already got hardened systems that meet my compliance requirements for GDPR or HIPAA, depending on what kind of business I'm in, I don't want that stuff reinvented all the time, go through another compliance cycle, pick up what works, add the capability I'm looking for on top of it, and push that thing out to production in a way where I know that it all works the first time.",
+      "zh": "在一个复杂的企业环境里，我已经有了满足 GDPR 或 HIPAA 合规要求的成熟系统，取决于我做的是哪类业务，我不想让这些东西每次都被重新发明、再走一遍合规流程，而是拿起好用的东西，在其上加上我要的能力，然后把它推到生产环境，并且我知道它第一次就能全部正常工作。"
     },
     {
       "timestamp": "12:04",
       "speaker": "Woodson Martin",
-      "en": "The reputation that you build up over time for that kind of trust for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.",
-      "zh": "对于这类强化系统和受监管行业来说，随时间建立起来的信任声誉，是初创公司很难获得的东西，无论你的技术有多酷。"
+      "en": "for these kind of hardened systems and regulated industries is a thing that is just very hard to get as a startup, regardless of how cool your technology is.",
+      "zh": "对于这类强化系统和受监管行业来说，这种信任是初创公司很难获得的东西，无论你的技术有多酷。"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Woodson Martin",
+      "en": "There's not a lot of regulated enterprises today who have unleashed autonomous agents to run mission-critical work.",
+      "zh": "如今还没有多少受监管的企业放开了自主智能体去执行任务关键型的工作。"
     },
     {
       "timestamp": "14:07",
       "speaker": "Woodson Martin",
-      "en": "And it's sitting in a compliance backlog today somewhere in their organization where it's pending the approval of the use of a specific AI model under the covers.",
-      "zh": "而它如今正躺在他们组织里某个合规积压清单中，等待批准底层那个特定 AI 模型的使用。"
+      "en": "And it's sitting in a compliance backlog today somewhere in their organization where it's pending the approval of the use.",
+      "zh": "而它如今正躺在他们组织里某个合规积压清单中，等待批准使用。"
     },
     {
-      "timestamp": "17:08",
+      "timestamp": "15:07",
       "speaker": "Woodson Martin",
-      "en": "The calcification processes inside organizations is real in large enterprises and is something that organizations need to challenge and break in order to advance.",
-      "zh": "大型企业的组织内部僵化过程是真实存在的，组织需要挑战并打破它才能进步。"
+      "en": "And yet there is this type of compliance concern that slows progress.",
+      "zh": "然而就是存在这种类型的合规顾虑拖慢了进展。"
     },
     {
-      "timestamp": "26:03",
+      "timestamp": "25:58",
       "speaker": "Woodson Martin",
       "en": "There is no finish line on security and cyber threat, right?",
       "zh": "在安全和网络威胁上没有终点线，对吧？"
@@ -92,32 +99,38 @@
     {
       "timestamp": "26:26",
       "speaker": "Woodson Martin",
-      "en": "There's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.",
+      "en": "And there's so many of these systems, like the idea that at some point we reach a stasis and everything is perfectly secure, I think is a pipe dream.",
       "zh": "这类系统太多了，那种认为我们在某个时点达到静止状态、一切都完美安全的想法，我认为是白日梦。"
+    },
+    {
+      "timestamp": "28:35",
+      "speaker": "Woodson Martin",
+      "en": "But one of the things that we've learned is actually most of those things that we were doing, we could do just as well, a lot cheaper, with a better harness.",
+      "zh": "但我们学到的一件事是，实际上我们当时做的那些事情，大部分用一个更好的 harness 就能做得同样好，而且便宜得多。"
     },
     {
       "timestamp": "29:17",
       "speaker": "Woodson Martin",
-      "en": "I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.",
-      "zh": "我认为对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。"
+      "en": "So I think the reality for most organizations today is that they don't need frontier models for their enterprise workloads, like almost none of enterprise workloads.",
+      "zh": "所以我认为，对今天大多数组织来说，现实是他们的企业工作负载并不需要前沿模型，几乎没有任何企业工作负载需要。"
     },
     {
-      "timestamp": "29:49",
+      "timestamp": "29:41",
       "speaker": "Woodson Martin",
       "en": "And a lot of that stuff can be done with deterministic code cheaper than it can be with a model at all.",
       "zh": "而且其中很多东西用确定性代码来做，比用模型做还要便宜。"
     },
     {
-      "timestamp": "31:05",
+      "timestamp": "31:01",
       "speaker": "Woodson Martin",
-      "en": "And it was like obviously a no-shit moment for the whole world.",
-      "zh": "那对全世界来说显然是一个「不言而喻」的时刻。"
+      "en": "Like everybody, every CFO got the token bill in February and March.",
+      "zh": "每个人，每一个 CFO 都在二月和三月收到了 token 账单。"
     },
     {
-      "timestamp": "43:15",
+      "timestamp": "44:13",
       "speaker": "Woodson Martin",
-      "en": "Like these old legacy systems, the COBOL, the AS400, the Lotus Notes and stuff, they're finally getting their day because it's now possible with AI operating and accelerating the work at every phase of the very complicated process.",
-      "zh": "比如这些老旧的遗留系统、COBOL、AS400、Lotus Notes 之类的，它们终于迎来了出头之日，因为现在 AI 可以在这个非常复杂的过程的每个阶段运作并加速工作。"
+      "en": "Project, instead of planning it as a six-year thing, we're now gonna do it in six months.",
+      "zh": "项目了，不再计划成六年的事，我们现在要在六个月内完成。"
     },
     {
       "timestamp": "52:52",
@@ -126,16 +139,16 @@
       "zh": "做什么仍然是最难的问题，对吧？"
     },
     {
-      "timestamp": "55:28",
+      "timestamp": "55:47",
       "speaker": "Woodson Martin",
-      "en": "Like I do think that the user experiences for different things that we want to don't all lend themselves into a conversational experience.",
-      "zh": "我确实认为我们想做的不同事情的用户体验，并不全都适合对话式体验。"
+      "en": "I do think there's a real significant chance that a lot of software as we know it today is just widgetized into little things that show up in the flow of conversation, right?",
+      "zh": "我确实认为存在一个很大的可能性：我们今天所知的很多软件，会被小部件化，变成出现在对话流中的小东西，对吧?"
     },
     {
-      "timestamp": "56:23",
+      "timestamp": "60:17",
       "speaker": "Woodson Martin",
-      "en": "But I still want to know, like, what the hell does the world look like around me?",
-      "zh": "但我仍然想知道，比如，我周围的世界到底长什么样？"
+      "en": "I mean, of course, let's be clear that if you go drive the one-on-one freeway in San Francisco and you see all the billboards and they all say the exact same five words on it, right?",
+      "zh": "我是说，当然，要说明的是，如果你开车经过旧金山的 101 高速公路，看到所有的广告牌，它们上面写的都是完全相同的五个词，对吧？"
     },
     {
       "timestamp": "62:08",
@@ -144,10 +157,16 @@
       "zh": "因为大家都有同样的原语，因为你需要原语，但你必须在原语之上做专业化。"
     },
     {
-      "timestamp": "64:08",
+      "timestamp": "63:47",
       "speaker": "Woodson Martin",
-      "en": "Generally, a fresh perspective and attitude and AI-first, AI-pilled, if you will, kind of approach to things.",
-      "zh": "通常来说，一种新鲜的视角和态度，以及一种 AI 优先、可以说是「AI 泡透了的」处事方式。"
+      "en": "Yeah, I'm super bullish on junior talent, on people who grew up, whose last five years have basically been native to all these new technologies where they can bring those in to organizations, our customers, our partners, our own organization, and really drive accelerated innovation.",
+      "zh": "是的，我对初级人才非常看好，对那些成长起来的人——他们过去五年基本上已经原生地沉浸在这些新技术中——他们能把这些带进各个组织，我们的客户、我们的合作伙伴、我们自己的组织，真正推动加速创新。"
+    },
+    {
+      "timestamp": "24:23",
+      "speaker": "Woodson Martin",
+      "en": "So there's just an inherent benefit in the kind of platform approach to the kind of, hey, Wild West AI builds all the things.",
+      "zh": "所以相比那种「嘿，狂野西部式 AI 构建一切」的方式，这种平台方式确实有固有的优势。"
     }
   ],
   "voice_script": "今天这期节目，咱们聊一家你可能不太熟悉、但客户名单吓人的公司。OutSystems，2001 年成立的企业软件开发平台，客户里有 Petrobras、Vodafone、Toyota 这样的巨头。执掌这家公司 24 年的创始 CEO Paolo Rosado，在 2025 年把位子交给了 Woodson Martin——一个在 Salesforce 待了 18 年、营销、产品、甚至人力资源都干过的老将。这期访谈，Woodson 就从这次交接聊起，谈企业软件平台怎么在智能体时代生存。其中有个反直觉的判断特别值得听：AI 时代最值钱的，不是生成代码的能力，而是「永不出错」。\n\n咱们先从平台本身说起。Woodson 说，OutSystems 用 AI 的方式，和市面上的做法很不一样。关键在平台里有一个中间层——应用「意图」的抽象。什么意思呢？你随便带什么编码智能体来都行，Claude Code、Codex，或者他们自家的 AI 助手 Mentor。但这些智能体操作的不是代码，而是这个抽象模型；然后由平台确定性地生成代码。确定性生成，说白了就是同样的输入永远产出同样的结果，不走概率。\n\n这么做到底图什么？好处很实在。安全、基于角色的访问控制这些企业级要求，全部内置在平台层面，生成的每一个代码资产百分之百遵守。而且平台会自动复用你已有的成果——已经满足 GDPR、HIPAA 合规的成熟系统，不会被 AI 反复重新发明、再走一遍合规流程，而是在上面加新能力，一次推上生产就全部正常工作。Woodson 有句话说得很好：当你在 OutSystems 上构建一个新系统时，你生成的每一个代码资产，都在继承你的整个企业控制平面。当 AI 把构建速度和代码量推到前所未有的水平，这种「永不破坏」的特质反而更重要了。\n\n那有人可能会问：现在 Anthropic、OpenAI 的正常运行时间，按传统企业标准并不出色，企业不也照用不误吗？这里头有个更细的区分。Woodson 的回答是：企业级就绪，远不止系统可用，还有一整套非功能性要求——监管、合同、隐私。现在有个很现实的现象：很多客户已经把智能体系统建好了、测好了、兴奋不已，结果它就躺在组织的合规积压清单里，卡在「底层那个 AI 模型的训练数据是不是合法获取」这类审查上。有时候那活儿只是从 PDF 里读数据、转成结构化数据，照样被拖慢。\n\n这是审慎，还是因循守旧？答案是两者都有。给内部员工做 IT 资源分配的风险，和给贷款审批做决策——后者要能向监管者证明每一步怎么做的——风险等级完全不同。至于 AI 智能体保险这类新东西，Woodson 觉得是好想法、可能成为解锁点，但客户还没开始采用。对受监管行业来说，它又是另一件「未经证实的东西」。\n\n好，讲完合规，咱们聊聊一个所有人都头疼的话题：token 账单。OutSystems 自己的数据很有说服力。去年四季度发布了 4 个主要功能，今年一季度 19 个，二季度 26 个——全是重大新能力，不是小修小补。token 消耗随之激增，峰值出现在六月、七月。但他们从中学到一件事：大部分工作，用一个更好的 harness 就能做得同样好，而且便宜得多。所谓 harness，你可以理解为带着自家上下文、把模型包起来干活的那套框架。他们自建了充满自家上下文的 harness，再加一个 LLM 网关，说白了就是个路由器——把不需要前沿模型的任务，改路由到低成本模型。结果呢？如今实际消耗比三季度的预测还低。\n\n这里有个关键判断，值得每个企业听：今天大多数组织的企业工作负载，并不需要前沿模型——几乎没有任何企业工作负载需要。大部分企业 AI 能真正推进的工作负载其实很「无聊」，而且很多东西用确定性代码来做，比用模型做还要便宜。今年二三月份，每个 CFO 都收到了 token 账单，Microsoft、Meta、Uber 都公开踩了刹车。但 Woodson 认为可以回到「一切充分利用 AI」的状态，只是要聪明地做——而这正是平台该帮你干的事。OutSystems 在后端自己挑选并微调了一堆模型来驱动 Mentor，客户哪怕用前沿模型通过 MCP 服务调用，底层也已经有大量优化，要干的活轻得多。\n\n那 AI 到底改变了什么？最让 Woodson 兴奋的变化，是那些大家一直不敢碰的遗留系统——60 年的 COBOL、AS400、Lotus Notes——终于迎来出头之日。因为 AI 能加速从理解旧系统、翻译成新需求到测试上线的每个阶段。有保险公司把原计划六年的案件管理系统现代化，改成了六个月。另一个变化是自助服务：「嘿 Claude，拿这个电子表格做个仪表盘」——以前要排进别人 backlog 的活，现在自己就搞定了。但代价是标准化和集成会散架，之后需要清理，而平台正是接住这种「新型 backlog」的地方。OutSystems 还刚发布了一个「智能体铸造厂」，用客户应用组合的遥测数据做推理，直接告诉客户该建什么智能体系统、能省多少时间，按一个按钮就能让 AI 构建出 V1。为什么做这个？因为「做什么」仍然是最难的问题——能力已经不是瓶颈了。\n\n说到这儿，还有一个所有从业者都躲不开的问题：大家都在做 AI 平台，最后怎么竞争？Woodson 承认行业正在趋同，旧金山高速公路上的广告牌写着完全相同的五个词，只是 logo 不同。对话式体验让大家的「海面」一模一样，差异藏在海面之下——背后是什么系统、什么数据、怎么交互。他的答案是：通用基础构件大家都会有，差异化最终靠专业化——调优、蒸馏、模型专用性及配套的成本结构，加上行业和工作流层面的专项优化。OutSystems 的护城河，就是受监管行业里那些不在基础清单上、但不做就跨不过门槛的积累——单是这类功能就有 37 项——以及多年在银行、保险、政府、医疗、运输物流、能源领域建成的专业化能力。\n\n最后聊聊人。Woodson 明确说他非常看好初级人才——过去五年原生沉浸在新技术里的年轻人，能把 AI 优先的视角带进组织。但现有组织还没建好另一半基础设施：把这些人导入行业专业知识，让技能真正派上用场。OutSystems 自己在向 FDE、也就是前置部署工程师的模式靠拢，把入职培训改造成智能体化、即用即学的形式，而且对每一项新工作都要先问一句：这是给人的，还是给智能体的？\n\n这一期听下来，主线其实就一句：当 AI 能为我们构建所有这些东西，构建的速度、管理的海量内容都在暴涨，这种「永不出错」的特质，反而变得更加重要。"

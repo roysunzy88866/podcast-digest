@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>David George</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="David George">DA</div><div class="pi"><h1 class="pt">David George</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="David George">DA</div><div class="pi"><h1 class="pt">David George</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>29</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*30 条*
+*29 条*
 
 ![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q1]]
 
@@ -71,8 +71,6 @@ unlisted: true
 
 ![[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl#^q13]]
 
-![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q11]]
-
 ## ② 出现在这些集
 
 *6 集*
@@ -82,7 +80,7 @@ unlisted: true
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为主持
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为主持
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为主持
-- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]] — 作为主持
+- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]] — 作为主持
 
 ## ③ 他谈到的
 

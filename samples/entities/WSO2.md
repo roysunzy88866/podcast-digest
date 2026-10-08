@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]]**(12:27起):本集说 WSO2 是 Rania 现任公司：约 20 年历史、ARR 约 1.5 亿美元、100% 开源（非 open core）的软件公司，产品覆盖六大洲 90 多个国家，历史主打 API 平台、集成平台、身份与访问管理和内部开发者平台，近年战略聚焦「智能体化企业结构」，为所有产品加入对智能体、LLM 和工具的一等支持。
+- **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(12:27起):本集说 WSO2 是 Rania 现任公司：约 20 年历史、ARR 约 1.5 亿美元、100% 开源（非 open core）的软件公司，产品覆盖六大洲 90 多个国家，历史主打 API 平台、集成平台、身份与访问管理和内部开发者平台，近年战略聚焦「智能体化企业结构」，为所有产品加入对智能体、LLM 和工具的一等支持。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席 AI 官生存指南：科学家、架构师、教练》]] — 作为被讨论公司
+- [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为被讨论公司
 
 ## ③ 关联
 

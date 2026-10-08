@@ -57,7 +57,7 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:39起):本集说与 Stripe 相处时他们觉得更高效地写代码回报非常高，是 token 买方拿到 ROI 的例证。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说 Stripe 收购了 OpenRouter，过程高效、对创始人友好；两家都希望世界上出现大量新公司，并希望 OpenRouter 保持品牌与产品自主权。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(01:07起):本集把它说成:嘉宾待了九年多、从约 400 人到 8000 人、从 1 亿美元营收做到数十亿美元的前东家,她离开时的职位是首席业务官;Stripe 有「效率即杠杆」价值观并每约 18 个月重写一次价值观。
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(56:18起):本集作为「对客户可以合理模糊」的例子:可以暗示「我们在和 Stripe 谈」,因为机构太大,细节没人追究。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(56:18起):本集作为「对客户可以合理模糊」的例子:可以暗示「我们在和 Stripe 谈」,因为机构太大,细节没人追究。
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(00:24起):本集主线公司:2025 年处理 1.9 万亿美元交易(同比增 34%),正在为 AI/智能体商务『彻底重构』自己,包括收购 Bridge、Privy、Metronome、OpenRouter。
 
 ## ① 提到它的金句
@@ -130,7 +130,7 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司(提及)
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 
 ## ③ 关联

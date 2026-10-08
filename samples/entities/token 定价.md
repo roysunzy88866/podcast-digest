@@ -17,7 +17,7 @@ unlisted: true
 
 *1 条*
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q7]]
 
 ## ② 出现在这些集
 

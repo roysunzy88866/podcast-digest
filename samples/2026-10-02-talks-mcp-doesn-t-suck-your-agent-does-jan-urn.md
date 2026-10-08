@@ -1,12 +1,12 @@
 ---
-title: MCP 并不烂，烂的是你的智能体
+title: MCP没有问题，你的智能体才有问题
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "18:23"
 type: episode
 cover: "#64748b"
-description: Apify 创始人兼 CEO Jan Cern 反驳「MCP 已死」论，拆解智能体滥用上下文才是真问题，并发布 MCP 的通用 CLI 客户端 MCPC。
+description: Apify创始人Jan Čurn为饱受批评的MCP辩护，并发布了命令行客户端MCPC，把MCP和CLI的优点合二为一。
 guests: ["[[Jan Čurn]]"]
 companies: ["[[Appify]]", "[[Anthropic]]", "[[Cloudflare]]"]
 concepts: ["[[MCP]]", "[[CLI]]", "[[harness]]", "[[子智能体]]", "[[渐进式工具发现]]", "[[CodeMode]]", "[[工具调用]]", "[[沙箱]]", "[[上下文窗口]]", "[[MCPC]]", "[[Connector Evals]]"]
@@ -16,18 +16,18 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#post","headline":"MCP 并不烂，烂的是你的智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn","mainEntityOfPage":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn","description":"Apify 创始人兼 CEO Jan Cern 反驳「MCP 已死」论，拆解智能体滥用上下文才是真问题，并发布 MCP 的通用 CLI 客户端 MCPC。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jan Čurn"},{"@type":"Organization","name":"Appify"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Cloudflare"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"子智能体 (sub-agent)"},{"@type":"Thing","name":"渐进式工具发现 (Progressive Tool Discovery)"},{"@type":"Thing","name":"CodeMode"},{"@type":"Thing","name":"工具调用 (tool calling)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文窗口 (context window)"},{"@type":"Thing","name":"MCPC"},{"@type":"Thing","name":"Connector Evals"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"MCP 并不烂，烂的是你的智能体","item":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn#post","headline":"MCP没有问题，你的智能体才有问题","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn","mainEntityOfPage":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn","description":"Apify创始人Jan Čurn为饱受批评的MCP辩护，并发布了命令行客户端MCPC，把MCP和CLI的优点合二为一。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jan Čurn"},{"@type":"Organization","name":"Appify"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Cloudflare"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"子智能体 (sub-agent)"},{"@type":"Thing","name":"渐进式工具发现 (Progressive Tool Discovery)"},{"@type":"Thing","name":"CodeMode"},{"@type":"Thing","name":"工具调用 (tool calling)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文窗口 (context window)"},{"@type":"Thing","name":"MCPC"},{"@type":"Thing","name":"Connector Evals"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"MCP没有问题，你的智能体才有问题","item":"https://talk.solomind.cc/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 并不烂，烂的是你的智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP没有问题，你的智能体才有问题</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# MCP 并不烂，烂的是你的智能体
+# MCP没有问题，你的智能体才有问题
 
 <div class="pd-byl"><b>Jan Čurn</b> · Apify 创始人兼 CEO · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以基本上，上下文是一个传递敏感信息或大数据的非常糟糕的地方。</div><div class="a">— Jan Čurn <button class="pd-ts" data-t="04:26" data-who="Jan Čurn" data-en="So basically, context is a really bad place to pass sensitive value or like large data." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">MCP 就已经用 100 个工具占满了你的上下文。可能你三分之一的上下文就这么没了，却什么工作都没做。</div><div class="a">— Jan Čurn <button class="pd-ts" data-t="03:00" data-who="Jan Čurn" data-en="MCP would already eat 100 tools in your context. Maybe one third of your context would be gone without actually doing any work." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Jan Čurn]]
@@ -36,125 +36,123 @@ jsonLd: |
 >
 > **概念** [[MCP]] · [[CLI]] · [[harness]] · [[子智能体]] · [[渐进式工具发现]] · [[CodeMode]] · [[工具调用]] · [[沙箱]] · [[上下文窗口]] · [[MCPC]] · [[Connector Evals]]
 
-这一集是一场技术演讲，标题就叫「[[MCP|MCP]] 并不烂，烂的是你的智能体」。主角是 Jan Cern,Apify 的创始人兼 CEO。
+[[MCP|MCP]]是[[Anthropic|Anthropic]]在近两年前推出的标准，用来让AI智能体安全地连接各种工具。
 
-MCP 是 [[Anthropic|Anthropic]] 差不多两年前推出的一个标准，用来安全地把工具和资源接入 AI 智能体，现在 Claude、ChatGPT 都在用它，社区里已有大约 1 万到 1.5 万个 MCP 服务器。
+去年它一度是AI圈的宠儿，现在市面上大约有1万到1.5万个MCP服务器，Claude和ChatGPT都在用它接入工具。可与此同时，骂它的声音也越来越多。
 
-但去年风向突变，网上骂声一片——「MCP 是错误的抽象」「MCP 是个错误」「感谢上帝 MCP 死了」，连 Gary Tan 都说「说实话 MCP 很烂」。
+Apify创始人兼CEO [[Jan Čurn|Jan Čurn]]这场演讲要回答的问题是：==MCP真的像大家说的那么糟吗==？
 
-Cern 要回答的问题就是：这些骂声到底站不站得住脚？
+## 大家为什么骂MCP？
 
-> 【背景】Gary Tan 是 Y Combinator 的总裁兼 CEO。
+网上流传的批评相当狠。有人说「MCP是个错误，命令行万岁」，有人说MCP基本没用，连Gary Tan都说说实话，MCP很糟糕。
 
-## 骂得最凶的「吃上下文」，其实是实现者的锅
+Čurn把最常被引用的一条批评拿出来分析：MCP太吃上下文了。
 
-被引用最多的问题是 MCP 吃上下文。早期智能体的做法确实很朴素：
+这确实是真的。早期智能体接入MCP的方式很天真：10个服务器、每个10个工具，就把100个工具全部塞进上下文。
 
-接了 10 个 MCP 服务器就注册 100 个工具，你还没提问，三分之一的[[上下文窗口|上下文窗口]]就被工具定义占掉了；
+你还没开始提问，三分之一的上下文已经被吃掉了。
 
-之后每次调用工具，结果又塞回上下文，越滚越长、准确性下降、成本飙升。
+之后每次调用工具、每次返回结果，上下文还在继续膨胀，越变越长，准确度下降，费用飙升。
 
-但 Cern 的关键论点是：**这不是 MCP 协议的问题，是 [[harness|harness]](智能体的执行框架)的问题**。
+但Čurn指出，**这是智能体的问题，不是协议的问题**。MCP规范里对智能体该怎么设计只字未提——那是实现者自己的责任 <button class="pd-ts" data-t="03:28" data-who="嘉宾" data-en="But that's not the problem of MCP. That's the problem of the harness. And if you look at the MCP specification, what it says about how you should design the harness, it says absolutely nothing." aria-label="回原文"></button>。
 
-MCP 规范对「该怎么设计 harness」只字未提，完全留给实现方——把工具定义无脑全量塞进上下文，是你构建智能体时的失职。
+## 业界已有的三种补救办法
 
-## 三个解法，各有短板
+第一种是把任务分给[[子智能体|子智能体]]，让它们各自处理，不污染主上下文。
 
-**解法一：[[子智能体|子智能体]]**——把占用上下文的任务委托给一个新的子智能体去跑，不污染主上下文窗口。
+但代价是代币费用照样要付，而且敏感信息（比如密码）还是会留在某个上下文里，可能被其他[[工具调用|工具调用]]滥用。
 
-但 token 的钱照付，问题只是往后推了一点；
+第二种叫[[渐进式工具发现|渐进式工具发现]]，去年年底由Anthropic和Cursor先后推出。
 
-而且上下文本来就是传递敏感信息或大数据的糟糕场所——工具返回的密码会留在上下文里，可能被后续调用或应用滥用。
+思路简单得让人心疼：不要一次把100个工具全塞进去，而是用一个工具搜索工具，需要哪个再加载哪个。
 
-**解法二：[[渐进式工具发现|渐进式工具发现]]**——去年年底先由 Anthropic、随后 Cursor 引入。
+通常你只需要一两个工具，这样能省下大量上下文 <button class="pd-ts" data-t="05:04" data-who="嘉宾" data-en="So how about we put those tools into the context progressively, only when you need them, right? So for example, Anthropic in Claude introduced this tool, just called Tool Search Tool." aria-label="回原文"></button>。
 
-Claude 里加了一个叫 Tool Search Tool 的工具，帮你找到其他工具、只在需要时才把那一两个加进上下文，而不是常驻 100 个。
+第三种是[[Cloudflare|Cloudflare]]推出的[[CodeMode|CodeMode]]：别把MCP工具当函数塞进上下文，把它们当代码。
 
-省下大量上下文，更快更便宜。简单得让人难受——人们居然现在才这么做。
+因为模型读代码、写代码的能力很强，训练数据里有海量代码可以学。
 
-**解法三：[[CodeMode|CodeMode]]**——也是去年年底由 [[Cloudflare|Cloudflare]] 引入，思路是把 MCP 工具不当函数、而当代码来对待。
+相比之下，工具调用是人造的概念，训练数据里本来没有，得靠合成数据硬教 <button class="pd-ts" data-t="06:28" data-who="嘉宾" data-en="Because it turns out Models are better at writing and calling code than calling tools because tool calling is an artificial construct, basically, that we have to teach the LLMs to do." aria-label="回原文"></button>。
 
-模型很擅长用 grep 这类工具在代码里导航、找定义，自然也能导航工具描述。
+问题是，这些方案大多数MCP客户端根本不支持。协议进化了很多，客户端还停留在黑暗时代。
 
-事实证明**模型写代码、调代码比调用工具更在行，因为[[工具调用|工具调用]]是一种人工构造，真实训练数据里根本不存在，那些数据得合成出来喂给模型**。
+## 命令行为什么天生就强？
 
-可惜 Cloudflare 的实现绑死自家平台，除了示例没多少人真在用。
+很多人主张用命令行（[[CLI|CLI]]）取代MCP，理由其实站得住脚。
 
-## CLI 凭什么被拿来比？
+智能体从不把整个命令行的帮助文档全塞进上下文，而是按需查询——相当于天生就自带渐进式发现。
 
-骂 MCP 的人大多捧 [[CLI|CLI]]。Cern 承认 CLI 有三个天生的优势：
+运行命令行必须通过shell，而shell本身就是代码——相当于天生就自带CodeMode。
 
-第一，智能体从不把整个 CLI 加载进上下文，它默认就是渐进式的，只在需要时调用，而且基本 Linux 命令它早就背熟了；
+更关键的是，智能体对shell熟得不能再熟。Unix从1969年就有了，那个80列25行的黑终端，是40多年优化的结果，每个字节都在传达最重要的信息。
 
-第二，智能体默认把 CLI 当代码跑——你要运行 CLI 就得有[[沙箱|沙箱]]或机器这类运行时，等于 CodeMode 从第一天就自带，而 MCP 是慢慢长出来的；
+智能体的训练数据里见过无数shell用法，AI实验室还能合成无限的shell训练数据 <button class="pd-ts" data-t="09:26" data-who="嘉宾" data-en="Plus, for AI labs, you can actually synthesize infinite amount of training data from using Shell. You can just pipe different commands together, explore the commands, extract information from your manual pages, and basically feed this all to the models." aria-label="回原文"></button>。
 
-第三，Shell 从 1969 年的 Unix 一路优化至今，那个 80 列 25 行的黑盒子，每个字节都经过 40 年打磨只传达最重要的信息——它是为人类优化的，但智能体也很喜欢，AI 实验室甚至能从 Shell 使用中合成无限量的训练数据。
+但命令行也有硬伤：它是个本地黑盒，没有标准的传输协议。企业没法监控它用了什么接口，也没法给它注入凭证。
 
-但 CLI 有个致命短板：**它是没有标准输出协议的本地黑盒**。
+**所以远程接入的场景，MCP依然是更好的选择**——你见不到哪个智能体用命令行做远程连接器。
 
-你想给企业里的 CLI 做插桩监测，得去猜它底层用的是 API 还是 WebSockets;你也没法往里注入凭证。所以 CLI 只适合本地接口，远程访问还得靠 MCP。
+## MCPC：把两个世界的优点合起来
 
-## 结论：MCP 加 CLI,而不是二选一
+Čurn的方案是：远程访问用MCP，本地操作用CLI。于是他做了[[MCPC|MCPC]]，一个通用的MCP命令行客户端。
 
-于是 Cern 提出分工：
+这个项目最初只是一个业余项目，后来成了市面上功能最全的同类工具。
 
-MCP 负责标准远程访问，CLI 负责本地智能体接口——MCP 的全部协议特性，通过一个所有智能体都已经会的工具调用(叫 Bash)来暴露。
+它的思路是把MCP的全部复杂性藏在一个所有智能体都会用的工具调用背后——bash。会话管理、授权、认证，统统不用操心。
 
-会话、授权这些复杂性全部藏在 Bash 背后，智能体不用操心。
+每条命令都支持--json参数，输出纯JSON，可以用JQ之类的工具把多次调用串成脚本，完全不浪费上下文代币 <button class="pd-ts" data-t="11:49" data-who="嘉宾" data-en="It needs to support code mode all the way. And actually, every command in MCPC has an option to run with dash dash JSON, which returns just pure JSON representation of the data." aria-label="回原文"></button>。
 
-落地就是他们发布的 **[[MCPC|MCPC]]**——MCP 的通用 CLI 客户端，始于十二月的业余项目(那个月被称为「Claude 之冬」)。
+现场演示里，MCPC连接了本地的Filesystem服务器和远程的Apify服务器。登录认证走浏览器，凭证安全地存在操作系统的钥匙串里。
 
-它是 MCP 协议之上的一层轻量包装，没有 LLM;支持 STDIO 本地进程和远程服务器，登录凭证存进本地 OS 钥匙串；
+会话是持久化的，设置一次，Claude Code和Codex等智能体可以共用同一套配置。
 
-帮助信息专为智能体优化，让它无需外部技能就能上手。
+它还支持MCP协议的新特性，比如异步任务：加个--task参数，任务在服务器上跑，你可以先去干别的，回头再取结果。
 
-每条命令都有 `--json` 选项返回纯 JSON,可以用 JQ 和管道把多个调用串成代码序列；
+Čurn提到，大多数客户端连协议里的instructions（服务器自我说明）这种基本原语都不支持 <button class="pd-ts" data-t="14:05" data-who="嘉宾" data-en="Actually, MCP protocol has instructions where server kind of explains what it does. But most clients still don't support this basic primitive, which is kind of crazy." aria-label="回原文"></button>。最近他们还加了X402支持，可以用来管理本地钱包。
 
-支持 MCP 协议的新功能——服务器指令(大多数客户端连这个基本原语都不支持)、异步任务(`--task`,任务在服务器端跑、稍后取结果)、会话持久化(设置一次，Claude Code、Codex 共用同一套配置)。
+## 实测：MCPC表现如何？
 
-最近还加了 X402 支持，用来管理本地钱包。
+为了比较不同接入方式的优劣，Apify做了一个叫[[Connector Evals|Connector Evals]]的评测框架。
 
-为了验证效果，他们建了一个叫 [[Connector Evals|Connector Evals]] 的评测框架—— usual 的评测比智能体(TerminalBench 比 Codex 和 Claude Code 谁强)，他们反过来比连接器。
+一般的基准测试（比如TerminalBench）比较的是不同智能体谁更强，他们反过来，固定用Claude Code加Sonnet 5，比较不同的连接器——原生CLI、原生MCP、MCPC——哪个更高效。
 
-初步结果：同样用 Claude Code 配 Sonnet 5,MCPC 和 CLI 表现相当接近，原始 MCP 虽然完成得更快，但 token 消耗明显更多。
+初步结果显示，MCPC和原生CLI表现相当，而原生MCP虽然有时完成得更快，但消耗的代币更多 <button class="pd-ts" data-t="17:49" data-who="嘉宾" data-en="And you can see that, for example, this is chart, the X is the time, how long did it take to finish the task, and Y chart is at the cost of tokens, right? And you can see that MCPC and CLI are actually performing pretty similarly, while raw MCP finished faster for whatever reason, but actually consumed more tokens." aria-label="回原文"></button>。
 
-演讲收尾就是标题本身：「请别再说 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。」
-
-> 【背景】MCP 指 Model Context Protocol,Anthropic 于 2024 年底发布的智能体-工具交互开放标准；文中 OpenClaw、Peter Levels、Gary Tan 等批评言论均为演讲者现场引用的社区推文。
+所以Čurn的结论是：别再说CLI比MCP好了。**MCP加CLI，才是最好的组合**。
 
 ## 本集带走
 
-- **「MCP 吃上下文」是 harness 的锅，不是协议的锅**：MCP 规范对 harness 设计只字未提，全量注册工具定义是智能体实现的失职。
-- **三种解法按成熟度选**：子智能体隔离上下文但 token 照付、敏感数据仍过上下文；渐进式工具发现(Tool Search Tool)只按需加载一两个工具；CodeMode 把工具当代码，因为模型写代码天然比调用工具强——工具调用是合成出来的能力，训练数据里本不存在。
-- **CLI 的优势是「天生」的**：渐进式、默认当代码跑、Shell 被 40 年训练数据打磨过；但它没有输出协议、不能注入凭证，远程场景离不开 MCP。
-- **最优解是组合**：MCP 管标准远程访问，CLI(通过 Bash 工具)管本地接口，把会话、授权的复杂性藏在单个工具调用背后。
-- **评测可以反过来做**：不比智能体，比连接器——Connector Evals 初步显示 MCPC≈CLI,原始 MCP 更费 token。
+- MCP被骂吃上下文，但那是智能体实现得差，不是协议本身的问题——MCP规范根本不管智能体怎么设计。
+- 命令行天生自带渐进式发现和代码模式，加上智能体对shell极其熟悉，这是它受欢迎的真正原因。
+- 命令行是本地黑盒，没有标准传输协议；远程接入场景，MCP依然是更合适的选择。
+- Apify开源的MCPC把MCP包装成命令行，隐藏全部协议复杂性，支持持久会话、渐进式工具搜索、异步任务等新特性。
+- Apify的Connector Evals框架初步测试显示：MCPC与原生CLI表现相当，原生MCP消耗代币更多。
 
 <div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
-> <span class="qz">所以基本上，上下文是一个传递敏感信息或大数据的非常糟糕的地方。</span>  
-> *So basically, context is a really bad place to pass sensitive value or like large data.*  
-> <span class="qm">—— Jan Čurn · [04:26]</span> ^q1
+> <span class="qz">MCP 就已经用 100 个工具占满了你的上下文。可能你三分之一的上下文就这么没了，却什么工作都没做。</span>  
+> *MCP would already eat 100 tools in your context. Maybe one third of your context would be gone without actually doing any work.*  
+> <span class="qm">—— Jan Čurn · [03:00]</span> ^q1
 
-> <span class="qz">子智能体只是把这个问题往后推了一点，但并没有消除它。</span>  
-> *And sub-agents only push that problem a little further but still don't remove it.*  
-> <span class="qm">—— Jan Čurn · [04:32]</span> ^q2
-
-> <span class="qz">如果你很少用到那 100 个工具，为什么要一直把它们全部放进上下文呢？通常你大概只需要一两个。</span>  
-> *Why would you add all the 100 tools in your context all the time if you rarely need them? Typically, you just need maybe one or two.*  
-> <span class="qm">—— Jan Čurn · [05:17]</span> ^q3
+> <span class="qz">如果你很少用到那 100 个工具，为什么要一直把它们全部放进上下文呢？</span>  
+> *Why would you add all the 100 tools in your context all the time if you rarely need them?*  
+> <span class="qm">—— Jan Čurn · [05:17]</span> ^q2
 
 > <span class="qz">模型在编写和调用代码方面比调用工具更好，因为工具调用基本上是一种人工构造，我们必须教会 LLM 去做这件事。</span>  
 > *Models are better at writing and calling code than calling tools because tool calling is an artificial construct, basically, that we have to teach the LLMs to do.*  
-> <span class="qm">—— Jan Čurn · [06:28]</span> ^q4
+> <span class="qm">—— Jan Čurn · [06:28]</span> ^q3
+
+> <span class="qz">它在现实世界中不存在，不在真实训练数据中。这些数据必须被合成出来并放进模型里。</span>  
+> *It doesn't exist in the real world, in real training data. Those have to be synthesized and put into the model.*  
+> <span class="qm">—— Jan Čurn · [06:39]</span> ^q4
+
+> <span class="qz">所以大多数智能体仍然生活在黑暗时代，它们不支持这些功能，你知道的，大多数 MCP 客户端也是如此。</span>  
+> *So still, most agents are living in the dark ages, and they don't support these features, you know, and most MCP clients.*  
+> <span class="qm">—— Jan Čurn · [07:03]</span> ^q5
 
 > <span class="qz">那里的每一个字节、每一个字符都经过了 40 年的优化，只传达最重要的信息。</span>  
 > *Every byte, every character there is optimized over 40 years to convey only the most important information.*  
-> <span class="qm">—— Jan Čurn · [08:55]</span> ^q5
-
-> <span class="qz">所以基本上，MCP 的全部复杂性都藏在单个工具调用 Bash 背后，你不需要操心会话、授权，什么都不用管。</span>  
-> *So basically the full complexity of MCP is hidden behind single tool call, Bash, and you don't need to worry about the sessions, authorization, all out, nothing.*  
-> <span class="qm">—— Jan Čurn · [10:34]</span> ^q6
+> <span class="qm">—— Jan Čurn · [08:55]</span> ^q6
 
 > <span class="qz">所以请不要再说什么 CLI 比 MCP 好了，因为 MCP 加 CLI 才是最好的。</span>  
 > *So please stop saying CLI is better than MCP because MCP plus CLI is the best.*  

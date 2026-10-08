@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(06:50起):本集说 SAP 以集成复杂著称，从一个版本迁移到下一个甚至有生存风险，是集成护城河的典型例子
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(00:54起):本集主角：欧洲最大软件公司，做 ERP，把财务、HR、制造、供应链、销售整合进同一系统；CEO Christian Klein 谈其云转型与 AI 转型。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(12:20起):企业 ERP 系统，采购流程的核心记录系统；Leo 的用例是把报价信息录入 SAP，发票处理结果也推回 SAP 或 Oracle
-- **[[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]]**(09:38起):本集把它说成：N8N 的战略投资方（52 亿美元估值），还把 N8N 内置进自家产品，让客户开箱即用地在里面构建智能体自动化。
+- **[[2026-10-05-pg-n8n-vs-claude-code|《被判「死刑」一千次的公司：n8n 创始人谈为什么它没死》]]**(09:38起):本集把它说成：N8N 的战略投资方（52 亿美元估值），还把 N8N 内置进自家产品，让客户开箱即用地在里面构建智能体自动化。
 
 ## ① 提到它的金句
 
@@ -29,7 +29,7 @@ unlisted: true
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司
-- [[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]] — 作为被讨论公司
+- [[2026-10-05-pg-n8n-vs-claude-code|《被判「死刑」一千次的公司：n8n 创始人谈为什么它没死》]] — 作为被讨论公司
 
 ## ③ 关联
 

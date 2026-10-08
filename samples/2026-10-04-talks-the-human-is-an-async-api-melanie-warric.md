@@ -1,12 +1,12 @@
 ---
-title: "把人类当成一个异步 API:智能体永不下线"
+title: "人是一个异步接口:冰淇淋配送背后的智能体架构"
 podcast: 精选演讲
 date: 2026-10-07
 source_url: undefined
 duration: "18:57"
 type: episode
 cover: "#64748b"
-description: Temporal 演讲者用冰淇淋配送智能体演示，讲解如何用等待条件与信号实现人机协同与持久化执行。
+description: "Temporal 的 Melanie Warrick 用一个冰淇淋配送演示,讲清了多智能体系统里人类该何时介入、系统该怎么兜底。"
 guests: ["[[Melanie Warrick]]"]
 companies: ["[[Temporal]]"]
 concepts: ["[[ADK]]", "[[LangGraph]]", "[[智能体]]", "[[人在回路]]", "[[工作流]]", "[[activity]]", "[[worker]]", "[[等待条件]]", "[[Signal]]", "[[持久化执行]]"]
@@ -16,18 +16,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric#post","headline":"把人类当成一个异步 API:智能体永不下线","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric","description":"Temporal 演讲者用冰淇淋配送智能体演示，讲解如何用等待条件与信号实现人机协同与持久化执行。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Melanie Warrick"},{"@type":"Organization","name":"Temporal"},{"@type":"Thing","name":"ADK"},{"@type":"Thing","name":"LangGraph"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"人在回路 (human in the loop)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"activity"},{"@type":"Thing","name":"worker"},{"@type":"Thing","name":"等待条件 (wait condition)"},{"@type":"Thing","name":"Signal"},{"@type":"Thing","name":"持久化执行 (durable execution)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"把人类当成一个异步 API:智能体永不下线","item":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric#post","headline":"人是一个异步接口:冰淇淋配送背后的智能体架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric","mainEntityOfPage":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric","description":"Temporal 的 Melanie Warrick 用一个冰淇淋配送演示,讲清了多智能体系统里人类该何时介入、系统该怎么兜底。","datePublished":"2026-10-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Melanie Warrick"},{"@type":"Organization","name":"Temporal"},{"@type":"Thing","name":"ADK"},{"@type":"Thing","name":"LangGraph"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"人在回路 (human in the loop)"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"activity"},{"@type":"Thing","name":"worker"},{"@type":"Thing","name":"等待条件 (wait condition)"},{"@type":"Thing","name":"Signal"},{"@type":"Thing","name":"持久化执行 (durable execution)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"人是一个异步接口:冰淇淋配送背后的智能体架构","item":"https://talk.solomind.cc/2026-10-04-talks-the-human-is-an-async-api-melanie-warric"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把人类当成一个异步 API:智能体永不下线</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>人是一个异步接口:冰淇淋配送背后的智能体架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 把人类当成一个异步 API:智能体永不下线
+# 人是一个异步接口:冰淇淋配送背后的智能体架构
 
 <div class="pd-byl"><b>Melanie Warrick</b> · Temporal 工程师 · 2026-10-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-04-talks-the-human-is-an-async-api-melanie-warric.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我今天要和你们讲的是：人类是一个异步 API。</div><div class="a">— Melanie Warrick <button class="pd-ts" data-t="03:35" data-who="Melanie Warrick" data-en="I'm here to talk to you about the human is an async API." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我今天要讲的主题是：人类就是一个异步 API。</div><div class="a">— Melanie Warrick <button class="pd-ts" data-t="03:35" data-who="Melanie Warrick" data-en="I'm here to talk to you about the human is an async API." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Melanie Warrick]]
@@ -36,94 +36,95 @@ jsonLd: |
 >
 > **概念** [[ADK]] · [[LangGraph]] · [[智能体]] · [[人在回路]] · [[工作流]] · [[activity]] · [[worker]] · [[等待条件]] · [[Signal]] · [[持久化执行]]
 
-这一集是一段技术演讲：
+演讲者 [[Melanie Warrick|Melanie Warrick]] 来自 [[Temporal|Temporal]] 公司。
 
-讲者是 [[Temporal|Temporal]] 的一位工程师(具体姓名未提及)，他带来一个冰淇淋配送演示——Ziggy(他们公司的吉祥物)的冰淇淋店要靠多个[[智能体|智能体]]协调配送——而真正想讲的核心命题是：
+她没有讲玄乎的概念,而是现场演示了一个冰淇淋配送系统:多个[[智能体|智能体]]协同调度,人类随时插手改单,甚至当众把服务杀掉再重启,订单照样不丢。
 
-**在智能体系统里，「人类」应该被当作一个异步 API 来调用，而且这套系统必须具备[[持久化执行|持久化执行]]能力，服务挂了也不能丢状态。**
+整场演讲的核心观点藏在她那句标题里——人在智能体系统里,应该被当成一个异步接口来对待。
 
-## 演示在演什么：三个智能体送冰淇淋
+## 冰淇淋配送是怎么跑起来的?
 
-开场 demo 里，配送由三个智能体协同完成：
+演示的主角是吉祥物 Ziggy,假设它在旧金山 Ferry Building 开了一家冰淇淋店。配送由3个智能体协同完成：
 
-一个车队智能体(用 Google Maps 研究司机)、一个客户智能体(用 Google Search 研究订单)、一个调度智能体(接收前两者的输出做决策)。
+车队智能体负责查司机和路线(用 Google Maps),客服智能体负责查订单(用 Google Search),调度智能体则综合这些输入做决策 <button class="pd-ts" data-t="05:11" data-who="" data-en="We've got a loop for the dispatch agent. The fleet and the customer are doing research. One's doing it on the actual drivers using tools like Google Maps." aria-label="回原文"></button>。
 
-底层是 Google 的 [[ADK|ADK]](一个编排多个智能体的框架)与 Temporal 的集成——Temporal 负责追踪和管理整个流程的状态，并提供一个 UI 展示事件历史。
+这套系统把 Google 的 [[ADK|ADK]](一个用来编排多智能体的框架)和 Temporal 集成在一起。
 
-演示里最出彩的一幕是「[[人在回路|人类在环]]」：
+Temporal 负责记录和管理整个系统的状态,并提供一个界面,让你能看到每个事件的来龙去脉。
 
-客户提交一笔订单变更，系统**只暂停这条订单对应的那个环节**，等另一个人点「批准」，其余订单照常进出、配送照常进行。
+## 客户改单,系统为什么不用停下来?
 
-## Temporal 的三个原语：worker、workflow、activity
+现场演示了一个常见场景:客户下单后突然反悔,提交了一个修改。
 
-Temporal 是软件也是服务，支持 Python、TypeScript、Rust,在 GitHub 上免费开源；如果用它托管服务来管理状态才付费，也可以自行部署。
+此时系统只暂停了这一个订单对应的司机,其他订单照常接收、照常配送。
 
-它解决的是任何分布式系统都绕不开的问题：把故障处理和状态管理标准化。
+另一个人(比如客服)审核后点批准,更新就生效了,那辆车继续开往 Oracle Park <button class="pd-ts" data-t="02:56" data-who="嘉宾" data-en="And another human needs to make a call on whether or not they want to accept that. So they say approve. And you'll watch that, as I mentioned, the rest of the system kept running." aria-label="回原文"></button>。
 
-三个核心原语的分工:
-- **[[worker|worker]]**:真正运行代码的地方;
-- **[[工作流|workflow]]**:跟踪系统中各步骤的地方，智能体的循环就跑在 workflow 里，它是**确定性**的;
-- **[[activity|activity]]**:所有与外部交互的东西——模型调用、工具调用都设成 activity,它是**非确定性**的。
+这里的关键在于:一次人工介入只暂停系统的很小一部分,而不是把整个流程卡死。这就是她说的持久执行(durable execution)。
 
-对 ADK 的集成方式很轻：用 temporal model 类包住模型、用 activity tool 包住工具，再给 worker 传一个 Google ADK 插件即可。
+## 为什么直接调用人类是坑?
 
-对 [[LangGraph|LangGraph]](通过构建图来搭建多智能体的框架)则是把 Temporal 传进图的每个节点：
+进入正题。她说,人类当然不是工具,但对智能体来说,人就是一个工具 <button class="pd-ts" data-t="07:29" data-who="嘉宾" data-en="Let's get back to human in the loop, what I wanted to really get across to you about this whole talk. So the human, granted, we're not tools, but we are a tool to the agent." aria-label="回原文"></button>。
 
-模型调用和工具调用设为 activity,流程中的一个步骤设为 workflow,并用 LangGraph 自带的 interrupt(中断)从节点里调用出去。
+麻烦在于,如果你在代码里直接写一个函数去调用人类,就会产生一个阻塞式调用:系统停在那里等人回话。
 
-讲者特别强调 Temporal 对框架不设限，demo 里就是 ADK 跑客户与车队智能体、LangGraph 跑调度智能体，Temporal 贯穿其中。
+更糟的是,如果这时候服务挂了,这个等待中的人工交互就丢了,系统不知道自己进行到哪一步。
 
-## 核心方法：等待条件 + 信号 = 人类是异步 API
+她给的答案是两个原语:[[等待条件|等待条件]](wait condition)和[[Signal|信号]](signal)。
 
-这是全场最想传达的东西。
+用等待条件把某个事件单独隔离并暂停,状态存进持久层;等人类回复时发一个信号进来,注入正在运行的流程 <button class="pd-ts" data-t="08:09" data-who="嘉宾" data-en="What you want is these two core primitives to be applied to your code and your agents. You want a wait condition and a signal. You're allowing yourself to isolate an event, apply a weight condition, store that in that workflow, in that durability layer, so that if anything fell over in the system, when that system came back up, it would know where it left off." aria-label="回原文"></button>。
 
-如果你直接把「呼叫人类」写成一个函数调用，它会变成一个**阻塞调用**——服务一旦挂了，这个人类的参与过程就追踪丢了。
+这样即使系统崩溃重启,它也知道从哪里继续,而且不占用线程。
 
-正确做法是用两个核心原语:
-- **wait condition([[等待条件|等待条件]])**：
+这些能力是现成的，还内置超时等机制——如果你在等一个人类回应，想确保它只等待有限的时间，就可以应用超时和其他原语。
 
-隔离出某个事件，暂停那个特定的 workflow——注意只暂停它，不占线程，workflow 上的其他协程和系统里其他 workflow 照常跑;
-- **signal([[Signal|信号]])**：
+她说这套东西可以扩展到数百万个暂停中的流程同时挂着 <button class="pd-ts" data-t="09:13" data-who="嘉宾" data-en="If you're waiting on a human to respond and you want to make sure that it only waits for so long, you can apply timeouts and other types of primitives. And this can scale." aria-label="回原文"></button>。
 
-可以在任意时刻接受任意输入，注入到正在运行的 workflow 中，相当于人类回话后「喏，结果在这儿，继续往前推」。
+## 当众杀掉服务,订单还能恢复吗?
 
-这套机制自带给超时等内置原语——等人类回应时可以设「最多等多久」;而且能扩展到数百万个挂起的 workflow。
+第二个演示更大胆。她丢进一个高价值订单,系统按设计让调度智能体暂停,等人来批准。
 
-**服务挂了也不怕**，这是持久化执行的杀手锏。demo 里讲者当场杀掉 worker,趁离线点下「批准」：
+人类的反应时间是几分钟、几天甚至几周,但那只车流照常跑着 <button class="pd-ts" data-t="14:46" data-who="嘉宾" data-en="And we know that humans are not going to respond in 200 milliseconds. If you are, that's great. Maybe there's, there's probably a couple of people out there who are." aria-label="回原文"></button>。
 
-因为状态存在 Temporal 自己的数据存储里、不在你的服务上，事件照样被跟踪和排队；
+然后她直接执行了 kill [[worker|worker]],把服务下线。趁着离线状态,她点了批准。
 
-worker 重新上线后，事件日志被**重放**(replay)——注意不是重新执行，只是重放到上次中断的地方，系统就知道「这是我的当前状态」，然后批准生效、订单分配、顺利送达。
+再把服务拉起来——事件日志被重放(不是重做),系统恢复到崩溃前的状态,知道有人已经批准,订单立刻分配出去,甚至已经送到了 <button class="pd-ts" data-t="16:00" data-who="嘉宾" data-en="And it's back online. And you'll notice that the dispatch agent will, what's happening is that your event log is getting replayed. It's not redone." aria-label="回原文"></button>。
 
-暂停可以横跨任意长的时间——「人类不会在 200 毫秒内回应」，可能是几分钟、几天甚至几周，都无所谓，因为被暂停的只是那一个特定事件。
+架构上她故意混用了两个框架:客服和车队智能体跑在 ADK 上,调度智能体跑在 [[LangGraph|LangGraph]] 上。她想强调 Temporal 是框架无关的,哪个都能接 <button class="pd-ts" data-t="12:00" data-who="嘉宾" data-en="I'm going to use LangGraph in this example and also ADK because the reality is with Temporal, we can work with multiple frameworks. We are framework agnostic. We work across a variety of different tools." aria-label="回原文"></button>。
 
-## 那到底什么时候该让人在环？
+## 到底什么时候该让人介入?
 
-讲者说这才是真正难的问题，答案是逐案例评估，核心判据是**犯错的代价高不高**，尤其从安全角度衡量。
+这是全场最诚实的一段。她承认这是个难题,没有公式,只能逐案判断。**核心标准是:出错的代价有多高** <button class="pd-ts" data-t="16:50" data-who="嘉宾" data-en="I will say this. The big thing you want to take into consideration is the cost of being wrong is high. It's a case-by-case basis, and we know we're trying to get to autonomy as much as we possibly can." aria-label="回原文"></button>。
 
-另一面是真实存在的「警报疲劳」——很多人被问多了就开始一味点「好、好、好」，所以要在两者之间找平衡。
+一边是风险——模型本质上是概率性的,很难做到完全可靠,尤其是安全相关的事,值得人把一道关。
 
-模型是概率性的，很难达到完全可靠，所以这个权衡得针对你解决的具体问题自己评估。
+另一边是警报疲劳——如果系统事事都来问你,你就会开始无意识地一路点是、是、是,人工审核形同虚设。
 
-最后收束全场：不管是人发起还是机器发起，套路都是同两个原语——等待条件暂停 workflow,人类信号让工作继续。
+她建议在这两者之间权衡,并且坦承模型还在变好,但眼下仍是概率模型 <button class="pd-ts" data-t="17:18" data-who="嘉宾" data-en="And especially in a security standpoint. And we know, like on the other side of this picture, alert fatigue is real. Like a lot of us are seeing, you know, you just start saying yes, yes, yes, yes, yes, every time it asks you questions." aria-label="回原文"></button>。
+
+无论由人发起还是由智能体发起介入,底层做法都一样:等待条件暂停流程,人类的信号让它继续往前走。
 
 ## 本集带走
 
-- **别把「问人类」写成普通函数调用**：那是阻塞调用，服务一崩参与过程就丢。用「等待条件 + 信号」两个原语替代——前者暂停特定 workflow,后者随时把人类的回应注入正在运行的流程。
-- **只暂停出问题的那一格**：一笔订单变更只冻结该订单的子 workflow,其余订单和配送照常跑，等待可以横跨几分钟到几周。
-- **状态放在你的服务之外**：持久化层在独立数据存储上，worker 被杀、服务下线都不丢事件；恢复时靠重放事件日志(不是重新执行)回到中断点，排队中的批准自动生效。
-- **框架可以混用**:ADK 跑一部分智能体、LangGraph 跑另一部分，模型调用/工具调用设为非确定性的 activity,流程步骤设为确定性的 workflow,Temporal 负责贯穿追踪状态。
-- **人在环的判据是「犯错的代价」**：代价高的环节加人审，同时警惕警报疲劳，逐案例权衡，别一刀切追求全自主。
+- 把人当成智能体系统里的异步接口:等待条件暂停、信号恢复,不要写阻塞式的调用人类。
+- 人工介入只应暂停系统的一小部分,其余流程照常运行。
+- Temporal 的三个核心原语:worker(跑代码)、[[工作流|workflow]](跟踪步骤,确定性)、[[activity|activity]](外部交互,非确定性),支持 Python、TypeScript、Rust。
+- 系统崩溃后靠事件日志重放恢复状态,不是从头重做——她现场杀掉服务做了验证。
+- 是否让人介入,看出错的代价有多大,同时警惕什么都问导致的警报疲劳。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>2 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
-> <span class="qz">我今天要和你们讲的是：人类是一个异步 API。</span>  
+> <span class="qz">我今天要讲的主题是：人类就是一个异步 API。</span>  
 > *I'm here to talk to you about the human is an async API.*  
 > <span class="qm">—— Melanie Warrick · [03:35]</span> ^q1
 
-> <span class="qz">你可以让数百万个 workflow 挂在那里，它还能继续运行。</span>  
+> <span class="qz">所以人类，没错，我们不是工具，但对智能体来说我们是一个工具。</span>  
+> *So the human, granted, we're not tools, but we are a tool to the agent.*  
+> <span class="qm">—— Melanie Warrick · [07:29]</span> ^q2
+
+> <span class="qz">你可以让数百万个工作流挂在那里，它还能继续运行。</span>  
 > *You can have millions of workflows out there parked, and it can keep running.*  
-> <span class="qm">—— Melanie Warrick · [09:14]</span> ^q2
+> <span class="qm">—— Melanie Warrick · [09:14]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

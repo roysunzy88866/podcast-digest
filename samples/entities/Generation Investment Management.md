@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]]**(00:18起):本集说它是 Lila Preston 担任增长股权联席主管的投资机构，每年发布可持续发展趋势报告(STR)
+- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(00:18起):本集说它是 Lila Preston 担任增长股权联席主管的投资机构，每年发布可持续发展趋势报告(STR)
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为被讨论公司
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为被讨论公司
 
 ## ③ 关联
 

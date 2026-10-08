@@ -7,19 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Joey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Joey">JO</div><div class="pi"><h1 class="pt">Joey</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Joey">JO</div><div class="pi"><h1 class="pt">Joey</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]]**(05:18起):本集主角：Assembly AI 用 Claude Agent SDK 自建的 AI 支持机器人，作为「可无限扩展的 FDE」处理 100% 的入站工单，第一周端到端解决率从 10% 提到 80%，月成本约 700 美元。
+- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(05:18起):本集主角：Assembly AI 用 Claude Agent SDK 自建的 AI 支持机器人，作为「可无限扩展的 FDE」处理 100% 的入站工单，第一周端到端解决率从 10% 提到 80%，月成本约 700 美元。
 
 ## ① 提到它的金句
 
-*3 条*
+*2 条*
 
-![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q3]]
-
-![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q4]]
+![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q2]]
 
 ![[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv#^q8]]
 
@@ -27,7 +25,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]] — 作为概念
+- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为概念
 
 ## ③ 关联
 

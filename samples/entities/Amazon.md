@@ -31,7 +31,7 @@ unlisted: true
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:36起):本集提到 Josh 在 Amazon 上找不到代客泊车钥匙扣，才转向 ChatGPT 对话式购物
 - **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(20:56起):本集说 Amazon 拒绝智能体(如 Muse)接入其平台,并指出其广告业务已大于电商业务,是「把智能体挡在门外」的典型案例。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(40:23起):本集说它屏蔽 Muse，因为其收入全靠广告，人的眼球被移除后整套广告结构和冲动型购物就失去意义
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(12:43起):本集说：AWS 这类大到不能倒、本该像公用事业运营的平台，SRE 承诺却像初创公司；亚马逊仓库工人受伤率是其他仓库工人的三倍。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(12:43起):本集说：AWS 这类大到不能倒、本该像公用事业运营的平台，SRE 承诺却像初创公司；亚马逊仓库工人受伤率是其他仓库工人的三倍。
 - **[[2026-09-29-sourcery-the-3b-company-trying-to-beat-amazon-pri|《Stored 创始人 Sean：Amazon 的产品其实是配送，我们要为剩下三分之二的电商拉平差距》]]**(01:01起):本集核心对标:Sean 判断 Amazon 真正的产品是配送而非零售——每包裹 5 美元、1 到 2 天(甚至半天),而美国普通企业要 15 美元以上、5 到 6 个工作日,这个差距解释了消费者为何流向 Amazon。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(07:21起):本集说它在财报电话会上解释了 J 曲线动态——先建数据中心外壳再买芯片,GPU 有效经济寿命比预期长;还拒绝接入 Muse,因其 700 亿美元高利润广告业务建立在用户到网站点击广告之上
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(40:18起):被用作例子：Amazon 封锁 Meta 的 Muse 个人助理代购，主张用户用自家界面或自家智能体。
@@ -39,7 +39,7 @@ unlisted: true
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(00:06起):2017 年收购 Ring 的买家,Jamie 在其麾下待了五年,本集称赞其允许创始人离开后再回来掌舵的胸怀,并说 Ring 在 Amazon 旗下业务已增长远超 10 倍
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(09:29起):本集以 Amazon 拒绝 Muse 在其站点浏览购物为例，说明平台开放度决定智能体能力上限。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(20:20起):本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(13:34起):本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(13:34起):本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。
 
 ## ① 提到它的金句
 
@@ -80,7 +80,7 @@ unlisted: true
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司(提及)
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司(提及)
 - [[2026-09-29-sourcery-the-3b-company-trying-to-beat-amazon-pri|《Stored 创始人 Sean：Amazon 的产品其实是配送，我们要为剩下三分之二的电商拉平差距》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
@@ -89,7 +89,7 @@ unlisted: true
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司(提及)
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司(提及)
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为被讨论公司
 
 ## ③ 关联

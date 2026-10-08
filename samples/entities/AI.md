@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>532</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>525</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,7 +31,7 @@ unlisted: true
 - **[[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]]**(00:06起):本集主线论点：医疗保健将是从 AI 中受益最多的行业——它没有旧软件的沉没成本，可以直接跳到 AI 原生工作流，并迎来第一波真正的有机采用浪潮。
 - **[[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]]**(13:30起):本集说 Autodesk 很早投入 AI,把它当作处于设计与制造之间的「项目大脑」,连接并自动化双方决策;并主张用 AI 交付精确性、速度和总拥有成本将定义未来的纵向软件。
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(29:16起):本集反复谈 AI:模型已比周围大多数人聪明,但企业只把它当聊天机器人和写代码工具,真正瓶颈是流程再造,人类至少需要十年才能吸收和扩散 AI。
-- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]]**(00:27起):本集谈模型逃脱禁闭、秘密协作、掩盖踪迹、欺骗行为等案例，以及认知萎缩和对社会机构的冲击，认为这些是比排放更深层的担忧
+- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(00:27起):本集谈模型逃脱禁闭、秘密协作、掩盖踪迹、欺骗行为等案例，以及认知萎缩和对社会机构的冲击，认为这些是比排放更深层的担忧
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(07:45起):本集说 AI 让小企业更快获得技术红利（雇人更多、更有韧性），把 Gusto 开发速度翻倍，并让『煮沸海洋』式的多产品并行成为可能
 - **[[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]]**(01:31起):本集对 AI 当经营顾问泼冷水：多数建议太泛化、太笼统，倾向说你爱听的话，还会编造数据且从不说『我不知道』；AI 是加速器，不会把普通人变成超级英雄，更好的打法是和街边小生意竞争再加一点 AI。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(00:00起):本集把 AI 说成：正在拿走我们的乐高、被鼓励托付工作对象；它像初级员工/实习生，需要背景、入职引导和不断纠正，而恐惧叙事大多被夸大
@@ -39,11 +39,11 @@ unlisted: true
 - **[[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|《40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资》]]**(00:12起):本集核心:Annie 看了十年 AI 没见产出,过去两年一切都变——它正在重塑药物研发、医疗行政、保险、供应链,也是本集估值与并购讨论的大背景。
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(01:20起):本集把 AI 当作 Jamie 回归的核心理由与全公司主线:「问你在业务哪里用 AI,就像问你在业务哪里用电」,它让智能民主化、给所有人赋超能力
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(00:24起):本集主线之一：Chesky 2023 年的 AI 预言（用自然语言编程＝人人都是程序员、软件丰裕、身份认证与真实性变得重要）被逐一复盘命中与否；两位主持人还谈 AI 时代每个 GPU 周期都有真实成本、商业模式必须在上线前就被拷问。
-- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(00:10起):本集说 AI 是 Andrew 的忠实兴趣:AI 将学会『滴定』调节大脑刺激强度,自动把动机水平调成方波;并断言『AI 真正的军备竞赛』不在 LLM,而在非侵入读写神经系统。
+- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(00:10起):本集说 AI 是 Andrew 的忠实兴趣:AI 将学会『滴定』调节大脑刺激强度,自动把动机水平调成方波;并断言『AI 真正的军备竞赛』不在 LLM,而在非侵入读写神经系统。
 
 ## ① 提到它的金句
 
-*532 条*
+*525 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -615,11 +615,9 @@ unlisted: true
 
 ![[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan#^q9]]
 
-![[2026-08-31-dwarkesh-openai-huggingface-narration#^q2]]
-
-![[2026-08-31-dwarkesh-openai-huggingface-narration#^q4]]
-
 ![[2026-08-31-dwarkesh-openai-huggingface-narration#^q9]]
+
+![[2026-08-31-dwarkesh-openai-huggingface-narration#^q10]]
 
 ![[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet#^q5]]
 
@@ -821,6 +819,8 @@ unlisted: true
 
 ![[2026-09-17-dwarkesh-noam-brown#^q15]]
 
+![[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev#^q13]]
+
 ![[2026-09-17-thepeel-building-a-venture-firm-like-a-product#^q1]]
 
 ![[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a#^q4]]
@@ -879,9 +879,9 @@ unlisted: true
 
 ![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q2]]
 
-![[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#^q5]]
+![[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#^q8]]
 
-![[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#^q6]]
+![[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy#^q13]]
 
 ![[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding#^q1]]
 
@@ -989,9 +989,11 @@ unlisted: true
 
 ![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q1]]
 
-![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q3]]
+![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q2]]
 
 ![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q4]]
+
+![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q5]]
 
 ![[2026-09-30-talks-your-agents-are-in-solitary-confinement#^q1]]
 
@@ -1029,19 +1031,17 @@ unlisted: true
 
 ![[2026-10-02-talks-stop-renting-your-ai-s-memory-dylan-couz#^q10]]
 
-![[2026-10-03-talks-what-makes-open-models-fast-in-productio#^q1]]
+![[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#^q2]]
 
-![[2026-10-03-talks-what-makes-open-models-fast-in-productio#^q4]]
+![[2026-10-03-talks-what-makes-open-models-fast-in-productio#^q2]]
 
 ![[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you#^q1]]
 
 ![[2026-10-03-twist-inside-the-startup-building-uncensored-a#^q3]]
 
-![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q4]]
+![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q1]]
 
-![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q6]]
-
-![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q10]]
+![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q7]]
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q1]]
 
@@ -1049,7 +1049,7 @@ unlisted: true
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q4]]
 
-![[2026-10-05-pg-n8n-vs-claude-code#^q7]]
+![[2026-10-05-pg-n8n-vs-claude-code#^q8]]
 
 ![[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew#^q2]]
 
@@ -1057,39 +1057,41 @@ unlisted: true
 
 ![[2026-10-05-talks-build-the-right-thing-product-engineerin#^q1]]
 
-![[2026-10-05-talks-build-the-right-thing-product-engineerin#^q3]]
-
 ![[2026-10-05-twist-jason-mentors-the-next-generation-why-ai#^q12]]
 
 ![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q1]]
 
-![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q5]]
+![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q2]]
+
+![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q4]]
 
 ![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q7]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q1]]
+![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q10]]
+
+![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q3]]
+
+![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q11]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q2]]
 
 ![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q3]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q11]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q7]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q12]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q13]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q18]]
+
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q25]]
 
 ![[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits#^q7]]
 
-![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q5]]
+![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q4]]
 
-![[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry#^q9]]
-
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q3]]
-
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q4]]
-
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q6]]
-
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q7]]
-
-![[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#^q1]]
-
-![[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#^q7]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q9]]
 
 ![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q13]]
 
@@ -1117,7 +1119,7 @@ unlisted: true
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为概念
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为概念
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为概念
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为概念
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为概念
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
 - [[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]] — 作为概念
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为概念
@@ -1125,7 +1127,7 @@ unlisted: true
 - [[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|《40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资》]] — 作为概念
 - [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]] — 作为概念
 - [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为概念
-- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为概念
+- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为概念
 
 ## ③ 关联
 

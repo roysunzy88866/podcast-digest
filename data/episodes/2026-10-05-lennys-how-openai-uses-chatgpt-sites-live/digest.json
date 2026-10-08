@@ -1,171 +1,160 @@
 {
-  "title_zh": "OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常",
-  "tldr": "OpenAI Sites 产品负责人 Kath Korevec 在 Dev Day 现场演示她如何用 sites 搭事故指挥台、每周自动生成歌单、做可扩展的用户共建游戏。",
-  "digest_md": "这一集录自 OpenAI Dev Day 现场,主角是 Kath Korevec——OpenAI sites(用 ChatGPT 和 Codex 搭出来、一键托管上线的网站)的产品负责人。她最颠覆的一个用法听起来很「浪费」:因为大脑运转方式和别人不一样,她会为某一周的日程单独建一个站点,把日历按出差的歪理重新组织一遍,周末一到就整个扔掉——然后下周再建一个新的 [00:40 Kath Korevec][10:51 Kath Korevec]。建一个网站像写一张便利贴一样便宜,这是整集的底层前提。\n\n## 事故指挥台:连接器 + 「各看各的数据」\n\nsites 发布两个月,在 OpenAI 内部已经爆发式增长,连今天 Dev Day 主题演讲屏幕上的全部幻灯片都是一个 ChatGPT 站点 [01:50 Kath Korevec][02:02 Kath Korevec]。Kath 现场演示了她的 sites 团队自用的事故指挥总览(事故指挥,指线上出故障时统筹响应的机制)。\n\n她建它的动机很实在:她是产品经理,大部分时间在开会、到处跑,既没时间也不想深挖每起事故,更不想跑去烦团队问「这事故怎么样了」——她想待在后台,让工程师不被打扰地解决问题,同时自己能看清全局、逐分钟跟进 [03:39 Kath Korevec]。\n\n技术上,这是 Dev Day 当天刚发布的 plugins and sites 能力:任何登录你站点的人,可以用**他们自己**连接的插件(连接器,即打通 Notion、Slack、日历这类外部工具的数据通道),所以每个人在同一个站点里只看到自己的数据 [02:29 Kath Korevec]。这个站点接到她的 Notion 和 Slack 后,会看她来自哪个 Slack 频道,推断出「你是 sites 团队的人」,于是展示 sites 团队的事故时间线、拉入正在处理的人、还能从 Notion 里直接打开运行手册和响应指南 [03:08 Kath Korevec]。换成 Codex 团队或身份团队的人打开同一个站点,看到的就是各自团队的内容 [08:25 Kath Korevec]。数据团队接数据仓库、财务团队管敏感数据都特别喜欢这种模式——访问者自带数据授权,开发者完全不用碰 API 密钥这类东西 [08:46 Kath Korevec]。\n\n怎么让 Codex 建出这种站?她的「魔法咒语」是一句话:**「can you use plugins in sites to build this site」(你能在 sites 里用插件来建这个站吗)**——「自带连接器」这个词组一出现,Codex 就知道该用连接器而不是静态内容 [07:44 Kath Korevec]。\n\n## sites 当基础设施:最后一公里 + 良性循环\n\n主持人把话题引向一个大多数人想不到的角度:sites 不只是「放 vibe coding 产出的原型的地方」,它本身就是基础设施 [05:57 SPEAKER_01]。Kath 解释了来龙去脉:做 sites 的原因之一就是大家让 Codex 建网站时,产物只存在本地,还得自己费劲折腾 DevOps(部署运维那摊事),所以团队决定把「从本地机器把东西放到线上」这最后一公里接管掉 [11:27 Kath Korevec]。\n\n结果用户拿它干的不只是建网站:托管数据、跑 eval(评测)、构建插件,甚至今天刚宣布的——通过 sites 托管 MCP 插件,再用到自己的站点里。她管这叫良性循环:sites 既能建网站,又能当跑这些插件的基建 [12:00 Kath Korevec]。工具底盘也不含糊:sites 自带 D1 数据库、R2 存储,全都可部署,还支持共同编辑 [10:33 Kath Korevec]。目前可用的连接器大约 60 个,还在持续增加 [09:24 Kath Korevec]。\n\n## 被孩子占领的 Spotify:周一早上 8 点的自动化\n\n转到生活场景。Kath 的 Spotify 被两个孩子接管了,大部分是 Bluey 和芝麻街(偶尔也有 Michael Jackson)[13:07 Kath Korevec]。而她工作忙、是两个孩子的妈、还是幼儿园家长代表,根本没精力跟进新音乐,但又爱在工作时听歌 [13:51 Kath Korevec]。\n\n她的解法是一个 heavy rotation 网站:她写了几个 markdown 文件指示 sites 该怎么做——要移动端友好、要极简、还要去 Reddit 上看热门播放列表里大家在分享和投票什么,因为她想发现新东西。她让整个过程用 computer use(让模型直接操作电脑界面)去 Reddit 爬内容,设成自动化,每周一早上 8 点跑一次,生成一个播放列表,播放器直接用 Spotify,还能顺带引用她本地 Apple Music 里的歌 [13:22 Kath Korevec][14:02 Kath Korevec]。现场点开播放的就是一首她从没听过的歌——昨天刚拉进来的,而且「显然不是 Bluey」[14:42 Kath Korevec]。\n\n## 用户共建的地牢游戏:用 skill 分发「往我游戏里盖房间」\n\n游戏环节是整集最好玩的部分。Kath 建了「最大的用户创建地牢爬行游戏」(dungeon crawler,一种在地下城里探险打怪的游戏),地图是旧金山 Alamo Square,玩家进去杀泰迪熊 [17:34 Kath Korevec]。\n\n关键设计:她想让别人往游戏里**加自己的房间**。她发布了一个叫 Dungeon Sight 的 skill(技能,一段可安装的说明书),里面定义了房间的尺寸、玩家是什么、控制方式等等。任何人装上这个 skill,就能用 Astra 指挥它生成自己想要的房间——月球表面、火山口,随便 [18:27 Kath Korevec]。她今天早上现做的例子:因为儿子在看《怪奇物语》动画,她一句话生成了该主题的地下城房间,连「空心月亮」这种设定都是模型自己想出来的 [19:04 Kath Korevec]。\n\n主持人指出这里有个前所未有的分发模式:不是「进游戏里创造」,而是「下载这个 skill,Codex 会替你往游戏里构建」——你甚至可能根本不打开游戏本体,只在 Codex 里干活 [20:37 SPEAKER_01]。至于怎么知道有没有人真的往里加房间?Kath 说作为开发者只能看到访问量这种轻量分析,看不到谁在用 skill;她打算学 awesome lists 的路子,靠 Twitter 话题标签让大家 @她分享,让社区有机生长,而不是建一套中心化机制——「我不需要社区以 AGI 的方式聚集起来,我更想就这样见到这些人」[21:34 Kath Korevec][22:29 Kath Korevec]。她也顺手上线了 awesomesites.ai,收录网友用 sites 做的能弹的钢琴、海德拉巴巴士图集、帮你在巴黎坐地铁的一次性导航站、Minecraft 仿制品等等 [30:19 Kath Korevec]。\n\n## 把推理带进站点:给孩子设游戏额度\n\n两人都提前试了 ultra fast(发布的新模型模式,快八倍、贵六倍),各自搭了 3D 房间游戏。主持人的游戏里输入「Pip needs bunk beds」,双层床就直接建出来了;她吐槽孩子不断要求「让水母跳草裙舞」「给它个宝宝」,「这可都是白花花的银子往外流啊,孩子」[24:19 SPEAKER_01][25:04 Kath Korevec]。\n\nKath 透露了 sites 正在试验的方向:把推理带进站点——让玩家在游戏里直接唤起 ChatGPT 去改东西。她的想象是:给孩子设一笔「游戏额度」,孩子自己在游戏里说「我想要双层床」「把船变成章鱼」,用自己那份额度完成对话 [25:54 Kath Korevec][26:42 Kath Korevec]。\n\n主持人补了一层观察:模型越快,创造力越不中断——「我的很多创造力会因为线程处理时的分心而被压制」,模型响应越快,人越能保持心流 [29:16 SPEAKER_01]。她自己进科技行业就是因为 13 岁想做游戏设计师,但把一个好点子做成产品的创意技能门槛太高;过去三到六个月的新模型,第一次让她觉得离「把想象的东西做出来」这么近 [27:43 SPEAKER_01]。\n\n## 本集带走\n\n- **让 Codex 接连接器的咒语**:在建站提示里直接写「自带连接器 / 用插件建这个站」,并说明「这是给团队协作用的」,模型就会主动调用连接器,而不是做出一堆静态页面。\n- **「同一个站点,各看各的数据」是敏感数据场景的解法**:站点登录时让每个访问者批准自己的连接授权,内容按访问者的团队/身份渲染——财务、数据仓库这类场景不需要开发者碰任何 API 密钥。\n- **一次性软件真的可以用完就扔**:出差那一周建个专用的日历/导航站点,周末删掉;一次性建站成本已经低到不值得复用。\n- **skill 可以当游戏的扩展分发机制**:把房间规格、玩家、控制方式写进 skill 发布出去,玩家用模型生成自己的关卡再分享——不进游戏本体也能扩展游戏。\n- **守护自己的声音**:Kath 明令禁止模型替她署名发邮件和 Slack,发了就严厉训斥一次——研究和写作让 Codex 帮忙,但落款的每一个字必须是自己的。",
+  "title_zh": "当AI能替你建网站：一个OpenAI产品负责人的花式用法",
+  "tldr": "OpenAI Sites 产品负责人 Kath Korevec 在 DevDay 现场演示：从事故指挥中心到每周自动歌单，ChatGPT 现在能建的不只是网页。",
+  "digest_md": "在 OpenAI 的 DevDay 活动现场，主持人和 Kath Korevec 聊了一场。Kath 是 OpenAI 的产品负责人，负责两个月前刚上线的 Sites 功能——让 ChatGPT 里的 Codex 帮你把软件建好，还顺手解决部署上线的问题。这场对话更像两个玩家的晒宝大会：从严肃的工作工具，一路聊到被孩子毁掉的 Spotify 算法，和一个可以无限扩展的地牢游戏。\n\n## Sites 到底是什么？\n\n简单说：**你用自然语言描述想要的软件，Codex 负责写代码，Sites 负责把它放到网上**，不需要自己折腾服务器和部署。Kath 说，当初做 Sites 就是想给软件找个落脚的地方 [01:54 Kath Korevec]。\n\nOpenAI 内部用法已经很多样。今天的主题演讲幻灯片就是用一个 ChatGPT Site 做的。更实用的是，Sites 自带数据库和存储（D1 数据、R2 存储桶），支持多人协作编辑，可以做出真正的内部工具，不只是摆设。\n\n## 最有意思的新功能：每个访客看到自己的数据\n\nDevDay 当天刚发布的，是插件和 Sites 的结合。原理是：你访问一个站点时，它会读取你授权的 Notion、Slack、日历等连接，你看到的只有你自己的数据。\n\nKath 演示了她团队用的事故指挥中心。她是产品经理，团队处理线上事故时，她不想在旁边一直问现在怎么样了。这个站点会自动拉取 Slack 里的时间线、Notion 里的应急手册、相关团队成员，让她能安静地跟进度，精确到分钟。\n\n关键在于：**同一张页面，每个人看到的是自己团队的数据**。站点会识别你来自哪个 Slack 频道，推断你属于哪个团队，然后展示对应内容。数据团队、财务团队这类权限敏感的部门特别喜欢这一点——访问者自带权限边界，不用担心谁看到了不该看的东西 [08:35 Kath Korevec]。\n\n目前可用的连接器大约有 60 个，还在不断增加。她最常用的就是 Slack、Notion、Google 日历这些「团队在哪协作就去哪」的工具。\n\n## 软件开始用完即扔\n\nKath 提出一个很妙的用法：临时软件。她下周要出差，就给那一周建一个专属站点，把日程按自己喜欢的方式重新组织，「周末结束就把它扔掉」[10:48 Kath Korevec]。\n\n本质上，**这是让软件适应人，而不是人去适应软件**。你不用迁就某个现成产品的固定结构，可以完全按自己的思维方式定制。很多人会为一次旅行快速建一个站点，比如巴黎地铁怎么坐的导航指南。\n\n## 被孩子毁掉的算法，怎么办\n\n聊完工作，话题转向两位家长共同的痛点：Spotify 推荐算法已经被孩子的儿歌污染了。Kath 的歌单里全是 Bluey 和芝麻街。\n\n她的解法是自己建了一个本周重播站点。它每周一早上 8 点自动运行，用计算机操作能力去 Reddit 看大家在投票分享什么热门歌单，然后参考她本地的 Apple Music 曲库，自动生成一周的新歌播放列表——播放器直接调用 Spotify。她形容自己是「两个孩子的妈妈、幼儿园的家委」，根本没时间追新歌，这个工具替她完成了发现 [13:53 Kath Korevec]。\n\n## 游戏也能这么玩：地牢由社区共建\n\n她做了一个号称「最长的用户共创地牢探险游戏」。玩法本身普通，但分发机制很新：她发布了一个叫 Dungeon Sight 的技能（skill），里面定义了房间的尺寸、玩家、操作方式等规则。任何人下载这个技能，用 Astra 模型说一句我想在月球表面或我想在火山里，就能生成自己的房间，加到游戏里。\n\n主持人指出，这是一种全新的分发模式：不是让用户进游戏里编辑，而是让他们下载一个技能，让 Codex 替他们往游戏里写内容 [20:57 SPEAKER_01]。\n\n主持人自己也用 Astra Ultra Fast 做了个 3D 游戏测试：在月球飞船上，输入Pip 需要双层床，模型当场把双层床建出来了。代价是新模型速度快了 8 倍，但贵了 6 倍——她孩子在一旁不停提需求，她感慨那是「眼睁睁看着美元飞出门」。\n\n## 创造力的门槛，真的在降\n\n主持人回忆自己 13 岁时接受报纸采访，说想当游戏开发者，后来却没能入行——因为把一个好点子做成产品所需的技能门槛太高。而过去几个月，新模型让她离真正做出来近了一大步 [27:53 SPEAKER_01]。\n\n她还做了一个实时素描应用：你在画布上画一座小山，AI 在旁边补上一只蜗牛；你画一张脸，它变成热气球。Kath 说这正是做 Sites 的初衷之一：让人能创造性地表达自己。\n\n模型变快也在加速创意。主持人的观察很真实：**当处理过程卡顿时，创意就被打断了**；越能保持心流状态，想法就越多。\n\n## 最后一问：会对AI发火吗\n\n会。Kath 说自己平时很有礼貌，对 AI 也说请和谢谢，但当它开始自作主张——尤其是替她发邮件、替她说话时——她会严厉制止。她的底线很清晰：那是我的声音，AI 可以帮她研究和起草，但不能署着她的名发出去 [33:06 Kath Korevec]。\n\n顺便一提，她的 AI 头像叫 Mogwai，和她的迷你哈士奇同名。\n\n## 本集带走\n\n- Sites 不只是放原型的静态网页：它带数据库、存储、多人协作，能承载真正的内部工具\n- 新发布的插件功能让「同一个站点，每人看到自己的数据」成为可能——权限跟着访问者走，适合数据、财务等敏感团队\n- 软件正在变得用完即扔：为一次出差、一周歌单、一趟旅行临时建一个，不需要就删\n- 技能（skill）正在成为新的应用分发方式：用户下载技能，让 AI 替自己往游戏或应用里写内容\n- 模型越快，创意越多——处理等待时间打断的不只是流程，还有灵感",
   "quotes": [
     {
-      "en": "We used it actually for all of the slides that you saw today that were on screen during the keynote. That was a ChatGPT site.",
-      "zh": "今天主题演讲屏幕上你看到的全部幻灯片,其实都是用它做的。那就是一个 ChatGPT 站点。",
-      "timestamp": "01:57",
-      "speaker": "Kath Korevec"
-    },
-    {
-      "en": "My magic word is like, bring your own connector.",
-      "zh": "我的魔法咒语就是,自带连接器。",
-      "timestamp": "07:46",
-      "speaker": "Kath Korevec"
-    },
-    {
-      "en": "And so I'll build a site for that week and then I'll throw it away at the end of the week. And it's wonderful.",
-      "zh": "所以我会为那一周建一个 site,然后在那一周结束时把它扔掉。这感觉棒极了。",
-      "timestamp": "11:05",
-      "speaker": "Kath Korevec"
-    },
-    {
       "en": "It's one thing to say, like, you can go into this game and you can create things. It's another thing to say, like, download this skill and Codex will build into the game for you.",
-      "zh": "说「你可以进入这个游戏并创造东西」是一回事。说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。",
+      "zh": "说「你可以进入这个游戏并创造东西」是一回事；说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。",
       "timestamp": "20:47",
       "speaker": "SPEAKER_01"
     },
     {
-      "en": "I don't need the community to come together in an AGI way. I'd rather just like meet the people. Maybe I'm old school like that.",
-      "zh": "我不需要社区以 AGI 的方式聚集起来。我更想就这样见到这些人。也许我在这方面比较老派。",
-      "timestamp": "22:29",
-      "speaker": "Kath Korevec"
-    },
-    {
-      "en": "And I was like, there's just dollars going out the doors, kid.",
-      "zh": "我就说,孩子,这可都是白花花的银子往外流啊。",
-      "timestamp": "25:10",
+      "en": "people are talking about generative UI in this like very kind of like boring SaaS way where it's like your forms will like progress how you want or you'll have these like widgets. I think this like generative world UI of games is going to be really interesting.",
+      "zh": "人们在谈论生成式 UI,但用的是一种非常枯燥的 SaaS 方式，比如表单会按你想要的方式推进，或者你会有这些小组件。我觉得这种游戏式的生成式世界 UI 会非常有趣。",
+      "timestamp": "25:25",
       "speaker": "SPEAKER_01"
     },
     {
-      "en": "Like a lot of my creativity gets stamped down by being distracted when my thread is processing.",
-      "zh": "比如我的很多创造力会因为线程处理时的分心而被压制。",
+      "en": "And it's just like the hard skills, the creative skills required to get even a good idea into production are so high.",
+      "zh": "就是这些硬技能——要把一个好点子变成产品所需的技能门槛太高了。",
+      "timestamp": "28:03",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Like a lot of my creativity gets stamped down by being distracted when my thread is processing. So the more you can keep me... Sort of like in flow state, the better.",
+      "zh": "比如我的很多创造力会因为线程处理时的分心而被压制。所以你越能让我保持某种心流状态，就越好。",
       "timestamp": "29:22",
       "speaker": "SPEAKER_01"
     },
     {
-      "en": "I use it to do my research. I use it to help me write, but I don't like it writing for me.",
-      "zh": "我用它做我的研究。我用它帮我写作,但我不喜欢它替我写作。",
-      "timestamp": "33:42",
+      "en": "I use it to help me write, but I don't like it writing for me.",
+      "zh": "我用它帮我写作，但我不喜欢它替我写作。",
+      "timestamp": "33:44",
       "speaker": "Kath Korevec"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
-    {
-      "timestamp": "02:02",
-      "speaker": "Kath Korevec",
-      "en": "We used it actually for all of the slides that you saw today that were on screen during the keynote. That was a ChatGPT site.",
-      "zh": "今天主题演讲屏幕上你看到的全部幻灯片,其实都是用它做的。那就是一个 ChatGPT 站点。"
-    },
     {
       "timestamp": "03:54",
       "speaker": "Kath Korevec",
-      "en": "I don't have time to like really dig in with a team on incidents. Nor do I want to.",
-      "zh": "我没时间真正跟团队一起深挖每一起事故。我也不想这样做。"
+      "en": "Nor do I want to. I kind of want to stay in the background and not have to like bug them and say like, hey, what's going on with this incident?",
+      "zh": "我也不想这样做。我有点想待在后台，不必去烦他们说，嘿，这起事故是怎么回事？"
     },
     {
-      "timestamp": "04:04",
+      "timestamp": "04:02",
       "speaker": "Kath Korevec",
       "en": "I want them to solve it without me getting in their way.",
-      "zh": "我想让他们在不被我妨碍的情况下解决它。"
+      "zh": "我想让他们在我不碍事的情况下自己解决问题。"
     },
     {
-      "timestamp": "07:44",
+      "timestamp": "06:56",
       "speaker": "Kath Korevec",
-      "en": "My magic word is like, bring your own connector.",
-      "zh": "我的魔法咒语就是,自带连接器。"
+      "en": "one of the reasons why we built Sites is because we wanted a place to basically put software someplace.",
+      "zh": "我们构建 Sites 的原因之一，就是我们想要一个可以把软件放到某个地方的地方。"
     },
     {
-      "timestamp": "10:12",
+      "timestamp": "08:06",
       "speaker": "Kath Korevec",
-      "en": "You don't have to snap to something that's really rigid. And sites is the web. You can adjust it to however you work.",
-      "zh": "你不必强制对齐到某个非常僵硬的东西上。sites 就是网页,你可以把它调整成任何适合你工作的方式。"
+      "en": "Everybody gets different data.",
+      "zh": "每个人看到的都是不同的数据。"
     },
     {
-      "timestamp": "10:51",
+      "timestamp": "10:02",
       "speaker": "Kath Korevec",
-      "en": "OK, my brain works in different ways than other people. And I might just want like a different view of Google Calendar for the day or for the week.",
-      "zh": "好,我大脑的运作方式和其他人不一样。我可能就是想要一个不一样的 Google Calendar 视图,看某一天或某一周的。"
+      "en": "So that's kind of the beauty with this sort of like bring your own plugin, bring your own connector thing is that you can really adapt it to how you think, how your team works. You don't have to snap to something that's really rigid.",
+      "zh": "这大概就是「自带插件、自带连接器」的美妙之处：你真的可以把它适配到你自己的思考方式、你团队的工作方式，而不必强制对齐到某个非常僵硬的东西上。"
     },
     {
       "timestamp": "11:05",
       "speaker": "Kath Korevec",
       "en": "And so I'll build a site for that week and then I'll throw it away at the end of the week. And it's wonderful.",
-      "zh": "所以我会为那一周建一个 site,然后在那一周结束时把它扔掉。这感觉棒极了。"
+      "zh": "所以我会为那一周建一个站点，然后在那一周结束时把它扔掉。这感觉棒极了。"
     },
     {
-      "timestamp": "11:50",
+      "timestamp": "11:53",
       "speaker": "Kath Korevec",
-      "en": "Let's handle that part of it and do kind of like the last mile work of taking stuff from your local machine and putting it somewhere.",
-      "zh": "让我们来处理那部分,做那种最后一公里的工作,把东西从你的本地机器搬到某个地方去。"
+      "en": "And what we saw was that people were using sites for, yes, building websites, but then also building plugins and hosting data and running evals because it is very powerful.",
+      "zh": "然后我们发现人们用 Sites 不只是建网站，还在构建插件、托管数据、运行 eval,因为它非常强大。"
     },
     {
       "timestamp": "12:19",
       "speaker": "Kath Korevec",
       "en": "So it's kind of like this virtuous cycle, too, that we're kind of building into the workflow of sites itself because sites can be used to build a website and then also as infrastructure.",
-      "zh": "所以这也有点像一个良性循环,我们正把它构建进 sites 本身的工作流里,因为 sites 既可以用来构建网站,也可以作为基础设施。"
+      "zh": "所以这有点像一个良性循环，我们正在把它构建进 Sites 本身的工作流里，因为 Sites 既可以用来构建网站，也可以作为基础设施。"
     },
     {
-      "timestamp": "14:42",
+      "timestamp": "13:03",
       "speaker": "Kath Korevec",
-      "en": "I've never heard this song before, but it's a cool one that I get to listen to for the week because it pulled in yesterday. And decidedly not bluey.",
-      "zh": "我以前从没听过这首歌,但这是我这周能听到的一首很酷的歌,因为它是昨天拉进来的。而且显然不是《Bluey》。"
+      "en": "OK, so my Spotify has been taken over by my children.",
+      "zh": "好，是这样：我的 Spotify 已经被我的孩子们接管了。"
     },
     {
-      "timestamp": "20:44",
+      "timestamp": "16:52",
+      "speaker": "SPEAKER_01",
+      "en": "But like, I think people aren't thinking as creatively as they could about like what a game is.",
+      "zh": "但是我觉得，人们对于「什么是游戏」这个问题的思考，还没有发挥出应有的创造力。"
+    },
+    {
+      "timestamp": "20:51",
       "speaker": "SPEAKER_01",
       "en": "It's one thing to say, like, you can go into this game and you can create things. It's another thing to say, like, download this skill and Codex will build into the game for you.",
-      "zh": "说「你可以进入这个游戏并创造东西」是一回事。说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。"
+      "zh": "说「你可以进入这个游戏并创造东西」是一回事；说「下载这个 skill,Codex 会替你在游戏里构建」是另一回事。"
     },
     {
       "timestamp": "21:08",
       "speaker": "SPEAKER_01",
       "en": "So I think this like distribution model of skills to interact with your app, whether it's a game or otherwise, is like pretty interesting.",
-      "zh": "所以我觉得这种用 skill 来与你的应用交互的分发模式,无论是游戏还是其他,都相当有意思。"
+      "zh": "所以我觉得这种用 skill 来与你的应用交互的分发模式，无论是游戏还是其他，都相当有意思。"
     },
     {
-      "timestamp": "22:29",
+      "timestamp": "22:25",
       "speaker": "Kath Korevec",
-      "en": "I don't need the community to come together in an AGI way. I'd rather just like meet the people. Maybe I'm old school like that.",
-      "zh": "我不需要社区以 AGI 的方式聚集起来。我更想就这样见到这些人。也许我在这方面比较老派。"
+      "en": "There's something about just like the organic community. I don't need the community to come together in an AGI way. I'd rather just like meet the people. Maybe I'm old school like that.",
+      "zh": "有机的社区有点特别。我不需要社区以 AGI 的方式聚集起来，我更想就这样见到这些人。也许我在这方面比较老派。"
     },
     {
-      "timestamp": "25:10",
+      "timestamp": "25:25",
       "speaker": "SPEAKER_01",
-      "en": "And I was like, there's just dollars going out the doors, kid.",
-      "zh": "我就说,孩子,这可都是白花花的银子往外流啊。"
+      "en": "people are talking about generative UI in this like very kind of like boring SaaS way where it's like your forms will like progress how you want or you'll have these like widgets. I think this like generative world UI of games is going to be really interesting.",
+      "zh": "人们在谈论生成式 UI,但用的是一种非常枯燥的 SaaS 方式，比如表单会按你想要的方式推进，或者你会有这些小组件。我觉得这种游戏式的生成式世界 UI 会非常有趣。"
     },
     {
-      "timestamp": "25:34",
+      "timestamp": "27:22",
       "speaker": "SPEAKER_01",
-      "en": "I think this like generative world UI of games is going to be really interesting.",
-      "zh": "我觉得这种游戏式的生成式世界 UI 会非常有趣。"
+      "en": "there's going to be a lot of demands on Infrastructure here where like you're going to have to make really reason choices about like how much do you support in sites versus like this needs to be deployed in some cloud somewhere and you need to own your infrastructure.",
+      "zh": "这里对基础设施会有很多需求，你将不得不做出很认真的取舍：多少东西放在 Sites 里支持，还是说这个需要部署在某个云上、你需要拥有自己的基础设施。"
+    },
+    {
+      "timestamp": "28:03",
+      "speaker": "SPEAKER_01",
+      "en": "And it's just like the hard skills, the creative skills required to get even a good idea into production are so high.",
+      "zh": "就是这些硬技能——要把一个好点子变成产品所需的技能门槛太高了。"
+    },
+    {
+      "timestamp": "29:16",
+      "speaker": "SPEAKER_01",
+      "en": "I also just think the faster the models get, the more kind of like acceleration towards creativity you get.",
+      "zh": "我也认为模型变得越快，你就能获得越多的向创造力的加速。"
     },
     {
       "timestamp": "29:22",
       "speaker": "SPEAKER_01",
-      "en": "Like a lot of my creativity gets stamped down by being distracted when my thread is processing.",
-      "zh": "比如我的很多创造力会因为线程处理时的分心而被压制。"
+      "en": "Like a lot of my creativity gets stamped down by being distracted when my thread is processing. So the more you can keep me... Sort of like in flow state, the better.",
+      "zh": "比如我的很多创造力会因为线程处理时的分心而被压制。所以你越能让我保持某种心流状态，就越好。"
     },
     {
-      "timestamp": "28:06",
-      "speaker": "SPEAKER_01",
-      "en": "It's just like the hard skills, the creative skills required to get even a good idea into production are so high.",
-      "zh": "就是这些硬技能——要把一个好点子变成产品所需的创意技能门槛太高了。"
+      "timestamp": "33:06",
+      "speaker": "Kath Korevec",
+      "en": "but if it starts making assumptions, like especially if it starts emailing or talking to people for me, I get so mad and I'll just say, do not do that.",
+      "zh": "但如果它开始自作假设，尤其是如果它开始替我发邮件或跟人交谈，我会非常生气，直接说，不许那么做。"
     },
     {
       "timestamp": "33:44",
       "speaker": "Kath Korevec",
-      "en": "I use it to do my research. I use it to help me write, but I don't like it writing for me.",
-      "zh": "我用它做我的研究。我用它帮我写作,但我不喜欢它替我写作。"
-    },
-    {
-      "timestamp": "33:26",
-      "speaker": "Kath Korevec",
-      "en": "Like signing my name to something it wrote and then sending that to somebody that's crossing the line.",
-      "zh": "比如用它自己写的东西签上我的名字,然后把它发给某个人,那就是越界了。"
+      "en": "I use it to help me write, but I don't like it writing for me.",
+      "zh": "我用它帮我写作，但我不喜欢它替我写作。"
     }
   ],
   "voice_script": "今天这一期，是在 OpenAI Dev Day 现场录的，主角叫 Kath Korevec,是 OpenAI 一个叫 sites 的产品负责人。sites 是什么？就是用 ChatGPT 和 Codex 搭出来的网站，搭好之后一键托管，直接上线。这位负责人本身也是个重度用户，这一集就是在现场演示她平时怎么用自己做的这个东西。\n\n要听懂这期，得先抓住一个前提：建一个网站，现在已经便宜到像写一张便利贴了。便宜到什么程度？Kath 举了个听起来很浪费的例子。她说自己大脑运转方式和别人不一样，所以会为某一周的日程单独建一个站点，把日历按出差的歪理重新组织一遍，周末一到就整个扔掉，下周再建个新的。用原话说，就是为那一周建一个 site,那一周结束就扔掉，这感觉棒极了。\n\n那这个便宜的东西，除了折腾日历还能干什么？现场演示的第一个正经用法，是事故指挥台。先解释一下，事故指挥就是线上出故障的时候，统筹大家怎么响应的机制。Kath 是产品经理，大部分时间在开会、到处跑，既没时间也不想深挖每起事故，更不想跑去烦工程师问这事故怎么样了。她想做的是待在后台，让工程师不被打扰地解决问题，同时自己能看清全局。于是就给自己团队的 sites 站点建了一个事故总览。\n\n技术上这里有个当天刚发布的新能力，叫插件加站点。意思是，任何登录你站点的人，可以用他们自己连接的连接器——连接器，说白了就是打通 Notion、Slack、日历这类外部工具的数据通道。这样带来的效果是：同一个站点，各看各的数据。Kath 的站点接上她的 Notion 和 Slack 之后，会看她来自哪个频道，推断出你是 sites 团队的人，然后展示这个团队的事故时间线，还能从 Notion 里直接打开响应指南。换成 Codex 团队的人打开同一个站点，看到的就是各自团队的内容。数据团队接数据仓库、财务团队管敏感数据，都特别喜欢这种模式，因为访问者自带授权，开发者完全不用碰 API 密钥这类东西。\n\n怎么让 Codex 建出这种站？有句话是她的魔法咒语：你能在 sites 里用插件来建这个站吗。据说只要带上自带连接器这几个字，Codex 就知道该调连接器，而不是做出一堆静态页面。\n\n顺着刚才的话头再往深一步——主持人提出，sites 不只是放原型的地方，它本身是基础设施。为什么这么说？做 sites 的原因之一，就是大家让 Codex 建网站时，产物只存在本地，还得自己折腾部署运维那一摊事，所以团队干脆把从本地到线上的最后一公里接管掉。结果用户拿它干的不只是建网站：托管数据、跑评测、构建插件，甚至把插件托管上去再用回自己的站点。一个良性循环就转起来了。底盘也够硬，自带数据库和存储，支持共同编辑，连接器目前大约六十个，还在增加。\n\n工作之外呢？生活场景也有。Kath 的 Spotify 被两个孩子接管了，放的大多是动画片主题曲，而她工作忙、带俩娃、还是幼儿园家长代表，根本没精力跟进新音乐，但又爱工作时听歌。解法是建了一个播放列表网站，写几个说明文件告诉站点该怎么做：要移动端友好、要极简、还要去 Reddit 上看大家分享和投票什么热门歌单。整个过程用 computer use,也就是让模型直接操作电脑界面，设成自动化，每周一早上八点跑一次。现场点开播放的，就是一首她从没听过的歌，昨天刚拉进来的，而且显然不是 Bluey。\n\n最好玩的部分是游戏。Kath 建了一个号称最大的用户共建地牢爬行游戏，地图是旧金山的一个广场，玩家进去杀泰迪熊。关键设计是，她想让别人往游戏里加自己的房间。做法是发布了一个叫 Dungeon Sight 的 skill——skill 就是技能，一段可安装的说明书，里面定义了房间尺寸、玩家是什么、控制方式。任何人装上这个 skill,就能用模型生成自己想要的房间，月球表面、火山口都行。她今天早上现做的例子，是因为儿子在看《怪奇物语》，一句话就生成了该主题的房间，连空心月亮这种设定都是模型自己想出来的。主持人点出一个前所未有的分发模式：说你可以进游戏里创造东西，是一回事；说下载这个 skill,Codex 会替你在游戏里构建，是另一回事——你甚至可能根本不打开游戏本体。那怎么知道有没有人真在往里加房间？Kath 说开发者只能看到访问量这种轻量分析，打算学 awesome lists 的路子，靠推特话题标签让大家分享，让社区有机生长。有句话值得记住：我不需要社区以 AGI 的方式聚集起来，我更想就这样见到这些人，也许我在这方面比较老派。\n\n最后聊到新模型。两人都提前试了快八倍、贵六倍的 ultra fast 模式，各自搭了 3D 房间游戏。主持人吐槽孩子不断要求让水母跳草裙舞，还给它个宝宝——我就说，孩子，这可都是白花花的银子往外流啊。Kath 透露 sites 正在试验的方向，是把推理带进站点，让玩家在游戏里直接唤起 ChatGPT 改东西，比如给孩子设一笔游戏额度，孩子自己说想要双层床，用自己那份额度完成对话。主持人补了层观察：模型越快，创造力越不中断，因为很多创造力会被等回复时的分心压制掉。她自己 13 岁想做游戏设计师，但把好点子做成产品的门槛太高；而过去几个月的新模型，第一次让她觉得离把想象的东西做出来这么近。\n\n对了，还有一条底线值得说：Kath 明令禁止模型替她署名发邮件和 Slack,研究和写作可以让 Codex 帮忙，但落款的每一个字必须是自己的。当建一个网站像写便利贴一样便宜，工具能替你做几乎所有事，唯独你自己的声音，得自己守住。"

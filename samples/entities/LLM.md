@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>58</b> 集 · <b>45</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>58</b> 集 · <b>44</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -66,8 +66,8 @@ unlisted: true
 - **[[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]]**(31:01起):本集说拐点是规模化「投币式智能」诞生：「你可以把所有那些数据直接倒进一个 LLM 里，说，告诉我关于这个人的情况」，你就会得到一个答案，跨平台协调的舆论行动已见苗头。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(21:50起):本集说 LLM 从以语言书写的人类知识中学习表征、针对生成文字优化；其自回归 transformer 架构内存受限，在嵌入式设备上因无法聚合调用而跑不满算力；LLM 驱动的数字智能体还被用于工厂高层规划和替开发者查找资料。
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(16:31起):本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。
-- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]]**(02:09起):本集说 StrandsAgents 是跑 LLM 的 harness，可自带模型，出新模型时无需重写 system prompt 或架构，直接替换即可。
-- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]]**(03:18起):本集说 LLM 让「把非结构化对话变成结构化数据再做预测」变容易；同时 Dan 反驳拿一个 LLM 加几个 MCP 服务器和 API 就能缝合六个单点软件的想法。
+- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]]**(02:09起):本集说 StrandsAgents 是跑 LLM 的 harness，可自带模型，出新模型时无需重写 system prompt 或架构，直接替换即可。
+- **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(03:18起):本集说 LLM 让「把非结构化对话变成结构化数据再做预测」变容易；同时 Dan 反驳拿一个 LLM 加几个 MCP 服务器和 API 就能缝合六个单点软件的想法。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(24:24起):本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它
 
 ## ① 提到它的金句
@@ -158,9 +158,9 @@ unlisted: true
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q7]]
 
-![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q4]]
+![[2026-09-30-talks-the-chief-ai-officer-scientist-architect#^q6]]
 
-![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q2]]
+![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q4]]
 
 ## ② 出现在这些集
 
@@ -221,8 +221,8 @@ unlisted: true
 - [[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]] — 作为概念
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
-- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]] — 作为概念(提及)
-- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《「协调税」：AI 每解决一小时的问题，要付三小时的协调成本》]] — 作为概念
+- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]] — 作为概念(提及)
+- [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为概念
 
 ## ③ 关联

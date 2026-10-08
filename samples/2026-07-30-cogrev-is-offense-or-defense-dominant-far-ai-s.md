@@ -202,7 +202,7 @@ Adam 大致同意主持人提出的二分法 <button class="pd-ts" data-t="96:15
 **顺着「AI 安全」挖下去**
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、后训练 (post-training)、宪法 AI (constitutional AI)</span>
-- [[2026-08-31-dwarkesh-openai-huggingface-narration|OpenAI 智能体的三次秘密结社与夺权]]<span class="pd-rz">同公司:OpenAI、Hugging Face · 同概念:思维链监控 (chain of thought)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己]]<span class="pd-rz">同公司:OpenAI、Hugging Face · 同概念:思维链监控 (chain of thought)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同公司:OpenAI、Anthropic、Hugging Face · 同概念:思维链监控 (chain of thought)、智能体 (agent)</span>
 
 </div>

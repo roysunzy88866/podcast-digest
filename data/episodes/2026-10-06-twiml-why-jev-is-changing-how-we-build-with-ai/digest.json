@@ -1,8 +1,14 @@
 {
-  "title_zh": "让 AI 可靠到像 SQL：Jev 与「机器原生智能」",
-  "tldr": "TypeSafe 联合创始人兼 CEO、前 OpenAI RLHF 团队成员 Diogo Almeida 谈 Jev 的核心主张：AI 该为机器可执行的可靠决策而优化，而非生成供人消费的文本。",
-  "digest_md": "这一集聊的是三周前刚出隐、引爆 AI 圈的小模型 Jev——有人耸耸肩说「这不就是个分类器」，有人则把它当成让 AI 真正能自动化落地的关键一步。说话的主角是 Diogo Almeida，TypeSafe 的联合创始人兼 CEO，此前在 OpenAI 待了四年半，是 InstructGPT 和 RLHF（用人类反馈强化学习，让语言模型学会听话的那套方法）背后团队的成员。\n\n他的电梯演讲很直接：「那些该死的自动化到底都在哪儿」[01:47 Diogo Almeida]。在他看来，AI 智慧得令人难以置信——能解数学千禧年大奖难题——却在更换一张信用卡、做会计、跑客服这种事上没用得令人难以置信。为什么？他的答案一句话就能说完：\n\n## 你为什么而优化，就得到什么\n\n「你为什么而优化，就得到什么——这对所有机器学习的事情都成立，对世界上所有的事情大概都成立」[04:55 Diogo Almeida]。今天的 LLM 全都是为「字符串」优化的，而字符串是供人类或其他 LLM 消费的；但会计、数据录入、保险承保这些东西，是供计算机消费的——特定的字段、表单、离散的决策。为字符串优化和为离散决策优化，是非常不同的两件事。「我相信这就是这个差距最大的解释」[05:38 Diogo Almeida]。\n\n主持人反问：ML 本质上就是优化，天天讲代价函数，怎么会是 ML 的人最不懂这个？Diogo 的回答引出了他对 Sutton「苦涩教训」（大致是：算力和扩展比算法更重要）的修正版。\n\n## 数据比算力重要，正确的任务比数据更重要\n\n「我相信数据比算力重要得多」[10:02 Diogo Almeida]——因为算力得有数据可施。而比数据更重要的是「你需要正确的任务」[10:09 Diogo Almeida]。预训练损失今天看是显然的，当年却是很大的信仰飞跃；RLHF 也是——互联网上根本不存在「对两个模型补全的偏好标注」这种形态的数据，是团队的天才洞察硬造出了这个任务。所以「真正能创造一个新任务的人寥寥无几」[10:36 Diogo Almeida]。在 RL 游戏里算力和数据可以互换（on-policy rollout 用算力换数据），Sutton 的说法成立；但推广到现实应用，数据才是比算力更受限的资源。\n\n## 锯齿状能力不是天生的，是优化出来的\n\nLLM 为什么时灵时不灵？Diogo 做了个现场测试：你见过 ChatGPT 无缘无故地辱骂你吗？没有。所以模型在某些事上其实是「超级超级可靠」的。他的论断是：「锯齿状特性并不是 LLM 或 AI 内在的」[07:12 Diogo Almeida]——它来自优化过程：你朝一个方向优化得越猛，就获得那类可靠性、失去别的。\n\n这正是 RLHF 的机制：惩罚越容易施加的事，推理时就越不会发生。不该退款时给了退款，从准确率上看和把脸在键盘上乱按一样是 0%，但你永远不会看到乱按——因为优化压力的不对称性。也因此，「后训练可以让某些类型的事情变得可靠」[08:18 Diogo Almeida]，而「AI 从业者在把期望目标植入模型这件事上，拥有的主观能动性大得超出人们的想象」[08:22 Diogo Almeida]。\n\n顺带他泼了行业一盆冷水：自动驾驶是巨大的工程胜利而非 AI 胜利——Waymo 靠的是把系统分解、抽象、逐个确保可靠。而 AI 圈的愤世嫉俗循环是：做 demo → 融种子轮/A 轮 → 承诺做可靠 → 从没做可靠 → pivot 成 human-in-the-loop。OpenAI 从 2020 年就在展示客服 demo，六年后客服仍未解决。\n\n## Jev 与「分类器」：差的不是接口，是智能\n\n面对「Jev 不过是逻辑回归/嵌入模型加分类器」的嘲讽，Diogo 的回应是：分类器没有任何问题——「它们就是『有用性』的形态本身」[25:15 Diogo Almeida]，Meta 和 Google 靠的就是分类器。「如果有人告诉我们，我们做的是『针对任何东西的零样本通用分类器』，那会是 Jev 得到过的最高赞美」[25:37 Diogo Almeida]。\n\n真正被所有人漏掉的一点（他的团队劝他别外讲）：关键不在接口、不在速度和成本——「如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能」[28:56 Diogo Almeida]。Jev 的核心其实有一个 LLM——互联网的压缩版——这才是零样本能力的来源，而他们做的事是围绕「校准决策」这个任务重新训练它。他自认为起手时是世界顶尖的后训练水平，以为一周搞定，结果在隐身状态下做了两年，还写了一份内部文档叫《我们本来去年就能拥有 AGI》——事后承认，RLHF 一年内能成，RLCD 绝不可能一年内成。\n\n另一个有意的取舍：Jev 刻意在字符串生成上差得多——「能聊天」很可爱但明显很蠢。他想要的标杆是「让 AI 可靠到无聊透顶，就像 SQL」[32:26 Diogo Almeida]，可预测到不用跑 eval 集就敢写查询。「我再怎么强调都不为过：可靠性才是人们付费买的东西」[32:58 Diogo Almeida]。\n\n## RLCD：把工程控制权还给开发者\n\nRLCD（为校准决策而优化的那类算法，区别于为人类偏好优化的 RLHF）要解决什么？用 function calling 类比：客服系统判断「是否转人工」，Walmart 和 Costco 的策略天差地别，但今天的 API 只能让你在提示词里写「请给退款/别给退款」，而不是把可调阈值交给程序员。OpenAI 当年因过度拒绝回滚模型，在他看来就是糟糕决策——「刷新几次有时拒绝有时不拒绝，从工程角度看是疯狂的行为」，为什么没有一个可调阈值？\n\n「RLCD 就是把正确的接口暴露给构建者，让他们能拿到想要的属性，而不只是对着 system message 祈祷」[50:16 Diogo Almeida]。而要有意义的旋钮和阈值，前提是概率被校准——你要在乎概率的长尾，不只是准确率。这里他抛出一个反直觉论断：「RLHF 和 RLVR 极大地破坏了模型的校准，因为要把字符串输出好，你实际上需要极度过度自信」[56:42 Diogo Almeida]——GPT-4 之后模型只发后训练版，校准就此劣化。\n\n## Harness 之辩：智能体的问题不在循环，在背后的智能\n\nClaude Code、OpenClaw 这些「外壳」（harness，即包着模型跑的代码框架）真能点石成金吗？Diogo 说不：Claude Code 发布后几个月都没人用，后来才出现巨大跃迁——他的猜测是 Anthropic 下大注把智能体轨迹放进了训练分布，「你优化什么就得到什么」。形态（分类器、while 循环）本身很强大，「但它的强大程度只取决于背后的智能」。他甚至完全拒绝 harness 这个概念——那是「无马的马车」式思维，试图把智能装扮成人类的样子。\n\n对 Jev 而言：模型被用户嵌进自己的代码，逻辑全归用户、数据全归用户——「总有一天智能会像数据库一样，代码里需要时就调用」。关于智能体编排中的决策交给 Jev，他还留了个思想实验：「如果 KV 缓存不存在，你会怎么设计编码智能体？」——没有只追加的上下文，就能做扇出、过滤、上下文内的层级查找，而不是像到处用全局变量一样囤积历史。\n\n对「是否要退回僵硬工作流」的质疑，他的回答是分场景的：一次性任务当然交给不可靠的 LLM 碰运气；但要规模化、要长期在后台作为依赖运行的东西，前期就值得真正工程化——「待在轨道上是特性」，就像游乐园没有轨道安全带就玩不了最好玩的项目。未来他判断是混合方案：智能体逐步挂接更多真正的软件逻辑，「直到它们变成更多的软件、更少的魔法 while 循环」。\n\n至于泛化：他不同意「业务决策比文本更难泛化」——遵循一个简单业务工作流，和解决数学千禧年难题，他打大赌是后者更难。而通往通用性，RLHF 最容易（取悦人是主观的），RLCD 其次，RLVR（用可验证奖励做强化学习，本质是在为基准优化）最难——这就是为什么他相信 Jev 这条路「离通用更近，而且不像其他模型那样困在收益递减的平台期」。\n\n## 本集带走\n\n- **「你优化什么就得到什么」是理解 AI 长短板的钥匙**：LLM 差不是能力不够，而是全体都在为「供人消费的字符串」优化；会计、客服这类「供机器消费的离散决策」需要新的优化目标。\n- **可靠性可以后天造出来**：锯齿状不是 LLM 的天性，是 RLHF 式不对称优化的产物——反过来，只要为决策这个任务去优化，可靠性同样能被训出来，Jev 的两年隐身期就是证明。\n- **「快和便宜」不是卖点**：小模型加逻辑回归得到的就是小模型的智能；人们真正付费买的是校准过的智能与可靠性，离开这一点，抄接口的模仿者都抄错了重点。\n- **别指望 harness 点石成金**：Claude Code、OpenClaw 的形态早就存在，真正让它们起飞的是把使用轨迹放进训练分布；判断一个智能体产品，要看背后智能而非框架。\n- **给开发者的设计启示**：要做长期后台运行的自动化，前期工程化是值得的（轨道是特性）；而「没有 KV 缓存你会怎么设计智能体」这个思想实验，值得每个做智能体架构的人做一遍。",
+  "title_zh": "AI 为什么这么聪明，却干不了保险核保？",
+  "tldr": "TypeSafe 联合创始人 Diogo Almeida 讲 Jev 背后的想法：AI 不该为人写字，该为软件做决定。",
+  "digest_md": "三周前，Diogo Almeida 的公司 TypeSafe 发布了模型 Jev，迅速成为 AI 圈热议的话题。有人耸耸肩说这不就是个分类器，也有人发现它快、便宜、好用，几天之内开源仿制品就冒了出来，OpenAI 也跟着发布了类似产品。但 Almeida 说，这些讨论大多没抓到重点。他曾在 OpenAI 工作四年半，参与过 InstructGPT 和 RLHF——就是把语言模型变成今天聊天助手的那套技术。这一次，他想回答的问题很直白：「自动化到底在哪儿？」\n\n## AI 好到超人的事和烂到没法用的事，为什么同时存在？\n\nAlmeida 的观察是：今天的 AI 在两件事上分裂得厉害。一边是 ChatGPT、DeepResearch、Claude Code 这些超人级的表现；另一边是最简单的数据录入、保险核保、客服换信用卡，AI 烂到根本没法用，尽管背后有巨大的商业动力 [02:02 Unknown]。\n\n他去 Anthropic 官网试过他们的客服智能体：扔常见问题给你很在行，但要办点实际的事就不行了。他的解释是：整个现代 AI 只有一个工具——预测下一个词的 Transformer，外加一堆让它越来越会生成文字的机制。文字是给人看的，而会计、客服这些工作需要的是给计算机消费的离散决定。他甚至说，AI 实验室很有动力不诚实回答这个问题 [04:28 Unknown]。\n\n## 机器学习的铁律：你优化什么，就得到什么\n\n他给出的答案是「你优化什么，就得到什么」。现有语言模型都在为字符串优化，字符串是给人看的；而自动化需要的是精确的、校准过的决策。两者完全是两回事 [05:18 Unknown]。\n\n有人会说模型的强弱是锯齿状的。他反问：你见过 ChatGPT 无缘无故骂你吗？没有——因为 RLHF 的奖励机制让某些错误变得极易惩罚，模型在这些地方就超级可靠 [07:02 Unknown]。**所以锯齿不是天生的，是优化方向决定的**。从业者其实有很大的主动权，只是很多人没意识到。\n\n顺带一提，他不太认同 Sutton 那篇著名的苦涩的教训（算力比算法重要）。他认为数据比算力重要，而比数据更重要的是选对任务。RLHF 之所以带来巨大飞跃，是因为有人先想出了让人类在两个回答之间选偏好这个全新任务，然后从零造出了互联网上根本不存在的数据 [12:10 Unknown]。\n\n## 就是个分类器？那是对它最好的夸奖\n\nJev 发布后，一批机器学习老兵撇嘴：这不就是分类器、逻辑回归吗？Almeida 的回应是：分类器本来就不是什么炫技的东西，它是有用性的形状——Meta、Google 靠一堆分类器运转。**如果有人说 Jev 是一个零样本通用分类器，他会当成最高的赞美** [25:35 Unknown]。\n\n他的类比是：相当于随手给每个开发者配了一支 2019 年的机器学习工程团队，你想一个任务，它当场就建好了，而且质量更高。真正的分歧不在界面，而在智能。用小模型或嵌入向量加分类器去模仿 Jev 的接口，你得到的就是那种东西的智能水平。他说自己当初以为这个项目一周就能做完，结果发现模型看似什么都会，唯独不擅长做决策 [30:48 Unknown]。\n\n## 不要智能体外壳，把控制权还给程序员\n\nJev 对开发者的形态是：给它一组可能的决策和输入，它告诉你选哪个，还给出每个选项的概率。Almeida 喜欢把它叫智能的 SQL[37:35 Unknown]。他甚至拒绝harness（智能体外壳）这个概念，认为那是无马马车式的思维——硬把智能包装成人的样子。\n\n他的核心主张是：**概率应该原样交给用户，让程序员根据自己业务的成本和收益来设阈值**。现在的大模型 API 没有这些旋钮，你只能在系统提示里苦苦哀求请别随便退款——这在他看来是工程上的疯狂。他举例说，OpenAI 当年模型拒绝率过高需要回滚，其实就是模型内部做了一个拒绝还是不拒绝的决定，但没有任何可调阈值 [51:09 Unknown]。\n\n## 概率凭什么可信？因为 RLHF 反而毁掉了校准\n\n关于概率校准的难题，他透露了一点：那些互联网的压缩包（预训练模型）其实校准得不错，**真正毁掉校准的是 RLHF 和 RLVR**——为了把文字写好，模型需要极端的过度自信，概率分布完全被扭曲了 [56:36 Unknown]。RLCD 的思路是用校准决策作为强化学习目标，从原始模型这个好底子出发，一路训练得越来越准。\n\n他也承认 Jev 还很早期，应该被当成早期的 ChatGPT看待，决策能力大概强于不做推理的 RLHF 模型，但还比不上最强的推理模型 [68:05 Unknown]。\n\n## 未来的智能体，可能长得完全不一样\n\n他写过一篇博客叫《KVCache Rules Everything Around Me》，论点是今天智能体的很多设计，其实是被上下文缓存很贵这个约束逼出来的。他的面试题是：==如果 KV 缓存不存在，你会怎么设计一个编程智能体==？一旦假设你能在飞快又便宜地获取可靠智能，扇出、过滤、重排、在上下文里做层级检索，全都成为可能 [78:52 Unknown]。\n\n他猜测未来是混合形态：从今天的魔法 while 循环起步，软件逻辑一点点加上去，直到变成真正的软件多一点、魔法少一点。对于一次性任务，直接丢给大语言模型碰运气完全合理；但想要一个能在后台永远跑下去的依赖，上轨道不是缺陷，而是自动化的前提 [86:02 Unknown]。\n\n## 本集带走\n\n- AI 聪明却没用的根源，在于现有模型全是为给人看的字符串优化的，而自动化需要的是给软件消费的校准决策。\n- Jev 的价值不在快和便宜，而在于换了优化目标：输出概率、暴露可调阈值，把决策权交还给程序员。\n- 分类器不是贬义词——它是把智能装进软件的标准形状，Meta 和 Google 都靠它运转。\n- RLHF 和 RLVR 为了生成流畅文字，反而摧毁了模型的概率校准；预训练模型本身底子不错。\n- 今天的智能体架构被 KV 缓存的成本深深塑造；假设智能又快又便宜又可靠，智能体可以设计成完全不同的样子。",
   "quotes": [
+    {
+      "en": "The elevator pitch I use for Jev is just where the f*** is all the automation.",
+      "zh": "我用来介绍 Jev 的电梯演讲就是：那些该死的自动化到底都在哪儿。",
+      "timestamp": "01:47",
+      "speaker": "Diogo Almeida"
+    },
     {
       "en": "I think AI is just so unbelievably smart, yet so unbelievably useless at the kinds of things you'd really expect it to be useful for.",
       "zh": "我觉得 AI 智慧得令人难以置信，但在你真正期望它有用的那些事情上，却又无用得令人难以置信。",
@@ -10,14 +16,32 @@
       "speaker": "Diogo Almeida"
     },
     {
+      "en": "At least the AI labs are very incentivized to not answer that truthfully.",
+      "zh": "至少 AI 实验室非常有动机不去诚实地回答这个问题。",
+      "timestamp": "04:28",
+      "speaker": "Diogo Almeida"
+    },
+    {
       "en": "So my take on the answer and the nuance of it is that you get what you optimize for, which is just true of all things ML, kind of true of all things in the world, really.",
-      "zh": "所以我对这个答案的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。",
+      "zh": "所以我对这个答案及其细微之处的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。",
       "timestamp": "04:55",
       "speaker": "Diogo Almeida"
     },
     {
+      "en": "Basically all the string LLMs have been optimized for strings and strings are meant to be consumed by humans or other LLMs.",
+      "zh": "基本上所有强大的 LLM 都是为字符串优化的，而字符串是供人类或其他 LLM 消费的。",
+      "timestamp": "05:18",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "You know, it's the same 0% accuracy, but you never get the mashing your face on the keyboard because of the asymmetry in the optimization.",
+      "zh": "你知道，同样是 0% 的准确率，但你永远不会得到「把脸在键盘上乱按」这种情况，因为优化中的这种不对称性。",
+      "timestamp": "07:53",
+      "speaker": "Diogo Almeida"
+    },
+    {
       "en": "And I don't think people realize how much of an agency that AI practitioners have in setting their menu of desiderata into the model.",
-      "zh": "我认为人们没有意识到，AI 从业者在设定他们期望的目标清单并植入模型方面，有多大的主观能动性。",
+      "zh": "而且我认为人们没有意识到 AI 从业者在设定他们期望的目标清单并植入模型方面有多大的主观能动性。",
       "timestamp": "08:22",
       "speaker": "Diogo Almeida"
     },
@@ -35,8 +59,26 @@
     },
     {
       "en": "So it's actually a rare few that I think can actually make a new task, and that is the you get what you optimize for part of it.",
-      "zh": "所以我认为真正能创造一个新任务的人寥寥无几，这就是「你优化什么就得到什么」的那部分。",
+      "zh": "所以我认为真正能创造一个新任务的人其实寥寥无几，这就是「你优化什么就得到什么」的那部分。",
       "timestamp": "10:36",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And before RLHF existed, there was literally no human feedback data on the internet of the shape that we were looking for because we had to create it.",
+      "zh": "而在 RLHF 出现之前，互联网上确实根本不存在我们所要寻找的那种形态的人类反馈数据，因为我们不得不去创造它。",
+      "timestamp": "12:10",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "My argument with sci-fi is especially related to LLMs, which I think tends to be what people mean by AI these days, because it seems to be like the greatest compression of intelligence while having like the least utility.",
+      "zh": "我关于科幻的论点，尤其是和 LLM 相关的，我觉得这往往就是如今人们说 AI 时的意思，因为它似乎是智能的最大压缩，同时却有着最少的实用性。",
+      "timestamp": "16:08",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And also I see self-driving as a ginormous engineering win, not necessarily an AI win.",
+      "zh": "同时我也把自动驾驶看作一项巨大的工程胜利，而不一定是 AI 胜利。",
+      "timestamp": "16:46",
       "speaker": "Diogo Almeida"
     },
     {
@@ -46,9 +88,33 @@
       "speaker": "Diogo Almeida"
     },
     {
+      "en": "That is now roughly six years ago, and customer service is still not solved.",
+      "zh": "那大约是六年前的事了，而客服仍然没有被解决。",
+      "timestamp": "19:13",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "People keep trying and failing to automate drive-throughs and there's no good answer for that other than maybe drive-throughs are harder than unsolved math.",
+      "zh": "人们不断尝试自动化得来速却不断失败，对此没有什么好的解释，除非得来速比未解的数学难题还难。",
+      "timestamp": "19:41",
+      "speaker": "Diogo Almeida"
+    },
+    {
       "en": "And in general, the way to get higher reliability is to zoom in.",
       "zh": "而且总体来说，获得更高可靠性的方法是放大聚焦。",
       "timestamp": "21:26",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But the North Star has always been, what does AI look like if it's really, really optimized for being useful for software?",
+      "zh": "但北极星一直是：如果 AI 真正、真正地为「对软件有用」而优化，它会长什么样？",
+      "timestamp": "23:09",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "They are literally the shape of usefulness.",
+      "zh": "它们就是「有用性」的形态本身。",
+      "timestamp": "25:15",
       "speaker": "Diogo Almeida"
     },
     {
@@ -58,9 +124,27 @@
       "speaker": "Diogo Almeida"
     },
     {
-      "en": "And if you use a logistic regression on top of embeddings or a small model, you get the intelligence of logistic regression on top of embeddings or a small model.",
-      "zh": "而如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。",
-      "timestamp": "28:56",
+      "en": "And I believe that they're intellectually quite correct, but they've been hobbled by the models being optimized for strings instead of them being optimized for the thing that they want, which is programmatic use.",
+      "zh": "而我相信他们在思想上相当正确，但他们一直被拖累，因为模型是为字符串优化的，而不是为他们想要的东西优化的，也就是程序化的使用。",
+      "timestamp": "27:23",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And my team has been telling me to stop telling this to people because it makes it more likely we have competition.",
+      "zh": "而我的团队一直让我别再跟人讲这个，因为这会让我们更有可能遇到竞争。",
+      "timestamp": "28:19",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I think people just don't get that they're paying for intelligence.",
+      "zh": "我觉得人们就是没意识到他们是在为智能付费。",
+      "timestamp": "28:53",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I worry that if people play with bad versions of the model, they might actually get burned by the whole subgenre and say like, hey, like, like this kind of stuff is crap.",
+      "zh": "我担心的是，如果人们玩的是这个模型的糟糕版本，他们可能会被整个子类别坑到，然后说：嘿，这类东西就是垃圾。",
+      "timestamp": "31:03",
       "speaker": "Diogo Almeida"
     },
     {
@@ -76,9 +160,45 @@
       "speaker": "Diogo Almeida"
     },
     {
+      "en": "On that note, if you want a fun, embarrassing thing about me, is at the time I had this idea and the aha hit me, I wrote a document in OpenAI entitled, titled, maybe not entitled, titled, we could have had AGI last year.",
+      "zh": "说到这个，如果你想听一个关于我的有趣又尴尬的事，就是当时我有了这个想法、那个 aha 时刻击中我的时候，我在 OpenAI 写了一份文档，题目是「我们本来去年就能拥有 AGI」。",
+      "timestamp": "33:38",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "If we could pre-train better than the rest of the world with the budget we've had, then the rest of the world is totally cooked.",
+      "zh": "如果我们用我们这点预算能做出比全世界其他人都更好的预训练，那全世界其他人都彻底完蛋了。",
+      "timestamp": "43:39",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "You know, exponentially more resources for debatably linear gains seems very sublinear.",
+      "zh": "你知道，指数级增长的资源换来有争议的线性收益，看起来是非常次线性的。",
+      "timestamp": "43:57",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Publishing RLHF was probably really good for the world.",
+      "zh": "发表 RLHF 对世界来说可能是件好事。",
+      "timestamp": "48:01",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "No function calling API should exist without a logic bias for the function itself.",
+      "zh": "任何 function calling API 都不应该存在，而不带一个针对函数本身的逻辑偏置。",
+      "timestamp": "49:35",
+      "speaker": "Diogo Almeida"
+    },
+    {
       "en": "So to me RLCD is about exposing the right interface to builders so that they can get the properties they want without just praying to the system message.",
       "zh": "所以对我来说，RLCD 就是把正确的接口暴露给构建者，让他们可以获得想要的属性，而不只是对着 system message 祈祷。",
       "timestamp": "50:16",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "There's a lot to the product of an ML API that most people don't realize because they mindlessly follow the gradient of things like MAUs, monthly active users.",
+      "zh": "一个 ML API 的产品本身有很多门道，大多数人没有意识到，因为他们无脑地追随 MAU、月活用户之类的东西的梯度。",
+      "timestamp": "52:13",
       "speaker": "Diogo Almeida"
     },
     {
@@ -86,128 +206,537 @@
       "zh": "实际上，RLHF 和 RLVR 极大地破坏了模型的校准，因为要想把字符串输出好，你实际上需要极度过度自信。",
       "timestamp": "56:42",
       "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And it is not in the extreme plateau of diminishing returns like other models are.",
+      "zh": "它并不像其他模型那样处于收益递减的极端平台期。",
+      "timestamp": "69:10",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "My guess is this is what happened when they finally put it in distribution because you get what you optimize for.",
+      "zh": "我的猜测是，当他们最终把它放进分发中时，就发生了这种情况，因为你优化什么就会得到什么。",
+      "timestamp": "70:48",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "It's weird for the logic to be running on someone else's server if your system message has your whole business algorithm on it.",
+      "zh": "如果你的系统消息里有你整套业务算法，而逻辑却运行在别人的服务器上，这是很奇怪的。",
+      "timestamp": "74:03",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And I like to think of it as like one day intelligence will be like databases where you just call it when you need it, when you need intelligence within your code.",
+      "zh": "而我愿意这样想：总有一天智能会像数据库一样，当你在代码中需要智能时就直接调用它。",
+      "timestamp": "74:25",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "The KVCache is a little bit similar to having global variables everywhere, but what if you could be smart about your state?",
+      "zh": "KVCache 有点像到处使用全局变量，但如果你能对自己的状态聪明一些呢？",
+      "timestamp": "80:48",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "That slowly add more and more logic because it's very hard to add additional harness logic into like the Claude codes and codexes because their core loop is just a while loop.",
+      "zh": "慢慢地加入越来越多的逻辑，因为要在像 Claude Codes 和 Codexes 这样的东西里添加额外的 harness 逻辑非常困难，因为它们的核心循环就是一个 while 循环。",
+      "timestamp": "82:37",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And it is a feature to be on the rails, you know, like you don't want to go an amusement park that doesn't have its rails, or at least you can't do the most fun stuff without like the rails and the seatbelts and all of that, right?",
+      "zh": "而且待在轨道上是一个特性，你知道的，你不会想去一个没有轨道的游乐园，或者至少没有轨道、安全带和所有那些东西你就玩不了最好玩的项目，对吧？",
+      "timestamp": "86:24",
+      "speaker": "Diogo Almeida"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
       "timestamp": "01:47",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "The elevator pitch I use for Jev is just where the f*** is all the automation.",
       "zh": "我用来介绍 Jev 的电梯演讲就是：那些该死的自动化到底都在哪儿。"
     },
     {
       "timestamp": "02:02",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "I think AI is just so unbelievably smart, yet so unbelievably useless at the kinds of things you'd really expect it to be useful for.",
       "zh": "我觉得 AI 智慧得令人难以置信，但在你真正期望它有用的那些事情上，却又无用得令人难以置信。"
     },
     {
-      "timestamp": "04:55",
-      "speaker": "Diogo Almeida",
-      "en": "So my take on the answer and the nuance of it is that you get what you optimize for, which is just true of all things ML, kind of true of all things in the world, really.",
-      "zh": "所以我对这个答案的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。"
+      "timestamp": "03:37",
+      "speaker": "Unknown",
+      "en": "It's this kind of token predicting transformer at the core with a bunch of machinery around it that makes it, you know, better and better at producing",
+      "zh": "就是这种预测 token 的 transformer 在核心，周围围着一堆机制，让它越来越擅长产出内容、词语、文本。"
     },
     {
-      "timestamp": "05:38",
-      "speaker": "Diogo Almeida",
-      "en": "And that I believe is the largest explainer of this gap.",
-      "zh": "而我相信这就是这个差距最大的解释。"
+      "timestamp": "04:28",
+      "speaker": "Unknown",
+      "en": "At least the AI labs are very incentivized to not answer that truthfully.",
+      "zh": "至少 AI 实验室非常有动机不去诚实地回答这个问题。"
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Unknown",
+      "en": "So my take on the answer and the nuance of it is that you get what you optimize for, which is just true of all things ML, kind of true of all things in the world, really.",
+      "zh": "所以我对这个答案及其细微之处的看法是：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，说真的，对世界上所有的事情大概都成立。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "Basically all the string LLMs have been optimized for strings and strings are meant to be consumed by humans or other LLMs.",
+      "zh": "基本上所有强大的 LLM 都是为字符串优化的，而字符串是供人类或其他 LLM 消费的。"
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Unknown",
+      "en": "And it's very different to optimize for strings versus like these discrete decisions.",
+      "zh": "为字符串优化和为这些离散决策优化是非常不同的。"
+    },
+    {
+      "timestamp": "06:06",
+      "speaker": "Unknown",
+      "en": "Like it's a jagged edge and there will need to be, I think, a lot of different things or something fundamentally different to smooth out that jagged edge and kind of push that frontier forward.",
+      "zh": "它是一个锯齿状的边缘，我认为需要很多不同的东西，或者某种根本不同的东西，来磨平那个锯齿状的边缘，并推动那个前沿向前发展。"
     },
     {
       "timestamp": "07:12",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "I would say that jaggedness is not intrinsic to LLMs or AI.",
       "zh": "我想说，锯齿状特性并不是 LLM 或 AI 内在的。"
     },
     {
-      "timestamp": "07:48",
-      "speaker": "Diogo Almeida",
-      "en": "From an accuracy perspective, exactly the same as like mashing your face on the keyboard.",
-      "zh": "从准确性的角度来看，和把你的脸在键盘上乱按是完全一样的。"
+      "timestamp": "07:53",
+      "speaker": "Unknown",
+      "en": "You know, it's the same 0% accuracy, but you never get the mashing your face on the keyboard because of the asymmetry in the optimization.",
+      "zh": "你知道，同样是 0% 的准确率，但你永远不会得到「把脸在键盘上乱按」这种情况，因为优化中的这种不对称性。"
+    },
+    {
+      "timestamp": "08:18",
+      "speaker": "Unknown",
+      "en": "So post-training can make certain types of things reliable.",
+      "zh": "因此后训练可以让某些类型的事情变得可靠。"
     },
     {
       "timestamp": "08:22",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "And I don't think people realize how much of an agency that AI practitioners have in setting their menu of desiderata into the model.",
-      "zh": "我认为人们没有意识到，AI 从业者在设定他们期望的目标清单并植入模型方面，有多大的主观能动性。"
+      "zh": "而且我认为人们没有意识到 AI 从业者在设定他们期望的目标清单并植入模型方面有多大的主观能动性。"
     },
     {
       "timestamp": "10:02",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "But I believe that data matters a lot more than compute.",
       "zh": "但我相信，数据比算力重要得多。"
     },
     {
       "timestamp": "10:09",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "And more important than data is you need the right task.",
       "zh": "而比数据更重要的是，你需要正确的任务。"
     },
     {
       "timestamp": "10:36",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "So it's actually a rare few that I think can actually make a new task, and that is the you get what you optimize for part of it.",
-      "zh": "所以我认为真正能创造一个新任务的人寥寥无几，这就是「你优化什么就得到什么」的那部分。"
+      "zh": "所以我认为真正能创造一个新任务的人其实寥寥无几，这就是「你优化什么就得到什么」的那部分。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Unknown",
+      "en": "And before RLHF existed, there was literally no human feedback data on the internet of the shape that we were looking for because we had to create it.",
+      "zh": "而在 RLHF 出现之前，互联网上确实根本不存在我们所要寻找的那种形态的人类反馈数据，因为我们不得不去创造它。"
+    },
+    {
+      "timestamp": "16:08",
+      "speaker": "Unknown",
+      "en": "My argument with sci-fi is especially related to LLMs, which I think tends to be what people mean by AI these days, because it seems to be like the greatest compression of intelligence while having like the least utility.",
+      "zh": "我关于科幻的论点，尤其是和 LLM 相关的，我觉得这往往就是如今人们说 AI 时的意思，因为它似乎是智能的最大压缩，同时却有着最少的实用性。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "And also I see self-driving as a ginormous engineering win, not necessarily an AI win.",
+      "zh": "同时我也把自动驾驶看作一项巨大的工程胜利，而不一定是 AI 胜利。"
     },
     {
       "timestamp": "17:33",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "My cynical loop here is make a demo, raise a seed or series A, say that you're going to make it reliable, never end up making that reliable, pivot into a human-in-the-loop version of this thing instead of actually automating the task.",
       "zh": "我觉得这里愤世嫉俗的循环是：做一个 demo，融一笔种子轮或 A 轮，说你会把它做可靠，最后却从来没有把它做可靠，然后转而做一个 human-in-the-loop 版本的东西，而不是真正把这个任务自动化。"
     },
     {
       "timestamp": "19:08",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "OpenAI has been showing customer service demos since 2020, I believe.",
       "zh": "OpenAI 从 2020 年开始就在展示客服 demo，我记得。"
     },
     {
+      "timestamp": "19:13",
+      "speaker": "Unknown",
+      "en": "That is now roughly six years ago, and customer service is still not solved.",
+      "zh": "那大约是六年前的事了，而客服仍然没有被解决。"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Unknown",
+      "en": "People keep trying and failing to automate drive-throughs and there's no good answer for that other than maybe drive-throughs are harder than unsolved math.",
+      "zh": "人们不断尝试自动化得来速却不断失败，对此没有什么好的解释，除非得来速比未解的数学难题还难。"
+    },
+    {
+      "timestamp": "21:16",
+      "speaker": "Unknown",
+      "en": "But ML is meant to be one part of a larger system, in my opinion, in general.",
+      "zh": "但在我看来，总体而言，ML 应该是一个更大系统的一部分。"
+    },
+    {
       "timestamp": "21:26",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "And in general, the way to get higher reliability is to zoom in.",
       "zh": "而且总体来说，获得更高可靠性的方法是放大聚焦。"
     },
     {
+      "timestamp": "21:58",
+      "speaker": "Unknown",
+      "en": "And that's very hard to do in a one model rules them all type setting.",
+      "zh": "而这在「一个模型统治一切」的场景里是非常难做到的。"
+    },
+    {
+      "timestamp": "22:27",
+      "speaker": "Unknown",
+      "en": "And I told them that is, I'm gonna avoid cursing, bull,",
+      "zh": "然后我告诉他们，那是——我要避免说脏话——胡扯。"
+    },
+    {
+      "timestamp": "22:35",
+      "speaker": "Unknown",
+      "en": "Um, because I gave the exact same pitch last year and you guys didn't get it.",
+      "zh": "因为我去年讲了一模一样的东西，你们当时没听懂。"
+    },
+    {
+      "timestamp": "23:09",
+      "speaker": "Unknown",
+      "en": "But the North Star has always been, what does AI look like if it's really, really optimized for being useful for software?",
+      "zh": "但北极星一直是：如果 AI 真正、真正地为「对软件有用」而优化，它会长什么样？"
+    },
+    {
       "timestamp": "25:15",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "They are literally the shape of usefulness.",
       "zh": "它们就是「有用性」的形态本身。"
     },
     {
       "timestamp": "25:37",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "I actually think if someone told us that we were a zero-shot general classifier for anything, that would be the greatest compliment I've ever been given for Jev.",
       "zh": "我其实觉得，如果有人告诉我们，我们做的是「针对任何东西的零样本通用分类器」，那会是 Jev 得到过的最高赞美。"
     },
     {
-      "timestamp": "28:56",
-      "speaker": "Diogo Almeida",
-      "en": "And if you use a logistic regression on top of embeddings or a small model, you get the intelligence of logistic regression on top of embeddings or a small model.",
-      "zh": "而如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。"
+      "timestamp": "26:49",
+      "speaker": "Unknown",
+      "en": "I think the first wave of people who got really excited were the kind of people who felt like this is how AI should have been shaped all along.",
+      "zh": "我认为第一波真正兴奋起来的人，是那种一直觉得 AI 本来就该长成这样子的人。"
+    },
+    {
+      "timestamp": "27:23",
+      "speaker": "Unknown",
+      "en": "And I believe that they're intellectually quite correct, but they've been hobbled by the models being optimized for strings instead of them being optimized for the thing that they want, which is programmatic use.",
+      "zh": "而我相信他们在思想上相当正确，但他们一直被拖累，因为模型是为字符串优化的，而不是为他们想要的东西优化的，也就是程序化的使用。"
+    },
+    {
+      "timestamp": "28:19",
+      "speaker": "Unknown",
+      "en": "And my team has been telling me to stop telling this to people because it makes it more likely we have competition.",
+      "zh": "而我的团队一直让我别再跟人讲这个，因为这会让我们更有可能遇到竞争。"
+    },
+    {
+      "timestamp": "28:32",
+      "speaker": "Unknown",
+      "en": "And the thing I really want to emphasize is that it is not about the interface.",
+      "zh": "我真正想强调的是，关键不在于接口。"
+    },
+    {
+      "timestamp": "28:41",
+      "speaker": "Unknown",
+      "en": "Speed and cost are bad things.",
+      "zh": "速度和成本是坏东西。"
+    },
+    {
+      "timestamp": "28:53",
+      "speaker": "Unknown",
+      "en": "I think people just don't get that they're paying for intelligence.",
+      "zh": "我觉得人们就是没意识到他们是在为智能付费。"
+    },
+    {
+      "timestamp": "29:12",
+      "speaker": "Unknown",
+      "en": "Of course you can get a gigantic jump in this thing if you're literally the only person doing that.",
+      "zh": "如果你真的是唯一一个在做这件事的人，当然你可以在这个东西上获得巨大的飞跃。"
+    },
+    {
+      "timestamp": "30:16",
+      "speaker": "Unknown",
+      "en": "This was literally day one into this project.",
+      "zh": "这字面意义上是这个项目第一天的想法。"
+    },
+    {
+      "timestamp": "30:21",
+      "speaker": "Unknown",
+      "en": "I thought this project would take a week.",
+      "zh": "我以为这个项目会花一周时间。"
+    },
+    {
+      "timestamp": "31:03",
+      "speaker": "Unknown",
+      "en": "I worry that if people play with bad versions of the model, they might actually get burned by the whole subgenre and say like, hey, like, like this kind of stuff is crap.",
+      "zh": "我担心的是，如果人们玩的是这个模型的糟糕版本，他们可能会被整个子类别坑到，然后说：嘿，这类东西就是垃圾。"
+    },
+    {
+      "timestamp": "31:19",
+      "speaker": "Unknown",
+      "en": "If the models were perfectly intelligent, which our models are not and no one else's are, then you could literally solve everything.",
+      "zh": "如果模型拥有完美的智能——我们的模型没有，别人的也没有——那你真的可以解决一切问题。"
+    },
+    {
+      "timestamp": "31:32",
+      "speaker": "Unknown",
+      "en": "So truly intelligence matters in what you can and can't automate and what kind of sci-fi you can build.",
+      "zh": "所以智能真正决定了你能自动化什么、不能自动化什么，以及你能构建出什么样的科幻。"
     },
     {
       "timestamp": "32:26",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "You know, like, I want to be a paragon of making AI so reliable that it's boring, like SQL.",
       "zh": "你知道吗，我想成为的标杆是，让 AI 可靠到无聊透顶，就像 SQL 那样。"
     },
     {
       "timestamp": "32:58",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "And also, I cannot emphasize enough, reliability is what people are paying for.",
       "zh": "而且，我再怎么强调都不为过，可靠性才是人们付费买的东西。"
     },
     {
+      "timestamp": "33:38",
+      "speaker": "Unknown",
+      "en": "On that note, if you want a fun, embarrassing thing about me, is at the time I had this idea and the aha hit me, I wrote a document in OpenAI entitled, titled, maybe not entitled, titled, we could have had AGI last year.",
+      "zh": "说到这个，如果你想听一个关于我的有趣又尴尬的事，就是当时我有了这个想法、那个 aha 时刻击中我的时候，我在 OpenAI 写了一份文档，题目是「我们本来去年就能拥有 AGI」。"
+    },
+    {
+      "timestamp": "43:39",
+      "speaker": "Unknown",
+      "en": "If we could pre-train better than the rest of the world with the budget we've had, then the rest of the world is totally cooked.",
+      "zh": "如果我们用我们这点预算能做出比全世界其他人都更好的预训练，那全世界其他人都彻底完蛋了。"
+    },
+    {
+      "timestamp": "43:57",
+      "speaker": "Unknown",
+      "en": "You know, exponentially more resources for debatably linear gains seems very sublinear.",
+      "zh": "你知道，指数级增长的资源换来有争议的线性收益，看起来是非常次线性的。"
+    },
+    {
+      "timestamp": "44:04",
+      "speaker": "Unknown",
+      "en": "It's kind of a bad deal, in my opinion, unless it's necessary.",
+      "zh": "在我看来这有点亏本买卖，除非是必需的。"
+    },
+    {
+      "timestamp": "46:29",
+      "speaker": "Unknown",
+      "en": "You've got a compressed version of the internet that some large effort created and you're using that.",
+      "zh": "你有了某个大规模努力创造出来的互联网压缩版本，你在使用它。"
+    },
+    {
+      "timestamp": "47:32",
+      "speaker": "Unknown",
+      "en": "So like when I talk about RLCD, I talk about like the general class of algorithms that optimize specifically for calibrated decisions because that is what's useful for software.",
+      "zh": "所以当我谈到 RLCD 时，我谈的是专门为经过校准的决策而优化的那一大类算法，因为这才是对软件有用的东西。"
+    },
+    {
+      "timestamp": "48:01",
+      "speaker": "Unknown",
+      "en": "Publishing RLHF was probably really good for the world.",
+      "zh": "发表 RLHF 对世界来说可能是件好事。"
+    },
+    {
+      "timestamp": "49:35",
+      "speaker": "Unknown",
+      "en": "No function calling API should exist without a logic bias for the function itself.",
+      "zh": "任何 function calling API 都不应该存在，而不带一个针对函数本身的逻辑偏置。"
+    },
+    {
       "timestamp": "50:16",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "So to me RLCD is about exposing the right interface to builders so that they can get the properties they want without just praying to the system message.",
       "zh": "所以对我来说，RLCD 就是把正确的接口暴露给构建者，让他们可以获得想要的属性，而不只是对着 system message 祈祷。"
     },
     {
+      "timestamp": "51:13",
+      "speaker": "Unknown",
+      "en": "Why wouldn't you have a threshold?",
+      "zh": "你为什么不设一个阈值？"
+    },
+    {
+      "timestamp": "51:41",
+      "speaker": "Unknown",
+      "en": "So I see RLCD as really exposing the most native to engineering controls.",
+      "zh": "所以我把 RLCD 视为真正暴露出对工程而言最原生的控制。"
+    },
+    {
+      "timestamp": "52:13",
+      "speaker": "Unknown",
+      "en": "There's a lot to the product of an ML API that most people don't realize because they mindlessly follow the gradient of things like MAUs, monthly active users.",
+      "zh": "一个 ML API 的产品本身有很多门道，大多数人没有意识到，因为他们无脑地追随 MAU、月活用户之类的东西的梯度。"
+    },
+    {
       "timestamp": "56:42",
-      "speaker": "Diogo Almeida",
+      "speaker": "Unknown",
       "en": "Actually, RLHF and RLVR destroy the calibration of the models immensely because in order to output strings well, you actually need extreme overconfidence.",
       "zh": "实际上，RLHF 和 RLVR 极大地破坏了模型的校准，因为要想把字符串输出好，你实际上需要极度过度自信。"
+    },
+    {
+      "timestamp": "58:19",
+      "speaker": "Unknown",
+      "en": "Because AI has like a lot, like, I feel like AI is still a diamond in the rough.",
+      "zh": "因为 AI 有很多很多，我感觉 AI 仍然是一块未经雕琢的钻石。"
+    },
+    {
+      "timestamp": "64:19",
+      "speaker": "Unknown",
+      "en": "Like by definition, a verifiable reward is a benchmarkable one.",
+      "zh": "按定义，可验证的奖励就是可基准化的。"
+    },
+    {
+      "timestamp": "64:31",
+      "speaker": "Unknown",
+      "en": "So it's very unsurprising.",
+      "zh": "所以这毫不奇怪。"
+    },
+    {
+      "timestamp": "64:34",
+      "speaker": "Unknown",
+      "en": "And I think a lot of the jaggedness has come from this.",
+      "zh": "我认为很多参差性就来自这里。"
+    },
+    {
+      "timestamp": "65:16",
+      "speaker": "Unknown",
+      "en": "RLHF was ridiculously easy to make in general because it was very, very good at writing human pleasing stuff because that is subjective.",
+      "zh": "RLHF 出奇地容易做到通用，因为它非常非常擅长写取悦人类的东西，因为那是主观的。"
+    },
+    {
+      "timestamp": "67:50",
+      "speaker": "Unknown",
+      "en": "So I'm making a claim about the general space of the task.",
+      "zh": "所以我是对任务的整个广义空间做出一个论断。"
+    },
+    {
+      "timestamp": "68:01",
+      "speaker": "Unknown",
+      "en": "It should be treated like an early ChatGPT.",
+      "zh": "应该把它当成早期的 ChatGPT 来看待。"
+    },
+    {
+      "timestamp": "68:50",
+      "speaker": "Unknown",
+      "en": "And I believe it's going to be a lifelong journey to add every single nine of reliability into the model.",
+      "zh": "而且我相信，为这个模型补齐可靠性的每一个 9，会是一段终身旅程。"
+    },
+    {
+      "timestamp": "68:57",
+      "speaker": "Unknown",
+      "en": "And every single nine will unlock all sorts of crazy use cases.",
+      "zh": "而每一个 9 都会解锁各种疯狂的使用场景。"
+    },
+    {
+      "timestamp": "69:10",
+      "speaker": "Unknown",
+      "en": "And it is not in the extreme plateau of diminishing returns like other models are.",
+      "zh": "它并不像其他模型那样处于收益递减的极端平台期。"
+    },
+    {
+      "timestamp": "70:48",
+      "speaker": "Unknown",
+      "en": "My guess is this is what happened when they finally put it in distribution because you get what you optimize for.",
+      "zh": "我的猜测是，当他们最终把它放进分发中时，就发生了这种情况，因为你优化什么就会得到什么。"
+    },
+    {
+      "timestamp": "71:15",
+      "speaker": "Unknown",
+      "en": "And I believe that is why agents started working.",
+      "zh": "而我相信这就是智能体开始能用的原因。"
+    },
+    {
+      "timestamp": "72:37",
+      "speaker": "Unknown",
+      "en": "The problem was the intelligence behind it.",
+      "zh": "问题在于它背后的智能。"
+    },
+    {
+      "timestamp": "74:03",
+      "speaker": "Unknown",
+      "en": "It's weird for the logic to be running on someone else's server if your system message has your whole business algorithm on it.",
+      "zh": "如果你的系统消息里有你整套业务算法，而逻辑却运行在别人的服务器上，这是很奇怪的。"
+    },
+    {
+      "timestamp": "74:25",
+      "speaker": "Unknown",
+      "en": "And I like to think of it as like one day intelligence will be like databases where you just call it when you need it, when you need intelligence within your code.",
+      "zh": "而我愿意这样想：总有一天智能会像数据库一样，当你在代码中需要智能时就直接调用它。"
+    },
+    {
+      "timestamp": "75:55",
+      "speaker": "Unknown",
+      "en": "And actually I just reject the notion of harness entirely.",
+      "zh": "实际上我完全拒绝 harness 这个概念。"
+    },
+    {
+      "timestamp": "80:08",
+      "speaker": "Unknown",
+      "en": "But yeah, I think that there's so many cool things that can happen if you just assume that you don't need a append-only KVCache.",
+      "zh": "不过是的，我认为，如果你只是假设你不需要一个只追加的 KVCache，那会有非常多很酷的事情可以发生。"
+    },
+    {
+      "timestamp": "80:25",
+      "speaker": "Unknown",
+      "en": "How would you design a coding agent if KV caching didn't exist?",
+      "zh": "如果 KV 缓存不存在，你会怎样设计一个编码智能体？"
+    },
+    {
+      "timestamp": "80:48",
+      "speaker": "Unknown",
+      "en": "The KVCache is a little bit similar to having global variables everywhere, but what if you could be smart about your state?",
+      "zh": "KVCache 有点像到处使用全局变量，但如果你能对自己的状态聪明一些呢？"
+    },
+    {
+      "timestamp": "81:24",
+      "speaker": "Unknown",
+      "en": "Another gigantic use case is actually tool calls.",
+      "zh": "另一个巨大的用例其实是工具调用。"
+    },
+    {
+      "timestamp": "82:37",
+      "speaker": "Unknown",
+      "en": "That slowly add more and more logic because it's very hard to add additional harness logic into like the Claude codes and codexes because their core loop is just a while loop.",
+      "zh": "慢慢地加入越来越多的逻辑，因为要在像 Claude Codes 和 Codexes 这样的东西里添加额外的 harness 逻辑非常困难，因为它们的核心循环就是一个 while 循环。"
+    },
+    {
+      "timestamp": "83:04",
+      "speaker": "Unknown",
+      "en": "Until they switch over into being a lot more software and a lot less magic while loop.",
+      "zh": "直到它们切换成更多的软件、更少的魔法 while loop。"
+    },
+    {
+      "timestamp": "86:24",
+      "speaker": "Unknown",
+      "en": "And it is a feature to be on the rails, you know, like you don't want to go an amusement park that doesn't have its rails, or at least you can't do the most fun stuff without like the rails and the seatbelts and all of that, right?",
+      "zh": "而且待在轨道上是一个特性，你知道的，你不会想去一个没有轨道的游乐园，或者至少没有轨道、安全带和所有那些东西你就玩不了最好玩的项目，对吧？"
+    },
+    {
+      "timestamp": "88:44",
+      "speaker": "Unknown",
+      "en": "Oh man, like I'm so excited to tell people and not to tell people to show people why we call them system one models.",
+      "zh": "哦天哪，我太兴奋了，不只是告诉大家，而是展示给大家，为什么我们把它们叫作 system one 模型。"
     }
   ],
   "voice_script": "今天这一集，主角是 Diogo Almeida。这个名字你可能不熟，但他的背景很硬：TypeSafe 的联合创始人兼 CEO,之前在 OpenAI 待了四年半，是 InstructGPT 和 RLHF 背后团队的成员——RLHF 就是用人类反馈强化学习、让语言模型学会听话的那套方法，今天所有大模型都在用。\n\n而这一集聊的，是三周前刚出隐身状态、引爆 AI 圈的小模型 Jev。有人耸耸肩说，这不就是个分类器吗？也有人把它当成让 AI 自动化真正落地的关键一步。Diogo 的立场很直接，他的电梯演讲就是一句话：那些该死的自动化，到底都在哪儿？\n\n这个问题从哪来的？你想想，今天的 AI 智慧得令人难以置信，能解数学千禧年大奖难题；可让它更换一张信用卡、做会计、跑客服，却又没用得令人难以置信。为什么这么割裂？\n\nDiogo 的答案一句话就能说完：你为什么而优化，就得到什么——这对所有机器学习的事情都成立，对世界上所有的事情大概都成立。今天的所有大语言模型，全都是为「字符串」优化的，也就是生成供人阅读、或者供其他模型读的文本。但会计、数据录入、保险承保这些东西，是供计算机消费的——特定的字段、表单、离散的决策。为字符串优化和为离散决策优化，是非常不同的两件事。Diogo 相信，这就是那个差距最大的解释。\n\n主持人当时反问：机器学习本质上就是优化，天天讲代价函数，怎么会是搞 ML 的人最不懂这个？这个问题把对话引向了更深的层面，也就是对那位 Sutton 老先生的「苦涩教训」的修正。苦涩教训的大致意思是，算力和扩展比算法更重要。Diogo 的看法不一样：数据比算力重要得多，因为算力得有数据可施。而比数据更重要的是，你需要正确的任务。RLHF 就是例子——互联网上根本不存在「对两个模型补全的偏好标注」这种形态的数据，是当年团队的天才洞察硬造出了这个任务。所以说，真正能创造一个新任务的人寥寥无几。\n\n那顺着这个逻辑往下推，就会碰到一个大家最关心的问题：大模型为什么时灵时不灵？Diogo 做了个现场测试：你见过 ChatGPT 无缘无故地辱骂你吗？没有。所以模型在某些事上，其实是超级超级可靠的。由此得出一个很重要的论断：锯齿状特性并不是大模型的内在属性，它来自优化过程——你朝一个方向优化得越猛，就获得那类可靠性、失去别的。这背后还有个不对称性：模型不该退款时给了退款，从准确率上看和把脸在键盘上乱按一样，都是零分；但你永远不会看到乱按，因为惩罚越容易施加的事，推理时就越不会发生。所以后训练可以让某些事情变得可靠，而 AI 从业者在把期望目标植入模型这件事上，拥有的主观能动性大得超出人们的想象。\n\n好，理解了这一点，Jev 的故事就好懂了。面对「Jev 不过是逻辑回归加分类器」的嘲讽，Diogo 的回应是：分类器没有任何问题，它们就是「有用性」的形态本身，Meta 和 Google 靠的就是分类器。真正被所有人漏掉的一点是——如果你在嵌入之上用逻辑回归或一个小模型，你得到的就是嵌入之上的逻辑回归或小模型的那种智能。而 Jev 的核心其实有一个大语言模型，是互联网的压缩版，这才是零样本能力的来源；他们做的事，是围绕「校准决策」这个任务重新训练它。Diogo 自认起手时是世界顶尖的后训练水平，以为一周搞定，结果隐身状态做了两年。\n\n而且 Jev 是有意取舍的：它在聊天上刻意差得多，可预测到不用跑测试集就敢写查询。Diogo 想要的标杆是，让 AI 可靠到无聊透顶，就像 SQL。可靠性才是人们付费买的东西。\n\n落到开发者的层面，这引出了 RLCD——为校准决策优化的算法，区别于为人类偏好优化的 RLHF。拿客服系统判断「是否转人工」举例：沃尔玛和好市多的策略天差地别，但今天的 API 只能让你在提示词里写「请给退款」或「别给退款」，而不是把可调阈值交给程序员。RLCD 要做的，就是把正确的接口暴露给构建者，让他们拿到想要的属性，而不只是对着 system message 祈祷。\n\n最后还有一场关于 harness 的争论——就是包着模型跑的那些代码框架，比如 Claude Code。Diogo 的判断是：框架本身点石不成金，Claude Code 发布后几个月没人用，后来才出现巨大跃迁，猜测是 Anthropic 把智能体轨迹放进了训练分布——你优化什么就得到什么。但形态的强大程度，只取决于背后的智能。未来会是混合方案：智能体逐步挂接更多真正的软件逻辑，直到变成更多的软件、更少的魔法 while 循环。\n\n回到开头那个问题，自动化到底在哪儿？这一集给出的答案是：它不在更聪明的新模型里，而在把优化目标换成「可靠的离散决策」这件事里。你为什么而优化，就得到什么。"

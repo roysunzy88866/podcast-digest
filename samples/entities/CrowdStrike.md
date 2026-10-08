@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|《90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路》]]**(04:08起):嘉宾曾任职的公司，从 CRC 到 IPO 之后，他在那里见证了超高速增长。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(40:47起):本集用 CrowdStrike 作为例子,说明更多软件和智能体创造新的安全与监控需求,网络安全是扛住分化的公开市场软件品类
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(02:49起):本集提到公司安全团队因此事发来的 CrowdStrike 报告给嘉宾打了 10 分里的 9 分,因为套取凭证是已知攻击手法。
-- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]]**(15:13起):本集说 CrowdStrike 著名地把品类从 AV 重新定义为 EDR，并且 Armiden 正在与它合作开发第一代自主防御产品。
+- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]]**(15:13起):本集说 CrowdStrike 著名地把品类从 AV 重新定义为 EDR，并且 Armiden 正在与它合作开发第一代自主防御产品。
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|《90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司(提及)
-- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]] — 作为被讨论公司(提及)
+- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

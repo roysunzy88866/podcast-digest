@@ -1,5 +1,5 @@
 ---
-title: 连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战
+title: 20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人
 podcast: The Product Market Fit Show
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "62:16"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead.jpg"
-description: Baselayer CEO Jonathan Awad 讲述二次创业、靠欺诈数据联盟撬动大金融机构，并拆解冷启动外联、赢得企业买家信任的具体打法。
+description: Baselayer 联合创始人兼 CEO Jonathan Awad 讲述如何用“疯狂给出去”的方法拿下连续20笔订单，并在硅谷银行倒闭当周完成融资。
 host: "[[Jonathan Awad]]"
 companies: ["[[Baselayer]]", "[[SVB]]", "[[FIS]]", "[[YC]]", "[[Brex]]"]
 concepts: ["[[产品市场契合]]", "[[欺诈数据联盟]]", "[[SLA]]", "[[客户成功]]", "[[互惠]]", "[[漏斗顶端]]", "[[swag selling]]"]
@@ -17,12 +17,12 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead#post","headline":"连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead","description":"Baselayer CEO Jonathan Awad 讲述二次创业、靠欺诈数据联盟撬动大金融机构，并拆解冷启动外联、赢得企业买家信任的具体打法。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead.jpg","about":[{"@type":"Person","name":"Jonathan Awad"},{"@type":"Organization","name":"Baselayer"},{"@type":"Organization","name":"SVB"},{"@type":"Organization","name":"FIS"},{"@type":"Organization","name":"YC"},{"@type":"Organization","name":"Brex"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"欺诈数据联盟 (fraud consortium)"},{"@type":"Thing","name":"SLA"},{"@type":"Thing","name":"客户成功 (customer success)"},{"@type":"Thing","name":"互惠 (reciprocity)"},{"@type":"Thing","name":"漏斗顶端 (top of funnel)"},{"@type":"Thing","name":"swag selling"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战","item":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead#post","headline":"20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead","description":"Baselayer 联合创始人兼 CEO Jonathan Awad 讲述如何用“疯狂给出去”的方法拿下连续20笔订单，并在硅谷银行倒闭当周完成融资。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead.jpg","about":[{"@type":"Person","name":"Jonathan Awad"},{"@type":"Organization","name":"Baselayer"},{"@type":"Organization","name":"SVB"},{"@type":"Organization","name":"FIS"},{"@type":"Organization","name":"YC"},{"@type":"Organization","name":"Brex"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"欺诈数据联盟 (fraud consortium)"},{"@type":"Thing","name":"SLA"},{"@type":"Thing","name":"客户成功 (customer success)"},{"@type":"Thing","name":"互惠 (reciprocity)"},{"@type":"Thing","name":"漏斗顶端 (top of funnel)"},{"@type":"Thing","name":"swag selling"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人","item":"https://talk.solomind.cc/2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战
+# 20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人
 
 <div class="pd-byl"><b>Jonathan Awad</b> · Baselayer CEO · 2026-10-06</div>
 
@@ -37,170 +37,161 @@ jsonLd: |
 >
 > **概念** [[产品市场契合]] · [[欺诈数据联盟]] · [[SLA]] · [[客户成功]] · [[互惠]] · [[漏斗顶端]] · [[swag selling]]
 
-这一集聊的是 B2B 创业公司怎么从零拿下大企业客户。
+金融科技公司 [[Baselayer|Baselayer]] 的联合创始人 [[Jonathan Awad|Jonathan Awad]] 创业约3年，刚完成2000万美元的 A 轮融资，团队只有30人。
 
-主角 [[Jonathan Awad|Jonathan Awad]] 是 [[Baselayer|Baselayer]] 的联合创始人兼 CEO，公司刚融了 2000 万美元 A 轮——而这家公司 2024 年 4 月才上线第一个产品，团队只有 30 个人，却做到了八位数的收入。
+他的方法说出来简单到近乎笨拙：拼命认识人、拼命给人好处，然后等回报自己回来。以下是这次访谈里最值得听的部分。
 
-他最反直觉的主张是：早期客户买的根本不是你的产品，买的是你这个人；
+## 产品市场契合的那一刻：连赢20单
 
-想签下大公司，先别急着讲产品，先想办法对买家「有价值」。
+Jonathan 判断产品成立的时刻很具体：他和团队翻看客户管理系统时发现，连续赢了 20 单、一单没输，这大概是在最初的 20、30 单之后。
 
-## PMF 的那一刻：连续 20 单，一单没丢
+早期的一些单子可能没那么可复制，但之后就是一单接一单地拿下，不管对手是谁、场景怎么变，全都赢了。
 
-「我认为在证据量没到压倒性之前，你不能正当地说自己找到了 [[产品市场契合|product market fit]]。」
+而且客户都不小——从五位数做到六位数，前 50 个客户里就有一笔 7 位数的大单，来自全球上市金融科技巨头、美国乃至世界最大的 fintech 之一 [[FIS|FIS]]。
 
-Jonathan 说，他们大概就在一年之内——次年初——达到了 product market fit，而且他不觉得在那之前能正当地下这个结论。
+他的另一个硬指标：公司至今只流失过一个客户。
 
-这种速度也体现在他们对客户的响应上：
+## 客户凭什么信你？20分钟必须回复
 
-他给自己定了内部 [[SLA|SLA]]，必须在 20 分钟内通过 Slack 和邮件回复客户，而他本人常常冲着一两分钟去。
+Jonathan 有条内部规矩：客户在 Slack 和邮件上的问题，必须在20分钟内回应。这来自他做投资银行的经历——投行里两分钟回复是常态。
 
-最初那批真正的前几个客户对他们超级耐心、给了大量反馈，也看到了他们动作有多快。<button class="pd-ts" data-t="07:15" data-who="Jonathan Awad" data-en="Like I love to, it's just delight. It's this, whoa, did the CEO, did the CTO, did the engineer, one of the engineers just respond to me in a few minutes, but the 20 minutes is super doable and it's all about the act. I saw this on Twitter yesterday, somebody brought it up. Someone from A16Z brought it up of like, act. Are they saying acknowledged, acknowledged, or act like in disgust? But the act is a, is a classic engineering thing. Like act, acknowledge, I hear you, I'll get back to you. And there's just so much delight there. And so in our first few customers, it was all about just get back to them so fast. Yes, yes, I hear you. We see it. We're going to work on it. And then as fast as you can turn around, as, possible. And I think that's why we got so much good feedback in the beginning from all those customers. And then we were able to hit this, you know, product market fit probably like just within the year, like early the following year. I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence. You know, some people get there even faster," aria-label="回原文"></button>
+他的逻辑是，**客户满意度等于现实减去预期**。哪怕还没解决问题，一句“收到了，马上处理”就足够让人安心。
 
-他把这归功于两件事：一是 CTO Tim 和工程团队把产品做得足够耐用、企业级可用；
+而且回得越快，能说的话越少、得到的宽容越多：一分钟后说“我们在处理”完全成立，拖一天再说这话就招人烦了 <button class="pd-ts" data-t="09:45" data-who="Jonathan Awad" data-en="hey, we're on it, we'll get back to you because it's like, okay, you just got it. If you wait a day, now you're kind of stuck because you kind of have to resolve it. You can't get back a day later and be like, we'll be on it. It's like, what do you mean? You just saw it? What's wrong with you?" aria-label="回原文"></button>。
 
-二是他定了一条「内部 SLA——客户在 Slack 和邮件里的消息，20 分钟内必须回复」，他自己冲着一两分钟去。
+## 他是怎么起步的？先辞职，再想做什么
 
-这来自他的投行背景：「在投行这太正常了。SLA 20 分钟，SLA 两分钟。怎么，你在睡觉？谁允许你睡觉了？」<button class="pd-ts" data-t="09:55" data-who="Jonathan Awad" data-en="It's just so human. And I love that. You're so right, by the way. The faster you respond to an email, the faster you respond to a Slack, the less it can say and the less you can do in that moment and the more you get away with. And so I love that SLA, like onboarding at Baselayer employees and I'm like, hey, look, we can get into the product. We can get into the industry. We get into all that stuff. Here's how we operate because this is excellent and this is what excellence is. And I've seen it before. We have investment banking background. Investment banking, it's so normal. SLA 20 minutes. SLA two minutes. Yeah, right. What else are you doing? That's the attitude. What are you, sleeping? Yeah, exactly. Who said you were allowed to sleep? Like literally, that was the energy. No matter what time of night, no matter if it's on the weekend. Weekend? What do you mean? It's just Saturday. And so I brought that energy plus, you know, the tech side of things, like a little bit more fun side of things. I'm not sure of being like this militant investment banking thing to the company. It's an expression though of, it was so good how reliable they were, how consistent they were, how on top of things they were. You knew you were going to get an answer. I loved that. And I was, I admired it so much. And it was just so excellent the way to operate that I totally agree of like, you can be like, act, we'll get back to you. And then you have like way more time and way more grace. Totally agree. So let's go back to the beginning." aria-label="回原文"></button> 主持人 Pablo 补充了一个观点：
+Jonathan 在金融行业做了15年，先后待过 JP Morgan、UBS、Lazard，也创过业——那家公司把4栋楼“上市”成了可交易的证券，融资约3000万美元，后来在新冠冲击商业地产后卖掉。
 
-[[客户成功|客户成功]]是所有增长手段里最在你掌控之内的——每个人都能做到 20 分钟回复，但它对留存和转介绍的影响是巨大的。
+2021年前后，他在一家身份与反欺诈公司做销售，8个月签了约95单，接触了几百个客户，攒下大量人脉和需求。
 
-Jonathan 的公式是：
+他想把客户提的想法在公司内部推动，被反复拒绝后，他决定自己干，2023年初辞职，那时候连做什么都还没定。
 
-期望与现实之间的差值就是「幸福差值」，而且「你回复得越快，你能蒙混过关的就越多」——一小时内回一句「收到了，我们在处理」就够了，隔一天再这么说就没人买账。<button class="pd-ts" data-t="09:45" data-who="Jonathan Awad" data-en="hey, we're on it, we'll get back to you because it's like, okay, you just got it. If you wait a day, now you're kind of stuck because you kind of have to resolve it. You can't get back a day later and be like, we'll be on it. It's like, what do you mean? You just saw it? What's wrong with you?" aria-label="回原文"></button>
+他的联合创始人、CTO Tim 的加入也颇为戏剧性：两人经共同朋友介绍，在出租车上聊创业聊得投缘。
 
-## 起点：十五年金融老兵，二次创业
+Jonathan 追了一年后打电话说“我把工作辞了，你也辞吧”，Tim 当时正陪父母在开曼群岛度假，他妈妈说“绝对不行，你根本不了解这个人”。
 
-Jonathan 在金融服务领域干了 15 年：
+Tim 的妥协条件是：你至少融到300万美元，我就加入 <button class="pd-ts" data-t="21:12" data-who="Jonathan Awad" data-en="Because you don't have at that point, I mean, you're, you have like, you know, you were a founder, you've got pedigree for sure, but it's not like super clear, easy. I mean, I'm curious to hear actually how you raise. It's not like, plus 22 is a funny time, man. 22 is, was not, uh, you're remembering correctly. Not a great time, man. Second half of 22 is deadly. No, it was horrible by the way." aria-label="回原文"></button>。
 
-JP Morgan、UBS、Lazard 做并购，然后第一次创业做房地产碎片化交易——给大楼「IPO」，做成四栋、融了约 3000 万美元，还持牌做成了全世界仅 12 家之一的另类交易系统（ATS，类似交易所但监管口径不同的交易平台）。
+## 融资撞上硅谷银行倒闭
 
-后来 COVID 摧毁商业地产，公司在谈 B 轮时把公司卖了。他是首席投资官而非 CEO，于是成了「首次当 CEO 的二次创业者」。
+2022年市场已经很差，他们2023年才开始融资：安排了75家机构，把会议提前一个月排好、按周分组。结果第一周的星期四，硅谷银行崩了。
 
-> 【背景】CEO 和其他高管的区别：Jonathan 引用 Elon Musk 的说法——CEO 的工作就是处理所有问题，事情顺利的部分交给优秀的人做得更好就行。他和 Tim 把公司一刀切两半：工程、产品、设计全归 Tim（Jonathan 连 GitHub 权限都没有），其余一切归他。
+那一夜所有通过硅谷银行的转账中断，紧接着 First Republic 也出事，第二、三周的会被取消了40%。
 
-2021 年他在一家身份与反欺诈公司做销售，八个月签了 95 单、一年经手四五百单，客户反复问「能不能做这个」，他写了 PRD 提回公司却被驳回。
+Jonathan 在那个周六经历了人生第一次恐慌发作——他刚把自己全部人脉都动员起来，却撞上二十年一遇的金融危机。
 
-2023 年初他裸辞——当时连点子都没有——追着 Tim 说干就干。Tim 的条件是：你至少融到 300 万美元我就加入。
+但总有投资人敢下注。Anamitra（A4 Capital）周五见面、周日表态：“我们领投这一轮，不管怎样都能解决。”
 
-## 点子：欺诈数据联盟
+## 产品是反欺诈联盟，冷启动怎么破？
 
-他们打给了七八十个金融圈朋友问「你们最需要什么」，共同答案是同一件「不可能的事」：欺诈联盟（fraud consortium）。
+Baselayer 的核心想法来自客户的“刁难”：做一个反欺诈联盟。
 
-逻辑很简单——你去 [[Brex|Brex]] 申请账户因欺诈被封，Brex 不会告诉 Ramp，你就换个地方继续。
+欺诈者在 [[Brex|Brex]] 被封号，转身就去 Ramp 继续行骗，因为各家机构互不通气，向政府提交的可疑活动报告（SARS）去年有500万份，只有4%被实际处理 <button class="pd-ts" data-t="24:14" data-who="Jonathan Awad" data-en="Yeah. And Brex doesn't report it to the, no offense to Brex, they're not, they're not reporting to the government. And if the government, even if when they do get a report, it's called like a SARS, a suspicious activity report. There was 5 million SARS filed last year. Guess how many percent wise were enforced of the 5 million? Just pick a percent. 20%. I mean," aria-label="回原文"></button>。
 
-每家机构手里都有欺诈名单（不含个人可识别信息，法律上可以共享），但彼此绝不互通。
+把上百家银行、放贷机构、支付公司的欺诈数据（不含个人隐私信息）汇总起来给机器学习建模，Tim 的判断是：
 
-Baselayer 的想法是像给 AI 公司供标注数据那样，把上百家机构的欺诈数据汇总、给企业打标签，每一家都因此受益。
+**给他独有的标注数据，就能做出市场上最好的风控模型**。
 
-Tim 承诺：给我专有的标注数据，我们就做出市场上最好的风险模型。
+==难题是谁愿意第一个交出数据==。解法有三步：
 
-关于别人「为什么要第一个交数据」，他的解法是：**凑一批人同时上线，就没有谁是第一个**。
+第一，他做了几套 Figma 假界面，当成真产品演示给客户听反馈。
 
-他们一次上线了五个产品、约 15 家客户，没人需要当出头鸟。
+第二，同时拉上一群人，“没有人是第一个”——最后一次性带着5个产品、约15个客户一起上线 <button class="pd-ts" data-t="55:33" data-who="Jonathan Awad" data-en="Yeah. So why would they share their data first is a really good question. And a lot of it was gathering the interest from a large group where no one is actually first. And then along the way of the conversation, you're like, well, what else would you like as well once you do share this? What score? What calculation? What other data? And then we picked up so many other products that by the time we really like launched, we launched with a compound complex product suite. We launched with five products at once. And we launched with like, call it 15 customers at once, basically, right? And that's what it really worked. You just have to, you know, strategy is so difficult for most people because we don't actually know what it is. It's a word. It means nothing. And that's a really fun part about it. The fact that most people don't know what the word strategy means. They don't actually have a strategy. One of my favorite books of all time is my strategy. I think there's like one really excellent book. It's Good Strategy, Bad Strategy by Richard Rommel. It's the best book any founder listening to this. Listen to that book. You listen to that book and like, because I did the audio. You can read it, but the audio books are, I think, better. 20 minutes in, you're like, I don't have a strategy at all. Dang it. Like, it's just one of those moments that just punches you in the face of like, because it just, it starts with, this is all of the bad ways to think about strategy. This is if you don't have a strategy. This is what you think. This is what you do. And it gives all these examples of all the times there was no strategy. Bad, bad, bad, bad, bad. And then you're like, wait, it sounded like me. And then you just, boom, punch in the face. And if you get through the whole thing, it then tells you how to do a good strategy, obviously. And now it's even better. You could put it into Clawed. That's what we did at a strategy offsite. Throw it in the Clawed and do a whole like, offsite with this exercise. And it was awesome. We did it multiple, we've done it multiple times. Now, like this most recent one in May with Clawed, basically. And I have this really good guide if anyone wants it, you can hit me up. And it worked really well. So in the beginning of like, we talk, talk, talk, talk, and we're like, eh, no one wants to go first. Let's get like 15, 20 of you at once. And then what other products do you want at the same time? Because you don't want to implement just for like, this thing. Because it would be kind of empty of a thing. It's only 15 or 20 institutions. It's not as valuable, but like, what else do you want? It was a moment to get all these other pieces of information." aria-label="回原文"></button>。
 
-## 融资插曲：SVB 崩盘那一周
+第三，他承认对客户要“适度修饰事实”：“如果你不愿意稍微润色一下真相，你永远不会成功。”
 
-他按教科书流程提前一个月排好了 75 家基金的会议，按周分段。
+暗示在跟 Stripe 之类的大公司谈，没人真去核实。
 
-结果第一周周四，硅谷银行（[[SVB|SVB]]）崩了——所有风投和被投公司的钱都存在那里。第二、三周 40% 的会议被取消。
+但他划了条红线：对投资人绝对不能这么干，投资人圈子互通消息，报名字拉虎皮会立刻反噬 <button class="pd-ts" data-t="58:05" data-who="Jonathan Awad" data-en="Well, I think on the customer side, like you obviously have to know where the line is, but the way I think about it is if you're selling to a big company, there's so many layers behind the person you're talking to that you have to somehow enable them to go win for you. And if you're just like, hey, we're like, we just were born yesterday and we have zero customers, like, you know, then now they have to relay that information. They can't, because they'm keeping themselves, they're doing something wrong now. So you have to give them enough where they, you know, when they get asked that question, hey, like, are they talking to anybody else? They can be like, yeah, well, they told me they were talking to a lot of people. I haven't looked at it, but they told," aria-label="回原文"></button>。
 
-「我想，我是不是刚用光了我整个人脉网络，还告诉了所有人我在融资？」<button class="pd-ts" data-t="28:50" data-who="Jonathan Awad" data-en="dude. It's just deadly. Untouchable. Crazy, man. It was crazy. And shout out to Anamitra. I'll never forget. Like, met him on Friday, talked to him on Saturday, talked to him on Sunday, Wednesday. He's like, no, we're leading this round. I don't care. We'll figure it out. And I was like, I'm going to be honest. I barely ever tell this story. So we'll record it. My first panic attack ever was that Saturday. My ever. I've never, I'm not an anxious person. I'm not a nervous person. I am exactly how I'm presenting on this call. Basically, like this podcast. I was like, did I just use my whole network? Unlike the single, one of the only financial crises, like, in the last 20 years, like this, oh, wait, and there's now," aria-label="回原文"></button> 那个周六他经历了人生第一次恐慌发作。
+## 拓客的笨功夫：一天几百条消息
 
-投资人 Anamitra 自己的钱还困在 SVB 和第一共和银行里，仍然决定领投。「不，我们领投这一轮。我不在乎。我们会想办法的。」
+Jonathan 不太依赖冷邮件，他的做法是回到所有人脉——包括只有一面之缘、隔了两层关系的人。
 
-三周推进下来，陆续拿到了一些 commit。
+核心原则是：不能一上来就要东西，得先叙旧、先提供价值。人类天生讲[[互惠|互惠]]。
 
-> 【背景】按闸门要求，原稿中「约 1500 万美元意向、取了其中 400 万」为编造数字已移除；原文只提到拿到了一些 commit、Anamitra 决定领投。
+他随身备着三四张行业市场地图，随时复制粘贴发给对方，对方往往觉得特别有用。
 
-## 怎么搞定数据共享？先疯狂外联，再「给」
+这个过程有漫长的“加载期”，所以今天就得开始发第一条消息——时钟总要从某刻开始走 <button class="pd-ts" data-t="32:33" data-who="Jonathan Awad" data-en="discourse on this, but not a lot of like the reality behind the scenes. The reality behind the scenes is that we made a bunch of Figma mock-up demos that we pretended were real. And I would play people through that and get their takes. And I hit up genuinely every single possible person that I had ever met in years of financial services, who I thought was either at a company who could share data or was one to two degrees separation away from someone who could share some data. And it was so many people. And I think people just totally underestimate what I mean by that. Like I'm talking all day. You're LinkedIn-ing, you're texting. Like I'm sending hundreds and hundreds of messages, hundreds and hundreds a day. I think the scale of it is just super underestimated. And the only way to really do that, and I don't know if this is too much information, this is what worked for me, is I, it was so much caffeine. It was so much Adderall. I worked so much. Like I definitely worked 100 hour weeks. I think people say 100 hour weeks, 120 hour weeks. And like a lot of it, when you actually like watch them, like imagine like a movie or a video, they're kind of on their phone, like scrolling a bunch of time. And like, they're kind of watching on Twitter, they're like whatever. They're doing a bunch of nothing. I was like urgently, frantically messaging people. Because I knew something that was very simple. You can't just ask for something. That's the problem. You have to catch up with them. And be useful to them. And be valuable to them. And then, humans are so reciprocal in nature, then they'll just want to help you. But the reason that you have to start frantically, urgently doing that today, is because there's a load period though. Like that's like months of time. Then you have to start today. The clock will have to start at some point. First touch, second touch, third touch, hang out, coffee, invite to an event, introduce them to somebody, hand them some sort of a resource. What I love them back in the day, that's really handy actually, is market maps. Either you make a market map, or you go and grab somebody's market map. I had three or four market maps, just at the ready, copy paste message, and I'd send it to people. And they'd be like, wow, this is super useful actually. So just do like a ton of great research. There's been a bunch of great tweets, a bunch of great like LinkedIn posts, that people do, that's just really great resources. And I always just leave people with that, if not introduce them to someone. But the amount of outreach I did. Well," aria-label="回原文"></button>。
 
-要撬动上百家机构，Jonathan 的做法就是把外联量拉到夸张的程度：「我一天发出成百上千条消息……人们完全低估了这个规模。」
+代价是恐怖的工作量：他翻出自己的日历，光开会就有每周40到60小时，还不算准备和跟进。
 
-<button class="pd-ts" data-t="30:39" data-who="Jonathan Awad" data-en="discourse on this, but not a lot of like the reality behind the scenes. The reality behind the scenes is that we made a bunch of Figma mock-up demos that we pretended were real. And I would play people through that and get their takes. And I hit up genuinely every single possible person that I had ever met in years of financial services, who I thought was either at a company who could share data or was one to two degrees separation away from someone who could share some data. And it was so many people. And I think people just totally underestimate what I mean by that. Like I'm talking all day. You're LinkedIn-ing, you're texting. Like I'm sending hundreds and hundreds of messages, hundreds and hundreds a day. I think the scale of it is just super underestimated. And the only way to really do that, and I don't know if this is too much information, this is what worked for me, is I, it was so much caffeine. It was so much Adderall. I worked so much. Like I definitely worked 100 hour weeks. I think people say 100 hour weeks, 120 hour weeks. And like a lot of it, when you actually like watch them, like imagine like a movie or a video, they're kind of on their phone, like scrolling a bunch of time. And like, they're kind of watching on Twitter, they're like whatever. They're doing a bunch of nothing. I was like urgently, frantically messaging people. Because I knew something that was very simple. You can't just ask for something. That's the problem. You have to catch up with them. And be useful to them. And be valuable to them. And then, humans are so reciprocal in nature, then they'll just want to help you. But the reason that you have to start frantically, urgently doing that today, is because there's a load period though. Like that's like months of time. Then you have to start today. The clock will have to start at some point. First touch, second touch, third touch, hang out, coffee, invite to an event, introduce them to somebody, hand them some sort of a resource. What I love them back in the day, that's really handy actually, is market maps. Either you make a market map, or you go and grab somebody's market map. I had three or four market maps, just at the ready, copy paste message, and I'd send it to people. And they'd be like, wow, this is super useful actually. So just do like a ton of great research. There's been a bunch of great tweets, a bunch of great like LinkedIn posts, that people do, that's just really great resources. And I always just leave people with that, if not introduce them to someone. But the amount of outreach I did. Well," aria-label="回原文"></button> 他的原则：**你不能开口就要东西**——你得先跟人叙旧、对他有用，人类天生[[互惠|互惠]]，之后自然会帮你。具体做法包括：
+他自称一周工作100小时，靠咖啡因和药物撑着，睡6小时，健身5天，其他一切都砍掉了。
 
-随身备着三四张市场地图（行业玩家全景图）随时发人、办活动把买家和 VC、高盛合伙人、LVMH 高管这类「认识一下很酷的人」聚在一起、帮人找工作、甚至介绍对象。
+他的原话是：如果你没熬过通宵，说明你的盘子还不够满。
 
-**他最得意的 hack（做过约 40 次）**：和买家聊深之后问「你有没有想过当创始人？」
+## 最狠的一招：把买家介绍给投资人
 
-大部分企业买家都有这个心结，他就把认识的 VC 引荐给他们——「每当他们说愿意，我们 100% 会合作。从来没有失败过。」
+卖大企业产品有个死结：买家买对了不一定升职，买错了可能被开除，凭什么赌你一个初创公司？
 
-<button class="pd-ts" data-t="46:45" data-who="Jonathan Awad" data-en="well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. And I'm going to duck and dive and cover. I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible, and I'm valuable to them, and I give them something outside of just our product, they'll give us a chance. And then you kind of look around here. What do I have? What can I give you? And I think humans are all the same. It's money powerful. That's kind of it. You can't just hand people money, but you can give things that are super valuable. Your network is super valuable. Your connections are super powerful. And so I saw this thing where I was like, well, a lot of people really love talking to me. And it was a little different when I was an AE, you know, a salesperson versus founder. They seem like they just like there's something fun about talking to a founder, something fun about, you know, going to these events and meeting VCs and, you know, feeling like, ooh, maybe I could be a founder too. Like maybe I could see myself in Jonathan C. And I kind of hit. That's why the great thing about doing the approach of just meeting as many people as possible is you could do events, bring a lot of people together, and then you could bring the VC. Bring the partner at Goldman who isn't a buyer for you necessarily, but it's just like a cool person to know. You could bring the person who's an exec at like LVMH. I know a lot of people in fashion and modeling randomly, right? Like you could bring all these cool people together. And that's really interesting. But a hack I did, and I haven't done it recently in like all like the last six months because I think you're going to scale past it. So I don't mind sharing this. Easy, like one of the easiest methods I found is just getting really deep with someone very quickly. And just saying like, hey, have you ever thought about being a founder? You have any ideas? And these are the buyers, like the person who could sign and the person who influences, et cetera. And so many of them were like, actually, yeah, I totally have. I have the dream. I have the vision. Like there's always been this little itch I always wanted to scratch. And really easily, I was like, well, we have a lot of VCs. I have a lot of friend VCs. Do you want to meet any? And I'm telling you, whenever they say yes, it's 100% of the time we work together. It's never failed. Not one time. I've done it, call it like 40 times or something. Wow. Like 40 times. And you give like one VC intro or like a bunch?" aria-label="回原文"></button> 心理机制也很妙：对方从你这拿了多个 VC 引荐，就会希望你在圈内对他是正面评价，反而更要把你的产品用好、买下来。
+Jonathan 发现，很多企业的决策者心里都藏着一个创业梦。他只问一句：有没有想过当创始人？然后把认识的 VC 介绍给他们。
 
-## 漏斗底部的信任：客户在冒被开除的风险
+他做了大约40次，只要对方说“好”，之后100%会跟他合作，无一例外 <button class="pd-ts" data-t="48:44" data-who="Jonathan Awad" data-en="well, I don't know you that well. I don't trust you. You're going to be there for me. You're going to respond in two minutes. And I'm going to duck and dive and cover. I don't know you. So all I ever did when I really kind of realized this reciprocity in humans was I was like, well, if I become as close as possible to as many buyers as possible, and I'm valuable to them, and I give them something outside of just our product, they'll give us a chance. And then you kind of look around here. What do I have? What can I give you? And I think humans are all the same. It's money powerful. That's kind of it. You can't just hand people money, but you can give things that are super valuable. Your network is super valuable. Your connections are super powerful. And so I saw this thing where I was like, well, a lot of people really love talking to me. And it was a little different when I was an AE, you know, a salesperson versus founder. They seem like they just like there's something fun about talking to a founder, something fun about, you know, going to these events and meeting VCs and, you know, feeling like, ooh, maybe I could be a founder too. Like maybe I could see myself in Jonathan C. And I kind of hit. That's why the great thing about doing the approach of just meeting as many people as possible is you could do events, bring a lot of people together, and then you could bring the VC. Bring the partner at Goldman who isn't a buyer for you necessarily, but it's just like a cool person to know. You could bring the person who's an exec at like LVMH. I know a lot of people in fashion and modeling randomly, right? Like you could bring all these cool people together. And that's really interesting. But a hack I did, and I haven't done it recently in like all like the last six months because I think you're going to scale past it. So I don't mind sharing this. Easy, like one of the easiest methods I found is just getting really deep with someone very quickly. And just saying like, hey, have you ever thought about being a founder? You have any ideas? And these are the buyers, like the person who could sign and the person who influences, et cetera. And so many of them were like, actually, yeah, I totally have. I have the dream. I have the vision. Like there's always been this little itch I always wanted to scratch. And really easily, I was like, well, we have a lot of VCs. I have a lot of friend VCs. Do you want to meet any? And I'm telling you, whenever they say yes, it's 100% of the time we work together. It's never failed. Not one time. I've done it, call it like 40 times or something. Wow. Like 40 times. And you give like one VC intro or like a bunch?" aria-label="回原文"></button>。而且回报是复利的：
 
-他提醒：企业买家买你的东西「80%、90% 的情况下得不到报酬」——不升职、不加钱，出了灾难性问题还可能被开除。<button class="pd-ts" data-t="45:26" data-who="Jonathan Awad" data-en="of the top of funnel method is there's so much power in your network. There's so much power there that you can have so many assets to play with and to use and to be valuable. And at the end of the day, buyers don't typically, and I'm going to throw up a random stat, like this is a fake stat, but it's directionally correct. 80% of the time, 90% of the time, they're not going to get paid to buy your thing. If they buy your thing, they don't make more money. You don't always get promoted. And very frequently, such as a fairly safe startup, they can get fired. So they're taking this huge risk on you, this huge bet on you. And maybe you move an OKR for them. And maybe that's tied to their comp. And maybe it's valuable. But likely, this is what happens. They try your thing. They have to convince a ton of people. They're nervous half the time. And if anything goes wrong, immediately they're like, who did this? If anything goes catastrophically wrong, they could get fired. Especially if it's more than like a thousand dollars, two thousand dollars, whatever. Ten figure, you know, five figure thing, six figure thing. Like, yeah," aria-label="回原文"></button>
+他帮过的人换了工作、去了新公司，还会回头找他——那些 VC 以后要了解这个人，也可能来问 Jonathan 的意见，所以对方反而更需要维护和他的关系。
 
-所以早期人们买的是创始人。你要做的就是在产品之外持续给予、不求回报：「你付出得越多，你得到的就越多。
+他甚至因此成了几家基金的项目的“星探”，自己也投了其中一些。
 
-从某人那里得到东西的最好方式，就是给他们比你想要的十倍还多的东西。」<button class="pd-ts" data-t="52:31" data-who="Jonathan Awad" data-en="You have to just give and expect nothing. And that's the hack, if that makes sense. You just keep giving, giving, giving, giving, giving. The more you give, the more you get. The best way to get something out of somebody is to give them 10x more than what you want. And they're like, wow, this person's awesome. I'll give it a shot. But it takes a lot of time and a lot of effort. That's really what it is. But it worked super well and I feel great about it. I've helped tons of people get new jobs. Buyers of mine have moved around, gone to a market, you know, different huge marketplaces, different banks, different lenders. I've gotten tons of people new jobs. And then they go to a place and they're like, wait, Jonathan just helped me get here. Like, he's been so good to me. Sure, we'll look at your product. And all I've done is help you get a new job. I'm not even asking. You don't have to ask though. You don't have to ask if you're that valuable and you work that hard and you do that much." aria-label="回原文"></button>
-
-他也公开说了一句很多人只敢私下说的：
-
-卖网络效应类产品时，「如果你不愿意稍微美化一下真相，你永远不会成功」——没人用过你的产品，就没人会用你的产品，这是个死循环。<button class="pd-ts" data-t="56:18" data-who="Jonathan Awad" data-en="The truth of the matter is, and it is what it is, and we're past this point, so I'm happy to say it. The truth of the matter is, if you're not willing, if you're selling a product like this, like a network product, or hey, who's using it? Oh, I say, who's using your product? Who else uses it? If you're not willing to massage the truth a little, you will never succeed. Just, that's it. I'm going to say it. A lot of people said it in private. I'll say it in public. You will never succeed because your product could be amazing, but a lot of people make a decision who have used it. So if the answer is a catch-22, circular loop, you will never get out of the loop. So you have to massage the truth a little bit, but it's because you've had so many conversations. A lot of people are interested. Do that for customer stuff. I don't think you should do it for investor stuff. I think a lot of founders get caught up lying about the investor side of things. I think that's a huge mistake because all these investors talk so easily. Never name drop an investor who's not actually in your round when you're trying to raise your round because it will come back so fast and you're able to buy you in the ass. Definitely never, ever do that. First off, never name drop an investor you're talking to ever anyway, but very different, in my opinion, on the customer side because these institutions are so big. You're like, yeah, we're talking to Stripe. Who are you talking to Stripe? Who knows? It kind of doesn't matter, right? So that's the type of thing. There's ways to massage it. There's ways that it's super useful and it works. Who is, are you talking to Stripe? Yeah, you could imply that they're working with you. And it's like, oh, it's fine. It's kind of like a simple thing to do and it works super, super, super well and it has never bitten me in the ass. I'm going to say it. It is what it is. On the investor side, never do it. I learned the hard way from my friends. A bunch of my friends did it. It totally backfired and I heard it through other investors. Never do that huge faux pas." aria-label="回原文"></button>
-
-但界限分明：
-
-**对客户可以模糊（比如暗示「我们在和 Stripe 谈」），对投资人绝对不行**——点名一个没投你的投资人，圈内传话极快，会反咬你一口，他的朋友们栽过这个跟头。
-
-## 状态管理：swag selling
-
-最后是他的心态工具：公寓里到处贴着便利贴写自我肯定的话。「如果你没有超级积极的自我对话，你做不成。」
-
-<button class="pd-ts" data-t="59:36" data-who="Jonathan Awad" data-en="Things that I do that help me are very simple and nobody does it. I have little post-it notes everywhere around my apartment, on the mirrors, on anywhere like on my desk. And they're very happy, as for inspirational, affirmative things. They're such a useful thing to do. If you don't have super positive self-talk, you're not going to make it. If you can't overcome anxiety of any little thing that's giving you anxiety, it's really going to be uphill, really difficult. You should understand that, especially if you've raised any money at all, you're in the top 1% of people in the world. This is amazing. You're so lucky. Like just be grateful. It's painful, but so what? You need that perspective to manage and to survive." aria-label="回原文"></button> 他还自创了「[[swag selling|swag selling]]」（Sell Without Acting Greedy，不显得贪婪地销售）：
-
-我们做的东西很棒，你想要就好，不想要我也不在乎，别人都在用、我们忙得很——这种不卑不亢的气场恰恰是撑过销售每一天所必需的。
+他的总结是：**先付出，别指望回报，想要什么就先给出10倍的价值**。
 
 ## 本集带走
 
-- **回复速度就是竞争力**：给客户定 20 分钟 SLA、自己冲一两分钟；回得越快，一句「收到了，在处理」就够，还能大幅提升留存和转介绍。
-- **PMF 要等压倒性证据**：不是一两个客户说好，而是像连续赢 20 单这种「无法否认」的证据量。
-- **网络型产品冷启动**：凑 15-20 家机构同时上线，没人当第一个；顺手问「你们还想要什么」，一次带上五个产品。
-- **外联做量 + 先给后要**：每天成百上千条消息；不开口要东西，先发市场地图、做引荐、帮找工作，互惠会自己回来。
-- **最快的信任 hack**：问买家「想不想当创始人」，愿意的话引荐 VC 给他——Jonathan 做了约 40 次，没失败过一次。
-- **撒谎红线**：对客户可以合理模糊「谁在用」，对投资人绝对不许点名未落定的投资方。
+- 产品市场契合可以很具体：连赢20单、前50个客户里出现7位数订单，比任何感觉都可靠。
+- 20分钟的回复时限是每个公司都能做到的事，也是客户留存的杠杆：回得越快，得到的宽容越多。
+- 网络型产品冷启动的解法是“没人第一个”：攒够一群客户和多个产品，一起上线。
+- 最强的销售技巧是先付出——介绍 VC、介绍工作、发行业地图，做到40次成交率100%。
+- 对客户可以适度修饰事实，对投资人绝对不行，这是两条完全不同的红线。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">一开始人们买的是创始人。他们买的是你。</span>  
 > *People in the beginning are buying the founder. They're buying you.*  
 > <span class="qm">—— Jonathan Awad · [00:12]</span> ^q1
 
-> <span class="qz">我认为在证据量没到压倒性之前，你不能正当地感觉自己达到了 product market fit。</span>  
-> *I don't think you can really justifiably feel product market fit until there's this like kind of overwhelming volume of evidence.*  
-> <span class="qm">—— Jonathan Awad · [08:06]</span> ^q2
+> <span class="qz">荣誉勋章变成了，哇，你只有 20 个人却能做成这一切。</span>  
+> *The badge of honor is like, whoa, you have 20 people and you're doing all this.*  
+> <span class="qm">—— Jonathan Awad · [03:03]</span> ^q2
 
 > <span class="qz">期望与现实之间的差值就是幸福差值。</span>  
 > *The delta between expectation and reality is the happiness delta.*  
 > <span class="qm">—— Jonathan Awad · [09:04]</span> ^q3
 
-> <span class="qz">你带着微笑挨那一记迎面拳，因为反馈是礼物。</span>  
-> *And you take that punch in the face with a smile because feedback is a gift.*  
-> <span class="qm">—— Jonathan Awad · [09:29]</span> ^q4
+> <span class="qz">你回复得越快，你就越能像你刚说的那样“蒙混过关”。</span>  
+> *the faster you reply, the more you can get away with what you just said.*  
+> <span class="qm">—— Jonathan Awad · [09:38]</span> ^q4
 
-> <span class="qz">你不能只是开口要东西。问题就在这。你得和他们叙旧。对他们有用。对他们有价值。</span>  
-> *You can't just ask for something. That's the problem. You have to catch up with them. And be useful to them. And be valuable to them.*  
-> <span class="qm">—— Jonathan Awad · [32:00]</span> ^q5
+> <span class="qz">如果你是 CEO，每一个问题都是你的问题，这意味着你每天醒来心都像要跳出胸口，因为总有什么东西不灵了。</span>  
+> *every single problem is your problem if you're a CEO, which means you're always waking up with that heart, like beating out of your chest because inevitably something's not working.*  
+> <span class="qm">—— Pablo Srugo · [15:33]</span> ^q5
 
-> <span class="qz">如果我们不带着极端的紧迫感工作，我们实现 X 目标的机会是零。</span>  
-> *if we don't work with extreme urgency, we have zero chance of accomplishing X goal.*  
-> <span class="qm">—— Jonathan Awad · [35:20]</span> ^q6
+> <span class="qz">你总能融到更多钱。你无法融到更多时间。</span>  
+> *You can always raise more money. You cannot raise more time.*  
+> <span class="qm">—— Jonathan Awad · [35:10]</span> ^q6
 
-> <span class="qz">如果你一个通宵都没熬过，那说明你手头的事情不够多。</span>  
-> *If you're not doing any all-nighters, you don't have enough on your plate.*  
+> <span class="qz">如果你一个通宵都没熬过，那说明你手头的事情不够多。你没有给自己安排足够多要回复的人、要响应的事情、要构建的东西。</span>  
+> *If you're not doing any all-nighters, you don't have enough on your plate. You're not loading yourself up with enough people to get back to, things to respond to, things to build.*  
 > <span class="qm">—— Jonathan Awad · [40:42]</span> ^q7
 
-> <span class="qz">80% 的时间、90% 的时间，他们买你的东西是得不到报酬的。</span>  
-> *80% of the time, 90% of the time, they're not going to get paid to buy your thing.*  
-> <span class="qm">—— Jonathan Awad · [45:43]</span> ^q8
+> <span class="qz">CEO 的工作是建立并保持动量。</span>  
+> *CEO's job is to build and sustain momentum.*  
+> <span class="qm">—— Jonathan Awad · [42:45]</span> ^q8
 
-> <span class="qz">如果你不愿意稍微美化一下真相，你永远不会成功。</span>  
-> *If you're not willing to massage the truth a little, you will never succeed.*  
-> <span class="qm">—— Jonathan Awad · [56:33]</span> ^q9
+> <span class="qz">一开始人们买的是创始人。他们买的是你。所以如果你只是只谈你的产品，</span>  
+> *People in the beginning are buying the founder. They're buying you. So if you're just only talking about your product,*  
+> <span class="qm">—— Jonathan Awad · [46:37]</span> ^q9
+
+> <span class="qz">你就只管付出，不求回报。这就是那个技巧，如果你能理解的话。你就是不断地给予、给予、给予、给予、给予。</span>  
+> *You have to just give and expect nothing. And that's the hack, if that makes sense. You just keep giving, giving, giving, giving, giving.*  
+> <span class="qm">—— Jonathan Awad · [52:31]</span> ^q10
 
 > <span class="qz">如果你没有超级积极的自我对话，你做不成。</span>  
 > *If you don't have super positive self-talk, you're not going to make it.*  
-> <span class="qm">—— Jonathan Awad · [59:51]</span> ^q10
+> <span class="qm">—— Jonathan Awad · [59:51]</span> ^q11
+
+> <span class="qz">我提出了一个叫 swag selling 的概念，就是不表现贪婪地销售（Sell Without Acting Greedy），S-W-A-G，但同时带着气场和自信。</span>  
+> *I came up with this concept called swag selling, which is sell without acting greedy, S-W-A-G, but with swag and with confidence.*  
+> <span class="qm">—— Jonathan Awad · [60:48]</span> ^q12
 
 <div class="pd-sec">接着看</div>
 

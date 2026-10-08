@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(17:02起):本集说他们构建了 Connector Evals 评测框架，反常规地不比智能体、而比连接器；初步结果显示 MCPC 和 CLI 表现接近，原始 MCP 虽完成更快但消耗更多 token。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(17:02起):本集说他们构建了 Connector Evals 评测框架，反常规地不比智能体、而比连接器；初步结果显示 MCPC 和 CLI 表现接近，原始 MCP 虽完成更快但消耗更多 token。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为概念
 
 ## ③ 关联
 

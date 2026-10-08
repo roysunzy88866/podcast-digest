@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]]**(00:00起):本集说 IFS 是工业 AI 软件的领先提供商，为以资产为中心的行业（能源、公用事业、制造业、航空航天）提供 AI 解决方案，Nexus Black 是其内部业务部门
-- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]]**(30:55起):本集说它是 Lila 的投资项目，聚焦重型工业机械的预防性维护，减少停机时间
+- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(30:55起):本集说它是 Lila 的投资项目，聚焦重型工业机械的预防性维护，减少停机时间
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]] — 作为被讨论公司
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为被讨论公司(提及)
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

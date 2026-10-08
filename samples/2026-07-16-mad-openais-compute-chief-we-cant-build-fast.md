@@ -148,7 +148,7 @@ OpenAI 已全栈进入芯片业务。[[Jalapeno|Jalapeno]] 的战略逻辑：Ope
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:OpenAI、Oracle · 同概念:推理 (inference)、数据中心 (data center)、GPU</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:OpenAI、Oracle · 同概念:推理 (inference)、数据中心 (data center)、GPU</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、数据中心 (data center)、GPU</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:OpenAI、Microsoft · 同概念:推理 (inference)、数据中心 (data center)</span>
 

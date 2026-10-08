@@ -88,7 +88,7 @@ unlisted: true
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(02:51起):本集与 Claude Code、Cursor 并列提及的编码工具，会带来更多代码和复杂性。
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(10:04起):本集顺带提到沙箱是完整 VM,除 Claude 外也能跑 Codex、shell、Python 作业、web 服务器。
 - **[[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]]**(02:10起):本集说 Codex 是 Tibo 负责的产品,dots 是构建在 Codex harness 之上、加上长时程任务与记忆研究成果后的产物;还提到 Codex 早期几次宕机是 Tibo 自己造成的。
-- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]]**(00:17起):本集说 Codex 是与 sites 配合建站、『真的能理解你的意图』、深入剖析提示词的构建工具;skill 的分发模式是『下载这个 skill,Codex 会替你在游戏里构建』
+- **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(00:17起):本集说 Codex 是与 sites 配合建站、『真的能理解你的意图』、深入剖析提示词的构建工具;skill 的分发模式是『下载这个 skill,Codex 会替你在游戏里构建』
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -121,7 +121,7 @@ unlisted: true
 
 ![[2026-10-02-talks-the-5-levels-of-self-driving-production#^q2]]
 
-![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q4]]
+![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q1]]
 
 ## ② 出现在这些集
 
@@ -205,7 +205,7 @@ unlisted: true
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为概念(提及)
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司(提及)
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《OpenAI Sites 产品负责人:把用完即扔的个人软件变成日常》]] — 作为被讨论公司
+- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联

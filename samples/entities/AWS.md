@@ -30,7 +30,7 @@ unlisted: true
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(40:48起):本集说与 AWS 的解耦合作也看到类似 5 倍的吞吐量数字；AWS 带着自家 training parts 是四大芯片厂商之一。
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(03:11起):本集嘉宾在此工作 18 年、任 VP 兼杰出工程师，正专注智能体 AI 基础设施，并推出 Agent Core、Strands、Dogwood 等智能体相关产品。
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(21:45起):作为 Thema 团队人才来源被提及:「我们有来自 AWS 的人」。
-- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]]**(05:12起):讲者 Sandy 所在的公司，构建并开源了 StrandsAgents 框架。
+- **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]]**(05:12起):讲者 Sandy 所在的公司，构建并开源了 StrandsAgents 框架。
 
 ## ① 提到它的金句
 
@@ -67,7 +67,7 @@ unlisted: true
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为被讨论公司
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司(提及)
-- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《会自己造工具的智能体:AWS 元工具化实战》]] — 作为被讨论公司
+- [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]] — 作为被讨论公司
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为被讨论公司
 
 ## ③ 关联

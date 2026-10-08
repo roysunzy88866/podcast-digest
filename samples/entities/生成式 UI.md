@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 UI (generative UI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 UI">生成</div><div class="pi"><h1 class="pt">生成式 UI (generative UI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 UI">生成</div><div class="pi"><h1 class="pt">生成式 UI (generative UI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,12 @@ unlisted: true
 - **[[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]]**(10:41起):本集把它说成由 AI 决定界面布局与信息架构、但由人引导的界面生成方式——从完全放手的失败第一版,演进到编排器加 UX 智能体分工的当前方案
 - **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(15:00起):本集说它是 Prefab 架构赋能的第三种用法：把官方能力共享给智能体后，它就能流式生成 UI 的协议表示，系统实时修复并渲染，用户甚至无需自己定义界面。
 - **[[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]]**(06:31起):本集说它是新原语之一,并假设人类编写的专用 UI 已经有点过时了:Flash 近 900 token/秒的速度让 UI 可以按需内联生成,像 iPhone 砍掉固定键盘一样不再「固定在塑料里」
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q2]]
 
 ## ② 出现在这些集
 

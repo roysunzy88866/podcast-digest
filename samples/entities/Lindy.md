@@ -14,7 +14,7 @@ unlisted: true
 - **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(43:10起):本集说 Lindy 是一个让你构建工作流和智能体的平台，Andrew 在其中跑了四五个收件箱智能体，替代了他之前专门处理邮件的全职助理，每月花费约 200 美元、24-7 工作
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(00:03起):本集核心讨论对象，正推出 Lindy TeamMate 产品——一个住在 Slack 里的 AI 员工，连接公司所有工具并积累团队上下文
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(69:29起):本集把 Lindy 列为 Zapier 的新型自动化竞争对手之一，谈到要做出战略选择与反向定位
-- **[[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]]**(08:18起):本集顺带提到：主持人曾采访其创始人，其承认 Claude Cowork 对他们业务影响很大。
+- **[[2026-10-05-pg-n8n-vs-claude-code|《被判「死刑」一千次的公司：n8n 创始人谈为什么它没死》]]**(08:18起):本集顺带提到：主持人曾采访其创始人，其承认 Claude Cowork 对他们业务影响很大。
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
-- [[2026-10-05-pg-n8n-vs-claude-code|《被宣布死亡一千次的 N8N：为什么 AI 时代你反而更需要它》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pg-n8n-vs-claude-code|《被判「死刑」一千次的公司：n8n 创始人谈为什么它没死》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

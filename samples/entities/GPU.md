@@ -34,9 +34,9 @@ unlisted: true
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(04:24起):本集说模型已经大到装不进单个 GPU,必须把成百上千块 GPU 互连起来跑;今天的 AI 工厂一半是 GPU,另一半是互连这些 GPU 的技术。
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(00:32起):本集说 GPU 是整个数据中心里最贵的东西,闲置就是烧钱;GPU 租赁协议通常是照付不议,且当下托管 GPU 集群因供应短缺利润率最高。
 - **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(53:35起):本集答疑中听众想把代码分发到分布式 GPU 上算，Matt 直说 E2B 目前不支持 GPU，他们用 VM，GPU 场景下沙箱方案可能不合适。
-- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(22:38起):本集说 GPU 比 TPU 更通用，Google 内部使用也对外销售大量 GPU，客户按工作负载在两者间评估选择
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(22:38起):本集说 GPU 比 TPU 更通用，Google 内部使用也对外销售大量 GPU，客户按工作负载在两者间评估选择
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(36:14起):本集说 GPU 利用率其实很低、算力处于供应紧缺,真正难的是容量——你得真的有 GPU,规模上去后省下的 1% 会累积成真金白银。
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(04:47起):本集贯穿主线：GPU 用六年折旧、是芯片项目成本大头，供给追不上需求，NVIDIA 把签下的 GPU 转卖给出价更高者。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:47起):本集贯穿主线：GPU 用六年折旧、是芯片项目成本大头，供给追不上需求，NVIDIA 把签下的 GPU 转卖给出价更高者。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(01:16起):本集说 GPU 是最稀缺资源,AWS 刻意不做『全部卖给前沿实验室』的分配,约 60% 的申请最终以某种形式获批,并计划买入 200 万块 NVIDIA GPU。
 
 ## ① 提到它的金句
@@ -78,9 +78,9 @@ unlisted: true
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为概念
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
 - [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为概念(提及)
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念(提及)
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为概念
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为概念
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
 
 ## ③ 关联

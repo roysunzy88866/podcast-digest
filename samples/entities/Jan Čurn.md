@@ -31,7 +31,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为嘉宾
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为联合主持
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为联合主持
 
 ## ③ 他谈到的
 

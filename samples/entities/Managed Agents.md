@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(36:56起):本集把它说成:Anthropic 的产品，帮你在生产环境中更快构建和部署智能体，承担从管理工具层到基础设施和可观测性的工作，记忆方案采用简单文件系统
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(02:47起):本集把它说成:Anthropic 从四月起推出的新平台(全称 Cloud Managed Agents),把工作框架连同部署基础设施全打包,支撑了长时程异步智能体的架构。
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用 Anthropic 的 Managed Agents 论文，说托管智能体模式的核心是把智能体逻辑与工具调用执行分离、会话日志做持久化
-- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]]**(00:16起):本集说它是把 anti-gravity harness 开放为远程托管智能体:一次 API 调用即得持久化沙箱,用环境 ID 路由回同一沙箱,存储和沙箱免费、只按模型用量付费。
+- **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(00:16起):本集说它是把 anti-gravity harness 开放为远程托管智能体:一次 API 调用即得持久化沙箱,用环境 ID 路由回同一沙箱,存储和沙箱免费、只按模型用量付费。
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为概念
-- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体》]] — 作为概念
+- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
 
 ## ③ 关联
 

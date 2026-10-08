@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(02:31起):本集说：Cory 工作了近 25 年的电子前哨基金会，数字权利组织，加入了美国通信工人工会，曾打赢让可用加密合法化的关键一战。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(02:31起):本集说：Cory 工作了近 25 年的电子前哨基金会，数字权利组织，加入了美国通信工人工会，曾打赢让可用加密合法化的关键一战。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司
 
 ## ③ 关联
 

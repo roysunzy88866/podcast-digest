@@ -19,7 +19,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为嘉宾
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

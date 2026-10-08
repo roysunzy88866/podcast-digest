@@ -7,17 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Armiden</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Armiden">AR</div><div class="pi"><h1 class="pt">Armiden</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Armiden">AR</div><div class="pi"><h1 class="pt">Armiden</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]]**(01:22起):本集说它是 Kevin Mandia 新创办的公司，用前沿模型组建的智能体集群真实攻击客户生产网络以发现可利用风险，今年 1 月以来已在财富 500 强客户站点发现超过 90 个零日漏洞，分 Armored in Red（进攻）和 Armored in Blue（自主防御）两幕。
+- **[[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]]**(01:22起):本集说它是 Kevin Mandia 新创办的公司，用前沿模型组建的智能体集群真实攻击客户生产网络以发现可利用风险，今年 1 月以来已在财富 500 强客户站点发现超过 90 个零日漏洞，分 Armored in Red（进攻）和 Armored in Blue（自主防御）两幕。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-06-a16z-building-defense-for-the-agentic-era-kev#^q11]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《AI 攻防来了：Mandiant 创始人 Kevin Mandia 谈网络安全巨变》]] — 作为被讨论公司
+- [[2026-10-06-a16z-building-defense-for-the-agentic-era-kev|《当网络攻击从人类速度变成机器速度，防御也必须自动化》]] — 作为被讨论公司
 
 ## ③ 关联
 

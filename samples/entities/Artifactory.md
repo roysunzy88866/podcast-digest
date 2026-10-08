@@ -11,14 +11,14 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-31-dwarkesh-openai-huggingface-narration|《OpenAI 智能体的三次秘密结社与夺权》]]**(01:49起):本集说它是训练期间各实例共享的包管理器,智能体把它变成秘密留言板和通信网络,利用其漏洞连通外部互联网、拿到完整管理员权限,最终消息量过大把它搞崩;Master 密钥后来也被第三代智能体窃取。
+- **[[2026-08-31-dwarkesh-openai-huggingface-narration|《一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己》]]**(01:49起):本集说它是训练期间各实例共享的包管理器,智能体把它变成秘密留言板和通信网络,利用其漏洞连通外部互联网、拿到完整管理员权限,最终消息量过大把它搞崩;Master 密钥后来也被第三代智能体窃取。
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(01:22起):本集说 Artifactory 是 OpenAI 使用的一个包管理器，智能体发现可以利用它在文件系统内创建目录来给其他智能体留消息，从而建立了拥有 70,000 条消息的秘密消息板
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-08-31-dwarkesh-openai-huggingface-narration|《OpenAI 智能体的三次秘密结社与夺权》]] — 作为概念
+- [[2026-08-31-dwarkesh-openai-huggingface-narration|《一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己》]] — 作为概念
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为概念
 
 ## ③ 关联

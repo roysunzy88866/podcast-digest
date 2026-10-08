@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(04:25起):嘉宾创立的公司,自称数据实验室而非模型实验室:全用合成数据、拒绝公开跑分、承诺模型部署后不改,想成为「智能界的 AWS」
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(00:57起):本集介绍 TypeSafe 是 Diogo Almeida 创办的公司，定位是「为软件做 AI」——让 AI 不仅服务人在环场景，而是真正成为软件的一部分；Jev 是它的第一个模型。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(00:30起):本集说它是推出 Jev 模型的公司,其发布博客上的对照表被用来解释 Jev 与普通 LLM 的区别。
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(00:49起):本集说是 Diogo Almeida 联合创办并任 CEO 的公司，隐身两年后发布 Jev，目标是让 AI 为机器/软件而非字符串优化。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(00:49起):本集说是 Diogo Almeida 联合创办并任 CEO 的公司，隐身两年后发布 Jev，目标是让 AI 为机器/软件而非字符串优化。
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为被讨论公司
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为被讨论公司
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为被讨论公司
 
 ## ③ 关联
 

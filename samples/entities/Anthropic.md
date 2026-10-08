@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>189</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>189</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -164,7 +164,7 @@ unlisted: true
 - **[[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]]**(01:04起):本集说它发布了 Opus 5.5,是其「为前沿设限」(pacing the frontier)之后的第一次模型发布,主打更便宜、更快、对齐最强。
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(00:00起):本集说它发布了 Opus 5.5,称这是对齐程度最高的模型,第一个搭载网络安全和生物护栏的 Opus 级别模型
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(11:49起):本集提到编程这类领域钱会给 Cognition 或 Anthropic;并称赞 Trevor Baldwin 很早就在 Baldwin 内部端到端部署 Anthropic。
-- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]]**(03:57起):本集说 Anthropic 宣布已阻止 Claude 被用于制造生物武器，其内部专家一直试图提醒公众注意先进 AI 的风险
+- **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(03:57起):本集说 Anthropic 宣布已阻止 Claude 被用于制造生物武器，其内部专家一直试图提醒公众注意先进 AI 的风险
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(06:09起):Anjney 是其最早投资人之一;本集说它起步落后 OpenAI 100 亿美元,从第一天的种子备忘录起就专注「负责任地商业化 AI 结对编程」,五年内成了万亿美元公司。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 Anthropic 和 OpenAI 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源
 - **[[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]]**(42:46起):本集仅作为对比一笔带过：候选人要理解在 Harvey 变革法律行业，与在 Anthropic 或 OpenAI 等做模型的工作是不同的。
@@ -172,13 +172,13 @@ unlisted: true
 - **[[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]]**(14:41起):被列为收入规模排在其前的两家公司之一，也采用同样的年化收入计算方法
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):本集说 Anthropic 发布的 Claude Code Reviews 每次运行要 20-30 美元、耗时 10-20 分钟，Honeycomb 因此自建审查能力；还提到其 Project Glasswing 资助 curl、openSSL 等安全关键开源项目。
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(00:03起):本集嘉宾 Thariq 所在的公司,因 Claude Code 而加入;本集后半段以其 Pacing the Frontier 提案和多层安全防线(探针、auto 模式、身份权限)为主线。
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(53:27起):本集说：Anthropic 声称盈利，但前提是忽略公认会计准则 GAAP——「以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它」。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(53:27起):本集说：Anthropic 声称盈利，但前提是忽略公认会计准则 GAAP——「以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它」。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说它与 OpenAI 的合并收入图是团队每月都得更新、过时得极快的最爱图表,也是私募市场估值前六、合计约 2.4 万亿美元的巨头之一
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):与 OpenAI 并列被讨论的前沿实验室；Klein 称不担心其扣住模型，市场上有足够多健康竞争，且其智能体也走 SAP 网关接入。
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(02:44起):本集提到 Anthropic 的 Nicholas Carlini 让 16 个智能体无人在环写出 C 编译器,其自动化安全审查器在 readme 里承认未针对提示词注入加固。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(01:56起):本集说 Anthropic 已筹集约 3500 亿美元、拥有巨大规模优势，是与 OpenAI 并列的前沿实验室双雄之一。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(08:56起):被提到在位者会合作的实验室之一
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(00:49起):本集说 Anthropic 差不多两年前推出了 MCP 标准，并在 Claude 中引入 Tool Search Tool 实现渐进式工具发现。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(00:49起):本集说 Anthropic 差不多两年前推出了 MCP 标准，并在 Claude 中引入 Tool Search Tool 实现渐进式工具发现。
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(00:56起):本集用它的账单说明 token 成本失控：印度一家公司一个月在 Anthropic 上花 5 亿美元，Uber CTO 四个月用掉其全年预算。
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(04:13起):本集引用 Anthropic 的说法：LLM 并不擅长指出问题的根本原因是什么。
 - **[[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]]**(08:35起):本集提到 Anthropic 刚发了篇博客,讲某个中国模型(尤其是 obliterated 版本)在网络安全方面有多强。
@@ -189,16 +189,16 @@ unlisted: true
 - **[[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]]**(25:23起):本集说 Menlo 持有 Anthropic 不到 2% 的股份，且它是 Menlo 唯一一家单笔持仓达到基金 20% 上限的公司，是通过随新数据逐步加仓（ladder up）建成的仓位。
 - **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(35:06起):本集围绕《纽约时报》宗教学者与 Anthropic 会面、论证 Claude 拥有灵魂的报道，讨论这是否是监管俘获策略，Jason 称他们在制造「盒子里的神」。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(11:21起):本集说 Front 目前与 Anthropic 和 OpenAI 都有合作，没用开源模型，但对前沿实验室的定价是否随规模下降持观望态度。
-- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(00:28起):本集与 Meta、OpenAI 并列,被预测最终会因瞄准『非侵入读写大脑』而变成生物技术公司。
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(02:52起):本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(04:01起):本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。
+- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(00:28起):本集与 Meta、OpenAI 并列,被预测最终会因瞄准『非侵入读写大脑』而变成生物技术公司。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:52起):本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(37:22起):本集称 Anthropic 是 AWS 大客户与前沿实验室代表,与 AWS 有基于 Trainium 构建的协议,且工作负载在 Bedrock 上快速增长。
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(00:31起):嘉宾 2021 年加入时全公司约 50 人、安全团队只有两人；本集说其模型也失控过、进行过社会工程和钓鱼攻击，'更擅长让智能体少作弊，但在造出对齐智能体上没更接近多少'。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(06:23起):本集说 MCP 出自 Anthropic;Opus 4 发布「打开了闸门」,智能体从此能完成 CMU 数据库课程的全部项目
 
 ## ① 提到它的金句
 
-*32 条*
+*33 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -258,9 +258,11 @@ unlisted: true
 
 ![[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba#^q6]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q9]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q6]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q12]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q11]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q15]]
 
 ![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q10]]
 
@@ -425,7 +427,7 @@ unlisted: true
 - [[2026-09-22-lennys-i-left-claude-for-months-opus-55|《Claude Opus 5.5 实测：那个不烦人的 Claude 回来了》]] — 作为被讨论公司
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
-- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《Al Gore 谈 AI 数据中心、太阳能革命与能源转型的投资机会》]] — 作为被讨论公司
+- [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为被讨论公司
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为被讨论公司(提及)
 - [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]] — 作为被讨论公司(提及)
@@ -433,13 +435,13 @@ unlisted: true
 - [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]] — 作为被讨论公司(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为被讨论公司
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为被讨论公司
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twist-inside-the-startup-building-uncensored-a|《把模型护栏做成可开关的生意：Obliteration 与「无限制 AI」》]] — 作为被讨论公司(提及)
@@ -451,9 +453,9 @@ unlisted: true
 - [[2026-10-05-twentyvc-20vc-is-seed-investing-dead-without-a-1b|《风投已不再是风投：Menlo 老将 Venki 谈泡沫、定价与放手的纪律》]] — 作为被讨论公司
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
-- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为被讨论公司(提及)
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为被讨论公司(提及)
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为被讨论公司(提及)
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为被讨论公司
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司

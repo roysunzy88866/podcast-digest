@@ -17,7 +17,7 @@ unlisted: true
 
 *1 条*
 
-![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q4]]
+![[2026-10-04-talks-agents-that-write-their-own-tools-at-run#^q5]]
 
 ## ② 出现在这些集
 

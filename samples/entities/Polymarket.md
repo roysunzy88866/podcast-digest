@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]]**(27:15起):本集把它当作离岸预测市场平台的例子：不知道交易者身份，无法监视内幕交易，被 Luana 称为「禁止只会把活动推向离岸」的危险典型。
+- **[[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]]**(27:15起):本集把它当作离岸预测市场平台的例子：不知道交易者身份，无法监视内幕交易，被 Luana 称为「禁止只会把活动推向离岸」的危险典型。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《Kalshi 联创 Luana:预测市场不是赌场，是激励真相的交易所》]] — 作为被讨论公司
+- [[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope|《一夜暴富的预测市场，凭什么说它不是赌博？》]] — 作为被讨论公司
 
 ## ③ 关联
 

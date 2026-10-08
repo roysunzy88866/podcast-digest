@@ -118,7 +118,7 @@ Claire 发现一月她几乎全在做工程任务,到九月工程任务已不到
 
 **换个口味**
 
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|让 AI 可靠到像 SQL：Jev 与「机器原生智能」]]<span class="pd-rz">同公司:TypeSafe · 同概念:Claude Code、Jev</span>
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同公司:TypeSafe · 同概念:Claude Code、Jev</span>
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身]]<span class="pd-rz">同公司:TypeSafe · 同概念:Jev、Claude Code、Codex</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:ChatPRD · 同概念:Claude Code</span>
 

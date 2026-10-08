@@ -50,7 +50,7 @@ unlisted: true
 
 ![[2026-09-03-changelog-forking-cal-com-to-closed-source#^q9]]
 
-![[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#^q2]]
+![[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo#^q4]]
 
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q6]]
 

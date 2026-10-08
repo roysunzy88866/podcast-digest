@@ -30,9 +30,9 @@ unlisted: true
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(04:18起):本集用作单机智能体的反例：一千人同时发提示词 OpenClaw 会垮，Eve 会横向扩展。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(01:50起):本集举例：原名 ClaudeBot，AJ 围绕它构建了第一个「循环就是产品」的真实案例（Reddit 找价、经销商互相竞价买车）
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(03:43起):11 月下旬发布、席卷世界的项目；嘉宾认为现在的消费级智能体本质上就是预配置好的 OpenClaw 复刻，能力上没有什么是 OpenClaw 做不到的
-- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]]**(00:40起):本集提到但未选用:嘉宾看到 Craigslist 上预装 OpenClaw 的 Mac Mini 觉得『预装』是危险信号,最终选了更符合口味的 NanoClaw。
+- **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]]**(00:40起):本集提到但未选用:嘉宾看到 Craigslist 上预装 OpenClaw 的 Mac Mini 觉得『预装』是危险信号,最终选了更符合口味的 NanoClaw。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(04:16起):本集说 OpenClaw 是个人智能体潮流的先驱，上一版本可冲进榜单前排，这一版因流量彻底下滑不见踪影，团队据称被 OpenAI 收购。
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(56:21起):本集说它有非常强大的形态和很棒的界面跃迁，但用户饱受可靠性问题之苦——问题不在 harness 在背后的智能。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(56:21起):本集说它有非常强大的形态和很棒的界面跃迁，但用户饱受可靠性问题之苦——问题不在 harness 在背后的智能。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -72,9 +72,9 @@ unlisted: true
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
-- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 智能体塞进树莓派:给它装上图数据库记忆》]] — 作为概念(提及)
+- [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联

@@ -176,7 +176,7 @@ Martin 还指出了更远的地平线:这可能开启一个完整的[[概率编�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|让 AI 可靠到像 SQL：Jev 与「机器原生智能」]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、Claude Code、OpenAI · 同概念:RLHF、分类器 (classifier)、可靠性 (reliability)</span>
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、Claude Code、OpenAI · 同概念:RLHF、分类器 (classifier)、可靠性 (reliability)</span>
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe、Claude Code、Codex</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex、OpenAI · 同概念:编码智能体 (coding agent)</span>
 

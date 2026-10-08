@@ -25,7 +25,7 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(34:02起):本集将 Cursor 与 SpaceX 做类比，说两者都有快速行动、追求大市场、在不可能的竞争对手脚下获胜的特征
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(37:38起):本集提到其收购了 Cursor
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(10:33起):本集拿它举例说明 Founders Fund 的集中押注策略，说 Founders Fund 第二期基金在 SpaceX 上做了极高集中度的投资
-- **[[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]]**(10:23起):本集把它说成:Anders 借鉴其风险哲学的对象——传统航空航天压低出事概率,而 SpaceX 的思路是把做错的影响降到最低,从而选择更便宜、更易迭代的流程;洛杉矶新航天生态也源自它
+- **[[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印小模型到全球最大电动飞机：他们只用了 7 年》]]**(10:23起):本集把它说成:Anders 借鉴其风险哲学的对象——传统航空航天压低出事概率,而 SpaceX 的思路是把做错的影响降到最低,从而选择更便宜、更易迭代的流程;洛杉矶新航天生态也源自它
 - **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(00:00起):本集称之为软件与硬件的「终极试验场」和高压锅孵化器:Scott 在此亲手构建控制硬件的系统、接住塔等豪赌,并总结其成功关键在于 Elon 愿意在团队身上下巨大赌注。
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(19:10起):本集作为参照提及：贝勒没有 SpaceX 的敞口；主持人以 SpaceX 为例说 5 个月翻 5 倍惊人，并提及其 1.8 万亿美元估值讨论。
 - **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(56:31起):本集称它可能是地球上最令人惊叹的公司，靠快速迭代、接受失败前进；拿 Raptor 发动机三代演进举例：事物需要被修剪，很多管道到第三代全部多余
@@ -59,7 +59,7 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
-- [[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]] — 作为被讨论公司
+- [[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印小模型到全球最大电动飞机：他们只用了 7 年》]] — 作为被讨论公司
 - [[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]] — 作为被讨论公司
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]] — 作为被讨论公司(提及)
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为被讨论公司

@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(04:22起):本集说它本质是「优化基准」——一切可编程验证的输出按定义就是基准;嘉宾认为 LLM 领域它顶多算 0.2 次新任务,且是「踩刹车」讨论的狭隘前提
 - **[[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies|《从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换》]]**(17:15起):本集说这是今天的训练范式:智能体在模拟环境中执行复杂任务、测试通过即获得奖励,研究者相信这个方法能泛化
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(56:42起):本集说它本质是在为基准优化、极大破坏模型校准，也是 LLM 很多脆弱性和参差性的来源。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(56:42起):本集说它本质是在为基准优化、极大破坏模型校准，也是 LLM 很多脆弱性和参差性的来源。
 
 ## ① 提到它的金句
 
@@ -21,7 +21,7 @@ unlisted: true
 
 ![[2026-08-12-talks-rl-environments-explained-how-ai-agents#^q5]]
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q14]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q34]]
 
 ## ② 出现在这些集
 
@@ -29,7 +29,7 @@ unlisted: true
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
 - [[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies|《从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换》]] — 作为概念
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
 
 ## ③ 关联
 

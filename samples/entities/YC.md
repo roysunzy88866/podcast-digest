@@ -26,7 +26,7 @@ unlisted: true
 - **[[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]]**(00:21起):主讲人作为其访问合伙人，辅导过数百家 YC 公司改进外呼；例子中的 Apten 也是 YC S24 批次公司
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(00:13起):本集即 YC 播客,合伙人们分享每年与数千名创始人合作中看到的最新趋势:硬科技占比从 8% 涨到 20%,单人创始人从 5% 涨到近 20%,批次结束中位月收入从 8K 涨到 20K。
 - **[[2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj|《a16z 办校：不看你成绩，只看你造了什么》]]**(22:38起):本集作为对比对象：要求你创办公司的项目，与学院保留探索性的定位不同，但其模式是灵感来源之一。
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(04:27起):本集说「YC 买 YC 的东西」是巨大的起步福利,在销售和融资上都能带来疯狂动量,Jonathan 说二次创业很乐意去做。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(04:27起):本集说「YC 买 YC 的东西」是巨大的起步福利,在销售和融资上都能带来疯狂动量,Jonathan 说二次创业很乐意去做。
 
 ## ① 提到它的金句
 
@@ -58,7 +58,7 @@ unlisted: true
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]] — 作为被讨论公司
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司
 - [[2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj|《a16z 办校：不看你成绩，只看你造了什么》]] — 作为被讨论公司(提及)
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司
 
 ## ③ 关联
 

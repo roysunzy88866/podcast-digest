@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(18:53起):系统中决定成本的关键因素;Cognition 的 sidekick 机制因为能让上下文保持在 KV 缓存中,使得所有缓存 token 的成本便宜 10 倍。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(38:19起):本集把它说成:大模型存放上下文的地方。如果在大型会话中做心跳检查,缓存已被清空,系统会把 60 万个 Token 重新发回服务器,导致成本浪费。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(34:37起):本集说是推理经济的真正杠杆：存储模型内部的 K、V 两个矩阵避免重复计算，缓存命中 token 成本仅约千分之一；智能体编码会话命中率约 96%，但带来残酷的内存分层存储权衡。
-- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]]**(18:04起):把已生成 token 的中间结果缓存避免重复计算,本集称之为推理里 ROI 最高的优化,带来 5-10 倍加速,并支持在 GPU 内存与普通内存间自动卸载搬运
+- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]]**(18:04起):把已生成 token 的中间结果缓存避免重复计算,本集称之为推理里 ROI 最高的优化,带来 5-10 倍加速,并支持在 GPU 内存与普通内存间自动卸载搬运
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(46:28起):本集解释它是让 GPU 保持忙碌的关键:把已算过的 token 结果存进查找表避免重复矩阵乘法,会膨胀到超出 HBM,需跨 HBM/DRAM/NVMe/对象存储分层管理。
 
 ## ② 出现在这些集
@@ -24,7 +24,7 @@ unlisted: true
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为概念
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为概念
-- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为概念
+- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]] — 作为概念
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
 
 ## ③ 关联

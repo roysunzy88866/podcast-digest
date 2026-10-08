@@ -13,7 +13,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为联合主持
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为联合主持
 - [[2026-10-01-sed-the-state-of-browser-testing|《浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学》]] — 作为主持
 
 ## ③ 他谈到的

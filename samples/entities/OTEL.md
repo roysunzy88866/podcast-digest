@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]]**(05:52起):本集称 OpenInference 符合 OTEL 规范，是把 GenAI 数据规范化的开放标准基础，可发往 Grafana 等任何后端。
+- **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]]**(05:52起):本集称 OpenInference 符合 OTEL 规范，是把 GenAI 数据规范化的开放标准基础，可发往 Grafana 等任何后端。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《日志会说谎：语音智能体的失败，你听得见却看不见》]] — 作为概念
+- [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]] — 作为概念
 
 ## ③ 关联
 

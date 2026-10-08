@@ -139,7 +139,7 @@ AI 基础设施的第一阶段是更好的模型，当前阶段是更快的推�
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Meta · 同概念:GPU、推理 (inference)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同概念:GPU、推理 (inference)、智能体 (agent)</span>
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Meta · 同概念:GPU、推理 (inference)</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Meta · 同概念:GPU、推理 (inference)</span>
 
 </div>
 </div>

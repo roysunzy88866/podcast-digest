@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]]**(01:48起):本集把它说成:OutSystems 自家的 AI 构建助手/服务,后端挑选并微调了一堆模型驱动,如今实际是一组可在任何地方通过 MCP 服务消费的构建能力。
+- **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]]**(01:48起):本集把它说成:OutSystems 自家的 AI 构建助手/服务,后端挑选并微调了一堆模型驱动,如今实际是一组可在任何地方通过 MCP 服务消费的构建能力。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《企业级 AI 的「永不出错」：OutSystems CEO 谈智能体时代的软件平台》]] — 作为概念
+- [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为概念
 
 ## ③ 关联
 

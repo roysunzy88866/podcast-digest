@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]]**(10:46起):本集说它是放进 node_modules 的文件，告诉智能体「有问题的话所有文档都在这里，去 grep 它们」，实测跨多个模型能节省近 50% 的 token。
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(02:07起):本集说它是一种人类可读的语言文件，告诉智能体该做什么、怎么表现（如「你是资深工程师，监视这个 Jira 队列，审查进来的工单」），推送到平台即可部署。
-- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]]**(04:58起):足够轻量、给智能体一张代码库地图的活文档，要随智能体犯错的过程不断演进
+- **[[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]]**(04:58起):足够轻量、给智能体一张代码库地图的活文档，要随智能体犯错的过程不断演进
 
 ## ① 提到它的金句
 
@@ -27,7 +27,7 @@ unlisted: true
 
 - [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]] — 作为概念
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
-- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 周更背后：小团队如何用智能体重塑整个发布系统》]] — 作为概念
+- [[2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly|《VS Code 团队如何靠 AI 把月更改成周更》]] — 作为概念
 
 ## ③ 关联
 

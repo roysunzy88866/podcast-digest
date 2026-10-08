@@ -60,16 +60,16 @@ unlisted: true
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(00:52起):本集说它是投资者兼最深合作伙伴：无法律文件、不排他，任意时点十几个协作项目、双方各投三位数开发者，从网络设备到机密计算到下一代 GPU/DPU，同时 VastData 也与 AMD 合作
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(38:19起):本集举 Jensen Huang 为例:2017 年见过他时 NVIDIA 还不是今天的 NVIDIA,但思路一致、执行力惊人、身边聚着忠诚的聪明人。
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(08:00起):本集举的浪费例子：NVIDIA 训练 Cosmos 机器人时下载一百万小时视频、丢弃约 96%，浪费算力、带宽、存储和钱。
-- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]]**(53:04起):本集说：七巨头里唯一赚钱的是 NVIDIA——它把赚到的钱再借回给另外六家，好让它们买更多 NVIDIA 的产品。
+- **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(53:04起):本集说：七巨头里唯一赚钱的是 NVIDIA——它把赚到的钱再借回给另外六家，好让它们买更多 NVIDIA 的产品。
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(01:52起):Yannick 的前雇主,他在那里从零把硅光子学打造成产品级成熟度;本集说 NVIDIA 领导了向光子学的转向,26 年用对 Lumentum、Coherent 的投资表明态度,六个月投资了整个市场规模四倍的资金。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(01:00起):本集说 NVIDIA 是一家加速计算公司，制造 GPU、网络设备、CPU 和 SoC；它主动推广开放模型，通过构建开放模型来理解该造什么样的 GPU 架构，并赋能整个生态。
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(09:51起):Jamie 举例说 NVIDIA 遥遥领先的核心原因是周期时间更短,出芯片比谁都快
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(00:46起):本集只在引用 Eric Vischer 的「都会成」时提了一句：是 NVIDIA 会成还是新芯片公司会成——答案是都会成。
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(00:01起):本集把它说成芯片行业霸主：一套系统里集成六到九颗自研定制芯片；同时是各家第一方自研芯片要压价的对象。
-- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]]**(01:13起):Nebius 紧密合作的芯片厂商,向其投资 20 亿美元;Nebius 早期采用 Blackwell Ultra、HGX B300、GB300、Rubin 等最新芯片并优化内核和运行时
+- **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]]**(01:13起):Nebius 紧密合作的芯片厂商,向其投资 20 亿美元;Nebius 早期采用 Blackwell Ultra、HGX B300、GB300、Rubin 等最新芯片并优化内核和运行时
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(16:06起):Crusoe 的长期合作伙伴,Chase 通过看它的芯片路线图(150/200 瓦到 600 瓦)判断功率密度上升会改变数据中心形态。
-- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(11:52起):本集说 NVIDIA 是令人难以置信的全系统公司，给加速器生态提供非常强的参考栈
-- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]]**(08:41起):本集说它正用收入底线、房东担保、可转让租约等表外兜底（约5880亿美元）扶持新云生态，并认为这是扶植多样化云市场的务实做法而非维持泡沫。
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(11:52起):本集说 NVIDIA 是令人难以置信的全系统公司，给加速器生态提供非常强的参考栈
+- **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(08:41起):本集说它正用收入底线、房东担保、可转让租约等表外兜底（约5880亿美元）扶持新云生态，并认为这是扶植多样化云市场的务实做法而非维持泡沫。
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(97:19起):本集提到它成为世界最有价值公司，是超级智能浪潮的体现；Jensen 被评价为不相信超级智能、只看到智能体有用。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]]**(64:09起):本集说 NVIDIA 吞并了一批苦苦挣扎的 GPU 数据库公司(含 HeavyDB)、全力押注 GPU 数据库,动机显然是多卖 GPU
 
@@ -156,17 +156,17 @@ unlisted: true
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念(提及)
-- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《Cory Doctorow:反向半人马、AI 泡沫与打工人自救指南》]] — 作为被讨论公司
+- [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为被讨论公司
 - [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为被讨论公司
-- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《把开源大模型跑进生产环境:推理平台背后的四层优化》]] — 作为被讨论公司(提及)
+- [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司(提及)
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为被讨论公司(提及)
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌》]] — 作为被讨论公司
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司(提及)
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司(提及)
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则》]] — 作为被讨论公司
 

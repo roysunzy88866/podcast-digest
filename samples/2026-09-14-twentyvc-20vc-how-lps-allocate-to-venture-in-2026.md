@@ -146,7 +146,7 @@ David 用棒球队比喻他对 GP 的要求：你是三垒手就守三垒——�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:数据中心 (data center)</span>
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:数据中心 (data center)</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:数据中心 (data center)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、SpaceX</span>
 
 </div>

@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]]**(28:53起):本集举例说 Firecracker 这类 micro VM 配 KVM hypervisor 时,直接跑在裸金属上比嵌套在虚拟机里容易得多。
-- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]]**(56:02起):本集答疑中提到 E2B 基于 Firecracker（AWS 开源的轻量级虚拟机技术）构建。
+- **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(56:02起):本集答疑中提到 E2B 基于 Firecracker（AWS 开源的轻量级虚拟机技术）构建。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(15:09起):AWS 的微型虚拟机,约 10 年前发明、并非为智能体而生,但启动快、安全边界好、虚拟化开销小,意外成了行业标配。
 
 ## ② 出现在这些集
@@ -20,7 +20,7 @@ unlisted: true
 *3 集*
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|《当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建》]] — 作为概念(提及)
-- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《沙箱套沙箱：E2B 工程师带你实战智能体沙箱运维》]] — 作为概念(提及)
+- [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
 
 ## ③ 关联

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]]**(00:37起):本集介绍它是提供语音 AI 基础设施的公司，训练自己的语音转文本基础模型（Fireflies 等会议记录工具用的就是他们的转写），每天约有 1,000 个 API 注册。
+- **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(00:37起):本集介绍它是提供语音 AI 基础设施的公司，训练自己的语音转文本基础模型（Fireflies 等会议记录工具用的就是他们的转写），每天约有 1,000 个 API 注册。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《每天 1000 个注册用户撑不住人工客服：Assembly AI 造了个「数字员工」Joey》]] — 作为被讨论公司
+- [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为被讨论公司
 
 ## ③ 关联
 

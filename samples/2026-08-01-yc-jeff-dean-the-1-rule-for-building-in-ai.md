@@ -174,7 +174,7 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU</span>
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:Google · 同概念:Gemini、推理 (inference)</span>
 - [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|Tether 做本地 AI：数据中心造太多了]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agents)</span>
 

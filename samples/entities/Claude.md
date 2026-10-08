@@ -204,11 +204,11 @@ unlisted: true
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
 
-![[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn#^q3]]
-
 ![[2026-10-06-sed-security-in-the-age-of-instant-exploits#^q4]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q5]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q40]]
+
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q7]]
 
 ## ② 出现在这些集
 

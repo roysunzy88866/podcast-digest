@@ -25,7 +25,7 @@ unlisted: true
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(26:09起):本集作为模型差异的例子:疯狂给图片加悬停动画、评估品味时视口塞得越多评分越高
 - **[[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]]**(07:23起):本集说多亏 Antigravity 产品,Gemini 已经学会了如何管理一个智能体团队;Gemini 3.5 Flash 于四月发布,不仅擅长执行任务,还非常擅长领导团队,更快更便宜
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Gemini 背后有 Google 的天然分发和更大用户基数，但美国付费订阅者已被 Claude 反超，付费用户中最高档占比仅约 1%。
-- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]]**(30:27起):本集提到 Google 正在用 Gemini 为未来的 Gemini 设计硬件
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(30:27起):本集提到 Google 正在用 Gemini 为未来的 Gemini 设计硬件
 
 ## ① 提到它的金句
 
@@ -37,7 +37,7 @@ unlisted: true
 
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
 
-![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q11]]
+![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q16]]
 
 ## ② 出现在这些集
 
@@ -57,7 +57,7 @@ unlisted: true
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]] — 作为被讨论公司
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《Google AI 基础设施掌门人：如何给史上最大基建「每瓦榨出最多智能」》]] — 作为概念
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念
 
 ## ③ 关联
 

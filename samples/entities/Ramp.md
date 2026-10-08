@@ -20,7 +20,7 @@ unlisted: true
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(01:24起):被列为「拥有极度狂热的领导团队和工程团队的赢家」公司例子之一，与 Eleven Labs、Anthropic、Speechify 并列。
 - **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(09:57起):本集说『厄运循环』这个术语借自 RAMP 的博客文章：超支、同时使用不足，token 拉满把自己逼进紧缩再退出循环。
 - **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(00:35起):本集提到 Ramp 几个月前发博客介绍他们的 Inspect 系统，点燃了整个行业对软件工厂的兴趣。
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(23:00起):本集只在讲欺诈联盟逻辑时顺带提到:在 Brex 被封的欺诈者转头就去 Ramp 申请。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(23:00起):本集只在讲欺诈联盟逻辑时顺带提到:在 Brex 被封的欺诈者转头就去 Ramp 申请。
 
 ## ② 出现在这些集
 
@@ -35,7 +35,7 @@ unlisted: true
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为被讨论公司(提及)
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司(提及)
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

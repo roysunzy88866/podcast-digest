@@ -23,7 +23,7 @@ unlisted: true
 
 - [[2026-08-13-mos-know-which-rules-to-break-with-mtv-co-fo|《MTV 联合创始人 Tom Freston:打破规则的生意经》]] — 作为主持
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为主持
-- [[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev|《勇气可以练：Brene Brown 谈勇敢领导力》]] — 作为主持
+- [[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev|《勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能》]] — 作为主持
 - [[2026-10-01-mos-don-t-be-boring-kcrw-s-jennifer-ferro-on|《KCRW 台长 Jennifer Farrow:公共媒体如何不做「无聊的西兰花」》]] — 作为主持
 
 ## ③ 他谈到的

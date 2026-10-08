@@ -1,12 +1,12 @@
 ---
-title: VS Code 周更背后：小团队如何用智能体重塑整个发布系统
+title: VS Code 团队如何靠 AI 把月更改成周更
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "19:13"
 type: episode
 cover: "#64748b"
-description: VS Code 团队成员讲述如何借 AI 从月度发布改为每周发布：让代码库为智能体做好准备、自动代码评审与错误修复，以及更快学习产品反馈的完整方法。
+description: VS Code 团队的 Harald Kirschner 讲述他们如何用 AI 智能体改造整个开发流程，从月度发布提速到每周发布。
 guests: ["[[Harald Kirschner]]"]
 companies: ["[[VS Code]]", "[[Copilot CI]]"]
 concepts: ["[[智能体]]", "[[agents.md]]", "[[代码存活率]]", "[[MCP]]", "[[playwright]]", "[[TypeScript Go]]", "[[代码审查]]", "[[评估]]"]
@@ -16,18 +16,18 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#post","headline":"VS Code 周更背后：小团队如何用智能体重塑整个发布系统","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly","description":"VS Code 团队成员讲述如何借 AI 从月度发布改为每周发布：让代码库为智能体做好准备、自动代码评审与错误修复，以及更快学习产品反馈的完整方法。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Harald Kirschner"},{"@type":"Organization","name":"VS Code"},{"@type":"Organization","name":"Copilot CI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"agents.md"},{"@type":"Thing","name":"代码存活率 (code survival)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"playwright"},{"@type":"Thing","name":"TypeScript Go"},{"@type":"Thing","name":"代码审查 (code review)"},{"@type":"Thing","name":"评估 (evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"VS Code 周更背后：小团队如何用智能体重塑整个发布系统","item":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly#post","headline":"VS Code 团队如何靠 AI 把月更改成周更","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly","description":"VS Code 团队的 Harald Kirschner 讲述他们如何用 AI 智能体改造整个开发流程，从月度发布提速到每周发布。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Harald Kirschner"},{"@type":"Organization","name":"VS Code"},{"@type":"Organization","name":"Copilot CI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"agents.md"},{"@type":"Thing","name":"代码存活率 (code survival)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"playwright"},{"@type":"Thing","name":"TypeScript Go"},{"@type":"Thing","name":"代码审查 (code review)"},{"@type":"Thing","name":"评估 (evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"VS Code 团队如何靠 AI 把月更改成周更","item":"https://talk.solomind.cc/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>VS Code 周更背后：小团队如何用智能体重塑整个发布系统</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>VS Code 团队如何靠 AI 把月更改成周更</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# VS Code 周更背后：小团队如何用智能体重塑整个发布系统
+# VS Code 团队如何靠 AI 把月更改成周更
 
 <div class="pd-byl"><b>Harald Kirschner</b> · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-03-talks-how-vs-code-went-from-monthly-to-weekly.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">但一旦你让智能体撞上这个，你有 10 个智能体、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。</div><div class="a">— Harald Kirschner <button class="pd-ts" data-t="07:24" data-who="Harald Kirschner" data-en="But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">这是一个非常小的团队，向超过 5000 万用户交付。</div><div class="a">— Harald Kirschner <button class="pd-ts" data-t="01:07" data-who="Harald Kirschner" data-en="And that's a very small team shipping to over 50 million users." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Harald Kirschner]]
@@ -36,121 +36,137 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[agents.md]] · [[代码存活率]] · [[MCP]] · [[playwright]] · [[TypeScript Go]] · [[代码审查]] · [[评估]]
 
-这一集的演讲者来自 [[VS Code|VS Code]] 团队,做的是 VS Code 和 [[Copilot CI|Copilot CI]] 相关的工作。
+这场演讲来自一位 [[VS Code|VS Code]] 团队成员 [[Harald Kirschner|Harald Kirschner]]。
 
-他讲的核心不是「怎么把[[智能体|智能体]]装进产品」,而是一个更少人聊的话题:**怎么用智能体来构建产品本身**。
+他讲的不是怎么在 VS Code 里内置 AI，而是团队怎么用 AI [[智能体|智能体]]来开发 VS Code 本身——一支小团队，服务超过 5000 万用户，发布节奏从坚持了 10 年的每月一次，变成了每周一次。
 
-这个团队规模很小,却要向超过 5000 万用户交付软件——而过去一年,多亏了 AI,他们把延续了 10 多年的月度发布周期改成了每周发布。
+## AI 写的代码，到底有多少能用？
 
-最有说服力的一个数字:团队很早就开始跟踪「[[代码存活率|代码存活率]]」——智能体写的代码中真正被提交的百分比,用来衡量智能体产出了多少被扔掉的垃圾。
+团队很早就开始跟踪一个指标：
 
-GPT 4.1 起步时只有 55%,但随着框架(harness,即模型外面套的那层工具环境)的改进和新模型的出现,Claude Opus 4.6 已经达到 86%。
+智能体写的代码里，有多大比例最终被提交进了仓库——剩下的就是被人类看了一眼就扔掉的“垃圾代码”。
 
-这个增长直接反映了开发者对 AI 代码的信任在上升 <button class="pd-ts" data-t="01:13" data-who="嘉宾" data-en="And that's a very small team shipping to over 50 million users. What happened is over the past year is we started tracking already early on this code survival metrics in VS Code." aria-label="回原文"></button>。
+GPT 4.1 时代这个数字是 55%,随着流程改进和新模型出现，**如今 Claude Opus 4.6 已经达到 86%** <button class="pd-ts" data-t="01:37" data-who="嘉宾" data-en="So GBT 4.1 started at 55%. But then over time and over improving the harness and new models, Claude Opus 4.6 is now today at 86%. And that increase clearly shows developer trust and confidence in shipping AI code faster and more AI code generated." aria-label="回原文"></button>。
 
-但成功本身带来了新问题:VS Code 是 GitHub 上最大的开源项目之一,AI 帮人提交 issue 后,issue 数量暴涨,质量参差;团队自己和社区开的 PR 也变多——有意思的是,社区 PR 被合并的数量反而在上升,而不是像所有人以为的那样涌进一堆垃圾 PR。
+这个数字说明开发者越来越信任 AI 代码。但成功也带来了新问题：GitHub 上的 issue 数量大涨，因为 AI 也让用户更容易提 issue。
 
-演讲者的核心主张是:**这不只是「日常多用 AI」,而是要演进整个软件交付系统,让 AI 在全流程中发挥作用**。
+有趣的是，被合并的社区贡献数量反而在上升——大家以为会涌入大量垃圾 PR,结果社区贡献也被解锁了 <button class="pd-ts" data-t="02:24" data-who="嘉宾" data-en="We also see more open PRs by the team, by our own velocity, and by our community. An interesting part, we actually see, everybody would assume we see a lot of garbage PRs, but actually the number of community merged PRs is going up as well, which is really amazing that we can unlock more community contributions as well." aria-label="回原文"></button>。
 
-他把这条路拆成三层:更快地写代码(容易)、有质量地写代码(变难)、更快地学习——最后这层是大多数人错过的。
+## 让代码库对智能体友好
 
-## 第一步:把代码库改造成智能体能干活的地方
+提速的第一步，是让代码库本身对智能体“可读”。
 
-最快出代码的阶段其实不难——总有那种「100 倍工程师」搭好 [[MCP|MCP]] 插件系统疯狂产出。真正的地基是让代码库「为智能体做好准备」:
+具体做法包括写 [[agents.md|agents.md]] 文件——可以理解为给智能体的代码库地图，告诉它该去哪找什么。
 
-- **写 [[agents.md|agents.md]]**:足够轻量、给智能体一张代码库地图(去哪看、怎么走)。它是活文档,要随智能体犯的错不断演进。那些在开发者体验上投入过的团队在这里收益最大——好文档和上手指南,智能体同样会读、同样受益。
-- **把专家知识做成技能(skill)**:VS Code 早期就把无障碍最佳实践整体注入成一个所有人共用的技能,由无障碍负责人评审维护。以前这类事得把唯一的专家拉进来给反馈,现在专业知识被编码进了每个人的工具里。
-- **检验标准很接地气**:「我一个 PM 能不能在 VS Code 仓库里有效地 vibe coding?」演讲者本人就这么干——年初他为了加 Ask Questions 工具提交了一个很粗糙的大 PR,几周内团队就基于它打磨出设计精良的正式体验。粗糙的原型铺好了地基,解锁了所有人的参与和讨论。
+这些文件是活的文档，智能体犯错后要跟着更新。
 
-## 巨大的一步:切换到 TypeScript Go
+另一招是把专家经验做成“技能”。比如团队里负责无障碍设计的那位专家，以前每次都得被拉来给代码提意见。
 
-任何构建慢、linting 慢、CI-CD 慢的代码库,人类还能靠切出去评审别的 PR 来消化等待;但当你有 10 个、20 个智能体同时撞上同一个瓶颈,**CI-CD 里任何慢的环节都会被复合放大**。
+现在这些最佳实践被写成一份技能，所有人(和所有智能体)都能直接用 <button class="pd-ts" data-t="05:58" data-who="嘉宾" data-en="So one skill we added early on was infusing all the accessibility best practices and how we think about accessibility into a skill that everybody will use. And that previously was one person" aria-label="回原文"></button>。
 
-切到 [[TypeScript Go|TypeScript Go]](官方用 Go 语言重写的 TypeScript 编译器)给他们的构建带来了 10 倍提升——在智能体跑自动化 PR、依赖 CI-CD 循环拿反馈改进代码的规模下,这是质的差别。
+团队还有个检验标准：==产品经理能不能直接在 VS Code 的仓库里用自然语言指挥智能体写代码==？
 
-## 让智能体「看见」UI:两个反馈循环
+答案是能——演讲者本人就这么干，而工程师团队也接受这种方式。
 
-智能体写 UI 的通病:它说「看起来完美」,你打开一看全是错位——即使最新的模型也逃不掉。
+## 构建提速 10 倍：慢环节会被智能体放大
 
-演讲者反复强调的头号投资:**如果你的智能体不能直接使用你的产品来获得「一切是否正常」的反馈循环,这是最值得做的投资**,每次做 UI 都有回报。
+一个听起来不起眼但影响巨大的改动：把构建工具换成了 [[TypeScript Go|TypeScript Go]],构建速度提升 10 倍 <button class="pd-ts" data-t="07:36" data-who="嘉宾" data-en="But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound. And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement." aria-label="回原文"></button>。
 
-他们做了两件事:
+==为什么这重要==？人类开发者遇到慢的构建，可以切去干别的。
 
-- **组件浏览器**:每次代码变更自动运行,截取 VS Code 中每个组件的截图并标出差异。改一个组件的连锁反应(别的东西移位、图标消失)立刻现形;评审 PR 时也能直接看到改动效果——以前他们要求每个开发者至少附上截图或视频,现在全自动了。
-- **自我纠错循环**:VS Code 本质是跑在 Electron 里的网页应用(全是 HTML),所以可以用 [[playwright|Playwright]](浏览器自动化工具)做「slash launch」技能——让智能体打开 VS Code,按指定场景点击走一遍,沿途拿日志,自己验证修复前后是否有效。你点一下 launch 就去做下个任务,等它验证完再回来。类似方案在别的平台也有,演讲者举例 Xcode MCP:不用打开 Xcode 就能创建 iOS 应用、点开、截图,反馈循环非常紧密。
+但当你同时跑着 10 个、20 个智能体，全都卡在同一个瓶颈上，任何慢的环节都会成倍放大。
 
-## 代码评审:先机器后人类
+智能体需要快速的构建反馈来改进自己的代码。
 
-GitHub Copilot 的自动[[代码审查|代码评审]],他们起初并不信服,但几个月里它大幅改进,现在已经是**强制项**:每个 PR 都会被自动评审,而且可以按仓库风险调低、中、高三档力度,权衡成本收益。
+## 智能体看不懂 UI？让它自己点开看
 
-关键规矩是:**评审的评论没全部解决之前,人类根本不看这个 PR**。
+智能体写界面有个通病：它声称完美，你打开一看全是错位的。团队的解法是让智能体能直接操作产品本身，形成反馈闭环。
 
-## 守住质量:智能体分诊 issue 和错误堆栈
+第一个工具是“组件浏览器”：每次代码变更后自动给 VS Code 的每个界面组件截图，并标出差异。
 
-更快地交付之后,必须守住质量。
+你改了一个返回按钮，系统能自动发现别处的图标因此消失了——这种涟漪效应人眼很容易漏掉 <button class="pd-ts" data-t="09:33" data-who="嘉宾" data-en="And because it's changing wide, we actually have this automated process in the back that takes screenshots of every component in VS Code and points out the differences." aria-label="回原文"></button>。
 
-因为用户装的是二进制,出了问题恢复成本极高,他们还放弃了以前的「YOLO 式发布」(发布日一切测完直接推给 100% 用户),改成分阶段发布,过程中监控错误日志和 issue——像 Web 应用的良好公民一样,因为已安装应用的回滚代价太大。
+第二个是“自纠错循环”。VS Code 本质上是一个跑在 Electron 里的网页应用，所以可以用 [[playwright|Playwright]] 自动化操作浏览器。
 
-issue 侧:AI 帮不同语言背景的用户提交了更好的 issue,但量也爆炸了。
+一个斜杠命令就能启动 VS Code,让智能体按场景点一遍，验证修复前后的表现，你先去干别的，回来时它已经自己验完了 <button class="pd-ts" data-t="10:40" data-who="嘉宾" data-en="So it's a really powerful way to diagnose issues because you can also get the locks along the way, but also validate any fixes you did before and after without you having to click through it." aria-label="回原文"></button>。
 
-现在 AI 负责过滤垃圾、充实内容、翻译,并为每个 issue 指派领域负责人;同时保留人工反馈层——他们做了个 Chrome 扩展,让人类能修正智能体分诊的错误(比如标记重复 issue),这些修正再回流到上游的智能体工作里。
+## 代码审查：AI 先过，人类后看
 
-演讲者特别提醒:**让智能体干活的同时,一定要设计人类反馈的回路**。
+GitHub Copilot 的自动代码审查，早期团队并不信服，但几个月内质量大幅提升，现在已经成了强制环节：
 
-更成体系的是错误堆栈流水线,全程自建工具、不用外部服务:每天收集约 510 亿条原始遥测数据,过滤出带完整堆栈的错误,指纹化分组分桶,最后每天产出约 10 个自动提交并指派给错误负责人的 issue,而且**自动创建 PR 尝试修复**。
+每个 PR 都必须先过 AI 审查，而且**所有评论被解决之前，人类根本不看这个 PR** <button class="pd-ts" data-t="12:03" data-who="嘉宾" data-en="But for us, after a review is done, humans will not even look at PR until all the comments are resolved and addressed. Okay, now we're holding We're shipping faster." aria-label="回原文"></button>。团队还可以根据风险高低，调整 AI 审查的投入力度。
 
-演示的案例里,智能体自己查明了根因(某个取消请求不在 RPC 协议里),开好 PR,人只需要合并。
+## 每天 510 亿条遥测数据，最后变成 10 个自动修复
 
-「你不在乎错误,你只想要一个更稳定的代码库。」
+产品崩溃时会上报错误堆栈。
 
-整条链是:智能体 + 确定性系统做分诊 → 提交 issue → 移交给多智能体系统生成 PR → 修复大部分自动落地,仅保留人工批准。
+团队每天收集约 510 亿条原始遥测数据，过滤出完整堆栈，做分组和指纹识别，最后每天产出约 10 个 issue,**分派给对应的错误负责人，并且自动创建 PR 尝试修复** <button class="pd-ts" data-t="13:53" data-who="嘉宾" data-en="We filter it down, and it's like 51 billion per day. We filter it down to just error stacks that actually have the full stack. Then we group it and bucket it." aria-label="回原文"></button>。
 
-## 最被忽视的一层:更快地学习
+演讲里演示了一个真实例子：
 
-「更快更好地打造产品」——写更多代码时,大多数人错过的恰恰是运用产品品味和产品学习。他们的做法:
+智能体自动打开 PR,自己查明了错误原因——某次改动漏掉了协议里的取消请求处理——然后直接修复，人类只需要批准合并。
 
-- **VSC bench 自建[[评估|评测]]**:作为智能体化产品,必须有随手可用、极易扩展的产品评测。想加新评测场景?提交一个 GitHub issue,智能体从模板接手帮你搭好框架——来自 issue、客户对话等各渠道的开发者场景都能低成本收进评测,然后离线爬坡优化,再做在线实验。
-- **理解你的评测至关重要**:他们做过一个实验,评测场景简单到只是「写一个含 hello world 的文件」,仅仅为了端到端测评测框架。结果同样一个五个字符的文件,最贵的模型消耗了 70 倍的 token——而且还不是开最高推理档的模型。了解模型在你的框架里如何反应,是极其重要的练习。
-- **每日原型对话**:演讲者大量做原型,但大多不打算合入主仓库——原型是用来开对话的。团队现在开每日冲刺,小 squad、小工作流聚焦小块领域:今天给你看想法和样子,明天带着更新后的原型回来继续聊。从月度周期到每周再到每日,原型解锁了更深入的体验讨论。
+发布方式也变了。以前 VS Code 是“开闸放水”式发布：测试完就直接推给 100% 用户。
+
+现在改成分阶段放量，边推边监控错误日志，因为安装在用户电脑上的应用，回滚的代价太高了 <button class="pd-ts" data-t="15:44" data-who="嘉宾" data-en="So now, actually, we do staged rollouts. And as we do the rollout, we monitor error locks and issues and everything else. So just like good citizens in a web application, we now apply the same because rollbacks on an install app are so expensive." aria-label="回原文"></button>。
+
+## 写得快不够，还要学得快
+
+演讲者认为，多数人只做到了“写得快”，却错过了 AI 真正的价值：**更快地学习和做出更好的产品**。
+
+一个例子是评估体系。团队建了 VSC bench,把产品场景做成可扩展的测试集。
+
+有趣的是，一个“写一个包含 hello world 的文件”的简单任务，不同模型消耗的 token 相差 70 倍——而这个最贵的模型甚至不是推理能力最强的那个 <button class="pd-ts" data-t="17:24" data-who="嘉宾" data-en="The same five character file took the most expensive model 70x more tokens. And that was not the high reasoning model. You can read more about Unblock." aria-label="回原文"></button>。
+
+团队的工作方式也随之改变：从月度节奏到每周发布，再到每天碰头的短冲刺。
+
+演讲者本人大量做原型——不是为了合并代码，而是第二天开会时能拿着看得见的原型讨论，“这是想法，这样做行不行？”
+
+反馈周期被压缩到了一天 <button class="pd-ts" data-t="18:06" data-who="嘉宾" data-en="Next day you come back with updated prototypes and you just keep having this conversation. So much quicker feedback from a month release cycle to weekly to daily sprints where you just keep working on problems and prototypes unlock those deeper discussions and how the experience should look like." aria-label="回原文"></button>。
+
+他给听众的建议是：找出你的瓶颈在哪，修好下一个瓶颈；别只调教怎么用智能体，更要调教它们怎么获得反馈。
 
 ## 本集带走
 
-- **先看代码存活率**:跟踪智能体代码被提交的百分比(他们从 55% 做到 86%),这是衡量「AI 真的提效了还是只是生成了更多垃圾」最直接的单一指标。
-- **给智能体修路,比催它跑得快更值钱**:agents.md 活文档、专家知识做成 skill、把 CI-CD 里每个慢环节提速(他们靠 TypeScript Go 拿到 10 倍构建提升)——因为智能体并行运行时,慢的部分会被复合放大。
-- **让智能体能直接使用你的产品**:UI 截图对比的组件浏览器 + Playwright 式的自我验证循环,每次做 UI 都有回报。
-- **评审流程改成「机器先行」**:自动评审强制覆盖、按风险调力度、评论未解决前人类不看 PR。
-- **给智能体配人工纠错回路**:自动分诊 issue 和错误堆栈(他们做到每天自动提交 issue 并自动开修复 PR),但必须留一条人类能修正并回流的路。
-- **别只调你和智能体的协作,要调它怎么拿到反馈**:自建易扩展的评测(一个 issue 就能加场景)、用小原型驱动每日对话——更快的学习才是 AI 时代真正的瓶颈。
+- VS Code 的 AI [[代码存活率|代码存活率]]从 55%(GPT 4.1)提升到 86%(Claude Opus 4.6),发布节奏从月更变为周更
+- 慢的构建流程会被并行智能体成倍放大，切换到 TypeScript Go 带来 10 倍构建提速
+- 让智能体直接操作产品(截图对比、Playwright 自动点检)是解决“AI 看不懂 UI”的关键
+- 每天 510 亿条遥测数据经自动分组后，产出约 10 个自动创建修复 PR 的 issue,人类只负责批准
+- AI 的更大价值不是写得快，而是把产品反馈周期从一个月压缩到一天，让团队学得更快
 
-<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
-> <span class="qz">但一旦你让智能体撞上这个，你有 10 个智能体、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。</span>  
+> <span class="qz">这是一个非常小的团队，向超过 5000 万用户交付。</span>  
+> *And that's a very small team shipping to over 50 million users.*  
+> <span class="qm">—— Harald Kirschner · [01:07]</span> ^q1
+
+> <span class="qz">这就是 AI 发挥作用的地方——最终更快地学习、交付更好的产品，而这是很多人在写更多代码时错过的东西：运用产品品味，运用那种学习。</span>  
+> *And that's where AI kicks in to actually learn faster in the end and shipping better products, which a lot of people are missing out as they write more code is applying the product taste and applying that learning.*  
+> <span class="qm">—— Harald Kirschner · [04:34]</span> ^q2
+
+> <span class="qz">但一旦让智能体撞上这个，你有 10 个、20 个智能体在运行并撞上同一个瓶颈，你 CI-CD 中任何缓慢的部分都会被复合放大。</span>  
 > *But once you hit that with agents, you have 10 agents, 20 agents running and hitting the same bottleneck, any slow part of your CI-CD will compound.*  
-> <span class="qm">—— Harald Kirschner · [07:24]</span> ^q1
+> <span class="qm">—— Harald Kirschner · [07:24]</span> ^q3
 
-> <span class="qz">对我们来说，TypeScript Go 让我们的构建获得了 10 倍的提升，在智能体运行的自动化 PR 的规模下，以及它们需要那个 CI-CD 循环来获取反馈以改进代码的情况下，这是一个巨大的提升。</span>  
+> <span class="qz">对我们来说，TypeScript Go 让构建获得了 10 倍提升——在智能体运行自动化 PR、需要 CI-CD 循环来获取反馈改进代码的规模下，这是一个巨大的提升。</span>  
 > *And for us, TypeScript Go was a 10 times improvement in our builds, which at the scale of automatic PRs running with agents and them needing that CI, CD loop for feedback to improve the code is a massive improvement.*  
-> <span class="qm">—— Harald Kirschner · [07:36]</span> ^q2
+> <span class="qm">—— Harald Kirschner · [07:36]</span> ^q4
 
-> <span class="qz">如果你的智能体无法直接使用你的应用程序、你的产品来获得「一切是否正常工作」的反馈循环，那么这是一项非常值得的投资，每次你做 UI 工作时都会有回报。</span>  
+> <span class="qz">如果你的智能体无法直接使用你的应用、你的产品来获得「一切是否正常」的反馈循环，那么这是一项非常值得的投资，每次你做 UI 工作时都会有回报。</span>  
 > *If your agent cannot use your application, your product directly to get this feedback loop of is it all working, then that's a really big investment that pays off every time you work on UI.*  
-> <span class="qm">—— Harald Kirschner · [08:48]</span> ^q3
-
-> <span class="qz">但对我们来说，review 完成之后，在所有评论都被解决和处理完之前，人类甚至不会去看 PR。</span>  
-> *But for us, after a review is done, humans will not even look at PR until all the comments are resolved and addressed.*  
-> <span class="qm">—— Harald Kirschner · [11:53]</span> ^q4
-
-> <span class="qz">你不在乎错误，你只想要一个更稳定的代码库。</span>  
-> *You don't care about errors, you just want to get a more stable code base.*  
-> <span class="qm">—— Harald Kirschner · [14:59]</span> ^q5
+> <span class="qm">—— Harald Kirschner · [08:48]</span> ^q5
 
 > <span class="qz">同样一个五个字符的文件，最贵的模型消耗了 70 倍的 token。</span>  
 > *The same five character file took the most expensive model 70x more tokens.*  
 > <span class="qm">—— Harald Kirschner · [17:18]</span> ^q6
 
-> <span class="qz">找出你的瓶颈在哪里，以真正更高质量地发布、更快地发布、更快地学习，然后修复下一个瓶颈。</span>  
-> *Find out where your bottlenecks are to actually ship higher quality, ship faster, and learn faster, and fix that next bottleneck.*  
-> <span class="qm">—— Harald Kirschner · [18:39]</span> ^q7
+> <span class="qz">而且不只是调整你如何与智能体协作，还要调整它们如何获得反馈。</span>  
+> *And don't just tune how you work with agents, but tune how they get feedback.*  
+> <span class="qm">—— Harald Kirschner · [18:48]</span> ^q7
+
+> <span class="qz">有趣的一点是，每个人都会以为我们会看到很多垃圾 PR，但实际上社区 PR 被合并的数量也在上升，这真的很了不起，我们也能解锁更多的社区贡献。</span>  
+> *An interesting part, we actually see, everybody would assume we see a lot of garbage PRs, but actually the number of community merged PRs is going up as well, which is really amazing that we can unlock more community contributions as well.*  
+> <span class="qm">—— Harald Kirschner · [02:24]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 

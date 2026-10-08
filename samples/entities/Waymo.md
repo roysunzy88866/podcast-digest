@@ -28,8 +28,8 @@ unlisted: true
 - **[[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|《公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南》]]**(04:16起):本集举的著名大公司分拆案例:Google 分拆了 Waymo,让它独立融资验证估值,并给 AI 人才一种「这会是万亿美元公司」的激励货币。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(61:17起):Molly 判断「哪些工作该交出去」的参照系：任何坐过 Waymo 的人都会意识到开车从根本上就是代码和系统，人类真不擅长被自动化
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(25:20起):本集用 Waymo 数百万英里数据说明它比人类司机安全 10-14 倍，而全美不到 1 万辆，扩散才刚起步。
-- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]]**(40:30起):本集用『坐进 Waymo 无人车根本没多想』作类比,说明人们对清醒状态下直接测量神经系统这道心理关卡终将习惯。
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(16:55起):本集说它是自动驾驶的金标准，靠分解、抽象、逐个确保可靠的工程取胜，是工程胜利而非 AI 胜利。
+- **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(40:30起):本集用『坐进 Waymo 无人车根本没多想』作类比,说明人们对清醒状态下直接测量神经系统这道心理关卡终将习惯。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(16:55起):本集说它是自动驾驶的金标准，靠分解、抽象、逐个确保可靠的工程取胜，是工程胜利而非 AI 胜利。
 
 ## ① 提到它的金句
 
@@ -61,8 +61,8 @@ unlisted: true
 - [[2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl|《公司内部孵化出好项目怎么办:创业分拆(Spinout)的股权、IP 与避坑指南》]] — 作为被讨论公司(提及)
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
-- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《神经科学家 Andrew:真正懂大脑的人,正在把 AI 公司变成脑机公司》]] — 作为被讨论公司(提及)
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念(提及)
+- [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为被讨论公司(提及)
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念(提及)
 
 ## ③ 关联
 

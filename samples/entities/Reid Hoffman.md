@@ -47,7 +47,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev|《勇气可以练：Brene Brown 谈勇敢领导力》]] — 作为联合主持
+- [[2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev|《勇气是门手艺：Brené Brown 跟 Reid Hoffman 聊领导者最缺的技能》]] — 作为联合主持
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]] — 作为嘉宾
 
 ## ③ 他谈到的

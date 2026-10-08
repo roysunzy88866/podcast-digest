@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]]**(23:21起):本集说它刚以 50 亿美元出售；创始人 19 岁申请 YC 时点子是纸板做的可在家组装的 VR 眼镜，此前 15 岁在巴西创办支付网络并以约 5000 万美元卖掉——被用来说明「YC 赌的是创始人」
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:58起):本集提到 Brex 的创始人 Pedro Francesi 也参与了 a16z 的无国界晚宴，作为在硅谷成功的拉美裔创始人帮助后来者
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(00:38起):本集说 Brex 是 Michael 作为第一名员工在厨房里加入的公司，最初叫 Vyond，定位是第一张面向初创企业的公司卡加费用管理，后经历 SVB 崩溃事件并吸引超十亿美元存款。
-- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]]**(23:00起):本集用它举例说明欺诈数据不互通的问题:客户在 Brex 因欺诈被封号,Brex 不会告诉 Ramp,欺诈者就换个地方继续。
+- **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(23:00起):本集用它举例说明欺诈数据不互通的问题:客户在 Brex 因欺诈被封号,Brex 不会告诉 Ramp,欺诈者就换个地方继续。
 
 ## ② 出现在这些集
 
@@ -27,7 +27,7 @@ unlisted: true
 - [[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]] — 作为被讨论公司
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
-- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《连续赢下20单、SVB崩盘当周融资：Baselayer CEO 的企业销售实战》]] — 作为被讨论公司
+- [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(08:30起):本集把它说成:Gray Swan 研发的专用防御过滤模型(取自天鹅 swan 的谐音)。位于用户、大模型和工具调用之间,专门盯着策略违规行为(如试图发 API 密钥到不受信任的地址)。
 - **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(08:07起):本集把信号定义为一个重要到足以改变客户下一步的单个事件(用户驱动或外部如融资、招聘),信号服务据此发出给人类或智能体的具体任务。
-- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(08:09起):本集说 signal 可在任意时刻接受任意输入并注入到正在运行的 workflow 中，相当于人类回话后让流程继续向前推进。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(08:09起):本集说 signal 可在任意时刻接受任意输入并注入到正在运行的 workflow 中，相当于人类回话后让流程继续向前推进。
 
 ## ① 提到它的金句
 
@@ -27,7 +27,7 @@ unlisted: true
 
 ![[2026-09-30-talks-the-death-of-the-code-review-what-the-da#^q6]]
 
-![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q8]]
+![[2026-10-04-talks-keyword-search-is-dying-is-your-catalog#^q5]]
 
 ## ② 出现在这些集
 
@@ -35,7 +35,7 @@ unlisted: true
 
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念
 - [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为概念
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为概念
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念
 
 ## ③ 关联
 

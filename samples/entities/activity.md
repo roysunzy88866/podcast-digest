@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(06:26起):本集说 activity 是 Temporal 三原语之一，所有与外部交互的东西——模型调用、工具调用都设为 activity，是非确定性的。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(06:26起):本集说 activity 是 Temporal 三原语之一，所有与外部交互的东西——模型调用、工具调用都设为 activity，是非确定性的。
 
 ## ① 提到它的金句
 
@@ -25,13 +25,13 @@ unlisted: true
 
 ![[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3#^q11]]
 
-![[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope#^q9]]
+![[2026-10-06-mos-kalshi-vs-everyone-co-founder-luana-lope#^q7]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为概念
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念
 
 ## ③ 关联
 

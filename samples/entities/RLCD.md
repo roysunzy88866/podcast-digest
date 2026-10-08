@@ -12,20 +12,20 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(21:15起):嘉宾自创的北极星任务(非新算法):让 AI 对程序化使用可靠、程序在环,与 RLHF「取悦人类」、RLVR「优化基准」并列
-- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]]**(11:19起):本集说是专门为校准决策优化的那类算法，把可调阈值等工程控制权交还给开发者，比 RLHF 难做得多。
+- **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(11:19起):本集说是专门为校准决策优化的那类算法，把可调阈值等工程控制权交还给开发者，比 RLHF 难做得多。
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q13]]
+![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q32]]
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《让 AI 可靠到像 SQL：Jev 与「机器原生智能」》]] — 作为概念
+- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
 
 ## ③ 关联
 

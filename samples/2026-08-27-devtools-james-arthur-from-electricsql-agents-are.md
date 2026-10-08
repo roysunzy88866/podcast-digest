@@ -105,7 +105,7 @@ Electric 从数据层出身，做的就是给平台和产品构建者提供同�
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:托管智能体 (managed agents)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:会话日志 (session log)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|Google DeepMind 发布 Interactions API 与 Managed Agents：一次调用搞定智能体]]<span class="pd-rz">同概念:托管智能体 (managed agents)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|一次交互就够了：Google DeepMind 的新 API 到底想解决什么]]<span class="pd-rz">同概念:托管智能体 (managed agents)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

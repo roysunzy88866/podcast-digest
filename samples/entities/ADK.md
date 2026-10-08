@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]]**(01:10起):本集说 ADK 是 Google 提供的编排多个智能体的解决方案，demo 里与 Temporal 集成，跑客户与车队智能体。
+- **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(01:10起):本集说 ADK 是 Google 提供的编排多个智能体的解决方案，demo 里与 Temporal 集成，跑客户与车队智能体。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《把人类当成一个异步 API:智能体永不下线》]] — 作为概念
+- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念
 
 ## ③ 关联
 

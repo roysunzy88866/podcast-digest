@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]]**(01:01起):本集主角:洛杉矶一个 40 人团队,造混合动力电动飞机以降低航空旅行成本,刚完成世界最大电动飞机的首飞(翼展 100 英尺、25,000 磅)。(转写稿中亦写作 Hart Airspace,为同一家公司)
+- **[[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印小模型到全球最大电动飞机：他们只用了 7 年》]]**(01:01起):本集主角:洛杉矶一个 40 人团队,造混合动力电动飞机以降低航空旅行成本,刚完成世界最大电动飞机的首飞(翼展 100 英尺、25,000 磅)。(转写稿中亦写作 Hart Airspace,为同一家公司)
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印模型到世界最大电动飞机》]] — 作为被讨论公司
+- [[2026-09-04-yc-the-worlds-largest-electric-aircraft-jus|《从 3D 打印小模型到全球最大电动飞机：他们只用了 7 年》]] — 作为被讨论公司
 
 ## ③ 关联
 

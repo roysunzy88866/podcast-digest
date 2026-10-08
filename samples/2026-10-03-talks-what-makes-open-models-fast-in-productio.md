@@ -1,12 +1,12 @@
 ---
-title: "把开源大模型跑进生产环境:推理平台背后的四层优化"
+title: 开源大模型要跑得快，背后全是硬功夫
 podcast: 精选演讲
 date: 2026-10-06
 source_url: undefined
 duration: "20:15"
 type: episode
 cover: "#64748b"
-description: Nebius Token Factory 的 Dylan 与 Suji 讲解如何把开源 LLM 工程化到生产环境：平台全栈设计，以及投机解码、缓存感知路由等推理优化。
+description: Nebius Token Factory 的 Dylan 和 Suji 讲了讲：怎么把开源大模型真正优化到生产环境里跑得又快又便宜。
 companies: ["[[Nebius]]", "[[Token Factory]]"]
 concepts: ["[[开源模型]]", "[[推理]]", "[[投机解码]]", "[[KV 缓存]]", "[[量化]]", "[[后训练]]", "[[负载均衡]]"]
 category: 智能体
@@ -14,121 +14,139 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio#post","headline":"把开源大模型跑进生产环境:推理平台背后的四层优化","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio","description":"Nebius Token Factory 的 Dylan 与 Suji 讲解如何把开源 LLM 工程化到生产环境：平台全栈设计，以及投机解码、缓存感知路由等推理优化。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"Nebius"},{"@type":"Organization","name":"Token Factory"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"投机解码 (spec decoding)"},{"@type":"Thing","name":"KV 缓存 (KV cache)"},{"@type":"Thing","name":"量化 (quantization)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"负载均衡 (load balancing)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"把开源大模型跑进生产环境:推理平台背后的四层优化","item":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio#post","headline":"开源大模型要跑得快，背后全是硬功夫","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio","mainEntityOfPage":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio","description":"Nebius Token Factory 的 Dylan 和 Suji 讲了讲：怎么把开源大模型真正优化到生产环境里跑得又快又便宜。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"Nebius"},{"@type":"Organization","name":"Token Factory"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"投机解码 (spec decoding)"},{"@type":"Thing","name":"KV 缓存 (KV cache)"},{"@type":"Thing","name":"量化 (quantization)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"负载均衡 (load balancing)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"开源大模型要跑得快，背后全是硬功夫","item":"https://talk.solomind.cc/2026-10-03-talks-what-makes-open-models-fast-in-productio"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把开源大模型跑进生产环境:推理平台背后的四层优化</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>开源大模型要跑得快，背后全是硬功夫</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 把开源大模型跑进生产环境:推理平台背后的四层优化
+# 开源大模型要跑得快，背后全是硬功夫
 
 <div class="pd-byl">2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-03-talks-what-makes-open-models-fast-in-productio.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">每一个循环都让你的 AI 更具体、快得多、也便宜得多。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="09:44" data-who="嘉宾" data-en="Every cycle makes your AI more specific, way faster, and much cheaper." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">封闭 API 起步非常容易,但你往往会很快碰上天花板。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="02:50" data-who="嘉宾" data-en="Closed APIs are really easy to start with, but you often hit a ceiling really fast." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[Nebius]] · [[Token Factory]]
 >
 > **概念** [[开源模型]] · [[推理]] · [[投机解码]] · [[KV 缓存]] · [[量化]] · [[后训练]] · [[负载均衡]]
 
-这一集是 [[Nebius|Nebius]] 的一场技术分享。
+把一个大模型从能跑通变成能上线，中间隔着一大堆看不见的工程活。
 
-Nebius 是一家全栈 AI 云基础设施公司——不只提供模型 API,还自己运营底层的物理基础设施:自有数据中心、NVIDIA 系统、裸金属容量,在纳斯达克上市,总部在阿姆斯特丹,NVIDIA 几个月前还向它投资了 20 亿美元。
+这场 20 分钟的演讲里，[[Nebius|Nebius]] 的 Dylan（负责 [[Token Factory|Token Factory]] 的产品营销）和开发者布道师 Suji 讲了他们怎么做这件事：
 
-两位主讲人是 Dylan([[Token Factory|Token Factory]] 的产品营销负责人)和 Suji(开发者布道师),要讲的是「为生产环境工程化开源 LLM」。
+从芯片到服务层的垂直整合，再加上缓存、[[投机解码|投机解码]]这些听起来抽象、讲明白了其实很直观的优化手段。
 
-他们抛出的核心主张是:专有模型和[[开源模型|开源模型]]的差距已经收窄,开源模型在基准测试上非常有竞争力、有时甚至更好,而且在大多数情况下便宜得多——所以不必总为「智能」追逐封闭 API,真正缺的是把开源模型跑好生产的那套基础设施 <button class="pd-ts" data-t="10:44" data-who="Suji" data-en="The black ones are proprietary models, and the blue ones are open models. And the cool thing you can see here is how the open models are actually very competitive, sometimes even better than a lot of the proprietary models." aria-label="回原文"></button>。
+## 团队为什么卡在两个都不好的选项之间？
 
-## 困局与第三条路
+Dylan 开场就说，今天大多数 AI 团队面对的是两个坏选项。
 
-Dylan 先摆出 AI 团队今天常见的两难:用封闭 API 起步容易,但很快碰天花板——无法针对自己的用例调模型、信息和其他所有人共享、像黑箱一样运行、成本直线增长且无从优化。
+封闭的 API 门槛低，但很快会撞到天花板：模型没法针对你的场景调，像一个黑盒，成本随用量直线上升，没法优化 <button class="pd-ts" data-t="02:45" data-who="嘉宾" data-en="So we noticed a few things today in the market of serving open source LLMs. Usually, most AI teams are stuck between choosing two bad options. Closed APIs are really easy to start with, but you often hit a ceiling really fast." aria-label="回原文"></button>。
 
-另一头是自托管:控制力完全,但这是个巨大的工程项目,需要专门团队维护,而且往往产品还没开始做,离生产环境就先差着一个月。
+另一个选项是自己搭基础设施。
 
-Token Factory 主张的是第三条路:拿到自托管的控制和性能,同时保有托管[[推理|推理]]服务的简单性——繁重的基础设施工作他们来做,客户专注自己的产品 <button class="pd-ts" data-t="02:50" data-who="Dylan" data-en="Usually, most AI teams are stuck between choosing two bad options. Closed APIs are really easy to start with, but you often hit a ceiling really fast. And you can't really tune the model to your specific use case." aria-label="回原文"></button>。
+控制力是有了，但这几乎是一个工程项目，需要专职团队维护，产品还没开始做，离上线就还有一个月的路 <button class="pd-ts" data-t="03:14" data-who="嘉宾" data-en="So you really need a dedicated team to actually keep it running. And you're usually a month away from production before you even start your actual product. So Token Factory is kind of the shift, this third path we identified" aria-label="回原文"></button>。
 
-平台本身是一个全栈的闭环,四层结构:
+Nebius Token Factory 想做的是第三条路：自己搞定基础设施，客户专注做产品。
 
-- **推理**:平台上有 60 多个开源模型(GLM、Kimi、DeepSeek、Qwen 等),提供专用端点、结构化输出、函数调用、批处理 API。
-- **数据实验室(Data Lab)**:捕获并结构化生产日志,支持推理日志导入、SQL 数据集过滤、数据集版本管理与导出。
-- **[[后训练|后训练]]**:有了日志就能生成合成数据集,通过 LoRA 或全量微调让模型更贴合期望的行为;也提供模型蒸馏、自定义[[投机解码|投机解码]]、按需[[量化|量化]]和校准。
-- **部署**:把训练好的模型推到自有基础设施的生产环境。
+他们是一家全栈 AI 云公司，在欧美运营自己的数据中心，是最早在欧洲跑 NVIDIA Blackwell Ultra（HGX B300 和 GB300）的云之一，也拿到了 Microsoft 和 Meta 的合同。
 
-Dylan 强调,大多数团队得把不同工具拼接起来才能凑齐这套流程,摩擦大、迭代慢;他们做的是让数据从推理流向训练、训练直接流入生产,形成良性循环——这正是「运行一个模型」和「运行一个真正的生产级 AI 系统」的区别 <button class="pd-ts" data-t="06:12" data-who="Dylan" data-en="So that allows you to keep a virtuous loop of your product. And that's really what I think is the main difference between running a model and running an actual production AI system." aria-label="回原文"></button>。
+## 跑一个模型和跑一个生产系统差在哪？
 
-## 硬件层:垂直整合的红利
+Dylan 认为，很多团队从[[推理|推理]]起步，把模型跑起来之后才发现这只是开始。
 
-Suji 接手后从底层讲起。
+真正的循环是：跑模型、观察它在真实世界的表现、收集数据、改进模型、再部署回去，还不能把线上服务搞挂 <button class="pd-ts" data-t="08:31" data-who="嘉宾" data-en="And this is kind of where we come in. They want to improve it over time. They need to redeploy updates without breaking things." aria-label="回原文"></button>。
 
-他们与 NVIDIA 合作紧密,拿到最新芯片组,不只是拿来就用,还优化内核和运行时;比如积极拥抱 NVIDIA 新的浮点标准,在最新芯片上拿到很好的模型性能 <button class="pd-ts" data-t="12:00" data-who="Suji" data-en="We get the latest chipsets. And not just the latest, we also optimize kernels and runtimes, so the models run really, really well. For example, something like the NVIDIA Floating 0.4 standard, we embraced it." aria-label="回原文"></button>。
+「能把这整个循环跑起来的团队，做出的是优秀的 AI 产品；**跑不起来的，做出的只是演示**。」
 
-> 【背景】文中提到的 NVIDIA 芯片与网络硬件名称(Blackwell Ultra、HGX B300、GB300、Rubin、Bluefield Storage 等)均出自演讲幻灯片介绍,是 NVIDIA 各代产品名。
+为此 Token Factory 打通了四层：
 
-## 服务层:负载均衡不是「放个均衡器」那么简单
+推理（平台上托管 60 多个模型，包括 GLM、Kimi、DeepSeek、Qwen）、数据实验室（导入推理日志、用 SQL 筛选、做数据集版本管理）、[[后训练|后训练]]（微调、蒸馏、[[量化|量化]]），最后是部署。
 
-当几十万块 GPU 在跑模型,[[负载均衡|负载均衡]]和路由成了真问题。
+多数团队今天要自己把这些工具拼起来，而拼装带来的摩擦会拖慢迭代。
 
-Suji 指出常见误区:以为在前面放个负载均衡器、把流量随机发到不同 GPU 就行——LLM 的工作负载不是这样。
+## 开源模型真的够聪明吗？
 
-早期输入输出都小,现在人们用 coding agent 发整个大型代码库去做重构或分析,输入可能相当大,输出则可大可小,路由不是件小事。
+Suji 接过了技术部分。他常被问：==你们托管[[开源模型|开源模型]]，但开源模型到底行不行==？
 
-他们的做法是用**缓存感知的路由器**:随机路由会让缓存碎片化散落各处、命中率很差;而路由器知道缓存在哪块 GPU 上,相应地路由,推理时就能获得很好的缓存命中和速度 <button class="pd-ts" data-t="13:46" data-who="Suji" data-en="It's not trivial. So what we employ is we employ routers that actually are cache aware. What I mean by that is like if you look at the left side here, you will see that my cache, like different colors, is kind of fragmented all over." aria-label="回原文"></button>。
+他给出的答案是 Artificial Analysis 的基准测试：**开源模型和闭源模型的差距已经非常窄，有些场景开源甚至更好** <button class="pd-ts" data-t="10:44" data-who="嘉宾" data-en="The black ones are proprietary models, and the blue ones are open models. And the cool thing you can see here is how the open models are actually very competitive, sometimes even better than a lot of the proprietary models." aria-label="回原文"></button>。
 
-## 投机解码:小模型干活,大模型验收
+> 【背景】Artificial Analysis 是一家独立评测机构，定期发布各大模型的性能对比。
 
-这是 Suji 说他们「非常兴奋」的技术。LLM 是一个一个生成 token 的,大模型生成很慢。
+这意味着客户有选择权：开源模型可以跑在任何提供商上，没有锁定，而且通常便宜得多。
 
-投机解码(让小模型先猜着生成 token、大模型最后验证)的思路是:小模型快且便宜,让它干重活,大模型验证——好比高级工程师把活派给初级工程师,自己负责审查。
+平台上既有大而聪明的教师模型，也有用它们训练出来的小学生模型。
 
-没问题就完成,不满意就重新生成,最坏情况也就是重生成,但大多数时候性能相当好。
+## 小模型打草稿，大模型来审稿
 
-更妙的是他们做了实验:**用你自己的生产数据训练 draft(草稿)小模型,比用通用数据训练效果更好**——通用数据训练已能看到最多 30% 的提升;他们正在上线一个功能,几乎一键就能捕获你的生产数据、帮你训练 draft 模型 <button class="pd-ts" data-t="14:23" data-who="Suji" data-en="So when you actually do the inference, you get pretty good cache and very good speed. Another thing, and this is something we are really excited about, it's called spec decoding." aria-label="回原文"></button>。
+大模型生成文字是逐个吐出标记的，很慢。
 
-## KV Cache:推理里 ROI 最高的优化
+投机解码的思路是：让一个更快更便宜的小模型先去生成，再让大模型在最后做校验 <button class="pd-ts" data-t="14:29" data-who="嘉宾" data-en="Another thing, and this is something we are really excited about, it's called spec decoding. So the challenge is LLMs, they generate tokens one by one. One, two, three, four, right?" aria-label="回原文"></button>。
 
-[[KV 缓存|KV cache]](把已生成 token 的中间计算结果缓存下来,避免重复计算)可能是做推理时投资回报率最高的一项优化——生成 token 很贵,而 token 一旦生成就不会变,没必要反复重算。
+Suji 打了个比方：就像资深工程师把活儿外包给初级工程师去干重活，自己只负责把关。
 
-Suji 给出的数字是 **5 到 10 倍**的加速,「不只是 5% 到 10%,是实打实的 10 倍」。缓存的问题是吃内存,尤其输入大、token 窗口大的时候。
+校验通过就完事；大模型不满意的话，最坏情况是它自己重新生成一遍。
 
-他们在 Token Factory 里做的优化是:GPU 内存非常宝贵,所以可以自动把缓存从 GPU 内存卸载到普通内存,需要时再搬回来——不扔掉花大量时间构建的缓存,而且这一切全自动,用户不用管 <button class="pd-ts" data-t="16:00" data-who="Suji" data-en="And we will capture your production data and train the draft models for you, which is pretty cool. Another optimization behind the scenes is KVCache. This is probably one of the biggest ROI in doing inference because creating tokens is expensive, especially when you're doing one at a time." aria-label="回原文"></button>。
+效果很实在：**用通用数据训练小草稿模型，能看到最高 30% 的提速**；用客户自己的数据训练，效果更好。
 
-## 拆分 prefill 与解码,再加上量化
+平台已经把这个功能做成几乎一键：自动抓取你的生产数据来训练草稿模型 <button class="pd-ts" data-t="15:49" data-who="嘉宾" data-en="So we did a lot of experiments here. And launching a feature, you can actually train these draft models almost like with one click. And we will capture your production data and train the draft models for you, which is pretty cool." aria-label="回原文"></button>。
 
-LLM 推理有两个阶段:prefill(预填充上下文)非常消耗算力,解码则非常消耗内存带宽。放在同一块 GPU 上,两者会互相争抢资源。
+## 缓存为什么是性价比最高的优化？
 
-他们的方案是把两个阶段拆到不同的 GPU 组上,一组做计算高效的 prefill,另一组做内存高效的解码,组间传输 KV cache,实际效果相当不错 <button class="pd-ts" data-t="17:35" data-who="Suji" data-en="And this is one of the important optimizations we have done to speed up inference. Another one is called decoding. So the way you think about this is like there are two stages to LLMs." aria-label="回原文"></button>。
+另一个大头是 KV 缓存。逻辑很简单：同一个标记一旦生成过就不会变，没必要反复重算，直接存下来，下次查表就行 <button class="pd-ts" data-t="16:16" data-who="嘉宾" data-en="And the common sense is once you generate a token, it doesn't change. So there's no need to keep regenerating the same token over and over again. So the idea is we cache the tokens." aria-label="回原文"></button>。
 
-最后是量化(降低模型数值精度以换取更快的运行):不能做过头,否则质量开始下降。
+Suji 举例：提示词是猫坐在，生成下一个词后立刻缓存，下次再遇到同样的前缀，直接查缓存。提速效果在 5 到 10 倍——不是 5% 到 10%，是 10 倍 <button class="pd-ts" data-t="16:43" data-who="嘉宾" data-en="And this actually speeds up quite a bit. So just to kind of give you some ideas, we are seeing speed ups anywhere from 5 to 10x. Not just 5 to 10%, actually 10x, right?" aria-label="回原文"></button>。
 
-他们靠大量实验找出量化的最佳平衡点,让模型高效运行、性能又不至于掉太多,这已内置到平台里 <button class="pd-ts" data-t="18:12" data-who="Suji" data-en="And we have seen this is actually working out pretty well. And another thing we do, and this is already baked into our platform, we also quantize the models. And when we do quantizing, we are reducing the position." aria-label="回原文"></button>。
+麻烦在于缓存很占显存。
+
+Token Factory 的做法是自动把缓存从宝贵的 GPU 显存卸载到普通内存，需要时再搬回来，不浪费辛苦建好的缓存，客户完全不用管。
+
+## 负载均衡不是随机发牌
+
+当有几十万张 GPU 在跑模型时，路由就成了问题。
+
+Suji 特意指出，很多人以为在前面放个[[负载均衡|负载均衡]]器、随机分发就行了——但大语言模型的负载不是这样 <button class="pd-ts" data-t="13:07" data-who="嘉宾" data-en="So a lot of the time, people say, well, that's easy, right? We just put a load balancer in front, send traffic randomly to different GPUs. That's not how it works in LLMs, because the workloads are slightly different." aria-label="回原文"></button>。
+
+早期输入都很短，一句话进去一句话出来。现在编码智能体动辄把整个代码库塞进去，输入输出长度变化极大。
+
+**随机分发会让缓存碎片化地散落在各张卡上，命中率很低**。
+
+他们的路由器是缓存感知的：它知道缓存存在哪张 GPU 上，把请求送到对的地方，缓存命中率高，速度自然就上去了。
+
+## 两个阶段分家，各用各的卡
+
+大模型推理其实有两个阶段：填充上下文非常吃计算，解码则非常吃内存。挤在同一张卡上，两者会互相抢资源 <button class="pd-ts" data-t="17:41" data-who="嘉宾" data-en="So the way you think about this is like there are two stages to LLMs. So one of them is like sort of fill in the context. That is very CPU intensive." aria-label="回原文"></button>。
+
+解决办法是拆开：一组 GPU 专门做填充，计算效率高；另一组专门做解码，内存效率高，中间传输缓存数据。
+
+此外平台还做量化——降低数值精度来提速省资源，但要通过大量实验找到甜点，压得太狠模型质量就会掉。
+
+Suji 最后提醒：
+
+如果你只是调用一个 API，可能意识不到这些幕后工作，但正是这些环节，决定了能不能顺滑地服务那些上万亿参数的大模型 <button class="pd-ts" data-t="19:01" data-who="嘉宾" data-en="And these are some of the things we kind of covered, spec decoding, KV cache, and when you do caching, doing routing, that is actually cache aware, and also separating pre-fill and decoding cases." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **开源模型已经够用了**:基准上开源与专有模型差距很小,同样聪明的开源模型通常便宜得多,且没有供应商锁定。
-- **同一模型,不同提供商成本可以完全不同**:引擎选型、内核与运行时优化都发生在幕后,选推理平台时这些才是决定延迟、吞吐和成本的关键。
-- **投机解码可以「喂自己」**:用通用数据训练 draft 模型就有最多 30% 提升,用自己的生产数据训练效果更好,甚至可以一键完成。
-- **KV cache 值得 10 倍的关注**:缓存命中带来 5-10 倍加速;配合缓存感知路由 + 缓存在 GPU/内存间自动卸载搬运,才不会被大输入撑爆。
-- **prefill 和解码该拆就拆**:一个吃算力、一个吃内存,混在一起互相抢资源,分开部署再传输 KV cache 效果更好。
-- **闭环才是壁垒**:推理 → 日志捕获 → 后训练 → 部署连成一个持续改进的循环,每一轮都让 AI 更贴合业务、更快、更便宜。
+- 封闭 API 和自建基础设施是两个常见但都不理想的选项，Nebius Token Factory 提出第三条路：托管的推理服务加底层基础设施全包。
+- 开源模型与闭源模型的差距已经非常窄，部分场景甚至更好，而且更便宜、无供应商锁定。
+- 投机解码让小模型打草稿、大模型校验，用通用数据训练草稿模型即可获得最高 30% 提速。
+- KV 缓存是推理中回报最高的优化，实测提速 5 到 10 倍；配合缓存感知路由和缓存卸载效果更好。
+- 大模型推理的填充与解码阶段分别吃计算和内存，拆到不同 GPU 上各司其职，整体效率更高。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
-> <span class="qz">每一个循环都让你的 AI 更具体、快得多、也便宜得多。</span>  
-> *Every cycle makes your AI more specific, way faster, and much cheaper.*  
-> <span class="qm">—— 嘉宾 · [09:44]</span> ^q1
-
-> <span class="qz">这有点像你是高级工程师,把工作分派给初级工程师,让他们干重活,然后你来验证工作。</span>  
-> *So it's kind of like if you're like a senior engineer, you're kind of farming out the work to a junior engineer, so they're kind of doing the heavy lifting, and then you are verifying the work.*  
-> <span class="qm">—— 嘉宾 · [14:53]</span> ^q2
-
-> <span class="qz">这可能是做推理时投资回报率最高的优化之一,因为生成 token 很昂贵,尤其是当你一次只生成一个的时候。</span>  
-> *This is probably one of the biggest ROI in doing inference because creating tokens is expensive, especially when you're doing one at a time.*  
-> <span class="qm">—— 嘉宾 · [16:04]</span> ^q3
+> <span class="qz">封闭 API 起步非常容易,但你往往会很快碰上天花板。</span>  
+> *Closed APIs are really easy to start with, but you often hit a ceiling really fast.*  
+> <span class="qm">—— 嘉宾 · [02:50]</span> ^q1
 
 > <span class="qz">而从运行到观测、到捕获、再到重新部署模型的完整循环,正是区分那些发布出色 AI 产品的团队和那些只发布 demo 的团队的关键。</span>  
 > *And that full cycle from running to observing to capturing and to redeploying the model is really what separates team from that ship, like great AI products from team that ship demos.*  
-> <span class="qm">—— 嘉宾 · [08:36]</span> ^q4
+> <span class="qm">—— 嘉宾 · [08:36]</span> ^q2
+
+> <span class="qz">这有点像你是高级工程师,把工作分派给初级工程师,让他们干重活,然后你来验证工作。</span>  
+> *So it's kind of like if you're like a senior engineer, you're kind of farming out the work to a junior engineer, so they're kind of doing the heavy lifting, and then you are verifying the work.*  
+> <span class="qm">—— 嘉宾 · [14:53]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -146,7 +164,7 @@ LLM 推理有两个阶段:prefill(预填充上下文)非常消耗算力,解码�
 
 **换个口味**
 
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI 基建比铁路还大：SemiAnalysis 拆解 2 万亿美元豪赌]]<span class="pd-rz">同公司:Nebius、NVIDIA · 同概念:推理 (inference)</span>
+- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Nebius、NVIDIA · 同概念:推理 (inference)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)</span>
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
 

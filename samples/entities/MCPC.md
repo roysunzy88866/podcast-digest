@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]]**(10:44起):本集介绍 MCPC 是 Apify 发布的 MCP 通用 CLI 客户端，始于十二月的业余项目（「Claude 之冬」）；它是 MCP 协议之上的轻量包装、无 LLM，支持 --json、异步任务、会话持久化、X402 钱包管理等。
+- **[[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]]**(10:44起):本集介绍 MCPC 是 Apify 发布的 MCP 通用 CLI 客户端，始于十二月的业余项目（「Claude 之冬」）；它是 MCP 协议之上的轻量包装、无 LLM，支持 --json、异步任务、会话持久化、X402 钱包管理等。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP 并不烂，烂的是你的智能体》]] — 作为概念
+- [[2026-10-02-talks-mcp-doesn-t-suck-your-agent-does-jan-urn|《MCP没有问题，你的智能体才有问题》]] — 作为概念
 
 ## ③ 关联
 
