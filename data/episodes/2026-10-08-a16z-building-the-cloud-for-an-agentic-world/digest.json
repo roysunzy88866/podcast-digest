@@ -1,26 +1,8 @@
 {
-  "title_zh": "AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云",
-  "tldr": "AWS CEO Matt Garman 做客 a16z 播客，谈 GPU 容量怎么分、2200 亿美元资本开支、自研芯片 Trainium,以及智能体如何倒逼云重构。",
-  "digest_md": "这一集的主角是 Matt Garman——AWS 的 CEO,也是 EC2(亚马逊的云服务器服务)的第一位负责人，2005 年 AWS 还是个内部项目时他就在做用户分析了。他和 a16z 的投资人聊了一场信息量极大的对话：史上最大规模的基础设施建设是怎么回事，以及当写代码的从人变成智能体，云本身要怎么变。\n\n先甩个钩子：Amazon 今年的资本开支是 2200 亿美元，未来几年还要买入 200 万块 NVIDIA GPU,而且「我们不预计很快放缓，因为需求实在太庞大了」。这是任何公司在单一年度从未有过的最大支出。\n\n## 初创公司是 AWS 的命脉，这不是客气话\n\nGarman 在 2005 年的商学院实习项目就是分析 AWS 最吸引谁，答案是初创公司。这笔账 AWS 算得很清楚：今天大约 30-40% 的 AWS 收入，来自那些在 AWS 生命周期中曾是初创公司的企业。所以 AWS 有意给「两个人在车库里」的公司留资源——不只是为了生意，还因为初创公司是 AWS 学习的对象：银行五年后才会想要的能力，初创公司今天就在要。\n\n变了的是体量：以前的初创公司拿 1000 万美元融资慢慢迭代，现在第一天估值就是 10 亿美元、手握 2 亿美元融资。没变的是他们的焦虑——规模化之后架构怎么办、安全怎么办。这也是他们选 AWS 而不是 Neocloud(新兴 GPU 云厂商)的原因。\n\n## GPU 怎么分：故意不把所有卡卖给大实验室\n\n最稀缺的 GPU,前沿实验室恨不得全吞掉，AWS 怎么平衡？Garman 说得很直白：他们其实可以把每一块 GPU 都卖给 Anthropic、OpenAI、Meta 这些大客户然后收工，但选择不这么做，因为要养整个生态系统。于是 AWS 有意做分配：大实验室拿大头，但给初创公司留出容量。结果大约 60% 的 GPU 申请最终以某种形式被批准——有时晚一点、有时换个区域、有时配置略有不同。\n\n至于泡沫担忧，他的回答靠的是客户数据：去问客户「以今天的能力和成本，你有正向回报吗」，几乎每个人都说是。「没有哪种泡沫会让他们停止在这上面花钱。」加上 AWS 客户集中度极低——单一客户最高只占个位数百分比，而一些 Neocloud 对一两个客户的集中度能到 30%-60%。\n\n## 约束永远在移动：没有唯一的瓶颈，只有最新的瓶颈\n\n被问到未来几年最严重的瓶颈是什么，Garman 引用了本科读过的《目标》(The Goal)：永远没有唯一的约束，永远只有最新的那个。解决一个，下一个立刻顶上——电力解决了可能是内存，再是 TSMC 产能、HBM、网络组件，甚至供应链里一个连接器的小故障。而且约束还有位置属性：某地电力过剩不代表德国够用，容量并非完全可互换。\n\n这个规模也逼出了以前从不需要的规划：15 年前缺电就找电力公司要几十兆瓦，现在必须自己出资建电力项目、可再生能源项目——过去 10 年 AWS 每年都是最大的可再生能源采购方之一，规划要往前看 20 年，需求预测从多个季度变成了提前好几年。\n\n## 自研芯片：从「卸载卡」长出来的 Trainium\n\nAWS 做芯片不是拍脑袋，是迭代出来的。十三四年前客户抱怨「虚拟化税」(虚拟化损耗了本该有的服务器性能)，想要裸金属性能。AWS 先把网络虚拟化卸载到一张卡上，后来找到一家在卸载卡上放了 ARM 内核的公司(即 Annapurna 团队，后被收购)，让虚拟化全部走卡上的 API——这就是 Nitro。再往下想：这些 ARM 内核能不能直接做成服务器？于是有了 Graviton。如今 AWS 每年部署的 Graviton 机器比任何其他类型都多：便宜 20%、性能好 20%,前 100 大客户里 90% 以上都在用。有客户整个集群迁移后服务器数量直接砍半。Garman 说这是「客户降低账单最简单的一条路」。\n\n五六年前看到 AI 算力要起势，又做了 Trainium,现在第三代 Trainium 3 已在市，容量卖到了明年年底。名字带 Train(训练)，但 Garman 坦言他们「不太擅长起名字」——实际上 Trainium 从绝对性能和性价比看可能是当下市场上最好的推理芯片之一，Bedrock(aws 的模型托管服务)上的大部分推理流量就跑在它上面，Anthropic 和 OpenAI 都有基于它构建的协议。\n\n## 智能体正在改写云的设计假设\n\n这是全集最有前瞻性的部分：当用户从人变成智能体，很多「好东西」反而成了负担。比如生产级 Aurora 数据库要有五个九的持久性，但很多智能体是「建一个数据库、干点活、然后让它消失」——五个九对这种瞬态用例是过度工程。AWS 不想做「不可靠选项」，而是思考如何两者兼得：能快速创建随手扔掉，也能长成大型生产库。\n\n还有一些以前根本不存在的「新构建块」：计算沙箱、网关、智能体权限(与人的权限分开)。智能体的权限不该是「给它你的一切」，而是严格限定时间范围、只够做一个任务、细粒度到「它在这个沙箱里能干什么」。他们自家的 Firecracker(微型虚拟机)意外成了行业标配——大量沙箱创业公司都在用它，虽然它诞生之初不是为智能体设计的。\n\n易用性也在为智能体重构：以前注册 AWS 账户要定义 VPC、IAM 角色、绑信用卡——这些对大客户至关重要，但对「想立刻部署」的智能体是拦路虎。现在新账户可以用 Gmail 注册、30 秒内启动运行，默认配置都在幕后处理，而且之后需要时可以直接在原账户上补齐，不需要迁移。\n\n一个有趣的细节：智能体非常在意尾部延迟(最慢那一小部分请求的延迟)——人不关心 P999 的 S3 延迟，智能体会被它卡住。Garman 说这正是智能体化工作流在 AWS 上表现最好的原因之一。还有新的 AWS Context 服务，给智能体建一个上下文层，让它们能跨多个数据湖找数据——人不会这么访问数据，智能体乐意。\n\n## 企业用智能体的两道坎：别复制流程，学会信任\n\nGarman 看到大多数企业已经建的智能体相对简单、非自主、人在回路里。他给出的第一个建议很反直觉：别让智能体复刻 Bob 的五步流程最后人工检查——要退一步问「智能体怎么用不同的方式完成这件事」。它可以大规模并行、同时试 50 种方法。真正的价值在从空白画布出发重新解决问题，不在复制现状。\n\n第二道坎是信任：怎么确保智能体不会删掉生产数据库？怎么配护栏、权限、是否有人在回路？企业还普遍不会做 eval(评测系统)——持续的测试循环、数据打标签、生产环境度量与回测防漂移，这些「今天没有谁真的特别擅长」。这正是 AWS 重投 FDE(驻场工程师团队)的原因，但他们的打法刻意区别于传统咨询：45 天内教会客户自己做 eval、标注数据，然后离开——「客户不想在未来五年里受制于一支外部团队」。\n\n数据安全上，Bedrock 的差异化就一句话：保证数据永不离开你的 VPC(你的云内私有网络)，模型提供商永远看不到你的提示词。企业从概念验证走向生产时，绝大多数落在 Bedrock 上，这是重要原因。而对想用开放权重模型(权重公开可下载的模型)做后训练、微调的企业——Garman 认为这是个令人兴奋的场景，专有数据混进去蒸馏出更便宜更好的模型——今天大多数人已经在 AWS 的 SageMaker 上做了。\n\n安全反而是 AI 的机会：AWS 刚推出 Continuum 服务，用强大的模型帮客户找漏洞、并基于对客户环境的了解排出优先级。他的判断：「客户终将需要机器速度的安全，而不是人类速度。」\n\n## AWS 自己内部：智能体写所有代码，工程师管智能体团队\n\nContinuum 本身就是 AWS 内部做法的对外输出。更激进的在开发侧：AWS 内部有所谓的「前沿团队」，做的是智能体式开发——「不是代码补全，智能体写所有的代码，你只是在管理一个智能体团队并驱动它们」。效果是过去一年新功能推出的速度「涡轮加速」。全公司层面，每位 Amazon 员工都用上了 Amazon Quick:HR 团队用智能体把过去一群人干几周的团队规划压缩成一个人几小时；财务团队用智能体从各处拉税务规则保合规。最让 Garman 兴奋的是：过去被软件开发阻塞的业务线员工，现在能自己解除阻塞。\n\n组织怎么变？他没有答案，只有实验：比如过去一个产品能力由 10 人团队长期负责，现在三四个人就能很快建好——那就应该把人挪到新问题上去。如何在维护已建系统与保持敏捷调动之间平衡，是 AWS 正在摸索的事。\n\n## 本集带走\n\n- **GPU 分配是刻意设计**：AWS 明知能全部卖给大实验室，仍有意为初创公司保留容量；约 60% 的申请最终以某种形式获批——被拒不等于没戏，换个区域或配置可能就拿到了。\n- **判断泡沫看客户 ROI**:几乎所企业客户在当前能力和成本下都获得了正向回报，「没有哪种泡沫会让他们停止花钱」；加上 AWS 单一客户占比仅个位数，风险结构与高集中度的 Neocloud 完全不同。\n- **瓶颈是移动的**：电力、内存、TSMC 产能、HBM、连接器……解决一个就冒出下一个；规划云容量要在所有环节同时下注，而不是押注单一瓶颈何时解除。\n- **降低云账单最简单的一条路**：迁移到 Graviton——便宜 20%、性能好 20%,有客户整体迁移后服务器数量砍半。\n- **别让智能体复刻人工流程**：真正值钱的用法是让智能体大规模并行、用完全不同的方式解决问题，而不是「Bob 的五步它再走一遍」。\n- **企业落地智能体的最大短板是 eval**:持续测试循环、数据标注、生产回测这些能力普遍缺失——这也是 FDE 服务存在的理由，好的 FDE 应该 45 天教会你自己干然后撤走。\n- **智能体时代云要重做假设**：瞬态资源(建完就删的数据库)、亚 30 秒开户、智能体专用权限与沙箱、尾部延迟敏感——这些是云厂商正在重写的底层设计。",
+  "title_zh": "当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌",
+  "tldr": "AWS CEO Matt Garman 做客 a16z,聊2200亿美元资本开支、GPU 分配、自研芯片 Trainium,以及智能体如何重造云计算。",
+  "digest_md": "Matt Garman 是 AWS 的 CEO。他 2005 年在商学院实习时就参与了 AWS 的早期分析项目，后来成为 EC2 的第一任总经理。如今 AWS 已是规模庞大的云计算巨头，在这期 a16z 播客里，他罕见地详细谈了这家公司如何看待 AI 带来的巨变——从基础设施、芯片到组织方式。\n\n> 【背景】AWS 当前年收入约 1690 亿到 1700 亿美元、增速约 37% 为公开财报数据，节目原文中未提及具体数字。\n\n## 为什么说智能体的工作流在 AWS 上跑得更好?\n\nGarman 的核心判断是:云的客户正在从人变成智能体。过去开发者用图形界面点点点,现在越来越多的代码是智能体写的,数据库是智能体选的,部署也是智能体完成的。\n\n这对云提出了新要求。比如智能体特别在意尾延迟——S3 存储服务千分之一的极端慢请求,人类用户可能察觉不到,智能体却会被卡住。再比如,智能体常常需要建一个数据库、用一下、马上销毁,传统为生产系统设计的五个九高可用在这里是过度设计。他的说法是:「**智能体的工作流往往在 AWS 上跑得比任何地方都好**」[00:39 Unknown]。\n\n为此 AWS 做了不少改造。以前注册账户要配信用卡、定义网络和权限,现在用 Gmail 就能登录,30 秒内可用,而且以后要扩展时不用迁移。他们还在测试一个叫 AWS Context 的服务,帮智能体跨数据湖找数据。\n\n## 智能体需要全新的积木\n\nGarman 强调,这不只是把旧服务换个用法,而是要造全新的基础组件:计算沙箱、网关、专门给智能体的权限体系。你不能把管理员权限整个丢给一个智能体,而应该给它有时限、限定任务范围的细粒度权限。\n\n有意思的是,AWS 十年前发明的轻量级虚拟机技术 Firecracker,现在被大量沙箱创业公司使用——本来不是为智能体设计的,却意外地合适,因为它启动快、安全边界清晰。\n\n## 头部实验室把 GPU 吃光了,小公司怎么办?\n\n这是所有创业公司都在问的问题。答案很直接:AWS 是刻意不把货全部卖给大客户的。「**我们本可以把每一个 GPU 都卖给头部实验室然后收工,但我们选择不这样做**」[18:31 Unknown]。他估计,对收到的算力请求,AWS 最终会以某种形式对约 60% 说是——可能晚一点、换个区域、或换个配置。\n\n关于泡沫的质疑,他有两点回应:一是 AWS 客户分散,单一客户占比是个位数百分比,不像某些新型云厂商集中在个别大客户;二是企业客户今天就已经在拿到正向回报,「你去问客户,几乎每个人都说,是的,有正回报」[22:18 Unknown]。\n\n## 瓶颈不是芯片,而是电力和盖楼的人\n\n供应链的约束像打地鼠。「**从来不存在单一的约束,只有最新的那个约束**」[27:23 Unknown]。这个月可能是电力,下个月可能是内存、HBM、台积电产能、网络部件,甚至连接器。\n\n最有趣的变化是电力。15 年前要更多电,跟电力公司要几十兆瓦就行;现在 AWS 得自己掏钱建电站——太阳能、核能项目都做,连续多年是全球最大的可再生能源采购方之一,规划要看 20 年。盖数据中心的建筑工人也成了稀缺资源。\n\n## 从网卡到 Graviton 再到 Trainium:自研芯片的故事\n\nAWS 的芯片之路是一步步蹭出来的。先是发现虚拟化开销太大,把网络虚拟化卸载到一张卡上;然后发现一家叫 Annapurna 的小公司,他们的卸载卡上有 ARM 核心,于是收购了这家公司,做出了 Nitro 卡,能理直气壮地告诉客户「我们无法访问你的虚拟机」。\n\n后来干脆把卸载卡上的 ARM 核心做成服务器,就是 Graviton。它比同类便宜 20%、性能好 20%,前 100 大客户中 90% 以上都在用,有客户整体迁移后服务器数量减半。\n\nAI 时代的答案是 Trainium。名字叫训练芯片,但 Garman 坦言「我们起名字确实很差」——它现在可能是市面上最好的推理芯片,性能和性价比都出众。Bedrock 上大部分推理流量都跑在 Trainium 上,Anthropic 和 OpenAI 都签了协议基于它构建,产能已经卖到明年年底前后。\n\n## 企业用智能体,卡在两件事上\n\nGarman 观察到,企业现在建的智能体大多简单、非自主、有人类把关。要规模化,得解决两个问题。\n\n第一是思维方式。企业总想让智能体照搬现有流程——Bob 做五步,就让智能体做同样五步。但真正的价值在于换一种解法:智能体可以大规模并行,同时试 50 种方案。要从零开始想计算机怎么解决这个问题,而不是复制人怎么解决。\n\n第二是信任。客户不敢放手,是怕智能体误删生产数据库。评测、持续测试、防漂移,这些企业今天都不会做,我认为目前没有人真正擅长解决这些问题[43:34 Unknown]。AWS 的做法是派前沿开发工程团队驻场 45 天,教会客户自己动手,然后离开——不是做永远收费的咨询生意。\n\n## 在 AWS 内部,工程师已经变成「管理智能体团队的人」\n\nAWS 自己的用法可能最能说明未来。他们把内部 AI 工具 Amazon Q(节目里读作 Quick)推给了每一个 Amazon 员工:HR 团队用智能体把过去几周的团队规划工作压缩到几小时,财务团队用智能体拉取各地税务规则做合规检查。\n\n变化最大的是软件开发。AWS 内部有所谓前沿团队,「**不是代码补全,真的是智能体优先,智能体写所有代码,你只是在管理一个智能体团队**」[53:21 Unknown]。新产品推出的速度因此大幅加快。\n\n组织也在变:过去 10 个人长期守一个产品,现在三四个人快速建完就转到下一个项目。Garman 承认还没有标准答案,但员工其实喜欢——能更快做出更多东西。\n\n## 本集带走\n\n- 云的客户正从人变成智能体:更低延迟、秒级开通、可随时销毁的资源、专门的智能体权限和沙箱,是新的设计原则。\n- Trainium 虽名为训练芯片,实际可能是市面上性价比最好的推理芯片,Bedrock 大部分推理流量跑在其上。\n- 企业落地智能体的两大障碍:照搬旧流程的思维方式,以及缺乏评测和信任机制——AWS 用 45 天驻场培训代替长期咨询。\n- AWS 内部已进入智能体写全部代码、工程师管理智能体团队的阶段,新产品交付速度显著加快。",
   "quotes": [
-    {
-      "en": "We recently announced we're going to be buying 2 million NVIDIA GPUs over the next couple of years.",
-      "zh": "我们最近宣布，未来几年将购买 200 万块 NVIDIA GPU。",
-      "timestamp": "00:34",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "Today, we estimate that maybe 30-40% of AWS revenue comes from companies that was a one-time startup in AWS's lifetime.",
-      "zh": "今天，我们估计 AWS 大约 30-40% 的收入来自那些在 AWS 生命周期中曾是初创公司的企业。",
-      "timestamp": "04:18",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "Now it's from day one, they're valued at a billion dollars.",
-      "zh": "现在从第一天起，他们的估值就是 10 亿美元。",
-      "timestamp": "05:34",
-      "speaker": "Matt Garman"
-    },
     {
       "en": "They actually care a lot about tail latencies, which is interesting, where people don't always care about the P999 S3 latency, like agents do care and get blocked by that.",
       "zh": "它们实际上非常在意尾部延迟，这很有意思，因为人并不总是关心 P999 的 S3 延迟，但智能体确实在意，并且会被它卡住。",
@@ -28,60 +10,37 @@
       "speaker": "Matt Garman"
     },
     {
-      "en": "I saw recently that we say, you know, yes, in some way, shape or form to something like 60% of the requests we eventually get.",
-      "zh": "我最近看到，我们对我们最终收到的请求，大约 60% 在某种程度上、以某种形式说了「可以」。",
-      "timestamp": "18:49",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "There's no bubble in which they stopped spending on that.",
-      "zh": "没有哪种泡沫会让他们停止在这上面花钱。",
-      "timestamp": "22:22",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "And so it turns out there's never one constraint. There's always just the latest constraint.",
-      "zh": "结果证明，永远不会有唯一的约束。永远只有最新的那个约束。",
-      "timestamp": "27:21",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "Everybody in that county pays $5,000 a year less in taxes because of the taxes that we bring to that.",
-      "zh": "那个县的每个人每年少交 5000 美元的税，因为我们给那里带来的税收。",
-      "timestamp": "31:28",
-      "speaker": "Matt Garman"
-    },
-    {
-      "en": "It's been the single easiest way that customers lower their bill is to move to Graviton.",
-      "zh": "这是客户降低账单的最简单的一条路，就是迁移到 Graviton。",
-      "timestamp": "36:22",
-      "speaker": "Matt Garman"
-    },
-    {
       "en": "It turns out that Terranium is actually maybe the best inference chip on the market right now from an absolute performance and cost performance point of view.",
-      "zh": "结果发现 Terranium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。",
+      "zh": "结果发现 Trainium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。",
       "timestamp": "38:03",
       "speaker": "Matt Garman"
     },
     {
-      "en": "Because look, at some point, customers are going to need security at machine speed, not at human speed",
-      "zh": "因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度",
+      "en": "But I think it's a differentiating piece for us and it's a super important thing to think about because having that data go back into the model provider I think is a dangerous thing.",
+      "zh": "但我认为这是我们差异化的部分，也是需要认真考虑的超级重要的事情，因为让数据回传给模型提供商，我认为是一件危险的事。",
+      "timestamp": "47:01",
+      "speaker": "Matt Garman"
+    },
+    {
+      "en": "Because look, at some point, customers are going to need security at machine speed, not at human speed, not at like an alarm, someone goes in, look at it.",
+      "zh": "因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度，不是像报警之后有人进去查看那种速度。",
       "timestamp": "50:43",
+      "speaker": "Matt Garman"
+    },
+    {
+      "en": "Agent first, the agents write all of the code. You're just managing a team of agents and driving that.",
+      "zh": "智能体优先，智能体写所有的代码。你只是在管理一个智能体团队，并驱动它们。",
+      "timestamp": "53:22",
       "speaker": "Matt Garman"
     }
   ],
+  "writer": "v3",
   "quotes_candidates": [
     {
-      "timestamp": "00:34",
+      "timestamp": "03:57",
       "speaker": "Unknown",
-      "en": "We recently announced we're going to be buying 2 million NVIDIA GPUs over the next couple of years.",
-      "zh": "我们最近宣布，未来几年将购买 200 万块 NVIDIA GPU。"
-    },
-    {
-      "timestamp": "00:44",
-      "speaker": "Unknown",
-      "en": "And we don't anticipate slowing down anytime soon because the demand is just massive.",
-      "zh": "我们不预计很快放缓，因为需求实在太庞大了。"
+      "en": "One is the value proposition is just so attractive, what AWS provides to startups.",
+      "zh": "一是 AWS 为初创公司提供的价值主张实在太有吸引力了。"
     },
     {
       "timestamp": "04:18",
@@ -90,16 +49,22 @@
       "zh": "今天，我们估计 AWS 大约 30-40% 的收入来自那些在 AWS 生命周期中曾是初创公司的企业。"
     },
     {
-      "timestamp": "04:59",
+      "timestamp": "05:03",
       "speaker": "Unknown",
-      "en": "The startups are the ones that are pushing that envelope, and it really helps us to be better",
-      "zh": "初创公司才是推动极限的人，这真的帮助我们变得更好"
+      "en": "We're ahead of that wave where the banks are going to want some capability five years down the road that startups want today.",
+      "zh": "我们走在浪潮前面——银行五年后会想要的能力，正是初创公司今天想要的。"
     },
     {
-      "timestamp": "05:34",
+      "timestamp": "06:18",
       "speaker": "Unknown",
-      "en": "Now it's from day one, they're valued at a billion dollars.",
-      "zh": "现在从第一天起，他们的估值就是 10 亿美元。"
+      "en": "I am set up so that when I have more than three employees, this thing is going to work in scale, which is a lot of times why they like AWS as opposed to just going to a NeoCloud or something like that.",
+      "zh": "我要把 IAM 设置好，以便当我员工超过三个人时，这套东西能规模化运转，这很多时候正是他们喜欢 AWS 而不是直接去找 NeoCloud 之类公司的原因。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Unknown",
+      "en": "Have you introduced any specific new services that are explicitly targeted ad agents or people building agents?",
+      "zh": "你们有没有推出任何明确针对智能体或构建智能体的人的特定新服务？"
     },
     {
       "timestamp": "08:25",
@@ -108,16 +73,22 @@
       "zh": "它们实际上非常在意尾部延迟，这很有意思，因为人并不总是关心 P999 的 S3 延迟，但智能体确实在意，并且会被它卡住。"
     },
     {
-      "timestamp": "08:39",
+      "timestamp": "12:39",
       "speaker": "Unknown",
-      "en": "That's why agentic workflows tend to perform better on AWS than anywhere else.",
-      "zh": "这也是为什么智能体化工作流在 AWS 上的表现往往比其他任何地方都好。"
+      "en": "I wouldn't say over-engineered, but as an example, many agents want to create a database, do a little bit of work, and then have the database go away.",
+      "zh": "我不会说过度工程化，但举个例子，很多智能体想要创建一个数据库，做一些工作，然后让这个数据库消失。"
     },
     {
-      "timestamp": "10:43",
+      "timestamp": "14:42",
       "speaker": "Unknown",
-      "en": "And within less than 30 seconds, you're up and running and can be operating a full AWS account",
-      "zh": "而在不到 30 秒之内，你就能启动并运行，可以操作一个完整的 AWS 账户"
+      "en": "You actually want, you know, very time box, short-term permissions to just go do a task.",
+      "zh": "你实际上想要的是，严格限定时间范围的、短期的权限，只去做一个任务。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Unknown",
+      "en": "And so we're great partners with the large frontier labs, the Anthropics and OpenAI and Meta and other large customers.",
+      "zh": "所以我们是大型前沿实验室的极佳合作伙伴，比如 Anthropic、OpenAI、Meta 和其他大客户。"
     },
     {
       "timestamp": "18:31",
@@ -132,12 +103,6 @@
       "zh": "我最近看到，我们对我们最终收到的请求，大约 60% 在某种程度上、以某种形式说了「可以」。"
     },
     {
-      "timestamp": "22:22",
-      "speaker": "Unknown",
-      "en": "There's no bubble in which they stopped spending on that.",
-      "zh": "没有哪种泡沫会让他们停止在这上面花钱。"
-    },
-    {
       "timestamp": "27:21",
       "speaker": "Unknown",
       "en": "And so it turns out there's never one constraint. There's always just the latest constraint.",
@@ -150,40 +115,40 @@
       "zh": "那个县的每个人每年少交 5000 美元的税，因为我们给那里带来的税收。"
     },
     {
-      "timestamp": "35:57",
-      "speaker": "Unknown",
-      "en": "And it's, you know, look, they're 20% cheaper at a 20% better performance and have been like that for the last kind of five, six years.",
-      "zh": "而且你看，它们便宜 20%,性能好 20%,在过去五六左右年里一直是这样。"
-    },
-    {
-      "timestamp": "36:22",
-      "speaker": "Unknown",
-      "en": "It's been the single easiest way that customers lower their bill is to move to Graviton.",
-      "zh": "这是客户降低账单的最简单的一条路，就是迁移到 Graviton。"
-    },
-    {
       "timestamp": "38:03",
       "speaker": "Unknown",
       "en": "It turns out that Terranium is actually maybe the best inference chip on the market right now from an absolute performance and cost performance point of view.",
-      "zh": "结果发现 Terranium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。"
+      "zh": "结果发现 Trainium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。"
     },
     {
-      "timestamp": "40:57",
+      "timestamp": "41:01",
       "speaker": "Unknown",
-      "en": "You want to actually step back and say, if I want to accomplish something, how can an agent do it differently?",
-      "zh": "你真正应该退一步说，如果我想完成某件事，智能体怎么能够以不同的方式做到？"
+      "en": "It can do it in a massively parallelized way. It can try 50 different things and get to that.",
+      "zh": "它可以以大规模并行化的方式来完成。它可以同时尝试 50 种不同的方法来达成目标。"
+    },
+    {
+      "timestamp": "43:59",
+      "speaker": "Unknown",
+      "en": "This is not the traditional motion where I want to have a people-driven business that goes on forever where you just keep paying consultants over and over and over again.",
+      "zh": "这不是那种传统打法：我想拥有一个永远持续下去的、以人力驱动的业务，让你一遍又一遍地持续付钱给顾问。"
+    },
+    {
+      "timestamp": "47:01",
+      "speaker": "Unknown",
+      "en": "But I think it's a differentiating piece for us and it's a super important thing to think about because having that data go back into the model provider I think is a dangerous thing.",
+      "zh": "但我认为这是我们差异化的部分，也是需要认真考虑的超级重要的事情，因为让数据回传给模型提供商，我认为是一件危险的事。"
     },
     {
       "timestamp": "50:43",
       "speaker": "Unknown",
-      "en": "Because look, at some point, customers are going to need security at machine speed, not at human speed",
-      "zh": "因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度"
+      "en": "Because look, at some point, customers are going to need security at machine speed, not at human speed, not at like an alarm, someone goes in, look at it.",
+      "zh": "因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度，不是像报警之后有人进去查看那种速度。"
     },
     {
       "timestamp": "53:22",
       "speaker": "Unknown",
-      "en": "Agent first, the agents write all of the code.",
-      "zh": "智能体优先，智能体写所有的代码。"
+      "en": "Agent first, the agents write all of the code. You're just managing a team of agents and driving that.",
+      "zh": "智能体优先，智能体写所有的代码。你只是在管理一个智能体团队，并驱动它们。"
     }
   ],
   "voice_script": "今天这一期，咱们听AWS的CEO Matt Garman聊一场信息量特别大的对话。这人什么来头？他是EC2,也就是亚马逊云服务器服务的第一位负责人。早在2005年，AWS还是亚马逊内部一个项目的时候，就在里面做用户分析了。所以这场跟a16z投资人的对谈，聊的其实是当下最硬核的一个话题：史上最大规模的基础设施建设到底怎么回事，以及当写代码的从人变成智能体，云本身要怎么变。\n\n先给你个概念感受一下体量。Amazon今年的资本开支是2200亿美元，未来几年还要买入200万块NVIDIA GPU,而且Garman明说了，不预计很快放缓，因为需求实在太庞大了。这是任何公司在单一年度从未有过的最大支出。你可能会想，这么大手笔，是不是疯了？别急，咱们顺着这场对话一点点拆。\n\n先说AWS跟初创公司的关系。2005年Garman的商学院实习项目，就是分析AWS最吸引谁，答案是初创公司。这笔账AWS算得很清楚：今天大约30%到40%的AWS收入，来自那些在AWS生命周期中曾是初创公司的企业。所以AWS有意给“两个人在车库里”的公司留资源，不只是为了生意，还因为初创公司是学习对象——银行五年后才会想要的能力，初创公司今天就在要。\n\n那跟以前比，什么变了？变了的是体量。以前的初创公司拿一千万美元融资慢慢迭代，现在第一天估值就是10亿美元、手握2亿美元融资。没变的是焦虑——规模化之后架构怎么办、安全怎么办。这也正是他们选AWS、而不是那些新兴GPU云厂商的原因。\n\n说到GPU,这里有个特别有意思的点。最稀缺的GPU,前沿实验室恨不得全吞掉，AWS怎么平衡？Garman说得很直白：其实可以把每一块GPU都卖给Anthropic、OpenAI、Meta这些大客户然后收工，但选择不这么做，因为要养整个生态系统。所以AWS有意做分配——大实验室拿大头，但给初创公司留出容量。结果呢？用Garman自己的话说，最终收到的申请，大约60%以某种形式说了“可以”。有时晚一点，有时换个区域，有时配置略有不同。所以被拒不等于没戏。\n\n那泡沫担忧呢？回答靠的是客户数据：去问客户，以今天的能力和成本，你有正向回报吗？几乎每个人都说是。有句话特别有劲：“没有哪种泡沫会让他们停止在这上面花钱。”再加上一个结构性的差异——AWS的客户集中度极低，单一客户最高只占个位数百分比，而一些新兴GPU云厂商对一两个客户的集中度能到30%到60%。这俩的风险结构完全不是一回事。\n\n那未来几年最严重的瓶颈到底是什么？这里Garman引了本科读过的一本书，《目标》，里面有个思想：永远没有唯一的约束，永远只有最新的那个。解决一个，下一个立刻顶上——电力解决了可能是内存，再是台积电产能、HBM、网络组件，甚至供应链里一个连接器的小故障。而且约束还有位置属性：某个地方电力过剩，不代表德国够用，容量并不是完全可互换的。这个规模也逼出了以前从不需要的规划——15年前缺电就找电力公司要几十兆瓦，现在必须自己出资建电力项目、可再生能源项目，过去10年AWS每年都是最大的可再生能源采购方之一，需求预测从多个季度变成了提前好几年。\n\n理解了这个背景，再看AWS自研芯片，你就明白这不是拍脑袋，是一步一步迭代出来的。十三四年前，客户抱怨“虚拟化税”——就是虚拟化损耗了本该有的服务器性能——想要裸金属性能。AWS先把网络虚拟化卸载到一张卡上，后来找到一家在卸载卡上放了ARM内核的公司，让虚拟化全部走卡上的API,这就是Nitro。再往下想一步：这些ARM内核能不能直接做成服务器？于是有了Graviton。如今AWS每年部署的Graviton机器比任何其他类型都多，便宜20%、性能好20%,前100大客户里90%以上都在用，有客户整个集群迁移后服务器数量直接砍半。Garman说，这是客户降低账单最简单的一条路。再往下，五六年前看到AI算力要起势，又做了Trainium,现在第三代已经上市，容量卖到了明年年底。名字带Train,听着像是训练芯片，但实际从绝对性能和性价比看，可能是当下市场上最好的推理芯片之一，Bedrock上的大部分推理流量就跑在它上面。\n\n好，前面都是在讲现在的云。接下来这部分，是我觉得全集最有前瞻性的：当用户从人变成智能体，很多“好东西”反而成了负担。举个具体例子，生产级数据库要有五个九的持久性，但很多智能体的用法是——建一个数据库、干点活、然后让它消失。五个九对这种用完就扔的场景，是过度工程。所以云的很多底层设计假设要重写：怎么既能让资源快速创建、随手扔掉，又能让它长成大型生产库。还有以前根本不存在的新构建块：计算沙箱、网关，以及智能体的权限——权限不该是“给你我的一切”，而是严格限定时间范围、只够做一个任务。易用性也在重构：以前注册AWS账户要定义网络、权限、绑信用卡，对想立刻部署的智能体是拦路虎，现在新账户用Gmail就能注册，30秒内启动运行。还有个有趣的细节：智能体非常在意尾部延迟——就是最慢那一小部分请求的延迟。人不关心P999的S3延迟，但智能体会被它卡住。\n\n那企业要用智能体，坎在哪？Garman给了两条建议，第一条很反直觉：别让智能体复刻Bob的五步流程最后再人工检查一遍，要退一步问，智能体怎么用不同的方式完成这件事？它可以大规模并行、同时试50种方法，真正的价值在从空白画布重新解决问题。第二条坎是信任和评测，也就是eval——持续的测试循环、数据打标签、生产回测，这些今天没有谁真的特别擅长。这也是AWS重投驻场工程师团队的原因，但打法刻意区别于传统咨询：45天内教会客户自己做，然后离开，因为客户不想在未来五年里受制于一支外部团队。\n\n最后说说AWS自己内部怎么用。更激进的做法在开发侧：内部有所谓的“前沿团队”，做的是智能体式开发——不是代码补全，智能体写所有的代码，人只是在管理一个智能体团队并驱动它们。效果是过去一年新功能推出的速度“涡轮加速”。全公司层面，HR团队用智能体把过去一群人干几周的团队规划压缩成一个人几小时；财务团队用智能体从各处拉税务规则保合规。组织怎么变？Garman没有答案，只有实验：过去一个产品能力要10人团队长期负责，现在三四个人就能建好，那就该把人挪到新问题上去。\n\n听完这一整场，其实可以用一句话收：从GPU分配到芯片，到为智能体重写云的假设，AWS在做的所有事，都是在为一个写代码的主力从人换成机器的世界提前铺路——而那句“没有哪种泡沫会让他们停止在这上面花钱”，就是这个判断最直接的注脚。"

@@ -151,7 +151,7 @@ Greg 指出一个被忽视的问题：[[ChatGPT|ChatGPT]] 有超 10 亿周活用
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Codex · 同概念:计算机使用 (computer use)</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、算力 (compute)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、算力 (compute)</span>
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:AGI</span>
 
 </div>

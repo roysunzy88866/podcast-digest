@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]]**(42:20起):Reef 创办并正在重新构想的品牌：想象一个能像看 Netflix 剧集那样进入人们故事和生活的世界，让人连接、讲故事、成为不同的身份。
+- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]]**(42:20起):Reef 创办并正在重新构想的品牌：想象一个能像看 Netflix 剧集那样进入人们故事和生活的世界，让人连接、讲故事、成为不同的身份。
 
 ## ① 提到它的金句
 
@@ -27,7 +27,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]] — 作为被讨论公司
+- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]] — 作为被讨论公司
 
 ## ③ 关联
 

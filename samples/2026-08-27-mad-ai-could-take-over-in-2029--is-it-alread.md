@@ -177,7 +177,7 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 **换个口味**
 
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)、算力 (compute)、出口管制 (export controls)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)、算力 (compute)、出口管制 (export controls)</span>
 - [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:RSI、对齐 (alignment)、持续学习 (continual learning)、推理 (inference)</span>
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:OpenAI · 同概念:推理 (inference)</span>
 

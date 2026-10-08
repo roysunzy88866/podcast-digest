@@ -174,7 +174,7 @@ Max 极度好胜。他说 Legora 刚成立时"完全没有存在的理由"，只
 **顺着「智能体」挖下去**
 
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:智能体 (agent)、评估 (eval)</span>
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、评估 (eval)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、评估 (eval)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、评估 (eval)</span>
 
 </div>

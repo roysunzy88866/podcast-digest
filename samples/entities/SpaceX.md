@@ -21,7 +21,7 @@ unlisted: true
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 SpaceX 以 600 亿美元收购了 Cursor，拥有算力和工程力量，与 Cursor 在代码路径通向 AGI 的理念上高度一致
 - **[[2026-08-24-grit-data-centers-in-orbit-by-2028-baiju-bhat|《Robinhood 联创再出发:把火箭上面级变成太空数据中心》]]**(05:51起):本集说它是可回收火箭着陆的开创者、《The Case for Mars》工程学路线的现实印证,但其大量载荷会留给自己,入轨容量远不够用——这正是 Cowboy Space 垂直整合自建火箭的原因之一
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(00:29起):本集作为Sequoia投资信念的例子：Sean带入IC时有人投了1分，但发起人不放弃逼所有人飞过去看，先做小投资后加码，几年后成为公司历史上最好的投资之一
-- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(04:34起):本集说 SpaceX 手握现成算力,以每兆瓦 2500 万甚至 4000 万美元卖给 Anthropic 和 Google,一年收回全部 CapEx,与 Meta 同为囤算力的第三名。
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]]**(04:34起):本集说 SpaceX 手握现成算力,以每兆瓦 2500 万甚至 4000 万美元卖给 Anthropic 和 Google,一年收回全部 CapEx,与 Meta 同为囤算力的第三名。
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(34:02起):本集将 Cursor 与 SpaceX 做类比，说两者都有快速行动、追求大市场、在不可能的竞争对手脚下获胜的特征
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(37:38起):本集提到其收购了 Cursor
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(10:33起):本集拿它举例说明 Founders Fund 的集中押注策略，说 Founders Fund 第二期基金在 SpaceX 上做了极高集中度的投资
@@ -55,7 +55,7 @@ unlisted: true
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
 - [[2026-08-24-grit-data-centers-in-orbit-by-2028-baiju-bhat|《Robinhood 联创再出发:把火箭上面级变成太空数据中心》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
-- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
+- [[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]] — 作为被讨论公司
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)

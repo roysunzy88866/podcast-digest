@@ -186,7 +186,7 @@ Ran 还有一炮：[[Anthropic|Anthropic]] 封禁了 Peter Steinberger 的热门
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、Claude</span>
 - [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|10X 的 AI 内容机器：让员工发帖不再尴尬]]<span class="pd-rz">同公司:Anthropic · 同概念:FDE、工作流 (workflow)</span>
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对：离心机工作法]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对:一位首席工程师的协作心法]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
 
 </div>
 <div class="pd-ex">

@@ -179,7 +179,7 @@ vibe coding 的典型失败模式:给个高层 prompt → 生成一大堆代码 
 
 **换个口味**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Amazon、AWS、Bedrock · 同概念:智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Amazon、AWS、Bedrock · 同概念:智能体 (agent)</span>
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同公司:Amazon · 同概念:vibe coding、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
 

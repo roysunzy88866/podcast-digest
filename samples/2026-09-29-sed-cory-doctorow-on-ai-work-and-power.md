@@ -242,7 +242,7 @@ Doctorow 先泼了盆冷水。
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Amazon、Apple、Google、Meta</span>
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Amazon、Apple、Google、Meta</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Google、Meta</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Google、Meta</span>
 
 </div>
 <div class="pd-ex">

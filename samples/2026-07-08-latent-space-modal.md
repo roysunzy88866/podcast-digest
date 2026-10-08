@@ -113,7 +113,7 @@ swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、Modal、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 

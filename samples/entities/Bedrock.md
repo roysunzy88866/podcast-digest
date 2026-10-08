@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(06:52起):本集说亚马逊产品很棒的一点是你可以通过 Bedrock 选择很多不同的模型
 - **[[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]]**(02:22起):本集说它是 AWS 的模型托管服务,托管 Claude、GPT 这类 LLM;其 Mantle 团队用 6 个人 76 天重建了新的推理数据平面,是 Amazon 内第一支「前沿开发者」探路者团队。
-- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(07:32起):AWS 的模型托管服务,本集强调其差异化是保证数据永不离开你的 VPC、模型提供商永远看不到你的提示词;企业从概念验证走向生产时绝大多数落在 Bedrock 上。
+- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(07:32起):AWS 的模型托管服务,本集强调其差异化是保证数据永不离开你的 VPC、模型提供商永远看不到你的提示词;企业从概念验证走向生产时绝大多数落在 Bedrock 上。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]] — 作为概念
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为概念
 
 ## ③ 关联
 

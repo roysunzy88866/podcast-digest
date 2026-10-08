@@ -105,7 +105,7 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 **顺着「增长与销售」挖下去**
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)</span>
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|Vercel COO 谈 AI 时代的市场打法：一人加一个智能体]]<span class="pd-rz">同公司:Stripe、Vercel · 同概念:go-to-market、智能体 (agent)</span>
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|从 Stripe 到 Vercel：她要为 AI 时代重写销售法则]]<span class="pd-rz">同公司:Stripe、Vercel · 同概念:go-to-market、智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe、Vercel、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>

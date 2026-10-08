@@ -1,5 +1,5 @@
 ---
-title: "算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮"
+title: 两家公司，买下全世界的算力
 podcast: Dwarkesh Podcast
 date: 2026-10-06
 source_url: https://www.dwarkesh.com/p/dylan-patel-3
@@ -7,7 +7,7 @@ duration: "76:52"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-25-dwarkesh-dylan-patel-3.jpg"
-description: SemiAnalysis 创始人 Dylan Patel 年度对谈：算力如何向两大实验室集中、钱从哪来、利率与主权债务危机会如何被 AI 改写。
+description: Semi Analysis 创始人 Dylan Patel 做客 Dwarkesh Podcast，预测 Anthropic 和 OpenAI 到 2028 年将掌控全球大部分算力，并讲清这背后的资本、供应链和地缘政治账。
 host: "[[Dylan Patel]]"
 companies: ["[[OpenAI]]", "[[Anthropic]]", "[[Meta]]", "[[SpaceX]]", "[[Google]]", "[[NVIDIA]]", "[[Jane Street]]", "[[ASML]]", "[[Carl Zeiss]]"]
 concepts: ["[[算力]]", "[[资本支出]]", "[[推理]]", "[[训练]]", "[[AGI]]", "[[递归自我改进]]", "[[出口管制]]", "[[利率]]"]
@@ -16,18 +16,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-08-25-dwarkesh-dylan-patel-3.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3#post","headline":"算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3","description":"SemiAnalysis 创始人 Dylan Patel 年度对谈：算力如何向两大实验室集中、钱从哪来、利率与主权债务危机会如何被 AI 改写。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-dwarkesh-dylan-patel-3.jpg","isBasedOn":"https://www.dwarkesh.com/p/dylan-patel-3","about":[{"@type":"Person","name":"Dylan Patel"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Jane Street"},{"@type":"Organization","name":"ASML"},{"@type":"Organization","name":"Carl Zeiss"},{"@type":"Thing","name":"算力 (compute)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"训练 (training)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"递归自我改进 (recursive self-improvement)"},{"@type":"Thing","name":"出口管制 (export controls)"},{"@type":"Thing","name":"利率 (interest rate)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮","item":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3#post","headline":"两家公司，买下全世界的算力","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3","description":"Semi Analysis 创始人 Dylan Patel 做客 Dwarkesh Podcast，预测 Anthropic 和 OpenAI 到 2028 年将掌控全球大部分算力，并讲清这背后的资本、供应链和地缘政治账。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-dwarkesh-dylan-patel-3.jpg","isBasedOn":"https://www.dwarkesh.com/p/dylan-patel-3","about":[{"@type":"Person","name":"Dylan Patel"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Jane Street"},{"@type":"Organization","name":"ASML"},{"@type":"Organization","name":"Carl Zeiss"},{"@type":"Thing","name":"算力 (compute)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"训练 (training)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"递归自我改进 (recursive self-improvement)"},{"@type":"Thing","name":"出口管制 (export controls)"},{"@type":"Thing","name":"利率 (interest rate)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"两家公司，买下全世界的算力","item":"https://talk.solomind.cc/2026-08-25-dwarkesh-dylan-patel-3"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>两家公司，买下全世界的算力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮
+# 两家公司，买下全世界的算力
 
 <div class="pd-byl"><b>Dylan Patel</b> · SemiAnalysis 创始人 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-25-dwarkesh-dylan-patel-3.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">以 Anthropic 为例，收入已经高达每兆瓦 5000 万美元。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="03:05" data-who="嘉宾" data-en="In the case of Anthropic, the revenue has gone as high as $50 million per megawatt." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我们今年的资本支出略超过一万亿美元。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="01:03" data-who="嘉宾" data-en="We're at a little bit over a trillion dollars of CapEx this year." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Dylan Patel]]
@@ -38,186 +38,155 @@ jsonLd: |
 >
 > **来源** [Dwarkesh Podcast](https://www.dwarkesh.com/p/dylan-patel-3)
 
-这是 Dwarkesh 的年度「感恩节」对谈，嘉宾是半导体研究机构 SemiAnalysis 的创始人 [[Dylan Patel|Dylan Patel]]——他对 AI [[算力|算力]]供应链的测算被业内当作事实基准引用。
+AI 行业最贵的东西不是人才，是电力和芯片。
 
-这期聊了一个惊人的核心判断：世界经济的走向，正在变成「两大 AI 实验室经济」的函数；
+[[Dylan Patel|Dylan Patel]] 是半导体研究机构 Semi Analysis 的创始人，这期与 Dwarkesh 的年度对谈里，他用一连串硬数字讲了一个惊人的判断：
 
-而且没有任何一股力量在阻止算力向它们集中。
+再过一两年，全世界新增的计算能力，大部分会被 [[Anthropic|Anthropic]] 和 [[OpenAI|OpenAI]] 这两家公司吃掉。
 
-## 实验室第一次真正赚钱了
+这不只是科技新闻，而是一场牵动[[利率|利率]]、国债和全球权力格局的资本大迁徙。
 
-去年美国大部分的 GDP 增长其实就是 AI 基础设施投资。
+## 1000 万美元买一兆瓦，能赚回 5000 万
 
-今年略超 1 万亿美元的资本支出([[资本支出|CapEx]])里，约三分之一是给 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 的；到 2028 年，全行业 CapEx 会超过 2 万亿美元，实验室占比还在上升。
+[[算力|算力]]的基本账单位是每兆瓦。今天在市场上租一兆瓦的计算能力，成本大约 1000 万到 1500 万美元。
 
-更关键的是盈利拐点。一年前这两家还是纯风险投资输血的亏损公司，现在 Anthropic 已在第二季度盈利，OpenAI 据信第三季度也可能转正。
+而 Anthropic 用模型服务客户，每兆瓦产生的收入已经高达 5000 万美元 <button class="pd-ts" data-t="03:05" data-who="嘉宾" data-en="$15 million per megawatt. In the case of Anthropic, the revenue has gone as high as $50 million per megawatt. And what that now enables them to do is, hey," aria-label="回原文"></button>。
 
-驱动力是「每兆瓦收入」：
+这意味着一个简单的套利：**花 10 美元买[[推理|推理]]算力，赚回 50 美元，然后把利润全部转手投进[[训练|训练]]更大的模型**。
 
-算力的基础成本大约是每兆瓦 1000 万到 1500 万美元——过去 GPT-4 部署在 Hopper GPU 上是负毛利，而现在 Anthropic 每兆瓦的收入已高达 5000 万美元。
+就在一年前，情况还完全相反——OpenAI 在英伟达 Hopper 芯片上跑 GPT-4，毛利是负的。
 
-这意味着花 10 美元建[[推理|推理]]容量能收回 50 美元，利润可以全部滚动投入[[训练|训练]]。
+转折点刚刚发生：Anthropic 在今年第二季度开始盈利，OpenAI 可能第三季度跟进 <button class="pd-ts" data-t="01:48" data-who="嘉宾" data-en="Anthropic started turning a profit in Q2. It's believed at some point in Q3, OpenAI could potentially start turning a profit even with the big rise of Codex" aria-label="回原文"></button>。
 
-## 两大实验室正在吞下世界的算力
+这些公司第一次不再只靠风险投资的钱续命，而是靠自己的收入滚动扩张。
 
-今年年初两家实验室合计约 4 吉瓦出头的算力，年底都超过 5,全年翻了三四倍。
+## 照现在的签单速度，一半新算力归两家公司
 
-今年新增算力里约 30% 归它们，明年(已签的合同算上)会到 40%–50%;按 Dylan 的说法，「到明年年底，世界一半的增量新算力就流向这两家了」。
+年初，OpenAI 的算力约 2 吉瓦，Anthropic 还不到 2 吉瓦；到年底，两家都超过 5 吉瓦 <button class="pd-ts" data-t="03:53" data-who="嘉宾" data-en="the beginning of this year, Anthropic OpenAI started at two for OpenAI and less than two for Anthropic. End of this year, they're both above five." aria-label="回原文"></button>。
 
-他给出一个规律：
+今年全球新增算力里，约 30% 流向这两家实验室；根据已经签好的合同，明年这个比例会冲到 40%–50% <button class="pd-ts" data-t="04:17" data-who="嘉宾" data-en="you've got something even more dramatic, right? You've got Anthropic OpenAI are taking as much as 40 to 50% of compute next year. And this centralization doesn't look like it's slowing down or stopping." aria-label="回原文"></button>。
 
-全球算力每年约翻一倍，但前沿实验室的算力每年翻三倍——今年年初 2 吉瓦，今年年底 6 吉瓦，2027 年底 18 吉瓦，2028 年底 54 吉瓦。
+由于全球算力本身在快速增长——今年新增约 30 吉瓦、明年 50 吉瓦、2028 年 70 吉瓦——新增的部分很快就会约等于全部。
 
-这里有个被低估的细节：
+也就是说，**到明年底，全世界大部分算力实际服务于两家公司的需求** <button class="pd-ts" data-t="05:02" data-who="嘉宾" data-en="and Anthropic? I mean, it's really by the end of next year. It's already half of the incremental compute is going to anthropic and" aria-label="回原文"></button>。
 
-因为新部署的每一瓦都比两年前高效得多，「世界很大比例的可计算能力其实是今年部署的」——即便瓦数没翻倍。
+而且这不只靠租：OpenAI 在做自己的芯片，Anthropic 在采购谷歌的 TPU 并通过 FluidStack 部署；[[SpaceX|SpaceX]] 也在大量建设算力，很可能高价租给两家实验室 <button class="pd-ts" data-t="04:34" data-who="嘉宾" data-en="Now, who's building that compute for them will change. Next year, big new insurance, for example, SpaceX is building a ton of compute. And they're actively going to lease quite a bit of it to Anthropic and OpenAI," aria-label="回原文"></button>。
 
-所以集中化的速度比表面数字更快。
+## 为什么供应链追不上：一条鞭子要甩好几年
 
-## 100 倍的缺口，和一根抽不动的鞭子
+主持人算了一笔账：
 
-Dylan 算了一笔账：
+60 亿美元的晶圆厂设备投资，每年产出一吉瓦算力，而一吉瓦现在能带来 1000 亿美元收入——即使打对折养活所有中间商，也是 1 美元变 100 美元的生意。
 
-60 亿美元的晶圆厂资本支出每年能产出一吉瓦算力，而一吉瓦如今能产生约 1000 亿美元的收入——就算砍半给中间商，晶圆厂 CapEx 和终端收入之间仍有超过 100 倍的差距。
+资本为什么不疯狂扩产？
 
-「这就是资本主义：你会想象人们会想办法造更多反射镜」——是的，但供应链是根鞭子，信号从鞭柄传到鞭梢要很多年。
+**Patel 的答案是牛鞭效应：价格信号传到供应链最末端需要很久**。
 
-卡尔蔡司现在才意识到 2030 年前要造够 100 台 EUV 光刻机所需的镜片，而按真实经济逻辑应该更多。想加速？
+给 [[ASML|ASML]] 光刻机做镜片的 [[Carl Zeiss|Carl Zeiss]]，年初还认为不需要每年为 100 台 EUV 设备备货，现在才刚意识到要扩产 <button class="pd-ts" data-t="10:46" data-who="嘉宾" data-en="You go to talk to someone at Carl Zeiss, they're like, yeah, yeah. We need to make 100 EUV tools by the end of the decade. I think when we had our episode earlier this year," aria-label="回原文"></button>。
 
-得给供应链上每一家公司都塞几百亿逼它扩产——而实验室的现金流还撑不起这个。
+理论上有人拿 4 亿美元买一台 EUV 设备放着，转手能卖 10 亿以上，但现实里没人这么干——整个体系还处在资金受限状态 <button class="pd-ts" data-t="10:19" data-who="嘉宾" data-en="I think if anyone had $400 million and the ability to convince ASML to sell them an EV tool, they should totally just go buy one and wait and then sell it for north of" aria-label="回原文"></button>。
 
-## 定价权的转移：Elon 和 Meta 看到了什么
+## 监管正在变成实验室自己的刹车
 
-过去算力在建成前就签好了长约、拿客户合同去信贷市场融资；
+一个反直觉的事实：**实验室自己倡导的安全监管，拖慢它们的速度远超拖慢开源模型**。
 
-而 Elon 手握现成算力，直接以每兆瓦 2500 万甚至 4000 万美元的价格卖给 Anthropic 和 [[Google|Google]]——一年收回全部 CapEx。
+OpenAI 没有发布 Astra，还暂停训练两周；Anthropic 被广泛认为已有下一个版本的 Mythos，却因安全评估没有放出来 <button class="pd-ts" data-t="16:33" data-who="嘉宾" data-en="OpenAI not releasing Astra, OpenAI stopping training for two weeks, Anthropic not releasing what their safety assessment said is Model 2," aria-label="回原文"></button>。
 
-[[Meta|Meta]] 则在用自己的资产负债表囤算力，不找终端客户先建起来，再决定是自用还是以疯狂利润率外卖——Dylan 认为这使 Meta 和 [[SpaceX|SpaceX]] 成了算力上「唯一说得通的第三名」。
+甚至 Anthropic 一度停掉外国员工对 Mythos 的内部访问 <button class="pd-ts" data-t="65:20" data-who="Dylan Patel" data-en="We saw that. Antropic had to stop giving Mythos to foreign employees for a bit. I didn't know that was true." aria-label="回原文"></button>。
 
-任何人今天在每兆瓦 1000–1500 万美元的价位上都能赚钱(「买个 GB300 机架、下载 Kimi 权重、部署到 OpenRouter 就行」)，所以实验室要吞下更多算力，就必须出比所有人更高的价——算力均价开始向上拐。
+这直接影响收入：不发布最好的模型，每兆瓦收入的增速就会放缓，实验室高价抢算力的能力也随之减弱。
 
-## 最大反共识：推理算力占比会下降
+在安全不重要的世界里，Patel 认为实验室每兆瓦能赚 1 亿美元、出 5000 万买断所有人的算力；
 
-市场共识是「大部分算力终将流向推理」。Dylan 认为恰恰相反：当每兆瓦的利润成倍增长时，你是把利润拿去分红回购，还是去造 [[AGI|AGI]]？
+而在现实世界，地方上纽约禁数据中心、得州暂停审批、俄亥俄要求代缴周边房产税，供给被进一步收紧 <button class="pd-ts" data-t="28:52" data-who="嘉宾" data-en="But more and more, the method of regulation is New York's banning data centers. Texas is holding moratoriums. Ohio's saying you have to," aria-label="回原文"></button>。
 
-「答案显而易见——造 AGI，因为它利润高得多」。
+## 更缺钱的是信贷市场：5 万亿美元的新债
 
-他推测过去几个月实验室的边际算力已经在转向研发：Anthropic 收入在飙升后趋平，说明新增的兆瓦用于研发的比例高于推理。
+Semi Analysis 的模型显示，2024 到 2029 年，AI 相关资本开支约 11 万亿美元，其中 6 万亿靠现金流，仍有超过 5 万亿需要发债 <button class="pd-ts" data-t="56:16" data-who="嘉宾" data-en="So there's an upper limit on how fast We'll be right back. The labs fund a lot of stuff. You want to build more than that." aria-label="回原文"></button>。
 
-而训练本身其实很「小」：Anthropic 预训练 Mythos 峰值也就 200 兆瓦左右、跑约两个月，大量算力其实花在研究性试验上。
+云巨头已经全面借钱搞建设，[[Meta|Meta]] 最近发债利率约 5%–6%，Patel 认为他们完全愿意付 8%——因为算力的回报太大了 <button class="pd-ts" data-t="57:11" data-who="嘉宾" data-en="But recently Meta's raised at like 5% to 6%. I don't see why they wouldn't pay 8%. Because they would happily pay 8% because the return from the compute" aria-label="回原文"></button>。
 
-## 监管是最可能踩住的刹车
+问题是，巨头多付 250 个基点，全经济都要多付 250 个基点。主持人推演了连锁反应：
 
-限制不来自模型能力，而来自「不许发布」：OpenAI 未发布内部更强的模型、停训两周，Anthropic 扣下了安全评估没过的下一代。
+利率上升会压垮靠债务运转的电信、银行、消费品牌；
 
-结果不是落后，而是「最好的东西不拿出来」，每兆瓦收入的攀升就会停滞，高价抢算力的能力随之减弱。
+巴基斯坦、尼日利亚这类税基薄弱、债务又频繁续期的发展中国家，在新的利率环境下会「非常完蛋」<button class="pd-ts" data-t="52:11" data-who="Dylan Patel" data-en="Other countries are absolutely fucked in my opinion. I was just looking at which countries have a lot of debt, have very little tax revenue, and also a lot of their debt is serviced quite often." aria-label="回原文"></button>。
 
-另一个隐忧是政府连内部使用也会管——他担心 2030 年的世界是「发布推迟六个月，而实验室在那六个月里内部完成[[递归自我改进|递归自我改进]]，我们其他人落后好几年」。
+而那还是奇点之前的世界。
 
-## 中国：出口管制真的起作用了
+## 中国有多少算力？不到全球新增的 10%
 
-2022 年前中国占全球新增算力 30–35%,今天已不足 10%。到 2028 年中国约 30 吉瓦、且国产芯片明显更差(按质量折算 50 吉瓦约等于美国芯片的 20 吉瓦)；
+回到 2022 年，美国占全球新增算力的 45%–50%，中国占 30%–35%。[[出口管制|出口管制]]加上美国的狂飙之后，**今天 70% 的瓦特部署在美国，中国不到 10%** <button class="pd-ts" data-t="34:58" data-who="嘉宾" data-en="Since 2022, we've had big regulations against China and a dramatic increase in America. So today, 70% of watts are being deployed in America. And China is really a very small number." aria-label="回原文"></button>。
 
-2029 年增到 50 吉瓦「完全合理」，因为中国最擅长的就是极速扩产能。
+2028 年前中国最多约 30 吉瓦，而且靠 SMIC、CXMT 等国产产线，芯片性能明显落后 <button class="pd-ts" data-t="37:19" data-who="嘉宾" data-en="But ultimately, China is definitely going to hockey stick if there's anything China's really good at is scaling manufacturing really, really quickly." aria-label="回原文"></button>。
 
-Dylan 承认这改变了他的看法：到自动化研究员时代，中国的算力存量会远远落后——[[出口管制|出口管制]]可能真的奏效了。
+不过 Patel 也提醒两点：
 
-但前提是「起飞」够快；若智能体来的慢，中国的巨额补贴会让它在半导体上大幅追平。
+一是美国金融体系敢给初创公司押注，中国一旦选定行业，补贴力度超过全球其他国家总和——如果起飞没那么快，中国会追上来 <button class="pd-ts" data-t="39:36" data-who="嘉宾" data-en="but some of it is also just... American financial systems are more willing to YOLO into startups than Chinese financial systems." aria-label="回原文"></button>。
 
-## 钱从哪来：利率、挤出与主权债务
+二是中国公司用极少算力做出了不落后的模型，Kimi 的算力远不到一吉瓦，而 Anthropic 年底就有 5 吉瓦以上 <button class="pd-ts" data-t="40:34" data-who="嘉宾" data-en="But, you know, Kimi is not running, you know, a gigawatt or anywhere close to it. Yeah. Whereas Anthropic is, you know, nearly five gigawatts by the end of the year, right?" aria-label="回原文"></button>。
 
-2024–2029 年约 11 万亿美元 CapEx,模型测算 6 万亿靠现金流、5 万亿靠债务。超大规模云厂商已经不产生自由现金——全花在 CapEx 上、还在举债。
+原因在于实验室的算力大头花在研究实验上，真正的 Mythos 预训练只用不到 200 兆瓦 <button class="pd-ts" data-t="41:29" data-who="嘉宾" data-en="when Anthropic trains Mythos, it's sub-200 megawatts, right? The pre-training or the whole thing? The pre-training." aria-label="回原文"></button>。
 
-当 Meta 的融资成本从 5–6% 涨到 8%,经济里所有人都要多付 250 个基点；
+## 终局：集中化几乎不可避免
 
-贴现率上升会砸垮所有「巴菲特式」稳定现金流行 stock(「贴现率从 3% 变成 10%,我为什么还重仓强生？」)。Dylan 引用朋友的说法：
+主持人指出，前沿实验室的有效 AI 人口正以每年约 10 倍的速度膨胀——即使没有[[递归自我改进|递归自我改进]]。
 
-会出现「第二次沃尔克冲击」——上世纪 80 年代美联储暴力加息导致约 40 国违约，这次巴基斯坦、尼日利亚这类高债务、短久期国家会最先完蛋。
+几年之内，单个公司拥有的 AI 劳动等价物可能超过全人类 <button class="pd-ts" data-t="69:04" data-who="Dylan Patel" data-en="on earth. And I think that's like a thing that is very plausible by the end of this decade, that there's more AI labor," aria-label="回原文"></button>。
 
-再往远推：
+为什么必然集中？
 
-若 AGI 让世界经济每年翻倍，[[利率|利率]]会达到几十个百分点，「每一个不参与 AI 生产的国家都会违约，每一只非 AI 股票都约等于零」。
+训练有规模经济，一次训练摊薄到几十亿次使用；领先者在算力短缺时议价能力更强；部署越广的模型学到越多。
 
-## 集中化：没有力量的反方向
+每一股力量都指向同一家公司拿走更多 <button class="pd-ts" data-t="71:45" data-who="Dylan Patel" data-en="The other effect is if you're slightly ahead in the AI race and computers in shortage, You can charge a much higher markup" aria-label="回原文"></button>。
 
-前沿实验室的「有效 AI 人口」在给定能力水平下每年增长 10 倍——OpenAI 从今年 1000 万个 AI 劳动者，到明年 1 亿、后年 10 亿；
+Patel 的态度很坦率：他不信任政府，也不信任 Dario 和 Sam，但**除非 AI 进步自己放慢或被监管死死按住，「这就是唯一会发生的事」**<button class="pd-ts" data-t="74:04" data-who="嘉宾" data-en="it? Unless AI progress slows down, unless governments regulate the fuck out of it, this is all that happens." aria-label="回原文"></button>。
 
-这个十年末，单一实验室的劳动力等价物就会超过地球人口。
+唯一的安慰是价值分配：[[Jane Street|Jane Street]] 用 Anthropic 的模型每兆瓦赚的钱，可能是 Anthropic 自己的数倍——大部分价值目前仍流向用户。
 
-原因层层叠加：训练的规模经济、稀缺算力下领先者的溢价、部署数据带来的持续学习优势、再加上递归自我改进。
-
-「每一股力量都在朝集中化呼啸而去」。唯一的安慰：今天价值大部分没被实验室拿走——[[Jane Street|Jane Street]] 每兆瓦能榨出 3–5 亿美元，只付给 Anthropic 1 亿。
-
-但 Dylan 点破了这恰是集中化的机制：「token 在实验室内部更有价值，所以我凭什么把算力分给外面？」
-
-除非政府狠狠监管或 AI 进展放缓，否则结局只有两种：祈祷那一家把一切都做对，或者世界集体踩刹车。
+但按照把推理算力转投研发的逻辑，token 留在内部迟早比卖出去更值钱。到那时，问题就不再是经济学，而是权力。
 
 ## 本集带走
 
-- **看 AI 行业就看两个数字**:每兆瓦成本(约 1000–1500 万美元)和实验室每兆瓦收入(Anthropic 已达 5000 万、走向 1 亿)——差距就是定价权和扩张速度。
-- **算力集中比想象快**:明年年底，全球一半增量算力将服务两家实验室；前沿实验室算力每年 3 倍速、世界每年 2 倍速。
-- **反共识判断**：实验室不会把越来越多算力给推理，而是转向训练和研发——利润的去向由「造 AGI 更赚钱」决定。
-- **供应链是根鞭子**:EUV 镜片、涡轮机这类瓶颈的扩产以年计，100 倍的资本回报缺口短期补不上。
-- **宏观风险真实存在**:5 万亿美元 AI 债务会推高全社会利率，挤压非 AI 股估值和高债务国家——盯住 Meta 等巨头的发债利率。
-- **最大变量是监管**:不是能力、而是「不许发布/不许内部用」决定了每兆瓦收入曲线和整个集中化的速度。
+- 每兆瓦算力成本约 1000 万–1500 万美元，Anthropic 的收入已高达 5000 万美元，实验室首次进入自我造血的正循环。
+- 按已签约合同，明年全球 40%–50% 的新增算力归 Anthropic 和 OpenAI，集中化在加速而非放缓。
+- 供应链（从 Carl Zeiss 的镜片到电力涡轮机）扩产严重滞后，牛鞭效应意味着缺口短期无解。
+- 2024–2029 年 AI 需发债超 5 万亿美元，可能推高全经济利率，引发新一轮主权债务危机。
+- 中国目前占全球新增算力不到 10%，2028 年前最多约 30 吉瓦且芯片落后；但补贴规模和追赶速度不可低估。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>14 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
+
+> <span class="qz">我们今年的资本支出略超过一万亿美元。</span>  
+> *We're at a little bit over a trillion dollars of CapEx this year.*  
+> <span class="qm">—— 嘉宾 · [01:03]</span> ^q1
+
+> <span class="qz">但如果回溯一年前，他们所有的钱都是风险投资资助的亏损。</span>  
+> *But if we go back a year ago, all the money they had was venture-funded losses.*  
+> <span class="qm">—— 嘉宾 · [01:57]</span> ^q2
 
 > <span class="qz">以 Anthropic 为例，收入已经高达每兆瓦 5000 万美元。</span>  
 > *In the case of Anthropic, the revenue has gone as high as $50 million per megawatt.*  
-> <span class="qm">—— 嘉宾 · [03:05]</span> ^q1
+> <span class="qm">—— 嘉宾 · [03:05]</span> ^q3
 
-> <span class="qz">我们现在就能赚一万亿美元，但我们只是被进入 ASML 机器的反射镜卡住了瓶颈。</span>  
-> *we could make a trillion dollars right now, but we're just bottlenecked on the mirrors that go into the ASML machines.*  
-> <span class="qm">—— Dylan Patel · [09:47]</span> ^q2
+> <span class="qz">Anthropic 和 OpenAI 明年将拿走多达 40% 到 50% 的算力。</span>  
+> *You've got Anthropic OpenAI are taking as much as 40 to 50% of compute next year.*  
+> <span class="qm">—— 嘉宾 · [04:17]</span> ^q4
 
-> <span class="qz">去搞一个 GB300 机架，去下载 Kimi 权重，去吧。</span>  
-> *Go get a GB300 rack, go download the Kimi weights, go.*  
-> <span class="qm">—— 嘉宾 · [14:37]</span> ^q3
+> <span class="qz">晶圆厂层面 60 亿美元的资本支出将产生超过一万亿美元的终端 AI 收入。</span>  
+> *Six billion of capex at the fab level will have generated over a trillion dollars of end AI revenue.*  
+> <span class="qm">—— Dylan Patel · [08:53]</span> ^q5
 
-> <span class="qz">所以并不是它们落后了，只是它们没有发布自己最好的东西。</span>  
-> *So it's not that they're falling behind, it's just that they're not releasing their best stuff.*  
-> <span class="qm">—— 嘉宾 · [16:51]</span> ^q4
+> <span class="qz">因为今天任何人在每兆瓦 1000 万到 1500 万美元的算力上都能赚钱。</span>  
+> *because anyone can make money off of 10 to $15 million per megawatt compute today.*  
+> <span class="qm">—— 嘉宾 · [14:28]</span> ^q6
 
-> <span class="qz">我把我的算力以每兆瓦 2500 万或 4000 万美元的价格卖给 Anthropic 和 Google。</span>  
-> *I sell my compute for $25 million a megawatt or $40 million a megawatt to Anthropic and Google.*  
-> <span class="qm">—— 嘉宾 · [22:06]</span> ^q5
+> <span class="qz">但可以比较容易地说，中国将拥有 30 吉瓦左右的 AI 算力或更少。</span>  
+> *But it's pretty easy to say China will have like 30 gigawatts of AI compute or less.*  
+> <span class="qm">—— 嘉宾 · [35:37]</span> ^q7
 
-> <span class="qz">为什么 Anthropic 不把他们最好的模型比外部可用的领先六个月——因为安全和监管</span>  
-> *why would Anthropic not have their best model six months ahead of what is externally available because of safety and regulation*  
-> <span class="qm">—— 嘉宾 · [29:18]</span> ^q6
-
-> <span class="qz">是的，这是我个人的看法：实验室会随时间推移把越来越少比例的算力分配给推理——我知道这是非常非共识的观点，对吧？</span>  
-> *Yeah, so this is sort of what I personally believe that the labs are going to allocate less and less compute to inference over time, which I think is very non-consensus, right?*  
-> <span class="qm">—— 嘉宾 · [30:30]</span> ^q7
-
-> <span class="qz">如今的中国公司在 AI 模型方面并没有落后太多，至少在公众的感知上，相对于它们拥有的算力而言是这样。</span>  
-> *Chinese companies today are not that far behind in AI models, at least perceivably by the public relative to the amount of compute they have*  
-> <span class="qm">—— 嘉宾 · [40:10]</span> ^q8
-
-> <span class="qz">如果我的贴现率不是 3% 或 5%,而是变成了 8% 或 10%,我他妈为什么要投那么多钱？</span>  
-> *Why the fuck would I invest that much if my discount rate isn't 3% or 5%, it's now 8% or 10%?*  
-> <span class="qm">—— 嘉宾 · [58:37]</span> ^q9
-
-> <span class="qz">政府借钱给人支付养老金，这样做的机会成本现在极其高，因为那笔钱本可以用来建造一座机器人工厂，那座工厂再去建造另一座机器人工厂，那座工厂再去建造另一座机器人工厂。</span>  
-> *the government borrowing money to pay people pensions, the opportunity cost of that is extremely high now because that money could be spent building a robot factory that builds a robot factory that builds a robot factory.*  
-> <span class="qm">—— Dylan Patel · [61:09]</span> ^q10
-
-> <span class="qz">真正的问题其实是，世界其他部分允许这件事发生到什么程度？</span>  
-> *It's actually just like, how much does the rest of the world let that happen?*  
-> <span class="qm">—— 嘉宾 · [62:56]</span> ^q11
-
-> <span class="qz">单一实验室内的 AI 劳动力、有效人口，会比地球上的人还多。</span>  
-> *there's more AI labor, more effective population within a single lab than there are people on earth.*  
-> <span class="qm">—— Dylan Patel · [69:08]</span> ^q12
-
-> <span class="qz">现在，这里有一个积极的因素：今天，Anthropic 并没有攫取大部分价值。</span>  
-> *Now, the one positive thing here is that today, Anthropic does not capture most of the value.*  
-> <span class="qm">—— 嘉宾 · [74:42]</span> ^q13
-
-> <span class="qz">就是说，再说一遍，权力之所以集中，是因为我不想把 token 发到外面去——它们在里面更有价值。</span>  
-> *Is that, you know, again, power concentrates because I don't want to send the tokens outside. They're more valuable inside.*  
-> <span class="qm">—— 嘉宾 · [75:48]</span> ^q14
+> <span class="qz">你基本上就可以对数据中心征税。</span>  
+> *you can fundamentally just tax the data centers.*  
+> <span class="qm">—— Dylan Patel · [50:15]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 

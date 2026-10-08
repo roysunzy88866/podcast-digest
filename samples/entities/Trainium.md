@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(37:52起):AWS 自研芯片,第三代 Trainium 3 已在市、容量卖到明年年底;本集称它从绝对性能和性价比看可能是当下市场上最好的推理芯片,Bedrock 大部分推理流量跑在它上面。
+- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(37:52起):AWS 自研芯片,第三代 Trainium 3 已在市、容量卖到明年年底;本集称它从绝对性能和性价比看可能是当下市场上最好的推理芯片,Bedrock 大部分推理流量跑在它上面。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为概念
 
 ## ③ 关联
 

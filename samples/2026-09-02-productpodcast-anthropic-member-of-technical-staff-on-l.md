@@ -170,7 +170,7 @@ Anthropic 人人都是 [[MTS|MTS]](技术组成员)，不管什么级别。Amand
 
 **换个口味**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Amazon、Anthropic、AWS</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Amazon、Anthropic、AWS</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Amazon、Anthropic、Databricks、Microsoft</span>
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、Palantir、Databricks、Lovable</span>
 

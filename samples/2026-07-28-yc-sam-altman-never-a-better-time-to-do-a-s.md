@@ -182,7 +182,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:OpenAI、YC · 同概念:AGI、推理 (inference)、ChatGPT</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

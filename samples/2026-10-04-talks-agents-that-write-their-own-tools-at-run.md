@@ -140,7 +140,7 @@ Sandhya 的结论是：**这是自我改进、自我进化的智能体的起点*
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:AWS · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:AWS · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|智能体时代的数据库：Andy Pavlo 谈 AI 如何重写数据库规则]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)、LLM</span>
 

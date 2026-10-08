@@ -157,7 +157,7 @@ A 级员工直接把问题修好了，你甚至不知道出过问题 <button cla
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|三次找到产品市场匹配：一个创始人的实战手册]]<span class="pd-rz">同概念:产品市场契合 (product market fit)、进入市场 (go to market)</span>
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|Vercel COO 谈 AI 时代的市场打法：一人加一个智能体]]<span class="pd-rz">同概念:产品市场契合 (product market fit)、进入市场 (go to market)</span>
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|从 Stripe 到 Vercel：她要为 AI 时代重写销售法则]]<span class="pd-rz">同概念:产品市场契合 (product market fit)、进入市场 (go to market)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:自筹资金 (bootstrap)</span>
 
 </div>

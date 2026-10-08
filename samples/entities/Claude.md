@@ -100,7 +100,7 @@ unlisted: true
 - **[[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]]**(01:35起):本集批评其安全性靠提示词里写「请不要做邪恶的事情」,并提到它会把大量遥测数据发回 Anthropic 的 Datadog 实例。
 - **[[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]]**(03:14起):本集把 Claude 当作日常智能体：连上 Composio 的 MCP 后，只需粘贴 Slack 链接就能自动跨 Sentry、Datadog 取数、找根因并在五分钟内提交修复 PR，全程无需写工作流或 skill。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Claude 在美国付费订阅者数量上已超过 Gemini，是本报告最大意外之一；Anthropic 名言不做广告，订阅打得更激进，约 7.5% 订阅用户在每月 100 美元以上最高档。
-- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(41:19起):本集吐槽:销售把 Granola 会议记录用 Claude 总结一下就发出来,「你的工作是综合出真正重要的东西,Claude 做不好这件事」。
+- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(41:19起):本集吐槽:销售把 Granola 会议记录用 Claude 总结一下就发出来,「你的工作是综合出真正重要的东西,Claude 做不好这件事」。
 
 ## ① 提到它的金句
 
@@ -304,7 +304,7 @@ unlisted: true
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|《我用五个提示词「黑」了自己：你的 AI 助手并不安全》]] — 作为被讨论公司
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司(提及)
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

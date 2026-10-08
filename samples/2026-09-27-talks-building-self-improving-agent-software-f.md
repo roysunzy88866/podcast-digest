@@ -84,7 +84,7 @@ Warp 提供开箱即用的模型路由(叫 auto models),随着新模型发布持
 **顺着「智能体」挖下去**
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对：离心机工作法]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)、软件工厂 (software factory)</span>
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对:一位首席工程师的协作心法]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)、软件工厂 (software factory)</span>
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈]]<span class="pd-rz">同公司:Warp · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
 
 </div>

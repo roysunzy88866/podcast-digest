@@ -202,7 +202,7 @@ Jonathan 发现，很多企业的决策者心里都藏着一个创业梦。他�
 
 - [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年]]<span class="pd-rz">同公司:YC · 同概念:product market fit</span>
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|外呼回复率接近零？创始人卖货的八个实操技巧]]<span class="pd-rz">同公司:YC · 同概念:product market fit</span>
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|Vercel COO 谈 AI 时代的市场打法：一人加一个智能体]]<span class="pd-rz">同公司:Stripe · 同概念:product market fit</span>
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|从 Stripe 到 Vercel：她要为 AI 时代重写销售法则]]<span class="pd-rz">同公司:Stripe · 同概念:product market fit</span>
 
 </div>
 <div class="pd-ex">

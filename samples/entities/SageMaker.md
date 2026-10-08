@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(47:49起):本集说 SageMaker 正获得新生:从模型构建平台变成企业做后训练、微调、蒸馏开放权重模型并托管推理的地方。
+- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(47:49起):本集说 SageMaker 正获得新生:从模型构建平台变成企业做后训练、微调、蒸馏开放权重模型并托管推理的地方。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为概念
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为概念
 
 ## ③ 关联
 

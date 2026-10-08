@@ -428,7 +428,7 @@ unlisted: true
 
 ![[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com#^q9]]
 
-![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q4]]
+![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q8]]
 
 ![[2026-10-05-pg-n8n-vs-claude-code#^q3]]
 

@@ -25,7 +25,7 @@ unlisted: true
 
 *4 集*
 
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为概念
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为概念
 - [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]] — 作为概念
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为概念(提及)
 - [[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]] — 作为概念

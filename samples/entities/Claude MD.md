@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(09:17起):本集说它是用户级的基本规则文件(ground rules),Lada 的只有 72 行,因为上下文内存稀缺,只放契约级规则。
+- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]]**(09:17起):本集说它是用户级的基本规则文件(ground rules),Lada 的只有 72 行,因为上下文内存稀缺,只放契约级规则。
 - **[[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]]**(06:44起):本集把它比作「每次智能体开工前在实习生耳边低语的一句话」：加载进其上下文的指引，最优秀的构建者会在 Claude MD 和 skill 文件上投入多得不同寻常的时间
 
 ## ① 提到它的金句
@@ -26,7 +26,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为概念
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为概念
 - [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]] — 作为概念
 
 ## ③ 关联

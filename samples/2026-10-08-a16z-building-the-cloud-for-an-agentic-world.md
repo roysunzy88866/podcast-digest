@@ -1,12 +1,12 @@
 ---
-title: AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云
+title: 当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌
 podcast: The a16z Show
 date: 2026-10-08
 source_url: undefined
 duration: "56:05"
 type: episode
 cover: "#64748b"
-description: "AWS CEO Matt Garman 做客 a16z 播客，谈 GPU 容量怎么分、2200 亿美元资本开支、自研芯片 Trainium,以及智能体如何倒逼云重构。"
+description: "AWS CEO Matt Garman 做客 a16z,聊2200亿美元资本开支、GPU 分配、自研芯片 Trainium,以及智能体如何重造云计算。"
 host: "[[Raguraguram]]"
 cohosts: ["[[Matt Garman]]"]
 companies: ["[[AWS]]", "[[Amazon]]", "[[Anthropic]]", "[[OpenAI]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world#post","headline":"AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world","mainEntityOfPage":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world","description":"AWS CEO Matt Garman 做客 a16z 播客，谈 GPU 容量怎么分、2200 亿美元资本开支、自研芯片 Trainium,以及智能体如何倒逼云重构。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Raguraguram"},{"@type":"Person","name":"Matt Garman"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"Amazon"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"Trainium"},{"@type":"Thing","name":"Graviton"},{"@type":"Thing","name":"Bedrock"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"Firecracker"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"开放权重 (open weights)"},{"@type":"Thing","name":"SageMaker"},{"@type":"Thing","name":"尾部延迟 (tail latencies)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云","item":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world#post","headline":"当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world","mainEntityOfPage":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world","description":"AWS CEO Matt Garman 做客 a16z,聊2200亿美元资本开支、GPU 分配、自研芯片 Trainium,以及智能体如何重造云计算。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Raguraguram"},{"@type":"Person","name":"Matt Garman"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"Amazon"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"Trainium"},{"@type":"Thing","name":"Graviton"},{"@type":"Thing","name":"Bedrock"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"Firecracker"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"开放权重 (open weights)"},{"@type":"Thing","name":"SageMaker"},{"@type":"Thing","name":"尾部延迟 (tail latencies)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌","item":"https://talk.solomind.cc/2026-10-08-a16z-building-the-cloud-for-an-agentic-world"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云
+# 当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌
 
 <div class="pd-byl"><b>Matt Garman</b> · AWS CEO · 2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-08-a16z-building-the-cloud-for-an-agentic-world.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我们最近宣布，未来几年将购买 200 万块 NVIDIA GPU。</div><div class="a">— Matt Garman <button class="pd-ts" data-t="00:34" data-who="Matt Garman" data-en="We recently announced we're going to be buying 2 million NVIDIA GPUs over the next couple of years." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">它们实际上非常在意尾部延迟，这很有意思，因为人并不总是关心 P999 的 S3 延迟，但智能体确实在意，并且会被它卡住。</div><div class="a">— Matt Garman <button class="pd-ts" data-t="08:25" data-who="Matt Garman" data-en="They actually care a lot about tail latencies, which is interesting, where people don't always care about the P999 S3 latency, like agents do care and get blocked by that." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Raguraguram]] · [[Matt Garman]]
@@ -37,199 +37,134 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[GPU]] · [[Trainium]] · [[Graviton]] · [[Bedrock]] · [[沙箱]] · [[Firecracker]] · [[推理]] · [[评估]] · [[护栏]] · [[开放权重]] · [[SageMaker]] · [[尾部延迟]]
 
-这一集的主角是 [[Matt Garman|Matt Garman]]——[[AWS|AWS]] 的 CEO,也是 EC2(亚马逊的云服务器服务)的第一位负责人，2005 年 AWS 还是个内部项目时他就在做用户分析了。
+[[Matt Garman|Matt Garman]] 是 [[AWS|AWS]] 的 CEO。他 2005 年在商学院实习时就参与了 AWS 的早期分析项目，后来成为 EC2 的第一任总经理。
 
-他和 a16z 的投资人聊了一场信息量极大的对话：
+如今 AWS 已是规模庞大的云计算巨头，在这期 a16z 播客里，他罕见地详细谈了这家公司如何看待 AI 带来的巨变——从基础设施、芯片到组织方式。
 
-史上最大规模的基础设施建设是怎么回事，以及当写代码的从人变成[[智能体|智能体]]，云本身要怎么变。
+> 【背景】AWS 当前年收入约 1690 亿到 1700 亿美元、增速约 37% 为公开财报数据，节目原文中未提及具体数字。
 
-先甩个钩子：[[Amazon|Amazon]] 今年的资本开支是 2200 亿美元，未来几年还要买入 200 万块 NVIDIA [[GPU|GPU]],而且「我们不预计很快放缓，因为需求实在太庞大了」。
+## 为什么说智能体的工作流在 AWS 上跑得更好?
 
-这是任何公司在单一年度从未有过的最大支出。
+Garman 的核心判断是:云的客户正在从人变成[[智能体|智能体]]。
 
-## 初创公司是 AWS 的命脉，这不是客气话
+过去开发者用图形界面点点点,现在越来越多的代码是智能体写的,数据库是智能体选的,部署也是智能体完成的。
 
-Garman 在 2005 年的商学院实习项目就是分析 AWS 最吸引谁，答案是初创公司。
+这对云提出了新要求。
 
-这笔账 AWS 算得很清楚：今天大约 30-40% 的 AWS 收入，来自那些在 AWS 生命周期中曾是初创公司的企业。
+比如智能体特别在意尾延迟——S3 存储服务千分之一的极端慢请求,人类用户可能察觉不到,智能体却会被卡住。
 
-所以 AWS 有意给「两个人在车库里」的公司留资源——不只是为了生意，还因为初创公司是 AWS 学习的对象：
+再比如,智能体常常需要建一个数据库、用一下、马上销毁,传统为生产系统设计的五个九高可用在这里是过度设计。
 
-银行五年后才会想要的能力，初创公司今天就在要。
+他的说法是:「**智能体的工作流往往在 AWS 上跑得比任何地方都好**」<button class="pd-ts" data-t="00:39" data-who="嘉宾" data-en="We recently announced we're going to be buying 2 million NVIDIA GPUs over the next couple of years. You got CapEx the same as what, 200 or something? $220 billion for 26." aria-label="回原文"></button>。
 
-变了的是体量：以前的初创公司拿 1000 万美元融资慢慢迭代，现在第一天估值就是 10 亿美元、手握 2 亿美元融资。
+为此 AWS 做了不少改造。以前注册账户要配信用卡、定义网络和权限,现在用 Gmail 就能登录,30 秒内可用,而且以后要扩展时不用迁移。
 
-没变的是他们的焦虑——规模化之后架构怎么办、安全怎么办。这也是他们选 AWS 而不是 Neocloud(新兴 GPU 云厂商)的原因。
+他们还在测试一个叫 AWS Context 的服务,帮智能体跨数据湖找数据。
 
-## GPU 怎么分：故意不把所有卡卖给大实验室
+## 智能体需要全新的积木
 
-最稀缺的 GPU,前沿实验室恨不得全吞掉，AWS 怎么平衡？
+Garman 强调,这不只是把旧服务换个用法,而是要造全新的基础组件:计算[[沙箱|沙箱]]、网关、专门给智能体的权限体系。
 
-Garman 说得很直白：他们其实可以把每一块 GPU 都卖给 [[Anthropic|Anthropic]]、[[OpenAI|OpenAI]]、Meta 这些大客户然后收工，但选择不这么做，因为要养整个生态系统。
+你不能把管理员权限整个丢给一个智能体,而应该给它有时限、限定任务范围的细粒度权限。
 
-于是 AWS 有意做分配：大实验室拿大头，但给初创公司留出容量。
+有意思的是,AWS 十年前发明的轻量级虚拟机技术 [[Firecracker|Firecracker]],现在被大量沙箱创业公司使用——本来不是为智能体设计的,却意外地合适,因为它启动快、安全边界清晰。
 
-结果大约 60% 的 GPU 申请最终以某种形式被批准——有时晚一点、有时换个区域、有时配置略有不同。
+## 头部实验室把 GPU 吃光了,小公司怎么办?
 
-至于泡沫担忧，他的回答靠的是客户数据：去问客户「以今天的能力和成本，你有正向回报吗」，几乎每个人都说是。
+这是所有创业公司都在问的问题。答案很直接:AWS 是刻意不把货全部卖给大客户的。
 
-「没有哪种泡沫会让他们停止在这上面花钱。」
+「**我们本可以把每一个 [[GPU|GPU]] 都卖给头部实验室然后收工,但我们选择不这样做**」<button class="pd-ts" data-t="18:31" data-who="嘉宾" data-en="And so what we do is we actually do allocate and we basically say, okay, we're going to keep, you're right, we could sell every single GPU or AI accelerator we had to probably just the big frontier labs and call it a day." aria-label="回原文"></button>。
 
-加上 AWS 客户集中度极低——单一客户最高只占个位数百分比，而一些 Neocloud 对一两个客户的集中度能到 30%-60%。
+他估计,对收到的算力请求,AWS 最终会以某种形式对约 60% 说是——可能晚一点、换个区域、或换个配置。
 
-## 约束永远在移动：没有唯一的瓶颈，只有最新的瓶颈
+关于泡沫的质疑,他有两点回应:一是 AWS 客户分散,单一客户占比是个位数百分比,不像某些新型云厂商集中在个别大客户;二是企业客户今天就已经在拿到正向回报,「你去问客户,几乎每个人都说,是的,有正回报」<button class="pd-ts" data-t="22:18" data-who="嘉宾" data-en="You go talk to the customers and you say, at the capability today and the cost today, are you seeing positive returns to your business? And almost to a person, they'll say like, oh yeah." aria-label="回原文"></button>。
 
-被问到未来几年最严重的瓶颈是什么，Garman 引用了本科读过的《目标》(The Goal)：永远没有唯一的约束，永远只有最新的那个。
+## 瓶颈不是芯片,而是电力和盖楼的人
 
-解决一个，下一个立刻顶上——电力解决了可能是内存，再是 TSMC 产能、HBM、网络组件，甚至供应链里一个连接器的小故障。
+供应链的约束像打地鼠。「**从来不存在单一的约束,只有最新的那个约束**」<button class="pd-ts" data-t="27:23" data-who="嘉宾" data-en="And so it turns out there's never one constraint. There's always just the latest constraint. And so you have to think about all of them." aria-label="回原文"></button>。
 
-而且约束还有位置属性：某地电力过剩不代表德国够用，容量并非完全可互换。
+这个月可能是电力,下个月可能是内存、HBM、台积电产能、网络部件,甚至连接器。
 
-这个规模也逼出了以前从不需要的规划：
+最有趣的变化是电力。
 
-15 年前缺电就找电力公司要几十兆瓦，现在必须自己出资建电力项目、可再生能源项目——过去 10 年 AWS 每年都是最大的可再生能源采购方之一，规划要往前看 20 年，需求预测从多个季度变成了提前好几年。
+15 年前要更多电,跟电力公司要几十兆瓦就行;现在 AWS 得自己掏钱建电站——太阳能、核能项目都做,连续多年是全球最大的可再生能源采购方之一,规划要看 20 年。
 
-## 自研芯片：从「卸载卡」长出来的 Trainium
+盖数据中心的建筑工人也成了稀缺资源。
 
-AWS 做芯片不是拍脑袋，是迭代出来的。十三四年前客户抱怨「虚拟化税」(虚拟化损耗了本该有的服务器性能)，想要裸金属性能。
+## 从网卡到 Graviton 再到 Trainium:自研芯片的故事
 
-AWS 先把网络虚拟化卸载到一张卡上，后来找到一家在卸载卡上放了 ARM 内核的公司(即 Annapurna 团队，后被收购)，让虚拟化全部走卡上的 API——这就是 Nitro。
+AWS 的芯片之路是一步步蹭出来的。
 
-再往下想：这些 ARM 内核能不能直接做成服务器？于是有了 [[Graviton|Graviton]]。
+先是发现虚拟化开销太大,把网络虚拟化卸载到一张卡上;然后发现一家叫 Annapurna 的小公司,他们的卸载卡上有 ARM 核心,于是收购了这家公司,做出了 Nitro 卡,能理直气壮地告诉客户「我们无法访问你的虚拟机」。
 
-如今 AWS 每年部署的 Graviton 机器比任何其他类型都多：便宜 20%、性能好 20%,前 100 大客户里 90% 以上都在用。
+后来干脆把卸载卡上的 ARM 核心做成服务器,就是 [[Graviton|Graviton]]。
 
-有客户整个集群迁移后服务器数量直接砍半。Garman 说这是「客户降低账单最简单的一条路」。
+它比同类便宜 20%、性能好 20%,前 100 大客户中 90% 以上都在用,有客户整体迁移后服务器数量减半。
 
-五六年前看到 AI 算力要起势，又做了 [[Trainium|Trainium]],现在第三代 Trainium 3 已在市，容量卖到了明年年底。
+AI 时代的答案是 [[Trainium|Trainium]]。名字叫训练芯片,但 Garman 坦言「我们起名字确实很差」——它现在可能是市面上最好的[[推理|推理]]芯片,性能和性价比都出众。
 
-名字带 Train(训练)，但 Garman 坦言他们「不太擅长起名字」——实际上 Trainium 从绝对性能和性价比看可能是当下市场上最好的[[推理|推理]]芯片之一，[[Bedrock|Bedrock]](aws 的模型托管服务)上的大部分推理流量就跑在它上面，Anthropic 和 OpenAI 都有基于它构建的协议。
+[[Bedrock|Bedrock]] 上大部分推理流量都跑在 Trainium 上,[[Anthropic|Anthropic]] 和 [[OpenAI|OpenAI]] 都签了协议基于它构建,产能已经卖到明年年底前后。
 
-## 智能体正在改写云的设计假设
+## 企业用智能体,卡在两件事上
 
-这是全集最有前瞻性的部分：当用户从人变成智能体，很多「好东西」反而成了负担。
+Garman 观察到,企业现在建的智能体大多简单、非自主、有人类把关。要规模化,得解决两个问题。
 
-比如生产级 Aurora 数据库要有五个九的持久性，但很多智能体是「建一个数据库、干点活、然后让它消失」——五个九对这种瞬态用例是过度工程。
+第一是思维方式。企业总想让智能体照搬现有流程——Bob 做五步,就让智能体做同样五步。
 
-AWS 不想做「不可靠选项」，而是思考如何两者兼得：能快速创建随手扔掉，也能长成大型生产库。
+但真正的价值在于换一种解法:智能体可以大规模并行,同时试 50 种方案。
 
-还有一些以前根本不存在的「新构建块」：计算[[沙箱|沙箱]]、网关、智能体权限(与人的权限分开)。
+要从零开始想计算机怎么解决这个问题,而不是复制人怎么解决。
 
-智能体的权限不该是「给它你的一切」，而是严格限定时间范围、只够做一个任务、细粒度到「它在这个沙箱里能干什么」。
+第二是信任。客户不敢放手,是怕智能体误删生产数据库。
 
-他们自家的 [[Firecracker|Firecracker]](微型虚拟机)意外成了行业标配——大量沙箱创业公司都在用它，虽然它诞生之初不是为智能体设计的。
+[[评估|评测]]、持续测试、防漂移,这些企业今天都不会做,我认为目前没有人真正擅长解决这些问题<button class="pd-ts" data-t="43:34" data-who="嘉宾" data-en="All of those things are problems that enterprises don't know how to solve today. I don't know if anyone really is great at solving these today. It's why you've seen so many FDE teams kind of spin up and AWS's and our partners are really leaning into the FDE motion to go and help." aria-label="回原文"></button>。
 
-易用性也在为智能体重构：
+AWS 的做法是派前沿开发工程团队驻场 45 天,教会客户自己动手,然后离开——不是做永远收费的咨询生意。
 
-以前注册 AWS 账户要定义 VPC、IAM 角色、绑信用卡——这些对大客户至关重要，但对「想立刻部署」的智能体是拦路虎。
+## 在 AWS 内部,工程师已经变成「管理智能体团队的人」
 
-现在新账户可以用 Gmail 注册、30 秒内启动运行，默认配置都在幕后处理，而且之后需要时可以直接在原账户上补齐，不需要迁移。
+AWS 自己的用法可能最能说明未来。
 
-一个有趣的细节：智能体非常在意[[尾部延迟|尾部延迟]](最慢那一小部分请求的延迟)——人不关心 P999 的 S3 延迟，智能体会被它卡住。
+他们把内部 AI 工具 [[Amazon|Amazon]] Q(节目里读作 Quick)推给了每一个 Amazon 员工:HR 团队用智能体把过去几周的团队规划工作压缩到几小时,财务团队用智能体拉取各地税务规则做合规检查。
 
-Garman 说这正是智能体化工作流在 AWS 上表现最好的原因之一。
+变化最大的是软件开发。
 
-还有新的 AWS Context 服务，给智能体建一个上下文层，让它们能跨多个数据湖找数据——人不会这么访问数据，智能体乐意。
+AWS 内部有所谓前沿团队,「**不是代码补全,真的是智能体优先,智能体写所有代码,你只是在管理一个智能体团队**」<button class="pd-ts" data-t="53:21" data-who="嘉宾" data-en="And it's, you know, it's not code completion. It really is... Agent first, the agents write all of the code." aria-label="回原文"></button>。
 
-## 企业用智能体的两道坎：别复制流程，学会信任
+新产品推出的速度因此大幅加快。
 
-Garman 看到大多数企业已经建的智能体相对简单、非自主、人在回路里。他给出的第一个建议很反直觉：
+组织也在变:过去 10 个人长期守一个产品,现在三四个人快速建完就转到下一个项目。
 
-别让智能体复刻 Bob 的五步流程最后人工检查——要退一步问「智能体怎么用不同的方式完成这件事」。
-
-它可以大规模并行、同时试 50 种方法。真正的价值在从空白画布出发重新解决问题，不在复制现状。
-
-第二道坎是信任：怎么确保智能体不会删掉生产数据库？怎么配[[护栏|护栏]]、权限、是否有人在回路？
-
-企业还普遍不会做 eval([[评估|评测]]系统)——持续的测试循环、数据打标签、生产环境度量与回测防漂移，这些「今天没有谁真的特别擅长」。
-
-这正是 AWS 重投 FDE(驻场工程师团队)的原因，但他们的打法刻意区别于传统咨询：
-
-45 天内教会客户自己做 eval、标注数据，然后离开——「客户不想在未来五年里受制于一支外部团队」。
-
-数据安全上，Bedrock 的差异化就一句话：保证数据永不离开你的 VPC(你的云内私有网络)，模型提供商永远看不到你的提示词。
-
-企业从概念验证走向生产时，绝大多数落在 Bedrock 上，这是重要原因。
-
-而对想用[[开放权重|开放权重模型]](权重公开可下载的模型)做后训练、微调的企业——Garman 认为这是个令人兴奋的场景，专有数据混进去蒸馏出更便宜更好的模型——今天大多数人已经在 AWS 的 [[SageMaker|SageMaker]] 上做了。
-
-安全反而是 AI 的机会：AWS 刚推出 Continuum 服务，用强大的模型帮客户找漏洞、并基于对客户环境的了解排出优先级。
-
-他的判断：「客户终将需要机器速度的安全，而不是人类速度。」
-
-## AWS 自己内部：智能体写所有代码，工程师管智能体团队
-
-Continuum 本身就是 AWS 内部做法的对外输出。更激进的在开发侧：
-
-AWS 内部有所谓的「前沿团队」，做的是智能体式开发——「不是代码补全，智能体写所有的代码，你只是在管理一个智能体团队并驱动它们」。
-
-效果是过去一年新功能推出的速度「涡轮加速」。
-
-全公司层面，每位 Amazon 员工都用上了 Amazon Quick:HR 团队用智能体把过去一群人干几周的团队规划压缩成一个人几小时；
-
-财务团队用智能体从各处拉税务规则保合规。最让 Garman 兴奋的是：过去被软件开发阻塞的业务线员工，现在能自己解除阻塞。
-
-组织怎么变？他没有答案，只有实验：
-
-比如过去一个产品能力由 10 人团队长期负责，现在三四个人就能很快建好——那就应该把人挪到新问题上去。
-
-如何在维护已建系统与保持敏捷调动之间平衡，是 AWS 正在摸索的事。
+Garman 承认还没有标准答案,但员工其实喜欢——能更快做出更多东西。
 
 ## 本集带走
 
-- **GPU 分配是刻意设计**：AWS 明知能全部卖给大实验室，仍有意为初创公司保留容量；约 60% 的申请最终以某种形式获批——被拒不等于没戏，换个区域或配置可能就拿到了。
-- **判断泡沫看客户 ROI**:几乎所企业客户在当前能力和成本下都获得了正向回报，「没有哪种泡沫会让他们停止花钱」；加上 AWS 单一客户占比仅个位数，风险结构与高集中度的 Neocloud 完全不同。
-- **瓶颈是移动的**：电力、内存、TSMC 产能、HBM、连接器……解决一个就冒出下一个；规划云容量要在所有环节同时下注，而不是押注单一瓶颈何时解除。
-- **降低云账单最简单的一条路**：迁移到 Graviton——便宜 20%、性能好 20%,有客户整体迁移后服务器数量砍半。
-- **别让智能体复刻人工流程**：真正值钱的用法是让智能体大规模并行、用完全不同的方式解决问题，而不是「Bob 的五步它再走一遍」。
-- **企业落地智能体的最大短板是 eval**:持续测试循环、数据标注、生产回测这些能力普遍缺失——这也是 FDE 服务存在的理由，好的 FDE 应该 45 天教会你自己干然后撤走。
-- **智能体时代云要重做假设**：瞬态资源(建完就删的数据库)、亚 30 秒开户、智能体专用权限与沙箱、尾部延迟敏感——这些是云厂商正在重写的底层设计。
+- 云的客户正从人变成智能体:更低延迟、秒级开通、可随时销毁的资源、专门的智能体权限和沙箱,是新的设计原则。
+- Trainium 虽名为训练芯片,实际可能是市面上性价比最好的推理芯片,Bedrock 大部分推理流量跑在其上。
+- 企业落地智能体的两大障碍:照搬旧流程的思维方式,以及缺乏评测和信任机制——AWS 用 45 天驻场培训代替长期咨询。
+- AWS 内部已进入智能体写全部代码、工程师管理智能体团队的阶段,新产品交付速度显著加快。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
-
-> <span class="qz">我们最近宣布，未来几年将购买 200 万块 NVIDIA GPU。</span>  
-> *We recently announced we're going to be buying 2 million NVIDIA GPUs over the next couple of years.*  
-> <span class="qm">—— Matt Garman · [00:34]</span> ^q1
-
-> <span class="qz">今天，我们估计 AWS 大约 30-40% 的收入来自那些在 AWS 生命周期中曾是初创公司的企业。</span>  
-> *Today, we estimate that maybe 30-40% of AWS revenue comes from companies that was a one-time startup in AWS's lifetime.*  
-> <span class="qm">—— Matt Garman · [04:18]</span> ^q2
-
-> <span class="qz">现在从第一天起，他们的估值就是 10 亿美元。</span>  
-> *Now it's from day one, they're valued at a billion dollars.*  
-> <span class="qm">—— Matt Garman · [05:34]</span> ^q3
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">它们实际上非常在意尾部延迟，这很有意思，因为人并不总是关心 P999 的 S3 延迟，但智能体确实在意，并且会被它卡住。</span>  
 > *They actually care a lot about tail latencies, which is interesting, where people don't always care about the P999 S3 latency, like agents do care and get blocked by that.*  
-> <span class="qm">—— Matt Garman · [08:25]</span> ^q4
+> <span class="qm">—— Matt Garman · [08:25]</span> ^q1
 
-> <span class="qz">我最近看到，我们对我们最终收到的请求，大约 60% 在某种程度上、以某种形式说了「可以」。</span>  
-> *I saw recently that we say, you know, yes, in some way, shape or form to something like 60% of the requests we eventually get.*  
-> <span class="qm">—— Matt Garman · [18:49]</span> ^q5
-
-> <span class="qz">没有哪种泡沫会让他们停止在这上面花钱。</span>  
-> *There's no bubble in which they stopped spending on that.*  
-> <span class="qm">—— Matt Garman · [22:22]</span> ^q6
-
-> <span class="qz">结果证明，永远不会有唯一的约束。永远只有最新的那个约束。</span>  
-> *And so it turns out there's never one constraint. There's always just the latest constraint.*  
-> <span class="qm">—— Matt Garman · [27:21]</span> ^q7
-
-> <span class="qz">那个县的每个人每年少交 5000 美元的税，因为我们给那里带来的税收。</span>  
-> *Everybody in that county pays $5,000 a year less in taxes because of the taxes that we bring to that.*  
-> <span class="qm">—— Matt Garman · [31:28]</span> ^q8
-
-> <span class="qz">这是客户降低账单的最简单的一条路，就是迁移到 Graviton。</span>  
-> *It's been the single easiest way that customers lower their bill is to move to Graviton.*  
-> <span class="qm">—— Matt Garman · [36:22]</span> ^q9
-
-> <span class="qz">结果发现 Terranium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。</span>  
+> <span class="qz">结果发现 Trainium 从绝对性能和性价比的角度来看，可能是目前市场上最好的推理芯片。</span>  
 > *It turns out that Terranium is actually maybe the best inference chip on the market right now from an absolute performance and cost performance point of view.*  
-> <span class="qm">—— Matt Garman · [38:03]</span> ^q10
+> <span class="qm">—— Matt Garman · [38:03]</span> ^q2
 
-> <span class="qz">因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度</span>  
-> *Because look, at some point, customers are going to need security at machine speed, not at human speed*  
-> <span class="qm">—— Matt Garman · [50:43]</span> ^q11
+> <span class="qz">但我认为这是我们差异化的部分，也是需要认真考虑的超级重要的事情，因为让数据回传给模型提供商，我认为是一件危险的事。</span>  
+> *But I think it's a differentiating piece for us and it's a super important thing to think about because having that data go back into the model provider I think is a dangerous thing.*  
+> <span class="qm">—— Matt Garman · [47:01]</span> ^q3
+
+> <span class="qz">因为你看，到了某个时候，客户将需要机器速度的安全，而不是人类速度，不是像报警之后有人进去查看那种速度。</span>  
+> *Because look, at some point, customers are going to need security at machine speed, not at human speed, not at like an alarm, someone goes in, look at it.*  
+> <span class="qm">—— Matt Garman · [50:43]</span> ^q4
+
+> <span class="qz">智能体优先，智能体写所有的代码。你只是在管理一个智能体团队，并驱动它们。</span>  
+> *Agent first, the agents write all of the code. You're just managing a team of agents and driving that.*  
+> <span class="qm">—— Matt Garman · [53:22]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

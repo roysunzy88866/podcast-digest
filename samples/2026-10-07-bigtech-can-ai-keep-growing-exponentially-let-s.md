@@ -266,7 +266,7 @@ Jordan 倒没那么悲观：
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同嘉宾:Dylan Patel · 同公司:Anthropic、Google、Meta、NVIDIA、OpenAI · 同概念:CapEx、推理 (inference)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同嘉宾:Dylan Patel · 同公司:Anthropic、Google、Meta、NVIDIA、OpenAI · 同概念:CapEx、推理 (inference)</span>
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI、Amazon · 同概念:CapEx、推理 (inference)、数据中心 (data center)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、Meta、NVIDIA、OpenAI、Amazon、Oracle · 同概念:CapEx</span>
 

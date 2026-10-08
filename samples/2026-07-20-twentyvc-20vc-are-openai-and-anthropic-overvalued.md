@@ -193,7 +193,7 @@ Lin 给出几个关键数字：Fireworks 每天处理超过 40 万亿 [[token|to
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、Meta · 同概念:AGI、token、推理 (inference)、GPU</span>
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、Cursor、NVIDIA · 同概念:token、开源 (open source)、推理 (inference)</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Meta · 同概念:AGI、推理 (inference)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Meta · 同概念:AGI、推理 (inference)</span>
 
 </div>
 </div>

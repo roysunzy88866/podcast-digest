@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]]**(00:58起):英特尔的加速器项目，Daniel 与 Reef 在此相识；Reef 在那里负责项目筛选、看大量路演，意识到自己能在讲故事上帮忙。
+- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]]**(00:58起):英特尔的加速器项目，Daniel 与 Reef 在此相识；Reef 在那里负责项目筛选、看大量路演，意识到自己能在讲故事上帮忙。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]] — 作为被讨论公司
+- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]] — 作为被讨论公司
 
 ## ③ 关联
 

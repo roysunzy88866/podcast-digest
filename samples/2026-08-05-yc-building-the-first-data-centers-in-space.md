@@ -124,7 +124,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白]]<span class="pd-rz">同公司:NVIDIA、SpaceX · 同概念:数据中心 (data center)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
 
 </div>
 <div class="pd-ex">

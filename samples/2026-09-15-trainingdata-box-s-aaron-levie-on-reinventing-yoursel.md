@@ -161,7 +161,7 @@ Levy 把自己处于 AI 话题中心归因于两点：20 年非结构化数据�
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同概念:应用层 (application layer)、智能体 (agent)、编程智能体 (coding agents)、推理 (inference)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:MCP、智能体 (agent)、智能体工具框架 (harness)、推理 (inference)</span>
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同概念:开放权重模型 (open weights)、智能体 (agent)、评估 (eval)、推理 (inference)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同概念:开放权重模型 (open weights)、智能体 (agent)、评估 (eval)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,5 +1,5 @@
 ---
-title: Vercel COO 谈 AI 时代的市场打法：一人加一个智能体
+title: 从 Stripe 到 Vercel：她要为 AI 时代重写销售法则
 podcast: Grit
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "63:39"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi.jpg"
-description: Vercel COO Gene(前 Stripe 首席业务官)讲怎么用 AI 把团队砍到极精简、怎么分清增长问题出在产品还是市场，以及与创始人共处的心法。
+description: Vercel 首席运营官 Jeanne Grosser 讲述为什么离开 Stripe，以及如何用 AI 把销售团队缩到最小、把配额定得最高。
 host: "[[Jeanne Grosser]]"
 cohosts: ["[[Juven]]"]
 companies: ["[[Vercel]]", "[[Stripe]]", "[[Google]]"]
@@ -18,18 +18,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#post","headline":"Vercel COO 谈 AI 时代的市场打法：一人加一个智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi","description":"Vercel COO Gene(前 Stripe 首席业务官)讲怎么用 AI 把团队砍到极精简、怎么分清增长问题出在产品还是市场，以及与创始人共处的心法。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi.jpg","about":[{"@type":"Person","name":"Jeanne Grosser"},{"@type":"Person","name":"Juven"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"运营模型 (operating model)"},{"@type":"Thing","name":"销售管线 (pipeline)"},{"@type":"Thing","name":"预测 (forecast)"},{"@type":"Thing","name":"人手收入比 (headcount to revenue ratio)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"Vercel COO 谈 AI 时代的市场打法：一人加一个智能体","item":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#post","headline":"从 Stripe 到 Vercel：她要为 AI 时代重写销售法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi","mainEntityOfPage":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi","description":"Vercel 首席运营官 Jeanne Grosser 讲述为什么离开 Stripe，以及如何用 AI 把销售团队缩到最小、把配额定得最高。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi.jpg","about":[{"@type":"Person","name":"Jeanne Grosser"},{"@type":"Person","name":"Juven"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"运营模型 (operating model)"},{"@type":"Thing","name":"销售管线 (pipeline)"},{"@type":"Thing","name":"预测 (forecast)"},{"@type":"Thing","name":"人手收入比 (headcount to revenue ratio)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"从 Stripe 到 Vercel：她要为 AI 时代重写销售法则","item":"https://talk.solomind.cc/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel COO 谈 AI 时代的市场打法：一人加一个智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从 Stripe 到 Vercel：她要为 AI 时代重写销售法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Vercel COO 谈 AI 时代的市场打法：一人加一个智能体
+# 从 Stripe 到 Vercel：她要为 AI 时代重写销售法则
 
 <div class="pd-byl"><b>Jeanne Grosser</b> · Vercel COO · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">Vercel 有很大的支持工单量,如你所料，其中 91% 我们用一个智能体来解决。</div><div class="a">— Jeanne Grosser <button class="pd-ts" data-t="00:00" data-who="Jeanne Grosser" data-en="Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">Vercel 有很大的支持工单量,如你所料,其中 91% 我们用一个智能体来解决。</div><div class="a">— Jeanne Grosser <button class="pd-ts" data-t="00:00" data-who="Jeanne Grosser" data-en="Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Jeanne Grosser]] · [[Juven]]
@@ -38,181 +38,167 @@ jsonLd: |
 >
 > **概念** [[go-to-market]] · [[智能体]] · [[产品市场契合]] · [[运营模型]] · [[销售管线]] · [[预测]] · [[人手收入比]]
 
-这一集是 Kleiner Perkins 合伙人 [[Juven|Juven]] 主持的 Grit 播客，嘉宾是 [[Vercel|Vercel]] 的 COO Gene——她在 [[Stripe|Stripe]] 待了九年多，从约 400 人做到 8000 人规模，离职时是首席业务官，然后只休了三天假就加入只有其零头规模的 Vercel 负责整个 go-to-market([[go-to-market|市场进入]]，即怎么把产品卖出去)。
+[[Jeanne Grosser|Jeanne Grosser]] 在 [[Stripe|Stripe]] 待了 9 年多，从公司 400 人一路做到首席商务官，看着收入从 1 亿美元涨到几十亿。
 
-主持人一上来就追问：你又不缺钱，为什么还要工作？她的回答是顶级运动员式的：为什么 LeBron 还想打篮球？
+离开时她只休息了 3 天，周四最后一天上班，周一就去了 [[Vercel|Vercel]]。
 
-「你还不觉得你已经把自己在场上毫无保留地拼完了」<button class="pd-ts" data-t="02:10" data-who="Gene" data-en="He doesn't need the money. Like, I think it's because you have a passion for the thing that you've been getting out of bed for, for, you know, however long that you're not, you don't feel like you've left it all out on the field yet." aria-label="回原文"></button>。
+现在她是 Vercel 的 COO，管着所有跟客户和收入沾边的事——用她的话说，凡是对客户产生影响、又能赚钱的，都归她管。
 
-而且她自认是硬核实干者，满足感来自「周末结束时能指出来一件这周没我就不会发生的事」<button class="pd-ts" data-t="05:28" data-who="Gene" data-en="So like my sense of satisfaction is tied to did I tangibly, you know, move the chains today? So I just get a lot more, yeah, satisfaction out of like I can at the end of this week be like there's something I can point to that had not worked this week would not have occurred." aria-label="回原文"></button>。
+## 为什么放弃 Stripe，跳上一辆小得多的车？
 
-## 选公司就认三条标准
+主持人问她：你不缺钱，为什么还要干？她的回答很像职业运动员：就像 LeBron 不需要钱也还想打球一样，她还没把想做的事做完。
 
-从 Stripe 去之前，她先复盘了自己为什么在 [[Google|Google]] 待满十年，总结出三条：
+挑选下一家公司时，她有一套从 [[Google|Google]] 总结出的三条标准：价值观清晰且真的用于决策；市场足够大、能干十年还有新东西做；
 
-一是有真正被当作决策标准使用、融入日常用语的清晰价值观，且与自己天然契合；
+团队里有一流工程师在做难的东西。Vercel 三条全中。
 
-二是身处真正巨大的市场、有天然相邻领域，待十年也总有新东西可做；
+她对创始人说，长期看，互联网上的每一个像素理论上都可以建在 Vercel 上——这是一个可以追十年的目标。<button class="pd-ts" data-t="26:30" data-who="Jeanne Grosser" data-en="Large horizontal market, you know, the thing I said to G when I started and he asked me one of the reasons why I joined was, you know, I felt like in the fullness of time, every pixel on the internet could theoretically be built on Vercel." aria-label="回原文"></button>
 
-三是公司里有一群「工程师中的工程师」——2015 年一个做市场的人这么选公司，她说当时没几个人会这么讲<button class="pd-ts" data-t="24:47" data-who="Gene" data-en="Two was played in a truly large market with natural adjacencies, so you could be there a decade and there was always going to be something new and interesting to work on." aria-label="回原文"></button>。
+## 产品卖不动，到底怪谁？
 
-她照这三条选出了当时的 Stripe、GitHub、Slack,如今看 Vercel 也是三条全中：价值观贯穿入职、全员大会和绩效评估；
+她一针见血：
 
-市场大到「假以时日，理论上互联网上的每一个像素都可以构建在 Vercel 之上」<button class="pd-ts" data-t="26:16" data-who="Gene" data-en="They could really talk to me about how they used them in onboarding, all-hands, performance reviews, like, across the board. Large horizontal market, you know, the thing I said to G when I started and he asked me one of the reasons why I joined was, you know, I felt like in the fullness of time, every pixel on the internet could theoretically be built on Vercel." aria-label="回原文"></button>;而且整个公司由创业者和发明家组成。
+硅谷创始人多是技术出身，产品是他们的镜子，承认产品有问题太难，于是枪毙销售负责人成了惯例——这也是销售总监平均任期不到两年的原因。
 
-## 增长不行，到底是产品问题还是市场问题？
+她加入 Vercel 后做的第一件事，就是把问题搞清楚。
 
-她抛出行业现实：
+办法很朴素：找 10 家已经在用 Vercel 但没正式签约的大企业客户，让产品经理和首席工程师一起连着听 10 场对话。
 
-硅谷多数创始人技术出身，所以「责怪销售比责怪产品更容易，因为产品更多是你自身的映照」<button class="pd-ts" data-t="09:36" data-who="Gene" data-en="A large part of the reason, in my opinion, that that's the case is that most of the founders in Silicon Valley are technical. And so it's easier to blame sales than it is to blame the product because the product is more of a reflection of you." aria-label="回原文"></button>——这就是为什么 CRO(首席营收官)平均任期不到两年。
+听完之后大家达成共识：**企业级[[产品市场契合|产品市场契合度]]还不完整，得先补产品**。
 
-而判断是[[产品市场契合|产品市场契合度]](PMF,产品真正匹配市场需求)问题还是销售问题，没有任何测试可依。她的解法很实操：
+这样就不是销售怪产品、产品怪销售，而是大家一起听反馈、得出同样的结论。<button class="pd-ts" data-t="11:29" data-who="Jeanne Grosser" data-en="Let's get the product manager, lead engineer, and let's run them through conversations with all 10 in a row so they can get pattern recognition. And what do you know, coming out of the other side of those 10 sessions, we all came to the conclusion that we did not have full enterprise product market fit." aria-label="回原文"></button>
 
-挑 10 家在用产品但没用旗舰能力的大型企业客户，让产品经理和牵头工程师连续跟完 10 场对话攒出模式识别——结果 10 场下来，大家一致承认企业侧的 PMF 并不完整，有一批产品改进要先做<button class="pd-ts" data-t="11:29" data-who="Gene" data-en="Let's get the product manager, lead engineer, and let's run them through conversations with all 10 in a row so they can get pattern recognition. And what do you know, coming out of the other side of those 10 sessions, we all came to the conclusion that we did not have full enterprise product market fit." aria-label="回原文"></button>。
+她还用 AI 从销售电话记录里主动提取客户的异议，给我们答得多好打分；如果是产品缺口，就自动生成一条产品需求。
 
-另一个办法是让产品经理直接听你做 pitch,事后逐场问「我哪里讲得不对」;Vercel 还用 AI 从销售通话里自动提取客户异议、给处理程度打分，处理不了的缺口会自动生成一条产品需求<button class="pd-ts" data-t="12:55" data-who="Gene" data-en="I think there's a ton of stuff you now can do, too, with, like, AI and listening to, like, call transcripts and looking for patterns as well, where, like, one of the things we do at Vercel is actually we proactively extract objections from calls and" aria-label="回原文"></button>。
+## 接手一个注定完不成的年度目标怎么办？
 
-## 把创始人的大数字变成数学
+主持人讲了一个真实案例：
 
-对销售负责人最致命的坑，是扛着一份自己不理解的[[预测|预测]]上任。
+一位新上任的销售负责人，张口就说今年要从 100 万美元做到 1000 万，但被问到「你现在有多少[[销售管线|销售管线]]」时答不上来。
 
-她讲了一个刚认识 10 分钟的早期公司 CRO:目标年初 100 万美元做到 1000 万，却答不上现有 pipeline([[销售管线|销售管线]]，即潜在成交机会的储备)有多少、几个销售、靠什么达成——她直接说「你会在一个季度内被炒掉」,并点破真相：
+主持人直接警告他：接下这个数字，你一个季度内就会被开除。
 
-「你继承的是创始人的预测。创始人默认都是乐观主义者，极度亢奋，而且根本不知道怎么给业务做预测」<button class="pd-ts" data-t="15:34" data-who="Gene" data-en="And I was like, dude, you are inheriting a founder's forecast. Founders are default optimists, extremely exuberant, and by the way, do not know how to forecast a business." aria-label="回原文"></button>。她的原则：
+Jeanne Grosser 的做法是建一套[[运营模型|运营模型]]——把创始人拍出来的大数字拆开，算清楚需要多少管线、多少销售、多大的单子才能实现。
 
-不存在的自助产品不进预测，从现有数据倒推给出合理数字，再把压力推回产品团队——「在你被解雇之前，产品负责人不会被解雇」这种事不会发生<button class="pd-ts" data-t="16:27" data-who="Gene" data-en="To make sure that they can fill the gap with the self-serve product that needs to be released. Otherwise, I promise, the product leader is not going to be the one that gets fired before you." aria-label="回原文"></button>。
+她加入 Vercel 几周后的第一次董事会就带着模型去说：
 
-她在 Stripe 和 Vercel 进门第一件事都是建「[[运营模型|运营模型]]」:把创始人选定的数字背后需要成立的全部数学摊开，按细分市场、按地区拆完整漏斗。
+照现在的轨迹，前两个季度没问题，但到第三季度会掉下悬崖，因为之前的管线根本没攒够。<button class="pd-ts" data-t="19:02" data-who="Jeanne Grosser" data-en="So my first board meeting was, like, a handful of weeks after I joined the company, and I was already able to take to the board at that meeting. Our current, you know, trajectory in these areas does not imply an ability to hit this number." aria-label="回原文"></button>
 
-数据脏没关系，可以放合理假设；关键是达成或没达成，都知道是哪个底层驱动因素和预想不一样。
+她没有另起炉灶换数字，而是提前暴露风险、然后动手改：第一个 hires 是 CMO，因为最缺的是市场和管线。最终勉强达标。
 
-在 Vercel,她入职几周后的第一次董事会就摊牌：当前轨迹撑不过前两个季度，之后不可能达成全年数字。
+她的提醒是：**别给还不存在的产品做[[预测|预测]]**，否则先被裁的不会是产品负责人，而是你。
 
-因为提前暴露了风险、而不是等着悬崖式掉落，公司保留了数字、90 天内先招来 CMO 补漏斗顶端，Q4 反而超额完成<button class="pd-ts" data-t="19:57" data-who="Gene" data-en="The first one I hired was the CMO because it was immediately obvious our top issue is marketing, pipeline, top of funnel. Got him in within 90 days and by the time we got to Q4, we actually had done enough to change some levers and we got, we just barely beat actually." aria-label="回原文"></button>。
+## 改销售团队，时机比勇气更重要
 
-变革的时机也有讲究：
+销售背着配额过日子，你不能随便挑个星期二就推翻重来。最好的时机是年初，其次是年中关掉一个计划。
 
-销售有配额、生计系于此，不能随便挑个周二全改——她赶在入职四个半月时关掉旧计划重开，比自然节奏快了一个半月，整个高管团队一起拍板接受短期低谷<button class="pd-ts" data-t="22:33" data-who="Gene" data-en="So, like, we all sat down as an executive team and locked arms and said, hey, like, we think I've come up with the right plan. We think we're going to do this a little faster than we all necessarily want to." aria-label="回原文"></button>。
+她在入职 4 个半月时动手，比自然节奏快了一点，因为拖到 6 个月就会撞上第三季度。
 
-## AI 之后，哪些团队该变精简
+整个高管团队一起押注：**接受短期下行，换取之后的加速**。宣布那些变动的那天，她睡了一年里最好的一觉。
 
-这是本集信息量最大的部分。她逐一报账：
+## 91% 的客服工单，由 AI 代理解决
 
-支持团队 91% 的工单量由一个[[智能体|智能体]]解决，所有入站资格筛选也交给智能体，大量对外触达同样如此<button class="pd-ts" data-t="58:02" data-who="Gene" data-en="Support, also way leaner. So, you know, Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent. Similarly, all of our inbound is with the agent." aria-label="回原文"></button>;BDR(销售开发代表)职能精简得多，剩下的要么做更复杂的企业级客户开发，要么用来对新玩家和新话术做假设检验；
+这是整场对话里最惊人的数字。
 
-RevOps(营收运营)因为有一个「你以前会发给它的任何问题都可以问」的数据科学智能体，同样大幅精简。
+Vercel 的客服请求量很大，**91% 由自研的 AI 代理处理**；所有进站线索的资格筛选也是代理在做，很多外呼同样如此。<button class="pd-ts" data-t="58:02" data-who="Jeanne Grosser" data-en="Support, also way leaner. So, you know, Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent. Similarly, all of our inbound is with the agent." aria-label="回原文"></button>
 
-而人少了，职能反而更有意思了：剩下的技术支持团队「写 PR 去修问题，而不是在工单里打转」<button class="pd-ts" data-t="58:41" data-who="Gene" data-en="Really is now finding legitimate problems in the product and then working really closely with the engineering org. In some cases, it's a technical support team, like writing PRs to go fix things versus turning through tickets." aria-label="回原文"></button>。
+剩下的支持团队在干什么？找产品里的真实问题，跟工程部门紧密协作，有时直接写代码去修——而不是埋头处理工单。
 
-连销售也在变：
+BDR（销售开发）团队同样大幅精简，剩下的人做更复杂的企业级拓客，或者用来测试新的目标客户和话术。
 
-她在 Vercel 期间每六个月上调一次配额——部分是产品成熟度和市场准备度，但她坦承人均产出比在持续显著上升，不是「要多一千万就再招 10 个人」的老路<button class="pd-ts" data-t="59:50" data-who="Gene" data-en="As opposed to just adding more feet to the street with the same quota capacity. Yeah, exactly. I mean, historically, that's more or less been what, you know, sales forces will do is just, you know, whatever your number is, it's a million bucks a head." aria-label="回原文"></button>。
+她还养了一个数据科学代理，以前要发给营收运营团队的问题，现在直接问它。
 
-销售会造反吗？「当你在一条指数级增长曲线上时，大多数人还是愿意跟着一起走完这段旅程的」<button class="pd-ts" data-t="60:15" data-who="Gene" data-en="And do the salespeople riot about it? Well, when you have an exponential growth curve, most people are willing to come along for the ride. I'm sure not everybody loves me at the start of every half." aria-label="回原文"></button>。
+销售这边，她在 Vercel 每半年涨一次配额。
 
-## 别把人手当成功的代理指标
+传统的算法是人均 100 万美元、要 1000 万就招 10 个人；现在人均扛的配额比传统算法高出一截，就不用招那么多人。
 
-精简的另一面，是警惕扩张的诱惑。她提醒：
+她承认不是每个销售都爱她，但公司在指数增长，大多数人愿意上车。
 
-增加人手有一种非常诱人的感觉——你可以告诉朋友你今年把团队翻了 7 倍，「它确实是一种成功和增长的代理指标，在某种程度上与实际业务有些脱节」<button class="pd-ts" data-t="52:11" data-who="Juven" data-en="The one thing that I want to protect against is that there's this very seductive feeling of adding headcount. Yeah. Meaning, like, you get to go and tell your friends that you 7x'd your headcount this year." aria-label="回原文"></button>。
+> 【背景】BDR 指负责挖掘和筛选潜在客户的初级销售岗位；RevOps（营收运营）负责销售流程、数据和工具。
 
-过度增长的真实代价：所有人的职责不再清晰、互相踩脚、用协调成本拖慢整台机器、新人比懂的人还多。
+## 加人头是一种诱人的幻觉
 
-她正在推动的内部议题是让每个职能负责人想清楚「理论终局状态」:我这 10 个人是不是永远不需要超过 10 个？
+主持人和她在这点上高度一致：团队人数就像估值，容易变成脱离业务本身的成功指标。
 
-需要随收入扩展的，还能做什么改变曲线的形状？<button class="pd-ts" data-t="51:20" data-who="Gene" data-en="But we're having actually like a really interesting leadership team offsite in a couple of weeks. And that's one of the topics is like, what is the theoretical end state of your function to get us to all reason really clearly around, you know, within GoToMarket, let's call it, I have 10 plus functions." aria-label="回原文"></button>
+她在内部反复强调，别用「我今年把人头翻了 7 倍」来假装公司在增长。
 
-她甚至给新下属下过这样的战书：
+她给新 leader 的标准是：**能不能用最少的人做出最高绩效的团队**。
 
-对方说「我还有更多可以付出，想被推得更猛」，她的回应是——第一个问题，你需要我推你，还是你能推自己？
+她甚至正在招一个人——对方目前在别处管团队，来这里做个人贡献者，而且如果她做得对，公司永远不会在她下面再建团队。
 
-然后是那句目标：「你能不能用最少的人成为表现最好的团队？」
+她判断，以后评估管理者会看人均收入比，而不是管了多少人。<button class="pd-ts" data-t="53:43" data-who="Jeanne Grosser" data-en="And if she does her job right, we will never hire a team under her. Like, that job, I think, is capable of being done by one human going forward if you're doing the right version of sort of the content of it and applying AI to it." aria-label="回原文"></button>
 
-<button class="pd-ts" data-t="54:45" data-who="Gene" data-en="I said, okay, great. Well, then my prompt for you is, can you be the highest performing team with the least amount of people? Like that's the goal." aria-label="回原文"></button> 她预判，很多人得改掉靠「建帝国」(我管 500 人、1000 人组织)证明自己的习惯，改用实际产出来衡量，未来人们问的会是你的[[人手收入比|人手收入比]]，而不是你管过多少人<button class="pd-ts" data-t="54:09" data-who="Gene" data-en="I think a lot of people are going to have to start value themselves much more with the actual output. Um, you know, this much revenue, this much impact, um, and people were an input and maybe people are going to start asking what was your headcount to revenue ratio rather than did you manage a thousand percent work?" aria-label="回原文"></button>。
+## 与创始人共事：这像一场职业婚姻
 
-## 和创始人共处：一场职业婚姻
+她认为高管和创始人的关系，重要程度是其他所有因素加起来的 10 倍。具体的心得：
 
-被问到给高管的建议，她完全认同主持人的判断：
+**一定要有固定的每周一对一**（她的日历上排满了 9 小时的客户会议，靠走廊偶遇不现实）；
 
-和创始人的关系可能比评估清单上其他所有东西重要十倍——她和 CEO G 在入职前互相了解了一年半、面试了 12 个人以上，双方把底牌全部摊开：
+更重要的解锁是定期一起吃晚饭——两个小时，自然会聊到工作之外，那些重要但不紧急的话题才有机会浮出来。<button class="pd-ts" data-t="32:02" data-who="Jeanne Grosser" data-en="Like, I need dedicated gene-gee time to discuss things. We started, I should have done this way sooner, but getting dinner. That was, like, a big unlock, too." aria-label="回原文"></button>
 
-她带着明确的变革使命进来，G 要的是一个一年内不会被换掉的领导者。具体做法上：
+面对创始人随时发来的细节挑刺（比如邮件里的错别字），她的办法是分辨信号和噪音：偶尔一次就回应在办了；
 
-她坚持要有排期的一对一——「我每天要开九个多小时会，没法在走廊里碰巧偶遇你」<button class="pd-ts" data-t="31:51" data-who="Gene" data-en="Like, I'm in a customer-facing role. I take meetings for nine-plus hours a day. So, like, I can't just find you serendipitously in the hallway." aria-label="回原文"></button>;后来又加上每周共进晚餐，两小时的长度让谈话不那么事务性，那些重要不紧急的话题才聊得起来<button class="pd-ts" data-t="32:23" data-who="Gene" data-en="Two hours, you're going to naturally talk about other stuff, so it makes it feel less transactional than, like, I got a 30-minute one-on-one, you know, let's work through some stuff." aria-label="回原文"></button>。
+两周三次就是系统性问题，值得认真对待。
 
-Vercel 核心领导层坦诚、不搞政治，也让她能通过其他高管多方求证创始人的反馈是否有规律。
+她还有一个新烦恼：AI 生成的千篇一律的幻灯片和文档。
 
-至于怎么消化创始人随手甩过来的琐碎挑剔(邮件里的语法、幻灯片上写错的头衔)，她的心法是辨别信号与噪声：
+销售把资料丢给 Claude 总结完就发出去，她的态度是——你的工作是判断什么才真正重要，这正是销售的价值。
 
-两周内三次指出同一类问题，那是系统性问题，得修；
-
-单独一件，「我正在努力做一件能建成一家十亿美元生意的事，这个放错位置的分号我会在时机成熟时处理」<button class="pd-ts" data-t="37:57" data-who="Gene" data-en="Like, I'm on it. Act. But, like, I'm not on that right now because I'm trying to do something that's going to go build a billion-dollar business and this misplaced semicolon I will deal with in the fullness of time." aria-label="回原文"></button>。
-
-她自己作为运营者也有一套纪律：
-
-「运营者的工作基本上就是构建能产出可预测结果的系统」<button class="pd-ts" data-t="40:09" data-who="Gene" data-en="I think so, because my job is to be an operator. An operator's job is to build systems that produce predictable output, basically. For me, revenue." aria-label="回原文"></button>,所以她的行为尽量可预测——团队收到她的消息，应该能猜到「这是她在意的事情之一」，而不是源源不断的想到什么发什么。
-
-她最新的一大槽点顺便值得一记：读到的一切都在被 AI「垃圾化」——每份 deck 长得一模一样，是 em dash 的视觉版本；
-
-销售把 Granola 的会议记录用 Claude 总结一下就发出来，「我们付钱给你不是干这个的。你的工作是综合出真正重要的东西。那才像是销售。
-
-Claude 做不好这件事」<button class="pd-ts" data-t="41:37" data-who="Gene" data-en="And I'm like, you know, we don't pay you for this. Like your job is to synthesize what actually matters. Yep." aria-label="回原文"></button>。
+如果 Claude 能做好，我就会让 Claude 来做。<button class="pd-ts" data-t="41:47" data-who="Jeanne Grosser" data-en="That is like selling. Claude can't do that very well. If Claude could do it well, I would ask Claude to do it." aria-label="回原文"></button>
 
 ## 本集带走
 
-- **分不清增长瓶颈时，用「10 场会谈测试」**:让产品经理和工程师连续听 10 家真实客户的对话，双方得出同一结论，产品和市场的责任就摊清了。
-- **接手预测先建运营模型**：把目标数字拆成按细分、按地区的完整漏斗数学，能提前几个季度算出悬崖在哪，而不是等掉下去。
-- **创始人给的预测默认要重做**：创始人乐观、亢奋、不会做预测；不存在的产品不进预测，缺口推回给产品团队扛。
-- **AI 先砍这三块**:支持工单(91% 智能体解决)、入站资格筛选、数据查询类 RevOps 需求；砍完留下的职能升级为写 PR 修产品、做假设检验。
-- **用人手收入比替代团队规模来衡量自己**：警惕「加人很诱人」，目标是「用最少的人成为表现最好的团队」。
-- **go-to-market 每六个月演进一次**:市场打开到哪里，销售就细分到哪里，「如果我把工作做对了，我们永远不会重组」<button class="pd-ts" data-t="57:00" data-who="Gene" data-en="If I'm doing my job right, we'll never reorg. We will take the natural next step in, like, focusing our go-to-market. Which I think for years people would say was the case, that basically every six months we did something slightly more specific." aria-label="回原文"></button>。
-- **和创始人的关系比其他一切重要十倍**：入职前互相摊牌一年半，入职后固定一对一加晚餐，创始人随手发的挑剔用「信号还是噪声」过滤。
+- 判断是产品问题还是销售问题，最有效的办法是让产品负责人和工程师直接连听多场客户对话，一起得出结论。
+- 接手任何年度目标前先建运营模型：把数字拆成管线、人数、客单价，算不出就提前暴露风险。
+- AI 代理已经能解决 Vercel 91% 的客服工单、筛选全部进站线索，剩下的团队转向修产品和做复杂拓客。
+- 团队人数是被高估的成功指标；未来的评价标准更可能是人均收入，而不是管了多少人。
+- 高管选公司，和创始人的关系比其他所有因素加起来都重要——固定一对一和定期晚餐是两条实用心法。
 
 <div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
-> <span class="qz">Vercel 有很大的支持工单量,如你所料，其中 91% 我们用一个智能体来解决。</span>  
+> <span class="qz">Vercel 有很大的支持工单量,如你所料,其中 91% 我们用一个智能体来解决。</span>  
 > *Vercel gets a lot of support volume, as you'd expect, and 91% of it we resolve with an agent.*  
 > <span class="qm">—— Jeanne Grosser · [00:00]</span> ^q1
 
-> <span class="qz">所以责怪销售比责怪产品更容易，因为产品更多是你自身的映照。</span>  
+> <span class="qz">我在那里的一个重要原因当然是,我想为这个时代写下市场进入的打法手册。</span>  
+> *Certainly a big reason that I'm there is I want to go write the go-to-market playbook for this era.*  
+> <span class="qm">—— Jeanne Grosser · [00:36]</span> ^q2
+
+> <span class="qz">我想人们误解了高速增长的代价。</span>  
+> *People, I think, misunderstand the toll of hypergrowth.*  
+> <span class="qm">—— Juven · [06:32]</span> ^q3
+
+> <span class="qz">所以责怪销售比责怪产品更容易,因为产品更多是你自身的映照。</span>  
 > *And so it's easier to blame sales than it is to blame the product because the product is more of a reflection of you.*  
-> <span class="qm">—— Juven · [09:36]</span> ^q2
+> <span class="qm">—— Juven · [09:36]</span> ^q4
 
-> <span class="qz">创始人默认都是乐观主义者，极度亢奋，而且顺便说一句，根本不知道怎么给业务做预测。</span>  
+> <span class="qz">当增长不如你所愿时,那个永恒的问题就是:这是 product market fit 的问题,还是 go to market 的问题?</span>  
+> *And it is sort of the perennial question when things aren't growing as fast as you'd like is, is it a product market fit problem or a go to market problem?*  
+> <span class="qm">—— Jeanne Grosser · [10:45]</span> ^q5
+
+> <span class="qz">创始人默认都是乐观主义者,极度亢奋,而且顺便说一句,根本不知道怎么给业务做预测。</span>  
 > *Founders are default optimists, extremely exuberant, and by the way, do not know how to forecast a business.*  
-> <span class="qm">—— Juven · [15:34]</span> ^q3
+> <span class="qm">—— Juven · [15:34]</span> ^q6
 
-> <span class="qz">我的一般建议也许是错的，但我的观点是，和创始人的关系可能比清单上其他所有东西重要十倍。</span>  
-> *My general advice maybe is wrong, but my advice, my opinion is the relationship with the founder is maybe 10 times more important than every else, everything else on the list.*  
-> <span class="qm">—— Juven · [30:32]</span> ^q4
+> <span class="qz">否则,我保证,在你被解雇之前,产品负责人不会被解雇。</span>  
+> *Otherwise, I promise, the product leader is not going to be the one that gets fired before you.*  
+> <span class="qm">—— Juven · [16:27]</span> ^q7
 
-> <span class="qz">然后我就想说，你知道，我们付钱给你不是干这个的。你的工作是综合出真正重要的东西。</span>  
-> *And I'm like, you know, we don't pay you for this. Like your job is to synthesize what actually matters.*  
-> <span class="qm">—— Juven · [41:31]</span> ^q5
+> <span class="qz">我问他们打算用什么标准来评估这家公司,我的一般建议也许是错的,但我的观点是,和创始人的关系可能比清单上其他所有东西重要十倍。</span>  
+> *And I ask them like what your priorities are for like how you're going to evaluate the company, my general advice maybe is wrong, but my advice, my opinion is the relationship with the founder is maybe 10 times more important than every else, everything else on the list.*  
+> <span class="qm">—— Juven · [30:27]</span> ^q8
 
-> <span class="qz">我是说，当有人新加入 Vercel 时，你会被期望在第一周就发布点什么。</span>  
+> <span class="qz">我是说,当有人新加入 Vercel 时,你会被期望在第一周就发布点什么。</span>  
 > *I mean, when somebody new joins Vercel, you're expected to ship something in your first week.*  
-> <span class="qm">—— Jeanne Grosser · [44:19]</span> ^q6
+> <span class="qm">—— Jeanne Grosser · [44:19]</span> ^q9
 
-> <span class="qz">我就是字面意义上试图让公司被需求和销售管线淹没。</span>  
-> *And I just like literally tried to suffocate the company in demand, in pipeline.*  
-> <span class="qm">—— Juven · [49:22]</span> ^q7
+> <span class="qz">所以 Stripe 也有类似的情况,营收相对呈指数增长,而人头数增长得相当线性。</span>  
+> *And so Stripe had this similar deal of revenue growing relatively exponentially, while headcount grew pretty darn linearly.*  
+> <span class="qm">—— Jeanne Grosser · [45:48]</span> ^q10
 
-> <span class="qz">如果她把工作做对了，我们永远不会在她下面再招一个团队。</span>  
-> *And if she does her job right, we will never hire a team under her.*  
-> <span class="qm">—— Jeanne Grosser · [53:39]</span> ^q8
-
-> <span class="qz">那么，我给你的提示是，你能不能用最少的人成为表现最好的团队？</span>  
-> *Well, then my prompt for you is, can you be the highest performing team with the least amount of people?*  
-> <span class="qm">—— Juven · [54:45]</span> ^q9
-
-> <span class="qz">如果我把工作做对了，我们永远不会重组。</span>  
-> *If I'm doing my job right, we'll never reorg.*  
-> <span class="qm">—— Jeanne Grosser · [56:57]</span> ^q10
-
-> <span class="qz">如果我想要再多一千万美元，我就再招 10 个人。</span>  
-> *And if I want 10 more million dollars, I'll get 10 more heads.*  
-> <span class="qm">—— Jeanne Grosser · [59:59]</span> ^q11
+> <span class="qz">我认为很多人将不得不开始更多地用实际产出来衡量自己。</span>  
+> *I think a lot of people are going to have to start value themselves much more with the actual output.*  
+> <span class="qm">—— Jeanne Grosser · [54:04]</span> ^q11
 
 <div class="pd-sec">接着看</div>
 

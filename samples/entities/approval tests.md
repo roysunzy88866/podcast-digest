@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(33:58起):本集说审批测试是先把系统当前输出批准为黄金标准、之后在固定行为前提下放心重构内部的技巧,Lada 用它实现 BDD 层级测试。
+- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]]**(33:58起):本集说审批测试是先把系统当前输出批准为黄金标准、之后在固定行为前提下放心重构内部的技巧,Lada 用它实现 BDD 层级测试。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为概念
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为概念
 
 ## ③ 关联
 

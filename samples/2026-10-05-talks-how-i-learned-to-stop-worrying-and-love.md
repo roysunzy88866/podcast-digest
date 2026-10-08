@@ -132,7 +132,7 @@ AI 智能体才两岁，没人知道生态会长成什么样，但模板这种�
 
 **顺着「智能体」挖下去**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Firecracker、GPU</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Firecracker、GPU</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Kubernetes</span>
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|解锁智能体自主性：安全才是下一个瓶颈]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、Docker</span>
 

@@ -1,5 +1,5 @@
 ---
-title: 叙事智能：把你的故事变成 AI 时代的护城河
+title: AI时代，你最值钱的资产是你自己的故事
 podcast: Practical AI
 date: 2026-10-08
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "44:18"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv.jpg"
-description: 领导力教练 Reef Frerichs 讲述他从演员到 MIT 教练的经历，提出「叙事智能」三步法：拥有、书写、行动。
+description: 从演员转型为MIT领导力教练的Reef Frerichs，聊AI时代普通人如何靠「叙事智能」找到自己的位置。
 host: "[[Daniel Whitenack]]"
 cohosts: ["[[Chris Benson]]", "[[Reef Frerichs]]"]
 companies: ["[[Intel Ignite]]", "[[The Lesson]]"]
@@ -18,18 +18,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv#post","headline":"叙事智能：把你的故事变成 AI 时代的护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv","mainEntityOfPage":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv","description":"领导力教练 Reef Frerichs 讲述他从演员到 MIT 教练的经历，提出「叙事智能」三步法：拥有、书写、行动。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Reef Frerichs"},{"@type":"Organization","name":"Intel Ignite"},{"@type":"Organization","name":"The Lesson"},{"@type":"Thing","name":"叙事智能 (narrative intelligence)"},{"@type":"Thing","name":"讲故事 (storytelling)"},{"@type":"Thing","name":"拥有、书写、行动 (own, author, and act)"},{"@type":"Thing","name":"重新框架 (reframing)"},{"@type":"Thing","name":"冒名顶替综合征 (impostor syndrome)"},{"@type":"Thing","name":"股权占比 (ownership)"},{"@type":"Thing","name":"情商 (emotional intelligence)"},{"@type":"Thing","name":"价值观 (values)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AI 采用 (AI adoption)"},{"@type":"Thing","name":"被取代的恐惧 (getting replaced)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"叙事智能：把你的故事变成 AI 时代的护城河","item":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv#post","headline":"AI时代，你最值钱的资产是你自己的故事","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv","mainEntityOfPage":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv","description":"从演员转型为MIT领导力教练的Reef Frerichs，聊AI时代普通人如何靠「叙事智能」找到自己的位置。","datePublished":"2026-10-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv.jpg","about":[{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Reef Frerichs"},{"@type":"Organization","name":"Intel Ignite"},{"@type":"Organization","name":"The Lesson"},{"@type":"Thing","name":"叙事智能 (narrative intelligence)"},{"@type":"Thing","name":"讲故事 (storytelling)"},{"@type":"Thing","name":"拥有、书写、行动 (own, author, and act)"},{"@type":"Thing","name":"重新框架 (reframing)"},{"@type":"Thing","name":"冒名顶替综合征 (impostor syndrome)"},{"@type":"Thing","name":"股权占比 (ownership)"},{"@type":"Thing","name":"情商 (emotional intelligence)"},{"@type":"Thing","name":"价值观 (values)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AI 采用 (AI adoption)"},{"@type":"Thing","name":"被取代的恐惧 (getting replaced)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"AI时代，你最值钱的资产是你自己的故事","item":"https://talk.solomind.cc/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>叙事智能：把你的故事变成 AI 时代的护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI时代，你最值钱的资产是你自己的故事</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 叙事智能：把你的故事变成 AI 时代的护城河
+# AI时代，你最值钱的资产是你自己的故事
 
 <div class="pd-byl"><b>Reef Frerichs</b> · 领导力教练 · 2026-10-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-10-08-practicalai-narrative-intelligence-and-the-human-adv.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我们越是深入研究和工作，就越开始意识到：我们其实生活在故事之中。</div><div class="a">— Reef Frerichs <button class="pd-ts" data-t="08:08" data-who="Reef Frerichs" data-en="the more we were diving into some of the research and work, we started realizing, like, we live inside stories." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我不知道有哪个创始人，或者基本上任何一个人，没有经历过冒名顶替综合征。我的感觉是，如果你没有冒名顶替综合征，那你可能哪里有问题。</div><div class="a">— Reef Frerichs <button class="pd-ts" data-t="12:21" data-who="Reef Frerichs" data-en="I don't know one founder or or pretty much anybody who hasn't had gone through impostor syndrome. If you don't have impostor syndrome, there might be something wrong with you, as my feeling." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Daniel Whitenack]] · [[Chris Benson]] · [[Reef Frerichs]]
@@ -38,174 +38,137 @@ jsonLd: |
 >
 > **概念** [[叙事智能]] · [[讲故事]] · [[拥有、书写、行动]] · [[重新框架]] · [[冒名顶替综合征]] · [[股权占比]] · [[情商]] · [[价值观]] · [[智能体]] · [[AI 采用]] · [[被取代的恐惧]]
 
-这一集聊的不是模型和算力，而是一个更贴近每个人的问题：
+AI让人又兴奋又害怕。从业者担心被替代，普通人担心被落下。
 
-当 AI 把所有人的工作都在加速改变时，你该怎么安放自己的故事和身份。
+这期Practical AI请来的嘉宾[[Reef Frerichs|Reef Frerichs]]，走的路线有点特别：他学商科出身，做过演员、制片人，现在在MIT商学院做领导力教练，也辅导创业公司团队。
 
-说话的主角是 [[Reef Frerichs|Reef Frerichs]]——他毕业于 UT 商学院、做过演员和制片人，如今在 MIT 商学院的 Sloan Fellows 项目做领导力教练，也在 A 轮、B 轮前后的初创公司给创始人和团队做辅导。
+他给出的答案是，越是在技术剧变的时代，越要搞清楚一件最古老的事：你的故事是什么。
 
-主持人 [[Daniel Whitenack|Daniel Whitenack]] 是在英特尔的 [[Intel Ignite|Intel Ignite]] 加速器项目里认识他的。Reef 自己承认，刚进那个满是博士的深科技项目时他特别紧张：「我在这里干什么？」
+## 一个演员，怎么闯进了深科技圈？
 
-但他看了大量路演后发现，自己能在[[讲故事|讲故事]]这件事上帮上忙——把路演想成一部电影，这成了他进入科技世界的通道。
+Reef入行的契机是Intel的加速器项目[[Intel Ignite|Intel Ignite]]。他刚进去时非常紧张，房间里一半是博士，而他来自表演和媒体行业。
 
-## 什么是叙事智能
+但当他开始负责看项目路演时，他意识到一件事：路演就像一部电影。他可以帮这些工程师讲好故事，这就是他的切入点。
 
-Reef 的核心概念是「[[叙事智能|叙事智能]]（narrative intelligence）」——把你的独特自我提取到你的故事里，并实时地演变它。
+后来他越钻越深，因为创始人在本质上是在不断成为领导者，永远在学习和适应，这正是他擅长辅导的事。
 
-它的出发点是一个观察：我们其实生活在故事之中，从醒来的那一刻起，我们的决策和选择就都在某个故事里 <button class="pd-ts" data-t="08:02" data-who="Reef Frerichs" data-en="And you also mentioned kind of in the same breath AI, so could you kind of, like, what's the relationship? You know, I don't understand at this point. So I'll leave that to you" aria-label="回原文"></button>。
+## 什么是叙事智能？
 
-他区分了传统的「讲故事」和「叙事智能」：讲故事对融资、路演当然有用，但问题在于人们会卡在自己的故事里，不去演变它。
+Reef提出的核心概念叫[[叙事智能|叙事智能]]（narrative intelligence）。他的出发点是：我们生活在故事里，从醒来的那一刻起，决策、选择，全都在故事的框架内进行。
 
-而初创创始人每天都面对新信息、新受众，真正需要的是持续更新自己故事的能力 <button class="pd-ts" data-t="08:40" data-who="Reef Frerichs" data-en="There's been different people that have looked at it. And really, I think the one I saw article I saw was back around MIT and Harvard, different engineers trying to learn how to talk to each other. And so they formed, a group around it. So that led me to think, okay. What else what else is here given the current times with AI?" aria-label="回原文"></button>。
+传统的[[讲故事|讲故事]]方法有个问题：人们容易被自己的故事困住，不去更新它。而创业者的现实每天都在变，有新信息、新受众。
 
-尤其当下，人们对 AI 既兴奋又恐惧，如何持续适应就成了教练工作的核心 <button class="pd-ts" data-t="07:06" data-who="Reef Frerichs" data-en="There's usually a ton of, like, obstacles for them to even get to, you know, MIT, obviously. They come from, you know, a lot of backgrounds that, you know, took a lot of resilience, a lot of overcoming, And there's this... All this gold in their story that they're basically trying to hide. And it's so... A lot of the process is trying to extract out that unique positioning." aria-label="回原文"></button>。
+所以叙事智能的关键是，**实时地、持续地演化你的故事** <button class="pd-ts" data-t="08:02" data-who="Reef Frerichs" data-en="And you also mentioned kind of in the same breath AI, so could you kind of, like, what's the relationship? You know, I don't understand at this point. So I'll leave that to you" aria-label="回原文"></button>。
 
-## 三步法：拥有、书写、行动
+他把这个想法提炼成三步：[[股权占比|拥有]]（own）、书写（author）、行动（act）。每天先承认自己现在所处的位置，不管你喜欢与否；
 
-Reef 从表演训练、教练技术、心理学和神经科学里提炼出一个三步过程——「[[股权占比|拥有]]（own）、书写（author）、行动（act）」：
+然后从中提取经验，写下下一章，可以是一周、一个季度、一个里程碑；
 
-- **拥有**：每天出场，先承认自己所处的位置——无论你喜欢、不喜欢还是对它无所谓。找到办法把学到的教训向前带走。
-- **书写**：书写你的下一章、下一个阶段——可以是那一周、那个季度、下一个里程碑。很多教练案例表明，这一步往往需要对故事做[[重新框架|重新框架]]（reframe）。
-- **行动**：这是最难的一步，因为很多时候我们就是不迈出那第一个行动步骤——哪怕再小，也常常让不确定性挡住了去路 <button class="pd-ts" data-t="11:37" data-who="Reef Frerichs" data-en="We had a founder, I think it was in Daniel's cohort, that I remember working with, and she was... She didn't think she could be the CEO. She was really, like... She was really nervous. She kept telling me every day in the first couple weeks of the program, I really shouldn't be CEO." aria-label="回原文"></button>。
+最后迈出行动的第一步，而这往往是最难的，因为不确定性总在挡路。
 
-他举了一个例子：一位来自另一个国家的女创始人，在项目头几周天天跟他说「我真的不该当 CEO」「我觉得我做不了」。
+## 冒名顶替感？有它才正常
 
-深入工作之后，她真正需要的是重新框架自己的故事和来路，随后获得了大量信心，看到自己可以成为 CEO <button class="pd-ts" data-t="11:37" data-who="Reef Frerichs" data-en="We had a founder, I think it was in Daniel's cohort, that I remember working with, and she was... She didn't think she could be the CEO. She was really, like... She was really nervous. She kept telling me every day in the first couple weeks of the program, I really shouldn't be CEO." aria-label="回原文"></button>。
+谈到这三步时，主持人Chris提到了[[冒名顶替综合征|冒名顶替综合征]]，Reef的回应很直接：
 
-## 冒名顶替综合征是常态
+不认识哪个创始人没经历过这种感受，「**如果你没有冒名顶替综合征，可能你反而有点问题**」<button class="pd-ts" data-t="12:18" data-who="Reef Frerichs" data-en="One quick follow-up on that. I'm curious, does... When when you're saying that, the notion of impostor syndrome came to mind, and does that does that play into into this process?" aria-label="回原文"></button>。
 
-主持人 Chris 问到[[冒名顶替综合征|冒名顶替综合征]]（总觉得自己配不上位置的心理）时，Reef 的回答很直接：
+他的建议是把它正常化，创业本来就比想象中难十倍、长十倍，如果一切顺利，那多半是运气。
 
-他不知道有哪个创始人、甚至任何一个人没经历过它——如果你没有冒名顶替综合征，那你可能哪里有问题 <button class="pd-ts" data-t="12:18" data-who="Reef Frerichs" data-en="One quick follow-up on that. I'm curious, does... When when you're saying that, the notion of impostor syndrome came to mind, and does that does that play into into this process?" aria-label="回原文"></button>。
+承认这种不安会伴随全程，反而是最好的应对方式。
 
-应对方式不是消除它，而是接纳它、把它常态化：这是旅程必然会包含的一部分。
+他讲了一个真实的例子：一位来自其他国家的创始人，在项目头几个星期反复说「我不该当CEO，我做不到」。
 
-创业本身「总是比想象中难十倍、时间长得多的那种」，从来都不容易——如果它容易，你可能只是运气好，像中了张彩票 <button class="pd-ts" data-t="12:30" data-who="Reef Frerichs" data-en="A 100. A 100%. And I think impostor syndrome... I don't know one founder or or pretty much anybody who hasn't had gone through impostor syndrome. If you don't have impostor syndrome, there might be something wrong with you, as my feeling." aria-label="回原文"></button>。
+深入聊下去后发现，她需要的只是重新梳理自己的故事。重新框定之后，她获得了信心，看到了自己可以成为CEO <button class="pd-ts" data-t="11:25" data-who="Reef Frerichs" data-en="And what I really came up with is a three step process, which is own, author, and act. You know, show up each day and own where you're at, whether you like it or not or whether you're neutral on it, but own where you are in your journey. You know, look at ways that you can extract the learnings forward and then author this next chapter, this next phase for you. It could be that week, that quarter, that next milestone, but learn to author it. And what I found in the coaching was a lot of times it required a little reframing of your story." aria-label="回原文"></button>。
 
-## 「拥有」对 CEO 意味着什么
+## CEO不承认自己不懂，就成了公司的负担
 
-主持人 Daniel 有一段很坦诚的自我剖析：
+主持人Daniel是Prediction Guard的CEO，他分享了自己的反思：他有一些既定的代码标准和开发流程，出于骄傲觉得就该这么干。
 
-他发现自己带团队采用 AI 时被卡住，恰恰是因为没有「拥有」自己在技术上的真实位置——不知道什么、不舒适什么。
+但如果没有谦逊地承认自己对AI技术现状的不了解，**他反而成了公司使命的障碍** <button class="pd-ts" data-t="20:59" data-who="Daniel Whitenack" data-en="Mhmm. And I'm not really owning the reality of where the technology is and what's possible with it. So I'm actually... So let's say our company wants to get to this place like you're talking about. We have values that are important to us, and we have a mission of what we're trying to achieve. I'm actually a liability then towards that mission because I'm not I'm not acting out of humility or a real ownership of what the the reality." aria-label="回原文"></button>。
 
-他守着自己那套代码标准和软件开发生命周期的规范，出于骄傲觉得「事情就该这样走」，结果没有真正面对技术现状。
+Reef的观察印证了这一点。他现在辅导的一家AI公司内部干脆把这个项目叫所有权项目：
 
-这样下去，相对于公司的使命，CEO 自己反而成了负债 <button class="pd-ts" data-t="20:10" data-who="Daniel Whitenack" data-en="Yeah. Reed, I I think you kind of started out the... You you mentioned those three steps. The first one was own. I've been thinking about that as you and Chris have been talking, and it it really resonated with me in relation to how myself and our team and maybe how I've led in the adoption of AI on our team." aria-label="回原文"></button>。
+早期创业长期处于生存模式，一旦开始增长，所有人都要同时学会当领导者。
 
-Reef 说这非常常见：正因为你是 CEO，你才想展现确定性。
+创始人如果能坦率地说「这个领域我也在学，我们可以一起学」，价值反而更大。
 
-但他正在辅导的一家 AI 公司干脆把这件事叫做「拥有项目（ownership project）」——因为从生存模式里走出来、开始增长之后，很多没做过领导岗位的人都要和所有人一起学。
+他还补了一句：现在变化太快，把自己关在信息孤岛里已经没有好处了 <button class="pd-ts" data-t="22:53" data-who="Reef Frerichs" data-en="I've gotta pretend like I know it all, you know, because they're... They they think that's the norm. But really, when they can open up and say, hey, you know, this this is an area I'm learning too, you know, so we can learn together, I think can be can be very valuable as well. So, yeah, ownership is such a big topic. Right now, I'm finding it coming up in almost every team and and group I'm coaching with." aria-label="回原文"></button>。
 
-对 CEO 创始人尤其关键的，是能敞开说「这也是我正在学的领域，我们可以一起学」，而不是假装什么都知道 <button class="pd-ts" data-t="22:33" data-who="Reef Frerichs" data-en="And then all of a sudden, you, you know, you either hit that point where you're starting to grow revenue and you get some investment, and now you're expected to really grow, and everybody's gotta grow. A lot of these leaders, some of them haven't been in leadership positions. So everybody's now learning together. And I think what you pointed out is really key for the CEO founder especially is to to be more open when they can about, like, what they don't know. I can't tell many times I think founders just naturally want to say, hey, I..." aria-label="回原文"></button>。
+## 为什么现在恰恰是最好的时候？
 
-这一切发生得太快，团队里任何人能拿到桌面上分享、推动前进的东西都会让整体更好——各自待在筒仓里已经没用了 <button class="pd-ts" data-t="23:10" data-who="Reef Frerichs" data-en="Because also, they need they need the rest of the team to take initiative and, you know, whether it's AI tools they're learning or anything that's happening, I mean, it's happening so fast that whatever anybody can bring to the table and share and move forward, they'll all the better. Right? It's no longer helpful to be siloed." aria-label="回原文"></button>。
+乍一听Reef是AI的受益派。他说自己一开始也和大多数人一样担心，但现在换了一个完全不同的视角：
 
-## 角色在变，身份怎么办
+他推荐Rick Rubin的《The Creative Act》，观点是「**做一个创作者、创新者、人类，从来没有比现在更好的时候**」<button class="pd-ts" data-t="33:31" data-who="Reef Frerichs" data-en="Great question, Daniel. I would say right now, at first, I was I was probably like most people, a little bit worried about, like, what AI... What's this... What does this mean for me and my identities I I currently have? Now I look at it from a completely different lens." aria-label="回原文"></button>。
 
-对「我会不会被取代」的焦虑，Reef 认为横跨大多数行业——连好莱坞也一样，他播客请过好莱坞科技与 AI 方面的专家 Eric Shamlin，那里人人都觉得要被取代了。
+以前你有各种门槛，要进对的公司、上对的学校、有对的技能；现在学习这些事物的障碍前所未有地低。
 
-实用的应对是军事式的问题：此时此刻，我能控制什么？ <button class="pd-ts" data-t="24:40" data-who="Reef Frerichs" data-en="I know with some of the people I'm talking to, like in Hollywood, there's a guest I just had on Eric Shamlin, and he's kind of an expert around technology and AI in Hollywood, all the studios and stuff. And, oh my god, like, yeah, it's it's it's amazing. You know, everybody thinks they're getting replaced. And so, yeah, I think there's a... I think for your role, it's gonna be a lot of like your coaching, having the coach and manage and and listen to people and and really just kind of bring it back to what's practical right now in today's current time, knowing that there's a lot can change." aria-label="回原文"></button>
+Daniel补充了一个有趣的旁证：
 
-同时，角色变了未必是坏事——创业公司里「入职时以为是这个角色、后来承担了所有角色」，恰恰是快速学习的途径：
+他去了印第安纳州的大脚怪研究者大会（没错，就是那个传说中的生物），发现连这个亚文化圈子里的人都在讨论怎么用AI做研究、建地图。
 
-可能赚不到大公司的钱、没那么确定，但你能很快学到很多、很快承担很多不同角色 <button class="pd-ts" data-t="25:23" data-who="Reef Frerichs" data-en="You know, I signed up for this startup, and I thought the role was this when I signed up, and it's changed, and I'm taking on all these roles. But that's also part of how you learn. I mean, one of the things I coach with with some of the people at MIT are considering two tracks. Am I going to go try to interview and get a job with Google, hopefully, or Facebook or Meta or whoever? Or, you know, do I want to start my own business or go work for a startup for a while?" aria-label="回原文"></button>。
+而Reef自己居然参与制作过一部大脚怪电影，合作对象是《女巫布莱尔》的导演Eduardo Sanchez。
 
-在身份问题上，他做了个有用的区分：**本质（essence）**是你内心深处真正是谁；而**身份（identity）**是可以尝试和更换的——很多人只是试得不够多。
+## 害怕AI的普通人，怎么迈出第一步？
 
-比如有人从没把自己当运动员，但开始每周去三次健身房之后发现「我想我就是个运动员」。
+Chris抛出了一个尖锐的问题：世界上大多数人没在做AI播客，他们感到被抛下了，==怎么让他们迈出第一步==？
 
-同理，哪怕你不是 CEO，你也可以把「领导者」变成你的身份，然后弄清楚要采取哪些步骤持续进化 <button class="pd-ts" data-t="28:34" data-who="Reef Frerichs" data-en="So it's... I think a lot of those skills are really important to develop. And I also think you mentioned identity. I think it's important to look at identity different. I mean, there's essence, right, who I am really am, who you really are deep down, like, what makes you you." aria-label="回原文"></button>。他特别强调[[情商|情商]]技能：
+Reef的回答朴素得意外：让它变得极简单、极实用，融入已有的生活。
 
-在到处是恐惧和分心的环境里，如何更自我觉察、更活在当下、学会自我调节；
+他父母原本对AI充满恐惧，但一次家庭聚会旅行的规划中，几分钟内就生成了完整的行程单。
 
-哪怕不同意对方、很沮丧，也学会「回应而非应激反应」 <button class="pd-ts" data-t="29:24" data-who="Reef Frerichs" data-en="To call call yourself that. And that's where I go back to, like, if you can make leadership your identity, even if you're not the CEO at a company, that's fine. Make yourself a leader and figure out, like, what steps I wanna take to continuously evolve. But I guess to answer your question, I I really rely a lot on those emotional intelligence skills. How do I how do I show more empathy, ask more questions, listen, maybe if I'm really frustrated or I don't agree with the person I'm I'm working with, how can I respond rather than react?" aria-label="回原文"></button>。还有一层：
+父母的好奇心一下子被点燃了，开始主动追问能不能这样问、能不能那样问 <button class="pd-ts" data-t="39:20" data-who="Reef Frerichs" data-en="That's a great question. Thanks for asking that, Chris. And I say that because I feel like I'm living it with not only family members, you know, my parents or people that are even my age that maybe are in, you know, like, I grew up in Texas and... But I even like talking to different companies I'm coaching, like, their their customers are in manufacturing, or they're in, you know, rural cities, and they're like, and he said, there's a lot of fear around like, they don't like AI or they're, or they're a little bit, they're so worried about it, maybe they're reading the news. And so I think one thing I found to work just recently is make it super simple and practical that fits..." aria-label="回原文"></button>。
 
-工作里的领导者很快就会演变成你在家中、在个人生活中的样子——很难把「创始人」关掉，不如尽早把两者对齐，接受「领导者」是我想在生活方方面面成为的身份 <button class="pd-ts" data-t="15:17" data-who="Reef Frerichs" data-en="And that's the other big thing is once I've I found quickly with founders, Daniel, I'm sure you can attest to this, is it quickly becomes... It's hard to turn off, like, you're a founder, and then you kinda come home and it's... You had to kinda turn it off. But eventually, it all kind of becomes one and the same. Leader you are at work quickly evolves to the leader you are at home and in your personal life." aria-label="回原文"></button>。
+喜欢做饭的，可以让它出菜谱；想找餐厅的，让它推荐。一旦你看到它为你工作，恐惧就变成了好奇。
 
-## 从价值观出发，保持简单
+Daniel对技术人群的建议也一样：别问该做什么，先问你痴迷什么——集宝可梦卡、研究大脚怪，围绕你热爱的事去动手。
 
-Chris 问怎么保持专注，Reef 的答案是从[[价值观|价值观]]入手：
+## 人的位置在哪里？
 
-先真正定义你重视什么，再找到个人价值观与公司价值观的对齐点——对齐了才能深入到「为什么」，而「为什么」才是让你保持动力和热情的东西。
+回到那个终极问题：==AI时代人的独特价值是什么==？Reef的回答不是列技能清单，而是回到情绪能力：
 
-然后从想要的结果往回倒推，推出自己能踏入的具体步骤 <button class="pd-ts" data-t="18:20" data-who="Reef Frerichs" data-en="of the hardest things, Chris, I think for all of us. It's one the things I think I gravitated into coaching because I needed it for myself. I mean, you know, we get distracted and we're maybe excited about some personal development or some book or some growth at one point, and then we're quickly back off of that. So, you know, what I found to be very helpful with coaching founders, and even for myself, is really getting focused on your values, like really defining, like, what do you value? And if you're working at a company, like, you know, a technology company or whatever, or you're a founder, really establishing where can I align my personal values with the company values, you know, where?" aria-label="回原文"></button>。
+自我觉察、保持当下、在恐惧遍布时学会自我调节；分清本质（你真正是谁）和身份（身份可以不断演化、可以多试几个）<button class="pd-ts" data-t="27:40" data-who="Reef Frerichs" data-en="yes. So I love the framework that you've taken, but I'm throwing this challenge at you for the folks that are out there. As we're all living that, which obviously generates some of the fear that you've been talking about, how do you manage that in the process as the acceleration continues? Because I'm certainly struggling with that in my own life. Well, I think it's" aria-label="回原文"></button>。
 
-他反复强调要**超级简单和现实**：他数不清自己多少次在 1 月 1 号定下宏大目标、到 2 月 1 号就基本没做了。
+他甚至设想了一个未来的品牌[[The Lesson|The Lesson]]，让人们像追剧一样接入彼此的故事，感到自己是更大整体的一部分。
 
-他推荐《Atomic Habits》（掌控习惯）的思路——用很小的习惯在一年里复利地提升自己 <button class="pd-ts" data-t="19:28" data-who="Reef Frerichs" data-en="And then working back to what are those steps I can step into. So that's really been, I think, the best. And the biggest thing I found is just keeping it super simple and realistic, because I can't tell how many times I've done this personally and and and just fallen off and gone, oh gosh, you know, I set these goals and, you know, it sounded great at January 1. But, you know, by February 1, I'm already like, what's going on here? I'm not doing hardly any of this stuff." aria-label="回原文"></button>。
-
-## 怎么帮「感觉被落下」的大多数人
-
-Chris 抛出一个更难的问题：
-
-像我们仨这样听 AI 播客的是少数，外面有一整个世界的人——制造业的、小城市里的、你的父母——他们不做也不听 AI 播客，只是照老样子生活，甚至满心恐惧。
-
-怎么让他们迈出第一步？
-
-Reef 的答案是把门槛降到最低：把 AI 变得**超级简单和实用，融进他们现在的生活** <button class="pd-ts" data-t="38:46" data-who="Reef Frerichs" data-en="How do you get people to say, I'll take a first step into a larger, different world? That's a great question. Thanks for asking that, Chris. And I say that because I feel like I'm living it with not only family members, you know, my parents or people that are even my age that maybe are in, you know, like, I grew up in Texas and... But I even like talking to different companies I'm coaching, like, their their customers are in manufacturing, or they're in, you know, rural cities, and they're like, and he said, there's a lot of fear around like, they don't like AI or they're, or they're a little bit, they're so worried about it, maybe they're reading the news. And so I think one thing I found to work just recently is make it super simple and practical that fits..." aria-label="回原文"></button>。比如问对方：你喜欢做饭吗？让它帮你想个食谱？
-
-有没有想去发现的餐厅？从提问、写提示词开始，一旦他们看到它对自己有用，转变会发生得很快。他讲了自己的例子：
-
-他的父母原本非常害怕 AI，「不喜欢世界上正在发生的事情」，结果一次家庭重聚旅行规划中，几分钟内就做出了一份想去的地方的完整行程单——突然间，AI 激发了他们的好奇心，他们开始创作了：
-
-「那如果我们问这个呢？」不知不觉间你意识到，只要愿意开始，它其实挺简单 <button class="pd-ts" data-t="39:50" data-who="Reef Frerichs" data-en="It's just like the... You know, it's a much better version of the Internet from old, but the point being is, I think once they start to see it work for them, like the other day or over the summer, we were planning a trip, like a reunion trip. And and, anyways, my... I just... My parents are so..." aria-label="回原文"></button>。
-
-Daniel 补充：对技术人也一样——别问「该做什么」，问「你对什么感兴趣」，围绕你热爱的东西去做第一个[[智能体|智能体]]，比任何教程都有用。
-
-## 对未来的想象
-
-问到往前看在想什么，Reef 自称是个梦想家。他正在重新构想自己创办的、名为 [[The Lesson|The Lesson]] 的品牌：
-
-想象一个你能像看 Netflix 剧集那样进入人们故事和生活的世界——不一定是长形式，但让我们能连接、讲故事、以美好而丰富的方式成为不同的身份，感觉自己是一个更大整体的一部分。
-
-以现在存在的工具看，未来一定会有提升人类的非凡方式，而且可能来得比我们想象的快得多 <button class="pd-ts" data-t="42:20" data-who="Reef Frerichs" data-en="Great question. I, you know, I think I'm a little bit of a dreamer, Daniel. I've always been, you know, I think it's one of the reasons I I got into film was I was sort of an introvert and I I was really into sports, but I really wanted to, like, learn to express myself. So I always come back to ways that people can tell their story. I I envision a world and I've I've I've started to re..." aria-label="回原文"></button>。
+他的结语是：世界变化的速度快到我们无法预测，但这不是该害怕的事，而是该倾身投入、写进你自己故事里的事。
 
 ## 本集带走
 
-- **三步法应对变化**：每天「拥有」自己现在的位置 →「书写」下一章（一周/一季度/一个里程碑）→ 迈出第一个哪怕很小的「行动」。行动最难，因为不确定性最容易挡住第一步。
-- **对 AI 的恐慌，先问「此刻我能控制什么」**：把注意力从「我会不会被取代」拉回到今天可操作的事上。
-- **CEO 别装全知**：对团队敞开说「这也是我在学的，我们一起学」，比展现确定性更能带动团队各自往前走；筒仓已死，谁学到东西谁分享。
-- **身份可以试穿**：本质不变，但「领导者」「运动员」这类身份是可以主动认领的——先称呼自己，再补上行动。
-- **带人入门 AI：从对方的热爱切入**：做饭、找餐厅、规划旅行都行，先让对方在几分钟内看到「它对我有用」，好奇心自己会接棒。
-- **个人成长要小而现实**：从价值观和对齐点出发倒推步骤，用小习惯复利，别立 2 月 1 号就崩的新年计划。
+- 叙事智能三步法：承认现状（own）、书写下一章（author）、迈出第一步（act），最难的是最后一步。
+- 冒名顶替感几乎是创始人的标配，把它正常化比克服它更实际。
+- 领导者不承认自己不懂，反而会成为组织的负担；坦率说我们一起学价值更大。
+- 让害怕AI的人入门的最好方式，是把它接到他们本来就感兴趣的事上。
+- 创作者和普通人的门槛都在史无前例地降低，这是坏消息里的好消息。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
-> <span class="qz">我们越是深入研究和工作，就越开始意识到：我们其实生活在故事之中。</span>  
-> *the more we were diving into some of the research and work, we started realizing, like, we live inside stories.*  
-> <span class="qm">—— Reef Frerichs · [08:08]</span> ^q1
-
-> <span class="qz">但很多时候，讲故事的人会卡在自己的故事里，不去演变它。</span>  
-> *But a lot of times, storytelling, people get stuck in the stories and they don't evolve them.*  
-> <span class="qm">—— Reef Frerichs · [08:54]</span> ^q2
-
-> <span class="qz">我最终提炼出的是一个三步过程：拥有、书写、行动。</span>  
-> *And what I really came up with is a three step process, which is own, author, and act.*  
-> <span class="qm">—— Reef Frerichs · [10:56]</span> ^q3
-
-> <span class="qz">我不知道有哪个创始人、或者基本上任何人，没经历过冒名顶替综合征。我的感觉是：如果你没有冒名顶替综合征，那你可能哪里有问题。</span>  
+> <span class="qz">我不知道有哪个创始人，或者基本上任何一个人，没有经历过冒名顶替综合征。我的感觉是，如果你没有冒名顶替综合征，那你可能哪里有问题。</span>  
 > *I don't know one founder or or pretty much anybody who hasn't had gone through impostor syndrome. If you don't have impostor syndrome, there might be something wrong with you, as my feeling.*  
-> <span class="qm">—— Reef Frerichs · [12:21]</span> ^q4
+> <span class="qm">—— Reef Frerichs · [12:21]</span> ^q1
 
-> <span class="qz">因为确实如此。它总是难十倍、拖得更长，什么都不例外。我相信 Daniel 在那边点头呢，因为它从来都不容易。如果它容易，你可能只是运气好。</span>  
-> *because it is. It's always like 10 times harder, longer, everything. I'm sure Daniel's nodding over there, because it's never easy. If it is easy, you probably just got lucky.*  
-> <span class="qm">—— Reef Frerichs · [12:45]</span> ^q5
+> <span class="qz">简单说，你能确定自己拥有的唯一独特的东西，就是你的故事和你的旅程。</span>  
+> *It simply is the one unique thing you know you have is your story and your journey.*  
+> <span class="qm">—— Reef Frerichs · [13:54]</span> ^q2
 
-> <span class="qz">我只想简单地说：你确定自己拥有的唯一独特的东西，就是你的故事和你的旅程。</span>  
-> *Well, I would just say it simply is the one unique thing you know you have is your story and your journey.*  
-> <span class="qm">—— Reef Frerichs · [13:53]</span> ^q6
+> <span class="qz">前几天我看到一个统计数据，说我们每天有 60,000 个念头，而其中 80% 是负面的。</span>  
+> *I saw a statistic the other day that we have 60,000 thoughts a day, and I think 80% of them are negative.*  
+> <span class="qm">—— Reef Frerichs · [14:00]</span> ^q3
 
 > <span class="qz">你在工作中是的那种领导者，很快就会演变成你在家中、在个人生活中的那种领导者。</span>  
-> *Leader you are at work quickly evolves to the leader you are at home and in your personal life.*  
-> <span class="qm">—— Reef Frerichs · [15:12]</span> ^q7
+> *leader you are at work quickly evolves to the leader you are at home and in your personal life.*  
+> <span class="qm">—— Reef Frerichs · [15:12]</span> ^q4
 
-> <span class="qz">我如何能够回应，而不是应激反应？</span>  
-> *how can I respond rather than react?*  
-> <span class="qm">—— Reef Frerichs · [29:22]</span> ^q8
+> <span class="qz">这一切发生得太快了，任何人能拿到桌面上来分享并推动前进的东西，都会让整体更好，对吧？各自孤立地待在筒仓里已经不再有用了。</span>  
+> *It's happening so fast that whatever anybody can bring to the table and share and move forward, they'll all the better. Right? It's no longer helpful to be siloed.*  
+> <span class="qm">—— Reef Frerichs · [23:01]</span> ^q5
 
-> <span class="qz">做一个创造者、一个创新者、一个人——从未有过比现在更好的时代。</span>  
-> *it's never been better to be a creator, an innovator, a human.*  
-> <span class="qm">—— Reef Frerichs · [33:39]</span> ^q9
+> <span class="qz">某一天你很兴奋，因为你在用 ChatGPT 之类的东西工作，一切都像，哦，你对自己感觉很好。然后下一分钟你觉得，哦天哪，我觉得我这么渺小，我在这里没有位置。</span>  
+> *One day you're up and excited because you're you're you're working on with collater chat chat GPT and everything's like, oh, you're feeling great about yourself. And then the next minute you feel like, oh, gosh, like, I feel like I'm this small, and I I have no place here.*  
+> <span class="qm">—— Reef Frerichs · [28:06]</span> ^q6
+
+> <span class="qz">如果你真的退后一步思考，会发现做一个创造者、一个创新者、一个人，从未有过比现在更好的时代。</span>  
+> *If you really start to think, like, step back from it, it's never been better to be a creator, an innovator, a human.*  
+> <span class="qm">—— Reef Frerichs · [33:37]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

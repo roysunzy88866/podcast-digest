@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(18:38起):本集说 Jane Street 是 Anthropic 最大客户之一,每兆瓦能榨出 3-5 亿美元价值、只付 1 亿,是「价值大多未被实验室拿走」的证据。
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]]**(18:38起):本集说 Jane Street 是 Anthropic 最大客户之一,每兆瓦能榨出 3-5 亿美元价值、只付 1 亿,是「价值大多未被实验室拿走」的证据。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
+- [[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]] — 作为被讨论公司
 
 ## ③ 关联
 

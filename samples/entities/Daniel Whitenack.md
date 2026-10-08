@@ -47,7 +47,7 @@ unlisted: true
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为主持
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为主持
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为主持
-- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]] — 作为主持
+- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]] — 作为主持
 
 ## ③ 他谈到的
 

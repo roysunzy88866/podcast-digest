@@ -189,7 +189,7 @@ Ed 预计 2027 年左右事情会失速 <button class="pd-ts" data-t="130:25" da
 **顺着「创业与行业」挖下去**
 
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、CoreWeave、Google · 同概念:GPU、推理 (inference)、资本支出 (capex)</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Google · 同概念:推理 (inference)、资本支出 (capex)</span>
+- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Google · 同概念:推理 (inference)、资本支出 (capex)</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 
 </div>

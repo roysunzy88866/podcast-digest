@@ -244,7 +244,7 @@ Ladish 把「什么都不会变」排最不可能——「我相当确定的一�
 
 **换个口味**
 
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI、NVIDIA · 同概念:智能体 (agent)、推理 (inference)、蒸馏 (distillation)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI、NVIDIA · 同概念:智能体 (agent)</span>
 

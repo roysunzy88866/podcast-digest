@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]]**(01:23起):本集回顾 Okta 内部采用曲线:去年推 GitHub Copilot 时大家冷淡,直到 Claude Code 和 Anthropic 编程模型出现,「很多人心中的开关开始翻转」;工程师约 60% 时间在非编码工作上,才是未被度量的价值区
-- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]]**(29:57起):本集以 Daniel 带团队采用 AI 被卡住为例：领导者不拥有自己在技术上的真实位置，就会在对齐和工具选择上止步；组织需要一起学、打破筒仓。
+- **[[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]]**(29:57起):本集以 Daniel 带团队采用 AI 被卡住为例：领导者不拥有自己在技术上的真实位置，就会在对齐和工具选择上止步；组织需要一起学、打破筒仓。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为概念
-- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《叙事智能：把你的故事变成 AI 时代的护城河》]] — 作为概念
+- [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]] — 作为概念
 
 ## ③ 关联
 

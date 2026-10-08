@@ -14,7 +14,7 @@ unlisted: true
 - **[[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]]**(00:23起):本集把它说成:AI 编程编辑器,公司内部用它把构建应用的时间缩短超 40%、写了 80-90% 的软件,目标是把构建技术的时间减少 99%。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(29:51起):本集将其作为数据飞轮的完美例子：先在 Claude 上构建，收集了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型。
 - **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(33:13起):本集说 Graham 此前在 Windsurf（前身 Codeium）负责销售，经 Mamoon 介绍认识 Parag，先投资公司几个月后才正式加入负责规模化 GTM。
-- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(40:37起):本集说 Lada 最早用 Windsurf 的 Agent,但要在它和 IntelliJ 重构工具间来回切换让她不满,最终转向终端。
+- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]]**(40:37起):本集说 Lada 最早用 Windsurf 的 Agent,但要在它和 IntelliJ 重构工具间来回切换让她不满,最终转向终端。
 - **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(23:24起):本集说公司里大约三分之一的人使用 AI 编码工具，比如 Windsurf
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(15:52起):本集提到 Windsurf 在 YC 圈子里获得大量用户使用，形成了一波运动
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(41:09起):本集提到它同样被切断过 API,用来说明供应商风险是真实的。
@@ -32,7 +32,7 @@ unlisted: true
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为被讨论公司
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司(提及)
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为被讨论公司(提及)
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为被讨论公司(提及)
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)

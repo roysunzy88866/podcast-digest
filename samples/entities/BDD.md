@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]]**(32:21起):本集说 BDD 测试是高层的验收级测试,写成小白板式的领域语言、极其易于扫读,用来回答「我的系统到底能不能用」,并确保智能体不能轻易修改它们。
+- **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]]**(32:21起):本集说 BDD 测试是高层的验收级测试,写成小白板式的领域语言、极其易于扫读,用来回答「我的系统到底能不能用」,并确保智能体不能轻易修改它们。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对：离心机工作法》]] — 作为概念
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为概念
 
 ## ③ 关联
 

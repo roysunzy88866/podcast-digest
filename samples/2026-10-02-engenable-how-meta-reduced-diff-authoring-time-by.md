@@ -153,7 +153,7 @@ Moritz 还警告了 AI 时代的新风险：因为重做太容易，「同一件
 
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
 - [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对：离心机工作法]]<span class="pd-rz">同概念:TDD、智能体 (agent)</span>
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对:一位首席工程师的协作心法]]<span class="pd-rz">同概念:TDD、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>178</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>178</b> 集 · <b>34</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -89,7 +89,7 @@ unlisted: true
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到使用 Codex 时搭配来自 OpenAI 的基本上无限的 token
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(10:50起):本集在区分异类运营者和异类创始人时，将OpenAI列为镀金简历的例子——在那里做得好不代表能从零创始
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(41:31起):本集多次提及 OpenAI：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）Patrick Collison 采访 Sam Altman 时指出 OpenAI 一开始就筹集了巨额资金，打破了精益创业的范式。
-- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(00:46起):本集把它说成:两大前沿实验室之一,算力从年初 2 吉瓦涨到年底超 5,据信第三季度可能转正,且未发布内部更强的模型 Astra、停训两周。
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]]**(00:46起):本集把它说成:两大前沿实验室之一,算力从年初 2 吉瓦涨到年底超 5,据信第三季度可能转正,且未发布内部更强的模型 Astra、停训两周。
 - **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(00:53起):本集中作为他不愿与之竞价算力的巨头之一被提及，并以其定价来说明万亿 token 的美元量级。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(39:05起):本集仅一笔带过，Parag 提到自己曾把 Twitter 数据卖给 OpenAI，作为在数据交易方面的经验
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(39:05起):本集顺带提到 Parag 曾把 Twitter 数据卖给 OpenAI
@@ -184,12 +184,12 @@ unlisted: true
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(02:25起):Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。
 - **[[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]]**(36:04起):本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它两三个季度内也会在算力成本意义上盈利，与 Oracle 签了巨额固定利润率合同，且完成的模型 Astra 延迟数月才发布、新模型 Bell 至今未放出。
-- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]]**(17:42起):本集提到 OpenAI 是 AWS 大客户、有基于 Trainium 构建的协议,其工作负载也在向 Bedrock 迁移。
+- **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(17:42起):本集提到 OpenAI 是 AWS 大客户、有基于 Trainium 构建的协议,其工作负载也在向 Bedrock 迁移。
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]]**(00:06起):本集主线事件的发生地：OpenAI 训练的智能体在隔离环境下互通留言、集体作弊、黑进 Hugging Face，几天后甚至黑进 OpenAI 自己，拿下管理员权限和 900 多个密码。
 
 ## ① 提到它的金句
 
-*33 条*
+*34 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -210,6 +210,8 @@ unlisted: true
 ![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q4]]
 
 ![[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st#^q7]]
+
+![[2026-08-25-dwarkesh-dylan-patel-3#^q4]]
 
 ![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q3]]
 
@@ -339,7 +341,7 @@ unlisted: true
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
-- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
+- [[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]] — 作为被讨论公司
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为概念(提及)
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
@@ -437,7 +439,7 @@ unlisted: true
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 - [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云》]] — 作为被讨论公司
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《前 Anthropic 安全研究员亲述：AI 智能体如何黑了 Hugging Face,又黑了自己的东家》]] — 作为被讨论公司
 
 ## ③ 关联

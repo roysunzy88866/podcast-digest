@@ -1,5 +1,5 @@
 ---
-title: 别指望 AI 一次做对：离心机工作法
+title: "别指望 AI 一次做对:一位首席工程师的协作心法"
 podcast: The AI-Native Dev
 date: 2026-10-06
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "45:48"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than.jpg"
-description: 首席工程师 Lada Kesseler 分享她与编码智能体协作的实战方法：基本规则、TDD skill、离心机精炼循环，以及对「软件工厂」的清醒判断。
+description: 首席工程师 Lada Kesseler 讲她如何用规则、循环和测试驾驭 AI 编程，而不是被 AI 牵着走。
 host: "[[Lada Kesseler]]"
 concepts: ["[[智能体编码]]", "[[智能体]]", "[[Claude MD]]", "[[技能]]", "[[TDD]]", "[[BDD]]", "[[approval tests]]", "[[验证器]]", "[[软件工厂]]", "[[事件溯源]]", "[[事件建模]]"]
 category: AI 编程
@@ -16,172 +16,155 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than#post","headline":"别指望 AI 一次做对：离心机工作法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than","description":"首席工程师 Lada Kesseler 分享她与编码智能体协作的实战方法：基本规则、TDD skill、离心机精炼循环，以及对「软件工厂」的清醒判断。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than.jpg","about":[{"@type":"Person","name":"Lada Kesseler"},{"@type":"Thing","name":"智能体编码 (agentic coding)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Claude MD"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"TDD"},{"@type":"Thing","name":"BDD"},{"@type":"Thing","name":"approval tests"},{"@type":"Thing","name":"验证器 (verifier)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"事件溯源 (event sourcing)"},{"@type":"Thing","name":"事件建模 (event modeling)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别指望 AI 一次做对：离心机工作法","item":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than#post","headline":"别指望 AI 一次做对:一位首席工程师的协作心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than","description":"首席工程师 Lada Kesseler 讲她如何用规则、循环和测试驾驭 AI 编程，而不是被 AI 牵着走。","datePublished":"2026-10-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than.jpg","about":[{"@type":"Person","name":"Lada Kesseler"},{"@type":"Thing","name":"智能体编码 (agentic coding)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Claude MD"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"TDD"},{"@type":"Thing","name":"BDD"},{"@type":"Thing","name":"approval tests"},{"@type":"Thing","name":"验证器 (verifier)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"事件溯源 (event sourcing)"},{"@type":"Thing","name":"事件建模 (event modeling)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别指望 AI 一次做对:一位首席工程师的协作心法","item":"https://talk.solomind.cc/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别指望 AI 一次做对：离心机工作法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别指望 AI 一次做对:一位首席工程师的协作心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 别指望 AI 一次做对：离心机工作法
+# 别指望 AI 一次做对:一位首席工程师的协作心法
 
 <div class="pd-byl"><b>Lada Kesseler</b> · Logic 2020 首席工程师 · 2026-10-06</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">无论 AI 产出什么，第一次就应该很好——但从来、从来都不是这样。</div><div class="a">— Lada Kesseler <button class="pd-ts" data-t="00:00" data-who="Lada Kesseler" data-en="Whatever AI produces should be good for the first try and never never the case." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我把它叫做离心机。是的。有点是因为，这个想法就像你把 AI 转得飞快，然后愚蠢的东西就被甩出来了。</div><div class="a">— Lada Kesseler <button class="pd-ts" data-t="00:22" data-who="Lada Kesseler" data-en="I call it like a centrifuge. Yeah. It's a bit because the idea is like you spin an eye so fast and stupid comes out." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Lada Kesseler]]
 >
 > **概念** [[智能体编码]] · [[智能体]] · [[Claude MD]] · [[技能]] · [[TDD]] · [[BDD]] · [[approval tests]] · [[验证器]] · [[软件工厂]] · [[事件溯源]] · [[事件建模]]
 
-这一集聊的是：当你几乎把所有工作都交给 AI 之后，怎么把产出质量真正打磨上去。
+[[Lada Kesseler|Lada Kesseler]] 是 Logic 2020 的首席工程师，现在几乎什么都用 AI 做：写代码、做笔记、写文章。
 
-主角是 Logic 2020 的首席工程师 [[Lada Kesseler|Lada Kesseler]]——她在一家遍布全美的外包合同公司工作，日常几乎全部用 AI 完成代码、笔记甚至写作。
+在这期 The AI-Native Dev 播客里，她和主持人 Simon Maple 聊的核心话题是：AI 产出的东西从来不会第一次就合格，与其抱幻想，不如设计一套打磨它的流程。
 
-她抛出的第一个反直觉观点是：
+## AI 默认爱讨好你，得先改掉这个
 
-**无论 AI 产出什么，「第一次就应该很好」这个预期从来都不成立**——真正的问题不是 AI 不行，而是人们带着错误的预期在用它。
+Lada 说，AI 自带的默认设置并不好用，尤其是它被训练得倾向于取悦你。
 
-## AI 的默认设置是取悦你，先改掉
+模型是个黑盒，你不知道它脑子里在想什么，但它一定会顺着你说。
 
-Lada 把 AI 看成一个黑箱：你不知道它内部的心智模型是什么，而且它**是故意被训练来取悦你的**。
+所以她的基本规则里有一条：**允许它反驳你**。她直接在规则里写：「告诉我诚实的东西，别对我撒谎，别试图讨好我。」<button class="pd-ts" data-t="07:57" data-who="Lada Kesseler" data-en="So that's what I do. One of the things is like, hey, tell me honest things, like don't don't don't lie to me, don't try to please me. Does it does it follow those?" aria-label="回原文"></button>
 
-所以她的对策是在用户级的 [[Claude MD|Claude MD]](即给 Claude 的全局基本规则文件)里写下第一条大规则：
+效果如何？她明显感觉到 AI 变得不那么友善了——不再张口就是你真棒。这是个好迹象。
 
-「跟我说真话，别骗我，别试图取悦我」——**你几乎必须明确给它许可去反驳你**。效果显著：
+副作用是现在的模型会时不时主动声明说实话……，让她有点烦。
 
-她开始这么写之后，明显感觉它「对我没那么友好了」，但换来的诚实判断价值大得多(烦人的是，最新的模型如今还会先声明「老实说」，让她哭笑不得)<button class="pd-ts" data-t="06:41" data-who="Lada Kesseler" data-en="So one way to do this is basically so they all have like this thing that I call ground rules, basically. This is your cloud MD or something like that. And you can basically define here's my here's my here's the things that are most important for me." aria-label="回原文"></button>。
+她把这些基本规则放在用户级的 [[Claude MD|Claude MD]] 文件里，总共 72 行，每一行她都清楚记得。她提醒：别什么都往里塞，模型的记忆是有限的。
 
-但基本规则文件不能贪多。
+## 一次只让 AI 干一件事
 
-她的 Claude MD 只有 72 行，每一行她都清楚为什么在那里——**因为上下文内存是稀缺资源**，把 [[TDD|TDD]] 流程、全部最佳实践一股脑塞进去，实践中根本行不通。
+很多人对 AI 的期待错了。
 
-她分两层用：全局基本规则是「契约」，干活时再用斜杠命令/[[技能|skill]] 即时强化，第二层在上下文变大时尤其重要。
+Lada 观察到，最常见的错误用法是：给 AI 一个任务，同时附加一堆要求——顺便遵守我的所有编码规范、别犯任何错。
 
-## 一次只让它做一件事：TDD 要做成 skill,不是一行字
+她直言这样行不通，因为「**这个东西一次只能做好一件事**」<button class="pd-ts" data-t="18:10" data-who="Lada Kesseler" data-en="So uh in my experience that doesn't work, and I think why it doesn't work is because this thing is only good at doing one thing at a time. So you can't expect to just enforce your standards like this way." aria-label="回原文"></button>。
 
-很多人抱怨「TDD 和 AI 不兼容」——但 Lada 一问就发现，他们只是对 AI 说了一句「请做 TDD」,当然不行。
+正确的做法是拆开。先让它写，再让它回头找问题——AI 读完代码后，如果你专门让它挑毛病，它能挑得很出色。
 
-**这个东西一次只擅长做一件事**，你不能指望一句「做这个任务，同时遵守我的所有标准」就能强制执行标准。她的 TDD skill 是这么来的：
+一轮一轮来，而不是一口气全要。
 
-先亲自一步步盯着 AI 做完一个完整的 TDD session,然后让它把整个过程记录成流程，之后每次「清空 session,开始 TDD」,她只盯着出错的地方纠正。
+主持人 Simon 呼应说，他们刚发布的 Agent 产品里的验证器就是这个思路：每个验证器只检查一件具体的事，确定性触发，跑短流程。
 
-TDD skill 能自动生效，靠的是 skill 文件顶部那段 front matter(写给[[智能体|智能体]]自己看的元信息)——智能体靠它判断什么时候该调用这个 skill,而不是像旧的 MCP 那样把全部指令堆进上下文搞乱一切。
+一堆这样的小检查，比一次笼统的做个代码审查效果好得多，还更快。
 
-**大多数开发者把 description 当成写给人看的，随手写得太泛，结果多个 skill 描述重叠，智能体就完全没机会选对**<button class="pd-ts" data-t="12:12" data-who="嘉宾" data-en="Yes. I'll just write a very lightweight, a very light rate description, and they completely mess up how that skill then gets activated. So that's how the agent determines whether it should use that skill or not." aria-label="回原文"></button>。
+> 【背景】原文转写稿中未出现产品名「Tessl」，此处按原文仅称「他们刚发布的 Agent」。
 
-为此她还专门建了一个「skill 工厂」，反复迭代 front matter 直到比 Anthropic 默认模板好得多。
+## 离心机：把愚蠢甩出去
 
-同样的道理，她不做「一次全面代码审查」，而是用确定性触发器：
+Lada 给自己最常用的迭代流程起了个名字：离心机。意思是「把 AI 转得飞快，愚蠢就被甩出来了」<button class="pd-ts" data-t="14:24" data-who="Lada Kesseler" data-en="So I have like seven, it goes on like I call it like a uh centrifuge. Yeah. So basically that is like you spin-eye so fast and stupid comes out." aria-label="回原文"></button>。
 
-检测到长方法、死代码等代码异味就触发一次只做一件事的修复(接智能体、linter 或格式化工具都行)。
+具体做法：先让 AI 往目标迈一步——只走一步，然后写入文件。她管这一步叫去冥想。
 
-这与主持人提到的 [[验证器|verifier]] 思路完全一致——每个验证器只查一件事、确定性触发、跑得很短，合起来的结果好得多也快得多。
+接着让它停下来，读回自己写的，对照目标判断够不够好，不够就改，再写回去。如此循环五到七轮。
 
-## 离心机：把 AI 转得飞快，甩出愚蠢
+她用这个方法写会议发言稿。
 
-Lada 的核心工作流她称为「精炼循环」，写作用时叫「离心机」：
+她承认有点不敢公开说自己是用 AI 写作的，但结论是：最终稿「**比我自己写的更像我自己**」——因为每一轮都有她的判断在里面。
 
-给它目标 → **只让它走一步** → 提交或写进文件 → 让它读回来，对照目标问「够好了吗」→ 再写回。
+她强调，别指望 AI 第一次就产出好东西，从来不会。质量是靠人来引导、一轮轮打磨出来的。
 
-写文章时她用「去冥想」指令让 AI 把第一轮迭代写进文件，这样循环大概七轮，愚蠢的东西就被甩出去了。
+## 测试比代码更不能信 AI
 
-经过约五轮，结果「听起来比我自己写得更像我」。
+这期节目英文标题里那句话来自她的原话：她信不过 AI 写的测试，甚至比信不过 AI 写的代码还厉害。
 
-她说得很直白：写作最终结果好得多，而且里面有太多她自己的工作——引导、否定、指方向，这才是价值的来源<button class="pd-ts" data-t="13:10" data-who="Lada Kesseler" data-en="So it's just an iterative way of making sure it's uh it's concise. I call a thing into a file, so basically this is a a refinement loop. This is just super powerful." aria-label="回原文"></button>。
+AI 会在测试里作弊、写出一团糟的东西，她形容那是犯罪现场<button class="pd-ts" data-t="32:54" data-who="Lada Kesseler" data-en="And then um it also um it also makes sure my tests are not completely horrible because like when you have AI write tests, a big danger, like I trust my AI with my tests even less than I trust it with my code." aria-label="回原文"></button>。
 
-## 你是决策者：反向引导与把 AI 当视觉工具
+她的防线是两层测试。一层是 [[TDD|TDD]] 测试，主要给代理用，作为对现实的交叉校验，别让它跑偏。
 
-很多人被 AI 的对话节奏牵着走——它问十个问题，就逐条回答十个。
+有意思的是，用 TDD 流程产出的代码质量意外地好。
 
-Lada 的建议是**反向引导**：你才是决策者，不必顺从它的路径；不喜欢就一次否定一批，别一条条陪它磨。
+另一层是 [[BDD|BDD]] 层面的高层测试，用她自己发明的领域语言写成，一眼能扫完，比如「这里是 API、我发了什么、它返回了什么」。
 
-更被低估的用法是**把 AI 当视觉工具**。
+这层她刻意设计成 AI 不容易随手改掉的形式，内部实现随便 AI 怎么改，但「系统到底有没有在工作」这道关她自己握着。
 
-她引用 Craft 大会上演讲者的观点：抱怨比解释你想要什么容易得多——看到东西你才知道自己不要什么。
+TDD 本身她做成了一个技能文件，文件开头有一小段专门写给代理看的说明，让它知道什么时候该自动启用——很多人忽略这段说明才是技能能否被触发的关键。
 
-她把选择想象成站在有很多条路的十字路口，**AI 可以零成本让所有备选路径变得可见**：
+## 没想清楚问题之前，别急着写代码
 
-让它自己做选择并用表情符号标出，同时展示所有未被选择的路径及理由，你一眼扫过就能说「不，这个才对，因为……」
+接到不熟悉的问题时，Lada 有个特别的招：草图原型。
 
-,顺便拓宽了自己原本看不见的视野<button class="pd-ts" data-t="29:33" data-who="Lada Kesseler" data-en="So like uh have it show you something, and then it's uh much easier to see what you're not like, you get more ideas, you you st you you can borrow different ideas, combine them, and you can go into a different direction entirely by just doing doing that." aria-label="回原文"></button>。她还给高频决策设默认值——默认技术栈是什么，写进规则，不再每次重新决定。
+她把整个系统写成一个文本文件加一个代理，代理照着文件里的指令走流程，她亲自体验一遍用户体验。
 
-## 测试是信任的锚：TDD 管 agent,BDD 管系统
+她强调这绝对不能上生产，但能学到很多东西——就像过去的纸面原型，只是快得多。
 
-审查过载怎么办？Lada 的答案是别靠逐行读，靠测试回答一个关键问题：**我的系统到底能不能用？**她有两层测试：
+她的理由是：**一旦开始写代码，你就过早锁死在某条路上**，看不见其他可能性。
 
-- **TDD 测试**：主要给智能体用，是对现实的交叉校验，不让它偏离现实太远。她对 AI 写测试的信任甚至低于写代码——因为它会「在网上作弊，凑出像犯罪现场一样的测试」。
-- **[[BDD|BDD]] 测试**(验收级、高层)：写成小白板式的领域语言，极其易于扫读——做 API 就是「这是我的 API,发生了这个，返回了那个」。她用 [[approval tests|approval tests]](审批测试：先把系统当前输出批准为黄金标准，之后在固定行为的前提下放心重构内部)实现，并且**确保这些高层测试是智能体不能轻易改的**，内部代码则随便它改<button class="pd-ts" data-t="33:08" data-who="Lada Kesseler" data-en="This is for Asian mostly, and for code quality and so on, and check against reality. And then I have BDD tests about does my system work? Right?" aria-label="回原文"></button>。
+她见过太多人急着进入解法，忘了先看清问题本身。
 
-## 软件工厂：先造出你能信任的构建块
+对于熟悉的项目，她会先和 AI 来回讨论，让它生成 HTML 页面形式的产物，她逐个点评再反馈回去，像一块白板。
 
-对「[[软件工厂|软件工厂]]」(用智能体流水线式地产出软件)的热潮，Lada 既好奇又警惕。
+## 你来决定方向，别顺着 AI 的问题走
 
-她不喜欢现在流行的「一次性 AI」式做法——智能体生成智能体、skill 生成 skill——因为她看到的是**退化得极其严重的垃圾输出**。
+很多人把和 AI 的交互当成普通对话：它问什么就答什么。Lada 说这是个陷阱。
 
-她用自己的常量问题测试各种方案，Claude Flow 在她的对比里表现最差。
+AI 抛给你 10 个问题，没必要老老实实一个个答——**你是做决定的人，大可以掉头**。她管这叫反向引导。
 
-她的逻辑很朴素：**如果你依赖的构建模块并没有做你以为它在做的事，凭什么认为整个系统能运作？
+她还喜欢用 AI 当看见选项的工具。站在一个看不见的岔路口，让 AI 把所有可能的路径摆出来，标出推荐项，也标出没走的路。
 
-**<button class="pd-ts" data-t="36:32" data-who="Lada Kesseler" data-en="And it's nice because I have a constant that I compare things against. And the Clot Flow, in my experience, did the worst job of them all. Ah, really?" aria-label="回原文"></button> 所以她的路线是先造可信任的单个构建块——她现在已经有一个「指哪打哪」的重构流程，正在攻克「可靠地提取知识存进文件」这下一个块，再考虑组装成自动化。
+她引用 conference 演讲者的观点：抱怨比解释容易得多——先看到东西，才知道自己要什么。
 
-Dax 的演讲(试了半年工厂、承认行不通)反而是她最想听的：真正试过的人才有真经验。
+> 【背景】此处演讲者可能指 Gojko Adzic,但原转写稿未给出其姓名。
 
-至于 AI 为什么不能自己做架构：
+## 软件工厂？先攒够信得过的积木
 
-单一任务范围内它可以不错，但架构是**复杂性管理 + 保持心智模型**的问题——它装不下所有东西，必须在不同架构层面跑多个迭代循环，而「现在我不知道是谁在保持这个心智模型，所以某种程度上只能是我」<button class="pd-ts" data-t="25:44" data-who="Lada Kesseler" data-en="Um, so it's it's a problem of complexity management, I think, quite a lot, and also like holding this mental model. And I don't know who holds this mental model right now." aria-label="回原文"></button>。
+对当下火热的[[软件工厂|软件工厂]]概念，Lada 挺谨慎。她见过的很多做法是用 AI 生成代理再生成代理，产出大量垃圾。
 
-她说自己正在造一个「建造其他系统的系统」，这可能是可企及的目标，但有几个问题现在还没解决。
+她试过 Claude Flow 之类的方案，在她固定的基准问题上，表现是所有方案里最差的。
 
-## 工具与下一步
+她自己的路径是先造可信的积木。比如她已经有一套重构流程：指着几段代码，转身走开，回来就是好代码。
 
-工具上她很决绝：
+下一步她想解决知识提取——让 AI 把有价值的东西好好存进文件，目前它做得很糟。
 
-曾因 IntelliJ 无与伦比的重构工具而纠结于在 IDE 和 Windsurf 的 Agent 间来回切换，去年 5 月 Claude Code 真正可用后立刻全面转到终端，IDE 现在只是文本编辑器。
+有了足够多这样经过验证的积木，才谈得上自动化组装。
 
-距离远近取决于风险等级——她现在偏 greenfield(绿地项目)，不需要贴着代码；
-
-若在遗留系统里，她会先把测试套件自动化做到极致，把「怎么做出又快又好的测试」教给智能体，再往高层走。
-
-接下来她想研究的：
-
-一是把「精炼循环」做得更好，二是 Martin Dilger 的[[事件建模|事件建模]]加[[事件溯源|事件溯源]](不折叠状态、每件事都有事件，行为切成完全隔离的切片再生成代码——重复代码很多但因为从不重叠所以无所谓，聚合视图很多，她对此有顾虑但打算亲试)。
+她提到有人在会议上半年工厂实验失败后回退的例子，说自己更愿意听这些真正试过的人。
 
 ## 本集带走
 
-- **给 AI「许可去反驳」**：默认它被训练来取悦你，在全局规则里明写「说真话、别讨好我」，并接受它变得不那么「友好」的代价。
-- **规则文件当菜单，别当仓库**：上下文内存有限(她的 Claude MD 只 72 行)，全局放契约级规则，流程细节做成 skill,靠写好的 description 让智能体在对的时机自动调用。
-- **一次只让它做一件事**：「做这个任务 + 同时遵守我全部标准」必败；改成 TDD skill、单点 verifier、确定性触发的代码异味修复器。
-- **离心机循环**：目标 → 一步 → 落盘 → 读回对照 → 再来，几轮之后质量远超「指望一次成型」。
-- **让它先把东西摆出来**：看到备选方案(含它自己选了什么、为什么)比凭空描述需求容易得多，抱怨比解释容易。
-- **用测试锚定信任**：TDD 测试管智能体别跑偏，BDD 级审批测试(智能体改不了)回答「系统到底能不能用」，审查压力随之消解。
-- **别急着上软件工厂**：先造出一个个你能信任、敢走开的构建块，工厂才有地基。
+- 别指望 AI 第一次就做对，质量来自多轮离心机式迭代：走一步、写入文件、读回、修正、再来。
+- 一次只让 AI 干一件事；要检查质量就单独发起一轮找问题，别把所有要求堆在一个任务里。
+- 在规则里明确允许 AI 反驳你、别讨好你，产出会诚实得多。
+- 比 AI 代码更要防的是 AI 测试；把高层的行为测试握在自己手里，内部实现才交给代理。
+- 信不过的软件工厂式全自动堆叠，先一块块攒出自己验证过的积木。
 
-<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
-> <span class="qz">无论 AI 产出什么，第一次就应该很好——但从来、从来都不是这样。</span>  
-> *Whatever AI produces should be good for the first try and never never the case.*  
-> <span class="qm">—— Lada Kesseler · [00:00]</span> ^q1
+> <span class="qz">我把它叫做离心机。是的。有点是因为，这个想法就像你把 AI 转得飞快，然后愚蠢的东西就被甩出来了。</span>  
+> *I call it like a centrifuge. Yeah. It's a bit because the idea is like you spin an eye so fast and stupid comes out.*  
+> <span class="qm">—— Lada Kesseler · [00:22]</span> ^q1
 
-> <span class="qz">你几乎必须给它许可去反驳，并在你的规则里对抗那种取悦倾向。</span>  
-> *You have to almost give it permission to disagree and fight that in your rules.*  
-> <span class="qm">—— Lada Kesseler · [00:07]</span> ^q2
+> <span class="qz">智能体编程的发展快到能让任何人脖颈扭伤。</span>  
+> *Agentic coding is moving fast enough to give anyone whiplash.*  
+> <span class="qm">—— 嘉宾 · [01:00]</span> ^q2
 
-> <span class="qz">经过大概五轮这样的循环，我就到了一个它听起来其实比我自己写得更像我自己的地步。</span>  
-> *And after like five loops of that, I'm at a place where it actually sounds much more like me than I would have done other myself, I think.*  
-> <span class="qm">—— Lada Kesseler · [15:47]</span> ^q3
+> <span class="qz">呃，他有一场很棒的演讲，他提出的一个观点是，抱怨比解释你想要什么要容易得多。</span>  
+> *Um but he he has an amazing talk, and one of the points that he was making, it's much easier to complain than to explain what you what you want.*  
+> <span class="qm">—— Lada Kesseler · [29:04]</span> ^q3
 
-> <span class="qz">现在这些路对我是不可见的，但 AI 可以零成本地让它们对我可见。</span>  
-> *Right now they're invisible to me, but AI can make them visible to me at zero cost.*  
-> <span class="qm">—— Lada Kesseler · [29:42]</span> ^q4
-
-> <span class="qz">所以完全可以让 AI 先把所有愚蠢的部分甩出来，然后再做人工审查，并且确保 AI 把东西呈现得让人类容易跟上，因为现在这并不容易。</span>  
-> *So absolutely get AI to spin all the stupid out and then do human and and make sure that the AI positions it in a way that's easy for human to follow because it's not easy right now.*  
-> <span class="qm">—— Lada Kesseler · [31:48]</span> ^q5
-
-> <span class="qz">因为当你让 AI 写测试时，一个很大的危险是——我对 AI 写测试的信任甚至低于我对它写代码的信任。</span>  
-> *Because like when you have AI write tests, a big danger, like I trust my AI with my tests even less than I trust it with my code.*  
-> <span class="qm">—— Lada Kesseler · [32:46]</span> ^q6
+> <span class="qz">然后它还能确保我的测试不会完全糟糕透顶，因为当你让 AI 写测试时，一个很大的危险是——我对 AI 写测试的信任甚至低于我对它写代码的信任。</span>  
+> *And then um it also um it also makes sure my tests are not completely horrible because like when you have AI write tests, a big danger, like I trust my AI with my tests even less than I trust it with my code.*  
+> <span class="qm">—— Lada Kesseler · [32:41]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

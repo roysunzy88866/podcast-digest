@@ -161,7 +161,7 @@ jsonLd: |
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、软件工厂 (software factory)、沙箱 (sandbox)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同嘉宾:Guy Pajani、Simon Maple · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对：离心机工作法]]<span class="pd-rz">同概念:智能体 (agent)、软件工厂 (software factory)、验证器 (verifier)</span>
+- [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|别指望 AI 一次做对:一位首席工程师的协作心法]]<span class="pd-rz">同概念:智能体 (agent)、软件工厂 (software factory)、验证器 (verifier)</span>
 
 </div>
 <div class="pd-ex">

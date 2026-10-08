@@ -29,7 +29,7 @@ unlisted: true
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(15:54起):本集说 Vercel 移除了 80% 的工具,以实现更少的步骤、更快的响应和更好的准确性。
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(00:16起):本集说 Vercel 构建智能体基础设施、从 Web 起家，内部用智能体自动化数据查询等职能，已有约 20 个有产品市场契合度的内部智能体。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(00:26起):两位嘉宾所在的公司，Eve 的出品方；Eve 构建在 Vercel 的 workflow、serverless 函数、沙箱等产品之上。
-- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(00:00起):本集把它说成:嘉宾任职 COO、负责整个 go-to-market 的公司,600 人涨到 800 出头、营收远超三位数百分比增长;91% 支持工单由智能体解决,价值观贯穿入职、全员大会和绩效评估,「理论上互联网上的每一个像素都可以构建在 Vercel 之上」。
+- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(00:00起):本集把它说成:嘉宾任职 COO、负责整个 go-to-market 的公司,600 人涨到 800 出头、营收远超三位数百分比增长;91% 支持工单由智能体解决,价值观贯穿入职、全员大会和绩效评估,「理论上互联网上的每一个像素都可以构建在 Vercel 之上」。
 
 ## ① 提到它的金句
 
@@ -43,7 +43,7 @@ unlisted: true
 
 ![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q1]]
 
-![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q6]]
+![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q9]]
 
 ## ② 出现在这些集
 
@@ -67,7 +67,7 @@ unlisted: true
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]] — 作为概念
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为被讨论公司
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司
 
 ## ③ 关联
 

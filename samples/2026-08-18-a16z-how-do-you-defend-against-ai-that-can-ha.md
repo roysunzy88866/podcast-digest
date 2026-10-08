@@ -130,7 +130,7 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
-- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|AWS CEO 谈 GPU 荒、2200 亿资本开支与智能体时代的云]]<span class="pd-rz">同概念:开源权重 (open weights)、护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同概念:开源权重 (open weights)、护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>

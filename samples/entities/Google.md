@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -44,7 +44,7 @@ unlisted: true
 - **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(06:23起):本集把 Google 搜索说成史上最完美、零边际成本的聚合器生意，而 AI 焚烧现金但 TAM 是所有白领工作；Google 发行股权、靠买暗光纤起家，像伯克希尔从喜诗糖果转向 BNSF。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(03:35起):本集提到 Google 手头现金加流动投资有 1870 亿，与 Meta 一样通过表外承诺方式为 AI 基础设施融资
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集说 Google 拥有所有数据和智能，但其模型被 OpenAI 和 Anthropic 击溃——这不是工程问题，而是文化问题。此外，Google 内部在配给 token，内部产品面临「AI 饥饿」，而其竞争对手不受此限制。
-- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(04:51起):本集提到 Google 向 Anthropic 出售 TPU、也以每吉瓦 400 亿买入 SpaceX 的算力,并与超大规模云厂商一起举债支付 CapEx。
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]]**(04:51起):本集提到 Google 向 Anthropic 出售 TPU、也以每吉瓦 400 亿买入 SpaceX 的算力,并与超大规模云厂商一起举债支付 CapEx。
 - **[[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]]**(00:55起):嘉宾在 Google 工作 11 年、是 Google Brain 早期成员，担任 Vertex 调优、评估、智能体引擎等云 AI 产品的工程负责人；本集还以她在 Gemini 团队的内部视角说明模型开发团队对企业需求接触非常有限。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(03:49起):本集提到 Google 是历史上做过全网络规模爬取和索引的巨头之一，其搜索结果中充斥着前 AI 时代迎合人类懒惰的中间页面内容
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(03:49起):本集提到 Google 作为搜索引擎巨头，大多数查询亏钱靠少数高价值查询赚回来；也提到 Google Cloud 与 Parallel 合作，让 Parallel 作为企业智能体 API 的搜索和接地提供商
@@ -72,14 +72,14 @@ unlisted: true
 - **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]]**(07:49起):本集提到商家把商品目录同步到 Google 等广告平台，但那套规范是为人类搜索建的，不是为智能体。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(28:08起):本集以 Google 为「在位者不愿蚕食旧界面」的经典例子：没为 AI 时代重造 Docs 和 Gmail；其 Nano、Banana 等图像模型也抢走了独立图像生成器的散户流量。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。
-- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
+- **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 
 ## ① 提到它的金句
 
-*41 条*
+*40 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -116,8 +116,6 @@ unlisted: true
 ![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q3]]
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q1]]
-
-![[2026-08-25-dwarkesh-dylan-patel-3#^q5]]
 
 ![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q4]]
 
@@ -200,7 +198,7 @@ unlisted: true
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
-- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
+- [[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]] — 作为被讨论公司
 - [[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
@@ -228,7 +226,7 @@ unlisted: true
 - [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]] — 作为被讨论公司(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司(提及)
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
-- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《Vercel COO 谈 AI 时代的市场打法：一人加一个智能体》]] — 作为被讨论公司
+- [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司

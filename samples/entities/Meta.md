@@ -35,7 +35,7 @@ unlisted: true
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(06:55起):本集说 Meta 与 SpaceX 一样符合'有大量算力、但没有直接面向用户业务'的特征，本可以像 SpaceX 那样收购 Cursor 来解决问题，但没有这么做，原因包括需要掏 700-800 亿美元现金、以及有司法部反垄断审查的包袱。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(03:35起):本集以 Meta 在路易斯安那州的 Hyperion 数据中心为例，说明它既是客户又是担保人，将 3470 亿美元未启动租赁义务推到资产负债表外，手头现金加流动投资仅 910 亿
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(06:40起):本集提到从 Meta 等大公司招来的人，框架非常关乎自我保护——附着在运作良好的事物上，并尽可能远离运作不好的事物。
-- **[[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]]**(13:56起):本集说 Meta 在用自己的资产负债表囤积算力、不先找终端客户就建,可自用或以疯狂利润率外卖,是算力上「唯一说得通的第三名」之一。
+- **[[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]]**(13:56起):本集说 Meta 在用自己的资产负债表囤积算力、不先找终端客户就建,可自用或以疯狂利润率外卖,是算力上「唯一说得通的第三名」之一。
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(00:41起):本集说 Campbell Brown 曾在 Meta 负责新闻合作，试图在平台和出版商之间建立商业模式但未成功，原因是社交媒体为互动率优化的本质与高质量新闻互斥
 - **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]]**(26:33起):本集说 cusp.ai 和 Meta 一起训练了材料基础模型，Meta 还提供了 OMOL 数据集
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(61:38起):本集提到 Mark Zuckerberg 发布 Meta 的宣言称每个人都应有权访问超级智能，Ryan 称该提案相当不严肃（pretty unserious）
@@ -114,7 +114,7 @@ unlisted: true
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
-- [[2026-08-25-dwarkesh-dylan-patel-3|《算力吞噬世界经济:Dylan Patel 谈 AI 资本狂潮》]] — 作为被讨论公司
+- [[2026-08-25-dwarkesh-dylan-patel-3|《两家公司，买下全世界的算力》]] — 作为被讨论公司
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司(提及)
 - [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]] — 作为被讨论公司(提及)
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
