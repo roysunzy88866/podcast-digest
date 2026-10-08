@@ -31,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.p.outputs.matrix }}
+      count: ${{ steps.p.outputs.count }}
     steps:
       - uses: actions/checkout@v4
       - id: p
@@ -52,12 +53,13 @@ jobs:
                       pick.append(d["id"])
           shards = [",".join(pick[k::n]) for k in range(n) if pick[k::n]]
           print("matrix=" + json.dumps({"ids": shards}))
+          print(f"count={len(pick)}")
           PY
           cat "$GITHUB_OUTPUT"
 
   rewrite:
     needs: plan
-    if: ${{ needs.plan.outputs.matrix != '{"ids": []}' }}
+    if: needs.plan.outputs.count != '0'
     runs-on: ubuntu-latest
     timeout-minutes: 300
     strategy:
