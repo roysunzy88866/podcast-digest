@@ -2925,3 +2925,33 @@ Feature: 精华在手机上好读
     When  polish-zh 重点标注(模型逐字摘片段 → 程序校验后加 **…** / ==…==)
     Then  每节加粗 ≤1、下划线 ≤1,全篇各 ≤6;片段逐字出自该节、≤40 字、不含句中断点;「本集带走」不标;去掉标记后正文逐字不变
 ```
+
+## C42 · 精华换写手(GLM-5.3 读英文原稿一口气写)· US-4 · 2026-10-08 用户两轮盲测拍板 [standard-change: 用户授权 2026-10-08]
+> ADR 0028 / drift #108。取代 C41 的写法部分(编辑通读/补小标题/拆长句/改英文);C41 的分段、重点标注、引号只给原话、人名一致仍有效。
+```gherkin
+Feature: 新写手一口气写成精华
+  Scenario: 写手输出拼回原格式
+    Given GLM-5.3 输出「# 标题 / 导语:… / 正文」且金句调用输出 ===金句=== 段
+    When  condense 拼装
+    Then  parseSections 解析出 title_zh/tldr/digest_md/quotes,validate 与 styleErrs 全过;digest.json 加 writer=v3
+  Scenario: 写手漏标题或导语 → 重试
+    Given 写手输出缺「# 标题」或「导语:」
+    When  condense 校验
+    Then  判格式不合格,带原因重试(最多 4 次),仍不合格则不改 digest.json
+  Scenario: 新稿中文数字回原稿
+    Given writer=v3 的正文写「百分之五十」而原稿只有 5%
+    When  gate-facts
+    Then  D17-数字 失败;同样文字在非 v3 稿里不报
+  Scenario: 约数要原稿有对应说法
+    Given writer=v3 的正文写「数十年」,原稿没有 dozens/tens
+    When  gate-facts
+    Then  D17-数字 失败
+  Scenario: 编的引语去引号
+    Given writer=v3 正文一句整句引语,模型答「无」或给出的英文不在原稿
+    When  polish-zh
+    Then  去掉这对引号、字一个不少;核得上的引语原样保留;调用失败则全部去引号
+  Scenario: 新稿不再打补丁
+    Given writer=v3 的稿
+    When  polish-zh
+    Then  不调用逐节改写、补小标题、拆句改写
+```
