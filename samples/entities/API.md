@@ -89,7 +89,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[ChatGPT]] · [[护栏]] · [[Sherwin Wu]] · [[Sam Altman]] · [[Roblox CEO]] · [[Safia Abdalla]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Codex":81,"沙箱":87,"OpenAI":181,"ChatGPT":102,"护栏":85,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Safia Abdalla":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Codex":81,"沙箱":88,"OpenAI":182,"ChatGPT":102,"护栏":86,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Safia Abdalla":1}</script>
 
 <script>
 (function(){

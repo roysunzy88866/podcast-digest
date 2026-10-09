@@ -156,7 +156,7 @@ Eddie 收尾给出一个预测：未来一年内，AI 话语圈将被彻底翻�
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:AI 安全 (AI safety)、对齐 (alignment)、超级智能 (superintelligence)、智能体 (agent)</span>
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)、智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)、智能体 (agent)</span>
+- [[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|Skype 联创警告：别再扣动这把指向地球的扳机]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:AI 安全 (AI safety)、对齐 (alignment)、超级智能 (superintelligence)</span>
 
 </div>
 <div class="pd-ex">

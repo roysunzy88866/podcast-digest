@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeffrey Wang]] · [[Exa]] · [[go-to-market]] · [[智能体]] · [[MCP]] · [[API 优先]] · [[嵌入]] · [[RequestLens]] · [[JeffBot]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"Jeffrey Wang":1,"Exa":4,"go-to-market":14,"智能体":448,"MCP":83,"API 优先":2,"嵌入":4,"RequestLens":1,"JeffBot":1,"Salesforce":34}</script>
+<script type="application/json" class="pd-epn">{"Jeffrey Wang":1,"Exa":4,"go-to-market":14,"智能体":449,"MCP":84,"API 优先":2,"嵌入":4,"RequestLens":1,"JeffBot":1,"Salesforce":34}</script>
 
 <script>
 (function(){

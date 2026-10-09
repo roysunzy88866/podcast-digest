@@ -45,7 +45,7 @@ unlisted: true
 
 [[Lovable]] · [[Replit]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Base44]] · [[智能体]] · [[Wix]] · [[vibe coding]] · [[Maor Shlomo]]
 
-<script type="application/json" class="pd-epn">{"Lovable":19,"Replit":21,"Cursor":83,"Lenny":68,"Anthropic":192,"Base44":4,"智能体":448,"Wix":4,"vibe coding":47,"Maor Shlomo":1}</script>
+<script type="application/json" class="pd-epn">{"Lovable":19,"Replit":21,"Cursor":83,"Lenny":68,"Anthropic":194,"Base44":4,"智能体":449,"Wix":4,"vibe coding":47,"Maor Shlomo":1}</script>
 
 <script>
 (function(){

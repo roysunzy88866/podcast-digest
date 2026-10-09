@@ -1,0 +1,1690 @@
+[
+ {
+  "seg": 0,
+  "start": 13.152,
+  "end": 14.937,
+  "speaker": "Unknown",
+  "en": "I guess I'm ready to start.",
+  "zh": "我想我已经准备好开始了。"
+ },
+ {
+  "seg": 1,
+  "start": 16.041,
+  "end": 19.752,
+  "speaker": "Unknown",
+  "en": "I can hear myself, yeah, so you guys can hear me.",
+  "zh": "我能听到自己的声音，对，你们也能听到我。"
+ },
+ {
+  "seg": 2,
+  "start": 21.132,
+  "end": 21.712,
+  "speaker": "Unknown",
+  "en": "My name's Jim.",
+  "zh": "我叫 Jim。"
+ },
+ {
+  "seg": 3,
+  "start": 23.053,
+  "end": 25.254,
+  "speaker": "Unknown",
+  "en": "I'm an engineer at Docker.",
+  "zh": "我是 Docker 的一名工程师。"
+ },
+ {
+  "seg": 4,
+  "start": 25.754,
+  "end": 33.177,
+  "speaker": "Unknown",
+  "en": "Normally, when I introduce myself in the slides these days, or at least what I used to do, was I would say, hey, I'm Jim.",
+  "zh": "通常，现在当我在幻灯片里做自我介绍时——或者至少是我以前习惯的做法——我会说：嘿，我是 Jim。"
+ },
+ {
+  "seg": 5,
+  "start": 33.918,
+  "end": 36.419,
+  "speaker": "Unknown",
+  "en": "I like spaces, not tabs.",
+  "zh": "我喜欢空格，不喜欢制表符。"
+ },
+ {
+  "seg": 6,
+  "start": 36.519,
+  "end": 38.44,
+  "speaker": "Unknown",
+  "en": "I use NeoVim, not Emacs.",
+  "zh": "我用 NeoVim，不用 Emacs。"
+ },
+ {
+  "seg": 7,
+  "start": 38.84,
+  "end": 42.201,
+  "speaker": "Unknown",
+  "en": "But that's all irrelevant now.",
+  "zh": "但这些现在都不重要了。"
+ },
+ {
+  "seg": 8,
+  "start": 42.881,
+  "end": 48.684,
+  "speaker": "Unknown",
+  "en": "So I will say that I made this slide with, I made this presentation with Claude Code.",
+  "zh": "所以我要说的是，我制作这张幻灯片——我是用 Claude Code 做的这个演示。"
+ },
+ {
+  "seg": 9,
+  "start": 49.967,
+  "end": 51.007,
+  "speaker": "Unknown",
+  "en": "I used the Codex model.",
+  "zh": "我用的是 Codex 模型。"
+ },
+ {
+  "seg": 10,
+  "start": 51.208,
+  "end": 56.63,
+  "speaker": "Unknown",
+  "en": "The MCPs that helped me write these slides were MARP and MERMAID.",
+  "zh": "帮我写这些幻灯片的 MCP 是 MARP 和 MERMAID。"
+ },
+ {
+  "seg": 11,
+  "start": 57.771,
+  "end": 59.871,
+  "speaker": "Unknown",
+  "en": "And I'm going to talk to you about MCP gateways.",
+  "zh": "我要和你们聊的是 MCP 网关。"
+ },
+ {
+  "seg": 12,
+  "start": 60.372,
+  "end": 63.513,
+  "speaker": "Unknown",
+  "en": "But I'm really going to be talking to you about AI safety.",
+  "zh": "但我真正要聊的其实是 AI 安全。"
+ },
+ {
+  "seg": 13,
+  "start": 64.113,
+  "end": 75.198,
+  "speaker": "Unknown",
+  "en": "So I'm going to kind of go through sandboxes, gateways, harnesses, and sort of motivate why we're talking about AI safety at Docker right now.",
+  "zh": "所以我会大致讲一下沙箱、网关、工具 harness，并说明为什么 Docker 现在要谈 AI 安全。"
+ },
+ {
+  "seg": 14,
+  "start": 77.257,
+  "end": 82.16,
+  "speaker": "Unknown",
+  "en": "Like probably the last six months has been similar for all of you as it's been for me.",
+  "zh": "过去大概六个月，对你们所有人来说应该和我一样。"
+ },
+ {
+  "seg": 15,
+  "start": 82.781,
+  "end": 87.944,
+  "speaker": "Unknown",
+  "en": "Agents are doing way more than I thought they were doing, than I thought they were going to do.",
+  "zh": "智能体做的事情远远超出我以为它们在做的，也超出我以为它们会做的。"
+ },
+ {
+  "seg": 16,
+  "start": 88.684,
+  "end": 95.149,
+  "speaker": "Unknown",
+  "en": "And I'm no longer going to sit in front of my laptop and say, yes, yes, yes, yes.",
+  "zh": "我不再会坐在笔记本电脑前一直说：好，好，好，好。"
+ },
+ {
+  "seg": 17,
+  "start": 95.669,
+  "end": 98.011,
+  "speaker": "Unknown",
+  "en": "They're doing longer running things.",
+  "zh": "它们在做运行时间更长的事情。"
+ },
+ {
+  "seg": 18,
+  "start": 98.771,
+  "end": 99.792,
+  "speaker": "Unknown",
+  "en": "And I like that.",
+  "zh": "我喜欢这样。"
+ },
+ {
+  "seg": 19,
+  "start": 100.232,
+  "end": 105.636,
+  "speaker": "Unknown",
+  "en": "And as I get more and more accustomed to them doing longer running things,",
+  "zh": "而随着我越来越习惯它们做运行时间更长的事情，"
+ },
+ {
+  "seg": 20,
+  "start": 106.596,
+  "end": 117.358,
+  "speaker": "Unknown",
+  "en": "I sort of decide that my metric for me having designed a problem that an agent can sink its teeth into is that I don't really need to give it a lot of supervision.",
+  "zh": "我给自己定了一个标准，用来判断我是否设计出了一个智能体能真正投入解决的问题，这个标准就是：我不太需要给它很多监督。"
+ },
+ {
+  "seg": 21,
+  "start": 118.278,
+  "end": 124.059,
+  "speaker": "Unknown",
+  "en": "But if I'm not going to supervise it, maybe I'm also a little bit worried about what it's going to get up to.",
+  "zh": "但如果我打算不监督它，也许我也会有点担心它会搞出什么名堂。"
+ },
+ {
+  "seg": 22,
+  "start": 125.279,
+  "end": 131.481,
+  "speaker": "Unknown",
+  "en": "So I think just to set context, this is what I think is the sort of shape of the problem right now.",
+  "zh": "所以我认为，为了交代背景，这就是我所认为的当前问题的形态。"
+ },
+ {
+  "seg": 23,
+  "start": 131.821,
+  "end": 133.901,
+  "speaker": "Unknown",
+  "en": "We need to talk about agent harnesses.",
+  "zh": "我们需要谈智能体 harness。"
+ },
+ {
+  "seg": 24,
+  "start": 135.068,
+  "end": 137.309,
+  "speaker": "Unknown",
+  "en": "What the agent harnesses do for us.",
+  "zh": "智能体 harness 为我们做了什么。"
+ },
+ {
+  "seg": 25,
+  "start": 137.709,
+  "end": 139.35,
+  "speaker": "Unknown",
+  "en": "We need to talk about sandboxes.",
+  "zh": "我们需要谈沙箱。"
+ },
+ {
+  "seg": 26,
+  "start": 140.291,
+  "end": 146.334,
+  "speaker": "Unknown",
+  "en": "Like, when an agent harness delivers work, what is the thing it delivers work into?",
+  "zh": "比如，当一个智能体 harness 交付工作时，它把工作交付到哪里？"
+ },
+ {
+  "seg": 27,
+  "start": 146.634,
+  "end": 149.776,
+  "speaker": "Unknown",
+  "en": "And then, of course, we've got MCPs, which everybody knows.",
+  "zh": "然后，当然，我们有大家都熟知的 MCP。"
+ },
+ {
+  "seg": 28,
+  "start": 150.276,
+  "end": 152.678,
+  "speaker": "Unknown",
+  "en": "And we'll talk a little bit more about what we're doing there.",
+  "zh": "我们会再多聊一点我们在那里做的事情。"
+ },
+ {
+  "seg": 29,
+  "start": 153.838,
+  "end": 155.139,
+  "speaker": "Unknown",
+  "en": "Let's start with the agent harness.",
+  "zh": "先从智能体 harness 说起。"
+ },
+ {
+  "seg": 30,
+  "start": 159.428,
+  "end": 167.631,
+  "speaker": "Unknown",
+  "en": "I mean, it would be an oversimplification to say that an agent harness is something which just takes in context and emits tool calls.",
+  "zh": "我是说，如果简单地说智能体 harness 就是接受上下文并发出工具调用的东西，那是一种过度简化。"
+ },
+ {
+  "seg": 31,
+  "start": 168.371,
+  "end": 170.972,
+  "speaker": "Unknown",
+  "en": "But there's also a little bit of truth to that.",
+  "zh": "但这话也有几分道理。"
+ },
+ {
+  "seg": 32,
+  "start": 171.112,
+  "end": 173.213,
+  "speaker": "Unknown",
+  "en": "It's not the most complex part of it.",
+  "zh": "它并不是其中最复杂的部分。"
+ },
+ {
+  "seg": 33,
+  "start": 173.273,
+  "end": 180.116,
+  "speaker": "Unknown",
+  "en": "It's a loop that takes in some context that you give it and asks you to do something on its behalf.",
+  "zh": "它是一个循环，接受你给它的上下文，然后代表你去做某件事。"
+ },
+ {
+  "seg": 34,
+  "start": 181.356,
+  "end": 186.038,
+  "speaker": "Unknown",
+  "en": "But belying that simplicity, we're all using a lot of different harnesses.",
+  "zh": "但在这种简单的表象之下，我们都在使用很多不同的 harness。"
+ },
+ {
+  "seg": 35,
+  "start": 187.102,
+  "end": 192.126,
+  "speaker": "Unknown",
+  "en": "And why do we pick up different harnesses all the time?",
+  "zh": "那我们为什么总是换用不同的 harness？"
+ },
+ {
+  "seg": 36,
+  "start": 192.206,
+  "end": 196.789,
+  "speaker": "Unknown",
+  "en": "We love the new interactive possibilities that they bring us.",
+  "zh": "我们喜欢它们带来的新的交互可能性。"
+ },
+ {
+  "seg": 37,
+  "start": 197.269,
+  "end": 200.972,
+  "speaker": "Unknown",
+  "en": "So let's just admit right from the beginning, we're going to be using a lot of harnesses.",
+  "zh": "所以我们一开始就得承认，我们会使用很多 harness。"
+ },
+ {
+  "seg": 38,
+  "start": 201.452,
+  "end": 202.913,
+  "speaker": "Unknown",
+  "en": "They're going to evolve pretty quickly.",
+  "zh": "它们会演化得非常快。"
+ },
+ {
+  "seg": 39,
+  "start": 202.933,
+  "end": 206.136,
+  "speaker": "Unknown",
+  "en": "We're going to be swapping in different harnesses for one another.",
+  "zh": "我们会不断地用不同的 harness 相互替换。"
+ },
+ {
+  "seg": 40,
+  "start": 207.127,
+  "end": 211.831,
+  "speaker": "Unknown",
+  "en": "But a harness by itself is just kind of in a little bit of a dead room.",
+  "zh": "但一个 harness 本身就像是待在一个有点死寂的房间里。"
+ },
+ {
+  "seg": 41,
+  "start": 212.271,
+  "end": 215.613,
+  "speaker": "Unknown",
+  "en": "Like, hello, someone give me some context.",
+  "zh": "比如：喂，谁给我一些上下文。"
+ },
+ {
+  "seg": 42,
+  "start": 216.274,
+  "end": 217.655,
+  "speaker": "Unknown",
+  "en": "Somebody give me something to do.",
+  "zh": "谁给我点事情做。"
+ },
+ {
+  "seg": 43,
+  "start": 218.255,
+  "end": 220.757,
+  "speaker": "Unknown",
+  "en": "This is, of course, where MCPs come in.",
+  "zh": "这当然就是 MCP 登场的地方。"
+ },
+ {
+  "seg": 44,
+  "start": 222.238,
+  "end": 225.501,
+  "speaker": "Unknown",
+  "en": "MCPs allow us to do new things.",
+  "zh": "MCP 让我们能做新的事情。"
+ },
+ {
+  "seg": 45,
+  "start": 225.581,
+  "end": 233.867,
+  "speaker": "Unknown",
+  "en": "They allow us to go outside of ourselves, pull in new context, pull in new tools, and get actual work done.",
+  "zh": "它们让我们能走出自身，拉入新的上下文、拉入新的工具，把实际工作做完。"
+ },
+ {
+  "seg": 46,
+  "start": 235.221,
+  "end": 247.711,
+  "speaker": "Unknown",
+  "en": "So I think it's, when you're trying to think about safety, I don't think it's an oversimplification to say that one of the things that you need to do is figure out what are the resources that you need to do your job.",
+  "zh": "所以我认为，当你想思考安全问题时，我觉得这么说并不算过度简化：你需要做的事情之一，就是弄清楚完成你的工作需要哪些资源。"
+ },
+ {
+  "seg": 47,
+  "start": 249.496,
+  "end": 256.461,
+  "speaker": "Unknown",
+  "en": "Any time, even for us, one of the first things you'd analyze when you want to do a new task is, what do I need to get this task done?",
+  "zh": "任何时候，即便是对我们自己，当你想做一项新任务时，最先要分析的事情之一就是：完成这项任务我需要什么？"
+ },
+ {
+  "seg": 48,
+  "start": 256.521,
+  "end": 257.861,
+  "speaker": "Unknown",
+  "en": "What information do I need?",
+  "zh": "我需要什么信息？"
+ },
+ {
+  "seg": 49,
+  "start": 258.482,
+  "end": 260.683,
+  "speaker": "Unknown",
+  "en": "What tools do I need to actually get this done?",
+  "zh": "我需要什么工具才能真正完成这件事？"
+ },
+ {
+  "seg": 50,
+  "start": 261.544,
+  "end": 273.331,
+  "speaker": "Unknown",
+  "en": "And if you knew that the sandbox that you built had the right resources, had the right tools, and only those resources and tools, it would make you feel safer.",
+  "zh": "而且，如果你知道你构建的沙箱拥有正确的资源、正确的工具，并且只有这些资源和工具，这会让你感觉更安全。"
+ },
+ {
+  "seg": 51,
+  "start": 273.371,
+  "end": 278.394,
+  "speaker": "Unknown",
+  "en": "It would make you feel like you limited the blast radius for what could go wrong when that agent is working.",
+  "zh": "这会让你觉得，当智能体在工作时，你已经限制了可能出问题的爆炸半径。"
+ },
+ {
+  "seg": 52,
+  "start": 279.754,
+  "end": 281.395,
+  "speaker": "Unknown",
+  "en": "So this is kind of where sandboxes come in.",
+  "zh": "所以，这大概就是沙箱发挥作用的地方。"
+ },
+ {
+  "seg": 53,
+  "start": 283.196,
+  "end": 285.617,
+  "speaker": "Unknown",
+  "en": "Sandbox is a place for an agent to do work.",
+  "zh": "沙箱是智能体执行工作的地方。"
+ },
+ {
+  "seg": 54,
+  "start": 287.658,
+  "end": 295.883,
+  "speaker": "Unknown",
+  "en": "So our typical sandboxes today, most of us are accustomed to the, yeah, we have code sandboxes.",
+  "zh": "我们今天典型的沙箱，我们大多数人都已经习惯了，是的，我们有代码沙箱。"
+ },
+ {
+  "seg": 55,
+  "start": 295.983,
+  "end": 297.764,
+  "speaker": "Unknown",
+  "en": "We give it a bunch of code.",
+  "zh": "我们给它一堆代码。"
+ },
+ {
+  "seg": 56,
+  "start": 297.964,
+  "end": 299.985,
+  "speaker": "Unknown",
+  "en": "We give it all the tools on our laptop.",
+  "zh": "我们给它笔记本电脑上的所有工具。"
+ },
+ {
+  "seg": 57,
+  "start": 300.085,
+  "end": 305.088,
+  "speaker": "Unknown",
+  "en": "Maybe like when you first started using some of these agents, the sandbox was your entire laptop.",
+  "zh": "也许当你刚开始使用这些智能体时，沙箱就是你的整台笔记本电脑。"
+ },
+ {
+  "seg": 58,
+  "start": 307.128,
+  "end": 311.972,
+  "speaker": "Unknown",
+  "en": "Over time, we're starting to learn how to get that a bit smaller.",
+  "zh": "随着时间推移，我们开始学习如何把它缩小一点。"
+ },
+ {
+  "seg": 59,
+  "start": 311.992,
+  "end": 320.198,
+  "speaker": "Unknown",
+  "en": "We're trying to make the sandbox boundaries small enough that they can actually just do the task that we want them to execute.",
+  "zh": "我们试图把沙箱的边界缩得足够小，让它们真正只执行我们想让它们执行的任务。"
+ },
+ {
+  "seg": 60,
+  "start": 320.618,
+  "end": 328.424,
+  "speaker": "Unknown",
+  "en": "That helps us feel safer about letting the agent run for longer periods of time if this sandbox is smaller.",
+  "zh": "如果这个沙箱更小，这会让我们对让智能体运行更长时间感觉更安全。"
+ },
+ {
+  "seg": 61,
+  "start": 333.372,
+  "end": 336.796,
+  "speaker": "Unknown",
+  "en": "It's not that we're trying to sandbox the harness itself.",
+  "zh": "这并不是说我们要对 harness 本身进行沙箱化。"
+ },
+ {
+  "seg": 62,
+  "start": 337.557,
+  "end": 339.939,
+  "speaker": "Unknown",
+  "en": "The harness is kind of already sandboxed.",
+  "zh": "harness 其实已经被沙箱化了。"
+ },
+ {
+  "seg": 63,
+  "start": 340.14,
+  "end": 341.281,
+  "speaker": "Unknown",
+  "en": "It's a pretty simple thing.",
+  "zh": "它是个相当简单的东西。"
+ },
+ {
+  "seg": 64,
+  "start": 341.621,
+  "end": 346.347,
+  "speaker": "Unknown",
+  "en": "We're trying to harness the tools and the context that are flowing into this harness.",
+  "zh": "我们要做的是约束流入这个 harness 的工具和上下文。"
+ },
+ {
+  "seg": 65,
+  "start": 348.033,
+  "end": 354.377,
+  "speaker": "Unknown",
+  "en": "So in order to kind of illustrate some of these concepts, I came up with two stories that I'm just going to walk you through.",
+  "zh": "为了阐释其中一些概念，我想出了两个故事，我接下来会带你们过一遍。"
+ },
+ {
+  "seg": 66,
+  "start": 354.857,
+  "end": 358.459,
+  "speaker": "Unknown",
+  "en": "The first one is a newsroom analogy.",
+  "zh": "第一个是新闻编辑室的类比。"
+ },
+ {
+  "seg": 67,
+  "start": 359.119,
+  "end": 367.284,
+  "speaker": "Unknown",
+  "en": "So if you've got a newspaper reporter, they go out in the world, they find cool stories, find cool information, they bring it back.",
+  "zh": "如果你有一名报纸记者，他们走进世界，寻找有趣的报道，寻找有趣的信息，然后带回来。"
+ },
+ {
+  "seg": 68,
+  "start": 367.684,
+  "end": 376.569,
+  "speaker": "Unknown",
+  "en": "Maybe someone inside of that agency does some fact checking on that, makes sure the information is right, and then you write a story.",
+  "zh": "也许这个机构内部的某个人对这些信息做一些事实核查，确保信息是正确的，然后你写一篇报道。"
+ },
+ {
+  "seg": 69,
+  "start": 377.717,
+  "end": 381.919,
+  "speaker": "Unknown",
+  "en": "It's totally natural that those roles are completely separate.",
+  "zh": "这些角色完全分开是再自然不过的了。"
+ },
+ {
+  "seg": 70,
+  "start": 382.699,
+  "end": 389.501,
+  "speaker": "Unknown",
+  "en": "The actual reporter is not going to be allowed to publish to the website or write the actual article.",
+  "zh": "真正的记者是不会被允许发布到网站上或撰写实际文章的。"
+ },
+ {
+  "seg": 71,
+  "start": 390.141,
+  "end": 391.142,
+  "speaker": "Unknown",
+  "en": "We break those up.",
+  "zh": "我们把这些职责拆开。"
+ },
+ {
+  "seg": 72,
+  "start": 391.202,
+  "end": 394.403,
+  "speaker": "Unknown",
+  "en": "That's actually how we already build complicated systems.",
+  "zh": "这其实正是我们构建复杂系统的方式。"
+ },
+ {
+  "seg": 73,
+  "start": 394.963,
+  "end": 396.724,
+  "speaker": "Unknown",
+  "en": "We split them up into little pieces.",
+  "zh": "我们把它们拆成小块。"
+ },
+ {
+  "seg": 74,
+  "start": 397.666,
+  "end": 402.789,
+  "speaker": "Unknown",
+  "en": "So on this slide, what you see is I've broken down three sandboxes in blue here.",
+  "zh": "在这张幻灯片上，你看到的是我用蓝色拆分出了三个沙箱。"
+ },
+ {
+  "seg": 75,
+  "start": 403.109,
+  "end": 407.211,
+  "speaker": "Unknown",
+  "en": "So we've got a researcher, we've got a fact checker, and we've got a reporter.",
+  "zh": "我们有一个研究员、一个事实核查员和一个记者。"
+ },
+ {
+  "seg": 76,
+  "start": 408.012,
+  "end": 411.874,
+  "speaker": "Unknown",
+  "en": "So that researcher sandbox, I think about that as the reporter.",
+  "zh": "那个研究员沙箱，我把它看作是记者。"
+ },
+ {
+  "seg": 77,
+  "start": 412.274,
+  "end": 413.915,
+  "speaker": "Unknown",
+  "en": "And when we define that sandbox,",
+  "zh": "当我们定义那个沙箱时，"
+ },
+ {
+  "seg": 78,
+  "start": 414.743,
+  "end": 415.744,
+  "speaker": "Unknown",
+  "en": "Let it access the web.",
+  "zh": "让它访问网络。"
+ },
+ {
+  "seg": 79,
+  "start": 416.404,
+  "end": 425.973,
+  "speaker": "Unknown",
+  "en": "Let it access as much of the internet as we want, because we're not going to give it the MCPs that it can write to our corporate site.",
+  "zh": "让它按我们的意愿访问尽可能多的互联网，因为我们不会给它能写入我们公司网站的 MCP。"
+ },
+ {
+  "seg": 80,
+  "start": 426.013,
+  "end": 427.494,
+  "speaker": "Unknown",
+  "en": "It can't publish anything.",
+  "zh": "它无法发布任何东西。"
+ },
+ {
+  "seg": 81,
+  "start": 428.075,
+  "end": 434,
+  "speaker": "Unknown",
+  "en": "We're just going to let it go out, go crazy, do research.",
+  "zh": "我们只是让它走出去，尽情发挥，做研究。"
+ },
+ {
+  "seg": 82,
+  "start": 434.44,
+  "end": 437.162,
+  "speaker": "Unknown",
+  "en": "So our sandbox is like, yeah, not too many tools.",
+  "zh": "所以我们的沙箱就是，是的，不要太多工具。"
+ },
+ {
+  "seg": 83,
+  "start": 437.202,
+  "end": 440.786,
+  "speaker": "Unknown",
+  "en": "I'm not going to give you too much write access, but definitely do lots of research.",
+  "zh": "我不会给你太多写入权限，但一定要做大量研究。"
+ },
+ {
+  "seg": 84,
+  "start": 441.406,
+  "end": 448.449,
+  "speaker": "Unknown",
+  "en": "Just write your research out to a, I don't know, to some temp directory, some private thing that is local to this agent.",
+  "zh": "只要把你的研究写到一个，我不知道，写到某个临时目录、某个这个智能体本地的私有东西里。"
+ },
+ {
+  "seg": 85,
+  "start": 449.109,
+  "end": 453.071,
+  "speaker": "Unknown",
+  "en": "A fact checker is going to need some MCPs, but it's not going to need any network.",
+  "zh": "事实核查员会需要一些 MCP，但它不需要任何网络。"
+ },
+ {
+  "seg": 86,
+  "start": 454.291,
+  "end": 455.872,
+  "speaker": "Unknown",
+  "en": "So then let's start the fact checker up.",
+  "zh": "那么让我们把事实核查员启动起来。"
+ },
+ {
+  "seg": 87,
+  "start": 455.892,
+  "end": 457.492,
+  "speaker": "Unknown",
+  "en": "Let's put that in a different sandbox.",
+  "zh": "让我们把它放进一个不同的沙箱。"
+ },
+ {
+  "seg": 88,
+  "start": 457.512,
+  "end": 458.773,
+  "speaker": "Unknown",
+  "en": "Let's say no network.",
+  "zh": "假设无网络。"
+ },
+ {
+  "seg": 89,
+  "start": 460.533,
+  "end": 464.195,
+  "speaker": "Unknown",
+  "en": "And you can read the research that's been done for you, and you can fact check it.",
+  "zh": "你可以读取已经为你完成的研究，然后进行事实核查。"
+ },
+ {
+  "seg": 90,
+  "start": 464.795,
+  "end": 467.877,
+  "speaker": "Unknown",
+  "en": "And you can have access to our fact database.",
+  "zh": "你可以访问我们的事实数据库。"
+ },
+ {
+  "seg": 91,
+  "start": 467.917,
+  "end": 468.677,
+  "speaker": "Unknown",
+  "en": "Filter that out.",
+  "zh": "把那些过滤出来。"
+ },
+ {
+  "seg": 92,
+  "start": 469.318,
+  "end": 472.299,
+  "speaker": "Unknown",
+  "en": "And then finally, we get to the little blue thing on the right.",
+  "zh": "最后，我们来看右边那个蓝色的小东西。"
+ },
+ {
+  "seg": 93,
+  "start": 473.62,
+  "end": 477.482,
+  "speaker": "Unknown",
+  "en": "And this certainly doesn't need any access to networks.",
+  "zh": "它当然不需要任何网络访问。"
+ },
+ {
+  "seg": 94,
+  "start": 477.822,
+  "end": 479.003,
+  "speaker": "Unknown",
+  "en": "In fact, it shouldn't have any.",
+  "zh": "事实上，它就不应该有任何网络。"
+ },
+ {
+  "seg": 95,
+  "start": 479.223,
+  "end": 486.007,
+  "speaker": "Unknown",
+  "en": "But we do want to give it our Notion MCP or our Publisher MCP, because it's just looking at filtered research.",
+  "zh": "但我们确实想给它我们的 Notion MCP 或我们的发布 MCP，因为它只查看过滤后的研究。"
+ },
+ {
+  "seg": 96,
+  "start": 487.005,
+  "end": 489.389,
+  "speaker": "Unknown",
+  "en": "So look at this whole slide.",
+  "zh": "所以看看这张完整的幻灯片。"
+ },
+ {
+  "seg": 97,
+  "start": 489.529,
+  "end": 491.552,
+  "speaker": "Unknown",
+  "en": "Draw a box around this entire slide.",
+  "zh": "在这整张幻灯片周围画一个框。"
+ },
+ {
+  "seg": 98,
+  "start": 492.032,
+  "end": 495.738,
+  "speaker": "Unknown",
+  "en": "And that effective agent has a bunch of MCPs.",
+  "zh": "那个有效的智能体就拥有了一堆 MCP。"
+ },
+ {
+  "seg": 99,
+  "start": 495.778,
+  "end": 497.841,
+  "speaker": "Unknown",
+  "en": "Maybe it has an MCP for publishing.",
+  "zh": "也许它有一个用于发布的 MCP。"
+ },
+ {
+  "seg": 100,
+  "start": 497.861,
+  "end": 499.563,
+  "speaker": "Unknown",
+  "en": "It has an MCP for fact checking.",
+  "zh": "它有一个用于事实核查的 MCP。"
+ },
+ {
+  "seg": 101,
+  "start": 500.024,
+  "end": 502.948,
+  "speaker": "Unknown",
+  "en": "At one point in time, it has access to the entire internet.",
+  "zh": "在某个时间点上,它可以访问整个互联网。"
+ },
+ {
+  "seg": 102,
+  "start": 503.969,
+  "end": 506.43,
+  "speaker": "Unknown",
+  "en": "But we break it up into logical sandboxes.",
+  "zh": "但我们把它拆分成逻辑上的沙箱。"
+ },
+ {
+  "seg": 103,
+  "start": 506.47,
+  "end": 519.078,
+  "speaker": "Unknown",
+  "en": "So at each individual point, we don't have a dangerous combination of both being able to read in crazy unfiltered context and do things with our tools.",
+  "zh": "所以在每个单独的时间点,我们都不会出现既能读取疯狂未过滤的上下文、又能用我们的工具做事情的危险组合。"
+ },
+ {
+  "seg": 104,
+  "start": 521.039,
+  "end": 524.3,
+  "speaker": "Unknown",
+  "en": "So let's look at example number two.",
+  "zh": "那么我们来看第二个例子。"
+ },
+ {
+  "seg": 105,
+  "start": 525.121,
+  "end": 527.662,
+  "speaker": "Unknown",
+  "en": "And I'm just going to talk about building a",
+  "zh": "我就要谈谈构建一个"
+ },
+ {
+  "seg": 106,
+  "start": 529.122,
+  "end": 532.165,
+  "speaker": "Unknown",
+  "en": "Actually, this is how I build my coding agent right now.",
+  "zh": "实际上,这就是我现在构建我的编码智能体的方式。"
+ },
+ {
+  "seg": 107,
+  "start": 532.865,
+  "end": 537.63,
+  "speaker": "Unknown",
+  "en": "I tend to send the coding agent off to do pretty long-running tasks.",
+  "zh": "我倾向于把编码智能体派去做相当长时间运行的任务。"
+ },
+ {
+  "seg": 108,
+  "start": 539.231,
+  "end": 542.914,
+  "speaker": "Unknown",
+  "en": "And let's just say that they work for about an hour.",
+  "zh": "我们就说它们大概工作一个小时吧。"
+ },
+ {
+  "seg": 109,
+  "start": 543.655,
+  "end": 550.221,
+  "speaker": "Unknown",
+  "en": "But as the work is happening, I also like it if it just does commit along the way.",
+  "zh": "但在工作进行的过程中,我也喜欢它一路上顺手做提交。"
+ },
+ {
+  "seg": 110,
+  "start": 551.357,
+  "end": 556.241,
+  "speaker": "Unknown",
+  "en": "But the amount of time that my agent is actually committing is almost nothing.",
+  "zh": "但我的智能体实际用来提交的时间几乎为零。"
+ },
+ {
+  "seg": 111,
+  "start": 556.261,
+  "end": 563.726,
+  "speaker": "Unknown",
+  "en": "In an hour, it might need, say, my Git signing keys for like two minutes of that time.",
+  "zh": "在一个小时里,它可能只需要——比如说——我的 Git 签名密钥,大概两分钟。"
+ },
+ {
+  "seg": 112,
+  "start": 565.067,
+  "end": 568.369,
+  "speaker": "Unknown",
+  "en": "And when I'm committing, I need to see my Git commit tree.",
+  "zh": "而当我提交的时候,我需要看到我的 Git 提交树。"
+ },
+ {
+  "seg": 113,
+  "start": 568.91,
+  "end": 570.091,
+  "speaker": "Unknown",
+  "en": "I need to make that commit.",
+  "zh": "我需要做出那次提交。"
+ },
+ {
+  "seg": 114,
+  "start": 570.131,
+  "end": 571.171,
+  "speaker": "Unknown",
+  "en": "I need some signing keys.",
+  "zh": "我需要一些签名密钥。"
+ },
+ {
+  "seg": 115,
+  "start": 571.231,
+  "end": 572.392,
+  "speaker": "Unknown",
+  "en": "But I don't need anything else.",
+  "zh": "但我不需要其他任何东西。"
+ },
+ {
+  "seg": 116,
+  "start": 573.573,
+  "end": 575.194,
+  "speaker": "Unknown",
+  "en": "So I would like it if",
+  "zh": "所以我希望"
+ },
+ {
+  "seg": 117,
+  "start": 576.673,
+  "end": 584.055,
+  "speaker": "Unknown",
+  "en": "The actual sandbox that an agent is running a task in is modeled after the intent of what I'm doing.",
+  "zh": "智能体在其中运行任务的那个沙箱,是按照我正在做的事情的意图来建模的。"
+ },
+ {
+  "seg": 118,
+  "start": 584.796,
+  "end": 591.758,
+  "speaker": "Unknown",
+  "en": "So if I'm not going to make a commit, I don't want my commit signatures, my commit signing keys inside that sandbox.",
+  "zh": "所以如果我不打算做提交,我就不希望我的提交签名、我的提交签名密钥出现在那个沙箱里。"
+ },
+ {
+  "seg": 119,
+  "start": 592.878,
+  "end": 597.56,
+  "speaker": "Unknown",
+  "en": "And I think this you can map across a lot of different tasks.",
+  "zh": "我认为这一点可以映射到很多不同的任务上。"
+ },
+ {
+  "seg": 120,
+  "start": 598.46,
+  "end": 606.323,
+  "speaker": "Unknown",
+  "en": "If your agents know the intent of what you're trying to do, then use that intent to model the capabilities that you give to that.",
+  "zh": "如果你的智能体知道你想做什么的意图,那就用那个意图来建模你赋予它的能力。"
+ },
+ {
+  "seg": 121,
+  "start": 607.649,
+  "end": 617.852,
+  "speaker": "Unknown",
+  "en": "So this is driving, in our Docker Sandbox product, this is defining a lot of how we're thinking about exposing things like an MCP gateway.",
+  "zh": "所以这正是——在我们的 Docker Sandbox 产品里——这定义了我们思考如何暴露诸如 MCP 网关之类东西的很多方式。"
+ },
+ {
+  "seg": 122,
+  "start": 618.652,
+  "end": 623.934,
+  "speaker": "Unknown",
+  "en": "So when you build a sandbox, of course you have to put a harness in that to do things for you.",
+  "zh": "所以当你构建一个沙箱时,你当然得在里面放一个工具套件来替你做事。"
+ },
+ {
+  "seg": 123,
+  "start": 624.494,
+  "end": 629.135,
+  "speaker": "Unknown",
+  "en": "And then we're just putting a little gateway endpoint into that.",
+  "zh": "然后我们只是往里面放一个小的网关端点。"
+ },
+ {
+  "seg": 124,
+  "start": 630.456,
+  "end": 633.697,
+  "speaker": "Unknown",
+  "en": "And that gateway endpoint funnels all MCP traffic.",
+  "zh": "而那个网关端点汇聚所有的 MCP 流量。"
+ },
+ {
+  "seg": 125,
+  "start": 634.523,
+  "end": 655.979,
+  "speaker": "Unknown",
+  "en": "So imagine it's something like an internal URL, mcpgateway.docker.internal, or something like this, that every single agent harness has, and all traffic, all resources that you need to pull in, all tool calls, move through this one single gateway.",
+  "zh": "所以想象它是类似一个内部 URL,mcpgateway.docker.internal 之类的,每一个智能体工具套件都有这么一个,所有流量、所有你需要拉取的资源、所有工具调用,都经过这一个单一的网关。"
+ },
+ {
+  "seg": 126,
+  "start": 657.68,
+  "end": 658.521,
+  "speaker": "Unknown",
+  "en": "So what is this bias?",
+  "zh": "那么这个偏向是什么?"
+ },
+ {
+  "seg": 127,
+  "start": 660.336,
+  "end": 661.697,
+  "speaker": "Unknown",
+  "en": "We end up with a control point.",
+  "zh": "我们最终得到了一个控制点。"
+ },
+ {
+  "seg": 128,
+  "start": 662.057,
+  "end": 666.34,
+  "speaker": "Unknown",
+  "en": "So the gateway manages which tools, resources, and prompts are given to each sandbox.",
+  "zh": "所以这个网关管理哪些工具、资源和提示词被给予每个沙箱。"
+ },
+ {
+  "seg": 129,
+  "start": 666.9,
+  "end": 672.463,
+  "speaker": "Unknown",
+  "en": "So you're starting to see the beginnings of your ability to say, OK, I'm giving you a harness.",
+  "zh": "于是你开始看到你掌控能力的雏形,可以说,好,我给你一个工具套件。"
+ },
+ {
+  "seg": 130,
+  "start": 672.723,
+  "end": 675.605,
+  "speaker": "Unknown",
+  "en": "I'm giving you this gateway endpoint.",
+  "zh": "我给你这个网关端点。"
+ },
+ {
+  "seg": 131,
+  "start": 676.486,
+  "end": 682.99,
+  "speaker": "Unknown",
+  "en": "The configuration of the sandbox controls what you can do inside of that sandbox with things like MCP.",
+  "zh": "沙箱的配置控制你在那个沙箱内能用 MCP 之类的东西做什么。"
+ },
+ {
+  "seg": 132,
+  "start": 683.85,
+  "end": 688.433,
+  "speaker": "Unknown",
+  "en": "Another nice thing is suddenly all your harnesses are MCP agnostic.",
+  "zh": "另一个好处是,你所有的工具套件突然都变成了 MCP 无关的。"
+ },
+ {
+  "seg": 133,
+  "start": 689.3,
+  "end": 696.669,
+  "speaker": "Unknown",
+  "en": "So you don't have to go to Codex and configure your MCPs one way and go to Claude Code and configure your MCPs one way.",
+  "zh": "所以你不必去 Codex 用一种方式配置你的 MCP,再去 Claude Code 用另一种方式配置你的 MCP。"
+ },
+ {
+  "seg": 134,
+  "start": 696.689,
+  "end": 701.134,
+  "speaker": "Unknown",
+  "en": "You just have one, you almost make the harness a parameter of the sandbox.",
+  "zh": "你只需要一套,你几乎让工具套件变成了沙箱的一个参数。"
+ },
+ {
+  "seg": 135,
+  "start": 701.795,
+  "end": 707.823,
+  "speaker": "Unknown",
+  "en": "Stick a harness in, stick the MCPs you need in, give it some network rules, Bob's your uncle.",
+  "zh": "放进一个工具套件,放进你需要的 MCP,给它一些网络规则,这样就大功告成了。"
+ },
+ {
+  "seg": 136,
+  "start": 709.817,
+  "end": 716.081,
+  "speaker": "Unknown",
+  "en": "So it feels that MCP is a good place to manage things like credentials.",
+  "zh": "所以感觉 MCP 是管理诸如凭证之类东西的好地方。"
+ },
+ {
+  "seg": 137,
+  "start": 716.462,
+  "end": 724.947,
+  "speaker": "Unknown",
+  "en": "In fact, I would say that a maxim that you can use here is how many credentials should be in a sandbox?",
+  "zh": "事实上,我想说你可以在这里使用的一个准则是:一个沙箱里应该有多少凭证?"
+ },
+ {
+  "seg": 138,
+  "start": 725.428,
+  "end": 729.47,
+  "speaker": "Unknown",
+  "en": "Well, I mean, the right answer is always zero.",
+  "zh": "嗯,我的意思是,正确的答案永远是零。"
+ },
+ {
+  "seg": 139,
+  "start": 729.53,
+  "end": 731.272,
+  "speaker": "Unknown",
+  "en": "They should just never be in there.",
+  "zh": "它们就根本不应该在里面。"
+ },
+ {
+  "seg": 140,
+  "start": 732.319,
+  "end": 743.55,
+  "speaker": "Unknown",
+  "en": "And the blast radius of an agent doing something incorrect if there are absolutely no credentials in there is reduced.",
+  "zh": "而且如果里面绝对没有任何凭证,一个智能体做出错误行为的爆炸半径就缩小了。"
+ },
+ {
+  "seg": 141,
+  "start": 744.66,
+  "end": 753.667,
+  "speaker": "Unknown",
+  "en": "So one of the things that Docker, Anthropic, Okta are all partnering on is a new thing called XAA, Cross App Application.",
+  "zh": "所以 Docker、Anthropic、Okta 都在合作的一个新东西叫 XAA,跨应用应用。"
+ },
+ {
+  "seg": 142,
+  "start": 754.488,
+  "end": 762.394,
+  "speaker": "Unknown",
+  "en": "And I think this is a really great illustration of why sandboxes and managing credentials in this way is important.",
+  "zh": "我认为这是沙箱以及以这种方式管理凭证为什么重要的一个非常好的例证。"
+ },
+ {
+  "seg": 143,
+  "start": 766.761,
+  "end": 768.702,
+  "speaker": "Unknown",
+  "en": "You're working at your companies.",
+  "zh": "你在你的公司里工作。"
+ },
+ {
+  "seg": 144,
+  "start": 768.722,
+  "end": 770.523,
+  "speaker": "Unknown",
+  "en": "You have some sort of identity management.",
+  "zh": "你有某种身份管理。"
+ },
+ {
+  "seg": 145,
+  "start": 770.543,
+  "end": 771.824,
+  "speaker": "Unknown",
+  "en": "You have SSO set up.",
+  "zh": "你设置好了 SSO。"
+ },
+ {
+  "seg": 146,
+  "start": 772.204,
+  "end": 778.107,
+  "speaker": "Unknown",
+  "en": "And you've got all these resource servers that you work with for OAuth.",
+  "zh": "而且你有一大堆用于 OAuth 的资源服务器要打交道。"
+ },
+ {
+  "seg": 147,
+  "start": 778.187,
+  "end": 783.731,
+  "speaker": "Unknown",
+  "en": "It could be Notion, or it could be Atlassian, or GitHub, or Slack.",
+  "zh": "可能是 Notion,或者 Atlassian,或者 GitHub,或者 Slack。"
+ },
+ {
+  "seg": 148,
+  "start": 784.111,
+  "end": 786.112,
+  "speaker": "Unknown",
+  "en": "You've already configured SSO for those.",
+  "zh": "你已经为那些配置好了 SSO。"
+ },
+ {
+  "seg": 149,
+  "start": 787.533,
+  "end": 790.315,
+  "speaker": "Unknown",
+  "en": "But it's not yet accessible to your agent.",
+  "zh": "但它还没有对你的智能体开放访问。"
+ },
+ {
+  "seg": 150,
+  "start": 791.996,
+  "end": 794.958,
+  "speaker": "Unknown",
+  "en": "So with the cross-app application scenario,",
+  "zh": "所以在跨应用的应用场景中，"
+ },
+ {
+  "seg": 151,
+  "start": 795.693,
+  "end": 807.803,
+  "speaker": "Unknown",
+  "en": "Your harness, your sandbox, and your gateway can define things like agent identity or who are you that this agent is behaving on behalf of.",
+  "zh": "你的 harness、你的沙箱和你的网关可以定义诸如智能体身份之类的东西，或者这个智能体代表的是谁。"
+ },
+ {
+  "seg": 152,
+  "start": 808.744,
+  "end": 814.709,
+  "speaker": "Unknown",
+  "en": "And by exchanging identity claims with your identity provider, which is already there,",
+  "zh": "通过与你已有的身份提供方交换身份声明，"
+ },
+ {
+  "seg": 153,
+  "start": 816.396,
+  "end": 825.562,
+  "speaker": "Unknown",
+  "en": "You can get back a new thing, which is a new part of this spec that you'll now see in the latest version of MCP called an IDJAG, an authorization grant.",
+  "zh": "你可以得到一个新东西，也就是这个规范的一个新部分，你现在会在最新版本的 MCP 中看到它，叫做 IDJAG，一种授权许可。"
+ },
+ {
+  "seg": 154,
+  "start": 826.923,
+  "end": 831.667,
+  "speaker": "Unknown",
+  "en": "And with that authorization grant, we're granting access to this actor, to this agent,",
+  "zh": "有了那个授权许可，我们就是把这个执行者、这个智能体，"
+ },
+ {
+  "seg": 155,
+  "start": 834.638,
+  "end": 837.659,
+  "speaker": "Unknown",
+  "en": "to the same authorization servers that you've been using.",
+  "zh": "授权给你一直在使用的同一批授权服务器。"
+ },
+ {
+  "seg": 156,
+  "start": 837.679,
+  "end": 838.659,
+  "speaker": "Unknown",
+  "en": "There's nothing new here.",
+  "zh": "这里没有什么新东西。"
+ },
+ {
+  "seg": 157,
+  "start": 838.699,
+  "end": 845.2,
+  "speaker": "Unknown",
+  "en": "We're leveraging all this existing investment that these corporate networks already have.",
+  "zh": "我们是在利用这些企业网络已有的全部投入。"
+ },
+ {
+  "seg": 158,
+  "start": 845.62,
+  "end": 859.324,
+  "speaker": "Unknown",
+  "en": "But suddenly, without any crazy consent screens, yeah, you can do that, yeah, you can do that, yeah, you can do that, we can centralize the administration of what an agent now does with all these existing resource servers.",
+  "zh": "但突然之间，不需要任何疯狂的授权确认弹窗，对，你可以这样做，对，你可以这样做，对，你可以这样做，我们就可以集中管理一个智能体现在对所有这些现有资源服务器做什么。"
+ },
+ {
+  "seg": 159,
+  "start": 859.424,
+  "end": 860.804,
+  "speaker": "Unknown",
+  "en": "It's a huge simplification.",
+  "zh": "这是一个巨大的简化。"
+ },
+ {
+  "seg": 160,
+  "start": 863.436,
+  "end": 870.765,
+  "speaker": "Unknown",
+  "en": "So the MCP gateways, I like to think are, we're starting to talk about progressive disclosure, it's a term we learned from skills.",
+  "zh": "所以我喜欢这样想 MCP 网关：我们开始谈论渐进式披露，这是我们从 skills 那里学到的一个术语。"
+ },
+ {
+  "seg": 161,
+  "start": 871.005,
+  "end": 881.618,
+  "speaker": "Unknown",
+  "en": "I like to think we're starting to use this, now we're able to progressively disclose tools and resources and MCPs into these sandboxes using very, very similar principles.",
+  "zh": "我们逐渐习惯于对能力建模，为任务构建合适的沙箱，把任务放进去，而现在我们开始看到，这个单独的循环更安全，因为它拥有的访问权限比整个工作流实际拥有的要少。"
+ },
+ {
+  "seg": 162,
+  "start": 882.359,
+  "end": 895.271,
+  "speaker": "Unknown",
+  "en": "And, of course, it's amazing because we keep context size down just because you might at some point in a workflow use 50 different MCPs doesn't mean that each sandbox has to have all 50 of those MCPs.",
+  "zh": "当然，这很棒，因为我们把上下文大小保持在较低水平——你在某个工作流中的某个时点可能用到 50 个不同的 MCP，并不意味着每个沙箱都必须包含全部 50 个 MCP。"
+ },
+ {
+  "seg": 163,
+  "start": 896.232,
+  "end": 903.339,
+  "speaker": "Unknown",
+  "en": "Give your agents room to solve problems, but let individual sandboxes represent the intent of the task.",
+  "zh": "给你的智能体解决问题的空间，但让单个沙箱表达任务的意图。"
+ },
+ {
+  "seg": 164,
+  "start": 903.799,
+  "end": 906.842,
+  "speaker": "Unknown",
+  "en": "Let them represent what you're actually trying to do in this task.",
+  "zh": "让它们表达你在这个任务中真正想做的事情。"
+ },
+ {
+  "seg": 165,
+  "start": 909.077,
+  "end": 916.461,
+  "speaker": "Unknown",
+  "en": "So I like this picture because suddenly we start to think about orchestrators as one of their jobs is to go, well, what am I doing?",
+  "zh": "所以我喜欢这张图，因为突然之间我们开始把编排器的职责之一看作是去思考：我在做什么？"
+ },
+ {
+  "seg": 166,
+  "start": 916.581,
+  "end": 917.421,
+  "speaker": "Unknown",
+  "en": "What's my task?",
+  "zh": "我的任务是什么？"
+ },
+ {
+  "seg": 167,
+  "start": 918.222,
+  "end": 920.923,
+  "speaker": "Unknown",
+  "en": "And I need to put a task into a sandbox.",
+  "zh": "而我需要把一个任务放进一个沙箱。"
+ },
+ {
+  "seg": 168,
+  "start": 921.463,
+  "end": 923.304,
+  "speaker": "Unknown",
+  "en": "So what sandbox do I put it in?",
+  "zh": "那么我该把它放进什么样的沙箱？"
+ },
+ {
+  "seg": 169,
+  "start": 923.785,
+  "end": 925.946,
+  "speaker": "Unknown",
+  "en": "What capabilities does this need?",
+  "zh": "这需要什么能力？"
+ },
+ {
+  "seg": 170,
+  "start": 927.104,
+  "end": 928.625,
+  "speaker": "Unknown",
+  "en": "And, of course, it needs a harness.",
+  "zh": "当然，它需要一个 harness。"
+ },
+ {
+  "seg": 171,
+  "start": 928.925,
+  "end": 933.487,
+  "speaker": "Unknown",
+  "en": "Like, put in OpenCode, put in Claude, put in Gemini, put in Codex.",
+  "zh": "比如，放入 OpenCode，放入 Claude，放入 Gemini，放入 Codex。"
+ },
+ {
+  "seg": 172,
+  "start": 934.107,
+  "end": 935.568,
+  "speaker": "Unknown",
+  "en": "It's going to need some MCPs.",
+  "zh": "它会需要一些 MCP。"
+ },
+ {
+  "seg": 173,
+  "start": 936.008,
+  "end": 937.049,
+  "speaker": "Unknown",
+  "en": "Take a look at the task.",
+  "zh": "看一下这个任务。"
+ },
+ {
+  "seg": 174,
+  "start": 937.129,
+  "end": 939.85,
+  "speaker": "Unknown",
+  "en": "Decide what MCPs are allowed to be used in this.",
+  "zh": "决定哪些 MCP 被允许在其中使用。"
+ },
+ {
+  "seg": 175,
+  "start": 941.391,
+  "end": 943.251,
+  "speaker": "Unknown",
+  "en": "What networking rules should you apply?",
+  "zh": "应该应用什么网络规则？"
+ },
+ {
+  "seg": 176,
+  "start": 943.412,
+  "end": 946.573,
+  "speaker": "Unknown",
+  "en": "Does this need access to API.Github.com?",
+  "zh": "它需要访问 API.Github.com 吗？"
+ },
+ {
+  "seg": 177,
+  "start": 946.593,
+  "end": 949.554,
+  "speaker": "Unknown",
+  "en": "Does it need access to surf the web in random ways?",
+  "zh": "它需要以随机方式浏览网页吗？"
+ },
+ {
+  "seg": 178,
+  "start": 949.614,
+  "end": 950.735,
+  "speaker": "Unknown",
+  "en": "Or does it just need nothing?",
+  "zh": "还是它什么都不需要？"
+ },
+ {
+  "seg": 179,
+  "start": 951.804,
+  "end": 952.625,
+  "speaker": "Unknown",
+  "en": "What resources?",
+  "zh": "什么资源？"
+ },
+ {
+  "seg": 180,
+  "start": 952.665,
+  "end": 953.465,
+  "speaker": "Unknown",
+  "en": "What work trees?",
+  "zh": "什么工作树？"
+ },
+ {
+  "seg": 181,
+  "start": 954.326,
+  "end": 972.642,
+  "speaker": "Unknown",
+  "en": "We get used to thinking about modeling capabilities, building the right sandbox for the task, putting the task in, and now we're starting to see that this individual loop is safer because it has less access than the entire workflow effectively has.",
+  "zh": "我们习惯于考虑建模能力、为任务构建合适的沙箱、把任务放进去,而现在我们开始看到,这个个体循环更安全,因为它拥有的访问权限比整个工作流实际拥有的要少。"
+ },
+ {
+  "seg": 182,
+  "start": 973.342,
+  "end": 975.984,
+  "speaker": "Unknown",
+  "en": "So this is about containers.",
+  "zh": "所以这是关于容器的。"
+ },
+ {
+  "seg": 183,
+  "start": 976.185,
+  "end": 979.167,
+  "speaker": "Unknown",
+  "en": "This is about containerizing agents, which is why",
+  "zh": "这是关于把智能体容器化，这就是为什么"
+ },
+ {
+  "seg": 184,
+  "start": 980.68,
+  "end": 982.826,
+  "speaker": "Unknown",
+  "en": "I guess is why I'm at Docker.",
+  "zh": "我猜这就是我在 Docker 的原因。"
+ },
+ {
+  "seg": 185,
+  "start": 983.995,
+  "end": 987.277,
+  "speaker": "Unknown",
+  "en": "But this ties together as a kind of like role separation.",
+  "zh": "但这以一种类似角色分离的方式结合在一起。"
+ },
+ {
+  "seg": 186,
+  "start": 987.438,
+  "end": 990.14,
+  "speaker": "Unknown",
+  "en": "What are the roles that your agents have?",
+  "zh": "你的智能体有哪些角色？"
+ },
+ {
+  "seg": 187,
+  "start": 990.46,
+  "end": 996.484,
+  "speaker": "Unknown",
+  "en": "How do you map them and containerize them and make sure that you're giving them sandboxes that express that intent?",
+  "zh": "你如何映射它们、把它们容器化，并确保你给它们的沙箱表达了那个意图？"
+ },
+ {
+  "seg": 188,
+  "start": 997.285,
+  "end": 1001.248,
+  "speaker": "Unknown",
+  "en": "Never have any creds anywhere in any harnesses.",
+  "zh": "任何凭据都绝不出现在任何 harness 中的任何地方。"
+ },
+ {
+  "seg": 189,
+  "start": 1001.949,
+  "end": 1006.332,
+  "speaker": "Unknown",
+  "en": "Disclose capabilities progressively into agents as they need them.",
+  "zh": "随着智能体的需要，渐进式地披露能力。"
+ },
+ {
+  "seg": 190,
+  "start": 1007.012,
+  "end": 1011.175,
+  "speaker": "Unknown",
+  "en": "The sandboxes for you are what actually represent intent.",
+  "zh": "沙箱对你们来说才是真正表达意图的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 1012.248,
+  "end": 1019.663,
+  "speaker": "Unknown",
+  "en": "And if we allow some of these things to run longer, but they're more sandboxed, we feel a little bit safer about that.",
+  "zh": "如果我们允许其中一些东西运行更长时间，但它们被更多地沙箱化，我们对此会感觉更安心一点。"
+ },
+ {
+  "seg": 192,
+  "start": 1020.725,
+  "end": 1022.087,
+  "speaker": "Unknown",
+  "en": "This is where safety comes from.",
+  "zh": "这就是安全性的来源。"
+ },
+ {
+  "seg": 193,
+  "start": 1024.465,
+  "end": 1025.306,
+  "speaker": "Unknown",
+  "en": "We have a demo.",
+  "zh": "我们有一个演示。"
+ },
+ {
+  "seg": 194,
+  "start": 1025.426,
+  "end": 1030.65,
+  "speaker": "Unknown",
+  "en": "Our EVP of engineering, Tushar Jain, has got a talk upstairs today.",
+  "zh": "我们的工程执行副总裁 Tushar Jain 今天在楼上有一场演讲。"
+ },
+ {
+  "seg": 195,
+  "start": 1030.67,
+  "end": 1032.111,
+  "speaker": "Unknown",
+  "en": "I think it's at 4 o'clock.",
+  "zh": "我记得是在 4 点钟。"
+ },
+ {
+  "seg": 196,
+  "start": 1032.431,
+  "end": 1035.593,
+  "speaker": "Unknown",
+  "en": "And he's taking a lot of these ideas and just demo, demo, demo.",
+  "zh": "他会把这些想法中的很多拿出来，就是演示、演示、再演示。"
+ },
+ {
+  "seg": 197,
+  "start": 1035.893,
+  "end": 1038.735,
+  "speaker": "Unknown",
+  "en": "How do you move sandboxes to the cloud?",
+  "zh": "如何把沙箱迁移到云端？"
+ },
+ {
+  "seg": 198,
+  "start": 1038.796,
+  "end": 1039.976,
+  "speaker": "Unknown",
+  "en": "How do you build orchestrators?",
+  "zh": "如何构建编排器？"
+ },
+ {
+  "seg": 199,
+  "start": 1039.996,
+  "end": 1042.738,
+  "speaker": "Unknown",
+  "en": "He'll be really showing a lot of these things live.",
+  "zh": "他会真正现场展示很多这些东西。"
+ },
+ {
+  "seg": 200,
+  "start": 1042.979,
+  "end": 1044.7,
+  "speaker": "Unknown",
+  "en": "We also have a booth over here.",
+  "zh": "我们在这里还有一个展位。"
+ },
+ {
+  "seg": 201,
+  "start": 1046.101,
+  "end": 1047.922,
+  "speaker": "Unknown",
+  "en": "It's a great opportunity to come over.",
+  "zh": "这是一个很好的机会，欢迎过来。"
+ },
+ {
+  "seg": 202,
+  "start": 1047.942,
+  "end": 1050.304,
+  "speaker": "Unknown",
+  "en": "If you're interested in any of this stuff, we can show you the command line.",
+  "zh": "如果你对这些东西中的任何一个感兴趣，我们可以给你演示命令行。"
+ },
+ {
+  "seg": 203,
+  "start": 1050.324,
+  "end": 1051.165,
+  "speaker": "Unknown",
+  "en": "It's available today.",
+  "zh": "它现在就可以使用了。"
+ },
+ {
+  "seg": 204,
+  "start": 1051.845,
+  "end": 1054.908,
+  "speaker": "Unknown",
+  "en": "Anyone just brew install SBX.",
+  "zh": "任何人只需 brew install SBX。"
+ },
+ {
+  "seg": 205,
+  "start": 1055.549,
+  "end": 1059.093,
+  "speaker": "Unknown",
+  "en": "Everything I've been talking about today is this tool SBX.",
+  "zh": "我今天讲的一切都是关于这个工具 SBX 的。"
+ },
+ {
+  "seg": 206,
+  "start": 1059.373,
+  "end": 1063.377,
+  "speaker": "Unknown",
+  "en": "This is how we build containers.",
+  "zh": "这就是我们构建容器的方式。"
+ },
+ {
+  "seg": 207,
+  "start": 1063.397,
+  "end": 1067.682,
+  "speaker": "Unknown",
+  "en": "So yeah, please come over and talk to us at the booth.",
+  "zh": "所以，欢迎来展位和我们聊聊。"
+ },
+ {
+  "seg": 208,
+  "start": 1067.742,
+  "end": 1072.807,
+  "speaker": "Unknown",
+  "en": "We'd love to hear what you're doing with AI safety and how we might be able to help.",
+  "zh": "我们很乐意听听你在 AI 安全方面做的事情，以及我们能如何帮上忙。"
+ },
+ {
+  "seg": 209,
+  "start": 1074.008,
+  "end": 1074.549,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 210,
+  "start": 1083.87,
+  "end": 1084.897,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -1,0 +1,1170 @@
+[
+ {
+  "seg": 0,
+  "start": 12.558,
+  "end": 13.378,
+  "speaker": "Unknown",
+  "en": "My name is Sheila.",
+  "zh": "我叫 Sheila。"
+ },
+ {
+  "seg": 1,
+  "start": 13.678,
+  "end": 25.622,
+  "speaker": "Unknown",
+  "en": "I'm a DA at Akamai, and we're here today to discuss the topic, speculative decoding, and how you can figure out whether it's worth enabling for your workloads.",
+  "zh": "我是 Akamai 的 DA,今天我们在这里讨论的主题是投机解码,以及你如何判断对你的工作负载来说启用它是否值得。"
+ },
+ {
+  "seg": 2,
+  "start": 28.342,
+  "end": 29.103,
+  "speaker": "Unknown",
+  "en": "I'm a little anxious.",
+  "zh": "我有点紧张。"
+ },
+ {
+  "seg": 3,
+  "start": 36.085,
+  "end": 36.465,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 4,
+  "start": 39.534,
+  "end": 43.918,
+  "speaker": "Unknown",
+  "en": "So typically when you ask LLM a question, there are usually two phases that happen under the hood.",
+  "zh": "所以通常当你向 LLM 提问时,底层通常会发生两个阶段。"
+ },
+ {
+  "seg": 5,
+  "start": 43.998,
+  "end": 55.708,
+  "speaker": "Unknown",
+  "en": "The first is the model will read your prompt, process all the input tokens, and then build what is known as the KVCache, which is essentially the model's working memory for the rest of the request.",
+  "zh": "第一个是模型会读取你的 prompt,处理所有输入 token,然后构建所谓的 KVCache,它本质上是模型在请求剩余部分中的工作记忆。"
+ },
+ {
+  "seg": 6,
+  "start": 55.848,
+  "end": 57.129,
+  "speaker": "Unknown",
+  "en": "And this happens only once.",
+  "zh": "而且这只发生一次。"
+ },
+ {
+  "seg": 7,
+  "start": 57.97,
+  "end": 62.794,
+  "speaker": "Unknown",
+  "en": "And then you have the decoding phase which is when the model starts to actually write the answer.",
+  "zh": "然后是解码阶段,也就是模型开始真正写出答案的时候。"
+ },
+ {
+  "seg": 8,
+  "start": 64.055,
+  "end": 69.018,
+  "speaker": "Unknown",
+  "en": "Because every token depends on the previous tokens, this process usually happens one at a time.",
+  "zh": "因为每个 token 都依赖于之前的 token,所以这个过程通常是一次一个地进行。"
+ },
+ {
+  "seg": 9,
+  "start": 70.779,
+  "end": 75.543,
+  "speaker": "Unknown",
+  "en": "And so imagine you're deploying an application that uses a big model like Llama 70 billion model.",
+  "zh": "那么想象一下,你正在部署一个使用大模型的应用,比如 Llama 700 亿参数模型。"
+ },
+ {
+  "seg": 10,
+  "start": 76.664,
+  "end": 78.245,
+  "speaker": "Unknown",
+  "en": "Typically like this would require like",
+  "zh": "通常来说,比如这会需要比如"
+ },
+ {
+  "seg": 11,
+  "start": 79.488,
+  "end": 84.412,
+  "speaker": "Unknown",
+  "en": "Even up to hundreds, forward passes on the model, and this is a very expensive process, right?",
+  "zh": "多达数百次对模型的前向传播,而这是一个非常昂贵的过程,对吧?"
+ },
+ {
+  "seg": 12,
+  "start": 84.913,
+  "end": 98.104,
+  "speaker": "Unknown",
+  "en": "And it can cause a lot of latency for your user applications, which brings a question of like, what if you didn't have to use your bigger model to handle the token generation?",
+  "zh": "它还会给你的用户应用带来大量延迟,这就引出了一个问题,比如,如果你不必使用更大的模型来处理 token 生成会怎样?"
+ },
+ {
+  "seg": 13,
+  "start": 98.164,
+  "end": 104.289,
+  "speaker": "Unknown",
+  "en": "What if you used a smaller model to do some of that guesswork, to speculate on a couple",
+  "zh": "如果你用一个小模型来做一部分猜测工作,去推测几个"
+ },
+ {
+  "seg": 14,
+  "start": 105.09,
+  "end": 114.638,
+  "speaker": "Unknown",
+  "en": "Tokens, which is still an autoregressive process, but the whole point is because it's smaller, it's a faster process, so it would be a cheaper process.",
+  "zh": "token,这仍然是一个自回归过程,但关键在于因为模型更小,所以这个过程更快,因此也会是一个更便宜的过程。"
+ },
+ {
+  "seg": 15,
+  "start": 114.678,
+  "end": 123.526,
+  "speaker": "Unknown",
+  "en": "The output is still the same because the target model, the main model that has the accuracy still has to verify the tokens and it does this in one forward pass.",
+  "zh": "输出仍然是相同的,因为目标模型,即那个拥有准确性的主模型,仍然必须验证这些 token,而且它是在一次前向传播中完成验证的。"
+ },
+ {
+  "seg": 16,
+  "start": 124.447,
+  "end": 126.749,
+  "speaker": "Unknown",
+  "en": "So that's the idea behind speculative decoding.",
+  "zh": "这就是投机解码背后的思想。"
+ },
+ {
+  "seg": 17,
+  "start": 129.823,
+  "end": 131.163,
+  "speaker": "Unknown",
+  "en": "I'll just leave this here for a second.",
+  "zh": "我先把这个放这儿一会儿。"
+ },
+ {
+  "seg": 18,
+  "start": 131.203,
+  "end": 136.425,
+  "speaker": "Unknown",
+  "en": "So as I said, you have a small model which generates token.",
+  "zh": "所以正如我所说,你有一个小模型来生成 token。"
+ },
+ {
+  "seg": 19,
+  "start": 136.465,
+  "end": 139.166,
+  "speaker": "Unknown",
+  "en": "Typically, you can set it between three to five for each cycle.",
+  "zh": "通常,你可以在每个周期设置三到五个。"
+ },
+ {
+  "seg": 20,
+  "start": 139.666,
+  "end": 146.189,
+  "speaker": "Unknown",
+  "en": "The target model would handle the predictions, like be able to scale, like basically approve or reject it.",
+  "zh": "目标模型会处理预测,比如能够进行扩展,基本上就是批准或拒绝它们。"
+ },
+ {
+  "seg": 21,
+  "start": 147.289,
+  "end": 155.472,
+  "speaker": "Unknown",
+  "en": "And then for all the for the tokens that are rejected, the target model would recompute the token for that.",
+  "zh": "然后对于所有被拒绝的 token,目标模型会为它们重新计算 token。"
+ },
+ {
+  "seg": 22,
+  "start": 157.605,
+  "end": 159.887,
+  "speaker": "Unknown",
+  "en": "So this process, it's great.",
+  "zh": "这个过程非常棒。"
+ },
+ {
+  "seg": 23,
+  "start": 159.947,
+  "end": 163.089,
+  "speaker": "Unknown",
+  "en": "It can save you a lot in terms of inference generation, but it's not",
+  "zh": "它可以在推理生成方面为你节省很多,但它并不是"
+ },
+ {
+  "seg": 24,
+  "start": 164.21,
+  "end": 164.51,
+  "speaker": "Unknown",
+  "en": "Free.",
+  "zh": "免费的。"
+ },
+ {
+  "seg": 25,
+  "start": 165.191,
+  "end": 170.533,
+  "speaker": "Unknown",
+  "en": "Because you're hosting now two models, you have to account for the memory required to host that second model.",
+  "zh": "因为你现在要托管两个模型,你必须把托管第二个模型所需的内存考虑进去。"
+ },
+ {
+  "seg": 26,
+  "start": 170.973,
+  "end": 178.517,
+  "speaker": "Unknown",
+  "en": "Not that much since it's a smaller model, but you also have to allocate extra space for the KV cache for both models.",
+  "zh": "虽然因为它是更小的模型所以占用不多,但你还需要为两个模型的 KV 缓存分配额外空间。"
+ },
+ {
+  "seg": 27,
+  "start": 180.018,
+  "end": 187.942,
+  "speaker": "Unknown",
+  "en": "Yeah, so typically you would consider running speculative decoding when you have extra space in GPU.",
+  "zh": "是的,所以通常当你有多余的 GPU 空间时,你会考虑运行投机解码。"
+ },
+ {
+  "seg": 28,
+  "start": 187.962,
+  "end": 189.463,
+  "speaker": "Unknown",
+  "en": "For example, if your workload is",
+  "zh": "例如,如果你的工作负载是"
+ },
+ {
+  "seg": 29,
+  "start": 190.043,
+  "end": 203.414,
+  "speaker": "Unknown",
+  "en": "High concurrency, your GPUs are probably already busy trying to run all the requests, so it wouldn't make sense to implement speculative decoding, but if you have extra GPU space, it's worth considering, but I will talk about how to evaluate whether it's worth.",
+  "zh": "高并发,你的 GPU 可能已经很忙于处理所有请求了,那么实现投机解码就没有意义,但如果你有多余的 GPU 空间,就值得考虑,不过我会讲如何评估它是否值得。"
+ },
+ {
+  "seg": 30,
+  "start": 205.356,
+  "end": 208.539,
+  "speaker": "Unknown",
+  "en": "And the first question is choosing the draft model.",
+  "zh": "第一个问题是选择草稿模型。"
+ },
+ {
+  "seg": 31,
+  "start": 214.387,
+  "end": 222.109,
+  "speaker": "Unknown",
+  "en": "Yeah, so typically when you're deciding whether it's worth enabling, can the draft model predict as accurate as the target model?",
+  "zh": "是的,所以通常当你在决定是否值得启用时,草稿模型能否像目标模型一样准确地预测?"
+ },
+ {
+  "seg": 32,
+  "start": 222.469,
+  "end": 226.13,
+  "speaker": "Unknown",
+  "en": "And then the other question is whether it's as fast.",
+  "zh": "然后另一个问题是它是否同样快。"
+ },
+ {
+  "seg": 33,
+  "start": 226.17,
+  "end": 229.411,
+  "speaker": "Unknown",
+  "en": "So you would typically choose a model that's definitely like a fraction of the cost.",
+  "zh": "所以你通常会选择一个明显只有一小部分成本的模型。"
+ },
+ {
+  "seg": 34,
+  "start": 229.791,
+  "end": 234.332,
+  "speaker": "Unknown",
+  "en": "Yeah, so these are the two main decisions that you have to balance, right?",
+  "zh": "是的,所以这些就是你必须平衡的两个主要决策,对吧?"
+ },
+ {
+  "seg": 35,
+  "start": 238.805,
+  "end": 239.846,
+  "speaker": "Unknown",
+  "en": "I'm just going to leave this here.",
+  "zh": "我先把这个放这儿。"
+ },
+ {
+  "seg": 36,
+  "start": 240.206,
+  "end": 243.809,
+  "speaker": "Unknown",
+  "en": "So for my situation, I will explain why I chose these two models.",
+  "zh": "至于我的情况,我会解释我为什么选择这两个模型。"
+ },
+ {
+  "seg": 37,
+  "start": 244.229,
+  "end": 249.853,
+  "speaker": "Unknown",
+  "en": "For my demo setup, when I was running this, I have access to one GPU.",
+  "zh": "在我的演示设置中,当我运行这个时,我只有一块 GPU。"
+ },
+ {
+  "seg": 38,
+  "start": 250.134,
+  "end": 256.718,
+  "speaker": "Unknown",
+  "en": "I was running on a Blackwell GPU, and I wanted to run both the baseline and the speculative decoding setup in one.",
+  "zh": "我是在一块 Blackwell GPU 上运行的,我想在同一个上运行基线和投机解码设置。"
+ },
+ {
+  "seg": 39,
+  "start": 257.779,
+  "end": 265.005,
+  "speaker": "Unknown",
+  "en": "So to be able to do this, I had to choose a model that was small enough to be able to fit, because I have to split the GPU utilization between both servers.",
+  "zh": "为了做到这一点,我必须选择一个足够小的模型以便能够装下,因为我必须在两个服务器之间分配 GPU 的利用率。"
+ },
+ {
+  "seg": 40,
+  "start": 265.965,
+  "end": 267.326,
+  "speaker": "Unknown",
+  "en": "So this is what that looked like.",
+  "zh": "这就是它的样子。"
+ },
+ {
+  "seg": 41,
+  "start": 267.487,
+  "end": 277.195,
+  "speaker": "Unknown",
+  "en": "For instance, the baseline alone takes about 16 gigabytes of weight and then the draft model is 2.5.",
+  "zh": "例如,仅基线就需要大约 16 GB 的权重,而草稿模型是 2.5。"
+ },
+ {
+  "seg": 42,
+  "start": 277.315,
+  "end": 282.839,
+  "speaker": "Unknown",
+  "en": "So that leaves a huge amount and space for KV caching.",
+  "zh": "这样就留下了大量空间给 KV 缓存。"
+ },
+ {
+  "seg": 43,
+  "start": 284.581,
+  "end": 289.104,
+  "speaker": "Unknown",
+  "en": "And then when you're thinking about choosing the model, some of the things that you would usually",
+  "zh": "然后当你在考虑选择模型时,你通常会"
+ },
+ {
+  "seg": 44,
+  "start": 290.085,
+  "end": 295.828,
+  "speaker": "Unknown",
+  "en": "Consider is, first of all, like I said, it has to be smaller, typically 10 to 50 times smaller than your target model.",
+  "zh": "考虑的一些事情是,首先,正如我所说,它必须更小,通常比你的目标模型小 10 到 50 倍。"
+ },
+ {
+  "seg": 45,
+  "start": 296.589,
+  "end": 307.074,
+  "speaker": "Unknown",
+  "en": "It has to have the same tokenizer, ideally from the same model family, otherwise you would have to manually translate between the different tokenizers.",
+  "zh": "它必须使用相同的 tokenizer,理想情况下来自同一个模型家族,否则你就必须在不同 tokenizer 之间手动转换。"
+ },
+ {
+  "seg": 46,
+  "start": 308.155,
+  "end": 308.675,
+  "speaker": "Unknown",
+  "en": "What's the other?",
+  "zh": "还有什么来着?"
+ },
+ {
+  "seg": 47,
+  "start": 312.18,
+  "end": 314.543,
+  "speaker": "Unknown",
+  "en": "Yeah, those are the main things.",
+  "zh": "是的,这些就是主要的东西。"
+ },
+ {
+  "seg": 48,
+  "start": 314.663,
+  "end": 315.724,
+  "speaker": "Unknown",
+  "en": "I think I'm forgetting one.",
+  "zh": "我想我忘了一条。"
+ },
+ {
+  "seg": 49,
+  "start": 316.025,
+  "end": 319.709,
+  "speaker": "Unknown",
+  "en": "Oh yeah, and like I said, the cost and accuracy.",
+  "zh": "哦对,还有正如我所说的,成本和准确性。"
+ },
+ {
+  "seg": 50,
+  "start": 324.275,
+  "end": 324.936,
+  "speaker": "Unknown",
+  "en": "Okay, so.",
+  "zh": "好的，那么。"
+ },
+ {
+  "seg": 51,
+  "start": 329.601,
+  "end": 329.802,
+  "speaker": "Unknown",
+  "en": "Oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 52,
+  "start": 336.258,
+  "end": 344.924,
+  "speaker": "Unknown",
+  "en": "So when I was running these three questions, speculated decoding, there's some workloads that would benefit from it versus others that wouldn't.",
+  "zh": "所以当我运行这三个问题的时候，投机解码，有一些工作负载会从中受益，而另一些则不会。"
+ },
+ {
+  "seg": 53,
+  "start": 346.125,
+  "end": 359.835,
+  "speaker": "Unknown",
+  "en": "Typically, because the goal here is to get a smaller model that can predict almost as accurately as the target model would, it helps with some use cases when you have a workload that is more highly structured",
+  "zh": "通常来说，因为这里的目标是得到一个较小的模型，它的预测准确度几乎能和目标模型一样高，所以当你的工作负载结构化程度更高时，它在某些用例中会有帮助"
+ },
+ {
+  "seg": 54,
+  "start": 360.318,
+  "end": 362.079,
+  "speaker": "Unknown",
+  "en": "Like coding use cases.",
+  "zh": "比如编程用例。"
+ },
+ {
+  "seg": 55,
+  "start": 364.04,
+  "end": 364.681,
+  "speaker": "Unknown",
+  "en": "What's another one?",
+  "zh": "还有什么别的例子？"
+ },
+ {
+  "seg": 56,
+  "start": 365.801,
+  "end": 368.003,
+  "speaker": "Unknown",
+  "en": "Like writing JSON or SQL prompts.",
+  "zh": "比如写 JSON 或 SQL 提示。"
+ },
+ {
+  "seg": 57,
+  "start": 368.163,
+  "end": 376.688,
+  "speaker": "Unknown",
+  "en": "It would probably like benefit more versus if you were using it for a highly creative use case like writing poetry or brainstorming or anything like that.",
+  "zh": "相比把它用于高度创造性的用例，比如写诗或头脑风暴之类的，它可能受益更多。"
+ },
+ {
+  "seg": 58,
+  "start": 377.208,
+  "end": 378.009,
+  "speaker": "Unknown",
+  "en": "Yeah, so.",
+  "zh": "是的，那么。"
+ },
+ {
+  "seg": 59,
+  "start": 381.391,
+  "end": 382.712,
+  "speaker": "Unknown",
+  "en": "I think I have...",
+  "zh": "我想我有……"
+ },
+ {
+  "seg": 60,
+  "start": 385.999,
+  "end": 387.42,
+  "speaker": "Unknown",
+  "en": "This is a quick application.",
+  "zh": "这是一个简单的应用。"
+ },
+ {
+  "seg": 61,
+  "start": 387.46,
+  "end": 389.802,
+  "speaker": "Unknown",
+  "en": "I'm not even sure if it's going to work.",
+  "zh": "我甚至不确定它能不能运行。"
+ },
+ {
+  "seg": 62,
+  "start": 391.023,
+  "end": 395.507,
+  "speaker": "Unknown",
+  "en": "So here, I do have for the first demo, I just have two tabs here.",
+  "zh": "这里，第一个演示，我这里只有两个标签页。"
+ },
+ {
+  "seg": 63,
+  "start": 396.528,
+  "end": 404.795,
+  "speaker": "Unknown",
+  "en": "Like I said, this is just to focus on looking at how the acceptance rate performs, depending on the type of task that you have.",
+  "zh": "就像我说的，这只是专注于观察接受率如何根据你的任务类型而表现。"
+ },
+ {
+  "seg": 64,
+  "start": 405.295,
+  "end": 407.377,
+  "speaker": "Unknown",
+  "en": "So the first tab here is a structured output.",
+  "zh": "所以这里的第一个标签页是结构化输出。"
+ },
+ {
+  "seg": 65,
+  "start": 408.258,
+  "end": 411.221,
+  "speaker": "Unknown",
+  "en": "When I click this, it will run both at the same time.",
+  "zh": "当我点击它时，它会同时运行两者。"
+ },
+ {
+  "seg": 66,
+  "start": 411.241,
+  "end": 413.903,
+  "speaker": "Unknown",
+  "en": "Whoa.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 67,
+  "start": 417.872,
+  "end": 418.372,
+  "speaker": "Unknown",
+  "en": "Oh god.",
+  "zh": "天哪。"
+ },
+ {
+  "seg": 68,
+  "start": 424.057,
+  "end": 424.878,
+  "speaker": "Unknown",
+  "en": "I'm just waiting.",
+  "zh": "我在等。"
+ },
+ {
+  "seg": 69,
+  "start": 444.103,
+  "end": 445.284,
+  "speaker": "Unknown",
+  "en": "Technical difficulties?",
+  "zh": "技术故障？"
+ },
+ {
+  "seg": 70,
+  "start": 445.504,
+  "end": 447.306,
+  "speaker": "Unknown",
+  "en": "I'm not sure why my demo is not running.",
+  "zh": "我不确定为什么我的演示没有运行。"
+ },
+ {
+  "seg": 71,
+  "start": 447.686,
+  "end": 449.428,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "让我看看。"
+ },
+ {
+  "seg": 72,
+  "start": 454.673,
+  "end": 455.734,
+  "speaker": "Unknown",
+  "en": "Oh, do I have to reconnect?",
+  "zh": "哦，我需要重新连接吗？"
+ },
+ {
+  "seg": 73,
+  "start": 456.254,
+  "end": 457.055,
+  "speaker": "Unknown",
+  "en": "Just give me one second.",
+  "zh": "给我一秒钟。"
+ },
+ {
+  "seg": 74,
+  "start": 457.075,
+  "end": 458.416,
+  "speaker": "Unknown",
+  "en": "I think I might have to restart.",
+  "zh": "我想我可能得重启。"
+ },
+ {
+  "seg": 75,
+  "start": 483.202,
+  "end": 486.426,
+  "speaker": "Unknown",
+  "en": "Looks like I need to restart the VLLM servers and my setup.",
+  "zh": "看来我需要重启 VLLM 服务器和我的配置。"
+ },
+ {
+  "seg": 76,
+  "start": 486.726,
+  "end": 487.687,
+  "speaker": "Unknown",
+  "en": "Give me just a few minutes.",
+  "zh": "给我几分钟时间。"
+ },
+ {
+  "seg": 77,
+  "start": 487.707,
+  "end": 488.168,
+  "speaker": "Unknown",
+  "en": "Is this on?",
+  "zh": "这个开了吗？"
+ },
+ {
+  "seg": 78,
+  "start": 488.188,
+  "end": 495.576,
+  "speaker": "Unknown",
+  "en": "Okay, so it's running.",
+  "zh": "好的，它在运行了。"
+ },
+ {
+  "seg": 79,
+  "start": 495.596,
+  "end": 502.884,
+  "speaker": "Unknown",
+  "en": "Okay, that's running.",
+  "zh": "好的，那个在运行了。"
+ },
+ {
+  "seg": 80,
+  "start": 533.952,
+  "end": 534.552,
+  "speaker": "Unknown",
+  "en": "Oh, um.",
+  "zh": "哦，呃。"
+ },
+ {
+  "seg": 81,
+  "start": 540.277,
+  "end": 540.497,
+  "speaker": "Unknown",
+  "en": "Should I?",
+  "zh": "我应该吗？"
+ },
+ {
+  "seg": 82,
+  "start": 540.778,
+  "end": 542.399,
+  "speaker": "Unknown",
+  "en": "Yeah, I think I need.",
+  "zh": "是的，我觉得我需要。"
+ },
+ {
+  "seg": 83,
+  "start": 542.519,
+  "end": 543.16,
+  "speaker": "Unknown",
+  "en": "Oh, it's showing up.",
+  "zh": "哦，它显示出来了。"
+ },
+ {
+  "seg": 84,
+  "start": 543.18,
+  "end": 545.162,
+  "speaker": "Unknown",
+  "en": "OK, there we go.",
+  "zh": "好，好了。"
+ },
+ {
+  "seg": 85,
+  "start": 545.222,
+  "end": 547.445,
+  "speaker": "Unknown",
+  "en": "So yeah, I was saying this is a demo.",
+  "zh": "所以是的，我刚才是说这是一个演示。"
+ },
+ {
+  "seg": 86,
+  "start": 548.105,
+  "end": 550.368,
+  "speaker": "Unknown",
+  "en": "So when I run this, I'll redo it.",
+  "zh": "当我运行这个时，我会重新做一遍。"
+ },
+ {
+  "seg": 87,
+  "start": 557.155,
+  "end": 567.318,
+  "speaker": "Unknown",
+  "en": "So you can see, as expected, with a speculative on the right side, it was able to generate much, much faster, 1.6 times faster.",
+  "zh": "你可以看到，正如预期，右边开启投机解码的那边，生成速度快得多，快了 1.6 倍。"
+ },
+ {
+  "seg": 88,
+  "start": 568.598,
+  "end": 581.642,
+  "speaker": "Unknown",
+  "en": "The key thing to note here is how high the acceptance rate is, which is the rate of the tokens that were accepted by the number of tokens that were accepted over the total generated by the draft model.",
+  "zh": "这里要注意的关键是接受率有多高，即被接受的 token 数量占草稿模型生成的总 token 数量的比例。"
+ },
+ {
+  "seg": 89,
+  "start": 582.962,
+  "end": 584.163,
+  "speaker": "Unknown",
+  "en": "Another metric here",
+  "zh": "这里的另一个指标"
+ },
+ {
+  "seg": 90,
+  "start": 585.303,
+  "end": 594.006,
+  "speaker": "Unknown",
+  "en": "You can see with the speculative enabled, we are able to generate a lot more tokens per second, which improves the throughput.",
+  "zh": "你可以看到，启用投机解码后，我们每秒能生成多得多的 token，这提升了吞吐量。"
+ },
+ {
+  "seg": 91,
+  "start": 594.906,
+  "end": 598.647,
+  "speaker": "Unknown",
+  "en": "And then if I run it for the other case.",
+  "zh": "然后如果我为另一种情况运行它。"
+ },
+ {
+  "seg": 92,
+  "start": 609.53,
+  "end": 612.091,
+  "speaker": "Unknown",
+  "en": "So here it's another use case.",
+  "zh": "这里是另一个用例。"
+ },
+ {
+  "seg": 93,
+  "start": 614.713,
+  "end": 615.914,
+  "speaker": "Unknown",
+  "en": "As expected, same thing.",
+  "zh": "正如预期，同样的事情。"
+ },
+ {
+  "seg": 94,
+  "start": 617.775,
+  "end": 622.239,
+  "speaker": "Unknown",
+  "en": "But in this case, I guess the main metric to see here is the low acceptance rate.",
+  "zh": "但在这种情况下，我想这里要看的主要指标是低接受率。"
+ },
+ {
+  "seg": 95,
+  "start": 622.899,
+  "end": 631.805,
+  "speaker": "Unknown",
+  "en": "And like I said, this is because there's more variety in how the next tokens that would be generated because first of all, the temperature is set high.",
+  "zh": "就像我说的，这是因为下一个要生成的 token 有更多变化，因为首先，温度被设得很高。"
+ },
+ {
+  "seg": 96,
+  "start": 631.845,
+  "end": 632.986,
+  "speaker": "Unknown",
+  "en": "It's a creative use case.",
+  "zh": "这是一个创造性的用例。"
+ },
+ {
+  "seg": 97,
+  "start": 634.287,
+  "end": 635.748,
+  "speaker": "Unknown",
+  "en": "Yeah, what else?",
+  "zh": "是的，还有什么呢？"
+ },
+ {
+  "seg": 98,
+  "start": 636.288,
+  "end": 640.591,
+  "speaker": "Unknown",
+  "en": "I think that's pretty much for this.",
+  "zh": "我觉得这个差不多就是这样了。"
+ },
+ {
+  "seg": 99,
+  "start": 643.43,
+  "end": 649.795,
+  "speaker": "Unknown",
+  "en": "Case, and then the other situation where, oops.",
+  "zh": "这种情况，然后另一种情况是，哎呀。"
+ },
+ {
+  "seg": 100,
+  "start": 652.898,
+  "end": 657.221,
+  "speaker": "Unknown",
+  "en": "Oh yeah, this is what I was, I should have put this up here, just to explain when it would benefit.",
+  "zh": "哦对，这就是我刚才想说的，我应该把它放到这里，用来解释什么时候会有收益。"
+ },
+ {
+  "seg": 101,
+  "start": 657.401,
+  "end": 660.303,
+  "speaker": "Unknown",
+  "en": "And then the other use case would be context length.",
+  "zh": "另一个使用场景是上下文长度。"
+ },
+ {
+  "seg": 102,
+  "start": 661.324,
+  "end": 665.628,
+  "speaker": "Unknown",
+  "en": "So as I mentioned earlier, there's two parts of generating tokens.",
+  "zh": "正如我之前提到的，生成 token 有两个部分。"
+ },
+ {
+  "seg": 103,
+  "start": 666.508,
+  "end": 672.173,
+  "speaker": "Unknown",
+  "en": "With speculative decoding, it's supposed to accelerate the generating part, not the part where the model reads the prompt.",
+  "zh": "投机解码加速的是生成那一部分，而不是模型读取提示词的部分。"
+ },
+ {
+  "seg": 104,
+  "start": 672.633,
+  "end": 692.214,
+  "speaker": "Unknown",
+  "en": "So typically if you have a use case where you need to provide the model with a lot of context like for RAG applications or analyzing lots of documents with those situations the model will spend a lot more time with the portion of like building the KV caching especially if you're",
+  "zh": "所以通常如果你的使用场景需要给模型提供大量上下文，比如 RAG 应用或分析大量文档，在这些情况下，模型会花更多时间在构建 KV 缓存那部分，尤其是当你在"
+ },
+ {
+  "seg": 105,
+  "start": 693.135,
+  "end": 699.68,
+  "speaker": "Unknown",
+  "en": "Using it to do like a quick, where the generated tokens are much less than the context, like the input.",
+  "zh": "用它做类似快速的场景，生成的 token 远少于上下文，也就是输入的时候。"
+ },
+ {
+  "seg": 106,
+  "start": 701.881,
+  "end": 710.467,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think the main point here is just how to think through like what is your application doing?",
+  "zh": "是的，所以我觉得这里的重点是如何思考你的应用在做什么？"
+ },
+ {
+  "seg": 107,
+  "start": 710.987,
+  "end": 711.848,
+  "speaker": "Unknown",
+  "en": "Is it highly structured?",
+  "zh": "它是高度结构化的吗？"
+ },
+ {
+  "seg": 108,
+  "start": 711.868,
+  "end": 714.089,
+  "speaker": "Unknown",
+  "en": "Do you have enough VRAM space to even consider it?",
+  "zh": "你有足够的显存空间来考虑它吗？"
+ },
+ {
+  "seg": 109,
+  "start": 714.469,
+  "end": 716.511,
+  "speaker": "Unknown",
+  "en": "Are you doing more creative scenarios?",
+  "zh": "你在做更多创造性的场景吗？"
+ },
+ {
+  "seg": 110,
+  "start": 716.571,
+  "end": 720.033,
+  "speaker": "Unknown",
+  "en": "Are you running a lot of concurrency or not?",
+  "zh": "你是否在跑大量并发？"
+ },
+ {
+  "seg": 111,
+  "start": 720.133,
+  "end": 722.375,
+  "speaker": "Unknown",
+  "en": "Like smaller batch sizes would benefit from this.",
+  "zh": "这确实有点难讲。"
+ },
+ {
+  "seg": 112,
+  "start": 723.135,
+  "end": 723.375,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 113,
+  "start": 727.076,
+  "end": 732.797,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm going to leave this slide here.",
+  "zh": "好的，我要把这页幻灯片留在这里。"
+ },
+ {
+  "seg": 114,
+  "start": 732.817,
+  "end": 736.978,
+  "speaker": "Unknown",
+  "en": "This just basically summarizes what I just went through.",
+  "zh": "它基本上总结了我刚才讲的内容。"
+ },
+ {
+  "seg": 115,
+  "start": 737.278,
+  "end": 740.699,
+  "speaker": "Unknown",
+  "en": "And if anyone has questions, I'll take one or two questions now.",
+  "zh": "如果有人有问题，我现在可以接受一两个问题。"
+ },
+ {
+  "seg": 116,
+  "start": 747.66,
+  "end": 748.601,
+  "speaker": "Unknown",
+  "en": "Oh, I can't hear you.",
+  "zh": "哦，我听不到你。"
+ },
+ {
+  "seg": 117,
+  "start": 758.146,
+  "end": 758.488,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，好的。"
+ },
+ {
+  "seg": 118,
+  "start": 760.273,
+  "end": 765.014,
+  "speaker": "Unknown",
+  "en": "The question was, are there particular tools that I recommend for speculative decoding?",
+  "zh": "问题是，有没有我推荐用于投机解码的特定工具？"
+ },
+ {
+  "seg": 119,
+  "start": 765.614,
+  "end": 769.675,
+  "speaker": "Unknown",
+  "en": "So I implemented this with VLLM, the serving engine.",
+  "zh": "我是用 VLLM 这个推理服务引擎实现的。"
+ },
+ {
+  "seg": 120,
+  "start": 770.735,
+  "end": 773.816,
+  "speaker": "Unknown",
+  "en": "They have really good documentation on how to get started with it.",
+  "zh": "他们有非常好的文档教你如何上手。"
+ },
+ {
+  "seg": 121,
+  "start": 774.236,
+  "end": 777.757,
+  "speaker": "Unknown",
+  "en": "This is the simpler, one of the simple versions of speculative decoding.",
+  "zh": "这是比较简单的，投机解码的简单版本之一。"
+ },
+ {
+  "seg": 122,
+  "start": 777.797,
+  "end": 785.899,
+  "speaker": "Unknown",
+  "en": "There's a couple others, like the Ngram, Medusa, Eagle, that's more like the architecture beneath is like more advanced.",
+  "zh": "还有其他几个，比如 Ngram、Medusa、Eagle，那底层的架构更像是更高级的。"
+ },
+ {
+  "seg": 123,
+  "start": 786.019,
+  "end": 789.66,
+  "speaker": "Unknown",
+  "en": "But for getting started, yeah, I would say you can't go wrong with just",
+  "zh": "但对于入门来说，是的，我觉得你用这个不会出错，就是"
+ },
+ {
+  "seg": 124,
+  "start": 790.36,
+  "end": 797.061,
+  "speaker": "Unknown",
+  "en": "Reading up, when I was doing this, there's not much content out there on this, but I did find a few blogs.",
+  "zh": "多读资料，我在做这个的时候，这方面内容不多，但我确实找到了几篇博客。"
+ },
+ {
+  "seg": 125,
+  "start": 797.081,
+  "end": 805.403,
+  "speaker": "Unknown",
+  "en": "When you type in circulative decoding, one of the first blogs that will come up by General Compute talks about more in detail.",
+  "zh": "当你搜索投机解码时，General Compute 的其中一篇首批出现的博客讲得更详细。"
+ },
+ {
+  "seg": 126,
+  "start": 806.203,
+  "end": 811.704,
+  "speaker": "Unknown",
+  "en": "There's also two research papers that were published by Google and what's the other company?",
+  "zh": "还有两篇由 Google 和另一家什么公司发布的研究论文？"
+ },
+ {
+  "seg": 127,
+  "start": 811.724,
+  "end": 815.405,
+  "speaker": "Unknown",
+  "en": "Yeah, but that goes more in-depth.",
+  "zh": "是的，但那讲得更深入。"
+ },
+ {
+  "seg": 128,
+  "start": 816.986,
+  "end": 818.726,
+  "speaker": "Unknown",
+  "en": "But I'm also trying to maybe",
+  "zh": "但我也在尝试也许"
+ },
+ {
+  "seg": 129,
+  "start": 820.675,
+  "end": 822.335,
+  "speaker": "Unknown",
+  "en": "Make more content around this.",
+  "zh": "围绕这个做更多内容。"
+ },
+ {
+  "seg": 130,
+  "start": 822.375,
+  "end": 823.496,
+  "speaker": "Unknown",
+  "en": "Maybe videos.",
+  "zh": "也许是视频。"
+ },
+ {
+  "seg": 131,
+  "start": 823.576,
+  "end": 824.796,
+  "speaker": "Unknown",
+  "en": "It was kind of hard to go through this.",
+  "zh": "经历这一切还挺难的。"
+ },
+ {
+  "seg": 132,
+  "start": 824.836,
+  "end": 826.816,
+  "speaker": "Unknown",
+  "en": "I'm a little all over the place.",
+  "zh": "我讲得有点散。"
+ },
+ {
+  "seg": 133,
+  "start": 826.836,
+  "end": 834.338,
+  "speaker": "Unknown",
+  "en": "But I would definitely love to maybe publish a blog or make snippet videos on YouTube or somewhere.",
+  "zh": "但我肯定很愿意也许发布一篇博客，或者在 YouTube 或其他地方做些短视频片段。"
+ },
+ {
+  "seg": 134,
+  "start": 834.498,
+  "end": 835.758,
+  "speaker": "Unknown",
+  "en": "But you can definitely find the resources.",
+  "zh": "不过你肯定能找到这些资源。"
+ },
+ {
+  "seg": 135,
+  "start": 844.84,
+  "end": 845.56,
+  "speaker": "Unknown",
+  "en": "I should have covered that.",
+  "zh": "我应该把这些讲到的。"
+ },
+ {
+  "seg": 136,
+  "start": 853.647,
+  "end": 866.025,
+  "speaker": "Unknown",
+  "en": "Oh, as I said, I'm from Akamai, and if you're interested in learning how to replicate this, you can find it on our website, our GitHub Akamai developers.",
+  "zh": "哦，如我所说，我来自 Akamai，如果你有兴趣学习如何复现这个，可以在我们的网站上找到，我们的 GitHub Akamai developers。"
+ },
+ {
+  "seg": 137,
+  "start": 869.643,
+  "end": 871.384,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 138,
+  "start": 871.884,
+  "end": 875.265,
+  "speaker": "Unknown",
+  "en": "Yeah, so we have a lot of different resources on here.",
+  "zh": "是的，我们在这里有很多不同的资源。"
+ },
+ {
+  "seg": 139,
+  "start": 876.045,
+  "end": 878.526,
+  "speaker": "Unknown",
+  "en": "I'm focusing on inference optimizations.",
+  "zh": "我专注于推理优化。"
+ },
+ {
+  "seg": 140,
+  "start": 879.306,
+  "end": 887.589,
+  "speaker": "Unknown",
+  "en": "We have other people that are focusing on building AI agents and how to leverage our managed Kubernetes service, how to use Akamai functions.",
+  "zh": "我们还有其他人专注于构建 AI 智能体、如何利用我们的托管 Kubernetes 服务、如何使用 Akamai functions。"
+ },
+ {
+  "seg": 141,
+  "start": 887.709,
+  "end": 891.33,
+  "speaker": "Unknown",
+  "en": "So if you have time, please go check out our GitHub pages.",
+  "zh": "所以如果你有时间，请去看看我们的 GitHub 页面。"
+ },
+ {
+  "seg": 142,
+  "start": 891.51,
+  "end": 894.971,
+  "speaker": "Unknown",
+  "en": "And also, we have a Discord channel that we're trying to build up now.",
+  "zh": "另外，我们还有一个 Discord 频道，现在正在努力建设。"
+ },
+ {
+  "seg": 143,
+  "start": 896.192,
+  "end": 898.993,
+  "speaker": "Unknown",
+  "en": "So it would be great to chat with some of you on the side.",
+  "zh": "所以很乐意在会后和你们中的一些人聊聊。"
+ },
+ {
+  "seg": 144,
+  "start": 899.073,
+  "end": 899.393,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 145,
+  "start": 901.637,
+  "end": 902.017,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

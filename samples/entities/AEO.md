@@ -39,7 +39,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[Google]] · [[Reddit]] · [[OpenAI]] · [[SEO]] · [[Harry Stebbings]] · [[LLM]] · [[PLG]] · [[citation]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":102,"智能体":448,"Google":67,"Reddit":7,"OpenAI":181,"SEO":8,"Harry Stebbings":20,"LLM":59,"PLG":12,"citation":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":102,"智能体":449,"Google":67,"Reddit":7,"OpenAI":182,"SEO":8,"Harry Stebbings":20,"LLM":59,"PLG":12,"citation":2}</script>
 
 <script>
 (function(){

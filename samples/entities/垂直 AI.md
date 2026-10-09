@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[John Willett]] · [[Zavain Dar]] · [[Rogo]] · [[Eric Newcomer]] · [[Foundation]] · [[NVIDIA]] · [[Basis]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Cursor":83,"John Willett":1,"Zavain Dar":1,"Rogo":2,"Eric Newcomer":1,"Foundation":2,"NVIDIA":64,"Basis":1,"Hugging Face":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Cursor":83,"John Willett":1,"Zavain Dar":1,"Rogo":2,"Eric Newcomer":1,"Foundation":2,"NVIDIA":64,"Basis":1,"Hugging Face":31}</script>
 
 <script>
 (function(){

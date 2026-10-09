@@ -27,7 +27,7 @@ unlisted: true
 
 [[推理]] · [[NVIDIA]] · [[Token Factory]] · [[Dylan Patel]] · [[开源模型]] · [[SemiAnalysis]] · [[投机解码]] · [[Anthropic]] · [[KV 缓存]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"推理":88,"NVIDIA":64,"Token Factory":1,"Dylan Patel":2,"开源模型":4,"SemiAnalysis":1,"投机解码":1,"Anthropic":192,"KV 缓存":5,"OpenAI":181}</script>
+<script type="application/json" class="pd-epn">{"推理":89,"NVIDIA":64,"Token Factory":1,"Dylan Patel":2,"开源模型":4,"SemiAnalysis":1,"投机解码":1,"Anthropic":194,"KV 缓存":5,"OpenAI":182}</script>
 
 <script>
 (function(){

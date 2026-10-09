@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":192,"风险投资":1,"IRR":1,"DPI":1,"股权占比":4,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
+<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":194,"风险投资":1,"IRR":1,"DPI":1,"股权占比":4,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3",
+  "audio_mp3": "https://anchor.fm/s/102eb9800/podcast/play/126881605/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433409328-44100-2-a6fe2f35becbe.mp3",
+  "duration_sec": 4019.517,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 894,
+  "asr": true,
+  "title_en": "Jaan Tallinn would like us to survive",
+  "podcast": "The Generalist",
+  "date": "2026-10-08",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43339616/43339616-1791401724264-34eaab1c22091.jpg",
+  "added": "2026-10-10",
+  "added_at": "2026-10-09T19:43:35.068Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jaan Tallinn",
+    "SPEAKER_01": "Mario"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jaan Tallinn",
+  "cohosts": [
+    "Mario"
+  ],
+  "title_zh": "Skype 联创警告：别再扣动这把指向地球的扳机",
+  "guest_name": "Jaan Tallinn",
+  "guest_title": "Skype 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43339616/43339616-1791401724264-34eaab1c22091.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-09T20:47:45.160Z"
+  }
+}

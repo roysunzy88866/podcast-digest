@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>83</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>84</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -88,6 +88,7 @@ unlisted: true
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(12:10起):本集提到 Dev Day 当天宣布可以通过 sites 托管 MCP 插件,再用到自己的站点里,构成『良性循环』
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(02:08起):本集用它作反例:等 DMV 这类机构给系统添加 MCP 接口要好几年,而计算机使用解决了这个问题。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(39:52起):本集两次顺带提到：Dan 翻白眼说拿 LLM 加一些 MCP 服务器和 API 串联六个软件行不通；主持人举例 G2 通过 MCP 连接前沿模型做软件采购推荐。
+- **[[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]]**(00:57起):本集说 MCP 是智能体连接外部工具与资源的通道,让 harness 能拉入新上下文和新工具;其新版规范新增了授权许可(IDJAG)概念。
 - **[[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]]**(11:20起):本集认真讨论：Architect 最常用入口，但工具膨胀是真问题——结构化数据用 API、探索性场景才用 MCP，很多场景 CLI 更省 token
 - **[[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]]**(33:48起):本集把 MCP 说成:Mentor 的开放接口形态——客户可以用任何编码智能体或 harness 通过 MCP 服务操作平台,前端模型调用时底层已有大量优化。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(23:14起):本集说 MCP 基本就是个 REST 接口、Anthropic 搞出来后被大家采纳为标准;不是魔法子弹但够好了,护栏对 SQL 和 MCP 请求一视同仁
@@ -132,7 +133,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*83 集*
+*84 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -212,6 +213,7 @@ unlisted: true
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为概念(提及)
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为概念
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念(提及)
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]] — 作为概念
 - [[2026-10-07-beyondcoding-what-happens-when-coding-agents-see-your|《当AI能看到你整个系统：一个工程师把公司所有数据装进一张图》]] — 作为概念
 - [[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce|《永不宕机的软件：OutSystems CEO 谈 AI 时代的企业级开发》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
@@ -222,9 +224,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[沙箱]] · [[harness]] · [[ChatGPT]]
+[[智能体]] · [[Anthropic]] · [[Claude]] · [[Codex]] · [[Claude Code]] · [[沙箱]] · [[护栏]] · [[OpenAI]] · [[harness]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Claude":92,"Anthropic":192,"Codex":81,"Claude Code":98,"护栏":85,"OpenAI":181,"沙箱":87,"harness":62,"ChatGPT":102}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Anthropic":194,"Claude":92,"Codex":81,"Claude Code":98,"沙箱":88,"护栏":86,"OpenAI":182,"harness":63,"ChatGPT":102}</script>
 
 <script>
 (function(){

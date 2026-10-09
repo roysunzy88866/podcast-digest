@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[David George]] · [[Gregor Vand]] · [[Kevin Mandia]] · [[Alon Schindel]] · [[Armiden]] · [[Google]] · [[Mandiant]] · [[harness]] · [[零日漏洞]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"David George":6,"Gregor Vand":2,"Kevin Mandia":1,"Alon Schindel":1,"Armiden":1,"Google":67,"Mandiant":1,"harness":62,"零日漏洞":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"David George":6,"Gregor Vand":2,"Kevin Mandia":1,"Alon Schindel":1,"Armiden":1,"Google":67,"Mandiant":1,"harness":63,"零日漏洞":3}</script>
 
 <script>
 (function(){

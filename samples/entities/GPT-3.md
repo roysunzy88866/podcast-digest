@@ -39,7 +39,7 @@ unlisted: true
 
 [[后训练]] · [[智能体]] · [[Lenny]] · [[Laurent]] · [[Alexander Whedon]] · [[Pete Florence]] · [[Edwin Chen]] · [[Charles Gorintin]] · [[SubQuadratic]] · [[通才]]
 
-<script type="application/json" class="pd-epn">{"后训练":1,"智能体":448,"Lenny":68,"Laurent":2,"Alexander Whedon":1,"Pete Florence":1,"Edwin Chen":1,"Charles Gorintin":1,"SubQuadratic":1,"通才":2}</script>
+<script type="application/json" class="pd-epn">{"后训练":1,"智能体":449,"Lenny":68,"Laurent":2,"Alexander Whedon":1,"Pete Florence":1,"Edwin Chen":1,"Charles Gorintin":1,"SubQuadratic":1,"通才":2}</script>
 
 <script>
 (function(){

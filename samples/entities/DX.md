@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[DORA]] · [[Lenny]] · [[Claire Vo]] · [[Swyx]] · [[Justin Reock]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[开发者体验]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"DORA":3,"Lenny":68,"Claire Vo":5,"Swyx":2,"Justin Reock":1,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"开发者体验":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"DORA":3,"Lenny":68,"Claire Vo":5,"Swyx":2,"Justin Reock":1,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"开发者体验":1}</script>
 
 <script>
 (function(){

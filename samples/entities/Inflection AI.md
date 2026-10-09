@@ -25,7 +25,7 @@ unlisted: true
 
 [[Seth Rosenberg]] · [[Mustafa Suleyman]] · [[DeepMind]] · [[Microsoft]] · [[Pi]] · [[Copilot]] · [[OpenAI]] · [[AGI]] · [[图灵测试]] · [[基于人类反馈的强化学习]]
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"Mustafa Suleyman":1,"DeepMind":15,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":181,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"Mustafa Suleyman":1,"DeepMind":16,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":182,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[RLVR]] · [[模式坍缩]] · [[校准]] · [[鲁棒性]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":7,"TypeSafe":4,"RLCD":2,"RLHF":6,"RLVR":3,"模式坍缩":1,"校准":4,"鲁棒性":1,"基准测试":18}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":7,"TypeSafe":4,"RLCD":2,"RLHF":7,"RLVR":3,"模式坍缩":1,"校准":4,"鲁棒性":1,"基准测试":18}</script>
 
 <script>
 (function(){

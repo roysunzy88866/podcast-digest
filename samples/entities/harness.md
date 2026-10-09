@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>62</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>63</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -70,6 +70,7 @@ unlisted: true
 - **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(04:12起):本集说 harness 是今年大家讨论的、帮助把智能体投入生产环境的结构，其边界（模型、工具、记忆、护栏是否在内）存在争论。
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(01:44起):本集说 harness 是把模型和领域上下文接线连接、让模型在正确时间看到正确上下文的那一层,必须模型中立——既是进攻也是防御。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(39:23起):本集说 harness 是围绕模型搭的编排框架,和模型本身一样重要:好的多智能体 harness 能让普通前沿模型得到接近最强模型(Mythos)的结果。
+- **[[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]]**(02:20起):本集说 agent harness 其实很笨:接受上下文、发出工具调用、一个循环而已;它演化很快、会被不断替换,真正的危险在流入它的工具和上下文。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(66:49起):本集说 harness 就是代码，其强大程度只取决于背后的智能；Diogo 甚至完全拒绝 harness 概念，称其为「无马的马车」式思维。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(00:58起):本集建议先榨干 harness(围绕模型搭的工具链和调用环境)再做模型优化,八成找上门的问题靠一个好 harness 就能解决。
 
@@ -139,7 +140,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*62 集*
+*63 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -201,6 +202,7 @@ unlisted: true
 - [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念(提及)
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为概念
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为概念
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]] — 作为概念
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念
 
@@ -210,7 +212,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[MCP]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Anthropic":192,"沙箱":87,"Claude Code":98,"评估":5,"OpenAI":181,"Codex":81,"护栏":85,"MCP":83,"推理":88}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Anthropic":194,"沙箱":88,"Claude Code":98,"评估":5,"OpenAI":182,"Codex":81,"护栏":86,"MCP":84,"推理":89}</script>
 
 <script>
 (function(){

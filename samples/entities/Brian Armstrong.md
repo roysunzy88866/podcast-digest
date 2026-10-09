@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":448,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":2,"递归自我改进":10}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":449,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":2,"递归自我改进":10}</script>
 
 <script>
 (function(){

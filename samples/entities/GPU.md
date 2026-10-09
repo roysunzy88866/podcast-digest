@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>28</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(00:32起):本集说 GPU 是整个数据中心里最贵的东西,闲置就是烧钱;GPU 租赁协议通常是照付不议,且当下托管 GPU 集群因供应短缺利润率最高。
 - **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(53:35起):本集答疑中听众想把代码分发到分布式 GPU 上算，Matt 直说 E2B 目前不支持 GPU，他们用 VM，GPU 场景下沙箱方案可能不合适。
 - **[[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]]**(09:46起):本集说 Gemma 4 不需要大片 GPU 占用，真正的设计意图是在单个消费级 GPU 上运行得超级好，12B 及以下版本甚至可以在笔记本上本地运行。
+- **[[2026-10-06-talks-is-speculative-decoding-worth-it-profili|《让小模型先猜，大模型来批：推理加速值不值？》]]**(03:00起):本集说启用投机解码的前提是 GPU 有空闲算力：高并发下 GPU 已忙不过来就不适合；演示在一块 Blackwell GPU 上同时跑基线和投机解码两套服务
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(22:38起):本集说 GPU 比 TPU 更通用，Google 内部使用也对外销售大量 GPU，客户按工作负载在两者间评估选择
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(36:14起):本集说 GPU 利用率其实很低、算力处于供应紧缺,真正难的是容量——你得真的有 GPU,规模上去后省下的 1% 会累积成真金白银。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:47起):本集贯穿主线：GPU 用六年折旧、是芯片项目成本大头，供给追不上需求，NVIDIA 把签下的 GPU 转卖给出价更高者。
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*4 条*
+*5 条*
 
 ![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q9]]
 
@@ -52,9 +53,11 @@ unlisted: true
 
 ![[2026-10-03-twist-inside-the-startup-building-uncensored-a#^q2]]
 
+![[2026-10-06-talks-is-speculative-decoding-worth-it-profili#^q1]]
+
 ## ② 出现在这些集
 
-*28 集*
+*29 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -80,6 +83,7 @@ unlisted: true
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
 - [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
 - [[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]] — 作为概念
+- [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|《让小模型先猜，大模型来批：推理加速值不值？》]] — 作为概念
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念(提及)
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为概念
@@ -91,7 +95,7 @@ unlisted: true
 
 [[推理]] · [[NVIDIA]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[数据中心]] · [[OpenRouter]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"推理":88,"NVIDIA":64,"OpenAI":181,"智能体":448,"Anthropic":192,"Cursor":83,"Google":67,"数据中心":23,"OpenRouter":14,"token":32}</script>
+<script type="application/json" class="pd-epn">{"推理":89,"NVIDIA":64,"OpenAI":182,"智能体":449,"Anthropic":194,"Cursor":83,"Google":67,"数据中心":23,"OpenRouter":14,"token":32}</script>
 
 <script>
 (function(){

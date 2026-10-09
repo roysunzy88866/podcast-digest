@@ -29,7 +29,7 @@ unlisted: true
 
 [[评估]] · [[护栏]] · [[智能体]] · [[Swaroop Chitlur Haridas]] · [[Kanish Manuja]] · [[LangChain]] · [[Nachiket Paranjape]] · [[Twilio]] · [[LangSmith]] · [[DoorDash]]
 
-<script type="application/json" class="pd-epn">{"评估":5,"护栏":85,"智能体":448,"Swaroop Chitlur Haridas":1,"Kanish Manuja":1,"LangChain":10,"Nachiket Paranjape":1,"Twilio":3,"LangSmith":4,"DoorDash":10}</script>
+<script type="application/json" class="pd-epn">{"评估":5,"护栏":86,"智能体":449,"Swaroop Chitlur Haridas":1,"Kanish Manuja":1,"LangChain":10,"Nachiket Paranjape":1,"Twilio":3,"LangSmith":4,"DoorDash":10}</script>
 
 <script>
 (function(){

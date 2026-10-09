@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":8,"后训练":1,"验证器":7,"合成数据":10,"超长时程":1,"虚拟同事":1,"RLHF":6,"智能体数据时代":1,"基座模型":2}</script>
+<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":8,"后训练":1,"验证器":7,"合成数据":10,"超长时程":1,"虚拟同事":1,"RLHF":7,"智能体数据时代":1,"基座模型":2}</script>
 
 <script>
 (function(){

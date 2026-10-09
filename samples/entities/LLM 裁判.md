@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Daniel McKinnon]] · [[Alex]] · [[Akash]] · [[Campbell Brown]] · [[评估]] · [[Forum AI]] · [[PRD]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Meta":48,"Daniel McKinnon":1,"Alex":6,"Akash":4,"Campbell Brown":1,"评估":5,"Forum AI":1,"PRD":8,"OpenAI":181}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Meta":48,"Daniel McKinnon":1,"Alex":6,"Akash":4,"Campbell Brown":1,"评估":5,"Forum AI":1,"PRD":8,"OpenAI":182}</script>
 
 <script>
 (function(){

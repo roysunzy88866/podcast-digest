@@ -35,7 +35,7 @@ unlisted: true
 
 [[Amin Vahdat]] · [[Google]] · [[TPU]] · [[有效产出]] · [[协同设计]] · [[智能体]] · [[DeepMind]] · [[Gemini]] · [[光路交换]] · [[专业化]]
 
-<script type="application/json" class="pd-epn">{"Amin Vahdat":1,"Google":67,"TPU":4,"有效产出":1,"协同设计":3,"智能体":448,"DeepMind":15,"Gemini":15,"光路交换":1,"专业化":3}</script>
+<script type="application/json" class="pd-epn">{"Amin Vahdat":1,"Google":67,"TPU":4,"有效产出":1,"协同设计":3,"智能体":449,"DeepMind":16,"Gemini":15,"光路交换":1,"专业化":3}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Salesforce]] · [[go-to-market]] · [[前向部署工程师]] · [[Madhavan Ramanujam]] · [[Jason Lemkin]] · [[Brian Halligan]] · [[Intercom]] · [[SaaStr]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":448,"Salesforce":34,"go-to-market":14,"前向部署工程师":2,"Madhavan Ramanujam":1,"Jason Lemkin":2,"Brian Halligan":1,"Intercom":6,"SaaStr":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":449,"Salesforce":34,"go-to-market":14,"前向部署工程师":2,"Madhavan Ramanujam":1,"Jason Lemkin":2,"Brian Halligan":1,"Intercom":6,"SaaStr":1}</script>
 
 <script>
 (function(){

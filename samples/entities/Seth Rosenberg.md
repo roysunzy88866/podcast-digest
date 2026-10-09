@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":15,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":181,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":16,"Inflection AI":1,"Microsoft":29,"Pi":2,"Copilot":12,"OpenAI":182,"AGI":27,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

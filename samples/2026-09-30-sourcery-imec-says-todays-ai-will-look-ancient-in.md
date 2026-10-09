@@ -139,8 +139,8 @@ Adam 的建议：多招、多投那些「欧洲学术技术背景 + 美国商业
 **换个口味**
 
 - [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
+- [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|让小模型先猜，大模型来批：推理加速值不值？]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:内存 (memory)、推理 (inference)</span>
-- [[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble|知识该放哪？提示词、记忆还是微调？]]<span class="pd-rz">同概念:内存 (memory)、推理 (inference)</span>
 
 </div>
 </div>

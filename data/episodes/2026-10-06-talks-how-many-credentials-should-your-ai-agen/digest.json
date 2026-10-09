@@ -1,0 +1,161 @@
+{
+  "title_zh": "AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课",
+  "tldr": "Docker 工程师 Jim Clark 讲解如何用沙箱、MCP 网关和零凭据原则,让 AI 智能体安全地长时间工作。",
+  "digest_md": "半年前,大多数人还坐在电脑前,对 AI 智能体的每个请求点是、是、是。现在,智能体开始独立跑几小时的长任务。Jim Clark 是 Docker 的工程师,他用一场简短的演讲回答了一个关键问题:不盯着智能体的时候,怎么保证它不闯祸?\n\n## 为什么现在必须操心 AI 安全?\n\nJim 的判断标准很简单:一个设计好的任务,应该不需要他给多少监督,智能体就能自己啃下来。但放手越多,担心就越多——==智能体拿着你的工具和权限,到底会干出什么==?[01:46 Unknown]\n\n他把问题拆成三层:智能体的工作框架(harness)、干活的沙箱,以及连接外部工具的 MCP。工作框架其实很笨:收进上下文,吐出工具调用,一个循环而已。真正危险的是它手里的资源和工具。\n\n> 【背景】MCP(Model Context Protocol)是一种开放协议,让 AI 智能体连接外部工具和数据源,比如 Notion、GitHub 的接口。\n\n## 新闻编辑室的比喻:把危险能力拆开\n\nJim 用报纸编辑室做比喻。记者跑出去到处搜集信息,但不能直接发文;核查员核对事实,但不需要上网;撰稿人拿到的是核查过的材料,才有发布权限。三个角色分开,谁也不掌握全部权力。[05:59 Unknown]\n\n对应到智能体:研究员沙箱可以随便上网,但没有写入公司系统的工具;事实核查员能查内部数据库,但完全断网;发布环节才拿到 Notion 或发布工具的接口。整个流程合起来能力很强,但**任何单个沙箱里,都不会同时出现读任意内容和能对外操作这两种危险组合**。[08:26 Unknown]\n\n## 沙箱大小,应该由任务意图决定\n\nJim 讲了他自己搭建编程智能体的做法。任务可能跑一小时,但真正需要提交代码、用签名密钥的时间可能只有两分钟。那为什么密钥要在沙箱里待满一小时?[09:16 Unknown]\n\n他的原则:**沙箱按任务意图建模**。这一步不做提交,就不该有提交签名密钥;这一步不需要网络,就该彻底断网。能力随需给,用完就收回。\n\n> 【背景】沙箱指隔离的运行环境,限制程序能访问的文件、网络和工具。\n\n## 所有 MCP 流量走一个网关\n\nDocker Sandbox 产品的核心设计,是在每个沙箱里放一个网关端点(类似 mcpgateway.docker.internal 的内部地址)。所有工具调用、所有资源获取,都从这个单一关口进出。[10:30 Unknown]\n\n好处有两个。第一,网关成了控制点:哪个沙箱能用哪些工具、资源和提示,由沙箱配置说了算。第二,各种工作框架都变得 MCP 无关——不用在 Codex 里配一遍、Claude Code 里再配一遍,框架本身成了沙箱的一个可替换参数。[11:23 Unknown]\n\n这就是他演讲标题的答案:==沙箱里应该放多少凭据==?\n\n「正确答案永远是零。」[12:05 Unknown]\n\n凭据不进沙箱,智能体犯错的爆炸半径就被压到最小。真正需要授权时,走另一条路。\n\n## 零凭据怎么授权?复用公司的现有体系\n\nDocker、Anthropic 和 Okta 正在合作推动一个叫 XAA(Cross-App Application)的方案。思路是:公司早就有了单点登录和身份管理,Notion、GitHub、Slack 这些服务早就接好了——但智能体至今够不着它们。[12:24 Unknown]\n\n做法是沙箱和网关定义智能体的身份,也就是它代表谁在干活。拿这个身份去和公司已有的身份提供商交换声明,换回一个授权许可(新版 MCP 规范里的新概念)。没有疯狂的同意弹窗,公司就能集中管理智能体对所有内部服务的访问——把已有投资直接复用。[14:05 Unknown]\n\n## 渐进式披露,顺便省上下文\n\n一个完整工作流可能用 50 个 MCP,但每个沙箱不需要装着全部 50 个。Jim 借用了渐进式披露的说法:工具和资源按需逐步给进去。[14:31 Unknown]\n\n这还有个附带好处:上下文体积更小。编排器的职责也随之清晰——接到任务,先问需要什么能力,再决定放进哪个沙箱、配哪些工具、给什么网络规则。[15:09 Unknown]\n\nJim 说,这一切本质上是把智能体容器化,也解释了他为什么在 Docker 做这件事。现场可以通过 brew install SBX 装到这个工具。[17:31 Unknown]\n\n## 本集带走\n\n- 沙箱里应该放多少凭据?答案永远是零,凭据由网关按需授权。\n- 把危险能力拆开:能读任意内容的能力和能对外操作的能力,永远不要出现在同一个沙箱里。\n- 沙箱大小由任务意图决定:这一步用不到的权限,就不该出现在沙箱里。\n- 所有 MCP 流量走单一网关,形成控制点,还让各种工作框架可以随意替换。\n- Docker、Anthropic、Okta 合作推进 XAA,复用公司已有的单点登录体系给智能体授权,无需重复配置。",
+  "quotes": [
+    {
+      "en": "So at each individual point, we don't have a dangerous combination of both being able to read in crazy unfiltered context and do things with our tools.",
+      "zh": "所以在每个单独的时间点，我们都不会出现既能读取疯狂未过滤的上下文、又能用我们的工具做事情的危险组合。",
+      "timestamp": "08:26",
+      "speaker": "Jim Clark"
+    },
+    {
+      "en": "If your agents know the intent of what you're trying to do, then use that intent to model the capabilities that you give to that.",
+      "zh": "如果你的智能体知道你想做什么的意图，那就用那个意图来建模你赋予它的能力。",
+      "timestamp": "09:58",
+      "speaker": "Jim Clark"
+    },
+    {
+      "en": "And the blast radius of an agent doing something incorrect if there are absolutely no credentials in there is reduced.",
+      "zh": "而且如果里面绝对没有任何凭证，一个智能体做出错误行为的爆炸半径就缩小了。",
+      "timestamp": "12:12",
+      "speaker": "Jim Clark"
+    },
+    {
+      "en": "Give your agents room to solve problems, but let individual sandboxes represent the intent of the task.",
+      "zh": "给你的智能体解决问题的空间，但让单个沙箱表达任务的意图。",
+      "timestamp": "14:56",
+      "speaker": "Jim Clark"
+    },
+    {
+      "en": "We get used to thinking about modeling capabilities, building the right sandbox for the task, putting the task in, and now we're starting to see that this individual loop is safer because it has less access than the entire workflow effectively has.",
+      "zh": "我们习惯于考虑建模能力、为任务构建合适的沙箱、把任务放进去，而现在我们开始看到，这个个体循环更安全，因为它拥有的访问权限比整个工作流实际拥有的要少。",
+      "timestamp": "15:54",
+      "speaker": "Jim Clark"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:22",
+      "speaker": "Unknown",
+      "en": "Agents are doing way more than I thought they were doing, than I thought they were going to do.",
+      "zh": "智能体做的事情远远超出我以为它们在做的，也超出我以为它们会做的。"
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Unknown",
+      "en": "So I think just to set context, this is what I think is the sort of shape of the problem right now.",
+      "zh": "为了交代背景，这就是我所认为的当前问题的形态。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Unknown",
+      "en": "And if you knew that the sandbox that you built had the right resources, had the right tools, and only those resources and tools, it would make you feel safer.",
+      "zh": "而且，如果你知道你构建的沙箱拥有正确的资源、正确的工具，并且只有这些资源和工具，这会让你感觉更安全。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Unknown",
+      "en": "It would make you feel like you limited the blast radius for what could go wrong when that agent is working.",
+      "zh": "这会让你觉得，当智能体在工作时，你已经限制了可能出问题的爆炸半径。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Unknown",
+      "en": "It can't publish anything.",
+      "zh": "它无法发布任何东西。"
+    },
+    {
+      "timestamp": "08:26",
+      "speaker": "Unknown",
+      "en": "So at each individual point, we don't have a dangerous combination of both being able to read in crazy unfiltered context and do things with our tools.",
+      "zh": "所以在每个单独的时间点，我们都不会出现既能读取疯狂未过滤的上下文、又能用我们的工具做事情的危险组合。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "Unknown",
+      "en": "In an hour, it might need, say, my Git signing keys for like two minutes of that time.",
+      "zh": "在一个小时里，它可能只需要——比如说——我的 Git 签名密钥，大概两分钟。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Unknown",
+      "en": "The actual sandbox that an agent is running a task in is modeled after the intent of what I'm doing.",
+      "zh": "智能体在其中运行任务的那个沙箱，是按照我正在做的事情的意图来建模的。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Unknown",
+      "en": "And I think this you can map across a lot of different tasks.",
+      "zh": "我认为这一点可以映射到很多不同的任务上。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Unknown",
+      "en": "If your agents know the intent of what you're trying to do, then use that intent to model the capabilities that you give to that.",
+      "zh": "如果你的智能体知道你想做什么的意图，那就用那个意图来建模你赋予它的能力。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Unknown",
+      "en": "In fact, I would say that a maxim that you can use here is how many credentials should be in a sandbox?",
+      "zh": "事实上，我想说你可以在这里使用的一个准则是：一个沙箱里应该有多少凭证？"
+    },
+    {
+      "timestamp": "12:05",
+      "speaker": "Unknown",
+      "en": "Well, I mean, the right answer is always zero.",
+      "zh": "嗯，我的意思是，正确的答案永远是零。"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Unknown",
+      "en": "And the blast radius of an agent doing something incorrect if there are absolutely no credentials in there is reduced.",
+      "zh": "而且如果里面绝对没有任何凭证，一个智能体做出错误行为的爆炸半径就缩小了。"
+    },
+    {
+      "timestamp": "13:58",
+      "speaker": "Unknown",
+      "en": "We're leveraging all this existing investment that these corporate networks already have.",
+      "zh": "我们是在利用这些企业网络已有的全部投入。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Unknown",
+      "en": "And, of course, it's amazing because we keep context size down just because you might at some point in a workflow use 50 different MCPs doesn't mean that each sandbox has to have all 50 of those MCPs.",
+      "zh": "当然，这很棒，因为我们把上下文大小保持在较低水平——你在某个工作流中的某个时点可能用到 50 个不同的 MCP，并不意味着每个沙箱都必须包含全部 50 个 MCP。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "Give your agents room to solve problems, but let individual sandboxes represent the intent of the task.",
+      "zh": "给你的智能体解决问题的空间，但让单个沙箱表达任务的意图。"
+    },
+    {
+      "timestamp": "15:54",
+      "speaker": "Unknown",
+      "en": "We get used to thinking about modeling capabilities, building the right sandbox for the task, putting the task in, and now we're starting to see that this individual loop is safer because it has less access than the entire workflow effectively has.",
+      "zh": "我们习惯于考虑建模能力、为任务构建合适的沙箱、把任务放进去，而现在我们开始看到，这个个体循环更安全，因为它拥有的访问权限比整个工作流实际拥有的要少。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Unknown",
+      "en": "Never have any creds anywhere in any harnesses.",
+      "zh": "任何凭据都绝不出现在任何 harness 中的任何地方。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Unknown",
+      "en": "Disclose capabilities progressively into agents as they need them.",
+      "zh": "随着智能体的需要，渐进式地披露能力。"
+    },
+    {
+      "timestamp": "17:00",
+      "speaker": "Unknown",
+      "en": "This is where safety comes from.",
+      "zh": "这就是安全性的来源。"
+    }
+  ],
+  "voice_script": "半年前,大多数人还坐在电脑前,盯着 AI 智能体的每一个动作,它每发一个请求,人就点一下\"是、是、是\"。现在不一样了,智能体开始独立跑几个小时的长任务,人可以走开去干别的。那问题就来了:你不盯着的时候,怎么保证它不闯祸?今天这期,就是 Docker 的工程师 Jim Clark 给出的答案。\n\n先交代一下为什么这事现在值得聊。智能体干活的逻辑是这样的:有个工作框架,收进上下文,吐出工具调用,一个循环。Jim 说得很直白,这个框架本身其实很笨,真正危险的不是框架,是它手里握着的资源和工具。你想想,一个能自主行动的程序,拿着你的权限、你的密钥、你公司系统的入口,一旦判断错了,后果是直接落在真实世界里的。所以 Jim 把问题拆成三层:工作框架、干活的沙箱,还有连接外部工具的 MCP——MCP 是一种开放协议,说白了就是让 AI 智能体接上外部工具和数据源的接口,比如 Notion、GitHub 这些。\n\n那怎么管住这些工具?Jim 用了个特别形象的比喻:报纸编辑室。记者跑出去到处搜集信息,但不能直接发文;核查员核对事实,但根本不需要上网;撰稿人拿到的是核查过的材料,才握有发布权限。三个角色分开,谁也不掌握全部权力。放到智能体上就是:研究员沙箱可以随便上网,但没有写入公司系统的工具;事实核查员能查内部数据库,但完全断网;到发布这一环,才拿到 Notion 或者发布工具的接口。整条流程合起来能力很强,但在任何一个单独的沙箱里,都不会同时出现\"能读任意内容\"加\"能对外操作\"这个危险组合。用 Jim 自己的话说,在每个单独的时间点,我们都不会出现既能读取疯狂未过滤的上下文、又能用工具做事情的情况。\n\n顺着这个思路,还有一个更具体的问题:沙箱该开多大、给多少权限?Jim 讲了自己搭编程智能体的经验。任务可能要跑一个小时,但真正需要提交代码、用到签名密钥的时间,可能只有两分钟。那为什么密钥要在沙箱里待满一个小时?所以他的原则是,沙箱按任务意图建模。如果知道智能体想干什么,就用那个意图来决定给它什么能力:这一步不做提交,就不该有签名密钥;这一步不需要网络,就彻底断网。能力随需给,用完就收回。\n\n接下来是落地的问题。Docker 的 Sandbox 产品,核心设计是在每个沙箱里放一个网关端点,所有工具调用、所有资源获取,都从这个单一关口进出。这样做有两个好处。第一,网关成了控制点,哪个沙箱能用哪些工具、资源和提示,由沙箱配置说了算。第二,各种工作框架都变得跟 MCP 无关了,不用在 Codex 里配一遍、Claude Code 里再配一遍,框架本身变成了沙箱里一个可以随意替换的参数。\n\n而这一切的答案,就藏在演讲标题那个问题里:沙箱里应该放多少凭据?Jim 的回答干脆利落——正确答案永远是零。凭据不进沙箱,智能体犯错的爆炸半径就被压到最小了。那问题来了,零凭据,真需要授权的时候怎么办?比如任务到了要提交代码那一步,总得给它权限吧。\n\n答案是复用公司现有的那套体系。Docker、Anthropic 和 Okta 正在合作推动一个叫 XAA 的方案。道理其实很朴素:公司早就有了单点登录和身份管理,Notion、GitHub、Slack 这些服务也早就接好了,但智能体至今够不着它们。XAA 的做法是,由沙箱和网关定义智能体的身份,也就是它代表谁在干活,然后拿这个身份去和公司已有的身份提供商交换声明,换回一个授权许可——这是新版 MCP 规范里的新概念。没有疯狂的同意弹窗,公司就能集中管理智能体对所有内部服务的访问,已有的投资直接复用。\n\n这个思路还有个副产品,叫渐进式披露。一个完整的工作流可能用到 50 个 MCP,但每个沙箱不需要装着全部 50 个,工具和资源按需逐步给进去。附带的好处是上下文体积更小,智能体跑起来也更轻。编排器的职责随之清晰了:接到任务,先问需要什么能力,再决定放进哪个沙箱、配哪些工具、给什么网络规则。\n\n回头想想,Jim 说这一切本质上就是把智能体容器化——这也是他为什么在 Docker 做这件事的原因。现场就可以通过 brew install SBX 装到这个工具。给智能体解决问题的空间,但让单个沙箱只表达任务的意图——凭据永远放零,授权永远走网关,这就是让 AI 放心替你长时间干活的全部心法。"
+}

@@ -166,8 +166,8 @@ Apify创始人兼CEO [[Jan Čurn|Jan Čurn]]这场演讲要回答的问题是：
 **顺着「智能体」挖下去**
 
 - [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、MCP、上下文窗口 (context window)、子智能体 (sub-agent)、沙箱 (sandbox)</span>
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、MCP、沙箱 (sandbox)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:MCP、沙箱 (sandbox)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

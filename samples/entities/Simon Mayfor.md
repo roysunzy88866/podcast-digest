@@ -22,7 +22,7 @@ unlisted: true
 
 [[智能体]] · [[Ian Livingstone]] · [[Dex Horthy]] · [[Glyfer Johnny]] · [[软件工厂]] · [[Key Card]] · [[上下文工程]] · [[身份]] · [[规范]] · [[使命]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Ian Livingstone":1,"Dex Horthy":2,"Glyfer Johnny":1,"软件工厂":1,"Key Card":1,"上下文工程":16,"身份":5,"规范":2,"使命":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Ian Livingstone":1,"Dex Horthy":2,"Glyfer Johnny":1,"软件工厂":1,"Key Card":1,"上下文工程":16,"身份":5,"规范":2,"使命":2}</script>
 
 <script>
 (function(){

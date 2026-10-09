@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google":67,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":448,"DeepMind":15,"Gemini":15,"光路交换":1,"专业化":3}</script>
+<script type="application/json" class="pd-epn">{"Google":67,"TPU":4,"AI 数据中心":1,"有效产出":1,"协同设计":3,"智能体":449,"DeepMind":16,"Gemini":15,"光路交换":1,"专业化":3}</script>
 
 <script>
 (function(){

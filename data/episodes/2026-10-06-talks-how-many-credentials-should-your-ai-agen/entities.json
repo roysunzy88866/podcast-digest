@@ -1,0 +1,1001 @@
+{
+  "episode_id": "2026-10-06-talks-how-many-credentials-should-your-ai-agen",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "沙箱",
+    "MCP",
+    "凭据管理"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "jim-clark",
+      "type": "person",
+      "role": "guest",
+      "name": "Jim Clark",
+      "file": "Jim Clark",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体开始独立跑几小时的长任务,不再需要人逐条确认;要把智能体「容器化」,给它表达任务意图的沙箱,能力随需给、用完收回。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            106.596,
+            117.358
+          ],
+          "quote": "I sort of decide that my metric for me having designed a problem that an agent can sink its teeth into is that I don't really need to give it a lot of supervision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            131.821,
+            133.901
+          ],
+          "quote": "We need to talk about agent harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            135.068,
+            137.309
+          ],
+          "quote": "What the agent harnesses do for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            140.291,
+            146.334
+          ],
+          "quote": "Like, when an agent harness delivers work, what is the thing it delivers work into?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            153.838,
+            155.139
+          ],
+          "quote": "Let's start with the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            159.428,
+            167.631
+          ],
+          "quote": "I mean, it would be an oversimplification to say that an agent harness is something which just takes in context and emits tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            273.371,
+            278.394
+          ],
+          "quote": "It would make you feel like you limited the blast radius for what could go wrong when that agent is working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            283.196,
+            285.617
+          ],
+          "quote": "Sandbox is a place for an agent to do work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            320.618,
+            328.424
+          ],
+          "quote": "That helps us feel safer about letting the agent run for longer periods of time if this sandbox is smaller.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            441.406,
+            448.449
+          ],
+          "quote": "Just write your research out to a, I don't know, to some temp directory, some private thing that is local to this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            492.032,
+            495.738
+          ],
+          "quote": "And that effective agent has a bunch of MCPs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            529.122,
+            532.165
+          ],
+          "quote": "Actually, this is how I build my coding agent right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            532.865,
+            537.63
+          ],
+          "quote": "I tend to send the coding agent off to do pretty long-running tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            551.357,
+            556.241
+          ],
+          "quote": "But the amount of time that my agent is actually committing is almost nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            576.673,
+            584.055
+          ],
+          "quote": "The actual sandbox that an agent is running a task in is modeled after the intent of what I'm doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.523,
+            655.979
+          ],
+          "quote": "So imagine it's something like an internal URL, mcpgateway.docker.internal, or something like this, that every single agent harness has, and all traffic, all resources that you need to pull in, all tool calls, move through this one single gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            732.319,
+            743.55
+          ],
+          "quote": "And the blast radius of an agent doing something incorrect if there are absolutely no credentials in there is reduced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            787.533,
+            790.315
+          ],
+          "quote": "But it's not yet accessible to your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            795.693,
+            807.803
+          ],
+          "quote": "Your harness, your sandbox, and your gateway can define things like agent identity or who are you that this agent is behaving on behalf of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            826.923,
+            831.667
+          ],
+          "quote": "And with that authorization grant, we're granting access to this actor, to this agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            845.62,
+            859.324
+          ],
+          "quote": "But suddenly, without any crazy consent screens, yeah, you can do that, yeah, you can do that, yeah, you can do that, we can centralize the administration of what an agent now does with all these existing resource servers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把沙箱说成智能体执行工作的隔离环境:按任务意图建模、边界尽量小,从而在智能体无人监督长时间运行时限制出错的爆炸半径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            261.544,
+            273.331
+          ],
+          "quote": "And if you knew that the sandbox that you built had the right resources, had the right tools, and only those resources and tools, it would make you feel safer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            283.196,
+            285.617
+          ],
+          "quote": "Sandbox is a place for an agent to do work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            300.085,
+            305.088
+          ],
+          "quote": "Maybe like when you first started using some of these agents, the sandbox was your entire laptop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            311.992,
+            320.198
+          ],
+          "quote": "We're trying to make the sandbox boundaries small enough that they can actually just do the task that we want them to execute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            320.618,
+            328.424
+          ],
+          "quote": "That helps us feel safer about letting the agent run for longer periods of time if this sandbox is smaller.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            333.372,
+            336.796
+          ],
+          "quote": "It's not that we're trying to sandbox the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            408.012,
+            411.874
+          ],
+          "quote": "So that researcher sandbox, I think about that as the reporter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            412.274,
+            413.915
+          ],
+          "quote": "And when we define that sandbox,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            434.44,
+            437.162
+          ],
+          "quote": "So our sandbox is like, yeah, not too many tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            455.892,
+            457.492
+          ],
+          "quote": "Let's put that in a different sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            576.673,
+            584.055
+          ],
+          "quote": "The actual sandbox that an agent is running a task in is modeled after the intent of what I'm doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            584.796,
+            591.758
+          ],
+          "quote": "So if I'm not going to make a commit, I don't want my commit signatures, my commit signing keys inside that sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            607.649,
+            617.852
+          ],
+          "quote": "So this is driving, in our Docker Sandbox product, this is defining a lot of how we're thinking about exposing things like an MCP gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            618.652,
+            623.934
+          ],
+          "quote": "So when you build a sandbox, of course you have to put a harness in that to do things for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            662.057,
+            666.34
+          ],
+          "quote": "So the gateway manages which tools, resources, and prompts are given to each sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            676.486,
+            682.99
+          ],
+          "quote": "The configuration of the sandbox controls what you can do inside of that sandbox with things like MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            696.689,
+            701.134
+          ],
+          "quote": "You just have one, you almost make the harness a parameter of the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            716.462,
+            724.947
+          ],
+          "quote": "In fact, I would say that a maxim that you can use here is how many credentials should be in a sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            795.693,
+            807.803
+          ],
+          "quote": "Your harness, your sandbox, and your gateway can define things like agent identity or who are you that this agent is behaving on behalf of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            882.359,
+            895.271
+          ],
+          "quote": "And, of course, it's amazing because we keep context size down just because you might at some point in a workflow use 50 different MCPs doesn't mean that each sandbox has to have all 50 of those MCPs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            918.222,
+            920.923
+          ],
+          "quote": "And I need to put a task into a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            921.463,
+            923.304
+          ],
+          "quote": "So what sandbox do I put it in?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            954.326,
+            972.642
+          ],
+          "quote": "We get used to thinking about modeling capabilities, building the right sandbox for the task, putting the task in, and now we're starting to see that this individual loop is safer because it has less access than the entire workflow effectively has.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是智能体连接外部工具与资源的通道,让 harness 能拉入新上下文和新工具;其新版规范新增了授权许可(IDJAG)概念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            57.771,
+            59.871
+          ],
+          "quote": "And I'm going to talk to you about MCP gateways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            479.223,
+            486.007
+          ],
+          "quote": "But we do want to give it our Notion MCP or our Publisher MCP, because it's just looking at filtered research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            495.778,
+            497.841
+          ],
+          "quote": "Maybe it has an MCP for publishing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            497.861,
+            499.563
+          ],
+          "quote": "It has an MCP for fact checking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            607.649,
+            617.852
+          ],
+          "quote": "So this is driving, in our Docker Sandbox product, this is defining a lot of how we're thinking about exposing things like an MCP gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            630.456,
+            633.697
+          ],
+          "quote": "And that gateway endpoint funnels all MCP traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            676.486,
+            682.99
+          ],
+          "quote": "The configuration of the sandbox controls what you can do inside of that sandbox with things like MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            683.85,
+            688.433
+          ],
+          "quote": "Another nice thing is suddenly all your harnesses are MCP agnostic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            709.817,
+            716.081
+          ],
+          "quote": "So it feels that MCP is a good place to manage things like credentials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            816.396,
+            825.562
+          ],
+          "quote": "You can get back a new thing, which is a new part of this spec that you'll now see in the latest version of MCP called an IDJAG, an authorization grant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            863.436,
+            870.765
+          ],
+          "quote": "So the MCP gateways, I like to think are, we're starting to talk about progressive disclosure, it's a term we learned from skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 网关 (gateway)",
+      "file": "MCP 网关",
+      "primary": true,
+      "how_described": "本集说 Docker Sandbox 在每个沙箱里放一个网关端点(如 mcpgateway.docker.internal),汇聚所有 MCP 流量,成为控制点并让各 harness MCP 无关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            607.649,
+            617.852
+          ],
+          "quote": "So this is driving, in our Docker Sandbox product, this is defining a lot of how we're thinking about exposing things like an MCP gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            624.494,
+            629.135
+          ],
+          "quote": "And then we're just putting a little gateway endpoint into that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            630.456,
+            633.697
+          ],
+          "quote": "And that gateway endpoint funnels all MCP traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.523,
+            655.979
+          ],
+          "quote": "So imagine it's something like an internal URL, mcpgateway.docker.internal, or something like this, that every single agent harness has, and all traffic, all resources that you need to pull in, all tool calls, move through this one single gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            662.057,
+            666.34
+          ],
+          "quote": "So the gateway manages which tools, resources, and prompts are given to each sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            672.723,
+            675.605
+          ],
+          "quote": "I'm giving you this gateway endpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            795.693,
+            807.803
+          ],
+          "quote": "Your harness, your sandbox, and your gateway can define things like agent identity or who are you that this agent is behaving on behalf of.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 harness (harness)",
+      "file": "智能体 harness",
+      "primary": true,
+      "how_described": "本集说 agent harness 其实很笨:接受上下文、发出工具调用、一个循环而已;它演化很快、会被不断替换,真正的危险在流入它的工具和上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            140.291,
+            146.334
+          ],
+          "quote": "Like, when an agent harness delivers work, what is the thing it delivers work into?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            153.838,
+            155.139
+          ],
+          "quote": "Let's start with the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            159.428,
+            167.631
+          ],
+          "quote": "I mean, it would be an oversimplification to say that an agent harness is something which just takes in context and emits tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            207.127,
+            211.831
+          ],
+          "quote": "But a harness by itself is just kind of in a little bit of a dead room.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            333.372,
+            336.796
+          ],
+          "quote": "It's not that we're trying to sandbox the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            337.557,
+            339.939
+          ],
+          "quote": "The harness is kind of already sandboxed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            341.621,
+            346.347
+          ],
+          "quote": "We're trying to harness the tools and the context that are flowing into this harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            618.652,
+            623.934
+          ],
+          "quote": "So when you build a sandbox, of course you have to put a harness in that to do things for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.523,
+            655.979
+          ],
+          "quote": "So imagine it's something like an internal URL, mcpgateway.docker.internal, or something like this, that every single agent harness has, and all traffic, all resources that you need to pull in, all tool calls, move through this one single gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            666.9,
+            672.463
+          ],
+          "quote": "So you're starting to see the beginnings of your ability to say, OK, I'm giving you a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            696.689,
+            701.134
+          ],
+          "quote": "You just have one, you almost make the harness a parameter of the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            701.795,
+            707.823
+          ],
+          "quote": "Stick a harness in, stick the MCPs you need in, give it some network rules, Bob's your uncle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            795.693,
+            807.803
+          ],
+          "quote": "Your harness, your sandbox, and your gateway can define things like agent identity or who are you that this agent is behaving on behalf of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            927.104,
+            928.625
+          ],
+          "quote": "And, of course, it needs a harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "credentials",
+      "type": "concept",
+      "role": "concept",
+      "name": "凭据 (credentials)",
+      "file": "凭据",
+      "primary": true,
+      "how_described": "本集的准则:沙箱里应该有多少凭据?正确答案永远是零;凭据不进沙箱,智能体犯错的爆炸半径就被压到最小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            709.817,
+            716.081
+          ],
+          "quote": "So it feels that MCP is a good place to manage things like credentials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            716.462,
+            724.947
+          ],
+          "quote": "In fact, I would say that a maxim that you can use here is how many credentials should be in a sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            732.319,
+            743.55
+          ],
+          "quote": "And the blast radius of an agent doing something incorrect if there are absolutely no credentials in there is reduced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            754.488,
+            762.394
+          ],
+          "quote": "And I think this is a really great illustration of why sandboxes and managing credentials in this way is important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": true,
+      "how_described": "本集借用 skills 中的「渐进式披露」一词:工具、资源和 MCP 按需逐步给进沙箱,还能把上下文体积保持得更小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            863.436,
+            870.765
+          ],
+          "quote": "So the MCP gateways, I like to think are, we're starting to talk about progressive disclosure, it's a term we learned from skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "xaa",
+      "type": "concept",
+      "role": "concept",
+      "name": "XAA",
+      "file": "XAA",
+      "primary": true,
+      "how_described": "本集说 Docker、Anthropic、Okta 正在合作推进 XAA(Cross App Application):沙箱和网关定义智能体身份,与企业已有身份提供方交换声明换回授权许可,复用公司现有 SSO 体系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            744.66,
+            753.667
+          ],
+          "quote": "So one of the things that Docker, Anthropic, Okta are all partnering on is a new thing called XAA, Cross App Application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "type": "company",
+      "role": "company",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": true,
+      "how_described": "本集是 Docker 工程师 Jim Clark 的演讲;他在 Docker 做 MCP 网关和把智能体容器化的工作,并推出 Docker Sandbox 产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            23.053,
+            25.254
+          ],
+          "quote": "I'm an engineer at Docker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            64.113,
+            75.198
+          ],
+          "quote": "So I'm going to kind of go through sandboxes, gateways, harnesses, and sort of motivate why we're talking about AI safety at Docker right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            607.649,
+            617.852
+          ],
+          "quote": "So this is driving, in our Docker Sandbox product, this is defining a lot of how we're thinking about exposing things like an MCP gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.523,
+            655.979
+          ],
+          "quote": "So imagine it's something like an internal URL, mcpgateway.docker.internal, or something like this, that every single agent harness has, and all traffic, all resources that you need to pull in, all tool calls, move through this one single gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            744.66,
+            753.667
+          ],
+          "quote": "So one of the things that Docker, Anthropic, Okta are all partnering on is a new thing called XAA, Cross App Application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            980.68,
+            982.826
+          ],
+          "quote": "I guess is why I'm at Docker.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sbx",
+      "type": "company",
+      "role": "company",
+      "name": "SBX",
+      "file": "SBX",
+      "primary": false,
+      "how_described": "本集说今天讲的一切就是这个工具 SBX,可通过 brew install SBX 安装,用来构建沙箱容器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1051.845,
+            1054.908
+          ],
+          "quote": "Anyone just brew install SBX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1055.549,
+            1059.093
+          ],
+          "quote": "Everything I've been talking about today is this tool SBX.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "okta",
+      "type": "company",
+      "role": "company",
+      "name": "Okta",
+      "file": "Okta",
+      "primary": false,
+      "how_described": "本集提到 Okta 与 Docker、Anthropic 合作推动 XAA,复用企业已有的身份管理与单点登录体系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            744.66,
+            753.667
+          ],
+          "quote": "So one of the things that Docker, Anthropic, Okta are all partnering on is a new thing called XAA, Cross App Application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 是 XAA(Cross App Application)方案的合作伙伴之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            744.66,
+            753.667
+          ],
+          "quote": "So one of the things that Docker, Anthropic, Okta are all partnering on is a new thing called XAA, Cross App Application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -27,7 +27,7 @@ unlisted: true
 
 [[RAG]] · [[Yuval Belfer]] · [[Jerry Liu]] · [[AI21]] · [[LlamaParse]] · [[分块]] · [[LightParse]] · [[智能体搜索]] · [[parsebench]] · [[多尺度索引]]
 
-<script type="application/json" class="pd-epn">{"RAG":27,"Yuval Belfer":1,"Jerry Liu":1,"AI21":1,"LlamaParse":1,"分块":1,"LightParse":1,"智能体搜索":4,"parsebench":1,"多尺度索引":1}</script>
+<script type="application/json" class="pd-epn">{"RAG":28,"Yuval Belfer":1,"Jerry Liu":1,"AI21":1,"LlamaParse":1,"分块":1,"LightParse":1,"智能体搜索":4,"parsebench":1,"多尺度索引":1}</script>
 
 <script>
 (function(){

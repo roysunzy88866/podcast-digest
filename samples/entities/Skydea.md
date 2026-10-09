@@ -25,7 +25,7 @@ unlisted: true
 
 [[Suchet Bargoti]] · [[无人机基础设施]] · [[智能体]] · [[自主性]] · [[强化学习]] · [[世界模型]] · [[VLM]] · [[端到端训练]] · [[机坞]] · [[学习飞轮]]
 
-<script type="application/json" class="pd-epn">{"Suchet Bargoti":1,"无人机基础设施":1,"智能体":448,"自主性":10,"强化学习":1,"世界模型":13,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Suchet Bargoti":1,"无人机基础设施":1,"智能体":449,"自主性":10,"强化学习":1,"世界模型":13,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
 
 <script>
 (function(){

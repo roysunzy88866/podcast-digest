@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":192,"OpenAI":181,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":23,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":194,"OpenAI":182,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":23,"前沿模型":27}</script>
 
 <script>
 (function(){

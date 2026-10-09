@@ -129,8 +129,8 @@ AI 基础设施的第一阶段是更好的模型，当前阶段是更快的推�
 **顺着「智能体」挖下去**
 
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同概念:GPU、KVCache、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|让小模型先猜，大模型来批：推理加速值不值？]]<span class="pd-rz">同概念:GPU、KVCache、推理 (inference)、vLLM、投机解码 (speculative decoding)</span>
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法]]<span class="pd-rz">同概念:GPU、推理 (inference)、智能体 (agent)</span>
-- [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:GPU、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

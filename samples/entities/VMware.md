@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Justin Smith]] · [[Pat Gelsinger]] · [[Resolve AI]] · [[Intel]] · [[Splunk]] · [[Playground Global]] · [[GitHub]] · [[NVIDIA]] · [[Kafka]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"Justin Smith":1,"Pat Gelsinger":1,"Resolve AI":2,"Intel":4,"Splunk":3,"Playground Global":1,"GitHub":30,"NVIDIA":64,"Kafka":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"Justin Smith":1,"Pat Gelsinger":1,"Resolve AI":2,"Intel":4,"Splunk":3,"Playground Global":1,"GitHub":30,"NVIDIA":64,"Kafka":3}</script>
 
 <script>
 (function(){

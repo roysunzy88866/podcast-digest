@@ -114,7 +114,7 @@ jsonLd: |
 
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|解锁智能体自主性：安全才是下一个瓶颈]]<span class="pd-rz">同公司:Docker、Claude · 同概念:微型虚拟机 (microVM)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|PostHog 把智能体装进终端，再给它请了个“保镖”]]<span class="pd-rz">同概念:提示词 (prompts)、智能体 (agent)、沙箱 (sandbox)、MCP 服务器 (MCP server)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude、Claude Code · 同概念:智能体 (agent)</span>
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课]]<span class="pd-rz">同公司:Docker、SBX · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

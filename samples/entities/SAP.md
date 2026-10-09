@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Harvey]] · [[人在回路]] · [[Decagon]] · [[评估]] · [[护城河]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"智能体":448,"OpenAI":181,"Anthropic":192,"Salesforce":34,"Harvey":20,"人在回路":21,"Decagon":9,"评估":5,"护城河":14,"微调":34}</script>
+<script type="application/json" class="pd-epn">{"智能体":449,"OpenAI":182,"Anthropic":194,"Salesforce":34,"Harvey":20,"人在回路":21,"Decagon":9,"评估":5,"护城河":14,"微调":34}</script>
 
 <script>
 (function(){

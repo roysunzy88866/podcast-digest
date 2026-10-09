@@ -25,7 +25,7 @@ unlisted: true
 
 [[Young]] · [[Nikhil]] · [[Connor]] · [[Crusoe]] · [[Slurm]] · [[Kubernetes]] · [[AutoClusters]] · [[Crusoe Managed Slurm]] · [[多节点训练]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":18,"AutoClusters":1,"Crusoe Managed Slurm":1,"多节点训练":1,"推理":88}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":18,"AutoClusters":1,"Crusoe Managed Slurm":1,"多节点训练":1,"推理":89}</script>
 
 <script>
 (function(){

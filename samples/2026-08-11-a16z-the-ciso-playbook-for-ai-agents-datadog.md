@@ -121,9 +121,9 @@ jsonLd: |
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课]]<span class="pd-rz">同概念:凭证 (credentials)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

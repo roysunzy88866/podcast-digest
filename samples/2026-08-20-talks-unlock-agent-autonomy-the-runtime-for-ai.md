@@ -137,9 +137,9 @@ jsonLd: |
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课]]<span class="pd-rz">同公司:Docker · 同概念:harness、MCP、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-10-03-talks-yolo-mode-safely-microvm-sandboxes-for-a|我用五个提示词「黑」了自己：你的 AI 助手并不安全]]<span class="pd-rz">同公司:Docker · 同概念:MicroVM、智能体 (agent)、沙箱 (sandbox)、Claude</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

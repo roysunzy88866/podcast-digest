@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Legora":3,"智能体":448,"微调":34,"评估":5,"GPT 3.5":1,"大语言模型":10,"LangChain":10,"Azure":3,"Bloomberg":3,"OpenAI":181}</script>
+<script type="application/json" class="pd-epn">{"Legora":3,"智能体":449,"微调":34,"评估":5,"GPT 3.5":1,"大语言模型":10,"LangChain":10,"Azure":3,"Bloomberg":3,"OpenAI":182}</script>
 
 <script>
 (function(){
