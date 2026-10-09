@@ -134,6 +134,7 @@ jobs:
         id: pipeline
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }} # C43:Jev 判跨国串门选题跟 AI 关不关(2026-10-09 用户)
           # drift #88:CONDENSE_MODEL 曾于 2026-09-04 钉成 glm-5.3,首班即 3 集 ×3 次全「格式解析失败」、零产出 → 已撤回。
           # 撤回理由(我当初漏读的):tools/glm-ask 的注释白纸黑字记着 2026-08-15 冷测结论 ——
           #   「5.2 抽风返回空、**5.3 给 condense 长稿吐坏 JSON 连 jsonrepair 都修不了** → 切 turbo,冷测两集浓缩干净可过」。

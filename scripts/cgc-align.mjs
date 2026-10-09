@@ -44,10 +44,35 @@ export function parseCgcFeed(xml) {
       origTitle,
       origISO: odt && !Number.isNaN(+odt) ? odt.toISOString() : "",
       durMin: durMin(tag("itunes:duration")),
+      desc: jevDesc(desc),
     });
   }
   return out;
 }
+
+/** 简介 → 给 Jev 看的材料:去文字稿链接、去时间戳目录,留导语 + 「精彩内容」,1500 字封顶。 */
+function jevDesc(d) {
+  const t = d.replace(/文字稿[:\uFF1A]\s*\S+/g, "");
+  return `${t.split("⏱️")[0]} ${t.split("🌟")[1] ?? ""}`.replace(/\s+/g, " ").trim().slice(0, 1500);
+}
+
+// 2026-10-09 用户:「把跨国串门挑选过的内容一律做 jev 分类,把 ai 相关的都收了」。
+// Jev(只做选择题的极速模型,_手册/jev-决策模型.md)看它的标题 + 中文简介判「跟 AI 关系多大」;主讲/重要话题之一 = 收,基本不讲 = 不对齐。
+// 实测它近 60 天 95 期:主讲 55 / 重要话题之一 14 / 基本不讲 26,跑两遍逐条一致。
+export const JEV_AI_QUESTION = {
+  ai: {
+    type: "choice",
+    instructions: "这期播客的内容跟人工智能(AI)关系有多大?只按这期实际讨论的内容判断。",
+    criteria: {
+      main: "整期主要在讲 AI:AI 模型/产品/公司/研究,用 AI 做事,或 AI 对行业、工作、社会的影响",
+      part: "AI 是这期的重要话题之一,有专门的段落展开讨论,但不是全部",
+      none: "基本不讲 AI,或只是顺带提一两句",
+    },
+  },
+};
+export const jevState = (e) => `标题:${e.title}\n简介:${e.desc ?? ""}`;
+/** Jev 的回答 → 收不收(主讲 / 重要话题之一都收)。 */
+export const jevIsAi = (answers) => ["main", "part"].includes(answers?.ai?.choice);
 
 /** 合集/整套讲座/超长 → 不对齐(不是单期访谈,也放不进一班)。 */
 export function isCompilation(e) {

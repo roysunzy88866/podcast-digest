@@ -1,7 +1,7 @@
 // C43 · 跨国串门对齐(用户 2026-10-09:「让每天每期的内容都能跟他对齐」)
 import { describe, it, expect } from "vitest";
-import { parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, ourSourceFor, cgcKey, durMin } from "../scripts/cgc-align.mjs";
-import { resolveCgc, activeSources, talkItemFromSeed, sourceForId, SOURCES } from "../scripts/run-pipeline.mjs";
+import { parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, ourSourceFor, cgcKey, durMin, jevState, jevIsAi } from "../scripts/cgc-align.mjs";
+import { resolveCgc, cgcIsAi, activeSources, talkItemFromSeed, sourceForId, SOURCES } from "../scripts/run-pipeline.mjs";
 import { pickCgcVideo } from "../scripts/patrol-talks.mjs";
 
 const item = (title: string, desc: string, dur = "3600", pub = "Wed, 07 Oct 2026 07:19:16 GMT") =>
@@ -93,4 +93,28 @@ describe("C43 · 对齐专用源与必收种子", () => {
 
 it("titleSim 健全性", () => {
   expect(titleSim("a b c", "")).toBe(0);
+});
+
+describe("C43 · Jev 只收跟 AI 相关的(用户 2026-10-09「把 ai 相关的都收了」)", () => {
+  it("★★★ 主讲 AI / AI 是重要话题之一 → 收;基本不讲 → 不收;没答出来 → 不当收", () => {
+    expect(jevIsAi({ ai: { choice: "main" } })).toBe(true);
+    expect(jevIsAi({ ai: { choice: "part" } })).toBe(true);
+    expect(jevIsAi({ ai: { choice: "none" } })).toBe(false);
+    expect(jevIsAi(undefined)).toBe(false);
+  });
+  it("★★ 给 Jev 的材料:标题 + 简介导语与精彩内容,不带文字稿链接和时间戳目录", () => {
+    const [e] = parseCgcFeed(item("#758. 李录", "李录哥大交流会 原内容更新时间：2026-10-06 AI 会不会变成人造的神 文字稿： https://x.cn/doc ⏱️ 时间戳 00:00 安全边际 🌟 精彩内容 AI 是工具"));
+    const s = jevState(e);
+    expect(s).toContain("标题:#758. 李录");
+    expect(s).toContain("人造的神");
+    expect(s).toContain("AI 是工具");
+    expect(s).not.toContain("https://");
+    expect(s).not.toContain("安全边际");
+  });
+  it("★★★ Jev 没问成(网络断 / 4xx)→ undefined,下班再试,不当「不相关」", async () => {
+    const e = { title: "t", desc: "d" };
+    expect(await cgcIsAi(e, async () => new Response(JSON.stringify({ answers: { ai: { choice: "none" } } })))).toBe(false);
+    expect(await cgcIsAi(e, async () => new Response(JSON.stringify({ answers: { ai: { choice: "main" } } })))).toBe(true);
+    expect(await cgcIsAi(e, async () => new Response("bad", { status: 401 }))).toBeUndefined();
+  });
 });
