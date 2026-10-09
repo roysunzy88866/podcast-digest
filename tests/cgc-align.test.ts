@@ -1,6 +1,6 @@
 // C43 · 跨国串门对齐(用户 2026-10-09:「让每天每期的内容都能跟他对齐」)
 import { describe, it, expect } from "vitest";
-import { parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, ourSourceFor, cgcKey, durMin, jevState, jevIsAi } from "../scripts/cgc-align.mjs";
+import { parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, ourSourceFor, cgcKey, durMin, jevState, jevWanted } from "../scripts/cgc-align.mjs";
 import { resolveCgc, cgcIsAi, activeSources, talkItemFromSeed, sourceForId, SOURCES } from "../scripts/run-pipeline.mjs";
 import { pickCgcVideo } from "../scripts/patrol-talks.mjs";
 
@@ -96,11 +96,12 @@ it("titleSim 健全性", () => {
 });
 
 describe("C43 · Jev 只收跟 AI 相关的(用户 2026-10-09「把 ai 相关的都收了」)", () => {
-  it("★★★ 主讲 AI / AI 是重要话题之一 → 收;基本不讲 → 不收;没答出来 → 不当收", () => {
-    expect(jevIsAi({ ai: { choice: "main" } })).toBe(true);
-    expect(jevIsAi({ ai: { choice: "part" } })).toBe(true);
-    expect(jevIsAi({ ai: { choice: "none" } })).toBe(false);
-    expect(jevIsAi(undefined)).toBe(false);
+  it("★★★ 主讲 AI / AI 是重要话题之一 / 讲科技创业经营 → 收;都不是 → 不收;没答出来 → 不当收", () => {
+    expect(jevWanted({ ai: { choice: "main" }, startup: { choice: "no" } })).toBe(true);
+    expect(jevWanted({ ai: { choice: "part" }, startup: { choice: "no" } })).toBe(true);
+    expect(jevWanted({ ai: { choice: "none" }, startup: { choice: "yes" } })).toBe(true); // Snapchat 增长 / Cursor 招人(用户点名喜欢)
+    expect(jevWanted({ ai: { choice: "none" }, startup: { choice: "no" } })).toBe(false); // Huberman / 费曼 / 劳力士
+    expect(jevWanted(undefined)).toBe(false);
   });
   it("★★ 给 Jev 的材料:标题 + 简介导语与精彩内容,不带文字稿链接和时间戳目录", () => {
     const [e] = parseCgcFeed(item("#758. 李录", "李录哥大交流会 原内容更新时间：2026-10-06 AI 会不会变成人造的神 文字稿： https://x.cn/doc ⏱️ 时间戳 00:00 安全边际 🌟 精彩内容 AI 是工具"));

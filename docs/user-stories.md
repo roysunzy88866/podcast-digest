@@ -2983,4 +2983,8 @@ Feature: 每天每期跟跨国串门对齐
     When  Jev 看标题 + 中文简介判跟 AI 的关系
     Then  Huberman 判「基本不讲」→ 记「非 AI(Jev),不对齐」;李录判「AI 是重要话题之一」→ 照常找原集必收
     And   Jev 没问成(网络断 / 缺 key)→ 不当不相关,下班再试
+  Scenario: 不讲 AI 但讲科技创业经营的也收(用户点名喜欢)
+    Given 它选了 Lenny's「Snapchat:增长来自核心产品」/ Huberman「幸福由愉悦、满足与意义构成」
+    When  Jev 第二题判「是不是在讲科技公司怎么做成事」
+    Then  Snapchat 判是 → 收;Huberman 判否 → 不对齐
 ```

@@ -59,6 +59,8 @@ function jevDesc(d) {
 // 2026-10-09 用户:「把跨国串门挑选过的内容一律做 jev 分类,把 ai 相关的都收了」。
 // Jev(只做选择题的极速模型,_手册/jev-决策模型.md)看它的标题 + 中文简介判「跟 AI 关系多大」;主讲/重要话题之一 = 收,基本不讲 = 不对齐。
 // 实测它近 60 天 95 期:主讲 55 / 重要话题之一 14 / 基本不讲 26,跑两遍逐条一致。
+// 同日用户看了「基本不讲」的 26 期,点名 Snapchat 增长 / Jen Abel 企业销售 / Cursor 人才负责人 / YC 创业课「都是我喜欢的」
+// → 同一次请求加第二题「是不是在讲科技公司/创业公司怎么做成事」,是 = 也收。实测 26 期里恰好捞回这 4 期 + Wardogs(游戏工作室经营)。
 export const JEV_AI_QUESTION = {
   ai: {
     type: "choice",
@@ -69,10 +71,18 @@ export const JEV_AI_QUESTION = {
       none: "基本不讲 AI,或只是顺带提一两句",
     },
   },
+  startup: {
+    type: "choice",
+    instructions: "这期播客是不是在讲科技公司、创业公司怎么做成事?只按这期实际讨论的内容判断。",
+    criteria: {
+      yes: "是:创业方法、做产品、用户增长、销售获客、融资、招人与团队管理等科技公司/创业公司的经营实操",
+      no: "不是:健康、科学、历史、政治、文学艺术、个人习惯、投资理财,或传统行业公司的故事",
+    },
+  },
 };
 export const jevState = (e) => `标题:${e.title}\n简介:${e.desc ?? ""}`;
-/** Jev 的回答 → 收不收(主讲 / 重要话题之一都收)。 */
-export const jevIsAi = (answers) => ["main", "part"].includes(answers?.ai?.choice);
+/** Jev 的回答 → 收不收:AI 主讲 / AI 是重要话题之一 / 讲科技创业经营,任一即收。 */
+export const jevWanted = (answers) => ["main", "part"].includes(answers?.ai?.choice) || answers?.startup?.choice === "yes";
 
 /** 合集/整套讲座/超长 → 不对齐(不是单期访谈,也放不进一班)。 */
 export function isCompilation(e) {

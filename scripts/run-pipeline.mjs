@@ -20,7 +20,7 @@ import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, 
 // C34 品味判官(有 isMain 守卫,import 无副作用):开始处理**之前**按品味档案判一次题材,
 // 偏题的直接不做 —— 省下 2-4 小时转写,也不再让「222 纳米杀菌灯」那类内容做完才被发现。
 import { judgeEpisodeTaste, judgeLogEntry } from "./taste-judge.mjs";
-import { CGC_FEED, CGC_WINDOW_DAYS, parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, dayGap, ourSourceFor, cgcKey, JEV_AI_QUESTION, jevState, jevIsAi } from "./cgc-align.mjs";
+import { CGC_FEED, CGC_WINDOW_DAYS, parseCgcFeed, isCompilation, titleSim, findByTitle, findByDate, dayGap, ourSourceFor, cgcKey, JEV_AI_QUESTION, jevState, jevWanted } from "./cgc-align.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -1682,7 +1682,7 @@ async function appleEpisode(e, fetchImpl = fetch) {
   return null;
 }
 
-/** Jev 判这期跟 AI 关不关(key 走 TYPESAFE_API_KEY)→ true/false | undefined(没问成,下班再试,不当「不相关」)。 */
+/** Jev 判这期要不要(AI 相关或科技创业经营;key 走 TYPESAFE_API_KEY)→ true/false | undefined(没问成,下班再试,不当「不相关」)。 */
 export async function cgcIsAi(e, fetchImpl = fetch) {
   for (const wait of [0, 2000, 5000, 10000]) {
     if (wait) await new Promise((r) => setTimeout(r, wait));
@@ -1693,7 +1693,7 @@ export async function cgcIsAi(e, fetchImpl = fetch) {
         body: JSON.stringify({ model: "jev-latest", state: jevState(e), questions: JEV_AI_QUESTION }),
         signal: AbortSignal.timeout(30000),
       });
-      if (r.ok) return jevIsAi((await r.json()).answers);
+      if (r.ok) return jevWanted((await r.json()).answers);
       if (![429, 500, 502, 503, 504, 529].includes(r.status)) return undefined;
     } catch { /* 网络抖动 → 重试 */ }
   }
@@ -1729,7 +1729,7 @@ export async function alignPass(state, { dryRun }) {
   state.cgcAlign = state.cgcAlign ?? {};
   const todo = parseCgcFeed(xml).filter((e) => e.pubISO >= floor && !state.cgcAlign[e.guid]);
   if (!todo.length) return { clean: 0, skipped: 0 };
-  if (!process.env.TYPESAFE_API_KEY) { console.error("   ⚠️ 跨国串门对齐:缺 TYPESAFE_API_KEY(Jev 分 AI 相关用),本班不对齐"); return { clean: 0, skipped: 0 }; }
+  if (!process.env.TYPESAFE_API_KEY) { console.error("   ⚠️ 跨国串门对齐:缺 TYPESAFE_API_KEY(Jev 分类用),本班不对齐"); return { clean: 0, skipped: 0 }; }
   console.log(`\n══ C43 跨国串门对齐:它近 ${CGC_WINDOW_DAYS} 天有 ${todo.length} 期待对齐(本班最多做 ${CGC_PER_SHIFT} 期)`);
   const feeds = new Map();
   const getFeed = async (src) => {
@@ -1745,7 +1745,7 @@ export async function alignPass(state, { dryRun }) {
     if (pairs.length >= CGC_PER_SHIFT) break;
     const ai = await cgcIsAi(e);
     if (ai === undefined) continue; // Jev 没问成 → 下班再试
-    if (!ai) { mark(e, "非 AI(Jev),不对齐"); continue; }
+    if (!ai) { mark(e, "非 AI 也非科技创业(Jev),不对齐"); continue; }
     const r = await resolveCgc(e, { sources: SOURCES, getFeed, completedTitles });
     if (!r) continue;
     if (r.status) { mark(e, r.status); continue; }
