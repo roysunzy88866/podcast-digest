@@ -1,0 +1,2076 @@
+{
+  "episode_id": "2026-10-07-pragmatic-building-resilient-systems-with-sam",
+  "podcast": "The Pragmatic Engineer",
+  "date": "2026-10-07",
+  "tags": [
+    "微服务",
+    "分布式系统",
+    "韧性工程",
+    "AI 写代码",
+    "可观测性"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "sam-newman",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Newman",
+      "file": "Sam Newman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.451,
+            4.312
+          ],
+          "quote": "Sam Newman is the author who wrote probably the most widely read book on microservices.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microservices",
+      "type": "concept",
+      "role": "concept",
+      "name": "微服务 (microservices)",
+      "file": "微服务",
+      "primary": true,
+      "how_described": "本集讲微服务 2011-2012 年在 ThoughtWorks 湖区研讨会上诞生（原叫 micro apps），Newman 定义两条硬性主张：独立可部署、按业务领域划边界，并称之为「万不得已时的架构」，最适合追求组织自治的大公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.451,
+            4.312
+          ],
+          "quote": "Sam Newman is the author who wrote probably the most widely read book on microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1,
+          "t": [
+            4.492,
+            9.114
+          ],
+          "quote": "And yet, as you heard, he said that microservices are an architecture of the last resort.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            10.914,
+            13.615
+          ],
+          "quote": "Sam was in the room when the term microservices was coined.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            177.509,
+            181.75
+          ],
+          "quote": "You've been known for a lot of your books, your takes on resilience systems, microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1150.736,
+            1153.177
+          ],
+          "quote": "I'd written the first book about microservices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1211.309,
+            1212.75
+          ],
+          "quote": "So I want to talk about microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1214.17,
+            1217.951
+          ],
+          "quote": "You have written the book Building Microservices in 2015.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1219.551,
+            1224.572
+          ],
+          "quote": "And as reference, Uber started to talk about how they have thousands of microservices in 2015.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1227.313,
+            1230.695
+          ],
+          "quote": "The concept of microservices was starting to go mainstream across startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1231.035,
+            1235.898
+          ],
+          "quote": "Do you remember how and when microservices took off and where was it even coined?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1360.07,
+            1367.639
+          ],
+          "quote": "So the first paper on Martin's website was written by, it was sort of James's original kind of discovery of this pattern that he called microservices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1471.585,
+            1480.212
+          ],
+          "quote": "Suddenly, again, I think Uber was a very notable company starting to talk in public about having thousands of microservices on conferences like InfoQ, and it got people's attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1480.592,
+            1485.477
+          ],
+          "quote": "And then it kind of seemed that overnight, a lot of startups started to say like, you know what, let's just do microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1517.559,
+            1523.284
+          ],
+          "quote": "And also, before Netflix referred to their architecture as microservices, they just referred to it as fine-grained SOA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1529.13,
+            1540.443
+          ],
+          "quote": "Then, of course, what happened was that everyone just called their SOA architectures microservices, which is sort of to be, you know, semantic diffusion is a thing, is to be expected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1554.993,
+            1558.578
+          ],
+          "quote": "So then what is the difference between microservices and what was the other, service?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1574.094,
+            1579.398
+          ],
+          "quote": "I've always presented it as it's, there were two kind of very strong opinions I think we hold with microservices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1579.418,
+            1584.321
+          ],
+          "quote": "The first and the most important is that your microservices need to be independently deployable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1699.661,
+            1708.384
+          ],
+          "quote": "And I think that's why Uber, for example, when did I just talk with Twan Palm, the C2 at the time, about like what was the real deal about microservices?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1755.35,
+            1759.213
+          ],
+          "quote": "It was just, oh, look, like Uber has thousands of microservices, almost one or two per engineer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1767.359,
+            1770.521
+          ],
+          "quote": "I mean, I've described microservices as being an architecture of last resort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1782.212,
+            1788.478
+          ],
+          "quote": "One of the best reasons to use microservices is if what you actually want is an organization with a higher degree of autonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1800.981,
+            1806.143
+          ],
+          "quote": "So that's often what a lot of people get wrong, I think, is they adopt microservices and they think this other magic stuff's going to happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1833.587,
+            1836.329
+          ],
+          "quote": "And I think that's where microservices can be especially useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2782.757,
+            2785.279
+          ],
+          "quote": "But you have to read the book, which is called microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 922,
+          "t": [
+            3754.593,
+            3756.876
+          ],
+          "quote": "So they've got thousands of microservices on the full stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1656,
+          "t": [
+            6556.986,
+            6562.773
+          ],
+          "quote": "It's a little bit like when microservices came out, the concept, you didn't start by moving your biggest thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1700,
+          "t": [
+            6737.699,
+            6744.741
+          ],
+          "quote": "I sort of mentioned earlier that writing the second mission of building microservices was really all about smuggling in, getting people thinking about single information hiding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1756,
+          "t": [
+            6954.663,
+            6959.566
+          ],
+          "quote": "I do like customized training courses and a whole variety of things around resilient systems and security and microservices.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "thoughtworks",
+      "type": "company",
+      "role": "company",
+      "name": "ThoughtWorks",
+      "file": "ThoughtWorks",
+      "primary": true,
+      "how_described": "Newman 曾长期工作的咨询公司，「微服务」一词诞生地；本集说它虽是咨询公司却有浓厚的创新文化，培养了大量知名行业思想者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            182.17,
+            183.431
+          ],
+          "quote": "Before that, you worked at ThoughtWorks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            526.557,
+            530.299
+          ],
+          "quote": "And then you eventually made your way to ThoughtWorks where you spent a bunch of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            530.86,
+            535.443
+          ],
+          "quote": "What kinds of things did you do at ThoughtWorks and what are things that you learned there?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            603.791,
+            609.135
+          ],
+          "quote": "And ThoughtWorks basically, the recruiter at the time is now one of my very good friends, one of my oldest friends now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            637.979,
+            639.76
+          ],
+          "quote": "Here's my first tech unit at ThoughtWorks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            694.282,
+            703.609
+          ],
+          "quote": "I went over to the US in 2007, actually to work in a big, I've actually worked at Google for like a year and a half, as a ThoughtWorks employee in Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            764.259,
+            768.265
+          ],
+          "quote": "And I was lucky enough that early days in ThoughtWorks, that was just a constant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            796.52,
+            800.603
+          ],
+          "quote": "And so I think there was always this idea working at ThoughtWorks was always like, what's next?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            801.644,
+            806.107
+          ],
+          "quote": "And I was quite fortunate that because ThoughtWorks was growing so much, there was always things needed to be done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            811.411,
+            812.532
+          ],
+          "quote": "Met my wife at ThoughtWorks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            812.612,
+            815.354
+          ],
+          "quote": "Most of my best friends will come from ThoughtWorks now still to stay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            821.519,
+            824.521
+          ],
+          "quote": "And it is really interesting because ThoughtWorks has a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            871.513,
+            874.535
+          ],
+          "quote": "And ThoughtWorks technically is in this group, and usually",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            875.155,
+            889.294
+          ],
+          "quote": "You would not think that there's too much innovation going on in these places, but with ThoughtWorks proves to me, yourself and other people, it's actually, you can have, like, when you are the best in what you do globally, you can actually have a lot of innovation happening there as well, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            892.438,
+            896.861
+          ],
+          "quote": "I mean, I would say there aren't that many people that have come from ThoughtWorks that were really great startup product people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            897.002,
+            900.825
+          ],
+          "quote": "I mean, a lot of, you know, a lot of ThoughtWorks make X and scale up people once you're all together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            900.845,
+            903.747
+          ],
+          "quote": "There are actually very few real entrepreneurs that came out of the ThoughtWorks machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1131.789,
+            1135.291
+          ],
+          "quote": "And so after ThoughtWorks, you've gone independent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1153.657,
+            1155.138
+          ],
+          "quote": "I thought in my spare time at ThoughtWorks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2276.18,
+            2280.883
+          ],
+          "quote": "He's head of software, head of technology for ThoughtWorks in Spain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集借 Uber 前高管的话说：Uber 本不想要那么多服务，只是因为大单体拖慢交付才下死命令「一切新功能必须是独立服务」，结果服务数量失控；后又在按业务领域考虑合并。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1219.551,
+            1224.572
+          ],
+          "quote": "And as reference, Uber started to talk about how they have thousands of microservices in 2015.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1471.585,
+            1480.212
+          ],
+          "quote": "Suddenly, again, I think Uber was a very notable company starting to talk in public about having thousands of microservices on conferences like InfoQ, and it got people's attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1523.885,
+            1527.088
+          ],
+          "quote": "And to an extent, you know, of the mind-standing, that's what happened at Uber and elsewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1632.123,
+            1633.865
+          ],
+          "quote": "Okay, well, I'm not thinking back at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1633.905,
+            1637.709
+          ],
+          "quote": "I was at Uber at the time when your book was starting to become really popular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1699.661,
+            1708.384
+          ],
+          "quote": "And I think that's why Uber, for example, when did I just talk with Twan Palm, the C2 at the time, about like what was the real deal about microservices?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1708.424,
+            1714.226
+          ],
+          "quote": "And he said Uber, like he never really wanted that many services, but it was just more of a constraint because Uber had a monolith.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1714.926,
+            1721.39
+          ],
+          "quote": "The story was like, which he told on the podcast, we'll link it at the show notes below, that Uber had this big monolith and it was really slow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1745.404,
+            1752.589
+          ],
+          "quote": "And years after the fact that when Uber decomposed the monolith, they're now looking at maybe sensibly merging based on business domain, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1755.35,
+            1759.213
+          ],
+          "quote": "It was just, oh, look, like Uber has thousands of microservices, almost one or two per engineer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1838.23,
+            1849.66
+          ],
+          "quote": "And so an organization like, you know, Uber, I mean, and I know Netflix as well, things like domain-driven design weren't talked about at Netflix, but the teams were already fairly well scoped around areas of products already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1893.998,
+            1895.239
+          ],
+          "quote": "And we have another product in Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1895.279,
+            1898.963
+          ],
+          "quote": "Inside Uber, like a simple thing is there's rides, which it makes money like this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1899.003,
+            1901.385
+          ],
+          "quote": "And then there's Uber Eats, which is a separate business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1912.092,
+            1924.177
+          ],
+          "quote": "And then you do some hacks when you need to launch Uber Eats really quickly and you build it on the right infrastructure and Uber Eats order has like two trips attached to it because anyway, but as you say, like early on, it starts very simple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 710,
+          "t": [
+            2922.21,
+            2928.294
+          ],
+          "quote": "Like, it got dropped into a place like Uber where we did have what I realized were distributed systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3520.596,
+            3526.581
+          ],
+          "quote": "Like again, in the case of like an Uber, like when people hit a button to request your ride, like does it actually request within...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            4970.662,
+            4973.923
+          ],
+          "quote": "Uber had this classic example of when payment",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1793,
+          "t": [
+            7082.933,
+            7093.11
+          ],
+          "quote": "Check the show notes below for the story about scaling Uber in the early days with Uber's first CTO, Twan Palm, that we discussed, and it's an awesome story, and for more, the pragmatic engineering deep ties on resilient systems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distributed-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式系统 (distributed system)",
+      "file": "分布式系统",
+      "primary": true,
+      "how_described": "本集主线之一：Newman 把分布式系统的规律浓缩成三条铁律——信息传递需要时间、对方可能不在、资源池不是无限的；绝大多数宕机都源于第三条资源被打满。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 681,
+          "t": [
+            2790.824,
+            2797.07
+          ],
+          "quote": "And so then I realized that there are more people exposed to the horror, pain and suffering of a distributed system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2805.757,
+            2815.424
+          ],
+          "quote": "If somebody found themselves building a distributed system, working as part of building a distributed system, what was like the kind of equipment of a rubber ring I could give them, say, stay afloat and don't drown?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2880.778,
+            2887.746
+          ],
+          "quote": "And so I wanted that book partly as about being evergreen, but it was also about saying there are lots of people building a distributed system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            2887.766,
+            2890.749
+          ],
+          "quote": "Let's put what type of distributed system you've got off to one side for a moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3396.105,
+            3399.647
+          ],
+          "quote": "But now we go to a distributed system, you don't have access to the computer in the same way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4200.002,
+            4202.163
+          ],
+          "quote": "In a distributed system, because of rule number two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1451,
+          "t": [
+            5679.015,
+            5683.259
+          ],
+          "quote": "And of course she's right because when we take our distributed system and we add the people,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "resilience",
+      "type": "concept",
+      "role": "concept",
+      "name": "韧性 (resilience)",
+      "file": "韧性",
+      "primary": true,
+      "how_described": "本集借用 David Woods 的韧性工程框架讲韧性的四个维度：鲁棒性、回弹、优雅扩展性（应对意外）、持续适应性（从别人的事故中学习），并强调后两个维度取决于人和心理安全感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.538,
+            45.619
+          ],
+          "quote": "Today we cover specs versus code as a source of truth and why Sam says that production is truth, idempotency keys versus fingerprints and why you should avoid idempotency keys when possible, the four dimensions of resilience, robustness, rebound, graceful extensibility, and sustained adaptability, cognitive depth and cognitive surrender, and Sam's advice on how to better use AI to avoid these and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            177.509,
+            181.75
+          ],
+          "quote": "You've been known for a lot of your books, your takes on resilience systems, microservices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2713.136,
+            2715.037
+          ],
+          "quote": "He now works in this resilience engineering space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2715.397,
+            2721.621
+          ],
+          "quote": "Pointed me, I don't know if it was him or one or something else, but it pointed me at this paper by David Woods that was all about resilience engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2816.417,
+            2831.524
+          ],
+          "quote": "And so the goal of the book is to start you off with really easy, foundational, simple kind of engineering concepts about how you can start making, dealing with the problems of the disability system, but to also take you on a journey into kind of the whole concept of resilience engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 688,
+          "t": [
+            2836.026,
+            2843.269
+          ],
+          "quote": "And, you know, so I introduced kind of concepts like what a socio-technical system is, the difference between safety management and resilience engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1301,
+          "t": [
+            5104.736,
+            5110.34
+          ],
+          "quote": "When we're talking about resilience, you talk about the dimensions to think about resilience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            5119.725,
+            5122.367
+          ],
+          "quote": "Four Concepts for Resilience Engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1429,
+          "t": [
+            5581.676,
+            5594.021
+          ],
+          "quote": "So if you're like taking a longer view about resilience, if I'm building my products based on a market sector that is fundamentally flawed, these companies don't have a viable path to sustainability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集把它说成系统的一种属性、放在新书第二章：单机程序天生信号好，分布式系统必须主动埋点；有了延迟和成功失败率数据才能设对超时、定义 SLO，否则就是盲飞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            2500.35,
+            2514.26
+          ],
+          "quote": "But one of the presenters who was doing, they've got like a small software fractures, only 15 or three people, but like they're actively pulling in their observability data, their hotel stuff, right, into their agent to understand how it's changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2845.65,
+            2850.312
+          ],
+          "quote": "But the second chapter after the introduction is what's observability, let's talk about OTEL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2928.514,
+            2940.422
+          ],
+          "quote": "It's just large systems handling a bunch of stuff, lots of services depending on one another because even a simple thing of like knowing like, oh, you should pay attention to observability that, I mean, you figure it out after a while, but it takes a while.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3334.458,
+            3339.44
+          ],
+          "quote": "And in the book, after you introduce these rules, you start, as mentioned, the second chapter is observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3344.703,
+            3346.583
+          ],
+          "quote": "Why is observability so important?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3346.743,
+            3349.785
+          ],
+          "quote": "I mean, the way to think about observability is it's a property of a system, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3357.228,
+            3367.113
+          ],
+          "quote": "When you run a system, which is a single program, you actually get some pretty high quality signals coming out of that program, therefore give you a high degree of observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 816,
+          "t": [
+            3386.498,
+            3392.922
+          ],
+          "quote": "So this basic information that we pretty much get for free with a single program gives us a high degree of observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3483.875,
+            3488.577
+          ],
+          "quote": "But of course, is it observability when I'm talking about like, does it work for the user or the customer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3493.859,
+            3499.902
+          ],
+          "quote": "Because we know observability is usually we talk about these kind of latencies, the statuses, the 500 responses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3508.005,
+            3510.407
+          ],
+          "quote": "Okay, like we have the easy observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 910,
+          "t": [
+            3702.014,
+            3703.255
+          ],
+          "quote": "It is a bit like observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1216,
+          "t": [
+            4851.388,
+            4854.591
+          ],
+          "quote": "So that's why the observability is key, but it is all about tradeoffs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1647,
+          "t": [
+            6511.218,
+            6521.747
+          ],
+          "quote": "It's a module around which we've got great test coverage already, for example, where it's not on the critical path from a latency point of view, or it's a service where we've got really good observability data and really well-defined SLOs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "production-is-truth",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产环境即真相 (production is truth)",
+      "file": "生产环境即真相",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.538,
+            45.619
+          ],
+          "quote": "Today we cover specs versus code as a source of truth and why Sam says that production is truth, idempotency keys versus fingerprints and why you should avoid idempotency keys when possible, the four dimensions of resilience, robustness, rebound, graceful extensibility, and sustained adaptability, cognitive depth and cognitive surrender, and Sam's advice on how to better use AI to avoid these and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2121.671,
+            2122.612
+          ],
+          "quote": "Production is truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1729,
+          "t": [
+            6881.927,
+            6885.447
+          ],
+          "quote": "I shouldn't have to, but at least, you know, I know production is truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1730,
+          "t": [
+            6885.708,
+            6887.508
+          ],
+          "quote": "It's like football is life, production is truth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spec-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "规格驱动开发 (spec-driven development)",
+      "file": "规格驱动开发",
+      "primary": true,
+      "how_described": "本集讨论一条光谱：用规格写完代码就扔、持续维护规格、到只看规格不看代码；Newman 认为不看代码可以，但省下的时间必须用于更重要的思考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            2133.547,
+            2139.01
+          ],
+          "quote": "Brigitta Brockley did a nice article on Martin Faller's website recently about spec-driven development.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "idempotency",
+      "type": "concept",
+      "role": "concept",
+      "name": "幂等性 (idempotency)",
+      "file": "幂等性",
+      "primary": true,
+      "how_described": "本集用电梯按钮和支付重试的例子讲幂等操作：同一操作应用多次只产生一次效果；比较了幂等键（需双方支持、应从一开始就做）与指纹（适合事后改造、有假阴性）两种方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.538,
+            45.619
+          ],
+          "quote": "Today we cover specs versus code as a source of truth and why Sam says that production is truth, idempotency keys versus fingerprints and why you should avoid idempotency keys when possible, the four dimensions of resilience, robustness, rebound, graceful extensibility, and sustained adaptability, cognitive depth and cognitive surrender, and Sam's advice on how to better use AI to avoid these and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 993,
+          "t": [
+            4040.734,
+            4041.835
+          ],
+          "quote": "What is idempotency?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 994,
+          "t": [
+            4042.155,
+            4055.55
+          ],
+          "quote": "So there's a mathematical concept behind idempotency that I don't understand, but basically an idempotent operation is one that you can, you know, you can apply that operation multiple times without it actually having an effect multiple times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            4224.097,
+            4225.839
+          ],
+          "quote": "So that's the problem with around idempotency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            4244.515,
+            4246.216
+          ],
+          "quote": "The first one is idempotency keys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            4289.291,
+            4296.53
+          ],
+          "quote": "So then if you send that to me, you say, pay Sam, and here's the idempotency key, I don't send you back a response for whatever reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            4297.678,
+            4299.599
+          ],
+          "quote": "You retry it, you pass the idempotency key.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            4313.029,
+            4318.693
+          ],
+          "quote": "The issue with making things idempotency key is it requires both the client and server to support it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            4366.296,
+            4369.376
+          ],
+          "quote": "And you're using that as a retrofitted idempotency key.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            4409.782,
+            4412.744
+          ],
+          "quote": "They're doing some basic idempotency to double taps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "thundering-herd",
+      "type": "concept",
+      "role": "concept",
+      "name": "惊群效应 (thundering herd)",
+      "file": "惊群效应",
+      "primary": true,
+      "how_described": "本集把它说成容量不匹配、太多请求对应太少资源的现象，举了缓存崩溃、Square 2017 年无延迟重试打垮 Redis、GitHub 网络故障后重试风暴等例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1134,
+          "t": [
+            4522.513,
+            4534.016
+          ],
+          "quote": "Specifically GitHub had an outage now a few weeks ago where it was networking related and recovery took a lot longer time because there were retries going on and it created the thundering herd.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            4534.076,
+            4535.696
+          ],
+          "quote": "What is a thundering herd?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            4551.064,
+            4555.346
+          ],
+          "quote": "So you've got everything from the malicious thundering herd, like a denial of service attack, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            4661.208,
+            4662.248
+          ],
+          "quote": "That's another thundering herd.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1179,
+          "t": [
+            4683.96,
+            4688.903
+          ],
+          "quote": "So, like, when I've got a thundering herd that's coming from externally that's legitimate, well, I've got different things I'll look at.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-surrender",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知投降 (cognitive surrender)",
+      "file": "认知投降",
+      "primary": true,
+      "how_described": "本集说它是「LGTM 思维」的 AI 版：用 AI 写自己不会读的文档、让 AI 筛完所有片子只签字，等于把专家从环中抽掉降格为审批者，是灾难性的用法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.538,
+            45.619
+          ],
+          "quote": "Today we cover specs versus code as a source of truth and why Sam says that production is truth, idempotency keys versus fingerprints and why you should avoid idempotency keys when possible, the four dimensions of resilience, robustness, rebound, graceful extensibility, and sustained adaptability, cognitive depth and cognitive surrender, and Sam's advice on how to better use AI to avoid these and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1529,
+          "t": [
+            5948.984,
+            5957.507
+          ],
+          "quote": "In other settings, you're getting now this problem called cognitive surrender, which is where you're using AI to write documents that you're never going to read.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1532,
+          "t": [
+            5964.094,
+            5966.475
+          ],
+          "quote": "Can we talk about this cognitive surrender and cognitive depth?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1543,
+          "t": [
+            6021.843,
+            6026.009
+          ],
+          "quote": "Cognitive surrender is a different thing, which is like, oh yeah, it's fine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1554,
+          "t": [
+            6062.464,
+            6066.027
+          ],
+          "quote": "And I think that's that cognitive surrender thing is coming out lots of ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1557,
+          "t": [
+            6075.578,
+            6080.983
+          ],
+          "quote": "And so the cognitive surrender piece is really that the humans, it comes back to the human being in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1596,
+          "t": [
+            6237.655,
+            6254.5
+          ],
+          "quote": "Yeah, but I think it goes back to a little bit of like, we seem to have more work with AI and probably it doesn't help that it can add more complexity, especially when we're not being clear of what we want, we're not being critical of the output when we have cognitive depth or cognitive surrender, especially not with cognitive center, you know, just right.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知债务 (cognitive debt)",
+      "file": "认知债务",
+      "primary": true,
+      "how_described": "本集借 Margaret Ann Storey 的说法：团队各自和 AI 结对、各干各的时，共享心智模型逐渐瓦解，这种认知上的债必须警惕。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 583,
+          "t": [
+            2337.19,
+            2343.392
+          ],
+          "quote": "You've got, and this comes back to the cognitive debt stuff, which is you've got a lot of people running off in different directions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1538,
+          "t": [
+            6000.695,
+            6003.476
+          ],
+          "quote": "We have to be careful that our use of AI needs that cognitive debt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说技术界从根本上误解了 LLM：它没有因果概念、不是世界模型，会删掉你的数据库正因此；应期待适度、用模块边界约束它，能换确定性代码的环节就换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 543,
+          "t": [
+            2155.139,
+            2161.509
+          ],
+          "quote": "And then the LLM executes that spec and you can iterate on that process, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1474,
+          "t": [
+            5748.312,
+            5757.359
+          ],
+          "quote": "I think the tech world in general is quite naive about AI and fundamentally misunderstands what an LLM is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1476,
+          "t": [
+            5759.621,
+            5761.422
+          ],
+          "quote": "Why did the LLM delete my database?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1502,
+          "t": [
+            5843.17,
+            5849.014
+          ],
+          "quote": "And I think what we don't know right now is where should I be having, and again, this is wider, where should I have the LLM do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1530,
+          "t": [
+            5957.947,
+            5961.788
+          ],
+          "quote": "That's not really around a problem with the LLM technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1559,
+          "t": [
+            6087.13,
+            6103.566
+          ],
+          "quote": "Like there's a big difference, like Cory Doctorow talks about, it's a big difference like if you're say a cancer, an oncologist or a cancer specialist, there's a big difference to you as an oncologist working and an LLM doing sort of detection of some of the scans that you're looking at going, oh, you should look over there by the way, you might have missed that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1561,
+          "t": [
+            6105.908,
+            6111.573
+          ],
+          "quote": "Versus the LLM-powered AI going, here's all the scans I've looked through, here's the ones I need you to sign off.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 agent 说成承接开发者工作的自动化角色：把工作交给智能体有两个前提——能定义「什么算好」并能证明系统达到了这个定义；主张让 AI 在模块边界内部放开手脚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            72.382,
+            75.845
+          ],
+          "quote": "Git is increasingly becoming a bottleneck for modern, agent-heavy software development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            127.577,
+            132.579
+          ],
+          "quote": "I find that the prompt and conversation with the agent carries more information than the PR itself oftentimes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            132.839,
+            137.72
+          ],
+          "quote": "Entire captures all the prompt history with your agent right inside of the repo, easy to check back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            151.044,
+            153.765
+          ],
+          "quote": "Oh, and did I mention that it works with any agent and it's open source?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2500.35,
+            2514.26
+          ],
+          "quote": "But one of the presenters who was doing, they've got like a small software fractures, only 15 or three people, but like they're actively pulling in their observability data, their hotel stuff, right, into their agent to understand how it's changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2593.155,
+            2600.4
+          ],
+          "quote": "Janestreetfly.io and the etcd community ship agent-bridgeing code with full confidence because they know it's been verified by Antithesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1467,
+          "t": [
+            5718.793,
+            5728.019
+          ],
+          "quote": "So being multi-vendor, being multi-model, for example, breaking rather than having a single agent, breaking that down into more workflow models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1504,
+          "t": [
+            5851.055,
+            5859.199
+          ],
+          "quote": "There's a lot to be said for just having your agent call a script, and you know that script works, rather than having it implement the script in its magical brain for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1791,
+          "t": [
+            7069.587,
+            7076.07
+          ],
+          "quote": "Be multi-vendor and multi-tool, and wherever you can, swap non-deterministic AI agent workflows to deterministic ones.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "modular",
+      "type": "concept",
+      "role": "concept",
+      "name": "模块化 (modular)",
+      "file": "模块化",
+      "primary": true,
+      "how_described": "本集给出 AI 时代的正确姿势：人类认真思考模块边界和模块之间的关系，让 AI 在边界内部生成代码；Shopify 把单体做成模块化领域驱动架构即为此例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1616,
+          "t": [
+            6368.623,
+            6370.925
+          ],
+          "quote": "I mean, that's one thing a good modular structure does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1618,
+          "t": [
+            6374.309,
+            6379.374
+          ],
+          "quote": "It's because they spend a lot of time building their monolithic application as a modular domain-driven architecture, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1622,
+          "t": [
+            6395.615,
+            6400.382
+          ],
+          "quote": "We can say, look, this is our architecture, be it a modular monolith or a microservice architecture doesn't really matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1709,
+          "t": [
+            6774.435,
+            6781.979
+          ],
+          "quote": "And I guess it's fair to say, like, look, if you have an idea on how you can make your existing code is a bit more modular, you have zero excuse not to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1728,
+          "t": [
+            6871.485,
+            6881.647
+          ],
+          "quote": "This is also why I spend time production, because especially if your modular structure ends up being a process structure, in other words, it's process boundaries, I can go look at the networks to find out my architecture.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集用它举例鲁棒性（pod 挂了自动拉起新的）以及鲁棒性手段反增复杂度的悖论（引入它本身又成了新风险源）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1207,
+          "t": [
+            4799.226,
+            4808.031
+          ],
+          "quote": "You go from to not only having no service, but also now no money because you hit spinning up nodes on your Kubernetes cluster and Amazon just keep taking the money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1310,
+          "t": [
+            5139.358,
+            5146.103
+          ],
+          "quote": "So a very simple example would be in Kubernetes, a pod fails and Kubernetes means a replacement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            5171.35,
+            5174.311
+          ],
+          "quote": "I bring Kubernetes in to deal with the failure of a container.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            5174.331,
+            5175.932
+          ],
+          "quote": "Now I've got Kubernetes and that becomes",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1584,
+          "t": [
+            6183.894,
+            6190.079
+          ],
+          "quote": "Because that was an attempt to make things simpler for developers because Kubernetes became popular and it's not developer friendly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "otel",
+      "type": "concept",
+      "role": "concept",
+      "name": "OTEL",
+      "file": "OTEL",
+      "primary": false,
+      "how_described": "本集提到有了 OTEL 这个厂商中立的开放遥测标准，可观测性的落地和讨论变得容易多了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 690,
+          "t": [
+            2845.65,
+            2850.312
+          ],
+          "quote": "But the second chapter after the introduction is what's observability, let's talk about OTEL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3423.802,
+            3433.508
+          ],
+          "quote": "And then, you know, luckily we've got things like OTEL now, the open telemetry protocol and specification, because that at least gives us an open framework, a vendor agnostic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chaos-monkey",
+      "type": "concept",
+      "role": "concept",
+      "name": "chaos monkey",
+      "file": "chaos monkey",
+      "primary": false,
+      "how_described": "本集说它是 Netflix 验证回弹力的著名工具：主动关闭系统部分组件做实时演练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1341,
+          "t": [
+            5238.648,
+            5244.311
+          ],
+          "quote": "This is where Netflix's very famous chaos monkey comes in, where it goes and shuts off parts of the system to test this live.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "psychological-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "心理安全感 (psychological safety)",
+      "file": "心理安全感",
+      "primary": true,
+      "how_described": "本集说韧性四维度的后两个全靠它：如果人们不敢安全地提出问题、质疑现状，韧性就无从谈起，所以书的最后三章讲人和文化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1403,
+          "t": [
+            5481.349,
+            5486.592
+          ],
+          "quote": "Like having proper environment psychological safety is just absolutely required.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1410,
+          "t": [
+            5512.341,
+            5516.922
+          ],
+          "quote": "So like, what can we do to make sure that we have that environment of psychological safety?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集提到它在叫「微服务」之前一直管自己架构叫 fine-grained SOA，并以 Chaos Monkey 作为回弹演练的著名例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            1494.462,
+            1499.206
+          ],
+          "quote": "Ben was looking after performance and sort of reliability at Netflix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1517.559,
+            1523.284
+          ],
+          "quote": "And also, before Netflix referred to their architecture as microservices, they just referred to it as fine-grained SOA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1838.23,
+            1849.66
+          ],
+          "quote": "And so an organization like, you know, Uber, I mean, and I know Netflix as well, things like domain-driven design weren't talked about at Netflix, but the teams were already fairly well scoped around areas of products already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1341,
+          "t": [
+            5238.648,
+            5244.311
+          ],
+          "quote": "This is where Netflix's very famous chaos monkey comes in, where it goes and shuts off parts of the system to test this live.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monzo",
+      "type": "company",
+      "role": "company",
+      "name": "Monzo",
+      "file": "Monzo",
+      "primary": false,
+      "how_described": "本集举例说 Monzo 维护一套功能精简、完全重写、跑在不同云厂商上的备用银行系统随时待命——这是一家银行想清楚自己是谁之后的决定，不是一般公司该学的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 913,
+          "t": [
+            3706.859,
+            3715.588
+          ],
+          "quote": "Because am I having a conversation with you about multi-cloud and, you know, doing complete rewrites of systems for critical standings like Monzo do, for example?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3763.804,
+            3765.225
+          ],
+          "quote": "But like Monzo know their Monzo, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集说 Cloudflare 发布的事后复盘报告「自我鞭挞」得最彻底、24 小时内就发且身为上市公司也照发，是持续适应性的好范本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 740,
+          "t": [
+            3067.466,
+            3079.314
+          ],
+          "quote": "I think a great, if you want a good, a company that puts out some of the best self-flagellating post-incident review write-ups, go for Cloudflare stuff, they absolutely go for themselves in those.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4562.332,
+            4565.715
+          ],
+          "quote": "The answer is use Fastit or Cloudflare, but I go into details about how that happens.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chainguard",
+      "type": "company",
+      "role": "company",
+      "name": "ChainGuard",
+      "file": "ChainGuard",
+      "primary": false,
+      "how_described": "本集说这家公司干脆取消了人工代码评审、把时间挪到设计文档层面，Newman 认为可以接受，因为他们在做更重要的思考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 596,
+          "t": [
+            2392.379,
+            2394.099
+          ],
+          "quote": "You know, ChainGuard are a proper company, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 与 Anthropic 等模型提供商的宏观经济账算不过来（2030 年需 2.6 万亿美元收入才能证明资本支出），提醒别把命运押在一家上、要供应商对冲。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1431,
+          "t": [
+            5596.502,
+            5599.123
+          ],
+          "quote": "OpenAI and Anthropic and the hypervisors, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1443,
+          "t": [
+            5641.746,
+            5658.577
+          ],
+          "quote": "It's even just basic things like OpenAI and Anthropic are pretty terrible when it comes to availability of their core models from their services, which is why everyone I know also will use like, they'll use Google or Amazon or Microsoft as either their primary place they go to those models or their fallbacks, they have better uptimes and things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1505,
+          "t": [
+            5859.639,
+            5865.283
+          ],
+          "quote": "Well, there's something to be said that it seems both labs, both leading labs, Anthropic and OpenAI have realized that",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集同样将其列为被质疑经济可持续性的头部模型厂商，并指出其核心模型服务可用性不佳，建议大家用其他云作为主用或备用通道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            60.31,
+            63.253
+          ],
+          "quote": "Anthropic, Cognition, Notion, and many others are happy customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1431,
+          "t": [
+            5596.502,
+            5599.123
+          ],
+          "quote": "OpenAI and Anthropic and the hypervisors, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1443,
+          "t": [
+            5641.746,
+            5658.577
+          ],
+          "quote": "It's even just basic things like OpenAI and Anthropic are pretty terrible when it comes to availability of their core models from their services, which is why everyone I know also will use like, they'll use Google or Amazon or Microsoft as either their primary place they go to those models or their fallbacks, they have better uptimes and things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1505,
+          "t": [
+            5859.639,
+            5865.283
+          ],
+          "quote": "Well, there's something to be said that it seems both labs, both leading labs, Anthropic and OpenAI have realized that",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SLO",
+      "file": "SLO",
+      "primary": false,
+      "how_described": "本集解释 SLO 是团队对外的承诺（如 99% 的成功请求在 300 毫秒内），由 SLI 计算得出；并区分 SLA——违反会被起诉的那条线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 895,
+          "t": [
+            3651.001,
+            3654.483
+          ],
+          "quote": "And I collect those together and that helps me know if I'm meeting my SLO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 896,
+          "t": [
+            3654.903,
+            3665.928
+          ],
+          "quote": "So I might have an overarching SLO, which is I should be able to request a ride, the 99 percentile successful ride request within 300 millis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 898,
+          "t": [
+            3669.73,
+            3670.831
+          ],
+          "quote": "The SLO is supposed to be a commitment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 900,
+          "t": [
+            3673.852,
+            3680.817
+          ],
+          "quote": "You then get this raw data, you calculate your SLIs on the individual things, and then you use that to work out what your SLO is looking like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到 Newman 曾以 ThoughtWorks 员工身份在 Google 教自动化测试，以及 Google SRE 的「厄运之轮」演练游戏；另作为模型可用性较好的备选云被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            694.282,
+            703.609
+          ],
+          "quote": "I went over to the US in 2007, actually to work in a big, I've actually worked at Google for like a year and a half, as a ThoughtWorks employee in Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            739.453,
+            752.561
+          ],
+          "quote": "And you go around talking to people and it's like people didn't, I remember having conversations with people at like Yahoo and even big chunks of Google who did not think you could do functional automated testing of like websites and stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            847.878,
+            850.78
+          ],
+          "quote": "You have product companies like Google, like Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            857.044,
+            858.245
+          ],
+          "quote": "Again, Google was known for this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3557.396,
+            3567.764
+          ],
+          "quote": "So this is where things like the open tracing stuff came from and things like Zipkin and things like that were built as an attempt to recreate, like, I mean, most people were just normally trying to recreate what Google had already built there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 943,
+          "t": [
+            3823.02,
+            3828.983
+          ],
+          "quote": "Like if Amazon goes down because we heard they had an outage last week or a few months ago, I actually want to be able to run on Google Cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1368,
+          "t": [
+            5336.183,
+            5340.327
+          ],
+          "quote": "Google had a thing, I don't know if they still do it, SREs would pop around and they'd do a thing called the Wheel of Misfortune.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1443,
+          "t": [
+            5641.746,
+            5658.577
+          ],
+          "quote": "It's even just basic things like OpenAI and Anthropic are pretty terrible when it comes to availability of their core models from their services, which is why everyone I know also will use like, they'll use Google or Amazon or Microsoft as either their primary place they go to those models or their fallbacks, they have better uptimes and things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1547,
+          "t": [
+            6043.938,
+            6045.778
+          ],
+          "quote": "I worked in the Google tool team on all that stuff, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1551,
+          "t": [
+            6056.701,
+            6058.161
+          ],
+          "quote": "I think it came from Google, yeah.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fail-open",
+      "type": "concept",
+      "role": "concept",
+      "name": "fail open 与 fail close (fail open)",
+      "file": "fail open 与 fail close",
+      "primary": false,
+      "how_described": "本集用电商卖货 vs 演唱会门票、Uber 早期 vs 盈利期的例子说明：同一个不确定场景，按业务情境逐功能决定故障时放行还是拒绝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1250,
+          "t": [
+            4955.637,
+            4959.318
+          ],
+          "quote": "I'm not sure if you cover it in the book, but this is the fail open versus fail close, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

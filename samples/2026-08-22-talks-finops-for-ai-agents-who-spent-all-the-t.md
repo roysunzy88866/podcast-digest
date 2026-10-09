@@ -178,8 +178,8 @@ ZH | 一是它可以增强，它可以基于缺失的或仍然存在的失控成
 **换个口味**
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:归因 (attribution)、智能体 (agent)</span>
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同公司:Uber · 同概念:智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

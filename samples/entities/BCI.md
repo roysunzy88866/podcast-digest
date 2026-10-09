@@ -37,7 +37,7 @@ unlisted: true
 
 [[Max Hodak]] · [[Science]] · [[Neuralink]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":2,"Science":2,"Neuralink":3,"Anthropic":190,"Helix":2,"AI 基础设施":4,"迭代":3,"归因":4,"招人":4,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":2,"Science":2,"Neuralink":3,"Anthropic":191,"Helix":2,"AI 基础设施":4,"迭代":3,"归因":4,"招人":4,"eigenreviews":1}</script>
 
 <script>
 (function(){

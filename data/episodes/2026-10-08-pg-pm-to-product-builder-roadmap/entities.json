@@ -1,0 +1,823 @@
+{
+  "episode_id": "2026-10-08-pg-pm-to-product-builder-roadmap",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-10-08",
+  "tags": [
+    "产品经理",
+    "职业转型",
+    "AI 编程",
+    "求职",
+    "AI 技能溢价"
+  ],
+  "categories": [
+    "职业与个人成长",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "aakash",
+      "type": "person",
+      "role": "host",
+      "name": "Aakash",
+      "file": "Aakash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            198.17,
+            198.49
+          ],
+          "quote": "So Aakash,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ankit-shukla",
+      "type": "person",
+      "role": "guest",
+      "name": "Ankit Shukla",
+      "file": "Ankit Shukla",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            100.352,
+            104.253
+          ],
+          "quote": "Maybe my most popular podcast guest ever is Ankit Shukla,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品构建者 (product builder)",
+      "file": "产品构建者",
+      "primary": true,
+      "how_described": "本集主线概念:Ankit 分析 12500 份招聘启事后认定「产品构建者」是真实存在的新角色——懂产品判断力加上 AI 技能的产品人,薪酬比传统岗位高 15%-50%,被称为这十年最大的职业机会之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.913,
+            5.824
+          ],
+          "quote": "an associate product builder program.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            5.874,
+            9.155
+          ],
+          "quote": "But is the product builder role real or is it just hype?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            9.375,
+            15.638
+          ],
+          "quote": "We analyzed 12,500 PM job postings and found that the product builder role is very, very real.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            15.958,
+            17.924
+          ],
+          "quote": "Who should become a product builder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            22.941,
+            26.215999999999998
+          ],
+          "quote": "they all have the potential to become the product builder with",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            55.917,
+            58.594
+          ],
+          "quote": " So what's the roadmap to become a product builder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            113.076,
+            117.198
+          ],
+          "quote": "he's found that there is a new role out there, the product builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            143.211,
+            147.141
+          ],
+          "quote": "And we're not just going to cover how you can land this product builder role.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            147.191,
+            150.80211111111112
+          ],
+          "quote": "We're going to cover the fundamentals of being a product builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            177.405,
+            180.866
+          ],
+          "quote": "It feels like the product builder is becoming the new thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            187.109,
+            190.791
+          ],
+          "quote": "They created this associate product builder program.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            191.736,
+            197.968
+          ],
+          "quote": " So what I want to know, Ankit, is, is this product builder role real or is it hype?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            281.607,
+            282.988
+          ],
+          "quote": "What is a product builder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            283.028,
+            286.97
+          ],
+          "quote": "What makes a product builder different from an FTE, from an AI PM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            723.514,
+            726.437
+          ],
+          "quote": "So how much do these product builder roles pay?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            866.696,
+            870.639
+          ],
+          "quote": " So there's a real premium to learning this product builder skill set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            871.24,
+            876.725
+          ],
+          "quote": "What's the right framework to thinking about how to be a product builder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            3265.23,
+            3270.151
+          ],
+          "quote": "What's the roadmap to becoming a product builder and landing a product builder job?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1334,
+          "t": [
+            3901.937,
+            3903.2147777777777
+          ],
+          "quote": "a product builder role?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1348,
+          "t": [
+            3939.768,
+            3943.071
+          ],
+          "quote": " If you really want to become a product builder, you need to first understand about the product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 产品经理 (AI PM)",
+      "file": "AI 产品经理",
+      "primary": true,
+      "how_described": "本集说 AI PM 及 AI 相关产品岗位比传统对应岗位有 20% 以上薪资溢价,美国中位年薪 195K,Netflix 甚至挂出 90 万美元的 AI 产品经理职位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            283.028,
+            286.97
+          ],
+          "quote": "What makes a product builder different from an FTE, from an AI PM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            778.508,
+            779.418
+          ],
+          "quote": "as an AI PM,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1121,
+          "t": [
+            3329.912,
+            3336.912
+          ],
+          "quote": " Job listings for either AI PM roles or look at job listings for PM in AI native companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            3400.86,
+            3405.383
+          ],
+          "quote": "into AI, PM or PM job, your skills are understanding the customers better.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把 Claude 当作贯穿全程的工作工具:用它爬取分析招聘数据、生成用户画像实现「规模化的同理心」、写邮件系统规格,以及面试模拟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            213.999,
+            218.041
+          ],
+          "quote": "I have actually taken the help of Claude and GPT in order to go",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1397.258,
+            1399.8110000000001
+          ],
+          "quote": "then we have gone ahead and feed it into Claude and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1459.183,
+            1464.868
+          ],
+          "quote": "you will observe that a lot of people actually start with either NA10 or Claude",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1770.269,
+            1775.071
+          ],
+          "quote": "you can just go ahead and Claude will identify from your chat like intelligently",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1794.952,
+            1795.952
+          ],
+          "quote": "Open your Claude,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1801.078,
+            1805.078
+          ],
+          "quote": "just ask Claude that please go ahead and create a skill out of the same.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1808.216,
+            1809.727
+          ],
+          "quote": "and Claude is going to go ahead and tell you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1815.343,
+            1818.286
+          ],
+          "quote": "you can ask Claude to again update the skill based on what additional prompts",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            2419.057,
+            2422.978
+          ],
+          "quote": "and write complete specs that we are sure of and then we will give it to Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2426.759,
+            2431.0299999999997
+          ],
+          "quote": "You can ask Claude or GPT to improve it and then you can read it and maybe improve it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 827,
+          "t": [
+            2450.859,
+            2455.121
+          ],
+          "quote": "Now I'm going to show you my whole Claude like chat for this particular product, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2461.964,
+            2465.395
+          ],
+          "quote": "What are the exact prompts that you have used in Claude in order to build something?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 890,
+          "t": [
+            2640.98,
+            2643.482
+          ],
+          "quote": "So Claude is going to tell you how to give you that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 891,
+          "t": [
+            2643.502,
+            2647.975
+          ],
+          "quote": "So if someone does not know about A and B, my recommendation is just go ahead and ask Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 948,
+          "t": [
+            2805.065,
+            2807.787
+          ],
+          "quote": "I understood that some decision that Claude has taken are not appropriate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 974,
+          "t": [
+            2872.547,
+            2876.2136666666665
+          ],
+          "quote": "I also ask Claude that let's say if my team wants to operate this,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 993,
+          "t": [
+            2929.575,
+            2931.845
+          ],
+          "quote": "if you talk to Claude in that way or Codex in that way,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 996,
+          "t": [
+            2937.616,
+            2941.2826666666665
+          ],
+          "quote": "before I could go ahead and test like trust what Claude has built.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            2991.832,
+            2996.974
+          ],
+          "quote": "that's where the real work is coming now because Claude can take you 80% of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1324,
+          "t": [
+            3875.92,
+            3880.624
+          ],
+          "quote": "And maybe one more tip I would share that please leverage GPT or Claude in order",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说可用 ChatGPT/Claude 快速完成竞品与用户调研,并让 GPT 把外行话的功能清单扩写成正式规格文档",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 540,
+          "t": [
+            1620.052,
+            1624.055
+          ],
+          "quote": "you are going to chatgpt.com or claw.com and then you are going ahead",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 793,
+          "t": [
+            2359.782,
+            2362.564
+          ],
+          "quote": "And then I have gone ahead and gave it to ChatGPD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            3457.436,
+            3458.3869999999997
+          ],
+          "quote": "go to chat GPT,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说他们测过 Codex、Claude Code、Cursor 在电商、社交网络等常见用例上表现几乎一样,90% 场景下不必纠结选哪个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 532,
+          "t": [
+            1596.072,
+            1597.472
+          ],
+          "quote": "Somebody talks about Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 575,
+          "t": [
+            1718.726,
+            1723.347
+          ],
+          "quote": "So here codex and cloud code comes where you can go ahead and create the skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 699,
+          "t": [
+            2076.761,
+            2078.322
+          ],
+          "quote": "which is Cloud Code or Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2080.644,
+            2083.556
+          ],
+          "quote": "Many people ask me that Cloud Code is good or Codex is good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2091.004,
+            2094.1349999999998
+          ],
+          "quote": "you have to think about whether I should do this with codex or plot code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 710,
+          "t": [
+            2106.851,
+            2111.9109999999996
+          ],
+          "quote": "We have tested these models like codex, like both the platforms codex and plot code and cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2128.285,
+            2130.8759999999997
+          ],
+          "quote": "it does not matter if you are using cloud code or the codex out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 984,
+          "t": [
+            2904.532,
+            2905.413
+          ],
+          "quote": " Cloud Code to Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 993,
+          "t": [
+            2929.575,
+            2931.845
+          ],
+          "quote": "if you talk to Claude in that way or Codex in that way,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wipe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "wipe coding",
+      "file": "wipe coding",
+      "primary": true,
+      "how_described": "本集把它放在五级工具阶梯的第 3 级:用自然语言直接写应用,Ankit 推荐免费的 Google AI Studio 入门",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 654,
+          "t": [
+            1930.479,
+            1934.139
+          ],
+          "quote": "Now for me, level three is I would say wipe coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            1944.982,
+            1948.142
+          ],
+          "quote": "to go ahead and log into a cloud or something, you can do wipe coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            1948.182,
+            1951.8486666666668
+          ],
+          "quote": "And my favorite platform to do wipe coding is actually a free one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2039.373,
+            2044.065
+          ],
+          "quote": "You can go ahead and check the whole process, which unfortunately wipe coding does not.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic AI)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说招聘数据里排名第一的技能不是 agentic AI,并提到让 AI 自己规划、执行、评估迭代的「循环工程」是构建的未来方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 509,
+          "t": [
+            1541.427,
+            1545.391
+          ],
+          "quote": "agentic AI and prompt engineering, They were not the number one skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 736,
+          "t": [
+            2183.897,
+            2187.899
+          ],
+          "quote": "the agentic AI or maybe a better word would be loop engineering where",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompt-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词工程 (prompt engineering)",
+      "file": "提示词工程",
+      "primary": true,
+      "how_described": "本集说提示词工程并不是招聘启事里排名第一的技能——真正值钱的是识别 AI 的正确用例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 509,
+          "t": [
+            1541.427,
+            1545.391
+          ],
+          "quote": "agentic AI and prompt engineering, They were not the number one skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 798,
+          "t": [
+            2372.326,
+            2373.847
+          ],
+          "quote": "I have not used any prompt engineering there,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": false,
+      "how_described": "本集提到 RAG 也不是招聘数据里的头号技能,并举例基于 RAG 的客服问答系统可作为 AI 用例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 508,
+          "t": [
+            1539.006,
+            1541.226
+          ],
+          "quote": "we have also observed that RAG,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            3201.622,
+            3205.495
+          ],
+          "quote": "Or you can have maybe a rag-based model where you can make sure that yes,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说第 5 级开发用 Cursor、Claude Code 加 MCP 连接 AWS 等服务,Ankit 的邮件系统正是靠 AWS 的 MCP 在半夜自动完成部署",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            462.578,
+            464.842
+          ],
+          "quote": "That's where the Mobbin MCP comes in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            578.765,
+            580.3770000000001
+          ],
+          "quote": "Mob and MCP for product audit,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            2528.496,
+            2532.418
+          ],
+          "quote": "So it asked me that you can just go ahead and pull in the MCP out there and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 856,
+          "t": [
+            2536.46,
+            2539.881
+          ],
+          "quote": "It just pulled the MCP out there and then it told me how to get the credentials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 924,
+          "t": [
+            2727.53,
+            2730.812
+          ],
+          "quote": " So I asked it that I have installed AWS MCP.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Claude Code",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

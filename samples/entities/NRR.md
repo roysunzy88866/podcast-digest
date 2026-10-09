@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[客户流失率]] · [[智能体]] · [[OpenAI]] · [[LLM]] · [[Anthropic]] · [[Jen Abel]] · [[Jason Cohen]] · [[Lindsey Scrase]] · [[Dan O'Connell]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"客户流失率":3,"智能体":444,"OpenAI":179,"LLM":58,"Anthropic":190,"Jen Abel":1,"Jason Cohen":1,"Lindsey Scrase":1,"Dan O'Connell":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"客户流失率":3,"智能体":446,"OpenAI":180,"LLM":59,"Anthropic":191,"Jen Abel":1,"Jason Cohen":1,"Lindsey Scrase":1,"Dan O'Connell":1}</script>
 
 <script>
 (function(){

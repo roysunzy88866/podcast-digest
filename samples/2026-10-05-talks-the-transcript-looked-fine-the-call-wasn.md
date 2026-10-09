@@ -119,9 +119,9 @@ Fuad 描绘了一个闭环：观察、评估、改进。
 
 **换个口味**
 
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同概念:智能体 (agent)、OTEL</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

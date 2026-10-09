@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":83,"Cognition":26,"Warp":5,"Exa Agent":1,"智能体":444,"网页搜索":2,"知识截止日期":1,"代码审查":24,"语义搜索":3}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":83,"Cognition":26,"Warp":5,"Exa Agent":1,"智能体":446,"网页搜索":2,"知识截止日期":1,"代码审查":24,"语义搜索":3}</script>
 
 <script>
 (function(){

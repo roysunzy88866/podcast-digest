@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"OpenAI":179,"Anthropic":190,"Cognition":26,"Ramp":10}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"OpenAI":180,"Anthropic":191,"Cognition":26,"Ramp":10}</script>
 
 <script>
 (function(){

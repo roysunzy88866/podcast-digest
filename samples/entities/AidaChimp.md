@@ -21,7 +21,7 @@ unlisted: true
 
 [[Abduallah Mohamed]] · [[对齐]] · [[智能体]] · [[人在回路]] · [[部落知识]] · [[单一真相来源]]
 
-<script type="application/json" class="pd-epn">{"Abduallah Mohamed":1,"对齐":18,"智能体":444,"人在回路":21,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"Abduallah Mohamed":1,"对齐":18,"智能体":446,"人在回路":21,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

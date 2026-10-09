@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":29,"Claude":91,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
+<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":29,"Claude":92,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
 
 <script>
 (function(){

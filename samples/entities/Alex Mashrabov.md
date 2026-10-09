@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Higgsfield":1,"Snap":3,"Cursor":83,"OpenAI":179,"Anthropic":190,"Canva":5,"基准测试":18,"开源模型":4,"vibe coding":47,"tokenomics":2}</script>
+<script type="application/json" class="pd-epn">{"Higgsfield":1,"Snap":3,"Cursor":83,"OpenAI":180,"Anthropic":191,"Canva":5,"基准测试":18,"开源模型":4,"vibe coding":47,"tokenomics":2}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Eric Landau]] · [[物理 AI]] · [[多模态]] · [[苦涩的教训]] · [[产品市场契合]] · [[机器学习]] · [[数据标注]] · [[ChatGPT]] · [[Gong]] · [[YC]]
 
-<script type="application/json" class="pd-epn">{"Eric Landau":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":100,"Gong":3,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"Eric Landau":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":101,"Gong":3,"YC":17}</script>
 
 <script>
 (function(){

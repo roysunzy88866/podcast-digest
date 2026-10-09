@@ -1,0 +1,239 @@
+{
+  "title_zh": "写出最火微服务书籍的人，为什么说微服务是“最后的手段”？",
+  "tldr": "Sam Newman 谈微服务的真相、分布式系统的三条铁律，以及 AI 时代工程师该怎么保住思考能力。",
+  "digest_md": "Sam Newman 是《Building Microservices》的作者，这本大概是微服务领域被读得最多的书。他曾在 ThoughtWorks 工作多年，是“微服务”这个词诞生时房间里那 10 个人之一。他的新书《Building Resilient Distributed Systems》刚刚出版。在这期 The Pragmatic Engineer 里，他和主持人聊了微服务运动的来龙去脉、分布式系统的底层规律，以及对 AI 写代码的冷静看法。\n\n## 微服务是怎么被发明出来的？\n\n故事要从 2011 到 2012 年讲起。当时 ThoughtWorks 的 James Lewis 接触了不少做面向服务架构（SOA）的公司，发现其中一种做法很特别：服务的粒度更细，而且可以很快替换上线。在湖区的一次架构研讨会上，James 提出了这个想法，当时叫 micro apps，房间里有人接话说，这更像是 services，于是 microservices 这个名字就定了下来。James 和 Martin Fowler 随后写了第一篇文章 [22:35 Newman]。\n\n有意思的是，Netflix 在采用“微服务”这个叫法之前，一直管自己的架构叫 fine-grained SOA。Uber 也类似。主持人补充了 Uber 当时的 C2 Twan Palm 的说法：Uber 本来不想要那么多服务，只是因为大单体拖慢了交付、竞争对手环伺需要快速行动，才下了“必须有一个强有力的命令，不许往单体里加新东西”的死命令，要摆脱单体、拆成更小的服务，这不是初衷 [28:34 主持人]。\n\nNewman 对微服务的定义有两条硬性意见：服务必须能独立部署；服务边界默认按业务领域划分，而不是按技术分层。他的立场出人意料地保守：微服务会自然把状态和数据分布得更散，代价很高，所以必须有充分理由才用。他称之为“最后的手段”的架构。最好的理由之一，是你想要一个高度自治的组织——让团队能彼此独立地干活。**微服务只是达成这个目标的手段，不是魔法** [29:42 Newman]。\n\n## 分布式系统只有三条铁律\n\nNewman 说他一直记不住当年 Sun 公司总结的分布式计算八大谬误，于是自己浓缩成三条 [51:57 Newman]：\n\n第一，信息从 A 点到 B 点需要时间，这是物理规律，改不了。\n\n第二，你想对话的那个东西，有时候不在。可能是负载均衡器挂了，可能是数据中心着火——他真遇到过存储阵列里一对固态硬盘起火；还有一次，兔子钻进办公楼之间的管道，把网线啃了 [54:10 Newman]。\n\n第三，资源池不是无限的。CPU、内存、连接数都可能耗尽。Newman 说，**绝大多数系统故障最后都能归结到这条：某个资源被彻底打满了**。\n\n记住这三条，很多看似复杂的分布式系统问题会变得容易处理。\n\n## 可观测性为什么是第二章？\n\n他的新书第二章讲可观测性，第三章讲超时。这个安排有讲究。单机程序天生容易观察：你可以挂调试器、抓线程转储。但分布式系统跨了多台机器，信号散落各处，必须从一开始就主动做埋点，事后补加非常痛苦。\n\n好消息是现在有了 OpenTelemetry 这样的厂商中立标准。有了延迟、成功失败率这些数据，你才能设对超时、定义服务水平目标（SLO）——比如“99% 的请求在 300 毫秒内成功完成”。没有这些数据，就是在盲飞。\n\n可观测性还决定了你需要多“韧”。Newman 举了 Monzo 银行的例子：他们维护了一套功能精简、完全独立重写、跑在不同云厂商上的备用银行系统，随时待命。这不是一般公司该学的，而是一家银行想清楚了自己是谁之后的决定 [61:55 Newman]。\n\n## “生产环境才是真相”\n\n一个反复出现的主题：系统的真相到底在哪里？在文档里，还是代码里？Newman 借用同行 Charity 的话：**真相是生产环境，其他一切都是我们对自己讲的谎**。[35:17 Newman]\n\n> 【背景】Charity 指 Newman 的朋友、以「production is truth」观点闻名的工程师 Charity Majors。\n\n但随着 AI 生成代码越来越多，业界正在出现一条光谱：有的公司用规格说明驱动 AI 写代码，写完就把规格扔了；有的持续维护规格，改功能先改规格；还有的公司根本不看代码，只看规格。Martin Fowler 网站上的一篇文章把这类做法分成 spec-first 和 spec-anchored 等几类。\n\n> 【背景】该文作者为 Birgitta Böckeler，常年在 Martin Fowler 网站撰写关于 AI 辅助开发的系列文章。\n\nNewman 的态度是：不看代码可以，但前提是你把省下的时间用来做更重要的思考。有一家叫 ChainGuard 的公司干脆取消了人工代码评审，把时间挪到设计文档层面，他觉得没问题。但如果你既不看代码，也不认真想系统该怎么演进，那就等着承受后果 [40:33 Newman]。\n\n想把手头工作交给 AI 代理，他给出两个前提：能定义“什么算好”，并且能证明系统达到了这个定义。\n\n## 韧性不只是技术：四个维度\n\n书中借用了 David Woods 的韧性工程框架，分四个维度 [85:11 Newman]：\n\n一是健壮性，吸收已知的扰动，比如 Kubernetes 里容器挂了自动拉起一个新的。但麻烦在于，让系统更健壮的手段往往增加复杂度，从而带来新的失败面——引入 Kubernetes 来解决容器故障，Kubernetes 本身又成了新的风险源。\n\n二是回弹力，出事后多快能恢复。要认真做演练，Netflix 的 Chaos Monkey 就是干这个的。\n\n三是优雅扩展性，应对意料之外的事。这就不是计算机问题了，是人的问题。等级森严、岗位描述很窄的组织，往往应对意外很糟糕。他提到 Google 的 SRE 有个“厄运之轮”游戏：转一下轮盘，告诉你今天遭遇了某国发起的 DNS 污染攻击，看团队怎么应对 [89:00 Newman]。\n\n四是持续适应性，从别人的事故里学习。他推荐去读各家公开的事后报告，Cloudflare 的报告尤其“自我鞭挞”得彻底。\n\n后两个维度全靠心理安全感：**如果人们不敢安全地提出问题、质疑现状，韧性就无从谈起**。所以这本书最后三章讲的是人和文化，不是技术。\n\n## 大语言模型没有因果概念\n\n聊到 AI，Newman 毫不含糊。他说技术界普遍误解了大语言模型是什么东西。==为什么模型会删掉你的数据库==？**因为它没有因果概念** [96:03 Newman]。人推一杯玻璃杯下桌前，脑子里会算它会不会碎；模型不做这些计算，它只知道生成“看起来合理”的输出。\n\n他还区分了两个正在流行的概念。认知债务（cognitive debt）指团队共享的心智模型在大家各自和 AI 结对、各干各的时候逐渐瓦解。认知投降（cognitive surrender）更糟：用 AI 写一份自己根本不会读的文档，等于把专家从流程里抽掉，降格成一个盖章的人。他借 Cory Doctorow 的例子说明：AI 提醒肿瘤医生“这片子你可能漏看了一处”很有用；AI 筛完所有片子只让医生签字，就是灾难 [101:06 Newman]。\n\n那么正确的姿势是什么？Newman 的建议是模块化。人类认真思考模块边界和模块之间的关系，让 AI 在边界内部放开手脚生成代码。可以只对某些低风险、测试覆盖好、不在延迟关键路径上的模块尝试“软件工厂”式的全自动做法，其他地方继续人机协作。他说得务实：这也许行得通，也许是重蹈模型驱动开发的覆辙——但至少可以在小范围内安全地试试 [107:33 Newman]。\n\n另外要对冲风险：多供应商、多模型，别把命运押在 OpenAI 或 Anthropic 一家上，能换成确定性代码的环节就换成确定性代码。\n\n## 本集带走\n\n- 微服务是手段不是目的：最适合的场景是想要组织自治的大公司；它是“最后的手段”，不是默认选项。\n- 分布式系统三条铁律：信息传递需要时间；对方可能不在；资源池不是无限的。多数故障源于第三条。\n- 系统的真相在生产环境；把工作交给 AI 的前提是能定义“什么算好”，并能验证系统做到了。\n- 韧性有四个维度，后两个（应对意外、持续学习）取决于人和心理安全感，而不只是技术。\n- 对 AI 要清醒：大语言模型没有因果概念，人是回路中不可删的一环；用模块边界约束 AI 的活动范围，用确定性代码替换能用确定性代码的环节。",
+  "quotes": [
+    {
+      "en": "See, I feel like I've got to channel my friend Charity at this point and say the truth is production. Everything else is the lies we tell ourselves.",
+      "zh": "看，我觉得这时候我得搬出我的朋友 Charity，说真相是生产环境。其他一切都是我们讲给自己听的谎言。",
+      "timestamp": "35:12",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "I still remember when he said, well, programming's not typing.",
+      "zh": "我还记得他说过：编程不是打字。",
+      "timestamp": "16:10",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "The fact that we happen to make that program work through code, the code is really a side effect of how we work together.",
+      "zh": "我们碰巧通过代码让那个程序运行起来，代码其实是我们如何协作的一个副产品。",
+      "timestamp": "17:23",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "Kent put it in his tiny first book that software design is an exercise in human relationships, right? AI doesn't change that.",
+      "zh": "Kent 在他那本小小的第一本书里说过，软件设计是一种人际关系的练习，对吧？AI 并没有改变这一点。",
+      "timestamp": "18:26",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "Now, to be clear, right, I have my definition, you might have your own definition, but I'm the one that wrote the books on it, so my definition wins.",
+      "zh": "首先，要说清楚，我有我的定义，你可能有自己的定义，但写那几本书的人是我，所以我的定义说了算。",
+      "timestamp": "26:04",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "That's always been my argument, write your own damn book.",
+      "zh": "这一直是我的论点：那你就自己他妈去写本书啊。",
+      "timestamp": "26:10",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "I mean, I've described microservices as being an architecture of last resort.",
+      "zh": "我是说，我把微服务描述成一种「最后手段的架构」。",
+      "timestamp": "29:27",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "One of the best reasons to use microservices is if what you actually want is an organization with a higher degree of autonomy.",
+      "zh": "使用微服务最好的理由之一是，如果你真正想要的是一个拥有更高程度自主性的组织。",
+      "timestamp": "29:42",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "Never has the word simple been less well used.",
+      "zh": "「简单」这个词从来没有被用得这么名不副实过。",
+      "timestamp": "21:18",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "But I mean, really fundamentally, it's just the whole thing has been an exercise in smuggling through concepts of the 1970s, which is fine by me, right?",
+      "zh": "不过我是说，从根本上讲，这整件事其实就是一场把 20 世纪 70 年代的概念偷运进来的运动，这对我来说没问题，对吧？",
+      "timestamp": "24:12",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "And all of them came back and says, you can't do this unless you can define what good looks like. And if you can't, don't bother.",
+      "zh": "他们所有人回来都说，除非你能定义好的状态是什么样子，否则你没法做这件事。如果你定义不了，那就别费劲了。",
+      "timestamp": "41:29",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "If you're just not looking at the code and you're not caring about those other things, well, then you deserve everything that's going to happen to you.",
+      "zh": "如果你只是不看代码，而且也不在意那些其他的事情，那么接下来发生在你身上的任何事都是你活该。",
+      "timestamp": "40:33",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "AI was supposed to free us from drudgery. Right? It isn't for most software developers because we're doing more work, we've got more context switching, we're losing that big picture.",
+      "zh": "AI 本来应该把我们从苦役中解放出来，对吧？但对大多数软件开发者来说并不是，因为我们在做更多的工作，我们有更多的上下文切换，我们正在失去那种大局观。",
+      "timestamp": "39:16",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "No, because then your distributed denial of service attack becomes a distributed denial of cash attack, right?",
+      "zh": "不会，因为那样你的分布式拒绝服务攻击就变成了分布式拒绝现金攻击，对吧？",
+      "timestamp": "79:53",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "The SLA is what you're going to get sued for if you breach. If you only ever deliver to the SLA, your customers are rarely ever happy.",
+      "zh": "SLA 是你违反了会被起诉的东西。如果你只是达到 SLA，你的客户几乎不会满意。",
+      "timestamp": "66:50",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "Conservative analysis by the economists are showing that they need to be generating 2.6 trillion in revenue to justify their capex expenditure by 2030. The entire software market is 1.4 trillion.",
+      "zh": "经济学家们保守的分析表明，到 2030 年，它们需要产生 2.6 万亿美元的收入，才能证明其资本支出是合理的。而整个软件市场是 1.4 万亿美元。",
+      "timestamp": "93:19",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "Why did the LLM delete my database? Well, because it has no concept of causality.",
+      "zh": "为什么 LLM 删掉了我的数据库？嗯，因为它没有因果性的概念。",
+      "timestamp": "95:59",
+      "speaker": "Sam Newman"
+    },
+    {
+      "en": "This is why all the guardrails around LLMs are really not long-term going to be the right solution.",
+      "zh": "这就是为什么围绕 LLM 的那些护栏真的不是长期来看正确的解决方案。",
+      "timestamp": "96:53",
+      "speaker": "Sam Newman"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "35:12",
+      "speaker": "Sam Newman",
+      "en": "See, I feel like I've got to channel my friend Charity at this point and say the truth is production. Everything else is the lies we tell ourselves.",
+      "zh": "看，我觉得这时候我得搬出我的朋友 Charity，说真相是生产环境。其他一切都是我们讲给自己听的谎言。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Sam Newman",
+      "en": "I still remember when he said, well, programming's not typing.",
+      "zh": "我还记得他说过：编程不是打字。"
+    },
+    {
+      "timestamp": "17:23",
+      "speaker": "Sam Newman",
+      "en": "The fact that we happen to make that program work through code, the code is really a side effect of how we work together.",
+      "zh": "我们碰巧通过代码让那个程序运行起来，代码其实是我们如何协作的一个副产品。"
+    },
+    {
+      "timestamp": "18:26",
+      "speaker": "Sam Newman",
+      "en": "Kent put it in his tiny first book that software design is an exercise in human relationships, right? AI doesn't change that.",
+      "zh": "Kent 在他那本小小的第一本书里说过，软件设计是一种人际关系的练习，对吧？AI 并没有改变这一点。"
+    },
+    {
+      "timestamp": "26:04",
+      "speaker": "Sam Newman",
+      "en": "Now, to be clear, right, I have my definition, you might have your own definition, but I'm the one that wrote the books on it, so my definition wins.",
+      "zh": "首先，要说清楚，我有我的定义，你可能有自己的定义，但写那几本书的人是我，所以我的定义说了算。"
+    },
+    {
+      "timestamp": "26:10",
+      "speaker": "Sam Newman",
+      "en": "That's always been my argument, write your own damn book.",
+      "zh": "这一直是我的论点：那你就自己他妈去写本书啊。"
+    },
+    {
+      "timestamp": "29:27",
+      "speaker": "Sam Newman",
+      "en": "I mean, I've described microservices as being an architecture of last resort.",
+      "zh": "我是说，我把微服务描述成一种「最后手段的架构」。"
+    },
+    {
+      "timestamp": "29:42",
+      "speaker": "Sam Newman",
+      "en": "One of the best reasons to use microservices is if what you actually want is an organization with a higher degree of autonomy.",
+      "zh": "使用微服务最好的理由之一是，如果你真正想要的是一个拥有更高程度自主性的组织。"
+    },
+    {
+      "timestamp": "21:18",
+      "speaker": "Sam Newman",
+      "en": "Never has the word simple been less well used.",
+      "zh": "「简单」这个词从来没有被用得这么名不副实过。"
+    },
+    {
+      "timestamp": "24:12",
+      "speaker": "Sam Newman",
+      "en": "But I mean, really fundamentally, it's just the whole thing has been an exercise in smuggling through concepts of the 1970s, which is fine by me, right?",
+      "zh": "不过我是说，从根本上讲，这整件事其实就是一场把 20 世纪 70 年代的概念偷运进来的运动，这对我来说没问题，对吧？"
+    },
+    {
+      "timestamp": "41:29",
+      "speaker": "Sam Newman",
+      "en": "And all of them came back and says, you can't do this unless you can define what good looks like. And if you can't, don't bother.",
+      "zh": "他们所有人回来都说，除非你能定义好的状态是什么样子，否则你没法做这件事。如果你定义不了，那就别费劲了。"
+    },
+    {
+      "timestamp": "40:33",
+      "speaker": "Sam Newman",
+      "en": "If you're just not looking at the code and you're not caring about those other things, well, then you deserve everything that's going to happen to you.",
+      "zh": "如果你只是不看代码，而且也不在意那些其他的事情，那么接下来发生在你身上的任何事都是你活该。"
+    },
+    {
+      "timestamp": "39:16",
+      "speaker": "Sam Newman",
+      "en": "AI was supposed to free us from drudgery. Right? It isn't for most software developers because we're doing more work, we've got more context switching, we're losing that big picture.",
+      "zh": "AI 本来应该把我们从苦役中解放出来，对吧？但对大多数软件开发者来说并不是，因为我们在做更多的工作，我们有更多的上下文切换，我们正在失去那种大局观。"
+    },
+    {
+      "timestamp": "79:53",
+      "speaker": "Sam Newman",
+      "en": "No, because then your distributed denial of service attack becomes a distributed denial of cash attack, right?",
+      "zh": "不会，因为那样你的分布式拒绝服务攻击就变成了分布式拒绝现金攻击，对吧？"
+    },
+    {
+      "timestamp": "66:12",
+      "speaker": "Sam Newman",
+      "en": "Do we think that people working at Zoom are idiots? No.",
+      "zh": "我们认为在 Zoom 工作的人是白痴吗？不。"
+    },
+    {
+      "timestamp": "66:50",
+      "speaker": "Sam Newman",
+      "en": "The SLA is what you're going to get sued for if you breach. If you only ever deliver to the SLA, your customers are rarely ever happy.",
+      "zh": "SLA 是你违反了会被起诉的东西。如果你只是达到 SLA，你的客户几乎不会满意。"
+    },
+    {
+      "timestamp": "93:19",
+      "speaker": "Sam Newman",
+      "en": "Conservative analysis by the economists are showing that they need to be generating 2.6 trillion in revenue to justify their capex expenditure by 2030. The entire software market is 1.4 trillion.",
+      "zh": "经济学家们保守的分析表明，到 2030 年，它们需要产生 2.6 万亿美元的收入，才能证明其资本支出是合理的。而整个软件市场是 1.4 万亿美元。"
+    },
+    {
+      "timestamp": "96:03",
+      "speaker": "Sam Newman",
+      "en": "Why did the LLM delete my database? Well, because it has no concept of causality.",
+      "zh": "为什么 LLM 删掉了我的数据库？嗯，因为它没有因果性的概念。"
+    },
+    {
+      "timestamp": "96:53",
+      "speaker": "Sam Newman",
+      "en": "This is why all the guardrails around LLMs are really not long-term going to be the right solution.",
+      "zh": "这就是为什么围绕 LLM 的那些护栏真的不是长期来看正确的解决方案。"
+    },
+    {
+      "timestamp": "104:32",
+      "speaker": "Sam Newman",
+      "en": "It's to say that you've got a better way of understanding what you're building.",
+      "zh": "而是说你有了一种更好的方式来理解你正在构建的东西。"
+    }
+  ],
+  "voice_script": "今天这期值得听。嘉宾叫 Sam Newman，微服务领域被读得最多的那本书《Building Microservices》就是写的，而且当年\"微服务\"这个词诞生的时候，就坐在房间里，算是创始人之一。最新又出了本讲分布式系统韧性的书。这期播客里，聊了三件事：微服务到底是怎么回事、分布式系统有没有底层规律，还有 AI 时代写代码这件事该怎么看。\n\n先说微服务是怎么来的。故事要从 2011、2012 年讲起。当时 ThoughtWorks 的 James Lewis 看了不少做面向服务架构的公司，发现有一种做法很特别：服务拆得特别细，而且能很快替换上线。在一次架构研讨会上，James 提出这个想法，有人接了一句，说这更像 services，于是 microservices 这个名字就这么定下来了。有意思的是，Netflix 在用这个词之前，一直管自己的架构叫细粒度 SOA；Uber 也差不多，本来不想要那么多服务，只是因为大单体拖慢了交付、竞争对手又环伺，才下了死命令：不许往单体里加新东西，必须拆出去。你看，拆服务从来不是初衷。\n\n所以 Newman 对微服务的态度出人意料地保守。给出两条硬性标准：服务必须能独立部署，边界默认按业务领域划分，而不是按技术分层。更重要的是立场：微服务会把状态和数据散得到处都是，代价很高，必须有充分理由才用——这叫\"最后的手段\"。最好的理由之一，是你想要一个高度自治的组织，让团队能彼此独立干活。说白了，微服务只是手段，不是魔法。\n\n那拆成分布式之后，会遇到什么？Newman 说记不住 Sun 总结的八大谬误，干脆自己浓缩成三条铁律。第一条，信息从 A 点到 B 点需要时间，这是物理规律，改不了。第二条，你想对话的那个东西，有时候不在。可能是负载均衡器挂了，也可能是更离谱的原因——真遇到过存储阵列里的固态硬盘起火，还有一次是兔子钻进办公楼之间的管道，把网线啃了。第三条，资源池不是无限的，CPU、内存、连接数都可能耗尽。而且绝大多数系统故障，最后都能归结到这条：某个资源被彻底打满了。记住这三条，很多看似复杂的问题会变得好处理得多。\n\n顺着你可能会问：那怎么对付这些故障？这就引出可观测性。单机程序挂个调试器就能看，但分布式系统跨了多台机器，信号散落各处，必须从一开始就主动埋点。有了延迟和成功率这些数据，才能设对超时、定出服务水平目标，比如\"99% 的请求在 300 毫秒内成功\"。没有这些，就是在盲飞。还有一个反复出现的观点，借的是 Charity Majors 的原话：真相是生产环境，其他一切都是我们讲给自己听的谎言。\n\n再说韧性。这本书里韧性分四个维度。一是健壮性，吸收已知的扰动——但麻烦在于，让系统更健壮的手段往往增加复杂度，Kubernetes 本身就成了新的风险源。二是回弹力，出事后多快恢复，Netflix 的 Chaos Monkey 干的就是这个。三是优雅扩展性，应对意料之外的事，这已经不是技术问题而是人的问题了——等级森严的组织往往应对意外很糟糕。四是持续适应性，从别人的事故里学习，比如去读 Cloudflare 那种写得极其彻底的事后报告。后两个维度全靠心理安全感：人们不敢提出问题、不敢质疑现状，韧性就无从谈起。所以这本书最后三章讲的是人和文化，不是技术。\n\n最后聊到 AI，Newman 毫不含糊。为什么大语言模型会干出删掉你数据库这种事？因为没有因果概念。人推一个玻璃杯下桌前，脑子里会算它会不会碎；模型不做这种计算，只会生成看起来合理的输出。这里有两个新词要分清：认知债务，指大家各自跟 AI 结对、团队共享的心智模型慢慢瓦解；认知投降更糟，用 AI 写一份自己根本不会读的文档，等于把专家降格成盖章的人。那么正确姿势是什么？模块化。人来认真思考模块边界和模块之间的关系，让 AI 在边界内部放开手脚。可以只挑低风险、测试覆盖好、不在关键路径上的模块试试全自动，其他地方继续人机协作。另外记得对冲风险：多供应商、多模型，能换成确定性代码的环节就换掉。\n\n如果你只想带走一句话，就带走这句：编程不是打字，代码其实是我们如何协作的一个副产品——AI 并没有改变这一点，想清楚系统该怎么演进的，始终得是人。"
+}

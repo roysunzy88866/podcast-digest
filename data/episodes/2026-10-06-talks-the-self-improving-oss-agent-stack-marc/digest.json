@@ -1,0 +1,155 @@
+{
+  "title_zh": "让 AI 自己改进 AI：Langfuse 创始人谈「自我改进的智能体」",
+  "tldr": "Langfuse 联合创始人 Marc Klingen 讲解团队如何从手动调优智能体，走向用智能体自动改进智能体。",
+  "digest_md": "Marc Klingen 是开源可观测性工具 Langfuse 的联合创始人。这次演讲里，他回答了一个很多团队都在问的问题：==模型越来越强，能不能把调优智能体这件又累又枯燥的事，也交给 AI 自己做==？他的答案是可以，但人必须留在几个关键位置上。\n\n## 做智能体应用，本质是一个循环\n\nKlingen 说，做智能体和做普通应用不一样。它不是写完上线就结束，而是一个循环：上线后追踪真实用户怎么用它，把问题整理成数据集，离线做实验、改实现，再评估改得有没有效，然后部署、继续观察 [02:53 Unknown]。\n\nLangfuse 就是为此而生。他解释，过去线上监控和数据科学实验是两套割裂的工具——数据集和线上真实情况不同步，你优化的方向就是错的。所以需要一个把线上线下打通的新品类。\n\n问题是，这个循环全是体力活：看追踪记录、更新数据集、想新的评估标准、提出假设、验证。做得好的团队质量确实高，但代价是每周都要有人专门泡在数据里。\n\n## 不同层次的循环，AI 正在逐层接管\n\n他用了一个流行的心智模型：AI 系统是一层层嵌套的循环，最底层是预测下一个词，最顶层是人类设定方向。2023 年只有代码补全这一层可用，2024 年多了一层，到 2025、2026 年，AI 已经能自己推理该修什么、提出修法、并验证是否有效 [03:42 Unknown]。\n\n但人目前还守着四个关口：往数据集里加什么例子、怎么定义做得好、审查 AI 提出的改动、以及判断哪些失败模式值得管。最后一点很微妙——智能体在生产环境里会发现各种奇怪的失败，但有些根本不重要，不值得为它过度优化。\n\n## 一句大白话：边开飞机边画地图\n\n为什么不能一开始就把目标定死、全自动跑？Klingen 的比喻很形象。\n\n客户支持就是例子。老板说客户等太久、人力成本高，让 AI 全自动回复。这是个很弱的目标，因为没人真正知道客服每天都在处理什么。你只能在做的过程中，靠一个个错误案例搞清楚需求到底是什么。他称之为「边开飞机边组装地图」[07:34 Unknown]。\n\n所以**目标本身是移动的，人必须留在设定方向的循环里**，否则 AI 会朝着错误的方向狂奔。\n\n## 全自动不如人守关键点\n\n他画了一张投入产出图：纯手动投入时间巨大但质量高；纯全自动几乎不花时间，但风险是「产生大量 token，却没什么意义」[08:49 Unknown]。\n\n理想的中间态是：人只在最重要的步骤介入——定方向、改数据集和评估标准——其余枯燥的底层循环全部自动化。而且**质量反而可能更高：人看数据受限于自己的耐心，AI 能翻完多得多的错误案例**。\n\n信号也不必都靠人工标注。用户骂客服机器人、点这不对、内部审核员改写草稿，这些隐式信号都能自动流进改进循环。\n\n## 一个真实案例：自动写更新日志的智能体\n\nLangfuse 自己的工程团队用 AI 多、发布多，但更新文档和对外宣传跟不上。于是他们做了个「更新日志写作智能体」：看到代码合并，就自动起草文档和日志的修改，提交成 GitHub 上的 PR，人审核通过或提修改意见，智能体再迭代 [11:24 Unknown]。\n\n他们用编码智能体去分析这个写作智能体的表现，发现了具体问题：事实准确，但清晰度低，而且会泄漏内部行话——客户不知道什么叫摄取管道，这些实现细节应该翻译成用户听得懂的语言。\n\n接下来就是自动闭环：智能体据此提议更新数据集和评估标准（专门测试是否泄漏行话），再提出新的实现方式，在更新后的数据集上做回测。结果是 v2 版本在格式合规和准确性上持平，在用户友好语言上明显改善——正增量，合并上线 [14:24 Unknown]。\n\nKlingen 说，这套跑法门槛不高：收集生产信号、记录详细执行轨迹，然后让智能体按天或按周定时循环处理新数据。信号来源可以是用户反馈，也可以是应用内的人工标注。\n\n## 两个连带的技术判断\n\n这套玩法带来两个变化。一是数据系统要抗读：Langfuse 过去以写入为主（接收追踪和评估数据），现在 AI 能消化海量数据，读取量暴涨 [16:08 Unknown]。二是数据层必须自己拥有：一年前的追踪记录现在成了有价值的上下文，不能被锁在会采样、会短期删除的商业系统里——要长期保留、不采样。\n\n## 本集带走\n\n- 做智能体应用是一个循环：线上追踪、离线实验、评估、部署、再学习，线上线下数据必须打通。\n- AI 已能自动提出修复方案、维护数据集和评估标准，但人应守住方向设定和改动审查这几个关口。\n- 目标是移动的——边开飞机边画地图，全自动有朝着错误方向优化的风险。\n- 隐式信号（用户抱怨、人工改写、审核意见）可以自动喂进改进循环，不必全靠人工标注。\n- 自我改进的智能体需要可扩展、可长期持有、以读为主的数据层。",
+  "quotes": [
+    {
+      "en": "I think this is the year where teams talk about up-leveling, the level of where they operate themselves, where increasingly good models just abstract everything downstream.",
+      "zh": "我认为这是团队谈论提升自身运作层次的一年，因为越来越好的模型把下游的一切都抽象掉了。",
+      "timestamp": "00:47",
+      "speaker": "Marc Klingen"
+    },
+    {
+      "en": "But really, you maintain the boundary of what you optimize against.",
+      "zh": "但实际上，你维护的是你所优化的边界。",
+      "timestamp": "05:38",
+      "speaker": "Marc Klingen"
+    },
+    {
+      "en": "And two, you want to really own the data layer because now the traces of, for example, a year ago are interesting context, and you don't want them to be locked up in a more commercial system or something where",
+      "zh": "第二点，你真的会想拥有自己的数据层，因为现在比如一年前的轨迹就是有价值的上下文，你不会想让它们被锁在某个更商业化的系统里或类似的东西里。",
+      "timestamp": "16:20",
+      "speaker": "Marc Klingen"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:47",
+      "speaker": "Unknown",
+      "en": "I think this is the year where teams talk about up-leveling, the level of where they operate themselves, where increasingly good models just abstract everything downstream.",
+      "zh": "我认为这是团队谈论提升自身运作层次的一年，因为越来越好的模型把下游的一切都抽象掉了。"
+    },
+    {
+      "timestamp": "01:44",
+      "speaker": "Unknown",
+      "en": "And at the same time, a more reference stack emerged of how great AI agents are built, because building agents is different from building applications.",
+      "zh": "与此同时，一个更明确的参考技术栈涌现出来，关于优秀 AI 智能体是如何构建的，因为构建智能体不同于构建应用程序。"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Unknown",
+      "en": "You need to bring the online and the offline together, as otherwise, like, you either benchmark on data that's inaccurate, so the data sets, they're not in sync with what's happening in production, or you're monitoring production data, but you don't really benchmark offline, so you need to bring the both together.",
+      "zh": "你需要把在线和离线结合在一起，否则，你要么在不准确的数据上进行基准测试，也就是数据集与生产中实际发生的情况不同步，要么你监控生产数据，但并没有真正离线做基准测试，所以你需要把两者结合在一起。"
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Unknown",
+      "en": "And now 2025, 2026 is more like the higher level loops of actually agents reasoning about what to even fix, how to propose new fixes, and how to verify whether they actually work.",
+      "zh": "而现在 2025、2026 年更多是更高层的循环，即智能体真正推理要修什么、如何提出新的修复方案、以及如何验证它们是否真的有效。"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Unknown",
+      "en": "Then on the proposal of fixes, because if your agent proposes how to change an agent, you still want to see what was changed because you have the risk of overfitting it to the data set.",
+      "zh": "然后是修复方案的提议，因为如果你的智能体提出如何修改一个智能体，你仍然想看到改了什么，因为你有过拟合到数据集上的风险。"
+    },
+    {
+      "timestamp": "04:53",
+      "speaker": "Unknown",
+      "en": "So we don't need to overfit our application to this random quirk that we found in production.",
+      "zh": "所以我们不需要把我们的应用过拟合到我们在生产环境中发现的这个随机怪癖上。"
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Unknown",
+      "en": "That's like a really cool way to kind of like loop your way to a success with agents because usually they're like 10 different things of what you could be doing.",
+      "zh": "这是一种很酷的方式，可以让你用循环的方式通向智能体的成功，因为通常有大约 10 种不同的事情是你可以去做的。"
+    },
+    {
+      "timestamp": "05:38",
+      "speaker": "Unknown",
+      "en": "But really, you maintain the boundary of what you optimize against.",
+      "zh": "但实际上，你维护的是你所优化的边界。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Unknown",
+      "en": "Usually teams are still involved in reviewing these changes because they create the new boundary for how then other agents try to auto-improve against it.",
+      "zh": "通常团队仍然参与审查这些变更，因为它们为其他智能体随后尝试针对其进行自动改进创造了新的边界。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Unknown",
+      "en": "If you give this completely out of hand, you risk that you just create more slab.",
+      "zh": "如果你把这一点完全放手不管，你就有可能只是制造出更多的垃圾。"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Unknown",
+      "en": "We've used this in a blog post of ours where I'd say the target of an AI application is always changing because you don't really know.",
+      "zh": "我们在我们的一篇博客文章中用过这个说法：AI 应用的目标总是在变化，因为你并不真正知道。"
+    },
+    {
+      "timestamp": "07:23",
+      "speaker": "Unknown",
+      "en": "But it's a very weak target because people don't even know what happens in customer support every day.",
+      "zh": "但这是一个非常弱的目标，因为人们甚至不知道客服每天都在发生什么。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Unknown",
+      "en": "And that's this kind of map that you assemble the plane while you're flying it.",
+      "zh": "而这就是那种你在飞行的过程中组装飞机的地图。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Unknown",
+      "en": "Because you set thereby the direction.",
+      "zh": "因为由此你设定了方向。"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Unknown",
+      "en": "But thereby, you pull yourself out of a lot of the more manual and tedious work on the lower levels.",
+      "zh": "但由此，你把自己从低层级上大量更手工、更繁琐的工作中拉了出来。"
+    },
+    {
+      "timestamp": "09:20",
+      "speaker": "Unknown",
+      "en": "Because usually, if you need to do everything manually, you're bottlenecked by your own time, your own perseverance, endurance, or patience to look through so much data.",
+      "zh": "因为通常来说，如果你需要手动做所有事情，你会被自己的时间、自己的毅力、耐力或耐心所限制，无法查看那么多数据。"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Unknown",
+      "en": "And AI can just look through so much more error cases.",
+      "zh": "而 AI 可以查看多得多的错误案例。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Unknown",
+      "en": "So there's, like, a lot of, like, implicit signal that can feed into your process without you as the agent developer needing to do this manually.",
+      "zh": "所以这里有很多隐式信号可以输入到你的流程中，而不需要你作为智能体开发者手动去做这件事。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Unknown",
+      "en": "And that we leak internal jargon to our customers.",
+      "zh": "而且我们会向客户泄露内部行话。"
+    },
+    {
+      "timestamp": "16:14",
+      "speaker": "Unknown",
+      "en": "Now it's way more read-intensive because agents can chew through so much more data.",
+      "zh": "现在它更加读取密集了，因为 agent 能消化多得多的数据。"
+    },
+    {
+      "timestamp": "16:20",
+      "speaker": "Unknown",
+      "en": "And two, you want to really own the data layer because now the traces of, for example, a year ago are interesting context, and you don't want them to be locked up in a more commercial system or something where",
+      "zh": "第二点，你真的会想拥有自己的数据层，因为现在比如一年前的轨迹就是有价值的上下文，你不会想让它们被锁在某个更商业化的系统里或类似的东西里。"
+    }
+  ],
+  "voice_script": "今天要聊的这期,主角是 Marc Klingen,开源可观测性工具 Langfuse 的联合创始人。这期要讲的问题,其实很多做 AI 应用的团队都在问:模型越来越强了,那调优智能体这件又累又枯燥的活,能不能也交给 AI 自己干?\n\n先交代一下背景,为什么这个问题现在值得聊。做智能体应用,跟做普通应用不太一样。普通应用写完上线就结束了,智能体不行,它是一个循环:上线之后,你要盯着真实用户怎么用它,把暴露出来的问题整理成数据集,离线做实验、改实现,评估一下改得有没有效,然后再部署,继续观察。就这么一圈一圈转。\n\nLangfuse 这个公司,就是为这个循环而生的。因为过去,线上监控和数据科学实验是两套割裂的工具,数据集和线上真实情况对不上,你优化的方向可能从一开始就是错的。所以需要一个把线上线下打通的新品类。\n\n那问题来了,这个循环全是体力活。看追踪记录、更新数据集、想新的评估标准、提出假设、验证假设。做得好的团队,质量确实高,但代价是每周都得有人专门泡在数据里。于是 Klingen 就想,这件事能不能让 AI 自己来?\n\n这里要用到一个流行的思考模型:AI 系统是一层层嵌套的循环。最底层是预测下一个词,最顶层是人类设定方向。往前看,2023 年,只有代码补全这一层可用;2024 年多了一层;到了 2025、2026 年,AI 已经能自己推理该修什么、提出修法、还能验证修没修对。也就是说,智能体在逐层往上调,接管越来越多原本要人干的循环。\n\n但注意,人现在还守着四个关口。第一,往数据集里加什么例子;第二,怎么定义\"做得好\";第三,审查 AI 提出来的改动;第四,判断哪些失败模式值得管。第四点特别微妙——智能体跑到生产环境里,会发现各种奇怪的失败,但有些失败根本不重要,不值得为它过度优化。\n\n你可能会问,那为什么不干脆把目标定死,让它全自动跑?这引出了整个演讲里最形象的一个比喻:边开飞机边画地图。\n\n拿客户支持举例子。老板说,客户等太久、人力成本高,让 AI 全自动回复。听起来合理,但这其实是个很弱的目标——因为没人真正知道客服每天到底在处理什么。你只能在做的过程中,靠一个又一个真实的错误案例,才慢慢搞清楚需求到底是什么。地图不是提前画好的,是飞机一边飞一边组装出来的。\n\n所以结论就是:目标本身是移动的,人必须留在设定方向的那个循环里。不然的话,AI 会朝着错误的方向狂奔,跑得越快偏得越远。\n\n顺着这个思路往下推,就可以画一张投入产出的图。一头是纯手动,投入时间巨大,但质量高;另一头是纯全自动,几乎不花时间,但风险是什么?用原话说,就是\"产生大量 token,却没什么意义\"。烧了资源,产出一堆没用的东西。\n\n理想状态在中间:人只在最重要的步骤介入——定方向、改数据集和评估标准——其余枯燥的底层循环全部自动化。而且这里有个反直觉的点:质量反而可能更高。因为人看数据,受限于自己的耐心,一天能翻几条就不错了;AI 能翻完多得多的错误案例,一个都不放过。\n\n还有一点,信号也不必全靠人工标注。用户骂客服机器人、点了\"这不对\"这种按钮、内部审核员改写草稿——这些隐式信号,都能自动流进改进循环。\n\n道理讲完了,来看一个真实的案例,Langfuse 自己的工程团队。这个团队用 AI 用得多、发布也勤,但更新文档和对外宣传跟不上。于是他们做了一个\"更新日志写作智能体\":一看到有代码合并,就自动起草文档和日志的修改,提交成 GitHub 上的 PR,人审核通过,或者提修改意见,智能体再迭代。\n\n接下来是关键一步,自动闭环。他们先用编码智能体去分析这个写作智能体的表现,发现了具体问题:事实准确,但清晰度低,而且会泄漏内部行话——比如\"摄取管道\"这种词,客户根本不知道是什么,这些实现细节应该翻译成用户听得懂的语言。智能体据此提议更新数据集和评估标准,专门加了一项测试:是否泄漏行话。然后提出新的实现方式,在更新后的数据集上做回测。结果呢?v2 版本在格式合规和准确性上持平,在用户友好语言上明显改善——正增量,合并上线。\n\nKlingen 说,这套跑法门槛其实不高:收集生产信号,记录详细的执行轨迹,然后让智能体按天或者按周,定时循环处理新数据。信号来源可以是用户反馈,也可以是应用内的人工标注。\n\n最后,这套玩法还带来两个技术判断,顺带说一下。第一,数据系统要抗读。Langfuse 过去以写入为主,就是接收追踪和评估数据;现在 AI 能消化海量数据,读取量暴涨。第二,数据层必须自己拥有。用他的话说,一年前的轨迹,现在就是有价值的上下文,你不会想让这些数据被锁在某个会采样、会短期删除的商业化系统里。要长期保留,不采样。\n\n所以回头看,这期讲的其实是团队怎么提升自身运作的层次——越来越好的模型,把下游的一切都抽象掉了。而人要守住的,恰恰是自己所优化的那道边界。"
+}

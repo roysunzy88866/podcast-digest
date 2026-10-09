@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":444,"harness 工程":3,"自动驾驶代码库":1,"技能":29,"工作日志":1,"人设":1,"验证":2,"闸门":2,"护栏":84,"心智社会":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":446,"harness 工程":3,"自动驾驶代码库":1,"技能":29,"工作日志":1,"人设":1,"验证":2,"闸门":2,"护栏":84,"心智社会":1}</script>
 
 <script>
 (function(){

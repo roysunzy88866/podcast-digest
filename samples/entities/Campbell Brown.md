@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":179,"Anthropic":190,"Meta":48,"ChatGPT":100,"LLM":58,"幻觉":12,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":180,"Anthropic":191,"Meta":48,"ChatGPT":101,"LLM":59,"幻觉":12,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

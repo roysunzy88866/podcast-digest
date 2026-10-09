@@ -127,9 +127,9 @@ Claude 可以搜出 100 个职位、过滤到 5 个，再只把这 5 个交给�
 
 **换个口味**
 
+- [[2026-10-08-pg-pm-to-product-builder-roadmap|从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图]]<span class="pd-rz">同概念:ChatGPT、Claude、MCP</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同概念:Claude、MCP</span>
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同概念:ChatGPT、Claude</span>
-- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:Claude、MCP</span>
 
 </div>
 </div>

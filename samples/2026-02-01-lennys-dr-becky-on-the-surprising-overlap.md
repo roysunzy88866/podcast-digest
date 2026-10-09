@@ -212,6 +212,13 @@ jsonLd: |
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:Radical Candor</span>
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同概念:韧性 (resilience)</span>
+
+</div>
 </div>
 <script>
 (function(){

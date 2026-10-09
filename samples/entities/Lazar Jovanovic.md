@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Lovable":19,"智能体":444,"vibe coding":47,"清晰度":1,"token":32,"沙箱":85,"品味":15,"Codex":80,"Claude":91}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Lovable":19,"智能体":446,"vibe coding":47,"清晰度":1,"token":32,"沙箱":85,"品味":15,"Codex":81,"Claude":92}</script>
 
 <script>
 (function(){

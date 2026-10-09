@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ aliases: ["K8s", "k8s"]
 - **[[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]]**(10:41起):本集说 Teleport 的容器跑在 Google 机房的 Kubernetes 集群里、合上笔记本也继续运行；未来自动发布要检查 pod 是否崩溃、健康检查是否通过。
 - **[[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]]**(00:40起):本集称其为「云的操作系统」,拥有自愈、负载均衡、自动扩缩容等成熟生态;Crusoe 把 Slurm 建在它之上,兼得两者的长处。
 - **[[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]]**(54:03起):本集说 E2B 目前调度跑在 Nomad 上、正在往 Kubernetes 迁移，但 K8s 有一些尚未解决的技术问题；另有听众问 Kubernetes 下存储随时间的修剪，Matt 说是活跃难题。
+- **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(79:59起):本集用它举例鲁棒性（pod 挂了自动拉起新的）以及鲁棒性手段反增复杂度的悖论（引入它本身又成了新风险源）。
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
@@ -59,14 +60,15 @@ aliases: ["K8s", "k8s"]
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念
 - [[2026-10-03-talks-gpu-died-training-didn-t-self-healing-tr|《GPU 坏了，训练不用停：Crusoe 的自愈式训练平台》]] — 作为概念
 - [[2026-10-05-talks-how-i-learned-to-stop-worrying-and-love|《让 AI 在沙盒里撒野：一场关于沙盒的夺旗游戏》]] — 作为概念(提及)
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[MCP]] · [[推理]] · [[Claude]] · [[Anthropic]] · [[CI-CD]] · [[Claude Code]] · [[可观测性]] · [[GitHub]]
+[[智能体]] · [[沙箱]] · [[MCP]] · [[Anthropic]] · [[推理]] · [[Claude]] · [[可观测性]] · [[OpenAI]] · [[Claude Code]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":444,"沙箱":85,"MCP":82,"推理":87,"Claude":91,"Anthropic":190,"CI-CD":16,"Claude Code":98,"可观测性":38,"GitHub":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":446,"沙箱":85,"MCP":83,"Anthropic":191,"推理":87,"Claude":92,"可观测性":40,"OpenAI":180,"Claude Code":98,"LLM":59}</script>
 
 <script>
 (function(){

@@ -71,7 +71,7 @@ unlisted: true
 
 [[智能体]] · [[Amazon]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[Stripe]] · [[SaaS]] · [[Perplexity]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":444,"Amazon":32,"OpenAI":179,"Anthropic":190,"ChatGPT":100,"Google":65,"Stripe":48,"SaaS":22,"Perplexity":9,"Databricks":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":446,"Amazon":32,"OpenAI":180,"Anthropic":191,"ChatGPT":101,"Google":66,"Stripe":48,"SaaS":22,"Perplexity":9,"Databricks":22}</script>
 
 <script>
 (function(){

@@ -1,0 +1,185 @@
+{
+  "title_zh": "从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图",
+  "tldr": "Ankit Shukla 用 12500 份招聘启事证明「产品构建者」不是炒作，并给出从技能到面试的完整路线图。",
+  "digest_md": "Ankit Shukla 曾是高级产品经理，现在创办了培训公司 Hello PM。他做了一件事：用 Claude 和 GPT 爬取并分析了 12500 份产品经理招聘启事，想搞清楚一个新出现的角色——产品构建者(product builder)——到底是真趋势还是自媒体炒出来的概念。结论很明确：**这是真的，而且可能是这个十年最大的职业机会之一**。\n\n## 这个新角色是真趋势还是炒作？\n\n起因是 LinkedIn 把原有的 associate product manager 项目改成了 associate product builder 项目，引发热议。Ankit 不想靠观点说话，直接去看真实招聘数据。\n\n他发现，**超过 30% 的产品经理岗位明确要求像样的 AI 技能**。而且要求的不只是会用工具——公司想要的是判断力：哪些问题该用 AI 解决，哪些不该。「这种判断力，正是公司愿意付钱买的东西」[04:22 Ankit Shukla]。\n\n传统产品经理的工作分三段：发现(研究用户和市场、定路线图)、交付(写规格、协调开发和设计团队)、分发(把产品送到用户手里)。AI 正在改变每一段：研究可以用 Claude、GPT 或 NotebookLM 快速完成；交付端工程师用 Cursor、Claude Code 提速；甚至产品经理自己就能做实验，不必事事排队等工程团队。\n\n## 薪水到底高多少？\n\nAnkit 的数据显示，**AI 相关产品岗位在美国和欧洲比传统岗位高出 15%–20%**，在印度高出 30%–50%。\n\n具体数字：美国这批岗位的中位年薪是 195K 美元；有了几年经验再加上 AI 技能，可以达到 250K 到 500K 美元；顶级公司的总包可能到 800K，Netflix 甚至挂出过 90 万美元的 AI 产品经理职位。在印度，懂 AI 的新人起薪约 12 到 16 LPA(一年薪水的印度计量单位)，两年经验约 22 LPA。\n\n## 想吃这碗饭，先记住POWER 框架\n\nAnkit 提出了一个 POWER 框架，核心思想是：先想清楚，再动手。前三个字母 POW 代表问题空间，E 代表工程实现，R 代表结果(return)。\n\nP——可能性。 不要从问题出发，先研究 AI 能做什么。AI 擅长三类事：理解、转换、生成文本(比如总结几百场会议记录、生成代码和内容)。去看竞争对手、邻近行业，甚至 Anthropic、OpenAI 这些公司的客户案例页，建一个自己公司的可能性清单。\n\nO——机会。 回到自己公司，找出哪些环节用 AI 能产生实际回报。别只盯着一个用例，要判断哪个问题值得做——挑一个不常发生的小问题，做了也拿不到回报。\n\nW——工作流。 深入到具体流程，不能只说我想优化用户访谈。这里分两类机会：优化(原本每周 3 小时的活变成 1 小时)和创新(以前根本没想过的做法)。Ankit 举了自己的例子：Hello PM 有 200 通新学员介绍电话的文字记录，他把它们喂给 Claude 生成用户画像文档。之后每次做决策，都让 Claude 把这个决策在所有画像上过一遍，看对哪类人有效、哪类人有害。他管这叫规模化的同理心[23:53 Ankit Shukla]。\n\n框架最重要的提醒：别从工程开始。在 12500 份招聘启事里，**排名第一的技能不是 RAG、不是智能体、不是提示词工程，而是识别 AI 的正确用例**[25:45 Ankit Shukla]。\n\n## 工具怎么选？按五级阶梯往上走\n\n到了工程环节，Ankit 给了一个分级框架，从低到高：\n\n第 0 级是直接在网页上和聊天机器人对话。第 1 级是做可复用的提示词，比如用 Google Gems 或自定义 GPT 存一个PRD 生成器或简历优化器。缺点是要来回切窗口。\n\n第 2 级是技能加连接器。用 Claude Code 创建技能——本质上就是做成文件的任务指令，Claude 会自己判断什么时候加载哪个，不占上下文。做技能的窍门很简单：先正常把活干完，满意之后让 Claude 把整个过程打包成技能，以后不用重复交代。再加上连接器，把 Gmail、Slack、日历、PostHog 或 Amplitude 等分析工具接进来，可以设一个每天早上 10 点的自动化，用自然语言告诉你产品昨天发生了什么。\n\n第 3 级是 vibe coding——用自然语言直接写应用，Ankit 推荐 Google AI Studio,免费。第 5 级才是用 Cursor、Claude Code 加 MCP 构建生产级应用。\n\n至于 Claude Code 和 Codex 哪个好？Ankit 团队测试过电商网站、社交网络、游戏平台等常见用例，各家表现几乎一样。90% 的场景下不用纠结这个。\n\n## 一个真实案例：一夜建成邮件营销系统\n\nHello PM 有 12 万邮件订阅者，底层用亚马逊的 SES 发信，每月 100 万封只花约 120 美元。但 SES 只是个接口，没有界面，所以他们用了一家第三方平台来管理——上个月为此多付了 550 到 700 美元。\n\nAnkit 决定自己造一个，还故意刁难自己：用完全不会的 Node.js 技术栈，部署到不熟悉的 AWS 上。流程是：先用大白话写下功能清单(加联系人、分组、A/B 测试……),让 GPT 扩写成正式规格文档；建个文件夹，打开 Claude Code,告诉它「理解这个项目，端到端实现，觉得规格该改就改」。它拉来 AWS 的 MCP,一步步教他去哪拿密钥，分九个阶段推进。\n\n半夜一点，Ankit 留下一句话就去睡了：「我要睡 6 小时，一个接一个继续做，每个阶段做完先测试，早上见。」[43:40 Ankit Shukla] 早上醒来，全部完成、已测试、已提交。\n\n他审查时发现 Claude 选的架构太贵(约 420 美元)，就问能不能换更小的服务器，成本降到 110 美元。**最终产品比原来买的第三方平台更好用**，他还让 Claude 顺便写了团队操作手册和技术文档。他提醒：生产环境用之前要做安全测试，让工程团队最终把关。\n\n## 转型路线图：四步拿到 offer\n\n第 0 步，对齐。找 25 到 30 份 AI 产品经理招聘启事仔细读，而且这一步别用 AI,人工做技能地图——这是人类现在的优势。盘点自己已有的筹码：分析师懂干系人管理，销售和营销懂客户，工程师懂技术。\n\n第 1 步，学技能。看视频只是信息，「信息会给你虚假的自信，一进面试就碎」[57:49 Ankit Shukla]。要把它变成知识：动手做东西，再去 LinkedIn 找在职的 AI 产品经理，诚恳地约 10 分钟聊天，甚至提出付费——多数人不收钱，但会愿意帮。这一步大约要一到四个月。\n\n第 2 步，海投加作品集。至少活跃在 5 个招聘网站上，带上你做过的项目，因为信任要靠作品挣来。\n\n第 3 步，主动出击。列 25 到 30 家中型目标公司，问自己：如果我是这家公司的产品经理，头 6 个月会做什么？做一份演示文稿或原型，用 Apollo 或 Rocketreach 找到决策人的邮箱发过去，每周跟进 3 次。前四五个不会回复，但每次都是修正，做到第六七次就会有人理你。\n\n面试主要考三类：匹配度(你的背景和领域对不对口)、产品感(怎么改进产品、怎么衡量成功)、以及 AI 项目深挖——他们不问顺利的情况，专问边界情况：给 1 亿份文档系统会怎样？换模型怎么评估？另外，可以用 GPT 或 Claude 放上职位描述和自己的项目，提前模拟面试。\n\n## 最大的错误：从工具学起\n\nAnkit 的建议是反过来的：**先懂产品，先做前面 POW 那部分问题空间的工作**。工具很容易学，现在是杠杆，长期不会是。\n\n## 本集带走\n\n- 12500 份招聘启事显示，超过 30% 的产品经理岗位要求 AI 技能，AI 相关岗位在美国薪水高 15%–20%,印度高 30%–50%\n- 排名第一的付费技能不是 RAG 或提示词工程，而是识别 AI 的正确用例；先想清楚问题空间，再碰工具\n- 工具按五级递进：直接对话 → 可复用提示词 → 技能加连接器 → vibe coding → 工作流自动化 → 生产级开发，按需选级，别贪高\n- Ankit 用不懂的技术栈、一个晚上加 AI 建成了生产级邮件系统，把 550 美元的月成本降到 110 美元\n- 求职路线：对齐岗位 → 动手做作品集 → 多平台投递 → 给目标公司做头 6 个月计划主动出击，前三类面试分别是匹配度、产品感、AI 项目深挖",
+  "quotes": [
+    {
+      "en": "So that judgment is what people are paying for.",
+      "zh": "所以这种判断力才是人们在花钱买的。",
+      "timestamp": "04:25",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "we were able to find that AI PMs and AI related roles in India and across the world are willing to pay a premium of more than 20% as compared to the traditional counterparts.",
+      "zh": "我们发现，在印度以及世界各地，AI PM 和 AI 相关岗位相比传统岗位愿意支付超过 20% 的溢价。",
+      "timestamp": "12:15",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "So now I can go ahead and create empathy at scale with the help of this small system",
+      "zh": "所以现在我可以在这个小系统的帮助下，规模化地创建同理心",
+      "timestamp": "23:53",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "RAG, agentic AI and prompt engineering, They were not the number one skill. The number one skill was identifying the right use case for AI.",
+      "zh": "RAG、agentic AI 和提示词工程，它们并不是排名第一的技能。排名第一的技能是为 AI 识别正确的用例。",
+      "timestamp": "25:40",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "That is the thing that people are willing to pay you the most for because the engineering part can actually be taken care of by AI.",
+      "zh": "这才是人们最愿意为它付钱的东西，因为工程部分实际上可以由 AI 来搞定。",
+      "timestamp": "25:48",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "But it will not be able to solve a recurring use case very efficiently for you. You are wasting your time out there by prompting it again and again.",
+      "zh": "但它无法高效地为你解决一个重复出现的用例。你在那儿一次次地写提示词，是在浪费时间。",
+      "timestamp": "27:09",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "So I think we should end this debate like for 90% of the use cases, it does not matter if you are using cloud code or the codex out there.",
+      "zh": "所以我认为我们应该终结这场辩论了，对于 90% 的使用场景来说，你用的是 cloud code 还是外面的 codex 都不重要。",
+      "timestamp": "35:24",
+      "speaker": "Ankit Shukla"
+    },
+    {
+      "en": "That last 20%, that's where the real work is coming now because Claude can take you 80% of the way there and it basically did most of that overnight.",
+      "zh": "那最后的 20%，那才是现在真正的工作所在，因为 Claude 能带你走完 80% 的路，而它基本上在一夜之间就完成了其中大部分。",
+      "timestamp": "49:49",
+      "speaker": "Aakash"
+    },
+    {
+      "en": "So you don't need information, you actually need knowledge.",
+      "zh": "所以你不需要信息，你实际上需要的是知识。",
+      "timestamp": "57:55",
+      "speaker": "Ankit Shukla"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:25",
+      "speaker": "Ankit Shukla",
+      "en": "So that judgment is what people are paying for.",
+      "zh": "所以这种判断力才是人们在花钱买的。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Ankit Shukla",
+      "en": "Now, what used to happen in the industry is that a product manager will invest a lot of time in discovery",
+      "zh": "行业中过去的情况是，产品经理会在发现环节投入大量时间"
+    },
+    {
+      "timestamp": "10:51",
+      "speaker": "Ankit Shukla",
+      "en": "That it is almost impossible for you to 100% say with confidence that this idea is going to work.",
+      "zh": "你几乎不可能 100% 有把握地断言这个点子一定会成功。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Ankit Shukla",
+      "en": "we were able to find that AI PMs and AI related roles in India and across the world are willing to pay a premium of more than 20% as compared to the traditional counterparts.",
+      "zh": "我们发现，在印度以及世界各地，AI PM 和 AI 相关岗位相比传统岗位愿意支付超过 20% 的溢价。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Ankit Shukla",
+      "en": "that is where Your judgment and your AI skills truly give the leverage to the company and to your career out there",
+      "zh": "那正是你的判断力和你的 AI 技能真正给公司以及你的职业生涯带来杠杆作用的地方"
+    },
+    {
+      "timestamp": "16:29",
+      "speaker": "Ankit Shukla",
+      "en": "Now traditionally in product management, we always started with the problems, but AI is different.",
+      "zh": "传统上在产品管理中，我们总是从问题出发，但 AI 不同。"
+    },
+    {
+      "timestamp": "17:38",
+      "speaker": "Ankit Shukla",
+      "en": "I would also recommend everyone to go to their competitors, look at their industry, maybe look at the nearby industry and try to understand what are the different kind of people doing with AI.",
+      "zh": "我也建议每个人去看看他们的竞争对手，看看他们的行业，也许看看附近的行业，尝试理解不同的人都在用 AI 做什么。"
+    },
+    {
+      "timestamp": "23:53",
+      "speaker": "Ankit Shukla",
+      "en": "So now I can go ahead and create empathy at scale with the help of this small system",
+      "zh": "所以现在我可以在这个小系统的帮助下，规模化地创建同理心"
+    },
+    {
+      "timestamp": "24:38",
+      "speaker": "Ankit Shukla",
+      "en": "which is if you really want to create ROI, please do not start with engineering.",
+      "zh": "那就是：如果你真的想创造 ROI，请不要从工程开始。"
+    },
+    {
+      "timestamp": "25:41",
+      "speaker": "Ankit Shukla",
+      "en": "RAG, agentic AI and prompt engineering, They were not the number one skill. The number one skill was identifying the right use case for AI.",
+      "zh": "RAG、agentic AI 和提示词工程，它们并不是排名第一的技能。排名第一的技能是为 AI 识别正确的用例。"
+    },
+    {
+      "timestamp": "25:48",
+      "speaker": "Ankit Shukla",
+      "en": "That is the thing that people are willing to pay you the most for because the engineering part can actually be taken care of by AI.",
+      "zh": "这才是人们最愿意为它付钱的东西，因为工程部分实际上可以由 AI 来搞定。"
+    },
+    {
+      "timestamp": "25:56",
+      "speaker": "Aakash",
+      "en": "And so the real alpha is in the POW.",
+      "zh": "所以真正的 alpha 在 POW 里。"
+    },
+    {
+      "timestamp": "27:12",
+      "speaker": "Ankit Shukla",
+      "en": "But it will not be able to solve a recurring use case very efficiently for you. You are wasting your time out there by prompting it again and again.",
+      "zh": "但它无法高效地为你解决一个重复出现的用例。你在那儿一次次地写提示词，是在浪费时间。"
+    },
+    {
+      "timestamp": "34:47",
+      "speaker": "Ankit Shukla",
+      "en": "So I think we should end this debate like for 90% of the use cases, it does not matter if you are using cloud code or the codex out there.",
+      "zh": "所以我认为我们应该终结这场辩论了，对于 90% 的使用场景来说，你用的是 cloud code 还是外面的 codex 都不重要。"
+    },
+    {
+      "timestamp": "40:22",
+      "speaker": "Ankit Shukla",
+      "en": "But right now the level is that you can go ahead and write at high level. You can ask Claude or GPT to improve it and then you can read it and maybe improve it.",
+      "zh": "但现在这个水平是，你可以直接写高层级的。你可以让 Claude 或 GPT 去改进它，然后你再读一遍并可能再改进一下。"
+    },
+    {
+      "timestamp": "49:51",
+      "speaker": "Aakash",
+      "en": "That last 20%, that's where the real work is coming now because Claude can take you 80% of the way there and it basically did most of that overnight.",
+      "zh": "那最后的 20%，那才是现在真正的工作所在，因为 Claude 能带你走完 80% 的路，而它基本上在一夜之间就完成了其中大部分。"
+    },
+    {
+      "timestamp": "51:04",
+      "speaker": "Ankit Shukla",
+      "en": "because I don't think there is any better mode than the speed of your execution.",
+      "zh": "因为我不认为有比你的执行速度更好的模式了。"
+    },
+    {
+      "timestamp": "57:55",
+      "speaker": "Ankit Shukla",
+      "en": "So you don't need information, you actually need knowledge.",
+      "zh": "所以你不需要信息，你实际上需要的是知识。"
+    },
+    {
+      "timestamp": "65:43",
+      "speaker": "Ankit Shukla",
+      "en": "Remember the power framework that the possibilities, opportunities and workflow, which is the problem space always comes before going ahead and maybe building a solution or getting maybe only knowing about the tools.",
+      "zh": "记住那个力量框架：可能性、机会和工作流，也就是问题空间，总是要先于动手去构建一个解决方案，或者只是先去了解工具。"
+    },
+    {
+      "timestamp": "65:58",
+      "speaker": "Ankit Shukla",
+      "en": "Right now it is a leverage, but in the long term, it is not going to be a leverage.",
+      "zh": "现在它是一种杠杆，但长期来看，它不会是一种杠杆。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Ankit Shukla，之前是高级产品经理，后来创办了培训公司 Hello PM。这期节目聊的是一件挺具体的事：最近冒出来一个新角色，叫产品构建者，product builder——这到底是真趋势，还是自媒体炒出来的概念？\n\n事情的起因是，LinkedIn 把原来的初级产品经理项目，改成了初级产品构建者项目，一下子引发热议。Ankit 不想靠观点说话，直接用 Claude 和 GPT 爬取并分析了 12500 份产品经理招聘启事。结论很明确：这是真的，而且可能是这个十年最大的职业机会之一。\n\n数据怎么说？超过 30% 的产品经理岗位，明确要求像样的 AI 技能。而且注意，公司要的不只是会用工具，是判断力——哪些问题该用 AI 解决，哪些不该。用 Ankit 的话说，这种判断力，正是公司愿意付钱买的东西。\n\n那为什么产品经理这个职业会受这么大的冲击？得先看传统产品经理在干什么，大概分三段：发现、交付、分发。发现，就是研究用户和市场、定路线图；交付，就是写规格、协调开发和设计团队；分发，是把产品送到用户手里。AI 正在改变每一段：研究可以用 Claude、GPT 或者 NotebookLM 快速完成；交付端，工程师用 Cursor、Claude Code 提速；甚至产品经理自己就能做实验，不必事事排队等工程团队。\n\n薪水差距是实打实的。AI 相关产品岗位，在美国和欧洲比传统岗位高 15% 到 20%，印度高出 30% 到 50%。美国这批岗位的中位年薪是 195K 美元；有几年经验再加 AI 技能，能到 250K 到 500K；顶级公司总包可能到 800K，Netflix 甚至挂出过 90 万美元的 AI 产品经理职位。\n\n那想吃这碗饭，从哪下手？Ankit 提了一个 POWER 框架，核心思想就一句话：先想清楚，再动手。前三个字母 POW 代表问题空间，E 代表工程实现，R 代表结果。P 是可能性——不要从问题出发，先研究 AI 能做什么。AI 擅长三类事：理解、转换、生成文本。去看竞争对手、邻近行业，甚至 Anthropic、OpenAI 的客户案例页，建一个自己公司的可能性清单。O 是机会——回到自己公司，找出哪些环节用 AI 能产生实际回报，别挑那种不常发生的小问题，做了也拿不到回报。W 是工作流——深入到具体流程。举个例子，Hello PM 有 200 通新学员介绍电话的文字记录，喂给 Claude 生成用户画像文档，之后每次做决策，都让 Claude 把决策在所有画像上过一遍，看对哪类人有效、哪类人有害。管这叫规模化的同理心。\n\n这里有个特别重要的提醒：别从工程开始。在 12500 份招聘启事里，排名第一的技能不是 RAG，不是智能体，也不是提示词工程，而是为 AI 识别正确的用例。工程部分 AI 能搞定，判断才是人们最愿意付钱的。\n\n那真到了工程环节怎么办？Ankit 给了一个分级框架，从低到高。第 0 级，直接在网页上和聊天机器人对话。第 1 级，做可复用的提示词，缺点是要来回切窗口。第 2 级是技能加连接器：用 Claude Code 创建技能，本质就是做成文件的任务指令，Claude 自己判断什么时候加载；窍门是先把活正常干完，满意之后让 Claude 把整个过程打包成技能。再配上连接器，把 Gmail、Slack、分析工具接进来，设个每天早上的自动化，用自然语言告诉你产品昨天发生了什么。第 3 级是 vibe coding，用自然语言直接写应用，推荐 Google AI Studio，免费。第 5 级才是用 Cursor、Claude Code 加 MCP 构建生产级应用。\n\n光说框架可能还是虚，听个真实案例。Hello PM 有 12 万邮件订阅者，底层用亚马逊的 SES 发信，每月 100 万封只花约 120 美元。但 SES 没有界面，得靠一家第三方平台管理，上个月为此多付了 550 到 700 美元。Ankit 决定自己造一个，还故意用完全不会的 Node.js 技术栈，部署到不熟悉的 AWS 上。先写大白话功能清单，让 GPT 扩成正式规格文档，再打开 Claude Code，告诉它理解项目、端到端实现，觉得规格该改就改。半夜一点，留下一句「我要睡 6 小时，一个接一个继续做，每个阶段做完先测试，早上见」，就去睡了。早上醒来，全部完成、已测试、已提交。审查时发现 Claude 选的架构太贵，问能不能换更小的服务器，成本降到 110 美元。最终产品比原来买的第三方平台更好用，还顺便让 Claude 写了团队操作手册和技术文档。当然要提醒一句：上生产环境之前要做安全测试，让工程团队最终把关。\n\n那对一个想转型的人来说，路怎么走？四步。第 0 步，对齐：找 25 到 30 份 AI 产品经理招聘启事仔细读，这一步别用 AI，人工做技能地图。盘点已有筹码——分析师懂干系人管理，销售和营销懂客户，工程师懂技术。第 1 步，学技能：看视频只是信息，信息会给你虚假的自信，一进面试就碎；要动手做东西，再去 LinkedIn 找在职的 AI 产品经理，诚恳地约 10 分钟聊天，这一步大约一到四个月。第 2 步，海投加作品集：至少活跃在 5 个招聘网站上，因为信任要靠作品挣来。第 3 步，主动出击：列 25 到 30 家中型目标公司，问自己如果我是这家公司的产品经理，头 6 个月会做什么，做成演示文稿或原型发过去，每周跟进 3 次。前四五个不会回复，但每次都是修正，做到第六七次就会有人理你。面试主要考三类：匹配度、产品感，还有 AI 项目深挖——专问边界情况，比如给 1 亿份文档系统会怎样、换模型怎么评估。可以提前用 GPT 或 Claude 模拟面试。\n\n最后，最大的错误是什么？从工具学起。正确顺序是反过来的：先懂产品，先做问题空间那部分工作。工具很容易学，现在是杠杆，长期不会是。整期听下来，最有分量的其实就是那一条：排名第一的付费技能，是为 AI 识别正确的用例。"
+}

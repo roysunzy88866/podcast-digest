@@ -132,9 +132,9 @@ GPT 问世时，我们窥见了真正个性化的样子，但其他一切都还�
 
 **换个口味**
 
+- [[2026-10-08-pg-pm-to-product-builder-roadmap|从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:MCP</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude · 同概念:MCP</span>
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Claude · 同概念:MCP</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:MCP</span>
 
 </div>
 </div>

@@ -102,8 +102,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|Addy Osmani：从造浏览器到对抗认知投降]]<span class="pd-rz">同概念:智能体 (agent)、认知债务 (cognitive debt)、认知投降 (cognitive surrender)</span>
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同概念:智能体 (agent)、认知债务 (cognitive debt)、认知投降 (cognitive surrender)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic、Claude code · 同概念:智能体 (agent)、验证 (verification)</span>
-- [[2026-09-14-pg-together-ai-product-team|Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR]]<span class="pd-rz">同公司:Claude code · 同概念:harness、智能体 (agent)</span>
 
 </div>
 </div>

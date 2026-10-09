@@ -121,7 +121,7 @@ jsonLd: |
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)、计算机使用 (computer use)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Codex、Claude · 同概念:智能体 (agent)、MCP</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
+- [[2026-10-08-pg-pm-to-product-builder-roadmap|从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图]]<span class="pd-rz">同公司:ChatGPT、Codex、Claude · 同概念:MCP</span>
 
 </div>
 </div>

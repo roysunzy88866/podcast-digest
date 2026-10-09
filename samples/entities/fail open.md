@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>fail open</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="fail open">FA</div><div class="pi"><h1 class="pt">fail open</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="fail open">FA</div><div class="pi"><h1 class="pt">fail open</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]]**(10:24起):本集说护栏宕机时要选 fail open（仍放行请求）还是 fail close（拦截请求），本质是可用性与安全的权衡，默认应选你所能忍受的最坏情况。
+- **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(82:35起):本集用电商卖货 vs 演唱会门票、Uber 早期 vs 盈利期的例子说明：同一个不确定场景，按业务情境逐功能决定故障时放行还是拒绝。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]] — 作为概念
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Kanish Manuja]] · [[Twilio]] · [[LLM 网关]] · [[回退]] · [[断路器]] · [[延迟]] · [[护栏]] · [[提示词注入]] · [[推理模型]] · [[负载卸载]]
+[[Kanish Manuja]] · [[Sam Newman]] · [[Twilio]] · [[微服务]] · [[LLM 网关]] · [[ThoughtWorks]] · [[回退]] · [[Uber]] · [[断路器]] · [[分布式系统]]
 
-<script type="application/json" class="pd-epn">{"Kanish Manuja":1,"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":7,"护栏":84,"提示词注入":1,"推理模型":6,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Kanish Manuja":1,"Sam Newman":1,"Twilio":3,"微服务":1,"LLM 网关":3,"ThoughtWorks":1,"回退":1,"Uber":17,"断路器":1,"分布式系统":1}</script>
 
 <script>
 (function(){

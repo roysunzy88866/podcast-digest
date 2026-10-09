@@ -107,8 +107,8 @@ Joyce 总结三条心得。**技能策划是一切智能体化劳动力的基础
 **换个口味**
 
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同公司:Cloudflare · 同概念:可观测性 (observability)、智能体 (agent)、LLM</span>
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、LLM</span>
-- [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:市场进入 (go-to-market)、智能体 (agent)</span>
 
 </div>
 </div>

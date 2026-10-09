@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP":82,"CLI":4,"harness":61,"子智能体":6,"渐进式工具发现":1,"CodeMode":1,"工具调用":4,"沙箱":85,"上下文窗口":16,"MCPC":1}</script>
+<script type="application/json" class="pd-epn">{"MCP":83,"CLI":4,"harness":61,"子智能体":6,"渐进式工具发现":1,"CodeMode":1,"工具调用":4,"沙箱":85,"上下文窗口":16,"MCPC":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,480 @@
+{
+  "episode_id": "2026-10-06-talks-the-self-improving-oss-agent-stack-marc",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "智能体",
+    "可观测性",
+    "评估",
+    "自我改进",
+    "开源"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "marc-klingen",
+      "type": "person",
+      "role": "guest",
+      "name": "Marc Klingen",
+      "file": "Marc Klingen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "langfuse",
+      "type": "company",
+      "role": "company",
+      "name": "Langfuse",
+      "file": "Langfuse",
+      "primary": true,
+      "how_described": "本集介绍 Langfuse 是开源的智能体追踪与评估工具，把线上监控和离线实验打通，创始人 Marc Klingen 以它为例讲了自我改进智能体的完整玩法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.548,
+            21.448
+          ],
+          "quote": "I'm Mark, one of the founders of LangFuse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            29.91,
+            36.071
+          ],
+          "quote": "I mean, obviously, my view is based on working with our community of people that use LangFuse to trace and evaluate their agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            80.146,
+            84.147
+          ],
+          "quote": "Back when we started working on LangFuse, this was right when JVT was released.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            736.872,
+            743.977
+          ],
+          "quote": "So what we've now done is just use a coding agent, point it at the LangFuse agent skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            746.138,
+            751.902
+          ],
+          "quote": "But yeah, LangFuse is well positioned for this to ask, OK, what has happened in this application?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            941.563,
+            945.705
+          ],
+          "quote": "For example, in LangFuse, we also allow annotations to feed into that queue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            968.583,
+            974.308
+          ],
+          "quote": "Thus, we see how LangFuse was historically very write-intensive to ingest evils and traces.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：构建智能体应用是一个循环（线上追踪、离线实验、评估、部署、再学习），AI 正逐层接管循环中繁琐的部分，但人要守住设定方向等关键关口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            65.481,
+            74.604
+          ],
+          "quote": "So I think this is kind of where things are going on the producing application side, but also on the how to actually build good agent applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            113.257,
+            133.713
+          ],
+          "quote": "It's like a link of tracing and monitoring online how users really use an agent application, and then an offline component of how to build data sets, how to experiment regarding making changes to these agents, and then evaluating offline whether things work, then deploying neutral production, then learning again how real users use the application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            266.995,
+            278.485
+          ],
+          "quote": "Then on the proposal of fixes, because if your agent proposes how to change an agent, you still want to see what was changed because you have the risk of overfitting it to the data set.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            287.072,
+            290.916
+          ],
+          "quote": "And you're like, huh, this kind of use case for the agent, it doesn't really matter that much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            290.936,
+            292.957
+          ],
+          "quote": "This is out of what the agent should actually be doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            331.849,
+            338.053
+          ],
+          "quote": "Try whatever you find on X in a given week to see whether it can make a dent into improving the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            342.355,
+            345.698
+          ],
+          "quote": "And you use AI mostly for proposing improvements to the agent implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            355.658,
+            363.927
+          ],
+          "quote": "So usually what goes in here is you want to align how a data set looks like for an agent with what actual users are doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            365.809,
+            371.756
+          ],
+          "quote": "Customer Support Application, like Support Agent, then the dataset should be like common support questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            518.763,
+            521.246
+          ],
+          "quote": "But also, quality of the agent is pretty high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            525.111,
+            528.015
+          ],
+          "quote": "And this is how you can get to, I'd say, success with your agent application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            572.819,
+            576.501
+          ],
+          "quote": "This agent will be higher performing, and you need less time invested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            587.872,
+            595.681
+          ],
+          "quote": "So, for example, when we talk about the customer support application use case, usually, I mean, customers can swear at the support agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            599.764,
+            605.228
+          ],
+          "quote": "Or, like, you can propose messages to an internal agent who then can accept them or change them when sending them out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            605.269,
+            611.913
+          ],
+          "quote": "So there's, like, a lot of, like, implicit signal that can feed into your process without you as the agent developer needing to do this manually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            722.857,
+            735.911
+          ],
+          "quote": "And now both of these kinds of either approvals or requests for changes can get feeded into the AI observability and evalts to serve as a basis for all the improvement of that ChangeRog writer agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            736.872,
+            743.977
+          ],
+          "quote": "So what we've now done is just use a coding agent, point it at the LangFuse agent skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            796.963,
+            812.886
+          ],
+          "quote": "And that's something we have identified here, where now the agent suggests changes to the data sets and evaluators to test for leaking jargon and also increasing clarity in customer domain language, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            813.646,
+            827.894
+          ],
+          "quote": "So Agent now closes this gap, suggests changes to the datasets and evaluators, and now has an idea of how to change the agent implementation to basically fix this problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            855.385,
+            860.186
+          ],
+          "quote": "So we reproduce this kind of problem with the v1 baseline, this basically existing implementation of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            860.627,
+            863.748
+          ],
+          "quote": "And agent came up with a new implementation where we see the v2 candidate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            875.572,
+            878.815
+          ],
+          "quote": "So agent reasons about it as this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            882.557,
+            890.242
+          ],
+          "quote": "So we are like, OK, we are good of just merging this and then acting again on the next change, because this agent never publishes anything to extra production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            898.147,
+            905.693
+          ],
+          "quote": "So here we use our prompt management logic so that the agent can just basically feature release this new implementation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "datasets",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据集 (datasets)",
+      "file": "数据集",
+      "primary": true,
+      "how_described": "本集强调数据集要与线上真实用户行为持续对齐，人需审查往数据集里加什么例子，智能体也可提议对数据集的更新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            380.165,
+            387.793
+          ],
+          "quote": "And for evos as well, if you see usual error patterns, then you can reproduce the error patterns and propose new evo criteria on these off-line datasets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            813.646,
+            827.894
+          ],
+          "quote": "So Agent now closes this gap, suggests changes to the datasets and evaluators, and now has an idea of how to change the agent implementation to basically fix this problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集把线上追踪监控（observability/tracing）列为智能体构建循环的在线一半，并指出随着 AI 消化海量数据，数据系统正从写入密集转向读取密集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            135.775,
+            163.368
+          ],
+          "quote": "Where traditionally, I mean, you have like observability and the data docs here on the tracing monitoring side, and you have like the ML ops toolings, like MF flow, weights and biases, more on the like offline side, where this new category emerged, and that's also why we built length views, because you need to bring the online and the offline together, as otherwise, like, you either benchmark on data that's inaccurate, so the data sets, they're not in sync with what's happening in production, or you're monitoring production data, but you don't really benchmark offline, so you need to bring the both together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            722.857,
+            735.911
+          ],
+          "quote": "And now both of these kinds of either approvals or requests for changes can get feeded into the AI observability and evalts to serve as a basis for all the improvement of that ChangeRog writer agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-improve-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我改进智能体 (self-improve agents)",
+      "file": "自我改进智能体",
+      "primary": true,
+      "how_described": "本集主题：让 AI 自己驱动调优循环——提出修复、维护数据集和评估标准、回测验证，但全自动有「产生大量 token 却没什么意义」的风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            21.928,
+            29.79
+          ],
+          "quote": "So excited to chat about what we have seen, how people self-improve agents now, and what kind of open source reference stack we see emerging.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "implicit-signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐式信号 (implicit signal)",
+      "file": "隐式信号",
+      "primary": true,
+      "how_described": "本集说用户骂客服机器人、点「这不对」、内部审核员改写草稿等隐式信号可以自动流进改进循环，不必全靠人工标注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            605.269,
+            611.913
+          ],
+          "quote": "So there's, like, a lot of, like, implicit signal that can feed into your process without you as the agent developer needing to do this manually.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": false,
+      "how_described": "本集提到他们用一个编码智能体去分析写作智能体的表现，识别出清晰度低、泄漏内部行话等问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            736.872,
+            743.977
+          ],
+          "quote": "So what we've now done is just use a coding agent, point it at the LangFuse agent skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "overfitting",
+      "type": "concept",
+      "role": "concept",
+      "name": "过拟合 (overfitting)",
+      "file": "过拟合",
+      "primary": false,
+      "how_described": "本集提醒：智能体提出修改时要人审查改了什么，因为有把应用过拟合到数据集或生产环境随机怪癖上的风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            266.995,
+            278.485
+          ],
+          "quote": "Then on the proposal of fixes, because if your agent proposes how to change an agent, you still want to see what was changed because you have the risk of overfitting it to the data set.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "evals",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

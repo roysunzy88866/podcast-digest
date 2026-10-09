@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":444,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":84,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":446,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":9,"共享支付令牌":1,"护栏":84,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":66}</script>
 
 <script>
 (function(){

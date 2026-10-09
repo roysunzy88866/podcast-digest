@@ -119,8 +119,8 @@ uReview 的评审栈分四层:单文件评审器(通用逻辑 bug 检查)、多�
 **顺着「AI 编程」挖下去**
 
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:代码评审 (code review)、可观测性 (observability)、智能体 (agent)</span>
+- [[2026-10-07-pragmatic-building-resilient-systems-with-sam|写出最火微服务书籍的人，为什么说微服务是“最后的手段”？]]<span class="pd-rz">同公司:Uber · 同概念:可观测性 (observability)、智能体 (agent)</span>
 - [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、可观测性 (observability)</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

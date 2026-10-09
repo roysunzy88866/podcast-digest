@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":444,"沙箱":85,"Claude Code":98,"Opus 5":4,"Anthropic":190,"系统提示词":9,"评估":5,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":446,"沙箱":85,"Claude Code":98,"Opus 5":4,"Anthropic":191,"系统提示词":9,"评估":5,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

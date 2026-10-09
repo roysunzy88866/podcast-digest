@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":29,"智能体":444,"智能体网络":3,"MCP":82,"缩放定律":13,"康威定律":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":29,"智能体":446,"智能体网络":3,"MCP":83,"缩放定律":13,"康威定律":2}</script>
 
 <script>
 (function(){
