@@ -1,0 +1,551 @@
+{
+  "episode_id": "2026-10-06-talks-how-to-build-a-model-router-in-the-harne",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "智能体",
+    "模型路由",
+    "成本优化",
+    "开源模型",
+    "评测"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sydney",
+      "type": "person",
+      "role": "host",
+      "name": "Sydney",
+      "file": "Sydney",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            1.352
+          ],
+          "quote": "Hey folks, my name is Sydney.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集说它是讲者的东家，开源团队的产品经理在此分享模型路由实验，以提供模型提供方无关的开源软件而自豪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.512,
+            4.634
+          ],
+          "quote": "I'm the product manager for the open source team at LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            448.847,
+            453.069
+          ],
+          "quote": "At LangChain a while ago, we wrote a blog about open models crossing a threshold.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "company",
+      "role": "company",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": true,
+      "how_described": "本集说它收集智能体每次运行的完整 trace，用于聚合分析任务分布和 LLM 成本，是构建路由标准的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            169.608,
+            171.449
+          ],
+          "quote": "This was all done using LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            171.97,
+            179.895
+          ],
+          "quote": "So every time our coding agent runs, it sends a trace to LangSmith that has a record of every step that that agent took.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            227.454,
+            231.858
+          ],
+          "quote": "And LangSmith, as I mentioned, was very instrumental for us in helping understand this space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            232.758,
+            238.203
+          ],
+          "quote": "I actually built a custom app on top of LangSmith to help me better understand this trace data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openswe",
+      "type": "company",
+      "role": "company",
+      "name": "OpenSWE",
+      "file": "OpenSWE",
+      "primary": true,
+      "how_described": "本集说它是 LangChain 的开源编码智能体，作为模型路由实验的测试平台，中位成本降 64% 且质量无可测量变化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            164.004,
+            169.108
+          ],
+          "quote": "The first thing that we did was try to understand what our coding agent OpenSwe is being tasked with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            433.222,
+            437.925
+          ],
+          "quote": "And so we are now powering our OpenSWE router with JEV, the decision model,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：规模化运行时会被前沿模型成本拖垮的程序，需要模型-harness-任务三者契合才能高效完成代码任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.203,
+            57.146
+          ],
+          "quote": "So I'm basically assuming here that we often don't need the best model for a lot of tasks that we ask our agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            65.511,
+            69.214
+          ],
+          "quote": "And ideally, an agent has good model harness task fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            112.096,
+            115.616
+          ],
+          "quote": "And then that model is used to power the agent that completes the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            116.416,
+            119.557
+          ],
+          "quote": "And so our testbed here was OpenSui, our open source coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            139.623,
+            142.786
+          ],
+          "quote": "First, you need to understand the tasks that your agent works on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            147.13,
+            150.954
+          ],
+          "quote": "Then with one and two done, you can build the router in your agent's harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            164.004,
+            169.108
+          ],
+          "quote": "The first thing that we did was try to understand what our coding agent OpenSwe is being tasked with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            171.97,
+            179.895
+          ],
+          "quote": "So every time our coding agent runs, it sends a trace to LangSmith that has a record of every step that that agent took.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            180.455,
+            188.621
+          ],
+          "quote": "And so we were able to use all of those traces and do aggregate analysis over them to determine what types of tasks our agent was doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            189.412,
+            197.365
+          ],
+          "quote": "So you can see here, unsurprisingly for a coding agent, that code changes dominated things like feature requests, bug fixes, and tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            238.583,
+            247.93
+          ],
+          "quote": "So you can see kind of the categories here and then active agent time and observe LLM cost filtered by different types of requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            672.402,
+            682.185
+          ],
+          "quote": "So there's definitely more cost optimizations to be made if we also select appropriately sized models for the sub-agents that the main agent orchestrates with the deep agents harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            716.951,
+            729.377
+          ],
+          "quote": "But for async agents like OpenSuite, there's actually a lot of cache misses anyways, just because there's more than a five minute idle time between when an agent responds and a developer has time to respond back in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            756.526,
+            759.63
+          ],
+          "quote": "So one, understand your agent's task space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            780.794,
+            784.296
+          ],
+          "quote": "You can easily add routing to your own agent with our model routing middleware.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集把它说成：像医院分诊台一样由分类模型加提示词决定每个任务用哪个档位的模型，从而在不牺牲质量的前提下降本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            26.324,
+            32.768
+          ],
+          "quote": "And so model routing can help to reduce cost theoretically without sacrificing quality if it's done well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            646.512,
+            651.094
+          ],
+          "quote": "There's definitely a lot that we could do to further explore model routing optimizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            780.794,
+            784.296
+          ],
+          "quote": "You can easily add routing to your own agent with our model routing middleware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            802.723,
+            810.553
+          ],
+          "quote": "You can learn more about building a harness with GEV, which is a decision model that's incredibly powerful for the model routing step, at the blog linked below.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pareto-frontier",
+      "type": "concept",
+      "role": "concept",
+      "name": "帕累托前沿 (Pareto frontier)",
+      "file": "帕累托前沿",
+      "primary": true,
+      "how_described": "本集把它说成：LLM 中在基准准确率与成本延迟之间取得最佳权衡的那组最优模型，选模型应沿着这条前沿挑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            318.874,
+            322.016
+          ],
+          "quote": "This is what we call the Pareto frontier for LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            760.271,
+            765.257
+          ],
+          "quote": "Two, pick models along the Pareto frontier, the cost intelligence curve.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open model)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说它已跨越门槛，LangChain 内部大量使用，模型路由正是试验用更便宜更快的开源模型的好机会（如 GLM 5.3 Flash）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            443.325,
+            448.367
+          ],
+          "quote": "The last thing I'll call out on this slide is that GLM 5.3 Flash is actually an open model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a-b-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A/B test)",
+      "file": "A/B 测试",
+      "primary": true,
+      "how_described": "本集把它说成：比离线评测更快的验证方式，线上流量天然有代表性，风险是真实用户可能撞上不完善的路由器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            486.392,
+            492.378
+          ],
+          "quote": "And so the faster approach here is to do an A-B test where you know that your live traffic is representative.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "JEV",
+      "file": "JEV",
+      "primary": false,
+      "how_described": "本集说它是一个流行的决策模型，声称比 LLM 更快更便宜、决策能力更受限，现被用来驱动 OpenSWE 路由器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            421.035,
+            432.622
+          ],
+          "quote": "But after the experiment, JEV, a popular decision model, came out and had claims of being significantly faster and cheaper than LLMs with more constrained decision-making powers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            433.222,
+            437.925
+          ],
+          "quote": "And so we are now powering our OpenSWE router with JEV, the decision model,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cache-miss",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存未命中 (cache miss)",
+      "file": "缓存未命中",
+      "primary": false,
+      "how_described": "本集说它是切换模型的代价，但对异步智能体而言本来就有大量缓存未命中（空闲超五分钟），问题不大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            710.828,
+            716.431
+          ],
+          "quote": "One trade-off here is that if you do switch a model, you experience a cache miss, which can be costly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            729.717,
+            734.46
+          ],
+          "quote": "So this cache miss might actually not be a super significant concern.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "artificial-analysis",
+      "type": "company",
+      "role": "company",
+      "name": "Artificial Analysis",
+      "file": "Artificial Analysis",
+      "primary": false,
+      "how_described": "本集说实验的模型性能与成本数据来自它的智能指数（Intelligence Index）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            300.905,
+            308.571
+          ],
+          "quote": "So this data is pulled from the Artificial Analysis Intelligence Index as of September 9th, 2026, which is when we began this experiment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            313.412,
+            318.054
+          ],
+          "quote": "And then on the y-axis, we have the artificial analysis intelligence index.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "glm-5-3-flash",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLM 5.3 Flash",
+      "file": "GLM 5.3 Flash",
+      "primary": false,
+      "how_described": "本集说它是路由器实验中选定的快速档模型，也是开源模型，最初还用它配结构化输出做路由决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            347.089,
+            358.756
+          ],
+          "quote": "The models that we ended up choosing were GLM 5.3 Flash for our fast model, GPT 5.6 Sol for our balanced model, and then GPT 6 Astra for our performance tier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            409.288,
+            419.854
+          ],
+          "quote": "So when we initially built this router in early September, we used a small LLM, specifically GLM 5.3 Flash, to do the routing decision with structured output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            443.325,
+            448.367
+          ],
+          "quote": "The last thing I'll call out on this slide is that GLM 5.3 Flash is actually an open model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            638.548,
+            644.291
+          ],
+          "quote": "We certainly couldn't switch over to GLM 5.3 Flash for all of the tasks that OpenSuite needs to manage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

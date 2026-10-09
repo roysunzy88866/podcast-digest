@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabe":2,"轨迹数据":4,"Harvey":20,"持续学习":1,"经验差距":1,"智能体":441,"可追溯性":1,"评估":5,"harness":61,"模型规范":1}</script>
+<script type="application/json" class="pd-epn">{"Gabe":2,"轨迹数据":4,"Harvey":20,"持续学习":1,"经验差距":1,"智能体":444,"可追溯性":1,"评估":5,"harness":61,"模型规范":1}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":15,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":6,"开放模型":2,"沙箱":85,"推理":86,"GPU":28,"量化":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":15,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":6,"开放模型":3,"沙箱":85,"推理":87,"GPU":28,"量化":1,"函数调用":3}</script>
 
 <script>
 (function(){

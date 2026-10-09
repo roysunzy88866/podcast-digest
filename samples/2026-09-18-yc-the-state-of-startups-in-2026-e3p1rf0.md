@@ -170,8 +170,8 @@ PG 发推说它正以「软件级别的增速」增长，原因是它的客户�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Stripe · 同概念:SaaS、智能体 (agent)、机器人技术 (robotics)、微调 (fine-tuning)</span>
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限]]<span class="pd-rz">同公司:NVIDIA · 同概念:RL 环境 (RL environments)、SaaS、智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe · 同概念:SaaS、智能体 (agent)</span>
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS、智能体 (agent)、线束 (harness)</span>
 
 </div>
 <div class="pd-ex">

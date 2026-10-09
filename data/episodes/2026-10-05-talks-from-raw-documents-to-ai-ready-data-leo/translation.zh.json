@@ -1,0 +1,1986 @@
+[
+ {
+  "seg": 0,
+  "start": 13.493,
+  "end": 13.933,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.953,
+  "end": 15.635,
+  "speaker": "Unknown",
+  "en": "Hey, guys.",
+  "zh": "各位好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.815,
+  "end": 16.596,
+  "speaker": "Unknown",
+  "en": "Let's get going.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 3,
+  "start": 16.696,
+  "end": 17.497,
+  "speaker": "Unknown",
+  "en": "Can everybody hear me?",
+  "zh": "大家都能听到我说话吗?"
+ },
+ {
+  "seg": 4,
+  "start": 18.057,
+  "end": 18.397,
+  "speaker": "Unknown",
+  "en": "All good?",
+  "zh": "都没问题吗?"
+ },
+ {
+  "seg": 5,
+  "start": 19.528,
+  "end": 19.908,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 6,
+  "start": 20.388,
+  "end": 20.709,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 7,
+  "start": 20.769,
+  "end": 21.649,
+  "speaker": "Unknown",
+  "en": "My name is Jeff Koss.",
+  "zh": "我叫 Jeff Koss。"
+ },
+ {
+  "seg": 8,
+  "start": 21.709,
+  "end": 25.551,
+  "speaker": "Unknown",
+  "en": "I'm a staff customer engineer with DZ Labs.",
+  "zh": "我是 DZ Labs 的资深客户工程师。"
+ },
+ {
+  "seg": 9,
+  "start": 25.671,
+  "end": 28.532,
+  "speaker": "Unknown",
+  "en": "As you can see from the slide, it says brought to you by Calibra.",
+  "zh": "正如你在幻灯片上看到的,上面写着由 Calibra 呈现。"
+ },
+ {
+  "seg": 10,
+  "start": 29.012,
+  "end": 31.654,
+  "speaker": "Unknown",
+  "en": "Calibra acquired DZ Labs last summer.",
+  "zh": "Calibra 去年夏天收购了 DZ Labs。"
+ },
+ {
+  "seg": 11,
+  "start": 32.514,
+  "end": 37.896,
+  "speaker": "Unknown",
+  "en": "Calibra is more of a data governance tool for structured and AI agents and models.",
+  "zh": "Calibra 更多是一个面向结构化数据、AI 智能体和模型的数据治理工具。"
+ },
+ {
+  "seg": 12,
+  "start": 38.537,
+  "end": 44.8,
+  "speaker": "Unknown",
+  "en": "So the gap that Calibra had was we didn't have unstructured, and that's really where DZ shines.",
+  "zh": "所以 Calibra 原本的缺口是我们没有非结构化数据(能力),而这正是 DZ 的强项。"
+ },
+ {
+  "seg": 13,
+  "start": 44.84,
+  "end": 47.401,
+  "speaker": "Unknown",
+  "en": "So today with me is Leo Platzer.",
+  "zh": "今天和我一起的是 Leo Platzer。"
+ },
+ {
+  "seg": 14,
+  "start": 48.281,
+  "end": 48.822,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 15,
+  "start": 49.362,
+  "end": 49.903,
+  "speaker": "Unknown",
+  "en": "I'm Leo.",
+  "zh": "我是 Leo。"
+ },
+ {
+  "seg": 16,
+  "start": 49.983,
+  "end": 55.608,
+  "speaker": "Unknown",
+  "en": "I was previously the CTO at DZ Labs, which, as Jeff has already mentioned, was acquired last year by Colibra.",
+  "zh": "我此前是 DZ Labs 的 CTO,正如 Jeff 刚才提到的,它去年被 Colibra 收购了。"
+ },
+ {
+  "seg": 17,
+  "start": 56.349,
+  "end": 57.87,
+  "speaker": "Unknown",
+  "en": "And you can see we're both twins as well.",
+  "zh": "你也可以看到我们俩是双胞胎。"
+ },
+ {
+  "seg": 18,
+  "start": 58.651,
+  "end": 61.253,
+  "speaker": "Unknown",
+  "en": "We have our hats that we're giving away at our booth as well.",
+  "zh": "我们还有帽子,会在我们的展位上发放。"
+ },
+ {
+  "seg": 19,
+  "start": 61.373,
+  "end": 62.795,
+  "speaker": "Unknown",
+  "en": "So come by and get them.",
+  "zh": "所以来展台领取吧。"
+ },
+ {
+  "seg": 20,
+  "start": 63.375,
+  "end": 64.376,
+  "speaker": "Unknown",
+  "en": "First come, first serve.",
+  "zh": "先到先得。"
+ },
+ {
+  "seg": 21,
+  "start": 64.937,
+  "end": 71.643,
+  "speaker": "Unknown",
+  "en": "So today we're talking about how we can go from a stalled POC to production with DZ data curation.",
+  "zh": "今天我们要讲的是如何借助 DZ 数据策展,从停滞的 POC 走向生产环境。"
+ },
+ {
+  "seg": 22,
+  "start": 71.663,
+  "end": 73.705,
+  "speaker": "Unknown",
+  "en": "So really focus on unstructured data.",
+  "zh": "所以重点是非结构化数据。"
+ },
+ {
+  "seg": 23,
+  "start": 75.202,
+  "end": 81.888,
+  "speaker": "Unknown",
+  "en": "So our demo scenario I typically talk about is a manufacturing company, North River Manufacturing.",
+  "zh": "我通常讲的演示场景是一家制造公司,North River Manufacturing。"
+ },
+ {
+  "seg": 24,
+  "start": 81.908,
+  "end": 85.211,
+  "speaker": "Unknown",
+  "en": "You can see that there's 40,000 employees.",
+  "zh": "你可以看到它有 40,000 名员工。"
+ },
+ {
+  "seg": 25,
+  "start": 85.251,
+  "end": 87.072,
+  "speaker": "Unknown",
+  "en": "They operate in 20 different countries.",
+  "zh": "他们在 20 个不同的国家运营。"
+ },
+ {
+  "seg": 26,
+  "start": 88.093,
+  "end": 90.956,
+  "speaker": "Unknown",
+  "en": "Really what they're trying to do is they have millions of documents in SharePoint.",
+  "zh": "他们真正想做的是,他们在 SharePoint 里有数百万份文档。"
+ },
+ {
+  "seg": 27,
+  "start": 91.336,
+  "end": 96.801,
+  "speaker": "Unknown",
+  "en": "They've accumulated them over years and years, and they need to figure out which ones are relevant for their chatbot.",
+  "zh": "这些文档是他们多年年累积下来的,他们需要弄清楚哪些与他们的聊天机器人相关。"
+ },
+ {
+  "seg": 28,
+  "start": 97.422,
+  "end": 100.604,
+  "speaker": "Unknown",
+  "en": "They're invested heavily in AI to improve operational efficiency.",
+  "zh": "他们在 AI 上投入巨资以提升运营效率。"
+ },
+ {
+  "seg": 29,
+  "start": 101.895,
+  "end": 107.105,
+  "speaker": "Unknown",
+  "en": "And their big objective this year is they want to build a legal ops AI chatbot.",
+  "zh": "他们今年的一个大目标是构建一个法务运营 AI 聊天机器人。"
+ },
+ {
+  "seg": 30,
+  "start": 108.287,
+  "end": 108.487,
+  "speaker": "Unknown",
+  "en": "Now,",
+  "zh": "现在,"
+ },
+ {
+  "seg": 31,
+  "start": 109.435,
+  "end": 117.803,
+  "speaker": "Unknown",
+  "en": "What they want to do is they want to help the legal and procurement teams answer questions around supplier contracts, partnership agreements, and it's got to be real time.",
+  "zh": "他们想做的是帮助法务和采购团队回答有关供应商合同、合作协议的问题,而且必须是实时的。"
+ },
+ {
+  "seg": 32,
+  "start": 118.484,
+  "end": 132.678,
+  "speaker": "Unknown",
+  "en": "So some of the questions they're trying to answer are what are the termination clauses for a specific supplier, which agreements expire this quarter, which agreements expire next quarter, and what partnerships have exclusivity terms.",
+  "zh": "所以他们试图回答的一些问题是:某个特定供应商的终止条款是什么,哪些协议本季度到期,哪些协议下季度到期,以及哪些合作协议带有排他性条款。"
+ },
+ {
+  "seg": 33,
+  "start": 134.855,
+  "end": 139.078,
+  "speaker": "Unknown",
+  "en": "So some of the folks in the teams that we've been working with is Sarah.",
+  "zh": "所以我们一直在合作的团队中的一些人包括 Sarah。"
+ },
+ {
+  "seg": 34,
+  "start": 139.098,
+  "end": 140.438,
+  "speaker": "Unknown",
+  "en": "She's a head of data and AI.",
+  "zh": "她是数据与 AI 负责人。"
+ },
+ {
+  "seg": 35,
+  "start": 140.859,
+  "end": 142.78,
+  "speaker": "Unknown",
+  "en": "So she's responsible for the accuracy.",
+  "zh": "所以她负责准确性。"
+ },
+ {
+  "seg": 36,
+  "start": 144.261,
+  "end": 145.121,
+  "speaker": "Unknown",
+  "en": "Also, there's Jim.",
+  "zh": "还有 Jim。"
+ },
+ {
+  "seg": 37,
+  "start": 145.161,
+  "end": 146.342,
+  "speaker": "Unknown",
+  "en": "He's an AI engineer.",
+  "zh": "他是一名 AI 工程师。"
+ },
+ {
+  "seg": 38,
+  "start": 146.722,
+  "end": 148.943,
+  "speaker": "Unknown",
+  "en": "He just needs to know, which files do I need?",
+  "zh": "他只需要知道,我需要哪些文件?"
+ },
+ {
+  "seg": 39,
+  "start": 149.384,
+  "end": 153.026,
+  "speaker": "Unknown",
+  "en": "I have tons and tons, thousands and thousands of files in SharePoint.",
+  "zh": "我在 SharePoint 里有成千上万、数以千计的文件。"
+ },
+ {
+  "seg": 40,
+  "start": 153.466,
+  "end": 156.508,
+  "speaker": "Unknown",
+  "en": "I need to find just the relevant ones with no sensitivity.",
+  "zh": "我需要只找出相关的、且不含敏感信息的文件。"
+ },
+ {
+  "seg": 41,
+  "start": 157.448,
+  "end": 159.249,
+  "speaker": "Unknown",
+  "en": "Priya is the head of knowledge management.",
+  "zh": "Priya 是知识管理负责人。"
+ },
+ {
+  "seg": 42,
+  "start": 159.81,
+  "end": 162.291,
+  "speaker": "Unknown",
+  "en": "She wants to make sure that no sensitivity is leaked.",
+  "zh": "她想确保没有任何敏感信息泄露。"
+ },
+ {
+  "seg": 43,
+  "start": 163.892,
+  "end": 170.116,
+  "speaker": "Unknown",
+  "en": "And make sure that if there is specific data that's classified, that it gets redacted as well.",
+  "zh": "并确保如果有被分类的特定数据,也要对其进行脱敏处理。"
+ },
+ {
+  "seg": 44,
+  "start": 171.337,
+  "end": 171.997,
+  "speaker": "Unknown",
+  "en": "Then there's Michael.",
+  "zh": "然后是 Michael。"
+ },
+ {
+  "seg": 45,
+  "start": 172.037,
+  "end": 173.338,
+  "speaker": "Unknown",
+  "en": "He's the Director of LegalOps.",
+  "zh": "他是 LegalOps 总监。"
+ },
+ {
+  "seg": 46,
+  "start": 173.839,
+  "end": 177.001,
+  "speaker": "Unknown",
+  "en": "He needs a chatbot to deliver accurate responses to his team.",
+  "zh": "他需要一个聊天机器人为他的团队提供准确的回答。"
+ },
+ {
+  "seg": 47,
+  "start": 177.361,
+  "end": 178.482,
+  "speaker": "Unknown",
+  "en": "So he's from the business.",
+  "zh": "所以他来自业务方。"
+ },
+ {
+  "seg": 48,
+  "start": 179.102,
+  "end": 181.203,
+  "speaker": "Unknown",
+  "en": "And then finally, there's Jackson.",
+  "zh": "最后还有 Jackson。"
+ },
+ {
+  "seg": 49,
+  "start": 181.223,
+  "end": 184.305,
+  "speaker": "Unknown",
+  "en": "So Jackson's Enterprise Transformation Lead.",
+  "zh": "Jackson 是企业转型负责人。"
+ },
+ {
+  "seg": 50,
+  "start": 184.886,
+  "end": 187.648,
+  "speaker": "Unknown",
+  "en": "And this is his flagship use case.",
+  "zh": "这是他的旗舰用例。"
+ },
+ {
+  "seg": 51,
+  "start": 188.348,
+  "end": 193.972,
+  "speaker": "Unknown",
+  "en": "But also he has 15 other use cases that he needs to deal with, right?",
+  "zh": "但同时他还有 15 个其他用例需要处理，对吧？"
+ },
+ {
+  "seg": 52,
+  "start": 194.312,
+  "end": 198.215,
+  "speaker": "Unknown",
+  "en": "So he wants to have a framework, a repeatable, successful process.",
+  "zh": "所以他想要一个框架，一个可复用、能成功的流程。"
+ },
+ {
+  "seg": 53,
+  "start": 198.535,
+  "end": 203.338,
+  "speaker": "Unknown",
+  "en": "He doesn't just want to do it for one time, he wants to do it for multiple different use cases.",
+  "zh": "他不想只做一次，而是想应用于多个不同的用例。"
+ },
+ {
+  "seg": 54,
+  "start": 205.8,
+  "end": 205.98,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 55,
+  "start": 207.508,
+  "end": 230.239,
+  "speaker": "Unknown",
+  "en": "What they're able to do so far, they were able to take 40, around 40 different files, pre-curated files, and build a small little POC, small little mini pilot, where they can do parsing, chunking, OCR, embedding, and then put it in a vector database and a knowledge graph, and they got pretty good responses, right?",
+  "zh": "他们目前能做到的是，取大约 40 个不同的、预先整理好的文件，构建一个小型 POC、一个小型迷你试点，其中可以做解析、分块、OCR、嵌入（embedding），然后放入向量数据库和知识图谱，他们得到了相当不错的回复，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 230.659,
+  "end": 231.54,
+  "speaker": "Unknown",
+  "en": "Seems pretty easy.",
+  "zh": "看起来挺容易的。"
+ },
+ {
+  "seg": 57,
+  "start": 231.56,
+  "end": 234.221,
+  "speaker": "Unknown",
+  "en": "You can do that with 40 files.",
+  "zh": "用 40 个文件你可以做到这一点。"
+ },
+ {
+  "seg": 58,
+  "start": 236.183,
+  "end": 245.427,
+  "speaker": "Unknown",
+  "en": "But when they try to do it with many, many different files, with 80,000 plus files, now all of a sudden, it's a little bit more challenging.",
+  "zh": "但当他们尝试用很多很多文件、超过 80,000 个文件来做时，突然间就变得更有挑战性了。"
+ },
+ {
+  "seg": 59,
+  "start": 246.147,
+  "end": 250.989,
+  "speaker": "Unknown",
+  "en": "And so some of the challenges that they had were, I can't discover the files that I need.",
+  "zh": "他们遇到的一些挑战是，我无法发现我需要的文件。"
+ },
+ {
+  "seg": 60,
+  "start": 251.869,
+  "end": 253.79,
+  "speaker": "Unknown",
+  "en": "I don't know where the sensitive data is.",
+  "zh": "我不知道敏感数据在哪里。"
+ },
+ {
+  "seg": 61,
+  "start": 255.628,
+  "end": 258.83,
+  "speaker": "Unknown",
+  "en": "On SharePoint, I can't trust the quality of the data.",
+  "zh": "在 SharePoint 上，我无法信任数据的质量。"
+ },
+ {
+  "seg": 62,
+  "start": 258.85,
+  "end": 264.672,
+  "speaker": "Unknown",
+  "en": "So my background, I used to work at both Informatica and Databricks.",
+  "zh": "我的背景是，我曾在 Informatica 和 Databricks 工作过。"
+ },
+ {
+  "seg": 63,
+  "start": 265.192,
+  "end": 272.235,
+  "speaker": "Unknown",
+  "en": "So for me, data quality is typically the six different dimensions of data quality, completeness, conformity, accuracy.",
+  "zh": "所以对我来说，数据质量通常指数据质量的六个不同维度：完整性、一致性、准确性。"
+ },
+ {
+  "seg": 64,
+  "start": 272.975,
+  "end": 275.596,
+  "speaker": "Unknown",
+  "en": "But when you deal with documents, it's a little bit different.",
+  "zh": "但当你处理文档时，情况有点不同。"
+ },
+ {
+  "seg": 65,
+  "start": 275.856,
+  "end": 279.918,
+  "speaker": "Unknown",
+  "en": "I want to see, is there duplicate information, conflicting information, right?",
+  "zh": "我想看的是，有没有重复的信息、冲突的信息，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 280.178,
+  "end": 284.14,
+  "speaker": "Unknown",
+  "en": "Leo's going to talk about, he has a really good slide about showing why it's so important.",
+  "zh": "Leo 会讲到这个，他有一张非常好的幻灯片，展示为什么这如此重要。"
+ },
+ {
+  "seg": 67,
+  "start": 285,
+  "end": 286.781,
+  "speaker": "Unknown",
+  "en": "And also the freshness of the data.",
+  "zh": "还有数据的新鲜度。"
+ },
+ {
+  "seg": 68,
+  "start": 287.861,
+  "end": 290.262,
+  "speaker": "Unknown",
+  "en": "And also everybody's talking about context, right?",
+  "zh": "另外现在每个人都在谈上下文，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 291.283,
+  "end": 301.628,
+  "speaker": "Unknown",
+  "en": "So what we want to do is when we tag the metadata, we want to use that in our chatbot, in our vector database to make it more relevant, have better accuracy in the chatbot.",
+  "zh": "所以我们想做的是，当我们给元数据打标签时，我们要在聊天机器人里、在向量数据库里使用它，使其更具相关性，让聊天机器人有更好的准确性。"
+ },
+ {
+  "seg": 70,
+  "start": 304.409,
+  "end": 308.951,
+  "speaker": "Unknown",
+  "en": "So you can see some of the challenges that they had, right?",
+  "zh": "所以你可以看到他们遇到的一些挑战，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 308.971,
+  "end": 310.492,
+  "speaker": "Unknown",
+  "en": "They're getting incorrect answers.",
+  "zh": "他们得到了不正确的答案。"
+ },
+ {
+  "seg": 72,
+  "start": 311.432,
+  "end": 314.656,
+  "speaker": "Unknown",
+  "en": "There's sensitive information that's being leaked out in the chatbots.",
+  "zh": "有敏感信息在聊天机器人中被泄露出去。"
+ },
+ {
+  "seg": 73,
+  "start": 315.177,
+  "end": 318.842,
+  "speaker": "Unknown",
+  "en": "It takes a ton of time to go to production because they can't find the files.",
+  "zh": "上生产环境要花大量时间，因为他们找不到文件。"
+ },
+ {
+  "seg": 74,
+  "start": 318.862,
+  "end": 324.229,
+  "speaker": "Unknown",
+  "en": "They're spending too much time looking for the files instead of writing code and doing things that they really like to do.",
+  "zh": "他们花太多时间找文件，而不是写代码、做自己真正喜欢做的事。"
+ },
+ {
+  "seg": 75,
+  "start": 325.05,
+  "end": 326.211,
+  "speaker": "Unknown",
+  "en": "It's difficult to maintain.",
+  "zh": "很难维护。"
+ },
+ {
+  "seg": 76,
+  "start": 326.912,
+  "end": 338.16,
+  "speaker": "Unknown",
+  "en": "I'm working with another telecommunications company and they have six to seven different SMEs and they're trying to curate 20,000 HTML files and they can't keep up, right?",
+  "zh": "我正在与另一家电信公司合作，他们有六七位不同的 SME，他们试图整理 20,000 个 HTML 文件，但他们跟不上，对吧？"
+ },
+ {
+  "seg": 77,
+  "start": 338.18,
+  "end": 339.861,
+  "speaker": "Unknown",
+  "en": "So it's very brittle, very difficult.",
+  "zh": "所以这非常脆弱、非常困难。"
+ },
+ {
+  "seg": 78,
+  "start": 340.161,
+  "end": 343.584,
+  "speaker": "Unknown",
+  "en": "And what we do is we provide the ability to automate this entire process.",
+  "zh": "而我们要做的，就是提供将这整个流程自动化的能力。"
+ },
+ {
+  "seg": 79,
+  "start": 346.286,
+  "end": 348.728,
+  "speaker": "Unknown",
+  "en": "So over here, now you can see",
+  "zh": "在这里，现在你可以看到"
+ },
+ {
+  "seg": 80,
+  "start": 349.943,
+  "end": 355.308,
+  "speaker": "Unknown",
+  "en": "They want to try to access and leverage over 80,000 different files.",
+  "zh": "他们想要访问并利用超过 80,000 个不同的文件。"
+ },
+ {
+  "seg": 81,
+  "start": 355.709,
+  "end": 364.477,
+  "speaker": "Unknown",
+  "en": "So they went from 40 files to over 80,000 files, and really what they want to do is they want to find which files are relevant for their chatbot, which have high quality,",
+  "zh": "所以他们从 40 个文件发展到超过 80,000 个文件，而他们真正想做的是，找出哪些文件与他们的聊天机器人相关、哪些质量高，"
+ },
+ {
+  "seg": 82,
+  "start": 365.478,
+  "end": 367.319,
+  "speaker": "Unknown",
+  "en": "Which ones are up to date with knowledge?",
+  "zh": "哪些文件的知识是最新的？"
+ },
+ {
+  "seg": 83,
+  "start": 367.339,
+  "end": 372.743,
+  "speaker": "Unknown",
+  "en": "They don't want to use a version where the contract is old and expired, right?",
+  "zh": "他们不想用那些合同已经过旧、已过期的版本，对吧？"
+ },
+ {
+  "seg": 84,
+  "start": 372.983,
+  "end": 377.046,
+  "speaker": "Unknown",
+  "en": "And they want to enrich their chatbot with the metadata that they've tagged.",
+  "zh": "而且他们想用已打好的元数据标签来丰富他们的聊天机器人。"
+ },
+ {
+  "seg": 85,
+  "start": 377.646,
+  "end": 379.808,
+  "speaker": "Unknown",
+  "en": "And of course, they don't want any sensitive data.",
+  "zh": "当然，他们不想要任何敏感数据。"
+ },
+ {
+  "seg": 86,
+  "start": 381.783,
+  "end": 385.965,
+  "speaker": "Unknown",
+  "en": "And so what we do over here is we provide the ability to do that, right?",
+  "zh": "而我们在这里所做的，就是提供实现这一点的能力，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 386.466,
+  "end": 390.088,
+  "speaker": "Unknown",
+  "en": "We can access the data over here.",
+  "zh": "我们可以在这里访问数据。"
+ },
+ {
+  "seg": 88,
+  "start": 390.148,
+  "end": 392.009,
+  "speaker": "Unknown",
+  "en": "We can understand what the data is.",
+  "zh": "我们可以理解这些数据是什么。"
+ },
+ {
+  "seg": 89,
+  "start": 392.429,
+  "end": 396.992,
+  "speaker": "Unknown",
+  "en": "We can figure out which files are relevant, do the OCR, the chunking, and things like that.",
+  "zh": "我们可以弄清楚哪些文件是相关的，做 OCR、分块之类的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 399.643,
+  "end": 401.744,
+  "speaker": "Unknown",
+  "en": "So let me show you a little, a brief demo.",
+  "zh": "那么让我给你们展示一个简短的演示。"
+ },
+ {
+  "seg": 91,
+  "start": 401.844,
+  "end": 419.356,
+  "speaker": "Unknown",
+  "en": "So over here you see in SharePoint, much like what North River has, they have a whole SharePoint site full of different, you know, there's call transcripts, there's PDFs, there's Excel, there's Word documents, and they don't know which ones are relevant, which ones are focused around legal.",
+  "zh": "在这里你看到的 SharePoint，和 North River 所拥有的一样，他们有一个完整的 SharePoint 站点，里面有各种不同的内容，你知道，有通话记录、有 PDF、有 Excel、有 Word 文档，而他们不知道哪些是相关的、哪些是围绕法律主题的。"
+ },
+ {
+  "seg": 92,
+  "start": 419.716,
+  "end": 426.461,
+  "speaker": "Unknown",
+  "en": "Now over here when we look at DZ, we've already opened up the application right here and I can see, you know, I've already ingested 339 files.",
+  "zh": "现在这里看 DZ，我们已经在这里打开了应用程序，我可以看到，你知道，我已经摄取了 339 个文件。"
+ },
+ {
+  "seg": 93,
+  "start": 428.782,
+  "end": 434.083,
+  "speaker": "Unknown",
+  "en": "And now I can see both the page level or chunk level as well as the file level.",
+  "zh": "现在我可以同时看到页面级别或分块级别，以及文件级别。"
+ },
+ {
+  "seg": 94,
+  "start": 434.103,
+  "end": 436.343,
+  "speaker": "Unknown",
+  "en": "I can see all the information right here.",
+  "zh": "我可以在这里看到所有信息。"
+ },
+ {
+  "seg": 95,
+  "start": 438.644,
+  "end": 440.864,
+  "speaker": "Unknown",
+  "en": "And then over here, this is what we call a taxonomy.",
+  "zh": "然后在这里，这就是我们所说的分类体系（taxonomy）。"
+ },
+ {
+  "seg": 96,
+  "start": 441.224,
+  "end": 443.745,
+  "speaker": "Unknown",
+  "en": "Taxonomy is a grouping of tags or a tagging tree.",
+  "zh": "分类体系是标签的分组，或者叫标签树。"
+ },
+ {
+  "seg": 97,
+  "start": 444.185,
+  "end": 457.827,
+  "speaker": "Unknown",
+  "en": "So I've ingested the 339 files, and now I can either manually create a user-defined tag, I can leverage tags that are reusable for my tag library, or I can leverage AI to auto-suggest what tags I should even have.",
+  "zh": "我已经摄取了 339 个文件，现在我可以手动创建一个用户自定义标签，可以利用我的标签库中可复用的标签，或者我可以利用 AI 自动建议我应该使用哪些标签。"
+ },
+ {
+  "seg": 98,
+  "start": 459.011,
+  "end": 461.854,
+  "speaker": "Unknown",
+  "en": "I can leverage AI to say, these are the tags that are relevant.",
+  "zh": "我可以利用 AI 来说明，这些是相关的标签。"
+ },
+ {
+  "seg": 99,
+  "start": 462.254,
+  "end": 474.905,
+  "speaker": "Unknown",
+  "en": "So here I just type in my tag name, document categorization, give it a prompt, and this prompt is what we're gonna send to the LLM to determine is this file, how should we tag this file?",
+  "zh": "所以这里我只需输入我的标签名称“文档分类”，给它一个提示词（prompt），而这个提示词就是我们要发送给 LLM 的，用来判断这个文件、我们该如何给这个文件打标签？"
+ },
+ {
+  "seg": 100,
+  "start": 475.786,
+  "end": 480.43,
+  "speaker": "Unknown",
+  "en": "Now, if I know what I'm looking for, I can put in the classification values, it's optional.",
+  "zh": "现在,如果我知道我在找什么,我可以填入分类的值,这是可选的。"
+ },
+ {
+  "seg": 101,
+  "start": 481.091,
+  "end": 484.734,
+  "speaker": "Unknown",
+  "en": "And again, I can leverage AI to auto-suggest all these tags for me.",
+  "zh": "再说一次,我可以利用 AI 自动为我建议所有这些标签。"
+ },
+ {
+  "seg": 102,
+  "start": 488.015,
+  "end": 496.519,
+  "speaker": "Unknown",
+  "en": "Now also the other thing to point out, if I have my taxonomy here, my valid values already, I can upload them through a CSV.",
+  "zh": "现在还有一点要指出,如果我这里已经有我的分类体系、我的有效值,我可以通过 CSV 上传它们。"
+ },
+ {
+  "seg": 103,
+  "start": 496.559,
+  "end": 502.101,
+  "speaker": "Unknown",
+  "en": "And so once we do this now, I can see I started to build this tagging tree.",
+  "zh": "这样一旦我们做完这个,现在我可以看到我开始构建这个标签树了。"
+ },
+ {
+  "seg": 104,
+  "start": 502.681,
+  "end": 505.703,
+  "speaker": "Unknown",
+  "en": "Now the other thing I can do is I can have conditions on my tagging tree.",
+  "zh": "现在我还能做的另一件事是,我可以在我的标签树上设置条件。"
+ },
+ {
+  "seg": 105,
+  "start": 506.263,
+  "end": 508.945,
+  "speaker": "Unknown",
+  "en": "So remember I said I only want legal and contracts?",
+  "zh": "还记得我说过我只想要法律和合同吗?"
+ },
+ {
+  "seg": 106,
+  "start": 509.045,
+  "end": 510.166,
+  "speaker": "Unknown",
+  "en": "That's what they're looking for.",
+  "zh": "那就是他们要找的东西。"
+ },
+ {
+  "seg": 107,
+  "start": 510.666,
+  "end": 514.528,
+  "speaker": "Unknown",
+  "en": "Now what I can do is I can have subtagging.",
+  "zh": "现在我能做的是,我可以设置子标签。"
+ },
+ {
+  "seg": 108,
+  "start": 515.029,
+  "end": 520.892,
+  "speaker": "Unknown",
+  "en": "So only legal and contract files, I want to pull out more data around the contract type.",
+  "zh": "所以对于法律和合同文件,我想提取更多关于合同类型的数据。"
+ },
+ {
+  "seg": 109,
+  "start": 521.373,
+  "end": 522.854,
+  "speaker": "Unknown",
+  "en": "Is it a supplier contract?",
+  "zh": "它是供应商合同吗?"
+ },
+ {
+  "seg": 110,
+  "start": 522.914,
+  "end": 524.154,
+  "speaker": "Unknown",
+  "en": "Is it part of an NDA?",
+  "zh": "它是 NDA 的一部分吗?"
+ },
+ {
+  "seg": 111,
+  "start": 525.275,
+  "end": 528.057,
+  "speaker": "Unknown",
+  "en": "Is it materials and time contract?",
+  "zh": "它是材料和工时合同吗?"
+ },
+ {
+  "seg": 112,
+  "start": 533.27,
+  "end": 539.271,
+  "speaker": "Unknown",
+  "en": "And now what we can do when we add this, you can see we have different branches in our tagging tree.",
+  "zh": "现在我们添加这些之后,你可以看到我们的标签树里有了不同的分支。"
+ },
+ {
+  "seg": 113,
+  "start": 541.631,
+  "end": 545.352,
+  "speaker": "Unknown",
+  "en": "And I could have unconditional tags as well.",
+  "zh": "我也可以有非条件标签。"
+ },
+ {
+  "seg": 114,
+  "start": 545.812,
+  "end": 547.433,
+  "speaker": "Unknown",
+  "en": "I can have any number of different tags.",
+  "zh": "我可以有任意数量的不同标签。"
+ },
+ {
+  "seg": 115,
+  "start": 547.753,
+  "end": 549.573,
+  "speaker": "Unknown",
+  "en": "Now what we're doing is we're going to generate the metadata.",
+  "zh": "现在我们要做的是生成元数据。"
+ },
+ {
+  "seg": 116,
+  "start": 549.593,
+  "end": 551.673,
+  "speaker": "Unknown",
+  "en": "So I choose what files I want.",
+  "zh": "所以我选择我想要的文件。"
+ },
+ {
+  "seg": 117,
+  "start": 552.053,
+  "end": 554.334,
+  "speaker": "Unknown",
+  "en": "I can choose what tags I want.",
+  "zh": "我可以选择我想要的标签。"
+ },
+ {
+  "seg": 118,
+  "start": 554.374,
+  "end": 556.394,
+  "speaker": "Unknown",
+  "en": "I can say generate metadata, and we'll run this.",
+  "zh": "我可以点生成元数据,然后我们运行这个。"
+ },
+ {
+  "seg": 119,
+  "start": 556.954,
+  "end": 561.075,
+  "speaker": "Unknown",
+  "en": "And you'll see the results over here.",
+  "zh": "你会在这边看到结果。"
+ },
+ {
+  "seg": 120,
+  "start": 562.7,
+  "end": 564.884,
+  "speaker": "Unknown",
+  "en": "So now I can see the document category.",
+  "zh": "所以现在我可以看到文档类别。"
+ },
+ {
+  "seg": 121,
+  "start": 564.924,
+  "end": 565.825,
+  "speaker": "Unknown",
+  "en": "I can hover my mouse.",
+  "zh": "我可以把鼠标悬停上去。"
+ },
+ {
+  "seg": 122,
+  "start": 566.226,
+  "end": 567.488,
+  "speaker": "Unknown",
+  "en": "There's engineering documents.",
+  "zh": "这里有工程文档。"
+ },
+ {
+  "seg": 123,
+  "start": 567.508,
+  "end": 568.83,
+  "speaker": "Unknown",
+  "en": "Here's my contracts and legal.",
+  "zh": "这里是我的合同和法律类。"
+ },
+ {
+  "seg": 124,
+  "start": 569.391,
+  "end": 571.214,
+  "speaker": "Unknown",
+  "en": "I have 68 different files.",
+  "zh": "我有 68 个不同的文件。"
+ },
+ {
+  "seg": 125,
+  "start": 572.156,
+  "end": 576.002,
+  "speaker": "Unknown",
+  "en": "And if I click on any of those, it automatically filters for me.",
+  "zh": "如果我点击其中任何一个,它会自动为我筛选。"
+ },
+ {
+  "seg": 126,
+  "start": 577.77,
+  "end": 579.231,
+  "speaker": "Unknown",
+  "en": "Now I can also see the evidence.",
+  "zh": "现在我还可以看到证据。"
+ },
+ {
+  "seg": 127,
+  "start": 580.111,
+  "end": 581.592,
+  "speaker": "Unknown",
+  "en": "Why did AI tag this?",
+  "zh": "AI 为什么打这个标签?"
+ },
+ {
+  "seg": 128,
+  "start": 581.832,
+  "end": 587.716,
+  "speaker": "Unknown",
+  "en": "Where in the document did it find evidence that it's a legal contract?",
+  "zh": "它在文档的哪个位置找到这是法律合同的证据?"
+ },
+ {
+  "seg": 129,
+  "start": 588.176,
+  "end": 589.897,
+  "speaker": "Unknown",
+  "en": "And I can also do thumbs up and thumbs down.",
+  "zh": "我还可以点赞和点踩。"
+ },
+ {
+  "seg": 130,
+  "start": 589.937,
+  "end": 591.558,
+  "speaker": "Unknown",
+  "en": "So there's few shot learning as well.",
+  "zh": "所以这里也有少样本学习。"
+ },
+ {
+  "seg": 131,
+  "start": 591.878,
+  "end": 593.819,
+  "speaker": "Unknown",
+  "en": "So I can give it an example if I want to.",
+  "zh": "所以如果我想的话,我可以给它一个示例。"
+ },
+ {
+  "seg": 132,
+  "start": 595.1,
+  "end": 597.802,
+  "speaker": "Unknown",
+  "en": "Now you can notice I also have filters.",
+  "zh": "现在你可以注意到我还有筛选器。"
+ },
+ {
+  "seg": 133,
+  "start": 597.842,
+  "end": 598.862,
+  "speaker": "Unknown",
+  "en": "So I have two different filters.",
+  "zh": "我有两个不同的筛选器。"
+ },
+ {
+  "seg": 134,
+  "start": 598.902,
+  "end": 600.784,
+  "speaker": "Unknown",
+  "en": "I quickly went from 339 files down to 20 files.",
+  "zh": "我很快从 339 个文件缩减到了 20 个文件。"
+ },
+ {
+  "seg": 135,
+  "start": 604.165,
+  "end": 608.547,
+  "speaker": "Unknown",
+  "en": "So we also have the ability to scan for sensitivity as well.",
+  "zh": "所以我们还有扫描敏感信息的能力。"
+ },
+ {
+  "seg": 136,
+  "start": 609.067,
+  "end": 613.649,
+  "speaker": "Unknown",
+  "en": "So whether it's PII, PHI, could be anything.",
+  "zh": "无论是 PII、PHI,可以是任何东西。"
+ },
+ {
+  "seg": 137,
+  "start": 614.129,
+  "end": 624.373,
+  "speaker": "Unknown",
+  "en": "I was in London at a Gartner conference a couple months ago, and there was some folks from Finland that came up and they wanted to know, you know, can we find Finnish national ID?",
+  "zh": "几个月前我在伦敦参加一个 Gartner 大会,有几个来自芬兰的人走过来,他们想知道,我们能不能找到芬兰国民身份证号?"
+ },
+ {
+  "seg": 138,
+  "start": 624.974,
+  "end": 625.834,
+  "speaker": "Unknown",
+  "en": "I don't speak Finnish.",
+  "zh": "我不会说芬兰语。"
+ },
+ {
+  "seg": 139,
+  "start": 626.334,
+  "end": 631.876,
+  "speaker": "Unknown",
+  "en": "So I put it in there, I did this demo, and not only can we do AI based, we can do pattern based with context.",
+  "zh": "所以我把它放进去,做了这个演示,我们不仅能做基于 AI 的,还能做基于模式并结合上下文的。"
+ },
+ {
+  "seg": 140,
+  "start": 633.217,
+  "end": 646.513,
+  "speaker": "Unknown",
+  "en": "Ended up figuring out the regex syntax for me, but it also added some Finnish words which I thought were probably associated with Finnish national ID, so it's going to be less false positives as well.",
+  "zh": "最后它帮我搞清楚了正则表达式语法,但它还添加了一些芬兰语词汇,我认为这些词可能与芬兰国民身份证相关联,所以这样误报也会更少。"
+ },
+ {
+  "seg": 141,
+  "start": 652.721,
+  "end": 654.443,
+  "speaker": "Unknown",
+  "en": "All right, let me keep going here.",
+  "zh": "好的,让我继续往下讲。"
+ },
+ {
+  "seg": 142,
+  "start": 655.144,
+  "end": 657.867,
+  "speaker": "Unknown",
+  "en": "So the other thing we can do is we can do quality.",
+  "zh": "所以我们能做的另一件事是质量。"
+ },
+ {
+  "seg": 143,
+  "start": 658.347,
+  "end": 674.205,
+  "speaker": "Unknown",
+  "en": "So again, for us, we have a dashboard in here for quality where we can go through and see what are the different groupings for duplication, for conflicting information, and then we'll leverage AI to auto-suggest which ones to keep.",
+  "zh": "再说一次,对我们来说,这里有一个质量仪表盘,我们可以在里面查看重复信息、冲突信息的不同分组情况,然后我们会利用 AI 自动建议保留哪些。"
+ },
+ {
+  "seg": 144,
+  "start": 675.445,
+  "end": 683.367,
+  "speaker": "Unknown",
+  "en": "Now, the other thing we can do, too, is, again, for freshness, we can say, I only want files within X number of days or within a specific date range.",
+  "zh": "现在,我们还能做的另一件事是,同样,针对新鲜度,我们可以说,我只想要 X 天以内的文件,或者特定日期范围内的文件。"
+ },
+ {
+  "seg": 145,
+  "start": 683.787,
+  "end": 692.13,
+  "speaker": "Unknown",
+  "en": "And then the last thing we can do for data quality is, you know, here's the pieces of metadata that I absolutely have to have.",
+  "zh": "然后我们能为数据质量做的最后一件事是,比如,这些是我绝对必须拥有的元数据。"
+ },
+ {
+  "seg": 146,
+  "start": 692.57,
+  "end": 698.812,
+  "speaker": "Unknown",
+  "en": "And then what we'll do is we'll figure out, you know, of the 339 files, maybe you really need 200 files.",
+  "zh": "然后我们要做的是,我们会算出,在 339 个文件里,也许你真正需要的是 200 个文件。"
+ },
+ {
+  "seg": 147,
+  "start": 699.092,
+  "end": 701.032,
+  "speaker": "Unknown",
+  "en": "And then from there, you can create a data slice.",
+  "zh": "然后从这里,你可以创建一个数据切片。"
+ },
+ {
+  "seg": 148,
+  "start": 701.632,
+  "end": 703.813,
+  "speaker": "Unknown",
+  "en": "And then we can also give it context as well.",
+  "zh": "然后我们也可以给它提供上下文。"
+ },
+ {
+  "seg": 149,
+  "start": 705.882,
+  "end": 706.343,
+  "speaker": "Unknown",
+  "en": "over here.",
+  "zh": "在这边。"
+ },
+ {
+  "seg": 150,
+  "start": 707.346,
+  "end": 713.162,
+  "speaker": "Unknown",
+  "en": "So I'll go through one more video and we also have a live demo for you that Leo is going to be doing in a second.",
+  "zh": "那么我会再过一遍一个视频，我们还有一个现场演示，Leo 马上会为大家展示。"
+ },
+ {
+  "seg": 151,
+  "start": 714.342,
+  "end": 718.903,
+  "speaker": "Unknown",
+  "en": "So in this case now, what I can do is I can leverage a data slice.",
+  "zh": "所以在这种情况下，现在我能做的是利用一个数据切片。"
+ },
+ {
+  "seg": 152,
+  "start": 718.923,
+  "end": 723.684,
+  "speaker": "Unknown",
+  "en": "So my data slice could be filtered based on the specific criteria that I want.",
+  "zh": "我的数据切片可以根据我想要的特定条件进行过滤。"
+ },
+ {
+  "seg": 153,
+  "start": 724.144,
+  "end": 726.084,
+  "speaker": "Unknown",
+  "en": "So in this case, I have 14 files.",
+  "zh": "在这个例子里，我有 14 个文件。"
+ },
+ {
+  "seg": 154,
+  "start": 726.644,
+  "end": 729.425,
+  "speaker": "Unknown",
+  "en": "These are only the files that are relevant for legal.",
+  "zh": "这些只是与法务相关的文件。"
+ },
+ {
+  "seg": 155,
+  "start": 730.245,
+  "end": 733.245,
+  "speaker": "Unknown",
+  "en": "And now what I'm doing is I'm copying my use case description.",
+  "zh": "现在我要做的是复制我的用例描述。"
+ },
+ {
+  "seg": 156,
+  "start": 733.665,
+  "end": 736.666,
+  "speaker": "Unknown",
+  "en": "What I can do is I can say, here's what I'm trying to build.",
+  "zh": "我能做的是说，这是我想构建的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 736.746,
+  "end": 742.567,
+  "speaker": "Unknown",
+  "en": "And I can either do a flat taxonomy or multiple levels in my tagging tree.",
+  "zh": "我可以选择扁平的分类体系，或者在我的标签树中使用多个层级。"
+ },
+ {
+  "seg": 158,
+  "start": 743.447,
+  "end": 746.649,
+  "speaker": "Unknown",
+  "en": "And then over there, when I run it, it's going to auto-suggest these tags for me.",
+  "zh": "然后在那里，当我运行它时，它会自动为建议这些标签。"
+ },
+ {
+  "seg": 159,
+  "start": 746.909,
+  "end": 751.412,
+  "speaker": "Unknown",
+  "en": "There's human in the loop, so I can choose which ones I like, which ones I want, which ones are relevant.",
+  "zh": "今天一个人这么说，明天一个人那么说。"
+ },
+ {
+  "seg": 160,
+  "start": 751.893,
+  "end": 756.395,
+  "speaker": "Unknown",
+  "en": "But again, it's all done for me based on what I'm trying to do.",
+  "zh": "但同样，这一切都是基于我想做的事情替我完成的。"
+ },
+ {
+  "seg": 161,
+  "start": 756.896,
+  "end": 760.598,
+  "speaker": "Unknown",
+  "en": "We gave it context and based on the content of the files themselves.",
+  "zh": "我们给了它上下文，并基于文件本身的内容。"
+ },
+ {
+  "seg": 162,
+  "start": 762.359,
+  "end": 766.362,
+  "speaker": "Unknown",
+  "en": "And then over here, it even builds out the classification values for me.",
+  "zh": "然后在这里，它甚至会为我构建出分类值。"
+ },
+ {
+  "seg": 163,
+  "start": 770.881,
+  "end": 780.219,
+  "speaker": "Unknown",
+  "en": "And then if we want, when we generate the metadata, we're in the job, now we can see over here, here's all the sensitive information, right?",
+  "zh": "然后如果我们想要的话，当我们生成元数据时，我们处于这个任务中，现在我们可以在这里看到，这里是所有敏感信息，对吧？"
+ },
+ {
+  "seg": 164,
+  "start": 780.319,
+  "end": 782.463,
+  "speaker": "Unknown",
+  "en": "Here's all the different information that we have over here.",
+  "zh": "这里是我们在这里拥有的所有不同信息。"
+ },
+ {
+  "seg": 165,
+  "start": 784.755,
+  "end": 788.018,
+  "speaker": "Unknown",
+  "en": "And then again, I can see the evidence at the file level and the chunk level.",
+  "zh": "然后同样，我可以在文件级别和块级别查看证据。"
+ },
+ {
+  "seg": 166,
+  "start": 788.478,
+  "end": 789.779,
+  "speaker": "Unknown",
+  "en": "I can see the confidence score.",
+  "zh": "我可以看到置信度分数。"
+ },
+ {
+  "seg": 167,
+  "start": 790.239,
+  "end": 794.183,
+  "speaker": "Unknown",
+  "en": "So coming back from AI, what the model returned, I don't have to guess.",
+  "zh": "所以从 AI 返回的结果来看，模型返回了什么，我不需要去猜。"
+ },
+ {
+  "seg": 168,
+  "start": 794.343,
+  "end": 797.045,
+  "speaker": "Unknown",
+  "en": "It's 100% confident, 95% confidence.",
+  "zh": "它是 100% 确定的，95% 的置信度。"
+ },
+ {
+  "seg": 169,
+  "start": 797.385,
+  "end": 797.986,
+  "speaker": "Unknown",
+  "en": "Here's why.",
+  "zh": "原因在这里。"
+ },
+ {
+  "seg": 170,
+  "start": 798.026,
+  "end": 805.872,
+  "speaker": "Unknown",
+  "en": "So you can have a lot of confidence in the AI-ready data product that you guys are gonna be building.",
+  "zh": "所以你们将要构建的 AI 就绪数据产品是可以让人非常有信心的。"
+ },
+ {
+  "seg": 171,
+  "start": 810.376,
+  "end": 810.856,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 172,
+  "start": 813.497,
+  "end": 817.018,
+  "speaker": "Unknown",
+  "en": "And now finally, what we can do for delivery and maintenance.",
+  "zh": "现在最后，我们在交付和维护方面能做什么。"
+ },
+ {
+  "seg": 173,
+  "start": 817.058,
+  "end": 826.122,
+  "speaker": "Unknown",
+  "en": "So one other thing that's really important is with our data slice technology, we have workflows where you can put it on a set schedule so it's auto-refreshed.",
+  "zh": "另一件非常重要的事情是，通过我们的数据切片技术，我们有工作流可以把它设置为定期计划，从而自动刷新。"
+ },
+ {
+  "seg": 174,
+  "start": 826.602,
+  "end": 829.383,
+  "speaker": "Unknown",
+  "en": "So you want to make sure that your chatbot never gets stale.",
+  "zh": "这样你就能确保你的聊天机器人永不过时。"
+ },
+ {
+  "seg": 175,
+  "start": 829.443,
+  "end": 838.766,
+  "speaker": "Unknown",
+  "en": "So if there's new records, or sorry, new files that get added to SharePoint or deleted, we'll automatically pick those up and add those on a set schedule to my",
+  "zh": "所以如果有新记录，或者说，有新文件被添加到 SharePoint 或被删除，我们会按设定的计划自动获取它们并添加到我的"
+ },
+ {
+  "seg": 176,
+  "start": 841.188,
+  "end": 843.953,
+  "speaker": "Unknown",
+  "en": "to my data slice or my AI ready data product.",
+  "zh": "我的数据切片或我的 AI 就绪数据产品中。"
+ },
+ {
+  "seg": 177,
+  "start": 844.214,
+  "end": 846.658,
+  "speaker": "Unknown",
+  "en": "And then our SDK will pick that up in the chat bot.",
+  "zh": "然后我们的 SDK 会在聊天机器人中获取到这些更新。"
+ },
+ {
+  "seg": 178,
+  "start": 847.039,
+  "end": 851.728,
+  "speaker": "Unknown",
+  "en": "And then when we load the Victor database, you'll always have the most freshest metadata.",
+  "zh": "然后当我们加载向量数据库时，你始终会拥有最新的元数据。"
+ },
+ {
+  "seg": 179,
+  "start": 854.334,
+  "end": 855.735,
+  "speaker": "Unknown",
+  "en": "So what's it mean for North River?",
+  "zh": "那么这对 North River 意味着什么？"
+ },
+ {
+  "seg": 180,
+  "start": 856.355,
+  "end": 861.018,
+  "speaker": "Unknown",
+  "en": "So basically, they were able to go from four months of data prep work to down to days.",
+  "zh": "基本上，他们能够把四个月的数据准备工作缩短到几天。"
+ },
+ {
+  "seg": 181,
+  "start": 861.719,
+  "end": 878.59,
+  "speaker": "Unknown",
+  "en": "They were able to increase their data utilization for AI, increase their chatbot accuracy, because they not only were able to figure out which files to use, but also the metadata from the files, they were able to inject that and leverage that through our SDK in their chatbot.",
+  "zh": "他们能够提高 AI 的数据利用率，提高聊天机器人的准确度，因为他们不仅能够弄清楚该使用哪些文件，还能利用文件中的元数据，通过我们的 SDK 注入并应用到他们的聊天机器人中。"
+ },
+ {
+  "seg": 182,
+  "start": 879.51,
+  "end": 882.271,
+  "speaker": "Unknown",
+  "en": "And then the other thing they did was they reduced their compliance risk.",
+  "zh": "然后他们做的另一件事是降低了合规风险。"
+ },
+ {
+  "seg": 183,
+  "start": 882.711,
+  "end": 890.233,
+  "speaker": "Unknown",
+  "en": "They knew where all the sensitive data is and they made sure that they were not part of, they were all filtered out in their data slides.",
+  "zh": "他们知道所有敏感数据在哪里，并确保它们不会被包含在内，它们都在他们的数据切片中被过滤掉了。"
+ },
+ {
+  "seg": 184,
+  "start": 892.214,
+  "end": 898.716,
+  "speaker": "Unknown",
+  "en": "Okay, so I'm going to turn it over to my brother from another mother, Leo, and he's going to talk about context.",
+  "zh": "好，那么我现在把它交给我失散多年的兄弟 Leo，他将谈一下上下文。"
+ },
+ {
+  "seg": 185,
+  "start": 900.147,
+  "end": 900.347,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 186,
+  "start": 901.067,
+  "end": 902.227,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 187,
+  "start": 902.788,
+  "end": 905.988,
+  "speaker": "Unknown",
+  "en": "I just wanted to basically give this so what.",
+  "zh": "我基本上就是想给出一个“所以呢”。"
+ },
+ {
+  "seg": 188,
+  "start": 906.288,
+  "end": 913.13,
+  "speaker": "Unknown",
+  "en": "Technically, you deduplicate your data, you reduce your search space, you clean it up, you have it fresh.",
+  "zh": "从技术上讲，你对数据做了去重，缩小了搜索空间，做了清理，并保持新鲜。"
+ },
+ {
+  "seg": 189,
+  "start": 913.47,
+  "end": 914.53,
+  "speaker": "Unknown",
+  "en": "What does it actually mean?",
+  "zh": "这实际上意味着什么？"
+ },
+ {
+  "seg": 190,
+  "start": 915.171,
+  "end": 925.013,
+  "speaker": "Unknown",
+  "en": "So if we were looking at the vector space, when you ask a question, it comes in and you have duplicated data, the same information, or potentially even",
+  "zh": "所以如果我们看向量空间，当你提出一个问题时，它进来了，而你有重复的数据、相同的信息，或者甚至可能"
+ },
+ {
+  "seg": 191,
+  "start": 925.933,
+  "end": 929.66,
+  "speaker": "Unknown",
+  "en": "A different version of the document with conflicting information now.",
+  "zh": "是同一文档的不同版本，带有相互冲突的信息。"
+ },
+ {
+  "seg": 192,
+  "start": 929.84,
+  "end": 931.123,
+  "speaker": "Unknown",
+  "en": "Think of your Slack messages.",
+  "zh": "想想你的 Slack 消息。"
+ },
+ {
+  "seg": 193,
+  "start": 931.383,
+  "end": 934.589,
+  "speaker": "Unknown",
+  "en": "Today a person says this, tomorrow a person says that.",
+  "zh": "今天一个人这么说，明天一个人又那么说。"
+ },
+ {
+  "seg": 194,
+  "start": 934.79,
+  "end": 936.292,
+  "speaker": "Unknown",
+  "en": "The truth changes over time.",
+  "zh": "真相会随时间变化。"
+ },
+ {
+  "seg": 195,
+  "start": 937.537,
+  "end": 946.605,
+  "speaker": "Unknown",
+  "en": "If it stays, however, in your knowledge base, in your search base, your top K will always be full of pretty much irrelevant information.",
+  "zh": "然而，如果它留在你的知识库、你的搜索库中，你的 top K 将总是充满几乎无关的信息。"
+ },
+ {
+  "seg": 196,
+  "start": 947.966,
+  "end": 961.978,
+  "speaker": "Unknown",
+  "en": "So in DZ, for example, something which is considered duplicative is either another piece of context, like your database has changed and I can actually use it, or it is simply redundant and we will remove it from the knowledge base.",
+  "zh": "所以以 DZ 为例，被认为重复的内容，要么是另一段上下文，比如你的数据库已经变了而我可以实际使用它，要么它就是纯粹多余的，我们会把它从知识库中移除。"
+ },
+ {
+  "seg": 197,
+  "start": 964.38,
+  "end": 965.441,
+  "speaker": "Unknown",
+  "en": "The second piece is like,",
+  "zh": "第二点是，"
+ },
+ {
+  "seg": 198,
+  "start": 966.559,
+  "end": 968.34,
+  "speaker": "Unknown",
+  "en": "Same reason as before.",
+  "zh": "和之前同样的原因。"
+ },
+ {
+  "seg": 199,
+  "start": 968.76,
+  "end": 988.325,
+  "speaker": "Unknown",
+  "en": "If your information is old, right, if you suddenly are working with data from before the 2000s, if you're working with information which was only relevant last week is not relevant this week, in the future, some of the use cases when agents actually get into production for, let's call it, the most high-stakes use cases, that has detrimental effects.",
+  "zh": "如果你的信息是旧的，对吧，如果你突然在处理 2000 年代之前的数据，如果你在处理上周才相关而这周已不相关的信息，那么将来，当智能体真正进入生产环境的某些用例中——让我们称之为最高风险的用例——那会产生有害影响。"
+ },
+ {
+  "seg": 200,
+  "start": 990.379,
+  "end": 1006.689,
+  "speaker": "Unknown",
+  "en": "And we have done a lot of evaluation around what is the effect of making sure that your unstructured data quality is maintained, is consistent, and is always handled deterministically in the same way.",
+  "zh": "我们围绕“确保非结构化数据质量得到维护、保持一致、并且始终以确定性的相同方式处理”会产生什么效果，做了大量评估。"
+ },
+ {
+  "seg": 201,
+  "start": 1008.67,
+  "end": 1013.633,
+  "speaker": "Unknown",
+  "en": "And what we're essentially seeing is that if your raw corpus",
+  "zh": "我们基本上看到的是，如果你的原始语料库"
+ },
+ {
+  "seg": 202,
+  "start": 1014.599,
+  "end": 1021.827,
+  "speaker": "Unknown",
+  "en": "Okay, let's imagine you have a thousand files and 30% of your files are stale or duplicative.",
+  "zh": "好，假设你有一千个文件，其中 30% 的文件是过时的或重复的。"
+ },
+ {
+  "seg": 203,
+  "start": 1022.628,
+  "end": 1030.657,
+  "speaker": "Unknown",
+  "en": "It can happen that up to 80% of your actual context your agent uses to answer a question is filled up with stale information.",
+  "zh": "那么有可能你的智能体用来回答问题的实际上下文中有高达 80% 被过时信息填满。"
+ },
+ {
+  "seg": 204,
+  "start": 1032.565,
+  "end": 1040.791,
+  "speaker": "Unknown",
+  "en": "Which means it actually uses 80% of completely redundant, useless information and knowledge.",
+  "zh": "这意味着它实际上使用了 80% 完全冗余、无用的信息和知识。"
+ },
+ {
+  "seg": 205,
+  "start": 1041.051,
+  "end": 1043.333,
+  "speaker": "Unknown",
+  "en": "And this has to be managed.",
+  "zh": "这是必须加以管理的。"
+ },
+ {
+  "seg": 206,
+  "start": 1043.693,
+  "end": 1049.197,
+  "speaker": "Unknown",
+  "en": "What we have seen is that by running on the exact same tasks, so this is a RAG chatbot.",
+  "zh": "我们看到的是，通过运行完全相同的任务，也就是这是一个 RAG 聊天机器人。"
+ },
+ {
+  "seg": 207,
+  "start": 1049.257,
+  "end": 1055.561,
+  "speaker": "Unknown",
+  "en": "It's not running an actual, let's say, Claude Code task or Codex on a coding task.",
+  "zh": "它不是在运行实际的，比如说，Claude Code 任务或在编码任务上运行 Codex。"
+ },
+ {
+  "seg": 208,
+  "start": 1055.942,
+  "end": 1058.864,
+  "speaker": "Unknown",
+  "en": "It was simply multi-hop RAG evaluation.",
+  "zh": "它只是多跳 RAG 评估。"
+ },
+ {
+  "seg": 209,
+  "start": 1060.428,
+  "end": 1073.687,
+  "speaker": "Unknown",
+  "en": "And what we saw is that if we look at recall one, I mean, we pretty much double the recall and overall improve our accuracies of task completion between 10% and 15%.",
+  "zh": "我们看到的是，如果我们看召回率第一，我的意思是，我们几乎把召回率翻了一倍，并且整体上把任务完成的准确率提高了 10% 到 15%。"
+ },
+ {
+  "seg": 210,
+  "start": 1075.832,
+  "end": 1077.272,
+  "speaker": "Unknown",
+  "en": "And why is this so significant?",
+  "zh": "为什么这如此重要？"
+ },
+ {
+  "seg": 211,
+  "start": 1077.492,
+  "end": 1081.954,
+  "speaker": "Unknown",
+  "en": "This is so significant because this has nothing to do with the use case you're working with.",
+  "zh": "这之所以如此重要，是因为这与你正在处理的用例完全无关。"
+ },
+ {
+  "seg": 212,
+  "start": 1082.254,
+  "end": 1088.235,
+  "speaker": "Unknown",
+  "en": "This is true independent of what you're actually using the data for, right?",
+  "zh": "无论你实际上把数据用于什么，这一点都成立，对吧？"
+ },
+ {
+  "seg": 213,
+  "start": 1088.696,
+  "end": 1095.397,
+  "speaker": "Unknown",
+  "en": "Because if you actually know what you want to use your data for, you can apply relevancy and all not other data quality dimensions, right?",
+  "zh": "因为如果你真的知道你想把数据用于什么，你可以应用相关性以及其他所有数据质量维度，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 1095.698,
+  "end": 1098.158,
+  "speaker": "Unknown",
+  "en": "But duplication and freshness is true no matter what.",
+  "zh": "但重复性和新鲜度无论如何都成立。"
+ },
+ {
+  "seg": 215,
+  "start": 1101.941,
+  "end": 1106.784,
+  "speaker": "Unknown",
+  "en": "Yesterday, there was a lot of context topic, a lot of context flags around here.",
+  "zh": "昨天，这里有很多关于上下文的话题，很多关于上下文的讨论。"
+ },
+ {
+  "seg": 216,
+  "start": 1108.925,
+  "end": 1116.389,
+  "speaker": "Unknown",
+  "en": "I wanted to give a very, very quick demo on how you would use the DZ SDK to prepare a context repository.",
+  "zh": "我想非常非常快速地演示一下你会如何使用 DZ SDK 来准备一个上下文仓库。"
+ },
+ {
+  "seg": 217,
+  "start": 1117.01,
+  "end": 1118.31,
+  "speaker": "Unknown",
+  "en": "And I'm going to run this live.",
+  "zh": "我将现场运行这个。"
+ },
+ {
+  "seg": 218,
+  "start": 1119.171,
+  "end": 1126.115,
+  "speaker": "Unknown",
+  "en": "So what this is doing is essentially it's going to fetch all of the metadata we have about a given SharePoint site.",
+  "zh": "所以这个所做的基本上是，它会获取我们拥有的关于某个给定 SharePoint 网站的所有元数据。"
+ },
+ {
+  "seg": 219,
+  "start": 1126.595,
+  "end": 1144.758,
+  "speaker": "Unknown",
+  "en": "And we will then contextualize each folder within that SharePoint site, as well as create an index over all folders so that your Claude Code, for example, or your Codex does not even have to look at the individual files to figure out what to look for, but simply looks at the context MD file.",
+  "zh": "然后我们会对该 SharePoint 网站中的每个文件夹进行上下文化，并在所有文件夹之上创建一个索引，这样你的 Claude Code，比如，或者你的 Codex 甚至不必查看单个文件来弄清楚该找什么，而只需查看 context MD 文件。"
+ },
+ {
+  "seg": 220,
+  "start": 1146.319,
+  "end": 1152.44,
+  "speaker": "Unknown",
+  "en": "So what you're seeing here is essentially, really by using DZ, you can curate",
+  "zh": "所以你在这里看到的本质上是，真的通过使用 DZ，你可以策展"
+ },
+ {
+  "seg": 221,
+  "start": 1153.528,
+  "end": 1161.392,
+  "speaker": "Unknown",
+  "en": "Context files where you are directly aware what exactly is within each folder, right?",
+  "zh": "上下文文件，让你直接知道每个文件夹里到底有什么，对吧？"
+ },
+ {
+  "seg": 222,
+  "start": 1161.832,
+  "end": 1163.813,
+  "speaker": "Unknown",
+  "en": "What is its purpose, right?",
+  "zh": "它的用途是什么，对吧？"
+ },
+ {
+  "seg": 223,
+  "start": 1164.313,
+  "end": 1165.293,
+  "speaker": "Unknown",
+  "en": "When do you want to use it?",
+  "zh": "你什么时候想使用它？"
+ },
+ {
+  "seg": 224,
+  "start": 1165.713,
+  "end": 1168.455,
+  "speaker": "Unknown",
+  "en": "So, for example, this is one-to-one the mirror.",
+  "zh": "所以，比如，这就是一对一的镜像。"
+ },
+ {
+  "seg": 225,
+  "start": 1169.495,
+  "end": 1171.597,
+  "speaker": "Unknown",
+  "en": "of what I actually have in SharePoint.",
+  "zh": "镜像了我实际在 SharePoint 中拥有的内容。"
+ },
+ {
+  "seg": 226,
+  "start": 1172.217,
+  "end": 1185.948,
+  "speaker": "Unknown",
+  "en": "But now instead of actually looking at these 23 files, figure out whether I even should look at this folder, I know exactly what document types I have, what it is about, what are the key topics, when to use this folder, and what are example questions.",
+  "zh": "但现在不用实际查看这 23 个文件、弄清楚我到底是否应该看这个文件夹，我确切地知道我有哪些文档类型、它是关于什么的、关键主题是什么、什么时候使用这个文件夹，以及有哪些示例问题。"
+ },
+ {
+  "seg": 227,
+  "start": 1188.307,
+  "end": 1193.19,
+  "speaker": "Unknown",
+  "en": "So this is all the kinds of use cases today, right?",
+  "zh": "所以这就是今天的所有这类用例，对吧？"
+ },
+ {
+  "seg": 228,
+  "start": 1193.67,
+  "end": 1203.395,
+  "speaker": "Unknown",
+  "en": "How you can use Deasy for use cases like your Rack Chatbot or use Deasy to actually improve the performance and reduce, for example, the token cost for your agents.",
+  "zh": "你如何将 Deasy 用于像你的 RAG 聊天机器人这样的用例，或者使用 Deasy 来实际提升性能并降低，比如，你的智能体的 token 成本。"
+ },
+ {
+  "seg": 229,
+  "start": 1204.696,
+  "end": 1209.719,
+  "speaker": "Unknown",
+  "en": "But yeah, basically, I'll move over to Jeff again to summarize this whole presentation.",
+  "zh": "不过是的，基本上，我会交给 Jeff 再次来总结整个演示。"
+ },
+ {
+  "seg": 230,
+  "start": 1212.081,
+  "end": 1212.642,
+  "speaker": "Unknown",
+  "en": "Thanks, Leo.",
+  "zh": "谢谢，Leo。"
+ },
+ {
+  "seg": 231,
+  "start": 1213.602,
+  "end": 1217.105,
+  "speaker": "Unknown",
+  "en": "All right, so guys, we're almost out of time.",
+  "zh": "好了，各位，我们的时间差不多了。"
+ },
+ {
+  "seg": 232,
+  "start": 1217.686,
+  "end": 1220.528,
+  "speaker": "Unknown",
+  "en": "Our booth is way in the back by stage two.",
+  "zh": "我们的展位在后面很远处，二号舞台旁边。"
+ },
+ {
+  "seg": 233,
+  "start": 1220.989,
+  "end": 1221.75,
+  "speaker": "Unknown",
+  "en": "Please come by.",
+  "zh": "请过来逛逛。"
+ },
+ {
+  "seg": 234,
+  "start": 1222.887,
+  "end": 1225.348,
+  "speaker": "Unknown",
+  "en": "Bring any different use cases that you guys have.",
+  "zh": "带上你们拥有的任何不同的用例。"
+ },
+ {
+  "seg": 235,
+  "start": 1226.128,
+  "end": 1232.871,
+  "speaker": "Unknown",
+  "en": "We're happy to have discussions, do live demos, talk about what your challenges are around unstructured documents.",
+  "zh": "我们很乐意进行讨论、做现场演示、聊聊你们在非结构化文档方面遇到的挑战。"
+ },
+ {
+  "seg": 236,
+  "start": 1233.851,
+  "end": 1242.014,
+  "speaker": "Unknown",
+  "en": "Over here, before we leave, just want to let you guys know we have one-week POCs, so we're happy to prove our technology.",
+  "zh": "在这里，在我们离开之前，只是想让你们知道我们有为期一周的 POC，所以我们很乐意证明我们的技术。"
+ },
+ {
+  "seg": 237,
+  "start": 1242.874,
+  "end": 1245.315,
+  "speaker": "Unknown",
+  "en": "Again, you guys bring your business problem,",
+  "zh": "再说一次，你们带来你们的业务问题，"
+ },
+ {
+  "seg": 238,
+  "start": 1246.316,
+  "end": 1251.059,
+  "speaker": "Unknown",
+  "en": "You're trying to solve with AI, bring some sample data, a bunch of different files.",
+  "zh": "你们想用 AI 解决的问题，带一些样本数据，一堆不同的文件。"
+ },
+ {
+  "seg": 239,
+  "start": 1251.399,
+  "end": 1255.102,
+  "speaker": "Unknown",
+  "en": "And then what we can do is we can generate metadata for each different files.",
+  "zh": "然后我们能做的是，我们可以为每个不同的文件生成元数据。"
+ },
+ {
+  "seg": 240,
+  "start": 1256.362,
+  "end": 1260.886,
+  "speaker": "Unknown",
+  "en": "We could get a full sensitivity report on your data, data quality report as well.",
+  "zh": "我们可以为你的数据提供完整的敏感性报告，以及数据质量报告。"
+ },
+ {
+  "seg": 241,
+  "start": 1261.286,
+  "end": 1268.151,
+  "speaker": "Unknown",
+  "en": "And then we'll show you how we can build a full taxonomy based on your specific use cases, your specific files.",
+  "zh": "然后我们会向你展示我们如何基于你的特定用例、你的特定文件构建完整的分类体系。"
+ },
+ {
+  "seg": 242,
+  "start": 1268.791,
+  "end": 1272.894,
+  "speaker": "Unknown",
+  "en": "So with that, everybody appreciate you guys spending time with us.",
+  "zh": "那么，各位，感谢你们花时间与我们在一起。"
+ },
+ {
+  "seg": 243,
+  "start": 1273.074,
+  "end": 1273.714,
+  "speaker": "Unknown",
+  "en": "And lastly,",
+  "zh": "最后，"
+ },
+ {
+  "seg": 244,
+  "start": 1274.695,
+  "end": 1277.359,
+  "speaker": "Unknown",
+  "en": "We only have one more case of these hats, so come on by and grab them.",
+  "zh": "我们只剩下一箱这种帽子了，所以快过来拿吧。"
+ },
+ {
+  "seg": 245,
+  "start": 1277.9,
+  "end": 1278.861,
+  "speaker": "Unknown",
+  "en": "So we'll be out in the back.",
+  "zh": "我们会在后面。"
+ },
+ {
+  "seg": 246,
+  "start": 1278.901,
+  "end": 1279.482,
+  "speaker": "Unknown",
+  "en": "Thanks, guys.",
+  "zh": "谢谢，各位。"
+ },
+ {
+  "seg": 247,
+  "start": 1279.502,
+  "end": 1280.103,
+  "speaker": "Unknown",
+  "en": "Appreciate you.",
+  "zh": "感谢你们。"
+ }
+]

@@ -1,0 +1,149 @@
+{
+  "title_zh": "从40份文件到8万份文件:企业AI落地卡在哪",
+  "tldr": "Collibra收购的DZ Labs两位工程师,用一个制造企业的案例讲清AI项目从试点走向生产的数据难题。",
+  "digest_md": "很多公司的AI项目都卡在同一个地方：小规模试点很顺利，一到真实规模就崩。Jeff Koss和Leo Platzer来自DZ Labs,这场演讲用一家虚构但典型的制造企业，拆解了非结构化数据是怎么拖垮企业聊天机器人的。\n\n> 【背景】DZ Labs 于去年夏天被数据治理公司 Collibra 收购。\n\n## 为什么40个文件的演示很容易,8万个文件就完蛋?\n\n他们的示例公司North River Manufacturing有4万名员工,分布在20个国家,SharePoint里堆了多年积累的数百万份文档。今年的目标是做一个法律运营聊天机器人,让法务和采购团队实时查询:某个供应商的终止条款是什么?哪些协议本季度到期?[02:14 Jeff Koss?]\n\n团队先拿40份精心挑选的文件做了试点:解析、分块、文字识别、向量化,效果不错。但一放大到8万多份文件,问题全来了:找不到需要的文件,不知道敏感数据藏在哪,SharePoint上的数据质量没法信。结果是聊天机器人回答错误、敏感信息泄露、上线遥遥无期。[04:06 Jeff Koss?]\n\nJeff举了另一家电信公司的例子:六七个领域专家人工整理2万个网页文件,根本忙不过来。\n\n## AI打标签:让机器先搞清楚每个文件是什么\n\nDZ的做法是给文件自动生成元数据。演示中,他们把339份文件导入系统,然后建一个分类树——可以手动定义标签,可以让AI自动建议标签,还能通过提示词告诉大模型该怎么判断每个文件。[07:24 Jeff Koss?]\n\n更聪明的是条件分支:只有被判定为法律和合同的文件,才进一步提取合同类型——是供应商合同、保密协议还是工料合同。AI打完标签还会给出证据:它在文档哪个位置找到了判断依据,置信度是100%还是95%。人不满意可以点赞点踩,随时纠正。[09:48 Jeff Koss?]\n\n**靠几个过滤器,他们把339份文件快速筛到20份**。系统还能扫描敏感信息——不只个人信息,他们甚至在演示中现场配置了芬兰国民身份号的识别,连芬兰语的相关词汇都自动加上了,减少误报。[10:14 Jeff Koss?]\n\n## 脏数据的真正代价:80%的上下文可能是垃圾\n\nLeo的部分回答了一个关键问题:==数据清洗到底值多少钱==?\n\n他把向量检索比作Slack消息:今天有人这么说,明天有人那么说,真相随时间变化。如果过期版本留在知识库里,检索出来的前几条结果全是无关信息。[15:29 Leo?]\n\n他给出的数字很惊人:假设你有1000份文件,其中30%是过期或重复的,那么智能体回答问题时用到的上下文,最多可能有80%被这些无用信息占据。[16:54 Leo?]\n\n在同样的检索问答任务上做评测,清理数据后召回率几乎翻倍,任务完成的准确率提升10%到15%。Leo强调,这个提升和具体应用场景无关——**去重和保鲜是万能药**。[17:40 Leo?]\n\n## 给AI智能体写地图,省下翻文件的力气\n\nLeo还现场演示了一个新玩法:用DZ的软件开发工具包给整个SharePoint站点生成一份上下文清单。每个文件夹配一份说明文件,写清楚里面有什么类型的文档、关键主题是什么、什么时候该用这个文件夹、可以问哪些问题。[19:24 Leo?]\n\n这样一来,**Claude Code或Codex这类编程智能体不用一个个打开文件去猜,看一眼清单就知道该去哪找**。这也顺带降低了智能体的计算开销。\n\n## 数据准备好了,还得一直保持新鲜\n\n最后一个容易忽视的环节是维护。DZ的数据切片可以按计划自动刷新:SharePoint上有新文件加入或旧文件删除,系统会定时同步到数据产品和向量数据库里,保证聊天机器人不会用着过期知识。[13:37 Jeff Koss?]\n\n对North River这样的公司,效果是**数据准备时间从4个月压缩到几天**,聊天机器人准确率提升,合规风险也降了——敏感数据在哪里一清二楚,上线前全部过滤掉。\n\n## 本集带走\n\n- AI试点成功的最大杀手是规模:40份文件和8万份文件是完全不同的工程问题。\n- 30%的脏数据可能污染智能体80%的上下文;去重和保鲜与具体场景无关,是普适的提升手段。\n- 清理后,检索召回率几乎翻倍,任务准确率提升10%–15%。\n- 给文件夹写机器可读的上下文说明,能大幅降低智能体的搜索开销。\n- 数据不是一次性准备好就完事,需要定时自动刷新,否则聊天机器人很快过期。",
+  "quotes": [
+    {
+      "en": "It can happen that up to 80% of your actual context your agent uses to answer a question is filled up with stale information.",
+      "zh": "那么有可能你的智能体用来回答问题的实际上下文中有高达 80% 被过时信息填满。",
+      "timestamp": "17:02",
+      "speaker": "Leo Platzer"
+    },
+    {
+      "en": "Which means it actually uses 80% of completely redundant, useless information and knowledge.",
+      "zh": "这意味着它实际上使用了 80% 完全冗余、无用的信息和知识。",
+      "timestamp": "17:12",
+      "speaker": "Leo Platzer"
+    },
+    {
+      "en": "And what we saw is that if we look at recall one, I mean, we pretty much double the recall and overall improve our accuracies of task completion between 10% and 15%.",
+      "zh": "我们看到的是，看召回率第一的话，我们几乎把召回率翻了一倍，并且整体上把任务完成的准确率提高了 10% 到 15%。",
+      "timestamp": "17:40",
+      "speaker": "Leo Platzer"
+    },
+    {
+      "en": "They're spending too much time looking for the files instead of writing code and doing things that they really like to do.",
+      "zh": "他们花太多时间找文件，而不是写代码、做自己真正喜欢做的事。",
+      "timestamp": "05:18",
+      "speaker": "Jeff Koss"
+    },
+    {
+      "en": "So basically, they were able to go from four months of data prep work to down to days.",
+      "zh": "基本上，他们能够把四个月的数据准备工作缩短到几天。",
+      "timestamp": "14:16",
+      "speaker": "Jeff Koss"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "15:31",
+      "speaker": "Unknown",
+      "en": "Today a person says this, tomorrow a person says that. The truth changes over time.",
+      "zh": "今天一个人这么说，明天一个人又那么说。真相会随时间变化。"
+    },
+    {
+      "timestamp": "15:37",
+      "speaker": "Unknown",
+      "en": "If it stays, however, in your knowledge base, in your search base, your top K will always be full of pretty much irrelevant information.",
+      "zh": "然而，如果它留在你的知识库、你的搜索库中，你的 top K 将总是充满几乎无关的信息。"
+    },
+    {
+      "timestamp": "17:02",
+      "speaker": "Unknown",
+      "en": "It can happen that up to 80% of your actual context your agent uses to answer a question is filled up with stale information.",
+      "zh": "那么有可能你的智能体用来回答问题的实际上下文中有高达 80% 被过时信息填满。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Unknown",
+      "en": "Which means it actually uses 80% of completely redundant, useless information and knowledge.",
+      "zh": "这意味着它实际上使用了 80% 完全冗余、无用的信息和知识。"
+    },
+    {
+      "timestamp": "17:40",
+      "speaker": "Unknown",
+      "en": "And what we saw is that if we look at recall one, I mean, we pretty much double the recall and overall improve our accuracies of task completion between 10% and 15%.",
+      "zh": "我们看到的是，看召回率第一的话，我们几乎把召回率翻了一倍，并且整体上把任务完成的准确率提高了 10% 到 15%。"
+    },
+    {
+      "timestamp": "17:57",
+      "speaker": "Unknown",
+      "en": "This is so significant because this has nothing to do with the use case you're working with.",
+      "zh": "这之所以如此重要，是因为这与你正在处理的用例完全无关。"
+    },
+    {
+      "timestamp": "18:15",
+      "speaker": "Unknown",
+      "en": "But duplication and freshness is true no matter what.",
+      "zh": "但重复性和新鲜度无论如何都成立。"
+    },
+    {
+      "timestamp": "16:08",
+      "speaker": "Unknown",
+      "en": "If your information is old, right, if you suddenly are working with data from before the 2000s, if you're working with information which was only relevant last week is not relevant this week, in the future, some of the use cases when agents actually get into production for, let's call it, the most high-stakes use cases, that has detrimental effects.",
+      "zh": "如果你的信息是旧的，对吧，如果你突然在处理 2000 年代之前的数据，如果你在处理上周才相关而这周已不相关的信息，那么将来，当智能体真正进入最高风险的生产用例时，那会产生有害影响。"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Unknown",
+      "en": "But when they try to do it with many, many different files, with 80,000 plus files, now all of a sudden, it's a little bit more challenging.",
+      "zh": "但当他们尝试用很多很多文件、超过 80,000 个文件来做时，突然间就变得更有挑战性了。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "They're spending too much time looking for the files instead of writing code and doing things that they really like to do.",
+      "zh": "他们花太多时间找文件，而不是写代码、做自己真正喜欢做的事。"
+    },
+    {
+      "timestamp": "05:26",
+      "speaker": "Unknown",
+      "en": "I'm working with another telecommunications company and they have six to seven different SMEs and they're trying to curate 20,000 HTML files and they can't keep up, right?",
+      "zh": "我正在与另一家电信公司合作，他们有六七位不同的领域专家，试图整理 20,000 个 HTML 文件，但他们跟不上，对吧？"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Unknown",
+      "en": "So basically, they were able to go from four months of data prep work to down to days.",
+      "zh": "基本上，他们能够把四个月的数据准备工作缩短到几天。"
+    },
+    {
+      "timestamp": "18:46",
+      "speaker": "Unknown",
+      "en": "And we will then contextualize each folder within that SharePoint site, as well as create an index over all folders so that your Claude Code, for example, or your Codex does not even have to look at the individual files to figure out what to look for, but simply looks at the context MD file.",
+      "zh": "然后我们会对该 SharePoint 网站中的每个文件夹进行上下文化，并在所有文件夹之上创建一个索引，这样你的 Claude Code 或 Codex 甚至不必查看单个文件来弄清楚该找什么，而只需查看 context MD 文件。"
+    },
+    {
+      "timestamp": "19:32",
+      "speaker": "Unknown",
+      "en": "But now instead of actually looking at these 23 files, figure out whether I even should look at this folder, I know exactly what document types I have, what it is about, what are the key topics, when to use this folder, and what are example questions.",
+      "zh": "但现在不用实际查看这 23 个文件、弄清楚我到底是否应该看这个文件夹，我确切地知道我有哪些文档类型、它是关于什么的、关键主题是什么、什么时候使用这个文件夹，以及有哪些示例问题。"
+    },
+    {
+      "timestamp": "17:55",
+      "speaker": "Unknown",
+      "en": "And why is this so significant?",
+      "zh": "为什么这如此重要？"
+    },
+    {
+      "timestamp": "15:06",
+      "speaker": "Unknown",
+      "en": "Technically, you deduplicate your data, you reduce your search space, you clean it up, you have it fresh.",
+      "zh": "从技术上讲，你对数据做了去重，缩小了搜索空间，做了清理，并保持新鲜。"
+    },
+    {
+      "timestamp": "13:46",
+      "speaker": "Unknown",
+      "en": "So you want to make sure that your chatbot never gets stale.",
+      "zh": "这样你就能确保你的聊天机器人永不过时。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "And they want to enrich their chatbot with the metadata that they've tagged.",
+      "zh": "而且他们想用已打好的元数据标签来丰富他们的聊天机器人。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个特别扎心的问题:为什么很多公司的AI项目,小规模试点做得挺好,一到真实规模就彻底崩了?\n\n先说说今天的主角。Jeff Koss和Leo Platzer来自一家叫DZ Labs的公司,这家公司去年夏天被数据治理领域的老牌公司Collibra收购了。这期内容,是他们用一家虚构但非常典型的制造企业做例子,拆解企业AI落地到底卡在哪。这家虚构的公司叫North River Manufacturing,四万名员工,分布在二十个国家,SharePoint里堆着多年积累下来的数百万份文档。今年的目标,是做一个法律运营聊天机器人,让法务和采购团队实时查询问题,比如某个供应商的终止条款是什么,哪些协议本季度到期。\n\n团队是这么起步的:先挑了四十份精心挑选的文件做试点。解析、分块、文字识别、向量化,一套流程走下来,效果不错。但问题来了——当文件量从四十份放大到八万多份,一切都变了:找不到需要的文件,不知道敏感数据藏在哪,SharePoint上的数据质量根本没法信。结果就是聊天机器人答非所问、敏感信息泄露,上线遥遥无期。\n\n这不是个例。Jeff还举了另一家电信公司的例子:六七个领域专家,人工整理两万个网页文件,根本忙不过来。你看,问题的本质是,四十份文件和八万份文件,完全是两个不同的工程问题。\n\n那怎么办?DZ的做法,是给文件自动生成元数据。说白了,就是让机器先搞清楚每一份文件到底是什么。演示中,他们把三百三十九份文件导入系统,然后建一棵分类树。这棵树可以手动定义标签,可以让AI自动建议标签,还能通过提示词告诉大模型该怎么判断每个文件。\n\n这里面有个很聪明的设计,叫条件分支:只有被判定为法律和合同的文件,才进一步提取合同类型——是供应商合同、保密协议,还是工料合同。AI打完标签还会给出证据,告诉你在文档哪个位置找到了判断依据,置信度是百分之百还是百分之九十五。人不满意,点个赞或者点个踩,随时纠正。靠几个过滤器,三百三十九份文件很快就筛到只剩二十份。系统还能扫描敏感信息,不只是个人信息,他们甚至在演示中现场配置了芬兰国民身份号的识别,连芬兰语的相关词汇都自动加上,减少误报。\n\n好,讲到这你可能会问:花这么大力气清洗数据,到底值多少钱?这正是Leo要回答的问题。\n\n打了个比方:向量检索有点像Slack消息,今天有人这么说,明天有人那么说,真相是随时间变化的。如果过期版本还留在知识库里,检索出来的前几条结果,可能全是无关信息。具体有多严重?假设你有一千份文件,其中百分之三十是过期或重复的,那么智能体回答问题时用到的上下文,最多可能有百分之八十,被这些无用信息填满。也就是说,智能体实际上用的,大部分是冗余、无用的知识和信息。\n\n清洗之后效果如何?在同样的检索问答任务上做评测,召回率几乎翻了一倍,任务完成的准确率提升了百分之十到百分之十五。而且Leo特别强调,这个提升跟具体应用场景无关——去重和保鲜,是万能药。\n\n数据干净了,还能更进一步。Leo现场演示了一个新玩法:用DZ的软件开发工具包,给整个SharePoint站点生成一份上下文清单。每个文件夹配一份说明文件,写清楚里面有什么类型的文档、关键主题是什么、什么时候该用这个文件夹、可以问哪些问题。这样一来,Claude Code或者Codex这类编程智能体,就不用一个个打开文件去猜,看一眼清单就知道该去哪找,顺带还省下了大量的计算开销。\n\n最后一个容易被忽视的环节,是维护。数据不是一次性准备好就完事的。DZ的数据切片可以按计划自动刷新:SharePoint上有新文件加入或者旧文件删除,系统会定时同步到数据产品和向量数据库里,保证聊天机器人不会用着过期的知识。\n\n这一整套做下来,对North River这样的公司意味着什么?数据准备时间从四个月压缩到几天,聊天机器人准确率上去了,合规风险也降了——敏感数据在哪里一清二楚,上线前全部过滤掉。\n\n所以,如果你手上的AI项目试点顺利、上线无期,先别急着怀疑模型,回头看看数据:规模是不是上去了,脏数据是不是还在,知识是不是保鲜。数据准备这件事做到位了,四个月可以变成几天,这就是这一集最实在的一句话。"
+}

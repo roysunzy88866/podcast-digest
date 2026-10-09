@@ -123,8 +123,8 @@ Jörg 认为智能体和人类消费数据的方式有一个本质区别：人�
 **顺着「智能体」挖下去**
 
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同概念:LLM、RAG、向量数据库 (vector database)、智能体 (agent)、语义层 (semantic layer)、MCP</span>
+- [[2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo|从40份文件到8万份文件:企业AI落地卡在哪]]<span class="pd-rz">同概念:RAG、上下文 (context)、元数据 (metadata)、向量数据库 (vector database)、智能体 (agent)</span>
 - [[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工]]<span class="pd-rz">同公司:Nexus、Pinecone · 同概念:RAG、智能体 (agent)、NoQL</span>
-- [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|模型是租的，harness 才是你的：拆解智能体的七层框架]]<span class="pd-rz">同概念:RAG、智能体 (agent)、语义层 (semantic layer)、MCP</span>
 
 </div>
 <div class="pd-ex">

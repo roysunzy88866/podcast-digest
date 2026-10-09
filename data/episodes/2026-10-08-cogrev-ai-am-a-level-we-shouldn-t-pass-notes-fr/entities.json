@@ -1,0 +1,1023 @@
+{
+  "episode_id": "2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 基础设施",
+    "前沿实验室",
+    "智能体",
+    "芯片与算力",
+    "SaaS 与软件业"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "prakash-narayanan",
+      "type": "person",
+      "role": "host",
+      "name": "Prakash Narayanan",
+      "file": "Prakash Narayanan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            45.194,
+            48.495
+          ],
+          "quote": "Prakash Narayanan, my co-host, on what a ceiling would actually require.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "thomas-somers",
+      "type": "person",
+      "role": "cohost",
+      "name": "Thomas Somers",
+      "file": "Thomas Somers",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            57.213,
+            61.876
+          ],
+          "quote": "Thomas Somers, co-founder of Positron, which builds AI inference chips around memory.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1901.365,
+            1909.168
+          ],
+          "quote": "Thomas Somers is a co-founder of Positron, which builds chips for running AI models and recently raised $875 million.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "sean-wang",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sean Wang",
+      "file": "Sean Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            77.854,
+            82.297
+          ],
+          "quote": "Sean Wang, known as SWIX, who runs Latent Space and the AI Engineer Conferences.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2901.758,
+            2907.02
+          ],
+          "quote": "Sean Wang, known as SWIX, runs the Latent Space podcast and the AI engineer conferences.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "positron",
+      "type": "company",
+      "role": "company",
+      "name": "Positron",
+      "file": "Positron",
+      "primary": true,
+      "how_described": "本集说它是围绕内存构建 AI 推理芯片的芯片公司,刚融资 8.75 亿美元;第一代产品达到理论内存带宽 93% 的利用率,下一代芯片 Asimov 单颗装 2.3 TB 内存。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            57.213,
+            61.876
+          ],
+          "quote": "Thomas Somers, co-founder of Positron, which builds AI inference chips around memory.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1901.365,
+            1909.168
+          ],
+          "quote": "Thomas Somers is a co-founder of Positron, which builds chips for running AI models and recently raised $875 million.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1961.794,
+            1968.08
+          ],
+          "quote": "At the start of Positron, I did think that memory was going to be the limiting factor for things going forward, even though...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2149.406,
+            2151.566
+          ],
+          "quote": "Positron's next chip is called Asimov.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2667.931,
+            2672.517
+          ],
+          "quote": "I asked how Positron's spending on AI compares with its spending on people.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集多处谈到 Anthropic:它的 Claude 被用来生成 RL 环境间接蒸馏给其他公司;它融资演示文稿里『2026 年没人能追上』的旧预测被拿来对照现实;Claude 生成的垃圾代码成了绩效审查的话题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            810.76,
+            822.589
+          ],
+          "quote": "And this is in contrast to Anthropic's old prediction from their fundraising deck that I always think about when they said, you know, maybe in 2026-ish, the companies that train the best models will be so far ahead that nobody will be able to catch up.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 162,
+          "t": [
+            942.139,
+            944.38
+          ],
+          "quote": "Today's episode is brought to you by Anthropic.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1080.852,
+            1088.514
+          ],
+          "quote": "And I think Anthropic and OpenAI are both structuring for more like the two to three year mark, and they're looking at a 2028, 2029 AGI RSI.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集引用 Jensen Huang 的说法:NVIDIA 把约 20% 的精力花在芯片设计、80% 花在验证与测试上;其 GPU 在 transformer 解码时只能利用理论内存带宽的 30%-40%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1175.965,
+            1194.159
+          ],
+          "quote": "He said at NVIDIA, we spend like 20% of our effort on designing the chip and we spend 80% of the effort on verifying and validating and testing all the edge cases and making sure it's gonna last a long time and be reliable and all these other things that are not just the original design.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2052.118,
+            2070.687
+          ],
+          "quote": "So while NVIDIA GPUs, I would say, on average are getting between 30 and 40 percent memory bandwidth utilization in the actual decode forward pass of a transformer model, so basically that means even though they advertise, you know, eight terabytes per second of theoretical memory bandwidth with, you know, a B300,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2169.758,
+            2177.104
+          ],
+          "quote": "As reported by analysts, NVIDIA for the next generation is actually cutting down the memory capacity because of costs and everything involved.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2455.817,
+            2472.085
+          ],
+          "quote": "In a notable interview Jensen Huang recently gave with Ezra Klein, he talked about how NVIDIA spends something like 20% of its time and energy designing and then 80% verifying, validating, ensuring long lifespan, reliability, et cetera, et cetera.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "latent-space",
+      "type": "company",
+      "role": "company",
+      "name": "Latent Space",
+      "file": "Latent Space",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            77.854,
+            82.297
+          ],
+          "quote": "Sean Wang, known as SWIX, who runs Latent Space and the AI Engineer Conferences.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2901.758,
+            2907.02
+          ],
+          "quote": "Sean Wang, known as SWIX, runs the Latent Space podcast and the AI engineer conferences.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3794.372,
+            3799.595
+          ],
+          "quote": "There's a code on the Latent Space subscribers if you can dig in through your emails.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3803.097,
+            3807.679
+          ],
+          "quote": "If you're not a Latent Space subscriber, what are you doing, folks?",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:前沿实验室用上万个智能体去撞难题;Positron 创始人后台运行的智能体从 2-4 个涨到 15-20 个;智能体闭环操作芯片仿真机;编码智能体成了软件团队的主要用工方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            868.261,
+            876.569
+          ],
+          "quote": "Most engineers today closely follow new model releases, but don't pay nearly as much attention to their agent's most important tool, web search.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 155,
+          "t": [
+            886.044,
+            890.948
+          ],
+          "quote": "Before starting to use Parallel, I calculated that my agent search bill would total roughly $500 this year.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 159,
+          "t": [
+            921.232,
+            931.275
+          ],
+          "quote": "So, whether you're building voice agents that need 200-millisecond latency, or long-horizon agents that need deep research, adding Parallel to your agent's toolkit is a no-brainer.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1810.03,
+            1817.956
+          ],
+          "quote": "Before every recording, one agent researches the guest and sends me a suggested outline of questions, complete with links to all sources.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1818.816,
+            1823.5
+          ],
+          "quote": "Meanwhile, another agent scores the overwhelming number of pitches that I'm getting from PR firms.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1851.55,
+            1857.353
+          ],
+          "quote": "Each agent works with your tools and business context and remembers useful information across threads.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2569.808,
+            2584.219
+          ],
+          "quote": "But the fact that it went and looked up the documentation when we're looking at these agent traces, the reasoning traces and tool calls, et cetera, it's reading the full documentation, effectively compressing that itself by reading the PDFs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2819.268,
+            2826.433
+          ],
+          "quote": "Not sure, but just because in part why I actually think it's not going to be like the agent will come up with a better idea immediately.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            3060.53,
+            3064.012
+          ],
+          "quote": "Don't understand how to do more than one agent at a time.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3851.969,
+            3868.059
+          ],
+          "quote": "Probably the two things that I've been spending the most time on personally recently are what can or should be done around protecting critical infrastructure, especially from accidental agent swarms and also things like malicious use of open-weight models.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3922.02,
+            3931.471
+          ],
+          "quote": "So if your agent is talking to my agent, they can verify that this agent in fact is my agent, like your agent can verify this is Evan Measoma's agent.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4468.056,
+            4482.325
+          ],
+          "quote": "where we have these professional tasks where the agent is asked to produce a financial model and we migrated by checking does the financial model include this particular answer which we know is the correct answer.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "本集前沿实验室高管称预训练仍在持续见效、模型基础能力不断变强、没有明显停点,并讨论了对下一次预训练运行的 flops 设限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            31.53,
+            38.452
+          ],
+          "quote": "Would you be prepared to sign on to something like a limit on the number of flops that go into the next pre-training run?",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 64,
+          "t": [
+            349.856,
+            361.38
+          ],
+          "quote": "First of all was saying that just pre-training continues to deliver, that the models are just at the base level of capability, getting stronger and stronger.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 69,
+          "t": [
+            378.932,
+            380.893
+          ],
+          "quote": "Basically, you need more pre-training data.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 72,
+          "t": [
+            390.857,
+            401.841
+          ],
+          "quote": "And you're converting these reasoning tokens, your test time compute, you're converting back into pre-training data, which then goes in, of course, to the next generation of models.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 77,
+          "t": [
+            425.035,
+            431.339
+          ],
+          "quote": "So this one executive was really emphasizing pre-training, continues to deliver, the models are getting super powerful.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 111,
+          "t": [
+            607.777,
+            610.758
+          ],
+          "quote": "Pre-training is really delivering and scaling laws.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 117,
+          "t": [
+            622.76,
+            632.702
+          ],
+          "quote": "But between this pre-training thing and there might be a cap on how far we should go that I just asked to follow up like, okay, well, how do we operationalize that?",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 119,
+          "t": [
+            636.608,
+            639.81
+          ],
+          "quote": "I'll limit on the number of flops that go into the next pre-training run.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1142.008,
+            1156.782
+          ],
+          "quote": "But like in terms of will they still have need for compute or does a cap on pre-training scale or other, you know, compute input cap that might constitute a pacing mechanism, does that mean the end of the compute build-out?",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说 Elon 和 Zuck 的公司其实一直在间接蒸馏 Claude 的能力——RL 环境厂商用 Claude 生成环境再卖给其他模型公司,等于变相继承前沿模型能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            744.265,
+            764.437
+          ],
+          "quote": "These days, it's not that they're calling the Claude API and getting traces and feeding them in, but rather the cottage industry of RL environment makers and sellers is in fact functioning as a distillation conduit because what they're all doing is having Claude create these RL environments.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 147,
+          "t": [
+            826.254,
+            839.501
+          ],
+          "quote": "The kind of synthesis of all this is if they hadn't been releasing the models and if people weren't able to do these like various sort of direct and indirect distillation techniques, they actually think that probably would have happened.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 723,
+          "t": [
+            4376.349,
+            4380.425
+          ],
+          "quote": "And actually, one thought experiment is if we take SFT self-distillation",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把 Positron 说成做 AI 推理芯片的公司,并从内存、上下文长度、带宽利用率等角度谈推理的硬件瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            57.213,
+            61.876
+          ],
+          "quote": "Thomas Somers, co-founder of Positron, which builds AI inference chips around memory.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2352.995,
+            2364.698
+          ],
+          "quote": "Not really, because within, when, basically the assumption is, if you're doing inference, that you're going to have all of your weights locally in DRAM, you're just sharding that over some number of devices.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3242.819,
+            3253.969
+          ],
+          "quote": "And basically don't treat it as just a robotics problem or the robotics are just the first harbinger of what you guys will eventually be doing if you consume or do enough inference at their scale.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3683.708,
+            3684.849
+          ],
+          "quote": "Different inference layer on top of it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3912.989,
+            3915.812
+          ],
+          "quote": "Have cryptographic attestation of whoever's providing inference.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "memory-bandwidth",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存带宽 (memory bandwidth)",
+      "file": "内存带宽",
+      "primary": true,
+      "how_described": "本集说 NVIDIA GPU 实际只用到理论内存带宽的 30%-40%,Positron 第一代产品达到并维持 93%;还谈到内存报价一年涨了 4.5 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            2039.733,
+            2048.517
+          ],
+          "quote": "And, you know, the two main pieces of that, you know, the thing that we showed with our first generation product is being able to achieve extremely high memory bandwidth utilization from a",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2052.118,
+            2070.687
+          ],
+          "quote": "So while NVIDIA GPUs, I would say, on average are getting between 30 and 40 percent memory bandwidth utilization in the actual decode forward pass of a transformer model, so basically that means even though they advertise, you know, eight terabytes per second of theoretical memory bandwidth with, you know, a B300,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2071.647,
+            2078.19
+          ],
+          "quote": "You only actually are seeing something in the ballpark of like two terabytes per second of actual realized memory bandwidth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2092.28,
+            2098.228
+          ],
+          "quote": "And so with our first gen product, we were able to hit and sustain 93% of theoretical memory bandwidth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2342.003,
+            2344.806
+          ],
+          "quote": "I think it has to do with this kind of memory bandwidth, right?",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2382.763,
+            2389.508
+          ],
+          "quote": "From a hardware perspective, looping really is more memory capacity savings than memory bandwidth savings.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集说前沿实验室正大量花算力修复 RL 环境:让模型去攻击自己的环境找出漏洞并修好,环境越干净模型作弊越少,一条雏形缩放定律正在浮现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            744.265,
+            764.437
+          ],
+          "quote": "These days, it's not that they're calling the Claude API and getting traces and feeding them in, but rather the cottage industry of RL environment makers and sellers is in fact functioning as a distillation conduit because what they're all doing is having Claude create these RL environments.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 137,
+          "t": [
+            765.417,
+            768.52
+          ],
+          "quote": "Selling the RL environments to other frontier model makers.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1256.683,
+            1263.907
+          ],
+          "quote": "Another thing that they're spending compute on in a big way right now is fixing the RL environments.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1263.947,
+            1268.11
+          ],
+          "quote": "Of course, everybody understands at this point that if you have sloppy RL environments that",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1272.625,
+            1278.472
+          ],
+          "quote": "They are now applying these models to the RL environments themselves and saying, hack this environment.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1314.193,
+            1323.921
+          ],
+          "quote": "But I got the sense that they are seeing a pretty clear relationship between the more you clean up the RL environments, you do, in fact, get lower rates of cheating downstream.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1348.972,
+            1370.699
+          ],
+          "quote": "I heard repeatedly that they expect to be bottlenecked on safety and alignment, but it seems like for at least the next generation or two, there is still enough low-hanging fruit to pick in the safety and alignment domain in part just by fixing RL environments.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说缩放定律依然成立、甚至可能因数据质量提升而更优弯曲;同时安全领域也出现一条原初缩放定律。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            364.721,
+            368.983
+          ],
+          "quote": "Scaling laws are holding or maybe even bending because the data quality is getting better.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 111,
+          "t": [
+            607.777,
+            610.758
+          ],
+          "quote": "Pre-training is really delivering and scaling laws.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1973.445,
+            1983.43
+          ],
+          "quote": "My fundamental belief was that there isn't going to be a stop anytime in the near future in terms of scaling laws and getting increased value from making models larger.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 518,
+          "t": [
+            3285.11,
+            3291.113
+          ],
+          "quote": "Basically, you can call this a bounty on mid-tier SaaS that should not exist.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3299.116,
+            3307.4
+          ],
+          "quote": "If I'm going to spend $40,000 on this SaaS subscription, I can spend that in amount of tokens, and that buys me a heck of a lot of tokens.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3428.568,
+            3434.991
+          ],
+          "quote": "Just to give you an idea of the way we work with these SaaS companies, right now, when we request a change, they'll say, OK, that sounds pretty cool.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3442.694,
+            3444.375
+          ],
+          "quote": "So SaaS is quite cooked.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3457.463,
+            3464.194
+          ],
+          "quote": "You know, if you haven't actually tried to completely vibe code a SaaS that you use, you don't understand how models are still very bad at all this.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文长度 (context length)",
+      "file": "上下文长度",
+      "primary": true,
+      "how_described": "本集说上下文长度是今天 AI 应用到大多数场景的主要限制因素:智能体并发增多、每个都要独立上下文,内存需求爆炸式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1985.671,
+            1994.935
+          ],
+          "quote": "But then the other side, I think the main limiter today of AI being applied to most applications is context length and being able to hold more context",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说把模型的推理 token、测试时计算转换回预训练数据喂给下一代模型,正是递归自我改进正在发生的一种方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            401.861,
+            405.382
+          ],
+          "quote": "This is one way in which recursive self-improvement is happening.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3999.543,
+            4005.505
+          ],
+          "quote": "When we started this show, one of the ways we conceived of it was as an experiment in recursive self-improvement.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "formal-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formal verification)",
+      "file": "形式化验证",
+      "primary": true,
+      "how_described": "本集 Evan 说,随着模型数学能力变强,以前需要五年、一亿美元的形式化验证工程,现在的限制只在于 token 数量和驾驭智能体的人数,预计三到六个月内会有震撼性进展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 683,
+          "t": [
+            4103.166,
+            4108.229
+          ],
+          "quote": "Near the end, I asked Evan for an update on formal verification now that models are getting very good at math.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集 SWIX 提到与 Cognition 合作,给活动团队开放 DevIn 的权限,提需求一到两小时就能改好代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 552,
+          "t": [
+            3412.596,
+            3421.423
+          ],
+          "quote": "And then the ongoing thing, which is, this is one of the benefits of me partnering with Cognition on, is I just give them, give all of them access to DevIn to modify the code.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "cadence",
+      "type": "company",
+      "role": "company",
+      "name": "Cadence",
+      "file": "Cadence",
+      "primary": false,
+      "how_described": "本集说 Positron 用 Cadence 的 Palladium 仿真器系统做芯片验证,智能体已能闭环操作它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            2518.403,
+            2521.786
+          ],
+          "quote": "For doing our verification work, we use Cadence, Pleiadian emulator systems.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集前沿实验室高管说合成数据确实非常有效:把推理 token 转换回预训练数据,让下一代模型更聪明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            369.023,
+            375.105
+          ],
+          "quote": "They've got increasingly different architecture tricks, lots of work on synthetic data.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 68,
+          "t": [
+            375.165,
+            377.866
+          ],
+          "quote": "Synthetic data seems to be definitely really delivering.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 114,
+          "t": [
+            615.298,
+            618.239
+          ],
+          "quote": "Do you count all those flops that you use to create the synthetic data?",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集提到 Edward Hu 领导开发了被广泛使用的微调方法 LoRa,并认为 SFT(尤其结合多个教师输出)将是未来企业定制模型的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 702,
+          "t": [
+            4269.008,
+            4272.328
+          ],
+          "quote": "He also led the development of LoRa, the widely used fine tuning method.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 722,
+          "t": [
+            4366.784,
+            4372.785
+          ],
+          "quote": "I asked Edward how supervised fine tuning compares with reinforcement learning as the way companies will train models in the future.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

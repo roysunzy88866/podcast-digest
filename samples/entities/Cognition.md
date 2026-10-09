@@ -8,7 +8,7 @@ aliases: ["cognition"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cognition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>25</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>26</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,6 +36,7 @@ aliases: ["cognition"]
 - **[[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|《「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流》]]**(04:05起):本集提及：Cognition 在基准测试中引入裁判模型检查是否破坏代码惯例，也是云端智能体厂商之一。
 - **[[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]]**(07:55起):本集提到它是使用 EXA 驱动网页搜索的受欢迎客户之一
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(50:38起):本集提到它正用大量自己的数据后训练自己的模型,是企业自训模型、数据主权方向的例子。
+- **[[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]]**(56:52起):本集 SWIX 提到与 Cognition 合作,给活动团队开放 DevIn 的权限,提需求一到两小时就能改好代码。
 
 ## ① 提到它的金句
 
@@ -47,7 +48,7 @@ aliases: ["cognition"]
 
 ## ② 出现在这些集
 
-*25 集*
+*26 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
@@ -74,14 +75,15 @@ aliases: ["cognition"]
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-02-talks-your-coding-agent-is-6-months-out-of-dat|《给代码智能体装上搜索：EXA 的实战方法》]] — 作为被讨论公司(提及)
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为被讨论公司(提及)
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Claude Code]] · [[NVIDIA]] · [[Salesforce]] · [[Stripe]] · [[harness]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude Code]] · [[Salesforce]] · [[Stripe]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"Anthropic":189,"OpenAI":179,"Cursor":83,"推理":86,"Claude Code":97,"NVIDIA":62,"Salesforce":34,"Stripe":48,"harness":61}</script>
+<script type="application/json" class="pd-epn">{"智能体":444,"Anthropic":190,"OpenAI":179,"Cursor":83,"推理":87,"NVIDIA":63,"Claude Code":98,"Salesforce":34,"Stripe":48,"harness":61}</script>
 
 <script>
 (function(){

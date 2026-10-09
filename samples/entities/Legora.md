@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[DeepMind]] · [[Julie Bort]] · [[Max Junestrand]] · [[Simon Eskildsen]] · [[Matt Murphy]] · [[微调]] · [[Jacob Lauritzen]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":189,"智能体":441,"ChatGPT":100,"DeepMind":15,"Julie Bort":1,"Max Junestrand":1,"Simon Eskildsen":1,"Matt Murphy":2,"微调":33,"Jacob Lauritzen":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":190,"智能体":444,"ChatGPT":100,"DeepMind":15,"Julie Bort":1,"Max Junestrand":1,"Simon Eskildsen":1,"Matt Murphy":2,"微调":34,"Jacob Lauritzen":1}</script>
 
 <script>
 (function(){

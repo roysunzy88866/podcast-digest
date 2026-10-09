@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>22</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,7 +35,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -69,9 +69,11 @@ unlisted: true
 
 ![[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live#^q2]]
 
+![[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr#^q15]]
+
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -94,14 +96,15 @@ unlisted: true
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为概念
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为概念
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为概念
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[NVIDIA]] · [[Google]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Microsoft]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[NVIDIA]] · [[微调]] · [[Google]] · [[推理]] · [[Stripe]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"Anthropic":189,"OpenAI":179,"Cursor":83,"NVIDIA":62,"Google":65,"Stripe":48,"Salesforce":34,"Claude Code":97,"Microsoft":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":444,"Anthropic":190,"OpenAI":179,"Cursor":83,"NVIDIA":63,"微调":34,"Google":65,"推理":87,"Stripe":48,"Salesforce":34}</script>
 
 <script>
 (function(){

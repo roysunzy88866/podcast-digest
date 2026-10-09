@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Dot]] · [[Sites]] · [[智能体]] · [[Codex]] · [[ChatGPT]] · [[GPT-6.1 Sol]] · [[Decisions API]] · [[Ultrafast]] · [[Astra]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":179,"Dot":2,"Sites":3,"智能体":441,"Codex":80,"ChatGPT":100,"GPT-6.1 Sol":1,"Decisions API":3,"Ultrafast":2,"Astra":7}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":179,"Dot":2,"Sites":3,"智能体":444,"Codex":80,"ChatGPT":100,"GPT-6.1 Sol":1,"Decisions API":3,"Ultrafast":2,"Astra":7}</script>
 
 <script>
 (function(){

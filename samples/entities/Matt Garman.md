@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]]
+[[Raguraguram]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":21,"Amazon":32,"智能体":441,"GPU":28,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":85,"Firecracker":3}</script>
+<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":21,"Amazon":32,"智能体":444,"GPU":28,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":85,"Firecracker":3}</script>
 
 <script>
 (function(){

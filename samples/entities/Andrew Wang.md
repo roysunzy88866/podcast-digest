@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Matt Jones]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Linda Du":1,"Angela Strange":2,"Valen":1,"抵押贷款服务":1,"智能体":441,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":28,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Linda Du":1,"Angela Strange":2,"Valen":1,"抵押贷款服务":1,"智能体":444,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":28,"生成式 AI":2}</script>
 
 <script>
 (function(){

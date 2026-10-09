@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Mercor":2,"智能体":441,"开源":38,"RL 环境":7,"编码智能体":27,"评估":5,"机器人":13,"合成数据":9}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Mercor":2,"智能体":444,"开源":38,"RL 环境":8,"编码智能体":27,"评估":5,"机器人":13,"合成数据":10}</script>
 
 <script>
 (function(){

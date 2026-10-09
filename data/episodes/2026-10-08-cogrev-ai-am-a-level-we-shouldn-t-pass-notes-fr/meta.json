@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr",
+  "audio_mp3": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP1992288352.mp3",
+  "duration_sec": 5205.876,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 902,
+  "asr": true,
+  "title_en": "AI:AM: A Level We Shouldn't Pass? Notes from The Curve + Tokens vs. Salaries & Is SaaS Cooked?",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-10-08",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/5d1fb616-c2fb-11f1-bafc-cff9298597f8/image/aef7552479d90fcc19ab25212ac884c5.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-09",
+  "added_at": "2026-10-08T23:56:33.767Z",
+  "speaker_map": {
+    "SPEAKER_04": "Prakash Narayanan",
+    "SPEAKER_03": "Thomas Somers",
+    "SPEAKER_07": "Sean Wang"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Prakash Narayanan",
+  "cohosts": [
+    "Thomas Somers",
+    "Sean Wang"
+  ],
+  "title_zh": "前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限",
+  "guest_name": "",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=无;title_match=none",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/5d1fb616-c2fb-11f1-bafc-cff9298597f8/image/aef7552479d90fcc19ab25212ac884c5.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1024x1024",
+    "aspect": 1,
+    "fetched_at": "2026-10-09T01:50:50.228Z"
+  }
+}

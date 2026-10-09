@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":4,"智能体":441,"智能体记忆":3,"NanoClaw":1,"树莓派":2,"MCP 服务器":2,"Docker":7,"Claude Agent SDK":2,"推理":86,"OpenClaw":23}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":4,"智能体":444,"智能体记忆":3,"NanoClaw":1,"树莓派":2,"MCP 服务器":2,"Docker":7,"Claude Agent SDK":2,"推理":87,"OpenClaw":23}</script>
 
 <script>
 (function(){

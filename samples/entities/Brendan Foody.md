@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":7,"后训练":1,"验证器":7,"合成数据":9,"超长时程":1,"虚拟同事":1,"RLHF":6,"智能体数据时代":1,"基座模型":2}</script>
+<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":8,"后训练":1,"验证器":7,"合成数据":10,"超长时程":1,"虚拟同事":1,"RLHF":6,"智能体数据时代":1,"基座模型":2}</script>
 
 <script>
 (function(){

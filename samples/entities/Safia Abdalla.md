@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":5,"智能体":441,"子智能体":6,"编排":7,"沙箱":85,"harness":61,"API":4,"护栏":84,"Claude Code":97,"Codex":80}</script>
+<script type="application/json" class="pd-epn">{"Warp":5,"智能体":444,"子智能体":6,"编排":7,"沙箱":85,"harness":61,"API":4,"护栏":84,"Claude Code":98,"Codex":80}</script>
 
 <script>
 (function(){

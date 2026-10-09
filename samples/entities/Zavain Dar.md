@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":62,"Hugging Face":30,"开源":38,"蒸馏":1,"推理":86,"新云":4,"前沿模型":27,"垂直 AI":2,"智能体":441}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":63,"Hugging Face":30,"开源":38,"蒸馏":1,"推理":87,"新云":4,"前沿模型":27,"垂直 AI":2,"智能体":444}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":441,"推理":86,"广告追踪":1,"LLM":58,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":444,"推理":87,"广告追踪":1,"LLM":58,"数据中心":23}</script>
 
 <script>
 (function(){

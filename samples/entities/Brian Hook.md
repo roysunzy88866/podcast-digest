@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":48,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":441,"测试":2,"TDD":4,"开发者生产力":1}</script>
+<script type="application/json" class="pd-epn">{"Moritz Beller":1,"Meta":48,"Microsoft Research":1,"diff 编写时间":1,"DDM":1,"A-B 实验":1,"智能体":444,"测试":2,"TDD":4,"开发者生产力":1}</script>
 
 <script>
 (function(){

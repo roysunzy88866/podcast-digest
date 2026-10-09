@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paige Bailey]] · [[DeepMind]] · [[Gemma 4]] · [[Managed Agents]] · [[开放模型]] · [[沙箱]] · [[推理]] · [[GPU]] · [[量化]] · [[函数调用]]
 
-<script type="application/json" class="pd-epn">{"Paige Bailey":1,"DeepMind":15,"Gemma 4":2,"Managed Agents":6,"开放模型":2,"沙箱":85,"推理":86,"GPU":28,"量化":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"Paige Bailey":1,"DeepMind":15,"Gemma 4":2,"Managed Agents":6,"开放模型":3,"沙箱":85,"推理":87,"GPU":28,"量化":1,"函数调用":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,257 @@
+{
+  "title_zh": "前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限",
+  "tldr": "主持人 Nathan 从 The Curve 大会带回一手见闻：前沿实验室高管承认该给 AI 设限，芯片创业者谈算力账单超过工资。",
+  "digest_md": "上周末，The Cognitive Revolution 的主持人 Nathan 参加了在伯克利举办的 The Curve 大会。这是少数前沿实验室内部人士与外部批评者同处一室的场合。他带回了几个相当有分量的说法，其中最惊人的是：一位所有人都能叫出名字的前沿实验室高管承认，AI 的智能可能有一个人类不该越过的上限。本期节目还聊到内存价格暴涨、AI 如何改写芯片和软件行业，以及 AI 在音乐上的表现。\n\n## 前沿实验室的人开始说不该再往前走了？\n\nNathan 观察到一个变化：两年前大家分歧巨大，如今在一点上趋于一致——AI 确实会变得非常强大，不能再指望泡沫自己破掉。用 Helen Toner 的话说，长预期时间线已经变得超级短。[03:22 Unknown]\n\n那位高管透露了三件事。第一，预训练依然在起作用，模型基础能力持续变强，没有明显的停点。方法之一是合成数据：让模型自己把推理过程转化成下一代的训练数据——这本身就是一种递归自我改进。[06:30 Unknown]\n\n第二，他认为最新的前沿模型已经具备了做出范式级突破所需的研究品味，只是还没找到把它引出来的办法，所以才需要上万个智能体去撞千年大奖难题。[07:30 Unknown]\n\n第三句才是真正的新闻：「**很可能存在一个我们就不该越过的智能水平**。」[08:09 Unknown] Nathan 追问：那你愿意签署一个限制下一次预训练所用算力的协议吗？对方的回答是，这可能确实是合理的。这是他第一次从前沿实验室领导者口中听到如此明确的设限表态。[11:06 Unknown]\n\n## 设上限意味着什么：算力扩建的终结？\n\n联合主持人 Prakash Narayanan 指出其中的矛盾：智能提升来自算力和数据精炼，限制智能上限就等于限制算力扩建和数据精炼，这影响太大了。[09:54 Unknown]\n\n但 Nathan 认为，算力需求不会消失，只是用途会变。英伟达的 Jensen Huang 说过，英伟达花 20% 的精力设计芯片，80% 用于验证和测试。前沿实验室接下来也会转向：让模型安全、可靠。未来的大部分算力可能会花在监控上——比如监控模型内部激活，或者修复训练环境里的漏洞：让模型先去攻击自己的训练环境，找出能钻空子的地方并修好。实验室发现，环境越干净，模型作弊越少，一条雏形中的缩放定律正在浮现。[21:46 Unknown]\n\n另一条消息是：会上几乎没人再谈 2028。大家的说法是，关键时期就是现在，未来几个月的决策和算力使用方式可能决定一切。还有人预测，一年之内，不做最好的科学将离不开 AI。[18:26 Unknown]\n\n## 其他公司是怎么追上的？靠蒸馏\n\n会上还流传一个判断：真正推动前沿的只有两三家公司，Elon 和 Zuck 的公司其实一直在间接蒸馏 Claude 的能力。方式很隐蔽：市面上卖训练环境的厂商，很多是用 Claude 来生成这些环境的，其他公司买回去训练，等于变相继承了前沿模型的能力。有创始人说，如果前沿公司不发布模型、没有这些泄漏，Anthropic 当年到 2026 年没人能追上的预测可能真会实现。[13:00 Unknown]\n\n> 【背景】蒸馏指用强模型的输出数据来训练较小的模型，从而低成本获得类似能力。\n\n## 内存价格一年涨了 4.5 倍，为什么大家还在买？\n\n节目的第二部分采访了 Positron 的联合创始人 Thomas Somers。这家公司做 AI 推理芯片，最近融了 8.75 亿美元。他给了个直观的数字：一年零一周前的内存报价，现在已经涨了 4.5 倍，明年可能再翻倍。[31:57 Unknown]\n\n但大家照买不误，原因很简单：同样多的内存，今天能跑的模型比去年强了不止 5 倍。真正的瓶颈是上下文长度——他自己的后台智能体从几个月前的 2 到 4 个，涨到了 15 到 20 个，每个都要独立的上下文，内存需求爆炸式增长。[33:15 Unknown]\n\nPositron 的做法是用手机、笔记本电脑同款的廉价内存，靠架构设计榨干它：英伟达 GPU 实际只能用到理论内存带宽的 30% 到 40%，而他们第一代产品做到了 93%。[34:34 Unknown] 下一款芯片 Asimov 单颗能装 2.3 TB 内存，是 B300 的 288 GB 的 8 倍，一颗顶八颗。\n\n更有意思的是 AI 对芯片开发本身的改变。他说，从 9 月初 GPT-6 Astra 发布起，智能体可以完全闭环地操作他们的 Palladium 仿真机：自己查文档、自己做笔记、自己搭测试环境。在验证这件事上，AI 的钱已经超过了人力成本——6 个月前 token 花销相当于 1 个员工，之后一度超过多个员工，峰值时一天花超过 10 万美元。[45:11 Unknown]\n\n不过他承认，AI 还没有提出过让他意外的设计想法。他自嘲还能守多久：「大概再守几周吧。」[48:14 Unknown]\n\n## 用 Claude 的垃圾交差？员工因此被绩效审查\n\n第三部分是 Latent Space 的 Sean Wang（SWIX）。他现在管着一支团队，对员工有句狠话：「我不想付钱让别人替我经历大模型精神病。我可以自己付钱经历自己的。」[01:23 Unknown] 他有两三名员工正被绩效审查，原因是交上来的全是 Claude 生成的垃圾——而当事人自己看不出来，还觉得挺好。他的逻辑很直白：我自己也能去问 Claude，那要你干什么？\n\n他的用人标准也变了：除了安全和后端扩容这类岗位，编程年限不重要，有时经验反而是负担。现在要能同时管理 5 到 10 个进行中的事项，更像管理者而不是执行者。看数据比看代码值钱。而且他允许代码里存在垃圾，前提是模块边界必须自己完全理解——他做 Slack 竞品时遇到一个 bug：同样代码，消息有时加载有时不加载，查出来是两个编程智能体在不同时间各写了一条代码路径，人类从来不会这么干。[52:07 Unknown]\n\n## 中端软件订阅服务的死期到了？\n\nSWIX 搞了个叫 KillMySass 的悬赏：谁能替换掉他公司不愿继续付费订阅的某款活动软件，就能拿到赏金。背景是他要为这个 SaaS 订阅花 4 万美元——他说，如果把同样多的钱花在 token 上，能买到一大堆 token。[54:51 SWIX]\n\n最顽固的反对者是他自己的活动团队——一群用表格办事、和工会打交道的传统专业人士。一开始坚决不要随手编的代码，看完提交作品的质量后，主动提出换掉旧系统。现在的体验对比更残酷：给 SaaS 公司提需求，答复是排进第三季度路线图，而且第一季度提的需求才刚上线；给自己的代码提需求，接了 DevIn 之后一到两小时就改好。他的结论是：「**SaaS 相当完蛋了**。」[57:16 Unknown]\n\n但他不认为软件工程会萎缩。他的逻辑是把整个市场看作表格和邮件——所有现在靠表格、电话、开会解决的事，都可以被增量地变成定制软件。软件定制化的终点，可能像手袋和服装一样按品牌和品味来区分。真正的天花板只有一个：全人类能拿到的 token 带宽，也就是能造出来的硅片总量。[59:58 Unknown]\n\n## AI 已经攻进不可验证的领域了\n\n节目结尾放了一首歌：Prakash 用 Claude Fable 把几年播客里的名场面剪成了一首曲子。有意思的是，这不太算生成式音乐——模型是通过 API 操作数字音频工作站，真的在编排多种乐器。Nathan 的判断是：如果你以为 AI 只在可验证任务（比如数学、代码）上强，**这堵墙恐怕也守不住了**。[80:11 Unknown]\n\n## 本集带走\n\n- 一位前沿实验室高管明确表示，AI 很可能有不该越过的智能上限，甚至愿意考虑限制预训练算力——这是头一次听到这种表态\n- 追赶者们通过买 Claude 生成的训练环境间接蒸馏前沿能力，这是差距没有拉开的隐形原因\n- 内存一年涨 4.5 倍，但同等内存能跑的模型价值涨得更快；一家芯片公司的 token 开销已超过全部人力成本\n- 老牌 SaaS 的处境危险：4 万美元的年订阅，可以用同样的钱买 token 自己写，改动从排期到 Q3变成两小时\n- AI 在音乐这类没有明确对错标准的领域也开始拿得出手，只擅长可验证任务这堵最后的墙正在倒塌",
+  "quotes": [
+    {
+      "en": "There likely is, let's say, a level of intelligence that we just shouldn't go past.",
+      "zh": "可以说,很可能存在某种智能水平,我们就不应该越过它。",
+      "timestamp": "00:15",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "en": "I was looking at a quote that we had a year and a week ago for memory, and it's gone up four and a half times since then.",
+      "zh": "我看了一下我们一年零一周前拿到的一份内存报价,从那以来它已经涨了四倍半。",
+      "timestamp": "01:02",
+      "speaker": "Thomas Somers"
+    },
+    {
+      "en": "And you know, the phrase I've sort of recently taken to is, I don't want to pay for someone else to go through LLM psychosis.",
+      "zh": "你知道,我最近采用的一个说法是,我不想为别人经历 LLM 精神错乱付费。",
+      "timestamp": "01:23",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "Scaling laws are holding or maybe even bending because the data quality is getting better.",
+      "zh": "缩放定律依然成立,甚至可能正在朝着有利的方向弯曲,因为数据质量在变好。",
+      "timestamp": "06:04",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "en": "And this is why you need 10,000 agents to do a Millennium Prize problem.",
+      "zh": "而这就是为什么你需要 1 万个智能体去解决一个千禧年大奖难题。",
+      "timestamp": "07:38",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "en": "These days, it's not that they're calling the Claude API and getting traces and feeding them in, but rather the cottage industry of RL environment makers and sellers is in fact functioning as a distillation conduit because what they're all doing is having Claude create these RL environments.",
+      "zh": "如今,他们并不是调用 Claude 的 API 获取轨迹再喂进去,而是那个 RL 环境制作者和销售者的作坊式产业,实际上在充当一条蒸馏管道,因为他们所有人所做的都是让 Claude 来创建这些 RL 环境。",
+      "timestamp": "12:24",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "en": "So Elon is making a gamble that the infra matters more than the models and that he will be able to catch up basically using his infra build-out.",
+      "zh": "所以 Elon 在下注,赌的是基础设施比模型更重要,而且他基本上能够利用他的基础设施布局追上来。",
+      "timestamp": "17:30",
+      "speaker": "Prakash Narayanan"
+    },
+    {
+      "en": "So while NVIDIA GPUs, I would say, on average are getting between 30 and 40 percent memory bandwidth utilization in the actual decode forward pass of a transformer model",
+      "zh": "所以我想说,NVIDIA GPU 在 transformer 模型的实际解码前向传递中,平均只获得 30% 到 40% 的内存带宽利用率。",
+      "timestamp": "34:12",
+      "speaker": "Thomas Somers"
+    },
+    {
+      "en": "And so with our first gen product, we were able to hit and sustain 93% of theoretical memory bandwidth.",
+      "zh": "因此,用我们的第一代产品,我们能够达到并维持理论内存带宽的 93%。",
+      "timestamp": "34:52",
+      "speaker": "Thomas Somers"
+    },
+    {
+      "en": "So on the token spend side, it's become our single largest non-manufacturing line item very quickly.",
+      "zh": "所以在 token 支出方面,它很快成为我们最大的非制造类支出项目。",
+      "timestamp": "44:34",
+      "speaker": "Thomas Somers"
+    },
+    {
+      "en": "I don't care if it's a tenth of the cost per token. It's just not worth the expense.",
+      "zh": "我不在乎它是不是只有十分之一的每 token 成本。这就是不值得的花费。",
+      "timestamp": "46:05",
+      "speaker": "Thomas Somers"
+    },
+    {
+      "en": "The sort of cost of software, creating software has gone down, therefore the demand has increased a lot, but for a very specific kind of demand for people who can manage coding agents productively instead of producing a whole bunch of slop.",
+      "zh": "创造软件的成本降低了,因此需求大幅增加,但这是针对一种非常特定的需求——能够高效管理编码智能体、而不是产出一大堆垃圾的人。",
+      "timestamp": "48:55",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "Basically agents consume databases, something like at a 500 to 1 ratio of what human developers do.",
+      "zh": "智能体消耗数据库的量,差不多是人类开发者的 500 比 1。",
+      "timestamp": "50:41",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "Whereas now we just need to make the modules make sense. And I can allow slop in there because it helps me to go faster as long as I contain the slop in things where I completely understand the whole system.",
+      "zh": "而现在我们只需要让模块说得通。我可以容忍里面有垃圾内容,因为它能帮我跑得更快,只要我把垃圾控制在我完全理解整个系统的东西里。",
+      "timestamp": "51:46",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "So SaaS is quite cooked. If you are mostly a CRUD app, I would say that there's a lot of UX issues left.",
+      "zh": "所以 SaaS 已经相当完蛋了。如果你主要是一个 CRUD 应用,我会说还剩很多 UX 问题。",
+      "timestamp": "57:22",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "I think what software engineering is basically only done when we basically have Kate Spade versus Louis Vuitton versus Coach for software.",
+      "zh": "我认为,软件工程基本上只有在当我们有了软件版的 Kate Spade 对 Louis Vuitton 对 Coach 的时候,才算基本完成。",
+      "timestamp": "59:51",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "The real limit on all this is the sum total of humanity's total token bandwidth, which is literally the amount of silicon we can produce.",
+      "zh": "所有这一切的真正限制,是人类 token 带宽的总和,而这实际上就是我们能生产的硅的数量。",
+      "timestamp": "60:25",
+      "speaker": "Sean Wang"
+    },
+    {
+      "en": "I've been claiming repeatedly that as intelligence gets cheap, it's the coordination that gets expensive.",
+      "zh": "我一直在反复主张,随着智能变得便宜,变得昂贵的是协调。",
+      "timestamp": "63:51",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "en": "So I do think SFT, especially combining the output of multiple teachers, will be a key part of how enterprises in the future customize their models, and we're investing in research on that as well.",
+      "zh": "所以我确实认为 SFT,尤其是结合多个教师的输出,将是未来企业定制其模型的关键部分,我们也在投资这方面的研究。",
+      "timestamp": "73:37",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:15",
+      "speaker": "Unknown",
+      "en": "There likely is, let's say, a level of intelligence that we just shouldn't go past.",
+      "zh": "可以说,很可能存在某种智能水平,我们就不应该越过它。"
+    },
+    {
+      "timestamp": "00:49",
+      "speaker": "Unknown",
+      "en": "When we say that we shouldn't go exceed a point of intelligence, that automatically means that you have to look at the inputs going in.",
+      "zh": "当我们说不应该超过某个智能水平时,这自动意味着你必须审视投入其中的输入。"
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Unknown",
+      "en": "I was looking at a quote that we had a year and a week ago for memory, and it's gone up four and a half times since then.",
+      "zh": "我看了一下我们一年零一周前拿到的一份内存报价,从那以来它已经涨了四倍半。"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Unknown",
+      "en": "And you know, the phrase I've sort of recently taken to is, I don't want to pay for someone else to go through LLM psychosis.",
+      "zh": "你知道,我最近采用的一个说法是,我不想为别人经历 LLM 精神错乱付费。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Unknown",
+      "en": "Scaling laws are holding or maybe even bending because the data quality is getting better.",
+      "zh": "缩放定律依然成立,甚至可能正在朝着有利的方向弯曲,因为数据质量在变好。"
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Unknown",
+      "en": "This is one way in which recursive self-improvement is happening.",
+      "zh": "这是递归自我改进正在发生的一种方式。"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Unknown",
+      "en": "And this is why you need 10,000 agents to do a Millennium Prize problem.",
+      "zh": "而这就是为什么你需要 1 万个智能体去解决一个千禧年大奖难题。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "Unknown",
+      "en": "These days, it's not that they're calling the Claude API and getting traces and feeding them in, but rather the cottage industry of RL environment makers and sellers is in fact functioning as a distillation conduit because what they're all doing is having Claude create these RL environments.",
+      "zh": "如今,他们并不是调用 Claude 的 API 获取轨迹再喂进去,而是那个 RL 环境制作者和销售者的作坊式产业,实际上在充当一条蒸馏管道,因为他们所有人所做的都是让 Claude 来创建这些 RL 环境。"
+    },
+    {
+      "timestamp": "17:30",
+      "speaker": "Unknown",
+      "en": "So Elon is making a gamble that the infra matters more than the models and that he will be able to catch up basically using his infra build-out.",
+      "zh": "所以 Elon 在下注,赌的是基础设施比模型更重要,而且他基本上能够利用他的基础设施布局追上来。"
+    },
+    {
+      "timestamp": "18:24",
+      "speaker": "Unknown",
+      "en": "They were talking more about just next year. It was really a kind of 2020, like critical period is beginning now.",
+      "zh": "他们更多谈的是就在明年。真的很像一种「关键时期现在正在开始」的感觉。"
+    },
+    {
+      "timestamp": "34:12",
+      "speaker": "Unknown",
+      "en": "So while NVIDIA GPUs, I would say, on average are getting between 30 and 40 percent memory bandwidth utilization in the actual decode forward pass of a transformer model",
+      "zh": "所以我想说,NVIDIA GPU 在 transformer 模型的实际解码前向传递中,平均只获得 30% 到 40% 的内存带宽利用率。"
+    },
+    {
+      "timestamp": "34:52",
+      "speaker": "Unknown",
+      "en": "And so with our first gen product, we were able to hit and sustain 93% of theoretical memory bandwidth.",
+      "zh": "因此,用我们的第一代产品,我们能够达到并维持理论内存带宽的 93%。"
+    },
+    {
+      "timestamp": "44:34",
+      "speaker": "Unknown",
+      "en": "So on the token spend side, it's become our single largest non-manufacturing line item very quickly.",
+      "zh": "所以在 token 支出方面,它很快成为我们最大的非制造类支出项目。"
+    },
+    {
+      "timestamp": "46:09",
+      "speaker": "Unknown",
+      "en": "I don't care if it's a tenth of the cost per token. It's just not worth the expense.",
+      "zh": "我不在乎它是不是只有十分之一的每 token 成本。这就是不值得的花费。"
+    },
+    {
+      "timestamp": "48:55",
+      "speaker": "Unknown",
+      "en": "The sort of cost of software, creating software has gone down, therefore the demand has increased a lot, but for a very specific kind of demand for people who can manage coding agents productively instead of producing a whole bunch of slop.",
+      "zh": "创造软件的成本降低了,因此需求大幅增加,但这是针对一种非常特定的需求——能够高效管理编码智能体、而不是产出一大堆垃圾的人。"
+    },
+    {
+      "timestamp": "50:34",
+      "speaker": "Unknown",
+      "en": "Basically agents consume databases, something like at a 500 to 1 ratio of what human developers do.",
+      "zh": "智能体消耗数据库的量,差不多是人类开发者的 500 比 1。"
+    },
+    {
+      "timestamp": "51:46",
+      "speaker": "Unknown",
+      "en": "Whereas now we just need to make the modules make sense. And I can allow slop in there because it helps me to go faster as long as I contain the slop in things where I completely understand the whole system.",
+      "zh": "而现在我们只需要让模块说得通。我可以容忍里面有垃圾内容,因为它能帮我跑得更快,只要我把垃圾控制在我完全理解整个系统的东西里。"
+    },
+    {
+      "timestamp": "57:22",
+      "speaker": "Unknown",
+      "en": "So SaaS is quite cooked. If you are mostly a CRUD app, I would say that there's a lot of UX issues left.",
+      "zh": "所以 SaaS 已经相当完蛋了。如果你主要是一个 CRUD 应用,我会说还剩很多 UX 问题。"
+    },
+    {
+      "timestamp": "59:51",
+      "speaker": "Unknown",
+      "en": "I think what software engineering is basically only done when we basically have Kate Spade versus Louis Vuitton versus Coach for software.",
+      "zh": "我认为,软件工程基本上只有在当我们有了软件版的 Kate Spade 对 Louis Vuitton 对 Coach 的时候,才算基本完成。"
+    },
+    {
+      "timestamp": "60:25",
+      "speaker": "Unknown",
+      "en": "The real limit on all this is the sum total of humanity's total token bandwidth, which is literally the amount of silicon we can produce.",
+      "zh": "所有这一切的真正限制,是人类 token 带宽的总和,而这实际上就是我们能生产的硅的数量。"
+    },
+    {
+      "timestamp": "63:51",
+      "speaker": "Unknown",
+      "en": "I've been claiming repeatedly that as intelligence gets cheap, it's the coordination that gets expensive.",
+      "zh": "我一直在反复主张,随着智能变得便宜,变得昂贵的是协调。"
+    },
+    {
+      "timestamp": "73:37",
+      "speaker": "Unknown",
+      "en": "So I do think SFT, especially combining the output of multiple teachers, will be a key part of how enterprises in the future customize their models, and we're investing in research on that as well.",
+      "zh": "所以我确实认为 SFT,尤其是结合多个教师的输出,将是未来企业定制其模型的关键部分,我们也在投资这方面的研究。"
+    }
+  ],
+  "voice_script": "上周末，The Cognitive Revolution 的主持人 Nathan 去伯克利参加了一个叫 The Curve 的大会。这个会有个特别之处：前沿实验室的内部人士，和那些一直批评 AI 的人，难得坐在同一个房间里。Nathan 带回来的见闻里，有一条分量非常重——一位所有人都能叫出名字的前沿实验室高管，亲口承认了一件以前从没人明说过的事：AI 的智能，可能有一个我们人类不该越过的上限。今天这条主线，就从这个说法讲起，后面再讲几件发生在他身边的、同样说明问题的事。\n\n先说说会上的大背景。两年前，大家对 AI 的未来分歧还很大，但这一次，Nathan 发现大家在一点上基本达成一致了：AI 确实会变得非常强大，别再指望泡沫自己破掉。安全研究者 Helen Toner 的说法是，那些很长的预期时间线，已经变得超级短了。\n\n在这个共识之下，那位高管透露了三件事。第一件，预训练依然在起作用。也就是说，往模型里继续砸数据和算力，基础能力就继续变强，看不到明显的天花板。方法之一是合成数据：让模型自己把推理过程变成下一代模型的训练料。这本身就构成一种递归的自我改进。\n\n第二件更有意思：这位高管认为，最新的前沿模型已经具备了做出范式级突破所需的研究品味——只是还没找到把它引出来的办法。所以才需要上万个智能体，去撞那些千禧年大奖难题。这个判断本身其实相当惊人，但跟第三件比，都不算什么。第三句才是真正的新闻。原话是：很可能存在一个我们就不该越过的智能水平。Nathan 当场追问：那你愿意签一个协议，限制下一次预训练的算力吗？对方回答，这可能确实是合理的。Nathan 说，这是他第一次从前沿实验室的领导者嘴里，听到这么明确的设限表态。\n\n那这个表态意味着什么呢？联合主持人 Prakash Narayanan 马上指出了里面的矛盾：智能提升本来就来自算力和数据精炼，你限制智能上限，等于限制算力扩建，这个影响太大了。但 Nathan 认为算力需求不会消失，只是用途会变。他引用了英伟达黄仁勋的说法：英伟达花两成精力设计芯片，八成用来验证和测试。前沿实验室接下来也会转向，让模型安全、可靠。未来的算力可能大部分花在监控上——比如监控模型内部的激活，或者让模型去攻击自己的训练环境，找出能钻空子的地方再修好。实验室发现，环境越干净，模型作弊越少，一条雏形中的缩放定律正在浮现。还有，会上几乎没人再谈 2028 了，大家的说法是：关键时期就是现在，未来几个月的决策，可能决定一切。\n\n说完这条主线，你可能好奇，那些没走在最前面的公司，是怎么追上来的。会上流传一个判断：真正推动前沿的只有两三家公司，Elon 和 Zuck 的公司一直在间接蒸馏 Claude 的能力。所谓蒸馏，就是用强模型的输出去训练别的模型，低成本获得类似的能力。方式很隐蔽：市面上卖训练环境的厂商，很多是让 Claude 来生成这些环境的，其他公司买回去训练，等于变相继承了前沿模型的能力。有创始人说，如果前沿公司不发模型、没有这些泄漏，Anthropic 那句\"到 2026 年没人能追上\"的预测，可能真会实现。\n\n接下来是节目的第二部分，采访了 Positron 的联合创始人 Thomas Somers，这家公司做 AI 推理芯片，最近融了八亿七千五百万美元。他给了一个直观的数字：一年零一周前的内存报价，现在已经涨了四倍半，明年可能再翻倍。但大家照买不误，为什么？因为同样的内存，今天能跑的模型比去年强了不止五倍。真正的瓶颈是上下文长度——后台智能体从几个月前的两三个，涨到了十五到二十个，每个都要独立上下文，内存需求爆炸式增长。Positron 的打法是用手机同款的廉价内存，靠架构设计榨干它：英伟达 GPU 实际只能用到理论带宽的三到四成，第一代产品做到了百分之九十三。更有意思的是 AI 对芯片开发本身的改变——智能体已经能完全闭环地操作他们的仿真机，自己查文档、做笔记、搭测试环境。在验证这件事上，AI 的钱超过了人力成本，峰值时一天花掉超过十万美元的 token。不过也得承认，AI 还没提出过让人意外的设计想法。问还能守多久，自嘲了一句：大概再守几周吧。\n\n再往下一站，是 Latent Space 的 Sean Wang。他现在管着团队，对员工有句狠话：我不想付钱让别人替我经历大模型精神病，我可以自己付钱经历自己的。有两三名员工正被绩效审查，原因是交上来的全是 Claude 生成的垃圾——而且当事人自己看不出来，还觉得挺好。逻辑很直白：我自己也能去问 Claude，那要你干什么？所以用人标准也变了：编程年限不重要，有时经验反而是负担，现在要能同时管五到十个进行中的事项，更像管理者而不是执行者。他还搞了个悬赏，叫 KillMySass：谁能替换掉公司一款不愿续费的活动软件，就给赏金。背景是这笔 SaaS 订阅一年要花四万美元，同样的钱买 token，能买一大堆。连最顽固的活动团队，一群和工会打交道的传统专业人士，看完提交作品的质量，都主动提出换掉旧系统。对比更残酷：给 SaaS 公司提需求，答复是排进第三季度路线图；给自己的代码提需求，一到两小时就改好。结论一句话：SaaS 相当完蛋了。但软件工程本身不会萎缩，因为所有现在靠表格、电话、开会解决的事，都可以被增量地变成定制软件，真正的天花板只有全人类能拿到的算力总量。\n\n节目结尾放了首歌，Prakash 用 Claude 把几年播客里的名场面剪成了一首曲子。注意，这不太算生成式音乐，模型是通过接口操作数字音频工作站，真的在编排多种乐器。很多人以为 AI 只在数学、代码这种有对错的任务上强，音乐这种没有标准答案的领域守得住——Nathan 的判断是，这堵墙恐怕也守不住了。一边是实验室高管承认该给智能设上限，一边是 token 一天烧十万、垃圾代码靠人把关——AI 到底停在哪儿，答案可能比想象中来得更早。"
+}

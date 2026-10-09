@@ -158,9 +158,9 @@ token 价格指数从五年前每百万 60 美元跌破 1 美元，但 Thomas �
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Positron · 同概念:上下文长度 (context length)、推理 (inference)、智能体 (agent)、规模定律 (scaling laws)</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:token、推理 (inference)、智能体 (agent)、规模定律 (scaling laws)</span>
 
 </div>
 <div class="pd-ex">

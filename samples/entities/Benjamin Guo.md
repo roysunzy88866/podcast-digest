@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":441,"智能封建主义":1,"SaaS":21}</script>
+<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":444,"智能封建主义":1,"SaaS":22}</script>
 
 <script>
 (function(){

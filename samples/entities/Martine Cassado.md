@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":22,"Neon":4,"智能体":441,"本体":5,"网络安全":3,"RSI":5,"开源":38,"后训练":1,"harness":61}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":22,"Neon":4,"智能体":444,"本体":5,"网络安全":3,"RSI":5,"开源":38,"后训练":1,"harness":61}</script>
 
 <script>
 (function(){

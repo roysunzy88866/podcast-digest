@@ -1,0 +1,149 @@
+{
+  "title_zh": "一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”",
+  "tldr": "LangChain 开源团队产品经理 Sydney 讲解如何用模型路由器给智能体省钱，实测成本降六成、质量不掉。",
+  "digest_md": "如果你在用大模型搭智能体，最贵的那个模型往往会吞掉大部分预算。但很多任务其实用不着最强的模型。LangChain 开源团队的产品经理 Sydney 分享了一个实验：给开源编程智能体 OpenSWE 加一个“模型路由器”，自动为每个任务挑选合适的模型。结果是**每个任务的中位成本下降 64%，质量没有可测量的变化**。\n\n## 为什么不该所有任务都用最强的模型？\n\nSydney 的出发点很简单：前沿模型的智能很贵，规模化运行的智能体会被成本拖垮。连 Anthropic 这样的模型厂商都建议先从小模型（如 Claude Haiku）起步，确实不够再升级到 Opus [00:34 Unknown]。\n\n超过某个点后，你遇到收益递减：成本和延迟都在涨，产出质量却没有明显提升。理想状态是“模型、框架、任务”三者匹配——用对智能和成本曲线上的那个模型，再由框架把合适的上下文喂给它。\n\n## 路由器到底做什么？\n\n路由器就像医院的分诊台。任务请求进来，一个分类模型加上写着判断标准的提示词，决定这个任务该用哪个档位的模型：是快而便宜的、均衡的，还是慢而贵的高性能模型。选定的模型再去驱动智能体完成任务。\n\n搭建路由器分四步：理解你的智能体在做什么任务；理解有哪些可用模型；在智能体的框架里建路由器；持续追踪任务结果，确认成本降了、质量没掉。\n\n## 第一步：先搞清楚你的智能体在干什么活\n\n团队用 LangSmith 收集 OpenSWE 每次运行的完整轨迹，做聚合分析。结果不意外：编程智能体的任务以代码改动为主，包括功能开发、修 bug、写测试，另外还有一些设计问题和通用问答 [03:09 Unknown]。\n\nSydney 认为这一步最重要——它是制定路由标准的根基。**不清楚任务分布，就写不出有效的路由规则**。他们还按任务类型统计了调用次数和大模型成本，用来衡量复杂度：功能开发确实比写测试更复杂。\n\n## 第二步：沿着“最优边界”挑三档模型\n\n模型数据来自 Artificial Analysis 的智能指数。**Sydney 把性能和成本权衡最优的那组模型称为“帕累托边界”**——在基准准确率和成本延迟之间拿到最好交易的一批模型 [05:22 Unknown]。\n\n团队最终选了三个：GLM 5.3 Flash 当快速档，GPT 5.6 Sol 当均衡档，GPT 6 Astra 当高性能档。值得一提的是，GLM 5.3 Flash 是开源模型，Sydney 说路由器正是试验便宜开源模型的好机会。\n\n## 第三步：把路由器装进框架里\n\n路由标准来自两个来源：第一步的任务分析，以及 OpenAI 等厂商官方的模型使用指南。这个路由器只在会话的第一条消息上运行一次，之后整个任务都用选定的模型——不做中途换模型。\n\n最初用 GLM 5.3 Flash 配结构化输出来做路由决策，后来换成了专门的决策模型 JEV，号称比大模型更快更便宜，实测也确实如此 [07:07 Unknown]。\n\n## 第四步：怎么证明质量没掉？\n\n验证有两条路。离线评测很安全，但构建有代表性的数据集又贵又难。更快的方法是 A/B 测试——线上流量天然有代表性，风险是真实用户可能撞上一个还不完善的路由器 [08:12 Unknown]。\n\n团队追踪两个指标：合并 PR 的比率，以及用户对运行结果的点赞点踩。将近 500 个会话的结果：中位成本降 64%，P90 成本降 37%，合并 PR 率没有显著差异。34% 的任务进了快速档，56% 进均衡档，只有 10% 真正需要高性能模型。\n\n一个插曲：他们还试过“全用快速模型”的对照组，结果一天之内就因为用户抱怨太多而叫停——这证明路由是必要的，不能一刀切全用小模型 [10:30 Unknown]。\n\n## 还能怎么优化？\n\n几个方向：在 OpenSWE 这类智能体上做实际验证 [11:27]；给子智能体也配上大小合适的模型；会话中途升级模型——比如用户聊着聊着发现要修一个复杂 bug，可以中途换更强的模型，在对话中途重新路由，确保每个节点都用上适合手头任务的模型 [11:43]。换模型的代价是缓存失效，成本可能不低 [11:50]，但对 OpenSWE 这种异步智能体来说，反正从智能体响应到开发者在 Slack 里回复，经常超过 5 分钟，缓存早就失效了，所以缓存失效可能不是个大问题 [11:56]。接下来第四件事是挖掘更丰富的路由信号 [12:15]。\n\n## 本集带走\n\n- 给智能体配“分诊台”式的模型路由器，实测中位成本降 64%，质量无显著变化。\n- 四步法：摸清任务分布 → 沿成本-智能最优边界选模型 → 在框架里建路由器 → 先想好怎么衡量结果再上线。\n- 路由决策不必用大模型，专门的决策模型（如 JEV）更快更便宜。\n- 别一刀切用小模型：全用快速档的对照组因用户抱怨一天内叫停。\n- 中途换模型值得一试，异步智能体的缓存失效代价可能没那么大。",
+  "quotes": [
+    {
+      "en": "So I'm basically assuming here that we often don't need the best model for a lot of tasks that we ask our agent to do.",
+      "zh": "所以我在这里基本上是在假设：对于很多我们让智能体去做的任务，我们往往不需要最好的模型。",
+      "timestamp": "00:49",
+      "speaker": "Sydney"
+    },
+    {
+      "en": "Past a certain point, you kind of hit diminishing returns where your cost and latency are increasing, but the quality of the outputs are not significantly better.",
+      "zh": "超过某个点之后，你会有点陷入收益递减：成本和延迟在增加，但输出的质量并没有显著变好。",
+      "timestamp": "00:57",
+      "speaker": "Sydney"
+    },
+    {
+      "en": "And to kind of spoil the results of the experiment here, we were able to see a 64% reduction in median cost per thread with no measurable change in quality.",
+      "zh": "提前剧透一下实验结果：我们实现了每线程中位成本降低 64%，且质量没有可测量的变化。",
+      "timestamp": "02:00",
+      "speaker": "Sydney"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:14",
+      "speaker": "Unknown",
+      "en": "So the motivating problem for building a model router is that frontier intelligence is really expensive.",
+      "zh": "构建模型路由器的动因问题是，前沿智能真的非常昂贵。"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Unknown",
+      "en": "And so model routing can help to reduce cost theoretically without sacrificing quality if it's done well.",
+      "zh": "模型路由如果做得好，理论上可以在不牺牲质量的前提下帮助降低成本。"
+    },
+    {
+      "timestamp": "00:49",
+      "speaker": "Unknown",
+      "en": "So I'm basically assuming here that we often don't need the best model for a lot of tasks that we ask our agent to do.",
+      "zh": "所以我在这里基本上是在假设：对于很多我们让智能体去做的任务，我们往往不需要最好的模型。"
+    },
+    {
+      "timestamp": "00:57",
+      "speaker": "Unknown",
+      "en": "Past a certain point, you kind of hit diminishing returns where your cost and latency are increasing, but the quality of the outputs are not significantly better.",
+      "zh": "超过某个点之后，你会有点陷入收益递减：成本和延迟在增加，但输出的质量并没有显著变好。"
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Unknown",
+      "en": "And to kind of spoil the results of the experiment here, we were able to see a 64% reduction in median cost per thread with no measurable change in quality.",
+      "zh": "提前剧透一下实验结果：我们实现了每线程中位成本降低 64%，且质量没有可测量的变化。"
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Unknown",
+      "en": "Out of all of the steps, I would actually say that this one is the most important.",
+      "zh": "在所有步骤中，我其实要说这一步是最重要的。"
+    },
+    {
+      "timestamp": "03:40",
+      "speaker": "Unknown",
+      "en": "And so if you don't have a clear understanding of this task space, it's going to be very hard to develop an effective router.",
+      "zh": "所以如果你对这个任务空间没有清晰的理解，就很难开发出一个有效的路由器。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "This is what we call the Pareto frontier for LLMs.",
+      "zh": "这就是我们所说的 LLM 的帕累托前沿。"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Unknown",
+      "en": "And so generally we want to select models along this frontier.",
+      "zh": "所以一般来说，我们想沿着这条前沿选择模型。"
+    },
+    {
+      "timestamp": "07:23",
+      "speaker": "Unknown",
+      "en": "The last thing I'll call out on this slide is that GLM 5.3 Flash is actually an open model.",
+      "zh": "我在这页幻灯片上要指出的最后一件事是，GLM 5.3 Flash 实际上是一个开源模型。"
+    },
+    {
+      "timestamp": "07:35",
+      "speaker": "Unknown",
+      "en": "We use open models a lot internally, and a model router is a great opportunity to experiment with using cheaper and faster open models for tasks that they're more than equipped to handle.",
+      "zh": "我们内部大量使用开源模型，而模型路由器是一个很好的机会，可以试验用更便宜更快的开源模型来处理它们完全能胜任的任务。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Unknown",
+      "en": "But the catch is that it can be a little bit hard and expensive to develop a representative dataset.",
+      "zh": "但问题在于，开发一个有代表性的数据集可能有点困难且昂贵。"
+    },
+    {
+      "timestamp": "08:16",
+      "speaker": "Unknown",
+      "en": "And so they may experience a non-optimal router, which is the risk.",
+      "zh": "所以他们可能会体验到非最优的路由器，这就是风险。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Unknown",
+      "en": "One interesting note, we definitely did see a couple of very long threads contributing disproportionately to cost.",
+      "zh": "一个有趣的点，我们确实看到几个非常长的会话线程不成比例地推高了成本。"
+    },
+    {
+      "timestamp": "10:30",
+      "speaker": "Unknown",
+      "en": "And so we got enough complaints.",
+      "zh": "所以我们收到了足够多的投诉。"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Unknown",
+      "en": "And so we decided to stop this experiment.",
+      "zh": "于是我们决定停止这个实验。"
+    },
+    {
+      "timestamp": "10:38",
+      "speaker": "Unknown",
+      "en": "We certainly couldn't switch over to GLM 5.3 Flash for all of the tasks that OpenSuite needs to manage.",
+      "zh": "我们当然无法把 OpenSuite 需要管理的所有任务都切换到 GLM 5.3 Flash 上。"
+    },
+    {
+      "timestamp": "11:50",
+      "speaker": "Unknown",
+      "en": "One trade-off here is that if you do switch a model, you experience a cache miss, which can be costly.",
+      "zh": "这里有一个权衡：如果你切换了模型，你会遇到一次缓存未命中，这可能是昂贵的。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Unknown",
+      "en": "But for async agents like OpenSuite, there's actually a lot of cache misses anyways, just because there's more than a five minute idle time between when an agent responds and a developer has time to respond back in Slack.",
+      "zh": "但对于像 OpenSuite 这样的异步智能体来说，其实本来就有很多缓存未命中，只是因为从智能体响应到开发者有时间在 Slack 里回复之间，有超过五分钟的空闲时间。"
+    },
+    {
+      "timestamp": "12:46",
+      "speaker": "Unknown",
+      "en": "Third, treat routing as context engineering and build your router into the harness where the appropriate context is for the given tasks at hand.",
+      "zh": "第三，把路由当作上下文工程来对待，把你的路由器构建进 harness 里，也就是对于眼前的给定任务、合适的上下文所在的地方。"
+    }
+  ],
+  "voice_script": "今天要聊的这期,主角是 LangChain 开源团队的产品经理 Sydney。要讲的事很具体:如果你在用大模型搭智能体,有没有办法让它自动挑模型,把成本打下来?Sydney 做了一个实验,给开源编程智能体 OpenSWE 加了一个模型路由器,结果每个任务的中位成本下降了 64%,而且质量上没有可测量的变化。省钱六成,活儿还不掉链子,这事值得拆开讲讲。\n\n先说这个问题的来龙去脉。搭过智能体的人都知道,最贵的那个前沿模型,往往会吞掉大部分预算。但 Sydney 的出发点很简单,有句话说得挺直白:对于很多我们让智能体去做的任务,我们其实往往不需要最好的模型。这不是省钱省出来的自我安慰,连 Anthropic 这样的模型厂商都建议,先从小模型起步,不够用了再升级。因为超过某个点之后,你会陷入收益递减——成本和延迟都在涨,但输出的质量并没有显著变好。理想状态是模型、框架、任务三者匹配:用对智能和成本曲线上的那个模型,再由框架把合适的上下文喂给它。\n\n那怎么知道你的智能体该配哪些模型呢?这就要说到路由器了。路由器这个东西,你可以理解成医院的分诊台。任务请求进来,由一个分类模型,加上写着判断标准的提示词,决定这个任务该用哪个档位的模型——是快而便宜的、均衡的,还是慢而贵的高性能模型。选定之后,再由这个模型去驱动智能体把活干完。\n\n听起来不复杂,但搭起来有四步,一步一步说。\n\n第一步,先搞清楚你的智能体到底在干什么活。团队用 LangSmith 收集了 OpenSWE 每次运行的完整轨迹,做聚合分析。结果不意外:这个编程智能体的任务以代码改动为主,包括功能开发、修 bug、写测试,另外还有一些设计问题和通用问答。Sydney 认为这一步最重要,因为它是制定路由标准的根基——不清楚任务分布,就写不出有效的路由规则。团队还按任务类型统计了调用次数和成本,用来衡量复杂度,比如功能开发确实比写测试更复杂。\n\n任务摸清楚了,第二步就是挑模型。模型数据来自 Artificial Analysis 的智能指数。Sydney 把那些在性能和成本之间权衡最优的模型,称为帕累托边界——说白了,就是在基准准确率和成本延迟之间拿到最好交易的一批模型。最终选了三个:GLM 5.3 Flash 当快速档,GPT 5.6 Sol 当均衡档,GPT 6 Astra 当高性能档。顺带一提,快速档那个 GLM 5.3 Flash 是开源模型,而路由器正好是试验便宜开源模型的好机会。\n\n那这个路由器怎么装进框架里?这就是第三步。路由标准来自两个来源:一是第一步的任务分析,二是像 OpenAI 这些厂商官方的模型使用指南。有一个设计细节值得注意:路由器只在会话的第一条消息上运行一次,之后整个任务都用选定的模型,不做中途换模型。另外,最初是用 GLM 5.3 Flash 配结构化输出来做路由决策的,后来换成了专门的决策模型 JEV——号称比大模型更快更便宜,实测也确实如此。这是个很有意思的启示:路由决策本身,都不必用大模型。\n\n模型选好了、路由器装上了,第四步就是回答那个最要命的问题:怎么证明质量没掉?验证有两条路。离线评测很安全,但构建一个有代表性的数据集又贵又难。更快的方法是 A/B 测试——线上流量天然有代表性,风险是真实用户可能撞上一个还不完善的路由器。团队选了后者,追踪两个指标:合并 PR 的比率,以及用户对运行结果的点赞点踩。\n\n将近 500 个会话的结果出来了:中位成本降 64%,P90 成本降 37%,合并 PR 率没有显著差异。任务分布上,34% 进了快速档,56% 进了均衡档,只有 10% 真正需要高性能模型。也就是说,绝大多数任务,确实用不着最强的模型。\n\n这里还有个插曲,特别能说明问题。团队还试过一个对照组:全用快速模型,一刀切。结果一天之内就因为用户抱怨太多而叫停了。所以路由这件事是必要的,不能简单地全用小模型——该花的钱还是得花,只是别乱花。\n\n往后看,还有几个优化方向。比如给子智能体也配上大小合适的模型;再比如会话中途升级模型——用户聊着聊着发现要修一个复杂的 bug,可以中途换更强的模型。换模型的代价是缓存失效,成本可能不低。但对 OpenSWE 这种异步智能体来说,从智能体响应到开发者在 Slack 里回复,经常超过 5 分钟,缓存早就失效了,所以这个代价可能没那么大。此外,还可以挖掘更丰富的路由信号,让分诊台看得更准。\n\n回头看,这一集真正想说的其实就一句话:很多我们让智能体去做的任务,我们往往不需要最好的模型——给智能体配上一个分诊台,钱能省下来,活儿一点不少干。"
+}

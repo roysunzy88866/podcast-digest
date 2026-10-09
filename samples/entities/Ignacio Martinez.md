@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":11,"智能体控制框架":2,"智能体":441,"智能体记忆":3,"上下文窗口":16,"上下文腐烂":4,"智能体循环":5,"语义层":5,"持续学习":1,"MCP":82}</script>
+<script type="application/json" class="pd-epn">{"Oracle":11,"智能体控制框架":2,"智能体":444,"智能体记忆":3,"上下文窗口":16,"上下文腐烂":4,"智能体循环":5,"语义层":5,"持续学习":1,"MCP":82}</script>
 
 <script>
 (function(){

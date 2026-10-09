@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"Shopify":17,"River":2,"智能体":441,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":7,"Shopify":17,"River":2,"智能体":444,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

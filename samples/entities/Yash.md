@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":179,"Cursor":83,"Builder Pack":1,"Applied Compute":1,"All Access":1,"Base 10":2,"智能体":441,"Harvey":20,"compound engineering":2,"Windsurf":7}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":179,"Cursor":83,"Builder Pack":1,"Applied Compute":1,"All Access":1,"Base 10":2,"智能体":444,"Harvey":20,"compound engineering":2,"Windsurf":7}</script>
 
 <script>
 (function(){

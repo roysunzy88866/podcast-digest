@@ -1,0 +1,874 @@
+{
+  "episode_id": "2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo",
+  "podcast": "精选演讲",
+  "date": "2026-10-05",
+  "tags": [
+    "数据治理",
+    "非结构化数据",
+    "RAG",
+    "智能体",
+    "企业 AI"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jeff-koss",
+      "type": "person",
+      "role": "guest",
+      "name": "Jeff Koss",
+      "file": "Jeff Koss",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            20.769,
+            21.649
+          ],
+          "quote": "My name is Jeff Koss.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "leo-platzer",
+      "type": "person",
+      "role": "guest",
+      "name": "Leo Platzer",
+      "file": "Leo Platzer",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            44.84,
+            47.401
+          ],
+          "quote": "So today with me is Leo Platzer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dz-labs",
+      "type": "company",
+      "role": "company",
+      "name": "DZ Labs",
+      "file": "DZ Labs",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            21.709,
+            25.551
+          ],
+          "quote": "I'm a staff customer engineer with DZ Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            29.012,
+            31.654
+          ],
+          "quote": "Calibra acquired DZ Labs last summer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            49.983,
+            55.608
+          ],
+          "quote": "I was previously the CTO at DZ Labs, which, as Jeff has already mentioned, was acquired last year by Colibra.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天机器人 (chatbot)",
+      "file": "聊天机器人",
+      "primary": true,
+      "how_described": "本集主线场景:示例公司 North River 要做法务运营 AI 聊天机器人,40 份文件的试点成功,放大到 8 万份文件后因数据质量问题回答错误、泄露敏感信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            91.336,
+            96.801
+          ],
+          "quote": "They've accumulated them over years and years, and they need to figure out which ones are relevant for their chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            101.895,
+            107.105
+          ],
+          "quote": "And their big objective this year is they want to build a legal ops AI chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            173.839,
+            177.001
+          ],
+          "quote": "He needs a chatbot to deliver accurate responses to his team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            291.283,
+            301.628
+          ],
+          "quote": "So what we want to do is when we tag the metadata, we want to use that in our chatbot, in our vector database to make it more relevant, have better accuracy in the chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            355.709,
+            364.477
+          ],
+          "quote": "So they went from 40 files to over 80,000 files, and really what they want to do is they want to find which files are relevant for their chatbot, which have high quality,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            372.983,
+            377.046
+          ],
+          "quote": "And they want to enrich their chatbot with the metadata that they've tagged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            826.602,
+            829.383
+          ],
+          "quote": "So you want to make sure that your chatbot never gets stale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            861.719,
+            878.59
+          ],
+          "quote": "They were able to increase their data utilization for AI, increase their chatbot accuracy, because they not only were able to figure out which files to use, but also the metadata from the files, they were able to inject that and leverage that through our SDK in their chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1043.693,
+            1049.197
+          ],
+          "quote": "What we have seen is that by running on the exact same tasks, so this is a RAG chatbot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1193.67,
+            1203.395
+          ],
+          "quote": "How you can use Deasy for use cases like your Rack Chatbot or use Deasy to actually improve the performance and reduce, for example, the token cost for your agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体回答问题时,上下文可能高达 80% 被过时或重复的信息填满;清理数据能降低智能体的 token 成本与搜索开销。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1022.628,
+            1030.657
+          ],
+          "quote": "It can happen that up to 80% of your actual context your agent uses to answer a question is filled up with stale information.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集在多跳 RAG 评估上对比:清理重复与过期数据后,召回率几乎翻倍,任务完成准确率提升 10% 到 15%,且该提升与具体用例无关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1043.693,
+            1049.197
+          ],
+          "quote": "What we have seen is that by running on the exact same tasks, so this is a RAG chatbot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1055.942,
+            1058.864
+          ],
+          "quote": "It was simply multi-hop RAG evaluation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集把元数据标签注入向量数据库以提升聊天机器人相关性;数据切片定时自动刷新,保证向量数据库里的元数据始终最新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            207.508,
+            230.239
+          ],
+          "quote": "What they're able to do so far, they were able to take 40, around 40 different files, pre-curated files, and build a small little POC, small little mini pilot, where they can do parsing, chunking, OCR, embedding, and then put it in a vector database and a knowledge graph, and they got pretty good responses, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            291.283,
+            301.628
+          ],
+          "quote": "So what we want to do is when we tag the metadata, we want to use that in our chatbot, in our vector database to make it more relevant, have better accuracy in the chatbot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集反复强调上下文:30% 的脏数据可能污染 80% 的智能体上下文;并用 SDK 为每个文件夹生成 context MD 上下文清单,让 Claude Code、Codex 无需逐个翻文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            287.861,
+            290.262
+          ],
+          "quote": "And also everybody's talking about context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            626.334,
+            631.876
+          ],
+          "quote": "So I put it in there, I did this demo, and not only can we do AI based, we can do pattern based with context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            701.632,
+            703.813
+          ],
+          "quote": "And then we can also give it context as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            756.896,
+            760.598
+          ],
+          "quote": "We gave it context and based on the content of the files themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            892.214,
+            898.716
+          ],
+          "quote": "Okay, so I'm going to turn it over to my brother from another mother, Leo, and he's going to talk about context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            947.966,
+            961.978
+          ],
+          "quote": "So in DZ, for example, something which is considered duplicative is either another piece of context, like your database has changed and I can actually use it, or it is simply redundant and we will remove it from the knowledge base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1022.628,
+            1030.657
+          ],
+          "quote": "It can happen that up to 80% of your actual context your agent uses to answer a question is filled up with stale information.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1101.941,
+            1106.784
+          ],
+          "quote": "Yesterday, there was a lot of context topic, a lot of context flags around here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1108.925,
+            1116.389
+          ],
+          "quote": "I wanted to give a very, very quick demo on how you would use the DZ SDK to prepare a context repository.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1126.595,
+            1144.758
+          ],
+          "quote": "And we will then contextualize each folder within that SharePoint site, as well as create an index over all folders so that your Claude Code, for example, or your Codex does not even have to look at the individual files to figure out what to look for, but simply looks at the context MD file.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1153.528,
+            1161.392
+          ],
+          "quote": "Context files where you are directly aware what exactly is within each folder, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-quality",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据质量 (data quality)",
+      "file": "数据质量",
+      "primary": true,
+      "how_described": "本集说文档的数据质量不同于传统六维度,核心是重复信息、冲突信息与新鲜度;质量仪表盘用 AI 自动建议保留哪些文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            265.192,
+            272.235
+          ],
+          "quote": "So for me, data quality is typically the six different dimensions of data quality, completeness, conformity, accuracy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            683.787,
+            692.13
+          ],
+          "quote": "And then the last thing we can do for data quality is, you know, here's the pieces of metadata that I absolutely have to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            990.379,
+            1006.689
+          ],
+          "quote": "And we have done a lot of evaluation around what is the effect of making sure that your unstructured data quality is maintained, is consistent, and is always handled deterministically in the same way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1088.696,
+            1095.397
+          ],
+          "quote": "Because if you actually know what you want to use your data for, you can apply relevancy and all not other data quality dimensions, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1256.362,
+            1260.886
+          ],
+          "quote": "We could get a full sensitivity report on your data, data quality report as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metadata",
+      "type": "concept",
+      "role": "concept",
+      "name": "元数据 (metadata)",
+      "file": "元数据",
+      "primary": true,
+      "how_described": "本集核心做法:用 AI 给文件自动生成元数据标签,附带证据与置信度,再通过 SDK 注入聊天机器人,提高数据利用率与准确度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            291.283,
+            301.628
+          ],
+          "quote": "So what we want to do is when we tag the metadata, we want to use that in our chatbot, in our vector database to make it more relevant, have better accuracy in the chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            372.983,
+            377.046
+          ],
+          "quote": "And they want to enrich their chatbot with the metadata that they've tagged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            547.753,
+            549.573
+          ],
+          "quote": "Now what we're doing is we're going to generate the metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            554.374,
+            556.394
+          ],
+          "quote": "I can say generate metadata, and we'll run this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            683.787,
+            692.13
+          ],
+          "quote": "And then the last thing we can do for data quality is, you know, here's the pieces of metadata that I absolutely have to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            770.881,
+            780.219
+          ],
+          "quote": "And then if we want, when we generate the metadata, we're in the job, now we can see over here, here's all the sensitive information, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            847.039,
+            851.728
+          ],
+          "quote": "And then when we load the Victor database, you'll always have the most freshest metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            861.719,
+            878.59
+          ],
+          "quote": "They were able to increase their data utilization for AI, increase their chatbot accuracy, because they not only were able to figure out which files to use, but also the metadata from the files, they were able to inject that and leverage that through our SDK in their chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1119.171,
+            1126.115
+          ],
+          "quote": "So what this is doing is essentially it's going to fetch all of the metadata we have about a given SharePoint site.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1251.399,
+            1255.102
+          ],
+          "quote": "And then what we can do is we can generate metadata for each different files.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taxonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类体系 (taxonomy)",
+      "file": "分类体系",
+      "primary": true,
+      "how_described": "本集说 taxonomy 是标签的分组或标签树,可手动定义、AI 自动建议,还能设条件分支——只有法律和合同文件才进一步提取合同类型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            438.644,
+            440.864
+          ],
+          "quote": "And then over here, this is what we call a taxonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            441.224,
+            443.745
+          ],
+          "quote": "Taxonomy is a grouping of tags or a tagging tree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            488.015,
+            496.519
+          ],
+          "quote": "Now also the other thing to point out, if I have my taxonomy here, my valid values already, I can upload them through a CSV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            736.746,
+            742.567
+          ],
+          "quote": "And I can either do a flat taxonomy or multiple levels in my tagging tree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1261.286,
+            1268.151
+          ],
+          "quote": "And then we'll show you how we can build a full taxonomy based on your specific use cases, your specific files.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sharepoint",
+      "type": "concept",
+      "role": "concept",
+      "name": "SharePoint",
+      "file": "SharePoint",
+      "primary": true,
+      "how_described": "本集示例公司里堆放数百万份文档的站点,数据质量没法信;DZ 从中摄取文件、生成上下文清单并定时同步数据切片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            88.093,
+            90.956
+          ],
+          "quote": "Really what they're trying to do is they have millions of documents in SharePoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            149.384,
+            153.026
+          ],
+          "quote": "I have tons and tons, thousands and thousands of files in SharePoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            255.628,
+            258.83
+          ],
+          "quote": "On SharePoint, I can't trust the quality of the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            401.844,
+            419.356
+          ],
+          "quote": "So over here you see in SharePoint, much like what North River has, they have a whole SharePoint site full of different, you know, there's call transcripts, there's PDFs, there's Excel, there's Word documents, and they don't know which ones are relevant, which ones are focused around legal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            829.443,
+            838.766
+          ],
+          "quote": "So if there's new records, or sorry, new files that get added to SharePoint or deleted, we'll automatically pick those up and add those on a set schedule to my",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1119.171,
+            1126.115
+          ],
+          "quote": "So what this is doing is essentially it's going to fetch all of the metadata we have about a given SharePoint site.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1126.595,
+            1144.758
+          ],
+          "quote": "And we will then contextualize each folder within that SharePoint site, as well as create an index over all folders so that your Claude Code, for example, or your Codex does not even have to look at the individual files to figure out what to look for, but simply looks at the context MD file.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1169.495,
+            1171.597
+          ],
+          "quote": "of what I actually have in SharePoint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-slice",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据切片 (data slice)",
+      "file": "数据切片",
+      "primary": true,
+      "how_described": "本集介绍的 DZ 技术:按条件过滤出所需文件形成切片,可设定计划自动刷新,新文件加入或删除都会同步,确保聊天机器人不过期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            699.092,
+            701.032
+          ],
+          "quote": "And then from there, you can create a data slice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            714.342,
+            718.903
+          ],
+          "quote": "So in this case now, what I can do is I can leverage a data slice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            718.923,
+            723.684
+          ],
+          "quote": "So my data slice could be filtered based on the specific criteria that I want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            817.058,
+            826.122
+          ],
+          "quote": "So one other thing that's really important is with our data slice technology, we have workflows where you can put it on a set schedule so it's auto-refreshed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            841.188,
+            843.953
+          ],
+          "quote": "to my data slice or my AI ready data product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集演示中给 LLM 发提示词来判断该如何给文件打标签。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            462.254,
+            474.905
+          ],
+          "quote": "So here I just type in my tag name, document categorization, give it a prompt, and this prompt is what we're gonna send to the LLM to determine is this file, how should we tag this file?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "few-shot-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "少样本学习 (few shot learning)",
+      "file": "少样本学习",
+      "primary": false,
+      "how_described": "本集说对 AI 打的标签点赞点踩、给出示例,即是少样本学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            589.937,
+            591.558
+          ],
+          "quote": "So there's few shot learning as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说有了上下文清单后,Claude Code 或 Codex 不必逐个查看文件,只需看 context MD 文件就知道该找什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1049.257,
+            1055.561
+          ],
+          "quote": "It's not running an actual, let's say, Claude Code task or Codex on a coding task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1126.595,
+            1144.758
+          ],
+          "quote": "And we will then contextualize each folder within that SharePoint site, as well as create an index over all folders so that your Claude Code, for example, or your Codex does not even have to look at the individual files to figure out what to look for, but simply looks at the context MD file.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "敏感信息扫描 (sensitivity)",
+      "file": "敏感信息扫描",
+      "primary": false,
+      "how_described": "本集演示扫描 PII/PHI 等敏感信息,甚至现场配置芬兰国民身份证号识别,自动加上芬兰语词汇以减少误报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            153.466,
+            156.508
+          ],
+          "quote": "I need to find just the relevant ones with no sensitivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            159.81,
+            162.291
+          ],
+          "quote": "She wants to make sure that no sensitivity is leaked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            604.165,
+            608.547
+          ],
+          "quote": "So we also have the ability to scan for sensitivity as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1256.362,
+            1260.886
+          ],
+          "quote": "We could get a full sensitivity report on your data, data quality report as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Collibra",
+      "reason": "专名「Collibra」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -163,11 +163,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jev":6,"TypeSafe":4,"RLHF":6,"OpenAI":179,"RLCD":2,"可靠性":3,"RLVR":3,"分类器":2,"校准":4,"ChatGPT":100}</script>
+<script type="application/json" class="pd-epn">{"Jev":7,"TypeSafe":4,"RLHF":6,"OpenAI":179,"RLCD":2,"可靠性":3,"RLVR":3,"分类器":2,"校准":4,"ChatGPT":100}</script>
 
 <script>
 (function(){

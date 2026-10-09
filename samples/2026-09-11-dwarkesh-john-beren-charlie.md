@@ -258,7 +258,7 @@ John 预期模型继续变大，但因为高质量预训练数据开始短缺，
 
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同公司:Harvey · 同概念:RL、后训练 (post-training)、持续学习 (continual learning)、智能体 (agent)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、DeepMind、OpenAI · 同概念:智能体 (agent)、蒸馏 (distillation)、推理 (inference)</span>
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、蒸馏 (distillation)、缩放定律 (scaling laws)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

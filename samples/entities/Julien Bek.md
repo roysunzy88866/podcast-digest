@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]] [[Dylan Patel]] [[Woodson Martin]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Sequoia":7,"智能体":441,"Copilot":12,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":21}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Sequoia":7,"智能体":444,"Copilot":12,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":21}</script>
 
 <script>
 (function(){

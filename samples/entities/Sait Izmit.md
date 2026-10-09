@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":20,"Cowork":6,"智能体":441,"MCP":82,"变革管理":4,"语义视图":1,"技能":29,"反馈回路":3,"护栏":84}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":20,"Cowork":6,"智能体":444,"MCP":82,"变革管理":4,"语义视图":1,"技能":29,"反馈回路":3,"护栏":84}</script>
 
 <script>
 (function(){

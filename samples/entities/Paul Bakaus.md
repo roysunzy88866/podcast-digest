@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":61,"品味":15,"智能体":441,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":97,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":61,"品味":15,"智能体":444,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":98,"形容词引导设计":1}</script>
 
 <script>
 (function(){

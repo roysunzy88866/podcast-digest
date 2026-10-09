@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[评估]] · [[Anthropic]] · [[go-to-market]] · [[上下文]] · [[PLG]] · [[Madhavan Ramanujam]] · [[Simon Maple]] · [[Christopher Lovejoy]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"Cursor":83,"评估":5,"Anthropic":189,"go-to-market":14,"上下文":28,"PLG":12,"Madhavan Ramanujam":1,"Simon Maple":10,"Christopher Lovejoy":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":444,"Cursor":83,"评估":5,"Anthropic":190,"go-to-market":14,"上下文":29,"PLG":12,"Madhavan Ramanujam":1,"Simon Maple":10,"Christopher Lovejoy":1}</script>
 
 <script>
 (function(){

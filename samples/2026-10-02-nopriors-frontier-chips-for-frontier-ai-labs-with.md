@@ -126,9 +126,9 @@ Fractile 宣称单芯片带宽可达 HBM 方案的 25 倍。这不只是跑现�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限]]<span class="pd-rz">同公司:NVIDIA · 同概念:内存带宽 (memory bandwidth)、推理 (inference)、缩放定律 (scaling laws)</span>
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:NVIDIA、TSMC、AMD、Cerebrus · 同概念:推理 (inference)</span>
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、缩放定律 (scaling laws)</span>
-- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:LLM、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

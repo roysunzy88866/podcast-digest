@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":15,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":441,"多智能体工作流":2,"go-to-market":14,"MCP":82,"可观测性":38,"LLM":58}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":15,"Salesforce":34,"Cloudflare OS":1,"技能文件":4,"智能体":444,"多智能体工作流":2,"go-to-market":14,"MCP":82,"可观测性":38,"LLM":58}</script>
 
 <script>
 (function(){

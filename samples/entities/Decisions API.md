@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Codex]] · [[ChatGPT]] · [[Ultrafast]] · [[推理]] · [[Astra]] · [[Dots]] · [[Dot]] · [[Ari]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":179,"智能体":441,"Codex":80,"ChatGPT":100,"Ultrafast":2,"推理":86,"Astra":7,"Dots":3,"Dot":2,"Ari":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":179,"智能体":444,"Codex":80,"ChatGPT":100,"Ultrafast":2,"推理":87,"Astra":7,"Dots":3,"Dot":2,"Ari":1}</script>
 
 <script>
 (function(){

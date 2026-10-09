@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]] [[Moritz Beller]] [[Jan Čurn]]
+[[Matt Jones]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]] [[Brian Hook]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":83,"智能体":441,"token":32,"harness":61,"上下文窗口":16,"提示词":21,"缓存":1,"压缩":3,"模型选择":1}</script>
+<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":83,"智能体":444,"token":32,"harness":61,"上下文窗口":16,"提示词":22,"缓存":1,"压缩":3,"模型选择":1}</script>
 
 <script>
 (function(){

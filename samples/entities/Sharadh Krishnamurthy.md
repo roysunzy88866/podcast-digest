@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":48,"Kai":1,"智能体":441,"governance":7,"项目":1,"工具策略":1,"人在回路":21,"技能":29,"沙箱":85}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":48,"Kai":1,"智能体":444,"governance":7,"项目":1,"工具策略":1,"人在回路":21,"技能":29,"沙箱":85}</script>
 
 <script>
 (function(){

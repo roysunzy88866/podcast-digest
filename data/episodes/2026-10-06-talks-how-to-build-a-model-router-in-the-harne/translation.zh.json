@@ -1,0 +1,1082 @@
+[
+ {
+  "seg": 0,
+  "start": 0.031,
+  "end": 1.352,
+  "speaker": "Unknown",
+  "en": "Hey folks, my name is Sydney.",
+  "zh": "大家好，我叫 Sydney。"
+ },
+ {
+  "seg": 1,
+  "start": 1.512,
+  "end": 4.634,
+  "speaker": "Unknown",
+  "en": "I'm the product manager for the open source team at LangChain.",
+  "zh": "我是 LangChain 开源团队的产品经理。"
+ },
+ {
+  "seg": 2,
+  "start": 4.934,
+  "end": 12.6,
+  "speaker": "Unknown",
+  "en": "And today I'm super excited to share with you how you can build a model router in the harness to reduce cost without sacrificing quality.",
+  "zh": "今天我非常激动地和大家分享，如何在 harness 中构建一个模型路由器，在不牺牲质量的前提下降低成本。"
+ },
+ {
+  "seg": 3,
+  "start": 13.537,
+  "end": 14.037,
+  "speaker": "Unknown",
+  "en": "Let's jump in.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 4,
+  "start": 14.838,
+  "end": 20.521,
+  "speaker": "Unknown",
+  "en": "So the motivating problem for building a model router is that frontier intelligence is really expensive.",
+  "zh": "那么，构建模型路由器的动因问题是，前沿智能真的非常昂贵。"
+ },
+ {
+  "seg": 5,
+  "start": 20.721,
+  "end": 25.884,
+  "speaker": "Unknown",
+  "en": "And so if you're building agents that work at scale, this cost can be prohibitive.",
+  "zh": "如果你正在构建大规模运行的智能体，这个成本可能会高得令人望而却步。"
+ },
+ {
+  "seg": 6,
+  "start": 26.324,
+  "end": 32.768,
+  "speaker": "Unknown",
+  "en": "And so model routing can help to reduce cost theoretically without sacrificing quality if it's done well.",
+  "zh": "而模型路由如果做得好，理论上可以在不牺牲质量的前提下帮助降低成本。"
+ },
+ {
+  "seg": 7,
+  "start": 34.138,
+  "end": 48.603,
+  "speaker": "Unknown",
+  "en": "I have a quote here showing that model providers like Anthropic even recommend starting with smaller models, in this case like Claude Haiku, before graduating to a more intelligent model like Opus because a lot of tasks can be done with these cheaper models.",
+  "zh": "我这里引用了一段话，显示像 Anthropic 这样的模型提供商甚至推荐先从小模型开始，比如 Claude Haiku，再升级到像 Opus 这样更智能的模型，因为很多任务用这些更便宜的模型就能完成。"
+ },
+ {
+  "seg": 8,
+  "start": 49.203,
+  "end": 57.146,
+  "speaker": "Unknown",
+  "en": "So I'm basically assuming here that we often don't need the best model for a lot of tasks that we ask our agent to do.",
+  "zh": "所以我在这里基本上是在假设：对于很多我们让智能体去做的任务，我们往往不需要最好的模型。"
+ },
+ {
+  "seg": 9,
+  "start": 57.546,
+  "end": 64.591,
+  "speaker": "Unknown",
+  "en": "Past a certain point, you kind of hit diminishing returns where your cost and latency are increasing, but the quality of the outputs are not significantly better.",
+  "zh": "超过某个点之后，你会有点陷入收益递减：成本和延迟在增加，但输出的质量并没有显著变好。"
+ },
+ {
+  "seg": 10,
+  "start": 65.511,
+  "end": 69.214,
+  "speaker": "Unknown",
+  "en": "And ideally, an agent has good model harness task fit.",
+  "zh": "理想情况下，智能体应该有良好的模型-harness-任务契合度。"
+ },
+ {
+  "seg": 11,
+  "start": 70.454,
+  "end": 71.115,
+  "speaker": "Unknown",
+  "en": "And what does that mean?",
+  "zh": "这是什么意思呢？"
+ },
+ {
+  "seg": 12,
+  "start": 71.595,
+  "end": 83.403,
+  "speaker": "Unknown",
+  "en": "It means you have the right model for the job on the intelligence and cost curve here, and then your harness does a good job of getting the right context to the model for the given task at hand.",
+  "zh": "意味着你在智能和成本曲线上为工作选择了正确的模型，而且你的 harness 能很好地把当前给定任务所需的正确上下文传给模型。"
+ },
+ {
+  "seg": 13,
+  "start": 84.32,
+  "end": 85.922,
+  "speaker": "Unknown",
+  "en": "So what does a model router actually do?",
+  "zh": "那么模型路由器到底是做什么的？"
+ },
+ {
+  "seg": 14,
+  "start": 86.442,
+  "end": 88.224,
+  "speaker": "Unknown",
+  "en": "It picks the right model for each task.",
+  "zh": "它为每个任务挑选正确的模型。"
+ },
+ {
+  "seg": 15,
+  "start": 89.004,
+  "end": 100.635,
+  "speaker": "Unknown",
+  "en": "And so a task request comes in and a router has a classifier model and then a prompt with some criteria that help it decide what model would be most appropriate for a given task.",
+  "zh": "一个任务请求进来，路由器有一个分类器模型，然后配合一个带有某些标准的提示词，帮助它决定哪个模型最适合给定的任务。"
+ },
+ {
+  "seg": 16,
+  "start": 101.076,
+  "end": 108.543,
+  "speaker": "Unknown",
+  "en": "So would that be a fast and cheap model, maybe something balanced or a performance focused model that's going to be slower and more expensive?",
+  "zh": "那么，那会是一个快速且便宜的模型，或许是某种均衡的模型，还是一个专注于性能、会更慢更贵的模型？"
+ },
+ {
+  "seg": 17,
+  "start": 109.475,
+  "end": 111.355,
+  "speaker": "Unknown",
+  "en": "Then it selects the given model for the task.",
+  "zh": "然后它为该任务选出给定的模型。"
+ },
+ {
+  "seg": 18,
+  "start": 112.096,
+  "end": 115.616,
+  "speaker": "Unknown",
+  "en": "And then that model is used to power the agent that completes the task.",
+  "zh": "接着用那个模型来驱动完成任务的智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 116.416,
+  "end": 119.557,
+  "speaker": "Unknown",
+  "en": "And so our testbed here was OpenSui, our open source coding agent.",
+  "zh": "我们的测试平台是 OpenSui，我们的开源编码智能体。"
+ },
+ {
+  "seg": 20,
+  "start": 120.277,
+  "end": 130.239,
+  "speaker": "Unknown",
+  "en": "And to kind of spoil the results of the experiment here, we were able to see a 64% reduction in median cost per thread with no measurable change in quality.",
+  "zh": "提前剧透一下实验结果：我们实现了每线程中位成本降低 64%，且质量没有可测量的变化。"
+ },
+ {
+  "seg": 21,
+  "start": 130.459,
+  "end": 137.341,
+  "speaker": "Unknown",
+  "en": "There's four steps for building a model router and I'll explain them through the lens of this OpenSui experiment that we ran.",
+  "zh": "构建模型路由器有四个步骤，我会通过我们进行的这个 OpenSui 实验的视角来讲解。"
+ },
+ {
+  "seg": 22,
+  "start": 138.121,
+  "end": 139.142,
+  "speaker": "Unknown",
+  "en": "But a little sneak peek here.",
+  "zh": "不过先稍微剧透一下。"
+ },
+ {
+  "seg": 23,
+  "start": 139.623,
+  "end": 142.786,
+  "speaker": "Unknown",
+  "en": "First, you need to understand the tasks that your agent works on.",
+  "zh": "第一步，你需要了解你的智能体处理的任务。"
+ },
+ {
+  "seg": 24,
+  "start": 143.467,
+  "end": 146.109,
+  "speaker": "Unknown",
+  "en": "You need to understand the models available for these tasks.",
+  "zh": "你需要了解这些任务可用的模型。"
+ },
+ {
+  "seg": 25,
+  "start": 147.13,
+  "end": 150.954,
+  "speaker": "Unknown",
+  "en": "Then with one and two done, you can build the router in your agent's harness.",
+  "zh": "然后在完成第一和第二步之后，你可以在智能体的 harness 中构建路由器。"
+ },
+ {
+  "seg": 26,
+  "start": 151.615,
+  "end": 157.06,
+  "speaker": "Unknown",
+  "en": "And it's very important to track task outcomes so that you can understand if your router is working well.",
+  "zh": "并且，跟踪任务结果非常重要，这样你才能了解你的路由器是否运行良好。"
+ },
+ {
+  "seg": 27,
+  "start": 157.361,
+  "end": 159.743,
+  "speaker": "Unknown",
+  "en": "That is reducing cost without sacrificing quality.",
+  "zh": "也就是说，在不牺牲质量的前提下降低成本。"
+ },
+ {
+  "seg": 28,
+  "start": 160.502,
+  "end": 163.144,
+  "speaker": "Unknown",
+  "en": "Okay, so let's talk about step one, understanding the tasks.",
+  "zh": "好，我们来谈谈第一步，了解任务。"
+ },
+ {
+  "seg": 29,
+  "start": 164.004,
+  "end": 169.108,
+  "speaker": "Unknown",
+  "en": "The first thing that we did was try to understand what our coding agent OpenSwe is being tasked with.",
+  "zh": "我们做的第一件事，就是试图了解我们的编码智能体 OpenSwe 被分配了什么任务。"
+ },
+ {
+  "seg": 30,
+  "start": 169.608,
+  "end": 171.449,
+  "speaker": "Unknown",
+  "en": "This was all done using LangSmith.",
+  "zh": "这全部是使用 LangSmith 完成的。"
+ },
+ {
+  "seg": 31,
+  "start": 171.97,
+  "end": 179.895,
+  "speaker": "Unknown",
+  "en": "So every time our coding agent runs, it sends a trace to LangSmith that has a record of every step that that agent took.",
+  "zh": "所以每次我们的编码智能体运行时，它都会向 LangSmith 发送一条 trace，记录该智能体所采取的每一步。"
+ },
+ {
+  "seg": 32,
+  "start": 180.455,
+  "end": 188.621,
+  "speaker": "Unknown",
+  "en": "And so we were able to use all of those traces and do aggregate analysis over them to determine what types of tasks our agent was doing.",
+  "zh": "于是我们能够利用所有这些 trace 并对它们做聚合分析，来确定我们的智能体在执行什么类型的任务。"
+ },
+ {
+  "seg": 33,
+  "start": 189.412,
+  "end": 197.365,
+  "speaker": "Unknown",
+  "en": "So you can see here, unsurprisingly for a coding agent, that code changes dominated things like feature requests, bug fixes, and tests.",
+  "zh": "你可以在这里看到，对于一个编码智能体来说毫不意外，代码变更占据了主导，比如功能请求、bug 修复和测试。"
+ },
+ {
+  "seg": 34,
+  "start": 197.905,
+  "end": 202.533,
+  "speaker": "Unknown",
+  "en": "But there were also some things like design questions and general purpose questions.",
+  "zh": "但也有一些像设计问题和一般性问题这样的内容。"
+ },
+ {
+  "seg": 35,
+  "start": 208.16,
+  "end": 211.482,
+  "speaker": "Unknown",
+  "en": "Out of all of the steps, I would actually say that this one is the most important.",
+  "zh": "在所有步骤中，我其实要说过一步是最重要的。"
+ },
+ {
+  "seg": 36,
+  "start": 211.923,
+  "end": 216.126,
+  "speaker": "Unknown",
+  "en": "This is what you use as the foundation for building your criteria for the router.",
+  "zh": "这是你构建路由器标准时所用的基础。"
+ },
+ {
+  "seg": 37,
+  "start": 216.426,
+  "end": 220.429,
+  "speaker": "Unknown",
+  "en": "You know, deciding what types of tasks should be assigned which model.",
+  "zh": "就是决定什么类型的任务应该分配哪个模型。"
+ },
+ {
+  "seg": 38,
+  "start": 220.829,
+  "end": 226.794,
+  "speaker": "Unknown",
+  "en": "And so if you don't have a clear understanding of this task space, it's going to be very hard to develop an effective router.",
+  "zh": "所以如果你对这个任务空间没有清晰的理解，就很难开发出一个有效的路由器。"
+ },
+ {
+  "seg": 39,
+  "start": 227.454,
+  "end": 231.858,
+  "speaker": "Unknown",
+  "en": "And LangSmith, as I mentioned, was very instrumental for us in helping understand this space.",
+  "zh": "而 LangSmith，正如我提到的，对我们理解这个任务空间非常有帮助。"
+ },
+ {
+  "seg": 40,
+  "start": 232.758,
+  "end": 238.203,
+  "speaker": "Unknown",
+  "en": "I actually built a custom app on top of LangSmith to help me better understand this trace data.",
+  "zh": "我实际上在 LangSmith 之上构建了一个自定义应用，来帮助我更好地理解这些 trace 数据。"
+ },
+ {
+  "seg": 41,
+  "start": 238.583,
+  "end": 247.93,
+  "speaker": "Unknown",
+  "en": "So you can see kind of the categories here and then active agent time and observe LLM cost filtered by different types of requests.",
+  "zh": "你可以在这里看到类别，然后是智能体活跃时间和 LLM 成本，按不同类型的请求过滤。"
+ },
+ {
+  "seg": 42,
+  "start": 248.991,
+  "end": 254.155,
+  "speaker": "Unknown",
+  "en": "Overall, this was super helpful for basically exploratory data analysis over my traces.",
+  "zh": "总的来说，这对我对 trace 做探索性数据分析非常有帮助。"
+ },
+ {
+  "seg": 43,
+  "start": 255.025,
+  "end": 264.873,
+  "speaker": "Unknown",
+  "en": "Also as part of step one, I wanted to better understand how complexity varied by task type, knowing that we probably want a more intelligent model for more complex tasks.",
+  "zh": "作为第一步的一部分，我还想更好地了解复杂度如何随任务类型变化，因为我们知道对于更复杂的任务，我们可能需要更智能的模型。"
+ },
+ {
+  "seg": 44,
+  "start": 265.614,
+  "end": 277.004,
+  "speaker": "Unknown",
+  "en": "So you can see here, we measured median invocations, so that's the number of times OpenSwee was called, and then also the median LLM cost for these different buckets of tasks.",
+  "zh": "你可以在这里看到，我们测量了中位调用次数，也就是 OpenSwee 被调用的次数，还有这些不同任务类别的中位 LLM 成本。"
+ },
+ {
+  "seg": 45,
+  "start": 278.303,
+  "end": 285.688,
+  "speaker": "Unknown",
+  "en": "And then we generally rated a task as more complex if the number of invocations were higher or the LLM cost was higher.",
+  "zh": "我们一般把调用次数更多或 LLM 成本更高的任务评为更复杂。"
+ },
+ {
+  "seg": 46,
+  "start": 286.349,
+  "end": 292.833,
+  "speaker": "Unknown",
+  "en": "And you can see kind of unsurprisingly here that like feature work was generally more complex than say testing work.",
+  "zh": "你可以在这里看到，毫不意外，功能工作通常比测试工作更复杂。"
+ },
+ {
+  "seg": 47,
+  "start": 293.679,
+  "end": 296.101,
+  "speaker": "Unknown",
+  "en": "All right, so this part is actually quite fun.",
+  "zh": "好，这部分其实相当有趣。"
+ },
+ {
+  "seg": 48,
+  "start": 296.341,
+  "end": 300.885,
+  "speaker": "Unknown",
+  "en": "Step two is understanding the models available for your tasks.",
+  "zh": "第二步是了解你的任务可用的模型。"
+ },
+ {
+  "seg": 49,
+  "start": 300.905,
+  "end": 308.571,
+  "speaker": "Unknown",
+  "en": "So this data is pulled from the Artificial Analysis Intelligence Index as of September 9th, 2026, which is when we began this experiment.",
+  "zh": "这些数据来自截至 2026 年 9 月 9 日的 Artificial Analysis Intelligence Index，也就是我们开始这个实验的时候。"
+ },
+ {
+  "seg": 50,
+  "start": 309.37,
+  "end": 312.972,
+  "speaker": "Unknown",
+  "en": "And you can see on the x-axis, we have the cost per intelligence task.",
+  "zh": "你可以看到在 x 轴上，是每个智能任务的成本。"
+ },
+ {
+  "seg": 51,
+  "start": 313.412,
+  "end": 318.054,
+  "speaker": "Unknown",
+  "en": "And then on the y-axis, we have the artificial analysis intelligence index.",
+  "zh": "然后在 y 轴上，是 artificial analysis 智能指数。"
+ },
+ {
+  "seg": 52,
+  "start": 318.874,
+  "end": 322.016,
+  "speaker": "Unknown",
+  "en": "This is what we call the Pareto frontier for LLMs.",
+  "zh": "这就是我们所说的 LLM 的帕累托前沿。"
+ },
+ {
+  "seg": 53,
+  "start": 322.456,
+  "end": 331.12,
+  "speaker": "Unknown",
+  "en": "It's a set of optimal models that have a good trade-off between benchmark accuracy and evals compared to cost and latency.",
+  "zh": "它是一组最优模型，在基准准确率和评测与成本和延迟之间有很好的权衡。"
+ },
+ {
+  "seg": 54,
+  "start": 331.9,
+  "end": 335.842,
+  "speaker": "Unknown",
+  "en": "And so generally we want to select models along this frontier.",
+  "zh": "所以一般来说，我们想沿着这条前沿选择模型。"
+ },
+ {
+  "seg": 55,
+  "start": 336.643,
+  "end": 346.008,
+  "speaker": "Unknown",
+  "en": "And then given that we were designing a model router, we wanted to choose a small set of models here that had some trade-offs between their speed and intelligence index.",
+  "zh": "然后鉴于我们在设计一个模型路由器，我们想在这里选一小组模型，它们在速度和智能指数之间有一些权衡。"
+ },
+ {
+  "seg": 56,
+  "start": 347.089,
+  "end": 358.756,
+  "speaker": "Unknown",
+  "en": "The models that we ended up choosing were GLM 5.3 Flash for our fast model, GPT 5.6 Sol for our balanced model, and then GPT 6 Astra for our performance tier.",
+  "zh": "我们最终选择的模型是 GLM 5.3 Flash 作为我们的快速模型，GPT 5.6 Sol 作为我们的均衡模型，然后 GPT 6 Astra 作为我们的性能档。"
+ },
+ {
+  "seg": 57,
+  "start": 359.619,
+  "end": 361.581,
+  "speaker": "Unknown",
+  "en": "Step three is building the router in the harness.",
+  "zh": "第三步是在 harness 中构建路由器。"
+ },
+ {
+  "seg": 58,
+  "start": 362.521,
+  "end": 368.726,
+  "speaker": "Unknown",
+  "en": "So we used two sources of data to decide on the criteria for our initial version of the router.",
+  "zh": "我们使用了两个数据来源来确定路由器初始版本的判断标准。"
+ },
+ {
+  "seg": 59,
+  "start": 369.186,
+  "end": 372.729,
+  "speaker": "Unknown",
+  "en": "The first was the understanding of those tasks that we saw in step one.",
+  "zh": "第一个是我们在第一步中看到的对这些任务的理解。"
+ },
+ {
+  "seg": 60,
+  "start": 373.39,
+  "end": 380.635,
+  "speaker": "Unknown",
+  "en": "And the second was the official provider guides from OpenAI, for example, on which models to use for which tasks.",
+  "zh": "第二个是来自 OpenAI 等供应商的官方指南，关于哪些任务该用哪些模型。"
+ },
+ {
+  "seg": 61,
+  "start": 381.656,
+  "end": 387.14,
+  "speaker": "Unknown",
+  "en": "And so you can see a couple of the descriptors that we used for each of the criteria for a given model.",
+  "zh": "你可以看到我们为给定模型的每条判断标准所使用的一些描述。"
+ },
+ {
+  "seg": 62,
+  "start": 387.892,
+  "end": 396.599,
+  "speaker": "Unknown",
+  "en": "Also important to note for our router here, the router just runs once on the thread's first message and then selects the model for the remainder of the task.",
+  "zh": "这里对我们的路由器同样重要的是，路由器只在该会话线程的第一条消息上运行一次，然后为任务的其余部分选定模型。"
+ },
+ {
+  "seg": 63,
+  "start": 397.119,
+  "end": 400.742,
+  "speaker": "Unknown",
+  "en": "This is different from some routers which do this like mid-flight routing.",
+  "zh": "这与一些做类似中途路由的路由器不同。"
+ },
+ {
+  "seg": 64,
+  "start": 401.222,
+  "end": 408.748,
+  "speaker": "Unknown",
+  "en": "We decided to just do a simple version for our first pass, but when I talk about upcoming improvements or further work, mid-thread routing is covered.",
+  "zh": "我们决定第一版只做一个简单的版本，但当我谈到即将到来的改进或后续工作时，会讲到线程中途路由。"
+ },
+ {
+  "seg": 65,
+  "start": 409.288,
+  "end": 419.854,
+  "speaker": "Unknown",
+  "en": "So when we initially built this router in early September, we used a small LLM, specifically GLM 5.3 Flash, to do the routing decision with structured output.",
+  "zh": "所以当我们在 9 月初最初构建这个路由器时，我们使用了一个小型 LLM，具体是 GLM 5.3 Flash，通过结构化输出来做路由决策。"
+ },
+ {
+  "seg": 66,
+  "start": 421.035,
+  "end": 432.622,
+  "speaker": "Unknown",
+  "en": "But after the experiment, JEV, a popular decision model, came out and had claims of being significantly faster and cheaper than LLMs with more constrained decision-making powers.",
+  "zh": "但在实验之后，JEV，一个流行的决策模型，发布了，声称比 LLM 明显更快更便宜，且决策能力更受限。"
+ },
+ {
+  "seg": 67,
+  "start": 433.222,
+  "end": 437.925,
+  "speaker": "Unknown",
+  "en": "And so we are now powering our OpenSWE router with JEV, the decision model,",
+  "zh": "所以我们现在用 JEV 这个决策模型来驱动我们的 OpenSWE 路由器，"
+ },
+ {
+  "seg": 68,
+  "start": 438.743,
+  "end": 441.944,
+  "speaker": "Unknown",
+  "en": "And it's much faster and much cheaper, as Jeb advertised.",
+  "zh": "而且它确实如 Jeb 宣传的那样，快得多也便宜得多。"
+ },
+ {
+  "seg": 69,
+  "start": 443.325,
+  "end": 448.367,
+  "speaker": "Unknown",
+  "en": "The last thing I'll call out on this slide is that GLM 5.3 Flash is actually an open model.",
+  "zh": "我在这页幻灯片上要指出的最后一件事是，GLM 5.3 Flash 实际上是一个开源模型。"
+ },
+ {
+  "seg": 70,
+  "start": 448.847,
+  "end": 453.069,
+  "speaker": "Unknown",
+  "en": "At LangChain a while ago, we wrote a blog about open models crossing a threshold.",
+  "zh": "在 LangChain 之前，我们写过一篇关于开源模型跨越门槛的博客。"
+ },
+ {
+  "seg": 71,
+  "start": 453.63,
+  "end": 454.81,
+  "speaker": "Unknown",
+  "en": "We definitely think that's true.",
+  "zh": "我们确实认为那是真的。"
+ },
+ {
+  "seg": 72,
+  "start": 455.17,
+  "end": 465.715,
+  "speaker": "Unknown",
+  "en": "We use open models a lot internally, and a model router is a great opportunity to experiment with using cheaper and faster open models for tasks that they're more than equipped to handle.",
+  "zh": "我们内部大量使用开源模型，而模型路由器是一个很好的机会，可以试验用更便宜更快的开源模型来处理它们完全能胜任的任务。"
+ },
+ {
+  "seg": 73,
+  "start": 466.255,
+  "end": 470.759,
+  "speaker": "Unknown",
+  "en": "Okay, and then for step four, you need to decide how you're going to track your task outcomes.",
+  "zh": "好的，然后第四步，你需要决定如何追踪你的任务结果。"
+ },
+ {
+  "seg": 74,
+  "start": 471.34,
+  "end": 472.941,
+  "speaker": "Unknown",
+  "en": "There's two main ways you can do this.",
+  "zh": "主要有两种方式可以做到这一点。"
+ },
+ {
+  "seg": 75,
+  "start": 473.582,
+  "end": 475.343,
+  "speaker": "Unknown",
+  "en": "The first is through offline evals.",
+  "zh": "第一种是通过离线评测。"
+ },
+ {
+  "seg": 76,
+  "start": 475.763,
+  "end": 477.045,
+  "speaker": "Unknown",
+  "en": "So this is very safe.",
+  "zh": "这非常安全。"
+ },
+ {
+  "seg": 77,
+  "start": 477.285,
+  "end": 480.127,
+  "speaker": "Unknown",
+  "en": "You have, you know, repeatable comparisons and experiments that you can run.",
+  "zh": "你可以运行可重复的比较和实验。"
+ },
+ {
+  "seg": 78,
+  "start": 480.608,
+  "end": 485.492,
+  "speaker": "Unknown",
+  "en": "But the catch is that it can be a little bit hard and expensive to develop a representative dataset.",
+  "zh": "但问题在于，开发一个有代表性的数据集可能有点困难且昂贵。"
+ },
+ {
+  "seg": 79,
+  "start": 486.392,
+  "end": 492.378,
+  "speaker": "Unknown",
+  "en": "And so the faster approach here is to do an A-B test where you know that your live traffic is representative.",
+  "zh": "所以这里更快的方法是做 A-B 测试，这样你就知道你的线上流量是有代表性的。"
+ },
+ {
+  "seg": 80,
+  "start": 492.718,
+  "end": 496.842,
+  "speaker": "Unknown",
+  "en": "But the catch here is that, you know, we're running this experiment for our live users.",
+  "zh": "但问题在于，我们是在为线上用户运行这个实验。"
+ },
+ {
+  "seg": 81,
+  "start": 496.983,
+  "end": 500.907,
+  "speaker": "Unknown",
+  "en": "And so they may experience a non-optimal router, which is the risk.",
+  "zh": "所以他们可能会体验到非最优的路由器，这就是风险。"
+ },
+ {
+  "seg": 82,
+  "start": 501.768,
+  "end": 507.451,
+  "speaker": "Unknown",
+  "en": "And so the two outcomes that we were tracking with our AB test were the merged PR rate.",
+  "zh": "我们在 AB 测试中追踪的两个结果是 PR 合并率。"
+ },
+ {
+  "seg": 83,
+  "start": 507.972,
+  "end": 515.116,
+  "speaker": "Unknown",
+  "en": "And then also we enabled users to provide feedback on OpenSwee runs so they could either give a thumbs up or a thumb down.",
+  "zh": "另外我们还让用户可以对 OpenSwee 运行提供反馈，他们可以点赞或点踩。"
+ },
+ {
+  "seg": 84,
+  "start": 515.937,
+  "end": 529.205,
+  "speaker": "Unknown",
+  "en": "And so you can imagine we want to make sure that for the 50% of threads that run through this new router, the merged PR rate doesn't go down significantly and the feedback is not significantly different either.",
+  "zh": "你可以想象，我们想确保对于通过这个新路由器运行的 50% 会话线程，PR 合并率不会显著下降，反馈也没有显著差异。"
+ },
+ {
+  "seg": 85,
+  "start": 529.945,
+  "end": 532.548,
+  "speaker": "Unknown",
+  "en": "All right, so experiment number one, what were our results?",
+  "zh": "好了，那么实验一，我们的结果是什么？"
+ },
+ {
+  "seg": 86,
+  "start": 533.149,
+  "end": 541.699,
+  "speaker": "Unknown",
+  "en": "We had almost 500 threads, and you can see that the median cost per thread for the router was much lower, 64% lower.",
+  "zh": "我们有将近 500 个会话线程，你可以看到路由器的每线程中位成本要低得多，低了 64%。"
+ },
+ {
+  "seg": 87,
+  "start": 542.48,
+  "end": 547.085,
+  "speaker": "Unknown",
+  "en": "The mean cost was also lower, and then the P90 cost per thread was lower by 37%.",
+  "zh": "平均成本也更低，然后每线程 P90 成本低了 37%。"
+ },
+ {
+  "seg": 88,
+  "start": 548.815,
+  "end": 557.343,
+  "speaker": "Unknown",
+  "en": "We see actually for this case more threads from the routed version ending in a merged PR, although the difference was not statistically significant.",
+  "zh": "在这个案例中，我们实际上看到路由版本有更多会话线程以 PR 合并结束，尽管差异在统计上不显著。"
+ },
+ {
+  "seg": 89,
+  "start": 557.904,
+  "end": 562.268,
+  "speaker": "Unknown",
+  "en": "And then we also see that the PR open rate was pretty comparable across our A and B branches.",
+  "zh": "然后我们还看到 PR 打开率在我们的 A 和 B 分支之间相当接近。"
+ },
+ {
+  "seg": 90,
+  "start": 563.274,
+  "end": 568.22,
+  "speaker": "Unknown",
+  "en": "You can see on this breakdown kind of the proportion of tasks that were sent to each of the model tiers.",
+  "zh": "你可以在这个细分中看到发送到每个模型档的任务比例。"
+ },
+ {
+  "seg": 91,
+  "start": 568.68,
+  "end": 576.389,
+  "speaker": "Unknown",
+  "en": "So we had 34% sent to the fast tier, 56% sent to the balanced tier, and only 10% sent to performance.",
+  "zh": "我们有 34% 发送到快速档，56% 发送到均衡档，只有 10% 发送到性能档。"
+ },
+ {
+  "seg": 92,
+  "start": 577.23,
+  "end": 581.054,
+  "speaker": "Unknown",
+  "en": "You can see on the far left kind of the different distribution of costs for the",
+  "zh": "你可以在最左边看到成本的不同分布，对于"
+ },
+ {
+  "seg": 93,
+  "start": 582.568,
+  "end": 584.569,
+  "speaker": "Unknown",
+  "en": "Always performance model versus the routed.",
+  "zh": "总是性能模型对比路由版本。"
+ },
+ {
+  "seg": 94,
+  "start": 584.97,
+  "end": 593.556,
+  "speaker": "Unknown",
+  "en": "And then you can see on the right side for the routed threads, we had much cheaper fast runs and then the performance runs.",
+  "zh": "然后你可以在右边看到，对于路由的会话线程，我们有便宜得多的快速运行，然后是性能运行。"
+ },
+ {
+  "seg": 95,
+  "start": 594.516,
+  "end": 602.362,
+  "speaker": "Unknown",
+  "en": "And then on the right, you can see in aggregate, the fast runs were much cheaper and then balanced and performance more expensive accordingly.",
+  "zh": "然后在右边，你可以看到总体上，快速运行便宜得多，然后均衡和性能相应地更贵。"
+ },
+ {
+  "seg": 96,
+  "start": 603.222,
+  "end": 609.427,
+  "speaker": "Unknown",
+  "en": "One interesting note, we definitely did see a couple of very long threads contributing disproportionately to cost.",
+  "zh": "一个有趣的点，我们确实看到几个非常长的会话线程不成比例地推高了成本。"
+ },
+ {
+  "seg": 97,
+  "start": 610.251,
+  "end": 613.853,
+  "speaker": "Unknown",
+  "en": "And this was true for both the routed and non-routed arms of the experiment.",
+  "zh": "这在实验的路由和非路由两个分支中都是如此。"
+ },
+ {
+  "seg": 98,
+  "start": 614.734,
+  "end": 620.617,
+  "speaker": "Unknown",
+  "en": "I will note, we actually started a second experiment, which was router versus a controlled fast model.",
+  "zh": "我要说明的是，我们实际上启动了第二个实验，即路由器对比受控的快速模型。"
+ },
+ {
+  "seg": 99,
+  "start": 620.697,
+  "end": 624.079,
+  "speaker": "Unknown",
+  "en": "So in the first experiment, it was a control of the performance model.",
+  "zh": "所以在第一个实验中，对照是性能模型。"
+ },
+ {
+  "seg": 100,
+  "start": 624.92,
+  "end": 630.223,
+  "speaker": "Unknown",
+  "en": "We did end this test within a day because we got so many complaints from users who were stuck on the fast arm.",
+  "zh": "我们确实在一天之内结束了这次测试，因为我们收到了很多用户投诉，他们被卡在了快速那条臂上。"
+ },
+ {
+  "seg": 101,
+  "start": 630.643,
+  "end": 632.184,
+  "speaker": "Unknown",
+  "en": "And so we got enough complaints.",
+  "zh": "所以我们收到了足够多的投诉。"
+ },
+ {
+  "seg": 102,
+  "start": 632.244,
+  "end": 634.746,
+  "speaker": "Unknown",
+  "en": "We didn't want to significantly degrade user experience.",
+  "zh": "我们不想显著降低用户体验。"
+ },
+ {
+  "seg": 103,
+  "start": 634.766,
+  "end": 637.067,
+  "speaker": "Unknown",
+  "en": "And so we decided to stop this experiment.",
+  "zh": "于是我们决定停止这个实验。"
+ },
+ {
+  "seg": 104,
+  "start": 637.147,
+  "end": 638.188,
+  "speaker": "Unknown",
+  "en": "But it was pretty telling.",
+  "zh": "但这已经很说明问题了。"
+ },
+ {
+  "seg": 105,
+  "start": 638.548,
+  "end": 644.291,
+  "speaker": "Unknown",
+  "en": "We certainly couldn't switch over to GLM 5.3 Flash for all of the tasks that OpenSuite needs to manage.",
+  "zh": "我们当然无法把 OpenSuite 需要管理的所有任务都切换到 GLM 5.3 Flash 上。"
+ },
+ {
+  "seg": 106,
+  "start": 645.151,
+  "end": 646.191,
+  "speaker": "Unknown",
+  "en": "So what's next here?",
+  "zh": "那么接下来该做什么？"
+ },
+ {
+  "seg": 107,
+  "start": 646.512,
+  "end": 651.094,
+  "speaker": "Unknown",
+  "en": "There's definitely a lot that we could do to further explore model routing optimizations.",
+  "zh": "肯定还有很多可以做的，来进一步探索模型路由的优化。"
+ },
+ {
+  "seg": 108,
+  "start": 651.754,
+  "end": 658.778,
+  "speaker": "Unknown",
+  "en": "I think the first thing would be benchmarking the router on other eval sets like DeepSuite rather than just doing the A-B testing.",
+  "zh": "我认为第一件事是在其他评测集上对路由器做基准测试，比如 DeepSuite，而不只是做 A-B 测试。"
+ },
+ {
+  "seg": 109,
+  "start": 659.638,
+  "end": 667.5,
+  "speaker": "Unknown",
+  "en": "Or even perhaps other benchmarks that are more review focused because generally the task for OpenSuite is to generate good reviewable PRs.",
+  "zh": "或者甚至也许是其他更侧重于 review 的基准，因为总的来说 OpenSuite 的任务是生成好的、可 review 的 PR。"
+ },
+ {
+  "seg": 110,
+  "start": 668.441,
+  "end": 671.842,
+  "speaker": "Unknown",
+  "en": "The second thing that we didn't touch is model selection for sub-agents.",
+  "zh": "第二件我们没碰的事情是子智能体的模型选择。"
+ },
+ {
+  "seg": 111,
+  "start": 672.402,
+  "end": 682.185,
+  "speaker": "Unknown",
+  "en": "So there's definitely more cost optimizations to be made if we also select appropriately sized models for the sub-agents that the main agent orchestrates with the deep agents harness.",
+  "zh": "所以肯定还有更多成本优化空间可做，如果我们也为子智能体选择大小合适的模型——这些子智能体是主智能体通过 deep agents harness 来编排的。"
+ },
+ {
+  "seg": 112,
+  "start": 683.123,
+  "end": 687.467,
+  "speaker": "Unknown",
+  "en": "A third thing that I mentioned earlier we could certainly explore is rerouting mid-thread.",
+  "zh": "第三件事，我之前提到过，我们当然可以探索的是对话中途重新路由。"
+ },
+ {
+  "seg": 113,
+  "start": 687.967,
+  "end": 702.3,
+  "speaker": "Unknown",
+  "en": "So you can imagine if for OpenSwee, a user asks a question and then discovers that maybe a pretty complex bug fix is in order or wants to design a new feature mid-thread, you might want to upgrade to a more capable model.",
+  "zh": "你可以想象，对于 OpenSwee，用户先问了一个问题，然后发现可能需要一个相当复杂的 bug 修复，或者想在对话中途设计一个新功能，这时你可能想升级到更强能力的模型。"
+ },
+ {
+  "seg": 114,
+  "start": 703.461,
+  "end": 709.627,
+  "speaker": "Unknown",
+  "en": "And rerouting mid-thread could help to ensure that the right model is chosen for the task at any point in the given thread.",
+  "zh": "而对话中途重新路由可以帮忙确保在任何给定的对话节点上，都为手头任务选择了正确的模型。"
+ },
+ {
+  "seg": 115,
+  "start": 710.828,
+  "end": 716.431,
+  "speaker": "Unknown",
+  "en": "One trade-off here is that if you do switch a model, you experience a cache miss, which can be costly.",
+  "zh": "这里有一个权衡：如果你切换了模型，你会遇到一次缓存未命中，这可能是昂贵的。"
+ },
+ {
+  "seg": 116,
+  "start": 716.951,
+  "end": 729.377,
+  "speaker": "Unknown",
+  "en": "But for async agents like OpenSuite, there's actually a lot of cache misses anyways, just because there's more than a five minute idle time between when an agent responds and a developer has time to respond back in Slack.",
+  "zh": "但对于像 OpenSuite 这样的异步智能体来说，其实本来就有很多缓存未命中，只是因为从智能体响应到开发者有时间在 Slack 里回复之间，有超过五分钟的空闲时间。"
+ },
+ {
+  "seg": 117,
+  "start": 729.717,
+  "end": 734.46,
+  "speaker": "Unknown",
+  "en": "So this cache miss might actually not be a super significant concern.",
+  "zh": "所以这个缓存未命中实际上可能不是一个非常值得担心的问题。"
+ },
+ {
+  "seg": 118,
+  "start": 735.301,
+  "end": 738.862,
+  "speaker": "Unknown",
+  "en": "And then the fourth thing would be digging for richer routing signals.",
+  "zh": "然后第四件事是挖掘更丰富的路由信号。"
+ },
+ {
+  "seg": 119,
+  "start": 739.342,
+  "end": 742.524,
+  "speaker": "Unknown",
+  "en": "So we didn't get a ton of feedback on traces.",
+  "zh": "我们并没有从 traces 上得到太多反馈。"
+ },
+ {
+  "seg": 120,
+  "start": 742.864,
+  "end": 749.646,
+  "speaker": "Unknown",
+  "en": "We did get, you know, the PR merge rate was a very reliable metric, but trying to get more active feedback would be helpful as well.",
+  "zh": "我们确实得到了，你知道的，PR 合并率是一个非常可靠的指标，但尝试获取更多主动反馈也会很有帮助。"
+ },
+ {
+  "seg": 121,
+  "start": 750.418,
+  "end": 750.698,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 122,
+  "start": 750.738,
+  "end": 756.406,
+  "speaker": "Unknown",
+  "en": "So if you want to get started building your own router, I would recommend following the four steps that we did in this experiment.",
+  "zh": "所以如果你想开始构建自己的路由器，我建议按照我们在这个实验中做的四个步骤来。"
+ },
+ {
+  "seg": 123,
+  "start": 756.526,
+  "end": 759.63,
+  "speaker": "Unknown",
+  "en": "So one, understand your agent's task space.",
+  "zh": "一，理解你的智能体的任务空间。"
+ },
+ {
+  "seg": 124,
+  "start": 760.271,
+  "end": 765.257,
+  "speaker": "Unknown",
+  "en": "Two, pick models along the Pareto frontier, the cost intelligence curve.",
+  "zh": "二，沿着帕累托前沿、也就是成本-智能曲线来挑选模型。"
+ },
+ {
+  "seg": 125,
+  "start": 766.584,
+  "end": 774.749,
+  "speaker": "Unknown",
+  "en": "Third, treat routing as context engineering and build your router into the harness where the appropriate context is for the given tasks at hand.",
+  "zh": "第三，把路由当作上下文工程来对待，把你的路由器构建进 harness 里，也就是对于眼前的给定任务、合适的上下文所在的地方。"
+ },
+ {
+  "seg": 126,
+  "start": 775.57,
+  "end": 780.013,
+  "speaker": "Unknown",
+  "en": "And fourth, make sure you have the power to measure success before you begin live routing.",
+  "zh": "第四，在开始线上路由之前，确保你有能力衡量成功。"
+ },
+ {
+  "seg": 127,
+  "start": 780.794,
+  "end": 784.296,
+  "speaker": "Unknown",
+  "en": "You can easily add routing to your own agent with our model routing middleware.",
+  "zh": "你可以用我们的模型路由中间件，轻松地为你的智能体添加路由。"
+ },
+ {
+  "seg": 128,
+  "start": 785.193,
+  "end": 791.577,
+  "speaker": "Unknown",
+  "en": "And at LinkChain, we've always prided ourselves on offering open source software that's model provider agnostic.",
+  "zh": "而在 LinkChain，我们一直以提供模型提供方无关的开源软件而自豪。"
+ },
+ {
+  "seg": 129,
+  "start": 792.017,
+  "end": 796.259,
+  "speaker": "Unknown",
+  "en": "And so changing models in your router should just be a one line of code change.",
+  "zh": "所以在你的路由器里更换模型，应该只需要改一行代码。"
+ },
+ {
+  "seg": 130,
+  "start": 797.14,
+  "end": 801.903,
+  "speaker": "Unknown",
+  "en": "You can also check out OpenSwee at LinkChainAI slash OpenSwee on GitHub.",
+  "zh": "你也可以在 GitHub 上的 LinkChainAI slash OpenSwee 查看 OpenSwee。"
+ },
+ {
+  "seg": 131,
+  "start": 802.723,
+  "end": 810.553,
+  "speaker": "Unknown",
+  "en": "You can learn more about building a harness with GEV, which is a decision model that's incredibly powerful for the model routing step, at the blog linked below.",
+  "zh": "你可以在下方链接的博客中，了解更多关于用 GEV 构建 harness 的内容，GEV 是一个决策模型，对于模型路由这一步来说非常强大。"
+ },
+ {
+  "seg": 132,
+  "start": 811.234,
+  "end": 812.917,
+  "speaker": "Unknown",
+  "en": "And we always love hearing from you.",
+  "zh": "而且我们总是很乐意听到你们的声音。"
+ },
+ {
+  "seg": 133,
+  "start": 813.117,
+  "end": 815.059,
+  "speaker": "Unknown",
+  "en": "Feel free to tag us at linkchain on X.",
+  "zh": "欢迎在 X 上 @我们 linkchain。"
+ },
+ {
+  "seg": 134,
+  "start": 815.921,
+  "end": 817.743,
+  "speaker": "Unknown",
+  "en": "Thanks for watching and see you in the next one.",
+  "zh": "感谢观看，下期再见。"
+ }
+]

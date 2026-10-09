@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]] [[Luana Lopes Lara]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":5,"智能体":441,"护栏":84,"沙箱":85,"分支":1,"向量数据库":5,"向量搜索":6,"RAG":25,"text to SQL":2,"语义层":5}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":5,"智能体":444,"护栏":84,"沙箱":85,"分支":1,"向量数据库":6,"向量搜索":6,"RAG":26,"text to SQL":2,"语义层":5}</script>
 
 <script>
 (function(){

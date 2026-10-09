@@ -33,7 +33,7 @@ unlisted: true
 
 [[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLHF]] · [[RLVR]] · [[校准]] · [[OpenAI]] · [[Anthropic]] · [[System 1 模型]] · [[Sam Charrington]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":6,"TypeSafe":4,"RLHF":6,"RLVR":3,"校准":4,"OpenAI":179,"Anthropic":189,"System 1 模型":1,"Sam Charrington":6}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":7,"TypeSafe":4,"RLHF":6,"RLVR":3,"校准":4,"OpenAI":179,"Anthropic":190,"System 1 模型":1,"Sam Charrington":6}</script>
 
 <script>
 (function(){

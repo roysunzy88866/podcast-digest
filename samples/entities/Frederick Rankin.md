@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":441,"人在回路":21,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":444,"人在回路":21,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
 
 <script>
 (function(){

@@ -170,7 +170,7 @@ AOL 的特殊之处在于要从 Yahoo 手中剥离（carve-out），把所有东
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|Cursor 人才负责人：别再掉进招聘的厄运漏斗]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
-- [[2026-06-24-latent-space-databricks|Databricks 的反击：重写数据库、统一智能体与开放的执念]]<span class="pd-rz">同公司:MosaicML</span>
+- [[2026-10-06-talks-how-to-build-a-model-router-in-the-harne|一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”]]<span class="pd-rz">同概念:A/B 测试 (A-B test)</span>
 
 </div>
 </div>

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":29,"智能体":441,"智能体网络":3,"MCP":82,"缩放定律":12,"康威定律":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":29,"智能体":444,"智能体网络":3,"MCP":82,"缩放定律":13,"康威定律":2}</script>
 
 <script>
 (function(){

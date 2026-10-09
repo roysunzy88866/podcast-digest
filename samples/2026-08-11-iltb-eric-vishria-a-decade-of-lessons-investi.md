@@ -205,8 +205,8 @@ Benchling 在 12 个月里遭遇了七年的客户流失，那场磨砺里他全
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Cursor、Fireworks、NVIDIA、Anthropic · 同概念:推理 (inference)</span>
+- [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限]]<span class="pd-rz">同公司:NVIDIA、Anthropic · 同概念:SaaS、推理 (inference)、预训练 (pre-training)</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:NVIDIA、Sierra、Anthropic、Cursor · 同概念:推理 (inference)、开源模型 (open source model)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Cursor、NVIDIA、Anthropic · 同概念:SaaS</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>25</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]]**(03:07起):本集说智能体的记忆命名空间由 RAG 支撑,但加 RAG 记忆仍得不到想要的长期行为
 - **[[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble|《知识该放哪？提示词、记忆还是微调？》]]**(07:52起):本集把 RAG 作为检索外部记忆的手段,强调代码 RAG 要用基于 AST 的分块并打元数据过滤,否则产出「RAG 糊糊」
 - **[[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]]**(05:06起):本集说现成的支持机器人拿不到 RAG 基础设施所以无法迭代，是他们决定自建的原因之一；自建后用 Voyage 的嵌入做检索，让 Joey 一开始就拿到最相关的文档。
+- **[[2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo|《从40份文件到8万份文件:企业AI落地卡在哪》]]**(17:23起):本集在多跳 RAG 评估上对比:清理重复与过期数据后,召回率几乎翻倍,任务完成准确率提升 10% 到 15%,且该提升与具体用例无关。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(00:34起):本集说两年前「数据库+AI」就等于 RAG 和向量数据库——用相似性搜索给聊天机器人补上下文,如今重点已转向智能体直接操作数据库
 
 ## ① 提到它的金句
@@ -47,7 +48,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*25 集*
+*26 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -73,15 +74,16 @@ unlisted: true
 - [[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]] — 作为概念
 - [[2026-10-04-talks-stop-fine-tuning-to-fix-retrieval-proble|《知识该放哪？提示词、记忆还是微调？》]] — 作为概念
 - [[2026-10-04-talks-we-built-an-ai-support-agent-that-resolv|《一个AI客服解决了80%的工单，成本每月700美元》]] — 作为概念
+- [[2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo|《从40份文件到8万份文件:企业AI落地卡在哪》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[上下文]] · [[Anthropic]] · [[向量搜索]] · [[上下文工程]] · [[Claude Code]] · [[护栏]] · [[Codex]] · [[LLM]]
+[[智能体]] · [[MCP]] · [[上下文]] · [[Claude Code]] · [[Anthropic]] · [[向量搜索]] · [[上下文工程]] · [[护栏]] · [[向量数据库]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":441,"MCP":82,"上下文":28,"Anthropic":189,"向量搜索":6,"上下文工程":16,"Claude Code":97,"护栏":84,"Codex":80,"LLM":58}</script>
+<script type="application/json" class="pd-epn">{"智能体":444,"MCP":82,"上下文":29,"Claude Code":98,"Anthropic":190,"向量搜索":6,"上下文工程":16,"护栏":84,"向量数据库":6,"Codex":80}</script>
 
 <script>
 (function(){

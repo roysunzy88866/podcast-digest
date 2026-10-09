@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":10,"评估":5,"基准测试":18,"智能体":441,"RLGym":1,"迁移":1,"Bedrock":3,"Claude Code":97,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":11,"评估":5,"基准测试":18,"智能体":444,"RLGym":1,"迁移":1,"Bedrock":3,"Claude Code":98,"Kiro":4}</script>
 
 <script>
 (function(){

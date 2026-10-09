@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]] [[Kevin Mandia]] [[Dan O'Connell]]
+[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":189,"智能体":441,"harness":61,"沙箱":85,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":38}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":190,"智能体":444,"harness":61,"沙箱":85,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":38}</script>
 
 <script>
 (function(){
