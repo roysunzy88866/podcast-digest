@@ -1727,7 +1727,11 @@ export async function alignPass(state, { dryRun }) {
   try { xml = await fetchFeed(CGC_FEED); } catch (e) { console.error(`   ⚠️ 跨国串门 feed 抓取失败,下班再试:${e.message}`); return { clean: 0, skipped: 0 }; }
   const floor = new Date(Date.now() - CGC_WINDOW_DAYS * 864e5).toISOString();
   state.cgcAlign = state.cgcAlign ?? {};
-  const todo = parseCgcFeed(xml).filter((e) => e.pubISO >= floor && !state.cgcAlign[e.guid]);
+  // 记了「交本机 YouTube」但待办文件里没有(2026-10-09 首班待办文件没回仓,8 期丢了)→ 不算办完,重排
+  const ytFile = join(ROOT, "data/cgc-youtube.json");
+  const ytQueued = new Set((existsSync(ytFile) ? JSON.parse(readFileSync(ytFile, "utf8")) : []).map((x) => x.guid));
+  const pending = (g) => !state.cgcAlign[g] || (String(state.cgcAlign[g].status).includes("YouTube") && !ytQueued.has(g));
+  const todo = parseCgcFeed(xml).filter((e) => e.pubISO >= floor && pending(e.guid));
   if (!todo.length) return { clean: 0, skipped: 0 };
   if (!process.env.TYPESAFE_API_KEY) { console.error("   ⚠️ 跨国串门对齐:缺 TYPESAFE_API_KEY(Jev 分类用),本班不对齐"); return { clean: 0, skipped: 0 }; }
   console.log(`\n══ C43 跨国串门对齐:它近 ${CGC_WINDOW_DAYS} 天有 ${todo.length} 期待对齐(本班最多做 ${CGC_PER_SHIFT} 期)`);
@@ -1755,7 +1759,7 @@ export async function alignPass(state, { dryRun }) {
     pairs.push({ ...r.pair, id, e });
   }
   if (!dryRun && yt.length) {
-    const f = join(ROOT, "data/cgc-youtube.json");
+    const f = ytFile;
     const q = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : [];
     writeFileSync(f, JSON.stringify([...q, ...yt.filter((x) => !q.some((y) => y.guid === x.guid))], null, 2) + "\n");
   }

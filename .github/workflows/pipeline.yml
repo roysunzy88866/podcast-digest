@@ -293,6 +293,8 @@ jobs:
           # data/skipped 是 gitignore 的(不入公开仓);去重靠 pipeline-state.json 的 skipped 账本
           git add data/episodes data/pipeline-state.json samples 2>/dev/null || true
           [ -f data/judge-log.jsonl ] && git add data/judge-log.jsonl || true   # W2 判官留痕(单独一行:缺文件不许拖垮上面那句 add)
+          # C43:对齐的 YouTube 待办(交 Mac mini)与对齐专用源。2026-10-09 首班漏收 → 8 期 YouTube 待办随 runner 丢失
+          for f in data/cgc-youtube.json data/cgc-sources.json; do [ -f "$f" ] && git add "$f" || true; done
           git commit -m "[C7 🤖] C7b 自动跑批:推进 cutoff + skipped 账本(+干净集若有) (US-4, US-5)" || { echo "无改动可提交"; exit 0; }
           # commit 后清场:add 只收产物三路径,其余 tracked 文件的运行期改动(如 npm install 动 lockfile)
           # 会以 unstaged 状态阻塞 pull --rebase(run 30058134004 实测连败 3 次丢第二批产物的根因)。
